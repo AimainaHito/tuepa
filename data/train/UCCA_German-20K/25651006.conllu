@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25651006
+# text = » Sie können reden « , sagte der Kapitän . » Dieser Mann versteht nicht französisch . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+3	können	können	AUX	VMFIN	_	4	D	4:D	_
+4	reden	reden	VERB	ADJD	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	Dieser	dies	PRON	PDAT	_	13	E	13:E	_
+13	Mann	Mann	NOUN	NN	_	14	A	14:A	_
+14	versteht	verstehen	VERB	VVFIN	_	4	H	4:H	_
+15	nicht	nicht	PART	XY	_	14	D	14:D	_
+16	französisch	französisch	ADJ	ADJD	_	14	A	14:A	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+18	«	«	PUNCT	$(	_	14	U	14:U	_
+

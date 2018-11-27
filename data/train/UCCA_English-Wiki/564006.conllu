@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 564006
+# text = Leiber and Stoller , the writers of " Hound Dog " , contributed " Love Me " .
+1	Leiber	Leiber	PROPN	NNP	_	13	A	13:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Stoller	Stoller	PROPN	NNP	_	1	C	1:C	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	writers	writer	NOUN	NNS	_	1	E	1:E	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	"	"	PUNCT	``	_	9	U	9:U	_
+9	Hound	Hound	PROPN	NNP	_	6	E	6:E	_
+10	Dog	dog	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	"	"	PUNCT	''	_	13	U	13:U	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	contributed	contribute	VERB	VBN	_	0	H	0:H	_
+14	"	"	PUNCT	``	_	13	U	13:U	_
+15	Love	love	VERB	VBP	_	13	A	13:A	_
+16	Me	I	PRON	PRP	_	15	Terminal	15:Terminal	_
+17	"	"	PUNCT	''	_	13	U	13:U	_
+18	.	.	PUNCT	.	_	13	U	13:U	_
+

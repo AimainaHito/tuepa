@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25784011
+# text = Keiner von uns sprach nur ein Wort .
+1	Keiner	kein	PRON	PIS	_	4	D	4:D	_
+2	von	von	ADP	NN	_	3	R	3:R	_
+3	uns	wir	PRON	NN	_	4	A	4:A	_
+4	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+5	nur	nur	ADV	NE	_	4	D	4:D	_
+6	ein	ein	DET	ART	_	7	E	7:E	_
+7	Wort	Wort	NOUN	NN	_	4	A	4:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

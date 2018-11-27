@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 235001
+# text = He warned that he would lash out against anyone planning to stop him from carrying the Olympic Torch , saying , " Demonstrators better not get anywhere near me .
+1	He	he	PRON	PRP	_	2	A	2:A|20:A	_
+2	warned	warn	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	6	F	6:F	_
+4	he	he	PRON	PRP	_	6	A	6:A	_
+5	would	would	AUX	MD	_	6	F	6:F	_
+6	lash	lash	VERB	VB	_	2	A	2:A	_
+7	out	out	ADP	RP	_	6	Terminal	6:Terminal	_
+8	against	against	ADP	IN	_	9	R	9:R	_
+9	anyone	anyone	PRON	NN	_	6	A	6:A	_
+10	planning	plan	VERB	VBG	_	9	E	9:E	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	stop	stop	VERB	VB	_	10	A	10:A	_
+13	him	he	PRON	PRP	_	12	A	12:A|15:A	_
+14	from	from	SCONJ	IN	_	15	R	15:R	_
+15	carrying	carry	VERB	VBG	_	12	A	12:A	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	Olympic	Olympic	PROPN	NNP	_	18	E	18:E	_
+18	Torch	torch	PROPN	NNP	_	15	A	15:A	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	saying	say	VERB	VBG	_	2	H	2:H	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	"	"	PUNCT	``	_	20	U	20:U	_
+23	Demonstrators	Demonstrator	NOUN	NNS	_	26	A	26:A	_
+24	better	better	ADV	RBR	_	26	D	26:D	_
+25	not	not	PART	RB	_	26	D	26:D	_
+26	get	get	VERB	VB	_	20	A	20:A	_
+27	anywhere	anywhere	ADV	RB	_	26	D	26:D	_
+28	near	near	ADP	IN	_	29	R	29:R	_
+29	me	I	PRON	PRP	_	26	E	26:E	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

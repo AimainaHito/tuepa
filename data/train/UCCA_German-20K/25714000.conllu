@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25714000
+# text = Der Koffer wurde wieder fest verschlossen , und der Kapitän schrieb auf seinen Deckel eine Adresse in einer Schrift , welche die neugriechische sein musste .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Koffer	Koffer	NOUN	NE	_	6	A	6:A	_
+3	wurde	werden	AUX	NE	_	6	F	6:F	_
+4	wieder	wieder	ADV	NE	_	6	D	6:D	_
+5	fest	fest	ADV	ADJD	_	6	D	6:D	_
+6	verschlossen	verschließen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	11	A	11:A	_
+11	schrieb	schreiben	VERB	VVFIN	_	6	H	6:H	_
+12	auf	auf	ADP	APPR	_	14	R	14:R	_
+13	seinen	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Deckel	Deckel	NOUN	NN	_	11	A	11:A	_
+15	eine	ein	DET	ART	_	16	E	16:E	_
+16	Adresse	Adresse	NOUN	NN	_	11	A	11:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	einer	ein	DET	ART	_	19	E	19:E	_
+19	Schrift	Schrift	NOUN	NN	_	11	A	11:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	welche	welch	PRON	NN	_	24	R	24:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	neugriechische	neugriechisch	ADJ	ADJA	_	24	A	24:A	_
+24	sein	sein	AUX	VAINF	_	19	E	19:E	_
+25	musste	müssen	AUX	VVFIN	_	24	D	24:D	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

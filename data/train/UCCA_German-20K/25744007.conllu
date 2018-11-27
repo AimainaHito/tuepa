@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25744007
+# text = Er zündete mit seinem Feuerstahl ein Häufchen dürrer Blätter mit Schwefel vermischt an , und ließ den Rauch zu den Bienen dringen .
+1	Er	er	PRON	PPER	_	2	A	2:A|22:A	_
+2	zündete	zünden	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	seinem	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Feuerstahl	Feuerstahl	NOUN	NN	_	2	A	2:A	_
+6	ein	ein	DET	ART	_	7	E	7:E	_
+7	Häufchen	Häufchen	NOUN	NE	_	12	A	12:A	_
+8	dürrer	dürr	DET	ADJA	_	9	E	9:E	_
+9	Blätter	Blatt	NOUN	NN	_	7	E	7:E	_
+10	mit	mit	ADP	APPR	_	11	R	11:R	_
+11	Schwefel	Schwefel	NOUN	NN	_	12	A	12:A	_
+12	vermischt	vermischen	ADJ	ADJD	_	2	A	2:A	_
+13	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	ließ	lassen	VERB	VVFIN	_	22	D	22:D	_
+17	den	der	DET	ART	_	18	E	18:E	_
+18	Rauch	Rauch	NOUN	NN	_	22	A	22:A	_
+19	zu	zu	ADP	VVINF	_	21	R	21:R	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Bienen	Biene	NOUN	NN	_	22	A	22:A	_
+22	dringen	dringen	VERB	VVFIN	_	2	H	2:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

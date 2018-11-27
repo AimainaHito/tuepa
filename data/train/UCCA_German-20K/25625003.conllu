@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25625003
+# text = » Ja , Herr Professor « , erwiderte der Kanadier , » man vermißt dabei etwas Obst oder wenigstens Gemüse ! «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Ja	Ja	PROPN	PTKANT	_	14	D	14:D	_
+3	,	,	PUNCT	$,	_	14	U	14:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	14	G	14:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kanadier	Kanadier	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	man	man	PRON	PIS	_	14	A	14:A	_
+14	vermißt	vermissen	VERB	VVFIN	_	8	A	8:A	_
+15	dabei	dabei	ADV	PAV	_	14	A	14:A	_
+16	etwas	etwas	PRON	ADV	_	17	E	17:E	_
+17	Obst	Obst	NOUN	ADV	_	14	A	14:A	_
+18	oder	oder	CCONJ	CARD	_	17	N	17:N	_
+19	wenigstens	wenigstens	ADV	ADV	_	20	E	20:E	_
+20	Gemüse	Gemüse	NOUN	NN	_	17	C	17:C	_
+21	!	!	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

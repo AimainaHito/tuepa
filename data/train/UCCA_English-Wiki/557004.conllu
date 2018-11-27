@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 557004
+# text = " When she pressed him on whom he sounded like , he repeatedly answered , " I do n't sound like nobody .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	When	when	ADV	WRB	_	4	L	4:L	_
+3	she	she	PRON	PRP	_	4	A	4:A	_
+4	pressed	press	VERB	VBD	_	0	H	0:H	_
+5	him	he	PRON	PRP	_	4	A	4:A	_
+6	on	on	ADP	IN	_	9	R	9:R	_
+7	whom	whom	PRON	WP	_	9	A	9:A	_
+8	he	he	PRON	PRP	_	9	A	9:A	_
+9	sounded	sound	VERB	VBD	_	4	A	4:A	_
+10	like	like	ADP	RP	_	7	R	7:R	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	he	he	PRON	PRP	_	14	A	14:A	_
+13	repeatedly	repeatedly	ADV	RB	_	14	D	14:D	_
+14	answered	answer	VERB	VBD	_	4	H	4:H	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	"	"	PUNCT	``	_	14	U	14:U	_
+17	I	I	PRON	PRP	_	20	A	20:A	_
+18	do	do	AUX	VBP	_	20	F	20:F	_
+19	n't	not	PART	RB	_	20	D	20:D	_
+20	sound	sound	VERB	VB	_	14	A	14:A	_
+21	like	like	ADP	IN	_	22	R	22:R	_
+22	nobody	nobody	PRON	NN	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

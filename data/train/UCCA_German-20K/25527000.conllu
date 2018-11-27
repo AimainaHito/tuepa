@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25527000
+# text = Nimmt man Ehrenbergs Hypothese an , der an eine phosphoreszente Erleuchtung der Meeres tiefen glaubt , so hat die Natur gewiß den Bewohnern des Meeres die wundervollste Anschauung vorbehalten , ich konnte hier durch das tausendfache Licht spiel ein Urteil darüber gewinnen .
+1	Nimmt	nehmen	VERB	VVFIN	_	0	H	0:H	_
+2	man	man	PRON	PIS	_	1	A	1:A	_
+3	Ehrenbergs	Ehrenbergs	ADV	ADV	_	4	E	4:E	_
+4	Hypothese	Hypothese	NOUN	NN	_	1	A	1:A	_
+5	an	an	ADP	PTKVZ	_	1	Terminal	1:Terminal	_
+6	,	,	PUNCT	$,	_	1	U	1:U	_
+7	der	der	PRON	PRELS	_	15	R	15:R	_
+8	an	an	ADP	APPR	_	11	R	11:R	_
+9	eine	ein	DET	ART	_	11	E	11:E	_
+10	phosphoreszente	phosphoreszent	ADJ	ADJA	_	11	E	11:E	_
+11	Erleuchtung	Erleuchtung	NOUN	NN	_	15	A	15:A	_
+12	der	der	DET	ART	_	14	R	14:R	_
+13	Meeres	Meer	NOUN	NN	_	14	E	14:E	_
+14	tiefen	tief	ADJ	ADJA	_	11	E	11:E	_
+15	glaubt	glauben	VERB	VVFIN	_	3	E	3:E	_
+16	,	,	PUNCT	$,	_	1	U	1:U	_
+17	so	so	ADV	ADV	_	1	L	1:L	_
+18	hat	haben	AUX	VAFIN	_	29	F	29:F	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Natur	Natur	NOUN	NN	_	29	A	29:A	_
+21	gewiß	gewiß	ADP	ADJD	_	29	G	29:G	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Bewohnern	Bewohner	NOUN	NN	_	29	A	29:A	_
+24	des	der	DET	ART	_	25	R	25:R	_
+25	Meeres	Meer	NOUN	NN	_	23	E	23:E	_
+26	die	der	DET	ART	_	28	E	28:E	_
+27	wundervollste	wundervoll	ADJ	ADJA	_	28	E	28:E	_
+28	Anschauung	Anschauung	NOUN	NN	_	29	A	29:A	_
+29	vorbehalten	vorbehalten	VERB	VVINF	_	1	H	1:H	_
+30	,	,	PUNCT	$,	_	1	U	1:U	_
+31	ich	ich	PRON	PPER	_	42	A	42:A	_
+32	konnte	können	AUX	VMFIN	_	42	D	42:D	_
+33	hier	hier	ADV	ADV	_	42	A	42:A	_
+34	durch	durch	ADP	APPR	_	38	R	38:R	_
+35	das	der	DET	ART	_	38	E	38:E	_
+36	tausendfache	tausendfach	ADJ	ADJA	_	38	E	38:E	_
+37	Licht	Licht	NOUN	NN	_	38	E	38:E	_
+38	spiel	spiel	VERB	NN	_	42	A	42:A	_
+39	ein	ein	DET	ART	_	40	E	40:E	_
+40	Urteil	Urteil	NOUN	NN	_	42	A	42:A	_
+41	darüber	darüber	ADV	PAV	_	42	A	42:A	_
+42	gewinnen	gewinnen	VERB	VVINF	_	1	H	1:H	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

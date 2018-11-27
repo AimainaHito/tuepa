@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25733017
+# text = Wie ließe sich ein Bild geben von dieser Waldung und diesen Felsen , unten düster und wild , oben in der Färbung roter Töne durch Einwirkung jenes hellen Schimmers , der durch die zurückstrahlende Kraft der Gewässer verstärkt wurde ?
+1	Wie	wie	ADV	KON	_	2	A	2:A	_
+2	ließe	lassen	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	Bild	Bild	NOUN	NN	_	2	A	2:A	_
+6	geben	geben	VERB	VVFIN	_	2	Terminal	2:Terminal	_
+7	von	von	ADP	NN	_	9	R	9:R	_
+8	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+9	Waldung	Waldung	NOUN	NN	_	5	E	5:E	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	diesen	dies	PRON	PDAT	_	12	E	12:E	_
+12	Felsen	Felsen	NOUN	NN	_	0	C	0:C|15:A|22:A	_
+13	,	,	PUNCT	$,	_	15	U	15:U	_
+14	unten	unten	ADV	ADJA	_	15	D	15:D	_
+15	düster	düster	ADJ	ADJD	_	2	H	2:H	_
+16	und	und	CCONJ	NN	_	15	N	15:N	_
+17	wild	wild	ADJ	ADJD	_	15	C	15:C	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	oben	oben	ADV	NN	_	22	D	22:D	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Färbung	Färbung	NOUN	NN	_	2	H	2:H	_
+23	roter	rot	ADJ	ADJA	_	24	E	24:E	_
+24	Töne	Ton	NOUN	NN	_	22	A	22:A	_
+25	durch	durch	ADP	APPR	_	26	R	26:R	_
+26	Einwirkung	Einwirkung	NOUN	NN	_	2	H	2:H	_
+27	jenes	jen	PRON	PDAT	_	29	E	29:E	_
+28	hellen	hell	ADJ	ADJA	_	29	E	29:E	_
+29	Schimmers	Schimmer	NOUN	NN	_	26	A	26:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	der	der	PRON	PRELS	_	38	R	38:R	_
+32	durch	durch	ADP	APPR	_	35	R	35:R	_
+33	die	der	DET	ART	_	35	E	35:E	_
+34	zurückstrahlende	zurückstrahlend	ADJ	ADJA	_	35	E	35:E	_
+35	Kraft	Kraft	NOUN	NN	_	38	A	38:A	_
+36	der	der	DET	ART	_	37	R	37:R	_
+37	Gewässer	Gewässer	NOUN	NN	_	35	E	35:E	_
+38	verstärkt	verstärken	VERB	ADJD	_	29	E	29:E	_
+39	wurde	werden	AUX	TRUNC	_	38	F	38:F	_
+40	?	?	PUNCT	$.	_	38	U	38:U	_
+

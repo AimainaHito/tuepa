@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25710013
+# text = » Und was denkt Freund Conseil darüber ? « fragte Ned Land .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	was	was	PRON	NE	_	4	A	4:A	_
+4	denkt	denken	VERB	VVFIN	_	10	A	10:A	_
+5	Freund	Freund	NOUN	NN	_	6	E	6:E	_
+6	Conseil	Conseil	PROPN	NE	_	4	A	4:A	_
+7	darüber	darüber	ADV	PAV	_	4	A	4:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	Land	Land	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

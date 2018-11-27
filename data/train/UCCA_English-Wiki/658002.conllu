@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 658002
+# text = Carey was also named the best - selling female artist of the millennium in 2000 .
+1	Carey	Carey	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	named	name	VERB	VBN	_	0	H	0:H	_
+5	the	the	DET	DT	_	10	E	10:E	_
+6	best	best	ADJ	JJS	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	selling	sell	VERB	VBG	_	10	E	10:E	_
+9	female	female	ADJ	JJ	_	10	E	10:E	_
+10	artist	artist	NOUN	NN	_	4	A	4:A	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	millennium	millennium	NOUN	NN	_	10	E	10:E	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	2000	2000	NUM	CD	_	4	D	4:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

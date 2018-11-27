@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 600001
+# text = In 1953 , he passed the 11 - plus exam , with only three others out of ninety examinees , gaining admission to the Liverpool Institute .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1953	1953	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A|21:A	_
+5	passed	pass	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	11	11	NUM	CD	_	10	E	10:E	_
+8	-	-	PUNCT	HYPH	_	7	U	7:U	_
+9	plus	plus	CCONJ	CC	_	7	Terminal	7:Terminal	_
+10	exam	exam	NOUN	NN	_	5	A	5:A	_
+11	,	,	PUNCT	,	_	5	U	5:U	_
+12	with	with	ADP	IN	_	15	R	15:R	_
+13	only	only	ADV	RB	_	14	E	14:E	_
+14	three	three	NUM	CD	_	15	E	15:E	_
+15	others	other	NOUN	NNS	_	5	A	5:A	_
+16	out	out	ADP	IN	_	19	R	19:R	_
+17	of	of	ADP	IN	_	19	F	19:F	_
+18	ninety	ninety	NOUN	NN	_	19	E	19:E	_
+19	examinees	examinee	NOUN	NNS	_	15	E	15:E	_
+20	,	,	PUNCT	,	_	5	U	5:U	_
+21	gaining	gain	VERB	VBG	_	5	H	5:H	_
+22	admission	admission	NOUN	NN	_	21	A	21:A	_
+23	to	to	ADP	IN	_	26	R	26:R	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	Liverpool	Liverpool	PROPN	NNP	_	26	E	26:E	_
+26	Institute	Institute	PROPN	NNP	_	21	A	21:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

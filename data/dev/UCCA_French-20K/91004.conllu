@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 91004
+# text = Le relèvement du lieu fut exactement pris , et le Moravian continua sa route sans avaries apparentes .
+1	Le	le	DET	_	_	2	E	2:E	_
+2	relèvement	relèvement	NOUN	_	_	7	A	7:A	_
+3	du	du	DET	_	_	4	R	4:R	_
+4	lieu	lieu	NOUN	_	_	2	E	2:E	_
+5	fut	être	AUX	_	_	7	F	7:F	_
+6	exactement	exactement	ADV	_	_	7	D	7:D	_
+7	pris	prendre	VERB	_	_	0	H	0:H	_
+8	,	,	PUNCT	_	_	7	U	7:U	_
+9	et	et	CCONJ	_	_	7	L	7:L	_
+10	le	le	DET	_	_	11	E	11:E	_
+11	Moravian	Moravian	PROPN	_	_	0	C	0:C|16:A	_
+12	continua	continuer	VERB	_	_	7	H	7:H	_
+13	sa	son	DET	_	_	14	E	14:E	_
+14	route	route	NOUN	_	_	12	A	12:A	_
+15	sans	sans	ADP	_	_	7	L	7:L|16:D	_
+16	avaries	avarie	NOUN	_	_	7	H	7:H	_
+17	apparentes	apparent	ADJ	_	_	16	D	16:D	_
+18	.	.	PUNCT	_	_	16	U	16:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25624011
+# text = Diese Früchte hatten gar keinen Kern .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Früchte	Frucht	NOUN	NN	_	3	A	3:A	_
+3	hatten	haben	VERB	VAFIN	_	0	H	0:H	_
+4	gar	gar	ADV	ADV	_	5	E	5:E	_
+5	keinen	kein	PRON	PIAT	_	3	D	3:D	_
+6	Kern	Kern	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 499005
+# text = Bowie toured and gave press conferences as Ziggy before a dramatic and abrupt on - stage " retirement " at London 's Hammersmith Odeon on 3 July 1973 .
+1	Bowie	Bowie	PROPN	NNP	_	2	A	2:A|18:A	_
+2	toured	toure	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	gave	give	VERB	VBD	_	6	F	6:F	_
+5	press	press	NOUN	NN	_	6	E	6:E	_
+6	conferences	conference	NOUN	NNS	_	2	C	2:C	_
+7	as	as	ADP	IN	_	8	R	8:R	_
+8	Ziggy	Ziggy	PROPN	NNP	_	2	A	2:A	_
+9	before	before	ADP	IN	_	2	L	2:L	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	dramatic	dramatic	ADJ	JJ	_	18	D	18:D	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	abrupt	abrupt	ADJ	JJ	_	11	C	11:C	_
+14	on	on	ADP	IN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	stage	stage	NOUN	NN	_	18	E	18:E	_
+17	"	"	PUNCT	``	_	18	U	18:U	_
+18	retirement	retirement	NOUN	NN	_	2	H	2:H	_
+19	"	"	PUNCT	''	_	18	U	18:U	_
+20	at	at	ADP	IN	_	23	R	23:R	_
+21	London	London	PROPN	NNP	_	23	E	23:E	_
+22	's	's	PART	POS	_	21	R	21:R	_
+23	Hammersmith	Hammersmith	PROPN	NNP	_	18	A	18:A	_
+24	Odeon	Odeon	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	on	on	ADP	IN	_	28	R	28:R	_
+26	3	3	NUM	CD	_	28	E	28:E	_
+27	July	July	PROPN	NNP	_	28	E	28:E	_
+28	1973	1973	NUM	CD	_	18	D	18:D	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

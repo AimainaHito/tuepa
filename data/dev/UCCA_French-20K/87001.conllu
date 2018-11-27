@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 87001
+# text = La « question du monstre » enflamma les esprits .
+1	La	le	DET	_	_	3	E	3:E	_
+2	«	«	PUNCT	_	_	3	U	3:U	_
+3	question	question	NOUN	_	_	7	A	7:A	_
+4	du	du	DET	_	_	3	Terminal	3:Terminal	_
+5	monstre	monstre	NOUN	_	_	3	Terminal	3:Terminal	_
+6	»	»	PUNCT	_	_	7	U	7:U	_
+7	enflamma	enflammer	VERB	_	_	0	H	0:H	_
+8	les	le	DET	_	_	9	E	9:E	_
+9	esprits	esprit	NOUN	_	_	7	A	7:A	_
+10	.	.	PUNCT	_	_	9	U	9:U	_
+

@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25755015
+# text = » Trotzdem « , fuhr er fort , » kann der Kapitän nicht immerfort südwärts fahren ! Er muß wohl einmal einhalten , sei es auch nur vor den Eisbergen , und muß in mehr kultivierte Meere zurückkehren ! Dann wird es Zeit sein , Ned Lands Projekte wieder vorzunehmen ! «
+1	»	»	PUNCT	$(	_	16	U	16:U	_
+2	Trotzdem	trotzdem	ADV	PAV	_	16	L	16:L	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	fort	fort	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	kann	können	AUX	VMFIN	_	16	D	16:D	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kapitän	Kapitän	NOUN	NN	_	16	A	16:A	_
+13	nicht	nicht	PART	XY	_	16	D	16:D	_
+14	immerfort	immerfort	ADV	ADV	_	16	D	16:D	_
+15	südwärts	südwärts	ADV	ADV	_	16	D	16:D	_
+16	fahren	fahren	VERB	VVINF	_	5	A	5:A	_
+17	!	!	PUNCT	$.	_	16	U	16:U	_
+18	Er	er	PRON	PPER	_	22	A	22:A|38:A	_
+19	muß	müssen	AUX	VMFIN	_	22	D	22:D	_
+20	wohl	wohl	ADV	ADV	_	22	D	22:D	_
+21	einmal	einmal	ADV	ADV	_	22	D	22:D	_
+22	einhalten	einhalten	VERB	VVINF	_	16	H	16:H	_
+23	,	,	PUNCT	$,	_	16	U	16:U	_
+24	sei	sein	VERB	NE	_	16	H	16:H	_
+25	es	es	PRON	PPER	_	24	A	24:A	_
+26	auch	auch	ADV	ADV	_	24	D	24:D	_
+27	nur	nur	ADV	NE	_	24	D	24:D	_
+28	vor	vor	ADP	NN	_	30	R	30:R	_
+29	den	der	DET	ART	_	30	E	30:E	_
+30	Eisbergen	Eisbergen	NOUN	NN	_	24	A	24:A	_
+31	,	,	PUNCT	$,	_	16	U	16:U	_
+32	und	und	CCONJ	NE	_	16	L	16:L	_
+33	muß	müssen	AUX	VMFIN	_	38	D	38:D	_
+34	in	in	ADP	APPR	_	37	R	37:R	_
+35	mehr	mehr	ADV	ADV	_	36	E	36:E	_
+36	kultivierte	kultiviert	ADJ	ADJA	_	38	A	38:A	_
+37	Meere	Me	NOUN	NN	_	36	A	36:A	_
+38	zurückkehren	zurückkehren	VERB	VVINF	_	16	H	16:H	_
+39	!	!	PUNCT	$.	_	16	U	16:U	_
+40	Dann	dann	ADV	ADV	_	16	L	16:L	_
+41	wird	werden	AUX	VAFIN	_	44	F	44:F	_
+42	es	es	PRON	PPER	_	44	F	44:F	_
+43	Zeit	Zeit	NOUN	NN	_	44	A	44:A	_
+44	sein	sein	AUX	VAINF	_	16	H	16:H	_
+45	,	,	PUNCT	$,	_	44	U	44:U	_
+46	Ned	Ned	PROPN	NE	_	48	E	48:E	_
+47	Lands	Land	PROPN	NE	_	46	Terminal	46:Terminal	_
+48	Projekte	Projekte	PROPN	NN	_	50	A	50:A	_
+49	wieder	wieder	ADV	NN	_	50	D	50:D	_
+50	vorzunehmen	vorzunehmen	VERB	VVINF	_	43	E	43:E	_
+51	!	!	PUNCT	$.	_	50	U	50:U	_
+52	«	«	PUNCT	$(	_	50	U	50:U	_
+

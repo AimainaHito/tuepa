@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25672016
+# text = Man musste , um hinzukommen , das ganze westliche Ufer von Ceylon hinauffahren .
+1	Man	man	PRON	PIS	_	13	A	13:A|5:A	_
+2	musste	müssen	AUX	VVFIN	_	13	D	13:D	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	um	um	ADP	KOUI	_	13	L	13:L	_
+5	hinzukommen	hinzukommen	VERB	NN	_	13	H	13:H	_
+6	,	,	PUNCT	$,	_	13	U	13:U	_
+7	das	der	PRON	ART	_	10	E	10:E	_
+8	ganze	ganz	ADJ	ADJA	_	10	E	10:E	_
+9	westliche	westlich	ADJ	NE	_	10	E	10:E	_
+10	Ufer	Ufer	NOUN	NN	_	12	E	12:E	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	Ceylon	Ceylon	PROPN	NE	_	13	A	13:A	_
+13	hinauffahren	hinauffahren	VERB	VVINF	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

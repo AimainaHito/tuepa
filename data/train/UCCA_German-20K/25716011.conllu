@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25716011
+# text = » Man kann es in diesem siedenden Wasser nicht länger aushalten « , sagte ich zum Kapitän .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Man	man	PRON	PIS	_	11	A	11:A	_
+3	kann	können	AUX	VMFIN	_	11	D	11:D	_
+4	es	es	PRON	PPER	_	11	A	11:A	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	diesem	dies	PRON	PDAT	_	8	E	8:E	_
+7	siedenden	siedend	ADJ	ADJA	_	8	E	8:E	_
+8	Wasser	Wasser	NOUN	NN	_	11	A	11:A	_
+9	nicht	nicht	PART	XY	_	11	D	11:D	_
+10	länger	lang	ADJ	ADJD	_	11	D	11:D	_
+11	aushalten	aushalten	VERB	VVINF	_	14	A	14:A	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+15	ich	ich	PRON	PPER	_	14	A	14:A	_
+16	zum	zum	ADP	NN	_	17	R	17:R	_
+17	Kapitän	Kapitän	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

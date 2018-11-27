@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 648001
+# text = She agreed to allow the pregnancy to continue on condition that Lennon adopt the role of househusband ; this he agreed to do .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	agreed	agree	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	allow	allow	VERB	VB	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	pregnancy	pregnancy	NOUN	NN	_	8	A	8:A	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	continue	continue	VERB	VB	_	4	A	4:A	_
+9	on	on	ADP	IN	_	10	R	10:R	_
+10	condition	condition	NOUN	NN	_	4	L	4:L	_
+11	that	that	SCONJ	IN	_	13	F	13:F	_
+12	Lennon	Lennon	PROPN	NNP	_	13	A	13:A	_
+13	adopt	adoep	VERB	VBD	_	4	H	4:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	role	role	NOUN	NN	_	13	A	13:A	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	househusband	househusband	NOUN	NN	_	15	E	15:E	_
+18	;	;	PUNCT	,	_	4	U	4:U	_
+19	this	this	DET	DT	_	23	A	23:A	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	agreed	agree	VERB	VBD	_	4	H	4:H	_
+22	to	to	PART	TO	_	23	F	23:F	_
+23	do	do	VERB	VB	_	21	A	21:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

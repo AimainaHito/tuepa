@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25652003
+# text = Ein sanfter Abhang endigte an einem unebenen Grund etwa 15 Klafter tief .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	sanfter	sanfter	ADJ	ADJA	_	3	E	3:E	_
+3	Abhang	Abhang	NOUN	NN	_	4	A	4:A	_
+4	endigte	endigen	VERB	VVFIN	_	0	H	0:H	_
+5	an	an	ADP	APPR	_	8	R	8:R	_
+6	einem	ein	DET	ART	_	8	E	8:E	_
+7	unebenen	uneben	ADJ	ADJA	_	8	E	8:E	_
+8	Grund	Grund	NOUN	NN	_	4	A	4:A	_
+9	etwa	etwa	ADV	ADV	_	11	E	11:E	_
+10	15	15	NUM	CARD	_	11	E	11:E	_
+11	Klafter	Klafter	NOUN	NN	_	4	A	4:A	_
+12	tief	tief	ADJ	VVFIN	_	4	D	4:D	_
+13	.	.	PUNCT	$.	_	4	U	4:U	_
+

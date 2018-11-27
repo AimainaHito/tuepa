@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25605024
+# text = Indessen fuhr die " Nautilus " um das gesunkene Schiff herum , und ich konnte auf einem Schild lesen :
+1	Indessen	indessen	ADV	ADV	_	2	L	2:L	_
+2	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	Nautilus	Nautilus	PROPN	NN	_	2	A	2:A	_
+6	"	"	PUNCT	$(	_	2	U	2:U	_
+7	um	um	ADP	APPR	_	10	R	10:R	_
+8	das	der	DET	ART	_	10	E	10:E	_
+9	gesunkene	gesunken	ADJ	ADJA	_	10	E	10:E	_
+10	Schiff	Schiff	NOUN	NN	_	2	A	2:A	_
+11	herum	herum	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	ich	ich	PRON	PPER	_	19	A	19:A	_
+15	konnte	können	AUX	VMFIN	_	19	D	19:D	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	einem	ein	DET	ART	_	18	E	18:E	_
+18	Schild	Schild	NOUN	NN	_	19	A	19:A	_
+19	lesen	lesen	VERB	VVINF	_	2	H	2:H	_
+20	:	:	PUNCT	$.	_	19	U	19:U	_
+

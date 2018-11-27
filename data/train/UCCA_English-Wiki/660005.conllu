@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 660005
+# text = Mottola and the staff at Columbia had planned to market Carey as the main female pop artist on their roster , competing with the likes of Whitney Houston and Madonna , who were signed to Arista and Sire Records respectively .
+1	Mottola	Mottola	PROPN	NNP	_	8	A	8:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	staff	staff	NOUN	NN	_	1	C	1:C	_
+5	at	at	ADP	IN	_	6	R	6:R	_
+6	Columbia	Columbia	PROPN	NNP	_	4	E	4:E	_
+7	had	have	AUX	VBD	_	8	F	8:F	_
+8	planned	plan	VERB	VBN	_	0	H	0:H	_
+9	to	to	ADP	IN	_	10	F	10:F	_
+10	market	market	NOUN	NN	_	8	A	8:A	_
+11	Carey	Carey	PROPN	NNP	_	10	A	10:A|22:A|17:A	_
+12	as	as	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	main	main	ADJ	JJ	_	17	E	17:E	_
+15	female	female	ADJ	JJ	_	17	E	17:E	_
+16	pop	pop	NOUN	NN	_	17	E	17:E	_
+17	artist	artist	NOUN	NN	_	10	A	10:A	_
+18	on	on	ADP	IN	_	20	R	20:R	_
+19	their	they	PRON	PRP$	_	20	E	20:E	_
+20	roster	roster	NOUN	NN	_	17	E	17:E	_
+21	,	,	PUNCT	,	_	8	U	8:U	_
+22	competing	compete	VERB	VBG	_	8	H	8:H	_
+23	with	with	ADP	IN	_	22	R	22:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	likes	likes	NOUN	NNS	_	27	E	27:E	_
+26	of	of	ADP	IN	_	25	R	25:R	_
+27	Whitney	Whitney	PROPN	NNP	_	22	A	22:A	_
+28	Houston	Houston	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	and	and	CCONJ	CC	_	27	N	27:N	_
+30	Madonna	Madonna	PROPN	NNP	_	27	C	27:C	_
+31	,	,	PUNCT	,	_	27	U	27:U	_
+32	who	who	PRON	WP	_	34	R	34:R	_
+33	were	be	AUX	VBD	_	34	F	34:F	_
+34	signed	sign	VERB	VBN	_	27	E	27:E	_
+35	to	to	ADP	IN	_	36	R	36:R	_
+36	Arista	Arista	PROPN	NNP	_	34	A	34:A	_
+37	and	and	CCONJ	CC	_	36	N	36:N	_
+38	Sire	Sire	PROPN	NNP	_	36	C	36:C	_
+39	Records	records	PROPN	NNPS	_	38	Terminal	38:Terminal	_
+40	respectively	respectively	ADV	RB	_	34	D	34:D	_
+41	.	.	PUNCT	.	_	34	U	34:U	_
+

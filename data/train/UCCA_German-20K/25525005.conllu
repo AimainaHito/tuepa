@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25525005
+# text = Der brave Junge , über die Glas kästen gebeugt , murmelte schon Worte aus der Naturforscher sprache ; Klasse der Gasteropoden , Familie der Buccinoiden usw .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	brave	brav	ADJ	NN	_	3	E	3:E	_
+3	Junge	Junge	NOUN	NN	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	über	über	ADP	VVFIN	_	8	R	8:R	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Glas	Glas	NOUN	NN	_	8	E	8:E	_
+8	kästen	käsen	VERB	NN	_	9	A	9:A	_
+9	gebeugt	beugen	AUX	ADJD	_	3	E	3:E	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	murmelte	murmeln	VERB	VVFIN	_	0	H	0:H	_
+12	schon	schon	ADV	ADV	_	11	D	11:D	_
+13	Worte	Wort	NOUN	NN	_	11	A	11:A	_
+14	aus	aus	ADP	APPR	_	17	R	17:R	_
+15	der	der	DET	ART	_	17	E	17:E	_
+16	Naturforscher	Naturforscher	NOUN	ADJA	_	17	E	17:E	_
+17	sprache	sprache	ADJ	NN	_	13	E	13:E	_
+18	;	;	PUNCT	$.	_	11	U	11:U	_
+19	Klasse	Klasse	NOUN	NN	_	21	E	21:E	_
+20	der	der	DET	ART	_	19	R	19:R	_
+21	Gasteropoden	Gasteropoden	NOUN	NN	_	11	A	11:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	Familie	Familie	NOUN	NN	_	25	E	25:E	_
+24	der	der	DET	ART	_	23	R	23:R	_
+25	Buccinoiden	Buccinoiden	NOUN	NN	_	21	C	21:C	_
+26	usw	usw	X	FM	_	21	N	21:N	_
+27	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 128009
+# text = It opened at the Martin Beck Theatre on December 26 , 1933 , and Hepburn was roundly panned by the critics .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	opened	open	VERB	VBD	_	0	H	0:H	_
+3	at	at	ADP	IN	_	7	R	7:R	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	Martin	Martin	PROPN	NNP	_	7	E	7:E	_
+6	Beck	Beck	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Theatre	theatre	PROPN	NNP	_	2	A	2:A	_
+8	on	on	ADP	IN	_	9	R	9:R	_
+9	December	December	PROPN	NNP	_	2	D	2:D	_
+10	26	26	NUM	CD	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	1933	1933	NUM	CD	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	Hepburn	Hepburn	PROPN	NNP	_	18	A	18:A	_
+16	was	be	AUX	VBD	_	18	F	18:F	_
+17	roundly	roundly	ADV	RB	_	18	D	18:D	_
+18	panned	pan	VERB	VBN	_	2	H	2:H	_
+19	by	by	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	critics	critic	NOUN	NNS	_	18	A	18:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

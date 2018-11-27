@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 487010
+# text = Bana 's performance won the Australian Film Institute Award for Best Actor .
+1	Bana	Bana	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	performance	performance	NOUN	NN	_	4	A	4:A	_
+4	won	win	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	9	R	9:R	_
+6	Australian	Australian	PROPN	NNP	_	8	E	8:E	_
+7	Film	film	PROPN	NNP	_	8	E	8:E	_
+8	Institute	Institute	PROPN	NNP	_	9	E	9:E	_
+9	Award	Award	PROPN	NNP	_	4	A	4:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	Best	Best	ADJ	JJS	_	12	E	12:E	_
+12	Actor	Actor	NOUN	NN	_	9	E	9:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

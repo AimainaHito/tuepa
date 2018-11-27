@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 142009
+# text = She chose to continue the tour performing in a wheelchair .
+1	She	she	PRON	PRP	_	4	A	4:A|7:A	_
+2	chose	choose	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	continue	continue	VERB	VB	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	tour	tour	NOUN	NN	_	4	A	4:A	_
+7	performing	perform	VERB	VBG	_	4	A	4:A	_
+8	in	in	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	wheelchair	wheelchair	NOUN	NN	_	7	A	7:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

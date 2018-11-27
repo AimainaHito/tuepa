@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 691000
+# text = From February 1961 , Dylan played at various clubs around Greenwich Village .
+1	From	from	ADP	IN	_	3	R	3:R	_
+2	February	February	PROPN	NNP	_	3	E	3:E	_
+3	1961	1961	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+6	played	play	VERB	VBD	_	0	H	0:H	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	various	various	ADJ	JJ	_	9	E	9:E	_
+9	clubs	club	NOUN	NNS	_	6	A	6:A	_
+10	around	around	ADP	IN	_	11	R	11:R	_
+11	Greenwich	Greenwich	PROPN	NNP	_	9	E	9:E	_
+12	Village	Village	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

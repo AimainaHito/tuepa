@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25525002
+# text = » Ich muß meinem Herrn glauben , weil er 's versichert « , erwiderte Conseil ; » aber offen gesagt , dieser Salon ist gemacht , selbst einen Flamen , wie ich bin , in Staunen zu setzen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ich	ich	PRON	PPER	_	6	A	6:A	_
+3	muß	müssen	AUX	VMFIN	_	6	D	6:D	_
+4	meinem	mein	PRON	PIS	_	5	E	5:E	_
+5	Herrn	Herr	NOUN	NN	_	6	A	6:A	_
+6	glauben	glauben	VERB	VVINF	_	14	A	14:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+9	er	er	PRON	PPER	_	11	A	11:A	_
+10	's	es	PART	PPER	_	11	A	11:A	_
+11	versichert	versichern	VERB	VVFIN	_	6	H	6:H	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+15	Conseil	Conseil	PROPN	NE	_	14	A	14:A	_
+16	;	;	PUNCT	$.	_	14	U	14:U	_
+17	»	»	PUNCT	$(	_	14	U	14:U	_
+18	aber	aber	CCONJ	ADV	_	6	L	6:L	_
+19	offen	offen	ADV	CARD	_	20	D	20:D	_
+20	gesagt	sagen	VERB	VVPP	_	6	H	6:H	_
+21	,	,	PUNCT	$,	_	6	U	6:U	_
+22	dieser	dies	PRON	PDS	_	23	E	23:E	_
+23	Salon	Salon	NOUN	NE	_	25	A	25:A	_
+24	ist	sein	AUX	NE	_	25	F	25:F	_
+25	gemacht	machen	ADJ	VVPP	_	6	H	6:H	_
+26	,	,	PUNCT	$,	_	6	U	6:U	_
+27	selbst	selbst	ADV	VVFIN	_	35	D	35:D	_
+28	einen	ein	DET	ART	_	29	E	29:E	_
+29	Flamen	Flame	NOUN	NN	_	35	A	35:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	wie	wie	ADP	KON	_	33	R	33:R	_
+32	ich	ich	PRON	PPER	_	33	A	33:A	_
+33	bin	sein	AUX	VAFIN	_	29	E	29:E	_
+34	,	,	PUNCT	$,	_	35	U	35:U	_
+35	in	in	ADP	APPR	_	6	H	6:H	_
+36	Staunen	Staune	NOUN	NN	_	35	Terminal	35:Terminal	_
+37	zu	zu	PART	VVINF	_	35	F	35:F	_
+38	setzen	setzen	VERB	VVINF	_	35	Terminal	35:Terminal	_
+39	.	.	PUNCT	$.	_	35	U	35:U	_
+40	«	«	PUNCT	$(	_	35	U	35:U	_
+

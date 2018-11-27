@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25681014
+# text = Die Sonnen strahlen drangen durch den Vorhang des über den Horizont zerstreuten Gewölks , und das strahlende Gestirn stieg rasch empor .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Sonnen	Sonne	NOUN	NN	_	3	E	3:E	_
+3	strahlen	strahlen	VERB	VVFIN	_	4	A	4:A	_
+4	drangen	drang	ADJ	NN	_	0	H	0:H	_
+5	durch	durch	ADP	APPR	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Vorhang	vorhang	NOUN	NN	_	4	A	4:A	_
+8	des	der	DET	ART	_	12	R	12:R	_
+9	über	über	ADP	NE	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Horizont	Horizont	NOUN	NN	_	12	A	12:A	_
+12	zerstreuten	zerstreut	ADJ	ADJA	_	7	E	7:E	_
+13	Gewölks	Gewölk	NOUN	NN	_	12	A	12:A	_
+14	,	,	PUNCT	$,	_	4	U	4:U	_
+15	und	und	CCONJ	NE	_	4	L	4:L	_
+16	das	der	DET	ART	_	18	E	18:E	_
+17	strahlende	strahlend	ADJ	ADJA	_	18	E	18:E	_
+18	Gestirn	Gestirn	NOUN	NN	_	19	A	19:A	_
+19	stieg	steigen	VERB	VVFIN	_	4	H	4:H	_
+20	rasch	rasch	ADJ	ADJD	_	19	D	19:D	_
+21	empor	empor	X	NN	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+

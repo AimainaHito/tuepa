@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25490094
+# text = Und im Falle der seltsame Kommandant dieses Boots ein Geheimnis zu bewahren hätte - was wenigstens wahrscheinlich schien - , so würde er uns an Bord nicht frei handeln lassen .
+1	Und	und	CCONJ	NN	_	12	L	12:L	_
+2	im	im	ADJ	NE	_	3	R	3:R	_
+3	Falle	Falle	NOUN	NE	_	12	L	12:L	_
+4	der	der	DET	ART	_	6	E	6:E	_
+5	seltsame	seltsam	ADJ	ADJA	_	6	E	6:E	_
+6	Kommandant	Kommandant	NOUN	NN	_	12	A	12:A	_
+7	dieses	dies	PRON	PDAT	_	8	R	8:R	_
+8	Boots	Boot	NOUN	NN	_	6	E	6:E	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Geheimnis	Geheimni	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	bewahren	bewahren	VERB	VVINF	_	0	H	0:H	_
+13	hätte	haben	AUX	VAFIN	_	12	D	12:D	_
+14	-	-	PUNCT	$(	_	12	U	12:U	_
+15	was	was	PRON	NE	_	18	A	18:A	_
+16	wenigstens	wenigstens	ADV	ADV	_	17	D	17:D	_
+17	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	18	A	18:A	_
+18	schien	scheinen	AUX	VVFIN	_	12	H	12:H	_
+19	-	-	PUNCT	$(	_	12	U	12:U	_
+20	,	,	PUNCT	$,	_	12	U	12:U	_
+21	so	so	ADV	ADV	_	12	L	12:L	_
+22	würde	werden	AUX	NN	_	29	D	29:D	_
+23	er	er	PRON	PPER	_	29	A	29:A	_
+24	uns	wir	PRON	NN	_	29	A	29:A	_
+25	an	an	ADP	APPR	_	26	R	26:R	_
+26	Bord	Bord	NOUN	NN	_	29	A	29:A	_
+27	nicht	nicht	PART	XY	_	29	D	29:D	_
+28	frei	frei	ADV	ADJD	_	29	D	29:D	_
+29	handeln	handeln	VERB	VVINF	_	12	H	12:H	_
+30	lassen	lassen	VERB	VVINF	_	29	D	29:D	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

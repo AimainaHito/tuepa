@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25639005
+# text = Sie kümmerte sich um die Anwesenheit dieser Kannibalen so wenig , als die Soldaten eines festen Platzes um die Ameisen , die über seine Bollwerke laufen .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	kümmerte	kümmern	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	um	um	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Anwesenheit	Anwesenheit	NOUN	NN	_	2	A	2:A	_
+7	dieser	dies	PRON	PDS	_	8	R	8:R	_
+8	Kannibalen	Kannibale	NOUN	NN	_	6	A	6:A	_
+9	so	so	ADV	ADV	_	2	D	2:D	_
+10	wenig	wenig	PRON	ADJA	_	2	D	2:D	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	als	als	SCONJ	KOUS	_	2	L	2:L	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Soldaten	Soldat	NOUN	NN	_	2	H	2:H	_
+15	eines	ein	DET	ART	_	17	R	17:R	_
+16	festen	fest	ADJ	ADJA	_	17	E	17:E	_
+17	Platzes	Platz	NOUN	NN	_	14	E	14:E	_
+18	um	um	ADP	APPR	_	20	R	20:R	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Ameisen	Ameise	NOUN	NN	_	14	A	14:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	26	R	26:R	_
+23	über	über	ADP	ADJD	_	25	R	25:R	_
+24	seine	sein	DET	PPOSAT	_	25	E	25:E	_
+25	Bollwerke	Bollwerk	NOUN	NN	_	26	A	26:A	_
+26	laufen	laufen	VERB	VVFIN	_	20	E	20:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25771028
+# text = Das Boot wurde ins Meer hinabgelassen , und der Kapitän nebst zwei seiner Leute mit den Instrumenten , Conseil und mir , stiegen ein .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	6	A	6:A	_
+3	wurde	werden	AUX	NN	_	6	F	6:F	_
+4	ins	in	DET	NE	_	5	R	5:R	_
+5	Meer	Meer	NOUN	NE	_	6	A	6:A	_
+6	hinabgelassen	hinabgelassen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	23	A	23:A	_
+11	nebst	nebst	ADV	APPR	_	14	R	14:R	_
+12	zwei	zwei	NUM	NN	_	14	E	14:E	_
+13	seiner	sein	DET	PPOSAT	_	14	R	14:R	_
+14	Leute	Leute	NOUN	NN	_	10	E	10:E	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Instrumenten	Instrument	NOUN	NN	_	14	E	14:E	_
+18	,	,	PUNCT	$,	_	10	U	10:U	_
+19	Conseil	Conseil	NOUN	NE	_	10	E	10:E	_
+20	und	und	CCONJ	NE	_	19	N	19:N	_
+21	mir	ich	PRON	PPER	_	19	C	19:C	_
+22	,	,	PUNCT	$,	_	23	U	23:U	_
+23	stiegen	steigen	VERB	VVFIN	_	6	H	6:H	_
+24	ein	ein	ADV	PTKVZ	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

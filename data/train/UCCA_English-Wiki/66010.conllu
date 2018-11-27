@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 66010
+# text = During this period , she wore black clothing , experimented with knife play , and went out moshing with her live - in boyfriend .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	period	period	NOUN	NN	_	6	D	6:D|18:D|10:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A|10:A|13:A	_
+6	wore	wear	VERB	VBD	_	0	H	0:H	_
+7	black	black	ADJ	JJ	_	8	E	8:E	_
+8	clothing	clothing	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	experimented	experiment	VERB	VBN	_	6	H	6:H	_
+11	with	with	ADP	IN	_	13	R	13:R	_
+12	knife	knife	NOUN	NN	_	13	A	13:A	_
+13	play	play	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	and	and	CCONJ	CC	_	6	L	6:L	_
+16	went	go	VERB	VBD	_	18	E	18:E	_
+17	out	out	ADP	RP	_	16	Terminal	16:Terminal	_
+18	moshing	mosh	VERB	VBG	_	6	H	6:H	_
+19	with	with	ADP	IN	_	24	R	24:R	_
+20	her	she	PRON	PRP$	_	24	E	24:E	_
+21	live	live	NOUN	NN	_	24	E	24:E	_
+22	-	-	PUNCT	,	_	21	U	21:U	_
+23	in	in	ADP	IN	_	21	Terminal	21:Terminal	_
+24	boyfriend	boyfriend	NOUN	NN	_	18	A	18:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

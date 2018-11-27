@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25814003
+# text = Aber Kapitän Nemo war mir schon zuvorgekommen .
+1	Aber	aber	PROPN	KON	_	7	L	7:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+4	war	sein	AUX	NE	_	7	F	7:F	_
+5	mir	ich	PRON	PPER	_	7	A	7:A	_
+6	schon	schon	ADV	ADV	_	7	D	7:D	_
+7	zuvorgekommen	zuvorkommen	VERB	VVPP	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

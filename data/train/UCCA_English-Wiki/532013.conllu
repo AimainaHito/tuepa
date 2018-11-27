@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 532013
+# text = Some of that bad press was deflected by the announcement of a near fatal episode of pleurisy .
+1	Some	some	DET	DT	_	5	E	5:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	that	that	DET	DT	_	5	E	5:E	_
+4	bad	bad	ADJ	JJ	_	5	E	5:E	_
+5	press	press	NOUN	NN	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	deflected	deflect	VERB	VBN	_	0	H	0:H	_
+8	by	by	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	announcement	announcement	NOUN	NN	_	7	A	7:A	_
+11	of	of	ADP	IN	_	15	R	15:R	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	near	near	ADP	IN	_	14	E	14:E	_
+14	fatal	fatal	ADJ	JJ	_	15	E	15:E	_
+15	episode	episode	NOUN	NN	_	10	E	10:E	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	pleurisy	pleurisy	NOUN	NN	_	15	E	15:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

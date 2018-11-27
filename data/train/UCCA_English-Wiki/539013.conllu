@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 539013
+# text = During this period , the studio earned few profits ; and in 1920 , the Warners secured a bank loan to settle outstanding debts .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	period	period	NOUN	NN	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	studio	studio	NOUN	NN	_	7	A	7:A	_
+7	earned	earn	VERB	VBD	_	0	H	0:H	_
+8	few	few	ADJ	JJ	_	9	E	9:E	_
+9	profits	profit	NOUN	NNS	_	7	A	7:A	_
+10	;	;	PUNCT	,	_	7	U	7:U	_
+11	and	and	CCONJ	CC	_	7	L	7:L	_
+12	in	in	ADP	IN	_	13	E	13:E	_
+13	1920	1920	NUM	CD	_	17	D	17:D	_
+14	,	,	PUNCT	,	_	17	U	17:U	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Warners	Warners	PROPN	NNPS	_	0	C	0:C|22:A	_
+17	secured	secure	VERB	VBD	_	7	H	7:H	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	bank	bank	NOUN	NN	_	20	E	20:E	_
+20	loan	loan	NOUN	NN	_	17	A	17:A	_
+21	to	to	PART	TO	_	7	L	7:L	_
+22	settle	settle	VERB	VB	_	7	H	7:H	_
+23	outstanding	outstanding	ADJ	JJ	_	24	E	24:E	_
+24	debts	debt	NOUN	NNS	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

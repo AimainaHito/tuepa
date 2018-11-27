@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25652010
+# text = Im Altertum ein Heilmittel , in neueren Zeiten ein Zierat , wurde ihr erst 1694 von dem Marseiller Prysonnet definitiv ihre Stelle im Tierreich angewiesen .
+1	Im	Im	ADJ	NN	_	2	R	2:R	_
+2	Altertum	Altertum	NOUN	NN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Heilmittel	Heilmittel	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	neueren	neu	ADJ	ADJA	_	8	E	8:E	_
+8	Zeiten	Zeit	NOUN	NN	_	2	H	2:H	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Zierat	Zierat	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	wurde	werden	AUX	NN	_	13	F	13:F	_
+13	ihr	ihr	PRON	PPER	_	2	H	2:H	_
+14	erst	erst	ADV	ADV	_	13	D	13:D	_
+15	1694	1694	NUM	CARD	_	13	D	13:D	_
+16	von	von	ADP	NN	_	19	R	19:R	_
+17	dem	der	DET	ART	_	19	E	19:E	_
+18	Marseiller	Marseille	PROPN	NE	_	19	E	19:E	_
+19	Prysonnet	Prysonnet	PROPN	NN	_	13	A	13:A	_
+20	definitiv	definitiv	ADV	ADJD	_	13	D	13:D	_
+21	ihre	ihr	DET	PPOSAT	_	22	E	22:E	_
+22	Stelle	Stelle	NOUN	NN	_	13	A	13:A	_
+23	im	im	ADJ	NN	_	24	R	24:R	_
+24	Tierreich	Tierreich	NOUN	NN	_	22	E	22:E	_
+25	angewiesen	anweisen	VERB	VVPP	_	13	Terminal	13:Terminal	_
+26	.	.	PUNCT	$.	_	13	U	13:U	_
+

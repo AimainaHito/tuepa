@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25488117
+# text = « » Offenbar « , erwiderte der Harpunier , und demungeachtet hat , seit den 3 Stunden , dass ich diese schwimmende Insel bewohne , sie noch kein Lebens zeichen von sich gegeben .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Offenbar	offenbar	PROPN	NE	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Harpunier	Harpunier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	demungeachtet	demungeachten	VERB	VVPP	_	33	D	33:D	_
+12	hat	haben	AUX	VAFIN	_	33	F	33:F	_
+13	,	,	PUNCT	$,	_	33	U	33:U	_
+14	seit	seit	ADP	ADJA	_	17	R	17:R	_
+15	den	der	DET	ART	_	17	E	17:E	_
+16	3	3	NUM	CARD	_	17	E	17:E	_
+17	Stunden	Stunde|Stunden	NOUN	NN	_	33	D	33:D	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	dass	dass	SCONJ	KOUS	_	24	R	24:R	_
+20	ich	ich	PRON	PPER	_	24	A	24:A	_
+21	diese	dies	PRON	PDAT	_	23	E	23:E	_
+22	schwimmende	schwimmend	ADJ	ADJA	_	23	E	23:E	_
+23	Insel	Insel	NOUN	NN	_	24	A	24:A	_
+24	bewohne	bewohne	ADP	APPR	_	17	E	17:E	_
+25	,	,	PUNCT	$,	_	33	U	33:U	_
+26	sie	sie	PRON	ADV	_	33	A	33:A	_
+27	noch	noch	ADV	CARD	_	33	D	33:D	_
+28	kein	kein	PRON	PIAT	_	33	D	33:D	_
+29	Lebens	Leben	NOUN	NN	_	33	A	33:A	_
+30	zeichen	zeichen	VERB	ADJA	_	29	E	29:E	_
+31	von	von	ADP	NE	_	32	R	32:R	_
+32	sich	er|es|sie	PRON	PRF	_	33	A	33:A	_
+33	gegeben	geben	VERB	VVPP	_	3	H	3:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

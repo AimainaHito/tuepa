@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25443002
+# text = Ich gab ihm eine Gelegenheit sich zu unterreden , und er mir eine solche , die alte Sprache des Rabelais zu hören , die in einigen Gegenden Kanadas noch in Gebrauch ist .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+3	ihm	er	PRON	PPER	_	2	A	2:A|6:A	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Gelegenheit	Gelegenheit	NOUN	NN	_	2	A	2:A	_
+6	sich	er|es|sie	PRON	PRF	_	5	E	5:E	_
+7	zu	zu	PART	VVINF	_	6	F	6:F	_
+8	unterreden	unterreden	VERB	VVINF	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	er	er	PRON	PPER	_	2	H	2:H	_
+12	mir	ich	PRON	PPER	_	11	A	11:A|22:A	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	solche	solch	PRON	ADJA	_	11	A	11:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	DET	ART	_	18	E	18:E	_
+17	alte	alt	ADJ	ADJA	_	18	E	18:E	_
+18	Sprache	Sprache	NOUN	NN	_	22	A	22:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Rabelais	Rabelais	NOUN	NE	_	18	E	18:E	_
+21	zu	zu	PART	NE	_	22	F	22:F	_
+22	hören	hören	VERB	VVINF	_	14	E	14:E	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	die	der	PRON	PRELS	_	30	R	30:R	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	einigen	einige	PRON	PIAT	_	27	E	27:E	_
+27	Gegenden	Gegende	NOUN	NN	_	30	A	30:A	_
+28	Kanadas	Kanada	PROPN	NE	_	27	E	27:E	_
+29	noch	noch	ADV	CARD	_	30	D	30:D	_
+30	in	in	ADP	APPR	_	18	E	18:E	_
+31	Gebrauch	Gebrauch	NOUN	NN	_	30	Terminal	30:Terminal	_
+32	ist	sein	AUX	VVFIN	_	30	F	30:F	_
+33	.	.	PUNCT	$.	_	30	U	30:U	_
+

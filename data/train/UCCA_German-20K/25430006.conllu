@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25430006
+# text = Es schien , als habe das Einhorn Kunde von einem gegen es geschmiedeten Komplott bekommen .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	als	als	SCONJ	KOUS	_	15	R	15:R	_
+5	habe	haben	AUX	VAFIN	_	15	F	15:F	_
+6	das	der	DET	ART	_	7	E	7:E	_
+7	Einhorn	Einhorn	NOUN	NE	_	15	A	15:A	_
+8	Kunde	Kunde	PROPN	NN	_	15	A	15:A	_
+9	von	von	ADP	NN	_	13	R	13:R	_
+10	einem	ein	DET	ART	_	14	E	14:E	_
+11	gegen	gegen	ADP	APPR	_	12	R	12:R	_
+12	es	es	PRON	PPER	_	13	A	13:A	_
+13	geschmiedeten	geschmiedet	ADJ	ADJA	_	15	A	15:A	_
+14	Komplott	Komplott	NOUN	NN	_	13	A	13:A	_
+15	bekommen	bekommen	VERB	VVPP	_	2	A	2:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

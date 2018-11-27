@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25488027
+# text = « » Du meinst ?
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Du	du	PRON	PPER	_	4	A	4:A	_
+4	meinst	meinsen	VERB	ADV	_	0	H	0:H	_
+5	?	?	PUNCT	$.	_	4	U	4:U	_
+

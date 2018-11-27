@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25724004
+# text = Meiner Ungeduld flossen die Stunden zu langsam hin .
+1	Meiner	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Ungeduld	Ungeduld	NOUN	NN	_	3	A	3:A	_
+3	flossen	fließen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Stunden	Stunde|Stunden	NOUN	NN	_	3	A	3:A	_
+6	zu	zu	ADP	NN	_	3	D	3:D	_
+7	langsam	langsam	ADJ	ADJD	_	3	D	3:D	_
+8	hin	hin	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+9	.	.	PUNCT	$.	_	3	U	3:U	_
+

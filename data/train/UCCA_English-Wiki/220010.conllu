@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 220010
+# text = Dunst revealed that she recorded the songs earlier and later lip - synced to it when filming began .
+1	Dunst	Dunst	PROPN	NNP	_	2	A	2:A	_
+2	revealed	reveal	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	5	F	5:F	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	recorded	record	VERB	VBD	_	2	A	2:A	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	songs	song	NOUN	NNS	_	5	A	5:A	_
+8	earlier	earlier	ADV	RBR	_	5	D	5:D	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	later	later	ADV	RBR	_	13	D	13:D	_
+11	lip	lip	NOUN	NN	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	synced	synce	VERB	VBN	_	2	H	2:H	_
+14	to	to	ADP	IN	_	13	F	13:F	_
+15	it	it	PRON	PRP	_	13	A	13:A	_
+16	when	when	ADV	WRB	_	2	L	2:L	_
+17	filming	film	VERB	VBG	_	18	A	18:A	_
+18	began	begin	PROPN	NNP	_	2	H	2:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

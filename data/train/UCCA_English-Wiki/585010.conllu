@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 585010
+# text = The two divorced when Johnny was 15 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	two	two	NUM	CD	_	3	A	3:A	_
+3	divorced	divorce	ADJ	JJ	_	0	H	0:H	_
+4	when	when	ADV	WRB	_	3	L	3:L	_
+5	Johnny	Johnny	PROPN	NNP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	15	15	NUM	CD	_	3	H	3:H	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

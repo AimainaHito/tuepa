@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 377009
+# text = Gyllenhaal dropped out after two years to concentrate on acting , but has expressed intentions to eventually finish his degree .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	2	A	2:A|10:A|8:A|18:A|14:A	_
+2	dropped	drop	VERB	VBD	_	0	H	0:H	_
+3	out	out	ADV	RB	_	2	Terminal	2:Terminal	_
+4	after	after	ADP	IN	_	6	R	6:R	_
+5	two	two	NUM	CD	_	6	E	6:E	_
+6	years	year	NOUN	NNS	_	2	D	2:D	_
+7	to	to	PART	TO	_	2	L	2:L	_
+8	concentrate	concentrate	VERB	VB	_	2	H	2:H	_
+9	on	on	ADP	IN	_	10	R	10:R	_
+10	acting	acting	VERB	VBG	_	8	A	8:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	but	but	CCONJ	CC	_	2	L	2:L	_
+13	has	have	AUX	VBZ	_	14	F	14:F	_
+14	expressed	express	VERB	VBN	_	2	H	2:H	_
+15	intentions	intention	NOUN	NNS	_	14	A	14:A	_
+16	to	to	PART	TO	_	18	F	18:F	_
+17	eventually	eventually	ADV	RB	_	18	D	18:D	_
+18	finish	finish	VERB	VB	_	14	A	14:A	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	degree	degree	NOUN	NN	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

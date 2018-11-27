@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 652002
+# text = Ono , meanwhile , was granted permanent residence .
+1	Ono	Ono	INTJ	UH	_	6	A	6:A	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	meanwhile	meanwhile	ADV	RB	_	6	L	6:L	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	granted	grant	VERB	VBN	_	0	H	0:H	_
+7	permanent	permanent	ADJ	JJ	_	8	E	8:E	_
+8	residence	residence	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

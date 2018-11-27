@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25813024
+# text = Aber plötzlich wurde mein kühner Genosse von den Armen eines Ungeheuers , denen er nicht ausweichen konnte , zu Boden geworfen .
+1	Aber	aber	CCONJ	KON	_	21	L	21:L	_
+2	plötzlich	plötzlich	ADV	ADJD	_	21	D	21:D	_
+3	wurde	werden	AUX	TRUNC	_	21	F	21:F	_
+4	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+5	kühner	kühn	DET	NN	_	6	E	6:E	_
+6	Genosse	Genosse	NOUN	NN	_	21	A	21:A	_
+7	von	von	ADP	NN	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Armen	Arm|Arme	NOUN	NN	_	21	A	21:A	_
+10	eines	ein	DET	ART	_	11	R	11:R	_
+11	Ungeheuers	Ungeheuer	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	denen	der	PRON	PRELS	_	16	R	16:R	_
+14	er	er	PRON	PPER	_	16	A	16:A	_
+15	nicht	nicht	PART	XY	_	16	D	16:D	_
+16	ausweichen	ausweichen	VERB	VVINF	_	9	E	9:E	_
+17	konnte	können	AUX	VMFIN	_	16	D	16:D	_
+18	,	,	PUNCT	$,	_	21	U	21:U	_
+19	zu	zu	ADP	NE	_	20	R	20:R	_
+20	Boden	Boden	NOUN	NE	_	21	A	21:A	_
+21	geworfen	werfen	VERB	VVPP	_	0	H	0:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

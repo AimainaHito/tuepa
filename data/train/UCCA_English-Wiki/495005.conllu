@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 495005
+# text = Declaring that he would exit the pop world " to study mime at Sadler 's Wells " , Bowie nevertheless remained with the Lower Third .
+1	Declaring	declare	VERB	VBG	_	0	H	0:H	_
+2	that	that	SCONJ	IN	_	5	F	5:F	_
+3	he	he	PRON	PRP	_	5	A	5:A|11:A	_
+4	would	would	AUX	MD	_	5	F	5:F	_
+5	exit	exit	VERB	VB	_	1	A	1:A	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	pop	pop	NOUN	NN	_	8	E	8:E	_
+8	world	world	NOUN	NN	_	5	A	5:A	_
+9	"	"	PUNCT	''	_	1	U	1:U	_
+10	to	to	PART	TO	_	1	L	1:L	_
+11	study	study	VERB	VB	_	1	H	1:H	_
+12	mime	mime	NOUN	NN	_	11	A	11:A	_
+13	at	at	ADP	IN	_	14	R	14:R	_
+14	Sadler	Sadler	PROPN	NNP	_	11	A	11:A	_
+15	's	's	PART	POS	_	14	Terminal	14:Terminal	_
+16	Wells	Wells	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	"	"	PUNCT	''	_	1	U	1:U	_
+18	,	,	PUNCT	,	_	1	U	1:U	_
+19	Bowie	Bowie	PROPN	NNP	_	21	A	21:A	_
+20	nevertheless	nevertheless	ADV	RB	_	1	L	1:L	_
+21	remained	remain	VERB	VBD	_	1	H	1:H	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	Lower	lower	PROPN	NNP	_	21	A	21:A	_
+25	Third	third	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

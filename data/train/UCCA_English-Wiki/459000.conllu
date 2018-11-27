@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 459000
+# text = None of the shake - ups helped Jennings retake the nightly ratings crown , but World News Tonight still offered stiff competition at second place .
+1	None	none	NOUN	NN	_	7	D	7:D	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	shake	shake	NOUN	NN	_	7	A	7:A	_
+5	-	-	PUNCT	,	_	4	U	4:U	_
+6	ups	up	NOUN	NNS	_	4	Terminal	4:Terminal	_
+7	helped	help	VERB	VBN	_	0	H	0:H	_
+8	Jennings	Jenning	NOUN	NNS	_	7	A	7:A|9:A	_
+9	retake	retake	VERB	VBP	_	7	A	7:A	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	nightly	nightly	ADJ	JJ	_	12	E	12:E	_
+12	ratings	rating	NOUN	NNS	_	13	E	13:E	_
+13	crown	crown	NOUN	NN	_	9	A	9:A	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	but	but	CCONJ	CC	_	7	L	7:L	_
+16	World	World	PROPN	NNP	_	20	A	20:A	_
+17	News	news	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Tonight	tonight	NOUN	NN	_	16	Terminal	16:Terminal	_
+19	still	still	ADV	RB	_	20	D	20:D	_
+20	offered	offer	VERB	VBD	_	7	H	7:H	_
+21	stiff	stiff	NOUN	NN	_	22	E	22:E	_
+22	competition	competition	NOUN	NN	_	20	A	20:A	_
+23	at	at	ADP	IN	_	25	R	25:R	_
+24	second	second	ADJ	JJ	_	25	E	25:E	_
+25	place	place	NOUN	NN	_	22	E	22:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25526009
+# text = Wir waren nur durch zwei Glas platten vom Meer geschieden .
+1	Wir	wir	PRON	NE	_	10	A	10:A	_
+2	waren	sein	VERB	VAFIN	_	10	D	10:D	_
+3	nur	nur	ADV	NE	_	10	D	10:D	_
+4	durch	durch	ADP	APPR	_	7	R	7:R	_
+5	zwei	zwei	NUM	NN	_	7	E	7:E	_
+6	Glas	Glas	NOUN	NE	_	7	E	7:E	_
+7	platten	platten	VERB	VVINF	_	10	A	10:A	_
+8	vom	vom	ADP	NN	_	9	R	9:R	_
+9	Meer	Meer	NOUN	NN	_	10	A	10:A	_
+10	geschieden	scheiden	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

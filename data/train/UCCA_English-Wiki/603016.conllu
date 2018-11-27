@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 603016
+# text = The only Capitol compilation later included in the group 's official canon of studio albums , the Magical Mystery Tour LP achieved $ 8million in sales within three weeks of its release , higher initial sales than any other Capitol LP up to that point .
+1	The	the	DET	DT	_	4	E	4:E	_
+2	only	only	ADJ	JJ	_	4	E	4:E	_
+3	Capitol	Capitol	PROPN	NNP	_	4	E	4:E	_
+4	compilation	compilation	NOUN	NN	_	6	A	6:A	_
+5	later	later	ADV	RB	_	6	D	6:D	_
+6	included	include	VERB	VBD	_	21	E	21:E	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	group	group	NOUN	NN	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	official	official	ADJ	JJ	_	12	E	12:E	_
+12	canon	canon	NOUN	NN	_	6	A	6:A	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	studio	studio	NOUN	NN	_	15	E	15:E	_
+15	albums	album	NOUN	NNS	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	21	U	21:U	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	Magical	magical	ADJ	JJ	_	21	E	21:E	_
+19	Mystery	mystery	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	Tour	Tour	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	LP	LP	PROPN	NNP	_	22	A	22:A	_
+22	achieved	achieve	VERB	VBD	_	0	H	0:H	_
+23	$	$	SYM	$	_	22	U	22:U	_
+24	8million	8million	NUM	CD	_	22	A	22:A|34:A	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	sales	sale	NOUN	NNS	_	24	E	24:E	_
+27	within	within	ADP	IN	_	22	L	22:L	_
+28	three	three	NUM	CD	_	29	E	29:E	_
+29	weeks	week	NOUN	NNS	_	32	D	32:D	_
+30	of	of	ADP	IN	_	29	R	29:R	_
+31	its	its	PRON	PRP$	_	32	A	32:A	_
+32	release	release	NOUN	NN	_	22	H	22:H	_
+33	,	,	PUNCT	,	_	22	U	22:U	_
+34	higher	higher	ADJ	JJR	_	22	H	22:H	_
+35	initial	initial	ADJ	JJ	_	36	E	36:E	_
+36	sales	sale	NOUN	NNS	_	34	A	34:A	_
+37	than	than	ADP	IN	_	41	R	41:R	_
+38	any	any	DET	DT	_	41	E	41:E	_
+39	other	other	ADJ	JJ	_	41	E	41:E	_
+40	Capitol	Capitol	PROPN	NNP	_	41	E	41:E	_
+41	LP	LP	PROPN	NNP	_	34	A	34:A	_
+42	up	up	ADV	RB	_	45	R	45:R	_
+43	to	to	ADP	IN	_	45	F	45:F	_
+44	that	that	DET	DT	_	45	E	45:E	_
+45	point	point	NOUN	NN	_	41	E	41:E	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

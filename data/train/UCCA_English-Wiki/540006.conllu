@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 540006
+# text = Despite the success of Rin Tin Tin and other projects , however , Warner Bros . was unable to compete with Hollywood 's " Big Three " - Paramount , Universal , and First National studios .
+1	Despite	despite	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	success	success	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Rin	Rin	PROPN	NNP	_	3	A	3:A	_
+6	Tin	tin	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Tin	tin	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	and	and	CCONJ	CC	_	5	N	5:N	_
+9	other	other	ADJ	JJ	_	10	E	10:E	_
+10	projects	project	NOUN	NNS	_	5	C	5:C	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	however	however	ADV	RB	_	3	L	3:L	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	Warner	Warner	PROPN	NNP	_	20	A	20:A	_
+15	Bros	Bros	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	20	U	20:U	_
+17	was	be	AUX	VBD	_	20	F	20:F	_
+18	unable	unable	ADJ	JJ	_	20	E	20:E	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	compete	compete	VERB	VB	_	3	H	3:H	_
+21	with	with	ADP	IN	_	29	R	29:R	_
+22	Hollywood	Hollywood	PROPN	NNP	_	26	E	26:E	_
+23	's	's	PART	POS	_	22	R	22:R	_
+24	"	"	PUNCT	``	_	26	U	26:U	_
+25	Big	Big	PROPN	NNP	_	26	E	26:E	_
+26	Three	three	PROPN	NNP	_	29	E	29:E	_
+27	"	"	PUNCT	''	_	29	U	29:U	_
+28	-	-	PUNCT	,	_	29	U	29:U	_
+29	Paramount	Paramount	NOUN	NN	_	20	A	20:A	_
+30	,	,	PUNCT	,	_	29	U	29:U	_
+31	Universal	universal	PROPN	NNP	_	29	C	29:C	_
+32	,	,	PUNCT	,	_	29	U	29:U	_
+33	and	and	CCONJ	CC	_	29	N	29:N	_
+34	First	First	PROPN	NNP	_	29	C	29:C	_
+35	National	National	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	studios	studio	NOUN	NNS	_	34	Terminal	34:Terminal	_
+37	.	.	PUNCT	.	_	29	U	29:U	_
+

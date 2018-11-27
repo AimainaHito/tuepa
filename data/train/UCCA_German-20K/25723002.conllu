@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25723002
+# text = Ich wollte nachsehen , ob die Richtung der ›Nautilus‹ uns wirklich der Küste näher oder von ihr weg führte . Nein .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	wollte	wollen	AUX	VMFIN	_	3	D	3:D	_
+3	nachsehen	nachsehen	VERB	VVINF	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	ob	ob	SCONJ	VVFIN	_	7	R	7:R	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Richtung	Richtung	NOUN	NN	_	0	C	0:C|19:A	_
+8	der	der	DET	ART	_	9	R	9:R	_
+9	›Nautilus‹	›Nautilus‹	NOUN	NE	_	7	E	7:E	_
+10	uns	wir	PRON	NE	_	7	A	7:A|21:A|19:A	_
+11	wirklich	wirklich	ADV	APPR	_	7	D	7:D	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Küste	Küste	NOUN	NN	_	7	A	7:A	_
+14	näher	nah	ADJ	PTKVZ	_	7	D	7:D|21:D	_
+15	oder	oder	CCONJ	CARD	_	7	L	7:L	_
+16	von	von	ADP	NN	_	17	R	17:R	_
+17	ihr	ihr	PRON	PPOSAT	_	19	A	19:A	_
+18	weg	weg	PART	NN	_	19	D	19:D	_
+19	führte	führen	VERB	VVFIN	_	0	P	0:P|7:P|21:P	_
+20	.	.	PUNCT	$.	_	21	U	21:U	_
+21	Nein	nein	PROPN	PTKVZ	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

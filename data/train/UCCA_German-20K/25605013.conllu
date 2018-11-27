@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25605013
+# text = Drei Rest stücke der 2 Fuß über dem Verdeck abgehauenen Masten zeigten , dass dies Schiff in seiner Not hatte seine Masten opfern müssen .
+1	Drei	drei	NUM	CARD	_	3	E	3:E	_
+2	Rest	Rest	NOUN	NN	_	3	E	3:E	_
+3	stücke	stück	ADJ	NN	_	12	A	12:A	_
+4	der	der	DET	ART	_	11	E	11:E	_
+5	2	2	NUM	CARD	_	6	E	6:E	_
+6	Fuß	Fuß	NOUN	NN	_	10	A	10:A	_
+7	über	über	ADP	VVFIN	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Verdeck	Verdeck	NOUN	NN	_	10	A	10:A	_
+10	abgehauenen	abgehauen	ADJ	ADJA	_	11	E	11:E	_
+11	Masten	Masten	NOUN	NN	_	3	E	3:E	_
+12	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+15	dies	dies	PRON	PDS	_	16	E	16:E	_
+16	Schiff	Schiff	NOUN	NN	_	23	A	23:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	seiner	sein	DET	PPOSAT	_	19	E	19:E	_
+19	Not	not	NOUN	NN	_	23	A	23:A	_
+20	hatte	haben	VERB	VAFIN	_	23	F	23:F	_
+21	seine	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Masten	Masten	NOUN	NN	_	23	A	23:A	_
+23	opfern	opfern	VERB	VVINF	_	12	A	12:A	_
+24	müssen	müssen	AUX	VMFIN	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

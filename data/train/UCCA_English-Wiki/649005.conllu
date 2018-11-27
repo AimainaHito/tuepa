@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 649005
+# text = But he also said , " I still love those guys . The Beatles are over , but John , Paul , George and Ringo go on . "
+1	But	but	CCONJ	CC	_	4	L	4:L	_
+2	he	he	PRON	PRP	_	4	A	4:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	said	say	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	I	I	PRON	PRP	_	9	A	9:A	_
+8	still	still	ADV	RB	_	9	D	9:D	_
+9	love	love	VERB	VBP	_	4	A	4:A	_
+10	those	those	DET	DT	_	11	E	11:E	_
+11	guys	guy	NOUN	NNS	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	9	U	9:U	_
+13	The	the	DET	DT	_	14	E	14:E	_
+14	Beatles	Beatles	PROPN	NNPS	_	16	A	16:A	_
+15	are	be	AUX	VBP	_	16	F	16:F	_
+16	over	over	ADV	RB	_	9	H	9:H	_
+17	,	,	PUNCT	,	_	9	U	9:U	_
+18	but	but	CCONJ	CC	_	9	L	9:L	_
+19	John	John	PROPN	NNP	_	26	A	26:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	Paul	Paul	PROPN	NNP	_	19	C	19:C	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	George	George	PROPN	NNP	_	19	C	19:C	_
+24	and	and	CCONJ	CC	_	19	N	19:N	_
+25	Ringo	Ringo	PROPN	NNP	_	19	C	19:C	_
+26	go	go	VERB	VBP	_	9	H	9:H	_
+27	on	on	ADV	RB	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+29	"	"	PUNCT	''	_	26	U	26:U	_
+

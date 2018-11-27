@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 66008
+# text = At the age of 14 , Jolie dropped out of her acting classes and aspired to become a funeral director .
+1	At	at	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	14	14	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Jolie	Jolie	PROPN	NNP	_	8	A	8:A|3:A|17:A	_
+8	dropped	drop	VERB	VBD	_	3	H	3:H	_
+9	out	out	ADP	IN	_	8	Terminal	8:Terminal	_
+10	of	of	ADP	IN	_	13	R	13:R	_
+11	her	she	PRON	PRP	_	13	E	13:E	_
+12	acting	act	VERB	VBG	_	13	E	13:E	_
+13	classes	class	NOUN	NNS	_	8	A	8:A	_
+14	and	and	CCONJ	CC	_	3	L	3:L	_
+15	aspired	aspire	VERB	VBD	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	become	become	VERB	VB	_	3	H	3:H	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	funeral	funeral	NOUN	NN	_	20	E	20:E	_
+20	director	director	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

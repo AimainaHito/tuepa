@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 675015
+# text = On July 21 , 2012 , Carey announced that a song titled " Triumphant ( Get ' Em ) " featuring Rick Ross and Meek Mill , would be released in early August 2012 as the lead single from her fourteenth studio album .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	8	D	8:D	_
+3	21	21	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2012	2012	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Carey	Carey	PROPN	NNP	_	8	A	8:A	_
+8	announced	announce	VERB	VBD	_	0	H	0:H	_
+9	that	that	SCONJ	IN	_	30	F	30:F	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	song	song	NOUN	NN	_	12	A	12:A	_
+12	titled	title	VERB	VBN	_	21	A	21:A	_
+13	"	"	PUNCT	``	_	12	U	12:U	_
+14	Triumphant	Triumphant	NOUN	NN	_	12	A	12:A	_
+15	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+16	Get	get	VERB	VB	_	14	Terminal	14:Terminal	_
+17	'	'	PUNCT	``	_	14	U	14:U	_
+18	Em	em	PROPN	NNP	_	14	Terminal	14:Terminal	_
+19	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+20	"	"	PUNCT	``	_	21	U	21:U	_
+21	featuring	feature	VERB	VBG	_	30	A	30:A	_
+22	Rick	Rick	PROPN	NNP	_	21	A	21:A	_
+23	Ross	Ross	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	and	and	CCONJ	CC	_	22	N	22:N	_
+25	Meek	meek	PROPN	NNP	_	22	C	22:C	_
+26	Mill	mill	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	30	U	30:U	_
+28	would	would	AUX	MD	_	30	F	30:F	_
+29	be	be	AUX	VB	_	30	F	30:F	_
+30	released	release	VERB	VBN	_	8	A	8:A	_
+31	in	in	ADP	IN	_	33	R	33:R	_
+32	early	early	ADJ	JJ	_	33	E	33:E	_
+33	August	August	PROPN	NNP	_	30	D	30:D	_
+34	2012	2012	NUM	CD	_	33	Terminal	33:Terminal	_
+35	as	as	ADP	IN	_	38	R	38:R	_
+36	the	the	DET	DT	_	38	E	38:E	_
+37	lead	lead	NOUN	NN	_	38	E	38:E	_
+38	single	single	ADJ	JJ	_	30	A	30:A	_
+39	from	from	ADP	IN	_	43	R	43:R	_
+40	her	she	PRON	PRP$	_	43	E	43:E	_
+41	fourteenth	fourteenth	NOUN	NN	_	43	E	43:E	_
+42	studio	studio	NOUN	NN	_	43	E	43:E	_
+43	album	album	NOUN	NN	_	38	E	38:E	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

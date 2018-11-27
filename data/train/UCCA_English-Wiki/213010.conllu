@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 213010
+# text = Dunst 's father is German , originally from Hamburg , and Dunst 's mother , who was born in New Jersey , is of German and Swedish descent ( Dunst affirmed her German citizenship in 2011 and now holds passports as a dual citizen of the United States and Germany ) .
+1	Dunst	Dunst	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	father	father	NOUN	NN	_	4	A	4:A	_
+4	is	be	AUX	VBZ	_	0	H	0:H	_
+5	German	german	ADJ	JJ	_	4	A	4:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	originally	originally	ADV	RB	_	9	E	9:E	_
+8	from	from	ADP	IN	_	9	R	9:R	_
+9	Hamburg	Hamburg	PROPN	NNP	_	5	E	5:E	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	and	and	CCONJ	CC	_	4	L	4:L	_
+12	Dunst	Dunst	PROPN	NNP	_	14	E	14:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	mother	mother	NOUN	NN	_	23	A	23:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	who	who	PRON	WP	_	18	R	18:R	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	born	bear	VERB	VBN	_	14	E	14:E	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	New	New	PROPN	NNP	_	18	A	18:A	_
+21	Jersey	Jersey	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	is	be	AUX	VBZ	_	4	H	4:H	_
+24	of	of	ADP	IN	_	28	R	28:R	_
+25	German	german	ADJ	JJ	_	28	E	28:E	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	Swedish	swedish	ADJ	JJ	_	25	C	25:C	_
+28	descent	descent	NOUN	NN	_	23	A	23:A	_
+29	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+30	Dunst	Dunst	SCONJ	IN	_	31	A	31:A|39:A	_
+31	affirmed	affirm	VERB	VBN	_	4	H	4:H	_
+32	her	she	PRON	PRP$	_	34	E	34:E	_
+33	German	german	ADJ	JJ	_	34	E	34:E	_
+34	citizenship	citizenship	NOUN	NN	_	31	A	31:A	_
+35	in	in	ADP	IN	_	36	R	36:R	_
+36	2011	2011	NUM	CD	_	31	D	31:D	_
+37	and	and	CCONJ	CC	_	4	L	4:L	_
+38	now	now	ADV	RB	_	39	D	39:D	_
+39	holds	hold	VERB	VBZ	_	4	H	4:H	_
+40	passports	passport	NOUN	NNS	_	39	A	39:A	_
+41	as	as	ADP	IN	_	44	R	44:R	_
+42	a	a	DET	DT	_	44	E	44:E	_
+43	dual	dual	ADJ	JJ	_	44	E	44:E	_
+44	citizen	citizen	NOUN	NN	_	39	A	39:A	_
+45	of	of	ADP	IN	_	47	R	47:R	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	United	United	PROPN	NNP	_	44	E	44:E	_
+48	States	States	PROPN	NNP	_	47	Terminal	47:Terminal	_
+49	and	and	CCONJ	CC	_	47	N	47:N	_
+50	Germany	Germany	PROPN	NNP	_	47	C	47:C	_
+51	)	)	PUNCT	-RRB-	_	47	U	47:U	_
+52	.	.	PUNCT	.	_	47	U	47:U	_
+

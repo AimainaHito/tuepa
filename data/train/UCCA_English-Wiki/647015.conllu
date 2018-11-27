@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 647015
+# text = But after the meeting he failed to return home or call Pang .
+1	But	but	CCONJ	CC	_	4	L	4:L	_
+2	after	after	ADP	IN	_	4	L	4:L	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	meeting	meeting	NOUN	NN	_	0	H	0:H	_
+5	he	he	PRON	PRP	_	8	A	8:A|11:A	_
+6	failed	fail	VERB	VBD	_	8	D	8:D	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	return	return	VERB	VB	_	4	H	4:H	_
+9	home	home	ADV	RB	_	8	A	8:A	_
+10	or	or	CCONJ	CC	_	4	L	4:L	_
+11	call	call	VERB	VB	_	4	H	4:H	_
+12	Pang	Pang	PROPN	NNP	_	11	A	11:A	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

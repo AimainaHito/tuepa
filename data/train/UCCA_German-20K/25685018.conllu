@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25685018
+# text = Eine prachtvolle Natur merkwürdigkeit , kein persönlicher Schmuck , denn welche Frauen ohren hätten diese Perle tragen können ?
+1	Eine	ein	DET	ART	_	4	E	4:E	_
+2	prachtvolle	prachtvoll	ADJ	ADJA	_	4	E	4:E	_
+3	Natur	Natur	NOUN	NN	_	4	E	4:E	_
+4	merkwürdigkeit	merkwürdigkeit	ADP	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	kein	kein	PRON	PIAT	_	8	D	8:D	_
+7	persönlicher	persönlich	ADJ	ADJA	_	8	E	8:E	_
+8	Schmuck	Schmuck	NOUN	NN	_	4	H	4:H	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	denn	denn	SCONJ	KON	_	4	L	4:L	_
+11	welche	welch	PRON	NN	_	13	E	13:E	_
+12	Frauen	Frau	NOUN	NN	_	13	E	13:E	_
+13	ohren	ohren	VERB	VVFIN	_	17	A	17:A	_
+14	hätten	haben	AUX	VAFIN	_	17	D	17:D	_
+15	diese	dies	PRON	PDAT	_	16	E	16:E	_
+16	Perle	Perl	NOUN	NN	_	17	A	17:A	_
+17	tragen	tragen	VERB	VVINF	_	4	H	4:H	_
+18	können	können	AUX	VMFIN	_	17	D	17:D	_
+19	?	?	PUNCT	$.	_	17	U	17:U	_
+

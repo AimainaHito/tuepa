@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25806007
+# text = Ich fügte bei , dass wir uns in Beziehung auf unsere Gesundheit nicht im mindesten zu beschweren hatten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fügte	fügen	VERB	VVFIN	_	0	H	0:H	_
+3	bei	bei	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	7	R	7:R	_
+6	wir	wir	PRON	NE	_	7	A	7:A|9:A	_
+7	uns	wir	PRON	NE	_	2	A	2:A	_
+8	in	in	ADP	APPR	_	9	R	9:R	_
+9	Beziehung	Beziehung	NOUN	NN	_	7	A	7:A	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	unsere	unser	DET	PPOSAT	_	12	E	12:E	_
+12	Gesundheit	Gesundheit	NOUN	NN	_	9	A	9:A	_
+13	nicht	nicht	PART	CARD	_	7	D	7:D	_
+14	im	im	ADV	NE	_	15	R	15:R	_
+15	mindesten	minde	ADJ	NN	_	13	E	13:E	_
+16	zu	zu	PART	NE	_	7	F	7:F	_
+17	beschweren	beschweren	VERB	VVINF	_	7	Terminal	7:Terminal	_
+18	hatten	haben	AUX	VAFIN	_	7	D	7:D	_
+19	.	.	PUNCT	$.	_	7	U	7:U	_
+

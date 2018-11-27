@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25771011
+# text = Kaum einzelne zerstreute Eisblöcke , bewegliche Eisberge ; in der Ferne eine weite Meeresfläche ; eine Menge Vögel in den Lüften , und Myriaden Fische in den Gewässern , die , je nach dem Grund , wechselnd tiefblau und olivengrün waren .
+1	Kaum	kaum	NOUN	ADV	_	4	D	4:D	_
+2	einzelne	einzeln	ADJ	ADJA	_	4	E	4:E	_
+3	zerstreute	zerstreut	ADJ	ADJA	_	4	E	4:E	_
+4	Eisblöcke	Eisblock	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	bewegliche	beweglich	ADJ	ADJA	_	7	E	7:E	_
+7	Eisberge	Eisberg	NOUN	NN	_	4	A	4:A	_
+8	;	;	PUNCT	$.	_	4	U	4:U	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Ferne	Ferne	NOUN	NN	_	4	H	4:H	_
+12	eine	ein	DET	ART	_	14	E	14:E	_
+13	weite	weit	ADJ	NN	_	14	E	14:E	_
+14	Meeresfläche	Meeresfläche	NOUN	VVFIN	_	11	A	11:A	_
+15	;	;	PUNCT	$.	_	4	U	4:U	_
+16	eine	ein	DET	ART	_	17	E	17:E	_
+17	Menge	Menge	NOUN	ADJA	_	18	E	18:E	_
+18	Vögel	Vögel	PROPN	NN	_	4	H	4:H	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Lüften	Lüft	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	$,	_	4	U	4:U	_
+23	und	und	CCONJ	NE	_	4	L	4:L	_
+24	Myriaden	Myriaden	PROPN	NE	_	25	E	25:E	_
+25	Fische	Fische	PROPN	NN	_	4	H	4:H	_
+26	in	in	ADP	APPR	_	28	R	28:R	_
+27	den	der	DET	ART	_	28	E	28:E	_
+28	Gewässern	Gewässer	NOUN	NN	_	25	A	25:A	_
+29	,	,	PUNCT	$,	_	25	U	25:U	_
+30	die	der	PRON	PRELS	_	38	R	38:R	_
+31	,	,	PUNCT	$,	_	25	U	25:U	_
+32	je	je	ADV	KOUS	_	35	R	35:R	_
+33	nach	nach	ADP	CARD	_	35	R	35:R	_
+34	dem	der	DET	ART	_	35	E	35:E	_
+35	Grund	Grund	NOUN	NN	_	25	E	25:E	_
+36	,	,	PUNCT	$,	_	25	U	25:U	_
+37	wechselnd	wechselnd	ADJ	ADJD	_	38	D	38:D	_
+38	tiefblau	tiefblau	ADJ	ADJD	_	25	E	25:E	_
+39	und	und	CCONJ	NE	_	38	N	38:N	_
+40	olivengrün	olivengrün	ADJ	ADJD	_	38	C	38:C	_
+41	waren	sein	AUX	VAFIN	_	38	F	38:F	_
+42	.	.	PUNCT	$.	_	38	U	38:U	_
+

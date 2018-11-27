@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25743010
+# text = An der Stelle der Konglomerate und Trachyte traten schwarze Basalte ; diese zogen teils in blasigen Streifen , teils bildeten sie regelmäßige Prismen , die sich wie eine Kolonnade reihten , auf der das ungeheure Gewölbe ruhte , ein staunenswertes Muster natürlicher Architektur .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Stelle	Stelle	NOUN	NN	_	8	A	8:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Konglomerate	Konglomerate	NOUN	ADJA	_	3	E	3:E	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Trachyte	Trachyte	NOUN	NE	_	5	C	5:C	_
+8	traten	treten	VERB	VVFIN	_	0	H	0:H	_
+9	schwarze	schwarz	ADJ	ADJA	_	10	E	10:E	_
+10	Basalte	Basalt	NOUN	NN	_	8	A	8:A	_
+11	;	;	PUNCT	$.	_	8	U	8:U	_
+12	diese	dies	PRON	PDS	_	13	A	13:A	_
+13	zogen	ziehen	VERB	VVFIN	_	8	H	8:H	_
+14	teils	teils	ADV	ADV	_	13	D	13:D	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	blasigen	blasig	ADJ	ADJA	_	17	E	17:E	_
+17	Streifen	Streifen	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	8	U	8:U	_
+19	teils	teils	ADV	ADV	_	20	D	20:D	_
+20	bildeten	bilden	VERB	VVFIN	_	8	H	8:H	_
+21	sie	sie	PRON	ADV	_	20	A	20:A	_
+22	regelmäßige	regelmäßig	ADJ	ADJA	_	23	E	23:E	_
+23	Prismen	Prismus	NOUN	NN	_	20	A	20:A	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	die	der	PRON	PRELS	_	26	R	26:R	_
+26	sich	er|es|sie	PRON	PRF	_	23	E	23:E	_
+27	wie	wie	ADP	ADV	_	29	R	29:R	_
+28	eine	ein	DET	ART	_	29	E	29:E	_
+29	Kolonnade	Kolonnade	NOUN	NN	_	26	A	26:A	_
+30	reihten	reihen	VERB	VVINF	_	26	Terminal	26:Terminal	_
+31	,	,	PUNCT	$,	_	26	U	26:U	_
+32	auf	auf	ADP	APPR	_	33	R	33:R	_
+33	der	der	PRON	PRELS	_	37	R	37:R	_
+34	das	der	DET	ART	_	36	E	36:E	_
+35	ungeheure	ungeheuer	ADJ	ADJA	_	36	E	36:E	_
+36	Gewölbe	Gewölbe	NOUN	NN	_	37	A	37:A	_
+37	ruhte	ruhen	VERB	VVFIN	_	29	E	29:E	_
+38	,	,	PUNCT	$,	_	20	U	20:U	_
+39	ein	ein	DET	ART	_	41	E	41:E	_
+40	staunenswertes	staunenswert	ADJ	ADJA	_	41	E	41:E	_
+41	Muster	Muster	NOUN	NN	_	20	A	20:A	_
+42	natürlicher	natürlich	ADJ	ADJA	_	43	E	43:E	_
+43	Architektur	Architektur	NOUN	NN	_	41	E	41:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

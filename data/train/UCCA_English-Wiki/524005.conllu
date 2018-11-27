@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 524005
+# text = Her blue gingham dress was chosen for its blurring effect on her figure .
+1	Her	she	PRON	PRP$	_	4	E	4:E	_
+2	blue	blue	ADJ	JJ	_	4	E	4:E	_
+3	gingham	gingham	NOUN	NN	_	4	E	4:E	_
+4	dress	dress	NOUN	NN	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	chosen	chosen	VERB	VBN	_	0	H	0:H	_
+7	for	for	ADP	IN	_	10	R	10:R	_
+8	its	its	PRON	PRP$	_	10	E	10:E	_
+9	blurring	blurre	ADJ	JJ	_	10	E	10:E	_
+10	effect	effect	NOUN	NN	_	6	A	6:A	_
+11	on	on	ADP	IN	_	13	R	13:R	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	figure	figure	NOUN	NN	_	10	E	10:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

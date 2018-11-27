@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25814016
+# text = Zerdrückt , erstickt , zerfleischt von dem Ungeheuer , sollte er nicht auf dem stillen Friedhof des Korallenreichs seine Ruhestätte finden !
+1	Zerdrückt	zerdrückt	NOUN	VVFIN	_	11	E	11:E	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	erstickt	ersticken	VERB	VVFIN	_	1	C	1:C	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	zerfleischt	zerfleischen	VERB	VVFIN	_	1	C	1:C	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Ungeheuer	Ungeheuer	NOUN	NN	_	1	A	1:A	_
+9	,	,	PUNCT	$,	_	21	U	21:U	_
+10	sollte	sollen	AUX	VMFIN	_	21	D	21:D	_
+11	er	er	PRON	PPER	_	21	A	21:A	_
+12	nicht	nicht	PART	CARD	_	21	D	21:D	_
+13	auf	auf	ADP	APPR	_	16	R	16:R	_
+14	dem	der	DET	ART	_	16	E	16:E	_
+15	stillen	still	ADJ	ADJA	_	16	E	16:E	_
+16	Friedhof	Friedhof	NOUN	NN	_	21	A	21:A	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Korallenreichs	Korallenreich	NOUN	NN	_	16	E	16:E	_
+19	seine	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Ruhestätte	Ruhestätte	NOUN	NN	_	21	A	21:A	_
+21	finden	finden	VERB	VVINF	_	0	H	0:H	_
+22	!	!	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 123008
+# text = She attended the institution primarily to satisfy her mother , who had studied there , and recalled disliking the experience .
+1	She	she	PRON	PRP	_	2	A	2:A|18:A|7:A|17:A	_
+2	attended	attend	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	institution	institution	NOUN	NN	_	2	A	2:A	_
+5	primarily	primarily	ADV	RB	_	2	D	2:D	_
+6	to	to	PART	TO	_	2	L	2:L	_
+7	satisfy	satisfy	VERB	VB	_	2	H	2:H	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	mother	mother	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	who	who	PRON	WP	_	13	F	13:F	_
+12	had	have	AUX	VBD	_	13	F	13:F	_
+13	studied	studie	VERB	VBN	_	9	E	9:E	_
+14	there	there	ADV	RB	_	13	A	13:A	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	and	and	CCONJ	CC	_	2	L	2:L	_
+17	recalled	recall	VERB	VBD	_	2	H	2:H	_
+18	disliking	dislik	VERB	VBG	_	17	A	17:A	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	experience	experience	NOUN	NN	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

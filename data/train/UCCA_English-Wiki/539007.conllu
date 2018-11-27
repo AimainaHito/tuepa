@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 539007
+# text = Their first opportunity to produce a major film came in 1918 , when they purchased the film rights for My Four Years in Germany , a bestselling novel that condemned German wartime atrocities .
+1	Their	they	PRON	PRP$	_	3	E	3:E|5:A	_
+2	first	first	ADJ	JJ	_	3	E	3:E	_
+3	opportunity	opportunity	NOUN	NN	_	9	A	9:A	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	produce	produce	VERB	VB	_	3	E	3:E	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	major	major	ADJ	JJ	_	8	E	8:E	_
+8	film	film	NOUN	NN	_	5	A	5:A	_
+9	came	come	VERB	VBD	_	0	H	0:H	_
+10	in	in	ADV	RB	_	11	R	11:R	_
+11	1918	1918	NUM	CD	_	9	D	9:D	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	when	when	ADV	WRB	_	9	L	9:L	_
+14	they	they	PRON	PRP	_	15	A	15:A	_
+15	purchased	purchase	VERB	VBD	_	9	H	9:H	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	film	film	NOUN	NN	_	18	E	18:E	_
+18	rights	rights	NOUN	NNS	_	15	A	15:A	_
+19	for	for	ADP	IN	_	20	R	20:R	_
+20	My	my	PRON	PRP$	_	18	E	18:E	_
+21	Four	four	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Years	year	PROPN	NNPS	_	20	Terminal	20:Terminal	_
+23	in	in	ADP	IN	_	20	Terminal	20:Terminal	_
+24	Germany	Germany	PROPN	NNP	_	20	Terminal	20:Terminal	_
+25	,	,	PUNCT	,	_	20	U	20:U	_
+26	a	a	DET	DT	_	28	E	28:E	_
+27	bestselling	bestselling	ADJ	JJ	_	28	E	28:E	_
+28	novel	novel	NOUN	NN	_	20	E	20:E	_
+29	that	that	PRON	WDT	_	30	F	30:F	_
+30	condemned	condemn	VERB	VBD	_	28	E	28:E	_
+31	German	german	ADJ	JJ	_	33	A	33:A	_
+32	wartime	wartime	NOUN	NN	_	33	A	33:A	_
+33	atrocities	atrocity	NOUN	NNS	_	30	A	30:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

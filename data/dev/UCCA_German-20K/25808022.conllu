@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25808022
+# text = Die Museen zu Triest und Montpellier haben 2 Meter große Skelette von Polypen . Übrigens hat ein solches Tier , das nur 6 Fuß groß ist , Fühlfäden von 27 Fuß Länge . Und das reicht schon hin , um ein furchtbares Ungeheuer daraus zu machen . «
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Museen	Museum	NOUN	NN	_	7	A	7:A	_
+3	zu	zu	ADP	NE	_	4	R	4:R	_
+4	Triest	Triest	PROPN	NE	_	2	E	2:E	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Montpellier	Montpellier	PROPN	NE	_	4	C	4:C	_
+7	haben	haben	AUX	VAFIN	_	0	H	0:H	_
+8	2	2	NUM	CARD	_	9	E	9:E	_
+9	Meter	Meter	NOUN	NN	_	11	E	11:E	_
+10	große	groß	ADJ	ADJA	_	9	E	9:E	_
+11	Skelette	Skelette	NOUN	NN	_	7	A	7:A	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	Polypen	Polypen	PROPN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	7	U	7:U	_
+15	Übrigens	übrigens	PROPN	ADV	_	16	G	16:G	_
+16	hat	haben	AUX	VAFIN	_	7	H	7:H	_
+17	ein	ein	DET	ART	_	19	E	19:E	_
+18	solches	solch	ADJ	ADJA	_	19	E	19:E	_
+19	Tier	Tier	NOUN	NN	_	16	A	16:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	das	der	PRON	PRELS	_	25	R	25:R	_
+22	nur	nur	ADV	NN	_	25	D	25:D	_
+23	6	6	NUM	CARD	_	25	A	25:A	_
+24	Fuß	Fuß	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	groß	groß	ADJ	ADJD	_	19	E	19:E	_
+26	ist	sein	AUX	NN	_	25	F	25:F	_
+27	,	,	PUNCT	$,	_	16	U	16:U	_
+28	Fühlfäden	Fühlfaden	NOUN	NN	_	16	A	16:A	_
+29	von	von	ADP	NN	_	30	R	30:R	_
+30	27	27	NUM	CARD	_	16	A	16:A	_
+31	Fuß	Fuß	NOUN	NN	_	30	Terminal	30:Terminal	_
+32	Länge	Länge	NOUN	NN	_	30	E	30:E	_
+33	.	.	PUNCT	$.	_	7	U	7:U	_
+34	Und	und	CCONJ	NE	_	7	L	7:L	_
+35	das	der	PRON	PDS	_	36	A	36:A	_
+36	reicht	reichen	VERB	VVFIN	_	7	H	7:H	_
+37	schon	schon	ADV	ADV	_	36	D	36:D	_
+38	hin	hin	ADV	ADV	_	36	Terminal	36:Terminal	_
+39	,	,	PUNCT	$,	_	7	U	7:U	_
+40	um	um	ADP	KOUI	_	7	L	7:L	_
+41	ein	ein	DET	ART	_	43	E	43:E	_
+42	furchtbares	furchtbar	ADJ	ADJA	_	43	E	43:E	_
+43	Ungeheuer	Ungeheuer	NOUN	NN	_	46	A	46:A	_
+44	daraus	daraus	ADV	PAV	_	46	A	46:A	_
+45	zu	zu	PART	VVINF	_	46	F	46:F	_
+46	machen	machen	VERB	VVINF	_	7	H	7:H	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+48	«	«	PUNCT	$(	_	46	U	46:U	_
+

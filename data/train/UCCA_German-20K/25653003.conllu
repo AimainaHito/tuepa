@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25653003
+# text = Die weißen Blumen kronen zogen sich in ihre roten Gehäuse zurück , die Blumen verschwanden vor meinen Blicken , und das Gebüsch verwandelte sich in einen Block mit steinigen Warzen .
+1	Die	der	DET	ART	_	4	E	4:E	_
+2	weißen	weiß	ADJ	ADJA	_	4	E	4:E	_
+3	Blumen	Blume	NOUN	NN	_	4	E	4:E	_
+4	kronen	kronen	VERB	NN	_	5	A	5:A	_
+5	zogen	ziehen	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	APPR	_	10	R	10:R	_
+8	ihre	ihr	DET	PPOSAT	_	10	E	10:E	_
+9	roten	rot	ADJ	ADJA	_	10	E	10:E	_
+10	Gehäuse	Gehäuse	NOUN	NN	_	5	A	5:A	_
+11	zurück	zurück	ADV	ADJA	_	5	Terminal	5:Terminal	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Blumen	Blume	NOUN	NN	_	15	A	15:A	_
+15	verschwanden	verschwanden	VERB	VVINF	_	5	H	5:H	_
+16	vor	vor	ADP	NN	_	18	R	18:R	_
+17	meinen	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Blicken	Blick|Blicken	NOUN	NN	_	15	A	15:A	_
+19	,	,	PUNCT	$,	_	5	U	5:U	_
+20	und	und	CCONJ	NE	_	5	L	5:L	_
+21	das	der	DET	ART	_	22	E	22:E	_
+22	Gebüsch	Gebüsch	NOUN	NN	_	23	A	23:A	_
+23	verwandelte	verwandeln	VERB	VVFIN	_	5	H	5:H	_
+24	sich	er|es|sie	PRON	PRF	_	23	Terminal	23:Terminal	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	einen	ein	DET	ART	_	27	E	27:E	_
+27	Block	Block	NOUN	NN	_	23	A	23:A	_
+28	mit	mit	ADP	APPR	_	30	R	30:R	_
+29	steinigen	steinig	ADJ	ADJA	_	30	E	30:E	_
+30	Warzen	Warz	NOUN	NN	_	27	E	27:E	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25788018
+# text = Der Kapitän ergriff das Wort :
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+3	ergriff	ergreifen	VERB	VVFIN	_	0	H	0:H	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Wort	Wort	NOUN	NN	_	3	A	3:A	_
+6	:	:	PUNCT	$.	_	5	U	5:U	_
+

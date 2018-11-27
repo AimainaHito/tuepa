@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25737019
+# text = Ich erzählte unseren nächtlichen Ausflug , und da die Läden geöffnet waren , so konnte er noch einen Teil des versunkenen Kontinents aus der Ferne erkennen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erzählte	erzählen	VERB	VVFIN	_	0	H	0:H	_
+3	unseren	unser	PRON	PPOSAT	_	5	E	5:E	_
+4	nächtlichen	nächtlich	ADJ	ADJA	_	5	D	5:D	_
+5	Ausflug	ausflug	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	da	da	SCONJ	KOUS	_	2	L	2:L	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Läden	Laden	NOUN	NN	_	11	A	11:A	_
+11	geöffnet	öffnen	ADJ	VVPP	_	2	H	2:H	_
+12	waren	sein	AUX	VAFIN	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	so	so	ADV	ADV	_	2	L	2:L	_
+15	konnte	können	AUX	VMFIN	_	26	D	26:D	_
+16	er	er	PRON	PPER	_	26	A	26:A	_
+17	noch	noch	ADV	VVINF	_	26	D	26:D	_
+18	einen	ein	DET	ART	_	19	E	19:E	_
+19	Teil	Teil	NOUN	NN	_	26	A	26:A	_
+20	des	der	DET	ART	_	22	R	22:R	_
+21	versunkenen	versunken	ADJ	ADJA	_	22	E	22:E	_
+22	Kontinents	Kontinent	NOUN	NN	_	19	E	19:E	_
+23	aus	aus	ADP	APPR	_	25	R	25:R	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	Ferne	Ferne	NOUN	NN	_	26	A	26:A	_
+26	erkennen	erkennen	VERB	VVINF	_	2	H	2:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

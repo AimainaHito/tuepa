@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25772001
+# text = Als eben Conseil herausspringen wollte , hielt ich ihn zurück .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	eben	eben	ADV	ADV	_	4	D	4:D	_
+3	Conseil	Conseil	NOUN	NE	_	4	A	4:A	_
+4	herausspringen	herausspringen	VERB	NE	_	0	H	0:H	_
+5	wollte	wollen	AUX	VVFIN	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	hielt	halten	VERB	VVFIN	_	4	H	4:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	ihn	er	PRON	PPER	_	7	A	7:A	_
+10	zurück	zurück	ADV	ADJA	_	7	Terminal	7:Terminal	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+

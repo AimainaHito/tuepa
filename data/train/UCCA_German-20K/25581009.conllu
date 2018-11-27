@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25581009
+# text = Früher bereitete man daraus schöne Zeuge , Strümpfe , Handschuhe , denn sie waren zugleich kernhaft und sehr warm .
+1	Früher	früher	ADV	ADV	_	2	D	2:D	_
+2	bereitete	bereiten	VERB	VVFIN	_	0	H	0:H	_
+3	man	man	PRON	PIS	_	2	A	2:A	_
+4	daraus	daraus	ADV	PAV	_	2	A	2:A	_
+5	schöne	schön	ADJ	ADJA	_	6	E	6:E	_
+6	Zeuge	Zeuge	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Strümpfe	Strümpfe	NOUN	NN	_	6	C	6:C	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	Handschuhe	Handschuhe	NOUN	NN	_	6	C	6:C	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	denn	denn	CCONJ	KON	_	2	L	2:L	_
+13	sie	sie	PRON	ADV	_	16	A	16:A	_
+14	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+15	zugleich	zugleich	ADV	NE	_	16	D	16:D	_
+16	kernhaft	kernhaft	ADJ	ADJD	_	2	H	2:H	_
+17	und	und	CCONJ	NE	_	16	N	16:N	_
+18	sehr	sehr	ADV	NE	_	19	E	19:E	_
+19	warm	warm	ADJ	ADJD	_	16	C	16:C	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

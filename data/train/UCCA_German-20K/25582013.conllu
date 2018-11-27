@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25582013
+# text = Das in der Höhe zerstreute Gewölk färbte sich in wunderbarer Schattierung der Töne .
+1	Das	der	DET	ART	_	6	E	6:E	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Höhe	Höhe	NOUN	NN	_	5	A	5:A	_
+5	zerstreute	zerstreut	ADJ	VVFIN	_	6	E	6:E	_
+6	Gewölk	Gewölk	NOUN	NE	_	7	A	7:A	_
+7	färbte	färben	VERB	VVFIN	_	0	H	0:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	wunderbarer	wunderbar	ADJ	ADJA	_	11	E	11:E	_
+11	Schattierung	Schattierung	NOUN	NN	_	7	A	7:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Töne	Ton	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

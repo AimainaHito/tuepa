@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25412009
+# text = Bei der Ausbesserung fand sich ein regelmäßiger Riss in Form eines gleichschenkeligen Dreiecks .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Ausbesserung	Ausbesserung	NOUN	NN	_	4	A	4:A	_
+4	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	regelmäßiger	regelmäßig	ADJ	ADJA	_	8	E	8:E	_
+8	Riss	Riß	NOUN	NN	_	4	A	4:A	_
+9	in	in	ADP	APPR	_	10	R	10:R	_
+10	Form	Form	NOUN	NN	_	13	E	13:E	_
+11	eines	ein	DET	ART	_	13	R	13:R	_
+12	gleichschenkeligen	gleichschenkelig	ADJ	ADJA	_	13	E	13:E	_
+13	Dreiecks	Dreieck	NOUN	NN	_	8	E	8:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

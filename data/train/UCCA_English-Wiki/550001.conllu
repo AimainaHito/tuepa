@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 550001
+# text = On August 5 , 1958 , after an evening of baccarat at the Palm Beach Casino in Cannes , Warner 's Alfa Romeo roadster swerved into the path of a coal truck on a stretch of road located near the seaside villa of Prince Aly Khan .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	August	August	PROPN	NNP	_	5	E	5:E	_
+3	5	5	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	1958	1958	NUM	CD	_	25	D	25:D	_
+6	,	,	PUNCT	,	_	25	U	25:U	_
+7	after	after	ADP	IN	_	25	L	25:L	_
+8	an	a	DET	DT	_	9	E	9:E	_
+9	evening	evening	NOUN	NN	_	11	E	11:E	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	baccarat	baccarat	NOUN	NN	_	25	H	25:H	_
+12	at	at	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	Palm	Palm	PROPN	NNP	_	16	E	16:E	_
+15	Beach	beach	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Casino	Casino	PROPN	NNP	_	11	A	11:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	Cannes	Cannes	PROPN	NNP	_	11	A	11:A	_
+19	,	,	PUNCT	,	_	25	U	25:U	_
+20	Warner	Warner	PROPN	NNP	_	22	E	22:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	Alfa	Alfa	PROPN	NNP	_	25	A	25:A	_
+23	Romeo	Romeo	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	roadster	roadster	NOUN	NN	_	22	Terminal	22:Terminal	_
+25	swerved	swerve	VERB	VBD	_	0	H	0:H	_
+26	into	into	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	path	path	NOUN	NN	_	25	A	25:A	_
+29	of	of	ADP	IN	_	32	R	32:R	_
+30	a	a	DET	DT	_	32	E	32:E	_
+31	coal	coal	NOUN	NN	_	32	E	32:E	_
+32	truck	truck	NOUN	NN	_	28	E	28:E	_
+33	on	on	ADP	IN	_	38	R	38:R	_
+34	a	a	DET	DT	_	35	E	35:E	_
+35	stretch	stretch	NOUN	NN	_	37	E	37:E	_
+36	of	of	ADP	IN	_	35	R	35:R	_
+37	road	road	NOUN	NN	_	38	A	38:A	_
+38	located	locate	VERB	VBN	_	25	A	25:A	_
+39	near	near	ADP	IN	_	42	E	42:E	_
+40	the	the	DET	DT	_	42	E	42:E	_
+41	seaside	seaside	NOUN	NN	_	42	E	42:E	_
+42	villa	villa	NOUN	NN	_	38	A	38:A	_
+43	of	of	ADP	IN	_	45	R	45:R	_
+44	Prince	Prince	PROPN	NNP	_	45	E	45:E	_
+45	Aly	Aly	PROPN	NNP	_	42	E	42:E	_
+46	Khan	Khan	PROPN	NNP	_	45	Terminal	45:Terminal	_
+47	.	.	PUNCT	.	_	45	U	45:U	_
+

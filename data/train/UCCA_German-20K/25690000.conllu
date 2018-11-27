@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25690000
+# text = Während ich diese träge Masse betrachtete , zeigte sich ein Dutzend dieser gefräßigen Schwarzflosser plötzlich rings um das Boot herum ; doch ohne sich um uns zu bekümmern , fielen sie über den Leichnam her und stritten sich um seine Fetzen .
+1	Während	während	SCONJ	KOUS	_	6	L	6:L	_
+2	ich	ich	PRON	PPER	_	6	A	6:A	_
+3	diese	dies	PRON	PDS	_	5	E	5:E	_
+4	träge	träge	ADJ	NE	_	5	E	5:E	_
+5	Masse	Masse	NOUN	NN	_	6	A	6:A	_
+6	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	zeigte	zeigen	VERB	VVFIN	_	6	H	6:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	ein	ein	DET	ART	_	11	E	11:E	_
+11	Dutzend	Dutzend	NOUN	NN	_	8	A	8:A	_
+12	dieser	dies	PRON	PDAT	_	14	R	14:R	_
+13	gefräßigen	gefräßigen	ADP	ADJA	_	14	E	14:E	_
+14	Schwarzflosser	Schwarzflosser	NOUN	NN	_	11	E	11:E	_
+15	plötzlich	plötzlich	ADJ	ADJD	_	8	D	8:D	_
+16	rings	rings	ADV	NN	_	8	D	8:D	_
+17	um	um	ADP	APPR	_	19	R	19:R	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	Boot	Boot	NOUN	NN	_	8	A	8:A	_
+20	herum	herum	ADV	PTKVZ	_	17	Terminal	17:Terminal	_
+21	;	;	PUNCT	$.	_	6	U	6:U	_
+22	doch	doch	ADV	ADV	_	6	L	6:L	_
+23	ohne	ohne	ADP	CARD	_	24	D	24:D	_
+24	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+25	um	um	ADP	APPR	_	26	R	26:R	_
+26	uns	wir	PRON	NE	_	24	A	24:A	_
+27	zu	zu	PART	NE	_	24	F	24:F	_
+28	bekümmern	bekümmern	VERB	VVINF	_	24	Terminal	24:Terminal	_
+29	,	,	PUNCT	$,	_	6	U	6:U	_
+30	fielen	fallen	VERB	VVFIN	_	6	H	6:H	_
+31	sie	sie	PRON	ADV	_	30	A	30:A|37:A	_
+32	über	über	ADP	VVFIN	_	34	R	34:R	_
+33	den	der	DET	ART	_	34	E	34:E	_
+34	Leichnam	Leichnam	NOUN	NN	_	30	A	30:A	_
+35	her	her	ADV	ADV	_	30	Terminal	30:Terminal	_
+36	und	und	CCONJ	NE	_	6	L	6:L	_
+37	stritten	stritten	VERB	VVINF	_	6	H	6:H	_
+38	sich	er|es|sie	PRON	PRF	_	37	Terminal	37:Terminal	_
+39	um	um	ADP	APPR	_	41	R	41:R	_
+40	seine	sein	DET	PPOSAT	_	41	E	41:E	_
+41	Fetzen	Fetzen	NOUN	VVFIN	_	37	A	37:A	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

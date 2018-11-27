@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25428001
+# text = Die Lösung , die ich vorschlug , ließ übrigens der Phantasie freien Spielraum .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Lösung	Lösung	NOUN	NN	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	die	der	PRON	PRELS	_	6	R	6:R	_
+5	ich	ich	PRON	PPER	_	6	A	6:A	_
+6	vorschlug	vorschlagen	VERB	VVFIN	_	2	E	2:E	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	ließ	lassen	VERB	VVFIN	_	0	H	0:H	_
+9	übrigens	übrigens	ADV	ADV	_	8	D	8:D	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Phantasie	Phantasie	NOUN	NN	_	8	A	8:A	_
+12	freien	frei	ADJ	ADJA	_	13	E	13:E	_
+13	Spielraum	Spielraum	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

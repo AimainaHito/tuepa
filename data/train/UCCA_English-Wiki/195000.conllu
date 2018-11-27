@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 195000
+# text = Sorkin wrote 87 screenplays in all , which amounts to nearly every episode during the show 's first four Emmy - winning seasons .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	wrote	write	VERB	VBD	_	0	H	0:H	_
+3	87	87	NUM	CD	_	4	E	4:E	_
+4	screenplays	screenplay	NOUN	NNS	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	all	all	DET	DT	_	4	E	4:E	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	which	which	PRON	WDT	_	9	F	9:F	_
+9	amounts	amount	VERB	VBD	_	4	E	4:E	_
+10	to	to	PART	TO	_	13	R	13:R	_
+11	nearly	nearly	ADV	RB	_	12	E	12:E	_
+12	every	every	DET	DT	_	13	E	13:E	_
+13	episode	episode	NOUN	NN	_	9	A	9:A	_
+14	during	during	ADP	IN	_	23	R	23:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	show	show	NOUN	NN	_	23	A	23:A	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	first	first	ADJ	JJ	_	19	E	19:E	_
+19	four	four	NUM	CD	_	23	E	23:E	_
+20	Emmy	Emmy	NOUN	NN	_	22	A	22:A	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	winning	winning	VERB	VBG	_	23	E	23:E	_
+23	seasons	season	NOUN	NNS	_	13	E	13:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

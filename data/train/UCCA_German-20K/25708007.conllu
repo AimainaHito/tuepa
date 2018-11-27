@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25708007
+# text = Auf den engen Wänden der Durchfahrt sah ich nur noch schimmernde Striche , gerade Linien , Feuer streifen , die beim glänzenden Licht der Elektrizität durch die Schnelligkeit gezogen wurden .
+1	Auf	auf	ADP	APPR	_	4	R	4:R	_
+2	den	der	DET	ART	_	4	E	4:E	_
+3	engen	eng	ADJ	ADJA	_	4	E	4:E	_
+4	Wänden	Wand	NOUN	NN	_	7	A	7:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Durchfahrt	Durchfahrt	NOUN	NN	_	4	E	4:E	_
+7	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	nur	nur	ADV	NE	_	7	D	7:D	_
+10	noch	noch	ADV	CARD	_	7	D	7:D	_
+11	schimmernde	schimmernd	ADJ	ADJA	_	12	E	12:E	_
+12	Striche	Strich	NOUN	ADJA	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	gerade	gerade	ADV	ADV	_	15	E	15:E	_
+15	Linien	Linie	NOUN	NN	_	12	C	12:C	_
+16	,	,	PUNCT	$,	_	12	U	12:U	_
+17	Feuer	Feuer	NOUN	NN	_	18	E	18:E	_
+18	streifen	streifen	VERB	VVINF	_	12	C	12:C	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	die	der	PRON	ART	_	29	R	29:R	_
+21	beim	beim	ADV	NE	_	23	R	23:R	_
+22	glänzenden	glänzend	ADJ	ADJA	_	23	E	23:E	_
+23	Licht	Licht	NOUN	NN	_	29	A	29:A	_
+24	der	der	DET	ART	_	25	R	25:R	_
+25	Elektrizität	Elektrizität	NOUN	NN	_	23	E	23:E	_
+26	durch	durch	ADP	APPR	_	28	R	28:R	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	Schnelligkeit	Schnelligkeit	NOUN	NN	_	29	A	29:A	_
+29	gezogen	ziehen	VERB	VVPP	_	18	E	18:E	_
+30	wurden	werden	AUX	ADJD	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

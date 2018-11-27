@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 459010
+# text = The success of the program , though , failed to transfer into any lasting change in the viewership of World News Tonight ; ABC 's evening newscast spent the first week of January as ratings leader , before dropping back to second place .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	success	success	NOUN	NN	_	11	A	11:A	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	program	program	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	11	U	11:U	_
+7	though	though	ADV	RB	_	11	L	11:L	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	failed	fail	VERB	VBD	_	11	D	11:D	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	transfer	transfer	VERB	VB	_	0	H	0:H	_
+12	into	into	ADP	IN	_	15	R	15:R	_
+13	any	any	DET	DT	_	15	E	15:E	_
+14	lasting	lasting	ADJ	JJ	_	15	E	15:E	_
+15	change	change	NOUN	NN	_	11	A	11:A	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	viewership	viewership	NOUN	NN	_	15	E	15:E	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	World	World	PROPN	NNP	_	18	E	18:E	_
+21	News	News	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Tonight	Tonight	PROPN	NNP	_	20	Terminal	20:Terminal	_
+23	;	;	PUNCT	,	_	11	U	11:U	_
+24	ABC	ABC	PROPN	NNP	_	27	E	27:E	_
+25	's	's	PART	POS	_	24	R	24:R	_
+26	evening	evening	NOUN	NN	_	27	E	27:E	_
+27	newscast	newscast	NOUN	NN	_	0	C	0:C|39:A	_
+28	spent	spend	VERB	VBD	_	11	H	11:H	_
+29	the	the	DET	DT	_	31	E	31:E	_
+30	first	first	ADJ	JJ	_	31	E	31:E	_
+31	week	week	NOUN	NN	_	33	E	33:E	_
+32	of	of	ADP	IN	_	33	R	33:R	_
+33	January	January	PROPN	NNP	_	28	D	28:D	_
+34	as	as	SCONJ	IN	_	36	R	36:R	_
+35	ratings	rating	NOUN	NNS	_	36	E	36:E	_
+36	leader	leader	NOUN	NN	_	28	A	28:A	_
+37	,	,	PUNCT	,	_	11	U	11:U	_
+38	before	before	SCONJ	IN	_	11	L	11:L	_
+39	dropping	drop	VERB	VBG	_	11	H	11:H	_
+40	back	back	ADV	RB	_	39	Terminal	39:Terminal	_
+41	to	to	ADP	IN	_	43	R	43:R	_
+42	second	second	ADJ	JJ	_	43	E	43:E	_
+43	place	place	NOUN	NN	_	39	A	39:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

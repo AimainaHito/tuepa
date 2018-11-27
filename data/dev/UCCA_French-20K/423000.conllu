@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 423000
+# text = Mais l' hypothèse d' une machine de guerre tomba encore devant la déclaration des gouvernements .
+1	Mais	mais	CCONJ	_	_	9	L	9:L	_
+2	l'	le	DET	_	_	3	E	3:E	_
+3	hypothèse	hypothèse	NOUN	_	_	9	A	9:A	_
+4	d'	de	ADP	_	_	6	R	6:R	_
+5	une	un	DET	_	_	6	E	6:E	_
+6	machine	machine	NOUN	_	_	3	E	3:E	_
+7	de	de	ADP	_	_	8	R	8:R	_
+8	guerre	guerre	NOUN	_	_	6	E	6:E	_
+9	tomba	tomber	VERB	_	_	0	H	0:H	_
+10	encore	encore	ADV	_	_	9	D	9:D	_
+11	devant	devant	ADP	_	_	13	R	13:R	_
+12	la	le	DET	_	_	13	E	13:E	_
+13	déclaration	déclaration	NOUN	_	_	9	A	9:A	_
+14	des	un	DET	_	_	15	R	15:R	_
+15	gouvernements	gouvernement	NOUN	_	_	13	A	13:A	_
+16	.	.	PUNCT	_	_	15	U	15:U	_
+

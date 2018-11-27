@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25801010
+# text = 2 Tage lang wurden diese öden und tiefen Gewässer vermittels der geneigten Ebenen besucht .
+1	2	2	NUM	CARD	_	2	E	2:E	_
+2	Tage	Tag	NOUN	NN	_	14	D	14:D	_
+3	lang	lang	ADJ	ADJD	_	14	D	14:D	_
+4	wurden	werden	AUX	ADJD	_	14	F	14:F	_
+5	diese	dies	PRON	PDAT	_	9	E	9:E	_
+6	öden	öden	VERB	VVINF	_	9	E	9:E	_
+7	und	und	CCONJ	NE	_	6	N	6:N	_
+8	tiefen	tief	ADJ	ADJA	_	6	C	6:C	_
+9	Gewässer	Gewässer	NOUN	NN	_	14	A	14:A	_
+10	vermittels	vermittels	ADP	NE	_	13	R	13:R	_
+11	der	der	DET	ART	_	13	E	13:E	_
+12	geneigten	geneigt	ADJ	ADJA	_	13	E	13:E	_
+13	Ebenen	Ebene	NOUN	NN	_	14	A	14:A	_
+14	besucht	besuchen	VERB	VVPP	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

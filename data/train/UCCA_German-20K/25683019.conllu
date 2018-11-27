@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25683019
+# text = Hier unter den klaren Fluten bewegte sich die Krabbe mit einer Behendigkeit ohnegleichen .
+1	Hier	hier	ADV	ADV	_	6	A	6:A	_
+2	unter	unter	ADP	ADJD	_	5	R	5:R	_
+3	den	der	DET	ART	_	5	E	5:E	_
+4	klaren	klar	ADJ	ADJA	_	5	E	5:E	_
+5	Fluten	Flu	NOUN	NN	_	6	A	6:A	_
+6	bewegte	bewegen	VERB	VVFIN	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Krabbe	Krabbe	NOUN	NN	_	6	A	6:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	einer	ein	DET	ART	_	12	E	12:E	_
+12	Behendigkeit	Behendigkeit	NOUN	NN	_	6	A	6:A	_
+13	ohnegleichen	ohnegleichen	VERB	ADJA	_	6	D	6:D	_
+14	.	.	PUNCT	$.	_	6	U	6:U	_
+

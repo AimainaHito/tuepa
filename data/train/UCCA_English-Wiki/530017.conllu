@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 530017
+# text = The album has never been out of print .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	6	A	6:A	_
+3	has	have	AUX	VBZ	_	6	F	6:F	_
+4	never	never	ADV	RB	_	6	D	6:D	_
+5	been	be	AUX	VBN	_	6	D	6:D	_
+6	out	out	ADP	IN	_	0	H	0:H	_
+7	of	of	ADP	IN	_	6	Terminal	6:Terminal	_
+8	print	print	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	.	.	PUNCT	.	_	6	U	6:U	_
+

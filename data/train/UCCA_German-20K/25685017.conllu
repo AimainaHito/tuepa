@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25685017
+# text = Jedenfalls , verglich ich diese Perle mit den mir bereits bekannten , mit denen , die in der Sammlung des Kapitäns glänzten , so schätzte ich ihren Wert auf mindestens 10 Millionen Franc .
+1	Jedenfalls	jedenfalls	ADV	ADV	_	3	G	3:G	_
+2	,	,	PUNCT	$,	_	3	U	3:U	_
+3	verglich	verglich	ADJ	ADJD	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	diese	dies	PRON	PDAT	_	6	E	6:E	_
+6	Perle	Perl	NOUN	NN	_	3	A	3:A	_
+7	mit	mit	ADP	APPR	_	11	R	11:R	_
+8	den	der	DET	ART	_	11	A	11:A	_
+9	mir	ich	PRON	PPER	_	11	A	11:A	_
+10	bereits	bereits	ADV	ADV	_	11	D	11:D	_
+11	bekannten	bekannt	ADJ	VVFIN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	mit	mit	ADP	APPR	_	14	R	14:R	_
+14	denen	der	PRON	PRELS	_	3	A	3:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	PRON	PRELS	_	22	R	22:R	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Sammlung	Sammlung	NOUN	NN	_	22	A	22:A	_
+20	des	der	DET	ART	_	21	R	21:R	_
+21	Kapitäns	Kapitän	NOUN	NN	_	19	E	19:E	_
+22	glänzten	glänzen	VERB	VVFIN	_	14	E	14:E	_
+23	,	,	PUNCT	$,	_	3	U	3:U	_
+24	so	so	ADV	ADV	_	3	L	3:L	_
+25	schätzte	schätzen	VERB	NN	_	3	H	3:H	_
+26	ich	ich	PRON	PPER	_	25	A	25:A	_
+27	ihren	ihr	DET	PPOSAT	_	28	E	28:E	_
+28	Wert	Wert	NOUN	NN	_	25	A	25:A	_
+29	auf	auf	ADP	APPR	_	33	R	33:R	_
+30	mindestens	mindestens	ADV	ADV	_	25	D	25:D	_
+31	10	10	NUM	CARD	_	33	E	33:E	_
+32	Millionen	Million	NOUN	NN	_	31	Terminal	31:Terminal	_
+33	Franc	Franc	PROPN	NN	_	25	A	25:A	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

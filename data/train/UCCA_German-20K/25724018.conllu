@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25724018
+# text = Wenn Kapitän Nemo in seinem Zimmer war , konnte er mich sehen .
+1	Wenn	wenn	SCONJ	KOUS	_	7	L	7:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	seinem	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Zimmer	Zimmer	NOUN	NN	_	7	A	7:A	_
+7	war	sein	VERB	ADV	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	konnte	können	AUX	VMFIN	_	12	D	12:D	_
+10	er	er	PRON	PPER	_	12	A	12:A	_
+11	mich	ich	PRON	PPER	_	12	A	12:A	_
+12	sehen	sehen	VERB	VVINF	_	7	H	7:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

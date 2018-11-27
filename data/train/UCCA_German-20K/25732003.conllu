@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25732003
+# text = Der Fuß glitt oft aus auf dieser klebrigen Decke von Tang , und ohne meinen eisenbeschlagenen Stock wäre ich manchmal gefallen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Fuß	Fuß	NOUN	NN	_	3	A	3:A	_
+3	glitt	gleiden	VERB	VVFIN	_	0	H	0:H	_
+4	oft	oft	ADV	CARD	_	3	D	3:D	_
+5	aus	aus	ADP	APPR	_	3	Terminal	3:Terminal	_
+6	auf	auf	ADP	APPR	_	9	R	9:R	_
+7	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+8	klebrigen	klebrig	ADJ	ADJA	_	9	E	9:E	_
+9	Decke	Decke	NOUN	NN	_	3	A	3:A	_
+10	von	von	ADP	NE	_	11	R	11:R	_
+11	Tang	Tang	NOUN	NE	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	ohne	ohne	ADP	CARD	_	21	D	21:D	_
+15	meinen	mein	PRON	PPOSAT	_	17	E	17:E	_
+16	eisenbeschlagenen	eisenbeschlagenen	VERB	ADJA	_	21	A	21:A	_
+17	Stock	Stock	PROPN	NN	_	16	A	16:A	_
+18	wäre	sein	AUX	ADV	_	21	D	21:D	_
+19	ich	ich	PRON	PPER	_	21	A	21:A	_
+20	manchmal	manchmal	ADV	ADV	_	21	D	21:D	_
+21	gefallen	fallen|gefallen	VERB	VVPP	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

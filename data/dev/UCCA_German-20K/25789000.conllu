@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25789000
+# text = » Gut , Ned « , sagte ich , » und reichte dem Kanadier die Hand .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Gut	gut	NOUN	NN	_	7	A	7:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A|12:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	und	und	CCONJ	NE	_	7	L	7:L	_
+12	reichte	reichen	VERB	VVFIN	_	7	H	7:H	_
+13	dem	der	DET	ART	_	14	E	14:E	_
+14	Kanadier	Kanadier	NOUN	NN	_	12	A	12:A	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Hand	Hand	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

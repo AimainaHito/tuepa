@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 148007
+# text = The most significant relationship of Hepburn 's life was with Spencer Tracy .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	most	most	ADV	RBS	_	3	E	3:E	_
+3	significant	significant	ADJ	JJ	_	4	D	4:D	_
+4	relationship	relationship	NOUN	NN	_	9	A	9:A	_
+5	of	of	ADP	IN	_	8	R	8:R	_
+6	Hepburn	Hepburn	PROPN	NNP	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	life	life	NOUN	NN	_	4	A	4:A	_
+9	was	be	AUX	VBD	_	0	H	0:H	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Spencer	Spencer	PROPN	NNP	_	9	A	9:A	_
+12	Tracy	Tracy	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

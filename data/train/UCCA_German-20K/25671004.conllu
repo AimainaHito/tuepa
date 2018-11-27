@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25671004
+# text = So weit man sehen konnte , schien der Ozean aus Milch zu bestehen .
+1	So	so	ADV	ADV	_	2	E	2:E	_
+2	weit	weit	ADJ	ADJD	_	4	D	4:D	_
+3	man	man	PRON	PIS	_	4	A	4:A	_
+4	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+5	konnte	können	AUX	VMFIN	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	schien	scheinen	VERB	VVFIN	_	4	H	4:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Ozean	Ozean	NOUN	NE	_	13	A	13:A	_
+10	aus	aus	ADP	APPR	_	11	R	11:R	_
+11	Milch	Milch	NOUN	NN	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	bestehen	bestehen	VERB	VVINF	_	7	A	7:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

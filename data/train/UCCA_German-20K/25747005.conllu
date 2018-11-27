@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25747005
+# text = Ich teile Maurys Ansicht und habe die Erscheinung von dem eigentümlichen Standpunkt aus , wohin die Schiffe selten dringen , studieren können .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	teile	teile	ADV	NN	_	0	H	0:H	_
+3	Maurys	Maurys	PROPN	NE	_	4	A	4:A	_
+4	Ansicht	Ansicht	NOUN	NN	_	2	A	2:A	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	habe	haben	AUX	VAFIN	_	21	F	21:F	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Erscheinung	Erscheinung	NOUN	NN	_	21	A	21:A	_
+9	von	von	ADP	NE	_	11	R	11:R	_
+10	dem	der	DET	ART	_	12	E	12:E	_
+11	eigentümlichen	eigentümlich	ADJ	ADJA	_	21	A	21:A	_
+12	Standpunkt	Standpunkt	NOUN	NN	_	11	A	11:A	_
+13	aus	aus	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	wohin	wohin	SCONJ	ADJD	_	19	R	19:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Schiffe	Schiff	NOUN	NN	_	19	A	19:A	_
+18	selten	selten	ADJ	VVFIN	_	19	D	19:D	_
+19	dringen	dringen	VERB	VVFIN	_	12	E	12:E	_
+20	,	,	PUNCT	$,	_	21	U	21:U	_
+21	studieren	studieren	VERB	VVINF	_	2	H	2:H	_
+22	können	können	AUX	VMINF	_	21	D	21:D	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

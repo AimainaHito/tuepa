@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 635002
+# text = The following January he was unknowingly introduced to LSD when a dentist , hosting a dinner party attended by Lennon , Harrison and their wives , spiked the guests ' coffee with the drug .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	January	January	PROPN	NNP	_	7	D	7:D	_
+4	he	he	PRON	PRP	_	7	A	7:A	_
+5	was	be	AUX	VBD	_	7	F	7:F	_
+6	unknowingly	unknowingly	ADV	RB	_	7	D	7:D	_
+7	introduced	introduce	VERB	VBN	_	0	H	0:H	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	LSD	lsd	NOUN	NN	_	7	A	7:A	_
+10	when	when	ADV	WRB	_	7	L	7:L	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	dentist	dentist	NOUN	NN	_	0	C	0:C|14:A	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	hosting	host	VERB	VBG	_	7	H	7:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	dinner	dinner	NOUN	NN	_	17	E	17:E	_
+17	party	party	NOUN	NN	_	14	A	14:A	_
+18	attended	attend	VERB	VBN	_	17	E	17:E	_
+19	by	by	ADP	IN	_	20	R	20:R	_
+20	Lennon	Lennon	PROPN	NNP	_	18	A	18:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	Harrison	Harrison	PROPN	NNP	_	20	C	20:C	_
+23	and	and	CCONJ	CC	_	20	N	20:N	_
+24	their	they	PRON	PRP$	_	25	E	25:E	_
+25	wives	wife	NOUN	NNS	_	20	C	20:C	_
+26	,	,	PUNCT	,	_	7	U	7:U	_
+27	spiked	spik	VERB	VBD	_	7	H	7:H	_
+28	the	the	DET	DT	_	31	E	31:E	_
+29	guests	guest	NOUN	NNS	_	31	E	31:E	_
+30	'	's	PART	POS	_	31	U	31:U	_
+31	coffee	coffee	NOUN	NN	_	27	A	27:A	_
+32	with	with	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	drug	drug	NOUN	NN	_	27	A	27:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

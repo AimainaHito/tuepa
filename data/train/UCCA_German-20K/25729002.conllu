@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25729002
+# text = Kaum hatte ich diese Worte ausgesprochen , als ich merkte , dass sie Kapitän Nemo verletzen mußten .
+1	Kaum	kaum	NOUN	ADV	_	6	D	6:D	_
+2	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Worte	Wort	NOUN	NN	_	6	A	6:A	_
+6	ausgesprochen	aussprechen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	als	als	SCONJ	KOUS	_	6	L	6:L	_
+9	ich	ich	PRON	PPER	_	10	A	10:A	_
+10	merkte	merken	VERB	VVFIN	_	6	H	6:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+13	sie	sie	PRON	ADV	_	16	A	16:A	_
+14	Kapitän	Kapitän	PROPN	NN	_	15	E	15:E	_
+15	Nemo	Nemo	PROPN	NE	_	16	A	16:A	_
+16	verletzen	verletzen	VERB	VVINF	_	10	A	10:A	_
+17	mußten	müssen	AUX	NN	_	16	D	16:D	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

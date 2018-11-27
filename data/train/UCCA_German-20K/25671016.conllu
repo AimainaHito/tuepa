@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25671016
+# text = Ich meinesteils fuhr fort , das Phänomen zu beobachten .
+1	Ich	ich	PRON	PPER	_	9	A	9:A	_
+2	meinesteils	meinesteils	ADV	ADV	_	9	D	9:D	_
+3	fuhr	fahren	VERB	VVFIN	_	9	D	9:D	_
+4	fort	fort	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	das	der	DET	ART	_	7	E	7:E	_
+7	Phänomen	Phänomen	NOUN	NN	_	9	A	9:A	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	beobachten	beobachten	VERB	VVINF	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25756000
+# text = An ein tätiges Leben in Freiheit gewöhnt , musste der Kanadier die Einförmigkeit des Lebens an Bord unerträglich finden .
+1	An	an	ADP	APPR	_	4	R	4:R	_
+2	ein	ein	DET	ART	_	4	E	4:E	_
+3	tätiges	tätig	ADJ	ADJA	_	4	D	4:D	_
+4	Leben	Leben	NOUN	NN	_	7	A	7:A	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Freiheit	Freiheit	PROPN	NN	_	4	A	4:A	_
+7	gewöhnt	wöhnen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	musste	müssen	AUX	VVFIN	_	19	D	19:D	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|7:A	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Einförmigkeit	Einförmigkeit	NOUN	NN	_	18	A	18:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Lebens	Leben	NOUN	NN	_	13	A	13:A	_
+16	an	an	ADP	APPR	_	17	R	17:R	_
+17	Bord	Bord	NOUN	NN	_	15	E	15:E	_
+18	unerträglich	unerträglich	ADJ	ADJD	_	19	A	19:A	_
+19	finden	finden	VERB	VVINF	_	7	H	7:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

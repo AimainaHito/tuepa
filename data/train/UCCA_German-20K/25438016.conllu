@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25438016
+# text = * Ein besonderer Kai für jedes Fahrzeug .
+1	*	*	X	$(	_	4	U	4:U	_
+2	Ein	ein	DET	ART	_	4	E	4:E	_
+3	besonderer	besonder	ADJ	ADJA	_	4	E	4:E	_
+4	Kai	Kai	NOUN	NN	_	0	H	0:H	_
+5	für	für	ADP	APPR	_	7	R	7:R	_
+6	jedes	jed	PRON	PIAT	_	7	E	7:E	_
+7	Fahrzeug	Fahrzeug	NOUN	NN	_	4	A	4:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 591013
+# text = He also appeared in the music video of " My Valentine " from the album Kisses on the Bottom by Paul McCartney released in February 2012 , along with Natalie Portman .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	music	music	NOUN	NN	_	7	E	7:E	_
+7	video	video	NOUN	NN	_	3	A	3:A	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	"	"	PUNCT	``	_	10	U	10:U	_
+10	My	my	PRON	PRP$	_	7	E	7:E	_
+11	Valentine	Valentine	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	"	"	PUNCT	''	_	7	U	7:U	_
+13	from	from	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	album	album	NOUN	NN	_	16	E	16:E	_
+16	Kisses	Kiss	NOUN	NNS	_	7	E	7:E	_
+17	on	on	ADP	IN	_	16	Terminal	16:Terminal	_
+18	the	the	DET	DT	_	16	Terminal	16:Terminal	_
+19	Bottom	bottom	NOUN	NN	_	16	Terminal	16:Terminal	_
+20	by	by	ADP	IN	_	21	R	21:R	_
+21	Paul	Paul	PROPN	NNP	_	16	E	16:E	_
+22	McCartney	McCartney	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	released	release	VERB	VBD	_	16	E	16:E	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	February	February	PROPN	NNP	_	23	D	23:D	_
+26	2012	2012	NUM	CD	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	3	U	3:U	_
+28	along	along	ADP	IN	_	30	R	30:R	_
+29	with	with	ADP	IN	_	28	F	28:F	_
+30	Natalie	Natalie	PROPN	NNP	_	3	A	3:A	_
+31	Portman	Portman	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

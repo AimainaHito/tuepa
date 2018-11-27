@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 488006
+# text = In 2004 , Bana co - starred with Brad Pitt in the big - budget film Troy .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	Bana	Bana	PROPN	NNP	_	7	A	7:A	_
+5	co	co	X	AFX	_	7	E	7:E	_
+6	-	-	PUNCT	HYPH	_	7	U	7:U	_
+7	starred	star	VERB	VBN	_	0	H	0:H	_
+8	with	with	ADP	IN	_	9	R	9:R	_
+9	Brad	Brad	PROPN	NNP	_	7	A	7:A	_
+10	Pitt	Pitt	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	IN	_	17	R	17:R	_
+12	the	the	DET	DT	_	17	E	17:E	_
+13	big	big	ADJ	JJ	_	15	E	15:E	_
+14	-	-	PUNCT	HYPH	_	15	U	15:U	_
+15	budget	budget	NOUN	NN	_	17	E	17:E	_
+16	film	film	NOUN	NN	_	17	E	17:E	_
+17	Troy	Troy	NOUN	NN	_	7	A	7:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

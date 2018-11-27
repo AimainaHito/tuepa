@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 185009
+# text = The second season of Sports Night was its last and in 1999 overlapped with the debut of Sorkin 's next TV series , the political drama The West Wing , this time for the NBC network .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	second	second	ADJ	JJ	_	3	E	3:E	_
+3	season	season	NOUN	NN	_	0	C	0:C|8:C|13:A	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	Sports	Sports	PROPN	NNP	_	7	A	7:A	_
+6	Night	night	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	was	be	AUX	VBD	_	0	H	0:H	_
+8	its	its	PRON	PRP$	_	7	A	7:A	_
+9	last	last	ADJ	JJ	_	8	E	8:E	_
+10	and	and	CCONJ	CC	_	7	L	7:L	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1999	1999	NUM	CD	_	13	D	13:D	_
+13	overlapped	overlap	ADJ	JJ	_	7	H	7:H	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	debut	debut	NOUN	NN	_	13	A	13:A	_
+17	of	of	ADP	IN	_	22	R	22:R	_
+18	Sorkin	Sorkin	PROPN	NNP	_	0	C	0:C|35:A	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	next	next	ADJ	JJ	_	22	E	22:E	_
+21	TV	tv	NOUN	NN	_	22	E	22:E	_
+22	series	series	NOUN	NNS	_	16	A	16:A	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	political	political	ADJ	JJ	_	26	E	26:E	_
+26	drama	drama	NOUN	NN	_	27	E	27:E	_
+27	The	the	DET	DT	_	22	E	22:E	_
+28	West	West	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	Wing	wing	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	,	,	PUNCT	,	_	16	U	16:U	_
+31	this	this	DET	DT	_	32	E	32:E	_
+32	time	time	NOUN	NN	_	35	D	35:D	_
+33	for	for	ADP	IN	_	35	R	35:R	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	NBC	NBC	PROPN	NNP	_	16	A	16:A	_
+36	network	network	NOUN	NN	_	35	E	35:E	_
+37	.	.	PUNCT	.	_	35	U	35:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25761008
+# text = Die Luke wurde geöffnet , und wir stürzten auf die Plattform .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luke	Luke	NOUN	NE	_	4	A	4:A	_
+3	wurde	werden	AUX	NE	_	4	F	4:F	_
+4	geöffnet	öffnen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	und	und	CCONJ	NE	_	4	L	4:L	_
+7	wir	wir	PRON	NE	_	8	A	8:A	_
+8	stürzten	stürzen	VERB	VVFIN	_	4	H	4:H	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Plattform	Plattform	NOUN	NN	_	8	A	8:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

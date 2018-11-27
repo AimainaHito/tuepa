@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 707007
+# text = Since then , some critics have called the 11 - minute epic that Dylan co - wrote with Sam Shepard , ' Brownsville Girl ' , a work of genius .
+1	Since	since	ADP	IN	_	2	R	2:R	_
+2	then	then	ADV	RB	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	some	some	DET	DT	_	5	E	5:E	_
+5	critics	critic	NOUN	NNS	_	7	A	7:A	_
+6	have	have	AUX	VBP	_	7	F	7:F	_
+7	called	call	VERB	VBN	_	0	H	0:H	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	11	11	NUM	CD	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	minute	minute	NOUN	NN	_	12	E	12:E	_
+12	epic	epic	NOUN	NN	_	7	A	7:A	_
+13	that	that	PRON	WDT	_	17	R	17:R	_
+14	Dylan	Dylan	PROPN	NNP	_	17	A	17:A	_
+15	co	co	NOUN	NN	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	wrote	write	NOUN	NN	_	12	E	12:E	_
+18	with	with	ADP	IN	_	19	R	19:R	_
+19	Sam	Sam	PROPN	NNP	_	17	A	17:A	_
+20	Shepard	Shepard	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	12	U	12:U	_
+22	'	'	PUNCT	``	_	12	U	12:U	_
+23	Brownsville	Brownsville	PROPN	NNP	_	12	E	12:E	_
+24	Girl	girl	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	'	'	PUNCT	''	_	7	U	7:U	_
+26	,	,	PUNCT	,	_	7	U	7:U	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	work	work	NOUN	NN	_	7	A	7:A	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	genius	genius	NOUN	NN	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

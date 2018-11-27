@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 645009
+# text = According to the first , told by the Lennons , on 9 November 1966 Lennon went to the Indica Gallery in London , where Ono was preparing her conceptual art exhibit , and they were introduced by gallery owner John Dunbar .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	first	first	ADV	RBS	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	told	tell	VERB	VBN	_	4	E	4:E	_
+7	by	by	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Lennons	Lennons	NOUN	NNS	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	on	on	ADP	IN	_	14	R	14:R	_
+12	9	9	NUM	CD	_	14	E	14:E	_
+13	November	November	PROPN	NNP	_	14	E	14:E	_
+14	1966	1966	NUM	CD	_	16	D	16:D	_
+15	Lennon	Lennon	PROPN	NNP	_	16	A	16:A	_
+16	went	go	VERB	VBD	_	1	A	1:A	_
+17	to	to	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	Indica	Indica	PROPN	NNP	_	20	E	20:E	_
+20	Gallery	Gallery	PROPN	NNP	_	16	A	16:A	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	London	London	PROPN	NNP	_	16	A	16:A	_
+23	,	,	PUNCT	,	_	1	U	1:U	_
+24	where	where	ADV	WRB	_	1	L	1:L	_
+25	Ono	Ono	PROPN	NNP	_	27	A	27:A	_
+26	was	be	AUX	VBD	_	27	F	27:F	_
+27	preparing	prepare	VERB	VBG	_	1	H	1:H	_
+28	her	she	PRON	PRP$	_	31	E	31:E	_
+29	conceptual	conceptual	ADJ	JJ	_	30	E	30:E	_
+30	art	art	NOUN	NN	_	31	E	31:E	_
+31	exhibit	exhibit	NOUN	NN	_	27	A	27:A	_
+32	,	,	PUNCT	,	_	1	U	1:U	_
+33	and	and	CCONJ	CC	_	1	L	1:L	_
+34	they	they	PRON	PRP	_	36	A	36:A	_
+35	were	be	AUX	VBD	_	36	F	36:F	_
+36	introduced	introduce	VERB	VBN	_	1	H	1:H	_
+37	by	by	ADP	IN	_	39	R	39:R	_
+38	gallery	gallery	NOUN	NN	_	39	E	39:E	_
+39	owner	owner	NOUN	NN	_	36	A	36:A	_
+40	John	John	PROPN	NNP	_	39	E	39:E	_
+41	Dunbar	Dunbar	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	.	.	PUNCT	.	_	39	U	39:U	_
+

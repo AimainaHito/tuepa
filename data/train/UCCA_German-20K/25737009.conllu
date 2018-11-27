@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25737009
+# text = Der Kapitän erhob sich , warf einen letzten Blick auf diese unermeßliche Ebene ; darauf winkte er mit der Hand , ihm zu folgen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|6:A	_
+3	erhob	erheben	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	warf	werfen	VERB	VVFIN	_	3	H	3:H	_
+7	einen	ein	DET	ART	_	8	E	8:E	_
+8	letzten	letzt	ADJ	ADJA	_	9	E	9:E	_
+9	Blick	Blick	NOUN	NN	_	6	A	6:A	_
+10	auf	auf	ADP	APPR	_	13	R	13:R	_
+11	diese	dies	PRON	PDAT	_	13	E	13:E	_
+12	unermeßliche	unermeßlich	ADJ	ADJA	_	13	E	13:E	_
+13	Ebene	Ebene	NOUN	NN	_	6	A	6:A	_
+14	;	;	PUNCT	$.	_	3	U	3:U	_
+15	darauf	darauf	ADV	PAV	_	3	L	3:L	_
+16	winkte	winken	VERB	VVFIN	_	3	H	3:H	_
+17	er	er	PRON	PPER	_	16	A	16:A	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	der	der	DET	ART	_	20	E	20:E	_
+20	Hand	Hand	NOUN	NN	_	16	A	16:A	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	ihm	er	PRON	PPER	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	folgen	folgen	VERB	VVINF	_	3	H	3:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

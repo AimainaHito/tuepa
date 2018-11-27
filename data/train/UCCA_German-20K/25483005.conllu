@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25483005
+# text = Einigemal konnte man dem Tier nah kommen .
+1	Einigemal	Einigemal	ADV	ADV	_	6	A	6:A	_
+2	konnte	können	AUX	VMFIN	_	6	D	6:D	_
+3	man	man	PRON	PIS	_	6	A	6:A	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Tier	Tier	NOUN	NN	_	6	A	6:A	_
+6	nah	nah	ADJ	ADJD	_	0	H	0:H	_
+7	kommen	kommen	VERB	VVINF	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

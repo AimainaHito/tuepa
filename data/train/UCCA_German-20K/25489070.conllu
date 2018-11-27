@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25489070
+# text = Jetzt aber galt es vornehmlich , sich verständlich zu machen .
+1	Jetzt	jetzt	ADV	ADV	_	3	D	3:D	_
+2	aber	aber	ADV	ADV	_	3	L	3:L	_
+3	galt	gelten	VERB	VVFIN	_	0	H	0:H	_
+4	es	es	PRON	PPER	_	3	F	3:F	_
+5	vornehmlich	vornehmlich	ADV	ADJD	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	sich	er|es|sie	PRON	PRF	_	3	A	3:A	_
+8	verständlich	verständlich	ADJ	ADJD	_	7	Terminal	7:Terminal	_
+9	zu	zu	PART	VVINF	_	7	F	7:F	_
+10	machen	machen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+

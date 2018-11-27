@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25749000
+# text = Während der obgedachten 19 Tage begab sich kein besonderer Zwischenfall .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	der	der	DET	ART	_	5	R	5:R	_
+3	obgedachten	obgedacht	ADJ	ADJA	_	6	A	6:A	_
+4	19	19	NUM	CARD	_	5	E	5:E	_
+5	Tage	Tag	NOUN	NN	_	3	A	3:A	_
+6	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	kein	kein	PRON	PIAT	_	6	D	6:D	_
+9	besonderer	besonder	ADJ	ADJA	_	10	E	10:E	_
+10	Zwischenfall	Zwischenfall	NOUN	NN	_	6	A	6:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25731006
+# text = Es war bald Mitternacht und die Gewässer in tiefem Dunkel , aber Kapitän Nemo zeigte mir in der Ferne einen rötlichen Punkt , einen weithin leuchtenden Schimmer , der etwa 2 Meilen von der ›Nautilus‹ entfernt glänzte .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	bald	bald	ADV	ADV	_	2	D	2:D	_
+4	Mitternacht	Mitternacht	NOUN	NE	_	2	A	2:A	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Gewässer	Gewässer	NOUN	NN	_	10	A	10:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	tiefem	tief	ADJ	ADJA	_	10	D	10:D	_
+10	Dunkel	Dunkel	NOUN	NN	_	2	H	2:H	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	aber	aber	CCONJ	KON	_	2	L	2:L	_
+13	Kapitän	Kapitän	PROPN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	15	A	15:A	_
+15	zeigte	zeigen	VERB	VVFIN	_	2	H	2:H	_
+16	mir	ich	PRON	PPER	_	15	A	15:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Ferne	Ferne	NOUN	NN	_	15	A	15:A	_
+20	einen	ein	DET	ART	_	22	E	22:E	_
+21	rötlichen	rötlich	ADJ	ADJA	_	22	E	22:E	_
+22	Punkt	Punkt	NOUN	NN	_	15	A	15:A	_
+23	,	,	PUNCT	$,	_	15	U	15:U	_
+24	einen	ein	DET	ART	_	27	E	27:E	_
+25	weithin	weithin	ADV	ADV	_	26	D	26:D	_
+26	leuchtenden	leuchtend	ADJ	ADJA	_	15	A	15:A	_
+27	Schimmer	Schimmer	NOUN	NE	_	0	C	0:C|37:A|36:A	_
+28	,	,	PUNCT	$,	_	37	U	37:U	_
+29	der	der	PRON	PRELS	_	37	R	37:R	_
+30	etwa	etwa	ADV	ADV	_	31	E	31:E	_
+31	2	2	NUM	CARD	_	36	A	36:A	_
+32	Meilen	Meile	NOUN	NN	_	31	Terminal	31:Terminal	_
+33	von	von	ADP	NN	_	35	R	35:R	_
+34	der	der	DET	ART	_	35	E	35:E	_
+35	›Nautilus‹	›Nautilus‹	NOUN	NE	_	36	A	36:A	_
+36	entfernt	entfernt	ADJ	ADJD	_	26	E	26:E	_
+37	glänzte	glänzen	VERB	VVFIN	_	26	E	26:E	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

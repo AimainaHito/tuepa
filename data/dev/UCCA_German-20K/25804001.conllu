@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25804001
+# text = Und darf man Toussenel glauben , so ist diese Plage noch unbedeutend gegen die , welche unsere Nachkommen treffen wird , wenn die Walfische und Robben in diesen Meeren vertilgt worden sind .
+1	Und	und	CCONJ	ADJD	_	5	L	5:L	_
+2	darf	dürfen	AUX	VMFIN	_	5	D	5:D	_
+3	man	man	PRON	PIS	_	5	A	5:A	_
+4	Toussenel	Toussenel	NOUN	NN	_	5	A	5:A	_
+5	glauben	glauben	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	so	so	ADV	ADV	_	5	L	5:L	_
+8	ist	sein	AUX	VVFIN	_	12	F	12:F	_
+9	diese	dies	PRON	PDAT	_	10	E	10:E	_
+10	Plage	Plage	NOUN	NN	_	12	A	12:A	_
+11	noch	noch	ADV	NN	_	12	D	12:D	_
+12	unbedeutend	unbedeutend	ADJ	ADJD	_	5	H	5:H	_
+13	gegen	gegen	ADP	APPR	_	14	R	14:R	_
+14	die	der	DET	ART	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	welche	welch	PRON	NN	_	19	R	19:R	_
+17	unsere	unser	PRON	PPOSAT	_	18	E	18:E	_
+18	Nachkommen	Nachkomme|Nachkommen	NOUN	NN	_	19	A	19:A	_
+19	treffen	treffen	VERB	VVFIN	_	14	E	14:E	_
+20	wird	werden	AUX	VAFIN	_	19	F	19:F	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	wenn	wenn	SCONJ	VVFIN	_	5	L	5:L	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Walfische	Walfisch	PROPN	ADJA	_	30	A	30:A	_
+25	und	und	CCONJ	NE	_	24	N	24:N	_
+26	Robben	Robben	PROPN	NN	_	24	C	24:C	_
+27	in	in	ADP	APPR	_	29	R	29:R	_
+28	diesen	dies	PRON	PDAT	_	29	E	29:E	_
+29	Meeren	Meer	NOUN	NN	_	30	A	30:A	_
+30	vertilgt	vertilgen	VERB	VVPP	_	5	H	5:H	_
+31	worden	werden	AUX	ADV	_	30	F	30:F	_
+32	sind	sein	AUX	NN	_	30	F	30:F	_
+33	.	.	PUNCT	$.	_	30	U	30:U	_
+

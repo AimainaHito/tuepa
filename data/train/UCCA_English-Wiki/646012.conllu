@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 646012
+# text = To escape the acrimony of the band 's break - up , Ono suggested they move permanently to New York , which they did on 31 August 1971 .
+1	To	to	PART	TO	_	2	F	2:F	_
+2	escape	escape	VERB	VB	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	acrimony	acrimony	NOUN	NN	_	9	E	9:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	band	band	NOUN	NN	_	9	A	9:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	break	break	NOUN	NN	_	2	A	2:A	_
+10	-	-	PUNCT	HYPH	_	9	U	9:U	_
+11	up	up	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	Ono	Ono	PROPN	NNP	_	14	A	14:A	_
+14	suggested	suggest	VERB	VBD	_	2	H	2:H	_
+15	they	they	PRON	PRP	_	16	A	16:A|2:A	_
+16	move	move	VERB	VBP	_	14	A	14:A	_
+17	permanently	permanently	ADV	RB	_	16	D	16:D	_
+18	to	to	ADP	IN	_	19	R	19:R	_
+19	New	New	PROPN	NNP	_	16	A	16:A	_
+20	York	York	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	which	which	PRON	WDT	_	2	L	2:L	_
+23	they	they	PRON	PRP	_	24	A	24:A	_
+24	did	do	VERB	VBD	_	2	H	2:H	_
+25	on	on	ADP	IN	_	26	R	26:R	_
+26	31	31	NUM	CD	_	24	D	24:D	_
+27	August	August	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	1971	1971	NUM	CD	_	26	Terminal	26:Terminal	_
+29	.	.	PUNCT	.	_	26	U	26:U	_
+

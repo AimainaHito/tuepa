@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 557010
+# text = " Songfellow Jim Hamill later claimed that he was turned down because he did not demonstrate an ear for harmony at the time .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Songfellow	Songfellow	PROPN	NNP	_	3	E	3:E	_
+3	Jim	Jim	PROPN	NNP	_	6	A	6:A	_
+4	Hamill	Hamill	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	later	later	ADV	RB	_	6	D	6:D	_
+6	claimed	claim	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	10	R	10:R	_
+8	he	he	PRON	PRP	_	10	A	10:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	turned	turn	VERB	VBN	_	6	A	6:A	_
+11	down	down	ADP	RP	_	10	Terminal	10:Terminal	_
+12	because	because	SCONJ	IN	_	10	L	10:L	_
+13	he	he	PRON	PRP	_	16	A	16:A	_
+14	did	do	AUX	VBD	_	16	F	16:F	_
+15	not	not	PART	RB	_	16	D	16:D	_
+16	demonstrate	demonstrate	VERB	VB	_	10	H	10:H	_
+17	an	a	DET	DT	_	18	R	18:R	_
+18	ear	ear	NOUN	NN	_	16	A	16:A	_
+19	for	for	ADP	IN	_	20	R	20:R	_
+20	harmony	harmony	NOUN	NN	_	18	E	18:E	_
+21	at	at	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	time	time	NOUN	NN	_	16	D	16:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

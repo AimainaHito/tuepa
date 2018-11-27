@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25701017
+# text = » Eine Sirene « , rief Conseil , » eine echte Sirene , nehmen Sie ' s nicht übel , mein Herr . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Eine	ein	DET	ART	_	3	E	3:E	_
+3	Sirene	Sirene	NOUN	NE	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	PROPN	NE	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	eine	ein	DET	ART	_	12	E	12:E	_
+11	echte	echt	ADJ	ADJA	_	12	E	12:E	_
+12	Sirene	Sirene	NOUN	NN	_	3	H	3:H	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	nehmen	nehmen	VERB	CARD	_	3	H	3:H	_
+15	Sie	Sie|sie	PRON	PPER	_	14	A	14:A	_
+16	'	'	PUNCT	$(	_	14	U	14:U	_
+17	s	s	NOUN	NN	_	14	A	14:A	_
+18	nicht	nicht	PART	CARD	_	14	D	14:D	_
+19	übel	übel	ADJ	ADJD	_	14	Terminal	14:Terminal	_
+20	,	,	PUNCT	$,	_	14	U	14:U	_
+21	mein	mein	PRON	PPOSAT	_	22	E	22:E	_
+22	Herr	Herr	NOUN	NN	_	14	G	14:G	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

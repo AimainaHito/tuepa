@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25617010
+# text = Ich glaubte , er wolle in diese einlaufen , als er wieder in nordwestlicher Richtung durch eine große Menge Inseln und wenig bekannter Eilande auf die Insel Tound und den schlimmen Kanal zufuhr .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	glaubte	glauben	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	er	er	PRON	PPER	_	8	A	8:A	_
+5	wolle	wollen	AUX	VMFIN	_	8	D	8:D	_
+6	in	in	ADP	APPR	_	7	R	7:R	_
+7	diese	dies	PRON	PDS	_	8	A	8:A	_
+8	einlaufen	einlaufen	VERB	VVINF	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	als	als	SCONJ	KOUS	_	2	L	2:L	_
+11	er	er	PRON	PPER	_	33	A	33:A	_
+12	wieder	wieder	ADV	NN	_	33	D	33:D	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	nordwestlicher	nordwestlich	ADJ	ADJA	_	15	E	15:E	_
+15	Richtung	Richtung	NOUN	NN	_	33	A	33:A	_
+16	durch	durch	ADP	APPR	_	20	R	20:R	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	große	groß	ADJ	ADJA	_	19	E	19:E	_
+19	Menge	Menge	NOUN	NN	_	20	E	20:E	_
+20	Inseln	Insel	PROPN	NN	_	33	A	33:A	_
+21	und	und	CCONJ	NE	_	20	N	20:N	_
+22	wenig	wenig	ADV	PPOSAT	_	23	D	23:D	_
+23	bekannter	bekannt	ADJ	PTKVZ	_	20	C	20:C	_
+24	Eilande	Eilande	NOUN	NN	_	23	A	23:A	_
+25	auf	auf	ADP	APPR	_	28	R	28:R	_
+26	die	der	DET	ART	_	28	E	28:E	_
+27	Insel	Insel	NOUN	NN	_	28	E	28:E	_
+28	Tound	Tound	PROPN	NE	_	33	A	33:A	_
+29	und	und	CCONJ	NE	_	28	N	28:N	_
+30	den	der	DET	ART	_	32	E	32:E	_
+31	schlimmen	schlimm	ADJ	ADJA	_	32	E	32:E	_
+32	Kanal	Kanal	NOUN	NN	_	28	C	28:C	_
+33	zufuhr	zufuhr	ADV	VVFIN	_	2	H	2:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

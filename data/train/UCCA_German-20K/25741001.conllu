@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25741001
+# text = » Ihre Matrosen also , Kapitän , sind die Grubenleute ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Ihre	Ihr|ihr	DET	PPOSAT	_	3	E	3:E	_
+3	Matrosen	Matrose	NOUN	NN	_	8	A	8:A	_
+4	also	also	ADV	ADV	_	8	F	8:F	_
+5	,	,	PUNCT	$,	_	8	U	8:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	8	G	8:G	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sind	sein	AUX	NN	_	0	H	0:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Grubenleute	Grubenleute	NOUN	NN	_	8	A	8:A	_
+11	?	?	PUNCT	$.	_	10	U	10:U	_
+12	«	«	PUNCT	$(	_	10	U	10:U	_
+

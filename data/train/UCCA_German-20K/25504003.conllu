@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25504003
+# text = » Nein « , erwiderte der Kapitän , dieser Tabak kommt weder aus der Havanna noch dem Orient . Es ist eine Art nikotin haltiges Seegras , das mir das Meer , etwas sparsam , liefert . Vermissen Sie die Londres , mein Herr Professor ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PART	PTKANT	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kapitän	Kapitän	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	dieser	dies	PRON	PDS	_	10	E	10:E	_
+10	Tabak	Tabak	NOUN	NN	_	11	A	11:A	_
+11	kommt	kommen	VERB	VVFIN	_	2	H	2:H	_
+12	weder	weder	CCONJ	ADJD	_	15	N	15:N	_
+13	aus	aus	ADP	APPR	_	15	R	15:R	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Havanna	Havanna	PROPN	NE	_	11	A	11:A	_
+16	noch	noch	ADV	CARD	_	15	N	15:N	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Orient	Orient	NOUN	NN	_	15	C	15:C	_
+19	.	.	PUNCT	$.	_	2	U	2:U	_
+20	Es	es	PRON	PPER	_	21	F	21:F	_
+21	ist	sein	AUX	VVFIN	_	2	H	2:H	_
+22	eine	ein	DET	ART	_	23	E	23:E	_
+23	Art	Art	NOUN	NN	_	26	E	26:E	_
+24	nikotin	nikotin	ADP	NE	_	26	E	26:E	_
+25	haltiges	haltiges	ADJ	NN	_	24	E	24:E	_
+26	Seegras	Seegra	NOUN	NE	_	21	A	21:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	das	der	PRON	PRELS	_	36	R	36:R	_
+29	mir	ich	PRON	PPER	_	36	A	36:A	_
+30	das	der	DET	ART	_	31	E	31:E	_
+31	Meer	Meer	NOUN	NN	_	36	A	36:A	_
+32	,	,	PUNCT	$,	_	36	U	36:U	_
+33	etwas	etwas	PRON	PIS	_	34	E	34:E	_
+34	sparsam	sparsam	ADJ	ADV	_	36	D	36:D	_
+35	,	,	PUNCT	$,	_	36	U	36:U	_
+36	liefert	liefern	VERB	VVFIN	_	26	E	26:E	_
+37	.	.	PUNCT	$.	_	2	U	2:U	_
+38	Vermissen	vermissen	NOUN	NN	_	2	H	2:H	_
+39	Sie	Sie|sie	PRON	PPER	_	38	A	38:A	_
+40	die	der	DET	ART	_	41	E	41:E	_
+41	Londres	Londres	PROPN	NN	_	38	A	38:A	_
+42	,	,	PUNCT	$,	_	38	U	38:U	_
+43	mein	mein	PRON	PPOSAT	_	45	E	45:E	_
+44	Herr	Herr	PROPN	NN	_	45	E	45:E	_
+45	Professor	Professor	PROPN	NN	_	38	G	38:G	_
+46	?	?	PUNCT	$.	_	45	U	45:U	_
+47	«	«	PUNCT	$(	_	45	U	45:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25606010
+# text = Die " Nautilus " gelangte weiter auf ihrer Fahrt zur Insel Clermont-Tonnère , einer der merkwürdigsten der im Jahr 1822 von Kapitän Bell auf der Minerva entdeckten Gruppe .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	gelangte	gelangen	VERB	VVFIN	_	0	H	0:H	_
+6	weiter	weiter	ADV	ADV	_	5	D	5:D	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	ihrer	ihr	DET	PPOSAT	_	9	E	9:E	_
+9	Fahrt	Fahrt	NOUN	NN	_	5	A	5:A	_
+10	zur	zur	ADP	NE	_	12	R	12:R	_
+11	Insel	Insel	NOUN	NE	_	12	E	12:E|14:C	_
+12	Clermont-Tonnère	Clermont-Tonnère	PROPN	NE	_	5	A	5:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	einer	ein	PRON	PIS	_	12	E	12:E	_
+15	der	der	DET	ART	_	16	R	16:R	_
+16	merkwürdigsten	merkwürdigst	NOUN	NN	_	14	E	14:E	_
+17	der	der	DET	ART	_	28	E	28:E	_
+18	im	im	ADJ	NE	_	19	R	19:R	_
+19	Jahr	Jahr	NOUN	NN	_	27	D	27:D	_
+20	1822	1822	NUM	CARD	_	19	Terminal	19:Terminal	_
+21	von	von	ADP	NN	_	23	R	23:R	_
+22	Kapitän	Kapitän	PROPN	NN	_	23	E	23:E	_
+23	Bell	Bell	PROPN	NE	_	27	A	27:A	_
+24	auf	auf	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Minerva	Minerva	NOUN	NE	_	27	A	27:A	_
+27	entdeckten	entdeckt	ADJ	ADJA	_	28	E	28:E	_
+28	Gruppe	Gruppe	NOUN	NN	_	16	E	16:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

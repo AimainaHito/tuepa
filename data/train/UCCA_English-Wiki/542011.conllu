@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 542011
+# text = Warner , however , denied Wallis the sweeping powers enjoyed by Zanuck , and the result was a decentralization of creative and administrative control that often created confusion at the studio .
+1	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	however	however	ADV	RB	_	5	G	5:G	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	denied	deny	VERB	VBN	_	0	H	0:H	_
+6	Wallis	Wallis	PROPN	NNPS	_	5	A	5:A	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	sweeping	sweeping	ADJ	JJ	_	9	E	9:E	_
+9	powers	power	NOUN	NNS	_	5	A	5:A	_
+10	enjoyed	enjoy	VERB	VBN	_	9	E	9:E	_
+11	by	by	ADP	IN	_	12	R	12:R	_
+12	Zanuck	Zanuck	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	and	and	CCONJ	CC	_	5	L	5:L	_
+15	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+16	result	result	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	was	be	AUX	VBD	_	14	Terminal	14:Terminal	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	decentralization	decentralization	NOUN	NN	_	0	C	0:C|28:A	_
+20	of	of	ADP	IN	_	24	R	24:R	_
+21	creative	creative	ADJ	JJ	_	24	E	24:E	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	administrative	administrative	ADJ	JJ	_	21	C	21:C	_
+24	control	control	NOUN	NN	_	19	A	19:A	_
+25	that	that	PRON	WDT	_	28	R	28:R	_
+26	often	often	ADV	RB	_	28	D	28:D	_
+27	created	create	VERB	VBD	_	28	D	28:D	_
+28	confusion	confusion	NOUN	NN	_	5	H	5:H	_
+29	at	at	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	studio	studio	NOUN	NN	_	28	A	28:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

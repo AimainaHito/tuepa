@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 451004
+# text = " The job was pretty intimidating for a guy like me in a tiny city in Canada , " Jennings later recalled . " I thought , What if I screw up ? What if I fail ?
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	job	job	NOUN	NN	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	pretty	pretty	ADV	RB	_	6	D	6:D	_
+6	intimidating	intimidating	ADJ	JJ	_	22	A	22:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	guy	guy	NOUN	NN	_	6	A	6:A	_
+10	like	like	ADP	IN	_	11	R	11:R	_
+11	me	I	PRON	PRP	_	9	E	9:E	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	tiny	tiny	ADJ	JJ	_	15	E	15:E	_
+15	city	city	NOUN	NN	_	6	A	6:A	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	Canada	Canada	PROPN	NNP	_	15	E	15:E	_
+18	,	,	PUNCT	,	_	22	U	22:U	_
+19	"	"	PUNCT	''	_	22	U	22:U	_
+20	Jennings	Jenning	NOUN	NNS	_	22	A	22:A	_
+21	later	later	ADV	RB	_	22	D	22:D	_
+22	recalled	recall	VERB	VBD	_	0	H	0:H	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+24	"	"	PUNCT	''	_	22	U	22:U	_
+25	I	I	PRON	PRP	_	26	A	26:A	_
+26	thought	think	VERB	VBD	_	6	H	6:H	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	What	what	PRON	WP	_	31	F	31:F	_
+29	if	if	SCONJ	IN	_	31	F	31:F	_
+30	I	I	PRON	PRP	_	31	A	31:A	_
+31	screw	scrow	VERB	VBD	_	26	A	26:A	_
+32	up	up	ADP	RP	_	31	Terminal	31:Terminal	_
+33	?	?	PUNCT	.	_	31	U	31:U	_
+34	What	what	PRON	WP	_	37	F	37:F	_
+35	if	if	SCONJ	IN	_	37	F	37:F	_
+36	I	I	PRON	PRP	_	37	A	37:A	_
+37	fail	fail	VERB	VBP	_	31	H	31:H	_
+38	?	?	PUNCT	.	_	37	U	37:U	_
+

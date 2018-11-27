@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 659017
+# text = After completing her four song demo tape , Carey attempted to pass it to music labels , but was met with failure each time .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	completing	complete	VERB	VBG	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	7	E	7:E	_
+4	four	four	NUM	CD	_	5	E	5:E	_
+5	song	song	NOUN	NN	_	7	E	7:E	_
+6	demo	demo	NOUN	NN	_	7	E	7:E	_
+7	tape	tape	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Carey	Carey	PROPN	NNP	_	12	A	12:A|2:A|22:A	_
+10	attempted	attempt	VERB	VBD	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	pass	pass	VERB	VB	_	2	H	2:H	_
+13	it	it	PRON	PRP	_	12	A	12:A	_
+14	to	to	ADP	IN	_	16	R	16:R	_
+15	music	music	NOUN	NN	_	16	E	16:E	_
+16	labels	label	NOUN	NNS	_	12	A	12:A	_
+17	,	,	PUNCT	,	_	2	U	2:U	_
+18	but	but	CCONJ	CC	_	2	L	2:L	_
+19	was	be	AUX	VBD	_	22	F	22:F	_
+20	met	meet	VERB	VBN	_	22	D	22:D	_
+21	with	with	ADP	IN	_	22	R	22:R	_
+22	failure	failure	NOUN	NN	_	2	H	2:H	_
+23	each	each	DET	DT	_	24	E	24:E	_
+24	time	time	NOUN	NN	_	22	D	22:D	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

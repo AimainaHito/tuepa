@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 206009
+# text = Hoffman made his theatrical film debut in The Tiger Makes Out in 1967 , alongside Eli Wallach .
+1	Hoffman	Hoffman	PROPN	NNP	_	6	A	6:A	_
+2	made	make	VERB	VBD	_	6	F	6:F	_
+3	his	he	PRON	PRP$	_	6	E	6:E	_
+4	theatrical	theatrical	ADJ	JJ	_	5	E	5:E	_
+5	film	film	NOUN	NN	_	6	E	6:E	_
+6	debut	debut	CCONJ	CC	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	The	the	DET	DT	_	6	E	6:E	_
+9	Tiger	Tiger	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Makes	Makes	PROPN	NNPS	_	8	Terminal	8:Terminal	_
+11	Out	Out	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	1967	1967	NUM	CD	_	6	D	6:D	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	alongside	alongside	ADP	IN	_	16	R	16:R	_
+16	Eli	Eli	PROPN	NNP	_	6	A	6:A	_
+17	Wallach	Wallach	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

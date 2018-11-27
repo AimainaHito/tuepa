@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 560007
+# text = In mid - October , they played a few shows in support of Bill Haley , whose " Rock Around the Clock " had been a number - one hit the previous year .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	mid	mid	X	AFX	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	October	October	PROPN	NNP	_	7	D	7:D	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	they	they	PRON	PRP	_	7	A	7:A	_
+7	played	play	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	few	few	ADJ	JJ	_	10	E	10:E	_
+10	shows	show	NOUN	NNS	_	7	A	7:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	support	support	NOUN	NN	_	10	E	10:E	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	Bill	Bill	PROPN	NNP	_	12	E	12:E	_
+15	Haley	Haley	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	whose	whose	PRON	WP$	_	30	F	30:F	_
+18	"	"	PUNCT	``	_	30	U	30:U	_
+19	Rock	rock	NOUN	NN	_	30	A	30:A	_
+20	Around	around	ADP	IN	_	19	Terminal	19:Terminal	_
+21	the	the	DET	DT	_	19	Terminal	19:Terminal	_
+22	Clock	clock	NOUN	NN	_	19	Terminal	19:Terminal	_
+23	"	"	PUNCT	''	_	30	U	30:U	_
+24	had	have	AUX	VBD	_	30	F	30:F	_
+25	been	be	AUX	VBN	_	30	F	30:F	_
+26	a	a	DET	DT	_	30	E	30:E	_
+27	number	number	NOUN	NN	_	30	E	30:E	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	one	one	NUM	CD	_	27	Terminal	27:Terminal	_
+30	hit	hit	VERB	VBD	_	14	E	14:E	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	previous	previous	ADJ	JJ	_	33	E	33:E	_
+33	year	year	NOUN	NN	_	30	D	30:D	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

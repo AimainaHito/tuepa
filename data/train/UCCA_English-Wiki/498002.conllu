@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 498002
+# text = " The Rise and Fall of Ziggy Stardust and the Spiders from Mars ( 1972 ) , combining the hard rock elements of The Man Who Sold the World with the lighter experimental rock and pop of Hunky Dory , was released in June .
+1	"	"	PUNCT	``	_	42	U	42:U	_
+2	The	the	DET	DT	_	42	A	42:A	_
+3	Rise	rise	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	and	and	CCONJ	CC	_	2	Terminal	2:Terminal	_
+5	Fall	fall	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	of	of	ADP	IN	_	2	Terminal	2:Terminal	_
+7	Ziggy	Ziggy	PROPN	NNP	_	2	Terminal	2:Terminal	_
+8	Stardust	Stardust	PROPN	NNP	_	2	Terminal	2:Terminal	_
+9	and	and	CCONJ	CC	_	2	Terminal	2:Terminal	_
+10	the	the	DET	DT	_	2	Terminal	2:Terminal	_
+11	Spiders	Spider	PROPN	NNPS	_	2	Terminal	2:Terminal	_
+12	from	from	ADP	IN	_	2	Terminal	2:Terminal	_
+13	Mars	Mars	PROPN	NNP	_	2	Terminal	2:Terminal	_
+14	(	(	PUNCT	-LRB-	_	2	U	2:U	_
+15	1972	1972	NUM	CD	_	2	D	2:D	_
+16	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+17	,	,	PUNCT	,	_	2	U	2:U	_
+18	combining	combi	VERB	VBG	_	2	E	2:E	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	hard	hard	ADJ	JJ	_	21	E	21:E	_
+21	rock	rock	NOUN	NN	_	22	E	22:E	_
+22	elements	element	NOUN	NNS	_	24	E	24:E	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	The	the	DET	DT	_	18	A	18:A	_
+25	Man	Man	NOUN	NN	_	24	Terminal	24:Terminal	_
+26	Who	who	PRON	WP	_	24	Terminal	24:Terminal	_
+27	Sold	sell	VERB	VBD	_	24	Terminal	24:Terminal	_
+28	the	the	DET	DT	_	24	Terminal	24:Terminal	_
+29	World	World	NOUN	NN	_	24	Terminal	24:Terminal	_
+30	with	with	ADP	IN	_	38	R	38:R	_
+31	the	the	DET	DT	_	34	E	34:E	_
+32	lighter	lighter	ADJ	JJR	_	34	E	34:E	_
+33	experimental	experimental	ADJ	JJ	_	34	E	34:E	_
+34	rock	rock	NOUN	NN	_	38	E	38:E	_
+35	and	and	CCONJ	CC	_	34	N	34:N	_
+36	pop	pop	NOUN	NN	_	34	C	34:C	_
+37	of	of	ADP	IN	_	34	R	34:R	_
+38	Hunky	Hunky	PROPN	NNP	_	18	A	18:A	_
+39	Dory	Dory	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	,	,	PUNCT	,	_	42	U	42:U	_
+41	was	be	AUX	VBD	_	42	F	42:F	_
+42	released	release	VERB	VBN	_	0	H	0:H	_
+43	in	in	ADP	IN	_	44	R	44:R	_
+44	June	June	PROPN	NNP	_	42	D	42:D	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

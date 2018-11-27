@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25788027
+# text = » Das müssen wir erst durch Sondieren erfahren . Ich will die ›Nautilus‹ auf die innere Bank aufsitzen lassen , und meine Leute werden in ihren Skaphandern die Eis hülle an der mindest dicken Stelle durchhauen . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Das	der	PRON	ART	_	8	A	8:A	_
+3	müssen	müssen	AUX	VMFIN	_	8	D	8:D	_
+4	wir	wir	PRON	NE	_	8	A	8:A	_
+5	erst	erst	ADV	ADV	_	8	D	8:D	_
+6	durch	durch	ADP	APPR	_	7	R	7:R	_
+7	Sondieren	Sondieren	NOUN	NN	_	8	A	8:A	_
+8	erfahren	erfahren	VERB	VVPP	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	Ich	ich	PRON	PPER	_	18	A	18:A	_
+11	will	wollen	AUX	NN	_	18	D	18:D	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	18	A	18:A	_
+14	auf	auf	ADP	APPR	_	17	R	17:R	_
+15	die	der	DET	ART	_	17	E	17:E	_
+16	innere	inner	ADJ	ADJA	_	17	E	17:E	_
+17	Bank	Bank	NOUN	NN	_	18	A	18:A	_
+18	aufsitzen	aufsitzen	VERB	VVINF	_	8	H	8:H	_
+19	lassen	lassen	VERB	VVINF	_	18	D	18:D	_
+20	,	,	PUNCT	$,	_	8	U	8:U	_
+21	und	und	CCONJ	NE	_	8	L	8:L	_
+22	meine	mein	DET	PPOSAT	_	23	E	23:E	_
+23	Leute	Leute	NOUN	NN	_	36	A	36:A	_
+24	werden	werden	AUX	VVFIN	_	36	F	36:F	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	ihren	ihr	DET	PPOSAT	_	27	E	27:E	_
+27	Skaphandern	Skaphand	NOUN	NN	_	36	A	36:A	_
+28	die	der	DET	ART	_	30	E	30:E	_
+29	Eis	Eis	NOUN	NN	_	30	E	30:E	_
+30	hülle	hüllen	VERB	ADJA	_	36	A	36:A	_
+31	an	an	ADP	APPR	_	35	R	35:R	_
+32	der	der	DET	ART	_	35	E	35:E	_
+33	mindest	mindest	ADV	ADV	_	34	D	34:D	_
+34	dicken	dick	ADJ	ADJA	_	35	E	35:E	_
+35	Stelle	Stelle	NOUN	NN	_	36	A	36:A	_
+36	durchhauen	durchhauen	VERB	VVINF	_	8	H	8:H	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+38	«	«	PUNCT	$(	_	36	U	36:U	_
+

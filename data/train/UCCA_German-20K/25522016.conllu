@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25522016
+# text = Von der ›Abraham Lincoln‹ keine Spur .
+1	Von	von	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	›Abraham	›Abraham	PROPN	NN	_	0	H	0:H	_
+4	Lincoln‹	Lincoln‹	NOUN	NE	_	3	Terminal	3:Terminal	_
+5	keine	kein	PRON	PIAT	_	3	D	3:D	_
+6	Spur	Spur	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

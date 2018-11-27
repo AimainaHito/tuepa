@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25478001
+# text = Seine Dicke zu schätzen war schwierig , aber im ganzen schien mir das Tier in den drei Dimensionen wohl proportioniert .
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Dicke	Dicke	NOUN	NN	_	4	A	4:A	_
+3	zu	zu	PART	VVINF	_	4	F	4:F	_
+4	schätzen	schätzen	VERB	VVINF	_	6	A	6:A	_
+5	war	sein	AUX	ADV	_	6	F	6:F	_
+6	schwierig	schwierig	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	aber	aber	CCONJ	KON	_	6	L	6:L	_
+9	im	im	ADV	NN	_	11	A	11:A	_
+10	ganzen	ganzen	VERB	ADJA	_	9	Terminal	9:Terminal	_
+11	schien	scheinen	AUX	VVFIN	_	6	H	6:H	_
+12	mir	ich	PRON	PPER	_	11	A	11:A	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Tier	Tier	NOUN	NN	_	11	A	11:A	_
+15	in	in	ADP	APPR	_	18	R	18:R	_
+16	den	der	DET	ART	_	18	E	18:E	_
+17	drei	drei	NUM	CARD	_	18	E	18:E	_
+18	Dimensionen	Dimension	NOUN	NN	_	20	A	20:A	_
+19	wohl	wohl	ADV	ADV	_	20	D	20:D	_
+20	proportioniert	proportioniert	VERB	VVPP	_	11	A	11:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

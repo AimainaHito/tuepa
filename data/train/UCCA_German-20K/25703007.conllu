@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25703007
+# text = Ned , Conseil und ich setzten uns hinten hin .
+1	Ned	Ned	ADJ	NE	_	6	A	6:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	Conseil	Conseil	NOUN	NE	_	1	C	1:C	_
+4	und	und	CCONJ	NE	_	1	N	1:N	_
+5	ich	ich	PRON	PPER	_	1	C	1:C	_
+6	setzten	setzen	VERB	VVFIN	_	0	H	0:H	_
+7	uns	wir	PRON	NN	_	6	Terminal	6:Terminal	_
+8	hinten	hinten	ADV	ADV	_	6	D	6:D	_
+9	hin	hin	ADV	PTKVZ	_	6	Terminal	6:Terminal	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

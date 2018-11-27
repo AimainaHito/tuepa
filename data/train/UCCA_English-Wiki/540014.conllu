@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 540014
+# text = Following his brother 's death , he became increasingly difficult to deal with and inspired the resentment of many of his employees .
+1	Following	follow	VERB	VBG	_	5	L	5:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	brother	brother	NOUN	NN	_	5	A	5:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	death	death	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	he	he	PRON	PRP	_	10	A	10:A|12:A|17:A	_
+8	became	become	VERB	VBD	_	10	D	10:D	_
+9	increasingly	increasingly	ADV	RB	_	10	D	10:D	_
+10	difficult	difficult	ADJ	JJ	_	5	H	5:H	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	deal	deal	VERB	VB	_	10	A	10:A	_
+13	with	with	ADP	IN	_	12	A	12:A	_
+14	and	and	CCONJ	CC	_	5	L	5:L	_
+15	inspired	inspire	VERB	VBN	_	17	D	17:D	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	resentment	resentment	NOUN	NN	_	5	H	5:H	_
+18	of	of	ADP	IN	_	22	R	22:R	_
+19	many	many	ADJ	JJ	_	22	E	22:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	employees	employee	NOUN	NNS	_	17	A	17:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

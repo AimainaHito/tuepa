@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 604001
+# text = Though critics admired the film for its visual style , humour and music , the soundtrack album issued seven months later received a less enthusiastic response .
+1	Though	though	SCONJ	IN	_	3	L	3:L	_
+2	critics	critic	NOUN	NNS	_	3	A	3:A	_
+3	admired	admire	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	film	film	NOUN	NN	_	3	A	3:A	_
+6	for	for	ADP	IN	_	9	R	9:R	_
+7	its	its	PRON	PRP$	_	9	E	9:E	_
+8	visual	visual	ADJ	JJ	_	9	E	9:E	_
+9	style	style	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	humour	humour	NOUN	NN	_	9	C	9:C	_
+12	and	and	CCONJ	CC	_	9	N	9:N	_
+13	music	music	NOUN	NN	_	9	C	9:C	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	soundtrack	soundtrack	NOUN	NN	_	17	E	17:E	_
+17	album	album	NOUN	NN	_	22	A	22:A	_
+18	issued	issue	VERB	VBN	_	17	E	17:E	_
+19	seven	seven	NUM	CD	_	20	E	20:E	_
+20	months	mont	NOUN	NNS	_	18	D	18:D	_
+21	later	later	ADV	RBR	_	20	R	20:R	_
+22	received	receive	VERB	VBD	_	3	H	3:H	_
+23	a	a	DET	DT	_	26	E	26:E	_
+24	less	less	ADJ	JJR	_	25	E	25:E	_
+25	enthusiastic	enthusiastic	ADJ	JJ	_	26	E	26:E	_
+26	response	response	NOUN	NN	_	22	A	22:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

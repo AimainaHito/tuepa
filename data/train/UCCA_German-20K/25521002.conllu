@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25521002
+# text = Diese flüssige Masse enthält 2 Milliarden 250 Millionen Kubikmeilen und würde eine Kugel mit einem Durchmesser von 60 Lieue bilden und einem Tonnengewicht von 3 Quintillionen .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	flüssige	flüssig	ADJ	ADJA	_	3	E	3:E	_
+3	Masse	Masse	NOUN	NN	_	0	C	0:C|20:A	_
+4	enthält	enthalten	VERB	VVFIN	_	0	H	0:H	_
+5	2	2	NUM	CARD	_	9	E	9:E	_
+6	Milliarden	Milliarde	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	250	250	NUM	CARD	_	5	Terminal	5:Terminal	_
+8	Millionen	Million	NOUN	NN	_	5	Terminal	5:Terminal	_
+9	Kubikmeilen	Kubikmeil	NOUN	NE	_	4	A	4:A	_
+10	und	und	CCONJ	NE	_	4	L	4:L	_
+11	würde	werden	AUX	NN	_	20	D	20:D	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	Kugel	Kugel	NOUN	NN	_	20	A	20:A	_
+14	mit	mit	ADP	APPR	_	19	R	19:R	_
+15	einem	ein	DET	ART	_	16	E	16:E	_
+16	Durchmesser	Durchmesser	NOUN	NN	_	19	E	19:E	_
+17	von	von	ADP	NN	_	19	R	19:R	_
+18	60	60	NUM	CARD	_	19	E	19:E	_
+19	Lieue	Lieue	NOUN	ADJA	_	13	E	13:E	_
+20	bilden	bilden	VERB	VVINF	_	4	H	4:H	_
+21	und	und	CCONJ	NE	_	19	N	19:N	_
+22	einem	ein	DET	ART	_	23	E	23:E	_
+23	Tonnengewicht	Tonnengewicht	NOUN	NN	_	19	C	19:C	_
+24	von	von	ADP	NN	_	25	R	25:R	_
+25	3	3	NUM	CARD	_	23	E	23:E	_
+26	Quintillionen	Quintillion	NOUN	NE	_	25	Terminal	25:Terminal	_
+27	.	.	PUNCT	$.	_	25	U	25:U	_
+

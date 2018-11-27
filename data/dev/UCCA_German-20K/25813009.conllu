@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25813009
+# text = Sein Lieutenant kämpfte wütend gegen andere Ungeheuer an den Seiten der ›Nautilus‹ .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Lieutenant	Lieutenant	NOUN	NN	_	3	A	3:A	_
+3	kämpfte	kämpfen	VERB	VVFIN	_	0	H	0:H	_
+4	wütend	wütend	ADJ	ADJD	_	3	D	3:D	_
+5	gegen	gegen	ADP	APPR	_	7	R	7:R	_
+6	andere	ander	ADJ	ADJA	_	7	E	7:E	_
+7	Ungeheuer	Ungeheuer	NOUN	NN	_	3	A	3:A	_
+8	an	an	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Seiten	Seite	NOUN	NN	_	3	A	3:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

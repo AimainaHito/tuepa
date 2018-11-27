@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25473006
+# text = Man musste es fürchten , nicht hoffen .
+1	Man	man	PRON	PIS	_	4	A	4:A|7:A	_
+2	musste	müssen	AUX	VVFIN	_	4	D	4:D|7:D	_
+3	es	es	PRON	PPER	_	4	A	4:A|7:A	_
+4	fürchten	fürchen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	hoffen	hoffen	VERB	VVINF	_	4	H	4:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

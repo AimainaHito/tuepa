@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25633013
+# text = » Aber diese Eingeborenen sind zahlreich . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+3	diese	dies	PRON	PDS	_	4	E	4:E	_
+4	Eingeborenen	eingeboren	NOUN	ADJA	_	6	A	6:A	_
+5	sind	sein	AUX	NN	_	6	F	6:F	_
+6	zahlreich	zahlreich	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

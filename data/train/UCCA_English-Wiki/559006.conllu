@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 559006
+# text = ... I just did n't know what to make of it .
+1	...	...	PUNCT	,	_	9	U	9:U	_
+2	I	I	PRON	PRP	_	6	A	6:A|9:A	_
+3	just	just	ADV	RB	_	6	D	6:D	_
+4	did	do	AUX	VBD	_	6	F	6:F	_
+5	n't	not	PART	RB	_	6	D	6:D	_
+6	know	know	VERB	VB	_	0	H	0:H	_
+7	what	what	PRON	WP	_	9	A	9:A	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	make	make	VERB	VB	_	6	A	6:A	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	it	it	PRON	PRP	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

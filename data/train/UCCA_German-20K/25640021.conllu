@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25640021
+# text = Seine Schraube schlug majestätisch langsam die Gewässer .
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Schraube	Schraube	NOUN	NN	_	3	A	3:A	_
+3	schlug	schlagen	VERB	VVFIN	_	0	H	0:H	_
+4	majestätisch	majestätisch	ADJ	ADJD	_	5	E	5:E	_
+5	langsam	langsam	ADJ	ADJD	_	3	D	3:D	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Gewässer	Gewässer	NOUN	NN	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25808000
+# text = » Allerdings ! Aber andere glauben gewiß noch daran . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Allerdings	allerdings	ADV	ADV	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Aber	aber	CCONJ	KON	_	2	L	2:L	_
+5	andere	ander	PRON	PIS	_	6	A	6:A	_
+6	glauben	glauben	VERB	VVFIN	_	2	H	2:H	_
+7	gewiß	gewiß	ADJ	ADJD	_	6	G	6:G	_
+8	noch	noch	ADV	NN	_	6	D	6:D	_
+9	daran	daran	ADV	PAV	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+11	«	«	PUNCT	$(	_	6	U	6:U	_
+

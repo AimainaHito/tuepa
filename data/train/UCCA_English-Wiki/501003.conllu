@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 501003
+# text = The extent to which drug addiction was now affecting Bowie was made public when Russell Harty interviewed the singer for his London Weekend Television talk show in anticipation of the album 's supporting tour .
+1	The	the	DET	DT	_	9	R	9:R	_
+2	extent	extent	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	to	to	ADP	IN	_	1	Terminal	1:Terminal	_
+4	which	which	DET	WDT	_	1	Terminal	1:Terminal	_
+5	drug	drug	NOUN	NN	_	6	E	6:E	_
+6	addiction	addiction	NOUN	NN	_	9	A	9:A	_
+7	was	be	AUX	VBD	_	9	F	9:F	_
+8	now	now	ADV	RB	_	9	D	9:D	_
+9	affecting	affect	VERB	VBG	_	13	A	13:A	_
+10	Bowie	Bowie	PROPN	NNP	_	9	A	9:A	_
+11	was	be	AUX	VBD	_	13	F	13:F	_
+12	made	make	VERB	VBN	_	13	F	13:F	_
+13	public	public	ADJ	JJ	_	0	H	0:H	_
+14	when	when	ADV	WRB	_	13	L	13:L	_
+15	Russell	Russell	PROPN	NNP	_	17	A	17:A	_
+16	Harty	Harty	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	interviewed	interview	VERB	VBD	_	13	H	13:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	singer	singer	NOUN	NN	_	17	A	17:A	_
+20	for	for	ADP	IN	_	26	R	26:R	_
+21	his	he	PRON	PRP$	_	26	E	26:E	_
+22	London	London	PROPN	NNP	_	26	E	26:E	_
+23	Weekend	weekend	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Television	television	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	talk	talk	VERB	VB	_	26	E	26:E	_
+26	show	show	NOUN	NN	_	17	A	17:A	_
+27	in	in	ADP	IN	_	13	L	13:L	_
+28	anticipation	anticipation	NOUN	NN	_	13	H	13:H	_
+29	of	of	ADP	IN	_	34	R	34:R	_
+30	the	the	DET	DT	_	34	E	34:E	_
+31	album	album	NOUN	NN	_	34	E	34:E	_
+32	's	's	PART	POS	_	31	R	31:R	_
+33	supporting	support	VERB	VBG	_	34	E	34:E	_
+34	tour	tour	NOUN	NN	_	28	A	28:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

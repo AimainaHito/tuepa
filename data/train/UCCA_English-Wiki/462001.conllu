@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 462001
+# text = On April 1 , 2005 , he anchored World News Tonight for the last time ; his poor health also prevented him from covering the death and funeral of Pope John Paul II .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	April	April	PROPN	NNP	_	8	D	8:D	_
+3	1	1	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2005	2005	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	anchored	anchor	VERB	VBD	_	0	H	0:H	_
+9	World	World	PROPN	NNP	_	8	A	8:A	_
+10	News	News	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Tonight	tonight	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	for	for	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	last	last	ADJ	JJ	_	15	E	15:E	_
+15	time	time	NOUN	NN	_	8	D	8:D	_
+16	;	;	PUNCT	,	_	8	U	8:U	_
+17	his	he	PRON	PRP$	_	19	E	19:E	_
+18	poor	poor	ADJ	JJ	_	19	E	19:E	_
+19	health	health	NOUN	NN	_	21	A	21:A	_
+20	also	also	ADV	RB	_	21	D	21:D	_
+21	prevented	prevent	VERB	VBD	_	8	H	8:H	_
+22	him	he	PRON	PRP	_	21	A	21:A	_
+23	from	from	SCONJ	IN	_	24	R	24:R	_
+24	covering	cover	VERB	VBG	_	21	A	21:A	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	death	death	NOUN	NN	_	24	A	24:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	funeral	funeral	NOUN	NN	_	26	C	26:C	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	Pope	Pope	PROPN	NNP	_	26	A	26:A	_
+31	John	John	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Paul	Paul	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	II	II	PROPN	NNP	_	30	Terminal	30:Terminal	_
+34	.	.	PUNCT	.	_	30	U	30:U	_
+

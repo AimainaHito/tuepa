@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25488143
+# text = Während mitunter Meer und Wind ruhig waren , glaubte ich einigemal unbestimmte Töne , eine flüchtige Harmonie ferner Akkorde , zu hören .
+1	Während	während	ADP	KOUS	_	6	L	6:L	_
+2	mitunter	mitunt	ADJ	ADV	_	6	D	6:D	_
+3	Meer	Meer	NOUN	NN	_	6	A	6:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	Wind	Wind	NOUN	NN	_	3	C	3:C	_
+6	ruhig	ruhig	ADJ	ADJD	_	0	H	0:H	_
+7	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	glaubte	glauben	VERB	VVFIN	_	6	H	6:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A|22:A	_
+11	einigemal	einigemal	ADV	ADV	_	22	D	22:D	_
+12	unbestimmte	unbestimmt	ADJ	ADJA	_	13	E	13:E	_
+13	Töne	Ton	NOUN	NN	_	22	A	22:A	_
+14	,	,	PUNCT	$,	_	22	U	22:U	_
+15	eine	ein	DET	ART	_	17	E	17:E	_
+16	flüchtige	flüchtig	ADJ	ADJA	_	17	E	17:E	_
+17	Harmonie	Harmonie	NOUN	NN	_	22	A	22:A	_
+18	ferner	fern	ADJ	ADJA	_	19	E	19:E	_
+19	Akkorde	Akkord	NOUN	NN	_	17	E	17:E	_
+20	,	,	PUNCT	$,	_	22	U	22:U	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	hören	hören	VERB	VVINF	_	9	A	9:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

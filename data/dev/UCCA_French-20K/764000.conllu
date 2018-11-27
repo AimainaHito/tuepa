@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 764000
+# text = ﻿ Trois secondes avant l' arrivée de la lettre de J . -B . Hobson , je ne songeais pas plus à poursuivre la Licorne qu' à tenter le passage du Nord - Ouest .
+1	﻿	﻿	PROPN	_	_	6	U	6:U	_
+2	Trois	Trois	NUM	_	_	3	E	3:E	_
+3	secondes	seconde	NOUN	_	_	6	D	6:D	_
+4	avant	avant	ADP	_	_	3	R	3:R	_
+5	l'	le	DET	_	_	6	E	6:E	_
+6	arrivée	arrivée	NOUN	_	_	0	H	0:H	_
+7	de	de	ADP	_	_	9	R	9:R	_
+8	la	le	DET	_	_	9	E	9:E	_
+9	lettre	lettre	NOUN	_	_	6	A	6:A	_
+10	de	de	ADP	_	_	11	R	11:R	_
+11	J	J	X	_	_	9	E	9:E	_
+12	.	.	PUNCT	_	_	11	U	11:U	_
+13	-B	-B	X	_	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	_	_	11	U	11:U	_
+15	Hobson	Hobson	PROPN	_	_	11	Terminal	11:Terminal	_
+16	,	,	PUNCT	_	_	6	U	6:U	_
+17	je	il	PRON	_	_	19	A	19:A|23:A|28:A	_
+18	ne	ne	ADV	_	_	19	D	19:D	_
+19	songeais	songeer	VERB	_	_	6	H	6:H	_
+20	pas	pas	ADV	_	_	18	Terminal	18:Terminal	_
+21	plus	plus	ADV	_	_	19	D	19:D	_
+22	à	à	ADP	_	_	23	F	23:F	_
+23	poursuivre	poursuivre	VERB	_	_	19	A	19:A	_
+24	la	le	DET	_	_	25	E	25:E	_
+25	Licorne	Licorne	PROPN	_	_	23	A	23:A	_
+26	qu'	que	SCONJ	_	_	6	L	6:L	_
+27	à	à	ADP	_	_	28	F	28:F	_
+28	tenter	tenter	VERB	_	_	6	H	6:H	_
+29	le	le	DET	_	_	30	E	30:E	_
+30	passage	passage	NOUN	_	_	28	A	28:A	_
+31	du	du	DET	_	_	32	R	32:R	_
+32	Nord	nord	NOUN	_	_	30	E	30:E	_
+33	-	-	PUNCT	_	_	32	U	32:U	_
+34	Ouest	ouest	NOUN	_	_	32	Terminal	32:Terminal	_
+35	.	.	PUNCT	_	_	32	U	32:U	_
+

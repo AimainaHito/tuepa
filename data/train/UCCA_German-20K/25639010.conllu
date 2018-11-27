@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25639010
+# text = Man schien an Bord keine Vorbereitungen zur Abfahrt zu treffen .
+1	Man	man	PRON	PIS	_	10	A	10:A	_
+2	schien	scheinen	VERB	VVFIN	_	10	G	10:G	_
+3	an	an	ADP	APPR	_	4	R	4:R	_
+4	Bord	Bord	NOUN	NN	_	10	A	10:A	_
+5	keine	kein	PRON	PIAT	_	6	D	6:D	_
+6	Vorbereitungen	Vorbereitung	NOUN	NN	_	10	A	10:A	_
+7	zur	zur	ADP	NE	_	8	R	8:R	_
+8	Abfahrt	Abfahrt	NOUN	NN	_	6	A	6:A	_
+9	zu	zu	PART	NE	_	10	F	10:F	_
+10	treffen	treffen	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 644000
+# text = Lennon delighted in mocking Epstein for his homosexuality and for the fact that he was Jewish .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A|4:A	_
+2	delighted	delighte	VERB	VBD	_	0	H	0:H	_
+3	in	in	SCONJ	IN	_	4	F	4:F	_
+4	mocking	mock	VERB	VBG	_	2	A	2:A	_
+5	Epstein	Epstein	PROPN	NNP	_	4	A	4:A	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	his	he	PRON	PRP$	_	8	A	8:A	_
+8	homosexuality	homosexuality	NOUN	NN	_	4	A	4:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	fact	fact	NOUN	NN	_	8	C	8:C	_
+13	that	that	SCONJ	IN	_	16	F	16:F	_
+14	he	he	PRON	PRP	_	16	A	16:A	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	Jewish	jewish	ADJ	JJ	_	12	E	12:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 474021
+# text = " Ironically Johnson was himself suspended five days later , when he bumped referee Scott Foster , missing three games .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Ironically	ironically	ADV	RB	_	6	L	6:L	_
+3	Johnson	Johnson	PROPN	NNP	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	himself	himself	PRON	PRP	_	6	D	6:D	_
+6	suspended	suspend	VERB	VBN	_	0	H	0:H	_
+7	five	five	NUM	CD	_	8	E	8:E	_
+8	days	day	NOUN	NNS	_	6	D	6:D	_
+9	later	later	ADV	RB	_	8	R	8:R	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	when	when	ADV	WRB	_	6	L	6:L	_
+12	he	he	PRON	PRP	_	13	A	13:A|18:A	_
+13	bumped	bump	VERB	VBD	_	6	H	6:H	_
+14	referee	referee	NUM	CD	_	15	E	15:E	_
+15	Scott	Scott	PROPN	NNP	_	13	A	13:A	_
+16	Foster	foster	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	6	U	6:U	_
+18	missing	miss	VERB	VBG	_	6	H	6:H	_
+19	three	three	NUM	CD	_	20	E	20:E	_
+20	games	game	NOUN	NNS	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

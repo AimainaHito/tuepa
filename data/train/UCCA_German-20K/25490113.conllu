@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25490113
+# text = Ich sah diesen rätselhaften Mann wieder so , wie er aus Notwendigkeit sein mußte , unerbittlich , grausam .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+4	rätselhaften	rätselhaft	ADJ	ADJA	_	5	E	5:E	_
+5	Mann	Mann	NOUN	NN	_	2	A	2:A	_
+6	wieder	wieder	ADV	NE	_	2	D	2:D	_
+7	so	so	ADV	ADV	_	2	L	2:L	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	wie	wie	SCONJ	KON	_	13	R	13:R	_
+10	er	er	PRON	PPER	_	13	A	13:A|16:A	_
+11	aus	aus	ADP	APPR	_	12	R	12:R	_
+12	Notwendigkeit	Notwendigkeit	NOUN	NN	_	13	A	13:A	_
+13	sein	sein	AUX	VAINF	_	2	H	2:H	_
+14	mußte	müssen	AUX	VVFIN	_	13	D	13:D	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	unerbittlich	unerbittlich	ADJ	ADJD	_	2	H	2:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	grausam	grausam	ADJ	ADJD	_	16	C	16:C	_
+19	.	.	PUNCT	$.	_	16	U	16:U	_
+

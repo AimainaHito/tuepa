@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 205007
+# text = Hoffman received the AFI Life Achievement Award in 1999 , and the Kennedy Center Honors in 2012 .
+1	Hoffman	Hoffman	PROPN	NNP	_	2	A	2:A	_
+2	received	receive	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	7	E	7:E	_
+4	AFI	AFI	PROPN	NNP	_	7	E	7:E	_
+5	Life	Life	PROPN	NNP	_	6	E	6:E	_
+6	Achievement	achievement	PROPN	NNP	_	7	E	7:E	_
+7	Award	Award	PROPN	NNP	_	2	A	2:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	1999	1999	NUM	CD	_	2	D	2:D	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	7	N	7:N	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	Kennedy	Kennedy	PROPN	NNP	_	14	E	14:E	_
+14	Center	Center	PROPN	NNP	_	15	E	15:E	_
+15	Honors	Honors	PROPN	NNPS	_	7	C	7:C	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	2012	2012	NUM	CD	_	2	D	2:D	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

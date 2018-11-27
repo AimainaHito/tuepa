@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 662019
+# text = The album was released on November 1 , 1994 , on the same day that the album 's first single , " All I Want for Christmas Is You " , was released .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	released	release	VERB	VBN	_	0	H	0:H	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	November	November	PROPN	NNP	_	4	D	4:D	_
+7	1	1	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	1994	1994	NUM	CD	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	on	on	ADP	IN	_	14	R	14:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	same	same	ADJ	JJ	_	14	E	14:E	_
+14	day	day	NOUN	NN	_	4	L	4:L	_
+15	that	that	SCONJ	IN	_	33	R	33:R	_
+16	the	the	DET	DT	_	23	E	23:E	_
+17	album	album	NOUN	NN	_	23	E	23:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	first	first	ADV	RB	_	20	E	20:E	_
+20	single	single	ADJ	JJ	_	23	E	23:E	_
+21	,	,	PUNCT	,	_	23	U	23:U	_
+22	"	"	PUNCT	''	_	23	U	23:U	_
+23	All	all	DET	DT	_	33	A	33:A	_
+24	I	I	PRON	PRP	_	23	Terminal	23:Terminal	_
+25	Want	want	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	for	for	ADP	IN	_	23	Terminal	23:Terminal	_
+27	Christmas	Christmas	PROPN	NNP	_	23	Terminal	23:Terminal	_
+28	Is	be	PROPN	NNP	_	23	Terminal	23:Terminal	_
+29	You	you	PROPN	NNP	_	23	Terminal	23:Terminal	_
+30	"	"	PUNCT	''	_	33	U	33:U	_
+31	,	,	PUNCT	,	_	33	U	33:U	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	released	release	VERB	VBN	_	4	H	4:H	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

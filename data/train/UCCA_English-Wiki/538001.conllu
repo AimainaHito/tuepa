@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 538001
+# text = He observed in his autobiography that his experiences there molded his sensibilities .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	observed	observe	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	autobiography	autobiography	NOUN	NN	_	2	A	2:A	_
+6	that	that	SCONJ	IN	_	10	F	10:F	_
+7	his	he	PRON	PRP$	_	8	A	8:A	_
+8	experiences	experience	NOUN	NNS	_	10	A	10:A	_
+9	there	there	ADV	RB	_	8	A	8:A	_
+10	molded	mold	VERB	VBD	_	2	A	2:A	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	sensibilities	sensibility	NOUN	NNS	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

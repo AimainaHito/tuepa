@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25641012
+# text = Von diesem Punkt aus richtete sich die Fahrt der " Nautilus " weiter nach Südwesten , geradezu nach dem Indischen Ozean .
+1	Von	von	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Punkt	Punkt	NOUN	NN	_	5	A	5:A	_
+4	aus	aus	ADP	APZR	_	1	Terminal	1:Terminal	_
+5	richtete	richten	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Fahrt	Fahrt	NOUN	NN	_	5	A	5:A	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	Nautilus	Nautilus	PROPN	NE	_	8	E	8:E	_
+12	"	"	PUNCT	$(	_	5	U	5:U	_
+13	weiter	weiter	ADV	ADV	_	5	D	5:D	_
+14	nach	nach	ADP	CARD	_	15	R	15:R	_
+15	Südwesten	Südwesten	NOUN	NN	_	5	A	5:A	_
+16	,	,	PUNCT	$,	_	5	U	5:U	_
+17	geradezu	geradezu	ADV	ADV	_	5	D	5:D	_
+18	nach	nach	ADP	CARD	_	20	R	20:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Indischen	Indischen	NOUN	ADJA	_	5	A	5:A	_
+21	Ozean	Ozean	PROPN	NN	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

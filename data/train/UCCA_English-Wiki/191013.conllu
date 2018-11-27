@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 191013
+# text = He wrote some quips for Sean Connery and Nicolas Cage in The Rock .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	wrote	write	VERB	VBD	_	0	H	0:H	_
+3	some	some	DET	DT	_	4	E	4:E	_
+4	quips	quip	NOUN	NNS	_	2	A	2:A	_
+5	for	for	ADP	IN	_	6	R	6:R	_
+6	Sean	Sean	PROPN	NNP	_	2	A	2:A	_
+7	Connery	Connery	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	and	and	CCONJ	CC	_	6	N	6:N	_
+9	Nicolas	Nicolas	PROPN	NNP	_	6	C	6:C	_
+10	Cage	cage	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	The	the	DET	DT	_	6	E	6:E	_
+13	Rock	rock	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

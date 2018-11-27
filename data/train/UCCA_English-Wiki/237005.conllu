@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 237005
+# text = With each of his businesses , a percentage of the profits goes to various charities , including the Jackie Chan Charitable Foundation .
+1	With	with	ADP	IN	_	5	R	5:R	_
+2	each	each	DET	DT	_	5	E	5:E	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	businesses	businesse	NOUN	NNS	_	12	A	12:A	_
+6	,	,	PUNCT	,	_	12	U	12:U	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	percentage	percentage	NOUN	NN	_	12	A	12:A	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	profits	profit	NOUN	NNS	_	8	E	8:E	_
+12	goes	go	VERB	VBZ	_	0	H	0:H	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	various	various	ADJ	JJ	_	15	E	15:E	_
+15	charities	charity	NOUN	NNS	_	12	A	12:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	including	include	VERB	VBG	_	22	R	22:R	_
+18	the	the	DET	DT	_	22	E	22:E	_
+19	Jackie	Jackie	PROPN	NNP	_	22	E	22:E	_
+20	Chan	Chan	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Charitable	charitable	ADJ	JJ	_	22	E	22:E	_
+22	Foundation	foundation	NOUN	NN	_	15	E	15:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

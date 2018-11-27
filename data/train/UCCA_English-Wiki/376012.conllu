@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 376012
+# text = " On his 13th birthday , Gyllenhaal performed a " bar mitzvah - like act , without the typical trappings " , volunteering at a homeless shelter , because his parents wanted to instill in him a sense of gratitude for his privileged lifestyle .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	On	on	ADP	IN	_	5	L	5:L	_
+3	his	he	PRON	PRP$	_	5	A	5:A	_
+4	13th	13th	ADJ	JJ	_	5	E	5:E	_
+5	birthday	birthday	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	8	A	8:A|23:A	_
+8	performed	perform	VERB	VBD	_	5	H	5:H	_
+9	a	a	DET	DT	_	15	E	15:E	_
+10	"	"	PUNCT	``	_	15	U	15:U	_
+11	bar	bar	NOUN	NN	_	15	E	15:E	_
+12	mitzvah	mitzvah	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	-	-	PUNCT	HYPH	_	11	U	11:U	_
+14	like	like	ADJ	JJ	_	11	E	11:E	_
+15	act	act	NOUN	NN	_	8	A	8:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	without	without	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	typical	typical	ADJ	JJ	_	20	E	20:E	_
+20	trappings	trapping	NOUN	NNS	_	15	E	15:E	_
+21	"	"	PUNCT	''	_	5	U	5:U	_
+22	,	,	PUNCT	,	_	5	U	5:U	_
+23	volunteering	volunteer	VERB	VBG	_	5	H	5:H	_
+24	at	at	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	homeless	homeless	ADJ	JJ	_	27	E	27:E	_
+27	shelter	shelter	NOUN	NN	_	23	A	23:A	_
+28	,	,	PUNCT	,	_	5	U	5:U	_
+29	because	because	SCONJ	IN	_	5	L	5:L	_
+30	his	he	PRON	PRP$	_	31	E	31:E	_
+31	parents	parent	NOUN	NNS	_	32	A	32:A	_
+32	wanted	want	VERB	VBD	_	5	H	5:H	_
+33	to	to	PART	TO	_	34	F	34:F	_
+34	instill	instill	VERB	VB	_	32	A	32:A	_
+35	in	in	ADP	IN	_	36	R	36:R	_
+36	him	he	PRON	PRP	_	34	A	34:A	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	sense	sense	NOUN	NN	_	32	A	32:A	_
+39	of	of	ADP	IN	_	40	R	40:R	_
+40	gratitude	gratitude	NOUN	NN	_	38	E	38:E	_
+41	for	for	ADP	IN	_	44	R	44:R	_
+42	his	he	PRON	PRP$	_	44	E	44:E	_
+43	privileged	privileged	ADJ	JJ	_	44	E	44:E	_
+44	lifestyle	lifestyle	NOUN	NN	_	38	E	38:E	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

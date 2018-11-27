@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25495004
+# text = Wer sollte auch wagen , ihn auf den Meeresgrund zu verfolgen , da er auf der Oberfläche die gegen ihn verhängte Verfolgung vereitelte ?
+1	Wer	wer	PRON	PWS	_	4	A	4:A|11:A	_
+2	sollte	sollen	AUX	VMFIN	_	4	D	4:D	_
+3	auch	auch	ADV	ADV	_	4	G	4:G	_
+4	wagen	wagen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	ihn	er	PRON	PPER	_	11	A	11:A	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Meeresgrund	Meeresgrund	NOUN	NN	_	11	A	11:A	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	verfolgen	verfolgen	VERB	VVINF	_	4	A	4:A	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	da	da	SCONJ	KOUS	_	4	L	4:L	_
+14	er	er	PRON	PPER	_	23	A	23:A	_
+15	auf	auf	ADP	APPR	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Oberfläche	Oberfläche	NOUN	NN	_	23	A	23:A	_
+18	die	der	DET	ART	_	22	E	22:E	_
+19	gegen	gegen	ADP	APPR	_	21	R	21:R	_
+20	ihn	er	PRON	PPER	_	21	A	21:A	_
+21	verhängte	verhängen	ADJ	ADJA	_	22	E	22:E	_
+22	Verfolgung	Verfolgung	NOUN	NN	_	23	A	23:A	_
+23	vereitelte	vereiteln	VERB	VVFIN	_	4	H	4:H	_
+24	?	?	PUNCT	$.	_	23	U	23:U	_
+

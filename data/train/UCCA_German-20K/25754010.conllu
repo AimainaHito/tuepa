@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25754010
+# text = Ich dachte , auf der Höhe des Kap Horn werde sie dieses umfahren , um in dem Pazifik seine Rundreise um die Erde zu vollenden .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Höhe	Höhe	NOUN	NN	_	13	A	13:A	_
+7	des	der	DET	ART	_	6	R	6:R	_
+8	Kap	Kap	NOUN	NN	_	9	E	9:E	_
+9	Horn	Horn	PROPN	NE	_	6	E	6:E	_
+10	werde	werden	AUX	NE	_	13	F	13:F	_
+11	sie	sie	PRON	ADV	_	13	A	13:A	_
+12	dieses	dies	PRON	PDAT	_	13	A	13:A	_
+13	umfahren	umfahren	VERB	NN	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	um	um	ADP	KOUI	_	13	L	13:L	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Pazifik	Pazifik	PROPN	NN	_	25	A	25:A	_
+19	seine	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Rundreise	Rundreise	NOUN	NN	_	25	A	25:A	_
+21	um	um	ADP	APPR	_	20	R	20:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Erde	Erde	NOUN	NN	_	20	E	20:E	_
+24	zu	zu	PART	VVINF	_	25	F	25:F	_
+25	vollenden	vollenden	VERB	VVINF	_	13	H	13:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 662022
+# text = " Rolling Stone described it as a " holiday standard " , and ranked it fourth on its Greatest Rock and Roll Christmas Songs list .
+1	"	"	PUNCT	``	_	14	U	14:U	_
+2	Rolling	Rolling	PROPN	NNP	_	4	A	4:A|14:A	_
+3	Stone	stone	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	described	describe	VERB	VBD	_	0	H	0:H	_
+5	it	it	PRON	PRP	_	4	A	4:A	_
+6	as	as	ADP	IN	_	10	R	10:R	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	"	"	PUNCT	``	_	10	U	10:U	_
+9	holiday	holiday	NOUN	NN	_	10	E	10:E	_
+10	standard	standard	NOUN	NN	_	4	A	4:A	_
+11	"	"	PUNCT	''	_	4	U	4:U	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	and	and	CCONJ	CC	_	4	L	4:L	_
+14	ranked	rank	VERB	VBD	_	4	H	4:H	_
+15	it	it	PRON	PRP	_	14	A	14:A	_
+16	fourth	fourth	ADV	RB	_	25	E	25:E	_
+17	on	on	ADP	IN	_	25	R	25:R	_
+18	its	its	PRON	PRP$	_	25	E	25:E	_
+19	Greatest	greatest	ADJ	JJS	_	20	E	20:E	_
+20	Rock	rock	NOUN	NN	_	24	E	24:E	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	Roll	Roll	NOUN	NN	_	20	C	20:C	_
+23	Christmas	Christmas	PROPN	NNP	_	24	E	24:E	_
+24	Songs	songs	PROPN	NNPS	_	25	E	25:E	_
+25	list	list	NOUN	NN	_	14	A	14:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

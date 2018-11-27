@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 767000
+# text = Mais , en attendant , il me fallait chercher ce narwal dans le nord de l' océan Pacifique ; ce qui , pour revenir en France , était prendre le chemin des antipodes .
+1	Mais	mais	CCONJ	_	_	9	L	9:L	_
+2	,	,	PUNCT	_	_	9	U	9:U	_
+3	en	en	ADP	_	_	4	R	4:R	_
+4	attendant	attendre	VERB	_	_	9	L	9:L	_
+5	,	,	PUNCT	_	_	9	U	9:U	_
+6	il	il	PRON	_	_	9	D	9:D	_
+7	me	lui	PRON	_	_	6	Terminal	6:Terminal	_
+8	fallait	falloir	VERB	_	_	6	Terminal	6:Terminal	_
+9	chercher	chercher	VERB	_	_	0	H	0:H	_
+10	ce	ce	DET	_	_	11	E	11:E	_
+11	narwal	narwal	NOUN	_	_	9	A	9:A	_
+12	dans	dans	ADP	_	_	17	R	17:R	_
+13	le	le	DET	_	_	14	E	14:E	_
+14	nord	nord	NOUN	_	_	17	E	17:E	_
+15	de	de	ADP	_	_	14	R	14:R	_
+16	l'	le	DET	_	_	17	E	17:E	_
+17	océan	océan	NOUN	_	_	9	A	9:A	_
+18	Pacifique	Pacifique	PROPN	_	_	17	E	17:E	_
+19	;	;	PUNCT	_	_	9	U	9:U	_
+20	ce	ce	PRON	_	_	28	R	28:R	_
+21	qui	qui	PRON	_	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	_	_	9	U	9:U	_
+23	pour	pour	ADP	_	_	9	L	9:L	_
+24	revenir	revenir	VERB	_	_	9	H	9:H	_
+25	en	en	ADP	_	_	26	R	26:R	_
+26	France	France	PROPN	_	_	24	A	24:A	_
+27	,	,	PUNCT	_	_	9	U	9:U	_
+28	était	être	AUX	_	_	9	H	9:H	_
+29	prendre	prendre	VERB	_	_	28	A	28:A	_
+30	le	le	DET	_	_	31	E	31:E	_
+31	chemin	chemin	NOUN	_	_	29	A	29:A	_
+32	des	un	DET	_	_	33	R	33:R	_
+33	antipodes	antipode	NOUN	_	_	31	E	31:E	_
+34	.	.	PUNCT	_	_	33	U	33:U	_
+

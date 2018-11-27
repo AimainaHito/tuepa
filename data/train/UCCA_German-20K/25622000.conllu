@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25622000
+# text = Es machte doch lebhaften Eindruck auf mich , als ich wieder den Erd boden betrat .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+3	doch	doch	ADV	ADV	_	2	F	2:F	_
+4	lebhaften	lebhaft	ADJ	ADJA	_	2	D	2:D	_
+5	Eindruck	Eindruck	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	auf	auf	ADP	APPR	_	7	R	7:R	_
+7	mich	ich	PRON	PPER	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	als	als	SCONJ	KOUS	_	2	L	2:L	_
+10	ich	ich	PRON	PPER	_	15	A	15:A	_
+11	wieder	wieder	ADV	NN	_	15	D	15:D	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	Erd	erd	NOUN	NE	_	14	E	14:E	_
+14	boden	boden	VERB	NN	_	15	A	15:A	_
+15	betrat	betreten	VERB	VVFIN	_	2	H	2:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

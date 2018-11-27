@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 601009
+# text = He became their manager in January 1962 .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	became	become	VERB	VBD	_	0	H	0:H	_
+3	their	they	PRON	PRP$	_	4	E	4:E	_
+4	manager	manager	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	January	January	PROPN	NNP	_	2	D	2:D	_
+7	1962	1962	NUM	CD	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	.	_	6	U	6:U	_
+

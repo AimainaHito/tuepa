@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25627009
+# text = Einige Eisvögel streiften längs den Gewässern , ließen uns aber nicht ihnen nah kommen .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Eisvögel	Eisvogel	NOUN	NN	_	0	C	0:C|13:A	_
+3	streiften	streifen	VERB	VVFIN	_	0	H	0:H	_
+4	längs	längs	ADV	ADV	_	3	D	3:D	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Gewässern	Gewässer	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	ließen	lassen	VERB	VVFIN	_	13	D	13:D	_
+9	uns	wir	PRON	NN	_	13	A	13:A	_
+10	aber	aber	ADV	ADV	_	3	L	3:L	_
+11	nicht	nicht	PART	CARD	_	13	D	13:D	_
+12	ihnen	sie	PRON	PPER	_	13	A	13:A	_
+13	nah	nah	ADJ	ADJD	_	3	H	3:H	_
+14	kommen	kommen	VERB	VVFIN	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

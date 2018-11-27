@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 250006
+# text = It was announced that Hawke had signed on to Universal 's futurist thriller Vigilandia and the Spierig brothers ' science fiction film Predestination .
+1	It	it	PRON	PRP	_	3	F	3:F	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	announced	announce	VERB	VBN	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	7	F	7:F	_
+5	Hawke	Hawke	PROPN	NNP	_	7	A	7:A	_
+6	had	have	AUX	VBD	_	7	F	7:F	_
+7	signed	sign	VERB	VBN	_	3	A	3:A	_
+8	on	on	ADP	IN	_	7	Terminal	7:Terminal	_
+9	to	to	ADP	IN	_	14	R	14:R	_
+10	Universal	universal	PROPN	NNP	_	14	E	14:E	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	futurist	futurist	NOUN	NN	_	14	E	14:E	_
+13	thriller	thriller	NOUN	NN	_	14	E	14:E	_
+14	Vigilandia	Vigilandia	PROPN	NNP	_	7	A	7:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	Spierig	Spierig	ADJ	JJ	_	18	E	18:E	_
+18	brothers	brother	NOUN	NNS	_	23	E	23:E	_
+19	'	's	PART	POS	_	23	U	23:U	_
+20	science	science	NOUN	NN	_	21	E	21:E	_
+21	fiction	fiction	NOUN	NN	_	22	E	22:E	_
+22	film	film	NOUN	NN	_	23	E	23:E	_
+23	Predestination	Predestination	NOUN	NN	_	14	C	14:C	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

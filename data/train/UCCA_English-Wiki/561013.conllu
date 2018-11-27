@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 561013
+# text = Unlike many white artists ... who watered down the gritty edges of the original R & B versions of songs in the ' 50s , Presley reshaped them .
+1	Unlike	unlike	ADP	IN	_	4	L	4:L	_
+2	many	many	ADJ	JJ	_	4	E	4:E	_
+3	white	white	ADJ	JJ	_	4	E	4:E	_
+4	artists	artist	NOUN	NNS	_	0	H	0:H	_
+5	...	...	PUNCT	,	_	4	U	4:U	_
+6	who	who	PRON	WP	_	7	R	7:R	_
+7	watered	water	VERB	VBD	_	4	E	4:E	_
+8	down	down	ADP	RP	_	7	Terminal	7:Terminal	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	gritty	gritty	NOUN	NN	_	11	E	11:E	_
+11	edges	edge	NOUN	NNS	_	7	A	7:A	_
+12	of	of	ADP	IN	_	18	R	18:R	_
+13	the	the	DET	DT	_	18	E	18:E	_
+14	original	original	ADJ	JJ	_	18	E	18:E	_
+15	R	r	NOUN	NN	_	18	E	18:E	_
+16	&	&	CCONJ	CC	_	15	Terminal	15:Terminal	_
+17	B	b	NOUN	NN	_	15	Terminal	15:Terminal	_
+18	versions	version	NOUN	NNS	_	11	E	11:E	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	songs	song	NOUN	NNS	_	0	C	0:C|28:C	_
+21	in	in	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	'	'	PUNCT	``	_	24	U	24:U	_
+24	50s	50	NOUN	NNS	_	7	D	7:D	_
+25	,	,	PUNCT	,	_	4	U	4:U	_
+26	Presley	Presley	PROPN	NNP	_	27	A	27:A	_
+27	reshaped	reshape	VERB	VBD	_	4	H	4:H	_
+28	them	they	PRON	PRP	_	27	A	27:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25648003
+# text = » Darf ich meinem Herrn etwas anempfehlen ? « fragte mich Conseil .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Darf	dürfen	AUX	VMFIN	_	7	D	7:D	_
+3	ich	ich	PRON	PPER	_	7	A	7:A	_
+4	meinem	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herrn	Herr	NOUN	NN	_	7	A	7:A	_
+6	etwas	etwas	PRON	ADV	_	7	A	7:A	_
+7	anempfehlen	anempfehlen	VERB	VVINF	_	10	A	10:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	mich	ich	PRON	PPER	_	10	A	10:A	_
+12	Conseil	Conseil	NOUN	NE	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 676003
+# text = The film also stars Forest Whitaker , Oprah Winfrey , Robin Williams , Melissa Leo , James Marsden , Minka Kelly , Liev Schreiber , John Cusack , Alan Rickman , and Jane Fonda .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	stars	star	VERB	VBZ	_	0	H	0:H	_
+5	Forest	Forest	PROPN	NNP	_	4	A	4:A	_
+6	Whitaker	Whitaker	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	Oprah	Oprah	PROPN	NNP	_	5	C	5:C	_
+9	Winfrey	Winfrey	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	Robin	Robin	PROPN	NNP	_	5	C	5:C	_
+12	Williams	Williams	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	Melissa	Melissa	PROPN	NNP	_	5	C	5:C	_
+15	Leo	Leo	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	James	James	PROPN	NNP	_	5	C	5:C	_
+18	Marsden	Marsden	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	5	U	5:U	_
+20	Minka	Minka	PROPN	NNP	_	5	C	5:C	_
+21	Kelly	Kelly	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	5	U	5:U	_
+23	Liev	Liev	PROPN	NNP	_	5	C	5:C	_
+24	Schreiber	Schreiber	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	5	U	5:U	_
+26	John	John	PROPN	NNP	_	5	C	5:C	_
+27	Cusack	Cusack	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	5	U	5:U	_
+29	Alan	Alan	PROPN	NNP	_	5	C	5:C	_
+30	Rickman	Rickman	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	5	U	5:U	_
+32	and	and	CCONJ	CC	_	5	N	5:N	_
+33	Jane	Jane	PROPN	NNP	_	5	C	5:C	_
+34	Fonda	Fonda	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	.	.	PUNCT	.	_	5	U	5:U	_
+

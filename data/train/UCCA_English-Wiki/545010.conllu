@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 545010
+# text = " After the film 's lackluster release , the Republican National Committee accused Warner of releasing the film as " New Deal propaganda . "
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	After	after	ADP	IN	_	7	L	7:L	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	film	film	NOUN	NN	_	7	A	7:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	lackluster	lackluster	ADJ	JJ	_	7	A	7:A	_
+7	release	release	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Republican	Republican	PROPN	NNP	_	13	A	13:A	_
+11	National	National	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Committee	Committee	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	accused	accuse	VERB	VBD	_	7	H	7:H	_
+14	Warner	Warner	PROPN	NNP	_	13	A	13:A|16:A	_
+15	of	of	SCONJ	IN	_	16	R	16:R	_
+16	releasing	release	VERB	VBG	_	13	A	13:A	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	film	film	NOUN	NN	_	16	A	16:A	_
+19	as	as	SCONJ	IN	_	23	R	23:R	_
+20	"	"	PUNCT	``	_	23	U	23:U	_
+21	New	New	PROPN	NNP	_	22	E	22:E	_
+22	Deal	Deal	PROPN	NNP	_	23	E	23:E	_
+23	propaganda	propaganda	PROPN	NNP	_	16	A	16:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+25	"	"	PUNCT	''	_	23	U	23:U	_
+

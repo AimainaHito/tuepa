@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25635014
+# text = » Und diese Wilden ? « fragte mich Conseil . » Mit Erlaubnis , sie scheinen nicht sehr schlimm ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	diese	dies	PRON	PDS	_	4	E	4:E	_
+4	Wilden	Wilde	NOUN	NN	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	mich	ich	PRON	PPER	_	7	A	7:A	_
+9	Conseil	Conseil	NOUN	NE	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	Mit	mit	ADP	APPR	_	13	E	13:E	_
+13	Erlaubnis	Erlaubnis	NOUN	NN	_	19	G	19:G	_
+14	,	,	PUNCT	$,	_	19	U	19:U	_
+15	sie	sie	PRON	ADV	_	19	A	19:A	_
+16	scheinen	scheinen	VERB	VVFIN	_	19	G	19:G	_
+17	nicht	nicht	PART	XY	_	18	E	18:E	_
+18	sehr	sehr	ADV	NE	_	19	D	19:D	_
+19	schlimm	schlimm	ADJ	NN	_	4	H	4:H	_
+20	!	!	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

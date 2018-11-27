@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 530016
+# text = The album won four Grammy Awards including Album of the Year and Best Female Vocal of the Year .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	3	A	3:A	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	four	four	NUM	CD	_	6	E	6:E	_
+5	Grammy	Grammy	NOUN	NN	_	6	E	6:E	_
+6	Awards	awards	SCONJ	IN	_	3	A	3:A	_
+7	including	include	VERB	VBG	_	8	R	8:R	_
+8	Album	Album	PROPN	NNP	_	6	E	6:E	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Year	Year	PROPN	NNP	_	8	E	8:E	_
+12	and	and	CCONJ	CC	_	8	N	8:N	_
+13	Best	best	PROPN	NNP	_	15	E	15:E	_
+14	Female	female	PROPN	NNP	_	15	E	15:E	_
+15	Vocal	Vocal	PROPN	NNP	_	8	C	8:C	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	Year	year	PROPN	NNP	_	15	E	15:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

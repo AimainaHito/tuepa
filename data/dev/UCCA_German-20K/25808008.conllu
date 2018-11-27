@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25808008
+# text = » Sie haben das gesehen ? « fragte der Kanadier .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+3	haben	haben	VERB	VAFIN	_	5	F	5:F	_
+4	das	der	DET	ART	_	5	A	5:A	_
+5	gesehen	geseh	ADJ	NN	_	8	A	8:A	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kanadier	Kanadier	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 123002
+# text = The Hepburn family denied it was suicide and maintained that Tom 's death must have been an experiment that had gone wrong .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Hepburn	Hepburn	PROPN	NNP	_	3	E	3:E	_
+3	family	family	NOUN	NN	_	0	C	0:C|9:A	_
+4	denied	deny	VERB	VBD	_	0	H	0:H	_
+5	it	it	PRON	PRP	_	6	A	6:A	_
+6	was	be	AUX	VBD	_	4	A	4:A	_
+7	suicide	suicide	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	and	and	CCONJ	CC	_	4	L	4:L	_
+9	maintained	maintain	VERB	VBD	_	4	H	4:H	_
+10	that	that	SCONJ	IN	_	18	F	18:F	_
+11	Tom	Tom	PROPN	NNP	_	13	A	13:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	death	death	NOUN	NN	_	18	A	18:A	_
+14	must	must	AUX	MD	_	18	D	18:D	_
+15	have	have	AUX	VB	_	18	F	18:F	_
+16	been	be	AUX	VBN	_	18	F	18:F	_
+17	an	a	DET	DT	_	18	E	18:E	_
+18	experiment	experiment	NOUN	NN	_	9	A	9:A	_
+19	that	that	PRON	WDT	_	22	R	22:R	_
+20	had	have	AUX	VBD	_	22	F	22:F	_
+21	gone	go	VERB	VBN	_	22	D	22:D	_
+22	wrong	wrong	ADV	RB	_	18	E	18:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

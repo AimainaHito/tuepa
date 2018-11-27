@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 694000
+# text = In May 1963 , Dylan 's political profile was raised when he walked out of The Ed Sullivan Show .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	May	May	PROPN	NNP	_	3	E	3:E	_
+3	1963	1963	NUM	CD	_	10	D	10:D	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	Dylan	Dylan	PROPN	NNP	_	8	E	8:E	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	political	political	ADJ	JJ	_	8	E	8:E	_
+8	profile	profile	NOUN	NN	_	10	A	10:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	raised	raise	VERB	VBN	_	0	H	0:H	_
+11	when	when	ADV	WRB	_	10	L	10:L	_
+12	he	he	PRON	PRP	_	13	A	13:A	_
+13	walked	walk	VERB	VBD	_	10	H	10:H	_
+14	out	out	ADP	IN	_	13	Terminal	13:Terminal	_
+15	of	of	ADP	IN	_	16	R	16:R	_
+16	The	the	DET	DT	_	13	A	13:A	_
+17	Ed	Ed	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Sullivan	Sullivan	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	Show	show	ADV	RB	_	16	Terminal	16:Terminal	_
+20	.	.	PUNCT	.	_	16	U	16:U	_
+

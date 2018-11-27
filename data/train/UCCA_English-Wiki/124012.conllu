@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 124012
+# text = In early December , after only two weeks , she quit to marry Ludlow Ogden Smith , her beau from college .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	early	early	ADJ	JJ	_	3	E	3:E	_
+3	December	December	PROPN	NNP	_	11	D	11:D	_
+4	,	,	PUNCT	,	_	11	U	11:U	_
+5	after	after	ADP	IN	_	8	R	8:R	_
+6	only	only	ADV	RB	_	8	E	8:E	_
+7	two	two	NUM	CD	_	8	E	8:E	_
+8	weeks	week	NOUN	NNS	_	11	D	11:D	_
+9	,	,	PUNCT	,	_	11	U	11:U	_
+10	she	she	PRON	PRP	_	11	A	11:A|13:A	_
+11	quit	quit	VERB	VBD	_	0	H	0:H	_
+12	to	to	PART	TO	_	11	L	11:L	_
+13	marry	marry	VERB	VB	_	11	H	11:H	_
+14	Ludlow	Ludlow	PROPN	NNP	_	13	A	13:A	_
+15	Ogden	Ogden	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Smith	Smith	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	14	U	14:U	_
+18	her	she	PRON	PRP$	_	19	E	19:E	_
+19	beau	beau	NOUN	NN	_	14	E	14:E	_
+20	from	from	ADP	IN	_	21	R	21:R	_
+21	college	college	NOUN	NN	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

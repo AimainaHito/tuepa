@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25652004
+# text = Er war völlig verschieden von dem , den ich bei meinem ersten Ausflug unterm Pazifik angetroffen hatte .
+1	Er	er	PRON	PPER	_	4	A	4:A	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	völlig	völlig	ADJ	ADJD	_	4	D	4:D	_
+4	verschieden	verschieden	ADJ	VVPP	_	0	H	0:H	_
+5	von	von	ADP	NE	_	6	R	6:R	_
+6	dem	der	DET	ART	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	den	d	AUX	PRELS	_	16	R	16:R	_
+9	ich	ich	PRON	PPER	_	16	A	16:A	_
+10	bei	bei	ADP	APPR	_	13	R	13:R	_
+11	meinem	mein	DET	PPOSAT	_	13	E	13:E	_
+12	ersten	erst	ADJ	ADJA	_	13	E	13:E	_
+13	Ausflug	Ausflug	NOUN	NN	_	16	A	16:A	_
+14	unterm	unterm	PROPN	NE	_	15	R	15:R	_
+15	Pazifik	Pazifik	PROPN	NE	_	13	E	13:E	_
+16	angetroffen	antreffen	VERB	VVPP	_	6	E	6:E	_
+17	hatte	haben	AUX	VAFIN	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

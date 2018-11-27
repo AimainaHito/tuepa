@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25749014
+# text = Auch große Meerhunde zogen vorüber , die unendlich gefräßig sind .
+1	Auch	auch	ADV	ADV	_	4	L	4:L	_
+2	große	groß	ADJ	ADJA	_	3	E	3:E	_
+3	Meerhunde	Meerhunde	NOUN	NN	_	4	A	4:A	_
+4	zogen	ziehen	VERB	VVFIN	_	0	H	0:H	_
+5	vorüber	vorüber	ADP	ADV	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	die	der	DET	PRELS	_	9	R	9:R	_
+8	unendlich	unendlich	ADJ	ADJD	_	9	D	9:D	_
+9	gefräßig	gefräßig	ADJ	ADJD	_	3	E	3:E	_
+10	sind	sein	AUX	NN	_	9	F	9:F	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

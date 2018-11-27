@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 446007
+# text = D' ailleurs , le commandant Farragut ne demandait qu' à partir .
+1	D'	de	ADP	_	_	2	R	2:R	_
+2	ailleurs	ailleurs	ADV	_	_	8	L	8:L	_
+3	,	,	PUNCT	_	_	8	U	8:U	_
+4	le	le	DET	_	_	5	E	5:E	_
+5	commandant	commandant	NOUN	_	_	6	E	6:E	_
+6	Farragut	Farragut	PROPN	_	_	8	A	8:A	_
+7	ne	ne	ADV	_	_	8	D	8:D	_
+8	demandait	demander	VERB	_	_	0	H	0:H	_
+9	qu'	que	ADV	_	_	7	Terminal	7:Terminal	_
+10	à	à	ADP	_	_	11	F	11:F	_
+11	partir	partir	VERB	_	_	8	A	8:A	_
+12	.	.	PUNCT	_	_	11	U	11:U	_
+

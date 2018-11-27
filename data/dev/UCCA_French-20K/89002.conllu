@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 89002
+# text = La question prit une tout autre face .
+1	La	le	DET	_	_	2	E	2:E	_
+2	question	question	NOUN	_	_	3	A	3:A	_
+3	prit	prendre	VERB	_	_	0	H	0:H	_
+4	une	un	DET	_	_	7	E	7:E	_
+5	tout	tout	ADV	_	_	6	E	6:E	_
+6	autre	autre	ADJ	_	_	7	E	7:E	_
+7	face	face	NOUN	_	_	3	A	3:A	_
+8	.	.	PUNCT	_	_	7	U	7:U	_
+

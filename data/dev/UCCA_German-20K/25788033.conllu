@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25788033
+# text = » Mein Herr « , erwiderte der Kanadier , » jetzt ist es nicht Zeit zu Beschuldigungen . Ich werde alles tun für das allgemeine Beste . «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	17	G	17:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	jetzt	jetzt	ADV	ADV	_	17	D	17:D	_
+12	ist	sein	AUX	VVFIN	_	17	F	17:F	_
+13	es	es	PRON	PPER	_	17	F	17:F	_
+14	nicht	nicht	PART	XY	_	17	D	17:D	_
+15	Zeit	Zeit	NOUN	NN	_	17	A	17:A	_
+16	zu	zu	ADP	ADJA	_	17	F	17:F	_
+17	Beschuldigungen	Beschuldigung	NOUN	NN	_	6	A	6:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+19	Ich	ich	PRON	PPER	_	22	A	22:A	_
+20	werde	werden	AUX	NN	_	22	F	22:F	_
+21	alles	alle	PRON	PIS	_	22	A	22:A	_
+22	tun	tun	VERB	VVFIN	_	17	H	17:H	_
+23	für	für	ADP	APPR	_	26	R	26:R	_
+24	das	der	DET	ART	_	26	E	26:E	_
+25	allgemeine	allgemein	ADJ	ADJA	_	26	E	26:E	_
+26	Beste	gut	NOUN	NN	_	22	A	22:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

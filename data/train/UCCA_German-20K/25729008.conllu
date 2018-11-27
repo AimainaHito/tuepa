@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25729008
+# text = Jetzt begriff ich auch , welche Bestimmung jene Millionen hatten , die Kapitän Nemo ausschiffte , als die ›Nautilus‹ in den Gewässern der im Aufstand begriffenen Insel Kreta fuhr !
+1	Jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+2	begriff	begreifen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	auch	auch	ADV	ADV	_	2	L	2:L	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	welche	welch	PRON	NN	_	7	E	7:E	_
+7	Bestimmung	Bestimmung	NOUN	NN	_	2	A	2:A	_
+8	jene	jen	PRON	KOUS	_	9	E	9:E	_
+9	Millionen	Million	NOUN	NN	_	7	A	7:A	_
+10	hatten	haben	VERB	VAFIN	_	7	F	7:F	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	die	der	DET	ART	_	15	R	15:R	_
+13	Kapitän	Kapitän	NOUN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	15	A	15:A	_
+15	ausschiffte	ausschiffen	AUX	VVFIN	_	9	E	9:E	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	als	als	SCONJ	KOUS	_	2	L	2:L	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	›Nautilus‹	›Nautilus‹	NOUN	NE	_	29	A	29:A	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Gewässern	Gewässer	NOUN	NN	_	29	A	29:A	_
+23	der	der	DET	ART	_	28	R	28:R	_
+24	im	im	ADJ	NN	_	25	R	25:R	_
+25	Aufstand	Aufstand	NOUN	NN	_	28	E	28:E	_
+26	begriffenen	begriffenen	ADJ	ADJA	_	25	D	25:D	_
+27	Insel	Insel	NOUN	NN	_	28	E	28:E	_
+28	Kreta	Kreta	PROPN	NE	_	22	E	22:E	_
+29	fuhr	fahren	VERB	VVFIN	_	2	H	2:H	_
+30	!	!	PUNCT	$.	_	29	U	29:U	_
+

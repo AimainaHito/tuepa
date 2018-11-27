@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25743017
+# text = Ich erkannte Euphorbien und Heliotropien .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erkannte	erkennen	VERB	VVFIN	_	0	H	0:H	_
+3	Euphorbien	Euphorbien	PROPN	NE	_	2	A	2:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	Heliotropien	Heliotropien	PROPN	NE	_	3	C	3:C	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

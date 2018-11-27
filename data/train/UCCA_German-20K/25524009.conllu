@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25524009
+# text = Meine wackeren Gefährten standen wie versteinert beim Anblick der vor ihren Augen angehäuften Wunder .
+1	Meine	mein	PRON	PPOSAT	_	3	E	3:E	_
+2	wackeren	wack	ADJ	VVFIN	_	3	E	3:E	_
+3	Gefährten	Gefährt|Gefährte	NOUN	NE	_	4	A	4:A	_
+4	standen	stehen	VERB	VVFIN	_	0	H	0:H	_
+5	wie	wie	ADP	ADV	_	4	D	4:D	_
+6	versteinert	versteinert	ADJ	ADJD	_	5	Terminal	5:Terminal	_
+7	beim	beim	ADJ	NE	_	8	E	8:E	_
+8	Anblick	Anblick	NOUN	NE	_	4	A	4:A	_
+9	der	der	DET	ART	_	14	E	14:E	_
+10	vor	vor	ADP	NN	_	12	R	12:R	_
+11	ihren	ihr	DET	PPOSAT	_	12	E	12:E	_
+12	Augen	Auge	NOUN	NN	_	13	A	13:A	_
+13	angehäuften	angehäuft	ADJ	ADJA	_	14	E	14:E	_
+14	Wunder	Wunder	NOUN	NN	_	8	E	8:E	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 244009
+# text = The film received favorable reviews but made poor box office revenues , a failure which Hawke has admitted caused him to quit acting for a brief period after the film 's release .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	favorable	favorable	ADJ	JJ	_	5	E	5:E	_
+5	reviews	review	NOUN	NNS	_	3	A	3:A	_
+6	but	but	CCONJ	CC	_	3	L	3:L	_
+7	made	make	VERB	VBN	_	3	H	3:H	_
+8	poor	poor	ADJ	JJ	_	11	E	11:E	_
+9	box	box	NOUN	NN	_	11	E	11:E	_
+10	office	office	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	revenues	revenue	NOUN	NNS	_	7	A	7:A|14:A	_
+12	,	,	PUNCT	,	_	14	U	14:U	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	failure	failure	NOUN	NN	_	3	H	3:H	_
+15	which	which	PRON	WDT	_	18	F	18:F	_
+16	Hawke	Hawke	PROPN	NNP	_	18	A	18:A|22:A	_
+17	has	have	AUX	VBZ	_	18	F	18:F	_
+18	admitted	admit	VERB	VBN	_	14	E	14:E	_
+19	caused	cause	VERB	VBN	_	18	A	18:A	_
+20	him	he	PRON	PRP	_	19	A	19:A	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	quit	quit	VERB	VB	_	19	A	19:A	_
+23	acting	act	VERB	VBG	_	22	A	22:A	_
+24	for	for	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	brief	brief	ADJ	JJ	_	27	E	27:E	_
+27	period	period	NOUN	NN	_	22	A	22:A	_
+28	after	after	ADP	IN	_	22	L	22:L	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	film	film	NOUN	NN	_	32	A	32:A	_
+31	's	's	PART	POS	_	30	R	30:R	_
+32	release	release	NOUN	NN	_	22	H	22:H	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

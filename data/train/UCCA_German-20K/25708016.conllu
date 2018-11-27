@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25708016
+# text = Wir waren mit reißend abfallender Strömung durchgefahren ; aber aufwärts diesen Tunnel zu fahren , musste unausführbar sein .
+1	Wir	wir	PRON	NE	_	7	A	7:A	_
+2	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	reißend	reißend	ADJ	ADJD	_	5	D	5:D	_
+5	abfallender	abfallend	ADJ	ADJA	_	7	A	7:A	_
+6	Strömung	Strömung	NOUN	NN	_	5	A	5:A	_
+7	durchgefahren	durchgefahren	VERB	VVINF	_	0	H	0:H	_
+8	;	;	PUNCT	$.	_	7	U	7:U	_
+9	aber	aber	ADV	ADV	_	7	L	7:L	_
+10	aufwärts	aufwärts	ADV	ADV	_	12	R	12:R	_
+11	diesen	dies	PRON	PDAT	_	12	E	12:E	_
+12	Tunnel	Tunnel	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	fahren	fahren	VERB	VVINF	_	17	A	17:A	_
+15	,	,	PUNCT	$,	_	17	U	17:U	_
+16	musste	müssen	AUX	VVFIN	_	17	D	17:D	_
+17	unausführbar	unausführbar	ADJ	ADJD	_	7	H	7:H	_
+18	sein	sein	AUX	VAINF	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

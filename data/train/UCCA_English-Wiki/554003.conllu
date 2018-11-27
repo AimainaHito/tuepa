@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 554003
+# text = Nominated for 14 competitive Grammys , he won three , and received the Grammy Lifetime Achievement Award at age 36 .
+1	Nominated	nominate	VERB	VBN	_	0	H	0:H	_
+2	for	for	ADP	IN	_	5	R	5:R	_
+3	14	14	NUM	CD	_	5	E	5:E	_
+4	competitive	competitive	ADJ	JJ	_	5	E	5:E	_
+5	Grammys	Grammy	NOUN	NNS	_	0	C	0:C|9:C	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A|12:A|1:A	_
+8	won	win	VERB	VBD	_	1	H	1:H	_
+9	three	three	NUM	CD	_	8	A	8:A	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	and	and	CCONJ	CC	_	1	L	1:L	_
+12	received	receive	VERB	VBD	_	1	H	1:H	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	Grammy	Grammy	PROPN	NNP	_	17	E	17:E	_
+15	Lifetime	lifetime	PROPN	NNP	_	17	E	17:E	_
+16	Achievement	achievement	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Award	Award	PROPN	NNP	_	12	A	12:A	_
+18	at	at	ADP	IN	_	20	R	20:R	_
+19	age	age	NOUN	NN	_	20	E	20:E	_
+20	36	36	NUM	CD	_	12	D	12:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

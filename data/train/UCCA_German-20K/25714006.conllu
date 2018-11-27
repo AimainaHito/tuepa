@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25714006
+# text = » Ich habe nichts gesagt , Kapitän . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Ich	ich	PRON	PPER	_	5	A	5:A	_
+3	habe	haben	AUX	VAFIN	_	5	F	5:F	_
+4	nichts	nichts	PRON	NN	_	5	A	5:A	_
+5	gesagt	sagen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Kapitän	Kapitän	NOUN	NN	_	5	G	5:G	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+9	«	«	PUNCT	$(	_	5	U	5:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25796011
+# text = Aber ich hatte das Bewußtsein des beginnenden Todes kampfs .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A	_
+3	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Bewußtsein	Bewußtsein	NOUN	NN	_	3	A	3:A	_
+6	des	der	DET	ART	_	9	E	9:E	_
+7	beginnenden	beginnend	ADJ	ADJA	_	9	E	9:E	_
+8	Todes	Tod	NOUN	NN	_	9	E	9:E	_
+9	kampfs	kampfs	ADV	NN	_	5	A	5:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

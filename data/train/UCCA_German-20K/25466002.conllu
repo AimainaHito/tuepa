@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25466002
+# text = Es wurden ungeheure Stücke Speck am Schlepp seil ausgeworfen - zu großer Befriedigung der Hai-fische .
+1	Es	es	PRON	PPER	_	9	F	9:F	_
+2	wurden	werden	AUX	ADJD	_	9	F	9:F	_
+3	ungeheure	ungeheuer	DET	PPOSAT	_	5	E	5:E	_
+4	Stücke	Stück	NOUN	NN	_	5	E	5:E	_
+5	Speck	Speck	PROPN	NE	_	9	A	9:A	_
+6	am	am	PROPN	NE	_	8	R	8:R	_
+7	Schlepp	Schlepp	PROPN	NN	_	8	E	8:E	_
+8	seil	seil	ADV	NE	_	9	A	9:A	_
+9	ausgeworfen	ausgeworfen	VERB	VVPP	_	0	H	0:H	_
+10	-	-	PUNCT	$(	_	9	U	9:U	_
+11	zu	zu	ADP	VVINF	_	13	R	13:R	_
+12	großer	groß	ADJ	ADJA	_	13	D	13:D	_
+13	Befriedigung	Befriedigung	NOUN	NN	_	9	H	9:H	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Hai-fische	Hai-fische	NOUN	ADJA	_	13	A	13:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

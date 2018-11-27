@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25625009
+# text = Aber dieses Einsammeln nahm unsere Zeit viel in Anspruch , was wir übrigens nicht zu bedauern hatten .
+1	Aber	aber	ADP	KON	_	4	L	4:L	_
+2	dieses	dies	PRON	PDAT	_	3	E	3:E	_
+3	Einsammeln	einsammeln	NOUN	NN	_	4	A	4:A	_
+4	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+5	unsere	unser	PRON	PPOSAT	_	6	E	6:E	_
+6	Zeit	Zeit	NOUN	NN	_	4	A	4:A	_
+7	viel	viel	PRON	ADJD	_	4	D	4:D	_
+8	in	in	ADP	APPR	_	4	Terminal	4:Terminal	_
+9	Anspruch	Anspruch	NOUN	NN	_	4	Terminal	4:Terminal	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	was	was	PRON	NE	_	16	A	16:A	_
+12	wir	wir	PRON	NE	_	16	A	16:A	_
+13	übrigens	übrigens	ADV	ADV	_	16	G	16:G	_
+14	nicht	nicht	PART	CARD	_	16	D	16:D	_
+15	zu	zu	PART	NN	_	16	F	16:F	_
+16	bedauern	bedauern	VERB	VVINF	_	4	H	4:H	_
+17	hatten	haben	AUX	VAFIN	_	16	D	16:D	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

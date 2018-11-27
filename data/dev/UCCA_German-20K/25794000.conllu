@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25794000
+# text = Die Arbeit der Pumpen begann , und nach 3 Stunden zeigte das Thermometer außen 6 Grad unter Null ; 2 Stunden später nur noch 4 .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Arbeit	Arbeit	NOUN	NN	_	0	H	0:H	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Pumpen	Pumpe|Pumpen	NOUN	NN	_	2	A	2:A	_
+5	begann	beginnen	VERB	VVFIN	_	2	D	2:D	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	nach	nach	ADP	CARD	_	10	R	10:R	_
+9	3	3	NUM	CARD	_	10	E	10:E	_
+10	Stunden	Stunde|Stunden	NOUN	NN	_	11	D	11:D	_
+11	zeigte	zeigen	VERB	VVFIN	_	2	H	2:H	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Thermometer	Thermometer	NOUN	NN	_	0	C	0:C|25:A	_
+14	außen	außen	ADV	ADV	_	11	A	11:A	_
+15	6	6	NUM	CARD	_	16	E	16:E	_
+16	Grad	Grad	NOUN	NN	_	0	C	0:C|25:A	_
+17	unter	unter	ADP	ADJD	_	16	Terminal	16:Terminal	_
+18	Null	_	NUM	CARD	_	16	Terminal	16:Terminal	_
+19	;	;	PUNCT	$.	_	25	U	25:U	_
+20	2	2	NUM	CARD	_	21	E	21:E	_
+21	Stunden	Stunde	NOUN	NN	_	25	D	25:D	_
+22	später	spät	ADV	ADJD	_	21	E	21:E	_
+23	nur	nur	ADV	NE	_	25	E	25:E	_
+24	noch	noch	ADV	CARD	_	25	E	25:E	_
+25	4	4	NUM	CARD	_	2	H	2:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

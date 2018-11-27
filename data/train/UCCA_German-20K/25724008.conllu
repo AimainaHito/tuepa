@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25724008
+# text = Nur noch 120 Minuten , bis ich mit Ned Land zusammenkommen sollte .
+1	Nur	nur	ADV	ADV	_	4	D	4:D	_
+2	noch	noch	ADV	VVINF	_	4	D	4:D	_
+3	120	120	NUM	CARD	_	4	E	4:E	_
+4	Minuten	Minute	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	bis	bis	SCONJ	KOUS	_	4	L	4:L	_
+7	ich	ich	PRON	PPER	_	11	A	11:A	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	Ned	Ned	PROPN	NE	_	11	A	11:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	zusammenkommen	zusammenkommen	VERB	VVINF	_	4	H	4:H	_
+12	sollte	sollen	AUX	VMFIN	_	11	D	11:D	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

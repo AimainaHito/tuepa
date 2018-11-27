@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25774012
+# text = Bei unserer Annäherung ergriffen sie nicht die Flucht , da sie noch nie mit Menschen zu tun gehabt hatten ; und ich zählte ihrer so viele , dass man einige Schiffe damit hätte verproviantieren können .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	unserer	unser	PRON	PPOSAT	_	3	E	3:E	_
+3	Annäherung	Annäherung	NOUN	NN	_	0	H	0:H	_
+4	ergriffen	ergriffen	VERB	VVPP	_	3	H	3:H	_
+5	sie	sie	PRON	ADV	_	4	A	4:A	_
+6	nicht	nicht	PART	CARD	_	4	D	4:D	_
+7	die	der	DET	ART	_	4	Terminal	4:Terminal	_
+8	Flucht	Flucht	NOUN	NN	_	4	Terminal	4:Terminal	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	da	da	SCONJ	KOUS	_	3	L	3:L	_
+11	sie	sie	PRON	ADV	_	16	A	16:A	_
+12	noch	noch	ADV	XY	_	13	E	13:E	_
+13	nie	nie	ADV	ADV	_	16	D	16:D	_
+14	mit	mit	ADP	APPR	_	15	R	15:R	_
+15	Menschen	Mensch	NOUN	NN	_	16	A	16:A	_
+16	zu	zu	PART	NE	_	3	H	3:H	_
+17	tun	tun	VERB	NE	_	16	Terminal	16:Terminal	_
+18	gehabt	haben	VERB	VVPP	_	16	Terminal	16:Terminal	_
+19	hatten	haben	AUX	VAFIN	_	16	F	16:F	_
+20	;	;	PUNCT	$.	_	3	U	3:U	_
+21	und	und	CCONJ	NE	_	3	L	3:L	_
+22	ich	ich	PRON	PPER	_	23	A	23:A	_
+23	zählte	zählen	VERB	VVFIN	_	3	H	3:H	_
+24	ihrer	ihr	PRON	PPOSAT	_	23	A	23:A	_
+25	so	so	ADV	ADV	_	3	L	3:L	_
+26	viele	viel	PRON	NN	_	23	D	23:D	_
+27	,	,	PUNCT	$,	_	3	U	3:U	_
+28	dass	dass	SCONJ	KOUS	_	25	Terminal	25:Terminal	_
+29	man	man	PRON	PIS	_	34	A	34:A	_
+30	einige	einige	PRON	PIAT	_	31	E	31:E	_
+31	Schiffe	Schiff	NOUN	NN	_	34	A	34:A	_
+32	damit	damit	ADV	PAV	_	34	A	34:A	_
+33	hätte	haben	AUX	VAFIN	_	34	D	34:D	_
+34	verproviantieren	verproviantieren	VERB	VVINF	_	3	H	3:H	_
+35	können	können	AUX	VMINF	_	34	D	34:D	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

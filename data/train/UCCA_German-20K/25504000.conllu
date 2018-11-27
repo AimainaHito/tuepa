@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25504000
+# text = Ich nahm die Zigarre , die einer Londres ähnlich geformt war , aber aus Gold blättern zu bestehen schien .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Zigarre	Zigarre	NOUN	NN	_	0	C	0:C|10:A|18:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	10	R	10:R	_
+7	einer	ein	DET	ART	_	8	E	8:E	_
+8	Londres	Londres	NOUN	NE	_	10	A	10:A	_
+9	ähnlich	ähnlich	ADJ	NE	_	10	D	10:D	_
+10	geformt	formn	VERB	VVFIN	_	4	E	4:E	_
+11	war	sein	AUX	ADV	_	10	F	10:F	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	aber	aber	CCONJ	KON	_	2	L	2:L	_
+14	aus	aus	ADP	APPR	_	16	R	16:R	_
+15	Gold	Gold	NOUN	NN	_	16	E	16:E	_
+16	blättern	blättern	VERB	VVINF	_	18	A	18:A	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	bestehen	bestehen	VERB	VVINF	_	2	H	2:H	_
+19	schien	scheinen	VERB	VVFIN	_	18	G	18:G	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

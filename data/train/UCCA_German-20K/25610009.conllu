@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25610009
+# text = Sie fuhren mit den Corvetten " Boussole " und " Astrolabe " ab , kehrten aber nicht wieder zurück .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A|15:A	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	7	R	7:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Corvetten	Corvette	NOUN	NN	_	7	E	7:E	_
+6	"	"	PUNCT	$(	_	7	U	7:U	_
+7	Boussole	Boussole	PROPN	NN	_	2	A	2:A	_
+8	"	"	PUNCT	$(	_	7	U	7:U	_
+9	und	und	CCONJ	NN	_	7	N	7:N	_
+10	"	"	PUNCT	$(	_	7	U	7:U	_
+11	Astrolabe	Astrolabe	PROPN	NN	_	7	C	7:C	_
+12	"	"	PUNCT	$(	_	2	U	2:U	_
+13	ab	ab	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	kehrten	kehren	VERB	VVFIN	_	2	H	2:H	_
+16	aber	aber	ADV	ADV	_	2	L	2:L	_
+17	nicht	nicht	PART	CARD	_	18	E	18:E	_
+18	wieder	wieder	ADV	NN	_	15	D	15:D	_
+19	zurück	zurück	ADV	ADJA	_	15	Terminal	15:Terminal	_
+20	.	.	PUNCT	$.	_	15	U	15:U	_
+

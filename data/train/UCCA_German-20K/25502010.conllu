@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25502010
+# text = Ich sah mich mit wahrer Bewunderung in dem so sinnreich eingerichteten Saal um .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	mit	mit	ADP	ADV	_	6	R	6:R	_
+5	wahrer	wahr	ADJ	ADJA	_	6	E	6:E	_
+6	Bewunderung	Bewunderung	NOUN	NN	_	2	A	2:A	_
+7	in	in	ADP	APPR	_	12	R	12:R	_
+8	dem	der	DET	ART	_	12	E	12:E	_
+9	so	so	ADV	ADV	_	11	D	11:D	_
+10	sinnreich	sinnreich	ADJ	ADJD	_	11	D	11:D	_
+11	eingerichteten	eingerichtet	ADJ	ADJA	_	12	E	12:E	_
+12	Saal	Saal	NOUN	NN	_	2	A	2:A	_
+13	um	um	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+14	.	.	PUNCT	$.	_	2	U	2:U	_
+

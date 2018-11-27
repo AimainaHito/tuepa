@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25525006
+# text = Währenddessen fragte mich Ned Land , der wenig Sinn für Conchylien hatte , über meine Unterredung mit Kapitän Nemo : Ob ich entdeckt habe , wer er sei , woher er komme , wohin er gehe , in welche Tiefen er uns hinabziehe ?
+1	Währenddessen	währenddessen	ADV	PAV	_	2	L	2:L	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PPER	_	2	A	2:A	_
+4	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+5	Land	Land	NOUN	NE	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	der	der	PRON	ART	_	9	R	9:R	_
+8	wenig	wenig	ADV	ADJA	_	9	D	9:D	_
+9	Sinn	Sinn	NOUN	NN	_	4	E	4:E	_
+10	für	für	ADP	APPR	_	11	R	11:R	_
+11	Conchylien	Conchylien	PROPN	NE	_	9	A	9:A	_
+12	hatte	haben	AUX	VAFIN	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	über	über	ADP	VVFIN	_	16	R	16:R	_
+15	meine	mein	PRON	PPOSAT	_	16	E	16:E	_
+16	Unterredung	Unterredung	NOUN	NN	_	2	A	2:A	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	Kapitän	Kapitän	PROPN	NN	_	19	E	19:E	_
+19	Nemo	Nemo	PROPN	NE	_	16	A	16:A	_
+20	:	:	PUNCT	$.	_	2	U	2:U	_
+21	Ob	ob	SCONJ	CARD	_	2	L	2:L	_
+22	ich	ich	PRON	PPER	_	23	A	23:A	_
+23	entdeckt	entdecken	VERB	VVPP	_	2	H	2:H	_
+24	habe	haben	AUX	VAFIN	_	23	F	23:F	_
+25	,	,	PUNCT	$,	_	23	U	23:U	_
+26	wer	wer	PRON	PWS	_	28	A	28:A	_
+27	er	er	PRON	PPER	_	28	A	28:A	_
+28	sei	sein	AUX	NN	_	23	A	23:A	_
+29	,	,	PUNCT	$,	_	23	U	23:U	_
+30	woher	woher	CCONJ	PWAV	_	32	A	32:A	_
+31	er	er	PRON	PPER	_	32	A	32:A	_
+32	komme	kommen	VERB	VVFIN	_	23	A	23:A	_
+33	,	,	PUNCT	$,	_	23	U	23:U	_
+34	wohin	wohin	SCONJ	ADJD	_	36	A	36:A	_
+35	er	er	PRON	PPER	_	36	A	36:A	_
+36	gehe	gehen	VERB	VVFIN	_	23	A	23:A	_
+37	,	,	PUNCT	$,	_	23	U	23:U	_
+38	in	in	ADP	APPR	_	40	R	40:R	_
+39	welche	welch	PRON	NN	_	40	E	40:E	_
+40	Tiefen	tiefe	NOUN	NN	_	43	A	43:A	_
+41	er	er	PRON	PPER	_	43	A	43:A	_
+42	uns	wir	PRON	NN	_	43	A	43:A	_
+43	hinabziehe	hinabziehe	VERB	VVFIN	_	23	A	23:A	_
+44	?	?	PUNCT	$.	_	43	U	43:U	_
+

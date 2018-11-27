@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25600014
+# text = Diese verschiedenen Meeres produkte wurden unverzüglich durch die Luke in die Vorratskammern hinabgelassen , um teils frisch verspeist , teils aufbewahrt zu werden .
+1	Diese	dies	PRON	PDAT	_	4	E	4:E	_
+2	verschiedenen	verschieden	ADJ	ADJA	_	4	E	4:E	_
+3	Meeres	Meer	NOUN	NN	_	4	E	4:E	_
+4	produkte	produken	VERB	VVFIN	_	0	C	0:C|18:A|21:A	_
+5	wurden	werden	AUX	ADJD	_	13	F	13:F	_
+6	unverzüglich	unverzüglich	ADJ	ADJD	_	13	D	13:D	_
+7	durch	durch	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Luke	Luke	NOUN	NN	_	13	A	13:A	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Vorratskammern	Vorratskammer	NOUN	NN	_	13	A	13:A	_
+13	hinabgelassen	hinabgelassen	ADV	VVINF	_	0	H	0:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	um	um	ADP	KOUI	_	13	L	13:L	_
+16	teils	teils	ADV	ADV	_	18	D	18:D	_
+17	frisch	frisch	ADJ	ADJD	_	18	D	18:D	_
+18	verspeist	verspeist	ADV	ADV	_	13	H	13:H	_
+19	,	,	PUNCT	$,	_	13	U	13:U	_
+20	teils	teils	ADV	ADV	_	21	D	21:D	_
+21	aufbewahrt	aufbewahren	VERB	NN	_	13	H	13:H	_
+22	zu	zu	PART	VVINF	_	21	F	21:F	_
+23	werden	werden	AUX	VVFIN	_	21	F	21:F	_
+24	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25687010
+# text = Ein riesenmäßiger Schatten zeigte sich über dem unglücklichen Taucher .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	riesenmäßiger	riesenmäßig	ADJ	ADJA	_	3	E	3:E	_
+3	Schatten	Schatten	NOUN	NN	_	4	A	4:A	_
+4	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	über	über	ADP	ADJD	_	9	R	9:R	_
+7	dem	der	DET	ART	_	9	E	9:E	_
+8	unglücklichen	unglücklich	ADJ	ADJA	_	9	E	9:E	_
+9	Taucher	Taucher	NOUN	NN	_	4	A	4:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

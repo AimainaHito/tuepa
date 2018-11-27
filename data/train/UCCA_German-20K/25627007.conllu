@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25627007
+# text = Wir stiegen aus und hielten es fürs beste , uns auf den Instinkt des Kanadiers zu verlassen ; wir ließen uns daher von Ned Land führen , dessen lange Beine uns stets vorauseilten .
+1	Wir	wir	PRON	NE	_	2	A	2:A|17:A|5:A	_
+2	stiegen	steigen	VERB	VVFIN	_	0	H	0:H	_
+3	aus	aus	ADP	APPR	_	2	Terminal	2:Terminal	_
+4	und	und	CCONJ	NE	_	2	L	2:L	_
+5	hielten	halten	VERB	VVFIN	_	2	H	2:H	_
+6	es	es	PRON	PPER	_	5	F	5:F	_
+7	fürs	fürs	ADV	NN	_	8	R	8:R	_
+8	beste	gut	ADJ	ADJA	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	uns	wir	PRON	NE	_	17	A	17:A	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Instinkt	Instinkt	NOUN	NN	_	17	A	17:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Kanadiers	Kanadier	NOUN	NN	_	13	E	13:E	_
+16	zu	zu	PART	ADJA	_	17	F	17:F	_
+17	verlassen	verlassen	VERB	NN	_	5	A	5:A	_
+18	;	;	PUNCT	$.	_	2	U	2:U	_
+19	wir	wir	PRON	NE	_	26	A	26:A	_
+20	ließen	lassen	VERB	VVFIN	_	26	D	26:D	_
+21	uns	wir	PRON	NN	_	26	F	26:F	_
+22	daher	daher	ADV	PAV	_	26	D	26:D	_
+23	von	von	ADP	NE	_	24	R	24:R	_
+24	Ned	Ned	PROPN	NE	_	26	A	26:A	_
+25	Land	Land	NOUN	NE	_	24	Terminal	24:Terminal	_
+26	führen	führen	VERB	VVINF	_	2	H	2:H	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	dessen	der	DET	PRELAT	_	30	R	30:R	_
+29	lange	lange	ADJ	ADJA	_	30	E	30:E	_
+30	Beine	Bein	NOUN	NN	_	33	A	33:A	_
+31	uns	wir	PRON	NN	_	33	A	33:A	_
+32	stets	stets	ADV	ADV	_	33	D	33:D	_
+33	vorauseilten	vorauseilt	ADJ	VVINF	_	24	E	24:E	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

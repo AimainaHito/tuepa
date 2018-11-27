@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 116002
+# text = Both fought for social change in America : Thomas Hepburn helped establish the New England Social Hygiene Association , which educated the public about venereal disease , while Katharine Martha headed the Connecticut Woman Suffrage Association and later campaigned for birth control with Margaret Sanger .
+1	Both	both	CCONJ	CC	_	2	A	2:A	_
+2	fought	fight	VERB	VBN	_	0	H	0:H	_
+3	for	for	ADP	IN	_	5	R	5:R	_
+4	social	social	ADJ	JJ	_	5	E	5:E	_
+5	change	change	NOUN	NN	_	2	A	2:A	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	America	America	PROPN	NNP	_	5	E	5:E	_
+8	:	:	PUNCT	:	_	2	U	2:U	_
+9	Thomas	Thomas	PROPN	NNP	_	12	A	12:A	_
+10	Hepburn	Hepburn	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	helped	help	VERB	VBD	_	12	D	12:D	_
+12	establish	establish	VERB	VB	_	2	H	2:H	_
+13	the	the	DET	DT	_	18	E	18:E	_
+14	New	New	PROPN	NNP	_	18	E	18:E	_
+15	England	England	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Social	Social	PROPN	NNP	_	17	E	17:E	_
+17	Hygiene	hygiene	PROPN	NNP	_	18	E	18:E	_
+18	Association	Association	PROPN	NNP	_	12	A	12:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	which	which	PRON	WDT	_	21	R	21:R	_
+21	educated	educate	VERB	VBD	_	18	E	18:E	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	public	public	NOUN	NN	_	21	A	21:A	_
+24	about	about	ADP	IN	_	26	R	26:R	_
+25	venereal	venereal	NOUN	NN	_	26	E	26:E	_
+26	disease	disease	NOUN	NN	_	21	A	21:A	_
+27	,	,	PUNCT	,	_	2	U	2:U	_
+28	while	while	SCONJ	IN	_	2	L	2:L	_
+29	Katharine	Katharine	PROPN	NNP	_	31	A	31:A|39:A	_
+30	Martha	Martha	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	headed	head	VERB	VBD	_	2	H	2:H	_
+32	the	the	DET	DT	_	36	E	36:E	_
+33	Connecticut	Connecticut	PROPN	NNP	_	36	E	36:E	_
+34	Woman	woman	PROPN	NNP	_	35	E	35:E	_
+35	Suffrage	Suffrage	PROPN	NNP	_	36	E	36:E	_
+36	Association	Association	PROPN	NNP	_	31	A	31:A	_
+37	and	and	CCONJ	CC	_	2	L	2:L	_
+38	later	later	ADV	RB	_	39	D	39:D	_
+39	campaigned	campaign	VERB	VBN	_	2	H	2:H	_
+40	for	for	ADP	IN	_	42	R	42:R	_
+41	birth	birth	NOUN	NN	_	42	E	42:E	_
+42	control	control	NOUN	NN	_	39	A	39:A	_
+43	with	with	ADP	IN	_	44	R	44:R	_
+44	Margaret	Margaret	PROPN	NNP	_	39	A	39:A	_
+45	Sanger	Sanger	PROPN	NNP	_	44	Terminal	44:Terminal	_
+46	.	.	PUNCT	.	_	44	U	44:U	_
+

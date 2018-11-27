@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 378013
+# text = In his theatrical debut , Gyllenhaal starred on the London stage in Kenneth Lonergan 's revival of This is Our Youth .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	4	A	4:A	_
+3	theatrical	theatrical	ADJ	JJ	_	4	E	4:E	_
+4	debut	debut	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	7	A	7:A	_
+7	starred	star	VERB	VBD	_	4	H	4:H	_
+8	on	on	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	London	London	PROPN	NNP	_	11	E	11:E	_
+11	stage	stage	NOUN	NN	_	7	A	7:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Kenneth	Kenneth	PROPN	NNP	_	16	A	16:A	_
+14	Lonergan	Lonergan	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	's	's	PART	POS	_	13	R	13:R	_
+16	revival	revival	NOUN	NN	_	7	A	7:A	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	This	this	PRON	DT	_	16	A	16:A	_
+19	is	be	AUX	VBZ	_	18	Terminal	18:Terminal	_
+20	Our	we	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	Youth	youth	PROPN	NNP	_	18	Terminal	18:Terminal	_
+22	.	.	PUNCT	.	_	18	U	18:U	_
+

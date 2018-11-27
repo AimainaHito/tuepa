@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25521006
+# text = Der Ozean bedeckte anfangs alles .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Ozean	Ozean	PROPN	NE	_	3	A	3:A	_
+3	bedeckte	bedecken	VERB	VVFIN	_	0	H	0:H	_
+4	anfangs	anfangs	ADV	ADV	_	3	D	3:D	_
+5	alles	alle	PRON	PIS	_	3	A	3:A	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

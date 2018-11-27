@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 642002
+# text = Ono scattered his ashes in New York 's Central Park , where the Strawberry Fields memorial was later created .
+1	Ono	Ono	PROPN	NNP	_	2	A	2:A	_
+2	scattered	scatter	VERB	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	ashes	ash	NOUN	NNS	_	2	A	2:A	_
+5	in	in	ADP	IN	_	9	R	9:R	_
+6	New	New	PROPN	NNP	_	9	E	9:E	_
+7	York	York	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	's	's	PART	POS	_	6	R	6:R	_
+9	Central	Central	PROPN	NNP	_	2	A	2:A	_
+10	Park	Park	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	where	where	ADV	WRB	_	2	L	2:L	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	Strawberry	Strawberry	PROPN	NNP	_	16	E	16:E	_
+15	Fields	fields	PROPN	NNPS	_	14	Terminal	14:Terminal	_
+16	memorial	memorial	NOUN	NN	_	19	A	19:A	_
+17	was	be	AUX	VBD	_	19	F	19:F	_
+18	later	later	ADV	RB	_	19	D	19:D	_
+19	created	create	VERB	VBN	_	2	H	2:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

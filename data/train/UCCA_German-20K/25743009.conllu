@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25743009
+# text = In einer Höhe von etwa 30 Meter änderte sich die Beschaffenheit des Bodens , ohne dass er darum bequemer zu passieren wurde .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	einer	ein	DET	ART	_	3	E	3:E	_
+3	Höhe	Höhe	NOUN	NN	_	8	A	8:A	_
+4	von	von	ADP	NE	_	3	R	3:R	_
+5	etwa	etwa	ADV	ADV	_	7	E	7:E	_
+6	30	30	NUM	CARD	_	7	E	7:E	_
+7	Meter	Meter	NOUN	NN	_	3	E	3:E	_
+8	änderte	ändern	VERB	VVFIN	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Beschaffenheit	Beschaffenheit	NOUN	NN	_	8	A	8:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Bodens	Boden	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	8	U	8:U	_
+15	ohne	ohne	ADP	CARD	_	8	L	8:L	_
+16	dass	dass	SCONJ	KOUS	_	15	Terminal	15:Terminal	_
+17	er	er	PRON	PPER	_	19	A	19:A|21:A	_
+18	darum	darum	ADV	PAV	_	19	A	19:A	_
+19	bequemer	bequem	ADJ	ADJA	_	8	H	8:H	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	passieren	passieren	VERB	VVINF	_	19	A	19:A	_
+22	wurde	werden	AUX	TRUNC	_	19	F	19:F	_
+23	.	.	PUNCT	$.	_	19	U	19:U	_
+

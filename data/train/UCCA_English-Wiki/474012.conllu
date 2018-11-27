@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 474012
+# text = Coming off the bench , Johnson had 19 points , 8 rebounds , and 10 assists to help the Lakers to a 128 - 118 victory .
+1	Coming	come	VERB	VBG	_	0	H	0:H	_
+2	off	off	ADP	IN	_	1	Terminal	1:Terminal	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	bench	bench	NOUN	NN	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	Johnson	Johnson	PROPN	NNP	_	7	A	7:A|1:A	_
+7	had	have	VERB	VBD	_	1	H	1:H	_
+8	19	19	NUM	CD	_	9	E	9:E	_
+9	points	point	NOUN	NNS	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	8	8	NUM	CD	_	12	E	12:E	_
+12	rebounds	rebound	NOUN	NNS	_	9	C	9:C	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	and	and	CCONJ	CC	_	9	N	9:N	_
+15	10	10	NUM	CD	_	16	E	16:E	_
+16	assists	assist	NOUN	NNS	_	9	C	9:C	_
+17	to	to	PART	TO	_	1	L	1:L	_
+18	help	help	VERB	VB	_	1	H	1:H	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Lakers	Laker	NOUN	NNS	_	18	A	18:A	_
+21	to	to	ADP	IN	_	26	R	26:R	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	128	128	NUM	CD	_	26	E	26:E	_
+24	-	-	SYM	SYM	_	23	U	23:U	_
+25	118	118	NUM	CD	_	23	Terminal	23:Terminal	_
+26	victory	victory	NOUN	NN	_	18	A	18:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

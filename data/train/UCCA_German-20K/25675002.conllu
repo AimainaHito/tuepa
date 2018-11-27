@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25675002
+# text = Sodann wollte mir doch die Gleichgültigkeit nicht behagen , womit der Kapitän diese leidige Einladung gemacht hatte !
+1	Sodann	Sodann	ADV	ADV	_	8	L	8:L	_
+2	wollte	wollen	AUX	VMFIN	_	8	D	8:D	_
+3	mir	ich	PRON	PPER	_	8	A	8:A	_
+4	doch	doch	ADV	ADV	_	8	D	8:D	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Gleichgültigkeit	Gleichgültigkeit	NOUN	NN	_	8	A	8:A	_
+7	nicht	nicht	PART	XY	_	8	D	8:D	_
+8	behagen	behagen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	womit	womit	PRON	VVFIN	_	16	R	16:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kapitän	Kapitän	NOUN	NN	_	16	A	16:A	_
+13	diese	dies	PRON	PDAT	_	15	E	15:E	_
+14	leidige	leidig	ADJ	ADJA	_	15	E	15:E	_
+15	Einladung	Einladung	NOUN	NN	_	16	A	16:A	_
+16	gemacht	brauchen|gemachen	VERB	VVPP	_	6	E	6:E	_
+17	hatte	haben	AUX	VAFIN	_	16	F	16:F	_
+18	!	!	PUNCT	$.	_	16	U	16:U	_
+

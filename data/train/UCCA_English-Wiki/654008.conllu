@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 654008
+# text = His mother taught him how to play the banjo , later buying him an acoustic guitar .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	mother	mother	NOUN	NN	_	3	A	3:A|12:A	_
+3	taught	teach	VERB	VBD	_	0	H	0:H	_
+4	him	he	PRON	PRP	_	3	A	3:A|7:A	_
+5	how	how	ADV	WRB	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	play	play	VERB	VB	_	3	A	3:A	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	banjo	banjo	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	later	later	ADV	RB	_	3	L	3:L	_
+12	buying	buy	VERB	VBG	_	3	H	3:H	_
+13	him	he	PRON	PRP	_	12	A	12:A	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	acoustic	acoustic	ADJ	JJ	_	16	E	16:E	_
+16	guitar	guitar	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

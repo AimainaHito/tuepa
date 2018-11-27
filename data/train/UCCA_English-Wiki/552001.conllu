@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 552001
+# text = Shortly after losing his way in the building that housed his own office , Warner retired .
+1	Shortly	shortly	ADV	RB	_	2	E	2:E	_
+2	after	after	SCONJ	IN	_	3	L	3:L	_
+3	losing	lose	VERB	VBG	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	way	way	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	building	building	NOUN	NN	_	3	A	3:A	_
+9	that	that	PRON	WDT	_	10	F	10:F	_
+10	housed	house	VERB	VBD	_	8	E	8:E	_
+11	his	he	PRON	PRP$	_	13	E	13:E	_
+12	own	own	ADJ	JJ	_	13	E	13:E	_
+13	office	office	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	Warner	Warner	PROPN	NNP	_	16	A	16:A|3:A	_
+16	retired	retire	VERB	VBD	_	3	H	3:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

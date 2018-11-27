@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 91003
+# text = Ils ne virent rien , si ce n' est un fort remous qui brisait à trois encablures , comme si les nappes liquides eussent été violemment battues .
+1	Ils	il	PRON	_	_	3	A	3:A|12:A	_
+2	ne	ne	ADV	_	_	3	D	3:D	_
+3	virent	voir	VERB	_	_	0	H	0:H	_
+4	rien	rien	PRON	_	_	3	A	3:A	_
+5	,	,	PUNCT	_	_	3	U	3:U	_
+6	si	si	SCONJ	_	_	3	L	3:L	_
+7	ce	ce	PRON	_	_	6	Terminal	6:Terminal	_
+8	n'	ne	ADV	_	_	6	Terminal	6:Terminal	_
+9	est	être	AUX	_	_	6	Terminal	6:Terminal	_
+10	un	un	DET	_	_	12	E	12:E	_
+11	fort	fort	ADJ	_	_	12	E	12:E	_
+12	remous	remous	NOUN	_	_	3	H	3:H	_
+13	qui	qui	PRON	_	_	14	R	14:R	_
+14	brisait	briser	VERB	_	_	12	E	12:E	_
+15	à	à	ADP	_	_	17	R	17:R	_
+16	trois	trois	NUM	_	_	17	E	17:E	_
+17	encablures	encablure	NOUN	_	_	14	A	14:A	_
+18	,	,	PUNCT	_	_	3	U	3:U	_
+19	comme	comme	ADP	_	_	3	L	3:L	_
+20	si	si	SCONJ	_	_	19	Terminal	19:Terminal	_
+21	les	le	DET	_	_	22	E	22:E	_
+22	nappes	nappe	NOUN	_	_	27	A	27:A	_
+23	liquides	liquide	ADJ	_	_	22	E	22:E	_
+24	eussent	eusser	VERB	_	_	27	F	27:F	_
+25	été	être	AUX	_	_	27	F	27:F	_
+26	violemment	violemment	ADV	_	_	27	D	27:D	_
+27	battues	battre	VERB	_	_	3	H	3:H	_
+28	.	.	PUNCT	_	_	27	U	27:U	_
+

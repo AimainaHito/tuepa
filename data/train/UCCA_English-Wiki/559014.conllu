@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 559014
+# text = At the time , Presley was variously billed as " The King of Western Bop " , " The Hillbilly Cat " , and " The Memphis Flash " .
+1	At	at	ADP	IN	_	8	D	8:D	_
+2	the	the	DET	DT	_	1	Terminal	1:Terminal	_
+3	time	time	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Presley	Presley	PROPN	NNP	_	8	A	8:A	_
+6	was	be	AUX	VBD	_	8	F	8:F	_
+7	variously	variously	ADV	RB	_	8	D	8:D	_
+8	billed	bill	VERB	VBN	_	0	H	0:H	_
+9	as	as	ADP	IN	_	11	R	11:R	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	The	the	DET	DT	_	8	A	8:A	_
+12	King	King	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	of	of	ADP	IN	_	11	Terminal	11:Terminal	_
+14	Western	western	ADJ	JJ	_	11	Terminal	11:Terminal	_
+15	Bop	Bop	PROPN	NNP	_	11	Terminal	11:Terminal	_
+16	"	"	PUNCT	''	_	11	U	11:U	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	"	"	PUNCT	``	_	11	U	11:U	_
+19	The	the	DET	DT	_	11	C	11:C	_
+20	Hillbilly	Hillbilly	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Cat	Cat	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	"	"	PUNCT	''	_	11	U	11:U	_
+23	,	,	PUNCT	,	_	11	U	11:U	_
+24	and	and	CCONJ	CC	_	11	N	11:N	_
+25	"	"	PUNCT	``	_	11	U	11:U	_
+26	The	the	DET	DT	_	11	C	11:C	_
+27	Memphis	Memphis	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	Flash	Flash	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	"	"	PUNCT	''	_	11	U	11:U	_
+30	.	.	PUNCT	.	_	11	U	11:U	_
+

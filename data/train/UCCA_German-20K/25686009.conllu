@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25686009
+# text = Er wies mit der Hand auf einen Punkt hin , und ich schaute aufmerksam .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	wies	weisen	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Hand	Hand	NOUN	NN	_	2	A	2:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	einen	ein	DET	ART	_	8	E	8:E	_
+8	Punkt	Punkt	NOUN	NN	_	2	A	2:A	_
+9	hin	hin	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	schaute	schauen	VERB	VVFIN	_	2	H	2:H	_
+14	aufmerksam	aufmerksam	ADJ	ADJD	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

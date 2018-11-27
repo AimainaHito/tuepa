@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25705005
+# text = Das Boot kam herbei , nahm ihn ins Schlepptau und kehrte zur ›Nautilus‹ zurück .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	0	C	0:C|6:A|11:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	herbei	herbei	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	nahm	nehmen	VERB	VVFIN	_	3	H	3:H	_
+7	ihn	er	PRON	PPER	_	6	A	6:A	_
+8	ins	in	DET	NE	_	9	R	9:R	_
+9	Schlepptau	Schlepptau	PROPN	NE	_	6	A	6:A	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	kehrte	kehren	VERB	VVFIN	_	3	H	3:H	_
+12	zur	zur	ADV	NE	_	13	R	13:R	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	11	A	11:A	_
+14	zurück	zurück	ADV	ADJA	_	11	Terminal	11:Terminal	_
+15	.	.	PUNCT	$.	_	11	U	11:U	_
+

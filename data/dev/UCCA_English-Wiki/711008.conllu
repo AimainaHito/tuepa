@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 711008
+# text = The film polarised critics : many dismissed it as an " incoherent mess " ; a few treated it as a serious work of art .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	polarised	polarise	VERB	VBN	_	0	H	0:H	_
+4	critics	critic	NOUN	NNS	_	3	A	3:A	_
+5	:	:	PUNCT	:	_	3	U	3:U	_
+6	many	many	ADJ	JJ	_	7	A	7:A	_
+7	dismissed	dismiss	VERB	VBD	_	3	H	3:H	_
+8	it	it	PRON	PRP	_	7	A	7:A	_
+9	as	as	ADP	IN	_	13	R	13:R	_
+10	an	a	DET	DT	_	13	E	13:E	_
+11	"	"	PUNCT	``	_	13	U	13:U	_
+12	incoherent	incoherent	NOUN	NN	_	13	E	13:E	_
+13	mess	mess	NOUN	NN	_	7	A	7:A	_
+14	"	"	PUNCT	''	_	3	U	3:U	_
+15	;	;	PUNCT	,	_	3	U	3:U	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	few	few	ADJ	JJ	_	18	A	18:A	_
+18	treated	treat	VERB	VBN	_	3	H	3:H	_
+19	it	it	PRON	PRP	_	18	A	18:A	_
+20	as	as	ADP	IN	_	23	R	23:R	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	serious	serious	ADJ	JJ	_	23	E	23:E	_
+23	work	work	NOUN	NN	_	18	A	18:A	_
+24	of	of	ADP	IN	_	23	R	23:R	_
+25	art	art	NOUN	NN	_	23	C	23:C	_
+26	.	.	PUNCT	.	_	23	U	23:U	_
+

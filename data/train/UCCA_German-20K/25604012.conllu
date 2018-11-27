@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25604012
+# text = Während des 11 . Dezember war ich im großen Saal mit Lesen beschäftigt .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	des	der	DET	ART	_	3	E	3:E	_
+3	11	11	NUM	CARD	_	13	D	13:D	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+5	Dezember	Dezember	PROPN	NN	_	3	Terminal	3:Terminal	_
+6	war	sein	AUX	ADV	_	13	F	13:F	_
+7	ich	ich	PRON	PPER	_	13	A	13:A|12:A	_
+8	im	im	ADV	NE	_	10	R	10:R	_
+9	großen	groß	ADJ	ADJA	_	10	E	10:E	_
+10	Saal	Saal	NOUN	NN	_	13	A	13:A	_
+11	mit	mit	ADP	APPR	_	12	R	12:R	_
+12	Lesen	Lese|Lesen	NOUN	NN	_	13	A	13:A	_
+13	beschäftigt	beschäftigen	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

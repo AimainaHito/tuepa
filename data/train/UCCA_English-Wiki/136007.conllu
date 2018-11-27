@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 136007
+# text = Hepburn went on to make the sports comedy Pat and Mike ( 1952 ) , the second film written specifically as a Tracy - Hepburn vehicle by Kanin and Gordon .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|5:A	_
+2	went	go	VERB	VBD	_	0	H	0:H	_
+3	on	on	ADV	RB	_	2	Terminal	2:Terminal	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	make	make	VERB	VB	_	2	A	2:A	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	sports	sport	NOUN	NNS	_	9	E	9:E	_
+8	comedy	comedy	VERB	VB	_	9	E	9:E	_
+9	Pat	Pat	PROPN	NNP	_	5	A	5:A	_
+10	and	and	CCONJ	CC	_	9	Terminal	9:Terminal	_
+11	Mike	Mike	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+13	1952	1952	NUM	CD	_	9	E	9:E	_
+14	)	)	PUNCT	-RRB-	_	9	U	9:U	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	second	second	ADJ	JJ	_	18	E	18:E	_
+18	film	film	NOUN	NN	_	19	A	19:A	_
+19	written	write	VERB	VBN	_	9	E	9:E	_
+20	specifically	specifically	ADV	RB	_	19	D	19:D	_
+21	as	as	ADP	IN	_	26	R	26:R	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	Tracy	Tracy	PROPN	NNP	_	26	E	26:E	_
+24	-	-	PUNCT	HYPH	_	23	U	23:U	_
+25	Hepburn	Hepburn	PROPN	NNP	_	23	C	23:C	_
+26	vehicle	vehicle	NOUN	NN	_	19	A	19:A	_
+27	by	by	ADP	IN	_	28	R	28:R	_
+28	Kanin	Kanin	PROPN	NNP	_	19	A	19:A	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	Gordon	Gordon	PROPN	NNP	_	28	C	28:C	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

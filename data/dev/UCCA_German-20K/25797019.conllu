@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25797019
+# text = » Und du , lieber Conseil , hast recht zu leiden gehabt . «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Und	Und	PROPN	NE	_	11	R	11:R	_
+3	du	du	PROPN	NE	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	11	U	11:U	_
+5	lieber	lieber	PROPN	ADV	_	6	E	6:E	_
+6	Conseil	Conseil	PROPN	NE	_	11	G	11:G	_
+7	,	,	PUNCT	$,	_	11	U	11:U	_
+8	hast	haben	VERB	VAFIN	_	11	F	11:F	_
+9	recht	recht	ADV	NE	_	11	D	11:D	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	leiden	leiden	VERB	VVINF	_	0	H	0:H	_
+12	gehabt	haben	VERB	VAPP	_	11	D	11:D	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+14	«	«	PUNCT	$(	_	11	U	11:U	_
+

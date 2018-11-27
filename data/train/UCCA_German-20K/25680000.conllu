@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25680000
+# text = » Es handelt sich also ... ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Es	es	PRON	PPER	_	3	A	3:A	_
+3	handelt	handeln	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	also	also	ADV	ADV	_	3	D	3:D	_
+6	...	...	PUNCT	$(	_	3	U	3:U	_
+7	?	?	PUNCT	$.	_	3	U	3:U	_
+8	«	«	PUNCT	$(	_	3	U	3:U	_
+

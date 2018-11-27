@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25771004
+# text = Wir fuhren immer in einer Diagonale aufwärts nach der Oberfläche , die im Widerschein der elektrischen Beleuchtung schimmerte .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	immer	immer	ADV	ADV	_	2	D	2:D	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	einer	ein	DET	ART	_	6	E	6:E	_
+6	Diagonale	Diagonale	NOUN	NN	_	2	A	2:A	_
+7	aufwärts	aufwärts	ADV	ADV	_	2	D	2:D	_
+8	nach	nach	ADP	CARD	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Oberfläche	Oberfläche	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	PRON	ART	_	18	R	18:R	_
+13	im	im	ADV	NN	_	14	R	14:R	_
+14	Widerschein	Widerschein	NOUN	NN	_	18	A	18:A	_
+15	der	der	DET	ART	_	17	R	17:R	_
+16	elektrischen	elektrisch	ADJ	ADJA	_	17	E	17:E	_
+17	Beleuchtung	Beleuchtung	NOUN	NN	_	14	A	14:A	_
+18	schimmerte	schimmeren	VERB	VVFIN	_	10	E	10:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

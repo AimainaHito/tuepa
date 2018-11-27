@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25489096
+# text = » Es sind Schurken ... « » Gut ! Und aus welchem Land ?
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Es	es	PRON	PPER	_	3	A	3:A	_
+3	sind	sein	AUX	NN	_	0	S	0:S|13:S	_
+4	Schurken	Schurk	NOUN	NE	_	3	A	3:A|13:A	_
+5	...	...	PUNCT	$(	_	8	U	8:U	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	»	»	PUNCT	$(	_	8	U	8:U	_
+8	Gut	gut	NOUN	ADJD	_	3	H	3:H	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+10	Und	und	CCONJ	NN	_	8	L	8:L	_
+11	aus	aus	ADP	APPR	_	13	R	13:R	_
+12	welchem	welch	PRON	PWAT	_	13	E	13:E	_
+13	Land	Land	NOUN	NN	_	8	H	8:H	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+

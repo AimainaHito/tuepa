@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25480007
+# text = » Ingenieur « , rief er sodann , » erhöhen Sie den Dampf . «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Ingenieur	Ingenieur	NOUN	NN	_	10	G	10:G	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	sodann	sodann	ADV	ADV	_	5	L	5:L	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	erhöhen	erhöhen	VERB	VVFIN	_	5	A	5:A	_
+11	Sie	Sie|sie	PRON	PPER	_	10	A	10:A	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Dampf	Dampf	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	«	«	PUNCT	$(	_	13	U	13:U	_
+

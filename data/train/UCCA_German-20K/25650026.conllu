@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25650026
+# text = Die Entzündung des Gehirns war vollständig und hatte die Lähmung des Gefühls und der Bewegung zur Folge .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Entzündung	Entzündung	NOUN	NN	_	0	C	0:C|16:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Gehirns	Gehirn	NOUN	NN	_	2	E	2:E	_
+5	war	sein	AUX	ADV	_	6	F	6:F	_
+6	vollständig	vollständig	ADJ	ADJD	_	0	H	0:H	_
+7	und	und	CCONJ	NE	_	6	L	6:L	_
+8	hatte	haben	VERB	VAFIN	_	16	F	16:F	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Lähmung	Lähmung	NOUN	NN	_	16	A	16:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Gefühls	Gefühl	NOUN	NN	_	10	A	10:A	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Bewegung	Bewegung	NOUN	NN	_	12	C	12:C	_
+16	zur	zur	ADP	NE	_	6	H	6:H	_
+17	Folge	Folge	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

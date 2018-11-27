@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 506004
+# text = Released as a single , the song became a top 40 hit in the UK and US .
+1	Released	release	VERB	VBD	_	0	H	0:H	_
+2	as	as	ADP	IN	_	4	R	4:R	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	single	single	ADJ	JJ	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	song	song	NOUN	NN	_	8	A	8:A	_
+8	became	become	VERB	VBD	_	1	H	1:H	_
+9	a	a	DET	DT	_	12	E	12:E	_
+10	top	top	ADJ	JJ	_	12	E	12:E	_
+11	40	40	NUM	CD	_	10	E	10:E	_
+12	hit	hit	NOUN	NN	_	8	A	8:A	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	UK	UK	PROPN	NNP	_	8	A	8:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	US	US	PROPN	NNP	_	15	C	15:C	_
+18	.	.	PUNCT	.	_	15	U	15:U	_
+

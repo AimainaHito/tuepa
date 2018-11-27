@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 550015
+# text = In a note to author Dean Jennings , who assisted Warner on his 1964 autobiography , My First Hundred Years in Hollywood , Ann Warner wrote : " He is extremely sensitive , but there are few who know that because he covers it with a cloak . "
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	note	note	NOUN	NN	_	26	A	26:A	_
+4	to	to	ADP	IN	_	6	R	6:R	_
+5	author	author	NOUN	NN	_	6	E	6:E	_
+6	Dean	dean	PROPN	NNP	_	3	E	3:E	_
+7	Jennings	Jennings	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	who	who	PRON	WP	_	10	F	10:F	_
+10	assisted	assist	VERB	VBD	_	6	E	6:E	_
+11	Warner	Warner	PROPN	NNP	_	10	A	10:A	_
+12	on	on	ADP	IN	_	17	R	17:R	_
+13	his	he	PRON	PRP$	_	15	E	15:E	_
+14	1964	1964	NUM	CD	_	15	E	15:E	_
+15	autobiography	autobiography	NOUN	NN	_	17	E	17:E	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	My	my	PRON	PRP$	_	10	A	10:A	_
+18	First	first	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Hundred	hundred	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	Years	year	PROPN	NNPS	_	17	Terminal	17:Terminal	_
+21	in	in	ADP	IN	_	17	Terminal	17:Terminal	_
+22	Hollywood	Hollywood	PROPN	NNP	_	17	Terminal	17:Terminal	_
+23	,	,	PUNCT	,	_	26	U	26:U	_
+24	Ann	Ann	PROPN	NNP	_	26	A	26:A	_
+25	Warner	Warner	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	wrote	write	VERB	VBD	_	0	H	0:H	_
+27	:	:	PUNCT	:	_	26	U	26:U	_
+28	"	"	PUNCT	``	_	26	U	26:U	_
+29	He	he	PRON	PRP	_	32	A	32:A	_
+30	is	be	AUX	VBZ	_	32	F	32:F	_
+31	extremely	extremely	ADV	RB	_	32	D	32:D	_
+32	sensitive	sensitive	ADJ	JJ	_	26	A	26:A	_
+33	,	,	PUNCT	,	_	32	U	32:U	_
+34	but	but	CCONJ	CC	_	32	L	32:L	_
+35	there	there	PRON	EX	_	36	F	36:F	_
+36	are	be	VERB	VBP	_	32	H	32:H	_
+37	few	few	ADJ	JJ	_	36	A	36:A	_
+38	who	who	PRON	WP	_	39	F	39:F	_
+39	know	know	VERB	VBP	_	37	E	37:E	_
+40	that	that	SCONJ	IN	_	39	A	39:A	_
+41	because	because	SCONJ	IN	_	32	L	32:L	_
+42	he	he	PRON	PRP	_	43	A	43:A	_
+43	covers	cover	VERB	VBZ	_	32	H	32:H	_
+44	it	it	PRON	PRP	_	43	A	43:A	_
+45	with	with	ADP	IN	_	47	R	47:R	_
+46	a	a	DET	DT	_	47	E	47:E	_
+47	cloak	cloak	NOUN	NN	_	43	A	43:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+49	"	"	PUNCT	''	_	47	U	47:U	_
+

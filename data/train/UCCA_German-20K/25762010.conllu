@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25762010
+# text = Wollte sie bis zum Pol dringen ?
+1	Wollte	wollen	AUX	VMFIN	_	6	D	6:D	_
+2	sie	sie	PRON	ADV	_	6	A	6:A	_
+3	bis	bis	ADP	APPR	_	5	R	5:R	_
+4	zum	zum	ADP	NN	_	3	Terminal	3:Terminal	_
+5	Pol	pol	PROPN	NE	_	6	A	6:A	_
+6	dringen	dringen	VERB	VVFIN	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 636016
+# text = Between 1969 and 1970 , Lennon released the singles " Give Peace a Chance " ( widely adopted as an anti - Vietnam - War anthem in 1969 ) , " Cold Turkey " ( documenting his withdrawal symptoms after he became addicted to heroin ) and " Instant Karma ! " .
+1	Between	between	ADP	IN	_	2	R	2:R	_
+2	1969	1969	NUM	CD	_	7	D	7:D	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	1970	1970	NUM	CD	_	2	C	2:C	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	Lennon	Lennon	PROPN	NNP	_	7	A	7:A	_
+7	released	release	VERB	VBD	_	0	H	0:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	singles	singles	NOUN	NNS	_	7	A	7:A	_
+10	"	"	PUNCT	``	_	9	U	9:U	_
+11	Give	Give	PROPN	NNP	_	9	E	9:E	_
+12	Peace	peace	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	a	a	DET	DT	_	11	Terminal	11:Terminal	_
+14	Chance	chance	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	"	"	PUNCT	''	_	11	U	11:U	_
+16	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+17	widely	widely	ADV	RB	_	18	D	18:D	_
+18	adopted	adopt	VERB	VBN	_	11	E	11:E	_
+19	as	as	ADP	IN	_	26	R	26:R	_
+20	an	a	DET	DT	_	26	E	26:E	_
+21	anti	anti	X	AFX	_	25	E	25:E	_
+22	-	-	PUNCT	HYPH	_	25	U	25:U	_
+23	Vietnam	Vietnam	PROPN	NNP	_	25	E	25:E	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	War	War	PROPN	NNP	_	26	E	26:E	_
+26	anthem	anthey	NOUN	NN	_	18	A	18:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	1969	1969	NUM	CD	_	18	D	18:D	_
+29	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+30	,	,	PUNCT	,	_	11	U	11:U	_
+31	"	"	PUNCT	``	_	11	U	11:U	_
+32	Cold	cold	PROPN	NNP	_	11	C	11:C	_
+33	Turkey	Turkey	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	"	"	PUNCT	''	_	32	U	32:U	_
+35	(	(	PUNCT	-LRB-	_	32	U	32:U	_
+36	documenting	document	VERB	VBG	_	32	E	32:E	_
+37	his	he	PRON	PRP$	_	39	E	39:E	_
+38	withdrawal	withdrawal	ADJ	JJ	_	39	E	39:E	_
+39	symptoms	symptom	NOUN	NNS	_	36	A	36:A	_
+40	after	after	SCONJ	IN	_	36	L	36:L	_
+41	he	he	PRON	PRP	_	43	A	43:A	_
+42	became	become	VERB	VBD	_	43	D	43:D	_
+43	addicted	addict	ADJ	JJ	_	36	H	36:H	_
+44	to	to	PART	TO	_	45	R	45:R	_
+45	heroin	heroin	VERB	VB	_	43	A	43:A	_
+46	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+47	and	and	CCONJ	CC	_	11	N	11:N	_
+48	"	"	PUNCT	``	_	11	U	11:U	_
+49	Instant	instant	PROPN	NNP	_	11	C	11:C	_
+50	Karma	karma	PROPN	NNP	_	49	Terminal	49:Terminal	_
+51	!	!	PUNCT	.	_	11	U	11:U	_
+52	"	"	PUNCT	''	_	11	U	11:U	_
+53	.	.	PUNCT	.	_	11	U	11:U	_
+

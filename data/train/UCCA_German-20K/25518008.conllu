@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25518008
+# text = « » Keine , mein Herr . Aber Ihr Zusammenstoß mit der ›Abraham Lincoln‹ ... ? «
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Keine	keine	PROPN	PIAT	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	NOUN	NN	_	3	G	3:G	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+8	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+9	Ihr	Ihr|ihr	PRON	PPOSAT	_	10	A	10:A	_
+10	Zusammenstoß	Zusammenstoß	NOUN	NN	_	3	H	3:H	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	›Abraham	›Abraham	PROPN	NE	_	10	A	10:A	_
+14	Lincoln‹	Lincoln‹	NOUN	NE	_	13	Terminal	13:Terminal	_
+15	...	...	PUNCT	$(	_	13	U	13:U	_
+16	?	?	PUNCT	$.	_	13	U	13:U	_
+17	«	«	PUNCT	$(	_	13	U	13:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25680024
+# text = Fünf Matrosen der ›Nautilus‹ warteten , die Ruder in der Hand , in dem Nachen , der mit einem Tau an Bord befestigt war .
+1	Fünf	fünf	NUM	CARD	_	2	E	2:E	_
+2	Matrosen	Matrose	NOUN	NN	_	5	A	5:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	2	E	2:E	_
+5	warteten	warten	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Ruder	Ruder	NOUN	NN	_	5	H	5:H	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Hand	Hand	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	dem	der	DET	PRELS	_	15	E	15:E	_
+15	Nachen	Nachen	NOUN	NE	_	5	A	5:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	der	der	PRON	PRELS	_	23	R	23:R	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Tau	Tau	NOUN	NN	_	23	A	23:A	_
+21	an	an	ADP	APPR	_	22	R	22:R	_
+22	Bord	Bord	NOUN	NN	_	23	A	23:A	_
+23	befestigt	befestigen	VERB	VVPP	_	15	E	15:E	_
+24	war	sein	AUX	ADV	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

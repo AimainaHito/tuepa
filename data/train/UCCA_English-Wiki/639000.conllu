@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 639000
+# text = Recorded as a collaboration with Ono and with backing from the New York band Elephant 's Memory , Some Time in New York City was released in 1972 .
+1	Recorded	record	VERB	VBD	_	19	E	19:E	_
+2	as	as	ADP	IN	_	4	R	4:R	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	collaboration	collaboration	NOUN	NN	_	1	A	1:A	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Ono	Ono	PROPN	NNP	_	4	A	4:A	_
+7	and	and	CCONJ	CC	_	1	L	1:L	_
+8	with	with	SCONJ	IN	_	7	Terminal	7:Terminal	_
+9	backing	back	VERB	VBG	_	1	H	1:H	_
+10	from	from	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	New	New	PROPN	NNP	_	14	E	14:E	_
+13	York	York	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	band	band	PROPN	NNP	_	15	E	15:E	_
+15	Elephant	elephant	PROPN	NNP	_	9	A	9:A	_
+16	's	's	PART	POS	_	15	Terminal	15:Terminal	_
+17	Memory	memory	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	,	,	PUNCT	,	_	9	U	9:U	_
+19	Some	some	PROPN	NNP	_	26	A	26:A	_
+20	Time	time	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	in	in	ADP	IN	_	19	Terminal	19:Terminal	_
+22	New	New	PROPN	NNP	_	19	Terminal	19:Terminal	_
+23	York	York	PROPN	NNP	_	19	Terminal	19:Terminal	_
+24	City	City	PROPN	NNP	_	19	Terminal	19:Terminal	_
+25	was	be	AUX	VBD	_	26	F	26:F	_
+26	released	release	VERB	VBN	_	0	H	0:H	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	1972	1972	NUM	CD	_	26	D	26:D	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

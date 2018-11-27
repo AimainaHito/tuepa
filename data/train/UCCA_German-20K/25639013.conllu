@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25639013
+# text = In 10 Minuten musste die Flut auf ihrem Höhestand sein , und hätte Kapitän Nemo nicht ein unbesonnenes Versprechen gegeben , so würde die " Nautilus " unverzüglich flott sein .
+1	In	in	ADP	APPR	_	2	E	2:E	_
+2	10	10	NUM	CARD	_	9	D	9:D	_
+3	Minuten	Minute	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	musste	müssen	AUX	VVFIN	_	9	D	9:D	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Flut	Flut	NOUN	NN	_	9	A	9:A	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	ihrem	ihr	DET	PPOSAT	_	9	E	9:E	_
+9	Höhestand	Höhestand	NOUN	NN	_	0	H	0:H	_
+10	sein	sein	AUX	VAINF	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	und	und	CCONJ	NE	_	9	L	9:L	_
+13	hätte	haben	AUX	VAFIN	_	20	F	20:F	_
+14	Kapitän	Kapitän	PROPN	NN	_	15	E	15:E	_
+15	Nemo	Nemo	PROPN	NE	_	20	A	20:A	_
+16	nicht	nicht	PART	CARD	_	20	D	20:D	_
+17	ein	ein	DET	ART	_	19	E	19:E	_
+18	unbesonnenes	unbesonnen	ADJ	ADJA	_	19	E	19:E	_
+19	Versprechen	Versprechen	NOUN	NN	_	20	A	20:A	_
+20	gegeben	geben	VERB	VVPP	_	9	H	9:H	_
+21	,	,	PUNCT	$,	_	9	U	9:U	_
+22	so	so	ADV	ADV	_	9	L	9:L	_
+23	würde	werden	AUX	NN	_	29	F	29:F	_
+24	die	der	DET	ART	_	26	E	26:E	_
+25	"	"	PUNCT	$(	_	26	U	26:U	_
+26	Nautilus	Nautilus	PROPN	NE	_	29	A	29:A	_
+27	"	"	PUNCT	$(	_	29	U	29:U	_
+28	unverzüglich	unverzüglich	ADJ	ADJD	_	29	D	29:D	_
+29	flott	flott	ADJ	ADJD	_	9	H	9:H	_
+30	sein	sein	AUX	VAINF	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

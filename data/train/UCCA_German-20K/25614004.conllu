@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25614004
+# text = Es waren die Original instruktionen des Marine ministers für Kommandant La Pérouse , mit Rand bemerkungen von der Hand Ludwigs XVI .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Original	Original	NOUN	NN	_	5	E	5:E	_
+5	instruktionen	instruktionen	VERB	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	8	R	8:R	_
+7	Marine	Marine	NOUN	NN	_	8	E	8:E	_
+8	ministers	ministers	ADV	NN	_	5	A	5:A	_
+9	für	für	ADP	APPR	_	11	R	11:R	_
+10	Kommandant	Kommandant	NOUN	NN	_	11	E	11:E	_
+11	La	La	PROPN	NE	_	5	A	5:A	_
+12	Pérouse	Pérouse	PROPN	NE	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	Rand	Rand	NOUN	NN	_	16	E	16:E	_
+16	bemerkungen	bemerkung	ADJ	NN	_	5	E	5:E	_
+17	von	von	ADP	NE	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Hand	Hand	NOUN	NN	_	20	E	20:E	_
+20	Ludwigs	Ludwig	PROPN	NE	_	16	A	16:A	_
+21	XVI	Xvi	PROPN	NE	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

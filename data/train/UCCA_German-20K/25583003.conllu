@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25583003
+# text = Ich meinte , die " Nautilus " werde ihre unterseeische Fahrt fortsetzen , begab mich daher wieder zu der Luke , stieg hinab und ging in mein Zimmer .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|25:A|14:A|22:A	_
+2	meinte	meinen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	"	"	PUNCT	$(	_	6	U	6:U	_
+6	Nautilus	Nautilus	PROPN	NN	_	12	A	12:A	_
+7	"	"	PUNCT	$(	_	12	U	12:U	_
+8	werde	werden	AUX	NE	_	12	F	12:F	_
+9	ihre	ihr	DET	PPOSAT	_	11	E	11:E	_
+10	unterseeische	unterseeisch	ADJ	ADJA	_	11	E	11:E	_
+11	Fahrt	Fahrt	NOUN	NN	_	12	A	12:A	_
+12	fortsetzen	fortsetzen	VERB	VVINF	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	begab	begeben	VERB	VVFIN	_	2	H	2:H	_
+15	mich	ich	PRON	PPER	_	14	Terminal	14:Terminal	_
+16	daher	daher	ADV	PAV	_	2	L	2:L	_
+17	wieder	wieder	ADV	NN	_	14	D	14:D	_
+18	zu	zu	ADP	VVINF	_	20	R	20:R	_
+19	der	der	DET	ART	_	20	E	20:E	_
+20	Luke	Luke	NOUN	NN	_	14	A	14:A	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	stieg	steigen	VERB	VVFIN	_	2	H	2:H	_
+23	hinab	hinab	ADV	PTKVZ	_	22	Terminal	22:Terminal	_
+24	und	und	CCONJ	NE	_	2	L	2:L	_
+25	ging	gehen	VERB	VVFIN	_	2	H	2:H	_
+26	in	in	ADP	APPR	_	28	R	28:R	_
+27	mein	mein	PRON	PPOSAT	_	28	E	28:E	_
+28	Zimmer	Zimmer	NOUN	NN	_	25	A	25:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25632012
+# text = Es war in der Tat notwendig , den Rückzug an zu treten , denn etwa 20 Eingeborene , mit Bogen und Schleudern bewaffnet , zeigten sich am Rand eines Gehölzes , das kaum hundert Schritte weit den Horizont zur Rechten verdeckte .
+1	Es	es	PRON	PPER	_	10	A	10:A	_
+2	war	sein	AUX	ADV	_	10	F	10:F	_
+3	in	in	ADP	APPR	_	10	G	10:G	_
+4	der	der	DET	ART	_	3	Terminal	3:Terminal	_
+5	Tat	Tat	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	notwendig	notwendig	ADJ	NE	_	10	D	10:D	_
+7	,	,	PUNCT	$,	_	10	U	10:U	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Rückzug	Rückzug	NOUN	NN	_	10	A	10:A	_
+10	an	an	ADP	APPR	_	0	H	0:H	_
+11	zu	zu	PART	NE	_	10	F	10:F	_
+12	treten	treten	VERB	VVFIN	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	denn	denn	SCONJ	KON	_	10	L	10:L	_
+15	etwa	etwa	ADV	ADV	_	17	E	17:E	_
+16	20	20	NUM	CARD	_	17	E	17:E	_
+17	Eingeborene	Eingeborene	NOUN	NN	_	0	C	0:C|23:A	_
+18	,	,	PUNCT	$,	_	23	U	23:U	_
+19	mit	mit	ADP	APPR	_	20	R	20:R	_
+20	Bogen	Bogen	NOUN	NN	_	23	A	23:A	_
+21	und	und	CCONJ	NE	_	20	N	20:N	_
+22	Schleudern	schleudern	NOUN	NE	_	20	C	20:C	_
+23	bewaffnet	bewaffnet	VERB	VVPP	_	10	H	10:H	_
+24	,	,	PUNCT	$,	_	10	U	10:U	_
+25	zeigten	zeigen	VERB	VVFIN	_	10	H	10:H	_
+26	sich	er|es|sie	PRON	PRF	_	25	Terminal	25:Terminal	_
+27	am	am	ADJ	ADJD	_	28	R	28:R	_
+28	Rand	Rand	NOUN	NN	_	30	E	30:E	_
+29	eines	ein	DET	ART	_	30	R	30:R	_
+30	Gehölzes	Gehölzes	NOUN	NN	_	25	A	25:A	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	das	der	PRON	PRELS	_	41	R	41:R	_
+33	kaum	kaum	ADV	ADV	_	41	D	41:D	_
+34	hundert	hundert	NUM	CARD	_	35	E	35:E	_
+35	Schritte	Schritt	NOUN	NN	_	41	A	41:A	_
+36	weit	weit	ADJ	ADJD	_	41	D	41:D	_
+37	den	der	DET	ART	_	38	E	38:E	_
+38	Horizont	Horizont	NOUN	NN	_	41	A	41:A	_
+39	zur	zur	ADP	NE	_	40	R	40:R	_
+40	Rechten	Recht|Rechte	NOUN	ADJA	_	41	A	41:A	_
+41	verdeckte	verdecken	VERB	VVFIN	_	30	E	30:E	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

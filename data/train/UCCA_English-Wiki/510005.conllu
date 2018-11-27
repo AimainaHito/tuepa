@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 510005
+# text = Onstage in Oslo , Norway , on 18 June , Bowie was hit in the eye with a lollipop thrown by a fan ; a week later he suffered chest pain while performing at the Hurricane Festival in Scheeßel , Germany .
+1	Onstage	Onstage	NOUN	NN	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	Oslo	Oslo	PROPN	NNP	_	1	A	1:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Norway	Norway	PROPN	NNP	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	on	on	ADP	IN	_	9	R	9:R	_
+8	18	18	NUM	CD	_	9	E	9:E	_
+9	June	June	PROPN	NNP	_	1	D	1:D	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	Bowie	Bowie	PROPN	NNP	_	13	A	13:A|1:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	hit	hit	VERB	VBN	_	1	H	1:H	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	eye	eye	NOUN	NN	_	13	A	13:A	_
+17	with	with	ADP	IN	_	20	R	20:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	lollipop	lollipop	NOUN	NN	_	20	A	20:A	_
+20	thrown	throw	VERB	VBN	_	13	A	13:A	_
+21	by	by	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	fan	fan	NOUN	NN	_	20	A	20:A	_
+24	;	;	PUNCT	,	_	1	U	1:U	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	week	week	NOUN	NN	_	29	D	29:D	_
+27	later	later	ADV	RBR	_	26	R	26:R	_
+28	he	he	PRON	PRP	_	29	A	29:A|33:A	_
+29	suffered	suffer	VERB	VBD	_	1	H	1:H	_
+30	chest	chest	ADJ	JJS	_	31	E	31:E	_
+31	pain	pain	NOUN	NN	_	29	A	29:A	_
+32	while	while	SCONJ	IN	_	1	L	1:L	_
+33	performing	perform	VERB	VBG	_	1	H	1:H	_
+34	at	at	ADP	IN	_	37	E	37:E	_
+35	the	the	DET	DT	_	37	E	37:E	_
+36	Hurricane	Hurricane	PROPN	NNP	_	37	E	37:E	_
+37	Festival	Festival	PROPN	NNP	_	33	A	33:A	_
+38	in	in	ADP	IN	_	39	R	39:R	_
+39	Scheeßel	Scheeßel	PROPN	NNP	_	33	A	33:A	_
+40	,	,	PUNCT	,	_	39	U	39:U	_
+41	Germany	Germany	PROPN	NNP	_	39	E	39:E	_
+42	.	.	PUNCT	.	_	39	U	39:U	_
+

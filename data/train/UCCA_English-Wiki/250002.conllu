@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 250002
+# text = He then starred opposite Kristin Scott Thomas in Pawel Pawlikowski 's The Woman in the Fifth , a " lush puzzler " about an American novelist struggling to rebuild his life in Paris .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	then	then	ADV	RB	_	3	L	3:L	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	opposite	opposite	ADP	IN	_	5	R	5:R	_
+5	Kristin	Kristin	PROPN	NNP	_	3	A	3:A	_
+6	Scott	Scott	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Thomas	Thomas	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	in	in	ADP	IN	_	12	R	12:R	_
+9	Pawel	Pawel	PROPN	NNP	_	12	E	12:E	_
+10	Pawlikowski	Pawlikowski	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	's	's	PART	POS	_	9	R	9:R	_
+12	The	the	DET	DT	_	3	A	3:A	_
+13	Woman	woman	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	12	Terminal	12:Terminal	_
+15	the	the	DET	DT	_	12	Terminal	12:Terminal	_
+16	Fifth	fifth	PROPN	NNP	_	12	Terminal	12:Terminal	_
+17	,	,	PUNCT	,	_	12	U	12:U	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	"	"	PUNCT	``	_	21	U	21:U	_
+20	lush	lush	NOUN	NN	_	21	E	21:E	_
+21	puzzler	puzzler	NOUN	NN	_	12	E	12:E	_
+22	"	"	PUNCT	''	_	21	U	21:U	_
+23	about	about	ADP	IN	_	29	R	29:R	_
+24	an	a	DET	DT	_	26	E	26:E	_
+25	American	american	ADJ	JJ	_	26	E	26:E	_
+26	novelist	novelist	NOUN	NN	_	29	A	29:A	_
+27	struggling	struggle	VERB	VBG	_	29	D	29:D	_
+28	to	to	PART	TO	_	29	F	29:F	_
+29	rebuild	rebuild	VERB	VB	_	21	A	21:A	_
+30	his	he	PRON	PRP$	_	31	A	31:A	_
+31	life	life	NOUN	NN	_	29	A	29:A	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	Paris	Paris	PROPN	NNP	_	29	A	29:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

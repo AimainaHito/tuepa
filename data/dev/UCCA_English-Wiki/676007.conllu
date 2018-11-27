@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 676007
+# text = The song was made available for purchase via iTunes stores worldwide on May 6 , 2013 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	7	A	7:A	_
+3	was	be	AUX	VBD	_	7	F	7:F	_
+4	made	make	VERB	VBN	_	7	F	7:F	_
+5	available	available	ADJ	JJ	_	7	E	7:E	_
+6	for	for	ADP	IN	_	5	R	5:R	_
+7	purchase	purchase	NOUN	NN	_	0	H	0:H	_
+8	via	via	ADP	IN	_	10	R	10:R	_
+9	iTunes	iTunes	NOUN	NNS	_	10	E	10:E	_
+10	stores	store	NOUN	NNS	_	7	A	7:A	_
+11	worldwide	worldwide	ADV	RB	_	7	A	7:A	_
+12	on	on	ADP	IN	_	13	R	13:R	_
+13	May	May	PROPN	NNP	_	7	D	7:D	_
+14	6	6	NUM	CD	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	2013	2013	NUM	CD	_	13	Terminal	13:Terminal	_
+17	.	.	PUNCT	.	_	13	U	13:U	_
+

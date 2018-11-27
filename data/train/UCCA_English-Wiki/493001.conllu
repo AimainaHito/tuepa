@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 493001
+# text = " In the BBC 's 2002 poll of the 100 Greatest Britons , Bowie was placed at number 29 .
+1	"	"	PUNCT	``	_	16	U	16:U	_
+2	In	in	ADP	IN	_	7	R	7:R	_
+3	the	the	DET	DT	_	7	E	7:E	_
+4	BBC	BBC	PROPN	NNP	_	7	E	7:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	2002	2002	NUM	CD	_	7	E	7:E	_
+7	poll	poll	NOUN	NN	_	16	A	16:A	_
+8	of	of	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	100	100	NUM	CD	_	12	E	12:E	_
+11	Greatest	greatest	PROPN	NNP	_	12	E	12:E	_
+12	Britons	Briton	PROPN	NNPS	_	7	E	7:E	_
+13	,	,	PUNCT	,	_	16	U	16:U	_
+14	Bowie	Bowie	PROPN	NNP	_	16	A	16:A	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	placed	place	VERB	VBN	_	0	H	0:H	_
+17	at	at	ADP	IN	_	18	R	18:R	_
+18	number	number	NOUN	NN	_	16	A	16:A	_
+19	29	29	NUM	CD	_	18	E	18:E	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

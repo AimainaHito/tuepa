@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25592005
+# text = Die Sonnen strahlen fielen in ziemlich schiefem Winkel auf die Oberfläche des Meeres , und da ihr Licht durch Brechung wie durch ein Prisma sich zerteilte , so erschienen Blumen , Felsen , Pflänzchen , Muschel werk , Polypen am Rand mit den sieben Regenbogen farben geziert .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Sonnen	Sonne	NOUN	NN	_	3	E	3:E	_
+3	strahlen	strahlen	VERB	VVFIN	_	4	A	4:A	_
+4	fielen	fallen	VERB	VVFIN	_	0	H	0:H	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	ziemlich	ziemlich	ADV	ADV	_	7	E	7:E	_
+7	schiefem	schief	ADJ	ADJA	_	4	A	4:A	_
+8	Winkel	Winkel	NOUN	NN	_	7	C	7:C	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Oberfläche	Oberfläche	NOUN	NN	_	4	A	4:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Meeres	Meer	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	4	U	4:U	_
+15	und	und	CCONJ	NE	_	4	L	4:L	_
+16	da	da	SCONJ	ADV	_	4	L	4:L	_
+17	ihr	ihr	PRON	PPOSAT	_	18	E	18:E	_
+18	Licht	Licht	NOUN	NN	_	25	A	25:A	_
+19	durch	durch	ADP	APPR	_	20	R	20:R	_
+20	Brechung	Brechung	NOUN	NN	_	25	A	25:A	_
+21	wie	wie	ADP	ADV	_	24	R	24:R	_
+22	durch	durch	ADP	APPR	_	24	R	24:R	_
+23	ein	ein	DET	ART	_	24	E	24:E	_
+24	Prisma	Prisma	NOUN	NN	_	25	A	25:A	_
+25	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+26	zerteilte	zerteilen	VERB	VVFIN	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	$,	_	4	U	4:U	_
+28	so	so	ADV	ADV	_	4	L	4:L	_
+29	erschienen	erschien	ADJ	ADJA	_	4	H	4:H	_
+30	Blumen	Blume	NOUN	NN	_	47	A	47:A	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	Felsen	Felsen	NOUN	NN	_	30	C	30:C	_
+33	,	,	PUNCT	$,	_	30	U	30:U	_
+34	Pflänzchen	Pflänzchen	NOUN	NE	_	30	C	30:C	_
+35	,	,	PUNCT	$,	_	30	U	30:U	_
+36	Muschel	Muschel	NOUN	NE	_	37	E	37:E	_
+37	werk	werk	ADJ	NN	_	30	C	30:C	_
+38	,	,	PUNCT	$,	_	30	U	30:U	_
+39	Polypen	Polyp	NOUN	NN	_	30	C	30:C	_
+40	am	am	ADJ	NE	_	41	R	41:R	_
+41	Rand	Rand	NOUN	NE	_	47	A	47:A	_
+42	mit	mit	ADP	APPR	_	46	R	46:R	_
+43	den	der	DET	ART	_	46	E	46:E	_
+44	sieben	sieben	NUM	CARD	_	46	E	46:E	_
+45	Regenbogen	Regenboge	NOUN	NN	_	46	E	46:E	_
+46	farben	farben	ADJ	VVINF	_	47	A	47:A	_
+47	geziert	ziern	VERB	VVPP	_	29	A	29:A	_
+48	.	.	PUNCT	$.	_	47	U	47:U	_
+

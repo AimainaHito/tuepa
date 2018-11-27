@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25460012
+# text = Nun fuhr man in nordwestlicher Richtung , und die Fregatte lief endlich in den Pazifik ein .
+1	Nun	nun	ADV	ADV	_	2	D	2:D	_
+2	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	man	man	PRON	PIS	_	2	A	2:A	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	nordwestlicher	nordwestlich	ADJ	ADJA	_	6	E	6:E	_
+6	Richtung	Richtung	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Fregatte	Fregatte	NOUN	NN	_	11	A	11:A	_
+11	lief	laufen	VERB	VVFIN	_	2	H	2:H	_
+12	endlich	endlich	ADV	ADV	_	11	D	11:D	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Pazifik	Pazifik	PROPN	NN	_	11	A	11:A	_
+16	ein	ein	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+17	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25725025
+# text = Weshalb diese Veränderung ?
+1	Weshalb	weshalb	ADP	NN	_	0	H	0:H	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Veränderung	Veränderung	NOUN	NN	_	1	A	1:A	_
+4	?	?	PUNCT	$.	_	3	U	3:U	_
+

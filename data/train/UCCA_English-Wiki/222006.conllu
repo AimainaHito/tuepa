@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 222006
+# text = An operatically trained vocalist , Chan is also a Cantopop and Mandopop star , having released a number of albums and sung many of the theme songs for the films in which he has starred .
+1	An	a	DET	DT	_	4	E	4:E	_
+2	operatically	operatically	ADV	RB	_	3	E	3:E	_
+3	trained	train	VERB	VBN	_	4	E	4:E	_
+4	vocalist	vocalist	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Chan	Chan	PROPN	NNP	_	7	A	7:A|4:A|16:A|22:A	_
+7	is	be	AUX	VBZ	_	4	H	4:H	_
+8	also	also	ADV	RB	_	7	D	7:D	_
+9	a	a	DET	DT	_	13	E	13:E	_
+10	Cantopop	Cantopop	PROPN	NNP	_	13	E	13:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	Mandopop	Mandopop	PROPN	NNP	_	10	C	10:C	_
+13	star	star	NOUN	NN	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	having	have	AUX	VBG	_	4	L	4:L	_
+16	released	release	VERB	VBN	_	4	H	4:H	_
+17	a	a	DET	DT	_	20	E	20:E	_
+18	number	number	NOUN	NN	_	20	E	20:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	albums	album	NOUN	NNS	_	16	A	16:A	_
+21	and	and	CCONJ	CC	_	4	L	4:L	_
+22	sung	sung	VERB	VBD	_	4	H	4:H	_
+23	many	many	ADJ	JJ	_	27	E	27:E	_
+24	of	of	ADP	IN	_	23	R	23:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	theme	theme	NOUN	NN	_	27	E	27:E	_
+27	songs	song	NOUN	NNS	_	22	A	22:A	_
+28	for	for	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	films	film	NOUN	NNS	_	27	E	27:E	_
+31	in	in	ADP	IN	_	35	R	35:R	_
+32	which	which	PRON	WDT	_	35	F	35:F	_
+33	he	he	PRON	PRP	_	35	A	35:A	_
+34	has	have	AUX	VBZ	_	35	F	35:F	_
+35	starred	star	VERB	VBN	_	30	E	30:E	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

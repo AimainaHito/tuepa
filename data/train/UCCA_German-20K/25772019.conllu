@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25772019
+# text = Ich sah auch Myriaden von den 3 Zentimeter langen , niedlichen Clios , von denen der Walfisch eine ganze Welt auf einmal verschlingt .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	2	D	2:D	_
+4	Myriaden	Myriaden	NOUN	NE	_	12	E	12:E	_
+5	von	von	ADP	NN	_	12	R	12:R	_
+6	den	der	DET	ART	_	12	E	12:E	_
+7	3	3	NUM	CARD	_	8	E	8:E	_
+8	Zentimeter	Zentimeter	NOUN	NN	_	9	A	9:A	_
+9	langen	lang	ADJ	ADJA	_	12	E	12:E	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	niedlichen	niedlich	ADJ	ADJA	_	9	C	9:C	_
+12	Clios	Clios	PROPN	NE	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	von	von	ADP	NE	_	15	R	15:R	_
+15	denen	der	PRON	PRELS	_	23	R	23:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Walfisch	Walfisch	NOUN	NE	_	23	A	23:A	_
+18	eine	ein	DET	ART	_	20	E	20:E	_
+19	ganze	ganz	ADJ	ADJA	_	20	E	20:E	_
+20	Welt	Welt	NOUN	NN	_	23	A	23:A	_
+21	auf	auf	ADP	APPR	_	23	D	23:D	_
+22	einmal	einmal	ADV	ADV	_	21	Terminal	21:Terminal	_
+23	verschlingt	verschlingt	ADJ	ADV	_	12	E	12:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

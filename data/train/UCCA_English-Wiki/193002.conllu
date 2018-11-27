@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 193002
+# text = Wells took the concept and pitched it to the NBC network , but was told to wait because the facts behind the Lewinsky scandal were breaking and there was concern that an audience would not be able to take a show about the White House seriously .
+1	Wells	Wells	NOUN	NNS	_	2	A	2:A|15:A|6:A|17:A	_
+2	took	take	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	concept	concept	NOUN	NN	_	2	A	2:A	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	pitched	pitch	VERB	VBD	_	2	H	2:H	_
+7	it	it	PRON	PRP	_	6	A	6:A	_
+8	to	to	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	NBC	NBC	PROPN	NNP	_	11	E	11:E	_
+11	network	network	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	but	but	CCONJ	CC	_	2	L	2:L	_
+14	was	be	AUX	VBD	_	15	F	15:F	_
+15	told	tell	VERB	VBN	_	2	H	2:H	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	wait	wait	VERB	VB	_	15	A	15:A	_
+18	because	because	SCONJ	IN	_	2	L	2:L	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	facts	fact	NOUN	NNS	_	26	A	26:A	_
+21	behind	behind	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	Lewinsky	Lewinsky	PROPN	NNP	_	24	E	24:E	_
+24	scandal	scandal	NOUN	NN	_	20	E	20:E	_
+25	were	be	AUX	VBD	_	26	F	26:F	_
+26	breaking	break	VERB	VBG	_	2	H	2:H	_
+27	and	and	CCONJ	CC	_	2	L	2:L	_
+28	there	there	PRON	EX	_	30	F	30:F	_
+29	was	be	VERB	VBD	_	30	F	30:F	_
+30	concern	concern	NOUN	NN	_	2	H	2:H	_
+31	that	that	PRON	WDT	_	37	F	37:F	_
+32	an	a	DET	DT	_	33	E	33:E	_
+33	audience	audience	NOUN	NN	_	37	A	37:A	_
+34	would	would	AUX	MD	_	37	F	37:F	_
+35	not	not	PART	RB	_	37	D	37:D	_
+36	be	be	AUX	VB	_	37	F	37:F	_
+37	able	able	ADJ	JJ	_	30	A	30:A	_
+38	to	to	PART	TO	_	39	F	39:F	_
+39	take	take	VERB	VB	_	37	A	37:A	_
+40	a	a	DET	DT	_	41	E	41:E	_
+41	show	show	NOUN	NN	_	39	A	39:A	_
+42	about	about	ADP	IN	_	44	R	44:R	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	White	White	PROPN	NNP	_	41	E	41:E	_
+45	House	House	PROPN	NNP	_	44	Terminal	44:Terminal	_
+46	seriously	seriously	ADV	RB	_	39	D	39:D	_
+47	.	.	PUNCT	.	_	39	U	39:U	_
+

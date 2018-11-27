@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 629010
+# text = He was posthumously inducted into the Songwriters Hall of Fame in 1987 and into the Rock and Roll Hall of Fame in 1994 .
+1	He	he	PRON	PRP	_	4	A	4:A|19:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	posthumously	posthumously	ADV	RB	_	4	D	4:D	_
+4	inducted	induct	VERB	VBN	_	0	H	0:H	_
+5	into	into	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	Songwriters	Songwriters	PROPN	NNPS	_	8	E	8:E	_
+8	Hall	hall	PROPN	NNP	_	4	A	4:A	_
+9	of	of	ADP	IN	_	8	Terminal	8:Terminal	_
+10	Fame	fame	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1987	1987	NUM	CD	_	4	D	4:D	_
+13	and	and	CCONJ	CC	_	4	L	4:L	_
+14	into	into	ADP	IN	_	19	R	19:R	_
+15	the	the	DET	DT	_	19	E	19:E	_
+16	Rock	rock	NOUN	NN	_	19	E	19:E	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	Roll	Roll	NOUN	NN	_	16	C	16:C	_
+19	Hall	Hall	NOUN	NN	_	4	H	4:H	_
+20	of	of	ADP	IN	_	19	Terminal	19:Terminal	_
+21	Fame	fame	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	1994	1994	NUM	CD	_	19	D	19:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

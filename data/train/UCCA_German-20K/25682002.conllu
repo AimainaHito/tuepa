@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25682002
+# text = Kapitän Nemo und meine beiden Gefährten legten ebenfalls die Kleidung an .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	meine	mein	DET	PPOSAT	_	6	E	6:E	_
+5	beiden	beide	PRON	PIAT	_	6	E	6:E	_
+6	Gefährten	Gefährt|Gefährte	NOUN	NE	_	2	C	2:C	_
+7	legten	legen	VERB	VVFIN	_	0	H	0:H	_
+8	ebenfalls	ebenfalls	ADV	ADV	_	7	D	7:D	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Kleidung	Kleidung	NOUN	NN	_	7	A	7:A	_
+11	an	an	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+12	.	.	PUNCT	$.	_	7	U	7:U	_
+

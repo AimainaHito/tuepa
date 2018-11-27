@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25490058
+# text = » Es wird zum Klagen dienen !
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Es	es	PRON	PPER	_	6	A	6:A	_
+3	wird	werden	AUX	VAFIN	_	6	D	6:D	_
+4	zum	zum	ADP	NN	_	5	R	5:R	_
+5	Klagen	Klage	NOUN	NN	_	6	A	6:A	_
+6	dienen	dienen	VERB	VVFIN	_	0	H	0:H	_
+7	!	!	PUNCT	$.	_	6	U	6:U	_
+

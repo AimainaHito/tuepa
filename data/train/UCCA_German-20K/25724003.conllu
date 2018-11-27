@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25724003
+# text = Dieser Tag schien kein Ende nehmen zu wollen .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Tag	Tag	NOUN	NN	_	0	C	0:C|3:A	_
+3	schien	scheinen	VERB	VVFIN	_	5	H	5:H	_
+4	kein	kein	PRON	PIAT	_	5	D	5:D	_
+5	Ende	Ende	NOUN	NN	_	0	H	0:H	_
+6	nehmen	nehmen	VERB	CARD	_	5	Terminal	5:Terminal	_
+7	zu	zu	PART	VVINF	_	5	F	5:F	_
+8	wollen	wollen	AUX	VMFIN	_	5	D	5:D	_
+9	.	.	PUNCT	$.	_	5	U	5:U	_
+

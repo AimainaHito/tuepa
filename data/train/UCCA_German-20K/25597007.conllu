@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25597007
+# text = Kapitän Nemo hatte sich wieder an die Spitze seiner kleinen Schar gestellt und schritt sicher , ohne sich zu besinnen , voran .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	0	C	0:C|18:A|14:A	_
+3	hatte	haben	AUX	VAFIN	_	4	F	4:F	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	wieder	wieder	ADV	NN	_	4	D	4:D	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Spitze	Spitze	NOUN	NN	_	4	A	4:A	_
+9	seiner	sein	DET	PPOSAT	_	11	R	11:R	_
+10	kleinen	klein	ADJ	ADJA	_	11	E	11:E	_
+11	Schar	Schar	NOUN	NN	_	8	E	8:E	_
+12	gestellt	stellen	VERB	VVPP	_	4	Terminal	4:Terminal	_
+13	und	und	CCONJ	NE	_	4	L	4:L	_
+14	schritt	schreiten	VERB	VVFIN	_	4	H	4:H	_
+15	sicher	sicher	ADJ	ADJD	_	14	D	14:D	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	ohne	ohne	ADP	NE	_	18	D	18:D	_
+18	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+19	zu	zu	PART	VVINF	_	18	Terminal	18:Terminal	_
+20	besinnen	besinnen	VERB	VVINF	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	$,	_	4	U	4:U	_
+22	voran	voran	ADV	NE	_	14	Terminal	14:Terminal	_
+23	.	.	PUNCT	$.	_	14	U	14:U	_
+

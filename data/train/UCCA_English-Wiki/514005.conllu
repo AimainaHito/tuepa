@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 514005
+# text = In a September 1976 interview with Playboy , Bowie said : " It 's true - I am a bisexual . But I ca n't deny that I 've used that fact very well . I suppose it 's the best thing that ever happened to me . "
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	September	September	PROPN	NNP	_	4	E	4:E	_
+4	1976	1976	NUM	CD	_	5	E	5:E	_
+5	interview	interview	NOUN	NN	_	10	A	10:A	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	Playboy	Playboy	PROPN	NNP	_	5	E	5:E	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	Bowie	Bowie	PROPN	NNP	_	10	A	10:A	_
+10	said	say	VERB	VBD	_	0	H	0:H	_
+11	:	:	PUNCT	:	_	10	U	10:U	_
+12	"	"	PUNCT	``	_	10	U	10:U	_
+13	It	it	PRON	PRP	_	14	F	14:F	_
+14	's	be	AUX	VBZ	_	10	A	10:A	_
+15	true	True	ADJ	JJ	_	14	A	14:A	_
+16	-	-	PUNCT	,	_	14	U	14:U	_
+17	I	I	PRON	PRP	_	18	A	18:A	_
+18	am	be	AUX	VBP	_	14	H	14:H	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	bisexual	bisexual	NOUN	NN	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	14	U	14:U	_
+22	But	but	CCONJ	CC	_	14	L	14:L	_
+23	I	I	PRON	PRP	_	26	A	26:A	_
+24	ca	can	AUX	MD	_	26	F	26:F	_
+25	n't	not	PART	RB	_	26	D	26:D	_
+26	deny	deny	VERB	VB	_	14	H	14:H	_
+27	that	that	SCONJ	IN	_	30	F	30:F	_
+28	I	I	PRON	PRP	_	30	A	30:A	_
+29	've	have	AUX	VBP	_	30	F	30:F	_
+30	used	use	VERB	VBN	_	26	A	26:A	_
+31	that	that	DET	DT	_	32	E	32:E	_
+32	fact	fact	NOUN	NN	_	30	A	30:A	_
+33	very	very	ADV	RB	_	34	E	34:E	_
+34	well	well	ADV	RB	_	30	D	30:D	_
+35	.	.	PUNCT	.	_	14	U	14:U	_
+36	I	I	PRON	PRP	_	37	A	37:A	_
+37	suppose	suppose	VERB	VBP	_	14	H	14:H	_
+38	it	it	PRON	PRP	_	39	A	39:A	_
+39	's	be	AUX	VBZ	_	37	A	37:A	_
+40	the	the	DET	DT	_	42	E	42:E	_
+41	best	best	ADJ	JJS	_	42	E	42:E	_
+42	thing	thing	NOUN	NN	_	39	A	39:A	_
+43	that	that	PRON	WDT	_	45	F	45:F	_
+44	ever	ever	ADV	RB	_	45	D	45:D	_
+45	happened	happen	VERB	VBD	_	42	E	42:E	_
+46	to	to	ADP	IN	_	47	R	47:R	_
+47	me	I	PRON	PRP	_	45	A	45:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+49	"	"	PUNCT	''	_	47	U	47:U	_
+

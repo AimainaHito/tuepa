@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 529001
+# text = She could not attend the ceremony because she had just given birth to her son , Joseph Luft , so a television crew was in her hospital room with cameras and wires to televise her anticipated acceptance speech .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	could	could	AUX	MD	_	4	D	4:D	_
+3	not	not	PART	RB	_	4	D	4:D	_
+4	attend	attend	VERB	VB	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	ceremony	ceremony	NOUN	NN	_	4	A	4:A	_
+7	because	because	SCONJ	IN	_	4	L	4:L	_
+8	she	she	PRON	PRP	_	12	A	12:A	_
+9	had	have	AUX	VBD	_	12	F	12:F	_
+10	just	just	ADV	RB	_	12	D	12:D	_
+11	given	give	VERB	VBN	_	12	F	12:F	_
+12	birth	birth	NOUN	NN	_	4	H	4:H	_
+13	to	to	ADP	IN	_	17	R	17:R	_
+14	her	she	PRON	PRP$	_	15	E	15:E	_
+15	son	son	NOUN	NN	_	17	E	17:E	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	Joseph	Joseph	PROPN	NNP	_	12	A	12:A	_
+18	Luft	Luft	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	4	U	4:U	_
+20	so	so	ADV	RB	_	4	L	4:L	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	television	television	NOUN	NN	_	23	E	23:E	_
+23	crew	crew	NOUN	NN	_	0	C	0:C|34:A	_
+24	was	be	VERB	VBD	_	4	H	4:H	_
+25	in	in	ADP	IN	_	28	R	28:R	_
+26	her	she	PRON	PRP$	_	28	E	28:E	_
+27	hospital	hospital	NOUN	NN	_	28	E	28:E	_
+28	room	room	NOUN	NN	_	24	A	24:A	_
+29	with	with	ADP	IN	_	30	R	30:R	_
+30	cameras	camera	NOUN	NNS	_	24	A	24:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	wires	wire	NOUN	NNS	_	30	C	30:C	_
+33	to	to	PART	TO	_	4	L	4:L	_
+34	televise	televise	VERB	VB	_	4	H	4:H	_
+35	her	she	PRON	PRP	_	38	E	38:E	_
+36	anticipated	anticipate	VERB	VBN	_	38	E	38:E	_
+37	acceptance	acceptance	NOUN	NN	_	38	E	38:E	_
+38	speech	speech	NOUN	NN	_	34	A	34:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

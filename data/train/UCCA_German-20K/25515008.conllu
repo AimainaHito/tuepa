@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25515008
+# text = Als ich die Pläne zu diesem für unterseeische Fahrten bestimmten Schiff machte , war meine Absicht , dass es im Gleichgewicht untergetaucht nur mit einem Zehntel hervorrage .
+1	Als	als	SCONJ	KOUS	_	12	L	12:L	_
+2	ich	ich	PRON	PPER	_	12	A	12:A|16:A	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Pläne	Plan	NOUN	NN	_	12	A	12:A	_
+5	zu	zu	ADP	VVINF	_	11	R	11:R	_
+6	diesem	dies	PRON	PDS	_	11	E	11:E	_
+7	für	für	ADP	APPR	_	10	R	10:R	_
+8	unterseeische	unterseeisch	ADJ	ADJA	_	9	E	9:E	_
+9	Fahrten	Fahrt	NOUN	NN	_	10	A	10:A	_
+10	bestimmten	bestimmt	ADJ	ADJA	_	11	E	11:E	_
+11	Schiff	Schiff	NOUN	NN	_	4	E	4:E	_
+12	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	war	sein	AUX	ADV	_	16	F	16:F	_
+15	meine	mein	PRON	PPOSAT	_	16	E	16:E	_
+16	Absicht	Absicht	NOUN	NN	_	12	H	12:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	dass	dass	SCONJ	KOUS	_	27	R	27:R	_
+19	es	es	PRON	PPER	_	27	A	27:A	_
+20	im	im	ADV	NE	_	21	R	21:R	_
+21	Gleichgewicht	Gleichgewicht	NOUN	NE	_	27	A	27:A	_
+22	untergetaucht	untergetauchen	VERB	NN	_	21	E	21:E	_
+23	nur	nur	ADV	NE	_	27	D	27:D	_
+24	mit	mit	ADP	APPR	_	26	R	26:R	_
+25	einem	ein	DET	ART	_	26	E	26:E	_
+26	Zehntel	Zehntel	NOUN	NN	_	27	A	27:A	_
+27	hervorrage	hervorragen	VERB	VVFIN	_	16	A	16:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25766021
+# text = Aber die Hindernisse zu überwinden , um bis zu dem Südpol zu dringen , der weit weniger zugänglich ist wie der Nordpol , zu dem die erfahrensten Seemänner noch nicht gelangen , schien doch ein durchaus wahnsinniger Gedanke zu sein !
+1	Aber	aber	CCONJ	KON	_	40	L	40:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Hindernisse	Hindernis	NOUN	NN	_	5	A	5:A	_
+4	zu	zu	PART	NE	_	5	F	5:F	_
+5	überwinden	überwinden	VERB	VVINF	_	40	A	40:A	_
+6	,	,	PUNCT	$,	_	40	U	40:U	_
+7	um	um	ADP	KOUI	_	13	R	13:R	_
+8	bis	bis	ADP	APPR	_	11	R	11:R	_
+9	zu	zu	ADP	NE	_	8	Terminal	8:Terminal	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Südpol	Südpol	NOUN	NE	_	13	A	13:A	_
+12	zu	zu	PART	NE	_	13	D	13:D	_
+13	dringen	dringen	VERB	VVFIN	_	40	H	40:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	der	der	DET	PRELS	_	18	R	18:R	_
+16	weit	weit	ADJ	ADJD	_	17	E	17:E	_
+17	weniger	weniger	ADJ	ADV	_	18	D	18:D	_
+18	zugänglich	zugänglich	ADJ	ADJD	_	0	S	0:S|22:S	_
+19	ist	sein	AUX	NN	_	18	F	18:F	_
+20	wie	wie	ADP	KON	_	22	R	22:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Nordpol	Nordpol	NOUN	NE	_	40	H	40:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	zu	zu	ADP	NE	_	25	R	25:R	_
+25	dem	der	PRON	PRELS	_	31	R	31:R	_
+26	die	der	DET	ART	_	27	E	27:E	_
+27	erfahrensten	erfahren	ADJ	NN	_	28	E	28:E	_
+28	Seemänner	Seemänner	NOUN	ADJA	_	31	A	31:A	_
+29	noch	noch	ADV	CARD	_	31	D	31:D	_
+30	nicht	nicht	PART	CARD	_	31	D	31:D	_
+31	gelangen	gelangen	VERB	VVPP	_	22	E	22:E	_
+32	,	,	PUNCT	$,	_	40	U	40:U	_
+33	schien	scheinen	VERB	VVFIN	_	40	D	40:D	_
+34	doch	doch	ADV	ADV	_	40	D	40:D	_
+35	ein	ein	DET	ART	_	38	E	38:E	_
+36	durchaus	durchaus	ADV	ADV	_	37	D	37:D	_
+37	wahnsinniger	wahnsinnig	ADJ	ADJA	_	40	A	40:A	_
+38	Gedanke	Gedanke	NOUN	NN	_	37	A	37:A	_
+39	zu	zu	PART	VVINF	_	40	F	40:F	_
+40	sein	sein	AUX	VAINF	_	0	H	0:H	_
+41	!	!	PUNCT	$.	_	40	U	40:U	_
+

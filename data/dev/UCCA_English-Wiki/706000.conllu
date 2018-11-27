@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 706000
+# text = Dylan 's embrace of born - again Christianity was unpopular with some of his fans and fellow musicians .
+1	Dylan	Dylan	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	embrace	embrace	NOUN	NN	_	10	A	10:A	_
+4	of	of	ADP	IN	_	8	R	8:R	_
+5	born	bear	VERB	VBN	_	8	E	8:E	_
+6	-	-	PUNCT	HYPH	_	5	U	5:U	_
+7	again	again	ADV	RB	_	5	D	5:D	_
+8	Christianity	Christianity	PROPN	NNP	_	3	A	3:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	unpopular	unpopular	ADJ	JJ	_	0	H	0:H	_
+11	with	with	ADP	IN	_	15	R	15:R	_
+12	some	some	DET	DT	_	15	E	15:E	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	his	he	PRON	PRP$	_	15	E	15:E	_
+15	fans	fan	NOUN	NNS	_	10	A	10:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	fellow	fellow	ADJ	JJ	_	18	E	18:E	_
+18	musicians	musician	NOUN	NNS	_	15	C	15:C	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

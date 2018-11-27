@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 523005
+# text = MGM hit on a winning formula when it paired Garland with Mickey Rooney in a string of " backyard musicals .
+1	MGM	MGM	PROPN	NNP	_	6	A	6:A	_
+2	hit	hit	VERB	VBD	_	6	D	6:D	_
+3	on	on	ADP	IN	_	6	R	6:R	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	winning	win	VERB	VBG	_	6	D	6:D	_
+6	formula	formula	NOUN	NN	_	0	H	0:H	_
+7	when	when	ADV	WRB	_	6	L	6:L	_
+8	it	it	PRON	PRP	_	9	A	9:A	_
+9	paired	paire	VERB	VBD	_	6	H	6:H	_
+10	Garland	Garland	PROPN	NNP	_	9	A	9:A	_
+11	with	with	ADP	IN	_	10	N	10:N	_
+12	Mickey	Mickey	PROPN	NNP	_	10	C	10:C	_
+13	Rooney	Rooney	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	20	R	20:R	_
+15	a	a	DET	DT	_	20	E	20:E	_
+16	string	string	NOUN	NN	_	20	E	20:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	"	"	PUNCT	``	_	20	U	20:U	_
+19	backyard	backyard	NOUN	NN	_	20	E	20:E	_
+20	musicals	musical	NOUN	NNS	_	9	A	9:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

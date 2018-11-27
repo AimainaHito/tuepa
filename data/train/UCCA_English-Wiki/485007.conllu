@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 485007
+# text = , and Bana 's German - born mother , Eleanor , was a hairdresser .
+1	,	,	PUNCT	,	_	12	U	12:U	_
+2	and	and	CCONJ	CC	_	12	L	12:L	_
+3	Bana	Bana	PROPN	NNP	_	10	E	10:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	German	german	ADJ	JJ	_	7	A	7:A	_
+6	-	-	PUNCT	HYPH	_	7	U	7:U	_
+7	born	bear	VERB	VBN	_	10	E	10:E	_
+8	mother	mother	NOUN	NN	_	10	E	10:E|7:A	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	Eleanor	Eleanor	PROPN	NNP	_	12	A	12:A	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	was	be	AUX	VBD	_	0	H	0:H	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	hairdresser	hairdresser	NOUN	NN	_	12	A	12:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

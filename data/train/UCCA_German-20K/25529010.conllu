@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25529010
+# text = » Die dritten haben wie gewöhnlich Kiemen , die durch eine einzige mit einem Deckel versehene Spalte sich öffnen . Ein Muster dieser Ordnung ist der Stör . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	dritten	dritt	NOUN	ADJA	_	4	A	4:A	_
+4	haben	haben	VERB	VAFIN	_	0	H	0:H	_
+5	wie	wie	ADP	ADV	_	4	G	4:G	_
+6	gewöhnlich	gewöhnlich	ADJ	ADJD	_	5	Terminal	5:Terminal	_
+7	Kiemen	Kiem	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	18	R	18:R	_
+10	durch	durch	ADP	APPR	_	17	R	17:R	_
+11	eine	ein	DET	ART	_	17	E	17:E	_
+12	einzige	einzig	ADJ	ADJA	_	17	E	17:E	_
+13	mit	mit	ADP	APPR	_	16	R	16:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Deckel	Deckel	NOUN	NN	_	16	A	16:A	_
+16	versehene	versehen	ADJ	NN	_	17	E	17:E	_
+17	Spalte	Spalte	NOUN	NN	_	18	A	18:A	_
+18	sich	er|es|sie	PRON	PRF	_	7	E	7:E	_
+19	öffnen	öffn	ADJ	VVINF	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	$.	_	4	U	4:U	_
+21	Ein	ein	NUM	ART	_	22	E	22:E	_
+22	Muster	Muster	NOUN	NN	_	25	A	25:A	_
+23	dieser	dies	PRON	PDAT	_	24	R	24:R	_
+24	Ordnung	Ordnung	NOUN	NN	_	22	E	22:E	_
+25	ist	sein	AUX	VVFIN	_	4	H	4:H	_
+26	der	der	DET	ART	_	27	E	27:E	_
+27	Stör	Stör	NOUN	NN	_	25	A	25:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+29	«	«	PUNCT	$(	_	27	U	27:U	_
+

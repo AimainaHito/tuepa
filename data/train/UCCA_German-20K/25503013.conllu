@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25503013
+# text = » Durchaus nicht « , erwiderte der Kapitän . » Nehmen Sie diese Zigarre , Herr Arronax , und wenn Sie schon nicht aus der Havanna kommt , werden Sie doch , wenn Sie Kenner sind , damit zufrieden sein . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Durchaus	durchaus	NOUN	NN	_	6	A	6:A	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kapitän	Kapitän	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	Nehmen	nehmen	VERB	NE	_	2	H	2:H	_
+12	Sie	Sie|sie	PRON	PPER	_	11	F	11:F	_
+13	diese	dies	PRON	PDAT	_	14	E	14:E	_
+14	Zigarre	Zigarre	NOUN	NN	_	11	A	11:A	_
+15	,	,	PUNCT	$,	_	11	U	11:U	_
+16	Herr	Herr	PROPN	NN	_	17	E	17:E	_
+17	Arronax	Arronax	PROPN	NE	_	11	G	11:G	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	und	und	CCONJ	NE	_	2	L	2:L	_
+20	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+21	Sie	Sie|sie	PRON	PPER	_	27	A	27:A	_
+22	schon	schon	ADV	ADV	_	23	E	23:E	_
+23	nicht	nicht	PART	CARD	_	27	D	27:D	_
+24	aus	aus	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Havanna	Havanna	PROPN	NE	_	27	A	27:A	_
+27	kommt	kommen	VERB	VVFIN	_	2	H	2:H	_
+28	,	,	PUNCT	$,	_	2	U	2:U	_
+29	werden	werden	AUX	VVFIN	_	39	F	39:F	_
+30	Sie	Sie|sie	PRON	PPER	_	39	A	39:A	_
+31	doch	doch	ADV	ADV	_	2	L	2:L	_
+32	,	,	PUNCT	$,	_	2	U	2:U	_
+33	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+34	Sie	sie	PRON	PPER	_	35	A	35:A	_
+35	Kenner	Kenner	NOUN	NN	_	2	H	2:H	_
+36	sind	sein	AUX	NN	_	35	F	35:F	_
+37	,	,	PUNCT	$,	_	2	U	2:U	_
+38	damit	damit	ADV	PAV	_	39	A	39:A	_
+39	zufrieden	zufrieden	ADJ	ADJD	_	2	H	2:H	_
+40	sein	sein	AUX	VAINF	_	39	Terminal	39:Terminal	_
+41	.	.	PUNCT	$.	_	39	U	39:U	_
+42	«	«	PUNCT	$(	_	39	U	39:U	_
+

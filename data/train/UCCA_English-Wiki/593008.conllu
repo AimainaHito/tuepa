@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 593008
+# text = " The July 17 , 2006 edition of Newsweek reprinted the " dumb puppy " quotation , verbatim , in the context of a Letter to the Magazine .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	The	the	DET	DT	_	9	E	9:E	_
+3	July	July	PROPN	NNP	_	7	E	7:E	_
+4	17	17	NUM	CD	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	2006	2006	NUM	CD	_	3	Terminal	3:Terminal	_
+7	edition	edition	NOUN	NN	_	9	E	9:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	Newsweek	Newsweek	PROPN	NNP	_	10	A	10:A	_
+10	reprinted	reprint	VERB	VBD	_	0	H	0:H	_
+11	the	the	DET	DT	_	16	E	16:E	_
+12	"	"	PUNCT	``	_	16	U	16:U	_
+13	dumb	dumb	ADJ	JJ	_	14	E	14:E	_
+14	puppy	puppy	NOUN	NN	_	16	E	16:E	_
+15	"	"	PUNCT	''	_	16	U	16:U	_
+16	quotation	quotation	NOUN	NN	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	10	U	10:U	_
+18	verbatim	verbatim	NOUN	NN	_	10	D	10:D	_
+19	,	,	PUNCT	,	_	10	U	10:U	_
+20	in	in	ADP	IN	_	25	R	25:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	context	context	NOUN	NN	_	25	E	25:E	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	Letter	letter	PROPN	NNP	_	10	A	10:A	_
+26	to	to	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	Magazine	Magazine	NOUN	NN	_	25	E	25:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

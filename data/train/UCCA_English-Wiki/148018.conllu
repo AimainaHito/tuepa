@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 148018
+# text = She mothered and obeyed him , and Tracy became heavily dependent on her .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	mothered	mother	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	obeyed	obey	VERB	VBD	_	2	C	2:C	_
+5	him	he	PRON	PRP	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	Tracy	Tracy	PROPN	NNP	_	11	A	11:A	_
+9	became	become	VERB	VBD	_	11	F	11:F	_
+10	heavily	heavily	ADV	RB	_	11	D	11:D	_
+11	dependent	dependent	ADJ	JJ	_	2	H	2:H	_
+12	on	on	ADP	IN	_	13	R	13:R	_
+13	her	she	PRON	PRP	_	11	A	11:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

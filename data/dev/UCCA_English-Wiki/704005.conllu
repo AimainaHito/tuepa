@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 704005
+# text = In November 1976 , Dylan appeared at The Band 's " farewell " concert , along with other guests including Joni Mitchell , Muddy Waters , Van Morrison and Neil Young .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	November	November	PROPN	NNP	_	3	E	3:E	_
+3	1976	1976	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	at	at	ADP	IN	_	14	R	14:R	_
+8	The	the	DET	DT	_	14	E	14:E	_
+9	Band	Band	PROPN	NNP	_	14	E	14:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	"	"	PUNCT	``	_	14	U	14:U	_
+12	farewell	farewell	NOUN	NN	_	14	E	14:E	_
+13	"	"	PUNCT	''	_	14	U	14:U	_
+14	concert	concert	NOUN	NN	_	6	A	6:A	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	along	along	ADP	IN	_	19	R	19:R	_
+17	with	with	ADP	IN	_	19	R	19:R	_
+18	other	other	ADJ	JJ	_	19	E	19:E	_
+19	guests	guest	NOUN	NNS	_	6	A	6:A	_
+20	including	include	VERB	VBG	_	21	R	21:R	_
+21	Joni	Joni	PROPN	NNP	_	19	E	19:E	_
+22	Mitchell	Mitchell	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	21	U	21:U	_
+24	Muddy	Muddy	PROPN	NNP	_	21	C	21:C	_
+25	Waters	Waters	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	,	_	21	U	21:U	_
+27	Van	Van	PROPN	NNP	_	21	C	21:C	_
+28	Morrison	Morrison	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	and	and	CCONJ	CC	_	21	N	21:N	_
+30	Neil	Neil	PROPN	NNP	_	21	C	21:C	_
+31	Young	young	NOUN	NN	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	21	U	21:U	_
+

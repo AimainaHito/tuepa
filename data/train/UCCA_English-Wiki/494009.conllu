@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 494009
+# text = Graduating from his plastic saxophone to a real instrument in 1962 , Bowie formed his first band at the age of 15 .
+1	Graduating	graduate	VERB	VBG	_	0	H	0:H	_
+2	from	from	ADP	IN	_	5	R	5:R	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	plastic	plastic	ADJ	JJ	_	5	E	5:E	_
+5	saxophone	saxophone	NOUN	NN	_	1	A	1:A	_
+6	to	to	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	real	real	ADJ	JJ	_	9	E	9:E	_
+9	instrument	instrument	NOUN	NN	_	1	A	1:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1962	1962	NUM	CD	_	1	D	1:D	_
+12	,	,	PUNCT	,	_	1	U	1:U	_
+13	Bowie	Bowie	PROPN	NNP	_	14	A	14:A|1:A|22:A	_
+14	formed	form	VERB	VBD	_	1	H	1:H	_
+15	his	he	PRON	PRP$	_	17	E	17:E	_
+16	first	first	ADJ	JJ	_	17	E	17:E	_
+17	band	band	NOUN	NN	_	14	A	14:A	_
+18	at	at	ADP	IN	_	1	L	1:L	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	age	age	NOUN	NN	_	22	E	22:E	_
+21	of	of	ADP	IN	_	20	R	20:R	_
+22	15	15	NUM	CD	_	1	H	1:H	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

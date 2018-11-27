@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 145000
+# text = Hepburn 's final appearance in a theatrically released film , and her first since Grace Quigley ten years earlier , was Love Affair ( 1994 ) . At 86 years old , she played a supporting role alongside Annette Bening and Warren Beatty .
+1	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	final	final	ADJ	JJ	_	4	D	4:D	_
+4	appearance	appearance	NOUN	NN	_	21	A	21:A	_
+5	in	in	ADP	IN	_	9	R	9:R	_
+6	a	a	DET	DT	_	9	E	9:E	_
+7	theatrically	theatrically	ADV	RB	_	8	E	8:E	_
+8	released	release	VERB	VBN	_	9	E	9:E	_
+9	film	film	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	and	and	CCONJ	CC	_	4	N	4:N	_
+12	her	she	PRON	PRP$	_	4	C	4:C	_
+13	first	first	ADJ	JJ	_	12	D	12:D	_
+14	since	since	SCONJ	IN	_	12	L	12:L	_
+15	Grace	Grace	PROPN	NNP	_	12	H	12:H	_
+16	Quigley	Quigley	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	ten	ten	NUM	CD	_	18	E	18:E	_
+18	years	year	NOUN	NNS	_	15	D	15:D	_
+19	earlier	earlier	ADV	RBR	_	18	R	18:R	_
+20	,	,	PUNCT	,	_	21	U	21:U	_
+21	was	be	AUX	VBD	_	0	H	0:H	_
+22	Love	Love	PROPN	NNP	_	21	A	21:A	_
+23	Affair	affair	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	(	(	PUNCT	-LRB-	_	22	U	22:U	_
+25	1994	1994	NUM	CD	_	22	E	22:E	_
+26	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+27	.	.	PUNCT	.	_	21	U	21:U	_
+28	At	at	ADP	IN	_	21	L	21:L	_
+29	86	86	NUM	CD	_	30	E	30:E	_
+30	years	year	NOUN	NNS	_	21	H	21:H	_
+31	old	old	ADJ	JJ	_	30	R	30:R	_
+32	,	,	PUNCT	,	_	30	U	30:U	_
+33	she	she	PRON	PRP	_	34	A	34:A|30:A	_
+34	played	play	VERB	VBD	_	21	H	21:H	_
+35	a	a	DET	DT	_	37	E	37:E	_
+36	supporting	support	VERB	VBG	_	37	E	37:E	_
+37	role	role	NOUN	NN	_	34	A	34:A	_
+38	alongside	alongside	ADP	IN	_	39	R	39:R	_
+39	Annette	Annette	PROPN	NNP	_	34	A	34:A	_
+40	Bening	Bening	PROPN	NNP	_	39	Terminal	39:Terminal	_
+41	and	and	CCONJ	CC	_	39	N	39:N	_
+42	Warren	Warren	PROPN	NNP	_	39	C	39:C	_
+43	Beatty	Beatty	PROPN	NNP	_	42	Terminal	42:Terminal	_
+44	.	.	PUNCT	.	_	39	U	39:U	_
+

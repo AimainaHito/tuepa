@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 730009
+# text = In February 2013 , it was announced that Jolie will be teaming up with the Coen brothers to tell the story of World War II hero Louis Zamperini .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	February	February	PROPN	NNP	_	7	D	7:D	_
+3	2013	2013	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	it	it	PRON	PRP	_	7	F	7:F	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	announced	announce	VERB	VBN	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	12	F	12:F	_
+9	Jolie	Jolie	PROPN	NNP	_	12	A	12:A	_
+10	will	will	AUX	MD	_	12	F	12:F	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	teaming	team	VERB	VBG	_	7	A	7:A	_
+13	up	up	ADP	RP	_	12	R	12:R	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Coen	Coen	ADJ	JJ	_	12	A	12:A	_
+17	brothers	brother	NOUN	NNS	_	16	Terminal	16:Terminal	_
+18	to	to	PART	TO	_	7	L	7:L	_
+19	tell	tell	VERB	VB	_	7	H	7:H	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	story	story	NOUN	NN	_	19	A	19:A	_
+22	of	of	ADP	IN	_	27	R	27:R	_
+23	World	World	PROPN	NNP	_	24	E	24:E	_
+24	War	War	PROPN	NNP	_	26	E	26:E	_
+25	II	ii	NUM	CD	_	24	E	24:E	_
+26	hero	hero	NOUN	NN	_	27	E	27:E	_
+27	Louis	Louis	PROPN	NNP	_	21	E	21:E	_
+28	Zamperini	Zamperini	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

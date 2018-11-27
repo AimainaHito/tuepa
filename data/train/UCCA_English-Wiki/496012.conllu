@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 496012
+# text = Her impact on him was immediate , and her involvement in his career far - reaching , leaving manager Ken Pitt with limited influence which he found frustrating .
+1	Her	she	PRON	PRP$	_	2	A	2:A	_
+2	impact	impact	NOUN	NN	_	6	A	6:A	_
+3	on	on	ADP	IN	_	4	R	4:R	_
+4	him	he	PRON	PRP	_	2	A	2:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	immediate	immediate	ADJ	JJ	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	and	and	CCONJ	CC	_	6	L	6:L	_
+9	her	she	PRON	PRP$	_	10	A	10:A	_
+10	involvement	involvement	NOUN	NN	_	6	H	6:H	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	his	he	PRON	PRP$	_	13	A	13:A	_
+13	career	career	NOUN	NN	_	10	A	10:A	_
+14	far	far	ADV	RB	_	16	E	16:E	_
+15	-	-	PUNCT	,	_	16	U	16:U	_
+16	reaching	reach	VERB	VBG	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	6	U	6:U	_
+18	leaving	leave	VERB	VBG	_	6	H	6:H	_
+19	manager	manager	NOUN	NN	_	20	E	20:E	_
+20	Ken	Ken	PROPN	NNP	_	18	A	18:A	_
+21	Pitt	Pitt	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	limited	limite	ADJ	JJ	_	24	E	24:E	_
+24	influence	influence	NOUN	NN	_	18	A	18:A	_
+25	which	which	PRON	WDT	_	27	F	27:F	_
+26	he	he	PRON	PRP	_	27	A	27:A	_
+27	found	find	VERB	VBD	_	24	E	24:E	_
+28	frustrating	frustrating	ADJ	JJ	_	27	A	27:A	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

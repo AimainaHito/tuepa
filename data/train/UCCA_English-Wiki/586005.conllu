@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 586005
+# text = Depp subsequently collaborated with the band Rock City Angels and co - wrote their song " Mary " , which appeared on Rock City Angels ' debut for Geffen Records titled Young Man 's Blues .
+1	Depp	Depp	ADV	RB	_	3	A	3:A|13:A	_
+2	subsequently	subsequently	ADV	RB	_	3	D	3:D	_
+3	collaborated	collaborate	VERB	VBN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	band	band	NOUN	NN	_	7	E	7:E	_
+7	Rock	rock	NOUN	NN	_	3	A	3:A	_
+8	City	City	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	Angels	Angels	NOUN	NNS	_	7	Terminal	7:Terminal	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	co	co	X	AFX	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	wrote	write	VERB	VBD	_	3	H	3:H	_
+14	their	they	PRON	PRP$	_	17	E	17:E	_
+15	song	song	NOUN	NN	_	17	E	17:E	_
+16	"	"	PUNCT	``	_	17	U	17:U	_
+17	Mary	Mary	PROPN	NNP	_	13	A	13:A	_
+18	"	"	PUNCT	''	_	17	U	17:U	_
+19	,	,	PUNCT	,	_	17	U	17:U	_
+20	which	which	PRON	WDT	_	21	R	21:R	_
+21	appeared	appear	VERB	VBD	_	17	E	17:E	_
+22	on	on	ADP	IN	_	27	R	27:R	_
+23	Rock	rock	NOUN	NN	_	27	A	27:A	_
+24	City	city	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	Angels	Angels	NOUN	NNS	_	23	Terminal	23:Terminal	_
+26	'	'	PUNCT	''	_	27	U	27:U	_
+27	debut	debut	CCONJ	CC	_	21	A	21:A	_
+28	for	for	ADP	IN	_	29	R	29:R	_
+29	Geffen	Geffen	ADJ	JJ	_	27	A	27:A	_
+30	Records	record	NOUN	NNS	_	29	Terminal	29:Terminal	_
+31	titled	title	VERB	VBN	_	27	A	27:A	_
+32	Young	yong	ADP	IN	_	31	A	31:A	_
+33	Man	Man	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	's	's	PART	POS	_	32	Terminal	32:Terminal	_
+35	Blues	Blue	PROPN	NNP	_	32	Terminal	32:Terminal	_
+36	.	.	PUNCT	.	_	31	U	31:U	_
+

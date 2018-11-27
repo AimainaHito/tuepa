@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 474022
+# text = He also missed several games due to a calf injury .
+1	He	he	PRON	PRP	_	3	A	3:A|10:A	_
+2	also	also	ADV	RB	_	3	L	3:L	_
+3	missed	miss	VERB	VBD	_	0	H	0:H	_
+4	several	several	ADJ	JJ	_	5	E	5:E	_
+5	games	game	NOUN	NNS	_	3	A	3:A	_
+6	due	due	ADP	IN	_	3	L	3:L	_
+7	to	to	ADP	IN	_	6	Terminal	6:Terminal	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	calf	calf	NOUN	NN	_	10	A	10:A	_
+10	injury	injury	NOUN	NN	_	3	H	3:H	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25811007
+# text = Ich zählte 7 .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	zählte	zählen	VERB	VVFIN	_	0	H	0:H	_
+3	7	7	NUM	CARD	_	2	A	2:A	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

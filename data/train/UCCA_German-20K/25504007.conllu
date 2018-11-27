@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25504007
+# text = « Nun öffnete Kapitän Nemo eine Tür gegenüber der , durch die wir in die Bibliothek gekommen waren , und wir traten in einen sehr großen glänzend erleuchteten Saal .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	Nun	nun	ADV	ADV	_	3	D	3:D	_
+3	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+6	eine	ein	DET	ART	_	7	E	7:E	_
+7	Tür	Tür	NOUN	NN	_	3	A	3:A	_
+8	gegenüber	gegenüber	ADP	APPR	_	9	R	9:R	_
+9	der	der	DET	ART	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	durch	durch	ADP	APPR	_	12	R	12:R	_
+12	die	der	PRON	ART	_	17	R	17:R	_
+13	wir	wir	PRON	NE	_	17	A	17:A	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Bibliothek	Bibliothek	NOUN	NN	_	17	A	17:A	_
+17	gekommen	kommen	VERB	VVPP	_	9	E	9:E	_
+18	waren	sein	AUX	VAFIN	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	und	und	CCONJ	NE	_	3	L	3:L	_
+21	wir	wir	PRON	NE	_	22	A	22:A	_
+22	traten	treten	VERB	VVFIN	_	3	H	3:H	_
+23	in	in	ADP	APPR	_	29	R	29:R	_
+24	einen	ein	DET	ART	_	29	E	29:E	_
+25	sehr	sehr	ADV	NE	_	26	E	26:E	_
+26	großen	groß	ADJ	ADJA	_	29	E	29:E	_
+27	glänzend	glänzend	ADJ	ADJD	_	28	D	28:D	_
+28	erleuchteten	erleuchtet	ADJ	ADJA	_	29	E	29:E	_
+29	Saal	Saal	NOUN	NN	_	22	A	22:A	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

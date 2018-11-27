@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 460001
+# text = Like other network news anchors , he was widely praised for guiding Americans through the tragedy .
+1	Like	like	ADP	IN	_	5	L	5:L	_
+2	other	other	ADJ	JJ	_	5	E	5:E	_
+3	network	network	NOUN	NN	_	5	E	5:E	_
+4	news	news	NOUN	NN	_	5	E	5:E	_
+5	anchors	anchor	NOUN	NNS	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	he	he	PRON	PRP	_	10	A	10:A	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	widely	widely	ADV	RB	_	10	D	10:D	_
+10	praised	praise	VERB	VBN	_	0	S	0:S|5:S	_
+11	for	for	SCONJ	IN	_	12	F	12:F	_
+12	guiding	guide	VERB	VBG	_	10	A	10:A	_
+13	Americans	Americans	PROPN	NNPS	_	12	A	12:A	_
+14	through	through	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	tragedy	tragedy	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

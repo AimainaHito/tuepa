@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25490112
+# text = Der milde Blick dieses Mannes , der edle Ausdruck seiner Züge , seine noble Haltung , alles schwand aus meiner Erinnerung .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	milde	mild	ADJ	NE	_	3	E	3:E	_
+3	Blick	Blick	NOUN	NN	_	18	A	18:A	_
+4	dieses	dies	PRON	PDAT	_	5	R	5:R	_
+5	Mannes	Mann	NOUN	NN	_	3	E	3:E	_
+6	,	,	PUNCT	$,	_	18	U	18:U	_
+7	der	der	DET	PRELS	_	9	E	9:E	_
+8	edle	edl	ADJ	VVFIN	_	9	D	9:D	_
+9	Ausdruck	Ausdruck	NOUN	NN	_	18	A	18:A	_
+10	seiner	sein	DET	PPOSAT	_	11	R	11:R	_
+11	Züge	Zug	NOUN	NN	_	9	A	9:A	_
+12	,	,	PUNCT	$,	_	18	U	18:U	_
+13	seine	sein	DET	PPOSAT	_	15	E	15:E	_
+14	noble	nobel	ADJ	ADJA	_	15	D	15:D	_
+15	Haltung	Haltung	NOUN	NN	_	18	A	18:A	_
+16	,	,	PUNCT	$,	_	18	U	18:U	_
+17	alles	alle	PRON	PIS	_	18	A	18:A	_
+18	schwand	schwinden	VERB	VVFIN	_	0	H	0:H	_
+19	aus	aus	ADP	APPR	_	21	R	21:R	_
+20	meiner	mein	PRON	PPOSAT	_	21	E	21:E	_
+21	Erinnerung	Erinnerung	NOUN	NN	_	18	A	18:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

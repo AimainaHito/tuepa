@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 669000
+# text = In 2002 , Carey was cast in the independent film , WiseGirls , alongside Mira Sorvino and Melora Walters , who co - starred as waitresses at a mobster - operated restaurant .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2002	2002	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	cast	cast	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	independent	independent	ADJ	JJ	_	10	E	10:E	_
+10	film	film	NOUN	NN	_	12	E	12:E	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	WiseGirls	WiseGirls	INTJ	UH	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	alongside	alongside	ADP	IN	_	15	R	15:R	_
+15	Mira	Mira	PROPN	NNP	_	6	A	6:A	_
+16	Sorvino	Sorvino	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	and	and	CCONJ	CC	_	15	N	15:N	_
+18	Melora	Melora	PROPN	NNP	_	15	C	15:C	_
+19	Walters	Walters	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	15	U	15:U	_
+21	who	who	PRON	WP	_	24	R	24:R	_
+22	co	co	X	AFX	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	starred	star	VERB	VBN	_	15	E	15:E	_
+25	as	as	ADP	IN	_	26	R	26:R	_
+26	waitresses	waitress	VERB	VBZ	_	24	A	24:A	_
+27	at	at	ADP	IN	_	32	R	32:R	_
+28	a	a	DET	DT	_	32	E	32:E	_
+29	mobster	mobster	NOUN	NN	_	31	E	31:E	_
+30	-	-	PUNCT	HYPH	_	31	U	31:U	_
+31	operated	operate	VERB	VBN	_	32	E	32:E	_
+32	restaurant	restaurant	NOUN	NN	_	24	A	24:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 661015
+# text = They chose " I 'll Be There " , a song made popular by The Jackson 5 in 1970 , rehearsing it few times before the night of the show .
+1	They	they	PRON	PRP	_	2	A	2:A|21:A	_
+2	chose	choose	VERB	VBD	_	0	H	0:H	_
+3	"	"	PUNCT	``	_	2	U	2:U	_
+4	I	I	PRON	PRP	_	2	A	2:A	_
+5	'll	will	AUX	MD	_	4	Terminal	4:Terminal	_
+6	Be	be	VERB	VB	_	4	Terminal	4:Terminal	_
+7	There	there	PRON	EX	_	4	Terminal	4:Terminal	_
+8	"	"	PUNCT	''	_	4	U	4:U	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	song	song	NOUN	NN	_	13	A	13:A	_
+12	made	make	VERB	VBN	_	13	F	13:F	_
+13	popular	popular	ADJ	JJ	_	4	E	4:E	_
+14	by	by	ADP	IN	_	15	R	15:R	_
+15	The	the	DET	DT	_	13	A	13:A	_
+16	Jackson	Jackson	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	5	5	NUM	CD	_	15	Terminal	15:Terminal	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	1970	1970	NUM	CD	_	13	D	13:D	_
+20	,	,	PUNCT	,	_	2	U	2:U	_
+21	rehearsing	rehearse	VERB	VBG	_	2	H	2:H	_
+22	it	it	PRON	PRP	_	21	A	21:A	_
+23	few	few	ADJ	JJ	_	24	E	24:E	_
+24	times	time	NOUN	NNS	_	21	D	21:D	_
+25	before	before	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	night	night	NOUN	NN	_	21	D	21:D	_
+28	of	of	ADP	IN	_	27	R	27:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	show	show	NOUN	NN	_	27	E	27:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

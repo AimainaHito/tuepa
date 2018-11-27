@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25794005
+# text = Am folgenden Tag , dem 27 . März , waren 6 Meter Eis herausgeschafft ; 4 blieben noch übrig .
+1	Am	am	PROPN	NN	_	3	E	3:E	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	6	E	6:E	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	27	27	PROPN	CARD	_	14	D	14:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	März	März	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	14	U	14:U	_
+10	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+11	6	6	NUM	CARD	_	12	E	12:E	_
+12	Meter	Meter	NOUN	NN	_	0	C	0:C|16:E	_
+13	Eis	Eis	NOUN	NN	_	0	C	0:C|16:C	_
+14	herausgeschafft	herausgeschaffen	VERB	VVPP	_	0	H	0:H	_
+15	;	;	PUNCT	$.	_	14	U	14:U	_
+16	4	4	NUM	CARD	_	19	A	19:A	_
+17	blieben	bleiben	VERB	VVFIN	_	19	D	19:D	_
+18	noch	noch	ADV	CARD	_	19	D	19:D	_
+19	übrig	übrig	ADV	ADJD	_	14	H	14:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 217017
+# text = Claudia Puig of USA Today reported that the chemistry between Dunst and Bettany was potent , with Dunst doing a fine job as a sassy and self - assured player .
+1	Claudia	Claudia	PROPN	NNP	_	6	A	6:A	_
+2	Puig	Puig	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	USA	USA	PROPN	NNP	_	1	E	1:E	_
+5	Today	today	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	reported	report	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	15	F	15:F	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	chemistry	chemistry	NOUN	NN	_	15	A	15:A	_
+10	between	between	ADP	IN	_	11	R	11:R	_
+11	Dunst	Dunst	PROPN	NNP	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	Bettany	Bettany	PROPN	NNP	_	11	C	11:C	_
+14	was	be	AUX	VBD	_	15	F	15:F	_
+15	potent	potent	ADJ	JJ	_	6	A	6:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	with	with	SCONJ	IN	_	15	L	15:L	_
+18	Dunst	Dunst	SCONJ	IN	_	22	A	22:A	_
+19	doing	do	VERB	VBG	_	22	D	22:D	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	fine	fine	ADJ	JJ	_	22	D	22:D	_
+22	job	job	NOUN	NN	_	15	H	15:H	_
+23	as	as	ADP	IN	_	30	R	30:R	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	sassy	sassy	NOUN	NN	_	30	E	30:E	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	self	self	NOUN	NN	_	29	E	29:E	_
+28	-	-	PUNCT	HYPH	_	29	U	29:U	_
+29	assured	assure	VERB	VBN	_	25	C	25:C	_
+30	player	player	NOUN	NN	_	22	A	22:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

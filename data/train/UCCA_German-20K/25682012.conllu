@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25682012
+# text = » Gewehre ! Wozu ? Bekämpfen Ihre Gebirgs bewohner nicht den Bären mit dem Dolch in der Hand , und ist nicht der Stahl eine zuverlässigere Waffe , als das Blei ? Hier ist eine gute Klinge , die stecken Sie in Ihren Gürtel , und nun vorwärts . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Gewehre	Gewehre	NOUN	NN	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Wozu	wozu	PROPN	NN	_	2	H	2:H	_
+5	?	?	PUNCT	$.	_	2	U	2:U	_
+6	Bekämpfen	bekämpfen	NOUN	NN	_	2	H	2:H	_
+7	Ihre	Ihr|ihr	DET	PPOSAT	_	9	E	9:E	_
+8	Gebirgs	Gebirgs	NOUN	NN	_	9	E	9:E	_
+9	bewohner	bewohner	ADJ	NN	_	6	A	6:A	_
+10	nicht	nicht	PART	XY	_	6	D	6:D	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Bären	Bär	NOUN	NN	_	6	A	6:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	dem	der	DET	ART	_	15	E	15:E	_
+15	Dolch	Dolch	NOUN	NN	_	6	A	6:A	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Hand	Hand	NOUN	NN	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	und	und	CCONJ	NE	_	2	L	2:L	_
+21	ist	sein	AUX	VVFIN	_	26	F	26:F|31:S	_
+22	nicht	nicht	PART	XY	_	26	D	26:D	_
+23	der	der	DET	ART	_	24	E	24:E	_
+24	Stahl	Stahl	NOUN	NN	_	26	A	26:A	_
+25	eine	ein	DET	ART	_	27	E	27:E	_
+26	zuverlässigere	zuverlässig	ADJ	ADJA	_	2	H	2:H	_
+27	Waffe	Waffe	NOUN	NN	_	26	A	26:A	_
+28	,	,	PUNCT	$,	_	2	U	2:U	_
+29	als	als	SCONJ	KOUS	_	2	L	2:L	_
+30	das	der	DET	PDS	_	31	E	31:E	_
+31	Blei	Blei	PROPN	PIAT	_	2	H	2:H	_
+32	?	?	PROPN	$.	_	2	U	2:U	_
+33	Hier	hier	PROPN	ADV	_	34	A	34:A	_
+34	ist	sein	AUX	VVFIN	_	2	H	2:H	_
+35	eine	ein	DET	ART	_	37	E	37:E	_
+36	gute	gut	ADJ	ADJA	_	37	E	37:E	_
+37	Klinge	Klinge	NOUN	NN	_	34	A	34:A	_
+38	,	,	PUNCT	$,	_	2	U	2:U	_
+39	die	der	PRON	PRELS	_	40	A	40:A	_
+40	stecken	stecken	VERB	VVFIN	_	2	H	2:H	_
+41	Sie	Sie|sie	PRON	PPER	_	40	A	40:A	_
+42	in	in	ADP	APPR	_	44	R	44:R	_
+43	Ihren	ihr	DET	PPOSAT	_	44	E	44:E	_
+44	Gürtel	Gürtel	NOUN	NN	_	40	A	40:A	_
+45	,	,	PUNCT	$,	_	2	U	2:U	_
+46	und	und	CCONJ	NE	_	2	L	2:L	_
+47	nun	nun	ADV	ADV	_	48	F	48:F	_
+48	vorwärts	vorwärts	ADV	ADV	_	2	H	2:H	_
+49	.	.	PUNCT	$.	_	48	U	48:U	_
+50	«	«	PUNCT	$(	_	48	U	48:U	_
+

@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25637015
+# text = Bei diesem Anlaß sagte er : » Dieser d'Urville ist einer Ihrer großen Seemänner gewesen , Ihrer einsichtsvollsten Seefahrer . Der arme Gelehrte ! Nachdem er mutig die Eisbänke des Südpols , die Korallen Ozeaniens , die Kannibalen des Pazifiks bestanden hatte , musste er jämmerlich auf einer Eisenbahn verunglücken ! «
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Anlaß	Anlaß	NOUN	NN	_	4	A	4:A	_
+4	sagte	sagt	VERB	VVFIN	_	0	H	0:H	_
+5	er	er	PRON	PPER	_	4	A	4:A|15:A	_
+6	:	:	PUNCT	$.	_	15	U	15:U	_
+7	»	»	PUNCT	$(	_	15	U	15:U	_
+8	Dieser	dies	PRON	PDAT	_	9	E	9:E	_
+9	d'Urville	d'Urville	NOUN	NE	_	0	C	0:C|19:A	_
+10	ist	sein	AUX	NE	_	15	F	15:F	_
+11	einer	ein	DET	PIS	_	14	E	14:E	_
+12	Ihrer	Ihrer	NOUN	PPOSAT	_	14	E	14:E	_
+13	großen	groß	ADJ	ADJA	_	14	E	14:E	_
+14	Seemänner	Seemänner	NOUN	NN	_	15	A	15:A	_
+15	gewesen	sein	AUX	PAV	_	4	H	4:H	_
+16	,	,	PUNCT	$,	_	19	U	19:U	_
+17	Ihrer	ihr	PRON	PPOSAT	_	19	E	19:E	_
+18	einsichtsvollsten	einsichtsvollsen	VERB	NN	_	19	E	19:E	_
+19	Seefahrer	Seefahrer	NOUN	NE	_	15	H	15:H	_
+20	.	.	PUNCT	$.	_	15	U	15:U	_
+21	Der	der	DET	ART	_	23	E	23:E	_
+22	arme	arm	ADJ	ADJA	_	15	H	15:H	_
+23	Gelehrte	Gelehrte	NOUN	ADJA	_	22	A	22:A	_
+24	!	!	PUNCT	$.	_	15	U	15:U	_
+25	Nachdem	nachdem	SCONJ	KOUS	_	15	L	15:L	_
+26	er	er	PRON	PPER	_	41	A	41:A	_
+27	mutig	mutig	ADJ	ADJD	_	41	D	41:D	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Eisbänke	Eisbänke	NOUN	NN	_	41	A	41:A	_
+30	des	der	DET	ART	_	31	R	31:R	_
+31	Südpols	Südpol	NOUN	NN	_	29	E	29:E	_
+32	,	,	PUNCT	$,	_	41	U	41:U	_
+33	die	der	DET	ART	_	34	E	34:E	_
+34	Korallen	Korallen	PROPN	NN	_	41	A	41:A	_
+35	Ozeaniens	Ozeanien	PROPN	NE	_	34	E	34:E	_
+36	,	,	PUNCT	$,	_	41	U	41:U	_
+37	die	der	DET	ART	_	38	E	38:E	_
+38	Kannibalen	Kannibale	NOUN	NN	_	41	A	41:A	_
+39	des	der	DET	ART	_	40	R	40:R	_
+40	Pazifiks	Pazifik	NOUN	NN	_	38	E	38:E	_
+41	bestanden	bestehen	VERB	VVPP	_	15	H	15:H	_
+42	hatte	haben	AUX	VAFIN	_	41	F	41:F	_
+43	,	,	PUNCT	$,	_	15	U	15:U	_
+44	musste	müssen	AUX	VVFIN	_	50	D	50:D	_
+45	er	er	PRON	PPER	_	50	A	50:A	_
+46	jämmerlich	jämmerlich	ADV	ADV	_	50	D	50:D	_
+47	auf	auf	ADP	APPR	_	49	R	49:R	_
+48	einer	ein	DET	ART	_	49	E	49:E	_
+49	Eisenbahn	Eisenbahn	NOUN	NN	_	50	A	50:A	_
+50	verunglücken	verunglücken	VERB	VVINF	_	15	H	15:H	_
+51	!	!	PUNCT	$.	_	50	U	50:U	_
+52	«	«	PUNCT	$(	_	50	U	50:U	_
+

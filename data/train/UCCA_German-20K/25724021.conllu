@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25724021
+# text = Stets das gleiche mönchische Aussehen .
+1	Stets	stets	ADV	ADV	_	5	D	5:D	_
+2	das	der	DET	ART	_	5	E	5:E	_
+3	gleiche	gleich	ADJ	ADJA	_	5	E	5:E	_
+4	mönchische	mönchisch	ADJ	ADJA	_	5	E	5:E	_
+5	Aussehen	Aussehen	NOUN	NN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

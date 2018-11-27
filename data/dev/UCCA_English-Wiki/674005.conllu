@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 674005
+# text = Merry Christmas II You debuted at number four on the Billboard 200 with sales of 56 , 000 copies , surpassing the opening week sales of Carey 's previous holiday album of 45,000 copies 16 years prior .
+1	Merry	Merry	PROPN	NNP	_	5	A	5:A	_
+2	Christmas	Christmas	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	II	ii	NUM	CD	_	1	Terminal	1:Terminal	_
+4	You	you	PRON	PRP	_	1	Terminal	1:Terminal	_
+5	debuted	debute	VERB	VBD	_	0	H	0:H	_
+6	at	at	ADP	IN	_	7	R	7:R	_
+7	number	number	NOUN	NN	_	5	A	5:A	_
+8	four	four	NUM	CD	_	7	E	7:E	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Billboard	Billboard	PROPN	NNP	_	7	E	7:E	_
+12	200	200	NUM	CD	_	11	Terminal	11:Terminal	_
+13	with	with	ADP	IN	_	5	L	5:L	_
+14	sales	sale	NOUN	NNS	_	5	H	5:H	_
+15	of	of	ADP	IN	_	14	R	14:R	_
+16	56	56	NUM	CD	_	19	E	19:E	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	000	000	NUM	CD	_	16	Terminal	16:Terminal	_
+19	copies	copy	NOUN	NNS	_	14	A	14:A	_
+20	,	,	PUNCT	,	_	5	U	5:U	_
+21	surpassing	surpass	VERB	VBG	_	5	H	5:H	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	opening	open	VERB	VBG	_	24	E	24:E	_
+24	week	week	NOUN	NN	_	25	E	25:E	_
+25	sales	sale	NOUN	NNS	_	21	A	21:A	_
+26	of	of	ADP	IN	_	25	R	25:R	_
+27	Carey	Carey	PROPN	NNP	_	31	E	31:E	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	previous	previous	ADJ	JJ	_	31	E	31:E	_
+30	holiday	holiday	NOUN	NN	_	31	E	31:E	_
+31	album	album	NOUN	NN	_	25	E	25:E	_
+32	of	of	ADP	IN	_	34	R	34:R	_
+33	45,000	45,000	NUM	CD	_	34	E	34:E	_
+34	copies	copy	NOUN	NNS	_	25	E	25:E	_
+35	16	16	NUM	CD	_	36	E	36:E	_
+36	years	year	NOUN	NNS	_	25	E	25:E	_
+37	prior	prior	ADJ	JJ	_	36	R	36:R	_
+38	.	.	PUNCT	.	_	36	U	36:U	_
+

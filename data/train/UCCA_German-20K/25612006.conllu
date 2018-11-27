@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25612006
+# text = Dort lagen 3 bis 4 Klafter tief , zwischen den Riffen Pacou und Vanou , Anker , Kanonen , Blöcke , Eisen und Blei , von Kalk stein masse umgeben .
+1	Dort	dort	ADV	ADV	_	2	A	2:A	_
+2	lagen	liegen	VERB	VVFIN	_	0	H	0:H	_
+3	3	3	NUM	CARD	_	6	E	6:E	_
+4	bis	bis	ADP	KON	_	3	N	3:N	_
+5	4	4	NUM	CARD	_	3	C	3:C	_
+6	Klafter	Klafter	NOUN	NN	_	2	A	2:A	_
+7	tief	tief	ADJ	VVFIN	_	2	D	2:D	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	zwischen	zwischen	ADP	ADJA	_	12	R	12:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Riffen	Riff	NOUN	NN	_	12	E	12:E	_
+12	Pacou	Pacou	PROPN	NE	_	2	A	2:A	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	Vanou	Vanou	PROPN	NE	_	12	C	12:C	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	Anker	Anker	NOUN	NE	_	2	A	2:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Kanonen	Kanone	NOUN	NN	_	16	C	16:C	_
+19	,	,	PUNCT	$,	_	16	U	16:U	_
+20	Blöcke	Block	NOUN	NN	_	16	C	16:C	_
+21	,	,	PUNCT	$,	_	16	U	16:U	_
+22	Eisen	Eisen	NOUN	NN	_	16	C	16:C	_
+23	und	und	CCONJ	NE	_	16	N	16:N	_
+24	Blei	Blei	NOUN	NE	_	16	C	16:C	_
+25	,	,	PUNCT	$,	_	16	U	16:U	_
+26	von	von	ADP	NE	_	28	R	28:R	_
+27	Kalk	Kalk	NOUN	NN	_	28	E	28:E	_
+28	stein	stein	DET	NE	_	30	A	30:A	_
+29	masse	masse	ADJ	NN	_	28	E	28:E	_
+30	umgeben	umgeben	ADJ	VVPP	_	16	E	16:E	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25608008
+# text = Darauf bekam er den Archipel Viti in Sicht , wo die Matrosen der Union und der Kommandant der " Aimable Josephine " , Kapitän Bureau , von den Wilden erschlagen wurden .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	bekam	bekommen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	den	der	DET	ART	_	6	E	6:E	_
+5	Archipel	Archipel	NOUN	NN	_	6	E	6:E	_
+6	Viti	Vito	PROPN	NE	_	2	A	2:A	_
+7	in	in	ADP	APPR	_	2	Terminal	2:Terminal	_
+8	Sicht	Sicht	NOUN	NN	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	wo	wo	ADV	NN	_	30	R	30:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Matrosen	Matrose	NOUN	NN	_	30	A	30:A	_
+13	der	der	DET	ART	_	14	R	14:R	_
+14	Union	Union	NOUN	NE	_	12	E	12:E	_
+15	und	und	CCONJ	NE	_	12	N	12:N	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Kommandant	Kommandant	NOUN	NN	_	24	E	24:E	_
+18	der	der	DET	ART	_	20	R	20:R	_
+19	"	"	PUNCT	$(	_	20	U	20:U	_
+20	Aimable	Aimable	PROPN	NE	_	17	A	17:A	_
+21	Josephine	Josephine	PROPN	NE	_	20	Terminal	20:Terminal	_
+22	"	"	PUNCT	$(	_	17	U	17:U	_
+23	,	,	PUNCT	$,	_	17	U	17:U	_
+24	Kapitän	Kapitän	NOUN	NN	_	12	C	12:C	_
+25	Bureau	Bureau	PROPN	NE	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	$,	_	30	U	30:U	_
+27	von	von	ADP	NE	_	29	R	29:R	_
+28	den	der	DET	ART	_	29	E	29:E	_
+29	Wilden	Wilde	NOUN	NN	_	30	A	30:A	_
+30	erschlagen	erschlagen	VERB	VVPP	_	6	E	6:E	_
+31	wurden	werden	AUX	ADJD	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

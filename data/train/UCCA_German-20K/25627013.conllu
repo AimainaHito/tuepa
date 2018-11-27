@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25627013
+# text = » Aber es gibt darunter auch eßbare ! « erwiderte der Harpunier .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+3	es	es	PRON	PPER	_	4	F	4:F	_
+4	gibt	geben	VERB	VVFIN	_	10	A	10:A	_
+5	darunter	darunter	ADV	PAV	_	4	A	4:A	_
+6	auch	auch	ADV	ADV	_	4	D	4:D	_
+7	eßbare	eßbar	ADJ	ADJA	_	4	D	4:D	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Harpunier	Harpunier	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 244004
+# text = In high school , Hawke aspired to be a writer , but developed an interest in acting .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	high	high	ADJ	JJ	_	0	H	0:H	_
+3	school	school	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	Hawke	Hawke	PROPN	NNP	_	6	A	6:A|8:A|13:A|2:A|17:A	_
+6	aspired	aspire	VERB	VBD	_	2	H	2:H	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	be	be	AUX	VB	_	6	A	6:A	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	writer	writer	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	but	but	CCONJ	CC	_	2	L	2:L	_
+13	developed	develop	VERB	VBD	_	2	H	2:H	_
+14	an	a	DET	DT	_	15	E	15:E	_
+15	interest	interest	NOUN	NN	_	13	A	13:A	_
+16	in	in	SCONJ	IN	_	17	R	17:R	_
+17	acting	act	VERB	VBG	_	15	E	15:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

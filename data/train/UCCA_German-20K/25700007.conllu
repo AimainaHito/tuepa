@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25700007
+# text = Als ich ihnen sagte , dass wir in 2 Tagen uns mitten im Mittelmeer befinden würden , klatschte Conseil mit den Händen , aber der Kanadier zuckte die Achseln .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	ihnen	sie	PRON	PPER	_	4	A	4:A	_
+4	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+7	wir	wir	PRON	NE	_	11	A	11:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	2	2	NUM	CARD	_	10	E	10:E	_
+10	Tagen	Tag	NOUN	NN	_	11	D	11:D	_
+11	uns	wir	PRON	NN	_	4	A	4:A	_
+12	mitten	mitten	ADV	ADV	_	14	R	14:R	_
+13	im	im	PROPN	NE	_	12	Terminal	12:Terminal	_
+14	Mittelmeer	Mittelmeer	PROPN	NE	_	11	A	11:A	_
+15	befinden	befinden	VERB	VVFIN	_	11	Terminal	11:Terminal	_
+16	würden	werden	AUX	ADJD	_	11	D	11:D	_
+17	,	,	PUNCT	$,	_	4	U	4:U	_
+18	klatschte	klatscht	ADJ	NN	_	4	H	4:H	_
+19	Conseil	Conseil	NOUN	NE	_	18	A	18:A	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Händen	Hand	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	$,	_	4	U	4:U	_
+24	aber	aber	CCONJ	KON	_	4	L	4:L	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Kanadier	Kanadier	NOUN	NN	_	27	A	27:A	_
+27	zuckte	zucken	VERB	VVFIN	_	4	H	4:H	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Achseln	Achsel	NOUN	NN	_	27	A	27:A	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

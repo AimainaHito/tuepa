@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25714007
+# text = » Dann erlauben Sie mir , mein Herr , Ihnen gute Nacht zu wünschen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Dann	dann	ADV	ADV	_	3	L	3:L	_
+3	erlauben	erlauben	VERB	VVFIN	_	0	H	0:H	_
+4	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	mir	ich	PRON	PPER	_	3	A	3:A|14:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herr	Herr	NOUN	NN	_	3	G	3:G	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	Ihnen	sie	PRON	PPER	_	14	A	14:A	_
+11	gute	gut	ADJ	ADJA	_	12	E	12:E	_
+12	Nacht	Nacht	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	wünschen	wünschen	VERB	VVINF	_	3	A	3:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+16	«	«	PUNCT	$(	_	14	U	14:U	_
+

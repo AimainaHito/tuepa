@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 381011
+# text = He shot a commercial for Rock the Vote , and along with his sister , visited the University of Southern California to encourage students to vote during the 2004 U.S. Election .
+1	He	he	PRON	PRP	_	2	A	2:A|16:A|23:A	_
+2	shot	shot	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	commercial	commercial	ADJ	JJ	_	2	A	2:A	_
+5	for	for	ADP	IN	_	6	R	6:R	_
+6	Rock	rock	NOUN	NN	_	2	A	2:A	_
+7	the	the	DET	DT	_	6	Terminal	6:Terminal	_
+8	Vote	vote	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	along	along	ADP	IN	_	14	R	14:R	_
+12	with	with	ADP	IN	_	11	Terminal	11:Terminal	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	sister	sister	NOUN	NN	_	16	A	16:A	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	visited	visit	VERB	VBD	_	2	H	2:H	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	University	University	PROPN	NNP	_	16	A	16:A	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	Southern	Southern	PROPN	NNP	_	18	E	18:E	_
+21	California	California	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	to	to	PART	TO	_	2	L	2:L	_
+23	encourage	encourage	VERB	VB	_	2	H	2:H	_
+24	students	student	NOUN	NNS	_	23	A	23:A|26:A	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	vote	vote	VERB	VB	_	23	A	23:A	_
+27	during	during	ADP	IN	_	2	L	2:L	_
+28	the	the	DET	DT	_	31	E	31:E	_
+29	2004	2004	NUM	CD	_	31	E	31:E	_
+30	U.S.	U.S.	PROPN	NNP	_	31	E	31:E	_
+31	Election	Election	PROPN	NNP	_	2	H	2:H	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

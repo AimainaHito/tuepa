@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 494012
+# text = His mother promptly arranged his employment as an electrician 's mate .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	mother	mother	NOUN	NN	_	4	A	4:A	_
+3	promptly	promptly	ADV	RB	_	4	D	4:D	_
+4	arranged	arrange	VERB	VBD	_	0	H	0:H	_
+5	his	he	PRON	PRP$	_	6	A	6:A	_
+6	employment	employment	NOUN	NN	_	4	A	4:A	_
+7	as	as	ADP	IN	_	11	R	11:R	_
+8	an	a	DET	DT	_	11	E	11:E	_
+9	electrician	electrician	NOUN	NN	_	11	E	11:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	mate	mate	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

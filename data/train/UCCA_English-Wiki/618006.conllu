@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 618006
+# text = Starting with the August 1968 release " Hey Jude " / " Revolution " , their new material would be issued with Apple labels , logos and sleeves , but with Parlophone or Capitol serial numbers .
+1	Starting	start	VERB	VBG	_	6	L	6:L	_
+2	with	with	ADP	IN	_	1	F	1:F	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	August	August	PROPN	NNP	_	6	D	6:D	_
+5	1968	1968	NUM	CD	_	4	Terminal	4:Terminal	_
+6	release	release	NOUN	NN	_	0	H	0:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	Hey	hey	INTJ	UH	_	6	A	6:A	_
+9	Jude	Jude	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	"	"	PUNCT	''	_	8	U	8:U	_
+11	/	/	PUNCT	,	_	8	U	8:U	_
+12	"	"	PUNCT	``	_	8	U	8:U	_
+13	Revolution	Revolution	PROPN	NNP	_	8	C	8:C	_
+14	"	"	PUNCT	''	_	6	U	6:U	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	their	they	PRON	PRP$	_	18	E	18:E	_
+17	new	new	ADJ	JJ	_	18	E	18:E	_
+18	material	material	NOUN	NN	_	21	A	21:A	_
+19	would	would	AUX	MD	_	21	F	21:F	_
+20	be	be	AUX	VB	_	21	F	21:F	_
+21	issued	issue	VERB	VBN	_	6	H	6:H	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	Apple	Apple	PROPN	NNP	_	24	E	24:E	_
+24	labels	label	NOUN	NNS	_	21	A	21:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	logos	logo	NOUN	NNS	_	24	C	24:C	_
+27	and	and	CCONJ	CC	_	24	N	24:N	_
+28	sleeves	sleeve	NOUN	NNS	_	24	C	24:C	_
+29	,	,	PUNCT	,	_	24	U	24:U	_
+30	but	but	CCONJ	CC	_	24	N	24:N	_
+31	with	with	ADP	IN	_	36	R	36:R	_
+32	Parlophone	Parlophone	PROPN	NNP	_	36	E	36:E	_
+33	or	or	CCONJ	CC	_	32	N	32:N	_
+34	Capitol	Capitol	PROPN	NNP	_	32	C	32:C	_
+35	serial	serial	ADJ	JJ	_	36	E	36:E	_
+36	numbers	number	NOUN	NNS	_	24	C	24:C	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

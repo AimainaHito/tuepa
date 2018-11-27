@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 566006
+# text = Some commentators have claimed that Parker orchestrated an appearance of censorship to generate publicity .
+1	Some	some	DET	DT	_	2	E	2:E	_
+2	commentators	commentator	NOUN	NNS	_	4	A	4:A	_
+3	have	have	AUX	VBP	_	4	F	4:F	_
+4	claimed	claim	VERB	VBN	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	7	R	7:R	_
+6	Parker	Parker	PROPN	NNP	_	7	A	7:A|13:A	_
+7	orchestrated	orchestrate	VERB	VBD	_	4	A	4:A	_
+8	an	a	DET	DT	_	9	E	9:E	_
+9	appearance	appearance	NOUN	NN	_	7	A	7:A	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	censorship	censorship	NOUN	NN	_	9	E	9:E	_
+12	to	to	PART	TO	_	7	L	7:L	_
+13	generate	generate	VERB	VB	_	7	H	7:H	_
+14	publicity	publicity	NOUN	NN	_	13	A	13:A	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

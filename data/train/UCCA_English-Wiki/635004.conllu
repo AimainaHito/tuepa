@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 635004
+# text = Later , in an elevator at a nightclub , they all believed it was on fire : " We were all screaming ... hot and hysterical .
+1	Later	later	ADV	RB	_	12	D	12:D	_
+2	,	,	PUNCT	,	_	12	U	12:U	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	an	a	DET	DT	_	5	E	5:E	_
+5	elevator	elevator	NOUN	NN	_	12	A	12:A	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	nightclub	nightclub	NOUN	NN	_	5	E	5:E	_
+9	,	,	PUNCT	,	_	12	U	12:U	_
+10	they	they	PRON	PRP	_	12	A	12:A	_
+11	all	all	DET	DT	_	10	F	10:F	_
+12	believed	believe	VERB	VBD	_	0	H	0:H	_
+13	it	it	PRON	PRP	_	16	A	16:A	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	on	on	ADP	IN	_	16	R	16:R	_
+16	fire	fire	NOUN	NN	_	12	A	12:A	_
+17	:	:	PUNCT	:	_	12	U	12:U	_
+18	"	"	PUNCT	``	_	12	U	12:U	_
+19	We	we	PRON	PRP	_	22	A	22:A	_
+20	were	be	AUX	VBD	_	22	F	22:F	_
+21	all	all	ADV	RB	_	22	F	22:F	_
+22	screaming	scream	VERB	VBG	_	12	H	12:H	_
+23	...	...	PUNCT	,	_	22	U	22:U	_
+24	hot	hot	ADJ	JJ	_	22	A	22:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	hysterical	hysterical	ADJ	JJ	_	24	C	24:C	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+

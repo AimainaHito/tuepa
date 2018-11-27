@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25813018
+# text = Als diese Wolke sich zerstreute , war der Kalmar verschwunden samt meinem unglücklichen Landsmann !
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	diese	dies	PRON	PDS	_	3	E	3:E	_
+3	Wolke	Wolke	NOUN	NE	_	4	A	4:A	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	zerstreute	zerstreuen	VERB	VVFIN	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	war	sein	AUX	ADV	_	10	F	10:F	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kalmar	Kalmar	NOUN	NE	_	10	A	10:A	_
+10	verschwunden	verschwinden	VERB	VVPP	_	4	H	4:H	_
+11	samt	samt	ADP	APPR	_	14	R	14:R	_
+12	meinem	mein	PRON	PPOSAT	_	14	E	14:E	_
+13	unglücklichen	unglücklich	ADJ	ADJA	_	14	E	14:E	_
+14	Landsmann	Landsmann	NOUN	NN	_	10	A	10:A	_
+15	!	!	PUNCT	$.	_	14	U	14:U	_
+

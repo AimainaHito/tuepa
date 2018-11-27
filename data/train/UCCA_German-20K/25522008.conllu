@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25522008
+# text = Um die Mitte der Plattform bildete das kleine Boot , das zur Hälfte in den Schiffs rumpf eingelassen war , eine leichte Erhöhung .
+1	Um	um	ADP	KOUI	_	3	R	3:R	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Mitte	Mitte	NOUN	NN	_	6	A	6:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Plattform	Plattform	NOUN	NN	_	3	E	3:E	_
+6	bildete	bilden	VERB	VVFIN	_	0	H	0:H	_
+7	das	der	DET	ART	_	9	E	9:E	_
+8	kleine	klein	ADJ	ADJA	_	9	E	9:E	_
+9	Boot	Boot	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	das	der	PRON	PRELS	_	18	R	18:R	_
+12	zur	zur	ADV	NE	_	13	R	13:R	_
+13	Hälfte	Hälfte	NOUN	NE	_	18	A	18:A	_
+14	in	in	ADP	APPR	_	17	R	17:R	_
+15	den	der	DET	ART	_	17	E	17:E	_
+16	Schiffs	Schiff	NOUN	NN	_	17	E	17:E	_
+17	rumpf	rumpf	ADV	ADJD	_	18	A	18:A	_
+18	eingelassen	einlassen	VERB	VVFIN	_	9	E	9:E	_
+19	war	sein	AUX	ADV	_	18	F	18:F	_
+20	,	,	PUNCT	$,	_	6	U	6:U	_
+21	eine	ein	DET	ART	_	23	E	23:E	_
+22	leichte	leicht	ADJ	ADJA	_	23	E	23:E	_
+23	Erhöhung	Erhöhung	NOUN	NN	_	6	A	6:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

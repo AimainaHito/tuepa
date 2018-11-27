@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25771021
+# text = 2 Stunden später waren wir darum herumgefahren .
+1	2	2	NUM	CARD	_	2	E	2:E	_
+2	Stunden	Stunde|Stunden	NOUN	NN	_	7	D	7:D	_
+3	später	spät	ADJ	ADJD	_	7	D	7:D	_
+4	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+5	wir	wir	PRON	NE	_	7	A	7:A	_
+6	darum	darum	ADV	PAV	_	7	R	7:R	_
+7	herumgefahren	herumgefahren	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

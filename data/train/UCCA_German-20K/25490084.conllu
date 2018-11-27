@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25490084
+# text = « Es war besser , den Vorschlag des Harpuniers gelten zu lassen , als darüber zu reden .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	Es	es	PRON	PPER	_	4	F	4:F	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	besser	gut	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Vorschlag	Vorschlag	NOUN	NN	_	10	A	10:A	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Harpuniers	Harpunier	NOUN	NN	_	7	E	7:E	_
+10	gelten	gelten	VERB	VVFIN	_	4	A	4:A	_
+11	zu	zu	PART	VVINF	_	10	F	10:F	_
+12	lassen	lassen	VERB	VVINF	_	10	D	10:D	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	als	als	SCONJ	KOUS	_	17	R	17:R	_
+15	darüber	darüber	PRON	PAV	_	17	A	17:A	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	reden	reden	VERB	VVINF	_	4	H	4:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

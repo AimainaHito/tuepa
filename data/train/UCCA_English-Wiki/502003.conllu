@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 502003
+# text = When on tour , he took to sketching in a notebook , and photographing scenes for later reference .
+1	When	when	ADV	WRB	_	3	L	3:L	_
+2	on	on	ADP	IN	_	3	R	3:R	_
+3	tour	tour	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	he	he	PRON	PRP	_	6	A	6:A|8:A|14:A	_
+6	took	take	VERB	VBD	_	3	H	3:H	_
+7	to	to	SCONJ	IN	_	8	F	8:F	_
+8	sketching	sketching	VERB	VBG	_	6	A	6:A	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	notebook	notebook	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	and	and	CCONJ	CC	_	8	L	8:L	_
+14	photographing	photographing	NOUN	NN	_	8	H	8:H	_
+15	scenes	scene	NOUN	NNS	_	14	A	14:A	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	later	later	ADJ	JJR	_	18	E	18:E	_
+18	reference	reference	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

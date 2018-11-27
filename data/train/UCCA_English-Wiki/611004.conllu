@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 611004
+# text = In July 2011 , McCartney played two sold - out concerts at the new Yankee Stadium .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	6	D	6:D	_
+3	2011	2011	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	McCartney	McCartney	PROPN	NNP	_	6	A	6:A	_
+6	played	play	VERB	VBD	_	0	H	0:H	_
+7	two	two	NUM	CD	_	11	E	11:E	_
+8	sold	sell	VERB	VBN	_	11	E	11:E	_
+9	-	-	PUNCT	HYPH	_	8	U	8:U	_
+10	out	out	ADP	RP	_	8	E	8:E	_
+11	concerts	concert	NOUN	NNS	_	6	A	6:A	_
+12	at	at	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	new	new	ADJ	JJ	_	15	E	15:E	_
+15	Yankee	Yankee	PROPN	NNP	_	6	A	6:A	_
+16	Stadium	stadium	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

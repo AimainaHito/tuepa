@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25802001
+# text = Während dieser beiden Tage , am 11 . und 12 . April , blieb die ›Nautilus‹ auf der Oberfläche , und ihr Sacknetz tat einen wundervollen Fang an Zoophyten , Fischen und Reptilien .
+1	Während	während	SCONJ	KOUS	_	4	R	4:R	_
+2	dieser	dies	PRON	PDS	_	4	E	4:E	_
+3	beiden	beide	PRON	PIAT	_	4	E	4:E	_
+4	Tage	Tag	NOUN	NN	_	14	D	14:D	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	am	ommen	VERB	ADJD	_	7	R	7:R	_
+7	11	11	NUM	CARD	_	4	E	4:E	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	N	7:N	_
+10	12	12	NUM	CARD	_	7	C	7:C	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	April	April	PROPN	NN	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	A	14:A	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Oberfläche	Oberfläche	NOUN	NN	_	14	A	14:A	_
+20	,	,	PUNCT	$,	_	14	U	14:U	_
+21	und	und	CCONJ	NN	_	14	L	14:L	_
+22	ihr	ihr	DET	PPOSAT	_	23	E	23:E	_
+23	Sacknetz	Sacknetz	NOUN	NN	_	27	A	27:A	_
+24	tat	tun	VERB	VVFIN	_	27	D	27:D	_
+25	einen	ein	DET	ART	_	27	E	27:E	_
+26	wundervollen	wundervoll	ADJ	ADJA	_	27	D	27:D	_
+27	Fang	Fang	NOUN	NN	_	14	H	14:H	_
+28	an	an	ADP	APPR	_	29	R	29:R	_
+29	Zoophyten	Zoophyten	NOUN	NN	_	27	A	27:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	Fischen	Fisch|Fischen	NOUN	NN	_	29	C	29:C	_
+32	und	und	CCONJ	NE	_	29	N	29:N	_
+33	Reptilien	Reptil	NOUN	NE	_	29	C	29:C	_
+34	.	.	PUNCT	$.	_	29	U	29:U	_
+

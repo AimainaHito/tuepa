@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 729012
+# text = She also starred opposite Johnny Depp in The Tourist ( 2010 ) , which was a major critical failure .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	opposite	opposite	SCONJ	IN	_	5	R	5:R	_
+5	Johnny	Johnny	PROPN	NNP	_	3	A	3:A	_
+6	Depp	Depp	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	The	the	DET	DT	_	3	A	3:A	_
+9	Tourist	Tourist	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+11	2010	2010	NUM	CD	_	8	E	8:E	_
+12	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	which	which	PRON	WDT	_	19	F	19:F	_
+15	was	be	AUX	VBD	_	19	F	19:F	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	major	major	ADJ	JJ	_	19	D	19:D	_
+18	critical	critical	ADJ	JJ	_	19	A	19:A	_
+19	failure	failure	NOUN	NN	_	8	E	8:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

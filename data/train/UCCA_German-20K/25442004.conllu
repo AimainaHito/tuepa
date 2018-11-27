@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25442004
+# text = Kommandant Farragut hatte wohl sehr weise getan , diesen Mann für sein Schiff zu gewinnen .
+1	Kommandant	Kommandant	NOUN	NN	_	2	E	2:E	_
+2	Farragut	Farragut	PROPN	NE	_	7	A	7:A	_
+3	hatte	haben	AUX	VAFIN	_	7	F	7:F	_
+4	wohl	wohl	ADV	ADV	_	7	D	7:D	_
+5	sehr	sehr	ADV	NE	_	6	E	6:E	_
+6	weise	weise	ADV	ADV	_	7	D	7:D	_
+7	getan	getan	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	diesen	dies	PRON	PDAT	_	10	E	10:E	_
+10	Mann	Mann	NOUN	NN	_	15	A	15:A	_
+11	für	für	ADP	APPR	_	13	R	13:R	_
+12	sein	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Schiff	Schiff	NOUN	NN	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	gewinnen	gewinnen	VERB	VVINF	_	7	A	7:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

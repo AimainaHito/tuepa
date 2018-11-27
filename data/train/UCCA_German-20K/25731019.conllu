@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25731019
+# text = Das ist alles .
+1	Das	der	PRON	PDS	_	2	A	2:A	_
+2	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+3	alles	alle	PRON	PIS	_	2	A	2:A	_
+4	.	.	PUNCT	$.	_	2	U	2:U	_
+

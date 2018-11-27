@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25486008
+# text = Um 10 Uhr 50 kam die elektrische helle Stelle wieder zum Vorschein , 3 Meilen von der Fregatte , so rein und stark wie in der vorigen Nacht .
+1	Um	um	ADP	APPR	_	2	E	2:E	_
+2	10	10	NUM	CARD	_	5	D	5:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	50	50	NUM	CARD	_	2	Terminal	2:Terminal	_
+5	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	9	E	9:E	_
+7	elektrische	elektrisch	ADJ	ADJA	_	9	E	9:E	_
+8	helle	hell	ADJ	ADJA	_	9	E	9:E	_
+9	Stelle	Stelle	NOUN	NN	_	0	C	0:C|21:A|28:A	_
+10	wieder	wieder	ADV	NE	_	5	D	5:D	_
+11	zum	zum	ADP	NN	_	5	Terminal	5:Terminal	_
+12	Vorschein	Vorschein	NOUN	NE	_	5	Terminal	5:Terminal	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	3	3	NUM	CARD	_	15	E	15:E	_
+15	Meilen	Meile	NOUN	NN	_	5	A	5:A	_
+16	von	von	ADP	NN	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Fregatte	Fregatte	NOUN	NN	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	5	U	5:U	_
+20	so	so	ADV	ADV	_	21	F	21:F	_
+21	rein	rein	ADJ	ADJA	_	5	H	5:H	_
+22	und	und	CCONJ	NE	_	21	N	21:N	_
+23	stark	stark	ADJ	NE	_	21	C	21:C|28:S	_
+24	wie	wie	ADP	NE	_	28	R	28:R	_
+25	in	in	ADP	APPR	_	28	R	28:R	_
+26	der	der	DET	ART	_	28	E	28:E	_
+27	vorigen	vorig	ADJ	ADJA	_	28	E	28:E	_
+28	Nacht	Nacht	NOUN	NN	_	5	H	5:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

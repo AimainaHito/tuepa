@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 698002
+# text = At Dylan 's insistence , Robertson and Kooper came down from New York City to play on the sessions .
+1	At	at	ADP	IN	_	4	L	4:L	_
+2	Dylan	Dylan	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	insistence	insistence	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Robertson	Robertson	PROPN	NNP	_	9	A	9:A|16:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	Kooper	Kooper	PROPN	NNP	_	6	C	6:C	_
+9	came	come	VERB	VBD	_	4	H	4:H	_
+10	down	down	ADV	RB	_	9	Terminal	9:Terminal	_
+11	from	from	ADP	IN	_	12	R	12:R	_
+12	New	New	PROPN	NNP	_	9	A	9:A	_
+13	York	York	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	City	City	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	to	to	PART	TO	_	4	L	4:L	_
+16	play	play	VERB	VB	_	4	H	4:H	_
+17	on	on	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	sessions	session	NOUN	NNS	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

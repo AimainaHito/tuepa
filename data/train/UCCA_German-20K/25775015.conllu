@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25775015
+# text = Daher sind auch die Robben einer gewissen Erziehung fähig ; sie lassen sich leicht zähmen , und ich bin mit einigen Naturforschern der Meinung , dass sie , gehörig abgerichtet , bei der Fischerei wie Hunde zu gebrauchen sein würden .
+1	Daher	daher	ADV	PAV	_	9	L	9:L	_
+2	sind	sein	AUX	NN	_	9	F	9:F	_
+3	auch	auch	ADV	ADV	_	9	L	9:L	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Robben	Robbe	NOUN	NN	_	9	A	9:A	_
+6	einer	ein	DET	ART	_	8	E	8:E	_
+7	gewissen	gewiß	ADJ	ADJA	_	8	D	8:D	_
+8	Erziehung	Erziehung	NOUN	NN	_	9	A	9:A	_
+9	fähig	fähig	ADJ	ADJD	_	0	H	0:H	_
+10	;	;	PUNCT	$.	_	9	U	9:U	_
+11	sie	sie	PRON	ADV	_	13	A	13:A	_
+12	lassen	lassen	VERB	VVFIN	_	13	D	13:D	_
+13	sich	er|es|sie	PRON	PRF	_	9	H	9:H	_
+14	leicht	leicht	ADJ	PTKVZ	_	13	D	13:D	_
+15	zähmen	zähmen	NOUN	NN	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	$,	_	9	U	9:U	_
+17	und	und	CCONJ	NE	_	9	L	9:L	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	bin	sein	AUX	VAFIN	_	9	H	9:H	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	einigen	einige	PRON	PIAT	_	22	E	22:E	_
+22	Naturforschern	Naturforscher	NOUN	NN	_	19	A	19:A	_
+23	der	der	DET	ART	_	19	Terminal	19:Terminal	_
+24	Meinung	Meinung	NOUN	NN	_	19	Terminal	19:Terminal	_
+25	,	,	PUNCT	$,	_	19	U	19:U	_
+26	dass	dass	SCONJ	KOUS	_	38	R	38:R	_
+27	sie	sie	PRON	ADV	_	38	A	38:A|30:A	_
+28	,	,	PUNCT	$,	_	30	U	30:U	_
+29	gehörig	gehörig	ADJ	ADJD	_	30	D	30:D	_
+30	abgerichtet	abgerichten	ADJ	VVPP	_	38	H	38:H	_
+31	,	,	PUNCT	$,	_	38	U	38:U	_
+32	bei	bei	ADP	APPR	_	34	R	34:R	_
+33	der	der	DET	ART	_	34	E	34:E	_
+34	Fischerei	Fischerei	NOUN	NN	_	38	H	38:H	_
+35	wie	wie	ADP	ADJA	_	36	D	36:D	_
+36	Hunde	Hund	NOUN	NN	_	38	H	38:H	_
+37	zu	zu	PART	NN	_	38	F	38:F	_
+38	gebrauchen	brauchen	VERB	ADJA	_	19	A	19:A	_
+39	sein	sein	AUX	VAINF	_	38	F	38:F	_
+40	würden	werden	AUX	ADJD	_	38	D	38:D	_
+41	.	.	PUNCT	$.	_	38	U	38:U	_
+

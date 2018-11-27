@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 498008
+# text = His own Aladdin Sane ( 1973 ) topped the UK chart , his first number one album .
+1	His	he	PRON	PRP$	_	3	D	3:D	_
+2	own	own	ADJ	JJ	_	1	E	1:E	_
+3	Aladdin	Aladdin	PROPN	NNP	_	8	A	8:A	_
+4	Sane	Sane	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	(	(	PUNCT	-LRB-	_	3	U	3:U	_
+6	1973	1973	NUM	CD	_	3	D	3:D	_
+7	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+8	topped	top	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	UK	UK	PROPN	NNP	_	11	E	11:E	_
+11	chart	chart	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	his	he	PRON	PRP$	_	17	E	17:E	_
+14	first	first	ADJ	JJ	_	17	E	17:E	_
+15	number	number	NOUN	NN	_	17	E	17:E	_
+16	one	one	NUM	CD	_	15	E	15:E	_
+17	album	album	NOUN	NN	_	3	E	3:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

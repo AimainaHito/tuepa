@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25488000
+# text = Ein Walfisch unbekannter Art So sehr mich dieser unerwartete Fall überraschte , behielt ich doch eine klare Vorstellung dessen , was ich empfand .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Walfisch	Walfisch	NOUN	ADJA	_	3	A	3:A	_
+3	unbekannter	unbekannt	ADJ	ADJA	_	0	H	0:H	_
+4	Art	Art	NOUN	NN	_	3	A	3:A	_
+5	So	so	ADV	ADV	_	3	L	3:L	_
+6	sehr	sehr	ADV	NE	_	5	Terminal	5:Terminal	_
+7	mich	ich	PRON	PPER	_	11	A	11:A	_
+8	dieser	dies	PRON	PDS	_	10	E	10:E	_
+9	unerwartete	unerwartet	ADJ	VVFIN	_	10	E	10:E	_
+10	Fall	Fall	NOUN	NN	_	11	A	11:A	_
+11	überraschte	überraschen	VERB	VVFIN	_	3	H	3:H	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	behielt	behalten	VERB	VVFIN	_	3	H	3:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A|18:A	_
+15	doch	doch	ADV	ADV	_	13	D	13:D	_
+16	eine	ein	DET	ART	_	18	E	18:E	_
+17	klare	klar	ADJ	ADJA	_	18	E	18:E	_
+18	Vorstellung	Vorstellung	NOUN	NN	_	13	A	13:A	_
+19	dessen	der	PRON	PDAT	_	18	R	18:R	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	was	was	PRON	NE	_	23	A	23:A	_
+22	ich	ich	PRON	PPER	_	23	A	23:A	_
+23	empfand	empfinden	VERB	VVFIN	_	18	E	18:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

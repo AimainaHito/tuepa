@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25763015
+# text = Und , offen gestanden , diese abenteuerliche Fahrt war mir nicht zuwider .
+1	Und	und	CCONJ	ADJD	_	4	L	4:L	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	offen	offen	ADV	CARD	_	4	D	4:D	_
+4	gestanden	gestehen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	diese	dies	PRON	PDAT	_	8	E	8:E	_
+7	abenteuerliche	abenteuerlich	ADJ	ADJA	_	8	D	8:D	_
+8	Fahrt	Fahrt	NOUN	NN	_	12	A	12:A	_
+9	war	sein	AUX	ADV	_	12	F	12:F	_
+10	mir	ich	PRON	PPER	_	12	A	12:A	_
+11	nicht	nicht	PART	NN	_	12	D	12:D	_
+12	zuwider	zuwider	ADV	PIAT	_	4	H	4:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

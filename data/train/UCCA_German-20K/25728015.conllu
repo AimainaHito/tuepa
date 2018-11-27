@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25728015
+# text = » Ich wußte « , erwiderte ich , » daß man das in den Gewässern außer Umlauf gesetzte Geld auf 2 Millionen Tonnen anschlägt . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	wußte	wußen	VERB	VMFIN	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	daß	daß	SCONJ	KOUS	_	24	R	24:R	_
+11	man	man	PRON	PIS	_	24	A	24:A	_
+12	das	der	DET	ART	_	19	E	19:E	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Gewässern	Gewässer	NOUN	NN	_	18	A	18:A	_
+16	außer	außer	ADP	APPR	_	17	R	17:R	_
+17	Umlauf	Umlauf	NOUN	NN	_	18	A	18:A	_
+18	gesetzte	gesetzt	ADJ	ADJA	_	19	E	19:E	_
+19	Geld	Geld	NOUN	NN	_	24	A	24:A	_
+20	auf	auf	ADP	APPR	_	23	R	23:R	_
+21	2	2	NUM	CARD	_	22	E	22:E	_
+22	Millionen	Million	NOUN	NN	_	23	E	23:E	_
+23	Tonnen	Tonne	NOUN	NN	_	24	A	24:A	_
+24	anschlägt	anschlagen	VERB	VVFIN	_	3	A	3:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

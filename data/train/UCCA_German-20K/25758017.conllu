@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25758017
+# text = » Doch haben Sie mir im Roten Meer gestattet , den Dugong zu verfolgen . «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Doch	doch	ADV	ADV	_	9	L	9:L	_
+3	haben	haben	AUX	VAFIN	_	9	F	9:F	_
+4	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+5	mir	ich	PRON	PPER	_	9	A	9:A|14:A	_
+6	im	im	ADV	NN	_	7	R	7:R	_
+7	Roten	rot	PROPN	ADJA	_	9	A	9:A	_
+8	Meer	Meer	PROPN	NN	_	7	E	7:E	_
+9	gestattet	gestatten|statten	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Dugong	Dugong	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	verfolgen	verfolgen	VERB	VVINF	_	9	A	9:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+16	«	«	PUNCT	$(	_	14	U	14:U	_
+

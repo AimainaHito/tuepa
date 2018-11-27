@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25515015
+# text = Der erstere ist mindestens 5 Zentimeter dick und wiegt 394,96 Tonnen .
+1	Der	der	DET	ART	_	7	A	7:A	_
+2	erstere	erst	NOUN	ADJA	_	1	E	1:E|9:A	_
+3	ist	sein	AUX	NN	_	7	F	7:F	_
+4	mindestens	mindestens	ADV	ADV	_	7	D	7:D	_
+5	5	5	NUM	CARD	_	6	E	6:E	_
+6	Zentimeter	Zentimeter	NOUN	NN	_	7	A	7:A	_
+7	dick	dick	ADJ	ADJD	_	0	H	0:H	_
+8	und	und	CCONJ	NE	_	7	L	7:L	_
+9	wiegt	wiegt	VERB	VVFIN	_	7	H	7:H	_
+10	394,96	394,96	NUM	CARD	_	11	E	11:E	_
+11	Tonnen	Tonne	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 505002
+# text = The album 's hard rock edge included conspicuous guitar contributions from Robert Fripp , Pete Townshend , Chuck Hammer and Tom Verlaine .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	6	E	6:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	hard	hard	ADJ	JJ	_	5	E	5:E	_
+5	rock	rock	NOUN	NN	_	6	E	6:E	_
+6	edge	edge	NOUN	NN	_	7	A	7:A	_
+7	included	include	VERB	VBD	_	0	H	0:H	_
+8	conspicuous	conspicuous	ADJ	JJ	_	10	D	10:D	_
+9	guitar	guitar	NOUN	NN	_	10	E	10:E	_
+10	contributions	contribution	NOUN	NNS	_	7	A	7:A	_
+11	from	from	ADP	IN	_	12	R	12:R	_
+12	Robert	Robert	PROPN	NNP	_	10	A	10:A	_
+13	Fripp	Fripp	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	Pete	Pete	PROPN	NNP	_	12	C	12:C	_
+16	Townshend	Townshend	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	12	U	12:U	_
+18	Chuck	Chuck	PROPN	NNP	_	12	C	12:C	_
+19	Hammer	Hammer	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	and	and	CCONJ	CC	_	12	N	12:N	_
+21	Tom	Tom	PROPN	NNP	_	12	C	12:C	_
+22	Verlaine	Verlaine	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	12	U	12:U	_
+

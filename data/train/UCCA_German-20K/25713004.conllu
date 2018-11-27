@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25713004
+# text = Der KIn dem Moment wandte sich Kapitän Nemo zu mir : apitän gab keine Antwort und lehnte sich an das Fenster .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	KIn	KI	NOUN	NN	_	13	A	13:A	_
+3	dem	der	DET	ART	_	2	Terminal	2:Terminal	_
+4	Moment	Moment	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	wandte	wenden	VERB	VVFIN	_	2	Terminal	2:Terminal	_
+6	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+7	Kapitän	Kapitän	PROPN	NN	_	2	Terminal	2:Terminal	_
+8	Nemo	Nemo	PROPN	NE	_	2	Terminal	2:Terminal	_
+9	zu	zu	ADP	NE	_	2	Terminal	2:Terminal	_
+10	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+11	:	:	PUNCT	$.	_	2	U	2:U	_
+12	apitän	apitän	ADJ	ADJD	_	2	Terminal	2:Terminal	_
+13	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+14	keine	kein	PRON	PIAT	_	13	D	13:D	_
+15	Antwort	Antwort	NOUN	NN	_	13	A	13:A	_
+16	und	und	CCONJ	NE	_	13	L	13:L	_
+17	lehnte	lehnen	VERB	VVFIN	_	13	H	13:H	_
+18	sich	er|es|sie	PRON	PRF	_	17	Terminal	17:Terminal	_
+19	an	an	ADP	APPR	_	21	R	21:R	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Fenster	Fenster	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

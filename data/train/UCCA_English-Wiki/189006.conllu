@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 189006
+# text = Brown produced A Few Good Men on Broadway at the Music Box Theatre .
+1	Brown	Brown	PROPN	NNP	_	2	A	2:A	_
+2	produced	produce	VERB	VBD	_	0	H	0:H	_
+3	A	a	DET	DT	_	2	A	2:A	_
+4	Few	few	ADJ	JJ	_	3	Terminal	3:Terminal	_
+5	Good	Good	ADJ	JJ	_	3	Terminal	3:Terminal	_
+6	Men	men	PROPN	NNPS	_	3	Terminal	3:Terminal	_
+7	on	on	ADP	IN	_	8	R	8:R	_
+8	Broadway	Broadway	PROPN	NNP	_	2	A	2:A	_
+9	at	at	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	Music	music	PROPN	NNP	_	13	E	13:E	_
+12	Box	box	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+13	Theatre	theatre	PROPN	NNP	_	2	A	2:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

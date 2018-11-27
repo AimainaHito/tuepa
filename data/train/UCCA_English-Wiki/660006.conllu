@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 660006
+# text = After the completion of her debut album , titled Mariah Carey , Columbia spent an upward of $ 1 million to promote it .
+1	After	after	SCONJ	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	completion	completion	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	9	R	9:R	_
+5	her	she	PRON	PRP$	_	7	E	7:E	_
+6	debut	debut	NOUN	NN	_	7	E	7:E	_
+7	album	album	NOUN	NN	_	9	A	9:A	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	titled	title	VERB	VBN	_	3	A	3:A	_
+10	Mariah	Mariah	PROPN	NNP	_	9	A	9:A	_
+11	Carey	Carey	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	Columbia	Columbia	PROPN	NNP	_	14	A	14:A|22:A	_
+14	spent	spend	VERB	VBD	_	3	H	3:H	_
+15	an	a	DET	DT	_	19	E	19:E	_
+16	upward	upward	NOUN	NN	_	19	E	19:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	$	$	SYM	$	_	19	U	19:U	_
+19	1	1	NUM	CD	_	14	A	14:A	_
+20	million	million	NUM	CD	_	19	Terminal	19:Terminal	_
+21	to	to	PART	TO	_	3	L	3:L	_
+22	promote	promote	VERB	VB	_	3	H	3:H	_
+23	it	it	PRON	PRP	_	22	A	22:A	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

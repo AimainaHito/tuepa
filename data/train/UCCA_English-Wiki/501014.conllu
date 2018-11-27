@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 501014
+# text = Bowie said the photographer simply caught him in mid - wave .
+1	Bowie	Bowie	PROPN	NNP	_	2	A	2:A	_
+2	said	say	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	photographer	photographer	NOUN	NN	_	6	A	6:A	_
+5	simply	simply	ADV	RB	_	6	D	6:D	_
+6	caught	catch	VERB	VBD	_	2	A	2:A	_
+7	him	he	PRON	PRP	_	6	A	6:A	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	mid	mid	X	AFX	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	wave	wave	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

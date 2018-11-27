@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 652007
+# text = They led to the president 's resignation 14 months later .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	led	lead	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	7	R	7:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	president	president	PROPN	NNP	_	7	A	7:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	resignation	resignation	NOUN	NN	_	2	A	2:A	_
+8	14	14	NUM	CD	_	9	E	9:E	_
+9	months	month	NOUN	NNS	_	7	D	7:D	_
+10	later	later	ADV	RBR	_	9	R	9:R	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

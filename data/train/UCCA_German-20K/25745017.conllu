@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25745017
+# text = Ich träumte - die Träume liegen nicht in unserer Wahl - , ich träumte , mein Dasein habe sich nun auf das vegetative Leben einer Molluske eingeengt .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	träumte	träumen	VERB	VVFIN	_	0	H	0:H	_
+3	-	-	PUNCT	$(	_	2	U	2:U	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Träume	Traum	NOUN	NN	_	6	A	6:A	_
+6	liegen	liegen	VERB	VVFIN	_	2	H	2:H	_
+7	nicht	nicht	PART	XY	_	6	D	6:D	_
+8	in	in	ADP	APPR	_	6	Terminal	6:Terminal	_
+9	unserer	unser	PRON	PPOSAT	_	6	Terminal	6:Terminal	_
+10	Wahl	Wahl	NOUN	NN	_	6	Terminal	6:Terminal	_
+11	-	-	PUNCT	$(	_	2	U	2:U	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	träumte	träumen	VERB	VVFIN	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	mein	mein	PRON	PPOSAT	_	17	E	17:E	_
+17	Dasein	Dasein	NOUN	PPOSAT	_	19	A	19:A	_
+18	habe	haben	AUX	VAFIN	_	19	F	19:F	_
+19	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+20	nun	nun	ADV	ADV	_	19	D	19:D	_
+21	auf	auf	ADP	APPR	_	24	R	24:R	_
+22	das	der	DET	ART	_	24	E	24:E	_
+23	vegetative	vegetativ	ADJ	ADJA	_	24	E	24:E	_
+24	Leben	Leben	NOUN	NN	_	19	A	19:A	_
+25	einer	ein	DET	ART	_	26	R	26:R	_
+26	Molluske	Molluske	NOUN	NN	_	24	E	24:E	_
+27	eingeengt	eingeengt	VERB	VVPP	_	19	Terminal	19:Terminal	_
+28	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 247006
+# text = In the animated Waking Life , he shared a single scene with former co - star Julie Delpy continuing conversations begun in Before Sunrise .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	animated	animated	ADJ	JJ	_	4	E	4:E	_
+4	Waking	Waking	NOUN	NN	_	8	A	8:A	_
+5	Life	life	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A|19:A	_
+8	shared	share	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	single	single	ADJ	JJ	_	11	E	11:E	_
+11	scene	scene	NOUN	NN	_	8	A	8:A	_
+12	with	with	ADP	IN	_	17	R	17:R	_
+13	former	former	ADJ	JJ	_	16	E	16:E	_
+14	co	co	X	AFX	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	star	star	NOUN	NN	_	17	E	17:E	_
+17	Julie	Julie	PROPN	NNP	_	0	C	0:C|19:A	_
+18	Delpy	Delpy	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	continuing	continue	VERB	VBG	_	8	H	8:H	_
+20	conversations	conversation	NOUN	NNS	_	19	A	19:A	_
+21	begun	begin	VERB	VBN	_	20	E	20:E	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	Before	before	PROPN	NNP	_	21	A	21:A	_
+24	Sunrise	Sunrise	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

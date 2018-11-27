@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 711016
+# text = The accompanying soundtrack featured unreleased songs from Dylan 's early career .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	accompanying	accompanying	ADJ	JJ	_	3	E	3:E	_
+3	soundtrack	soundtrack	NOUN	NN	_	4	A	4:A	_
+4	featured	feature	VERB	VBN	_	0	H	0:H	_
+5	unreleased	unreleased	ADJ	JJ	_	6	E	6:E	_
+6	songs	song	NOUN	NNS	_	4	A	4:A	_
+7	from	from	ADP	IN	_	11	R	11:R	_
+8	Dylan	Dylan	PROPN	NNP	_	11	E	11:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	early	early	ADJ	JJ	_	11	E	11:E	_
+11	career	career	NOUN	NN	_	6	E	6:E	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25667004
+# text = Unser Gesundheits zustand hielt sich allerseits sehr befriedigend .
+1	Unser	unser	PRON	PPOSAT	_	3	E	3:E	_
+2	Gesundheits	Gesundheit	NOUN	NE	_	3	E	3:E	_
+3	zustand	zustand	ADP	VVFIN	_	8	A	8:A	_
+4	hielt	halten	VERB	VVFIN	_	8	D	8:D	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	allerseits	allerseits	ADV	ADV	_	8	D	8:D	_
+7	sehr	sehr	ADV	NE	_	8	D	8:D	_
+8	befriedigend	befriedigend	ADJ	ADJD	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

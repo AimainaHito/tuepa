@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25712017
+# text = Am Abend befand ich mich mit dem Kapitän allein im Salon .
+1	Am	am	PROPN	ADJD	_	2	R	2:R	_
+2	Abend	Abend	PROPN	NN	_	3	D	3:D	_
+3	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	mich	ich	PRON	PRF	_	3	Terminal	3:Terminal	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+9	allein	allein	ADV	NE	_	3	D	3:D	_
+10	im	im	ADJ	NE	_	11	R	11:R	_
+11	Salon	Salon	NOUN	NE	_	3	A	3:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

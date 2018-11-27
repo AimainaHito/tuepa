@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25801003
+# text = Diese reißende Eile dauerte einige Tage , und am 4 . April abends bekamen wir die östliche Spitze Südamerikas , das Kap San Roque , in Sicht .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	reißende	reißend	ADJ	ADJA	_	3	E	3:E	_
+3	Eile	Eil	NOUN	NN	_	4	A	4:A	_
+4	dauerte	dauern	VERB	VVFIN	_	0	H	0:H	_
+5	einige	einige	PRON	PIAT	_	6	E	6:E	_
+6	Tage	Tag	NOUN	NN	_	4	D	4:D	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	und	und	CCONJ	NE	_	4	L	4:L	_
+9	am	am	ADV	NE	_	10	R	10:R	_
+10	4	4	NUM	CARD	_	27	D	27:D	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	April	April	PROPN	NN	_	10	Terminal	10:Terminal	_
+13	abends	abends	ADV	ADV	_	10	E	10:E	_
+14	bekamen	bekommen	VERB	VVFIN	_	27	D	27:D	_
+15	wir	wir	PRON	NE	_	27	A	27:A	_
+16	die	der	DET	ART	_	18	E	18:E	_
+17	östliche	östlich	ADJ	ADJA	_	18	E	18:E	_
+18	Spitze	Spitze	NOUN	NN	_	23	E	23:E	_
+19	Südamerikas	Südamerika	PROPN	NE	_	18	E	18:E	_
+20	,	,	PUNCT	$,	_	23	U	23:U	_
+21	das	der	DET	ART	_	22	E	22:E	_
+22	Kap	Kap	NOUN	NN	_	23	E	23:E	_
+23	San	San	PROPN	NE	_	27	A	27:A	_
+24	Roque	Roque	PROPN	NE	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	$,	_	27	U	27:U	_
+26	in	in	ADP	APPR	_	27	R	27:R	_
+27	Sicht	Sicht	NOUN	NN	_	4	H	4:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

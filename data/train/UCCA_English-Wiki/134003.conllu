@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 134003
+# text = She took an atypical role in 1944 , playing a Chinese peasant in the high - budget drama Dragon Seed .
+1	She	she	PRON	PRP	_	2	A	2:A|9:A	_
+2	took	take	VERB	VBD	_	0	H	0:H	_
+3	an	a	DET	DT	_	5	E	5:E	_
+4	atypical	atypical	ADJ	JJ	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	2	A	2:A	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1944	1944	NUM	CD	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	playing	play	VERB	VBG	_	2	H	2:H	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	Chinese	chinese	ADJ	JJ	_	12	E	12:E	_
+12	peasant	peasant	NOUN	NN	_	9	A	9:A	_
+13	in	in	ADP	IN	_	19	R	19:R	_
+14	the	the	DET	DT	_	18	E	18:E	_
+15	high	high	ADJ	JJ	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	budget	budget	NOUN	NN	_	18	E	18:E	_
+18	drama	drama	NOUN	NN	_	19	E	19:E	_
+19	Dragon	dragon	PROPN	NNP	_	12	E	12:E	_
+20	Seed	seed	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

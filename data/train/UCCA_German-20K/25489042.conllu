@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25489042
+# text = Der eine , von kleiner Statur , kräftigen Muskeln , breiten Schultern , starken Gliedmaßen , hatte einen dicken Kopf mit reichlichem schwarzen Haar , dichtem Schnurrbart , lebhaftem durchdringenden Blick , und seine ganze Persönlichkeit war von der südlichen Lebhaftigkeit beseelt , die in Frankreich die Provençalen kennzeichnet .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	eine	ein	DET	ADJA	_	17	A	17:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	von	von	ADP	NN	_	6	R	6:R	_
+5	kleiner	klein	ADJ	ADJD	_	6	E	6:E	_
+6	Statur	Statur	NOUN	NN	_	2	E	2:E	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	kräftigen	kräftig	ADJ	VVINF	_	9	E	9:E	_
+9	Muskeln	Muskel	NOUN	NE	_	6	C	6:C	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	breiten	breit	ADJ	ADJA	_	12	E	12:E	_
+12	Schultern	Schulter	NOUN	NE	_	6	C	6:C	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	starken	stark	ADJ	ADJA	_	15	E	15:E	_
+15	Gliedmaßen	Gliedmaße	NOUN	NN	_	6	C	6:C	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+18	einen	ein	DET	ART	_	20	E	20:E	_
+19	dicken	dick	ADJ	ADJA	_	20	E	20:E	_
+20	Kopf	Kopf	NOUN	NN	_	17	A	17:A	_
+21	mit	mit	ADP	APPR	_	24	R	24:R	_
+22	reichlichem	reichlich	ADJ	ADJA	_	24	E	24:E	_
+23	schwarzen	schwarz	ADJ	ADJA	_	24	E	24:E	_
+24	Haar	Haar	NOUN	NN	_	20	E	20:E	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	dichtem	dicht	ADJ	ADJA	_	27	E	27:E	_
+27	Schnurrbart	Schnurrbart	NOUN	NE	_	24	C	24:C	_
+28	,	,	PUNCT	$,	_	24	U	24:U	_
+29	lebhaftem	lebhaft	ADJ	ADJA	_	31	E	31:E	_
+30	durchdringenden	durchdringend	ADJ	ADJA	_	31	E	31:E	_
+31	Blick	Blick	NOUN	NN	_	24	C	24:C	_
+32	,	,	PUNCT	$,	_	17	U	17:U	_
+33	und	und	CCONJ	NN	_	17	L	17:L	_
+34	seine	sein	DET	PPOSAT	_	36	E	36:E	_
+35	ganze	ganz	ADJ	ADJA	_	36	E	36:E	_
+36	Persönlichkeit	Persönlichkeit	NOUN	NN	_	42	A	42:A	_
+37	war	sein	AUX	ADV	_	42	F	42:F	_
+38	von	von	ADP	NN	_	41	R	41:R	_
+39	der	der	DET	ART	_	41	E	41:E	_
+40	südlichen	südlich	ADJ	ADJA	_	41	E	41:E	_
+41	Lebhaftigkeit	Lebhaftigkeit	NOUN	NN	_	42	A	42:A	_
+42	beseelt	beseeln	ADJ	VVPP	_	17	H	17:H	_
+43	,	,	PUNCT	$,	_	42	U	42:U	_
+44	die	der	PRON	PRELS	_	49	R	49:R	_
+45	in	in	ADP	APPR	_	46	R	46:R	_
+46	Frankreich	Frankreich	PROPN	NE	_	49	A	49:A	_
+47	die	der	DET	ART	_	48	E	48:E	_
+48	Provençalen	Provençale	NOUN	NE	_	49	A	49:A	_
+49	kennzeichnet	kennzeichnet	ADV	VVFIN	_	41	E	41:E	_
+50	.	.	PUNCT	$.	_	49	U	49:U	_
+

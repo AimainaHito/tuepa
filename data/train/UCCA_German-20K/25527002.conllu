@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25527002
+# text = Das Dunkel im Salon hob die äußere Helle , und wir schauten , als sei dieses reine Spiegel glas das Fenster eines unermeßlichen Aquariums .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Dunkel	dunkel	PROPN	NN	_	5	A	5:A	_
+3	im	im	PROPN	NE	_	4	R	4:R	_
+4	Salon	Salen	PROPN	NE	_	2	E	2:E	_
+5	hob	heben	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	äußere	äußer	ADJ	ADJA	_	8	E	8:E	_
+8	Helle	hell	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	und	und	CCONJ	NE	_	5	L	5:L	_
+11	wir	wir	PRON	NE	_	12	A	12:A	_
+12	schauten	schauen	VERB	VVFIN	_	5	H	5:H	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	als	als	CCONJ	KOUS	_	5	L	5:L	_
+15	sei	sein	AUX	NN	_	5	H	5:H	_
+16	dieses	dies	PRON	PDS	_	19	E	19:E	_
+17	reine	rein	ADJ	ADJA	_	19	E	19:E	_
+18	Spiegel	Spiegel	NOUN	NN	_	19	E	19:E	_
+19	glas	glas	ADV	NN	_	15	A	15:A	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Fenster	Fenster	NOUN	NN	_	15	A	15:A	_
+22	eines	ein	DET	ART	_	24	R	24:R	_
+23	unermeßlichen	unermeßlich	ADJ	ADJA	_	24	E	24:E	_
+24	Aquariums	Aquarium	NOUN	NN	_	21	E	21:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

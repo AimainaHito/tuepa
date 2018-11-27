@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25713016
+# text = Ich sprach kein Wort , sah zu .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|6:A	_
+2	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+3	kein	kein	PRON	PIAT	_	2	D	2:D	_
+4	Wort	Wort	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+7	zu	zu	ADP	NE	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

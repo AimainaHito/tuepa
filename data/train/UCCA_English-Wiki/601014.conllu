@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 601014
+# text = " Yesterday " became the most covered song in popular music history .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Yesterday	yesterday	NOUN	NN	_	4	A	4:A	_
+3	"	"	PUNCT	''	_	4	U	4:U	_
+4	became	become	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	most	most	ADV	RBS	_	7	E	7:E	_
+7	covered	covered	ADJ	JJ	_	8	E	8:E	_
+8	song	song	NOUN	NN	_	4	A	4:A	_
+9	in	in	ADP	IN	_	12	R	12:R	_
+10	popular	popular	ADJ	JJ	_	11	E	11:E	_
+11	music	music	NOUN	NN	_	12	E	12:E	_
+12	history	history	NOUN	NN	_	8	E	8:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

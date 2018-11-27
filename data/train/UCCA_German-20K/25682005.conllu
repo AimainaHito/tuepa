@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25682005
+# text = Vom Ruhmkorffschen Apparat war keine Rede .
+1	Vom	Vom	PROPN	NN	_	3	R	3:R	_
+2	Ruhmkorffschen	Ruhmkorffsch	PROPN	NE	_	3	E	3:E	_
+3	Apparat	Apparat	PROPN	NE	_	6	A	6:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	keine	kein	PRON	PIAT	_	6	D	6:D	_
+6	Rede	Rede	NOUN	NN	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

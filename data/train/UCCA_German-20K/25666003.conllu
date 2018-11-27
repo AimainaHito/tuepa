@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25666003
+# text = Der gewaltsam seiner freien Verfügung beraubte Mensch sehnt sich nach einer solchen , aber der Gelehrte in seinem Wissens drang fürchtet sie .
+1	Der	der	DET	ART	_	7	E	7:E	_
+2	gewaltsam	gewaltsam	NOUN	ADJD	_	6	D	6:D	_
+3	seiner	sein	DET	PPOSAT	_	5	E	5:E	_
+4	freien	frei	ADJ	ADJA	_	5	E	5:E	_
+5	Verfügung	Verfügung	NOUN	NN	_	6	A	6:A	_
+6	beraubte	beraubt	ADJ	ADJA	_	7	E	7:E	_
+7	Mensch	Mensch	NOUN	NN	_	8	A	8:A	_
+8	sehnt	sehnen	VERB	VVFIN	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	nach	nach	ADP	NN	_	12	R	12:R	_
+11	einer	ein	DET	ART	_	12	E	12:E	_
+12	solchen	solch	PRON	PIAT	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	aber	aber	CCONJ	KON	_	8	L	8:L	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Gelehrte	Gelehrte	NOUN	NE	_	21	A	21:A	_
+17	in	in	ADP	APPR	_	20	R	20:R	_
+18	seinem	sein	DET	PPOSAT	_	20	E	20:E	_
+19	Wissens	Wissen	NOUN	NN	_	20	E	20:E	_
+20	drang	drang	ADV	NN	_	16	E	16:E	_
+21	fürchtet	fürchten	VERB	VVFIN	_	8	H	8:H	_
+22	sie	sie	PRON	ADV	_	21	A	21:A	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 217001
+# text = The film was directed by Sam Raimi .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	directed	direct	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Sam	Sam	PROPN	NNP	_	4	A	4:A	_
+7	Raimi	Raimi	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	.	_	6	U	6:U	_
+

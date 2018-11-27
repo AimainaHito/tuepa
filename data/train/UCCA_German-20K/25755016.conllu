@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25755016
+# text = Der Kanadier schüttelte den Kopf , fuhr mit der Hand über seine Stirne und zog sich ohne zu antworten zurück .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|7:A|15:A|19:A	_
+3	schüttelte	schütteln	VERB	VVFIN	_	0	H	0:H	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Kopf	Kopf	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	fuhr	fahren	VERB	VVFIN	_	3	H	3:H	_
+8	mit	mit	ADP	APPR	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Hand	Hand	NOUN	NN	_	7	A	7:A	_
+11	über	über	ADP	ADJD	_	13	R	13:R	_
+12	seine	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Stirne	Stirn	NOUN	NN	_	7	A	7:A	_
+14	und	und	CCONJ	NE	_	3	L	3:L	_
+15	zog	ziehen	VERB	VVFIN	_	3	H	3:H	_
+16	sich	er|es|sie	PRON	PRF	_	15	Terminal	15:Terminal	_
+17	ohne	ohne	ADP	CARD	_	19	D	19:D	_
+18	zu	zu	PART	NN	_	19	F	19:F	_
+19	antworten	antworten	VERB	VVINF	_	3	H	3:H	_
+20	zurück	zurück	ADV	ADJA	_	15	Terminal	15:Terminal	_
+21	.	.	PUNCT	$.	_	15	U	15:U	_
+

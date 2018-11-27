@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25755008
+# text = Ich rechnete rasch das Exempel mit dem Bleistift :
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	rechnete	rechnen	VERB	VVFIN	_	0	H	0:H	_
+3	rasch	rasch	ADJ	ADJD	_	2	D	2:D	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Exempel	Exempel	NOUN	NN	_	2	A	2:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Bleistift	Bleistift	NOUN	NN	_	2	A	2:A	_
+9	:	:	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 729015
+# text = " Despite the general criticism , after a slow start at the domestic box office , the film went on to gross a respectable $ 278 million worldwide .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Despite	despite	ADP	IN	_	5	L	5:L	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	general	general	ADJ	JJ	_	5	E	5:E	_
+5	criticism	criticism	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	after	after	ADP	IN	_	5	L	5:L	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	slow	slow	ADJ	JJ	_	10	E	10:E	_
+10	start	start	NOUN	NN	_	5	H	5:H	_
+11	at	at	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	domestic	domestic	ADJ	JJ	_	15	E	15:E	_
+14	box	box	NOUN	NN	_	15	E	15:E	_
+15	office	office	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	film	film	NOUN	NN	_	22	A	22:A	_
+19	went	go	VERB	VBD	_	22	E	22:E	_
+20	on	on	ADV	RB	_	19	R	19:R	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	gross	gross	VERB	VB	_	5	H	5:H	_
+23	a	a	DET	DT	_	26	E	26:E	_
+24	respectable	respectable	ADJ	JJ	_	26	E	26:E	_
+25	$	$	SYM	$	_	26	U	26:U	_
+26	278	278	NUM	CD	_	22	A	22:A	_
+27	million	million	NUM	CD	_	26	Terminal	26:Terminal	_
+28	worldwide	worldwide	ADV	RB	_	22	A	22:A	_
+29	.	.	PUNCT	.	_	22	U	22:U	_
+

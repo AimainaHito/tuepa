@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 532000
+# text = With the demise of her television series , Garland returned to the stage .
+1	With	with	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	demise	demise	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	7	R	7:R	_
+5	her	she	PRON	PRP$	_	7	E	7:E	_
+6	television	television	NOUN	NN	_	7	E	7:E	_
+7	series	series	NOUN	NNS	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	Garland	Garland	PROPN	NNP	_	10	A	10:A	_
+10	returned	return	VERB	VBD	_	3	H	3:H	_
+11	to	to	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	stage	stage	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

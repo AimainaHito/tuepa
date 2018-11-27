@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25489097
+# text = « » Aus dem Schurken land !
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Aus	Aus	NOUN	APPR	_	6	R	6:R	_
+4	dem	der	DET	ART	_	6	E	6:E	_
+5	Schurken	Schurk	NOUN	NN	_	6	E	6:E	_
+6	land	linden	VERB	NE	_	0	H	0:H	_
+7	!	!	PUNCT	$.	_	6	U	6:U	_
+

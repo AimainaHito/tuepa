@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25627005
+# text = Bei Sonnen aufgang waren wir schon unterwegs .
+1	Bei	bei	ADP	APPR	_	3	E	3:E	_
+2	Sonnen	Sonne	NOUN	NE	_	3	E	3:E	_
+3	aufgang	aufgang	ADJ	NE	_	7	D	7:D	_
+4	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+5	wir	wir	PRON	NE	_	7	A	7:A	_
+6	schon	schon	ADV	ADV	_	7	D	7:D	_
+7	unterwegs	unterwegs	ADV	ADV	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25615012
+# text = Vor dem Schnabel der " Nautilus " lagen die gefährlichen Gegenden des Korallen meers an der Nord ost küste Australiens .
+1	Vor	vor	ADP	NN	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Schnabel	Schnabel	NOUN	NN	_	8	A	8:A	_
+4	der	der	DET	ART	_	6	R	6:R	_
+5	"	"	PUNCT	$(	_	6	U	6:U	_
+6	Nautilus	Nautilus	PROPN	NE	_	3	E	3:E	_
+7	"	"	PUNCT	$(	_	8	U	8:U	_
+8	lagen	liegen	VERB	VVFIN	_	0	H	0:H	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	gefährlichen	gefährlich	ADJ	ADJA	_	11	E	11:E	_
+11	Gegenden	Gegend	NOUN	NN	_	8	A	8:A	_
+12	des	der	DET	ART	_	14	R	14:R	_
+13	Korallen	Koralle	NOUN	NE	_	14	E	14:E	_
+14	meers	meers	ADV	NN	_	11	E	11:E	_
+15	an	an	ADP	APPR	_	19	R	19:R	_
+16	der	der	DET	ART	_	19	E	19:E	_
+17	Nord	Nord	NOUN	NN	_	19	E	19:E	_
+18	ost	ost	ADV	FM	_	19	E	19:E	_
+19	küste	küst	ADJ	NE	_	8	A	8:A	_
+20	Australiens	Australien	NOUN	NE	_	19	E	19:E	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

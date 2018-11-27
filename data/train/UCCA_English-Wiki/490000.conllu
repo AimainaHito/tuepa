@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 490000
+# text = In August 2009 , he appeared as Henry DeTamble in the film adaptation of The Time Traveler 's Wife .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	August	August	PROPN	NNP	_	6	D	6:D	_
+3	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	as	as	SCONJ	IN	_	8	E	8:E	_
+8	Henry	Henry	PROPN	NNP	_	6	A	6:A	_
+9	DeTamble	DeTamble	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	film	film	NOUN	NN	_	13	E	13:E	_
+13	adaptation	adaptation	NOUN	NN	_	15	E	15:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	The	the	DET	DT	_	6	A	6:A	_
+16	Time	time	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Traveler	traveler	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	's	's	PART	POS	_	15	Terminal	15:Terminal	_
+19	Wife	wife	NOUN	NN	_	15	Terminal	15:Terminal	_
+20	.	.	PUNCT	.	_	15	U	15:U	_
+

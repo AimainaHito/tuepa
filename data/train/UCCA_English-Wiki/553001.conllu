@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 553001
+# text = A cultural icon , he is commonly known by the single name Elvis .
+1	A	a	DET	DT	_	3	E	3:E	_
+2	cultural	cultural	ADJ	JJ	_	3	E	3:E	_
+3	icon	icon	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	he	he	PRON	PRP	_	8	A	8:A	_
+6	is	be	AUX	VBZ	_	8	F	8:F	_
+7	commonly	commonly	ADV	RB	_	8	D	8:D	_
+8	known	know	VERB	VBN	_	0	H	0:H	_
+9	by	by	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	single	single	ADJ	JJ	_	12	E	12:E	_
+12	name	name	NOUN	NN	_	8	A	8:A	_
+13	Elvis	Elvis	PROPN	NNP	_	12	E	12:E	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

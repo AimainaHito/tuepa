@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25462007
+# text = Aber der starrköpfige Kanadier brachte von 12 Stunden 8 mit Lesen oder Schlafen in seiner Kabine zu .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	der	der	DET	ART	_	4	E	4:E	_
+3	starrköpfige	starrköpfig	ADJ	ADJA	_	4	E	4:E	_
+4	Kanadier	Kanadier	NOUN	NN	_	5	A	5:A	_
+5	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	12	12	NUM	CARD	_	8	E	8:E	_
+8	Stunden	Stunde|Stunden	NOUN	NN	_	9	E	9:E	_
+9	8	8	NUM	CARD	_	5	A	5:A	_
+10	mit	mit	ADP	APPR	_	11	R	11:R	_
+11	Lesen	Lese|Lesen	NOUN	NN	_	5	A	5:A	_
+12	oder	oder	CCONJ	CARD	_	11	N	11:N	_
+13	Schlafen	schlafen	NOUN	NN	_	11	C	11:C	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	seiner	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Kabine	Kabine	NOUN	NE	_	5	A	5:A	_
+17	zu	zu	ADP	NE	_	5	Terminal	5:Terminal	_
+18	.	.	PUNCT	$.	_	5	U	5:U	_
+

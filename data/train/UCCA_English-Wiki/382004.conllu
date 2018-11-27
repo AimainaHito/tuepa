@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 382004
+# text = He has said , " I am not a card - carrying Buddhist , but I do try to practice mindfulness " and it is his goal to meditate every day .
+1	He	he	PRON	PRP	_	3	A	3:A|29:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	said	say	VERB	VBN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	I	I	PRON	PRP	_	7	A	7:A	_
+7	am	be	AUX	VBP	_	3	A	3:A	_
+8	not	not	PART	RB	_	7	D	7:D	_
+9	a	a	DET	DT	_	13	E	13:E	_
+10	card	card	NOUN	NN	_	12	A	12:A	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	carrying	carry	VERB	VBG	_	13	E	13:E	_
+13	Buddhist	buddhist	PROPN	NNP	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	but	but	CCONJ	CC	_	7	L	7:L	_
+16	I	I	PRON	PRP	_	20	A	20:A	_
+17	do	do	AUX	VBP	_	20	F	20:F	_
+18	try	try	VERB	VB	_	20	D	20:D	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	practice	practice	VERB	VB	_	7	H	7:H	_
+21	mindfulness	mindfulness	NOUN	NN	_	20	A	20:A	_
+22	"	"	PUNCT	''	_	3	U	3:U	_
+23	and	and	CCONJ	CC	_	3	L	3:L	_
+24	it	it	PRON	PRP	_	25	A	25:A	_
+25	is	be	AUX	VBZ	_	3	H	3:H	_
+26	his	he	PRON	PRP$	_	27	E	27:E	_
+27	goal	goal	NOUN	NN	_	25	A	25:A	_
+28	to	to	PART	TO	_	29	F	29:F	_
+29	meditate	meditate	VERB	VB	_	25	A	25:A	_
+30	every	every	DET	DT	_	31	E	31:E	_
+31	day	day	NOUN	NN	_	29	D	29:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

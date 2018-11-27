@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25798001
+# text = » Meine Freunde « , sagte ich tief gerührt , » wir sind auf ewig miteinander verbunden , und Sie haben Ansprüche auf mich ... «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Meine	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Freunde	Freund	PROPN	NN	_	17	G	17:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A|9:A	_
+8	tief	tief	ADJ	VVFIN	_	9	D	9:D	_
+9	gerührt	rühren	VERB	ADJD	_	6	H	6:H	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	wir	wir	PRON	NE	_	17	A	17:A	_
+13	sind	sein	AUX	NN	_	17	F	17:F	_
+14	auf	auf	ADP	APPR	_	15	R	15:R	_
+15	ewig	ewig	ADV	ADJD	_	17	D	17:D	_
+16	miteinander	miteinander	ADV	ADV	_	17	A	17:A	_
+17	verbunden	verbinden	ADJ	VVPP	_	6	A	6:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	und	und	CCONJ	NE	_	17	L	17:L	_
+20	Sie	Sie|sie	PRON	PPER	_	22	A	22:A	_
+21	haben	haben	VERB	VAFIN	_	22	F	22:F	_
+22	Ansprüche	Anspruch	NOUN	NN	_	17	H	17:H	_
+23	auf	auf	ADP	APPR	_	24	R	24:R	_
+24	mich	ich	PRON	PPER	_	22	A	22:A	_
+25	...	...	PUNCT	$(	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

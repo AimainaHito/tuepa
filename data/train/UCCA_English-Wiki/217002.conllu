@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 217002
+# text = Owen Gleiberman of Entertainment Weekly remarked on Dunst 's ability to " lend even the smallest line a tickle of flirtatious music .
+1	Owen	Owen	PROPN	NNP	_	6	A	6:A	_
+2	Gleiberman	Gleiberman	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	Entertainment	entertainment	PROPN	NNP	_	1	E	1:E	_
+5	Weekly	weekly	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	remarked	remark	VERB	VBD	_	0	H	0:H	_
+7	on	on	ADP	IN	_	6	R	6:R	_
+8	Dunst	Dunst	PROPN	NNP	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	ability	ability	NOUN	NN	_	13	A	13:A	_
+11	to	to	PART	TO	_	13	F	13:F	_
+12	"	"	PUNCT	``	_	13	U	13:U	_
+13	lend	lend	VERB	VB	_	6	A	6:A	_
+14	even	even	ADV	RB	_	17	E	17:E	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	smallest	smallest	ADJ	JJS	_	17	E	17:E	_
+17	line	line	NOUN	NN	_	13	A	13:A	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	tickle	tickle	NOUN	NN	_	13	A	13:A	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	flirtatious	flirtatious	ADJ	JJ	_	22	E	22:E	_
+22	music	music	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

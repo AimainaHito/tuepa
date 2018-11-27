@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25488077
+# text = War 's die Stimme eines andern beim Zusammenstoßen verunglückten Opfers ?
+1	War	sein	AUX	NE	_	0	H	0:H	_
+2	's	es	X	NE	_	1	A	1:A	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Stimme	stimm	NOUN	NN	_	1	A	1:A	_
+5	eines	ein	DET	ART	_	10	E	10:E	_
+6	andern	and	NOUN	NN	_	10	E	10:E	_
+7	beim	beim	ADJ	NE	_	8	R	8:R	_
+8	Zusammenstoßen	Zusammenstoßen	NOUN	ADJA	_	9	A	9:A	_
+9	verunglückten	verunglücken	VERB	ADJA	_	1	A	1:A	_
+10	Opfers	Opfer	NOUN	NN	_	9	A	9:A	_
+11	?	?	PUNCT	$.	_	10	U	10:U	_
+

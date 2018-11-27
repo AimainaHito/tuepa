@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25701019
+# text = » Nein « , sagte ich zu Conseil , » eine Sirene ist ' s nicht , aber ein merkwürdiges Geschöpf , von dem es kaum noch einige Exemplare im Roten Meer gibt . Es ist ein Dugong . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Nein	nein	PART	PTKANT	_	13	D	13:D	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	zu	zu	ADP	NE	_	8	R	8:R	_
+8	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	»	»	PUNCT	$(	_	5	U	5:U	_
+11	eine	ein	DET	ART	_	12	E	12:E	_
+12	Sirene	Sirene	NOUN	NN	_	13	A	13:A	_
+13	ist	sein	AUX	VVFIN	_	5	A	5:A	_
+14	'	'	PUNCT	$,	_	13	U	13:U	_
+15	s	s	NOUN	ADJD	_	13	F	13:F	_
+16	nicht	nicht	PART	CARD	_	13	D	13:D	_
+17	,	,	PUNCT	$,	_	13	U	13:U	_
+18	aber	aber	CCONJ	KON	_	13	L	13:L	_
+19	ein	ein	DET	ART	_	21	E	21:E	_
+20	merkwürdiges	merkwürdig	ADJ	ADJA	_	21	E	21:E	_
+21	Geschöpf	Geschöpf	NOUN	NN	_	13	H	13:H	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	von	von	ADP	NN	_	24	R	24:R	_
+24	dem	der	PRON	PDS	_	33	R	33:R	_
+25	es	es	PRON	PPER	_	33	F	33:F	_
+26	kaum	kaum	ADV	ADV	_	33	D	33:D	_
+27	noch	noch	ADV	VVINF	_	33	D	33:D	_
+28	einige	einige	PRON	PIAT	_	29	E	29:E	_
+29	Exemplare	Exemplar	NOUN	NN	_	33	A	33:A	_
+30	im	im	PROPN	NN	_	31	R	31:R	_
+31	Roten	rot	PROPN	ADJA	_	33	A	33:A	_
+32	Meer	Meer	PROPN	NN	_	31	E	31:E	_
+33	gibt	geben	VERB	VVFIN	_	21	E	21:E	_
+34	.	.	PUNCT	$.	_	13	U	13:U	_
+35	Es	es	PRON	PPER	_	36	F	36:F	_
+36	ist	sein	AUX	VVFIN	_	13	H	13:H	_
+37	ein	ein	DET	ART	_	38	E	38:E	_
+38	Dugong	Dugong	NOUN	NN	_	36	A	36:A	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+40	«	«	PUNCT	$(	_	38	U	38:U	_
+

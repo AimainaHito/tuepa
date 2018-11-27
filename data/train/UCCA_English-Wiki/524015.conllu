@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 524015
+# text = The role was a challenge for her , requiring the use of an accent , her first adult kiss , and the only death scene of her career .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	role	role	NOUN	NN	_	0	C	0:C|9:A	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	challenge	challenge	NOUN	NN	_	0	H	0:H	_
+6	for	for	ADP	IN	_	7	R	7:R	_
+7	her	she	PRON	PRP	_	0	C	0:C|11:A	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	requiring	require	VERB	VBG	_	5	H	5:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	use	use	NOUN	NN	_	9	A	9:A	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	an	a	DET	DT	_	14	E	14:E	_
+14	accent	accent	NOUN	NN	_	11	A	11:A	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	her	she	PRON	PRP$	_	17	E	17:E	_
+17	first	first	ADJ	JJ	_	19	D	19:D	_
+18	adult	adult	NOUN	NN	_	19	E	19:E	_
+19	kiss	kiss	NOUN	NN	_	11	C	11:C	_
+20	,	,	PUNCT	,	_	11	U	11:U	_
+21	and	and	CCONJ	CC	_	11	N	11:N	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	only	only	ADJ	JJ	_	25	E	25:E	_
+24	death	death	NOUN	NN	_	25	E	25:E	_
+25	scene	scene	NOUN	NN	_	11	C	11:C	_
+26	of	of	ADP	IN	_	28	R	28:R	_
+27	her	she	PRON	PRP$	_	28	E	28:E	_
+28	career	career	NOUN	NN	_	25	E	25:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

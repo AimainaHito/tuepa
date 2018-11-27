@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 659012
+# text = After composing their first song together , " Here We Go Round Again " , which Carey described as having a Motown - vibe , they continued writing material for a full - length demo .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	composing	compose	VERB	VBG	_	0	H	0:H	_
+3	their	they	PRON	PRP$	_	9	E	9:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	song	song	NOUN	NN	_	9	E	9:E	_
+6	together	together	ADV	RB	_	5	E	5:E	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	"	"	PUNCT	''	_	9	U	9:U	_
+9	Here	here	ADV	RB	_	2	A	2:A	_
+10	We	we	PRON	PRP	_	9	Terminal	9:Terminal	_
+11	Go	go	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	Round	Round	PROPN	NNP	_	9	Terminal	9:Terminal	_
+13	Again	again	PROPN	NNP	_	9	Terminal	9:Terminal	_
+14	"	"	PUNCT	''	_	9	U	9:U	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	which	which	PRON	WDT	_	18	R	18:R	_
+17	Carey	Carey	PROPN	NNP	_	18	A	18:A	_
+18	described	describe	VERB	VBD	_	9	E	9:E	_
+19	as	as	SCONJ	IN	_	20	R	20:R	_
+20	having	have	VERB	VBG	_	18	A	18:A	_
+21	a	a	DET	DT	_	24	E	24:E	_
+22	Motown	Motown	NOUN	NN	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	vibe	vibe	NOUN	NN	_	20	A	20:A	_
+25	,	,	PUNCT	,	_	2	U	2:U	_
+26	they	they	PRON	PRP	_	28	A	28:A|2:A	_
+27	continued	continue	VERB	VBD	_	28	D	28:D	_
+28	writing	write	VERB	VBG	_	2	H	2:H	_
+29	material	material	NOUN	NN	_	28	A	28:A	_
+30	for	for	ADP	IN	_	35	R	35:R	_
+31	a	a	DET	DT	_	35	E	35:E	_
+32	full	full	ADJ	JJ	_	34	E	34:E	_
+33	-	-	PUNCT	HYPH	_	34	U	34:U	_
+34	length	length	NOUN	NN	_	35	E	35:E	_
+35	demo	demo	NOUN	NN	_	28	A	28:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

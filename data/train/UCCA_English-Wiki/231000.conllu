@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 231000
+# text = In recent years , the ageing Chan grew tired of being typecast as an action hero , prompting him to act with more emotion in his latest films .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	recent	recent	ADJ	JJ	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	ageing	ageing	VERB	VBG	_	7	E	7:E	_
+7	Chan	Chan	PROPN	NNP	_	9	A	9:A	_
+8	grew	grow	VERB	VBD	_	9	D	9:D	_
+9	tired	tired	ADJ	JJ	_	0	H	0:H|18:A	_
+10	of	of	SCONJ	IN	_	12	R	12:R	_
+11	being	be	AUX	VBG	_	12	F	12:F	_
+12	typecast	typecast	VERB	VBN	_	9	A	9:A	_
+13	as	as	ADP	IN	_	16	R	16:R	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	action	action	NOUN	NN	_	16	E	16:E	_
+16	hero	hero	NOUN	NN	_	12	A	12:A	_
+17	,	,	PUNCT	,	_	9	U	9:U	_
+18	prompting	prompt	VERB	VBG	_	9	H	9:H	_
+19	him	he	PRON	PRP	_	18	A	18:A|21:A	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	act	act	VERB	VB	_	18	A	18:A	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	more	more	ADJ	JJR	_	24	E	24:E	_
+24	emotion	emotion	NOUN	NN	_	21	D	21:D	_
+25	in	in	ADP	IN	_	28	R	28:R	_
+26	his	he	PRON	PRP$	_	28	E	28:E	_
+27	latest	latest	ADJ	JJS	_	28	E	28:E	_
+28	films	film	NOUN	NNS	_	21	A	21:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

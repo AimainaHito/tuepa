@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 494011
+# text = When Bowie left the technical school the following year , he informed his parents of his intention to become a pop star .
+1	When	when	ADV	WRB	_	3	L	3:L	_
+2	Bowie	Bowie	PROPN	NNP	_	3	A	3:A	_
+3	left	leave	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	technical	technical	ADJ	JJ	_	6	E	6:E	_
+6	school	school	NOUN	NN	_	3	A	3:A	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	following	follow	VERB	VBG	_	9	E	9:E	_
+9	year	year	NOUN	NN	_	3	D	3:D	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	he	he	PRON	PRP	_	12	A	12:A|19:A	_
+12	informed	inform	VERB	VBD	_	3	H	3:H	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	parents	parent	NOUN	NNS	_	12	A	12:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	A	17:A	_
+17	intention	intention	NOUN	NN	_	12	A	12:A	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	become	become	VERB	VB	_	17	A	17:A	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	pop	pop	NOUN	NN	_	22	E	22:E	_
+22	star	star	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 243011
+# text = His maternal grandfather , Howard Lemuel Green , served five terms in the Texas Legislature and was a minor - league baseball commissioner .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	maternal	maternal	ADJ	JJ	_	3	E	3:E	_
+3	grandfather	grandfather	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Howard	Howard	PROPN	NNP	_	0	C	0:C|17:A	_
+6	Lemuel	Lemuel	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Green	Green	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	served	serve	VERB	VBD	_	0	H	0:H	_
+10	five	five	NUM	CD	_	11	E	11:E	_
+11	terms	term	NOUN	NNS	_	9	A	9:A	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	Texas	Texas	PROPN	NNP	_	15	E	15:E	_
+15	Legislature	legislature	PROPN	NNP	_	9	A	9:A	_
+16	and	and	CCONJ	CC	_	9	L	9:L	_
+17	was	be	AUX	VBD	_	9	H	9:H	_
+18	a	a	DET	DT	_	23	E	23:E	_
+19	minor	minor	ADJ	JJ	_	21	E	21:E	_
+20	-	-	PUNCT	HYPH	_	21	U	21:U	_
+21	league	league	ADJ	JJ	_	22	E	22:E	_
+22	baseball	baseball	NOUN	NN	_	23	E	23:E	_
+23	commissioner	commissioner	NOUN	NN	_	17	A	17:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

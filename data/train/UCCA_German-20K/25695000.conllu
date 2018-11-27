@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25695000
+# text = Diese Polypen gebilde saßen fest an Felsen , Muscheln von Mollusken , selbst an Stielen von Wasser pflanzen , und zwar bis in die kleinsten Spalten hinein , sich ausbreitend , bald aufwärts , bald abwärts gerichtet , wie korallenartige Auswüchse .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	Polypen	Polyp	NOUN	NN	_	3	E	3:E	_
+3	gebilde	gebild	VERB	NE	_	0	C	0:C|37:A|29:A|33:A	_
+4	saßen	saßen	ADV	VVFIN	_	0	H	0:H	_
+5	fest	fest	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+6	an	an	ADP	APPR	_	7	R	7:R	_
+7	Felsen	Felsen	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	Muscheln	Muschel	NOUN	NN	_	4	A	4:A	_
+10	von	von	ADP	NE	_	9	R	9:R	_
+11	Mollusken	Mollusko	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	selbst	selbst	ADV	VVFIN	_	4	D	4:D	_
+14	an	an	ADP	APPR	_	15	R	15:R	_
+15	Stielen	Stiel	NOUN	NN	_	4	A	4:A	_
+16	von	von	ADP	NN	_	15	R	15:R	_
+17	Wasser	Wasser	NOUN	NN	_	18	E	18:E	_
+18	pflanzen	pflanzen	VERB	VVFIN	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	4	U	4:U	_
+20	und	und	CCONJ	NE	_	4	L	4:L	_
+21	zwar	zwar	ADV	ADV	_	20	Terminal	20:Terminal	_
+22	bis	bis	ADP	APPR	_	26	R	26:R	_
+23	in	in	ADP	APPR	_	26	R	26:R	_
+24	die	der	DET	ART	_	26	E	26:E	_
+25	kleinsten	klein	ADJ	ADJA	_	26	E	26:E	_
+26	Spalten	Spalte|Spalten	NOUN	NN	_	29	A	29:A	_
+27	hinein	hinein	ADV	PTKVZ	_	22	Terminal	22:Terminal	_
+28	,	,	PUNCT	$,	_	29	U	29:U	_
+29	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+30	ausbreitend	ausbreitend	ADJ	ADJD	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	$,	_	4	U	4:U	_
+32	bald	bald	ADV	ADV	_	4	L	4:L	_
+33	aufwärts	aufwärts	ADV	ADV	_	4	H	4:H	_
+34	,	,	PUNCT	$,	_	4	U	4:U	_
+35	bald	bald	ADV	ADV	_	4	L	4:L	_
+36	abwärts	abwärts	ADV	ADV	_	37	D	37:D	_
+37	gerichtet	richten	ADJ	VVPP	_	4	H	4:H	_
+38	,	,	PUNCT	$,	_	4	U	4:U	_
+39	wie	wie	ADP	ADJA	_	4	L	4:L	_
+40	korallenartige	korallenartig	ADJ	ADJA	_	41	E	41:E	_
+41	Auswüchse	Auswüchse	NOUN	NN	_	4	H	4:H	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

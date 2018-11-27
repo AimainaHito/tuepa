@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 452005
+# text = While stationed in the Lebanese capital , Jennings dated Palestinian activist Hanan Ashrawi , who was then a graduate student in literature at the American University in Beirut .
+1	While	while	SCONJ	IN	_	2	L	2:L	_
+2	stationed	station	VERB	VBN	_	0	H	0:H	_
+3	in	in	ADP	IN	_	6	R	6:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	Lebanese	lebanese	ADJ	JJ	_	6	E	6:E	_
+6	capital	capital	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	Jennings	Jennings	PROPN	NNP	_	9	A	9:A|2:A	_
+9	dated	date	VERB	VBN	_	2	H	2:H	_
+10	Palestinian	palestinian	ADJ	JJ	_	11	E	11:E	_
+11	activist	activist	NOUN	NN	_	12	E	12:E	_
+12	Hanan	Hanan	PROPN	NNP	_	9	A	9:A	_
+13	Ashrawi	Ashrawi	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	who	who	PRON	WP	_	16	R	16:R	_
+16	was	be	AUX	VBD	_	12	E	12:E	_
+17	then	then	ADV	RB	_	16	D	16:D	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	graduate	graduate	NOUN	NN	_	20	E	20:E	_
+20	student	student	NOUN	NN	_	16	A	16:A	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	literature	literature	NOUN	NN	_	20	E	20:E	_
+23	at	at	ADP	IN	_	26	R	26:R	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	American	american	PROPN	NNP	_	26	E	26:E	_
+26	University	University	PROPN	NNP	_	20	E	20:E	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	Beirut	Beirut	PROPN	NNP	_	26	E	26:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

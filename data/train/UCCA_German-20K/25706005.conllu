@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25706005
+# text = Es schien mir , als werde die Enge immer schmäler .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	als	als	SCONJ	KOKOM	_	10	R	10:R	_
+6	werde	werden	AUX	NN	_	10	F	10:F	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Enge	eng	NOUN	NN	_	10	A	10:A	_
+9	immer	immer	ADV	ADV	_	10	D	10:D	_
+10	schmäler	schmäl	ADJ	NE	_	2	A	2:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

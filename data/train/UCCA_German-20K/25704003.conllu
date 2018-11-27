@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25704003
+# text = Man hörte ein Zischen , und der Dugong verschwand .
+1	Man	man	PRON	PIS	_	2	F	2:F	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Zischen	Zischen	NOUN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Dugong	Dugong	NOUN	NE	_	9	A	9:A	_
+9	verschwand	verschwinden	VERB	VVFIN	_	2	H	2:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

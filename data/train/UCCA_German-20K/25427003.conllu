@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25427003
+# text = Im Grunde ließ ich die Existenz des » Ungeheuers « gelten .
+1	Im	Im	ADJ	NN	_	11	G	11:G	_
+2	Grunde	Grund	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	ließ	lassen	VERB	VVFIN	_	11	D	11:D	_
+4	ich	ich	PRON	PPER	_	11	A	11:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Existenz	Existenz	NOUN	NN	_	11	A	11:A	_
+7	des	der	DET	ART	_	9	R	9:R	_
+8	»	»	PUNCT	$(	_	9	U	9:U	_
+9	Ungeheuers	Ungeheuer	PROPN	NN	_	6	A	6:A	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	gelten	gelten	VERB	VVFIN	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

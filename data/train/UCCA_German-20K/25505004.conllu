@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25505004
+# text = Es fanden sich da Seltenheiten aus dem Natur reiche von bedeutendem Wert , hauptsächlich Pflanzen , Muscheln und andere Erzeugnisse des Meeres , die ohne Zweifel der Kapitän persönlich gesammelt hatte .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	fanden	finden	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	da	da	ADV	ADV	_	2	A	2:A	_
+5	Seltenheiten	Seltenheit	NOUN	NN	_	2	A	2:A	_
+6	aus	aus	ADP	APPR	_	9	R	9:R	_
+7	dem	der	DET	ART	_	9	E	9:E	_
+8	Natur	Natur	NOUN	NN	_	9	E	9:E	_
+9	reiche	reich	ADJ	ADJA	_	5	E	5:E	_
+10	von	von	ADP	NN	_	12	R	12:R	_
+11	bedeutendem	bedeutend	ADJ	KOUS	_	12	E	12:E	_
+12	Wert	Wert	NOUN	NN	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	hauptsächlich	hauptsächlich	ADJ	ADV	_	2	D	2:D	_
+15	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	2	A	2:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	Muscheln	Muschel	NOUN	NN	_	15	C	15:C	_
+18	und	und	CCONJ	NE	_	15	N	15:N	_
+19	andere	ander	ADJ	ADJA	_	20	E	20:E	_
+20	Erzeugnisse	Erzeugnis	NOUN	NN	_	15	C	15:C	_
+21	des	der	DET	ART	_	22	R	22:R	_
+22	Meeres	Meer	NOUN	NN	_	20	E	20:E	_
+23	,	,	PUNCT	$,	_	20	U	20:U	_
+24	die	der	PRON	PRELS	_	30	R	30:R	_
+25	ohne	ohne	ADP	CARD	_	26	E	26:E	_
+26	Zweifel	Zweifel	NOUN	NN	_	30	G	30:G	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Kapitän	Kapitän	NOUN	NN	_	30	A	30:A	_
+29	persönlich	persönlich	ADJ	ADJD	_	30	D	30:D	_
+30	gesammelt	sammeln	VERB	VVPP	_	20	E	20:E	_
+31	hatte	haben	AUX	VAFIN	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

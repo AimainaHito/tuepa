@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25777014
+# text = Eine schlimme Sache .
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	schlimme	schlimm	ADJ	NN	_	0	H	0:H	_
+3	Sache	Sache	NOUN	NN	_	2	A	2:A	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

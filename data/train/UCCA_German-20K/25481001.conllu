@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25481001
+# text = Die Feuer wurden noch mehr geschürt , die Schraube drehte sich 43 mal in der Minute , und der Dampf strömte aus den Klappen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Feuer	Feuer	NOUN	ADJA	_	6	A	6:A	_
+3	wurden	werden	AUX	NN	_	6	F	6:F	_
+4	noch	noch	ADV	XY	_	5	E	5:E	_
+5	mehr	mehr	PRON	ADV	_	6	D	6:D	_
+6	geschürt	schüren	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	DET	PRELS	_	9	E	9:E	_
+9	Schraube	Schraube	NOUN	NN	_	10	A	10:A	_
+10	drehte	drehen	VERB	VVFIN	_	6	H	6:H	_
+11	sich	er|es|sie	PRON	PRF	_	10	Terminal	10:Terminal	_
+12	43	43	NUM	CARD	_	13	E	13:E	_
+13	mal	mal	ADV	ADV	_	10	A	10:A	_
+14	in	in	ADP	APPR	_	13	Terminal	13:Terminal	_
+15	der	der	DET	ART	_	13	Terminal	13:Terminal	_
+16	Minute	Minute	NOUN	NN	_	13	Terminal	13:Terminal	_
+17	,	,	PUNCT	$,	_	6	U	6:U	_
+18	und	und	CCONJ	NN	_	6	L	6:L	_
+19	der	der	DET	ART	_	20	E	20:E	_
+20	Dampf	Dampf	NOUN	NN	_	21	A	21:A	_
+21	strömte	strömen	VERB	VVFIN	_	6	H	6:H	_
+22	aus	aus	ADP	APPR	_	24	R	24:R	_
+23	den	der	DET	ART	_	24	E	24:E	_
+24	Klappen	klappen	NOUN	NN	_	21	A	21:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

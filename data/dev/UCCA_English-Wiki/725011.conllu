@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 725011
+# text = The film received a mixed reception from critics , and Jolie 's characterâ   Thornton 's seductive wifeâ   was particularly criticized .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	mixed	mix	ADJ	JJ	_	6	E	6:E	_
+6	reception	reception	NOUN	NN	_	3	A	3:A	_
+7	from	from	ADP	IN	_	8	R	8:R	_
+8	critics	critic	NOUN	NNS	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	Jolie	Jolie	PROPN	NNP	_	13	E	13:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	characterâ	characterâ	NOUN	NN	_	24	A	24:A	_
+14			NOUN	NN	_	13	U	13:U	_
+15			NOUN	NN	_	13	U	13:U	_
+16	Thornton	Thornton	PROPN	NNP	_	19	E	19:E	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	seductive	seductive	ADJ	JJ	_	19	E	19:E	_
+19	wifeâ	wifeâ	NOUN	NN	_	13	E	13:E	_
+20			NOUN	NN	_	24	U	24:U	_
+21			NOUN	NN	_	24	U	24:U	_
+22	was	be	AUX	VBD	_	24	F	24:F	_
+23	particularly	particularly	ADV	RB	_	24	D	24:D	_
+24	criticized	criticize	VERB	VBN	_	3	H	3:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

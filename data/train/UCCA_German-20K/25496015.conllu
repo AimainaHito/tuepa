@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25496015
+# text = » Nein , mein Herr , Gnade ist 's .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	Gnade	Gnade	NOUN	NN	_	8	A	8:A	_
+8	ist	sein	AUX	NE	_	2	H	2:H	_
+9	's	es	X	ART	_	8	F	8:F	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

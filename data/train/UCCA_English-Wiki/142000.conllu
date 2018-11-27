@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 142000
+# text = Hepburn made her only appearance at the Academy Awards in 1974 , to present the Irving G. Thalberg Memorial Award to Lawrence Weingarten .
+1	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A|14:A	_
+2	made	make	VERB	VBD	_	5	F	5:F	_
+3	her	she	PRON	PRP$	_	5	E	5:E	_
+4	only	only	ADJ	JJ	_	5	E	5:E	_
+5	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+6	at	at	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	Academy	Academy	PROPN	NNP	_	9	E	9:E	_
+9	Awards	awards	PROPN	NNP	_	5	A	5:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1974	1974	NUM	CD	_	5	D	5:D	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	to	to	PART	TO	_	5	L	5:L	_
+14	present	present	VERB	VB	_	5	H	5:H	_
+15	the	the	DET	DT	_	20	E	20:E	_
+16	Irving	Irve	PROPN	NNP	_	20	E	20:E	_
+17	G.	G.	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Thalberg	Thalberg	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	Memorial	memorial	PROPN	NNP	_	20	E	20:E	_
+20	Award	Award	PROPN	NNP	_	14	A	14:A	_
+21	to	to	ADP	IN	_	22	R	22:R	_
+22	Lawrence	Lawrence	PROPN	NNP	_	14	A	14:A	_
+23	Weingarten	Weingarten	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

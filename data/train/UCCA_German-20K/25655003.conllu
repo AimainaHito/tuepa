@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25655003
+# text = Sobald ich meine Kleidung gewechselt , begab ich mich auf die Plattform , und von Gedanken überwältigt wollte ich mich neben der Leuchte niedersetzen .
+1	Sobald	sobald	SCONJ	KOUS	_	5	L	5:L	_
+2	ich	ich	PRON	PPER	_	5	A	5:A	_
+3	meine	mein	DET	PPOSAT	_	4	E	4:E	_
+4	Kleidung	kleidung	NOUN	NN	_	5	A	5:A	_
+5	gewechselt	wechseln	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	begab	begeben	VERB	VVFIN	_	5	H	5:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A|17:A	_
+9	mich	ich	PRON	PRF	_	7	Terminal	7:Terminal	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Plattform	Plattform	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	und	und	CCONJ	NE	_	5	L	5:L	_
+15	von	von	ADP	NN	_	16	R	16:R	_
+16	Gedanken	Gedanke	NOUN	NN	_	17	A	17:A	_
+17	überwältigt	überwältigen	VERB	VVFIN	_	5	H	5:H	_
+18	wollte	wollen	AUX	VMFIN	_	20	D	20:D	_
+19	ich	ich	PRON	PPER	_	20	A	20:A	_
+20	mich	ich	PRON	PRF	_	5	H	5:H	_
+21	neben	neben	ADP	TRUNC	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Leuchte	Leuchte	NOUN	NN	_	20	A	20:A	_
+24	niedersetzen	niedersetzen	VERB	VVINF	_	20	Terminal	20:Terminal	_
+25	.	.	PUNCT	$.	_	20	U	20:U	_
+

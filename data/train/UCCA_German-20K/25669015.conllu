@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25669015
+# text = Ich glaubte , dies Boot gehörte der Linie an , welche die Fahrten von Ceylon nach Sidney macht .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	glaubte	glauben	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dies	dies	PRON	PDS	_	5	E	5:E	_
+5	Boot	Boot	NOUN	NE	_	6	A	6:A	_
+6	gehörte	gehören	VERB	VVFIN	_	2	A	2:A	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Linie	Linie	NOUN	NN	_	6	A	6:A	_
+9	an	an	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	welche	welch	PRON	NN	_	18	R	18:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Fahrten	Fahrt	NOUN	NN	_	18	A	18:A	_
+14	von	von	ADP	NE	_	15	R	15:R	_
+15	Ceylon	Ceylon	PROPN	NE	_	13	E	13:E	_
+16	nach	nach	ADP	CARD	_	15	N	15:N	_
+17	Sidney	Sidney	PROPN	NE	_	15	C	15:C	_
+18	macht	machen	VERB	VVFIN	_	8	E	8:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

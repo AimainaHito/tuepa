@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25665006
+# text = Allein , meines Erachtens , erklärte diese Annahme nur eine der Seiten seines Charakters .
+1	Allein	allein	ADV	ADV	_	8	E	8:E	_
+2	,	,	PUNCT	$,	_	6	U	6:U	_
+3	meines	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Erachtens	Erachten	NOUN	NN	_	6	G	6:G	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erklärte	erklären	VERB	VVFIN	_	0	H	0:H	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Annahme	Annahme	NOUN	NN	_	6	A	6:A	_
+9	nur	nur	ADV	NE	_	12	E	12:E	_
+10	eine	ein	PRON	PIS	_	12	E	12:E	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Seiten	Seite	NOUN	NN	_	14	E	14:E	_
+13	seines	sein	DET	PPOSAT	_	14	R	14:R	_
+14	Charakters	Charakter	NOUN	NN	_	6	A	6:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

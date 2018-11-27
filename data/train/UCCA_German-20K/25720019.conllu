@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25720019
+# text = 12 Meilen entfernt sah man in unbestimmten Umrissen das Kap St . Vincent , die südwestliche Spitze der spanischen Halbinsel .
+1	12	12	NUM	CARD	_	2	E	2:E	_
+2	Meilen	Meile	NOUN	NN	_	3	A	3:A	_
+3	entfernt	entfernt	ADJ	ADJD	_	4	A	4:A	_
+4	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	unbestimmten	unbestimmt	ADJ	ADJA	_	8	E	8:E	_
+8	Umrissen	umrissen	NOUN	NN	_	4	A	4:A	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Kap	Kap	NOUN	NN	_	11	E	11:E	_
+11	St	St	PROPN	NE	_	3	A	3:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+13	Vincent	Vincent	PROPN	NN	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	südwestliche	südwestlich	ADJ	ADJA	_	17	E	17:E	_
+17	Spitze	Spitze	NOUN	NN	_	11	E	11:E	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	spanischen	spanisch	ADJ	ADJA	_	17	E	17:E	_
+20	Halbinsel	Halbinsel	NOUN	NN	_	19	E	19:E	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

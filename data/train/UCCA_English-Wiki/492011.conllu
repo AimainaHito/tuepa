@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 492011
+# text = He then reached a new commercial peak in 1983 with Let 's Dance , which yielded several hit singles .
+1	He	he	PRON	PRP	_	7	A	7:A	_
+2	then	then	ADV	RB	_	7	L	7:L	_
+3	reached	reach	VERB	VBD	_	7	D	7:D	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	new	new	ADJ	JJ	_	7	E	7:E	_
+6	commercial	commercial	ADJ	JJ	_	7	E	7:E	_
+7	peak	peak	NOUN	NN	_	0	H	0:H	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	1983	1983	NUM	CD	_	7	D	7:D	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Let	let	PROPN	NNP	_	7	A	7:A	_
+12	's	's	PART	POS	_	11	Terminal	11:Terminal	_
+13	Dance	Dance	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	11	U	11:U	_
+15	which	which	PRON	WDT	_	16	F	16:F	_
+16	yielded	yield	VERB	VBD	_	11	E	11:E	_
+17	several	several	ADJ	JJ	_	19	E	19:E	_
+18	hit	hit	NOUN	NN	_	19	E	19:E	_
+19	singles	singles	NOUN	NNS	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

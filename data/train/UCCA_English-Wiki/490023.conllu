@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 490023
+# text = Bana completed a lap of the Top Gear test track in 1 - minute and 47.5 seconds on a wet track , the fastest wet lap ever recorded at that time .
+1	Bana	Bana	PROPN	NNP	_	2	A	2:A	_
+2	completed	complete	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	lap	lap	NOUN	NN	_	2	A	2:A|28:A	_
+5	of	of	ADP	IN	_	10	R	10:R	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	Top	top	ADJ	JJ	_	10	E	10:E	_
+8	Gear	gear	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	test	test	NOUN	NN	_	10	E	10:E	_
+10	track	track	NOUN	NN	_	4	E	4:E	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1	1	NUM	CD	_	2	A	2:A	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	minute	minute	NOUN	NN	_	12	Terminal	12:Terminal	_
+15	and	and	CCONJ	CC	_	12	Terminal	12:Terminal	_
+16	47.5	47.5	NUM	CD	_	12	Terminal	12:Terminal	_
+17	seconds	seconds	NOUN	NNS	_	12	Terminal	12:Terminal	_
+18	on	on	ADP	IN	_	21	R	21:R	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	wet	wet	ADJ	JJ	_	21	E	21:E	_
+21	track	track	NOUN	NN	_	2	A	2:A	_
+22	,	,	PUNCT	,	_	2	U	2:U	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	fastest	fastest	ADJ	JJS	_	26	E	26:E	_
+25	wet	wet	ADJ	JJ	_	26	E	26:E	_
+26	lap	lap	NOUN	NN	_	28	A	28:A	_
+27	ever	ever	ADV	RB	_	28	D	28:D	_
+28	recorded	record	VERB	VBN	_	2	H	2:H	_
+29	at	at	ADP	IN	_	31	R	31:R	_
+30	that	that	DET	DT	_	31	E	31:E	_
+31	time	time	NOUN	NN	_	28	D	28:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

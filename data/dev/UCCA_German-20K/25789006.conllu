@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25789006
+# text = Jeder von ihnen trug auf dem Rücken seinen Rouquayrolapparat , der aus den Behältern reichlich mit reiner Luft gefüllt war .
+1	Jeder	jed	PRON	PIS	_	4	A	4:A	_
+2	von	von	ADP	NN	_	3	R	3:R	_
+3	ihnen	sie	PRON	PPER	_	1	E	1:E	_
+4	trug	tragen	VERB	VVFIN	_	0	H	0:H	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Rücken	Rücken	NOUN	NN	_	4	A	4:A	_
+8	seinen	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Rouquayrolapparat	Rouquayrolapparat	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	der	der	PRON	PRELS	_	19	R	19:R	_
+12	aus	aus	ADP	APPR	_	14	R	14:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Behältern	Behälter	NOUN	NN	_	19	A	19:A	_
+15	reichlich	reichlich	ADJ	NE	_	19	D	19:D	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	reiner	rein	ADJ	PPOSAT	_	18	E	18:E	_
+18	Luft	Luft	NOUN	NN	_	19	A	19:A	_
+19	gefüllt	füllen	VERB	VVPP	_	9	E	9:E	_
+20	war	sein	AUX	NN	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

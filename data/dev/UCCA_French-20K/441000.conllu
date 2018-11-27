@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 441000
+# text = Mais je me laisse entraîner à des rêveries qu' il ne m' appartient plus d' entretenir !
+1	Mais	mais	CCONJ	_	_	5	L	5:L	_
+2	je	il	PRON	_	_	5	A	5:A	_
+3	me	lui	PRON	_	_	4	E	4:E	_
+4	laisse	laisser	VERB	_	_	5	D	5:D	_
+5	entraîner	entraîner	VERB	_	_	0	H	0:H	_
+6	à	à	ADP	_	_	8	R	8:R	_
+7	des	un	DET	_	_	8	E	8:E	_
+8	rêveries	rêverie	NOUN	_	_	5	A	5:A	_
+9	qu'	que	PRON	_	_	16	R	16:R	_
+10	il	il	PRON	_	_	16	F	16:F	_
+11	ne	ne	ADV	_	_	16	D	16:D	_
+12	m'	me	PRON	_	_	16	D	16:D	_
+13	appartient	appartenir	VERB	_	_	12	Terminal	12:Terminal	_
+14	plus	plus	ADV	_	_	11	Terminal	11:Terminal	_
+15	d'	de	ADP	_	_	16	R	16:R	_
+16	entretenir	entretenir	VERB	_	_	8	E	8:E	_
+17	!	!	PUNCT	_	_	16	U	16:U	_
+

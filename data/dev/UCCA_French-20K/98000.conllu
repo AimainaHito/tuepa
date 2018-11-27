@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 98000
+# text = Tout d' abord , les passagers furent très - effrayés ; mais le capitaine Anderson se hâta de les rassurer .
+1	Tout	tout	ADV	_	_	10	L	10:L	_
+2	d'	de	ADP	_	_	1	Terminal	1:Terminal	_
+3	abord	abord	NOUN	_	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	_	_	10	U	10:U	_
+5	les	le	DET	_	_	6	E	6:E	_
+6	passagers	passager	NOUN	_	_	10	A	10:A	_
+7	furent	être	AUX	_	_	10	F	10:F	_
+8	très	très	ADV	_	_	10	E	10:E	_
+9	-	-	PUNCT	_	_	10	U	10:U	_
+10	effrayés	effrayé	VERB	_	_	0	H	0:H	_
+11	;	;	PUNCT	_	_	10	U	10:U	_
+12	mais	mais	CCONJ	_	_	10	L	10:L	_
+13	le	le	DET	_	_	14	E	14:E	_
+14	capitaine	capitaine	NOUN	_	_	15	E	15:E	_
+15	Anderson	Anderson	PROPN	_	_	20	A	20:A	_
+16	se	se	PRON	_	_	17	E	17:E	_
+17	hâta	hâter	VERB	_	_	20	D	20:D	_
+18	de	de	ADP	_	_	20	F	20:F	_
+19	les	le	PRON	_	_	20	A	20:A	_
+20	rassurer	rassurer	VERB	_	_	10	H	10:H	_
+21	.	.	PUNCT	_	_	20	U	20:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25682001
+# text = Ich erwiderte nichts , und in stetem Hinblick auf diese verdächtigen Wogen fing ich an mit Hilfe der Boots leute meine schwere See kleidung anzuziehen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+3	nichts	nichts	PRON	ADJA	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	stetem	stetem	ADJ	ADJA	_	8	D	8:D	_
+8	Hinblick	Hinblick	NOUN	NN	_	25	A	25:A	_
+9	auf	auf	ADP	APPR	_	12	R	12:R	_
+10	diese	dies	PRON	PDAT	_	12	E	12:E	_
+11	verdächtigen	verdächtig	ADJ	ADJA	_	12	E	12:E	_
+12	Wogen	Woge	NOUN	NN	_	8	A	8:A	_
+13	fing	fangen	VERB	VVFIN	_	25	D	25:D	_
+14	ich	ich	PRON	PPER	_	25	A	25:A|8:A	_
+15	an	an	ADP	APPR	_	13	Terminal	13:Terminal	_
+16	mit	mit	ADP	APPR	_	17	R	17:R	_
+17	Hilfe	Hilfe	NOUN	NN	_	25	A	25:A	_
+18	der	der	DET	ART	_	20	R	20:R	_
+19	Boots	Boot	NOUN	NN	_	20	E	20:E	_
+20	leute	leuen	VERB	VVFIN	_	17	A	17:A	_
+21	meine	mein	PRON	PPOSAT	_	24	E	24:E	_
+22	schwere	schwer	ADJ	ADJA	_	24	E	24:E	_
+23	See	See	NOUN	NE	_	24	E	24:E	_
+24	kleidung	kleidung	NOUN	NN	_	25	A	25:A	_
+25	anzuziehen	anzuziehen	VERB	VVINF	_	2	H	2:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

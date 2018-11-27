@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25489035
+# text = Alles im Innern des Boots schien wie tot .
+1	Alles	alle	PRON	PIS	_	6	A	6:A	_
+2	im	im	ADV	NN	_	3	R	3:R	_
+3	Innern	Innern	NOUN	NN	_	1	E	1:E	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Boots	Boot	NOUN	NN	_	3	E	3:E	_
+6	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+7	wie	wie	CCONJ	ADV	_	8	R	8:R	_
+8	tot	tot	ADJ	ADJD	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

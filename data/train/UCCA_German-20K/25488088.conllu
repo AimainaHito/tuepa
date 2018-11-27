@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25488088
+# text = » Mein Herr hat mich gerufen ? « erwiderte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	6	A	6:A	_
+4	hat	haben	AUX	VAFIN	_	6	F	6:F	_
+5	mich	ich	PRON	PPER	_	6	A	6:A	_
+6	gerufen	rufen	VERB	VVPP	_	9	A	9:A	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	erwiderte	erwidert	ADJ	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

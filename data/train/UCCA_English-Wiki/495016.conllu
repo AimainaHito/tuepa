@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 495016
+# text = After Kemp cast Bowie with Hermione Farthingale for a poetic minuet , the pair began dating ; they soon moved into a London flat together .
+1	After	after	SCONJ	IN	_	3	L	3:L	_
+2	Kemp	Kemp	PROPN	NNP	_	3	A	3:A	_
+3	cast	cast	VERB	VBD	_	0	H	0:H	_
+4	Bowie	Bowie	PROPN	NNP	_	3	A	3:A	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Hermione	Hermione	PROPN	NNP	_	3	A	3:A	_
+7	Farthingale	Farthingale	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	for	for	ADP	IN	_	11	R	11:R	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	poetic	poetic	ADJ	JJ	_	11	E	11:E	_
+11	minuet	minuet	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	pair	pair	NOUN	NN	_	16	A	16:A	_
+15	began	begin	VERB	VBD	_	16	D	16:D	_
+16	dating	dating	NOUN	NN	_	3	H	3:H	_
+17	;	;	PUNCT	,	_	3	U	3:U	_
+18	they	they	PRON	PRP	_	20	A	20:A	_
+19	soon	soon	ADV	RB	_	20	D	20:D	_
+20	moved	move	VERB	VBD	_	3	H	3:H	_
+21	into	into	ADP	IN	_	24	R	24:R	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	London	London	PROPN	NNP	_	24	E	24:E	_
+24	flat	flat	ADJ	JJ	_	20	A	20:A	_
+25	together	together	ADV	RB	_	20	D	20:D	_
+26	.	.	PUNCT	.	_	20	U	20:U	_
+

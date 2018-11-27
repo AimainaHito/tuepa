@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25776012
+# text = » Sie sind im Kampf ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+3	sind	sein	AUX	NN	_	5	F	5:F	_
+4	im	im	ADV	NE	_	5	R	5:R	_
+5	Kampf	Kampf	NOUN	NE	_	0	H	0:H	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

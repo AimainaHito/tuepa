@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25797020
+# text = » Doch nicht allzusehr , offen gesagt . Es fehlten mir zwar einige Schluck Luft , aber ich glaube , ich würde mich schon darein gefunden haben . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Doch	doch	CCONJ	ADV	_	7	A	7:A	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	allzusehr	allzusehr	ADV	ADV	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	7	U	7:U	_
+6	offen	offen	ADJ	CARD	_	7	D	7:D	_
+7	gesagt	sagen	VERB	VVPP	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	Es	es	PRON	PPER	_	10	F	10:F	_
+10	fehlten	fehlen	VERB	VVFIN	_	7	H	7:H	_
+11	mir	ich	PRON	PPER	_	10	A	10:A	_
+12	zwar	zwar	ADV	ADV	_	10	D	10:D	_
+13	einige	einige	PRON	PIAT	_	15	E	15:E	_
+14	Schluck	Schluck	NOUN	NN	_	15	E	15:E	_
+15	Luft	Luft	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	$,	_	7	U	7:U	_
+17	aber	aber	CCONJ	KON	_	7	L	7:L	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	glaube	glauben	VERB	VVFIN	_	7	H	7:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	ich	ich	PRON	PPER	_	23	A	23:A	_
+22	würde	werden	AUX	NN	_	23	D	23:D	_
+23	mich	ich	PRON	PRF	_	19	A	19:A	_
+24	schon	schon	ADV	ADV	_	23	D	23:D	_
+25	darein	darein	ADV	ADV	_	23	Terminal	23:Terminal	_
+26	gefunden	finden	VERB	VVPP	_	23	Terminal	23:Terminal	_
+27	haben	haben	AUX	VAFIN	_	23	F	23:F	_
+28	.	.	PUNCT	$.	_	23	U	23:U	_
+29	«	«	PUNCT	$(	_	23	U	23:U	_
+

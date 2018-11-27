@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25754009
+# text = Während der Nacht des 13 . zum 14 . März fuhr die ›Nautilus‹ in seiner südlichen Richtung weiter .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Nacht	Nacht	NOUN	NN	_	11	D	11:D	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	13	13	NUM	CARD	_	3	E	3:E	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	zum	zum	ADV	NN	_	5	Terminal	5:Terminal	_
+8	14	14	NUM	CARD	_	5	Terminal	5:Terminal	_
+9	.	.	PUNCT	$.	_	5	U	5:U	_
+10	März	März	PROPN	NN	_	5	Terminal	5:Terminal	_
+11	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	11	A	11:A	_
+14	in	in	ADP	APPR	_	17	R	17:R	_
+15	seiner	sein	DET	PPOSAT	_	17	E	17:E	_
+16	südlichen	südlich	ADJ	ADJA	_	17	E	17:E	_
+17	Richtung	Richtung	NOUN	NN	_	11	A	11:A	_
+18	weiter	weiter	ADV	ADV	_	11	Terminal	11:Terminal	_
+19	.	.	PUNCT	$.	_	11	U	11:U	_
+

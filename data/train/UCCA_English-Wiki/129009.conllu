@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 129009
+# text = Critics disliked Sylvia Scarlett and it was unpopular with the public .
+1	Critics	critics	NOUN	NNS	_	2	A	2:A	_
+2	disliked	dislike	VERB	VBD	_	0	H	0:H	_
+3	Sylvia	Sylvia	PROPN	NNP	_	2	A	2:A	_
+4	Scarlett	Scarlett	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	it	it	PRON	PRP	_	8	A	8:A	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	unpopular	unpopular	ADJ	JJ	_	2	H	2:H	_
+9	with	with	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	public	public	NOUN	NN	_	8	A	8:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

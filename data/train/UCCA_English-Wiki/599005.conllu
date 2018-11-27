@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 599005
+# text = Wings ' 1977 release " Mull of Kintyre " is one of the all - time best - selling singles in the UK .
+1	Wings	wing	NOUN	NNS	_	4	A	4:A	_
+2	'	'	PUNCT	``	_	4	U	4:U	_
+3	1977	1977	NUM	CD	_	4	D	4:D	_
+4	release	release	NOUN	NN	_	10	A	10:A	_
+5	"	"	PUNCT	''	_	4	U	4:U	_
+6	Mull	Mull	PROPN	NNP	_	4	A	4:A	_
+7	of	of	ADP	IN	_	6	Terminal	6:Terminal	_
+8	Kintyre	Kintyre	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	"	"	PUNCT	''	_	10	U	10:U	_
+10	is	be	AUX	VBZ	_	0	H	0:H	_
+11	one	one	NUM	CD	_	20	E	20:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	the	the	DET	DT	_	20	E	20:E	_
+14	all	all	DET	DT	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	time	time	NOUN	NN	_	19	E	19:E	_
+17	best	best	ADJ	JJS	_	19	E	19:E	_
+18	-	-	PUNCT	,	_	19	U	19:U	_
+19	selling	sell	VERB	VBG	_	20	E	20:E	_
+20	singles	singles	NOUN	NNS	_	10	A	10:A	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	UK	UK	PROPN	NNP	_	20	E	20:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25758008
+# text = Der Walfisch kam näher .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Walfisch	Walfisch	NOUN	NE	_	3	A	3:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	näher	nah	ADJ	ADJD	_	3	Terminal	3:Terminal	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+

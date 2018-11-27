@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 701005
+# text = Rolling Stone magazine writer Greil Marcus notoriously asked " What is this shit ?
+1	Rolling	Rolling	PROPN	NNP	_	3	E	3:E	_
+2	Stone	stone	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	magazine	magazine	NOUN	NN	_	4	E	4:E	_
+4	writer	writer	NOUN	NN	_	8	A	8:A	_
+5	Greil	Greil	PROPN	NNP	_	4	E	4:E	_
+6	Marcus	Marcus	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	notoriously	notoriously	ADV	RB	_	8	D	8:D	_
+8	asked	ask	VERB	VBD	_	0	H	0:H	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	What	what	PRON	WP	_	11	A	11:A	_
+11	is	be	VERB	VBZ	_	8	A	8:A	_
+12	this	this	DET	DT	_	13	E	13:E	_
+13	shit	shit	NOUN	NN	_	11	A	11:A	_
+14	?	?	PUNCT	.	_	13	U	13:U	_
+

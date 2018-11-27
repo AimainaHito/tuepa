@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25715012
+# text = Die Läden öffneten sich , und ich sah das Meer um die ›Nautilus‹ herum ganz weiß .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Läden	Laden	NOUN	NN	_	3	A	3:A	_
+3	öffneten	öffnen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	sah	sehen	VERB	VVFIN	_	3	H	3:H	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Meer	Meer	NOUN	NN	_	16	A	16:A	_
+11	um	um	ADP	APPR	_	13	R	13:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	E	10:E	_
+14	herum	herum	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+15	ganz	ganz	ADJ	ADV	_	16	D	16:D	_
+16	weiß	wissen	ADJ	VVFIN	_	8	A	8:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

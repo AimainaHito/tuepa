@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 218009
+# text = In 2007 she again played Mary Jane Watson , in Spider - Man 3 .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2007	2007	NUM	CD	_	5	D	5:D	_
+3	she	she	PRON	PRP	_	5	A	5:A	_
+4	again	again	ADV	RB	_	5	D	5:D	_
+5	played	play	VERB	VBD	_	0	H	0:H	_
+6	Mary	Mary	PROPN	NNP	_	5	A	5:A	_
+7	Jane	Jane	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Watson	Watson	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Spider	Spider	PROPN	NNP	_	5	A	5:A	_
+12	-	-	PUNCT	,	_	11	U	11:U	_
+13	Man	man	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	3	3	NUM	CD	_	11	Terminal	11:Terminal	_
+15	.	.	PUNCT	.	_	11	U	11:U	_
+

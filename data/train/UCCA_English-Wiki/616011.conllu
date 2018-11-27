@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 616011
+# text = The 70 - painting show featured portraits of Lennon , Andy Warhol and David Bowie .
+1	The	the	DET	DT	_	5	E	5:E	_
+2	70	70	NUM	CD	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	painting	painting	NOUN	NN	_	5	E	5:E	_
+5	show	show	NOUN	NN	_	6	A	6:A	_
+6	featured	feature	VERB	VBN	_	0	H	0:H	_
+7	portraits	portrait	NOUN	NNS	_	6	A	6:A	_
+8	of	of	ADP	IN	_	9	R	9:R	_
+9	Lennon	Lennon	PROPN	NNP	_	7	E	7:E	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	Andy	Andy	PROPN	NNP	_	9	C	9:C	_
+12	Warhol	Warhol	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	9	N	9:N	_
+14	David	David	PROPN	NNP	_	9	C	9:C	_
+15	Bowie	Bowie	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	9	U	9:U	_
+

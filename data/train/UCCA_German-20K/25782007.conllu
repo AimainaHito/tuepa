@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25782007
+# text = Innen hörte ich Fußtritte , verwirrte Stimmen .
+1	Innen	innen	ADV	ADV	_	2	A	2:A	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	Fußtritte	Fußtritt	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	verwirrte	verwirrt	ADJ	ADJA	_	2	A	2:A	_
+7	Stimmen	Stimme|Stimmen	NOUN	NN	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

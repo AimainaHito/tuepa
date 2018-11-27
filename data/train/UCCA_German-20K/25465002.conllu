@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25465002
+# text = Nie hat die Mannschaft eines Schiffs der amerikanischen Marine mehr Geduld und Eifer gezeigt ; der Mißerfolg konnte ihr nicht zugeschrieben werden ; es blieb nichts übrig , als zurückzukehren .
+1	Nie	nie	ADV	ADV	_	14	D	14:D	_
+2	hat	haben	AUX	VAFIN	_	14	F	14:F	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Mannschaft	Mannschaft	NOUN	NN	_	14	A	14:A	_
+5	eines	ein	DET	ART	_	6	R	6:R	_
+6	Schiffs	Schiff	NOUN	NN	_	4	E	4:E	_
+7	der	der	DET	ART	_	9	R	9:R	_
+8	amerikanischen	amerikanisch	ADJ	ADJA	_	9	E	9:E	_
+9	Marine	Marine	NOUN	NN	_	6	E	6:E	_
+10	mehr	mehr	ADV	ADV	_	14	D	14:D	_
+11	Geduld	Geduld	NOUN	NE	_	14	A	14:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	Eifer	Eifer	NOUN	NE	_	11	C	11:C	_
+14	gezeigt	zeigen	VERB	VVPP	_	0	H	0:H	_
+15	;	;	PUNCT	$.	_	14	U	14:U	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Mißerfolg	Mißerfolg	NOUN	NN	_	21	A	21:A	_
+18	konnte	können	AUX	VMFIN	_	21	D	21:D	_
+19	ihr	ihr	PRON	PPER	_	21	A	21:A	_
+20	nicht	nicht	PART	CARD	_	21	D	21:D	_
+21	zugeschrieben	zuschreiben	VERB	VVPP	_	14	H	14:H	_
+22	werden	werden	AUX	VVFIN	_	21	F	21:F	_
+23	;	;	PUNCT	$.	_	14	U	14:U	_
+24	es	es	PRON	PPER	_	25	F	25:F	_
+25	blieb	bleiben	VERB	VVFIN	_	14	H	14:H	_
+26	nichts	nichts	PRON	ADJA	_	25	A	25:A	_
+27	übrig	übrig	ADV	ADJD	_	25	Terminal	25:Terminal	_
+28	,	,	PUNCT	$,	_	25	U	25:U	_
+29	als	als	PART	KOUS	_	30	R	30:R	_
+30	zurückzukehren	zurückkehren	VERB	VVIZU	_	25	A	25:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

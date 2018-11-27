@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25594015
+# text = Eine Menge dieser See pflanzen sind ganz ohne Blüten .
+1	Eine	ein	DET	ART	_	2	E	2:E	_
+2	Menge	Menge	NOUN	NN	_	6	A	6:A	_
+3	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+4	See	See	NOUN	NN	_	5	E	5:E	_
+5	pflanzen	pflanzen	VERB	VVFIN	_	2	E	2:E	_
+6	sind	sein	AUX	NN	_	0	H	0:H	_
+7	ganz	ganz	ADJ	ADV	_	6	D	6:D	_
+8	ohne	ohne	ADP	CARD	_	6	D	6:D	_
+9	Blüten	Blüte	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

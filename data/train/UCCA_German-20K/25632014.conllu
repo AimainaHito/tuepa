@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25632014
+# text = Die Wilden näherten sich , ohne zu laufen ; aber an feindlichen Drohungen fehlte es nicht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Wilden	Wilde	NOUN	NN	_	0	C	0:C|8:A	_
+3	näherten	nähern	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	ohne	ohne	ADP	CARD	_	3	L	3:L	_
+7	zu	zu	PART	NN	_	8	F	8:F	_
+8	laufen	laufen	VERB	VVFIN	_	3	H	3:H	_
+9	;	;	PUNCT	$.	_	3	U	3:U	_
+10	aber	aber	ADV	ADV	_	3	L	3:L	_
+11	an	an	ADP	APPR	_	13	R	13:R	_
+12	feindlichen	feindlich	ADJ	ADJA	_	13	E	13:E	_
+13	Drohungen	Drohung	NOUN	NN	_	14	A	14:A	_
+14	fehlte	fehlen	VERB	VVFIN	_	3	H	3:H	_
+15	es	es	PRON	PPER	_	14	F	14:F	_
+16	nicht	nicht	PART	XY	_	14	D	14:D	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

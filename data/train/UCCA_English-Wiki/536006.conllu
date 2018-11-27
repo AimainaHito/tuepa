@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 536006
+# text = He recruited many of Warner Bros . 's top stars and promoted the hard - edged social dramas for which the studio became known .
+1	He	he	PRON	PRP	_	2	A	2:A|12:A	_
+2	recruited	recruit	VERB	VBD	_	0	H	0:H	_
+3	many	many	ADJ	JJ	_	10	E	10:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	Warner	Warner	PROPN	NNP	_	10	E	10:E	_
+6	Bros	Bros	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	.	.	PUNCT	.	_	5	U	5:U	_
+8	's	's	PART	POS	_	5	R	5:R	_
+9	top	top	ADJ	JJ	_	10	E	10:E	_
+10	stars	star	NOUN	NNS	_	2	A	2:A	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	promoted	promote	VERB	VBD	_	2	H	2:H	_
+13	the	the	DET	DT	_	18	E	18:E	_
+14	hard	hard	ADV	RB	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	edged	edge	VERB	VBN	_	18	E	18:E	_
+17	social	social	ADJ	JJ	_	18	E	18:E	_
+18	dramas	drama	NOUN	NNS	_	12	A	12:A	_
+19	for	for	ADP	IN	_	24	A	24:A	_
+20	which	which	PRON	WDT	_	24	F	24:F	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	studio	studio	NOUN	NN	_	24	A	24:A	_
+23	became	become	VERB	VBD	_	24	D	24:D	_
+24	known	known	ADJ	JJ	_	18	E	18:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

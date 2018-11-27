@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 91005
+# text = Avait - il heurté une roche sous-marine , ou quelque énorme épave d' un naufrage ?
+1	Avait	avoir	AUX	_	_	4	F	4:F	_
+2	-	-	PUNCT	_	_	4	U	4:U	_
+3	il	il	PRON	_	_	4	A	4:A|12:A	_
+4	heurté	heurter	VERB	_	_	0	H	0:H	_
+5	une	un	DET	_	_	6	E	6:E	_
+6	roche	roche	NOUN	_	_	4	A	4:A	_
+7	sous-marine	sous-marine	ADJ	_	_	6	E	6:E	_
+8	,	,	PUNCT	_	_	4	U	4:U	_
+9	ou	ou	CCONJ	_	_	4	L	4:L	_
+10	quelque	quelque	DET	_	_	12	E	12:E	_
+11	énorme	énorme	ADJ	_	_	12	E	12:E	_
+12	épave	épave	NOUN	_	_	4	H	4:H	_
+13	d'	de	ADP	_	_	15	R	15:R	_
+14	un	un	DET	_	_	15	E	15:E	_
+15	naufrage	naufrage	NOUN	_	_	12	E	12:E	_
+16	?	?	PUNCT	_	_	15	U	15:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25630013
+# text = Waren nun auch meine Wünsche durch den Besitz dieses Vogels erfüllt , so war 's mit den Wünschen des Kanadiers nicht ebenso .
+1	Waren	sein	AUX	VAFIN	_	11	F	11:F	_
+2	nun	nun	ADV	ADV	_	11	D	11:D	_
+3	auch	auch	ADV	ADV	_	11	D	11:D	_
+4	meine	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Wünsche	Wunsch	NOUN	NN	_	11	A	11:A	_
+6	durch	durch	ADP	APPR	_	11	L	11:L	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Besitz	Besitz	NOUN	NN	_	11	H	11:H	_
+9	dieses	dies	PRON	PDAT	_	10	R	10:R	_
+10	Vogels	Vogel	NOUN	NN	_	8	A	8:A	_
+11	erfüllt	erfüllen	VERB	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	so	so	ADV	ADV	_	11	L	11:L	_
+14	war	sein	AUX	NE	_	22	F	22:F	_
+15	's	es	PART	NE	_	22	F	22:F	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	den	der	DET	ART	_	18	E	18:E	_
+18	Wünschen	Wunsch	NOUN	NN	_	22	A	22:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Kanadiers	Kanadier	NOUN	NN	_	18	E	18:E	_
+21	nicht	nicht	PART	CARD	_	22	D	22:D	_
+22	ebenso	ebenso	ADV	ADV	_	11	H	11:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25708021
+# text = » Hm ! « sagte Conseil , » diese Nacht ... ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Hm	Hm	PROPN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	diese	dies	PRON	PDAT	_	10	E	10:E	_
+10	Nacht	Nacht	NOUN	NN	_	2	H	2:H	_
+11	...	...	PUNCT	$(	_	10	U	10:U	_
+12	?	?	PUNCT	$.	_	10	U	10:U	_
+13	«	«	PUNCT	$(	_	10	U	10:U	_
+

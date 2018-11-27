@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25730005
+# text = Als ich eine Stunde nachher auf die Karte sah , bemerkte ich , dass die Lage der ›Nautilus‹ darauf eingetragen war mit 16 ° 17 ? Länge und 33 ° 22 ? Breite , 150 Lieue von der nächsten Küste entfernt .
+1	Als	als	SCONJ	KOUS	_	9	L	9:L	_
+2	ich	ich	PRON	PPER	_	9	A	9:A	_
+3	eine	ein	DET	ART	_	4	E	4:E	_
+4	Stunde	Stunde	NOUN	NN	_	9	D	9:D	_
+5	nachher	nachher	ADV	ADJA	_	4	R	4:R	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Karte	Karte	NOUN	NN	_	9	A	9:A	_
+9	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	bemerkte	bemerken	VERB	VVFIN	_	9	H	9:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Lage	Lage	NOUN	NN	_	18	E	18:E	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	›Nautilus‹	›Nautilus‹	NOUN	NE	_	20	A	20:A	_
+19	darauf	darauf	ADV	PAV	_	20	A	20:A	_
+20	eingetragen	eintragen	VERB	VVINF	_	11	A	11:A	_
+21	war	sein	AUX	ADV	_	20	F	20:F	_
+22	mit	mit	ADP	APPR	_	27	R	27:R	_
+23	16	16	NUM	CARD	_	27	E	27:E	_
+24	°	°	NOUN	TRUNC	_	23	U	23:U	_
+25	17	17	NUM	CARD	_	23	Terminal	23:Terminal	_
+26	?	?	PUNCT	$.	_	27	U	27:U	_
+27	Länge	Länge	NOUN	NN	_	20	H	20:H	_
+28	und	und	CCONJ	NE	_	20	L	20:L	_
+29	33	33	NUM	CARD	_	33	E	33:E	_
+30	°	°	NOUN	NE	_	29	U	29:U	_
+31	22	22	NUM	CARD	_	29	Terminal	29:Terminal	_
+32	?	?	PUNCT	$.	_	33	U	33:U	_
+33	Breite	Breite	NOUN	ADJA	_	20	H	20:H	_
+34	,	,	PUNCT	$,	_	20	U	20:U	_
+35	150	150	NUM	CARD	_	36	E	36:E	_
+36	Lieue	Lieue	NOUN	ADJA	_	41	A	41:A	_
+37	von	von	ADP	NN	_	40	R	40:R	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	nächsten	nah	ADJ	ADJA	_	40	E	40:E	_
+40	Küste	Küste	NOUN	NN	_	41	A	41:A	_
+41	entfernt	entfernen	VERB	VVPP	_	20	H	20:H	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

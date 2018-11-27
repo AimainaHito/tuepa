@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25438013
+# text = » Wir sind hier wohl aufgehoben « , sagte ich zu Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Wir	wir	PRON	NE	_	6	A	6:A	_
+3	sind	sein	AUX	NN	_	6	F	6:F	_
+4	hier	hier	ADV	ADV	_	6	A	6:A	_
+5	wohl	wohl	ADV	ADV	_	6	D	6:D	_
+6	aufgehoben	aufheben	VERB	VVPP	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	zu	zu	ADP	NE	_	12	R	12:R	_
+12	Conseil	Conseil	PROPN	NE	_	9	A	9:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

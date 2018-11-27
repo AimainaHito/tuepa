@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 692007
+# text = Many of the songs on this album were labeled protest songs , inspired partly by Guthrie and influenced by Pete Seeger 's passion for topical songs .
+1	Many	many	ADJ	JJ	_	4	E	4:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	songs	song	NOUN	NNS	_	0	C	0:C|13:A|18:A	_
+5	on	on	ADP	IN	_	7	R	7:R	_
+6	this	this	DET	DT	_	7	E	7:E	_
+7	album	album	NOUN	NN	_	4	E	4:E	_
+8	were	be	AUX	VBD	_	9	F	9:F	_
+9	labeled	label	VERB	VBN	_	0	H	0:H	_
+10	protest	protest	ADJ	JJS	_	11	E	11:E	_
+11	songs	song	NOUN	NNS	_	9	A	9:A	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	inspired	inspire	VERB	VBN	_	9	H	9:H	_
+14	partly	partly	ADV	RB	_	13	D	13:D	_
+15	by	by	ADP	IN	_	16	R	16:R	_
+16	Guthrie	Guthrie	PROPN	NNP	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	9	L	9:L	_
+18	influenced	influence	VERB	VBN	_	9	H	9:H	_
+19	by	by	ADP	IN	_	23	R	23:R	_
+20	Pete	Pete	PROPN	NNP	_	23	A	23:A	_
+21	Seeger	Seeger	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	's	's	PART	POS	_	20	R	20:R	_
+23	passion	passion	NOUN	NN	_	18	A	18:A	_
+24	for	for	ADP	IN	_	26	R	26:R	_
+25	topical	topical	ADJ	JJ	_	26	E	26:E	_
+26	songs	song	NOUN	NNS	_	23	A	23:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

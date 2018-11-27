@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25806013
+# text = Auch hier , in diesen Gewässern der Antillen , 10 Meter unterhalb des Meeresspiegels , wenn ich durch die geöffneten Fenster sah , welche interessante Produkte hatte ich in meinem Tagebuch zu verzeichnen !
+1	Auch	auch	ADV	ADV	_	2	L	2:L	_
+2	hier	hier	ADV	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	diesen	dies	PRON	PDAT	_	6	E	6:E	_
+6	Gewässern	Gewässer	NOUN	NN	_	2	E	2:E	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Antillen	Antille	NOUN	NE	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	10	10	NUM	CARD	_	14	E	14:E	_
+11	Meter	Meter	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	unterhalb	unterhalb	ADP	APPR	_	14	R	14:R	_
+13	des	der	DET	ART	_	14	R	14:R	_
+14	Meeresspiegels	Meeresspiegels	NOUN	NN	_	2	A	2:A	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+17	ich	ich	PRON	PPER	_	22	A	22:A	_
+18	durch	durch	ADP	APPR	_	21	R	21:R	_
+19	die	der	DET	ART	_	21	E	21:E	_
+20	geöffneten	geöffnet	ADJ	ADJA	_	21	E	21:E	_
+21	Fenster	Fenster	NOUN	NN	_	22	A	22:A	_
+22	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+23	,	,	PUNCT	$,	_	2	U	2:U	_
+24	welche	welch	PRON	NN	_	26	E	26:E	_
+25	interessante	interessant	ADJ	ADJA	_	26	E	26:E	_
+26	Produkte	Produkt	NOUN	NN	_	33	A	33:A	_
+27	hatte	haben	AUX	VAFIN	_	33	D	33:D	_
+28	ich	ich	PRON	PPER	_	33	A	33:A	_
+29	in	in	ADP	APPR	_	31	R	31:R	_
+30	meinem	mein	PRON	PPOSAT	_	31	E	31:E	_
+31	Tagebuch	Tagebuch	NOUN	NN	_	33	A	33:A	_
+32	zu	zu	PART	VVINF	_	33	F	33:F	_
+33	verzeichnen	verzeichnen	VERB	VVINF	_	2	H	2:H	_
+34	!	!	PUNCT	$.	_	33	U	33:U	_
+

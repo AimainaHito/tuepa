@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 549016
+# text = In the wake of this falling out , Jack 's relationship with his son , Jack Warner Jr . , also became strained .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	wake	wake	NOUN	NN	_	6	L	6:L	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	this	this	DET	DT	_	6	E	6:E	_
+6	falling	falling	NOUN	NN	_	0	H	0:H	_
+7	out	out	ADV	RB	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	Jack	Jack	PROPN	NNP	_	11	A	11:A	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	relationship	relationship	NOUN	NN	_	23	A	23:A	_
+12	with	with	ADP	IN	_	16	R	16:R	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	son	son	NOUN	NN	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	Jack	Jack	PROPN	NNP	_	11	A	11:A	_
+17	Warner	Warner	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Jr	Jr	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	.	_	23	U	23:U	_
+20	,	,	PUNCT	,	_	23	U	23:U	_
+21	also	also	ADV	RB	_	23	D	23:D	_
+22	became	become	VERB	VBD	_	23	D	23:D	_
+23	strained	strain	ADJ	JJ	_	6	H	6:H	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

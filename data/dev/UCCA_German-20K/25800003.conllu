@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25800003
+# text = Ich dachte daher , nicht ohne Grund , dass diese beiden Inseln umgeben von einer Menge Eilande , ehemals zu den Magellanischen Ländern gehörten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	daher	daher	ADV	PAV	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	nicht	nicht	PART	CARD	_	2	D	2:D	_
+6	ohne	ohne	ADP	NN	_	5	Terminal	5:Terminal	_
+7	Grund	Grund	NOUN	NN	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+10	diese	dies	PRON	PDS	_	12	E	12:E	_
+11	beiden	beide	PRON	PIS	_	12	E	12:E	_
+12	Inseln	Insel	NOUN	NN	_	2	A	2:A	_
+13	umgeben	umgeben	VERB	NN	_	12	E	12:E	_
+14	von	von	ADP	NE	_	17	R	17:R	_
+15	einer	ein	DET	ART	_	16	E	16:E	_
+16	Menge	Menge	NOUN	NN	_	17	E	17:E	_
+17	Eilande	Eilande	NOUN	NE	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	12	U	12:U	_
+19	ehemals	ehemals	ADV	ADV	_	24	D	24:D	_
+20	zu	zu	ADP	VVINF	_	23	R	23:R	_
+21	den	der	DET	ART	_	23	E	23:E	_
+22	Magellanischen	Magellanisch	ADJ	ADJA	_	23	E	23:E	_
+23	Ländern	Land	NOUN	NN	_	24	A	24:A	_
+24	gehörten	gehören	VERB	VVFIN	_	12	E	12:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

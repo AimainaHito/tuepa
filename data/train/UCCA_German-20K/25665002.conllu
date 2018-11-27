@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25665002
+# text = » Auch kein Mensch sollte sie da stören « , hatte der Kapitän beigefügt .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Auch	auch	ADV	ADV	_	8	D	8:D	_
+3	kein	kein	PRON	PIAT	_	4	E	4:E	_
+4	Mensch	Mensch	NOUN	NN	_	8	A	8:A	_
+5	sollte	sollen	AUX	VMFIN	_	8	D	8:D	_
+6	sie	sie	PRON	ADV	_	8	A	8:A	_
+7	da	da	ADV	ADV	_	8	A	8:A	_
+8	stören	stören	VERB	VVFIN	_	14	A	14:A	_
+9	«	«	PUNCT	$(	_	14	U	14:U	_
+10	,	,	PUNCT	$,	_	14	U	14:U	_
+11	hatte	haben	VERB	VAFIN	_	14	F	14:F	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kapitän	Kapitän	NOUN	NN	_	14	A	14:A	_
+14	beigefügt	beigefügen	VERB	VVFIN	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

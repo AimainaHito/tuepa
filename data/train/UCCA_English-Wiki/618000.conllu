@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 618000
+# text = McCartney 's music has appeared on several record labels .
+1	McCartney	McCartney	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	music	music	NOUN	NN	_	5	A	5:A	_
+4	has	have	AUX	VBZ	_	5	F	5:F	_
+5	appeared	appear	VERB	VBN	_	0	H	0:H	_
+6	on	on	ADP	IN	_	9	R	9:R	_
+7	several	several	ADJ	JJ	_	9	E	9:E	_
+8	record	record	NOUN	NN	_	9	E	9:E	_
+9	labels	label	NOUN	NNS	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

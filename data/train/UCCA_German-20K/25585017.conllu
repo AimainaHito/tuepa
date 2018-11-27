@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25585017
+# text = Zum Trunk diente klares Wasser , worin ich nach dem Beispiel des Kapitäns einige Tropfen Likör mischte , der , wie zu Kamtschatka , aus einer Algen art gewonnen war .
+1	Zum	Zum	ADP	NN	_	2	R	2:R	_
+2	Trunk	Trunk	PROPN	NN	_	3	A	3:A	_
+3	diente	dienen	VERB	VVFIN	_	0	H	0:H	_
+4	klares	klar	ADJ	ADJA	_	5	E	5:E	_
+5	Wasser	Wasser	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	worin	worin	PRON	PWAV	_	17	R	17:R	_
+8	ich	ich	PRON	PPER	_	17	A	17:A	_
+9	nach	nach	ADP	CARD	_	11	R	11:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Beispiel	Beispiel	NOUN	NN	_	5	E	5:E	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Kapitäns	Kapitän	NOUN	NE	_	11	A	11:A	_
+14	einige	einige	PRON	PIAT	_	15	E	15:E	_
+15	Tropfen	Tropfen	PROPN	NN	_	16	E	16:E	_
+16	Likör	Likör	PROPN	NE	_	17	A	17:A	_
+17	mischte	mischen	VERB	VVFIN	_	5	E	5:E	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	der	der	PRON	PRELS	_	29	R	29:R	_
+20	,	,	PUNCT	$,	_	29	U	29:U	_
+21	wie	wie	ADV	ADV	_	23	R	23:R	_
+22	zu	zu	ADP	NE	_	23	R	23:R	_
+23	Kamtschatka	Kamtschatka	PROPN	NE	_	29	A	29:A	_
+24	,	,	PUNCT	$,	_	29	U	29:U	_
+25	aus	aus	ADP	APPR	_	27	R	27:R	_
+26	einer	ein	DET	ART	_	27	E	27:E	_
+27	Algen	Alge	NOUN	NN	_	29	A	29:A	_
+28	art	aren	VERB	FM	_	27	E	27:E	_
+29	gewonnen	gewinnen	VERB	VVPP	_	16	E	16:E	_
+30	war	sein	AUX	ADV	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

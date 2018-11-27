@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25599006
+# text = Eine halbe Stunde nachher , geleitet von dem elektrischen Licht strahl , langten wir bei der " Nautilus " an .
+1	Eine	ein	DET	ART	_	2	E	2:E	_
+2	halbe	halb	ADJ	ADJA	_	13	D	13:D	_
+3	Stunde	Stunde	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	nachher	nachher	ADV	ADJA	_	13	A	13:A	_
+5	,	,	PUNCT	$,	_	13	U	13:U	_
+6	geleitet	geleiten|leiten	VERB	VVPP	_	13	H	13:H	_
+7	von	von	ADP	NE	_	11	R	11:R	_
+8	dem	der	DET	ART	_	11	E	11:E	_
+9	elektrischen	elektrisch	ADJ	ADJA	_	11	E	11:E	_
+10	Licht	Licht	NOUN	NN	_	11	E	11:E	_
+11	strahl	strehlen	VERB	NN	_	6	A	6:A	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	langten	langt	VERB	VVFIN	_	0	H	0:H	_
+14	wir	wir	PRON	NE	_	13	A	13:A|6:A	_
+15	bei	bei	ADP	APPR	_	18	R	18:R	_
+16	der	der	DET	ART	_	18	E	18:E	_
+17	"	"	PUNCT	$(	_	18	U	18:U	_
+18	Nautilus	Nautilus	PROPN	NE	_	13	A	13:A	_
+19	"	"	PUNCT	$(	_	13	U	13:U	_
+20	an	an	ADP	PTKVZ	_	13	Terminal	13:Terminal	_
+21	.	.	PUNCT	$.	_	13	U	13:U	_
+

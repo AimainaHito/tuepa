@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25680011
+# text = Die Nacht kam heran , ich legte mich zu Bett und schlief ziemlich schlecht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Nacht	Nacht	NOUN	NN	_	3	A	3:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	heran	heran	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	ich	ich	PRON	PPER	_	7	A	7:A|12:A	_
+7	legte	legen	VERB	VVFIN	_	3	H	3:H	_
+8	mich	ich	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	zu	zu	ADP	NE	_	10	R	10:R	_
+10	Bett	Bett	NOUN	NE	_	7	A	7:A	_
+11	und	und	CCONJ	NE	_	3	L	3:L	_
+12	schlief	schlafen	VERB	VVFIN	_	3	H	3:H	_
+13	ziemlich	ziemlich	ADV	ADV	_	14	E	14:E	_
+14	schlecht	schlecht	ADJ	NN	_	12	D	12:D	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

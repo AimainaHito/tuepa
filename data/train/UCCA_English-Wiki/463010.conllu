@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 463010
+# text = Jennings left a $ 50 m estate , half went to Freed ; most of the rest to his son and daughter .
+1	Jennings	Jenning	PROPN	NNP	_	2	A	2:A	_
+2	left	leave	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	7	E	7:E	_
+4	$	$	SYM	$	_	7	U	7:U	_
+5	50	50	NUM	CD	_	7	E	7:E	_
+6	m	m	NUM	CD	_	5	Terminal	5:Terminal	_
+7	estate	estate	NOUN	NN	_	0	C	0:C|9:C|17:C	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	half	half	PRON	PRP	_	10	A	10:A	_
+10	went	go	VERB	VBD	_	2	H	2:H	_
+11	to	to	PART	TO	_	10	R	10:R	_
+12	Freed	Free	VERB	VB	_	10	A	10:A	_
+13	;	;	PUNCT	,	_	2	U	2:U	_
+14	most	most	ADJ	JJS	_	17	E	17:E	_
+15	of	of	ADP	IN	_	14	R	14:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	rest	rest	NOUN	NN	_	2	H	2:H	_
+18	to	to	ADP	IN	_	20	R	20:R	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	son	son	NOUN	NN	_	17	A	17:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	daughter	daughter	NOUN	NN	_	20	C	20:C	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 492009
+# text = This so - called " Berlin Trilogy " albums all reached the UK top five and received lasting critical praise .
+1	This	this	PRON	DT	_	9	E	9:E	_
+2	so	so	ADV	RB	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	called	call	VERB	VBN	_	9	E	9:E	_
+5	"	"	PUNCT	``	_	9	U	9:U	_
+6	Berlin	Berlin	PROPN	NNP	_	9	E	9:E	_
+7	Trilogy	Trilogy	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	"	"	PUNCT	''	_	9	U	9:U	_
+9	albums	album	NOUN	NNS	_	0	C	0:C|20:A	_
+10	all	all	ADV	RB	_	11	D	11:D	_
+11	reached	reach	VERB	VBD	_	0	H	0:H	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	UK	UK	PROPN	NNP	_	14	E	14:E	_
+14	top	top	NOUN	NN	_	11	A	11:A	_
+15	five	five	NUM	CD	_	14	E	14:E	_
+16	and	and	CCONJ	CC	_	11	L	11:L	_
+17	received	receive	VERB	VBD	_	20	D	20:D	_
+18	lasting	last	VERB	VBG	_	20	D	20:D	_
+19	critical	critical	ADJ	JJ	_	20	A	20:A	_
+20	praise	praise	NOUN	NN	_	11	H	11:H	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

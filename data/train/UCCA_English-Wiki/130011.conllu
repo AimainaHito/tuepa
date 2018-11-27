@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 130011
+# text = But it was not the box office hit RKO had hoped .
+1	But	but	CCONJ	CC	_	3	L	3:L	_
+2	it	it	PRON	PRP	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	not	not	PART	RB	_	3	D	3:D	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	box	box	NOUN	NN	_	7	E	7:E	_
+7	office	office	NOUN	NN	_	8	E	8:E	_
+8	hit	hit	VERB	VBD	_	3	A	3:A	_
+9	RKO	RKO	PROPN	NNP	_	11	A	11:A	_
+10	had	have	AUX	VBD	_	11	F	11:F	_
+11	hoped	hop	VERB	VBN	_	8	E	8:E	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

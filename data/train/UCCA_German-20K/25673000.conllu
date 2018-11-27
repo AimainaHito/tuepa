@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25673000
+# text = » Also « , sagte ich , » ist immer noch das ursprüngliche Verfahren in Brauch . «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Also	also	PROPN	ADV	_	15	L	15:L	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	ist	sein	AUX	VVFIN	_	15	F	15:F	_
+10	immer	immer	ADV	ADV	_	15	D	15:D	_
+11	noch	noch	ADV	CARD	_	10	Terminal	10:Terminal	_
+12	das	der	DET	ART	_	14	E	14:E	_
+13	ursprüngliche	ursprünglich	ADJ	NN	_	14	E	14:E	_
+14	Verfahren	Verfahren	NOUN	NN	_	15	A	15:A	_
+15	in	in	ADP	APPR	_	5	A	5:A	_
+16	Brauch	Brauch	PROPN	NN	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+18	«	«	PUNCT	$(	_	15	U	15:U	_
+

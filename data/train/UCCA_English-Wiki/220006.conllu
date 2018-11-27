@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 220006
+# text = Filming will begin in January 2013 .
+1	Filming	filming	PRON	NN	_	3	A	3:A	_
+2	will	will	AUX	MD	_	3	F	3:F	_
+3	begin	begin	VERB	VB	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	January	January	PROPN	NNP	_	3	D	3:D	_
+6	2013	2013	NUM	CD	_	5	Terminal	5:Terminal	_
+7	.	.	PUNCT	.	_	5	U	5:U	_
+

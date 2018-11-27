@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25490075
+# text = Aber ein Kanadier ist ein halber Franzose , das ließ Meister Ned in seiner Antwort wohl erkennen .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	ein	ein	DET	ART	_	3	E	3:E	_
+3	Kanadier	Kanadier	NOUN	NN	_	4	A	4:A	_
+4	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+5	ein	ein	DET	ART	_	7	E	7:E	_
+6	halber	halber	ADJ	NE	_	7	E	7:E	_
+7	Franzose	Franzose	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	das	der	PRON	PRELS	_	4	L	4:L	_
+10	ließ	lassen	VERB	VVFIN	_	17	D	17:D	_
+11	Meister	Meister	NOUN	NN	_	17	A	17:A	_
+12	Ned	Ned	PROPN	NE	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	seiner	sein	DET	PPOSAT	_	15	E	15:E	_
+15	Antwort	Antwort	NOUN	NN	_	17	A	17:A	_
+16	wohl	wohl	ADV	NE	_	17	D	17:D	_
+17	erkennen	erkennen	VERB	VVINF	_	4	H	4:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25685008
+# text = Die beiden Schalen der Molluske waren ein wenig geöffnet .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Schalen	Schale	NOUN	NN	_	9	A	9:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Molluske	Molluske	NOUN	NN	_	3	E	3:E	_
+6	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+7	ein	ein	DET	ART	_	9	D	9:D	_
+8	wenig	wenig	ADV	ADJA	_	7	Terminal	7:Terminal	_
+9	geöffnet	öffnen	ADJ	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

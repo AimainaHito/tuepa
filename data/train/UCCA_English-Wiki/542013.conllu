@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 542013
+# text = Although Warner Bros . maintained a high rate of production throughout the 1930s , some pictures showed an uneven quality that reflected " not only the difficulty of shifting to a supervisory system but also the consequences of dispersing authority into the creative ranks " .
+1	Although	although	SCONJ	IN	_	5	L	5:L	_
+2	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+3	Bros	Bros	PROPN	NNP	_	2	E	2:E	_
+4	.	.	PUNCT	.	_	5	U	5:U	_
+5	maintained	maintain	VERB	VBN	_	0	H	0:H	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	high	high	ADJ	JJ	_	8	D	8:D	_
+8	rate	rate	NOUN	NN	_	5	A	5:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	production	production	NOUN	NN	_	8	A	8:A	_
+11	throughout	throughout	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	1930s	1930	NOUN	NNS	_	5	D	5:D	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	some	some	DET	DT	_	16	E	16:E	_
+16	pictures	picture	NOUN	NNS	_	17	A	17:A	_
+17	showed	show	VERB	VBD	_	5	H	5:H	_
+18	an	a	DET	DT	_	20	E	20:E	_
+19	uneven	uneven	ADJ	JJ	_	20	E	20:E	_
+20	quality	quality	NOUN	NN	_	17	A	17:A	_
+21	that	that	PRON	WDT	_	22	F	22:F	_
+22	reflected	reflect	VERB	VBD	_	20	E	20:E	_
+23	"	"	PUNCT	``	_	22	U	22:U	_
+24	not	not	ADV	RB	_	25	E	25:E	_
+25	only	only	ADV	RB	_	27	L	27:L	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	difficulty	difficulty	NOUN	NN	_	22	A	22:A	_
+28	of	of	ADP	IN	_	29	F	29:F	_
+29	shifting	shifte	NOUN	NN	_	27	A	27:A	_
+30	to	to	ADP	IN	_	33	R	33:R	_
+31	a	a	DET	DT	_	33	E	33:E	_
+32	supervisory	supervisory	ADJ	JJ	_	33	E	33:E	_
+33	system	system	NOUN	NN	_	29	A	29:A	_
+34	but	but	CCONJ	CC	_	35	E	35:E	_
+35	also	also	ADV	RB	_	25	C	25:C	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	consequences	consequences	NOUN	NNS	_	39	A	39:A	_
+38	of	of	SCONJ	IN	_	39	F	39:F	_
+39	dispersing	disperse	VERB	VBG	_	27	H	27:H	_
+40	authority	authority	NOUN	NN	_	39	A	39:A	_
+41	into	into	ADP	IN	_	43	R	43:R	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	creative	creative	ADJ	JJ	_	39	A	39:A	_
+44	ranks	ranks	NOUN	NNS	_	43	E	43:E	_
+45	"	"	PUNCT	''	_	43	U	43:U	_
+46	.	.	PUNCT	.	_	43	U	43:U	_
+

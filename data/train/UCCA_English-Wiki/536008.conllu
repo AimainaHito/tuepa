@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 536008
+# text = Throughout his career , he was viewed as a contradictory and enigmatic figure .
+1	Throughout	throughout	ADP	IN	_	3	L	3:L	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	career	career	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	he	he	PRON	PRP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	viewed	view	VERB	VBN	_	3	H	3:H	_
+8	as	as	ADP	IN	_	13	R	13:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	contradictory	contradictory	NOUN	NN	_	13	E	13:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	enigmatic	enigmatic	ADJ	JJ	_	10	C	10:C	_
+13	figure	figure	NOUN	NN	_	7	A	7:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

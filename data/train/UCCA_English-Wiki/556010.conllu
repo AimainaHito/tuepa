@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 556010
+# text = He was a regular audience member at the monthly All - Night Singings downtown , where many of the white gospel groups that performed reflected the influence of African - American spiritual music .
+1	He	he	PRON	PRP	_	6	A	6:A	_
+2	was	be	AUX	VBD	_	6	F	6:F	_
+3	a	a	DET	DT	_	6	E	6:E	_
+4	regular	regular	ADJ	JJ	_	6	E	6:E	_
+5	audience	audience	NOUN	NN	_	6	E	6:E	_
+6	member	member	NOUN	NN	_	0	H	0:H	_
+7	at	at	ADP	IN	_	13	R	13:R	_
+8	the	the	DET	DT	_	13	E	13:E	_
+9	monthly	monthly	ADJ	JJ	_	13	E	13:E	_
+10	All	all	NOUN	NN	_	13	E	13:E	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	Night	night	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	Singings	Singing	NOUN	NNS	_	6	A	6:A	_
+14	downtown	downtown	NOUN	NN	_	13	E	13:E	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	where	where	ADV	WRB	_	25	F	25:F	_
+17	many	many	ADJ	JJ	_	22	E	22:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	white	white	ADJ	JJ	_	22	E	22:E	_
+21	gospel	gospel	NOUN	NN	_	22	E	22:E	_
+22	groups	group	NOUN	NNS	_	25	A	25:A	_
+23	that	that	PRON	WDT	_	24	F	24:F	_
+24	performed	perform	VERB	VBD	_	22	E	22:E	_
+25	reflected	reflect	VERB	VBD	_	13	E	13:E	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	influence	influence	NOUN	NN	_	33	E	33:E	_
+28	of	of	ADP	IN	_	27	R	27:R	_
+29	African	african	ADJ	JJ	_	33	E	33:E	_
+30	-	-	PUNCT	HYPH	_	29	U	29:U	_
+31	American	american	ADJ	JJ	_	29	Terminal	29:Terminal	_
+32	spiritual	spiritual	ADJ	JJ	_	33	E	33:E	_
+33	music	music	NOUN	NN	_	25	A	25:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

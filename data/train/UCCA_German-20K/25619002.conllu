@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25619002
+# text = » Nun , mein Herr ? « sagte Ned Land zu mir , indem er nach dem Weggang des Kapitäns zu mir kam .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Nun	nun	PROPN	ADV	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PROPN	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	PROPN	NN	_	2	G	2:G	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	FM	_	8	A	8:A	_
+10	Land	Land	PROPN	FM	_	9	Terminal	9:Terminal	_
+11	zu	zu	PART	NE	_	12	R	12:R	_
+12	mir	ich	PRON	PPER	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	indem	indem	SCONJ	KOUS	_	8	L	8:L	_
+15	er	er	PRON	PPER	_	23	A	23:A	_
+16	nach	nach	ADP	CARD	_	18	R	18:R	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Weggang	Weggang	NOUN	NN	_	23	A	23:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Kapitäns	Kapitän	NOUN	NE	_	18	A	18:A	_
+21	zu	zu	ADP	NE	_	22	R	22:R	_
+22	mir	ich	PRON	PPER	_	23	A	23:A	_
+23	kam	kommen	VERB	VVFIN	_	8	H	8:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

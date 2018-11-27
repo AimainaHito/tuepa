@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 126002
+# text = " He particularly liked the manner in which she picked up a glass : " I thought she was very talented in that action .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	He	he	PRON	PRP	_	4	A	4:A	_
+3	particularly	particularly	ADV	RB	_	4	D	4:D	_
+4	liked	like	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	manner	manner	NOUN	NN	_	4	A	4:A	_
+7	in	in	ADP	IN	_	10	R	10:R	_
+8	which	which	PRON	WDT	_	7	E	7:E	_
+9	she	she	PRON	PRP	_	10	A	10:A	_
+10	picked	pick	VERB	VBD	_	6	E	6:E	_
+11	up	up	ADP	RP	_	10	E	10:E	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	glass	glass	NOUN	NN	_	10	A	10:A	_
+14	:	:	PUNCT	:	_	4	U	4:U	_
+15	"	"	PUNCT	``	_	4	U	4:U	_
+16	I	I	PRON	PRP	_	17	A	17:A	_
+17	thought	think	VERB	VBD	_	4	H	4:H	_
+18	she	she	PRON	PRP	_	21	A	21:A	_
+19	was	be	AUX	VBD	_	21	F	21:F	_
+20	very	very	ADV	RB	_	21	D	21:D	_
+21	talented	talent	ADJ	JJ	_	17	A	17:A	_
+22	in	in	ADP	IN	_	24	R	24:R	_
+23	that	that	DET	DT	_	24	E	24:E	_
+24	action	action	NOUN	NN	_	21	A	21:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

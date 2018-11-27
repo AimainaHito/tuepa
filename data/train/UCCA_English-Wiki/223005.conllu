@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 223005
+# text = Due to the commercial failures of his early ventures into films and trouble finding stunt work , in 1975 Chan starred in a comedic adult film , All in the Family , which features Jackie Chan 's first nude sex scene filmed .
+1	Due	due	ADP	IN	_	5	L	5:L	_
+2	to	to	ADP	IN	_	1	F	1:F	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	commercial	commercial	ADJ	JJ	_	5	D	5:D	_
+5	failures	failure	NOUN	NNS	_	0	H	0:H	_
+6	of	of	ADP	IN	_	9	R	9:R	_
+7	his	he	PRON	PRP$	_	9	A	9:A	_
+8	early	early	ADJ	JJ	_	9	D	9:D	_
+9	ventures	venture	NOUN	NNS	_	5	A	5:A	_
+10	into	into	ADP	IN	_	11	R	11:R	_
+11	films	film	NOUN	NNS	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	5	L	5:L	_
+13	trouble	trouble	ADJ	JJ	_	5	H	5:H	_
+14	finding	find	VERB	VBG	_	13	A	13:A	_
+15	stunt	stunt	ADJ	JJ	_	16	E	16:E	_
+16	work	work	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	,	_	5	U	5:U	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	1975	1975	NUM	CD	_	21	D	21:D	_
+20	Chan	Chan	PROPN	NNP	_	21	A	21:A|13:A|14:A|5:A	_
+21	starred	star	VERB	VBD	_	5	H	5:H	_
+22	in	in	ADP	IN	_	28	R	28:R	_
+23	a	a	DET	DT	_	28	E	28:E	_
+24	comedic	comedic	ADJ	JJ	_	28	E	28:E	_
+25	adult	adult	NOUN	NN	_	26	E	26:E	_
+26	film	film	NOUN	NN	_	28	E	28:E	_
+27	,	,	PUNCT	,	_	28	U	28:U	_
+28	All	all	DET	DT	_	21	A	21:A	_
+29	in	in	ADP	IN	_	28	Terminal	28:Terminal	_
+30	the	the	DET	DT	_	28	Terminal	28:Terminal	_
+31	Family	family	NOUN	NN	_	28	Terminal	28:Terminal	_
+32	,	,	PUNCT	,	_	28	U	28:U	_
+33	which	which	PRON	WDT	_	34	F	34:F	_
+34	features	feature	VERB	VBZ	_	28	E	28:E	_
+35	Jackie	Jackie	PROPN	NNP	_	41	E	41:E	_
+36	Chan	Chan	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	's	's	PART	POS	_	35	R	35:R	_
+38	first	first	ADJ	JJ	_	41	E	41:E	_
+39	nude	nude	NOUN	NN	_	41	E	41:E	_
+40	sex	sex	NOUN	NN	_	41	E	41:E	_
+41	scene	scene	NOUN	NN	_	34	A	34:A	_
+42	filmed	film	VERB	VBN	_	41	E	41:E	_
+43	.	.	PUNCT	.	_	41	U	41:U	_
+

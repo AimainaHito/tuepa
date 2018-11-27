@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25449003
+# text = « » Wirklich ? « sagte Ned , und sah mich blinzelnd an .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Wirklich	wirklich	NOUN	APPR	_	6	A	6:A	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NE	_	6	A	6:A|12:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	und	und	CCONJ	NE	_	6	L	6:L	_
+10	sah	sehen	VERB	VVFIN	_	6	H	6:H	_
+11	mich	ich	PRON	PPER	_	10	A	10:A	_
+12	blinzelnd	blinzelnd	ADJ	ADJD	_	6	H	6:H	_
+13	an	an	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+14	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25486005
+# text = Aber es kam die Nacht und hüllte das unruhige Meer in Dunkel .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	es	es	PRON	PPER	_	3	F	3:F	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Nacht	Nacht	NOUN	NN	_	0	C	0:C|7:A	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	hüllte	hüllen	VERB	VVFIN	_	3	H	3:H	_
+8	das	der	DET	ART	_	10	E	10:E	_
+9	unruhige	unruhige	ADJ	ADJA	_	10	E	10:E	_
+10	Meer	Meer	NOUN	NN	_	7	A	7:A	_
+11	in	in	ADP	APPR	_	12	R	12:R	_
+12	Dunkel	dunkel	PROPN	NN	_	7	A	7:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

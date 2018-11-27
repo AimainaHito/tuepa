@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25411003
+# text = Das Ungeheuer wurde wieder Inselchen , Felsen , Klippe , aber eine bewegliche , unbestimmbare und unfassbar .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Ungeheuer	Ungeheuer	NOUN	NN	_	3	A	3:A	_
+3	wurde	werden	AUX	NE	_	0	H	0:H	_
+4	wieder	wieder	ADV	NE	_	3	D	3:D	_
+5	Inselchen	Inselchen	NOUN	NE	_	0	C	0:C|13:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Felsen	Felsen	NOUN	NE	_	5	C	5:C	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	Klippe	Klippe	NOUN	NE	_	5	C	5:C	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	aber	aber	CCONJ	KON	_	3	L	3:L	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	bewegliche	bewegliche	ADJ	ADJA	_	3	H	3:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	unbestimmbare	unbestimmbar	ADJ	ADJA	_	13	C	13:C	_
+16	und	und	CCONJ	NE	_	13	N	13:N	_
+17	unfassbar	unfassbar	ADJ	ADJD	_	13	C	13:C	_
+18	.	.	PUNCT	$.	_	13	U	13:U	_
+

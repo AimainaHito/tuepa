@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25722014
+# text = Mein Roman fiel mir beim ersten Band aus den Händen , mein Traum zerrann im schönsten Moment !
+1	Mein	mein	DET	PPOSAT	_	2	E	2:E	_
+2	Roman	Roman	NOUN	NN	_	3	A	3:A	_
+3	fiel	fallen	VERB	VVFIN	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	beim	beim	ADJ	NN	_	7	R	7:R	_
+6	ersten	erst	ADJ	ADJA	_	7	E	7:E	_
+7	Band	Band	NOUN	NN	_	3	A	3:A	_
+8	aus	aus	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Händen	Hand	NOUN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	mein	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Traum	Traum	NOUN	NN	_	14	A	14:A	_
+14	zerrann	zerrann	ADV	ADV	_	3	H	3:H	_
+15	im	im	ADV	NN	_	17	R	17:R	_
+16	schönsten	schön	ADJ	ADJA	_	17	E	17:E	_
+17	Moment	Moment	NOUN	NN	_	14	A	14:A	_
+18	!	!	PUNCT	$.	_	17	U	17:U	_
+

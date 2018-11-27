@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 130009
+# text = For her next feature , Stage Door ( 1937 ) paired Hepburn with Ginger Rogers in a role that mirrored her own life - that of a wealthy society girl trying to make it as an actress .
+1	For	for	ADP	IN	_	4	L	4:L	_
+2	her	she	PRON	PRP$	_	4	A	4:A	_
+3	next	next	ADJ	JJ	_	4	D	4:D	_
+4	feature	feature	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Stage	stage	NOUN	NN	_	11	A	11:A	_
+7	Door	door	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+9	1937	1937	NUM	CD	_	6	E	6:E	_
+10	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+11	paired	paire	VERB	VBD	_	4	H	4:H	_
+12	Hepburn	Hepburn	PROPN	NNP	_	11	A	11:A	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	Ginger	Ginger	PROPN	NNP	_	11	A	11:A	_
+15	Rogers	Rogers	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	role	role	NOUN	NN	_	11	A	11:A	_
+19	that	that	PRON	WDT	_	20	R	20:R	_
+20	mirrored	mirror	VERB	VBD	_	18	E	18:E	_
+21	her	she	PRON	PRP$	_	23	E	23:E	_
+22	own	own	ADJ	JJ	_	23	E	23:E	_
+23	life	life	NOUN	NN	_	20	A	20:A	_
+24	-	-	PUNCT	,	_	18	U	18:U	_
+25	that	that	PRON	DT	_	31	F	31:F	_
+26	of	of	ADP	IN	_	31	R	31:R	_
+27	a	a	DET	DT	_	30	E	30:E	_
+28	wealthy	wealthy	ADJ	JJ	_	30	E	30:E	_
+29	society	society	NOUN	NN	_	30	E	30:E	_
+30	girl	girl	NOUN	NN	_	31	A	31:A|33:A	_
+31	trying	try	VERB	VBG	_	18	E	18:E	_
+32	to	to	PART	TO	_	33	R	33:R	_
+33	make	make	VERB	VB	_	31	A	31:A	_
+34	it	it	PRON	PRP	_	33	Terminal	33:Terminal	_
+35	as	as	ADP	IN	_	37	R	37:R	_
+36	an	a	DET	DT	_	37	E	37:E	_
+37	actress	actress	NOUN	NN	_	33	A	33:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

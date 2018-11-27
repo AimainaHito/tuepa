@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25487010
+# text = Die elektrische Helle erlosch plötzlich , und zwei enorme Wasser strudel entluden sich auf das Verdeck der Fregatte wie ein reißender Strom , warfen die Mannschaft zu Boden , zerrissen die Bind seile .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	elektrische	elektrisch	ADJ	ADJA	_	3	E	3:E	_
+3	Helle	hell	NOUN	NN	_	4	A	4:A	_
+4	erlosch	erlosch	ADJ	ADJD	_	0	H	0:H	_
+5	plötzlich	plötzlich	ADJ	ADJD	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	und	und	CCONJ	NE	_	4	L	4:L	_
+8	zwei	zwei	NUM	VVFIN	_	11	E	11:E	_
+9	enorme	enorme	ADJ	ADJA	_	11	E	11:E	_
+10	Wasser	Wasser	NOUN	NN	_	11	E	11:E	_
+11	strudel	strudel	ADJ	NN	_	12	A	12:A	_
+12	entluden	entluden	VERB	NN	_	4	H	4:H	_
+13	sich	er|es|sie	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	auf	auf	ADP	APPR	_	16	R	16:R	_
+15	das	der	DET	ART	_	16	E	16:E	_
+16	Verdeck	Verdeck	NOUN	NN	_	12	A	12:A	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	Fregatte	Fregatte	NOUN	NN	_	16	E	16:E	_
+19	wie	wie	ADP	ADV	_	21	R	21:R	_
+20	ein	ein	DET	ART	_	22	E	22:E	_
+21	reißender	reißend	ADJ	ADJA	_	11	E	11:E	_
+22	Strom	Strom	NOUN	NN	_	21	A	21:A	_
+23	,	,	PUNCT	$,	_	4	U	4:U	_
+24	warfen	werfen	VERB	VVFIN	_	4	H	4:H	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Mannschaft	Mannschaft	NOUN	NN	_	24	A	24:A	_
+27	zu	zu	ADP	NE	_	28	R	28:R	_
+28	Boden	Boden	NOUN	NE	_	24	A	24:A	_
+29	,	,	PUNCT	$,	_	4	U	4:U	_
+30	zerrissen	zerrissen	ADV	VVFIN	_	4	H	4:H	_
+31	die	der	DET	ART	_	33	E	33:E	_
+32	Bind	Bind	NOUN	NN	_	33	E	33:E	_
+33	seile	seile	ADV	NN	_	30	A	30:A	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

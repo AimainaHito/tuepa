@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25733001
+# text = Der bleiche Schimmer strahlte auf dem Gipfel eines etwa 800 Fuß hohen Berges .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	bleiche	bleich	ADJ	ADJA	_	3	E	3:E	_
+3	Schimmer	Schimmer	NOUN	NN	_	4	A	4:A	_
+4	strahlte	strahlen	VERB	VVFIN	_	0	H	0:H	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Gipfel	Gipfel	NOUN	NN	_	4	A	4:A	_
+8	eines	ein	DET	ART	_	13	E	13:E	_
+9	etwa	etwa	ADV	ADV	_	12	D	12:D	_
+10	800	800	NUM	CARD	_	11	E	11:E	_
+11	Fuß	Fuß	NOUN	NN	_	12	A	12:A	_
+12	hohen	hoch	ADJ	ADJA	_	13	E	13:E	_
+13	Berges	Berg	NOUN	NN	_	7	E	7:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

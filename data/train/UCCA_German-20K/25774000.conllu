@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25774000
+# text = Der Schneesturm dauerte bis zum folgenden Morgen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Schneesturm	Schneesturm	NOUN	NN	_	3	A	3:A	_
+3	dauerte	dauern	VERB	VVFIN	_	0	H	0:H	_
+4	bis	bis	ADP	APPR	_	7	R	7:R	_
+5	zum	zum	ADP	NN	_	4	Terminal	4:Terminal	_
+6	folgenden	folgend	ADJ	ADJA	_	7	E	7:E	_
+7	Morgen	Morgen	NOUN	NN	_	3	D	3:D	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

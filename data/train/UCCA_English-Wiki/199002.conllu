@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 199002
+# text = He is also developing The Newsroom , a series about the behind the scenes workings of a cable news network .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	is	be	AUX	VBZ	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	developing	develop	VERB	VBG	_	0	H	0:H	_
+5	The	the	DET	DT	_	4	A	4:A	_
+6	Newsroom	Newsroom	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	series	series	NOUN	NN	_	5	E	5:E	_
+10	about	about	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	behind	behind	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	scenes	scene	NOUN	NNS	_	15	E	15:E	_
+15	workings	workings	NOUN	NNS	_	9	E	9:E	_
+16	of	of	ADP	IN	_	20	R	20:R	_
+17	a	a	DET	DT	_	20	E	20:E	_
+18	cable	cable	ADJ	JJ	_	20	E	20:E	_
+19	news	news	NOUN	NN	_	20	E	20:E	_
+20	network	network	NOUN	NN	_	15	A	15:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

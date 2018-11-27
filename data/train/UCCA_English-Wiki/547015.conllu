@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 547015
+# text = It secured 13 nominations from the Academy including one for Best Picture of 1966 .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	secured	secure	VERB	VBD	_	0	H	0:H	_
+3	13	13	NUM	CD	_	4	A	4:A	_
+4	nominations	nomination	NOUN	NNS	_	2	A	2:A	_
+5	from	from	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	Academy	Academy	NOUN	NN	_	4	A	4:A	_
+8	including	include	VERB	VBG	_	9	R	9:R	_
+9	one	one	NUM	CD	_	4	E	4:E	_
+10	for	for	ADP	IN	_	11	R	11:R	_
+11	Best	best	ADJ	JJS	_	9	E	9:E	_
+12	Picture	picture	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	of	of	ADP	IN	_	11	Terminal	11:Terminal	_
+14	1966	1966	NUM	CD	_	11	Terminal	11:Terminal	_
+15	.	.	PUNCT	.	_	11	U	11:U	_
+

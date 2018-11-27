@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25585013
+# text = Wir kamen in den Speise saal , wo das Frühstück aufgetragen war .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	6	R	6:R	_
+4	den	der	DET	ART	_	6	E	6:E	_
+5	Speise	Speise	NOUN	NN	_	6	E	6:E	_
+6	saal	saal	ADJ	NE	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	wo	wo	ADV	NN	_	11	R	11:R	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Frühstück	Frühstück	NOUN	NN	_	11	A	11:A	_
+11	aufgetragen	auftragen	VERB	VVINF	_	6	E	6:E	_
+12	war	sein	AUX	ADV	_	11	F	11:F	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

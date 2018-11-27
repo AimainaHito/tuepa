@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25718000
+# text = Zahllos war die Menge der übrigen Fische , die wir nur flüchtig wahrnahmen oder bei der großen Schnelligkeit nicht beobachten konnten .
+1	Zahllos	Zahllos	ADJ	ADJD	_	0	H	0:H	_
+2	war	sein	AUX	ADV	_	1	F	1:F	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Menge	Menge	NOUN	NN	_	1	A	1:A	_
+5	der	der	DET	ART	_	7	R	7:R	_
+6	übrigen	übrig	ADJ	NN	_	7	E	7:E	_
+7	Fische	Fisch	NOUN	NN	_	4	E	4:E	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	13	R	13:R	_
+10	wir	wir	PRON	NE	_	13	A	13:A|20:A	_
+11	nur	nur	ADV	NE	_	12	E	12:E	_
+12	flüchtig	flüchtig	ADJ	ADJD	_	13	D	13:D	_
+13	wahrnahmen	wahrnahm	ADJ	VVINF	_	7	E	7:E	_
+14	oder	oder	CCONJ	CARD	_	13	L	13:L	_
+15	bei	bei	ADP	APPR	_	18	R	18:R	_
+16	der	der	DET	ART	_	18	E	18:E	_
+17	großen	groß	ADJ	ADJA	_	18	E	18:E	_
+18	Schnelligkeit	Schnelligkeit	NOUN	NN	_	20	A	20:A	_
+19	nicht	nicht	PART	XY	_	20	D	20:D	_
+20	beobachten	beobachten	VERB	VVINF	_	13	H	13:H	_
+21	konnten	können	AUX	VMFIN	_	20	D	20:D	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

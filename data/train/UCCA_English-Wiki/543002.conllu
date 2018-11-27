@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 543002
+# text = Nevertheless , Warner could be heavyhanded in his dealings with employees , and he was " merciless in his firings .
+1	Nevertheless	nevertheless	ADV	RB	_	6	L	6:L	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	Warner	Warner	PROPN	NNP	_	6	A	6:A	_
+4	could	could	AUX	MD	_	6	F	6:F	_
+5	be	be	AUX	VB	_	6	F	6:F	_
+6	heavyhanded	heavyhand	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	6	L	6:L	_
+8	his	he	PRON	PRP$	_	9	A	9:A	_
+9	dealings	dealings	NOUN	NNS	_	6	H	6:H	_
+10	with	with	ADP	IN	_	11	E	11:E	_
+11	employees	employee	NOUN	NNS	_	0	C	0:C|20:A	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	and	and	CCONJ	CC	_	6	L	6:L	_
+14	he	he	PRON	PRP	_	17	A	17:A	_
+15	was	be	AUX	VBD	_	17	F	17:F	_
+16	"	"	PUNCT	``	_	17	U	17:U	_
+17	merciless	merciless	ADV	RBR	_	6	H	6:H	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	his	he	PRON	PRP$	_	20	A	20:A	_
+20	firings	firing	NOUN	NNS	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

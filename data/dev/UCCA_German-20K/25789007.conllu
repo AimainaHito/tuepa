@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25789007
+# text = Es war das ein ansehnliches , aber notwendiges Darlehen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	das	der	PRON	PDS	_	9	E	9:E	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	ansehnliches	ansehnlich	ADJ	ADJA	_	9	E	9:E	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	aber	aber	CCONJ	KON	_	5	N	5:N	_
+8	notwendiges	notwendiges	ADJ	PIS	_	5	C	5:C	_
+9	Darlehen	Darlehen	NOUN	VVPP	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

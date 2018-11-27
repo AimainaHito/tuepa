@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25649010
+# text = Die " Nautilus " schien uns ruhig und geheimnisvoll wie stets .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	7	A	7:A	_
+4	"	"	PUNCT	$(	_	7	U	7:U	_
+5	schien	scheinen	AUX	VVFIN	_	7	G	7:G	_
+6	uns	wir	PRON	NN	_	7	A	7:A	_
+7	ruhig	ruhig	ADJ	ADJD	_	0	H	0:H	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	geheimnisvoll	geheimnisvoll	ADJ	VVFIN	_	7	C	7:C	_
+10	wie	wie	ADP	KON	_	11	R	11:R	_
+11	stets	stets	ADV	ADV	_	7	D	7:D	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

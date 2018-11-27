@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25763006
+# text = 2 Monate früher hätten wir unter dieser Breite ununterbrochenen Tag getroffen ; aber schon wurde es 3 bis 4 Stunden Nacht , und später sollten diese Polargegenden 6 Monate sich in Dunkel hüllen .
+1	2	2	NUM	CARD	_	2	E	2:E	_
+2	Monate	Monat	NOUN	NN	_	11	D	11:D	_
+3	früher	früher	ADJ	ADV	_	11	D	11:D	_
+4	hätten	haben	AUX	VAFIN	_	11	D	11:D	_
+5	wir	wir	PRON	NE	_	11	A	11:A	_
+6	unter	unter	ADP	ADJD	_	8	R	8:R	_
+7	dieser	dies	PRON	PDAT	_	8	E	8:E	_
+8	Breite	Breite	NOUN	NN	_	11	A	11:A	_
+9	ununterbrochenen	ununterbrochen	ADJ	ADJA	_	11	A	11:A	_
+10	Tag	Tag	NOUN	NN	_	9	A	9:A	_
+11	getroffen	treffen|triefen	VERB	VVPP	_	0	H	0:H	_
+12	;	;	PUNCT	$.	_	11	U	11:U	_
+13	aber	aber	CCONJ	ADV	_	11	L	11:L	_
+14	schon	schon	ADV	ADV	_	15	D	15:D	_
+15	wurde	werden	AUX	NN	_	11	H	11:H	_
+16	es	es	PRON	PPER	_	15	F	15:F	_
+17	3	3	NUM	CARD	_	20	E	20:E	_
+18	bis	bis	ADP	KON	_	17	R	17:R	_
+19	4	4	NUM	CARD	_	17	C	17:C	_
+20	Stunden	Stunde|Stunden	NOUN	NN	_	15	D	15:D	_
+21	Nacht	Nacht	NOUN	NN	_	15	A	15:A	_
+22	,	,	PUNCT	$,	_	11	U	11:U	_
+23	und	und	CCONJ	NE	_	11	L	11:L	_
+24	später	spät	ADJ	ADJD	_	30	D	30:D	_
+25	sollten	sollen	AUX	VMFIN	_	30	D	30:D	_
+26	diese	dies	PRON	PDAT	_	27	E	27:E	_
+27	Polargegenden	Polargegende	NOUN	NE	_	30	A	30:A	_
+28	6	6	NUM	CARD	_	29	E	29:E	_
+29	Monate	Monat	NOUN	NN	_	30	D	30:D	_
+30	sich	er|es|sie	PRON	PRF	_	11	H	11:H	_
+31	in	in	ADP	APPR	_	32	R	32:R	_
+32	Dunkel	dunkel	PROPN	NN	_	30	A	30:A	_
+33	hüllen	hüllen	VERB	VVINF	_	30	Terminal	30:Terminal	_
+34	.	.	PUNCT	$.	_	30	U	30:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25609006
+# text = Es war diesen Tag Weihnachten , und Ned Land schien mir sehr das Christfest zu vermissen , diese Familien freude , worauf die Protestanten so viel halten .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	diesen	dies	PRON	PDAT	_	4	E	4:E	_
+4	Tag	Tag	NOUN	NN	_	2	D	2:D	_
+5	Weihnachten	Weihnacht|Weihnachten	NOUN	VVFIN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	Ned	Ned	PROPN	NE	_	16	A	16:A	_
+9	Land	Land	PROPN	NN	_	8	Terminal	8:Terminal	_
+10	schien	scheinen	AUX	VVFIN	_	16	G	16:G	_
+11	mir	ich	PRON	PPER	_	16	A	16:A	_
+12	sehr	sehr	ADV	NE	_	16	D	16:D	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Christfest	Christfest	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	vermissen	vermissen	VERB	VVINF	_	2	H	2:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	diese	dies	PRON	PDS	_	20	E	20:E	_
+19	Familien	Familie	NOUN	VVFIN	_	20	E	20:E	_
+20	freude	freude	ADV	NN	_	14	E	14:E	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	worauf	worauf	ADV	PWAV	_	27	R	27:R	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Protestanten	Protestant	NOUN	NN	_	27	A	27:A	_
+25	so	so	ADV	ADV	_	26	E	26:E	_
+26	viel	viel	PRON	ADJD	_	27	D	27:D	_
+27	halten	halten	VERB	VVINF	_	20	E	20:E	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

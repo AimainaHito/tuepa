@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 671018
+# text = Additionally , it gave Carey her 79th week atop the Hot 100 , tying her with Presley as the artist with the most weeks at number one in the Billboard chart history .
+1	Additionally	additionally	ADV	RB	_	4	L	4:L	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	it	it	PRON	PRP	_	4	A	4:A	_
+4	gave	give	VERB	VBD	_	0	H	0:H	_
+5	Carey	Carey	PROPN	NNP	_	4	A	4:A	_
+6	her	she	PRON	PRP$	_	8	E	8:E	_
+7	79th	79th	ADJ	JJ	_	8	E	8:E	_
+8	week	week	NOUN	NN	_	4	A	4:A	_
+9	atop	atop	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	Hot	hot	NOUN	NN	_	12	E	12:E	_
+12	100	100	NUM	CD	_	8	E	8:E	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	tying	ty	VERB	VBG	_	4	H	4:H	_
+15	her	she	PRON	PRP$	_	14	A	14:A	_
+16	with	with	ADP	IN	_	17	R	17:R	_
+17	Presley	Presley	PROPN	NNP	_	14	A	14:A	_
+18	as	as	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	artist	artist	NOUN	NN	_	14	A	14:A	_
+21	with	with	ADP	IN	_	20	E	20:E	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	most	most	ADJ	JJS	_	24	E	24:E	_
+24	weeks	week	NOUN	NNS	_	21	A	21:A	_
+25	at	at	ADP	IN	_	26	R	26:R	_
+26	number	number	NOUN	NN	_	24	E	24:E	_
+27	one	one	NUM	CD	_	26	E	26:E	_
+28	in	in	ADP	IN	_	32	R	32:R	_
+29	the	the	DET	DT	_	32	E	32:E	_
+30	Billboard	Billboard	PROPN	NNP	_	32	E	32:E	_
+31	chart	chart	NOUN	NN	_	32	E	32:E	_
+32	history	history	NOUN	NN	_	24	E	24:E	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

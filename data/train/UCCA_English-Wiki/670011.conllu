@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 670011
+# text = Billboard listed " We Belong Together " ninth on The Billboard Hot 100 - Time All All - Top Songs and was declared the most popular song of the 2000s decade by Billboard .
+1	Billboard	Billboard	PROPN	NNP	_	2	A	2:A	_
+2	listed	list	VERB	VBD	_	0	H	0:H	_
+3	"	"	PUNCT	``	_	2	U	2:U	_
+4	We	we	PRON	PRP	_	2	A	2:A|23:A	_
+5	Belong	belong	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Together	together	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	"	"	PUNCT	''	_	2	U	2:U	_
+8	ninth	ninth	NOUN	NN	_	2	A	2:A	_
+9	on	on	ADP	IN	_	20	R	20:R	_
+10	The	the	DET	DT	_	20	E	20:E	_
+11	Billboard	Billboard	PROPN	NNP	_	20	E	20:E	_
+12	Hot	hot	PROPN	NNP	_	13	E	13:E	_
+13	100	100	NUM	CD	_	20	E	20:E	_
+14	-	-	PUNCT	HYPH	_	20	U	20:U	_
+15	Time	time	NOUN	NN	_	20	E	20:E	_
+16	All	all	DET	DT	_	15	E	15:E	_
+17	All	all	DET	DT	_	15	F	15:F	_
+18	-	-	PUNCT	HYPH	_	20	U	20:U	_
+19	Top	Top	ADJ	JJ	_	20	E	20:E	_
+20	Songs	songs	NOUN	NNS	_	8	E	8:E	_
+21	and	and	CCONJ	CC	_	2	L	2:L	_
+22	was	be	AUX	VBD	_	23	F	23:F	_
+23	declared	declare	VERB	VBN	_	2	H	2:H	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	most	most	ADV	RBS	_	26	E	26:E	_
+26	popular	popular	ADJ	JJ	_	27	E	27:E	_
+27	song	song	NOUN	NN	_	23	A	23:A	_
+28	of	of	ADP	IN	_	31	R	31:R	_
+29	the	the	DET	DT	_	31	E	31:E	_
+30	2000s	2000	NOUN	NNS	_	31	E	31:E	_
+31	decade	decake	VERB	VBN	_	27	E	27:E	_
+32	by	by	ADP	IN	_	33	R	33:R	_
+33	Billboard	Billboard	PROPN	NNP	_	23	A	23:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

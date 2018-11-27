@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 533011
+# text = She had turned 47 just twelve days before her death .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	had	have	AUX	VBD	_	4	F	4:F	_
+3	turned	turn	VERB	VBN	_	4	D	4:D	_
+4	47	47	NUM	CD	_	0	H	0:H	_
+5	just	just	ADV	RB	_	7	E	7:E	_
+6	twelve	twelve	NUM	CD	_	7	E	7:E	_
+7	days	day	NOUN	NNS	_	4	L	4:L	_
+8	before	before	ADP	IN	_	7	R	7:R	_
+9	her	she	PRON	PRP$	_	10	A	10:A	_
+10	death	death	NOUN	NN	_	4	H	4:H	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

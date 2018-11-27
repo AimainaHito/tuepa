@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 593001
+# text = He was arrested again in 1999 for brawling with paparazzi outside a restaurant while dining in London with Paradis .
+1	He	he	PRON	PRP	_	3	A	3:A|8:A|15:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	arrested	arrest	VERB	VBN	_	0	H	0:H	_
+4	again	again	ADV	RB	_	3	D	3:D	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1999	1999	NUM	CD	_	3	D	3:D	_
+7	for	for	SCONJ	IN	_	8	R	8:R	_
+8	brawling	brawl	VERB	VBG	_	3	A	3:A	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	paparazzi	paparazzi	NOUN	NN	_	8	A	8:A	_
+11	outside	outside	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	restaurant	restaurant	NOUN	NN	_	8	A	8:A	_
+14	while	while	SCONJ	IN	_	8	L	8:L	_
+15	dining	dine	VERB	VBG	_	8	H	8:H	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	London	London	PROPN	NNP	_	15	A	15:A	_
+18	with	with	ADP	IN	_	19	R	19:R	_
+19	Paradis	Paradis	PROPN	NNPS	_	15	A	15:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

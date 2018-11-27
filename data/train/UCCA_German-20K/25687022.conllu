@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25687022
+# text = Der Haifisch wurde wütend .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Haifisch	Haifisch	NOUN	NE	_	4	A	4:A	_
+3	wurde	werden	AUX	NN	_	4	F	4:F	_
+4	wütend	wütend	ADJ	ADJD	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

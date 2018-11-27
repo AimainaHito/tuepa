@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 676000
+# text = On July 23 , 2012 , it was officially announced that Carey would be joining the judging panel of American Idol for season twelve .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	10	D	10:D	_
+3	23	23	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2012	2012	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	it	it	PRON	PRP	_	10	F	10:F	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	officially	officially	ADV	RB	_	10	D	10:D	_
+10	announced	announce	VERB	VBN	_	0	H	0:H	_
+11	that	that	SCONJ	IN	_	15	F	15:F	_
+12	Carey	Carey	PROPN	NNP	_	15	A	15:A	_
+13	would	would	AUX	MD	_	15	F	15:F	_
+14	be	be	AUX	VB	_	15	F	15:F	_
+15	joining	join	VERB	VBG	_	10	A	10:A	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	judging	judge	VERB	VBG	_	18	E	18:E	_
+18	panel	panel	NOUN	NN	_	15	A	15:A	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	American	American	ADJ	JJ	_	18	E	18:E	_
+21	Idol	Idol	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	for	for	ADP	IN	_	23	R	23:R	_
+23	season	season	NOUN	NN	_	18	E	18:E	_
+24	twelve	twelve	NUM	CD	_	23	E	23:E	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

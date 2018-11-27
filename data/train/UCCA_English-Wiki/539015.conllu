@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 539015
+# text = The new location and upgraded facilities did not significantly improve the studio 's image , which remained defined by its low - budget comedies and racy films on declining morality .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	new	new	ADJ	JJ	_	3	E	3:E	_
+3	location	location	NOUN	NN	_	10	A	10:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	upgraded	upgrad	ADJ	JJ	_	6	E	6:E	_
+6	facilities	facility	NOUN	NNS	_	3	C	3:C	_
+7	did	do	AUX	VBD	_	10	F	10:F	_
+8	not	not	PART	RB	_	10	D	10:D	_
+9	significantly	significantly	ADV	RB	_	10	D	10:D	_
+10	improve	improve	VERB	VB	_	0	H	0:H	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	studio	studio	NOUN	NN	_	14	E	14:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	image	image	NOUN	NN	_	10	A	10:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	which	which	PRON	WDT	_	18	F	18:F	_
+17	remained	remain	VERB	VBD	_	18	E	18:E	_
+18	defined	define	VERB	VBN	_	14	E	14:E	_
+19	by	by	ADP	IN	_	24	R	24:R	_
+20	its	its	PRON	PRP$	_	24	E	24:E	_
+21	low	low	ADJ	JJ	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	budget	budget	NOUN	NN	_	24	E	24:E	_
+24	comedies	comedy	NOUN	NNS	_	18	A	18:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	racy	racy	NOUN	NN	_	27	E	27:E	_
+27	films	film	NOUN	NNS	_	24	C	24:C	_
+28	on	on	SCONJ	IN	_	30	R	30:R	_
+29	declining	decli	VERB	VBG	_	30	E	30:E	_
+30	morality	morality	NOUN	NN	_	27	E	27:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

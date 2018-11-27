@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 210000
+# text = Hoffman played theater owner Charles Frohman in the J . M . Barrie historical fantasia Finding Neverland ( 2004 ) , costarring Johnny Depp and Kate Winslet .
+1	Hoffman	Hoffman	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	theater	theater	NOUN	NN	_	4	E	4:E	_
+4	owner	owner	NOUN	NN	_	5	E	5:E	_
+5	Charles	Charles	PROPN	NNP	_	2	A	2:A	_
+6	Frohman	Frohman	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	16	R	16:R	_
+8	the	the	DET	DT	_	16	E	16:E	_
+9	J	j	NOUN	NN	_	16	E	16:E	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+11	M	m	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	.	_	9	U	9:U	_
+13	Barrie	Barrie	PROPN	NNP	_	9	Terminal	9:Terminal	_
+14	historical	historical	ADJ	JJ	_	15	E	15:E	_
+15	fantasia	fantasia	NOUN	NN	_	16	E	16:E	_
+16	Finding	find	VERB	VBG	_	0	C	0:C|22:A	_
+17	Neverland	Neverland	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	(	(	PUNCT	-LRB-	_	16	U	16:U	_
+19	2004	2004	NUM	CD	_	16	E	16:E	_
+20	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	costarring	costarr	VERB	VBG	_	2	H	2:H	_
+23	Johnny	Johnny	PROPN	NNP	_	22	A	22:A	_
+24	Depp	Depp	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	and	and	CCONJ	CC	_	23	N	23:N	_
+26	Kate	Kate	PROPN	NNP	_	23	C	23:C	_
+27	Winslet	Winslet	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	.	_	23	U	23:U	_
+

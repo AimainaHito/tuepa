@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25635006
+# text = An diesem Tag also blieb unser Boot an Bord , zu großem Leidwesen des Meisters Land , der gern seine Vorräte noch vermehrt hätte .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	5	D	5:D	_
+4	also	also	ADV	ADV	_	5	L	5:L	_
+5	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+6	unser	unser	PRON	NE	_	7	E	7:E	_
+7	Boot	Boot	NOUN	NE	_	5	A	5:A	_
+8	an	an	ADP	APPR	_	9	R	9:R	_
+9	Bord	Bord	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	zu	zu	ADP	VVINF	_	13	F	13:F	_
+12	großem	groß	ADJ	ADJA	_	13	D	13:D	_
+13	Leidwesen	Leidwese	NOUN	NN	_	5	H	5:H	_
+14	des	der	DET	ART	_	16	R	16:R	_
+15	Meisters	Meister	NOUN	NE	_	16	E	16:E	_
+16	Land	Land	NOUN	TRUNC	_	13	A	13:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	der	der	PRON	PRELS	_	23	R	23:R	_
+19	gern	gern	ADV	ADV	_	23	D	23:D	_
+20	seine	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Vorräte	Vorrät	NOUN	NN	_	23	A	23:A	_
+22	noch	noch	ADV	NN	_	23	D	23:D	_
+23	vermehrt	vermehren	VERB	VVPP	_	16	E	16:E	_
+24	hätte	haben	AUX	VAFIN	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25688008
+# text = Ned Land hatte sein Ziel nicht verfehlt ; das Todes röcheln des Ungeheuers trat ein .
+1	Ned	Ned	PROPN	NE	_	7	A	7:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	hatte	haben	AUX	VAFIN	_	7	F	7:F	_
+4	sein	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Ziel	Ziel	NOUN	NN	_	7	A	7:A	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	verfehlt	verfehlen	VERB	VVPP	_	0	H	0:H	_
+8	;	;	PUNCT	$.	_	7	U	7:U	_
+9	das	der	DET	ART	_	11	E	11:E	_
+10	Todes	Tod	NOUN	NN	_	11	E	11:E	_
+11	röcheln	röcheln	VERB	VVFIN	_	14	A	14:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Ungeheuers	Ungeheuer	NOUN	NN	_	11	E	11:E	_
+14	trat	treten	VERB	VVFIN	_	7	H	7:H	_
+15	ein	ein	ADV	PTKVZ	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

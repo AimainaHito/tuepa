@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25471001
+# text = « Die Matrosen stürzten sich auf das Steuer , die Ingenieure zu ihrer Maschine .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Matrosen	Matrose	NOUN	NN	_	4	A	4:A	_
+4	stürzten	stürzen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Steuer	Steuer	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Ingenieure	Ingenieur	NOUN	NN	_	4	H	4:H	_
+12	zu	zu	ADP	VVINF	_	14	R	14:R	_
+13	ihrer	ihr	DET	PPOSAT	_	14	E	14:E	_
+14	Maschine	Maschine	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

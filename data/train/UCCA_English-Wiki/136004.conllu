@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 136004
+# text = Later in life , she released a memoir about the experience .
+1	Later	later	ADV	RBR	_	3	E	3:E	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	life	life	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A	_
+6	released	release	VERB	VBD	_	0	H	0:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	memoir	memoir	NOUN	NN	_	6	A	6:A	_
+9	about	about	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	experience	experience	NOUN	NN	_	8	E	8:E	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25767002
+# text = » Darüber hinaus ? Herr Professor « , erwiderte Kapitän Nemo ruhig . » Zwar nicht darüber hinaus , aber doch darunter her . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Darüber	darüber	PRON	PAV	_	3	R	3:R	_
+3	hinaus	hinaus	ADV	ADV	_	9	A	9:A	_
+4	?	?	PUNCT	$.	_	3	U	3:U	_
+5	Herr	Herr	PROPN	NN	_	6	E	6:E	_
+6	Professor	Professor	PROPN	NN	_	3	H	3:H	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	Kapitän	Kapitän	PROPN	NN	_	11	E	11:E	_
+11	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+12	ruhig	ruhig	ADJ	ADJD	_	9	D	9:D	_
+13	.	.	PUNCT	$.	_	9	U	9:U	_
+14	»	»	PUNCT	$(	_	9	U	9:U	_
+15	Zwar	Zsein	NOUN	VAFIN	_	18	F	18:F	_
+16	nicht	nicht	PART	CARD	_	18	D	18:D	_
+17	darüber	darüber	ADV	PAV	_	18	R	18:R	_
+18	hinaus	hinaus	ADV	ADV	_	3	H	3:H	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	aber	aber	CCONJ	KON	_	3	L	3:L	_
+21	doch	doch	ADV	ADV	_	23	D	23:D	_
+22	darunter	darunter	ADV	PAV	_	23	R	23:R	_
+23	her	her	ADV	ADV	_	3	H	3:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 116007
+# text = She remained close to her family throughout her life .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	remained	remain	VERB	VBD	_	3	D	3:D	_
+3	close	close	ADJ	JJ	_	0	H	0:H	_
+4	to	to	ADP	IN	_	6	R	6:R	_
+5	her	she	PRON	PRP$	_	6	E	6:E	_
+6	family	family	NOUN	NN	_	3	A	3:A	_
+7	throughout	throughout	ADP	IN	_	9	R	9:R	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	life	life	NOUN	NN	_	3	D	3:D	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

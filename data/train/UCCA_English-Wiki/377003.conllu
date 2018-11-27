@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 377003
+# text = In subsequent years , his parents allowed him to audition for parts , but regularly forbade him to take them if he were chosen .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	subsequent	subsequent	ADJ	JJ	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	parents	parent	NOUN	NNS	_	0	C	0:C|16:A	_
+7	allowed	allow	VERB	VBD	_	0	H	0:H	_
+8	him	he	PRON	PRP	_	7	A	7:A|10:A	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	audition	audition	VERB	VB	_	7	A	7:A	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	parts	part	NOUN	NNS	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	7	U	7:U	_
+14	but	but	CCONJ	CC	_	7	L	7:L	_
+15	regularly	regularly	ADV	RB	_	16	D	16:D	_
+16	forbade	forbake	VERB	VBN	_	7	H	7:H	_
+17	him	he	PRON	PRP	_	16	A	16:A|19:A	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	take	take	VERB	VB	_	16	A	16:A	_
+20	them	they	PRON	PRP	_	19	A	19:A	_
+21	if	if	SCONJ	IN	_	7	L	7:L	_
+22	he	he	PRON	PRP	_	24	A	24:A	_
+23	were	be	AUX	VBD	_	24	F	24:F	_
+24	chosen	chosen	VERB	VBN	_	7	H	7:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

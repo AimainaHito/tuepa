@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25652006
+# text = Ich erkannte sogleich die merkwürdige Region , deren Bekanntschaft uns Kapitän Nemo nun machen ließ .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erkannte	erkennen	VERB	VVFIN	_	0	H	0:H	_
+3	sogleich	sogleich	ADV	NN	_	2	D	2:D	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	merkwürdige	merkwürdig	ADJ	ADJA	_	6	E	6:E	_
+6	Region	Region	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	deren	der	DET	PRELAT	_	9	R	9:R	_
+9	Bekanntschaft	Bekanntschaft	NOUN	NN	_	6	E	6:E	_
+10	uns	wir	PROPN	NN	_	9	A	9:A	_
+11	Kapitän	Kapitän	PROPN	NN	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+13	nun	nun	ADV	ADV	_	9	F	9:F	_
+14	machen	machen	VERB	VVINF	_	9	D	9:D	_
+15	ließ	lassen	VERB	VVFIN	_	9	D	9:D	_
+16	.	.	PUNCT	$.	_	9	U	9:U	_
+

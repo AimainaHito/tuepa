@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 606002
+# text = It was a US and UK number one , the band 's first to top the charts in both countries and the first ever to reach Billboard magazine 's charts on three separate occasions .
+1	It	it	PRON	PRP	_	2	A	2:A|26:A|15:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	7	E	7:E	_
+4	US	US	PROPN	NNP	_	7	E	7:E	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	UK	Uk	PROPN	NNP	_	4	C	4:C	_
+7	number	number	NOUN	NN	_	2	A	2:A	_
+8	one	one	NUM	CD	_	7	E	7:E	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	band	band	NOUN	NN	_	15	A	15:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	first	first	ADJ	JJ	_	15	D	15:D	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	top	top	VERB	VB	_	2	H	2:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	charts	chart	NOUN	NNS	_	15	A	15:A	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	both	both	DET	DT	_	20	E	20:E	_
+20	countries	country	NOUN	NNS	_	15	A	15:A	_
+21	and	and	CCONJ	CC	_	2	L	2:L	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	first	first	ADJ	JJ	_	26	A	26:A	_
+24	ever	ever	ADV	RB	_	26	D	26:D	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	reach	reach	VERB	VB	_	2	H	2:H	_
+27	Billboard	Billboard	PROPN	NNP	_	30	E	30:E	_
+28	magazine	magazine	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	's	's	PART	POS	_	27	R	27:R	_
+30	charts	chart	NOUN	NNS	_	26	A	26:A	_
+31	on	on	ADP	IN	_	34	R	34:R	_
+32	three	three	NUM	CD	_	34	E	34:E	_
+33	separate	separate	ADJ	JJ	_	34	E	34:E	_
+34	occasions	occasion	NOUN	NNS	_	26	D	26:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

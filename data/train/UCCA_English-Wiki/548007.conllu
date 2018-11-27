@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 548007
+# text = Warner 's decision to sell came at a time when he was losing the formidable power that he once took for granted .
+1	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	decision	decision	NOUN	NN	_	5	E	5:E	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	sell	sell	VERB	VB	_	6	A	6:A	_
+6	came	come	VERB	VBD	_	0	H	0:H	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	time	time	NOUN	NN	_	6	A	6:A	_
+10	when	when	ADV	WRB	_	13	F	13:F	_
+11	he	he	PRON	PRP	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	losing	lose	VERB	VBG	_	9	E	9:E	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	formidable	formidable	ADJ	JJ	_	16	E	16:E	_
+16	power	power	NOUN	NN	_	13	A	13:A	_
+17	that	that	SCONJ	IN	_	20	F	20:F	_
+18	he	he	PRON	PRP	_	20	A	20:A	_
+19	once	once	ADV	RB	_	20	D	20:D	_
+20	took	take	VERB	VBD	_	16	E	16:E	_
+21	for	for	ADP	IN	_	20	Terminal	20:Terminal	_
+22	granted	grant	VERB	VBN	_	20	Terminal	20:Terminal	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25716024
+# text = Daher fuhren wir denn auch mit einer Schnelligkeit von 25 Meilen die Stunde .
+1	Daher	daher	ADV	PAV	_	2	L	2:L	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	denn	denn	CCONJ	KON	_	2	F	2:F	_
+5	auch	auch	ADV	ADV	_	2	D	2:D	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	einer	ein	DET	ART	_	8	E	8:E	_
+8	Schnelligkeit	Schnelligkeit	NOUN	NN	_	2	A	2:A	_
+9	von	von	ADP	NE	_	8	R	8:R	_
+10	25	25	NUM	CARD	_	8	C	8:C	_
+11	Meilen	Meile	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Stunde	Stunde	NOUN	NN	_	10	E	10:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

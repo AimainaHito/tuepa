@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25599017
+# text = Das Meer verschlang die Farben des Prisma mit Ausnahme der blauen Strahlen , warf deren Widerschein in alle Richtungen und nahm eine wunderbare , schöne Indigo farbe an .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	0	C	0:C|21:A|14:A	_
+3	verschlang	verschlingen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Farben	Farbe	NOUN	NN	_	7	E	7:E	_
+6	des	der	DET	ART	_	5	R	5:R	_
+7	Prisma	Prisma	PROPN	NN	_	3	A	3:A	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	Ausnahme	Ausnahme	NOUN	NN	_	3	A	3:A	_
+10	der	der	DET	ART	_	12	R	12:R	_
+11	blauen	blau	ADJ	ADJA	_	12	E	12:E	_
+12	Strahlen	strahlen	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	warf	werfen	VERB	VVFIN	_	3	H	3:H	_
+15	deren	der	DET	PDAT	_	16	E	16:E	_
+16	Widerschein	Widerschein	NOUN	NN	_	14	A	14:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	alle	alle	PRON	PIAT	_	19	E	19:E	_
+19	Richtungen	Richtung	NOUN	NN	_	14	A	14:A	_
+20	und	und	CCONJ	NE	_	3	L	3:L	_
+21	nahm	nehmen	VERB	VVFIN	_	3	H	3:H	_
+22	eine	ein	DET	ART	_	27	E	27:E	_
+23	wunderbare	wunderbar	ADJ	ADJA	_	27	E	27:E	_
+24	,	,	PUNCT	$,	_	27	U	27:U	_
+25	schöne	schön	ADJ	ADJA	_	27	E	27:E	_
+26	Indigo	Indigo	NOUN	NE	_	27	E	27:E	_
+27	farbe	farben	VERB	NN	_	21	A	21:A	_
+28	an	an	ADP	PTKVZ	_	21	Terminal	21:Terminal	_
+29	.	.	PUNCT	$.	_	21	U	21:U	_
+

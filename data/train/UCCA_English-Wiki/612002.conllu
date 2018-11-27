@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 612002
+# text = Best known for primarily using a plectrum or pick , McCartney occasionally plays fingerstyle .
+1	Best	best	ADV	RBS	_	2	D	2:D	_
+2	known	know	VERB	VBN	_	0	H	0:H	_
+3	for	for	SCONJ	IN	_	5	R	5:R	_
+4	primarily	primarily	ADV	RB	_	5	D	5:D	_
+5	using	use	VERB	VBG	_	2	A	2:A	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	plectrum	plectrum	NOUN	NN	_	5	A	5:A	_
+8	or	or	CCONJ	CC	_	7	N	7:N	_
+9	pick	pick	NOUN	NN	_	7	C	7:C	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	McCartney	McCartney	PROPN	NNP	_	13	A	13:A|2:A|5:A	_
+12	occasionally	occasionally	ADV	RB	_	13	D	13:D	_
+13	plays	play	VERB	VBZ	_	2	H	2:H	_
+14	fingerstyle	fingerstyle	NOUN	NN	_	13	A	13:A	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

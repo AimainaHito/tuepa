@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 725014
+# text = Jolie played a police officer haunted by her cop father 's suicide , who reluctantly helps Washington track down a serial killer .
+1	Jolie	Jolie	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	police	police	NOUN	NN	_	5	E	5:E	_
+5	officer	officer	NOUN	NN	_	6	A	6:A	_
+6	haunted	haunt	VERB	VBN	_	2	A	2:A	_
+7	by	by	ADP	IN	_	6	R	6:R	_
+8	her	she	PRON	PRP$	_	10	E	10:E	_
+9	cop	cop	NOUN	NN	_	10	E	10:E	_
+10	father	father	NOUN	NN	_	0	C	0:C|18:A	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	suicide	suicide	NOUN	NN	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	who	who	PRON	WP	_	18	F	18:F	_
+15	reluctantly	reluctantly	ADV	RB	_	18	D	18:D	_
+16	helps	help	VERB	VBZ	_	18	D	18:D	_
+17	Washington	Washington	PROPN	NNP	_	18	A	18:A	_
+18	track	track	VERB	VB	_	6	E	6:E	_
+19	down	down	ADP	RP	_	18	Terminal	18:Terminal	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	serial	serial	ADJ	JJ	_	22	E	22:E	_
+22	killer	killer	NOUN	NN	_	18	A	18:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

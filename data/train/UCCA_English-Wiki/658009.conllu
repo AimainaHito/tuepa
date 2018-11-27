@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 658009
+# text = The last name Carey was the product of a name - change by her Venezuelan grandfather Francisco Nuñez after emigrating to New York .
+1	The	the	DET	DT	_	4	E	4:E	_
+2	last	last	ADJ	JJ	_	3	E	3:E	_
+3	name	name	NOUN	NN	_	4	E	4:E	_
+4	Carey	Carey	PROPN	NNP	_	7	A	7:A	_
+5	was	be	AUX	VBD	_	7	F	7:F	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	product	product	NOUN	NN	_	0	H	0:H	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	a	a	DET	DT	_	12	E	12:E	_
+10	name	name	NOUN	NN	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	change	change	NOUN	NN	_	7	A	7:A	_
+13	by	by	ADP	IN	_	17	R	17:R	_
+14	her	she	PRON	PRP$	_	17	E	17:E	_
+15	Venezuelan	venezuelan	ADJ	JJ	_	16	E	16:E	_
+16	grandfather	grandfather	NOUN	NN	_	17	E	17:E	_
+17	Francisco	Francisco	PROPN	NNP	_	0	C	0:C|20:A	_
+18	Nuñez	Nuñez	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	after	after	SCONJ	IN	_	12	L	12:L	_
+20	emigrating	emigrat	VERB	VBG	_	12	H	12:H	_
+21	to	to	ADP	IN	_	22	R	22:R	_
+22	New	New	PROPN	NNP	_	20	A	20:A	_
+23	York	York	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

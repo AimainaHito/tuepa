@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 779001
+# text = Conseil avait fait en un tour de main , et j' étais sûr que rien ne manquait , car ce garçon classait les chemises et les habits aussi bien que les oiseaux ou les mammifères .
+1	Conseil	conseil	NOUN	_	_	3	A	3:A	_
+2	avait	avoir	AUX	_	_	3	F	3:F	_
+3	fait	faire	VERB	_	_	0	H	0:H	_
+4	en	en	ADP	_	_	6	R	6:R	_
+5	un	un	DET	_	_	6	E	6:E	_
+6	tour	tour	NOUN	_	_	3	D	3:D	_
+7	de	de	ADP	_	_	8	R	8:R	_
+8	main	main	NOUN	_	_	6	E	6:E	_
+9	,	,	PUNCT	_	_	3	U	3:U	_
+10	et	et	CCONJ	_	_	3	L	3:L	_
+11	j'	je	PRON	_	_	13	A	13:A	_
+12	étais	être	AUX	_	_	13	F	13:F	_
+13	sûr	sûr	ADJ	_	_	3	H	3:H	_
+14	que	que	SCONJ	_	_	17	R	17:R	_
+15	rien	rien	PRON	_	_	17	A	17:A	_
+16	ne	ne	ADV	_	_	17	D	17:D	_
+17	manquait	manquer	VERB	_	_	13	A	13:A	_
+18	,	,	PUNCT	_	_	3	U	3:U	_
+19	car	car	CCONJ	_	_	3	L	3:L	_
+20	ce	ce	DET	_	_	21	E	21:E	_
+21	garçon	garçon	NOUN	_	_	0	C	0:C|32:A	_
+22	classait	classer	VERB	_	_	3	H	3:H	_
+23	les	le	DET	_	_	24	E	24:E	_
+24	chemises	chemis	NOUN	_	_	22	A	22:A	_
+25	et	et	CCONJ	_	_	24	N	24:N	_
+26	les	le	DET	_	_	27	E	27:E	_
+27	habits	habit	NOUN	_	_	24	C	24:C	_
+28	aussi	aussi	ADV	_	_	32	D	32:D	_
+29	bien	bien	ADV	_	_	28	Terminal	28:Terminal	_
+30	que	que	SCONJ	_	_	32	F	32:F	_
+31	les	le	DET	_	_	32	E	32:E	_
+32	oiseaux	oiseau	NOUN	_	_	3	H	3:H	_
+33	ou	ou	CCONJ	_	_	32	N	32:N	_
+34	les	le	DET	_	_	35	E	35:E	_
+35	mammifères	mammifère	NOUN	_	_	32	C	32:C	_
+36	.	.	PUNCT	_	_	35	U	35:U	_
+

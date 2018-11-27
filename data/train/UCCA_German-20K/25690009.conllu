@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25690009
+# text = Während des 29 . Januar verschwand die Insel Ceylon unter m Horizont , und die ›Nautilus‹ , mit einer Geschwindigkeit von 20 Meilen in der Stunde , bewegte sich vorsichtig in dem Labyrinth von Kanälen , welche die Malediven von den Lakadiven trennen .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	des	der	DET	ART	_	3	E	3:E	_
+3	29	29	NUM	CARD	_	6	D	6:D	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+5	Januar	Januar	PROPN	NN	_	3	Terminal	3:Terminal	_
+6	verschwand	verschwinden	VERB	VVFIN	_	0	H	0:H	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	Insel	Insel	NOUN	NN	_	9	E	9:E	_
+9	Ceylon	Ceylon	PROPN	NE	_	6	A	6:A	_
+10	unter	unter	ADP	NE	_	12	R	12:R	_
+11	m	m	ADJ	NE	_	12	E	12:E	_
+12	Horizont	Horizont	NOUN	NE	_	6	A	6:A	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	und	und	CCONJ	NE	_	6	L	6:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	›Nautilus‹	›Nautilus‹	NOUN	NE	_	28	A	28:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	einer	ein	DET	ART	_	20	E	20:E	_
+20	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	16	E	16:E	_
+21	von	von	ADP	NE	_	23	R	23:R	_
+22	20	20	NUM	CARD	_	23	E	23:E	_
+23	Meilen	Meile	NOUN	NN	_	20	A	20:A	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Stunde	Stunde	NOUN	NN	_	23	E	23:E	_
+27	,	,	PUNCT	$,	_	28	U	28:U	_
+28	bewegte	bewegen	VERB	VVFIN	_	6	H	6:H	_
+29	sich	er|es|sie	PRON	PRF	_	28	Terminal	28:Terminal	_
+30	vorsichtig	vorsichtig	ADJ	ADJD	_	28	D	28:D	_
+31	in	in	ADP	APPR	_	33	R	33:R	_
+32	dem	der	DET	ART	_	33	E	33:E	_
+33	Labyrinth	Labyrinth	PROPN	NE	_	28	A	28:A	_
+34	von	von	ADP	NE	_	35	R	35:R	_
+35	Kanälen	Kanal	NOUN	NN	_	33	E	33:E	_
+36	,	,	PUNCT	$,	_	43	U	43:U	_
+37	welche	welch	PRON	NN	_	43	R	43:R	_
+38	die	der	DET	ART	_	39	E	39:E	_
+39	Malediven	Maledive	NOUN	NN	_	43	A	43:A	_
+40	von	von	ADP	NE	_	42	R	42:R	_
+41	den	der	DET	ART	_	42	E	42:E	_
+42	Lakadiven	Lakadive	PROPN	NN	_	43	A	43:A	_
+43	trennen	trennen	VERB	VVINF	_	33	E	33:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

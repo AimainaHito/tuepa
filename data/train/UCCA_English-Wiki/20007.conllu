@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 20007
+# text = As graduation approached , Pitt did not feel ready to settle down .
+1	As	as	SCONJ	IN	_	3	L	3:L	_
+2	graduation	graduation	NOUN	NN	_	3	A	3:A	_
+3	approached	approach	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Pitt	Pitt	PROPN	NNP	_	8	A	8:A	_
+6	did	do	AUX	VBD	_	8	F	8:F	_
+7	not	not	PART	RB	_	11	D	11:D	_
+8	feel	feel	VERB	VB	_	3	H	3:H	_
+9	ready	ready	ADJ	JJ	_	11	E	11:E	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	settle	settle	VERB	VB	_	8	A	8:A	_
+12	down	down	ADP	RP	_	11	E	11:E	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

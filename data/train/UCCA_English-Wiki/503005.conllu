@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 503005
+# text = Five years later , the duet proved a worldwide seasonal hit , charting in the UK at number three on Christmas Day , 1982 .
+1	Five	five	NUM	CD	_	3	E	3:E	_
+2	years	year	NOUN	NNS	_	3	R	3:R	_
+3	later	later	ADV	RBR	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	duet	duet	NOUN	NN	_	7	A	7:A|13:A	_
+7	proved	prove	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	worldwide	worldwide	ADV	RB	_	11	E	11:E	_
+10	seasonal	seasonal	ADJ	JJ	_	11	E	11:E	_
+11	hit	hit	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	charting	chart	VERB	VBG	_	7	H	7:H	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	UK	UK	PROPN	NNP	_	13	A	13:A	_
+17	at	at	ADP	IN	_	18	R	18:R	_
+18	number	number	NOUN	NN	_	13	A	13:A	_
+19	three	three	NUM	CD	_	18	E	18:E	_
+20	on	on	ADP	IN	_	22	R	22:R	_
+21	Christmas	Christmas	PROPN	NNP	_	22	E	22:E	_
+22	Day	Day	PROPN	NNP	_	13	D	13:D	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	1982	1982	NUM	CD	_	22	E	22:E	_
+25	.	.	PUNCT	.	_	22	U	22:U	_
+

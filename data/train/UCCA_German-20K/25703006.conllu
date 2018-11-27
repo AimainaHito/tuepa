@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25703006
+# text = Sechs Ruderer besetzten die Bänke und der Steuerer nahm seinen Platz ein .
+1	Sechs	sechs	NUM	CARD	_	2	E	2:E	_
+2	Ruderer	Ruderer	NOUN	NN	_	3	A	3:A	_
+3	besetzten	besetzen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Bänke	Bank	NOUN	NN	_	3	A	3:A	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Steuerer	Steuerer	NOUN	NN	_	9	A	9:A	_
+9	nahm	nehmen	VERB	VVFIN	_	3	H	3:H	_
+10	seinen	sein	DET	PPOSAT	_	11	E	11:E	_
+11	Platz	Platz	NOUN	NN	_	9	A	9:A	_
+12	ein	ein	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+13	.	.	PUNCT	$.	_	9	U	9:U	_
+

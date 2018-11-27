@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25489029
+# text = » Ja « , erwiderte ich , » aber die Lage ist drum noch ebenso dunkel .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	aber	aber	ADV	ADV	_	2	L	2:L	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Lage	Lage	NOUN	NN	_	12	A	12:A	_
+12	ist	sein	AUX	VVFIN	_	2	H	2:H	_
+13	drum	drum	ADV	ADV	_	12	D	12:D	_
+14	noch	noch	ADV	CARD	_	12	D	12:D	_
+15	ebenso	ebenso	ADV	ADV	_	16	E	16:E	_
+16	dunkel	dunkel	ADJ	ADJD	_	12	D	12:D	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

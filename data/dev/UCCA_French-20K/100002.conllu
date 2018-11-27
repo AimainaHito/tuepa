@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 100002
+# text = Une telle voie d' eau ne pouvait être aveuglée , et le Scotia , ses roues à demi noyées , dut continuer ainsi son voyage .
+1	Une	un	DET	_	_	3	E	3:E	_
+2	telle	tel	ADJ	_	_	3	E	3:E	_
+3	voie	voie	NOUN	_	_	9	A	9:A	_
+4	d'	de	ADP	_	_	5	R	5:R	_
+5	eau	eau	NOUN	_	_	3	E	3:E	_
+6	ne	ne	ADV	_	_	9	D	9:D	_
+7	pouvait	pouvoir	VERB	_	_	9	D	9:D	_
+8	être	être	AUX	_	_	9	F	9:F	_
+9	aveuglée	aveugler	VERB	_	_	0	H	0:H	_
+10	,	,	PUNCT	_	_	9	U	9:U	_
+11	et	et	CCONJ	_	_	9	L	9:L	_
+12	le	le	DET	_	_	13	E	13:E	_
+13	Scotia	Scotia	PROPN	_	_	22	A	22:A	_
+14	,	,	PUNCT	_	_	13	U	13:U	_
+15	ses	son	DET	_	_	16	E	16:E	_
+16	roues	roue	NOUN	_	_	19	A	19:A	_
+17	à	à	ADP	_	_	18	R	18:R	_
+18	demi	demi	ADV	_	_	19	D	19:D	_
+19	noyées	noyée	VERB	_	_	13	E	13:E	_
+20	,	,	PUNCT	_	_	22	U	22:U	_
+21	dut	devoir	VERB	_	_	22	D	22:D	_
+22	continuer	continuer	VERB	_	_	9	H	9:H	_
+23	ainsi	ainsi	ADV	_	_	22	D	22:D	_
+24	son	son	DET	_	_	25	E	25:E	_
+25	voyage	voyage	NOUN	_	_	22	A	22:A	_
+26	.	.	PUNCT	_	_	25	U	25:U	_
+

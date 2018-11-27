@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25462004
+# text = Es war damals die üble Jahreszeit des Südens , denn der Juli dieser Zone entspricht unserem Januar in Europa ; aber das Meer hielt sich ruhig und gestattete in weitem Umfang die Beobachtung .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	damals	damals	ADV	ADV	_	2	D	2:D	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	üble	übel	ADJ	ADJA	_	6	E	6:E	_
+6	Jahreszeit	Jahreszeit	NOUN	NN	_	2	A	2:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Südens	Südens	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	denn	denn	CCONJ	KON	_	2	L	2:L	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Juli	Juli	PROPN	NN	_	15	A	15:A	_
+13	dieser	dies	PRON	PDAT	_	14	R	14:R	_
+14	Zone	Zone	NOUN	NN	_	12	E	12:E	_
+15	entspricht	entsprechen	VERB	VVFIN	_	2	H	2:H	_
+16	unserem	unser	DET	PPOSAT	_	17	R	17:R	_
+17	Januar	Januar	PROPN	NN	_	15	A	15:A	_
+18	in	in	ADP	APPR	_	19	R	19:R	_
+19	Europa	Europa	PROPN	NE	_	17	E	17:E	_
+20	;	;	PUNCT	$.	_	2	U	2:U	_
+21	aber	aber	ADV	ADV	_	2	L	2:L	_
+22	das	der	DET	ART	_	23	E	23:E	_
+23	Meer	Meer	NOUN	NN	_	0	C	0:C|28:A	_
+24	hielt	halten	VERB	VVFIN	_	26	F	26:F	_
+25	sich	er|es|sie	PRON	PRF	_	24	Terminal	24:Terminal	_
+26	ruhig	ruhig	ADJ	ADJD	_	2	H	2:H	_
+27	und	und	CCONJ	NE	_	2	L	2:L	_
+28	gestattete	gestatteen	VERB	VVFIN	_	2	H	2:H	_
+29	in	in	ADP	APPR	_	31	R	31:R	_
+30	weitem	weit	ADJ	ADJA	_	31	E	31:E	_
+31	Umfang	Umfang	NOUN	NN	_	28	A	28:A	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Beobachtung	Beobachtung	NOUN	NN	_	28	A	28:A	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

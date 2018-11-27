@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 492005
+# text = Bowie 's impact at that time , as described by biographer David Buckley , " challenged the core belief of the rock music of its day " and " created perhaps the biggest cult in popular culture .
+1	Bowie	Bowie	PROPN	NNP	_	3	A	3:A	_
+2	's	be	PART	POS	_	1	R	1:R	_
+3	impact	impact	NOUN	NN	_	16	A	16:A|30:A	_
+4	at	at	ADP	IN	_	6	R	6:R	_
+5	that	that	DET	DT	_	6	E	6:E	_
+6	time	time	NOUN	NN	_	3	D	3:D	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	as	as	SCONJ	IN	_	9	R	9:R	_
+9	described	describe	VERB	VBN	_	0	H	0:H	_
+10	by	by	ADP	IN	_	11	R	11:R	_
+11	biographer	biographer	NOUN	NN	_	9	A	9:A	_
+12	David	David	PROPN	NNP	_	11	E	11:E	_
+13	Buckley	Buckley	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	"	"	PUNCT	''	_	9	U	9:U	_
+16	challenged	challenge	VERB	VBD	_	9	A	9:A	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	core	core	NOUN	NN	_	19	E	19:E	_
+19	belief	belief	NOUN	NN	_	16	A	16:A	_
+20	of	of	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	rock	rock	NOUN	NN	_	23	E	23:E	_
+23	music	music	NOUN	NN	_	19	A	19:A	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	its	its	PRON	PRP$	_	26	E	26:E	_
+26	day	day	NOUN	NN	_	23	E	23:E	_
+27	"	"	PUNCT	''	_	16	U	16:U	_
+28	and	and	CCONJ	CC	_	16	L	16:L	_
+29	"	"	PUNCT	``	_	16	U	16:U	_
+30	created	create	VERB	VBD	_	16	H	16:H	_
+31	perhaps	perhaps	ADV	RB	_	34	E	34:E	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	biggest	biggest	ADJ	JJS	_	34	E	34:E	_
+34	cult	cult	NOUN	NN	_	30	A	30:A	_
+35	in	in	ADP	IN	_	37	R	37:R	_
+36	popular	popular	ADJ	JJ	_	37	E	37:E	_
+37	culture	culture	NOUN	NN	_	34	E	34:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 660001
+# text = On a Friday night in December 1988 , Carey accompanied Starr to a record executives gala , where she handed her demo tape to Tommy Mottola , head of Columbia Records , who listened to it on his way back home .
+1	On	on	ADP	IN	_	4	R	4:R	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	Friday	Friday	PROPN	NNP	_	4	E	4:E	_
+4	night	night	NOUN	NN	_	10	D	10:D	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	December	December	PROPN	NNP	_	4	E	4:E	_
+7	1988	1988	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	Carey	Carey	PROPN	NNP	_	10	A	10:A	_
+10	accompanied	accompany	VERB	VBD	_	0	H	0:H	_
+11	Starr	Starr	PROPN	NNP	_	10	A	10:A	_
+12	to	to	ADP	IN	_	16	R	16:R	_
+13	a	a	DET	DT	_	16	E	16:E	_
+14	record	record	NOUN	NN	_	15	E	15:E	_
+15	executives	executive	VERB	VBZ	_	16	E	16:E	_
+16	gala	gala	NOUN	NN	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	10	U	10:U	_
+18	where	where	ADV	WRB	_	10	L	10:L	_
+19	she	she	PRON	PRP	_	20	A	20:A	_
+20	handed	hand	VERB	VBD	_	10	H	10:H	_
+21	her	she	PRON	PRP$	_	23	E	23:E	_
+22	demo	demo	NOUN	NN	_	23	E	23:E	_
+23	tape	tape	NOUN	NN	_	20	A	20:A	_
+24	to	to	ADP	IN	_	25	R	25:R	_
+25	Tommy	Tommy	PROPN	NNP	_	20	A	20:A	_
+26	Mottola	Mottola	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	25	U	25:U	_
+28	head	head	NOUN	NN	_	30	E	30:E	_
+29	of	of	ADP	IN	_	28	R	28:R	_
+30	Columbia	Columbia	PROPN	NNP	_	25	E	25:E	_
+31	Records	records	NOUN	NNS	_	30	Terminal	30:Terminal	_
+32	,	,	PUNCT	,	_	25	U	25:U	_
+33	who	who	PRON	WP	_	34	R	34:R	_
+34	listened	listen	VERB	VBD	_	25	E	25:E	_
+35	to	to	ADP	IN	_	34	R	34:R	_
+36	it	it	PRON	PRP	_	34	A	34:A	_
+37	on	on	ADP	IN	_	39	R	39:R	_
+38	his	he	PRON	PRP$	_	39	E	39:E	_
+39	way	way	NOUN	NN	_	34	D	34:D	_
+40	back	back	ADV	RB	_	41	E	41:E	_
+41	home	home	ADV	RB	_	39	E	39:E	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

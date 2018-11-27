@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 138011
+# text = The picture was a financial success , and her work as creepy aunt Violet Venable gave Hepburn her eighth Oscar nomination .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	picture	picture	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	financial	financial	ADJ	JJ	_	6	A	6:A	_
+6	success	success	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	and	and	CCONJ	CC	_	6	L	6:L	_
+9	her	she	PRON	PRP$	_	10	E	10:E	_
+10	work	work	NOUN	NN	_	16	A	16:A	_
+11	as	as	ADP	IN	_	14	R	14:R	_
+12	creepy	creepy	ADJ	JJ	_	13	E	13:E	_
+13	aunt	aunt	NOUN	NN	_	14	E	14:E	_
+14	Violet	Violet	PROPN	NNP	_	10	E	10:E	_
+15	Venable	Venable	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	gave	give	VERB	VBD	_	6	H	6:H	_
+17	Hepburn	Hepburn	PROPN	NNP	_	16	A	16:A	_
+18	her	she	PRON	PRP$	_	21	E	21:E	_
+19	eighth	eighth	NOUN	NN	_	21	E	21:E	_
+20	Oscar	Oscar	ADJ	JJ	_	21	E	21:E	_
+21	nomination	nomination	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

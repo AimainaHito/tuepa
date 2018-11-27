@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25490103
+# text = Noch 2 Stunden lang steigerte sich Ned Land s Zorn .
+1	Noch	noch	ADV	ADV	_	5	D	5:D	_
+2	2	2	NUM	CARD	_	3	E	3:E	_
+3	Stunden	Stunde|Stunden	NOUN	NN	_	5	D	5:D	_
+4	lang	lang	ADJ	ADJD	_	5	D	5:D	_
+5	steigerte	steigern	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	Ned	Ned	PROPN	NE	_	10	E	10:E	_
+8	Land	Land	NOUN	NE	_	7	Terminal	7:Terminal	_
+9	s	s	PROPN	NN	_	10	R	10:R	_
+10	Zorn	Zorn	PROPN	NN	_	5	A	5:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

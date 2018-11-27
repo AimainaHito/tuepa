@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25508008
+# text = « Nach einer kleinen Pause sagte er :
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	Nach	nach	ADP	APPR	_	5	R	5:R	_
+3	einer	ein	DET	ART	_	5	E	5:E	_
+4	kleinen	klein	ADJ	ADJA	_	5	E	5:E	_
+5	Pause	Pause	NOUN	NN	_	6	A	6:A	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	:	:	PUNCT	$.	_	6	U	6:U	_
+

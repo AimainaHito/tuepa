@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 450004
+# text = He struggled academically , and Jennings later surmised that it was out of " pure boredom " that he failed 10th grade and dropped out .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	struggled	struggle	VERB	VBD	_	0	H	0:H	_
+3	academically	academically	ADV	RB	_	2	D	2:D	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	Jennings	Jennings	PROPN	NNP	_	8	A	8:A|24:A	_
+7	later	later	ADV	RB	_	8	D	8:D	_
+8	surmised	surmise	VERB	VBD	_	2	H	2:H	_
+9	that	that	SCONJ	IN	_	16	R	16:R	_
+10	it	it	PRON	PRP	_	16	F	16:F	_
+11	was	be	AUX	VBD	_	16	F	16:F	_
+12	out	out	ADP	IN	_	16	L	16:L	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	"	"	PUNCT	``	_	16	U	16:U	_
+15	pure	pure	ADJ	JJ	_	16	D	16:D	_
+16	boredom	boredom	NOUN	NN	_	8	A	8:A	_
+17	"	"	PUNCT	''	_	16	U	16:U	_
+18	that	that	SCONJ	IN	_	20	F	20:F	_
+19	he	he	PRON	PRP	_	20	A	20:A	_
+20	failed	fail	VERB	VBD	_	16	H	16:H	_
+21	10th	10th	ADJ	JJ	_	22	E	22:E	_
+22	grade	grade	NOUN	NN	_	20	A	20:A	_
+23	and	and	CCONJ	CC	_	16	L	16:L	_
+24	dropped	drop	VERB	VBD	_	16	H	16:H	_
+25	out	out	ADP	RP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

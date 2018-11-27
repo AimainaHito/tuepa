@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 662002
+# text = During Carey 's writing sessions , she began working mostly with Afanasieff , with whom she co - wrote and produced most of Music Box .
+1	During	during	ADP	IN	_	5	L	5:L	_
+2	Carey	Carey	PROPN	NNP	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	writing	writing	NOUN	NN	_	5	E	5:E	_
+5	sessions	session	NOUN	NNS	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	she	she	PRON	PRP	_	9	A	9:A	_
+8	began	begin	VERB	VBD	_	9	D	9:D	_
+9	working	work	VERB	VBG	_	5	H	5:H	_
+10	mostly	mostly	ADV	RB	_	9	D	9:D	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	Afanasieff	Afanasieff	PROPN	NNP	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	with	with	ADP	IN	_	19	R	19:R	_
+15	whom	whom	PRON	WP	_	19	F	19:F	_
+16	she	she	PRON	PRP	_	19	A	19:A	_
+17	co	co	X	AFX	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	wrote	wrote	NOUN	NN	_	12	E	12:E	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	produced	produce	VERB	VBD	_	19	C	19:C	_
+22	most	most	ADJ	JJS	_	24	E	24:E	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	Music	music	ADJ	JJ	_	19	A	19:A	_
+25	Box	Box	NOUN	NN	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25798018
+# text = » Gute Neuigkeit « , erwiderte der Kanadier , » aber wohin fährt die ›Nautilus‹ ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Gute	gut	ADJ	ADJA	_	6	A	6:A	_
+3	Neuigkeit	Neuigkeit	NOUN	NN	_	2	A	2:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	aber	aber	CCONJ	ADV	_	2	L	2:L	_
+12	wohin	wohin	ADV	ADJD	_	13	A	13:A	_
+13	fährt	fahren	VERB	VVFIN	_	2	H	2:H	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	›Nautilus‹	›Nautilus‹	NOUN	NE	_	13	A	13:A	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

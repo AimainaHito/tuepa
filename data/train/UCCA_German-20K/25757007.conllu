@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25757007
+# text = » Sehen Sie da ! Sehen Sie ! « rief der Kanadier mit bewegter Stimme . » Da kommt einer heran ! Auf uns zu ! Er verhöhnt mich ! Er weiß , dass ich nichts gegen ihn kann ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Sehen	sehen	VERB	VVFIN	_	10	A	10:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	da	da	ADV	ADV	_	2	D	2:D	_
+5	!	!	PUNCT	$.	_	2	U	2:U	_
+6	Sehen	sehen	NOUN	NN	_	2	H	2:H	_
+7	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kanadier	Kanadier	NOUN	NN	_	10	A	10:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	bewegter	bewegt	ADJ	ADJA	_	10	A	10:A	_
+15	Stimme	Stimme	NOUN	NN	_	14	A	14:A	_
+16	.	.	PUNCT	$.	_	10	U	10:U	_
+17	»	»	PUNCT	$(	_	10	U	10:U	_
+18	Da	da	ADV	PTKVZ	_	19	D	19:D	_
+19	kommt	kommen	VERB	VVFIN	_	2	H	2:H	_
+20	einer	ein	DET	PIS	_	19	A	19:A	_
+21	heran	heran	ADV	PTKVZ	_	19	Terminal	19:Terminal	_
+22	!	!	PUNCT	$.	_	2	U	2:U	_
+23	Auf	auf	ADP	APPR	_	24	R	24:R	_
+24	uns	wir	PRON	NE	_	25	A	25:A	_
+25	zu	zu	ADP	VVINF	_	2	H	2:H	_
+26	!	!	PUNCT	$.	_	2	U	2:U	_
+27	Er	er	PRON	PPER	_	28	A	28:A	_
+28	verhöhnt	verhöhnen	VERB	VVFIN	_	2	H	2:H	_
+29	mich	ich	PRON	PRF	_	28	A	28:A	_
+30	!	!	PUNCT	$.	_	2	U	2:U	_
+31	Er	er	PRON	PPER	_	32	A	32:A	_
+32	weiß	wissen	VERB	VVFIN	_	2	H	2:H	_
+33	,	,	PUNCT	$,	_	32	U	32:U	_
+34	dass	dass	SCONJ	KOUS	_	37	R	37:R	_
+35	ich	ich	PRON	PPER	_	37	A	37:A	_
+36	nichts	nichts	PRON	NN	_	37	D	37:D	_
+37	gegen	gegen	ADP	APPR	_	32	A	32:A	_
+38	ihn	er	PRON	PPER	_	37	A	37:A	_
+39	kann	können	AUX	VMFIN	_	37	D	37:D	_
+40	!	!	PUNCT	$.	_	37	U	37:U	_
+41	«	«	PUNCT	$(	_	37	U	37:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 524003
+# text = Deanna Durbin was then asked but was unavailable , resulting in Garland being cast .
+1	Deanna	Deanna	PROPN	NNP	_	5	A	5:A|8:A	_
+2	Durbin	Durbin	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	then	then	ADV	RB	_	5	D	5:D	_
+5	asked	ask	VERB	VBD	_	0	H	0:H	_
+6	but	but	CCONJ	CC	_	5	L	5:L	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	unavailable	unavailable	ADJ	JJ	_	5	H	5:H	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	resulting	result	VERB	VBG	_	5	L	5:L	_
+11	in	in	ADP	IN	_	10	R	10:R	_
+12	Garland	Garland	PROPN	NNP	_	14	A	14:A	_
+13	being	be	AUX	VBG	_	14	F	14:F	_
+14	cast	cast	VERB	VBN	_	5	H	5:H	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 194004
+# text = Sorkin 's TV series The West Wing aired on the same network , and so at the request of NBC 's Entertainment President Jeff Zucker he apologized , but would later say " there should be a difference between what NBC News does and what The West Wing TV series does . "
+1	Sorkin	Sorkin	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	TV	tv	NOUN	NN	_	4	E	4:E	_
+4	series	series	NOUN	NN	_	8	A	8:A	_
+5	The	the	DET	DT	_	4	E	4:E	_
+6	West	West	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Wing	wing	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	aired	aire	VERB	VBD	_	0	H	0:H	_
+9	on	on	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	same	same	ADJ	JJ	_	12	E	12:E	_
+12	network	network	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	and	and	CCONJ	CC	_	8	L	8:L	_
+15	so	so	ADV	RB	_	14	Terminal	14:Terminal	_
+16	at	at	ADP	IN	_	8	L	8:L	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	request	request	NOUN	NN	_	8	H	8:H	_
+19	of	of	ADP	IN	_	23	R	23:R	_
+20	NBC	NBC	PROPN	NNP	_	23	E	23:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	Entertainment	entertainment	PROPN	NNP	_	23	E	23:E	_
+23	President	President	PROPN	NNP	_	18	A	18:A	_
+24	Jeff	Jeff	PROPN	NNP	_	23	E	23:E	_
+25	Zucker	Zucker	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	he	he	PRON	PRP	_	27	A	27:A|32:A	_
+27	apologized	apologize	VERB	VBD	_	8	H	8:H	_
+28	,	,	PUNCT	,	_	8	U	8:U	_
+29	but	but	CCONJ	CC	_	8	L	8:L	_
+30	would	would	AUX	MD	_	32	F	32:F	_
+31	later	later	ADV	RB	_	32	D	32:D	_
+32	say	say	VERB	VB	_	8	H	8:H	_
+33	"	"	PUNCT	``	_	32	U	32:U	_
+34	there	there	PRON	EX	_	36	F	36:F	_
+35	should	should	AUX	MD	_	36	D	36:D	_
+36	be	be	VERB	VB	_	32	A	32:A	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	difference	difference	NOUN	NN	_	36	A	36:A	_
+39	between	between	VERB	VBN	_	43	N	43:N	_
+40	what	what	PRON	WP	_	43	F	43:F	_
+41	NBC	Nbc	PROPN	NNP	_	42	E	42:E	_
+42	News	news	PROPN	NNP	_	43	A	43:A	_
+43	does	do	VERB	VBZ	_	38	E	38:E	_
+44	and	and	CCONJ	CC	_	43	N	43:N	_
+45	what	what	PRON	WP	_	51	R	51:R	_
+46	The	the	DET	DT	_	50	E	50:E	_
+47	West	West	ADJ	JJ	_	46	Terminal	46:Terminal	_
+48	Wing	wing	NOUN	NN	_	46	Terminal	46:Terminal	_
+49	TV	tv	NOUN	NN	_	50	E	50:E	_
+50	series	series	NOUN	NN	_	51	A	51:A	_
+51	does	do	VERB	VBZ	_	43	C	43:C	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+53	"	"	PUNCT	''	_	51	U	51:U	_
+

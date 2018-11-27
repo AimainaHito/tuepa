@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25812001
+# text = Ich blickte den Kapitän an ; ich glaubte ihn nicht recht verstanden zu haben .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	blickte	blicken	VERB	VVFIN	_	0	H	0:H	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+6	;	;	PUNCT	$.	_	2	U	2:U	_
+7	ich	ich	PRON	PPER	_	12	A	12:A	_
+8	glaubte	glauben	VERB	VVFIN	_	12	D	12:D	_
+9	ihn	er	PRON	PPER	_	12	A	12:A	_
+10	nicht	nicht	PART	CARD	_	11	E	11:E	_
+11	recht	recht	ADV	NE	_	12	D	12:D	_
+12	verstanden	verstehen	ADJ	VVPP	_	2	H	2:H	_
+13	zu	zu	PART	NE	_	12	F	12:F	_
+14	haben	haben	VERB	VAINF	_	12	F	12:F	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

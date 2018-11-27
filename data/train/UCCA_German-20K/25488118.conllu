@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25488118
+# text = « » Das Fahrzeug ist nicht gefahren ?
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Das	der	DET	ART	_	4	E	4:E	_
+4	Fahrzeug	Fahrzeug	NOUN	NN	_	7	A	7:A	_
+5	ist	sein	AUX	VVFIN	_	7	F	7:F	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	gefahren	fahren	VERB	VVPP	_	0	H	0:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+

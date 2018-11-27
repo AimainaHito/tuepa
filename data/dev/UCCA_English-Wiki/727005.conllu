@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 727005
+# text = Jolie reprised her role as Lara Croft in Lara Croft Tomb Raider : The Cradle of Life ( 2003 ) , which established her among Hollywood 's highest - paid actresses .
+1	Jolie	Jolie	PROPN	NNP	_	2	A	2:A	_
+2	reprised	reprise	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	4	E	4:E	_
+4	role	role	NOUN	NN	_	2	A	2:A	_
+5	as	as	ADP	IN	_	6	R	6:R	_
+6	Lara	lara	PROPN	NNP	_	4	E	4:E	_
+7	Croft	Croft	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Lara	lara	PROPN	NNP	_	6	E	6:E	_
+10	Croft	Croft	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Tomb	Tomb	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	Raider	Raider	PROPN	NNP	_	9	Terminal	9:Terminal	_
+13	:	:	PUNCT	:	_	9	U	9:U	_
+14	The	the	DET	DT	_	9	Terminal	9:Terminal	_
+15	Cradle	Cradle	PROPN	NNP	_	9	Terminal	9:Terminal	_
+16	of	of	ADP	IN	_	9	Terminal	9:Terminal	_
+17	Life	Life	PROPN	NNP	_	9	Terminal	9:Terminal	_
+18	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+19	2003	2003	NUM	CD	_	9	E	9:E	_
+20	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	which	which	PRON	WDT	_	2	L	2:L	_
+23	established	establish	VERB	VBD	_	2	H	2:H	_
+24	her	she	PRON	PRP	_	23	A	23:A	_
+25	among	among	ADP	IN	_	31	R	31:R	_
+26	Hollywood	Hollywood	PROPN	NNP	_	31	E	31:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	highest	highest	ADJ	JJS	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	paid	pay	VERB	VBN	_	31	E	31:E	_
+31	actresses	actress	NOUN	NNS	_	23	A	23:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

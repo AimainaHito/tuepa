@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 603011
+# text = His first creative suggestion after this change of leadership was to propose that the band move forward on their plans to produce a film for television , which was to become Magical Mystery Tour .
+1	His	he	PRON	PRP$	_	4	A	4:A|12:A	_
+2	first	first	ADJ	JJ	_	4	D	4:D	_
+3	creative	creative	ADJ	JJ	_	4	E	4:E	_
+4	suggestion	suggestion	NOUN	NN	_	10	A	10:A	_
+5	after	after	ADP	IN	_	4	L	4:L	_
+6	this	this	DET	DT	_	7	F	7:F	_
+7	change	change	NOUN	NN	_	4	H	4:H	_
+8	of	of	ADP	IN	_	9	E	9:E	_
+9	leadership	leadership	NOUN	NN	_	7	A	7:A	_
+10	was	be	VERB	VBD	_	0	H	0:H	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	propose	propose	VERB	VB	_	10	A	10:A	_
+13	that	that	SCONJ	IN	_	16	F	16:F	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	band	band	NOUN	NN	_	16	A	16:A|22:A	_
+16	move	move	VERB	VB	_	12	A	12:A	_
+17	forward	forward	ADV	RB	_	16	D	16:D	_
+18	on	on	ADP	IN	_	20	R	20:R	_
+19	their	they	PRON	PRP$	_	20	E	20:E	_
+20	plans	plan	NOUN	NNS	_	16	A	16:A	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	produce	produce	VERB	VB	_	20	E	20:E	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	film	film	NOUN	NN	_	22	A	22:A	_
+25	for	for	ADP	IN	_	26	R	26:R	_
+26	television	television	NOUN	NN	_	24	E	24:E	_
+27	,	,	PUNCT	,	_	24	U	24:U	_
+28	which	which	PRON	WDT	_	31	F	31:F	_
+29	was	be	VERB	VBD	_	31	F	31:F	_
+30	to	to	PART	TO	_	31	F	31:F	_
+31	become	become	VERB	VB	_	24	E	24:E	_
+32	Magical	magical	ADJ	JJ	_	31	A	31:A	_
+33	Mystery	mystery	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Tour	tour	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	.	.	PUNCT	.	_	31	U	31:U	_
+

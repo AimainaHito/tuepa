@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 523013
+# text = Despite successful film and recording careers , awards , critical praise and her ability to fill concert halls worldwide , she was plagued throughout her life with self - doubt and required constant reassurance that she was talented and attractive .
+1	Despite	despite	ADP	IN	_	3	L	3:L	_
+2	successful	successful	ADJ	JJ	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	0	H	0:H	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	recording	recording	NOUN	NN	_	6	E	6:E	_
+6	careers	career	NOUN	NNS	_	3	C	3:C	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	awards	award	NOUN	NNS	_	3	H	3:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	critical	critical	ADJ	JJ	_	11	E	11:E	_
+11	praise	praise	NOUN	NN	_	8	C	8:C	_
+12	and	and	CCONJ	CC	_	3	L	3:L	_
+13	her	she	PRON	PRP$	_	14	E	14:E	_
+14	ability	ability	NOUN	NN	_	16	A	16:A	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	fill	fill	VERB	VB	_	3	H	3:H	_
+17	concert	concert	NOUN	NN	_	18	E	18:E	_
+18	halls	hall	NOUN	NNS	_	16	A	16:A	_
+19	worldwide	worldwide	ADV	RB	_	16	D	16:D	_
+20	,	,	PUNCT	,	_	3	U	3:U	_
+21	she	she	PRON	PRP	_	23	A	23:A|32:A	_
+22	was	be	AUX	VBD	_	23	F	23:F	_
+23	plagued	plague	VERB	VBN	_	3	H	3:H	_
+24	throughout	throughout	ADP	IN	_	26	R	26:R	_
+25	her	she	PRON	PRP$	_	26	E	26:E	_
+26	life	life	NOUN	NN	_	23	D	23:D	_
+27	with	with	ADP	IN	_	30	R	30:R	_
+28	self	self	NOUN	NN	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	doubt	doubt	NOUN	NN	_	23	A	23:A	_
+31	and	and	CCONJ	CC	_	3	L	3:L	_
+32	required	require	VERB	VBN	_	3	H	3:H	_
+33	constant	constant	ADJ	JJ	_	34	E	34:E	_
+34	reassurance	reassurance	NOUN	NN	_	32	A	32:A	_
+35	that	that	SCONJ	IN	_	38	F	38:F	_
+36	she	she	PRON	PRP	_	38	A	38:A	_
+37	was	be	AUX	VBD	_	38	F	38:F	_
+38	talented	talented	ADJ	JJ	_	34	E	34:E	_
+39	and	and	CCONJ	CC	_	38	N	38:N	_
+40	attractive	attractive	ADJ	JJ	_	38	C	38:C	_
+41	.	.	PUNCT	.	_	38	U	38:U	_
+

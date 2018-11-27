@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25437017
+# text = » Und merk dir wohl ! - denn ich will dir 's nicht verhehlen - 's ist eine Reise , von der nicht jeder wieder heimkommt !
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Und	und	CCONJ	NN	_	3	L	3:L	_
+3	merk	merk	ADV	NE	_	0	H	0:H	_
+4	dir	dir	PRON	FM	_	3	A	3:A	_
+5	wohl	wohl	ADV	ADV	_	3	D	3:D	_
+6	!	!	PUNCT	$.	_	3	U	3:U	_
+7	-	-	PUNCT	$(	_	3	U	3:U	_
+8	denn	denn	CCONJ	KON	_	3	L	3:L	_
+9	ich	ich	PRON	PPER	_	14	A	14:A	_
+10	will	wollen	AUX	NE	_	14	D	14:D	_
+11	dir	dir	PRON	NE	_	14	A	14:A	_
+12	's	'	NOUN	ART	_	14	A	14:A	_
+13	nicht	nicht	PART	CARD	_	14	D	14:D	_
+14	verhehlen	verhehlen	VERB	VVINF	_	3	H	3:H	_
+15	-	-	PUNCT	$(	_	3	U	3:U	_
+16	's	es	X	PPER	_	17	F	17:F	_
+17	ist	sein	AUX	VVFIN	_	3	H	3:H	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Reise	Reise	NOUN	NN	_	17	A	17:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	von	von	ADP	NN	_	26	R	26:R	_
+22	der	der	PRON	ART	_	21	Terminal	21:Terminal	_
+23	nicht	nicht	PART	XY	_	26	D	26:D	_
+24	jeder	jed	PRON	PIAT	_	26	A	26:A	_
+25	wieder	wieder	ADV	NN	_	26	D	26:D	_
+26	heimkommt	heimkommen	VERB	VVFIN	_	19	E	19:E	_
+27	!	!	PUNCT	$.	_	26	U	26:U	_
+

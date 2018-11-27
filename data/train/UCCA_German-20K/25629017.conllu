@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25629017
+# text = » Tausend Teufel ! « entgegnete der Kanadier , » was ich seit 2 Monaten an Gin zu mir genommen , verdient nicht einen solchen Vorwurf ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Tausend	Tausend	PROPN	ADJD	_	6	A	6:A	_
+3	Teufel	Teufel	PROPN	NN	_	2	Terminal	2:Terminal	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	was	was	PRON	NE	_	18	A	18:A	_
+12	ich	ich	PRON	PPER	_	18	A	18:A	_
+13	seit	seit	ADP	ADJA	_	14	E	14:E	_
+14	2	2	NUM	CARD	_	18	D	18:D	_
+15	Monaten	Monat	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	an	an	ADP	APPR	_	17	R	17:R	_
+17	Gin	Gin	NOUN	NE	_	18	A	18:A	_
+18	zu	zu	ADP	NE	_	22	A	22:A	_
+19	mir	ich	PRON	PPER	_	18	Terminal	18:Terminal	_
+20	genommen	nehmen	VERB	VVPP	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	$,	_	22	U	22:U	_
+22	verdient	verdienen	VERB	VVPP	_	2	H	2:H	_
+23	nicht	nicht	PART	XY	_	22	D	22:D	_
+24	einen	ein	DET	ART	_	26	E	26:E	_
+25	solchen	solch	ADJ	ADJA	_	26	E	26:E	_
+26	Vorwurf	Vorwurf	NOUN	NN	_	22	A	22:A	_
+27	!	!	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25804000
+# text = Die Gift pflanzen sind unter diesen Meeren der heißen Zone zahlreicher geworden , und das Übel hat sich von der Mündung des Rio de la Plata bis nach Florida unwiderstehlich entwickelt !
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Gift	Gift	NOUN	NN	_	3	E	3:E	_
+3	pflanzen	pflanzen	VERB	VVFIN	_	11	A	11:A	_
+4	sind	sein	AUX	NN	_	11	F	11:F	_
+5	unter	unter	ADP	ADJD	_	7	R	7:R	_
+6	diesen	dies	PRON	PDAT	_	7	E	7:E	_
+7	Meeren	Meer	NOUN	NN	_	11	A	11:A	_
+8	der	der	DET	ART	_	10	R	10:R	_
+9	heißen	heißen	AUX	ADJA	_	10	E	10:E	_
+10	Zone	Zone	PROPN	NN	_	7	E	7:E	_
+11	zahlreicher	zahlreicher	ADJ	ADJA	_	0	H	0:H	_
+12	geworden	werden	AUX	PAV	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	und	und	CCONJ	NE	_	11	L	11:L	_
+15	das	der	DET	ART	_	16	E	16:E	_
+16	Übel	Übel	NOUN	NN	_	18	A	18:A	_
+17	hat	haben	AUX	VAFIN	_	18	F	18:F	_
+18	sich	er|es|sie	PRON	PRF	_	11	H	11:H	_
+19	von	von	ADP	NN	_	23	R	23:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Mündung	Mündung	NOUN	NN	_	23	E	23:E	_
+22	des	der	DET	ART	_	21	R	21:R	_
+23	Rio	Rio	PROPN	NE	_	18	A	18:A	_
+24	de	de	PROPN	NE	_	23	Terminal	23:Terminal	_
+25	la	la	PROPN	NE	_	23	Terminal	23:Terminal	_
+26	Plata	Plata	PROPN	NE	_	23	Terminal	23:Terminal	_
+27	bis	bis	ADP	APPR	_	23	R	23:R	_
+28	nach	nach	ADP	CARD	_	27	Terminal	27:Terminal	_
+29	Florida	Florida	PROPN	NE	_	23	C	23:C	_
+30	unwiderstehlich	unwiderstehlich	ADJ	ADJD	_	18	D	18:D	_
+31	entwickelt	entwickeln	VERB	VVPP	_	18	Terminal	18:Terminal	_
+32	!	!	PUNCT	$.	_	18	U	18:U	_
+

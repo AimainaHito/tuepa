@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 195003
+# text = " In 2003 , at the end of the fourth season , Sorkin and fellow executive producer Thomas Schlamme left the show due to internal conflicts at Warner Bros. TV not involving the NBC network , thrusting producer John Wells into an expanded role as showrunner .
+1	"	"	PUNCT	``	_	20	U	20:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	2003	2003	NUM	CD	_	20	D	20:D	_
+4	,	,	PUNCT	,	_	20	U	20:U	_
+5	at	at	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	end	end	NOUN	NN	_	20	H	20:H	_
+8	of	of	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	fourth	fourth	ADJ	JJ	_	11	E	11:E	_
+11	season	season	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	20	U	20:U	_
+13	Sorkin	Sorkin	PROPN	NNP	_	20	A	20:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	fellow	fellow	ADJ	JJ	_	17	E	17:E	_
+16	executive	executive	ADJ	JJ	_	17	E	17:E	_
+17	producer	producer	NOUN	NN	_	18	E	18:E	_
+18	Thomas	Thomas	PROPN	NNP	_	13	C	13:C	_
+19	Schlamme	Schlamme	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	left	leave	VERB	VBD	_	0	H	0:H	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	show	show	NOUN	NN	_	20	A	20:A	_
+23	due	due	ADP	IN	_	20	L	20:L	_
+24	to	to	ADP	IN	_	23	Terminal	23:Terminal	_
+25	internal	internal	ADJ	JJ	_	26	E	26:E	_
+26	conflicts	conflict	NOUN	NNS	_	0	P	0:P|37:A	_
+27	at	at	ADP	IN	_	28	R	28:R	_
+28	Warner	Warner	PROPN	NNP	_	26	A	26:A	_
+29	Bros.	Bros.	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	TV	tv	NOUN	NN	_	28	Terminal	28:Terminal	_
+31	not	not	ADV	RB	_	32	D	32:D	_
+32	involving	involve	VERB	VBG	_	20	H	20:H	_
+33	the	the	DET	DT	_	35	E	35:E	_
+34	NBC	NBC	PROPN	NNP	_	35	E	35:E	_
+35	network	network	NOUN	NN	_	32	A	32:A	_
+36	,	,	PUNCT	,	_	32	U	32:U	_
+37	thrusting	thrust	VERB	VBG	_	32	H	32:H	_
+38	producer	producer	NOUN	NN	_	37	A	37:A	_
+39	John	John	PROPN	NNP	_	38	E	38:E	_
+40	Wells	Wells	PROPN	NNP	_	39	Terminal	39:Terminal	_
+41	into	into	ADP	IN	_	46	R	46:R	_
+42	an	a	DET	DT	_	44	E	44:E	_
+43	expanded	expand	VERB	VBN	_	44	E	44:E	_
+44	role	role	NOUN	NN	_	46	E	46:E	_
+45	as	as	ADP	IN	_	46	R	46:R	_
+46	showrunner	showrunner	NOUN	NN	_	37	A	37:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

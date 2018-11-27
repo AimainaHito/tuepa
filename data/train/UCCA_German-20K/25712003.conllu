@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25712003
+# text = » Gern , Herr Arronax . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Gern	Pilger|gern	NOUN	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Arronax	Arronax	PROPN	NE	_	2	G	2:G	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

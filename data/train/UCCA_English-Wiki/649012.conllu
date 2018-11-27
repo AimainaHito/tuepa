@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 649012
+# text = At an appeal hearing years later , Hanratty 's conviction was upheld after DNA evidence matched .
+1	At	at	ADP	IN	_	4	L	4:L	_
+2	an	a	DET	DT	_	4	E	4:E	_
+3	appeal	appeal	ADJ	JJ	_	4	E	4:E	_
+4	hearing	hear	NOUN	NN	_	0	H	0:H	_
+5	years	year	NOUN	NNS	_	4	D	4:D	_
+6	later	later	ADV	RB	_	5	R	5:R	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	Hanratty	Hanratty	PROPN	NNP	_	10	A	10:A	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	conviction	conviction	NOUN	NN	_	12	A	12:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	upheld	upheld	VERB	VBN	_	4	H	4:H	_
+13	after	after	ADP	IN	_	4	L	4:L	_
+14	DNA	dna	NOUN	NN	_	15	E	15:E	_
+15	evidence	evidence	NOUN	NN	_	16	A	16:A	_
+16	matched	match	VERB	VBN	_	4	H	4:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25519003
+# text = Aber eine vielleicht unbescheidene Frage drängte sich mir auf , und ich konnte nicht umhin , sie an ihn zu richten .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	eine	ein	DET	ART	_	5	E	5:E	_
+3	vielleicht	vielleicht	ADV	NN	_	4	G	4:G	_
+4	unbescheidene	unbescheiden	ADJ	ADJA	_	5	E	5:E	_
+5	Frage	Frage	NOUN	NN	_	6	A	6:A	_
+6	drängte	drängte	VERB	VVFIN	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	mir	ich	PRON	PPER	_	6	A	6:A	_
+9	auf	auf	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	und	und	CCONJ	NE	_	6	L	6:L	_
+12	ich	ich	PRON	PPER	_	21	A	21:A	_
+13	konnte	können	AUX	VMFIN	_	21	D	21:D	_
+14	nicht	nicht	PART	CARD	_	21	D	21:D	_
+15	umhin	umhin	ADV	PTKVZ	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	$,	_	21	U	21:U	_
+17	sie	sie	PRON	ADV	_	21	A	21:A	_
+18	an	an	ADP	APPR	_	19	R	19:R	_
+19	ihn	er	PRON	PPER	_	21	A	21:A	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	richten	richten	VERB	VVINF	_	6	H	6:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

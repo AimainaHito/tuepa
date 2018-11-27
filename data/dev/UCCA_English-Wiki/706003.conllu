@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 706003
+# text = Shot of Love , recorded the next spring , featured Dylan 's first secular compositions in more than two years , mixed with Christian songs .
+1	Shot	shot	PROPN	NNP	_	5	A	5:A|22:A|10:A	_
+2	of	of	ADP	IN	_	1	Terminal	1:Terminal	_
+3	Love	Love	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	recorded	record	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	next	next	ADJ	JJ	_	8	E	8:E	_
+8	spring	spring	NOUN	NN	_	5	D	5:D	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	featured	feature	VERB	VBN	_	5	H	5:H	_
+11	Dylan	Dylan	PROPN	NNP	_	10	A	10:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	first	first	ADV	RBS	_	11	D	11:D	_
+14	secular	secular	ADJ	JJ	_	15	E	15:E	_
+15	compositions	composition	NOUN	NNS	_	11	A	11:A	_
+16	in	in	ADP	IN	_	20	R	20:R	_
+17	more	more	ADJ	JJR	_	20	E	20:E	_
+18	than	than	ADP	IN	_	17	R	17:R	_
+19	two	two	NUM	CD	_	20	E	20:E	_
+20	years	year	NOUN	NNS	_	11	D	11:D	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	mixed	mix	VERB	VBN	_	5	H	5:H	_
+23	with	with	ADP	IN	_	25	R	25:R	_
+24	Christian	christian	PROPN	NNP	_	25	E	25:E	_
+25	songs	song	NOUN	NNS	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

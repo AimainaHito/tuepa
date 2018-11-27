@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 551004
+# text = Former studio employees named by Warner included Alvah Bessie , Howard Koch , Ring Lardner Jr . , John Howard Lawson , Albert Maltz , Robert Rossen , Dalton Trumbo , Clifford Odets , and Irwin Shaw .
+1	Former	former	ADJ	JJ	_	3	E	3:E	_
+2	studio	studio	NOUN	NN	_	3	E	3:E	_
+3	employees	employee	NOUN	NNS	_	4	A	4:A	_
+4	named	name	VERB	VBN	_	7	A	7:A	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Warner	Warner	PROPN	NNP	_	4	A	4:A	_
+7	included	include	VERB	VBD	_	0	H	0:H	_
+8	Alvah	Alvah	PROPN	NNP	_	7	A	7:A	_
+9	Bessie	Bessie	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	Howard	Howard	PROPN	NNP	_	8	C	8:C	_
+12	Koch	Koch	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	Ring	re	PROPN	NNP	_	8	C	8:C	_
+15	Lardner	Lardner	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Jr	jr	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	.	_	8	U	8:U	_
+18	,	,	PUNCT	,	_	8	U	8:U	_
+19	John	John	PROPN	NNP	_	8	C	8:C	_
+20	Howard	Howard	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Lawson	Lawson	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	8	U	8:U	_
+23	Albert	Albert	PROPN	NNP	_	8	C	8:C	_
+24	Maltz	Maltz	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	8	U	8:U	_
+26	Robert	Robert	PROPN	NNP	_	8	C	8:C	_
+27	Rossen	Rossen	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	8	U	8:U	_
+29	Dalton	Dalton	PROPN	NNP	_	8	C	8:C	_
+30	Trumbo	Trumbo	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	8	U	8:U	_
+32	Clifford	Clifford	PROPN	NNP	_	8	C	8:C	_
+33	Odets	Odets	PROPN	NNPS	_	32	Terminal	32:Terminal	_
+34	,	,	PUNCT	,	_	8	U	8:U	_
+35	and	and	CCONJ	CC	_	8	N	8:N	_
+36	Irwin	Irwin	PROPN	NNP	_	8	C	8:C	_
+37	Shaw	Shaw	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	.	_	8	U	8:U	_
+

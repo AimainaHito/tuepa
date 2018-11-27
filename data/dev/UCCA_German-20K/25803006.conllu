@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25803006
+# text = » Und wie ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Und	und	CCONJ	ADJD	_	3	R	3:R	_
+3	wie	wie	ADP	NE	_	0	H	0:H	_
+4	?	?	PUNCT	$.	_	3	U	3:U	_
+5	«	«	PUNCT	$(	_	3	U	3:U	_
+

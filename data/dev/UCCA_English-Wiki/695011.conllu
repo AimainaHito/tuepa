@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 695011
+# text = " Mr . Tambourine Man " quickly became one of Dylan 's best known songs when The Byrds recorded an electric version that reached number one in both the U . S . and the UK charts .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Mr	mr	PROPN	NNP	_	8	A	8:A	_
+3	.	.	PUNCT	.	_	2	U	2:U	_
+4	Tambourine	Tambourine	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	Man	man	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	"	"	PUNCT	''	_	8	U	8:U	_
+7	quickly	quickly	ADV	RB	_	8	D	8:D	_
+8	became	become	VERB	VBD	_	0	H	0:H	_
+9	one	one	NUM	CD	_	13	E	13:E	_
+10	of	of	ADP	IN	_	13	R	13:R	_
+11	Dylan	Dylan	PROPN	NNP	_	14	A	14:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	best	best	ADJ	JJS	_	14	D	14:D	_
+14	known	known	ADJ	JJ	_	8	A	8:A	_
+15	songs	song	NOUN	NNS	_	14	A	14:A	_
+16	when	when	ADV	WRB	_	8	L	8:L	_
+17	The	the	DET	DT	_	18	E	18:E	_
+18	Byrds	Byrds	PROPN	NNPS	_	19	A	19:A	_
+19	recorded	record	VERB	VBD	_	8	H	8:H	_
+20	an	a	DET	DT	_	22	E	22:E	_
+21	electric	electric	ADJ	JJ	_	22	E	22:E	_
+22	version	version	NOUN	NN	_	19	A	19:A	_
+23	that	that	PRON	WDT	_	24	R	24:R	_
+24	reached	reach	VERB	VBD	_	22	E	22:E	_
+25	number	number	NOUN	NN	_	24	A	24:A	_
+26	one	one	NUM	CD	_	25	E	25:E	_
+27	in	in	ADP	IN	_	37	R	37:R	_
+28	both	both	CCONJ	CC	_	30	N	30:N	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	U	u	PROPN	NNP	_	37	E	37:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+32	S	s	PROPN	NNPS	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+34	and	and	CCONJ	CC	_	30	N	30:N	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	UK	UK	PROPN	NNP	_	30	C	30:C	_
+37	charts	chart	NOUN	NNS	_	24	A	24:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 252005
+# text = " A contributor from the New York Post noted it was Hawke 's " best performance in years " . Hawke won an Obie Award for his role in Blood from a Stone .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	A	a	DET	DT	_	3	E	3:E	_
+3	contributor	contributor	NOUN	NN	_	9	A	9:A	_
+4	from	from	ADP	IN	_	5	R	5:R	_
+5	the	the	DET	DT	_	3	E	3:E	_
+6	New	New	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	York	York	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	Post	Post	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	noted	note	VERB	VBD	_	0	H	0:H	_
+10	it	it	PRON	PRP	_	11	A	11:A	_
+11	was	be	AUX	VBD	_	9	A	9:A	_
+12	Hawke	Hawke	PROPN	NNP	_	16	A	16:A	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	"	"	PUNCT	``	_	16	U	16:U	_
+15	best	best	ADJ	JJS	_	16	E	16:E	_
+16	performance	performance	NOUN	NN	_	11	A	11:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	years	year	NOUN	NNS	_	16	D	16:D	_
+19	"	"	PUNCT	''	_	9	U	9:U	_
+20	.	.	PUNCT	.	_	9	U	9:U	_
+21	Hawke	Hawke	PROPN	NNP	_	22	A	22:A	_
+22	won	win	VERB	VBD	_	9	H	9:H	_
+23	an	a	DET	DT	_	24	E	24:E	_
+24	Obie	Obie	PROPN	NNP	_	22	A	22:A	_
+25	Award	Award	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	for	for	ADP	IN	_	28	R	28:R	_
+27	his	he	PRON	PRP$	_	28	A	28:A	_
+28	role	role	NOUN	NN	_	24	E	24:E	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	Blood	Blood	PROPN	NNP	_	28	A	28:A	_
+31	from	from	ADP	IN	_	30	Terminal	30:Terminal	_
+32	a	a	DET	DT	_	30	Terminal	30:Terminal	_
+33	Stone	Stone	PROPN	NNP	_	30	Terminal	30:Terminal	_
+34	.	.	PUNCT	.	_	30	U	30:U	_
+

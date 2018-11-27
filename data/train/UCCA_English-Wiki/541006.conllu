@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 541006
+# text = The studio emerged relatively unscathed from the Wall Street Crash of 1929 and produced a broad range of films , including " backstage musicals , " " crusading biopics , " " swashbucklers , " and " women 's pictures .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	studio	studio	NOUN	NN	_	0	C	0:C|14:A	_
+3	emerged	emerge	VERB	VBD	_	5	D	5:D	_
+4	relatively	relatively	ADV	RB	_	5	D	5:D	_
+5	unscathed	unscath	ADJ	JJ	_	0	H	0:H	_
+6	from	from	ADP	IN	_	5	L	5:L	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Wall	Wall	PROPN	NNP	_	10	A	10:A	_
+9	Street	Street	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Crash	crash	PROPN	NNP	_	5	H	5:H	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	1929	1929	NUM	CD	_	10	D	10:D	_
+13	and	and	CCONJ	CC	_	5	L	5:L	_
+14	produced	produce	VERB	VBD	_	5	H	5:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	broad	broad	ADJ	JJ	_	17	E	17:E	_
+17	range	range	NOUN	NN	_	19	E	19:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	films	film	NOUN	NNS	_	14	A	14:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	including	include	VERB	VBG	_	23	R	23:R	_
+22	"	"	PUNCT	``	_	23	U	23:U	_
+23	backstage	backstage	NOUN	NN	_	19	E	19:E	_
+24	musicals	musical	NOUN	NNS	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	23	U	23:U	_
+26	"	"	PUNCT	''	_	23	U	23:U	_
+27	"	"	PUNCT	``	_	23	U	23:U	_
+28	crusading	crusading	VERB	VBG	_	23	C	23:C	_
+29	biopics	biopic	NOUN	NNS	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	23	U	23:U	_
+31	"	"	PUNCT	''	_	23	U	23:U	_
+32	"	"	PUNCT	``	_	23	U	23:U	_
+33	swashbucklers	swashbuckler	NOUN	NNS	_	23	C	23:C	_
+34	,	,	PUNCT	,	_	23	U	23:U	_
+35	"	"	PUNCT	''	_	23	U	23:U	_
+36	and	and	CCONJ	CC	_	23	N	23:N	_
+37	"	"	PUNCT	``	_	23	U	23:U	_
+38	women	woman	NOUN	NNS	_	23	C	23:C	_
+39	's	's	PART	POS	_	38	Terminal	38:Terminal	_
+40	pictures	picture	NOUN	NNS	_	38	Terminal	38:Terminal	_
+41	.	.	PUNCT	.	_	23	U	23:U	_
+

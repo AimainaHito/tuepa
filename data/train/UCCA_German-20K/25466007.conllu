@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25466007
+# text = Die Fregatte befand sich damals unterm 31 ° 15ʹ nördl . Breite und 136 ° 42ʹ östl Länge .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fregatte	Fregatte	NOUN	NN	_	3	A	3:A	_
+3	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	damals	damals	ADV	ADV	_	3	D	3:D	_
+6	unterm	unterm	ADV	NN	_	7	R	7:R	_
+7	31	31	NUM	CARD	_	3	A	3:A	_
+8	°	°	NOUN	ADJD	_	7	U	7:U	_
+9	15ʹ	15ʹ	NOUN	NE	_	7	Terminal	7:Terminal	_
+10	nördl	nördl	X	NE	_	7	Terminal	7:Terminal	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+12	Breite	Breite	NOUN	ADJA	_	7	Terminal	7:Terminal	_
+13	und	und	CCONJ	NE	_	7	N	7:N	_
+14	136	136	NUM	CARD	_	7	C	7:C	_
+15	°	°	NOUN	ADJD	_	14	U	14:U	_
+16	42ʹ	42ʹ	NOUN	NE	_	14	Terminal	14:Terminal	_
+17	östl	östl	ADJ	NE	_	14	Terminal	14:Terminal	_
+18	Länge	Länge	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	.	.	PUNCT	$.	_	7	U	7:U	_
+

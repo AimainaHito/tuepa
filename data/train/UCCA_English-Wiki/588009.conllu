@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 588009
+# text = His swashbuckling sword talents , as developed for the character of Sparrow , were highlighted in the documentary film Reclaiming the Blade .
+1	His	he	PRON	PRP$	_	4	E	4:E	_
+2	swashbuckling	swashbuckl	VERB	VBG	_	4	E	4:E	_
+3	sword	sword	NOUN	NN	_	4	E	4:E	_
+4	talents	talent	NOUN	NNS	_	15	A	15:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	as	as	SCONJ	IN	_	7	R	7:R	_
+7	developed	develop	VERB	VBN	_	4	E	4:E	_
+8	for	for	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	character	character	NOUN	NN	_	12	E	12:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	Sparrow	Sparrow	PROPN	NNP	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	15	U	15:U	_
+14	were	be	AUX	VBD	_	15	F	15:F	_
+15	highlighted	highlight	VERB	VBN	_	0	H	0:H	_
+16	in	in	ADP	IN	_	20	R	20:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	documentary	documentary	NOUN	NN	_	19	E	19:E	_
+19	film	film	NOUN	NN	_	20	E	20:E	_
+20	Reclaiming	Reclaim	VERB	VBG	_	15	A	15:A	_
+21	the	the	DET	DT	_	20	Terminal	20:Terminal	_
+22	Blade	blade	NOUN	NN	_	20	Terminal	20:Terminal	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

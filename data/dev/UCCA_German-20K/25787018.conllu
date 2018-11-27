@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25787018
+# text = Ich machte das Buch zu und setzte meinen Spaziergang fort .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|7:A	_
+2	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Buch	Buch	NOUN	NN	_	2	A	2:A	_
+5	zu	zu	ADP	VVINF	_	2	Terminal	2:Terminal	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	setzte	setzen	VERB	VVFIN	_	2	H	2:H	_
+8	meinen	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Spaziergang	Spaziergang	NOUN	NN	_	7	A	7:A	_
+10	fort	fort	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+

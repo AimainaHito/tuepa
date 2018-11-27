@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25425001
+# text = Es ist ein Hauptzahn von der Härte des Stahles .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Hauptzahn	Hauptzahn	NOUN	NN	_	7	A	7:A	_
+5	von	von	ADP	NE	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Härte	Härte	NOUN	NN	_	2	A	2:A	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Stahles	Stahl	NOUN	NE	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

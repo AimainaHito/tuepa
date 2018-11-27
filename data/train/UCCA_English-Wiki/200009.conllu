@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 200009
+# text = In May 2012 , it was announced that Sorkin would be writing an upcoming movie based on the life of Steve Jobs .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	May	May	PROPN	NNP	_	3	E	3:E	_
+3	2012	2012	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	it	it	PRON	PRP	_	7	F	7:F	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	announced	announce	VERB	VBN	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	12	F	12:F	_
+9	Sorkin	Sorkin	PROPN	NNP	_	12	A	12:A	_
+10	would	would	AUX	MD	_	12	F	12:F	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	writing	write	VERB	VBG	_	7	A	7:A	_
+13	an	a	DET	DT	_	15	E	15:E	_
+14	upcoming	upcoming	ADJ	JJ	_	15	E	15:E	_
+15	movie	movie	NOUN	NN	_	12	A	12:A	_
+16	based	base	VERB	VBN	_	15	E	15:E	_
+17	on	on	ADP	IN	_	21	R	21:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	life	life	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	Steve	Steve	PROPN	NNP	_	16	A	16:A	_
+22	Jobs	Jobs	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

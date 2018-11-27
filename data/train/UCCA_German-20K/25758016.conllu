@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25758016
+# text = » Weshalb denn « , erwiderte Kapitän Nemo , » jagen , nur um zu vernichten ? Wir brauchen an Bord keinen Tran . «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Weshalb	weshalb	PROPN	ADJA	_	11	A	11:A	_
+3	denn	denn	PROPN	KOKOM	_	11	F	11:F	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	jagen	jagen	VERB	VVFIN	_	6	A	6:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	nur	nur	ADV	NE	_	16	D	16:D	_
+14	um	um	ADP	APPR	_	16	R	16:R	_
+15	zu	zu	PART	NE	_	16	F	16:F	_
+16	vernichten	vernichten	VERB	VVINF	_	11	H	11:H	_
+17	?	?	PUNCT	$.	_	11	U	11:U	_
+18	Wir	wir	PRON	NE	_	19	A	19:A	_
+19	brauchen	brauchen	VERB	VVFIN	_	11	H	11:H	_
+20	an	an	ADP	APPR	_	21	R	21:R	_
+21	Bord	Bord	NOUN	NN	_	19	A	19:A	_
+22	keinen	kein	PRON	PIAT	_	19	D	19:D	_
+23	Tran	tran	NOUN	PTKVZ	_	19	A	19:A	_
+24	.	.	PUNCT	$.	_	19	U	19:U	_
+25	«	«	PUNCT	$(	_	19	U	19:U	_
+

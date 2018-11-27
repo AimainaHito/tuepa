@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 456009
+# text = Jennings moderated the final debate among the Democratic presidential candidates in March , and anchored Peter Jennings Reporting : Who Is Ross Perot ?
+1	Jennings	Jenning	NOUN	NNS	_	2	A	2:A|15:A	_
+2	moderated	moderate	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	final	final	ADJ	JJ	_	5	E	5:E	_
+5	debate	debate	NOUN	NN	_	2	A	2:A	_
+6	among	among	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	Democratic	Democratic	ADJ	JJ	_	10	E	10:E	_
+9	presidential	presidential	ADJ	JJ	_	10	E	10:E	_
+10	candidates	candidate	NOUN	NNS	_	5	E	5:E	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	March	March	PROPN	NNP	_	2	D	2:D	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	anchored	anchor	VERB	VBD	_	2	H	2:H	_
+16	Peter	Peter	PROPN	NNP	_	15	A	15:A	_
+17	Jennings	Jennings	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	Reporting	report	VERB	VBG	_	16	Terminal	16:Terminal	_
+19	:	:	PUNCT	:	_	16	U	16:U	_
+20	Who	who	PRON	WP	_	16	Terminal	16:Terminal	_
+21	Is	be	AUX	VBZ	_	16	Terminal	16:Terminal	_
+22	Ross	Ross	PROPN	NNP	_	16	Terminal	16:Terminal	_
+23	Perot	Perot	PROPN	NNP	_	16	Terminal	16:Terminal	_
+24	?	?	PUNCT	.	_	15	U	15:U	_
+

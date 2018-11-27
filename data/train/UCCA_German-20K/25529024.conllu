@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25529024
+# text = Zwischen ihnen schwammen Rochen , und darunter bemerkte ich sehr erfreut den chinesischen Rochen , oben gelblich , unten am Bauch zart rosa und hinter dem Auge mit drei Stacheln .
+1	Zwischen	zwischen	ADP	NN	_	2	R	2:R	_
+2	ihnen	sie	PRON	PPER	_	3	A	3:A	_
+3	schwammen	schwammen	ADJ	VVINF	_	0	H	0:H	_
+4	Rochen	Rochen	NOUN	NE	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	darunter	darunter	ADV	PAV	_	8	A	8:A	_
+8	bemerkte	bemerken	VERB	VVFIN	_	3	H	3:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A|11:A	_
+10	sehr	sehr	ADV	NE	_	11	D	11:D	_
+11	erfreut	erfreut	ADJ	VVFIN	_	3	H	3:H	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	chinesischen	chinesisch	ADJ	ADJA	_	14	E	14:E	_
+14	Rochen	Rochen	NOUN	NE	_	8	A	8:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	oben	oben	ADV	NN	_	17	A	17:A	_
+17	gelblich	gelblich	ADJ	ADJD	_	14	E	14:E	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	unten	unten	ADV	ADJA	_	21	R	21:R	_
+20	am	am	ADJ	ADJD	_	21	E	21:E	_
+21	Bauch	Bauch	NOUN	NN	_	23	A	23:A	_
+22	zart	zart	ADV	NN	_	23	D	23:D	_
+23	rosa	rosa	ADJ	NE	_	17	C	17:C	_
+24	und	und	CCONJ	NE	_	17	N	17:N	_
+25	hinter	hinter	ADP	APPR	_	27	R	27:R	_
+26	dem	der	DET	ART	_	27	E	27:E	_
+27	Auge	Auge	NOUN	NN	_	17	C	17:C	_
+28	mit	mit	ADP	APPR	_	30	R	30:R	_
+29	drei	drei	NUM	CARD	_	30	E	30:E	_
+30	Stacheln	Stachel|Stacheln	NOUN	NN	_	27	A	27:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

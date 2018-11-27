@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25608005
+# text = Ihre Gewässer lieferten den Tafeln an Bord köstliche Fische , Makrelen , Bonite und Varietäten einer Meer schlange , Munerophis genannt .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	2	E	2:E	_
+2	Gewässer	Gewässer	NOUN	NN	_	3	A	3:A	_
+3	lieferten	liefern	VERB	VVFIN	_	0	H	0:H	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Tafeln	Tafel	NOUN	NN	_	3	A	3:A	_
+6	an	an	ADP	APPR	_	7	R	7:R	_
+7	Bord	Bord	NOUN	NN	_	5	E	5:E	_
+8	köstliche	köstlich	ADJ	ADJA	_	9	E	9:E	_
+9	Fische	Fisch	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	Makrelen	Makrele	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	Bonite	Bonite	NOUN	NE	_	11	C	11:C	_
+14	und	und	CCONJ	NE	_	11	N	11:N	_
+15	Varietäten	Varietät	NOUN	NN	_	18	E	18:E	_
+16	einer	ein	DET	ART	_	18	R	18:R	_
+17	Meer	Meer	NOUN	ADJA	_	18	E	18:E	_
+18	schlange	schlang	ADJ	FM	_	11	C	11:C	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	Munerophis	Munerophis	NOUN	FM	_	21	A	21:A	_
+21	genannt	nennen	VERB	VVPP	_	18	E	18:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25612000
+# text = Dumont d'Urville , etwas verlegen , da er nicht wusste , ob den wenig zuverlässigen Zeitungs berichten Glauben bei zu messen sei , entschloß sich , Dillons Spur zu folgen .
+1	Dumont	Dumont	PROPN	NE	_	24	A	24:A	_
+2	d'Urville	d'Urville	PROPN	NE	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	$,	_	24	U	24:U	_
+4	etwas	etwas	PRON	PIS	_	5	E	5:E	_
+5	verlegen	verlegen	VERB	VVINF	_	24	D	24:D	_
+6	,	,	PUNCT	$,	_	24	U	24:U	_
+7	da	da	SCONJ	KOUS	_	24	L	24:L	_
+8	er	er	PRON	PPER	_	10	A	10:A	_
+9	nicht	nicht	PART	XY	_	10	D	10:D	_
+10	wusste	wissen	VERB	VVFIN	_	24	H	24:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	ob	ob	SCONJ	VVFIN	_	19	R	19:R	_
+13	den	der	DET	ART	_	17	E	17:E	_
+14	wenig	wenig	ADV	NN	_	17	E	17:E	_
+15	zuverlässigen	zuverlässigen	ADJ	ADJA	_	17	E	17:E	_
+16	Zeitungs	Zeitung	NOUN	TRUNC	_	17	E	17:E	_
+17	berichten	bericht	ADJ	ADJA	_	19	A	19:A	_
+18	Glauben	Glaube	NOUN	NN	_	19	A	19:A	_
+19	bei	bei	ADP	APPR	_	10	A	10:A	_
+20	zu	zu	PART	NE	_	19	F	19:F	_
+21	messen	messen	VERB	VVINF	_	19	Terminal	19:Terminal	_
+22	sei	sein	AUX	NE	_	19	D	19:D	_
+23	,	,	PUNCT	$,	_	24	U	24:U	_
+24	entschloß	entschloß	ADV	VVFIN	_	0	H	0:H	_
+25	sich	er|es|sie	PRON	PRF	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	$,	_	24	U	24:U	_
+27	Dillons	Dillons	PROPN	NE	_	28	E	28:E	_
+28	Spur	Spur	PROPN	NE	_	30	A	30:A	_
+29	zu	zu	PART	NE	_	30	F	30:F	_
+30	folgen	folgen	VERB	VVINF	_	24	A	24:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

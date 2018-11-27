@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 469007
+# text = After a triple - double from Johnson in Game 6 , the Lakers defeated the Sixers 4 - 2 , as Johnson won his second NBA Finals MVP award .
+1	After	after	ADP	IN	_	3	L	3:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	triple	triple	NOUN	NN	_	0	H	0:H	_
+4	-	-	PUNCT	HYPH	_	3	U	3:U	_
+5	double	double	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Johnson	Johnson	PROPN	NNP	_	3	A	3:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Game	game	NOUN	NN	_	3	A	3:A	_
+10	6	6	NUM	CD	_	9	E	9:E	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	Lakers	Laker	NOUN	NNS	_	14	A	14:A	_
+14	defeated	defeate	VERB	VBD	_	3	H	3:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Sixers	Sixers	NOUN	NNS	_	14	A	14:A	_
+17	4	4	NUM	CD	_	14	A	14:A	_
+18	-	-	SYM	SYM	_	17	U	17:U	_
+19	2	2	NUM	CD	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	,	_	3	U	3:U	_
+21	as	as	SCONJ	IN	_	3	L	3:L	_
+22	Johnson	Johnson	PROPN	NNP	_	23	A	23:A	_
+23	won	win	VERB	VBD	_	3	H	3:H	_
+24	his	he	PRON	PRP$	_	25	E	25:E	_
+25	second	second	ADJ	JJ	_	29	E	29:E	_
+26	NBA	NBA	PROPN	NNP	_	29	E	29:E	_
+27	Finals	Finals	PROPN	NNPS	_	29	E	29:E	_
+28	MVP	MVP	PROPN	NNP	_	29	E	29:E	_
+29	award	award	NOUN	NN	_	23	A	23:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

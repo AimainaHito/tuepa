@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 530011
+# text = She initially felt " greatly relieved " at the diagnosis .
+1	She	she	PRON	PRP	_	6	A	6:A	_
+2	initially	initially	ADV	RB	_	6	D	6:D	_
+3	felt	feel	VERB	VBD	_	6	G	6:G	_
+4	"	"	PUNCT	``	_	6	U	6:U	_
+5	greatly	greatly	ADV	RB	_	6	D	6:D	_
+6	relieved	relieve	ADJ	JJ	_	0	H	0:H	_
+7	"	"	PUNCT	''	_	6	U	6:U	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	diagnosis	diagnosis	NOUN	NN	_	6	A	6:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 673019
+# text = The tour ended on September 26 , 2010 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	tour	tour	NOUN	NN	_	3	A	3:A	_
+3	ended	end	VERB	VBD	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	September	September	PROPN	NNP	_	3	D	3:D	_
+6	26	26	NUM	CD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	2010	2010	NUM	CD	_	5	Terminal	5:Terminal	_
+9	.	.	PUNCT	.	_	5	U	5:U	_
+

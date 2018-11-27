@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25803004
+# text = » Jawohl , Lieber « , erwiderte ich , » ein Zitterfisch hat dich in den jämmerlichen Zustand versetzt . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Jawohl	Jawohl	PROPN	KOUS	_	7	A	7:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Lieber	Lieber	PROPN	NN	_	2	G	2:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Zitterfisch	Zitterfisch	NOUN	NN	_	19	A	19:A	_
+13	hat	haben	AUX	VAFIN	_	19	F	19:F	_
+14	dich	du	PRON	PRF	_	19	A	19:A	_
+15	in	in	ADP	APPR	_	18	R	18:R	_
+16	den	der	DET	ART	_	18	E	18:E	_
+17	jämmerlichen	jämmerlich	ADJ	ADJA	_	18	E	18:E	_
+18	Zustand	Zustand	NOUN	NN	_	19	A	19:A	_
+19	versetzt	versetzen	VERB	VVPP	_	2	H	2:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

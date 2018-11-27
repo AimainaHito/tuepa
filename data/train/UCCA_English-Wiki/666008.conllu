@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 666008
+# text = They felt Rainbow did n't have any strong single to be released , whereas Carey wanted a ballad regarding personal and inner strength released .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	felt	feel	VERB	VBD	_	0	H	0:H	_
+3	Rainbow	rainbow	PROPN	NNP	_	12	A	12:A	_
+4	did	do	AUX	VBD	_	12	F	12:F	_
+5	n't	not	PART	RB	_	12	D	12:D	_
+6	have	have	VERB	VB	_	12	F	12:F	_
+7	any	any	DET	DT	_	9	E	9:E	_
+8	strong	strong	ADJ	JJ	_	9	E	9:E	_
+9	single	single	ADJ	JJ	_	12	A	12:A	_
+10	to	to	PART	TO	_	12	F	12:F	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	released	release	VERB	VBN	_	2	A	2:A	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	whereas	whereas	SCONJ	IN	_	2	L	2:L	_
+15	Carey	Carey	PROPN	NNP	_	24	A	24:A	_
+16	wanted	want	VERB	VBD	_	24	D	24:D	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	ballad	ballad	NOUN	NN	_	24	A	24:A	_
+19	regarding	regard	VERB	VBG	_	23	R	23:R	_
+20	personal	personal	ADJ	JJ	_	23	E	23:E	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	inner	inner	ADJ	JJ	_	20	C	20:C	_
+23	strength	strength	NOUN	NN	_	18	E	18:E	_
+24	released	release	VERB	VBN	_	2	H	2:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

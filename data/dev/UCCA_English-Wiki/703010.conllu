@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 703010
+# text = After visiting Carter in jail , Dylan wrote " Hurricane " , presenting the case for Carter 's innocence .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	visiting	visit	VERB	VBG	_	0	H	0:H	_
+3	Carter	Carter	PROPN	NNP	_	2	A	2:A	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	jail	jail	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	Dylan	Dylan	PROPN	NNP	_	8	A	8:A|13:A|2:A	_
+8	wrote	write	VERB	VBD	_	2	H	2:H	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	Hurricane	Hurricane	PROPN	NNP	_	8	A	8:A	_
+11	"	"	PUNCT	''	_	2	U	2:U	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	presenting	present	VERB	VBG	_	2	H	2:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	case	case	NOUN	NN	_	13	A	13:A	_
+16	for	for	ADP	IN	_	19	R	19:R	_
+17	Carter	Carter	PROPN	NNP	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	innocence	innocence	NOUN	NN	_	15	E	15:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

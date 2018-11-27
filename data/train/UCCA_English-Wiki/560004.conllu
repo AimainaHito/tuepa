@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 560004
+# text = There were occasions in some towns in Texas when we 'd have to be sure to have a police guard because somebody ' dalwaysso always try to take a crack at him .
+1	There	there	PRON	EX	_	3	F	3:F	_
+2	were	be	VERB	VBD	_	3	F	3:F	_
+3	occasions	occasion	NOUN	NNS	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	some	some	DET	DT	_	6	E	6:E	_
+6	towns	town	NOUN	NNS	_	3	A	3:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Texas	Texas	PROPN	NNP	_	6	E	6:E	_
+9	when	when	ADV	WRB	_	3	L	3:L	_
+10	we	we	PRON	PRP	_	15	A	15:A|17:A	_
+11	'd	would	AUX	MD	_	15	F	15:F	_
+12	have	have	VERB	VB	_	15	F	15:F	_
+13	to	to	PART	TO	_	15	F	15:F	_
+14	be	be	AUX	VB	_	15	D	15:D	_
+15	sure	sure	ADJ	JJ	_	3	H	3:H	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	have	have	VERB	VB	_	15	A	15:A	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	police	police	NOUN	NN	_	20	E	20:E	_
+20	guard	guard	NOUN	NN	_	17	A	17:A	_
+21	because	because	SCONJ	IN	_	3	L	3:L	_
+22	somebody	somebody	PRON	NN	_	28	A	28:A	_
+23	'	'	PART	POS	_	28	U	28:U	_
+24	dalwaysso	dalwaysso	NOUN	NN	_	28	F	28:F	_
+25	always	always	ADV	RB	_	28	D	28:D	_
+26	try	try	VERB	VB	_	28	D	28:D	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	take	take	VERB	VB	_	3	H	3:H	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	crack	crack	NOUN	NN	_	28	E	28:E	_
+31	at	at	ADP	IN	_	32	R	32:R	_
+32	him	he	PRON	PRP	_	28	A	28:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

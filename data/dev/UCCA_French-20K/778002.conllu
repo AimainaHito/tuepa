@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 778002
+# text = Comme il plaira à monsieur . »
+1	Comme	comme	SCONJ	_	_	3	D	3:D	_
+2	il	il	PRON	_	_	3	F	3:F	_
+3	plaira	plaire	VERB	_	_	0	H	0:H	_
+4	à	à	ADP	_	_	5	R	5:R	_
+5	monsieur	Monsieur	NOUN	_	_	3	A	3:A	_
+6	.	.	PUNCT	_	_	5	U	5:U	_
+7	»	»	PUNCT	_	_	5	U	5:U	_
+

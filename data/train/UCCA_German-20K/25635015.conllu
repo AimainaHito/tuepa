@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25635015
+# text = » Doch sind 's Menschen fresser , guter Junge . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Doch	doch	CCONJ	ADV	_	6	L	6:L	_
+3	sind	sein	AUX	NN	_	6	F	6:F	_
+4	's	es	PRON	ART	_	6	A	6:A	_
+5	Menschen	Mensch	NOUN	NN	_	6	A	6:A	_
+6	fresser	fresser	ADJ	NN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	guter	gut	ADJ	ADJA	_	9	E	9:E	_
+9	Junge	Junge	NOUN	NN	_	6	G	6:G	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

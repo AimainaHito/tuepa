@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 127000
+# text = Hepburn 's second film was Christopher Strong ( 1933 ) , the story of an aviatrix and her affair with a married man .
+1	Hepburn	Hepburn	VERB	VB	_	4	E	4:E	_
+2	's	's	PRON	PRP	_	1	R	1:R	_
+3	second	second	ADJ	JJ	_	4	E	4:E	_
+4	film	film	NOUN	NN	_	5	A	5:A	_
+5	was	be	AUX	VBD	_	0	H	0:H	_
+6	Christopher	Christopher	PROPN	NNP	_	5	A	5:A	_
+7	Strong	strong	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+9	1933	1933	NUM	CD	_	6	E	6:E	_
+10	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	story	story	NOUN	NN	_	6	E	6:E	_
+14	of	of	ADP	IN	_	16	R	16:R	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	aviatrix	aviatrix	NOUN	NN	_	13	E	13:E	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	her	she	PRON	PRP$	_	19	E	19:E	_
+19	affair	affair	NOUN	NN	_	16	C	16:C	_
+20	with	with	ADP	IN	_	23	R	23:R	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	married	married	ADJ	JJ	_	23	E	23:E	_
+23	man	man	NOUN	NN	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

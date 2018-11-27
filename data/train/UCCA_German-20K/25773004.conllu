@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25773004
+# text = Diese letzteren sind so ölhaltig , dass die Bewohner der Färoer - Inseln sie nur mit einem Docht versehen , um sie als Lampe zu gebrauchen .
+1	Diese	dies	PRON	PDS	_	2	E	2:E	_
+2	letzteren	letzt	NOUN	VVFIN	_	5	A	5:A	_
+3	sind	sein	AUX	NN	_	5	F	5:F	_
+4	so	so	ADV	ADV	_	5	D	5:D	_
+5	ölhaltig	ölhaltig	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Bewohner	Bewohner	NOUN	NN	_	19	A	19:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Färoer	Färoer	PROPN	ADJA	_	9	E	9:E	_
+12	-	-	PUNCT	$(	_	11	U	11:U	_
+13	Inseln	Insel	NOUN	NN	_	11	E	11:E	_
+14	sie	sie	PRON	ADV	_	19	A	19:A	_
+15	nur	nur	ADV	NE	_	19	D	19:D	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	einem	ein	DET	ART	_	18	E	18:E	_
+18	Docht	Docht	NOUN	NN	_	19	A	19:A	_
+19	versehen	versehen	VERB	VVPP	_	5	A	5:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	um	um	ADP	KOUI	_	19	L	19:L	_
+22	sie	sie	PRON	ADV	_	26	A	26:A	_
+23	als	als	ADP	KOKOM	_	24	R	24:R	_
+24	Lampe	Lampe	NOUN	NN	_	26	A	26:A	_
+25	zu	zu	PART	NN	_	26	F	26:F	_
+26	gebrauchen	gebrauchen	VERB	ADJA	_	19	H	19:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

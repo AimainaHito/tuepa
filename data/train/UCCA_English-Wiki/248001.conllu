@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 248001
+# text = He made his directorial feature debut with Chelsea Walls ( 2002 ) , an independent drama about five struggling artists living in the famed Chelsea Hotel in New York City .
+1	He	he	PRON	PRP	_	6	A	6:A	_
+2	made	make	VERB	VBD	_	6	F	6:F	_
+3	his	he	PRON	PRP$	_	5	A	5:A	_
+4	directorial	directorial	ADJ	JJ	_	5	E	5:E	_
+5	feature	feature	NOUN	NN	_	6	A	6:A	_
+6	debut	debut	NOUN	NN	_	0	H	0:H	_
+7	with	with	ADP	IN	_	8	R	8:R	_
+8	Chelsea	Chelsea	PROPN	NNP	_	6	A	6:A	_
+9	Walls	walls	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+11	2002	2002	NUM	CD	_	8	E	8:E	_
+12	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	independent	independent	ADJ	JJ	_	16	E	16:E	_
+16	drama	drama	NOUN	NN	_	8	E	8:E	_
+17	about	about	ADP	IN	_	21	R	21:R	_
+18	five	five	NUM	CD	_	20	E	20:E	_
+19	struggling	struggling	NOUN	NN	_	20	E	20:E	_
+20	artists	artist	NOUN	NNS	_	21	A	21:A	_
+21	living	live	VERB	VBG	_	16	E	16:E	_
+22	in	in	ADP	IN	_	26	R	26:R	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	famed	fam	ADJ	JJ	_	26	E	26:E	_
+25	Chelsea	Chelsea	PROPN	NNP	_	26	E	26:E	_
+26	Hotel	Hotel	PROPN	NNP	_	21	A	21:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	New	New	PROPN	NNP	_	21	A	21:A	_
+29	York	York	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	City	City	PROPN	NNP	_	28	Terminal	28:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

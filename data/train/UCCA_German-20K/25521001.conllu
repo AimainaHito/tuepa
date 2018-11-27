@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25521001
+# text = Der vom Wasser bedeckte Teil der Erd oberfläche wird auf 3 Millionen 132.558 Quadratmyriameter , d.h . über 38 Millionen Hektar * angeschlagen .
+1	Der	der	DET	ART	_	5	E	5:E	_
+2	vom	vom	ADP	NN	_	3	R	3:R	_
+3	Wasser	Wasser	NOUN	NN	_	4	A	4:A	_
+4	bedeckte	bedecken	ADJ	VVFIN	_	5	E	5:E	_
+5	Teil	Teil	NOUN	NN	_	23	A	23:A	_
+6	der	der	DET	ART	_	8	R	8:R	_
+7	Erd	erd	NOUN	NN	_	8	E	8:E	_
+8	oberfläche	oberflechen	VERB	VVFIN	_	5	E	5:E	_
+9	wird	werden	AUX	VAFIN	_	23	F	23:F	_
+10	auf	auf	ADP	APPR	_	14	R	14:R	_
+11	3	3	NUM	CARD	_	14	E	14:E	_
+12	Millionen	Million	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	132.558	132.558	NUM	CARD	_	11	Terminal	11:Terminal	_
+14	Quadratmyriameter	Quadratmyriameter	NOUN	NN	_	23	A	23:A	_
+15	,	,	PUNCT	$,	_	23	U	23:U	_
+16	d.h	d.h	CCONJ	ADJD	_	23	F	23:F	_
+17	.	.	PUNCT	$.	_	23	U	23:U	_
+18	über	über	ADP	ADJD	_	21	R	21:R	_
+19	38	38	NUM	CARD	_	21	E	21:E	_
+20	Millionen	Million	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	Hektar	Hektar	NOUN	NN	_	23	A	23:A	_
+22	*	*	X	$(	_	23	U	23:U	_
+23	angeschlagen	angeschlagen	VERB	VVINF	_	0	H	0:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

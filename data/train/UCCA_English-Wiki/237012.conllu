@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 237012
+# text = He also owns the Jinricksha Station in Singapore .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	owns	own	VERB	VBZ	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Jinricksha	Jinricksha	PROPN	NNP	_	3	A	3:A	_
+6	Station	Station	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Singapore	Singapore	PROPN	NNP	_	5	E	5:E	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25597009
+# text = Dieser neue , sehr steile und folglich mühevolle Weg brachte uns rasch in die Nähe der Meeres oberfläche .
+1	Dieser	dies	PRON	PDS	_	9	E	9:E	_
+2	neue	neu	ADJ	ADJA	_	9	E	9:E	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	sehr	sehr	ADV	NE	_	5	E	5:E	_
+5	steile	steilen	ADJ	NN	_	2	C	2:C	_
+6	und	und	CCONJ	NE	_	2	N	2:N	_
+7	folglich	folglich	ADJ	ADJD	_	8	E	8:E	_
+8	mühevolle	mühevoll	ADJ	ADJA	_	2	C	2:C	_
+9	Weg	Weg	NOUN	NN	_	10	A	10:A	_
+10	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+11	uns	wir	PRON	NN	_	10	A	10:A	_
+12	rasch	rasch	ADJ	ADJD	_	10	D	10:D	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Nähe	Nähe	NOUN	NN	_	18	E	18:E	_
+16	der	der	DET	ART	_	15	R	15:R	_
+17	Meeres	Meer	NOUN	NN	_	18	E	18:E	_
+18	oberfläche	oberfläch	ADJ	VVFIN	_	10	A	10:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

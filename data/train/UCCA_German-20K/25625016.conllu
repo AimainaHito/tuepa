@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25625016
+# text = » In der Tat « , sagte ich , » Ned hatte uns Koteletts versprochen , die mir jetzt in Zweifel gestellt scheinen . «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	In	in	ADP	APPR	_	15	G	15:G	_
+3	der	der	DET	ART	_	2	Terminal	2:Terminal	_
+4	Tat	Tat	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	Ned	Ned	PROPN	NE	_	15	A	15:A	_
+12	hatte	haben	VERB	VAFIN	_	15	F	15:F	_
+13	uns	wir	PRON	NN	_	15	A	15:A	_
+14	Koteletts	Kotelett	NOUN	NN	_	15	A	15:A	_
+15	versprochen	versprechen	VERB	VVPP	_	7	A	7:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	20	R	20:R	_
+18	mir	ich	PRON	PPER	_	20	A	20:A	_
+19	jetzt	jetzt	ADV	ADV	_	20	D	20:D	_
+20	in	in	ADP	APPR	_	14	E	14:E	_
+21	Zweifel	Zweifel	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	gestellt	stellen	VERB	VVPP	_	20	Terminal	20:Terminal	_
+23	scheinen	scheinen	VERB	VVFIN	_	20	G	20:G	_
+24	.	.	PUNCT	$.	_	20	U	20:U	_
+25	«	«	PUNCT	$(	_	20	U	20:U	_
+

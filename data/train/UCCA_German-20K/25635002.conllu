@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25635002
+# text = Ich hätte diesen Mann , der ganz nah herankam , leicht erlegen können ; aber ich hielt für besser , wirkliche Feindseligkeiten ab zu warten .
+1	Ich	ich	PRON	PPER	_	12	A	12:A	_
+2	hätte	haben	AUX	VAFIN	_	12	F	12:F	_
+3	diesen	dies	PRON	PDAT	_	4	E	4:E	_
+4	Mann	Mann	NOUN	NN	_	12	A	12:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	der	der	PRON	PRELS	_	9	R	9:R	_
+7	ganz	ganz	ADV	ADV	_	8	E	8:E	_
+8	nah	nah	ADJ	ADJD	_	9	D	9:D	_
+9	herankam	herankommen	VERB	VVFIN	_	4	E	4:E	_
+10	,	,	PUNCT	$,	_	12	U	12:U	_
+11	leicht	leicht	ADJ	ADJD	_	12	D	12:D	_
+12	erlegen	erlegen	VERB	VVINF	_	0	H	0:H	_
+13	können	können	AUX	VMFIN	_	12	D	12:D	_
+14	;	;	PUNCT	$.	_	12	U	12:U	_
+15	aber	aber	CCONJ	KON	_	12	L	12:L	_
+16	ich	ich	PRON	PPER	_	17	A	17:A|23:A	_
+17	hielt	halten	VERB	VVFIN	_	12	H	12:H	_
+18	für	für	ADP	APPR	_	17	Terminal	17:Terminal	_
+19	besser	gut	ADJ	ADJD	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	$,	_	17	U	17:U	_
+21	wirkliche	wirklich	ADJ	ADJA	_	22	E	22:E	_
+22	Feindseligkeiten	Feindseligkeit	NOUN	NN	_	23	A	23:A	_
+23	ab	ab	ADP	PTKVZ	_	17	A	17:A	_
+24	zu	zu	PART	NE	_	23	F	23:F	_
+25	warten	warten	VERB	VVINF	_	23	Terminal	23:Terminal	_
+26	.	.	PUNCT	$.	_	23	U	23:U	_
+

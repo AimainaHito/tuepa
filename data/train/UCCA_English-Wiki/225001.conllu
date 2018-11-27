@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 225001
+# text = He was instrumental in launching Chan 's international career , beginning with his first forays into the American film industry in the 1980s .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	instrumental	instrumental	ADJ	JJ	_	0	H	0:H	_
+4	in	in	SCONJ	IN	_	5	R	5:R	_
+5	launching	launch	VERB	VBG	_	3	A	3:A	_
+6	Chan	Chan	PROPN	NNP	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	international	international	ADJ	JJ	_	9	E	9:E	_
+9	career	career	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	beginning	begin	VERB	VBG	_	3	L	3:L	_
+12	with	with	ADP	IN	_	11	R	11:R	_
+13	his	he	PRON	PRP$	_	15	A	15:A	_
+14	first	first	ADJ	JJ	_	15	D	15:D	_
+15	forays	foray	NOUN	NNS	_	3	H	3:H	_
+16	into	into	ADP	IN	_	20	R	20:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	American	american	ADJ	JJ	_	20	E	20:E	_
+19	film	film	NOUN	NN	_	20	R	20:R	_
+20	industry	industry	NOUN	NN	_	15	A	15:A	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	1980s	1980	NOUN	NNS	_	15	D	15:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

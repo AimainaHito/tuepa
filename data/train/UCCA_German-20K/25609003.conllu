@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25609003
+# text = Am 25 . Dezember schiffte die " Nautilus " mitten durch den Archipel der Neu-Hebriden , die 1606 von Quirot entdeckt , 1768 von Bougainville erforscht wurden und von Cook 1773 ihren jetzigen Namen bekamen .
+1	Am	am	PROPN	NE	_	2	E	2:E	_
+2	25	25	PROPN	CARD	_	5	D	5:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Dezember	Dezember	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	schiffte	schiffen	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	"	"	PUNCT	$(	_	8	U	8:U	_
+8	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+9	"	"	PUNCT	$(	_	5	U	5:U	_
+10	mitten	mitten	ADV	ADV	_	11	E	11:E	_
+11	durch	durch	ADP	APPR	_	15	R	15:R	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Archipel	Archipel	NOUN	NN	_	15	E	15:E	_
+14	der	der	DET	ART	_	13	R	13:R	_
+15	Neu-Hebriden	Neu-Hebriden	NOUN	NN	_	5	A	5:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	21	R	21:R	_
+18	1606	1606	NUM	CARD	_	21	D	21:D	_
+19	von	von	ADP	NN	_	20	R	20:R	_
+20	Quirot	Quirot	PROPN	NN	_	21	A	21:A	_
+21	entdeckt	entdecken	VERB	VVPP	_	15	E	15:E	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	1768	1768	NUM	CARD	_	26	D	26:D	_
+24	von	von	ADP	NN	_	25	R	25:R	_
+25	Bougainville	Bougainville	PROPN	NE	_	26	A	26:A	_
+26	erforscht	erforschen	VERB	VVPP	_	21	C	21:C	_
+27	wurden	werden	AUX	NN	_	26	F	26:F	_
+28	und	und	CCONJ	NE	_	21	N	21:N	_
+29	von	von	ADP	NE	_	30	R	30:R	_
+30	Cook	Cook	PROPN	NE	_	35	A	35:A	_
+31	1773	1773	NUM	CARD	_	35	D	35:D	_
+32	ihren	ihr	DET	PPOSAT	_	34	E	34:E	_
+33	jetzigen	jetzig	ADJ	ADJA	_	34	E	34:E	_
+34	Namen	Name	NOUN	NN	_	35	A	35:A	_
+35	bekamen	bekommen	VERB	VVFIN	_	21	C	21:C	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

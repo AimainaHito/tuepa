@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25607009
+# text = Ihre madreporischen Felsen wurden offenbar durch Tromben und Stürme zur Fruchtbarkeit gebracht .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	3	E	3:E	_
+2	madreporischen	madreporisch	ADJ	ADJA	_	3	E	3:E	_
+3	Felsen	Felsen	NOUN	NN	_	12	A	12:A	_
+4	wurden	werden	AUX	NN	_	12	F	12:F	_
+5	offenbar	offenbar	ADV	NN	_	12	D	12:D	_
+6	durch	durch	ADP	APPR	_	7	R	7:R	_
+7	Tromben	Trombe	NOUN	NN	_	12	A	12:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Stürme	Sturm	NOUN	NE	_	7	C	7:C	_
+10	zur	zur	ADP	NE	_	11	R	11:R	_
+11	Fruchtbarkeit	Fruchtbarkeit	NOUN	NN	_	12	A	12:A	_
+12	gebracht	bringen	VERB	VVPP	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

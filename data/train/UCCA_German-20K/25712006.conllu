@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25712006
+# text = » Weil Kapitän Nemo sich nicht verhehlen kann , dass wir die Hoffnung , unsere Freiheit wieder zu erlangen , nicht aufgegeben haben und dass er achtsam sein wird , zumal in den Meeren und an den Küsten Europas . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Weil	weilen	PROPN	KOUS	_	5	L	5:L	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	5	A	5:A	_
+5	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+6	nicht	nicht	PART	XY	_	5	D	5:D	_
+7	verhehlen	verhehlen	VERB	VVINF	_	5	Terminal	5:Terminal	_
+8	kann	können	AUX	VMFIN	_	5	D	5:D	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+11	wir	wir	PRON	NE	_	22	A	22:A|17:A	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Hoffnung	Hoffnung	NOUN	NN	_	22	A	22:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	unsere	unser	PRON	PPOSAT	_	16	E	16:E	_
+16	Freiheit	Freiheit	NOUN	NN	_	17	A	17:A	_
+17	wieder	wieder	ADV	NE	_	13	E	13:E	_
+18	zu	zu	PART	NE	_	17	F	17:F	_
+19	erlangen	erlangen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	$,	_	22	U	22:U	_
+21	nicht	nicht	PART	XY	_	22	D	22:D	_
+22	aufgegeben	aufgeben	VERB	VVPP	_	5	A	5:A	_
+23	haben	haben	AUX	VAFIN	_	22	F	22:F	_
+24	und	und	CCONJ	NE	_	22	L	22:L	_
+25	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+26	er	er	PRON	PPER	_	27	A	27:A	_
+27	achtsam	achtsam	ADJ	ADJD	_	22	H	22:H	_
+28	sein	sein	AUX	VAINF	_	27	F	27:F	_
+29	wird	werden	AUX	VAFIN	_	27	F	27:F	_
+30	,	,	PUNCT	$,	_	27	U	27:U	_
+31	zumal	zumal	ADV	NE	_	27	D	27:D	_
+32	in	in	ADP	APPR	_	34	R	34:R	_
+33	den	der	DET	ART	_	34	E	34:E	_
+34	Meeren	Meer	NOUN	NN	_	39	E	39:E	_
+35	und	und	CCONJ	NE	_	34	N	34:N	_
+36	an	an	ADP	APPR	_	38	R	38:R	_
+37	den	der	DET	ART	_	38	E	38:E	_
+38	Küsten	Küste	PROPN	NN	_	34	C	34:C	_
+39	Europas	Europa	PROPN	NE	_	27	A	27:A	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

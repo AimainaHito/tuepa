@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25784009
+# text = Die hängenden Gegenstände nahmen allmählich wieder ihre richtige Lage ein .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	hängenden	hängend	ADJ	ADJA	_	4	A	4:A	_
+3	Gegenstände	Gegenstand	NOUN	NN	_	2	A	2:A	_
+4	nahmen	nehmen	VERB	VVFIN	_	0	H	0:H	_
+5	allmählich	allmählich	ADV	ADJD	_	4	D	4:D	_
+6	wieder	wieder	ADV	NN	_	4	D	4:D	_
+7	ihre	ihr	DET	PPOSAT	_	9	E	9:E	_
+8	richtige	richtig	ADJ	NN	_	9	E	9:E	_
+9	Lage	Lage	NOUN	NN	_	4	A	4:A	_
+10	ein	ein	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+11	.	.	PUNCT	$.	_	4	U	4:U	_
+

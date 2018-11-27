@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 590001
+# text = His next role with Burton was in the 1994 film , Ed Wood .
+1	His	he	PRON	PRP$	_	3	A	3:A	_
+2	next	next	ADJ	JJ	_	3	D	3:D	_
+3	role	role	NOUN	NN	_	6	A	6:A	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	Burton	Burton	PROPN	NNP	_	3	A	3:A	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	1994	1994	NUM	CD	_	12	E	12:E	_
+10	film	film	NOUN	NN	_	12	E	12:E	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	Ed	Ed	PROPN	NNP	_	6	A	6:A	_
+13	Wood	Wood	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

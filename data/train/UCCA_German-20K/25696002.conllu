@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25696002
+# text = » In der Tat « , sagte ich , » ist dieses Meer als sehr schlimm verrufen , und irre ich nicht , im Altertum als abscheulich . «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Tat	Tat	NOUN	NN	_	17	G	17:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	ist	sein	AUX	VVFIN	_	17	F	17:F	_
+12	dieses	dies	PRON	PDAT	_	13	E	13:E	_
+13	Meer	Meer	NOUN	NN	_	0	C	0:C|25:A	_
+14	als	als	ADP	KOKOM	_	17	R	17:R	_
+15	sehr	sehr	ADV	NE	_	16	E	16:E	_
+16	schlimm	schlimm	ADJ	NN	_	17	D	17:D	_
+17	verrufen	verrufen	VERB	VVFIN	_	7	A	7:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	und	und	CCONJ	NE	_	17	L	17:L	_
+20	irre	irre	ADJ	ADJA	_	17	H	17:H	_
+21	ich	ich	PRON	PPER	_	20	A	20:A	_
+22	nicht	nicht	PART	CARD	_	20	D	20:D	_
+23	,	,	PUNCT	$,	_	17	U	17:U	_
+24	im	im	ADJ	NE	_	25	R	25:R	_
+25	Altertum	Altertum	NOUN	NE	_	17	H	17:H	_
+26	als	als	ADP	KOKOM	_	25	R	25:R	_
+27	abscheulich	abscheulich	ADJ	ADJD	_	25	D	25:D	_
+28	.	.	PUNCT	$.	_	25	U	25:U	_
+29	«	«	PUNCT	$(	_	25	U	25:U	_
+

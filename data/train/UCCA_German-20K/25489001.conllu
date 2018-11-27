@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25489001
+# text = Ich weiß nicht , welchen Eindruck die Einführung in den schwimmenden Kerker auf meine Genossen machte ; ich meinesteils fühlte einen eiskalten Schauer über den Körper !
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+3	nicht	nicht	PART	CARD	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	welchen	welch	PRON	PWS	_	6	E	6:E	_
+6	Eindruck	Eindruck	NOUN	NN	_	16	A	16:A	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Einführung	Einführung	NOUN	NN	_	16	A	16:A	_
+9	in	in	ADP	APPR	_	12	R	12:R	_
+10	den	der	DET	ART	_	12	E	12:E	_
+11	schwimmenden	schwimmend	ADJ	ADJA	_	12	E	12:E	_
+12	Kerker	Kerker	NOUN	NN	_	8	A	8:A	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	meine	mein	PRON	PPOSAT	_	15	E	15:E	_
+15	Genossen	nießen	ADJ	NN	_	16	A	16:A	_
+16	machte	machen	VERB	VVFIN	_	2	A	2:A	_
+17	;	;	PUNCT	$.	_	2	U	2:U	_
+18	ich	ich	PRON	PPER	_	20	A	20:A	_
+19	meinesteils	meinesteils	ADV	ADV	_	20	D	20:D	_
+20	fühlte	fühlen	VERB	VVFIN	_	2	H	2:H	_
+21	einen	ein	DET	ART	_	23	E	23:E	_
+22	eiskalten	eiskalt	ADJ	ADJA	_	23	E	23:E	_
+23	Schauer	Schauer	NOUN	NN	_	20	A	20:A	_
+24	über	über	ADP	VVFIN	_	26	R	26:R	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Körper	Körper	NOUN	NN	_	23	E	23:E	_
+27	!	!	PUNCT	$.	_	26	U	26:U	_
+

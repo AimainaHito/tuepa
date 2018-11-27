@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 219002
+# text = The feature received reasonable reviews , and earned $ 640 thousand worldwide .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	feature	feature	NOUN	NN	_	0	C	0:C|8:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	reasonable	reasonable	ADJ	JJ	_	5	E	5:E	_
+5	reviews	review	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	and	and	CCONJ	CC	_	3	L	3:L	_
+8	earned	earn	VERB	VBD	_	3	H	3:H	_
+9	$	$	SYM	$	_	8	U	8:U	_
+10	640	640	NUM	CD	_	11	E	11:E	_
+11	thousand	thousand	NUM	CD	_	8	A	8:A	_
+12	worldwide	worldwide	NOUN	NN	_	8	A	8:A	_
+13	.	.	PUNCT	.	_	8	U	8:U	_
+

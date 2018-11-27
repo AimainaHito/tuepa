@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 688015
+# text = The Pulitzer Prize jury in 2008 awarded him a special citation for " his profound impact on popular music and American culture , marked by lyrical compositions of extraordinary poetic power .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Pulitzer	Pulitzer	PROPN	NNP	_	3	E	3:E	_
+3	Prize	Prize	PROPN	NNP	_	4	E	4:E	_
+4	jury	jury	NOUN	NN	_	7	A	7:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	2008	2008	NUM	CD	_	7	D	7:D	_
+7	awarded	award	VERB	VBN	_	0	H	0:H	_
+8	him	he	PRON	PRP	_	7	A	7:A	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	special	special	ADJ	JJ	_	11	E	11:E	_
+11	citation	citation	NOUN	NN	_	7	A	7:A	_
+12	for	for	ADP	IN	_	16	R	16:R	_
+13	"	"	PUNCT	``	_	16	U	16:U	_
+14	his	he	PRON	PRP$	_	16	A	16:A	_
+15	profound	profound	ADJ	JJ	_	16	D	16:D	_
+16	impact	impact	NOUN	NN	_	11	E	11:E	_
+17	on	on	ADP	IN	_	19	R	19:R	_
+18	popular	popular	ADJ	JJ	_	19	E	19:E	_
+19	music	music	NOUN	NN	_	16	A	16:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	American	american	ADJ	JJ	_	22	E	22:E	_
+22	culture	culture	NOUN	NN	_	19	C	19:C	_
+23	,	,	PUNCT	,	_	16	U	16:U	_
+24	marked	mark	VERB	VBN	_	16	E	16:E	_
+25	by	by	ADP	IN	_	27	R	27:R	_
+26	lyrical	lyrical	ADJ	JJ	_	27	E	27:E	_
+27	compositions	composition	NOUN	NNS	_	24	A	24:A	_
+28	of	of	ADP	IN	_	31	R	31:R	_
+29	extraordinary	extraordinary	ADJ	JJ	_	31	E	31:E	_
+30	poetic	poetic	ADJ	JJ	_	31	E	31:E	_
+31	power	power	NOUN	NN	_	27	E	27:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

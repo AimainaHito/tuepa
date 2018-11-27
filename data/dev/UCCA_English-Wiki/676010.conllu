@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 676010
+# text = Carey taped a performance of " Beautiful " along with a medley of her greatest hits on May 15 , 2013 ; the taping aired on the American Idol finale the following day .
+1	Carey	Carey	PROPN	NNP	_	2	A	2:A	_
+2	taped	tape	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	performance	performance	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	"	"	PUNCT	``	_	7	U	7:U	_
+7	Beautiful	beautiful	ADJ	JJ	_	4	E	4:E	_
+8	"	"	PUNCT	''	_	4	U	4:U	_
+9	along	along	ADP	IN	_	4	N	4:N	_
+10	with	with	ADP	IN	_	9	Terminal	9:Terminal	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	medley	medley	NOUN	NN	_	4	C	4:C	_
+13	of	of	ADP	IN	_	16	R	16:R	_
+14	her	she	PRON	PRP$	_	16	E	16:E	_
+15	greatest	greatest	ADJ	JJS	_	16	E	16:E	_
+16	hits	hit	NOUN	NNS	_	12	E	12:E	_
+17	on	on	ADP	IN	_	18	R	18:R	_
+18	May	May	PROPN	NNP	_	2	D	2:D	_
+19	15	15	NUM	CD	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	18	U	18:U	_
+21	2013	2013	NUM	CD	_	18	Terminal	18:Terminal	_
+22	;	;	PUNCT	,	_	2	U	2:U	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	taping	taping	NOUN	NN	_	25	A	25:A	_
+25	aired	aire	VERB	VBD	_	2	H	2:H	_
+26	on	on	ADP	IN	_	30	R	30:R	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	American	american	ADJ	JJ	_	30	E	30:E	_
+29	Idol	Idol	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	finale	finale	VERB	VB	_	25	A	25:A	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	following	follow	VERB	VBG	_	33	E	33:E	_
+33	day	day	NOUN	NN	_	25	D	25:D	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

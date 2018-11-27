@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 637001
+# text = Lennon 's reaction was , " Jesus Christ ! He gets all the credit for it !
+1	Lennon	Lennon	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	reaction	reaction	NOUN	NN	_	4	A	4:A	_
+4	was	be	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	''	_	4	U	4:U	_
+7	Jesus	Jesus	PROPN	NNP	_	4	A	4:A	_
+8	Christ	Christ	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	!	!	PUNCT	.	_	7	U	7:U	_
+10	He	he	PRON	PRP	_	12	A	12:A	_
+11	gets	get	VERB	VBZ	_	12	D	12:D	_
+12	all	all	DET	PDT	_	7	H	7:H	_
+13	the	the	DET	DT	_	12	Terminal	12:Terminal	_
+14	credit	credit	NOUN	NN	_	12	Terminal	12:Terminal	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	it	it	PRON	PRP	_	12	A	12:A	_
+17	!	!	PUNCT	.	_	16	U	16:U	_
+

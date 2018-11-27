@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25584005
+# text = Ned Land zuckte mit den Achseln , ohne zu antworten , dann ging er nebst Conseil weg .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A|10:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	zuckte	zucken	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Achseln	Achsel	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	ohne	ohne	ADP	CARD	_	3	L	3:L	_
+9	zu	zu	PART	NN	_	10	F	10:F	_
+10	antworten	antworten	VERB	VVINF	_	3	H	3:H	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	dann	dann	ADV	ADV	_	3	L	3:L	_
+13	ging	gehen	VERB	VVFIN	_	3	H	3:H	_
+14	er	er	PRON	PPER	_	13	A	13:A	_
+15	nebst	nebst	ADV	APPR	_	16	R	16:R	_
+16	Conseil	Conseil	NOUN	NE	_	13	A	13:A	_
+17	weg	weg	ADV	NN	_	13	Terminal	13:Terminal	_
+18	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 613006
+# text = McCartney said of the instrument , " if I had to pick one electric guitar it would be this .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	said	say	VERB	VBD	_	0	H	0:H	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	instrument	instrument	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	"	"	PUNCT	''	_	2	U	2:U	_
+8	if	if	SCONJ	IN	_	12	L	12:L	_
+9	I	I	PRON	PRP	_	12	A	12:A	_
+10	had	have	VERB	VBD	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	pick	pick	VERB	VB	_	2	A	2:A	_
+13	one	one	NUM	CD	_	15	E	15:E	_
+14	electric	electric	ADJ	JJ	_	15	E	15:E	_
+15	guitar	guitar	NOUN	NN	_	12	A	12:A	_
+16	it	it	PRON	PRP	_	18	A	18:A	_
+17	would	would	AUX	MD	_	18	F	18:F	_
+18	be	be	VERB	VB	_	12	H	12:H	_
+19	this	this	PRON	DT	_	18	A	18:A	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

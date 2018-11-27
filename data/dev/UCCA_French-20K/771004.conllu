@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 771004
+# text = D' ailleurs d' une belle santé qui défiait toutes les maladies ; des muscles solides , mais pas de nerfs , pas l' apparence de nerfs , - au moral , s'entend .
+1	D'	de	ADP	_	_	2	R	2:R	_
+2	ailleurs	ailleurs	ADV	_	_	6	L	6:L	_
+3	d'	de	ADP	_	_	6	R	6:R	_
+4	une	un	DET	_	_	6	E	6:E	_
+5	belle	beau	ADJ	_	_	6	E	6:E	_
+6	santé	santé	NOUN	_	_	0	H	0:H	_
+7	qui	qui	PRON	_	_	8	R	8:R	_
+8	défiait	défier	VERB	_	_	6	E	6:E	_
+9	toutes	tout	DET	_	_	11	R	11:R	_
+10	les	le	DET	_	_	11	E	11:E	_
+11	maladies	maladie	NOUN	_	_	8	A	8:A	_
+12	;	;	PUNCT	_	_	6	U	6:U	_
+13	des	un	DET	_	_	14	E	14:E	_
+14	muscles	muscle	NOUN	_	_	6	H	6:H	_
+15	solides	solide	ADJ	_	_	14	E	14:E	_
+16	,	,	PUNCT	_	_	6	U	6:U	_
+17	mais	mais	CCONJ	_	_	6	L	6:L	_
+18	pas	pas	ADV	_	_	20	D	20:D	_
+19	de	un	ADP	_	_	20	E	20:E	_
+20	nerfs	nerf	NOUN	_	_	6	H	6:H	_
+21	,	,	PUNCT	_	_	20	U	20:U	_
+22	pas	pas	ADV	_	_	18	C	18:C	_
+23	l'	le	DET	_	_	24	E	24:E	_
+24	apparence	apparence	NOUN	_	_	20	E	20:E	_
+25	de	de	ADP	_	_	26	R	26:R	_
+26	nerfs	nerf	NOUN	_	_	24	E	24:E	_
+27	,	,	PUNCT	_	_	20	U	20:U	_
+28	-	-	PUNCT	_	_	20	U	20:U	_
+29	au	au	NOUN	_	_	30	R	30:R	_
+30	moral	moral	ADJ	_	_	20	E	20:E	_
+31	,	,	PUNCT	_	_	20	U	20:U	_
+32	s'entend	s'entendre	CCONJ	_	_	20	G	20:G	_
+33	.	.	PUNCT	_	_	20	U	20:U	_
+

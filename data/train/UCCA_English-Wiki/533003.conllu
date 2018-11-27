@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 533003
+# text = She performed in London at the Talk of the Town nightclub for a five - week run and made her last concert appearance in Copenhagen during March 1969 .
+1	She	she	PRON	PRP	_	2	A	2:A|23:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	London	London	PROPN	NNP	_	2	A	2:A	_
+5	at	at	ADP	IN	_	11	R	11:R	_
+6	the	the	DET	DT	_	11	E	11:E	_
+7	Talk	talk	NOUN	NN	_	11	E	11:E	_
+8	of	of	ADP	IN	_	7	Terminal	7:Terminal	_
+9	the	the	DET	DT	_	7	Terminal	7:Terminal	_
+10	Town	town	NOUN	NN	_	7	Terminal	7:Terminal	_
+11	nightclub	nightclub	NOUN	NN	_	2	A	2:A	_
+12	for	for	ADP	IN	_	17	R	17:R	_
+13	a	a	DET	DT	_	17	E	17:E	_
+14	five	five	NUM	CD	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	week	week	NOUN	NN	_	17	E	17:E	_
+17	run	run	NOUN	NN	_	2	D	2:D	_
+18	and	and	CCONJ	CC	_	2	L	2:L	_
+19	made	make	VERB	VBD	_	23	F	23:F	_
+20	her	she	PRON	PRP$	_	21	E	21:E	_
+21	last	last	ADJ	JJ	_	23	D	23:D	_
+22	concert	concert	NOUN	NN	_	23	E	23:E	_
+23	appearance	appearance	NOUN	NN	_	2	H	2:H	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	Copenhagen	Copenhagen	PROPN	NNP	_	23	A	23:A	_
+26	during	during	ADP	IN	_	27	R	27:R	_
+27	March	March	PROPN	NNP	_	23	D	23:D	_
+28	1969	1969	NUM	CD	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

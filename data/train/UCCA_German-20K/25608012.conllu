@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25608012
+# text = Darauf kamen Cook im Jahr 1714 , d'Entrecasteaux 1793 , und endlich entwirrte Dumont d'Urville 1827 das ganze geographische Chaos dieses Archipels .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	Cook	Cook	PROPN	NE	_	2	A	2:A	_
+4	im	im	ADV	NE	_	5	R	5:R	_
+5	Jahr	Jahr	NOUN	NN	_	2	D	2:D	_
+6	1714	1714	NUM	CARD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	d'Entrecasteaux	d'Entrecasteaux	PROPN	NN	_	2	H	2:H	_
+9	1793	1793	NUM	CARD	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	endlich	endlich	ADV	ADV	_	13	D	13:D	_
+13	entwirrte	entwirren	VERB	VVFIN	_	2	H	2:H	_
+14	Dumont	Dumont	PROPN	NE	_	13	A	13:A	_
+15	d'Urville	d'Urville	PROPN	NE	_	14	Terminal	14:Terminal	_
+16	1827	1827	NUM	CARD	_	13	D	13:D	_
+17	das	der	DET	ART	_	20	E	20:E	_
+18	ganze	ganz	ADJ	ADJA	_	20	E	20:E	_
+19	geographische	geographisch	ADJ	ADJA	_	20	E	20:E	_
+20	Chaos	Chaos	NOUN	NN	_	13	A	13:A	_
+21	dieses	dies	PRON	PDAT	_	22	R	22:R	_
+22	Archipels	Archipel	NOUN	NN	_	20	E	20:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

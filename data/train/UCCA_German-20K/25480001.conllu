@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25480001
+# text = Der Kanadier kam .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 191014
+# text = He worked on Excess Baggage , a comedy about a girl who stages her own kidnapping to get her father 's attention , and rewrote some of Will Smith 's scenes in Enemy of the State .
+1	He	he	PRON	PRP	_	2	A	2:A|25:A	_
+2	worked	work	VERB	VBD	_	0	H	0:H	_
+3	on	on	ADP	IN	_	4	R	4:R	_
+4	Excess	Excess	PROPN	NNP	_	2	A	2:A	_
+5	Baggage	baggage	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	comedy	comedy	NOUN	NN	_	4	E	4:E	_
+9	about	about	ADP	IN	_	11	R	11:R	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	girl	girl	NOUN	NN	_	8	E	8:E	_
+12	who	who	PRON	WP	_	13	F	13:F	_
+13	stages	stage	VERB	VBZ	_	11	E	11:E	_
+14	her	she	PRON	PRP$	_	16	A	16:A	_
+15	own	own	ADJ	JJ	_	13	D	13:D	_
+16	kidnapping	kidnapping	NOUN	NN	_	13	A	13:A	_
+17	to	to	PART	TO	_	13	L	13:L	_
+18	get	get	VERB	VB	_	13	H	13:H	_
+19	her	she	PRON	PRP$	_	20	E	20:E	_
+20	father	father	NOUN	NN	_	22	E	22:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	attention	attention	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	and	and	CCONJ	CC	_	2	L	2:L	_
+25	rewrote	rewrote	VERB	VB	_	2	H	2:H	_
+26	some	some	DET	DT	_	27	E	27:E	_
+27	of	of	ADP	IN	_	31	R	31:R	_
+28	Will	Will	PROPN	NNP	_	31	E	31:E	_
+29	Smith	Smith	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	's	's	PART	POS	_	28	R	28:R	_
+31	scenes	scene	NOUN	NNS	_	25	A	25:A	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	Enemy	enemy	PROPN	NNP	_	31	E	31:E	_
+34	of	of	ADP	IN	_	33	Terminal	33:Terminal	_
+35	the	the	DET	DT	_	33	Terminal	33:Terminal	_
+36	State	state	NOUN	NN	_	33	Terminal	33:Terminal	_
+37	.	.	PUNCT	.	_	33	U	33:U	_
+

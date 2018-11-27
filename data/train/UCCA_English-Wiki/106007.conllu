@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 106007
+# text = That year , she also appeared as a stripper in the music video for " Anybody Seen My Baby ? " by the Rolling Stones .
+1	That	that	DET	DT	_	2	E	2:E	_
+2	year	year	NOUN	NN	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	she	she	PRON	PRP	_	6	A	6:A	_
+5	also	also	ADV	RB	_	6	D	6:D	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	as	as	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	stripper	stripper	NOUN	NN	_	6	A	6:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	music	music	NOUN	NN	_	13	E	13:E	_
+13	video	video	NOUN	NN	_	6	A	6:A	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	Anybody	anybody	PROPN	NNP	_	13	E	13:E	_
+17	Seen	seen	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	My	my	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	Baby	baby	PROPN	NNP	_	16	Terminal	16:Terminal	_
+20	?	?	PUNCT	.	_	16	U	16:U	_
+21	"	"	PUNCT	''	_	16	U	16:U	_
+22	by	by	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	Rolling	Rolling	PROPN	NNP	_	16	A	16:A	_
+25	Stones	Stones	PROPN	NNPS	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25488104
+# text = Offenbar war 's ein harter , undurchdringlicher Körper , nicht der weiche Stoff , woraus die großen See säugetiere bestehen .
+1	Offenbar	offenbar	ADJ	NE	_	2	G	2:G	_
+2	war	sein	AUX	NE	_	0	H	0:H	_
+3	's	es	PRON	ART	_	2	A	2:A	_
+4	ein	ein	DET	ART	_	8	E	8:E	_
+5	harter	hart	ADJ	ADJA	_	8	E	8:E	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	undurchdringlicher	undurchdringlich	ADJ	ADJA	_	8	E	8:E	_
+8	Körper	Körper	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	nicht	nicht	PART	XY	_	2	D	2:D	_
+11	der	der	DET	ART	_	13	E	13:E	_
+12	weiche	weich	ADJ	ADJA	_	13	E	13:E	_
+13	Stoff	Stoff	NOUN	NN	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	woraus	woraus	PRON	PWAV	_	20	R	20:R	_
+16	die	der	DET	ART	_	19	E	19:E	_
+17	großen	groß	ADJ	ADJA	_	19	E	19:E	_
+18	See	See	NOUN	NN	_	19	E	19:E	_
+19	säugetiere	säugeti	ADJ	NN	_	20	A	20:A	_
+20	bestehen	bestehen	VERB	VVINF	_	13	E	13:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25642012
+# text = Dieses setzte aber voraus , dass meine seltsame Reise ein Ende nehme ; ein solches Ziel konnte ich aber noch nicht wahrnehmen .
+1	Dieses	dies	PRON	PDS	_	2	A	2:A	_
+2	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+3	aber	aber	ADV	ADV	_	2	L	2:L	_
+4	voraus	voraus	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+7	meine	mein	PRON	PPOSAT	_	9	E	9:E	_
+8	seltsame	seltsam	ADJ	ADJA	_	9	E	9:E	_
+9	Reise	Reise	NOUN	NN	_	12	A	12:A	_
+10	ein	ein	DET	ART	_	11	E	11:E	_
+11	Ende	Ende	NOUN	NN	_	12	A	12:A	_
+12	nehme	nehmen	VERB	VVFIN	_	2	A	2:A	_
+13	;	;	PUNCT	$.	_	2	U	2:U	_
+14	ein	ein	DET	ART	_	16	E	16:E	_
+15	solches	solch	ADJ	ADJA	_	16	E	16:E	_
+16	Ziel	Ziel	NOUN	NN	_	22	A	22:A	_
+17	konnte	können	AUX	VMFIN	_	22	D	22:D	_
+18	ich	ich	PRON	PPER	_	22	A	22:A	_
+19	aber	aber	ADV	ADV	_	2	L	2:L	_
+20	noch	noch	ADV	CARD	_	21	E	21:E	_
+21	nicht	nicht	PART	CARD	_	22	D	22:D	_
+22	wahrnehmen	wahrnehmen	VERB	VVINF	_	2	H	2:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

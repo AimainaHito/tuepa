@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25584003
+# text = Ich zeigte meinen Gefährten den kleinen , mitten im nördlichen Pazifik verlorenen Felsen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+3	meinen	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Gefährten	Gefährt|Gefährte	NOUN	NE	_	2	A	2:A	_
+5	den	der	DET	ART	_	13	E	13:E	_
+6	kleinen	klein	ADJ	ADJA	_	13	E	13:E	_
+7	,	,	PUNCT	$,	_	13	U	13:U	_
+8	mitten	mitten	ADV	ADV	_	12	D	12:D	_
+9	im	im	ADV	NN	_	11	R	11:R	_
+10	nördlichen	nördlich	ADJ	ADJA	_	11	E	11:E	_
+11	Pazifik	Pazifik	PROPN	NN	_	12	A	12:A	_
+12	verlorenen	verloren	ADJ	ADJA	_	13	E	13:E	_
+13	Felsen	Felsen	NOUN	NN	_	2	A	2:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

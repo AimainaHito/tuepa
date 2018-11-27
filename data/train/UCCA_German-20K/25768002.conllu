@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25768002
+# text = » Aber damit Sie mich nicht der Verwegenheit beschuldigen , so lege ich Ihnen zum voraus alle meine Einwände vor . «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Aber	aber	CCONJ	KON	_	9	L	9:L	_
+3	damit	damit	SCONJ	PAV	_	9	L	9:L	_
+4	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+5	mich	ich	PRON	PRF	_	9	A	9:A|8:A	_
+6	nicht	nicht	PART	CARD	_	9	D	9:D	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Verwegenheit	Verwegenheit	NOUN	NN	_	9	A	9:A	_
+9	beschuldigen	beschuldigen	VERB	VVINF	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	so	so	ADV	ADV	_	9	L	9:L	_
+12	lege	legen	VERB	VVFIN	_	9	H	9:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A|19:A	_
+14	Ihnen	sie	PRON	PPER	_	12	A	12:A	_
+15	zum	zum	ADV	NN	_	16	R	16:R	_
+16	voraus	voraus	ADV	ADV	_	12	D	12:D	_
+17	alle	alle	PRON	PIAT	_	19	E	19:E	_
+18	meine	mein	DET	PPOSAT	_	19	E	19:E	_
+19	Einwände	Einwand	NOUN	NE	_	12	A	12:A	_
+20	vor	vor	ADP	NE	_	12	Terminal	12:Terminal	_
+21	.	.	PUNCT	$.	_	12	U	12:U	_
+22	«	«	PUNCT	$(	_	12	U	12:U	_
+

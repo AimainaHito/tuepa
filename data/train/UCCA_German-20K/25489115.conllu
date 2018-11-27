@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25489115
+# text = Das Tafel geschirr war elegant und geschmackvoll .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	Tafel	Tafel	NOUN	NN	_	3	E	3:E	_
+3	geschirr	geschirr	ADJ	NE	_	5	A	5:A	_
+4	war	sein	AUX	NE	_	5	F	5:F	_
+5	elegant	elegant	ADJ	ADJD	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	geschmackvoll	geschmackvoll	ADJ	ADJD	_	5	C	5:C	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

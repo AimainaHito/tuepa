@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 378003
+# text = In both films he plays an unstable character who begins a reckless affair with an older woman .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	both	both	DET	DT	_	3	E	3:E	_
+3	films	film	NOUN	NNS	_	5	A	5:A	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	plays	play	VERB	VBZ	_	0	H	0:H	_
+6	an	a	DET	DT	_	8	E	8:E	_
+7	unstable	unstable	ADJ	JJ	_	8	E	8:E	_
+8	character	character	NOUN	NN	_	5	A	5:A	_
+9	who	who	PRON	WP	_	10	F	10:F	_
+10	begins	begin	VERB	VBZ	_	8	E	8:E	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	reckless	reckless	ADJ	JJ	_	13	E	13:E	_
+13	affair	affair	NOUN	NN	_	10	A	10:A	_
+14	with	with	ADP	IN	_	17	R	17:R	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	older	older	ADJ	JJR	_	17	E	17:E	_
+17	woman	woman	NOUN	NN	_	13	E	13:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

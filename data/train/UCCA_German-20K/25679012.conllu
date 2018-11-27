@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25679012
+# text = » Aber « , sagte Conseil , der stets auf das Belehrende bei den Dingen zurückkam , » ist diese Perlen fischerei mit Gefahr verbunden ? « » Nein « , versetzte ich lebhaft , » zumal bei einigen Vorsichts maß regeln . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Aber	aber	NOUN	KON	_	25	L	25:L	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	der	der	PRON	PRELS	_	16	R	16:R	_
+9	stets	stets	ADV	ADV	_	16	D	16:D	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	Belehrende	Belehrende	NOUN	ADJA	_	16	A	16:A	_
+13	bei	bei	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Dingen	Ding	NOUN	NN	_	16	A	16:A	_
+16	zurückkam	zurückkam	ADV	VVFIN	_	6	E	6:E	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	»	»	PUNCT	$(	_	5	U	5:U	_
+19	ist	sein	AUX	VVFIN	_	25	F	25:F	_
+20	diese	dies	PRON	PDAT	_	22	E	22:E	_
+21	Perlen	Perle|Perlen	NOUN	NN	_	22	A	22:A	_
+22	fischerei	fischerein	VERB	NN	_	0	C	0:C|42:A	_
+23	mit	mit	ADP	APPR	_	24	R	24:R	_
+24	Gefahr	Gefahr	NOUN	NN	_	0	C	0:C|29:A	_
+25	verbunden	verbund	ADJ	VVPP	_	0	P	0:P|29:P|42:P	_
+26	?	?	PUNCT	$.	_	29	U	29:U	_
+27	«	«	PUNCT	$(	_	29	U	29:U	_
+28	»	»	PUNCT	$(	_	29	U	29:U	_
+29	Nein	nein	PART	PTKANT	_	32	A	32:A	_
+30	«	«	PUNCT	$(	_	32	U	32:U	_
+31	,	,	PUNCT	$,	_	32	U	32:U	_
+32	versetzte	versetzen	VERB	VVFIN	_	5	H	5:H	_
+33	ich	ich	PRON	PPER	_	32	A	32:A	_
+34	lebhaft	lebhafen	VERB	ADJD	_	32	D	32:D	_
+35	,	,	PUNCT	$,	_	32	U	32:U	_
+36	»	»	PUNCT	$(	_	32	U	32:U	_
+37	zumal	zumal	SCONJ	NE	_	42	D	42:D	_
+38	bei	bei	ADP	APPR	_	42	R	42:R	_
+39	einigen	einige	PRON	PIAT	_	42	E	42:E	_
+40	Vorsichts	Vorsicht	NOUN	NN	_	42	E	42:E	_
+41	maß	messen	AUX	NN	_	42	E	42:E	_
+42	regeln	regeln	VERB	VVFIN	_	29	H	29:H	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+44	«	«	PUNCT	$(	_	42	U	42:U	_
+

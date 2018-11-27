@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25810008
+# text = Seine acht Arme , oder vielmehr Füße , befanden sich am Kopf - weshalb man dieser Gattung Tiere den Namen Kopffüßler gibt - , waren von doppelter Größe wie der Leib und ringelten sich gleich den Schlangen am Haupt der Furien .
+1	Seine	sein	DET	PPOSAT	_	3	E	3:E	_
+2	acht	acht	NUM	CARD	_	3	E	3:E	_
+3	Arme	Arm|Arme	NOUN	NN	_	0	C	0:C|33:A|25:A	_
+4	,	,	PUNCT	$,	_	9	U	9:U	_
+5	oder	oder	CCONJ	NN	_	3	N	3:N	_
+6	vielmehr	vielmehr	ADV	CARD	_	7	E	7:E	_
+7	Füße	Fuß	NOUN	NN	_	3	C	3:C	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	am	am	ADJ	ADJD	_	12	R	12:R	_
+12	Kopf	Kopf	NOUN	NN	_	9	A	9:A	_
+13	-	-	PUNCT	$(	_	9	U	9:U	_
+14	weshalb	weshalb	SCONJ	NN	_	9	L	9:L	_
+15	man	man	PRON	PIS	_	22	A	22:A	_
+16	dieser	dies	PRON	PDAT	_	18	E	18:E	_
+17	Gattung	Gattung	NOUN	NN	_	18	E	18:E	_
+18	Tiere	Tier	NOUN	NN	_	22	A	22:A	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Namen	Name	NOUN	NN	_	22	A	22:A	_
+21	Kopffüßler	Kopffüßler	PROPN	NN	_	22	A	22:A	_
+22	gibt	geben	VERB	VVFIN	_	9	H	9:H	_
+23	-	-	PUNCT	$(	_	9	U	9:U	_
+24	,	,	PUNCT	$,	_	9	U	9:U	_
+25	waren	sein	AUX	VAFIN	_	9	H	9:H	_
+26	von	von	ADP	NE	_	28	R	28:R	_
+27	doppelter	doppelt	ADJ	ADJA	_	28	E	28:E	_
+28	Größe	Größe	NOUN	NN	_	25	A	25:A	_
+29	wie	wie	ADP	KON	_	31	R	31:R	_
+30	der	der	DET	ART	_	31	E	31:E	_
+31	Leib	Leib	NOUN	NN	_	25	A	25:A	_
+32	und	und	CCONJ	NE	_	9	L	9:L	_
+33	ringelten	ringelten	VERB	VVFIN	_	9	H	9:H	_
+34	sich	er|es|sie	PRON	PRF	_	33	Terminal	33:Terminal	_
+35	gleich	gleich	ADV	ADV	_	37	R	37:R	_
+36	den	der	DET	ART	_	37	E	37:E	_
+37	Schlangen	Schlange	NOUN	NN	_	33	A	33:A	_
+38	am	am	ADJ	ADJD	_	39	R	39:R	_
+39	Haupt	Haupt	NOUN	NN	_	37	E	37:E	_
+40	der	der	DET	ART	_	41	R	41:R	_
+41	Furien	Furie	NOUN	NN	_	39	E	39:E	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

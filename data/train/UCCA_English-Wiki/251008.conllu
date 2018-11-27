@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 251008
+# text = The following year Hawke received the Michael Mendelson Award for Outstanding Commitment to the Theater .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	5	D	5:D	_
+4	Hawke	Hawke	PROPN	NNP	_	5	A	5:A	_
+5	received	receive	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	Michael	Michael	PROPN	NNP	_	9	E	9:E	_
+8	Mendelson	Mendelson	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Award	Award	PROPN	NNP	_	5	A	5:A	_
+10	for	for	ADP	IN	_	11	R	11:R	_
+11	Outstanding	Outstande	ADJ	JJ	_	9	E	9:E	_
+12	Commitment	commitment	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	to	to	ADP	IN	_	11	Terminal	11:Terminal	_
+14	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+15	Theater	theater	NOUN	NN	_	11	Terminal	11:Terminal	_
+16	.	.	PUNCT	.	_	11	U	11:U	_
+

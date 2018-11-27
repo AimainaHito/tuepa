@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25778002
+# text = » So ist 's wirklich « , sagte ich . » Doch ist die Behauptung nicht mathematisch genau zu nehmen , weil das Äquinoktium nicht notwendig auf 12 Uhr fällt . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	So	so	ADV	ADV	_	5	G	5:G	_
+3	ist	sein	VERB	VVFIN	_	5	F	5:F	_
+4	's	es	PART	PPER	_	5	A	5:A	_
+5	wirklich	wirklich	ADV	ADV	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	Doch	doch	ADV	KON	_	5	L	5:L	_
+13	ist	sein	AUX	VVFIN	_	20	D	20:D	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Behauptung	Behauptung	NOUN	NN	_	20	A	20:A	_
+16	nicht	nicht	PART	XY	_	20	D	20:D	_
+17	mathematisch	mathematisch	ADJ	ADJD	_	20	D	20:D	_
+18	genau	genau	ADJ	ADV	_	17	E	17:E	_
+19	zu	zu	PART	NE	_	20	F	20:F	_
+20	nehmen	nehmen	VERB	CARD	_	5	H	5:H	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	weil	weil	SCONJ	KOUS	_	5	L	5:L	_
+23	das	der	DET	ART	_	24	E	24:E	_
+24	Äquinoktium	Äquinoktium	NOUN	NN	_	30	A	30:A	_
+25	nicht	nicht	PART	CARD	_	30	D	30:D	_
+26	notwendig	notwendig	ADJ	CARD	_	30	D	30:D	_
+27	auf	auf	ADP	APPR	_	28	R	28:R	_
+28	12	12	NUM	CARD	_	30	D	30:D	_
+29	Uhr	Uhr	NOUN	NN	_	28	Terminal	28:Terminal	_
+30	fällt	fallen|fällen	VERB	VVFIN	_	5	H	5:H	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+32	«	«	PUNCT	$(	_	30	U	30:U	_
+

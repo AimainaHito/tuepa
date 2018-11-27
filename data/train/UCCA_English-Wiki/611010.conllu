@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 611010
+# text = He played to over 100,000 people total during two performances in Mexico City in May , the shows grossing nearly $ 6million .
+1	He	he	PRON	PRP	_	2	A	2:A|10:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	6	R	6:R	_
+4	over	over	ADV	RB	_	5	E	5:E	_
+5	100,000	100,000	NUM	CD	_	6	E	6:E	_
+6	people	people	NOUN	NNS	_	2	A	2:A	_
+7	total	total	ADJ	JJ	_	6	E	6:E	_
+8	during	during	ADP	IN	_	2	L	2:L	_
+9	two	two	NUM	CD	_	10	E	10:E	_
+10	performances	performance	NOUN	NNS	_	2	H	2:H	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	Mexico	Mexico	PROPN	NNP	_	10	A	10:A	_
+13	City	City	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	May	May	PROPN	NNP	_	10	D	10:D	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	shows	show	NOUN	NNS	_	19	A	19:A	_
+19	grossing	grosse	VERB	VBG	_	2	H	2:H	_
+20	nearly	nearly	ADV	RB	_	22	E	22:E	_
+21	$	$	SYM	$	_	22	U	22:U	_
+22	6million	6million	NUM	CD	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

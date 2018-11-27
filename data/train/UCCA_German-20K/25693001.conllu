@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25693001
+# text = Das durch die Überlieferungen der Bibel berühmte Rote Meer wird durch keinen Regen erfrischt , von keinem erheblichen Fluß bespült , durch eine übermäßige Verdunstung unaufhörlich ausgepumpt , so dass es jährlich eine Schicht Wasser von 1 1 / 2 Meter einbüßt .
+1	Das	der	DET	ART	_	8	E	8:E	_
+2	durch	durch	ADP	APPR	_	4	R	4:R	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Überlieferungen	Überlieferung	NOUN	NN	_	7	A	7:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Bibel	Bibel	PROPN	NN	_	4	E	4:E	_
+7	berühmte	berühmt	ADJ	ADJA	_	8	E	8:E	_
+8	Rote	rot	PROPN	NN	_	14	A	14:A	_
+9	Meer	Meer	PROPN	NN	_	8	E	8:E|7:A|27:A|20:A	_
+10	wird	werden	AUX	VAFIN	_	14	F	14:F	_
+11	durch	durch	ADP	APPR	_	13	R	13:R	_
+12	keinen	kein	PRON	PIAT	_	14	D	14:D	_
+13	Regen	Regen	NOUN	NN	_	14	A	14:A	_
+14	erfrischt	erfrischen	VERB	VVFIN	_	0	H	0:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	von	von	ADP	NN	_	19	R	19:R	_
+17	keinem	kein	PRON	PIAT	_	20	D	20:D	_
+18	erheblichen	erheblich	ADJ	ADJA	_	19	E	19:E	_
+19	Fluß	Fluß	NOUN	NN	_	20	A	20:A	_
+20	bespült	bespülen	VERB	VVFIN	_	14	H	14:H	_
+21	,	,	PUNCT	$,	_	14	U	14:U	_
+22	durch	durch	ADP	APPR	_	25	R	25:R	_
+23	eine	ein	DET	ART	_	25	E	25:E	_
+24	übermäßige	übermäßig	ADJ	ADJA	_	25	E	25:E	_
+25	Verdunstung	Verdunstung	NOUN	NN	_	27	A	27:A	_
+26	unaufhörlich	unaufhörlich	ADJ	ADJD	_	27	D	27:D	_
+27	ausgepumpt	ausgepumpt	ADV	ADJD	_	14	H	14:H	_
+28	,	,	PUNCT	$,	_	14	U	14:U	_
+29	so	so	ADV	ADV	_	14	L	14:L	_
+30	dass	dass	SCONJ	KOUS	_	29	Terminal	29:Terminal	_
+31	es	es	PRON	PPER	_	42	A	42:A	_
+32	jährlich	jährlich	ADJ	ADJD	_	42	D	42:D	_
+33	eine	ein	DET	ART	_	34	E	34:E	_
+34	Schicht	Schicht	NOUN	NN	_	42	A	42:A	_
+35	Wasser	Wasser	NOUN	NN	_	34	E	34:E	_
+36	von	von	ADP	NN	_	41	R	41:R	_
+37	1	1	NUM	CARD	_	41	E	41:E	_
+38	1	1	NUM	CARD	_	37	Terminal	37:Terminal	_
+39	/	/	PUNCT	$(	_	37	U	37:U	_
+40	2	2	NUM	CARD	_	37	Terminal	37:Terminal	_
+41	Meter	Meter	NOUN	NN	_	34	E	34:E	_
+42	einbüßt	einbüßen	VERB	VVPP	_	14	H	14:H	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

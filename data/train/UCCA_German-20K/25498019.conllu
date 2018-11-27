@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25498019
+# text = An beiden Seiten befanden sich hohe Anricht tische von Eichen holz mit eingelegten Verzierungen , und auf Fach brettern prangten Fayence , Porzellan und Glas gefäße von unschätzbarem Wert .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Seiten	Seite	NOUN	NN	_	4	A	4:A	_
+4	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	hohe	hoch	ADJ	ADJA	_	8	E	8:E	_
+7	Anricht	Anricht	NOUN	NN	_	8	E	8:E	_
+8	tische	tische	ADJ	ADJA	_	4	A	4:A	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	Eichen	Eiche|Eichen	NOUN	NE	_	11	E	11:E	_
+11	holz	holz	ADJ	NN	_	8	E	8:E	_
+12	mit	mit	ADP	APPR	_	14	R	14:R	_
+13	eingelegten	eingelegt	ADJ	ADJA	_	14	E	14:E	_
+14	Verzierungen	Verzierung	NOUN	NN	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	und	und	CCONJ	NE	_	4	L	4:L	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	Fach	Fach	NOUN	NE	_	19	E	19:E	_
+19	brettern	brettern	VERB	NE	_	20	A	20:A	_
+20	prangten	prangen	AUX	ADJA	_	4	H	4:H	_
+21	Fayence	Fayence	PROPN	NE	_	27	A	27:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	Porzellan	Porzellan	PROPN	NN	_	21	C	21:C	_
+24	und	und	CCONJ	NE	_	21	N	21:N	_
+25	Glas	Glas	PROPN	NN	_	26	E	26:E	_
+26	gefäße	gefäß	ADJ	ADJA	_	21	C	21:C	_
+27	von	von	ADP	NN	_	20	A	20:A	_
+28	unschätzbarem	unschätzbar	ADJ	PPOSAT	_	27	D	27:D	_
+29	Wert	Wert	NOUN	NN	_	27	Terminal	27:Terminal	_
+30	.	.	PUNCT	$.	_	27	U	27:U	_
+

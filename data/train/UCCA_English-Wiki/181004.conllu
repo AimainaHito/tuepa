@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 181004
+# text = Gyllenhaal has stated that she " grew up mostly Jewish , culturally " , though she did not attend Hebrew school .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	stated	state	VERB	VBN	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	10	F	10:F	_
+5	she	she	PRON	PRP	_	10	A	10:A	_
+6	"	"	PUNCT	``	_	10	U	10:U	_
+7	grew	grow	VERB	VBD	_	10	E	10:E	_
+8	up	up	ADP	RP	_	7	E	7:E	_
+9	mostly	mostly	ADV	RB	_	10	D	10:D	_
+10	Jewish	jewish	ADJ	JJ	_	3	A	3:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	culturally	culturally	ADV	RB	_	10	D	10:D	_
+13	"	"	PUNCT	''	_	3	U	3:U	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	though	though	SCONJ	IN	_	3	L	3:L	_
+16	she	she	PRON	PRP	_	19	A	19:A	_
+17	did	do	AUX	VBD	_	19	F	19:F	_
+18	not	not	PART	RB	_	19	D	19:D	_
+19	attend	attend	VERB	VB	_	3	H	3:H	_
+20	Hebrew	Hebrew	ADJ	JJ	_	21	E	21:E	_
+21	school	school	NOUN	NN	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

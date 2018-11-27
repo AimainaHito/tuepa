@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 125010
+# text = When she asked Barry why she had been let go , he responded , " Well , to be brutally frank , you were n't very good .
+1	When	when	ADV	WRB	_	3	L	3:L	_
+2	she	she	PRON	PRP	_	3	A	3:A	_
+3	asked	ask	VERB	VBD	_	0	H	0:H	_
+4	Barry	Barry	PROPN	NNP	_	3	A	3:A	_
+5	why	why	ADV	WRB	_	9	R	9:R	_
+6	she	she	PRON	PRP	_	9	A	9:A	_
+7	had	have	AUX	VBD	_	9	F	9:F	_
+8	been	be	AUX	VBN	_	9	F	9:F	_
+9	let	let	VERB	VBN	_	3	A	3:A	_
+10	go	go	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	he	he	PRON	PRP	_	13	A	13:A	_
+13	responded	respond	VERB	VBD	_	3	H	3:H	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	"	"	PUNCT	``	_	13	U	13:U	_
+16	Well	well	INTJ	UH	_	13	A	13:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	to	to	PART	TO	_	16	G	16:G	_
+19	be	be	AUX	VB	_	18	Terminal	18:Terminal	_
+20	brutally	brutally	ADV	RB	_	18	Terminal	18:Terminal	_
+21	frank	frank	VERB	VB	_	18	Terminal	18:Terminal	_
+22	,	,	PUNCT	,	_	16	U	16:U	_
+23	you	you	PRON	PRP	_	27	A	27:A	_
+24	were	be	AUX	VBD	_	27	F	27:F	_
+25	n't	not	PART	RB	_	27	D	27:D	_
+26	very	very	ADV	RB	_	27	D	27:D	_
+27	good	good	ADJ	JJ	_	16	H	16:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

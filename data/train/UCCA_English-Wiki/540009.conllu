@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 540009
+# text = Sam died of pneumonia in 1927 ( just before the premiere of the first feature - length talking picture , The Jazz Singer ) , and Jack became sole head of production .
+1	Sam	Sam	PROPN	NNP	_	2	A	2:A	_
+2	died	die	VERB	VBD	_	0	H	0:H	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	pneumonia	pneumonia	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1927	1927	NUM	CD	_	2	D	2:D	_
+7	(	(	PUNCT	-LRB-	_	2	U	2:U	_
+8	just	just	ADV	RB	_	9	E	9:E	_
+9	before	before	ADP	IN	_	2	L	2:L	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	premiere	premiere	NOUN	NN	_	2	H	2:H	_
+12	of	of	ADP	IN	_	21	R	21:R	_
+13	the	the	DET	DT	_	19	E	19:E	_
+14	first	first	ADJ	JJ	_	19	E	19:E	_
+15	feature	feature	NOUN	NN	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	length	length	NOUN	NN	_	19	E	19:E	_
+18	talking	talk	VERB	VBG	_	19	E	19:E	_
+19	picture	picture	NOUN	NN	_	21	E	21:E	_
+20	,	,	PUNCT	,	_	21	U	21:U	_
+21	The	the	DET	DT	_	11	A	11:A	_
+22	Jazz	Jazz	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Singer	Singer	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+25	,	,	PUNCT	,	_	2	U	2:U	_
+26	and	and	CCONJ	CC	_	2	L	2:L	_
+27	Jack	Jack	PROPN	NNP	_	28	A	28:A	_
+28	became	become	VERB	VBD	_	2	H	2:H	_
+29	sole	sole	ADJ	JJ	_	30	E	30:E	_
+30	head	head	NOUN	NN	_	28	A	28:A	_
+31	of	of	ADP	IN	_	30	R	30:R	_
+32	production	production	NOUN	NN	_	30	E	30:E	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 589003
+# text = Depp played the former Heath Ledger character in the 2009 film The Imaginarium of Doctor Parnassus along with Jude Law and Colin Farrell .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	7	E	7:E	_
+4	former	former	ADJ	JJ	_	5	E	5:E	_
+5	Heath	Heath	PROPN	NNP	_	7	E	7:E	_
+6	Ledger	ledger	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	character	character	NOUN	NN	_	2	A	2:A	_
+8	in	in	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	2009	2009	NUM	CD	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	12	E	12:E	_
+12	The	the	DET	DT	_	2	A	2:A	_
+13	Imaginarium	Imaginarium	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	of	of	ADP	IN	_	12	Terminal	12:Terminal	_
+15	Doctor	Doctor	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	Parnassus	Parnassus	PROPN	NNP	_	12	Terminal	12:Terminal	_
+17	along	along	ADP	IN	_	19	R	19:R	_
+18	with	with	ADP	IN	_	17	F	17:F	_
+19	Jude	Jude	PROPN	NNP	_	2	A	2:A	_
+20	Law	law	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	and	and	CCONJ	CC	_	19	N	19:N	_
+22	Colin	Colin	PROPN	NNP	_	19	C	19:C	_
+23	Farrell	Farrell	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	19	U	19:U	_
+

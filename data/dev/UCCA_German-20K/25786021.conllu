@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25786021
+# text = Ich dachte mir , dass ihr Schnabel gegen einen Eis block gefahren sei .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+6	ihr	ihr	DET	PPOSAT	_	7	E	7:E	_
+7	Schnabel	Schnabel	NOUN	NN	_	12	A	12:A	_
+8	gegen	gegen	ADP	APPR	_	11	R	11:R	_
+9	einen	ein	DET	ART	_	11	E	11:E	_
+10	Eis	Eis	NOUN	NN	_	11	E	11:E	_
+11	block	block	ADV	NE	_	12	A	12:A	_
+12	gefahren	fahren	VERB	VVPP	_	2	A	2:A	_
+13	sei	sein	AUX	NN	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

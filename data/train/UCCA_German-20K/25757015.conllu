@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25757015
+# text = » Sie haben den Pottfisch ein kleines Tier genannt . Doch führt man Beispiele von riesenmäßiger Größe an . Sie sind gescheit . Mitunter , sagt man , bedecken sie sich mit Algen und Meergras . Man hält sie für Eilande , lässt sich darauf nieder , macht Feuer an ... «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+3	haben	haben	VERB	VAFIN	_	9	F	9:F	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Pottfisch	Pottfisch	NOUN	NN	_	9	A	9:A	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	kleines	klein	ADJ	ADJA	_	8	E	8:E	_
+8	Tier	Tier	NOUN	NN	_	9	A	9:A	_
+9	genannt	nennen	AUX	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	Doch	doch	ADV	KON	_	9	L	9:L	_
+12	führt	führen	VERB	VVFIN	_	9	H	9:H	_
+13	man	man	PRON	PIS	_	12	A	12:A	_
+14	Beispiele	Beispiel	NOUN	NN	_	12	A	12:A	_
+15	von	von	ADP	NN	_	17	R	17:R	_
+16	riesenmäßiger	riesenmäßig	ADJ	ADJA	_	17	E	17:E	_
+17	Größe	Größe	NOUN	NN	_	14	E	14:E	_
+18	an	an	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+19	.	.	PUNCT	$.	_	9	U	9:U	_
+20	Sie	Sie|sie	PRON	PPER	_	22	A	22:A	_
+21	sind	sein	AUX	NE	_	22	F	22:F	_
+22	gescheit	scheien	ADJ	NN	_	9	H	9:H	_
+23	.	.	PUNCT	$.	_	9	U	9:U	_
+24	Mitunter	mitunter	NOUN	NE	_	29	D	29:D	_
+25	,	,	PUNCT	$,	_	26	U	26:U	_
+26	sagt	sagen	VERB	VVFIN	_	9	H	9:H	_
+27	man	man	PRON	PIS	_	26	A	26:A	_
+28	,	,	PUNCT	$,	_	26	U	26:U	_
+29	bedecken	bedecken	VERB	VVFIN	_	26	A	26:A	_
+30	sie	sie	PRON	ADV	_	29	A	29:A	_
+31	sich	er|es|sie	PRON	PRF	_	29	Terminal	29:Terminal	_
+32	mit	mit	ADP	APPR	_	33	R	33:R	_
+33	Algen	Alge	NOUN	NN	_	29	A	29:A	_
+34	und	und	CCONJ	NE	_	33	N	33:N	_
+35	Meergras	Meergra	NOUN	NN	_	33	C	33:C	_
+36	.	.	PUNCT	$.	_	9	U	9:U	_
+37	Man	man	PRON	PIS	_	38	A	38:A|48:A|43:A	_
+38	hält	halten	VERB	VVFIN	_	9	H	9:H	_
+39	sie	sie	PRON	ADV	_	38	A	38:A	_
+40	für	für	ADP	APPR	_	41	R	41:R	_
+41	Eilande	Eilande	NOUN	NE	_	38	A	38:A	_
+42	,	,	PUNCT	$,	_	9	U	9:U	_
+43	lässt	lassen	VERB	VVFIN	_	9	H	9:H	_
+44	sich	er|es|sie	PRON	PRF	_	43	Terminal	43:Terminal	_
+45	darauf	darauf	ADV	PAV	_	43	A	43:A	_
+46	nieder	nieder	ADV	XY	_	43	Terminal	43:Terminal	_
+47	,	,	PUNCT	$,	_	9	U	9:U	_
+48	macht	machen	VERB	VVFIN	_	9	H	9:H	_
+49	Feuer	Feuer	PROPN	NN	_	48	Terminal	48:Terminal	_
+50	an	an	ADP	APPR	_	48	Terminal	48:Terminal	_
+51	...	...	PUNCT	$(	_	48	U	48:U	_
+52	«	«	PUNCT	$(	_	48	U	48:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25476008
+# text = Einige Offiziere saßen schon oben auf den Masten .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Offiziere	Offizier	NOUN	NN	_	3	A	3:A	_
+3	saßen	sitzen	VERB	VVFIN	_	0	H	0:H	_
+4	schon	schon	ADV	ADV	_	3	D	3:D	_
+5	oben	oben	ADV	NN	_	3	D	3:D	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Masten	Masten	NOUN	NN	_	3	A	3:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

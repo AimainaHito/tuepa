@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 554015
+# text = In September 1941 , Presley entered first grade at East Tupelo Consolidated , where his instructors regarded him as " average " . He was encouraged to enter a singing contest after impressing his schoolteacher with a rendition of Red Foley 's country song " Old Shep " during morning prayers .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	September	September	PROPN	NNP	_	8	D	8:D	_
+3	1941	1941	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Presley	Presley	PROPN	NNP	_	8	A	8:A	_
+6	entered	enter	VERB	VBD	_	8	D	8:D	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	grade	grade	NOUN	NN	_	0	H	0:H	_
+9	at	at	ADP	IN	_	10	R	10:R	_
+10	East	East	PROPN	NNP	_	8	A	8:A	_
+11	Tupelo	Tupelo	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Consolidated	Consolidate	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	where	where	ADV	WRB	_	17	F	17:F	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	instructors	instructor	NOUN	NNS	_	17	A	17:A	_
+17	regarded	regard	VERB	VBD	_	10	E	10:E	_
+18	him	he	PRON	PRP	_	17	A	17:A	_
+19	as	as	ADP	IN	_	21	R	21:R	_
+20	"	"	PUNCT	``	_	21	U	21:U	_
+21	average	average	NOUN	NN	_	17	A	17:A	_
+22	"	"	PUNCT	''	_	8	U	8:U	_
+23	.	.	PUNCT	.	_	8	U	8:U	_
+24	He	he	PRON	PRP	_	26	A	26:A|28:A|33:A	_
+25	was	be	AUX	VBD	_	26	F	26:F	_
+26	encouraged	encourage	VERB	VBN	_	8	H	8:H	_
+27	to	to	PART	TO	_	8	L	8:L	_
+28	enter	enter	VERB	VB	_	8	H	8:H	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	singing	singe	VERB	VBG	_	31	E	31:E	_
+31	contest	contest	NOUN	NN	_	28	A	28:A	_
+32	after	after	SCONJ	IN	_	8	L	8:L	_
+33	impressing	impresse	VERB	VBG	_	8	H	8:H	_
+34	his	he	PRON	PRP$	_	35	E	35:E	_
+35	schoolteacher	schoolteacher	NOUN	NN	_	33	A	33:A	_
+36	with	with	ADP	IN	_	38	R	38:R	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	rendition	rendition	NOUN	NN	_	33	A	33:A	_
+39	of	of	ADP	IN	_	46	R	46:R	_
+40	Red	Red	PROPN	NNP	_	46	E	46:E	_
+41	Foley	Foley	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	's	's	PART	POS	_	40	R	40:R	_
+43	country	country	NOUN	NN	_	44	E	44:E	_
+44	song	song	NOUN	NN	_	46	E	46:E	_
+45	"	"	PUNCT	``	_	46	U	46:U	_
+46	Old	old	PROPN	NNP	_	38	E	38:E	_
+47	Shep	Shep	PROPN	NNP	_	46	Terminal	46:Terminal	_
+48	"	"	PUNCT	''	_	33	U	33:U	_
+49	during	during	ADP	IN	_	51	R	51:R	_
+50	morning	morning	NOUN	NN	_	51	E	51:E	_
+51	prayers	prayer	NOUN	NNS	_	33	A	33:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

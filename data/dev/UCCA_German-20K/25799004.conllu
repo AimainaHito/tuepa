@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25799004
+# text = Am folgenden Tag , dem 1 . April , als die ›Nautilus‹ an der Oberfläche fuhr , bekamen wir um Mittag westlich eine Küste in Sicht .
+1	Am	am	PROPN	ADJD	_	3	E	3:E	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	6	E	6:E	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	1	1	NUM	CARD	_	26	D	26:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	April	April	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	26	U	26:U	_
+10	als	als	SCONJ	KOUS	_	26	L	26:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	A	16:A	_
+13	an	an	ADP	APPR	_	15	R	15:R	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Oberfläche	Oberfläche	NOUN	NN	_	16	A	16:A	_
+16	fuhr	fahren	VERB	VVFIN	_	26	H	26:H	_
+17	,	,	PUNCT	$,	_	26	U	26:U	_
+18	bekamen	bekommen	VERB	VVFIN	_	26	D	26:D	_
+19	wir	wir	PRON	NE	_	26	A	26:A	_
+20	um	um	ADP	APPR	_	21	R	21:R	_
+21	Mittag	Mittag	NOUN	NN	_	26	D	26:D	_
+22	westlich	westlich	ADJ	CARD	_	26	D	26:D	_
+23	eine	ein	DET	ART	_	24	E	24:E	_
+24	Küste	Küste	NOUN	NN	_	26	A	26:A	_
+25	in	in	ADP	APPR	_	26	R	26:R	_
+26	Sicht	Sicht	NOUN	NN	_	0	H	0:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

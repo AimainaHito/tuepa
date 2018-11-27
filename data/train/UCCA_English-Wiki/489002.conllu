@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 489002
+# text = The film was a critical success , and was nominated for five Academy Awards in 2006 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	6	A	6:A|10:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	critical	critical	ADJ	JJ	_	6	A	6:A	_
+6	success	success	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	and	and	CCONJ	CC	_	6	L	6:L	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	nominated	nominate	VERB	VBN	_	6	H	6:H	_
+11	for	for	ADP	IN	_	13	R	13:R	_
+12	five	five	NUM	CD	_	13	E	13:E	_
+13	Academy	Academy	ADJ	JJ	_	10	A	10:A	_
+14	Awards	awards	NOUN	NNS	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	2006	2006	NUM	CD	_	10	D	10:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

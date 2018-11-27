@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 105005
+# text = Jolie was so disappointed with the film that she did not audition again for a year .
+1	Jolie	Jolie	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	so	so	ADV	RB	_	4	L	4:L	_
+4	disappointed	disappointed	ADJ	JJ	_	0	H	0:H	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	film	film	NOUN	NN	_	4	A	4:A	_
+8	that	that	SCONJ	IN	_	3	Terminal	3:Terminal	_
+9	she	she	PRON	PRP	_	12	A	12:A	_
+10	did	do	AUX	VBD	_	12	F	12:F	_
+11	not	not	PART	RB	_	12	D	12:D	_
+12	audition	audition	VERB	VB	_	4	H	4:H	_
+13	again	again	ADV	RB	_	12	D	12:D	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	year	year	NOUN	NN	_	12	D	12:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 66000
+# text = Born in Los Angeles , California , Jolie is the daughter of actors Jon Voight and Marcheline Bertrand .
+1	Born	bear	PROPN	NNP	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	Los	Los	PROPN	NNP	_	1	A	1:A	_
+4	Angeles	angeles	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	California	California	PROPN	NNP	_	3	E	3:E	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Jolie	Jolie	PROPN	NNP	_	9	A	9:A|1:A	_
+9	is	be	AUX	VBZ	_	1	H	1:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	daughter	daughter	NOUN	NN	_	9	A	9:A	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	actors	actor	NOUN	NNS	_	14	E	14:E	_
+14	Jon	Jon	PROPN	NNP	_	11	E	11:E	_
+15	Voight	Voight	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	and	and	CCONJ	CC	_	14	N	14:N	_
+17	Marcheline	Marcheline	PROPN	NNP	_	14	C	14:C	_
+18	Bertrand	Bertrand	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	14	U	14:U	_
+

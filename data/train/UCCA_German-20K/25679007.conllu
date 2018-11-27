@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25679007
+# text = » Und warum nicht ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Und	und	CCONJ	NE	_	3	L	3:L	_
+3	warum	warum	ADV	NE	_	0	H	0:H	_
+4	nicht	nicht	PART	CARD	_	3	D	3:D	_
+5	?	?	PUNCT	$.	_	3	U	3:U	_
+6	«	«	PUNCT	$(	_	3	U	3:U	_
+

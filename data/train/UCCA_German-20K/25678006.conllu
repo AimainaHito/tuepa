@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25678006
+# text = » Aber « , sagte Conseil , » man führt ja doch einzelne Perlen von sehr hohem Preis an ? « » Ja , Lieber . Man sagt , Cäsar habe der Servilia eine Perle überreicht , die nach heutiger Münze auf 120.000 Franc geschätzt wurde . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Aber	aber	NOUN	KON	_	10	L	10:L	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	man	man	PRON	PIS	_	10	A	10:A	_
+10	führt	führen	VERB	VVFIN	_	0	P	0:P|23:P	_
+11	ja	ja	ADV	ADV	_	10	F	10:F	_
+12	doch	doch	ADV	ADV	_	10	D	10:D	_
+13	einzelne	einzeln	ADJ	ADJA	_	14	E	14:E	_
+14	Perlen	Perle|Perlen	NOUN	NN	_	0	C	0:C|23:A	_
+15	von	von	ADP	NN	_	18	R	18:R	_
+16	sehr	sehr	ADV	NE	_	18	E	18:E	_
+17	hohem	hoch	ADJ	ADJA	_	18	E	18:E	_
+18	Preis	preisen	NOUN	NN	_	10	A	10:A	_
+19	an	an	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+20	?	?	PUNCT	$.	_	23	U	23:U	_
+21	«	«	PUNCT	$(	_	23	U	23:U	_
+22	»	»	PUNCT	$(	_	23	U	23:U	_
+23	Ja	ja	PROPN	PTKANT	_	5	H	5:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	Lieber	lieber	PROPN	NN	_	23	G	23:G	_
+26	.	.	PUNCT	$.	_	23	U	23:U	_
+27	Man	man	PRON	PIS	_	28	A	28:A	_
+28	sagt	sagen	VERB	VVFIN	_	23	H	23:H	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	Cäsar	Cäsar	PROPN	NE	_	36	A	36:A	_
+31	habe	haben	AUX	VAFIN	_	36	F	36:F	_
+32	der	der	DET	ART	_	33	R	33:R	_
+33	Servilia	Servilia	NOUN	NE	_	36	A	36:A	_
+34	eine	ein	DET	ART	_	35	E	35:E	_
+35	Perle	Perl	NOUN	NN	_	36	A	36:A	_
+36	überreicht	überreichen	VERB	VVPP	_	28	A	28:A	_
+37	,	,	PUNCT	$,	_	36	U	36:U	_
+38	die	der	PRON	PRELS	_	45	R	45:R	_
+39	nach	nach	ADP	XY	_	41	R	41:R	_
+40	heutiger	heutig	ADJ	ADJA	_	41	E	41:E	_
+41	Münze	Münze	NOUN	NN	_	45	D	45:D	_
+42	auf	auf	ADP	APPR	_	44	R	44:R	_
+43	120.000	120.0	NUM	CARD	_	44	E	44:E	_
+44	Franc	Franc	PROPN	NN	_	45	A	45:A	_
+45	geschätzt	schätzen	VERB	VVPP	_	35	E	35:E	_
+46	wurde	werden	AUX	TRUNC	_	45	F	45:F	_
+47	.	.	PUNCT	$.	_	45	U	45:U	_
+48	«	«	PUNCT	$(	_	45	U	45:U	_
+

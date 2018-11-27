@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25809000
+# text = » Fischt man sie noch heutigentags ? « fragte der Kanadier .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Fischt	Fischt	VERB	VVFIN	_	9	A	9:A	_
+3	man	man	PRON	PIS	_	2	A	2:A	_
+4	sie	sie	PRON	ADV	_	2	A	2:A	_
+5	noch	noch	ADV	CARD	_	2	D	2:D	_
+6	heutigentags	heutigentags	ADV	ADV	_	2	D	2:D	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

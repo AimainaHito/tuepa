@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 650009
+# text = Biographer Bill Harry records that following Bloody Sunday , Lennon and Ono financially supported the production of the film The Irish Tapes , a political documentary with a Republican slant .
+1	Biographer	Biographer	PROPN	NNP	_	4	A	4:A	_
+2	Bill	Bill	PROPN	NNP	_	1	E	1:E	_
+3	Harry	Harry	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	records	record	NOUN	NNS	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	7	F	7:F	_
+6	following	follow	VERB	VBG	_	7	L	7:L	_
+7	Bloody	bloody	PROPN	NNP	_	4	A	4:A	_
+8	Sunday	Sunday	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	Lennon	Lennon	PROPN	NNP	_	14	A	14:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	Ono	Ono	PROPN	NNP	_	10	C	10:C	_
+13	financially	financially	ADV	RB	_	14	D	14:D	_
+14	supported	support	VERB	VBD	_	7	H	7:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	production	production	NOUN	NN	_	14	A	14:A	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	film	film	NOUN	NN	_	20	E	20:E	_
+20	The	the	DET	DT	_	16	A	16:A	_
+21	Irish	irish	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Tapes	Tapes	PROPN	NNPS	_	20	Terminal	20:Terminal	_
+23	,	,	PUNCT	,	_	20	U	20:U	_
+24	a	a	DET	DT	_	26	E	26:E	_
+25	political	political	ADJ	JJ	_	26	E	26:E	_
+26	documentary	documentary	NOUN	NN	_	20	E	20:E	_
+27	with	with	ADP	IN	_	30	R	30:R	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	Republican	republican	ADJ	JJ	_	30	E	30:E	_
+30	slant	slant	NOUN	NN	_	26	E	26:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

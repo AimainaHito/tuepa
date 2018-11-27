@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25490013
+# text = Denn jeder Mensch verbraucht binnen einer Stunde den in 100 Liter Luft enthaltenen Sauerstoff , und diese Luft , die dann mit einer fast gleichen Quantität Kohlensäure beschwert ist , wird zum Einatmen untauglich .
+1	Denn	denn	SCONJ	KON	_	4	L	4:L	_
+2	jeder	jed	PRON	PIAT	_	3	E	3:E	_
+3	Mensch	Mensch	NOUN	NN	_	4	A	4:A	_
+4	verbraucht	verbrauchen	VERB	VVFIN	_	0	H	0:H	_
+5	binnen	binnen	ADP	APPR	_	6	E	6:E	_
+6	einer	ein	DET	ART	_	4	D	4:D	_
+7	Stunde	Stunde	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	den	der	DET	ART	_	14	E	14:E	_
+9	in	in	ADP	APPR	_	13	R	13:R	_
+10	100	100	NUM	CARD	_	11	E	11:E	_
+11	Liter	Liter	NOUN	NN	_	12	E	12:E	_
+12	Luft	Luft	NOUN	NN	_	13	A	13:A	_
+13	enthaltenen	enthalten	ADJ	ADJA	_	14	E	14:E	_
+14	Sauerstoff	Sauerstoff	NOUN	NN	_	4	A	4:A	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	und	und	CCONJ	NE	_	4	L	4:L	_
+17	diese	dies	PRON	PDAT	_	18	E	18:E	_
+18	Luft	Luft	NOUN	NN	_	34	A	34:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	die	der	PRON	PRELS	_	28	R	28:R	_
+21	dann	dann	ADV	ADV	_	28	D	28:D	_
+22	mit	mit	ADP	APPR	_	27	R	27:R	_
+23	einer	ein	DET	ART	_	26	E	26:E	_
+24	fast	fast	ADV	ADV	_	25	E	25:E	_
+25	gleichen	gleich	ADJ	ADJA	_	26	E	26:E	_
+26	Quantität	Quantität	NOUN	NN	_	27	E	27:E	_
+27	Kohlensäure	Kohlensäure	NOUN	NE	_	28	A	28:A	_
+28	beschwert	beschweren	VERB	ADJD	_	18	E	18:E	_
+29	ist	sein	AUX	NN	_	28	F	28:F	_
+30	,	,	PUNCT	$,	_	34	U	34:U	_
+31	wird	werden	AUX	VAFIN	_	34	F	34:F	_
+32	zum	zum	ADP	NN	_	33	R	33:R	_
+33	Einatmen	Einatmen	NOUN	NN	_	34	A	34:A	_
+34	untauglich	untauglich	ADJ	ADJD	_	4	H	4:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

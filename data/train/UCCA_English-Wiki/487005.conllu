@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 487005
+# text = Only after Read himself suggested Bana , having seen him perform a skit on television , did Dominik consider him for the part .
+1	Only	only	ADV	RB	_	2	E	2:E	_
+2	after	after	ADV	RB	_	5	L	5:L	_
+3	Read	read	VERB	VB	_	5	A	5:A|9:A	_
+4	himself	himself	PRON	PRP	_	5	D	5:D	_
+5	suggested	suggest	VERB	VBN	_	0	H	0:H	_
+6	Bana	Bana	PROPN	NNP	_	5	A	5:A	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	having	have	AUX	VBG	_	5	L	5:L	_
+9	seen	see	VERB	VBN	_	5	H	5:H	_
+10	him	he	PRON	PRP	_	9	A	9:A|11:A	_
+11	perform	perform	VERB	VB	_	9	A	9:A	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	skit	skit	NOUN	NN	_	11	A	11:A	_
+14	on	on	ADP	IN	_	15	R	15:R	_
+15	television	television	NOUN	NN	_	13	E	13:E	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	did	do	AUX	VBD	_	2	F	2:F	_
+18	Dominik	Dominik	PROPN	NNP	_	19	A	19:A	_
+19	consider	consider	VERB	VB	_	5	H	5:H	_
+20	him	he	PRON	PRP	_	19	A	19:A	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	part	part	NOUN	NN	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

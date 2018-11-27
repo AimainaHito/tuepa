@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 693008
+# text = Most attempted to impart a pop feel and rhythm to the songs , while Dylan and Baez performed them mostly as sparse folk pieces .
+1	Most	most	ADJ	JJS	_	4	A	4:A	_
+2	attempted	attempt	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	impart	impart	VERB	VB	_	0	H	0:H	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	pop	pop	NOUN	NN	_	4	A	4:A	_
+7	feel	feel	NOUN	NN	_	6	E	6:E	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	rhythm	rhythm	NOUN	NN	_	7	C	7:C	_
+10	to	to	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	songs	song	NOUN	NNS	_	4	A	4:A	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	while	while	SCONJ	IN	_	4	L	4:L	_
+15	Dylan	Dylan	PROPN	NNP	_	18	A	18:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	Baez	Baez	PROPN	NNP	_	15	C	15:C	_
+18	performed	perform	VERB	VBD	_	4	H	4:H	_
+19	them	they	PRON	PRP	_	18	A	18:A	_
+20	mostly	mostly	ADV	RB	_	18	D	18:D	_
+21	as	as	ADP	IN	_	24	R	24:R	_
+22	sparse	sparse	ADJ	JJ	_	24	E	24:E	_
+23	folk	folk	NOUN	NN	_	24	E	24:E	_
+24	pieces	piece	NOUN	NNS	_	18	A	18:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

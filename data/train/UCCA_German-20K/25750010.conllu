@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25750010
+# text = An diesem Tag wurde die ›Nautilus‹ zu Sondierungen verwendet , die mein lebhaftes Interesse erregten .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	9	D	9:D	_
+4	wurde	werden	AUX	TRUNC	_	9	F	9:F	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	9	A	9:A	_
+7	zu	zu	ADP	NE	_	8	R	8:R	_
+8	Sondierungen	Sondierung	NOUN	NE	_	9	A	9:A	_
+9	verwendet	verwenden	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	15	R	15:R	_
+12	mein	mein	PRON	PPOSAT	_	14	E	14:E	_
+13	lebhaftes	lebhaftes	ADJ	ADJA	_	14	E	14:E	_
+14	Interesse	Interesse	NOUN	NN	_	15	A	15:A	_
+15	erregten	erregen	VERB	VVFIN	_	8	E	8:E	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

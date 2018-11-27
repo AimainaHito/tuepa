@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25748014
+# text = Den Gegenstand zur Sprache zu bringen , konnte ihm Verdacht einflößen , der unseren Plänen schaden musste , wenn sich später eine günstige Gelegenheit ergeben sollte , sie wieder vorzunehmen ?
+1	Den	der	DET	ART	_	2	E	2:E	_
+2	Gegenstand	Gegenstand	NOUN	NN	_	4	A	4:A	_
+3	zur	zur	ADP	NE	_	4	R	4:R	_
+4	Sprache	Sprache	NOUN	NN	_	11	A	11:A	_
+5	zu	zu	PART	NE	_	4	F	4:F	_
+6	bringen	bringen	VERB	VVINF	_	4	F	4:F	_
+7	,	,	PUNCT	$,	_	11	U	11:U	_
+8	konnte	können	AUX	VMFIN	_	11	D	11:D	_
+9	ihm	er	PRON	PPER	_	11	A	11:A	_
+10	Verdacht	Verdacht	NOUN	NN	_	11	A	11:A	_
+11	einflößen	einflößen	VERB	VVINF	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	der	der	PRON	PRELS	_	16	R	16:R	_
+14	unseren	unser	PRON	PPOSAT	_	15	E	15:E	_
+15	Plänen	Plan	NOUN	NN	_	16	A	16:A	_
+16	schaden	schaden	VERB	NN	_	10	E	10:E	_
+17	musste	müssen	AUX	VVFIN	_	16	D	16:D	_
+18	,	,	PUNCT	$,	_	11	U	11:U	_
+19	wenn	wenn	SCONJ	VVFIN	_	11	L	11:L	_
+20	sich	er|es|sie	PRON	PRF	_	11	H	11:H	_
+21	später	spät	ADJ	ADJD	_	20	D	20:D	_
+22	eine	ein	DET	ART	_	24	E	24:E	_
+23	günstige	günstig	ADJ	ADJA	_	24	E	24:E	_
+24	Gelegenheit	Gelegenheit	NOUN	NN	_	30	A	30:A	_
+25	ergeben	ergeben	VERB	VVINF	_	20	Terminal	20:Terminal	_
+26	sollte	sollen	AUX	VMFIN	_	20	D	20:D	_
+27	,	,	PUNCT	$,	_	20	U	20:U	_
+28	sie	sie	PRON	ADV	_	30	A	30:A	_
+29	wieder	wieder	ADV	NE	_	30	D	30:D	_
+30	vorzunehmen	vorzunehmen	VERB	VVINF	_	20	A	20:A	_
+31	?	?	PUNCT	$.	_	30	U	30:U	_
+

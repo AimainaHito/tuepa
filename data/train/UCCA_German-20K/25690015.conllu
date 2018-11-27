@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25690015
+# text = Wohin führte uns Kapitän Nemo ?
+1	Wohin	wohin	ADV	PWAV	_	2	A	2:A	_
+2	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	A	2:A	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	2	A	2:A	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+

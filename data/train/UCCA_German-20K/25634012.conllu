@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25634012
+# text = Ihr wolliges , rotes Haar stach gegen die Hautfarbe ab , die schwarz und glänzend wie bei den Nubiern war .
+1	Ihr	Ihr|ihr	PRON	PPOSAT	_	5	E	5:E	_
+2	wolliges	wolliges	PRON	ADJA	_	5	E	5:E	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	rotes	rot	ADJ	ADJA	_	5	E	5:E	_
+5	Haar	haar	PROPN	NN	_	6	A	6:A	_
+6	stach	stechen	VERB	VVFIN	_	0	H	0:H	_
+7	gegen	gegen	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Hautfarbe	Hautfarbe	NOUN	NN	_	6	A	6:A	_
+10	ab	ab	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	die	der	PRON	PRELS	_	13	R	13:R	_
+13	schwarz	schwarz	ADJ	ADJD	_	9	E	9:E	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	glänzend	glänzend	ADJ	ADJD	_	13	C	13:C	_
+16	wie	wie	ADP	KON	_	19	R	19:R	_
+17	bei	bei	ADP	APPR	_	19	E	19:E	_
+18	den	der	DET	ART	_	19	E	19:E	_
+19	Nubiern	Nubier	NOUN	NN	_	13	A	13:A	_
+20	war	sein	AUX	ADV	_	13	F	13:F	_
+21	.	.	PUNCT	$.	_	13	U	13:U	_
+

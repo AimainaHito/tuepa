@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 148004
+# text = Rumors have existed since the 1930s that Hepburn may have been a lesbian or bisexual .
+1	Rumors	rumor	NOUN	NNS	_	3	A	3:A	_
+2	have	have	AUX	VBP	_	3	F	3:F	_
+3	existed	exist	VERB	VBN	_	0	H	0:H	_
+4	since	since	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	1930s	1930	NOUN	NNS	_	3	D	3:D	_
+7	that	that	PRON	WDT	_	11	R	11:R	_
+8	Hepburn	Hepburn	PROPN	NNP	_	11	A	11:A	_
+9	may	may	AUX	MD	_	11	D	11:D	_
+10	have	have	AUX	VB	_	11	F	11:F	_
+11	been	be	AUX	VBN	_	3	A	3:A	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	lesbian	lesbian	ADJ	JJ	_	11	A	11:A	_
+14	or	or	CCONJ	CC	_	13	N	13:N	_
+15	bisexual	bisexual	ADJ	JJ	_	13	C	13:C	_
+16	.	.	PUNCT	.	_	13	U	13:U	_
+

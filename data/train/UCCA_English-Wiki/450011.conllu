@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 450011
+# text = It was in Brockville that the 21 - year - old Jennings started his rise in broadcasting .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	15	A	15:A	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	Brockville	Brockville	PROPN	NNP	_	2	A	2:A	_
+5	that	that	PRON	WDT	_	15	F	15:F	_
+6	the	the	DET	DT	_	12	E	12:E	_
+7	21	21	NUM	CD	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	year	year	NOUN	NN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	old	old	ADJ	JJ	_	12	E	12:E	_
+12	Jennings	Jenning	NOUN	NNS	_	15	A	15:A	_
+13	started	start	VERB	VBD	_	15	D	15:D	_
+14	his	he	PRON	PRP$	_	15	E	15:E	_
+15	rise	rise	NOUN	NN	_	0	H	0:H	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	broadcasting	broadcasting	NOUN	NN	_	15	A	15:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 244003
+# text = He later transferred to the Hun School of Princeton , a secondary boarding school , from which he graduated in 1988 .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	L	3:L	_
+3	transferred	transfer	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	Hun	Hun	PROPN	NNP	_	7	E	7:E	_
+7	School	School	PROPN	NNP	_	3	A	3:A	_
+8	of	of	ADP	IN	_	9	R	9:R	_
+9	Princeton	Princeton	PROPN	NNP	_	7	E	7:E	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	secondary	secondary	ADJ	JJ	_	14	E	14:E	_
+13	boarding	boarding	NOUN	NN	_	14	E	14:E	_
+14	school	school	NOUN	NN	_	7	E	7:E	_
+15	,	,	PUNCT	,	_	7	U	7:U	_
+16	from	from	ADP	IN	_	19	A	19:A	_
+17	which	which	PRON	WDT	_	19	F	19:F	_
+18	he	he	PRON	PRP	_	19	A	19:A	_
+19	graduated	graduate	VERB	VBD	_	7	E	7:E	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1988	1988	NUM	CD	_	19	D	19:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

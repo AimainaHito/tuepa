@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 490020
+# text = On 21 April 2007 Bana crashed his 1974 XB Falcon Coupe in the Targa Tasmania rally .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	21	21	NUM	CD	_	6	D	6:D	_
+3	April	April	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	2007	2007	NUM	CD	_	2	Terminal	2:Terminal	_
+5	Bana	Bana	PROPN	NNP	_	6	A	6:A	_
+6	crashed	crash	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	1974	1974	NUM	CD	_	9	E	9:E	_
+9	XB	XB	PROPN	NNP	_	6	A	6:A	_
+10	Falcon	Falcon	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Coupe	Coupe	PROPN	NNP	_	9	E	9:E	_
+12	in	in	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Targa	Targa	PROPN	NNP	_	6	A	6:A	_
+15	Tasmania	Tasmania	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	rally	rally	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

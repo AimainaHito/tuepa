@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 195006
+# text = In 2003 Sorkin divulged to the American television interviewer Charlie Rose on The Charlie Rose Show that he was developing a TV series based on a late - night sketch comedy show like Saturday Night Live .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2003	2003	NUM	CD	_	4	D	4:D	_
+3	Sorkin	Sorkin	PROPN	NNP	_	4	A	4:A	_
+4	divulged	divulge	VERB	VBD	_	0	H	0:H	_
+5	to	to	ADP	IN	_	9	R	9:R	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	American	american	ADJ	JJ	_	9	E	9:E	_
+8	television	television	NOUN	NN	_	9	E	9:E	_
+9	interviewer	interviewer	NOUN	NN	_	10	E	10:E	_
+10	Charlie	Charlie	PROPN	NNP	_	4	A	4:A	_
+11	Rose	rise	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	on	on	ADP	IN	_	13	R	13:R	_
+13	The	the	DET	DT	_	4	A	4:A	_
+14	Charlie	Charlie	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Rose	Rose	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Show	show	VERB	VBD	_	13	Terminal	13:Terminal	_
+17	that	that	SCONJ	IN	_	20	F	20:F	_
+18	he	he	PRON	PRP	_	20	A	20:A	_
+19	was	be	AUX	VBD	_	20	F	20:F	_
+20	developing	develop	VERB	VBG	_	4	A	4:A	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	TV	tv	NOUN	NN	_	23	E	23:E	_
+23	series	series	NOUN	NN	_	20	A	20:A	_
+24	based	base	VERB	VBN	_	23	E	23:E	_
+25	on	on	ADP	IN	_	32	R	32:R	_
+26	a	a	DET	DT	_	32	E	32:E	_
+27	late	late	ADJ	JJ	_	29	E	29:E	_
+28	-	-	PUNCT	HYPH	_	29	U	29:U	_
+29	night	night	NOUN	NN	_	32	E	32:E	_
+30	sketch	sketch	NOUN	NN	_	31	E	31:E	_
+31	comedy	comedy	NOUN	NN	_	32	E	32:E	_
+32	show	show	NOUN	NN	_	24	A	24:A	_
+33	like	like	ADP	IN	_	34	R	34:R	_
+34	Saturday	Saturday	PROPN	NNP	_	32	E	32:E	_
+35	Night	night	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	Live	Live	PROPN	NNP	_	34	Terminal	34:Terminal	_
+37	.	.	PUNCT	.	_	34	U	34:U	_
+

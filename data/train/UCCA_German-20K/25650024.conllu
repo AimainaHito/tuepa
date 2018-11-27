@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25650024
+# text = Es lag nicht allein eine Quetschung , sondern auch eine Erschütterung des Gehirns vor .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	lag	liegen	VERB	VVFIN	_	0	H	0:H	_
+3	nicht	nicht	PART	CARD	_	6	N	6:N	_
+4	allein	allein	ADV	ADV	_	3	Terminal	3:Terminal	_
+5	eine	ein	DET	ART	_	6	E	6:E	_
+6	Quetschung	Quetschung	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sondern	sondern	CCONJ	NN	_	6	N	6:N	_
+9	auch	auch	ADV	ADV	_	8	Terminal	8:Terminal	_
+10	eine	ein	DET	ART	_	11	E	11:E	_
+11	Erschütterung	Erschütterung	NOUN	NN	_	6	C	6:C	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Gehirns	Gehirn	NOUN	NN	_	11	A	11:A	_
+14	vor	vor	ADP	NN	_	2	Terminal	2:Terminal	_
+15	.	.	PUNCT	$.	_	2	U	2:U	_
+

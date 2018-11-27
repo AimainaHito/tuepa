@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25796023
+# text = War er gestorben ?
+1	War	sein	AUX	ADV	_	3	F	3:F	_
+2	er	er	PRON	PPER	_	3	A	3:A	_
+3	gestorben	sterben	VERB	VVPP	_	0	H	0:H	_
+4	?	?	PUNCT	$.	_	3	U	3:U	_
+

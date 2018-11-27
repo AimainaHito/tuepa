@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25648013
+# text = Conseil tat sich Gewalt an , stets aus Vorsorge , und Ned Land ließ es , trotz allem nicht an der Tätigkeit seiner Zähne fehlen .
+1	Conseil	Conseil	PROPN	NE	_	2	A	2:A|9:A	_
+2	tat	tun	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	Gewalt	Gewalt	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	9	U	9:U	_
+7	stets	stets	ADV	ADV	_	9	D	9:D	_
+8	aus	aus	ADP	APPR	_	9	R	9:R	_
+9	Vorsorge	Vorsorge	NOUN	NN	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	Ned	Ned	PROPN	NE	_	25	A	25:A	_
+13	Land	Land	PROPN	NE	_	12	Terminal	12:Terminal	_
+14	ließ	lassen	VERB	VVFIN	_	25	D	25:D	_
+15	es	es	PRON	PPER	_	25	F	25:F	_
+16	,	,	PUNCT	$,	_	25	U	25:U	_
+17	trotz	trotz	ADP	APPR	_	18	E	18:E	_
+18	allem	alle	PRON	PIS	_	25	A	25:A	_
+19	nicht	nicht	PART	XY	_	22	D	22:D	_
+20	an	an	ADP	APPR	_	22	R	22:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Tätigkeit	Tätigkeit	NOUN	NN	_	25	A	25:A	_
+23	seiner	sein	DET	PPOSAT	_	24	R	24:R	_
+24	Zähne	Zahn	NOUN	NN	_	22	A	22:A	_
+25	fehlen	fehlen	VERB	VVINF	_	2	H	2:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25635009
+# text = Aber am Ufer sah ich ihre Zahl bedeutend anwachsen .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	am	am	ADJ	ADJD	_	3	R	3:R	_
+3	Ufer	Ufer	NOUN	NN	_	4	A	4:A	_
+4	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	ihre	ihr	DET	PPOSAT	_	7	E	7:E	_
+7	Zahl	Zahl	NOUN	NN	_	9	A	9:A	_
+8	bedeutend	bedeutend	ADJ	ADJD	_	9	D	9:D	_
+9	anwachsen	anwachsen	ADJ	VVPP	_	4	A	4:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

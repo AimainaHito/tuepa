@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 780001
+# text = Je descendis les quelques marches qui conduisaient au rez - de - chaussée .
+1	Je	il	PRON	_	_	2	A	2:A	_
+2	descendis	descendire	VERB	_	_	0	H	0:H	_
+3	les	le	DET	_	_	5	E	5:E	_
+4	quelques	quelque	DET	_	_	5	E	5:E	_
+5	marches	marche	NOUN	_	_	2	A	2:A	_
+6	qui	qui	PRON	_	_	7	R	7:R	_
+7	conduisaient	conduiser	VERB	_	_	5	E	5:E	_
+8	au	au	NOUN	_	_	9	R	9:R	_
+9	rez	r	VERB	_	_	7	A	7:A	_
+10	-	-	PUNCT	_	_	9	U	9:U	_
+11	de	de	ADP	_	_	9	Terminal	9:Terminal	_
+12	-	-	PUNCT	_	_	9	U	9:U	_
+13	chaussée	chausser	NOUN	_	_	9	Terminal	9:Terminal	_
+14	.	.	PUNCT	_	_	9	U	9:U	_
+

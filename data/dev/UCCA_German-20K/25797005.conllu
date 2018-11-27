@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25797005
+# text = Meine beiden Gefährten an meiner Seite tranken in vollen Zügen die Erfrischung .
+1	Meine	mein	PRON	PPOSAT	_	3	E	3:E	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Gefährten	Gefährt|Gefährte	NOUN	NE	_	7	A	7:A	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	meiner	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Seite	Seite	NOUN	NN	_	3	E	3:E	_
+7	tranken	tranken	VERB	VVFIN	_	0	H	0:H	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	vollen	voll	ADJ	ADJA	_	10	E	10:E	_
+10	Zügen	Zug	NOUN	NN	_	7	A	7:A	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Erfrischung	Erfrischung	NOUN	NN	_	7	A	7:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

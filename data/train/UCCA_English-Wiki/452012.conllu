@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 452012
+# text = The documentary established Jennings as Sadat 's favorite correspondent .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	documentary	documentary	NOUN	NN	_	3	A	3:A	_
+3	established	establish	VERB	VBN	_	0	H	0:H	_
+4	Jennings	Jenning	PROPN	NNP	_	3	A	3:A	_
+5	as	as	ADP	IN	_	9	R	9:R	_
+6	Sadat	Sadat	PROPN	NNP	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	favorite	favorite	ADJ	JJ	_	9	E	9:E	_
+9	correspondent	correspondent	NOUN	NN	_	3	A	3:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

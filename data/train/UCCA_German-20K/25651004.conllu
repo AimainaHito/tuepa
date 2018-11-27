@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25651004
+# text = » Was liegt daran ? « versetzte der Kapitän ausweichend . » Ein Stoß der " Nautilus " hat einen Hebel der Maschine zerbrochen , und dieser hat den Mann getroffen . Aber was halten Sie von seinem Zustand ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Was	was	PRON	NE	_	3	A	3:A	_
+3	liegt	liegen	VERB	VVFIN	_	7	A	7:A	_
+4	daran	daran	ADV	PAV	_	3	A	3:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+10	ausweichend	ausweichend	ADJ	ADJD	_	7	D	7:D	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+12	»	»	PUNCT	$(	_	7	U	7:U	_
+13	Ein	ein	DET	ART	_	14	E	14:E	_
+14	Stoß	Stoß	NOUN	NN	_	24	A	24:A	_
+15	der	der	DET	ART	_	17	R	17:R	_
+16	"	"	PUNCT	$(	_	17	U	17:U	_
+17	Nautilus	Nautilus	PROPN	NE	_	14	E	14:E	_
+18	"	"	PUNCT	$(	_	24	U	24:U	_
+19	hat	haben	VERB	VAFIN	_	24	F	24:F	_
+20	einen	ein	DET	ART	_	21	E	21:E	_
+21	Hebel	Hebel	NOUN	NN	_	24	A	24:A	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Maschine	Maschine	NOUN	NN	_	21	E	21:E	_
+24	zerbrochen	zerbroch	ADJ	ADJA	_	3	H	3:H	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	und	und	CCONJ	NE	_	3	L	3:L	_
+27	dieser	dies	PRON	PDS	_	31	A	31:A	_
+28	hat	haben	AUX	VAFIN	_	31	F	31:F	_
+29	den	der	DET	ART	_	30	E	30:E	_
+30	Mann	Mann	NOUN	NN	_	31	A	31:A	_
+31	getroffen	troffen	ADJ	VVPP	_	3	H	3:H	_
+32	.	.	PUNCT	$.	_	3	U	3:U	_
+33	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+34	was	was	PRON	NE	_	35	A	35:A	_
+35	halten	halten	VERB	VVFIN	_	3	H	3:H	_
+36	Sie	Sie|sie	PRON	PPER	_	35	A	35:A	_
+37	von	von	ADP	NN	_	39	R	39:R	_
+38	seinem	sein	DET	PPOSAT	_	39	E	39:E	_
+39	Zustand	Zustand	NOUN	NN	_	35	A	35:A	_
+40	?	?	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

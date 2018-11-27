@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 603004
+# text = McCartney 's " She 's Leaving Home " was an orchestral pop song .
+1	McCartney	McCartney	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	"	"	PUNCT	``	_	4	U	4:U	_
+4	She	she	PRON	PRP	_	9	A	9:A	_
+5	's	be	AUX	VBZ	_	4	Terminal	4:Terminal	_
+6	Leaving	leave	VERB	VBG	_	4	Terminal	4:Terminal	_
+7	Home	home	NOUN	NN	_	4	Terminal	4:Terminal	_
+8	"	"	PUNCT	''	_	9	U	9:U	_
+9	was	be	AUX	VBD	_	0	H	0:H	_
+10	an	a	DET	DT	_	13	E	13:E	_
+11	orchestral	orchestral	ADJ	JJ	_	13	E	13:E	_
+12	pop	pop	NOUN	NN	_	13	E	13:E	_
+13	song	song	NOUN	NN	_	9	A	9:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 651003
+# text = Lennon 's last act of political activism was a statement in support of the striking minority sanitation workers in San Francisco on 5 December 1980 .
+1	Lennon	Lennon	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	last	last	ADJ	JJ	_	4	D	4:D	_
+4	act	act	NOUN	NN	_	8	A	8:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	political	political	ADJ	JJ	_	7	E	7:E	_
+7	activism	activism	NOUN	NN	_	4	A	4:A	_
+8	was	be	AUX	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	statement	statement	NOUN	NN	_	8	A	8:A	_
+11	in	in	ADP	IN	_	12	F	12:F	_
+12	support	support	NOUN	NN	_	10	E	10:E	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	striking	strike	VERB	VBG	_	12	A	12:A	_
+16	minority	minority	NOUN	NN	_	18	E	18:E	_
+17	sanitation	sanitation	NOUN	NN	_	18	E	18:E	_
+18	workers	worker	NOUN	NNS	_	15	A	15:A	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	San	San	PROPN	NNP	_	15	A	15:A	_
+21	Francisco	Francisco	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	on	on	ADP	IN	_	23	R	23:R	_
+23	5	5	NUM	CD	_	15	D	15:D	_
+24	December	December	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	1980	1980	NUM	CD	_	23	Terminal	23:Terminal	_
+26	.	.	PUNCT	.	_	23	U	23:U	_
+

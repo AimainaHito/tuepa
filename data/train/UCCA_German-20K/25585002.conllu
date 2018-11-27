@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25585002
+# text = » Und Sie wollen mich dahin führen ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Und	und	CCONJ	NN	_	7	L	7:L	_
+3	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+4	wollen	wollen	AUX	VMFIN	_	7	D	7:D	_
+5	mich	ich	PRON	PPER	_	7	A	7:A	_
+6	dahin	dahin	ADV	PAV	_	7	A	7:A	_
+7	führen	fahren|führen	VERB	VVINF	_	0	H	0:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

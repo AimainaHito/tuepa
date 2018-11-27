@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25472004
+# text = Darauf entfernte es sich 2 bis 3 Meilen , indem es einen phosphoreszierenden Streifen hinter sich ließ wie die Lokomotive ihre Dampf wirbel .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	entfernte	entfernen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	2	2	NUM	CARD	_	8	E	8:E	_
+6	bis	bis	ADP	KON	_	5	Terminal	5:Terminal	_
+7	3	3	NUM	CARD	_	5	Terminal	5:Terminal	_
+8	Meilen	Meile	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	indem	indem	SCONJ	KOUS	_	2	L	2:L	_
+11	es	es	PRON	PPER	_	17	A	17:A	_
+12	einen	ein	DET	ART	_	14	E	14:E	_
+13	phosphoreszierenden	phosphoreszierend	ADJ	ADJA	_	14	E	14:E	_
+14	Streifen	Streifen	NOUN	NN	_	17	A	17:A	_
+15	hinter	hinter	ADP	APPR	_	16	R	16:R	_
+16	sich	er|es|sie	PRON	PRF	_	17	A	17:A	_
+17	ließ	lassen	NOUN	VVFIN	_	2	H	2:H	_
+18	wie	wie	ADP	ADV	_	20	R	20:R	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Lokomotive	Lokomotive	NOUN	NN	_	2	H	2:H	_
+21	ihre	ihr	DET	PPOSAT	_	23	R	23:R	_
+22	Dampf	Dampf	NOUN	NN	_	23	E	23:E	_
+23	wirbel	wirbel	ADV	ADJD	_	20	A	20:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

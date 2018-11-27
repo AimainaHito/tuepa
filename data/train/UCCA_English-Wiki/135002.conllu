@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 135002
+# text = A story of married lawyers who oppose each other in court , Hepburn described it as " perfect for [ Tracy ] and me " . She was instrumental in getting Judy Holliday cast in the film , which kick - started the young actress 's Hollywood career .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	story	story	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	married	married	ADJ	JJ	_	5	E	5:E	_
+5	lawyers	lawyer	NOUN	NNS	_	2	E	2:E	_
+6	who	who	PRON	WP	_	7	F	7:F	_
+7	oppose	oppose	VERB	VBP	_	5	E	5:E	_
+8	each	each	DET	DT	_	7	D	7:D	_
+9	other	other	ADJ	JJ	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	court	court	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	Hepburn	Hepburn	PROPN	NNP	_	14	A	14:A	_
+14	described	describe	VERB	VBD	_	2	H	2:H	_
+15	it	it	PRON	PRP	_	14	A	14:A|18:A	_
+16	as	as	ADP	IN	_	18	R	18:R	_
+17	"	"	PUNCT	``	_	18	U	18:U	_
+18	perfect	perfect	ADJ	JJ	_	14	A	14:A	_
+19	for	for	ADP	IN	_	21	R	21:R	_
+20	[	[	PUNCT	-LRB-	_	21	U	21:U	_
+21	Tracy	Tracy	PROPN	NNP	_	18	A	18:A	_
+22	]	]	PUNCT	-RRB-	_	21	U	21:U	_
+23	and	and	CCONJ	CC	_	21	N	21:N	_
+24	me	I	PRON	PRP	_	21	C	21:C	_
+25	"	"	PUNCT	''	_	2	U	2:U	_
+26	.	.	PUNCT	.	_	2	U	2:U	_
+27	She	she	PRON	PRP	_	29	A	29:A|31:A	_
+28	was	be	AUX	VBD	_	29	D	29:D	_
+29	instrumental	instrumental	ADJ	JJ	_	2	H	2:H	_
+30	in	in	SCONJ	IN	_	31	F	31:F	_
+31	getting	get	VERB	VBG	_	29	A	29:A	_
+32	Judy	Judy	PROPN	NNP	_	34	A	34:A	_
+33	Holliday	Holliday	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	cast	cast	NOUN	NN	_	31	A	31:A	_
+35	in	in	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	film	film	NOUN	NN	_	0	C	0:C|42:A	_
+38	,	,	PUNCT	,	_	42	U	42:U	_
+39	which	which	DET	WDT	_	42	F	42:F	_
+40	kick	kick	NOUN	NN	_	42	E	42:E	_
+41	-	-	PUNCT	,	_	42	U	42:U	_
+42	started	start	VERB	VBD	_	34	A	34:A	_
+43	the	the	DET	DT	_	48	E	48:E	_
+44	young	young	ADJ	JJ	_	45	E	45:E	_
+45	actress	actress	NOUN	NN	_	48	E	48:E	_
+46	's	's	PART	POS	_	45	R	45:R	_
+47	Hollywood	Hollywood	NOUN	NN	_	48	E	48:E	_
+48	career	career	NOUN	NN	_	42	A	42:A	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

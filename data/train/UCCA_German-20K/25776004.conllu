@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25776004
+# text = » Es sind keine gefährlichen Tiere ? « fragte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Es	es	PRON	PPER	_	5	A	5:A	_
+3	sind	sein	AUX	NN	_	5	F	5:F	_
+4	keine	kein	PRON	PIAT	_	5	D	5:D	_
+5	gefährlichen	gefährlich	ADJ	ADJA	_	9	A	9:A	_
+6	Tiere	Tier	NOUN	NN	_	5	A	5:A	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	fragte	fragen	ADJ	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

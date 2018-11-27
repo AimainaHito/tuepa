@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25587000
+# text = » Vollkommen richtig , Kapitän Nemo ; aber die Luft , die Sie mitnehmen , muß sich doch bald verbrauchen , und sobald sie nur noch 15 Prozent Sauerstoff enthält , wird sie zum Einatmen unbrauchbar . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Vollkommen	vollkommen	VERB	NN	_	3	D	3:D	_
+3	richtig	richtig	ADJ	ADJD	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Kapitän	Kapitän	NOUN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	3	G	3:G	_
+7	;	;	PUNCT	$.	_	3	U	3:U	_
+8	aber	aber	ADV	ADV	_	3	L	3:L	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Luft	Luft	NOUN	NN	_	17	A	17:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	PRON	PRELS	_	14	R	14:R	_
+13	Sie	sie	PRON	PPER	_	14	A	14:A	_
+14	mitnehmen	mitnehmen	VERB	VVINF	_	10	E	10:E	_
+15	,	,	PUNCT	$,	_	17	U	17:U	_
+16	muß	müssen	AUX	VMFIN	_	17	D	17:D	_
+17	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+18	doch	doch	ADV	ADV	_	17	F	17:F	_
+19	bald	bald	ADV	ADV	_	17	D	17:D	_
+20	verbrauchen	verbrauchen	VERB	ADJA	_	17	Terminal	17:Terminal	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	und	und	CCONJ	NE	_	3	L	3:L	_
+23	sobald	sobald	SCONJ	NE	_	3	L	3:L	_
+24	sie	sie	PRON	ADV	_	30	A	30:A	_
+25	nur	nur	ADV	NE	_	26	E	26:E	_
+26	noch	noch	ADV	XY	_	30	D	30:D	_
+27	15	15	NUM	CARD	_	28	E	28:E	_
+28	Prozent	Prozent	NOUN	NN	_	29	E	29:E	_
+29	Sauerstoff	Sauerstoff	NOUN	NN	_	30	A	30:A	_
+30	enthält	enthalten	VERB	VVFIN	_	3	H	3:H	_
+31	,	,	PUNCT	$,	_	3	U	3:U	_
+32	wird	werden	AUX	VAFIN	_	36	F	36:F	_
+33	sie	sie	PRON	ADV	_	36	A	36:A	_
+34	zum	zum	ADP	NN	_	35	R	35:R	_
+35	Einatmen	Einatmen	NOUN	NN	_	36	A	36:A	_
+36	unbrauchbar	unbrauchbar	ADJ	ADJD	_	3	H	3:H	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+38	«	«	PUNCT	$(	_	36	U	36:U	_
+

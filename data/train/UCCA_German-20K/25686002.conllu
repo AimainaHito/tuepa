@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25686002
+# text = Ich hatte nicht die geringste Angst vor den Gefahren , die meine Phantasie so lächerlich übertrieben hatte .
+1	Ich	ich	PRON	PPER	_	6	A	6:A	_
+2	hatte	haben	VERB	VAFIN	_	6	F	6:F	_
+3	nicht	nicht	PART	CARD	_	6	D	6:D	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	geringste	gering	ADJ	ADJA	_	3	E	3:E	_
+6	Angst	Angst	NOUN	NN	_	0	H	0:H	_
+7	vor	vor	ADP	NE	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Gefahren	Gefahr	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	16	R	16:R	_
+12	meine	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Phantasie	Phantasie	NOUN	NN	_	16	A	16:A	_
+14	so	so	ADV	ADV	_	16	D	16:D	_
+15	lächerlich	lächerlich	ADJ	ADJD	_	16	D	16:D	_
+16	übertrieben	übertrieben	VERB	VVPP	_	9	E	9:E	_
+17	hatte	haben	AUX	VAFIN	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

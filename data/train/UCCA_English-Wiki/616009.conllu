@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 616009
+# text = McCartney became interested in painting after watching artist Willem de Kooning work in de Kooning 's Long Island studio .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A|7:A	_
+2	became	become	VERB	VBD	_	3	D	3:D	_
+3	interested	interested	ADJ	JJ	_	0	H	0:H	_
+4	in	in	SCONJ	IN	_	5	R	5:R	_
+5	painting	painting	VERB	VBG	_	3	A	3:A	_
+6	after	after	SCONJ	IN	_	3	L	3:L	_
+7	watching	watch	VERB	VBG	_	3	H	3:H	_
+8	artist	artist	NOUN	NN	_	9	E	9:E	_
+9	Willem	Willem	PROPN	NNP	_	7	A	7:A	_
+10	de	de	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Kooning	Koon	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	work	work	NOUN	NN	_	7	A	7:A	_
+13	in	in	ADP	IN	_	19	R	19:R	_
+14	de	de	PROPN	NNP	_	19	E	19:E	_
+15	Kooning	Koon	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	's	's	PART	POS	_	14	R	14:R	_
+17	Long	long	PROPN	NNP	_	19	E	19:E	_
+18	Island	Island	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	studio	studio	NOUN	NN	_	12	A	12:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

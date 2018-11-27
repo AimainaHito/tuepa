@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25585011
+# text = » Ganz gewiß ist der Mann gehirn krank « , dachte ich . » Seit 8 Tagen hing er einer verrückten Idee nach und dieser Zustand dauert noch fort . Es ist schade ! Ich wünschte , er wäre lieber ein Sonderling als ein Narr ! «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Ganz	ganz	NOUN	ADV	_	3	E	3:E	_
+3	gewiß	gewiß	ADJ	ADJD	_	8	G	8:G	_
+4	ist	sein	AUX	VVFIN	_	8	F	8:F	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Mann	Mann	NOUN	NN	_	8	A	8:A	_
+7	gehirn	hirn	AUX	VVINF	_	8	E	8:E	_
+8	krank	krinken	VERB	ADJD	_	11	A	11:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+14	»	»	PUNCT	$(	_	11	U	11:U	_
+15	Seit	seit	ADP	APPR	_	16	E	16:E	_
+16	8	8	NUM	CARD	_	18	D	18:D	_
+17	Tagen	Tag	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	hing	hängen	VERB	VVFIN	_	8	H	8:H	_
+19	er	er	PRON	PPER	_	18	A	18:A	_
+20	einer	ein	DET	PIS	_	22	E	22:E	_
+21	verrückten	verrückt	ADJ	VVFIN	_	22	E	22:E	_
+22	Idee	Idee	NOUN	NN	_	18	A	18:A	_
+23	nach	nach	ADP	CARD	_	18	Terminal	18:Terminal	_
+24	und	und	CCONJ	NN	_	8	L	8:L	_
+25	dieser	dies	PRON	PDS	_	26	E	26:E	_
+26	Zustand	Zustand	NOUN	NN	_	27	A	27:A	_
+27	dauert	dauern	VERB	VVFIN	_	8	H	8:H	_
+28	noch	noch	ADV	CARD	_	27	D	27:D	_
+29	fort	fort	ADV	PTKVZ	_	27	Terminal	27:Terminal	_
+30	.	.	PUNCT	$.	_	8	U	8:U	_
+31	Es	es	PRON	PPER	_	33	F	33:F	_
+32	ist	sein	AUX	NN	_	33	F	33:F	_
+33	schade	schade	ADJ	ADJD	_	8	H	8:H	_
+34	!	!	PUNCT	$.	_	8	U	8:U	_
+35	Ich	ich	PRON	PPER	_	36	A	36:A	_
+36	wünschte	wünschen	VERB	VVFIN	_	8	H	8:H	_
+37	,	,	PUNCT	$,	_	36	U	36:U	_
+38	er	er	PRON	PPER	_	39	A	39:A	_
+39	wäre	sein	AUX	ADV	_	36	A	36:A	_
+40	lieber	lieb	ADV	ADV	_	39	D	39:D	_
+41	ein	ein	DET	ART	_	42	E	42:E	_
+42	Sonderling	Sonderling	NOUN	NN	_	39	A	39:A	_
+43	als	als	ADP	KOKOM	_	45	R	45:R	_
+44	ein	ein	DET	ART	_	45	E	45:E	_
+45	Narr	Narr	NOUN	NN	_	39	A	39:A	_
+46	!	!	PUNCT	$.	_	45	U	45:U	_
+47	«	«	PUNCT	$(	_	45	U	45:U	_
+

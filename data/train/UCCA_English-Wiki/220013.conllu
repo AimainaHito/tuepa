@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 220013
+# text = Dunst starred as the magical princess Majokko in the Takashi Murakami and McG directed short Akihabara Majokko Princess singing a cover of " Turning Japanese " . This was shown at the " Pop Life " exhibition in London 's Tate Modern museum .
+1	Dunst	Dunst	PROPN	NNP	_	2	A	2:A|19:A	_
+2	starred	star	VERB	VBD	_	0	H	0:H	_
+3	as	as	ADP	IN	_	7	R	7:R	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	magical	magical	ADJ	JJ	_	6	E	6:E	_
+6	princess	princess	NOUN	NN	_	7	E	7:E	_
+7	Majokko	Majokko	NOUN	NN	_	2	A	2:A	_
+8	in	in	ADP	IN	_	16	R	16:R	_
+9	the	the	DET	DT	_	16	E	16:E	_
+10	Takashi	Takashi	PROPN	NNP	_	14	A	14:A	_
+11	Murakami	Murakami	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	McG	McG	PROPN	NNP	_	10	C	10:C	_
+14	directed	direct	VERB	VBD	_	16	E	16:E	_
+15	short	short	ADJ	JJ	_	16	E	16:E	_
+16	Akihabara	Akihabara	PROPN	NNP	_	2	A	2:A	_
+17	Majokko	Majokko	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Princess	princess	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	singing	singe	VERB	VBG	_	2	H	2:H	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	cover	cover	NOUN	NN	_	19	A	19:A	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	"	"	PUNCT	``	_	24	U	24:U	_
+24	Turning	turn	PROPN	NNP	_	21	E	21:E	_
+25	Japanese	japanese	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	"	"	PUNCT	''	_	2	U	2:U	_
+27	.	.	PUNCT	.	_	2	U	2:U	_
+28	This	this	PRON	DT	_	30	A	30:A	_
+29	was	be	AUX	VBD	_	30	F	30:F	_
+30	shown	show	VERB	VBN	_	2	H	2:H	_
+31	at	at	ADP	IN	_	37	R	37:R	_
+32	the	the	DET	DT	_	37	E	37:E	_
+33	"	"	PUNCT	``	_	37	U	37:U	_
+34	Pop	pop	NOUN	NN	_	35	E	35:E	_
+35	Life	life	NOUN	NN	_	37	E	37:E	_
+36	"	"	PUNCT	''	_	37	U	37:U	_
+37	exhibition	exhibition	NOUN	NN	_	30	A	30:A	_
+38	in	in	ADP	IN	_	43	R	43:R	_
+39	London	London	PROPN	NNP	_	43	E	43:E	_
+40	's	's	PART	POS	_	39	R	39:R	_
+41	Tate	tate	PROPN	NNP	_	43	E	43:E	_
+42	Modern	modern	ADJ	JJ	_	41	Terminal	41:Terminal	_
+43	museum	museum	NOUN	NN	_	37	E	37:E	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

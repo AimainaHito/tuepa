@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 662000
+# text = During early 1993 , Carey began working on her third studio album , Music Box .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	early	early	ADV	RB	_	3	E	3:E	_
+3	1993	1993	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Carey	Carey	PROPN	NNP	_	7	A	7:A	_
+6	began	begin	VERB	VBD	_	7	D	7:D	_
+7	working	work	VERB	VBG	_	0	H	0:H	_
+8	on	on	ADP	IN	_	7	R	7:R	_
+9	her	she	PRON	PRP$	_	14	E	14:E	_
+10	third	third	ADJ	JJ	_	14	E	14:E	_
+11	studio	studio	NOUN	NN	_	12	E	12:E	_
+12	album	album	NOUN	NN	_	14	E	14:E	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	Music	music	ADJ	JJ	_	7	A	7:A	_
+15	Box	box	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

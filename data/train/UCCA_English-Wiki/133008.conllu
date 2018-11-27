@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 133008
+# text = During the course of the movie , Hepburn signed a star contract with MGM .
+1	During	during	ADP	IN	_	6	L	6:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	course	course	NOUN	NN	_	6	E	6:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	movie	movie	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Hepburn	Hepburn	PROPN	NNP	_	9	A	9:A	_
+9	signed	sign	VERB	VBD	_	6	H	6:H	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	star	star	NOUN	NN	_	12	E	12:E	_
+12	contract	contract	NOUN	NN	_	9	A	9:A	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	MGM	MGM	PROPN	NNP	_	9	A	9:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

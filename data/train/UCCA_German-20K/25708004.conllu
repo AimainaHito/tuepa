@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25708004
+# text = zu beiden Seiten .
+1	zu	zu	ADP	VVINF	_	3	R	3:R	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Seiten	Seite	NOUN	NN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 725005
+# text = Jolie returned to film in the 1998 gangster movie Hell 's Kitchen .
+1	Jolie	Jolie	PROPN	NNP	_	4	A	4:A	_
+2	returned	return	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	film	film	VERB	VB	_	0	H	0:H	_
+5	in	in	ADP	IN	_	10	R	10:R	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	1998	1998	NUM	CD	_	10	E	10:E	_
+8	gangster	gangster	NOUN	NN	_	9	E	9:E	_
+9	movie	movie	NOUN	NN	_	10	E	10:E	_
+10	Hell	Hell	PROPN	NNP	_	4	A	4:A	_
+11	's	's	PART	POS	_	10	Terminal	10:Terminal	_
+12	Kitchen	kitchen	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	.	_	10	U	10:U	_
+

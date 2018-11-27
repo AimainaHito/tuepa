@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25646016
+# text = Mein Fernrohr , das ihm aus der Hand fiel , rollte zu seinen Füßen .
+1	Mein	mein	PROPN	PPOSAT	_	2	E	2:E	_
+2	Fernrohr	Fernrohr	PROPN	NN	_	11	A	11:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	das	der	PRON	PRELS	_	9	R	9:R	_
+5	ihm	er	PRON	PPER	_	9	A	9:A	_
+6	aus	aus	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Hand	Hand	NOUN	NN	_	9	A	9:A	_
+9	fiel	fallen	VERB	VVFIN	_	2	E	2:E	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	rollte	rollen	VERB	VVFIN	_	0	H	0:H	_
+12	zu	zu	ADP	NE	_	14	R	14:R	_
+13	seinen	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Füßen	Fuß	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

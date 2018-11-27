@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25736007
+# text = Es war also die versunkene Landschaft , die einst außerhalb Europas , Asiens , Libyens vorhanden war , draußen vor den Säulen des Herkules , wo einst das mächtige Volk der Atlanten lebte , mit dem das alte Griechenland seine ersten Kriege führte .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	F	2:F	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	versunkene	versunken	ADJ	ADJA	_	6	E	6:E	_
+6	Landschaft	Landschaft	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	PRON	PRELS	_	16	R	16:R	_
+9	einst	einst	ADV	ADV	_	16	D	16:D	_
+10	außerhalb	außerhalb	ADP	APPR	_	11	R	11:R	_
+11	Europas	Europa	PROPN	NE	_	16	A	16:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	Asiens	Asien	PROPN	NE	_	11	C	11:C	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	Libyens	Libyen	PROPN	NE	_	11	C	11:C	_
+16	vorhanden	vorhanden	ADJ	NE	_	6	E	6:E	_
+17	war	sein	AUX	NE	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	16	U	16:U	_
+19	draußen	draußen	ADV	NN	_	22	R	22:R	_
+20	vor	vor	ADP	NN	_	22	R	22:R	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Säulen	Säule	NOUN	NN	_	16	A	16:A	_
+23	des	der	DET	ART	_	24	R	24:R	_
+24	Herkules	Herkule	NOUN	NE	_	22	E	22:E	_
+25	,	,	PUNCT	$,	_	22	U	22:U	_
+26	wo	wo	ADV	ADJA	_	33	R	33:R	_
+27	einst	einst	ADV	ADV	_	33	D	33:D	_
+28	das	der	DET	ART	_	30	E	30:E	_
+29	mächtige	mächtig	ADJ	ADJA	_	30	E	30:E	_
+30	Volk	Volk	NOUN	NN	_	33	A	33:A	_
+31	der	der	DET	ART	_	32	R	32:R	_
+32	Atlanten	Atlant	NOUN	NE	_	30	E	30:E	_
+33	lebte	leben	VERB	VVFIN	_	22	E	22:E	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	mit	mit	ADP	APPR	_	36	R	36:R	_
+36	dem	der	PRON	PRELS	_	43	R	43:R	_
+37	das	der	DET	ART	_	39	E	39:E	_
+38	alte	alt	ADJ	ADJA	_	39	E	39:E	_
+39	Griechenland	Griechenland	PROPN	NE	_	43	A	43:A	_
+40	seine	sein	DET	PPOSAT	_	42	E	42:E	_
+41	ersten	erst	ADJ	ADJA	_	42	E	42:E	_
+42	Kriege	Krieg	NOUN	NN	_	43	A	43:A	_
+43	führte	führen	VERB	VVFIN	_	30	E	30:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

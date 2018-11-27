@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25799010
+# text = Soeben zeigte sich diese Spitze in klarer Zeichnung vor dem Hintergrund des Himmels .
+1	Soeben	Soeben	NOUN	NE	_	2	D	2:D	_
+2	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Spitze	Spitze	NOUN	NN	_	2	A	2:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	klarer	klar	ADJ	ADJA	_	8	E	8:E	_
+8	Zeichnung	Zeichnung	NOUN	NN	_	2	A	2:A	_
+9	vor	vor	ADP	NN	_	11	R	11:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Hintergrund	Hintergrund	NOUN	NN	_	2	A	2:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Himmels	Himmel	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

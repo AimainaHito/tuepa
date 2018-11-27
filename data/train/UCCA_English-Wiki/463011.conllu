@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 463011
+# text = On December 5 , 2005 , after much speculation , and nearly eight months after Jennings stopped anchoring , ABC named Vargas and Bob Woodruff co - anchors for World News Tonight .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	9	D	9:D	_
+3	5	5	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2005	2005	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	after	after	ADV	RB	_	9	L	9:L	_
+8	much	much	ADJ	JJ	_	9	E	9:E	_
+9	speculation	speculation	NOUN	NN	_	0	H	0:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	and	and	CCONJ	CC	_	14	R	14:R	_
+12	nearly	nearly	ADV	RB	_	14	E	14:E	_
+13	eight	eight	NUM	CD	_	14	E	14:E	_
+14	months	month	NOUN	NNS	_	9	L	9:L	_
+15	after	after	ADP	IN	_	14	R	14:R	_
+16	Jennings	Jennings	PROPN	NNP	_	18	A	18:A	_
+17	stopped	stop	VERB	VBD	_	18	D	18:D	_
+18	anchoring	anchor	VERB	VBG	_	9	H	9:H	_
+19	,	,	PUNCT	,	_	9	U	9:U	_
+20	ABC	ABC	PROPN	NNP	_	21	A	21:A	_
+21	named	name	VERB	VBN	_	9	H	9:H	_
+22	Vargas	Vargas	PROPN	NNP	_	21	A	21:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	Bob	Bob	PROPN	NNP	_	22	C	22:C	_
+25	Woodruff	Woodruff	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	co	co	X	AFX	_	28	E	28:E	_
+27	-	-	PUNCT	HYPH	_	28	U	28:U	_
+28	anchors	anchor	NOUN	NNS	_	21	A	21:A	_
+29	for	for	ADP	IN	_	30	R	30:R	_
+30	World	World	PROPN	NNP	_	28	E	28:E	_
+31	News	News	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Tonight	tonight	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

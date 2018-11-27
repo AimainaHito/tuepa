@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25734012
+# text = Mein Puls schlag stockte , wenn sich mir enorme Fühlhörner in den Weg streckten oder im Dunkel der Höhlungen schreckliche Scheren klafften .
+1	Mein	mein	PROPN	PPOSAT	_	2	E	2:E	_
+2	Puls	Pul	PROPN	NE	_	3	A	3:A	_
+3	schlag	schliegen	VERB	VVFIN	_	4	A	4:A	_
+4	stockte	stocken	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	wenn	wenn	SCONJ	VVFIN	_	4	L	4:L	_
+7	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+8	mir	ich	PRON	PPER	_	7	A	7:A	_
+9	enorme	enorm	ADJ	ADJA	_	10	E	10:E	_
+10	Fühlhörner	Fühlhörner	NOUN	NE	_	7	A	7:A	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Weg	Weg	NOUN	NN	_	7	A	7:A	_
+14	streckten	strecken	VERB	VVFIN	_	7	Terminal	7:Terminal	_
+15	oder	oder	CCONJ	CARD	_	4	L	4:L	_
+16	im	im	ADJ	NN	_	17	R	17:R	_
+17	Dunkel	dunkel	NOUN	NN	_	22	A	22:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	Höhlungen	Höhlung	NOUN	NN	_	17	E	17:E	_
+20	schreckliche	schrecklich	ADJ	ADJA	_	21	E	21:E	_
+21	Scheren	Scher	NOUN	NN	_	22	A	22:A	_
+22	klafften	klaffen	VERB	VVFIN	_	4	H	4:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

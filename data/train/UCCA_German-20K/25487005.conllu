@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25487005
+# text = Die Fregatte näherte sich geräuschlos , hielt 2 Kabellängen weit von dem Tier an .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fregatte	Fregatte	NOUN	NN	_	3	A	3:A	_
+3	näherte	nähern	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	geräuschlos	geräuschlos	ADJ	ADJD	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	hielt	halten	VERB	VVFIN	_	3	H	3:H	_
+8	2	2	NUM	CARD	_	7	A	7:A	_
+9	Kabellängen	Kabelläng	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	weit	weit	ADJ	ADJD	_	8	E	8:E	_
+11	von	von	ADP	NN	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Tier	Tier	NOUN	NN	_	7	A	7:A	_
+14	an	an	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+15	.	.	PUNCT	$.	_	7	U	7:U	_
+

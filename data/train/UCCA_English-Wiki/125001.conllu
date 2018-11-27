@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 125001
+# text = She felt the role was perfect , but again she was fired .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	felt	feel	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	role	role	NOUN	NN	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	perfect	perfect	ADJ	JJ	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	but	but	CCONJ	CC	_	2	L	2:L	_
+9	again	again	ADV	RB	_	12	D	12:D	_
+10	she	she	PRON	PRP	_	12	A	12:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	fired	fire	VERB	VBN	_	2	H	2:H	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

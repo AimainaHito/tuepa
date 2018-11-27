@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25488040
+# text = Vielleicht hatte man auf der Fregatte unser Verschwinden gar nicht gemerkt , und hätten sie 's auch wahrgenommen , so konnten sie , weil ihr Steuer zerbrochen war , nicht unterm Wind zu uns zurückkommen .
+1	Vielleicht	vielleicht	ADV	ADV	_	11	G	11:G	_
+2	hatte	haben	AUX	VAFIN	_	11	F	11:F	_
+3	man	man	PRON	PIS	_	11	A	11:A	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Fregatte	Fregatte	NOUN	NN	_	11	A	11:A	_
+7	unser	unser	PRON	FM	_	8	E	8:E	_
+8	Verschwinden	verschwinden	NOUN	VVFIN	_	11	A	11:A	_
+9	gar	gar	ADV	ADV	_	10	E	10:E	_
+10	nicht	nicht	PART	CARD	_	11	D	11:D	_
+11	gemerkt	merken	VERB	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	und	und	CCONJ	NE	_	11	L	11:L	_
+14	hätten	haben	AUX	VAFIN	_	18	F	18:F	_
+15	sie	sie	PRON	ADV	_	18	A	18:A	_
+16	's	es	PRON	ART	_	18	A	18:A	_
+17	auch	auch	ADV	ADV	_	18	D	18:D	_
+18	wahrgenommen	wahrnehmen	VERB	VVPP	_	11	H	11:H	_
+19	,	,	PUNCT	$,	_	11	U	11:U	_
+20	so	so	ADV	ADV	_	11	L	11:L	_
+21	konnten	können	AUX	VMFIN	_	35	D	35:D	_
+22	sie	sie	PRON	ADV	_	35	A	35:A	_
+23	,	,	PUNCT	$,	_	11	U	11:U	_
+24	weil	weil	SCONJ	KOUS	_	11	L	11:L	_
+25	ihr	ihr	DET	PPER	_	26	E	26:E	_
+26	Steuer	Steuer	NOUN	ADJA	_	27	A	27:A	_
+27	zerbrochen	zerbrechen	VERB	VVPP	_	11	H	11:H	_
+28	war	sein	AUX	ADV	_	27	F	27:F	_
+29	,	,	PUNCT	$,	_	11	U	11:U	_
+30	nicht	nicht	PART	CARD	_	35	D	35:D	_
+31	unterm	unterm	ADJ	NE	_	32	R	32:R	_
+32	Wind	Wind	NOUN	NE	_	35	A	35:A	_
+33	zu	zu	ADP	NE	_	34	R	34:R	_
+34	uns	wir	PRON	NE	_	35	A	35:A	_
+35	zurückkommen	zurückkommen	VERB	VVPP	_	11	H	11:H	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

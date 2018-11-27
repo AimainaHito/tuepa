@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 473012
+# text = Magic Johnson joined Shaquille O ' Neal and celebrity coach Spike Lee to lead the blue team to a 147 - 132 victory over the white team , which was coached by Arsenio Hall .
+1	Magic	magic	PROPN	NNP	_	3	A	3:A|14:A	_
+2	Johnson	Johnson	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	joined	join	VERB	VBD	_	0	H	0:H	_
+4	Shaquille	Shaquille	PROPN	NNP	_	3	A	3:A	_
+5	O	O	ADP	IN	_	4	Terminal	4:Terminal	_
+6	'	's	PUNCT	``	_	4	U	4:U	_
+7	Neal	Neal	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	and	and	CCONJ	CC	_	4	N	4:N	_
+9	celebrity	celebrity	NOUN	NN	_	10	E	10:E	_
+10	coach	coach	NOUN	NN	_	11	E	11:E	_
+11	Spike	spike	PROPN	NNP	_	4	C	4:C	_
+12	Lee	Lee	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	to	to	PART	TO	_	3	L	3:L	_
+14	lead	lead	VERB	VB	_	3	H	3:H	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	blue	blue	ADJ	JJ	_	17	E	17:E	_
+17	team	team	NOUN	NN	_	14	A	14:A	_
+18	to	to	ADP	IN	_	23	R	23:R	_
+19	a	a	DET	DT	_	23	E	23:E	_
+20	147	147	NUM	CD	_	23	E	23:E	_
+21	-	-	SYM	SYM	_	20	U	20:U	_
+22	132	132	NUM	CD	_	20	Terminal	20:Terminal	_
+23	victory	victory	NOUN	NN	_	14	A	14:A	_
+24	over	over	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	white	white	ADJ	JJ	_	27	E	27:E	_
+27	team	team	NOUN	NN	_	23	A	23:A	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	which	which	PRON	WDT	_	31	F	31:F	_
+30	was	be	AUX	VBD	_	31	F	31:F	_
+31	coached	coach	VERB	VBN	_	27	E	27:E	_
+32	by	by	ADP	IN	_	33	R	33:R	_
+33	Arsenio	Arsenio	PROPN	NNP	_	31	A	31:A	_
+34	Hall	Hall	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	.	.	PUNCT	.	_	33	U	33:U	_
+

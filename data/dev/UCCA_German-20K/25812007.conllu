@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25812007
+# text = » Allerdings . Die elektrischen Kugeln sind unwirksam gegen dieses weiche Fleisch , und sie finden nicht Widerstand genug , um zu platzen . Aber wir greifen sie mit dem Beil an . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Allerdings	allerdings	ADV	ADV	_	0	H	0:H	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Die	der	DET	ART	_	6	E	6:E	_
+5	elektrischen	elektrisch	ADJ	ADJA	_	6	E	6:E	_
+6	Kugeln	Kugel	NOUN	NN	_	8	A	8:A	_
+7	sind	sein	AUX	NE	_	8	F	8:F	_
+8	unwirksam	unwirksam	ADJ	ADJD	_	2	H	2:H	_
+9	gegen	gegen	ADP	APPR	_	12	R	12:R	_
+10	dieses	dies	PRON	PDAT	_	12	E	12:E	_
+11	weiche	weich	ADJ	ADJA	_	12	E	12:E	_
+12	Fleisch	Fleisch	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	sie	sie	PRON	ADV	_	16	A	16:A|23:A	_
+16	finden	finden	VERB	VVFIN	_	2	H	2:H	_
+17	nicht	nicht	PART	XY	_	16	D	16:D	_
+18	Widerstand	Widerstand	NOUN	NN	_	16	A	16:A	_
+19	genug	genug	ADV	ADV	_	16	D	16:D	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	um	um	ADP	KOUI	_	2	L	2:L	_
+22	zu	zu	PART	NE	_	23	F	23:F	_
+23	platzen	platzen	VERB	VVFIN	_	2	H	2:H	_
+24	.	.	PUNCT	$.	_	2	U	2:U	_
+25	Aber	aber	CCONJ	KON	_	2	L	2:L	_
+26	wir	wir	PRON	NE	_	27	A	27:A	_
+27	greifen	greifen	VERB	VVFIN	_	2	H	2:H	_
+28	sie	sie	PRON	ADV	_	27	A	27:A	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	dem	der	DET	ART	_	31	E	31:E	_
+31	Beil	Beil	NOUN	NN	_	27	A	27:A	_
+32	an	an	ADP	PTKVZ	_	27	Terminal	27:Terminal	_
+33	.	.	PUNCT	$.	_	27	U	27:U	_
+34	«	«	PUNCT	$(	_	27	U	27:U	_
+

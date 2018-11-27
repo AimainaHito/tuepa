@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 132004
+# text = " Hepburn chose her friend and previous co - star , Cary Grant , to whom she ceded top billing .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A	_
+3	chose	choose	VERB	VBD	_	0	H	0:H	_
+4	her	she	PRON	PRP$	_	5	E	5:E	_
+5	friend	friend	NOUN	NN	_	12	E	12:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	previous	previous	ADJ	JJ	_	10	E	10:E	_
+8	co	co	X	AFX	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	star	star	NOUN	NN	_	5	C	5:C	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	Cary	Cary	PROPN	NNP	_	3	A	3:A	_
+13	Grant	grant	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	to	to	ADP	IN	_	16	R	16:R	_
+16	whom	whom	PRON	WP	_	18	R	18:R	_
+17	she	she	PRON	PRP	_	18	A	18:A	_
+18	ceded	ced	VERB	VBD	_	12	E	12:E	_
+19	top	top	ADJ	JJ	_	20	E	20:E	_
+20	billing	billing	NOUN	NN	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

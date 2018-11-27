@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 492014
+# text = Bowie 's latest studio album The Next Day was released in March 2013 .
+1	Bowie	Bowie	PROPN	NNP	_	5	E	5:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	latest	latest	ADJ	JJS	_	5	E	5:E	_
+4	studio	studio	NOUN	NN	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	10	A	10:A	_
+6	The	the	DET	DT	_	5	E	5:E	_
+7	Next	next	ADJ	JJ	_	6	Terminal	6:Terminal	_
+8	Day	day	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	released	release	VERB	VBN	_	0	H	0:H	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	March	March	PROPN	NNP	_	13	E	13:E	_
+13	2013	2013	NUM	CD	_	10	D	10:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

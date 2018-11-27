@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 188001
+# text = In 1984 , Removing All Doubt was staged for drama students at his alma mater , Syracuse University .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1984	1984	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	Removing	remove	VERB	VBG	_	8	A	8:A	_
+5	All	all	DET	DT	_	4	Terminal	4:Terminal	_
+6	Doubt	doubt	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	staged	stage	VERB	VBN	_	0	H	0:H	_
+9	for	for	ADP	IN	_	11	R	11:R	_
+10	drama	drama	NOUN	NN	_	11	E	11:E	_
+11	students	student	NOUN	NNS	_	8	A	8:A	_
+12	at	at	ADP	IN	_	18	R	18:R	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	alma	alma	NOUN	NN	_	18	E	18:E	_
+15	mater	mater	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	18	U	18:U	_
+17	Syracuse	Syracuse	PROPN	NNP	_	18	E	18:E	_
+18	University	University	PROPN	NNP	_	8	A	8:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

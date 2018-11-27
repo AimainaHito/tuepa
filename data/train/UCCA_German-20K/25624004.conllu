@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25624004
+# text = » Koste nur , Freund Ned , koste nach Belieben .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Koste	kost	NOUN	NN	_	0	H	0:H	_
+3	nur	nur	ADV	NE	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	Freund	Freund	PROPN	NE	_	6	E	6:E	_
+6	Ned	Ned	PROPN	NE	_	0	C	0:C|8:A	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	koste	kosen	VERB	VVFIN	_	2	H	2:H	_
+9	nach	nach	ADP	XY	_	10	R	10:R	_
+10	Belieben	Belieben	PROPN	NN	_	8	D	8:D	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

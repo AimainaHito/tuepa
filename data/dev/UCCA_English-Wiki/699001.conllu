@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 699001
+# text = " In a 1969 interview with Jann Wenner , Dylan said , " I was on the road for almost five years . It wore me down . I was on drugs , a lot of things ... just to keep going , you know ?
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	In	in	ADP	IN	_	5	L	5:L	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	1969	1969	NUM	CD	_	5	D	5:D	_
+5	interview	interview	NOUN	NN	_	0	H	0:H	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	Jann	Jann	PROPN	NNP	_	5	A	5:A	_
+8	Wenner	Wenner	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	Dylan	Dylan	PROPN	NNP	_	11	A	11:A|5:A	_
+11	said	say	VERB	VBD	_	5	H	5:H	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	"	"	PUNCT	``	_	11	U	11:U	_
+14	I	I	PRON	PRP	_	15	A	15:A	_
+15	was	be	AUX	VBD	_	11	A	11:A	_
+16	on	on	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	road	road	NOUN	NN	_	15	A	15:A	_
+19	for	for	ADP	IN	_	22	R	22:R	_
+20	almost	almost	ADV	RB	_	22	E	22:E	_
+21	five	five	NUM	CD	_	22	E	22:E	_
+22	years	year	NOUN	NNS	_	15	D	15:D	_
+23	.	.	PUNCT	.	_	15	U	15:U	_
+24	It	it	PRON	PRP	_	25	A	25:A	_
+25	wore	wear	VERB	VBD	_	15	H	15:H	_
+26	me	I	PRON	PRP	_	25	A	25:A	_
+27	down	down	ADP	RP	_	25	Terminal	25:Terminal	_
+28	.	.	PUNCT	.	_	15	U	15:U	_
+29	I	I	PRON	PRP	_	30	A	30:A|41:A	_
+30	was	be	AUX	VBD	_	15	H	15:H	_
+31	on	on	ADP	IN	_	32	R	32:R	_
+32	drugs	drug	NOUN	NNS	_	30	A	30:A	_
+33	,	,	PUNCT	,	_	32	U	32:U	_
+34	a	a	DET	DT	_	35	E	35:E	_
+35	lot	lot	NOUN	NN	_	37	E	37:E	_
+36	of	of	ADP	IN	_	37	R	37:R	_
+37	things	thing	NOUN	NNS	_	32	C	32:C	_
+38	...	...	PUNCT	,	_	30	U	30:U	_
+39	just	just	ADV	RB	_	41	D	41:D	_
+40	to	to	PART	TO	_	41	F	41:F	_
+41	keep	keep	VERB	VB	_	30	A	30:A	_
+42	going	go	VERB	VBG	_	41	Terminal	41:Terminal	_
+43	,	,	PUNCT	,	_	15	U	15:U	_
+44	you	you	PRON	PRP	_	15	H	15:H	_
+45	know	know	VERB	VBP	_	44	Terminal	44:Terminal	_
+46	?	?	PUNCT	.	_	15	U	15:U	_
+

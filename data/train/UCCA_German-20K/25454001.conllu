@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25454001
+# text = « » Aber wenn sie nicht existieren , starrköpfiger Harpunier , wie erklären Sie dann den Unfall , der die ›Scotia‹ traf ?
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+4	wenn	wenn	SCONJ	VVFIN	_	7	L	7:L	_
+5	sie	sie	PRON	ADV	_	7	A	7:A	_
+6	nicht	nicht	PART	CARD	_	7	D	7:D	_
+7	existieren	existieren	VERB	VVFIN	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	starrköpfiger	starrköpfige	PRON	ADJA	_	10	E	10:E	_
+10	Harpunier	Harpunier	NOUN	NN	_	7	G	7:G	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	wie	wie	ADV	KON	_	13	D	13:D	_
+13	erklären	erklären	VERB	VVFIN	_	7	H	7:H	_
+14	Sie	Sie|sie	PRON	PPER	_	13	A	13:A	_
+15	dann	dann	ADV	ADV	_	13	D	13:D	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Unfall	Unfall	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	der	der	PRON	PRELS	_	22	R	22:R	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	›Scotia‹	›Scotia‹	NOUN	NE	_	22	A	22:A	_
+22	traf	treffen	VERB	VVFIN	_	17	E	17:E	_
+23	?	?	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25764000
+# text = Wenn ein solcher Gleichgewichtsbruch stattfand , während die ›Nautilus‹ untergetaucht war , so pflanzte sich außerordentlich stark das Getöse unter Wasser fort , und durch den Sturz dieser Massen entstanden fürchterliche Wirbelbildungen bis in die tiefsten Wasserschichten hinab .
+1	Wenn	wenn	SCONJ	KOUS	_	5	L	5:L	_
+2	ein	ein	DET	ART	_	4	E	4:E	_
+3	solcher	solch	ADJ	ADJA	_	4	D	4:D	_
+4	Gleichgewichtsbruch	Gleichgewichtsbruch	NOUN	NN	_	5	A	5:A	_
+5	stattfand	stattfinden	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	während	während	SCONJ	VVINF	_	5	L	5:L	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	A	10:A	_
+10	untergetaucht	untergetauchen	VERB	VVFIN	_	5	H	5:H	_
+11	war	sein	AUX	ADV	_	10	F	10:F	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	so	so	ADV	ADV	_	5	L	5:L	_
+14	pflanzte	pflanzen	VERB	VVFIN	_	5	H	5:H	_
+15	sich	er|es|sie	PRON	PRF	_	14	Terminal	14:Terminal	_
+16	außerordentlich	außerordentlich	ADJ	ADJD	_	17	E	17:E	_
+17	stark	stark	ADJ	NN	_	14	D	14:D	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	Getöse	Getöse	NOUN	ADJA	_	14	A	14:A	_
+20	unter	unter	ADP	ADJD	_	21	R	21:R	_
+21	Wasser	Wasser	NOUN	NN	_	14	A	14:A	_
+22	fort	fort	ADV	PTKVZ	_	14	Terminal	14:Terminal	_
+23	,	,	PUNCT	$,	_	5	U	5:U	_
+24	und	und	CCONJ	NE	_	5	L	5:L	_
+25	durch	durch	ADP	APPR	_	27	R	27:R	_
+26	den	der	DET	ART	_	27	E	27:E	_
+27	Sturz	Sturz	NOUN	NN	_	30	A	30:A	_
+28	dieser	dies	PRON	PDAT	_	29	R	29:R	_
+29	Massen	Masse	NOUN	NN	_	27	A	27:A	_
+30	entstanden	entstehen	VERB	VVFIN	_	5	H	5:H	_
+31	fürchterliche	fürchterlich	ADJ	ADJA	_	32	E	32:E	_
+32	Wirbelbildungen	Wirbelbildung	NOUN	NN	_	30	A	30:A	_
+33	bis	bis	ADP	APPR	_	37	R	37:R	_
+34	in	in	ADP	APPR	_	33	Terminal	33:Terminal	_
+35	die	der	DET	ART	_	36	E	36:E	_
+36	tiefsten	tief	ADJ	ADJA	_	37	E	37:E	_
+37	Wasserschichten	Wasserschicht	NOUN	NN	_	30	A	30:A	_
+38	hinab	hinab	ADV	PTKVZ	_	33	Terminal	33:Terminal	_
+39	.	.	PUNCT	$.	_	37	U	37:U	_
+

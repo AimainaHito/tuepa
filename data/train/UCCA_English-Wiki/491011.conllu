@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 491011
+# text = In 2005 , Bana narrated the documentary Terrors of Tasmania about the endangered Tasmanian Devil .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2005	2005	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Bana	Bana	PROPN	NNP	_	5	A	5:A	_
+5	narrated	narrate	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	documentary	documentary	ADJ	JJ	_	8	E	8:E	_
+8	Terrors	Terror	NOUN	NNS	_	5	A	5:A	_
+9	of	of	ADP	IN	_	8	Terminal	8:Terminal	_
+10	Tasmania	Tasmania	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	about	about	ADP	IN	_	14	R	14:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	endangered	endangered	ADJ	JJ	_	14	E	14:E	_
+14	Tasmanian	Tasmanian	PROPN	NNP	_	8	E	8:E	_
+15	Devil	Devil	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

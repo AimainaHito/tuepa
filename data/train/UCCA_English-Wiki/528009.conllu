@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 528009
+# text = Production delays led to cost overruns and angry confrontations with Warner Bros. head Jack Warner .
+1	Production	production	NOUN	NN	_	2	E	2:E	_
+2	delays	delay	NOUN	NNS	_	3	A	3:A	_
+3	led	lead	VERB	VBD	_	0	H	0:H	_
+4	to	to	PART	TO	_	3	F	3:F	_
+5	cost	cost	VERB	VB	_	6	E	6:E	_
+6	overruns	overrun	NOUN	NNS	_	3	A	3:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	angry	angry	ADJ	JJ	_	9	E	9:E	_
+9	confrontations	confrontation	NOUN	NNS	_	6	C	6:C	_
+10	with	with	ADP	IN	_	14	R	14:R	_
+11	Warner	Warner	PROPN	NNP	_	13	E	13:E	_
+12	Bros.	Bros.	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	head	head	VERB	VBD	_	14	E	14:E	_
+14	Jack	Jack	PROPN	NNP	_	9	E	9:E	_
+15	Warner	Warner	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

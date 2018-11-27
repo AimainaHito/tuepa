@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 507010
+# text = Performing his early hits during the seven - month Sound + Vision Tour , he found commercial success and acclaim once again .
+1	Performing	perform	VERB	VBG	_	0	H	0:H	_
+2	his	he	PRON	PRP$	_	4	E	4:E	_
+3	early	early	ADJ	JJ	_	4	E	4:E	_
+4	hits	hit	NOUN	NNS	_	1	A	1:A	_
+5	during	during	ADP	IN	_	1	L	1:L	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	seven	seven	NUM	CD	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	month	month	NOUN	NN	_	13	D	13:D	_
+10	Sound	sound	PROPN	NNP	_	13	E	13:E	_
+11	+	+	SYM	SYM	_	10	U	10:U	_
+12	Vision	vision	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	Tour	Tour	PROPN	NNP	_	1	H	1:H	_
+14	,	,	PUNCT	,	_	1	U	1:U	_
+15	he	he	PRON	PRP	_	18	A	18:A	_
+16	found	find	VERB	VBD	_	18	D	18:D	_
+17	commercial	commercial	ADJ	JJ	_	18	E	18:E	_
+18	success	success	NOUN	NN	_	1	H	1:H	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	acclaim	acclaim	VERB	VB	_	18	C	18:C	_
+21	once	once	ADV	RB	_	18	D	18:D	_
+22	again	again	ADV	RB	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	18	U	18:U	_
+

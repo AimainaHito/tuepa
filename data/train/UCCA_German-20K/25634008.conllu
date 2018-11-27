@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25634008
+# text = Die Insel ließ bald durch den zerstreuten Nebel erst ihre Ufer , dann ihre Höhen erkennen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Insel	Insel	NOUN	NN	_	16	A	16:A	_
+3	ließ	lassen	VERB	VVFIN	_	16	D	16:D	_
+4	bald	bald	ADV	ADV	_	16	D	16:D	_
+5	durch	durch	ADP	APPR	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	zerstreuten	zerstreut	ADJ	ADJA	_	8	E	8:E	_
+8	Nebel	nebel	NOUN	NN	_	16	A	16:A	_
+9	erst	erst	ADV	ADV	_	11	E	11:E	_
+10	ihre	ihr	DET	PPOSAT	_	11	E	11:E	_
+11	Ufer	Ufer	NOUN	NN	_	16	A	16:A	_
+12	,	,	PUNCT	$,	_	16	U	16:U	_
+13	dann	dann	ADV	ADV	_	15	E	15:E	_
+14	ihre	ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Höhen	Höhe	NOUN	NN	_	16	A	16:A	_
+16	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

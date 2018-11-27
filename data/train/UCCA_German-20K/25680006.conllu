@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25680006
+# text = » Nun , Conseil , was denkst du von diesen Haifischen ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Nun	nun	ADV	ADV	_	7	F	7:F	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	Conseil	Conseil	NOUN	NE	_	7	G	7:G	_
+5	,	,	PUNCT	$,	_	7	U	7:U	_
+6	was	was	PRON	NE	_	7	A	7:A	_
+7	denkst	denken	VERB	VVFIN	_	0	H	0:H	_
+8	du	du	PRON	PPER	_	7	A	7:A	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	diesen	dies	PRON	PDAT	_	11	E	11:E	_
+11	Haifischen	Haifischen	NOUN	NE	_	7	A	7:A	_
+12	?	?	PUNCT	$.	_	11	U	11:U	_
+13	«	«	PUNCT	$(	_	11	U	11:U	_
+

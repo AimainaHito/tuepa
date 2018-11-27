@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25794011
+# text = Meine Lungen keuchten , indem sie das zum Atmen nötige Luft bestandteil suchten , das immer spärlicher wurde .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Lungen	Lunge	NOUN	NN	_	3	A	3:A	_
+3	keuchten	keuchen	VERB	VVINF	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	indem	indem	SCONJ	KOUS	_	3	L	3:L	_
+6	sie	sie	PRON	ADV	_	13	A	13:A	_
+7	das	der	DET	ART	_	12	E	12:E	_
+8	zum	zum	ADJ	NN	_	9	R	9:R	_
+9	Atmen	Atmen	NOUN	VVFIN	_	10	A	10:A	_
+10	nötige	nötig	ADJ	ADJA	_	12	E	12:E	_
+11	Luft	Luft	NOUN	NN	_	12	E	12:E	_
+12	bestandteil	bestandteil	ADJ	NN	_	13	A	13:A	_
+13	suchten	suchen	VERB	VVFIN	_	3	H	3:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	das	der	PRON	PRELS	_	17	R	17:R	_
+16	immer	immer	ADV	ADV	_	17	D	17:D	_
+17	spärlicher	spärlich	ADJ	ADJA	_	12	E	12:E	_
+18	wurde	werden	AUX	TRUNC	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

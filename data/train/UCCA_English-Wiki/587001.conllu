@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 587001
+# text = Depp was the first choice and was cast to star in the 1986 American skater drama film Thrashin ' , chosen and cast by the director but ultimately rejected by the film 's producer .
+1	Depp	Depp	NOUN	NN	_	2	A	2:A|10:A|8:A|29:A|21:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	choice	choice	NOUN	NN	_	2	A	2:A	_
+6	and	and	CCONJ	CC	_	2	L	2:L	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	cast	cast	VERB	VBN	_	2	H	2:H	_
+9	to	to	PART	TO	_	10	R	10:R	_
+10	star	star	VERB	VB	_	8	A	8:A	_
+11	in	in	ADP	IN	_	18	R	18:R	_
+12	the	the	DET	DT	_	18	E	18:E	_
+13	1986	1986	NUM	CD	_	18	E	18:E	_
+14	American	american	ADJ	JJ	_	17	E	17:E	_
+15	skater	skater	NOUN	NN	_	16	E	16:E	_
+16	drama	drama	NOUN	NN	_	17	E	17:E	_
+17	film	film	NOUN	NN	_	18	E	18:E	_
+18	Thrashin	Thrashin	NOUN	NN	_	10	A	10:A	_
+19	'	'	PUNCT	''	_	2	U	2:U	_
+20	,	,	PUNCT	,	_	2	U	2:U	_
+21	chosen	choose	VERB	VBN	_	2	H	2:H	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	cast	cast	VERB	VBN	_	21	C	21:C	_
+24	by	by	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	director	director	NOUN	NN	_	21	A	21:A	_
+27	but	but	CCONJ	CC	_	2	L	2:L	_
+28	ultimately	ultimately	ADV	RB	_	29	D	29:D	_
+29	rejected	reject	VERB	VBN	_	2	H	2:H	_
+30	by	by	ADP	IN	_	34	R	34:R	_
+31	the	the	DET	DT	_	34	E	34:E	_
+32	film	film	NOUN	NN	_	34	E	34:E	_
+33	's	's	PART	POS	_	32	R	32:R	_
+34	producer	producer	NOUN	NN	_	29	A	29:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

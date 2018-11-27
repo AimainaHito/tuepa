@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25727011
+# text = » Nun , Herr Arronax « , erwiderte Kapitän Nemo , » wir befinden uns eben in dieser Bai von Vigo , und es steht bei uns , in ihre Geheimnisse zu dringen . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Nun	nun	PROPN	ADV	_	14	F	14:F	_
+3	,	,	PUNCT	$,	_	14	U	14:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Arronax	Arronax	PROPN	NE	_	14	G	14:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Kapitän	Kapitän	PROPN	NN	_	10	E	10:E	_
+10	Nemo	Nemo	PROPN	NE	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	wir	wir	PRON	NE	_	14	A	14:A	_
+14	befinden	befinden	VERB	VVFIN	_	8	A	8:A	_
+15	uns	wir	PRON	NN	_	14	Terminal	14:Terminal	_
+16	eben	eben	ADV	ADV	_	14	D	14:D	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	dieser	dies	PRON	PDS	_	19	E	19:E	_
+19	Bai	bai	NOUN	NN	_	14	A	14:A	_
+20	von	von	ADP	NN	_	19	Terminal	19:Terminal	_
+21	Vigo	Vigo	PROPN	NE	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	$,	_	14	U	14:U	_
+23	und	und	CCONJ	NE	_	14	L	14:L	_
+24	es	es	PRON	PPER	_	25	F	25:F	_
+25	steht	stehen	VERB	VVFIN	_	14	H	14:H	_
+26	bei	bei	ADP	APPR	_	27	R	27:R	_
+27	uns	wir	PRON	NN	_	25	A	25:A	_
+28	,	,	PUNCT	$,	_	33	U	33:U	_
+29	in	in	ADP	APPR	_	31	R	31:R	_
+30	ihre	ihr	DET	PPOSAT	_	31	E	31:E	_
+31	Geheimnisse	Geheimnis	NOUN	NN	_	33	A	33:A	_
+32	zu	zu	PART	VVINF	_	33	F	33:F	_
+33	dringen	dringen	VERB	VVFIN	_	25	A	25:A	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+35	«	«	PUNCT	$(	_	33	U	33:U	_
+

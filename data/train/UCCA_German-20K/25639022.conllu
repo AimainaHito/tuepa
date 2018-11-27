@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25639022
+# text = » Die Papuas ? « erwiderte der Kapitän mit leichtem Achselzucken .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Die	d	PROPN	ART	_	3	E	3:E	_
+3	Papuas	Papuas	PROPN	NE	_	6	A	6:A	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kapitän	Kapitän	NOUN	NN	_	6	A	6:A	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	leichtem	leicht	ADJ	ADJA	_	11	E	11:E	_
+11	Achselzucken	Achselzucken	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

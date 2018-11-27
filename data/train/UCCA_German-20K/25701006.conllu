@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25701006
+# text = » Gibt ' s denn Walfische im Roten Meer ? « fragte Conseil .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Gibt	geben	PROPN	VVFIN	_	12	A	12:A	_
+3	'	'	PUNCT	$(	_	2	U	2:U	_
+4	s	s	PROPN	ADJD	_	2	F	2:F	_
+5	denn	denn	CCONJ	KOKOM	_	2	D	2:D	_
+6	Walfische	Walfisch	PROPN	ADJA	_	2	A	2:A	_
+7	im	im	PROPN	NN	_	8	R	8:R	_
+8	Roten	rot	PROPN	ADJA	_	2	A	2:A	_
+9	Meer	Meer	PROPN	NN	_	8	E	8:E	_
+10	?	?	PUNCT	$.	_	12	U	12:U	_
+11	«	«	PUNCT	$(	_	12	U	12:U	_
+12	fragte	fragen	ADJ	VVFIN	_	0	H	0:H	_
+13	Conseil	Conseil	NOUN	NE	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

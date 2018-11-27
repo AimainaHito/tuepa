@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 660009
+# text = Mariah Carey finished as the best - selling album in the United States in 1991 , while totaling sales of over 15 million copies .
+1	Mariah	Mariah	PROPN	NNP	_	3	A	3:A	_
+2	Carey	Carey	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	finished	finish	VERB	VBD	_	0	H	0:H	_
+4	as	as	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	best	best	ADJ	JJS	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	selling	sell	VERB	VBG	_	9	E	9:E	_
+9	album	album	NOUN	NN	_	0	C	0:C|18:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	United	United	PROPN	NNP	_	9	E	9:E	_
+13	States	States	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	1991	1991	NUM	CD	_	9	E	9:E	_
+16	,	,	PUNCT	,	_	3	U	3:U	_
+17	while	while	SCONJ	IN	_	3	L	3:L	_
+18	totaling	total	VERB	VBG	_	3	H	3:H	_
+19	sales	sale	NOUN	NNS	_	18	A	18:A	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	over	over	ADV	RB	_	24	E	24:E	_
+22	15	15	NUM	CD	_	23	E	23:E	_
+23	million	million	NUM	CD	_	24	E	24:E	_
+24	copies	copy	NOUN	NNS	_	19	E	19:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

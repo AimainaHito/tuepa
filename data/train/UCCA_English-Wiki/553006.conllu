@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 553006
+# text = RCA Victor acquired his contract in a deal arranged by Colonel Tom Parker , who went on to manage the singer for over two decades .
+1	RCA	RCA	PROPN	NNP	_	2	E	2:E	_
+2	Victor	Victor	PROPN	NNP	_	3	A	3:A	_
+3	acquired	acquire	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	contract	contract	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	deal	deal	NOUN	NN	_	9	A	9:A	_
+9	arranged	arrange	VERB	VBN	_	3	A	3:A	_
+10	by	by	ADP	IN	_	12	R	12:R	_
+11	Colonel	Colonel	PROPN	NNP	_	12	E	12:E	_
+12	Tom	Tom	PROPN	NNP	_	9	A	9:A	_
+13	Parker	Parker	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	who	who	PRON	WP	_	19	F	19:F	_
+16	went	go	VERB	VBD	_	19	E	19:E	_
+17	on	on	ADV	RB	_	16	Terminal	16:Terminal	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	manage	manage	VERB	VB	_	12	E	12:E	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	singer	singer	NOUN	NN	_	19	A	19:A	_
+22	for	for	ADP	IN	_	25	R	25:R	_
+23	over	over	ADV	RB	_	25	R	25:R	_
+24	two	two	NUM	CD	_	25	E	25:E	_
+25	decades	decade	NOUN	NNS	_	19	D	19:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

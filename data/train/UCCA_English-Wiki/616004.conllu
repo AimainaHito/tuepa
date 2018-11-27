@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 616004
+# text = At Fraser 's flat he first learned about art appreciation and met Andy Warhol , Claes Oldenburg , Peter Blake , and Richard Hamilton .
+1	At	at	ADP	IN	_	4	R	4:R	_
+2	Fraser	Fraser	PROPN	NNP	_	4	E	4:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	flat	flat	ADJ	JJ	_	7	A	7:A	_
+5	he	he	PRON	PRP	_	7	A	7:A|12:A	_
+6	first	first	ADV	RB	_	7	D	7:D	_
+7	learned	learn	VERB	VBD	_	0	H	0:H	_
+8	about	about	ADP	IN	_	10	R	10:R	_
+9	art	art	NOUN	NN	_	10	E	10:E	_
+10	appreciation	appreciation	NOUN	NN	_	7	A	7:A	_
+11	and	and	CCONJ	CC	_	7	L	7:L	_
+12	met	meet	VERB	VBD	_	7	H	7:H	_
+13	Andy	Andy	PROPN	NNP	_	12	A	12:A	_
+14	Warhol	Warhol	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	Claes	Claes	PROPN	NNP	_	13	C	13:C	_
+17	Oldenburg	Oldenburg	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	Peter	Peter	PROPN	NNP	_	13	C	13:C	_
+20	Blake	Blake	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	13	U	13:U	_
+22	and	and	CCONJ	CC	_	13	N	13:N	_
+23	Richard	Richard	PROPN	NNP	_	13	C	13:C	_
+24	Hamilton	Hamilton	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	13	U	13:U	_
+

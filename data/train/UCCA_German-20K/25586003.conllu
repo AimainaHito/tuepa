@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25586003
+# text = » Und wie kann man sich frei machen ? « fragte ich . -
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Und	und	CCONJ	ADJD	_	7	L	7:L	_
+3	wie	wie	ADV	ADV	_	7	D	7:D	_
+4	kann	können	AUX	VMFIN	_	7	D	7:D	_
+5	man	man	PRON	PIS	_	7	A	7:A	_
+6	sich	er|es|sie	PRON	PRF	_	7	A	7:A	_
+7	frei	frei	ADJ	ADJD	_	11	A	11:A	_
+8	machen	machen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+9	?	?	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+14	-	-	PUNCT	$(	_	11	U	11:U	_
+

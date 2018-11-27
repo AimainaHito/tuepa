@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 657003
+# text = Daydream ( 1995 ) made music history when its second single " One Sweet Day " , a duet with Boyz II Men , spent a record sixteen weeks on top of the Billboard Hot 100 , and remains the longest - running number - one song in U.S. chart history .
+1	Daydream	Daydream	PROPN	NNP	_	5	A	5:A	_
+2	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+3	1995	1995	NUM	CD	_	1	E	1:E	_
+4	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+5	made	make	VERB	VBN	_	0	H	0:H	_
+6	music	music	NOUN	NN	_	7	E	7:E	_
+7	history	history	NOUN	NN	_	5	A	5:A	_
+8	when	when	ADV	WRB	_	5	L	5:L	_
+9	its	it	PRON	PRP$	_	13	E	13:E	_
+10	second	second	ADJ	JJ	_	11	E	11:E	_
+11	single	single	ADJ	JJ	_	0	C	0:C|39:A	_
+12	"	"	PUNCT	``	_	5	U	5:U	_
+13	One	one	PROPN	NNP	_	31	A	31:A	_
+14	Sweet	sweet	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Day	day	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	"	"	PUNCT	''	_	13	U	13:U	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	duet	duet	NOUN	NN	_	13	E	13:E	_
+20	with	with	ADP	IN	_	21	R	21:R	_
+21	Boyz	Boyz	PROPN	NNP	_	19	E	19:E	_
+22	II	II	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Men	men	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	,	,	PUNCT	,	_	31	U	31:U	_
+25	spent	spend	VERB	VBD	_	31	D	31:D	_
+26	a	a	DET	DT	_	29	E	29:E	_
+27	record	record	NOUN	NN	_	29	E	29:E	_
+28	sixteen	sixteen	NUM	CD	_	29	E	29:E	_
+29	weeks	week	NOUN	NNS	_	31	D	31:D	_
+30	on	on	ADP	IN	_	31	R	31:R	_
+31	top	top	NOUN	NN	_	5	H	5:H	_
+32	of	of	ADP	IN	_	31	R	31:R	_
+33	the	the	DET	DT	_	36	E	36:E	_
+34	Billboard	Billboard	PROPN	NNP	_	36	E	36:E	_
+35	Hot	hot	PROPN	NNP	_	36	E	36:E	_
+36	100	100	NUM	CD	_	31	A	31:A	_
+37	,	,	PUNCT	,	_	5	U	5:U	_
+38	and	and	CCONJ	CC	_	5	L	5:L	_
+39	remains	remain	VERB	VBZ	_	5	H	5:H	_
+40	the	the	DET	DT	_	47	E	47:E	_
+41	longest	longest	ADV	RBS	_	43	E	43:E	_
+42	-	-	PUNCT	HYPH	_	43	U	43:U	_
+43	running	run	VERB	VBG	_	47	E	47:E	_
+44	number	number	NOUN	NN	_	47	E	47:E	_
+45	-	-	PUNCT	HYPH	_	44	U	44:U	_
+46	one	one	NUM	CD	_	44	E	44:E	_
+47	song	song	NOUN	NN	_	39	A	39:A	_
+48	in	in	ADP	IN	_	51	R	51:R	_
+49	U.S.	U.S.	PROPN	NNP	_	51	E	51:E	_
+50	chart	chart	NOUN	NN	_	51	E	51:E	_
+51	history	history	NOUN	NN	_	47	E	47:E	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

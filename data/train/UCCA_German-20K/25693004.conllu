@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25693004
+# text = Zur Zeit der Ptolemäer und der römischen Kaiser war es die Haupt straße des Welt handels , und die Durchstechung des Isthmus von Suez wird ihm diese Bedeutung wiedergeben , die durch die Eisen bahnen bereits zum Teil wieder gewonnen ist .
+1	Zur	Zur	ADP	NN	_	2	R	2:R	_
+2	Zeit	Zeit	NOUN	NN	_	4	L	4:L	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Ptolemäer	Ptolemäer	NOUN	ADJA	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	der	der	DET	ART	_	8	R	8:R	_
+7	römischen	römisch	ADJ	ADJA	_	8	E	8:E	_
+8	Kaiser	Kaiser	NOUN	NN	_	4	C	4:C	_
+9	war	sein	AUX	ADV	_	4	H	4:H	_
+10	es	es	PRON	PPER	_	9	A	9:A	_
+11	die	der	DET	ART	_	13	E	13:E	_
+12	Haupt	Haupt	NOUN	NN	_	13	E	13:E	_
+13	straße	straß	ADJ	NN	_	9	A	9:A	_
+14	des	der	DET	ART	_	16	R	16:R	_
+15	Welt	Welt	NOUN	NN	_	16	D	16:D	_
+16	handels	handels	ADV	NE	_	13	E	13:E	_
+17	,	,	PUNCT	$,	_	4	U	4:U	_
+18	und	und	CCONJ	NE	_	4	L	4:L	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Durchstechung	Durchstechung	NOUN	NN	_	29	A	29:A	_
+21	des	der	DET	ART	_	24	R	24:R	_
+22	Isthmus	Isthmus	NOUN	NN	_	24	E	24:E	_
+23	von	von	ADP	NE	_	24	R	24:R	_
+24	Suez	Suez	PROPN	NE	_	20	A	20:A	_
+25	wird	werden	AUX	VAFIN	_	29	F	29:F	_
+26	ihm	er	PRON	PPER	_	29	A	29:A	_
+27	diese	dies	PRON	PDAT	_	28	E	28:E	_
+28	Bedeutung	Bedeutung	NOUN	NN	_	29	A	29:A	_
+29	wiedergeben	wiedergeben	VERB	VVINF	_	4	H	4:H	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	die	der	PRON	PRELS	_	40	R	40:R	_
+32	durch	durch	ADP	APPR	_	35	R	35:R	_
+33	die	der	DET	ART	_	35	E	35:E	_
+34	Eisen	Eisen	NOUN	NN	_	35	E	35:E	_
+35	bahnen	bahnen	VERB	VVFIN	_	40	A	40:A	_
+36	bereits	bereits	ADV	ADV	_	40	D	40:D	_
+37	zum	zum	ADP	NN	_	40	D	40:D	_
+38	Teil	Teil	NOUN	NN	_	37	Terminal	37:Terminal	_
+39	wieder	wieder	ADV	NN	_	40	D	40:D	_
+40	gewonnen	gewinnen	VERB	VVPP	_	28	E	28:E	_
+41	ist	sein	AUX	NN	_	40	F	40:F	_
+42	.	.	PUNCT	$.	_	40	U	40:U	_
+

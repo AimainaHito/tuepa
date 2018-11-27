@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25758014
+# text = » Es sind Süd-Walfische « , sagte er . » Es wäre da für eine Flotte von Walfischfängern zu tun . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Es	es	PRON	PPER	_	3	F	3:F	_
+3	sind	sein	AUX	NE	_	7	A	7:A	_
+4	Süd-Walfische	Süd-Walfische	NOUN	ADJA	_	3	A	3:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	Es	es	PRON	PPER	_	20	F	20:F	_
+12	wäre	sein	AUX	ADV	_	20	D	20:D	_
+13	da	da	ADV	ADV	_	20	A	20:A	_
+14	für	für	ADP	APPR	_	16	R	16:R	_
+15	eine	ein	DET	ART	_	16	E	16:E	_
+16	Flotte	Flotte	NOUN	NN	_	20	A	20:A	_
+17	von	von	ADP	NE	_	16	R	16:R	_
+18	Walfischfängern	Walfischfängern	PROPN	NN	_	16	C	16:C	_
+19	zu	zu	PART	NN	_	20	F	20:F	_
+20	tun	tun	VERB	VVINF	_	3	H	3:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

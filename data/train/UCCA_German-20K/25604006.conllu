@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25604006
+# text = Die " Nautilus " traf in der Nacht vom 9 . zum 10 . Dezember auf dieses Molluskenheer ; man konnte ihrer Millionen zählen .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	traf	treffen	VERB	VVFIN	_	0	H	0:H	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Nacht	Nacht	NOUN	NN	_	10	E	10:E	_
+9	vom	vom	ADP	NE	_	8	R	8:R	_
+10	9	9	NUM	CARD	_	5	D	5:D	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	zum	zum	ADV	NN	_	10	N	10:N	_
+13	10	10	NUM	CARD	_	10	C	10:C	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	Dezember	Dezember	PROPN	NN	_	13	Terminal	13:Terminal	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	dieses	dies	PRON	PDAT	_	18	E	18:E	_
+18	Molluskenheer	Molluskenheer	NOUN	NN	_	5	A	5:A	_
+19	;	;	PUNCT	$.	_	5	U	5:U	_
+20	man	man	PRON	PIS	_	24	A	24:A	_
+21	konnte	können	AUX	VMFIN	_	24	D	24:D	_
+22	ihrer	ihr	DET	PPOSAT	_	24	A	24:A	_
+23	Millionen	Million	NOUN	NN	_	24	D	24:D	_
+24	zählen	zählen	VERB	VVFIN	_	5	H	5:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25689007
+# text = Sobald wir uns in dem Fahrzeug befanden , entledigten wir uns mit Hilfe der Boots leute der schweren Bepanzerung .
+1	Sobald	sobald	SCONJ	NE	_	3	L	3:L	_
+2	wir	wir	PRON	NE	_	3	A	3:A	_
+3	uns	wir	PRON	NE	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	Fahrzeug	Fahrzeug	NOUN	NN	_	3	A	3:A	_
+7	befanden	befinden	VERB	VVFIN	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	entledigten	entledigen	VERB	VVFIN	_	3	H	3:H	_
+10	wir	wir	PRON	NE	_	9	A	9:A	_
+11	uns	wir	PRON	NE	_	9	Terminal	9:Terminal	_
+12	mit	mit	ADP	APPR	_	13	R	13:R	_
+13	Hilfe	Hilfe	NOUN	NN	_	9	A	9:A	_
+14	der	der	DET	ART	_	16	R	16:R	_
+15	Boots	Boot	NOUN	NN	_	16	E	16:E	_
+16	leute	leuen	VERB	VVFIN	_	13	E	13:E	_
+17	der	der	DET	ART	_	19	R	19:R	_
+18	schweren	schwer	ADJ	ADJA	_	19	E	19:E	_
+19	Bepanzerung	Bepanzerung	NOUN	NN	_	9	A	9:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

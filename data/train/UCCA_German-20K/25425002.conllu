@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25425002
+# text = Man hat solche Zähne in den Körpern von Walfischen gebohrt gefunden , die der Narwal beständig mit Erfolg angreift .
+1	Man	man	PRON	PIS	_	11	A	11:A	_
+2	hat	haben	VERB	VAFIN	_	11	F	11:F	_
+3	solche	solch	DET	ADJA	_	4	E	4:E	_
+4	Zähne	Zahn	NOUN	NN	_	10	A	10:A	_
+5	in	in	ADP	APPR	_	9	R	9:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Körpern	Körper	NOUN	NN	_	9	E	9:E	_
+8	von	von	ADP	NE	_	7	R	7:R	_
+9	Walfischen	Walfisch	PROPN	NE	_	10	A	10:A	_
+10	gebohrt	gebohrt	ADJ	VVFIN	_	11	A	11:A	_
+11	gefunden	gefund	ADJ	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	19	R	19:R	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Narwal	Narwal	NOUN	NN	_	19	A	19:A	_
+16	beständig	beständig	ADJ	ADJD	_	19	D	19:D	_
+17	mit	mit	ADP	APPR	_	18	R	18:R	_
+18	Erfolg	Erfolg	NOUN	NN	_	19	A	19:A	_
+19	angreift	angreifen	ADJ	VVPP	_	9	E	9:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

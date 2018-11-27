@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 655003
+# text = " The Beatles ' producer , George Martin , tells how Lennon " had an inborn dislike of his own voice which I could never understand . He was always saying to me : ' DO something with my voice ! ... put something on it ... Make it different .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	Beatles	Beatles	PROPN	NNPS	_	5	E	5:E	_
+4	'	's	PART	POS	_	5	U	5:U	_
+5	producer	producer	NOUN	NN	_	7	E	7:E	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	George	George	PROPN	NNP	_	10	A	10:A	_
+8	Martin	Martin	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	tells	tell	VERB	VBZ	_	0	H	0:H	_
+11	how	how	ADV	WRB	_	17	D	17:D	_
+12	Lennon	Lennon	PROPN	NNP	_	17	A	17:A	_
+13	"	"	PUNCT	''	_	17	U	17:U	_
+14	had	have	VERB	VBD	_	17	F	17:F	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	inborn	inborn	NOUN	NN	_	17	D	17:D	_
+17	dislike	dislike	ADP	IN	_	10	A	10:A	_
+18	of	of	ADP	IN	_	21	R	21:R	_
+19	his	he	PRON	PRP$	_	21	E	21:E	_
+20	own	own	ADJ	JJ	_	21	F	21:F	_
+21	voice	voice	NOUN	NN	_	17	A	17:A	_
+22	which	which	PRON	WDT	_	17	L	17:L	_
+23	I	I	PRON	PRP	_	26	A	26:A	_
+24	could	could	AUX	MD	_	26	D	26:D	_
+25	never	never	ADV	RB	_	26	D	26:D	_
+26	understand	understand	VERB	VB	_	17	H	17:H	_
+27	.	.	PUNCT	.	_	17	U	17:U	_
+28	He	he	PRON	PRP	_	31	A	31:A	_
+29	was	be	AUX	VBD	_	31	F	31:F	_
+30	always	always	ADV	RB	_	31	D	31:D	_
+31	saying	say	VERB	VBG	_	17	H	17:H	_
+32	to	to	ADP	IN	_	33	R	33:R	_
+33	me	I	PRON	PRP	_	31	A	31:A	_
+34	:	:	PUNCT	:	_	36	U	36:U	_
+35	'	'	PUNCT	``	_	36	U	36:U	_
+36	DO	do	VERB	VB	_	31	A	31:A	_
+37	something	something	PRON	NN	_	36	A	36:A	_
+38	with	with	ADP	IN	_	40	R	40:R	_
+39	my	my	PRON	PRP$	_	40	E	40:E	_
+40	voice	voice	NOUN	NN	_	36	A	36:A	_
+41	!	!	PUNCT	.	_	36	U	36:U	_
+42	...	...	PUNCT	,	_	36	U	36:U	_
+43	put	put	VERB	VB	_	36	H	36:H	_
+44	something	something	PRON	NN	_	43	A	43:A	_
+45	on	on	ADP	IN	_	46	R	46:R	_
+46	it	it	PRON	PRP	_	43	A	43:A	_
+47	...	...	PUNCT	,	_	36	U	36:U	_
+48	Make	make	VERB	VB	_	36	H	36:H	_
+49	it	it	PRON	PRP	_	48	A	48:A	_
+50	different	different	ADJ	JJ	_	48	A	48:A	_
+51	.	.	PUNCT	.	_	48	U	48:U	_
+

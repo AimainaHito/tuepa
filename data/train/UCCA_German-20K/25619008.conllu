@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25619008
+# text = Der Kanadier warf Conseil einen Blick zu und zuckte die Achseln .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|9:A	_
+3	warf	werfen	VERB	VVFIN	_	0	H	0:H	_
+4	Conseil	Conseil	PROPN	NE	_	3	A	3:A	_
+5	einen	ein	DET	ART	_	6	E	6:E	_
+6	Blick	Blick	NOUN	NN	_	3	A	3:A	_
+7	zu	zu	ADP	NE	_	3	Terminal	3:Terminal	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	zuckte	zucken	VERB	VVFIN	_	3	H	3:H	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Achseln	Achsel	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

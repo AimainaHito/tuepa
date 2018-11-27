@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 537010
+# text = After two arduous years in Canada , Benjamin and Pearl Warner returned to Baltimore , bringing along their growing family .
+1	After	after	ADP	IN	_	6	L	6:L	_
+2	two	two	NUM	CD	_	4	E	4:E	_
+3	arduous	arduous	ADJ	JJ	_	4	E	4:E	_
+4	years	year	NOUN	NNS	_	6	D	6:D	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	Canada	Canada	PROPN	NNP	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Benjamin	Benjamin	PROPN	NNP	_	12	A	12:A|16:A|6:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	Pearl	Pearl	PROPN	NNP	_	8	C	8:C	_
+11	Warner	Warner	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	returned	return	VERB	VBD	_	6	H	6:H	_
+13	to	to	ADP	IN	_	14	R	14:R	_
+14	Baltimore	Baltimore	PROPN	NNP	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	bringing	bring	VERB	VBG	_	6	H	6:H	_
+17	along	along	ADV	RB	_	16	E	16:E	_
+18	their	they	PRON	PRP$	_	20	E	20:E	_
+19	growing	grow	VERB	VBG	_	20	E	20:E	_
+20	family	family	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

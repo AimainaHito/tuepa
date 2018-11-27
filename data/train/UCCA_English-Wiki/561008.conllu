@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 561008
+# text = RCA Victor released Presley 's self - titled debut album on March 23 .
+1	RCA	RCA	PROPN	NNP	_	2	E	2:E	_
+2	Victor	Victor	PROPN	NNP	_	3	A	3:A	_
+3	released	release	VERB	VBD	_	0	H	0:H	_
+4	Presley	Presley	PROPN	NNP	_	10	E	10:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	self	self	NOUN	NN	_	8	D	8:D	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	titled	title	VERB	VBN	_	10	E	10:E	_
+9	debut	debut	NOUN	NN	_	10	E	10:E	_
+10	album	album	NOUN	NN	_	3	A	3:A	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	March	March	PROPN	NNP	_	3	D	3:D	_
+13	23	23	NUM	CD	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

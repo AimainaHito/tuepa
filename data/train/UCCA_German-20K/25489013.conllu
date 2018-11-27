@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25489013
+# text = » Tausend Teufel ! « schrie er , » das sind Leute , so gastlich wie Kaledonier ! Es fehlt nur noch , dass sie uns auffressen . Das würde mich nicht wundern , aber ich erkläre , sie würden mich nicht fressen , ohne dass ich protestiere !
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Tausend	Tausend	PROPN	ADJD	_	6	A	6:A	_
+3	Teufel	Teufel	PROPN	NN	_	2	Terminal	2:Terminal	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	schrie	schrie	CCONJ	NE	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	das	der	PRON	ART	_	11	A	11:A	_
+11	sind	sein	AUX	NN	_	2	H	2:H	_
+12	Leute	Leute	NOUN	NN	_	11	A	11:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	so	so	ADV	ADV	_	15	F	15:F	_
+15	gastlich	gastlich	ADJ	ADJD	_	12	E	12:E	_
+16	wie	wie	ADP	ADJA	_	15	R	15:R	_
+17	Kaledonier	Kaledonier	NOUN	NN	_	15	A	15:A	_
+18	!	!	PUNCT	$.	_	2	U	2:U	_
+19	Es	es	PRON	PPER	_	20	A	20:A	_
+20	fehlt	fehlen	VERB	VVFIN	_	2	H	2:H	_
+21	nur	nur	ADV	NE	_	22	E	22:E	_
+22	noch	noch	ADV	CARD	_	20	D	20:D	_
+23	,	,	PUNCT	$,	_	20	U	20:U	_
+24	dass	dass	SCONJ	KOUS	_	27	R	27:R	_
+25	sie	sie	PRON	ADV	_	27	A	27:A	_
+26	uns	wir	PRON	NE	_	27	A	27:A	_
+27	auffressen	auffressen	VERB	VVPP	_	20	A	20:A	_
+28	.	.	PUNCT	$.	_	2	U	2:U	_
+29	Das	der	PRON	ART	_	33	A	33:A	_
+30	würde	werden	AUX	NN	_	33	D	33:D	_
+31	mich	ich	PRON	PRF	_	33	A	33:A	_
+32	nicht	nicht	PART	XY	_	33	D	33:D	_
+33	wundern	wundern	VERB	VVINF	_	2	H	2:H	_
+34	,	,	PUNCT	$,	_	2	U	2:U	_
+35	aber	aber	CCONJ	KON	_	2	L	2:L	_
+36	ich	ich	PRON	PPER	_	37	A	37:A	_
+37	erkläre	erklär	ADJ	ADJA	_	2	H	2:H	_
+38	,	,	PUNCT	$,	_	2	U	2:U	_
+39	sie	sie	PRON	TRUNC	_	43	A	43:A	_
+40	würden	werden	AUX	ADJD	_	43	D	43:D	_
+41	mich	ich	PRON	PPER	_	43	A	43:A	_
+42	nicht	nicht	PART	XY	_	43	D	43:D	_
+43	fressen	fressen	VERB	VVINF	_	2	H	2:H	_
+44	,	,	PUNCT	$,	_	2	U	2:U	_
+45	ohne	ohne	ADP	NE	_	2	L	2:L	_
+46	dass	dass	SCONJ	KOUS	_	45	Terminal	45:Terminal	_
+47	ich	ich	PRON	PPER	_	48	A	48:A	_
+48	protestiere	protesti	ADJ	NN	_	2	H	2:H	_
+49	!	!	PUNCT	$.	_	48	U	48:U	_
+

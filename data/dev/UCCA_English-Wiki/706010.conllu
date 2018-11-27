@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 706010
+# text = Arthur Baker , who had remixed hits for Bruce Springsteen and Cyndi Lauper , was asked to engineer and mix the album .
+1	Arthur	Arthur	PROPN	NNP	_	16	A	16:A	_
+2	Baker	baker	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	who	who	PRON	WP	_	6	R	6:R	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	remixed	remix	VERB	VBN	_	1	E	1:E	_
+7	hits	hit	NOUN	NNS	_	6	A	6:A	_
+8	for	for	ADP	IN	_	9	R	9:R	_
+9	Bruce	Bruce	PROPN	NNP	_	6	A	6:A	_
+10	Springsteen	Springsteen	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	and	and	CCONJ	CC	_	9	N	9:N	_
+12	Cyndi	Cyndi	PROPN	NNP	_	9	C	9:C	_
+13	Lauper	Lauper	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	16	U	16:U	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	asked	ask	VERB	VBN	_	0	H	0:H	_
+17	to	to	ADP	IN	_	18	F	18:F	_
+18	engineer	engineer	NOUN	NN	_	16	A	16:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	mix	mix	VERB	VB	_	18	C	18:C	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	album	album	NOUN	NN	_	18	A	18:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

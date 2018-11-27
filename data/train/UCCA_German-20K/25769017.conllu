@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25769017
+# text = Alle seine Bewegungen vollzogen sich mit äußerster Genauigkeit .
+1	Alle	alle	PRON	PIS	_	3	E	3:E	_
+2	seine	sein	DET	PPOSAT	_	3	E	3:E	_
+3	Bewegungen	Bewegung	NOUN	NN	_	4	A	4:A	_
+4	vollzogen	vollziehen	VERB	VVPP	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	äußerster	äußer	ADJ	NN	_	8	E	8:E	_
+8	Genauigkeit	Genauigkeit	NOUN	NN	_	4	A	4:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

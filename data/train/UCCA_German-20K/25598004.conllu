@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25598004
+# text = Ich hatte damals Gelegenheit , einen der schönsten Schüsse zu beobachten , die je einem Jäger das Herz erfreuten .
+1	Ich	ich	PRON	PPER	_	4	A	4:A|11:A	_
+2	hatte	haben	AUX	VAFIN	_	4	F	4:F	_
+3	damals	damals	ADV	ADV	_	4	D	4:D	_
+4	Gelegenheit	Gelegenheit	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	einen	ein	PRON	PIS	_	9	E	9:E	_
+7	der	der	DET	ART	_	9	E	9:E	_
+8	schönsten	schön	ADJ	ADJA	_	9	E	9:E	_
+9	Schüsse	Schuß	NOUN	NN	_	11	A	11:A	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	beobachten	beobachten	VERB	VVINF	_	4	A	4:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	19	R	19:R	_
+14	je	je	ADP	ADV	_	19	D	19:D	_
+15	einem	ein	DET	ART	_	16	E	16:E	_
+16	Jäger	Jäger	NOUN	NN	_	19	A	19:A	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Herz	Herz	NOUN	NN	_	19	A	19:A	_
+19	erfreuten	erfreuten	VERB	VVINF	_	9	E	9:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

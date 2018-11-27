@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 216001
+# text = The film was screened as a special presentation at the 43rd San Francisco International Film Festival in 2000 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	screened	screen	VERB	VBN	_	0	H	0:H	_
+5	as	as	ADP	IN	_	8	R	8:R	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	special	special	ADJ	JJ	_	8	E	8:E	_
+8	presentation	presentation	NOUN	NN	_	4	A	4:A	_
+9	at	at	ADP	IN	_	16	R	16:R	_
+10	the	the	DET	DT	_	16	E	16:E	_
+11	43rd	43rd	ADJ	JJ	_	16	E	16:E	_
+12	San	San	PROPN	NNP	_	16	E	16:E	_
+13	Francisco	Francisco	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	International	International	PROPN	NNP	_	16	E	16:E	_
+15	Film	film	PROPN	NNP	_	16	E	16:E	_
+16	Festival	Festival	PROPN	NNP	_	4	A	4:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	2000	2000	NUM	CD	_	4	D	4:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

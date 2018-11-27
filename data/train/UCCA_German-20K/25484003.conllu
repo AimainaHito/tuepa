@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25484003
+# text = » Ein anderer , der 's besser versteht ! « rief der Kommandant , » und 500 Dollar , wer die höllische Bestie trifft !
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ein	ein	DET	ART	_	3	E	3:E	_
+3	anderer	ander	ADJ	ADJA	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	der	der	PRON	PRELS	_	8	R	8:R	_
+6	's	es	PRON	PPER	_	8	A	8:A	_
+7	besser	gut	ADJ	ADJD	_	8	D	8:D	_
+8	versteht	verstehen	VERB	VVFIN	_	3	E	3:E	_
+9	!	!	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kommandant	Kommandant	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	»	»	PUNCT	$(	_	11	U	11:U	_
+16	und	und	CCONJ	NE	_	3	L	3:L	_
+17	500	500	NUM	CARD	_	18	E	18:E	_
+18	Dollar	Dollar	NOUN	NN	_	3	H	3:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	wer	wer	PRON	PWS	_	24	A	24:A	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	höllische	höllisch	ADJ	ADJA	_	23	E	23:E	_
+23	Bestie	Bestie	NOUN	NN	_	24	A	24:A	_
+24	trifft	treffen	VERB	VVFIN	_	18	A	18:A	_
+25	!	!	PUNCT	$.	_	24	U	24:U	_
+

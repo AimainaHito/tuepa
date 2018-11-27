@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25438004
+# text = » Herr Pierre Arronax ? « sagte er .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Herr	Herr	NOUN	NN	_	3	E	3:E	_
+3	Pierre	Pierre	PROPN	NE	_	7	A	7:A	_
+4	Arronax	Arronax	PROPN	NE	_	3	Terminal	3:Terminal	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

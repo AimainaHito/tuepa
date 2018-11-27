@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25733019
+# text = Rechts und links zogen finstere Gänge , worin sich der Blick verlor .
+1	Rechts	rechts	NOUN	NE	_	4	D	4:D	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	links	links	ADV	ADV	_	1	C	1:C	_
+4	zogen	ziehen	VERB	VVFIN	_	0	H	0:H	_
+5	finstere	finster	ADJ	ADJA	_	6	E	6:E	_
+6	Gänge	Gang	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	worin	worin	PRON	PWAV	_	9	R	9:R	_
+9	sich	er|es|sie	PRON	PRF	_	6	E	6:E	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Blick	Blicken	NOUN	NN	_	9	A	9:A	_
+12	verlor	verlieren	VERB	VVFIN	_	9	Terminal	9:Terminal	_
+13	.	.	PUNCT	$.	_	9	U	9:U	_
+

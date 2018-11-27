@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25681010
+# text = Das Meer zwischen uns war leer : kein Fahrzeug , kein Taucher zu sehen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	6	A	6:A	_
+3	zwischen	zwischen	ADP	ADJA	_	4	R	4:R	_
+4	uns	wir	PRON	NN	_	6	A	6:A	_
+5	war	sein	AUX	ADV	_	6	F	6:F	_
+6	leer	leer	ADJ	ADJD	_	0	H	0:H	_
+7	:	:	PUNCT	$.	_	6	U	6:U	_
+8	kein	kein	PRON	PIAT	_	9	D	9:D	_
+9	Fahrzeug	Fahrzeug	NOUN	NN	_	6	H	6:H	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	kein	kein	PRON	PIAT	_	14	D	14:D	_
+12	Taucher	Taucher	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	sehen	sehen	VERB	VVINF	_	0	P	0:P|9:P	_
+15	.	.	PUNCT	$.	_	9	U	9:U	_
+

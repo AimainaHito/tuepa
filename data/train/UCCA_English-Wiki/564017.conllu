@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 564017
+# text = Presley 's performance of his forthcoming single , the ballad " Love Me Tender " , prompted a record - shattering million advance orders .
+1	Presley	Presley	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	performance	performance	NOUN	NN	_	17	A	17:A	_
+4	of	of	ADP	IN	_	7	R	7:R	_
+5	his	he	PRON	PRP$	_	7	E	7:E	_
+6	forthcoming	forthcoming	ADJ	JJ	_	7	E	7:E	_
+7	single	single	ADJ	JJ	_	3	E	3:E	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	ballad	ballad	ADJ	JJ	_	12	E	12:E	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	Love	Love	VERB	VBP	_	7	E	7:E	_
+13	Me	Me	PRON	PRP	_	12	Terminal	12:Terminal	_
+14	Tender	Tender	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	"	"	PUNCT	''	_	17	U	17:U	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	prompted	prompt	VERB	VBD	_	0	H	0:H	_
+18	a	a	DET	DT	_	24	E	24:E	_
+19	record	record	NOUN	NN	_	21	A	21:A	_
+20	-	-	PUNCT	HYPH	_	21	U	21:U	_
+21	shattering	shattere	VERB	VBG	_	24	E	24:E	_
+22	million	million	NUM	CD	_	24	E	24:E	_
+23	advance	advance	NOUN	NN	_	24	E	24:E	_
+24	orders	order	NOUN	NNS	_	17	A	17:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

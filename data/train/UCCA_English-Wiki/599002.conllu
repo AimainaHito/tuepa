@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 599002
+# text = After the band 's break - up , he pursued a solo career , later forming Wings with his first wife , Linda , and singer - songwriter Denny Laine .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	band	band	NOUN	NN	_	5	A	5:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	break	break	NOUN	NN	_	0	H	0:H	_
+6	-	-	PUNCT	HYPH	_	5	U	5:U	_
+7	up	up	NOUN	NN	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	he	he	PRON	PRP	_	10	A	10:A|16:A	_
+10	pursued	pursue	VERB	VBD	_	5	H	5:H	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	solo	solo	ADJ	JJ	_	13	E	13:E	_
+13	career	career	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	later	later	ADV	RB	_	5	L	5:L	_
+16	forming	form	VERB	VBG	_	5	H	5:H	_
+17	Wings	wing	NOUN	NNS	_	16	A	16:A	_
+18	with	with	ADP	IN	_	23	R	23:R	_
+19	his	he	PRON	PRP$	_	23	E	23:E	_
+20	first	first	ADJ	JJ	_	21	E	21:E	_
+21	wife	wife	NOUN	NN	_	23	E	23:E	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	Linda	Linda	PROPN	NNP	_	16	A	16:A	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	and	and	CCONJ	CC	_	23	N	23:N	_
+26	singer	singer	NOUN	NN	_	29	E	29:E	_
+27	-	-	PUNCT	HYPH	_	26	U	26:U	_
+28	songwriter	songwriter	NOUN	NN	_	26	C	26:C	_
+29	Denny	denny	PROPN	NNP	_	23	C	23:C	_
+30	Laine	Laine	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

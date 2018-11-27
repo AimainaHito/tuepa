@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 645007
+# text = " After his death it was revealed that he had left Julian very little in his will .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	After	after	ADP	IN	_	4	L	4:L	_
+3	his	he	PRON	PRP$	_	4	A	4:A	_
+4	death	death	NOUN	NN	_	0	H	0:H	_
+5	it	it	PRON	PRP	_	7	F	7:F	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	revealed	reveal	VERB	VBN	_	4	H	4:H	_
+8	that	that	SCONJ	IN	_	11	F	11:F	_
+9	he	he	PRON	PRP	_	11	A	11:A	_
+10	had	have	AUX	VBD	_	11	F	11:F	_
+11	left	leave	VERB	VBN	_	7	A	7:A	_
+12	Julian	Julian	PROPN	NNP	_	11	A	11:A	_
+13	very	very	ADV	RB	_	14	E	14:E	_
+14	little	little	ADV	RB	_	11	A	11:A	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	will	will	NOUN	NN	_	11	A	11:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

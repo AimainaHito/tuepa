@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25490012
+# text = War auch unsere Zelle geräumig , so war 's doch klar , dass wir einen großen Teil des Sauerstoffs , der darin gewesen war , verzehrt hatten .
+1	War	sein	AUX	ADV	_	5	F	5:F	_
+2	auch	auch	ADV	ADV	_	5	F	5:F	_
+3	unsere	unser	PRON	PPOSAT	_	4	E	4:E	_
+4	Zelle	Zelle	NOUN	NN	_	5	A	5:A	_
+5	geräumig	geräumig	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	so	so	ADV	ADV	_	5	L	5:L	_
+8	war	sein	AUX	ADV	_	11	F	11:F	_
+9	's	es	PRON	ART	_	11	F	11:F	_
+10	doch	doch	ADV	ADV	_	11	F	11:F	_
+11	klar	klar	ADJ	ADJD	_	5	H	5:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	dass	dass	SCONJ	KOUS	_	26	R	26:R	_
+14	wir	wir	PRON	NE	_	26	A	26:A	_
+15	einen	ein	DET	ART	_	17	E	17:E	_
+16	großen	groß	ADJ	ADJA	_	17	E	17:E	_
+17	Teil	Teil	NOUN	NN	_	26	A	26:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Sauerstoffs	Sauerstoff	NOUN	NN	_	17	E	17:E	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	der	der	PRON	PRELS	_	23	R	23:R	_
+22	darin	darin	ADV	PAV	_	23	A	23:A	_
+23	gewesen	sein	AUX	VVINF	_	19	E	19:E	_
+24	war	sein	AUX	ADV	_	23	F	23:F	_
+25	,	,	PUNCT	$,	_	26	U	26:U	_
+26	verzehrt	verzehren	VERB	VVPP	_	11	A	11:A	_
+27	hatten	haben	AUX	VAFIN	_	26	F	26:F	_
+28	.	.	PUNCT	$.	_	26	U	26:U	_
+

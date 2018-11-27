@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 496016
+# text = Known as The Hype , the band members created characters for themselves and wore elaborate costumes that prefigured the glam style of The Spiders From Mars .
+1	Known	know	PROPN	NNP	_	0	H	0:H	_
+2	as	as	ADP	IN	_	4	R	4:R	_
+3	The	the	DET	DT	_	4	E	4:E	_
+4	Hype	hype	PROPN	NNP	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	band	band	NOUN	NN	_	8	E	8:E|1:A	_
+8	members	member	NOUN	NNS	_	0	C	0:C|14:A	_
+9	created	create	VERB	VBN	_	1	H	1:H	_
+10	characters	character	NOUN	NNS	_	9	A	9:A	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	themselves	themself	PRON	PRP	_	9	A	9:A	_
+13	and	and	CCONJ	CC	_	1	L	1:L	_
+14	wore	wear	ADJ	JJ	_	1	H	1:H	_
+15	elaborate	elaborate	ADJ	JJ	_	16	E	16:E	_
+16	costumes	costume	NOUN	NNS	_	14	A	14:A	_
+17	that	that	PRON	WDT	_	18	F	18:F	_
+18	prefigured	prefigure	VERB	VBD	_	16	E	16:E	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	glam	glam	NOUN	NN	_	21	E	21:E	_
+21	style	style	NOUN	NN	_	18	A	18:A	_
+22	of	of	ADP	IN	_	23	R	23:R	_
+23	The	the	DET	DT	_	21	E	21:E	_
+24	Spiders	Spider	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+25	From	from	ADP	IN	_	23	Terminal	23:Terminal	_
+26	Mars	Mars	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	.	.	PUNCT	.	_	23	U	23:U	_
+

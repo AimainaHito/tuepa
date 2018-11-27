@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25764009
+# text = Obwohl nur 5 Grad unter Null , war doch die ›Nautilus‹ außen ganz mit Eis überdeckt .
+1	Obwohl	obwohl	SCONJ	KOUS	_	6	L	6:L	_
+2	nur	nur	ADV	NE	_	6	D	6:D	_
+3	5	5	NUM	CARD	_	4	E	4:E	_
+4	Grad	Grad	NOUN	NN	_	6	E	6:E	_
+5	unter	unter	ADP	ADJD	_	6	R	6:R	_
+6	Null	_	NOUN	CARD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	war	sein	AUX	ADV	_	16	F	16:F	_
+9	doch	doch	ADV	ADV	_	6	L	6:L	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	A	16:A	_
+12	außen	außen	ADV	ADV	_	16	D	16:D	_
+13	ganz	ganz	ADJ	ADV	_	16	D	16:D	_
+14	mit	mit	ADP	APPR	_	15	R	15:R	_
+15	Eis	Eis	NOUN	NE	_	16	A	16:A	_
+16	überdeckt	überdecken	VERB	VVPP	_	6	H	6:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

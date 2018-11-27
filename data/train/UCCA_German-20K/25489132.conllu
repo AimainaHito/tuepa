@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25489132
+# text = Ich fühlte - oder vielmehr glaubte es - , wie das Fahrzeug zum tiefsten Meeres grund hinabsank .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|6:A	_
+2	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+3	-	-	PUNCT	$(	_	2	U	2:U	_
+4	oder	oder	CCONJ	CARD	_	2	L	2:L	_
+5	vielmehr	vielmehr	ADV	CARD	_	6	D	6:D	_
+6	glaubte	glauben	VERB	VVFIN	_	2	H	2:H	_
+7	es	es	PRON	PPER	_	6	A	6:A	_
+8	-	-	PUNCT	$(	_	2	U	2:U	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	wie	wie	SCONJ	KON	_	17	R	17:R	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	Fahrzeug	Fahrzeug	NOUN	NN	_	17	A	17:A	_
+13	zum	zum	ADP	NN	_	16	R	16:R	_
+14	tiefsten	tief	ADJ	ADJA	_	16	E	16:E	_
+15	Meeres	Meer	NOUN	NN	_	16	E	16:E	_
+16	grund	grund	ADJ	ADV	_	17	A	17:A	_
+17	hinabsank	hinabsank	ADP	VVFIN	_	2	A	2:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

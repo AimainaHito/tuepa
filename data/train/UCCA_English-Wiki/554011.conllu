@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 554011
+# text = Vernon moved from one odd job to the next , evidencing little ambition .
+1	Vernon	Vernon	PROPN	NNP	_	2	A	2:A|11:A	_
+2	moved	move	VERB	VBD	_	0	H	0:H	_
+3	from	from	ADP	IN	_	6	R	6:R	_
+4	one	one	NUM	CD	_	6	E	6:E	_
+5	odd	odd	ADJ	JJ	_	6	E	6:E	_
+6	job	job	NOUN	NN	_	2	A	2:A	_
+7	to	to	ADP	IN	_	8	R	8:R	_
+8	the	the	DET	DT	_	2	A	2:A	_
+9	next	next	ADJ	JJ	_	8	E	8:E	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	evidencing	evidence	VERB	VBG	_	2	H	2:H	_
+12	little	little	ADJ	JJ	_	13	E	13:E	_
+13	ambition	ambition	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 416004
+# text = Je m' occupais donc , en attendant , de classer mes richesses minéralogiques , botaniques et zoologiques , quand arriva l' incident du Scotia .
+1	Je	il	PRON	_	_	3	A	3:A	_
+2	m'	se	PRON	_	_	3	E	3:E	_
+3	occupais	occuper	VERB	_	_	0	H	0:H	_
+4	donc	donc	ADV	_	_	3	L	3:L	_
+5	,	,	PUNCT	_	_	3	U	3:U	_
+6	en	en	ADP	_	_	7	R	7:R	_
+7	attendant	attendre	VERB	_	_	3	D	3:D	_
+8	,	,	PUNCT	_	_	3	U	3:U	_
+9	de	de	ADP	_	_	10	R	10:R	_
+10	classer	classer	VERB	_	_	3	A	3:A	_
+11	mes	son	DET	_	_	12	E	12:E|17:E|15:E	_
+12	richesses	richesse	NOUN	_	_	10	A	10:A	_
+13	minéralogiques	minéralogique	ADJ	_	_	12	E	12:E	_
+14	,	,	PUNCT	_	_	13	U	13:U	_
+15	botaniques	botanique	ADJ	_	_	13	C	13:C	_
+16	et	et	CCONJ	_	_	13	N	13:N	_
+17	zoologiques	zoologique	ADJ	_	_	13	C	13:C	_
+18	,	,	PUNCT	_	_	3	U	3:U	_
+19	quand	quand	SCONJ	_	_	3	L	3:L	_
+20	arriva	arriver	VERB	_	_	3	H	3:H	_
+21	l'	le	DET	_	_	22	E	22:E	_
+22	incident	incident	NOUN	_	_	20	A	20:A	_
+23	du	du	PROPN	_	_	24	R	24:R	_
+24	Scotia	Scotia	PROPN	_	_	22	E	22:E	_
+25	.	.	PUNCT	_	_	24	U	24:U	_
+

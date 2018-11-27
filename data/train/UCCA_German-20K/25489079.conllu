@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25489079
+# text = « » Wie ? Du verstehst deutsch ? « rief ich .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Wie	wie	PROPN	NE	_	10	A	10:A	_
+4	?	?	PROPN	$.	_	3	U	3:U	_
+5	Du	du	PROPN	PPER	_	6	A	6:A	_
+6	verstehst	verstehen	VERB	ADV	_	3	H	3:H	_
+7	deutsch	deutsch	ADJ	ADJD	_	6	A	6:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

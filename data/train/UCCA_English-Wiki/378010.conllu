@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 378010
+# text = Gyllenhaal was almost cast as Spider - Man for Spider - Man 2 due to director Sam Raimi 's concerns about original Spider - Man star Tobey Maguire 's health .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	almost	almost	ADV	RB	_	4	D	4:D	_
+4	cast	cast	VERB	VBN	_	0	H	0:H	_
+5	as	as	ADP	IN	_	6	R	6:R	_
+6	Spider	Spider	PROPN	NNP	_	4	A	4:A	_
+7	-	-	PUNCT	HYPH	_	6	U	6:U	_
+8	Man	man	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	Spider	Spider	PROPN	NNP	_	4	A	4:A	_
+11	-	-	PUNCT	,	_	10	U	10:U	_
+12	Man	man	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	2	2	NUM	CD	_	10	Terminal	10:Terminal	_
+14	due	due	ADP	IN	_	4	L	4:L	_
+15	to	to	ADP	IN	_	14	Terminal	14:Terminal	_
+16	director	director	NOUN	NN	_	17	E	17:E	_
+17	Sam	Sam	PROPN	NNP	_	20	A	20:A	_
+18	Raimi	Raimi	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	's	's	PART	POS	_	17	R	17:R	_
+20	concerns	concern	NOUN	NNS	_	4	H	4:H	_
+21	about	about	ADP	IN	_	30	R	30:R	_
+22	original	original	ADJ	JJ	_	26	E	26:E	_
+23	Spider	Spider	NOUN	NN	_	26	E	26:E	_
+24	-	-	PUNCT	HYPH	_	23	U	23:U	_
+25	Man	Man	NOUN	NN	_	23	Terminal	23:Terminal	_
+26	star	star	NOUN	NN	_	27	E	27:E	_
+27	Tobey	Tobey	PROPN	NNP	_	30	E	30:E	_
+28	Maguire	Maguire	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	's	's	PART	POS	_	27	R	27:R	_
+30	health	health	NOUN	NN	_	20	A	20:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

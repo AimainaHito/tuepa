@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 515006
+# text = Bowie 's innovative songs and stagecraft brought a new dimension to popular music in the early 1970s , strongly influencing both its immediate forms and its subsequent development .
+1	Bowie	Bowie	PROPN	NNP	_	0	C	0:C|20:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	innovative	innovative	ADJ	JJ	_	4	E	4:E	_
+4	songs	song	NOUN	NNS	_	7	A	7:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	stagecraft	stagecraft	NOUN	NN	_	4	C	4:C	_
+7	brought	bring	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	new	new	ADJ	JJ	_	10	E	10:E	_
+10	dimension	dimension	NOUN	NN	_	7	A	7:A	_
+11	to	to	ADP	IN	_	13	R	13:R	_
+12	popular	popular	ADJ	JJ	_	13	E	13:E	_
+13	music	music	NOUN	NN	_	7	A	7:A	_
+14	in	in	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	early	early	ADJ	JJ	_	17	E	17:E	_
+17	1970s	1970	NOUN	NNS	_	7	D	7:D	_
+18	,	,	PUNCT	,	_	7	U	7:U	_
+19	strongly	strongly	ADV	RB	_	20	D	20:D	_
+20	influencing	influence	VERB	VBG	_	7	H	7:H	_
+21	both	both	CCONJ	CC	_	24	N	24:N	_
+22	its	its	PRON	PRP$	_	24	E	24:E	_
+23	immediate	immediate	ADJ	JJ	_	24	E	24:E	_
+24	forms	form	NOUN	NNS	_	20	A	20:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	its	its	PRON	PRP$	_	28	E	28:E	_
+27	subsequent	subsequent	ADJ	JJ	_	28	E	28:E	_
+28	development	development	NOUN	NN	_	24	C	24:C	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

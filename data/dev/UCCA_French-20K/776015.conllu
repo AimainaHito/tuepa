@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 776015
+# text = - Oh ! ce sera peu de chose ! Un chemin un peu moins direct , voilà tout . Nous prenons passage sur l' Abraham - Lincoln ... - Comme il conviendra à monsieur , répondit paisiblement Conseil .
+1	-	-	PUNCT	_	_	5	U	5:U	_
+2	Oh	oh	INTJ	_	_	5	F	5:F	_
+3	!	!	PUNCT	_	_	5	U	5:U	_
+4	ce	ce	PRON	_	_	5	A	5:A|11:A	_
+5	sera	être	VERB	_	_	0	H	0:H	_
+6	peu	peu	ADV	_	_	8	E	8:E	_
+7	de	de	ADP	_	_	6	R	6:R	_
+8	chose	chose	NOUN	_	_	5	A	5:A	_
+9	!	!	PUNCT	_	_	5	U	5:U	_
+10	Un	un	DET	_	_	11	E	11:E	_
+11	chemin	chemin	NOUN	_	_	5	H	5:H	_
+12	un	un	DET	_	_	14	E	14:E	_
+13	peu	peu	ADV	_	_	12	Terminal	12:Terminal	_
+14	moins	moins	ADV	_	_	15	E	15:E	_
+15	direct	direct	ADJ	_	_	11	E	11:E	_
+16	,	,	PUNCT	_	_	11	U	11:U	_
+17	voilà	voilà	VERB	_	_	11	D	11:D	_
+18	tout	tout	PRON	_	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	_	_	5	U	5:U	_
+20	Nous	nous	PRON	_	_	21	A	21:A	_
+21	prenons	prendre	VERB	_	_	5	H	5:H	_
+22	passage	passage	NOUN	_	_	21	Terminal	21:Terminal	_
+23	sur	sur	ADP	_	_	25	R	25:R	_
+24	l'	le	DET	_	_	25	E	25:E	_
+25	Abraham	Abraham	PROPN	_	_	21	A	21:A	_
+26	-	-	PUNCT	_	_	25	U	25:U	_
+27	Lincoln	Lincoln	PROPN	_	_	25	Terminal	25:Terminal	_
+28	...	...	PUNCT	_	_	5	U	5:U	_
+29	-	-	PUNCT	_	_	5	U	5:U	_
+30	Comme	comme	SCONJ	_	_	32	D	32:D	_
+31	il	il	PRON	_	_	32	F	32:F	_
+32	conviendra	convenir	VERB	_	_	36	A	36:A	_
+33	à	à	ADP	_	_	34	R	34:R	_
+34	monsieur	Monsieur	NOUN	_	_	32	A	32:A	_
+35	,	,	PUNCT	_	_	36	U	36:U	_
+36	répondit	répondre	VERB	_	_	5	H	5:H	_
+37	paisiblement	paisiblement	ADV	_	_	36	D	36:D	_
+38	Conseil	conseil	NOUN	_	_	36	A	36:A	_
+39	.	.	PUNCT	_	_	36	U	36:U	_
+

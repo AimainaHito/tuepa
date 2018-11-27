@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25465008
+# text = Dies Versprechen wurde am 2 . November gegeben .
+1	Dies	dies	PRON	PDS	_	2	E	2:E	_
+2	Versprechen	Versprechen	NOUN	NN	_	8	A	8:A	_
+3	wurde	werden	AUX	NN	_	8	F	8:F	_
+4	am	am	ADV	NE	_	5	R	5:R	_
+5	2	2	NUM	CARD	_	8	D	8:D	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	November	November	PROPN	NN	_	5	Terminal	5:Terminal	_
+8	gegeben	geben	VERB	VVPP	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

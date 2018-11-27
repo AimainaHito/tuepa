@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 227014
+# text = In addition , he has assisted Anthony Szeto in an advisory capacity for the writer - director 's film Wushu , released on 1 May 2008 .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	addition	addition	NOUN	NN	_	6	L	6:L	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	he	he	PRON	PRP	_	6	A	6:A	_
+5	has	have	AUX	VBZ	_	6	F	6:F	_
+6	assisted	assist	VERB	VBN	_	0	H	0:H	_
+7	Anthony	Anthony	PROPN	NNP	_	6	A	6:A	_
+8	Szeto	Szeto	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	IN	_	12	R	12:R	_
+10	an	a	DET	DT	_	12	E	12:E	_
+11	advisory	advisory	ADJ	JJ	_	12	E	12:E	_
+12	capacity	capacity	NOUN	NN	_	6	A	6:A	_
+13	for	for	ADP	IN	_	20	R	20:R	_
+14	the	the	DET	DT	_	20	E	20:E	_
+15	writer	writer	NOUN	NN	_	20	E	20:E	_
+16	-	-	PUNCT	HYPH	_	15	U	15:U	_
+17	director	director	NOUN	NN	_	15	C	15:C	_
+18	's	's	PART	POS	_	15	R	15:R	_
+19	film	film	NOUN	NN	_	20	E	20:E	_
+20	Wushu	Wushu	PROPN	NNP	_	6	A	6:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	released	release	VERB	VBD	_	20	E	20:E	_
+23	on	on	ADP	IN	_	24	R	24:R	_
+24	1	1	NUM	CD	_	22	D	22:D	_
+25	May	May	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	2008	2008	NUM	CD	_	24	Terminal	24:Terminal	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+

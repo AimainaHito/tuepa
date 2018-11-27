@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25489003
+# text = Offenbar mit einer neuen Art von Piraten , die in ihrer Weise Beute machten .
+1	Offenbar	offenbar	ADJ	NE	_	5	G	5:G	_
+2	mit	mit	ADP	APPR	_	5	R	5:R	_
+3	einer	ein	DET	ART	_	5	E	5:E	_
+4	neuen	neu	ADJ	ADJA	_	5	E	5:E	_
+5	Art	Art	NOUN	NN	_	0	H	0:H	_
+6	von	von	ADP	NE	_	7	R	7:R	_
+7	Piraten	Pirat	NOUN	NE	_	5	E	5:E	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	die	der	PRON	PRELS	_	13	R	13:R	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	ihrer	ihr	DET	PPOSAT	_	12	E	12:E	_
+12	Weise	Weise	NOUN	NN	_	13	D	13:D	_
+13	Beute	Beute	NOUN	NN	_	5	E	5:E	_
+14	machten	machen	VERB	VVINF	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

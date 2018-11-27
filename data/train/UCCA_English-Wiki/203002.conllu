@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 203002
+# text = Sorkin and Bingham have one daughter , Roxy .
+1	Sorkin	Sorkin	PROPN	NNP	_	4	A	4:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Bingham	Bingham	PROPN	NNP	_	1	C	1:C	_
+4	have	have	VERB	VBP	_	0	H	0:H	_
+5	one	one	NUM	CD	_	6	E	6:E	_
+6	daughter	daughter	NOUN	NN	_	8	E	8:E	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	Roxy	Roxy	PROPN	NNP	_	4	A	4:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 590015
+# text = The film was a box office success and received positive critical reception .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	7	A	7:A|9:A	_
+3	was	be	AUX	VBD	_	7	F	7:F	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	box	box	NOUN	NN	_	6	E	6:E	_
+6	office	office	NOUN	NN	_	7	A	7:A	_
+7	success	success	NOUN	NN	_	0	H	0:H	_
+8	and	and	CCONJ	CC	_	7	L	7:L	_
+9	received	receive	VERB	VBD	_	7	H	7:H	_
+10	positive	positive	ADJ	JJ	_	12	E	12:E	_
+11	critical	critical	ADJ	JJ	_	12	E	12:E	_
+12	reception	reception	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

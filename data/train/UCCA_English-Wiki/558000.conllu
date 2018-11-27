@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 558000
+# text = The session , held the evening of July 5 , proved entirely unfruitful until late in the night .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	session	session	NOUN	NN	_	13	A	13:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	held	hold	VERB	VBD	_	2	E	2:E	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	evening	evening	NOUN	NN	_	4	D	4:D	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	July	July	PROPN	NNP	_	6	E	6:E	_
+9	5	5	NUM	CD	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	13	U	13:U	_
+11	proved	prove	VERB	VBD	_	13	D	13:D	_
+12	entirely	entirely	ADV	RB	_	13	D	13:D	_
+13	unfruitful	unfruitful	ADJ	JJ	_	0	H	0:H	_
+14	until	until	ADP	IN	_	15	R	15:R	_
+15	late	late	ADV	RB	_	13	A	13:A	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	night	night	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

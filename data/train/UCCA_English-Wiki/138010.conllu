@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 138010
+# text = She clashed with director Joseph L . Mankiewicz during filming , which culminated with her spitting at him in disgust .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	clashed	clash	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	5	R	5:R	_
+4	director	director	NOUN	NN	_	5	E	5:E	_
+5	Joseph	Joseph	PROPN	NNP	_	2	A	2:A	_
+6	L	L	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	.	.	PUNCT	.	_	5	U	5:U	_
+8	Mankiewicz	Mankiewicz	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	during	during	ADP	IN	_	2	L	2:L	_
+10	filming	filming	NOUN	NN	_	2	H	2:H	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	which	which	PRON	WDT	_	2	L	2:L	_
+13	culminated	culminate	VERB	VBD	_	2	H	2:H	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	her	she	PRON	PRP$	_	16	A	16:A	_
+16	spitting	spitting	NOUN	NN	_	13	A	13:A	_
+17	at	at	ADP	IN	_	18	R	18:R	_
+18	him	he	PRON	PRP	_	16	A	16:A	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	disgust	disgust	NOUN	NN	_	16	D	16:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

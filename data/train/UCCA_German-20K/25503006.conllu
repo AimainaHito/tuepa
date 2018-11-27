@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25503006
+# text = Der Zeitpunkt ließ sich wohl durch weitere Forschung , wofür ich ja Muße genug hatte , noch genauer feststellen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Zeitpunkt	Zeitpunkt	NOUN	NN	_	4	A	4:A	_
+3	ließ	lassen	VERB	VVFIN	_	4	D	4:D	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	wohl	wohl	ADV	ADV	_	4	G	4:G	_
+6	durch	durch	ADP	APPR	_	8	R	8:R	_
+7	weitere	weit	ADJ	ADJA	_	8	E	8:E	_
+8	Forschung	Forschung	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wofür	wofür	CCONJ	PAV	_	15	R	15:R	_
+11	ich	ich	PRON	PPER	_	15	A	15:A	_
+12	ja	ja	ADV	ADV	_	15	D	15:D	_
+13	Muße	Muß|Muße	NOUN	NN	_	15	A	15:A	_
+14	genug	genagen	VERB	ADV	_	15	D	15:D	_
+15	hatte	haben	AUX	VAFIN	_	8	E	8:E	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	noch	noch	ADV	CARD	_	18	E	18:E	_
+18	genauer	genau	ADJ	ADJD	_	4	D	4:D	_
+19	feststellen	feststellen	VERB	VVINF	_	4	Terminal	4:Terminal	_
+20	.	.	PUNCT	$.	_	4	U	4:U	_
+

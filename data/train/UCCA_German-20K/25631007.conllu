@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25631007
+# text = Sie gehörten zu der kleinen Sorte , Känguruh-Lapins genannt , die meist in hohlen Bäumen haust und äußerst schnell ist ; sie liefern ein vortreffliches Fleisch .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	gehörten	gehören	VERB	VVFIN	_	0	H	0:H	_
+3	zu	zu	ADP	VVINF	_	6	R	6:R	_
+4	der	der	DET	ART	_	6	E	6:E	_
+5	kleinen	klein	ADJ	ADJA	_	6	E	6:E	_
+6	Sorte	Sorte	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Känguruh-Lapins	Känguruh-Lapin	NOUN	NN	_	9	A	9:A	_
+9	genannt	nennen	AUX	VVPP	_	6	E	6:E	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	die	der	PRON	PRELS	_	16	R	16:R	_
+12	meist	meist	ADV	ADV	_	16	D	16:D	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	hohlen	hohlen	VERB	NN	_	15	E	15:E	_
+15	Bäumen	Baum	NOUN	NN	_	16	A	16:A	_
+16	haust	haust	ADV	NN	_	6	E	6:E	_
+17	und	und	CCONJ	NE	_	16	N	16:N	_
+18	äußerst	äußerst	ADV	NN	_	19	D	19:D	_
+19	schnell	schnell	ADJ	NE	_	16	C	16:C	_
+20	ist	sein	AUX	NN	_	19	F	19:F	_
+21	;	;	PUNCT	$.	_	2	U	2:U	_
+22	sie	sie	PRON	ADV	_	23	A	23:A	_
+23	liefern	liefern	VERB	VVFIN	_	2	H	2:H	_
+24	ein	ein	DET	ART	_	26	E	26:E	_
+25	vortreffliches	vortrefflich	ADJ	ADJA	_	26	E	26:E	_
+26	Fleisch	Fleisch	NOUN	NN	_	23	A	23:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

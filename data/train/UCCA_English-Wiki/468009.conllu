@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 468009
+# text = Early in the 1980 - 81 season , Johnson was sidelined after he suffered torn cartilage in his left knee .
+1	Early	Early	ADV	RB	_	7	D	7:D	_
+2	in	in	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	1980	1980	NUM	CD	_	7	D	7:D	_
+5	-	-	PUNCT	HYPH	_	4	U	4:U	_
+6	81	81	NUM	CD	_	4	C	4:C	_
+7	season	season	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Johnson	Johnson	PROPN	NNP	_	11	A	11:A	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	sidelined	sidelin	VERB	VBN	_	7	H	7:H	_
+12	after	after	SCONJ	IN	_	7	L	7:L	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	suffered	suffer	VERB	VBD	_	7	H	7:H	_
+15	torn	torn	ADJ	JJ	_	16	E	16:E	_
+16	cartilage	cartilage	NOUN	NN	_	14	A	14:A	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	his	he	PRON	PRP$	_	20	E	20:E	_
+19	left	left	ADJ	JJ	_	20	E	20:E	_
+20	knee	knee	NOUN	NN	_	14	A	14:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25684002
+# text = Die Muscheln sind rund , haben dicke , sehr runzelige Schalen , beide von fast gleicher Größe .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Muscheln	Muschel	NOUN	NN	_	0	C	0:C|6:A	_
+3	sind	sein	AUX	NE	_	4	F	4:F	_
+4	rund	rund	ADV	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	haben	haben	VERB	VAFIN	_	4	H	4:H	_
+7	dicke	dick	ADJ	NE	_	11	E	11:E	_
+8	,	,	PUNCT	$,	_	11	U	11:U	_
+9	sehr	sehr	ADV	NE	_	10	E	10:E	_
+10	runzelige	runzelig	ADJ	ADJA	_	11	E	11:E	_
+11	Schalen	Schale	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	beide	beide	PRON	PIS	_	11	E	11:E	_
+14	von	von	ADP	NN	_	17	R	17:R	_
+15	fast	fast	ADV	ADV	_	16	E	16:E	_
+16	gleicher	gleich	ADJ	ADJA	_	17	E	17:E	_
+17	Größe	Größe	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

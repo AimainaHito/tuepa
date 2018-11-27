@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 380015
+# text = Gyllenhaal starred opposite Meryl Streep , Alan Arkin , and Reese Witherspoon in the October 2007 release Rendition , a Gavin Hood - directed political thriller about the U . S . policy of extraordinary rendition .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	2	A	2:A	_
+2	starred	star	VERB	VBD	_	0	H	0:H	_
+3	opposite	opposite	ADP	IN	_	4	R	4:R	_
+4	Meryl	Meryl	PROPN	NNP	_	2	A	2:A	_
+5	Streep	Streep	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	Alan	Alan	PROPN	NNP	_	4	C	4:C	_
+8	Arkin	Arkin	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	and	and	CCONJ	CC	_	4	N	4:N	_
+11	Reese	Reese	PROPN	NNP	_	4	C	4:C	_
+12	Witherspoon	Witherspoon	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	IN	_	17	R	17:R	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	October	October	PROPN	NNP	_	17	E	17:E	_
+16	2007	2007	NUM	CD	_	17	E	17:E	_
+17	release	release	NOUN	NN	_	18	E	18:E	_
+18	Rendition	Rendition	PROPN	NNP	_	2	A	2:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	Gavin	Gavin	PROPN	NNP	_	24	A	24:A	_
+22	Hood	Hood	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	directed	direct	VERB	VBN	_	26	E	26:E	_
+25	political	political	ADJ	JJ	_	26	E	26:E	_
+26	thriller	thriller	NOUN	NN	_	18	E	18:E	_
+27	about	about	ADP	IN	_	33	R	33:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	U	u	PROPN	NNP	_	33	E	33:E	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+31	S	be	PROPN	NNP	_	29	Terminal	29:Terminal	_
+32	.	.	PUNCT	.	_	33	U	33:U	_
+33	policy	policy	NOUN	NN	_	26	E	26:E	_
+34	of	of	ADP	IN	_	36	R	36:R	_
+35	extraordinary	extraordinary	ADJ	JJ	_	36	E	36:E	_
+36	rendition	rendition	NOUN	NN	_	33	E	33:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25756001
+# text = Selten traten Ereignisse ein , die ihn mit Leidenschaft interessieren konnten .
+1	Selten	selten	ADJ	ADJD	_	2	D	2:D	_
+2	traten	treten	VERB	VVFIN	_	0	H	0:H	_
+3	Ereignisse	Ereignis	NOUN	NN	_	2	A	2:A	_
+4	ein	ein	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	die	der	PRON	PRELS	_	10	R	10:R	_
+7	ihn	er	PRON	PPER	_	10	A	10:A	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	Leidenschaft	Leidenschaft	NOUN	NN	_	10	A	10:A	_
+10	interessieren	interessieren	VERB	VVINF	_	3	E	3:E	_
+11	konnten	können	AUX	VMFIN	_	10	D	10:D	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

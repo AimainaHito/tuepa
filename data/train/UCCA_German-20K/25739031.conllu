@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25739031
+# text = Die hohen Wände wölbten sich oben und bildeten einen ungeheuren umgekehrten Trichter von 5 bis 6 Meter Höhe .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	hohen	hoch	ADJ	ADJA	_	3	E	3:E	_
+3	Wände	Wand	NOUN	NN	_	0	C	0:C|8:A	_
+4	wölbten	wölben	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	oben	oben	ADV	NN	_	4	D	4:D	_
+7	und	und	CCONJ	NE	_	4	L	4:L	_
+8	bildeten	bilden	VERB	VVFIN	_	4	H	4:H	_
+9	einen	ein	DET	ART	_	12	E	12:E	_
+10	ungeheuren	ungeheur	ADJ	NN	_	12	E	12:E	_
+11	umgekehrten	umgekehrt	ADJ	ADJA	_	10	C	10:C	_
+12	Trichter	Trichter	NOUN	NN	_	18	A	18:A	_
+13	von	von	ADP	NN	_	17	R	17:R	_
+14	5	5	NUM	CARD	_	17	E	17:E	_
+15	bis	bis	ADP	KON	_	14	N	14:N	_
+16	6	6	NUM	CARD	_	14	C	14:C	_
+17	Meter	Meter	NOUN	NN	_	18	A	18:A	_
+18	Höhe	Höhe	NOUN	NN	_	8	A	8:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25640005
+# text = Hier waren Ned Land und Conseil in großer Verlegenheit , als sie einige Mann die Luken öffnen sahen , während draußen wütendes Geschrei und fürchter-licher Lärm tobte .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	Ned	Ned	PROPN	NE	_	9	A	9:A	_
+4	Land	Land	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	und	und	CCONJ	NE	_	3	N	3:N	_
+6	Conseil	Conseil	NOUN	NE	_	3	C	3:C	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	großer	groß	ADJ	ADJA	_	9	D	9:D	_
+9	Verlegenheit	Verlegenheit	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	als	als	SCONJ	KOUS	_	2	L	2:L	_
+12	sie	sie	PRON	ADV	_	18	A	18:A	_
+13	einige	einige	PRON	PIAT	_	14	E	14:E	_
+14	Mann	Mann	NOUN	NN	_	17	A	17:A	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Luken	Luken	NOUN	NN	_	17	A	17:A	_
+17	öffnen	öffn	ADJ	VVINF	_	18	A	18:A	_
+18	sahen	sehen	VERB	VVFIN	_	2	H	2:H	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	während	während	SCONJ	VVINF	_	2	L	2:L	_
+21	draußen	draußen	ADV	ADV	_	27	A	27:A	_
+22	wütendes	wütend	ADJ	ADJA	_	23	E	23:E	_
+23	Geschrei	Geschrei	NOUN	NN	_	27	A	27:A	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	fürchter-licher	fürchter-lich	ADJ	ADJA	_	26	E	26:E	_
+26	Lärm	Lärm	NOUN	NN	_	23	C	23:C	_
+27	tobte	toben	VERB	VVFIN	_	2	H	2:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25629013
+# text = » Und warum , Conseil ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Und	und	CCONJ	NE	_	3	L	3:L	_
+3	warum	warum	ADV	NE	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Conseil	Conseil	NOUN	NE	_	3	G	3:G	_
+6	?	?	PUNCT	$.	_	3	U	3:U	_
+7	«	«	PUNCT	$(	_	3	U	3:U	_
+

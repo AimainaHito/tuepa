@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 631008
+# text = " He was 14 years old when his uncle George died of a liver haemorrhage on 5 June 1955 ( aged 52 ) .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	He	he	PRON	PRP	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	14	14	NUM	CD	_	5	E	5:E	_
+5	years	year	NOUN	NNS	_	6	E	6:E	_
+6	old	old	ADJ	JJ	_	0	H	0:H	_
+7	when	when	ADV	WRB	_	6	L	6:L	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	uncle	uncle	NOUN	NN	_	10	E	10:E	_
+10	George	George	PROPN	NNP	_	0	C	0:C|21:A	_
+11	died	die	VERB	VBD	_	6	H	6:H	_
+12	of	of	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	liver	liver	NOUN	NN	_	15	E	15:E	_
+15	haemorrhage	haemorrhage	NOUN	NN	_	11	A	11:A	_
+16	on	on	ADP	IN	_	19	R	19:R	_
+17	5	5	NUM	CD	_	19	E	19:E	_
+18	June	June	PROPN	NNP	_	19	E	19:E	_
+19	1955	1955	NUM	CD	_	11	D	11:D	_
+20	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+21	aged	age	ADJ	JJ	_	6	H	6:H	_
+22	52	52	NUM	CD	_	21	E	21:E	_
+23	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+24	.	.	PUNCT	.	_	21	U	21:U	_
+

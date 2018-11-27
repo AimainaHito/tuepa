@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25626020
+# text = Der enorme Blech zylinder schien verlassen .
+1	Der	der	DET	ART	_	4	E	4:E	_
+2	enorme	enorme	ADJ	ADJA	_	4	E	4:E	_
+3	Blech	Blech	NOUN	NN	_	4	E	4:E	_
+4	zylinder	zylinder	ADV	ADV	_	6	A	6:A	_
+5	schien	scheinen	AUX	VVFIN	_	6	G	6:G	_
+6	verlassen	verlassen	VERB	NN	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

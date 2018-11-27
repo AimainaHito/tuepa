@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25610004
+# text = » Was jedermann weiß , Kapitän « , erwiderte ich .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Was	was	PRON	NE	_	4	A	4:A	_
+3	jedermann	jedermann	ADV	NE	_	4	A	4:A	_
+4	weiß	weiß	ADJ	VVFIN	_	9	A	9:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	4	G	4:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

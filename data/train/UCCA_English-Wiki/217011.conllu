@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 217011
+# text = " The movie grossed $ 72 million worldwide .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	movie	movie	NOUN	NN	_	4	A	4:A	_
+4	grossed	gross	VERB	VBD	_	0	H	0:H	_
+5	$	$	SYM	$	_	4	U	4:U	_
+6	72	72	NUM	CD	_	7	E	7:E	_
+7	million	million	NUM	CD	_	4	A	4:A	_
+8	worldwide	worldwide	ADV	RB	_	4	A	4:A	_
+9	.	.	PUNCT	.	_	4	U	4:U	_
+

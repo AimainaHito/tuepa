@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25778007
+# text = Isabellenfarbig , mit Streifen und Zeichen gleich Hieroglyphen verziert , gab es ein seltenes Spielzeug ab .
+1	Isabellenfarbig	Isabellenfarbig	ADJ	ADJD	_	9	D	9:D	_
+2	,	,	PUNCT	$,	_	9	U	9:U	_
+3	mit	mit	ADP	APPR	_	4	R	4:R	_
+4	Streifen	Streifen	NOUN	NE	_	7	A	7:A	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Zeichen	Zeichen	NOUN	NN	_	4	C	4:C	_
+7	gleich	gleich	ADJ	ADJD	_	9	A	9:A	_
+8	Hieroglyphen	Hieroglyphe	NOUN	NN	_	7	A	7:A	_
+9	verziert	verziert	VERB	ADJD	_	12	E	12:E	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+12	es	es	PRON	PPER	_	11	A	11:A	_
+13	ein	ein	DET	ART	_	15	E	15:E	_
+14	seltenes	selten	ADJ	ADJA	_	15	E	15:E	_
+15	Spielzeug	Spielzeug	NOUN	NN	_	11	A	11:A	_
+16	ab	ab	ADP	PTKVZ	_	11	Terminal	11:Terminal	_
+17	.	.	PUNCT	$.	_	11	U	11:U	_
+

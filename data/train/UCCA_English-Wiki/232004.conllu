@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 232004
+# text = Chan 's first musical recording was " Kung Fu Fighting Man " , the theme song played over the closing credits of The Young Master ( 1980 ) . At least 10 of these recordings have been released on soundtrack albums for the films .
+1	Chan	Chan	PROPN	NNP	_	5	E	5:E	_
+2	's	be	PART	POS	_	1	R	1:R	_
+3	first	first	ADJ	JJ	_	5	E	5:E	_
+4	musical	musical	NOUN	NN	_	5	E	5:E	_
+5	recording	recording	NOUN	NN	_	6	A	6:A	_
+6	was	be	VERB	VBD	_	0	H	0:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	Kung	kung	VERB	VBN	_	6	A	6:A	_
+9	Fu	Fu	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Fighting	fight	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	Man	man	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	"	"	PUNCT	''	_	8	U	8:U	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	theme	theme	NOUN	NN	_	16	E	16:E	_
+16	song	song	NOUN	NN	_	17	A	17:A	_
+17	played	play	VERB	VBN	_	8	E	8:E	_
+18	over	over	ADP	IN	_	23	R	23:R	_
+19	the	the	DET	DT	_	23	E	23:E	_
+20	closing	closing	NOUN	NN	_	21	E	21:E	_
+21	credits	credit	NOUN	NNS	_	23	E	23:E	_
+22	of	of	ADP	IN	_	21	R	21:R	_
+23	The	the	DET	DT	_	17	A	17:A	_
+24	Young	young	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	Master	master	NOUN	NN	_	23	Terminal	23:Terminal	_
+26	(	(	PUNCT	-LRB-	_	23	U	23:U	_
+27	1980	1980	NUM	CD	_	23	E	23:E	_
+28	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+29	.	.	PUNCT	.	_	6	U	6:U	_
+30	At	at	ADV	RB	_	32	E	32:E	_
+31	least	least	ADV	RBS	_	30	Terminal	30:Terminal	_
+32	10	10	NUM	CD	_	35	E	35:E	_
+33	of	of	ADP	IN	_	32	R	32:R	_
+34	these	these	DET	DT	_	35	E	35:E	_
+35	recordings	recording	NOUN	NNS	_	38	A	38:A	_
+36	have	have	AUX	VBP	_	38	F	38:F	_
+37	been	be	AUX	VBN	_	38	F	38:F	_
+38	released	release	VERB	VBN	_	6	H	6:H	_
+39	on	on	ADP	IN	_	41	R	41:R	_
+40	soundtrack	soundtrack	NOUN	NN	_	41	E	41:E	_
+41	albums	album	NOUN	NNS	_	38	A	38:A	_
+42	for	for	ADP	IN	_	44	R	44:R	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	films	film	NOUN	NNS	_	41	E	41:E	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

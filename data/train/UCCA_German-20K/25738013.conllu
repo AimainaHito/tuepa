@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25738013
+# text = Die ›Nautilus‹ fuhr langsam , bewegte sich leicht über unklaren Massen des Bodens , bald daran hinstreifend , bald zur Oberfläche aufsteigend .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|6:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	langsam	langsam	ADJ	ADJD	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	bewegte	bewegen	VERB	VVFIN	_	3	H	3:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	leicht	leicht	ADJ	ADJD	_	6	D	6:D	_
+9	über	über	ADP	ADJD	_	11	R	11:R	_
+10	unklaren	unklar	ADJ	ADJA	_	11	E	11:E	_
+11	Massen	Masse	NOUN	NN	_	6	A	6:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Bodens	Boden	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	bald	bald	ADV	ADV	_	3	L	3:L	_
+16	daran	daran	PRON	PAV	_	17	A	17:A	_
+17	hinstreifend	hinstreifend	ADJ	ADJD	_	3	H	3:H	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	bald	bald	ADV	ADV	_	3	L	3:L	_
+20	zur	zur	ADP	NE	_	21	R	21:R	_
+21	Oberfläche	Oberfläche	NOUN	NE	_	22	A	22:A	_
+22	aufsteigend	aufsteigend	ADJ	ADJD	_	3	H	3:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

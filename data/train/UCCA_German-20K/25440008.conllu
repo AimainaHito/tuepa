@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25440008
+# text = Man musste sie reden hören , disputieren , diskutieren , die verschiedenen möglichen Fälle bei einem Zusammentreffen in Berechnung ziehen , das weite Meer beobachten .
+1	Man	man	PRON	PIS	_	5	A	5:A	_
+2	musste	müssen	AUX	VVFIN	_	5	D	5:D	_
+3	sie	sie	PRON	ADV	_	4	A	4:A|25:A|9:A|18:A	_
+4	reden	reden	ADJ	ADJD	_	5	A	5:A	_
+5	hören	hören	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	disputieren	disputieren	VERB	VVFIN	_	4	H	4:H	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	diskutieren	diskutieren	VERB	VVFIN	_	4	H	4:H	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	die	der	PRON	ART	_	14	E	14:E	_
+12	verschiedenen	verschieden	ADJ	ADJA	_	14	E	14:E	_
+13	möglichen	möglich	ADJ	ADJA	_	14	E	14:E	_
+14	Fälle	Fälle	NOUN	NN	_	18	A	18:A	_
+15	bei	bei	ADP	APPR	_	17	R	17:R	_
+16	einem	ein	DET	ART	_	17	E	17:E	_
+17	Zusammentreffen	Zusammentreffen	NOUN	NN	_	18	A	18:A	_
+18	in	in	ADP	APPR	_	4	H	4:H	_
+19	Berechnung	Berechnung	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	ziehen	zeihen|ziehen	VERB	VVFIN	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	$,	_	4	U	4:U	_
+22	das	der	DET	ART	_	24	E	24:E	_
+23	weite	weit	ADJ	NN	_	24	E	24:E	_
+24	Meer	Meer	NOUN	NN	_	25	A	25:A	_
+25	beobachten	beobachten	VERB	VVINF	_	4	H	4:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 208005
+# text = His next film , Michael Apted 's Agatha , was with Vanessa Redgrave as Agatha Christie .
+1	His	he	PRON	PRP$	_	3	A	3:A	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	8	E	8:E	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Michael	Michael	PROPN	NNP	_	8	E	8:E	_
+6	Apted	Apt	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	Agatha	Agatha	PROPN	NNP	_	12	A	12:A	_
+9	,	,	PUNCT	,	_	12	U	12:U	_
+10	was	be	AUX	VBD	_	12	F	12:F	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	Vanessa	Vanessa	PROPN	NNP	_	0	H	0:H	_
+13	Redgrave	Redgrave	VERB	VBP	_	12	Terminal	12:Terminal	_
+14	as	as	SCONJ	IN	_	15	R	15:R	_
+15	Agatha	Agatha	PROPN	NNP	_	12	E	12:E	_
+16	Christie	Christie	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

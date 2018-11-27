@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25626012
+# text = Es waren Sagobäume , die ohne Anbau sich wie die Maulbeerbäume durch Sprößlinge und Körner selbst fortpflanzen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	Sagobäume	Sagobaum	NOUN	NN	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	PRON	PRELS	_	8	R	8:R	_
+6	ohne	ohne	ADP	NN	_	7	D	7:D	_
+7	Anbau	Anbau	NOUN	NN	_	8	A	8:A	_
+8	sich	er|es|sie	PRON	PRF	_	3	E	3:E	_
+9	wie	wie	ADP	ADV	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Maulbeerbäume	Maulbeerbaum	NOUN	NN	_	8	A	8:A	_
+12	durch	durch	ADP	APPR	_	13	R	13:R	_
+13	Sprößlinge	Sprößling	NOUN	NN	_	8	A	8:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	Körner	Korn	NOUN	NE	_	13	C	13:C	_
+16	selbst	selbst	ADV	VVINF	_	8	D	8:D	_
+17	fortpflanzen	fortpflanzen	VERB	VVFIN	_	8	Terminal	8:Terminal	_
+18	.	.	PUNCT	$.	_	8	U	8:U	_
+

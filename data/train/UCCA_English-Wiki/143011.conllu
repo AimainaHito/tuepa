@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 143011
+# text = " Walter Kerr of The New York Times wrote of Hepburn and her performance , " One mysterious thing she has learned to do is breathe unchallengeable life into lifeless lines .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	Walter	Walter	PROPN	NNP	_	9	A	9:A	_
+3	Kerr	Kerr	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	The	the	DET	DT	_	2	E	2:E	_
+6	New	New	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	York	York	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	Times	Times	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	wrote	write	VERB	VBD	_	0	H	0:H	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	Hepburn	Hepburn	PROPN	NNP	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	her	she	PRON	PRP$	_	14	A	14:A	_
+14	performance	performance	NOUN	NN	_	11	C	11:C	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	"	"	PUNCT	''	_	9	U	9:U	_
+17	One	one	NUM	CD	_	19	E	19:E	_
+18	mysterious	mysterious	ADJ	JJ	_	19	E	19:E	_
+19	thing	thing	NOUN	NN	_	26	A	26:A	_
+20	she	she	PRON	PRP	_	24	A	24:A	_
+21	has	have	AUX	VBZ	_	24	F	24:F	_
+22	learned	learn	VERB	VBN	_	24	D	24:D	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	do	do	VERB	VB	_	19	E	19:E	_
+25	is	be	AUX	VBZ	_	26	F	26:F	_
+26	breathe	breathan	DET	DT	_	9	A	9:A	_
+27	unchallengeable	unchallengeable	ADJ	JJ	_	26	E	26:E	_
+28	life	life	NOUN	NN	_	26	Terminal	26:Terminal	_
+29	into	into	ADP	IN	_	31	R	31:R	_
+30	lifeless	lifeless	ADJ	JJ	_	31	E	31:E	_
+31	lines	line	NOUN	NNS	_	26	A	26:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

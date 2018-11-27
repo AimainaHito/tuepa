@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 607003
+# text = Though certified platinum , critics panned Back to the Egg .
+1	Though	though	SCONJ	IN	_	2	L	2:L	_
+2	certified	certified	ADJ	JJ	_	0	H	0:H	_
+3	platinum	platinum	NOUN	NN	_	2	A	2:A	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	critics	critic	NOUN	NNS	_	6	A	6:A	_
+6	panned	pan	VERB	VBN	_	2	H	2:H	_
+7	Back	back	ADV	RB	_	6	A	6:A|2:A	_
+8	to	to	ADP	IN	_	7	Terminal	7:Terminal	_
+9	the	the	DET	DT	_	7	Terminal	7:Terminal	_
+10	Egg	egg	NOUN	NN	_	7	Terminal	7:Terminal	_
+11	.	.	PUNCT	.	_	2	U	2:U	_
+

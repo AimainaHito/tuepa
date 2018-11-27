@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 592002
+# text = In July 2012 , Depp announced he would be co - editor , alongside Douglas Brinkley , of folk singer Woody Guthrie 's unpublished novel " House of Earth " , scheduled for release in 2013 .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	6	D	6:D	_
+3	2012	2012	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Depp	Depp	PROPN	NNP	_	6	A	6:A	_
+6	announced	announce	VERB	VBD	_	0	H	0:H	_
+7	he	he	PRON	PRP	_	12	A	12:A	_
+8	would	would	AUX	MD	_	12	F	12:F	_
+9	be	be	AUX	VB	_	12	F	12:F	_
+10	co	co	X	AFX	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	editor	editor	NOUN	NN	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	alongside	alongside	ADP	IN	_	15	R	15:R	_
+15	Douglas	Douglas	PROPN	NNP	_	12	A	12:A	_
+16	Brinkley	Brinkley	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	12	U	12:U	_
+18	of	of	ADP	IN	_	27	R	27:R	_
+19	folk	folk	NOUN	NN	_	20	E	20:E	_
+20	singer	singer	NOUN	NN	_	21	E	21:E	_
+21	Woody	Woody	PROPN	NNP	_	27	E	27:E	_
+22	Guthrie	Guthrie	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	's	's	PART	POS	_	21	R	21:R	_
+24	unpublished	unpublished	ADJ	JJ	_	25	E	25:E	_
+25	novel	novel	NOUN	NN	_	27	E	27:E	_
+26	"	"	PUNCT	''	_	27	U	27:U	_
+27	House	house	NOUN	NN	_	12	A	12:A	_
+28	of	of	ADP	IN	_	27	Terminal	27:Terminal	_
+29	Earth	Earth	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	"	"	PUNCT	''	_	27	U	27:U	_
+31	,	,	PUNCT	,	_	27	U	27:U	_
+32	scheduled	schedule	VERB	VBN	_	27	E	27:E	_
+33	for	for	ADP	IN	_	34	R	34:R	_
+34	release	release	NOUN	NN	_	32	A	32:A	_
+35	in	in	ADP	IN	_	36	R	36:R	_
+36	2013	2013	NUM	CD	_	32	D	32:D	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

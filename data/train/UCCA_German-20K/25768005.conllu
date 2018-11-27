@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25768005
+# text = » Ah ! Herr Professor , heute haben Sie Ideen ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ah	Ah	PROPN	NN	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	heute	heute	ADV	ADV	_	8	D	8:D	_
+8	haben	haben	VERB	VAFIN	_	2	H	2:H	_
+9	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+10	Ideen	Idee	NOUN	NN	_	8	A	8:A	_
+11	!	!	PUNCT	$.	_	8	U	8:U	_
+12	«	«	PUNCT	$(	_	8	U	8:U	_
+

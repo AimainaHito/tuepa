@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 700001
+# text = A rough cut was shown to ABC Television and was promptly rejected as incomprehensible to a mainstream audience .
+1	A	a	DET	DT	_	3	E	3:E	_
+2	rough	rough	ADJ	JJ	_	3	E	3:E	_
+3	cut	cut	NOUN	NN	_	0	C	0:C|12:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	shown	show	VERB	VBN	_	0	H	0:H	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	ABC	ABC	PROPN	NNP	_	5	A	5:A	_
+8	Television	television	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	and	and	CCONJ	CC	_	5	L	5:L	_
+10	was	be	AUX	VBD	_	12	F	12:F	_
+11	promptly	promptly	ADV	RB	_	12	D	12:D	_
+12	rejected	reject	VERB	VBN	_	5	H	5:H	_
+13	as	as	ADV	RB	_	14	R	14:R	_
+14	incomprehensible	incomprehensible	ADJ	JJ	_	12	A	12:A	_
+15	to	to	ADP	IN	_	18	R	18:R	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	mainstream	mainstream	ADJ	JJ	_	18	E	18:E	_
+18	audience	audience	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

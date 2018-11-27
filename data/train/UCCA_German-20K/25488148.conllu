@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25488148
+# text = « Aber es war schwer , bei den betäubenden Schlägen der Schraube sich vernehmbar zu machen .
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+3	es	es	PRON	PPER	_	5	F	5:F	_
+4	war	sein	AUX	ADV	_	5	F	5:F	_
+5	schwer	schwer	ADJ	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	bei	bei	ADP	APPR	_	10	R	10:R	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	betäubenden	betäubend	ADJ	ADJA	_	10	E	10:E	_
+10	Schlägen	Schlägen	NOUN	NN	_	14	A	14:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Schraube	Schraube	NOUN	NN	_	10	E	10:E	_
+13	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+14	vernehmbar	vernehmbar	ADJ	ADV	_	5	A	5:A	_
+15	zu	zu	PART	VVINF	_	14	F	14:F	_
+16	machen	machen	VERB	VVINF	_	14	D	14:D	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

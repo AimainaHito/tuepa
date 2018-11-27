@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25686013
+# text = Es war ein Mensch , ein leibhaftiger Mann , ein Inder , ein Schwarzer , wohl ein armer Teufel , der die Absicht hatte , vor der Ernte eine Nachlese zu halten .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Mensch	Mensch	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	leibhaftiger	leibhaftig	ADJ	ADJA	_	8	E	8:E	_
+8	Mann	Mann	NOUN	NN	_	4	C	4:C	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	ein	ein	DET	ART	_	11	E	11:E	_
+11	Inder	Inder	NOUN	NN	_	4	C	4:C	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Schwarzer	schwarzer	NOUN	ADJA	_	4	C	4:C	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	wohl	wohl	ADV	ADV	_	19	F	19:F	_
+17	ein	ein	DET	ART	_	19	E	19:E	_
+18	armer	armer	ADJ	NN	_	19	E	19:E	_
+19	Teufel	Teufel	NOUN	NN	_	4	C	4:C	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	der	der	PRON	PRELS	_	23	R	23:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Absicht	Absicht	NOUN	NN	_	19	E	19:E	_
+24	hatte	haben	VERB	VAFIN	_	23	F	23:F	_
+25	,	,	PUNCT	$,	_	23	U	23:U	_
+26	vor	vor	ADP	NN	_	28	R	28:R	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Ernte	Ernte	NOUN	NN	_	32	A	32:A	_
+29	eine	ein	DET	ART	_	30	R	30:R	_
+30	Nachlese	Nachlese	NOUN	NN	_	32	A	32:A	_
+31	zu	zu	PART	VVINF	_	32	F	32:F	_
+32	halten	halten	VERB	VVINF	_	23	A	23:A	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

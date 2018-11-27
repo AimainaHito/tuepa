@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 200000
+# text = In March 2007 , it was reported that Sorkin had signed on to write a musical adaptation of the hit 2002 record Yoshimi Battles the Pink Robots by psychedelic - rock band The Flaming Lips , collaborating with director Des McAnuff who has been developing the project .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	March	March	PROPN	NNP	_	3	E	3:E	_
+3	2007	2007	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	it	it	PRON	PRP	_	7	F	7:F	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	reported	report	VERB	VBN	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	11	F	11:F	_
+9	Sorkin	Sorkin	PROPN	NNP	_	11	A	11:A|37:A	_
+10	had	have	AUX	VBD	_	11	F	11:F	_
+11	signed	sign	VERB	VBN	_	7	A	7:A	_
+12	on	on	ADV	RB	_	11	Terminal	11:Terminal	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	write	write	VERB	VB	_	11	A	11:A	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	musical	musical	ADJ	JJ	_	17	E	17:E	_
+17	adaptation	adaptation	NOUN	NN	_	14	A	14:A	_
+18	of	of	ADP	IN	_	23	R	23:R	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	hit	hit	NOUN	NN	_	22	E	22:E	_
+21	2002	2002	NUM	CD	_	22	E	22:E	_
+22	record	record	NOUN	NN	_	23	E	23:E	_
+23	Yoshimi	Yoshimi	PROPN	NNP	_	17	A	17:A	_
+24	Battles	battles	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	the	the	DET	DT	_	23	Terminal	23:Terminal	_
+26	Pink	pink	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	Robots	robot	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+28	by	by	ADP	IN	_	32	R	32:R	_
+29	psychedelic	psychedelic	ADJ	JJ	_	31	E	31:E	_
+30	-	-	PUNCT	HYPH	_	31	U	31:U	_
+31	rock	rock	NOUN	NN	_	32	E	32:E	_
+32	band	band	NOUN	NN	_	23	E	23:E	_
+33	The	the	DET	DT	_	32	E	32:E	_
+34	Flaming	Flaming	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	Lips	Lip	PROPN	NNP	_	33	Terminal	33:Terminal	_
+36	,	,	PUNCT	,	_	7	U	7:U	_
+37	collaborating	collaborate	VERB	VBG	_	7	H	7:H	_
+38	with	with	ADP	IN	_	40	R	40:R	_
+39	director	director	NOUN	NN	_	40	E	40:E|45:A	_
+40	Des	Des	PROPN	NNP	_	37	A	37:A	_
+41	McAnuff	McAnuff	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	who	who	PRON	WP	_	45	F	45:F	_
+43	has	have	AUX	VBZ	_	45	F	45:F	_
+44	been	be	AUX	VBN	_	45	F	45:F	_
+45	developing	develop	VERB	VBG	_	40	E	40:E	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	project	project	NOUN	NN	_	45	A	45:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

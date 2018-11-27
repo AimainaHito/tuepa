@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25429002
+# text = Aber wenn die einen nur eine wissenschaftliche Aufgabe darin erkannten , hatten die anderen , mehr positive Geister , zumal in Amerika und England , im Sinn , das Meer von dem furchtbaren Ungeheuer zu säubern , um den überseeischen Verkehr zu sichern .
+1	Aber	aber	CCONJ	KON	_	10	L	10:L	_
+2	wenn	wenn	SCONJ	VVFIN	_	10	L	10:L	_
+3	die	der	PRON	ART	_	4	E	4:E	_
+4	einen	ein	PRON	ART	_	10	A	10:A	_
+5	nur	nur	ADV	NN	_	10	D	10:D	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	wissenschaftliche	wissenschaftlich	ADJ	NN	_	8	E	8:E	_
+8	Aufgabe	Aufgabe	NOUN	NN	_	10	A	10:A	_
+9	darin	darin	PRON	PAV	_	10	A	10:A	_
+10	erkannten	erkennen	VERB	VVFIN	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	hatten	haben	VERB	VAFIN	_	36	D	36:D	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	anderen	anderer	ADJ	ADJA	_	0	C	0:C|43:A|17:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	mehr	mehr	ADV	ADV	_	17	D	17:D	_
+17	positive	positiv	ADJ	NE	_	14	E	14:E	_
+18	Geister	Geist	NOUN	NN	_	17	A	17:A	_
+19	,	,	PUNCT	$,	_	36	U	36:U	_
+20	zumal	zumal	ADV	NE	_	36	D	36:D	_
+21	in	in	ADP	APPR	_	22	R	22:R	_
+22	Amerika	Amerika	PROPN	NE	_	36	A	36:A	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	England	England	PROPN	NE	_	22	C	22:C	_
+25	,	,	PUNCT	$,	_	36	U	36:U	_
+26	im	im	ADJ	NE	_	12	Terminal	12:Terminal	_
+27	Sinn	Sinn	NOUN	NE	_	12	Terminal	12:Terminal	_
+28	,	,	PUNCT	$,	_	36	U	36:U	_
+29	das	der	DET	ART	_	30	E	30:E	_
+30	Meer	Meer	NOUN	NN	_	36	A	36:A	_
+31	von	von	ADP	NE	_	34	R	34:R	_
+32	dem	der	DET	ART	_	34	E	34:E	_
+33	furchtbaren	furchtbaren	ADJ	ADJA	_	34	E	34:E	_
+34	Ungeheuer	Ungeheuer	NOUN	NN	_	36	A	36:A	_
+35	zu	zu	PART	NE	_	36	F	36:F	_
+36	säubern	säubern	VERB	NN	_	10	H	10:H	_
+37	,	,	PUNCT	$,	_	10	U	10:U	_
+38	um	um	ADP	KOUI	_	10	L	10:L	_
+39	den	der	DET	ART	_	41	E	41:E	_
+40	überseeischen	überseeisch	ADJ	ADJA	_	41	E	41:E	_
+41	Verkehr	Verkehr	NOUN	NN	_	43	A	43:A	_
+42	zu	zu	PART	VVINF	_	43	F	43:F	_
+43	sichern	sichern	VERB	VVINF	_	10	H	10:H	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25712021
+# text = Ich machte mich an die Betrachtung der Fische , und es fielen mir gleich einige schon im Altertum bekannte Arten auf .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Betrachtung	Betrachtung	NOUN	NN	_	2	A	2:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Fische	Fisch	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	es	es	PRON	PPER	_	12	F	12:F	_
+12	fielen	fallen	VERB	VVFIN	_	2	H	2:H	_
+13	mir	ich	PRON	PPER	_	12	A	12:A	_
+14	gleich	gleich	ADV	ADV	_	12	D	12:D	_
+15	einige	einige	PRON	PIAT	_	20	E	20:E	_
+16	schon	schon	ADV	ADV	_	19	D	19:D	_
+17	im	im	ADV	NE	_	18	R	18:R	_
+18	Altertum	Altertum	NOUN	NN	_	19	A	19:A	_
+19	bekannte	bekannter	ADJ	ADJA	_	20	E	20:E	_
+20	Arten	Art	NOUN	NN	_	12	A	12:A	_
+21	auf	auf	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+22	.	.	PUNCT	$.	_	12	U	12:U	_
+

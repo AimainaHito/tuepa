@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25511008
+# text = Hier befand sich zwischen zwei wasserdichten Wänden eine Art Schacht , in dem eine an der Wand befestigte eiserne Leiter zur Mündung führte .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	zwischen	zwischen	ADP	ADJA	_	7	R	7:R	_
+5	zwei	zwei	NUM	VVFIN	_	7	E	7:E	_
+6	wasserdichten	wasserdicht	ADJ	ADJA	_	7	E	7:E	_
+7	Wänden	Wand	NOUN	NN	_	2	A	2:A	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	Art	Art	NOUN	NN	_	10	E	10:E	_
+10	Schacht	Schacht	PROPN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	in	in	ADP	APPR	_	13	R	13:R	_
+13	dem	der	PRON	PRELS	_	23	R	23:R	_
+14	eine	ein	DET	ART	_	20	E	20:E	_
+15	an	an	ADP	APPR	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Wand	Wand	NOUN	NN	_	18	A	18:A	_
+18	befestigte	befestigen	VERB	ADJA	_	20	E	20:E	_
+19	eiserne	eisern	ADJ	ADJA	_	20	E	20:E	_
+20	Leiter	Leiter	NOUN	NN	_	23	A	23:A	_
+21	zur	zur	ADP	NN	_	22	R	22:R	_
+22	Mündung	Mündung	NOUN	NN	_	23	A	23:A	_
+23	führte	führen	VERB	VVFIN	_	10	E	10:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

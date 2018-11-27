@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 806003
+# text = In his first interview after Linda 's death , he promised to continue working for animal rights , and in 1999 he spent £ 3 , 000 , 000 to ensure Linda McCartney Foods remained free of genetically engineered ingredients .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	his	he	PRON	PRP$	_	4	E	4:E	_
+3	first	first	ADJ	JJ	_	4	E	4:E	_
+4	interview	interview	NOUN	NN	_	11	A	11:A	_
+5	after	after	ADP	IN	_	11	L	11:L	_
+6	Linda	Linda	PROPN	NNP	_	8	A	8:A	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	death	death	NOUN	NN	_	11	H	11:H	_
+9	,	,	PUNCT	,	_	11	U	11:U	_
+10	he	he	PRON	PRP	_	11	A	11:A|14:A	_
+11	promised	promise	VERB	VBD	_	0	H	0:H	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	continue	continue	VERB	VB	_	14	D	14:D	_
+14	working	work	VERB	VBG	_	11	A	11:A	_
+15	for	for	ADP	IN	_	17	R	17:R	_
+16	animal	animal	NOUN	NN	_	17	E	17:E	_
+17	rights	rights	NOUN	NNS	_	14	A	14:A	_
+18	,	,	PUNCT	,	_	11	U	11:U	_
+19	and	and	CCONJ	CC	_	11	L	11:L	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1999	1999	NUM	CD	_	23	D	23:D	_
+22	he	he	PRON	PRP	_	23	A	23:A|31:A	_
+23	spent	spend	VERB	VBD	_	11	H	11:H	_
+24	£	£	SYM	$	_	23	U	23:U	_
+25	3	3	NUM	CD	_	23	A	23:A	_
+26	,	,	PUNCT	,	_	25	U	25:U	_
+27	000	000	NUM	CD	_	25	Terminal	25:Terminal	_
+28	,	,	PUNCT	,	_	25	U	25:U	_
+29	000	000	NUM	CD	_	25	Terminal	25:Terminal	_
+30	to	to	PART	TO	_	11	L	11:L	_
+31	ensure	ensure	VERB	VB	_	11	H	11:H	_
+32	Linda	Linda	PROPN	NNP	_	34	E	34:E	_
+33	McCartney	McCartney	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Foods	Foods	PROPN	NNP	_	36	A	36:A	_
+35	remained	remain	VERB	VBD	_	36	D	36:D	_
+36	free	free	ADJ	JJ	_	31	A	31:A	_
+37	of	of	ADP	IN	_	40	R	40:R	_
+38	genetically	genetically	ADV	RB	_	39	E	39:E	_
+39	engineered	engineer	VERB	VBN	_	40	E	40:E	_
+40	ingredients	ingredient	NOUN	NNS	_	36	A	36:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

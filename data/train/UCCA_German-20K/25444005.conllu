@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25444005
+# text = Vor Ablauf von 8 Tagen konnte die ›Abraham Lincoln‹ die Wogen des Pazifiks durchsegeln .
+1	Vor	vor	ADP	NN	_	2	L	2:L	_
+2	Ablauf	Ablauf	NOUN	NN	_	0	H	0:H	_
+3	von	von	ADP	NE	_	5	R	5:R	_
+4	8	8	NUM	CARD	_	5	E	5:E	_
+5	Tagen	Tag	NOUN	NN	_	2	A	2:A	_
+6	konnte	können	AUX	VMFIN	_	14	D	14:D	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Abraham	›Abraham	PROPN	NE	_	14	A	14:A	_
+9	Lincoln‹	Lincoln‹	NOUN	NE	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Wogen	Woge	NOUN	NN	_	14	A	14:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Pazifiks	Pazifik	NOUN	NN	_	11	E	11:E	_
+14	durchsegeln	durchsegeln	VERB	VVFIN	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

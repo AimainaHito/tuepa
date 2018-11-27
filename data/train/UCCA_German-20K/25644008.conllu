@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25644008
+# text = Ich irrte mich und erkannte nach einer leichten Beobachtung , worin mein Irrtum bestand .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|5:A	_
+2	irrte	irren	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	und	und	CCONJ	NE	_	2	L	2:L	_
+5	erkannte	erkennen	VERB	VVFIN	_	2	H	2:H	_
+6	nach	nach	ADP	CARD	_	9	R	9:R	_
+7	einer	ein	DET	ART	_	9	E	9:E	_
+8	leichten	leicht	ADJ	ADJA	_	9	E	9:E	_
+9	Beobachtung	Beobachtung	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	worin	worin	PRON	PWAV	_	14	A	14:A	_
+12	mein	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Irrtum	Irrtum	NOUN	NN	_	14	A	14:A	_
+14	bestand	bestehen	VERB	VVFIN	_	5	A	5:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 709004
+# text = Dylan 's 1990s began with Under the Red Sky ( 1990 ) , an about - face from the serious Oh Mercy .
+1	Dylan	Dylan	PROPN	NNP	_	0	H	0:H	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	1990s	1990	NOUN	NNS	_	1	D	1:D	_
+4	began	begin	VERB	VBD	_	1	F	1:F	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Under	under	ADP	IN	_	1	A	1:A	_
+7	the	the	DET	DT	_	6	Terminal	6:Terminal	_
+8	Red	Red	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	Sky	sky	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+11	1990	1990	NUM	CD	_	6	D	6:D	_
+12	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	an	a	DET	DT	_	15	E	15:E	_
+15	about	about	ADP	IN	_	6	E	6:E	_
+16	-	-	PUNCT	HYPH	_	15	U	15:U	_
+17	face	face	NOUN	NN	_	15	Terminal	15:Terminal	_
+18	from	from	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	serious	serious	ADJ	JJ	_	15	E	15:E	_
+21	Oh	oh	PROPN	NNP	_	20	E	20:E	_
+22	Mercy	mercy	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

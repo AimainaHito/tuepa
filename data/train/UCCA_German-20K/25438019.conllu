@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25438019
+# text = Aber Kommandant Farragut wollte nicht einen Tag verlieren , nicht eine Stunde , um in das Meer zu kommen , wo das Tier verspürt worden war .
+1	Aber	aber	CCONJ	KON	_	8	L	8:L	_
+2	Kommandant	Kommandant	NOUN	NN	_	3	E	3:E	_
+3	Farragut	Farragut	PROPN	NE	_	0	C	0:C|19:A	_
+4	wollte	wollen	AUX	VMFIN	_	8	D	8:D	_
+5	nicht	nicht	PART	XY	_	8	D	8:D	_
+6	einen	ein	DET	ART	_	5	Terminal	5:Terminal	_
+7	Tag	Tag	NOUN	NN	_	8	A	8:A	_
+8	verlieren	verlieren	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	nicht	nicht	PART	XY	_	8	D	8:D	_
+11	eine	ein	DET	ART	_	10	Terminal	10:Terminal	_
+12	Stunde	Stunde	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	um	um	ADP	KOUI	_	8	L	8:L	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Meer	Meer	NOUN	NN	_	19	A	19:A	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	kommen	kommen	VERB	VVINF	_	8	H	8:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	wo	wo	ADV	ADJA	_	24	R	24:R	_
+22	das	der	DET	ART	_	23	E	23:E	_
+23	Tier	Tier	NOUN	NN	_	24	A	24:A	_
+24	verspürt	verspüren	VERB	VVFIN	_	17	E	17:E	_
+25	worden	werden	AUX	ADV	_	24	F	24:F	_
+26	war	sein	AUX	ADV	_	24	F	24:F	_
+27	.	.	PUNCT	$.	_	24	U	24:U	_
+

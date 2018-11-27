@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 694012
+# text = " It Ai n't Me Babe " , on the surface a song about spurned love , has been described as a rejection of the role his reputation had thrust at him .
+1	"	"	PUNCT	``	_	20	U	20:U	_
+2	It	it	PRON	PRP	_	20	A	20:A	_
+3	Ai	be	AUX	VBZ	_	2	Terminal	2:Terminal	_
+4	n't	not	PART	RB	_	2	Terminal	2:Terminal	_
+5	Me	I	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	Babe	Babe	PROPN	NNP	_	2	Terminal	2:Terminal	_
+7	"	"	PUNCT	''	_	2	U	2:U	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	surface	surface	NOUN	NN	_	13	E	13:E	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	song	song	NOUN	NN	_	2	E	2:E	_
+14	about	about	ADP	IN	_	16	R	16:R	_
+15	spurned	spurned	VERB	VBN	_	16	E	16:E	_
+16	love	love	NOUN	NN	_	13	E	13:E	_
+17	,	,	PUNCT	,	_	20	U	20:U	_
+18	has	have	AUX	VBZ	_	20	F	20:F	_
+19	been	be	AUX	VBN	_	20	F	20:F	_
+20	described	describe	VERB	VBN	_	0	H	0:H	_
+21	as	as	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	rejection	rejection	NOUN	NN	_	20	A	20:A	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	role	role	NOUN	NN	_	23	A	23:A	_
+27	his	he	PRON	PRP$	_	28	E	28:E	_
+28	reputation	reputation	NOUN	NN	_	30	A	30:A	_
+29	had	have	VERB	VBD	_	30	F	30:F	_
+30	thrust	thrust	ADV	RB	_	26	E	26:E	_
+31	at	at	ADP	IN	_	32	R	32:R	_
+32	him	he	PRON	PRP	_	30	A	30:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

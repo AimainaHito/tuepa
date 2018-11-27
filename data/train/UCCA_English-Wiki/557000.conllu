@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 557000
+# text = In August 1953 , Presley walked into the offices of Sun Records .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	August	August	PROPN	NNP	_	6	D	6:D	_
+3	1953	1953	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Presley	Presley	PROPN	NNP	_	6	A	6:A	_
+6	walked	walk	VERB	VBD	_	0	H	0:H	_
+7	into	into	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	offices	office	NOUN	NNS	_	6	A	6:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	Sun	Sun	PROPN	NNP	_	12	E	12:E	_
+12	Records	record	NOUN	NNS	_	9	E	9:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

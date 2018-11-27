@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 671008
+# text = The shows were cancelled , however , after tickets went on sale .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	shows	show	NOUN	NNS	_	4	A	4:A	_
+3	were	be	AUX	VBD	_	4	F	4:F	_
+4	cancelled	cancel	VERB	VBN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	however	however	ADV	RB	_	4	L	4:L	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	after	after	SCONJ	IN	_	12	D	12:D	_
+9	tickets	ticket	NOUN	NNS	_	12	A	12:A	_
+10	went	go	VERB	VBD	_	12	D	12:D	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	sale	sale	NOUN	NN	_	4	H	4:H	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

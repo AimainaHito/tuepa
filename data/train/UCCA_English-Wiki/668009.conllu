@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 668009
+# text = Carey later said that her time at Virgin was " a complete and total stress - fest [ ... ] I made a total snap decision which was based on money and I never make decisions based on money . I learned a big lesson from that .
+1	Carey	Carey	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	17	R	17:R	_
+5	her	she	PRON	PRP$	_	6	E	6:E	_
+6	time	time	NOUN	NN	_	17	A	17:A	_
+7	at	at	ADP	IN	_	8	R	8:R	_
+8	Virgin	Virgin	PROPN	NNP	_	6	E	6:E	_
+9	was	be	AUX	VBD	_	17	F	17:F	_
+10	"	"	PUNCT	``	_	17	U	17:U	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	complete	complete	ADJ	JJ	_	17	D	17:D	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	total	total	ADJ	JJ	_	12	C	12:C	_
+15	stress	stress	NOUN	NN	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	fest	fest	NOUN	NN	_	3	A	3:A	_
+18	[	[	PUNCT	-LRB-	_	17	U	17:U	_
+19	...	...	PUNCT	,	_	17	U	17:U	_
+20	]	]	PUNCT	-RRB-	_	17	U	17:U	_
+21	I	I	PRON	PRP	_	22	A	22:A	_
+22	made	make	VERB	VBD	_	17	H	17:H	_
+23	a	a	DET	DT	_	26	E	26:E	_
+24	total	total	ADJ	JJ	_	26	E	26:E	_
+25	snap	snap	NOUN	NN	_	26	E	26:E	_
+26	decision	decision	NOUN	NN	_	22	A	22:A	_
+27	which	which	PRON	WDT	_	29	R	29:R	_
+28	was	be	AUX	VBD	_	29	F	29:F	_
+29	based	base	VERB	VBN	_	26	E	26:E	_
+30	on	on	ADP	IN	_	31	R	31:R	_
+31	money	money	NOUN	NN	_	29	A	29:A	_
+32	and	and	CCONJ	CC	_	17	L	17:L	_
+33	I	I	PRON	PRP	_	35	A	35:A	_
+34	never	never	ADV	RB	_	35	D	35:D	_
+35	make	make	VERB	VBP	_	17	H	17:H	_
+36	decisions	decision	NOUN	NNS	_	35	A	35:A	_
+37	based	base	VERB	VBN	_	36	E	36:E	_
+38	on	on	ADP	IN	_	37	R	37:R	_
+39	money	money	NOUN	NN	_	37	A	37:A	_
+40	.	.	PUNCT	.	_	17	U	17:U	_
+41	I	I	PRON	PRP	_	42	A	42:A	_
+42	learned	learn	VERB	VBD	_	17	H	17:H	_
+43	a	a	DET	DT	_	45	E	45:E	_
+44	big	big	ADJ	JJ	_	45	E	45:E	_
+45	lesson	lesson	NOUN	NN	_	42	A	42:A	_
+46	from	from	ADP	IN	_	47	R	47:R	_
+47	that	that	PRON	DT	_	42	A	42:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

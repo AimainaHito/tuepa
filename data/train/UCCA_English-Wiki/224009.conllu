@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 224009
+# text = Upon Chan 's return to Lo Wei 's studio , Lo tried to replicate the comedic approach of Drunken Master , producing Half a Loaf of Kung Fu and Spiritual Kung Fu .
+1	Upon	upon	ADP	IN	_	4	L	4:L	_
+2	Chan	Chan	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	return	return	NOUN	NN	_	0	H	0:H	_
+5	to	to	ADP	IN	_	9	R	9:R	_
+6	Lo	Lo	PROPN	NNP	_	9	E	9:E	_
+7	Wei	Wei	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	's	's	PART	POS	_	6	R	6:R	_
+9	studio	studio	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	Lo	Lo	INTJ	UH	_	14	A	14:A|22:A	_
+12	tried	try	VERB	VBD	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	replicate	replicate	VERB	VB	_	4	H	4:H	_
+15	the	the	DET	DT	_	19	E	19:E	_
+16	comedic	comedic	ADJ	JJ	_	17	E	17:E	_
+17	approach	approach	NOUN	NN	_	19	E	19:E	_
+18	of	of	ADP	IN	_	17	F	17:F	_
+19	Drunken	drunken	NOUN	NN	_	14	A	14:A	_
+20	Master	master	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	4	U	4:U	_
+22	producing	produce	VERB	VBG	_	4	H	4:H	_
+23	Half	half	DET	PDT	_	22	A	22:A	_
+24	a	a	DET	DT	_	23	Terminal	23:Terminal	_
+25	Loaf	Loaf	NOUN	NN	_	23	Terminal	23:Terminal	_
+26	of	of	ADP	IN	_	23	Terminal	23:Terminal	_
+27	Kung	kung	ADJ	JJ	_	23	Terminal	23:Terminal	_
+28	Fu	Fu	PROPN	NNP	_	23	Terminal	23:Terminal	_
+29	and	and	CCONJ	CC	_	23	N	23:N	_
+30	Spiritual	spiritual	ADJ	JJ	_	23	C	23:C	_
+31	Kung	kung	ADJ	JJ	_	30	Terminal	30:Terminal	_
+32	Fu	Fu	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	23	U	23:U	_
+

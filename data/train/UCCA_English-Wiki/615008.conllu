@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 615008
+# text = McCartney said he wrote " I 'm Down " as a vehicle for his Little Richard impersonation .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	said	say	VERB	VBD	_	0	H	0:H	_
+3	he	he	PRON	PRP	_	4	A	4:A	_
+4	wrote	write	VERB	VBD	_	2	A	2:A	_
+5	"	"	PUNCT	``	_	4	U	4:U	_
+6	I	I	PRON	PRP	_	4	A	4:A	_
+7	'm	be	AUX	VBP	_	6	Terminal	6:Terminal	_
+8	Down	down	ADJ	JJ	_	6	Terminal	6:Terminal	_
+9	"	"	PUNCT	''	_	4	U	4:U	_
+10	as	as	ADP	IN	_	12	R	12:R	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	vehicle	vehicle	NOUN	NN	_	4	A	4:A	_
+13	for	for	ADP	IN	_	17	R	17:R	_
+14	his	he	PRON	PRP$	_	17	E	17:E	_
+15	Little	Little	PROPN	NNP	_	17	E	17:E	_
+16	Richard	Richard	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	impersonation	impersonation	NOUN	NN	_	12	E	12:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

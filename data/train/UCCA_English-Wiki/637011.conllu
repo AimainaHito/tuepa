@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 637011
+# text = Lennon denounced the proceedings as " disgusting fascism " , and he and Ono ( as Elastic Oz Band ) released the single " God Save Us / Do the Oz " and joined marches in support of the magazine .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	denounced	denounce	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	proceedings	proceeding	NOUN	NNS	_	2	A	2:A	_
+5	as	as	SCONJ	IN	_	8	R	8:R	_
+6	"	"	PUNCT	``	_	8	U	8:U	_
+7	disgusting	disguste	VERB	VBG	_	8	E	8:E	_
+8	fascism	fascism	NOUN	NN	_	2	A	2:A	_
+9	"	"	PUNCT	''	_	2	U	2:U	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	he	he	PRON	PRP	_	21	A	21:A|34:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	Ono	Ono	PROPN	NNP	_	12	C	12:C	_
+15	(	(	PUNCT	-LRB-	_	12	U	12:U	_
+16	as	as	SCONJ	IN	_	19	R	19:R	_
+17	Elastic	Elastic	PROPN	NNP	_	19	E	19:E	_
+18	Oz	Oz	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Band	Band	PROPN	NNP	_	12	E	12:E	_
+20	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+21	released	release	VERB	VBD	_	2	H	2:H	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	single	single	ADJ	JJ	_	25	E	25:E	_
+24	"	"	PUNCT	``	_	25	U	25:U	_
+25	God	God	PROPN	NNP	_	21	A	21:A	_
+26	Save	save	VERB	VB	_	25	Terminal	25:Terminal	_
+27	Us	Us	PRON	PRP	_	25	Terminal	25:Terminal	_
+28	/	/	PUNCT	,	_	25	U	25:U	_
+29	Do	do	AUX	VBP	_	25	Terminal	25:Terminal	_
+30	the	the	DET	DT	_	25	Terminal	25:Terminal	_
+31	Oz	Oz	PROPN	NNP	_	25	Terminal	25:Terminal	_
+32	"	"	PUNCT	''	_	2	U	2:U	_
+33	and	and	CCONJ	CC	_	2	L	2:L	_
+34	joined	join	VERB	VBD	_	2	H	2:H	_
+35	marches	marche	NOUN	NNS	_	34	A	34:A	_
+36	in	in	ADP	IN	_	37	F	37:F	_
+37	support	support	NOUN	NN	_	35	E	35:E	_
+38	of	of	ADP	IN	_	40	R	40:R	_
+39	the	the	DET	DT	_	40	E	40:E	_
+40	magazine	magazine	NOUN	NN	_	37	A	37:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

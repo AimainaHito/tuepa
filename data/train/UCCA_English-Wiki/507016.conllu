@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 507016
+# text = Tin Machine toured again , but after the live album Tin Machine Live : Oy Vey , Baby failed commercially , the band drifted apart , and Bowie , though he continued to collaborate with Gabrels , resumed his solo career .
+1	Tin	tin	PROPN	NNP	_	3	A	3:A	_
+2	Machine	machine	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	toured	toure	VERB	VBD	_	0	H	0:H	_
+4	again	again	ADV	RB	_	3	D	3:D	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	but	but	CCONJ	CC	_	3	L	3:L	_
+7	after	after	ADP	IN	_	3	L	3:L	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	live	live	NOUN	NN	_	10	E	10:E	_
+10	album	album	NOUN	NN	_	11	E	11:E	_
+11	Tin	tin	PROPN	NNP	_	19	A	19:A	_
+12	Machine	machine	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Live	Live	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	:	:	PUNCT	:	_	11	U	11:U	_
+15	Oy	Oy	PROPN	NNP	_	11	Terminal	11:Terminal	_
+16	Vey	Vey	PROPN	NNP	_	11	Terminal	11:Terminal	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	Baby	baby	PROPN	NNP	_	11	Terminal	11:Terminal	_
+19	failed	fail	VERB	VBD	_	3	H	3:H	_
+20	commercially	commercially	ADV	RB	_	19	D	19:D	_
+21	,	,	PUNCT	,	_	3	U	3:U	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	band	band	NOUN	NN	_	24	A	24:A	_
+24	drifted	drift	VERB	VBD	_	3	H	3:H	_
+25	apart	apart	ADV	RB	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	,	_	3	U	3:U	_
+27	and	and	CCONJ	CC	_	3	L	3:L	_
+28	Bowie	Bowie	PROPN	NNP	_	38	A	38:A	_
+29	,	,	PUNCT	,	_	3	U	3:U	_
+30	though	though	SCONJ	IN	_	3	L	3:L	_
+31	he	he	PRON	PRP	_	34	A	34:A	_
+32	continued	continue	VERB	VBD	_	34	D	34:D	_
+33	to	to	PART	TO	_	34	F	34:F	_
+34	collaborate	collaborate	VERB	VB	_	3	H	3:H	_
+35	with	with	ADP	IN	_	36	R	36:R	_
+36	Gabrels	Gabrels	PROPN	NNP	_	34	A	34:A	_
+37	,	,	PUNCT	,	_	3	U	3:U	_
+38	resumed	resume	VERB	VBD	_	3	H	3:H	_
+39	his	he	PRON	PRP$	_	41	E	41:E	_
+40	solo	solo	ADJ	JJ	_	41	E	41:E	_
+41	career	career	NOUN	NN	_	38	A	38:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

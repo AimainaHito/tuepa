@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 650000
+# text = Lennon and Ono showed their solidarity with the Clydeside UCS workers ' work - in of 1971 by sending a bouquet of red roses and a cheque for £ 5 , 000 .
+1	Lennon	Lennon	PROPN	NNP	_	4	A	4:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Ono	Ono	PROPN	NNP	_	1	C	1:C	_
+4	showed	show	VERB	VBD	_	0	H	0:H	_
+5	their	they	PRON	PRP$	_	6	A	6:A|19:A	_
+6	solidarity	solidarity	NOUN	NN	_	4	A	4:A	_
+7	with	with	ADP	IN	_	13	R	13:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	Clydeside	Clydeside	PROPN	NNP	_	11	E	11:E	_
+10	UCS	UCS	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	workers	worker	NOUN	NNS	_	13	A	13:A	_
+12	'	's	PUNCT	``	_	13	U	13:U	_
+13	work	work	VERB	VB	_	6	A	6:A	_
+14	-	-	PUNCT	HYPH	_	13	U	13:U	_
+15	in	in	ADP	IN	_	13	Terminal	13:Terminal	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	1971	1971	NUM	CD	_	13	D	13:D	_
+18	by	by	SCONJ	IN	_	19	R	19:R	_
+19	sending	send	VERB	VBG	_	4	A	4:A	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	bouquet	bouquet	NOUN	NN	_	19	A	19:A	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	red	red	ADJ	JJ	_	24	E	24:E	_
+24	roses	rose	NOUN	NNS	_	21	E	21:E	_
+25	and	and	CCONJ	CC	_	21	N	21:N	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	cheque	cheque	NOUN	NN	_	21	C	21:C	_
+28	for	for	ADP	IN	_	30	R	30:R	_
+29	£	£	SYM	$	_	30	U	30:U	_
+30	5	5	NUM	CD	_	27	E	27:E	_
+31	,	,	PUNCT	,	_	30	U	30:U	_
+32	000	000	NUM	CD	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

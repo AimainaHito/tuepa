@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25766008
+# text = » Nun , Herr Professor , was halten Sie davon ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Nun	nun	PROPN	ADV	_	8	F	8:F	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	was	was	PRON	NE	_	8	A	8:A	_
+8	halten	halten	VERB	VVFIN	_	0	H	0:H	_
+9	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+10	davon	davon	ADV	PAV	_	8	A	8:A	_
+11	?	?	PUNCT	$.	_	8	U	8:U	_
+12	«	«	PUNCT	$(	_	8	U	8:U	_
+

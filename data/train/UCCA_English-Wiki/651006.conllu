@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 651006
+# text = Nixon believed that Lennon 's anti - war activities could cost him his re - election ; Republican Senator Strom Thurmond suggested in a February 1972 memo that " deportation would be a strategic counter - measure " against Lennon .
+1	Nixon	Nixon	PROPN	NNP	_	2	A	2:A	_
+2	believed	believe	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	11	F	11:F	_
+4	Lennon	Lennon	PROPN	NNP	_	9	A	9:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	anti	anti	NOUN	NN	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	war	war	NOUN	NN	_	9	E	9:E	_
+9	activities	activity	NOUN	NNS	_	11	A	11:A	_
+10	could	could	AUX	MD	_	11	D	11:D	_
+11	cost	cost	VERB	VB	_	2	A	2:A	_
+12	him	he	PRON	PRP	_	11	A	11:A	_
+13	his	he	PRON	PRP$	_	16	E	16:E	_
+14	re	re	ADP	IN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	election	election	NOUN	NN	_	11	A	11:A	_
+17	;	;	PUNCT	,	_	2	U	2:U	_
+18	Republican	Republican	PROPN	NNP	_	19	E	19:E	_
+19	Senator	Senator	PROPN	NNP	_	22	A	22:A	_
+20	Strom	Strom	PROPN	NNP	_	19	E	19:E	_
+21	Thurmond	Thurmond	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	suggested	suggest	VERB	VBD	_	2	H	2:H	_
+23	in	in	ADP	IN	_	25	R	25:R	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	February	February	PROPN	NNP	_	27	D	27:D	_
+26	1972	1972	NUM	CD	_	25	Terminal	25:Terminal	_
+27	memo	memo	NOUN	NN	_	22	A	22:A	_
+28	that	that	PRON	WDT	_	32	F	32:F	_
+29	"	"	PUNCT	``	_	32	U	32:U	_
+30	deportation	deportation	NOUN	NN	_	32	A	32:A	_
+31	would	would	AUX	MD	_	32	D	32:D	_
+32	be	be	AUX	VB	_	22	A	22:A	_
+33	a	a	DET	DT	_	37	E	37:E	_
+34	strategic	strategic	ADJ	JJ	_	37	E	37:E	_
+35	counter	counter	NOUN	NN	_	37	E	37:E	_
+36	-	-	PUNCT	HYPH	_	37	U	37:U	_
+37	measure	measure	NOUN	NN	_	32	A	32:A	_
+38	"	"	PUNCT	''	_	37	U	37:U	_
+39	against	against	ADP	IN	_	40	R	40:R	_
+40	Lennon	Lennon	PROPN	NNP	_	37	E	37:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

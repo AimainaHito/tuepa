@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25806004
+# text = Jedoch konnte ich nicht hoffen , dass er fähig sei , uns die Freiheit wieder zu geben .
+1	Jedoch	jedoch	ADV	ADV	_	5	L	5:L	_
+2	konnte	können	AUX	VMFIN	_	5	D	5:D	_
+3	ich	ich	PRON	PPER	_	5	A	5:A	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	hoffen	hoffen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	15	R	15:R	_
+8	er	er	PRON	PPER	_	15	A	15:A	_
+9	fähig	fähig	ADJ	ADJD	_	15	D	15:D	_
+10	sei	sein	AUX	NN	_	15	F	15:F	_
+11	,	,	PUNCT	$,	_	15	U	15:U	_
+12	uns	wir	PRON	NN	_	15	A	15:A	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Freiheit	Freiheit	NOUN	NN	_	15	A	15:A	_
+15	wieder	wieder	ADV	NE	_	5	A	5:A	_
+16	zu	zu	PART	NE	_	15	F	15:F	_
+17	geben	geben	VERB	VVINF	_	15	Terminal	15:Terminal	_
+18	.	.	PUNCT	$.	_	15	U	15:U	_
+

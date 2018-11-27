@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25783006
+# text = Er sah schweigend auf den Kompaß , das Manometer und legte seinen Finger auf einen Punkt der Karte in der Gegend der Süd meere .
+1	Er	er	PRON	PPER	_	2	A	2:A|11:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	schweigend	schweigend	ADJ	ADJD	_	2	D	2:D	_
+4	auf	auf	ADP	APPR	_	6	R	6:R|9:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Kompaß	Kompaß	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	das	der	DET	PRELS	_	9	E	9:E	_
+9	Manometer	Manometer	NOUN	NE	_	2	A	2:A	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	legte	legen	VERB	VVFIN	_	2	H	2:H	_
+12	seinen	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Finger	Finger	NOUN	NN	_	11	A	11:A	_
+14	auf	auf	ADP	APPR	_	16	R	16:R	_
+15	einen	ein	DET	ART	_	16	E	16:E	_
+16	Punkt	Punkt	NOUN	NN	_	11	A	11:A	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	Karte	Karte	NOUN	NN	_	16	E	16:E	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Gegend	Gegend	NOUN	NN	_	11	A	11:A	_
+22	der	der	DET	ART	_	24	R	24:R	_
+23	Süd	Süd	NOUN	NN	_	24	E	24:E	_
+24	meere	me	ADJ	NE	_	21	E	21:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

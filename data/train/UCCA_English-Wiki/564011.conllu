@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 564011
+# text = Presley appeared in two segments that night from CBS Television City in Los Angeles .
+1	Presley	Presley	PROPN	NNP	_	2	A	2:A	_
+2	appeared	appear	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	two	two	NUM	CD	_	5	E	5:E	_
+5	segments	segment	NOUN	NNS	_	2	A	2:A	_
+6	that	that	DET	DT	_	7	R	7:R	_
+7	night	night	NOUN	NN	_	2	D	2:D	_
+8	from	from	ADP	IN	_	10	R	10:R	_
+9	CBS	CBS	PROPN	NNP	_	10	E	10:E	_
+10	Television	television	PROPN	NNP	_	5	E	5:E	_
+11	City	City	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Los	Los	PROPN	NNP	_	2	A	2:A	_
+14	Angeles	angeles	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

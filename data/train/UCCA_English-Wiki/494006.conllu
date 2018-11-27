@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 494006
+# text = After a series of operations during a four - month hospitalisation , his doctors determined that the damage could not be fully repaired and Bowie was left with faulty depth perception and a permanently dilated pupil .
+1	After	after	ADP	IN	_	5	L	5:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	series	series	NOUN	NN	_	5	E	5:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	operations	operation	NOUN	NNS	_	0	H	0:H	_
+6	during	during	ADP	IN	_	5	L	5:L	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	four	four	NUM	CD	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	month	month	NOUN	NN	_	11	D	11:D	_
+11	hospitalisation	hospitalisation	NOUN	NN	_	5	H	5:H	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	doctors	doctor	NOUN	NNS	_	15	A	15:A	_
+15	determined	determine	VERB	VBD	_	5	H	5:H	_
+16	that	that	SCONJ	IN	_	23	F	23:F	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	damage	damage	NOUN	NN	_	23	A	23:A	_
+19	could	could	AUX	MD	_	23	D	23:D	_
+20	not	not	PART	RB	_	23	D	23:D	_
+21	be	be	AUX	VB	_	23	F	23:F	_
+22	fully	fully	ADV	RB	_	23	D	23:D	_
+23	repaired	repair	VERB	VBN	_	15	A	15:A	_
+24	and	and	CCONJ	CC	_	5	L	5:L	_
+25	Bowie	Bowie	PROPN	NNP	_	27	A	27:A	_
+26	was	be	AUX	VBD	_	27	F	27:F	_
+27	left	leave	VERB	VBN	_	5	H	5:H	_
+28	with	with	ADP	IN	_	31	R	31:R	_
+29	faulty	faulty	NOUN	NN	_	31	E	31:E	_
+30	depth	depth	NOUN	NN	_	31	E	31:E	_
+31	perception	perception	NOUN	NN	_	27	A	27:A	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	a	a	DET	DT	_	36	E	36:E	_
+34	permanently	permanently	ADV	RB	_	35	E	35:E	_
+35	dilated	dilate	VERB	VBN	_	36	E	36:E	_
+36	pupil	pupil	NOUN	NN	_	31	C	31:C	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

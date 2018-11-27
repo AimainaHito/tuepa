@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25593018
+# text = Das ist der Wald der Insel Crespo , dachte ich , und irrte nicht .
+1	Das	der	PRON	PDS	_	2	A	2:A	_
+2	ist	sein	AUX	VVFIN	_	9	A	9:A	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Wald	Wald	NOUN	NN	_	2	A	2:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Insel	Insel	NOUN	NN	_	4	E	4:E	_
+7	Crespo	Crespo	PROPN	NE	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A|13:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	und	und	CCONJ	NE	_	9	L	9:L	_
+13	irrte	irren	VERB	VVFIN	_	9	H	9:H	_
+14	nicht	nicht	PART	CARD	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 460008
+# text = The events of September 11 added new meaning to In Search of America , the project Jennings and Brewster started after the success of their previous collaboration .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	events	event	NOUN	NNS	_	6	A	6:A	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	September	September	PROPN	NNP	_	2	E	2:E	_
+5	11	11	NUM	CD	_	4	Terminal	4:Terminal	_
+6	added	add	VERB	VBD	_	0	H	0:H	_
+7	new	new	ADJ	JJ	_	8	E	8:E	_
+8	meaning	mea	NOUN	NN	_	6	A	6:A	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	In	in	ADP	IN	_	6	A	6:A	_
+11	Search	search	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	of	of	ADP	IN	_	10	Terminal	10:Terminal	_
+13	America	America	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	project	project	NOUN	NN	_	10	E	10:E	_
+17	Jennings	Jennings	PROPN	NNPS	_	20	A	20:A	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	Brewster	Brewster	PROPN	NNP	_	17	C	17:C	_
+20	started	start	VERB	VBD	_	16	E	16:E	_
+21	after	after	ADP	IN	_	20	L	20:L	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	success	success	NOUN	NN	_	20	H	20:H	_
+24	of	of	ADP	IN	_	27	R	27:R	_
+25	their	they	PRON	PRP$	_	27	E	27:E	_
+26	previous	previous	ADJ	JJ	_	27	E	27:E	_
+27	collaboration	collaboration	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

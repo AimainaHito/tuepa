@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25800017
+# text = Wir hatten damals seit unserer Abreise aus den Japanischen Meeren 16.000 Lieue zurückgelegt .
+1	Wir	wir	PRON	NE	_	13	A	13:A|6:A	_
+2	hatten	haben	AUX	VAFIN	_	13	F	13:F	_
+3	damals	damals	ADV	ADV	_	13	D	13:D	_
+4	seit	seit	ADP	ADJA	_	13	L	13:L	_
+5	unserer	unser	PRON	ADJA	_	6	E	6:E	_
+6	Abreise	Abreise	NOUN	NN	_	13	H	13:H	_
+7	aus	aus	ADP	APPR	_	10	R	10:R	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	Japanischen	japanisch	PROPN	ADJA	_	10	E	10:E	_
+10	Meeren	Meer	NOUN	NN	_	6	A	6:A	_
+11	16.000	16.0	NUM	CARD	_	12	E	12:E	_
+12	Lieue	Lieue	NOUN	ADJA	_	13	A	13:A	_
+13	zurückgelegt	zurückgelegen	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

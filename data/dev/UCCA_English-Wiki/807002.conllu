@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 807002
+# text = On the eve of the 2012 U.S. Presidential Election , McCartney issued a video endorsement of President Barack Obama .
+1	On	on	ADP	IN	_	9	L	9:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	eve	eve	NOUN	NN	_	9	E	9:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	2012	2012	NUM	CD	_	9	E	9:E	_
+7	U.S.	U.S.	PROPN	NNP	_	9	E	9:E	_
+8	Presidential	Presidential	PROPN	NNP	_	9	E	9:E	_
+9	Election	election	PROPN	NNP	_	0	H	0:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	McCartney	McCartney	PROPN	NNP	_	12	A	12:A	_
+12	issued	issue	VERB	VBD	_	9	H	9:H	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	video	video	NOUN	NN	_	15	E	15:E	_
+15	endorsement	endorsement	NOUN	NN	_	12	A	12:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	President	President	PROPN	NNP	_	18	E	18:E	_
+18	Barack	Barack	PROPN	NNP	_	15	E	15:E	_
+19	Obama	Obama	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

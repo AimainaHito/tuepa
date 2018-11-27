@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25635013
+# text = Ich rief daher Conseil , und er brachte mir ein kleines leichtes Scharrnetz , wie man beim Austern fang gebraucht .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+3	daher	daher	ADV	PAV	_	2	D	2:D	_
+4	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	er	er	PRON	PPER	_	8	A	8:A	_
+8	brachte	bringen	VERB	VVFIN	_	2	H	2:H	_
+9	mir	ich	PRON	PPER	_	8	A	8:A	_
+10	ein	ein	DET	ART	_	13	E	13:E	_
+11	kleines	klein	ADJ	ADJA	_	13	E	13:E	_
+12	leichtes	leicht	ADJ	ADJA	_	13	E	13:E	_
+13	Scharrnetz	Scharrnetz	NOUN	NN	_	8	A	8:A	_
+14	,	,	PUNCT	$,	_	20	U	20:U	_
+15	wie	wie	SCONJ	KON	_	20	R	20:R	_
+16	man	man	PRON	PIS	_	20	A	20:A	_
+17	beim	beim	ADV	NN	_	19	R	19:R	_
+18	Austern	Auster	NOUN	NE	_	19	E	19:E	_
+19	fang	fang	ADJ	NE	_	20	A	20:A	_
+20	gebraucht	brauchen|gebrauchen	VERB	VVPP	_	8	A	8:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

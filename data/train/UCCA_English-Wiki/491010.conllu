@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 491010
+# text = Since 1995 , he has participated in the Motorcycle Riders Association Toy Run in Melbourne , which raises money and toys for needy children at Christmas .
+1	Since	since	ADP	IN	_	2	R	2:R	_
+2	1995	1995	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	he	he	PRON	PRP	_	6	A	6:A	_
+5	has	have	AUX	VBZ	_	6	F	6:F	_
+6	participated	participate	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	Motorcycle	motorcycle	PROPN	NNP	_	10	E	10:E	_
+10	Riders	riders	PROPN	NNP	_	11	E	11:E	_
+11	Association	Association	PROPN	NNP	_	12	E	12:E	_
+12	Toy	toy	PROPN	NNP	_	6	A	6:A	_
+13	Run	Run	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Melbourne	Melbourne	PROPN	NNP	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	which	which	PRON	WDT	_	18	R	18:R	_
+18	raises	raise	VERB	VBZ	_	12	E	12:E	_
+19	money	money	NOUN	NN	_	18	A	18:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	toys	toy	NOUN	NNS	_	19	C	19:C	_
+22	for	for	ADP	IN	_	24	R	24:R	_
+23	needy	needy	ADJ	JJ	_	24	E	24:E	_
+24	children	child	NOUN	NNS	_	18	A	18:A	_
+25	at	at	ADP	IN	_	26	R	26:R	_
+26	Christmas	christmas	PROPN	NNP	_	18	A	18:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

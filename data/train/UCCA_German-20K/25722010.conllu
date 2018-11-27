@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25722010
+# text = In diesem Augenblick gab mir ein ziemlich starkes Zischen zu erkennen , dass die Behälter gefüllt wurden , und die ›Nautilus‹ tauchte unter in die atlantischen Wogen .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	11	D	11:D	_
+4	gab	geben	VERB	VVFIN	_	11	D	11:D	_
+5	mir	ich	PRON	PPER	_	11	A	11:A	_
+6	ein	ein	DET	ART	_	9	E	9:E	_
+7	ziemlich	ziemlich	ADV	ADV	_	8	E	8:E	_
+8	starkes	stark	ADJ	ADJA	_	9	E	9:E	_
+9	Zischen	Zischen	NOUN	NE	_	11	A	11:A	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Behälter	Behälter	NOUN	NN	_	16	A	16:A	_
+16	gefüllt	füllen	VERB	VVPP	_	11	A	11:A	_
+17	wurden	werden	AUX	ADJD	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	16	U	16:U	_
+19	und	und	CCONJ	NE	_	16	L	16:L	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	›Nautilus‹	›Nautilus‹	NOUN	NE	_	22	A	22:A	_
+22	tauchte	tauchen	VERB	VVFIN	_	16	H	16:H	_
+23	unter	unter	ADP	ADJD	_	22	Terminal	22:Terminal	_
+24	in	in	ADP	APPR	_	27	R	27:R	_
+25	die	der	DET	ART	_	27	E	27:E	_
+26	atlantischen	atlantisch	ADJ	ADJA	_	27	E	27:E	_
+27	Wogen	Woge	NOUN	NN	_	22	A	22:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

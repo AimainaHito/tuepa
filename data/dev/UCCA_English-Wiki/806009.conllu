@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 806009
+# text = He wore an anti - landmines T - shirt during some of the Back in the World tour shows .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	wore	wear	VERB	VBD	_	0	H	0:H	_
+3	an	a	DET	DT	_	9	E	9:E	_
+4	anti	anti	NOUN	NN	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	landmines	landmine	NOUN	NNS	_	9	E	9:E	_
+7	T	t	NUM	CD	_	9	E	9:E	_
+8	-	-	PUNCT	:	_	9	U	9:U	_
+9	shirt	shirt	NOUN	NN	_	2	A	2:A	_
+10	during	during	ADP	IN	_	2	L	2:L	_
+11	some	some	DET	DT	_	19	E	19:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	the	the	DET	DT	_	19	E	19:E	_
+14	Back	back	NOUN	NN	_	19	E	19:E	_
+15	in	in	ADP	IN	_	14	Terminal	14:Terminal	_
+16	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+17	World	World	NOUN	NN	_	14	Terminal	14:Terminal	_
+18	tour	tour	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	shows	show	NOUN	NNS	_	2	H	2:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

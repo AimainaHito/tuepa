@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25642003
+# text = Unter gewöhnlichen Verhältnissen macht man diese Aufnahmen vermittels sehr komplizierter Instrumente , deren Angaben wenigstens zweifelhaft sind , z.B . thermometrische Sonden , deren Gläser oft unterm Druck der Gewässer zerbrechen ; oder Apparate , die sich auf den verschiedenen Widerstand stützen , den die Metalle den elektrischen Strömungen entgegensetzen .
+1	Unter	unter	ADP	ADJD	_	3	R	3:R	_
+2	gewöhnlichen	gewöhnlich	ADJ	ADJA	_	3	E	3:E	_
+3	Verhältnissen	Verhältnis	NOUN	NN	_	7	A	7:A	_
+4	macht	machen	VERB	VVFIN	_	7	D	7:D	_
+5	man	man	PRON	PIS	_	7	A	7:A	_
+6	diese	dies	PRON	PDAT	_	7	E	7:E	_
+7	Aufnahmen	Aufnahme	NOUN	NN	_	0	H	0:H	_
+8	vermittels	vermittels	ADP	NE	_	11	R	11:R	_
+9	sehr	sehr	ADV	NN	_	11	E	11:E	_
+10	komplizierter	kompliziert	ADJ	ADJA	_	11	E	11:E	_
+11	Instrumente	Instrument	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	deren	der	DET	PRELAT	_	16	R	16:R	_
+14	Angaben	Angabe	NOUN	NN	_	16	A	16:A	_
+15	wenigstens	wenigstens	ADV	ADV	_	16	D	16:D	_
+16	zweifelhaft	zweifelhaft	ADJ	ADJD	_	11	E	11:E	_
+17	sind	sein	AUX	NN	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	7	U	7:U	_
+19	z.B	z.B	X	NN	_	7	F	7:F	_
+20	.	.	PUNCT	$.	_	7	U	7:U	_
+21	thermometrische	thermometrisch	ADJ	ADJA	_	22	E	22:E	_
+22	Sonden	sonde	NOUN	VVFIN	_	7	A	7:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	deren	der	DET	PRELAT	_	31	R	31:R	_
+25	Gläser	Gläser	NOUN	NN	_	31	A	31:A	_
+26	oft	oft	ADV	ADV	_	31	D	31:D	_
+27	unterm	unterm	ADJ	NN	_	28	R	28:R	_
+28	Druck	Druck	NOUN	NN	_	31	A	31:A	_
+29	der	der	DET	ART	_	30	R	30:R	_
+30	Gewässer	Gewässer	NOUN	NN	_	28	A	28:A	_
+31	zerbrechen	zerbrechen	VERB	ADJA	_	22	E	22:E	_
+32	;	;	PUNCT	$.	_	22	U	22:U	_
+33	oder	oder	CCONJ	CARD	_	22	N	22:N	_
+34	Apparate	Apparat	NOUN	NN	_	22	C	22:C	_
+35	,	,	PUNCT	$,	_	34	U	34:U	_
+36	die	der	PRON	PRELS	_	37	R	37:R	_
+37	sich	er|es|sie	PRON	PRF	_	34	E	34:E	_
+38	auf	auf	ADP	APPR	_	41	R	41:R	_
+39	den	der	DET	ART	_	41	E	41:E	_
+40	verschiedenen	verschieden	ADJ	ADJA	_	41	E	41:E	_
+41	Widerstand	Widerstand	NOUN	NN	_	37	A	37:A	_
+42	stützen	stützen	VERB	VVINF	_	37	Terminal	37:Terminal	_
+43	,	,	PUNCT	$,	_	37	U	37:U	_
+44	den	der	PRON	PRELS	_	50	R	50:R	_
+45	die	der	DET	ART	_	46	E	46:E	_
+46	Metalle	Metall	NOUN	NN	_	50	A	50:A	_
+47	den	der	DET	ART	_	49	E	49:E	_
+48	elektrischen	elektrisch	ADJ	ADJA	_	49	E	49:E	_
+49	Strömungen	Strömung	NOUN	NN	_	50	A	50:A	_
+50	entgegensetzen	entgegensetzen	VERB	VVINF	_	41	E	41:E	_
+51	.	.	PUNCT	$.	_	50	U	50:U	_
+

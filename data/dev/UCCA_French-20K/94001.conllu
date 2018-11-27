@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 94001
+# text = Nulle entreprise de navigation transocéanienne n' a été conduite avec plus d' habileté ; nulle affaire n' a été couronnée de plus de succès .
+1	Nulle	nul	ADJ	_	_	9	D	9:D	_
+2	entreprise	entreprise	NOUN	_	_	9	A	9:A	_
+3	de	de	ADP	_	_	4	R	4:R	_
+4	navigation	navigation	NOUN	_	_	2	E	2:E	_
+5	transocéanienne	transocéanien	ADJ	_	_	4	E	4:E	_
+6	n'	ne	ADV	_	_	9	D	9:D	_
+7	a	avoir	AUX	_	_	9	F	9:F	_
+8	été	être	AUX	_	_	9	F	9:F	_
+9	conduite	conduire	VERB	_	_	0	H	0:H	_
+10	avec	avec	ADP	_	_	13	R	13:R	_
+11	plus	plus	ADV	_	_	13	E	13:E	_
+12	d'	de	ADP	_	_	13	E	13:E	_
+13	habileté	habileté	NOUN	_	_	9	A	9:A	_
+14	;	;	PUNCT	_	_	9	U	9:U	_
+15	nulle	nul	ADJ	_	_	20	D	20:D	_
+16	affaire	affaire	NOUN	_	_	20	A	20:A	_
+17	n'	ne	ADV	_	_	20	D	20:D	_
+18	a	avoir	AUX	_	_	20	F	20:F	_
+19	été	être	AUX	_	_	20	F	20:F	_
+20	couronnée	couronner	VERB	_	_	9	H	9:H	_
+21	de	de	ADP	_	_	24	R	24:R	_
+22	plus	plus	ADV	_	_	24	E	24:E	_
+23	de	de	ADP	_	_	24	E	24:E	_
+24	succès	succès	NOUN	_	_	20	A	20:A	_
+25	.	.	PUNCT	_	_	24	U	24:U	_
+

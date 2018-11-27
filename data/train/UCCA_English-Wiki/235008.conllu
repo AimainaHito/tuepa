@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 235008
+# text = " Chan however complained about the quality of Chinese goods , saying , " ... a Chinese TV might explode .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	Chan	Chan	PROPN	NNP	_	4	A	4:A|12:A	_
+3	however	however	ADV	RB	_	4	L	4:L	_
+4	complained	complain	VERB	VBD	_	0	H	0:H	_
+5	about	about	ADP	IN	_	10	R	10:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	quality	quality	NOUN	NN	_	10	E	10:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	Chinese	chinese	ADJ	JJ	_	10	E	10:E	_
+10	goods	goods	NOUN	NNS	_	4	A	4:A	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	saying	say	VERB	VBG	_	4	H	4:H	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	"	"	PUNCT	''	_	12	U	12:U	_
+15	...	...	PUNCT	,	_	12	U	12:U	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	Chinese	chinese	ADJ	JJ	_	18	E	18:E	_
+18	TV	tv	NOUN	NN	_	20	A	20:A	_
+19	might	might	AUX	MD	_	20	D	20:D	_
+20	explode	explode	VERB	VB	_	12	A	12:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

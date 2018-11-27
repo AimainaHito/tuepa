@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25770015
+# text = Das machte 2.000 Fuß Eis über uns , wovon 1.000 über dem Meeresspiegel .
+1	Das	der	PRON	PDS	_	2	F	2:F	_
+2	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+3	2.000	2.0	NUM	CARD	_	4	E	4:E	_
+4	Fuß	Fuß	NOUN	NN	_	5	E	5:E	_
+5	Eis	Eis	NOUN	NN	_	2	A	2:A	_
+6	über	über	ADP	NE	_	7	R	7:R	_
+7	uns	wir	PRON	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	wovon	wovon	ADV	NE	_	2	R	2:R	_
+10	1.000	1.0	NUM	CARD	_	2	A	2:A	_
+11	über	über	ADP	VVFIN	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Meeresspiegel	Meeresspiegel	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

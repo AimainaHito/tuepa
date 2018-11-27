@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 221010
+# text = Dunst explained that Tuesday is " not a holiday , and [ the United States is ] one of the lowest democratic countries in voter turnout .
+1	Dunst	Dunst	PROPN	NNP	_	2	A	2:A	_
+2	explained	explain	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	9	F	9:F	_
+4	Tuesday	Tuesday	PROPN	NNP	_	9	A	9:A	_
+5	is	be	AUX	VBZ	_	9	F	9:F	_
+6	"	"	PUNCT	``	_	9	U	9:U	_
+7	not	not	ADV	RB	_	9	D	9:D	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	holiday	holiday	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	and	and	CCONJ	CC	_	9	L	9:L	_
+12	[	[	PUNCT	-LRB-	_	9	U	9:U	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	United	United	PROPN	NNP	_	23	A	23:A	_
+15	States	States	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	is	be	AUX	VBZ	_	23	F	23:F	_
+17	]	]	PUNCT	-RRB-	_	23	U	23:U	_
+18	one	one	NUM	CD	_	23	E	23:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	lowest	lowest	ADJ	JJS	_	26	E	26:E	_
+22	democratic	democratic	ADJ	JJ	_	23	E	23:E	_
+23	countries	country	NOUN	NNS	_	9	H	9:H	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	voter	voter	NOUN	NN	_	26	E	26:E	_
+26	turnout	turnout	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

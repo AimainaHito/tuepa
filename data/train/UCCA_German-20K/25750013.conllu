@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25750013
+# text = Kapitän Nemo entschloß sich , mit seiner ›Nautilus‹ bis in die äußerste Tiefe hinabzufahren , um diese verschiedenen Sondierungen zu prüfen .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	0	C	0:C|21:A	_
+3	entschloß	entschließen	VERB	VVFIN	_	14	D	14:D	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	14	U	14:U	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	seiner	sein	DET	PPOSAT	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	A	14:A	_
+9	bis	bis	ADP	APPR	_	13	R	13:R	_
+10	in	in	ADP	APPR	_	9	Terminal	9:Terminal	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	äußerste	äußer	ADJ	ADJA	_	13	E	13:E	_
+13	Tiefe	Tiefe	NOUN	NN	_	14	A	14:A	_
+14	hinabzufahren	hinabzufahren	VERB	VVINF	_	0	H	0:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	um	um	ADP	KOUI	_	21	R	21:R	_
+17	diese	dies	PRON	PDS	_	19	E	19:E	_
+18	verschiedenen	verschieden	ADJ	ADJA	_	19	E	19:E	_
+19	Sondierungen	Sondierung	NOUN	NN	_	21	A	21:A	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	prüfen	prüfen	VERB	VVINF	_	14	H	14:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

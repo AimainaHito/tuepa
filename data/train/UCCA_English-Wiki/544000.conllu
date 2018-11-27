@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 544000
+# text = As the 1930s came to an end , both Jack and Harry Warner became increasingly alarmed over the rise of Nazism .
+1	As	as	SCONJ	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1930s	1930	NOUN	NNS	_	7	A	7:A	_
+4	came	come	VERB	VBD	_	7	D	7:D	_
+5	to	to	ADP	IN	_	7	F	7:F	_
+6	an	a	DET	DT	_	7	E	7:E	_
+7	end	end	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	both	both	CCONJ	CC	_	10	N	10:N	_
+10	Jack	Jack	PROPN	NNP	_	16	A	16:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	Harry	Harry	PROPN	NNP	_	10	C	10:C	_
+13	Warner	Warner	PROPN	NNP	_	10	C	10:C	_
+14	became	become	VERB	VBD	_	16	D	16:D	_
+15	increasingly	increasingly	ADV	RB	_	16	D	16:D	_
+16	alarmed	alarm	VERB	VBN	_	7	H	7:H	_
+17	over	over	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	rise	rise	NOUN	NN	_	16	A	16:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	Nazism	Nazism	PROPN	NNP	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

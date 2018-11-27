@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25814014
+# text = Nun hatte er schon den zweiten Genossen an Bord verloren .
+1	Nun	nun	ADV	ADV	_	10	L	10:L	_
+2	hatte	haben	AUX	VAFIN	_	10	F	10:F	_
+3	er	er	PRON	PPER	_	10	A	10:A	_
+4	schon	schon	ADV	ADV	_	10	D	10:D	_
+5	den	der	DET	ART	_	7	E	7:E	_
+6	zweiten	zweit	ADJ	ADJA	_	7	E	7:E	_
+7	Genossen	nießen	ADJ	NN	_	10	A	10:A	_
+8	an	an	ADP	APPR	_	9	R	9:R	_
+9	Bord	Bord	NOUN	NN	_	10	A	10:A	_
+10	verloren	verlieren	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

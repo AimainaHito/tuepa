@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 134011
+# text = She trained intensively with a pianist for the role .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	trained	train	VERB	VBD	_	0	H	0:H	_
+3	intensively	intensively	ADV	RB	_	2	D	2:D	_
+4	with	with	ADP	IN	_	6	R	6:R	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	pianist	pianist	NOUN	NN	_	2	A	2:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	role	role	NOUN	NN	_	2	A	2:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 673007
+# text = In January 2010 , Carey won the Breakthrough Actress Performance Award for her role in Precious at the Palm Springs International Film Festival .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	January	January	PROPN	NNP	_	6	D	6:D	_
+3	2010	2010	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+6	won	win	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	Breakthrough	Breakthrough	PROPN	NNP	_	9	E	9:E	_
+9	Actress	actress	PROPN	NNP	_	11	E	11:E	_
+10	Performance	performance	PROPN	NNP	_	11	E	11:E	_
+11	Award	Award	PROPN	NNP	_	6	A	6:A	_
+12	for	for	ADP	IN	_	14	R	14:R	_
+13	her	she	PRON	PRP$	_	14	E	14:E	_
+14	role	role	NOUN	NN	_	6	A	6:A	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	Precious	precious	PROPN	NNP	_	14	E	14:E	_
+17	at	at	ADP	IN	_	23	R	23:R	_
+18	the	the	DET	DT	_	23	E	23:E	_
+19	Palm	palm	PROPN	NNP	_	23	E	23:E	_
+20	Springs	Springs	PROPN	NNPS	_	19	Terminal	19:Terminal	_
+21	International	International	PROPN	NNP	_	23	E	23:E	_
+22	Film	film	PROPN	NNP	_	23	E	23:E	_
+23	Festival	Festival	PROPN	NNP	_	6	A	6:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

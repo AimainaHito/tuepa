@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 470013
+# text = After the Lakers defeated the Celtics in six games , Abdul - Jabbar and Johnson , who averaged 18.3 points on .494 shooting , 14.0 assists , and 6.8 rebounds per game in the championship series , said the Finals win was the highlight of their careers .
+1	After	after	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	Lakers	Laker	NOUN	NNS	_	4	A	4:A	_
+4	defeated	defeate	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	Celtics	Celtics	PROPN	NNPS	_	4	A	4:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	six	six	NUM	CD	_	9	E	9:E	_
+9	games	game	NOUN	NNS	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	Abdul	Abdul	PROPN	NNP	_	38	A	38:A|41:A	_
+12	-	-	PUNCT	HYPH	_	11	U	11:U	_
+13	Jabbar	Jabbar	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	and	and	CCONJ	CC	_	11	N	11:N	_
+15	Johnson	Johnson	PROPN	NNP	_	11	C	11:C	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	who	who	PRON	WP	_	18	F	18:F	_
+18	averaged	average	VERB	VBD	_	15	E	15:E	_
+19	18.3	18.3	NUM	CD	_	20	E	20:E	_
+20	points	point	NOUN	NNS	_	23	E	23:E	_
+21	on	on	ADP	IN	_	23	R	23:R	_
+22	.494	.494	NUM	CD	_	23	E	23:E	_
+23	shooting	shooting	NOUN	NN	_	18	A	18:A	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	14.0	14.0	NUM	CD	_	26	E	26:E	_
+26	assists	assist	NOUN	NNS	_	23	C	23:C	_
+27	,	,	PUNCT	,	_	23	U	23:U	_
+28	and	and	CCONJ	CC	_	23	N	23:N	_
+29	6.8	6.8	NUM	CD	_	30	E	30:E	_
+30	rebounds	rebound	NOUN	NNS	_	23	C	23:C	_
+31	per	per	ADP	IN	_	32	R	32:R	_
+32	game	game	NOUN	NN	_	23	E	23:E	_
+33	in	in	ADP	IN	_	35	R	35:R	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	championship	championship	NOUN	NN	_	18	A	18:A	_
+36	series	series	NOUN	NNS	_	35	E	35:E	_
+37	,	,	PUNCT	,	_	38	U	38:U	_
+38	said	say	VERB	VBD	_	4	H	4:H	_
+39	the	the	DET	DT	_	41	E	41:E	_
+40	Finals	Finals	NOUN	NNS	_	41	E	41:E	_
+41	win	win	NOUN	NN	_	42	A	42:A	_
+42	was	be	AUX	VBD	_	38	A	38:A	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	highlight	highlight	NOUN	NN	_	42	A	42:A	_
+45	of	of	ADP	IN	_	47	R	47:R	_
+46	their	they	PRON	PRP$	_	47	A	47:A	_
+47	careers	career	NOUN	NNS	_	44	E	44:E	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

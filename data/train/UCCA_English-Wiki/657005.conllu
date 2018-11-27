@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 657005
+# text = This musical change became evident with the release of Butterfly ( 1997 ) , at which time Carey had separated from Mottola .
+1	This	this	DET	DT	_	3	E	3:E	_
+2	musical	musical	ADJ	JJ	_	3	E	3:E	_
+3	change	change	NOUN	NN	_	5	A	5:A	_
+4	became	become	VERB	VBD	_	5	D	5:D	_
+5	evident	evident	ADJ	JJ	_	0	H	0:H	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	release	release	NOUN	NN	_	5	A	5:A	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	Butterfly	butterfly	PROPN	NNP	_	8	A	8:A	_
+11	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+12	1997	1997	NUM	CD	_	10	E	10:E	_
+13	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	at	at	ADP	IN	_	17	R	17:R	_
+16	which	which	DET	WDT	_	17	F	17:F	_
+17	time	time	NOUN	NN	_	5	L	5:L	_
+18	Carey	Carey	PROPN	NNP	_	20	A	20:A	_
+19	had	have	AUX	VBD	_	20	F	20:F	_
+20	separated	separate	VERB	VBN	_	5	H	5:H	_
+21	from	from	ADP	IN	_	22	R	22:R	_
+22	Mottola	Mottola	PROPN	NNP	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

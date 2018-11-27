@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 611009
+# text = As of 2013 , McCartney remains one of the world 's top draws .
+1	As	as	ADP	IN	_	3	R	3:R	_
+2	of	of	ADP	IN	_	1	Terminal	1:Terminal	_
+3	2013	2013	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	McCartney	McCartney	PROPN	NNP	_	6	A	6:A	_
+6	remains	remain	VERB	VBZ	_	0	H	0:H	_
+7	one	one	NUM	CD	_	13	E	13:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	world	world	NOUN	NN	_	13	E	13:E	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	top	top	ADJ	JJ	_	13	E	13:E	_
+13	draws	draw	NOUN	NNS	_	6	A	6:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

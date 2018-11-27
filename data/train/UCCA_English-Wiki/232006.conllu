@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 232006
+# text = Chan voiced the character of Shang in the Chinese release of the Walt Disney animated feature , Mulan ( 1998 ) . He also performed the song " I 'll Make a Man Out of You " , for the film 's soundtrack .
+1	Chan	Chan	PROPN	NNP	_	2	A	2:A	_
+2	voiced	voice	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	character	character	NOUN	NN	_	6	E	6:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	Shang	Shang	PROPN	NNP	_	2	A	2:A	_
+7	in	in	ADP	IN	_	18	R	18:R	_
+8	the	the	DET	DT	_	18	E	18:E	_
+9	Chinese	chinese	ADJ	JJ	_	10	E	10:E	_
+10	release	release	NOUN	NN	_	18	E	18:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	Walt	Walt	PROPN	NNP	_	16	E	16:E	_
+14	Disney	Disney	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	animated	animate	VERB	VBD	_	16	E	16:E	_
+16	feature	feature	NOUN	NN	_	18	E	18:E	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	Mulan	Mulan	PROPN	NNP	_	2	A	2:A	_
+19	(	(	PUNCT	-LRB-	_	18	U	18:U	_
+20	1998	1998	NUM	CD	_	18	E	18:E	_
+21	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+22	.	.	PUNCT	.	_	2	U	2:U	_
+23	He	he	PRON	PRP	_	25	A	25:A	_
+24	also	also	ADV	RB	_	25	D	25:D	_
+25	performed	perform	VERB	VBD	_	2	H	2:H	_
+26	the	the	DET	DT	_	29	E	29:E	_
+27	song	song	NOUN	NN	_	29	E	29:E	_
+28	"	"	PUNCT	``	_	29	U	29:U	_
+29	I	I	PRON	PRP	_	25	A	25:A	_
+30	'll	will	AUX	MD	_	29	Terminal	29:Terminal	_
+31	Make	make	VERB	VB	_	29	Terminal	29:Terminal	_
+32	a	a	DET	DT	_	29	Terminal	29:Terminal	_
+33	Man	man	NOUN	NN	_	29	Terminal	29:Terminal	_
+34	Out	out	ADP	IN	_	29	Terminal	29:Terminal	_
+35	of	of	ADP	IN	_	29	Terminal	29:Terminal	_
+36	You	you	PRON	PRP	_	29	Terminal	29:Terminal	_
+37	"	"	PUNCT	''	_	25	U	25:U	_
+38	,	,	PUNCT	,	_	25	U	25:U	_
+39	for	for	ADP	IN	_	43	E	43:E	_
+40	the	the	DET	DT	_	43	E	43:E	_
+41	film	film	NOUN	NN	_	43	E	43:E	_
+42	's	's	PART	POS	_	41	R	41:R	_
+43	soundtrack	soundtrack	NOUN	NN	_	25	A	25:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

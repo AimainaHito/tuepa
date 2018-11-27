@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 634006
+# text = The Beatles achieved mainstream success in the UK during the beginning of 1963 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Beatles	Beatles	PROPN	NNPS	_	5	A	5:A	_
+3	achieved	achieve	VERB	VBD	_	5	D	5:D	_
+4	mainstream	mainstream	ADJ	JJ	_	5	A	5:A	_
+5	success	success	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	UK	UK	PROPN	NNP	_	5	A	5:A	_
+9	during	during	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	beginning	beginning	NOUN	NN	_	13	E	13:E	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	1963	1963	NUM	CD	_	5	D	5:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

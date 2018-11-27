@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 675007
+# text = In November 2011 , Carey was included in the remix to the mixtape single " Warning " by Uncle Murda ; the remix also features 50 Cent and Young Jeezy .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	November	November	PROPN	NNP	_	7	D	7:D	_
+3	2011	2011	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Carey	Carey	PROPN	NNP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	included	include	VERB	VBN	_	0	H	0:H	_
+8	in	in	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	remix	remix	NOUN	NN	_	7	A	7:A	_
+11	to	to	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	mixtape	mixtape	NOUN	NN	_	14	E	14:E	_
+14	single	single	ADJ	JJ	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	Warning	warning	NOUN	NN	_	10	E	10:E	_
+17	"	"	PUNCT	''	_	16	U	16:U	_
+18	by	by	ADP	IN	_	19	R	19:R	_
+19	Uncle	uncle	NOUN	NN	_	16	E	16:E	_
+20	Murda	Murda	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	;	;	PUNCT	,	_	7	U	7:U	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	remix	remix	NOUN	NN	_	25	A	25:A	_
+24	also	also	ADV	RB	_	25	D	25:D	_
+25	features	feature	VERB	VBZ	_	7	H	7:H	_
+26	50	50	NUM	CD	_	25	A	25:A	_
+27	Cent	cent	NOUN	NN	_	26	Terminal	26:Terminal	_
+28	and	and	CCONJ	CC	_	26	N	26:N	_
+29	Young	young	ADJ	JJ	_	26	C	26:C	_
+30	Jeezy	Jeezy	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	26	U	26:U	_
+

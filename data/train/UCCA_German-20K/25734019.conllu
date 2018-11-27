@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25734019
+# text = Wir waren auf einer ersten Hochfläche angelangt , wo andere Überraschungen meiner harrten .
+1	Wir	wir	PRON	NE	_	7	A	7:A	_
+2	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+3	auf	auf	ADP	APPR	_	6	R	6:R	_
+4	einer	ein	DET	ART	_	6	E	6:E	_
+5	ersten	erst	ADJ	ADJA	_	6	E	6:E	_
+6	Hochfläche	Hochfläche	NOUN	NN	_	7	A	7:A	_
+7	angelangt	angelangen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	wo	wo	ADV	ADJA	_	13	R	13:R	_
+10	andere	ander	PRON	ADJA	_	11	E	11:E	_
+11	Überraschungen	Überraschung	NOUN	NN	_	13	A	13:A	_
+12	meiner	ich	PRON	PPOSAT	_	13	A	13:A	_
+13	harrten	harren	VERB	VVFIN	_	6	E	6:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

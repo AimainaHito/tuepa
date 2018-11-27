@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25759024
+# text = Der Pottfisch ist ein häßliches Tier von üblem Körperbau , sozusagen auf der ganzen linken Seite mangelhaft , so dass er auch nur mit dem rechten Auge sieht .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Pottfisch	Pottfisch	NOUN	NE	_	0	C	0:C|17:A|9:A	_
+3	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+4	ein	ein	DET	ART	_	6	E	6:E	_
+5	häßliches	häßlich	ADJ	ADJA	_	6	E	6:E	_
+6	Tier	Tier	NOUN	NN	_	3	A	3:A	_
+7	von	von	ADP	NN	_	9	R	9:R	_
+8	üblem	üblem	ADJ	ADJA	_	9	D	9:D	_
+9	Körperbau	Körperbau	NOUN	NN	_	3	H	3:H	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	sozusagen	sozusagen	VERB	ADV	_	17	D	17:D	_
+12	auf	auf	ADP	APPR	_	16	R	16:R	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	ganzen	ganz	ADJ	ADJA	_	16	E	16:E	_
+15	linken	link	ADJ	ADJA	_	16	E	16:E	_
+16	Seite	Seite	NOUN	NN	_	17	A	17:A	_
+17	mangelhaft	mangelhaft	ADJ	ADJD	_	3	H	3:H	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	so	so	ADV	ADV	_	3	L	3:L	_
+20	dass	dass	SCONJ	KOUS	_	19	Terminal	19:Terminal	_
+21	er	er	PRON	PPER	_	28	A	28:A	_
+22	auch	auch	ADV	ADV	_	3	L	3:L	_
+23	nur	nur	ADV	NE	_	28	D	28:D	_
+24	mit	mit	ADP	APPR	_	27	R	27:R	_
+25	dem	der	DET	ART	_	27	E	27:E	_
+26	rechten	recht	ADJ	ADJA	_	27	E	27:E	_
+27	Auge	Auge	NOUN	NN	_	28	A	28:A	_
+28	sieht	sehen	VERB	VVFIN	_	3	H	3:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

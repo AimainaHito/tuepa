@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25737001
+# text = Also hatte mich das seltsamste Geschick dahin geleitet , dass ich auf einem der Berge dieses Kontinents stand , die Ruinen aus der Urzeit der geologischen Epochen mit Händen zu berühren imstande war !
+1	Also	also	ADV	ADV	_	8	L	8:L	_
+2	hatte	haben	VERB	VAFIN	_	8	F	8:F	_
+3	mich	ich	PRON	PPER	_	8	A	8:A	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	seltsamste	seltsam	ADJ	ADJA	_	6	E	6:E	_
+6	Geschick	Geschick	NOUN	NN	_	8	A	8:A	_
+7	dahin	dahin	ADV	PAV	_	18	F	18:F	_
+8	geleitet	geleiten|leiten	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	dass	dass	SCONJ	KOUS	_	18	L	18:L	_
+11	ich	ich	PRON	PPER	_	18	A	18:A|31:A	_
+12	auf	auf	ADP	APPR	_	15	R	15:R	_
+13	einem	ein	PRON	PIS	_	15	E	15:E	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Berge	Berg	NOUN	NN	_	18	A	18:A	_
+16	dieses	dies	PRON	PDAT	_	17	R	17:R	_
+17	Kontinents	Kontinent	NOUN	NN	_	15	E	15:E	_
+18	stand	stehen	VERB	VVFIN	_	8	A	8:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Ruinen	Ruine	NOUN	NN	_	31	A	31:A	_
+22	aus	aus	ADP	APPR	_	24	R	24:R	_
+23	der	der	DET	ART	_	24	E	24:E	_
+24	Urzeit	Urzeit	NOUN	NN	_	21	E	21:E	_
+25	der	der	DET	ART	_	27	R	27:R	_
+26	geologischen	geologisch	ADJ	ADJA	_	27	E	27:E	_
+27	Epochen	Epoche	NOUN	NN	_	24	E	24:E	_
+28	mit	mit	ADP	APPR	_	29	R	29:R	_
+29	Händen	Hand	NOUN	NN	_	31	A	31:A	_
+30	zu	zu	PART	VVINF	_	31	F	31:F	_
+31	berühren	berühren	VERB	VVINF	_	18	H	18:H	_
+32	imstande	imstand	ADJ	NE	_	31	D	31:D	_
+33	war	sein	AUX	NE	_	31	F	31:F	_
+34	!	!	PUNCT	$.	_	31	U	31:U	_
+

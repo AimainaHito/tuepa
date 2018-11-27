@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 689004
+# text = Dylan 's parents , Abram Zimmerman and Beatrice " Beatty " Stone , were part of the area 's small but close - knit Jewish community .
+1	Dylan	Dylan	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	parents	parent	NOUN	NNS	_	15	A	15:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Abram	Abram	PROPN	NNP	_	3	E	3:E	_
+6	Zimmerman	Zimmerman	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	and	and	CCONJ	CC	_	5	N	5:N	_
+8	Beatrice	Beatrice	PROPN	NNP	_	5	C	5:C	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	Beatty	Beatty	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	"	"	PUNCT	''	_	8	U	8:U	_
+12	Stone	stone	PROPN	NNP	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	,	_	15	U	15:U	_
+14	were	be	AUX	VBD	_	15	F	15:F	_
+15	part	part	NOUN	NN	_	0	H	0:H	_
+16	of	of	ADP	IN	_	26	R	26:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	area	area	NOUN	NN	_	26	E	26:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	small	small	ADJ	JJ	_	26	E	26:E	_
+21	but	but	CCONJ	CC	_	20	R	20:R	_
+22	close	close	ADJ	JJ	_	20	C	20:C	_
+23	-	-	PUNCT	HYPH	_	22	U	22:U	_
+24	knit	knit	NOUN	NN	_	22	Terminal	22:Terminal	_
+25	Jewish	jewish	ADJ	JJ	_	26	E	26:E	_
+26	community	community	NOUN	NN	_	15	A	15:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

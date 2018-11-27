@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 246004
+# text = He also published his first novel in 1996 , The Hottest State , about a love affair between a young actor and a singer .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	L	3:L	_
+3	published	publish	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	first	first	ADJ	JJ	_	6	E	6:E	_
+6	novel	novel	NOUN	NN	_	10	E	10:E	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	1996	1996	NUM	CD	_	3	D	3:D	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	The	the	DET	DT	_	3	A	3:A	_
+11	Hottest	Hottest	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	State	State	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	about	about	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	love	love	NOUN	NN	_	17	E	17:E	_
+17	affair	affair	NOUN	NN	_	10	E	10:E	_
+18	between	between	ADP	IN	_	21	N	21:N	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	young	young	ADJ	JJ	_	21	E	21:E	_
+21	actor	actor	NOUN	NN	_	17	A	17:A	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	singer	singer	NOUN	NN	_	21	C	21:C	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

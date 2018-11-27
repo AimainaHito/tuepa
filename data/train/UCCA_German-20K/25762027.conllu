@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25762027
+# text = Unterm 60 . Breitengrad hörte jedes Fahrwasser auf .
+1	Unterm	Unterm	NOUN	NN	_	4	R	4:R	_
+2	60	60	NUM	CARD	_	4	E	4:E	_
+3	.	.	PUNCT	$.	_	4	U	4:U	_
+4	Breitengrad	Breitengrad	NOUN	NE	_	5	A	5:A	_
+5	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+6	jedes	jed	PRON	PIAT	_	7	E	7:E	_
+7	Fahrwasser	Fahrwasser	NOUN	NN	_	5	A	5:A	_
+8	auf	auf	ADP	PTKVZ	_	5	Terminal	5:Terminal	_
+9	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25797014
+# text = Ned und Conseil hatten während der letzten Stunden dieses Todeskampfs mein Dasein verlängert .
+1	Ned	Ned	PROPN	NE	_	13	A	13:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Conseil	Conseil	PROPN	NE	_	1	C	1:C	_
+4	hatten	haben	AUX	VAFIN	_	13	F	13:F	_
+5	während	während	ADP	NN	_	10	R	10:R	_
+6	der	der	DET	ART	_	8	R	8:R	_
+7	letzten	letzt	ADJ	ADJA	_	8	E	8:E	_
+8	Stunden	Stunde|Stunden	NOUN	NN	_	10	E	10:E	_
+9	dieses	dies	PRON	PDAT	_	10	R	10:R	_
+10	Todeskampfs	Todeskampf	NOUN	NN	_	13	A	13:A	_
+11	mein	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Dasein	Dasein	NOUN	NN	_	13	A	13:A	_
+13	verlängert	verlängern	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

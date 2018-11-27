@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25684013
+# text = Kapitän Nemo trat in sie ein ; wir nach ihm .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	5	R	5:R	_
+5	sie	sie	PRON	ADV	_	3	A	3:A	_
+6	ein	ein	DET	PTKVZ	_	3	Terminal	3:Terminal	_
+7	;	;	PUNCT	$.	_	8	U	8:U	_
+8	wir	wir	PRON	NE	_	3	H	3:H	_
+9	nach	nach	ADP	CARD	_	10	R	10:R	_
+10	ihm	er	PRON	PPER	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

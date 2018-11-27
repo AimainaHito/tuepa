@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 206012
+# text = In 1967 , director Mike Nichols cast Hoffman in The Graduate , his first major role , for which he received an Academy Award nomination for his performance .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	1967	1967	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	director	director	NOUN	NN	_	5	E	5:E	_
+5	Mike	Mike	PROPN	NNP	_	7	A	7:A	_
+6	Nichols	Nichols	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	cast	cast	VERB	VBD	_	0	H	0:H	_
+8	Hoffman	Hoffman	PROPN	NNP	_	7	A	7:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	The	the	DET	DT	_	7	A	7:A	_
+11	Graduate	Graduate	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	his	he	PRON	PRP$	_	16	E	16:E	_
+14	first	first	ADJ	JJ	_	16	E	16:E	_
+15	major	major	ADJ	JJ	_	16	E	16:E	_
+16	role	role	NOUN	NN	_	10	E	10:E	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	for	for	ADP	IN	_	21	A	21:A	_
+19	which	which	PRON	WDT	_	21	F	21:F	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	received	receive	VERB	VBD	_	16	E	16:E	_
+22	an	a	DET	DT	_	25	E	25:E	_
+23	Academy	Academy	PROPN	NNP	_	24	E	24:E	_
+24	Award	Award	PROPN	NNP	_	25	E	25:E	_
+25	nomination	nomination	NOUN	NN	_	21	A	21:A	_
+26	for	for	ADP	IN	_	28	R	28:R	_
+27	his	he	PRON	PRP$	_	28	A	28:A	_
+28	performance	performance	NOUN	NN	_	25	E	25:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

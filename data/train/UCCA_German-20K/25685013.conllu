@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25685013
+# text = Ich begriff die Absicht des Kapitäns .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	begriff	begreifen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Absicht	Absicht	NOUN	NN	_	2	A	2:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Kapitäns	Kapitän	NOUN	NN	_	4	A	4:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 711013
+# text = No Direction Home , Martin Scorsese 's acclaimed film biography of Dylan , was first broadcast on September 26 - 27 , 2005 , on BBC Two in the UK and PBS in the US .
+1	No	no	DET	DT	_	16	A	16:A	_
+2	Direction	direction	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	Home	Home	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	Martin	Martin	PROPN	NNP	_	10	E	10:E	_
+6	Scorsese	Scorsese	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	acclaimed	acclaim	VERB	VBN	_	10	E	10:E	_
+9	film	film	NOUN	NN	_	10	E	10:E	_
+10	biography	biography	NOUN	NN	_	1	E	1:E	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	Dylan	Dylan	PROPN	NNP	_	10	E	10:E	_
+13	,	,	PUNCT	,	_	16	U	16:U	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	first	first	ADV	RB	_	16	D	16:D	_
+16	broadcast	broadcast	ADJ	JJ	_	0	H	0:H	_
+17	on	on	ADP	IN	_	23	R	23:R	_
+18	September	September	PROPN	NNP	_	23	E	23:E	_
+19	26	26	NUM	CD	_	23	E	23:E	_
+20	-	-	SYM	SYM	_	19	U	19:U	_
+21	27	27	NUM	CD	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	2005	2005	NUM	CD	_	16	D	16:D	_
+24	,	,	PUNCT	,	_	16	U	16:U	_
+25	on	on	ADP	IN	_	30	R	30:R	_
+26	BBC	BBC	PROPN	NNP	_	30	E	30:E	_
+27	Two	two	NUM	CD	_	26	Terminal	26:Terminal	_
+28	in	in	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	UK	UK	PROPN	NNP	_	16	A	16:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	PBS	PBS	PROPN	NNP	_	35	E	35:E	_
+33	in	in	ADP	IN	_	35	R	35:R	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	US	US	PROPN	NNP	_	30	C	30:C	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

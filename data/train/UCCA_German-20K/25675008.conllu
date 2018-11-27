@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25675008
+# text = Ich sah zwischen den Zeilen die fürchterlichen Kinn backen aufgesperrt .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	zwischen	zwischen	ADP	ADJA	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Zeilen	Teil|Zeilen	NOUN	NN	_	2	A	2:A	_
+6	die	der	DET	ART	_	9	R	9:R	_
+7	fürchterlichen	fürchterlich	ADJ	ADJA	_	9	E	9:E	_
+8	Kinn	Kinn	NOUN	NN	_	9	E	9:E	_
+9	backen	backen	VERB	VVINF	_	10	A	10:A	_
+10	aufgesperrt	aufgesperrt	ADV	VVPP	_	2	A	2:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

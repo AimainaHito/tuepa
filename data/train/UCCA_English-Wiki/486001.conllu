@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 486001
+# text = In school , he mimicked his teachers as a means to get out of trouble .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	school	school	NOUN	NN	_	5	A	5:A	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A|15:A	_
+5	mimicked	mimick	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	teachers	teacher	NOUN	NNS	_	5	A	5:A	_
+8	as	as	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	means	means	NOUN	NN	_	5	A	5:A	_
+11	to	to	PART	TO	_	15	R	15:R	_
+12	get	get	VERB	VB	_	13	E	13:E	_
+13	out	out	ADP	IN	_	15	E	15:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	trouble	trouble	NOUN	NN	_	10	E	10:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

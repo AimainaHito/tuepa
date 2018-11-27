@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25626007
+# text = Überreich beladen kamen wir beim Boot an .
+1	Überreich	Überreich	ADJ	NE	_	2	D	2:D	_
+2	beladen	beladen	VERB	NN	_	3	A	3:A	_
+3	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	wir	wir	PRON	NE	_	3	A	3:A|2:A	_
+5	beim	beim	ADV	NE	_	6	R	6:R	_
+6	Boot	Boot	NOUN	NN	_	3	A	3:A	_
+7	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+8	.	.	PUNCT	$.	_	3	U	3:U	_
+

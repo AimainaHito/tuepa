@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 141002
+# text = The movie was poorly received , but the Kansas City Film Critics named Hepburn 's performance the best from an actress that year .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	5	A	5:A	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	poorly	poorly	ADV	RB	_	5	D	5:D	_
+5	received	receive	VERB	VBN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	but	but	CCONJ	CC	_	5	L	5:L	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	Kansas	Kansas	PROPN	NNP	_	10	E	10:E	_
+10	City	city	PROPN	NNP	_	12	E	12:E	_
+11	Film	film	PROPN	NNP	_	12	E	12:E	_
+12	Critics	critics	PROPN	NNPS	_	13	A	13:A	_
+13	named	name	VERB	VBN	_	5	H	5:H	_
+14	Hepburn	Hepburn	PROPN	NNP	_	16	A	16:A	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	performance	performance	NOUN	NN	_	13	A	13:A|18:A	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	best	best	ADJ	JJS	_	13	A	13:A	_
+19	from	from	ADP	IN	_	21	R	21:R	_
+20	an	a	DET	DT	_	21	E	21:E	_
+21	actress	actress	NOUN	NN	_	18	A	18:A	_
+22	that	that	DET	DT	_	23	E	23:E	_
+23	year	year	NOUN	NN	_	18	D	18:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

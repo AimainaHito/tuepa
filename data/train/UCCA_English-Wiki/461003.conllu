@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 461003
+# text = " Can you imagine I , who just finished a whole series on America and had been an anchorperson for an American broadcast ... could you imagine if I had failed ? " he asked . " It would have been horrendous .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Can	can	AUX	MD	_	4	F	4:F	_
+3	you	you	PRON	PRP	_	4	A	4:A	_
+4	imagine	imagine	VERB	VB	_	35	A	35:A	_
+5	I	I	PRON	PRP	_	4	H	4:H|17:A|9:A	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	who	who	PRON	WP	_	9	R	9:R	_
+8	just	just	ADV	RB	_	9	D	9:D	_
+9	finished	finish	VERB	VBD	_	4	H	4:H	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	whole	whole	ADJ	JJ	_	12	E	12:E	_
+12	series	series	NOUN	NN	_	9	A	9:A	_
+13	on	on	ADP	IN	_	14	R	14:R	_
+14	America	America	PROPN	NNP	_	12	E	12:E	_
+15	and	and	CCONJ	CC	_	4	L	4:L	_
+16	had	have	AUX	VBD	_	17	F	17:F	_
+17	been	be	AUX	VBN	_	4	H	4:H	_
+18	an	a	DET	DT	_	19	E	19:E	_
+19	anchorperson	anchorperson	NOUN	NN	_	17	A	17:A	_
+20	for	for	ADP	IN	_	23	R	23:R	_
+21	an	a	DET	DT	_	23	E	23:E	_
+22	American	american	ADJ	JJ	_	23	E	23:E	_
+23	broadcast	broadcast	NOUN	NN	_	19	E	19:E	_
+24	...	...	PUNCT	,	_	4	U	4:U	_
+25	could	could	AUX	MD	_	27	F	27:F	_
+26	you	you	PRON	PRP	_	27	A	27:A	_
+27	imagine	imagine	VERB	VB	_	4	H	4:H	_
+28	if	if	SCONJ	IN	_	31	R	31:R	_
+29	I	I	PRON	PRP	_	31	A	31:A	_
+30	had	have	AUX	VBD	_	31	F	31:F	_
+31	failed	fail	VERB	VBN	_	27	A	27:A	_
+32	?	?	PUNCT	.	_	35	U	35:U	_
+33	"	"	PUNCT	''	_	35	U	35:U	_
+34	he	he	PRON	PRP	_	35	A	35:A	_
+35	asked	ask	VERB	VBD	_	0	H	0:H	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+37	"	"	PUNCT	''	_	35	U	35:U	_
+38	It	it	PRON	PRP	_	42	A	42:A	_
+39	would	would	AUX	MD	_	42	F	42:F	_
+40	have	have	AUX	VB	_	41	E	41:E	_
+41	been	be	AUX	VBN	_	42	E	42:E	_
+42	horrendous	horrendous	ADJ	JJ	_	4	H	4:H	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

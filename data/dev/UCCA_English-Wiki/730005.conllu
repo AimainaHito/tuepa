@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 730005
+# text = Sarajevo 's regional government named Jolie an honorary citizen of the capital for raising awareness of the war .
+1	Sarajevo	Sarajevo	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	regional	regional	ADJ	JJ	_	4	E	4:E	_
+4	government	government	NOUN	NN	_	5	A	5:A	_
+5	named	name	VERB	VBN	_	0	H	0:H	_
+6	Jolie	Jolie	PROPN	NNP	_	5	A	5:A|9:A|14:A	_
+7	an	a	DET	DT	_	9	E	9:E	_
+8	honorary	honorary	ADJ	JJ	_	9	E	9:E	_
+9	citizen	citizen	NOUN	NN	_	5	A	5:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	capital	capital	NOUN	NN	_	9	E	9:E	_
+13	for	for	SCONJ	IN	_	5	L	5:L	_
+14	raising	raise	VERB	VBG	_	5	H	5:H	_
+15	awareness	awareness	NOUN	NN	_	14	A	14:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	war	war	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

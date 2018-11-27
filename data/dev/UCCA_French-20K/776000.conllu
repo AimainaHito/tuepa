@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 776000
+# text = « Conseil ! » criai - je une troisième fois .
+1	«	«	PUNCT	_	_	5	U	5:U	_
+2	Conseil	conseil	NOUN	_	_	5	A	5:A	_
+3	!	!	PUNCT	_	_	5	U	5:U	_
+4	»	»	PUNCT	_	_	5	U	5:U	_
+5	criai	criai	NOUN	_	_	0	H	0:H	_
+6	-	-	PUNCT	_	_	5	U	5:U	_
+7	je	je	PRON	_	_	5	A	5:A	_
+8	une	un	DET	_	_	10	E	10:E	_
+9	troisième	troisième	ADJ	_	_	10	E	10:E	_
+10	fois	fois	NOUN	_	_	5	D	5:D	_
+11	.	.	PUNCT	_	_	10	U	10:U	_
+

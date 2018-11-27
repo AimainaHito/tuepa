@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25668001
+# text = Ich bemerkte einige Arten , die ich bisher noch nicht zu beobachten Gelegenheit hatte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	einige	einige	PRON	PIAT	_	4	E	4:E	_
+4	Arten	Art	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	14	R	14:R	_
+7	ich	ich	PRON	PPER	_	14	A	14:A	_
+8	bisher	bisher	ADV	ADV	_	14	D	14:D	_
+9	noch	noch	ADV	CARD	_	12	D	12:D	_
+10	nicht	nicht	PART	CARD	_	12	D	12:D	_
+11	zu	zu	PART	NN	_	12	F	12:F	_
+12	beobachten	beobachten	VERB	ADJA	_	14	A	14:A	_
+13	Gelegenheit	Gelegenheit	NOUN	NN	_	12	A	12:A	_
+14	hatte	haben	VERB	VAFIN	_	4	E	4:E	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

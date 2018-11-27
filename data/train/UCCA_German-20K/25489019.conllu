@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25489019
+# text = Der Fußboden war mit einer dichten Matte von neuseeländischem Flachs belegt , so dass man die Tritte nicht hörte .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Fußboden	Fußboden	NOUN	NN	_	11	A	11:A	_
+3	war	sein	AUX	ADV	_	11	F	11:F	_
+4	mit	mit	ADP	APPR	_	7	R	7:R	_
+5	einer	ein	DET	ART	_	7	E	7:E	_
+6	dichten	dicht	ADJ	ADJA	_	7	E	7:E	_
+7	Matte	Matte	NOUN	NN	_	11	A	11:A	_
+8	von	von	ADP	NE	_	10	R	10:R	_
+9	neuseeländischem	neuseeländischem	ADJ	ADJA	_	10	E	10:E	_
+10	Flachs	Flachs	NOUN	NN	_	7	E	7:E	_
+11	belegt	belegen	VERB	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	so	so	ADV	ADV	_	11	L	11:L	_
+14	dass	dass	SCONJ	KOUS	_	13	Terminal	13:Terminal	_
+15	man	man	PRON	PIS	_	19	A	19:A	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Tritte	Tritt	NOUN	NN	_	19	A	19:A	_
+18	nicht	nicht	PART	XY	_	19	D	19:D	_
+19	hörte	hörn	VERB	VVFIN	_	11	H	11:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25738001
+# text = Aber neben der Beobachtung der Seefauna verabsäumte ich nicht , die ausgedehnten Ebenen der Atlantis zu untersuchen .
+1	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+2	neben	neben	ADP	TRUNC	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Beobachtung	Beobachtung	NOUN	NN	_	7	A	7:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Seefauna	Seefauna	PROPN	NE	_	4	A	4:A	_
+7	verabsäumte	verabsäumen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A|4:A|17:A	_
+9	nicht	nicht	PART	XY	_	7	D	7:D	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	die	der	DET	PRELS	_	13	E	13:E	_
+12	ausgedehnten	ausgedehnt	ADJ	ADJA	_	13	E	13:E	_
+13	Ebenen	Ebene	NOUN	NN	_	15	E	15:E	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Atlantis	Atlantis	PROPN	NN	_	17	A	17:A	_
+16	zu	zu	PART	NN	_	17	F	17:F	_
+17	untersuchen	untersuchen	VERB	ADJA	_	7	A	7:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

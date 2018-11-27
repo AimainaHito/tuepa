@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25581023
+# text = Wollte er in Beziehung auf uns seine Absicht ändern ?
+1	Wollte	wollen	AUX	VMFIN	_	9	D	9:D	_
+2	er	er	PRON	PPER	_	9	A	9:A	_
+3	in	in	ADP	APPR	_	6	R	6:R	_
+4	Beziehung	Beziehung	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	auf	auf	ADP	APPR	_	3	Terminal	3:Terminal	_
+6	uns	wir	PRON	NE	_	9	A	9:A	_
+7	seine	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Absicht	Absicht	NOUN	NN	_	9	A	9:A	_
+9	ändern	ändern	VERB	VVINF	_	0	H	0:H	_
+10	?	?	PUNCT	$.	_	9	U	9:U	_
+

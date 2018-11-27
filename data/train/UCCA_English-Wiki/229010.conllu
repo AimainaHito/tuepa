@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 229010
+# text = In 2009 , Chan received an honorary doctorate from the University of Cambodia .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2009	2009	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Chan	Chan	PROPN	NNP	_	5	A	5:A	_
+5	received	receive	VERB	VBD	_	0	H	0:H	_
+6	an	a	DET	DT	_	8	E	8:E	_
+7	honorary	honorary	ADJ	JJ	_	8	E	8:E	_
+8	doctorate	doctorate	NOUN	NN	_	5	A	5:A	_
+9	from	from	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	University	University	PROPN	NNP	_	5	A	5:A	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	Cambodia	Cambodia	PROPN	NNP	_	11	E	11:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

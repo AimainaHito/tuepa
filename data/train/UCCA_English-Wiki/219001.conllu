@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 219001
+# text = Her next role was in a leading role opposite Ryan Gosling in the romantic drama All Good Things ( 2010 ) in which she portrays a woman from a run - down neighborhood who goes missing .
+1	Her	she	PRON	PRP$	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	role	role	NOUN	NN	_	8	A	8:A	_
+4	was	be	AUX	VBD	_	8	F	8:F	_
+5	in	in	ADP	IN	_	8	E	8:E	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	leading	lead	VERB	VBG	_	8	E	8:E	_
+8	role	role	NOUN	NN	_	0	H	0:H	_
+9	opposite	opposite	ADP	IN	_	10	R	10:R	_
+10	Ryan	Ryan	PROPN	NNP	_	8	A	8:A	_
+11	Gosling	Gosl	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	in	in	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	romantic	romantic	ADJ	JJ	_	15	E	15:E	_
+15	drama	drama	NOUN	NN	_	16	E	16:E	_
+16	All	all	DET	DT	_	8	A	8:A	_
+17	Good	good	ADJ	JJ	_	16	Terminal	16:Terminal	_
+18	Things	thing	NOUN	NNS	_	16	Terminal	16:Terminal	_
+19	(	(	PUNCT	-LRB-	_	16	U	16:U	_
+20	2010	2010	NUM	CD	_	16	E	16:E	_
+21	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+22	in	in	ADP	IN	_	8	L	8:L	_
+23	which	which	PRON	WDT	_	22	Terminal	22:Terminal	_
+24	she	she	PRON	PRP	_	25	A	25:A	_
+25	portrays	portray	VERB	VBZ	_	8	H	8:H	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	woman	woman	NOUN	NN	_	25	A	25:A	_
+28	from	from	ADP	IN	_	33	R	33:R	_
+29	a	a	DET	DT	_	33	E	33:E	_
+30	run	run	NOUN	NN	_	33	E	33:E	_
+31	-	-	PUNCT	HYPH	_	30	U	30:U	_
+32	down	down	NOUN	NN	_	30	Terminal	30:Terminal	_
+33	neighborhood	neighborhood	NOUN	NN	_	27	E	27:E	_
+34	who	who	PRON	WP	_	36	F	36:F	_
+35	goes	go	VERB	VBZ	_	36	D	36:D	_
+36	missing	missing	ADJ	JJ	_	27	E	27:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

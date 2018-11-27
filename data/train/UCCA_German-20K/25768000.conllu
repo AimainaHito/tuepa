@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25768000
+# text = » Sonst keine ? « versetzte ich . » Füllen wir die großen Behälter der ›Nautilus‹ , und sie werden uns mit allem nötigen Sauerstoff versehen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Sonst	sonst	ADV	NN	_	6	A	6:A	_
+3	keine	kein	PRON	PIAT	_	2	D	2:D	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	Füllen	füllen	NOUN	NE	_	2	H	2:H	_
+11	wir	wir	PRON	NE	_	10	A	10:A	_
+12	die	der	DET	ART	_	14	E	14:E	_
+13	großen	groß	ADJ	ADJA	_	14	E	14:E	_
+14	Behälter	Behälter	NOUN	NN	_	10	A	10:A	_
+15	der	der	DET	ART	_	16	R	16:R	_
+16	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	E	14:E	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	und	und	CCONJ	NE	_	2	L	2:L	_
+19	sie	sie	PRON	ADV	_	26	A	26:A	_
+20	werden	werden	AUX	VVFIN	_	26	F	26:F	_
+21	uns	wir	PRON	NE	_	26	A	26:A	_
+22	mit	mit	ADP	APPR	_	25	R	25:R	_
+23	allem	alle	PRON	PIS	_	25	E	25:E	_
+24	nötigen	nötig	ADJ	ADJA	_	25	E	25:E	_
+25	Sauerstoff	Sauerstoff	NOUN	NN	_	26	A	26:A	_
+26	versehen	versehen	VERB	VVPP	_	2	H	2:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

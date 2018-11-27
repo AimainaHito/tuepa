@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 471003
+# text = The Lakers met the Celtics for the third time in the NBA Finals , and in Game 4 Johnson hit a last - second hook shot over Celtics big men Parish and Kevin McHale to win the game 107 - 106 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Lakers	Laker	NOUN	NNS	_	3	A	3:A	_
+3	met	meet	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Celtics	Celtics	NOUN	NNS	_	3	A	3:A	_
+6	for	for	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	third	third	ADJ	JJ	_	9	E	9:E	_
+9	time	time	NOUN	NN	_	3	D	3:D	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	NBA	NBA	PROPN	NNP	_	13	E	13:E	_
+13	Finals	Finals	PROPN	NNPS	_	3	A	3:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	Game	game	NOUN	NN	_	20	A	20:A	_
+18	4	4	NUM	CD	_	17	E	17:E	_
+19	Johnson	Johnson	PROPN	NNP	_	20	A	20:A|36:A	_
+20	hit	hit	VERB	VBD	_	3	H	3:H	_
+21	a	a	DET	DT	_	26	E	26:E	_
+22	last	last	ADJ	JJ	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	second	second	ADJ	JJ	_	26	E	26:E	_
+25	hook	hook	NOUN	NN	_	26	E	26:E	_
+26	shot	shot	NOUN	NN	_	20	A	20:A	_
+27	over	over	ADP	IN	_	31	R	31:R	_
+28	Celtics	Celtics	PROPN	NNPS	_	31	E	31:E	_
+29	big	big	ADJ	JJ	_	30	E	30:E	_
+30	men	man	NOUN	NNS	_	28	E	28:E	_
+31	Parish	Parish	PROPN	NNP	_	20	A	20:A	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	Kevin	Kevin	PROPN	NNP	_	31	C	31:C	_
+34	McHale	McHale	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	to	to	PART	TO	_	3	L	3:L	_
+36	win	win	VERB	VB	_	3	H	3:H	_
+37	the	the	DET	DT	_	38	E	38:E	_
+38	game	game	NOUN	NN	_	36	A	36:A	_
+39	107	107	NUM	CD	_	36	A	36:A	_
+40	-	-	SYM	SYM	_	39	U	39:U	_
+41	106	106	NUM	CD	_	39	Terminal	39:Terminal	_
+42	.	.	PUNCT	.	_	36	U	36:U	_
+

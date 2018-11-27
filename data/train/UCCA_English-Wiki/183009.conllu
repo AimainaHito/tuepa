@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 183009
+# text = In 1921 , Ruth Davis moved to New York City with her daughters , where she worked as a portrait photographer .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1921	1921	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Ruth	Ruth	PROPN	NNP	_	6	A	6:A	_
+5	Davis	Davis	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	moved	move	VERB	VBD	_	0	H	0:H	_
+7	to	to	ADP	IN	_	8	R	8:R	_
+8	New	New	PROPN	NNP	_	6	A	6:A	_
+9	York	York	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	City	City	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	with	with	ADP	IN	_	13	R	13:R	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	daughters	daughter	NOUN	NNS	_	6	A	6:A	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	where	where	ADV	WRB	_	6	L	6:L	_
+16	she	she	PRON	PRP	_	17	A	17:A	_
+17	worked	work	VERB	VBD	_	6	H	6:H	_
+18	as	as	ADP	IN	_	21	R	21:R	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	portrait	portrait	NOUN	NN	_	21	E	21:E	_
+21	photographer	photographer	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

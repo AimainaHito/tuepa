@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25488146
+# text = Der Tag erschien , und der Morgen nebel umhüllte uns , aber er zerteilte sich bald .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Tag	Tag	NOUN	NN	_	3	A	3:A	_
+3	erschien	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	und	und	CCONJ	NN	_	3	L	3:L	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	Morgen	Morgen	PROPN	XY	_	8	E	8:E	_
+8	nebel	nebel	PROPN	NN	_	9	A	9:A	_
+9	umhüllte	umhüllen	AUX	VMFIN	_	3	H	3:H	_
+10	uns	wir	PRON	NN	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	aber	aber	CCONJ	KON	_	3	L	3:L	_
+13	er	er	PRON	PPER	_	14	A	14:A	_
+14	zerteilte	zerteilen	VERB	VVFIN	_	3	H	3:H	_
+15	sich	er|es|sie	PRON	PRF	_	14	Terminal	14:Terminal	_
+16	bald	bald	ADV	ADV	_	14	D	14:D	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

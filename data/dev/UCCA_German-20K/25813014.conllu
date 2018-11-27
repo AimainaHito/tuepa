@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25813014
+# text = Einen Augenblick glaubte ich , der unglückliche , von dem Ungeheuer umschlungene Mann werde dem gewaltigen Aussaugen entrissen werden .
+1	Einen	ein	DET	ART	_	2	E	2:E	_
+2	Augenblick	Augenblick	NOUN	NN	_	3	D	3:D	_
+3	glaubte	glauben	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	der	der	DET	PRELS	_	13	E	13:E	_
+7	unglückliche	unglücklich	ADJ	ADJA	_	13	E	13:E	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	von	von	ADP	NN	_	12	R	12:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Ungeheuer	Ungeheuer	NOUN	NN	_	12	A	12:A	_
+12	umschlungene	umschlungen	ADJ	ADJA	_	13	E	13:E	_
+13	Mann	Mann	NOUN	NN	_	18	A	18:A	_
+14	werde	werden	AUX	NE	_	18	F	18:F	_
+15	dem	der	DET	ART	_	17	E	17:E	_
+16	gewaltigen	gewaltig	ADJ	ADJA	_	17	E	17:E	_
+17	Aussaugen	Aussaug	NOUN	NN	_	18	A	18:A	_
+18	entrissen	entrissen	VERB	VVPP	_	3	A	3:A	_
+19	werden	werden	AUX	VVFIN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

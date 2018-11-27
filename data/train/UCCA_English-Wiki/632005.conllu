@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 632005
+# text = Lennon failed all his GCE O - level examinations , and was accepted into the Liverpool College of Art only after his aunt and headmaster intervened .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A|13:A	_
+2	failed	fail	VERB	VBD	_	0	H	0:H	_
+3	all	all	DET	DT	_	9	E	9:E	_
+4	his	he	PRON	PRP$	_	9	E	9:E	_
+5	GCE	Gce	VERB	VBD	_	8	E	8:E	_
+6	O	of	ADP	IN	_	5	Terminal	5:Terminal	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	level	level	NOUN	NN	_	9	E	9:E	_
+9	examinations	examination	NOUN	NNS	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	accepted	accept	VERB	VBN	_	2	H	2:H	_
+14	into	into	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	Liverpool	Liverpool	PROPN	NNP	_	17	E	17:E	_
+17	College	College	PROPN	NNP	_	13	A	13:A	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	Art	art	PROPN	NNP	_	17	E	17:E	_
+20	only	only	ADV	RB	_	2	L	2:L	_
+21	after	after	ADP	IN	_	20	Terminal	20:Terminal	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	aunt	aunt	NOUN	NN	_	26	A	26:A	_
+24	and	and	CCONJ	CC	_	23	N	23:N	_
+25	headmaster	headmaster	NOUN	NN	_	23	C	23:C	_
+26	intervened	interven	VERB	VBN	_	2	H	2:H	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

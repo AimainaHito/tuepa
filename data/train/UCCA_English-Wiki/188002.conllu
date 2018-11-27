@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 188002
+# text = After that , he wrote Hidden in This Picture which debuted off - off - Broadway at Steve Olsen 's West Bank Cafe Downstairs Theatre Bar in New York City in 1988 .
+1	After	after	ADP	IN	_	5	L	5:L	_
+2	that	that	PRON	DT	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	wrote	write	VERB	VBD	_	0	H	0:H	_
+6	Hidden	Hidden	PROPN	NNP	_	5	A	5:A	_
+7	in	in	ADP	IN	_	6	Terminal	6:Terminal	_
+8	This	this	DET	DT	_	6	Terminal	6:Terminal	_
+9	Picture	picture	NOUN	NN	_	6	Terminal	6:Terminal	_
+10	which	which	PRON	WDT	_	11	F	11:F	_
+11	debuted	debute	VERB	VBD	_	6	E	6:E	_
+12	off	off	ADV	RB	_	16	E	16:E	_
+13	-	-	PUNCT	HYPH	_	16	U	16:U	_
+14	off	off	ADP	IN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	Broadway	Broadway	PROPN	NNP	_	11	A	11:A	_
+17	at	at	ADP	IN	_	21	R	21:R	_
+18	Steve	Steve	PROPN	NNP	_	21	E	21:E	_
+19	Olsen	Olsen	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	18	R	18:R	_
+21	West	West	PROPN	NNP	_	11	A	11:A	_
+22	Bank	Bank	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Cafe	Cafe	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	Downstairs	downstairs	PROPN	NNPS	_	21	Terminal	21:Terminal	_
+25	Theatre	theatre	PROPN	NNP	_	21	Terminal	21:Terminal	_
+26	Bar	bar	PROPN	NNP	_	21	Terminal	21:Terminal	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	New	New	PROPN	NNP	_	11	A	11:A	_
+29	York	York	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	City	City	PROPN	NNP	_	28	Terminal	28:Terminal	_
+31	in	in	ADP	IN	_	32	R	32:R	_
+32	1988	1988	NUM	CD	_	11	D	11:D	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

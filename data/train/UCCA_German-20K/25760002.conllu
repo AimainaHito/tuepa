@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25760002
+# text = Es war hohe Zeit , den Walfischen zu Hilfe zu kommen .
+1	Es	es	PRON	PPER	_	8	A	8:A	_
+2	war	sein	AUX	ADV	_	8	F	8:F	_
+3	hohe	hoch	ADJ	ADJA	_	4	E	4:E	_
+4	Zeit	Zeit	NOUN	NN	_	8	D	8:D	_
+5	,	,	PUNCT	$,	_	8	U	8:U	_
+6	den	der	DET	PRELS	_	7	E	7:E	_
+7	Walfischen	Walfischen	NOUN	NE	_	8	A	8:A	_
+8	zu	zu	ADP	NN	_	0	H	0:H	_
+9	Hilfe	Hilfe	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	zu	zu	PART	NN	_	8	F	8:F	_
+11	kommen	kommen	VERB	VVINF	_	8	Terminal	8:Terminal	_
+12	.	.	PUNCT	$.	_	8	U	8:U	_
+

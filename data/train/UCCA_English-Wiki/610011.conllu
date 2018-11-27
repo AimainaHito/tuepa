@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 610011
+# text = The shield includes four curved emblems which resemble beetles ' backs .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	shield	shield	NOUN	NN	_	3	A	3:A	_
+3	includes	include	VERB	VBZ	_	0	H	0:H	_
+4	four	four	NUM	CD	_	6	E	6:E	_
+5	curved	curved	ADJ	JJ	_	6	E	6:E	_
+6	emblems	emblem	NOUN	NNS	_	3	A	3:A	_
+7	which	which	PRON	WDT	_	8	F	8:F	_
+8	resemble	resemble	ADJ	JJ	_	6	E	6:E	_
+9	beetles	beetle	NOUN	NNS	_	11	E	11:E	_
+10	'	'	PART	POS	_	11	U	11:U	_
+11	backs	back	NOUN	NNS	_	8	A	8:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

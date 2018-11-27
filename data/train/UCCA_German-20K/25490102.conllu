@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25490102
+# text = Ned Land , von der Pein seines kräftigen Magens getrieben , geriet immer mehr in Zorn , und ich besorgte trotz seines Versprechens wirklich eine Explosion , wenn ihm ein Mann von den Leuten an Bord zu Gesicht käme .
+1	Ned	Ned	PROPN	NN	_	12	A	12:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	$,	_	1	U	1:U	_
+4	von	von	ADP	NN	_	10	R	10:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Pein	pein	NOUN	NN	_	10	A	10:A	_
+7	seines	sein	DET	PPOSAT	_	9	R	9:R	_
+8	kräftigen	kräftig	ADJ	ADJA	_	9	E	9:E	_
+9	Magens	Magen	NOUN	NN	_	10	A	10:A	_
+10	getrieben	treiben	VERB	VVPP	_	1	E	1:E	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	geriet	geraten	VERB	VVFIN	_	0	H	0:H	_
+13	immer	immer	ADV	ADV	_	14	E	14:E	_
+14	mehr	mehr	ADV	ADV	_	12	D	12:D	_
+15	in	in	ADP	APPR	_	12	Terminal	12:Terminal	_
+16	Zorn	Zorn	NOUN	NE	_	12	Terminal	12:Terminal	_
+17	,	,	PUNCT	$,	_	12	U	12:U	_
+18	und	und	CCONJ	NE	_	12	L	12:L	_
+19	ich	ich	PRON	PPER	_	20	A	20:A	_
+20	besorgte	besorgt	VERB	VVFIN	_	12	H	12:H	_
+21	trotz	trotz	ADP	APPR	_	12	L	12:L	_
+22	seines	sein	DET	PPOSAT	_	23	E	23:E	_
+23	Versprechens	Versprechen	NOUN	NN	_	12	H	12:H	_
+24	wirklich	wirklich	ADV	ADV	_	20	G	20:G	_
+25	eine	ein	DET	ART	_	26	E	26:E	_
+26	Explosion	Explosion	NOUN	NN	_	20	A	20:A	_
+27	,	,	PUNCT	$,	_	12	U	12:U	_
+28	wenn	wenn	SCONJ	VVFIN	_	12	L	12:L	_
+29	ihm	er	PRON	PPER	_	37	A	37:A	_
+30	ein	ein	DET	ART	_	31	E	31:E	_
+31	Mann	Mann	NOUN	NN	_	37	A	37:A	_
+32	von	von	ADP	NE	_	34	R	34:R	_
+33	den	der	DET	ART	_	34	E	34:E	_
+34	Leuten	Leute	NOUN	NN	_	31	E	31:E	_
+35	an	an	ADP	APPR	_	36	R	36:R	_
+36	Bord	Bord	NOUN	NN	_	34	E	34:E	_
+37	zu	zu	ADP	VVINF	_	12	H	12:H	_
+38	Gesicht	Gesicht	NOUN	NN	_	37	Terminal	37:Terminal	_
+39	käme	kommen	VERB	VVFIN	_	37	Terminal	37:Terminal	_
+40	.	.	PUNCT	$.	_	37	U	37:U	_
+

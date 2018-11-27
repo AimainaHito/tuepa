@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25715009
+# text = » Jawohl . Wir fahren in siedendem Wasser . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Jawohl	Jawohl	PROPN	KOUS	_	0	H	0:H	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Wir	wir	PROPN	NE	_	5	A	5:A	_
+5	fahren	fahren	VERB	VVFIN	_	2	H	2:H	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	siedendem	siedend	ADJ	ADJA	_	8	E	8:E	_
+8	Wasser	Wasser	NOUN	NN	_	5	A	5:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

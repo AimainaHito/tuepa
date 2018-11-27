@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25678002
+# text = » Das ist sinnreich « , sagte Conseil ; » ich sehe , dass hier das Klassifizieren mechanisch vor sich geht . Könnte uns mein Herr auch sagen , was die Ausbeutung der Perl austern bänke einträgt ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Das	der	PRON	PDS	_	4	A	4:A	_
+3	ist	sein	AUX	VVFIN	_	4	F	4:F	_
+4	sinnreich	sinnreich	ADJ	ADJD	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	Conseil	Conseil	PROPN	NE	_	7	A	7:A	_
+9	;	;	PUNCT	$.	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	ich	ich	PRON	PPER	_	12	A	12:A	_
+12	sehe	sehen	VERB	VVFIN	_	4	H	4:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+15	hier	hier	ADV	ADV	_	19	A	19:A	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Klassifizieren	klassifizieren	NOUN	NN	_	19	A	19:A	_
+18	mechanisch	mechanisch	ADJ	ADJD	_	19	D	19:D	_
+19	vor	vor	ADP	NN	_	12	A	12:A	_
+20	sich	er|es|sie	PRON	PRF	_	19	Terminal	19:Terminal	_
+21	geht	gehen	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	$.	_	4	U	4:U	_
+23	Könnte	können	AUX	VMFIN	_	28	D	28:D	_
+24	uns	wir	PRON	NN	_	28	A	28:A	_
+25	mein	mein	PRON	PPOSAT	_	26	E	26:E	_
+26	Herr	Herr	NOUN	NN	_	28	A	28:A	_
+27	auch	auch	ADV	ADV	_	28	D	28:D	_
+28	sagen	sagen	VERB	VVINF	_	4	H	4:H	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	was	was	PRON	NE	_	37	A	37:A	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Ausbeutung	Ausbeutung	NOUN	NN	_	37	A	37:A	_
+33	der	der	DET	ART	_	36	R	36:R	_
+34	Perl	Perl	PROPN	NE	_	35	E	35:E	_
+35	austern	austern	VERB	VVINF	_	36	E	36:E	_
+36	bänke	bänken	VERB	VVFIN	_	32	A	32:A	_
+37	einträgt	eintragen	AUX	VVFIN	_	28	A	28:A	_
+38	?	?	PUNCT	$.	_	37	U	37:U	_
+39	«	«	PUNCT	$(	_	37	U	37:U	_
+

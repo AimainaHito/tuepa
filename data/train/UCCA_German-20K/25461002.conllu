@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25461002
+# text = Tag und Nacht beobachtete man die Wasser fläche , und die Nachtsichtigen hatten mehr Aussicht das Spiel zu gewinnen .
+1	Tag	Tag	NOUN	NN	_	4	D	4:D	_
+2	und	und	CCONJ	NE	_	1	Terminal	1:Terminal	_
+3	Nacht	Nacht	NOUN	NE	_	1	Terminal	1:Terminal	_
+4	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Wasser	Wasser	NOUN	NN	_	8	E	8:E	_
+8	fläche	flechen	VERB	VVFIN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	und	und	CCONJ	NE	_	4	L	4:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Nachtsichtigen	Nachtsichtige	NOUN	NE	_	13	A	13:A	_
+13	hatten	haben	VERB	VAFIN	_	4	H	4:H	_
+14	mehr	mehr	ADV	ADV	_	13	D	13:D	_
+15	Aussicht	Aussicht	NOUN	NN	_	13	A	13:A	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Spiel	Spiel	NOUN	NN	_	19	A	19:A	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	gewinnen	gewinnen	VERB	VVINF	_	15	E	15:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

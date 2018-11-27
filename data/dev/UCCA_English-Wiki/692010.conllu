@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 692010
+# text = The song was widely recorded and became an international hit for Peter , Paul and Mary , setting a precedent for many other artists who had hits with Dylan 's songs .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	0	C	0:C|18:A|10:A	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	widely	widely	ADV	RB	_	5	D	5:D	_
+5	recorded	record	VERB	VBN	_	0	H	0:H	_
+6	and	and	CCONJ	CC	_	5	L	5:L	_
+7	became	become	VERB	VBD	_	10	D	10:D	_
+8	an	a	DET	DT	_	9	E	9:E	_
+9	international	international	ADJ	JJ	_	10	A	10:A	_
+10	hit	hit	NOUN	NN	_	5	H	5:H	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	Peter	Peter	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Paul	Paul	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	and	and	CCONJ	CC	_	12	Terminal	12:Terminal	_
+16	Mary	Mary	PROPN	NNP	_	12	Terminal	12:Terminal	_
+17	,	,	PUNCT	,	_	5	U	5:U	_
+18	setting	set	VERB	VBG	_	5	H	5:H	_
+19	a	a	DET	DT	_	18	Terminal	18:Terminal	_
+20	precedent	precedent	NOUN	NN	_	18	Terminal	18:Terminal	_
+21	for	for	ADP	IN	_	24	R	24:R	_
+22	many	many	ADJ	JJ	_	24	E	24:E	_
+23	other	other	ADJ	JJ	_	24	E	24:E	_
+24	artists	artist	NOUN	NNS	_	18	A	18:A	_
+25	who	who	PRON	WP	_	26	F	26:F	_
+26	had	have	VERB	VBD	_	24	E	24:E	_
+27	hits	hit	NOUN	NNS	_	26	A	26:A	_
+28	with	with	ADP	IN	_	31	R	31:R	_
+29	Dylan	Dylan	PROPN	NNP	_	31	E	31:E	_
+30	's	's	PART	POS	_	29	R	29:R	_
+31	songs	song	NOUN	NNS	_	26	A	26:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

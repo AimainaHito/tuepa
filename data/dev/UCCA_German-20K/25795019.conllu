@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25795019
+# text = Ein letzter Wurf im Spiel um unsere Rettung .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	letzter	letzt	ADJ	ADJA	_	3	D	3:D	_
+3	Wurf	Wurf	NOUN	NN	_	0	H	0:H	_
+4	im	im	ADJ	NE	_	5	R	5:R	_
+5	Spiel	Spiel	NOUN	NN	_	3	A	3:A	_
+6	um	um	ADP	APPR	_	8	R	8:R	_
+7	unsere	unser	PRON	PPOSAT	_	8	E	8:E	_
+8	Rettung	Rettung	NOUN	NN	_	5	A	5:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

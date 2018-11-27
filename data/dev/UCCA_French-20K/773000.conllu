@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 773000
+# text = Seulement , Conseil avait un défaut .
+1	Seulement	seulement	ADV	_	_	4	L	4:L	_
+2	,	,	PUNCT	_	_	4	U	4:U	_
+3	Conseil	conseil	PROPN	_	_	4	A	4:A	_
+4	avait	avoir	VERB	_	_	0	H	0:H	_
+5	un	un	DET	_	_	6	E	6:E	_
+6	défaut	défaut	NOUN	_	_	4	A	4:A	_
+7	.	.	PUNCT	_	_	6	U	6:U	_
+

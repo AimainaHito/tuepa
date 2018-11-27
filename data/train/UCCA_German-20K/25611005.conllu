@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25611005
+# text = Hier sammelte er zahlreiche Reste des Schiff bruchs , eiserne Geräte , Anker , Steinböller , eine 18pfündige Kugel , Trümmer von astronomischen Instrumenten , eine bronzene Glocke mit der Inschrift : » Bazin hat mich verfertigt « , die das Kennzeichen der Gießerei des Arsenals zu Brest um 1785 war .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	sammelte	sammeln	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	zahlreiche	zahlreich	ADJ	ADJA	_	5	E	5:E	_
+5	Reste	Rest	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	8	R	8:R	_
+7	Schiff	Schiff	NOUN	NN	_	8	E	8:E	_
+8	bruchs	brachsen	VERB	VVFIN	_	5	E	5:E	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	eiserne	eisern	ADJ	ADJA	_	11	E	11:E	_
+11	Geräte	Gerät	NOUN	NN	_	5	E	5:E	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	Anker	Anker	NOUN	NE	_	11	C	11:C	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	Steinböller	Steinböller	PROPN	NN	_	11	C	11:C	_
+16	,	,	PUNCT	$,	_	11	U	11:U	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	18pfündige	18pfündig	ADJ	ADJA	_	19	E	19:E	_
+19	Kugel	Kugel	NOUN	NN	_	11	C	11:C	_
+20	,	,	PUNCT	$,	_	11	U	11:U	_
+21	Trümmer	Trümmer	NOUN	NN	_	11	C	11:C	_
+22	von	von	ADP	NN	_	24	R	24:R	_
+23	astronomischen	astronomisch	ADJ	ADJA	_	24	E	24:E	_
+24	Instrumenten	Instrument	NOUN	NN	_	21	E	21:E	_
+25	,	,	PUNCT	$,	_	11	U	11:U	_
+26	eine	ein	DET	ART	_	28	E	28:E	_
+27	bronzene	bronzen	ADJ	ADJA	_	28	E	28:E	_
+28	Glocke	Glocke	NOUN	NN	_	11	C	11:C	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	der	der	DET	ART	_	31	E	31:E	_
+31	Inschrift	Inschrift	NOUN	NN	_	28	E	28:E	_
+32	:	:	PUNCT	$.	_	31	U	31:U	_
+33	»	»	PUNCT	$(	_	31	U	31:U	_
+34	Bazin	Bazin	NOUN	NE	_	37	A	37:A	_
+35	hat	haben	AUX	VAFIN	_	37	F	37:F	_
+36	mich	ich	PRON	PPER	_	37	A	37:A	_
+37	verfertigt	verfertigen	VERB	VVPP	_	31	E	31:E	_
+38	«	«	PUNCT	$(	_	31	U	31:U	_
+39	,	,	PUNCT	$,	_	31	U	31:U	_
+40	die	der	PRON	PRELS	_	42	R	42:R	_
+41	das	der	DET	ART	_	42	E	42:E	_
+42	Kennzeichen	Kennzeichen	NOUN	NN	_	31	E	31:E	_
+43	der	der	DET	ART	_	44	R	44:R	_
+44	Gießerei	Gießerei	NOUN	NN	_	42	A	42:A	_
+45	des	der	DET	ART	_	46	R	46:R	_
+46	Arsenals	Arsenal	NOUN	NN	_	42	A	42:A	_
+47	zu	zu	ADP	NE	_	48	R	48:R	_
+48	Brest	Brest	PROPN	NE	_	46	E	46:E	_
+49	um	um	ADP	APPR	_	50	E	50:E	_
+50	1785	1785	NUM	CARD	_	42	D	42:D	_
+51	war	sein	AUX	ADV	_	42	F	42:F	_
+52	.	.	PUNCT	$.	_	42	U	42:U	_
+

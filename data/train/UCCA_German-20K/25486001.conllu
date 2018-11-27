@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25486001
+# text = Aber damit war 's nichts .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	damit	damit	ADV	PAV	_	3	A	3:A	_
+3	war	sein	AUX	ADV	_	0	H	0:H	_
+4	's	es	PRON	PPER	_	3	F	3:F	_
+5	nichts	nichts	PRON	ADJA	_	3	D	3:D	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

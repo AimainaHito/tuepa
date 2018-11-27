@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 105003
+# text = Their relationship during this time was less strained , with Jolie realizing that they were both " drama queens . "
+1	Their	they	PRON	PRP$	_	2	E	2:E	_
+2	relationship	relationship	NOUN	NN	_	8	A	8:A	_
+3	during	during	ADP	IN	_	5	R	5:R	_
+4	this	this	DET	DT	_	5	E	5:E	_
+5	time	time	NOUN	NN	_	8	D	8:D	_
+6	was	be	AUX	VBD	_	8	F	8:F	_
+7	less	less	ADV	RB	_	8	D	8:D	_
+8	strained	strain	ADJ	JJ	_	0	H	0:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	with	with	SCONJ	IN	_	8	L	8:L	_
+11	Jolie	Jolie	PROPN	NNP	_	12	A	12:A	_
+12	realizing	realize	VERB	VBG	_	8	H	8:H	_
+13	that	that	SCONJ	IN	_	19	R	19:R	_
+14	they	they	PRON	PRP	_	19	A	19:A	_
+15	were	be	AUX	VBD	_	19	F	19:F	_
+16	both	both	ADV	RB	_	19	D	19:D	_
+17	"	"	PUNCT	``	_	19	U	19:U	_
+18	drama	drama	NOUN	NN	_	19	E	19:E	_
+19	queens	queens	NOUN	NNS	_	12	A	12:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+21	"	"	PUNCT	''	_	19	U	19:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25647000
+# text = Hatte ich , ohne es zu wollen , diese zornige Haltung veranlaßt ?
+1	Hatte	haben	VERB	VAFIN	_	12	F	12:F	_
+2	ich	ich	PRON	PPER	_	12	A	12:A|7:A	_
+3	,	,	PUNCT	$,	_	12	U	12:U	_
+4	ohne	ohne	ADP	CARD	_	12	L	12:L	_
+5	es	es	PRON	PPER	_	7	A	7:A	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	wollen	wollen	AUX	VMFIN	_	12	H	12:H	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	diese	dies	PRON	PDAT	_	11	E	11:E	_
+10	zornige	zornig	ADJ	NN	_	11	E	11:E	_
+11	Haltung	Haltung	NOUN	NN	_	12	A	12:A	_
+12	veranlaßt	veranlassen	VERB	VVFIN	_	0	H	0:H	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+

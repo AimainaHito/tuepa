@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25421003
+# text = Ich sprach , weil ich nicht mehr schweigen konnte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	weil	weil	SCONJ	KOUS	_	2	L	2:L	_
+5	ich	ich	PRON	PPER	_	8	A	8:A	_
+6	nicht	nicht	PART	CARD	_	8	D	8:D	_
+7	mehr	mehr	ADV	ADV	_	6	E	6:E	_
+8	schweigen	schweigen	VERB	VVINF	_	2	H	2:H	_
+9	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

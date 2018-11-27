@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25807008
+# text = » Wie ? « sagte Conseil , » Kalmar , bloße Kalmar , von der Klasse der Kopffüßler ? «
+1	»	»	PUNCT	$(	_	16	U	16:U	_
+2	Wie	wie	X	NE	_	16	A	16:A	_
+3	?	?	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	Kalmar	Kalmar	PROPN	NE	_	16	A	16:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	bloße	bloß	ADJ	ADJA	_	12	E	12:E	_
+12	Kalmar	Kalmar	PROPN	NE	_	9	C	9:C	_
+13	,	,	PUNCT	$,	_	16	U	16:U	_
+14	von	von	ADP	NN	_	16	R	16:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Klasse	Klasse	NOUN	NN	_	5	A	5:A	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	Kopffüßler	Kopffüßler	NOUN	NN	_	16	A	16:A	_
+19	?	?	PUNCT	$.	_	18	U	18:U	_
+20	«	«	PUNCT	$(	_	18	U	18:U	_
+

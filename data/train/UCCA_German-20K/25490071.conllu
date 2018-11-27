@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25490071
+# text = « » Aus einem Kerker zu Lande entkommen , ist oft schwierig , aber aus einem unterseeischen scheint mir durchaus unausführbar .
+1	«	«	PUNCT	$(	_	12	U	12:U	_
+2	»	»	PUNCT	$(	_	12	U	12:U	_
+3	Aus	Aus	NOUN	APPR	_	5	R	5:R	_
+4	einem	ein	DET	ART	_	5	E	5:E	_
+5	Kerker	Kerker	NOUN	NN	_	0	C	0:C|18:A	_
+6	zu	zu	ADP	VVINF	_	7	R	7:R	_
+7	Lande	Land	NOUN	NN	_	8	A	8:A	_
+8	entkommen	entkommen	VERB	VVFIN	_	12	A	12:A	_
+9	,	,	PUNCT	$,	_	12	U	12:U	_
+10	ist	sein	AUX	VVFIN	_	12	F	12:F	_
+11	oft	oft	ADV	CARD	_	12	D	12:D	_
+12	schwierig	schwierig	ADJ	ADJD	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	aber	aber	CCONJ	KON	_	12	L	12:L	_
+15	aus	aus	ADP	APPR	_	17	R	17:R	_
+16	einem	ein	DET	ART	_	17	E	17:E	_
+17	unterseeischen	unterseeisch	ADJ	ADJA	_	21	A	21:A	_
+18	scheint	scheinen	VERB	VVFIN	_	12	H	12:H	_
+19	mir	ich	PRON	PPER	_	18	A	18:A	_
+20	durchaus	durchaus	ADV	ADV	_	21	D	21:D	_
+21	unausführbar	unausführbar	ADJ	ADJD	_	18	A	18:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

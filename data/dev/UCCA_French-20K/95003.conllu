@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 95003
+# text = Son tirant d' eau était alors de six mètres soixante-dix centimètres , et son déplacement de six mille six cent vingt-quatre mètres cubes .
+1	Son	son	DET	_	_	2	E	2:E	_
+2	tirant	tirant	NOUN	_	_	5	A	5:A	_
+3	d'	de	ADP	_	_	2	Terminal	2:Terminal	_
+4	eau	eau	NOUN	_	_	2	Terminal	2:Terminal	_
+5	était	être	AUX	_	_	0	H	0:H	_
+6	alors	alors	ADV	_	_	5	D	5:D	_
+7	de	de	ADP	_	_	8	R	8:R	_
+8	six	six	NUM	_	_	5	A	5:A	_
+9	mètres	mètre	NOUN	_	_	8	Terminal	8:Terminal	_
+10	soixante-dix	soixante-dix	NUM	_	_	8	Terminal	8:Terminal	_
+11	centimètres	centimètre	NOUN	_	_	8	Terminal	8:Terminal	_
+12	,	,	PUNCT	_	_	5	U	5:U	_
+13	et	et	CCONJ	_	_	5	L	5:L	_
+14	son	son	DET	_	_	15	E	15:E	_
+15	déplacement	déplacement	NOUN	_	_	5	H	5:H	_
+16	de	de	ADP	_	_	17	R	17:R	_
+17	six	six	NUM	_	_	15	A	15:A	_
+18	mille	mille	NUM	_	_	17	Terminal	17:Terminal	_
+19	six	six	NUM	_	_	17	Terminal	17:Terminal	_
+20	cent	cent	NUM	_	_	17	Terminal	17:Terminal	_
+21	vingt-quatre	vingt-quatre	NUM	_	_	17	Terminal	17:Terminal	_
+22	mètres	mètre	NOUN	_	_	17	Terminal	17:Terminal	_
+23	cubes	cube	NOUN	_	_	17	Terminal	17:Terminal	_
+24	.	.	PUNCT	_	_	17	U	17:U	_
+

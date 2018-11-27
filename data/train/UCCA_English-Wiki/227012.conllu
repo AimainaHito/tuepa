@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 227012
+# text = The movie featured heavy use of effects and wires .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	3	A	3:A	_
+3	featured	feature	VERB	VBN	_	0	H	0:H	_
+4	heavy	heavy	ADJ	JJ	_	5	D	5:D	_
+5	use	use	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	effects	effect	NOUN	NNS	_	5	A	5:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	wires	wire	NOUN	NNS	_	7	C	7:C	_
+10	.	.	PUNCT	.	_	7	U	7:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25808011
+# text = » Mit meinen eigenen Augen . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Mit	mit	ADP	APPR	_	5	R	5:R	_
+3	meinen	mein	PRON	PPOSAT	_	5	E	5:E	_
+4	eigenen	eigen	ADJ	ADJA	_	5	E	5:E	_
+5	Augen	Auge	NOUN	NN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

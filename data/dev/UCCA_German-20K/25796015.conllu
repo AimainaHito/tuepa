@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25796015
+# text = Waren wir aus der Versperrung heraus ?
+1	Waren	sein	AUX	VAFIN	_	6	F	6:F	_
+2	wir	wir	PRON	NE	_	6	A	6:A	_
+3	aus	aus	ADP	APPR	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Versperrung	Versperrung	NOUN	NN	_	6	A	6:A	_
+6	heraus	heraus	ADV	PTKVZ	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

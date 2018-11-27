@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25724013
+# text = Ich schaute mir alle diese Schätze und Kleinodien noch einmal an , als sollte ich in ein ewiges Exil gehen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	schaute	schauen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+4	alle	alle	PRON	PIAT	_	6	E	6:E	_
+5	diese	dies	PRON	PDAT	_	6	E	6:E	_
+6	Schätze	Schätze	NOUN	NN	_	2	A	2:A	_
+7	und	und	CCONJ	NE	_	6	N	6:N	_
+8	Kleinodien	Kleinodie	NOUN	NN	_	6	C	6:C	_
+9	noch	noch	ADV	CARD	_	2	D	2:D	_
+10	einmal	einmal	ADV	ADV	_	9	Terminal	9:Terminal	_
+11	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	als	als	SCONJ	KOUS	_	2	L	2:L	_
+14	sollte	sollen	AUX	VMFIN	_	20	D	20:D	_
+15	ich	ich	PRON	PPER	_	20	A	20:A	_
+16	in	in	ADP	APPR	_	19	R	19:R	_
+17	ein	ein	DET	ART	_	19	E	19:E	_
+18	ewiges	ewig	ADJ	ADJA	_	19	E	19:E	_
+19	Exil	Exil	NOUN	NN	_	20	A	20:A	_
+20	gehen	gehen	VERB	VVINF	_	2	H	2:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

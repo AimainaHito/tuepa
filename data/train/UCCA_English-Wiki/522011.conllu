@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 522011
+# text = She performed at various studio functions and was eventually cast opposite Deanna Durbin in the musical short Every Sunday .
+1	She	she	PRON	PRP	_	2	A	2:A|10:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	at	at	ADP	IN	_	6	R	6:R	_
+4	various	various	ADJ	JJ	_	6	E	6:E	_
+5	studio	studio	NOUN	NN	_	6	E	6:E	_
+6	functions	function	NOUN	NNS	_	2	A	2:A	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	eventually	eventually	ADV	RB	_	10	D	10:D	_
+10	cast	cast	VERB	VBN	_	2	H	2:H	_
+11	opposite	opposite	ADP	IN	_	12	R	12:R	_
+12	Deanna	Deanna	PROPN	NNP	_	10	A	10:A	_
+13	Durbin	Durbin	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	18	R	18:R	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	musical	musical	ADJ	JJ	_	17	E	17:E	_
+17	short	short	ADJ	JJ	_	18	E	18:E	_
+18	Every	every	PROPN	NNP	_	10	A	10:A	_
+19	Sunday	Sunday	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

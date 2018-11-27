@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 522004
+# text = Her physical appearance created a dilemma for MGM .
+1	Her	she	PRON	PRP$	_	3	E	3:E	_
+2	physical	physical	ADJ	JJ	_	3	E	3:E	_
+3	appearance	appearance	NOUN	NN	_	6	A	6:A	_
+4	created	create	VERB	VBD	_	6	D	6:D	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	dilemma	dilemma	NOUN	NN	_	0	H	0:H	_
+7	for	for	ADP	IN	_	8	R	8:R	_
+8	MGM	MGM	PROPN	NNP	_	6	A	6:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

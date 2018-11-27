@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 137012
+# text = The tour was successful and Hepburn earned significant plaudits for the effort .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	tour	tour	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	successful	successful	ADJ	JJ	_	0	H	0:H	_
+5	and	and	CCONJ	CC	_	4	L	4:L	_
+6	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A	_
+7	earned	earn	VERB	VBD	_	4	H	4:H	_
+8	significant	significant	ADJ	JJ	_	9	E	9:E	_
+9	plaudits	plaudit	NOUN	NNS	_	7	A	7:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	effort	effort	NOUN	NN	_	7	A	7:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

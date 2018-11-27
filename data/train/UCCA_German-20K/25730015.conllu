@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25730015
+# text = » Dieser Spaziergang wird ermüdend sein , sag ich zum voraus . Man muß weit gehen und einen Berg hinauf . Die Wege sind nicht sehr gut gebahnt . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Spaziergang	Spaziergang	NOUN	NN	_	5	A	5:A	_
+4	wird	werden	AUX	VAFIN	_	5	F	5:F	_
+5	ermüdend	ermüdend	ADJ	ADJD	_	0	H	0:H	_
+6	sein	sein	AUX	VAINF	_	5	F	5:F	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	sag	siegen	VERB	VVFIN	_	5	H	5:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	zum	zum	ADV	NN	_	11	R	11:R	_
+11	voraus	voraus	ADV	PTKVZ	_	8	D	8:D	_
+12	.	.	PUNCT	$.	_	5	U	5:U	_
+13	Man	man	PRON	PIS	_	16	A	16:A|19:A	_
+14	muß	müssen	AUX	VMFIN	_	16	D	16:D	_
+15	weit	weit	ADJ	ADJD	_	16	D	16:D	_
+16	gehen	gehen	VERB	VVINF	_	5	H	5:H	_
+17	und	und	CCONJ	NE	_	5	L	5:L	_
+18	einen	ein	DET	ART	_	19	E	19:E	_
+19	Berg	Berg	NOUN	NN	_	5	H	5:H	_
+20	hinauf	hinauf	ADV	PTKVZ	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	5	U	5:U	_
+22	Die	der	DET	ART	_	23	E	23:E	_
+23	Wege	Weg	NOUN	NN	_	28	A	28:A	_
+24	sind	sein	AUX	NE	_	28	F	28:F	_
+25	nicht	nicht	PART	XY	_	28	D	28:D	_
+26	sehr	sehr	ADV	NE	_	27	E	27:E	_
+27	gut	gut	ADJ	ADJD	_	28	D	28:D	_
+28	gebahnt	bahnen	VERB	ADJD	_	5	H	5:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+30	«	«	PUNCT	$(	_	28	U	28:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25743019
+# text = Aber zwischen den Lavagängen bemerkte ich kleine Veilchen , die noch leicht dufteten , und erquickte mich an dem köstlichen Geruch .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	zwischen	zwischen	ADP	ADJA	_	4	R	4:R	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Lavagängen	Lavagäng	NOUN	NN	_	5	A	5:A	_
+5	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A|16:A	_
+7	kleine	klein	ADJ	ADJA	_	8	E	8:E	_
+8	Veilchen	Veilchen	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	13	R	13:R	_
+11	noch	noch	ADV	ADV	_	13	D	13:D	_
+12	leicht	leicht	ADJ	ADJD	_	13	D	13:D	_
+13	dufteten	duftet	NOUN	VVFIN	_	8	E	8:E	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	und	und	CCONJ	NE	_	5	L	5:L	_
+16	erquickte	erquicken	VERB	VVFIN	_	5	H	5:H	_
+17	mich	ich	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	an	an	ADP	APPR	_	21	R	21:R	_
+19	dem	der	DET	ART	_	21	E	21:E	_
+20	köstlichen	köstlich	ADJ	ADJA	_	21	E	21:E	_
+21	Geruch	Geruch	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

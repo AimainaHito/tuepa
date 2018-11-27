@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25748006
+# text = Ebensowenig konnte man sich dem Willen von Kapitän Nemo widersetzen .
+1	Ebensowenig	Ebensowenig	ADV	PIS	_	4	D	4:D	_
+2	konnte	können	AUX	VMFIN	_	4	D	4:D	_
+3	man	man	PRON	PIS	_	4	A	4:A	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	Willen	Wille	NOUN	NN	_	4	A	4:A	_
+7	von	von	ADP	NE	_	9	R	9:R	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+10	widersetzen	widersetzen	VERB	VVINF	_	4	Terminal	4:Terminal	_
+11	.	.	PUNCT	$.	_	4	U	4:U	_
+

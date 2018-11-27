@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 208008
+# text = In Tootsie ( 1982 ) , Hoffman portrays Michael Dorsey , a struggling actor who finds himself dressing up as a woman to land a role on a soap opera .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Tootsie	Tootsie	PROPN	NNP	_	8	A	8:A	_
+3	(	(	PUNCT	-LRB-	_	2	U	2:U	_
+4	1982	1982	NUM	CD	_	2	E	2:E	_
+5	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Hoffman	Hoffman	PROPN	NNP	_	8	A	8:A	_
+8	portrays	portray	VERB	VBZ	_	0	H	0:H	_
+9	Michael	Michael	PROPN	NNP	_	8	A	8:A	_
+10	Dorsey	Dorsey	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	struggling	struggling	VERB	VBG	_	14	E	14:E	_
+14	actor	actor	NOUN	NN	_	9	E	9:E	_
+15	who	who	PRON	WP	_	16	F	16:F	_
+16	finds	find	VERB	VBZ	_	14	E	14:E	_
+17	himself	himself	PRON	PRP	_	16	A	16:A|18:A|24:A	_
+18	dressing	dress	VERB	VBG	_	16	A	16:A	_
+19	up	up	ADP	RP	_	18	Terminal	18:Terminal	_
+20	as	as	ADP	IN	_	22	R	22:R	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	woman	woman	NOUN	NN	_	18	A	18:A	_
+23	to	to	PART	TO	_	18	L	18:L	_
+24	land	land	VERB	VB	_	18	H	18:H	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	role	role	NOUN	NN	_	24	A	24:A	_
+27	on	on	ADP	IN	_	29	R	29:R	_
+28	a	a	DET	DT	_	29	E	29:E	_
+29	soap	soap	NOUN	NN	_	26	E	26:E	_
+30	opera	opera	NOUN	NN	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

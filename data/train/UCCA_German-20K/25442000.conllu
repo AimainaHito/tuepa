@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25442000
+# text = Ned Land war ein Kanadier von seltenem Handgeschick , der seinesgleichen in dem gefährlichen Handwerk nicht hatte .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A	_
+2	Land	Land	PROPN	NN	_	1	Terminal	1:Terminal	_
+3	war	sein	AUX	ADV	_	0	H	0:H	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+6	von	von	ADP	NE	_	8	R	8:R	_
+7	seltenem	selten	ADJ	ADJA	_	8	E	8:E	_
+8	Handgeschick	Handgeschick	NOUN	NN	_	5	E	5:E	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	der	der	PRON	ART	_	17	R	17:R	_
+11	seinesgleichen	seinesgleichen	VERB	ADJA	_	17	A	17:A	_
+12	in	in	ADP	APPR	_	15	R	15:R	_
+13	dem	der	DET	ART	_	15	E	15:E	_
+14	gefährlichen	gefährlich	ADJ	ADJA	_	15	E	15:E	_
+15	Handwerk	Handwerk	NOUN	NN	_	17	A	17:A	_
+16	nicht	nicht	PART	CARD	_	17	D	17:D	_
+17	hatte	haben	VERB	VAFIN	_	5	E	5:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

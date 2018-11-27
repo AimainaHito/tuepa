@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 698016
+# text = " Dylan turned to his band and said , " Play it fucking loud !
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Dylan	Dylan	PROPN	NNP	_	3	A	3:A|8:A	_
+3	turned	turn	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	6	R	6:R	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	band	band	NOUN	NN	_	3	A	3:A	_
+7	and	and	CCONJ	CC	_	3	L	3:L	_
+8	said	say	VERB	VBD	_	3	H	3:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	"	"	PUNCT	``	_	8	U	8:U	_
+11	Play	play	VERB	VBD	_	8	A	8:A	_
+12	it	it	PRON	PRP	_	11	A	11:A	_
+13	fucking	fuck	VERB	VBG	_	14	E	14:E	_
+14	loud	loud	ADV	RB	_	11	D	11:D	_
+15	!	!	PUNCT	.	_	14	U	14:U	_
+

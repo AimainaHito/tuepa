@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25619005
+# text = » Nichts weiter . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nichts	nichts	PRON	ADV	_	0	H	0:H	_
+3	weiter	weiter	ADV	ADV	_	2	D	2:D	_
+4	.	.	PUNCT	$.	_	2	U	2:U	_
+5	«	«	PUNCT	$(	_	2	U	2:U	_
+

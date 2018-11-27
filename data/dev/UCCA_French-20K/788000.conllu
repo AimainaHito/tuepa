@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 788000
+# text = Je laissai Conseil arrimer convenablement nos malles , et je remontai sur le pont afin de suivre les préparatifs de l' appareillage .
+1	Je	il	PRON	_	_	2	A	2:A	_
+2	laissai	laiss	VERB	_	_	0	H	0:H	_
+3	Conseil	conseil	PROPN	_	_	2	A	2:A|4:A	_
+4	arrimer	arrimer	VERB	_	_	2	A	2:A	_
+5	convenablement	convenablement	ADV	_	_	4	D	4:D	_
+6	nos	son	DET	_	_	7	E	7:E	_
+7	malles	malle	NOUN	_	_	4	A	4:A	_
+8	,	,	PUNCT	_	_	2	U	2:U	_
+9	et	et	CCONJ	_	_	2	L	2:L	_
+10	je	il	PRON	_	_	11	A	11:A|17:A	_
+11	remontai	remont	VERB	_	_	2	H	2:H	_
+12	sur	sur	ADP	_	_	14	R	14:R	_
+13	le	le	DET	_	_	14	E	14:E	_
+14	pont	pont	NOUN	_	_	11	A	11:A	_
+15	afin	afin	ADV	_	_	2	L	2:L	_
+16	de	de	ADP	_	_	17	F	17:F	_
+17	suivre	suivre	VERB	_	_	2	H	2:H	_
+18	les	le	DET	_	_	19	E	19:E	_
+19	préparatifs	préparatif	NOUN	_	_	17	A	17:A	_
+20	de	de	ADP	_	_	22	R	22:R	_
+21	l'	le	DET	_	_	22	E	22:E	_
+22	appareillage	appareillage	NOUN	_	_	19	E	19:E	_
+23	.	.	PUNCT	_	_	22	U	22:U	_
+

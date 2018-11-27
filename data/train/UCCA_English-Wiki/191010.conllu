@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 191010
+# text = The film was critically acclaimed .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	critically	critically	ADV	RB	_	5	A	5:A	_
+5	acclaimed	acclaim	VERB	VBN	_	3	A	3:A	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+

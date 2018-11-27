@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 487000
+# text = That same year , Bana made his film debut in the Australian film The Castle , which tells the story of a Melbourne - based family 's struggles to keep their home by Melbourne 's airport as the airport authority force them to move .
+1	That	that	DET	DT	_	3	F	3:F	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Bana	Bana	PROPN	NNP	_	6	A	6:A	_
+6	made	make	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	film	film	NOUN	NN	_	9	E	9:E	_
+9	debut	debut	CCONJ	CC	_	6	A	6:A	_
+10	in	in	ADP	IN	_	14	R	14:R	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	Australian	australian	ADJ	JJ	_	14	E	14:E	_
+13	film	film	NOUN	NN	_	14	E	14:E	_
+14	The	the	DET	DT	_	6	A	6:A	_
+15	Castle	Castle	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	which	which	PRON	WDT	_	18	F	18:F	_
+18	tells	tell	VERB	VBZ	_	14	E	14:E	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	story	story	NOUN	NN	_	18	A	18:A	_
+21	of	of	ADP	IN	_	28	F	28:F	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	Melbourne	Melbourne	PROPN	NNP	_	25	E	25:E	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	based	base	VERB	VBN	_	26	E	26:E	_
+26	family	family	NOUN	NN	_	28	A	28:A	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	struggles	struggle	NOUN	NNS	_	20	E	20:E	_
+29	to	to	PART	TO	_	30	F	30:F	_
+30	keep	keep	VERB	VB	_	28	A	28:A	_
+31	their	they	PRON	PRP$	_	32	E	32:E	_
+32	home	home	NOUN	NN	_	30	A	30:A	_
+33	by	by	ADP	IN	_	36	R	36:R	_
+34	Melbourne	Melbourne	PROPN	NNP	_	36	E	36:E	_
+35	's	's	PART	POS	_	34	R	34:R	_
+36	airport	airport	NOUN	NN	_	32	E	32:E	_
+37	as	as	ADP	IN	_	28	L	28:L	_
+38	the	the	DET	DT	_	40	E	40:E	_
+39	airport	airport	NOUN	NN	_	40	E	40:E	_
+40	authority	authority	NOUN	NN	_	41	A	41:A	_
+41	force	force	SCONJ	IN	_	28	H	28:H	_
+42	them	they	PRON	PRP	_	41	A	41:A|44:A	_
+43	to	to	PART	TO	_	44	F	44:F	_
+44	move	move	VERB	VB	_	41	A	41:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

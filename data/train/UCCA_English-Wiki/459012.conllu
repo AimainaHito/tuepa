@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 459012
+# text = On January 5 , Jennings moderated the Democratic primary debate , held at the University of New Hampshire .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	January	January	PROPN	NNP	_	6	D	6:D	_
+3	5	5	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Jennings	Jennings	PROPN	NNP	_	6	A	6:A	_
+6	moderated	moderate	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	Democratic	Democratic	ADJ	JJ	_	10	E	10:E	_
+9	primary	primary	ADJ	JJ	_	10	E	10:E	_
+10	debate	debate	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	held	hold	VERB	VBN	_	10	E	10:E	_
+13	at	at	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	University	University	PROPN	NNP	_	12	A	12:A	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	New	New	PROPN	NNP	_	15	E	15:E	_
+18	Hampshire	Hampshire	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 439002
+# text = Au fond , j' admettais l ' existence du « monstre » .
+1	Au	Au	PROPN	_	_	2	R	2:R	_
+2	fond	fondre	VERB	_	_	5	L	5:L	_
+3	,	,	PUNCT	_	_	5	U	5:U	_
+4	j'	je	PRON	_	_	5	A	5:A	_
+5	admettais	admetter	VERB	_	_	0	H	0:H	_
+6	l	le	DET	_	_	8	E	8:E	_
+7	'	'	PUNCT	_	_	8	U	8:U	_
+8	existence	existencer	NOUN	_	_	5	A	5:A	_
+9	du	du	DET	_	_	11	R	11:R	_
+10	«	«	PUNCT	_	_	11	U	11:U	_
+11	monstre	monstre	NOUN	_	_	8	A	8:A	_
+12	»	»	PUNCT	_	_	11	U	11:U	_
+13	.	.	PUNCT	_	_	11	U	11:U	_
+

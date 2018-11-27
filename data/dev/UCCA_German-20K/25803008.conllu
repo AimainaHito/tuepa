@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25803008
+# text = Dies tat er noch denselben Abend , aber nur zur Revanche , denn offen gestanden , er war zäh wie Leder .
+1	Dies	dies	PRON	PDS	_	2	A	2:A	_
+2	tat	tun	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|11:A	_
+4	noch	noch	ADV	ADV	_	2	D	2:D	_
+5	denselben	denselb	ADJ	ADJA	_	6	E	6:E	_
+6	Abend	Abend	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	aber	aber	CCONJ	ADV	_	2	L	2:L	_
+9	nur	nur	ADV	NE	_	11	D	11:D	_
+10	zur	zur	ADV	NE	_	11	R	11:R	_
+11	Revanche	Revanche	NOUN	PIS	_	2	H	2:H	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	denn	denn	CCONJ	KON	_	2	L	2:L	_
+14	offen	offen	ADV	CARD	_	19	G	19:G	_
+15	gestanden	gestehen|stehen	VERB	VVPP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	$,	_	19	U	19:U	_
+17	er	er	PRON	PPER	_	19	A	19:A	_
+18	war	sein	AUX	ADV	_	19	F	19:F	_
+19	zäh	zäh	ADV	ADJD	_	2	H	2:H	_
+20	wie	wie	ADP	ADJA	_	21	R	21:R	_
+21	Leder	Leder	PROPN	NN	_	19	A	19:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

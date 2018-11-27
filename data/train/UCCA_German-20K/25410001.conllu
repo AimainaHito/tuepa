@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25410001
+# text = Die Enten bekamen eine hübsche Gelegenheit , Eier in allen Farben zu legen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Enten	Ent	NOUN	NN	_	3	A	3:A	_
+3	bekamen	bekommen	VERB	VVFIN	_	0	H	0:H	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	hübsche	hübsche	ADJ	ADJA	_	6	E	6:E	_
+6	Gelegenheit	Gelegenheit	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	Eier	Ei	NOUN	NN	_	13	A	13:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	allen	alle	PRON	PIAT	_	11	E	11:E	_
+11	Farben	Farbe	NOUN	NN	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	legen	legen	VERB	VVINF	_	3	A	3:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

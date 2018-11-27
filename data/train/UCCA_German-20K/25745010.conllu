@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25745010
+# text = Ned Land betastete die Wände , als wolle er untersuchen , wie dick sie seien .
+1	Ned	Ned	PROPN	NE	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	betastete	betasten	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Wände	Wand	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	als	als	SCONJ	KOUS	_	10	R	10:R	_
+8	wolle	wollen	AUX	VMFIN	_	10	D	10:D	_
+9	er	er	PRON	PPER	_	10	A	10:A	_
+10	untersuchen	untersuchen	VERB	ADJA	_	3	H	3:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wie	wie	SCONJ	NE	_	13	R	13:R	_
+13	dick	dick	PROPN	NE	_	10	A	10:A	_
+14	sie	sie	PRON	ADV	_	13	A	13:A	_
+15	seien	sein	VERB	VAFIN	_	13	D	13:D	_
+16	.	.	PUNCT	$.	_	13	U	13:U	_
+

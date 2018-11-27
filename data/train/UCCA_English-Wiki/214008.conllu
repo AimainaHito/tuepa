@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 214008
+# text = She was signed with Ford Models and Elite Model Management .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	signed	sign	VERB	VBN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	6	R	6:R	_
+5	Ford	Ford	PROPN	NNP	_	6	E	6:E	_
+6	Models	models	PROPN	NNPS	_	3	A	3:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	Elite	elite	PROPN	NNP	_	9	E	9:E	_
+9	Model	model	PROPN	NNP	_	10	E	10:E	_
+10	Management	management	NOUN	NN	_	6	C	6:C	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 544012
+# text = " The German ambassador responded by issuing a protest to U.S . Secretary of State Cordell Hull , and German dictator Adolf Hitler , who screened the film at Berchtesgaden , was outraged .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	The	the	DET	DT	_	4	E	4:E	_
+3	German	german	ADJ	JJ	_	4	E	4:E	_
+4	ambassador	ambassador	NOUN	NN	_	5	A	5:A	_
+5	responded	respond	VERB	VBN	_	0	H	0:H	_
+6	by	by	SCONJ	IN	_	7	R	7:R	_
+7	issuing	issue	VERB	VBG	_	5	A	5:A	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	protest	protest	NOUN	NN	_	7	A	7:A	_
+10	to	to	ADP	IN	_	16	R	16:R	_
+11	U.S	U.S	PROPN	NNP	_	13	E	13:E	_
+12	.	.	PUNCT	.	_	13	U	13:U	_
+13	Secretary	Secretary	PROPN	NNP	_	16	E	16:E	_
+14	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+15	State	State	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Cordell	Cordell	PROPN	NNP	_	7	A	7:A	_
+17	Hull	Hull	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	5	U	5:U	_
+19	and	and	CCONJ	CC	_	5	L	5:L	_
+20	German	german	ADJ	JJ	_	21	E	21:E	_
+21	dictator	dictator	NOUN	NN	_	22	E	22:E	_
+22	Adolf	Adolf	PROPN	NNP	_	33	A	33:A	_
+23	Hitler	Hitler	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	22	U	22:U	_
+25	who	who	PRON	WP	_	26	F	26:F	_
+26	screened	screen	VERB	VBD	_	22	E	22:E	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	film	film	NOUN	NN	_	26	A	26:A	_
+29	at	at	ADP	IN	_	30	R	30:R	_
+30	Berchtesgaden	Berchtesgaden	PROPN	NNP	_	26	A	26:A	_
+31	,	,	PUNCT	,	_	33	U	33:U	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	outraged	outrage	ADJ	JJ	_	5	H	5:H	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

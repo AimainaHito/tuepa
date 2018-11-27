@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 123001
+# text = He had tied a sheet around a beam and hanged himself .
+1	He	he	PRON	PRP	_	3	A	3:A|10:A	_
+2	had	have	AUX	VBD	_	3	F	3:F	_
+3	tied	tie	VERB	VBN	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	sheet	sheet	NOUN	NN	_	3	A	3:A	_
+6	around	around	ADP	IN	_	8	E	8:E	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	beam	beam	NOUN	NN	_	3	A	3:A	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	hanged	hang	VERB	VBD	_	3	H	3:H	_
+11	himself	himself	PRON	PRP	_	10	A	10:A	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

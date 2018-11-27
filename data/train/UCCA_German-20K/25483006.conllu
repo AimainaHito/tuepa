@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25483006
+# text = » Wir bekommen es ! Wir bekommen es « , rief der Kanadier .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Wir	wir	PRON	NE	_	3	A	3:A	_
+3	bekommen	bekommen	VERB	VVPP	_	11	A	11:A	_
+4	es	es	PRON	PPER	_	3	A	3:A	_
+5	!	!	PUNCT	$.	_	3	U	3:U	_
+6	Wir	wir	PRON	NE	_	7	A	7:A	_
+7	bekommen	bekommen	VERB	VVFIN	_	3	H	3:H	_
+8	es	es	PRON	PPER	_	7	A	7:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

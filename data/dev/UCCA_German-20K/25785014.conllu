@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25785014
+# text = Ned hatte recht .
+1	Ned	Ned	PROPN	NE	_	3	A	3:A	_
+2	hatte	haben	VERB	VAFIN	_	3	F	3:F	_
+3	recht	recht	ADV	NE	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

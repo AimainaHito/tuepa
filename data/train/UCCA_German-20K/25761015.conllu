@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25761015
+# text = » Nun , Meister Land ? « sagte er .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Nun	nun	PROPN	ADV	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Meister	Meister	PROPN	NN	_	5	E	5:E	_
+5	Land	Land	PROPN	NN	_	2	G	2:G	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

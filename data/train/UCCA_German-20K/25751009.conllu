@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25751009
+# text = Unter diesen letzteren beobachtete ich eine Art Meerhunde mit sechs Atmungsspalten , den Teleskopen mit enormen Augen , den Panzerhahn mit grauen Bauch- und schwarzen Bauchflossen , der mit einem Brustharnisch von blaßroten Knochenplättchen geschützt war .
+1	Unter	unter	ADP	ADJD	_	3	R	3:R	_
+2	diesen	dies	PRON	PDS	_	3	E	3:E	_
+3	letzteren	letzt	NOUN	PIS	_	4	A	4:A	_
+4	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	eine	ein	DET	ART	_	7	E	7:E	_
+7	Art	Art	NOUN	NN	_	8	E	8:E	_
+8	Meerhunde	Meerhunde	NOUN	NN	_	4	A	4:A	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	sechs	sechs	NUM	NE	_	11	E	11:E	_
+11	Atmungsspalten	Atmungsspalten	NOUN	NE	_	8	E	8:E	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Teleskopen	Teleskop	NOUN	NN	_	4	A	4:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	enormen	enorm	ADJ	ADJA	_	17	E	17:E	_
+17	Augen	Auge	NOUN	NN	_	14	E	14:E	_
+18	,	,	PUNCT	$,	_	4	U	4:U	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Panzerhahn	Panzerhahn	NOUN	NN	_	4	A	4:A	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	grauen	grau	ADJ	ADJA	_	23	E	23:E	_
+23	Bauch-	Bauch-	NOUN	NE	_	20	E	20:E	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	schwarzen	schwarz	ADJ	ADJA	_	26	E	26:E	_
+26	Bauchflossen	Bauchflossen	NOUN	NN	_	23	C	23:C	_
+27	,	,	PUNCT	$,	_	20	U	20:U	_
+28	der	der	PRON	PRELS	_	35	R	35:R	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	einem	ein	DET	ART	_	31	E	31:E	_
+31	Brustharnisch	Brustharnisch	NOUN	NN	_	35	A	35:A	_
+32	von	von	ADP	NE	_	34	R	34:R	_
+33	blaßroten	blaßrot	ADJ	ADJA	_	34	E	34:E	_
+34	Knochenplättchen	Knochenplättchen	NOUN	NE	_	31	E	31:E	_
+35	geschützt	schützen	VERB	VVPP	_	20	E	20:E	_
+36	war	sein	AUX	ADV	_	35	F	35:F	_
+37	.	.	PUNCT	$.	_	35	U	35:U	_
+

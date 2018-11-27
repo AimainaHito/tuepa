@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25527011
+# text = « » Ich , gewiß ! Ein Fischer von Profession ! « rief Ned Land .
+1	«	«	PUNCT	$(	_	13	U	13:U	_
+2	»	»	PUNCT	$(	_	13	U	13:U	_
+3	Ich	ich	PRON	PPER	_	13	A	13:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	gewiß	gewiß	ADJ	ADJD	_	3	G	3:G	_
+6	!	!	PUNCT	$.	_	3	U	3:U	_
+7	Ein	ein	DET	ART	_	8	E	8:E	_
+8	Fischer	Fischer	NOUN	NE	_	3	H	3:H	_
+9	von	von	ADP	NN	_	8	R	8:R	_
+10	Profession	Profession	NOUN	NN	_	8	C	8:C	_
+11	!	!	PUNCT	$.	_	13	U	13:U	_
+12	«	«	PUNCT	$(	_	13	U	13:U	_
+13	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+14	Ned	Ned	PROPN	NE	_	13	A	13:A	_
+15	Land	Land	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	$.	_	13	U	13:U	_
+

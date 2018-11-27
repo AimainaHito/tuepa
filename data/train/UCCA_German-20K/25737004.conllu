@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25737004
+# text = Während ich über diesen Gedanken in Träume versank und alle Details dieser großartigen Landschaft mir einzuprägen bemüht war , stand auch Kapitän Nemo , gegen eine bemooste Säule gelehnt , in stummes Träumen verloren .
+1	Während	während	SCONJ	KOUS	_	8	L	8:L	_
+2	ich	ich	PRON	PPER	_	8	A	8:A|16:A|17:A	_
+3	über	über	ADP	ADJD	_	5	R	5:R	_
+4	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+5	Gedanken	Gedanke	NOUN	NN	_	8	A	8:A	_
+6	in	in	ADP	APPR	_	7	R	7:R	_
+7	Träume	Traum	NOUN	NN	_	8	A	8:A	_
+8	versank	versinken	VERB	VVFIN	_	0	H	0:H	_
+9	und	und	CCONJ	NE	_	8	L	8:L	_
+10	alle	alle	PRON	PIAT	_	11	E	11:E	_
+11	Details	Detail	NOUN	NN	_	16	A	16:A	_
+12	dieser	dies	PRON	PDAT	_	14	R	14:R	_
+13	großartigen	großartig	ADJ	ADJA	_	14	E	14:E	_
+14	Landschaft	Landschaft	NOUN	NN	_	11	E	11:E	_
+15	mir	ich	PRON	PPER	_	16	A	16:A	_
+16	einzuprägen	einzuprägen	VERB	VVFIN	_	17	A	17:A	_
+17	bemüht	bemüht	ADJ	ADJD	_	8	H	8:H	_
+18	war	sein	AUX	ADV	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	8	U	8:U	_
+20	stand	stehen	VERB	VVFIN	_	8	H	8:H	_
+21	auch	auch	ADV	ADV	_	8	L	8:L	_
+22	Kapitän	Kapitän	PROPN	NN	_	23	E	23:E	_
+23	Nemo	Nemo	PROPN	NE	_	0	C	0:C|29:A|34:A	_
+24	,	,	PUNCT	$,	_	29	U	29:U	_
+25	gegen	gegen	ADP	APPR	_	28	R	28:R	_
+26	eine	ein	DET	ART	_	28	E	28:E	_
+27	bemooste	bemoost	ADJ	ADJA	_	28	E	28:E	_
+28	Säule	Säule	NOUN	NN	_	29	A	29:A	_
+29	gelehnt	gelehnt	ADJ	VVFIN	_	8	H	8:H	_
+30	,	,	PUNCT	$,	_	8	U	8:U	_
+31	in	in	ADP	APPR	_	33	R	33:R	_
+32	stummes	stumm	ADJ	ADJA	_	33	D	33:D	_
+33	Träumen	Traum	NOUN	NN	_	34	A	34:A	_
+34	verloren	verlieren	ADV	VVPP	_	8	H	8:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

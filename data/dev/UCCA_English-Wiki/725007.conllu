@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 725007
+# text = The film received predominantly positive reviews , and Jolie was praised in particular .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	predominantly	predominantly	ADV	RB	_	3	D	3:D	_
+5	positive	positive	ADJ	JJ	_	6	E	6:E	_
+6	reviews	review	NOUN	NNS	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	Jolie	Jolie	PROPN	NNP	_	11	A	11:A	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	praised	praise	VERB	VBN	_	3	H	3:H	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	particular	particular	ADJ	JJ	_	11	D	11:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

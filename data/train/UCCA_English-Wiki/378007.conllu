@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 378007
+# text = The film was panned by critics , with one calling it an " empty - headed , chaotic , utterly tasteless atrocity " .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	panned	pan	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	critics	critic	NOUN	NNS	_	0	C	0:C|9:C	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	with	with	SCONJ	IN	_	4	L	4:L	_
+9	one	one	NUM	CD	_	10	A	10:A	_
+10	calling	call	VERB	VBG	_	4	H	4:H	_
+11	it	it	PRON	PRP	_	10	A	10:A	_
+12	an	a	DET	DT	_	16	E	16:E	_
+13	"	"	PUNCT	``	_	16	U	16:U	_
+14	empty	empty	ADJ	JJ	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	headed	head	ADJ	JJ	_	22	E	22:E	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	chaotic	chaotic	ADJ	JJ	_	16	C	16:C	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	utterly	utterly	ADV	RB	_	21	E	21:E	_
+21	tasteless	tasteless	ADJ	JJ	_	16	C	16:C	_
+22	atrocity	atrocity	NOUN	NN	_	10	A	10:A	_
+23	"	"	PUNCT	''	_	22	U	22:U	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

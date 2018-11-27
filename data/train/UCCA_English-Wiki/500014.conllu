@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 500014
+# text = " In 1975 , in a move echoing Ken Pitt 's acrimonious dismissal five years earlier , Bowie fired his manager .
+1	"	"	PUNCT	``	_	19	U	19:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	1975	1975	NUM	CD	_	19	D	19:D	_
+4	,	,	PUNCT	,	_	19	U	19:U	_
+5	in	in	ADP	IN	_	19	L	19:L	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	move	move	NOUN	NN	_	8	A	8:A	_
+8	echoing	echo	VERB	VBG	_	19	H	19:H	_
+9	Ken	Ken	PROPN	NNP	_	13	A	13:A	_
+10	Pitt	Pitt	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	's	's	PART	POS	_	9	R	9:R	_
+12	acrimonious	acrimonious	ADJ	JJ	_	13	D	13:D	_
+13	dismissal	dismissal	ADJ	JJ	_	8	A	8:A	_
+14	five	five	NUM	CD	_	15	E	15:E	_
+15	years	year	NOUN	NNS	_	13	D	13:D	_
+16	earlier	earlier	ADV	RBR	_	15	R	15:R	_
+17	,	,	PUNCT	,	_	19	U	19:U	_
+18	Bowie	Bowie	PROPN	NNP	_	19	A	19:A	_
+19	fired	fire	VERB	VBD	_	0	H	0:H	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	manager	manager	NOUN	NN	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

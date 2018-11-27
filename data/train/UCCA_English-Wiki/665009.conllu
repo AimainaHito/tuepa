@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 665009
+# text = " # 1 's became a phenomenon in Japan , selling over one million copies in its opening week , and placing as the only international artist to accomplish this feat .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	#	#	NOUN	NN	_	7	U	7:U	_
+3	1	1	NUM	CD	_	7	A	7:A	_
+4	's	have	PART	POS	_	3	Terminal	3:Terminal	_
+5	became	become	VERB	VBD	_	7	D	7:D	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	phenomenon	phenomenon	NOUN	NN	_	0	H	0:H	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Japan	Japan	PROPN	NNP	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	selling	sell	VERB	VBG	_	7	H	7:H	_
+12	over	over	ADP	IN	_	15	R	15:R	_
+13	one	one	NUM	CD	_	14	E	14:E	_
+14	million	million	NUM	CD	_	15	E	15:E	_
+15	copies	copy	NOUN	NNS	_	11	A	11:A	_
+16	in	in	ADP	IN	_	19	R	19:R	_
+17	its	its	PRON	PRP$	_	19	E	19:E	_
+18	opening	opening	NOUN	NN	_	19	E	19:E	_
+19	week	week	NOUN	NN	_	11	D	11:D	_
+20	,	,	PUNCT	,	_	7	U	7:U	_
+21	and	and	CCONJ	CC	_	7	L	7:L	_
+22	placing	place	VERB	VBG	_	7	H	7:H	_
+23	as	as	SCONJ	IN	_	22	R	22:R	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	only	only	ADJ	JJ	_	27	E	27:E	_
+26	international	international	ADJ	JJ	_	27	E	27:E	_
+27	artist	artist	NOUN	NN	_	22	A	22:A	_
+28	to	to	PART	TO	_	29	F	29:F	_
+29	accomplish	accomplish	VERB	VB	_	27	E	27:E	_
+30	this	this	DET	DT	_	31	E	31:E	_
+31	feat	feat	NOUN	NN	_	29	A	29:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

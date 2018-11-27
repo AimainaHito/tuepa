@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 773001
+# text = Formaliste enragé il ne me parlait jamais qu' à la troisième personne , - au point d' en être agaçant .
+1	Formaliste	Formaliste	NOUN	_	_	0	H	0:H	_
+2	enragé	enrager	VERB	_	_	1	E	1:E	_
+3	il	il	PRON	_	_	6	A	6:A|1:A|18:A	_
+4	ne	ne	ADV	_	_	6	D	6:D	_
+5	me	lui	PRON	_	_	6	A	6:A	_
+6	parlait	parler	VERB	_	_	1	H	1:H	_
+7	jamais	jamais	ADV	_	_	4	Terminal	4:Terminal	_
+8	qu'	que	SCONJ	_	_	4	Terminal	4:Terminal	_
+9	à	à	ADP	_	_	12	R	12:R	_
+10	la	le	DET	_	_	12	E	12:E	_
+11	troisième	troisième	ADJ	_	_	12	E	12:E	_
+12	personne	personne	NOUN	_	_	6	D	6:D	_
+13	,	,	PUNCT	_	_	1	U	1:U	_
+14	-	-	PUNCT	_	_	1	U	1:U	_
+15	au	air	ADJ	_	_	1	L	1:L	_
+16	point	point	NOUN	_	_	15	Terminal	15:Terminal	_
+17	d'	de	ADP	_	_	15	Terminal	15:Terminal	_
+18	en	en	PRON	_	_	1	H	1:H	_
+19	être	être	AUX	_	_	18	Terminal	18:Terminal	_
+20	agaçant	agacer	ADJ	_	_	18	Terminal	18:Terminal	_
+21	.	.	PUNCT	_	_	18	U	18:U	_
+

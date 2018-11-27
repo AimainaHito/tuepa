@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 590000
+# text = Depp has collaborated with director and close friend Tim Burton in films , beginning with Edward Scissorhands ( 1990 ) , opposite Winona Ryder and Vincent Price .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	collaborated	collaborate	VERB	VBN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	9	R	9:R	_
+5	director	director	NOUN	NN	_	9	E	9:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	close	close	ADJ	JJ	_	8	E	8:E	_
+8	friend	friend	NOUN	NN	_	5	C	5:C	_
+9	Tim	Tim	PROPN	NNP	_	3	A	3:A	_
+10	Burton	Burton	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	films	film	NOUN	NNS	_	3	A	3:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	beginning	begin	VERB	VBG	_	16	R	16:R	_
+15	with	with	ADP	IN	_	16	F	16:F	_
+16	Edward	Edward	PROPN	NNP	_	12	E	12:E	_
+17	Scissorhands	Scissorhand	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	(	(	PUNCT	-LRB-	_	16	U	16:U	_
+19	1990	1990	NUM	CD	_	16	E	16:E	_
+20	)	)	PUNCT	-RRB-	_	16	U	16:U	_
+21	,	,	PUNCT	,	_	16	U	16:U	_
+22	opposite	opposite	ADP	IN	_	23	R	23:R	_
+23	Winona	Winona	PROPN	NNP	_	16	E	16:E	_
+24	Ryder	Ryder	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	and	and	CCONJ	CC	_	23	N	23:N	_
+26	Vincent	Vincent	PROPN	NNP	_	23	C	23:C	_
+27	Price	price	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	.	_	23	U	23:U	_
+

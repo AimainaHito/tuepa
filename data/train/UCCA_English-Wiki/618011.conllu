@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 618011
+# text = In 2007 , McCartney signed with Hear Music , becoming the label 's first artist .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2007	2007	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A|10:A	_
+5	signed	sign	VERB	VBD	_	0	H	0:H	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	Hear	hear	PROPN	NNP	_	8	E	8:E	_
+8	Music	music	PROPN	NNP	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	becoming	become	VERB	VBG	_	5	H	5:H	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	label	label	NOUN	NN	_	15	E	15:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	first	first	ADJ	JJ	_	15	E	15:E	_
+15	artist	artist	NOUN	NN	_	10	A	10:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

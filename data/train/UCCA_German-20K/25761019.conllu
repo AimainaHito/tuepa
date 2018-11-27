@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25761019
+# text = » Jeder hat seine Waffe « , erwiderte der Kapitän und blickte Ned Land scharf ins Angesicht .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Jeder	jed	PRON	PIAT	_	3	A	3:A	_
+3	hat	haben	VERB	VAFIN	_	8	A	8:A	_
+4	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Waffe	Waffe	NOUN	NN	_	3	A	3:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|12:A	_
+11	und	und	CCONJ	NE	_	8	L	8:L	_
+12	blickte	blicken	VERB	VVFIN	_	8	H	8:H	_
+13	Ned	Ned	PROPN	NE	_	12	A	12:A	_
+14	Land	Land	PROPN	NN	_	13	Terminal	13:Terminal	_
+15	scharf	scharf	VERB	ADJD	_	12	D	12:D	_
+16	ins	in	DET	NE	_	17	R	17:R	_
+17	Angesicht	Angesicht	NOUN	NE	_	12	A	12:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

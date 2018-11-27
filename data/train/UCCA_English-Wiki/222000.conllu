@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 222000
+# text = Jackie Chan , SBS , MBE ( born Chan Kong - sang , 7 April 1954 ) is a Hong Kong actor , action choreographer , comedian , director , producer , martial artist , screenwriter , entrepreneur , singer , and stunt performer .
+1	Jackie	Jackie	PROPN	NNP	_	18	A	18:A	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	SBS	SBS	PROPN	NNP	_	1	E	1:E	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	MBE	MBE	PROPN	NNP	_	1	E	1:E	_
+7	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+8	born	bear	VERB	VBN	_	1	E	1:E	_
+9	Chan	Chan	PROPN	NNP	_	8	A	8:A	_
+10	Kong	Kong	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	-	-	PUNCT	HYPH	_	9	U	9:U	_
+12	sang	sang	NOUN	NN	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	7	7	NUM	CD	_	8	D	8:D	_
+15	April	April	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	1954	1954	NUM	CD	_	14	Terminal	14:Terminal	_
+17	)	)	PUNCT	-RRB-	_	18	U	18:U	_
+18	is	be	AUX	VBZ	_	0	H	0:H	_
+19	a	a	DET	DT	_	22	E	22:E	_
+20	Hong	Hong	PROPN	NNP	_	22	E	22:E	_
+21	Kong	Kong	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	actor	actor	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	action	action	NOUN	NN	_	25	E	25:E	_
+25	choreographer	choreographer	NOUN	NN	_	22	C	22:C	_
+26	,	,	PUNCT	,	_	22	U	22:U	_
+27	comedian	comedian	NOUN	NN	_	22	C	22:C	_
+28	,	,	PUNCT	,	_	22	U	22:U	_
+29	director	director	NOUN	NN	_	22	C	22:C	_
+30	,	,	PUNCT	,	_	22	U	22:U	_
+31	producer	producer	NOUN	NN	_	22	C	22:C	_
+32	,	,	PUNCT	,	_	22	U	22:U	_
+33	martial	martial	ADJ	JJ	_	34	E	34:E	_
+34	artist	artist	NOUN	NN	_	22	C	22:C	_
+35	,	,	PUNCT	,	_	22	U	22:U	_
+36	screenwriter	screenwriter	NOUN	NN	_	22	C	22:C	_
+37	,	,	PUNCT	,	_	22	U	22:U	_
+38	entrepreneur	entrepreneur	NOUN	NN	_	22	C	22:C	_
+39	,	,	PUNCT	,	_	22	U	22:U	_
+40	singer	singer	NOUN	NN	_	22	C	22:C	_
+41	,	,	PUNCT	,	_	22	U	22:U	_
+42	and	and	CCONJ	CC	_	22	N	22:N	_
+43	stunt	stunt	ADJ	JJ	_	44	E	44:E	_
+44	performer	performer	NOUN	NN	_	22	C	22:C	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

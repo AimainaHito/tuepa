@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 543005
+# text = Warner 's management style frustrated many studio employees .
+1	Warner	Warner	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	management	management	NOUN	NN	_	5	A	5:A	_
+4	style	style	NOUN	NN	_	3	E	3:E	_
+5	frustrated	frustrate	ADJ	JJ	_	0	H	0:H	_
+6	many	many	ADJ	JJ	_	8	E	8:E	_
+7	studio	studio	NOUN	NN	_	8	E	8:E	_
+8	employees	employee	NOUN	NNS	_	5	A	5:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

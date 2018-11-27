@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 556016
+# text = By the time he graduated from high school in June 1953 , Presley had already singled out music as his future .
+1	By	by	ADP	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	1	Terminal	1:Terminal	_
+3	time	time	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	graduated	graduate	VERB	VBD	_	0	H	0:H	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	high	high	ADJ	JJ	_	5	E	5:E	_
+8	school	school	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	June	June	PROPN	NNP	_	5	D	5:D	_
+11	1953	1953	NUM	CD	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	Presley	Presley	PRON	PRP	_	16	A	16:A	_
+14	had	have	AUX	VBD	_	16	F	16:F	_
+15	already	already	ADV	RB	_	16	D	16:D	_
+16	singled	single	VERB	VBN	_	5	H	5:H	_
+17	out	out	ADP	RP	_	16	Terminal	16:Terminal	_
+18	music	music	NOUN	NN	_	16	A	16:A	_
+19	as	as	ADP	IN	_	21	R	21:R	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	future	future	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

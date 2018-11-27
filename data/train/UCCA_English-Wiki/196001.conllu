@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 196001
+# text = The pilot was critically acclaimed and viewed by over 12 million people , but Studio 60 experienced a significant drop in audience by mid - season .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	pilot	pilot	NOUN	NN	_	5	A	5:A	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	critically	critically	ADV	RB	_	5	A	5:A	_
+5	acclaimed	acclaim	VERB	VBN	_	0	H	0:H	_
+6	and	and	CCONJ	CC	_	5	L	5:L	_
+7	viewed	view	VERB	VBN	_	5	H	5:H	_
+8	by	by	ADP	IN	_	12	R	12:R	_
+9	over	over	ADP	IN	_	11	E	11:E	_
+10	12	12	NUM	CD	_	11	E	11:E	_
+11	million	million	NUM	CD	_	12	E	12:E	_
+12	people	people	NOUN	NNS	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	but	but	CCONJ	CC	_	5	L	5:L	_
+15	Studio	studio	PROPN	NNP	_	17	A	17:A	_
+16	60	60	NUM	CD	_	15	Terminal	15:Terminal	_
+17	experienced	experience	VERB	VBD	_	5	H	5:H	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	significant	significant	ADJ	JJ	_	20	E	20:E	_
+20	drop	drop	NOUN	NN	_	17	A	17:A	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	audience	audience	NOUN	NN	_	20	E	20:E	_
+23	by	by	ADP	IN	_	26	R	26:R	_
+24	mid	mid	X	AFX	_	26	E	26:E	_
+25	-	-	PUNCT	HYPH	_	26	U	26:U	_
+26	season	season	NOUN	NN	_	17	D	17:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

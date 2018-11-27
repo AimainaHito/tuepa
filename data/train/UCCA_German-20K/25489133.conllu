@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25489133
+# text = Es befiel mich arge Beklemmung .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	befiel	befallen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	A	2:A	_
+4	arge	arg	ADJ	NE	_	5	E	5:E	_
+5	Beklemmung	Beklemmung	NOUN	NE	_	2	A	2:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

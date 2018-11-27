@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 691010
+# text = While working for Columbia , Dylan also recorded several songs under the pseudonym Blind Boy Grunt , for Broadside Magazine , a folk music magazine and record label .
+1	While	while	SCONJ	IN	_	2	L	2:L	_
+2	working	work	VERB	VBG	_	0	H	0:H	_
+3	for	for	ADP	IN	_	4	R	4:R	_
+4	Columbia	Columbia	PROPN	NNP	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	Dylan	Dylan	PROPN	NNP	_	8	A	8:A|2:A	_
+7	also	also	ADV	RB	_	8	D	8:D	_
+8	recorded	record	VERB	VBD	_	2	H	2:H	_
+9	several	several	ADJ	JJ	_	10	E	10:E	_
+10	songs	song	NOUN	NNS	_	8	A	8:A	_
+11	under	under	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	pseudonym	pseudonym	NOUN	NN	_	8	A	8:A	_
+14	Blind	blind	PROPN	NNP	_	13	E	13:E	_
+15	Boy	Boy	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Grunt	Grunt	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	8	U	8:U	_
+18	for	for	ADP	IN	_	20	R	20:R	_
+19	Broadside	Broadside	PROPN	NNP	_	20	E	20:E	_
+20	Magazine	Magazine	PROPN	NNP	_	8	A	8:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	a	a	DET	DT	_	25	E	25:E	_
+23	folk	folk	NOUN	NN	_	24	E	24:E	_
+24	music	music	NOUN	NN	_	25	E	25:E	_
+25	magazine	magazine	NOUN	NN	_	20	E	20:E	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	record	record	NOUN	NN	_	28	E	28:E	_
+28	label	label	NOUN	NN	_	25	C	25:C	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

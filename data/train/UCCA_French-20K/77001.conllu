@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 77001
+# text = Sans parler des rumeurs qui agitaient les populations des ports et surexcitaient l' esprit public à l' intérieur des continents , les gens de mer furent particulièrement émus .
+1	Sans	sans	ADP	_	_	0	root	0:root	_
+2	parler	parler	VERB	_	_	0	H	0:H	_
+3	des	un	DET	_	_	4	R	4:R	_
+4	rumeurs	rumeur	NOUN	_	_	2	A	2:A	_
+5	qui	qui	PRON	_	_	6	R	6:R	_
+6	agitaient	agiter	VERB	_	_	4	E	4:E	_
+7	les	le	DET	_	_	8	E	8:E	_
+8	populations	population	NOUN	_	_	6	A	6:A	_
+9	des	un	DET	_	_	10	R	10:R	_
+10	ports	port	NOUN	_	_	8	E	8:E	_
+11	et	et	CCONJ	_	_	6	L	6:L	_
+12	surexcitaient	surexciter	VERB	_	_	6	H	6:H	_
+13	l'	le	DET	_	_	14	E	14:E	_
+14	esprit	esprit	NOUN	_	_	12	A	12:A	_
+15	public	public	ADJ	_	_	14	E	14:E	_
+16	à	à	ADP	_	_	20	R	20:R	_
+17	l'	le	DET	_	_	18	E	18:E	_
+18	intérieur	intérieur	NOUN	_	_	20	E	20:E	_
+19	des	un	DET	_	_	18	R	18:R	_
+20	continents	continent	NOUN	_	_	12	A	12:A	_
+21	,	,	PUNCT	_	_	2	U	2:U	_
+22	les	le	DET	_	_	23	E	23:E	_
+23	gens	gens	NOUN	_	_	28	A	28:A	_
+24	de	de	ADP	_	_	25	R	25:R	_
+25	mer	mer	NOUN	_	_	23	E	23:E	_
+26	furent	être	AUX	_	_	28	F	28:F	_
+27	particulièrement	particulièrement	ADV	_	_	28	D	28:D	_
+28	émus	émre	ADJ	_	_	2	H	2:H	_
+29	.	.	PUNCT	_	_	28	U	28:U	_
+

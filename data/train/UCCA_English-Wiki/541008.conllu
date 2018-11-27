@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 541008
+# text = These included gangster classics such as Little Caesar and The Public Enemy as well as the critically acclaimed I Am a Fugitive from a Chain Gang , starring Paul Muni .
+1	These	these	PRON	DT	_	2	A	2:A	_
+2	included	include	VERB	VBD	_	0	H	0:H	_
+3	gangster	gangster	NOUN	NN	_	4	E	4:E	_
+4	classics	classic	NOUN	NNS	_	2	A	2:A	_
+5	such	such	ADJ	JJ	_	7	R	7:R	_
+6	as	as	ADP	IN	_	5	Terminal	5:Terminal	_
+7	Little	Little	PROPN	NNP	_	4	E	4:E	_
+8	Caesar	Caesar	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	and	and	CCONJ	CC	_	7	N	7:N	_
+10	The	the	DET	DT	_	7	C	7:C	_
+11	Public	Public	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	Enemy	enemy	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	as	as	ADV	RB	_	7	N	7:N	_
+14	well	well	ADV	RB	_	13	Terminal	13:Terminal	_
+15	as	as	ADP	IN	_	13	Terminal	13:Terminal	_
+16	the	the	DET	DT	_	18	A	18:A	_
+17	critically	critically	NOUN	NN	_	18	A	18:A	_
+18	acclaimed	acclaim	VERB	VBD	_	19	E	19:E	_
+19	I	I	PRON	PRP	_	7	C	7:C	_
+20	Am	be	AUX	VBP	_	19	Terminal	19:Terminal	_
+21	a	a	DET	DT	_	19	Terminal	19:Terminal	_
+22	Fugitive	fugitive	NOUN	NN	_	19	Terminal	19:Terminal	_
+23	from	from	ADP	IN	_	19	Terminal	19:Terminal	_
+24	a	a	DET	DT	_	19	Terminal	19:Terminal	_
+25	Chain	chain	PROPN	NNP	_	19	Terminal	19:Terminal	_
+26	Gang	gang	PROPN	NNP	_	19	Terminal	19:Terminal	_
+27	,	,	PUNCT	,	_	19	U	19:U	_
+28	starring	starr	VERB	VBG	_	19	E	19:E	_
+29	Paul	Paul	PROPN	NNP	_	28	A	28:A	_
+30	Muni	Muni	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

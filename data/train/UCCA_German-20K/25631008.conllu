@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25631008
+# text = Wir waren mit den Ergebnissen unserer Jagd sehr zufrieden .
+1	Wir	wir	PRON	NE	_	9	A	9:A	_
+2	waren	sein	VERB	VAFIN	_	9	F	9:F	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Ergebnissen	Ergebnis	NOUN	NN	_	9	A	9:A	_
+6	unserer	unser	PRON	PPOSAT	_	7	R	7:R	_
+7	Jagd	Jagd	NOUN	NN	_	5	E	5:E	_
+8	sehr	sehr	ADV	NE	_	9	D	9:D	_
+9	zufrieden	zufrieden	ADJ	ADJD	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

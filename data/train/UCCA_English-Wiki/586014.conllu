@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 586014
+# text = Depp 's long - time friend Sal Jenco joined the cast as a semi - co - star as the janitor named Blowfish .
+1	Depp	Depp	PROPN	NNP	_	7	E	7:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	long	long	ADJ	JJ	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	time	time	NOUN	NN	_	6	E	6:E	_
+6	friend	friend	NOUN	NN	_	7	E	7:E	_
+7	Sal	Sal	PROPN	NNP	_	9	A	9:A	_
+8	Jenco	Jenco	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	joined	join	VERB	VBD	_	0	H	0:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	cast	cast	NOUN	NN	_	9	A	9:A	_
+12	as	as	ADP	IN	_	18	R	18:R	_
+13	a	a	DET	DT	_	18	E	18:E	_
+14	semi	semi	NOUN	NN	_	18	E	18:E	_
+15	-	-	PUNCT	HYPH	_	18	U	18:U	_
+16	co	co	NOUN	NN	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	star	star	NOUN	NN	_	9	A	9:A	_
+19	as	as	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	janitor	janitor	NOUN	NN	_	9	A	9:A	_
+22	named	name	VERB	VBN	_	21	E	21:E	_
+23	Blowfish	Blowfish	PROPN	NNP	_	22	A	22:A	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 700007
+# text = The result was John Wesley Harding , a quiet , contemplative record of shorter songs , set in a landscape that drew on both the American West and the Bible .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	result	result	NOUN	NN	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	John	John	PROPN	NNP	_	0	C	0:C|17:A	_
+5	Wesley	Wesley	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Harding	Harding	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	a	a	DET	DT	_	12	E	12:E	_
+9	quiet	quiet	ADJ	JJ	_	12	E	12:E	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	contemplative	contemplative	ADJ	JJ	_	9	C	9:C	_
+12	record	record	NOUN	NN	_	4	E	4:E	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	shorter	shorter	NOUN	NN	_	15	E	15:E	_
+15	songs	song	NOUN	NNS	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	3	U	3:U	_
+17	set	set	VERB	VB	_	3	H	3:H	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	landscape	landscape	NOUN	NN	_	17	A	17:A	_
+21	that	that	PRON	WDT	_	22	R	22:R	_
+22	drew	draw	VERB	VBD	_	20	E	20:E	_
+23	on	on	ADP	IN	_	26	R	26:R	_
+24	both	both	CCONJ	CC	_	26	N	26:N	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	American	american	PROPN	NNP	_	22	A	22:A	_
+27	West	west	PROPN	NNP	_	26	E	26:E	_
+28	and	and	CCONJ	CC	_	26	N	26:N	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	Bible	Bible	PROPN	NNP	_	26	C	26:C	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

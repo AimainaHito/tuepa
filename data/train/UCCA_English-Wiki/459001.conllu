@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 459001
+# text = As the millennium approached , Jennings and the network started preparing for extensive retrospectives of the 20th century .
+1	As	as	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	millennium	millennium	NOUN	NN	_	4	A	4:A	_
+4	approached	approach	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Jennings	Jennings	PROPN	NNPS	_	11	A	11:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	network	network	NOUN	NN	_	6	C	6:C	_
+10	started	start	VERB	VBD	_	11	D	11:D	_
+11	preparing	prepare	VERB	VBG	_	4	H	4:H	_
+12	for	for	ADP	IN	_	14	R	14:R	_
+13	extensive	extensive	ADJ	JJ	_	14	E	14:E	_
+14	retrospectives	retrospective	NOUN	NNS	_	11	A	11:A	_
+15	of	of	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	20th	20th	ADJ	JJ	_	18	E	18:E	_
+18	century	century	NOUN	NN	_	14	E	14:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

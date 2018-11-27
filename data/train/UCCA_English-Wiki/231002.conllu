@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 231002
+# text = To further shed the image of Mr . Nice Guy , Chan played an anti - hero for the first time in Rob - B - Hood starring as Thongs , a burglar with gambling problems .
+1	To	to	ADP	IN	_	3	L	3:L	_
+2	further	further	ADV	RB	_	3	D	3:D	_
+3	shed	shed	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	image	image	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Mr	mr	PROPN	NNP	_	5	E	5:E	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+9	Nice	nice	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	Guy	guy	PROPN	NNP	_	7	Terminal	7:Terminal	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	Chan	Chan	PROPN	NNP	_	13	A	13:A|28:A|3:A	_
+13	played	play	VERB	VBD	_	3	H	3:H	_
+14	an	a	DET	DT	_	17	E	17:E	_
+15	anti	anti	NOUN	NN	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	hero	hero	NOUN	NN	_	13	A	13:A	_
+18	for	for	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	first	first	ADJ	JJ	_	21	E	21:E	_
+21	time	time	NOUN	NN	_	13	D	13:D	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	Rob	Rob	PROPN	NNP	_	13	A	13:A	_
+24	-	-	PUNCT	HYPH	_	23	U	23:U	_
+25	B	B	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	-	-	PUNCT	HYPH	_	23	U	23:U	_
+27	Hood	Hood	PROPN	NNP	_	23	Terminal	23:Terminal	_
+28	starring	starring	VERB	VBG	_	3	H	3:H	_
+29	as	as	ADP	IN	_	30	R	30:R	_
+30	Thongs	Thongs	PROPN	NNP	_	28	A	28:A	_
+31	,	,	PUNCT	,	_	30	U	30:U	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	burglar	burglar	NOUN	NN	_	36	A	36:A	_
+34	with	with	ADP	IN	_	36	F	36:F	_
+35	gambling	gambling	NOUN	NN	_	36	E	36:E	_
+36	problems	problem	NOUN	NNS	_	30	E	30:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

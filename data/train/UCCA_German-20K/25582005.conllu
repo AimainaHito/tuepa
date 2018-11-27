@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25582005
+# text = Ich stieg auf der im Mittelpunkt befind-lichen Leiter zur Plattform hinauf .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	stieg	steigen	VERB	VVFIN	_	0	H	0:H	_
+3	auf	auf	ADP	APPR	_	8	R	8:R	_
+4	der	der	DET	ART	_	8	E	8:E	_
+5	im	im	ADJ	NE	_	6	R	6:R	_
+6	Mittelpunkt	Mittelpunkt	NOUN	NN	_	7	A	7:A	_
+7	befind-lichen	befind-lichen	VERB	ADJA	_	8	E	8:E	_
+8	Leiter	Leiter	NOUN	NN	_	2	A	2:A	_
+9	zur	zur	ADP	NE	_	10	R	10:R	_
+10	Plattform	Plattform	NOUN	NE	_	8	E	8:E	_
+11	hinauf	hinauf	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+12	.	.	PUNCT	$.	_	2	U	2:U	_
+

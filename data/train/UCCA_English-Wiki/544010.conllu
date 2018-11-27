@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 544010
+# text = " Confessions of a Nazi Spy was widely attacked .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	Confessions	Confession	NOUN	NNS	_	9	A	9:A	_
+3	of	of	ADP	IN	_	2	Terminal	2:Terminal	_
+4	a	a	DET	DT	_	2	Terminal	2:Terminal	_
+5	Nazi	Nazi	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	Spy	spy	PROPN	NNP	_	2	Terminal	2:Terminal	_
+7	was	be	AUX	VBD	_	9	F	9:F	_
+8	widely	widely	ADV	RB	_	9	D	9:D	_
+9	attacked	attack	VERB	VBN	_	0	H	0:H	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

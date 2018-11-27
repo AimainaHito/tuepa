@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25581003
+# text = Der Kanadier schlief noch immer fort als wie ein Mensch , der sein Lebtag nichts anders tut .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+3	schlief	schlafen	VERB	VVFIN	_	0	H	0:H	_
+4	noch	noch	ADV	ADV	_	3	D	3:D	_
+5	immer	immer	ADV	ADV	_	4	Terminal	4:Terminal	_
+6	fort	fort	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+7	als	als	ADV	KOUS	_	3	L	3:L	_
+8	wie	wie	ADP	ADV	_	7	Terminal	7:Terminal	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Mensch	Mensch	NOUN	NN	_	3	H	3:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	der	der	PRON	PRELS	_	17	R	17:R	_
+13	sein	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Lebtag	Lebtag	NOUN	NN	_	17	A	17:A	_
+15	nichts	nichts	PRON	ADJA	_	16	E	16:E	_
+16	anders	anders	ADV	ADV	_	17	A	17:A	_
+17	tut	tun	VERB	VVFIN	_	10	E	10:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

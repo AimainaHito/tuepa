@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 549007
+# text = During an interview with talk show host Merv Griffin , the elderly producer engaged in a lengthy tirade against " pinko communists " . This proved to be Warner 's first and last television interview .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	an	a	DET	DT	_	3	E	3:E	_
+3	interview	interview	NOUN	NN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	8	R	8:R	_
+5	talk	talk	NOUN	NN	_	6	E	6:E	_
+6	show	show	NOUN	NN	_	7	E	7:E	_
+7	host	host	NOUN	NN	_	8	E	8:E	_
+8	Merv	Merv	PROPN	NNP	_	3	A	3:A	_
+9	Griffin	Griffin	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	elderly	elderly	ADJ	JJ	_	13	E	13:E	_
+13	producer	producer	NOUN	NN	_	18	A	18:A	_
+14	engaged	engage	VERB	VBD	_	18	D	18:D	_
+15	in	in	ADP	IN	_	18	R	18:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	lengthy	lengthy	ADJ	JJ	_	18	E	18:E	_
+18	tirade	tirade	NOUN	NN	_	3	H	3:H	_
+19	against	against	ADP	IN	_	22	R	22:R	_
+20	"	"	PUNCT	``	_	22	U	22:U	_
+21	pinko	pinko	NOUN	NN	_	22	E	22:E	_
+22	communists	communist	NOUN	NNS	_	18	A	18:A	_
+23	"	"	PUNCT	''	_	3	U	3:U	_
+24	.	.	PUNCT	.	_	3	U	3:U	_
+25	This	this	PRON	DT	_	28	A	28:A	_
+26	proved	prove	VERB	VBD	_	28	D	28:D	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	be	be	AUX	VB	_	3	H	3:H	_
+29	Warner	Warner	PROPN	NNP	_	35	A	35:A	_
+30	's	's	PART	POS	_	29	R	29:R	_
+31	first	first	ADJ	JJ	_	35	D	35:D	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	last	last	ADJ	JJ	_	31	C	31:C	_
+34	television	television	NOUN	NN	_	35	A	35:A	_
+35	interview	interview	NOUN	NN	_	28	A	28:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

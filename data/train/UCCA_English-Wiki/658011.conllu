@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 658011
+# text = She developed a career as an occasional opera singer and vocal coach , and met Alfred in 1960 .
+1	She	she	PRON	PRP	_	2	A	2:A|15:A	_
+2	developed	develop	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	career	career	NOUN	NN	_	2	A	2:A	_
+5	as	as	ADP	IN	_	9	R	9:R	_
+6	an	a	DET	DT	_	9	E	9:E	_
+7	occasional	occasional	ADJ	JJ	_	9	E	9:E	_
+8	opera	opera	NOUN	NN	_	9	E	9:E	_
+9	singer	singer	NOUN	NN	_	4	E	4:E	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	vocal	vocal	ADJ	JJ	_	12	E	12:E	_
+12	coach	coach	NOUN	NN	_	9	C	9:C	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	met	meet	VERB	VBD	_	2	H	2:H	_
+16	Alfred	Alfr	PROPN	NNP	_	15	A	15:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	1960	1960	NUM	CD	_	15	D	15:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

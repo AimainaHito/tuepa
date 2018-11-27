@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25652005
+# text = Hier nichts von dem feinen Sand , nichts von unterseeischen Wiesen , kein Meerwald .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	nichts	nichts	PRON	ADJA	_	0	H	0:H	_
+3	von	von	ADP	NN	_	6	R	6:R	_
+4	dem	der	DET	ART	_	6	E	6:E	_
+5	feinen	fein	ADJ	PPOSAT	_	6	E	6:E	_
+6	Sand	Sand	NOUN	NE	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	nichts	nichts	PRON	NE	_	2	H	2:H	_
+9	von	von	ADP	NE	_	11	R	11:R	_
+10	unterseeischen	unterseeisch	ADJ	ADJA	_	11	E	11:E	_
+11	Wiesen	wiese	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	kein	kein	PRON	PIAT	_	2	H	2:H	_
+14	Meerwald	Meerwald	NOUN	NN	_	13	A	13:A	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

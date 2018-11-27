@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25583001
+# text = Was sie bedeutet , kann ich nicht sagen .
+1	Was	was	PRON	NE	_	3	A	3:A	_
+2	sie	sie	PRON	ADV	_	3	A	3:A	_
+3	bedeutet	bedeuten	VERB	VVFIN	_	8	A	8:A	_
+4	,	,	PUNCT	$,	_	8	U	8:U	_
+5	kann	können	AUX	VMFIN	_	8	D	8:D	_
+6	ich	ich	PRON	PPER	_	8	A	8:A	_
+7	nicht	nicht	PART	XY	_	8	D	8:D	_
+8	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

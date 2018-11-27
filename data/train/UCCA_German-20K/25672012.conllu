@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25672012
+# text = Der Kapitän sprach mit seinem Lieutenant einige Worte , der ging sogleich hinaus , und die ›Nautilus‹ tauchte alsbald in ihr Element hinab .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+3	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	seinem	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Lieutenant	Lieutenant	NOUN	NN	_	3	A	3:A	_
+7	einige	einige	PRON	PIAT	_	8	E	8:E	_
+8	Worte	Wort	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	der	der	PRON	PRELS	_	11	A	11:A	_
+11	ging	gehen	VERB	VVFIN	_	3	H	3:H	_
+12	sogleich	sogleich	ADV	NN	_	11	D	11:D	_
+13	hinaus	hinaus	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	und	und	CCONJ	NE	_	3	L	3:L	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	›Nautilus‹	›Nautilus‹	NOUN	NE	_	18	A	18:A	_
+18	tauchte	tauchen	VERB	VVFIN	_	3	H	3:H	_
+19	alsbald	alsbald	ADV	ADV	_	18	D	18:D	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	ihr	ihr	DET	PPOSAT	_	22	E	22:E	_
+22	Element	Element	NOUN	NN	_	18	A	18:A	_
+23	hinab	hinab	ADV	PTKVZ	_	18	Terminal	18:Terminal	_
+24	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25667005
+# text = Die tägliche Kost sagte uns vollkommen zu , und ich meinesteils hätte ganz wohl die Abwechselung entbehren können , die Ned Land aus Widerspruchs geist hineinzubringen beflissen war .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	tägliche	täglich	ADJ	NN	_	3	E	3:E	_
+3	Kost	kost	NOUN	NN	_	4	A	4:A	_
+4	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	uns	wir	PRON	NN	_	4	A	4:A	_
+6	vollkommen	vollkommen	ADV	NN	_	4	D	4:D	_
+7	zu	zu	PART	NE	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	ich	ich	PRON	PPER	_	17	A	17:A	_
+11	meinesteils	meinesteils	ADV	ADV	_	17	D	17:D	_
+12	hätte	haben	VERB	VAFIN	_	17	D	17:D	_
+13	ganz	ganz	ADV	ADV	_	14	E	14:E	_
+14	wohl	wohl	ADV	ADV	_	17	D	17:D	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Abwechselung	Abwechselung	NOUN	NN	_	17	A	17:A	_
+17	entbehren	entbehren	VERB	VVINF	_	4	H	4:H	_
+18	können	können	AUX	VMFIN	_	17	D	17:D	_
+19	,	,	PUNCT	$,	_	17	U	17:U	_
+20	die	der	DET	PRELS	_	26	R	26:R	_
+21	Ned	Ned	PROPN	NN	_	26	A	26:A	_
+22	Land	Land	PROPN	NN	_	21	Terminal	21:Terminal	_
+23	aus	aus	ADP	APPR	_	25	R	25:R	_
+24	Widerspruchs	Widerspruchs	PROPN	NE	_	25	E	25:E	_
+25	geist	geisen	VERB	NN	_	26	A	26:A	_
+26	hineinzubringen	hineinzubring	ADJ	NE	_	16	E	16:E	_
+27	beflissen	beflissen	VERB	VVFIN	_	26	D	26:D	_
+28	war	sein	AUX	ADV	_	26	F	26:F	_
+29	.	.	PUNCT	$.	_	26	U	26:U	_
+

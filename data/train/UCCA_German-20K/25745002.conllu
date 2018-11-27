@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25745002
+# text = Von dieser Stelle aus konnte man den Himmel ziemlich klar erkennen , und ich sah vom Westwind zerzaustes Gewölk ziehen , das mit seinen Nebelfetzen am Gipfel des Berges streifte , also in mäßiger Höhe , denn der Vulkan ragte nicht mehr als 800 Fuß über den Meeresspiegel .
+1	Von	von	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Stelle	Stelle	NOUN	NN	_	11	A	11:A	_
+4	aus	aus	ADP	APPR	_	1	Terminal	1:Terminal	_
+5	konnte	können	AUX	VMFIN	_	11	D	11:D	_
+6	man	man	PRON	PIS	_	11	A	11:A	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Himmel	Himmel	NOUN	NN	_	11	A	11:A	_
+9	ziemlich	ziemlich	ADV	ADV	_	10	E	10:E	_
+10	klar	klar	ADJ	ADJD	_	11	D	11:D	_
+11	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	und	und	CCONJ	NE	_	11	L	11:L	_
+14	ich	ich	PRON	PPER	_	15	A	15:A	_
+15	sah	sehen	VERB	VVFIN	_	11	H	11:H	_
+16	vom	vom	ADP	NE	_	17	R	17:R	_
+17	Westwind	Westwind	NOUN	NE	_	18	A	18:A	_
+18	zerzaustes	zerzau	ADJ	NN	_	20	A	20:A	_
+19	Gewölk	Gewölk	NOUN	NN	_	18	A	18:A	_
+20	ziehen	ziehen	VERB	VVINF	_	15	A	15:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	das	der	PRON	PRELS	_	30	R	30:R	_
+23	mit	mit	ADP	APPR	_	25	R	25:R	_
+24	seinen	sein	DET	PPOSAT	_	25	E	25:E	_
+25	Nebelfetzen	Nebelfetzen	NOUN	NN	_	30	A	30:A	_
+26	am	am	ADJ	ADJD	_	27	R	27:R	_
+27	Gipfel	Gipfel	NOUN	NN	_	30	A	30:A	_
+28	des	der	DET	ART	_	29	R	29:R	_
+29	Berges	Berg	NOUN	NN	_	27	E	27:E	_
+30	streifte	streifen	VERB	VVFIN	_	19	E	19:E	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	also	also	ADV	ADV	_	30	F	30:F	_
+33	in	in	ADP	APPR	_	35	R	35:R	_
+34	mäßiger	mäßige	PRON	ADJA	_	35	E	35:E	_
+35	Höhe	Höhe	NOUN	NN	_	30	A	30:A	_
+36	,	,	PUNCT	$,	_	11	U	11:U	_
+37	denn	denn	SCONJ	KON	_	11	L	11:L	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Vulkan	Vulkan	NOUN	NN	_	40	A	40:A	_
+40	ragte	ragen	VERB	VVFIN	_	11	H	11:H	_
+41	nicht	nicht	PART	XY	_	40	D	40:D	_
+42	mehr	mehr	ADV	ADV	_	40	D	40:D	_
+43	als	als	ADP	KOKOM	_	40	F	40:F	_
+44	800	800	NUM	CARD	_	45	E	45:E	_
+45	Fuß	Fuß	NOUN	NN	_	40	A	40:A	_
+46	über	über	ADP	VVFIN	_	48	R	48:R	_
+47	den	der	DET	ART	_	48	E	48:E	_
+48	Meeresspiegel	Meeresspiegel	NOUN	NN	_	40	A	40:A	_
+49	.	.	PUNCT	$.	_	48	U	48:U	_
+

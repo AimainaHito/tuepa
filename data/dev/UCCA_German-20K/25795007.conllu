@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25795007
+# text = Meine Gefährten hatten gleiches zu erleiden .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Gefährten	Gefährt|Gefährte	NOUN	NE	_	6	A	6:A	_
+3	hatten	haben	VERB	VAFIN	_	6	D	6:D	_
+4	gleiches	gleich	ADJ	ADJA	_	6	A	6:A	_
+5	zu	zu	PART	VVINF	_	6	F	6:F	_
+6	erleiden	erleiden	VERB	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

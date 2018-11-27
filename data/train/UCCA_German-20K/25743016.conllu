@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25743016
+# text = Es ragten einige Gebüsche und selbst Bäume aus den Krümmungen der Wand .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	ragten	ragt	VERB	VVFIN	_	0	H	0:H	_
+3	einige	einige	PRON	PIAT	_	4	E	4:E	_
+4	Gebüsche	Gebüsche	NOUN	ADJA	_	2	A	2:A	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	selbst	selbst	ADV	VVFIN	_	2	D	2:D	_
+7	Bäume	Baum	NOUN	NN	_	4	C	4:C	_
+8	aus	aus	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Krümmungen	Krümmung	NOUN	NN	_	2	A	2:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Wand	Wand	NOUN	NN	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

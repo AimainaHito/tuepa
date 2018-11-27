@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25712016
+# text = Wir fuhren in der Richtung nach der Insel Kandia .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Richtung	Richtung	NOUN	NN	_	2	A	2:A	_
+6	nach	nach	ADP	CARD	_	9	R	9:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Insel	Insel	NOUN	NN	_	9	E	9:E	_
+9	Kandia	Kandia	PROPN	NE	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

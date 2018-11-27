@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 150005
+# text = The event garnered $ 5.8 million , which Hepburn willed to her family .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	event	event	NOUN	NN	_	3	A	3:A	_
+3	garnered	garner	VERB	VBD	_	0	H	0:H	_
+4	$	$	SYM	$	_	3	U	3:U	_
+5	5.8	5.8	NUM	CD	_	3	A	3:A	_
+6	million	million	NUM	CD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	which	which	PRON	WDT	_	3	L	3:L	_
+9	Hepburn	Hepburn	PROPN	NNP	_	10	A	10:A	_
+10	willed	wil	VERB	VBD	_	3	H	3:H	_
+11	to	to	ADP	IN	_	13	R	13:R	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	family	family	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

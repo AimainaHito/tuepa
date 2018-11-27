@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 692002
+# text = At the end of the play , Dylan performed " Blowin ' in the Wind " , one of the first major public performances of the song .
+1	At	at	ADP	IN	_	6	R	6:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	end	end	NOUN	NN	_	6	E	6:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	play	play	NOUN	NN	_	9	A	9:A	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	Dylan	Dylan	PROPN	NNP	_	9	A	9:A|24:A	_
+9	performed	perform	VERB	VBD	_	0	H	0:H	_
+10	"	"	PUNCT	``	_	9	U	9:U	_
+11	Blowin	Blowin	PROPN	NNP	_	9	A	9:A	_
+12	'	'	PUNCT	''	_	11	U	11:U	_
+13	in	in	ADP	IN	_	11	Terminal	11:Terminal	_
+14	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+15	Wind	wind	PROPN	NNP	_	11	Terminal	11:Terminal	_
+16	"	"	PUNCT	''	_	11	U	11:U	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	one	one	NUM	CD	_	24	E	24:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	first	first	ADJ	JJ	_	24	D	24:D	_
+22	major	major	ADJ	JJ	_	24	D	24:D	_
+23	public	public	ADJ	JJ	_	24	D	24:D	_
+24	performances	performance	NOUN	NNS	_	11	E	11:E	_
+25	of	of	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	song	song	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

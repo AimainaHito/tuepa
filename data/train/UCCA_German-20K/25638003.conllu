@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25638003
+# text = » Doch , Kapitän « , sagte ich , » in einem Punkt sind d'Urvilles Korvetten und die " Nautilus " einander gleich . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Doch	doch	CCONJ	ADV	_	4	D	4:D	_
+3	,	,	PUNCT	$,	_	4	U	4:U	_
+4	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	einem	ein	DET	ART	_	13	E	13:E	_
+13	Punkt	Punkt	NOUN	NN	_	23	A	23:A	_
+14	sind	sein	AUX	NN	_	23	F	23:F	_
+15	d'Urvilles	d'Urvilles	PROPN	NE	_	16	E	16:E	_
+16	Korvetten	Korvetten	PROPN	NE	_	23	A	23:A	_
+17	und	und	CCONJ	NE	_	16	N	16:N	_
+18	die	der	DET	ART	_	20	E	20:E	_
+19	"	"	PUNCT	$(	_	20	U	20:U	_
+20	Nautilus	Nautilus	PROPN	NE	_	16	C	16:C	_
+21	"	"	PUNCT	$(	_	23	U	23:U	_
+22	einander	einander	ADV	ADV	_	23	D	23:D	_
+23	gleich	gleich	ADJ	PTKVZ	_	4	H	4:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

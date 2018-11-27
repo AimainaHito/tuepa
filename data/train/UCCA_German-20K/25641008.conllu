@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25641008
+# text = Man schützt , verehrt , nährt sie , bietet ihnen junge Mädchen zur Nahrung an , und wehe dem Fremden , der Hand an diese heiligen Tiere legt !
+1	Man	man	PRON	PIS	_	2	A	2:A|9:A|6:A|4:A	_
+2	schützt	schützen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	verehrt	verehren	VERB	VVFIN	_	2	H	2:H	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	nährt	nahren	VERB	VVFIN	_	2	H	2:H	_
+7	sie	sie	PRON	ADV	_	6	A	6:A|4:A|2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	bietet	bieten	VERB	VVFIN	_	2	H	2:H	_
+10	ihnen	sie	PRON	PPER	_	9	A	9:A	_
+11	junge	jung	ADJ	ADJA	_	12	E	12:E	_
+12	Mädchen	Mädchen	NOUN	NN	_	9	A	9:A	_
+13	zur	zur	ADP	NE	_	14	R	14:R	_
+14	Nahrung	Nahrung	NOUN	NN	_	9	A	9:A	_
+15	an	an	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	und	und	CCONJ	NE	_	2	L	2:L	_
+18	wehe	wehe	VERB	VVFIN	_	2	H	2:H	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Fremden	Fremde	NOUN	NN	_	18	A	18:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Hand	Hand	NOUN	NN	_	20	E	20:E	_
+24	an	an	ADP	APPR	_	27	R	27:R	_
+25	diese	dies	PRON	PDAT	_	27	E	27:E	_
+26	heiligen	heilig	ADJ	ADJA	_	27	E	27:E	_
+27	Tiere	Tier	NOUN	NN	_	23	A	23:A	_
+28	legt	legen	VERB	VVFIN	_	23	Terminal	23:Terminal	_
+29	!	!	PUNCT	$.	_	23	U	23:U	_
+

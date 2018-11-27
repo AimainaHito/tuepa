@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 416003
+# text = Mon départ pour la France était fixé aux premiers jours de mai .
+1	Mon	son	DET	_	_	2	E	2:E	_
+2	départ	départ	NOUN	_	_	7	A	7:A	_
+3	pour	pour	ADP	_	_	5	R	5:R	_
+4	la	le	DET	_	_	5	E	5:E	_
+5	France	France	PROPN	_	_	2	A	2:A	_
+6	était	être	AUX	_	_	7	F	7:F	_
+7	fixé	fixer	VERB	_	_	0	H	0:H	_
+8	aux	au	ADJ	_	_	10	R	10:R	_
+9	premiers	premier	ADJ	_	_	10	E	10:E	_
+10	jours	jour	NOUN	_	_	12	E	12:E	_
+11	de	de	ADP	_	_	10	R	10:R	_
+12	mai	mai	NOUN	_	_	7	D	7:D	_
+13	.	.	PUNCT	_	_	12	U	12:U	_
+

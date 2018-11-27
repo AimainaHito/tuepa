@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25525001
+# text = « » Meine Freunde « , erwiderte ich , indem ich ihnen winkte ein zu treten , » Sie sind weder in Kanada noch in Frankreich , sondern an Bord der ›Nautilus‹ , 50 Meter unter dem Meeres spiegel ! «
+1	«	«	PUNCT	$(	_	20	U	20:U	_
+2	»	»	PUNCT	$(	_	20	U	20:U	_
+3	Meine	mein	PROPN	PPOSAT	_	4	E	4:E	_
+4	Freunde	Freund	PROPN	NN	_	20	G	20:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	indem	indem	SCONJ	KOUS	_	7	L	7:L	_
+11	ich	ich	PRON	PPER	_	13	A	13:A	_
+12	ihnen	sie	PRON	PPER	_	13	A	13:A|14:A	_
+13	winkte	winken	VERB	VVFIN	_	7	H	7:H	_
+14	ein	ein	DET	ART	_	13	A	13:A	_
+15	zu	zu	PART	NN	_	14	F	14:F	_
+16	treten	treten	VERB	VVFIN	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	$,	_	7	U	7:U	_
+18	»	»	PUNCT	$(	_	7	U	7:U	_
+19	Sie	Sie|sie	PRON	PPER	_	20	A	20:A	_
+20	sind	sein	AUX	NN	_	7	A	7:A	_
+21	weder	weder	CCONJ	NN	_	20	D	20:D	_
+22	in	in	ADP	APPR	_	23	R	23:R	_
+23	Kanada	Kanada	PROPN	NE	_	20	A	20:A	_
+24	noch	noch	ADV	CARD	_	20	D	20:D	_
+25	in	in	ADP	APPR	_	26	R	26:R	_
+26	Frankreich	Frankreich	PROPN	NE	_	20	A	20:A	_
+27	,	,	PUNCT	$,	_	20	U	20:U	_
+28	sondern	sondern	CCONJ	NE	_	20	D	20:D	_
+29	an	an	ADP	APPR	_	30	R	30:R	_
+30	Bord	Bord	NOUN	NN	_	20	A	20:A	_
+31	der	der	DET	ART	_	32	R	32:R	_
+32	›Nautilus‹	›Nautilus‹	NOUN	NE	_	30	E	30:E	_
+33	,	,	PUNCT	$,	_	20	U	20:U	_
+34	50	50	NUM	CARD	_	35	E	35:E	_
+35	Meter	Meter	NOUN	NN	_	39	E	39:E	_
+36	unter	unter	ADP	ADJD	_	39	R	39:R	_
+37	dem	der	DET	ART	_	39	E	39:E	_
+38	Meeres	Meer	NOUN	NN	_	39	E	39:E	_
+39	spiegel	spiegel	PROPN	NN	_	20	A	20:A	_
+40	!	!	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

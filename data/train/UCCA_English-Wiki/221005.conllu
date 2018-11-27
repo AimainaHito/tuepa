@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 221005
+# text = She gained German citizenship in 2011 and now holds dual citizenship with Germany and the U . S .
+1	She	she	PRON	PRP	_	2	A	2:A|9:A	_
+2	gained	gain	VERB	VBD	_	0	H	0:H	_
+3	German	german	ADJ	JJ	_	4	E	4:E	_
+4	citizenship	citizenship	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	2011	2011	NUM	CD	_	2	D	2:D	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	now	now	ADV	RB	_	9	D	9:D	_
+9	holds	hold	VERB	VBZ	_	2	H	2:H	_
+10	dual	dual	ADJ	JJ	_	11	E	11:E	_
+11	citizenship	citizenship	NOUN	NN	_	9	A	9:A	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	Germany	Germany	PROPN	NNP	_	11	E	11:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	U	u	PROPN	NNP	_	13	C	13:C	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+18	S	s	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

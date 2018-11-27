@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25704010
+# text = Es kam von Zeit zu Zeit zum Atmen an die Oberfläche ; es war durch die Wunde nicht entkräftet , denn es schwamm äußerst schnell .
+1	Es	es	PRON	PPER	_	2	A	2:A|8:A	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	von	von	ADP	NN	_	2	D	2:D	_
+4	Zeit	Zeit	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	zu	zu	ADP	ADJA	_	3	Terminal	3:Terminal	_
+6	Zeit	Zeit	NOUN	NN	_	3	Terminal	3:Terminal	_
+7	zum	zum	ADP	NN	_	8	R	8:R	_
+8	Atmen	Atmen	NOUN	NE	_	2	H	2:H	_
+9	an	an	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Oberfläche	Oberfläche	NOUN	NN	_	2	A	2:A	_
+12	;	;	PUNCT	$.	_	2	U	2:U	_
+13	es	es	PRON	PPER	_	19	A	19:A	_
+14	war	sein	AUX	ADV	_	19	F	19:F	_
+15	durch	durch	ADP	APPR	_	17	R	17:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Wunde	Wunde	NOUN	NN	_	19	A	19:A	_
+18	nicht	nicht	PART	CARD	_	19	D	19:D	_
+19	entkräftet	entkräften	ADJ	VVPP	_	2	H	2:H	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	denn	denn	SCONJ	KON	_	2	L	2:L	_
+22	es	es	PRON	PPER	_	23	A	23:A	_
+23	schwamm	schwamm	ADJ	NN	_	2	H	2:H	_
+24	äußerst	äußerst	ADV	NN	_	25	E	25:E	_
+25	schnell	schnell	ADJ	NE	_	23	D	23:D	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

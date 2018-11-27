@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25620009
+# text = Ich dachte sogar , es werde uns jemand von der Mannschaft beigegeben werden und Ned Land nur beauftragt die Landung zu leiten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	sogar	sogar	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	es	es	PRON	PPER	_	12	F	12:F	_
+6	werde	werden	AUX	NN	_	12	F	12:F	_
+7	uns	wir	PRON	NN	_	12	A	12:A	_
+8	jemand	jemand	PRON	PIS	_	12	A	12:A	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Mannschaft	Mannschaft	NOUN	NN	_	8	E	8:E	_
+12	beigegeben	beigegeben	VERB	VVFIN	_	2	A	2:A	_
+13	werden	werden	AUX	ADV	_	12	F	12:F	_
+14	und	und	CCONJ	NE	_	12	L	12:L	_
+15	Ned	Ned	PROPN	NE	_	18	A	18:A|22:A	_
+16	Land	Land	PROPN	NN	_	15	Terminal	15:Terminal	_
+17	nur	nur	ADV	NE	_	18	D	18:D	_
+18	beauftragt	beauftragen	VERB	VVFIN	_	12	H	12:H	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Landung	Landung	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	leiten	leiten	VERB	VVINF	_	18	A	18:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

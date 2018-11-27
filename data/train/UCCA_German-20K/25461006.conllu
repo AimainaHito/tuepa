@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25461006
+# text = Wie oft teilte ich die Aufregung der Offiziere , der Mannschaft , wann ein Walfisch launisch mit schwärzlichem Rücken aus dem Gewässer hervorragte .
+1	Wie	wie	ADV	KON	_	2	E	2:E	_
+2	oft	oft	ADV	CARD	_	3	D	3:D	_
+3	teilte	teilen	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Aufregung	Aufregung	NOUN	NN	_	3	A	3:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Offiziere	Offizier	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Mannschaft	Mannschaft	NOUN	NN	_	8	C	8:C	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	wann	wann	ADV	VVFIN	_	3	L	3:L	_
+14	ein	ein	DET	ART	_	15	E	15:E	_
+15	Walfisch	Walfisch	NOUN	NN	_	23	A	23:A	_
+16	launisch	launisch	ADJ	ADJD	_	23	D	23:D	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	schwärzlichem	schwärzlich	ADJ	ADJA	_	19	E	19:E	_
+19	Rücken	Rücken	NOUN	NN	_	23	A	23:A	_
+20	aus	aus	ADP	APPR	_	22	R	22:R	_
+21	dem	der	DET	ART	_	22	E	22:E	_
+22	Gewässer	Gewässer	NOUN	NN	_	23	A	23:A	_
+23	hervorragte	hervorragen	VERB	VVFIN	_	3	H	3:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

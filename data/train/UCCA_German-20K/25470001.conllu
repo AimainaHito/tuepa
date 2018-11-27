@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25470001
+# text = Es war nicht bloß ein Phosphoreszieren , und man konnte sich nicht irren .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	bloß	bloßen	ADJ	ADV	_	2	D	2:D	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Phosphoreszieren	Phosphoreszieren	NOUN	NE	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	man	man	PRON	PIS	_	11	A	11:A	_
+10	konnte	können	AUX	VMFIN	_	11	D	11:D	_
+11	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+12	nicht	nicht	PART	XY	_	11	D	11:D	_
+13	irren	irren	VERB	NN	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	$.	_	11	U	11:U	_
+

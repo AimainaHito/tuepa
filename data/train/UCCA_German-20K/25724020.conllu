@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25724020
+# text = Das Zimmer war leer ; ich drückte die Tür auf , tat einige Schritte hinein .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Zimmer	Zimmer	NOUN	NN	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	leer	leer	ADJ	ADJD	_	0	H	0:H	_
+5	;	;	PUNCT	$.	_	4	U	4:U	_
+6	ich	ich	PRON	PPER	_	7	A	7:A|15:A	_
+7	drückte	drücken	VERB	VVFIN	_	4	H	4:H	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Tür	Tür	NOUN	NN	_	7	A	7:A	_
+10	auf	auf	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	tat	tun	VERB	VVFIN	_	15	F	15:F	_
+13	einige	einige	PRON	PIAT	_	14	E	14:E	_
+14	Schritte	Schritt	NOUN	NN	_	15	A	15:A	_
+15	hinein	hinein	ADV	PTKVZ	_	4	H	4:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

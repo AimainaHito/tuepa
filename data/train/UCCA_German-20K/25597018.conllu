@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25597018
+# text = Ich bewunderte das merkwürdige Säugetier mit rundem Kopf und kurzen Ohren , runden Augen , weißen Schnauz borsten , wie die Katzen haben , handförmigen Füßen mit Krallen und buschigem Schwanz .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bewunderte	bewunderen	VERB	VVFIN	_	0	H	0:H	_
+3	das	der	DET	ART	_	5	E	5:E	_
+4	merkwürdige	merkwürdig	ADJ	ADJA	_	5	E	5:E	_
+5	Säugetier	Säugetier	NOUN	NN	_	2	A	2:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	rundem	rundem	ADV	ADJA	_	8	E	8:E	_
+8	Kopf	Kopf	NOUN	NN	_	5	E	5:E	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	kurzen	kurz	ADJ	ADJA	_	11	E	11:E	_
+11	Ohren	Ohr	NOUN	NN	_	8	C	8:C	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	runden	rund	ADJ	ADJA	_	14	E	14:E	_
+14	Augen	Auge	NOUN	NN	_	5	E	5:E	_
+15	,	,	PUNCT	$,	_	5	U	5:U	_
+16	weißen	weiß	ADJ	ADJA	_	18	E	18:E	_
+17	Schnauz	Schnauz	NOUN	NE	_	18	E	18:E	_
+18	borsten	borsen	VERB	NN	_	5	E	5:E	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	wie	wie	SCONJ	KON	_	23	R	23:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Katzen	Katze	NOUN	NN	_	23	A	23:A	_
+23	haben	haben	VERB	VAFIN	_	18	E	18:E	_
+24	,	,	PUNCT	$,	_	5	U	5:U	_
+25	handförmigen	handförmig	ADJ	ADJA	_	26	E	26:E	_
+26	Füßen	Fuß	NOUN	NN	_	5	E	5:E	_
+27	mit	mit	ADP	APPR	_	28	R	28:R	_
+28	Krallen	Kralle|Krallen	NOUN	ADJA	_	26	E	26:E	_
+29	und	und	CCONJ	NN	_	26	N	26:N	_
+30	buschigem	buschigem	ADJ	ADJA	_	31	E	31:E	_
+31	Schwanz	Schwanz	NOUN	NN	_	26	C	26:C	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

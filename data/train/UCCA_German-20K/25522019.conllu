@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25522019
+# text = Er wartete einige Minuten , bis das Gestirn am Rand des Horizonts in gleiche Ebene kam .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	wartete	warten	VERB	VVFIN	_	0	H	0:H	_
+3	einige	einige	PRON	PIAT	_	4	E	4:E	_
+4	Minuten	Minute	NOUN	NN	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	bis	bis	SCONJ	KOUS	_	2	L	2:L	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Gestirn	Gestirn	NOUN	NN	_	16	A	16:A	_
+9	am	am	ADJ	ADJD	_	10	R	10:R	_
+10	Rand	Rand	NOUN	NN	_	8	E	8:E	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Horizonts	Horizont	NOUN	NN	_	10	E	10:E	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	gleiche	gleich	ADJ	ADJA	_	15	E	15:E	_
+15	Ebene	Ebene	NOUN	NN	_	16	A	16:A	_
+16	kam	kommen	VERB	VVFIN	_	2	H	2:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

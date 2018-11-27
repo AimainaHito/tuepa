@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25489087
+# text = Nachdem auch dieser letzte Versuch gescheitert war , wechselten die beiden Unbekannten einige Worte in ihrer unverständlichen Sprache und zogen sich ohne irgendein Wort der Beruhigung zurück .
+1	Nachdem	nachdem	SCONJ	KOUS	_	6	L	6:L	_
+2	auch	auch	ADV	ADV	_	6	D	6:D	_
+3	dieser	dies	PRON	PDAT	_	5	E	5:E	_
+4	letzte	letzt	ADJ	ADJA	_	5	E	5:E	_
+5	Versuch	Versuch	NOUN	NN	_	6	A	6:A	_
+6	gescheitert	scheitern	VERB	VVFIN	_	0	H	0:H	_
+7	war	sein	AUX	ADV	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	wechselten	wechseln	VERB	VVFIN	_	6	H	6:H	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	beiden	beide	PRON	PIAT	_	12	E	12:E	_
+12	Unbekannten	unbekannt	NOUN	NN	_	0	C	0:C|20:A	_
+13	einige	einige	PRON	PIAT	_	9	Terminal	9:Terminal	_
+14	Worte	Wort	NOUN	NN	_	9	Terminal	9:Terminal	_
+15	in	in	ADP	APPR	_	18	R	18:R	_
+16	ihrer	ihr	DET	PPOSAT	_	18	E	18:E	_
+17	unverständlichen	unverständlich	ADJ	ADJA	_	18	E	18:E	_
+18	Sprache	Sprache	NOUN	NN	_	9	A	9:A	_
+19	und	und	CCONJ	NE	_	6	L	6:L	_
+20	zogen	ziehen	VERB	VVFIN	_	6	H	6:H	_
+21	sich	er|es|sie	PRON	PRF	_	20	Terminal	20:Terminal	_
+22	ohne	ohne	ADP	NN	_	20	D	20:D	_
+23	irgendein	irgendein	PRON	PIAT	_	24	E	24:E	_
+24	Wort	Wort	NOUN	NN	_	20	A	20:A	_
+25	der	der	DET	ART	_	24	R	24:R	_
+26	Beruhigung	Beruhigung	NOUN	NN	_	24	E	24:E	_
+27	zurück	zurück	ADV	ADJA	_	20	Terminal	20:Terminal	_
+28	.	.	PUNCT	$.	_	20	U	20:U	_
+

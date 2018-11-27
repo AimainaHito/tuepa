@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 191007
+# text = Sorkin 's last produced screenplay for Castle Rock was The American President and once again he worked with William Goldman , who served as a creative consultant .
+1	Sorkin	Sorkin	PROPN	NNP	_	5	E	5:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	last	last	ADJ	JJ	_	5	E	5:E	_
+4	produced	produce	VERB	VBN	_	5	E	5:E	_
+5	screenplay	screenplay	NOUN	NN	_	9	A	9:A	_
+6	for	for	ADP	IN	_	7	R	7:R	_
+7	Castle	Castle	NOUN	NN	_	5	E	5:E	_
+8	Rock	rock	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	was	be	AUX	VBD	_	0	H	0:H	_
+10	The	the	DET	DT	_	9	A	9:A	_
+11	American	american	ADJ	JJ	_	10	Terminal	10:Terminal	_
+12	President	President	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	and	and	CCONJ	CC	_	9	L	9:L	_
+14	once	once	ADV	RB	_	15	E	15:E	_
+15	again	again	ADV	RB	_	17	D	17:D	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	worked	work	VERB	VBD	_	9	H	9:H	_
+18	with	with	ADP	IN	_	19	R	19:R	_
+19	William	William	PROPN	NNP	_	17	A	17:A	_
+20	Goldman	Goldman	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	19	U	19:U	_
+22	who	who	PRON	WP	_	23	F	23:F	_
+23	served	serve	VERB	VBD	_	19	E	19:E	_
+24	as	as	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	creative	creative	ADJ	JJ	_	27	E	27:E	_
+27	consultant	consultant	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

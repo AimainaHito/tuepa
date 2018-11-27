@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25746017
+# text = Kapitän Nemo steuerte gerade südwärts .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	steuerte	steuern	VERB	VVFIN	_	0	H	0:H	_
+4	gerade	gerade	ADV	ADV	_	5	E	5:E	_
+5	südwärts	südwärts	ADV	ADV	_	3	D	3:D	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

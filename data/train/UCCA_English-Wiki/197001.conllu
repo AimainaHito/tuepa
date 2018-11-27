@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 197001
+# text = The next year he completed the screenplay under the title " The Farnsworth Invention " , and it was picked up by New Line Cinema with Thomas Schlamme signed on to direct .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	5	D	5:D	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	completed	complete	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	screenplay	screenplay	NOUN	NN	_	5	A	5:A	_
+8	under	under	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	title	title	NOUN	NN	_	12	E	12:E	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	The	the	DET	DT	_	5	A	5:A	_
+13	Farnsworth	Farnsworth	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Invention	invention	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	"	"	PUNCT	''	_	5	U	5:U	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	and	and	CCONJ	CC	_	5	L	5:L	_
+18	it	it	PRON	PRP	_	20	A	20:A	_
+19	was	be	AUX	VBD	_	20	F	20:F	_
+20	picked	pick	VERB	VBN	_	5	H	5:H	_
+21	up	up	ADP	RP	_	20	E	20:E	_
+22	by	by	ADP	IN	_	23	R	23:R	_
+23	New	New	PROPN	NNP	_	20	A	20:A	_
+24	Line	Line	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	Cinema	cinema	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	with	with	ADP	IN	_	29	R	29:R	_
+27	Thomas	Thomas	PROPN	NNP	_	29	A	29:A|32:A	_
+28	Schlamme	Schlamme	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	signed	sign	VERB	VBD	_	20	A	20:A	_
+30	on	on	ADP	IN	_	29	Terminal	29:Terminal	_
+31	to	to	ADP	IN	_	32	F	32:F	_
+32	direct	direct	ADJ	JJ	_	29	A	29:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25441003
+# text = Dieses vortreffliche Instrument amerikanischen Ursprungs schleuderte leicht ein konisches Projektil von 4 Kilogramm auf eine durchschnittliche Entfernung von 16 Kilometer .
+1	Dieses	dies	PRON	PDAT	_	3	E	3:E	_
+2	vortreffliche	vortrefflich	ADJ	ADJA	_	3	E	3:E	_
+3	Instrument	Instrument	NOUN	NN	_	6	A	6:A	_
+4	amerikanischen	amerikanisch	ADJ	ADJA	_	5	E	5:E	_
+5	Ursprungs	Ursprung	NOUN	NN	_	3	E	3:E	_
+6	schleuderte	schleudern	VERB	VVFIN	_	0	H	0:H	_
+7	leicht	leicht	ADJ	ADJD	_	6	D	6:D	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	konisches	konisch	ADJ	ADJA	_	10	E	10:E	_
+10	Projektil	Projektil	NOUN	NN	_	6	A	6:A	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	4	4	NUM	CARD	_	10	E	10:E	_
+13	Kilogramm	Kilogramm	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	auf	auf	ADP	APPR	_	17	R	17:R	_
+15	eine	ein	DET	ART	_	17	E	17:E	_
+16	durchschnittliche	durchschnittlich	ADJ	ADJA	_	17	E	17:E	_
+17	Entfernung	Entfernung	NOUN	NN	_	6	A	6:A	_
+18	von	von	ADP	NN	_	19	R	19:R	_
+19	16	16	NUM	CARD	_	17	E	17:E	_
+20	Kilometer	Kilometer	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

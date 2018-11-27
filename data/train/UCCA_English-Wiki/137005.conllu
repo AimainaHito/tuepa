@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 137005
+# text = She later referred to this as the biggest disappointment of her career .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	referred	refer	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	5	R	5:R	_
+5	this	this	PRON	DT	_	3	A	3:A	_
+6	as	as	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	biggest	biggest	ADJ	JJS	_	9	E	9:E	_
+9	disappointment	disappointment	NOUN	NN	_	3	A	3:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	career	career	NOUN	NN	_	9	E	9:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

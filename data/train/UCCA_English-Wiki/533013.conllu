@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 533013
+# text = On June 26 , Deans took Garland 's remains to New York City , where an estimated 20,000 people lined up for hours at the Frank E. Campbell Funeral Chapel in Manhattan to pay their respects .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	June	June	PROPN	NNP	_	6	D	6:D	_
+3	26	26	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Deans	Deans	PROPN	NNPS	_	6	A	6:A	_
+6	took	take	VERB	VBD	_	0	H	0:H	_
+7	Garland	Garland	PROPN	NNP	_	9	E	9:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	remains	remain	NOUN	NNS	_	6	A	6:A	_
+10	to	to	ADP	IN	_	11	R	11:R	_
+11	New	New	PROPN	NNP	_	6	A	6:A	_
+12	York	York	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	City	City	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	where	where	ADV	WRB	_	6	L	6:L	_
+16	an	a	DET	DT	_	19	E	19:E	_
+17	estimated	estimate	VERB	VBN	_	19	E	19:E	_
+18	20,000	20,000	NUM	CD	_	19	E	19:E	_
+19	people	people	NOUN	NNS	_	0	C	0:C|36:A	_
+20	lined	line	VERB	VBN	_	6	H	6:H	_
+21	up	up	ADP	RP	_	20	Terminal	20:Terminal	_
+22	for	for	ADP	IN	_	23	R	23:R	_
+23	hours	hour	NOUN	NNS	_	20	D	20:D	_
+24	at	at	ADP	IN	_	30	R	30:R	_
+25	the	the	DET	DT	_	30	E	30:E	_
+26	Frank	Frank	PROPN	NNP	_	30	E	30:E	_
+27	E.	E.	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	Campbell	Campbell	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	Funeral	funeral	PROPN	NNP	_	30	E	30:E	_
+30	Chapel	chapel	PROPN	NNP	_	20	A	20:A	_
+31	in	in	ADP	IN	_	32	R	32:R	_
+32	Manhattan	Manhattan	PROPN	NNP	_	30	E	30:E	_
+33	to	to	PART	TO	_	6	L	6:L	_
+34	pay	pay	VERB	VB	_	36	F	36:F	_
+35	their	they	PRON	PRP$	_	36	E	36:E	_
+36	respects	respects	NOUN	NNS	_	6	H	6:H	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

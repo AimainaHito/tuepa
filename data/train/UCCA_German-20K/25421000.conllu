@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25421000
+# text = Aber bald musste ich , aufs äußerste gedrängt , mich kategorisch erklären .
+1	Aber	aber	CCONJ	KON	_	10	L	10:L	_
+2	bald	bald	ADV	ADV	_	10	D	10:D	_
+3	musste	müssen	AUX	VVFIN	_	10	D	10:D	_
+4	ich	ich	PRON	PPER	_	10	A	10:A|8:A	_
+5	,	,	PUNCT	$,	_	8	U	8:U	_
+6	aufs	aufs	ADV	NN	_	7	R	7:R	_
+7	äußerste	äußerst	ADJ	ADJA	_	8	D	8:D	_
+8	gedrängt	drängen	VERB	VVPP	_	10	H	10:H	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	mich	ich	PRON	PRF	_	0	H	0:H	_
+11	kategorisch	kategorisch	ADJ	ADJD	_	10	D	10:D	_
+12	erklären	erklären	VERB	VVINF	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 444004
+# text = On en avait tant causé , et même par le câble transatlantique !
+1	On	on	PRON	_	_	5	A	5:A	_
+2	en	en	PRON	_	_	5	A	5:A	_
+3	avait	avoir	AUX	_	_	5	F	5:F	_
+4	tant	tant	ADV	_	_	5	D	5:D	_
+5	causé	causer	VERB	_	_	0	H	0:H	_
+6	,	,	PUNCT	_	_	5	U	5:U	_
+7	et	et	CCONJ	_	_	5	F	5:F	_
+8	même	même	ADV	_	_	11	E	11:E	_
+9	par	par	ADP	_	_	11	R	11:R	_
+10	le	le	DET	_	_	11	E	11:E	_
+11	câble	câble	NOUN	_	_	5	A	5:A	_
+12	transatlantique	transatlantique	ADJ	_	_	11	E	11:E	_
+13	!	!	PUNCT	_	_	11	U	11:U	_
+

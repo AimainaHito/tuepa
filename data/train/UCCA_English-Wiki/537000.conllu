@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 537000
+# text = Jack Warner was born in London , Ontario , Canada in 1892 .
+1	Jack	Jack	PROPN	NNP	_	4	A	4:A	_
+2	Warner	Warner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	born	bear	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	London	London	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Ontario	Ontario	PROPN	NNP	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	Canada	Canada	PROPN	NNP	_	6	E	6:E	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1892	1892	NUM	CD	_	4	D	4:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

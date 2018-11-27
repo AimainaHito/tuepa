@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 150004
+# text = In 2004 , in accordance with Hepburn 's wishes , her belongings were put up for auction with Sotheby 's in New York .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	14	D	14:D	_
+3	,	,	PUNCT	,	_	14	U	14:U	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	accordance	accordance	NOUN	NN	_	14	L	14:L	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	Hepburn	Hepburn	PROPN	NNP	_	9	A	9:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	wishes	wish	NOUN	NNS	_	14	H	14:H	_
+10	,	,	PUNCT	,	_	14	U	14:U	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	belongings	belongings	NOUN	NNS	_	14	A	14:A	_
+13	were	be	AUX	VBD	_	14	F	14:F	_
+14	put	put	VERB	VBN	_	0	H	0:H	_
+15	up	up	ADP	RP	_	14	Terminal	14:Terminal	_
+16	for	for	ADP	IN	_	14	Terminal	14:Terminal	_
+17	auction	auction	NOUN	NN	_	14	Terminal	14:Terminal	_
+18	with	with	ADP	IN	_	19	R	19:R	_
+19	Sotheby	Sotheby	PROPN	NNP	_	14	A	14:A	_
+20	's	's	PART	POS	_	19	Terminal	19:Terminal	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	New	New	PROPN	NNP	_	19	E	19:E	_
+23	York	York	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

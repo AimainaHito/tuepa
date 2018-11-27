@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25797010
+# text = Und was für kräftige Atemzüge !
+1	Und	und	CCONJ	ADJD	_	4	L	4:L	_
+2	was	was	PRON	NE	_	4	F	4:F	_
+3	für	für	ADP	APPR	_	4	F	4:F	_
+4	kräftige	kräftig	ADJ	ADJA	_	0	H	0:H	_
+5	Atemzüge	Atemzug	NOUN	NN	_	4	A	4:A	_
+6	!	!	PUNCT	$.	_	4	U	4:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25719001
+# text = » Die Sonnenwärme ist nicht ausreichend , Conseil . Kann sie einen Leichnam sein Leben wiedergeben ? « » Nein , soviel ich weiß . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Sonnenwärme	Sonnenwärme	NOUN	NN	_	6	A	6:A	_
+4	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	ausreichend	ausreichend	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Conseil	Conseil	NOUN	NE	_	6	G	6:G	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	Kann	können	AUX	VMFIN	_	16	D	16:D	_
+11	sie	sie	PRON	ADV	_	16	A	16:A	_
+12	einen	ein	DET	ART	_	13	E	13:E	_
+13	Leichnam	Leichnam	NOUN	NN	_	16	A	16:A	_
+14	sein	sein	DET	PPOSAT	_	15	E	15:E	_
+15	Leben	Leben	NOUN	NN	_	0	C	0:C|20:A	_
+16	wiedergeben	wiedergeben	VERB	VVFIN	_	0	P	0:P|20:P	_
+17	?	?	PUNCT	$.	_	20	U	20:U	_
+18	«	«	PUNCT	$(	_	20	U	20:U	_
+19	»	»	PUNCT	$(	_	20	U	20:U	_
+20	Nein	nein	PART	PTKANT	_	24	A	24:A	_
+21	,	,	PUNCT	$,	_	24	U	24:U	_
+22	soviel	soviel	VERB	NE	_	24	D	24:D	_
+23	ich	ich	PRON	PPER	_	24	A	24:A	_
+24	weiß	wissen	ADJ	VVFIN	_	6	H	6:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

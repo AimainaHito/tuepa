@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 180009
+# text = The second daughter , Gloria Ray , was born April 19 , 2012 .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	second	second	ADJ	JJ	_	3	E	3:E	_
+3	daughter	daughter	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Gloria	Gloria	PROPN	NNP	_	9	A	9:A	_
+6	Ray	Ray	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	born	bear	VERB	VBN	_	0	H	0:H	_
+10	April	April	PROPN	NNP	_	9	D	9:D	_
+11	19	19	NUM	CD	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	2012	2012	NUM	CD	_	10	Terminal	10:Terminal	_
+14	.	.	PUNCT	.	_	9	U	9:U	_
+

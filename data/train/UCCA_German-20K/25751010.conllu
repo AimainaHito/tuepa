@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25751010
+# text = Ich fragte Kapitän Nemo , ob er in noch größerer Tiefe Fische bemerkt habe .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	ob	ob	SCONJ	VVFIN	_	13	R	13:R	_
+7	er	er	PRON	PPER	_	13	A	13:A	_
+8	in	in	ADP	APPR	_	11	R	11:R	_
+9	noch	noch	ADV	CARD	_	10	E	10:E	_
+10	größerer	groß	ADJ	ADJA	_	11	E	11:E	_
+11	Tiefe	Tiefe	NOUN	NN	_	13	A	13:A	_
+12	Fische	Fische	PROPN	NN	_	13	A	13:A	_
+13	bemerkt	bemerken	VERB	VVPP	_	2	A	2:A	_
+14	habe	haben	AUX	VAFIN	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

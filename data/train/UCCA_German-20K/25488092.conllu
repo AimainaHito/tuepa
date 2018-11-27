@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25488092
+# text = » Sie sind auch von dem Stoß ins Meer geschleudert worden ?
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Sie	Sie|sie	PRON	PPER	_	10	A	10:A	_
+3	sind	sein	AUX	NN	_	10	F	10:F	_
+4	auch	auch	ADV	ADV	_	10	D	10:D	_
+5	von	von	ADP	NN	_	7	R	7:R	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Stoß	Stoß	NOUN	NN	_	10	A	10:A	_
+8	ins	in	DET	NE	_	9	R	9:R	_
+9	Meer	Meer	NOUN	NN	_	10	A	10:A	_
+10	geschleudert	schleudern	VERB	VVPP	_	0	H	0:H	_
+11	worden	werden	AUX	ADV	_	10	F	10:F	_
+12	?	?	PUNCT	$.	_	10	U	10:U	_
+

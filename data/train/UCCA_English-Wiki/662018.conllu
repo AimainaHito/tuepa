@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 662018
+# text = Through the release of Merry Christmas , Columbia hoped that audiences would buy Carey 's material solely for her name and reputation , and squash fears of her being a typical pop singer .
+1	Through	through	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	release	release	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	Merry	Merry	PROPN	NNP	_	3	A	3:A	_
+6	Christmas	Christmas	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	Columbia	Columbia	PROPN	NNP	_	9	A	9:A|25:A	_
+9	hoped	hope	VERB	VBD	_	3	H	3:H	_
+10	that	that	SCONJ	IN	_	13	F	13:F	_
+11	audiences	audience	NOUN	NNS	_	13	A	13:A	_
+12	would	would	AUX	MD	_	13	F	13:F	_
+13	buy	buy	VERB	VB	_	9	A	9:A	_
+14	Carey	Carey	PROPN	NNP	_	16	E	16:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	material	material	NOUN	NN	_	13	A	13:A	_
+17	solely	solely	ADV	RB	_	3	L	3:L	_
+18	for	for	ADP	IN	_	17	R	17:R	_
+19	her	she	PRON	PRP$	_	20	E	20:E	_
+20	name	name	NOUN	NN	_	3	H	3:H	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	reputation	reputation	NOUN	NN	_	20	C	20:C	_
+23	,	,	PUNCT	,	_	3	U	3:U	_
+24	and	and	CCONJ	CC	_	3	L	3:L	_
+25	squash	squash	ADJ	JJ	_	3	H	3:H	_
+26	fears	fear	NOUN	NNS	_	25	A	25:A	_
+27	of	of	ADP	IN	_	33	R	33:R	_
+28	her	she	PRON	PRP	_	33	A	33:A	_
+29	being	be	AUX	VBG	_	33	D	33:D	_
+30	a	a	DET	DT	_	33	E	33:E	_
+31	typical	typical	ADJ	JJ	_	33	E	33:E	_
+32	pop	pop	NOUN	NN	_	33	E	33:E	_
+33	singer	singer	NOUN	NN	_	26	E	26:E	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

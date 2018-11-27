@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 379004
+# text = In Brokeback Mountain , Gyllenhaal and Heath Ledger play young men who meet as sheep herders and embark upon a sexual relationship that begins in the summer of 1963 and lasts for 20 years .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Brokeback	Brokeback	PROPN	NNP	_	9	A	9:A	_
+3	Mountain	Mountain	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	9	A	9:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Heath	Heath	PROPN	NNP	_	5	C	5:C	_
+8	Ledger	ledger	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	play	play	VERB	VB	_	0	H	0:H	_
+10	young	young	ADJ	JJ	_	11	E	11:E	_
+11	men	man	NOUN	NNS	_	9	A	9:A	_
+12	who	who	PRON	WP	_	13	F	13:F	_
+13	meet	meet	VERB	VBP	_	11	E	11:E	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	sheep	sheep	ADJ	JJ	_	16	E	16:E	_
+16	herders	herder	NOUN	NNS	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	13	L	13:L	_
+18	embark	embark	NOUN	NN	_	13	H	13:H	_
+19	upon	upon	ADP	IN	_	22	R	22:R	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	sexual	sexual	ADJ	JJ	_	22	E	22:E	_
+22	relationship	relationship	NOUN	NN	_	0	C	0:C|31:A	_
+23	that	that	PRON	WDT	_	24	F	24:F	_
+24	begins	begin	VERB	VBZ	_	18	A	18:A	_
+25	in	in	ADP	IN	_	29	R	29:R	_
+26	the	the	DET	DT	_	29	E	29:E	_
+27	summer	summer	NOUN	NN	_	29	E	29:E	_
+28	of	of	ADP	IN	_	29	R	29:R	_
+29	1963	1963	NUM	CD	_	24	D	24:D	_
+30	and	and	CCONJ	CC	_	24	L	24:L	_
+31	lasts	last	VERB	VBZ	_	24	H	24:H	_
+32	for	for	ADP	IN	_	34	R	34:R	_
+33	20	20	NUM	CD	_	34	E	34:E	_
+34	years	year	NOUN	NNS	_	31	D	31:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

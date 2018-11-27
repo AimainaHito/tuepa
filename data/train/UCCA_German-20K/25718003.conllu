@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25718003
+# text = An dieser engen Stelle zwischen Kap Bon und der Straße von Messina erhebt sich der Meeres grund fast plötzlich , so dass er einen Kamm bildet , über dem das Wasser nur 17 Meter Tiefe hat , während er auf beiden Seiten wieder bis zu 170 Meter abfällt .
+1	An	an	ADP	APPR	_	4	R	4:R	_
+2	dieser	dies	PRON	PDAT	_	4	E	4:E	_
+3	engen	eng	ADJ	ADJA	_	4	E	4:E	_
+4	Stelle	Stelle	NOUN	NN	_	13	A	13:A	_
+5	zwischen	zwischen	ADP	ADJA	_	7	R	7:R	_
+6	Kap	Kap	PROPN	NN	_	7	E	7:E	_
+7	Bon	Bon	PROPN	NE	_	4	E	4:E	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Straße	Straße	NOUN	NN	_	12	E	12:E	_
+11	von	von	ADP	NE	_	12	R	12:R	_
+12	Messina	Messina	PROPN	NE	_	7	C	7:C	_
+13	erhebt	erheben	VERB	VVFIN	_	0	H	0:H	_
+14	sich	er|es|sie	PRON	PRF	_	13	Terminal	13:Terminal	_
+15	der	der	DET	ART	_	17	E	17:E	_
+16	Meeres	Meer	NOUN	NN	_	17	E	17:E	_
+17	grund	grund	ADJ	APPR	_	13	A	13:A	_
+18	fast	fast	ADV	ADV	_	19	E	19:E	_
+19	plötzlich	plötzlich	ADJ	ADJD	_	13	D	13:D	_
+20	,	,	PUNCT	$,	_	13	U	13:U	_
+21	so	so	ADV	ADV	_	13	L	13:L	_
+22	dass	dass	SCONJ	KOUS	_	21	Terminal	21:Terminal	_
+23	er	er	PRON	PPER	_	26	A	26:A	_
+24	einen	ein	DET	ART	_	25	E	25:E	_
+25	Kamm	kamm	NOUN	NN	_	26	A	26:A	_
+26	bildet	bilden	VERB	VVFIN	_	13	H	13:H	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	über	über	ADP	VVFIN	_	29	R	29:R	_
+29	dem	der	PRON	PDS	_	36	R	36:R	_
+30	das	der	DET	ART	_	31	E	31:E	_
+31	Wasser	Wasser	NOUN	NN	_	36	A	36:A	_
+32	nur	nur	ADV	NE	_	36	D	36:D	_
+33	17	17	NUM	CARD	_	34	E	34:E	_
+34	Meter	Meter	NOUN	NN	_	35	E	35:E	_
+35	Tiefe	Tiefe	NOUN	NN	_	36	A	36:A	_
+36	hat	haben	VERB	VAFIN	_	25	E	25:E	_
+37	,	,	PUNCT	$,	_	36	U	36:U	_
+38	während	während	SCONJ	VVINF	_	36	L	36:L	_
+39	er	er	PRON	PPER	_	48	A	48:A	_
+40	auf	auf	ADP	APPR	_	42	R	42:R	_
+41	beiden	beide	PRON	PIAT	_	42	E	42:E	_
+42	Seiten	Seite	NOUN	NN	_	48	A	48:A	_
+43	wieder	wieder	ADV	NE	_	48	D	48:D	_
+44	bis	bis	ADP	APPR	_	47	R	47:R	_
+45	zu	zu	ADP	NE	_	44	Terminal	44:Terminal	_
+46	170	170	NUM	CARD	_	47	E	47:E	_
+47	Meter	Meter	NOUN	NN	_	48	A	48:A	_
+48	abfällt	abfällen	ADJ	VVFIN	_	36	H	36:H	_
+49	.	.	PUNCT	$.	_	48	U	48:U	_
+

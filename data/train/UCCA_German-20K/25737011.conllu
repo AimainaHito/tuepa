@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25737011
+# text = Als wir den mineralischen Wald einmal hinter uns hatten , sah ich die Leuchte der ›Nautilus‹ gleich einem Stern glänzen .
+1	Als	als	SCONJ	KOUS	_	7	L	7:L	_
+2	wir	wir	PRON	NE	_	7	A	7:A	_
+3	den	der	DET	ART	_	5	E	5:E	_
+4	mineralischen	mineralisch	ADJ	ADJA	_	5	E	5:E	_
+5	Wald	Wald	NOUN	NN	_	7	A	7:A	_
+6	einmal	einmal	ADV	ADV	_	7	D	7:D	_
+7	hinter	hinter	ADP	APPR	_	0	H	0:H	_
+8	uns	wir	PRON	NN	_	7	A	7:A	_
+9	hatten	haben	VERB	VAFIN	_	7	F	7:F	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	sah	sehen	VERB	VVFIN	_	7	H	7:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Leuchte	Leucht	NOUN	NN	_	0	C	0:C|17:A	_
+15	der	der	DET	ART	_	16	R	16:R	_
+16	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	E	14:E	_
+17	gleich	gleich	ADV	ADV	_	7	H	7:H	_
+18	einem	ein	DET	ART	_	19	E	19:E	_
+19	Stern	Stern	NOUN	NN	_	17	A	17:A	_
+20	glänzen	glänzen	VERB	VVFIN	_	11	A	11:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

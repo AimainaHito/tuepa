@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25688003
+# text = Ich hätte dem Kapitän zu Hilfe eilen mögen ; aber vor Schrecken starr , vermochte ich mich nicht zu regen .
+1	Ich	ich	PRON	PPER	_	7	A	7:A|13:A	_
+2	hätte	haben	AUX	VAFIN	_	7	D	7:D	_
+3	dem	der	DET	ART	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+5	zu	zu	ADP	NE	_	6	R	6:R	_
+6	Hilfe	Hilfe	NOUN	NN	_	7	A	7:A	_
+7	eilen	eilen	VERB	ADJA	_	0	H	0:H	_
+8	mögen	mög	ADJ	NN	_	7	D	7:D	_
+9	;	;	PUNCT	$.	_	7	U	7:U	_
+10	aber	aber	ADV	ADV	_	7	L	7:L	_
+11	vor	vor	ADP	NN	_	12	R	12:R	_
+12	Schrecken	Schrecken	NOUN	NN	_	13	A	13:A	_
+13	starr	starr	ADJ	ADJD	_	7	H	7:H	_
+14	,	,	PUNCT	$,	_	7	U	7:U	_
+15	vermochte	vermochte	VERB	VVFIN	_	17	D	17:D	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	mich	ich	PRON	PRF	_	7	H	7:H	_
+18	nicht	nicht	PART	CARD	_	17	D	17:D	_
+19	zu	zu	PART	NN	_	17	F	17:F	_
+20	regen	regen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+21	.	.	PUNCT	$.	_	17	U	17:U	_
+

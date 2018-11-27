@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 785000
+# text = L' Abraham - Lincoln avait été parfaitement choisi et aménagé pour sa destination nouvelle .
+1	L'	le	DET	_	_	2	E	2:E	_
+2	Abraham	Abraham	PROPN	_	_	8	A	8:A	_
+3	-	-	PUNCT	_	_	2	U	2:U	_
+4	Lincoln	Lincoln	PROPN	_	_	2	Terminal	2:Terminal	_
+5	avait	avoir	AUX	_	_	8	F	8:F	_
+6	été	être	AUX	_	_	8	F	8:F	_
+7	parfaitement	parfaitement	ADV	_	_	8	D	8:D	_
+8	choisi	choisir	VERB	_	_	0	H	0:H	_
+9	et	et	CCONJ	_	_	8	N	8:N	_
+10	aménagé	aménager	VERB	_	_	8	C	8:C	_
+11	pour	pour	ADP	_	_	13	R	13:R	_
+12	sa	son	DET	_	_	13	E	13:E	_
+13	destination	destination	NOUN	_	_	8	A	8:A	_
+14	nouvelle	nouveau	ADJ	_	_	13	E	13:E	_
+15	.	.	PUNCT	_	_	13	U	13:U	_
+

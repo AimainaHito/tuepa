@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 638003
+# text = With Lennon 's next album , Imagine ( 1971 ) , critical response was more guarded .
+1	With	with	ADP	IN	_	7	R	7:R	_
+2	Lennon	Lennon	PROPN	NNP	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	next	next	ADJ	JJ	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	7	E	7:E	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	Imagine	imagine	NOUN	NN	_	16	A	16:A	_
+8	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+9	1971	1971	NUM	CD	_	7	E	7:E	_
+10	)	)	PUNCT	-RRB-	_	16	U	16:U	_
+11	,	,	PUNCT	,	_	16	U	16:U	_
+12	critical	critical	ADJ	JJ	_	13	A	13:A	_
+13	response	response	NOUN	NN	_	16	A	16:A	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	more	more	ADV	RBR	_	16	D	16:D	_
+16	guarded	guarded	ADJ	JJ	_	0	H	0:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

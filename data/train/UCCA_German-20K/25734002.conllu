@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25734002
+# text = Ein Fehltritt wäre verderblich gewesen auf diesen engen Pfaden neben Abgründen ; aber ich schritt weiter mit festem Tritt und ohne Schwindel .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Fehltritt	Fehltritt	NOUN	NN	_	4	A	4:A	_
+3	wäre	sein	AUX	ADV	_	4	D	4:D	_
+4	verderblich	verderblich	ADJ	ADJD	_	0	H	0:H	_
+5	gewesen	sein	AUX	PAV	_	4	F	4:F	_
+6	auf	auf	ADP	APPR	_	9	R	9:R	_
+7	diesen	dies	PRON	PDAT	_	9	E	9:E	_
+8	engen	eng	ADJ	ADJA	_	9	E	9:E	_
+9	Pfaden	Pfaden	NOUN	NN	_	4	A	4:A	_
+10	neben	neben	ADP	TRUNC	_	11	R	11:R	_
+11	Abgründen	Abgründe	NOUN	VVINF	_	4	A	4:A	_
+12	;	;	PUNCT	$.	_	4	U	4:U	_
+13	aber	aber	CCONJ	ADV	_	4	L	4:L	_
+14	ich	ich	PRON	PPER	_	15	A	15:A|22:A|18:A	_
+15	schritt	schreiten	VERB	VVFIN	_	4	H	4:H	_
+16	weiter	weiter	ADV	ADV	_	15	Terminal	15:Terminal	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	festem	fest	ADJ	ADJA	_	4	H	4:H	_
+19	Tritt	Tritt	NOUN	NN	_	18	A	18:A	_
+20	und	und	CCONJ	NE	_	4	L	4:L	_
+21	ohne	ohne	ADP	CARD	_	22	D	22:D	_
+22	Schwindel	Schwindel	NOUN	NE	_	4	H	4:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

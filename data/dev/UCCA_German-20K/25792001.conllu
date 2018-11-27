@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25792001
+# text = Ohne diese Vorsorge wären wir nicht wieder aufgewacht .
+1	Ohne	ohne	ADP	NN	_	3	L	3:L	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Vorsorge	Vorsorge	NOUN	NN	_	0	H	0:H	_
+4	wären	sein	AUX	VVINF	_	8	D	8:D	_
+5	wir	wir	PRON	NE	_	8	A	8:A	_
+6	nicht	nicht	PART	CARD	_	8	D	8:D	_
+7	wieder	wieder	ADV	NE	_	8	D	8:D	_
+8	aufgewacht	aufgewachen	VERB	VVFIN	_	3	H	3:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

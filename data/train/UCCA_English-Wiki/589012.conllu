@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 589012
+# text = Depp was going to star as Tonto in 2013 's Lone Ranger film , but the project had been shelved because of budgetary concerns , as well as a lackluster response to the 2012 science - fiction Western Cowboys & Aliens .
+1	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+2	was	be	AUX	VBD	_	5	E	5:E	_
+3	going	go	VERB	VBG	_	2	Terminal	2:Terminal	_
+4	to	to	PART	TO	_	2	Terminal	2:Terminal	_
+5	star	star	VERB	VB	_	0	H	0:H	_
+6	as	as	ADP	IN	_	7	R	7:R	_
+7	Tonto	Tonto	PROPN	NNP	_	5	A	5:A	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	2013	2013	NUM	CD	_	13	E	13:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	Lone	Lone	PROPN	NNP	_	5	A	5:A	_
+12	Ranger	ranger	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	film	film	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	but	but	CCONJ	CC	_	5	L	5:L	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	project	project	NOUN	NN	_	20	A	20:A	_
+18	had	have	AUX	VBD	_	20	F	20:F	_
+19	been	be	AUX	VBN	_	20	F	20:F	_
+20	shelved	shelve	VERB	VBN	_	5	H	5:H	_
+21	because	because	ADP	IN	_	5	L	5:L	_
+22	of	of	ADP	IN	_	21	F	21:F	_
+23	budgetary	budgetary	NOUN	NN	_	24	A	24:A	_
+24	concerns	concern	NOUN	NNS	_	5	H	5:H	_
+25	,	,	PUNCT	,	_	5	U	5:U	_
+26	as	as	ADV	RB	_	5	L	5:L	_
+27	well	well	ADV	RB	_	26	Terminal	26:Terminal	_
+28	as	as	ADP	IN	_	26	Terminal	26:Terminal	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	lackluster	lackluster	ADJ	JJR	_	31	A	31:A	_
+31	response	response	NOUN	NN	_	5	H	5:H	_
+32	to	to	ADP	IN	_	39	R	39:R	_
+33	the	the	DET	DT	_	39	E	39:E	_
+34	2012	2012	NUM	CD	_	39	E	39:E	_
+35	science	science	NOUN	NN	_	37	E	37:E	_
+36	-	-	PUNCT	HYPH	_	37	U	37:U	_
+37	fiction	fiction	NOUN	NN	_	38	E	38:E	_
+38	Western	western	ADJ	JJ	_	39	E	39:E	_
+39	Cowboys	Cowboys	NOUN	NNS	_	31	A	31:A	_
+40	&	&	CCONJ	CC	_	39	U	39:U	_
+41	Aliens	Aliens	NOUN	NNS	_	39	Terminal	39:Terminal	_
+42	.	.	PUNCT	.	_	39	U	39:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25622013
+# text = » Ich glaub 's nicht « , erwiderte ich , » aber er wird nicht Lust haben , sie zu kosten . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	glaub	glaub	ADV	NN	_	8	A	8:A	_
+4	's	es	PART	NE	_	3	A	3:A	_
+5	nicht	nicht	PART	CARD	_	3	D	3:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	aber	aber	CCONJ	ADV	_	3	L	3:L	_
+13	er	er	PRON	PPER	_	21	A	21:A	_
+14	wird	werden	AUX	VAFIN	_	21	F	21:F	_
+15	nicht	nicht	PART	XY	_	21	D	21:D	_
+16	Lust	Lust	NOUN	NN	_	21	D	21:D	_
+17	haben	haben	VERB	VAINF	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	21	U	21:U	_
+19	sie	sie	PRON	ADV	_	21	A	21:A	_
+20	zu	zu	PART	NE	_	21	F	21:F	_
+21	kosten	kosten	VERB	VVINF	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

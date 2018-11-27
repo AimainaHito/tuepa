@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25786005
+# text = Meine Blicke richteten sich unwillkürlich nach dem Fenster , aber ich konnte das entgegen strahlende Feuer nicht aushalten .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Blicke	Blicke	NOUN	NN	_	3	A	3:A	_
+3	richteten	richten	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	unwillkürlich	unwillkürlich	ADJ	ADJD	_	3	D	3:D	_
+6	nach	nach	ADP	CARD	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Fenster	Fenster	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	aber	aber	CCONJ	KON	_	3	L	3:L	_
+11	ich	ich	PRON	PPER	_	18	A	18:A	_
+12	konnte	können	AUX	VMFIN	_	18	D	18:D	_
+13	das	der	DET	PDS	_	16	E	16:E	_
+14	entgegen	entgegen	ADV	APPR	_	15	D	15:D	_
+15	strahlende	strahlend	ADJ	ADJA	_	16	E	16:E	_
+16	Feuer	Feuer	NOUN	NN	_	18	A	18:A	_
+17	nicht	nicht	PART	CARD	_	18	D	18:D	_
+18	aushalten	aushalten	VERB	VVFIN	_	3	H	3:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

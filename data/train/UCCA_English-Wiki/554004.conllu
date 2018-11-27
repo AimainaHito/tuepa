@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 554004
+# text = He has been inducted into multiple music halls of fame .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	been	be	AUX	VBN	_	4	F	4:F	_
+4	inducted	induct	VERB	VBN	_	0	H	0:H	_
+5	into	into	ADP	IN	_	8	R	8:R	_
+6	multiple	multiple	ADJ	JJ	_	8	E	8:E	_
+7	music	music	NOUN	NN	_	8	E	8:E	_
+8	halls	hall	NOUN	NNS	_	4	A	4:A	_
+9	of	of	ADP	IN	_	8	Terminal	8:Terminal	_
+10	fame	fame	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	.	_	8	U	8:U	_
+

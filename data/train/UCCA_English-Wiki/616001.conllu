@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 616001
+# text = However , his lack of discipline negatively affected his academic grades , preventing him from earning admission to art college .
+1	However	however	ADV	RB	_	8	L	8:L	_
+2	,	,	PUNCT	,	_	8	U	8:U	_
+3	his	he	PRON	PRP$	_	4	A	4:A	_
+4	lack	lack	NOUN	NN	_	8	A	8:A|13:A	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	discipline	discipline	NOUN	NN	_	4	A	4:A	_
+7	negatively	negatively	ADV	RB	_	8	D	8:D	_
+8	affected	affect	VERB	VBD	_	0	H	0:H	_
+9	his	he	PRON	PRP$	_	11	E	11:E	_
+10	academic	academic	ADJ	JJ	_	11	E	11:E	_
+11	grades	grade	NOUN	NNS	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	preventing	prevent	VERB	VBG	_	8	H	8:H	_
+14	him	he	PRON	PRP	_	13	A	13:A|16:A	_
+15	from	from	SCONJ	IN	_	16	R	16:R	_
+16	earning	earn	VERB	VBG	_	13	A	13:A	_
+17	admission	admission	NOUN	NN	_	16	A	16:A	_
+18	to	to	ADP	IN	_	20	R	20:R	_
+19	art	art	NOUN	NN	_	20	E	20:E	_
+20	college	college	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

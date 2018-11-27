@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25607005
+# text = Conseil fragte mich über die Dauer , seit diese kolossalen Fels wände aufgewachsen seien , und geriet in großes Staunen , als ich ihm sagte , die Gelehrten schlügen diesen Zuwachs auf ein Achtel eines Zolls binnen einem Jahrhundert an .
+1	Conseil	Conseil	PROPN	NE	_	2	A	2:A|17:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	A	2:A	_
+4	über	über	ADP	ADJD	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Dauer	Dauer	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	seit	seit	ADP	ADJA	_	13	D	13:D	_
+9	diese	dies	PRON	PDAT	_	12	E	12:E	_
+10	kolossalen	kolossal	ADJ	ADJA	_	12	E	12:E	_
+11	Fels	Fels	NOUN	NN	_	12	E	12:E	_
+12	wände	wänd	ADJ	NN	_	13	A	13:A	_
+13	aufgewachsen	aufwachsen	VERB	VVPP	_	6	E	6:E	_
+14	seien	sein	AUX	VAFIN	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	geriet	geraten	VERB	VVFIN	_	2	H	2:H	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	großes	groß	ADJ	ADJA	_	20	E	20:E	_
+20	Staunen	Staune	NOUN	NN	_	17	A	17:A	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	als	als	SCONJ	KOUS	_	2	L	2:L	_
+23	ich	ich	PRON	PPER	_	25	A	25:A	_
+24	ihm	er	PRON	PPER	_	25	A	25:A	_
+25	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	Gelehrten	Gelehrte	NOUN	NN	_	29	A	29:A	_
+29	schlügen	schlagen	VERB	VVFIN	_	25	A	25:A	_
+30	diesen	dies	PRON	PDAT	_	31	E	31:E	_
+31	Zuwachs	Zuwachs	NOUN	NN	_	29	A	29:A	_
+32	auf	auf	ADP	APPR	_	34	R	34:R	_
+33	ein	ein	DET	ART	_	34	E	34:E	_
+34	Achtel	Achtel	NOUN	NN	_	29	A	29:A	_
+35	eines	ein	DET	ART	_	36	R	36:R	_
+36	Zolls	Zoll	NOUN	NN	_	34	E	34:E	_
+37	binnen	binnen	ADP	APPR	_	39	E	39:E	_
+38	einem	ein	DET	ART	_	39	E	39:E	_
+39	Jahrhundert	Jahrhundert	NOUN	NN	_	29	A	29:A	_
+40	an	an	ADP	PTKVZ	_	29	Terminal	29:Terminal	_
+41	.	.	PUNCT	$.	_	29	U	29:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 674008
+# text = In May 2010 , Carey dropped out of her planned appearance in For Colored Girls , the film adaptation of the play For Colored Girls Who Have Considered Suicide When the Rainbow Is Enuf , citing medical reasons .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	May	May	PROPN	NNP	_	6	D	6:D	_
+3	2010	2010	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Carey	Carey	PROPN	NNP	_	6	A	6:A|36:A	_
+6	dropped	drop	VERB	VBD	_	0	H	0:H	_
+7	out	out	ADP	IN	_	6	Terminal	6:Terminal	_
+8	of	of	ADP	IN	_	11	R	11:R	_
+9	her	she	PRON	PRP$	_	11	E	11:E	_
+10	planned	plan	VERB	VBD	_	11	E	11:E	_
+11	appearance	appearance	NOUN	NN	_	6	A	6:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	For	for	PROPN	NNP	_	11	E	11:E	_
+14	Colored	color	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Girls	girl	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	film	film	NOUN	NN	_	19	E	19:E	_
+19	adaptation	adaptation	NOUN	NN	_	13	E	13:E	_
+20	of	of	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	play	play	NOUN	NN	_	23	E	23:E	_
+23	For	for	ADP	IN	_	19	E	19:E	_
+24	Colored	color	VERB	VBN	_	23	Terminal	23:Terminal	_
+25	Girls	girl	NOUN	NNS	_	23	Terminal	23:Terminal	_
+26	Who	who	PRON	WP	_	23	Terminal	23:Terminal	_
+27	Have	have	AUX	VBP	_	23	Terminal	23:Terminal	_
+28	Considered	consider	VERB	VBN	_	23	Terminal	23:Terminal	_
+29	Suicide	suicide	NOUN	NN	_	23	Terminal	23:Terminal	_
+30	When	when	ADV	WRB	_	23	Terminal	23:Terminal	_
+31	the	the	DET	DT	_	23	Terminal	23:Terminal	_
+32	Rainbow	rainbow	PROPN	NNP	_	23	Terminal	23:Terminal	_
+33	Is	be	PROPN	NNP	_	23	Terminal	23:Terminal	_
+34	Enuf	Enuf	PROPN	NNP	_	23	Terminal	23:Terminal	_
+35	,	,	PUNCT	,	_	6	U	6:U	_
+36	citing	cite	VERB	VBG	_	6	H	6:H	_
+37	medical	medical	ADJ	JJ	_	38	E	38:E	_
+38	reasons	reason	NOUN	NNS	_	36	A	36:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

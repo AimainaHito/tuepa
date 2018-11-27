@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 538008
+# text = In the early 20th century , Sam Warner formed a business partnership with another local resident and " took over " the city 's Old Grand Opera House , which he used as a venue for " cheap vaudeville and photoplays " . The venture failed after one summer .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	early	early	ADJ	JJ	_	5	E	5:E	_
+4	20th	20th	ADJ	JJ	_	5	E	5:E	_
+5	century	century	NOUN	NN	_	9	D	9:D	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	Sam	Sam	PROPN	NNP	_	9	A	9:A|19:A	_
+8	Warner	Warner	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	formed	form	VERB	VBD	_	0	H	0:H	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	business	business	NOUN	NN	_	12	E	12:E	_
+12	partnership	partnership	NOUN	NN	_	9	A	9:A	_
+13	with	with	ADP	IN	_	16	R	16:R	_
+14	another	another	DET	DT	_	16	E	16:E	_
+15	local	local	ADJ	JJ	_	16	E	16:E	_
+16	resident	resident	NOUN	NN	_	9	A	9:A	_
+17	and	and	CCONJ	CC	_	9	L	9:L	_
+18	"	"	PUNCT	``	_	9	U	9:U	_
+19	took	take	VERB	VBD	_	9	H	9:H	_
+20	over	over	ADP	RP	_	19	Terminal	19:Terminal	_
+21	"	"	PUNCT	``	_	19	U	19:U	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	city	city	NOUN	NN	_	26	E	26:E	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	Old	old	PROPN	NNP	_	26	E	26:E	_
+26	Grand	Grand	PROPN	NNP	_	19	A	19:A	_
+27	Opera	Opera	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	House	House	PROPN	NNP	_	26	E	26:E	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	which	which	PRON	WDT	_	32	F	32:F	_
+31	he	he	PRON	PRP	_	32	A	32:A	_
+32	used	use	VERB	VBD	_	26	E	26:E	_
+33	as	as	ADP	IN	_	35	R	35:R	_
+34	a	a	DET	DT	_	35	E	35:E	_
+35	venue	venue	NOUN	NN	_	32	A	32:A	_
+36	for	for	ADP	IN	_	39	R	39:R	_
+37	"	"	PUNCT	``	_	39	U	39:U	_
+38	cheap	cheap	ADJ	JJ	_	39	E	39:E	_
+39	vaudeville	vaudeville	NOUN	NN	_	35	E	35:E	_
+40	and	and	CCONJ	CC	_	39	N	39:N	_
+41	photoplays	photoplay	NOUN	NNS	_	39	C	39:C	_
+42	"	"	PUNCT	''	_	9	U	9:U	_
+43	.	.	PUNCT	.	_	9	U	9:U	_
+44	The	the	DET	DT	_	45	E	45:E	_
+45	venture	venture	NOUN	NN	_	46	A	46:A	_
+46	failed	fail	VERB	VBD	_	9	H	9:H	_
+47	after	after	ADP	IN	_	49	R	49:R	_
+48	one	one	NUM	CD	_	49	E	49:E	_
+49	summer	summer	NOUN	NN	_	46	D	46:D	_
+50	.	.	PUNCT	.	_	49	U	49:U	_
+

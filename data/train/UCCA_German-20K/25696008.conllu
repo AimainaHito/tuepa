@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25696008
+# text = Nach einer Pause von einigen Minuten sagte er :
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	einer	ein	DET	ART	_	3	E	3:E	_
+3	Pause	Pause	NOUN	NN	_	7	A	7:A	_
+4	von	von	ADP	NN	_	6	R	6:R	_
+5	einigen	einige	PRON	PIAT	_	6	E	6:E	_
+6	Minuten	Minute	NOUN	NN	_	3	E	3:E	_
+7	sagte	sagt	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	:	:	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25672006
+# text = Als ich wieder in den Salon trat , erschienen gleich auch Kapitän Nemo und sein Lieutenant .
+1	Als	als	SCONJ	KOUS	_	7	L	7:L	_
+2	ich	ich	PRON	PPER	_	7	A	7:A	_
+3	wieder	wieder	ADV	NN	_	7	D	7:D	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Salon	Salen	NOUN	NN	_	7	A	7:A	_
+7	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	erschienen	erscheinen	VERB	VVFIN	_	7	H	7:H	_
+10	gleich	gleich	ADV	ADV	_	9	D	9:D	_
+11	auch	auch	ADV	ADV	_	9	D	9:D	_
+12	Kapitän	Kapitän	PROPN	NN	_	13	E	13:E	_
+13	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	sein	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Lieutenant	Lieutenant	NOUN	NN	_	13	C	13:C	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

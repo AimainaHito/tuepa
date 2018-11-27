@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25800007
+# text = Von Fischen beobachtete ich besonders eine Art Trichterfische , die 2 Dezimeter lang und ganz mit weißlichen und gelben Flecken besät waren .
+1	Von	von	ADP	APPR	_	2	R	2:R	_
+2	Fischen	Fisch	PROPN	NN	_	3	A	3:A	_
+3	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	besonders	besonders	ADV	ADV	_	3	D	3:D	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	Art	Art	NOUN	NN	_	8	E	8:E	_
+8	Trichterfische	Trichterfisch	PROPN	ADJA	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	13	R	13:R	_
+11	2	2	NUM	CARD	_	13	A	13:A	_
+12	Dezimeter	Dezimeter	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	lang	lang	ADJ	ADJD	_	8	E	8:E	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	ganz	ganz	ADV	ADV	_	21	D	21:D	_
+16	mit	mit	ADP	APPR	_	20	R	20:R	_
+17	weißlichen	weißlichen	ADJ	ADJA	_	20	E	20:E	_
+18	und	und	CCONJ	NN	_	17	N	17:N	_
+19	gelben	gelb	ADJ	ADJA	_	17	C	17:C	_
+20	Flecken	Flecken	NOUN	NN	_	21	A	21:A	_
+21	besät	besaten	VERB	NN	_	13	H	13:H	_
+22	waren	sein	AUX	VAFIN	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

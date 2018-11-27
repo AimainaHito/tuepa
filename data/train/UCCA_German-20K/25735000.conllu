@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25735000
+# text = Aber was hatte es mit diesem durch Überschwemmung versenkten Erdteil für eine Bewandtnis ?
+1	Aber	aber	CCONJ	KON	_	13	L	13:L	_
+2	was	was	PRON	NE	_	13	A	13:A	_
+3	hatte	haben	VERB	VAFIN	_	13	F	13:F	_
+4	es	es	PRON	PPER	_	13	A	13:A	_
+5	mit	mit	ADP	APPR	_	10	R	10:R	_
+6	diesem	dies	PRON	PDAT	_	10	E	10:E	_
+7	durch	durch	ADP	APPR	_	8	R	8:R	_
+8	Überschwemmung	Überschwemmung	NOUN	NN	_	9	A	9:A	_
+9	versenkten	versenken	ADJ	ADJA	_	13	A	13:A	_
+10	Erdteil	Erdteil	NOUN	NN	_	9	A	9:A	_
+11	für	für	ADP	APPR	_	13	F	13:F	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	Bewandtnis	Bewandtnis	NOUN	NN	_	0	H	0:H	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+

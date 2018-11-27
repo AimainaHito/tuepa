@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 505015
+# text = By 1983 , Bowie had emerged as one of the most important video artists of the day .
+1	By	by	ADP	IN	_	2	R	2:R	_
+2	1983	1983	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Bowie	Bowie	PROPN	NNP	_	6	A	6:A	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	emerged	emerge	VERB	VBN	_	0	H	0:H	_
+7	as	as	ADV	RB	_	14	R	14:R	_
+8	one	one	NUM	CD	_	14	E	14:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	the	the	DET	DT	_	14	E	14:E	_
+11	most	most	ADV	RBS	_	12	E	12:E	_
+12	important	important	ADJ	JJ	_	14	E	14:E	_
+13	video	video	NOUN	NN	_	14	E	14:E	_
+14	artists	artist	NOUN	NNS	_	6	A	6:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	day	day	NOUN	NN	_	14	E	14:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 236002
+# text = " Chan 's comments caused outrage in Hong Kong .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Chan	Chan	PROPN	NNP	_	4	E	4:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	comments	comment	NOUN	NNS	_	5	A	5:A	_
+5	caused	cause	VERB	VBD	_	0	H	0:H	_
+6	outrage	outrage	NOUN	NN	_	5	A	5:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Hong	Hong	PROPN	NNP	_	5	A	5:A	_
+9	Kong	Kong	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+

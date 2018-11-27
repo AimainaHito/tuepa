@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 459015
+# text = Paul A . Slavin became the new executive producer for World News Tonight in April .
+1	Paul	Paul	PROPN	NNP	_	5	A	5:A	_
+2	A	A	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	.	.	PUNCT	.	_	1	U	1:U	_
+4	Slavin	Slavin	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	became	become	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	new	new	ADJ	JJ	_	9	E	9:E	_
+8	executive	executive	ADJ	JJ	_	9	E	9:E	_
+9	producer	producer	NOUN	NN	_	5	A	5:A	_
+10	for	for	ADP	IN	_	11	R	11:R	_
+11	World	World	PROPN	NNP	_	9	E	9:E	_
+12	News	News	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Tonight	tonight	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	April	April	PROPN	NNP	_	5	D	5:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

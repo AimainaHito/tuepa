@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25804010
+# text = Hier schliefen eine Anzahl Seeschildkröten auf der Oberfläche des Wassers .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	schliefen	schlafen	VERB	VVFIN	_	0	H	0:H	_
+3	eine	ein	DET	ART	_	4	E	4:E	_
+4	Anzahl	Anzahl	NOUN	NN	_	5	E	5:E	_
+5	Seeschildkröten	Seeschildkröte	NOUN	NN	_	2	A	2:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Oberfläche	Oberfläche	NOUN	NN	_	2	A	2:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Wassers	Wasser	NOUN	NN	_	8	E	8:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

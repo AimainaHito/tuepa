@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 703014
+# text = Sam Shepard was initially hired to write the film 's screenplay , but ended up accompanying the tour as informal chronicler .
+1	Sam	Sam	PROPN	NNP	_	5	A	5:A|7:A|16:A|14:A	_
+2	Shepard	Shepard	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	initially	initially	ADV	RB	_	5	D	5:D	_
+5	hired	hire	VERB	VBN	_	0	H	0:H	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	write	write	VERB	VB	_	5	A	5:A	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	film	film	NOUN	NN	_	11	E	11:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	screenplay	screenplay	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	but	but	CCONJ	CC	_	5	L	5:L	_
+14	ended	end	VERB	VBD	_	5	H	5:H	_
+15	up	up	ADP	RP	_	14	Terminal	14:Terminal	_
+16	accompanying	accompany	VERB	VBG	_	14	A	14:A	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	tour	tour	NOUN	NN	_	16	A	16:A	_
+19	as	as	ADP	IN	_	21	R	21:R	_
+20	informal	informal	ADJ	JJ	_	21	E	21:E	_
+21	chronicler	chronicler	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

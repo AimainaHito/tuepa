@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25499004
+# text = Diese verschiedenen Speisen schienen mir reich an Phosphor zu sein , und ich dachte mir , sie müßten aus dem Meer herkommen .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	verschiedenen	verschieden	ADJ	ADJA	_	3	E	3:E	_
+3	Speisen	Speise|Speisen	NOUN	NN	_	4	A	4:A	_
+4	schienen	schienen	VERB	ADJA	_	0	H	0:H	_
+5	mir	ich	PRON	PPER	_	4	A	4:A	_
+6	reich	reich	ADJ	NE	_	4	A	4:A	_
+7	an	an	ADP	APPR	_	8	R	8:R	_
+8	Phosphor	Phosphor	NOUN	NN	_	6	A	6:A	_
+9	zu	zu	PART	VVINF	_	6	F	6:F	_
+10	sein	sein	AUX	VAINF	_	6	F	6:F	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	und	und	CCONJ	NE	_	4	L	4:L	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	dachte	denken	VERB	VVFIN	_	4	H	4:H	_
+15	mir	ich	PRON	PPER	_	14	A	14:A	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	sie	sie	PRON	ADV	_	22	A	22:A	_
+18	müßten	müssen	AUX	NN	_	22	D	22:D	_
+19	aus	aus	ADP	APPR	_	21	R	21:R	_
+20	dem	der	DET	ART	_	21	E	21:E	_
+21	Meer	Meer	NOUN	NN	_	22	A	22:A	_
+22	herkommen	herkommen	VERB	VVINF	_	14	A	14:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

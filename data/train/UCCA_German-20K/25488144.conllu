@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25488144
+# text = Was für Geschöpfe lebten in diesem seltsamen Fahrzeug ?
+1	Was	was	PRON	NE	_	3	E	3:E	_
+2	für	für	ADP	APPR	_	1	Terminal	1:Terminal	_
+3	Geschöpfe	Geschopf	NOUN	NN	_	4	A	4:A	_
+4	lebten	leben	VERB	VVFIN	_	0	H	0:H	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	diesem	dies	PRON	PDAT	_	8	E	8:E	_
+7	seltsamen	seltsam	ADJ	ADJA	_	8	E	8:E	_
+8	Fahrzeug	Fahrzeug	NOUN	NN	_	4	A	4:A	_
+9	?	?	PUNCT	$.	_	8	U	8:U	_
+

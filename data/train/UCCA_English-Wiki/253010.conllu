@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 253010
+# text = Same sex marriage was ultimately legalized in New York on June 24 , 2011 .
+1	Same	same	ADJ	JJ	_	2	E	2:E	_
+2	sex	sex	NOUN	NN	_	3	E	3:E	_
+3	marriage	marriage	NOUN	NN	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	ultimately	ultimately	ADV	RB	_	6	D	6:D	_
+6	legalized	legalize	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	New	New	PROPN	NNP	_	6	A	6:A	_
+9	York	York	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	on	on	ADP	IN	_	14	R	14:R	_
+11	June	June	PROPN	NNP	_	14	E	14:E	_
+12	24	24	NUM	CD	_	14	E	14:E	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	2011	2011	NUM	CD	_	6	D	6:D	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25720003
+# text = In der Tat sollte die Gesamtmasse der Mittelmeer gewässer , die durch die des Atlantiks und durch die einmündenden Flüsse unaufhörlich anwächst , alljährlich ihr Niveau erhöhen , denn die Ausdunstung ist nicht in gleichem Grad wirksam , um ein Gleichgewicht herzustellen .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Tat	Tat	NOUN	NN	_	27	G	27:G	_
+4	sollte	sollen	AUX	VMFIN	_	27	D	27:D	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Gesamtmasse	Gesamtmasse	NOUN	NN	_	27	A	27:A	_
+7	der	der	DET	ART	_	9	E	9:E	_
+8	Mittelmeer	Mittelmeer	PROPN	NE	_	9	E	9:E	_
+9	gewässer	Gewässer	NOUN	NN	_	6	E	6:E	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	die	der	PRON	PRELS	_	22	R	22:R	_
+12	durch	durch	ADP	APPR	_	13	R	13:R	_
+13	die	der	PRON	ART	_	22	A	22:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Atlantiks	Atlantik	NOUN	NE	_	13	E	13:E	_
+16	und	und	CCONJ	NE	_	13	N	13:N	_
+17	durch	durch	ADP	APPR	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	einmündenden	einmündend	ADJ	ADJA	_	13	C	13:C	_
+20	Flüsse	Fluß	NOUN	NN	_	19	A	19:A	_
+21	unaufhörlich	unaufhörlich	ADJ	ADJD	_	22	D	22:D	_
+22	anwächst	anwachsen	VERB	ADV	_	6	E	6:E	_
+23	,	,	PUNCT	$,	_	27	U	27:U	_
+24	alljährlich	alljährlich	ADV	ADJD	_	27	D	27:D	_
+25	ihr	ihr	PRON	PPOSAT	_	26	E	26:E	_
+26	Niveau	Niveau	NOUN	NN	_	27	A	27:A	_
+27	erhöhen	erhöhen	VERB	VVINF	_	0	H	0:H	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	denn	denn	SCONJ	KON	_	27	L	27:L	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	Ausdunstung	Ausdunstung	NOUN	NN	_	0	C	0:C|42:A	_
+32	ist	sein	AUX	VVFIN	_	37	F	37:F	_
+33	nicht	nicht	PART	CARD	_	37	D	37:D	_
+34	in	in	ADP	APPR	_	36	R	36:R	_
+35	gleichem	gleich	ADJ	ADJA	_	36	E	36:E	_
+36	Grad	Grad	NOUN	NN	_	37	D	37:D	_
+37	wirksam	wirksam	ADJ	ADJA	_	27	H	27:H	_
+38	,	,	PUNCT	$,	_	27	U	27:U	_
+39	um	um	ADP	KOUI	_	27	L	27:L	_
+40	ein	ein	DET	ART	_	41	E	41:E	_
+41	Gleichgewicht	Gleichgewicht	NOUN	NN	_	42	A	42:A	_
+42	herzustellen	herstellen	VERB	VVIZU	_	27	H	27:H	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

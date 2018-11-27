@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25721005
+# text = Ned Land sah mich noch starrer an , öffnete endlich die Lippen und sagte : » Diesen Abend soll ' s sein . «
+1	Ned	Ned	PROPN	NN	_	3	A	3:A|14:A|9:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PRF	_	3	A	3:A	_
+5	noch	noch	ADV	ADV	_	6	E	6:E	_
+6	starrer	starr	ADJ	NN	_	3	D	3:D	_
+7	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	öffnete	öffnen	VERB	VVFIN	_	3	H	3:H	_
+10	endlich	endlich	ADV	ADV	_	9	D	9:D	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Lippen	Lippe	NOUN	NN	_	9	A	9:A	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	sagte	sagen	VERB	VVFIN	_	3	H	3:H	_
+15	:	:	PUNCT	$.	_	14	U	14:U	_
+16	»	»	PUNCT	$(	_	14	U	14:U	_
+17	Diesen	dies	PRON	PDAT	_	18	E	18:E	_
+18	Abend	Abend	NOUN	NN	_	22	D	22:D	_
+19	soll	sollen	AUX	ADJD	_	22	D	22:D	_
+20	'	'	PUNCT	$,	_	22	U	22:U	_
+21	s	s	ADJ	ADJD	_	22	A	22:A	_
+22	sein	sein	AUX	VAINF	_	14	A	14:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

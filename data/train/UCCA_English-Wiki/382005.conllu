@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 382005
+# text = Gyllenhaal has signed on to help the TV fundraiser Stand Up To Cancer .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	A	3:A|6:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	signed	sign	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	RP	_	3	E	3:E	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	help	help	VERB	VB	_	3	A	3:A	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	TV	tv	NOUN	NN	_	9	E	9:E	_
+9	fundraiser	fundraiser	NOUN	NN	_	10	E	10:E	_
+10	Stand	stand	PROPN	NNP	_	6	A	6:A	_
+11	Up	up	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	To	to	ADP	IN	_	10	Terminal	10:Terminal	_
+13	Cancer	Cancer	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	.	.	PUNCT	.	_	10	U	10:U	_
+

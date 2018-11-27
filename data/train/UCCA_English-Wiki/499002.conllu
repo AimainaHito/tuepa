@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 499002
+# text = " With satisfaction came severe personal difficulties : acting the same role over an extended period , it became impossible for him to separate Ziggy Stardust - and , later , the Thin White Duke - from his own character offstage .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	With	with	SCONJ	IN	_	3	L	3:L	_
+3	satisfaction	satisfaction	NOUN	NN	_	0	H	0:H	_
+4	came	come	VERB	VBD	_	3	H	3:H	_
+5	severe	severe	ADJ	JJ	_	7	E	7:E	_
+6	personal	personal	ADJ	JJ	_	7	E	7:E	_
+7	difficulties	difficulty	NOUN	NNS	_	4	A	4:A	_
+8	:	:	PUNCT	:	_	3	U	3:U	_
+9	acting	act	VERB	VBG	_	3	H	3:H	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	same	same	ADJ	JJ	_	12	E	12:E	_
+12	role	role	NOUN	NN	_	9	A	9:A	_
+13	over	over	ADP	IN	_	16	R	16:R	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	extended	extend	VERB	VBN	_	16	E	16:E	_
+16	period	period	NOUN	NN	_	9	D	9:D	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	it	it	PRON	PRP	_	20	F	20:F	_
+19	became	become	VERB	VBD	_	20	D	20:D	_
+20	impossible	impossible	ADJ	JJ	_	3	H	3:H	_
+21	for	for	ADP	IN	_	22	R	22:R	_
+22	him	he	PRON	PRP	_	20	A	20:A	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	separate	separate	VERB	VB	_	20	A	20:A	_
+25	Ziggy	Ziggy	PROPN	NNP	_	24	A	24:A	_
+26	Stardust	Stardust	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	-	-	PUNCT	,	_	25	U	25:U	_
+28	and	and	CCONJ	CC	_	25	N	25:N	_
+29	,	,	PUNCT	,	_	25	U	25:U	_
+30	later	later	ADV	RB	_	32	D	32:D	_
+31	,	,	PUNCT	,	_	32	U	32:U	_
+32	the	the	DET	DT	_	25	C	25:C	_
+33	Thin	thin	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	White	White	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	Duke	Duke	PROPN	NNP	_	32	Terminal	32:Terminal	_
+36	-	-	PUNCT	,	_	24	U	24:U	_
+37	from	from	ADP	IN	_	40	R	40:R	_
+38	his	he	PRON	PRP$	_	40	E	40:E	_
+39	own	own	ADJ	JJ	_	40	E	40:E	_
+40	character	character	NOUN	NN	_	24	A	24:A	_
+41	offstage	offstage	NOUN	NN	_	24	A	24:A	_
+42	.	.	PUNCT	.	_	24	U	24:U	_
+

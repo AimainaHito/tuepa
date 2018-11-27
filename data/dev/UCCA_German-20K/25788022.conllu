@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25788022
+# text = » Ein Ersticken , Kapitän « , erwiderte ich , » ist doch wohl nicht zu besorgen , denn unsere Behälter sind gefüllt . «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Ein	ein	DET	ART	_	3	E	3:E	_
+3	Ersticken	Ersticken	NOUN	NN	_	17	A	17:A	_
+4	,	,	PUNCT	$,	_	17	U	17:U	_
+5	Kapitän	Kapitän	NOUN	NN	_	17	A	17:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	ist	sein	AUX	VVFIN	_	17	F	17:F	_
+13	doch	doch	ADV	ADV	_	17	F	17:F	_
+14	wohl	wohl	ADV	ADV	_	17	G	17:G	_
+15	nicht	nicht	PART	CARD	_	17	D	17:D	_
+16	zu	zu	PART	NN	_	17	F	17:F	_
+17	besorgen	besorgen	VERB	VVINF	_	8	A	8:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	denn	denn	SCONJ	KON	_	17	L	17:L	_
+20	unsere	unser	PRON	PPOSAT	_	21	E	21:E	_
+21	Behälter	Behälter	NOUN	NN	_	23	A	23:A	_
+22	sind	sein	AUX	NN	_	23	F	23:F	_
+23	gefüllt	füllen	ADJ	VVPP	_	17	H	17:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

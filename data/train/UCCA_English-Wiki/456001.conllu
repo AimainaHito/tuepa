@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 456001
+# text = [ c ] After interrupting regular Saturday morning cartoons on January 19 to broadcast a military briefing from Saudi Arabia , Jennings and ABC became concerned about the emotional impact of the war coverage on children .
+1	[	[	PUNCT	-LRB-	_	5	U	5:U	_
+2	c	c	X	LS	_	5	F	5:F	_
+3	]	]	PUNCT	-RRB-	_	5	U	5:U	_
+4	After	after	SCONJ	IN	_	5	L	5:L	_
+5	interrupting	interrupt	VERB	VBG	_	0	H	0:H	_
+6	regular	regular	ADJ	JJ	_	9	E	9:E	_
+7	Saturday	Saturday	PROPN	NNP	_	8	E	8:E	_
+8	morning	morning	NOUN	NN	_	9	E	9:E	_
+9	cartoons	cartoon	NOUN	NNS	_	5	A	5:A	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	January	January	PROPN	NNP	_	5	D	5:D	_
+12	19	19	NUM	CD	_	11	Terminal	11:Terminal	_
+13	to	to	PART	TO	_	5	L	5:L	_
+14	broadcast	broadcast	VERB	VB	_	5	H	5:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	military	military	ADJ	JJ	_	17	E	17:E	_
+17	briefing	briefing	NOUN	NN	_	14	A	14:A	_
+18	from	from	ADP	IN	_	19	R	19:R	_
+19	Saudi	Saudi	PROPN	NNP	_	17	E	17:E	_
+20	Arabia	Arabia	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	Jennings	Jennings	PROPN	NNP	_	26	A	26:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	ABC	ABC	PROPN	NNP	_	22	C	22:C|14:A|5:A	_
+25	became	become	VERB	VBD	_	26	D	26:D	_
+26	concerned	concerned	ADJ	JJ	_	5	H	5:H	_
+27	about	about	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	emotional	emotional	ADJ	JJ	_	30	D	30:D	_
+30	impact	impact	NOUN	NN	_	26	A	26:A	_
+31	of	of	ADP	IN	_	34	R	34:R	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	war	war	NOUN	NN	_	34	E	34:E	_
+34	coverage	coverage	NOUN	NN	_	30	A	30:A	_
+35	on	on	ADP	IN	_	36	R	36:R	_
+36	children	child	NOUN	NNS	_	30	A	30:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

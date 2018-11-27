@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 237011
+# text = Chan has many historic artefacts , such as old door frames from 2000 years ago .
+1	Chan	Chan	PROPN	NNP	_	2	A	2:A	_
+2	has	have	VERB	VBZ	_	0	H	0:H	_
+3	many	many	ADJ	JJ	_	5	E	5:E	_
+4	historic	historic	ADJ	JJ	_	5	E	5:E	_
+5	artefacts	artefact	NOUN	NNS	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	such	such	ADJ	JJ	_	11	R	11:R	_
+8	as	as	ADP	IN	_	7	Terminal	7:Terminal	_
+9	old	old	ADJ	JJ	_	11	E	11:E	_
+10	door	door	NOUN	NN	_	11	E	11:E	_
+11	frames	frame	NOUN	NNS	_	5	E	5:E	_
+12	from	from	ADP	IN	_	14	R	14:R	_
+13	2000	2000	NUM	CD	_	14	E	14:E	_
+14	years	year	NOUN	NNS	_	11	E	11:E	_
+15	ago	ago	ADV	RB	_	14	R	14:R	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

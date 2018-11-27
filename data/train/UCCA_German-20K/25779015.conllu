@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25779015
+# text = Im Norden erschien die Sonnen scheibe wie eine Feuer kugel , woraus die Linie des Horizonts bereits einen Ausschnitt gemacht hatte .
+1	Im	Im	ADJ	NN	_	2	R	2:R	_
+2	Norden	Norden	NOUN	NE	_	3	A	3:A	_
+3	erschien	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Sonnen	Sonne	NOUN	NN	_	6	E	6:E	_
+6	scheibe	scheiben	AUX	VVFIN	_	3	A	3:A	_
+7	wie	wie	ADP	ADJA	_	10	R	10:R	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	Feuer	Feuer	NOUN	NN	_	10	E	10:E	_
+10	kugel	kugel	PROPN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	woraus	woraus	PRON	PWAV	_	20	R	20:R	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Linie	Linie	NOUN	NN	_	20	A	20:A	_
+15	des	der	DET	ART	_	16	R	16:R	_
+16	Horizonts	Horizont	NOUN	NN	_	14	E	14:E	_
+17	bereits	bereits	ADV	ADV	_	20	D	20:D	_
+18	einen	ein	DET	ART	_	19	E	19:E	_
+19	Ausschnitt	Ausschnitt	NOUN	NN	_	20	A	20:A	_
+20	gemacht	machen	VERB	VVPP	_	10	E	10:E	_
+21	hatte	haben	AUX	VAFIN	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

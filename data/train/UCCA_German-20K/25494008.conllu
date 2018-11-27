@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25494008
+# text = » Sie begreifen also , mein Herr « , fuhr der Unbekannte fort , » daß ich Sie als Feinde zu behandeln berechtigt bin .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+3	begreifen	begreifen	VERB	VVFIN	_	10	A	10:A	_
+4	also	also	ADV	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	mein	mein	PRON	PPOSAT	_	7	E	7:E	_
+7	Herr	Herr	NOUN	NN	_	3	G	3:G	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Unbekannte	unbekannt	ADJ	NN	_	10	A	10:A	_
+13	fort	fort	ADV	PTKVZ	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	»	»	PUNCT	$(	_	10	U	10:U	_
+16	daß	daß	SCONJ	KOUS	_	23	R	23:R	_
+17	ich	ich	PRON	PPER	_	23	A	23:A|22:A	_
+18	Sie	sie	PRON	PPER	_	22	A	22:A	_
+19	als	als	ADP	KOKOM	_	20	R	20:R	_
+20	Feinde	Feind	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	behandeln	behandeln	VERB	VVINF	_	23	A	23:A	_
+23	berechtigt	berechtigen	VERB	ADJD	_	3	A	3:A	_
+24	bin	sein	AUX	VAFIN	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25488003
+# text = Zwei kräftige Stöße mit den Fersen brachten mich wieder zur Oberfläche empor .
+1	Zwei	zwei	NUM	CARD	_	3	E	3:E	_
+2	kräftige	kräftig	ADJ	ADJA	_	3	E	3:E	_
+3	Stöße	Stoß	NOUN	NN	_	7	A	7:A	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Fersen	Fers	NOUN	NN	_	3	A	3:A	_
+7	brachten	bringen	VERB	VVFIN	_	0	H	0:H	_
+8	mich	ich	PRON	PPER	_	7	A	7:A	_
+9	wieder	wieder	ADV	NE	_	7	D	7:D	_
+10	zur	zur	ADV	NE	_	11	R	11:R	_
+11	Oberfläche	Oberfläche	NOUN	NE	_	7	A	7:A	_
+12	empor	empören	VERB	NE	_	7	Terminal	7:Terminal	_
+13	.	.	PUNCT	$.	_	7	U	7:U	_
+

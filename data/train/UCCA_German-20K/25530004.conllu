@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25530004
+# text = Diese Tiere lebend , frei in ihrem natürlichen Element zu schauen war ein Genuß , der mir noch nie geworden war .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Tiere	Tier	NOUN	NN	_	11	A	11:A	_
+3	lebend	lebend	ADJ	ADJD	_	11	D	11:D	_
+4	,	,	PUNCT	$,	_	11	U	11:U	_
+5	frei	frei	ADJ	ADJD	_	11	D	11:D	_
+6	in	in	ADP	APPR	_	9	R	9:R	_
+7	ihrem	ihr	DET	PPOSAT	_	9	E	9:E	_
+8	natürlichen	natürlich	ADJ	ADJA	_	9	E	9:E	_
+9	Element	Element	NOUN	NN	_	11	A	11:A	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	schauen	schauen	VERB	VVINF	_	12	A	12:A	_
+12	war	sein	AUX	ADV	_	0	H	0:H	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Genuß	Genuß	NOUN	NN	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	der	der	PRON	PRELS	_	20	R	20:R	_
+17	mir	ich	PRON	PPER	_	20	A	20:A	_
+18	noch	noch	ADV	VVINF	_	19	E	19:E	_
+19	nie	nie	ADV	ADV	_	20	D	20:D	_
+20	geworden	werden	AUX	PAV	_	14	E	14:E	_
+21	war	sein	AUX	ADV	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

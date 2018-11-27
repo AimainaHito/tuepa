@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 666011
+# text = " Fearing to lose their label 's highest seller , Sony chose to release the song .
+1	"	"	PUNCT	``	_	2	U	2:U	_
+2	Fearing	Feare	VERB	VBG	_	0	H	0:H	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	lose	lose	VERB	VB	_	2	A	2:A	_
+5	their	they	PRON	PRP$	_	9	E	9:E	_
+6	label	label	NOUN	NN	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	highest	highest	ADJ	JJS	_	9	E	9:E	_
+9	seller	seller	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	Sony	Sony	PROPN	NNP	_	14	A	14:A|2:A	_
+12	chose	choose	VERB	VBD	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	release	release	VERB	VB	_	2	H	2:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	song	song	NOUN	NN	_	14	A	14:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

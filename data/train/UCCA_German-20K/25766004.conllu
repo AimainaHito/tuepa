@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25766004
+# text = Bis 2 Uhr mittags war dieses eingetreten , und das frische Eis bildete sich erstaunlich schnell um seine Seiten herum .
+1	Bis	bis	ADP	APPR	_	4	R	4:R	_
+2	2	2	NUM	CARD	_	3	E	3:E	_
+3	Uhr	Uhr	NOUN	NN	_	4	E	4:E	_
+4	mittags	mittags	ADV	ADV	_	7	D	7:D	_
+5	war	sein	AUX	ADV	_	7	F	7:F	_
+6	dieses	dies	PRON	PDAT	_	7	A	7:A	_
+7	eingetreten	eingetren	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	L	7:L	_
+10	das	der	DET	ART	_	12	E	12:E	_
+11	frische	frisch	ADJ	ADJA	_	12	E	12:E	_
+12	Eis	Eis	NOUN	NN	_	13	A	13:A	_
+13	bildete	bilden	VERB	VVFIN	_	7	H	7:H	_
+14	sich	er|es|sie	PRON	PRF	_	13	Terminal	13:Terminal	_
+15	erstaunlich	erstaunlich	ADJ	ADJD	_	16	E	16:E	_
+16	schnell	schnell	ADV	NN	_	13	D	13:D	_
+17	um	um	ADP	APPR	_	19	R	19:R	_
+18	seine	sein	DET	PPOSAT	_	19	E	19:E	_
+19	Seiten	Seite	NOUN	NN	_	13	A	13:A	_
+20	herum	herum	ADV	PTKVZ	_	17	Terminal	17:Terminal	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

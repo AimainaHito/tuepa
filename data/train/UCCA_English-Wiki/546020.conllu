@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 546020
+# text = Jack , as the company 's largest stockholder , appointed himself as the new company president .
+1	Jack	Jack	NOUN	NN	_	10	A	10:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	as	as	SCONJ	IN	_	8	R	8:R	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	company	company	NOUN	NN	_	8	E	8:E	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	largest	largest	ADJ	JJS	_	8	E	8:E	_
+8	stockholder	stockholder	NOUN	NN	_	1	E	1:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	appointed	appoint	VERB	VBD	_	0	H	0:H	_
+11	himself	himself	PRON	PRP	_	10	D	10:D	_
+12	as	as	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	new	new	ADJ	JJ	_	16	E	16:E	_
+15	company	company	NOUN	NN	_	16	E	16:E	_
+16	president	president	NOUN	NN	_	10	A	10:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

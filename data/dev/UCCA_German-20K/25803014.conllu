@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25803014
+# text = Diese schönen , friedlichen und unschädlichen Tiere , 6 bis 7 Meter groß , mußten wenigstens 4.000 Kilogramm wiegen .
+1	Diese	dies	PRON	PDAT	_	7	E	7:E	_
+2	schönen	schön	ADJ	ADJA	_	7	E	7:E	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	friedlichen	friedlich	ADJ	ADJA	_	2	C	2:C	_
+5	und	und	CCONJ	NN	_	2	N	2:N	_
+6	unschädlichen	unschädlich	ADJ	ADJA	_	2	C	2:C	_
+7	Tiere	Tier	NOUN	NN	_	13	A	13:A	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	6	6	NUM	CARD	_	12	E	12:E	_
+10	bis	bis	ADP	KON	_	9	N	9:N	_
+11	7	7	NUM	CARD	_	9	C	9:C	_
+12	Meter	Meter	NOUN	NN	_	13	A	13:A	_
+13	groß	groß	ADJ	ADJD	_	19	A	19:A	_
+14	,	,	PUNCT	$,	_	19	U	19:U	_
+15	mußten	müssen	AUX	NN	_	19	D	19:D	_
+16	wenigstens	wenigstens	ADV	ADV	_	19	D	19:D	_
+17	4.000	4.0	NUM	CARD	_	18	E	18:E	_
+18	Kilogramm	Kilogramm	NOUN	NN	_	19	A	19:A	_
+19	wiegen	wiegen	VERB	VVINF	_	0	H	0:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

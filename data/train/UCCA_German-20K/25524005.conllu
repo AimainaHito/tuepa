@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25524005
+# text = Es ist sogar wahrscheinlich , dass ehemals noch ein sechster Strom im Norden des Indischen Ozeans existierte , zur Zeit als der Kaspische und der Uralsee , die nun zu den großen Seen Asiens gehören , nur eine einzige und dieselbe Wasser fläche bildeten .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	ist	sein	AUX	VVFIN	_	4	F	4:F	_
+3	sogar	sogar	ADV	ADV	_	4	G	4:G	_
+4	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	17	R	17:R	_
+7	ehemals	ehemals	ADV	ADV	_	17	D	17:D	_
+8	noch	noch	ADV	CARD	_	17	D	17:D	_
+9	ein	ein	DET	ART	_	11	E	11:E	_
+10	sechster	sechst	ADJ	NN	_	11	E	11:E	_
+11	Strom	Strom	NOUN	NN	_	17	A	17:A	_
+12	im	im	ADJ	NE	_	13	R	13:R	_
+13	Norden	Norden	NOUN	NE	_	17	A	17:A	_
+14	des	der	DET	ART	_	15	E	15:E	_
+15	Indischen	indisch	PROPN	ADJA	_	13	E	13:E	_
+16	Ozeans	Ozeans	PROPN	NE	_	15	Terminal	15:Terminal	_
+17	existierte	existieren	VERB	VVFIN	_	4	A	4:A	_
+18	,	,	PUNCT	$,	_	4	U	4:U	_
+19	zur	zur	ADP	NN	_	4	L	4:L	_
+20	Zeit	Zeit	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	als	als	ADP	KOKOM	_	19	Terminal	19:Terminal	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Kaspische	Kaspische	PROPN	ADJA	_	44	A	44:A	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Uralsee	Uralsee	PROPN	NE	_	23	C	23:C	_
+27	,	,	PUNCT	$,	_	23	U	23:U	_
+28	die	der	PRON	PRELS	_	35	R	35:R	_
+29	nun	nun	ADV	ADV	_	35	D	35:D	_
+30	zu	zu	ADP	VVINF	_	33	R	33:R	_
+31	den	der	DET	ART	_	33	E	33:E	_
+32	großen	groß	ADJ	ADJA	_	33	E	33:E	_
+33	Seen	See	NOUN	NN	_	35	A	35:A	_
+34	Asiens	Asien	PROPN	NE	_	33	E	33:E	_
+35	gehören	gehören	VERB	VVFIN	_	23	E	23:E	_
+36	,	,	PUNCT	$,	_	44	U	44:U	_
+37	nur	nur	ADV	NE	_	44	D	44:D	_
+38	eine	ein	DET	ART	_	39	E	39:E	_
+39	einzige	einzig	ADJ	ADJA	_	43	E	43:E	_
+40	und	und	CCONJ	NN	_	39	N	39:N	_
+41	dieselbe	dieselbe	PRON	PDAT	_	39	C	39:C	_
+42	Wasser	Wasser	NOUN	NN	_	43	E	43:E	_
+43	fläche	flach	NOUN	NN	_	44	A	44:A	_
+44	bildeten	bilden	VERB	VVFIN	_	4	H	4:H	_
+45	.	.	PUNCT	$.	_	44	U	44:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 380011
+# text = Gyllenhaal narrated the 2005 short animated film The Man Who Walked Between the Towers , based on Mordicai Gerstein 's book of the same name about Philippe Petit 's famous stunt .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	2	A	2:A	_
+2	narrated	narrate	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	7	E	7:E	_
+4	2005	2005	NUM	CD	_	7	E	7:E	_
+5	short	short	ADJ	JJ	_	7	E	7:E	_
+6	animated	animate	ADJ	JJ	_	7	E	7:E	_
+7	film	film	NOUN	NN	_	8	E	8:E	_
+8	The	the	DET	DT	_	2	A	2:A	_
+9	Man	man	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	Who	who	PRON	WP	_	8	Terminal	8:Terminal	_
+11	Walked	walk	VERB	VBD	_	8	Terminal	8:Terminal	_
+12	Between	between	ADP	IN	_	8	Terminal	8:Terminal	_
+13	the	the	DET	DT	_	8	Terminal	8:Terminal	_
+14	Towers	Towers	NOUN	NNS	_	8	Terminal	8:Terminal	_
+15	,	,	PUNCT	,	_	8	U	8:U	_
+16	based	base	VERB	VBN	_	8	E	8:E	_
+17	on	on	ADP	IN	_	21	R	21:R	_
+18	Mordicai	Mordicai	PROPN	NNP	_	21	E	21:E	_
+19	Gerstein	Gerstein	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	18	R	18:R	_
+21	book	book	NOUN	NN	_	16	A	16:A	_
+22	of	of	ADP	IN	_	25	R	25:R	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	same	same	ADJ	JJ	_	25	E	25:E	_
+25	name	name	NOUN	NN	_	21	E	21:E	_
+26	about	about	ADP	IN	_	31	R	31:R	_
+27	Philippe	Philippe	PROPN	NNP	_	31	A	31:A	_
+28	Petit	petit	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	's	's	PART	POS	_	27	R	27:R	_
+30	famous	famous	ADJ	JJ	_	31	E	31:E	_
+31	stunt	stunt	NOUN	NN	_	21	E	21:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

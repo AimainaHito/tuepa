@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25616000
+# text = Ich hätte lebhaft gewünscht , dieses 360 Lieue lange Riff zu besuchen , an dem das stets unruhige Meer mit fürchterlicher Stärke und donner ähnlichem Getöse sich brach .
+1	Ich	ich	PRON	PPER	_	4	A	4:A|12:A	_
+2	hätte	haben	AUX	VAFIN	_	4	F	4:F	_
+3	lebhaft	lebhaft	ADV	ADJD	_	4	D	4:D	_
+4	gewünscht	wünschen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dieses	dies	PRON	PDAT	_	10	E	10:E	_
+7	360	360	NUM	CARD	_	8	E	8:E	_
+8	Lieue	Lieue	NOUN	ADJA	_	10	E	10:E	_
+9	lange	lang	ADJ	ADJA	_	8	E	8:E	_
+10	Riff	Riff	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	besuchen	besuchen	VERB	VVINF	_	4	A	4:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	an	an	ADP	APPR	_	15	R	15:R	_
+15	dem	der	PRON	PRELS	_	27	R	27:R	_
+16	das	der	DET	ART	_	19	E	19:E	_
+17	stets	stets	ADV	ADV	_	18	D	18:D	_
+18	unruhige	unruhig	ADJ	ADJA	_	19	E	19:E	_
+19	Meer	Meer	NOUN	NN	_	27	A	27:A	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	fürchterlicher	fürchterlich	ADJ	ADJA	_	22	E	22:E	_
+22	Stärke	Stärke	NOUN	NN	_	27	A	27:A	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	donner	donn	PRON	ADJA	_	26	E	26:E	_
+25	ähnlichem	ähnlich	ADJ	ADJA	_	24	E	24:E	_
+26	Getöse	Getöse	NOUN	NN	_	22	C	22:C	_
+27	sich	er|es|sie	PRON	PRF	_	10	E	10:E	_
+28	brach	brach	VERB	VVFIN	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

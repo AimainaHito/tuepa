@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25702015
+# text = » Ist ' s gefährlich , diesen Dugong anzugreifen ? « fragte ich trotz des Kanadiers Achsel zucken .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Ist	sein	AUX	VVIMP	_	5	F	5:F	_
+3	'	'	PUNCT	$(	_	5	U	5:U	_
+4	s	s	ADV	ADJD	_	5	F	5:F	_
+5	gefährlich	gefährlich	ADJ	ADJD	_	12	A	12:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+8	Dugong	Dugong	NOUN	NN	_	9	A	9:A	_
+9	anzugreifen	angreifen	VERB	VVIZU	_	5	A	5:A	_
+10	?	?	PUNCT	$.	_	12	U	12:U	_
+11	«	«	PUNCT	$(	_	12	U	12:U	_
+12	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	trotz	trotz	ADP	APPR	_	12	L	12:L	_
+15	des	der	DET	ART	_	18	E	18:E	_
+16	Kanadiers	Kanadier	NOUN	NN	_	18	A	18:A	_
+17	Achsel	Achsel	PROPN	NE	_	18	E	18:E	_
+18	zucken	zucken	VERB	VVINF	_	12	H	12:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

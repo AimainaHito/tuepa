@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 207014
+# text = For his role as Ratso Rizzo in the film , Hoffman received his second Oscar nomination and the film won the Best Picture honor .
+1	For	for	ADP	IN	_	3	R	3:R	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	role	role	NOUN	NN	_	12	A	12:A	_
+4	as	as	ADP	IN	_	5	R	5:R	_
+5	Ratso	Ratso	PROPN	NNP	_	3	E	3:E	_
+6	Rizzo	Rizzo	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	film	film	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	12	U	12:U	_
+11	Hoffman	Hoffman	PROPN	NNP	_	12	A	12:A	_
+12	received	receive	VERB	VBD	_	0	H	0:H	_
+13	his	he	PRON	PRP$	_	16	E	16:E	_
+14	second	second	ADJ	JJ	_	16	E	16:E	_
+15	Oscar	Oscar	NOUN	NN	_	16	E	16:E	_
+16	nomination	nomination	NOUN	NN	_	12	A	12:A	_
+17	and	and	CCONJ	CC	_	12	L	12:L	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	film	film	NOUN	NN	_	20	A	20:A	_
+20	won	win	VERB	VBD	_	12	H	12:H	_
+21	the	the	DET	DT	_	24	E	24:E	_
+22	Best	best	ADJ	JJS	_	24	E	24:E	_
+23	Picture	picture	NOUN	NN	_	24	E	24:E	_
+24	honor	honor	NOUN	NN	_	20	A	20:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

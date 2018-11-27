@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 467008
+# text = The talent already on Michigan State 's roster also drew him to the program .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	talent	talent	NOUN	NN	_	10	A	10:A	_
+3	already	already	ADV	RB	_	2	D	2:D	_
+4	on	on	ADP	IN	_	8	R	8:R	_
+5	Michigan	Michigan	PROPN	NNP	_	8	E	8:E	_
+6	State	State	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	roster	roster	NOUN	NN	_	2	A	2:A	_
+9	also	also	ADV	RB	_	10	L	10:L	_
+10	drew	draw	VERB	VBD	_	0	H	0:H	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	to	to	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	program	program	NOUN	NN	_	10	A	10:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

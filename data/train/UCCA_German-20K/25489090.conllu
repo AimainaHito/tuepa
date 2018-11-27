@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25489090
+# text = » Wie ! Man spricht zu den Schuften französisch , englisch , deutsch , lateinisch , und keiner ist so höflich zu antworten !
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wie	wie	X	NE	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Man	man	PROPN	PIS	_	5	A	5:A	_
+5	spricht	sprechen	VERB	VVFIN	_	2	H	2:H	_
+6	zu	zu	ADP	NE	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Schuften	Schuft	NOUN	NN	_	5	A	5:A	_
+9	französisch	französisch	ADJ	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	englisch	englisch	ADJ	NN	_	9	C	9:C	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	deutsch	deutsch	ADJ	NN	_	9	C	9:C	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	lateinisch	lateinisch	ADJ	ADJD	_	9	C	9:C	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	und	und	CCONJ	NE	_	2	L	2:L	_
+18	keiner	kein	PRON	PIS	_	23	A	23:A	_
+19	ist	sein	AUX	VVFIN	_	23	F	23:F	_
+20	so	so	ADV	ADV	_	21	E	21:E	_
+21	höflich	höflich	ADJ	ADV	_	23	D	23:D	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	antworten	antworten	VERB	VVINF	_	2	H	2:H	_
+24	!	!	PUNCT	$.	_	23	U	23:U	_
+

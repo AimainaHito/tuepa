@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25635008
+# text = Die Wilden begaben sich gegen 11 Uhr vormittags wieder an Land , sobald die Korallen spitzen bei steigender Flut zu verschwinden anfingen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Wilden	Wilde	NOUN	NN	_	3	A	3:A	_
+3	begaben	begeben	VERB	VVINF	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	gegen	gegen	ADP	APPR	_	6	E	6:E	_
+6	11	11	NUM	CARD	_	3	D	3:D	_
+7	Uhr	Uhr	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	vormittags	vormittags	ADV	ADV	_	6	E	6:E	_
+9	wieder	wieder	ADV	NN	_	3	D	3:D	_
+10	an	an	ADP	APPR	_	11	R	11:R	_
+11	Land	Land	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	sobald	sobald	SCONJ	KOUS	_	3	L	3:L	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Korallen	Koralle	NOUN	NN	_	21	A	21:A	_
+16	spitzen	spitzen	VERB	VVFIN	_	15	E	15:E	_
+17	bei	bei	ADP	APPR	_	19	R	19:R	_
+18	steigender	steigend	ADJ	ADJA	_	19	E	19:E	_
+19	Flut	Flut	NOUN	NN	_	21	A	21:A	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	verschwinden	verschwinden	VERB	VVINF	_	3	H	3:H	_
+22	anfingen	anfingen	VERB	NE	_	21	D	21:D	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

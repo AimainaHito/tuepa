@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 706006
+# text = Critics such as Michael Gray condemned Dylan 's 1980s albums both for showing an extraordinary carelessness in the studio and for failing to release his best songs .
+1	Critics	critic	NOUN	NNS	_	6	A	6:A	_
+2	such	such	ADJ	JJ	_	4	R	4:R	_
+3	as	as	ADP	IN	_	2	Terminal	2:Terminal	_
+4	Michael	Michael	PROPN	NNP	_	1	E	1:E	_
+5	Gray	Gray	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	condemned	condemn	VERB	VBD	_	0	H	0:H	_
+7	Dylan	Dylan	PROPN	NNP	_	0	C	0:C|13:A|24:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	1980s	1980	NOUN	NNS	_	10	E	10:E	_
+10	albums	album	NOUN	NNS	_	6	A	6:A	_
+11	both	both	CCONJ	CC	_	13	N	13:N	_
+12	for	for	SCONJ	IN	_	13	F	13:F	_
+13	showing	show	VERB	VBG	_	6	A	6:A	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	extraordinary	extraordinary	ADJ	JJ	_	16	E	16:E	_
+16	carelessness	carelessness	NOUN	NN	_	13	A	13:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	studio	studio	NOUN	NN	_	16	E	16:E	_
+20	and	and	CCONJ	CC	_	13	N	13:N	_
+21	for	for	SCONJ	IN	_	24	F	24:F	_
+22	failing	fail	VERB	VBG	_	24	D	24:D	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	release	release	VERB	VB	_	13	C	13:C	_
+25	his	he	PRON	PRP$	_	27	E	27:E	_
+26	best	best	ADJ	JJS	_	27	E	27:E	_
+27	songs	song	NOUN	NNS	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

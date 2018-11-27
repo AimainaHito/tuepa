@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 139002
+# text = " Hepburn herself was proud of the role .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Hepburn	Hepburn	VERB	VB	_	5	A	5:A	_
+3	herself	herself	PRON	PRP	_	5	D	5:D	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	proud	proud	ADJ	JJ	_	0	H	0:H	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	role	role	NOUN	NN	_	5	A	5:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25643010
+# text = Ich dachte , Ned Land werde diesen Punkt mit sehr natürlicher Befriedigung vernehmen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	13	A	13:A	_
+5	Land	Land	PROPN	NN	_	4	Terminal	4:Terminal	_
+6	werde	werden	AUX	NE	_	13	F	13:F	_
+7	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+8	Punkt	Punkt	NOUN	NN	_	13	A	13:A	_
+9	mit	mit	ADP	APPR	_	12	R	12:R	_
+10	sehr	sehr	ADV	NE	_	11	E	11:E	_
+11	natürlicher	natürlich	ADJ	ADJA	_	12	E	12:E	_
+12	Befriedigung	Befriedigung	NOUN	NN	_	13	A	13:A	_
+13	vernehmen	vernehmen	VERB	VVINF	_	2	A	2:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

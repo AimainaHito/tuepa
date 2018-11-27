@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 617012
+# text = He earned £ 40 million in 2003 , the highest income that year within media professions in the UK .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	earned	earn	VERB	VBD	_	0	H	0:H	_
+3	£	£	SYM	$	_	2	U	2:U	_
+4	40	40	NUM	CD	_	2	A	2:A	_
+5	million	million	NUM	CD	_	4	Terminal	4:Terminal	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	2003	2003	NUM	CD	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	highest	highest	ADJ	JJS	_	11	E	11:E	_
+11	income	income	NOUN	NN	_	4	E	4:E	_
+12	that	that	DET	DT	_	13	E	13:E	_
+13	year	year	NOUN	NN	_	11	D	11:D	_
+14	within	within	ADP	IN	_	16	R	16:R	_
+15	media	media	NOUN	NN	_	16	E	16:E	_
+16	professions	profession	NOUN	NNS	_	11	A	11:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	UK	UK	PROPN	NNP	_	16	E	16:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 229011
+# text = Chan is an avid football fan and supports the Hong Kong National Football Team , England National Football Team , and Manchester City .
+1	Chan	Chan	PROPN	NNP	_	6	A	6:A|8:A	_
+2	is	be	AUX	VBZ	_	6	F	6:F	_
+3	an	a	DET	DT	_	6	E	6:E	_
+4	avid	avid	ADJ	JJ	_	6	D	6:D	_
+5	football	football	NOUN	NN	_	6	E	6:E	_
+6	fan	fan	NOUN	NN	_	0	H	0:H	_
+7	and	and	CCONJ	CC	_	6	L	6:L	_
+8	supports	support	VERB	VBZ	_	6	H	6:H	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Hong	Hong	PROPN	NNP	_	14	E	14:E	_
+11	Kong	Kong	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	National	National	PROPN	NNP	_	14	E	14:E	_
+13	Football	football	PROPN	NNP	_	14	E	14:E	_
+14	Team	Team	PROPN	NNP	_	8	A	8:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	England	England	PROPN	NNP	_	19	E	19:E	_
+17	National	National	PROPN	NNP	_	19	E	19:E	_
+18	Football	football	PROPN	NNP	_	19	E	19:E	_
+19	Team	Team	NOUN	NN	_	14	C	14:C	_
+20	,	,	PUNCT	,	_	14	U	14:U	_
+21	and	and	CCONJ	CC	_	14	N	14:N	_
+22	Manchester	Manchester	PROPN	NNP	_	14	C	14:C	_
+23	City	City	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	14	U	14:U	_
+

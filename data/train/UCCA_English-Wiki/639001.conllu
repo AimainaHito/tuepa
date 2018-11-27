@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 639001
+# text = Containing songs about women 's rights , race relations , Britain 's role in Northern Ireland and Lennon 's problems obtaining a green card , the album was poorly received - unlistenable , according to one critic .
+1	Containing	contain	VERB	VBG	_	0	H	0:H	_
+2	songs	song	NOUN	NNS	_	1	A	1:A	_
+3	about	about	ADP	IN	_	6	R	6:R	_
+4	women	woman	NOUN	NNS	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	rights	rights	NOUN	NNS	_	2	E	2:E	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	race	race	NOUN	NN	_	9	E	9:E	_
+9	relations	relation	NOUN	NNS	_	6	C	6:C	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	Britain	Britain	PROPN	NNP	_	13	A	13:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	role	role	NOUN	NN	_	6	C	6:C	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	Northern	Northern	PROPN	NNP	_	16	E	16:E	_
+16	Ireland	Ireland	PROPN	NNP	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	6	N	6:N	_
+18	Lennon	Lennon	PROPN	NNP	_	20	A	20:A	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	problems	problem	NOUN	NNS	_	6	C	6:C	_
+21	obtaining	obtain	VERB	VBG	_	20	A	20:A	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	green	green	ADJ	JJ	_	21	A	21:A	_
+24	card	card	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	1	U	1:U	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	album	album	NOUN	NN	_	0	C	0:C|32:A	_
+28	was	be	AUX	VBD	_	30	F	30:F	_
+29	poorly	poorly	ADV	RB	_	30	D	30:D	_
+30	received	receive	VERB	VBN	_	1	H	1:H	_
+31	-	-	PUNCT	HYPH	_	1	U	1:U	_
+32	unlistenable	unlistenable	ADJ	JJ	_	34	A	34:A	_
+33	,	,	PUNCT	,	_	34	U	34:U	_
+34	according	accord	VERB	VBG	_	1	H	1:H	_
+35	to	to	ADP	IN	_	37	R	37:R	_
+36	one	one	NUM	CD	_	37	E	37:E	_
+37	critic	critic	NOUN	NN	_	34	A	34:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

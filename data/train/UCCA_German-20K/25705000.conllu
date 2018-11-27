@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25705000
+# text = Das Boot konnte den Stoß nicht aushalten , schöpfte einige Tonnen Wasser , das man wieder ausleeren musste ; aber Dank der Geschicklichkeit des Boots führers schlug es nicht um .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	0	C	0:C|9:A	_
+3	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Stoß	Stoß	NOUN	NN	_	7	A	7:A	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	aushalten	aushalten	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	schöpfte	schöpfen	VERB	VVFIN	_	7	H	7:H	_
+10	einige	einige	PRON	PIAT	_	11	E	11:E	_
+11	Tonnen	Ton	NOUN	NN	_	9	A	9:A	_
+12	Wasser	Wasser	NOUN	NN	_	11	E	11:E	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	das	der	PRON	PRELS	_	17	R	17:R	_
+15	man	man	PRON	PIS	_	17	A	17:A	_
+16	wieder	wieder	ADV	NN	_	17	D	17:D	_
+17	ausleeren	ausleeren	VERB	VVINF	_	12	E	12:E	_
+18	musste	müssen	AUX	VVFIN	_	17	D	17:D	_
+19	;	;	PUNCT	$.	_	7	U	7:U	_
+20	aber	aber	ADV	ADV	_	7	L	7:L	_
+21	Dank	Dank	NOUN	APPR	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Geschicklichkeit	Geschicklichkeit	NOUN	NN	_	7	H	7:H	_
+24	des	der	DET	ART	_	26	R	26:R	_
+25	Boots	Boot	NOUN	NN	_	26	E	26:E	_
+26	führers	führers	ADV	NN	_	23	A	23:A	_
+27	schlug	schlagen	VERB	VVFIN	_	7	H	7:H	_
+28	es	es	PRON	PPER	_	27	A	27:A	_
+29	nicht	nicht	PART	XY	_	27	D	27:D	_
+30	um	um	ADP	PTKVZ	_	27	Terminal	27:Terminal	_
+31	.	.	PUNCT	$.	_	27	U	27:U	_
+

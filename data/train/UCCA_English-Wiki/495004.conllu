@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 495004
+# text = " You 've Got a Habit of Leaving " fared no better , signalling the end of Conn 's contract .
+1	"	"	PUNCT	``	_	14	U	14:U	_
+2	You	you	PRON	PRP	_	10	A	10:A|14:A	_
+3	've	have	AUX	VBP	_	2	Terminal	2:Terminal	_
+4	Got	get	VERB	VBN	_	2	Terminal	2:Terminal	_
+5	a	a	DET	DT	_	2	Terminal	2:Terminal	_
+6	Habit	habit	NOUN	NN	_	2	Terminal	2:Terminal	_
+7	of	of	ADP	IN	_	2	Terminal	2:Terminal	_
+8	Leaving	leave	PROPN	NNP	_	2	Terminal	2:Terminal	_
+9	"	"	PUNCT	''	_	10	U	10:U	_
+10	fared	fare	VERB	VBD	_	0	H	0:H	_
+11	no	no	ADV	RB	_	12	E	12:E	_
+12	better	better	ADV	RBR	_	10	D	10:D	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	signalling	signall	VERB	VBG	_	10	H	10:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	end	end	NOUN	NN	_	14	A	14:A	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	Conn	Conn	PROPN	NNP	_	20	E	20:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	contract	contract	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

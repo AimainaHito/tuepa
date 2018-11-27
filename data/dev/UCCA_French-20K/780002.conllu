@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 780002
+# text = Je réglai ma note à ce vaste comptoir toujours assiégé par une foule considérable .
+1	Je	il	PRON	_	_	2	A	2:A	_
+2	réglai	régl	VERB	_	_	0	H	0:H	_
+3	ma	son	DET	_	_	4	E	4:E	_
+4	note	note	NOUN	_	_	2	A	2:A	_
+5	à	à	ADP	_	_	8	R	8:R	_
+6	ce	ce	DET	_	_	8	E	8:E	_
+7	vaste	vaste	ADJ	_	_	8	E	8:E	_
+8	comptoir	comptoir	NOUN	_	_	2	A	2:A	_
+9	toujours	toujours	ADV	_	_	10	D	10:D	_
+10	assiégé	assiéger	VERB	_	_	8	E	8:E	_
+11	par	par	ADP	_	_	13	R	13:R	_
+12	une	un	DET	_	_	13	E	13:E	_
+13	foule	foule	NOUN	_	_	10	A	10:A	_
+14	considérable	considérable	ADJ	_	_	13	E	13:E	_
+15	.	.	PUNCT	_	_	13	U	13:U	_
+

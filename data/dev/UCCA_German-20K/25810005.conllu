@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25810005
+# text = Vor meinen Augen bewegte sich ein gräßliches Ungeheuer , das einen Platz in den Wunder legenden verdiente .
+1	Vor	vor	ADP	NN	_	3	R	3:R	_
+2	meinen	mein	PRON	PPOSAT	_	3	E	3:E	_
+3	Augen	Auge	NOUN	NN	_	4	A	4:A	_
+4	bewegte	bewegen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	gräßliches	gräßlich	ADJ	ADJA	_	8	E	8:E	_
+8	Ungeheuer	Ungeheuer	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	das	der	PRON	PRELS	_	17	R	17:R	_
+11	einen	ein	DET	ART	_	12	E	12:E	_
+12	Platz	Platz	NOUN	NN	_	17	A	17:A	_
+13	in	in	ADP	APPR	_	16	R	16:R	_
+14	den	der	DET	ART	_	16	E	16:E	_
+15	Wunder	Wunder	NOUN	NN	_	16	E	16:E	_
+16	legenden	legend	ADJ	VVINF	_	17	A	17:A	_
+17	verdiente	verdienen	VERB	VVFIN	_	8	E	8:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

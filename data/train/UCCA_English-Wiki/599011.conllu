@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 599011
+# text = His father , James ( " Jim " ) McCartney , was absent from his son 's birth due to his work as a volunteer firefighter during World War II .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	father	father	NOUN	NN	_	4	E	4:E	_
+3	,	,	PUNCT	,	_	4	U	4:U	_
+4	James	James	PROPN	NNP	_	13	A	13:A	_
+5	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	Jim	Jim	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	"	"	PUNCT	''	_	4	U	4:U	_
+9	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+10	McCartney	McCartney	PROPN	NNP	_	4	Terminal	4:Terminal	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	absent	absend	VERB	VBN	_	0	H	0:H	_
+14	from	from	ADP	IN	_	18	R	18:R	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	son	son	NOUN	NN	_	18	A	18:A	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	birth	birth	NOUN	NN	_	13	A	13:A	_
+19	due	due	ADP	IN	_	13	L	13:L	_
+20	to	to	ADP	IN	_	19	F	19:F	_
+21	his	he	PRON	PRP$	_	22	A	22:A	_
+22	work	work	NOUN	NN	_	13	H	13:H	_
+23	as	as	ADP	IN	_	26	R	26:R	_
+24	a	a	DET	DT	_	26	E	26:E	_
+25	volunteer	volunteer	NOUN	NN	_	26	E	26:E	_
+26	firefighter	firefighter	NOUN	NN	_	22	A	22:A	_
+27	during	during	ADP	IN	_	28	R	28:R	_
+28	World	World	PROPN	NNP	_	22	D	22:D	_
+29	War	War	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	II	ii	NUM	CD	_	28	Terminal	28:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

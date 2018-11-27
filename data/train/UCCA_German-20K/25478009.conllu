@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25478009
+# text = Dieser ließ , nachdem er das Tier genau besehen , den Ingenieur rufen .
+1	Dieser	dies	PRON	PDS	_	13	A	13:A	_
+2	ließ	lassen	VERB	VVFIN	_	13	D	13:D	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	nachdem	nachdem	SCONJ	XY	_	13	L	13:L	_
+5	er	er	PRON	PPER	_	9	A	9:A	_
+6	das	der	DET	ART	_	7	E	7:E	_
+7	Tier	Tier	NOUN	NN	_	9	A	9:A	_
+8	genau	genau	ADJ	ADV	_	9	D	9:D	_
+9	besehen	besehen	VERB	VVINF	_	13	H	13:H	_
+10	,	,	PUNCT	$,	_	13	U	13:U	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Ingenieur	Ingenieur	NOUN	NN	_	13	A	13:A	_
+13	rufen	rufen	VERB	VVINF	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

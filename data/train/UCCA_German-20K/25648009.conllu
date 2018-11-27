@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25648009
+# text = Dieser Grund beseitigte jeden Einwand des Harpuniers .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Grund	Grund	NOUN	NN	_	3	A	3:A	_
+3	beseitigte	beseitigen	VERB	VVFIN	_	0	H	0:H	_
+4	jeden	jed	PRON	PIAT	_	5	E	5:E	_
+5	Einwand	Einwand	NOUN	NN	_	3	A	3:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Harpuniers	Harpunier	NOUN	NN	_	5	A	5:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

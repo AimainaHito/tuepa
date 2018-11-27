@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25600013
+# text = Und solche Fischzüge waren bei der Schnelligkeit der " Nautilus " und der anlockenden Kraft des elektrischen Lichts täglich zu wiederholen .
+1	Und	und	CCONJ	ADJD	_	21	L	21:L	_
+2	solche	solch	PRON	ADJA	_	3	E	3:E	_
+3	Fischzüge	Fischzug	NOUN	NN	_	21	A	21:A	_
+4	waren	sein	AUX	VAFIN	_	21	F	21:F	_
+5	bei	bei	ADP	APPR	_	21	L	21:L	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Schnelligkeit	Schnelligkeit	NOUN	NN	_	21	H	21:H	_
+8	der	der	DET	ART	_	10	R	10:R	_
+9	"	"	PUNCT	$(	_	10	U	10:U	_
+10	Nautilus	Nautilus	PROPN	NE	_	7	A	7:A	_
+11	"	"	PUNCT	$(	_	21	U	21:U	_
+12	und	und	CCONJ	NE	_	21	L	21:L	_
+13	der	der	DET	ART	_	15	E	15:E	_
+14	anlockenden	anlockend	ADJ	ADJA	_	21	H	21:H	_
+15	Kraft	Kraft	NOUN	NN	_	14	A	14:A	_
+16	des	der	DET	ART	_	18	R	18:R	_
+17	elektrischen	elektrisch	ADJ	ADJA	_	18	E	18:E	_
+18	Lichts	Licht	NOUN	NN	_	14	A	14:A	_
+19	täglich	täglich	ADJ	ADJD	_	21	D	21:D	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	wiederholen	wiederholen	VERB	VVINF	_	0	H	0:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

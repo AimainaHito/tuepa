@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25690020
+# text = » Nun , so werden wir wieder rückwärts fahren , Meister Land , und wenn die ›Nautilus‹ nach dem Persischen Golf dem Roten Meer einen Besuch abstatten will , so ist die Straße von Bab el Mandeb nicht fern , um in sie ein zu fahren . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nun	nun	ADV	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	so	so	ADV	ADV	_	9	D	9:D	_
+5	werden	werden	AUX	VVFIN	_	9	F	9:F	_
+6	wir	wir	PRON	NE	_	9	A	9:A	_
+7	wieder	wieder	ADV	NE	_	9	D	9:D	_
+8	rückwärts	rückwärts	ADV	NE	_	9	D	9:D	_
+9	fahren	fahren	VERB	VVINF	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	Meister	Meister	NOUN	NN	_	12	E	12:E	_
+12	Land	Land	NOUN	NN	_	9	G	9:G	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|44:A	_
+18	nach	nach	ADP	CARD	_	20	R	20:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Persischen	Persischen	NOUN	NE	_	25	A	25:A	_
+21	Golf	Golf	PROPN	NE	_	20	E	20:E	_
+22	dem	der	DET	ART	_	23	R	23:R	_
+23	Roten	rot	PROPN	ADJA	_	25	A	25:A	_
+24	Meer	Meer	PROPN	NN	_	23	E	23:E	_
+25	einen	ein	DET	ART	_	2	H	2:H	_
+26	Besuch	Besuch	NOUN	NN	_	25	Terminal	25:Terminal	_
+27	abstatten	abstatten	VERB	VVINF	_	25	Terminal	25:Terminal	_
+28	will	wollen	AUX	NN	_	25	D	25:D	_
+29	,	,	PUNCT	$,	_	2	U	2:U	_
+30	so	so	ADV	ADV	_	2	L	2:L	_
+31	ist	sein	AUX	VVFIN	_	39	F	39:F	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Straße	Straße	NOUN	NN	_	35	E	35:E	_
+34	von	von	ADP	NE	_	35	R	35:R	_
+35	Bab	Bab	PROPN	NE	_	39	A	39:A	_
+36	el	el	PROPN	NE	_	35	Terminal	35:Terminal	_
+37	Mandeb	Mandeb	PROPN	NE	_	35	Terminal	35:Terminal	_
+38	nicht	nicht	PART	CARD	_	39	D	39:D	_
+39	fern	fern	ADV	PTKVZ	_	2	H	2:H	_
+40	,	,	PUNCT	$,	_	2	U	2:U	_
+41	um	um	ADP	KOUI	_	2	L	2:L	_
+42	in	in	ADP	APPR	_	43	R	43:R	_
+43	sie	sie	PRON	ADV	_	44	A	44:A	_
+44	ein	ein	DET	ART	_	2	H	2:H	_
+45	zu	zu	PART	NN	_	44	F	44:F	_
+46	fahren	fahren	VERB	VVINF	_	44	Terminal	44:Terminal	_
+47	.	.	PUNCT	$.	_	44	U	44:U	_
+48	«	«	PUNCT	$(	_	44	U	44:U	_
+

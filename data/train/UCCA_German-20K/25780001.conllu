@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25780001
+# text = Viertel vor 12 erschien die Sonne , die man damals nur durch Brechung des Lichts sah , wie eine goldene Scheibe , die ihre letzten Strahlen auf den verlassenen Kontinent warf .
+1	Viertel	Viertel	NOUN	NE	_	4	D	4:D	_
+2	vor	vor	ADP	NE	_	1	Terminal	1:Terminal	_
+3	12	12	NUM	CARD	_	1	Terminal	1:Terminal	_
+4	erschien	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Sonne	Sonne	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	PRON	PRELS	_	16	R	16:R	_
+9	man	man	PRON	PIS	_	16	A	16:A	_
+10	damals	damals	ADV	ADV	_	16	D	16:D	_
+11	nur	nur	ADV	NE	_	16	D	16:D	_
+12	durch	durch	ADP	APPR	_	13	R	13:R	_
+13	Brechung	Brechung	NOUN	NN	_	16	A	16:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Lichts	Licht	NOUN	NN	_	13	A	13:A	_
+16	sah	sehen	VERB	VVFIN	_	6	E	6:E	_
+17	,	,	PUNCT	$,	_	4	U	4:U	_
+18	wie	wie	SCONJ	NE	_	21	R	21:R	_
+19	eine	ein	DET	ART	_	21	E	21:E	_
+20	goldene	golden	ADJ	ADJA	_	21	E	21:E	_
+21	Scheibe	Scheibe	NOUN	NN	_	4	A	4:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	die	der	PRON	PRELS	_	31	R	31:R	_
+24	ihre	ihr	DET	PPOSAT	_	26	E	26:E	_
+25	letzten	letzt	ADJ	ADJA	_	26	E	26:E	_
+26	Strahlen	strahlen	NOUN	NN	_	31	A	31:A	_
+27	auf	auf	ADP	APPR	_	29	R	29:R	_
+28	den	der	DET	ART	_	30	E	30:E	_
+29	verlassenen	verlassen	ADJ	ADJA	_	31	A	31:A	_
+30	Kontinent	Kontinent	NOUN	NN	_	29	A	29:A	_
+31	warf	werfen	VERB	VVFIN	_	21	E	21:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25790002
+# text = Der Schiffs lieutenant der ›Nautilus‹ leitete uns an .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	Schiffs	Schiff	NOUN	NN	_	3	E	3:E	_
+3	lieutenant	lieutenanen	VERB	NN	_	6	A	6:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	E	3:E	_
+6	leitete	leiten	VERB	VVFIN	_	0	H	0:H	_
+7	uns	wir	PRON	NE	_	6	A	6:A	_
+8	an	an	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+

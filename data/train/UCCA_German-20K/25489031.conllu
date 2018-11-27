@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25489031
+# text = Bei dieser Beleuchtung konnte man nun das kleinste Detail in der Kabine erkennen .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Beleuchtung	Beleuchtung	NOUN	NN	_	13	A	13:A	_
+4	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+5	man	man	PRON	PIS	_	13	A	13:A	_
+6	nun	nun	ADV	ADV	_	13	D	13:D	_
+7	das	der	DET	ART	_	9	E	9:E	_
+8	kleinste	klein	ADJ	ADJA	_	9	E	9:E	_
+9	Detail	Detail	NOUN	NN	_	13	A	13:A	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kabine	Kabine	NOUN	NE	_	9	E	9:E	_
+13	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

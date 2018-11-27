@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25772005
+# text = In tiefer Rührung schlug ihm das Herz .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	tiefer	tief	ADJ	ADJD	_	3	D	3:D	_
+3	Rührung	Rührung	NOUN	NN	_	4	A	4:A	_
+4	schlug	schlagen	VERB	VVFIN	_	0	H	0:H	_
+5	ihm	er	PRON	PPER	_	4	A	4:A	_
+6	das	der	DET	ART	_	7	E	7:E	_
+7	Herz	Herz	NOUN	NN	_	4	A	4:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

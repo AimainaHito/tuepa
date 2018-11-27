@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 180007
+# text = In 2006 , the two became engaged , and Gyllenhaal gave birth to their daughter , Ramona , on October 3 , 2006 .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2006	2006	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	two	two	NUM	CD	_	7	A	7:A	_
+6	became	become	VERB	VBD	_	7	D	7:D	_
+7	engaged	engaged	ADJ	JJ	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	and	and	CCONJ	CC	_	7	L	7:L	_
+10	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	11	A	11:A	_
+11	gave	give	VERB	VBD	_	7	H	7:H	_
+12	birth	birth	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	to	to	ADP	IN	_	17	R	17:R	_
+14	their	they	PRON	PRP$	_	15	E	15:E	_
+15	daughter	daughter	NOUN	NN	_	17	E	17:E	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	Ramona	Ramona	PROPN	NNP	_	11	A	11:A	_
+18	,	,	PUNCT	,	_	11	U	11:U	_
+19	on	on	ADP	IN	_	20	R	20:R	_
+20	October	October	PROPN	NNP	_	11	D	11:D	_
+21	3	3	NUM	CD	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	2006	2006	NUM	CD	_	20	Terminal	20:Terminal	_
+24	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25783014
+# text = » Die ›Nautilus‹ sitzt fest ? « » Ja . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|9:A	_
+4	sitzt	sitzen	VERB	VVFIN	_	0	P	0:P|9:P	_
+5	fest	fest	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+6	?	?	PUNCT	$.	_	9	U	9:U	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	»	»	PUNCT	$(	_	9	U	9:U	_
+9	Ja	ja	PROPN	PTKANT	_	4	H	4:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

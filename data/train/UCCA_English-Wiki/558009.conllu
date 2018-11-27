@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 558009
+# text = Interviewing Presley on - air , Phillips asked him what high school he attended in order to clarify his color for the many callers who had assumed he was black .
+1	Interviewing	interview	VERB	VBG	_	0	H	0:H	_
+2	Presley	Presley	PROPN	NNP	_	1	A	1:A	_
+3	on	on	ADP	IN	_	1	A	1:A	_
+4	-	-	PUNCT	HYPH	_	3	U	3:U	_
+5	air	air	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	Phillips	Phillips	PROPN	NNP	_	8	A	8:A|18:A|1:A	_
+8	asked	ask	VERB	VBD	_	1	H	1:H	_
+9	him	he	PRON	PRP	_	8	A	8:A	_
+10	what	what	PRON	WP	_	11	E	11:E	_
+11	high	high	ADJ	JJ	_	14	A	14:A	_
+12	school	school	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	attended	attend	VERB	VBD	_	8	A	8:A	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	order	order	NOUN	NN	_	1	L	1:L	_
+17	to	to	PART	TO	_	16	F	16:F	_
+18	clarify	clarify	VERB	VB	_	1	H	1:H	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	color	color	NOUN	NN	_	18	A	18:A	_
+21	for	for	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	many	many	ADJ	JJ	_	24	E	24:E	_
+24	callers	caller	NOUN	NNS	_	18	A	18:A	_
+25	who	who	PRON	WP	_	27	F	27:F	_
+26	had	have	AUX	VBD	_	27	F	27:F	_
+27	assumed	assume	VERB	VBN	_	24	E	24:E	_
+28	he	he	PRON	PRP	_	30	A	30:A	_
+29	was	be	AUX	VBD	_	30	F	30:F	_
+30	black	black	ADJ	JJ	_	27	A	27:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

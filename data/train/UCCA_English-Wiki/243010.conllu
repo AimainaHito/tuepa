@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 243010
+# text = Hawke was born in Austin , Texas , to Leslie ( née Green ) , a charity worker , and James Hawke , an insurance actuary .
+1	Hawke	Hawke	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Austin	Austin	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Texas	Texas	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	Leslie	Leslie	PROPN	NNP	_	3	A	3:A	_
+11	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+12	née	née	ADJ	JJ	_	13	R	13:R	_
+13	Green	Green	NOUN	NN	_	10	E	10:E	_
+14	)	)	PUNCT	-RRB-	_	10	U	10:U	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	charity	charity	NOUN	NN	_	18	E	18:E	_
+18	worker	worker	NOUN	NN	_	10	E	10:E	_
+19	,	,	PUNCT	,	_	10	U	10:U	_
+20	and	and	CCONJ	CC	_	10	N	10:N	_
+21	James	James	PROPN	NNP	_	10	C	10:C	_
+22	Hawke	Hawke	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	21	U	21:U	_
+24	an	a	DET	DT	_	26	E	26:E	_
+25	insurance	insurance	NOUN	NN	_	26	E	26:E	_
+26	actuary	actuary	NOUN	NN	_	21	E	21:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

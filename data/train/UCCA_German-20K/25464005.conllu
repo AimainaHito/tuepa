@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25464005
+# text = Nichts was einem riesenhaften Narwal , einem unterseeischen Inselchen , einer schweifenden Klippe , noch sonst etwas Übernatürlichem geglichen hätte .
+1	Nichts	nichts	PRON	ADV	_	0	H	0:H	_
+2	was	was	PRON	NE	_	19	R	19:R	_
+3	einem	ein	DET	ART	_	5	E	5:E	_
+4	riesenhaften	riesenhaft	ADJ	ADJA	_	5	E	5:E	_
+5	Narwal	Narwal	NOUN	NN	_	19	A	19:A	_
+6	,	,	PUNCT	$,	_	19	U	19:U	_
+7	einem	ein	DET	ART	_	9	E	9:E	_
+8	unterseeischen	unterseeisch	ADJ	ADJA	_	9	E	9:E	_
+9	Inselchen	Inselchen	NOUN	ADJA	_	19	A	19:A	_
+10	,	,	PUNCT	$,	_	19	U	19:U	_
+11	einer	ein	DET	ART	_	13	E	13:E	_
+12	schweifenden	schweifend	ADJ	ADJA	_	13	E	13:E	_
+13	Klippe	Klippe	NOUN	NN	_	19	A	19:A	_
+14	,	,	PUNCT	$,	_	19	U	19:U	_
+15	noch	noch	CCONJ	ADV	_	18	R	18:R	_
+16	sonst	sonst	ADV	NN	_	18	E	18:E	_
+17	etwas	etwas	PRON	PIS	_	18	E	18:E	_
+18	Übernatürlichem	Übernatürlich	NOUN	PRELS	_	19	A	19:A	_
+19	geglichen	glichen	VERB	ADJA	_	1	H	1:H	_
+20	hätte	haben	AUX	VAFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

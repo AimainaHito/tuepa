@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25672010
+# text = Tut nichts .
+1	Tut	tun	VERB	NN	_	0	H	0:H	_
+2	nichts	nichts	PRON	ADJA	_	1	A	1:A	_
+3	.	.	PUNCT	$.	_	1	U	1:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 730011
+# text = Jolie is set to direct the film .
+1	Jolie	Jolie	PROPN	NNP	_	5	A	5:A	_
+2	is	be	AUX	VBZ	_	5	F	5:F	_
+3	set	set	ADJ	JJ	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	direct	direct	VERB	VB	_	0	H	0:H	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	film	film	NOUN	NN	_	5	A	5:A	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

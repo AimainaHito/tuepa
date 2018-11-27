@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 542008
+# text = The studio 's executive producer , Darryl F . Zanuck , resigned during a contract dispute with Harry Warner in 1933 .
+1	The	the	DET	DT	_	5	E	5:E	_
+2	studio	studio	NOUN	NN	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	executive	executive	ADJ	JJ	_	5	E	5:E	_
+5	producer	producer	NOUN	NN	_	7	E	7:E	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	Darryl	Darryl	PROPN	NNP	_	0	C	0:C|16:A	_
+8	F	f	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	.	_	7	U	7:U	_
+10	Zanuck	Zanuck	PROPN	NNP	_	7	Terminal	7:Terminal	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	resigned	resign	VERB	VBD	_	0	H	0:H	_
+13	during	during	ADP	IN	_	12	L	12:L	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	contract	contract	NOUN	NN	_	16	E	16:E	_
+16	dispute	dispute	NOUN	NN	_	12	H	12:H	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	Harry	Harry	PROPN	NNP	_	16	A	16:A	_
+19	Warner	Warner	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1933	1933	NUM	CD	_	16	D	16:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

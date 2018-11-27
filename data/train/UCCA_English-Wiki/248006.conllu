@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 248006
+# text = In 2004 Hawke returned to film , starring in two features , Taking Lives and Before Sunset .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	4	D	4:D	_
+3	Hawke	Hawke	PROPN	NNP	_	4	A	4:A|8:A	_
+4	returned	return	VERB	VBD	_	0	H	0:H	_
+5	to	to	ADP	IN	_	6	R	6:R	_
+6	film	film	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	starring	starr	VERB	VBG	_	4	H	4:H	_
+9	in	in	ADP	IN	_	13	R	13:R	_
+10	two	two	NUM	CD	_	11	E	11:E	_
+11	features	feature	NOUN	NNS	_	13	E	13:E	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	Taking	take	VERB	VBG	_	8	A	8:A	_
+14	Lives	live	NOUN	NNS	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	13	N	13:N	_
+16	Before	before	ADP	IN	_	13	C	13:C	_
+17	Sunset	Sunset	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 728007
+# text = In 2007 , Jolie made her directorial debut with the documentary A Place in Time , which captures daily life in 27 locations around the world during a single week .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2007	2007	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	Jolie	Jolie	PROPN	NNP	_	8	A	8:A	_
+5	made	make	VERB	VBD	_	8	F	8:F	_
+6	her	she	PRON	PRP$	_	8	A	8:A	_
+7	directorial	directorial	ADJ	JJ	_	8	E	8:E	_
+8	debut	debut	NOUN	NN	_	0	H	0:H	_
+9	with	with	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	documentary	documentary	NOUN	NN	_	12	E	12:E	_
+12	A	a	DET	DT	_	8	A	8:A	_
+13	Place	place	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	12	Terminal	12:Terminal	_
+15	Time	time	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	which	which	PRON	WDT	_	18	F	18:F	_
+18	captures	capture	VERB	VBZ	_	12	E	12:E	_
+19	daily	daily	ADJ	JJ	_	20	E	20:E	_
+20	life	life	NOUN	NN	_	18	A	18:A	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	27	27	NUM	CD	_	23	E	23:E	_
+23	locations	location	NOUN	NNS	_	18	A	18:A	_
+24	around	around	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	world	world	NOUN	NN	_	23	E	23:E	_
+27	during	during	ADP	IN	_	30	R	30:R	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	single	single	ADJ	JJ	_	30	E	30:E	_
+30	week	week	NOUN	NN	_	18	D	18:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

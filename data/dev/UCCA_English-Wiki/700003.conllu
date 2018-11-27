@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 700003
+# text = Over the years , more and more of the songs recorded by Dylan and his band in 1967 appeared on various bootleg recordings , culminating in a five - CD bootleg set titled The Genuine Basement Tapes , containing 107 songs and alternate takes .
+1	Over	over	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	19	D	19:D	_
+4	,	,	PUNCT	,	_	19	U	19:U	_
+5	more	more	ADJ	JJR	_	10	E	10:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	more	more	ADJ	JJR	_	5	C	5:C	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	songs	song	NOUN	NNS	_	0	C	0:C|25:A	_
+11	recorded	record	VERB	VBN	_	19	A	19:A	_
+12	by	by	ADP	IN	_	13	R	13:R	_
+13	Dylan	Dylan	PROPN	NNP	_	11	A	11:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	band	band	NOUN	NN	_	13	C	13:C	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	1967	1967	NUM	CD	_	11	D	11:D	_
+19	appeared	appear	VERB	VBD	_	0	H	0:H	_
+20	on	on	ADP	IN	_	23	R	23:R	_
+21	various	various	ADJ	JJ	_	23	E	23:E	_
+22	bootleg	bootleg	NOUN	NN	_	23	E	23:E	_
+23	recordings	recording	NOUN	NNS	_	19	A	19:A	_
+24	,	,	PUNCT	,	_	19	U	19:U	_
+25	culminating	culminat	VERB	VBG	_	19	H	19:H	_
+26	in	in	ADP	IN	_	32	R	32:R	_
+27	a	a	DET	DT	_	32	E	32:E	_
+28	five	five	NUM	CD	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	CD	cd	NOUN	NN	_	32	E	32:E	_
+31	bootleg	bootleg	NOUN	NN	_	32	E	32:E	_
+32	set	set	NOUN	NN	_	33	A	33:A	_
+33	titled	title	VERB	VBN	_	39	A	39:A	_
+34	The	the	DET	DT	_	33	A	33:A	_
+35	Genuine	genuine	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	Basement	Basement	PROPN	NNP	_	34	Terminal	34:Terminal	_
+37	Tapes	Tapes	PROPN	NNPS	_	34	Terminal	34:Terminal	_
+38	,	,	PUNCT	,	_	39	U	39:U	_
+39	containing	contain	VERB	VBG	_	25	A	25:A	_
+40	107	107	NUM	CD	_	41	E	41:E	_
+41	songs	song	NOUN	NNS	_	39	A	39:A	_
+42	and	and	CCONJ	CC	_	41	N	41:N	_
+43	alternate	alternate	ADJ	JJ	_	44	E	44:E	_
+44	takes	take	NOUN	NNS	_	41	C	41:C	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

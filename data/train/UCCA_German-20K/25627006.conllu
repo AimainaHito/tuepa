@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25627006
+# text = Das Fahrzeug , durch die Flut höher gehoben , brachte uns bald zur Insel .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Fahrzeug	Fahrzeug	NOUN	NN	_	10	A	10:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	durch	durch	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Flut	Flut	NOUN	NN	_	8	A	8:A	_
+7	höher	hoch	ADJ	ADJD	_	8	D	8:D	_
+8	gehoben	heben	VERB	VVPP	_	2	E	2:E	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+11	uns	wir	PRON	NN	_	10	A	10:A	_
+12	bald	bald	ADV	ADV	_	10	D	10:D	_
+13	zur	zur	ADV	NE	_	14	R	14:R	_
+14	Insel	Insel	NOUN	NN	_	10	A	10:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

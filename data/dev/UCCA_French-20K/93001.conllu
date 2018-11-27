@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 93001
+# text = Cet intelligent industriel fonda , en 1840 , un service postal entre Liverpool et Halifax , avec trois navires en bois et à roues d' une force de quatre cents chevaux , et d' une jauge de onze cent soixante-deux tonneaux .
+1	Cet	ce	DET	_	_	3	E	3:E	_
+2	intelligent	intelligent	NOUN	_	_	3	E	3:E	_
+3	industriel	industriel	ADJ	_	_	4	A	4:A	_
+4	fonda	fonder	VERB	_	_	0	H	0:H	_
+5	,	,	PUNCT	_	_	4	U	4:U	_
+6	en	en	ADP	_	_	7	R	7:R	_
+7	1840	1840	NUM	_	_	4	D	4:D	_
+8	,	,	PUNCT	_	_	4	U	4:U	_
+9	un	un	DET	_	_	10	E	10:E	_
+10	service	service	NOUN	_	_	4	A	4:A	_
+11	postal	postal	ADJ	_	_	10	E	10:E	_
+12	entre	entre	ADP	_	_	13	R	13:R	_
+13	Liverpool	Liverpool	PROPN	_	_	10	E	10:E	_
+14	et	et	CCONJ	_	_	13	N	13:N	_
+15	Halifax	Halifax	PROPN	_	_	13	C	13:C	_
+16	,	,	PUNCT	_	_	4	U	4:U	_
+17	avec	avec	ADP	_	_	19	R	19:R	_
+18	trois	trois	NUM	_	_	19	E	19:E	_
+19	navires	navire	NOUN	_	_	4	A	4:A	_
+20	en	en	ADP	_	_	21	R	21:R	_
+21	bois	bois	NOUN	_	_	19	E	19:E	_
+22	et	et	CCONJ	_	_	21	N	21:N	_
+23	à	à	ADP	_	_	24	R	24:R	_
+24	roues	roue	NOUN	_	_	21	C	21:C	_
+25	d'	de	ADP	_	_	27	R	27:R	_
+26	une	un	DET	_	_	27	E	27:E	_
+27	force	force	NOUN	_	_	19	E	19:E	_
+28	de	de	ADP	_	_	31	R	31:R	_
+29	quatre	quatre	NUM	_	_	31	E	31:E	_
+30	cents	cent	NUM	_	_	29	Terminal	29:Terminal	_
+31	chevaux	cheval	NOUN	_	_	27	E	27:E	_
+32	,	,	PUNCT	_	_	27	U	27:U	_
+33	et	et	CCONJ	_	_	27	N	27:N	_
+34	d'	de	ADP	_	_	36	R	36:R	_
+35	une	un	DET	_	_	36	E	36:E	_
+36	jauge	jauge	NOUN	_	_	27	C	27:C	_
+37	de	de	ADP	_	_	41	R	41:R	_
+38	onze	onze	NUM	_	_	41	E	41:E	_
+39	cent	cent	NUM	_	_	38	Terminal	38:Terminal	_
+40	soixante-deux	soixante-deux	NUM	_	_	38	Terminal	38:Terminal	_
+41	tonneaux	tonneau	NOUN	_	_	36	E	36:E	_
+42	.	.	PUNCT	_	_	41	U	41:U	_
+

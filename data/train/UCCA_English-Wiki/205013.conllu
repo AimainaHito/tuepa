@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 205013
+# text = Hoffman is Jewish , from an Ashkenazi family of immigrants from Kiev and Iaşi ( Romania ) . His upbringing was neither religious nor observant .
+1	Hoffman	Hoffman	PROPN	NNP	_	3	A	3:A|8:A	_
+2	is	be	AUX	VBZ	_	3	F	3:F	_
+3	Jewish	jewish	ADJ	JJ	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	from	from	ADP	IN	_	8	R	8:R	_
+6	an	a	DET	DT	_	8	E	8:E	_
+7	Ashkenazi	Ashkenazi	PROPN	NNP	_	8	E	8:E	_
+8	family	family	NOUN	NN	_	3	H	3:H	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	immigrants	immigrant	NOUN	NNS	_	8	E	8:E	_
+11	from	from	ADP	IN	_	12	R	12:R	_
+12	Kiev	Kiev	PROPN	NNP	_	10	E	10:E	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	Iaşi	Iaşi	PROPN	NNP	_	12	C	12:C	_
+15	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+16	Romania	Romania	PROPN	NNP	_	14	E	14:E	_
+17	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+18	.	.	PUNCT	.	_	3	U	3:U	_
+19	His	he	PRON	PRP$	_	20	E	20:E	_
+20	upbringing	upbringing	NOUN	NN	_	23	A	23:A	_
+21	was	be	AUX	VBD	_	23	F	23:F	_
+22	neither	neither	CCONJ	CC	_	23	N	23:N	_
+23	religious	religious	ADJ	JJ	_	3	H	3:H	_
+24	nor	nor	CCONJ	CC	_	22	Terminal	22:Terminal	_
+25	observant	observant	ADJ	JJ	_	23	C	23:C	_
+26	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25444007
+# text = Ich führte ganz natürlich das Gespräch auf das Riesen einhorn und prüfte die verschiedenen Aussichten unserer Unternehmung auf Gelingen oder Mißlingen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|12:A	_
+2	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+3	ganz	ganz	ADV	ADV	_	4	E	4:E	_
+4	natürlich	natürlich	ADJ	APPR	_	2	D	2:D	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Gespräch	Gespräch	NOUN	NN	_	2	A	2:A	_
+7	auf	auf	ADP	APPR	_	10	R	10:R	_
+8	das	der	DET	ART	_	10	E	10:E	_
+9	Riesen	Riese	NOUN	NN	_	10	E	10:E	_
+10	einhorn	einhorn	VERB	NE	_	2	A	2:A	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	prüfte	prüfen	VERB	VVFIN	_	2	H	2:H	_
+13	die	der	DET	ART	_	15	E	15:E	_
+14	verschiedenen	verschieden	ADJ	ADJA	_	15	E	15:E	_
+15	Aussichten	Aussicht	NOUN	NN	_	12	A	12:A	_
+16	unserer	unser	PRON	PPOSAT	_	17	R	17:R	_
+17	Unternehmung	Unternehmung	NOUN	NN	_	15	E	15:E	_
+18	auf	auf	ADP	APPR	_	19	R	19:R	_
+19	Gelingen	Gelingen	NOUN	NN	_	12	A	12:A	_
+20	oder	oder	CCONJ	NN	_	19	N	19:N	_
+21	Mißlingen	Mißling	NOUN	NE	_	19	C	19:C	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+

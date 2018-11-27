@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25488072
+# text = Es dünkte mir , ein Ruf antworte dem Rufen Conseils .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	dünkte	dünken	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Ruf	Ruf	NOUN	NN	_	7	A	7:A	_
+7	antworte	antworen	VERB	NN	_	2	A	2:A	_
+8	dem	der	DET	ART	_	9	R	9:R	_
+9	Rufen	rufen	NOUN	NN	_	7	A	7:A	_
+10	Conseils	Conseils	PROPN	ADV	_	9	E	9:E	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

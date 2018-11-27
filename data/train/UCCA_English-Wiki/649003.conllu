@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 649003
+# text = " It 's driving me crackers ! " he jokingly complained , because he could not get the tune out of his head .
+1	"	"	PUNCT	``	_	11	U	11:U	_
+2	It	it	PRON	PRP	_	4	A	4:A	_
+3	's	be	AUX	VBZ	_	4	F	4:F	_
+4	driving	drive	VERB	VBG	_	11	A	11:A	_
+5	me	I	PRON	PRP	_	4	A	4:A	_
+6	crackers	cracker	NOUN	NNS	_	4	Terminal	4:Terminal	_
+7	!	!	PUNCT	.	_	11	U	11:U	_
+8	"	"	PUNCT	''	_	11	U	11:U	_
+9	he	he	PRON	PRP	_	11	A	11:A	_
+10	jokingly	jokingly	ADV	RB	_	11	D	11:D	_
+11	complained	complain	VERB	VBD	_	0	H	0:H	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	because	because	SCONJ	IN	_	11	L	11:L	_
+14	he	he	PRON	PRP	_	17	A	17:A	_
+15	could	could	AUX	MD	_	17	F	17:F	_
+16	not	not	PART	RB	_	17	D	17:D	_
+17	get	get	VERB	VB	_	11	H	11:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	tune	tune	NOUN	NN	_	17	A	17:A	_
+20	out	out	ADP	IN	_	23	R	23:R	_
+21	of	of	ADP	IN	_	23	F	23:F	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	head	head	NOUN	NN	_	17	A	17:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

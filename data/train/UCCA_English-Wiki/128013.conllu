@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 128013
+# text = " Hepburn refused , and paid Harris $ 14,000 to close the production instead . She later referred to Harris as " hands - down the most diabolical person I have ever met " , and claimed this experience was important in teaching her to take responsibility for her career .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A|6:A	_
+3	refused	refuse	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	and	and	CCONJ	CC	_	3	L	3:L	_
+6	paid	pay	VERB	VBD	_	3	H	3:H	_
+7	Harris	Harris	PROPN	NNP	_	6	A	6:A|11:A	_
+8	$	$	SYM	$	_	6	U	6:U	_
+9	14,000	14,000	NUM	CD	_	6	A	6:A	_
+10	to	to	PART	TO	_	11	R	11:R	_
+11	close	close	VERB	VB	_	6	A	6:A	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	production	production	NOUN	NN	_	11	A	11:A	_
+14	instead	instead	ADV	RB	_	5	Terminal	5:Terminal	_
+15	.	.	PUNCT	.	_	3	U	3:U	_
+16	She	she	PRON	PRP	_	18	A	18:A|37:A	_
+17	later	later	ADV	RB	_	18	D	18:D	_
+18	referred	refer	VERB	VBD	_	3	H	3:H	_
+19	to	to	ADP	IN	_	20	R	20:R	_
+20	Harris	Harris	PROPN	NNP	_	18	A	18:A	_
+21	as	as	ADP	IN	_	29	R	29:R	_
+22	"	"	PUNCT	``	_	29	U	29:U	_
+23	hands	hand	NOUN	NNS	_	29	E	29:E	_
+24	-	-	PUNCT	HYPH	_	23	U	23:U	_
+25	down	down	ADV	RB	_	23	Terminal	23:Terminal	_
+26	the	the	DET	DT	_	29	E	29:E	_
+27	most	most	ADV	RBS	_	29	E	29:E	_
+28	diabolical	diabolical	ADJ	JJ	_	29	E	29:E	_
+29	person	person	NOUN	NN	_	18	A	18:A	_
+30	I	I	PRON	PRP	_	33	A	33:A	_
+31	have	have	AUX	VBP	_	33	F	33:F	_
+32	ever	ever	ADV	RB	_	33	D	33:D	_
+33	met	meet	VERB	VBN	_	29	E	29:E	_
+34	"	"	PUNCT	''	_	3	U	3:U	_
+35	,	,	PUNCT	,	_	3	U	3:U	_
+36	and	and	CCONJ	CC	_	3	L	3:L	_
+37	claimed	claim	VERB	VBN	_	3	H	3:H	_
+38	this	this	DET	DT	_	39	E	39:E	_
+39	experience	experience	NOUN	NN	_	41	A	41:A|43:A	_
+40	was	be	AUX	VBD	_	41	F	41:F	_
+41	important	important	ADJ	JJ	_	37	A	37:A	_
+42	in	in	SCONJ	IN	_	43	R	43:R	_
+43	teaching	teach	VERB	VBG	_	41	A	41:A	_
+44	her	she	PRON	PRP	_	43	A	43:A|46:A	_
+45	to	to	PART	TO	_	46	R	46:R	_
+46	take	take	VERB	VB	_	43	A	43:A	_
+47	responsibility	responsibility	NOUN	NN	_	46	Terminal	46:Terminal	_
+48	for	for	ADP	IN	_	50	R	50:R	_
+49	her	she	PRON	PRP$	_	50	E	50:E	_
+50	career	career	NOUN	NN	_	46	A	46:A	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25618006
+# text = Nach Süden und Osten hin kamen schon einige Korallen spitzen zum Vorschein , die bei Ebbe unbedeckt waren .
+1	Nach	nach	ADP	APPR	_	2	R	2:R	_
+2	Süden	Süden	NOUN	NN	_	6	A	6:A	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	Osten	Osten	NOUN	NN	_	2	C	2:C	_
+5	hin	hin	ADV	ADV	_	1	Terminal	1:Terminal	_
+6	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+7	schon	schon	ADV	ADV	_	6	D	6:D	_
+8	einige	einige	PRON	PIAT	_	10	E	10:E	_
+9	Korallen	Koralle	NOUN	NN	_	10	E	10:E	_
+10	spitzen	spitzen	VERB	VVFIN	_	6	A	6:A	_
+11	zum	zum	ADV	NN	_	6	Terminal	6:Terminal	_
+12	Vorschein	Vorschein	NOUN	NN	_	6	Terminal	6:Terminal	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	die	der	PRON	PRELS	_	17	R	17:R	_
+15	bei	bei	ADP	APPR	_	16	R	16:R	_
+16	Ebbe	Ebbe	PROPN	NN	_	17	A	17:A	_
+17	unbedeckt	unbedecken	ADJ	ADJD	_	10	E	10:E	_
+18	waren	sein	AUX	VAFIN	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

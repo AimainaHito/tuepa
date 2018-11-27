@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25501001
+# text = Hatte er sich zu weit aus seiner gewohnten Rückhaltung herausreißen lassen ?
+1	Hatte	haben	VERB	VAFIN	_	3	F	3:F	_
+2	er	er	PRON	PPER	_	3	A	3:A	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	zu	zu	ADP	VVINF	_	5	E	5:E	_
+5	weit	weit	ADJ	ADJD	_	3	D	3:D	_
+6	aus	aus	ADP	APPR	_	9	R	9:R	_
+7	seiner	sein	DET	PPOSAT	_	9	E	9:E	_
+8	gewohnten	wohnten	ADJ	ADJA	_	9	E	9:E	_
+9	Rückhaltung	Rückhaltung	NOUN	NN	_	3	A	3:A	_
+10	herausreißen	herausreißen	VERB	VVINF	_	3	Terminal	3:Terminal	_
+11	lassen	lassen	VERB	VVINF	_	3	D	3:D	_
+12	?	?	PUNCT	$.	_	3	U	3:U	_
+

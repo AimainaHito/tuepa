@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 84002
+# text = Or , les plus vastes baleines , celles qui fréquentent les parages des îles Aléoutiennes , le Kulammak et l' Umgullick , n' ont jamais dépassé la longueur de cinquante-six mètres , - si même elles l' atteignent .
+1	Or	or	CCONJ	_	_	26	L	26:L	_
+2	,	,	PUNCT	_	_	26	U	26:U	_
+3	les	le	DET	_	_	6	E	6:E	_
+4	plus	plus	ADV	_	_	5	D	5:D	_
+5	vastes	vaste	ADJ	_	_	6	E	6:E	_
+6	baleines	baleine	NOUN	_	_	26	A	26:A	_
+7	,	,	PUNCT	_	_	6	U	6:U	_
+8	celles	celui	PRON	_	_	10	R	10:R	_
+9	qui	qui	PRON	_	_	8	Terminal	8:Terminal	_
+10	fréquentent	fréquenter	VERB	_	_	6	E	6:E	_
+11	les	le	DET	_	_	12	E	12:E	_
+12	parages	parage	NOUN	_	_	14	E	14:E	_
+13	des	un	DET	_	_	12	R	12:R	_
+14	îles	île	NOUN	_	_	10	A	10:A	_
+15	Aléoutiennes	Aléoutiennes	PROPN	_	_	14	E	14:E	_
+16	,	,	PUNCT	_	_	6	U	6:U	_
+17	le	le	DET	_	_	18	E	18:E	_
+18	Kulammak	Kulammak	PROPN	_	_	6	E	6:E	_
+19	et	et	CCONJ	_	_	18	N	18:N	_
+20	l'	le	DET	_	_	21	E	21:E	_
+21	Umgullick	Umgullick	PROPN	_	_	18	C	18:C	_
+22	,	,	PUNCT	_	_	26	U	26:U	_
+23	n'	ne	ADV	_	_	26	D	26:D	_
+24	ont	avoir	AUX	_	_	26	F	26:F	_
+25	jamais	jamais	ADV	_	_	26	D	26:D	_
+26	dépassé	dépasser	VERB	_	_	0	H	0:H	_
+27	la	le	DET	_	_	28	E	28:E	_
+28	longueur	longueur	NOUN	_	_	31	E	31:E	_
+29	de	de	ADP	_	_	28	R	28:R	_
+30	cinquante-six	cinquante-six	NUM	_	_	31	E	31:E	_
+31	mètres	mètre	NOUN	_	_	26	A	26:A	_
+32	,	,	PUNCT	_	_	26	U	26:U	_
+33	-	-	PUNCT	_	_	26	U	26:U	_
+34	si	si	SCONJ	_	_	26	L	26:L	_
+35	même	même	ADV	_	_	34	Terminal	34:Terminal	_
+36	elles	il	PRON	_	_	38	A	38:A	_
+37	l'	le	PRON	_	_	38	A	38:A	_
+38	atteignent	atteindre	VERB	_	_	26	H	26:H	_
+39	.	.	PUNCT	_	_	38	U	38:U	_
+

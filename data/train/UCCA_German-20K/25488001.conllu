@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25488001
+# text = Ich wurde anfangs etwa 20 Fuß tief hinabgezogen .
+1	Ich	ich	PRON	PPER	_	8	A	8:A	_
+2	wurde	werden	AUX	TRUNC	_	8	F	8:F	_
+3	anfangs	anfangs	ADV	ADV	_	8	D	8:D	_
+4	etwa	etwa	ADV	ADV	_	6	E	6:E	_
+5	20	20	NUM	CARD	_	6	E	6:E	_
+6	Fuß	Fuß	NOUN	NN	_	8	A	8:A	_
+7	tief	tief	ADJ	VVFIN	_	8	D	8:D	_
+8	hinabgezogen	hinabziehen	VERB	ADJD	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

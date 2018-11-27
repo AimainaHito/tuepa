@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 538013
+# text = Jack , who was still living in Youngstown at the time , arrived on weekends " to sing illustrated song - slides during reel changes " . In 1906 , the brothers purchased a small theater in New Castle , which they called the Cascade Movie Palace .
+1	Jack	Jack	PROPN	NNP	_	13	A	13:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	who	who	PRON	WP	_	6	F	6:F	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	still	still	ADV	RB	_	6	D	6:D	_
+6	living	live	VERB	VBG	_	1	E	1:E	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Youngstown	Youngstown	PROPN	NNP	_	6	A	6:A	_
+9	at	at	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	time	time	NOUN	NN	_	6	D	6:D	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	arrived	arrive	VERB	VBD	_	0	H	0:H	_
+14	on	on	ADP	IN	_	15	R	15:R	_
+15	weekends	weekend	NOUN	NNS	_	13	A	13:A	_
+16	"	"	PUNCT	''	_	13	U	13:U	_
+17	to	to	SCONJ	IN	_	18	F	18:F	_
+18	sing	s	VERB	VBG	_	13	A	13:A	_
+19	illustrated	illustrate	ADJ	JJ	_	22	E	22:E	_
+20	song	song	NOUN	NN	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	slides	slide	NOUN	NNS	_	18	A	18:A	_
+23	during	during	ADP	IN	_	18	L	18:L	_
+24	reel	reel	NOUN	NN	_	25	A	25:A	_
+25	changes	change	NOUN	NNS	_	18	H	18:H	_
+26	"	"	PUNCT	''	_	13	U	13:U	_
+27	.	.	PUNCT	.	_	13	U	13:U	_
+28	In	in	ADP	IN	_	29	R	29:R	_
+29	1906	1906	NUM	CD	_	33	D	33:D	_
+30	,	,	PUNCT	,	_	33	U	33:U	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	brothers	brother	NOUN	NNS	_	33	A	33:A	_
+33	purchased	purchase	VERB	VBD	_	13	H	13:H	_
+34	a	a	DET	DT	_	36	E	36:E	_
+35	small	small	ADJ	JJ	_	36	E	36:E	_
+36	theater	theater	NOUN	NN	_	33	A	33:A	_
+37	in	in	ADP	IN	_	38	R	38:R	_
+38	New	New	PROPN	NNP	_	33	A	33:A	_
+39	Castle	Castle	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	,	,	PUNCT	,	_	33	U	33:U	_
+41	which	which	PRON	WDT	_	43	F	43:F	_
+42	they	they	PRON	PRP	_	43	A	43:A	_
+43	called	call	VERB	VBD	_	36	E	36:E	_
+44	the	the	DET	DT	_	45	E	45:E	_
+45	Cascade	cascade	PROPN	NNP	_	43	A	43:A	_
+46	Movie	movie	PROPN	NNP	_	45	Terminal	45:Terminal	_
+47	Palace	Palace	PROPN	NNP	_	45	Terminal	45:Terminal	_
+48	.	.	PUNCT	.	_	45	U	45:U	_
+

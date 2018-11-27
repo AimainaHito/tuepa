@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 469002
+# text = Although Johnson denied responsibility for Westhead 's firing , he was booed across the league , even by Lakers ' fans .
+1	Although	although	SCONJ	IN	_	3	L	3:L	_
+2	Johnson	Johnson	PROPN	NNP	_	3	A	3:A	_
+3	denied	deny	VERB	VBD	_	0	H	0:H	_
+4	responsibility	responsibility	NOUN	NN	_	3	A	3:A	_
+5	for	for	ADP	IN	_	8	R	8:R	_
+6	Westhead	Westhead	PROPN	NNP	_	8	A	8:A	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	firing	firing	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	he	he	PRON	PRP	_	12	A	12:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	booed	boo	VERB	VBN	_	3	H	3:H	_
+13	across	across	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	league	league	NOUN	NN	_	12	A	12:A	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	even	even	ADV	RB	_	18	E	18:E	_
+18	by	by	ADP	IN	_	21	R	21:R	_
+19	Lakers	Laker	PROPN	NNPS	_	21	E	21:E	_
+20	'	's	PART	POS	_	21	U	21:U	_
+21	fans	fan	NOUN	NNS	_	12	A	12:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

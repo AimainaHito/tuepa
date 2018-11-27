@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 490013
+# text = At the age of fourteen , Bana wanted to leave school to focus full - time on becoming a motor mechanic , but his father convinced him to complete school , advising him to avoid making his hobby a job .
+1	At	at	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	fourteen	fourteen	NOUN	NNS	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Bana	Bana	PROPN	NNP	_	8	A	8:A|10:A|13:A|3:A|18:A	_
+8	wanted	want	VERB	VBD	_	3	H	3:H	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	leave	leave	VERB	VB	_	8	A	8:A	_
+11	school	school	NOUN	NN	_	10	A	10:A	_
+12	to	to	PART	TO	_	3	L	3:L	_
+13	focus	focus	VERB	VB	_	3	H	3:H	_
+14	full	full	ADJ	JJ	_	13	D	13:D	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	time	time	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	on	on	SCONJ	IN	_	18	R	18:R	_
+18	becoming	become	VERB	VBG	_	13	A	13:A	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	motor	motor	NOUN	NN	_	21	E	21:E	_
+21	mechanic	mechanic	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	but	but	CCONJ	CC	_	3	L	3:L	_
+24	his	he	PRON	PRP$	_	25	E	25:E	_
+25	father	father	NOUN	NN	_	26	A	26:A|32:A	_
+26	convinced	convince	VERB	VBD	_	3	H	3:H	_
+27	him	he	PRON	PRP	_	26	A	26:A|29:A	_
+28	to	to	ADP	IN	_	29	F	29:F	_
+29	complete	complete	ADJ	JJ	_	26	A	26:A	_
+30	school	school	NOUN	NN	_	29	A	29:A	_
+31	,	,	PUNCT	,	_	3	U	3:U	_
+32	advising	advise	VERB	VBG	_	3	H	3:H	_
+33	him	he	PRON	PRP	_	32	A	32:A|36:A|35:A	_
+34	to	to	PART	TO	_	35	F	35:F	_
+35	avoid	avoid	VERB	VB	_	32	A	32:A	_
+36	making	make	VERB	VBG	_	35	A	35:A	_
+37	his	he	PRON	PRP$	_	38	E	38:E	_
+38	hobby	hobby	NOUN	NN	_	36	A	36:A	_
+39	a	a	DET	DT	_	40	E	40:E	_
+40	job	job	NOUN	NN	_	36	A	36:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 116003
+# text = As a child , Hepburn joined her mother on several " Votes For Women " demonstrations .
+1	As	as	ADP	IN	_	3	L	3:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	child	child	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Hepburn	Hepburn	PROPN	NNP	_	6	A	6:A|3:A	_
+6	joined	join	VERB	VBD	_	3	H	3:H	_
+7	her	she	PRON	PRP$	_	8	E	8:E	_
+8	mother	mother	NOUN	NN	_	6	A	6:A	_
+9	on	on	ADP	IN	_	16	R	16:R	_
+10	several	several	ADJ	JJ	_	16	E	16:E	_
+11	"	"	PUNCT	''	_	16	U	16:U	_
+12	Votes	vote	NOUN	NNS	_	16	E	16:E	_
+13	For	for	ADP	IN	_	12	Terminal	12:Terminal	_
+14	Women	woman	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	"	"	PUNCT	''	_	16	U	16:U	_
+16	demonstrations	demonstration	NOUN	NNS	_	6	A	6:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

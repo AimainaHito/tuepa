@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 470008
+# text = During the Finals , Johnson averaged 18.0 points on .560 shooting , 13.6 assists , and 7.7 rebounds per game .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	Finals	Finals	NOUN	NNS	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Johnson	Johnson	PROPN	NNP	_	6	A	6:A	_
+6	averaged	average	VERB	VBD	_	3	H	3:H	_
+7	18.0	18.0	NUM	CD	_	8	E	8:E	_
+8	points	point	NOUN	NNS	_	6	A	6:A	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	.560	.560	NUM	CD	_	11	E	11:E	_
+11	shooting	shooting	NOUN	NN	_	8	E	8:E	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	13.6	13.6	NUM	CD	_	14	E	14:E	_
+14	assists	assist	NOUN	NNS	_	8	C	8:C	_
+15	,	,	PUNCT	,	_	8	U	8:U	_
+16	and	and	CCONJ	CC	_	8	N	8:N	_
+17	7.7	7.7	NUM	CD	_	18	E	18:E	_
+18	rebounds	rebound	NOUN	NNS	_	8	C	8:C	_
+19	per	per	ADP	IN	_	20	R	20:R	_
+20	game	game	NOUN	NN	_	8	E	8:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

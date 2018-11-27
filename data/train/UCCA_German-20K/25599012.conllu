@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25599012
+# text = 4.000 Meilen unterm Pazifik
+1	4.000	4.0	NUM	CARD	_	2	E	2:E	_
+2	Meilen	Meile	NOUN	NN	_	3	A	3:A	_
+3	unterm	unterm	ADJ	NE	_	0	H	0:H	_
+4	Pazifik	Pazifik	PROPN	NE	_	3	A	3:A	_
+

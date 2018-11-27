@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 493015
+# text = " Failing his eleven plus exam at the conclusion of his Burnt Ash Junior education , Bowie joined Bromley Technical High School .
+1	"	"	PUNCT	``	_	2	U	2:U	_
+2	Failing	fail	VERB	VBG	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	6	E	6:E	_
+4	eleven	eleven	NOUN	NN	_	6	E	6:E	_
+5	plus	plus	CCONJ	CC	_	4	E	4:E	_
+6	exam	exam	NOUN	NN	_	2	A	2:A	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	conclusion	conclusion	NOUN	NN	_	2	A	2:A	_
+10	of	of	ADP	IN	_	15	R	15:R	_
+11	his	he	PRON	PRP$	_	15	A	15:A	_
+12	Burnt	burnt	PROPN	NNP	_	15	E	15:E	_
+13	Ash	Ash	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Junior	junior	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	education	education	NOUN	NN	_	9	E	9:E	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	Bowie	Bowie	PROPN	NNP	_	18	A	18:A|2:A	_
+18	joined	join	VERB	VBD	_	2	H	2:H	_
+19	Bromley	Bromley	PROPN	NNP	_	21	E	21:E	_
+20	Technical	technical	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	High	High	PROPN	NNP	_	18	A	18:A	_
+22	School	School	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

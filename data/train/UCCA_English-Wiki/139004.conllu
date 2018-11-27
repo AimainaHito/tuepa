@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 139004
+# text = She called it " the greatest [ play ] this country has ever produced " and the role of morphine - addicted Mary Tyrone " the most challenging female role in American drama " , and felt her performance was the best screen work of her career .
+1	She	she	PRON	PRP	_	2	A	2:A|37:A	_
+2	called	call	VERB	VBD	_	0	H	0:H	_
+3	it	it	PRON	PRP	_	2	A	2:A	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	greatest	greatest	ADJ	JJS	_	8	E	8:E	_
+7	[	[	PUNCT	-LRB-	_	8	U	8:U	_
+8	play	play	NOUN	NN	_	14	A	14:A	_
+9	]	]	PUNCT	-RRB-	_	14	U	14:U	_
+10	this	this	DET	DT	_	11	E	11:E	_
+11	country	country	NOUN	NN	_	14	A	14:A	_
+12	has	have	AUX	VBZ	_	14	F	14:F	_
+13	ever	ever	ADV	RB	_	14	D	14:D	_
+14	produced	produce	VERB	VBN	_	2	A	2:A	_
+15	"	"	PUNCT	''	_	14	U	14:U	_
+16	and	and	CCONJ	CC	_	14	L	14:L	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	role	role	NOUN	NN	_	28	A	28:A	_
+19	of	of	ADP	IN	_	23	R	23:R	_
+20	morphine	morphine	NOUN	NN	_	22	A	22:A	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	addicted	addict	VERB	VBN	_	23	E	23:E	_
+23	Mary	Mary	PROPN	NNP	_	18	E	18:E	_
+24	Tyrone	Tyrone	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	"	"	PUNCT	''	_	28	U	28:U	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	most	most	ADV	RBS	_	28	D	28:D	_
+28	challenging	challenging	ADJ	JJ	_	14	H	14:H	_
+29	female	female	ADJ	JJ	_	30	E	30:E	_
+30	role	role	NOUN	NN	_	28	A	28:A	_
+31	in	in	ADP	IN	_	33	R	33:R	_
+32	American	american	ADJ	JJ	_	33	E	33:E	_
+33	drama	drama	NOUN	NN	_	28	A	28:A	_
+34	"	"	PUNCT	''	_	2	U	2:U	_
+35	,	,	PUNCT	,	_	2	U	2:U	_
+36	and	and	CCONJ	CC	_	2	L	2:L	_
+37	felt	feel	VERB	VBD	_	2	H	2:H	_
+38	her	she	PRON	PRP$	_	39	A	39:A	_
+39	performance	performance	NOUN	NN	_	40	A	40:A	_
+40	was	be	AUX	VBD	_	37	A	37:A	_
+41	the	the	DET	DT	_	44	E	44:E	_
+42	best	best	ADJ	JJS	_	44	E	44:E	_
+43	screen	screen	NOUN	NN	_	44	E	44:E	_
+44	work	work	NOUN	NN	_	40	A	40:A	_
+45	of	of	ADP	IN	_	47	R	47:R	_
+46	her	she	PRON	PRP$	_	47	E	47:E	_
+47	career	career	NOUN	NN	_	44	E	44:E	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

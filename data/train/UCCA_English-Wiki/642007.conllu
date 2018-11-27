@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 642007
+# text = Lennon asked her out , but when she said that she was engaged , he screamed out , " I did n't ask you to fuckin ' marry me , did I ?
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	asked	ask	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP	_	2	A	2:A	_
+4	out	out	ADP	RP	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	but	but	CCONJ	CC	_	2	L	2:L	_
+7	when	when	ADV	WRB	_	2	L	2:L	_
+8	she	she	PRON	PRP	_	9	A	9:A	_
+9	said	say	VERB	VBD	_	2	H	2:H	_
+10	that	that	SCONJ	IN	_	13	F	13:F	_
+11	she	she	PRON	PRP	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	engaged	engage	VERB	VBN	_	9	A	9:A	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	screamed	scream	VERB	VBD	_	2	H	2:H	_
+17	out	out	ADP	RP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	"	"	PUNCT	``	_	16	U	16:U	_
+20	I	I	PRON	PRP	_	23	A	23:A	_
+21	did	do	AUX	VBD	_	23	F	23:F	_
+22	n't	not	PART	RB	_	23	D	23:D	_
+23	ask	ask	VERB	VB	_	16	A	16:A	_
+24	you	you	PRON	PRP	_	23	A	23:A|28:A	_
+25	to	to	PART	TO	_	28	R	28:R	_
+26	fuckin	fuckin	VERB	VB	_	28	D	28:D	_
+27	'	'	PUNCT	``	_	28	U	28:U	_
+28	marry	marry	VERB	VB	_	23	A	23:A	_
+29	me	I	PRON	PRP	_	28	A	28:A	_
+30	,	,	PUNCT	,	_	23	U	23:U	_
+31	did	do	AUX	VBD	_	23	F	23:F	_
+32	I	I	PRON	PRP	_	23	F	23:F	_
+33	?	?	PUNCT	.	_	23	U	23:U	_
+

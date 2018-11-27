@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25712014
+# text = Die ›Nautilus‹ fuhr entweder so unter Wasser , dass nur des Steuermanns Gehäuse hervorragte , oder sie verschwand in großen Tiefen , denn zwischen dem griechischen Archipel und Klein-asien fanden wir bei 2.000 Meter noch keinen Grund .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	entweder	entweder	CCONJ	KON	_	3	L	3:L	_
+5	so	so	ADV	ADV	_	3	L	3:L	_
+6	unter	unter	ADP	ADJD	_	7	R	7:R	_
+7	Wasser	Wasser	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	dass	dass	SCONJ	KOUS	_	5	Terminal	5:Terminal	_
+10	nur	nur	ADV	NN	_	14	D	14:D	_
+11	des	der	DET	ART	_	13	R	13:R	_
+12	Steuermanns	Steuermann	NOUN	NN	_	13	E	13:E	_
+13	Gehäuse	Gehäuse	PROPN	NN	_	14	A	14:A	_
+14	hervorragte	hervorragen	VERB	VVFIN	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	oder	oder	CCONJ	CARD	_	3	L	3:L	_
+17	sie	sie	PRON	TRUNC	_	18	A	18:A	_
+18	verschwand	verschwinden	VERB	VVFIN	_	3	H	3:H	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	großen	groß	ADJ	ADJA	_	21	E	21:E	_
+21	Tiefen	tiefe	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	$,	_	3	U	3:U	_
+23	denn	denn	CCONJ	KON	_	3	L	3:L	_
+24	zwischen	zwischen	ADP	ADJA	_	26	R	26:R	_
+25	dem	der	DET	ART	_	26	E	26:E	_
+26	griechischen	griechisch	ADJ	ADJA	_	30	A	30:A	_
+27	Archipel	Archipel	NOUN	NN	_	26	E	26:E	_
+28	und	und	CCONJ	NE	_	26	N	26:N	_
+29	Klein-asien	Symposion|Klein-asium	NOUN	NE	_	26	C	26:C	_
+30	fanden	finden	VERB	VVFIN	_	3	H	3:H	_
+31	wir	wir	PRON	NE	_	30	A	30:A	_
+32	bei	bei	ADP	APPR	_	34	R	34:R	_
+33	2.000	2.0	NUM	CARD	_	34	E	34:E	_
+34	Meter	Meter	NOUN	NN	_	30	A	30:A	_
+35	noch	noch	ADV	VVINF	_	30	D	30:D	_
+36	keinen	kein	PRON	PIAT	_	30	D	30:D	_
+37	Grund	Grund	NOUN	NN	_	30	A	30:A	_
+38	.	.	PUNCT	$.	_	30	U	30:U	_
+

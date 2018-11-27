@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25779008
+# text = Der Himmel klärte sich auf , die Wolken flohen nach dem Süden ; die Nebel verließen die kalte Oberfläche der Gewässer .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Himmel	Himmel	NOUN	NE	_	3	A	3:A	_
+3	klärte	klären	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	auf	auf	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Wolken	Wolke	NOUN	NN	_	9	A	9:A	_
+9	flohen	fliehen	VERB	VVFIN	_	3	H	3:H	_
+10	nach	nach	ADP	CARD	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Süden	Süden	NOUN	NN	_	9	A	9:A	_
+13	;	;	PUNCT	$.	_	3	U	3:U	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Nebel	nebel	NOUN	NN	_	16	A	16:A	_
+16	verließen	verlassen	VERB	VVFIN	_	3	H	3:H	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	kalte	kalt	ADJ	ADJA	_	19	E	19:E	_
+19	Oberfläche	Oberfläche	NOUN	NN	_	16	A	16:A	_
+20	der	der	DET	ART	_	21	R	21:R	_
+21	Gewässer	Gewässer	NOUN	NN	_	19	E	19:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

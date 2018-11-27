@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 529009
+# text = He arranged a four - month concert tour of the United Kingdom , where she played to sold - out audiences throughout England , Scotland , and Ireland .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	arranged	arrange	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	6	E	6:E	_
+4	four	four	NUM	CD	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	month	month	NOUN	NN	_	8	D	8:D	_
+7	concert	concert	NOUN	NN	_	8	E	8:E	_
+8	tour	tour	NOUN	NN	_	2	A	2:A	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	United	United	PROPN	NNP	_	8	A	8:A	_
+12	Kingdom	Kingdom	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	where	where	ADV	WRB	_	2	L	2:L	_
+15	she	she	PRON	PRP	_	16	A	16:A	_
+16	played	play	VERB	VBD	_	2	H	2:H	_
+17	to	to	PART	TO	_	21	R	21:R	_
+18	sold	sell	VERB	VB	_	21	E	21:E	_
+19	-	-	PUNCT	HYPH	_	18	U	18:U	_
+20	out	out	ADP	RP	_	18	E	18:E	_
+21	audiences	audience	NOUN	NNS	_	16	A	16:A	_
+22	throughout	throughout	ADP	IN	_	23	R	23:R	_
+23	England	England	PROPN	NNP	_	16	A	16:A	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	Scotland	Scotland	PROPN	NNP	_	23	C	23:C	_
+26	,	,	PUNCT	,	_	23	U	23:U	_
+27	and	and	CCONJ	CC	_	23	N	23:N	_
+28	Ireland	Ireland	PROPN	NNP	_	23	C	23:C	_
+29	.	.	PUNCT	.	_	23	U	23:U	_
+

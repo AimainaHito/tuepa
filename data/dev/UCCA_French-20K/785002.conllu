@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 785002
+# text = Sous cette pression , l' Abraham - Lincoln atteignait une vitesse moyenne de dix-huit milles et trois dixièmes à l' heure , vitesse considérable , mais cependant insuffisante pour lutter avec le gigantesque cétacé .
+1	Sous	sous	ADP	_	_	3	R	3:R	_
+2	cette	ce	DET	_	_	3	E	3:E	_
+3	pression	pression	NOUN	_	_	9	A	9:A	_
+4	,	,	PUNCT	_	_	9	U	9:U	_
+5	l'	le	DET	_	_	6	E	6:E	_
+6	Abraham	Abraham	PROPN	_	_	0	C	0:C|30:A	_
+7	-	-	PUNCT	_	_	6	U	6:U	_
+8	Lincoln	Lincoln	PROPN	_	_	6	Terminal	6:Terminal	_
+9	atteignait	atteindre	VERB	_	_	0	H	0:H	_
+10	une	un	DET	_	_	11	E	11:E	_
+11	vitesse	vitesse	NOUN	_	_	15	E	15:E	_
+12	moyenne	moyen	ADJ	_	_	11	E	11:E	_
+13	de	de	ADP	_	_	11	R	11:R	_
+14	dix-huit	dix-huit	NUM	_	_	15	E	15:E	_
+15	milles	milles	NOUN	_	_	9	A	9:A	_
+16	et	et	CCONJ	_	_	15	N	15:N	_
+17	trois	trois	NUM	_	_	18	E	18:E	_
+18	dixièmes	dixième	NOUN	_	_	15	C	15:C	_
+19	à	à	ADP	_	_	21	R	21:R	_
+20	l'	le	DET	_	_	21	E	21:E	_
+21	heure	heure	NOUN	_	_	15	E	15:E	_
+22	,	,	PUNCT	_	_	15	U	15:U	_
+23	vitesse	vitesse	NOUN	_	_	0	C	0:C|28:A	_
+24	considérable	considérable	ADJ	_	_	23	E	23:E	_
+25	,	,	PUNCT	_	_	9	U	9:U	_
+26	mais	mais	CCONJ	_	_	9	L	9:L	_
+27	cependant	cependant	ADV	_	_	26	Terminal	26:Terminal	_
+28	insuffisante	insuffisant	ADJ	_	_	9	H	9:H	_
+29	pour	pour	ADP	_	_	9	L	9:L	_
+30	lutter	lutter	VERB	_	_	9	H	9:H	_
+31	avec	avec	ADP	_	_	34	R	34:R	_
+32	le	le	DET	_	_	34	E	34:E	_
+33	gigantesque	gigantesque	ADJ	_	_	34	E	34:E	_
+34	cétacé	cétacé	NOUN	_	_	30	A	30:A	_
+35	.	.	PUNCT	_	_	34	U	34:U	_
+

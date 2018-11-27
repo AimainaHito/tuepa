@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 708007
+# text = When Dylan released the album Down in the Groove in May 1988 , it was even more unsuccessful in its sales than his previous studio album .
+1	When	when	ADV	WRB	_	3	L	3:L	_
+2	Dylan	Dylan	PROPN	NNP	_	3	A	3:A	_
+3	released	release	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	3	A	3:A	_
+6	Down	down	ADV	RB	_	5	E	5:E	_
+7	in	in	ADP	IN	_	6	Terminal	6:Terminal	_
+8	the	the	DET	DT	_	6	Terminal	6:Terminal	_
+9	Groove	Groove	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	May	May	PROPN	NNP	_	12	E	12:E	_
+12	1988	1988	NUM	CD	_	3	D	3:D	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	it	it	PRON	PRP	_	18	A	18:A	_
+15	was	be	AUX	VBD	_	18	F	18:F	_
+16	even	even	ADV	RB	_	17	E	17:E	_
+17	more	more	ADV	RBR	_	18	D	18:D	_
+18	unsuccessful	unsuccessful	ADJ	JJ	_	3	H	3:H	_
+19	in	in	ADP	IN	_	21	R	21:R	_
+20	its	its	PRON	PRP$	_	21	E	21:E	_
+21	sales	sale	NOUN	NNS	_	18	A	18:A	_
+22	than	than	ADP	IN	_	26	R	26:R	_
+23	his	he	PRON	PRP$	_	26	E	26:E	_
+24	previous	previous	ADJ	JJ	_	26	E	26:E	_
+25	studio	studio	NOUN	NN	_	26	E	26:E	_
+26	album	album	NOUN	NN	_	18	A	18:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

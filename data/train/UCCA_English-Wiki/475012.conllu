@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 475012
+# text = On November 1 , 2002 Johnson returned to play a second exhibition game against Michigan State .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	November	November	PROPN	NNP	_	5	E	5:E	_
+3	1	1	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	2002	2002	NUM	CD	_	9	D	9:D	_
+6	Johnson	Johnson	PROPN	NNP	_	9	A	9:A	_
+7	returned	return	VERB	VBD	_	9	D	9:D	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	play	play	VERB	VB	_	0	H	0:H	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	second	second	ADJ	JJ	_	13	E	13:E	_
+12	exhibition	exhibition	NOUN	NN	_	13	E	13:E	_
+13	game	game	NOUN	NN	_	9	A	9:A	_
+14	against	against	ADP	IN	_	15	R	15:R	_
+15	Michigan	Michigan	PROPN	NNP	_	9	A	9:A	_
+16	State	State	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

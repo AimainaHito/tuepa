@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25647009
+# text = » Sie haben zu befehlen « , erwiderte ich und sah ihn mit festem Blick an .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+3	haben	haben	AUX	VAFIN	_	5	D	5:D	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	befehlen	befehlen	VERB	VVINF	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	sah	sehen	VERB	VVFIN	_	8	H	8:H	_
+12	ihn	er	PRON	PPER	_	11	A	11:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	festem	fest	ADJ	ADJA	_	15	E	15:E	_
+15	Blick	Blick	NOUN	NN	_	11	A	11:A	_
+16	an	an	ADP	PTKVZ	_	11	Terminal	11:Terminal	_
+17	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 528016
+# text = A Star is Born ended up losing money , and the secure financial position Garland had expected from the profits did not materialize .
+1	A	a	DET	DT	_	8	A	8:A	_
+2	Star	Star	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	is	be	AUX	VBZ	_	1	Terminal	1:Terminal	_
+4	Born	bear	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	ended	end	VERB	VBD	_	8	D	8:D	_
+6	up	up	ADP	RP	_	5	Terminal	5:Terminal	_
+7	losing	lose	VERB	VBG	_	8	D	8:D	_
+8	money	money	NOUN	NN	_	0	H	0:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	and	and	CCONJ	CC	_	8	L	8:L	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	secure	secure	ADJ	JJ	_	14	E	14:E	_
+13	financial	financial	ADJ	JJ	_	14	E	14:E	_
+14	position	position	NOUN	NN	_	23	A	23:A	_
+15	Garland	Garland	PROPN	NNP	_	17	A	17:A	_
+16	had	have	AUX	VBD	_	17	F	17:F	_
+17	expected	expect	VERB	VBN	_	8	H	8:H	_
+18	from	from	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	profits	profit	NOUN	NNS	_	17	A	17:A	_
+21	did	do	AUX	VBD	_	23	F	23:F	_
+22	not	not	PART	RB	_	23	D	23:D	_
+23	materialize	materialize	VERB	VB	_	17	A	17:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

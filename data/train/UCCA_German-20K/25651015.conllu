@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25651015
+# text = Ich trachtete aus den letzten Worten des Sterbenden das Geheimnis seines Lebens zu erlauschen .
+1	Ich	ich	PRON	PPER	_	14	A	14:A	_
+2	trachtete	trachten	VERB	VVFIN	_	14	D	14:D	_
+3	aus	aus	ADP	APPR	_	6	R	6:R	_
+4	den	der	DET	ART	_	6	E	6:E	_
+5	letzten	letzt	ADJ	ADJA	_	6	E	6:E	_
+6	Worten	Wort	NOUN	NN	_	14	A	14:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Sterbenden	Sterbende	NOUN	NE	_	6	E	6:E	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Geheimnis	Geheimnis	NOUN	NN	_	14	A	14:A	_
+11	seines	sein	DET	PPOSAT	_	12	R	12:R	_
+12	Lebens	Leben	NOUN	NN	_	10	E	10:E	_
+13	zu	zu	PART	NE	_	14	F	14:F	_
+14	erlauschen	erlauschen	VERB	ADJA	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

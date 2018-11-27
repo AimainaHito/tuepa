@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 189003
+# text = He and his roommates had purchased a Macintosh 512 k so when he returned home he would empty his pockets of the cocktail napkins and type them into the computer , forming a basis from which he wrote many drafts for A Few Good Men .
+1	He	he	PRON	PRP	_	6	A	6:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	roommates	roommate	NOUN	NNS	_	1	C	1:C	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	purchased	purchase	VERB	VBN	_	0	H	0:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	Macintosh	Macintosh	PROPN	NNP	_	6	A	6:A	_
+9	512	512	NUM	CD	_	8	Terminal	8:Terminal	_
+10	k	k	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	so	so	ADV	RB	_	6	L	6:L	_
+12	when	when	ADV	WRB	_	6	L	6:L	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	returned	return	VERB	VBD	_	6	H	6:H	_
+15	home	home	ADV	RB	_	14	A	14:A	_
+16	he	he	PRON	PRP	_	18	A	18:A|26:A|32:A	_
+17	would	would	AUX	MD	_	18	D	18:D	_
+18	empty	empty	VERB	VB	_	6	H	6:H	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	pockets	pocket	NOUN	NNS	_	18	A	18:A	_
+21	of	of	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	cocktail	cocktail	NOUN	NN	_	24	E	24:E	_
+24	napkins	napkin	NOUN	NNS	_	18	A	18:A	_
+25	and	and	CCONJ	CC	_	6	L	6:L	_
+26	type	type	VERB	VBP	_	6	H	6:H	_
+27	them	they	PRON	PRP	_	26	A	26:A	_
+28	into	into	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	computer	computer	NOUN	NN	_	26	A	26:A	_
+31	,	,	PUNCT	,	_	6	U	6:U	_
+32	forming	form	VERB	VBG	_	6	H	6:H	_
+33	a	a	DET	DT	_	34	E	34:E	_
+34	basis	basis	NOUN	NN	_	32	A	32:A	_
+35	from	from	ADP	IN	_	38	A	38:A	_
+36	which	which	PRON	WDT	_	38	F	38:F	_
+37	he	he	PRON	PRP	_	38	A	38:A	_
+38	wrote	write	VERB	VBD	_	34	E	34:E	_
+39	many	many	ADJ	JJ	_	40	E	40:E	_
+40	drafts	draft	NOUN	NNS	_	38	A	38:A	_
+41	for	for	ADP	IN	_	42	R	42:R	_
+42	A	a	DET	DT	_	40	E	40:E	_
+43	Few	few	ADJ	JJ	_	42	Terminal	42:Terminal	_
+44	Good	good	ADJ	JJ	_	42	Terminal	42:Terminal	_
+45	Men	man	PROPN	NNPS	_	42	Terminal	42:Terminal	_
+46	.	.	PUNCT	.	_	42	U	42:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25790007
+# text = Doch hatten wir nach Verlauf von 12 Stunden nicht mehr als eine Schicht von der Dicke eines Meters weggeschafft , das machte etwa 600 Kubikmeter .
+1	Doch	doch	ADV	KON	_	19	L	19:L	_
+2	hatten	haben	AUX	VAFIN	_	19	F	19:F	_
+3	wir	wir	PRON	NE	_	19	A	19:A	_
+4	nach	nach	ADP	CARD	_	5	R	5:R	_
+5	Verlauf	Verlauf	NOUN	NN	_	19	A	19:A	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	12	12	NUM	CARD	_	8	E	8:E	_
+8	Stunden	Stunde|Stunden	NOUN	NN	_	5	D	5:D	_
+9	nicht	nicht	PART	CARD	_	10	E	10:E	_
+10	mehr	mehr	ADV	ADV	_	19	D	19:D	_
+11	als	als	ADP	KOKOM	_	19	R	19:R	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	Schicht	Schicht	NOUN	NN	_	19	A	19:A	_
+14	von	von	ADP	NE	_	16	R	16:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Dicke	Dicke	NOUN	NN	_	13	E	13:E	_
+17	eines	ein	DET	ART	_	18	R	18:R	_
+18	Meters	Meter	NOUN	NN	_	16	E	16:E	_
+19	weggeschafft	weggeschaffen	VERB	VVFIN	_	0	H	0:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	das	der	PRON	PRELS	_	22	A	22:A	_
+22	machte	machen	VERB	VVFIN	_	19	A	19:A	_
+23	etwa	etwa	ADV	ADV	_	25	E	25:E	_
+24	600	600	NUM	CARD	_	25	E	25:E	_
+25	Kubikmeter	Kubikmeter	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25508005
+# text = « » Thermometrische Sonden , welche die Temperatur der verschiedenen Luft schichten angeben . «
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Thermometrische	Thermometrisch	ADJ	ADJA	_	4	E	4:E	_
+4	Sonden	sonde	NOUN	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	welche	welch	PRON	NN	_	13	R	13:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Temperatur	Temperatur	NOUN	NN	_	13	A	13:A	_
+9	der	der	DET	ART	_	12	R	12:R	_
+10	verschiedenen	verschieden	ADJ	ADJA	_	12	E	12:E	_
+11	Luft	Luft	NOUN	NN	_	12	E	12:E	_
+12	schichten	schicht	ADJ	VVINF	_	8	E	8:E	_
+13	angeben	angeben	VERB	VVPP	_	4	E	4:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	«	«	PUNCT	$(	_	13	U	13:U	_
+

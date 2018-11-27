@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 426000
+# text = À mon arrivée à New York , plusieurs personnes m ' avaient fait l'honneur de me consulter sur le phénomène en question .
+1	À	à	ADP	_	_	3	L	3:L	_
+2	mon	son	DET	_	_	3	E	3:E	_
+3	arrivée	arrivée	NOUN	_	_	0	H	0:H	_
+4	à	à	ADP	_	_	5	R	5:R	_
+5	New	New	PROPN	_	_	3	A	3:A	_
+6	York	York	PROPN	_	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	_	_	3	U	3:U	_
+8	plusieurs	plusieurs	DET	_	_	9	E	9:E	_
+9	personnes	personne	NOUN	_	_	10	A	10:A	_
+10	m	m	ADJ	_	_	3	H	3:H	_
+11	'	'	PUNCT	_	_	10	U	10:U	_
+12	avaient	avoir	AUX	_	_	10	F	10:F	_
+13	fait	faire	VERB	_	_	10	Terminal	10:Terminal	_
+14	l'honneur	l'honneur	NOUN	_	_	10	Terminal	10:Terminal	_
+15	de	de	ADP	_	_	17	R	17:R	_
+16	me	se	PRON	_	_	17	A	17:A	_
+17	consulter	consulter	VERB	_	_	10	A	10:A	_
+18	sur	sur	ADP	_	_	20	R	20:R	_
+19	le	le	DET	_	_	20	E	20:E	_
+20	phénomène	phénomène	NOUN	_	_	17	A	17:A	_
+21	en	en	ADP	_	_	22	R	22:R	_
+22	question	question	NOUN	_	_	20	E	20:E	_
+23	.	.	PUNCT	_	_	22	U	22:U	_
+

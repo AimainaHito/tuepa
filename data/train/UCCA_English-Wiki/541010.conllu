@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 541010
+# text = By 1932 , despite his longstanding association with the Republican Party , he openly supported Democratic presidential candidate Franklin D . Roosevelt , staging a " Motion Picture and Electrical Parade Sports Pageant " at L.A . Stadium in Roosevelt 's honor .
+1	By	by	ADP	IN	_	2	R	2:R	_
+2	1932	1932	NUM	CD	_	15	D	15:D	_
+3	,	,	PUNCT	,	_	15	U	15:U	_
+4	despite	despite	ADP	IN	_	15	L	15:L	_
+5	his	he	PRON	PRP$	_	7	A	7:A	_
+6	longstanding	longstand	NOUN	NN	_	7	D	7:D	_
+7	association	association	NOUN	NN	_	15	H	15:H	_
+8	with	with	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	Republican	Republican	PROPN	NNP	_	11	E	11:E	_
+11	Party	Party	PROPN	NNP	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	15	U	15:U	_
+13	he	he	PRON	PRP	_	15	A	15:A|24:A	_
+14	openly	openly	ADV	RB	_	15	D	15:D	_
+15	supported	support	VERB	VBD	_	0	H	0:H	_
+16	Democratic	democratic	ADJ	JJ	_	18	E	18:E	_
+17	presidential	presidential	ADJ	JJ	_	18	E	18:E	_
+18	candidate	candidate	NOUN	NN	_	19	E	19:E	_
+19	Franklin	Franklin	PROPN	NNP	_	15	A	15:A	_
+20	D	D	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+22	Roosevelt	Roosevelt	PROPN	NNP	_	19	Terminal	19:Terminal	_
+23	,	,	PUNCT	,	_	15	U	15:U	_
+24	staging	stage	VERB	VBG	_	15	H	15:H	_
+25	a	a	DET	DT	_	33	E	33:E	_
+26	"	"	PUNCT	``	_	33	U	33:U	_
+27	Motion	motion	NOUN	NN	_	33	E	33:E	_
+28	Picture	picture	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	and	and	CCONJ	CC	_	27	N	27:N	_
+30	Electrical	electrical	PROPN	NNP	_	27	C	27:C	_
+31	Parade	parade	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Sports	Sports	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	Pageant	Pageant	PROPN	NNP	_	24	A	24:A	_
+34	"	"	PUNCT	''	_	24	U	24:U	_
+35	at	at	ADP	IN	_	38	R	38:R	_
+36	L.A	L.A	PROPN	NNP	_	38	E	38:E	_
+37	.	.	PUNCT	.	_	38	U	38:U	_
+38	Stadium	stadium	PROPN	NNP	_	24	A	24:A	_
+39	in	in	ADP	IN	_	40	R	40:R	_
+40	Roosevelt	Roosevelt	PROPN	NNP	_	24	A	24:A	_
+41	's	's	PART	POS	_	42	R	42:R	_
+42	honor	honor	NOUN	NN	_	40	E	40:E	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

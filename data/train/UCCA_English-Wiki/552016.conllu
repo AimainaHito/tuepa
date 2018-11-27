@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 552016
+# text = The event , called " The Colonel : An Affectionate Remembrance of Jack L . Warner " , drew Hollywood notables such as entertainers Olivia de Havilland and Debbie Reynolds , and cartoon voice actor Mel Blanc .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	event	event	NOUN	NN	_	19	A	19:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	called	call	VERB	VBN	_	2	E	2:E	_
+5	"	"	PUNCT	``	_	4	U	4:U	_
+6	The	the	DET	DT	_	4	A	4:A	_
+7	Colonel	Colonel	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	:	:	PUNCT	:	_	6	U	6:U	_
+9	An	a	DET	DT	_	6	Terminal	6:Terminal	_
+10	Affectionate	affectionate	ADJ	JJ	_	6	Terminal	6:Terminal	_
+11	Remembrance	Remembrance	NOUN	NN	_	6	Terminal	6:Terminal	_
+12	of	of	ADP	IN	_	6	Terminal	6:Terminal	_
+13	Jack	Jack	PROPN	NNP	_	6	Terminal	6:Terminal	_
+14	L	L	PROPN	NNP	_	6	Terminal	6:Terminal	_
+15	.	.	PUNCT	.	_	6	U	6:U	_
+16	Warner	Warner	PROPN	NNP	_	6	Terminal	6:Terminal	_
+17	"	"	PUNCT	''	_	19	U	19:U	_
+18	,	,	PUNCT	,	_	19	U	19:U	_
+19	drew	draw	ADJ	JJ	_	0	H	0:H	_
+20	Hollywood	Hollywood	NOUN	NN	_	21	E	21:E	_
+21	notables	notable	NOUN	NNS	_	19	A	19:A	_
+22	such	such	ADJ	JJ	_	25	R	25:R	_
+23	as	as	ADP	IN	_	22	Terminal	22:Terminal	_
+24	entertainers	entertainer	NOUN	NNS	_	25	E	25:E	_
+25	Olivia	Olivia	PROPN	NNP	_	21	E	21:E	_
+26	de	de	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	Havilland	Havilland	PROPN	NNP	_	25	Terminal	25:Terminal	_
+28	and	and	CCONJ	CC	_	25	N	25:N	_
+29	Debbie	Debbie	PROPN	NNP	_	25	C	25:C	_
+30	Reynolds	Reynolds	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	25	U	25:U	_
+32	and	and	CCONJ	CC	_	25	N	25:N	_
+33	cartoon	cartoon	NOUN	NN	_	35	E	35:E	_
+34	voice	voice	NOUN	NN	_	35	E	35:E	_
+35	actor	actor	NOUN	NN	_	36	E	36:E	_
+36	Mel	Mel	PROPN	NNP	_	25	C	25:C	_
+37	Blanc	Blanc	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	.	_	36	U	36:U	_
+

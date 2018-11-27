@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 466010
+# text = His friendship and rivalry with Boston Celtics star Larry Bird , whom he faced in the 1979 NCAA finals and three NBA championship series , were well documented .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	friendship	friendship	NOUN	NN	_	28	A	28:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	rivalry	rivalry	NOUN	NN	_	2	C	2:C	_
+5	with	with	ADP	IN	_	9	R	9:R	_
+6	Boston	Boston	PROPN	NNP	_	8	E	8:E	_
+7	Celtics	Celtics	PROPN	NNPS	_	6	C	6:C	_
+8	star	star	NOUN	NN	_	9	E	9:E	_
+9	Larry	Larry	PROPN	NNP	_	2	E	2:E	_
+10	Bird	bird	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	whom	whom	PRON	WP	_	14	F	14:F	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	faced	face	VERB	VBD	_	9	E	9:E	_
+15	in	in	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	1979	1979	NUM	CD	_	19	E	19:E	_
+18	NCAA	NCAA	PROPN	NNP	_	19	E	19:E	_
+19	finals	final	NOUN	NNS	_	14	A	14:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	three	three	NUM	CD	_	24	E	24:E	_
+22	NBA	NBA	PROPN	NNP	_	24	E	24:E	_
+23	championship	championship	NOUN	NN	_	24	E	24:E	_
+24	series	series	NOUN	NNS	_	19	C	19:C	_
+25	,	,	PUNCT	,	_	28	U	28:U	_
+26	were	be	AUX	VBD	_	28	F	28:F	_
+27	well	well	ADV	RB	_	28	D	28:D	_
+28	documented	document	VERB	VBN	_	0	H	0:H	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 660004
+# text = While she maintained that she wanted to continue working with Margulies , Mottola enlisted top producers of the time , including Ric Wake , Narada Michael Walden and Rhett Lawrence .
+1	While	while	SCONJ	IN	_	3	L	3:L	_
+2	she	she	PRON	PRP	_	3	A	3:A	_
+3	maintained	maintain	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	6	F	6:F	_
+5	she	she	PRON	PRP	_	6	A	6:A|9:A	_
+6	wanted	want	VERB	VBD	_	3	A	3:A	_
+7	to	to	PART	TO	_	9	F	9:F	_
+8	continue	continue	VERB	VB	_	9	D	9:D	_
+9	working	work	VERB	VBG	_	6	A	6:A	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Margulies	Marguly	PROPN	NNP	_	9	A	9:A	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	Mottola	Mottola	PROPN	NNP	_	14	A	14:A	_
+14	enlisted	enlist	VERB	VBD	_	3	H	3:H	_
+15	top	top	ADJ	JJ	_	16	E	16:E	_
+16	producers	producer	NOUN	NNS	_	14	A	14:A	_
+17	of	of	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	time	time	NOUN	NN	_	16	E	16:E	_
+20	,	,	PUNCT	,	_	16	U	16:U	_
+21	including	include	VERB	VBG	_	22	R	22:R	_
+22	Ric	Ric	PROPN	NNP	_	16	E	16:E	_
+23	Wake	Wake	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	22	U	22:U	_
+25	Narada	Narada	PROPN	NNP	_	22	C	22:C	_
+26	Michael	Michael	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	Walden	Walden	PROPN	NNP	_	25	Terminal	25:Terminal	_
+28	and	and	CCONJ	CC	_	22	N	22:N	_
+29	Rhett	Rhett	PROPN	NNP	_	22	C	22:C	_
+30	Lawrence	Lawrence	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	22	U	22:U	_
+

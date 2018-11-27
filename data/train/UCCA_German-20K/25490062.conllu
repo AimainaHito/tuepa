@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25490062
+# text = Glauben Sie , dass sie uns lange in diesem eisernen Käfig einbehalten werden ?
+1	Glauben	glauben	VERB	VVFIN	_	0	H	0:H	_
+2	Sie	Sie|sie	PRON	PPER	_	1	A	1:A	_
+3	,	,	PUNCT	$,	_	1	U	1:U	_
+4	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+5	sie	sie	PRON	ADV	_	12	A	12:A	_
+6	uns	wir	PRON	NN	_	12	A	12:A	_
+7	lange	lange	ADV	ADV	_	12	D	12:D	_
+8	in	in	ADP	APPR	_	11	R	11:R	_
+9	diesem	dies	PRON	PDAT	_	11	E	11:E	_
+10	eisernen	eisern	ADJ	ADJA	_	11	E	11:E	_
+11	Käfig	Käfig	NOUN	NN	_	12	A	12:A	_
+12	einbehalten	einbehalten	VERB	VVINF	_	1	A	1:A	_
+13	werden	werden	AUX	VVFIN	_	12	F	12:F	_
+14	?	?	PUNCT	$.	_	12	U	12:U	_
+

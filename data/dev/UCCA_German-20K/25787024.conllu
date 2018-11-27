@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25787024
+# text = Ich sah häufig auf die an der Wand des Salons hängenden Instrumente .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	häufig	häufig	ADJ	ADJD	_	2	D	2:D	_
+4	auf	auf	ADP	APPR	_	12	R	12:R	_
+5	die	der	DET	ART	_	12	E	12:E	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Wand	Wand	NOUN	NN	_	11	A	11:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Salons	Salon	NOUN	NN	_	8	E	8:E	_
+11	hängenden	hängend	ADJ	ADJA	_	12	E	12:E	_
+12	Instrumente	Instrument	NOUN	NN	_	2	A	2:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

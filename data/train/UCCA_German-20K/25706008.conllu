@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25706008
+# text = Bald gewahrte ich im Dunkeln ein blasses , vom Nebel halb ersticktes Licht 1 Meile weit von uns .
+1	Bald	bald	ADV	ADV	_	2	D	2:D	_
+2	gewahrte	gewahrt	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	im	im	ADV	NE	_	5	R	5:R	_
+5	Dunkeln	Dunkeln	PROPN	NN	_	2	A	2:A	_
+6	ein	ein	DET	ART	_	13	E	13:E	_
+7	blasses	blaß	NOUN	NN	_	13	E	13:E	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	vom	vom	ADP	NN	_	10	R	10:R	_
+10	Nebel	nebel	NOUN	NN	_	12	A	12:A	_
+11	halb	halb	ADP	APPR	_	12	D	12:D	_
+12	ersticktes	erstickt	ADJ	ADJA	_	13	E	13:E	_
+13	Licht	Licht	NOUN	NN	_	2	A	2:A	_
+14	1	1	NUM	CARD	_	15	E	15:E	_
+15	Meile	Meile	NOUN	NN	_	16	A	16:A	_
+16	weit	weit	ADJ	ADJD	_	13	E	13:E	_
+17	von	von	ADP	NN	_	18	R	18:R	_
+18	uns	wir	PRON	NN	_	16	A	16:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

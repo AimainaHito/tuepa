@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 376007
+# text = He has since played the lead roles in many notable films , including Zodiac ( 2007 ) , Prince of Persia : The Sands of Time ( 2010 ) , Love and Other Drugs ( 2010 ) , Source Code ( 2011 ) , and End of Watch ( 2012 ) .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	since	since	ADV	RB	_	4	D	4:D	_
+4	played	play	VERB	VBN	_	0	H	0:H	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	lead	lead	ADJ	JJ	_	7	E	7:E	_
+7	roles	role	NOUN	NNS	_	4	A	4:A	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	many	many	ADJ	JJ	_	11	E	11:E	_
+10	notable	notable	ADJ	JJ	_	11	E	11:E	_
+11	films	film	NOUN	NNS	_	7	E	7:E	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	including	include	VERB	VBG	_	7	R	7:R	_
+14	Zodiac	Zodiac	PROPN	NNP	_	7	E	7:E	_
+15	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+16	2007	2007	NUM	CD	_	14	E	14:E	_
+17	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+18	,	,	PUNCT	,	_	14	U	14:U	_
+19	Prince	Prince	ADP	IN	_	14	C	14:C	_
+20	of	of	ADP	IN	_	19	Terminal	19:Terminal	_
+21	Persia	Persia	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	:	:	PUNCT	:	_	19	U	19:U	_
+23	The	the	DET	DT	_	19	Terminal	19:Terminal	_
+24	Sands	Sands	PROPN	NNP	_	19	Terminal	19:Terminal	_
+25	of	of	ADP	IN	_	19	Terminal	19:Terminal	_
+26	Time	time	PROPN	NNP	_	19	Terminal	19:Terminal	_
+27	(	(	PUNCT	-LRB-	_	19	U	19:U	_
+28	2010	2010	NUM	CD	_	19	E	19:E	_
+29	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+30	,	,	PUNCT	,	_	14	U	14:U	_
+31	Love	Love	PROPN	NNP	_	14	C	14:C	_
+32	and	and	CCONJ	CC	_	31	Terminal	31:Terminal	_
+33	Other	other	PROPN	NNP	_	31	Terminal	31:Terminal	_
+34	Drugs	drug	PROPN	NNP	_	31	Terminal	31:Terminal	_
+35	(	(	PUNCT	-LRB-	_	31	U	31:U	_
+36	2010	2010	NUM	CD	_	31	E	31:E	_
+37	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+38	,	,	PUNCT	,	_	14	U	14:U	_
+39	Source	source	PROPN	NNP	_	14	C	14:C	_
+40	Code	code	PROPN	NNP	_	39	Terminal	39:Terminal	_
+41	(	(	PUNCT	-LRB-	_	39	U	39:U	_
+42	2011	2011	NUM	CD	_	39	E	39:E	_
+43	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+44	,	,	PUNCT	,	_	14	U	14:U	_
+45	and	and	CCONJ	CC	_	14	N	14:N	_
+46	End	end	PROPN	NNP	_	14	C	14:C	_
+47	of	of	ADP	IN	_	46	Terminal	46:Terminal	_
+48	Watch	watch	PROPN	NNP	_	46	Terminal	46:Terminal	_
+49	(	(	PUNCT	-LRB-	_	46	U	46:U	_
+50	2012	2012	NUM	CD	_	46	E	46:E	_
+51	)	)	PUNCT	-RRB-	_	46	U	46:U	_
+52	.	.	PUNCT	.	_	46	U	46:U	_
+

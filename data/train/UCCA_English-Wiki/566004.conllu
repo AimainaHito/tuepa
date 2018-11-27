@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 566004
+# text = In his first full year on RCA , one of the music industry 's largest companies , Presley had accounted for over 50 percent of the label 's singles sales .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	his	he	PRON	PRP$	_	5	E	5:E	_
+3	first	first	ADJ	JJ	_	5	E	5:E	_
+4	full	full	ADJ	JJ	_	5	E	5:E	_
+5	year	year	NOUN	NN	_	20	A	20:A	_
+6	on	on	ADP	IN	_	7	R	7:R	_
+7	RCA	RCA	PROPN	NNP	_	5	E	5:E	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	one	one	NUM	CD	_	16	E	16:E	_
+10	of	of	ADP	IN	_	16	R	16:R	_
+11	the	the	DET	DT	_	16	E	16:E	_
+12	music	music	NOUN	NN	_	13	E	13:E	_
+13	industry	industry	NOUN	NN	_	16	E	16:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	largest	largest	ADJ	JJS	_	16	E	16:E	_
+16	companies	company	NOUN	NNS	_	7	E	7:E	_
+17	,	,	PUNCT	,	_	20	U	20:U	_
+18	Presley	Presley	PROPN	NNP	_	20	A	20:A	_
+19	had	have	AUX	VBD	_	20	F	20:F	_
+20	accounted	account	VERB	VBN	_	0	H	0:H	_
+21	for	for	ADP	IN	_	20	R	20:R	_
+22	over	over	ADV	RB	_	24	R	24:R	_
+23	50	50	NUM	CD	_	24	E	24:E	_
+24	percent	percent	NOUN	NN	_	20	A	20:A	_
+25	of	of	ADP	IN	_	30	R	30:R	_
+26	the	the	DET	DT	_	30	E	30:E	_
+27	label	label	NOUN	NN	_	30	E	30:E	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	singles	singles	NOUN	NNS	_	30	E	30:E	_
+30	sales	sale	NOUN	NNS	_	24	E	24:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

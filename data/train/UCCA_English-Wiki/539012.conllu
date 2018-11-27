@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 539012
+# text = That same year , the studio was less successful in its efforts to promote Open Your Eyes , a tract on the dangers of venereal disease that featured Jack Warner 's sole screen appearance .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	studio	studio	NOUN	NN	_	0	C	0:C|14:A	_
+7	was	be	AUX	VBD	_	9	F	9:F	_
+8	less	less	ADV	RBR	_	9	D	9:D	_
+9	successful	successful	ADJ	JJ	_	0	H	0:H	_
+10	in	in	ADP	IN	_	9	L	9:L	_
+11	its	its	PRON	PRP$	_	12	A	12:A	_
+12	efforts	effort	NOUN	NNS	_	9	H	9:H	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	promote	promote	VERB	VB	_	12	A	12:A	_
+15	Open	open	PROPN	NNP	_	14	A	14:A	_
+16	Your	you	PRON	PRP$	_	15	Terminal	15:Terminal	_
+17	Eyes	eyes	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	,	,	PUNCT	,	_	15	U	15:U	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	tract	tract	NOUN	NN	_	15	E	15:E	_
+21	on	on	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	dangers	danger	NOUN	NNS	_	20	E	20:E	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	venereal	venereal	ADJ	JJ	_	26	E	26:E	_
+26	disease	disease	NOUN	NN	_	23	E	23:E	_
+27	that	that	PRON	WDT	_	28	F	28:F	_
+28	featured	feature	VERB	VBD	_	20	E	20:E	_
+29	Jack	Jack	PROPN	NNP	_	34	A	34:A	_
+30	Warner	Warner	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	's	's	PART	POS	_	29	R	29:R	_
+32	sole	sole	ADJ	JJ	_	34	D	34:D	_
+33	screen	screen	NOUN	NN	_	34	A	34:A	_
+34	appearance	appearance	NOUN	NN	_	28	A	28:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

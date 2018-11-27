@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25489074
+# text = Er beschwerte sich heftig , dass man gegen das Völkerrecht ihn gefangenhalte , fragte , welches Gesetz dieses gestatte , berief sich auf die Habeas-Corpus-Akte , drohte mit gerichtlicher Verfolgung , gebärdete sich , schrie , und gab schließlich in ausdrucksvoller Weise zu erkennen , dass wir Hungers sterben würden .
+1	Er	er	PRON	PPER	_	2	A	2:A|38:A|27:A	_
+2	beschwerte	beschweren	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	heftig	heftig	ADJ	ADJD	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+7	man	man	PRON	PIS	_	12	A	12:A	_
+8	gegen	gegen	ADP	APPR	_	10	R	10:R	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Völkerrecht	Völkerrecht	NOUN	NN	_	12	A	12:A	_
+11	ihn	er	PRON	PPER	_	12	A	12:A	_
+12	gefangenhalte	gefangenhalen	VERB	VVFIN	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	fragte	fragen	VERB	VVFIN	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	welches	welch	PRON	PRELS	_	17	E	17:E	_
+17	Gesetz	Gesetz	NOUN	NN	_	19	A	19:A	_
+18	dieses	dies	PRON	PDAT	_	19	A	19:A	_
+19	gestatte	gestaten	VERB	VAFIN	_	14	A	14:A	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	berief	beraufen	VERB	VVFIN	_	2	H	2:H	_
+22	sich	er|es|sie	PRON	PRF	_	21	Terminal	21:Terminal	_
+23	auf	auf	ADP	APPR	_	25	R	25:R	_
+24	die	der	DET	ART	_	25	E	25:E	_
+25	Habeas-Corpus-Akte	Akt|Habeas-Corpus-Akte	NOUN	NN	_	21	A	21:A	_
+26	,	,	PUNCT	$,	_	2	U	2:U	_
+27	drohte	drohen	VERB	VVFIN	_	2	H	2:H	_
+28	mit	mit	ADP	APPR	_	30	R	30:R	_
+29	gerichtlicher	gerichtlich	ADJ	ADJA	_	30	E	30:E	_
+30	Verfolgung	Verfolgung	NOUN	NN	_	27	A	27:A	_
+31	,	,	PUNCT	$,	_	2	U	2:U	_
+32	gebärdete	gebärden	VERB	VVFIN	_	2	H	2:H	_
+33	sich	er|es|sie	PRON	PRF	_	32	Terminal	32:Terminal	_
+34	,	,	PUNCT	$,	_	2	U	2:U	_
+35	schrie	schrie	CCONJ	NN	_	2	H	2:H	_
+36	,	,	PUNCT	$,	_	2	U	2:U	_
+37	und	und	CCONJ	NE	_	2	L	2:L	_
+38	gab	geben	VERB	VVFIN	_	2	H	2:H	_
+39	schließlich	schließlich	ADV	ADV	_	38	D	38:D	_
+40	in	in	ADP	APPR	_	42	R	42:R	_
+41	ausdrucksvoller	ausdrucksvoll	ADJ	ADJA	_	42	E	42:E	_
+42	Weise	Weise	NOUN	NN	_	38	A	38:A	_
+43	zu	zu	PART	VVINF	_	38	F	38:F	_
+44	erkennen	erkennen	VERB	VVINF	_	38	Terminal	38:Terminal	_
+45	,	,	PUNCT	$,	_	38	U	38:U	_
+46	dass	dass	SCONJ	KOUS	_	49	R	49:R	_
+47	wir	wir	PRON	NE	_	49	A	49:A	_
+48	Hungers	Hunger	NOUN	NE	_	49	A	49:A	_
+49	sterben	sterben	VERB	VVINF	_	38	A	38:A	_
+50	würden	werden	AUX	ADJD	_	49	D	49:D	_
+51	.	.	PUNCT	$.	_	49	U	49:U	_
+

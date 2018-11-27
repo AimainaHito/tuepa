@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 28003
+# text = In November of the same year Pitt had a guest appearance on the ABC sitcom Growing Pains .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	November	November	PROPN	NNP	_	11	D	11:D	_
+3	of	of	ADP	IN	_	6	R	6:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	same	same	ADJ	JJ	_	6	E	6:E	_
+6	year	year	NOUN	NN	_	2	E	2:E	_
+7	Pitt	Pitt	PROPN	NNP	_	11	A	11:A	_
+8	had	have	VERB	VBD	_	11	F	11:F	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	guest	guest	NOUN	NN	_	11	E	11:E	_
+11	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+12	on	on	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	ABC	ABC	PROPN	NNP	_	16	E	16:E	_
+15	sitcom	sitcom	NOUN	NN	_	16	E	16:E	_
+16	Growing	growing	PROPN	NNP	_	11	A	11:A	_
+17	Pains	Pains	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25805016
+# text = Er machte mir daher einen Vorschlag , dessen ich mich nicht versehen hatte ; nämlich , an Kapitän Nemo kategorisch die Frage zu richten , ob er im Sinne habe , uns ewig an seinem Bord fest zu halten ?
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	daher	daher	ADV	PAV	_	2	D	2:D	_
+5	einen	ein	DET	ART	_	6	E	6:E	_
+6	Vorschlag	Vorschlag	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dessen	der	PRON	PDAT	_	10	R	10:R	_
+9	ich	ich	PRON	PPER	_	10	A	10:A|24:A	_
+10	mich	ich	PRON	PRF	_	6	E	6:E	_
+11	nicht	nicht	PART	CARD	_	10	D	10:D	_
+12	versehen	versehen	VERB	VVPP	_	10	Terminal	10:Terminal	_
+13	hatte	haben	AUX	VAFIN	_	10	F	10:F	_
+14	;	;	PUNCT	$.	_	2	U	2:U	_
+15	nämlich	nämlich	ADV	VVFIN	_	2	L	2:L	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	an	an	ADP	APPR	_	19	R	19:R	_
+18	Kapitän	Kapitän	PROPN	NN	_	19	E	19:E	_
+19	Nemo	Nemo	PROPN	NE	_	24	A	24:A	_
+20	kategorisch	kategorisch	ADJ	ADJD	_	24	D	24:D	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Frage	Frage	NOUN	NN	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	richten	richten	VERB	VVINF	_	2	H	2:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	ob	ob	SCONJ	VVFIN	_	29	R	29:R	_
+27	er	er	PRON	PPER	_	29	A	29:A|37:A	_
+28	im	im	ADV	NE	_	29	R	29:R	_
+29	Sinne	Sinn	NOUN	NN	_	22	E	22:E	_
+30	habe	haben	AUX	VAFIN	_	29	F	29:F	_
+31	,	,	PUNCT	$,	_	29	U	29:U	_
+32	uns	wir	PRON	NN	_	37	A	37:A	_
+33	ewig	ewig	ADV	ADJD	_	37	D	37:D	_
+34	an	an	ADP	APPR	_	36	R	36:R	_
+35	seinem	sein	DET	PPOSAT	_	36	E	36:E	_
+36	Bord	Bord	NOUN	NN	_	37	A	37:A	_
+37	fest	fest	ADV	PTKVZ	_	29	A	29:A	_
+38	zu	zu	PART	VVINF	_	37	F	37:F	_
+39	halten	halten	VERB	VVINF	_	37	Terminal	37:Terminal	_
+40	?	?	PUNCT	$.	_	37	U	37:U	_
+

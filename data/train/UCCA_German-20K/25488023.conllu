@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25488023
+# text = « » Keineswegs . Da ich in meines Herrn Dienst stehe , bin ich ihm nachgesprungen .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Keineswegs	keinesweg	NOUN	ADV	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+5	Da	da	SCONJ	KOUS	_	3	L	3:L	_
+6	ich	ich	PRON	PPER	_	11	A	11:A	_
+7	in	in	ADP	APPR	_	10	R	10:R	_
+8	meines	mein	PRON	PPOSAT	_	10	E	10:E	_
+9	Herrn	Herr	PROPN	NN	_	10	E	10:E	_
+10	Dienst	Dienst	PROPN	NN	_	11	A	11:A	_
+11	stehe	stehen	VERB	VVFIN	_	3	H	3:H	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	bin	sein	AUX	VAFIN	_	16	F	16:F	_
+14	ich	ich	PRON	PPER	_	16	A	16:A	_
+15	ihm	er	PRON	PPER	_	16	A	16:A	_
+16	nachgesprungen	nachgesprungen	VERB	NN	_	3	H	3:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

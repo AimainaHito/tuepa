@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 228016
+# text = 1911 premiered in North America on 14 October .
+1	1911	1911	NUM	CD	_	2	A	2:A	_
+2	premiered	premier	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	North	North	PROPN	NNP	_	5	E	5:E	_
+5	America	America	PROPN	NNP	_	2	A	2:A	_
+6	on	on	ADP	IN	_	7	R	7:R	_
+7	14	14	NUM	CD	_	2	D	2:D	_
+8	October	October	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	.	_	7	U	7:U	_
+

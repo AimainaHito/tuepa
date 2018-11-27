@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 527003
+# text = Judy complained to Louis B. Mayer , trying to have Berkeley fired from the feature .
+1	Judy	Judy	PROPN	NNP	_	2	A	2:A|12:A	_
+2	complained	complain	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	4	R	4:R	_
+4	Louis	Louis	PROPN	NNP	_	2	A	2:A	_
+5	B.	B.	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Mayer	Mayer	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	trying	try	VERB	VBG	_	12	D	12:D	_
+9	to	to	PART	TO	_	12	F	12:F	_
+10	have	have	VERB	VB	_	12	D	12:D	_
+11	Berkeley	Berkeley	PROPN	NNP	_	12	A	12:A	_
+12	fired	fire	VERB	VBN	_	2	H	2:H	_
+13	from	from	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	feature	feature	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

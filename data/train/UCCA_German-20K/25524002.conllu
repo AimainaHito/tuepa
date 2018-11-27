@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25524002
+# text = Das Meer hat , wie die Kontinente , seine Flüsse .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	3	A	3:A	_
+3	hat	haben	VERB	VAFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wie	wie	SCONJ	KON	_	3	L	3:L	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Kontinente	Kontinent	NOUN	NN	_	3	H	3:H	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	seine	sein	DET	PPOSAT	_	10	E	10:E	_
+10	Flüsse	Fluß	NOUN	NN	_	3	A	3:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

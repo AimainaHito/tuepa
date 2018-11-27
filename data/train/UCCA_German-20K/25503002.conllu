@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25503002
+# text = Alle diese Bücher waren , ohne Unterschied aus welcher Sprache , nach Rubriken geordnet ; ein Beweis , dass der Kapitän der ›Nautilus‹ die Bände , wie er sie zufällig griff , geläufig lesen konnte .
+1	Alle	alle	PRON	PIAT	_	3	E	3:E	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Bücher	Buch	NOUN	NN	_	14	A	14:A	_
+4	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+5	,	,	PUNCT	$,	_	14	U	14:U	_
+6	ohne	ohne	ADP	CARD	_	7	D	7:D	_
+7	Unterschied	Unterschied	NOUN	NN	_	14	A	14:A	_
+8	aus	aus	ADP	APPR	_	10	R	10:R	_
+9	welcher	welch	PRON	PWAT	_	10	E	10:E	_
+10	Sprache	Sprache	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	14	U	14:U	_
+12	nach	nach	ADP	CARD	_	13	R	13:R	_
+13	Rubriken	Rubriken	PROPN	NN	_	14	A	14:A	_
+14	geordnet	ordnen	VERB	VVPP	_	0	H	0:H	_
+15	;	;	PUNCT	$.	_	14	U	14:U	_
+16	ein	ein	DET	ART	_	17	E	17:E	_
+17	Beweis	Beweis	NOUN	NN	_	14	H	14:H	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	dass	dass	SCONJ	KOUS	_	34	R	34:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Kapitän	Kapitän	NOUN	NN	_	34	A	34:A	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	›Nautilus‹	›Nautilus‹	NOUN	NE	_	21	E	21:E	_
+24	die	der	DET	ART	_	25	E	25:E	_
+25	Bände	Band	NOUN	NN	_	34	A	34:A	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	wie	wie	SCONJ	KON	_	31	R	31:R	_
+28	er	er	PRON	PPER	_	31	A	31:A	_
+29	sie	sie	PRON	TRUNC	_	31	A	31:A	_
+30	zufällig	zufällig	ADJ	ADJD	_	31	D	31:D	_
+31	griff	griff	NOUN	VVFIN	_	25	E	25:E	_
+32	,	,	PUNCT	$,	_	34	U	34:U	_
+33	geläufig	geläufig	ADJ	ADJD	_	34	D	34:D	_
+34	lesen	lesen	VERB	VVINF	_	17	A	17:A	_
+35	konnte	können	AUX	VMFIN	_	34	D	34:D	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

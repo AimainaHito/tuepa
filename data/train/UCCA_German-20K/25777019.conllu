@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25777019
+# text = Von diesem Zeitpunkt der Sommer sonnen wende des Nordens wieder hinabsteigend , sollte sie morgen ihre letzten Strahlen zusenden .
+1	Von	von	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Zeitpunkt	Zeitpunkt	NOUN	NN	_	11	A	11:A	_
+4	der	der	DET	ART	_	7	R	7:R	_
+5	Sommer	Sommer	NOUN	NN	_	7	E	7:E	_
+6	sonnen	sonnen	ADV	VVINF	_	7	E	7:E	_
+7	wende	wend	VERB	ADJA	_	3	E	3:E	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Nordens	Norden	NOUN	NN	_	7	E	7:E	_
+10	wieder	wieder	ADV	NE	_	11	D	11:D	_
+11	hinabsteigend	hinabsteigend	ADV	ADJD	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	sollte	sollen	AUX	VMFIN	_	19	D	19:D	_
+14	sie	sie	PRON	ADV	_	19	A	19:A	_
+15	morgen	morgen	ADV	ADV	_	19	D	19:D	_
+16	ihre	ihr	DET	PPOSAT	_	18	E	18:E	_
+17	letzten	letzt	ADJ	ADJA	_	18	E	18:E	_
+18	Strahlen	Strahl|Strahlen	NOUN	NN	_	19	A	19:A	_
+19	zusenden	zusenden	VERB	VVINF	_	11	A	11:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

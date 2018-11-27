@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25680010
+# text = Eine Perle von 10 Millionen
+1	Eine	ein	DET	ART	_	2	E	2:E	_
+2	Perle	Perl	NOUN	NN	_	0	H	0:H	_
+3	von	von	ADP	NE	_	5	R	5:R	_
+4	10	10	NUM	CARD	_	5	E	5:E	_
+5	Millionen	Million	NOUN	NN	_	2	E	2:E	_
+

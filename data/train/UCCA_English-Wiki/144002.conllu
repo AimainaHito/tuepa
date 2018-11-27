@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 144002
+# text = In 1985 , she presented a television documentary about the life and career of Spencer Tracy .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	1985	1985	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	presented	present	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	television	television	NOUN	NN	_	8	E	8:E	_
+8	documentary	documentary	NOUN	NN	_	5	A	5:A	_
+9	about	about	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	life	life	NOUN	NN	_	8	E	8:E	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	career	career	NOUN	NN	_	11	C	11:C	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Spencer	Spencer	PROPN	NNP	_	11	A	11:A	_
+16	Tracy	Tracy	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

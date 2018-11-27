@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 102001
+# text = Depuis ce moment , en effet , les sinistres maritimes qui n'avaient pas de cause déterminée furent mis sur le compte du monstre .
+1	Depuis	depuis	ADP	_	_	3	R	3:R	_
+2	ce	ce	DET	_	_	3	E	3:E	_
+3	moment	moment	NOUN	_	_	17	D	17:D	_
+4	,	,	PUNCT	_	_	17	U	17:U	_
+5	en	en	ADP	_	_	6	R	6:R	_
+6	effet	effet	NOUN	_	_	17	L	17:L	_
+7	,	,	PUNCT	_	_	17	U	17:U	_
+8	les	le	DET	_	_	9	E	9:E	_
+9	sinistres	sinistre	NOUN	_	_	17	A	17:A	_
+10	maritimes	maritime	ADJ	_	_	9	E	9:E	_
+11	qui	qui	PRON	_	_	12	R	12:R	_
+12	n'avaient	n'aver	VERB	_	_	9	E	9:E	_
+13	pas	pas	ADV	_	_	12	D	12:D	_
+14	de	un	DET	_	_	15	R	15:R	_
+15	cause	cause	NOUN	_	_	12	A	12:A	_
+16	déterminée	déterminer	VERB	_	_	15	E	15:E	_
+17	furent	être	AUX	_	_	0	H	0:H	_
+18	mis	mettre	VERB	_	_	17	Terminal	17:Terminal	_
+19	sur	sur	ADP	_	_	17	Terminal	17:Terminal	_
+20	le	le	DET	_	_	17	Terminal	17:Terminal	_
+21	compte	compte	NOUN	_	_	17	Terminal	17:Terminal	_
+22	du	du	DET	_	_	23	R	23:R	_
+23	monstre	monstre	NOUN	_	_	17	A	17:A	_
+24	.	.	PUNCT	_	_	23	U	23:U	_
+

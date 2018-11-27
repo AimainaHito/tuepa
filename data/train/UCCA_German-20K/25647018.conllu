@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25647018
+# text = » Wird mein Herr uns sagen , was dies bedeutet ? « fragte mich Conseil .
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Wird	werden	AUX	VAFIN	_	6	F	6:F	_
+3	mein	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Herr	Herr	NOUN	NN	_	6	A	6:A	_
+5	uns	wir	PRON	NN	_	6	A	6:A	_
+6	sagen	sagen	VERB	VVINF	_	13	A	13:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	was	was	PRON	NE	_	10	A	10:A	_
+9	dies	dies	PRON	PDS	_	10	A	10:A	_
+10	bedeutet	bedeuten	VERB	VVFIN	_	6	A	6:A	_
+11	?	?	PUNCT	$.	_	13	U	13:U	_
+12	«	«	PUNCT	$(	_	13	U	13:U	_
+13	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+14	mich	ich	PRON	PPER	_	13	A	13:A	_
+15	Conseil	Conseil	NOUN	NE	_	13	A	13:A	_
+16	.	.	PUNCT	$.	_	13	U	13:U	_
+

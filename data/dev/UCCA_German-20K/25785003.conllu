@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25785003
+# text = Wir befanden uns , wie gesagt , im freien Wasser ; aber in einer Entfernung von 10 Meter ragte auf beiden Seiten der ›Nautilus‹ eine glänzende Eis wand .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	wie	wie	SCONJ	KON	_	2	G	2:G	_
+6	gesagt	sagen	VERB	VVPP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	im	im	ADV	NN	_	10	R	10:R	_
+9	freien	frei	ADJ	ADJA	_	10	E	10:E	_
+10	Wasser	Wasser	NOUN	NN	_	2	A	2:A	_
+11	;	;	PUNCT	$.	_	2	U	2:U	_
+12	aber	aber	CCONJ	ADV	_	2	L	2:L	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	einer	ein	DET	ART	_	15	E	15:E	_
+15	Entfernung	Entfernung	NOUN	NN	_	19	A	19:A	_
+16	von	von	ADP	NE	_	17	R	17:R	_
+17	10	10	NUM	CARD	_	15	E	15:E	_
+18	Meter	Meter	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	ragte	ragt	VERB	VVFIN	_	2	H	2:H	_
+20	auf	auf	ADP	APPR	_	22	R	22:R	_
+21	beiden	beide	PRON	PIAT	_	22	E	22:E	_
+22	Seiten	Seite	NOUN	NN	_	19	A	19:A	_
+23	der	der	DET	ART	_	24	R	24:R	_
+24	›Nautilus‹	›Nautilus‹	NOUN	NE	_	22	E	22:E	_
+25	eine	ein	DET	ART	_	28	E	28:E	_
+26	glänzende	glänzend	ADJ	ADJA	_	28	E	28:E	_
+27	Eis	Eis	NOUN	NN	_	28	E	28:E	_
+28	wand	winden	VERB	VVFIN	_	19	A	19:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

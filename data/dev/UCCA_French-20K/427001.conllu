@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 427001
+# text = Je parlai faute de pouvoir me taire .
+1	Je	il	PRON	_	_	2	A	2:A|6:A	_
+2	parlai	parl	VERB	_	_	0	H	0:H	_
+3	faute	faute	NOUN	_	_	2	L	2:L	_
+4	de	de	ADP	_	_	3	Terminal	3:Terminal	_
+5	pouvoir	pouvoir	VERB	_	_	6	D	6:D	_
+6	me	se	PRON	_	_	2	H	2:H	_
+7	taire	taire	VERB	_	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	_	_	6	U	6:U	_
+

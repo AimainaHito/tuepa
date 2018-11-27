@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 712002
+# text = The most widely cited lines included " you do n't need a weatherman to know which way the wind blows " from " Subterranean Homesick Blues " and " when you ai n't got nothing , you got nothing to lose " from " Like a Rolling Stone " .
+1	The	the	DET	DT	_	5	E	5:E	_
+2	most	most	ADV	RBS	_	5	E	5:E	_
+3	widely	widely	ADV	RB	_	4	D	4:D	_
+4	cited	cite	VERB	VBN	_	5	E	5:E	_
+5	lines	line	NOUN	NNS	_	6	A	6:A	_
+6	included	include	VERB	VBN	_	0	H	0:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	you	you	PRON	PRP	_	6	A	6:A	_
+9	do	do	AUX	VBP	_	8	Terminal	8:Terminal	_
+10	n't	not	PART	RB	_	8	Terminal	8:Terminal	_
+11	need	need	VERB	VB	_	8	Terminal	8:Terminal	_
+12	a	a	DET	DT	_	8	Terminal	8:Terminal	_
+13	weatherman	weatherman	NOUN	NN	_	8	Terminal	8:Terminal	_
+14	to	to	PART	TO	_	8	Terminal	8:Terminal	_
+15	know	know	VERB	VB	_	8	Terminal	8:Terminal	_
+16	which	which	DET	WDT	_	8	Terminal	8:Terminal	_
+17	way	way	NOUN	NN	_	8	Terminal	8:Terminal	_
+18	the	the	DET	DT	_	8	Terminal	8:Terminal	_
+19	wind	wind	NOUN	NN	_	8	Terminal	8:Terminal	_
+20	blows	blow	VERB	VBZ	_	8	Terminal	8:Terminal	_
+21	"	"	PUNCT	``	_	8	U	8:U	_
+22	from	from	ADP	IN	_	24	R	24:R	_
+23	"	"	PUNCT	``	_	24	U	24:U	_
+24	Subterranean	Subterranean	PROPN	NNP	_	8	E	8:E	_
+25	Homesick	Homesick	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	Blues	Blue	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	"	"	PUNCT	''	_	8	U	8:U	_
+28	and	and	CCONJ	CC	_	8	N	8:N	_
+29	"	"	PUNCT	``	_	8	U	8:U	_
+30	when	when	ADV	WRB	_	8	C	8:C	_
+31	you	you	PRON	PRP	_	30	Terminal	30:Terminal	_
+32	ai	be	AUX	VBP	_	30	Terminal	30:Terminal	_
+33	n't	not	PART	RB	_	30	Terminal	30:Terminal	_
+34	got	get	VERB	VBN	_	30	Terminal	30:Terminal	_
+35	nothing	nothing	PRON	NN	_	30	Terminal	30:Terminal	_
+36	,	,	PUNCT	,	_	30	U	30:U	_
+37	you	you	PRON	PRP	_	30	Terminal	30:Terminal	_
+38	got	get	VERB	VBD	_	30	Terminal	30:Terminal	_
+39	nothing	nothing	PRON	NN	_	30	Terminal	30:Terminal	_
+40	to	to	PART	TO	_	30	Terminal	30:Terminal	_
+41	lose	lose	VERB	VB	_	30	Terminal	30:Terminal	_
+42	"	"	PUNCT	``	_	30	U	30:U	_
+43	from	from	ADP	IN	_	45	R	45:R	_
+44	"	"	PUNCT	''	_	45	U	45:U	_
+45	Like	like	ADP	IN	_	30	E	30:E	_
+46	a	a	DET	DT	_	45	Terminal	45:Terminal	_
+47	Rolling	Rolling	PROPN	NNP	_	45	Terminal	45:Terminal	_
+48	Stone	Stone	PROPN	NNP	_	45	Terminal	45:Terminal	_
+49	"	"	PUNCT	''	_	45	U	45:U	_
+50	.	.	PUNCT	.	_	45	U	45:U	_
+

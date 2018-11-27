@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25666012
+# text = Eine um so wichtigere Sache für Kapitän Nemo , da er sie nicht leicht hätte erneuern können .
+1	Eine	ein	DET	ART	_	5	E	5:E	_
+2	um	um	ADP	APPR	_	4	D	4:D	_
+3	so	so	ADV	ADV	_	2	Terminal	2:Terminal	_
+4	wichtigere	wichtig	ADJ	ADJA	_	0	H	0:H	_
+5	Sache	Sache	NOUN	NN	_	4	A	4:A	_
+6	für	für	ADP	APPR	_	8	R	8:R	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	da	da	SCONJ	KOUS	_	4	L	4:L	_
+11	er	er	PRON	PPER	_	16	A	16:A	_
+12	sie	sie	PRON	ADV	_	16	A	16:A	_
+13	nicht	nicht	PART	XY	_	16	D	16:D	_
+14	leicht	leicht	ADJ	ADJD	_	16	D	16:D	_
+15	hätte	haben	AUX	VAFIN	_	16	F	16:F	_
+16	erneuern	erneuern	VERB	VVINF	_	4	H	4:H	_
+17	können	können	AUX	VMINF	_	16	D	16:D	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

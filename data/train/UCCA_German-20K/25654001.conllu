@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25654001
+# text = Ich blieb mit meinen Gefährten auch stehen , und als ich mich umwendete , sah ich , dass seine Leute einen Halbkreis um ihn bildeten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	meinen	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Gefährten	Gefährt|Gefährte	NOUN	NE	_	2	A	2:A	_
+6	auch	auch	ADV	ADV	_	2	D	2:D	_
+7	stehen	stehen	VERB	VVFIN	_	2	Terminal	2:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	und	und	CCONJ	NE	_	2	L	2:L	_
+10	als	als	ADP	KOKOM	_	2	L	2:L	_
+11	ich	ich	PRON	PPER	_	12	A	12:A	_
+12	mich	ich	PRON	PRF	_	2	H	2:H	_
+13	umwendete	umwenden	VERB	ADJA	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	,	,	PUNCT	$,	_	15	U	15:U	_
+18	dass	dass	SCONJ	KOUS	_	25	R	25:R	_
+19	seine	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Leute	Leute	NOUN	NN	_	25	A	25:A	_
+21	einen	ein	DET	ART	_	22	E	22:E	_
+22	Halbkreis	Halbkreis	NOUN	NN	_	25	A	25:A	_
+23	um	um	ADP	APPR	_	24	R	24:R	_
+24	ihn	er	PRON	PPER	_	25	A	25:A	_
+25	bildeten	bilden	VERB	VVFIN	_	15	A	15:A	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25781013
+# text = Offenbar war das südliche Becken , wenn es während der 6 Winter monate gefroren war , durchaus unzugänglich .
+1	Offenbar	offenbar	ADJ	NE	_	18	G	18:G	_
+2	war	sein	AUX	NE	_	18	F	18:F	_
+3	das	der	DET	ART	_	5	E	5:E	_
+4	südliche	südlich	ADJ	ADV	_	5	E	5:E	_
+5	Becken	Becken	NOUN	VVINF	_	18	A	18:A	_
+6	,	,	PUNCT	$,	_	18	U	18:U	_
+7	wenn	wenn	SCONJ	VVFIN	_	18	L	18:L	_
+8	es	es	PRON	PPER	_	14	A	14:A	_
+9	während	während	ADP	NN	_	13	R	13:R	_
+10	der	der	DET	ART	_	13	E	13:E	_
+11	6	6	NUM	CARD	_	13	E	13:E	_
+12	Winter	Winter	NOUN	NN	_	13	E	13:E	_
+13	monate	monate	ADJ	NN	_	14	A	14:A	_
+14	gefroren	gefroren	VERB	NN	_	18	H	18:H	_
+15	war	sein	AUX	ADV	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	18	U	18:U	_
+17	durchaus	durchaus	ADV	ADV	_	18	D	18:D	_
+18	unzugänglich	unzugänglich	ADJ	ADJD	_	0	H	0:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

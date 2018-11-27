@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25482004
+# text = Ihre Masten zitterten bis auf den Grund , und die Rauchwirbel konnten durch die zu engen Röhren kaum hinausdringen .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	2	E	2:E	_
+2	Masten	Masten	NOUN	NN	_	3	A	3:A	_
+3	zitterten	zitteren	VERB	VVFIN	_	0	H	0:H	_
+4	bis	bis	ADP	APPR	_	7	R	7:R	_
+5	auf	auf	ADP	APPR	_	4	Terminal	4:Terminal	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Grund	Grund	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	und	und	CCONJ	NE	_	3	L	3:L	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Rauchwirbel	Rauchwirbel	NOUN	NN	_	19	A	19:A	_
+12	konnten	können	AUX	VMFIN	_	19	D	19:D	_
+13	durch	durch	ADP	APPR	_	17	R	17:R	_
+14	die	der	DET	ART	_	17	E	17:E	_
+15	zu	zu	PART	ADJA	_	16	E	16:E	_
+16	engen	eng	ADJ	ADJA	_	17	E	17:E	_
+17	Röhren	Röhre	NOUN	NN	_	19	A	19:A	_
+18	kaum	kaum	ADV	ADV	_	19	D	19:D	_
+19	hinausdringen	hinausdringen	VERB	NE	_	3	H	3:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

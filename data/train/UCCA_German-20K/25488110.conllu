@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25488110
+# text = Das Tier , das Ungeheuer , das Natur phänomen , das die ganze gelehrte Welt , die Einbildungskraft der Seeleute verrückt und irre geleitet hatte - man musste es wohl anerkennen , war ein noch erstaunlicheres Wunder , ein Phänomen von Menschen hand .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Tier	Tier	NOUN	NN	_	33	A	33:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Ungeheuer	Ungeheuer	NOUN	NN	_	2	C	2:C	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	das	der	DET	PRELS	_	9	E	9:E	_
+8	Natur	Natur	NOUN	NE	_	9	E	9:E	_
+9	phänomen	phänomen	VERB	ADJA	_	2	C	2:C	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	das	der	PRON	PRELS	_	24	R	24:R	_
+12	die	der	DET	ART	_	15	E	15:E	_
+13	ganze	ganz	ADJ	ADJA	_	15	E	15:E	_
+14	gelehrte	gelehrt	ADJ	ADJA	_	15	E	15:E	_
+15	Welt	Welt	NOUN	NN	_	24	A	24:A	_
+16	,	,	PUNCT	$,	_	24	U	24:U	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Einbildungskraft	Einbildungskraft	NOUN	NN	_	24	A	24:A	_
+19	der	der	DET	ART	_	20	R	20:R	_
+20	Seeleute	Seeleute	NOUN	NN	_	18	E	18:E	_
+21	verrückt	verrückt	VERB	VVPP	_	24	D	24:D	_
+22	und	und	CCONJ	NE	_	21	N	21:N	_
+23	irre	irre	ADJ	NN	_	21	C	21:C	_
+24	geleitet	geleiten|leiten	VERB	VVPP	_	9	E	9:E	_
+25	hatte	haben	AUX	VAFIN	_	24	F	24:F	_
+26	-	-	PUNCT	$(	_	33	U	33:U	_
+27	man	man	PRON	PIS	_	31	A	31:A	_
+28	musste	müssen	AUX	VVFIN	_	31	D	31:D	_
+29	es	es	PRON	PPER	_	31	A	31:A	_
+30	wohl	wohl	ADV	ADV	_	31	G	31:G	_
+31	anerkennen	anerkennen	VERB	VVINF	_	33	H	33:H	_
+32	,	,	PUNCT	$,	_	33	U	33:U	_
+33	war	sein	AUX	ADV	_	0	H	0:H	_
+34	ein	ein	DET	ART	_	37	E	37:E	_
+35	noch	noch	ADV	NN	_	37	E	37:E	_
+36	erstaunlicheres	erstaunlicher	ADJ	ADJA	_	37	E	37:E	_
+37	Wunder	Wunder	NOUN	NN	_	33	A	33:A	_
+38	,	,	PUNCT	$,	_	33	U	33:U	_
+39	ein	ein	DET	ART	_	40	E	40:E	_
+40	Phänomen	Phänomen	NOUN	NN	_	33	A	33:A	_
+41	von	von	ADP	NN	_	43	R	43:R	_
+42	Menschen	Mensch	NOUN	NN	_	43	E	43:E	_
+43	hand	hinden	VERB	ADV	_	40	E	40:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

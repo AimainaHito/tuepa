@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25734016
+# text = Seit wieviel Jahrhunderten lebten diese Tiere also in den tiefsten Schichten des Ozeans ?
+1	Seit	seit	ADP	APPR	_	3	R	3:R	_
+2	wieviel	wieviel	ADJ	PIS	_	3	E	3:E	_
+3	Jahrhunderten	Jahrhundert	NOUN	NN	_	4	D	4:D	_
+4	lebten	leben	VERB	VVFIN	_	0	H	0:H	_
+5	diese	dies	PRON	PDAT	_	6	E	6:E	_
+6	Tiere	Tier	NOUN	NN	_	4	A	4:A	_
+7	also	also	ADV	ADV	_	4	F	4:F	_
+8	in	in	ADP	APPR	_	11	R	11:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	tiefsten	tief	ADJ	ADJA	_	11	E	11:E	_
+11	Schichten	Schicht	NOUN	NN	_	4	A	4:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Ozeans	Ozeans	NOUN	NN	_	11	E	11:E	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+

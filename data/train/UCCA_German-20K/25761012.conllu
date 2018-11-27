@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25761012
+# text = Einige Pottfische flohen voll Entsetzen nach dem Horizont .
+1	Einige	einige	PRON	PIS	_	2	E	2:E	_
+2	Pottfische	Pottfische	NOUN	ADJA	_	0	C	0:C|5:A|4:A	_
+3	flohen	fliehen	VERB	VVFIN	_	0	H	0:H	_
+4	voll	voll	ADJ	VMFIN	_	3	H	3:H	_
+5	Entsetzen	Entsetzen	NOUN	NN	_	4	A	4:A	_
+6	nach	nach	ADP	CARD	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Horizont	Horizont	NOUN	NN	_	3	A	3:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 150001
+# text = Many tributes were held on television , and newspapers and magazines dedicated issues to the actress .
+1	Many	many	ADJ	JJ	_	2	E	2:E	_
+2	tributes	tribute	NOUN	NNS	_	4	A	4:A	_
+3	were	be	AUX	VBD	_	4	F	4:F	_
+4	held	hold	VERB	VBN	_	0	H	0:H	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	television	television	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	and	and	CCONJ	CC	_	4	L	4:L	_
+9	newspapers	newspaper	NOUN	NNS	_	12	A	12:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	magazines	magazine	NOUN	NNS	_	9	C	9:C	_
+12	dedicated	dedicate	VERB	VBD	_	4	H	4:H	_
+13	issues	issue	NOUN	NNS	_	12	A	12:A	_
+14	to	to	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	actress	actress	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

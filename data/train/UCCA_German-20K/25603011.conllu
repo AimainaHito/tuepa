@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25603011
+# text = Einmal jedoch , ich weiß nicht aus welcher Laune , kam er bis in die 2.000 Meter tiefen Schichten .
+1	Einmal	einmal	ADV	ADV	_	11	A	11:A	_
+2	jedoch	jedoch	ADV	ADV	_	11	G	11:G	_
+3	,	,	PUNCT	$,	_	11	U	11:U	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	weiß	wissen	VERB	VVFIN	_	11	H	11:H	_
+6	nicht	nicht	PART	CARD	_	5	D	5:D	_
+7	aus	aus	ADP	APPR	_	9	R	9:R	_
+8	welcher	welch	PRON	PWAT	_	9	E	9:E	_
+9	Laune	Laune	NOUN	NE	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+12	er	er	PRON	PPER	_	11	A	11:A	_
+13	bis	bis	ADP	APPR	_	19	R	19:R	_
+14	in	in	ADP	APPR	_	19	R	19:R	_
+15	die	der	DET	ART	_	18	E	18:E	_
+16	2.000	2.0	NUM	CARD	_	17	E	17:E	_
+17	Meter	Meter	NOUN	NN	_	18	E	18:E	_
+18	tiefen	tief	ADJ	ADJA	_	19	E	19:E	_
+19	Schichten	Schicht	NOUN	NN	_	11	A	11:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

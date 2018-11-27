@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25791005
+# text = Aber als ich an Bord zurückkam , bemerkte ich Kapitän Nemo den ernsten Fall .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	als	als	SCONJ	KOUS	_	6	L	6:L	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	an	an	ADP	APPR	_	5	R	5:R	_
+5	Bord	Bord	NOUN	NN	_	6	A	6:A	_
+6	zurückkam	zurückkommen	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	bemerkte	bemerken	VERB	VVFIN	_	6	H	6:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	Kapitän	Kapitän	PROPN	NN	_	11	E	11:E	_
+11	Nemo	Nemo	PROPN	NE	_	8	A	8:A	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	ernsten	ernst	ADJ	NN	_	14	E	14:E	_
+14	Fall	Fall	NOUN	NN	_	8	A	8:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

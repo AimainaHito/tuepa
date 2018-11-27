@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25813023
+# text = Ned Land s Harpune tauchte bei jedem Stoß in die graugrünen Augen der Kalmare und bohrte sie aus .
+1	Ned	Ned	PROPN	NN	_	4	E	4:E	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	s	s	PROPN	ADJD	_	1	R	1:R	_
+4	Harpune	Harpune	PROPN	NN	_	0	C	0:C|16:A	_
+5	tauchte	tauchen	VERB	VVFIN	_	0	H	0:H	_
+6	bei	bei	ADP	APPR	_	8	R	8:R	_
+7	jedem	jed	PRON	PIAT	_	8	E	8:E	_
+8	Stoß	Stoß	NOUN	NN	_	5	A	5:A	_
+9	in	in	ADP	APPR	_	12	R	12:R	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	graugrünen	graugrün	ADJ	ADJA	_	12	E	12:E	_
+12	Augen	Auge	NOUN	NN	_	5	A	5:A	_
+13	der	der	DET	ART	_	14	R	14:R	_
+14	Kalmare	Kalmare	NOUN	NE	_	12	E	12:E	_
+15	und	und	CCONJ	NE	_	5	L	5:L	_
+16	bohrte	bohren	VERB	VVFIN	_	5	H	5:H	_
+17	sie	sie	PRON	ADV	_	16	A	16:A	_
+18	aus	aus	ADP	PTKVZ	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	$.	_	16	U	16:U	_
+

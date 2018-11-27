@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25488089
+# text = In dem Augenblick , beim letzten Mondes strahl , gewahrte ich eine Gestalt , nicht die Conseils , und erkannte sie sogleich .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	10	U	10:U	_
+5	beim	beim	ADV	NN	_	8	R	8:R	_
+6	letzten	letzt	ADJ	ADJA	_	8	E	8:E	_
+7	Mondes	Mond	NOUN	NN	_	8	E	8:E	_
+8	strahl	strehlen	VERB	NN	_	10	A	10:A	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	gewahrte	gewahrt	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	Gestalt	Gestalt	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	nicht	nicht	PART	XY	_	10	D	10:D	_
+16	die	der	DET	ART	_	10	A	10:A	_
+17	Conseils	Conseil	NOUN	NN	_	16	E	16:E	_
+18	,	,	PUNCT	$,	_	10	U	10:U	_
+19	und	und	CCONJ	NE	_	10	L	10:L	_
+20	erkannte	erkennen	VERB	VVFIN	_	10	H	10:H	_
+21	sie	sie	PRON	ADV	_	20	A	20:A	_
+22	sogleich	sogleich	ADJ	NN	_	20	D	20:D	_
+23	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25594014
+# text = Die meisten trieben , anstatt Blätter , nur bandartige Streifen von grillenhaften Formen , umgrenzt von einer schmalen Farben borte , die nur Rosa , Carmin , Grün , Oliven farbig , Falb und Braun enthielt .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	meisten	meist	PRON	PIS	_	3	A	3:A	_
+3	trieben	treiben	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	anstatt	anstatt	ADP	APPR	_	3	D	3:D	_
+6	Blätter	Blatt	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	nur	nur	ADV	NE	_	3	D	3:D	_
+9	bandartige	bandartig	ADJ	ADJA	_	10	E	10:E	_
+10	Streifen	Streifen	NOUN	NN	_	3	A	3:A	_
+11	von	von	ADP	NN	_	13	R	13:R	_
+12	grillenhaften	grillenhaft	ADJ	ADJA	_	13	E	13:E	_
+13	Formen	Form	NOUN	NN	_	10	E	10:E	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	umgrenzt	umgrenzen	VERB	ADJD	_	13	E	13:E	_
+16	von	von	ADP	NN	_	20	R	20:R	_
+17	einer	ein	DET	ART	_	20	E	20:E	_
+18	schmalen	schmal	ADJ	ADJA	_	20	E	20:E	_
+19	Farben	Farbe	NOUN	NN	_	20	E	20:E	_
+20	borte	born	VERB	NN	_	15	A	15:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	ART	_	36	R	36:R	_
+23	nur	nur	ADV	NE	_	36	D	36:D	_
+24	Rosa	Rosa	PROPN	NE	_	36	A	36:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	Carmin	Carmin	PROPN	NE	_	24	C	24:C	_
+27	,	,	PUNCT	$,	_	24	U	24:U	_
+28	Grün	grün	PROPN	NE	_	24	C	24:C	_
+29	,	,	PUNCT	$,	_	24	U	24:U	_
+30	Oliven	Olive	PROPN	NE	_	31	E	31:E	_
+31	farbig	farbig	PROPN	NE	_	24	C	24:C	_
+32	,	,	PUNCT	$,	_	24	U	24:U	_
+33	Falb	Falb	PROPN	NE	_	24	C	24:C	_
+34	und	und	CCONJ	NE	_	24	N	24:N	_
+35	Braun	braun	PROPN	NE	_	24	C	24:C	_
+36	enthielt	enthalten	VERB	VVFIN	_	20	E	20:E	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

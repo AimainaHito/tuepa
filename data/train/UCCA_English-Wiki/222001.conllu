@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 222001
+# text = In his movies , he is known for his acrobatic fighting style , comic timing , use of improvised weapons , and innovative stunts .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	movies	movie	NOUN	NNS	_	7	A	7:A	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	he	he	PRON	PRP	_	7	A	7:A|17:A	_
+6	is	be	AUX	VBZ	_	7	F	7:F	_
+7	known	know	VERB	VBN	_	0	H	0:H	_
+8	for	for	ADP	IN	_	12	R	12:R	_
+9	his	he	PRON	PRP$	_	12	E	12:E	_
+10	acrobatic	acrobatic	ADJ	JJ	_	12	E	12:E	_
+11	fighting	fighting	NOUN	NN	_	12	E	12:E	_
+12	style	style	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	comic	comic	ADJ	JJ	_	15	E	15:E	_
+15	timing	timing	NOUN	NN	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	use	use	ADP	IN	_	12	C	12:C	_
+18	of	of	ADP	IN	_	20	F	20:F	_
+19	improvised	improvise	VERB	VBN	_	20	E	20:E	_
+20	weapons	weapon	NOUN	NNS	_	17	A	17:A	_
+21	,	,	PUNCT	,	_	12	U	12:U	_
+22	and	and	CCONJ	CC	_	12	N	12:N	_
+23	innovative	innovative	ADJ	JJ	_	24	E	24:E	_
+24	stunts	stunt	NOUN	NNS	_	12	C	12:C	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

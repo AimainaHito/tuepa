@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 485005
+# text = He is of Croatian ancestry on his father 's side .
+1	He	he	PRON	PRP	_	5	A	5:A	_
+2	is	be	AUX	VBZ	_	5	F	5:F	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	Croatian	Croatian	ADJ	JJ	_	5	E	5:E	_
+5	ancestry	ancestry	NOUN	NN	_	0	H	0:H	_
+6	on	on	ADP	IN	_	10	R	10:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	father	father	NOUN	NN	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	side	side	NOUN	NN	_	5	A	5:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 253013
+# text = He supports the United States Democratic Party , and supported Bill Bradley , John Kerry and Barack Obama for President of the United States in 2000 , 2004 and 2008 , respectively .
+1	He	he	PRON	PRP	_	2	A	2:A|10:A	_
+2	supports	support	VERB	VBZ	_	0	H	0:H	_
+3	the	the	DET	DT	_	2	A	2:A	_
+4	United	United	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	States	States	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	Democratic	Democratic	PROPN	NNP	_	3	Terminal	3:Terminal	_
+7	Party	Party	PROPN	NNP	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	supported	support	VERB	VBN	_	2	H	2:H	_
+11	Bill	Bill	PROPN	NNP	_	10	A	10:A	_
+12	Bradley	Bradley	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	John	John	PROPN	NNP	_	11	C	11:C	_
+15	Kerry	Kerry	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	and	and	CCONJ	CC	_	11	N	11:N	_
+17	Barack	Barack	PROPN	NNP	_	11	C	11:C	_
+18	Obama	Obama	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	for	for	ADP	IN	_	20	R	20:R	_
+20	President	president	PROPN	NNP	_	10	A	10:A	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	United	United	PROPN	NNP	_	20	E	20:E	_
+24	States	States	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	2000	2000	NUM	CD	_	10	D	10:D	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	2004	2004	NUM	CD	_	26	C	26:C	_
+29	and	and	CCONJ	CC	_	26	N	26:N	_
+30	2008	2008	NUM	CD	_	26	C	26:C	_
+31	,	,	PUNCT	,	_	26	U	26:U	_
+32	respectively	respectively	ADV	RB	_	26	R	26:R	_
+33	.	.	PUNCT	.	_	26	U	26:U	_
+

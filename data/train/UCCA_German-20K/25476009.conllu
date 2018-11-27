@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25476009
+# text = Um 8 Uhr zog der Nebel schwer über den Wellen und stieg allmählich auf .
+1	Um	um	ADP	APPR	_	2	E	2:E	_
+2	8	8	NUM	CARD	_	4	D	4:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	zog	ziehen	VERB	VVFIN	_	0	H	0:H	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Nebel	nebel	NOUN	NN	_	0	C	0:C|12:A	_
+7	schwer	schwer	ADJ	NN	_	4	D	4:D	_
+8	über	über	ADP	NE	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Wellen	Welle	NOUN	NN	_	4	A	4:A	_
+11	und	und	CCONJ	NE	_	4	L	4:L	_
+12	stieg	steigen	VERB	VVFIN	_	4	H	4:H	_
+13	allmählich	allmählich	ADJ	ADJD	_	12	D	12:D	_
+14	auf	auf	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

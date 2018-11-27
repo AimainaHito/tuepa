@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25729006
+# text = Welche Beweggründe auch ihn gedrungen hatten , die Unabhängigkeit unterm Meer zu suchen , vor allem war er Mensch geblieben !
+1	Welche	welch	PRON	PIAT	_	2	E	2:E	_
+2	Beweggründe	Beweggrund	NOUN	NN	_	5	A	5:A	_
+3	auch	auch	ADV	ADV	_	5	L	5:L	_
+4	ihn	er	PRON	PPER	_	5	A	5:A|13:A	_
+5	gedrungen	gedrungen	VERB	NN	_	0	H	0:H	_
+6	hatten	haben	AUX	VAFIN	_	5	F	5:F	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Unabhängigkeit	Unabhängigkeit	NOUN	NN	_	13	A	13:A	_
+10	unterm	unterm	ADJ	NE	_	11	R	11:R	_
+11	Meer	Meer	NOUN	NN	_	13	A	13:A	_
+12	zu	zu	PART	NE	_	13	F	13:F	_
+13	suchen	suchen	VERB	VVFIN	_	5	H	5:H	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	vor	vor	ADP	NN	_	16	R	16:R	_
+16	allem	alle	PRON	PIS	_	20	A	20:A	_
+17	war	sein	AUX	ADV	_	20	F	20:F	_
+18	er	er	PRON	PPER	_	20	A	20:A	_
+19	Mensch	Mensch	NOUN	NN	_	20	A	20:A	_
+20	geblieben	bleiben	VERB	VVPP	_	5	H	5:H	_
+21	!	!	PUNCT	$.	_	20	U	20:U	_
+

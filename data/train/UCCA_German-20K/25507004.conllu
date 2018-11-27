@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25507004
+# text = Ein eisernes Lager , ein Arbeits tisch , einige Toiletten möbel ; alles in einem Halb dunkel .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	eisernes	eisern	ADJ	ADJA	_	3	E	3:E	_
+3	Lager	Lager	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	ein	ein	DET	ART	_	7	E	7:E	_
+6	Arbeits	Arbeits	NOUN	TRUNC	_	7	E	7:E	_
+7	tisch	tisch	ADJ	ADJD	_	3	C	3:C	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	einige	einige	PRON	PIAT	_	11	E	11:E	_
+10	Toiletten	Toilette	NOUN	NN	_	11	E	11:E	_
+11	möbel	möbel	ADJ	ADJD	_	3	C	3:C	_
+12	;	;	PUNCT	$.	_	3	U	3:U	_
+13	alles	alle	PRON	PIS	_	3	A	3:A	_
+14	in	in	ADP	APPR	_	17	R	17:R	_
+15	einem	ein	DET	ART	_	17	E	17:E	_
+16	Halb	halb	NUM	ADV	_	17	E	17:E	_
+17	dunkel	dunkel	ADJ	ADJD	_	3	A	3:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

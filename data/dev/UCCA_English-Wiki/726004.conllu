@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 726004
+# text = In 2000 , Jolie appeared in her first summer blockbuster , Gone In 60 Seconds , in which she played Sarah " Sway " Wayland , the ex - girlfriend of car thief Nicolas Cage .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2000	2000	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Jolie	Jolie	PROPN	NNP	_	5	A	5:A	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	12	R	12:R	_
+7	her	she	PRON	PRP$	_	12	E	12:E	_
+8	first	first	ADJ	JJ	_	12	E	12:E	_
+9	summer	summer	NOUN	NN	_	10	E	10:E	_
+10	blockbuster	blockbuster	NOUN	NN	_	12	E	12:E	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	Gone	go	ADJ	JJ	_	5	A	5:A	_
+13	In	in	ADP	IN	_	12	Terminal	12:Terminal	_
+14	60	60	NUM	CD	_	12	Terminal	12:Terminal	_
+15	Seconds	seconds	NOUN	NNS	_	12	Terminal	12:Terminal	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	in	in	ADP	IN	_	5	L	5:L	_
+18	which	which	PRON	WDT	_	17	Terminal	17:Terminal	_
+19	she	she	PRON	PRP	_	20	A	20:A	_
+20	played	play	VERB	VBD	_	5	H	5:H	_
+21	Sarah	Sarah	PROPN	NNP	_	20	A	20:A	_
+22	"	"	PUNCT	``	_	21	U	21:U	_
+23	Sway	Sway	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	"	"	PUNCT	''	_	21	U	21:U	_
+25	Wayland	Wayland	PROPN	NNP	_	21	Terminal	21:Terminal	_
+26	,	,	PUNCT	,	_	21	U	21:U	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	ex	ex	NOUN	NN	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	girlfriend	girlfriend	NOUN	NN	_	21	E	21:E	_
+31	of	of	ADP	IN	_	34	R	34:R	_
+32	car	car	NOUN	NN	_	33	E	33:E	_
+33	thief	thief	NOUN	NN	_	34	E	34:E	_
+34	Nicolas	Nicolas	PROPN	NNP	_	30	E	30:E	_
+35	Cage	cage	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

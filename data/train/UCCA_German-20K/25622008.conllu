@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25622008
+# text = Aber der Kanadier bemerkte alle diese schönen Muster stücke der papuasischen Flora gar nicht , gab das Angenehme fürs Nützliche hin .
+1	Aber	aber	ADP	KON	_	4	L	4:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|16:A	_
+4	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+5	alle	alle	PRON	PIAT	_	9	E	9:E	_
+6	diese	dies	PRON	PDAT	_	9	E	9:E	_
+7	schönen	schön	ADJ	ADJA	_	9	E	9:E	_
+8	Muster	Muster	NOUN	NN	_	9	E	9:E	_
+9	stücke	stück	ADJ	NN	_	4	A	4:A	_
+10	der	der	DET	ART	_	12	R	12:R	_
+11	papuasischen	papuasisch	ADJ	ADJA	_	12	E	12:E	_
+12	Flora	Flora	PROPN	NE	_	9	E	9:E	_
+13	gar	gar	ADV	NE	_	14	E	14:E	_
+14	nicht	nicht	PART	CARD	_	4	D	4:D	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	gab	geben	VERB	VVFIN	_	4	H	4:H	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Angenehme	angenehme	NOUN	NN	_	16	A	16:A	_
+19	fürs	für	PROPN	NE	_	20	R	20:R	_
+20	Nützliche	Nützlich	PROPN	NE	_	16	A	16:A	_
+21	hin	hin	ADV	PTKVZ	_	16	Terminal	16:Terminal	_
+22	.	.	PUNCT	$.	_	16	U	16:U	_
+

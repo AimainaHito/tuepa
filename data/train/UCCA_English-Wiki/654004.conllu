@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 654004
+# text = Lennon 's playing of a mouth organ during a bus journey to visit his cousin in Scotland caught the driver 's ear .
+1	Lennon	Lennon	PROPN	NNP	_	0	C	0:C|11:A|13:A	_
+2	's	be	AUX	VBZ	_	1	R	1:R	_
+3	playing	play	VERB	VBG	_	18	A	18:A	_
+4	of	of	ADP	IN	_	7	R	7:R	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	mouth	mouth	NOUN	NN	_	7	E	7:E	_
+7	organ	organ	ADJ	JJ	_	3	A	3:A	_
+8	during	during	ADP	IN	_	18	L	18:L	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	bus	bus	NOUN	NN	_	11	E	11:E	_
+11	journey	journey	NOUN	NN	_	18	H	18:H	_
+12	to	to	PART	TO	_	18	L	18:L	_
+13	visit	visit	VERB	VB	_	18	H	18:H	_
+14	his	he	PRON	PRP$	_	15	E	15:E	_
+15	cousin	cousin	NOUN	NN	_	13	A	13:A	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	Scotland	Scotland	PROPN	NNP	_	13	A	13:A	_
+18	caught	catch	VERB	VBD	_	0	H	0:H	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	driver	driver	NOUN	NN	_	18	A	18:A	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	ear	ear	NOUN	NN	_	18	Terminal	18:Terminal	_
+23	.	.	PUNCT	.	_	18	U	18:U	_
+

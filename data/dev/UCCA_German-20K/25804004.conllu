@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25804004
+# text = Es handelte sich in der Tat darum , die Vorrats kammer mit einem vortrefflichen Fleisch , das noch vorzüglicher ist als Ochsen- und Kalb fleisch , zu versorgen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	handelte	handeln	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	in	in	ADP	APPR	_	2	G	2:G	_
+5	der	der	DET	ART	_	4	Terminal	4:Terminal	_
+6	Tat	Tat	NOUN	NN	_	4	Terminal	4:Terminal	_
+7	darum	darum	ADV	PAV	_	28	F	28:F	_
+8	,	,	PUNCT	$,	_	28	U	28:U	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	Vorrats	Vorrat	NOUN	NN	_	11	E	11:E	_
+11	kammer	kammer	ADV	NN	_	28	A	28:A	_
+12	mit	mit	ADP	APPR	_	15	R	15:R	_
+13	einem	ein	DET	ART	_	15	E	15:E	_
+14	vortrefflichen	vortrefflich	ADJ	ADJA	_	15	E	15:E	_
+15	Fleisch	Fleisch	NOUN	NN	_	28	A	28:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	das	der	PRON	PRELS	_	19	R	19:R	_
+18	noch	noch	ADV	CARD	_	19	D	19:D	_
+19	vorzüglicher	vorzüglich	ADJ	ADJA	_	15	E	15:E	_
+20	ist	sein	AUX	NN	_	19	F	19:F	_
+21	als	als	ADP	KOKOM	_	22	R	22:R	_
+22	Ochsen-	Ochsen-	NOUN	NE	_	19	A	19:A	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	Kalb	Kalb	NOUN	ADV	_	25	E	25:E	_
+25	fleisch	fleisch	ADJ	ADJD	_	22	C	22:C	_
+26	,	,	PUNCT	$,	_	28	U	28:U	_
+27	zu	zu	PART	VVINF	_	28	F	28:F	_
+28	versorgen	versorgen	VERB	VVINF	_	2	A	2:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

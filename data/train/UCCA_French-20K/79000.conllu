@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 79000
+# text = Les faits relatifs à cette apparition , consignés aux divers livres de bord , s' accordaient assez exactement sur la structure de l' objet ou de l' être en question , la vitesse inouïe de ses mouvements , la puissance surprenante de sa locomotion , la vie particulière dont il semblait doué .
+1	Les	le	DET	_	_	2	E	2:E	_
+2	faits	fait	NOUN	_	_	15	A	15:A	_
+3	relatifs	relatif	ADJ	_	_	2	E	2:E	_
+4	à	à	ADP	_	_	6	R	6:R	_
+5	cette	ce	DET	_	_	6	E	6:E	_
+6	apparition	apparition	NOUN	_	_	3	A	3:A	_
+7	,	,	PUNCT	_	_	2	U	2:U	_
+8	consignés	consigner	VERB	_	_	2	E	2:E	_
+9	aux	au	ADJ	_	_	11	R	11:R	_
+10	divers	divers	ADJ	_	_	11	E	11:E	_
+11	livres	livre	NOUN	_	_	8	A	8:A	_
+12	de	de	ADP	_	_	13	R	13:R	_
+13	bord	bord	NOUN	_	_	11	E	11:E	_
+14	,	,	PUNCT	_	_	15	U	15:U	_
+15	s'	se	PRON	_	_	0	H	0:H	_
+16	accordaient	accorder	VERB	_	_	15	Terminal	15:Terminal	_
+17	assez	assez	ADV	_	_	18	E	18:E	_
+18	exactement	exactement	ADV	_	_	15	D	15:D	_
+19	sur	sur	ADP	_	_	21	R	21:R	_
+20	la	le	DET	_	_	21	E	21:E	_
+21	structure	structure	NOUN	_	_	15	A	15:A	_
+22	de	de	ADP	_	_	24	R	24:R	_
+23	l'	le	DET	_	_	24	E	24:E	_
+24	objet	objet	NOUN	_	_	21	A	21:A	_
+25	ou	ou	CCONJ	_	_	24	N	24:N	_
+26	de	de	ADP	_	_	28	R	28:R	_
+27	l'	le	DET	_	_	28	E	28:E	_
+28	être	être	NOUN	_	_	24	C	24:C	_
+29	en	en	ADP	_	_	30	R	30:R	_
+30	question	question	NOUN	_	_	24	E	24:E	_
+31	,	,	PUNCT	_	_	21	U	21:U	_
+32	la	le	DET	_	_	33	E	33:E	_
+33	vitesse	vitesse	NOUN	_	_	21	C	21:C	_
+34	inouïe	inouïe	ADJ	_	_	33	D	33:D	_
+35	de	de	ADP	_	_	37	R	37:R	_
+36	ses	son	DET	_	_	37	E	37:E	_
+37	mouvements	mouvement	NOUN	_	_	33	A	33:A	_
+38	,	,	PUNCT	_	_	21	U	21:U	_
+39	la	le	DET	_	_	40	E	40:E	_
+40	puissance	puissance	NOUN	_	_	21	C	21:C	_
+41	surprenante	surprenant	ADJ	_	_	40	D	40:D	_
+42	de	de	ADP	_	_	44	R	44:R	_
+43	sa	son	DET	_	_	44	E	44:E	_
+44	locomotion	locomotion	NOUN	_	_	40	A	40:A	_
+45	,	,	PUNCT	_	_	21	U	21:U	_
+46	la	le	DET	_	_	47	E	47:E	_
+47	vie	vie	NOUN	_	_	21	C	21:C	_
+48	particulière	particulier	ADJ	_	_	47	E	47:E	_
+49	dont	dont	PRON	_	_	52	R	52:R	_
+50	il	il	PRON	_	_	52	A	52:A	_
+51	semblait	sembler	VERB	_	_	52	G	52:G	_
+52	doué	doué	ADJ	_	_	47	E	47:E	_
+53	.	.	PUNCT	_	_	52	U	52:U	_
+

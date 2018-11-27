@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 645008
+# text = Two versions exist of how Lennon met Ono .
+1	Two	two	NUM	CD	_	2	E	2:E	_
+2	versions	version	NOUN	NNS	_	3	A	3:A	_
+3	exist	exist	VERB	VBP	_	0	H	0:H	_
+4	of	of	SCONJ	IN	_	7	R	7:R	_
+5	how	how	ADV	WRB	_	7	R	7:R	_
+6	Lennon	Lennon	PROPN	NNP	_	7	A	7:A	_
+7	met	meet	VERB	VBD	_	3	A	3:A	_
+8	Ono	Ono	PROPN	NNP	_	7	A	7:A	_
+9	.	.	PUNCT	.	_	7	U	7:U	_
+

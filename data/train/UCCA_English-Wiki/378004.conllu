@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 378004
+# text = Gyllenhaal later described these as " teenager in transition " roles .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	L	3:L	_
+3	described	describe	VERB	VBD	_	0	H	0:H	_
+4	these	these	PRON	DT	_	3	A	3:A	_
+5	as	as	ADP	IN	_	11	R	11:R	_
+6	"	"	PUNCT	``	_	11	U	11:U	_
+7	teenager	teenager	NOUN	NN	_	9	A	9:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	transition	transition	NOUN	NN	_	11	E	11:E	_
+10	"	"	PUNCT	''	_	11	U	11:U	_
+11	roles	role	NOUN	NNS	_	3	A	3:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

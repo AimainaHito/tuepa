@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25489116
+# text = Jeder Gegenstand , Löffel , Gabel , Messer , Teller , hatte eine Devise als Aufschrift folgendermaßen : Beweglich im beweglichen Element !
+1	Jeder	jed	PRON	PIAT	_	2	E	2:E	_
+2	Gegenstand	Gegenstand	NOUN	NN	_	12	A	12:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Löffel	Löffel	NOUN	NN	_	2	E	2:E	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Gabel	Gabel	NOUN	NN	_	4	C	4:C	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	Messer	Messer	NOUN	NN	_	4	C	4:C	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	Teller	Teller	NOUN	NN	_	4	C	4:C	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	hatte	haben	AUX	VAFIN	_	0	H	0:H	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	Devise	Devise	NOUN	NN	_	12	A	12:A	_
+15	als	als	ADP	KOKOM	_	16	R	16:R	_
+16	Aufschrift	Aufschrift	NOUN	NN	_	14	E	14:E	_
+17	folgendermaßen	folgendermitzen	VERB	ADV	_	12	D	12:D	_
+18	:	:	PUNCT	$.	_	12	U	12:U	_
+19	Beweglich	beweglich	ADJ	APPR	_	12	A	12:A	_
+20	im	im	ADV	NN	_	22	R	22:R	_
+21	beweglichen	beweglich	ADJ	ADJA	_	22	E	22:E	_
+22	Element	Element	NOUN	NN	_	19	A	19:A	_
+23	!	!	PUNCT	$.	_	22	U	22:U	_
+

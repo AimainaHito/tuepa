@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 527006
+# text = Garland was next cast in the film Royal Wedding with Fred Astaire after June Allyson became pregnant in 1950 .
+1	Garland	Garland	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	next	next	ADJ	JJ	_	4	D	4:D	_
+4	cast	cast	NOUN	NN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	film	film	NOUN	NN	_	8	E	8:E	_
+8	Royal	Royal	PROPN	NNP	_	4	A	4:A	_
+9	Wedding	Wedding	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Fred	Fred	PROPN	NNP	_	4	A	4:A	_
+12	Astaire	Astaire	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	after	after	ADP	IN	_	4	L	4:L	_
+14	June	June	PROPN	NNP	_	17	A	17:A	_
+15	Allyson	Allyson	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	became	become	VERB	VBD	_	17	D	17:D	_
+17	pregnant	pregnant	ADJ	JJ	_	4	H	4:H	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	1950	1950	NUM	CD	_	17	D	17:D	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

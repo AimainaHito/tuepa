@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 605003
+# text = McCartney wanted the tour to avoid large venues ; most of the small halls they played had capacities of fewer than 3,000 people .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	wanted	want	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	tour	tour	NOUN	NN	_	6	A	6:A	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	avoid	avoid	VERB	VB	_	2	A	2:A	_
+7	large	large	ADJ	JJ	_	8	E	8:E	_
+8	venues	venue	NOUN	NNS	_	6	A	6:A	_
+9	;	;	PUNCT	,	_	2	U	2:U	_
+10	most	most	ADJ	JJS	_	14	E	14:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	small	small	ADJ	JJ	_	14	E	14:E	_
+14	halls	hall	NOUN	NNS	_	18	A	18:A	_
+15	they	they	PRON	PRP	_	16	A	16:A	_
+16	played	play	VERB	VBD	_	14	E	14:E	_
+17	had	have	VERB	VBD	_	18	F	18:F	_
+18	capacities	capacitie	NOUN	NNS	_	2	H	2:H	_
+19	of	of	ADP	IN	_	23	R	23:R	_
+20	fewer	fewer	ADJ	JJR	_	23	E	23:E	_
+21	than	than	ADP	IN	_	20	R	20:R	_
+22	3,000	3,000	NUM	CD	_	23	E	23:E	_
+23	people	people	NOUN	NNS	_	18	A	18:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

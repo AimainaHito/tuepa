@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 148011
+# text = Meeting when she was 34 and he was 41 , Tracy was initially wary of Hepburn , unimpressed that she had dirty fingernails and suspecting that she was a lesbian , but Hepburn said she " knew right away that I found him irresistible .
+1	Meeting	meet	NOUN	NN	_	0	H	0:H	_
+2	when	when	ADV	WRB	_	1	L	1:L	_
+3	she	she	PRON	PRP	_	5	A	5:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	34	34	NUM	CD	_	1	H	1:H	_
+6	and	and	CCONJ	CC	_	1	L	1:L	_
+7	he	he	PRON	PRP	_	9	A	9:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	41	41	NUM	CD	_	1	H	1:H	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	Tracy	Tracy	PROPN	NNP	_	14	A	14:A|25:A|18:A|1:A	_
+12	was	be	AUX	VBD	_	14	F	14:F	_
+13	initially	initially	ADV	RB	_	14	D	14:D	_
+14	wary	wary	ADJ	JJ	_	1	H	1:H	_
+15	of	of	ADP	IN	_	16	R	16:R	_
+16	Hepburn	Hepburn	PROPN	NNP	_	0	C	0:C|1:A	_
+17	,	,	PUNCT	,	_	1	U	1:U	_
+18	unimpressed	unimpress	VERB	VBD	_	1	H	1:H	_
+19	that	that	SCONJ	IN	_	21	R	21:R	_
+20	she	she	PRON	PRP	_	21	A	21:A	_
+21	had	have	VERB	VBD	_	18	A	18:A	_
+22	dirty	dirty	ADJ	JJ	_	23	E	23:E	_
+23	fingernails	fingernail	NOUN	NNS	_	21	A	21:A	_
+24	and	and	CCONJ	CC	_	1	L	1:L	_
+25	suspecting	suspect	VERB	VBG	_	1	H	1:H	_
+26	that	that	SCONJ	IN	_	30	R	30:R	_
+27	she	she	PRON	PRP	_	30	A	30:A	_
+28	was	be	AUX	VBD	_	30	F	30:F	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	lesbian	lesbian	NOUN	NN	_	25	A	25:A	_
+31	,	,	PUNCT	,	_	1	U	1:U	_
+32	but	but	CCONJ	CC	_	1	L	1:L	_
+33	Hepburn	Hepburn	PROPN	NNP	_	34	A	34:A	_
+34	said	say	VERB	VBD	_	1	H	1:H	_
+35	she	she	PRON	PRP	_	37	A	37:A	_
+36	"	"	PUNCT	``	_	37	U	37:U	_
+37	knew	know	VERB	VBD	_	34	A	34:A	_
+38	right	right	ADV	RB	_	37	D	37:D	_
+39	away	away	ADV	RB	_	38	Terminal	38:Terminal	_
+40	that	that	SCONJ	IN	_	42	R	42:R	_
+41	I	I	PRON	PRP	_	42	A	42:A	_
+42	found	find	VERB	VBD	_	37	A	37:A	_
+43	him	he	PRON	PRP	_	42	A	42:A|44:A	_
+44	irresistible	irresistible	ADJ	JJ	_	42	A	42:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

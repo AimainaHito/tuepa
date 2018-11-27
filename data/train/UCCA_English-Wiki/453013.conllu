@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 453013
+# text = Jennings also found renewed success in his personal life .
+1	Jennings	Jenning	PROPN	NNP	_	5	A	5:A	_
+2	also	also	ADV	RB	_	5	D	5:D	_
+3	found	find	VERB	VBD	_	5	D	5:D	_
+4	renewed	renew	VERB	VBD	_	5	D	5:D	_
+5	success	success	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	personal	personal	ADJ	JJ	_	9	E	9:E	_
+9	life	life	NOUN	NN	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

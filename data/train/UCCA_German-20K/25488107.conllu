@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25488107
+# text = Der schwärzliche Rücken , auf dem ich mich befand , war glatt , poliert , nicht schuppig .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	schwärzliche	schwärzlich	ADJ	ADJA	_	3	E	3:E	_
+3	Rücken	Rücken	NOUN	NN	_	12	A	12:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	auf	auf	ADP	APPR	_	6	R	6:R	_
+6	dem	der	PRON	PRELS	_	8	R	8:R	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	mich	ich	PRON	PRF	_	3	E	3:E	_
+9	befand	befinden	VERB	VVFIN	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	12	U	12:U	_
+11	war	sein	AUX	ADV	_	12	F	12:F	_
+12	glatt	glatt	ADJ	ADJD	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	poliert	polieren	VERB	ADJD	_	12	C	12:C	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	nicht	nicht	PART	XY	_	17	E	17:E	_
+17	schuppig	schuppig	ADJ	ADJD	_	12	C	12:C	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

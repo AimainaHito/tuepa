@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25784002
+# text = Ohne Zweifel würde sie sich aufrichten , wenn der Block selbst festläge .
+1	Ohne	ohne	ADP	NE	_	2	E	2:E	_
+2	Zweifel	Zweifel	NOUN	NE	_	5	G	5:G	_
+3	würde	werden	AUX	NN	_	5	D	5:D	_
+4	sie	sie	PRON	ADV	_	5	A	5:A	_
+5	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+6	aufrichten	aufrichen	VERB	VVINF	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	wenn	wenn	SCONJ	VVFIN	_	5	L	5:L	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Block	Block	NOUN	NN	_	12	A	12:A	_
+11	selbst	selbst	ADV	VVFIN	_	12	D	12:D	_
+12	festläge	festläge	ADJ	ADJD	_	5	H	5:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

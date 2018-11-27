@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 186007
+# text = His paternal grandfather was one of the founders of the International Ladies ' Garment Workers ' Union ( ILGWU ) . Sorkin took an early interest in acting .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	paternal	paternal	ADJ	JJ	_	3	E	3:E	_
+3	grandfather	grandfather	NOUN	NN	_	4	A	4:A	_
+4	was	be	AUX	VBD	_	0	H	0:H	_
+5	one	one	NUM	CD	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	founders	founder	NOUN	NNS	_	4	A	4:A	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	International	International	PROPN	NNP	_	8	E	8:E	_
+12	Ladies	ladies	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+13	'	's	PART	POS	_	11	U	11:U	_
+14	Garment	Garment	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	Workers	Workers	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+16	'	's	PART	POS	_	11	U	11:U	_
+17	Union	Union	PROPN	NNP	_	11	Terminal	11:Terminal	_
+18	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+19	ILGWU	ILGWU	PROPN	NNP	_	11	E	11:E	_
+20	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+21	.	.	PUNCT	.	_	4	U	4:U	_
+22	Sorkin	Sorkin	PROPN	NNP	_	26	A	26:A	_
+23	took	take	VERB	VBD	_	26	F	26:F	_
+24	an	a	DET	DT	_	25	E	25:E	_
+25	early	early	ADJ	JJ	_	26	D	26:D	_
+26	interest	interest	NOUN	NN	_	4	H	4:H	_
+27	in	in	SCONJ	IN	_	28	R	28:R	_
+28	acting	acting	VERB	VBG	_	26	A	26:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

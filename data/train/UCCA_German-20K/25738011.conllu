@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25738011
+# text = Die Nacht unterbrach meine Beobachtungen nicht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Nacht	Nacht	NOUN	NN	_	3	A	3:A	_
+3	unterbrach	unterbrechen	VERB	VVFIN	_	0	H	0:H	_
+4	meine	mein	DET	PPOSAT	_	5	E	5:E	_
+5	Beobachtungen	Beobachtung	NOUN	NN	_	3	A	3:A	_
+6	nicht	nicht	PART	XY	_	3	D	3:D	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

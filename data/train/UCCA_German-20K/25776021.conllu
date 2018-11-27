@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25776021
+# text = Die Walrosse gleichen den Robben an Körper bildung und Anordnung der Gliedmaßen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Walrosse	Walrosse	NOUN	NN	_	3	A	3:A	_
+3	gleichen	gleich	ADJ	ADJA	_	0	H	0:H	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Robben	Robbe	NOUN	NN	_	3	A	3:A	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	Körper	Körper	NOUN	NN	_	8	E	8:E	_
+8	bildung	Bildung	NOUN	NN	_	3	A	3:A	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	Anordnung	Anordnung	NOUN	NN	_	8	C	8:C	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Gliedmaßen	Gliedmaße	NOUN	NN	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

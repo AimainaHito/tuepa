@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25490023
+# text = Es war wohl die belebende , jodhaltige See luft !
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	wohl	wohl	ADV	ADV	_	2	D	2:D	_
+4	die	der	DET	ART	_	9	E	9:E	_
+5	belebende	belebend	ADJ	ADJA	_	9	E	9:E	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	jodhaltige	jodhaltig	ADJ	ADJA	_	5	C	5:C	_
+8	See	See	NOUN	NN	_	9	E	9:E	_
+9	luft	lufen	VERB	VVFIN	_	2	A	2:A	_
+10	!	!	PUNCT	$.	_	9	U	9:U	_
+

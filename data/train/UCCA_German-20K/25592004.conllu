@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25592004
+# text = Es war damals 10 Uhr vormittags .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	damals	damals	ADV	ADV	_	2	D	2:D	_
+4	10	10	NUM	CARD	_	2	D	2:D	_
+5	Uhr	Uhr	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	vormittags	vormittags	ADV	ADV	_	4	E	4:E	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

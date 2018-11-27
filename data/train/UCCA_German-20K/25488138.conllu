@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25488138
+# text = Wir konnten , wenn der volle Wellen schlag uns traf , kaum dem schwindelhaften Fortreißen widerstehen .
+1	Wir	wir	PRON	NE	_	16	A	16:A	_
+2	konnten	können	AUX	VMFIN	_	16	D	16:D	_
+3	,	,	PUNCT	$,	_	16	U	16:U	_
+4	wenn	wenn	SCONJ	VVFIN	_	16	L	16:L	_
+5	der	der	DET	ART	_	8	E	8:E	_
+6	volle	voll	ADJ	ADJA	_	8	E	8:E	_
+7	Wellen	Welle	NOUN	NN	_	8	E	8:E	_
+8	schlag	schlagen	X	VVFIN	_	10	A	10:A	_
+9	uns	wir	PRON	NE	_	10	A	10:A	_
+10	traf	treffen	VERB	VVFIN	_	16	H	16:H	_
+11	,	,	PUNCT	$,	_	16	U	16:U	_
+12	kaum	kaum	ADV	ADV	_	16	D	16:D	_
+13	dem	der	DET	ART	_	15	E	15:E	_
+14	schwindelhaften	schwindelhaft	ADJ	ADJA	_	15	E	15:E	_
+15	Fortreißen	Fortreißen	NOUN	NN	_	16	A	16:A	_
+16	widerstehen	widerstehen	VERB	VVINF	_	0	H	0:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

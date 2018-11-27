@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25497006
+# text = Ich kann 's nicht leugnen ; diese Worte des Kommandanten machten einen starken Eindruck auf mich .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	kann	können	AUX	VMFIN	_	5	F	5:F	_
+3	's	es	PRON	PPER	_	5	F	5:F	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	leugnen	leugnen	VERB	VVFIN	_	0	H	0:H	_
+6	;	;	PUNCT	$.	_	5	U	5:U	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Worte	Wort	NOUN	NN	_	11	A	11:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Kommandanten	Kommandant	NOUN	NN	_	8	E	8:E	_
+11	machten	machten	VERB	VVFIN	_	5	H	5:H	_
+12	einen	ein	DET	ART	_	11	Terminal	11:Terminal	_
+13	starken	stark	ADJ	ADJA	_	11	D	11:D	_
+14	Eindruck	Eindruck	NOUN	NN	_	11	Terminal	11:Terminal	_
+15	auf	auf	ADP	APPR	_	16	R	16:R	_
+16	mich	ich	PRON	PPER	_	11	A	11:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

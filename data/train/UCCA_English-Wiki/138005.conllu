@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 138005
+# text = That summer Hepburn returned to Shakespeare .
+1	That	that	DET	DT	_	2	E	2:E	_
+2	summer	summer	NOUN	NN	_	4	D	4:D	_
+3	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A	_
+4	returned	return	VERB	VBD	_	0	H	0:H	_
+5	to	to	ADP	IN	_	6	R	6:R	_
+6	Shakespeare	Shakespeare	PROPN	NNP	_	4	A	4:A	_
+7	.	.	PUNCT	.	_	6	U	6:U	_
+

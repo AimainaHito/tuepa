@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25788005
+# text = In dem Augenblick trat der Kapitän in den Salon .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	4	A	4:A	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Salon	Salon	NOUN	NN	_	4	A	4:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

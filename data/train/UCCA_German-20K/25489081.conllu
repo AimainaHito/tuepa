@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25489081
+# text = « » Es ist mir recht lieb . Fange nur an .
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Es	es	PRON	PPER	_	7	A	7:A	_
+4	ist	sein	AUX	VVFIN	_	7	F	7:F	_
+5	mir	ich	PRON	PPER	_	7	A	7:A	_
+6	recht	recht	ADV	NE	_	7	D	7:D	_
+7	lieb	leiben	VERB	VVFIN	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	Fange	Fange	NOUN	FM	_	7	H	7:H	_
+10	nur	nur	ADV	NE	_	9	D	9:D	_
+11	an	an	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

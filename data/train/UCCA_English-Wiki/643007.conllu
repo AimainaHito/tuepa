@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 643007
+# text = The Beatles were performing at Liverpool 's Cavern Club in 1962 , when they were introduced to Epstein after a midday concert .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Beatles	Beatles	PROPN	NNPS	_	4	A	4:A	_
+3	were	be	AUX	VBD	_	4	F	4:F	_
+4	performing	perform	VERB	VBG	_	0	H	0:H	_
+5	at	at	ADP	IN	_	9	R	9:R	_
+6	Liverpool	Liverpool	PROPN	NNP	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	Cavern	Cavern	PROPN	NNP	_	9	E	9:E	_
+9	Club	Club	PROPN	NNP	_	4	A	4:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1962	1962	NUM	CD	_	4	D	4:D	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	when	when	ADV	WRB	_	4	L	4:L	_
+14	they	they	PRON	PRP	_	16	A	16:A	_
+15	were	be	AUX	VBD	_	16	F	16:F	_
+16	introduced	introduce	VERB	VBN	_	4	H	4:H	_
+17	to	to	ADP	IN	_	18	R	18:R	_
+18	Epstein	Epstein	PROPN	NNP	_	16	A	16:A	_
+19	after	after	ADP	IN	_	4	L	4:L	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	midday	midday	NOUN	NN	_	22	D	22:D	_
+22	concert	concert	NOUN	NN	_	4	H	4:H	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25708024
+# text = » Und Sie haben unrecht , Meister Land « , versetzte ich . » Diese niedrige Küste im Süden ist die ägyptische . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Und	und	CCONJ	NN	_	5	L	5:L	_
+3	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+4	haben	haben	VERB	VAFIN	_	5	F	5:F	_
+5	unrecht	unrecht	ADJ	ADJD	_	11	A	11:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Meister	Meister	NOUN	NN	_	8	E	8:E	_
+8	Land	Land	NOUN	NN	_	5	G	5:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+14	»	»	PUNCT	$(	_	11	U	11:U	_
+15	Diese	dies	PRON	PDAT	_	17	E	17:E	_
+16	niedrige	niedrig	ADJ	ADJA	_	17	E	17:E	_
+17	Küste	Küste	NOUN	NN	_	22	A	22:A	_
+18	im	im	ADV	NE	_	19	R	19:R	_
+19	Süden	Süden	NOUN	NE	_	17	E	17:E	_
+20	ist	sein	AUX	VVFIN	_	22	F	22:F	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	ägyptische	ägyptisch	ADJ	ADJA	_	5	H	5:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

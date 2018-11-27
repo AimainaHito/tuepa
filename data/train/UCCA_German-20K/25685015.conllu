@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25685015
+# text = Kapitän Nemo allein war die Grotte bekannt , wo diese staunenswerte Frucht der Natur » reif wurde « ; er allein zog sie so gewissermaßen groß , um ihr eines Tages in seinem Museum ihren Platz an zu weisen .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+3	allein	allein	ADV	ADV	_	7	D	7:D	_
+4	war	sein	AUX	ADV	_	7	F	7:F	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Grotte	Grotte	NOUN	NN	_	7	A	7:A	_
+7	bekannt	bekennen	ADJ	ADJD	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	wo	wo	ADV	ADJA	_	16	R	16:R	_
+10	diese	dies	PRON	PDAT	_	12	E	12:E	_
+11	staunenswerte	staunenswert	ADJ	ADJA	_	12	E	12:E	_
+12	Frucht	Frucht	NOUN	NN	_	16	A	16:A	_
+13	der	der	DET	ART	_	14	R	14:R	_
+14	Natur	Natur	NOUN	NN	_	12	E	12:E	_
+15	»	»	PUNCT	$(	_	16	U	16:U	_
+16	reif	reif	ADJ	ADJD	_	6	E	6:E	_
+17	wurde	werden	AUX	TRUNC	_	16	F	16:F	_
+18	«	«	PUNCT	$(	_	7	U	7:U	_
+19	;	;	PUNCT	$.	_	7	U	7:U	_
+20	er	er	PRON	PPER	_	22	A	22:A	_
+21	allein	allein	ADV	ADV	_	22	D	22:D	_
+22	zog	ziehen	VERB	VVFIN	_	7	H	7:H	_
+23	sie	sie	PRON	ADV	_	22	A	22:A	_
+24	so	so	ADV	ADV	_	22	D	22:D	_
+25	gewissermaßen	wissermaßen	AUX	ADV	_	22	D	22:D	_
+26	groß	groß	ADJ	ADJD	_	22	Terminal	22:Terminal	_
+27	,	,	PUNCT	$,	_	7	U	7:U	_
+28	um	um	ADP	KOUI	_	7	L	7:L	_
+29	ihr	ihr	PRON	PPER	_	37	A	37:A	_
+30	eines	ein	DET	ART	_	31	E	31:E	_
+31	Tages	Tag	NOUN	NN	_	37	D	37:D	_
+32	in	in	ADP	APPR	_	34	R	34:R	_
+33	seinem	sein	DET	PPOSAT	_	34	E	34:E	_
+34	Museum	Museum	NOUN	NN	_	36	E	36:E	_
+35	ihren	ihr	DET	PPOSAT	_	36	E	36:E	_
+36	Platz	Platz	NOUN	NN	_	37	A	37:A	_
+37	an	an	ADP	APPR	_	7	H	7:H	_
+38	zu	zu	PART	NE	_	37	F	37:F	_
+39	weisen	weisen	VERB	VVINF	_	37	Terminal	37:Terminal	_
+40	.	.	PUNCT	$.	_	37	U	37:U	_
+

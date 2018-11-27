@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25490003
+# text = Als ich kaum von diesem ziemlich harten Lager aufgestanden war , fühlte ich meinen Kopf frei , meinen Geist klar .
+1	Als	als	SCONJ	KOUS	_	9	L	9:L	_
+2	ich	ich	PRON	PPER	_	9	A	9:A	_
+3	kaum	kaum	ADV	ADV	_	9	D	9:D	_
+4	von	von	ADP	NN	_	8	R	8:R	_
+5	diesem	dies	PRON	PDS	_	8	E	8:E	_
+6	ziemlich	ziemlich	ADJ	ADV	_	8	E	8:E	_
+7	harten	hart	ADJ	ADJA	_	8	E	8:E	_
+8	Lager	Lage	NOUN	NN	_	9	A	9:A	_
+9	aufgestanden	aufstehen	VERB	VVPP	_	0	H	0:H	_
+10	war	sein	AUX	ADV	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	fühlte	fühlen	VERB	VVFIN	_	9	H	9:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	meinen	mein	PRON	PPOSAT	_	15	E	15:E	_
+15	Kopf	Kopf	NOUN	NN	_	16	A	16:A	_
+16	frei	frei	ADV	PTKVZ	_	12	A	12:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	meinen	mein	PRON	PPOSAT	_	19	E	19:E	_
+19	Geist	Geist	PROPN	ADV	_	20	A	20:A	_
+20	klar	klar	ADJ	ADJD	_	16	H	16:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

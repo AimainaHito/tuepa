@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25691010
+# text = Ned sagte zu sich selber : » Das ist alles schön und gut , aber ich meine doch , wo Zwang ist , hört das Vergnügen auf . «
+1	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+2	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+3	zu	zu	ADP	NE	_	4	R	4:R	_
+4	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+5	selber	selber	ADV	CARD	_	4	E	4:E	_
+6	:	:	PUNCT	$.	_	2	U	2:U	_
+7	»	»	PUNCT	$(	_	2	U	2:U	_
+8	Das	der	PRON	PDS	_	11	F	11:F	_
+9	ist	sein	AUX	VVFIN	_	11	F	11:F	_
+10	alles	alle	PRON	PIS	_	11	A	11:A	_
+11	schön	schön	ADJ	FM	_	2	A	2:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	gut	gut	ADJ	ADJD	_	11	C	11:C	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	aber	aber	CCONJ	KON	_	11	L	11:L	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	meine	mein	PRON	PPOSAT	_	11	H	11:H	_
+18	doch	doch	ADV	ADV	_	17	D	17:D	_
+19	,	,	PUNCT	$,	_	17	U	17:U	_
+20	wo	wo	ADV	NN	_	22	R	22:R	_
+21	Zwang	zwang	PROPN	NE	_	22	A	22:A	_
+22	ist	sein	AUX	NE	_	17	A	17:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	hört	hören	VERB	VVFIN	_	22	H	22:H	_
+25	das	der	DET	ART	_	26	E	26:E	_
+26	Vergnügen	Vergnügen	NOUN	NN	_	24	A	24:A	_
+27	auf	auf	ADP	PTKVZ	_	24	Terminal	24:Terminal	_
+28	.	.	PUNCT	$.	_	24	U	24:U	_
+29	«	«	PUNCT	$(	_	24	U	24:U	_
+

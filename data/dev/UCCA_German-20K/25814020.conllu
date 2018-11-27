@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25814020
+# text = War er der einzige Repräsentant Frankreichs in der aus verschiedenen Nationalitäten gemischten Gesellschaft ?
+1	War	sein	AUX	NN	_	4	F	4:F	_
+2	er	er	PRON	PPER	_	4	A	4:A	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	einzige	einzig	ADJ	ADJA	_	0	H	0:H	_
+5	Repräsentant	Repräsentant	NOUN	NN	_	4	A	4:A	_
+6	Frankreichs	Frankreich	PROPN	NE	_	5	E	5:E	_
+7	in	in	ADP	APPR	_	13	R	13:R	_
+8	der	der	DET	ART	_	13	E	13:E	_
+9	aus	aus	ADP	APPR	_	11	R	11:R	_
+10	verschiedenen	verschieden	ADJ	ADJA	_	11	E	11:E	_
+11	Nationalitäten	Nationalität	NOUN	NN	_	12	A	12:A	_
+12	gemischten	gemischt	ADJ	ADJA	_	13	E	13:E	_
+13	Gesellschaft	Gesellschaft	NOUN	NN	_	4	A	4:A	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 726007
+# text = It became her highest - grossing movie to that point , earning $ 237 million internationally .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	became	become	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP	_	7	E	7:E	_
+4	highest	highest	ADJ	JJS	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	grossing	gross	NOUN	NN	_	7	E	7:E	_
+7	movie	movie	NOUN	NN	_	0	C	0:C|12:A	_
+8	to	to	ADP	IN	_	10	R	10:R	_
+9	that	that	DET	DT	_	10	E	10:E	_
+10	point	point	NOUN	NN	_	2	D	2:D	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	earning	earn	VERB	VBG	_	2	H	2:H	_
+13	$	$	SYM	$	_	12	U	12:U	_
+14	237	237	NUM	CD	_	15	E	15:E	_
+15	million	million	NUM	CD	_	12	A	12:A	_
+16	internationally	internationally	ADV	RB	_	12	D	12:D	_
+17	.	.	PUNCT	.	_	12	U	12:U	_
+

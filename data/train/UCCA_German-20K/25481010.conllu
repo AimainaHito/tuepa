@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25481010
+# text = » Und Ihre Klappen sind gestellt ... ? « » Zu 6 Atmosphären und eine halbe .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Und	und	CCONJ	NN	_	6	L	6:L	_
+3	Ihre	Ihr|ihr	DET	PPOSAT	_	4	R	4:R	_
+4	Klappen	Klappe	NOUN	NE	_	0	C	0:C|13:A	_
+5	sind	sein	AUX	NN	_	6	F	6:F	_
+6	gestellt	stellen	VERB	VVPP	_	0	S	0:S|13:S	_
+7	...	...	PUNCT	$(	_	13	U	13:U	_
+8	?	?	PUNCT	$.	_	13	U	13:U	_
+9	«	«	PUNCT	$(	_	13	U	13:U	_
+10	»	»	PUNCT	$(	_	13	U	13:U	_
+11	Zu	zu	ADP	NE	_	13	R	13:R	_
+12	6	6	NUM	CARD	_	13	E	13:E	_
+13	Atmosphären	Atmosphär	NOUN	NE	_	6	H	6:H	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	eine	ein	DET	ART	_	13	C	13:C	_
+16	halbe	halb	NOUN	NN	_	15	E	15:E	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

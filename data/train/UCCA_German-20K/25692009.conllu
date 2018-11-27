@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25692009
+# text = Diese ist bei einer Breite von 20 Meilen nur 52 Kilometer lang , so dass die ›Nautilus‹ bei Schnell fahrt sie binnen einer Stunde zurücklegte .
+1	Diese	dies	PRON	PDS	_	12	A	12:A	_
+2	ist	sein	AUX	VVFIN	_	12	F	12:F	_
+3	bei	bei	ADP	APPR	_	5	R	5:R	_
+4	einer	ein	DET	ART	_	5	E	5:E	_
+5	Breite	Breite	NOUN	NN	_	12	A	12:A	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	20	20	NUM	CARD	_	8	E	8:E	_
+8	Meilen	Meile	NOUN	NN	_	5	E	5:E	_
+9	nur	nur	ADV	NE	_	12	D	12:D	_
+10	52	52	NUM	CARD	_	11	E	11:E	_
+11	Kilometer	Kilometer	NOUN	NN	_	12	A	12:A	_
+12	lang	lang	ADJ	ADJD	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	so	so	ADV	ADV	_	12	L	12:L	_
+15	dass	dass	SCONJ	KOUS	_	14	Terminal	14:Terminal	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	›Nautilus‹	›Nautilus‹	NOUN	NE	_	25	A	25:A	_
+18	bei	bei	ADP	APPR	_	20	R	20:R	_
+19	Schnell	schnell	PROPN	NE	_	20	E	20:E	_
+20	fahrt	fahren	VERB	NN	_	25	A	25:A	_
+21	sie	sie	PRON	ADV	_	25	A	25:A	_
+22	binnen	binnen	ADP	APPR	_	24	R	24:R	_
+23	einer	ein	DET	ART	_	24	E	24:E	_
+24	Stunde	Stunde	NOUN	NN	_	25	D	25:D	_
+25	zurücklegte	zurücklegen	VERB	VVFIN	_	12	H	12:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

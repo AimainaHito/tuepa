@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25473003
+# text = Der Narwal dagegen machte es der Fregatte nach , ließ sich auf den Wellen wiegen und schien entschlossen , den Schauplatz des Kampfs nicht zu verlassen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Narwal	Narwal	NOUN	NN	_	0	C	0:C|18:A|11:A|26:A	_
+3	dagegen	dagegen	ADV	PAV	_	4	L	4:L	_
+4	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+5	es	es	PRON	PPER	_	4	F	4:F	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Fregatte	Fregatte	NOUN	NN	_	4	A	4:A	_
+8	nach	nach	ADP	CARD	_	4	Terminal	4:Terminal	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	ließ	lassen	NOUN	VVFIN	_	11	D	11:D	_
+11	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+12	auf	auf	ADP	APPR	_	14	R	14:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Wellen	Welle	NOUN	NN	_	11	A	11:A	_
+15	wiegen	wiegen	VERB	VVINF	_	11	Terminal	11:Terminal	_
+16	und	und	CCONJ	NE	_	4	L	4:L	_
+17	schien	scheinen	AUX	VVFIN	_	4	H	4:H	_
+18	entschlossen	entschließen	ADJ	VVPP	_	17	A	17:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Schauplatz	Schauplatz	NOUN	NN	_	26	A	26:A	_
+22	des	der	DET	ART	_	23	R	23:R	_
+23	Kampfs	Kampf	NOUN	NN	_	21	E	21:E	_
+24	nicht	nicht	PART	CARD	_	26	D	26:D	_
+25	zu	zu	PART	NN	_	26	F	26:F	_
+26	verlassen	verlassen	VERB	NN	_	18	A	18:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

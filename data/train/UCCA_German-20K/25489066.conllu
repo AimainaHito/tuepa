@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25489066
+# text = Aber in seinen Zügen konnte man nicht erkennen , dass er meine Geschichte verstanden habe .
+1	Aber	aber	CCONJ	KON	_	8	L	8:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	seinen	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Zügen	Zug	NOUN	NN	_	8	A	8:A	_
+5	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+6	man	man	PRON	PIS	_	8	A	8:A	_
+7	nicht	nicht	PART	XY	_	8	D	8:D	_
+8	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	dass	dass	SCONJ	KOUS	_	14	R	14:R	_
+11	er	er	PRON	PPER	_	14	A	14:A	_
+12	meine	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Geschichte	Geschichte	NOUN	NN	_	14	A	14:A	_
+14	verstanden	verstehen	VERB	VVPP	_	8	A	8:A	_
+15	habe	haben	AUX	VAFIN	_	14	F	14:F	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

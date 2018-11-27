@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25668010
+# text = Am 24 . früh bekamen wir , unter 12 ° 5 ? südlicher Breite und 94 ° 33 ? Länge , die Insel Keeling in Sicht ; sie ist madreporischen Ursprungs , mit prachtvollen Kokos bäumen bepflanzt , aber menschenleer und mit steilen Küsten , an denen die ›Nautilus‹ nah vorbeifuhr .
+1	Am	am	PROPN	NE	_	25	D	25:D	_
+2	24	24	PROPN	CARD	_	1	Terminal	1:Terminal	_
+3	.	.	PUNCT	$.	_	1	U	1:U	_
+4	früh	früh	ADJ	ADJD	_	1	E	1:E	_
+5	bekamen	bekommen	VERB	VVFIN	_	25	D	25:D	_
+6	wir	wir	AUX	NE	_	25	A	25:A	_
+7	,	,	PUNCT	$,	_	25	U	25:U	_
+8	unter	unter	ADP	NE	_	9	R	9:R	_
+9	12	12	NUM	CARD	_	25	A	25:A	_
+10	°	°	NOUN	NN	_	9	U	9:U	_
+11	5	5	NUM	CARD	_	9	Terminal	9:Terminal	_
+12	?	?	PUNCT	$.	_	9	U	9:U	_
+13	südlicher	südlich	ADJ	ADJA	_	9	E	9:E	_
+14	Breite	Breite	NOUN	NN	_	9	Terminal	9:Terminal	_
+15	und	und	CCONJ	NE	_	9	N	9:N	_
+16	94	94	NUM	CARD	_	9	C	9:C	_
+17	°	°	NOUN	NN	_	16	U	16:U	_
+18	33	33	NUM	CARD	_	16	Terminal	16:Terminal	_
+19	?	?	PUNCT	$.	_	16	U	16:U	_
+20	Länge	Länge	NOUN	NN	_	16	Terminal	16:Terminal	_
+21	,	,	PUNCT	$,	_	25	U	25:U	_
+22	die	der	DET	ART	_	24	E	24:E	_
+23	Insel	Insel	NOUN	NN	_	24	E	24:E	_
+24	Keeling	Keeling	PROPN	NN	_	25	A	25:A	_
+25	in	in	ADP	APPR	_	0	H	0:H	_
+26	Sicht	Sicht	NOUN	NN	_	25	Terminal	25:Terminal	_
+27	;	;	PUNCT	$.	_	25	U	25:U	_
+28	sie	sie	PRON	TRUNC	_	31	A	31:A|40:A|37:A|44:A	_
+29	ist	sein	AUX	NN	_	31	F	31:F|44:S	_
+30	madreporischen	madreporisch	ADJ	ADJA	_	31	D	31:D	_
+31	Ursprungs	Ursprung	NOUN	NN	_	25	H	25:H	_
+32	,	,	PUNCT	$,	_	25	U	25:U	_
+33	mit	mit	ADP	APPR	_	36	R	36:R	_
+34	prachtvollen	prachtvoll	ADJ	ADJA	_	36	E	36:E	_
+35	Kokos	Kokos	NOUN	NN	_	36	E	36:E	_
+36	bäumen	bäumen	VERB	VVFIN	_	37	A	37:A	_
+37	bepflanzt	bepflanzt	ADJ	ADJD	_	25	H	25:H	_
+38	,	,	PUNCT	$,	_	25	U	25:U	_
+39	aber	aber	CCONJ	KON	_	25	L	25:L	_
+40	menschenleer	menschenleer	ADV	PTKVZ	_	25	H	25:H	_
+41	und	und	CCONJ	NN	_	25	L	25:L	_
+42	mit	mit	ADP	APPR	_	44	R	44:R	_
+43	steilen	steil	ADJ	ADJA	_	44	E	44:E	_
+44	Küsten	Küste	NOUN	NN	_	25	H	25:H	_
+45	,	,	PUNCT	$,	_	44	U	44:U	_
+46	an	an	ADP	APPR	_	51	R	51:R	_
+47	denen	der	PRON	PRELS	_	51	F	51:F	_
+48	die	der	DET	ART	_	49	E	49:E	_
+49	›Nautilus‹	›Nautilus‹	NOUN	NE	_	51	A	51:A	_
+50	nah	nah	ADJ	ADJD	_	51	D	51:D	_
+51	vorbeifuhr	vorbeifahren	VERB	VVFIN	_	44	E	44:E	_
+52	.	.	PUNCT	$.	_	51	U	51:U	_
+

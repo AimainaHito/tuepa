@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 449012
+# text = Along with Tom Brokaw at NBC and Dan Rather at CBS , Jennings formed part of the " Big Three " news anchors who dominated American evening network news from the early 1980s until his death in 2005 , which closely followed the retirements of Brokaw and Rather .
+1	Along	along	ADP	IN	_	3	R	3:R	_
+2	with	with	ADP	IN	_	3	R	3:R	_
+3	Tom	Tom	PROPN	NNP	_	14	A	14:A	_
+4	Brokaw	Brokaw	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	at	at	ADP	IN	_	6	R	6:R	_
+6	NBC	NBC	PROPN	NNP	_	3	E	3:E	_
+7	and	and	CCONJ	CC	_	3	N	3:N	_
+8	Dan	Dan	PROPN	NNP	_	3	C	3:C	_
+9	Rather	Rather	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	at	at	ADP	IN	_	11	R	11:R	_
+11	CBS	CBS	PROPN	NNP	_	8	E	8:E	_
+12	,	,	PUNCT	,	_	14	U	14:U	_
+13	Jennings	Jennings	PROPN	NNP	_	14	A	14:A	_
+14	formed	form	VERB	VBN	_	0	H	0:H	_
+15	part	part	NOUN	NN	_	23	E	23:E	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	the	the	DET	DT	_	23	E	23:E	_
+18	"	"	PUNCT	``	_	23	U	23:U	_
+19	Big	Big	PROPN	NNP	_	20	E	20:E	_
+20	Three	three	PROPN	NNP	_	23	E	23:E	_
+21	"	"	PUNCT	''	_	23	U	23:U	_
+22	news	news	NOUN	NN	_	23	E	23:E	_
+23	anchors	anchor	NOUN	NNS	_	14	A	14:A	_
+24	who	who	PRON	WP	_	25	F	25:F	_
+25	dominated	dominate	VERB	VBD	_	23	E	23:E	_
+26	American	american	ADJ	JJ	_	29	E	29:E	_
+27	evening	evening	NOUN	NN	_	29	E	29:E	_
+28	network	network	NOUN	NN	_	29	E	29:E	_
+29	news	news	NOUN	NN	_	25	A	25:A	_
+30	from	from	ADP	IN	_	33	R	33:R	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	early	early	ADJ	JJ	_	33	E	33:E	_
+33	1980s	1980	NOUN	NNS	_	14	D	14:D	_
+34	until	until	ADP	IN	_	14	L	14:L	_
+35	his	he	PRON	PRP$	_	36	A	36:A	_
+36	death	death	NOUN	NN	_	14	H	14:H	_
+37	in	in	ADP	IN	_	38	R	38:R	_
+38	2005	2005	NUM	CD	_	36	D	36:D	_
+39	,	,	PUNCT	,	_	14	U	14:U	_
+40	which	which	PRON	WDT	_	14	L	14:L	_
+41	closely	closely	ADV	RB	_	42	D	42:D	_
+42	followed	follow	VERB	VBD	_	14	H	14:H	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	retirements	retirement	NOUN	NNS	_	42	A	42:A	_
+45	of	of	ADP	IN	_	46	R	46:R	_
+46	Brokaw	Brokaw	PROPN	NNP	_	44	A	44:A	_
+47	and	and	CCONJ	CC	_	46	N	46:N	_
+48	Rather	Rather	PROPN	NNP	_	46	C	46:C	_
+49	.	.	PUNCT	.	_	46	U	46:U	_
+

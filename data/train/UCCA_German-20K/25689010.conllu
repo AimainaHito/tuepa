@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25689010
+# text = » Es ist eine Vergeltung gewesen , Kapitän « , erwiderte Ned Land , » und meine Schuldigkeit . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Es	es	PRON	PPER	_	6	F	6:F	_
+3	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Vergeltung	Vergeltung	NOUN	NN	_	6	A	6:A	_
+6	gewesen	sein	AUX	PAV	_	11	A	11:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Kapitän	Kapitän	NOUN	NN	_	6	G	6:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+12	Ned	Ned	PROPN	NN	_	11	A	11:A	_
+13	Land	Land	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	»	»	PUNCT	$(	_	11	U	11:U	_
+16	und	und	CCONJ	NE	_	6	L	6:L	_
+17	meine	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Schuldigkeit	Schuldigkeit	NOUN	NN	_	6	H	6:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+20	«	«	PUNCT	$(	_	18	U	18:U	_
+

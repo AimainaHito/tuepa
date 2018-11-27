@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25752006
+# text = Mein Blick fiel auf das Manometer .
+1	Mein	mein	PROPN	PPOSAT	_	2	E	2:E	_
+2	Blick	Blick	PROPN	NN	_	3	A	3:A	_
+3	fiel	fallen	VERB	VVFIN	_	0	H	0:H	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Manometer	Manometer	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

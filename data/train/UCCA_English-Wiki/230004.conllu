@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 230004
+# text = Over the years , Chan has dislocated his pelvis and broken his fingers , toes , nose , both cheekbones , hips , sternum , neck , ankle , and ribs on numerous occasions .
+1	Over	over	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Chan	Chan	PROPN	NNP	_	7	A	7:A|11:A	_
+6	has	have	AUX	VBZ	_	7	F	7:F	_
+7	dislocated	dislocate	VERB	VBN	_	0	H	0:H	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	pelvis	pelvis	NOUN	NN	_	7	A	7:A	_
+10	and	and	CCONJ	CC	_	7	L	7:L	_
+11	broken	break	VERB	VB	_	7	H	7:H	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	fingers	finger	NOUN	NNS	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	toes	toe	NOUN	NNS	_	13	C	13:C	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	nose	nose	PRON	DT	_	13	C	13:C	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	both	both	CCONJ	CC	_	20	E	20:E	_
+20	cheekbones	cheekbone	NOUN	NNS	_	13	C	13:C	_
+21	,	,	PUNCT	,	_	13	U	13:U	_
+22	hips	hip	NOUN	NNS	_	13	C	13:C	_
+23	,	,	PUNCT	,	_	13	U	13:U	_
+24	sternum	sternum	NOUN	NN	_	13	C	13:C	_
+25	,	,	PUNCT	,	_	13	U	13:U	_
+26	neck	neck	NOUN	NN	_	13	C	13:C	_
+27	,	,	PUNCT	,	_	13	U	13:U	_
+28	ankle	ankle	NOUN	NN	_	13	C	13:C	_
+29	,	,	PUNCT	,	_	13	U	13:U	_
+30	and	and	CCONJ	CC	_	13	N	13:N	_
+31	ribs	rib	NOUN	NNS	_	13	C	13:C	_
+32	on	on	ADP	IN	_	34	R	34:R	_
+33	numerous	numerous	ADJ	JJ	_	34	E	34:E	_
+34	occasions	occasion	NOUN	NNS	_	11	D	11:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

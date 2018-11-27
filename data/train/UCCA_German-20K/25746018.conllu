@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25746018
+# text = Wohin schleppte er uns ?
+1	Wohin	wohin	ADV	ADV	_	2	A	2:A	_
+2	schleppte	schleppen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	uns	wir	PRON	NN	_	2	A	2:A	_
+5	?	?	PUNCT	$.	_	2	U	2:U	_
+

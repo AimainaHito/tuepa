@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 458006
+# text = Despite these critical successes , in 1996 , World News Tonight started gradually slipping in the ratings race .
+1	Despite	despite	ADP	IN	_	4	L	4:L	_
+2	these	these	DET	DT	_	4	E	4:E	_
+3	critical	critical	ADJ	JJ	_	4	D	4:D	_
+4	successes	success	NOUN	NNS	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1996	1996	NUM	CD	_	14	D	14:D	_
+8	,	,	PUNCT	,	_	14	U	14:U	_
+9	World	World	PROPN	NNP	_	14	A	14:A	_
+10	News	news	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Tonight	tonight	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	started	start	VERB	VBD	_	14	D	14:D	_
+13	gradually	gradually	ADV	RB	_	14	D	14:D	_
+14	slipping	slipp	VERB	VBG	_	4	H	4:H	_
+15	in	in	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	ratings	rating	NOUN	NNS	_	18	E	18:E	_
+18	race	race	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

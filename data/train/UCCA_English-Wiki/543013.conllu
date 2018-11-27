@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 543013
+# text = In 1935 , the studio head personally selected Flynn for the title role of Captain Blood , even though Flynn was an unknown actor at the time .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1935	1935	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	studio	studio	NOUN	NN	_	6	E	6:E	_
+6	head	head	NOUN	NN	_	8	A	8:A	_
+7	personally	personally	ADV	RB	_	8	D	8:D	_
+8	selected	select	VERB	VBD	_	0	H	0:H	_
+9	Flynn	Flynn	PROPN	NNP	_	8	A	8:A	_
+10	for	for	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	title	title	NOUN	NN	_	13	E	13:E	_
+13	role	role	NOUN	NN	_	8	A	8:A	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Captain	captain	PROPN	NNP	_	13	E	13:E	_
+16	Blood	blood	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	8	U	8:U	_
+18	even	even	ADV	RB	_	8	L	8:L	_
+19	though	though	SCONJ	IN	_	18	Terminal	18:Terminal	_
+20	Flynn	Flynn	PROPN	NNP	_	21	A	21:A	_
+21	was	be	AUX	VBD	_	8	H	8:H	_
+22	an	a	DET	DT	_	24	E	24:E	_
+23	unknown	unknown	ADJ	JJ	_	24	E	24:E	_
+24	actor	actor	NOUN	NN	_	21	A	21:A	_
+25	at	at	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	time	time	NOUN	NN	_	21	D	21:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

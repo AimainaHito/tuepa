@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25468000
+# text = » Ganz gewiß wird man sich über meinen Herrn lustig machen « , erwiderte ruhig Conseil . » Und darf ich 's heraus sagen ... ? « » Sag 's nur heraus , Conseil .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Ganz	ganz	NOUN	ADV	_	3	E	3:E	_
+3	gewiß	gewiß	ADP	ADJD	_	6	D	6:D	_
+4	wird	werden	AUX	VAFIN	_	6	F	6:F	_
+5	man	man	PRON	PIS	_	6	A	6:A	_
+6	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+7	über	über	ADP	ADJD	_	9	R	9:R	_
+8	meinen	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Herrn	Herr	NOUN	NN	_	6	A	6:A	_
+10	lustig	lustig	ADJ	ADJD	_	6	Terminal	6:Terminal	_
+11	machen	machen	VERB	VVINF	_	6	Terminal	6:Terminal	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+15	ruhig	ruhig	ADJ	ADJD	_	14	D	14:D	_
+16	Conseil	Conseil	NOUN	NE	_	14	A	14:A	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+18	»	»	PUNCT	$(	_	14	U	14:U	_
+19	Und	und	CCONJ	ADJD	_	6	L	6:L	_
+20	darf	dürfen	AUX	VMFIN	_	23	D	23:D	_
+21	ich	ich	PRON	PPER	_	23	A	23:A	_
+22	's	es	PART	PPER	_	23	A	23:A	_
+23	heraus	heraus	ADV	ADV	_	6	H	6:H	_
+24	sagen	sagen	VERB	VVINF	_	23	Terminal	23:Terminal	_
+25	...	...	PUNCT	$(	_	14	U	14:U	_
+26	?	?	PUNCT	$.	_	14	U	14:U	_
+27	«	«	PUNCT	$(	_	14	U	14:U	_
+28	»	»	PUNCT	$(	_	14	U	14:U	_
+29	Sag	Sag	PROPN	NN	_	14	H	14:H	_
+30	's	es	PROPN	ART	_	29	A	29:A	_
+31	nur	nur	ADV	NE	_	29	F	29:F	_
+32	heraus	heraus	ADV	PTKVZ	_	29	Terminal	29:Terminal	_
+33	,	,	PUNCT	$,	_	29	U	29:U	_
+34	Conseil	Conseil	NOUN	NE	_	29	G	29:G	_
+35	.	.	PUNCT	$.	_	29	U	29:U	_
+

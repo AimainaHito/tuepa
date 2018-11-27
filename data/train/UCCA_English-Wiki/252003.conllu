@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 252003
+# text = Hawke next starred in the Off - Broadway production of a new play , Tommy Nohilly 's Blood from a Stone , from December 2010 to February 2011 .
+1	Hawke	Hawke	PROPN	NNP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	Off	off	ADP	IN	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	Broadway	Broadway	PROPN	NNP	_	9	E	9:E	_
+9	production	production	NOUN	NN	_	3	A	3:A	_
+10	of	of	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	new	new	ADJ	JJ	_	13	E	13:E	_
+13	play	play	NOUN	NN	_	18	E	18:E	_
+14	,	,	PUNCT	,	_	18	U	18:U	_
+15	Tommy	Tommy	PROPN	NNP	_	18	E	18:E	_
+16	Nohilly	Nohilly	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	's	's	PART	POS	_	15	R	15:R	_
+18	Blood	blood	PROPN	NNP	_	9	A	9:A	_
+19	from	from	ADP	IN	_	18	Terminal	18:Terminal	_
+20	a	a	DET	DT	_	18	Terminal	18:Terminal	_
+21	Stone	Stone	PROPN	NNP	_	18	Terminal	18:Terminal	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	from	from	ADP	IN	_	25	R	25:R	_
+24	December	December	PROPN	NNP	_	25	E	25:E	_
+25	2010	2010	NUM	CD	_	3	D	3:D	_
+26	to	to	ADP	IN	_	25	R	25:R	_
+27	February	February	PROPN	NNP	_	28	E	28:E	_
+28	2011	2011	NUM	CD	_	25	C	25:C	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

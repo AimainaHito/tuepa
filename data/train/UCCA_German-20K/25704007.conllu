@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25704007
+# text = » Meine Harpune ! Meine Harpune ! « schrie Ned Land .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Meine	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Harpune	Harpune	PROPN	NN	_	9	A	9:A	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	Meine	mein	PROPN	PPOSAT	_	6	E	6:E	_
+6	Harpune	Harpune	PROPN	NN	_	3	H	3:H	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	schrie	schri	ADJ	NN	_	0	H	0:H	_
+10	Ned	Ned	PROPN	FM	_	9	A	9:A	_
+11	Land	Land	NOUN	FM	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

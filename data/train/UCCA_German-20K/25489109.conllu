@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25489109
+# text = « » Nun , wir werden sehen « , sagte Conseil .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Nun	nun	NOUN	ADV	_	7	F	7:F	_
+4	,	,	PUNCT	$,	_	7	U	7:U	_
+5	wir	wir	PRON	NE	_	7	A	7:A	_
+6	werden	werden	AUX	ADV	_	7	D	7:D	_
+7	sehen	sehen	VERB	VVINF	_	10	A	10:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+11	Conseil	Conseil	PROPN	NE	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

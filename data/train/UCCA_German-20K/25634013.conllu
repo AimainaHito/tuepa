@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25634013
+# text = In den durchstochenen Ohrlappen trugen sie bleierne Gehänge .
+1	In	in	ADP	APPR	_	4	R	4:R	_
+2	den	der	DET	ART	_	4	E	4:E	_
+3	durchstochenen	durchstochen	ADJ	ADJA	_	4	E	4:E	_
+4	Ohrlappen	Ohrlappe	NOUN	NN	_	5	A	5:A	_
+5	trugen	tragen	VERB	VVFIN	_	0	H	0:H	_
+6	sie	sie	PRON	ADV	_	5	A	5:A	_
+7	bleierne	bleiern	ADJ	ADV	_	8	E	8:E	_
+8	Gehänge	Gehänge	NOUN	NN	_	5	A	5:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

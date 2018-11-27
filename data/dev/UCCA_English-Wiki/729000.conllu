@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 729000
+# text = Jolie co - starred alongside James McAvoy and Morgan Freeman in the 2008 action movie Wanted , an adaptation of Mark Millar 's graphic novel of the same name .
+1	Jolie	Jolie	PROPN	NNP	_	4	A	4:A	_
+2	co	co	X	AFX	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	starred	star	VERB	VBN	_	0	H	0:H	_
+5	alongside	alongside	ADP	IN	_	6	R	6:R	_
+6	James	James	PROPN	NNP	_	4	A	4:A	_
+7	McAvoy	McAvoy	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	and	and	CCONJ	CC	_	6	N	6:N	_
+9	Morgan	Morgan	PROPN	NNP	_	6	C	6:C	_
+10	Freeman	Freeman	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	2008	2008	NUM	CD	_	16	E	16:E	_
+14	action	action	NOUN	NN	_	15	E	15:E	_
+15	movie	movie	NOUN	NN	_	16	E	16:E	_
+16	Wanted	want	VERB	VBD	_	4	A	4:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	an	a	DET	DT	_	19	E	19:E	_
+19	adaptation	adaptation	NOUN	NN	_	16	E	16:E	_
+20	of	of	ADP	IN	_	25	R	25:R	_
+21	Mark	Mark	PROPN	NNP	_	25	E	25:E	_
+22	Millar	Millar	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	's	's	PART	POS	_	21	R	21:R	_
+24	graphic	graphic	ADJ	JJ	_	25	E	25:E	_
+25	novel	novel	NOUN	NN	_	19	E	19:E	_
+26	of	of	ADP	IN	_	29	R	29:R	_
+27	the	the	DET	DT	_	29	E	29:E	_
+28	same	same	ADJ	JJ	_	29	E	29:E	_
+29	name	name	NOUN	NN	_	25	E	25:E	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

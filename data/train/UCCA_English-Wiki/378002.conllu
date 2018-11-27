@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 378002
+# text = " Gyllenhaal had more success starring opposite Jennifer Aniston in The Good Girl , which premiered at the 2002 Sundance Film Festival ; he also starred in Lovely & Amazing with Catherine Keener .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Gyllenhaal	Gyllenhaal	X	FW	_	5	A	5:A|6:A	_
+3	had	have	VERB	VBD	_	5	F	5:F	_
+4	more	more	ADJ	JJR	_	5	D	5:D	_
+5	success	success	NOUN	NN	_	0	H	0:H	_
+6	starring	starr	VERB	VBG	_	5	A	5:A	_
+7	opposite	opposite	ADP	IN	_	8	R	8:R	_
+8	Jennifer	Jennifer	PROPN	NNP	_	6	A	6:A	_
+9	Aniston	Aniston	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	The	the	DET	DT	_	6	A	6:A	_
+12	Good	Good	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Girl	girl	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	11	U	11:U	_
+15	which	which	PRON	WDT	_	16	F	16:F	_
+16	premiered	premier	VERB	VBD	_	11	E	11:E	_
+17	at	at	ADP	IN	_	22	R	22:R	_
+18	the	the	DET	DT	_	22	E	22:E	_
+19	2002	2002	NUM	CD	_	22	E	22:E	_
+20	Sundance	Sundance	PROPN	NNP	_	22	E	22:E	_
+21	Film	film	PROPN	NNP	_	22	E	22:E	_
+22	Festival	Festival	PROPN	NNP	_	16	A	16:A	_
+23	;	;	PUNCT	,	_	5	U	5:U	_
+24	he	he	PRON	PRP	_	26	A	26:A	_
+25	also	also	ADV	RB	_	5	L	5:L	_
+26	starred	star	VERB	VBD	_	5	H	5:H	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	Lovely	lovely	PROPN	NNP	_	26	A	26:A	_
+29	&	&	CCONJ	CC	_	28	U	28:U	_
+30	Amazing	amazing	ADJ	JJ	_	28	Terminal	28:Terminal	_
+31	with	with	ADP	IN	_	32	R	32:R	_
+32	Catherine	Catherine	PROPN	NNP	_	26	A	26:A	_
+33	Keener	Keener	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	.	.	PUNCT	.	_	32	U	32:U	_
+

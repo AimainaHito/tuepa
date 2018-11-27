@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25625007
+# text = Diese kostbaren Erzeugnisse der heißen Zone reifen das ganze Jahr über , und die Malayen , die sie Pisang nennen , verspeisen sie ungekocht .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	kostbaren	kostbar	ADJ	ADJA	_	3	E	3:E	_
+3	Erzeugnisse	Erzeugnis	NOUN	NN	_	7	A	7:A	_
+4	der	der	DET	ART	_	6	R	6:R	_
+5	heißen	heißen	AUX	ADJA	_	6	E	6:E	_
+6	Zone	Zone	NOUN	NN	_	3	E	3:E	_
+7	reifen	reifen	VERB	VVFIN	_	0	H	0:H	_
+8	das	der	DET	ART	_	10	E	10:E	_
+9	ganze	ganz	ADJ	ADJA	_	10	E	10:E	_
+10	Jahr	Jahr	NOUN	NN	_	7	A	7:A	_
+11	über	über	ADP	NE	_	10	R	10:R	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	und	und	CCONJ	NE	_	7	L	7:L	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Malayen	Malayen	NOUN	NN	_	22	A	22:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	20	R	20:R	_
+18	sie	sie	PRON	ADV	_	20	A	20:A	_
+19	Pisang	Pisang	NOUN	NE	_	20	A	20:A	_
+20	nennen	nennen	VERB	VVFIN	_	15	E	15:E	_
+21	,	,	PUNCT	$,	_	22	U	22:U	_
+22	verspeisen	verspeisen	VERB	VVFIN	_	7	H	7:H	_
+23	sie	sie	PRON	ADV	_	24	A	24:A	_
+24	ungekocht	ungekocht	ADJ	ADJD	_	22	A	22:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

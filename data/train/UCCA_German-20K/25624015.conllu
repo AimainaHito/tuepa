@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25624015
+# text = » Zumal wenn man lange keins genossen hat « , sagte Conseil .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Zumal	zumal	ADV	NE	_	7	D	7:D	_
+3	wenn	wenn	SCONJ	VVFIN	_	7	L	7:L	_
+4	man	man	PRON	PIS	_	7	A	7:A	_
+5	lange	lang	ADJ	ADJA	_	7	D	7:D	_
+6	keins	keins	NOUN	NN	_	7	A	7:A	_
+7	genossen	genießen	VERB	VVPP	_	11	A	11:A	_
+8	hat	haben	AUX	VAFIN	_	7	F	7:F	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	Conseil	Conseil	PROPN	NE	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

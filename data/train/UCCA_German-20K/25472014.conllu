@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25472014
+# text = « » Nein , mein Herr , es ist offenbar ein Riesennarwal , und dazu ein elektrischer .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Nein	nein	PROPN	PTKANT	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	NOUN	NN	_	3	G	3:G	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	es	es	PRON	PPER	_	9	F	9:F	_
+9	ist	sein	AUX	VVFIN	_	3	H	3:H	_
+10	offenbar	offenbar	ADJ	CARD	_	9	D	9:D	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Riesennarwal	Riesennarwal	NOUN	NN	_	0	C	0:C|17:A	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	und	und	CCONJ	NE	_	3	L	3:L	_
+15	dazu	dazu	ADV	PAV	_	3	L	3:L	_
+16	ein	ein	DET	ART	_	17	E	17:E	_
+17	elektrischer	elektrisch	ADJ	ADJA	_	3	H	3:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

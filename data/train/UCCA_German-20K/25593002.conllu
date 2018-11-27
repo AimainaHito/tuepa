@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25593002
+# text = Der Farben zauber schwand allmählich , und die Nuancen von Smaragd und Saphir erloschen an unserem Firmament .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	Farben	Farbe	NOUN	NN	_	3	E	3:E	_
+3	zauber	zauber	ADV	NE	_	4	A	4:A	_
+4	schwand	schwinden	VERB	VVFIN	_	0	H	0:H	_
+5	allmählich	allmählich	ADJ	ADJD	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	und	und	CCONJ	NE	_	4	L	4:L	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Nuancen	Nuance	NOUN	NN	_	11	E	11:E	_
+10	von	von	ADP	NN	_	9	R	9:R	_
+11	Smaragd	Smaragd	PROPN	NE	_	14	A	14:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	Saphir	Saphir	PROPN	NE	_	11	C	11:C	_
+14	erloschen	erlöschen	VERB	VVFIN	_	4	H	4:H	_
+15	an	an	ADP	APPR	_	17	R	17:R	_
+16	unserem	unser	DET	PPOSAT	_	17	E	17:E	_
+17	Firmament	Firmament	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

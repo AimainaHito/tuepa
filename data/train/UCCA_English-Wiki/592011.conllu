@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 592011
+# text = " " You ca n't plan the kind of deep love that results in children . Fatherhood was not a conscious decision . It was part of the wonderful ride I was on . It was destiny ; kismet . All the math finally worked .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	"	"	PUNCT	``	_	6	U	6:U	_
+3	You	you	PRON	PRP	_	6	A	6:A	_
+4	ca	can	AUX	MD	_	6	F	6:F	_
+5	n't	not	PART	RB	_	6	D	6:D	_
+6	plan	plan	VERB	VB	_	0	H	0:H	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	kind	kind	NOUN	NN	_	11	E	11:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	deep	deep	ADJ	JJ	_	11	E	11:E	_
+11	love	love	NOUN	NN	_	6	A	6:A	_
+12	that	that	SCONJ	IN	_	13	F	13:F	_
+13	results	result	NOUN	NNS	_	11	E	11:E	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	children	child	NOUN	NNS	_	13	A	13:A	_
+16	.	.	PUNCT	.	_	6	U	6:U	_
+17	Fatherhood	Fatherhood	NOUN	NN	_	18	A	18:A	_
+18	was	be	AUX	VBD	_	6	H	6:H	_
+19	not	not	PART	RB	_	18	D	18:D	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	conscious	conscious	ADJ	JJ	_	22	E	22:E	_
+22	decision	decision	NOUN	NN	_	18	A	18:A	_
+23	.	.	PUNCT	.	_	6	U	6:U	_
+24	It	it	PRON	PRP	_	26	A	26:A	_
+25	was	be	AUX	VBD	_	26	F	26:F	_
+26	part	part	NOUN	NN	_	6	H	6:H	_
+27	of	of	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	wonderful	wonderful	ADJ	JJ	_	30	E	30:E	_
+30	ride	ride	NOUN	NN	_	26	A	26:A	_
+31	I	I	PRON	PRP	_	33	A	33:A	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	on	on	ADJ	JJ	_	30	E	30:E	_
+34	.	.	PUNCT	.	_	6	U	6:U	_
+35	It	it	PRON	PRP	_	36	A	36:A	_
+36	was	be	AUX	VBD	_	6	H	6:H	_
+37	destiny	destiny	ADJ	JJ	_	36	A	36:A	_
+38	;	;	PUNCT	,	_	37	U	37:U	_
+39	kismet	kismet	NOUN	NN	_	37	E	37:E	_
+40	.	.	PUNCT	.	_	6	U	6:U	_
+41	All	all	DET	PDT	_	43	E	43:E	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	math	math	NOUN	NN	_	45	A	45:A	_
+44	finally	finally	ADV	RB	_	45	D	45:D	_
+45	worked	work	VERB	VBD	_	6	H	6:H	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 227015
+# text = The film stars Sammo Hung and Wang Wenjie as father and son .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	stars	star	NOUN	NNS	_	0	H	0:H	_
+4	Sammo	Sammo	PROPN	NNP	_	3	A	3:A	_
+5	Hung	hang	VERB	VBD	_	4	Terminal	4:Terminal	_
+6	and	and	CCONJ	CC	_	4	N	4:N	_
+7	Wang	wang	PROPN	NNP	_	4	C	4:C	_
+8	Wenjie	Wenjie	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	as	as	ADP	IN	_	10	R	10:R	_
+10	father	father	NOUN	NN	_	4	E	4:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	son	son	NOUN	NN	_	10	C	10:C	_
+13	.	.	PUNCT	.	_	10	U	10:U	_
+

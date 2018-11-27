@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 220001
+# text = She will make a cameo appearance in the upcoming short feature Fight for Your Right Revisited .
+1	She	she	PRON	PRP	_	6	A	6:A	_
+2	will	will	AUX	MD	_	6	F	6:F	_
+3	make	make	VERB	VB	_	6	F	6:F	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	cameo	cameo	NOUN	NN	_	6	E	6:E	_
+6	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	upcoming	upcoming	ADJ	JJ	_	12	E	12:E	_
+10	short	short	ADJ	JJ	_	11	E	11:E	_
+11	feature	feature	NOUN	NN	_	12	E	12:E	_
+12	Fight	fight	NOUN	NN	_	6	A	6:A	_
+13	for	for	ADP	IN	_	12	Terminal	12:Terminal	_
+14	Your	you	PRON	PRP$	_	12	Terminal	12:Terminal	_
+15	Right	right	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	Revisited	revisited	PROPN	NNP	_	12	Terminal	12:Terminal	_
+17	.	.	PUNCT	.	_	12	U	12:U	_
+

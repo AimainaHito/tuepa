@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 496002
+# text = Love You till Tuesday , was a 30 - minute film featuring performances from his repertoire and was intended as a vehicle to promote the singer .
+1	Love	love	VERB	VBP	_	6	A	6:A	_
+2	You	you	PRON	PRP	_	1	Terminal	1:Terminal	_
+3	till	till	ADP	IN	_	1	Terminal	1:Terminal	_
+4	Tuesday	Tuesday	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	,	,	PUNCT	,	_	6	U	6:U	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	a	a	DET	DT	_	11	E	11:E	_
+8	30	30	NUM	CD	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	minute	minute	NOUN	NN	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	0	C	0:C|19:A	_
+12	featuring	featur	VERB	VBG	_	6	A	6:A	_
+13	performances	performance	NOUN	NNS	_	12	A	12:A	_
+14	from	from	ADP	IN	_	16	R	16:R	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	repertoire	repertoire	NOUN	NN	_	13	E	13:E	_
+17	and	and	CCONJ	CC	_	6	L	6:L	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	intended	intend	VERB	VBN	_	6	H	6:H	_
+20	as	as	ADP	IN	_	22	R	22:R	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	vehicle	vehicle	NOUN	NN	_	19	A	19:A	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	promote	promote	VERB	VB	_	22	E	22:E	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	singer	singer	NOUN	NN	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

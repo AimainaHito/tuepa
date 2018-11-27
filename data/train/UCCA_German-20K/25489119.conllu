@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25489119
+# text = Ned und Conseil überlegten nicht so viel .
+1	Ned	Ned	PROPN	NE	_	4	A	4:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Conseil	Conseil	PROPN	NE	_	1	C	1:C	_
+4	überlegten	überlegen	AUX	VVFIN	_	0	H	0:H	_
+5	nicht	nicht	PART	CARD	_	4	D	4:D	_
+6	so	so	ADV	ADV	_	7	E	7:E	_
+7	viel	viel	PRON	ADJD	_	4	D	4:D	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

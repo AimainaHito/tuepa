@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25643007
+# text = » Ach ! « dachte ich , » er wagt sich ins Mittelmeer ? «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Ach	ach	PROPN	ITJ	_	10	F	10:F	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	er	er	PRON	PPER	_	10	A	10:A	_
+10	wagt	wagen	VERB	VVFIN	_	5	A	5:A	_
+11	sich	er|es|sie	PRON	PRF	_	10	Terminal	10:Terminal	_
+12	ins	in	DET	NE	_	13	R	13:R	_
+13	Mittelmeer	Mittelmeer	PROPN	NE	_	10	A	10:A	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+15	«	«	PUNCT	$(	_	13	U	13:U	_
+

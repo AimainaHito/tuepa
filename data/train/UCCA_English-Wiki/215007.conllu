@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 215007
+# text = That year , and again in 2002 , she was named one of People magazine 's 50 Most Beautiful People .
+1	That	that	DET	DT	_	2	E	2:E	_
+2	year	year	NOUN	NN	_	11	D	11:D	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	and	and	CCONJ	CC	_	2	N	2:N	_
+5	again	again	ADV	RB	_	7	D	7:D	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	2002	2002	NUM	CD	_	2	C	2:C	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	she	she	PRON	PRP	_	11	A	11:A	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	named	name	VERB	VBN	_	0	H	0:H	_
+12	one	one	NUM	CD	_	20	E	20:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	People	people	NOUN	NN	_	15	E	15:E	_
+15	magazine	magazine	NOUN	NN	_	20	E	20:E	_
+16	's	's	AUX	VBZ	_	15	R	15:R	_
+17	50	50	NUM	CD	_	20	E	20:E	_
+18	Most	most	ADJ	JJR	_	20	E	20:E	_
+19	Beautiful	beautiful	ADJ	JJ	_	20	E	20:E	_
+20	People	people	NOUN	NNS	_	11	A	11:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

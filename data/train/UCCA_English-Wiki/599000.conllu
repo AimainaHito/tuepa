@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 599000
+# text = Sir James Paul McCartney , MBE ( born 18 June 1942 ) is an English musician , singer , songwriter , multi - instrumentalist and composer .
+1	Sir	Sir	PROPN	NNP	_	2	E	2:E	_
+2	James	James	PROPN	NNP	_	13	A	13:A	_
+3	Paul	Paul	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	McCartney	McCartney	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	MBE	MBE	PROPN	NNP	_	2	E	2:E	_
+7	(	(	PUNCT	-LRB-	_	2	U	2:U	_
+8	born	bear	VERB	VBN	_	2	E	2:E	_
+9	18	18	NUM	CD	_	8	D	8:D	_
+10	June	June	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	1942	1942	NUM	CD	_	9	Terminal	9:Terminal	_
+12	)	)	PUNCT	-RRB-	_	13	U	13:U	_
+13	is	be	AUX	VBZ	_	0	H	0:H	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	English	english	ADJ	JJ	_	16	E	16:E	_
+16	musician	musician	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	singer	singer	NOUN	NN	_	16	C	16:C	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	songwriter	songwriter	NOUN	NN	_	16	C	16:C	_
+21	,	,	PUNCT	,	_	16	U	16:U	_
+22	multi	multi	X	AFX	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	instrumentalist	instrumentalist	NOUN	NN	_	16	C	16:C	_
+25	and	and	CCONJ	CC	_	16	N	16:N	_
+26	composer	composer	NOUN	NN	_	16	C	16:C	_
+27	.	.	PUNCT	.	_	16	U	16:U	_
+

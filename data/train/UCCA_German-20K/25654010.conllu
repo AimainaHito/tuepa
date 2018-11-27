@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25654010
+# text = Auf einen Wink von Kapitän Nemo trat einer der Männer vor und begann einige Schritte vor dem Kreuz mit einer Hacke , die er von seinem Gürtel nahm , ein Loch zu graben .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	einen	ein	DET	ART	_	3	E	3:E	_
+3	Wink	Winken	NOUN	NN	_	7	A	7:A	_
+4	von	von	ADP	NN	_	6	R	6:R	_
+5	Kapitän	Kapitän	PROPN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+7	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+8	einer	ein	PRON	PIS	_	10	E	10:E	_
+9	der	der	DET	ART	_	10	R	10:R	_
+10	Männer	Mann	NOUN	NN	_	0	C	0:C|33:A	_
+11	vor	vor	ADP	NE	_	7	Terminal	7:Terminal	_
+12	und	und	CCONJ	NE	_	7	L	7:L	_
+13	begann	beginnen	VERB	VVFIN	_	33	D	33:D	_
+14	einige	einige	PRON	PIAT	_	15	E	15:E	_
+15	Schritte	Schritt	NOUN	NN	_	18	E	18:E	_
+16	vor	vor	ADP	NN	_	15	R	15:R	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Kreuz	Kreuz	NOUN	NN	_	33	A	33:A	_
+19	mit	mit	ADP	APPR	_	21	R	21:R	_
+20	einer	ein	DET	ART	_	21	E	21:E	_
+21	Hacke	Hacke	NOUN	NN	_	33	A	33:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	die	der	PRON	PRELS	_	28	R	28:R	_
+24	er	er	PRON	PPER	_	28	A	28:A	_
+25	von	von	ADP	NN	_	27	R	27:R	_
+26	seinem	sein	DET	PPOSAT	_	27	E	27:E	_
+27	Gürtel	Gürtel	NOUN	NN	_	28	A	28:A	_
+28	nahm	nehmen	VERB	VVFIN	_	21	E	21:E	_
+29	,	,	PUNCT	$,	_	33	U	33:U	_
+30	ein	ein	DET	ART	_	31	E	31:E	_
+31	Loch	Loch	NOUN	NN	_	33	A	33:A	_
+32	zu	zu	PART	VVINF	_	33	F	33:F	_
+33	graben	graben	VERB	VVINF	_	7	H	7:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

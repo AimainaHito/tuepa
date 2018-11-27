@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25599005
+# text = Sie tosten vorüber , ohne uns zu bemerken , streiften uns nur mit ihren bräunlichen Flossen , und wir entkamen wie durch ein Wunder einer Gefahr , die gewiß größer war , als wenn man einem Tiger im Walde begegnet .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A|8:A	_
+2	tosten	tosen	VERB	NN	_	0	H	0:H	_
+3	vorüber	vorüber	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	ohne	ohne	ADP	NE	_	2	L	2:L	_
+6	uns	wir	PRON	NE	_	8	A	8:A	_
+7	zu	zu	PART	NE	_	8	F	8:F	_
+8	bemerken	bemerken	VERB	VVINF	_	2	H	2:H	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	streiften	streifen	VERB	VVFIN	_	2	H	2:H	_
+11	uns	wir	PRON	NN	_	10	A	10:A	_
+12	nur	nur	ADV	NN	_	10	D	10:D	_
+13	mit	mit	ADP	APPR	_	16	R	16:R	_
+14	ihren	ihr	DET	PPOSAT	_	16	E	16:E	_
+15	bräunlichen	bräunlich	ADJ	ADJA	_	16	E	16:E	_
+16	Flossen	Flosse	NOUN	NN	_	10	A	10:A	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	und	und	CCONJ	NE	_	2	L	2:L	_
+19	wir	wir	PRON	NE	_	20	A	20:A	_
+20	entkamen	entkam	ADJ	ADJA	_	2	H	2:H|10:A	_
+21	wie	wie	ADV	KON	_	24	E	24:E	_
+22	durch	durch	ADP	APPR	_	24	R	24:R	_
+23	ein	ein	DET	ART	_	24	E	24:E	_
+24	Wunder	Wunder	NOUN	NN	_	20	D	20:D	_
+25	einer	ein	DET	ART	_	26	E	26:E	_
+26	Gefahr	Gefahr	NOUN	NN	_	20	A	20:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	die	der	PRON	PRELS	_	30	R	30:R	_
+29	gewiß	gewiß	ADJ	ADJD	_	30	G	30:G	_
+30	größer	groß	ADJ	ADJD	_	26	E	26:E	_
+31	war	sein	AUX	ADV	_	30	F	30:F	_
+32	,	,	PUNCT	$,	_	2	U	2:U	_
+33	als	als	CCONJ	KOKOM	_	2	L	2:L	_
+34	wenn	wenn	SCONJ	VVFIN	_	33	Terminal	33:Terminal	_
+35	man	man	PRON	PIS	_	40	A	40:A	_
+36	einem	ein	DET	ART	_	37	E	37:E	_
+37	Tiger	Tiger	NOUN	NE	_	40	A	40:A	_
+38	im	im	PROPN	NE	_	39	R	39:R	_
+39	Walde	Wald	PROPN	NE	_	40	A	40:A	_
+40	begegnet	begegnen	VERB	VVPP	_	2	H	2:H	_
+41	.	.	PUNCT	$.	_	40	U	40:U	_
+

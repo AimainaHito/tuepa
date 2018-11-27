@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25732005
+# text = Diese Stein schichtungen , wovon ich eben sprach , waren auf dem Grund des Ozeans mit einer gewissen Regelmäßigkeit gereiht , die ich nicht zu erklären wusste .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	Stein	Stein	NOUN	NN	_	3	E	3:E	_
+3	schichtungen	schichtungen	VERB	NN	_	20	A	20:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wovon	wovon	PRON	NE	_	8	R	8:R	_
+6	ich	ich	PRON	PPER	_	8	A	8:A	_
+7	eben	eben	ADV	ADV	_	8	D	8:D	_
+8	sprach	sprechen	VERB	VVFIN	_	3	E	3:E	_
+9	,	,	PUNCT	$,	_	20	U	20:U	_
+10	waren	sein	AUX	VAFIN	_	20	F	20:F	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Grund	Grund	NOUN	NN	_	20	A	20:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Ozeans	Ozeans	NOUN	NN	_	13	E	13:E	_
+16	mit	mit	ADP	APPR	_	19	R	19:R	_
+17	einer	ein	DET	ART	_	19	E	19:E	_
+18	gewissen	gewiß	ADJ	ADJA	_	19	E	19:E	_
+19	Regelmäßigkeit	Regelmäßigkeit	NOUN	NN	_	20	A	20:A	_
+20	gereiht	reihen	VERB	VVPP	_	0	H	0:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	26	R	26:R	_
+23	ich	ich	PRON	PPER	_	26	A	26:A	_
+24	nicht	nicht	PART	CARD	_	26	D	26:D	_
+25	zu	zu	PART	NN	_	26	F	26:F	_
+26	erklären	erklären	VERB	VVINF	_	19	E	19:E	_
+27	wusste	wissen	VERB	VVFIN	_	26	D	26:D	_
+28	.	.	PUNCT	$.	_	26	U	26:U	_
+

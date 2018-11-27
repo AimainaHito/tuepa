@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 206000
+# text = Hoffman began his acting career at the Pasadena Playhouse , alongside future Academy Award - winner Gene Hackman .
+1	Hoffman	Hoffman	PROPN	NNP	_	5	A	5:A	_
+2	began	begin	VERB	VBD	_	5	D	5:D	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	acting	act	VERB	VBG	_	5	D	5:D	_
+5	career	career	NOUN	NN	_	0	H	0:H	_
+6	at	at	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	Pasadena	Pasadena	PROPN	NNP	_	9	E	9:E	_
+9	Playhouse	Playhouse	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	alongside	alongside	ADV	RB	_	17	R	17:R	_
+12	future	future	ADJ	JJ	_	16	D	16:D	_
+13	Academy	Academy	PROPN	NNP	_	14	E	14:E	_
+14	Award	Award	PROPN	NNP	_	16	A	16:A	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	winner	winner	NOUN	NN	_	17	E	17:E	_
+17	Gene	gene	PROPN	NNP	_	5	A	5:A	_
+18	Hackman	Hackman	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

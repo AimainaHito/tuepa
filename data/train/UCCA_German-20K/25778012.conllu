@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25778012
+# text = » Das Wetter heitert sich ein wenig auf « , sagte er zu mir . » Ich habe gute Hoffnung . Nach dem Frühstück wollen wir an Land gehen und eine gute Stelle für die Beobachtungen wählen . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Das	der	DET	ART	_	3	E	3:E	_
+3	Wetter	Wetter	NOUN	NN	_	4	A	4:A	_
+4	heitert	heitern	VERB	VVFIN	_	11	A	11:A	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	ein	ein	DET	ART	_	7	E	7:E	_
+7	wenig	wenig	PRON	NN	_	4	D	4:D	_
+8	auf	auf	ADP	APPR	_	4	Terminal	4:Terminal	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	er	er	PRON	PPER	_	11	A	11:A	_
+13	zu	zu	ADP	VVINF	_	14	R	14:R	_
+14	mir	ich	PRON	PPER	_	11	A	11:A	_
+15	.	.	PUNCT	$.	_	11	U	11:U	_
+16	»	»	PUNCT	$(	_	11	U	11:U	_
+17	Ich	ich	PRON	PPER	_	20	A	20:A	_
+18	habe	haben	VERB	VAFIN	_	20	F	20:F	_
+19	gute	gut	ADJ	ADJA	_	20	D	20:D	_
+20	Hoffnung	Hoffnung	NOUN	NN	_	4	H	4:H	_
+21	.	.	PUNCT	$.	_	4	U	4:U	_
+22	Nach	nach	ADP	APPR	_	24	R	24:R	_
+23	dem	der	DET	ART	_	24	E	24:E	_
+24	Frühstück	Frühstück	NOUN	NN	_	29	A	29:A	_
+25	wollen	wollen	AUX	VMFIN	_	29	D	29:D	_
+26	wir	wir	PRON	NN	_	29	A	29:A|37:A	_
+27	an	an	ADP	APPR	_	28	R	28:R	_
+28	Land	Land	NOUN	NN	_	29	A	29:A	_
+29	gehen	gehen	VERB	VVINF	_	4	H	4:H	_
+30	und	und	CCONJ	NE	_	4	L	4:L	_
+31	eine	ein	DET	ART	_	33	E	33:E	_
+32	gute	gut	ADJ	ADJA	_	33	E	33:E	_
+33	Stelle	Stelle	NOUN	NN	_	37	A	37:A	_
+34	für	für	ADP	APPR	_	36	R	36:R	_
+35	die	der	DET	ART	_	36	E	36:E	_
+36	Beobachtungen	Beobachtung	NOUN	NN	_	33	E	33:E	_
+37	wählen	wählen	VERB	VVINF	_	4	H	4:H	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+39	«	«	PUNCT	$(	_	37	U	37:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25709004
+# text = Ihm und seinem Apparat verdankte ich es , dass ich täglich meine unterseeischen Studien vervollständigte , und ich arbeitete mein Werk über die Meeres tiefen mitten in dem Element selbst um .
+1	Ihm	er|es	PRON	PPER	_	5	A	5:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	seinem	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Apparat	Apparat	NOUN	NN	_	1	C	1:C	_
+5	verdankte	verdanken	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	es	es	PRON	PPER	_	5	F	5:F	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	dass	dass	SCONJ	KOUS	_	15	R	15:R	_
+10	ich	ich	PRON	PPER	_	15	A	15:A	_
+11	täglich	täglich	ADV	ADJD	_	15	D	15:D	_
+12	meine	mein	DET	VVFIN	_	14	E	14:E	_
+13	unterseeischen	unterseeisch	ADJ	ADJA	_	14	E	14:E	_
+14	Studien	Studie|Studium	NOUN	NN	_	15	A	15:A	_
+15	vervollständigte	vervollständigen	VERB	VVFIN	_	5	A	5:A	_
+16	,	,	PUNCT	$,	_	5	U	5:U	_
+17	und	und	CCONJ	NE	_	5	L	5:L	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	arbeitete	arbeiten	VERB	VVFIN	_	5	H	5:H	_
+20	mein	mein	PRON	PPOSAT	_	21	E	21:E	_
+21	Werk	Werk	NOUN	NN	_	19	A	19:A	_
+22	über	über	ADP	VVFIN	_	25	R	25:R	_
+23	die	der	DET	ART	_	25	E	25:E	_
+24	Meeres	Meer	NOUN	NN	_	25	E	25:E	_
+25	tiefen	tief	ADJ	VVFIN	_	21	E	21:E	_
+26	mitten	mitten	ADV	ADV	_	29	R	29:R	_
+27	in	in	ADP	APPR	_	29	R	29:R	_
+28	dem	der	DET	ART	_	29	E	29:E	_
+29	Element	Element	NOUN	NN	_	19	A	19:A	_
+30	selbst	selbst	ADV	VVFIN	_	19	D	19:D	_
+31	um	um	ADP	PTKVZ	_	19	Terminal	19:Terminal	_
+32	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25791002
+# text = Die von unserem Graben entfernten Wasser schichten , die nicht durch die Arbeit und die Werkzeuge in Bewegung gesetzt wurden , zeigten ein Bestreben fest zu frieren .
+1	Die	der	DET	ART	_	7	E	7:E	_
+2	von	von	ADP	NN	_	4	R	4:R	_
+3	unserem	unser	DET	PPOSAT	_	4	E	4:E	_
+4	Graben	Graben	NOUN	NN	_	5	A	5:A	_
+5	entfernten	entfernt	ADJ	ADJA	_	7	E	7:E	_
+6	Wasser	Wasser	NOUN	NN	_	7	E	7:E	_
+7	schichten	schichen	VERB	VVINF	_	25	A	25:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	17	R	17:R	_
+10	nicht	nicht	PART	XY	_	17	D	17:D	_
+11	durch	durch	ADP	APPR	_	13	R	13:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Arbeit	Arbeit	NOUN	NN	_	17	A	17:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Werkzeuge	Werkzeug	NOUN	NN	_	13	C	13:C	_
+17	in	in	ADP	APPR	_	7	E	7:E	_
+18	Bewegung	Bewegung	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	gesetzt	setzen	VERB	VVPP	_	17	Terminal	17:Terminal	_
+20	wurden	werden	AUX	ADJD	_	17	F	17:F	_
+21	,	,	PUNCT	$,	_	25	U	25:U	_
+22	zeigten	zeigen	VERB	VVFIN	_	24	F	24:F	_
+23	ein	ein	DET	ART	_	24	E	24:E	_
+24	Bestreben	Bestreben	NOUN	NN	_	25	D	25:D	_
+25	fest	fest	ADV	PTKVZ	_	0	H	0:H	_
+26	zu	zu	PART	VVINF	_	25	F	25:F	_
+27	frieren	frieren	VERB	VVINF	_	25	Terminal	25:Terminal	_
+28	.	.	PUNCT	$.	_	25	U	25:U	_
+

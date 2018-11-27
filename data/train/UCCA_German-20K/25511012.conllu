@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25511012
+# text = » Allerdings . Ein treffliches Fahrzeug , leicht und ohne unterzusinken , das uns zur Spazier fahrt und zum Fischen dient .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Allerdings	allerdings	ADV	ADV	_	0	H	0:H	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Ein	ein	DET	ART	_	6	E	6:E	_
+5	treffliches	trefflich	ADJ	ADJA	_	2	H	2:H	_
+6	Fahrzeug	Fahrzeug	NOUN	NN	_	0	C	0:C|8:A|21:A	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	leicht	leicht	ADJ	ADJD	_	2	H	2:H	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	ohne	ohne	ADP	CARD	_	11	E	11:E	_
+11	unterzusinken	unterzusinken	VERB	VVFIN	_	8	C	8:C	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	das	der	PRON	ART	_	21	R	21:R	_
+14	uns	wir	PRON	ADJA	_	21	A	21:A	_
+15	zur	zur	ADV	NE	_	17	R	17:R	_
+16	Spazier	Spazier	NOUN	NE	_	17	E	17:E	_
+17	fahrt	fahren	VERB	NN	_	21	A	21:A	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	zum	zum	ADV	NN	_	20	R	20:R	_
+20	Fischen	Fisch|Fischen	NOUN	NN	_	17	C	17:C	_
+21	dient	dienen	VERB	VVFIN	_	6	E	6:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

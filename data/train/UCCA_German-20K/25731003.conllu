@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25731003
+# text = » Sie würden uns unnütz sein « , erwiderte er .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+3	würden	werden	AUX	ADJD	_	5	D	5:D	_
+4	uns	wir	PRON	NN	_	5	A	5:A	_
+5	unnütz	unnütz	ADJ	NN	_	9	A	9:A	_
+6	sein	sein	AUX	VAINF	_	5	F	5:F	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	er	er	PRON	PPER	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

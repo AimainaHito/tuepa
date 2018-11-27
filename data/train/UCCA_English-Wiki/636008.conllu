@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 636008
+# text = Lennon approached Allen Klein , who had managed The Rolling Stones and other bands during the British Invasion .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	approached	approach	VERB	VBD	_	0	H	0:H	_
+3	Allen	Allen	PROPN	NNP	_	2	A	2:A	_
+4	Klein	Klein	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	who	who	PRON	WP	_	8	F	8:F	_
+7	had	have	AUX	VBD	_	8	F	8:F	_
+8	managed	manage	VERB	VBN	_	3	E	3:E	_
+9	The	the	DET	DT	_	10	E	10:E	_
+10	Rolling	Rolling	PROPN	NNP	_	8	A	8:A	_
+11	Stones	Stones	PROPN	NNPS	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	other	other	ADJ	JJ	_	14	E	14:E	_
+14	bands	band	NOUN	NNS	_	10	C	10:C	_
+15	during	during	ADP	IN	_	2	L	2:L	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	British	british	PROPN	NNP	_	18	A	18:A	_
+18	Invasion	invasion	PROPN	NNP	_	2	H	2:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

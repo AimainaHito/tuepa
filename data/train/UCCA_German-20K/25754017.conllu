@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25754017
+# text = Wenn er mit dem Kapitän zusammentraf , funkelten seine Augen von einem düsteren Feuer , und ich fürchtete stets , das Ungestüm seines Charakters werde ihn zu einem Äußersten treiben .
+1	Wenn	wenn	SCONJ	KOUS	_	6	L	6:L	_
+2	er	er	PRON	PPER	_	6	A	6:A	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Kapitän	Kapitän	NOUN	NN	_	6	A	6:A	_
+6	zusammentraf	zusammentreffen	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	funkelten	funkelten	VERB	VVFIN	_	6	H	6:H	_
+9	seine	sein	DET	PPOSAT	_	10	E	10:E	_
+10	Augen	Auge	NOUN	NN	_	8	A	8:A	_
+11	von	von	ADP	NN	_	14	R	14:R	_
+12	einem	ein	DET	ART	_	14	E	14:E	_
+13	düsteren	düster	ADJ	ADJA	_	14	E	14:E	_
+14	Feuer	Feuer	NOUN	NN	_	8	A	8:A	_
+15	,	,	PUNCT	$,	_	6	U	6:U	_
+16	und	und	CCONJ	NE	_	6	L	6:L	_
+17	ich	ich	PRON	PPER	_	18	A	18:A	_
+18	fürchtete	fürchtet	VERB	VVFIN	_	6	H	6:H	_
+19	stets	stets	ADV	ADV	_	18	D	18:D	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	das	der	DET	ART	_	22	E	22:E	_
+22	Ungestüm	Ungestüm	NOUN	NN	_	30	A	30:A	_
+23	seines	sein	DET	PPOSAT	_	24	R	24:R	_
+24	Charakters	Charakter	NOUN	NN	_	22	A	22:A	_
+25	werde	werden	AUX	NE	_	30	F	30:F	_
+26	ihn	er	PRON	PPER	_	30	A	30:A	_
+27	zu	zu	ADP	VVINF	_	29	R	29:R	_
+28	einem	ein	DET	ART	_	29	E	29:E	_
+29	Äußersten	äußerst	NOUN	NN	_	30	A	30:A	_
+30	treiben	treiben	VERB	VVINF	_	18	A	18:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

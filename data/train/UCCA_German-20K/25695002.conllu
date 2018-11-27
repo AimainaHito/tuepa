@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25695002
+# text = Dieses letztere Verfahren , das Taucher erforderlich macht , ist vor zu ziehen , weil sie weit höher an Wert sind , wenn das Gewebe , so wie es gewachsen ist , geschont wird .
+1	Dieses	dies	PRON	PDAT	_	3	E	3:E	_
+2	letztere	letzt	ADJ	ADJA	_	3	E	3:E	_
+3	Verfahren	Verfahren	NOUN	NN	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	das	der	DET	PRELS	_	7	R	7:R	_
+6	Taucher	Taucher	NOUN	NN	_	7	A	7:A	_
+7	erforderlich	erforderlich	ADJ	ADJD	_	3	E	3:E	_
+8	macht	machen	VERB	VVFIN	_	7	D	7:D	_
+9	,	,	PUNCT	$,	_	11	U	11:U	_
+10	ist	sein	VERB	NN	_	11	D	11:D	_
+11	vor	vor	ADP	NE	_	0	H	0:H	_
+12	zu	zu	PART	NE	_	11	F	11:F	_
+13	ziehen	ziehen	VERB	VVINF	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	weil	weil	SCONJ	KOUS	_	11	L	11:L	_
+16	sie	sie	PRON	ADV	_	18	A	18:A	_
+17	weit	weit	ADJ	ADJD	_	18	D	18:D	_
+18	höher	hoch	ADJ	ADJD	_	11	H	11:H	_
+19	an	an	ADP	APPR	_	20	R	20:R	_
+20	Wert	Wert	NOUN	NN	_	18	A	18:A	_
+21	sind	sein	AUX	NN	_	18	F	18:F	_
+22	,	,	PUNCT	$,	_	11	U	11:U	_
+23	wenn	wenn	SCONJ	VVFIN	_	11	L	11:L	_
+24	das	der	DET	ART	_	25	E	25:E	_
+25	Gewebe	Gewebe	NOUN	NN	_	33	A	33:A	_
+26	,	,	PUNCT	$,	_	11	U	11:U	_
+27	so	so	ADV	ADV	_	30	D	30:D	_
+28	wie	wie	SCONJ	KON	_	11	L	11:L	_
+29	es	es	PRON	PPER	_	30	A	30:A	_
+30	gewachsen	wachsen	ADJ	ADJD	_	11	H	11:H	_
+31	ist	sein	AUX	NN	_	30	F	30:F	_
+32	,	,	PUNCT	$,	_	11	U	11:U	_
+33	geschont	schonen	VERB	VVPP	_	11	H	11:H	_
+34	wird	werden	AUX	VAFIN	_	33	F	33:F	_
+35	.	.	PUNCT	$.	_	33	U	33:U	_
+

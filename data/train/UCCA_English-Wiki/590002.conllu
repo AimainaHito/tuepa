@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 590002
+# text = Depp later said that " within 10 minutes of hearing about the project , I was committed .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	10	F	10:F	_
+5	"	"	PUNCT	``	_	10	U	10:U	_
+6	within	within	ADP	IN	_	8	R	8:R	_
+7	10	10	NUM	CD	_	8	E	8:E	_
+8	minutes	minute	NOUN	NNS	_	10	L	10:L	_
+9	of	of	SCONJ	IN	_	10	R	10:R	_
+10	hearing	hear	VERB	VBG	_	3	A	3:A	_
+11	about	about	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	project	project	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	I	I	PRON	PRP	_	17	A	17:A|10:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	committed	committed	ADJ	JJ	_	10	H	10:H	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

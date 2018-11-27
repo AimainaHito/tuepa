@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 220005
+# text = Dunst will also star alongside Mark Ruffalo and Billy Crudup in the drama film , Red Light Winter .
+1	Dunst	Dunst	NOUN	NN	_	4	A	4:A	_
+2	will	will	AUX	MD	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	star	star	VERB	VB	_	0	H	0:H	_
+5	alongside	alongside	ADP	RP	_	6	R	6:R	_
+6	Mark	Mark	PROPN	NNP	_	4	A	4:A	_
+7	Ruffalo	Ruffalo	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	and	and	CCONJ	CC	_	6	N	6:N	_
+9	Billy	Billy	PROPN	NNP	_	6	C	6:C	_
+10	Crudup	Crudup	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	drama	drama	NOUN	NN	_	14	E	14:E	_
+14	film	film	NOUN	NN	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	Red	Red	PROPN	NNP	_	4	A	4:A	_
+17	Light	light	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Winter	Winter	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

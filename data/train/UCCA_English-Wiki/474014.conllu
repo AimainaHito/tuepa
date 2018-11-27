@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 474014
+# text = Playing power forward , he averaged 14.6 points , 6.9 assists , and 5.7 rebounds per game in 32 games , and finished tied for 12th place with Charles Barkley in voting for the MVP Award .
+1	Playing	play	VERB	VBG	_	0	H	0:H	_
+2	power	power	NOUN	NN	_	1	A	1:A	_
+3	forward	forward	ADV	RB	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	he	he	PRON	PRP	_	6	A	6:A|1:A|24:A	_
+6	averaged	average	VERB	VBD	_	1	H	1:H	_
+7	14.6	14.6	NUM	CD	_	8	E	8:E	_
+8	points	point	NOUN	NNS	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	6.9	6.9	NUM	CD	_	11	E	11:E	_
+11	assists	assist	NOUN	NNS	_	8	C	8:C	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	and	and	CCONJ	CC	_	8	N	8:N	_
+14	5.7	5.7	NUM	CD	_	15	E	15:E	_
+15	rebounds	rebound	NOUN	NNS	_	8	C	8:C	_
+16	per	per	ADP	IN	_	17	R	17:R	_
+17	game	game	NOUN	NN	_	8	E	8:E	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	32	32	NUM	CD	_	20	E	20:E	_
+20	games	game	NOUN	NNS	_	6	A	6:A	_
+21	,	,	PUNCT	,	_	1	U	1:U	_
+22	and	and	CCONJ	CC	_	1	L	1:L	_
+23	finished	finish	VERB	VBN	_	24	E	24:E	_
+24	tied	tie	VERB	VBN	_	1	H	1:H	_
+25	for	for	ADP	IN	_	27	R	27:R	_
+26	12th	12th	ADJ	JJ	_	27	E	27:E	_
+27	place	place	NOUN	NN	_	24	A	24:A	_
+28	with	with	ADP	IN	_	29	R	29:R	_
+29	Charles	Charles	PROPN	NNP	_	24	A	24:A	_
+30	Barkley	Barkley	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	in	in	ADP	IN	_	32	R	32:R	_
+32	voting	voting	NOUN	NN	_	24	A	24:A	_
+33	for	for	ADP	IN	_	36	R	36:R	_
+34	the	the	DET	DT	_	36	E	36:E	_
+35	MVP	MVP	PROPN	NNP	_	36	E	36:E	_
+36	Award	Award	PROPN	NNP	_	32	A	32:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

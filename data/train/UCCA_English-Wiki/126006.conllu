@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 126006
+# text = Hepburn arrived in California in July 1932 , at 25 years old .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|11:A	_
+2	arrived	arrive	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	California	California	PROPN	NNP	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	July	July	PROPN	NNP	_	2	D	2:D	_
+7	1932	1932	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	at	at	ADP	IN	_	11	R	11:R	_
+10	25	25	NUM	CD	_	11	E	11:E	_
+11	years	year	NOUN	NNS	_	2	A	2:A	_
+12	old	old	ADJ	JJ	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

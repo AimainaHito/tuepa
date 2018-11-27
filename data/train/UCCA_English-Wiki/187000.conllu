@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 187000
+# text = Sorkin attended Scarsdale High School where he became involved in his high school drama and theatre club .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	attended	attend	VERB	VBD	_	0	H	0:H	_
+3	Scarsdale	Scarsdale	PROPN	NNP	_	2	A	2:A	_
+4	High	High	PROPN	NNP	_	5	E	5:E	_
+5	School	School	PROPN	NNP	_	3	E	3:E	_
+6	where	where	ADV	WRB	_	9	F	9:F	_
+7	he	he	PRON	PRP	_	9	A	9:A	_
+8	became	become	VERB	VBD	_	9	D	9:D	_
+9	involved	involved	ADJ	JJ	_	3	E	3:E	_
+10	in	in	ADP	IN	_	17	R	17:R	_
+11	his	he	PRON	PRP$	_	17	E	17:E	_
+12	high	high	ADJ	JJ	_	13	E	13:E	_
+13	school	school	NOUN	NN	_	17	E	17:E	_
+14	drama	drama	NOUN	NN	_	17	E	17:E	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	theatre	theatre	NOUN	NN	_	14	C	14:C	_
+17	club	club	NOUN	NN	_	9	A	9:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

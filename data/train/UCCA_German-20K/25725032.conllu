@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25725032
+# text = Kein Signal vom Kanadier war zu vernehmen .
+1	Kein	kein	PROPN	PIAT	_	7	D	7:D	_
+2	Signal	Signal	PROPN	NN	_	7	A	7:A	_
+3	vom	vom	PROPN	NE	_	4	R	4:R	_
+4	Kanadier	Kanadier	PROPN	NE	_	2	A	2:A	_
+5	war	sein	AUX	NE	_	7	F	7:F	_
+6	zu	zu	PART	NE	_	7	F	7:F	_
+7	vernehmen	vernehmen	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

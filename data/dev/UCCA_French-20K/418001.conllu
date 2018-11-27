@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 418001
+# text = L' hypothèse de l' îlot flottant , de l' écueil insaisissable , soutenue par quelques esprits peu compétents , était absolument abandonnée .
+1	L'	le	DET	_	_	2	E	2:E	_
+2	hypothèse	hypothèse	NOUN	_	_	22	A	22:A	_
+3	de	de	ADP	_	_	5	R	5:R	_
+4	l'	le	DET	_	_	5	E	5:E	_
+5	îlot	îlot	NOUN	_	_	2	E	2:E	_
+6	flottant	flotter	ADJ	_	_	5	E	5:E	_
+7	,	,	PUNCT	_	_	5	U	5:U	_
+8	de	de	ADP	_	_	10	R	10:R	_
+9	l'	le	DET	_	_	10	E	10:E	_
+10	écueil	écueil	NOUN	_	_	5	C	5:C	_
+11	insaisissable	insaisissable	ADJ	_	_	10	E	10:E	_
+12	,	,	PUNCT	_	_	2	U	2:U	_
+13	soutenue	soutenir	VERB	_	_	2	E	2:E	_
+14	par	par	ADP	_	_	16	R	16:R	_
+15	quelques	quelque	DET	_	_	16	E	16:E	_
+16	esprits	esprit	NOUN	_	_	13	A	13:A	_
+17	peu	peu	ADV	_	_	18	E	18:E	_
+18	compétents	compétent	ADJ	_	_	16	E	16:E	_
+19	,	,	PUNCT	_	_	22	U	22:U	_
+20	était	être	AUX	_	_	22	F	22:F	_
+21	absolument	absolument	ADV	_	_	22	D	22:D	_
+22	abandonnée	abandonner	VERB	_	_	0	H	0:H	_
+23	.	.	PUNCT	_	_	22	U	22:U	_
+

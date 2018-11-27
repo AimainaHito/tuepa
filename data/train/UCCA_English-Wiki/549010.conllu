@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 549010
+# text = Jack Warner named the child after himself , disregarding an Ashkenazi Jewish custom that children should not be named after living relatives .
+1	Jack	Jack	PROPN	NNP	_	2	E	2:E	_
+2	Warner	Warner	PROPN	NNP	_	0	C	0:C|9:A	_
+3	named	nam	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	child	child	NOUN	NN	_	3	A	3:A	_
+6	after	after	ADP	IN	_	7	R	7:R	_
+7	himself	himself	PRON	PRP	_	3	D	3:D	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	disregarding	disregard	VERB	VBG	_	3	H	3:H	_
+10	an	a	DET	DT	_	13	E	13:E	_
+11	Ashkenazi	Ashkenazi	PROPN	NNP	_	12	E	12:E	_
+12	Jewish	jewish	PROPN	NNP	_	13	E	13:E	_
+13	custom	custom	SCONJ	IN	_	9	A	9:A	_
+14	that	that	SCONJ	IN	_	19	F	19:F	_
+15	children	child	NOUN	NNS	_	19	A	19:A	_
+16	should	should	AUX	MD	_	19	D	19:D	_
+17	not	not	PART	RB	_	19	D	19:D	_
+18	be	be	AUX	VB	_	19	F	19:F	_
+19	named	name	VERB	VBN	_	13	E	13:E	_
+20	after	after	SCONJ	IN	_	22	R	22:R	_
+21	living	live	VERB	VBG	_	22	E	22:E	_
+22	relatives	relative	NOUN	NNS	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

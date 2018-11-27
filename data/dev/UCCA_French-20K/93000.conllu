@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 93000
+# text = Personne n' ignore le nom du célèbre armateur anglais Cunard .
+1	Personne	personne	PRON	_	_	3	A	3:A	_
+2	n'	ne	ADV	_	_	3	D	3:D	_
+3	ignore	ignorer	VERB	_	_	0	H	0:H	_
+4	le	le	DET	_	_	5	E	5:E	_
+5	nom	nom	NOUN	_	_	3	A	3:A	_
+6	du	du	DET	_	_	10	R	10:R	_
+7	célèbre	célèbre	ADJ	_	_	8	E	8:E	_
+8	armateur	armateur	NOUN	_	_	10	E	10:E	_
+9	anglais	anglais	ADJ	_	_	8	E	8:E	_
+10	Cunard	Cunard	PROPN	_	_	5	E	5:E	_
+11	.	.	PUNCT	_	_	10	U	10:U	_
+

@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 236009
+# text = In addition to his film production and distribution company , JCE Movies Limited , Jackie Chan also owns or co - owns the production companies JC Group China , Jackie & Willie Productions ( with Willie Chan ) and Jackie & JJ Productions .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	addition	addition	NOUN	NN	_	11	R	11:R	_
+3	to	to	ADP	IN	_	2	F	2:F	_
+4	his	he	PRON	PRP$	_	11	E	11:E	_
+5	film	film	NOUN	NN	_	6	E	6:E	_
+6	production	production	NOUN	NN	_	9	E	9:E	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	distribution	distribution	NOUN	NN	_	6	C	6:C	_
+9	company	company	NOUN	NN	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	JCE	JCE	PROPN	NNP	_	18	A	18:A	_
+12	Movies	movies	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Limited	Limited	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	18	U	18:U	_
+15	Jackie	Jackie	PROPN	NNP	_	18	A	18:A	_
+16	Chan	Chan	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	also	also	ADV	RB	_	18	D	18:D	_
+18	owns	own	VERB	VBZ	_	0	H	0:H	_
+19	or	or	CCONJ	CC	_	18	N	18:N	_
+20	co	co	X	AFX	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	owns	own	VERB	VBZ	_	18	C	18:C	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	production	production	NOUN	NN	_	25	E	25:E	_
+25	companies	company	NOUN	NNS	_	26	E	26:E	_
+26	JC	JC	PROPN	NNP	_	18	A	18:A	_
+27	Group	Group	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	China	China	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	Jackie	Jackie	PROPN	NNP	_	26	C	26:C	_
+31	&	&	CCONJ	CC	_	30	U	30:U	_
+32	Willie	Willie	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	Productions	Production	PROPN	NNPS	_	30	Terminal	30:Terminal	_
+34	(	(	PUNCT	-LRB-	_	30	U	30:U	_
+35	with	with	ADP	IN	_	36	R	36:R	_
+36	Willie	Willie	PROPN	NNP	_	30	E	30:E	_
+37	Chan	Chan	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	)	)	PUNCT	-RRB-	_	26	U	26:U	_
+39	and	and	CCONJ	CC	_	26	N	26:N	_
+40	Jackie	Jackie	PROPN	NNP	_	26	C	26:C	_
+41	&	&	CCONJ	CC	_	40	U	40:U	_
+42	JJ	JJ	PROPN	NNP	_	40	Terminal	40:Terminal	_
+43	Productions	Production	NOUN	NNS	_	40	Terminal	40:Terminal	_
+44	.	.	PUNCT	.	_	26	U	26:U	_
+

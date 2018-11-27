@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 673005
+# text = The film garnered mostly positive reviews from critics , as had Carey 's performance .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	garnered	garner	VERB	VBD	_	0	H	0:H	_
+4	mostly	mostly	ADV	RB	_	6	E	6:E	_
+5	positive	positive	ADJ	JJ	_	6	E	6:E	_
+6	reviews	review	NOUN	NNS	_	3	A	3:A	_
+7	from	from	ADP	IN	_	8	R	8:R	_
+8	critics	critic	NOUN	NNS	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	as	as	SCONJ	IN	_	3	L	3:L	_
+11	had	have	VERB	VBN	_	3	H	3:H	_
+12	Carey	Carey	PROPN	NNP	_	14	A	14:A	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	performance	performance	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

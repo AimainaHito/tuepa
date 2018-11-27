@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 670016
+# text = To date , The Emancipation of Mimi has sold over 12 million copies worldwide .
+1	To	to	ADP	IN	_	2	R	2:R	_
+2	date	date	NOUN	NN	_	9	D	9:D	_
+3	,	,	PUNCT	,	_	9	U	9:U	_
+4	The	the	DET	DT	_	9	A	9:A	_
+5	Emancipation	Emancipation	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	of	of	ADP	IN	_	4	Terminal	4:Terminal	_
+7	Mimi	Mimi	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	has	have	AUX	VBZ	_	9	F	9:F	_
+9	sold	sell	VERB	VBN	_	0	H	0:H	_
+10	over	over	ADP	IN	_	13	E	13:E	_
+11	12	12	NUM	CD	_	12	E	12:E	_
+12	million	million	NUM	CD	_	13	E	13:E	_
+13	copies	copy	NOUN	NNS	_	9	A	9:A	_
+14	worldwide	worldwide	ADV	RB	_	9	D	9:D	_
+15	.	.	PUNCT	.	_	9	U	9:U	_
+

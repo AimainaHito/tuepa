@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 530013
+# text = " However , she recovered over the next several months and , in August of that year , returned to the stage of the Palladium .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	However	however	ADV	RB	_	5	L	5:L	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	she	she	PRON	PRP	_	5	A	5:A|19:A	_
+5	recovered	recover	VERB	VBD	_	0	H	0:H	_
+6	over	over	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	next	next	ADJ	JJ	_	10	E	10:E	_
+9	several	several	ADJ	JJ	_	10	E	10:E	_
+10	months	month	NOUN	NNS	_	5	D	5:D	_
+11	and	and	CCONJ	CC	_	5	L	5:L	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	August	August	PROPN	NNP	_	19	D	19:D	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	that	that	DET	DT	_	17	E	17:E	_
+17	year	year	NOUN	NN	_	14	E	14:E	_
+18	,	,	PUNCT	,	_	19	U	19:U	_
+19	returned	return	VERB	VBD	_	5	H	5:H	_
+20	to	to	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	stage	stage	NOUN	NN	_	19	A	19:A	_
+23	of	of	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	Palladium	Palladium	NOUN	NN	_	22	E	22:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25490095
+# text = Gegenwärtig war 's unbekannt , ob er sich einmal gewaltsam unserer entledigen oder uns in einem Winkel der Erde aussetzen würde .
+1	Gegenwärtig	gegenwärtig	ADJ	ADJD	_	4	D	4:D	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	's	es	PRON	PPER	_	4	F	4:F	_
+4	unbekannt	unbekannt	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	ob	ob	SCONJ	VVFIN	_	12	L	12:L	_
+7	er	er	PRON	PPER	_	12	A	12:A|20:A	_
+8	sich	er|es|sie	PRON	PRF	_	12	A	12:A	_
+9	einmal	einmal	ADV	ADV	_	12	D	12:D	_
+10	gewaltsam	gewaltsam	ADJ	ADJD	_	12	D	12:D	_
+11	unserer	unser	ADJ	PPOSAT	_	12	A	12:A	_
+12	entledigen	entledigen	ADJ	ADJA	_	4	A	4:A	_
+13	oder	oder	CCONJ	CARD	_	12	L	12:L	_
+14	uns	wir	PRON	NN	_	20	A	20:A	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	einem	ein	DET	ART	_	17	E	17:E	_
+17	Winkel	Winkel	NOUN	NN	_	20	A	20:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	Erde	Erde	NOUN	NE	_	17	E	17:E	_
+20	aussetzen	aussetzen	VERB	VVINF	_	12	H	12:H	_
+21	würde	werden	AUX	NN	_	20	D	20:D	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

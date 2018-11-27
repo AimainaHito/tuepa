@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 380005
+# text = " Following the release of Brokeback Mountain , rumors circulated regarding the actor 's sexual orientation .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Following	follow	VERB	VBG	_	4	L	4:L	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	release	release	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	Brokeback	Brokeback	PROPN	NNP	_	4	A	4:A	_
+7	Mountain	Mountain	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	rumors	rumor	PRON	PRP	_	10	A	10:A	_
+10	circulated	circulate	VERB	VBD	_	4	H	4:H	_
+11	regarding	regard	VERB	VBG	_	16	R	16:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	actor	actor	NOUN	NN	_	16	E	16:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	sexual	sexual	ADJ	JJ	_	16	E	16:E	_
+16	orientation	orientation	NOUN	NN	_	10	A	10:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

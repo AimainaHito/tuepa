@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 453006
+# text = Meanwhile , ABC News and its newly installed president , Roone Arledge , were preparing an overhaul of its nightly news program , which was then known as ABC Evening News and whose ratings had languished in third place behind CBS and NBC since its inception .
+1	Meanwhile	meanwhile	ADV	RB	_	15	D	15:D	_
+2	,	,	PUNCT	,	_	15	U	15:U	_
+3	ABC	ABC	PROPN	NNP	_	4	E	4:E	_
+4	News	news	PROPN	NNP	_	15	A	15:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	its	its	PRON	PRP$	_	11	E	11:E	_
+7	newly	newly	ADV	RB	_	8	E	8:E	_
+8	installed	install	VERB	VBN	_	9	E	9:E	_
+9	president	president	PROPN	NNP	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	Roone	Roone	PROPN	NNP	_	4	C	4:C	_
+12	Arledge	Arledge	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	15	U	15:U	_
+14	were	be	AUX	VBD	_	15	F	15:F	_
+15	preparing	prepare	VERB	VBG	_	0	H	0:H	_
+16	an	a	DET	DT	_	17	E	17:E	_
+17	overhaul	overhaul	NOUN	NN	_	15	A	15:A	_
+18	of	of	ADP	IN	_	22	R	22:R	_
+19	its	its	PRON	PRP$	_	22	E	22:E	_
+20	nightly	nightly	ADJ	JJ	_	22	E	22:E	_
+21	news	news	NOUN	NN	_	22	E	22:E	_
+22	program	program	NOUN	NN	_	17	E	17:E	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	which	which	PRON	WDT	_	27	R	27:R	_
+25	was	be	AUX	VBD	_	27	F	27:F	_
+26	then	then	ADV	RB	_	27	D	27:D	_
+27	known	known	VERB	VBN	_	22	E	22:E	_
+28	as	as	ADP	IN	_	31	R	31:R	_
+29	ABC	Abc	PROPN	NNP	_	31	E	31:E	_
+30	Evening	evening	PROPN	NNP	_	31	E	31:E	_
+31	News	news	PROPN	NNP	_	27	A	27:A	_
+32	and	and	CCONJ	CC	_	27	L	27:L	_
+33	whose	whose	PRON	WP$	_	34	R	34:R	_
+34	ratings	rating	NOUN	NNS	_	36	A	36:A	_
+35	had	have	AUX	VBD	_	36	F	36:F	_
+36	languished	languish	VERB	VBN	_	27	H	27:H	_
+37	in	in	ADP	IN	_	39	R	39:R	_
+38	third	third	ADJ	JJ	_	39	E	39:E	_
+39	place	place	NOUN	NN	_	36	A	36:A	_
+40	behind	behind	ADP	IN	_	41	R	41:R	_
+41	CBS	CBS	PROPN	NNP	_	39	E	39:E	_
+42	and	and	CCONJ	CC	_	41	N	41:N	_
+43	NBC	NBC	PROPN	NNP	_	41	C	41:C	_
+44	since	since	SCONJ	IN	_	27	L	27:L	_
+45	its	its	PRON	PRP$	_	46	A	46:A	_
+46	inception	inception	NOUN	NN	_	27	H	27:H	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

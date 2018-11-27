@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25781008
+# text = Es war streng kalt ; die Sternbilder schimmerten in auffallend starkem Glanz .
+1	Es	es	PRON	PPER	_	4	A	4:A	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	streng	streng	ADJ	ADJD	_	4	D	4:D	_
+4	kalt	kalt	ADJ	ADJD	_	0	H	0:H	_
+5	;	;	PUNCT	$.	_	4	U	4:U	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Sternbilder	Sternbild	NOUN	NN	_	8	A	8:A	_
+8	schimmerten	schimmeren	VERB	VVFIN	_	4	H	4:H	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	auffallend	auffallend	ADJ	ADJD	_	11	D	11:D	_
+11	starkem	stark	ADJ	ADJA	_	8	A	8:A	_
+12	Glanz	Glanz	NOUN	NN	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

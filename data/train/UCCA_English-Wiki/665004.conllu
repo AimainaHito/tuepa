@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 665004
+# text = However , they disagreed as to what content and singles should constitute the album .
+1	However	however	ADV	RB	_	4	L	4:L	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	they	they	PRON	PRP	_	4	A	4:A	_
+4	disagreed	disagree	VERB	VBD	_	0	H	0:H	_
+5	as	as	ADV	RB	_	12	R	12:R	_
+6	to	to	ADP	IN	_	12	F	12:F	_
+7	what	what	DET	WDT	_	12	F	12:F	_
+8	content	content	NOUN	NN	_	12	A	12:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	singles	singles	NOUN	NNS	_	8	C	8:C	_
+11	should	should	AUX	MD	_	12	D	12:D	_
+12	constitute	constitute	VERB	VB	_	4	A	4:A	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	album	album	NOUN	NN	_	12	A	12:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

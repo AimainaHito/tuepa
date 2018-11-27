@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 235007
+# text = " He also added , " I 'm gradually beginning to feel that we Chinese need to be controlled . If we 're not being controlled , we 'll just do what we want .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	He	he	PRON	PRP	_	4	A	4:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	added	add	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	I	I	PRON	PRP	_	12	A	12:A	_
+8	'm	be	AUX	VBP	_	12	F	12:F	_
+9	gradually	gradually	ADV	RB	_	12	D	12:D	_
+10	beginning	begin	VERB	VBG	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	feel	feel	VERB	VB	_	4	A	4:A	_
+13	that	that	SCONJ	IN	_	16	F	16:F	_
+14	we	we	PRON	PRP	_	15	E	15:E	_
+15	Chinese	chinese	ADJ	JJ	_	16	A	16:A|19:A	_
+16	need	need	VERB	VBP	_	12	A	12:A	_
+17	to	to	PART	TO	_	19	F	19:F	_
+18	be	be	AUX	VB	_	19	F	19:F	_
+19	controlled	controll	VERB	VBN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	12	U	12:U	_
+21	If	if	SCONJ	IN	_	12	L	12:L	_
+22	we	we	PRON	PRP	_	26	A	26:A	_
+23	're	be	AUX	VBP	_	26	F	26:F	_
+24	not	not	PART	RB	_	26	D	26:D	_
+25	being	be	AUX	VBG	_	26	F	26:F	_
+26	controlled	controll	VERB	VBN	_	12	H	12:H	_
+27	,	,	PUNCT	,	_	12	U	12:U	_
+28	we	we	PRON	PRP	_	31	A	31:A	_
+29	'll	will	AUX	MD	_	31	F	31:F	_
+30	just	just	ADV	RB	_	31	D	31:D	_
+31	do	do	VERB	VB	_	12	H	12:H	_
+32	what	what	PRON	WP	_	34	A	34:A	_
+33	we	we	PRON	PRP	_	34	A	34:A	_
+34	want	want	VERB	VBP	_	31	A	31:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

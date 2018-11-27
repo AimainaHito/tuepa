@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25489083
+# text = Aber trotz alles Bemühens half auch das Deutsche nichts .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	trotz	trotz	ADP	APPR	_	4	R	4:R	_
+3	alles	alle	PRON	PIS	_	4	D	4:D	_
+4	Bemühens	Bemühen	NOUN	NN	_	0	H	0:H	_
+5	half	helfen	VERB	VVFIN	_	4	H	4:H	_
+6	auch	auch	ADV	ADV	_	8	R	8:R	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Deutsche	Deutsche	NOUN	ADJA	_	5	A	5:A	_
+9	nichts	nichts	PRON	NE	_	5	D	5:D	_
+10	.	.	PUNCT	$.	_	5	U	5:U	_
+

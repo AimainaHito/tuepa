@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25470000
+# text = 2 Kabellängen von der ›Abraham Lincoln‹ entfernt schien das Meer an der Oberfläche beleuchtet .
+1	2	2	NUM	CARD	_	2	E	2:E	_
+2	Kabellängen	Kabelläng	NOUN	NN	_	7	A	7:A	_
+3	von	von	ADP	NN	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	›Abraham	›Abraham	PROPN	NN	_	7	A	7:A	_
+6	Lincoln‹	Lincoln‹	NOUN	NE	_	5	Terminal	5:Terminal	_
+7	entfernt	entfernt	ADJ	ADJD	_	8	A	8:A	_
+8	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Meer	Meer	NOUN	NN	_	0	C	0:C|7:A|14:A	_
+11	an	an	ADP	APPR	_	13	R	13:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Oberfläche	Oberfläche	NOUN	NN	_	14	A	14:A	_
+14	beleuchtet	beleuchten	VERB	VVPP	_	8	A	8:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

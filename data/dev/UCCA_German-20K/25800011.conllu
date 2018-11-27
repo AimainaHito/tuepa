@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25800011
+# text = Ich hätte gern einige Proben dieser zarten Zoophyten aufgehoben ; aber es sind nur Wolken , Schatten und Schein ; sie schmelzen und verdunsten , wenn sie aus ihrem Element herauskommen .
+1	Ich	ich	PRON	PPER	_	9	A	9:A	_
+2	hätte	haben	AUX	VAFIN	_	9	F	9:F	_
+3	gern	gern	ADV	ADV	_	9	D	9:D	_
+4	einige	einige	PRON	PIAT	_	5	E	5:E	_
+5	Proben	Probe	NOUN	NN	_	9	A	9:A	_
+6	dieser	dies	PRON	PDAT	_	8	R	8:R	_
+7	zarten	zart	ADJ	ADJA	_	8	E	8:E	_
+8	Zoophyten	Zoophyten	NOUN	NN	_	5	E	5:E	_
+9	aufgehoben	aufheben	ADJ	VVPP	_	0	H	0:H	_
+10	;	;	PUNCT	$.	_	9	U	9:U	_
+11	aber	aber	CCONJ	KON	_	9	L	9:L	_
+12	es	es	PRON	PPER	_	13	A	13:A	_
+13	sind	sein	AUX	NN	_	9	H	9:H	_
+14	nur	nur	ADV	NE	_	13	D	13:D	_
+15	Wolken	Wolke	NOUN	NN	_	13	A	13:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	Schatten	Schatten	NOUN	NN	_	15	C	15:C	_
+18	und	und	CCONJ	NE	_	15	N	15:N	_
+19	Schein	Schein	NOUN	NE	_	15	C	15:C	_
+20	;	;	PUNCT	$.	_	9	U	9:U	_
+21	sie	sie	PRON	ADV	_	22	A	22:A	_
+22	schmelzen	schmelzen	VERB	NN	_	9	H	9:H	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	verdunsten	verdunsen	VERB	NN	_	22	C	22:C	_
+25	,	,	PUNCT	$,	_	9	U	9:U	_
+26	wenn	wenn	SCONJ	VVFIN	_	9	L	9:L	_
+27	sie	sie	PRON	ADV	_	31	A	31:A	_
+28	aus	aus	ADP	APPR	_	30	R	30:R	_
+29	ihrem	ihr	DET	PPOSAT	_	30	E	30:E	_
+30	Element	Element	NOUN	NN	_	31	A	31:A	_
+31	herauskommen	herauskommen	VERB	VVFIN	_	9	H	9:H	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 128001
+# text = Jed Harris , one of the most successful theatre producers of the 1920s , was going through a career slump .
+1	Jed	J	PROPN	NNP	_	16	A	16:A	_
+2	Harris	Harris	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	one	one	NUM	CD	_	10	E	10:E	_
+5	of	of	ADP	IN	_	10	E	10:E	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	most	most	ADV	RBS	_	10	E	10:E	_
+8	successful	successful	ADJ	JJ	_	10	E	10:E	_
+9	theatre	theatre	NOUN	NN	_	10	E	10:E	_
+10	producers	producer	NOUN	NNS	_	1	E	1:E	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	1920s	1920	NOUN	NNS	_	10	E	10:E	_
+14	,	,	PUNCT	,	_	16	U	16:U	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	going	go	VERB	VBG	_	0	H	0:H	_
+17	through	through	ADP	IN	_	16	Terminal	16:Terminal	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	career	career	NOUN	NN	_	20	E	20:E	_
+20	slump	slump	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

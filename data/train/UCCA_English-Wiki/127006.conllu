@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 127006
+# text = Hepburn chose not to attend the awards ceremony - as she would not for the duration of her career - but was thrilled with the win .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|5:A	_
+2	chose	choose	VERB	VBD	_	0	H	0:H	_
+3	not	not	ADV	RB	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	attend	attend	VERB	VB	_	0	P	0:P|11:P	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	awards	award	NOUN	NNS	_	8	E	8:E	_
+8	ceremony	ceremony	NOUN	NN	_	5	A	5:A	_
+9	-	-	PUNCT	,	_	2	U	2:U	_
+10	as	as	SCONJ	IN	_	2	L	2:L	_
+11	she	she	PRON	PRP	_	2	H	2:H	_
+12	would	would	AUX	MD	_	11	D	11:D	_
+13	not	not	PART	RB	_	11	D	11:D	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	duration	duration	NOUN	NN	_	2	L	2:L	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	her	she	PRON	PRP$	_	19	A	19:A	_
+19	career	career	NOUN	NN	_	2	H	2:H	_
+20	-	-	PUNCT	,	_	2	U	2:U	_
+21	but	but	CCONJ	CC	_	2	L	2:L	_
+22	was	be	AUX	VBD	_	23	F	23:F	_
+23	thrilled	thrill	ADJ	JJ	_	2	H	2:H	_
+24	with	with	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	win	win	NOUN	NN	_	23	A	23:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

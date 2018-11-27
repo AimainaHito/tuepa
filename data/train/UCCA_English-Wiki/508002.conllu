@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 508002
+# text = Four days later , Bowie and Iman were married in Switzerland .
+1	Four	four	NUM	CD	_	2	E	2:E	_
+2	days	day	NOUN	NNS	_	9	D	9:D	_
+3	later	later	ADV	RB	_	2	R	2:R	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Bowie	Bowie	PROPN	NNP	_	9	A	9:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Iman	Iman	PROPN	NNP	_	5	C	5:C	_
+8	were	be	AUX	VBD	_	9	F	9:F	_
+9	married	marry	VERB	VBN	_	0	H	0:H	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Switzerland	Switzerland	PROPN	NNP	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 537009
+# text = Their sons Jack and David were born in Ontario .
+1	Their	they	PRON	PRP$	_	2	E	2:E	_
+2	sons	son	VERB	VBZ	_	3	E	3:E	_
+3	Jack	Jack	PROPN	NNP	_	7	A	7:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	David	David	PROPN	NNP	_	3	C	3:C	_
+6	were	be	AUX	VBD	_	7	F	7:F	_
+7	born	bear	VERB	VBN	_	0	H	0:H	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Ontario	Ontario	PROPN	NNP	_	7	A	7:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

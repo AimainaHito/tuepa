@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25680008
+# text = » Das ist mir schon recht « , dachte ich .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Das	der	PRON	PDS	_	6	A	6:A	_
+3	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+4	mir	ich	PRON	PPER	_	6	A	6:A	_
+5	schon	schon	ADV	ADV	_	6	D	6:D	_
+6	recht	recht	ADV	NE	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

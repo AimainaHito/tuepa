@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25814019
+# text = Ich hatte also einen Heimatgenossen unter der Kapitän Nemo mit Leib und Seele verbundenen Mannschaft !
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	D	2:D	_
+4	einen	ein	DET	ART	_	5	E	5:E	_
+5	Heimatgenossen	Heimatgenosse	NOUN	NN	_	2	A	2:A	_
+6	unter	unter	ADP	ADJD	_	15	R	15:R	_
+7	der	der	DET	ART	_	15	E	15:E	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	14	A	14:A	_
+10	mit	mit	ADP	APPR	_	11	R	11:R	_
+11	Leib	Leib	NOUN	NE	_	14	A	14:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	Seele	Seele	NOUN	NN	_	11	C	11:C	_
+14	verbundenen	verbunden	ADJ	ADJD	_	15	E	15:E	_
+15	Mannschaft	Mannschaft	NOUN	NN	_	2	A	2:A	_
+16	!	!	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25644003
+# text = Ich konnte damals nebst meinen Gefährten eine merkwürdige Erscheinung beobachten .
+1	Ich	ich	PRON	PPER	_	10	A	10:A	_
+2	konnte	können	AUX	VMFIN	_	10	D	10:D	_
+3	damals	damals	ADV	ADV	_	10	D	10:D	_
+4	nebst	nebst	ADV	APPR	_	6	R	6:R	_
+5	meinen	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Gefährten	Gefährt|Gefährte	NOUN	NE	_	10	A	10:A	_
+7	eine	ein	DET	ART	_	9	E	9:E	_
+8	merkwürdige	merkwürdig	ADJ	ADJA	_	9	E	9:E	_
+9	Erscheinung	Erscheinung	NOUN	NN	_	10	A	10:A	_
+10	beobachten	beobachten	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

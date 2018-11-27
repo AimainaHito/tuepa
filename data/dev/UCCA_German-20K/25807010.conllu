@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25807010
+# text = » Das tut mir leid « , versetzte Conseil . » Ich möchte gern so einem Ungeheuer ins Angesicht schauen , von denen ich so viel reden hörte und die ja selber Schiffe in den Abgrund ziehen können . Diese Ungetüme , man heißt sie Krak ... «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	PDS	_	3	A	3:A	_
+3	tut	tun	VERB	VVFIN	_	8	A	8:A	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	leid	leid	ADV	NN	_	3	Terminal	3:Terminal	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	versetzte	versetzter	ADJ	ADJA	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NN	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	Ich	ich	PRON	PPER	_	20	A	20:A	_
+13	möchte	mögen	AUX	CARD	_	20	D	20:D	_
+14	gern	gern	ADV	ADV	_	20	D	20:D	_
+15	so	so	ADV	ADV	_	17	E	17:E	_
+16	einem	ein	DET	ART	_	17	E	17:E	_
+17	Ungeheuer	Ungeheuer	NOUN	NN	_	0	C	0:C|37:A|27:A	_
+18	ins	in	DET	NE	_	19	R	19:R	_
+19	Angesicht	Angesicht	NOUN	NN	_	20	A	20:A	_
+20	schauen	schauen	VERB	VVINF	_	3	H	3:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	von	von	ADP	NE	_	23	R	23:R	_
+23	denen	der	PRON	PRELS	_	27	R	27:R	_
+24	ich	ich	PRON	PPER	_	27	A	27:A	_
+25	so	so	ADV	ADV	_	26	E	26:E	_
+26	viel	viel	ADV	ADJD	_	27	D	27:D	_
+27	reden	reden	ADJ	ADJD	_	17	E	17:E	_
+28	hörte	hörn	VERB	VVFIN	_	27	D	27:D	_
+29	und	und	CCONJ	NE	_	3	L	3:L	_
+30	die	der	DET	ART	_	37	R	37:R	_
+31	ja	ja	ADV	ADV	_	37	D	37:D	_
+32	selber	selber	ADJ	ADJA	_	37	D	37:D	_
+33	Schiffe	Schiff	NOUN	NN	_	37	A	37:A	_
+34	in	in	ADP	APPR	_	36	R	36:R	_
+35	den	der	DET	ART	_	36	E	36:E	_
+36	Abgrund	Abgrund	NOUN	NN	_	37	A	37:A	_
+37	ziehen	ziehen	VERB	VVINF	_	3	H	3:H	_
+38	können	können	AUX	VMFIN	_	37	D	37:D	_
+39	.	.	PUNCT	$.	_	3	U	3:U	_
+40	Diese	dies	PRON	PDAT	_	41	E	41:E	_
+41	Ungetüme	Ungetüm	NOUN	NN	_	44	A	44:A	_
+42	,	,	PUNCT	$,	_	44	U	44:U	_
+43	man	man	PRON	PIS	_	44	A	44:A	_
+44	heißt	heißen	VERB	VVFIN	_	3	H	3:H	_
+45	sie	sie	PRON	ADV	_	44	A	44:A	_
+46	Krak	Krak	PROPN	NE	_	44	A	44:A	_
+47	...	...	PUNCT	$(	_	44	U	44:U	_
+48	«	«	PUNCT	$(	_	44	U	44:U	_
+

@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25521007
+# text = Darauf traten in der Übergangs epoche die Berg spitzen hervor , die Inseln tauchten auf , verschwanden wieder bei teilweisen Überschwemmungen , zeigten sich von neuem , setzten sich aneinander an , bildeten Kontinente , und endlich gewannen die Länder die feste Gestalt , wie wir sie jetzt geographisch kennen .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	traten	treten	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	6	R	6:R	_
+4	der	der	DET	ART	_	6	E	6:E	_
+5	Übergangs	Übergang	NOUN	TRUNC	_	6	E	6:E	_
+6	epoche	epoch	PRON	ADJA	_	2	A	2:A	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	Berg	Berg	NOUN	NE	_	9	E	9:E	_
+9	spitzen	spitz	ADJ	VVFIN	_	2	A	2:A	_
+10	hervor	hervor	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Inseln	Insel	NOUN	NN	_	0	C	0:C|28:A|33:A|23:A|17:A	_
+14	tauchten	tauchen	VERB	VVFIN	_	2	H	2:H	_
+15	auf	auf	ADP	PTKVZ	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	verschwanden	verschwanden	VERB	ADJA	_	2	H	2:H	_
+18	wieder	wieder	ADV	NN	_	17	D	17:D	_
+19	bei	bei	ADP	APPR	_	21	R	21:R	_
+20	teilweisen	teilweise	ADJ	NN	_	21	E	21:E	_
+21	Überschwemmungen	Überschwemmung	NOUN	NN	_	17	A	17:A	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	zeigten	zeigen	VERB	VVFIN	_	2	H	2:H	_
+24	sich	er|es|sie	PRON	PRF	_	23	Terminal	23:Terminal	_
+25	von	von	ADP	NN	_	26	R	26:R	_
+26	neuem	neu	PRON	ADJD	_	23	D	23:D	_
+27	,	,	PUNCT	$,	_	2	U	2:U	_
+28	setzten	setzen	VERB	VVFIN	_	2	H	2:H	_
+29	sich	er|es|sie	PRON	PRF	_	28	Terminal	28:Terminal	_
+30	aneinander	aneinander	ADV	ADV	_	28	D	28:D	_
+31	an	an	ADP	PTKVZ	_	28	Terminal	28:Terminal	_
+32	,	,	PUNCT	$,	_	2	U	2:U	_
+33	bildeten	bildet	ADJ	VVFIN	_	2	H	2:H	_
+34	Kontinente	Kontinent	NOUN	NN	_	33	A	33:A	_
+35	,	,	PUNCT	$,	_	2	U	2:U	_
+36	und	und	CCONJ	NE	_	2	L	2:L	_
+37	endlich	endlich	ADV	ADV	_	38	D	38:D	_
+38	gewannen	gewinnen	VERB	VVFIN	_	2	H	2:H	_
+39	die	der	DET	ART	_	40	E	40:E	_
+40	Länder	Land	NOUN	NN	_	38	A	38:A	_
+41	die	der	DET	ART	_	43	E	43:E	_
+42	feste	fest	ADJ	ADJA	_	43	E	43:E	_
+43	Gestalt	Gestalt	NOUN	NN	_	38	A	38:A	_
+44	,	,	PUNCT	$,	_	43	U	43:U	_
+45	wie	wie	SCONJ	KON	_	50	D	50:D	_
+46	wir	wir	PRON	NE	_	50	A	50:A	_
+47	sie	sie	PRON	ADV	_	50	A	50:A	_
+48	jetzt	jetzt	ADV	ADV	_	50	D	50:D	_
+49	geographisch	geographisch	ADJ	ADJD	_	50	D	50:D	_
+50	kennen	kennen	ADV	PTKVZ	_	43	E	43:E	_
+51	.	.	PUNCT	$.	_	50	U	50:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25704014
+# text = Ich meinesteils ärgerte mich nur , dass der Dugong sich all unseren Nachstellungen entzog .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	meinesteils	meinesteils	ADV	ADV	_	3	D	3:D	_
+3	ärgerte	ärgeren	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	Terminal	3:Terminal	_
+5	nur	nur	ADV	NN	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	dass	dass	SCONJ	KOUS	_	10	R	10:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Dugong	Dugong	NOUN	NN	_	10	A	10:A	_
+10	sich	er|es|sie	PRON	PRF	_	3	A	3:A	_
+11	all	all	DET	PIAT	_	13	E	13:E	_
+12	unseren	unser	PRON	PPOSAT	_	13	E	13:E	_
+13	Nachstellungen	Nachstellung	NOUN	NN	_	10	A	10:A	_
+14	entzog	entziehen	VERB	VVFIN	_	10	Terminal	10:Terminal	_
+15	.	.	PUNCT	$.	_	10	U	10:U	_
+

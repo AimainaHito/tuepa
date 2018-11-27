@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 526002
+# text = In 1951 , they divorced .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1951	1951	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	they	they	PRON	PRP	_	5	A	5:A	_
+5	divorced	divorce	VERB	VBD	_	0	H	0:H	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+

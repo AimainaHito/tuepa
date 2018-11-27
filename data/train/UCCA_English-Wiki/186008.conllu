@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 186008
+# text = Before he reached his teenage years , his parents were taking him to the theatre to see shows such as Who 's Afraid of Virginia Woolf ? and That Championship Season .
+1	Before	before	SCONJ	IN	_	3	L	3:L	_
+2	he	he	PRON	PRP	_	3	A	3:A	_
+3	reached	reach	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	6	E	6:E	_
+5	teenage	teenage	NOUN	NN	_	6	E	6:E	_
+6	years	year	NOUN	NNS	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	parents	parent	NOUN	NNS	_	11	A	11:A	_
+10	were	be	AUX	VBD	_	11	F	11:F	_
+11	taking	take	VERB	VBG	_	3	H	3:H	_
+12	him	he	PRON	PRP	_	11	A	11:A|17:A	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	theatre	theatre	NOUN	NN	_	11	A	11:A	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	see	see	VERB	VB	_	11	A	11:A	_
+18	shows	show	NOUN	NNS	_	17	A	17:A	_
+19	such	such	ADJ	JJ	_	21	R	21:R	_
+20	as	as	SCONJ	IN	_	19	Terminal	19:Terminal	_
+21	Who	who	PRON	WP	_	18	E	18:E	_
+22	's	be	AUX	VBZ	_	21	Terminal	21:Terminal	_
+23	Afraid	afraid	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	of	of	ADP	IN	_	21	Terminal	21:Terminal	_
+25	Virginia	Virginia	PROPN	NNP	_	21	Terminal	21:Terminal	_
+26	Woolf	Woolf	PROPN	NNP	_	21	Terminal	21:Terminal	_
+27	?	?	PUNCT	.	_	21	U	21:U	_
+28	and	and	CCONJ	CC	_	21	N	21:N	_
+29	That	that	SCONJ	IN	_	21	C	21:C	_
+30	Championship	Championship	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	Season	season	PROPN	NNP	_	29	Terminal	29:Terminal	_
+32	.	.	PUNCT	.	_	21	U	21:U	_
+

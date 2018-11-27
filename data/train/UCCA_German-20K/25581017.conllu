@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25581017
+# text = Die Richtung der " Nautilus " blieb unverändert Ost-Nord-Ost , ihre Geschwindigkeit 12 Meilen , ihre Tiefe 50 bis 60 Meter .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Richtung	Richtung	NOUN	NN	_	7	A	7:A	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	Nautilus	Nautilus	PROPN	NE	_	2	E	2:E	_
+6	"	"	PUNCT	$(	_	7	U	7:U	_
+7	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+8	unverändert	unverändert	ADJ	NN	_	7	D	7:D	_
+9	Ost-Nord-Ost	Ost-Nord-Ost	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	ihre	ihr	DET	PPOSAT	_	12	E	12:E	_
+12	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	7	H	7:H	_
+13	12	12	NUM	CARD	_	14	E	14:E	_
+14	Meilen	Meile	NOUN	NN	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	7	U	7:U	_
+16	ihre	ihr	DET	PPOSAT	_	17	E	17:E	_
+17	Tiefe	Tiefe	NOUN	NN	_	7	H	7:H	_
+18	50	50	NUM	CARD	_	21	E	21:E	_
+19	bis	bis	ADP	KON	_	18	N	18:N	_
+20	60	60	NUM	CARD	_	18	C	18:C	_
+21	Meter	Meter	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 537002
+# text = Jack was the fifth surviving son of Benjamin Warner a cobbler from Krasnosielc , Poland ( then located in the Russian Empire ) and his wife , the former Pearl Leah Eichelbaum .
+1	Jack	Jack	NOUN	NN	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	fifth	fifth	ADJ	JJ	_	5	E	5:E	_
+5	surviving	survive	NOUN	NN	_	6	E	6:E	_
+6	son	son	NOUN	NN	_	2	A	2:A	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	Benjamin	Benjamin	PROPN	NNP	_	6	E	6:E	_
+9	Warner	Warner	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	cobbler	cobbler	NOUN	NN	_	8	A	8:A	_
+12	from	from	ADP	IN	_	13	R	13:R	_
+13	Krasnosielc	Krasnosielc	PROPN	NNP	_	8	A	8:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	Poland	Poland	PROPN	NNP	_	13	E	13:E	_
+16	(	(	PUNCT	-LRB-	_	13	U	13:U	_
+17	then	then	ADV	RB	_	18	D	18:D	_
+18	located	locate	VERB	VBN	_	13	E	13:E	_
+19	in	in	ADP	IN	_	22	R	22:R	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	Russian	Russian	ADJ	JJ	_	22	E	22:E	_
+22	Empire	Empire	NOUN	NN	_	18	A	18:A	_
+23	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+24	and	and	CCONJ	CC	_	8	N	8:N	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	wife	wife	NOUN	NN	_	8	C	8:C	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	former	former	ADJ	JJ	_	30	E	30:E	_
+30	Pearl	Pearl	PROPN	NNP	_	26	E	26:E	_
+31	Leah	Leah	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Eichelbaum	Eichelbaum	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

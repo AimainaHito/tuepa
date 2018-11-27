@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25748000
+# text = Den ganzen 22 . Februar brachten wir im Tangmeer zu , wo die Fische , die gern Seepflanzen und Schaltiere fressen , reichliche Nahrung finden .
+1	Den	der	DET	ART	_	5	R	5:R	_
+2	ganzen	ganz	ADJ	ADJA	_	5	E	5:E	_
+3	22	22	NUM	CARD	_	5	E	5:E	_
+4	.	.	PUNCT	$.	_	5	U	5:U	_
+5	Februar	Februar	PROPN	NN	_	6	D	6:D	_
+6	brachten	bringen	VERB	VVFIN	_	0	H	0:H	_
+7	wir	wir	PRON	NE	_	6	A	6:A	_
+8	im	im	ADJ	NE	_	9	R	9:R	_
+9	Tangmeer	Tangmeer	NOUN	NE	_	6	A	6:A	_
+10	zu	zu	ADP	NE	_	6	Terminal	6:Terminal	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	wo	wo	ADV	ADJA	_	25	R	25:R	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Fische	Fisch	NOUN	NN	_	25	A	25:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	PRON	PRELS	_	21	R	21:R	_
+17	gern	gern	ADV	ADV	_	21	D	21:D	_
+18	Seepflanzen	Seepflanz	NOUN	NE	_	21	A	21:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Schaltiere	Schaltier	NOUN	NE	_	18	C	18:C	_
+21	fressen	fressen	ADV	VVFIN	_	14	E	14:E	_
+22	,	,	PUNCT	$,	_	25	U	25:U	_
+23	reichliche	reichlich	ADJ	ADJA	_	24	E	24:E	_
+24	Nahrung	Nahrung	NOUN	NN	_	25	A	25:A	_
+25	finden	finden	VERB	VVFIN	_	9	E	9:E	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

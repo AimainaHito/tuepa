@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 586010
+# text = Both Depp and his subsequent fiancé Sherilyn Fenn auditioned for the 1986 film Thrashin ' and they were both cast , with Depp being chosen by the film 's director to star as the lead , which would have been Depp 's second major role .
+1	Both	both	CCONJ	CC	_	2	N	2:N	_
+2	Depp	Depp	PROPN	NNP	_	9	A	9:A	_
+3	and	and	CCONJ	CC	_	1	Terminal	1:Terminal	_
+4	his	he	PRON	PRP$	_	7	E	7:E	_
+5	subsequent	subsequent	ADJ	JJ	_	6	E	6:E	_
+6	fiancé	fiancé	NOUN	NN	_	7	E	7:E	_
+7	Sherilyn	Sherilyn	PROPN	NNP	_	2	C	2:C	_
+8	Fenn	Fenn	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	auditioned	audition	VERB	VBD	_	0	H	0:H	_
+10	for	for	ADP	IN	_	14	R	14:R	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	1986	1986	NUM	CD	_	14	E	14:E	_
+13	film	film	NOUN	NN	_	14	E	14:E	_
+14	Thrashin	Thrashin	NOUN	NN	_	9	A	9:A	_
+15	'	'	PUNCT	''	_	9	U	9:U	_
+16	and	and	CCONJ	CC	_	9	L	9:L	_
+17	they	they	PRON	PRP	_	20	A	20:A	_
+18	were	be	AUX	VBD	_	20	F	20:F	_
+19	both	both	ADV	RB	_	17	E	17:E	_
+20	cast	cast	VERB	VBN	_	9	H	9:H	_
+21	,	,	PUNCT	,	_	9	U	9:U	_
+22	with	with	ADP	IN	_	9	L	9:L	_
+23	Depp	Depp	PROPN	NNP	_	25	A	25:A|32:A	_
+24	being	be	AUX	VBG	_	25	F	25:F	_
+25	chosen	choose	VERB	VBN	_	9	H	9:H	_
+26	by	by	ADP	IN	_	30	R	30:R	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	film	film	NOUN	NN	_	30	E	30:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	director	director	NOUN	NN	_	25	A	25:A	_
+31	to	to	PART	TO	_	32	F	32:F	_
+32	star	star	VERB	VB	_	25	A	25:A|40:A	_
+33	as	as	ADP	IN	_	35	R	35:R	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	lead	lead	NOUN	NN	_	32	A	32:A	_
+36	,	,	PUNCT	,	_	9	U	9:U	_
+37	which	which	PRON	WDT	_	9	L	9:L	_
+38	would	would	AUX	MD	_	40	F	40:F	_
+39	have	have	AUX	VB	_	40	F	40:F	_
+40	been	be	VERB	VBN	_	9	H	9:H	_
+41	Depp	Depp	PROPN	NNP	_	45	E	45:E	_
+42	's	's	PART	POS	_	41	R	41:R	_
+43	second	second	ADV	RB	_	45	E	45:E	_
+44	major	major	ADJ	JJ	_	45	E	45:E	_
+45	role	role	NOUN	NN	_	40	A	40:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

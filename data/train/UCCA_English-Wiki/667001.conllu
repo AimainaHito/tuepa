@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 667001
+# text = She opted to record an album partly mixed with 1980s influenced disco and other similar genres , in order to go hand - in - hand with the film 's setting .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	opted	opt	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	record	record	VERB	VB	_	0	H	0:H	_
+5	an	a	DET	DT	_	6	E	6:E	_
+6	album	album	NOUN	NN	_	4	A	4:A	_
+7	partly	partly	ADV	RB	_	8	D	8:D	_
+8	mixed	mix	VERB	VBN	_	6	E	6:E	_
+9	with	with	ADP	IN	_	12	R	12:R	_
+10	1980s	1980	NOUN	NNS	_	11	E	11:E	_
+11	influenced	influenced	ADJ	JJ	_	12	E	12:E	_
+12	disco	disco	NOUN	NN	_	0	C	0:C|22:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	other	other	ADJ	JJ	_	16	E	16:E	_
+15	similar	similar	ADJ	JJ	_	16	E	16:E	_
+16	genres	genre	NOUN	NNS	_	0	C	0:C|22:A	_
+17	,	,	PUNCT	,	_	4	U	4:U	_
+18	in	in	ADP	IN	_	4	L	4:L	_
+19	order	order	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	to	to	PART	TO	_	18	Terminal	18:Terminal	_
+21	go	go	VERB	VB	_	22	D	22:D	_
+22	hand	hand	NOUN	NN	_	4	H	4:H	_
+23	-	-	PUNCT	HYPH	_	22	U	22:U	_
+24	in	in	ADP	IN	_	22	Terminal	22:Terminal	_
+25	-	-	PUNCT	HYPH	_	22	U	22:U	_
+26	hand	hand	NOUN	NN	_	22	Terminal	22:Terminal	_
+27	with	with	ADP	IN	_	31	R	31:R	_
+28	the	the	DET	DT	_	31	E	31:E	_
+29	film	film	NOUN	NN	_	31	E	31:E	_
+30	's	's	PART	POS	_	29	R	29:R	_
+31	setting	setting	NOUN	NN	_	22	A	22:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25502012
+# text = » Wo fände man einen stilleren , ungestörteren Aufenthalt , Herr Professor ? « erwiderte Kapitän Nemo . Finden Sie im Studier zimmer Ihres Museums eine so vollständige Ruhe ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Wo	wo	ADV	PWAV	_	3	A	3:A	_
+3	fände	fänd	ADJ	NN	_	15	A	15:A	_
+4	man	man	PRON	PIS	_	3	A	3:A	_
+5	einen	ein	DET	ART	_	9	E	9:E	_
+6	stilleren	still	ADJ	ADJA	_	9	E	9:E	_
+7	,	,	PUNCT	$,	_	9	U	9:U	_
+8	ungestörteren	ungestört	ADJ	ADJA	_	9	E	9:E	_
+9	Aufenthalt	Aufenthalt	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	Herr	Herr	PROPN	NN	_	12	E	12:E	_
+12	Professor	Professor	PROPN	NN	_	3	G	3:G	_
+13	?	?	PUNCT	$.	_	15	U	15:U	_
+14	«	«	PUNCT	$(	_	15	U	15:U	_
+15	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+16	Kapitän	Kapitän	PROPN	NN	_	17	E	17:E	_
+17	Nemo	Nemo	PROPN	NE	_	15	A	15:A	_
+18	.	.	PUNCT	$.	_	15	U	15:U	_
+19	Finden	finden	NOUN	VVFIN	_	3	H	3:H	_
+20	Sie	Sie|sie	PRON	PPER	_	19	A	19:A	_
+21	im	im	ADV	NN	_	23	R	23:R	_
+22	Studier	Studier	NOUN	NN	_	23	E	23:E	_
+23	zimmer	zimmer	ADV	NN	_	19	A	19:A	_
+24	Ihres	ihr	PRON	PPOSAT	_	25	E	25:E	_
+25	Museums	Museum	NOUN	NN	_	23	E	23:E	_
+26	eine	ein	DET	ART	_	29	E	29:E	_
+27	so	so	ADV	ADV	_	28	E	28:E	_
+28	vollständige	vollständig	ADJ	CARD	_	29	E	29:E	_
+29	Ruhe	Ruhe	NOUN	NN	_	19	A	19:A	_
+30	?	?	PUNCT	$.	_	29	U	29:U	_
+31	«	«	PUNCT	$(	_	29	U	29:U	_
+

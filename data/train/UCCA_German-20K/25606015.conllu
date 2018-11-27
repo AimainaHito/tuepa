@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25606015
+# text = An anderen Stellen , wie bei Réunion und St . Moritz , errichten sie ausgezackte Riffe , hohe , gerad aufgebaute Fels wände neben unergründlichen Tiefen des Ozeans .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	anderen	ander	ADJ	ADJA	_	3	E	3:E	_
+3	Stellen	Stelle|Stellen	NOUN	NN	_	13	A	13:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wie	wie	ADP	KON	_	7	R	7:R	_
+6	bei	bei	ADP	APPR	_	7	E	7:E	_
+7	Réunion	Réunion	PROPN	NE	_	3	E	3:E	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	St	St	PROPN	NE	_	7	C	7:C	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	Moritz	Moritz	PROPN	NE	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	errichten	errichten	VERB	VVINF	_	0	H	0:H	_
+14	sie	sie	PRON	ADV	_	13	A	13:A	_
+15	ausgezackte	ausgezacken	ADJ	ADJA	_	16	E	16:E	_
+16	Riffe	Riff	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	$,	_	13	U	13:U	_
+18	hohe	hoch	ADJ	ADJA	_	23	E	23:E	_
+19	,	,	PUNCT	$,	_	23	U	23:U	_
+20	gerad	gerad	ADV	NN	_	21	E	21:E	_
+21	aufgebaute	aufgebaut	ADJ	ADJA	_	23	E	23:E	_
+22	Fels	Fels	NOUN	NN	_	23	E	23:E	_
+23	wände	wänd	ADJ	NN	_	13	A	13:A	_
+24	neben	neben	ADP	TRUNC	_	26	R	26:R	_
+25	unergründlichen	unergründlich	ADJ	ADJA	_	26	E	26:E	_
+26	Tiefen	tiefe	NOUN	NN	_	13	A	13:A	_
+27	des	der	DET	ART	_	28	R	28:R	_
+28	Ozeans	Ozeans	NOUN	NN	_	26	E	26:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

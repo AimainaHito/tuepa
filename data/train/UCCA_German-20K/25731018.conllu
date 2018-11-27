@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25731018
+# text = Aber unter dem dichten Skaphanderkleid fühlt man das nasse Element nicht mehr , und man meint mitten in einer Atmosphäre zu sein , die etwas dichter wie auf der Erde wäre .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	unter	unter	ADP	ADJD	_	5	R	5:R	_
+3	dem	der	DET	ART	_	5	E	5:E	_
+4	dichten	dicht	ADJ	ADJA	_	5	E	5:E	_
+5	Skaphanderkleid	Skaphanderkleid	NOUN	NN	_	6	A	6:A	_
+6	fühlt	fühlen	VERB	VVFIN	_	0	H	0:H	_
+7	man	man	PRON	PIS	_	6	A	6:A	_
+8	das	der	DET	ART	_	10	E	10:E	_
+9	nasse	naß	ADJ	NN	_	10	E	10:E	_
+10	Element	Element	NOUN	NN	_	6	A	6:A	_
+11	nicht	nicht	PART	CARD	_	6	D	6:D	_
+12	mehr	mehr	ADV	ADV	_	11	E	11:E	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	und	und	CCONJ	NE	_	6	L	6:L	_
+15	man	man	PRON	PIS	_	16	A	16:A|22:A	_
+16	meint	meinen	VERB	VVFIN	_	6	H	6:H	_
+17	mitten	mitten	ADV	ADV	_	20	R	20:R	_
+18	in	in	ADP	APPR	_	20	E	20:E	_
+19	einer	ein	DET	ART	_	20	E	20:E	_
+20	Atmosphäre	Atmosphäre	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	sein	sein	AUX	VAINF	_	16	A	16:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	die	der	PRON	PRELS	_	26	R	26:R	_
+25	etwas	etwas	PRON	ADV	_	26	D	26:D	_
+26	dichter	dicht	ADJ	ADJD	_	20	E	20:E	_
+27	wie	wie	ADV	ADV	_	30	R	30:R	_
+28	auf	auf	ADP	APPR	_	30	R	30:R	_
+29	der	der	DET	ART	_	30	E	30:E	_
+30	Erde	Erde	NOUN	NE	_	26	A	26:A	_
+31	wäre	sein	AUX	ADV	_	26	D	26:D	_
+32	.	.	PUNCT	$.	_	26	U	26:U	_
+

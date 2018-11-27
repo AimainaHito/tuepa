@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25488123
+# text = Wir hatten nur noch Zeit , uns fest an seinen oberen Teil , der etwa 80 Zentimeter über das Wasser emporragte , anzuklammern .
+1	Wir	wir	PRON	NE	_	5	A	5:A|7:A	_
+2	hatten	haben	VERB	VAFIN	_	5	F	5:F	_
+3	nur	nur	ADV	NE	_	4	E	4:E	_
+4	noch	noch	ADV	CARD	_	5	D	5:D	_
+5	Zeit	Zeit	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	uns	wir	PRON	NN	_	5	A	5:A	_
+8	fest	fest	ADV	ADJD	_	7	D	7:D	_
+9	an	an	ADP	APPR	_	12	R	12:R	_
+10	seinen	sein	DET	PPOSAT	_	12	E	12:E	_
+11	oberen	ober	ADJ	ADJA	_	12	E	12:E	_
+12	Teil	Teil	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	der	der	PRON	PRELS	_	21	R	21:R	_
+15	etwa	etwa	ADV	ADV	_	17	E	17:E	_
+16	80	80	NUM	CARD	_	17	E	17:E	_
+17	Zentimeter	Zentimeter	NOUN	NN	_	21	A	21:A	_
+18	über	über	ADP	ADJD	_	20	R	20:R	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	Wasser	Wasser	NOUN	NN	_	21	A	21:A	_
+21	emporragte	emporragt	ADJ	VVFIN	_	12	E	12:E	_
+22	,	,	PUNCT	$,	_	7	U	7:U	_
+23	anzuklammern	anzuklammern	ADJ	VVINF	_	7	Terminal	7:Terminal	_
+24	.	.	PUNCT	$.	_	7	U	7:U	_
+

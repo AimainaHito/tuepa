@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25485004
+# text = « » Ja « , erwiderte ich , » und Sie haben recht ! «
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Ja	Ja	PROPN	PTKANT	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	Sie	Sie|sie	PRON	PPER	_	12	A	12:A	_
+12	haben	haben	VERB	VAINF	_	3	H	3:H	_
+13	recht	recht	ADV	NE	_	12	Terminal	12:Terminal	_
+14	!	!	PUNCT	$.	_	12	U	12:U	_
+15	«	«	PUNCT	$(	_	12	U	12:U	_
+

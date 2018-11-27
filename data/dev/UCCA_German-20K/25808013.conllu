@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25808013
+# text = » Zu St . Malo « , erwiderte Conseil , ohne sich irre machen zu lassen .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Zu	zu	PROPN	NE	_	3	R	3:R	_
+3	St	st	PROPN	NN	_	8	A	8:A	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+5	Malo	Malo	PROPN	NE	_	3	Terminal	3:Terminal	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NE	_	8	A	8:A|12:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	ohne	ohne	ADP	NN	_	8	L	8:L	_
+12	sich	er|es|sie	PRON	PRF	_	8	H	8:H	_
+13	irre	irre	ADJ	ADJA	_	12	Terminal	12:Terminal	_
+14	machen	machen	VERB	VVINF	_	12	Terminal	12:Terminal	_
+15	zu	zu	PART	VVINF	_	12	F	12:F	_
+16	lassen	lassen	VERB	VVINF	_	12	D	12:D	_
+17	.	.	PUNCT	$.	_	12	U	12:U	_
+

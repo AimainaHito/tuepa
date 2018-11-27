@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 450005
+# text = " I loved girls , " he said . " I loved comic books . And for reasons I do n't understand , I was pretty lazy .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	I	I	PRON	PRP	_	3	A	3:A	_
+3	loved	love	VERB	VBD	_	8	A	8:A	_
+4	girls	girl	NOUN	NNS	_	3	A	3:A	_
+5	,	,	PUNCT	,	_	8	U	8:U	_
+6	"	"	PUNCT	''	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	said	say	VERB	VBD	_	0	H	0:H	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+10	"	"	PUNCT	''	_	8	U	8:U	_
+11	I	I	PRON	PRP	_	12	A	12:A	_
+12	loved	love	VERB	VBD	_	3	H	3:H	_
+13	comic	comic	ADJ	JJ	_	14	E	14:E	_
+14	books	book	NOUN	NNS	_	12	A	12:A	_
+15	.	.	PUNCT	.	_	3	U	3:U	_
+16	And	and	CCONJ	CC	_	3	L	3:L	_
+17	for	for	ADP	IN	_	18	R	18:R	_
+18	reasons	reason	NOUN	NNS	_	27	A	27:A	_
+19	I	I	PRON	PRP	_	22	A	22:A	_
+20	do	do	AUX	VBP	_	22	F	22:F	_
+21	n't	not	PART	RB	_	22	D	22:D	_
+22	understand	understand	VERB	VB	_	18	E	18:E	_
+23	,	,	PUNCT	,	_	27	U	27:U	_
+24	I	I	PRON	PRP	_	27	A	27:A	_
+25	was	be	AUX	VBD	_	27	F	27:F	_
+26	pretty	pretty	ADV	RB	_	27	D	27:D	_
+27	lazy	lazy	ADJ	JJ	_	3	H	3:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

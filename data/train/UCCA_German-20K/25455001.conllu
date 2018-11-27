@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25455001
+# text = Aber diese Antwort bewies doch nur die Hartnäckigkeit des Harpuniers .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Antwort	Antwort	NOUN	NN	_	4	A	4:A	_
+4	bewies	beweisen	VERB	VVFIN	_	0	H	0:H	_
+5	doch	doch	ADV	ADV	_	4	G	4:G	_
+6	nur	nur	ADV	NE	_	4	D	4:D	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Hartnäckigkeit	Hartnäckigkeit	NOUN	NN	_	4	A	4:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Harpuniers	Harpunier	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

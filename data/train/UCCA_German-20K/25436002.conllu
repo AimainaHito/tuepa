@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25436002
+# text = Doch ich kam von einer mühevollen Reise erschöpft , nach Ruhe mich sehnend .
+1	Doch	doch	CCONJ	KON	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A|6:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	von	von	ADP	NE	_	7	R	7:R	_
+5	einer	ein	DET	ART	_	7	E	7:E	_
+6	mühevollen	mühevoll	ADJ	ADJA	_	3	A	3:A	_
+7	Reise	Reise	NOUN	NN	_	6	A	6:A	_
+8	erschöpft	erschöpfen	VERB	VVPP	_	3	D	3:D	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	nach	nach	ADP	CARD	_	11	R	11:R	_
+11	Ruhe	Ruhe	NOUN	NN	_	3	A	3:A	_
+12	mich	ich	PRON	PPER	_	3	A	3:A	_
+13	sehnend	sehnend	ADV	ADJD	_	3	D	3:D	_
+14	.	.	PUNCT	$.	_	3	U	3:U	_
+

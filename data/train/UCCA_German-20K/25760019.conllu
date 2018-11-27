@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25760019
+# text = Welch scharfes Pfeifen und eigentümliches Schnarchen der von Entsetzen ergriffenen Tiere !
+1	Welch	welch	PRON	PWAT	_	3	A	3:A	_
+2	scharfes	scharf	ADJ	ADJA	_	3	D	3:D	_
+3	Pfeifen	Pfeife|Pfeifen	NOUN	NN	_	0	H	0:H	_
+4	und	und	CCONJ	NE	_	3	L	3:L	_
+5	eigentümliches	eigentümlich	ADJ	ADJA	_	6	D	6:D	_
+6	Schnarchen	Schnarchen	NOUN	NE	_	3	H	3:H	_
+7	der	der	DET	ART	_	11	R	11:R	_
+8	von	von	ADP	NE	_	9	R	9:R	_
+9	Entsetzen	Entsetzen	NOUN	VVFIN	_	10	A	10:A	_
+10	ergriffenen	ergriffenen	VERB	ADJA	_	11	E	11:E	_
+11	Tiere	Tier	NOUN	NN	_	0	C	0:C|10:A|3:A|9:A	_
+12	!	!	PUNCT	$.	_	3	U	3:U	_
+

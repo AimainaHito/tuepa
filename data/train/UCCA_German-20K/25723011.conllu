@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25723011
+# text = Aber diese offen ausgesprochene Absicht , uns ewig als Gefangene an seinem Bord festzuhalten , rechtfertigte unsere Gegenbemühungen .
+1	Aber	aber	SCONJ	KON	_	16	L	16:L	_
+2	diese	dies	PRON	PDS	_	5	E	5:E	_
+3	offen	offen	ADV	CARD	_	4	D	4:D	_
+4	ausgesprochene	ausgesprochen	ADJ	ADJA	_	16	A	16:A	_
+5	Absicht	Absicht	NOUN	NN	_	0	C	0:C|14:A	_
+6	,	,	PUNCT	$,	_	14	U	14:U	_
+7	uns	wir	PRON	NN	_	14	A	14:A	_
+8	ewig	ewig	ADV	ADJD	_	14	D	14:D	_
+9	als	als	ADP	KOKOM	_	10	R	10:R	_
+10	Gefangene	Gefangene	NOUN	NN	_	4	E	4:E	_
+11	an	an	ADP	APPR	_	13	R	13:R	_
+12	seinem	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Bord	Bord	NOUN	NN	_	14	A	14:A	_
+14	festzuhalten	festzuhalten	VERB	VVINF	_	4	E	4:E	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	rechtfertigte	rechtfertigt	VERB	VVFIN	_	0	H	0:H	_
+17	unsere	unser	PRON	PPOSAT	_	18	E	18:E	_
+18	Gegenbemühungen	Gegenbemühung	NOUN	NN	_	16	A	16:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

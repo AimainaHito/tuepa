@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 586006
+# text = On December 24 , 1983 , Depp married Lori Anne Allison , the sister of his band 's bass player and singer .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	8	D	8:D	_
+3	24	24	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1983	1983	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Depp	Depp	PROPN	NNP	_	8	A	8:A	_
+8	married	marry	VERB	VBD	_	0	H	0:H	_
+9	Lori	Lori	PROPN	NNP	_	8	A	8:A	_
+10	Anne	Anne	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Allison	Allison	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	sister	sister	NOUN	NN	_	9	E	9:E	_
+15	of	of	ADP	IN	_	20	R	20:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	band	band	NOUN	NN	_	20	E	20:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	bass	bass	NOUN	NN	_	20	E	20:E	_
+20	player	player	NOUN	NN	_	14	A	14:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	singer	singer	NOUN	NN	_	20	C	20:C	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 630007
+# text = Lennon twice chose his father , but as his mother walked away , he began to cry and followed her .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	twice	twice	ADV	RB	_	3	D	3:D	_
+3	chose	choose	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	father	father	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	but	but	CCONJ	CC	_	3	L	3:L	_
+8	as	as	SCONJ	IN	_	7	Terminal	7:Terminal	_
+9	his	he	PRON	PRP$	_	10	E	10:E	_
+10	mother	mother	NOUN	NN	_	11	A	11:A	_
+11	walked	walk	VERB	VBD	_	3	H	3:H	_
+12	away	away	ADV	RB	_	11	D	11:D	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	he	he	PRON	PRP	_	17	A	17:A|19:A	_
+15	began	begin	VERB	VBD	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	cry	cry	VERB	VB	_	3	H	3:H	_
+18	and	and	CCONJ	CC	_	3	L	3:L	_
+19	followed	follow	VERB	VBD	_	3	H	3:H	_
+20	her	she	PRON	PRP	_	19	A	19:A	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

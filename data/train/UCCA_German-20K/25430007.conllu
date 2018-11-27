@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25430007
+# text = Man hatte zu viel davon gesprochen , selbst vermittels des Kabels !
+1	Man	man	PRON	PIS	_	6	A	6:A	_
+2	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+3	zu	zu	ADP	NE	_	6	D	6:D	_
+4	viel	viel	PRON	NE	_	3	Terminal	3:Terminal	_
+5	davon	davon	PRON	PAV	_	6	A	6:A	_
+6	gesprochen	sprechen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	selbst	selbst	ADV	VVFIN	_	6	D	6:D	_
+9	vermittels	vermittels	ADP	NE	_	11	E	11:E	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Kabels	Kabel	NOUN	NN	_	6	D	6:D	_
+12	!	!	PUNCT	$.	_	11	U	11:U	_
+

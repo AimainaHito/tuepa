@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 114000
+# text = Katharine Houghton Hepburn ( May 12 , 1907 - June 29 2003 , ) was an American actress of film , stage , and television .
+1	Katharine	Katharine	PROPN	NNP	_	15	A	15:A	_
+2	Houghton	Houghton	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Hepburn	Hepburn	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+5	May	May	PROPN	NNP	_	1	E	1:E	_
+6	12	12	NUM	CD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	1907	1907	NUM	CD	_	5	Terminal	5:Terminal	_
+9	-	-	PUNCT	:	_	5	U	5:U	_
+10	June	June	PROPN	NNP	_	5	C	5:C	_
+11	29	29	NUM	CD	_	10	Terminal	10:Terminal	_
+12	2003	2003	NUM	CD	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	15	U	15:U	_
+14	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+15	was	be	AUX	VBD	_	0	H	0:H	_
+16	an	a	DET	DT	_	18	E	18:E	_
+17	American	american	ADJ	JJ	_	18	E	18:E	_
+18	actress	actress	NOUN	NN	_	15	A	15:A	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	film	film	NOUN	NN	_	18	E	18:E	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	stage	stage	NOUN	NN	_	20	C	20:C	_
+23	,	,	PUNCT	,	_	20	U	20:U	_
+24	and	and	CCONJ	CC	_	20	N	20:N	_
+25	television	television	NOUN	NN	_	20	C	20:C	_
+26	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25490028
+# text = Als ich mit voller Brust diese Luft eingeschlürft , suchte ich nach der Luft leitung , der Röhre , die uns diese Erquickung zugeführt hatte , und entdeckte über der Tür ein Luft loch , das eine frische Strömung hereinließ , um so die verdorbene Luft der Zelle zu erneuern .
+1	Als	als	SCONJ	KOUS	_	8	L	8:L	_
+2	ich	ich	PRON	PPER	_	8	A	8:A	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	voller	voll	ADJ	ADJA	_	5	E	5:E	_
+5	Brust	Brust	NOUN	NN	_	8	A	8:A	_
+6	diese	dies	PRON	PDAT	_	7	E	7:E	_
+7	Luft	Luft	NOUN	NN	_	8	A	8:A	_
+8	eingeschlürft	eingeschlürfen	VERB	VVFIN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	suchte	suchen	VERB	VVFIN	_	8	H	8:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A|28:A	_
+12	nach	nach	ADP	ADJA	_	15	R	15:R	_
+13	der	der	DET	ART	_	15	E	15:E	_
+14	Luft	Luft	NOUN	NN	_	15	E	15:E	_
+15	leitung	leitung	PROPN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	$,	_	10	U	10:U	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Röhre	Röhre	NOUN	NN	_	10	A	10:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	die	der	PRON	PRELS	_	24	R	24:R	_
+21	uns	wir	PRON	NN	_	24	A	24:A	_
+22	diese	dies	PRON	PDAT	_	23	E	23:E	_
+23	Erquickung	Erquickung	NOUN	NN	_	24	A	24:A	_
+24	zugeführt	zugeführen	VERB	VVPP	_	18	E	18:E	_
+25	hatte	haben	AUX	VAFIN	_	24	F	24:F	_
+26	,	,	PUNCT	$,	_	8	U	8:U	_
+27	und	und	CCONJ	NE	_	8	L	8:L	_
+28	entdeckte	entdecken	VERB	VVFIN	_	8	H	8:H	_
+29	über	über	ADP	VVFIN	_	31	R	31:R	_
+30	der	der	DET	ART	_	31	E	31:E	_
+31	Tür	Tür	NOUN	NN	_	28	A	28:A	_
+32	ein	ein	DET	ART	_	34	E	34:E	_
+33	Luft	Luft	NOUN	NN	_	34	E	34:E	_
+34	loch	loch	ADV	NN	_	0	C	0:C|40:A|50:A	_
+35	,	,	PUNCT	$,	_	34	U	34:U	_
+36	das	der	PRON	PRELS	_	40	R	40:R	_
+37	eine	ein	DET	ART	_	39	E	39:E	_
+38	frische	frisch	ADJ	ADJA	_	39	E	39:E	_
+39	Strömung	Strömung	NOUN	NN	_	40	A	40:A	_
+40	hereinließ	hereinlassen	VERB	VVFIN	_	34	E	34:E	_
+41	,	,	PUNCT	$,	_	8	U	8:U	_
+42	um	um	ADP	KOUI	_	8	L	8:L	_
+43	so	so	ADV	ADV	_	50	D	50:D	_
+44	die	der	DET	ART	_	46	E	46:E	_
+45	verdorbene	verdorben	ADJ	ADJA	_	46	E	46:E	_
+46	Luft	Luft	NOUN	NN	_	50	A	50:A	_
+47	der	der	DET	ART	_	48	R	48:R	_
+48	Zelle	Zelle	NOUN	NN	_	46	E	46:E	_
+49	zu	zu	PART	VVINF	_	50	F	50:F	_
+50	erneuern	erneuern	VERB	VVINF	_	8	H	8:H	_
+51	.	.	PUNCT	$.	_	50	U	50:U	_
+

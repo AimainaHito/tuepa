@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 130003
+# text = " She would not give interviews and denied requests for autographs , which earned her the nickname " Katharine of Arrogance " . The public were also baffled by her boyish behavior and fashion choices , and she became a largely unpopular figure .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	She	she	PRON	PRP	_	5	A	5:A|8:A	_
+3	would	would	AUX	MD	_	5	F	5:F	_
+4	not	not	PART	RB	_	5	D	5:D	_
+5	give	give	VERB	VB	_	0	H	0:H	_
+6	interviews	interview	NOUN	NNS	_	5	A	5:A	_
+7	and	and	CCONJ	CC	_	5	L	5:L	_
+8	denied	deny	VERB	VBN	_	5	H	5:H|14:A	_
+9	requests	request	NOUN	NNS	_	8	A	8:A	_
+10	for	for	ADP	IN	_	11	R	11:R	_
+11	autographs	autograph	NOUN	NNS	_	9	E	9:E	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	which	which	PRON	WDT	_	5	L	5:L	_
+14	earned	earn	VERB	VBD	_	5	H	5:H	_
+15	her	she	PRON	PRP	_	14	A	14:A	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	nickname	nickname	NOUN	NN	_	14	A	14:A	_
+18	"	"	PUNCT	``	_	17	U	17:U	_
+19	Katharine	Katharine	PROPN	NNP	_	17	E	17:E	_
+20	of	of	ADP	IN	_	19	Terminal	19:Terminal	_
+21	Arrogance	arrogance	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	"	"	PUNCT	''	_	5	U	5:U	_
+23	.	.	PUNCT	.	_	5	U	5:U	_
+24	The	the	DET	DT	_	25	E	25:E	_
+25	public	public	NOUN	NN	_	28	A	28:A	_
+26	were	be	AUX	VBD	_	28	F	28:F	_
+27	also	also	ADV	RB	_	28	D	28:D	_
+28	baffled	baffle	VERB	VBN	_	5	H	5:H	_
+29	by	by	ADP	IN	_	32	R	32:R	_
+30	her	she	PRON	PRP$	_	32	E	32:E	_
+31	boyish	boyish	ADJ	JJ	_	32	E	32:E	_
+32	behavior	behavior	NOUN	NN	_	28	A	28:A	_
+33	and	and	CCONJ	CC	_	32	N	32:N	_
+34	fashion	fashion	NOUN	NN	_	35	E	35:E	_
+35	choices	choice	NOUN	NNS	_	32	C	32:C	_
+36	,	,	PUNCT	,	_	5	U	5:U	_
+37	and	and	CCONJ	CC	_	5	L	5:L	_
+38	she	she	PRON	PRP	_	39	A	39:A	_
+39	became	become	VERB	VBD	_	5	H	5:H	_
+40	a	a	DET	DT	_	43	E	43:E	_
+41	largely	largely	ADV	RB	_	42	E	42:E	_
+42	unpopular	unpopular	ADJ	JJ	_	43	E	43:E	_
+43	figure	figure	NOUN	NN	_	39	A	39:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

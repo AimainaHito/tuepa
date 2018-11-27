@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 549001
+# text = to run some of the company 's distributions and exhibition division .
+1	to	to	PART	TO	_	2	F	2:F	_
+2	run	run	VERB	VB	_	0	H	0:H	_
+3	some	some	DET	DT	_	11	E	11:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	company	company	NOUN	NN	_	11	E	11:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	distributions	distribution	NOUN	NNS	_	11	E	11:E	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	exhibition	exhibition	NOUN	NN	_	8	C	8:C	_
+11	division	division	NOUN	NN	_	2	A	2:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

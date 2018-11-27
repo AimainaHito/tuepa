@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 444000
+# text = Précisément , et ainsi que cela arrive toujours , du moment que l' on se fut décidé à poursuivre le monstre , le monstre ne reparut plus .
+1	Précisément	précisément	ADV	_	_	11	E	11:E	_
+2	,	,	PUNCT	_	_	7	U	7:U	_
+3	et	et	CCONJ	_	_	7	L	7:L	_
+4	ainsi	ainsi	ADV	_	_	7	L	7:L	_
+5	que	que	SCONJ	_	_	4	Terminal	4:Terminal	_
+6	cela	cela	PRON	_	_	7	A	7:A	_
+7	arrive	arriver	VERB	_	_	0	H	0:H	_
+8	toujours	toujours	ADV	_	_	7	D	7:D	_
+9	,	,	PUNCT	_	_	7	U	7:U	_
+10	du	du	DET	_	_	11	R	11:R	_
+11	moment	moment	NOUN	_	_	7	L	7:L	_
+12	que	que	SCONJ	_	_	11	R	11:R	_
+13	l'	le	PART	_	_	15	F	15:F	_
+14	on	on	PRON	_	_	15	A	15:A	_
+15	se	se	PRON	_	_	7	H	7:H	_
+16	fut	être	AUX	_	_	15	F	15:F	_
+17	décidé	décider	VERB	_	_	15	Terminal	15:Terminal	_
+18	à	à	ADP	_	_	15	F	15:F	_
+19	poursuivre	poursuivre	VERB	_	_	15	A	15:A	_
+20	le	le	DET	_	_	21	E	21:E	_
+21	monstre	monstre	NOUN	_	_	19	A	19:A	_
+22	,	,	PUNCT	_	_	7	U	7:U	_
+23	le	le	DET	_	_	24	E	24:E	_
+24	monstre	monstre	NOUN	_	_	26	A	26:A	_
+25	ne	ne	ADV	_	_	26	D	26:D	_
+26	reparut	reparaître	VERB	_	_	7	H	7:H	_
+27	plus	plus	ADV	_	_	25	Terminal	25:Terminal	_
+28	.	.	PUNCT	_	_	26	U	26:U	_
+

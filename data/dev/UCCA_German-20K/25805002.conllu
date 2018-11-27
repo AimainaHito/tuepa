@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25805002
+# text = Zudem sind sie eßbar und von ausgezeichnetem Geschmack .
+1	Zudem	zudem	ADV	PAV	_	4	L	4:L	_
+2	sind	sein	AUX	NE	_	4	F	4:F	_
+3	sie	sie	PRON	ADV	_	4	A	4:A|8:A	_
+4	eßbar	eßbar	ADJ	ADJD	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	L	4:L	_
+6	von	von	ADP	NE	_	8	R	8:R	_
+7	ausgezeichnetem	ausgezeichnet	ADJ	ADJA	_	8	D	8:D	_
+8	Geschmack	Geschmack	NOUN	NN	_	4	H	4:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

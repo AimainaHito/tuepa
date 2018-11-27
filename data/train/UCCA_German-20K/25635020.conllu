@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25635020
+# text = Doch ans Werk ! «
+1	Doch	doch	ADV	KON	_	3	L	3:L	_
+2	ans	ans	ADP	NE	_	3	R	3:R	_
+3	Werk	Werk	NOUN	NN	_	0	H	0:H	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	«	«	PUNCT	$(	_	3	U	3:U	_
+

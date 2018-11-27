@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25613000
+# text = Als darauf Dumont d'Urville abreisen wollte , wurde er durch Krankheiten seiner Mannschaft zurückgehalten und selbst sehr krank , so dass er erst am 17 . März unter Segel gehen konnte .
+1	Als	als	SCONJ	KOUS	_	5	L	5:L	_
+2	darauf	darauf	ADV	PAV	_	5	L	5:L	_
+3	Dumont	Dumont	PROPN	NE	_	5	A	5:A|18:A	_
+4	d'Urville	d'Urville	PROPN	NE	_	3	Terminal	3:Terminal	_
+5	abreisen	abreisen	VERB	VVINF	_	0	H	0:H	_
+6	wollte	wollen	AUX	VMFIN	_	5	D	5:D	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	wurde	werden	AUX	NN	_	14	F	14:F	_
+9	er	er	PRON	PPER	_	14	A	14:A	_
+10	durch	durch	ADP	APPR	_	11	R	11:R	_
+11	Krankheiten	Krankheit	NOUN	NN	_	14	A	14:A	_
+12	seiner	sein	DET	PPOSAT	_	13	R	13:R	_
+13	Mannschaft	Mannschaft	NOUN	NN	_	11	E	11:E	_
+14	zurückgehalten	zurückgehalten	VERB	VVFIN	_	5	H	5:H	_
+15	und	und	CCONJ	NE	_	5	L	5:L	_
+16	selbst	selbst	ADV	VVFIN	_	18	D	18:D	_
+17	sehr	sehr	ADV	NE	_	18	D	18:D	_
+18	krank	krank	ADJ	ADJD	_	5	H	5:H	_
+19	,	,	PUNCT	$,	_	5	U	5:U	_
+20	so	so	ADV	ADV	_	5	L	5:L	_
+21	dass	dass	SCONJ	KOUS	_	20	Terminal	20:Terminal	_
+22	er	er	PRON	PPER	_	28	A	28:A	_
+23	erst	erst	ADV	ADV	_	28	D	28:D	_
+24	am	ommen	VERB	ADJD	_	25	E	25:E	_
+25	17	17	NUM	CARD	_	28	D	28:D	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+27	März	März	PROPN	NN	_	25	Terminal	25:Terminal	_
+28	unter	unter	ADP	ADJA	_	5	H	5:H	_
+29	Segel	segel	NOUN	NN	_	28	Terminal	28:Terminal	_
+30	gehen	gehen	VERB	VVINF	_	28	Terminal	28:Terminal	_
+31	konnte	können	AUX	VMFIN	_	28	D	28:D	_
+32	.	.	PUNCT	$.	_	28	U	28:U	_
+

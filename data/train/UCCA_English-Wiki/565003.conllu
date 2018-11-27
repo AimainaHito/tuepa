@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 565003
+# text = Moore recalled , " He 'd start out , ' You ai n't nothin ' but a Hound Dog , ' and they 'd just go to pieces . They 'd always react the same way . There 'd be a riot every time .
+1	Moore	Moore	PROPN	NNP	_	2	A	2:A	_
+2	recalled	recall	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	He	he	PRON	PRP	_	7	A	7:A	_
+6	'd	would	AUX	MD	_	7	F	7:F	_
+7	start	start	VERB	VB	_	2	A	2:A	_
+8	out	out	ADP	RP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	'	'	PUNCT	``	_	7	U	7:U	_
+11	You	you	PRON	PRP	_	7	A	7:A	_
+12	ai	be	AUX	VBP	_	11	Terminal	11:Terminal	_
+13	n't	not	PART	RB	_	11	Terminal	11:Terminal	_
+14	nothin	nothin	VERB	VB	_	11	Terminal	11:Terminal	_
+15	'	'	PUNCT	``	_	11	U	11:U	_
+16	but	but	CCONJ	CC	_	11	Terminal	11:Terminal	_
+17	a	a	DET	DT	_	11	Terminal	11:Terminal	_
+18	Hound	Hound	PROPN	NNP	_	11	Terminal	11:Terminal	_
+19	Dog	dog	PROPN	NNP	_	11	Terminal	11:Terminal	_
+20	,	,	PUNCT	,	_	7	U	7:U	_
+21	'	'	PUNCT	''	_	7	U	7:U	_
+22	and	and	CCONJ	CC	_	7	L	7:L	_
+23	they	they	PRON	PRP	_	26	A	26:A	_
+24	'd	would	AUX	MD	_	26	F	26:F	_
+25	just	just	ADV	RB	_	26	D	26:D	_
+26	go	go	VERB	VB	_	7	H	7:H	_
+27	to	to	ADP	IN	_	26	Terminal	26:Terminal	_
+28	pieces	piece	NOUN	NNS	_	26	Terminal	26:Terminal	_
+29	.	.	PUNCT	.	_	7	U	7:U	_
+30	They	they	PRON	PRP	_	33	A	33:A	_
+31	'd	would	AUX	MD	_	33	F	33:F	_
+32	always	always	ADV	RB	_	33	D	33:D	_
+33	react	react	VERB	VB	_	7	H	7:H	_
+34	the	the	DET	DT	_	36	E	36:E	_
+35	same	same	ADJ	JJ	_	36	E	36:E	_
+36	way	way	NOUN	NN	_	33	D	33:D	_
+37	.	.	PUNCT	.	_	7	U	7:U	_
+38	There	there	PRON	EX	_	40	F	40:F	_
+39	'd	would	AUX	MD	_	40	F	40:F	_
+40	be	be	VERB	VB	_	7	H	7:H	_
+41	a	a	DET	DT	_	42	E	42:E	_
+42	riot	riot	NOUN	NN	_	40	A	40:A	_
+43	every	every	DET	DT	_	44	E	44:E	_
+44	time	time	NOUN	NN	_	40	D	40:D	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

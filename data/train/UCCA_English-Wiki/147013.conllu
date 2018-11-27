@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 147013
+# text = They first met while Hepburn was filming Sylvia Scarlett , when they were introduced by their mutual friend Cary Grant .
+1	They	they	PRON	PRP	_	3	A	3:A	_
+2	first	first	ADV	RB	_	3	D	3:D	_
+3	met	meet	VERB	VBD	_	0	H	0:H	_
+4	while	while	SCONJ	IN	_	3	L	3:L	_
+5	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	filming	filming	VERB	VBG	_	3	H	3:H	_
+8	Sylvia	Sylvia	PROPN	NNP	_	7	A	7:A	_
+9	Scarlett	Scarlett	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	when	when	ADV	WRB	_	3	L	3:L	_
+12	they	they	PRON	PRP	_	14	A	14:A	_
+13	were	be	AUX	VBD	_	14	F	14:F	_
+14	introduced	introduce	VERB	VBN	_	3	H	3:H	_
+15	by	by	ADP	IN	_	19	R	19:R	_
+16	their	they	PRON	PRP$	_	18	E	18:E	_
+17	mutual	mutual	ADJ	JJ	_	18	E	18:E	_
+18	friend	friend	NOUN	NN	_	19	E	19:E	_
+19	Cary	Cary	PROPN	NNP	_	14	A	14:A	_
+20	Grant	grant	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

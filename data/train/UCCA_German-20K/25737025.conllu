@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25737025
+# text = Zahlreiche Fische zogen seine Blicke an , und in die Tiefen der Klassifikation versunken , befand er sich nicht mehr in der wirklichen Welt .
+1	Zahlreiche	zahlreich	ADJ	ADJA	_	2	E	2:E	_
+2	Fische	Fisch	NOUN	NN	_	3	A	3:A	_
+3	zogen	ziehen	VERB	VVFIN	_	0	H	0:H	_
+4	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Blicke	Blicke	NOUN	NN	_	3	A	3:A	_
+6	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Tiefen	tiefe	NOUN	NN	_	13	A	13:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Klassifikation	Klassifikation	NOUN	NN	_	14	A	14:A	_
+14	versunken	versunken	VERB	VVINF	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	befand	befinden	VERB	VVFIN	_	3	H	3:H	_
+17	er	er	PRON	PPER	_	16	A	16:A|13:A|14:A	_
+18	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+19	nicht	nicht	PART	CARD	_	16	D	16:D	_
+20	mehr	mehr	ADV	ADV	_	19	E	19:E	_
+21	in	in	ADP	APPR	_	24	R	24:R	_
+22	der	der	DET	ART	_	24	E	24:E	_
+23	wirklichen	wirklich	ADJ	ADJA	_	24	E	24:E	_
+24	Welt	Welt	NOUN	NN	_	16	A	16:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

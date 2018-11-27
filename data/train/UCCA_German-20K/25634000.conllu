@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25634000
+# text = Ich blieb so einige Stunden allein , dachte bald an die Eingeborenen - aber ohne sie weiter zu fürchten , da die unverwüstliche Zuversicht des Kapitäns auf mich überging - bald vergaß ich sie in Bewunderung des Glanzes dieser tropischen Nacht .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|8:A|19:A	_
+2	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+3	so	so	ADV	ADV	_	5	E	5:E	_
+4	einige	einige	PRON	PIAT	_	5	E	5:E	_
+5	Stunden	Stunde|Stunden	NOUN	NN	_	2	D	2:D	_
+6	allein	allein	ADJ	ADV	_	2	Terminal	2:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	dachte	denken	VERB	VVFIN	_	2	H	2:H	_
+9	bald	bald	ADV	ADV	_	2	L	2:L	_
+10	an	an	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Eingeborenen	eingeboren	NOUN	ADJA	_	8	A	8:A	_
+13	-	-	PUNCT	$(	_	2	U	2:U	_
+14	aber	aber	ADV	ADV	_	2	L	2:L	_
+15	ohne	ohne	SCONJ	CARD	_	2	L	2:L	_
+16	sie	sie	PRON	ADV	_	19	A	19:A	_
+17	weiter	weit	ADV	ADV	_	19	D	19:D	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	fürchten	fürchen	VERB	VVINF	_	2	H	2:H	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	da	da	SCONJ	KOUS	_	2	L	2:L	_
+22	die	der	DET	ART	_	24	E	24:E	_
+23	unverwüstliche	unverwüstlich	ADJ	ADJA	_	24	D	24:D	_
+24	Zuversicht	Zuversicht	NOUN	NN	_	29	A	29:A	_
+25	des	der	DET	ART	_	26	R	26:R	_
+26	Kapitäns	Kapitän	NOUN	NN	_	24	A	24:A	_
+27	auf	auf	ADP	APPR	_	28	R	28:R	_
+28	mich	ich	PRON	PPER	_	29	A	29:A	_
+29	überging	übergehen	VERB	VVFIN	_	2	H	2:H	_
+30	-	-	PUNCT	$(	_	2	U	2:U	_
+31	bald	bald	ADV	ADV	_	2	L	2:L	_
+32	vergaß	vergitzen	VERB	VVFIN	_	2	H	2:H	_
+33	ich	ich	PRON	PPER	_	32	A	32:A|36:A	_
+34	sie	sie	PRON	TRUNC	_	32	A	32:A	_
+35	in	in	ADP	APPR	_	36	R	36:R	_
+36	Bewunderung	Bewunderung	NOUN	NN	_	2	H	2:H	_
+37	des	der	DET	ART	_	38	R	38:R	_
+38	Glanzes	Glanz	NOUN	NN	_	36	A	36:A	_
+39	dieser	dies	PRON	PDAT	_	41	R	41:R	_
+40	tropischen	tropischen	ADJ	ADJA	_	41	E	41:E	_
+41	Nacht	Nacht	NOUN	NN	_	38	E	38:E	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

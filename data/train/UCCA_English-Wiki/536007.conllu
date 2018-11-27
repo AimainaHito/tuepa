@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 536007
+# text = Given to decisiveness , Warner once commented , " If I 'm right fifty - one percent of the time , I 'm ahead of the game . "
+1	Given	give	VERB	VBN	_	3	L	3:L	_
+2	to	to	ADP	IN	_	3	F	3:F	_
+3	decisiveness	decisiveness	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Warner	Warner	PROPN	NNP	_	7	A	7:A|3:A	_
+6	once	once	ADV	RB	_	7	D	7:D	_
+7	commented	comment	VERB	VBD	_	3	H	3:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	"	"	PUNCT	``	_	7	U	7:U	_
+10	If	if	SCONJ	IN	_	13	L	13:L	_
+11	I	I	PRON	PRP	_	13	A	13:A	_
+12	'm	be	AUX	VBP	_	13	F	13:F	_
+13	right	right	ADV	RB	_	7	A	7:A	_
+14	fifty	fifty	NUM	CD	_	17	E	17:E	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	one	one	NUM	CD	_	14	Terminal	14:Terminal	_
+17	percent	percent	NOUN	NN	_	20	E	20:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	time	time	NOUN	NN	_	13	D	13:D	_
+21	,	,	PUNCT	,	_	13	U	13:U	_
+22	I	I	PRON	PRP	_	24	A	24:A	_
+23	'm	be	AUX	VBP	_	24	F	24:F	_
+24	ahead	ahead	ADP	IN	_	13	H	13:H	_
+25	of	of	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	game	game	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+29	"	"	PUNCT	''	_	27	U	27:U	_
+

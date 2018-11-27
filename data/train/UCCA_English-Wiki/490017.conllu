@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 490017
+# text = The film details the central role that racing and fixing this same car has played in his life and the lives of his friends .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	details	detail	VERB	VBZ	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	central	central	ADJ	JJ	_	6	E	6:E	_
+6	role	role	NOUN	NN	_	3	A	3:A	_
+7	that	that	SCONJ	IN	_	15	F	15:F	_
+8	racing	race	VERB	VBG	_	15	A	15:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	fixing	fix	VERB	VBG	_	8	C	8:C	_
+11	this	this	DET	DT	_	13	E	13:E	_
+12	same	same	ADJ	JJ	_	13	E	13:E	_
+13	car	car	NOUN	NN	_	8	A	8:A	_
+14	has	have	AUX	VBZ	_	15	F	15:F	_
+15	played	play	VERB	VBN	_	6	E	6:E	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	life	life	NOUN	NN	_	15	A	15:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	lives	life	NOUN	NNS	_	18	C	18:C	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	his	he	PRON	PRP$	_	24	E	24:E	_
+24	friends	friend	NOUN	NNS	_	21	E	21:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

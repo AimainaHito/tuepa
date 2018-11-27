@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25489108
+# text = « » Pah ! « erwiderte der Harpunier im Ärger , » was Teufel meinen Sie denn , was man hier speist ? Schildkröten leber , Lenden stück vom Hai , Beefsteak vom Seehund !
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Pah	Pah	PROPN	NE	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Harpunier	Harpunier	NOUN	NN	_	6	A	6:A	_
+9	im	im	PROPN	NE	_	10	R	10:R	_
+10	Ärger	Ärger	PROPN	NE	_	6	A	6:A	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	»	»	PUNCT	$(	_	6	U	6:U	_
+13	was	was	PRON	NE	_	15	A	15:A	_
+14	Teufel	Teufel	NOUN	NN	_	15	F	15:F	_
+15	meinen	meinen	VERB	PPOSAT	_	3	H	3:H	_
+16	Sie	Sie|sie	PRON	PPER	_	15	A	15:A	_
+17	denn	denn	ADV	ADV	_	15	F	15:F	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	was	was	PRON	NE	_	22	A	22:A	_
+20	man	man	PRON	PIS	_	22	A	22:A	_
+21	hier	hier	ADV	ADV	_	22	A	22:A	_
+22	speist	speisen	VERB	VVFIN	_	3	H	3:H	_
+23	?	?	PUNCT	$.	_	25	U	25:U	_
+24	Schildkröten	Schildkröte	NOUN	NN	_	25	E	25:E	_
+25	leber	leb	ADV	NN	_	3	H	3:H	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	Lenden	Lenden	PROPN	NE	_	28	E	28:E	_
+28	stück	stück	CCONJ	NE	_	25	C	25:C	_
+29	vom	vom	PROPN	NE	_	30	R	30:R	_
+30	Hai	Hai	PROPN	NE	_	28	E	28:E	_
+31	,	,	PUNCT	$,	_	25	U	25:U	_
+32	Beefsteak	Beefsteak	PROPN	NE	_	25	C	25:C	_
+33	vom	vom	PROPN	NE	_	34	R	34:R	_
+34	Seehund	Seehund	PROPN	NE	_	32	E	32:E	_
+35	!	!	PUNCT	$.	_	34	U	34:U	_
+

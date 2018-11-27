@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 510009
+# text = He sang in a duet of his 1972 song " Changes " with Butterfly Boucher for the 2004 animated film Shrek 2 .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	sang	sang	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	duet	duet	NOUN	NN	_	2	A	2:A	_
+6	of	of	ADP	IN	_	11	R	11:R	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	1972	1972	NUM	CD	_	9	E	9:E	_
+9	song	song	NOUN	NN	_	11	E	11:E	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	Changes	change	NOUN	NNS	_	5	E	5:E	_
+12	"	"	PUNCT	''	_	2	U	2:U	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	Butterfly	butterfly	PROPN	NNP	_	2	A	2:A	_
+15	Boucher	Boucher	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	for	for	ADP	IN	_	21	R	21:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	2004	2004	NUM	CD	_	20	E	20:E	_
+19	animated	animated	ADJ	JJ	_	20	E	20:E	_
+20	film	film	NOUN	NN	_	21	E	21:E	_
+21	Shrek	Shrek	NOUN	NN	_	2	A	2:A	_
+22	2	2	NUM	CD	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 618004
+# text = Also that year , Swan Records released the group 's UK Parlophone single " She Loves You " / " I 'll Get You " in the US .
+1	Also	also	ADV	RB	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Swan	Swan	PROPN	NNP	_	6	E	6:E	_
+6	Records	record	NOUN	NNS	_	7	A	7:A	_
+7	released	release	VERB	VBD	_	0	H	0:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	group	group	NOUN	NN	_	13	E	13:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	UK	UK	PROPN	NNP	_	13	E	13:E	_
+12	Parlophone	Parlophone	PROPN	NNP	_	13	E	13:E	_
+13	single	single	ADJ	JJ	_	15	E	15:E	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	She	she	PRON	PRP	_	7	A	7:A	_
+16	Loves	love	VERB	VBZ	_	15	Terminal	15:Terminal	_
+17	You	you	PRON	PRP	_	15	Terminal	15:Terminal	_
+18	"	"	PUNCT	``	_	15	U	15:U	_
+19	/	/	PUNCT	,	_	15	U	15:U	_
+20	"	"	PUNCT	''	_	15	U	15:U	_
+21	I	I	PRON	PRP	_	15	C	15:C	_
+22	'll	will	AUX	MD	_	21	Terminal	21:Terminal	_
+23	Get	get	VERB	VB	_	21	Terminal	21:Terminal	_
+24	You	you	PRON	PRP	_	21	Terminal	21:Terminal	_
+25	"	"	PUNCT	``	_	7	U	7:U	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	US	US	PROPN	NNP	_	7	A	7:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

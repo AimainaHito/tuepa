@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25589001
+# text = » Gut ! « sagte der Harpunier enttäuscht , da er seine Träume von frischem Fleisch schwinden sah .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Gut	gut	NOUN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Harpunier	Harpunier	NOUN	NN	_	5	A	5:A	_
+8	enttäuscht	enttäuscht	VERB	ADJD	_	5	D	5:D	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	da	da	SCONJ	KOUS	_	5	L	5:L	_
+11	er	er	PRON	PPER	_	18	A	18:A	_
+12	seine	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Träume	Traum	NOUN	NN	_	17	A	17:A	_
+14	von	von	ADP	NN	_	16	R	16:R	_
+15	frischem	frischem	ADJ	ADJA	_	16	E	16:E	_
+16	Fleisch	Fleisch	NOUN	NN	_	13	E	13:E	_
+17	schwinden	schwinden	VERB	VVINF	_	18	A	18:A	_
+18	sah	sehen	VERB	VVFIN	_	5	H	5:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

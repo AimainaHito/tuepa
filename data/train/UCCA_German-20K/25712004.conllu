@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25712004
+# text = » Nun , ich denke - ich sage nicht hoffe - , ich denke , dass diese günstige Gelegenheit sich nicht ergeben wird . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Nun	nun	ADV	ADV	_	5	F	5:F	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	denke	denken	VERB	VVFIN	_	0	H	0:H	_
+6	-	-	PUNCT	$(	_	5	U	5:U	_
+7	ich	ich	PRON	PPER	_	8	A	8:A|10:A	_
+8	sage	sagen	VERB	NN	_	5	H	5:H	_
+9	nicht	nicht	PART	CARD	_	8	D	8:D	_
+10	hoffe	hoff	ADJ	VVFIN	_	8	A	8:A	_
+11	-	-	PUNCT	$(	_	5	U	5:U	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	denke	denken	VERB	VVFIN	_	5	H	5:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+17	diese	dies	PRON	PDAT	_	19	E	19:E	_
+18	günstige	günstig	ADJ	ADJA	_	19	E	19:E	_
+19	Gelegenheit	Gelegenheit	NOUN	NN	_	20	A	20:A	_
+20	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+21	nicht	nicht	PART	CARD	_	20	D	20:D	_
+22	ergeben	ergeben	VERB	VVPP	_	20	Terminal	20:Terminal	_
+23	wird	werden	AUX	VAFIN	_	20	F	20:F	_
+24	.	.	PUNCT	$.	_	20	U	20:U	_
+25	«	«	PUNCT	$(	_	20	U	20:U	_
+

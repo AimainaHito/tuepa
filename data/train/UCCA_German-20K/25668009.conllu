@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25668009
+# text = Die mancherlei Fische , die uns begleiteten , waren durch das elektrische Licht angelockt : die meisten blieben bald zurück , manche konnten sich jedoch eine Zeitlang neben ihr halten .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	mancherlei	mancherlei	NUM	PIAT	_	3	E	3:E	_
+3	Fische	Fisch	NOUN	NN	_	0	C	0:C|7:A|18:A|24:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	PRON	PRELS	_	7	R	7:R	_
+6	uns	wir	PRON	NN	_	7	A	7:A	_
+7	begleiteten	begleiten	VERB	VVFIN	_	3	E	3:E	_
+8	,	,	PUNCT	$,	_	14	U	14:U	_
+9	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+10	durch	durch	ADP	APPR	_	13	R	13:R	_
+11	das	der	DET	ART	_	13	E	13:E	_
+12	elektrische	elektrisch	ADJ	ADJA	_	13	E	13:E	_
+13	Licht	Licht	NOUN	NN	_	14	A	14:A	_
+14	angelockt	angelocken	VERB	VVPP	_	0	H	0:H	_
+15	:	:	PUNCT	$.	_	14	U	14:U	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	meisten	meist	NOUN	PIS	_	18	A	18:A	_
+18	blieben	bleiben	VERB	VVFIN	_	14	H	14:H	_
+19	bald	bald	ADV	ADV	_	18	D	18:D	_
+20	zurück	zurück	ADV	ADJA	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	$,	_	14	U	14:U	_
+22	manche	manch	PRON	PIS	_	24	A	24:A	_
+23	konnten	können	AUX	VMFIN	_	24	D	24:D	_
+24	sich	er|es|sie	PRON	PRF	_	14	H	14:H	_
+25	jedoch	jedoch	ADV	ADV	_	14	L	14:L	_
+26	eine	ein	DET	ART	_	27	E	27:E	_
+27	Zeitlang	Zeitlang	NOUN	NN	_	24	D	24:D	_
+28	neben	neben	ADP	TRUNC	_	29	R	29:R	_
+29	ihr	ihr	PRON	PPER	_	24	A	24:A	_
+30	halten	halten	VERB	VVINF	_	24	Terminal	24:Terminal	_
+31	.	.	PUNCT	$.	_	24	U	24:U	_
+

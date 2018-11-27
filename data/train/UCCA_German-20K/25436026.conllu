@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25436026
+# text = Sicher konnte ich mich auf diesen ergebenen Jungen verlassen .
+1	Sicher	sicher	ADV	ADV	_	4	D	4:D	_
+2	konnte	können	AUX	VMFIN	_	4	D	4:D	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	mich	ich	PRON	PRF	_	0	H	0:H	_
+5	auf	auf	ADP	APPR	_	8	R	8:R	_
+6	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+7	ergebenen	ergeben	ADJ	ADJA	_	8	E	8:E	_
+8	Jungen	Junge	NOUN	NN	_	4	A	4:A	_
+9	verlassen	verlassen	VERB	NN	_	4	Terminal	4:Terminal	_
+10	.	.	PUNCT	$.	_	4	U	4:U	_
+

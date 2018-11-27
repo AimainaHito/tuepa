@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 131007
+# text = No other star , either , has become so unpopular so quickly for so long a time . "
+1	No	no	DET	DT	_	3	E	3:E	_
+2	other	other	ADJ	JJ	_	3	E	3:E	_
+3	star	star	NOUN	NN	_	10	A	10:A	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	either	either	CCONJ	CC	_	10	D	10:D	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	has	have	AUX	VBZ	_	10	F	10:F	_
+8	become	become	VERB	VBN	_	10	D	10:D	_
+9	so	so	ADV	RB	_	10	D	10:D	_
+10	unpopular	unpopular	ADJ	JJ	_	0	H	0:H	_
+11	so	so	ADV	RB	_	12	R	12:R	_
+12	quickly	quickly	ADV	RB	_	10	D	10:D	_
+13	for	for	ADP	IN	_	17	R	17:R	_
+14	so	so	ADV	RB	_	17	E	17:E	_
+15	long	long	ADV	RB	_	17	E	17:E	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	time	time	NOUN	NN	_	10	D	10:D	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+19	"	"	PUNCT	''	_	17	U	17:U	_
+

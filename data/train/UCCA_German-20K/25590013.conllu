@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25590013
+# text = Ich hörte , wie eine Tür mit festgefugtem Verschluß über uns zugemacht wurde , und tiefes Dunkel umgab uns .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wie	wie	ADP	NE	_	12	R	12:R	_
+5	eine	ein	DET	ART	_	6	E	6:E	_
+6	Tür	Tür	NOUN	NN	_	12	A	12:A	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	festgefugtem	festgefugt	ADJ	ADJA	_	9	E	9:E	_
+9	Verschluß	verschluß	NOUN	NN	_	12	A	12:A	_
+10	über	über	ADP	NE	_	11	R	11:R	_
+11	uns	wir	PRON	NN	_	12	A	12:A	_
+12	zugemacht	zugemachen	VERB	VVPP	_	2	A	2:A	_
+13	wurde	werden	AUX	NN	_	12	F	12:F	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	tiefes	tief	ADJ	NE	_	17	E	17:E	_
+17	Dunkel	dunkel	NOUN	NE	_	18	A	18:A	_
+18	umgab	umgeben	VERB	VVFIN	_	2	H	2:H	_
+19	uns	wir	PRON	NN	_	18	A	18:A	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

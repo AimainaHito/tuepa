@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25759015
+# text = Ihr stählerner Schnabel kann wohl ebensoviel ausrichten wie Meister Lands Harpune . «
+1	Ihr	Ihr|ihr	DET	PPOSAT	_	3	E	3:E	_
+2	stählerner	stählern	ADJ	ADJA	_	3	E	3:E	_
+3	Schnabel	Schnabel	NOUN	NN	_	7	A	7:A	_
+4	kann	können	AUX	VMFIN	_	7	D	7:D|11:D	_
+5	wohl	wohl	ADV	ADV	_	7	D	7:D	_
+6	ebensoviel	ebensoviel	PRON	ADV	_	11	D	11:D	_
+7	ausrichten	ausrichten	VERB	VVINF	_	0	H	0:H	_
+8	wie	wie	ADP	ADJA	_	6	Terminal	6:Terminal	_
+9	Meister	Meister	NOUN	NN	_	10	E	10:E	_
+10	Lands	Land	PROPN	NE	_	11	E	11:E	_
+11	Harpune	Harpune	PROPN	NE	_	7	H	7:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+13	«	«	PUNCT	$(	_	11	U	11:U	_
+

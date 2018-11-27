@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 511013
+# text = The announcement was accompanied by the immediate release of a single , " Where Are We Now ? " , written and recorded by Bowie in New York and produced by longtime collaborator Tony Visconti .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	announcement	announcement	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	accompanied	accompany	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	immediate	immediate	ADJ	JJ	_	8	D	8:D	_
+8	release	release	NOUN	NN	_	4	A	4:A	_
+9	of	of	ADP	IN	_	14	R	14:R	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	single	single	ADJ	JJ	_	14	E	14:E	_
+12	,	,	PUNCT	,	_	14	U	14:U	_
+13	"	"	PUNCT	''	_	14	U	14:U	_
+14	Where	where	ADV	WRB	_	8	A	8:A	_
+15	Are	be	AUX	VBP	_	14	Terminal	14:Terminal	_
+16	We	we	PRON	PRP	_	14	Terminal	14:Terminal	_
+17	Now	now	ADV	RB	_	14	Terminal	14:Terminal	_
+18	?	?	PUNCT	.	_	14	U	14:U	_
+19	"	"	PUNCT	''	_	14	U	14:U	_
+20	,	,	PUNCT	,	_	14	U	14:U	_
+21	written	write	VERB	VBN	_	14	E	14:E	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	recorded	record	VERB	VBN	_	21	C	21:C	_
+24	by	by	ADP	IN	_	25	R	25:R	_
+25	Bowie	Bowie	PROPN	NNP	_	21	A	21:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	New	New	PROPN	NNP	_	21	A	21:A	_
+28	York	York	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	and	and	CCONJ	CC	_	21	L	21:L	_
+30	produced	produce	VERB	VBN	_	21	H	21:H	_
+31	by	by	ADP	IN	_	34	R	34:R	_
+32	longtime	longtime	NOUN	NN	_	33	E	33:E	_
+33	collaborator	collaborator	NOUN	NN	_	34	E	34:E	_
+34	Tony	Tony	PROPN	NNP	_	30	A	30:A	_
+35	Visconti	Visconti	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

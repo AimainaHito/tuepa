@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25793011
+# text = Im Augenblick , da ich dieses schreibe , befällt noch beim Gedanken daran ein unwillkürlicher Schrecken mein ganzes Wesen .
+1	Im	Im	ADJ	NE	_	2	R	2:R	_
+2	Augenblick	Augenblick	NOUN	NE	_	9	A	9:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	da	da	SCONJ	KOUS	_	7	R	7:R	_
+5	ich	ich	PRON	PPER	_	7	A	7:A	_
+6	dieses	dies	PRON	PDAT	_	7	A	7:A	_
+7	schreibe	schreiben	VERB	VVFIN	_	2	E	2:E	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	befällt	befallen	VERB	VVFIN	_	0	H	0:H	_
+10	noch	noch	ADV	ADV	_	9	D	9:D	_
+11	beim	beim	ADJ	NN	_	12	R	12:R	_
+12	Gedanken	Gedanke	NOUN	NN	_	9	A	9:A	_
+13	daran	daran	ADV	PAV	_	12	A	12:A	_
+14	ein	ein	DET	ART	_	16	E	16:E	_
+15	unwillkürlicher	unwillkürlich	ADJ	ADJA	_	16	E	16:E	_
+16	Schrecken	Schrecken	NOUN	NN	_	9	A	9:A	_
+17	mein	mein	PRON	PPOSAT	_	19	E	19:E	_
+18	ganzes	ganz	ADJ	ADJA	_	19	E	19:E	_
+19	Wesen	Wesen	NOUN	NN	_	9	A	9:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

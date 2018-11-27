@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 251013
+# text = " Hawke 's performance in The Winter 's Tale earned him a Drama Desk Award nomination for Outstanding Featured Actor in a Play .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	Hawke	Hawke	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	performance	performance	NOUN	NN	_	10	A	10:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	The	the	DET	DT	_	4	A	4:A	_
+7	Winter	Winter	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	's	's	PART	POS	_	6	Terminal	6:Terminal	_
+9	Tale	Tale	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	earned	earn	VERB	VBD	_	0	H	0:H	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	a	a	DET	DT	_	16	E	16:E	_
+13	Drama	drama	PROPN	NNP	_	16	E	16:E	_
+14	Desk	desk	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Award	Award	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	nomination	nomination	NOUN	NN	_	10	A	10:A	_
+17	for	for	ADP	IN	_	16	R	16:R	_
+18	Outstanding	outstanding	ADJ	JJ	_	16	E	16:E	_
+19	Featured	feature	ADJ	JJ	_	18	Terminal	18:Terminal	_
+20	Actor	Actor	NOUN	NN	_	18	Terminal	18:Terminal	_
+21	in	in	ADP	IN	_	18	Terminal	18:Terminal	_
+22	a	a	DET	DT	_	18	Terminal	18:Terminal	_
+23	Play	play	NOUN	NN	_	18	Terminal	18:Terminal	_
+24	.	.	PUNCT	.	_	16	U	16:U	_
+

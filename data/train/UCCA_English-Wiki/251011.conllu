@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 251011
+# text = The two productions , launched in New York as part of the Bridge Project , went on a transatlantic tour in six countries from January to August .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	two	two	NUM	CD	_	3	E	3:E	_
+3	productions	production	NOUN	NNS	_	20	A	20:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	launched	launch	VERB	VBD	_	3	E	3:E	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	New	New	PROPN	NNP	_	5	A	5:A	_
+8	York	York	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	as	as	ADP	IN	_	14	R	14:R	_
+10	part	part	NOUN	NN	_	14	E	14:E	_
+11	of	of	ADP	IN	_	14	R	14:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	Bridge	bridge	PROPN	NNP	_	14	E	14:E	_
+14	Project	project	PROPN	NNP	_	5	A	5:A	_
+15	,	,	PUNCT	,	_	20	U	20:U	_
+16	went	go	VERB	VBD	_	20	E	20:E	_
+17	on	on	ADP	IN	_	16	R	16:R	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	transatlantic	transatlantic	ADJ	JJ	_	20	E	20:E	_
+20	tour	tour	NOUN	NN	_	0	H	0:H	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	six	six	NUM	CD	_	23	E	23:E	_
+23	countries	country	NOUN	NNS	_	20	E	20:E	_
+24	from	from	ADP	IN	_	25	R	25:R	_
+25	January	January	PROPN	NNP	_	20	D	20:D	_
+26	to	to	ADP	IN	_	25	R	25:R	_
+27	August	August	PROPN	NNP	_	25	C	25:C	_
+28	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25595003
+# text = Dieses Ausruhen schien mir köstlich , nur mangelte uns die Unterhaltung , denn das Anreden war so unmöglich als das Erwidern .
+1	Dieses	dies	PRON	PDAT	_	2	E	2:E	_
+2	Ausruhen	Ausruhe	NOUN	NN	_	5	A	5:A	_
+3	schien	scheinen	VERB	VVFIN	_	5	G	5:G	_
+4	mir	ich	PRON	PPER	_	5	A	5:A	_
+5	köstlich	köstlich	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	nur	nur	ADV	NE	_	8	D	8:D	_
+8	mangelte	mangeln	VERB	VVFIN	_	5	H	5:H	_
+9	uns	wir	PRON	NN	_	8	A	8:A	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Unterhaltung	unterhaltung	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	denn	denn	SCONJ	KON	_	5	L	5:L	_
+14	das	der	DET	PDS	_	15	E	15:E	_
+15	Anreden	Anreden	NOUN	NE	_	18	A	18:A	_
+16	war	sein	AUX	ADV	_	18	F	18:F	_
+17	so	so	ADV	ADV	_	18	D	18:D	_
+18	unmöglich	unmöglich	ADJ	ADJD	_	5	H	5:H	_
+19	als	als	ADP	KOKOM	_	21	R	21:R	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Erwidern	Erwid	NOUN	NN	_	18	A	18:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

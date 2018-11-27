@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25636005
+# text = » Eine noch so kostbare Muschel wiegt ein Menschen leben nicht auf ! « erwiderte ich .
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Eine	ein	PRON	ART	_	6	E	6:E	_
+3	noch	noch	ADV	NN	_	5	E	5:E	_
+4	so	so	ADV	ADV	_	3	Terminal	3:Terminal	_
+5	kostbare	kostbar	ADJ	ADJA	_	6	E	6:E	_
+6	Muschel	Muschel	NOUN	NN	_	7	A	7:A	_
+7	wiegt	wiegt	VERB	VVFIN	_	15	A	15:A	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	Menschen	Mensch	NOUN	NN	_	10	E	10:E	_
+10	leben	leben	VERB	VVFIN	_	7	A	7:A	_
+11	nicht	nicht	PART	XY	_	7	D	7:D	_
+12	auf	auf	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+13	!	!	PUNCT	$.	_	15	U	15:U	_
+14	«	«	PUNCT	$(	_	15	U	15:U	_
+15	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

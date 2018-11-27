@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 235002
+# text = " In addition , Chan felt that the protesters were publicity seekers .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	In	in	ADP	IN	_	3	E	3:E	_
+3	addition	addition	NOUN	NN	_	6	G	6:G	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Chan	Chan	PROPN	NNP	_	6	A	6:A	_
+6	felt	feel	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	10	F	10:F	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	protesters	protester	NOUN	NNS	_	10	A	10:A	_
+10	were	be	AUX	VBD	_	6	A	6:A	_
+11	publicity	publicity	NOUN	NN	_	12	E	12:E	_
+12	seekers	seeker	NOUN	NNS	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

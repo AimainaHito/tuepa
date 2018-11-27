@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 554013
+# text = In 1938 , they lost their home after Vernon was found guilty of altering a check written by the landowner .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	1938	1938	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	they	they	PRON	PRP	_	5	A	5:A	_
+5	lost	lose	VERB	VBD	_	0	H	0:H	_
+6	their	they	PRON	PRP$	_	7	R	7:R	_
+7	home	home	NOUN	NN	_	5	A	5:A	_
+8	after	after	ADP	IN	_	5	L	5:L	_
+9	Vernon	Vernon	PROPN	NNP	_	11	A	11:A|14:A	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	found	find	VERB	VBN	_	5	H	5:H	_
+12	guilty	guilty	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	of	of	SCONJ	IN	_	14	R	14:R	_
+14	altering	alter	VERB	VBG	_	11	A	11:A	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	check	check	NOUN	NN	_	14	A	14:A	_
+17	written	write	VERB	VBN	_	16	E	16:E	_
+18	by	by	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	landowner	landowner	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

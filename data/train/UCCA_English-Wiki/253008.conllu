@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 253008
+# text = In November 2010 , he was honored as a Library Lion by the New York Public Library .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	November	November	PROPN	NNP	_	3	E	3:E	_
+3	2010	2010	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	he	he	PRON	PRP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	honored	honor	VERB	VBN	_	0	H	0:H	_
+8	as	as	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	Library	Library	PROPN	NNP	_	7	A	7:A	_
+11	Lion	Lion	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	by	by	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	New	New	PROPN	NNP	_	17	E	17:E	_
+15	York	York	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Public	Public	PROPN	NNP	_	17	E	17:E	_
+17	Library	Library	PROPN	NNP	_	7	A	7:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

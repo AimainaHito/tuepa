@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 592010
+# text = Although Depp has not remarried , he has stated that having children has given him " real foundation , a real strong place to stand in life , in work , in everything .
+1	Although	although	SCONJ	IN	_	5	L	5:L	_
+2	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+3	has	have	AUX	VBZ	_	5	F	5:F	_
+4	not	not	PART	RB	_	5	D	5:D	_
+5	remarried	remarry	VERB	VBN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	he	he	PRON	PRP	_	9	A	9:A|11:A	_
+8	has	have	AUX	VBZ	_	9	F	9:F	_
+9	stated	state	VERB	VBN	_	5	H	5:H	_
+10	that	that	SCONJ	IN	_	14	F	14:F	_
+11	having	have	VERB	VBG	_	14	A	14:A	_
+12	children	child	NOUN	NNS	_	11	A	11:A	_
+13	has	have	AUX	VBZ	_	14	F	14:F	_
+14	given	give	VERB	VBN	_	9	A	9:A	_
+15	him	he	PRON	PRP	_	14	A	14:A	_
+16	"	"	PUNCT	``	_	14	U	14:U	_
+17	real	real	ADJ	JJ	_	18	E	18:E	_
+18	foundation	foundation	NOUN	NN	_	14	A	14:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	real	real	ADJ	JJ	_	23	E	23:E	_
+22	strong	strong	ADJ	JJ	_	23	E	23:E	_
+23	place	place	NOUN	NN	_	25	A	25:A	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	stand	stand	VERB	VB	_	18	C	18:C	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	life	life	NOUN	NN	_	25	A	25:A	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	work	work	NOUN	NN	_	27	C	27:C	_
+31	,	,	PUNCT	,	_	27	U	27:U	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	everything	everything	PRON	NN	_	27	C	27:C	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

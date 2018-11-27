@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 130010
+# text = Hepburn was praised for her work at early previews , which gave her top billing over Rogers , and the film was nominated for Best Picture at the Academy Awards .
+1	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	praised	praise	VERB	VBN	_	0	H	0:H	_
+4	for	for	ADP	IN	_	6	R	6:R	_
+5	her	she	PRON	PRP$	_	6	E	6:E	_
+6	work	work	NOUN	NN	_	0	C	0:C|12:A	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	early	early	ADJ	JJ	_	9	E	9:E	_
+9	previews	preview	NOUN	NNS	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	which	which	PRON	WDT	_	3	L	3:L	_
+12	gave	give	VERB	VBD	_	3	H	3:H	_
+13	her	she	PRON	PRP$	_	12	A	12:A	_
+14	top	top	ADJ	JJ	_	15	E	15:E	_
+15	billing	bille	NOUN	NN	_	12	A	12:A	_
+16	over	over	ADP	IN	_	17	R	17:R	_
+17	Rogers	Roger	PROPN	NNP	_	15	E	15:E	_
+18	,	,	PUNCT	,	_	3	U	3:U	_
+19	and	and	CCONJ	CC	_	3	L	3:L	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	film	film	NOUN	NN	_	23	A	23:A	_
+22	was	be	AUX	VBD	_	23	F	23:F	_
+23	nominated	nominate	VERB	VBN	_	3	H	3:H	_
+24	for	for	ADP	IN	_	26	R	26:R	_
+25	Best	best	ADJ	JJS	_	26	E	26:E	_
+26	Picture	picture	NOUN	NN	_	23	A	23:A	_
+27	at	at	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	Academy	Academy	PROPN	NNP	_	30	E	30:E	_
+30	Awards	awards	PROPN	NNPS	_	23	A	23:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

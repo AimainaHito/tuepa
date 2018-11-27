@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25765006
+# text = Rings alles gefroren , selbst die Töne .
+1	Rings	Ring	ADV	NN	_	3	D	3:D	_
+2	alles	alle	PRON	PIS	_	3	A	3:A	_
+3	gefroren	gefroren	VERB	NN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	7	U	7:U	_
+5	selbst	selbst	ADV	VVFIN	_	7	D	7:D	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Töne	Ton	NOUN	NN	_	3	H	3:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

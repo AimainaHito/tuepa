@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25593006
+# text = In diesem Augenblick senkte sich der Boden in starkem Abfall .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	senkte	senken	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Boden	Boden	NOUN	NN	_	4	A	4:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	starkem	stark	ADJ	ADJA	_	10	E	10:E	_
+10	Abfall	Abfall	NOUN	NN	_	4	A	4:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25744016
+# text = In diesem Augenblick kamen wir um die höchste Spitze des Vordergrunds der Felsen , auf der das Gewölbe ruhte .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	um	um	ADP	APPR	_	9	R	9:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	höchste	hoch	ADJ	ADJA	_	9	E	9:E	_
+9	Spitze	Spitze	NOUN	NN	_	4	A	4:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Vordergrunds	Vordergrund	NOUN	NE	_	13	E	13:E	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Felsen	Felsen	NOUN	NN	_	9	E	9:E	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	auf	auf	ADP	APPR	_	16	E	16:E	_
+16	der	der	PRON	PRELS	_	19	R	19:R	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Gewölbe	Gewölbe	NOUN	NN	_	19	A	19:A	_
+19	ruhte	ruhen	VERB	VVFIN	_	9	E	9:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

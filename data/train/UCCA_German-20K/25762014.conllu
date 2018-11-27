@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25762014
+# text = Die ›Nautilus‹ hielt sich auf der Meeres oberfläche .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	auf	auf	ADP	APPR	_	8	R	8:R	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	Meeres	Meer	NOUN	NN	_	8	E	8:E	_
+8	oberfläche	oberflechen	VERB	VVFIN	_	3	A	3:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

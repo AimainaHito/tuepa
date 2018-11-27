@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25635003
+# text = Europäer dürfen die Wilden nicht zuerst angreifen .
+1	Europäer	Europäer	PROPN	ADJD	_	7	A	7:A	_
+2	dürfen	dürfen	AUX	VMFIN	_	7	D	7:D	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Wilden	Wilde	NOUN	NN	_	7	A	7:A	_
+5	nicht	nicht	PART	CARD	_	7	D	7:D	_
+6	zuerst	zuerst	ADV	FM	_	7	D	7:D	_
+7	angreifen	angreifen	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25645023
+# text = Kapitän Nemo blieb kalt , seiner Bewegung Meister .
+1	Kapitän	Kapitän	NOUN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	0	C	0:C|8:A	_
+3	blieb	bleiben	AUX	VVFIN	_	4	D	4:D	_
+4	kalt	kalt	VERB	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	seiner	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Bewegung	Bewegung	NOUN	NN	_	8	A	8:A	_
+8	Meister	Meister	NOUN	NN	_	4	H	4:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

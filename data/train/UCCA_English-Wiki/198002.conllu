@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 198002
+# text = Sorkin completed the screenplay and the film was released in 2007 starring Tom Hanks , Julia Roberts , and Philip Seymour Hoffman , directed by Mike Nichols .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	completed	complete	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	screenplay	screenplay	NOUN	NN	_	2	A	2:A	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	film	film	NOUN	NN	_	0	C	0:C|24:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	released	release	VERB	VBN	_	2	H	2:H	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	2007	2007	NUM	CD	_	9	D	9:D	_
+12	starring	starr	VERB	VBG	_	2	H	2:H	_
+13	Tom	Tom	PROPN	NNP	_	12	A	12:A	_
+14	Hanks	Hank	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	Julia	Julia	PROPN	NNP	_	13	C	13:C	_
+17	Roberts	Roberts	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	and	and	CCONJ	CC	_	13	N	13:N	_
+20	Philip	Philip	PROPN	NNP	_	13	C	13:C	_
+21	Seymour	Seymour	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Hoffman	Hoffman	PROPN	NNP	_	20	Terminal	20:Terminal	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	directed	direct	VERB	VBN	_	2	H	2:H	_
+25	by	by	ADP	IN	_	26	R	26:R	_
+26	Mike	Mike	PROPN	NNP	_	24	A	24:A	_
+27	Nichols	Nichols	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+

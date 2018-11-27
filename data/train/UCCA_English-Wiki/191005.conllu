@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 191005
+# text = Malice had mixed reviews .
+1	Malice	Malice	NOUN	NN	_	2	A	2:A	_
+2	had	have	AUX	VBD	_	0	H	0:H	_
+3	mixed	mix	VERB	VBN	_	4	E	4:E	_
+4	reviews	review	NOUN	NNS	_	2	A	2:A	_
+5	.	.	PUNCT	.	_	4	U	4:U	_
+

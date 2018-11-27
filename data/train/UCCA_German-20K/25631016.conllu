@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25631016
+# text = Man halte mir zugute , dass ich mich wie der Kanadier durch Rostbraten frischen Wildes begeistern lasse !
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	halte	halten	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	zugute	zugute	ADV	ADV	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+7	ich	ich	PRON	PPER	_	16	A	16:A	_
+8	mich	ich	PRON	PRF	_	16	A	16:A	_
+9	wie	wie	ADP	ADV	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	16	A	16:A	_
+12	durch	durch	ADP	APPR	_	13	R	13:R	_
+13	Rostbraten	Rostbrat	NOUN	NN	_	16	A	16:A	_
+14	frischen	frischen	ADJ	ADJA	_	15	E	15:E	_
+15	Wildes	Wilde	NOUN	NN	_	13	E	13:E	_
+16	begeistern	begeistern	VERB	VVINF	_	2	A	2:A	_
+17	lasse	lassen	VERB	VVFIN	_	16	D	16:D	_
+18	!	!	PUNCT	$.	_	16	U	16:U	_
+

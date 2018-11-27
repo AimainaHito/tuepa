@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25745011
+# text = Ich konnte mich des Lachens nicht enthalten .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	konnte	können	AUX	VMFIN	_	3	D	3:D	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Lachens	Lachen	NOUN	NN	_	3	A	3:A	_
+6	nicht	nicht	PART	CARD	_	3	D	3:D	_
+7	enthalten	enthalten	VERB	VVINF	_	3	Terminal	3:Terminal	_
+8	.	.	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25639015
+# text = Doch spürte man im Rumpf des Boots bereits eine Erschütterung als Vorbote .
+1	Doch	doch	ADV	KON	_	2	L	2:L	_
+2	spürte	spürn	VERB	VVFIN	_	0	H	0:H	_
+3	man	man	PRON	PIS	_	2	A	2:A	_
+4	im	im	ADV	NE	_	5	R	5:R	_
+5	Rumpf	Rumpf	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Boots	Boot	NOUN	NN	_	5	E	5:E	_
+8	bereits	bereits	ADV	ADV	_	2	D	2:D	_
+9	eine	ein	DET	ART	_	10	E	10:E	_
+10	Erschütterung	Erschütterung	NOUN	NN	_	2	A	2:A	_
+11	als	als	ADP	KOKOM	_	12	R	12:R	_
+12	Vorbote	Vorbot	NOUN	NN	_	2	A	2:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 725013
+# text = " She then co - starred with Denzel Washington in The Bone Collector ( 1999 ) , an adaptation of a crime novel by Jeffery Deaver .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	She	she	PRON	PRP	_	6	A	6:A	_
+3	then	then	ADV	RB	_	6	D	6:D	_
+4	co	co	X	AFX	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	starred	star	VERB	VBN	_	0	H	0:H	_
+7	with	with	ADP	IN	_	8	R	8:R	_
+8	Denzel	Denzel	PROPN	NNP	_	6	A	6:A	_
+9	Washington	Washington	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	The	the	DET	DT	_	6	A	6:A	_
+12	Bone	Bone	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Collector	Collector	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+15	1999	1999	NUM	CD	_	11	E	11:E	_
+16	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	an	a	DET	DT	_	19	E	19:E	_
+19	adaptation	adaptation	NOUN	NN	_	11	E	11:E	_
+20	of	of	ADP	IN	_	23	R	23:R	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	crime	crime	NOUN	NN	_	23	E	23:E	_
+23	novel	novel	NOUN	NN	_	19	E	19:E	_
+24	by	by	ADP	IN	_	25	R	25:R	_
+25	Jeffery	Jeffery	PROPN	NNP	_	23	E	23:E	_
+26	Deaver	Deaver	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

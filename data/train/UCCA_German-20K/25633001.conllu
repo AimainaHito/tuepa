@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25633001
+# text = Kapitän Nemo , über die Orgel gebeugt , war in seine Musik vertieft .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	13	A	13:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	über	über	ADP	VVFIN	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Orgel	Orgel	NOUN	NN	_	7	A	7:A	_
+7	gebeugt	beugen	VERB	VVFIN	_	2	E	2:E	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	war	sein	AUX	ADV	_	13	F	13:F	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	seine	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Musik	Musik	NOUN	NN	_	13	A	13:A	_
+13	vertieft	vertiefen	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

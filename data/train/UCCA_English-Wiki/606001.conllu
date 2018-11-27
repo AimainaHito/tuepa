@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 606001
+# text = The album was the first of seven platinum Wings LPs .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	first	first	NOUN	NN	_	10	E	10:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	seven	seven	NUM	CD	_	10	E	10:E	_
+8	platinum	platinum	NOUN	NN	_	10	E	10:E	_
+9	Wings	wing	PROPN	NNP	_	10	E	10:E	_
+10	LPs	LPs	PROPN	NNP	_	3	A	3:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

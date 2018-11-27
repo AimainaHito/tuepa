@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25617013
+# text = Die " Nautilus " kam in die Nähe dieser Insel , wir fuhren keine 2 Meilen weit an ihr vorüber .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Nähe	Nähe	NOUN	NN	_	10	E	10:E	_
+9	dieser	dies	PRON	PDAT	_	10	R	10:R	_
+10	Insel	Insel	NOUN	NN	_	5	A	5:A	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	wir	wir	PRON	NE	_	13	A	13:A	_
+13	fuhren	fahren	VERB	VVFIN	_	5	H	5:H	_
+14	keine	kein	PRON	PIAT	_	16	E	16:E	_
+15	2	2	NUM	CARD	_	16	E	16:E	_
+16	Meilen	Meile	NOUN	NN	_	13	A	13:A	_
+17	weit	weit	ADJ	ADJD	_	13	D	13:D	_
+18	an	an	ADP	APPR	_	19	R	19:R	_
+19	ihr	ihr	PRON	PPER	_	13	A	13:A	_
+20	vorüber	vorüber	ADV	APPR	_	13	Terminal	13:Terminal	_
+21	.	.	PUNCT	$.	_	13	U	13:U	_
+

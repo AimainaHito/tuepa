@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 725009
+# text = " Jolie won the Breakthrough Performance Award from the National Board of Review of Motion Pictures .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Jolie	Jolie	PROPN	NNP	_	3	A	3:A	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	Breakthrough	Breakthrough	ADJ	JJ	_	6	E	6:E	_
+6	Performance	performance	NOUN	NN	_	7	E	7:E	_
+7	Award	award	NOUN	NN	_	3	A	3:A	_
+8	from	from	ADP	IN	_	13	R	13:R	_
+9	the	the	DET	DT	_	13	E	13:E	_
+10	National	National	PROPN	NNP	_	11	E	11:E	_
+11	Board	board	PROPN	NNP	_	13	E	13:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	Review	review	NOUN	NN	_	3	A	3:A	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	Motion	motion	NOUN	NN	_	16	E	16:E	_
+16	Pictures	picture	NOUN	NNS	_	13	E	13:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

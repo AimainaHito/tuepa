@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 233011
+# text = Chan 's greatest regret in life is not having received proper education , inspiring him to fund educational institutions around the world .
+1	Chan	Chan	PROPN	NNP	_	4	E	4:E|10:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	greatest	greatest	ADJ	JJS	_	4	E	4:E	_
+4	regret	regret	NOUN	NN	_	7	A	7:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	life	life	NOUN	NN	_	4	E	4:E	_
+7	is	be	AUX	VBZ	_	0	H	0:H	_
+8	not	not	PART	RB	_	10	D	10:D	_
+9	having	have	AUX	VBG	_	10	F	10:F	_
+10	received	receive	VERB	VBN	_	7	A	7:A|14:A	_
+11	proper	proper	ADJ	JJ	_	12	E	12:E	_
+12	education	education	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	inspiring	inspir	VERB	VBG	_	7	H	7:H	_
+15	him	he	PRON	PRP	_	14	A	14:A|17:A	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	fund	fund	VERB	VB	_	14	A	14:A	_
+18	educational	educational	ADJ	JJ	_	19	E	19:E	_
+19	institutions	institution	NOUN	NNS	_	17	A	17:A	_
+20	around	around	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	world	world	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

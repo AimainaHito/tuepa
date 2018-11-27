@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25650000
+# text = Endlich trat er zu mir und sagte :
+1	Endlich	endlich	ADJ	ADV	_	2	D	2:D	_
+2	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|7:A	_
+4	zu	zu	ADP	VVINF	_	5	R	5:R	_
+5	mir	ich	PRON	PPER	_	2	A	2:A	_
+6	und	und	CCONJ	NN	_	2	L	2:L	_
+7	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+8	:	:	PUNCT	$.	_	7	U	7:U	_
+

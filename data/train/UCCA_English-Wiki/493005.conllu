@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 493005
+# text = David Bowie was born David Robert Jones in Brixton , London , on 8 January 1947 .
+1	David	David	PROPN	NNP	_	4	A	4:A	_
+2	Bowie	Bowie	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	born	bear	VERB	VBN	_	0	H	0:H	_
+5	David	David	PROPN	NNP	_	4	A	4:A	_
+6	Robert	Robert	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Jones	Jones	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Brixton	Brixton	PROPN	NNP	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	London	London	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	on	on	ADP	IN	_	16	R	16:R	_
+14	8	8	NUM	CD	_	16	E	16:E	_
+15	January	January	PROPN	NNP	_	16	E	16:E	_
+16	1947	1947	NUM	CD	_	4	D	4:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

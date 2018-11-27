@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25453001
+# text = « » Sie müssen wohl « , versetzte Ned Land , » mit 8 Zoll dickem Eisen blech beschlagen sein wie die Panzer fregatten .
+1	«	«	PUNCT	$(	_	19	U	19:U	_
+2	»	»	PUNCT	$(	_	19	U	19:U	_
+3	Sie	Sie|sie	PRON	PPER	_	19	A	19:A	_
+4	müssen	müssen	AUX	VMFIN	_	19	D	19:D	_
+5	wohl	wohl	ADV	ADV	_	19	G	19:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	mit	mit	ADP	APPR	_	18	R	18:R	_
+14	8	8	NUM	CARD	_	15	E	15:E	_
+15	Zoll	Zoll	NOUN	VMFIN	_	18	E	18:E	_
+16	dickem	dick	DET	ADJA	_	15	E	15:E	_
+17	Eisen	Eisen	NOUN	NN	_	18	E	18:E	_
+18	blech	blech	ADJ	ADJD	_	19	A	19:A	_
+19	beschlagen	beschlagen	VERB	VVFIN	_	8	A	8:A	_
+20	sein	sein	AUX	VAINF	_	19	F	19:F	_
+21	wie	wie	ADP	KON	_	24	R	24:R	_
+22	die	der	DET	ART	_	24	E	24:E	_
+23	Panzer	Panzer	NOUN	NN	_	24	E	24:E	_
+24	fregatten	fregatten	VERB	VVINF	_	19	H	19:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

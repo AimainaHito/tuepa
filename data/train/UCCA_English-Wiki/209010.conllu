@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 209010
+# text = In the mid - 1990s , Hoffman starred in - and was deeply involved in the production of - David Mamet 's American Buffalo ( also 1996 ) , and an early effort of film editor Kate Sanford .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	mid	mid	X	AFX	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	1990s	1990	NOUN	NNS	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Hoffman	Hoffman	PROPN	NNP	_	8	A	8:A|14:A	_
+8	starred	star	VERB	VBD	_	0	H	0:H	_
+9	in	in	ADP	IN	_	8	A	8:A	_
+10	-	-	PUNCT	HYPH	_	8	U	8:U	_
+11	and	and	CCONJ	CC	_	8	L	8:L	_
+12	was	be	AUX	VBD	_	14	D	14:D	_
+13	deeply	deeply	ADV	RB	_	14	D	14:D	_
+14	involved	involved	ADJ	JJ	_	8	H	8:H	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	production	production	NOUN	NN	_	14	A	14:A	_
+18	of	of	ADP	IN	_	23	R	23:R	_
+19	-	-	PUNCT	:	_	23	U	23:U	_
+20	David	David	PROPN	NNP	_	23	E	23:E	_
+21	Mamet	mamet	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	's	's	PART	POS	_	20	R	20:R	_
+23	American	American	PROPN	NNP	_	17	A	17:A	_
+24	Buffalo	Buffalo	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	(	(	PUNCT	-LRB-	_	23	U	23:U	_
+26	also	also	ADV	RB	_	27	E	27:E	_
+27	1996	1996	NUM	CD	_	23	E	23:E	_
+28	)	)	PUNCT	-RRB-	_	23	U	23:U	_
+29	,	,	PUNCT	,	_	23	U	23:U	_
+30	and	and	CCONJ	CC	_	23	N	23:N	_
+31	an	a	DET	DT	_	33	E	33:E	_
+32	early	early	ADJ	JJ	_	33	E	33:E	_
+33	effort	effort	NOUN	NN	_	23	C	23:C	_
+34	of	of	ADP	IN	_	37	R	37:R	_
+35	film	film	NOUN	NN	_	36	E	36:E	_
+36	editor	editor	NOUN	NN	_	37	E	37:E	_
+37	Kate	Kate	PROPN	NNP	_	33	E	33:E	_
+38	Sanford	Sanford	PROPN	NNP	_	37	Terminal	37:Terminal	_
+39	.	.	PUNCT	.	_	37	U	37:U	_
+

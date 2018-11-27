@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25594016
+# text = » Merkwürdige Regel widrigkeit , seltsames Element « , sagt ein geistreicher Natur forscher , » wo das Tier reich Blüten treibt , das Pflanzen reich nicht ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Merkwürdige	Merkwürdig	ADJ	ADJA	_	4	E	4:E	_
+3	Regel	Regel	NOUN	NN	_	4	E	4:E	_
+4	widrigkeit	widrigkeit	ADJ	NN	_	10	A	10:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	seltsames	seltsam	ADJ	ADJA	_	7	E	7:E	_
+7	Element	Element	NOUN	NN	_	4	A	4:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sagt	sagen	VERB	VVFIN	_	0	H	0:H	_
+11	ein	ein	DET	ART	_	14	E	14:E	_
+12	geistreicher	geistreich	ADJ	ADJA	_	14	E	14:E	_
+13	Natur	Natur	NOUN	NN	_	14	E	14:E	_
+14	forscher	forsch	ADJ	ADJA	_	10	A	10:A	_
+15	,	,	PUNCT	$,	_	10	U	10:U	_
+16	»	»	PUNCT	$(	_	10	U	10:U	_
+17	wo	wo	ADV	ADJA	_	22	R	22:R	_
+18	das	der	DET	ART	_	20	E	20:E	_
+19	Tier	Tier	NOUN	NN	_	20	E	20:E	_
+20	reich	reich	ADJ	NE	_	22	A	22:A	_
+21	Blüten	Blüte	NOUN	NN	_	22	A	22:A|26:A	_
+22	treibt	treiben	VERB	VVFIN	_	7	E	7:E	_
+23	,	,	PUNCT	$,	_	26	U	26:U	_
+24	das	der	DET	ART	_	26	E	26:E	_
+25	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	26	E	26:E	_
+26	reich	reich	ADJ	NN	_	7	E	7:E	_
+27	nicht	nicht	PART	CARD	_	26	D	26:D	_
+28	!	!	PUNCT	$.	_	26	U	26:U	_
+29	«	«	PUNCT	$(	_	26	U	26:U	_
+

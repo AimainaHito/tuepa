@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25758009
+# text = » Ach ! « rief er aus , » es ist nicht mehr ein Tier ; es sind 10 , 20 , eine ganze Herde ! Und nichts tun zu können ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ach	ach	PROPN	ITJ	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	aus	aus	ADP	PTKVZ	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	es	es	PRON	PPER	_	11	F	11:F	_
+11	ist	sein	VERB	VVFIN	_	2	H	2:H	_
+12	nicht	nicht	PART	XY	_	11	D	11:D	_
+13	mehr	mehr	ADV	ADV	_	12	E	12:E	_
+14	ein	ein	DET	ART	_	15	E	15:E	_
+15	Tier	Tier	NOUN	NN	_	11	A	11:A	_
+16	;	;	PUNCT	$.	_	2	U	2:U	_
+17	es	es	PRON	PPER	_	18	F	18:F	_
+18	sind	sein	AUX	NN	_	2	H	2:H	_
+19	10	10	NUM	CARD	_	18	A	18:A	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	20	20	NUM	CARD	_	18	A	18:A	_
+22	,	,	PUNCT	$,	_	18	U	18:U	_
+23	eine	ein	DET	ART	_	25	E	25:E	_
+24	ganze	ganz	ADJ	ADJA	_	25	E	25:E	_
+25	Herde	Herde	NOUN	NN	_	18	A	18:A	_
+26	!	!	PUNCT	$.	_	2	U	2:U	_
+27	Und	und	CCONJ	NN	_	2	L	2:L	_
+28	nichts	nichts	PRON	NN	_	29	A	29:A	_
+29	tun	tun	VERB	VVINF	_	2	H	2:H	_
+30	zu	zu	PART	VVINF	_	29	F	29:F	_
+31	können	können	AUX	VMINF	_	29	D	29:D	_
+32	!	!	PUNCT	$.	_	29	U	29:U	_
+33	«	«	PUNCT	$(	_	29	U	29:U	_
+

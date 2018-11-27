@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25739020
+# text = » Sie schwimmt fortwährend . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+3	schwimmt	schwimmen	VERB	VVFIN	_	0	H	0:H	_
+4	fortwährend	fortwährend	ADJ	ADJD	_	3	D	3:D	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+6	«	«	PUNCT	$(	_	3	U	3:U	_
+

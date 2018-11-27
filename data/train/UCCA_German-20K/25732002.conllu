@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25732002
+# text = Ich erblickte dann Steinhaufen , die von Millionen Zoo-phyten und einer Menge Algen bedeckt waren .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erblickte	erblicken	VERB	VVFIN	_	0	H	0:H	_
+3	dann	dann	ADV	ADV	_	2	L	2:L	_
+4	Steinhaufen	Steinhaufe	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	14	R	14:R	_
+7	von	von	ADP	NN	_	9	R	9:R	_
+8	Millionen	Million	NUM	NN	_	9	E	9:E	_
+9	Zoo-phyten	Zoo-phyten	NOUN	NE	_	14	A	14:A	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	einer	ein	DET	ART	_	12	E	12:E	_
+12	Menge	Menge	NOUN	NN	_	13	E	13:E	_
+13	Algen	Alge	NOUN	NN	_	9	C	9:C	_
+14	bedeckt	bedecken	ADJ	ADJD	_	4	E	4:E	_
+15	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

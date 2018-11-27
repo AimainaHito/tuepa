@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25770007
+# text = Am folgenden Morgen , dem 19 . März , um 5 Uhr , nahm ich wieder meinen Posten im Salon .
+1	Am	am	PROPN	ADJD	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	VVINF	_	3	E	3:E	_
+3	Morgen	Morgen	PROPN	XY	_	14	D	14:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	19	19	NUM	CARD	_	3	E	3:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	März	März	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	14	U	14:U	_
+10	um	um	ADP	KOUI	_	11	R	11:R	_
+11	5	5	NUM	CARD	_	14	D	14:D	_
+12	Uhr	Uhr	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+15	ich	ich	PRON	PPER	_	14	A	14:A	_
+16	wieder	wieder	ADV	NN	_	14	D	14:D	_
+17	meinen	meinen	VERB	PPOSAT	_	18	E	18:E	_
+18	Posten	Posten	NOUN	NN	_	14	A	14:A	_
+19	im	im	ADJ	NE	_	20	R	20:R	_
+20	Salon	Salon	NOUN	NE	_	14	A	14:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

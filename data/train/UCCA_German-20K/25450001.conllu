@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25450001
+# text = « » Oh ! Zahlen ! « versetzte Ned .
+1	«	«	PUNCT	$(	_	8	U	8:U	_
+2	»	»	PUNCT	$(	_	8	U	8:U	_
+3	Oh	Oh	PROPN	ADJD	_	8	A	8:A	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	Zahlen	Zahl	NOUN	NN	_	3	H	3:H	_
+6	!	!	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	versetzte	versetzter	ADJ	ADJA	_	0	H	0:H	_
+9	Ned	Ned	NOUN	NN	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

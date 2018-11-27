@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 602000
+# text = In 1966 , the Beatles released the album Revolver .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1966	1966	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Beatles	Beatles	PROPN	NNPS	_	6	A	6:A	_
+6	released	release	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	album	album	NOUN	NN	_	9	E	9:E	_
+9	Revolver	Revolver	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

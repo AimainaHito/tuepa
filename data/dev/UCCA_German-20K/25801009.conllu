@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25801009
+# text = Ich berichte dieses hauptsächlich nach den Karten im Manuskript , die offenbar von der Hand Kapitän Nemos aufgrund seiner persön-lichen Beobachtungen herrühren .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	berichte	berichte	VERB	VVFIN	_	0	H	0:H	_
+3	dieses	dies	PRON	PDAT	_	2	A	2:A	_
+4	hauptsächlich	hauptsächlich	ADJ	ADV	_	2	D	2:D	_
+5	nach	nach	ADP	CARD	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Karten	Karte	NOUN	NN	_	2	A	2:A	_
+8	im	im	PROPN	NE	_	9	R	9:R	_
+9	Manuskript	Manuskript	PROPN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	die	der	PRON	ART	_	22	R	22:R	_
+12	offenbar	offenbar	ADV	NN	_	22	D	22:D	_
+13	von	von	ADP	NE	_	15	R	15:R	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Hand	Hand	NOUN	NN	_	22	A	22:A	_
+16	Kapitän	Kapitän	PROPN	FM	_	17	E	17:E	_
+17	Nemos	Nemos	PROPN	NE	_	0	C	0:C|21:A	_
+18	aufgrund	aufgrund	ADP	APPR	_	21	R	21:R	_
+19	seiner	sein	DET	PPOSAT	_	21	E	21:E	_
+20	persön-lichen	persön-lich	ADJ	ADJA	_	21	D	21:D	_
+21	Beobachtungen	Beobachtung	NOUN	NN	_	22	A	22:A	_
+22	herrühren	herrühren	VERB	VVINF	_	7	E	7:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

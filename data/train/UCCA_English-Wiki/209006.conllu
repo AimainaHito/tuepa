@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 209006
+# text = As a reference to this episode , during the episode featuring the Itchy & Scratchy movie , Lisa claims that Dustin Hoffman had a cameo in that movie but did n't use his real name .
+1	As	as	ADP	IN	_	3	R	3:R	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	reference	reference	NOUN	NN	_	0	H	0:H	_
+4	to	to	ADP	IN	_	6	R	6:R	_
+5	this	this	DET	DT	_	6	E	6:E	_
+6	episode	episode	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	during	during	ADP	IN	_	3	L	3:L	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	episode	episode	NOUN	NN	_	11	A	11:A	_
+11	featuring	feature	VERB	VBG	_	3	H	3:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	Itchy	itchy	ADJ	JJ	_	16	E	16:E	_
+14	&	&	CCONJ	CC	_	13	U	13:U	_
+15	Scratchy	scratchy	ADJ	JJ	_	13	Terminal	13:Terminal	_
+16	movie	movie	NOUN	NN	_	11	A	11:A	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	Lisa	Lisa	PROPN	NNP	_	19	A	19:A	_
+19	claims	claim	VERB	VBZ	_	3	H	3:H	_
+20	that	that	SCONJ	IN	_	25	R	25:R	_
+21	Dustin	Dustin	PROPN	NNP	_	25	A	25:A|32:A	_
+22	Hoffman	Hoffman	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	had	have	VERB	VBD	_	25	F	25:F	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	cameo	cameo	NOUN	NN	_	19	A	19:A	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	that	that	DET	DT	_	28	E	28:E	_
+28	movie	movie	NOUN	NN	_	25	A	25:A	_
+29	but	but	CCONJ	CC	_	25	L	25:L	_
+30	did	do	AUX	VBD	_	32	F	32:F	_
+31	n't	not	PART	RB	_	32	D	32:D	_
+32	use	use	VERB	VB	_	25	H	25:H	_
+33	his	he	PRON	PRP$	_	35	E	35:E	_
+34	real	real	ADJ	JJ	_	35	E	35:E	_
+35	name	name	NOUN	NN	_	32	A	32:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

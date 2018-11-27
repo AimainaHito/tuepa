@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25754023
+# text = » Ich wüßte es nicht zu sagen , mein Freund . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ich	ich	PRON	PPER	_	7	A	7:A	_
+3	wüßte	wüßen	VERB	VVFIN	_	7	D	7:D	_
+4	es	es	PRON	PPER	_	7	A	7:A	_
+5	nicht	nicht	PART	CARD	_	7	D	7:D	_
+6	zu	zu	PART	NN	_	7	F	7:F	_
+7	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	mein	mein	PRON	PPOSAT	_	10	E	10:E	_
+10	Freund	Freund	NOUN	NN	_	7	G	7:G	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	«	«	PUNCT	$(	_	10	U	10:U	_
+

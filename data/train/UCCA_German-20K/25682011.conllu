@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25682011
+# text = » Und unsere Waffen « , fragte ich , » unsere Gewehre ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	unsere	unser	PRON	PPOSAT	_	4	E	4:E	_
+4	Waffen	Waffe	NOUN	NN	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	unsere	unser	PRON	PPOSAT	_	12	E	12:E	_
+12	Gewehre	Gewehre	NOUN	NN	_	4	H	4:H	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+14	«	«	PUNCT	$(	_	12	U	12:U	_
+

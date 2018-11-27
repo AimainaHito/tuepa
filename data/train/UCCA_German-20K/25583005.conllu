@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25583005
+# text = Jeden Morgen stieg ich zur Plattform hinauf .
+1	Jeden	jed	PRON	PIAT	_	2	E	2:E	_
+2	Morgen	Morgen	NOUN	ADV	_	3	D	3:D	_
+3	stieg	steigen	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	zur	zur	ADV	NE	_	6	R	6:R	_
+6	Plattform	Plattform	NOUN	NE	_	3	A	3:A	_
+7	hinauf	hinauf	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+8	.	.	PUNCT	$.	_	3	U	3:U	_
+

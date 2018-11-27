@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 218001
+# text = The film premiered at the 2005 Toronto Film Festival .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	premiered	premier	VERB	VBN	_	0	H	0:H	_
+4	at	at	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	2005	2005	NUM	CD	_	9	E	9:E	_
+7	Toronto	Toronto	PROPN	NNP	_	9	E	9:E	_
+8	Film	film	PROPN	NNP	_	9	E	9:E	_
+9	Festival	Festival	PROPN	NNP	_	3	A	3:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

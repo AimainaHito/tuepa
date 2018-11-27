@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 563000
+# text = The second Milton Berle Show appearance came on June 5 at NBC 's Hollywood studio , amid another hectic tour .
+1	The	the	DET	DT	_	5	E	5:E	_
+2	second	second	ADJ	JJ	_	5	E	5:E	_
+3	Milton	Milton	PROPN	NNP	_	5	E	5:E	_
+4	Berle	Berle	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Show	show	NOUN	NN	_	6	E	6:E	_
+6	appearance	appearance	NOUN	NN	_	7	A	7:A	_
+7	came	come	VERB	VBD	_	0	H	0:H	_
+8	on	on	ADP	IN	_	9	R	9:R	_
+9	June	June	PROPN	NNP	_	7	D	7:D	_
+10	5	5	NUM	CD	_	9	Terminal	9:Terminal	_
+11	at	at	ADP	IN	_	15	R	15:R	_
+12	NBC	NBC	PROPN	NNP	_	15	E	15:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	Hollywood	Hollywood	NOUN	NN	_	15	E	15:E	_
+15	studio	studio	NOUN	NN	_	7	A	7:A	_
+16	,	,	PUNCT	,	_	7	U	7:U	_
+17	amid	amid	ADP	IN	_	20	R	20:R	_
+18	another	another	DET	DT	_	20	E	20:E	_
+19	hectic	hectic	ADJ	JJ	_	20	E	20:E	_
+20	tour	tour	NOUN	NN	_	7	A	7:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

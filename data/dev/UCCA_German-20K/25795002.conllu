@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25795002
+# text = Aber die Luft behälter waren beinah leer ; der kleine Rest musste für die Arbeiter aufgehoben werden .
+1	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+2	die	der	DET	ART	_	4	E	4:E	_
+3	Luft	Luft	NOUN	NN	_	4	E	4:E	_
+4	behälter	behält	ADJ	ADJA	_	7	A	7:A	_
+5	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+6	beinah	beinah	ADV	ADJD	_	7	D	7:D	_
+7	leer	leer	ADJ	ADJD	_	0	H	0:H	_
+8	;	;	PUNCT	$.	_	7	U	7:U	_
+9	der	der	DET	ART	_	11	E	11:E	_
+10	kleine	klein	ADJ	ADJA	_	11	E	11:E	_
+11	Rest	Rest	NOUN	NN	_	16	A	16:A	_
+12	musste	müssen	AUX	VVFIN	_	16	D	16:D	_
+13	für	für	ADP	APPR	_	15	R	15:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Arbeiter	Arbeiter	NOUN	NN	_	16	A	16:A	_
+16	aufgehoben	aufheben	VERB	VVPP	_	7	H	7:H	_
+17	werden	werden	AUX	VVFIN	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

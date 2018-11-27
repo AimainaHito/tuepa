@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 125008
+# text = During the summer of 1931 , Philip Barry asked her to appear in his new play , The Animal Kingdom , alongside Leslie Howard .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	summer	summer	NOUN	NN	_	9	D	9:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	1931	1931	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	Philip	Philip	PROPN	NNP	_	9	A	9:A	_
+8	Barry	Barry	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	asked	ask	VERB	VBD	_	0	H	0:H	_
+10	her	she	PRON	PRP	_	9	A	9:A	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	appear	appear	VERB	VB	_	9	A	9:A	_
+13	in	in	ADP	IN	_	18	R	18:R	_
+14	his	he	PRON	PRP$	_	18	E	18:E	_
+15	new	new	ADJ	JJ	_	16	E	16:E	_
+16	play	play	NOUN	NN	_	18	E	18:E	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	The	the	DET	DT	_	12	A	12:A	_
+19	Animal	Animal	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Kingdom	Kingdom	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	,	_	12	U	12:U	_
+22	alongside	alongside	ADP	IN	_	23	R	23:R	_
+23	Leslie	Leslie	PROPN	NNP	_	12	A	12:A	_
+24	Howard	Howard	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

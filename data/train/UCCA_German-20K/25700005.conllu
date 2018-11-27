@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25700005
+# text = « Der Arabische Tunnel
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	Der	der	DET	ART	_	3	E	3:E	_
+3	Arabische	arabisch	PROPN	ADJA	_	0	H	0:H	_
+4	Tunnel	Tunnel	PROPN	NE	_	3	E	3:E	_
+

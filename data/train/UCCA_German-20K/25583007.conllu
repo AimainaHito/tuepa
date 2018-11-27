@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25583007
+# text = Kapitän Nemo erschien nicht .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	erschien	erscheinen	AUX	VVFIN	_	0	H	0:H	_
+4	nicht	nicht	PART	CARD	_	3	D	3:D	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+

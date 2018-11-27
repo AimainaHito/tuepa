@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 643012
+# text = " Soon after their return from Spain , at McCartney 's twenty - first birthday party in June 1963 , Lennon physically attacked Cavern Club MC Bob Wooler for saying " How was your honeymoon , John ?
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Soon	soon	PROPN	NNP	_	3	E	3:E	_
+3	after	after	ADP	IN	_	5	L	5:L	_
+4	their	they	PRON	PRP$	_	5	A	5:A	_
+5	return	return	NOUN	NN	_	0	H	0:H	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Spain	Spain	PROPN	NNP	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	at	at	ADP	IN	_	5	L	5:L	_
+10	McCartney	McCartney	PROPN	NNP	_	16	A	16:A	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	twenty	twenty	NUM	CD	_	16	D	16:D	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	first	first	ADJ	JJ	_	12	Terminal	12:Terminal	_
+15	birthday	birthday	NOUN	NN	_	16	E	16:E	_
+16	party	party	NOUN	NN	_	5	H	5:H	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	June	June	PROPN	NNP	_	19	E	19:E	_
+19	1963	1963	NUM	CD	_	16	D	16:D	_
+20	,	,	PUNCT	,	_	5	U	5:U	_
+21	Lennon	Lennon	PROPN	NNP	_	23	A	23:A	_
+22	physically	physically	ADV	RB	_	23	D	23:D	_
+23	attacked	attack	VERB	VBD	_	5	H	5:H	_
+24	Cavern	Cavern	PROPN	NNP	_	26	E	26:E	_
+25	Club	Club	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	MC	Mc	PROPN	NNP	_	23	A	23:A	_
+27	Bob	Bob	PROPN	NNP	_	26	E	26:E|30:A	_
+28	Wooler	Wooler	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	for	for	SCONJ	IN	_	30	R	30:R	_
+30	saying	say	VERB	VBG	_	23	A	23:A	_
+31	"	"	PUNCT	``	_	30	U	30:U	_
+32	How	how	ADV	WRB	_	33	R	33:R	_
+33	was	be	AUX	VBD	_	30	A	30:A	_
+34	your	you	PRON	PRP$	_	35	E	35:E	_
+35	honeymoon	honeymoon	NOUN	NN	_	33	A	33:A	_
+36	,	,	PUNCT	,	_	33	U	33:U	_
+37	John	John	PROPN	NNP	_	33	H	33:H	_
+38	?	?	PUNCT	.	_	33	U	33:U	_
+

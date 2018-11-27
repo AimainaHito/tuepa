@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 668010
+# text = " Later that year , she signed a contract with Island Records , valued at more than $ 24 million , and launched the record label MonarC .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	Later	later	ADV	RBR	_	4	R	4:R	_
+3	that	that	DET	DT	_	4	E	4:E	_
+4	year	year	NOUN	NN	_	7	D	7:D	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	she	she	PRON	PRP	_	7	A	7:A|23:A	_
+7	signed	sign	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	contract	contract	NOUN	NN	_	7	A	7:A	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Island	island	PROPN	NNP	_	9	E	9:E	_
+12	Records	records	NOUN	NNS	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	valued	value	VERB	VBD	_	9	E	9:E	_
+15	at	at	ADP	IN	_	19	R	19:R	_
+16	more	more	ADJ	JJR	_	19	E	19:E	_
+17	than	than	ADP	IN	_	16	R	16:R	_
+18	$	$	SYM	$	_	19	U	19:U	_
+19	24	24	NUM	CD	_	14	A	14:A	_
+20	million	million	NUM	CD	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	7	U	7:U	_
+22	and	and	CCONJ	CC	_	7	L	7:L	_
+23	launched	launch	VERB	VBD	_	7	H	7:H	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	record	record	NOUN	NN	_	26	E	26:E	_
+26	label	label	NOUN	NN	_	27	E	27:E	_
+27	MonarC	Monarc	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

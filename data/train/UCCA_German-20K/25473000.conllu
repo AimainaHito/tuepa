@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25473000
+# text = » Jawohl « , erwiderte der Kommandant , » und wenn das Tier dazu die Kraft eines Blitz schlags besitzt , so ist es sicherlich das fürchterlichste , das jemals aus des Schöpfers Hand gekommen ist . Deshalb , mein Herr , werde ich vorsichtig sein .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Jawohl	Jawohl	PROPN	KOUS	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kommandant	Kommandant	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Tier	Tier	NOUN	NN	_	20	A	20:A	_
+14	dazu	dazu	ADV	PAV	_	20	D	20:D	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Kraft	Kraft	NOUN	NN	_	20	A	20:A	_
+17	eines	ein	DET	ART	_	19	R	19:R	_
+18	Blitz	Blitz	NOUN	NN	_	19	E	19:E	_
+19	schlags	schlags	ADV	ADV	_	16	E	16:E	_
+20	besitzt	besitzen	VERB	VVFIN	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	so	so	ADV	ADV	_	2	L	2:L	_
+23	ist	sein	AUX	VVFIN	_	2	H	2:H	_
+24	es	es	PRON	PPER	_	23	A	23:A	_
+25	sicherlich	sicherlich	ADJ	ADV	_	23	D	23:D	_
+26	das	der	DET	ART	_	27	E	27:E	_
+27	fürchterlichste	fürchterlich	NOUN	ADJA	_	23	A	23:A	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	das	der	PRON	PRELS	_	35	R	35:R	_
+30	jemals	jemals	ADV	ADV	_	35	D	35:D	_
+31	aus	aus	ADP	APPR	_	34	R	34:R	_
+32	des	der	DET	ART	_	33	R	33:R	_
+33	Schöpfers	Schöpfer	NOUN	NN	_	34	E	34:E	_
+34	Hand	Hand	NOUN	NN	_	35	A	35:A	_
+35	gekommen	kommen	VERB	ADJD	_	27	E	27:E	_
+36	ist	sein	AUX	NN	_	35	F	35:F	_
+37	.	.	PUNCT	$.	_	2	U	2:U	_
+38	Deshalb	deshalb	ADV	PAV	_	2	L	2:L	_
+39	,	,	PUNCT	$,	_	2	U	2:U	_
+40	mein	mein	PRON	PPOSAT	_	41	E	41:E	_
+41	Herr	Herr	NOUN	NN	_	45	G	45:G	_
+42	,	,	PUNCT	$,	_	45	U	45:U	_
+43	werde	werden	AUX	NN	_	45	F	45:F	_
+44	ich	ich	PRON	PPER	_	45	A	45:A	_
+45	vorsichtig	vorsichtig	ADJ	ADJD	_	2	H	2:H	_
+46	sein	sein	AUX	VAINF	_	45	F	45:F	_
+47	.	.	PUNCT	$.	_	45	U	45:U	_
+

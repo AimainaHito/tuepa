@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25440006
+# text = Ein Drittes gab 's nicht .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Drittes	Drittes	NOUN	ADJA	_	3	A	3:A	_
+3	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+4	's	es	PART	ART	_	3	F	3:F	_
+5	nicht	nicht	PART	CARD	_	3	D	3:D	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

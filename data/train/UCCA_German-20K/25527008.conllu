@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25527008
+# text = » Ah ! « rief ich aus , » jetzt begreife ich das Leben dieses Mannes ! Er hat sich eine Welt für sich besonders geschaffen , die ihm erstaunliche Wunder vorbehält ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ah	Ah	PROPN	VVFIN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	aus	aus	ADP	PTKVZ	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	jetzt	jetzt	ADV	ADV	_	11	D	11:D	_
+11	begreife	begreif	ADJ	NE	_	2	H	2:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Leben	Leben	NOUN	NN	_	11	A	11:A	_
+15	dieses	dies	PRON	PDAT	_	16	R	16:R	_
+16	Mannes	Mann	NOUN	NN	_	14	E	14:E	_
+17	!	!	PUNCT	$.	_	2	U	2:U	_
+18	Er	er	PRON	PPER	_	20	A	20:A	_
+19	hat	haben	AUX	VAFIN	_	20	F	20:F	_
+20	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+21	eine	ein	DET	ART	_	22	E	22:E	_
+22	Welt	Welt	NOUN	NN	_	20	A	20:A	_
+23	für	für	ADP	APPR	_	24	R	24:R	_
+24	sich	er|es|sie	PRON	PRF	_	20	A	20:A	_
+25	besonders	besonders	ADV	ADV	_	20	D	20:D	_
+26	geschaffen	schaffen	VERB	VVPP	_	20	Terminal	20:Terminal	_
+27	,	,	PUNCT	$,	_	20	U	20:U	_
+28	die	der	PRON	PRELS	_	32	R	32:R	_
+29	ihm	er	PRON	PPER	_	32	A	32:A	_
+30	erstaunliche	erstaunlich	ADJ	ADJA	_	31	E	31:E	_
+31	Wunder	Wunder	NOUN	NN	_	32	A	32:A	_
+32	vorbehält	vorbehalten	VERB	VVFIN	_	22	E	22:E	_
+33	!	!	PUNCT	$.	_	32	U	32:U	_
+34	«	«	PUNCT	$(	_	32	U	32:U	_
+

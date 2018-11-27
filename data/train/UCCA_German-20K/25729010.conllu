@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25729010
+# text = Am folgenden Morgen , dem 19 . Februar , trat der Kanadier in mein Zimmer .
+1	Am	am	PROPN	ADJD	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	VVINF	_	3	E	3:E	_
+3	Morgen	Morgen	PROPN	XY	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	19	19	NUM	CARD	_	3	E	3:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Februar	Februar	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kanadier	Kanadier	NOUN	NN	_	10	A	10:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	mein	mein	PRON	PPOSAT	_	15	E	15:E	_
+15	Zimmer	Zimmer	NOUN	NN	_	10	A	10:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

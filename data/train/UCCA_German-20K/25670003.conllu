@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25670003
+# text = Aber die neuere Wissenschaft hat ihm einen anderen Namen gegeben ; die Molluske heißt jetzt Argonaut , der zu derselben Familie gehört wie der Kalmar und der Tintenfisch .
+1	Aber	aber	CCONJ	KON	_	10	L	10:L	_
+2	die	der	DET	ART	_	4	E	4:E	_
+3	neuere	neu	ADJ	ADJA	_	4	E	4:E	_
+4	Wissenschaft	Wissenschaft	NOUN	NN	_	10	A	10:A	_
+5	hat	haben	VERB	VAFIN	_	10	F	10:F	_
+6	ihm	er	PRON	PPER	_	10	A	10:A	_
+7	einen	ein	DET	ART	_	9	E	9:E	_
+8	anderen	ander	ADJ	ADJA	_	9	E	9:E	_
+9	Namen	Name	NOUN	NN	_	10	A	10:A	_
+10	gegeben	geben	VERB	VVPP	_	0	H	0:H	_
+11	;	;	PUNCT	$.	_	10	U	10:U	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Molluske	Molluske	NOUN	NN	_	14	A	14:A	_
+14	heißt	heißen	VERB	VVFIN	_	10	H	10:H	_
+15	jetzt	jetzt	ADV	ADV	_	14	D	14:D	_
+16	Argonaut	Argonaut	NOUN	NE	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	der	der	PRON	ART	_	22	R	22:R	_
+19	zu	zu	ADP	ADJA	_	21	R	21:R	_
+20	derselben	dieselbe	PRON	PDAT	_	21	E	21:E	_
+21	Familie	Familie	NOUN	NN	_	22	A	22:A	_
+22	gehört	gehören	VERB	VVFIN	_	16	E	16:E	_
+23	wie	wie	ADP	KON	_	25	R	25:R	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	Kalmar	Kalmar	PROPN	NE	_	21	E	21:E	_
+26	und	und	CCONJ	NE	_	25	N	25:N	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Tintenfisch	Tintenfisch	NOUN	NE	_	25	C	25:C	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

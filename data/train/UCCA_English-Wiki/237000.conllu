@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 237000
+# text = In 2004 , Chan launched his own line of clothing , which bears a Chinese dragon logo and the English word " Jackie " , or the initials " JC " . Chan also has a number of other branded businesses .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Chan	Chan	PROPN	NNP	_	5	A	5:A	_
+5	launched	launch	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	own	own	ADJ	JJ	_	8	E	8:E	_
+8	line	line	NOUN	NN	_	5	A	5:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	clothing	clothing	NOUN	NN	_	8	E	8:E|13:A	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	which	which	PRON	WDT	_	13	R	13:R	_
+13	bears	bear	VERB	VBZ	_	8	E	8:E	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	Chinese	chinese	ADJ	JJ	_	16	E	16:E	_
+16	dragon	dragon	NOUN	NN	_	17	E	17:E	_
+17	logo	logo	NOUN	NN	_	13	A	13:A	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	the	the	DET	DT	_	23	E	23:E	_
+20	English	english	ADJ	JJ	_	21	E	21:E	_
+21	word	word	NOUN	NN	_	23	E	23:E	_
+22	"	"	PUNCT	``	_	23	U	23:U	_
+23	Jackie	Jackie	PROPN	NNP	_	17	C	17:C	_
+24	"	"	PUNCT	''	_	23	U	23:U	_
+25	,	,	PUNCT	,	_	23	U	23:U	_
+26	or	or	CCONJ	CC	_	23	N	23:N	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	initials	initial	NOUN	NNS	_	30	E	30:E	_
+29	"	"	PUNCT	``	_	30	U	30:U	_
+30	JC	Jc	PROPN	NNP	_	23	C	23:C	_
+31	"	"	PUNCT	''	_	5	U	5:U	_
+32	.	.	PUNCT	.	_	5	U	5:U	_
+33	Chan	Chan	PROPN	NNP	_	35	A	35:A	_
+34	also	also	ADV	RB	_	35	D	35:D	_
+35	has	have	VERB	VBZ	_	5	H	5:H	_
+36	a	a	DET	DT	_	41	E	41:E	_
+37	number	number	NOUN	NN	_	41	E	41:E	_
+38	of	of	ADP	IN	_	37	R	37:R	_
+39	other	other	ADJ	JJ	_	41	E	41:E	_
+40	branded	branded	ADJ	JJ	_	41	E	41:E	_
+41	businesses	business	NOUN	NNS	_	35	A	35:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

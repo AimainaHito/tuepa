@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 561010
+# text = There were two country songs and a bouncy pop tune .
+1	There	there	PRON	EX	_	2	A	2:A	_
+2	were	be	VERB	VBD	_	0	H	0:H	_
+3	two	two	NUM	CD	_	5	E	5:E	_
+4	country	country	NOUN	NN	_	5	E	5:E	_
+5	songs	song	NOUN	NNS	_	2	A	2:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	bouncy	bouncy	ADJ	JJ	_	10	E	10:E	_
+9	pop	pop	NOUN	NN	_	10	E	10:E	_
+10	tune	tune	NOUN	NN	_	5	C	5:C	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

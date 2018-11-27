@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 132005
+# text = Before filming began , Hepburn shrewdly noted , " I do n't want to make a grand entrance in this picture . Moviegoers ... think I 'm too la - di - da or something . A lot of people want to see me fall flat on my face .
+1	Before	before	SCONJ	IN	_	3	L	3:L	_
+2	filming	film	VERB	VBG	_	3	A	3:A	_
+3	began	began	PROPN	NNP	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A|15:A	_
+6	shrewdly	shrewdly	ADV	RB	_	7	D	7:D	_
+7	noted	note	VERB	VBD	_	3	H	3:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	"	"	PUNCT	``	_	7	U	7:U	_
+10	I	I	PRON	PRP	_	13	A	13:A	_
+11	do	do	AUX	VBP	_	13	F	13:F	_
+12	n't	not	PART	RB	_	13	D	13:D	_
+13	want	want	VERB	VB	_	7	A	7:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	make	make	VERB	VB	_	13	A	13:A	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	grand	grand	ADJ	JJ	_	18	E	18:E	_
+18	entrance	entrance	NOUN	NN	_	15	A	15:A	_
+19	in	in	ADP	IN	_	21	R	21:R	_
+20	this	this	DET	DT	_	21	E	21:E	_
+21	picture	picture	NOUN	NN	_	15	A	15:A	_
+22	.	.	PUNCT	.	_	13	U	13:U	_
+23	Moviegoers	Moviegoers	NOUN	NNS	_	25	A	25:A	_
+24	...	...	PUNCT	,	_	25	U	25:U	_
+25	think	think	VERB	VB	_	13	H	13:H	_
+26	I	I	PRON	PRP	_	29	A	29:A	_
+27	'm	be	AUX	VBP	_	29	F	29:F	_
+28	too	too	ADV	RB	_	29	D	29:D	_
+29	la	la	ADJ	JJ	_	25	A	25:A	_
+30	-	-	PUNCT	HYPH	_	29	U	29:U	_
+31	di	di	NOUN	NN	_	29	Terminal	29:Terminal	_
+32	-	-	PUNCT	HYPH	_	29	U	29:U	_
+33	da	da	NOUN	NN	_	29	Terminal	29:Terminal	_
+34	or	or	CCONJ	CC	_	29	N	29:N	_
+35	something	something	PRON	NN	_	29	C	29:C	_
+36	.	.	PUNCT	.	_	13	U	13:U	_
+37	A	a	DET	DT	_	38	E	38:E	_
+38	lot	lot	NOUN	NN	_	40	E	40:E	_
+39	of	of	ADP	IN	_	38	R	38:R	_
+40	people	people	NOUN	NNS	_	41	A	41:A|43:A	_
+41	want	want	VERB	VBP	_	13	H	13:H	_
+42	to	to	PART	TO	_	43	F	43:F	_
+43	see	see	VERB	VB	_	41	A	41:A	_
+44	me	I	PRON	PRP	_	45	A	45:A	_
+45	fall	fall	VERB	VB	_	43	A	43:A	_
+46	flat	flat	ADV	RB	_	45	Terminal	45:Terminal	_
+47	on	on	ADP	IN	_	45	Terminal	45:Terminal	_
+48	my	my	PRON	PRP$	_	45	Terminal	45:Terminal	_
+49	face	face	NOUN	NN	_	45	Terminal	45:Terminal	_
+50	.	.	PUNCT	.	_	45	U	45:U	_
+

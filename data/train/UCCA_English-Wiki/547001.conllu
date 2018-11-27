@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 547001
+# text = In February 1962 , he purchased the film rights for the Broadway musical , My Fair Lady , paying an unprecedented $ 6.5 million .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	February	February	PROPN	NNP	_	3	E	3:E	_
+3	1962	1962	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A|19:A	_
+6	purchased	purchase	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	film	film	NOUN	NN	_	9	E	9:E	_
+9	rights	rights	NOUN	NNS	_	6	A	6:A	_
+10	for	for	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	Broadway	Broadway	PROPN	NNP	_	13	E	13:E	_
+13	musical	musical	NOUN	NN	_	15	E	15:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	My	my	PRON	PRP$	_	9	E	9:E	_
+16	Fair	fair	ADJ	JJ	_	15	Terminal	15:Terminal	_
+17	Lady	lady	NOUN	NN	_	15	Terminal	15:Terminal	_
+18	,	,	PUNCT	,	_	6	U	6:U	_
+19	paying	pay	VERB	VBG	_	6	H	6:H	_
+20	an	a	DET	DT	_	24	E	24:E	_
+21	unprecedented	unprecedented	ADJ	JJ	_	24	E	24:E	_
+22	$	$	SYM	$	_	24	U	24:U	_
+23	6.5	6.5	NUM	CD	_	24	E	24:E	_
+24	million	million	NUM	CD	_	19	A	19:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 610003
+# text = They began the Driving World Tour in April 2002 , which included stops in the US , Mexico and Japan .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	began	begin	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	Driving	Driving	PROPN	NNP	_	2	A	2:A	_
+5	World	World	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Tour	Tour	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	April	April	PROPN	NNP	_	2	D	2:D	_
+9	2002	2002	NUM	CD	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	which	which	PRON	WDT	_	12	F	12:F	_
+12	included	include	VERB	VBD	_	4	E	4:E	_
+13	stops	stop	NOUN	NNS	_	12	A	12:A	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	US	US	PROPN	NNP	_	13	E	13:E	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	Mexico	Mexico	PROPN	NNP	_	16	C	16:C	_
+19	and	and	CCONJ	CC	_	16	N	16:N	_
+20	Japan	Japan	PROPN	NNP	_	16	C	16:C	_
+21	.	.	PUNCT	.	_	16	U	16:U	_
+

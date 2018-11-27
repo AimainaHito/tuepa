@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25527012
+# text = Und es erhob sich ein Streit zwischen den beiden Freunden , denn sie kannten beide die Fische , aber jeder in sehr verschiedener Weise .
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	es	es	PRON	PPER	_	3	F	3:F	_
+3	erhob	erheben	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Streit	Streit	NOUN	NN	_	3	A	3:A	_
+7	zwischen	zwischen	ADP	ADJA	_	10	R	10:R	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	beiden	beide	PRON	PIAT	_	10	E	10:E	_
+10	Freunden	Freund	NOUN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	denn	denn	SCONJ	KON	_	3	L	3:L	_
+13	sie	sie	PRON	ADV	_	14	A	14:A	_
+14	kannten	kennen	VERB	VVFIN	_	3	H	3:H	_
+15	beide	beide	PRON	PIS	_	14	A	14:A	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Fische	Fisch	NOUN	NN	_	14	A	14:A	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	aber	aber	CCONJ	KON	_	3	L	3:L	_
+20	jeder	jed	PRON	PIAT	_	3	H	3:H	_
+21	in	in	ADP	APPR	_	24	R	24:R	_
+22	sehr	sehr	ADV	NE	_	24	E	24:E	_
+23	verschiedener	verschieden	ADJ	ADJA	_	24	E	24:E	_
+24	Weise	Weise	NOUN	NN	_	20	A	20:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

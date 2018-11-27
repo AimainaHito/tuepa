@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25443000
+# text = Kanadier sind Franzosen , und so wenig mitteilsam Ned Land war , hatte er doch , erkenne ich an , eine gewisse Anhänglichkeit an mich .
+1	Kanadier	Kanadier	NOUN	NN	_	2	A	2:A	_
+2	sind	sein	AUX	NN	_	0	H	0:H	_
+3	Franzosen	Franzose	NOUN	NN	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	so	so	ADV	ADV	_	7	E	7:E	_
+7	wenig	wenig	ADV	ADJA	_	8	D	8:D	_
+8	mitteilsam	mitteilsam	ADJ	ADJD	_	2	H	2:H	_
+9	Ned	Ned	PROPN	FM	_	8	A	8:A	_
+10	Land	Land	NOUN	FM	_	9	Terminal	9:Terminal	_
+11	war	sein	AUX	NE	_	8	F	8:F	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	hatte	haben	AUX	VAFIN	_	23	F	23:F	_
+14	er	er	PRON	PPER	_	23	A	23:A	_
+15	doch	doch	ADV	ADV	_	23	D	23:D	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	erkenne	erkennen	VERB	VVFIN	_	2	H	2:H	_
+18	ich	ich	PRON	PPER	_	17	A	17:A	_
+19	an	an	ADP	PTKVZ	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	eine	ein	DET	ART	_	23	E	23:E	_
+22	gewisse	gewiß	ADJ	ADJA	_	23	D	23:D	_
+23	Anhänglichkeit	Anhänglichkeit	NOUN	NN	_	2	H	2:H	_
+24	an	an	ADP	APPR	_	25	R	25:R	_
+25	mich	ich	PRON	PRF	_	23	A	23:A	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

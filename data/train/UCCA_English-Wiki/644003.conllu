@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 644003
+# text = Lennon 's first son , Julian , was born as his commitments with the Beatles intensified at the height of Beatlemania during his marriage to Cynthia .
+1	Lennon	Lennon	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	first	first	ADJ	JJ	_	4	E	4:E	_
+4	son	son	NOUN	NN	_	9	A	9:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Julian	Julian	PROPN	NNP	_	4	E	4:E	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	born	bear	VERB	VBN	_	0	H	0:H	_
+10	as	as	ADP	IN	_	9	L	9:L	_
+11	his	he	PRON	PRP$	_	12	A	12:A	_
+12	commitments	commitment	NOUN	NNS	_	16	A	16:A	_
+13	with	with	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	Beatles	Beatles	PROPN	NNPS	_	12	A	12:A	_
+16	intensified	intensify	VERB	VBN	_	9	H	9:H	_
+17	at	at	ADP	IN	_	21	R	21:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	height	height	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	Beatlemania	Beatlemania	PROPN	NNP	_	16	A	16:A	_
+22	during	during	ADP	IN	_	9	L	9:L	_
+23	his	he	PRON	PRP$	_	24	A	24:A	_
+24	marriage	marriage	NOUN	NN	_	9	H	9:H	_
+25	to	to	ADP	IN	_	26	R	26:R	_
+26	Cynthia	Cynthia	PROPN	NNP	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

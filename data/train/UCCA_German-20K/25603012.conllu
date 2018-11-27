@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25603012
+# text = Das Thermometer zeigte eine Temperatur von 4,25 Grad Celsius , welche Temperatur in dieser Tiefe unter allen Breitengraden gleich zu sein scheint .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Thermometer	Thermometer	NOUN	NN	_	3	A	3:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Temperatur	Temperatur	NOUN	NN	_	3	A	3:A	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	4,25	4,25	NUM	CARD	_	8	E	8:E	_
+8	Grad	Grad	NOUN	NN	_	5	E	5:E	_
+9	Celsius	Celsius	PROPN	NN	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	welche	welch	PRON	NN	_	12	E	12:E	_
+12	Temperatur	Temperatur	NOUN	NN	_	19	A	19:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	dieser	dies	PRON	PDAT	_	15	E	15:E	_
+15	Tiefe	Tiefe	NOUN	NN	_	19	A	19:A	_
+16	unter	unter	ADP	ADJD	_	18	R	18:R	_
+17	allen	alle	PRON	PIS	_	18	E	18:E	_
+18	Breitengraden	Breitengraden	NOUN	NN	_	19	A	19:A	_
+19	gleich	gleich	ADV	ADV	_	3	H	3:H	_
+20	zu	zu	PART	VVINF	_	19	F	19:F	_
+21	sein	sein	AUX	VAINF	_	19	F	19:F	_
+22	scheint	scheinen	VERB	VVFIN	_	19	G	19:G	_
+23	.	.	PUNCT	$.	_	19	U	19:U	_
+

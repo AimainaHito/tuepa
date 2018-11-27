@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25677011
+# text = Nachher entfernen sie das Fleisch der Auster , sieben sie ab und sieben sie durch , um auch die kleinsten Perlchen heraus zu bekommen . «
+1	Nachher	Nachher	ADV	NN	_	2	L	2:L	_
+2	entfernen	entfernen	VERB	VVINF	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Fleisch	Fleisch	NOUN	NN	_	2	A	2:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Auster	Auster	NOUN	NN	_	5	E	5:E	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	sieben	sieben	VERB	CARD	_	2	H	2:H	_
+10	sie	sie	PRON	TRUNC	_	9	A	9:A	_
+11	ab	ab	ADP	ADV	_	9	Terminal	9:Terminal	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	sieben	sieben	VERB	CARD	_	2	H	2:H	_
+14	sie	sie	PRON	TRUNC	_	13	A	13:A	_
+15	durch	durch	ADP	PTKVZ	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	um	um	CCONJ	KOUI	_	2	L	2:L	_
+18	auch	auch	ADV	ADV	_	2	L	2:L	_
+19	die	der	DET	ART	_	21	E	21:E	_
+20	kleinsten	klein	ADJ	NN	_	21	E	21:E	_
+21	Perlchen	Perlchen	NOUN	NE	_	22	A	22:A	_
+22	heraus	heraus	ADV	ADV	_	2	H	2:H	_
+23	zu	zu	PART	VVINF	_	22	F	22:F	_
+24	bekommen	bekommen	VERB	VVINF	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	$.	_	22	U	22:U	_
+26	«	«	PUNCT	$(	_	22	U	22:U	_
+

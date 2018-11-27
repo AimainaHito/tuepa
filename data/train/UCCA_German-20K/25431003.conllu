@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25431003
+# text = Man ließ Kommandant Farragut kaum 24 Stunden Frist .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	ließ	lassen	VERB	VVFIN	_	0	H	0:H	_
+3	Kommandant	Kommandant	NOUN	NN	_	4	E	4:E	_
+4	Farragut	Farragut	PROPN	NN	_	2	A	2:A	_
+5	kaum	kaum	ADV	ADV	_	7	E	7:E	_
+6	24	24	NUM	CARD	_	7	E	7:E	_
+7	Stunden	Stunde|Stunden	NOUN	NN	_	2	A	2:A	_
+8	Frist	Frist	NOUN	NN	_	2	A	2:A	_
+9	.	.	PUNCT	$.	_	2	U	2:U	_
+

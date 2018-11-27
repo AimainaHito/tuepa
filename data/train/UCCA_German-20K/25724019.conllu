@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25724019
+# text = Doch da ich kein Geräusch hörte , trat ich näher .
+1	Doch	doch	CCONJ	KON	_	6	L	6:L	_
+2	da	da	SCONJ	KOUS	_	6	L	6:L	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	kein	kein	PRON	PIAT	_	6	D	6:D	_
+5	Geräusch	Geräusch	NOUN	NN	_	6	A	6:A	_
+6	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	trat	treten	VERB	VVFIN	_	6	H	6:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	näher	näher	ADV	PTKVZ	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

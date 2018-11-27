@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25523005
+# text = Aus dieser Antwort konnte ich nichts entnehmen .
+1	Aus	aus	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Antwort	Antwort	NOUN	NN	_	7	A	7:A	_
+4	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+5	ich	ich	PRON	PPER	_	7	A	7:A	_
+6	nichts	nichts	PRON	ADJA	_	7	A	7:A	_
+7	entnehmen	entnehmen	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

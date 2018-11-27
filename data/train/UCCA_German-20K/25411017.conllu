@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25411017
+# text = Darum erregte auch der Unfall , welcher einem seiner besten Schiffe widerfuhr , so großes Aufsehen .
+1	Darum	darum	ADV	PAV	_	2	L	2:L	_
+2	erregte	erregen	VERB	VVFIN	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	2	D	2:D	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Unfall	Unfall	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	welcher	welch	PRON	PRELS	_	12	R	12:R	_
+8	einem	ein	PRON	ART	_	11	E	11:E	_
+9	seiner	sein	DET	PPOSAT	_	11	E	11:E	_
+10	besten	gut	ADJ	ADJA	_	11	E	11:E	_
+11	Schiffe	Schiff	NOUN	NN	_	12	A	12:A	_
+12	widerfuhr	widerfuhr	ADV	VVFIN	_	5	E	5:E	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	so	so	ADV	ADV	_	15	E	15:E	_
+15	großes	groß	ADJ	ADJA	_	2	D	2:D	_
+16	Aufsehen	Aufsehen	NOUN	NN	_	2	Terminal	2:Terminal	_
+17	.	.	PUNCT	$.	_	2	U	2:U	_
+

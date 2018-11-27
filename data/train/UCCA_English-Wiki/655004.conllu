@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 655004
+# text = ' " Martin obliged , often using double - tracking and other techniques .
+1	'	'	PUNCT	``	_	7	U	7:U	_
+2	"	"	PUNCT	``	_	7	U	7:U	_
+3	Martin	Martin	PROPN	NNP	_	4	A	4:A|7:A	_
+4	obliged	oblige	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	often	often	ADV	RB	_	7	D	7:D	_
+7	using	use	VERB	VBG	_	4	H	4:H	_
+8	double	double	ADJ	JJ	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	tracking	tracking	NOUN	NN	_	7	A	7:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	other	other	ADJ	JJ	_	13	E	13:E	_
+13	techniques	technique	NOUN	NNS	_	10	C	10:C	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

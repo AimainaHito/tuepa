@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25589011
+# text = Man sieht , sie waren sehr verschieden von den unförmlichen Skaphandern , die im 18 . Jahrhundert erfunden und angepriesen wurden .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	sieht	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	sie	sie	PRON	ADV	_	7	A	7:A	_
+5	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+6	sehr	sehr	ADV	NE	_	7	D	7:D	_
+7	verschieden	verschieden	ADJ	VVFIN	_	2	A	2:A	_
+8	von	von	ADP	NN	_	11	R	11:R	_
+9	den	der	DET	ART	_	11	E	11:E	_
+10	unförmlichen	unförmlich	ADJ	ADJA	_	11	E	11:E	_
+11	Skaphandern	Skaphand	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	ART	_	18	R	18:R	_
+14	im	im	ADV	NN	_	15	R	15:R	_
+15	18	18	NUM	CARD	_	18	A	18:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+17	Jahrhundert	Jahrhundert	NOUN	VVPP	_	15	Terminal	15:Terminal	_
+18	erfunden	erfinden	VERB	VVPP	_	11	E	11:E	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	angepriesen	angepreisen	VERB	VVPP	_	18	C	18:C	_
+21	wurden	werden	AUX	ADJD	_	18	F	18:F	_
+22	.	.	PUNCT	$.	_	18	U	18:U	_
+

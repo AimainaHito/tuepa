@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25629006
+# text = Nachdem wir eine Stunde gegangen , kamen wir in einen wahren Wald von Sagobäumen .
+1	Nachdem	nachdem	SCONJ	KOUS	_	5	L	5:L	_
+2	wir	wir	PRON	NE	_	5	A	5:A	_
+3	eine	ein	DET	ART	_	4	E	4:E	_
+4	Stunde	Stunde	NOUN	NN	_	5	D	5:D	_
+5	gegangen	gehen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	kamen	kommen	VERB	VVFIN	_	5	H	5:H	_
+8	wir	wir	PRON	NE	_	7	A	7:A	_
+9	in	in	ADP	APPR	_	12	R	12:R	_
+10	einen	ein	DET	ART	_	12	E	12:E	_
+11	wahren	wahr	ADJ	ADJA	_	12	E	12:E	_
+12	Wald	Wald	NOUN	NN	_	7	A	7:A	_
+13	von	von	ADP	NE	_	14	R	14:R	_
+14	Sagobäumen	Sagobäumen	PROPN	NE	_	12	E	12:E	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25650007
+# text = Aber da ich nicht wusste , was er damit wollte , wartete ich auf weitere Fragen und behielt mir vor , den Umständen gemäß zu antworten .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	da	da	SCONJ	KOUS	_	5	L	5:L	_
+3	ich	ich	PRON	PPER	_	5	A	5:A	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	wusste	wissen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	was	was	PRON	NE	_	10	A	10:A	_
+8	er	er	PRON	PPER	_	10	A	10:A	_
+9	damit	damit	ADV	PAV	_	10	A	10:A	_
+10	wollte	wollen	AUX	VMFIN	_	5	A	5:A	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	wartete	warten	VERB	VVFIN	_	5	H	5:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A|26:A|18:A	_
+14	auf	auf	ADP	APPR	_	16	R	16:R	_
+15	weitere	weit	ADJ	ADJA	_	16	E	16:E	_
+16	Fragen	Frage	NOUN	NN	_	12	A	12:A	_
+17	und	und	CCONJ	NE	_	5	L	5:L	_
+18	behielt	behalten	VERB	VVFIN	_	5	H	5:H	_
+19	mir	ich	PRON	PPER	_	18	A	18:A	_
+20	vor	vor	ADP	NN	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Umständen	Umstand	NOUN	NN	_	26	A	26:A	_
+24	gemäß	gemäß	ADP	APPR	_	23	E	23:E	_
+25	zu	zu	PART	NE	_	26	F	26:F	_
+26	antworten	antworten	VERB	VVINF	_	5	H	5:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

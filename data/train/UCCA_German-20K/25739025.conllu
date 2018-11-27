@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25739025
+# text = Doch als ich zum Zenit aufblickte , gerade über meinem Kopf , glaubte ich einen unbestimmten Schimmer zu bemerken , eine Art Dämmerlicht durch ein rundes Loch .
+1	Doch	doch	CCONJ	KON	_	6	L	6:L	_
+2	als	als	SCONJ	KOKOM	_	6	L	6:L	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	zum	zum	ADV	NN	_	5	R	5:R	_
+5	Zenit	Zenit	NOUN	NE	_	6	A	6:A	_
+6	aufblickte	aufblicken	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	gerade	gerade	ADV	ADV	_	19	D	19:D	_
+9	über	über	ADP	VVFIN	_	11	R	11:R	_
+10	meinem	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Kopf	Kopf	NOUN	NN	_	19	A	19:A	_
+12	,	,	PUNCT	$,	_	19	U	19:U	_
+13	glaubte	glauben	VERB	VVFIN	_	19	D	19:D	_
+14	ich	ich	PRON	PPER	_	19	A	19:A	_
+15	einen	ein	DET	ART	_	17	E	17:E	_
+16	unbestimmten	unbestimmt	ADJ	ADJA	_	17	D	17:D	_
+17	Schimmer	Schimmer	NOUN	NN	_	19	A	19:A	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	bemerken	bemerken	VERB	VVINF	_	6	H	6:H	_
+20	,	,	PUNCT	$,	_	23	U	23:U	_
+21	eine	ein	DET	ART	_	22	E	22:E	_
+22	Art	Art	NOUN	NN	_	23	E	23:E	_
+23	Dämmerlicht	Dämmerlicht	PART	VVFIN	_	6	H	6:H	_
+24	durch	durch	ADP	APPR	_	27	R	27:R	_
+25	ein	ein	DET	ART	_	27	E	27:E	_
+26	rundes	rund	ADJ	ADJA	_	27	E	27:E	_
+27	Loch	Loch	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 557002
+# text = Biographer Peter Guralnick argues that he chose Sun in the hope of being discovered .
+1	Biographer	Biographer	PROPN	NNP	_	2	E	2:E	_
+2	Peter	Peter	PROPN	NNP	_	4	A	4:A	_
+3	Guralnick	Guralnick	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	argues	argue	VERB	VBZ	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	7	F	7:F	_
+6	he	he	PRON	PRP	_	7	A	7:A|14:A	_
+7	chose	choose	VERB	VBD	_	4	A	4:A	_
+8	Sun	Sun	PROPN	NNP	_	7	A	7:A	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	hope	hope	NOUN	NN	_	7	A	7:A	_
+12	of	of	SCONJ	IN	_	14	R	14:R	_
+13	being	be	AUX	VBG	_	14	F	14:F	_
+14	discovered	discover	VERB	VBN	_	11	E	11:E	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

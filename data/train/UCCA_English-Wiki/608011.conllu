@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 608011
+# text = The performance featured opera singers Kiri Te Kanawa , Sally Burgess , Jerry Hadley and Willard White , with the Royal Liverpool Philharmonic Orchestra and the choir of Liverpool Cathedral .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	performance	performance	NOUN	NN	_	3	A	3:A	_
+3	featured	feature	VERB	VBN	_	0	H	0:H	_
+4	opera	opera	NOUN	NN	_	5	E	5:E	_
+5	singers	singer	NOUN	NNS	_	6	E	6:E	_
+6	Kiri	Kiri	PROPN	NNP	_	3	A	3:A	_
+7	Te	te	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Kanawa	Kanawa	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	Sally	Sally	PROPN	NNP	_	6	C	6:C	_
+11	Burgess	Burgess	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	Jerry	Jerry	PROPN	NNP	_	6	C	6:C	_
+14	Hadley	Hadley	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	6	N	6:N	_
+16	Willard	Willard	PROPN	NNP	_	6	C	6:C	_
+17	White	White	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	3	U	3:U	_
+19	with	with	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	Royal	Royal	PROPN	NNP	_	3	A	3:A	_
+22	Liverpool	Liverpool	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Philharmonic	Philharmonic	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	Orchestra	orchestra	PROPN	NNP	_	21	Terminal	21:Terminal	_
+25	and	and	CCONJ	CC	_	21	N	21:N	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	choir	choir	NOUN	NN	_	21	C	21:C	_
+28	of	of	ADP	IN	_	30	R	30:R	_
+29	Liverpool	Liverpool	PROPN	NNP	_	30	E	30:E	_
+30	Cathedral	Cathedral	PROPN	NNP	_	27	E	27:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

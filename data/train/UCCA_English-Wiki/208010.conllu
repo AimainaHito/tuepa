@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 208010
+# text = Tootsie earned ten Academy Award nominations , including Hoffman 's fifth nomination .
+1	Tootsie	Tootsie	PROPN	NNP	_	2	A	2:A	_
+2	earned	earn	VERB	VBD	_	0	H	0:H	_
+3	ten	ten	NUM	CD	_	6	E	6:E	_
+4	Academy	Academy	PROPN	NNP	_	5	E	5:E	_
+5	Award	Award	PROPN	NNP	_	6	E	6:E	_
+6	nominations	nomination	NOUN	NNS	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	including	include	VERB	VBG	_	12	R	12:R	_
+9	Hoffman	Hoffman	PROPN	NNP	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	fifth	fifth	ADJ	JJ	_	12	E	12:E	_
+12	nomination	nomination	NOUN	NN	_	6	E	6:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

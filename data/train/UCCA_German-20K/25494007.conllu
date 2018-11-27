@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25494007
+# text = Er hätte für seine Pflicht gehalten , ein Fahrzeug dieser Art ganz ebenso wie einen Riesen narwal zu vernichten .
+1	Er	er	PRON	PPER	_	6	A	6:A|19:A|17:A	_
+2	hätte	haben	AUX	VAFIN	_	6	D	6:D	_
+3	für	für	ADP	APPR	_	5	R	5:R	_
+4	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Pflicht	Pflicht	NOUN	NN	_	6	A	6:A	_
+6	gehalten	halten	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	ein	ein	DET	ART	_	9	E	9:E	_
+9	Fahrzeug	Fahrzeug	NOUN	NN	_	19	A	19:A	_
+10	dieser	dies	PRON	PDAT	_	11	E	11:E	_
+11	Art	Art	NOUN	NN	_	9	E	9:E	_
+12	ganz	ganz	ADJ	ADV	_	13	E	13:E	_
+13	ebenso	ebenso	ADV	ADV	_	19	D	19:D	_
+14	wie	wie	ADP	KON	_	17	R	17:R	_
+15	einen	ein	DET	ART	_	17	E	17:E	_
+16	Riesen	Riese	NOUN	NN	_	17	E	17:E	_
+17	narwal	narwal	ADV	ADJD	_	19	H	19:H	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	vernichten	vernichten	VERB	VVINF	_	6	A	6:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

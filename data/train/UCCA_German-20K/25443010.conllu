@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25443010
+# text = Ich möchte noch hundert Jahre leben , um mich noch recht lange deiner zu erinnern !
+1	Ich	ich	PRON	PPER	_	6	A	6:A	_
+2	möchte	mögen	AUX	VVFIN	_	6	D	6:D	_
+3	noch	noch	ADV	ADV	_	6	D	6:D	_
+4	hundert	hundert	NUM	CARD	_	6	A	6:A	_
+5	Jahre	Jahr	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	leben	leben	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	um	um	ADP	KOUI	_	6	L	6:L	_
+9	mich	ich	PRON	PRF	_	15	A	15:A	_
+10	noch	noch	ADV	VVINF	_	15	D	15:D	_
+11	recht	recht	ADV	NE	_	12	E	12:E	_
+12	lange	lange	ADV	ADJA	_	15	D	15:D	_
+13	deiner	dein	PRON	PPOSAT	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	erinnern	erinnern	VERB	VVINF	_	6	H	6:H	_
+16	!	!	PUNCT	$.	_	15	U	15:U	_
+

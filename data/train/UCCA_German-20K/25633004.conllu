@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25633004
+# text = » Kapitän ! « wiederholte ich und berührte ihn mit der Hand .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Kapitän	Kapitän	NOUN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	wiederholte	wiederholen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	berührte	berühren	VERB	VVFIN	_	5	H	5:H	_
+9	ihn	er	PRON	PPER	_	8	A	8:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Hand	Hand	NOUN	NN	_	8	A	8:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

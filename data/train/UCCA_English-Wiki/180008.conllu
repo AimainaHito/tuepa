@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 180008
+# text = On May 2 , 2009 , she married Sarsgaard in Italy .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	May	May	PROPN	NNP	_	8	D	8:D	_
+3	2	2	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	she	she	PRON	PRP	_	8	A	8:A	_
+8	married	marry	VERB	VBD	_	0	H	0:H	_
+9	Sarsgaard	Sarsgaard	PROPN	NNP	_	8	A	8:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Italy	Italy	PROPN	NNP	_	8	A	8:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

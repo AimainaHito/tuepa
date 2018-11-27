@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25498013
+# text = « » Das lässt man sich gern gefallen ! « erwiderte der Harpunier .
+1	«	«	PUNCT	$(	_	11	U	11:U	_
+2	»	»	PUNCT	$(	_	11	U	11:U	_
+3	Das	der	PRON	PDS	_	8	A	8:A	_
+4	lässt	lassen	VERB	VVFIN	_	8	D	8:D	_
+5	man	man	PRON	PIS	_	8	A	8:A	_
+6	sich	er|es|sie	PRON	PRF	_	8	A	8:A	_
+7	gern	gern	ADV	ADV	_	8	D	8:D	_
+8	gefallen	fallen|gefallen	VERB	VVPP	_	11	A	11:A	_
+9	!	!	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Harpunier	Harpunier	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

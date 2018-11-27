@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 689009
+# text = Their performance of Danny and the Juniors ' " Rock and Roll Is Here to Stay " at their high school talent show was so loud that the principal cut the microphone off .
+1	Their	they	PRON	PRP$	_	2	A	2:A	_
+2	performance	performance	NOUN	NN	_	26	A	26:A	_
+3	of	of	ADP	IN	_	10	R	10:R	_
+4	Danny	Danny	PROPN	NNP	_	10	E	10:E	_
+5	and	and	CCONJ	CC	_	4	Terminal	4:Terminal	_
+6	the	the	DET	DT	_	4	Terminal	4:Terminal	_
+7	Juniors	Juniors	PROPN	NNPS	_	4	Terminal	4:Terminal	_
+8	'	's	PART	POS	_	10	U	10:U	_
+9	"	"	PUNCT	``	_	10	U	10:U	_
+10	Rock	rock	NOUN	NN	_	2	A	2:A	_
+11	and	and	CCONJ	CC	_	10	Terminal	10:Terminal	_
+12	Roll	roll	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	Is	be	AUX	VBZ	_	10	Terminal	10:Terminal	_
+14	Here	here	ADV	RB	_	10	Terminal	10:Terminal	_
+15	to	to	PART	TO	_	10	Terminal	10:Terminal	_
+16	Stay	stay	VERB	VB	_	10	Terminal	10:Terminal	_
+17	"	"	PUNCT	``	_	2	U	2:U	_
+18	at	at	ADP	IN	_	23	R	23:R	_
+19	their	they	PRON	PRP$	_	23	E	23:E	_
+20	high	high	ADJ	JJ	_	23	E	23:E	_
+21	school	school	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	talent	talent	NOUN	NN	_	23	E	23:E	_
+23	show	show	NOUN	NN	_	2	A	2:A	_
+24	was	be	AUX	VBD	_	26	F	26:F	_
+25	so	so	ADV	RB	_	26	D	26:D	_
+26	loud	loud	ADJ	JJ	_	0	H	0:H	_
+27	that	that	SCONJ	IN	_	30	F	30:F	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	principal	principal	NOUN	NN	_	30	A	30:A	_
+30	cut	cut	VERB	VB	_	26	A	26:A	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	microphone	microphone	NOUN	NN	_	30	A	30:A	_
+33	off	off	ADP	RP	_	30	Terminal	30:Terminal	_
+34	.	.	PUNCT	.	_	30	U	30:U	_
+

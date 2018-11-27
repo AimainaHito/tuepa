@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25465009
+# text = Es hatte zunächst zur Folge , dass der Mut der Mannschaft sich wieder hob .
+1	Es	es	PRON	PPER	_	5	A	5:A	_
+2	hatte	haben	VERB	VAFIN	_	5	F	5:F	_
+3	zunächst	zunächst	ADV	ADV	_	5	D	5:D	_
+4	zur	zur	CCONJ	NN	_	5	R	5:R	_
+5	Folge	Folge	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Mut	Mut	NOUN	NN	_	12	A	12:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Mannschaft	Mannschaft	NOUN	NN	_	9	E	9:E	_
+12	sich	er|es|sie	PRON	PRF	_	5	A	5:A	_
+13	wieder	wieder	ADV	NN	_	12	D	12:D	_
+14	hob	heben	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

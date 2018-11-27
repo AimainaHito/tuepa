@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25670002
+# text = Sie nannten es ›Nautilus‹ und Pompylius .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	nannten	nennen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	2	A	2:A	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Pompylius	Pompylius	PROPN	NE	_	4	C	4:C	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

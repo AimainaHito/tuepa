@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 479008
+# text = Sports journalist Larry Schwartz of ESPN asserted that Johnson and Bird saved the NBA from bankruptcy .
+1	Sports	sport	NOUN	NNS	_	2	E	2:E	_
+2	journalist	journalist	NOUN	NN	_	3	E	3:E	_
+3	Larry	Larry	PROPN	NNP	_	7	A	7:A	_
+4	Schwartz	Schwartz	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	ESPN	ESPN	PROPN	NNP	_	3	E	3:E	_
+7	asserted	assert	VERB	VBD	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	12	F	12:F	_
+9	Johnson	Johnson	PROPN	NNP	_	12	A	12:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	Bird	bird	PROPN	NNP	_	9	C	9:C	_
+12	saved	save	VERB	VBD	_	7	A	7:A	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	NBA	NBA	PROPN	NNP	_	12	A	12:A	_
+15	from	from	ADP	IN	_	16	R	16:R	_
+16	bankruptcy	bankruptcy	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

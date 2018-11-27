@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25615004
+# text = » Alles zu sehen , Conseil ? Das würde vielleicht zu lange dauern . Aber was hält Meister Ned Land davon ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Alles	alle	PRON	PIS	_	4	A	4:A	_
+3	zu	zu	PART	VVINF	_	4	F	4:F	_
+4	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Conseil	Conseil	NOUN	NE	_	4	G	4:G	_
+7	?	?	PUNCT	$.	_	4	U	4:U	_
+8	Das	der	PRON	ART	_	13	A	13:A	_
+9	würde	werden	AUX	NN	_	13	D	13:D	_
+10	vielleicht	vielleicht	ADV	NE	_	13	G	13:G	_
+11	zu	zu	ADP	NE	_	12	E	12:E	_
+12	lange	lang	ADJ	ADJA	_	13	D	13:D	_
+13	dauern	dauern	NOUN	VVINF	_	4	H	4:H	_
+14	.	.	PUNCT	$.	_	4	U	4:U	_
+15	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+16	was	was	PRON	NE	_	17	A	17:A	_
+17	hält	halten	VERB	VVFIN	_	4	H	4:H	_
+18	Meister	Meister	NOUN	NN	_	19	E	19:E	_
+19	Ned	Ned	PROPN	NE	_	17	A	17:A	_
+20	Land	Land	PROPN	NN	_	19	Terminal	19:Terminal	_
+21	davon	davon	ADV	PAV	_	17	A	17:A	_
+22	?	?	PUNCT	$.	_	17	U	17:U	_
+23	«	«	PUNCT	$(	_	17	U	17:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25630010
+# text = » Und mein Herr weiß , wie die Eingeborenen es machen ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Und	und	CCONJ	NN	_	5	L	5:L	_
+3	mein	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Herr	Herr	NOUN	NN	_	5	A	5:A	_
+5	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	wie	wie	SCONJ	KON	_	11	D	11:D	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Eingeborenen	eingeboren	NOUN	ADJA	_	11	A	11:A	_
+10	es	es	PRON	PPER	_	11	A	11:A	_
+11	machen	machen	VERB	VVINF	_	5	A	5:A	_
+12	?	?	PUNCT	$.	_	11	U	11:U	_
+13	«	«	PUNCT	$(	_	11	U	11:U	_
+

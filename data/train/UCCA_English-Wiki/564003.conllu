@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 564003
+# text = Throughout the following performance , he largely kept still , except for wiggling his little finger suggestively in mockery of the order .
+1	Throughout	throughout	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	following	follow	VERB	VBG	_	4	E	4:E	_
+4	performance	performance	NOUN	NN	_	8	A	8:A	_
+5	,	,	PUNCT	,	_	8	U	8:U	_
+6	he	he	PRON	PRP	_	8	A	8:A|19:A	_
+7	largely	largely	ADV	RB	_	8	D	8:D	_
+8	kept	keep	VERB	VBD	_	0	H	0:H	_
+9	still	still	ADV	RB	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	except	except	ADP	IN	_	8	L	8:L	_
+12	for	for	SCONJ	IN	_	11	Terminal	11:Terminal	_
+13	wiggling	wiggl	VERB	VBG	_	8	H	8:H	_
+14	his	he	PRON	PRP$	_	16	E	16:E	_
+15	little	little	ADJ	JJ	_	16	E	16:E	_
+16	finger	finger	NOUN	NN	_	13	A	13:A	_
+17	suggestively	suggestively	ADV	RB	_	13	D	13:D	_
+18	in	in	ADP	IN	_	8	L	8:L	_
+19	mockery	mockery	NOUN	NN	_	8	H	8:H	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	order	order	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

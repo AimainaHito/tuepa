@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 454006
+# text = The CBC could not meet Jennings ' renegotiation deadlines , though , and the deal fell through .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	CBC	Cbc	NOUN	NN	_	5	A	5:A	_
+3	could	could	AUX	MD	_	5	D	5:D	_
+4	not	not	PART	RB	_	5	D	5:D	_
+5	meet	meet	VERB	VB	_	0	H	0:H	_
+6	Jennings	Jenning	PROPN	NNP	_	9	E	9:E	_
+7	'	's	PART	POS	_	9	U	9:U	_
+8	renegotiation	renegotiation	NOUN	NN	_	9	E	9:E	_
+9	deadlines	deadline	NOUN	NNS	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	though	though	ADV	RB	_	5	L	5:L	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	and	and	CCONJ	CC	_	11	Terminal	11:Terminal	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	deal	deal	NOUN	NN	_	16	A	16:A	_
+16	fell	fall	VERB	VBD	_	5	H	5:H	_
+17	through	through	ADV	RB	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

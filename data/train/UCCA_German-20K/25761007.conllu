@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25761007
+# text = Ich fühlte , dass wir wieder zur Oberfläche kamen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	9	R	9:R	_
+5	wir	wir	PRON	NE	_	9	A	9:A	_
+6	wieder	wieder	ADV	NE	_	9	D	9:D	_
+7	zur	zur	ADV	NE	_	8	R	8:R	_
+8	Oberfläche	Oberfläche	NOUN	NE	_	9	A	9:A	_
+9	kamen	kommen	VERB	VVFIN	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

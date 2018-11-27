@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25705002
+# text = Wir waren übereinander geworfen , und ich weiß nicht , welchen Ausgang das Abenteuer genommen haben würde , hätte nicht der Kanadier , der unablässig dem Tier hitzig zusetzte , es endlich ins Herz getroffen .
+1	Wir	wir	PRON	NE	_	4	A	4:A	_
+2	waren	sein	AUX	VAFIN	_	4	F	4:F	_
+3	übereinander	übereinander	ADV	ADV	_	4	D	4:D	_
+4	geworfen	werfen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	und	und	CCONJ	NE	_	4	L	4:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	weiß	wissen	VERB	VVFIN	_	4	H	4:H	_
+9	nicht	nicht	PART	CARD	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	welchen	welch	PRON	PWS	_	12	R	12:R	_
+12	Ausgang	Ausgang	NOUN	NN	_	8	A	8:A	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Abenteuer	Abenteuer	NOUN	NN	_	12	A	12:A	_
+15	genommen	nehmen	VERB	VVPP	_	12	F	12:F	_
+16	haben	haben	AUX	VAINF	_	12	F	12:F	_
+17	würde	werden	AUX	NN	_	12	D	12:D	_
+18	,	,	PUNCT	$,	_	12	U	12:U	_
+19	hätte	haben	AUX	VAFIN	_	35	D	35:D	_
+20	nicht	nicht	PART	XY	_	35	D	35:D	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Kanadier	Kanadier	NOUN	NN	_	35	A	35:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	der	der	PRON	PRELS	_	29	R	29:R	_
+25	unablässig	unablässig	ADJ	ADJD	_	29	D	29:D	_
+26	dem	der	DET	ART	_	27	E	27:E	_
+27	Tier	Tier	NOUN	NN	_	29	A	29:A	_
+28	hitzig	hitzig	ADJ	ADJD	_	29	D	29:D	_
+29	zusetzte	zusetzen	VERB	VVFIN	_	22	E	22:E	_
+30	,	,	PUNCT	$,	_	35	U	35:U	_
+31	es	es	PRON	PPER	_	35	A	35:A	_
+32	endlich	endlich	ADV	ADV	_	35	D	35:D	_
+33	ins	in	DET	NE	_	34	R	34:R	_
+34	Herz	Herz	NOUN	NN	_	35	A	35:A	_
+35	getroffen	treffen|triefen	VERB	VVPP	_	12	H	12:H	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25653000
+# text = Indem das Licht inmitten dieser so lebhaft gefärbten Gezweige spielte , erzeugten sich tausend reizende Effekte .
+1	Indem	indem	SCONJ	KOUS	_	10	L	10:L	_
+2	das	der	DET	ART	_	3	E	3:E	_
+3	Licht	Licht	NOUN	NN	_	10	A	10:A	_
+4	inmitten	inmitten	ADP	APPR	_	9	R	9:R	_
+5	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+6	so	so	ADV	ADV	_	7	E	7:E	_
+7	lebhaft	lebhaft	ADJ	ADJD	_	8	D	8:D	_
+8	gefärbten	gefärbt	ADJ	ADJA	_	9	E	9:E	_
+9	Gezweige	Gezweige	NOUN	NN	_	10	A	10:A	_
+10	spielte	spielen	VERB	VVFIN	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	erzeugten	erzeugen	VERB	VVFIN	_	10	H	10:H	_
+13	sich	er|es|sie	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	tausend	tausend	ADJ	CARD	_	12	A	12:A	_
+15	reizende	reizend	ADJ	ADJA	_	16	E	16:E	_
+16	Effekte	Effekt	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 659005
+# text = Carey had begun writing poems and adding melodies to them , thus starting as a singer - songwriter while attending Harborfields High School in Greenlawn , New York .
+1	Carey	Carey	PROPN	NNP	_	4	A	4:A|20:A|7:A|13:A	_
+2	had	have	AUX	VBD	_	3	E	3:E	_
+3	begun	begin	VERB	VBN	_	4	D	4:D	_
+4	writing	writing	NOUN	NN	_	0	H	0:H	_
+5	poems	poem	NOUN	NNS	_	4	A	4:A	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	adding	add	VERB	VBG	_	4	H	4:H	_
+8	melodies	melody	NOUN	NNS	_	7	A	7:A	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	them	they	PRON	PRP	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	thus	thus	ADV	RB	_	4	L	4:L	_
+13	starting	start	VERB	VBG	_	4	H	4:H	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	singer	singer	NOUN	NN	_	13	A	13:A	_
+17	-	-	PUNCT	HYPH	_	16	U	16:U	_
+18	songwriter	songwriter	NOUN	NN	_	16	C	16:C	_
+19	while	while	SCONJ	IN	_	4	L	4:L	_
+20	attending	attend	VERB	VBG	_	4	H	4:H	_
+21	Harborfields	Harborfields	PROPN	NNP	_	23	E	23:E	_
+22	High	High	PROPN	NNP	_	23	E	23:E	_
+23	School	School	PROPN	NNP	_	20	A	20:A	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	Greenlawn	greenlawn	PROPN	NNP	_	23	E	23:E	_
+26	,	,	PUNCT	,	_	25	U	25:U	_
+27	New	New	PROPN	NNP	_	25	E	25:E	_
+28	York	York	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	25	U	25:U	_
+

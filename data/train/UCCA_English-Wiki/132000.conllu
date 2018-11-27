@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 132000
+# text = Several of the major film studios approached Hepburn to produce the movie version of Barry 's play .
+1	Several	several	ADJ	JJ	_	6	E	6:E	_
+2	of	of	ADP	IN	_	6	R	6:R	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	major	major	ADJ	JJ	_	6	E	6:E	_
+5	film	film	NOUN	NN	_	6	E	6:E	_
+6	studios	studio	NOUN	NNS	_	7	A	7:A|10:A	_
+7	approached	approach	VERB	VBD	_	0	H	0:H	_
+8	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A	_
+9	to	to	PART	TO	_	10	R	10:R	_
+10	produce	produce	VERB	VB	_	7	A	7:A	_
+11	the	the	DET	DT	_	17	E	17:E	_
+12	movie	movie	NOUN	NN	_	13	E	13:E	_
+13	version	version	NOUN	NN	_	17	E	17:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	Barry	Barry	PROPN	NNP	_	17	E	17:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	play	play	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

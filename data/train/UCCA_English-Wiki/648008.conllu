@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 648008
+# text = When Harrison was in New York for his December 1974 Dark Horse tour , Lennon agreed to join him on stage , but failed to appear after an argument over Lennon 's refusal to sign an agreement that would finally dissolve the Beatles ' legal partnership .
+1	When	when	ADV	WRB	_	3	L	3:L	_
+2	Harrison	Harrison	PROPN	NNP	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	New	New	PROPN	NNP	_	3	A	3:A	_
+6	York	York	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	for	for	ADP	IN	_	3	L	3:L	_
+8	his	he	PRON	PRP$	_	13	A	13:A	_
+9	December	December	PROPN	NNP	_	10	E	10:E	_
+10	1974	1974	NUM	CD	_	13	D	13:D	_
+11	Dark	Dark	PROPN	NNP	_	13	E	13:E	_
+12	Horse	horse	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	tour	tour	NOUN	NN	_	3	H	3:H	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	Lennon	Lennon	PROPN	NNP	_	18	A	18:A|26:A	_
+16	agreed	agree	VERB	VBD	_	18	D	18:D	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	join	join	VERB	VB	_	3	H	3:H	_
+19	him	he	PRON	PRP	_	18	A	18:A	_
+20	on	on	ADP	IN	_	21	R	21:R	_
+21	stage	stage	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	but	but	CCONJ	CC	_	3	L	3:L	_
+24	failed	fail	VERB	VBD	_	26	D	26:D	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	appear	appear	VERB	VB	_	3	H	3:H	_
+27	after	after	ADP	IN	_	3	L	3:L	_
+28	an	a	DET	DT	_	29	E	29:E	_
+29	argument	argument	NOUN	NN	_	3	H	3:H	_
+30	over	over	ADP	IN	_	35	R	35:R	_
+31	Lennon	Lennon	PROPN	NNP	_	35	A	35:A	_
+32	's	's	PART	POS	_	31	R	31:R	_
+33	refusal	refusal	ADJ	JJ	_	35	E	35:E	_
+34	to	to	PART	TO	_	35	F	35:F	_
+35	sign	sign	VERB	VB	_	29	A	29:A	_
+36	an	a	DET	DT	_	37	E	37:E	_
+37	agreement	agreement	NOUN	NN	_	35	A	35:A	_
+38	that	that	PRON	WDT	_	41	F	41:F	_
+39	would	would	AUX	MD	_	41	F	41:F	_
+40	finally	finally	ADV	RB	_	41	D	41:D	_
+41	dissolve	dissolve	VERB	VB	_	37	E	37:E	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	Beatles	Beatles	PROPN	NNPS	_	46	E	46:E	_
+44	'	's	PART	POS	_	46	U	46:U	_
+45	legal	legal	ADJ	JJ	_	46	E	46:E	_
+46	partnership	partnership	NOUN	NN	_	41	A	41:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

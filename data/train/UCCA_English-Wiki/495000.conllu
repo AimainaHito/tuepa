@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 495000
+# text = Conn quickly began to promote Bowie .
+1	Conn	Conn	PROPN	NNP	_	5	A	5:A	_
+2	quickly	quickly	ADV	RB	_	5	D	5:D	_
+3	began	begin	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	promote	promote	VERB	VB	_	0	H	0:H	_
+6	Bowie	Bowie	PROPN	NNP	_	5	A	5:A	_
+7	.	.	PUNCT	.	_	5	U	5:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25744006
+# text = Ganz natürlich wünschte da der Kanadier sich mit Honig zu versehen , und er hätte mir ' s sehr übelgenommen , wenn ich ihm hätte entgegen sein wollen .
+1	Ganz	ganz	PROPN	ADV	_	2	E	2:E	_
+2	natürlich	natürlich	ADJ	ADV	_	7	D	7:D	_
+3	wünschte	wünschen	VERB	VVFIN	_	7	D	7:D	_
+4	da	da	SCONJ	KOUS	_	7	D	7:D	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kanadier	Kanadier	NOUN	NN	_	7	A	7:A	_
+7	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	Honig	Honig	NOUN	NN	_	7	A	7:A	_
+10	zu	zu	PART	VVINF	_	7	F	7:F	_
+11	versehen	versehen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	und	und	CCONJ	NE	_	7	L	7:L	_
+14	er	er	PRON	PPER	_	20	A	20:A	_
+15	hätte	haben	AUX	VAFIN	_	20	D	20:D	_
+16	mir	ich	PRON	PPER	_	20	A	20:A	_
+17	'	'	PUNCT	$(	_	20	U	20:U	_
+18	s	s	ADV	ADJD	_	20	F	20:F	_
+19	sehr	sehr	ADV	NE	_	20	D	20:D	_
+20	übelgenommen	übelgenommen	ADJ	VVINF	_	7	H	7:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	wenn	wenn	SCONJ	VVFIN	_	26	R	26:R	_
+23	ich	ich	PRON	PPER	_	26	A	26:A	_
+24	ihm	er	PRON	PPER	_	26	A	26:A	_
+25	hätte	haben	VERB	VAFIN	_	26	D	26:D	_
+26	entgegen	entgegen	ADV	APPR	_	20	A	20:A	_
+27	sein	sein	AUX	VAINF	_	26	F	26:F	_
+28	wollen	wollen	AUX	VMFIN	_	26	D	26:D	_
+29	.	.	PUNCT	$.	_	26	U	26:U	_
+

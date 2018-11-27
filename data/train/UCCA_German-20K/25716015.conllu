@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25716015
+# text = Am folgenden Tag , dem 16 . Februar , verließen wir dieses Becken , das zwischen Rhodos und Alexandria Tiefen von 3.000 Meter zeigte ; und die ›Nautilus‹ verließ , indem sie auf hoher See vor Cerigo vorbeifuhr , den griechischen Archipel , nachdem sie um Kap Matapan herum laviert war .
+1	Am	am	PROPN	NN	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	16	16	NUM	CARD	_	3	E	3:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Februar	Februar	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	verließen	verlassen	VERB	VVFIN	_	0	H	0:H	_
+11	wir	wir	PRON	NE	_	10	A	10:A	_
+12	dieses	dies	PRON	PDAT	_	13	E	13:E	_
+13	Becken	Becken	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	das	der	PRON	ART	_	24	R	24:R	_
+16	zwischen	zwischen	ADP	ADJA	_	17	R	17:R	_
+17	Rhodos	Rhodos	PROPN	NN	_	24	A	24:A	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	Alexandria	Alexandria	PROPN	NE	_	17	C	17:C	_
+20	Tiefen	tiefe	NOUN	ADJA	_	24	A	24:A	_
+21	von	von	ADP	NN	_	20	R	20:R	_
+22	3.000	3.0	NUM	CARD	_	23	E	23:E	_
+23	Meter	Meter	NOUN	NN	_	20	E	20:E	_
+24	zeigte	zeigen	VERB	VVFIN	_	13	E	13:E	_
+25	;	;	PUNCT	$.	_	10	U	10:U	_
+26	und	und	CCONJ	NE	_	10	L	10:L	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	›Nautilus‹	›Nautilus‹	NOUN	NE	_	29	A	29:A	_
+29	verließ	verlassen	VERB	VVFIN	_	10	H	10:H	_
+30	,	,	PUNCT	$,	_	10	U	10:U	_
+31	indem	indem	SCONJ	KOUS	_	10	L	10:L	_
+32	sie	sie	PRON	ADV	_	38	A	38:A	_
+33	auf	auf	ADP	APPR	_	35	R	35:R	_
+34	hoher	hoch	ADJ	ADJA	_	35	E	35:E	_
+35	See	See	NOUN	NN	_	38	A	38:A	_
+36	vor	vor	ADP	NE	_	37	R	37:R	_
+37	Cerigo	Cerigo	PROPN	NE	_	38	A	38:A	_
+38	vorbeifuhr	vorbeifuhr	ADV	VVFIN	_	10	H	10:H	_
+39	,	,	PUNCT	$,	_	10	U	10:U	_
+40	den	der	DET	ART	_	42	E	42:E	_
+41	griechischen	griechisch	ADJ	ADJA	_	42	E	42:E	_
+42	Archipel	Archipel	NOUN	NN	_	29	A	29:A	_
+43	,	,	PUNCT	$,	_	10	U	10:U	_
+44	nachdem	nachdem	SCONJ	PTKVZ	_	10	L	10:L	_
+45	sie	sie	PRON	ADV	_	50	A	50:A	_
+46	um	um	ADP	APPR	_	48	R	48:R	_
+47	Kap	Kap	PROPN	NN	_	48	E	48:E	_
+48	Matapan	Matapan	PROPN	NE	_	50	A	50:A	_
+49	herum	herum	ADV	ADV	_	46	Terminal	46:Terminal	_
+50	laviert	lavieren	VERB	ADJD	_	10	H	10:H	_
+51	war	sein	AUX	ADV	_	50	F	50:F	_
+52	.	.	PUNCT	$.	_	50	U	50:U	_
+

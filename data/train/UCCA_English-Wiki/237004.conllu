@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 237004
+# text = He also hopes to expand into furniture and kitchenware , and is also considering a branded supermarket .
+1	He	he	PRON	PRP	_	3	A	3:A|14:A|5:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	hopes	hope	VERB	VBZ	_	0	H	0:H	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	expand	expand	VERB	VB	_	3	A	3:A	_
+6	into	into	ADP	IN	_	7	R	7:R	_
+7	furniture	furniture	NOUN	NN	_	5	A	5:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	kitchenware	kitchenware	NOUN	NN	_	7	C	7:C	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	and	and	CCONJ	CC	_	3	L	3:L	_
+12	is	be	AUX	VBZ	_	14	F	14:F	_
+13	also	also	ADV	RB	_	14	D	14:D	_
+14	considering	consider	VERB	VBG	_	3	H	3:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	branded	brand	VERB	VBN	_	17	E	17:E	_
+17	supermarket	supermarket	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25635018
+# text = Conseil , ich gebe zu , dass es brave Menschenfresser geben kann , die ihre Gefangenen mit Anstand verzehren .
+1	Conseil	Conseil	NOUN	NN	_	4	G	4:G	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	gebe	geben	VERB	VVFIN	_	0	H	0:H	_
+5	zu	zu	PART	VVINF	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+8	es	es	PRON	PPER	_	11	F	11:F	_
+9	brave	brav	ADJ	NN	_	11	D	11:D	_
+10	Menschenfresser	Menschenfresser	NOUN	NN	_	11	A	11:A	_
+11	geben	geben	VERB	VVINF	_	4	A	4:A	_
+12	kann	können	AUX	VMFIN	_	11	D	11:D	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	die	der	PRON	PRELS	_	19	R	19:R	_
+15	ihre	ihr	DET	PPOSAT	_	16	E	16:E	_
+16	Gefangenen	Gefangene	NOUN	NN	_	19	A	19:A	_
+17	mit	mit	ADP	APPR	_	18	R	18:R	_
+18	Anstand	Anstand	NOUN	NN	_	19	A	19:A	_
+19	verzehren	verzehren	VERB	VVINF	_	10	E	10:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

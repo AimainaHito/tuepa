@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 381002
+# text = The son of director Stephen Gyllenhaal and screenwriter Naomi Foner , Gyllenhaal 's immediate family includes his sister , actress Maggie , who is married to actor Peter Sarsgaard , Gyllenhaal 's co - star in Jarhead and Rendition .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	son	son	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	director	director	NOUN	NN	_	5	E	5:E	_
+5	Stephen	Stephen	PROPN	NNP	_	2	E	2:E	_
+6	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	and	and	CCONJ	CC	_	5	N	5:N	_
+8	screenwriter	screenwriter	PROPN	NNP	_	9	E	9:E	_
+9	Naomi	Naomi	PROPN	NNP	_	5	C	5:C	_
+10	Foner	Foner	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	15	E	15:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	immediate	immediate	ADJ	JJ	_	15	E	15:E	_
+15	family	family	NOUN	NN	_	16	A	16:A	_
+16	includes	include	VERB	VBZ	_	2	H	2:H	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	sister	sister	NOUN	NN	_	20	E	20:E	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	actress	actress	NOUN	NN	_	16	A	16:A	_
+21	Maggie	Maggie	PROPN	NNP	_	20	E	20:E|25:A	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	who	who	PRON	WP	_	25	F	25:F	_
+24	is	be	AUX	VBZ	_	25	F	25:F	_
+25	married	marry	ADJ	JJ	_	20	E	20:E	_
+26	to	to	PART	TO	_	28	R	28:R	_
+27	actor	actor	VERB	VB	_	28	E	28:E	_
+28	Peter	Peter	PROPN	NNP	_	25	A	25:A	_
+29	Sarsgaard	Sarsgaard	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	28	U	28:U	_
+31	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	35	E	35:E	_
+32	's	's	PART	POS	_	31	R	31:R	_
+33	co	co	NOUN	NN	_	35	E	35:E	_
+34	-	-	PUNCT	HYPH	_	35	U	35:U	_
+35	star	star	NOUN	NN	_	28	E	28:E	_
+36	in	in	ADP	IN	_	37	R	37:R	_
+37	Jarhead	Jarhead	PROPN	NNP	_	35	E	35:E	_
+38	and	and	CCONJ	CC	_	37	N	37:N	_
+39	Rendition	Rendition	PROPN	NNP	_	37	C	37:C	_
+40	.	.	PUNCT	.	_	37	U	37:U	_
+

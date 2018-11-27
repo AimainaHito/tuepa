@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25786007
+# text = Die ›Nautilus‹ hatte sich mit größter Schnelligkeit in Bewegung gesetzt .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	A	4:A	_
+3	hatte	haben	AUX	VAFIN	_	4	F	4:F	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	mit	mit	ADP	APPR	_	7	R	7:R	_
+6	größter	groß	ADJ	ADJA	_	7	E	7:E	_
+7	Schnelligkeit	Schnelligkeit	NOUN	NN	_	4	A	4:A	_
+8	in	in	ADP	APPR	_	4	Terminal	4:Terminal	_
+9	Bewegung	Bewegung	NOUN	NN	_	4	Terminal	4:Terminal	_
+10	gesetzt	setzen	VERB	VVPP	_	4	Terminal	4:Terminal	_
+11	.	.	PUNCT	$.	_	4	U	4:U	_
+

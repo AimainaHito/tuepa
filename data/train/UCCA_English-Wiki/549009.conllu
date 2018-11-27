@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 549009
+# text = Irma Warner gave birth to the couple 's only child , Jack M . Warner on March 27 , 1916 .
+1	Irma	Irma	PROPN	NNP	_	3	A	3:A	_
+2	Warner	Warner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	gave	give	VERB	VBD	_	0	H	0:H	_
+4	birth	birth	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	to	to	ADP	IN	_	12	R	12:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	couple	couple	NOUN	NN	_	10	E	10:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	only	only	ADV	RB	_	10	E	10:E	_
+10	child	child	NOUN	NN	_	12	E	12:E	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	Jack	Jack	PROPN	NNP	_	3	A	3:A	_
+13	M	M	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+15	Warner	Warner	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	on	on	ADP	IN	_	20	R	20:R	_
+17	March	March	PROPN	NNP	_	20	E	20:E	_
+18	27	27	NUM	CD	_	20	E	20:E	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	1916	1916	NUM	CD	_	3	D	3:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

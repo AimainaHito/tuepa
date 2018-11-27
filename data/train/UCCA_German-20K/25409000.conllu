@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25409000
+# text = In der Tat begegnete am 20 . Juli 1866 das Dampf boot Governor Higginson , der Calcutta and Burnach steam navigation Company gehörig , dieser schwimmenden Masse fünf Meilen östlich von den Küsten Australiens .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Tat	Tat	NOUN	NN	_	4	G	4:G	_
+4	begegnete	begegnen	VERB	VVFIN	_	0	H	0:H	_
+5	am	am	ADV	ADJD	_	6	E	6:E	_
+6	20	20	NUM	CARD	_	4	D	4:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Juli	Juli	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	1866	1866	NUM	CARD	_	6	Terminal	6:Terminal	_
+10	das	der	DET	ART	_	12	E	12:E	_
+11	Dampf	Dampf	NOUN	NN	_	12	E	12:E	_
+12	boot	boieten	VERB	FM	_	4	A	4:A	_
+13	Governor	Governor	PROPN	NE	_	14	E	14:E	_
+14	Higginson	Higginson	PROPN	NE	_	12	E	12:E	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Calcutta	Calcutta	PROPN	NE	_	23	A	23:A	_
+18	and	and	CCONJ	NE	_	17	Terminal	17:Terminal	_
+19	Burnach	Burnach	PROPN	NE	_	17	Terminal	17:Terminal	_
+20	steam	steommen	VERB	NN	_	17	Terminal	17:Terminal	_
+21	navigation	navigation	NUM	NE	_	17	Terminal	17:Terminal	_
+22	Company	Company	PROPN	NE	_	17	Terminal	17:Terminal	_
+23	gehörig	gehörig	ADJ	PTKVZ	_	12	E	12:E	_
+24	,	,	PUNCT	$,	_	4	U	4:U	_
+25	dieser	dies	PRON	PDS	_	27	E	27:E	_
+26	schwimmenden	schwimmend	ADJ	ADJA	_	4	A	4:A	_
+27	Masse	Masse	NOUN	NN	_	26	A	26:A	_
+28	fünf	fünf	NUM	CARD	_	29	E	29:E	_
+29	Meilen	Meile	NOUN	NN	_	33	E	33:E	_
+30	östlich	östlich	ADJ	NE	_	29	E	29:E	_
+31	von	von	ADP	NE	_	30	R	30:R	_
+32	den	der	DET	ART	_	33	E	33:E	_
+33	Küsten	Küste	NOUN	NN	_	4	A	4:A	_
+34	Australiens	Australien	PROPN	NE	_	33	E	33:E	_
+35	.	.	PUNCT	$.	_	33	U	33:U	_
+

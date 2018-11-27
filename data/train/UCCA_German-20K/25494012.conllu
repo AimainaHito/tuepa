@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25494012
+# text = « » Es war vielleicht die Berechtigung eines Wilden « , fuhr ich fort , » aber nicht eines zivilisierten Menschen . «
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Es	es	PRON	PPER	_	7	F	7:F	_
+4	war	sein	AUX	ADV	_	7	F	7:F	_
+5	vielleicht	vielleicht	ADV	NE	_	7	D	7:D	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Berechtigung	Berechtigung	NOUN	NN	_	12	A	12:A	_
+8	eines	ein	DET	ART	_	9	R	9:R	_
+9	Wilden	Wilde	NOUN	NE	_	7	A	7:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	fort	fort	ADV	PTKVZ	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	»	»	PUNCT	$(	_	12	U	12:U	_
+17	aber	aber	CCONJ	ADV	_	7	L	7:L	_
+18	nicht	nicht	PART	CARD	_	21	D	21:D	_
+19	eines	ein	DET	ART	_	21	E	21:E	_
+20	zivilisierten	zivilisiert	ADJ	ADJA	_	21	E	21:E	_
+21	Menschen	Mensch	NOUN	NN	_	7	H	7:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25670007
+# text = Ich sah genau ihre spiralförmige gefältelte Muschel , die Cuvier richtig mit einer eleganten Schaluppe vergleicht .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	genau	genau	ADJ	ADV	_	2	D	2:D	_
+4	ihre	ihr	DET	PPOSAT	_	7	E	7:E	_
+5	spiralförmige	spiralförmige	ADJ	ADJA	_	7	E	7:E	_
+6	gefältelte	gefältelt	ADJ	ADJA	_	7	E	7:E	_
+7	Muschel	Muschel	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	16	R	16:R	_
+10	Cuvier	Cuvier	PROPN	CARD	_	16	A	16:A	_
+11	richtig	richtig	ADJ	ADJD	_	16	D	16:D	_
+12	mit	mit	ADP	APPR	_	15	R	15:R	_
+13	einer	ein	DET	ART	_	15	E	15:E	_
+14	eleganten	elegant	ADJ	ADJA	_	15	E	15:E	_
+15	Schaluppe	Schaluppe	NOUN	NN	_	16	A	16:A	_
+16	vergleicht	vergleichen	VERB	VVFIN	_	7	E	7:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

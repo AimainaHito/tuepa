@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 452001
+# text = In 1968 , he established ABC 's Middle East bureau in Beirut , Lebanon , the first American television news bureau in the Arab world .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1968	1968	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	established	establish	VERB	VBD	_	0	H	0:H	_
+6	ABC	ABC	PROPN	NNP	_	10	E	10:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	Middle	Middle	PROPN	NNP	_	9	E	9:E	_
+9	East	East	PROPN	NNP	_	10	E	10:E	_
+10	bureau	bureau	PROPN	NNP	_	5	A	5:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	Beirut	Beirut	PROPN	NNP	_	10	E	10:E	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Lebanon	Lebanon	PROPN	NNP	_	12	E	12:E	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	the	the	DET	DT	_	21	R	21:R	_
+17	first	first	ADV	RBS	_	21	E	21:E	_
+18	American	american	ADJ	JJ	_	21	E	21:E	_
+19	television	television	NOUN	NN	_	21	E	21:E	_
+20	news	news	NOUN	NN	_	21	E	21:E	_
+21	bureau	bureau	NOUN	NN	_	10	E	10:E	_
+22	in	in	ADP	IN	_	25	R	25:R	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	Arab	arab	ADJ	JJ	_	25	E	25:E	_
+25	world	world	NOUN	NN	_	21	E	21:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

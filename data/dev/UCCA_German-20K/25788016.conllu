@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25788016
+# text = Er kreuzte die Arme , sann nach .
+1	Er	er	PRON	PPER	_	2	A	2:A|6:A	_
+2	kreuzte	kreuzen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Arme	Arm|Arme	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	sann	sinnen	VERB	VVFIN	_	2	H	2:H	_
+7	nach	nach	ADP	XY	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

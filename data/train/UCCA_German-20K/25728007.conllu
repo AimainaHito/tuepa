@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25728007
+# text = Aus diesen Kisten und Tonnen kamen Gold- und Silber barren zum Vorschein , Piaster und Edelsteine gleich Springwassern .
+1	Aus	aus	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Kisten	Kiste	NOUN	NN	_	6	A	6:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	Tonnen	Ton	NOUN	NN	_	3	C	3:C	_
+6	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+7	Gold-	Gold-	NOUN	NE	_	6	A	6:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Silber	Silber	NOUN	NE	_	10	E	10:E	_
+10	barren	barren	VERB	NN	_	7	C	7:C	_
+11	zum	zum	ADV	NN	_	6	Terminal	6:Terminal	_
+12	Vorschein	Vorschein	NOUN	NN	_	6	Terminal	6:Terminal	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	Piaster	Piaster	NOUN	NN	_	6	H	6:H	_
+15	und	und	CCONJ	NE	_	14	N	14:N	_
+16	Edelsteine	Edelstein	NOUN	NE	_	17	A	17:A	_
+17	gleich	gleich	ADJ	ADV	_	14	C	14:C	_
+18	Springwassern	Springwasser	NOUN	NE	_	17	A	17:A	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

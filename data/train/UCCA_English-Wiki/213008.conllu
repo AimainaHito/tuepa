@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 213008
+# text = She has one younger brother named Christian , born in 1986 .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	has	have	VERB	VBZ	_	0	H	0:H	_
+3	one	one	NUM	CD	_	5	E	5:E	_
+4	younger	younger	ADJ	JJR	_	5	E	5:E	_
+5	brother	brother	NOUN	NN	_	6	A	6:A	_
+6	named	name	VERB	VBN	_	2	A	2:A	_
+7	Christian	christian	PROPN	NNP	_	6	A	6:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	born	bear	VERB	VBN	_	7	E	7:E	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1986	1986	NUM	CD	_	9	D	9:D	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

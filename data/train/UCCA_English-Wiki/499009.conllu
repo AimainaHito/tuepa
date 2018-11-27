@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 499009
+# text = " Life on Mars ? " , from Hunky Dory , was released in June 1973 and made number three in the UK singles chart .
+1	"	"	PUNCT	``	_	18	U	18:U	_
+2	Life	life	NOUN	NN	_	0	C	0:C|18:A	_
+3	on	on	ADP	IN	_	2	Terminal	2:Terminal	_
+4	Mars	Mars	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	?	?	PUNCT	.	_	2	U	2:U	_
+6	"	"	PUNCT	''	_	2	U	2:U	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	from	from	ADP	IN	_	9	R	9:R	_
+9	Hunky	Hunky	PROPN	NNP	_	2	E	2:E	_
+10	Dory	Dory	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	released	release	VERB	VBN	_	0	H	0:H	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	June	June	PROPN	NNP	_	16	E	16:E	_
+16	1973	1973	NUM	CD	_	13	D	13:D	_
+17	and	and	CCONJ	CC	_	13	L	13:L	_
+18	made	make	VERB	VBN	_	13	H	13:H	_
+19	number	number	NOUN	NN	_	18	A	18:A	_
+20	three	three	NUM	CD	_	19	E	19:E	_
+21	in	in	ADP	IN	_	25	R	25:R	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	UK	UK	PROPN	NNP	_	25	E	25:E	_
+24	singles	single	VERB	VBZ	_	25	E	25:E	_
+25	chart	chart	NOUN	NN	_	19	E	19:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

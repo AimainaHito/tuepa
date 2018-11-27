@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25781017
+# text = Diese Tiere werden durch Instinkt getrieben , Löcher in die Eisfelder zu bohren und sie beständig offen zu halten , um daran Luft zu schöpfen .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Tiere	Tier	NOUN	NN	_	6	A	6:A	_
+3	werden	werden	AUX	ADV	_	6	F	6:F	_
+4	durch	durch	ADP	APPR	_	5	R	5:R	_
+5	Instinkt	Instinkt	NOUN	NN	_	6	A	6:A	_
+6	getrieben	treiben	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Löcher	Loch	NOUN	NN	_	13	A	13:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Eisfelder	Eisfeld	NOUN	ADJA	_	13	A	13:A	_
+12	zu	zu	PART	NE	_	13	F	13:F	_
+13	bohren	bohren	VERB	VVINF	_	6	A	6:A	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	sie	sie	PRON	ADV	_	17	A	17:A	_
+16	beständig	beständig	ADJ	ADJD	_	17	D	17:D	_
+17	offen	offen	ADV	CARD	_	13	H	13:H	_
+18	zu	zu	PART	NN	_	17	F	17:F	_
+19	halten	halten	VERB	VVINF	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	$,	_	13	U	13:U	_
+21	um	um	ADP	KOUI	_	13	L	13:L	_
+22	daran	daran	PRON	PAV	_	25	A	25:A	_
+23	Luft	Luft	NOUN	NN	_	25	A	25:A	_
+24	zu	zu	PART	VVINF	_	25	F	25:F	_
+25	schöpfen	schöpfen	VERB	VVINF	_	13	H	13:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

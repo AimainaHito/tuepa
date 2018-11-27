@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25719009
+# text = Während der Nacht des 16 . zum 17 . Februar waren wir in das zweite Becken des Mittelmeers eingefahren , worin die größten Tiefen 3.000 Meter betragen ; und die ›Nautilus‹ tauchte bis in die untersten Schichten hinab .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Nacht	Nacht	NOUN	NN	_	19	D	19:D	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	16	16	NUM	CARD	_	3	E	3:E	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	zum	zum	ADV	NN	_	5	R	5:R	_
+8	17	17	NUM	CARD	_	5	C	5:C	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	Februar	Februar	PROPN	NE	_	8	Terminal	8:Terminal	_
+11	waren	sein	AUX	VAFIN	_	19	F	19:F	_
+12	wir	wir	PRON	NE	_	19	A	19:A	_
+13	in	in	ADP	APPR	_	16	R	16:R	_
+14	das	der	DET	ART	_	16	E	16:E	_
+15	zweite	zweit	ADJ	NN	_	16	E	16:E	_
+16	Becken	Beck	NOUN	NN	_	19	A	19:A	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Mittelmeers	Mittelmeer	NOUN	NN	_	16	E	16:E	_
+19	eingefahren	eingefahren	VERB	VVINF	_	0	H	0:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	worin	worin	PRON	PWAV	_	27	R	27:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	größten	groß	ADJ	ADJA	_	24	E	24:E	_
+24	Tiefen	tiefe	NOUN	ADJA	_	27	A	27:A	_
+25	3.000	3.0	NUM	CARD	_	26	E	26:E	_
+26	Meter	Meter	NOUN	NN	_	27	A	27:A	_
+27	betragen	betragen	VERB	VVINF	_	16	E	16:E	_
+28	;	;	PUNCT	$.	_	19	U	19:U	_
+29	und	und	CCONJ	NE	_	19	L	19:L	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	›Nautilus‹	›Nautilus‹	NOUN	NE	_	32	A	32:A	_
+32	tauchte	tauchen	VERB	VVFIN	_	19	H	19:H	_
+33	bis	bis	ADP	APPR	_	37	R	37:R	_
+34	in	in	ADP	APPR	_	33	Terminal	33:Terminal	_
+35	die	der	DET	ART	_	36	E	36:E	_
+36	untersten	unter	ADJ	ADJA	_	37	E	37:E	_
+37	Schichten	Schicht	NOUN	NN	_	32	A	32:A	_
+38	hinab	hinab	ADV	PTKVZ	_	32	Terminal	32:Terminal	_
+39	.	.	PUNCT	$.	_	32	U	32:U	_
+

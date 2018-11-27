@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 557013
+# text = Bond rejected him after a tryout , advising Presley to stick to truck driving " because you 're never going to make it as a singer . "
+1	Bond	bond	NOUN	NN	_	2	A	2:A|8:A	_
+2	rejected	reject	VERB	VBD	_	0	H	0:H	_
+3	him	he	PRON	PRP	_	2	A	2:A|6:A	_
+4	after	after	ADP	IN	_	2	L	2:L	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	tryout	tryout	NOUN	NN	_	2	H	2:H	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	advising	advise	VERB	VBG	_	2	H	2:H	_
+9	Presley	Presley	PROPN	NNP	_	8	A	8:A|14:A	_
+10	to	to	PART	TO	_	14	F	14:F	_
+11	stick	stick	VERB	VB	_	14	D	14:D	_
+12	to	to	ADP	IN	_	14	F	14:F	_
+13	truck	trike	NOUN	NN	_	14	E	14:E	_
+14	driving	drive	VERB	VBG	_	8	A	8:A	_
+15	"	"	PUNCT	``	_	2	U	2:U	_
+16	because	because	SCONJ	IN	_	2	L	2:L	_
+17	you	you	PRON	PRP	_	22	A	22:A	_
+18	're	be	AUX	VBP	_	22	F	22:F	_
+19	never	never	ADV	RB	_	22	D	22:D	_
+20	going	go	VERB	VBG	_	22	D	22:D	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	make	make	VERB	VB	_	2	H	2:H	_
+23	it	it	PRON	PRP	_	22	Terminal	22:Terminal	_
+24	as	as	ADP	IN	_	26	R	26:R	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	singer	singer	NOUN	NN	_	22	A	22:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+28	"	"	PUNCT	''	_	26	U	26:U	_
+

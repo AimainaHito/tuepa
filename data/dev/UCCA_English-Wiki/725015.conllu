@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 725015
+# text = The movie grossed $ 151 million worldwide , but was a critical failure .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	0	C	0:C|13:A	_
+3	grossed	gross	VERB	VBD	_	0	H	0:H	_
+4	$	$	SYM	$	_	3	U	3:U	_
+5	151	151	NUM	CD	_	3	A	3:A	_
+6	million	million	NUM	CD	_	5	Terminal	5:Terminal	_
+7	worldwide	worldwide	ADJ	JJ	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	but	but	CCONJ	CC	_	3	L	3:L	_
+10	was	be	AUX	VBD	_	13	F	13:F	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	critical	critical	ADJ	JJ	_	13	E	13:E	_
+13	failure	failure	NOUN	NN	_	3	H	3:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25620012
+# text = Zwei Mann reichten dafür aus .
+1	Zwei	zwei	NUM	CARD	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	3	A	3:A	_
+3	reichten	reichen	VERB	VVFIN	_	0	H	0:H	_
+4	dafür	dafür	PRON	PAV	_	3	A	3:A	_
+5	aus	aus	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

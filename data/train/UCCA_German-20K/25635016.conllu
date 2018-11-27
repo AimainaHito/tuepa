@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25635016
+# text = » Man kann Menschen fressen und doch ein braver Mann sein « , erwiderte Conseil . » Eines schließt nicht das andere aus . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Man	man	PRON	PIS	_	5	A	5:A	_
+3	kann	können	AUX	VMFIN	_	5	D	5:D	_
+4	Menschen	Mensch	NOUN	NN	_	5	A	5:A	_
+5	fressen	fressen	VERB	VVFIN	_	14	A	14:A	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	doch	doch	ADV	ADV	_	9	D	9:D	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	braver	brav	ADJ	ADJA	_	5	H	5:H	_
+10	Mann	Mann	NOUN	NN	_	9	A	9:A	_
+11	sein	sein	AUX	VAINF	_	9	F	9:F	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+15	Conseil	Conseil	NOUN	NE	_	14	A	14:A	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+17	»	»	PUNCT	$(	_	14	U	14:U	_
+18	Eines	ein	PRON	PIS	_	19	A	19:A	_
+19	schließt	schließen	VERB	VVFIN	_	5	H	5:H	_
+20	nicht	nicht	PART	XY	_	19	D	19:D	_
+21	das	der	DET	ART	_	22	E	22:E	_
+22	andere	ander	NOUN	PIS	_	19	A	19:A	_
+23	aus	aus	ADP	PTKVZ	_	19	Terminal	19:Terminal	_
+24	.	.	PUNCT	$.	_	19	U	19:U	_
+25	«	«	PUNCT	$(	_	19	U	19:U	_
+

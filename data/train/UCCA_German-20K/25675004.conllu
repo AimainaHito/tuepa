@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25675004
+# text = » Gut ! « dachte ich , » Conseil wird sich nie entschließen mitzugehen , und das wird mich beim Kapitän entschuldigen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Gut	gut	NOUN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	Conseil	Conseil	NOUN	NE	_	14	A	14:A	_
+10	wird	werden	AUX	VAFIN	_	14	F	14:F	_
+11	sich	er|es|sie	PRON	PRF	_	14	D	14:D	_
+12	nie	nie	ADV	ADV	_	14	D	14:D	_
+13	entschließen	entschlassen	VERB	VVINF	_	11	Terminal	11:Terminal	_
+14	mitzugehen	mitzugehen	VERB	VVINF	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	das	der	PRON	PDS	_	22	A	22:A	_
+18	wird	werden	AUX	VAFIN	_	22	F	22:F	_
+19	mich	ich	PRON	PPER	_	22	A	22:A	_
+20	beim	beim	ADV	NE	_	21	R	21:R	_
+21	Kapitän	Kapitän	NOUN	FM	_	22	A	22:A	_
+22	entschuldigen	entschuldigen	VERB	VVINF	_	2	H	2:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

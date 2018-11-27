@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 228000
+# text = In November 2007 , Chan began filming Shinjuku Incident , a dramatic role featuring no martial arts sequences with director Derek Yee , which sees Chan take on the role of a Chinese immigrant in Japan .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	November	November	PROPN	NNP	_	7	D	7:D	_
+3	2007	2007	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Chan	Chan	PROPN	NNP	_	7	A	7:A	_
+6	began	begin	VERB	VBD	_	7	D	7:D	_
+7	filming	filme	VERB	VBG	_	0	H	0:H	_
+8	Shinjuku	Shinjuku	PROPN	NNP	_	7	A	7:A|27:A	_
+9	Incident	incident	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	dramatic	dramatic	ADJ	JJ	_	13	E	13:E	_
+13	role	role	NOUN	NN	_	8	E	8:E	_
+14	featuring	feature	VERB	VBG	_	13	E	13:E	_
+15	no	no	DET	DT	_	14	D	14:D	_
+16	martial	martial	ADJ	JJ	_	17	E	17:E	_
+17	arts	art	NOUN	NNS	_	18	E	18:E	_
+18	sequences	sequence	NOUN	NNS	_	14	A	14:A	_
+19	with	with	ADP	IN	_	21	R	21:R	_
+20	director	director	NOUN	NN	_	21	E	21:E	_
+21	Derek	Derek	PROPN	NNP	_	7	A	7:A	_
+22	Yee	Yee	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	7	U	7:U	_
+24	which	which	PRON	WDT	_	7	L	7:L	_
+25	sees	see	VERB	VBZ	_	27	D	27:D	_
+26	Chan	Chan	PROPN	NNP	_	27	A	27:A	_
+27	take	take	VERB	VB	_	7	H	7:H	_
+28	on	on	ADP	IN	_	27	Terminal	27:Terminal	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	role	role	NOUN	NN	_	27	A	27:A	_
+31	of	of	ADP	IN	_	34	R	34:R	_
+32	a	a	DET	DT	_	34	E	34:E	_
+33	Chinese	chinese	ADJ	JJ	_	34	E	34:E	_
+34	immigrant	immigrant	NOUN	NN	_	30	E	30:E	_
+35	in	in	ADP	IN	_	36	R	36:R	_
+36	Japan	Japan	PROPN	NNP	_	34	E	34:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

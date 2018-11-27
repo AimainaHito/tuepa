@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25753015
+# text = Sodann , weiter hinaus ein Horizont von Bergen , eine bewundernswerte Wellenlinie , die den Hintergrund des Gemäldes bildet .
+1	Sodann	Sodann	ADV	ADV	_	6	L	6:L	_
+2	,	,	PUNCT	$,	_	6	U	6:U	_
+3	weiter	weiter	ADV	ADV	_	6	L	6:L	_
+4	hinaus	hinaus	ADV	ADV	_	3	Terminal	3:Terminal	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Horizont	Horizont	NOUN	NN	_	0	H	0:H	_
+7	von	von	ADP	NE	_	8	R	8:R	_
+8	Bergen	Berg|Bergen	PROPN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	eine	ein	DET	ART	_	12	E	12:E	_
+11	bewundernswerte	bewundernswert	ADJ	ADJA	_	12	E	12:E	_
+12	Wellenlinie	Wellenlinie	NOUN	NN	_	6	A	6:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	PRON	PRELS	_	19	R	19:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Hintergrund	Hintergrund	NOUN	NN	_	19	A	19:A	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Gemäldes	Gemälde	NOUN	NN	_	16	E	16:E	_
+19	bildet	bilden	VERB	VVFIN	_	12	E	12:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

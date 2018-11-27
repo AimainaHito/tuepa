@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 139007
+# text = Following the completion of Long Day 's Journey Into Night , Hepburn took a break in her career to care for the ailing Spencer Tracy .
+1	Following	follow	VERB	VBG	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	completion	completion	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Long	Long	PROPN	NNP	_	3	A	3:A	_
+6	Day	Day	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	Terminal	5:Terminal	_
+8	Journey	journey	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	Into	Into	PROPN	NNP	_	5	Terminal	5:Terminal	_
+10	Night	night	NOUN	NN	_	5	Terminal	5:Terminal	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	Hepburn	Hepburn	PROPN	NNP	_	15	A	15:A|20:A	_
+13	took	take	VERB	VBD	_	15	F	15:F	_
+14	a	a	DET	DT	_	15	F	15:F	_
+15	break	break	NOUN	NN	_	3	H	3:H	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	career	career	NOUN	NN	_	15	A	15:A	_
+19	to	to	PART	TO	_	3	L	3:L	_
+20	care	care	VERB	VB	_	3	H	3:H	_
+21	for	for	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	ailing	ail	NOUN	NN	_	24	E	24:E	_
+24	Spencer	Spencer	PROPN	NNP	_	20	A	20:A	_
+25	Tracy	Tracy	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

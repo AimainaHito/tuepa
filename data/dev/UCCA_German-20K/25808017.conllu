@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25808017
+# text = » Ja , Freund Ned . Ein Gemälde stellte den fraglichen Polypen dar . »
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Freund	Freund	PROPN	NE	_	5	E	5:E	_
+5	Ned	Ned	PROPN	NE	_	2	G	2:G	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	Ein	ein	DET	ART	_	8	E	8:E	_
+8	Gemälde	Gemälde	NOUN	NN	_	9	A	9:A	_
+9	stellte	stellen	VERB	VVFIN	_	2	H	2:H	_
+10	den	der	DET	ART	_	12	E	12:E	_
+11	fraglichen	fraglichen	ADJ	ADJA	_	12	E	12:E	_
+12	Polypen	Polyp	NOUN	NN	_	9	A	9:A	_
+13	dar	dar	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+14	.	.	PUNCT	$.	_	9	U	9:U	_
+15	»	»	PUNCT	$(	_	9	U	9:U	_
+

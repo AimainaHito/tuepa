@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25438018
+# text = Also eine Viertel stunde Verspätung , und die Fregatte fuhr ohne mich ab , so dass ich diese außerordentliche , übernatürliche , unwahrscheinliche Expedition verfehlte , deren wahrheitsgetreue Erzählung doch vielleicht auf manche Ungläubige stoßen wird .
+1	Also	also	ADV	ADV	_	5	L	5:L	_
+2	eine	ein	DET	ART	_	4	E	4:E	_
+3	Viertel	Viertel	NOUN	NN	_	4	E	4:E	_
+4	stunde	stunde	ADJ	NN	_	5	D	5:D	_
+5	Verspätung	Verspätung	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Fregatte	Fregatte	NOUN	NN	_	10	A	10:A	_
+10	fuhr	fahren	VERB	VVFIN	_	5	H	5:H	_
+11	ohne	ohne	ADP	NN	_	10	D	10:D	_
+12	mich	ich	PRON	PPER	_	10	A	10:A	_
+13	ab	ab	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	so	so	ADV	ADV	_	5	L	5:L	_
+16	dass	dass	SCONJ	KOUS	_	15	Terminal	15:Terminal	_
+17	ich	ich	PRON	PPER	_	25	A	25:A	_
+18	diese	dies	PRON	PDAT	_	24	E	24:E	_
+19	außerordentliche	außerordentlich	ADJ	ADJA	_	24	E	24:E	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	übernatürliche	übernatürlich	ADJ	ADJA	_	19	C	19:C	_
+22	,	,	PUNCT	$,	_	19	U	19:U	_
+23	unwahrscheinliche	unwahrscheinlich	ADJ	ADJA	_	19	C	19:C	_
+24	Expedition	Expedition	NOUN	NN	_	25	A	25:A	_
+25	verfehlte	verfehlen	VERB	VVFIN	_	5	H	5:H	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	deren	der	DET	PDAT	_	35	R	35:R	_
+28	wahrheitsgetreue	wahrheitsgetreu	ADJ	ADJA	_	29	E	29:E	_
+29	Erzählung	erzählung	NOUN	NN	_	35	A	35:A	_
+30	doch	doch	ADV	ADV	_	31	E	31:E	_
+31	vielleicht	vielleicht	ADV	NN	_	35	D	35:D	_
+32	auf	auf	ADP	APPR	_	34	R	34:R	_
+33	manche	manch	PRON	NN	_	34	E	34:E	_
+34	Ungläubige	Ungläubige	NOUN	PDS	_	35	A	35:A	_
+35	stoßen	stoßen	VERB	VVINF	_	24	E	24:E	_
+36	wird	werden	AUX	VAFIN	_	35	D	35:D	_
+37	.	.	PUNCT	$.	_	35	U	35:U	_
+

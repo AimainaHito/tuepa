@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25670012
+# text = Dies geschah in einem Augenblick und mit einer gleichen Gemeinsamkeit des Manövers , wie man ' s bei einem Schiffs geschwader noch nie gesehen hat .
+1	Dies	dies	PRON	PDS	_	2	A	2:A	_
+2	geschah	geschehen	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	einem	ein	DET	ART	_	5	E	5:E	_
+5	Augenblick	Augenblick	NOUN	NN	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	mit	mit	ADP	APPR	_	10	R	10:R	_
+8	einer	ein	DET	ART	_	10	E	10:E	_
+9	gleichen	gleich	ADJ	ADJA	_	10	E	10:E	_
+10	Gemeinsamkeit	Gemeinsamkeit	NOUN	NN	_	5	C	5:C	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Manövers	Manöver	NOUN	NN	_	10	E	10:E	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	wie	wie	SCONJ	KON	_	2	L	2:L	_
+15	man	man	PRON	PIS	_	24	A	24:A	_
+16	'	'	PUNCT	$(	_	24	U	24:U	_
+17	s	s	NOUN	NN	_	24	A	24:A	_
+18	bei	bei	ADP	APPR	_	21	R	21:R	_
+19	einem	ein	DET	ART	_	21	E	21:E	_
+20	Schiffs	Schiff	NOUN	NN	_	21	E	21:E	_
+21	geschwader	geschwader	ADV	NN	_	24	A	24:A	_
+22	noch	noch	ADV	CARD	_	24	D	24:D	_
+23	nie	nie	ADV	ADV	_	24	D	24:D	_
+24	gesehen	sehen	VERB	VVINF	_	2	H	2:H	_
+25	hat	haben	AUX	VAFIN	_	24	F	24:F	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

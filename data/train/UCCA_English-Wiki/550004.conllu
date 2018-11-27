@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 550004
+# text = In an interview with reporters , Jack Jr . suggested that his father was dying .
+1	In	in	ADP	IN	_	3	L	3:L	_
+2	an	a	DET	DT	_	3	E	3:E	_
+3	interview	interview	NOUN	NN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	reporters	reporter	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Jack	Jack	PROPN	NNP	_	10	A	10:A|3:A	_
+8	Jr	Jr	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	.	_	10	U	10:U	_
+10	suggested	suggest	VERB	VBD	_	3	H	3:H	_
+11	that	that	SCONJ	IN	_	15	F	15:F	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	father	father	NOUN	NN	_	15	A	15:A	_
+14	was	be	AUX	VBD	_	15	F	15:F	_
+15	dying	die	VERB	VBG	_	10	A	10:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

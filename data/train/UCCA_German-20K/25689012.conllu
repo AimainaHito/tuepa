@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25689012
+# text = » Zur ›Nautilus‹ « , sagte er .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Zur	Zur	ADP	NN	_	3	R	3:R	_
+3	›Nautilus‹	›Nautilus‹	NOUN	NE	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

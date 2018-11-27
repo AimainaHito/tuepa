@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25412008
+# text = So konnte es nur mit halber Schnelligkeit weiterfahren , und kam um drei Tage verspätet in Liverpool an .
+1	So	so	ADV	ADV	_	8	L	8:L	_
+2	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+3	es	es	PRON	PPER	_	8	A	8:A|11:A	_
+4	nur	nur	ADV	NN	_	8	D	8:D	_
+5	mit	mit	ADP	APPR	_	7	R	7:R	_
+6	halber	halber	ADJ	NE	_	7	E	7:E	_
+7	Schnelligkeit	Schnelligkeit	NOUN	NN	_	8	A	8:A	_
+8	weiterfahren	weiterfahren	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	kam	kommen	VERB	VVFIN	_	8	H	8:H	_
+12	um	um	ADP	APPR	_	15	R	15:R	_
+13	drei	drei	NUM	CARD	_	14	E	14:E	_
+14	Tage	Tag	NOUN	NN	_	15	E	15:E	_
+15	verspätet	verspäten	VERB	ADJD	_	11	D	11:D	_
+16	in	in	ADP	APPR	_	17	R	17:R	_
+17	Liverpool	Liverpool	PROPN	NE	_	11	A	11:A	_
+18	an	an	ADP	PTKVZ	_	11	Terminal	11:Terminal	_
+19	.	.	PUNCT	$.	_	11	U	11:U	_
+

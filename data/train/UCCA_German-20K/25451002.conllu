@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25451002
+# text = « » Und da in Wirklichkeit der atmosphärische Druck etwas mehr als ein Kilogramm auf den Quadratzentimeter beträgt , so haben Ihre 17.000 Quadratzentimeter in diesem Augenblick einen Druck von 17.568 Kilogramm aus zu halten .
+1	«	«	PUNCT	$(	_	18	U	18:U	_
+2	»	»	PUNCT	$(	_	18	U	18:U	_
+3	Und	und	CCONJ	ADJD	_	18	L	18:L	_
+4	da	da	ADV	ADV	_	18	L	18:L	_
+5	in	in	ADP	APPR	_	6	E	6:E	_
+6	Wirklichkeit	Wirklichkeit	NOUN	NN	_	18	A	18:A	_
+7	der	der	DET	ART	_	9	E	9:E	_
+8	atmosphärische	atmosphärisch	ADJ	ADJA	_	9	E	9:E	_
+9	Druck	Druck	NOUN	NN	_	18	A	18:A	_
+10	etwas	etwas	ADV	ADV	_	11	E	11:E	_
+11	mehr	mehr	ADV	ADV	_	18	D	18:D	_
+12	als	als	ADP	KOKOM	_	14	R	14:R	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Kilogramm	Kilogramm	NOUN	NN	_	18	A	18:A	_
+15	auf	auf	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Quadratzentimeter	Quadratzentimete	NOUN	NN	_	14	E	14:E	_
+18	beträgt	betragen	VERB	VVFIN	_	0	H	0:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	so	so	ADV	ADV	_	18	L	18:L	_
+21	haben	haben	VERB	VAFIN	_	33	D	33:D	_
+22	Ihre	Ihr|ihr	DET	PPOSAT	_	24	E	24:E	_
+23	17.000	17.0	NUM	CARD	_	24	E	24:E	_
+24	Quadratzentimeter	Quadratzentimete	NOUN	NN	_	33	A	33:A	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	diesem	dies	PRON	PDAT	_	27	E	27:E	_
+27	Augenblick	Augenblick	NOUN	NN	_	33	A	33:A	_
+28	einen	ein	DET	ART	_	29	E	29:E	_
+29	Druck	Druck	NOUN	NN	_	33	A	33:A	_
+30	von	von	ADP	NN	_	32	R	32:R	_
+31	17.568	17.568	NUM	CARD	_	32	E	32:E	_
+32	Kilogramm	Kilogramm	NOUN	NN	_	29	E	29:E	_
+33	aus	aus	ADP	APPR	_	18	H	18:H	_
+34	zu	zu	PART	NE	_	33	F	33:F	_
+35	halten	halten	VERB	VVINF	_	33	Terminal	33:Terminal	_
+36	.	.	PUNCT	$.	_	33	U	33:U	_
+

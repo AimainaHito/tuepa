@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25529003
+# text = « » Die Knorpelfische « , versetzte Conseil mit unvergleichlicher Ausdauer , » enthalten nur drei Ordnungen .
+1	«	«	PUNCT	$(	_	14	U	14:U	_
+2	»	»	PUNCT	$(	_	14	U	14:U	_
+3	Die	d	PROPN	ART	_	4	E	4:E	_
+4	Knorpelfische	Knorpelfisch	PROPN	ADJA	_	14	A	14:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+8	Conseil	Conseil	NOUN	NE	_	7	A	7:A	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	unvergleichlicher	unvergleichlich	ADJ	ADJA	_	11	E	11:E	_
+11	Ausdauer	Ausdauer	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	»	»	PUNCT	$(	_	7	U	7:U	_
+14	enthalten	enthalten	VERB	VVFIN	_	7	A	7:A	_
+15	nur	nur	ADV	NE	_	14	D	14:D	_
+16	drei	drei	NUM	CARD	_	17	E	17:E	_
+17	Ordnungen	Ordnung	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

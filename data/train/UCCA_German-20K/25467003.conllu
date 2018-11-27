@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25467003
+# text = « » So ist 's , Conseil , und ich denke , unfehlbar spottet man über uns ! «
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	So	so	ADV	ADV	_	4	A	4:A	_
+4	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+5	's	es	PRON	ART	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	Conseil	Conseil	NOUN	NE	_	4	G	4:G	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	ich	ich	PRON	PPER	_	11	A	11:A	_
+11	denke	denken	VERB	VVFIN	_	4	H	4:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	unfehlbar	unfehlbar	ADJ	ADJD	_	14	D	14:D	_
+14	spottet	spotten	VERB	VVFIN	_	11	A	11:A	_
+15	man	man	PRON	PIS	_	14	A	14:A	_
+16	über	über	ADV	ADJD	_	17	R	17:R	_
+17	uns	wir	PRON	NN	_	14	A	14:A	_
+18	!	!	PUNCT	$.	_	17	U	17:U	_
+19	«	«	PUNCT	$(	_	17	U	17:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25668005
+# text = Von den dreieckigen waren manche einen halben Dezimeter lang , von gesundem Fleisch und ausgesuchtem Geschmack , mit braunem Schwanz und gelben Flossen .
+1	Von	von	ADP	APPR	_	3	R	3:R	_
+2	den	der	DET	ART	_	3	E	3:E	_
+3	dreieckigen	dreieckig	ADJ	ADJA	_	9	A	9:A	_
+4	waren	sein	AUX	VAFIN	_	9	F	9:F|20:S	_
+5	manche	manch	PRON	PIAT	_	9	A	9:A|20:A	_
+6	einen	ein	DET	ART	_	8	E	8:E	_
+7	halben	halb	ADJ	ADJA	_	8	E	8:E	_
+8	Dezimeter	Dezimeter	NOUN	NN	_	9	A	9:A	_
+9	lang	lang	ADJ	ADJD	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	gesundem	gesund	ADJ	ADJA	_	9	H	9:H	_
+13	Fleisch	Fleisch	NOUN	NN	_	12	A	12:A	_
+14	und	und	CCONJ	NE	_	9	L	9:L	_
+15	ausgesuchtem	ausgesucht	ADJ	ADJA	_	16	D	16:D	_
+16	Geschmack	Geschmack	NOUN	NN	_	9	H	9:H	_
+17	,	,	PUNCT	$,	_	9	U	9:U	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	braunem	braun	ADJ	ADJA	_	20	E	20:E	_
+20	Schwanz	Schwanz	NOUN	NN	_	9	H	9:H	_
+21	und	und	CCONJ	NE	_	20	N	20:N	_
+22	gelben	gelb	ADJ	ADJA	_	23	E	23:E	_
+23	Flossen	Flosse	NOUN	NN	_	20	C	20:C	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

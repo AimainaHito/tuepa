@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25628022
+# text = Diese wurden rasch entfiedert , und an einen Bratspieß gesteckt , brieten sie bei einem hellen Feuer von dürrem Holz .
+1	Diese	dies	PRON	PDAT	_	4	A	4:A|12:A|10:A	_
+2	wurden	werden	AUX	ADJD	_	4	F	4:F	_
+3	rasch	rasch	ADJ	ADJD	_	4	D	4:D	_
+4	entfiedert	entfiedern	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	und	und	CCONJ	NE	_	4	L	4:L	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	einen	ein	DET	ART	_	9	E	9:E	_
+9	Bratspieß	Bratspieß	NOUN	NN	_	10	A	10:A	_
+10	gesteckt	stecken	VERB	VVPP	_	4	H	4:H	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	brieten	brien	VERB	VVFIN	_	4	H	4:H	_
+13	sie	sie	PRON	ADV	_	12	A	12:A	_
+14	bei	bei	ADP	APPR	_	17	R	17:R	_
+15	einem	ein	DET	ART	_	17	E	17:E	_
+16	hellen	hell	ADJ	ADJA	_	17	E	17:E	_
+17	Feuer	Feuer	NOUN	NN	_	12	A	12:A	_
+18	von	von	ADP	NN	_	20	R	20:R	_
+19	dürrem	dürr	DET	PPOSAT	_	20	E	20:E	_
+20	Holz	Holz	NOUN	NN	_	12	A	12:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 617006
+# text = In 2004 , they worked together on the animated short film Tropic Island Hum .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	they	they	PRON	PRP	_	5	A	5:A	_
+5	worked	work	VERB	VBD	_	0	H	0:H	_
+6	together	together	ADV	RB	_	5	D	5:D	_
+7	on	on	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	animated	animate	ADJ	JJ	_	11	E	11:E	_
+10	short	short	ADJ	JJ	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	12	E	12:E	_
+12	Tropic	Tropic	PROPN	NNP	_	5	A	5:A	_
+13	Island	Island	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Hum	Hum	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	.	_	12	U	12:U	_
+

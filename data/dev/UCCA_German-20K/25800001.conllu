@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25800001
+# text = Gegen Abend näherte er sich dem Archipel der Falklands-Inseln , deren steile Gipfel ich am folgenden Morgen erkennen konnte .
+1	Gegen	gegen	ADP	APPR	_	2	R	2:R	_
+2	Abend	Abend	NOUN	NN	_	3	D	3:D	_
+3	näherte	nähern	VERB	VVFIN	_	0	H	0:H	_
+4	er	er	PRON	PPER	_	3	A	3:A	_
+5	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Archipel	Archipel	NOUN	NN	_	9	E	9:E	_
+8	der	der	DET	ART	_	7	R	7:R	_
+9	Falklands-Inseln	Falklands-Insel	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	deren	der	PRON	PRELAT	_	18	R	18:R	_
+12	steile	steile	ADV	NN	_	13	E	13:E	_
+13	Gipfel	Gipfel	NOUN	NN	_	18	A	18:A	_
+14	ich	ich	PRON	PPER	_	18	A	18:A	_
+15	am	ommen	VERB	ADJD	_	17	E	17:E	_
+16	folgenden	folgend	ADJ	NN	_	17	E	17:E	_
+17	Morgen	Morgen	NOUN	XY	_	18	D	18:D	_
+18	erkennen	erkennen	VERB	VVINF	_	9	E	9:E	_
+19	konnte	können	AUX	VMFIN	_	18	D	18:D	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

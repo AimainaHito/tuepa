@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 124000
+# text = Hepburn left Bryn Mawr determined to become an actress .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|7:A|5:A	_
+2	left	leave	VERB	VBD	_	0	H	0:H	_
+3	Bryn	Bryn	PROPN	NNP	_	2	A	2:A	_
+4	Mawr	Mawr	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	determined	determine	VERB	VBD	_	2	A	2:A	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	become	become	VERB	VB	_	5	A	5:A	_
+8	an	a	DET	DT	_	9	E	9:E	_
+9	actress	actress	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 208016
+# text = Hoffman and Beatty were unaffected by the flop , and Ishtar became a cult film .
+1	Hoffman	Hoffman	PROPN	NNP	_	5	A	5:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Beatty	Beatty	PROPN	NNP	_	1	C	1:C	_
+4	were	be	AUX	VBD	_	5	D	5:D	_
+5	unaffected	unaffect	ADJ	JJ	_	0	H	0:H	_
+6	by	by	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	flop	flop	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	and	and	CCONJ	CC	_	5	L	5:L	_
+11	Ishtar	Ishtar	PROPN	NNP	_	12	A	12:A	_
+12	became	become	VERB	VBD	_	5	H	5:H	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	cult	cult	ADJ	JJ	_	15	E	15:E	_
+15	film	film	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

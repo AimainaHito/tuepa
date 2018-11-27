@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 229004
+# text = That same year , the two had a son , singer and actor Jaycee Chan .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	two	two	NUM	CD	_	9	A	9:A	_
+7	had	have	VERB	VBD	_	9	F	9:F	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	son	son	NOUN	NN	_	0	H	0:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	singer	singer	NOUN	NN	_	14	E	14:E	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	actor	actor	NOUN	NN	_	11	C	11:C	_
+14	Jaycee	Jaycee	PROPN	NNP	_	9	A	9:A	_
+15	Chan	Chan	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

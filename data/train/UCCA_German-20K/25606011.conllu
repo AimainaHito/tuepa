@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25606011
+# text = Da konnte ich recht studieren , wie die Inseln dieses Ozeans aus Madreporen oder Seesternen entstanden sind .
+1	Da	da	ADV	ADV	_	5	A	5:A	_
+2	konnte	können	AUX	VMFIN	_	5	D	5:D	_
+3	ich	ich	PRON	PPER	_	5	A	5:A	_
+4	recht	recht	ADV	NE	_	5	D	5:D	_
+5	studieren	studieren	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	wie	wie	SCONJ	KON	_	16	R	16:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Inseln	Insel	NOUN	NN	_	16	A	16:A	_
+10	dieses	dies	PRON	PDAT	_	11	R	11:R	_
+11	Ozeans	Ozeans	NOUN	NN	_	9	E	9:E	_
+12	aus	aus	ADP	APPR	_	13	R	13:R	_
+13	Madreporen	Madrepor	NOUN	NN	_	16	A	16:A	_
+14	oder	oder	CCONJ	CARD	_	13	N	13:N	_
+15	Seesternen	Seesternen	NOUN	NN	_	13	C	13:C	_
+16	entstanden	entstehen	VERB	VVFIN	_	5	A	5:A	_
+17	sind	sein	AUX	NN	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

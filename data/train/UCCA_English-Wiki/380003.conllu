@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 380003
+# text = When asked about his kissing scenes with Heath Ledger in Brokeback Mountain , Gyllenhaal said , " As an actor , I think we need to embrace the times we feel most uncomfortable .
+1	When	when	ADV	WRB	_	2	L	2:L	_
+2	asked	ask	VERB	VBD	_	0	H	0:H	_
+3	about	about	ADP	IN	_	6	R	6:R	_
+4	his	he	PRON	PRP$	_	6	A	6:A	_
+5	kissing	kiss	NOUN	NN	_	6	D	6:D	_
+6	scenes	scene	NOUN	NNS	_	2	A	2:A	_
+7	with	with	ADP	IN	_	8	R	8:R	_
+8	Heath	Heath	PROPN	NNP	_	6	A	6:A	_
+9	Ledger	ledger	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Brokeback	Brokeback	PROPN	NNP	_	6	A	6:A	_
+12	Mountain	Mountain	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	15	A	15:A|2:A	_
+15	said	say	VERB	VBD	_	2	H	2:H	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	"	"	PUNCT	``	_	15	U	15:U	_
+18	As	as	SCONJ	IN	_	20	L	20:L	_
+19	an	a	DET	DT	_	20	E	20:E	_
+20	actor	actor	NOUN	NN	_	15	A	15:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	I	I	PRON	PRP	_	23	A	23:A|20:A	_
+23	think	think	VERB	VBP	_	20	H	20:H	_
+24	we	we	PRON	PRP	_	27	A	27:A	_
+25	need	need	VERB	VBP	_	27	E	27:E	_
+26	to	to	PART	TO	_	25	R	25:R	_
+27	embrace	embrace	VERB	VB	_	23	A	23:A	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	times	time	NOUN	NNS	_	27	A	27:A	_
+30	we	we	PRON	PRP	_	31	A	31:A	_
+31	feel	feel	VERB	VBP	_	29	E	29:E	_
+32	most	most	ADV	RBS	_	33	E	33:E	_
+33	uncomfortable	uncomfortable	ADJ	JJ	_	31	A	31:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25506000
+# text = Während ich mich fragte , woher dem Kapitän die Summen für solche Liebhabereien geflossen sein konnten , überraschte er mich durch die Äußerung :
+1	Während	während	SCONJ	KOUS	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	fragte	fragen	VERB	VVFIN	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	woher	woher	CCONJ	PWAV	_	14	A	14:A	_
+7	dem	der	DET	ART	_	8	R	8:R	_
+8	Kapitän	Kapitän	NOUN	NN	_	14	A	14:A	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Summen	Summe	NOUN	NN	_	14	A	14:A	_
+11	für	für	ADP	APPR	_	13	R	13:R	_
+12	solche	solch	PRON	ADJA	_	13	E	13:E	_
+13	Liebhabereien	Liebhaberei	PROPN	NN	_	10	E	10:E	_
+14	geflossen	fließen	VERB	VVPP	_	3	A	3:A	_
+15	sein	sein	AUX	VAINF	_	14	F	14:F	_
+16	konnten	können	AUX	VMFIN	_	14	D	14:D	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	überraschte	überraschen	VERB	VVFIN	_	3	H	3:H	_
+19	er	er	PRON	PPER	_	18	A	18:A	_
+20	mich	ich	PRON	PRF	_	18	A	18:A	_
+21	durch	durch	ADP	APPR	_	23	R	23:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Äußerung	Äußerung	NOUN	NN	_	18	A	18:A	_
+24	:	:	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 474011
+# text = He officially returned to the team on January 29 , 1996 , and played his first game the following day against the Golden State Warriors .
+1	He	he	PRON	PRP	_	3	A	3:A|14:A	_
+2	officially	officially	ADV	RB	_	3	D	3:D	_
+3	returned	return	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	team	team	NOUN	NN	_	3	A	3:A	_
+7	on	on	ADP	IN	_	11	R	11:R	_
+8	January	January	PROPN	NNP	_	11	E	11:E	_
+9	29	29	NUM	CD	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	1996	1996	NUM	CD	_	3	D	3:D	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	and	and	CCONJ	CC	_	3	L	3:L	_
+14	played	play	VERB	VBD	_	3	H	3:H	_
+15	his	he	PRON	PRP$	_	17	E	17:E	_
+16	first	first	ADJ	JJ	_	17	E	17:E	_
+17	game	game	NOUN	NN	_	14	A	14:A	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	following	follow	VERB	VBG	_	20	E	20:E	_
+20	day	day	NOUN	NN	_	14	D	14:D	_
+21	against	against	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	Golden	golden	PROPN	NNP	_	14	A	14:A	_
+24	State	State	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	Warriors	Warriors	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+26	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25617000
+# text = Ich benutzte mit meinen beiden Gefährten diesen Umstand , um auf der Plattform mich um zu sehen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|14:A	_
+2	benutzte	benutzen	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	6	R	6:R	_
+4	meinen	mein	PRON	PPOSAT	_	6	E	6:E	_
+5	beiden	beide	PRON	PIAT	_	6	E	6:E	_
+6	Gefährten	Gefährt|Gefährte	NOUN	NE	_	2	A	2:A	_
+7	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+8	Umstand	Umstand	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	um	um	ADP	KOUI	_	2	L	2:L	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Plattform	Plattform	NOUN	NN	_	14	A	14:A	_
+14	mich	ich	PRON	PRF	_	2	H	2:H	_
+15	um	um	ADP	APPR	_	14	Terminal	14:Terminal	_
+16	zu	zu	PART	NE	_	14	F	14:F	_
+17	sehen	sehen	VERB	VVINF	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	$.	_	14	U	14:U	_
+

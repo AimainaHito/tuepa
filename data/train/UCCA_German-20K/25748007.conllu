@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25748007
+# text = Das einzige , was uns blieb , war Unterwerfung ; aber ich gab mich gern dem Gedanken hin , dass , was man nicht mehr von der Gewalt oder List erwarten durfte , einmal durch Überredung zu erlangen sein würde .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	einzige	einzig	ADJ	ADJA	_	9	A	9:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	was	was	PRON	NE	_	6	R	6:R	_
+5	uns	wir	PRON	NN	_	6	A	6:A	_
+6	blieb	bleiben	VERB	VVFIN	_	2	E	2:E	_
+7	,	,	PUNCT	$,	_	9	U	9:U	_
+8	war	sein	AUX	ADV	_	9	F	9:F	_
+9	Unterwerfung	Unterwerfung	NOUN	NN	_	0	H	0:H	_
+10	;	;	PUNCT	$.	_	9	U	9:U	_
+11	aber	aber	CCONJ	KON	_	9	L	9:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	gab	geben	VERB	VVFIN	_	9	H	9:H	_
+14	mich	ich	PRON	PRF	_	13	Terminal	13:Terminal	_
+15	gern	gern	ADV	ADV	_	13	D	13:D	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	Gedanken	Gedanke	NOUN	NN	_	13	A	13:A	_
+18	hin	hin	ADV	PTKVZ	_	13	Terminal	13:Terminal	_
+19	,	,	PUNCT	$,	_	13	U	13:U	_
+20	dass	dass	SCONJ	KOUS	_	38	R	38:R	_
+21	,	,	PUNCT	$,	_	38	U	38:U	_
+22	was	was	PRON	NE	_	31	A	31:A	_
+23	man	man	PRON	PIS	_	31	A	31:A	_
+24	nicht	nicht	PART	CARD	_	31	D	31:D	_
+25	mehr	mehr	ADV	ADV	_	24	E	24:E	_
+26	von	von	ADP	NN	_	28	R	28:R	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Gewalt	Gewalt	NOUN	NN	_	31	A	31:A	_
+29	oder	oder	CCONJ	CARD	_	28	N	28:N	_
+30	List	list	NOUN	NN	_	28	C	28:C	_
+31	erwarten	erwarten	VERB	VVINF	_	38	A	38:A	_
+32	durfte	dürfen	AUX	VMFIN	_	31	D	31:D	_
+33	,	,	PUNCT	$,	_	38	U	38:U	_
+34	einmal	einmal	ADV	ADV	_	38	D	38:D	_
+35	durch	durch	ADP	APPR	_	36	R	36:R	_
+36	Überredung	Überredung	NOUN	NN	_	38	A	38:A	_
+37	zu	zu	PART	VVINF	_	38	F	38:F	_
+38	erlangen	erlangen	VERB	VVINF	_	17	E	17:E	_
+39	sein	sein	AUX	PPOSAT	_	38	F	38:F	_
+40	würde	werden	AUX	NN	_	38	D	38:D	_
+41	.	.	PUNCT	$.	_	38	U	38:U	_
+

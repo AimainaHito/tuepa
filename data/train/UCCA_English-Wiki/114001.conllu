@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 114001
+# text = Known for her headstrong independence and spirited personality , Hepburn 's career as a Hollywood leading lady spanned more than 60 years .
+1	Known	know	PROPN	NNP	_	0	H	0:H	_
+2	for	for	ADP	IN	_	5	R	5:R	_
+3	her	she	PRON	PRP$	_	5	E	5:E	_
+4	headstrong	headstrong	ADJ	JJ	_	5	E	5:E	_
+5	independence	independence	NOUN	NN	_	1	A	1:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	spirited	spirit	VERB	VBD	_	8	E	8:E	_
+8	personality	personality	NOUN	NN	_	5	C	5:C	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	Hepburn	Hepburn	PROPN	NNP	_	12	A	12:A	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	career	career	NOUN	NN	_	18	A	18:A	_
+13	as	as	ADP	IN	_	17	R	17:R	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	Hollywood	Hollywood	NOUN	NN	_	17	E	17:E	_
+16	leading	leading	VERB	VBG	_	17	E	17:E	_
+17	lady	lady	PRON	NN	_	12	A	12:A	_
+18	spanned	span	VERB	VBD	_	1	H	1:H	_
+19	more	more	ADJ	JJR	_	22	R	22:R	_
+20	than	than	ADP	IN	_	22	F	22:F	_
+21	60	60	NUM	CD	_	22	E	22:E	_
+22	years	year	NOUN	NNS	_	18	D	18:D	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

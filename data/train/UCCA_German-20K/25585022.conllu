@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25585022
+# text = « » Ich höre Sie an . «
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Ich	ich	PRON	PPER	_	4	A	4:A	_
+4	höre	hören	VERB	VVFIN	_	0	H	0:H	_
+5	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	an	an	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+8	«	«	PUNCT	$(	_	4	U	4:U	_
+

@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 654010
+# text = As his career progressed , he played a variety of electric guitars , predominantly the Rickenbacker 325 , Epiphone Casino and Gibson J - 160E , and , from the start of his solo career , the Gibson Les Paul Junior .
+1	As	as	ADP	IN	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	career	career	NOUN	NN	_	4	A	4:A	_
+4	progressed	progress	VERB	VBN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	he	he	PRON	PRP	_	7	A	7:A|16:A|38:A	_
+7	played	play	VERB	VBD	_	4	H	4:H	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	variety	variety	NOUN	NN	_	12	E	12:E	_
+10	of	of	ADP	IN	_	9	R	9:R	_
+11	electric	electric	ADJ	JJ	_	12	E	12:E	_
+12	guitars	guitar	NOUN	NNS	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	predominantly	predominantly	ADV	RB	_	16	D	16:D	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Rickenbacker	Rickenbacker	PROPN	NNP	_	12	E	12:E	_
+17	325	325	NUM	CD	_	16	E	16:E	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	Epiphone	Epiphone	PROPN	NNP	_	16	C	16:C	_
+20	Casino	Casino	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	and	and	CCONJ	CC	_	16	N	16:N	_
+22	Gibson	Gibson	PROPN	NNP	_	16	C	16:C	_
+23	J	j	PROPN	NNP	_	22	E	22:E	_
+24	-	-	PUNCT	HYPH	_	23	U	23:U	_
+25	160E	160E	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	,	,	PUNCT	,	_	16	U	16:U	_
+27	and	and	CCONJ	CC	_	16	L	16:L	_
+28	,	,	PUNCT	,	_	16	U	16:U	_
+29	from	from	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	start	start	NOUN	NN	_	16	L	16:L	_
+32	of	of	ADP	IN	_	31	R	31:R	_
+33	his	he	PRON	PRP$	_	34	E	34:E	_
+34	solo	solo	ADJ	JJ	_	35	A	35:A	_
+35	career	career	NOUN	NN	_	16	H	16:H	_
+36	,	,	PUNCT	,	_	16	U	16:U	_
+37	the	the	DET	DT	_	38	E	38:E	_
+38	Gibson	Gibson	PROPN	NNP	_	16	H	16:H	_
+39	Les	Les	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	Paul	Paul	PROPN	NNP	_	38	Terminal	38:Terminal	_
+41	Junior	junior	PROPN	NNP	_	38	Terminal	38:Terminal	_
+42	.	.	PUNCT	.	_	38	U	38:U	_
+

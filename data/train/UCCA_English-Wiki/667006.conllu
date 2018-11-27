@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 667006
+# text = " Due to the pressure from the media , her heavy work schedule and the split from Miguel , Carey began posting a series of disturbing messages on her official website , and displayed erratic behavior on several live promotional outings .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Due	due	ADP	IN	_	5	L	5:L	_
+3	to	to	ADP	IN	_	2	Terminal	2:Terminal	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	pressure	pressure	NOUN	NN	_	0	H	0:H	_
+6	from	from	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	media	media	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	her	she	PRON	PRP$	_	13	E	13:E	_
+11	heavy	heavy	ADJ	JJ	_	13	E	13:E	_
+12	work	work	NOUN	NN	_	13	E	13:E	_
+13	schedule	schedule	NOUN	NN	_	5	H	5:H	_
+14	and	and	CCONJ	CC	_	5	L	5:L	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	split	split	NOUN	NN	_	5	H	5:H	_
+17	from	from	ADP	IN	_	18	R	18:R	_
+18	Miguel	Miguel	PROPN	NNP	_	16	A	16:A	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	Carey	Carey	PROPN	NNP	_	22	A	22:A|13:A|34:A|5:A|16:A	_
+21	began	begin	VERB	VBD	_	22	D	22:D	_
+22	posting	post	VERB	VBG	_	5	H	5:H	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	series	series	NOUN	NN	_	22	A	22:A	_
+25	of	of	ADP	IN	_	27	R	27:R	_
+26	disturbing	disturbing	ADJ	JJ	_	27	E	27:E	_
+27	messages	message	NOUN	NNS	_	24	E	24:E	_
+28	on	on	ADP	IN	_	31	R	31:R	_
+29	her	she	PRON	PRP$	_	31	E	31:E	_
+30	official	official	ADJ	JJ	_	31	E	31:E	_
+31	website	website	NOUN	NN	_	22	A	22:A	_
+32	,	,	PUNCT	,	_	5	U	5:U	_
+33	and	and	CCONJ	CC	_	5	L	5:L	_
+34	displayed	display	VERB	VBD	_	5	H	5:H	_
+35	erratic	erratic	ADJ	JJ	_	36	E	36:E	_
+36	behavior	behavior	NOUN	NN	_	34	A	34:A	_
+37	on	on	ADP	IN	_	41	R	41:R	_
+38	several	several	ADJ	JJ	_	41	E	41:E	_
+39	live	live	ADJ	JJ	_	41	E	41:E	_
+40	promotional	promotional	ADJ	JJ	_	41	E	41:E	_
+41	outings	outing	NOUN	NNS	_	34	A	34:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

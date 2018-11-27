@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 690001
+# text = He soon began to perform at the Ten O ' Clock Scholar , a coffeehouse a few blocks from campus , and became actively involved in the local Dinkytown folk music circuit .
+1	He	he	PRON	PRP	_	5	A	5:A|25:A	_
+2	soon	soon	ADV	RB	_	5	D	5:D	_
+3	began	begin	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	perform	perform	VERB	VB	_	0	H	0:H	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Ten	ten	PROPN	NNP	_	5	A	5:A	_
+9	O	O	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	'	's	PART	POS	_	8	U	8:U	_
+11	Clock	clock	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	Scholar	scholar	PROPN	NNP	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	coffeehouse	coffeehouse	NOUN	NN	_	8	E	8:E	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	few	few	ADJ	JJ	_	18	E	18:E	_
+18	blocks	block	NOUN	NNS	_	20	E	20:E	_
+19	from	from	ADP	IN	_	20	R	20:R	_
+20	campus	campus	NOUN	NN	_	15	E	15:E	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	and	and	CCONJ	CC	_	5	L	5:L	_
+23	became	become	VERB	VBD	_	25	D	25:D	_
+24	actively	actively	ADV	RB	_	25	D	25:D	_
+25	involved	involved	ADJ	JJ	_	5	H	5:H	_
+26	in	in	ADP	IN	_	32	R	32:R	_
+27	the	the	DET	DT	_	32	E	32:E	_
+28	local	local	ADJ	JJ	_	32	E	32:E	_
+29	Dinkytown	Dinkytown	NOUN	NN	_	32	E	32:E	_
+30	folk	folk	NOUN	NN	_	31	E	31:E	_
+31	music	music	NOUN	NN	_	32	E	32:E	_
+32	circuit	circuit	NOUN	NN	_	25	A	25:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

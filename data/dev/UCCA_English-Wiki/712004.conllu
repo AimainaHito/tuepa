@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 712004
+# text = Dylan played classic and obscure records from the 1930s to the present day , including contemporary artists as diverse as Blur , Prince , L . L . Cool J and The Streets .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	classic	classic	ADJ	JJ	_	6	E	6:E	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	obscure	obscure	ADJ	JJ	_	3	C	3:C	_
+6	records	record	NOUN	NNS	_	2	A	2:A	_
+7	from	from	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	1930s	1930	NOUN	NNS	_	6	E	6:E	_
+10	to	to	ADP	IN	_	9	R	9:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	present	present	ADJ	JJ	_	13	E	13:E	_
+13	day	day	NOUN	NN	_	9	C	9:C	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	including	include	VERB	VBG	_	19	R	19:R	_
+16	contemporary	contemporary	ADJ	JJ	_	17	E	17:E	_
+17	artists	artist	NOUN	NNS	_	19	A	19:A	_
+18	as	as	ADP	IN	_	19	R	19:R	_
+19	diverse	diverse	ADJ	JJ	_	6	E	6:E	_
+20	as	as	ADP	IN	_	19	R	19:R	_
+21	Blur	blur	PROPN	NNP	_	19	A	19:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	Prince	Prince	PROPN	NNP	_	21	C	21:C	_
+24	,	,	PUNCT	,	_	21	U	21:U	_
+25	L	L	PROPN	NNP	_	21	C	21:C	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+27	L	l	PROPN	NNP	_	25	Terminal	25:Terminal	_
+28	.	.	PUNCT	.	_	25	U	25:U	_
+29	Cool	cool	PROPN	NNP	_	25	Terminal	25:Terminal	_
+30	J	j	PROPN	NNP	_	25	Terminal	25:Terminal	_
+31	and	and	CCONJ	CC	_	21	N	21:N	_
+32	The	the	DET	DT	_	21	C	21:C	_
+33	Streets	streets	PROPN	NNPS	_	32	Terminal	32:Terminal	_
+34	.	.	PUNCT	.	_	21	U	21:U	_
+

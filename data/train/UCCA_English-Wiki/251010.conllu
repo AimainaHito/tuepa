@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 251010
+# text = In 2009 Hawke appeared in two plays under British director Sam Mendes : as Trofimov in Chekhov 's The Cherry Orchard , and as Autolycus in Shakespeare 's The Winter 's Tale .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2009	2009	NUM	CD	_	4	D	4:D	_
+3	Hawke	Hawke	PROPN	NNP	_	4	A	4:A|25:A|15:A	_
+4	appeared	appear	VERB	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	7	R	7:R	_
+6	two	two	NUM	CD	_	7	E	7:E	_
+7	plays	play	VERB	VBZ	_	4	A	4:A	_
+8	under	under	ADP	IN	_	7	R	7:R	_
+9	British	british	ADJ	JJ	_	10	E	10:E	_
+10	director	director	NOUN	NN	_	7	E	7:E	_
+11	Sam	Sam	PROPN	NNP	_	10	E	10:E	_
+12	Mendes	Mendes	VERB	VBZ	_	11	Terminal	11:Terminal	_
+13	:	:	PUNCT	:	_	7	U	7:U	_
+14	as	as	ADP	IN	_	15	R	15:R	_
+15	Trofimov	Trofimov	PROPN	NNP	_	7	E	7:E	_
+16	in	in	ADP	IN	_	19	R	19:R	_
+17	Chekhov	Chekhov	PROPN	NNP	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	The	the	DET	DT	_	15	A	15:A	_
+20	Cherry	Cherry	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Orchard	Orchard	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	15	U	15:U	_
+23	and	and	CCONJ	CC	_	15	N	15:N	_
+24	as	as	ADP	IN	_	25	R	25:R	_
+25	Autolycus	Autolycus	PROPN	NNP	_	15	C	15:C	_
+26	in	in	ADP	IN	_	29	R	29:R	_
+27	Shakespeare	Shakespeare	PROPN	NNP	_	29	E	29:E	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	The	the	DET	DT	_	25	A	25:A	_
+30	Winter	Winter	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	's	's	PART	POS	_	29	Terminal	29:Terminal	_
+32	Tale	Tale	PROPN	NNP	_	29	Terminal	29:Terminal	_
+33	.	.	PUNCT	.	_	29	U	29:U	_
+

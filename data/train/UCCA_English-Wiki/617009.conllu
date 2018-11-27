@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 617009
+# text = In 1995 , he made a guest appearance on the Simpsons episode " Lisa the Vegetarian " and directed a short documentary about the Grateful Dead .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1995	1995	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	he	he	PRON	PRP	_	8	A	8:A|19:A	_
+5	made	make	VERB	VBD	_	8	F	8:F	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	guest	guest	NOUN	NN	_	8	E	8:E	_
+8	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+9	on	on	ADP	IN	_	14	R	14:R	_
+10	the	the	DET	DT	_	14	E	14:E	_
+11	Simpsons	Simpsons	PROPN	NNPS	_	12	E	12:E	_
+12	episode	episode	NOUN	NN	_	14	E	14:E	_
+13	"	"	PUNCT	''	_	14	U	14:U	_
+14	Lisa	Lisa	PROPN	NNP	_	8	A	8:A	_
+15	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+16	Vegetarian	vegetarian	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	"	"	PUNCT	''	_	8	U	8:U	_
+18	and	and	CCONJ	CC	_	8	L	8:L	_
+19	directed	direct	VERB	VBD	_	8	H	8:H	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	short	short	ADJ	JJ	_	22	E	22:E	_
+22	documentary	documentary	NOUN	NN	_	19	A	19:A	_
+23	about	about	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	Grateful	grateful	ADJ	JJ	_	22	E	22:E	_
+26	Dead	dead	NOUN	NN	_	25	Terminal	25:Terminal	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

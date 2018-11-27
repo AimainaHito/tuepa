@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 228007
+# text = In Little Big Soldier , Chan stars , alongside Leehom Wang as a soldier in the Warring States Period in China .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Little	Little	PROPN	NNP	_	7	A	7:A	_
+3	Big	Big	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Soldier	soldier	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	Chan	Chan	PROPN	NNP	_	7	A	7:A	_
+7	stars	star	NOUN	NNS	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	alongside	alongside	ADP	IN	_	10	R	10:R	_
+10	Leehom	Leehom	PROPN	NNP	_	7	A	7:A	_
+11	Wang	wang	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	as	as	ADP	IN	_	14	R	14:R	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	soldier	soldier	NOUN	NN	_	7	A	7:A	_
+15	in	in	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	Warring	Warring	PROPN	NNP	_	19	E	19:E	_
+18	States	States	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Period	period	PROPN	NNP	_	14	E	14:E	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	China	China	PROPN	NNP	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25781018
+# text = So sind denn , wenn auch die Vögel von der Kälte nach Norden wandern , diese Seesäugetiere die einzigen Herren des Polar kontinentes .
+1	So	so	ADV	ADV	_	20	L	20:L	_
+2	sind	sein	AUX	NN	_	20	F	20:F	_
+3	denn	denn	ADV	ADV	_	20	L	20:L	_
+4	,	,	PUNCT	$,	_	20	U	20:U	_
+5	wenn	wenn	SCONJ	VVFIN	_	20	L	20:L	_
+6	auch	auch	ADV	ADV	_	20	L	20:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Vögel	Vogel	NOUN	NN	_	14	A	14:A	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kälte	Kälte	NOUN	NN	_	14	A	14:A	_
+12	nach	nach	ADP	NN	_	13	R	13:R	_
+13	Norden	Norden	NOUN	NE	_	14	A	14:A	_
+14	wandern	wandern	VERB	VVINF	_	20	H	20:H	_
+15	,	,	PUNCT	$,	_	20	U	20:U	_
+16	diese	dies	PRON	PDAT	_	17	E	17:E	_
+17	Seesäugetiere	Seesäugetier	NOUN	NN	_	20	A	20:A	_
+18	die	der	DET	ART	_	20	E	20:E	_
+19	einzigen	einzig	ADJ	ADJA	_	20	D	20:D	_
+20	Herren	Herr	NOUN	NN	_	0	H	0:H	_
+21	des	der	DET	ART	_	23	R	23:R	_
+22	Polar	Polar	NOUN	NE	_	23	E	23:E	_
+23	kontinentes	kontinent	ADJ	NN	_	20	A	20:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

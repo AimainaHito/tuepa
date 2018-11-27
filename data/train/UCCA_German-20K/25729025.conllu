@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25729025
+# text = Sobald ich angekleidet war , begab ich mich in den Salon .
+1	Sobald	sobald	SCONJ	KOUS	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A	_
+3	angekleidet	angekleiden	VERB	VVFIN	_	0	H	0:H	_
+4	war	sein	AUX	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	begab	begeben	VERB	VVFIN	_	3	H	3:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	mich	ich	PRON	PRF	_	6	Terminal	6:Terminal	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Salon	Salon	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

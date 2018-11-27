@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25608015
+# text = Wir genossen sie im Übermaß , und wenn Meister Ned dabei nicht seine Gefräßigkeit zu bereuen hatte , so kam es daher , weil die Auster das einzige Gericht ist , das niemals Verdauungs beschwerden macht .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	genossen	genießen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	im	im	ADJ	NE	_	5	R	5:R	_
+5	Übermaß	Übermaß	NOUN	NN	_	2	D	2:D	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+9	Meister	Meister	NOUN	NN	_	10	E	10:E	_
+10	Ned	Ned	PROPN	NE	_	16	A	16:A	_
+11	dabei	dabei	ADV	PAV	_	16	A	16:A	_
+12	nicht	nicht	PART	CARD	_	16	D	16:D	_
+13	seine	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Gefräßigkeit	Gefräßigkeit	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	NE	_	16	F	16:F	_
+16	bereuen	bereuen	VERB	ADJA	_	2	H	2:H	_
+17	hatte	haben	AUX	VAFIN	_	16	D	16:D	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	so	so	ADV	ADV	_	2	L	2:L	_
+20	kam	kommen	VERB	VVFIN	_	2	H	2:H	_
+21	es	es	PRON	PPER	_	20	F	20:F	_
+22	daher	daher	ADV	PAV	_	20	A	20:A	_
+23	,	,	PUNCT	$,	_	2	U	2:U	_
+24	weil	weil	SCONJ	KOUS	_	2	L	2:L	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Auster	Auster	NOUN	NN	_	30	A	30:A	_
+27	das	der	DET	ART	_	29	E	29:E	_
+28	einzige	einzig	ADJ	ADJA	_	29	E	29:E	_
+29	Gericht	Gericht	NOUN	NN	_	30	A	30:A	_
+30	ist	sein	AUX	NN	_	2	H	2:H	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	das	der	PRON	PRELS	_	36	R	36:R	_
+33	niemals	niemals	ADV	ADV	_	36	D	36:D	_
+34	Verdauungs	Verdauungs	NOUN	TRUNC	_	35	E	35:E	_
+35	beschwerden	beschwerden	VERB	NN	_	36	A	36:A	_
+36	macht	machen	AUX	VVFIN	_	29	E	29:E	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

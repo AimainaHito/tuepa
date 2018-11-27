@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25759000
+# text = Man kann sich vorstellen , was der Kanadier bei dieser Moral lektion für ein Gesicht machte .
+1	Man	man	PRON	PIS	_	3	A	3:A	_
+2	kann	können	AUX	VMFIN	_	3	D	3:D	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	vorstellen	vorstellen	VERB	VVINF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	was	was	PRON	NN	_	15	E	15:E	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	16	A	16:A	_
+9	bei	bei	ADP	APPR	_	12	R	12:R	_
+10	dieser	dies	PRON	PDAT	_	12	E	12:E	_
+11	Moral	Moral	NOUN	NE	_	12	E	12:E	_
+12	lektion	lektion	NOUN	NN	_	16	A	16:A	_
+13	für	für	ADP	APPR	_	6	Terminal	6:Terminal	_
+14	ein	ein	DET	ART	_	15	E	15:E	_
+15	Gesicht	Gesicht	NOUN	NN	_	16	A	16:A	_
+16	machte	machen	VERB	VVFIN	_	3	A	3:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

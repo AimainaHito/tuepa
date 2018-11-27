@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25528017
+# text = » Bei einer sechsten Ordnung endlich ist der Kieferknochen an der Seite festgeheftet und die Gaumenwölbung durch eine Naht mit dem Schädel eingezahnt , so dass sie unbeweglich wird . Diese Ordnung hat keine eigentlichen Bauchflossen und besteht aus zwei Familien , wozu der Mondfisch gehört . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Bei	bei	ADP	NN	_	5	R	5:R	_
+3	einer	ein	DET	ART	_	5	E	5:E	_
+4	sechsten	sechst	ADJ	NE	_	5	E	5:E	_
+5	Ordnung	Ordnung	NOUN	NN	_	13	A	13:A	_
+6	endlich	endlich	ADV	ADV	_	13	G	13:G	_
+7	ist	sein	AUX	VVFIN	_	13	F	13:F	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kieferknochen	Kieferknochen	NOUN	NE	_	13	A	13:A	_
+10	an	an	ADP	APPR	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Seite	Seite	NOUN	NN	_	13	A	13:A	_
+13	festgeheftet	festgeheften	VERB	VVPP	_	0	H	0:H	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Gaumenwölbung	Gaumenwölbung	NOUN	NN	_	23	A	23:A	_
+17	durch	durch	ADP	APPR	_	19	R	19:R	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Naht	Naht	NOUN	NN	_	23	A	23:A	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	dem	der	DET	ART	_	22	E	22:E	_
+22	Schädel	Schädel	NOUN	NN	_	23	A	23:A	_
+23	eingezahnt	eingezahnen	VERB	VVPP	_	13	H	13:H	_
+24	,	,	PUNCT	$,	_	13	U	13:U	_
+25	so	so	ADV	ADV	_	13	L	13:L	_
+26	dass	dass	SCONJ	KOUS	_	25	Terminal	25:Terminal	_
+27	sie	sie	PRON	ADV	_	28	A	28:A	_
+28	unbeweglich	unbeweglich	ADJ	ADJD	_	13	H	13:H	_
+29	wird	werden	AUX	VAFIN	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	13	U	13:U	_
+31	Diese	dies	PRON	PDAT	_	32	E	32:E	_
+32	Ordnung	Ordnung	NOUN	NN	_	0	C	0:C|38:A	_
+33	hat	haben	VERB	VAFIN	_	13	H	13:H	_
+34	keine	kein	PRON	PIAT	_	33	D	33:D	_
+35	eigentlichen	eigentlich	ADJ	ADJA	_	36	E	36:E	_
+36	Bauchflossen	Bauchflossen	NOUN	NN	_	33	A	33:A	_
+37	und	und	CCONJ	NE	_	13	L	13:L	_
+38	besteht	bestehen	VERB	VVFIN	_	13	H	13:H	_
+39	aus	aus	ADP	APPR	_	41	R	41:R	_
+40	zwei	zwei	NUM	VVFIN	_	41	E	41:E	_
+41	Familien	Familie	NOUN	NN	_	38	A	38:A	_
+42	,	,	PUNCT	$,	_	41	U	41:U	_
+43	wozu	wozu	PRON	ADJA	_	46	R	46:R	_
+44	der	der	DET	ART	_	45	E	45:E	_
+45	Mondfisch	Mondfisch	NOUN	NN	_	46	A	46:A	_
+46	gehört	gehören	VERB	VVFIN	_	41	E	41:E	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+48	«	«	PUNCT	$(	_	46	U	46:U	_
+

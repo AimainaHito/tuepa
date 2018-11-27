@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 470007
+# text = Friends Isiah Thomas and Mark Aguirre consoled him that night , talking until the morning in his Boston hotel room amidst fan celebrations on the street .
+1	Friends	Friends	NOUN	NNS	_	2	E	2:E|12:A	_
+2	Isiah	Isiah	PROPN	NNP	_	7	A	7:A	_
+3	Thomas	Thomas	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	and	and	CCONJ	CC	_	2	N	2:N	_
+5	Mark	Mark	PROPN	NNP	_	2	C	2:C	_
+6	Aguirre	Aguirre	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	consoled	consol	VERB	VBD	_	0	H	0:H	_
+8	him	he	PRON	PRP	_	7	A	7:A|12:A	_
+9	that	that	DET	DT	_	10	E	10:E	_
+10	night	night	NOUN	NN	_	7	D	7:D	_
+11	,	,	PUNCT	,	_	7	U	7:U	_
+12	talking	talk	VERB	VBG	_	7	H	7:H	_
+13	until	until	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	morning	morning	NOUN	NN	_	12	D	12:D	_
+16	in	in	ADP	IN	_	20	R	20:R	_
+17	his	he	PRON	PRP$	_	20	E	20:E	_
+18	Boston	Boston	PROPN	NNP	_	20	E	20:E	_
+19	hotel	hotel	NOUN	NN	_	20	E	20:E	_
+20	room	room	NOUN	NN	_	12	A	12:A	_
+21	amidst	amidst	NOUN	NN	_	23	R	23:R	_
+22	fan	fan	NOUN	NN	_	23	A	23:A	_
+23	celebrations	celebration	NOUN	NNS	_	12	A	12:A	_
+24	on	on	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	street	street	NOUN	NN	_	23	A	23:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

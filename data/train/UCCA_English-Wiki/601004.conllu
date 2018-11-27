@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 601004
+# text = By May 1960 the band had tried several names , including Beatals , Johnny and the Moondogs and the Silver Beetles .
+1	By	by	ADP	IN	_	2	R	2:R	_
+2	May	May	PROPN	NNP	_	7	D	7:D	_
+3	1960	1960	NUM	CD	_	2	Terminal	2:Terminal	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	band	band	NOUN	NN	_	7	A	7:A	_
+6	had	have	AUX	VBD	_	7	F	7:F	_
+7	tried	try	VERB	VBN	_	0	H	0:H	_
+8	several	several	ADJ	JJ	_	9	E	9:E	_
+9	names	name	NOUN	NNS	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	including	include	VERB	VBG	_	12	R	12:R	_
+12	Beatals	Beatals	NOUN	NNS	_	9	E	9:E	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Johnny	Johnny	PROPN	NNP	_	12	C	12:C	_
+15	and	and	CCONJ	CC	_	14	Terminal	14:Terminal	_
+16	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+17	Moondogs	Moondog	PROPN	NNPS	_	14	Terminal	14:Terminal	_
+18	and	and	CCONJ	CC	_	12	N	12:N	_
+19	the	the	DET	DT	_	12	C	12:C	_
+20	Silver	silver	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Beetles	Beetles	PROPN	NNPS	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	.	_	12	U	12:U	_
+

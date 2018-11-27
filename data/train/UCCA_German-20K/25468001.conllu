@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25468001
+# text = « » Nun , es widerfährt meinem Herrn nur , was er verdient !
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Nun	nun	PROPN	ADV	_	6	F	6:F	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	es	es	PRON	PPER	_	6	F	6:F	_
+6	widerfährt	widerfahren	VERB	VVFIN	_	0	H	0:H	_
+7	meinem	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herrn	Herr	NOUN	NN	_	6	A	6:A	_
+9	nur	nur	ADV	NE	_	6	D	6:D	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	was	was	PRON	NE	_	13	A	13:A	_
+12	er	er	PRON	PPER	_	13	A	13:A	_
+13	verdient	verdienen	VERB	VVPP	_	6	A	6:A	_
+14	!	!	PUNCT	$.	_	13	U	13:U	_
+

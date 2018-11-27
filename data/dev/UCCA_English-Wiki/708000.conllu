@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 708000
+# text = In 1986 and 1987 , Dylan toured extensively with Tom Petty and the Heartbreakers , sharing vocals with Petty on several songs each night .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1986	1986	NUM	CD	_	7	D	7:D	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	1987	1987	NUM	CD	_	2	C	2:C	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	Dylan	Dylan	PROPN	NNP	_	7	A	7:A|16:A	_
+7	toured	toure	VERB	VBD	_	0	H	0:H	_
+8	extensively	extensively	ADV	RB	_	7	D	7:D	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Tom	Tom	PROPN	NNP	_	7	A	7:A	_
+11	Petty	Petty	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Heartbreakers	Heartbreakers	NOUN	NNS	_	10	C	10:C	_
+15	,	,	PUNCT	,	_	7	U	7:U	_
+16	sharing	share	VERB	VBG	_	7	H	7:H	_
+17	vocals	vocal	NOUN	NNS	_	16	A	16:A	_
+18	with	with	ADP	IN	_	19	R	19:R	_
+19	Petty	Petty	PROPN	NNP	_	16	A	16:A	_
+20	on	on	ADP	IN	_	22	R	22:R	_
+21	several	several	ADJ	JJ	_	22	E	22:E	_
+22	songs	song	NOUN	NNS	_	16	A	16:A	_
+23	each	each	DET	DT	_	24	E	24:E	_
+24	night	night	NOUN	NN	_	16	D	16:D	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

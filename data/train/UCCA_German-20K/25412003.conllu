@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25412003
+# text = Augenblicklich gerieten die Passagiere in großen Schrecken ; aber der Kapitän Anderson war im Stande sie unverzüglich zu beruhigen .
+1	Augenblicklich	augenblicklich	ADV	ADJD	_	2	D	2:D	_
+2	gerieten	geraten	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Passagiere	Passagier	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	APPR	_	2	Terminal	2:Terminal	_
+6	großen	groß	ADJ	ADJA	_	2	D	2:D	_
+7	Schrecken	Schrecken	NOUN	NN	_	2	Terminal	2:Terminal	_
+8	;	;	PUNCT	$.	_	2	U	2:U	_
+9	aber	aber	ADV	ADV	_	2	L	2:L	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kapitän	Kapitän	NOUN	NN	_	12	E	12:E	_
+12	Anderson	Anderson	PROPN	NE	_	19	A	19:A	_
+13	war	sein	AUX	NE	_	19	D	19:D	_
+14	im	im	ADV	NE	_	13	Terminal	13:Terminal	_
+15	Stande	Stand	NOUN	NE	_	13	Terminal	13:Terminal	_
+16	sie	sie	PRON	ADV	_	19	A	19:A	_
+17	unverzüglich	unverzüglich	ADJ	ADJD	_	19	D	19:D	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	beruhigen	beruhigen	VERB	VVINF	_	2	H	2:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

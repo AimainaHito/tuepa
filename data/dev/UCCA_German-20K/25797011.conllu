@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25797011
+# text = Allmählich kamen uns wieder die Kräfte , und als ich um mich blickte , sah ich , dass wir uns allein auf der Plattform befanden . Von der Bemannung nicht ein einziger ; auch Kapitän Nemo nicht .
+1	Allmählich	allmählich	ADV	ADV	_	2	D	2:D	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	A	2:A	_
+4	wieder	wieder	ADV	NN	_	2	D	2:D	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Kräfte	Kraft	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	als	als	ADP	KOUS	_	2	L	2:L	_
+10	ich	ich	PRON	PPER	_	13	A	13:A	_
+11	um	um	ADP	APPR	_	12	R	12:R	_
+12	mich	ich	PRON	PRF	_	13	A	13:A	_
+13	blickte	blicken	VERB	VVFIN	_	2	H	2:H	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	,	,	PUNCT	$,	_	15	U	15:U	_
+18	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+19	wir	wir	PRON	NE	_	20	A	20:A	_
+20	uns	wir	PRON	NE	_	0	S	0:S|29:S	_
+21	allein	allein	ADV	ADV	_	20	D	20:D	_
+22	auf	auf	ADP	APPR	_	24	R	24:R	_
+23	der	der	DET	ART	_	24	E	24:E	_
+24	Plattform	Plattform	NOUN	NN	_	20	A	20:A	_
+25	befanden	befinden	VERB	PIS	_	20	Terminal	20:Terminal	_
+26	.	.	PUNCT	$.	_	29	U	29:U	_
+27	Von	von	ADP	APPR	_	29	R	29:R	_
+28	der	der	DET	ART	_	29	E	29:E	_
+29	Bemannung	Bemannung	NOUN	NN	_	2	H	2:H	_
+30	nicht	nicht	PART	CARD	_	29	D	29:D	_
+31	ein	ein	DET	ART	_	32	E	32:E	_
+32	einziger	einzig	ADJ	ADJA	_	29	A	29:A	_
+33	;	;	PUNCT	$.	_	2	U	2:U	_
+34	auch	auch	ADV	ADV	_	2	L	2:L	_
+35	Kapitän	Kapitän	PROPN	NN	_	36	E	36:E	_
+36	Nemo	Nemo	PROPN	NE	_	2	H	2:H	_
+37	nicht	nicht	PART	CARD	_	36	D	36:D	_
+38	.	.	PUNCT	$.	_	36	U	36:U	_
+

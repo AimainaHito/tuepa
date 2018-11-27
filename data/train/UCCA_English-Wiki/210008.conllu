@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 210008
+# text = He next voiced Roscuro in The Tale of Despereaux and played the title character in Last Chance Harvey .
+1	He	he	PRON	PRP	_	3	A	3:A|11:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	voiced	voice	VERB	VBD	_	0	H	0:H	_
+4	Roscuro	Roscuro	PROPN	NNP	_	3	A	3:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	The	the	DET	DT	_	3	A	3:A	_
+7	Tale	Tale	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	of	of	ADP	IN	_	6	Terminal	6:Terminal	_
+9	Despereaux	Despereaux	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	played	play	VERB	VBD	_	3	H	3:H	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	title	title	NOUN	NN	_	14	E	14:E	_
+14	character	character	NOUN	NN	_	11	A	11:A	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	Last	last	ADJ	JJ	_	14	E	14:E	_
+17	Chance	chance	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Harvey	Harvey	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

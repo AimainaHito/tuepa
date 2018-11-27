@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 226010
+# text = The success of Rumble in the Bronx led to a 1996 release of Police Story 3 : Super Cop in the United States under the title Supercop , which grossed a total of US $ 16,270,600 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	success	success	NOUN	NN	_	8	A	8:A	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	Rumble	Rumble	PROPN	NNP	_	2	A	2:A	_
+5	in	in	ADP	IN	_	4	Terminal	4:Terminal	_
+6	the	the	DET	DT	_	4	Terminal	4:Terminal	_
+7	Bronx	Bronx	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	led	lead	VERB	VBD	_	0	H	0:H	_
+9	to	to	ADP	IN	_	12	F	12:F	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	1996	1996	NUM	CD	_	12	D	12:D	_
+12	release	release	NOUN	NN	_	8	A	8:A	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	Police	Police	NOUN	NN	_	12	A	12:A|30:A	_
+15	Story	story	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	3	3	NUM	CD	_	14	Terminal	14:Terminal	_
+17	:	:	PUNCT	:	_	14	U	14:U	_
+18	Super	Super	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	Cop	cop	NOUN	NN	_	14	Terminal	14:Terminal	_
+20	in	in	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	United	United	PROPN	NNP	_	12	A	12:A	_
+23	States	States	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	under	under	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	title	title	NOUN	NN	_	27	E	27:E	_
+27	Supercop	Supercop	PROPN	NNP	_	12	A	12:A	_
+28	,	,	PUNCT	,	_	8	U	8:U	_
+29	which	which	PRON	WDT	_	8	L	8:L	_
+30	grossed	gross	VERB	VBD	_	8	H	8:H	_
+31	a	a	DET	DT	_	32	E	32:E	_
+32	total	total	NOUN	NN	_	30	A	30:A	_
+33	of	of	ADP	IN	_	34	R	34:R	_
+34	US	US	PROPN	NNP	_	32	E	32:E	_
+35	$	$	SYM	$	_	34	U	34:U	_
+36	16,270,600	16,270,600	NUM	CD	_	34	Terminal	34:Terminal	_
+37	.	.	PUNCT	.	_	34	U	34:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 672006
+# text = Since the album 's release , Carey had planned to embark on an extensive tour in support of E = MC ² , describing its production and direction in several interviews .
+1	Since	since	SCONJ	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	album	album	NOUN	NN	_	5	A	5:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	release	release	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Carey	Carey	PROPN	NNP	_	11	A	11:A|17:A|24:A	_
+8	had	have	AUX	VBD	_	11	F	11:F	_
+9	planned	plan	VERB	VBN	_	11	D	11:D	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	embark	embark	VERB	VB	_	5	H	5:H	_
+12	on	on	ADP	IN	_	11	R	11:R	_
+13	an	a	DET	DT	_	15	E	15:E	_
+14	extensive	extensive	ADJ	JJ	_	15	E	15:E	_
+15	tour	tour	NOUN	NN	_	11	A	11:A	_
+16	in	in	ADP	IN	_	5	L	5:L	_
+17	support	support	NOUN	NN	_	5	H	5:H	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	E	e	NOUN	NN	_	17	A	17:A	_
+20	=	=	SYM	SYM	_	19	U	19:U	_
+21	MC	Mc	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	²	²	NUM	CD	_	5	U	5:U	_
+23	,	,	PUNCT	,	_	5	U	5:U	_
+24	describing	describ	VERB	VBG	_	5	H	5:H	_
+25	its	its	PRON	PRP$	_	26	A	26:A	_
+26	production	production	NOUN	NN	_	24	A	24:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	direction	direction	NOUN	NN	_	26	C	26:C	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	several	several	ADJ	JJ	_	31	E	31:E	_
+31	interviews	interview	NOUN	NNS	_	24	A	24:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

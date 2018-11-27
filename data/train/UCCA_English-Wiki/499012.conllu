@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 499012
+# text = It brought the total number of Bowie albums currently in the UK chart to six .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	brought	bring	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	total	total	ADJ	JJ	_	5	E	5:E	_
+5	number	number	NOUN	NN	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	Bowie	Bowie	PROPN	NNP	_	8	E	8:E	_
+8	albums	album	NOUN	NNS	_	13	A	13:A	_
+9	currently	currently	ADV	RB	_	13	D	13:D	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	UK	UK	PROPN	NNP	_	13	E	13:E	_
+13	chart	chart	NOUN	NN	_	2	A	2:A	_
+14	to	to	ADP	IN	_	15	R	15:R	_
+15	six	six	NUM	CD	_	2	A	2:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

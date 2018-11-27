@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 231001
+# text = In New Police Story , he portrayed a character suffering from alcoholism and mourning his murdered colleagues .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	New	New	PROPN	NNP	_	7	A	7:A	_
+3	Police	Police	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Story	Story	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	he	he	PRON	PRP	_	7	A	7:A	_
+7	portrayed	portray	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	character	character	NOUN	NN	_	7	A	7:A	_
+10	suffering	suffer	VERB	VBG	_	9	E	9:E	_
+11	from	from	ADP	IN	_	12	R	12:R	_
+12	alcoholism	alcoholism	NOUN	NN	_	10	A	10:A	_
+13	and	and	CCONJ	CC	_	10	L	10:L	_
+14	mourning	mourn	VERB	VBG	_	10	H	10:H	_
+15	his	he	PRON	PRP$	_	17	E	17:E	_
+16	murdered	murder	VERB	VBN	_	17	E	17:E	_
+17	colleagues	colleague	NOUN	NNS	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

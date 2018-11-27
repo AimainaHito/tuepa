@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 473002
+# text = The game ended after he made a last - minute three - pointer , and players from both teams ran onto the court to congratulate Johnson .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	game	game	NOUN	NN	_	3	A	3:A	_
+3	ended	end	VERB	VBD	_	0	H	0:H	_
+4	after	after	SCONJ	IN	_	3	L	3:L	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	made	make	VERB	VBD	_	3	H	3:H	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	last	last	ADJ	JJ	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	minute	minute	NOUN	NN	_	13	E	13:E	_
+11	three	three	NUM	CD	_	13	E	13:E	_
+12	-	-	PUNCT	:	_	13	U	13:U	_
+13	pointer	pointer	NOUN	NN	_	6	A	6:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	players	player	NOUN	NNS	_	20	A	20:A	_
+17	from	from	ADP	IN	_	19	R	19:R	_
+18	both	both	DET	DT	_	19	E	19:E	_
+19	teams	team	NOUN	NNS	_	16	E	16:E	_
+20	ran	run	VERB	VBD	_	3	H	3:H	_
+21	onto	onto	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	court	court	NOUN	NN	_	20	A	20:A	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	congratulate	congratulate	VERB	VB	_	20	A	20:A	_
+26	Johnson	Johnson	PROPN	NNP	_	25	A	25:A	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

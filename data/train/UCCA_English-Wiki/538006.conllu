@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 538006
+# text = " Get out front where they pay the actors , " Sam Warner advised Jack . " That 's where the money is . "
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Get	get	VERB	VB	_	3	D	3:D	_
+3	out	out	ADV	RB	_	14	A	14:A	_
+4	front	front	VERB	VBP	_	3	D	3:D	_
+5	where	where	ADV	WRB	_	7	F	7:F	_
+6	they	they	PRON	PRP	_	7	A	7:A	_
+7	pay	pay	VERB	VBP	_	3	A	3:A	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	actors	actor	NOUN	NNS	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	14	U	14:U	_
+11	"	"	PUNCT	''	_	14	U	14:U	_
+12	Sam	Sam	PROPN	NNP	_	14	A	14:A	_
+13	Warner	Warner	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	advised	advise	VERB	VBD	_	0	H	0:H	_
+15	Jack	Jack	PROPN	NNP	_	14	A	14:A|3:A	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+17	"	"	PUNCT	''	_	14	U	14:U	_
+18	That	that	PRON	DT	_	19	A	19:A	_
+19	's	be	AUX	VBZ	_	3	H	3:H	_
+20	where	where	ADV	WRB	_	23	A	23:A	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	money	money	NOUN	NN	_	23	A	23:A	_
+23	is	be	AUX	VBZ	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+25	"	"	PUNCT	''	_	23	U	23:U	_
+

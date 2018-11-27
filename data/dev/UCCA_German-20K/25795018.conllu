@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25795018
+# text = Wir warteten , horchten , vergaßen unsere Leiden , stets hoffend .
+1	Wir	wir	PRON	NE	_	2	A	2:A|6:A|4:A|11:A	_
+2	warteten	warten	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	horchten	horchen	VERB	VVFIN	_	2	H	2:H	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	vergaßen	vergitzen	VERB	ADV	_	2	H	2:H	_
+7	unsere	unser	PRON	PPOSAT	_	8	E	8:E	_
+8	Leiden	Leiden	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	stets	stets	ADV	ADV	_	11	D	11:D	_
+11	hoffend	hoffend	ADJ	ADJD	_	2	H	2:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

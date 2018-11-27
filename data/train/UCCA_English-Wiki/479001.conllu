@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 479001
+# text = The rivalry continued in the NBA , and reached its climax when Boston and Los Angeles met in three out of four NBA Finals from 1984 to 1987 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	rivalry	rivalry	NOUN	NN	_	3	A	3:A|9:A	_
+3	continued	continue	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	NBA	NBA	PROPN	NNP	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	reached	reach	VERB	VBD	_	3	H	3:H	_
+10	its	its	PRON	PRP$	_	11	E	11:E	_
+11	climax	climax	NOUN	NN	_	9	A	9:A	_
+12	when	when	ADV	WRB	_	3	L	3:L	_
+13	Boston	Boston	PROPN	NNP	_	17	A	17:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	Los	Los	PROPN	NNP	_	13	C	13:C	_
+16	Angeles	angeles	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	met	meet	VERB	VBD	_	3	H	3:H	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	three	three	NUM	CD	_	24	E	24:E	_
+20	out	out	ADP	IN	_	19	R	19:R	_
+21	of	of	ADP	IN	_	20	Terminal	20:Terminal	_
+22	four	four	NUM	CD	_	19	C	19:C	_
+23	NBA	NBA	PROPN	NNP	_	24	E	24:E	_
+24	Finals	Finals	PROPN	NNPS	_	17	D	17:D	_
+25	from	from	ADP	IN	_	26	R	26:R	_
+26	1984	1984	PROPN	NNP	_	17	D	17:D	_
+27	to	to	ADP	IN	_	26	R	26:R	_
+28	1987	1987	NUM	CD	_	26	C	26:C	_
+29	.	.	PUNCT	.	_	26	U	26:U	_
+

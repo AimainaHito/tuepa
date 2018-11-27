@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25726012
+# text = » In der Tat hatten im Jahr zuvor die Königshäuser von Holland , Österreich und England im Haag einen Allianztraktat geschlossen , um Philipp V . die spanische Krone zu entreißen und einem Erzherzog auf das Haupt zu setzen , dem sie zu früh den Namen Karl III . gaben .
+1	»	»	PUNCT	$(	_	21	U	21:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Tat	Tat	NOUN	NN	_	21	G	21:G	_
+5	hatten	haben	VERB	VAFIN	_	21	F	21:F	_
+6	im	im	ADJ	NN	_	7	R	7:R	_
+7	Jahr	Jahr	NOUN	NN	_	21	D	21:D	_
+8	zuvor	zuvor	ADV	ADV	_	7	E	7:E	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Königshäuser	Königshaus	NOUN	NN	_	0	C	0:C|31:A|39:A	_
+11	von	von	ADP	NN	_	10	R	10:R	_
+12	Holland	Holland	PROPN	NE	_	10	E	10:E	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	Österreich	Österreich	PROPN	NE	_	12	C	12:C	_
+15	und	und	CCONJ	NE	_	12	N	12:N	_
+16	England	England	PROPN	NE	_	12	C	12:C	_
+17	im	im	PROPN	NE	_	18	R	18:R	_
+18	Haag	Haag	PROPN	NE	_	21	A	21:A	_
+19	einen	ein	DET	ART	_	20	E	20:E	_
+20	Allianztraktat	Allianztraktat	NOUN	NN	_	21	A	21:A	_
+21	geschlossen	schließen	ADJ	ADJD	_	0	H	0:H	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	um	um	ADP	KOUI	_	21	L	21:L	_
+24	Philipp	Philipp	PROPN	NE	_	31	A	31:A	_
+25	V	V	PROPN	NE	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	$.	_	31	U	31:U	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	spanische	spanisch	ADJ	ADJA	_	31	A	31:A	_
+29	Krone	Krone	NOUN	NN	_	28	E	28:E	_
+30	zu	zu	PART	NE	_	31	F	31:F	_
+31	entreißen	entreißen	VERB	ADJA	_	21	H	21:H	_
+32	und	und	CCONJ	NE	_	21	L	21:L	_
+33	einem	ein	DET	ART	_	34	E	34:E	_
+34	Erzherzog	Erzherzog	NOUN	NN	_	39	A	39:A	_
+35	auf	auf	ADP	APPR	_	37	R	37:R	_
+36	das	der	DET	ART	_	37	E	37:E	_
+37	Haupt	Haupt	NOUN	NN	_	39	A	39:A	_
+38	zu	zu	PART	VVINF	_	39	F	39:F	_
+39	setzen	setzen	VERB	VVINF	_	21	H	21:H	_
+40	,	,	PUNCT	$,	_	39	U	39:U	_
+41	dem	der	PRON	PRELS	_	45	R	45:R	_
+42	sie	sie	PRON	ADV	_	45	A	45:A	_
+43	zu	zu	PART	VVINF	_	45	D	45:D	_
+44	früh	früh	ADP	ADJD	_	43	Terminal	43:Terminal	_
+45	den	der	DET	ART	_	34	E	34:E	_
+46	Namen	Name	NOUN	NN	_	45	Terminal	45:Terminal	_
+47	Karl	Karl	PROPN	NE	_	45	A	45:A	_
+48	III	III	PROPN	CARD	_	47	Terminal	47:Terminal	_
+49	.	.	PUNCT	$.	_	45	U	45:U	_
+50	gaben	geben	VERB	VVFIN	_	45	Terminal	45:Terminal	_
+51	.	.	PUNCT	$.	_	45	U	45:U	_
+

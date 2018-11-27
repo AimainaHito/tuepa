@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 489009
+# text = The film was a critical success , and Bana 's performance earned him a second Australian Film Institute Award for Best Actor .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	critical	critical	ADJ	JJ	_	6	A	6:A	_
+6	success	success	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	and	and	CCONJ	CC	_	6	L	6:L	_
+9	Bana	Bana	PROPN	NNP	_	11	A	11:A	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	performance	performance	NOUN	NN	_	12	A	12:A	_
+12	earned	earn	VERB	VBD	_	6	H	6:H	_
+13	him	he	PRON	PRP	_	12	A	12:A	_
+14	a	a	DET	DT	_	19	E	19:E	_
+15	second	second	ADV	RB	_	19	E	19:E	_
+16	Australian	australian	ADJ	JJ	_	19	E	19:E	_
+17	Film	film	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Institute	Institute	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	Award	Award	PROPN	NNP	_	12	A	12:A	_
+20	for	for	ADP	IN	_	22	R	22:R	_
+21	Best	Best	ADJ	JJS	_	22	E	22:E	_
+22	Actor	Actor	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

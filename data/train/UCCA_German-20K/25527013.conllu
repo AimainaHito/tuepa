@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25527013
+# text = Es ist jedermann bekannt , dass die Fische die vierte und letzte Klasse der Wirbel tiere ausmachen .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	ist	sein	AUX	VVFIN	_	4	F	4:F	_
+3	jedermann	jedermann	ADV	NE	_	4	A	4:A	_
+4	bekannt	bekannt	ADJ	PTKVZ	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	17	R	17:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Fische	Fisch	NOUN	NN	_	17	A	17:A	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	vierte	viert	ADJ	NN	_	17	A	17:A	_
+11	und	und	CCONJ	NE	_	10	N	10:N	_
+12	letzte	letzt	ADJ	ADJA	_	13	E	13:E	_
+13	Klasse	Klasse	NOUN	NN	_	10	C	10:C	_
+14	der	der	DET	ART	_	16	R	16:R	_
+15	Wirbel	Wirbel	NOUN	NN	_	16	E	16:E	_
+16	tiere	ti	ADJ	NN	_	10	E	10:E	_
+17	ausmachen	ausmachen	VERB	ADJA	_	4	A	4:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

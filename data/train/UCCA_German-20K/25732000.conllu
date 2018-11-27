@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25732000
+# text = Nachdem wir eine halbe Stunde weit gegangen , wurde der Boden steinig .
+1	Nachdem	nachdem	SCONJ	KOUS	_	7	L	7:L	_
+2	wir	wir	PRON	NE	_	7	A	7:A	_
+3	eine	ein	DET	ART	_	5	E	5:E	_
+4	halbe	halb	ADJ	ADJA	_	5	E	5:E	_
+5	Stunde	Stunde	NOUN	NN	_	7	D	7:D	_
+6	weit	weit	ADJ	ADJD	_	7	D	7:D	_
+7	gegangen	gehen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	wurde	werden	AUX	NN	_	12	F	12:F	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Boden	Boden	NOUN	NN	_	12	A	12:A	_
+12	steinig	steinig	ADJ	ADJD	_	7	H	7:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

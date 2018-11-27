@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 676008
+# text = It officially impacted U . S . Mainstream & Rhythmic radio on May 7 , 2013 .
+1	It	it	PRON	PRP	_	3	A	3:A	_
+2	officially	officially	ADV	RB	_	3	D	3:D	_
+3	impacted	impact	VERB	VBD	_	0	H	0:H	_
+4	U	U	PROPN	NNP	_	11	E	11:E	_
+5	.	.	PUNCT	.	_	4	U	4:U	_
+6	S	be	PROPN	NNPS	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	.	_	11	U	11:U	_
+8	Mainstream	mainstream	ADJ	JJ	_	11	E	11:E	_
+9	&	&	CCONJ	CC	_	8	U	8:U	_
+10	Rhythmic	Rhythmic	ADJ	JJ	_	8	C	8:C	_
+11	radio	radio	NOUN	NN	_	3	A	3:A	_
+12	on	on	ADP	IN	_	13	R	13:R	_
+13	May	May	PROPN	NNP	_	3	D	3:D	_
+14	7	7	NUM	CD	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	2013	2013	NUM	CD	_	13	Terminal	13:Terminal	_
+17	.	.	PUNCT	.	_	13	U	13:U	_
+

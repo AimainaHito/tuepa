@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25693013
+# text = Welch reizende Stunden brachte ich so an dem Fenster des Salons hin !
+1	Welch	welch	PRON	NN	_	3	R	3:R	_
+2	reizende	reizend	ADJ	ADJA	_	3	E	3:E	_
+3	Stunden	Stunde|Stunden	NOUN	NN	_	4	A	4:A	_
+4	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	so	so	ADV	ADV	_	4	D	4:D	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Fenster	Fenster	NOUN	NN	_	4	A	4:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Salons	Salon	NOUN	NN	_	9	E	9:E	_
+12	hin	hin	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+13	!	!	PUNCT	$.	_	4	U	4:U	_
+

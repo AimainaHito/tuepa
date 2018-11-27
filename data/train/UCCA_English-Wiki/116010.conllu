@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 116010
+# text = Golf became a passion for his oldest daughter : she took daily lessons and became very good , reaching the semi - final of the Connecticut Young Women 's Golf Championship .
+1	Golf	golf	PROPN	NNP	_	4	A	4:A	_
+2	became	become	VERB	VBD	_	4	D	4:D	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	passion	passion	NOUN	NN	_	0	H	0:H	_
+5	for	for	ADP	IN	_	8	R	8:R	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	oldest	oldest	ADJ	JJS	_	8	E	8:E	_
+8	daughter	daughter	NOUN	NN	_	4	A	4:A	_
+9	:	:	PUNCT	:	_	4	U	4:U	_
+10	she	she	PRON	PRP	_	11	A	11:A|19:A|17:A	_
+11	took	take	VERB	VBD	_	4	H	4:H	_
+12	daily	daily	ADJ	JJ	_	11	D	11:D	_
+13	lessons	lesson	NOUN	NNS	_	11	A	11:A	_
+14	and	and	CCONJ	CC	_	4	L	4:L	_
+15	became	become	VERB	VBD	_	17	D	17:D	_
+16	very	very	ADV	RB	_	17	D	17:D	_
+17	good	good	ADJ	JJ	_	4	H	4:H	_
+18	,	,	PUNCT	,	_	4	U	4:U	_
+19	reaching	reach	VERB	VBG	_	4	H	4:H	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	semi	semi	NOUN	NN	_	23	E	23:E	_
+22	-	-	PUNCT	,	_	23	U	23:U	_
+23	final	final	ADJ	JJ	_	19	A	19:A	_
+24	of	of	ADP	IN	_	31	R	31:R	_
+25	the	the	DET	DT	_	31	E	31:E	_
+26	Connecticut	Connecticut	PROPN	NNP	_	31	E	31:E	_
+27	Young	yong	ADP	IN	_	28	E	28:E	_
+28	Women	women	PROPN	NNP	_	31	E	31:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	Golf	golf	PROPN	NNP	_	31	E	31:E	_
+31	Championship	Championship	PROPN	NNP	_	23	E	23:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

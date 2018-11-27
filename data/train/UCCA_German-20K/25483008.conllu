@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25483008
+# text = Und selbst bei unserer höchsten Schnelligkeit erlaubte es sich , die Fregatte durch sein Spiel zu höhnen !
+1	Und	und	CCONJ	ADJD	_	7	L	7:L	_
+2	selbst	selbst	ADV	VVFIN	_	7	D	7:D	_
+3	bei	bei	ADP	APPR	_	6	R	6:R	_
+4	unserer	unser	PRON	PPOSAT	_	6	E	6:E	_
+5	höchsten	hoch	ADJ	ADJA	_	6	E	6:E	_
+6	Schnelligkeit	Schnelligkeit	NOUN	NN	_	7	A	7:A	_
+7	erlaubte	erlauben	VERB	VVFIN	_	0	H	0:H	_
+8	es	es	PRON	PPER	_	7	A	7:A	_
+9	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Fregatte	Fregatte	NOUN	NN	_	17	A	17:A	_
+13	durch	durch	ADP	APPR	_	15	R	15:R	_
+14	sein	sein	DET	PPOSAT	_	15	E	15:E	_
+15	Spiel	Spiel	NOUN	NN	_	17	A	17:A	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	höhnen	höhnen	VERB	VVINF	_	7	A	7:A	_
+18	!	!	PUNCT	$.	_	17	U	17:U	_
+

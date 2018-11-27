@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 235009
+# text = " but refrained from criticising the Chinese government for banning his 2009 film Shinjuku Incident .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	but	but	CCONJ	CC	_	3	L	3:L	_
+3	refrained	refrain	VERB	VBN	_	0	H	0:H	_
+4	from	from	SCONJ	IN	_	5	R	5:R	_
+5	criticising	criticise	VERB	VBG	_	3	A	3:A	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	Chinese	chinese	ADJ	JJ	_	8	E	8:E	_
+8	government	government	NOUN	NN	_	5	A	5:A|10:A	_
+9	for	for	SCONJ	IN	_	10	R	10:R	_
+10	banning	ban	VERB	VBG	_	5	A	5:A	_
+11	his	he	PRON	PRP$	_	14	E	14:E	_
+12	2009	2009	NUM	CD	_	14	D	14:D	_
+13	film	film	NOUN	NN	_	14	E	14:E	_
+14	Shinjuku	Shinjuku	PROPN	NNP	_	10	A	10:A	_
+15	Incident	incident	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

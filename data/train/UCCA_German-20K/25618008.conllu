@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25618008
+# text = Doch hatte das Schiff durchaus keinen Schaden bekommen , da sein Rumpf so solid gebaut war .
+1	Doch	doch	ADV	KON	_	8	L	8:L	_
+2	hatte	haben	VERB	VAFIN	_	8	F	8:F	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Schiff	Schiff	NOUN	NN	_	8	A	8:A	_
+5	durchaus	durchaus	ADV	ADV	_	6	E	6:E	_
+6	keinen	kein	PRON	PIAT	_	8	D	8:D	_
+7	Schaden	Schaden	NOUN	NN	_	8	A	8:A	_
+8	bekommen	bekommen	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	da	da	SCONJ	KOUS	_	8	L	8:L	_
+11	sein	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Rumpf	Rumpf	NOUN	NN	_	15	A	15:A	_
+13	so	so	ADV	ADV	_	14	E	14:E	_
+14	solid	solid	ADV	NN	_	15	D	15:D	_
+15	gebaut	bauen	VERB	VVPP	_	8	H	8:H	_
+16	war	sein	AUX	ADV	_	15	F	15:F	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

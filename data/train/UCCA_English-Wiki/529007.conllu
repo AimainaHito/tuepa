@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 529007
+# text = Her final film was I Could Go On Singing ( 1963 ) , costarring Dirk Bogarde .
+1	Her	she	PRON	PRP$	_	3	E	3:E	_
+2	final	final	ADJ	JJ	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	4	A	4:A	_
+4	was	be	AUX	VBD	_	0	H	0:H	_
+5	I	I	PRON	PRP	_	4	A	4:A	_
+6	Could	could	AUX	MD	_	5	Terminal	5:Terminal	_
+7	Go	go	VERB	VB	_	5	Terminal	5:Terminal	_
+8	On	on	ADP	IN	_	5	Terminal	5:Terminal	_
+9	Singing	Singing	PROPN	NNP	_	5	Terminal	5:Terminal	_
+10	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+11	1963	1963	NUM	CD	_	5	E	5:E	_
+12	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	costarring	costarr	VERB	VBG	_	5	E	5:E	_
+15	Dirk	Dirk	PROPN	NNP	_	14	A	14:A	_
+16	Bogarde	Bogarde	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 104007
+# text = They reconciled and he appeared with her in Lara Croft : Tomb Raider ( 2001 ) , but their relationship again deteriorated .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	reconciled	reconcil	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	L	2:L	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	appeared	appear	VERB	VBD	_	2	H	2:H	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	her	she	PRON	PRP	_	5	A	5:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Lara	lara	PROPN	NNP	_	5	A	5:A	_
+10	Croft	Croft	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	:	:	PUNCT	:	_	9	U	9:U	_
+12	Tomb	Tomb	PROPN	NNP	_	9	Terminal	9:Terminal	_
+13	Raider	Raider	PROPN	NNP	_	9	Terminal	9:Terminal	_
+14	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+15	2001	2001	NUM	CD	_	9	E	9:E	_
+16	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+17	,	,	PUNCT	,	_	2	U	2:U	_
+18	but	but	CCONJ	CC	_	2	L	2:L	_
+19	their	they	PRON	PRP$	_	20	E	20:E	_
+20	relationship	relationship	NOUN	NN	_	22	A	22:A	_
+21	again	again	ADV	RB	_	22	D	22:D	_
+22	deteriorated	deteriorate	VERB	VBD	_	2	H	2:H	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

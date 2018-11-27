@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 776003
+# text = - Oui , mon garçon . Prépare - moi , prépare - toi . Nous partons dans deux heures .
+1	-	-	PUNCT	_	_	2	U	2:U	_
+2	Oui	oui	INTJ	_	_	0	H	0:H	_
+3	,	,	PUNCT	_	_	2	U	2:U	_
+4	mon	son	DET	_	_	2	G	2:G	_
+5	garçon	garçon	NOUN	_	_	4	Terminal	4:Terminal	_
+6	.	.	PUNCT	_	_	2	U	2:U	_
+7	Prépare	prépare	PROPN	_	_	2	H	2:H	_
+8	-	-	PUNCT	_	_	7	U	7:U	_
+9	moi	soi	PRON	_	_	7	A	7:A	_
+10	,	,	PUNCT	_	_	2	U	2:U	_
+11	prépare	préparer	VERB	_	_	2	H	2:H	_
+12	-	-	PUNCT	_	_	11	U	11:U	_
+13	toi	soi	PRON	_	_	11	A	11:A	_
+14	.	.	PUNCT	_	_	2	U	2:U	_
+15	Nous	nous	PRON	_	_	16	A	16:A	_
+16	partons	partir	VERB	_	_	2	H	2:H	_
+17	dans	dans	ADP	_	_	19	R	19:R	_
+18	deux	deux	NUM	_	_	19	E	19:E	_
+19	heures	heure	NOUN	_	_	16	D	16:D	_
+20	.	.	PUNCT	_	_	19	U	19:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 221006
+# text = Dunst supported Democratic candidate John Kerry in the 2004 U . S . presidential election .
+1	Dunst	Dunst	ADP	IN	_	2	A	2:A	_
+2	supported	support	VERB	VBN	_	0	H	0:H	_
+3	Democratic	Democratic	ADJ	JJ	_	4	E	4:E	_
+4	candidate	candidate	NOUN	NN	_	5	E	5:E	_
+5	John	John	PROPN	NNP	_	2	A	2:A	_
+6	Kerry	Kerry	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	2004	2004	NUM	CD	_	15	D	15:D	_
+10	U	U	PROPN	NNP	_	15	E	15:E	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+12	S	be	PROPN	NNPS	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	.	_	15	U	15:U	_
+14	presidential	presidential	ADJ	JJ	_	15	E	15:E	_
+15	election	election	NOUN	NN	_	2	A	2:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

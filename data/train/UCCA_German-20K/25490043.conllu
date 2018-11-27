@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25490043
+# text = » Aber Mittagessen oder Frühstück , der Proviant meister wird willkommen sein , bringe er das eine oder das andere .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Aber	aber	CCONJ	KON	_	14	L	14:L	_
+3	Mittagessen	Mittagesse	NOUN	NE	_	14	A	14:A	_
+4	oder	oder	CCONJ	CARD	_	3	N	3:N	_
+5	Frühstück	Frühstück	NOUN	NE	_	3	C	3:C	_
+6	,	,	PUNCT	$,	_	14	U	14:U	_
+7	der	der	DET	ART	_	9	E	9:E	_
+8	Proviant	Proviant	NOUN	NN	_	9	E	9:E	_
+9	meister	meist	ADJ	NN	_	11	A	11:A	_
+10	wird	werden	AUX	VAFIN	_	11	D	11:D	_
+11	willkommen	willkommen	ADJ	VVPP	_	14	H	14:H	_
+12	sein	sein	AUX	VAINF	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	bringe	bringen	VERB	VVFIN	_	0	H	0:H	_
+15	er	er	PRON	PPER	_	14	A	14:A	_
+16	das	der	PRON	PDS	_	17	E	17:E	_
+17	eine	ein	DET	ART	_	14	A	14:A	_
+18	oder	oder	CCONJ	CARD	_	17	N	17:N	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	andere	ander	NOUN	PIS	_	17	C	17:C	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

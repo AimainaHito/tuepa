@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 462012
+# text = The anchor 's ABC colleagues , including Barbara Walters , Diane Sawyer , and Ted Koppel . shared their thoughts on Jennings 's death .
+1	The	the	DET	DT	_	5	E	5:E	_
+2	anchor	anchor	NOUN	NN	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	ABC	Abc	NOUN	NN	_	5	E	5:E	_
+5	colleagues	colleague	NOUN	NNS	_	18	A	18:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	including	include	VERB	VBG	_	8	R	8:R	_
+8	Barbara	Barbara	PROPN	NNP	_	5	E	5:E	_
+9	Walters	Walters	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	Diane	Diane	PROPN	NNP	_	8	C	8:C	_
+12	Sawyer	Sawyer	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	and	and	CCONJ	CC	_	8	N	8:N	_
+15	Ted	Ted	PROPN	NNP	_	8	C	8:C	_
+16	Koppel	Koppel	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	18	U	18:U	_
+18	shared	share	VERB	VBD	_	0	H	0:H	_
+19	their	they	PRON	PRP$	_	20	E	20:E	_
+20	thoughts	thought	NOUN	NNS	_	18	A	18:A	_
+21	on	on	ADP	IN	_	24	R	24:R	_
+22	Jennings	Jenning	PROPN	NNP	_	24	E	24:E	_
+23	's	's	PART	POS	_	22	R	22:R	_
+24	death	death	NOUN	NN	_	20	E	20:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25721010
+# text = Da ich fortwährend schwieg , stand der Kanadier auf , trat zu mir heran und sagte :
+1	Da	da	SCONJ	KOUS	_	4	L	4:L	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	fortwährend	fortwährend	ADJ	ADJD	_	4	D	4:D	_
+4	schwieg	schweigen	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	stand	stehen	VERB	VVFIN	_	4	H	4:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|16:A|11:A	_
+9	auf	auf	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	trat	treten	VERB	VVFIN	_	4	H	4:H	_
+12	zu	zu	ADP	NE	_	13	R	13:R	_
+13	mir	ich	PRON	PPER	_	11	A	11:A	_
+14	heran	heran	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+15	und	und	CCONJ	NE	_	4	L	4:L	_
+16	sagte	sagen	VERB	VVFIN	_	4	H	4:H	_
+17	:	:	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 198003
+# text = In August 2008 , Sorkin announced that he had agreed to write a script for Sony and producer Scott Rudin about how Facebook was founded .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	August	August	PROPN	NNP	_	3	E	3:E	_
+3	2008	2008	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Sorkin	Sorkin	PROPN	NNP	_	6	A	6:A	_
+6	announced	announce	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	10	F	10:F	_
+8	he	he	PRON	PRP	_	10	A	10:A|12:A	_
+9	had	have	AUX	VBD	_	10	F	10:F	_
+10	agreed	agree	VERB	VBN	_	6	A	6:A	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	write	write	VERB	VB	_	10	A	10:A	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	script	script	NOUN	NN	_	12	A	12:A	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	Sony	Sony	PROPN	NNP	_	12	A	12:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	producer	producer	VERB	VB	_	19	E	19:E	_
+19	Scott	Scott	PROPN	NNP	_	16	C	16:C	_
+20	Rudin	Rudin	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	about	about	SCONJ	IN	_	25	R	25:R	_
+22	how	how	ADV	WRB	_	25	R	25:R	_
+23	Facebook	Facebook	PROPN	NNP	_	25	A	25:A	_
+24	was	be	AUX	VBD	_	25	F	25:F	_
+25	founded	found	VERB	VBN	_	14	E	14:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

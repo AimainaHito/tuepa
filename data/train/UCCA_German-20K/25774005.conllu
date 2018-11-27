@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25774005
+# text = Die Kälte war etwas strenger , das Thermometer zeigte 2 Grad unter Null .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Kälte	Kälte	NOUN	ADJA	_	5	A	5:A	_
+3	war	sein	AUX	NN	_	5	F	5:F	_
+4	etwas	etwas	ADV	PIAT	_	5	D	5:D	_
+5	strenger	strenger	ADJ	ADJA	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Thermometer	Thermometer	NOUN	NN	_	9	A	9:A	_
+9	zeigte	zeigen	VERB	VVFIN	_	5	H	5:H	_
+10	2	2	NUM	CARD	_	11	E	11:E	_
+11	Grad	Grad	NOUN	NN	_	9	A	9:A	_
+12	unter	unter	ADP	ADJD	_	13	R	13:R	_
+13	Null	_	NOUN	CARD	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

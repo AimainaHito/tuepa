@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 638001
+# text = " Like " Give Peace a Chance " , the song became an anti - war anthem , but its lyrics offended religious groups .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	Like	like	INTJ	UH	_	4	R	4:R	_
+3	"	"	PUNCT	''	_	4	U	4:U	_
+4	Give	give	VERB	VB	_	12	A	12:A	_
+5	Peace	Peace	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	a	a	DET	DT	_	4	Terminal	4:Terminal	_
+7	Chance	chance	NOUN	NN	_	4	Terminal	4:Terminal	_
+8	"	"	PUNCT	''	_	12	U	12:U	_
+9	,	,	PUNCT	,	_	12	U	12:U	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	song	song	NOUN	NN	_	12	A	12:A	_
+12	became	become	VERB	VBD	_	0	H	0:H	_
+13	an	a	DET	DT	_	17	E	17:E	_
+14	anti	anti	NOUN	NN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	war	war	NOUN	NN	_	17	E	17:E	_
+17	anthem	anthem	NOUN	NN	_	12	A	12:A	_
+18	,	,	PUNCT	,	_	12	U	12:U	_
+19	but	but	CCONJ	CC	_	12	L	12:L	_
+20	its	its	PRON	PRP$	_	21	E	21:E	_
+21	lyrics	lyric	NOUN	NNS	_	22	A	22:A	_
+22	offended	offend	ADJ	JJ	_	12	H	12:H	_
+23	religious	religious	ADJ	JJ	_	24	E	24:E	_
+24	groups	group	NOUN	NNS	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

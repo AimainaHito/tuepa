@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 460004
+# text = His coverage was not without controversy though . After conservative radio host Rush Limbaugh criticized Jennings for supposedly denigrating President George W. Bush on - air during September 11 , ABC was flooded with more than 10,000 angry phone calls and e - mails .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	coverage	coverage	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	not	not	PART	RB	_	6	D	6:D	_
+5	without	without	ADP	IN	_	6	D	6:D	_
+6	controversy	controversy	ADJ	JJ	_	0	H	0:H	_
+7	though	though	ADV	RB	_	6	L	6:L	_
+8	.	.	PUNCT	.	_	6	U	6:U	_
+9	After	after	ADP	IN	_	6	L	6:L	_
+10	conservative	conservative	ADJ	JJ	_	13	E	13:E	_
+11	radio	radio	NOUN	NN	_	12	E	12:E	_
+12	host	host	NOUN	NN	_	13	E	13:E	_
+13	Rush	rush	PROPN	NNP	_	15	A	15:A	_
+14	Limbaugh	Limbaugh	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	criticized	criticize	VERB	VBD	_	6	H	6:H	_
+16	Jennings	Jennings	PROPN	NNP	_	15	A	15:A	_
+17	for	for	SCONJ	IN	_	19	R	19:R	_
+18	supposedly	supposedly	ADV	RB	_	19	D	19:D	_
+19	denigrating	denigrat	VERB	VBG	_	15	A	15:A	_
+20	President	President	PROPN	NNP	_	21	E	21:E	_
+21	George	George	PROPN	NNP	_	19	A	19:A	_
+22	W.	W.	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Bush	Bush	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	on	on	ADP	IN	_	26	R	26:R	_
+25	-	-	PUNCT	HYPH	_	26	U	26:U	_
+26	air	air	NOUN	NN	_	19	D	19:D	_
+27	during	during	ADP	IN	_	28	R	28:R	_
+28	September	September	PROPN	NNP	_	15	D	15:D	_
+29	11	11	NUM	CD	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	6	U	6:U	_
+31	ABC	ABC	PROPN	NNP	_	33	A	33:A	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	flooded	flood	VERB	VBN	_	6	H	6:H	_
+34	with	with	ADP	IN	_	40	R	40:R	_
+35	more	more	ADJ	JJR	_	40	E	40:E	_
+36	than	than	ADP	IN	_	35	R	35:R	_
+37	10,000	10,000	NUM	CD	_	40	E	40:E	_
+38	angry	angry	ADJ	JJ	_	40	E	40:E	_
+39	phone	phone	NOUN	NN	_	40	E	40:E	_
+40	calls	call	NOUN	NNS	_	33	A	33:A	_
+41	and	and	CCONJ	CC	_	40	N	40:N	_
+42	e	e	NOUN	NN	_	40	C	40:C	_
+43	-	-	PUNCT	HYPH	_	42	U	42:U	_
+44	mails	mail	NOUN	NNS	_	42	Terminal	42:Terminal	_
+45	.	.	PUNCT	.	_	40	U	40:U	_
+

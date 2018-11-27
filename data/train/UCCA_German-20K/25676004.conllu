@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25676004
+# text = » Wird mein Herr « , sagte Conseil , » die Güte haben , uns Näheres über die Perlen fischerei zu sagen ? « » Über das Fischen selbst « , fragte ich , » oder über das , was dabei vorfallen ... «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Wird	werden	AUX	VAFIN	_	22	F	22:F	_
+3	mein	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Herr	Herr	NOUN	NN	_	22	A	22:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	Conseil	Conseil	PROPN	NE	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Güte	gut	NOUN	NN	_	22	D	22:D	_
+13	haben	haben	VERB	VAINF	_	22	F	22:F	_
+14	,	,	PUNCT	$,	_	22	U	22:U	_
+15	uns	wir	PRON	NN	_	22	A	22:A	_
+16	Näheres	Näher	NOUN	NE	_	22	A	22:A	_
+17	über	über	ADP	NE	_	20	R	20:R	_
+18	die	der	DET	ART	_	20	E	20:E	_
+19	Perlen	Perle|Perlen	NOUN	NN	_	20	E	20:E	_
+20	fischerei	fischerei	ADV	NN	_	16	E	16:E	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	sagen	sagen	VERB	VVINF	_	0	P	0:P|28:P|42:P	_
+23	?	?	PUNCT	$.	_	28	U	28:U	_
+24	«	«	PUNCT	$(	_	28	U	28:U	_
+25	»	»	PUNCT	$(	_	28	U	28:U	_
+26	Über	über	ADP	APPR	_	28	R	28:R	_
+27	das	der	DET	ART	_	28	E	28:E	_
+28	Fischen	Fisch|Fischen	NOUN	NN	_	32	A	32:A	_
+29	selbst	selbst	ADV	VVINF	_	28	D	28:D	_
+30	«	«	PUNCT	$(	_	32	U	32:U	_
+31	,	,	PUNCT	$,	_	32	U	32:U	_
+32	fragte	fragen	VERB	VVFIN	_	7	H	7:H	_
+33	ich	ich	PRON	PPER	_	32	A	32:A	_
+34	,	,	PUNCT	$,	_	32	U	32:U	_
+35	»	»	PUNCT	$(	_	32	U	32:U	_
+36	oder	oder	CCONJ	CARD	_	28	L	28:L	_
+37	über	über	ADP	VVFIN	_	42	R	42:R	_
+38	das	der	PRON	ART	_	42	A	42:A	_
+39	,	,	PUNCT	$,	_	42	U	42:U	_
+40	was	was	PRON	NE	_	42	R	42:R	_
+41	dabei	dabei	ADV	APPR	_	42	A	42:A	_
+42	vorfallen	vorfallen	VERB	VVINF	_	28	H	28:H	_
+43	...	...	PUNCT	$(	_	42	U	42:U	_
+44	«	«	PUNCT	$(	_	42	U	42:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25513001
+# text = Es öffnete sich eine Tür , und ich befand mich in diesem Gemach , wo Kapitän Nemo seine Werkzeuge für die Fortbeförderung aufgestellt hatte .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Tür	Tür	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	ich	ich	PRON	PPER	_	9	A	9:A	_
+9	befand	befinden	VERB	VVFIN	_	2	H	2:H	_
+10	mich	ich	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	diesem	dies	PRON	PDAT	_	13	E	13:E	_
+13	Gemach	Gemach	NOUN	NN	_	9	A	9:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	wo	wo	ADV	ADJA	_	23	R	23:R	_
+16	Kapitän	Kapitän	PROPN	NN	_	17	E	17:E	_
+17	Nemo	Nemo	PROPN	NE	_	23	A	23:A	_
+18	seine	sein	DET	PPOSAT	_	19	E	19:E	_
+19	Werkzeuge	Werkzeug	NOUN	NN	_	23	A	23:A	_
+20	für	für	ADP	APPR	_	22	R	22:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Fortbeförderung	Fortbeförderung	NOUN	NN	_	19	E	19:E	_
+23	aufgestellt	aufstellen	VERB	VVPP	_	13	E	13:E	_
+24	hatte	haben	AUX	VAFIN	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

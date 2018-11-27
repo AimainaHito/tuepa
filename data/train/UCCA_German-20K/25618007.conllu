@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25618007
+# text = Wir saßen völlig fest in einem Meer , wo Ebbe und Flut mäßig sind , ein schlimmer Umstand , um wieder flott zu werden .
+1	Wir	wir	PRON	NE	_	2	A	2:A|22:A	_
+2	saßen	sitzen	VERB	VVFIN	_	0	H	0:H	_
+3	völlig	völlig	ADV	ADJD	_	2	D	2:D	_
+4	fest	fest	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	einem	ein	DET	ART	_	7	E	7:E	_
+7	Meer	Meer	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	wo	wo	ADV	NN	_	13	R	13:R	_
+10	Ebbe	Ebbe	NOUN	NE	_	13	A	13:A	_
+11	und	und	CCONJ	NE	_	10	N	10:N	_
+12	Flut	Flut	NOUN	NN	_	10	C	10:C	_
+13	mäßig	mäßig	ADJ	CARD	_	7	E	7:E	_
+14	sind	sein	AUX	NN	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	ein	ein	DET	ART	_	18	E	18:E	_
+17	schlimmer	schlimm	ADJ	ADJD	_	2	H	2:H	_
+18	Umstand	Umstand	NOUN	NN	_	17	A	17:A	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	um	um	ADP	KOUI	_	2	L	2:L	_
+21	wieder	wieder	ADV	NE	_	22	D	22:D	_
+22	flott	flott	ADJ	ADJD	_	2	H	2:H	_
+23	zu	zu	PART	VVINF	_	22	F	22:F	_
+24	werden	werden	AUX	VVFIN	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	$.	_	22	U	22:U	_
+

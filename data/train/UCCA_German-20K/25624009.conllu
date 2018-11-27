@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25624009
+# text = Währenddessen sammelte ich nebst Conseil die schönsten Früchte des Baums .
+1	Währenddessen	währenddessen	ADV	PAV	_	2	D	2:D	_
+2	sammelte	sammeln	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	nebst	nebst	ADV	APPR	_	5	R	5:R	_
+5	Conseil	Conseil	NOUN	NE	_	3	E	3:E	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	schönsten	schön	ADJ	ADJA	_	8	E	8:E	_
+8	Früchte	Frucht	NOUN	NN	_	2	A	2:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Baums	Baum	NOUN	NN	_	8	E	8:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

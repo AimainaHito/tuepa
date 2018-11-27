@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25445001
+# text = « Der Harpunier sah mich erst eine Weile an , bevor er mir antwortete , schlug sich dann mit einer ihm eigentümlichen Hand bewegung auf seine große Stirn , schloß die Augen , als wolle er sich sammeln , und sagte endlich : » Vielleicht wohl , Herr Arronax . «
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	Der	der	DET	ART	_	3	E	3:E	_
+3	Harpunier	Harpunier	NOUN	NN	_	0	C	0:C|16:A|30:A|41:A	_
+4	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	mich	ich	PRON	PPER	_	4	A	4:A	_
+6	erst	erst	ADV	ADV	_	4	D	4:D	_
+7	eine	ein	DET	ART	_	8	E	8:E	_
+8	Weile	Weile	NOUN	NN	_	4	D	4:D	_
+9	an	an	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	bevor	bevor	SCONJ	KOUS	_	4	L	4:L	_
+12	er	er	PRON	PPER	_	14	A	14:A	_
+13	mir	ich	PRON	PPER	_	14	A	14:A	_
+14	antwortete	antworten	VERB	VVFIN	_	4	H	4:H	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	schlug	schlagen	VERB	VVFIN	_	4	H	4:H	_
+17	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	dann	dann	ADV	ADV	_	4	L	4:L	_
+19	mit	mit	ADP	APPR	_	24	R	24:R	_
+20	einer	ein	PRON	ART	_	24	E	24:E	_
+21	ihm	er	PRON	PPER	_	22	A	22:A	_
+22	eigentümlichen	eigentümlich	ADJ	ADJA	_	16	A	16:A	_
+23	Hand	Hand	NOUN	NN	_	24	E	24:E	_
+24	bewegung	bewegung	NOUN	NN	_	22	A	22:A	_
+25	auf	auf	ADP	APPR	_	28	R	28:R	_
+26	seine	sein	DET	PPOSAT	_	28	E	28:E	_
+27	große	groß	ADJ	ADJA	_	28	E	28:E	_
+28	Stirn	Stirn	NOUN	NE	_	16	A	16:A	_
+29	,	,	PUNCT	$,	_	4	U	4:U	_
+30	schloß	schließen	VERB	VVFIN	_	4	H	4:H	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Augen	Auge	NOUN	NN	_	30	A	30:A	_
+33	,	,	PUNCT	$,	_	4	U	4:U	_
+34	als	als	SCONJ	KOUS	_	4	L	4:L	_
+35	wolle	wollen	AUX	VMFIN	_	37	D	37:D	_
+36	er	er	PRON	PPER	_	37	A	37:A	_
+37	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+38	sammeln	sammeln	VERB	VVINF	_	37	Terminal	37:Terminal	_
+39	,	,	PUNCT	$,	_	4	U	4:U	_
+40	und	und	CCONJ	NE	_	4	L	4:L	_
+41	sagte	sagen	VERB	VVFIN	_	4	H	4:H	_
+42	endlich	endlich	ADJ	ADV	_	41	D	41:D	_
+43	:	:	PUNCT	$.	_	41	U	41:U	_
+44	»	»	PUNCT	$(	_	41	U	41:U	_
+45	Vielleicht	vielleicht	NOUN	NE	_	46	E	46:E	_
+46	wohl	wohl	ADV	NE	_	41	A	41:A	_
+47	,	,	PUNCT	$,	_	46	U	46:U	_
+48	Herr	Herr	PROPN	NE	_	46	G	46:G	_
+49	Arronax	Arronax	PROPN	NE	_	48	Terminal	48:Terminal	_
+50	.	.	PUNCT	$.	_	46	U	46:U	_
+51	«	«	PUNCT	$(	_	46	U	46:U	_
+

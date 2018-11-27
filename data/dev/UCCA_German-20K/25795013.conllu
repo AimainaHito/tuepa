@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25795013
+# text = Als es flott war , zog man es über die ungeheure Grube , die ausgehauen wurde .
+1	Als	als	SCONJ	KOUS	_	3	L	3:L	_
+2	es	es	PRON	PPER	_	3	A	3:A	_
+3	flott	flott	ADJ	ADJD	_	0	H	0:H	_
+4	war	sein	AUX	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	zog	ziehen	VERB	VVFIN	_	3	H	3:H	_
+7	man	man	PRON	PIS	_	6	A	6:A	_
+8	es	es	PRON	PPER	_	6	A	6:A	_
+9	über	über	ADP	VVFIN	_	12	R	12:R	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	ungeheure	ungeheuer	ADJ	ADJA	_	12	E	12:E	_
+12	Grube	Grube	NOUN	NN	_	6	A	6:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	PRON	PRELS	_	15	R	15:R	_
+15	ausgehauen	ausgehauen	VERB	VVFIN	_	12	E	12:E	_
+16	wurde	werden	AUX	TRUNC	_	15	F	15:F	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

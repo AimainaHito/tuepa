@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25443007
+# text = Ich schildere eben diesen kühnen Gesellen so , wie ich ihn gegenwärtig kenne .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	schildere	schildern	VERB	ADJA	_	0	H	0:H	_
+3	eben	eben	ADV	ADV	_	2	D	2:D	_
+4	diesen	dies	PRON	PDAT	_	6	R	6:R	_
+5	kühnen	sküe	PRON	VVFIN	_	6	E	6:E	_
+6	Gesellen	Geselle	NOUN	NN	_	2	A	2:A	_
+7	so	so	ADV	ADV	_	2	L	2:L	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	wie	wie	SCONJ	KON	_	7	Terminal	7:Terminal	_
+10	ich	ich	PRON	PPER	_	13	A	13:A	_
+11	ihn	er	PRON	PPER	_	13	A	13:A	_
+12	gegenwärtig	gegenwärtig	ADJ	ADJD	_	13	D	13:D	_
+13	kenne	kennen	VERB	VVFIN	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

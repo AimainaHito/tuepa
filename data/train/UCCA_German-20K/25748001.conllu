@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25748001
+# text = Am folgenden Tag hatte der Ozean wieder ein gewöhnliches Aussehen .
+1	Am	am	PROPN	NN	_	3	R	3:R	_
+2	folgenden	folgend	ADJ	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	hatte	haben	VERB	VAFIN	_	10	F	10:F	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Ozean	Ozean	PROPN	NE	_	10	A	10:A	_
+7	wieder	wieder	ADV	NE	_	10	D	10:D	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	gewöhnliches	gewöhnlich	ADJ	ADJA	_	10	D	10:D	_
+10	Aussehen	Aussehen	NOUN	NN	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25725033
+# text = Ich hatte Lust , Ned Land aufzusuchen , um ihn aufzufordern , seinen Versuch zu verschieben , denn wir fuhren jetzt nicht mehr unter den gewöhnlichen Bedingungen ...
+1	Ich	ich	PRON	PPER	_	7	A	7:A|11:A	_
+2	hatte	haben	VERB	VAFIN	_	7	F	7:F	_
+3	Lust	Lust	PROPN	NE	_	7	D	7:D|11:D	_
+4	,	,	PUNCT	$,	_	7	U	7:U	_
+5	Ned	Ned	PROPN	NE	_	7	A	7:A	_
+6	Land	Land	PROPN	NE	_	5	Terminal	5:Terminal	_
+7	aufzusuchen	aufzusuchen	VERB	ADJA	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	um	um	ADP	KOUI	_	7	L	7:L	_
+10	ihn	er	PRON	PPER	_	11	A	11:A|16:A	_
+11	aufzufordern	aufzufordern	VERB	VVINF	_	7	H	7:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	seinen	sein	DET	PPOSAT	_	14	A	14:A	_
+14	Versuch	Versuch	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	verschieben	verschieben	VERB	VVINF	_	11	A	11:A	_
+17	,	,	PUNCT	$,	_	7	U	7:U	_
+18	denn	denn	SCONJ	KON	_	7	L	7:L	_
+19	wir	wir	PRON	NE	_	20	A	20:A	_
+20	fuhren	fahren	VERB	VVFIN	_	7	H	7:H	_
+21	jetzt	jetzt	ADV	ADV	_	20	D	20:D	_
+22	nicht	nicht	PART	CARD	_	20	D	20:D	_
+23	mehr	mehr	ADV	ADV	_	22	E	22:E	_
+24	unter	unter	ADP	ADJD	_	27	R	27:R	_
+25	den	der	DET	ART	_	27	E	27:E	_
+26	gewöhnlichen	gewöhnlich	ADJ	ADJA	_	27	E	27:E	_
+27	Bedingungen	Bedingung	NOUN	NN	_	20	A	20:A	_
+28	...	...	PUNCT	$(	_	27	U	27:U	_
+

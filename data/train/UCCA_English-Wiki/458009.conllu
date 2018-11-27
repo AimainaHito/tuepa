@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 458009
+# text = Worried , Jennings and ABC decided to cut back on international reporting and give more air time to " soft stories " , in an effort to emulate the success of Nightly News .
+1	Worried	worry	VERB	VBD	_	0	H	0:H	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	Jennings	Jennings	PROPN	NNPS	_	6	A	6:A|1:A|8:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	ABC	ABC	PROPN	NNP	_	3	C	3:C|14:A	_
+6	decided	decide	VERB	VBD	_	1	H	1:H	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	cut	cut	VERB	VB	_	6	A	6:A	_
+9	back	back	ADV	RB	_	8	Terminal	8:Terminal	_
+10	on	on	ADP	IN	_	12	R	12:R	_
+11	international	international	ADJ	JJ	_	12	E	12:E	_
+12	reporting	reporting	NOUN	NN	_	8	A	8:A	_
+13	and	and	CCONJ	CC	_	8	L	8:L	_
+14	give	give	VERB	VB	_	8	H	8:H	_
+15	more	more	ADJ	JJR	_	17	E	17:E	_
+16	air	air	NOUN	NN	_	17	E	17:E	_
+17	time	time	NOUN	NN	_	14	A	14:A	_
+18	to	to	PART	TO	_	21	R	21:R	_
+19	"	"	PUNCT	``	_	21	U	21:U	_
+20	soft	soft	VERB	VB	_	21	E	21:E	_
+21	stories	story	NOUN	NNS	_	14	A	14:A	_
+22	"	"	PUNCT	''	_	1	U	1:U	_
+23	,	,	PUNCT	,	_	1	U	1:U	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	an	a	DET	DT	_	26	E	26:E	_
+26	effort	effort	NOUN	NN	_	1	L	1:L	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	emulate	emulate	VERB	VB	_	1	H	1:H	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	success	success	NOUN	NN	_	28	A	28:A	_
+31	of	of	ADP	IN	_	33	R	33:R	_
+32	Nightly	Nightly	PROPN	NNP	_	33	E	33:E	_
+33	News	News	PROPN	NNP	_	30	A	30:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

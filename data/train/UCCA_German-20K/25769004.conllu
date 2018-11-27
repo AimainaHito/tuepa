@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25769004
+# text = Unterdessen begann man mit den Vorbereitungen zu dem kühnen Unternehmen .
+1	Unterdessen	unterdessen	ADV	ADV	_	6	L	6:L	_
+2	begann	beginnen	VERB	VVFIN	_	6	D	6:D	_
+3	man	man	PRON	PIS	_	6	A	6:A	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Vorbereitungen	Vorbereitung	NOUN	NN	_	0	H	0:H	_
+7	zu	zu	ADP	VVINF	_	10	R	10:R	_
+8	dem	der	DET	ART	_	10	E	10:E	_
+9	kühnen	sküe	PRON	VVINF	_	10	E	10:E	_
+10	Unternehmen	Unternehmen	NOUN	NN	_	6	A	6:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

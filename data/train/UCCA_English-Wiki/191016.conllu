@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 191016
+# text = Beatty , known for occasionally personally financing his film projects through pre - production , also hired Sorkin to rewrite a script titled Ocean of Storms which never went into production .
+1	Beatty	Beatty	INTJ	UH	_	17	A	17:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	known	know	VERB	VBN	_	1	E	1:E	_
+4	for	for	ADP	IN	_	7	R	7:R	_
+5	occasionally	occasionally	ADV	RB	_	7	D	7:D	_
+6	personally	personally	ADV	RB	_	7	D	7:D	_
+7	financing	finance	VERB	VBG	_	3	A	3:A	_
+8	his	he	PRON	PRP$	_	10	A	10:A	_
+9	film	film	NOUN	NN	_	10	E	10:E	_
+10	projects	projects	VERB	VBZ	_	7	A	7:A	_
+11	through	through	ADP	IN	_	14	R	14:R	_
+12	pre	pre	X	AFX	_	14	E	14:E	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	production	production	NOUN	NN	_	7	A	7:A	_
+15	,	,	PUNCT	,	_	17	U	17:U	_
+16	also	also	ADV	RB	_	17	D	17:D	_
+17	hired	hire	VERB	VBD	_	0	H	0:H	_
+18	Sorkin	Sorkin	PROPN	NNP	_	17	A	17:A|20:A	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	rewrite	rewrite	VERB	VB	_	17	A	17:A	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	script	script	NOUN	NN	_	23	A	23:A	_
+23	titled	title	VERB	VBN	_	20	A	20:A	_
+24	Ocean	Ocean	PROPN	NNP	_	23	A	23:A|31:A	_
+25	of	of	ADP	IN	_	24	Terminal	24:Terminal	_
+26	Storms	Storms	PROPN	NNPS	_	24	Terminal	24:Terminal	_
+27	which	which	PRON	WDT	_	31	F	31:F	_
+28	never	never	ADV	RB	_	31	D	31:D	_
+29	went	go	VERB	VBD	_	31	F	31:F	_
+30	into	into	ADP	IN	_	31	E	31:E	_
+31	production	production	NOUN	NN	_	23	E	23:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

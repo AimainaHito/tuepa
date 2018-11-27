@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 97001
+# text = L' abordage avait semblé si léger que personne ne s' en fût inquiété à bord , sans le cri des caliers qui remontèrent sur le pont en s' écriant : « Nous coulons ! nous coulons ! »
+1	L'	le	DET	_	_	2	E	2:E	_
+2	abordage	abordage	NOUN	_	_	6	A	6:A	_
+3	avait	avoir	AUX	_	_	6	F	6:F	_
+4	semblé	sembler	VERB	_	_	6	G	6:G	_
+5	si	si	SCONJ	_	_	6	E	6:E	_
+6	léger	léger	VERB	_	_	0	H	0:H	_
+7	que	que	SCONJ	_	_	6	L	6:L	_
+8	personne	personne	PRON	_	_	10	A	10:A	_
+9	ne	ne	ADV	_	_	10	D	10:D	_
+10	s'	se	PRON	_	_	6	H	6:H	_
+11	en	en	PRON	_	_	10	A	10:A	_
+12	fût	être	AUX	_	_	10	F	10:F	_
+13	inquiété	inquiéter	VERB	_	_	10	Terminal	10:Terminal	_
+14	à	à	ADP	_	_	15	R	15:R	_
+15	bord	bord	NOUN	_	_	10	A	10:A	_
+16	,	,	PUNCT	_	_	6	U	6:U	_
+17	sans	sans	ADP	_	_	6	L	6:L	_
+18	le	le	DET	_	_	19	E	19:E	_
+19	cri	cri	NOUN	_	_	23	A	23:A	_
+20	des	un	DET	_	_	21	R	21:R	_
+21	caliers	calier	NOUN	_	_	0	C	0:C|28:A	_
+22	qui	qui	PRON	_	_	19	R	19:R	_
+23	remontèrent	remonter	VERB	_	_	6	H	6:H	_
+24	sur	sur	ADP	_	_	26	R	26:R	_
+25	le	le	DET	_	_	26	E	26:E	_
+26	pont	pont	NOUN	_	_	23	A	23:A	_
+27	en	en	ADP	_	_	6	L	6:L	_
+28	s'	se	PRON	_	_	6	H	6:H	_
+29	écriant	écrier	VERB	_	_	28	Terminal	28:Terminal	_
+30	:	:	PUNCT	_	_	28	U	28:U	_
+31	«	«	PUNCT	_	_	28	U	28:U	_
+32	Nous	nous	PRON	_	_	33	A	33:A	_
+33	coulons	couler	VERB	_	_	28	A	28:A	_
+34	!	!	PUNCT	_	_	33	U	33:U	_
+35	nous	nous	PRON	_	_	36	A	36:A	_
+36	coulons	couler	VERB	_	_	33	H	33:H	_
+37	!	!	PUNCT	_	_	36	U	36:U	_
+38	»	»	PUNCT	_	_	36	U	36:U	_
+

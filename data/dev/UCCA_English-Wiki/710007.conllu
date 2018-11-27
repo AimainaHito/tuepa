@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 710007
+# text = With its bitter assessment of love and morbid ruminations , Dylan 's first collection of original songs in seven years was highly acclaimed .
+1	With	with	ADP	IN	_	4	R	4:R	_
+2	its	its	PRON	PRP$	_	4	A	4:A	_
+3	bitter	bitter	ADJ	JJ	_	4	D	4:D	_
+4	assessment	assessment	NOUN	NN	_	23	A	23:A	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	love	love	NOUN	NN	_	4	A	4:A	_
+7	and	and	CCONJ	CC	_	4	N	4:N	_
+8	morbid	morbid	ADJ	JJ	_	9	E	9:E	_
+9	ruminations	rumination	NOUN	NNS	_	4	C	4:C	_
+10	,	,	PUNCT	,	_	23	U	23:U	_
+11	Dylan	Dylan	PROPN	NNP	_	14	E	14:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	first	first	ADJ	JJ	_	14	E	14:E	_
+14	collection	collection	NOUN	NN	_	23	A	23:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	original	original	ADJ	JJ	_	17	E	17:E	_
+17	songs	song	NOUN	NNS	_	14	E	14:E	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	seven	seven	NUM	CD	_	20	E	20:E	_
+20	years	year	NOUN	NNS	_	14	E	14:E	_
+21	was	be	AUX	VBD	_	23	F	23:F	_
+22	highly	highly	ADV	RB	_	23	D	23:D	_
+23	acclaimed	acclaim	VERB	VBN	_	0	H	0:H	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

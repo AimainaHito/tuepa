@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25714018
+# text = An welchen Ort des Kontinents ?
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	welchen	welch	PRON	PWAT	_	3	E	3:E	_
+3	Ort	Ort	NOUN	NN	_	0	H	0:H	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Kontinents	Kontinent	NOUN	NN	_	3	E	3:E	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+

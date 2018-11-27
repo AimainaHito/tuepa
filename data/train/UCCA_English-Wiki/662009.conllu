@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 662009
+# text = The song became Carey 's eighth chart topper in the United States , and began expanding Carey 's popularity throughout Europe .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	0	C	0:C|16:A	_
+3	became	become	VERB	VBD	_	0	H	0:H	_
+4	Carey	Carey	PROPN	NNP	_	8	E	8:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	eighth	eighth	NOUN	NN	_	8	E	8:E	_
+7	chart	chart	NOUN	NN	_	8	E	8:E	_
+8	topper	topper	NOUN	NN	_	3	A	3:A	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	United	United	PROPN	NNP	_	8	E	8:E	_
+12	States	States	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	and	and	CCONJ	CC	_	3	L	3:L	_
+15	began	begin	VERB	VBD	_	16	D	16:D	_
+16	expanding	expand	VERB	VBG	_	3	H	3:H	_
+17	Carey	Carey	PROPN	NNP	_	19	A	19:A	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	popularity	popularity	NOUN	NN	_	16	A	16:A	_
+20	throughout	throughout	ADP	IN	_	21	R	21:R	_
+21	Europe	Europe	PROPN	NNP	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

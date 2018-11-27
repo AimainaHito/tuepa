@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 247005
+# text = " In 2001 , Hawke appeared in two more Linklater movies : Waking Life and Tape , both critically acclaimed .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	2001	2001	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Hawke	Hawke	PROPN	NNP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	13	R	13:R	_
+8	two	two	NUM	CD	_	9	E	9:E	_
+9	more	more	ADJ	JJR	_	11	E	11:E	_
+10	Linklater	Linklater	NOUN	NN	_	11	E	11:E	_
+11	movies	movie	NOUN	NNS	_	13	E	13:E	_
+12	:	:	PUNCT	:	_	13	U	13:U	_
+13	Waking	Wak	VERB	VBG	_	6	A	6:A	_
+14	Life	life	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	13	N	13:N	_
+16	Tape	tape	PROPN	NNP	_	13	C	13:C	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	both	both	CCONJ	CC	_	20	A	20:A	_
+19	critically	critically	ADV	RB	_	20	A	20:A	_
+20	acclaimed	acclaim	VERB	VBN	_	13	E	13:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

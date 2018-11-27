@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 499001
+# text = " Offstage I 'm a robot . Onstage I achieve emotion . It 's probably why I prefer dressing up as Ziggy to being David .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Offstage	Offstage	NOUN	NN	_	4	A	4:A	_
+3	I	I	PRON	PRP	_	4	A	4:A	_
+4	'm	be	AUX	VBP	_	0	H	0:H	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	robot	robot	NOUN	NN	_	4	A	4:A	_
+7	.	.	PUNCT	.	_	4	U	4:U	_
+8	Onstage	Onstage	NOUN	NN	_	10	A	10:A	_
+9	I	I	PRON	PRP	_	10	A	10:A	_
+10	achieve	achieve	VERB	VBP	_	4	H	4:H	_
+11	emotion	emotion	NOUN	NN	_	10	A	10:A	_
+12	.	.	PUNCT	.	_	4	U	4:U	_
+13	It	it	PRON	PRP	_	4	L	4:L	_
+14	's	be	AUX	VBZ	_	13	Terminal	13:Terminal	_
+15	probably	probably	ADV	RB	_	13	Terminal	13:Terminal	_
+16	why	why	ADV	WRB	_	13	Terminal	13:Terminal	_
+17	I	I	PRON	PRP	_	18	A	18:A|19:A|24:A	_
+18	prefer	prefer	VERB	VBP	_	4	H	4:H	_
+19	dressing	dress	VERB	VBG	_	18	A	18:A	_
+20	up	up	ADP	RP	_	19	Terminal	19:Terminal	_
+21	as	as	ADP	IN	_	22	R	22:R	_
+22	Ziggy	Ziggy	PROPN	NNP	_	19	A	19:A	_
+23	to	to	SCONJ	IN	_	19	N	19:N	_
+24	being	be	AUX	VBG	_	19	C	19:C	_
+25	David	David	PROPN	NNP	_	24	A	24:A	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

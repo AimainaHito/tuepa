@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 688000
+# text = Bob Dylan ( born Robert Allen Zimmerman ; May 24 , 1941 ) is an American musician , singer - songwriter , music producer , artist , and writer .
+1	Bob	Bob	PROPN	NNP	_	14	A	14:A	_
+2	Dylan	Dylan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+4	born	bear	VERB	VBN	_	1	E	1:E	_
+5	Robert	Robert	PROPN	NNP	_	4	A	4:A	_
+6	Allen	Allen	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Zimmerman	Zimmerman	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	;	;	PUNCT	,	_	4	U	4:U	_
+9	May	May	PROPN	NNP	_	12	E	12:E	_
+10	24	24	NUM	CD	_	12	E	12:E	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	1941	1941	NUM	CD	_	4	D	4:D	_
+13	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+14	is	be	AUX	VBZ	_	0	H	0:H	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	American	american	ADJ	JJ	_	17	E	17:E	_
+17	musician	musician	NOUN	NN	_	14	A	14:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	singer	singer	NOUN	NN	_	17	C	17:C	_
+20	-	-	PUNCT	HYPH	_	17	U	17:U	_
+21	songwriter	songwriter	NOUN	NN	_	17	C	17:C	_
+22	,	,	PUNCT	,	_	17	U	17:U	_
+23	music	music	NOUN	NN	_	24	E	24:E	_
+24	producer	producer	NOUN	NN	_	17	C	17:C	_
+25	,	,	PUNCT	,	_	17	U	17:U	_
+26	artist	artist	NOUN	NN	_	17	C	17:C	_
+27	,	,	PUNCT	,	_	17	U	17:U	_
+28	and	and	CCONJ	CC	_	17	N	17:N	_
+29	writer	writer	NOUN	NN	_	17	C	17:C	_
+30	.	.	PUNCT	.	_	17	U	17:U	_
+

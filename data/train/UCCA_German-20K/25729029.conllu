@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25729029
+# text = Ich wartete mit einiger Ungeduld , bis die Aufnahme geschah .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|5:A	_
+2	wartete	warten	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	einiger	einige	PRON	PIAT	_	5	D	5:D	_
+5	Ungeduld	Ungeduld	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	bis	bis	SCONJ	KOUS	_	2	L	2:L	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Aufnahme	Aufnahme	NOUN	NN	_	10	A	10:A	_
+10	geschah	geschehen	VERB	VVFIN	_	2	H	2:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

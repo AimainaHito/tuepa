@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 630005
+# text = In July 1946 Lennon 's father visited Smith and took his son to Blackpool , secretly intending to emigrate to New Zealand with him .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	July	July	PROPN	NNP	_	3	E	3:E	_
+3	1946	1946	NUM	CD	_	7	D	7:D	_
+4	Lennon	Lennon	PROPN	NNP	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	father	father	NOUN	NN	_	7	A	7:A|19:A|10:A	_
+7	visited	visit	VERB	VBD	_	0	H	0:H	_
+8	Smith	Smith	PROPN	NNP	_	7	A	7:A	_
+9	and	and	CCONJ	CC	_	7	L	7:L	_
+10	took	take	VERB	VBD	_	7	H	7:H	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	son	son	NOUN	NN	_	10	A	10:A	_
+13	to	to	ADP	IN	_	14	R	14:R	_
+14	Blackpool	Blackpool	PROPN	NNP	_	10	A	10:A	_
+15	,	,	PUNCT	,	_	7	U	7:U	_
+16	secretly	secretly	ADV	RB	_	19	D	19:D	_
+17	intending	intend	VERB	VBG	_	19	D	19:D	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	emigrate	emigrate	VERB	VB	_	7	H	7:H	_
+20	to	to	ADP	IN	_	21	R	21:R	_
+21	New	New	PROPN	NNP	_	19	A	19:A	_
+22	Zealand	Zealand	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	with	with	ADP	IN	_	24	R	24:R	_
+24	him	he	PRON	PRP	_	19	A	19:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

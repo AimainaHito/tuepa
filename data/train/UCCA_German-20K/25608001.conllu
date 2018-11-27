@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25608001
+# text = Nachdem sie unterm 135 . Grad der Länge den Wendekreis des Steinbocks berührt hatte , wendete sie sich nach West-Nord-West und durchlief nochmals die ganze tropische Zone .
+1	Nachdem	nachdem	SCONJ	KOUS	_	13	L	13:L	_
+2	sie	sie	PRON	ADV	_	13	A	13:A	_
+3	unterm	unterm	ADJ	NN	_	6	R	6:R	_
+4	135	135	NUM	CARD	_	6	E	6:E	_
+5	.	.	PUNCT	$.	_	6	U	6:U	_
+6	Grad	Grad	NOUN	NN	_	13	A	13:A	_
+7	der	der	DET	ART	_	6	Terminal	6:Terminal	_
+8	Länge	Länge	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Wendekreis	Wendekreis	NOUN	NN	_	13	A	13:A	_
+11	des	der	DET	ART	_	10	Terminal	10:Terminal	_
+12	Steinbocks	Steinbock	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	berührt	berühren	VERB	VVPP	_	0	H	0:H	_
+14	hatte	haben	AUX	VAFIN	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	wendete	wenden	VERB	VVFIN	_	13	H	13:H	_
+17	sie	sie	PRON	ADV	_	16	A	16:A|22:A	_
+18	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+19	nach	nach	ADP	NN	_	20	R	20:R	_
+20	West-Nord-West	West-Nord-West	PROPN	NE	_	16	A	16:A	_
+21	und	und	CCONJ	NE	_	13	L	13:L	_
+22	durchlief	durchlaufen	VERB	VVFIN	_	13	H	13:H	_
+23	nochmals	nochmals	ADV	ADV	_	22	D	22:D	_
+24	die	der	DET	ART	_	27	E	27:E	_
+25	ganze	ganz	ADJ	ADJA	_	27	E	27:E	_
+26	tropische	tropische	ADJ	ADJA	_	27	E	27:E	_
+27	Zone	Zone	NOUN	NN	_	22	A	22:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

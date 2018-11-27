@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 806005
+# text = McCartney is a supporter of the animal - rights organization People for the Ethical Treatment of Animals .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	is	be	AUX	VBZ	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	supporter	supporter	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	11	R	11:R	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	animal	animal	NOUN	NN	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	rights	right	NOUN	NNS	_	10	E	10:E	_
+10	organization	organization	NOUN	NN	_	11	E	11:E	_
+11	People	people	NOUN	NNS	_	4	E	4:E	_
+12	for	for	ADP	IN	_	11	Terminal	11:Terminal	_
+13	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+14	Ethical	ethical	ADJ	JJ	_	11	Terminal	11:Terminal	_
+15	Treatment	treatment	NOUN	NN	_	11	Terminal	11:Terminal	_
+16	of	of	ADP	IN	_	11	Terminal	11:Terminal	_
+17	Animals	animal	NOUN	NNS	_	11	Terminal	11:Terminal	_
+18	.	.	PUNCT	.	_	11	U	11:U	_
+

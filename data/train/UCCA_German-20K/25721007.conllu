@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25721007
+# text = Ich war , gestehe ich , auf diese Mitteilung nicht gefaßt .
+1	Ich	ich	PRON	PPER	_	11	A	11:A	_
+2	war	sein	VERB	ADV	_	11	F	11:F	_
+3	,	,	PUNCT	$,	_	11	U	11:U	_
+4	gestehe	gestehen	VERB	VVFIN	_	11	H	11:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	11	U	11:U	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	diese	dies	PRON	PDAT	_	9	E	9:E	_
+9	Mitteilung	Mitteilung	NOUN	NN	_	11	A	11:A	_
+10	nicht	nicht	PART	CARD	_	11	D	11:D	_
+11	gefaßt	fassen	VERB	VVPP	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 94000
+# text = Si je donne ces détails très - succincts , c' est afin que chacun sache bien quelle est l' importance de cette compagnie de transports maritimes , connue du monde entier pour son intelligente gestion .
+1	Si	si	SCONJ	_	_	3	L	3:L	_
+2	je	il	PRON	_	_	3	A	3:A	_
+3	donne	donner	VERB	_	_	0	H	0:H	_
+4	ces	ce	DET	_	_	5	E	5:E	_
+5	détails	détail	NOUN	_	_	3	A	3:A	_
+6	très	très	ADV	_	_	8	E	8:E	_
+7	-	-	PUNCT	_	_	8	U	8:U	_
+8	succincts	succinct	NOUN	_	_	5	E	5:E	_
+9	,	,	PUNCT	_	_	3	U	3:U	_
+10	c'	ce	PRON	_	_	12	A	12:A	_
+11	est	être	VERB	_	_	12	F	12:F	_
+12	afin	afin	ADV	_	_	3	H	3:H	_
+13	que	que	SCONJ	_	_	15	R	15:R	_
+14	chacun	chacun	PRON	_	_	15	A	15:A	_
+15	sache	savoir	VERB	_	_	12	A	12:A	_
+16	bien	bien	ADV	_	_	15	D	15:D	_
+17	quelle	quel	PRON	_	_	20	R	20:R	_
+18	est	être	AUX	_	_	20	F	20:F	_
+19	l'	le	DET	_	_	20	E	20:E	_
+20	importance	importance	NOUN	_	_	15	A	15:A	_
+21	de	de	ADP	_	_	23	R	23:R	_
+22	cette	ce	DET	_	_	23	E	23:E	_
+23	compagnie	compagnie	NOUN	_	_	20	A	20:A	_
+24	de	de	ADP	_	_	25	R	25:R	_
+25	transports	transport	NOUN	_	_	23	E	23:E	_
+26	maritimes	maritime	ADJ	_	_	25	E	25:E	_
+27	,	,	PUNCT	_	_	23	U	23:U	_
+28	connue	connaître	VERB	_	_	23	E	23:E	_
+29	du	du	DET	_	_	30	R	30:R	_
+30	monde	monde	NOUN	_	_	28	A	28:A	_
+31	entier	entier	ADJ	_	_	30	E	30:E	_
+32	pour	pour	ADP	_	_	35	R	35:R	_
+33	son	son	DET	_	_	35	E	35:E	_
+34	intelligente	intelligent	ADJ	_	_	35	E	35:E	_
+35	gestion	gestion	NOUN	_	_	28	A	28:A	_
+36	.	.	PUNCT	_	_	35	U	35:U	_
+

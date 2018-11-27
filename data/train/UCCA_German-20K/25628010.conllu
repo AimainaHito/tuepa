@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25628010
+# text = » Man wird 's versuchen , Herr Professor , obwohl ich mehr geübt bin , mit der Harpune , als mit der Flinte um zu gehen ! «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Man	man	PRON	PIS	_	5	A	5:A	_
+3	wird	werden	AUX	VAFIN	_	5	F	5:F	_
+4	's	es	PART	ART	_	5	A	5:A	_
+5	versuchen	versuchen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Professor	Professor	PROPN	NE	_	5	G	5:G	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	obwohl	obwohl	SCONJ	NE	_	5	L	5:L	_
+11	ich	ich	PRON	PPER	_	24	A	24:A	_
+12	mehr	mehr	ADV	ADV	_	24	D	24:D	_
+13	geübt	geübt	VERB	VVPP	_	24	D	24:D	_
+14	bin	sein	AUX	VAFIN	_	24	F	24:F	_
+15	,	,	PUNCT	$,	_	24	U	24:U	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Harpune	Harpune	NOUN	NN	_	24	A	24:A	_
+19	,	,	PUNCT	$,	_	24	U	24:U	_
+20	als	als	SCONJ	KOUS	_	23	R	23:R	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Flinte	Flinte	NOUN	NN	_	24	A	24:A	_
+24	um	um	ADP	KOUI	_	5	H	5:H	_
+25	zu	zu	PART	NE	_	24	F	24:F	_
+26	gehen	gehen	VERB	VVINF	_	24	Terminal	24:Terminal	_
+27	!	!	PUNCT	$.	_	24	U	24:U	_
+28	«	«	PUNCT	$(	_	24	U	24:U	_
+

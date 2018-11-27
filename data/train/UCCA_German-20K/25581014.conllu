@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25581014
+# text = Diesen ganzen Tag über wurde ich nicht mit einem Besuch von Kapitän Nemo beehrt .
+1	Diesen	dies	PRON	PDAT	_	3	E	3:E	_
+2	ganzen	ganz	ADJ	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	14	D	14:D	_
+4	über	über	ADP	ADJD	_	3	R	3:R	_
+5	wurde	werden	AUX	TRUNC	_	14	F	14:F	_
+6	ich	ich	PRON	PPER	_	14	A	14:A	_
+7	nicht	nicht	PART	XY	_	14	D	14:D	_
+8	mit	mit	ADP	APPR	_	10	R	10:R	_
+9	einem	ein	DET	ART	_	10	E	10:E	_
+10	Besuch	Besuch	NOUN	NN	_	14	A	14:A	_
+11	von	von	ADP	NE	_	13	R	13:R	_
+12	Kapitän	Kapitän	PROPN	FM	_	13	E	13:E	_
+13	Nemo	Nemo	PROPN	NE	_	10	E	10:E	_
+14	beehrt	beehren	VERB	VVPP	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

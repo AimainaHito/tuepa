@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25623001
+# text = » Conseil , man darf an nichts verzweifeln « , erwiderte der Kanadier .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Conseil	Conseil	NOUN	NN	_	8	G	8:G	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	man	man	PRON	PIS	_	8	A	8:A	_
+5	darf	dürfen	AUX	VMFIN	_	8	D	8:D	_
+6	an	an	ADP	APPR	_	7	R	7:R	_
+7	nichts	nichts	PRON	NN	_	8	A	8:A	_
+8	verzweifeln	verzweifeln	VERB	VVINF	_	11	A	11:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

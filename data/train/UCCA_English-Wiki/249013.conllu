@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 249013
+# text = His next role was in Brooklyn 's Finest , released in March 2010 , as a narcotics officer who uses his position to steal drug money and administer vigilante justice .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	role	role	NOUN	NN	_	4	A	4:A	_
+4	was	be	AUX	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	Brooklyn	Brooklyn	PROPN	NNP	_	4	A	4:A	_
+7	's	's	PART	POS	_	6	Terminal	6:Terminal	_
+8	Finest	finest	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	released	release	VERB	VBD	_	4	H	4:H	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	March	March	PROPN	NNP	_	13	E	13:E	_
+13	2010	2010	NUM	CD	_	10	D	10:D	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	as	as	ADP	IN	_	18	R	18:R	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	narcotics	narcotics	NOUN	NN	_	18	E	18:E	_
+18	officer	officer	NOUN	NN	_	4	A	4:A	_
+19	who	who	PRON	WP	_	20	F	20:F	_
+20	uses	use	VERB	VBZ	_	18	E	18:E	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	position	position	NOUN	NN	_	20	A	20:A	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	steal	steal	VERB	VB	_	20	A	20:A	_
+25	drug	drug	NOUN	NN	_	26	E	26:E	_
+26	money	money	NOUN	NN	_	24	A	24:A	_
+27	and	and	CCONJ	CC	_	24	N	24:N	_
+28	administer	administer	NOUN	NN	_	24	C	24:C	_
+29	vigilante	vigilante	NOUN	NN	_	30	E	30:E	_
+30	justice	justice	NOUN	NN	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

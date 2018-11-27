@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 727015
+# text = That same year , Jolie played Olympias in Alexander , about the life of Alexander the Great .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Jolie	Jolie	PROPN	NNP	_	6	A	6:A	_
+6	played	play	VERB	VBD	_	0	H	0:H	_
+7	Olympias	Olympias	PROPN	NNP	_	6	A	6:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Alexander	Alexander	PROPN	NNP	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	about	about	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	life	life	NOUN	NN	_	9	E	9:E	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Alexander	Alexander	PROPN	NNP	_	13	E	13:E	_
+16	the	the	DET	DT	_	15	Terminal	15:Terminal	_
+17	Great	Great	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	.	.	PUNCT	.	_	15	U	15:U	_
+

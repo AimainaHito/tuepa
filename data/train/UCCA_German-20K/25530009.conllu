@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25530009
+# text = Aber ich war noch lange wie im Traum , bis meine Blicke auf die an den Wänden hängenden Instrumente fielen .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A	_
+3	war	sein	AUX	ADV	_	0	H	0:H	_
+4	noch	noch	ADV	VVINF	_	5	E	5:E	_
+5	lange	lange	ADJ	ADV	_	3	D	3:D	_
+6	wie	wie	CCONJ	KON	_	8	R	8:R	_
+7	im	im	ADJ	NE	_	8	E	8:E	_
+8	Traum	Traum	NOUN	NE	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	bis	bis	SCONJ	APPR	_	3	L	3:L	_
+11	meine	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Blicke	Blick	NOUN	NN	_	20	A	20:A	_
+13	auf	auf	ADP	APPR	_	19	R	19:R	_
+14	die	der	DET	ART	_	19	E	19:E	_
+15	an	an	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Wänden	Wand	NOUN	NN	_	18	A	18:A	_
+18	hängenden	hängend	ADJ	ADJA	_	19	E	19:E	_
+19	Instrumente	Instrument	NOUN	NN	_	20	A	20:A	_
+20	fielen	fallen	VERB	VVFIN	_	3	H	3:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 703001
+# text = He filled a small red notebook with songs about relationships and ruptures , and quickly recorded a new album entitled Blood on the Tracks in September 1974 .
+1	He	he	PRON	PRP	_	2	A	2:A|16:A	_
+2	filled	fill	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	6	E	6:E	_
+4	small	small	ADJ	JJ	_	6	E	6:E	_
+5	red	red	ADJ	JJ	_	6	E	6:E	_
+6	notebook	notebook	NOUN	NN	_	2	A	2:A	_
+7	with	with	ADP	IN	_	8	R	8:R	_
+8	songs	song	NOUN	NNS	_	2	A	2:A	_
+9	about	about	ADP	IN	_	10	R	10:R	_
+10	relationships	relationship	NOUN	NNS	_	8	E	8:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	ruptures	rupture	NOUN	NNS	_	10	C	10:C	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	quickly	quickly	ADV	RB	_	16	D	16:D	_
+16	recorded	record	VERB	VBD	_	2	H	2:H	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	new	new	ADJ	JJ	_	19	E	19:E	_
+19	album	album	NOUN	NN	_	20	A	20:A	_
+20	entitled	entitle	VERB	VBN	_	16	A	16:A	_
+21	Blood	blood	PROPN	NNP	_	20	A	20:A	_
+22	on	on	ADP	IN	_	21	Terminal	21:Terminal	_
+23	the	the	DET	DT	_	21	Terminal	21:Terminal	_
+24	Tracks	tracks	NOUN	NNS	_	21	Terminal	21:Terminal	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	September	September	PROPN	NNP	_	27	E	27:E	_
+27	1974	1974	NUM	CD	_	16	D	16:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

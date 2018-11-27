@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25752000
+# text = » Nein , Herr Professor « , erwiderte der Kapitän , » ich werde so unhöflich nicht sein . Doch will ich Sie fragen , wie erklären Sie , dass Geschöpfe in solchen Tiefen leben können ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PROPN	PTKANT	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	ich	ich	PRON	PPER	_	16	A	16:A	_
+14	werde	werden	AUX	NN	_	16	F	16:F	_
+15	so	so	ADV	ADV	_	16	D	16:D	_
+16	unhöflich	unhöflich	ADJ	ADJD	_	2	H	2:H	_
+17	nicht	nicht	PART	XY	_	16	D	16:D	_
+18	sein	sein	AUX	VAINF	_	16	F	16:F	_
+19	.	.	PUNCT	$.	_	2	U	2:U	_
+20	Doch	doch	CCONJ	ADV	_	24	D	24:D	_
+21	will	wollen	AUX	NN	_	24	D	24:D	_
+22	ich	ich	PRON	PPER	_	24	A	24:A	_
+23	Sie	Sie|sie	PRON	PPER	_	24	A	24:A	_
+24	fragen	fragen	VERB	VVFIN	_	2	H	2:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	wie	wie	ADV	KON	_	27	D	27:D	_
+27	erklären	erklären	VERB	VVFIN	_	24	A	24:A	_
+28	Sie	Sie|sie	PRON	PPER	_	27	A	27:A	_
+29	,	,	PUNCT	$,	_	27	U	27:U	_
+30	dass	dass	SCONJ	KOUS	_	35	R	35:R	_
+31	Geschöpfe	Geschopf	NOUN	NN	_	35	A	35:A	_
+32	in	in	ADP	APPR	_	34	R	34:R	_
+33	solchen	solch	PRON	PIAT	_	34	E	34:E	_
+34	Tiefen	tiefe	NOUN	NN	_	35	A	35:A	_
+35	leben	leben	VERB	VVINF	_	27	A	27:A	_
+36	können	können	AUX	VMFIN	_	35	D	35:D	_
+37	?	?	PUNCT	$.	_	35	U	35:U	_
+38	«	«	PUNCT	$(	_	35	U	35:U	_
+

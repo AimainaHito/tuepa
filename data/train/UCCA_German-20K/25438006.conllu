@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25438006
+# text = « » In eigener Person . Seien Sie willkommen , Herr Professor . Ihre Kabine wartet schon auf Sie .
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	»	»	PUNCT	$(	_	5	U	5:U	_
+3	In	in	ADP	APPR	_	5	R	5:R	_
+4	eigener	eigen	ADJ	ADJA	_	5	E	5:E	_
+5	Person	Person	NOUN	NN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	Seien	sein	AUX	VAFIN	_	9	D	9:D	_
+8	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+9	willkommen	willkommen	VERB	VVPP	_	5	H	5:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	Herr	Herr	PROPN	NN	_	12	E	12:E	_
+12	Professor	Professor	PROPN	NE	_	9	G	9:G	_
+13	.	.	PUNCT	$.	_	5	U	5:U	_
+14	Ihre	Ihr|ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Kabine	Kabine	NOUN	NN	_	16	A	16:A	_
+16	wartet	warten	VERB	VVFIN	_	5	H	5:H	_
+17	schon	schon	ADV	ADV	_	16	D	16:D	_
+18	auf	auf	ADP	APPR	_	19	R	19:R	_
+19	Sie	Sie|sie	PRON	PPER	_	16	A	16:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

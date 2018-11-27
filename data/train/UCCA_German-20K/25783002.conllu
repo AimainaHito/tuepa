@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25783002
+# text = Ich ließ ihn seiner üblen Laune ganz nach Belieben Luft machen , ohne etwas zu erwidern .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|16:A	_
+2	ließ	lassen	VERB	VVFIN	_	0	H	0:H	_
+3	ihn	er	PRON	PPER	_	2	A	2:A|10:A	_
+4	seiner	sein	DET	PPOSAT	_	6	E	6:E	_
+5	üblen	übel	ADJ	ADJA	_	6	E	6:E	_
+6	Laune	Laune	NOUN	NN	_	10	A	10:A	_
+7	ganz	ganz	ADJ	ADV	_	10	D	10:D	_
+8	nach	nach	ADP	NN	_	9	R	9:R	_
+9	Belieben	Belieben	PROPN	NN	_	10	A	10:A	_
+10	Luft	Luft	NOUN	NN	_	2	A	2:A	_
+11	machen	machen	VERB	VVINF	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	ohne	ohne	SCONJ	NE	_	2	L	2:L	_
+14	etwas	etwas	PRON	PIS	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	erwidern	erwidern	VERB	VVINF	_	2	H	2:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25723003
+# text = Die ›Nautilus‹ hielt sich unverändert in den portugiesischen Gewässern , in nördlicher Richtung längs den Gestaden des Ozeans .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|5:A	_
+3	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	unverändert	unverändert	ADJ	NN	_	3	H	3:H	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	portugiesischen	portugiesisch	ADJ	ADJA	_	3	A	3:A	_
+9	Gewässern	Gewässer	NOUN	NN	_	8	E	8:E	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	nördlicher	nördlich	ADJ	ADJA	_	13	E	13:E	_
+13	Richtung	Richtung	NOUN	NN	_	8	C	8:C	_
+14	längs	längs	ADP	ADV	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Gestaden	Gestaden	NOUN	NN	_	13	E	13:E	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Ozeans	Ozeans	NOUN	NN	_	16	E	16:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

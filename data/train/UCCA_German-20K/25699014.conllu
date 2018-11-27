@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25699014
+# text = » Wie ? Es bestände eine Durchfahrt ? « » Ja , eine unterirdische Durchfahrt , die ich ›Arabischen Tunnel‹ genannt habe . Er fängt unterhalb Suez an und endet im Golf von Pelusium . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wie	wie	X	NE	_	0	H	0:H	_
+3	?	?	PUNCT	$.	_	2	U	2:U	_
+4	Es	es	PRON	PPER	_	5	F	5:F	_
+5	bestände	beständ	ADJ	NN	_	0	S	0:S|15:S|11:S	_
+6	eine	ein	DET	ART	_	7	E	7:E	_
+7	Durchfahrt	Durchfahrt	NOUN	NN	_	0	C	0:C|11:A	_
+8	?	?	PUNCT	$.	_	11	U	11:U	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	»	»	PUNCT	$(	_	11	U	11:U	_
+11	Ja	Ja	PROPN	PTKANT	_	2	H	2:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	eine	ein	DET	ART	_	15	E	15:E	_
+14	unterirdische	unterirdisch	ADJ	NN	_	15	E	15:E	_
+15	Durchfahrt	Durchfahrt	NOUN	NN	_	11	H	11:H	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	21	R	21:R	_
+18	ich	ich	PRON	PPER	_	21	A	21:A	_
+19	›Arabischen	›Arabisch	ADJ	NE	_	21	A	21:A	_
+20	Tunnel‹	Tunnel‹	NOUN	NE	_	19	E	19:E	_
+21	genannt	nennen	VERB	VVPP	_	15	E	15:E	_
+22	habe	haben	AUX	VAFIN	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	11	U	11:U	_
+24	Er	er	PRON	PPER	_	25	A	25:A|30:A	_
+25	fängt	fangen	VERB	VVFIN	_	11	H	11:H	_
+26	unterhalb	unterhalb	ADP	APPR	_	27	R	27:R	_
+27	Suez	Suez	PROPN	NE	_	25	A	25:A	_
+28	an	an	ADP	PTKVZ	_	25	Terminal	25:Terminal	_
+29	und	und	CCONJ	NE	_	11	L	11:L	_
+30	endet	enden	VERB	VVFIN	_	11	H	11:H	_
+31	im	im	ADJ	NN	_	34	R	34:R	_
+32	Golf	Golf	NOUN	NN	_	34	E	34:E	_
+33	von	von	ADP	NN	_	34	R	34:R	_
+34	Pelusium	Pelusium	PROPN	NN	_	30	A	30:A	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+36	«	«	PUNCT	$(	_	34	U	34:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 129008
+# text = Her hair was cut short for the part , as her character masquerades as a boy for much of the film .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	hair	hair	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	cut	cut	VERB	VBN	_	0	H	0:H	_
+5	short	short	ADJ	JJ	_	4	D	4:D	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	part	part	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	as	as	SCONJ	IN	_	4	L	4:L	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	character	character	NOUN	NN	_	13	A	13:A	_
+13	masquerades	masquerade	VERB	VBZ	_	4	H	4:H	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	boy	boy	NOUN	NN	_	13	A	13:A	_
+17	for	for	ADP	IN	_	4	L	4:L	_
+18	much	much	ADJ	JJ	_	21	E	21:E	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	film	film	NOUN	NN	_	4	H	4:H	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25469004
+# text = Aber Ned Land hatte nicht geirrt , und wir alle sahen den Gegenstand , auf den er mit der Hand wies .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	Ned	Ned	PROPN	FM	_	6	A	6:A	_
+3	Land	Land	PROPN	FM	_	2	Terminal	2:Terminal	_
+4	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	geirrt	irren	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	wir	wir	PRON	NE	_	11	A	11:A	_
+10	alle	alle	PRON	PIAT	_	9	E	9:E	_
+11	sahen	sehen	VERB	VVFIN	_	6	H	6:H	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Gegenstand	Gegenstand	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	auf	auf	ADP	APPR	_	16	R	16:R	_
+16	den	der	PRON	PRELS	_	21	R	21:R	_
+17	er	er	PRON	PPER	_	21	A	21:A	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	der	der	DET	ART	_	20	E	20:E	_
+20	Hand	Hand	NOUN	NN	_	21	A	21:A	_
+21	wies	weisen	VERB	VVFIN	_	13	E	13:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

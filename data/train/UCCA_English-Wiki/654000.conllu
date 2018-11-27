@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 654000
+# text = In combination with A Spaniard in the Works ( 1965 ) , In His Own Write formed the basis of the stage play The John Lennon Play : In His Own Write , co - adapted by Victor Spinetti and Adrienne Kennedy .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	combination	combination	NOUN	NN	_	4	R	4:R	_
+3	with	with	ADP	IN	_	2	E	2:E	_
+4	A	a	DET	DT	_	17	A	17:A	_
+5	Spaniard	Spaniard	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	in	in	ADP	IN	_	4	Terminal	4:Terminal	_
+7	the	the	DET	DT	_	4	Terminal	4:Terminal	_
+8	Works	Works	NOUN	NNS	_	4	Terminal	4:Terminal	_
+9	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+10	1965	1965	NUM	CD	_	4	E	4:E	_
+11	)	)	PUNCT	-RRB-	_	17	U	17:U	_
+12	,	,	PUNCT	,	_	17	U	17:U	_
+13	In	in	ADP	IN	_	17	A	17:A	_
+14	His	he	PRON	PRP$	_	13	Terminal	13:Terminal	_
+15	Own	own	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Write	write	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	formed	form	VERB	VBD	_	0	H	0:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	basis	basis	NOUN	NN	_	17	A	17:A	_
+20	of	of	ADP	IN	_	24	R	24:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	stage	stage	NOUN	NN	_	23	E	23:E	_
+23	play	play	VERB	VB	_	24	E	24:E	_
+24	The	the	DET	DT	_	19	E	19:E	_
+25	John	John	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	Lennon	Lennon	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	Play	Play	PROPN	NNP	_	24	Terminal	24:Terminal	_
+28	:	:	PUNCT	:	_	24	U	24:U	_
+29	In	in	ADP	IN	_	24	Terminal	24:Terminal	_
+30	His	he	PRON	PRP$	_	24	Terminal	24:Terminal	_
+31	Own	own	PROPN	NNP	_	24	Terminal	24:Terminal	_
+32	Write	write	PROPN	NNP	_	24	Terminal	24:Terminal	_
+33	,	,	PUNCT	,	_	24	U	24:U	_
+34	co	co	X	AFX	_	36	E	36:E	_
+35	-	-	PUNCT	HYPH	_	36	U	36:U	_
+36	adapted	adapt	VERB	VBN	_	24	E	24:E	_
+37	by	by	ADP	IN	_	38	R	38:R	_
+38	Victor	Victor	PROPN	NNP	_	36	A	36:A	_
+39	Spinetti	Spinetti	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	and	and	CCONJ	CC	_	38	N	38:N	_
+41	Adrienne	Adrienne	PROPN	NNP	_	38	C	38:C	_
+42	Kennedy	Kennedy	PROPN	NNP	_	41	Terminal	41:Terminal	_
+43	.	.	PUNCT	.	_	38	U	38:U	_
+

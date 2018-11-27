@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25764011
+# text = . Der Kompaß war in seinen Angaben nicht mehr zuverlässig ; die irre gewordene Nadel zeigte auf alle Richtungen , als man dem Südpol des Magnets nah kam , der nicht mit dem Südpol des Himmels zu verwechseln ist .
+1	.	.	PUNCT	$.	_	10	U	10:U	_
+2	Der	der	DET	ART	_	3	E	3:E	_
+3	Kompaß	Kompaß	NOUN	NN	_	10	A	10:A	_
+4	war	sein	AUX	ADV	_	10	F	10:F	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	seinen	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Angaben	Angabe	NOUN	NN	_	10	A	10:A	_
+8	nicht	nicht	PART	XY	_	10	D	10:D	_
+9	mehr	mehr	ADV	ADV	_	8	E	8:E	_
+10	zuverlässig	zuverlässig	ADJ	ADJD	_	0	H	0:H	_
+11	;	;	PUNCT	$.	_	10	U	10:U	_
+12	die	der	DET	ART	_	15	E	15:E	_
+13	irre	irre	ADJ	ADJA	_	16	A	16:A	_
+14	gewordene	worden	ADJ	ADJA	_	13	F	13:F	_
+15	Nadel	Nadel	NOUN	NN	_	13	A	13:A	_
+16	zeigte	zeigen	VERB	VVFIN	_	10	H	10:H	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	alle	alle	PRON	PIAT	_	19	E	19:E	_
+19	Richtungen	Richtung	NOUN	NN	_	16	A	16:A	_
+20	,	,	PUNCT	$,	_	10	U	10:U	_
+21	als	als	SCONJ	KOUS	_	10	L	10:L	_
+22	man	man	PRON	PIS	_	27	A	27:A	_
+23	dem	der	DET	ART	_	24	E	24:E	_
+24	Südpol	Südpol	NOUN	NE	_	27	A	27:A	_
+25	des	der	DET	ART	_	26	R	26:R	_
+26	Magnets	Magnets	PROPN	NN	_	24	E	24:E	_
+27	nah	nah	PROPN	ADJD	_	10	H	10:H	_
+28	kam	kommen	VERB	VVFIN	_	27	Terminal	27:Terminal	_
+29	,	,	PUNCT	$,	_	27	U	27:U	_
+30	der	der	PRON	PRELS	_	38	R	38:R	_
+31	nicht	nicht	PART	CARD	_	38	D	38:D	_
+32	mit	mit	ADP	APPR	_	34	R	34:R	_
+33	dem	der	DET	ART	_	34	E	34:E	_
+34	Südpol	Südpol	NOUN	NE	_	38	A	38:A	_
+35	des	der	DET	ART	_	36	R	36:R	_
+36	Himmels	Himmel	NOUN	NN	_	34	E	34:E	_
+37	zu	zu	PART	NN	_	38	F	38:F	_
+38	verwechseln	verwechseln	VERB	VVINF	_	24	E	24:E	_
+39	ist	sein	AUX	VVFIN	_	38	D	38:D	_
+40	.	.	PUNCT	$.	_	38	U	38:U	_
+

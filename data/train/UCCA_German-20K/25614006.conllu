@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25614006
+# text = Dieses Korallen grab ist eine ruhige Gruft , und gebe der Himmel , dass ich mit meinen Gefährten nie ein anderes bekomme !
+1	Dieses	dies	PRON	PDAT	_	3	E	3:E	_
+2	Korallen	Koralle	NOUN	NE	_	3	E	3:E	_
+3	grab	greben	VERB	ADV	_	4	A	4:A	_
+4	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+5	eine	ein	DET	ART	_	7	E	7:E	_
+6	ruhige	ruhig	ADJ	ADV	_	7	E	7:E	_
+7	Gruft	Gruft	NOUN	NE	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	gebe	geben	VERB	VVFIN	_	4	H	4:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Himmel	Himmel	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+15	ich	ich	PRON	PPER	_	22	A	22:A	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	meinen	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Gefährten	Gefährt|Gefährte	NOUN	NE	_	22	A	22:A	_
+19	nie	nie	ADV	ADV	_	22	D	22:D	_
+20	ein	ein	DET	ART	_	21	E	21:E	_
+21	anderes	ander	ADJ	PIS	_	22	A	22:A	_
+22	bekomme	bekommen	NOUN	VVFIN	_	10	A	10:A	_
+23	!	!	PUNCT	$.	_	22	U	22:U	_
+

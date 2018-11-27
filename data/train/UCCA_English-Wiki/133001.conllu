@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 133001
+# text = The idea for the film was proposed to her by Garson Kanin in 1941 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	idea	idea	NOUN	NN	_	7	A	7:A	_
+3	for	for	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	film	film	NOUN	NN	_	2	E	2:E	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	proposed	propose	VERB	VBN	_	0	H	0:H	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	her	she	PRON	PRP	_	7	A	7:A	_
+10	by	by	ADP	IN	_	11	R	11:R	_
+11	Garson	Garson	PROPN	NNP	_	7	A	7:A	_
+12	Kanin	Kanin	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	1941	1941	NUM	CD	_	7	D	7:D	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

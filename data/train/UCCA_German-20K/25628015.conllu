@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25628015
+# text = Wir waren darauf angewiesen , sie im Flug zu schießen , wobei wir wenig Aussicht hatten , sie zu , treffen .
+1	Wir	wir	PRON	NE	_	4	A	4:A|10:A	_
+2	waren	sein	AUX	VAFIN	_	4	F	4:F	_
+3	darauf	darauf	ADV	PAV	_	4	F	4:F	_
+4	angewiesen	angewiesen	ADJ	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	sie	sie	PRON	ADV	_	10	A	10:A	_
+7	im	im	ADJ	NE	_	8	R	8:R	_
+8	Flug	Flug	NOUN	NE	_	10	A	10:A	_
+9	zu	zu	PART	NE	_	10	F	10:F	_
+10	schießen	schießen	VERB	VVINF	_	4	A	4:A	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	wobei	wobei	SCONJ	NN	_	4	L	4:L	_
+13	wir	wir	PRON	NE	_	21	A	21:A	_
+14	wenig	wenig	PRON	ADJA	_	21	D	21:D	_
+15	Aussicht	Aussicht	NOUN	NN	_	21	D	21:D	_
+16	hatten	haben	VERB	VAFIN	_	21	F	21:F	_
+17	,	,	PUNCT	$,	_	21	U	21:U	_
+18	sie	sie	PRON	ADV	_	21	A	21:A	_
+19	zu	zu	ADP	NE	_	21	F	21:F	_
+20	,	,	PUNCT	$,	_	21	U	21:U	_
+21	treffen	treffen	VERB	VVFIN	_	4	H	4:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

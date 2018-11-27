@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25597017
+# text = Sein Fell , oben braun und unten silberfarben , bildet einen der geschätztesten und gesuchtesten Artikel auf dem russischen und chinesischen Pelz markt , der mindestens 2.000 Franc gilt .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Fell	Fell	NOUN	NN	_	10	A	10:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	oben	oben	ADV	NN	_	5	E	5:E	_
+5	braun	braun	ADJ	NE	_	2	E	2:E	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	unten	unten	ADV	NE	_	8	E	8:E	_
+8	silberfarben	silberfarben	VERB	NE	_	5	C	5:C	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	bildet	bilden	VERB	VVFIN	_	0	H	0:H	_
+11	einen	ein	PRON	PIS	_	16	E	16:E	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	geschätztesten	geschätzte	ADJ	NN	_	16	E	16:E	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	gesuchtesten	gesuchte	ADJ	NN	_	13	C	13:C	_
+16	Artikel	Artikel	NOUN	NN	_	10	A	10:A	_
+17	auf	auf	ADP	APPR	_	23	R	23:R	_
+18	dem	der	DET	ART	_	23	E	23:E	_
+19	russischen	russisch	ADJ	ADJA	_	23	E	23:E	_
+20	und	und	CCONJ	NN	_	19	N	19:N	_
+21	chinesischen	chinesisch	ADJ	ADJA	_	19	C	19:C	_
+22	Pelz	Pelz	NOUN	NE	_	23	E	23:E	_
+23	markt	markt	ADJ	NE	_	10	A	10:A	_
+24	,	,	PUNCT	$,	_	10	U	10:U	_
+25	der	der	PRON	PRELS	_	29	R	29:R	_
+26	mindestens	mindestens	ADV	ADV	_	29	D	29:D	_
+27	2.000	2.0	NUM	CARD	_	28	E	28:E	_
+28	Franc	Franc	NOUN	NN	_	29	A	29:A	_
+29	gilt	gelten	VERB	VVFIN	_	16	E	16:E	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

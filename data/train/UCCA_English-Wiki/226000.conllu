@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 226000
+# text = In 1988 Chan starred alongside Sammo Hung and Yuen Biao for the last time to date , in the film Dragons Forever .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1988	1988	NUM	CD	_	4	D	4:D	_
+3	Chan	Chan	PROPN	NNP	_	4	A	4:A	_
+4	starred	star	VERB	VBD	_	0	H	0:H	_
+5	alongside	alongside	ADP	IN	_	6	R	6:R	_
+6	Sammo	Sammo	PROPN	NNP	_	4	A	4:A	_
+7	Hung	hung	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	and	and	CCONJ	CC	_	6	N	6:N	_
+9	Yuen	Yuen	PROPN	NNP	_	6	C	6:C	_
+10	Biao	Biao	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	for	for	ADP	IN	_	14	R	14:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	last	last	ADJ	JJ	_	14	E	14:E	_
+14	time	time	NOUN	NN	_	4	D	4:D	_
+15	to	to	ADP	IN	_	16	R	16:R	_
+16	date	date	NOUN	NN	_	14	E	14:E	_
+17	,	,	PUNCT	,	_	4	U	4:U	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	film	film	NOUN	NN	_	21	E	21:E	_
+21	Dragons	dragons	PROPN	NNPS	_	4	A	4:A	_
+22	Forever	forever	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

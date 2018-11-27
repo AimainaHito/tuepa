@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 633008
+# text = Lennon , McCartney , Harrison and Sutcliffe became " The Beatles " in early 1960 .
+1	Lennon	Lennon	PROPN	NNP	_	8	A	8:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	McCartney	McCartney	PROPN	NNP	_	1	C	1:C	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	Harrison	Harrison	PROPN	NNP	_	1	C	1:C	_
+6	and	and	CCONJ	CC	_	1	N	1:N	_
+7	Sutcliffe	Sutcliffe	PROPN	NNP	_	1	C	1:C	_
+8	became	become	VERB	VBD	_	0	H	0:H	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	The	the	DET	DT	_	11	E	11:E	_
+11	Beatles	Beatles	PROPN	NNPS	_	8	A	8:A	_
+12	"	"	PUNCT	''	_	8	U	8:U	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	early	early	ADJ	JJ	_	15	E	15:E	_
+15	1960	1960	NUM	CD	_	8	D	8:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

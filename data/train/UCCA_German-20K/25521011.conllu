@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25521011
+# text = Diesen Ozean sollte ich unter den seltsamsten Bedingungen zuerst durchfahren .
+1	Diesen	dies	PRON	PDAT	_	2	E	2:E	_
+2	Ozean	Ozean	NOUN	NE	_	10	A	10:A	_
+3	sollte	sollen	AUX	VMFIN	_	10	D	10:D	_
+4	ich	ich	PRON	PPER	_	10	A	10:A	_
+5	unter	unter	ADP	ADJD	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	seltsamsten	seltsam	ADJ	NN	_	8	E	8:E	_
+8	Bedingungen	Bedingung	NOUN	NN	_	10	A	10:A	_
+9	zuerst	zuerst	ADV	FM	_	10	D	10:D	_
+10	durchfahren	durchfahren	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

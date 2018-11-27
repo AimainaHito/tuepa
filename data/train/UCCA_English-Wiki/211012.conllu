@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 211012
+# text = A political liberal , Hoffman has long supported the Democratic Party and Ralph Nader .
+1	A	a	DET	DT	_	3	E	3:E	_
+2	political	political	ADJ	JJ	_	3	E	3:E	_
+3	liberal	liberal	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Hoffman	Hoffman	PROPN	NNP	_	8	A	8:A	_
+6	has	have	AUX	VBZ	_	8	F	8:F	_
+7	long	long	ADV	RB	_	8	D	8:D	_
+8	supported	support	VERB	VBN	_	0	H	0:H	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	Democratic	Democratic	PROPN	NNP	_	11	E	11:E	_
+11	Party	Party	PROPN	NNP	_	8	A	8:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	Ralph	Ralph	PROPN	NNP	_	11	C	11:C	_
+14	Nader	Nader	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25486010
+# text = Vielleicht schlief er vor Ermüdung und wiegte sich auf den Wogen ?
+1	Vielleicht	vielleicht	ADV	ADV	_	2	G	2:G	_
+2	schlief	schlafen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|7:A|5:A	_
+4	vor	vor	ADP	NN	_	5	R	5:R	_
+5	Ermüdung	Ermüdung	NOUN	NE	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	wiegte	wiegt	VERB	VVFIN	_	2	H	2:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Wogen	Woge	NOUN	NN	_	7	A	7:A	_
+12	?	?	PUNCT	$.	_	11	U	11:U	_
+

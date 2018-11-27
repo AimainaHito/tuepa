@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25530006
+# text = Plötzlich wurde 's wieder hell im Salon .
+1	Plötzlich	plötzlich	ADJ	ADJD	_	5	D	5:D	_
+2	wurde	werden	AUX	TRUNC	_	5	F	5:F	_
+3	's	es	PRON	ART	_	5	F	5:F	_
+4	wieder	wieder	ADV	NE	_	5	D	5:D	_
+5	hell	hell	ADV	ADJD	_	0	H	0:H	_
+6	im	im	ADJ	NE	_	7	R	7:R	_
+7	Salon	Salon	NOUN	NE	_	5	A	5:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

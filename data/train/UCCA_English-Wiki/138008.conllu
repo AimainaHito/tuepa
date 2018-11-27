@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 138008
+# text = After two years away from the screen , she starred in a film adaptation of Tennessee Williams ' controversial play Suddenly , Last Summer ( 1959 ) with Elizabeth Taylor and Montgomery Clift .
+1	After	after	ADP	IN	_	4	L	4:L	_
+2	two	two	NUM	CD	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	4	D	4:D	_
+4	away	away	ADV	RB	_	0	H	0:H	_
+5	from	from	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	screen	screen	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	she	she	PRON	PRP	_	10	A	10:A|4:A	_
+10	starred	star	VERB	VBD	_	4	H	4:H	_
+11	in	in	ADP	IN	_	21	R	21:R	_
+12	a	a	DET	DT	_	21	E	21:E	_
+13	film	film	NOUN	NN	_	14	E	14:E	_
+14	adaptation	adaptation	NOUN	NN	_	21	E	21:E	_
+15	of	of	ADP	IN	_	14	R	14:R	_
+16	Tennessee	Tennessee	PROPN	NNP	_	20	E	20:E	_
+17	Williams	Williams	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	'	's	PART	POS	_	20	U	20:U	_
+19	controversial	controversial	ADJ	JJ	_	20	E	20:E	_
+20	play	play	NOUN	NN	_	14	E	14:E	_
+21	Suddenly	suddenly	ADV	RB	_	10	A	10:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	Last	last	ADJ	JJ	_	21	Terminal	21:Terminal	_
+24	Summer	summer	NOUN	NN	_	21	Terminal	21:Terminal	_
+25	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+26	1959	1959	NUM	CD	_	21	E	21:E	_
+27	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+28	with	with	ADP	IN	_	29	R	29:R	_
+29	Elizabeth	Elizabeth	PROPN	NNP	_	21	E	21:E	_
+30	Taylor	Taylor	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	and	and	CCONJ	CC	_	29	N	29:N	_
+32	Montgomery	Montgomery	PROPN	NNP	_	29	C	29:C	_
+33	Clift	Clift	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	.	.	PUNCT	.	_	29	U	29:U	_
+

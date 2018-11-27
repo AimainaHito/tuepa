@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25632016
+# text = Ned Land wollte seine Vorräte nicht im Stich lassen , nahm trotz der drohenden Gefahr sein Schwein und seine Känguruhs mit und schleppte sie ziemlich rasch fort .
+1	Ned	Ned	PROPN	NE	_	7	A	7:A|23:A|11:A	_
+2	Land	Land	PROPN	NN	_	1	Terminal	1:Terminal	_
+3	wollte	wollen	AUX	VMFIN	_	7	D	7:D	_
+4	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Vorräte	Vorrat	NOUN	NN	_	7	A	7:A	_
+6	nicht	nicht	PART	CARD	_	7	D	7:D	_
+7	im	im	ADJ	NE	_	0	H	0:H	_
+8	Stich	Stich	NOUN	NE	_	7	Terminal	7:Terminal	_
+9	lassen	lassen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	nahm	nehmen	VERB	VVFIN	_	7	H	7:H	_
+12	trotz	trotz	ADP	APPR	_	15	R	15:R	_
+13	der	der	DET	ART	_	15	R	15:R	_
+14	drohenden	drohend	ADJ	ADJA	_	15	E	15:E	_
+15	Gefahr	Gefahr	NOUN	NN	_	11	A	11:A	_
+16	sein	sein	DET	VAINF	_	17	E	17:E	_
+17	Schwein	Schwein	NOUN	NE	_	11	A	11:A	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	seine	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Känguruhs	Känguruh	NOUN	NN	_	17	C	17:C	_
+21	mit	mit	ADP	PTKVZ	_	11	Terminal	11:Terminal	_
+22	und	und	CCONJ	NN	_	7	L	7:L	_
+23	schleppte	schleppen	VERB	VVFIN	_	7	H	7:H	_
+24	sie	sie	PRON	ADV	_	23	A	23:A	_
+25	ziemlich	ziemlich	ADV	ADV	_	26	E	26:E	_
+26	rasch	rasch	ADJ	ADJD	_	23	D	23:D	_
+27	fort	fort	ADV	PTKVZ	_	23	Terminal	23:Terminal	_
+28	.	.	PUNCT	$.	_	23	U	23:U	_
+

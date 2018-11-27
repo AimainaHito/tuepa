@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25494006
+# text = Diese Frage setzte mich in Verlegenheit , denn gewiß hätte Kommandant Farragut kein Bedenken getragen es zu tun .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Frage	Frage	NOUN	NN	_	3	A	3:A	_
+3	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PRF	_	3	A	3:A	_
+5	in	in	ADP	APPR	_	3	Terminal	3:Terminal	_
+6	Verlegenheit	Verlegenheit	NOUN	NN	_	3	Terminal	3:Terminal	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	denn	denn	CCONJ	KON	_	3	L	3:L	_
+9	gewiß	gewiß	ADP	ADJD	_	18	G	18:G	_
+10	hätte	hätt	ADJ	VAFIN	_	18	F	18:F	_
+11	Kommandant	Kommandant	NOUN	NN	_	12	E	12:E	_
+12	Farragut	Farragut	NOUN	NE	_	18	A	18:A	_
+13	kein	kein	PRON	PIAT	_	18	D	18:D	_
+14	Bedenken	Bedenken	NOUN	NN	_	18	D	18:D	_
+15	getragen	getragen	VERB	VVPP	_	14	Terminal	14:Terminal	_
+16	es	es	PRON	PPER	_	18	A	18:A	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	tun	tun	VERB	VVINF	_	3	H	3:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

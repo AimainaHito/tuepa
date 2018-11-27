@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25791012
+# text = Gegen Abend war unser Graben abermals um einen Meter tiefer geworden .
+1	Gegen	gegen	ADP	APPR	_	2	R	2:R	_
+2	Abend	Abend	NOUN	NN	_	10	D	10:D	_
+3	war	sein	AUX	NE	_	10	F	10:F	_
+4	unser	unser	DET	FM	_	5	E	5:E	_
+5	Graben	Graben	NOUN	NN	_	10	A	10:A	_
+6	abermals	abermals	ADV	ADV	_	10	D	10:D	_
+7	um	um	ADP	APPR	_	9	R	9:R	_
+8	einen	ein	DET	ART	_	9	E	9:E	_
+9	Meter	Meter	NOUN	NN	_	10	A	10:A	_
+10	tiefer	tief	ADJ	ADJD	_	0	H	0:H	_
+11	geworden	werden	AUX	PAV	_	10	F	10:F	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

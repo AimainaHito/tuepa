@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25615014
+# text = Das Fahrzeug , worauf Cook sich befand , stieß auf einen Felsen , und dass es nicht untersank , war dem Umstand zu verdanken , dass das durch den Stoß losgetrennte Korallen stück in dem Leck des Rumpfs steckenblieb .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Fahrzeug	Fahrzeug	NOUN	NN	_	9	A	9:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	worauf	worauf	SCONJ	PWAV	_	6	R	6:R	_
+5	Cook	Cook	PROPN	NE	_	6	A	6:A	_
+6	sich	er|es|sie	PRON	PRF	_	2	E	2:E	_
+7	befand	befinden	VERB	VVFIN	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	stieß	stoßen	VERB	VVFIN	_	0	H	0:H	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	einen	ein	DET	ART	_	12	E	12:E	_
+12	Felsen	Felsen	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	und	und	CCONJ	NE	_	9	L	9:L	_
+15	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+16	es	es	PRON	PPER	_	18	A	18:A	_
+17	nicht	nicht	PART	CARD	_	18	D	18:D	_
+18	untersank	untersank	ADP	VVFIN	_	24	A	24:A	_
+19	,	,	PUNCT	$,	_	24	U	24:U	_
+20	war	sein	AUX	ADV	_	24	D	24:D	_
+21	dem	der	DET	ART	_	22	E	22:E	_
+22	Umstand	Umstand	NOUN	NN	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	verdanken	verdanken	VERB	VVINF	_	9	H	9:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	dass	dass	SCONJ	KOUS	_	39	R	39:R	_
+27	das	der	DET	ART	_	33	E	33:E	_
+28	durch	durch	ADP	APPR	_	31	R	31:R	_
+29	den	der	DET	ART	_	30	E	30:E	_
+30	Stoß	Stoß	NOUN	NN	_	31	A	31:A	_
+31	losgetrennte	losgetrennen	VERB	VVFIN	_	33	E	33:E	_
+32	Korallen	Korallen	PROPN	NE	_	33	E	33:E	_
+33	stück	stück	CCONJ	NE	_	39	A	39:A	_
+34	in	in	ADP	APPR	_	36	R	36:R	_
+35	dem	der	DET	ART	_	36	E	36:E	_
+36	Leck	Leck	NOUN	NN	_	39	A	39:A	_
+37	des	der	DET	ART	_	38	R	38:R	_
+38	Rumpfs	Rumpf	NOUN	NN	_	36	E	36:E	_
+39	steckenblieb	steckenbleiben	VERB	VVFIN	_	22	E	22:E	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

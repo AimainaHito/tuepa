@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 525006
+# text = Garland , who had aborted her pregnancy by him in 1942 , agreed to a trial separation in January 1943 , and they divorced in 1944 .
+1	Garland	Garland	PROPN	NNP	_	13	A	13:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	who	who	PRON	WP	_	5	R	5:R	_
+4	had	have	AUX	VBD	_	5	F	5:F	_
+5	aborted	abort	VERB	VBN	_	1	E	1:E	_
+6	her	she	PRON	PRP$	_	7	E	7:E	_
+7	pregnancy	pregnancy	NOUN	NN	_	5	A	5:A	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	him	he	PRON	PRP	_	7	A	7:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1942	1942	NUM	CD	_	5	D	5:D	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	agreed	agree	VERB	VBD	_	0	H	0:H	_
+14	to	to	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	trial	trial	NOUN	NN	_	17	E	17:E	_
+17	separation	separation	NOUN	NN	_	13	A	13:A	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	January	January	PROPN	NNP	_	13	D	13:D	_
+20	1943	1943	NUM	CD	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	13	U	13:U	_
+22	and	and	CCONJ	CC	_	13	L	13:L	_
+23	they	they	PRON	PRP	_	24	A	24:A	_
+24	divorced	divorce	VERB	VBD	_	13	H	13:H	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	1944	1944	NUM	CD	_	24	D	24:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 600011
+# text = McCartney wrote his first song , " I Lost My Little Girl " , on the Zenith , and composed another early tune that would become " When I 'm Sixty - Four " on the piano .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A|20:A	_
+2	wrote	write	VERB	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	song	song	NOUN	NN	_	8	E	8:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	"	"	PUNCT	''	_	8	U	8:U	_
+8	I	I	PRON	PRP	_	2	A	2:A	_
+9	Lost	lose	VERB	VBD	_	8	Terminal	8:Terminal	_
+10	My	my	PRON	PRP$	_	8	Terminal	8:Terminal	_
+11	Little	little	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	Girl	girl	PROPN	NNP	_	8	Terminal	8:Terminal	_
+13	"	"	PUNCT	''	_	2	U	2:U	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	on	on	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	Zenith	Zenith	PROPN	NNP	_	2	A	2:A	_
+18	,	,	PUNCT	,	_	2	U	2:U	_
+19	and	and	CCONJ	CC	_	2	L	2:L	_
+20	composed	compose	VERB	VBD	_	2	H	2:H	_
+21	another	another	DET	DT	_	23	E	23:E	_
+22	early	early	ADJ	JJ	_	23	E	23:E	_
+23	tune	tune	NOUN	NN	_	20	A	20:A	_
+24	that	that	PRON	WDT	_	26	F	26:F	_
+25	would	would	AUX	MD	_	26	F	26:F	_
+26	become	become	VERB	VB	_	23	E	23:E	_
+27	"	"	PUNCT	``	_	26	U	26:U	_
+28	When	when	ADV	WRB	_	26	A	26:A	_
+29	I	I	PRON	PRP	_	28	Terminal	28:Terminal	_
+30	'm	be	AUX	VBP	_	28	Terminal	28:Terminal	_
+31	Sixty	sixty	ADJ	JJ	_	28	Terminal	28:Terminal	_
+32	-	-	PUNCT	HYPH	_	28	U	28:U	_
+33	Four	Four	NOUN	NN	_	28	Terminal	28:Terminal	_
+34	"	"	PUNCT	''	_	20	U	20:U	_
+35	on	on	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	piano	piano	NOUN	NN	_	20	A	20:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

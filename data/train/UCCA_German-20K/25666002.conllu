@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25666002
+# text = Aber wird sich eine solche Gelegenheit jemals ergeben ?
+1	Aber	aber	ADV	KON	_	3	L	3:L	_
+2	wird	werden	AUX	VAFIN	_	3	F	3:F	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	solche	solch	PRON	ADJA	_	6	E	6:E	_
+6	Gelegenheit	Gelegenheit	NOUN	NN	_	3	A	3:A	_
+7	jemals	jemals	ADV	ADV	_	3	D	3:D	_
+8	ergeben	ergeben	VERB	VVPP	_	3	Terminal	3:Terminal	_
+9	?	?	PUNCT	$.	_	3	U	3:U	_
+

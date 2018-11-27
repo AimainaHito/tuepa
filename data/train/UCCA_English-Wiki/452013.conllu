@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 452013
+# text = That summer , Jennings married for the second time , to Anouchka Malouf , a Lebanese photographer .
+1	That	that	DET	DT	_	2	E	2:E	_
+2	summer	summer	NOUN	NN	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Jennings	Jennings	PROPN	NNP	_	5	A	5:A	_
+5	married	marry	VERB	VBD	_	0	H	0:H	_
+6	for	for	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	second	second	ADJ	JJ	_	9	E	9:E	_
+9	time	time	NOUN	NN	_	5	D	5:D	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	to	to	ADP	IN	_	12	R	12:R	_
+12	Anouchka	Anouchka	PROPN	NNP	_	5	A	5:A	_
+13	Malouf	Malouf	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	Lebanese	lebanese	ADJ	JJ	_	17	E	17:E	_
+17	photographer	photographer	NOUN	NN	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

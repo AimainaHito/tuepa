@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25771023
+# text = Das Dasein dieses Landes schien für die Hypothesen Maurys einen Beleg zu geben .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Dasein	Dasein	NOUN	PPOSAT	_	0	C	0:C|11:A	_
+3	dieses	dies	PRON	PDAT	_	4	R	4:R	_
+4	Landes	Land	NOUN	NN	_	2	A	2:A	_
+5	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+6	für	für	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Hypothesen	Hypothese	NOUN	NN	_	5	A	5:A	_
+9	Maurys	Maurys	PROPN	NE	_	8	E	8:E	_
+10	einen	ein	DET	ART	_	11	E	11:E	_
+11	Beleg	Beleg	NOUN	NN	_	5	A	5:A	_
+12	zu	zu	PART	VVINF	_	11	F	11:F	_
+13	geben	geben	VERB	VVINF	_	11	F	11:F	_
+14	.	.	PUNCT	$.	_	11	U	11:U	_
+

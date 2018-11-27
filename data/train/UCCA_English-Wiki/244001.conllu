@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 244001
+# text = The two relocated several times before settling in New York , where Hawke attended the Packer Collegiate Institute in Brooklyn Heights .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	two	two	NUM	CD	_	0	C	0:C|7:A	_
+3	relocated	relocate	VERB	VBD	_	0	H	0:H	_
+4	several	several	ADJ	JJ	_	5	E	5:E	_
+5	times	time	NOUN	NNS	_	3	D	3:D	_
+6	before	before	SCONJ	IN	_	3	L	3:L	_
+7	settling	settl	VERB	VBG	_	3	H	3:H	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	New	New	PROPN	NNP	_	7	A	7:A	_
+10	York	York	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	where	where	ADV	WRB	_	14	F	14:F	_
+13	Hawke	Hawke	PROPN	NNP	_	14	A	14:A	_
+14	attended	attend	VERB	VBD	_	9	E	9:E	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	Packer	packer	PROPN	NNP	_	18	E	18:E	_
+17	Collegiate	Collegiate	PROPN	NNP	_	18	E	18:E	_
+18	Institute	Institute	PROPN	NNP	_	14	A	14:A	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	Brooklyn	Brooklyn	PROPN	NNP	_	18	E	18:E	_
+21	Heights	Heights	PROPN	NNPS	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

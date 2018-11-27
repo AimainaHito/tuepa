@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 473007
+# text = During his retirement , Johnson has written a book on safer sex , run several businesses , worked for NBC as a commentator , and toured Asia , Australia and New Zealand with a basketball team of former college and NBA players .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	retirement	retirement	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Johnson	Johnson	PROPN	NNP	_	7	A	7:A|26:A|18:A|14:A	_
+6	has	have	AUX	VBZ	_	7	F	7:F	_
+7	written	write	VERB	VBN	_	3	H	3:H	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	book	book	NOUN	NN	_	7	A	7:A	_
+10	on	on	ADP	IN	_	12	R	12:R	_
+11	safer	safer	ADJ	JJR	_	12	E	12:E	_
+12	sex	sex	NOUN	NN	_	9	E	9:E	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	run	run	VERB	VBP	_	3	H	3:H	_
+15	several	several	ADJ	JJ	_	16	E	16:E	_
+16	businesses	business	NOUN	NNS	_	14	A	14:A	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	worked	work	VERB	VBD	_	3	H	3:H	_
+19	for	for	ADP	IN	_	20	R	20:R	_
+20	NBC	NBC	PROPN	NNP	_	18	A	18:A	_
+21	as	as	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	commentator	commentator	NOUN	NN	_	18	A	18:A	_
+24	,	,	PUNCT	,	_	3	U	3:U	_
+25	and	and	CCONJ	CC	_	3	L	3:L	_
+26	toured	toure	VERB	VBD	_	3	H	3:H	_
+27	Asia	Asia	PROPN	NNP	_	26	A	26:A	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	Australia	Australia	PROPN	NNP	_	27	C	27:C	_
+30	and	and	CCONJ	CC	_	27	N	27:N	_
+31	New	New	PROPN	NNP	_	27	C	27:C	_
+32	Zealand	Zealand	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	with	with	ADP	IN	_	36	R	36:R	_
+34	a	a	DET	DT	_	36	E	36:E	_
+35	basketball	basketball	NOUN	NN	_	36	E	36:E	_
+36	team	team	NOUN	NN	_	26	A	26:A	_
+37	of	of	ADP	IN	_	42	R	42:R	_
+38	former	former	ADJ	JJ	_	42	E	42:E	_
+39	college	college	NOUN	NN	_	42	E	42:E	_
+40	and	and	CCONJ	CC	_	39	N	39:N	_
+41	NBA	NBa	NOUN	NN	_	39	C	39:C	_
+42	players	player	NOUN	NNS	_	36	E	36:E	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25489004
+# text = Sowie sich die enge Platte über mir wieder geschlossen hatte , war ich vom tiefsten Dunkel umgeben .
+1	Sowie	sowie	SCONJ	NN	_	2	L	2:L	_
+2	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	enge	eng	ADJ	ADJA	_	5	E	5:E	_
+5	Platte	Platte	NOUN	NN	_	2	A	2:A	_
+6	über	über	ADP	NE	_	7	R	7:R	_
+7	mir	ich	PRON	PPER	_	2	A	2:A	_
+8	wieder	wieder	ADV	NE	_	2	D	2:D	_
+9	geschlossen	schließen	VERB	VVPP	_	2	Terminal	2:Terminal	_
+10	hatte	haben	AUX	VAFIN	_	2	F	2:F	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	war	sein	AUX	ADV	_	17	F	17:F	_
+13	ich	ich	PRON	PPER	_	17	A	17:A	_
+14	vom	vom	ADP	NN	_	16	R	16:R	_
+15	tiefsten	tief	ADJ	ADJA	_	16	E	16:E	_
+16	Dunkel	dunkel	NOUN	NN	_	17	A	17:A	_
+17	umgeben	umgeben	ADJ	VVPP	_	2	H	2:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

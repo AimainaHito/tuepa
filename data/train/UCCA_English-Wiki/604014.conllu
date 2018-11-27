@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 604014
+# text = Apart from some vocal contributions from Linda , McCartney is a one - man album , with Paul providing compositions , instrumentation and vocals .
+1	Apart	apart	ADV	RB	_	5	R	5:R	_
+2	from	from	ADP	IN	_	1	F	1:F	_
+3	some	some	DET	DT	_	5	E	5:E	_
+4	vocal	vocal	ADJ	JJ	_	5	E	5:E	_
+5	contributions	contribution	NOUN	NNS	_	10	A	10:A	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Linda	Linda	PROPN	NNP	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	McCartney	McCartney	PROPN	NNP	_	10	A	10:A	_
+10	is	be	AUX	VBZ	_	0	H	0:H	_
+11	a	a	DET	DT	_	15	E	15:E	_
+12	one	one	NUM	CD	_	14	E	14:E	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	man	man	NOUN	NN	_	15	E	15:E	_
+15	album	album	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	with	with	SCONJ	IN	_	19	R	19:R	_
+18	Paul	Paul	PROPN	NNP	_	19	A	19:A	_
+19	providing	provide	VERB	VBG	_	10	A	10:A	_
+20	compositions	composition	NOUN	NNS	_	19	A	19:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	instrumentation	instrumentation	NOUN	NN	_	20	C	20:C	_
+23	and	and	CCONJ	CC	_	20	N	20:N	_
+24	vocals	vocal	NOUN	NNS	_	20	C	20:C	_
+25	.	.	PUNCT	.	_	20	U	20:U	_
+

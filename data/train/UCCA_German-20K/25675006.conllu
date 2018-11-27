@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25675006
+# text = Eine noch so große Gefahr hatte für seine kampf fertige Natur stets einen Reiz .
+1	Eine	ein	DET	ART	_	5	E	5:E	_
+2	noch	noch	ADV	NN	_	4	E	4:E	_
+3	so	so	ADV	ADV	_	4	E	4:E	_
+4	große	groß	ADJ	ADJA	_	5	E	5:E	_
+5	Gefahr	Gefahr	NOUN	NN	_	14	A	14:A	_
+6	hatte	haben	AUX	VAFIN	_	14	F	14:F	_
+7	für	für	ADP	APPR	_	11	R	11:R	_
+8	seine	sein	DET	PPOSAT	_	11	E	11:E	_
+9	kampf	kampf	NOUN	ADJD	_	10	E	10:E	_
+10	fertige	fertig	ADJ	ADJA	_	11	E	11:E	_
+11	Natur	Natur	NOUN	NN	_	14	A	14:A	_
+12	stets	stets	ADV	ADV	_	14	D	14:D	_
+13	einen	ein	DET	ART	_	14	E	14:E	_
+14	Reiz	Reiz	NOUN	NN	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

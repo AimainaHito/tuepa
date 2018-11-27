@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25490105
+# text = Die blechernen Wände waren taub .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	blechernen	blechern	ADJ	NN	_	3	E	3:E	_
+3	Wände	Wand	NOUN	NN	_	5	A	5:A	_
+4	waren	sein	AUX	VAFIN	_	5	F	5:F	_
+5	taub	taub	ADJ	NE	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 461005
+# text = The occasion overwhelmed him .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	occasion	occasion	NOUN	NN	_	3	A	3:A	_
+3	overwhelmed	overwhelm	VERB	VBD	_	0	H	0:H	_
+4	him	he	PRON	PRP	_	3	A	3:A	_
+5	.	.	PUNCT	.	_	3	U	3:U	_
+

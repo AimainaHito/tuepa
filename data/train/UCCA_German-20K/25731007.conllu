@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25731007
+# text = Was es für ein Feuer war , wodurch genährt , weshalb und wie es in der Wasser masse sich wiederbelebte , hätte ich nicht sagen können .
+1	Was	was	PRON	NE	_	5	E	5:E	_
+2	es	es	PRON	PPER	_	6	A	6:A	_
+3	für	für	ADP	APPR	_	1	Terminal	1:Terminal	_
+4	ein	ein	DET	ART	_	1	Terminal	1:Terminal	_
+5	Feuer	Feuer	NOUN	NN	_	0	C	0:C|9:A	_
+6	war	sein	VERB	ADV	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	wodurch	wodurch	PRON	VVPP	_	9	A	9:A	_
+9	genährt	genähren|währen	VERB	VVPP	_	6	H	6:H	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	weshalb	weshalb	SCONJ	ADJA	_	19	A	19:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	wie	wie	ADP	KON	_	11	C	11:C	_
+14	es	es	PRON	PPER	_	19	A	19:A	_
+15	in	in	ADP	APPR	_	18	R	18:R	_
+16	der	der	DET	ART	_	18	E	18:E	_
+17	Wasser	Wasser	NOUN	NN	_	18	E	18:E	_
+18	masse	massen	VERB	NN	_	19	A	19:A	_
+19	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+20	wiederbelebte	wiederbeleben	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	$,	_	6	U	6:U	_
+22	hätte	haben	VERB	VAFIN	_	25	D	25:D	_
+23	ich	ich	PRON	PPER	_	25	A	25:A	_
+24	nicht	nicht	PART	XY	_	25	D	25:D	_
+25	sagen	sagen	VERB	VVINF	_	6	H	6:H	_
+26	können	können	AUX	VMFIN	_	25	D	25:D	_
+27	.	.	PUNCT	$.	_	25	U	25:U	_
+

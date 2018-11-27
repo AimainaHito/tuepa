@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 765003
+# text = J' oubliai tout , fatigues , amis , collections , et j' acceptai sans plus de réflexions l' offre du gouvernement américain .
+1	J'	je	PRON	_	_	2	A	2:A	_
+2	oubliai	oubli	VERB	_	_	0	H	0:H	_
+3	tout	tout	ADV	_	_	2	A	2:A	_
+4	,	,	PUNCT	_	_	3	U	3:U	_
+5	fatigues	fatigue	NOUN	_	_	3	E	3:E	_
+6	,	,	PUNCT	_	_	5	U	5:U	_
+7	amis	ami	NOUN	_	_	5	C	5:C	_
+8	,	,	PUNCT	_	_	5	U	5:U	_
+9	collections	collection	NOUN	_	_	5	C	5:C	_
+10	,	,	PUNCT	_	_	2	U	2:U	_
+11	et	et	CCONJ	_	_	2	L	2:L	_
+12	j'	je	PRON	_	_	13	A	13:A|17:A	_
+13	acceptai	accept	VERB	_	_	2	H	2:H	_
+14	sans	sans	ADP	_	_	2	L	2:L	_
+15	plus	plus	ADV	_	_	17	D	17:D	_
+16	de	de	ADP	_	_	17	E	17:E	_
+17	réflexions	réflexion	NOUN	_	_	2	H	2:H	_
+18	l'	le	PRON	_	_	19	E	19:E	_
+19	offre	offrir	VERB	_	_	13	A	13:A	_
+20	du	du	DET	_	_	21	R	21:R	_
+21	gouvernement	gouvernement	NOUN	_	_	19	E	19:E	_
+22	américain	américain	ADJ	_	_	21	E	21:E	_
+23	.	.	PUNCT	_	_	21	U	21:U	_
+

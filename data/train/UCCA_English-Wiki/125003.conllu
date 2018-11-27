@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 125003
+# text = In the spring of 1930 , Hepburn joined a stock company in Stockbridge , Massachusetts .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	spring	spring	NOUN	NN	_	8	D	8:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	1930	1930	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Hepburn	Hepburn	PROPN	NNP	_	8	A	8:A	_
+8	joined	join	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	stock	stock	NOUN	NN	_	11	E	11:E	_
+11	company	company	NOUN	NN	_	8	A	8:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Stockbridge	Stockbridge	PROPN	NNP	_	11	E	11:E	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	Massachusetts	Massachusetts	PROPN	NNPS	_	13	E	13:E	_
+16	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 457009
+# text = Some viewers of the documentary mailed bus fares to Jennings , telling him to return to Canada .
+1	Some	some	DET	DT	_	2	E	2:E	_
+2	viewers	viewer	NOUN	NNS	_	0	C	0:C|12:A	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	documentary	documentary	ADJ	JJ	_	2	E	2:E	_
+6	mailed	mail	VERB	VBN	_	0	H	0:H	_
+7	bus	bus	NOUN	NN	_	8	E	8:E	_
+8	fares	fare	NOUN	NNS	_	6	A	6:A	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	Jennings	Jenning	PROPN	NNP	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	telling	tell	VERB	VBG	_	6	H	6:H	_
+13	him	he	PRON	PRP	_	12	A	12:A|15:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	return	return	VERB	VB	_	12	A	12:A	_
+16	to	to	ADP	IN	_	17	R	17:R	_
+17	Canada	Canada	PROPN	NNP	_	15	A	15:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

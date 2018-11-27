@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25757000
+# text = » Das ist auch meine Meinung « , sagte Conseil , » und ich bin begierig , was mein Herr darauf antworten wird . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	PDS	_	3	A	3:A	_
+3	ist	sein	AUX	VVFIN	_	9	A	9:A	_
+4	auch	auch	ADV	ADV	_	3	D	3:D	_
+5	meine	mein	DET	PPOSAT	_	6	E	6:E	_
+6	Meinung	Meinung	NOUN	NN	_	3	A	3:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	PROPN	NE	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	ich	ich	PRON	PPER	_	16	A	16:A	_
+15	bin	sein	AUX	VAFIN	_	16	F	16:F	_
+16	begierig	begierig	ADJ	ADJD	_	3	H	3:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	was	was	PRON	NE	_	22	A	22:A	_
+19	mein	mein	PRON	PPOSAT	_	20	E	20:E	_
+20	Herr	Herr	NOUN	NN	_	22	A	22:A	_
+21	darauf	darauf	ADV	PAV	_	22	A	22:A	_
+22	antworten	antworten	VERB	VVINF	_	16	A	16:A	_
+23	wird	werden	AUX	VAFIN	_	22	F	22:F	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+25	«	«	PUNCT	$(	_	22	U	22:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 604003
+# text = The tension grew while recording The Beatles , commonly known as the White Album .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	tension	tension	NOUN	NN	_	3	A	3:A	_
+3	grew	grow	VERB	VBD	_	0	H	0:H	_
+4	while	while	SCONJ	IN	_	3	L	3:L	_
+5	recording	record	VERB	VBG	_	3	H	3:H	_
+6	The	the	DET	DT	_	5	A	5:A	_
+7	Beatles	Beatles	PROPN	NNPS	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	commonly	commonly	ADV	RB	_	10	D	10:D	_
+10	known	know	VERB	VBN	_	6	E	6:E	_
+11	as	as	ADP	IN	_	12	R	12:R	_
+12	the	the	DET	DT	_	10	A	10:A	_
+13	White	White	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Album	Album	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	.	_	12	U	12:U	_
+

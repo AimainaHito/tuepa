@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25630002
+# text = Er war 3 Dezimeter lang , sein Kopf verhältnismäßig klein , seine Augen ebenfalls klein nächst der Öffnung des Schnabels .
+1	Er	er	PRON	PPER	_	5	A	5:A	_
+2	war	sein	AUX	ADV	_	5	F	5:F	_
+3	3	3	NUM	CARD	_	4	E	4:E	_
+4	Dezimeter	Dezimeter	NOUN	NN	_	5	A	5:A	_
+5	lang	lang	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	sein	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Kopf	Kopf	NOUN	NN	_	10	A	10:A	_
+9	verhältnismäßig	verhältnismäßig	ADJ	ADJD	_	10	D	10:D	_
+10	klein	klein	ADJ	ADJD	_	5	H	5:H	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	seine	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Augen	Auge	NOUN	NN	_	15	A	15:A	_
+14	ebenfalls	ebenfalls	ADV	ADV	_	15	D	15:D	_
+15	klein	klein	ADJ	ADJD	_	5	H	5:H	_
+16	nächst	hocnächst	ADV	ADV	_	18	E	18:E	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Öffnung	Öffnung	NOUN	NN	_	15	A	15:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Schnabels	Schnabel	NOUN	NN	_	18	E	18:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

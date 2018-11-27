@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25708026
+# text = » Aber da mein Herr es versichert « , sagte Conseil zu ihm , » so muß man ihm glauben . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+3	da	da	SCONJ	KOUS	_	7	L	7:L	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	7	A	7:A	_
+6	es	es	PRON	PPER	_	7	A	7:A	_
+7	versichert	versichern	VERB	VVFIN	_	10	A	10:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+11	Conseil	Conseil	PROPN	NE	_	10	A	10:A	_
+12	zu	zu	ADP	VVINF	_	13	R	13:R	_
+13	ihm	er	PRON	PPER	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	»	»	PUNCT	$(	_	10	U	10:U	_
+16	so	so	ADV	ADV	_	7	L	7:L	_
+17	muß	müssen	AUX	VMFIN	_	20	D	20:D	_
+18	man	man	PRON	PIS	_	20	A	20:A	_
+19	ihm	er	PRON	PPER	_	20	A	20:A	_
+20	glauben	glauben	VERB	VVINF	_	7	H	7:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

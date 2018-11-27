@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25623004
+# text = » Ei ! Ned ! « rief Conseil .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ei	Ei	NOUN	NN	_	7	A	7:A	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	rief	rief	ADJ	VVFIN	_	0	H	0:H	_
+8	Conseil	Conseil	NOUN	NE	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

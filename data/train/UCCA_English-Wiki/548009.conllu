@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 548009
+# text = By the mid - 1960s , most of the film moguls from the Golden Age of Hollywood had died , and Warner was regarded as one of the last of a dying breed .
+1	By	by	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	mid	mid	X	AFX	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	1960s	1960	NOUN	NNS	_	19	D	19:D	_
+6	,	,	PUNCT	,	_	19	U	19:U	_
+7	most	most	ADJ	JJS	_	11	E	11:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	moguls	mogul	NOUN	NNS	_	19	A	19:A	_
+12	from	from	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	Golden	golden	PROPN	NNP	_	15	E	15:E	_
+15	Age	age	PROPN	NNP	_	11	E	11:E	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	Hollywood	Hollywood	PROPN	NNP	_	15	E	15:E	_
+18	had	have	AUX	VBD	_	19	F	19:F	_
+19	died	die	VERB	VBN	_	0	H	0:H	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	and	and	CCONJ	CC	_	19	L	19:L	_
+22	Warner	Warner	PROPN	NNP	_	24	A	24:A	_
+23	was	be	AUX	VBD	_	24	F	24:F	_
+24	regarded	regard	VERB	VBN	_	19	H	19:H	_
+25	as	as	ADP	IN	_	33	R	33:R	_
+26	one	one	NUM	CD	_	29	E	29:E	_
+27	of	of	ADP	IN	_	26	R	26:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	last	last	ADJ	JJ	_	33	E	33:E	_
+30	of	of	ADP	IN	_	29	R	29:R	_
+31	a	a	DET	DT	_	33	E	33:E	_
+32	dying	die	VERB	VBG	_	33	E	33:E	_
+33	breed	breed	NOUN	NN	_	24	A	24:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

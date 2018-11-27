@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25744020
+# text = Auf den Abhängen gab ' s auch hübsche fette Trappen , die so schnell , als ihre Läufe sie trugen , davoneilten .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	den	der	DET	ART	_	3	E	3:E	_
+3	Abhängen	Abhang|Abhängen	NOUN	NN	_	4	A	4:A	_
+4	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+5	'	'	PUNCT	$,	_	4	U	4:U	_
+6	s	s	ADV	ADJD	_	4	F	4:F	_
+7	auch	auch	ADV	ADV	_	4	D	4:D	_
+8	hübsche	hübsch	ADJ	ADJA	_	10	E	10:E	_
+9	fette	fette	ADJ	ADJA	_	10	E	10:E	_
+10	Trappen	Trappe	NOUN	NN	_	4	A	4:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	PRON	PRELS	_	22	R	22:R	_
+13	so	so	ADV	ADV	_	22	F	22:F	_
+14	schnell	schnell	ADJ	NN	_	22	D	22:D	_
+15	,	,	PUNCT	$,	_	10	U	10:U	_
+16	als	als	SCONJ	KOUS	_	20	R	20:R	_
+17	ihre	ihr	DET	PPOSAT	_	18	E	18:E	_
+18	Läufe	Lauf	NOUN	NN	_	20	A	20:A	_
+19	sie	sie	PRON	ADV	_	20	A	20:A	_
+20	trugen	tragen	VERB	VVFIN	_	10	E	10:E	_
+21	,	,	PUNCT	$,	_	10	U	10:U	_
+22	davoneilten	davoneilten	VERB	VVFIN	_	10	E	10:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

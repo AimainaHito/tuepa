@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25792010
+# text = Wir begaben uns an Bord ; ich legte meinen Skaphander ab und begleitete ihn in den Salon .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	begaben	begeben	VERB	VVINF	_	0	H	0:H	_
+3	uns	wir	PRON	NE	_	2	Terminal	2:Terminal	_
+4	an	an	ADP	APPR	_	5	R	5:R	_
+5	Bord	Bord	NOUN	NN	_	2	A	2:A	_
+6	;	;	PUNCT	$.	_	2	U	2:U	_
+7	ich	ich	PRON	PPER	_	8	A	8:A|13:A	_
+8	legte	legen	VERB	VVFIN	_	2	H	2:H	_
+9	meinen	mein	PRON	PPOSAT	_	10	E	10:E	_
+10	Skaphander	Skaphander	NOUN	NN	_	8	A	8:A	_
+11	ab	ab	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	begleitete	begleiten	VERB	VVFIN	_	2	H	2:H	_
+14	ihn	er	PRON	PPER	_	13	A	13:A	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Salon	Salon	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

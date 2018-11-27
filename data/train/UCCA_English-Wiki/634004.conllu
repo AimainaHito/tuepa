@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 634004
+# text = The Lennon - McCartney songwriting partnership yielded eight of its fourteen tracks .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Lennon	Lennon	PROPN	NNP	_	6	A	6:A	_
+3	-	-	PUNCT	HYPH	_	2	U	2:U	_
+4	McCartney	McCartney	PROPN	NNP	_	2	C	2:C	_
+5	songwriting	songwriting	NOUN	NN	_	6	A	6:A	_
+6	partnership	partnership	NOUN	NN	_	7	A	7:A	_
+7	yielded	yield	VERB	VBD	_	0	H	0:H	_
+8	eight	eight	NUM	CD	_	12	E	12:E	_
+9	of	of	ADP	IN	_	12	R	12:R	_
+10	its	its	PRON	PRP$	_	12	E	12:E	_
+11	fourteen	fourteen	NUM	CD	_	12	E	12:E	_
+12	tracks	track	NOUN	NNS	_	7	A	7:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

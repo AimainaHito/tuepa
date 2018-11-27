@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 675018
+# text = The video was directed by photographer David LaChapelle .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	video	video	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	directed	direct	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	7	R	7:R	_
+6	photographer	photographer	NOUN	NN	_	7	E	7:E	_
+7	David	David	PROPN	NNP	_	4	A	4:A	_
+8	LaChapelle	LaChapelle	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	.	_	7	U	7:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25718007
+# text = » Ja , lieber Junge « , erwiderte ich , » er versperrt völlig die Libysche Enge , und Smiths Sondierungen haben bewiesen , dass zwischen Kap Bon und Kap Furina die Kontinente ehemals zusammenhingen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	lieber	lieber	ADP	ADV	_	5	E	5:E	_
+5	Junge	Junge	NOUN	ADJA	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	er	er	PRON	PPER	_	13	A	13:A	_
+13	versperrt	versperren	VERB	VVFIN	_	2	H	2:H	_
+14	völlig	völlig	ADJ	ADJD	_	13	D	13:D	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Libysche	Libysch	PROPN	ADJA	_	13	A	13:A	_
+17	Enge	eng	PROPN	NN	_	16	E	16:E	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	und	und	CCONJ	NE	_	2	L	2:L	_
+20	Smiths	Smith	PROPN	NE	_	23	A	23:A	_
+21	Sondierungen	Sondierung	NOUN	NE	_	20	E	20:E	_
+22	haben	haben	AUX	VAFIN	_	23	F	23:F	_
+23	bewiesen	bewiesen	VERB	VVPP	_	2	H	2:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	dass	dass	SCONJ	KOUS	_	35	R	35:R	_
+26	zwischen	zwischen	ADP	ADJA	_	28	R	28:R	_
+27	Kap	Kap	PROPN	NN	_	28	E	28:E	_
+28	Bon	Bon	PROPN	NE	_	35	A	35:A	_
+29	und	und	CCONJ	NE	_	28	N	28:N	_
+30	Kap	Kap	PROPN	NN	_	31	E	31:E	_
+31	Furina	Furina	PROPN	NN	_	28	C	28:C	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Kontinente	Kontinent	NOUN	NN	_	35	A	35:A	_
+34	ehemals	ehemals	ADV	ADV	_	35	D	35:D	_
+35	zusammenhingen	zusammenhingen	VERB	NN	_	23	A	23:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+37	«	«	PUNCT	$(	_	35	U	35:U	_
+

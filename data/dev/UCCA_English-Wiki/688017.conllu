@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 688017
+# text = In May 2012 , Dylan received the Presidential Medal of Freedom from President Barack Obama .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	May	May	PROPN	NNP	_	3	E	3:E	_
+3	2012	2012	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+6	received	receive	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	Presidential	presidential	ADJ	JJ	_	9	E	9:E	_
+9	Medal	Medal	PROPN	NNP	_	6	A	6:A	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	Freedom	freedom	PROPN	NNP	_	9	E	9:E	_
+12	from	from	ADP	IN	_	13	R	13:R	_
+13	President	President	PROPN	NNP	_	6	A	6:A	_
+14	Barack	Barack	PROPN	NNP	_	13	E	13:E	_
+15	Obama	Obama	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	13	U	13:U	_
+

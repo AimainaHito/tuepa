@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25735013
+# text = So erleuchtete der Vulkan wie eine ungeheure Fackel die darunter liegende Ebene bis zu den äußersten Grenzen des Horizonts .
+1	So	so	ADV	ADV	_	2	L	2:L	_
+2	erleuchtete	erleuchten	VERB	VVFIN	_	0	H	0:H	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Vulkan	Vulkan	NOUN	NE	_	2	A	2:A	_
+5	wie	wie	ADP	ADV	_	8	R	8:R	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	ungeheure	ungeheuer	ADJ	ADJA	_	8	E	8:E	_
+8	Fackel	Fackel	NOUN	NN	_	2	H	2:H	_
+9	die	der	DET	ART	_	12	E	12:E	_
+10	darunter	darunter	ADV	PAV	_	11	D	11:D	_
+11	liegende	liegend	ADJ	ADJA	_	12	E	12:E	_
+12	Ebene	Ebene	NOUN	NN	_	2	A	2:A	_
+13	bis	bis	ADP	APPR	_	17	R	17:R	_
+14	zu	zu	ADP	NE	_	13	Terminal	13:Terminal	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	äußersten	äußer	ADJ	ADJA	_	17	E	17:E	_
+17	Grenzen	Grenze	NOUN	NN	_	2	A	2:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Horizonts	Horizont	NOUN	NN	_	17	E	17:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

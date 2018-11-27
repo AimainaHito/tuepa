@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 663008
+# text = When tickets went on sale , Carey set records when all 150,000 tickets for her three shows at Japan 's largest stadium , Tokyo Dome , sold out in under three hours , breaking the previous record held by The Rolling Stones .
+1	When	when	ADV	WRB	_	5	L	5:L	_
+2	tickets	ticket	NOUN	NNS	_	5	A	5:A	_
+3	went	go	VERB	VBD	_	5	D	5:D	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	sale	sale	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Carey	Carey	PROPN	NNP	_	9	A	9:A	_
+8	set	set	ADJ	JJ	_	9	D	9:D	_
+9	records	record	NOUN	NNS	_	5	H	5:H	_
+10	when	when	ADV	WRB	_	5	L	5:L	_
+11	all	all	DET	DT	_	13	E	13:E	_
+12	150,000	150,000	NUM	CD	_	13	E	13:E	_
+13	tickets	ticket	NOUN	NNS	_	27	A	27:A	_
+14	for	for	ADP	IN	_	17	R	17:R	_
+15	her	she	PRON	PRP	_	17	E	17:E	_
+16	three	three	NUM	CD	_	17	E	17:E	_
+17	shows	show	NOUN	NNS	_	13	E	13:E	_
+18	at	at	ADP	IN	_	25	R	25:R	_
+19	Japan	Japan	PROPN	NNP	_	22	E	22:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	largest	largest	ADJ	JJS	_	22	E	22:E	_
+22	stadium	stadium	NOUN	NN	_	25	E	25:E	_
+23	,	,	PUNCT	,	_	25	U	25:U	_
+24	Tokyo	Tokyo	PROPN	NNP	_	25	E	25:E	_
+25	Dome	Dome	PROPN	NNP	_	17	E	17:E	_
+26	,	,	PUNCT	,	_	27	U	27:U	_
+27	sold	sell	VERB	VBD	_	5	H	5:H	_
+28	out	out	ADV	RB	_	27	Terminal	27:Terminal	_
+29	in	in	ADP	IN	_	32	R	32:R	_
+30	under	under	ADP	IN	_	32	R	32:R	_
+31	three	three	NUM	CD	_	32	E	32:E	_
+32	hours	hour	NOUN	NNS	_	27	D	27:D	_
+33	,	,	PUNCT	,	_	5	U	5:U	_
+34	breaking	break	VERB	VBG	_	5	H	5:H	_
+35	the	the	DET	DT	_	37	E	37:E	_
+36	previous	previous	ADJ	JJ	_	37	E	37:E	_
+37	record	record	NOUN	NN	_	38	A	38:A	_
+38	held	hold	VERB	VBN	_	34	A	34:A	_
+39	by	by	ADP	IN	_	38	R	38:R	_
+40	The	the	DET	DT	_	38	A	38:A	_
+41	Rolling	Rolling	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	Stones	Stones	PROPN	NNPS	_	40	Terminal	40:Terminal	_
+43	.	.	PUNCT	.	_	38	U	38:U	_
+

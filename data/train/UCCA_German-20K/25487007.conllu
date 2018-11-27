@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25487007
+# text = Wir befanden uns keine 100 Fuß von dem glühenden Brennpunkt , dessen Glanz zunahm und die Augen blendete .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NE	_	2	A	2:A	_
+4	keine	kein	PRON	PIAT	_	5	E	5:E	_
+5	100	100	NUM	CARD	_	2	A	2:A	_
+6	Fuß	Fuß	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	von	von	ADP	NN	_	10	R	10:R	_
+8	dem	der	DET	ART	_	10	E	10:E	_
+9	glühenden	glühend	ADJ	ADJA	_	10	E	10:E	_
+10	Brennpunkt	Brennpunkt	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dessen	der	DET	PRELAT	_	14	R	14:R	_
+13	Glanz	Glanz	NOUN	NN	_	14	A	14:A	_
+14	zunahm	zunehmen	VERB	VVFIN	_	10	E	10:E	_
+15	und	und	CCONJ	NE	_	18	R	18:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Augen	Auge	NOUN	NN	_	18	A	18:A	_
+18	blendete	blenden	VERB	VVFIN	_	14	A	14:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

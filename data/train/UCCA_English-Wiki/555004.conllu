@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 555004
+# text = A devotee of Mississippi Slim 's show on the Tupelo radio station WELO , Presley was described as " crazy about music " by Slim 's younger brother , a classmate of Presley ' s , who often took him into the station .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	devotee	devotee	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	7	R	7:R	_
+4	Mississippi	Mississippi	PROPN	NNP	_	7	E	7:E	_
+5	Slim	Slim	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	's	's	PART	POS	_	4	R	4:R	_
+7	show	show	NOUN	NN	_	2	A	2:A	_
+8	on	on	ADP	IN	_	13	R	13:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	Tupelo	Tupelo	PROPN	NNP	_	12	E	12:E	_
+11	radio	radio	NOUN	NN	_	12	E	12:E	_
+12	station	station	NOUN	NN	_	13	E	13:E	_
+13	WELO	WELO	PROPN	NNP	_	7	E	7:E	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	Presley	Presley	PROPN	NNP	_	17	A	17:A|20:A|2:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	described	describe	VERB	VBN	_	2	H	2:H	_
+18	as	as	ADP	IN	_	20	R	20:R	_
+19	"	"	PUNCT	``	_	20	U	20:U	_
+20	crazy	crazy	ADJ	JJ	_	17	A	17:A	_
+21	about	about	ADP	IN	_	22	R	22:R	_
+22	music	music	NOUN	NN	_	20	E	20:E	_
+23	"	"	PUNCT	''	_	17	U	17:U	_
+24	by	by	ADP	IN	_	28	R	28:R	_
+25	Slim	Slim	PROPN	NNP	_	28	E	28:E	_
+26	's	's	PART	POS	_	25	R	25:R	_
+27	younger	younger	ADJ	JJR	_	28	E	28:E	_
+28	brother	brother	NOUN	NN	_	17	A	17:A	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	classmate	classmate	NOUN	NN	_	28	E	28:E	_
+32	of	of	ADP	IN	_	33	R	33:R	_
+33	Presley	Presley	PROPN	NNP	_	31	E	31:E	_
+34	'	's	PART	POS	_	33	U	33:U	_
+35	s	's	PART	POS	_	33	R	33:R	_
+36	,	,	PUNCT	,	_	31	U	31:U	_
+37	who	who	PRON	WP	_	39	F	39:F	_
+38	often	often	ADV	RB	_	39	D	39:D	_
+39	took	take	VERB	VBD	_	31	E	31:E	_
+40	him	he	PRON	PRP	_	39	A	39:A	_
+41	into	into	ADP	IN	_	43	R	43:R	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	station	station	NOUN	NN	_	39	A	39:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

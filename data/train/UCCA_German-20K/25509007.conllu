@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25509007
+# text = » Sodium ?
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Sodium	Sodium	NOUN	NN	_	0	H	0:H	_
+3	?	?	PUNCT	$.	_	2	U	2:U	_
+

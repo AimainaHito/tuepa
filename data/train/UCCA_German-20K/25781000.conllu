@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25781000
+# text = » In wessen Namen , Kapitän ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	wessen	wessen	ADV	VVINF	_	4	E	4:E	_
+4	Namen	Name	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	4	G	4:G	_
+7	?	?	PUNCT	$.	_	4	U	4:U	_
+8	«	«	PUNCT	$(	_	4	U	4:U	_
+

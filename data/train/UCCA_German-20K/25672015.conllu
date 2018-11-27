@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25672015
+# text = Er findet sich im Nord westen unterm 9 . Breitengrad , gebildet durch einen langen Streifen des Inselchens Manaar .
+1	Er	er	PRON	PPER	_	2	A	2:A|12:A	_
+2	findet	finden	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	im	im	ADJ	NE	_	5	R	5:R	_
+5	Nord	Nord	NOUN	CARD	_	2	A	2:A	_
+6	westen	wesen	VERB	NN	_	5	C	5:C	_
+7	unterm	unterm	ADV	NN	_	8	R	8:R	_
+8	9	9	NUM	CARD	_	2	A	2:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	Breitengrad	Breitengrad	NOUN	NE	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	gebildet	bilden	VERB	VVPP	_	2	H	2:H	_
+13	durch	durch	ADP	APPR	_	19	R	19:R	_
+14	einen	ein	DET	ART	_	16	E	16:E	_
+15	langen	lang	ADJ	ADJA	_	16	E	16:E	_
+16	Streifen	Streifen	NOUN	NN	_	19	E	19:E	_
+17	des	der	DET	ART	_	19	R	19:R	_
+18	Inselchens	Inselchen	NOUN	NN	_	19	E	19:E	_
+19	Manaar	Manaar	PROPN	NE	_	12	A	12:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

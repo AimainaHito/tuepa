@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25490054
+# text = « » Nun ! Man wird sie auf die Stunde richten « , erwiderte Conseil gelassen .
+1	«	«	PUNCT	$(	_	14	U	14:U	_
+2	»	»	PUNCT	$(	_	14	U	14:U	_
+3	Nun	nun	PROPN	ADV	_	14	A	14:A	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	Man	man	PROPN	PIS	_	11	A	11:A	_
+6	wird	werden	AUX	VAFIN	_	11	F	11:F	_
+7	sie	sie	PRON	ADV	_	11	A	11:A	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Stunde	Stunde	NOUN	NN	_	11	A	11:A	_
+11	richten	richten	VERB	VVINF	_	3	H	3:H	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+15	Conseil	Conseil	NOUN	NE	_	14	A	14:A	_
+16	gelassen	lassen	VERB	ADJD	_	14	D	14:D	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

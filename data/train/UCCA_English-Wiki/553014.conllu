@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 553014
+# text = In 1973 Presley staged the first concert broadcast globally via satellite , Aloha from Hawaii .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	1973	1973	NUM	CD	_	4	D	4:D	_
+3	Presley	Presley	PROPN	NNP	_	4	A	4:A	_
+4	staged	stage	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	13	E	13:E	_
+6	first	first	ADJ	JJ	_	13	E	13:E	_
+7	concert	concert	NOUN	NN	_	13	E	13:E	_
+8	broadcast	broadcast	VERB	VBD	_	7	E	7:E	_
+9	globally	globally	ADV	RB	_	8	D	8:D	_
+10	via	via	ADP	IN	_	11	R	11:R	_
+11	satellite	satellite	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	Aloha	Aloha	PROPN	NNP	_	4	A	4:A	_
+14	from	from	ADP	IN	_	13	Terminal	13:Terminal	_
+15	Hawaii	Hawaii	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	.	.	PUNCT	.	_	13	U	13:U	_
+

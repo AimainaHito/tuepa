@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 207002
+# text = Time magazine called Hoffman " a symbol of youth " who represented " a new breed of actors .
+1	Time	time	NOUN	NN	_	2	E	2:E	_
+2	magazine	magazine	NOUN	NN	_	3	A	3:A	_
+3	called	call	VERB	VBN	_	0	H	0:H	_
+4	Hoffman	Hoffman	PROPN	NNP	_	3	A	3:A|12:A	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	symbol	symbol	NOUN	NN	_	3	A	3:A	_
+8	of	of	ADP	IN	_	9	R	9:R	_
+9	youth	youth	NOUN	NN	_	7	E	7:E	_
+10	"	"	PUNCT	''	_	7	U	7:U	_
+11	who	who	PRON	WP	_	12	F	12:F	_
+12	represented	represent	VERB	VBD	_	7	E	7:E	_
+13	"	"	PUNCT	``	_	12	U	12:U	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	new	new	ADJ	JJ	_	16	E	16:E	_
+16	breed	breed	NOUN	NN	_	12	A	12:A	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	actors	actor	NOUN	NNS	_	16	E	16:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

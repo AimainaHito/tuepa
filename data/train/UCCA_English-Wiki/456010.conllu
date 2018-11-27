@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 456010
+# text = and a subsequent 90 - minute town forum with Perot and a studio audience in June .
+1	and	and	CCONJ	CC	_	8	L	8:L	_
+2	a	a	DET	DT	_	8	E	8:E	_
+3	subsequent	subsequent	ADJ	JJ	_	8	E	8:E	_
+4	90	90	NUM	CD	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	minute	minute	NOUN	NN	_	8	E	8:E	_
+7	town	town	NOUN	NN	_	8	E	8:E	_
+8	forum	forum	NOUN	NN	_	0	H	0:H	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Perot	Perot	PROPN	NNP	_	8	E	8:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	studio	studio	NOUN	NN	_	14	E	14:E	_
+14	audience	audience	NOUN	NN	_	10	C	10:C	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	June	June	PROPN	NNP	_	8	D	8:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25685002
+# text = Sie war mit ihrem Byssus an einer Granit platte befestigt und entwickelte sich da abgesondert im ruhigen Wasser der Grotte .
+1	Sie	Sie|sie	PRON	PPER	_	10	A	10:A|12:A	_
+2	war	sein	AUX	ADV	_	10	F	10:F	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	ihrem	ihr	DET	PPOSAT	_	5	E	5:E	_
+5	Byssus	Byssus	NOUN	NN	_	10	A	10:A	_
+6	an	an	ADP	APPR	_	9	R	9:R	_
+7	einer	ein	DET	ART	_	9	E	9:E	_
+8	Granit	Granit	NOUN	NN	_	9	E	9:E	_
+9	platte	plaben	AUX	VAFIN	_	10	A	10:A	_
+10	befestigt	befestigen	VERB	VVPP	_	0	H	0:H	_
+11	und	und	CCONJ	NE	_	10	L	10:L	_
+12	entwickelte	entwickeln	VERB	VVFIN	_	10	H	10:H	_
+13	sich	er|es|sie	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	da	da	ADV	ADV	_	12	A	12:A	_
+15	abgesondert	abgesondern	VERB	CARD	_	12	D	12:D	_
+16	im	im	ADV	NN	_	18	R	18:R	_
+17	ruhigen	ruhig	ADJ	ADJA	_	18	E	18:E	_
+18	Wasser	Wasser	NOUN	NN	_	12	A	12:A	_
+19	der	der	DET	ART	_	20	R	20:R	_
+20	Grotte	Grotte	NOUN	NN	_	18	E	18:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

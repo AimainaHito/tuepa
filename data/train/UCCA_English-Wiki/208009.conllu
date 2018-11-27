@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 208009
+# text = His co - star was Jessica Lange .
+1	His	he	PRON	PRP$	_	4	E	4:E	_
+2	co	co	X	AFX	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	star	star	NOUN	NN	_	5	A	5:A	_
+5	was	be	AUX	VBD	_	0	H	0:H	_
+6	Jessica	Jessica	PROPN	NNP	_	5	A	5:A	_
+7	Lange	Lange	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	.	_	5	U	5:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25776002
+# text = Zwischen ihnen sah man auch See-Elefanten , mit kurzem und beweglichem Rüssel , die Riesen der Gattung , 10 Meter lang , mit einem Umfang von 25 Fuß .
+1	Zwischen	zwischen	ADP	ADJA	_	2	R	2:R	_
+2	ihnen	sie	PRON	PPER	_	3	A	3:A	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	man	man	PRON	PIS	_	3	A	3:A	_
+5	auch	auch	ADV	ADV	_	3	D	3:D	_
+6	See-Elefanten	See-Elefant	NOUN	NE	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	mit	mit	ADP	APPR	_	12	R	12:R	_
+9	kurzem	kurz	ADJ	ADJA	_	12	E	12:E	_
+10	und	und	CCONJ	NN	_	9	N	9:N	_
+11	beweglichem	beweglich	ADJ	ADJA	_	9	C	9:C	_
+12	Rüssel	Rüssel	NOUN	NN	_	6	E	6:E	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Riesen	Riese	NOUN	NN	_	6	E	6:E	_
+16	der	der	DET	ART	_	17	R	17:R	_
+17	Gattung	Gattung	NOUN	NN	_	15	E	15:E	_
+18	,	,	PUNCT	$,	_	6	U	6:U	_
+19	10	10	NUM	CARD	_	20	E	20:E	_
+20	Meter	Meter	NOUN	NN	_	6	E	6:E	_
+21	lang	lang	ADJ	ADJD	_	20	E	20:E	_
+22	,	,	PUNCT	$,	_	6	U	6:U	_
+23	mit	mit	ADP	APPR	_	28	R	28:R	_
+24	einem	ein	DET	ART	_	25	E	25:E	_
+25	Umfang	Umfang	NOUN	NN	_	28	E	28:E	_
+26	von	von	ADP	NE	_	25	R	25:R	_
+27	25	25	NUM	CARD	_	28	E	28:E	_
+28	Fuß	Fuß	NOUN	VMFIN	_	6	E	6:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

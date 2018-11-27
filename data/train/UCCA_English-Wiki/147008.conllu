@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 147008
+# text = Both were married .
+1	Both	both	DET	DT	_	3	A	3:A	_
+2	were	be	AUX	VBD	_	3	F	3:F	_
+3	married	marry	ADJ	JJ	_	0	H	0:H	_
+4	.	.	PUNCT	.	_	3	U	3:U	_
+

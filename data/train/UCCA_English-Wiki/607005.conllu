@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 607005
+# text = In 1980 , McCartney released his second solo LP , the self - produced McCartney II , which peaked at number one in the UK and number three in the US .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1980	1980	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+5	released	release	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	9	E	9:E	_
+7	second	second	ADJ	JJ	_	9	E	9:E	_
+8	solo	solo	NOUN	NN	_	9	E	9:E	_
+9	LP	LP	PROPN	NNP	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	self	self	NOUN	NN	_	14	E	14:E	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	produced	produce	VERB	VBN	_	15	E	15:E	_
+15	McCartney	McCartney	PROPN	NNP	_	9	E	9:E	_
+16	II	II	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	9	U	9:U	_
+18	which	which	PRON	WDT	_	19	F	19:F	_
+19	peaked	peake	VERB	VBD	_	9	E	9:E	_
+20	at	at	ADP	IN	_	21	R	21:R	_
+21	number	number	NOUN	NN	_	19	A	19:A	_
+22	one	one	NUM	CD	_	21	E	21:E	_
+23	in	in	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	UK	UK	PROPN	NNP	_	21	E	21:E	_
+26	and	and	CCONJ	CC	_	21	N	21:N	_
+27	number	number	NOUN	NN	_	21	C	21:C	_
+28	three	three	NUM	CD	_	27	E	27:E	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	US	US	PROPN	NNP	_	27	E	27:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

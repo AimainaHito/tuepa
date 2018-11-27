@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25596017
+# text = Sie kamen uns zwar nah , hielten sich aber doch in einer Entfernung , die für Jäger nicht angenehm war .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A|7:A	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	A	2:A	_
+4	zwar	zwar	ADV	ADV	_	2	D	2:D	_
+5	nah	nah	ADJ	ADJD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	hielten	halten	VERB	VVFIN	_	2	H	2:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	aber	aber	ADV	ADV	_	7	D	7:D	_
+10	doch	doch	ADV	ADV	_	9	C	9:C	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	einer	ein	DET	ART	_	13	E	13:E	_
+13	Entfernung	Entfernung	NOUN	NN	_	7	A	7:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	PRELS	_	19	R	19:R	_
+16	für	für	ADP	APPR	_	17	R	17:R	_
+17	Jäger	Jäger	NOUN	NN	_	19	A	19:A	_
+18	nicht	nicht	PART	ADJA	_	19	D	19:D	_
+19	angenehm	angenehm	ADJ	ADJD	_	13	E	13:E	_
+20	war	sein	AUX	ADV	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

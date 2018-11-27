@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25629014
+# text = » Weil der Vogel betrunken ist . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Weil	weil	SCONJ	KOUS	_	5	L	5:L	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Vogel	Vogel	NOUN	NN	_	5	A	5:A	_
+5	betrunken	betrunken	ADJ	ADJD	_	0	H	0:H	_
+6	ist	sein	AUX	VVFIN	_	5	F	5:F	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+8	«	«	PUNCT	$(	_	5	U	5:U	_
+

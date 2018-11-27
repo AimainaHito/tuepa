@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25716000
+# text = » Und der Kanal , worin wir uns in dem Augenblick befinden ? « fragte ich .
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Kanal	Kanal	NOUN	NN	_	15	A	15:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	worin	worin	PRON	PWAV	_	8	R	8:R	_
+7	wir	wir	AUX	NE	_	8	A	8:A	_
+8	uns	wir	PRON	NE	_	4	E	4:E	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Augenblick	Augenblick	NOUN	NN	_	8	D	8:D	_
+12	befinden	befinden	VERB	VVFIN	_	8	Terminal	8:Terminal	_
+13	?	?	PUNCT	$.	_	15	U	15:U	_
+14	«	«	PUNCT	$(	_	15	U	15:U	_
+15	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

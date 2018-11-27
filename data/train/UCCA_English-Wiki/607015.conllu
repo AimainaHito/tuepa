@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 607015
+# text = In 1985 , Warner Brothers commissioned McCartney to write a song for the comedic feature film Spies Like Us .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1985	1985	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Warner	Warner	PROPN	NNP	_	6	A	6:A	_
+5	Brothers	Brothers	PROPN	NNPS	_	4	Terminal	4:Terminal	_
+6	commissioned	commission	VERB	VBD	_	0	H	0:H	_
+7	McCartney	McCartney	PROPN	NNP	_	6	A	6:A|9:A	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	write	write	VERB	VB	_	6	A	6:A	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	song	song	NOUN	NN	_	9	A	9:A	_
+12	for	for	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	comedic	comedic	ADJ	JJ	_	16	E	16:E	_
+15	feature	feature	NOUN	NN	_	16	E	16:E	_
+16	film	film	NOUN	NN	_	17	E	17:E	_
+17	Spies	spy	NOUN	NNS	_	9	A	9:A	_
+18	Like	like	ADP	IN	_	17	Terminal	17:Terminal	_
+19	Us	we	PRON	PRP	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	.	_	17	U	17:U	_
+

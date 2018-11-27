@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 536010
+# text = He opposed European fascism and criticized Nazi Germany well before America 's involvement in World War II .
+1	He	he	PRON	PRP	_	2	A	2:A|6:A	_
+2	opposed	oppose	VERB	VBD	_	0	H	0:H	_
+3	European	european	ADJ	JJ	_	4	E	4:E	_
+4	fascism	fascism	NOUN	NN	_	2	A	2:A	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	criticized	criticize	VERB	VBD	_	2	H	2:H	_
+7	Nazi	Nazi	PROPN	NNP	_	8	E	8:E	_
+8	Germany	Germany	PROPN	NNP	_	6	A	6:A	_
+9	well	well	ADV	RB	_	2	L	2:L	_
+10	before	before	ADP	IN	_	9	Terminal	9:Terminal	_
+11	America	America	PROPN	NNP	_	13	A	13:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	involvement	involvement	NOUN	NN	_	2	H	2:H	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	World	World	PROPN	NNP	_	16	E	16:E	_
+16	War	War	PROPN	NNP	_	13	A	13:A	_
+17	II	ii	PROPN	NNP	_	16	E	16:E	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

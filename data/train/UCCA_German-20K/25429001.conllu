@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25429001
+# text = Die öffentliche Meinung sprach sich damals in Beziehung auf das Phänomen ohne Widerspruch für die Existenz eines wunderhaften Riesen tieres aus .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	öffentliche	öffentlich	ADJ	ADJA	_	3	E	3:E	_
+3	Meinung	Meinung	NOUN	NN	_	0	C	0:C|13:A	_
+4	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	damals	damals	ADV	ADV	_	4	D	4:D	_
+7	in	in	ADP	APPR	_	11	R	11:R	_
+8	Beziehung	Beziehung	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	auf	auf	ADP	APPR	_	7	Terminal	7:Terminal	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Phänomen	Phänomen	NOUN	NN	_	4	A	4:A	_
+12	ohne	ohne	ADP	NN	_	13	D	13:D	_
+13	Widerspruch	Widerspruch	NOUN	NN	_	4	H	4:H	_
+14	für	für	ADP	APPR	_	16	R	16:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Existenz	Existenz	NOUN	NN	_	13	A	13:A	_
+17	eines	ein	DET	ART	_	20	R	20:R	_
+18	wunderhaften	wunderhaft	ADJ	NN	_	20	E	20:E	_
+19	Riesen	Riese	NOUN	NN	_	20	E	20:E	_
+20	tieres	ti	ADJ	NN	_	16	A	16:A	_
+21	aus	aus	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+22	.	.	PUNCT	$.	_	4	U	4:U	_
+

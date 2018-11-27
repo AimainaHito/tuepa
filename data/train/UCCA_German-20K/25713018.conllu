@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25713018
+# text = Ich schätzte den Inhalt auf mehr als 1.000 Kilogramm Gold , d.h . fast 5 Millionen Franc .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	schätzte	schätzen	VERB	VVFIN	_	0	H	0:H	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Inhalt	Inhalt	NOUN	NN	_	2	A	2:A	_
+5	auf	auf	ADP	APPR	_	10	R	10:R	_
+6	mehr	mehr	ADV	ADV	_	10	E	10:E	_
+7	als	als	ADP	KOKOM	_	6	R	6:R	_
+8	1.000	1.0	NUM	CARD	_	9	E	9:E	_
+9	Kilogramm	Kilogramm	NOUN	NN	_	6	A	6:A	_
+10	Gold	Gold	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	d.h	d.h	CCONJ	ADJD	_	2	L	2:L	_
+13	.	.	PUNCT	$.	_	2	U	2:U	_
+14	fast	fast	ADV	ADV	_	17	D	17:D	_
+15	5	5	NUM	CARD	_	17	E	17:E	_
+16	Millionen	Million	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	Franc	Franc	PROPN	NN	_	2	H	2:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

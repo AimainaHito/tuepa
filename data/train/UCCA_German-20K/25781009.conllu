@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25781009
+# text = Im Zenit strahlte das wunderschöne Südkreuz , der Polarstern der antarktischen Gegenden .
+1	Im	Im	PROPN	NE	_	2	R	2:R	_
+2	Zenit	Zenit	PROPN	NE	_	3	A	3:A	_
+3	strahlte	strahlen	VERB	VVFIN	_	0	H	0:H	_
+4	das	der	DET	ART	_	6	E	6:E	_
+5	wunderschöne	wunderschön	ADJ	NN	_	6	E	6:E	_
+6	Südkreuz	Südkreuz	PROPN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	der	der	DET	PRELS	_	9	E	9:E	_
+9	Polarstern	Polarster	NOUN	NE	_	6	E	6:E	_
+10	der	der	DET	ART	_	12	R	12:R	_
+11	antarktischen	antarktisch	ADJ	ADJA	_	12	E	12:E	_
+12	Gegenden	Gegend	NOUN	NN	_	9	E	9:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 421002
+# text = Où et quand l' eut - il fait construire , et comment aurait - il tenu cette construction secrète ?
+1	Où	où	ADV	_	_	9	A	9:A	_
+2	et	et	CCONJ	_	_	1	N	1:N	_
+3	quand	quand	SCONJ	_	_	1	C	1:C	_
+4	l'	le	DET	_	_	9	A	9:A	_
+5	eut	avoir	NOUN	_	_	9	F	9:F	_
+6	-	-	PUNCT	_	_	9	U	9:U	_
+7	il	il	PRON	_	_	9	A	9:A	_
+8	fait	faire	AUX	_	_	9	D	9:D	_
+9	construire	construire	VERB	_	_	0	H	0:H	_
+10	,	,	PUNCT	_	_	9	U	9:U	_
+11	et	et	CCONJ	_	_	9	L	9:L	_
+12	comment	comment	ADV	_	_	19	D	19:D	_
+13	aurait	avoir	VERB	_	_	19	F	19:F	_
+14	-	-	PUNCT	_	_	19	U	19:U	_
+15	il	il	PRON	_	_	19	A	19:A	_
+16	tenu	tenir	VERB	_	_	19	D	19:D	_
+17	cette	ce	DET	_	_	18	E	18:E	_
+18	construction	construction	NOUN	_	_	19	A	19:A	_
+19	secrète	secret	ADJ	_	_	9	H	9:H	_
+20	?	?	PUNCT	_	_	19	U	19:U	_
+

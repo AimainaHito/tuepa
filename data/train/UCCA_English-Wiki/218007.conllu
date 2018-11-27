@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 218007
+# text = The movie was screened at a special presentation at the 2006 Cannes Film Festival , and was reviewed favourably .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	0	C	0:C|18:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	screened	screen	VERB	VBN	_	0	H	0:H	_
+5	at	at	ADP	IN	_	8	R	8:R	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	special	special	ADJ	JJ	_	8	E	8:E	_
+8	presentation	presentation	NOUN	NN	_	4	A	4:A	_
+9	at	at	ADP	IN	_	14	R	14:R	_
+10	the	the	DET	DT	_	14	E	14:E	_
+11	2006	2006	NUM	CD	_	14	E	14:E	_
+12	Cannes	Cannes	PROPN	NNP	_	14	E	14:E	_
+13	Film	film	PROPN	NNP	_	14	E	14:E	_
+14	Festival	Festival	PROPN	NNP	_	8	E	8:E	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	and	and	CCONJ	CC	_	4	L	4:L	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	reviewed	review	VERB	VBN	_	4	H	4:H	_
+19	favourably	favourably	ADV	RB	_	18	D	18:D	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

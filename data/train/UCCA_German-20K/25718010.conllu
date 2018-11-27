@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25718010
+# text = » Ah ! « sagte Conseil , » wenn einmal durch eine vulkanische Einwirkung diese beiden Schranken wieder über die Meeres fläche emporgehoben würden ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ah	Ah	PROPN	VVFIN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+10	einmal	einmal	ADV	ADV	_	23	D	23:D	_
+11	durch	durch	ADP	APPR	_	13	R	13:R	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	vulkanische	vulkanisch	ADJ	ADJA	_	14	A	14:A	_
+14	Einwirkung	Einwirkung	NOUN	NN	_	23	A	23:A	_
+15	diese	dies	PRON	PDAT	_	17	E	17:E	_
+16	beiden	beide	PRON	PIAT	_	17	E	17:E	_
+17	Schranken	Schrank	NOUN	NN	_	23	A	23:A	_
+18	wieder	wieder	ADV	NE	_	23	D	23:D	_
+19	über	über	ADP	VVFIN	_	22	R	22:R	_
+20	die	der	DET	ART	_	22	E	22:E	_
+21	Meeres	Meer	NOUN	NN	_	22	E	22:E	_
+22	fläche	fläch	ADJ	VVFIN	_	23	A	23:A	_
+23	emporgehoben	emporheben	VERB	VVPP	_	2	H	2:H	_
+24	würden	werden	AUX	ADJD	_	23	D	23:D	_
+25	!	!	PUNCT	$.	_	23	U	23:U	_
+26	«	«	PUNCT	$(	_	23	U	23:U	_
+

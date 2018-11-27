@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 546006
+# text = Following his deal with ABC , Warner also made his son , Jack Jr . , head of the company 's new television department .
+1	Following	follow	VERB	VBG	_	3	L	3:L	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	deal	deal	NOUN	NN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	ABC	ABC	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Warner	Warner	PROPN	NNP	_	9	A	9:A	_
+8	also	also	ADV	RB	_	9	D	9:D	_
+9	made	make	VERB	VBD	_	3	H	3:H	_
+10	his	he	PRON	PRP$	_	11	E	11:E	_
+11	son	son	NOUN	NN	_	13	E	13:E	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	Jack	Jack	PROPN	NNP	_	9	A	9:A	_
+14	Jr	jr	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	9	U	9:U	_
+16	,	,	PUNCT	,	_	9	U	9:U	_
+17	head	head	NOUN	NN	_	9	A	9:A	_
+18	of	of	ADP	IN	_	24	R	24:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	company	company	NOUN	NN	_	24	E	24:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	new	new	ADJ	JJ	_	24	E	24:E	_
+23	television	television	NOUN	NN	_	24	E	24:E	_
+24	department	department	NOUN	NN	_	17	E	17:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

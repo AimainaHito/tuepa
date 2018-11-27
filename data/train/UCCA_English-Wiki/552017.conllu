@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 552017
+# text = Blanc closed the event with a rendition of Porky Pig 's famous farewell , " A - bee - a - bee - a - bee - that 's all , folks .
+1	Blanc	Blanc	PROPN	NNP	_	2	A	2:A	_
+2	closed	close	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	event	event	NOUN	NN	_	2	A	2:A	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	rendition	rendition	NOUN	NN	_	2	A	2:A	_
+8	of	of	ADP	IN	_	13	R	13:R	_
+9	Porky	Porky	PROPN	NNP	_	13	E	13:E	_
+10	Pig	Pig	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	's	's	PART	POS	_	9	R	9:R	_
+12	famous	famous	ADJ	JJ	_	13	E	13:E	_
+13	farewell	farewell	NOUN	NN	_	7	E	7:E	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	"	"	PUNCT	``	_	13	U	13:U	_
+16	A	a	NOUN	NN	_	13	E	13:E	_
+17	-	-	PUNCT	HYPH	_	16	U	16:U	_
+18	bee	bee	NOUN	NN	_	16	Terminal	16:Terminal	_
+19	-	-	PUNCT	HYPH	_	16	U	16:U	_
+20	a	a	NOUN	NN	_	16	Terminal	16:Terminal	_
+21	-	-	PUNCT	HYPH	_	16	U	16:U	_
+22	bee	bee	NOUN	NN	_	16	Terminal	16:Terminal	_
+23	-	-	PUNCT	HYPH	_	16	U	16:U	_
+24	a	a	NOUN	NN	_	16	Terminal	16:Terminal	_
+25	-	-	PUNCT	HYPH	_	16	U	16:U	_
+26	bee	bee	NOUN	NN	_	16	Terminal	16:Terminal	_
+27	-	-	PUNCT	HYPH	_	16	U	16:U	_
+28	that	that	PRON	DT	_	16	Terminal	16:Terminal	_
+29	's	be	AUX	VBZ	_	16	Terminal	16:Terminal	_
+30	all	all	DET	DT	_	16	Terminal	16:Terminal	_
+31	,	,	PUNCT	,	_	16	U	16:U	_
+32	folks	folk	NOUN	NNS	_	16	Terminal	16:Terminal	_
+33	.	.	PUNCT	.	_	13	U	13:U	_
+

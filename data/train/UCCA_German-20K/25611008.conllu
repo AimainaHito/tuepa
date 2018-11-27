@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25611008
+# text = Bereits aber war Dumont d'Urville , ohne dass er von Dillons Bemühungen etwas wusste , abgesegelt , um den Schau platz des Schiff bruchs anderwärts zu suchen .
+1	Bereits	bereits	ADV	ADV	_	16	D	16:D	_
+2	aber	aber	ADV	ADV	_	16	L	16:L	_
+3	war	sein	AUX	ADV	_	16	F	16:F	_
+4	Dumont	Dumont	PROPN	NE	_	16	A	16:A	_
+5	d'Urville	d'Urville	PROPN	NE	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	16	U	16:U	_
+7	ohne	ohne	ADP	NE	_	16	L	16:L	_
+8	dass	dass	SCONJ	KOUS	_	7	Terminal	7:Terminal	_
+9	er	er	PRON	PPER	_	14	A	14:A|27:A	_
+10	von	von	ADP	NE	_	12	R	12:R	_
+11	Dillons	Dillons	PROPN	NE	_	12	E	12:E	_
+12	Bemühungen	Bemühung	NOUN	NN	_	14	A	14:A	_
+13	etwas	etwas	PRON	PIAT	_	14	D	14:D	_
+14	wusste	wissen	VERB	VVFIN	_	16	H	16:H	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	abgesegelt	abgesegeln	VERB	VVPP	_	0	H	0:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	um	um	ADP	KOUI	_	16	L	16:L	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	Schau	Schau	NOUN	NE	_	21	E	21:E	_
+21	platz	platz	ADP	NN	_	27	A	27:A	_
+22	des	der	DET	ART	_	24	R	24:R	_
+23	Schiff	Schiff	NOUN	NN	_	24	E	24:E	_
+24	bruchs	brachsen	VERB	VVFIN	_	21	E	21:E	_
+25	anderwärts	anderwärts	ADV	ADV	_	27	D	27:D	_
+26	zu	zu	PART	VVINF	_	27	F	27:F	_
+27	suchen	suchen	VERB	VVINF	_	16	H	16:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

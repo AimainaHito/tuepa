@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25589000
+# text = » Mein wackerer Ned « , sagte ich zu ihm , » die Wälder der Insel Crespo sind ja nur unter seeische Wälder . «
+1	»	»	PUNCT	$(	_	18	U	18:U	_
+2	Mein	mein	PROPN	PPOSAT	_	4	E	4:E	_
+3	wackerer	wackerer	PROPN	ADJA	_	4	E	4:E	_
+4	Ned	Ned	PROPN	NN	_	18	G	18:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	zu	zu	ADP	VVINF	_	10	R	10:R	_
+10	ihm	er	PRON	PPER	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	»	»	PUNCT	$(	_	7	U	7:U	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Wälder	Wälder	NOUN	NN	_	18	A	18:A	_
+15	der	der	DET	ART	_	16	R	16:R	_
+16	Insel	Insel	NOUN	NN	_	14	E	14:E	_
+17	Crespo	Crespo	PROPN	NE	_	16	Terminal	16:Terminal	_
+18	sind	sein	AUX	NE	_	7	A	7:A	_
+19	ja	ja	ADV	NE	_	18	F	18:F	_
+20	nur	nur	ADV	NE	_	18	D	18:D	_
+21	unter	unter	ADP	ADJA	_	22	E	22:E	_
+22	seeische	seeisch	ADJ	ADJA	_	23	E	23:E	_
+23	Wälder	Wäld	NOUN	NN	_	18	A	18:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

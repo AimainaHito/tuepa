@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25727003
+# text = Leider hat diese Bai nur eine offene Reede , die nicht verteidigt werden kann . Man musste daher schleunigst , bevor die Flotten der Koalierten herankamen , die Galionen ausladen , und es hätte auch dafür nicht an Zeit gemangelt , wäre nicht plötzlich eine elende Rivalitäts frage entstanden .
+1	Leider	leider	ADV	ADV	_	2	G	2:G	_
+2	hat	haben	AUX	VAFIN	_	0	H	0:H	_
+3	diese	dies	PRON	PDAT	_	4	E	4:E	_
+4	Bai	Bao	NOUN	NN	_	2	A	2:A	_
+5	nur	nur	ADV	NE	_	2	D	2:D	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	offene	offen	ADJ	ADJA	_	8	E	8:E	_
+8	Reede	Reed	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	12	R	12:R	_
+11	nicht	nicht	PART	CARD	_	12	D	12:D	_
+12	verteidigt	verteidigen	VERB	ADJD	_	8	E	8:E	_
+13	werden	werden	AUX	ADV	_	12	F	12:F	_
+14	kann	können	AUX	VMFIN	_	12	D	12:D	_
+15	.	.	PUNCT	$.	_	2	U	2:U	_
+16	Man	man	PRON	PIS	_	30	A	30:A	_
+17	musste	müssen	AUX	CARD	_	30	D	30:D	_
+18	daher	daher	ADV	PAV	_	2	L	2:L	_
+19	schleunigst	schleunigst	ADV	ADV	_	30	D	30:D	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	bevor	bevor	SCONJ	KOUS	_	2	L	2:L	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Flotten	Flotte	NOUN	NN	_	26	A	26:A	_
+24	der	der	DET	ART	_	25	R	25:R	_
+25	Koalierten	Koaliert	NOUN	NN	_	23	E	23:E	_
+26	herankamen	herankam	ADJ	NN	_	2	H	2:H	_
+27	,	,	PUNCT	$,	_	2	U	2:U	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Galionen	Galion	NOUN	NN	_	30	A	30:A	_
+30	ausladen	ausladen	VERB	NN	_	2	H	2:H	_
+31	,	,	PUNCT	$,	_	2	U	2:U	_
+32	und	und	CCONJ	NE	_	2	L	2:L	_
+33	es	es	PRON	PPER	_	40	F	40:F	_
+34	hätte	haben	VERB	VAFIN	_	40	D	40:D	_
+35	auch	auch	ADV	ADV	_	40	A	40:A	_
+36	dafür	dafür	ADV	PAV	_	40	A	40:A	_
+37	nicht	nicht	PART	CARD	_	40	D	40:D	_
+38	an	an	ADP	APPR	_	39	R	39:R	_
+39	Zeit	Zeit	NOUN	NN	_	40	A	40:A	_
+40	gemangelt	mangeln	VERB	VVPP	_	2	H	2:H	_
+41	,	,	PUNCT	$,	_	2	U	2:U	_
+42	wäre	sein	AUX	ADV	_	49	D	49:D	_
+43	nicht	nicht	PART	CARD	_	49	D	49:D	_
+44	plötzlich	plötzlich	ADV	ADJD	_	49	D	49:D	_
+45	eine	ein	DET	ART	_	48	E	48:E	_
+46	elende	elend	ADJ	ADJA	_	48	E	48:E	_
+47	Rivalitäts	Rivalität	NOUN	NE	_	48	E	48:E	_
+48	frage	frage	ADV	NN	_	49	A	49:A	_
+49	entstanden	entstehen	VERB	VVFIN	_	2	H	2:H	_
+50	.	.	PUNCT	$.	_	49	U	49:U	_
+

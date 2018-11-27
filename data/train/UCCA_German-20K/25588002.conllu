@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25588002
+# text = » Doch will es mich bedünken , in diesem Halb dunkel und innerhalb einer im Verhältnis zur Luft sehr dichten Flüssigkeit können die Schüsse nicht weit reichen und nicht leicht tödlich sein . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Doch	doch	CCONJ	ADV	_	6	F	6:F	_
+3	will	wollen	AUX	NN	_	6	D	6:D	_
+4	es	es	PRON	PPER	_	6	F	6:F	_
+5	mich	ich	PRON	PPER	_	6	A	6:A	_
+6	bedünken	bedünken	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	in	in	ADP	APPR	_	11	R	11:R	_
+9	diesem	dies	PRON	PDAT	_	11	E	11:E	_
+10	Halb	halb	ADP	ADV	_	11	E	11:E	_
+11	dunkel	dunkel	ADJ	ADJD	_	27	A	27:A	_
+12	und	und	CCONJ	NN	_	11	R	11:R	_
+13	innerhalb	innerhalb	ADP	APPR	_	21	R	21:R	_
+14	einer	ein	DET	ART	_	21	E	21:E	_
+15	im	im	ADJ	NN	_	18	R	18:R	_
+16	Verhältnis	Verhältnis	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	zur	zur	ADP	NE	_	15	Terminal	15:Terminal	_
+18	Luft	Luft	NOUN	VVPP	_	20	A	20:A	_
+19	sehr	sehr	ADV	NE	_	20	D	20:D	_
+20	dichten	dicht	ADJ	ADJA	_	21	E	21:E	_
+21	Flüssigkeit	Flüssigkeit	NOUN	NN	_	11	C	11:C	_
+22	können	können	AUX	VMFIN	_	27	D	27:D|31:D	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Schüsse	Schuß	NOUN	NN	_	0	C	0:C|31:A	_
+25	nicht	nicht	PART	XY	_	26	E	26:E	_
+26	weit	weit	ADJ	ADJD	_	27	D	27:D	_
+27	reichen	reichen	ADJ	ADJA	_	6	H	6:H	_
+28	und	und	CCONJ	NN	_	6	L	6:L	_
+29	nicht	nicht	PART	XY	_	30	E	30:E	_
+30	leicht	leicht	ADJ	ADJD	_	31	D	31:D	_
+31	tödlich	tödlich	ADJ	ADJD	_	6	H	6:H	_
+32	sein	sein	AUX	VAINF	_	31	F	31:F	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+34	«	«	PUNCT	$(	_	31	U	31:U	_
+

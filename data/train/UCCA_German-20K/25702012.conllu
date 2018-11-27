@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25702012
+# text = » Nun , Sie mögen ' s versuchen . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Nun	nun	ADV	ADV	_	8	F	8:F	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+5	mögen	mög	ADJ	NN	_	8	D	8:D	_
+6	'	'	NOUN	$(	_	8	U	8:U	_
+7	s	s	NOUN	ADJD	_	8	A	8:A	_
+8	versuchen	versuchen	VERB	VVFIN	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

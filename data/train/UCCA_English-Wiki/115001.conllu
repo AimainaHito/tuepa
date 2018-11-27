@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 115001
+# text = She found a niche playing middle - aged spinsters , such as in The African Queen ( 1951 ) , a persona the public embraced .
+1	She	she	PRON	PRP	_	4	A	4:A|14:A|5:A	_
+2	found	find	VERB	VBD	_	4	D	4:D	_
+3	a	a	DET	DT	_	4	F	4:F	_
+4	niche	niche	NOUN	NN	_	0	H	0:H	_
+5	playing	play	VERB	VBG	_	4	H	4:H	_
+6	middle	middle	ADJ	JJ	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	aged	aged	ADJ	JJ	_	9	E	9:E	_
+9	spinsters	spinster	NOUN	NNS	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	such	such	ADJ	JJ	_	12	E	12:E	_
+12	as	as	ADP	IN	_	4	L	4:L	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	The	the	DET	DT	_	4	H	4:H	_
+15	African	african	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Queen	queen	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+18	1951	1951	NUM	CD	_	14	E	14:E	_
+19	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+20	,	,	PUNCT	,	_	14	U	14:U	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	persona	persona	NOUN	NN	_	25	A	25:A	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	public	public	NOUN	NN	_	25	A	25:A	_
+25	embraced	embrace	VERB	VBD	_	14	E	14:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

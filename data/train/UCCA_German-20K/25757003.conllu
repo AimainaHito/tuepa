@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25757003
+# text = » Meinem Herrn muß man wohl glauben « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Meinem	mein	PRON	PPOSAT	_	3	E	3:E	_
+3	Herrn	Herr	NOUN	NN	_	7	A	7:A	_
+4	muß	müssen	AUX	VMFIN	_	7	D	7:D	_
+5	man	man	PRON	PIS	_	7	A	7:A	_
+6	wohl	wohl	ADV	ADV	_	7	D	7:D	_
+7	glauben	glauben	VERB	VVINF	_	10	A	10:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	Conseil	Conseil	NOUN	NE	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

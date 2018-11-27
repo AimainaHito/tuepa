@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25488063
+# text = Dieser Eindruck belebte wieder unsere Kräfte .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Eindruck	Eindruck	NOUN	NN	_	3	A	3:A	_
+3	belebte	beleben	VERB	VVFIN	_	0	H	0:H	_
+4	wieder	wieder	ADV	NE	_	3	D	3:D	_
+5	unsere	unser	PRON	PPOSAT	_	6	E	6:E	_
+6	Kräfte	Kraft	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

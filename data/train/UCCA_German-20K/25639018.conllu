@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25639018
+# text = » Wir sind im Begriff ab zu fahren « , sagte er .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Wir	wir	PRON	NE	_	6	A	6:A	_
+3	sind	sein	AUX	NN	_	6	F	6:F	_
+4	im	im	ADJ	NE	_	5	R	5:R	_
+5	Begriff	Begriff	NOUN	NN	_	6	D	6:D	_
+6	ab	ab	ADP	APPR	_	11	A	11:A	_
+7	zu	zu	PART	NE	_	6	F	6:F	_
+8	fahren	fahren	VERB	VVINF	_	6	Terminal	6:Terminal	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	er	er	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

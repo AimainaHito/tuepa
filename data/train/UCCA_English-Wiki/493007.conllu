@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 493007
+# text = The family lived at 40 Stansfield Road , located near the border of the south London areas of Brixton and Stockwell .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	family	family	NOUN	NN	_	3	A	3:A	_
+3	lived	live	VERB	VBD	_	0	H	0:H	_
+4	at	at	ADP	IN	_	7	R	7:R	_
+5	40	40	NUM	CD	_	7	E	7:E	_
+6	Stansfield	Stansfield	PROPN	NNP	_	7	E	7:E	_
+7	Road	Road	PROPN	NNP	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	located	locate	VERB	VBN	_	7	E	7:E	_
+10	near	near	ADP	IN	_	19	R	19:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	border	border	NOUN	NN	_	19	E	19:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	south	south	PROPN	NNP	_	17	E	17:E	_
+16	London	London	PROPN	NNP	_	17	E	17:E	_
+17	areas	area	NOUN	NNS	_	19	E	19:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	Brixton	Brixton	PROPN	NNP	_	9	A	9:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	Stockwell	Stockwell	PROPN	NNP	_	19	C	19:C	_
+22	.	.	PUNCT	.	_	19	U	19:U	_
+

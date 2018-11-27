@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 130000
+# text = Alongside a series of unpopular films , problems arose from Hepburn 's attitude .
+1	Alongside	Alongside	ADP	IN	_	5	L	5:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	series	series	NOUN	NN	_	5	A	5:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	unpopular	unpopular	ADJ	JJ	_	0	H	0:H	_
+6	films	film	NOUN	NNS	_	3	E	3:E	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	problems	problem	NOUN	NNS	_	9	A	9:A	_
+9	arose	arise	VERB	VBD	_	5	H	5:H	_
+10	from	from	ADP	IN	_	13	R	13:R	_
+11	Hepburn	Hepburn	PROPN	NNP	_	13	E	13:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	attitude	attitude	NOUN	NN	_	9	A	9:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

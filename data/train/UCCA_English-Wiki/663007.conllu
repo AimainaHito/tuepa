@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 663007
+# text = It had seven dates , three in Japan and four throughout Europe .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	had	have	VERB	VBD	_	0	H	0:H	_
+3	seven	seven	NUM	CD	_	4	E	4:E	_
+4	dates	date	NOUN	NNS	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	three	three	NUM	CD	_	4	E	4:E	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Japan	Japan	PROPN	NNP	_	6	E	6:E	_
+9	and	and	CCONJ	CC	_	6	N	6:N	_
+10	four	four	NUM	CD	_	6	C	6:C	_
+11	throughout	throughout	ADP	IN	_	12	R	12:R	_
+12	Europe	Europe	PROPN	NNP	_	10	E	10:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

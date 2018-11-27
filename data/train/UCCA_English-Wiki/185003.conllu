@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 185003
+# text = His stage play A Few Good Men caught the attention of Hollywood producer David Brown , who bought the film rights before the play even premiered .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	stage	stage	NOUN	NN	_	3	E	3:E	_
+3	play	play	VERB	VBD	_	4	E	4:E	_
+4	A	a	DET	DT	_	10	A	10:A	_
+5	Few	few	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Good	Good	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	Men	men	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	caught	catch	VERB	VBD	_	10	D	10:D	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	attention	attention	NOUN	NN	_	0	H	0:H	_
+11	of	of	ADP	IN	_	14	R	14:R	_
+12	Hollywood	Hollywood	NOUN	NN	_	13	E	13:E	_
+13	producer	producer	NOUN	NN	_	14	E	14:E	_
+14	David	David	PROPN	NNP	_	10	A	10:A	_
+15	Brown	Brown	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	who	who	PRON	WP	_	18	F	18:F	_
+18	bought	buy	VERB	VBD	_	14	E	14:E	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	film	film	NOUN	NN	_	21	E	21:E	_
+21	rights	rights	NOUN	NNS	_	18	A	18:A	_
+22	before	before	ADP	IN	_	10	L	10:L	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	play	play	NOUN	NN	_	26	A	26:A	_
+25	even	even	ADV	RB	_	26	D	26:D	_
+26	premiered	premier	VERB	VBD	_	10	H	10:H	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

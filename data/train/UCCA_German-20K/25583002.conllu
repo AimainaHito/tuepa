@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25583002
+# text = Nachdem der Schiffsleutnent diese Worte gesprochen , stieg er wieder hinab .
+1	Nachdem	nachdem	SCONJ	KOUS	_	6	L	6:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Schiffsleutnent	Schiffsleutnent	NOUN	NN	_	6	A	6:A	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Worte	Wort	NOUN	NN	_	6	A	6:A	_
+6	gesprochen	sprechen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	stieg	steigen	VERB	VVFIN	_	6	H	6:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	wieder	wieder	ADV	NN	_	8	D	8:D	_
+11	hinab	hinab	ADV	PTKVZ	_	8	Terminal	8:Terminal	_
+12	.	.	PUNCT	$.	_	8	U	8:U	_
+

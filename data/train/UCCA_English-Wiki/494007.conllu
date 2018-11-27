@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 494007
+# text = The latter condition has misled some to believe that Bowie has different coloured eyes , when in reality both irises are the same blue colour .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	latter	latter	ADJ	JJ	_	3	E	3:E	_
+3	condition	condition	NOUN	NN	_	5	A	5:A	_
+4	has	have	AUX	VBZ	_	5	F	5:F	_
+5	misled	misl	VERB	VBN	_	0	H	0:H	_
+6	some	some	DET	DT	_	5	A	5:A|8:A	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	believe	believe	VERB	VB	_	5	A	5:A	_
+9	that	that	SCONJ	IN	_	11	F	11:F	_
+10	Bowie	Bowie	PROPN	NNP	_	11	A	11:A	_
+11	has	have	VERB	VBZ	_	8	A	8:A	_
+12	different	different	ADJ	JJ	_	13	E	13:E	_
+13	coloured	coloured	ADJ	JJ	_	14	E	14:E	_
+14	eyes	eye	NOUN	NNS	_	11	A	11:A	_
+15	,	,	PUNCT	,	_	5	U	5:U	_
+16	when	when	ADV	WRB	_	5	L	5:L	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	reality	reality	NOUN	NN	_	21	G	21:G	_
+19	both	both	CCONJ	CC	_	20	E	20:E	_
+20	irises	irise	NOUN	NNS	_	21	A	21:A	_
+21	are	be	AUX	VBP	_	5	H	5:H	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	same	same	ADJ	JJ	_	25	E	25:E	_
+24	blue	blue	ADJ	JJ	_	25	E	25:E	_
+25	colour	colour	NOUN	NN	_	21	A	21:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 492001
+# text = Bowie has been a major figure in the world of popular music for over four decades , and is renowned as an innovator , particularly for his work in the 1970s .
+1	Bowie	Bowie	PROPN	NNP	_	3	A	3:A|28:A|20:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	been	be	AUX	VBN	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	major	major	ADJ	JJ	_	6	E	6:E	_
+6	figure	figure	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	world	world	NOUN	NN	_	12	E	12:E	_
+10	of	of	ADP	IN	_	9	R	9:R	_
+11	popular	popular	ADJ	JJ	_	12	E	12:E	_
+12	music	music	NOUN	NN	_	3	A	3:A	_
+13	for	for	ADP	IN	_	16	R	16:R	_
+14	over	over	ADV	RB	_	16	R	16:R	_
+15	four	four	NUM	CD	_	16	E	16:E	_
+16	decades	decade	NOUN	NNS	_	3	D	3:D	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	and	and	CCONJ	CC	_	3	L	3:L	_
+19	is	be	AUX	VBZ	_	20	F	20:F	_
+20	renowned	renown	VERB	VBN	_	3	H	3:H	_
+21	as	as	ADP	IN	_	23	R	23:R	_
+22	an	a	DET	DT	_	23	E	23:E	_
+23	innovator	innovator	NOUN	NN	_	20	A	20:A	_
+24	,	,	PUNCT	,	_	3	U	3:U	_
+25	particularly	particularly	ADV	RB	_	3	L	3:L	_
+26	for	for	ADP	IN	_	28	R	28:R	_
+27	his	he	PRON	PRP$	_	28	A	28:A	_
+28	work	work	NOUN	NN	_	3	H	3:H	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	1970s	1970	NOUN	NNS	_	28	D	28:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

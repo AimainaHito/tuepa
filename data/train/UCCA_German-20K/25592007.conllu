@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25592007
+# text = Bei diesem Anblick war Conseil wie ich stehengeblieben .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Anblick	Anblick	NOUN	NN	_	8	A	8:A	_
+4	war	sein	AUX	ADV	_	8	F	8:F	_
+5	Conseil	Conseil	NOUN	NE	_	8	A	8:A	_
+6	wie	wie	CCONJ	KON	_	7	R	7:R	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	stehengeblieben	stehengeblieben	VERB	VVINF	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

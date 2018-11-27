@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 532017
+# text = During the filming , she missed rehearsals and was fired in April , replaced by Susan Hayward .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	filming	filming	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	she	she	PRON	PRP	_	6	A	6:A|10:A|14:A	_
+6	missed	miss	VERB	VBD	_	3	H	3:H	_
+7	rehearsals	rehearsal	NOUN	NNS	_	6	A	6:A	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	fired	fire	VERB	VBN	_	3	H	3:H	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	April	April	PROPN	NNP	_	10	D	10:D	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	replaced	replace	VERB	VBN	_	3	H	3:H	_
+15	by	by	ADP	IN	_	16	R	16:R	_
+16	Susan	Susan	PROPN	NNP	_	14	A	14:A	_
+17	Hayward	Hayward	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

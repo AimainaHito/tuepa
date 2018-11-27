@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 506000
+# text = Tonight ( 1984 ) , another dance - oriented album , found Bowie collaborating with Tina Turner and , once again , Iggy Pop .
+1	Tonight	tonight	NOUN	NN	_	12	A	12:A	_
+2	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+3	1984	1984	NUM	CD	_	1	E	1:E	_
+4	)	)	PUNCT	-RRB-	_	1	U	1:U	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	another	another	DET	DT	_	9	E	9:E	_
+7	dance	dance	NOUN	NN	_	9	A	9:A	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	oriented	oriented	ADJ	JJ	_	1	E	1:E	_
+10	album	album	NOUN	NN	_	9	A	9:A	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	found	find	VERB	VBD	_	0	H	0:H	_
+13	Bowie	Bowie	PROPN	NNP	_	14	A	14:A	_
+14	collaborating	collaborat	VERB	VBG	_	12	A	12:A	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	Tina	Tina	PROPN	NNP	_	14	A	14:A	_
+17	Turner	Turner	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	and	and	CCONJ	CC	_	16	N	16:N	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	once	once	ADV	RB	_	23	E	23:E	_
+21	again	again	ADV	RB	_	20	R	20:R	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	Iggy	Iggy	PROPN	NNP	_	16	C	16:C	_
+24	Pop	pop	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

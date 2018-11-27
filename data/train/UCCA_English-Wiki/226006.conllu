@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 226006
+# text = Jackie Chan rekindled his Hollywood ambitions in the 1990s , but refused early offers to play villains in Hollywood films to avoid being typecast in future roles .
+1	Jackie	Jackie	PROPN	NNP	_	3	A	3:A|12:A|24:A|22:A|16:A	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	rekindled	rekindle	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	6	E	6:E	_
+5	Hollywood	Hollywood	NOUN	NN	_	6	E	6:E	_
+6	ambitions	ambition	NOUN	NNS	_	3	A	3:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	1990s	1990	NOUN	NNS	_	3	D	3:D	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	but	but	CCONJ	CC	_	3	L	3:L	_
+12	refused	refuse	VERB	VBD	_	3	H	3:H	_
+13	early	early	ADJ	JJ	_	14	E	14:E	_
+14	offers	offer	NOUN	NNS	_	12	A	12:A	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	play	play	VERB	VB	_	14	E	14:E	_
+17	villains	villain	NOUN	NNS	_	16	A	16:A	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	Hollywood	Hollywood	NOUN	NN	_	20	E	20:E	_
+20	films	film	NOUN	NNS	_	16	A	16:A	_
+21	to	to	PART	TO	_	3	L	3:L	_
+22	avoid	avoid	VERB	VB	_	3	H	3:H	_
+23	being	be	AUX	VBG	_	24	F	24:F	_
+24	typecast	typecast	VERB	VBN	_	22	A	22:A	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	future	future	ADJ	JJ	_	27	E	27:E	_
+27	roles	role	NOUN	NNS	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25692011
+# text = Es fuhren zu viele englische oder französische Dampf boote der Linien Suez-Bombay , Calcutta , Melbourne , Bourbon , St . Moritz die enge Fahr straße , als dass die ›Nautilus‹ sich zu zeigen gewagt hätte .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	zu	zu	ADP	NE	_	2	D	2:D	_
+4	viele	viel	PRON	FM	_	2	D	2:D	_
+5	englische	englisch	ADJ	ADJA	_	2	A	2:A	_
+6	oder	oder	CCONJ	CARD	_	5	N	5:N	_
+7	französische	französisch	ADJ	ADJA	_	9	E	9:E	_
+8	Dampf	Dampf	NOUN	NN	_	9	E	9:E	_
+9	boote	booen	VERB	NN	_	5	C	5:C	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Linien	Linie	NOUN	NN	_	5	E	5:E	_
+12	Suez-Bombay	Suez-Bombay	PROPN	NE	_	11	E	11:E	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	Calcutta	Calcutta	PROPN	NE	_	12	C	12:C	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	Melbourne	Melbourne	PROPN	NE	_	12	C	12:C	_
+17	,	,	PUNCT	$,	_	12	U	12:U	_
+18	Bourbon	Bourben	PROPN	NE	_	12	C	12:C	_
+19	,	,	PUNCT	$,	_	12	U	12:U	_
+20	St	St	PROPN	NE	_	12	C	12:C	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+22	Moritz	Moritz	PROPN	NE	_	20	Terminal	20:Terminal	_
+23	die	der	DET	ART	_	26	E	26:E	_
+24	enge	eng	ADJ	ADJA	_	26	E	26:E	_
+25	Fahr	Fahr	NOUN	NN	_	26	E	26:E	_
+26	straße	straß	ADJ	NN	_	2	A	2:A	_
+27	,	,	PUNCT	$,	_	2	U	2:U	_
+28	als	als	SCONJ	KOUS	_	2	L	2:L	_
+29	dass	dass	SCONJ	KOUS	_	28	Terminal	28:Terminal	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	›Nautilus‹	›Nautilus‹	NOUN	NE	_	32	A	32:A	_
+32	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+33	zu	zu	PART	NE	_	32	F	32:F	_
+34	zeigen	zeigen	VERB	VVINF	_	32	Terminal	32:Terminal	_
+35	gewagt	gewagen|langen	VERB	VVPP	_	32	D	32:D	_
+36	hätte	haben	AUX	VAFIN	_	32	F	32:F	_
+37	.	.	PUNCT	$.	_	32	U	32:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25443006
+# text = Sein Vortrag hatte echt epische Form , und ich glaubte manchmal einen kanadischen Homer zu hören , der die Iliade der Hyperboreerlande sang .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Vortrag	Vortrag	NOUN	NN	_	3	A	3:A	_
+3	hatte	haben	AUX	VAFIN	_	0	H	0:H	_
+4	echt	echt	ADV	ADJD	_	3	D	3:D	_
+5	epische	episch	ADJ	ADJA	_	6	E	6:E	_
+6	Form	Form	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	ich	ich	PRON	PPER	_	10	A	10:A|16:A	_
+10	glaubte	glauben	VERB	VVFIN	_	3	H	3:H	_
+11	manchmal	manchmal	ADV	ADV	_	10	D	10:D	_
+12	einen	ein	DET	ART	_	14	E	14:E	_
+13	kanadischen	kanadisch	ADJ	ADJA	_	14	E	14:E	_
+14	Homer	Homer	NOUN	ADJA	_	16	A	16:A	_
+15	zu	zu	PART	NE	_	16	F	16:F	_
+16	hören	hören	VERB	VVINF	_	10	A	10:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	der	der	PRON	PRELS	_	23	R	23:R	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Iliade	Iliade	NOUN	NN	_	23	A	23:A	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	Hyperboreerlande	Hyperboreerlande	NOUN	NN	_	20	E	20:E	_
+23	sang	singen	VERB	NN	_	14	E	14:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

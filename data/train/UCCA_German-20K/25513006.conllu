@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25513006
+# text = » Es ist nur einige Entwicklung von Gas durch die Anwendung des Sodiums ; aber die Unannehmlichkeit ist nicht bedeutend , und zudem wird im Schiff täglich durch Ventilation die Luft erneuert . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Es	es	PRON	PPER	_	6	F	6:F	_
+3	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+4	nur	nur	ADV	NE	_	6	D	6:D	_
+5	einige	einige	PRON	ADJA	_	6	E	6:E	_
+6	Entwicklung	Entwicklung	NOUN	NN	_	0	H	0:H	_
+7	von	von	ADP	NE	_	8	R	8:R	_
+8	Gas	Gas	PROPN	NE	_	6	A	6:A	_
+9	durch	durch	ADP	APPR	_	6	L	6:L	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Anwendung	Anwendung	NOUN	NN	_	6	H	6:H	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Sodiums	Sodium	NOUN	NN	_	11	A	11:A	_
+14	;	;	PUNCT	$.	_	6	U	6:U	_
+15	aber	aber	ADV	KON	_	6	L	6:L	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Unannehmlichkeit	Unannehmlichkeit	NOUN	NN	_	20	A	20:A	_
+18	ist	sein	AUX	VVFIN	_	20	F	20:F	_
+19	nicht	nicht	PART	XY	_	20	D	20:D	_
+20	bedeutend	bedeutend	ADJ	ADJD	_	6	H	6:H	_
+21	,	,	PUNCT	$,	_	6	U	6:U	_
+22	und	und	CCONJ	NE	_	6	L	6:L	_
+23	zudem	zudem	ADV	PAV	_	6	L	6:L	_
+24	wird	werden	AUX	VAFIN	_	32	F	32:F	_
+25	im	im	ADV	NE	_	26	R	26:R	_
+26	Schiff	Schiff	NOUN	NN	_	32	A	32:A	_
+27	täglich	täglich	ADJ	ADJD	_	32	D	32:D	_
+28	durch	durch	ADP	APPR	_	29	R	29:R	_
+29	Ventilation	Ventilation	NOUN	NN	_	32	A	32:A	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	Luft	Luft	NOUN	NN	_	32	A	32:A	_
+32	erneuert	erneuern	VERB	VVPP	_	6	H	6:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+34	«	«	PUNCT	$(	_	32	U	32:U	_
+

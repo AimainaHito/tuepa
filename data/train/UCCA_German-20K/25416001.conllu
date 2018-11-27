@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25416001
+# text = Die Hypothese einer schwimmenden Insel , einer unerreichbaren Klippe , die von einigen urteilsunfähigen Köpfen aufgebracht worden , war bereits aufgegeben .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Hypothese	Hypothese	NOUN	NN	_	21	A	21:A	_
+3	einer	ein	DET	ART	_	5	R	5:R	_
+4	schwimmenden	schwimmend	ADJ	ADJA	_	2	E	2:E	_
+5	Insel	Insel	NOUN	NN	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	einer	ein	DET	ART	_	9	R	9:R	_
+8	unerreichbaren	unerreichbar	ADJ	ADJA	_	2	E	2:E	_
+9	Klippe	Klippe	NOUN	NN	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	die	der	PRON	PRELS	_	16	R	16:R	_
+12	von	von	ADP	NN	_	15	R	15:R	_
+13	einigen	einige	PRON	PIAT	_	15	E	15:E	_
+14	urteilsunfähigen	urteilsunfähig	ADJ	ADJA	_	15	E	15:E	_
+15	Köpfen	Köpfen	NOUN	NN	_	16	A	16:A	_
+16	aufgebracht	aufbringen	VERB	VVPP	_	2	E	2:E	_
+17	worden	werden	AUX	ADV	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	21	U	21:U	_
+19	war	sein	AUX	ADV	_	21	F	21:F	_
+20	bereits	bereits	ADV	ADV	_	21	D	21:D	_
+21	aufgegeben	aufgeben	VERB	VVPP	_	0	H	0:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 550005
+# text = Then , during a visit to his father 's hospital room , the young man offended Ann Warner , whom he largely blamed for his parents ' divorce .
+1	Then	then	ADV	RB	_	5	L	5:L	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	during	during	ADP	IN	_	5	L	5:L	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	visit	visit	NOUN	NN	_	0	H	0:H	_
+6	to	to	ADP	IN	_	11	R	11:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	father	father	NOUN	NN	_	11	E	11:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	hospital	hospital	NOUN	NN	_	11	E	11:E	_
+11	room	room	NOUN	NN	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	young	young	ADJ	JJ	_	15	E	15:E	_
+15	man	man	NOUN	NN	_	16	A	16:A	_
+16	offended	offend	VERB	VBD	_	5	H	5:H	_
+17	Ann	Ann	PROPN	NNP	_	16	A	16:A	_
+18	Warner	Warner	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	17	U	17:U	_
+20	whom	whom	PRON	WP	_	23	F	23:F	_
+21	he	he	PRON	PRP	_	23	A	23:A	_
+22	largely	largely	ADV	RB	_	23	D	23:D	_
+23	blamed	blam	VERB	VBD	_	17	E	17:E	_
+24	for	for	ADP	IN	_	28	R	28:R	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	parents	parent	NOUN	NNS	_	28	A	28:A	_
+27	'	's	PART	POS	_	28	U	28:U	_
+28	divorce	divorce	NOUN	NN	_	23	A	23:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

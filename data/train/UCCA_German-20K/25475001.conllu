@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25475001
+# text = « » Aber um ihm nah zu kommen « , sagte der Kommandant , werd' ich ein Walfisch boot Ihnen zur Verfügung stellen müssen ?
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Aber	aber	CCONJ	ADV	_	6	L	6:L	_
+4	um	um	ADP	APPR	_	6	L	6:L	_
+5	ihm	er	PRON	PPER	_	6	A	6:A	_
+6	nah	nah	ADJ	ADJD	_	11	A	11:A	_
+7	zu	zu	PART	NE	_	6	F	6:F	_
+8	kommen	kommen	VERB	VVINF	_	6	Terminal	6:Terminal	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kommandant	Kommandant	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	werd'	werd'	PUNCT	NE	_	21	F	21:F	_
+16	ich	ich	PRON	PPER	_	21	A	21:A	_
+17	ein	ein	DET	ART	_	19	E	19:E	_
+18	Walfisch	Walfisch	NOUN	NN	_	19	E	19:E	_
+19	boot	boieten	VERB	FM	_	21	A	21:A	_
+20	Ihnen	Sie|sie	PRON	PPER	_	21	A	21:A	_
+21	zur	zur	ADV	NE	_	6	H	6:H	_
+22	Verfügung	Verfügung	NOUN	NN	_	21	Terminal	21:Terminal	_
+23	stellen	stellen	VERB	VVINF	_	21	Terminal	21:Terminal	_
+24	müssen	müssen	AUX	VMFIN	_	21	D	21:D	_
+25	?	?	PUNCT	$.	_	21	U	21:U	_
+

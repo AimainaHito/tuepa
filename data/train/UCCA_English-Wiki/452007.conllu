@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 452007
+# text = His live reporting , which drew on the expertise he had acquired in the Middle East , provided context for Americans who were unfamiliar with the Palestinian group .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	live	live	VERB	VBP	_	3	E	3:E	_
+3	reporting	reporting	VERB	VBG	_	19	A	19:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	which	which	DET	WDT	_	6	R	6:R	_
+6	drew	draw	NOUN	NN	_	3	E	3:E	_
+7	on	on	ADP	IN	_	6	Terminal	6:Terminal	_
+8	the	the	DET	DT	_	9	A	9:A	_
+9	expertise	expertise	NOUN	NN	_	6	A	6:A	_
+10	he	he	PRON	PRP	_	12	A	12:A	_
+11	had	have	AUX	VBD	_	12	F	12:F	_
+12	acquired	acquire	VERB	VBN	_	9	A	9:A	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Middle	Middle	PROPN	NNP	_	16	E	16:E	_
+16	East	East	PROPN	NNP	_	12	A	12:A	_
+17	,	,	PUNCT	,	_	19	U	19:U	_
+18	provided	provide	VERB	VBD	_	19	D	19:D	_
+19	context	context	NOUN	NN	_	0	H	0:H	_
+20	for	for	ADP	IN	_	21	R	21:R	_
+21	Americans	Americans	PROPN	NNPS	_	19	A	19:A	_
+22	who	who	PRON	WP	_	24	F	24:F	_
+23	were	be	AUX	VBD	_	24	F	24:F	_
+24	unfamiliar	unfamiliar	ADJ	JJ	_	21	E	21:E	_
+25	with	with	ADP	IN	_	28	R	28:R	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	Palestinian	palestinian	ADJ	JJ	_	28	E	28:E	_
+28	group	group	NOUN	NN	_	24	A	24:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

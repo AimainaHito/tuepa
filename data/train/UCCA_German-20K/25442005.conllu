@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25442005
+# text = Er allein wog mit Auge und Arm die ganze Mannschaft auf .
+1	Er	er	PRON	PPER	_	3	A	3:A	_
+2	allein	allein	ADV	ADV	_	3	D	3:D	_
+3	wog	wiegen|wägen	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	5	R	5:R	_
+5	Auge	Auge	NOUN	NN	_	3	A	3:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Arm	Arm	NOUN	NE	_	5	C	5:C	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	ganze	ganz	ADJ	ADJA	_	10	E	10:E	_
+10	Mannschaft	Mannschaft	NOUN	NN	_	3	A	3:A	_
+11	auf	auf	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+12	.	.	PUNCT	$.	_	3	U	3:U	_
+

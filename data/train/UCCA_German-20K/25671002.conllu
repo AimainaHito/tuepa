@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25671002
+# text = Die Haifische waren beflissen , sie in ihrem leidigen Geschäfte zu unterstützen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Haifische	Haifische	NOUN	ADJA	_	12	A	12:A	_
+3	waren	sein	AUX	VAFIN	_	12	F	12:F	_
+4	beflissen	beflissen	ADV	VVINF	_	12	D	12:D	_
+5	,	,	PUNCT	$,	_	12	U	12:U	_
+6	sie	sie	PRON	ADV	_	12	A	12:A	_
+7	in	in	ADP	APPR	_	10	R	10:R	_
+8	ihrem	ihr	DET	PPOSAT	_	10	E	10:E	_
+9	leidigen	leidig	ADJ	ADJA	_	10	E	10:E	_
+10	Geschäfte	Geschäft	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	unterstützen	unterstützen	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25670001
+# text = Es gibt ein reizendes Tierchen , dessen Begegnung die Alten als ein glückliches Wahrzeichen ansahen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	gibt	geben	VERB	VVFIN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	5	E	5:E	_
+4	reizendes	reizend	ADJ	ADJA	_	5	E	5:E	_
+5	Tierchen	Tierchen	NOUN	ADJA	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dessen	der	DET	PRELAT	_	8	R	8:R	_
+8	Begegnung	Begegnung	NOUN	NN	_	15	A	15:A	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Alten	alt	NOUN	TRUNC	_	15	A	15:A	_
+11	als	als	ADP	KOKOM	_	14	R	14:R	_
+12	ein	ein	DET	ART	_	14	E	14:E	_
+13	glückliches	glücklich	ADJ	ADJA	_	14	E	14:E	_
+14	Wahrzeichen	Wahrzeichen	NOUN	NN	_	15	A	15:A	_
+15	ansahen	ansehen	VERB	VVFIN	_	5	E	5:E	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 542003
+# text = In 1929 , Warner persuaded British stage and screen actor George Arliss to play the title role in a remake of the 1921 United Artists film Disraeli , a project that turned out to be a box - office hit .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1929	1929	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+5	persuaded	persuad	VERB	VBD	_	0	H	0:H	_
+6	British	british	ADJ	JJ	_	10	E	10:E	_
+7	stage	stage	NOUN	NN	_	10	E	10:E	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	screen	screen	NOUN	NN	_	7	C	7:C	_
+10	actor	actor	NOUN	NN	_	11	E	11:E	_
+11	George	George	PROPN	NNP	_	5	A	5:A	_
+12	Arliss	Arliss	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	play	play	VERB	VB	_	5	A	5:A	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	title	title	NOUN	NN	_	17	E	17:E	_
+17	role	role	NOUN	NN	_	14	A	14:A	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	remake	remake	NOUN	NN	_	14	A	14:A	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	1921	1921	NUM	CD	_	20	D	20:D	_
+24	United	united	PROPN	NNP	_	26	E	26:E	_
+25	Artists	artists	PROPN	NNPS	_	24	Terminal	24:Terminal	_
+26	film	film	NOUN	NN	_	27	E	27:E	_
+27	Disraeli	Disraeli	PROPN	NNP	_	20	A	20:A	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	project	project	NOUN	NN	_	27	E	27:E	_
+31	that	that	PRON	WDT	_	40	F	40:F	_
+32	turned	turn	VERB	VBD	_	40	E	40:E	_
+33	out	out	ADP	RP	_	32	Terminal	32:Terminal	_
+34	to	to	PART	TO	_	40	F	40:F	_
+35	be	be	AUX	VB	_	40	F	40:F	_
+36	a	a	DET	DT	_	37	E	37:E	_
+37	box	box	NOUN	NN	_	40	A	40:A	_
+38	-	-	PUNCT	HYPH	_	37	U	37:U	_
+39	office	office	NOUN	NN	_	37	Terminal	37:Terminal	_
+40	hit	hit	NOUN	NN	_	30	E	30:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

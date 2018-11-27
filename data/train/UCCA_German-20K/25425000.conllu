@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25425000
+# text = In der Tat hat der Narwal zur Waffe eine Art Degen von Elfenbein , eine Hellebarde , wie einige Naturforscher sich ausdrücken .
+1	In	in	ADP	APPR	_	8	G	8:G	_
+2	der	der	DET	ART	_	1	Terminal	1:Terminal	_
+3	Tat	Tat	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	hat	haben	AUX	VAFIN	_	8	F	8:F	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Narwal	Narwal	NOUN	NN	_	8	A	8:A	_
+7	zur	zur	ADP	NE	_	8	R	8:R	_
+8	Waffe	Waffe	NOUN	NN	_	0	H	0:H	_
+9	eine	ein	DET	ART	_	11	E	11:E	_
+10	Art	Art	NOUN	NN	_	11	E	11:E	_
+11	Degen	Degen	PROPN	NN	_	8	A	8:A	_
+12	von	von	ADP	NE	_	13	R	13:R	_
+13	Elfenbein	Elfenbein	PROPN	NE	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	eine	ein	DET	ART	_	16	E	16:E	_
+16	Hellebarde	Hellebarde	NOUN	NN	_	11	C	11:C	_
+17	,	,	PUNCT	$,	_	8	U	8:U	_
+18	wie	wie	ADP	KON	_	8	L	8:L	_
+19	einige	einige	PRON	PIAT	_	20	E	20:E	_
+20	Naturforscher	Naturforscher	NOUN	NN	_	21	A	21:A	_
+21	sich	er|es|sie	PRON	PRF	_	8	H	8:H	_
+22	ausdrücken	ausdrücken	VERB	VVFIN	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25625012
+# text = » Endlich , Freund Ned « , sagte Conseil , » wird Ihnen doch nichts mehr mangeln ? «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Endlich	endlich	ADJ	ADV	_	13	L	13:L	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	Freund	Freund	NOUN	NN	_	5	E	5:E	_
+5	Ned	Ned	PROPN	NE	_	13	G	13:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	wird	werden	AUX	VAFIN	_	13	F	13:F	_
+13	Ihnen	Sie|sie	PRON	PPER	_	8	A	8:A	_
+14	doch	doch	ADV	ADV	_	13	D	13:D	_
+15	nichts	nichts	PRON	NN	_	16	E	16:E	_
+16	mehr	mehr	ADV	ADV	_	13	D	13:D	_
+17	mangeln	mangeln	VERB	VVFIN	_	13	Terminal	13:Terminal	_
+18	?	?	PUNCT	$.	_	13	U	13:U	_
+19	«	«	PUNCT	$(	_	13	U	13:U	_
+

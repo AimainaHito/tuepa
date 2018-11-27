@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 564014
+# text = " Sullivan publicly told TV Guide , " As for his gyrations , the whole thing can be controlled with camera shots .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Sullivan	Sullivan	PROPN	NNP	_	4	A	4:A	_
+3	publicly	publicly	ADV	RB	_	4	D	4:D	_
+4	told	tell	VERB	VBD	_	0	H	0:H	_
+5	TV	tv	NOUN	NN	_	4	A	4:A	_
+6	Guide	guide	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	"	"	PUNCT	''	_	4	U	4:U	_
+9	As	as	SCONJ	IN	_	12	L	12:L	_
+10	for	for	ADP	IN	_	9	R	9:R	_
+11	his	he	PRON	PRP$	_	12	A	12:A	_
+12	gyrations	gyration	NOUN	NNS	_	4	A	4:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	whole	whole	ADJ	JJ	_	16	E	16:E	_
+16	thing	thing	NOUN	NN	_	19	A	19:A	_
+17	can	can	AUX	MD	_	19	D	19:D	_
+18	be	be	AUX	VB	_	19	F	19:F	_
+19	controlled	controll	VERB	VBN	_	12	H	12:H	_
+20	with	with	ADP	IN	_	22	R	22:R	_
+21	camera	camera	NOUN	NN	_	22	E	22:E	_
+22	shots	shot	NOUN	NNS	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

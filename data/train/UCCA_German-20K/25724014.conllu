@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25724014
+# text = Ich war im Begriff , diese Wunder der Natur , diese Meisterwerke der Kunst , die mir so lieb geworden , auf immer zu verlassen .
+1	Ich	ich	PRON	PPER	_	25	A	25:A	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	im	im	ADV	NE	_	4	R	4:R	_
+4	Begriff	Begriff	NOUN	NN	_	25	D	25:D	_
+5	,	,	PUNCT	$,	_	25	U	25:U	_
+6	diese	dies	PRON	PDAT	_	7	E	7:E	_
+7	Wunder	Wunder	NOUN	NN	_	25	A	25:A	_
+8	der	der	DET	ART	_	9	R	9:R	_
+9	Natur	Natur	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	diese	dies	PRON	PDAT	_	12	E	12:E	_
+12	Meisterwerke	Meisterwerk	NOUN	NN	_	7	C	7:C	_
+13	der	der	DET	ART	_	14	R	14:R	_
+14	Kunst	Kunst	NOUN	NN	_	12	E	12:E	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	die	der	PRON	PRELS	_	19	R	19:R	_
+17	mir	ich	PRON	PPER	_	19	A	19:A	_
+18	so	so	ADV	ADV	_	19	D	19:D	_
+19	lieb	leiben	VERB	VVFIN	_	12	E	12:E	_
+20	geworden	werden	AUX	PAV	_	19	F	19:F	_
+21	,	,	PUNCT	$,	_	25	U	25:U	_
+22	auf	auf	ADP	APPR	_	23	R	23:R	_
+23	immer	immer	ADV	ADV	_	25	D	25:D	_
+24	zu	zu	PART	ADJA	_	25	F	25:F	_
+25	verlassen	verlassen	VERB	NN	_	0	H	0:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25528012
+# text = » Viertens « , fuhr Conseil fort , ohne sich irremachen zu lassen , » die Apoden , mit langem Leib , ohne Bauchflossen , und einer dichten , oft klebrigen Haut . Diese Ordnung bildet nur eine Familie , zu welcher der Aal gehört . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Viertens	Vierte	NOUN	NN	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A|10:A	_
+7	fort	fort	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	ohne	ohne	ADP	NN	_	10	D	10:D	_
+10	sich	er|es|sie	PRON	PRF	_	5	H	5:H	_
+11	irremachen	irremachen	VERB	ADJA	_	10	D	10:D	_
+12	zu	zu	PART	NN	_	10	Terminal	10:Terminal	_
+13	lassen	lassen	VERB	VVINF	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	»	»	PUNCT	$(	_	5	U	5:U	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Apoden	Apoden	NOUN	NN	_	2	A	2:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	mit	mit	ADP	APPR	_	21	R	21:R|32:R	_
+20	langem	lang	ADJ	ADJA	_	21	E	21:E	_
+21	Leib	Leib	NOUN	NN	_	17	E	17:E	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	ohne	ohne	ADP	CARD	_	24	R	24:R	_
+24	Bauchflossen	Bauchflossen	NOUN	NN	_	21	C	21:C	_
+25	,	,	PUNCT	$,	_	21	U	21:U	_
+26	und	und	CCONJ	NE	_	21	N	21:N	_
+27	einer	ein	DET	PIS	_	32	E	32:E	_
+28	dichten	dicht	ADJ	VVINF	_	32	E	32:E	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	oft	oft	ADV	CARD	_	31	E	31:E	_
+31	klebrigen	klebrig	ADJ	ADJA	_	28	C	28:C	_
+32	Haut	Haut	NOUN	NN	_	21	C	21:C	_
+33	.	.	PUNCT	$.	_	2	U	2:U	_
+34	Diese	dies	PRON	PDAT	_	35	E	35:E	_
+35	Ordnung	Ordnung	NOUN	NN	_	36	A	36:A	_
+36	bildet	bilden	VERB	VVFIN	_	2	H	2:H	_
+37	nur	nur	ADV	NE	_	36	D	36:D	_
+38	eine	ein	DET	ART	_	39	E	39:E	_
+39	Familie	Familie	NOUN	NN	_	36	A	36:A	_
+40	,	,	PUNCT	$,	_	39	U	39:U	_
+41	zu	zu	ADP	NE	_	42	R	42:R	_
+42	welcher	welch	PRON	PWAT	_	45	A	45:A	_
+43	der	der	DET	ART	_	44	E	44:E	_
+44	Aal	Aal	NOUN	NN	_	45	A	45:A	_
+45	gehört	gehören	VERB	VVFIN	_	39	E	39:E	_
+46	.	.	PUNCT	$.	_	45	U	45:U	_
+47	«	«	PUNCT	$(	_	45	U	45:U	_
+

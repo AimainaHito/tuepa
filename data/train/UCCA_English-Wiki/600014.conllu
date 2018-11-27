@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 600014
+# text = " Long Tall Sally " was the first song McCartney performed in public , at a Butlins holiday camp talent competition .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Long	long	PROPN	NNP	_	6	A	6:A	_
+3	Tall	tall	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Sally	Sally	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	"	"	PUNCT	''	_	6	U	6:U	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	first	first	ADJ	JJ	_	9	E	9:E	_
+9	song	song	NOUN	NN	_	6	A	6:A	_
+10	McCartney	McCartney	PROPN	NNP	_	11	A	11:A	_
+11	performed	perform	VERB	VBD	_	9	E	9:E	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	public	public	ADJ	JJ	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	11	U	11:U	_
+15	at	at	ADP	IN	_	21	R	21:R	_
+16	a	a	DET	DT	_	21	E	21:E	_
+17	Butlins	Butlins	PROPN	NNP	_	19	E	19:E	_
+18	holiday	holiday	NOUN	NN	_	19	E	19:E	_
+19	camp	camp	NOUN	NN	_	21	E	21:E	_
+20	talent	talent	NOUN	NN	_	21	E	21:E	_
+21	competition	competition	NOUN	NN	_	11	A	11:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

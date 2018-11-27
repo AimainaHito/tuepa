@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 662005
+# text = On August 31 , Music Box was released around the world , debuting at number - one on the Billboard 200 .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	August	August	PROPN	NNP	_	8	D	8:D	_
+3	31	31	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Music	music	ADJ	JJ	_	8	A	8:A|13:A	_
+6	Box	box	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	released	release	VERB	VBN	_	0	H	0:H	_
+9	around	around	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	world	world	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	debuting	debut	VERB	VBG	_	8	H	8:H	_
+14	at	at	ADP	IN	_	15	R	15:R	_
+15	number	number	NOUN	NN	_	13	A	13:A	_
+16	-	-	PUNCT	HYPH	_	15	U	15:U	_
+17	one	one	NUM	CD	_	15	E	15:E	_
+18	on	on	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Billboard	Billboard	NOUN	NN	_	13	A	13:A	_
+21	200	200	NUM	CD	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

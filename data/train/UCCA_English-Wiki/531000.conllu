@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 531000
+# text = In 1961 , Garland and CBS settled their contract disputes with the help of her new agent , Freddie Fields , and negotiated a new round of specials .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1961	1961	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	Garland	Garland	PROPN	NNP	_	0	C	0:C|23:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	CBS	CBS	PROPN	NNP	_	4	C	4:C|23:A	_
+7	settled	settle	VERB	VBD	_	0	H	0:H	_
+8	their	they	PRON	PRP$	_	10	E	10:E	_
+9	contract	contract	NOUN	NN	_	10	E	10:E	_
+10	disputes	dispute	NOUN	NNS	_	7	A	7:A	_
+11	with	with	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	help	help	NOUN	NN	_	7	A	7:A	_
+14	of	of	ADP	IN	_	19	R	19:R	_
+15	her	she	PRON	PRP$	_	19	E	19:E	_
+16	new	new	ADJ	JJ	_	17	E	17:E	_
+17	agent	agent	NOUN	NN	_	19	E	19:E	_
+18	,	,	PUNCT	,	_	19	U	19:U	_
+19	Freddie	Freddie	PROPN	NNP	_	13	E	13:E	_
+20	Fields	fields	PROPN	NNPS	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	7	U	7:U	_
+22	and	and	CCONJ	CC	_	7	L	7:L	_
+23	negotiated	negotiate	VERB	VBD	_	7	H	7:H	_
+24	a	a	DET	DT	_	26	E	26:E	_
+25	new	new	ADJ	JJ	_	26	E	26:E	_
+26	round	round	NOUN	NN	_	23	A	23:A	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	specials	special	NOUN	NNS	_	26	E	26:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

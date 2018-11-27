@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25643001
+# text = Ich verneinte seine Frage mit dem Beifügen , es mangele der Wissenschaft an strengen Beobachtungen über diesen Punkt .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|7:A	_
+2	verneinte	verneint	VERB	VVFIN	_	0	H	0:H	_
+3	seine	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Frage	Frage	NOUN	NN	_	2	A	2:A	_
+5	mit	mit	ADP	APPR	_	2	L	2:L	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Beifügen	Beifug	NOUN	NN	_	2	H	2:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	es	es	PRON	PPER	_	10	F	10:F	_
+10	mangele	mangel	PRON	NN	_	7	A	7:A	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Wissenschaft	Wissenschaft	NOUN	NN	_	10	A	10:A	_
+13	an	an	ADP	APPR	_	15	R	15:R	_
+14	strengen	streng	ADJ	ADJD	_	15	E	15:E	_
+15	Beobachtungen	Beobachtung	NOUN	NN	_	10	A	10:A	_
+16	über	über	ADP	VVFIN	_	18	R	18:R	_
+17	diesen	dies	PRON	PDAT	_	18	E	18:E	_
+18	Punkt	Punkt	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

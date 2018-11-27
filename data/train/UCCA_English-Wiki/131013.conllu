@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 131013
+# text = The Philadelphia Story first toured the United States , to positive reviews , and then opened in New York at the Schubert Theatre on March 29 , 1939 .
+1	The	the	DET	DT	_	5	A	5:A|12:A|16:A	_
+2	Philadelphia	Philadelphia	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Story	Story	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	first	first	ADV	RB	_	5	D	5:D	_
+5	toured	toure	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	United	United	PROPN	NNP	_	5	A	5:A	_
+8	States	States	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	to	to	ADP	IN	_	5	L	5:L	_
+11	positive	positive	ADJ	JJ	_	12	E	12:E	_
+12	reviews	review	NOUN	NNS	_	5	H	5:H	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	and	and	CCONJ	CC	_	15	E	15:E	_
+15	then	then	ADV	RB	_	5	L	5:L	_
+16	opened	open	VERB	VBD	_	5	H	5:H	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	New	New	PROPN	NNP	_	16	A	16:A	_
+19	York	York	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	at	at	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	Schubert	Schubert	PROPN	NNP	_	16	A	16:A	_
+23	Theatre	theatre	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	on	on	ADP	IN	_	25	R	25:R	_
+25	March	March	PROPN	NNP	_	16	D	16:D	_
+26	29	29	NUM	CD	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	25	U	25:U	_
+28	1939	1939	NUM	CD	_	25	Terminal	25:Terminal	_
+29	.	.	PUNCT	.	_	25	U	25:U	_
+

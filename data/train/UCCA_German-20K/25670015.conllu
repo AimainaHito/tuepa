@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25670015
+# text = Oft schossen diese gewaltigen Tiere mit beunruhigendem Ungestüm gegen die Fenster des Salons .
+1	Oft	oft	ADV	ADV	_	2	D	2:D	_
+2	schossen	schossen	VERB	VVINF	_	0	H	0:H	_
+3	diese	dies	PRON	PDAT	_	5	E	5:E	_
+4	gewaltigen	gewaltig	ADJ	ADJA	_	5	E	5:E	_
+5	Tiere	Tier	NOUN	NN	_	2	A	2:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	beunruhigendem	beunruhigend	ADJ	ADJA	_	8	E	8:E	_
+8	Ungestüm	Ungestüm	NOUN	NN	_	2	A	2:A	_
+9	gegen	gegen	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Fenster	Fenster	NOUN	NN	_	2	A	2:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Salons	Salon	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

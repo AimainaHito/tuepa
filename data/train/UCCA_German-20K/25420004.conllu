@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25420004
+# text = Solange ich die Wirklichkeit des Tatsächlichen in Abrede stellen konnte , verhielt ich mich durchaus verneinend .
+1	Solange	solange	SCONJ	KOUS	_	7	L	7:L	_
+2	ich	ich	PRON	PPER	_	7	A	7:A	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Wirklichkeit	Wirklichkeit	NOUN	NN	_	7	A	7:A	_
+5	des	der	DET	ART	_	6	E	6:E	_
+6	Tatsächlichen	tatsächlichen	NOUN	ADJA	_	4	E	4:E	_
+7	in	in	ADP	APPR	_	0	H	0:H	_
+8	Abrede	Abrede	PROPN	NN	_	7	Terminal	7:Terminal	_
+9	stellen	stellen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+10	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	verhielt	verhalten	VERB	VVFIN	_	7	H	7:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	mich	ich	PRON	PRF	_	12	Terminal	12:Terminal	_
+15	durchaus	durchaus	ADV	ADV	_	12	D	12:D	_
+16	verneinend	verneinend	ADJ	ADJD	_	12	D	12:D	_
+17	.	.	PUNCT	$.	_	12	U	12:U	_
+

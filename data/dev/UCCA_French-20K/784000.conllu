@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 784000
+# text = Je saluai , et laissant le commandant aux soins de son appareillage , je me fis conduire à la cabine qui m' était destinée .
+1	Je	il	PRON	_	_	2	A	2:A	_
+2	saluai	salu	VERB	_	_	0	H	0:H	_
+3	,	,	PUNCT	_	_	2	U	2:U	_
+4	et	et	CCONJ	_	_	2	L	2:L	_
+5	laissant	laisser	VERB	_	_	2	H	2:H	_
+6	le	le	DET	_	_	7	E	7:E	_
+7	commandant	commandant	NOUN	_	_	0	C	0:C|2:A	_
+8	aux	au	ADJ	_	_	9	R	9:R	_
+9	soins	soin	NOUN	_	_	5	A	5:A	_
+10	de	de	ADP	_	_	12	R	12:R	_
+11	son	son	DET	_	_	12	E	12:E	_
+12	appareillage	appareillage	NOUN	_	_	9	E	9:E	_
+13	,	,	PUNCT	_	_	2	U	2:U	_
+14	je	il	PRON	_	_	16	A	16:A	_
+15	me	lui	PRON	_	_	16	A	16:A	_
+16	fis	fis	ADJ	_	_	2	H	2:H	_
+17	conduire	conduire	VERB	_	_	16	Terminal	16:Terminal	_
+18	à	à	ADP	_	_	20	R	20:R	_
+19	la	le	DET	_	_	20	E	20:E	_
+20	cabine	cabine	NOUN	_	_	16	A	16:A	_
+21	qui	qui	PRON	_	_	24	R	24:R	_
+22	m'	me	PRON	_	_	24	A	24:A	_
+23	était	être	AUX	_	_	24	F	24:F	_
+24	destinée	destiner	VERB	_	_	20	E	20:E	_
+25	.	.	PUNCT	_	_	24	U	24:U	_
+

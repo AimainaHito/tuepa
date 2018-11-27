@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25640025
+# text = Die Schnelligkeit seiner Schraube war dergestalt , dass ich ihre Umdrehungen nicht beobachten konnte .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Schnelligkeit	Schnelligkeit	NOUN	NN	_	0	H	0:H	_
+3	seiner	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Schraube	Schraube	NOUN	NN	_	2	A	2:A	_
+5	war	sein	AUX	ADV	_	2	F	2:F	_
+6	dergestalt	dergestalt	VERB	NN	_	2	D	2:D	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+9	ich	ich	PRON	PPER	_	13	A	13:A	_
+10	ihre	ihr	DET	PPOSAT	_	11	E	11:E	_
+11	Umdrehungen	Umdrehung	NOUN	NN	_	13	A	13:A	_
+12	nicht	nicht	PART	XY	_	13	D	13:D	_
+13	beobachten	beobachten	VERB	VVINF	_	2	H	2:H	_
+14	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

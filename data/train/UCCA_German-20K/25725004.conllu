@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25725004
+# text = Plötzlich schlug es 8 Uhr .
+1	Plötzlich	plötzlich	ADJ	ADJD	_	2	D	2:D	_
+2	schlug	schlagen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	8	8	NUM	CARD	_	5	E	5:E	_
+5	Uhr	Uhr	NOUN	NN	_	2	D	2:D	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

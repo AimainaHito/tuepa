@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25446000
+# text = » Doch , Ned , Sie , ein Walfisch fänger von Profession , der mit den großen See säugetieren vertraut ist , dessen Einbildungskraft leicht die Hypothese von enormen See tieren gelten lassen kann , Sie sollten der Letzte sein , der in solche Dinge Zweifel setzt !
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Doch	doch	CCONJ	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Sie	Sie|sie	PRON	PPER	_	39	A	39:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	Walfisch	Walfisch	NOUN	NN	_	10	E	10:E	_
+10	fänger	fäng	ADJ	ADJA	_	0	C	0:C|32:A|20:A	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	Profession	Profession	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	der	der	PRON	PRELS	_	20	R	20:R	_
+15	mit	mit	ADP	APPR	_	19	R	19:R	_
+16	den	der	DET	ART	_	19	E	19:E	_
+17	großen	groß	ADJ	ADJA	_	19	E	19:E	_
+18	See	See	NOUN	NN	_	19	E	19:E	_
+19	säugetieren	säugetieren	VERB	VVFIN	_	20	A	20:A	_
+20	vertraut	vertraut	ADJ	ADJD	_	6	E	6:E	_
+21	ist	sein	AUX	NN	_	20	F	20:F	_
+22	,	,	PUNCT	$,	_	6	U	6:U	_
+23	dessen	der	DET	PRELAT	_	24	R	24:R	_
+24	Einbildungskraft	Einbildungskraft	NOUN	NN	_	32	A	32:A	_
+25	leicht	leichen	VERB	ADJD	_	32	D	32:D	_
+26	die	der	DET	ART	_	27	E	27:E	_
+27	Hypothese	Hypothese	NOUN	NN	_	32	A	32:A	_
+28	von	von	ADP	NN	_	31	R	31:R	_
+29	enormen	enorm	ADJ	ADJA	_	31	E	31:E	_
+30	See	See	NOUN	NN	_	31	E	31:E	_
+31	tieren	tieren	VERB	VVINF	_	27	E	27:E	_
+32	gelten	gelten	AUX	VVFIN	_	6	E	6:E	_
+33	lassen	lassen	VERB	VVINF	_	32	D	32:D	_
+34	kann	können	AUX	VMFIN	_	32	F	32:F	_
+35	,	,	PUNCT	$,	_	39	U	39:U	_
+36	Sie	Sie|sie	PRON	PPER	_	39	A	39:A	_
+37	sollten	sollen	AUX	VMFIN	_	39	D	39:D	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Letzte	letzt	NOUN	ADJA	_	2	H	2:H	_
+40	sein	sein	AUX	VAINF	_	39	F	39:F	_
+41	,	,	PUNCT	$,	_	39	U	39:U	_
+42	der	der	PRON	PRELS	_	46	R	46:R	_
+43	in	in	ADP	APPR	_	45	R	45:R	_
+44	solche	solch	PRON	ADJA	_	45	E	45:E	_
+45	Dinge	Ding	NOUN	NN	_	46	A	46:A	_
+46	Zweifel	Zweifel	NOUN	NN	_	39	A	39:A	_
+47	setzt	setzen	VERB	VVFIN	_	46	F	46:F	_
+48	!	!	PUNCT	$.	_	46	U	46:U	_
+

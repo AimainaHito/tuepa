@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25460000
+# text = Auf gut Glück ! Die Fahrt der ›Abraham Lincoln‹ wurde eine Zeit lang von keinem Zwischenfall betroffen .
+1	Auf	auf	ADP	APPR	_	0	H	0:H	_
+2	gut	gut	ADJ	ADJD	_	1	Terminal	1:Terminal	_
+3	Glück	Glück	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	!	!	PUNCT	$.	_	1	U	1:U	_
+5	Die	der	DET	ART	_	6	E	6:E	_
+6	Fahrt	Fahrt	NOUN	NN	_	17	A	17:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	›Abraham	›Abraham	PROPN	NN	_	6	A	6:A	_
+9	Lincoln‹	Lincoln‹	NOUN	NE	_	8	Terminal	8:Terminal	_
+10	wurde	werden	AUX	NE	_	17	F	17:F	_
+11	eine	ein	DET	ART	_	12	E	12:E	_
+12	Zeit	Zeit	NOUN	NN	_	17	D	17:D	_
+13	lang	lang	ADJ	ADJD	_	17	D	17:D	_
+14	von	von	ADP	NN	_	16	R	16:R	_
+15	keinem	kein	PRON	PIAT	_	16	E	16:E	_
+16	Zwischenfall	Zwischenfall	NOUN	NN	_	17	A	17:A	_
+17	betroffen	betreffen	VERB	ADJD	_	1	H	1:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

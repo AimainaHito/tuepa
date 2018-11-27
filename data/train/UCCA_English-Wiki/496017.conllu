@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 496017
+# text = After a disastrous opening gig at the London Roundhouse , they reverted to a configuration presenting Bowie as a solo artist .
+1	After	after	ADP	IN	_	5	L	5:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	disastrous	disastrous	ADJ	JJ	_	5	D	5:D	_
+4	opening	opening	NOUN	NN	_	5	E	5:E	_
+5	gig	gig	VERB	VBG	_	0	H	0:H	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	London	London	PROPN	NNP	_	5	A	5:A	_
+9	Roundhouse	Roundhouse	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	they	they	PRON	PRP	_	12	A	12:A	_
+12	reverted	revert	VERB	VBD	_	5	H	5:H	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	configuration	configuration	NOUN	NN	_	12	A	12:A	_
+16	presenting	present	VERB	VBG	_	15	E	15:E	_
+17	Bowie	Bowie	PROPN	NNP	_	16	A	16:A	_
+18	as	as	ADP	IN	_	21	R	21:R	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	solo	solo	ADJ	JJ	_	21	E	21:E	_
+21	artist	artist	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

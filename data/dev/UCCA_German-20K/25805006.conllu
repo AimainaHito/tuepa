@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25805006
+# text = Offenbar wollte er nicht in dem mexikanischen Golf oder dem Meer der Antillen fahren .
+1	Offenbar	offenbar	ADJ	NE	_	14	G	14:G	_
+2	wollte	wollen	AUX	VMFIN	_	14	D	14:D	_
+3	er	er	PRON	PPER	_	14	A	14:A	_
+4	nicht	nicht	PART	XY	_	14	D	14:D	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	dem	der	DET	ART	_	8	E	8:E	_
+7	mexikanischen	mexikanisch	ADJ	ADJA	_	8	E	8:E	_
+8	Golf	Golf	NOUN	NN	_	14	A	14:A	_
+9	oder	oder	CCONJ	CARD	_	8	N	8:N	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Meer	Meer	NOUN	NN	_	8	C	8:C	_
+12	der	der	DET	ART	_	11	Terminal	11:Terminal	_
+13	Antillen	Antille	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	fahren	fahren	VERB	VVINF	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

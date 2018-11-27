@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 705012
+# text = Now I come out and say Jesus Christ is the answer .
+1	Now	now	ADV	RB	_	3	D	3:D	_
+2	I	I	PRON	PRP	_	3	A	3:A	_
+3	come	come	VERB	VBP	_	0	H	0:H	_
+4	out	out	ADV	RB	_	3	Terminal	3:Terminal	_
+5	and	and	CCONJ	CC	_	3	Terminal	3:Terminal	_
+6	say	say	VERB	VB	_	3	Terminal	3:Terminal	_
+7	Jesus	Jesus	PROPN	NNP	_	9	A	9:A	_
+8	Christ	Christ	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	is	be	AUX	VBZ	_	3	A	3:A	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	answer	answer	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

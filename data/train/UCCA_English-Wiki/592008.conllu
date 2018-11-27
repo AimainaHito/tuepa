@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 592008
+# text = To thank Great Ormond Street Hospital , Depp visited the hospital in November 2007 , dressed in his Captain Jack Sparrow outfit , and spent four hours reading stories to the children .
+1	To	to	PART	TO	_	2	L	2:L	_
+2	thank	thank	VERB	VB	_	0	H	0:H	_
+3	Great	Great	ADJ	JJ	_	6	E	6:E	_
+4	Ormond	Ormond	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Street	Street	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	Hospital	Hospital	PROPN	NNP	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	Depp	Depp	PROPN	NNP	_	9	A	9:A|28:A|2:A|25:A|16:A	_
+9	visited	visit	VERB	VBD	_	2	H	2:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	hospital	hospital	NOUN	NN	_	9	A	9:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	November	November	PROPN	NNP	_	9	D	9:D	_
+14	2007	2007	NUM	CD	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	dressed	dress	VERB	VBD	_	2	H	2:H	_
+17	in	in	ADP	IN	_	22	R	22:R	_
+18	his	he	PRON	PRP$	_	22	E	22:E	_
+19	Captain	captain	PROPN	NNP	_	22	E	22:E	_
+20	Jack	jack	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Sparrow	Sparrow	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	outfit	outfit	NOUN	NN	_	16	A	16:A	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	and	and	CCONJ	CC	_	2	L	2:L	_
+25	spent	spend	VERB	VBD	_	2	H	2:H	_
+26	four	four	NUM	CD	_	27	E	27:E	_
+27	hours	hour	NOUN	NNS	_	25	D	25:D	_
+28	reading	read	VERB	VBG	_	25	A	25:A	_
+29	stories	story	NOUN	NNS	_	28	A	28:A	_
+30	to	to	ADP	IN	_	32	R	32:R	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	children	child	NOUN	NNS	_	28	A	28:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

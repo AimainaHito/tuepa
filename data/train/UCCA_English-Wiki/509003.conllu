@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 509003
+# text = The heavy rotation of the accompanying video , also featuring Reznor , contributed to the song 's 16 - week stay in the US Billboard Hot 100 .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	heavy	heavy	ADJ	JJ	_	3	E	3:E	_
+3	rotation	rotation	NOUN	NN	_	13	A	13:A	_
+4	of	of	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	accompanying	accompanying	VERB	VBG	_	7	E	7:E	_
+7	video	video	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	also	also	ADV	RB	_	10	D	10:D	_
+10	featuring	feature	VERB	VBG	_	7	E	7:E	_
+11	Reznor	Reznor	PROPN	NNP	_	10	A	10:A	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	contributed	contribute	VERB	VBD	_	0	H	0:H	_
+14	to	to	ADP	IN	_	21	R	21:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	song	song	NOUN	NN	_	21	A	21:A	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	16	16	NUM	CD	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	week	week	NOUN	NN	_	21	D	21:D	_
+21	stay	stay	NOUN	NN	_	13	A	13:A	_
+22	in	in	ADP	IN	_	26	R	26:R	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	US	US	PROPN	NNP	_	26	E	26:E	_
+25	Billboard	Billboard	PROPN	NNP	_	26	E	26:E	_
+26	Hot	hot	PROPN	NNP	_	21	A	21:A	_
+27	100	100	NUM	CD	_	26	E	26:E	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+

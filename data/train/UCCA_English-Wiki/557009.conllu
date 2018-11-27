@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 557009
+# text = He explained to his father , " They told me I could n't sing .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	explained	explain	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	5	R	5:R	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	father	father	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	"	"	PUNCT	''	_	2	U	2:U	_
+8	They	they	PRON	PRP	_	9	A	9:A	_
+9	told	tell	VERB	VBD	_	2	A	2:A	_
+10	me	I	PRON	PRP	_	9	A	9:A	_
+11	I	I	PRON	PRP	_	14	A	14:A	_
+12	could	could	AUX	MD	_	14	F	14:F	_
+13	n't	not	PART	RB	_	14	D	14:D	_
+14	sing	se	ADJ	JJ	_	9	A	9:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

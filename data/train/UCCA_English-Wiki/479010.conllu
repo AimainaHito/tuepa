@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 479010
+# text = Johnson appeared at Bird 's retirement ceremony in 1992 , and described Bird as a " friend forever " ; during Johnson 's Hall of Fame ceremony , Bird formally inducted his old rival .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A|12:A	_
+2	appeared	appear	VERB	VBD	_	0	H	0:H	_
+3	at	at	ADP	IN	_	7	R	7:R	_
+4	Bird	bird	PROPN	NNP	_	7	A	7:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	retirement	retirement	NOUN	NN	_	7	E	7:E	_
+7	ceremony	ceremony	NOUN	NN	_	2	A	2:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	1992	1992	NUM	CD	_	7	D	7:D	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	described	describe	VERB	VBD	_	2	H	2:H	_
+13	Bird	bird	PROPN	NNP	_	12	A	12:A	_
+14	as	as	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	"	"	PUNCT	``	_	17	U	17:U	_
+17	friend	friend	NOUN	NN	_	12	A	12:A	_
+18	forever	forever	ADV	RB	_	17	E	17:E	_
+19	"	"	PUNCT	''	_	2	U	2:U	_
+20	;	;	PUNCT	,	_	2	U	2:U	_
+21	during	during	ADP	IN	_	2	L	2:L	_
+22	Johnson	Johnson	PROPN	NNP	_	27	A	27:A	_
+23	's	's	PART	POS	_	22	R	22:R	_
+24	Hall	hall	NOUN	NN	_	27	E	27:E	_
+25	of	of	ADP	IN	_	24	Terminal	24:Terminal	_
+26	Fame	fame	ADJ	JJ	_	24	Terminal	24:Terminal	_
+27	ceremony	ceremony	NOUN	NN	_	2	H	2:H	_
+28	,	,	PUNCT	,	_	2	U	2:U	_
+29	Bird	bird	PROPN	NNP	_	31	A	31:A	_
+30	formally	formally	ADV	RB	_	31	D	31:D	_
+31	inducted	induct	VERB	VBD	_	2	H	2:H	_
+32	his	he	PRON	PRP$	_	34	E	34:E	_
+33	old	old	ADJ	JJ	_	34	E	34:E	_
+34	rival	rival	NOUN	NN	_	31	A	31:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25408009
+# text = Aber es existierte ; die Tatsache an sich war nicht in Abrede zu stellen , und bei der Neigung , womit sich die Menschen dem Wunderbaren zuwenden , begreift man leicht die Bewegung , welche diese übernatürliche Erscheinung in der ganzen Welt hervorbrachte .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	es	es	PRON	PPER	_	3	A	3:A	_
+3	existierte	existieren	VERB	VVFIN	_	0	H	0:H	_
+4	;	;	PUNCT	$.	_	3	U	3:U	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Tatsache	Tatsache	NOUN	NN	_	11	A	11:A	_
+7	an	an	ADP	APPR	_	6	E	6:E	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	war	sein	AUX	ADV	_	11	F	11:F	_
+10	nicht	nicht	PART	CARD	_	11	D	11:D	_
+11	in	in	ADP	APPR	_	3	H	3:H	_
+12	Abrede	Abred	PRON	NN	_	11	Terminal	11:Terminal	_
+13	zu	zu	PART	VVINF	_	11	F	11:F	_
+14	stellen	stellen	VERB	VVINF	_	11	Terminal	11:Terminal	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	und	und	CCONJ	NE	_	3	L	3:L	_
+17	bei	bei	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Neigung	Neigung	NOUN	NN	_	29	A	29:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	womit	womit	PRON	VVFIN	_	22	R	22:R	_
+22	sich	er|es|sie	PRON	PRF	_	19	E	19:E	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Menschen	Mensch	NOUN	NN	_	22	A	22:A	_
+25	dem	der	DET	ART	_	26	E	26:E	_
+26	Wunderbaren	Wunderbare	NOUN	NN	_	22	A	22:A	_
+27	zuwenden	zuwenden	VERB	ADJA	_	22	Terminal	22:Terminal	_
+28	,	,	PUNCT	$,	_	29	U	29:U	_
+29	begreift	begreifen	VERB	VVFIN	_	3	H	3:H	_
+30	man	man	PRON	PIS	_	29	A	29:A	_
+31	leicht	leicht	ADJ	PTKVZ	_	29	D	29:D	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Bewegung	Bewegung	NOUN	NN	_	29	A	29:A	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	welche	welch	PRON	NN	_	43	R	43:R	_
+36	diese	dies	PRON	PDAT	_	38	E	38:E	_
+37	übernatürliche	übernatürlich	ADJ	ADJA	_	38	E	38:E	_
+38	Erscheinung	Erscheinung	NOUN	NN	_	43	A	43:A	_
+39	in	in	ADP	APPR	_	42	R	42:R	_
+40	der	der	DET	ART	_	42	E	42:E	_
+41	ganzen	ganz	ADJ	ADJA	_	42	E	42:E	_
+42	Welt	Welt	NOUN	NN	_	43	A	43:A	_
+43	hervorbrachte	hervorbrachen	VERB	VVFIN	_	33	E	33:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

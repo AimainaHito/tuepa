@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 727012
+# text = She portrayed an FBI profiler summoned to help Montreal law enforcement hunt down a serial killer .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	portrayed	portray	VERB	VBD	_	0	H	0:H	_
+3	an	a	DET	DT	_	5	E	5:E	_
+4	FBI	FBI	PROPN	NNP	_	5	E	5:E	_
+5	profiler	profiler	NOUN	NN	_	8	A	8:A	_
+6	summoned	summon	VERB	VBD	_	8	D	8:D	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	help	help	VERB	VB	_	2	A	2:A	_
+9	Montreal	Montreal	PROPN	NNP	_	11	E	11:E	_
+10	law	law	NOUN	NN	_	11	E	11:E	_
+11	enforcement	enforcement	NOUN	NN	_	8	A	8:A	_
+12	hunt	hunt	VERB	VB	_	8	A	8:A	_
+13	down	down	ADP	RP	_	12	Terminal	12:Terminal	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	serial	serial	ADJ	JJ	_	16	E	16:E	_
+16	killer	killer	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

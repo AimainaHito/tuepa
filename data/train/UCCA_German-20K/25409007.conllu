@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25409007
+# text = Die größten Wallfische aber , wie sie in der Gegend der Aleuten vorkommen , haben die Länge von hundertundfünfzig Meter niemals überschritten .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	größten	groß	ADJ	ADJA	_	3	E	3:E	_
+3	Wallfische	Wallfische	NOUN	ADJA	_	22	A	22:A	_
+4	aber	aber	ADV	ADV	_	22	L	22:L	_
+5	,	,	PUNCT	$,	_	22	U	22:U	_
+6	wie	wie	SCONJ	KON	_	13	R	13:R	_
+7	sie	sie	PRON	ADV	_	13	A	13:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Gegend	Gegend	NOUN	NN	_	12	E	12:E	_
+11	der	der	DET	ART	_	10	R	10:R	_
+12	Aleuten	Aleu	NOUN	NN	_	13	A	13:A	_
+13	vorkommen	vorkommen	VERB	VVPP	_	22	H	22:H	_
+14	,	,	PUNCT	$,	_	22	U	22:U	_
+15	haben	haben	AUX	VAFIN	_	22	F	22:F	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Länge	Länge	NOUN	NN	_	20	E	20:E	_
+18	von	von	ADP	NN	_	17	R	17:R	_
+19	hundertundfünfzig	hundertundfünfzig	NUM	CARD	_	20	E	20:E	_
+20	Meter	Meter	NOUN	NN	_	22	A	22:A	_
+21	niemals	niemals	ADV	ADV	_	22	D	22:D	_
+22	überschritten	überschreiten	VERB	VVPP	_	0	H	0:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25729015
+# text = » Ja ! Der verdammte Kapitän musste gerade zu der Stunde anhalten , da wir im Begriff waren , von seinem Fahrzeug zu entweichen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Der	der	DET	ART	_	6	E	6:E	_
+5	verdammte	verdammt	ADJ	ADJA	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	12	A	12:A	_
+7	musste	müssen	AUX	VVFIN	_	12	D	12:D	_
+8	gerade	gerade	ADV	ADV	_	12	D	12:D	_
+9	zu	zu	ADP	VVINF	_	10	R	10:R	_
+10	der	der	DET	ART	_	12	D	12:D	_
+11	Stunde	Stunde	NOUN	NN	_	10	E	10:E	_
+12	anhalten	anhalten	VERB	VVINF	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	da	da	SCONJ	KOUS	_	2	L	2:L	_
+15	wir	wir	PRON	NE	_	24	A	24:A	_
+16	im	im	ADV	NE	_	17	R	17:R	_
+17	Begriff	Begriff	NOUN	NN	_	24	D	24:D	_
+18	waren	sein	AUX	VAFIN	_	24	F	24:F	_
+19	,	,	PUNCT	$,	_	24	U	24:U	_
+20	von	von	ADP	NN	_	22	R	22:R	_
+21	seinem	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Fahrzeug	Fahrzeug	NOUN	NN	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	entweichen	entweichen	VERB	ADJA	_	2	H	2:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

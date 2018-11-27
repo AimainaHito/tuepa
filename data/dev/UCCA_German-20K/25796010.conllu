@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25796010
+# text = Wie viele Stunden so verflossen , weiß ich nicht anzugeben .
+1	Wie	wie	ADP	NE	_	3	E	3:E	_
+2	viele	viel	ADJ	NE	_	3	E	3:E	_
+3	Stunden	Stunde|Stunden	NOUN	NN	_	5	A	5:A	_
+4	so	so	ADV	ADV	_	5	D	5:D	_
+5	verflossen	verflossen	VERB	VVPP	_	10	A	10:A	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	weiß	wissen	VERB	VVFIN	_	10	D	10:D	_
+8	ich	ich	PRON	PPER	_	10	A	10:A	_
+9	nicht	nicht	PART	XY	_	10	D	10:D	_
+10	anzugeben	anzugeben	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 460005
+# text = Jennings , however , never made the remarks , and Limbaugh later apologized and made a retraction .
+1	Jennings	Jenning	NOUN	NNS	_	6	A	6:A	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	however	however	ADV	RB	_	6	L	6:L	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	never	never	ADV	RB	_	6	D	6:D	_
+6	made	make	VERB	VBN	_	0	H	0:H	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	remarks	remark	NOUN	NNS	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	and	and	CCONJ	CC	_	6	L	6:L	_
+11	Limbaugh	Limbaugh	PROPN	NNP	_	13	A	13:A|17:A	_
+12	later	later	ADV	RB	_	13	D	13:D	_
+13	apologized	apologized	VERB	VBN	_	6	H	6:H	_
+14	and	and	CCONJ	CC	_	6	L	6:L	_
+15	made	make	VERB	VBN	_	17	F	17:F	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	retraction	retraction	NOUN	NN	_	6	H	6:H	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

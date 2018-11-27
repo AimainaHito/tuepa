@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25639004
+# text = So verging die Nacht , ohne dass die Mannschaft von ihrer gewöhnlichen Untätigkeit abließ .
+1	So	so	ADV	ADV	_	2	L	2:L	_
+2	verging	vergangen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Nacht	Nacht	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	ohne	ohne	ADP	CARD	_	2	L	2:L	_
+7	dass	dass	SCONJ	KOUS	_	6	Terminal	6:Terminal	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Mannschaft	Mannschaft	NOUN	NN	_	14	A	14:A	_
+10	von	von	ADP	NE	_	13	R	13:R	_
+11	ihrer	ihr	DET	PPOSAT	_	13	E	13:E	_
+12	gewöhnlichen	gewöhnlich	ADJ	ADJA	_	13	E	13:E	_
+13	Untätigkeit	Untätigkeit	NOUN	NN	_	14	A	14:A	_
+14	abließ	ablassen	VERB	VVFIN	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

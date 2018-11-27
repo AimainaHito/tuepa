@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25694002
+# text = Doch muß ich beifügen , dass die Naturforscher über die Art der Organisation des Schwammes nicht einig sind .
+1	Doch	doch	ADV	KON	_	4	L	4:L	_
+2	muß	müssen	AUX	VMFIN	_	4	D	4:D	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	beifügen	beifügen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Naturforscher	Naturforscher	NOUN	NN	_	18	A	18:A	_
+9	über	über	ADP	VVFIN	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Art	Art	NOUN	NN	_	18	A	18:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Organisation	Organisation	NOUN	NN	_	11	E	11:E	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Schwammes	Schwammes	NOUN	NN	_	13	E	13:E	_
+16	nicht	nicht	PART	CARD	_	18	D	18:D	_
+17	einig	einig	ADJ	ADJD	_	18	D	18:D	_
+18	sind	sein	AUX	NN	_	4	A	4:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

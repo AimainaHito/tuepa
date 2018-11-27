@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25649012
+# text = An Bord schien nichts geändert .
+1	An	an	ADP	APPR	_	2	R	2:R	_
+2	Bord	Bord	NOUN	NN	_	5	A	5:A	_
+3	schien	scheinen	AUX	VVFIN	_	5	G	5:G	_
+4	nichts	nichts	PRON	NN	_	5	D	5:D	_
+5	geändert	ändern	VERB	VVPP	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

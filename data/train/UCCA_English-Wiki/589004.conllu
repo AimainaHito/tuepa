@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 589004
+# text = All three actors gave their salaries from the film to Ledger 's daughter , Matilda .
+1	All	all	DET	DT	_	3	E	3:E	_
+2	three	three	NUM	CD	_	3	E	3:E	_
+3	actors	actor	NOUN	NNS	_	4	A	4:A	_
+4	gave	give	VERB	VBD	_	0	H	0:H	_
+5	their	they	PRON	PRP$	_	6	E	6:E	_
+6	salaries	salary	NOUN	NNS	_	4	A	4:A	_
+7	from	from	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	film	film	NOUN	NN	_	6	E	6:E	_
+10	to	to	ADP	IN	_	15	R	15:R	_
+11	Ledger	ledger	PROPN	NNP	_	13	E	13:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	daughter	daughter	NOUN	NN	_	15	E	15:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	Matilda	Matilda	PROPN	NNP	_	4	A	4:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

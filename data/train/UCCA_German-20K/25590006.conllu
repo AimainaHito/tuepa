@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25590006
+# text = Unsere Kleidung endigte oben in ein kupfernes , schraubenartig ausgebohrtes Halsband , worauf der metallene Helm eingeschraubt wurde .
+1	Unsere	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Kleidung	Kleidung	NOUN	NN	_	3	A	3:A	_
+3	endigte	endigen	VERB	VVFIN	_	0	H	0:H	_
+4	oben	oben	ADV	NN	_	3	D	3:D	_
+5	in	in	ADP	APPR	_	11	R	11:R	_
+6	ein	ein	DET	ART	_	11	E	11:E	_
+7	kupfernes	kupfern	ADJ	ADJA	_	11	E	11:E	_
+8	,	,	PUNCT	$,	_	11	U	11:U	_
+9	schraubenartig	schraubenartig	ADJ	ADJD	_	10	D	10:D	_
+10	ausgebohrtes	ausgebohrt	ADJ	ADJA	_	11	E	11:E	_
+11	Halsband	Halsband	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	worauf	worauf	PRON	PWAV	_	17	R	17:R	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	metallene	metallen	ADJ	ADJA	_	16	E	16:E	_
+16	Helm	Helm	NOUN	NN	_	17	A	17:A	_
+17	eingeschraubt	eingeschrauben	VERB	VVPP	_	11	E	11:E	_
+18	wurde	werden	AUX	TRUNC	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

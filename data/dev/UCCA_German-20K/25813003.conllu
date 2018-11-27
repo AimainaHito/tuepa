@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25813003
+# text = Dieser Angstruf in französischer Sprache versetzte mich in tiefe Bestürzung .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Angstruf	Angstruf	NOUN	NN	_	10	A	10:A	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	französischer	französisch	ADJ	ADJA	_	5	E	5:E	_
+5	Sprache	Sprache	NOUN	NN	_	2	E	2:E	_
+6	versetzte	versetzen	VERB	VVFIN	_	10	D	10:D	_
+7	mich	ich	PRON	PRF	_	10	A	10:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	tiefe	tief	ADJ	ADJA	_	10	D	10:D	_
+10	Bestürzung	Bestürzung	NOUN	NN	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

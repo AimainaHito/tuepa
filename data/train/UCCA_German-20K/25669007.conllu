@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25669007
+# text = Was die Temperatur der niederen Schichten betraf , so zeigte das Thermometer stets unverändert 4 Grad über Null .
+1	Was	was	PRON	NE	_	7	A	7:A	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Temperatur	Temperatur	NOUN	NN	_	7	A	7:A	_
+4	der	der	DET	ART	_	6	R	6:R	_
+5	niederen	nieder	ADJ	ADJA	_	6	E	6:E	_
+6	Schichten	Schicht	NOUN	NN	_	3	A	3:A	_
+7	betraf	betreffen	VERB	VVFIN	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	so	so	ADV	ADV	_	7	L	7:L	_
+10	zeigte	zeigen	VERB	VVFIN	_	7	H	7:H	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	Thermometer	Thermometer	NOUN	NN	_	10	A	10:A	_
+13	stets	stets	ADV	ADV	_	14	E	14:E	_
+14	unverändert	unverändert	ADJ	NN	_	10	D	10:D	_
+15	4	4	NUM	CARD	_	16	E	16:E	_
+16	Grad	Grad	NOUN	NN	_	10	A	10:A	_
+17	über	über	ADP	ADJD	_	18	R	18:R	_
+18	Null	_	NOUN	CARD	_	16	E	16:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

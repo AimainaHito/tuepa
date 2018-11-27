@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 491009
+# text = Bana is also active in campaigns with the Australian Childhood Foundation and the Bone Marrow Donor Institute .
+1	Bana	Bana	PROPN	NNP	_	4	A	4:A	_
+2	is	be	AUX	VBZ	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	active	active	ADJ	JJ	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	campaigns	campaign	NOUN	NNS	_	4	A	4:A	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Australian	australian	ADJ	JJ	_	6	E	6:E	_
+10	Childhood	childhood	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	Foundation	foundation	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	and	and	CCONJ	CC	_	9	N	9:N	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Bone	Bone	PROPN	NNP	_	9	C	9:C	_
+15	Marrow	Marrow	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Donor	donor	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	Institute	Institute	PROPN	NNP	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	.	_	14	U	14:U	_
+

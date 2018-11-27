@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25774004
+# text = Am folgenden Morgen , dem 20 . März , hatte der Schnee fall aufgehört .
+1	Am	am	PROPN	ADJD	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	VVINF	_	3	E	3:E	_
+3	Morgen	Morgen	PROPN	XY	_	14	D	14:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	8	E	8:E	_
+6	20	20	NUM	NN	_	8	E	8:E	_
+7	.	.	PUNCT	$.	_	8	U	8:U	_
+8	März	März	PROPN	NN	_	3	E	3:E	_
+9	,	,	PUNCT	$,	_	14	U	14:U	_
+10	hatte	haben	VERB	VAFIN	_	14	F	14:F	_
+11	der	der	DET	ART	_	13	F	13:F	_
+12	Schnee	Schnee	NOUN	NN	_	13	A	13:A	_
+13	fall	fall	X	NN	_	14	A	14:A	_
+14	aufgehört	aufgehören	ADJ	VVFIN	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

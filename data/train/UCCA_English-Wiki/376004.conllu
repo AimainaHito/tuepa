@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 376004
+# text = In 2004 , he appeared in the science - fiction film The Day After Tomorrow , portraying a student caught in a cataclysmic global cooling event .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A|17:A	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	12	R	12:R	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	science	science	NOUN	NN	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	fiction	fiction	NOUN	NN	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	12	E	12:E	_
+12	The	the	DET	DT	_	5	A	5:A	_
+13	Day	day	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	After	after	ADP	IN	_	12	Terminal	12:Terminal	_
+15	Tomorrow	tomorrow	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	portraying	portray	VERB	VBG	_	5	H	5:H	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	student	student	NOUN	NN	_	20	A	20:A	_
+20	caught	catch	VERB	VBN	_	17	A	17:A	_
+21	in	in	ADP	IN	_	26	R	26:R	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	cataclysmic	cataclysmic	ADJ	JJ	_	26	E	26:E	_
+24	global	global	ADJ	JJ	_	25	E	25:E	_
+25	cooling	cooling	NOUN	NN	_	26	E	26:E	_
+26	event	event	NOUN	NN	_	20	A	20:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

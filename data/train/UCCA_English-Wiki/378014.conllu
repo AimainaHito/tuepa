@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 378014
+# text = Gyllenhaal said , " Every actor I look up to has done theatre work , so I knew I had to give it a try .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	2	A	2:A	_
+2	said	say	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	Every	every	DET	DT	_	6	E	6:E	_
+6	actor	actor	NOUN	NN	_	12	A	12:A	_
+7	I	I	PRON	PRP	_	8	A	8:A	_
+8	look	look	VERB	VBP	_	6	E	6:E	_
+9	up	up	ADP	RP	_	8	Terminal	8:Terminal	_
+10	to	to	ADP	IN	_	8	A	8:A	_
+11	has	have	AUX	VBZ	_	12	F	12:F	_
+12	done	do	VERB	VBN	_	2	A	2:A	_
+13	theatre	theatre	ADJ	JJ	_	14	E	14:E	_
+14	work	work	NOUN	NN	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	so	so	ADV	RB	_	12	L	12:L	_
+17	I	I	PRON	PRP	_	18	A	18:A|22:A	_
+18	knew	know	VERB	VBD	_	12	H	12:H	_
+19	I	I	PRON	PRP	_	21	A	21:A	_
+20	had	have	VERB	VBD	_	21	F	21:F	_
+21	to	to	PART	TO	_	18	A	18:A	_
+22	give	give	VERB	VB	_	21	A	21:A	_
+23	it	it	PRON	PRP	_	22	A	22:A	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	try	try	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

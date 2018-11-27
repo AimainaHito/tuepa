@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 128011
+# text = " Already tied to a ten - week contract , she had to endure the embarrassment of rapidly declining box office sales .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Already	already	ADV	RB	_	3	L	3:L	_
+3	tied	tie	VERB	VBN	_	0	H	0:H	_
+4	to	to	ADP	IN	_	9	R	9:R	_
+5	a	a	DET	DT	_	9	E	9:E	_
+6	ten	ten	NOUN	NN	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	week	week	NOUN	NN	_	9	E	9:E	_
+9	contract	contract	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	she	she	PRON	PRP	_	14	A	14:A|3:A	_
+12	had	have	VERB	VBD	_	14	E	14:E	_
+13	to	to	PART	TO	_	12	Terminal	12:Terminal	_
+14	endure	endure	VERB	VB	_	3	H	3:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	embarrassment	embarrassment	NOUN	NN	_	14	A	14:A	_
+17	of	of	SCONJ	IN	_	19	R	19:R	_
+18	rapidly	rapidly	ADV	RB	_	19	D	19:D	_
+19	declining	decli	VERB	VBG	_	16	E	16:E	_
+20	box	box	NOUN	NN	_	21	E	21:E	_
+21	office	office	NOUN	NN	_	22	E	22:E	_
+22	sales	sale	NOUN	NNS	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

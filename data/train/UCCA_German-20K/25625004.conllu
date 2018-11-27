@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25625004
+# text = » Suchen wir also Obst und Gemüse . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Suchen	suchen	NOUN	NN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	F	2:F	_
+4	also	also	ADV	ADV	_	2	F	2:F	_
+5	Obst	Obst	NOUN	NN	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Gemüse	Gemüse	NOUN	NN	_	5	C	5:C	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+9	«	«	PUNCT	$(	_	5	U	5:U	_
+

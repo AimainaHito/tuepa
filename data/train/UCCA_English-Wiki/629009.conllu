@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 629009
+# text = In 2002 , a BBC poll on the 100 Greatest Britons voted him eighth , and in 2008 , Rolling Stone ranked him the fifth - greatest singer of all time .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2002	2002	NUM	CD	_	12	D	12:D	_
+3	,	,	PUNCT	,	_	12	U	12:U	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	BBC	BBC	PROPN	NNP	_	6	A	6:A	_
+6	poll	poll	NOUN	NN	_	12	A	12:A	_
+7	on	on	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	100	100	NUM	CD	_	6	A	6:A	_
+10	Greatest	greatest	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Britons	Britons	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	voted	vote	VERB	VBD	_	0	H	0:H	_
+13	him	he	PRON	PRP	_	12	A	12:A	_
+14	eighth	eighth	ADV	RB	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	and	and	CCONJ	CC	_	12	L	12:L	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	2008	2008	NUM	CD	_	22	D	22:D	_
+19	,	,	PUNCT	,	_	22	U	22:U	_
+20	Rolling	Rolling	PROPN	NNP	_	22	A	22:A	_
+21	Stone	Stone	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	ranked	rank	VERB	VBD	_	12	H	12:H	_
+23	him	he	PRON	PRP	_	22	A	22:A	_
+24	the	the	DET	DT	_	28	E	28:E	_
+25	fifth	fifth	NOUN	NN	_	27	E	27:E	_
+26	-	-	PUNCT	,	_	27	U	27:U	_
+27	greatest	greatest	ADJ	JJS	_	28	E	28:E	_
+28	singer	singer	NOUN	NN	_	22	A	22:A	_
+29	of	of	ADP	IN	_	31	R	31:R	_
+30	all	all	DET	DT	_	31	E	31:E	_
+31	time	time	NOUN	NN	_	28	E	28:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

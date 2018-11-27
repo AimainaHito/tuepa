@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25646008
+# text = In dem Augenblick regte der Leutnant von neuem die Aufmerksamkeit des Kapitäns an .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	regte	regen	VERB	VVFIN	_	0	H	0:H	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Leutnant	Leutnant	NOUN	NN	_	4	A	4:A	_
+7	von	von	ADP	NN	_	8	R	8:R	_
+8	neuem	neuem	ADV	ADJD	_	4	D	4:D	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	_	4	A	4:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Kapitäns	Kapitän	NOUN	NN	_	10	E	10:E	_
+13	an	an	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+14	.	.	PUNCT	$.	_	4	U	4:U	_
+

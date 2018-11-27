@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25743002
+# text = » Und ich will hinzufügen , Meister Land , die Wasser wären dann nicht unter dem Berg eingedrungen , und der Vulkan wäre Vulkan geblieben . Ihr Bedauern ist also überflüssig . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Und	und	CCONJ	ADJD	_	5	L	5:L	_
+3	ich	ich	PRON	PPER	_	5	A	5:A	_
+4	will	wollen	AUX	NN	_	5	D	5:D	_
+5	hinzufügen	hinzufügen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Meister	Meister	NOUN	NN	_	8	E	8:E	_
+8	Land	Land	NOUN	NN	_	5	G	5:G	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Wasser	Wasser	NOUN	NN	_	18	A	18:A	_
+12	wären	sein	AUX	ADJA	_	18	D	18:D	_
+13	dann	dann	ADV	ADV	_	18	L	18:L	_
+14	nicht	nicht	PART	CARD	_	18	D	18:D	_
+15	unter	unter	ADP	ADJD	_	17	R	17:R	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	Berg	Berg	NOUN	NN	_	18	A	18:A	_
+18	eingedrungen	eindringen	VERB	VVPP	_	5	A	5:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	und	und	CCONJ	NE	_	18	L	18:L	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Vulkan	Vulkan	PROPN	NE	_	25	A	25:A	_
+23	wäre	sein	AUX	ADV	_	25	D	25:D	_
+24	Vulkan	Vulkan	PROPN	NE	_	25	A	25:A	_
+25	geblieben	bleiben	AUX	VVPP	_	18	H	18:H	_
+26	.	.	PUNCT	$.	_	5	U	5:U	_
+27	Ihr	Ihr|ihr	DET	PPOSAT	_	28	E	28:E	_
+28	Bedauern	Bedauer	NOUN	NN	_	31	A	31:A	_
+29	ist	sein	AUX	VVFIN	_	31	F	31:F	_
+30	also	also	ADV	ADV	_	31	F	31:F	_
+31	überflüssig	überflüssig	ADJ	ADJD	_	5	H	5:H	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+33	«	«	PUNCT	$(	_	31	U	31:U	_
+

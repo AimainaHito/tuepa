@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 236006
+# text = He issued a statement on 27 August 2010 apologising for his comments and claiming that his assistant who helped him post the tweets had misunderstood the meaning of his original message .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	issued	issue	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	statement	statement	NOUN	NN	_	2	A	2:A	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	27	27	NUM	CD	_	2	D	2:D	_
+7	August	August	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	2010	2010	NUM	CD	_	6	Terminal	6:Terminal	_
+9	apologising	apologise	VERB	VBG	_	4	E	4:E	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	comments	comment	NOUN	NNS	_	9	A	9:A	_
+13	and	and	CCONJ	CC	_	9	N	9:N	_
+14	claiming	claim	VERB	VBG	_	9	C	9:C	_
+15	that	that	SCONJ	IN	_	25	F	25:F	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	assistant	assistant	NOUN	NN	_	25	A	25:A	_
+18	who	who	PRON	WP	_	19	F	19:F	_
+19	helped	help	VERB	VBD	_	17	E	17:E	_
+20	him	he	PRON	PRP	_	19	A	19:A|21:A	_
+21	post	post	VERB	VB	_	19	A	19:A	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	tweets	tweet	NOUN	NNS	_	21	A	21:A	_
+24	had	have	AUX	VBD	_	25	F	25:F	_
+25	misunderstood	misunderstand	VERB	VBN	_	14	A	14:A	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	meaning	meaning	NOUN	NN	_	25	A	25:A	_
+28	of	of	ADP	IN	_	31	R	31:R	_
+29	his	he	PRON	PRP$	_	31	E	31:E	_
+30	original	original	ADJ	JJ	_	31	E	31:E	_
+31	message	message	NOUN	NN	_	27	E	27:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

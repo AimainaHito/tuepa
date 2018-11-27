@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25739000
+# text = Ich wäre noch lange an meinem Fenster geblieben , um die Schönheiten des Meeres und Himmels zu bewundern - da schlossen sich die Läden .
+1	Ich	ich	PRON	PPER	_	8	A	8:A|18:A	_
+2	wäre	sein	AUX	ADV	_	8	D	8:D	_
+3	noch	noch	ADV	VVINF	_	8	D	8:D	_
+4	lange	lange	ADV	ADV	_	8	D	8:D	_
+5	an	an	ADP	APPR	_	7	R	7:R	_
+6	meinem	mein	PRON	PPOSAT	_	7	E	7:E	_
+7	Fenster	Fenster	NOUN	NN	_	8	A	8:A	_
+8	geblieben	bleiben	AUX	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	um	um	ADP	KOUI	_	8	L	8:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Schönheiten	Schönheit	NOUN	NN	_	18	A	18:A	_
+13	des	der	DET	ART	_	12	R	12:R	_
+14	Meeres	Meer	NOUN	NN	_	12	E	12:E	_
+15	und	und	CCONJ	NE	_	14	N	14:N	_
+16	Himmels	Himmel	NOUN	NE	_	14	C	14:C	_
+17	zu	zu	PART	NN	_	18	F	18:F	_
+18	bewundern	bewundern	VERB	VVINF	_	8	H	8:H	_
+19	-	-	PUNCT	$(	_	8	U	8:U	_
+20	da	da	ADV	ADV	_	8	L	8:L	_
+21	schlossen	schließen	VERB	VVFIN	_	8	H	8:H	_
+22	sich	er|es|sie	PRON	PRF	_	21	Terminal	21:Terminal	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Läden	Laden	NOUN	NN	_	21	A	21:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

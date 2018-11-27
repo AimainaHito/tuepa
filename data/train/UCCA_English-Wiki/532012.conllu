@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 532012
+# text = " A second concert in Sydney was uneventful but the Melbourne appearance garnered her significant bad press .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	A	a	DET	DT	_	3	E	3:E	_
+3	second	second	ADJ	JJ	_	4	D	4:D	_
+4	concert	concert	NOUN	NN	_	8	A	8:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	Sydney	Sydney	PROPN	NNP	_	4	A	4:A	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	uneventful	uneventful	ADJ	JJ	_	0	H	0:H	_
+9	but	but	CCONJ	CC	_	8	L	8:L	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	Melbourne	Melbourne	PROPN	NNP	_	12	E	12:E	_
+12	appearance	appearance	NOUN	NN	_	13	A	13:A	_
+13	garnered	garner	VERB	VBD	_	8	H	8:H	_
+14	her	she	PRON	PRP$	_	13	A	13:A	_
+15	significant	significant	ADJ	JJ	_	17	E	17:E	_
+16	bad	bad	ADJ	JJ	_	17	E	17:E	_
+17	press	press	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

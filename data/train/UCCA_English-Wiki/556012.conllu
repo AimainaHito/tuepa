@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 556012
+# text = Like some of his peers , he may have attended blues venues - of necessity , in the segregated South , only on nights designated for exclusively white audiences .
+1	Like	like	ADP	IN	_	5	R	5:R	_
+2	some	some	DET	DT	_	5	E	5:E	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	peers	peer	NOUN	NNS	_	10	A	10:A	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	he	he	PRON	PRP	_	10	A	10:A	_
+8	may	may	AUX	MD	_	10	D	10:D	_
+9	have	have	AUX	VB	_	10	F	10:F	_
+10	attended	attend	VERB	VBN	_	0	H	0:H	_
+11	blues	blue	NOUN	NNS	_	12	E	12:E	_
+12	venues	venue	NOUN	NNS	_	10	A	10:A	_
+13	-	-	PUNCT	,	_	10	U	10:U	_
+14	of	of	ADP	IN	_	24	R	24:R	_
+15	necessity	necessity	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	24	U	24:U	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	segregated	segregate	VERB	VBN	_	20	E	20:E	_
+20	South	south	NOUN	NN	_	24	E	24:E	_
+21	,	,	PUNCT	,	_	24	U	24:U	_
+22	only	only	ADV	RB	_	24	R	24:R	_
+23	on	on	ADP	IN	_	24	R	24:R	_
+24	nights	night	NOUN	NNS	_	10	A	10:A	_
+25	designated	designate	VERB	VBN	_	24	E	24:E	_
+26	for	for	ADP	IN	_	29	R	29:R	_
+27	exclusively	exclusively	ADV	RB	_	28	E	28:E	_
+28	white	white	ADJ	JJ	_	29	E	29:E	_
+29	audiences	audience	NOUN	NNS	_	25	A	25:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

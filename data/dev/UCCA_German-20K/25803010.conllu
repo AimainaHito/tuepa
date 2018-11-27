@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 25803010
+# text = Das seltsame Tier ist fähig in einer so leitungsfähigen Umgebung , wie das Wasser ist , mehrere Meter weit die Fische mit seinem Blitz zu treffen , so stark ist die Kraft seines elektrischen Organs , dessen beide Hauptoberflächen nicht weniger als 27 Quadratfuß messen .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	seltsame	seltsam	ADJ	ADJA	_	3	E	3:E	_
+3	Tier	Tier	NOUN	NN	_	26	A	26:A	_
+4	ist	sein	AUX	VVFIN	_	26	F	26:F	_
+5	fähig	fähig	ADJ	ADJD	_	26	D	26:D	_
+6	in	in	ADP	APPR	_	9	R	9:R	_
+7	einer	ein	DET	ART	_	10	E	10:E	_
+8	so	so	ADV	ADV	_	9	D	9:D	_
+9	leitungsfähigen	leitungsfähig	ADJ	ADJA	_	14	E	14:E	_
+10	Umgebung	Umgebung	NOUN	NN	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	14	U	14:U	_
+12	wie	wie	SCONJ	KON	_	14	R	14:R	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Wasser	Wasser	NOUN	NN	_	26	A	26:A	_
+15	ist	sein	AUX	VVFIN	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	26	U	26:U	_
+17	mehrere	mehrere	PRON	PIAT	_	18	E	18:E	_
+18	Meter	Meter	NOUN	NN	_	26	A	26:A	_
+19	weit	weit	ADJ	ADJD	_	26	D	26:D	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Fische	Fisch	NOUN	NN	_	26	A	26:A	_
+22	mit	mit	ADP	APPR	_	24	R	24:R	_
+23	seinem	sein	DET	PPOSAT	_	24	E	24:E	_
+24	Blitz	Blitz	NOUN	NN	_	26	A	26:A	_
+25	zu	zu	PART	VVINF	_	26	F	26:F	_
+26	treffen	treffen	VERB	VVINF	_	0	H	0:H	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	so	so	ADV	ADV	_	26	L	26:L	_
+29	stark	stark	ADJ	NN	_	26	H	26:H	_
+30	ist	sein	AUX	VVFIN	_	29	F	29:F	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Kraft	Kraft	NOUN	NN	_	29	A	29:A	_
+33	seines	sein	DET	PPOSAT	_	35	R	35:R	_
+34	elektrischen	elektrisch	ADJ	ADJA	_	35	E	35:E	_
+35	Organs	Organs	NOUN	NN	_	29	A	29:A	_
+36	,	,	PUNCT	$,	_	35	U	35:U	_
+37	dessen	der	PRON	PRELAT	_	45	R	45:R	_
+38	beide	beide	PRON	PIS	_	39	E	39:E	_
+39	Hauptoberflächen	Hauptoberflächen	NOUN	NE	_	45	A	45:A	_
+40	nicht	nicht	PART	CARD	_	41	E	41:E	_
+41	weniger	weniger	ADV	ADV	_	45	D	45:D	_
+42	als	als	ADP	KOKOM	_	44	R	44:R	_
+43	27	27	NUM	CARD	_	44	E	44:E	_
+44	Quadratfuß	Quadratfuß	NOUN	NN	_	45	A	45:A	_
+45	messen	messen	VERB	VVINF	_	35	E	35:E	_
+46	.	.	PUNCT	$.	_	45	U	45:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25688010
+# text = Inzwischen hatte Ned Land den Kapitän frei gemacht .
+1	Inzwischen	inzwischen	ADV	ADV	_	7	L	7:L	_
+2	hatte	haben	VERB	VAFIN	_	7	F	7:F	_
+3	Ned	Ned	PROPN	NE	_	7	A	7:A	_
+4	Land	Land	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+7	frei	frei	ADV	ADJD	_	0	H	0:H	_
+8	gemacht	machen	ADJ	VVPP	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

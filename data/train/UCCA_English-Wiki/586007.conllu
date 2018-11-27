@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 586007
+# text = During Depp 's marriage , his wife worked as a makeup artist , while he worked a variety of odd jobs , including a telemarketer for pens .
+1	During	during	ADP	IN	_	4	L	4:L	_
+2	Depp	Depp	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	marriage	marriage	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	wife	wife	NOUN	NN	_	8	A	8:A	_
+8	worked	work	VERB	VBD	_	4	H	4:H	_
+9	as	as	ADP	IN	_	12	R	12:R	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	makeup	makeup	NOUN	NN	_	12	E	12:E	_
+12	artist	artist	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	while	while	SCONJ	IN	_	4	L	4:L	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	worked	work	VERB	VBD	_	4	H	4:H	_
+17	a	a	DET	DT	_	21	E	21:E	_
+18	variety	variety	NOUN	NN	_	21	E	21:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	odd	odd	ADJ	JJ	_	21	E	21:E	_
+21	jobs	job	NOUN	NNS	_	16	A	16:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	including	include	VERB	VBG	_	25	R	25:R	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	telemarketer	telemarketer	NOUN	NN	_	21	E	21:E	_
+26	for	for	ADP	IN	_	27	R	27:R	_
+27	pens	pen	NOUN	NNS	_	25	E	25:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

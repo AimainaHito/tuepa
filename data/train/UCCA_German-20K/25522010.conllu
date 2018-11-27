@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25522010
+# text = Das Meer war prachtvoll , der Himmel rein .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	prachtvoll	prachtvoll	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Himmel	Himmel	NOUN	NE	_	8	A	8:A	_
+8	rein	rein	ADJ	NE	_	4	H	4:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

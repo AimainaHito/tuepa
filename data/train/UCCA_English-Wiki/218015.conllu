@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 218015
+# text = After she signed on to the film , she revealed that she had joined the project because Pegg was scheduled to appear in it .
+1	After	after	SCONJ	IN	_	3	L	3:L	_
+2	she	she	PRON	PRP	_	3	A	3:A	_
+3	signed	sign	VERB	VBD	_	0	H	0:H	_
+4	on	on	ADP	IN	_	3	Terminal	3:Terminal	_
+5	to	to	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	film	film	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	she	she	PRON	PRP	_	10	A	10:A	_
+10	revealed	reveal	VERB	VBD	_	3	H	3:H	_
+11	that	that	SCONJ	IN	_	14	F	14:F	_
+12	she	she	PRON	PRP	_	14	A	14:A	_
+13	had	have	AUX	VBD	_	14	F	14:F	_
+14	joined	join	VERB	VBN	_	10	A	10:A	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	project	project	NOUN	NN	_	14	A	14:A	_
+17	because	because	SCONJ	IN	_	14	L	14:L	_
+18	Pegg	Pegg	PROPN	NNP	_	20	A	20:A|22:A	_
+19	was	be	AUX	VBD	_	20	F	20:F	_
+20	scheduled	schedule	VERB	VBN	_	14	H	14:H	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	appear	appear	VERB	VB	_	20	A	20:A	_
+23	in	in	ADP	IN	_	24	R	24:R	_
+24	it	it	PRON	PRP	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25581005
+# text = Die Abwesenheit von Kapitän Nemo während unserer gestrigen Unterhaltung machte mir Gedanken , und ich hoffte ihn heute wiederzusehen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Abwesenheit	Abwesenheit	NOUN	NN	_	10	A	10:A	_
+3	von	von	ADP	NE	_	5	R	5:R	_
+4	Kapitän	Kapitän	PROPN	FM	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	2	A	2:A	_
+6	während	während	SCONJ	VVINF	_	10	L	10:L	_
+7	unserer	unser	PRON	PPOSAT	_	9	A	9:A	_
+8	gestrigen	gestrig	ADJ	ADJA	_	9	D	9:D	_
+9	Unterhaltung	unterhaltung	NOUN	NN	_	10	H	10:H	_
+10	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+11	mir	ich	PRON	PPER	_	10	A	10:A	_
+12	Gedanken	Gedanke	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	und	und	CCONJ	NE	_	10	L	10:L	_
+15	ich	ich	PRON	PPER	_	19	A	19:A	_
+16	hoffte	hoffen	VERB	VVFIN	_	19	D	19:D	_
+17	ihn	er	PRON	PPER	_	19	A	19:A	_
+18	heute	heute	ADV	ADV	_	19	D	19:D	_
+19	wiederzusehen	wiederzusehen	VERB	VVINF	_	10	H	10:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

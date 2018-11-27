@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25791011
+# text = Zudem war man bei dieser Arbeit nicht in der verdorbenen Luft der ›Nautilus‹ und atmete direkt die reine Luft , die den Apparaten aus den Behältern geliefert wurde .
+1	Zudem	zudem	ADV	PAV	_	2	L	2:L	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	man	man	PRON	PIS	_	2	A	2:A|15:A	_
+4	bei	bei	ADP	APPR	_	6	R	6:R	_
+5	dieser	dies	PRON	PDAT	_	6	E	6:E	_
+6	Arbeit	Arbeit	NOUN	NN	_	2	A	2:A	_
+7	nicht	nicht	PART	XY	_	2	D	2:D	_
+8	in	in	ADP	APPR	_	11	R	11:R	_
+9	der	der	DET	ART	_	11	E	11:E	_
+10	verdorbenen	verdorben	ADJ	ADJA	_	11	E	11:E	_
+11	Luft	Luft	NOUN	NN	_	2	A	2:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	11	E	11:E	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	atmete	atmen	VERB	VVFIN	_	2	H	2:H	_
+16	direkt	direkt	ADJ	ADJD	_	15	D	15:D	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	reine	rein	ADJ	NN	_	19	E	19:E	_
+19	Luft	Luft	NOUN	NE	_	15	A	15:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	die	der	PRON	PRELS	_	27	R	27:R	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Apparaten	Apparat	NOUN	NN	_	27	A	27:A	_
+24	aus	aus	ADP	APPR	_	26	R	26:R	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Behältern	Behälter	NOUN	NN	_	27	A	27:A	_
+27	geliefert	liefern	VERB	VVPP	_	19	E	19:E	_
+28	wurde	werden	AUX	TRUNC	_	27	F	27:F	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25639002
+# text = Ich blieb allein , legte mich zu Bett , schlief aber schlecht .
+1	Ich	ich	PRON	PPER	_	3	A	3:A|5:A|10:A	_
+2	blieb	bleiben	AUX	VVFIN	_	3	D	3:D	_
+3	allein	allein	ADJ	ADV	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	legte	legen	VERB	VVFIN	_	3	H	3:H	_
+6	mich	ich	PRON	PPER	_	5	Terminal	5:Terminal	_
+7	zu	zu	ADP	NE	_	8	R	8:R	_
+8	Bett	Bett	NOUN	NE	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	schlief	schlafen	VERB	VVFIN	_	3	H	3:H	_
+11	aber	aber	ADV	ADV	_	3	L	3:L	_
+12	schlecht	schlecht	ADJ	NN	_	10	D	10:D	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

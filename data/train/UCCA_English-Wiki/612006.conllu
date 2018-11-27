@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 612006
+# text = During McCartney 's early years with the Beatles , he primarily used a Höfner 500 / 1 bass , though in 1965 , he began sporadically using a Rickenbacker 4001S for recording .
+1	During	during	ADP	IN	_	5	L	5:L	_
+2	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	early	early	ADJ	JJ	_	5	E	5:E	_
+5	years	year	NOUN	NNS	_	0	H	0:H	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Beatles	Beatles	PROPN	NNPS	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	he	he	PRON	PRP	_	12	A	12:A	_
+11	primarily	primarily	ADV	RB	_	12	D	12:D	_
+12	used	use	VERB	VBD	_	5	H	5:H	_
+13	a	a	DET	DT	_	18	E	18:E	_
+14	Höfner	Höfner	NOUN	NN	_	18	E	18:E	_
+15	500	500	NUM	CD	_	14	Terminal	14:Terminal	_
+16	/	/	PUNCT	,	_	14	U	14:U	_
+17	1	1	NUM	CD	_	14	Terminal	14:Terminal	_
+18	bass	bass	NOUN	NN	_	12	A	12:A	_
+19	,	,	PUNCT	,	_	5	U	5:U	_
+20	though	though	ADV	RB	_	5	L	5:L	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	1965	1965	NUM	CD	_	27	D	27:D	_
+23	,	,	PUNCT	,	_	27	U	27:U	_
+24	he	he	PRON	PRP	_	27	A	27:A	_
+25	began	begin	VERB	VBD	_	27	D	27:D	_
+26	sporadically	sporadically	ADV	RB	_	27	D	27:D	_
+27	using	use	VERB	VBG	_	5	H	5:H	_
+28	a	a	DET	DT	_	29	E	29:E	_
+29	Rickenbacker	Rickenbacker	PROPN	NNP	_	27	A	27:A	_
+30	4001S	4001S	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	for	for	ADP	IN	_	32	R	32:R	_
+32	recording	recording	NOUN	NN	_	27	A	27:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 510003
+# text = As well as songs from the new album , the tour featured material from Bowie 's Low era .
+1	As	as	ADV	RB	_	4	N	4:N	_
+2	well	well	ADV	RB	_	1	Terminal	1:Terminal	_
+3	as	as	ADP	IN	_	1	Terminal	1:Terminal	_
+4	songs	song	NOUN	NNS	_	12	A	12:A	_
+5	from	from	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	new	new	ADJ	JJ	_	8	E	8:E	_
+8	album	album	NOUN	NN	_	4	E	4:E	_
+9	,	,	PUNCT	,	_	12	U	12:U	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	tour	tour	NOUN	NN	_	12	A	12:A	_
+12	featured	feature	VERB	VBN	_	0	H	0:H	_
+13	material	material	NOUN	NN	_	4	C	4:C	_
+14	from	from	ADP	IN	_	18	R	18:R	_
+15	Bowie	Bowie	PROPN	NNP	_	18	E	18:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	Low	low	PROPN	NNP	_	18	E	18:E	_
+18	era	era	PROPN	NNP	_	13	E	13:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

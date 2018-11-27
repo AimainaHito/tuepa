@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25607016
+# text = Einige Tierchen , Würmer , Insekten kamen auf Baum stämmen , die der Wind von den Inseln weggetrieben hatte .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Tierchen	Tierchen	NOUN	NE	_	7	A	7:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Würmer	Wurm	NOUN	NN	_	2	C	2:C	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Insekten	Insekt	NOUN	NN	_	2	C	2:C	_
+7	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	Baum	Baum	NOUN	NN	_	10	E	10:E	_
+10	stämmen	stämmen	VERB	VVINF	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	PRON	PRELS	_	18	R	18:R	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Wind	Wind	NOUN	TRUNC	_	18	A	18:A	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Inseln	Insel	NOUN	NN	_	18	A	18:A	_
+18	weggetrieben	weggetrieben	VERB	VVPP	_	10	E	10:E	_
+19	hatte	haben	AUX	VAFIN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

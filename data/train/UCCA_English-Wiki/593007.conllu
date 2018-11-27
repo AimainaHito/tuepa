@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 593007
+# text = CNN added his remark that he would like his children " to see America as a toy , a broken toy . Investigate it a little , check it out , get this feeling and then get out .
+1	CNN	CNN	PROPN	NNP	_	2	A	2:A	_
+2	added	add	VERB	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	4	A	4:A	_
+4	remark	remark	NOUN	NN	_	2	A	2:A	_
+5	that	that	SCONJ	IN	_	8	F	8:F	_
+6	he	he	PRON	PRP	_	8	A	8:A	_
+7	would	would	AUX	MD	_	8	F	8:F	_
+8	like	like	VERB	VB	_	4	A	4:A	_
+9	his	he	PRON	PRP$	_	10	E	10:E	_
+10	children	child	NOUN	NNS	_	8	A	8:A|28:A|32:A|23:A|37:A	_
+11	"	"	PUNCT	''	_	13	U	13:U	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	see	see	VERB	VB	_	8	A	8:A	_
+14	America	America	PROPN	NNP	_	13	A	13:A	_
+15	as	as	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	toy	toy	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	broken	break	VERB	VBN	_	21	E	21:E	_
+21	toy	toy	NOUN	NN	_	17	C	17:C	_
+22	.	.	PUNCT	.	_	13	U	13:U	_
+23	Investigate	investigate	VERB	VB	_	13	H	13:H	_
+24	it	it	PRON	PRP	_	23	A	23:A	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	little	little	ADJ	JJ	_	23	D	23:D	_
+27	,	,	PUNCT	,	_	13	U	13:U	_
+28	check	check	VERB	VB	_	13	H	13:H	_
+29	it	it	PRON	PRP	_	28	A	28:A	_
+30	out	out	ADP	RP	_	28	E	28:E	_
+31	,	,	PUNCT	,	_	13	U	13:U	_
+32	get	get	VERB	VB	_	13	H	13:H	_
+33	this	this	DET	DT	_	34	E	34:E	_
+34	feeling	feeling	NOUN	NN	_	32	A	32:A	_
+35	and	and	CCONJ	CC	_	36	E	36:E	_
+36	then	then	ADV	RB	_	13	L	13:L	_
+37	get	get	VERB	VB	_	13	H	13:H	_
+38	out	out	ADV	RB	_	37	E	37:E	_
+39	.	.	PUNCT	.	_	37	U	37:U	_
+

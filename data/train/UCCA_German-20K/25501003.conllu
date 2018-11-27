@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25501003
+# text = Darauf , als er wieder ruhig geworden , wendete er sich zu mir mit den Worten :
+1	Darauf	darauf	ADV	PAV	_	6	L	6:L	_
+2	,	,	PUNCT	$,	_	6	U	6:U	_
+3	als	als	SCONJ	KOUS	_	6	L	6:L	_
+4	er	er	PRON	PPER	_	6	A	6:A	_
+5	wieder	wieder	ADV	NN	_	6	D	6:D	_
+6	ruhig	ruhig	ADJ	ADJD	_	0	H	0:H	_
+7	geworden	werden	AUX	PAV	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	wendete	wenden	VERB	VVFIN	_	6	H	6:H	_
+10	er	er	PRON	PPER	_	9	A	9:A	_
+11	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+12	zu	zu	ADP	VVINF	_	13	R	13:R	_
+13	mir	ich	PRON	PPER	_	9	A	9:A	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Worten	Wort	NOUN	NN	_	9	A	9:A	_
+17	:	:	PUNCT	$.	_	16	U	16:U	_
+

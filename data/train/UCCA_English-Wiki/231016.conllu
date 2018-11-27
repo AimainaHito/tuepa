@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 231016
+# text = Production on the first film is due to begin in September 2008 .
+1	Production	Production	NOUN	NN	_	9	A	9:A	_
+2	on	on	ADP	IN	_	5	R	5:R	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	film	film	NOUN	NN	_	1	A	1:A	_
+6	is	be	AUX	VBZ	_	7	R	7:R	_
+7	due	due	ADJ	JJ	_	9	D	9:D	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	begin	begin	VERB	VB	_	0	H	0:H	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	September	September	PROPN	NNP	_	9	D	9:D	_
+12	2008	2008	NUM	CD	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 472009
+# text = After a physical before the 1991 - 92 NBA season , Johnson discovered that he had tested positive for HIV .
+1	After	after	ADP	IN	_	3	L	3:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	physical	physical	NOUN	NN	_	0	H	0:H	_
+4	before	before	ADP	IN	_	3	L	3:L	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	1991	1991	NUM	CD	_	10	D	10:D	_
+7	-	-	SYM	SYM	_	6	U	6:U	_
+8	92	92	NUM	CD	_	6	C	6:C	_
+9	NBA	NBa	PROPN	NNP	_	10	E	10:E	_
+10	season	season	NOUN	NN	_	3	H	3:H	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	Johnson	Johnson	PROPN	NNP	_	13	A	13:A|3:A	_
+13	discovered	discover	VERB	VBD	_	3	H	3:H	_
+14	that	that	SCONJ	IN	_	17	F	17:F	_
+15	he	he	PRON	PRP	_	17	A	17:A	_
+16	had	have	AUX	VBD	_	17	F	17:F	_
+17	tested	test	VERB	VBN	_	13	A	13:A	_
+18	positive	positive	ADJ	JJ	_	17	A	17:A	_
+19	for	for	ADP	IN	_	20	R	20:R	_
+20	HIV	HIV	PROPN	NNP	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

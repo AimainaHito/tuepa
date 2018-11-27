@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25789013
+# text = Lange Sonden wurden an den Seiten wänden hinab gelassen ; aber bei 15 Meter wurden sie noch durch die dicke Wand aufgehalten .
+1	Lange	lang	ADJ	ADV	_	2	E	2:E	_
+2	Sonden	sonde	NOUN	VVFIN	_	8	A	8:A	_
+3	wurden	werden	AUX	ADJD	_	8	F	8:F	_
+4	an	an	ADP	APPR	_	7	R	7:R	_
+5	den	der	DET	ART	_	7	E	7:E	_
+6	Seiten	Seite	NOUN	NN	_	7	E	7:E	_
+7	wänden	wänden	VERB	VVINF	_	8	A	8:A	_
+8	hinab	hinab	ADV	ADV	_	0	H	0:H	_
+9	gelassen	lassen	VERB	ADJD	_	8	Terminal	8:Terminal	_
+10	;	;	PUNCT	$.	_	8	U	8:U	_
+11	aber	aber	ADV	ADV	_	8	L	8:L	_
+12	bei	bei	ADP	APPR	_	14	R	14:R	_
+13	15	15	NUM	CARD	_	14	E	14:E	_
+14	Meter	Meter	NOUN	NN	_	22	A	22:A	_
+15	wurden	werden	AUX	ADJD	_	22	F	22:F	_
+16	sie	sie	PRON	ADV	_	22	A	22:A	_
+17	noch	noch	ADV	CARD	_	22	D	22:D	_
+18	durch	durch	ADP	APPR	_	21	R	21:R	_
+19	die	der	DET	ART	_	21	E	21:E	_
+20	dicke	dick	ADJ	NN	_	21	E	21:E	_
+21	Wand	Wand	NOUN	NN	_	22	A	22:A	_
+22	aufgehalten	aufgehalten	VERB	VVINF	_	8	H	8:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

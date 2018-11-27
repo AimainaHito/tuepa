@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25650013
+# text = Ich gestehe , dass mein Herz klopfte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	gestehe	gestehen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	7	R	7:R	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herz	Herz	NOUN	NN	_	7	A	7:A	_
+7	klopfte	klopfen	VERB	VVFIN	_	2	A	2:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

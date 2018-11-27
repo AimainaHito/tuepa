@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25708012
+# text = Der griechische Archipel
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	griechische	griechisch	ADJ	ADJA	_	0	H	0:H	_
+3	Archipel	Archipel	NOUN	NN	_	2	E	2:E	_
+

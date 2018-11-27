@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 135005
+# text = The 1950s saw Hepburn take on a series of professional challenges , and stretch herself further than at any other point in her life at an age when most actresses began to retreat .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	1950s	1950	NOUN	NNS	_	3	A	3:A	_
+3	saw	see	VERB	VBD	_	0	H	0:H	_
+4	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A|11:A|14:A	_
+5	take	take	NOUN	NN	_	3	A	3:A	_
+6	on	on	ADP	IN	_	5	Terminal	5:Terminal	_
+7	a	a	DET	DT	_	11	E	11:E	_
+8	series	series	NOUN	NN	_	11	E	11:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	professional	professional	ADJ	JJ	_	11	E	11:E	_
+11	challenges	challenge	NOUN	NNS	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	and	and	CCONJ	CC	_	3	L	3:L	_
+14	stretch	stretch	VERB	VB	_	3	H	3:H	_
+15	herself	herself	PRON	PRP	_	14	A	14:A	_
+16	further	further	ADV	RB	_	21	R	21:R	_
+17	than	than	ADP	IN	_	16	E	16:E	_
+18	at	at	ADP	IN	_	20	R	20:R	_
+19	any	any	DET	DT	_	20	E	20:E	_
+20	other	other	ADJ	JJ	_	21	E	21:E	_
+21	point	point	NOUN	NN	_	14	D	14:D	_
+22	in	in	ADP	IN	_	24	R	24:R	_
+23	her	she	PRON	PRP$	_	24	E	24:E	_
+24	life	life	NOUN	NN	_	21	E	21:E	_
+25	at	at	ADP	IN	_	27	R	27:R	_
+26	an	a	DET	DT	_	27	E	27:E	_
+27	age	age	NOUN	NN	_	14	A	14:A	_
+28	when	when	ADV	WRB	_	33	F	33:F	_
+29	most	most	ADV	RBS	_	30	E	30:E	_
+30	actresses	actress	NOUN	NNS	_	33	A	33:A	_
+31	began	begin	VERB	VBD	_	33	D	33:D	_
+32	to	to	PART	TO	_	33	F	33:F	_
+33	retreat	retreat	VERB	VB	_	27	E	27:E	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

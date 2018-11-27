@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25489036
+# text = Fuhr es fort , blieb es an der Oberfläche , versank es in den Tiefen ?
+1	Fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+2	es	es	PRON	PPER	_	1	A	1:A	_
+3	fort	fort	ADV	PTKVZ	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	blieb	bleiben	VERB	VVFIN	_	1	H	1:H	_
+6	es	es	PRON	PPER	_	5	A	5:A	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Oberfläche	Oberfläche	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	1	U	1:U	_
+11	versank	versinken	VERB	VVFIN	_	1	H	1:H	_
+12	es	es	PRON	PPER	_	11	A	11:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Tiefen	tiefe	NOUN	NN	_	11	A	11:A	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+

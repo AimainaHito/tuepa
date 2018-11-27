@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25488121
+# text = « » Hm ! « sagte Ned Land mit einigem Rückhalt .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Hm	Hm	PROPN	NE	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+8	Land	Land	PROPN	NN	_	7	Terminal	7:Terminal	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	einigem	einige	ADJ	ADJA	_	11	E	11:E	_
+11	Rückhalt	Rückhalt	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

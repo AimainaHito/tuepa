@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 587006
+# text = Depp accompanied Thompson as his road manager on one of the author 's last book tours .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	accompanied	accompany	VERB	VBD	_	0	H	0:H	_
+3	Thompson	Thompson	PROPN	NNP	_	2	A	2:A	_
+4	as	as	ADP	IN	_	7	R	7:R	_
+5	his	he	PRON	PRP$	_	7	E	7:E	_
+6	road	road	NOUN	NN	_	7	E	7:E	_
+7	manager	manager	NOUN	NN	_	2	A	2:A	_
+8	on	on	ADP	IN	_	16	R	16:R	_
+9	one	one	NUM	CD	_	16	E	16:E	_
+10	of	of	ADP	IN	_	9	R	9:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	author	author	NOUN	NN	_	16	E	16:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	last	last	ADJ	JJ	_	16	E	16:E	_
+15	book	book	NOUN	NN	_	16	E	16:E	_
+16	tours	tour	NOUN	NNS	_	2	A	2:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

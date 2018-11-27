@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 538012
+# text = This makeshift theatre , called the Bijou , was furnished with chairs borrowed from a local undertaker .
+1	This	this	DET	DT	_	3	E	3:E	_
+2	makeshift	makeshift	NOUN	NN	_	3	E	3:E	_
+3	theatre	theatre	NOUN	NN	_	10	A	10:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	called	call	VERB	VBD	_	3	E	3:E	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	Bijou	Bijou	PROPN	NNP	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	furnished	furnish	VERB	VBN	_	0	H	0:H	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	chairs	chair	NOUN	NNS	_	10	A	10:A	_
+13	borrowed	borrow	VERB	VBN	_	12	E	12:E	_
+14	from	from	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	local	local	ADJ	JJ	_	17	E	17:E	_
+17	undertaker	undertaker	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

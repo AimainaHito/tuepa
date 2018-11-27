@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 490011
+# text = On the official identity documents he still has his birth surname , Banadinović .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	official	official	ADJ	JJ	_	5	E	5:E	_
+4	identity	identity	NOUN	NN	_	5	E	5:E	_
+5	documents	document	NOUN	NNS	_	8	A	8:A	_
+6	he	he	PRON	PRP	_	8	A	8:A	_
+7	still	still	ADV	RB	_	8	D	8:D	_
+8	has	have	VERB	VBZ	_	0	H	0:H	_
+9	his	he	PRON	PRP$	_	11	E	11:E	_
+10	birth	birth	NOUN	NN	_	11	E	11:E	_
+11	surname	surname	NOUN	NN	_	13	E	13:E	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	Banadinović	Banadinović	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

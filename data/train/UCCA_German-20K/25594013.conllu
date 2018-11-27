@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25594013
+# text = Diese Pflanzen gehen aus sich selbst hervor , und das Prinzip ihres Daseins liegt im Wasser , das ihnen Kraft und Nahrung gewährt .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	3	A	3:A	_
+3	gehen	gehen	VERB	VVFIN	_	0	H	0:H	_
+4	aus	aus	ADP	APPR	_	6	R	6:R	_
+5	sich	er|es|sie	PRON	PRF	_	6	E	6:E	_
+6	selbst	selbst	ADV	VVFIN	_	3	A	3:A	_
+7	hervor	hervor	ADV	ADV	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	und	und	CCONJ	NE	_	3	L	3:L	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Prinzip	Prinzip	NOUN	NN	_	14	A	14:A	_
+12	ihres	ihr	DET	PPOSAT	_	13	R	13:R	_
+13	Daseins	Dasein	NOUN	NN	_	11	E	11:E	_
+14	liegt	liegen	VERB	VVFIN	_	3	H	3:H	_
+15	im	im	ADV	NN	_	16	R	16:R	_
+16	Wasser	Wasser	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	das	der	PRON	PRELS	_	23	R	23:R	_
+19	ihnen	sie	PRON	PPER	_	23	A	23:A	_
+20	Kraft	Kraft	NOUN	NN	_	23	A	23:A	_
+21	und	und	CCONJ	NE	_	20	N	20:N	_
+22	Nahrung	Nahrung	NOUN	NN	_	20	C	20:C	_
+23	gewährt	gewähren|währen	VERB	VVPP	_	16	E	16:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

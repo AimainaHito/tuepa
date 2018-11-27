@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 527013
+# text = " Garland was honored for her contribution to the revival of vaudeville with a Special Tony Award .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Garland	Garland	PROPN	NNP	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	honored	honor	VERB	VBN	_	0	H	0:H	_
+5	for	for	ADP	IN	_	7	R	7:R	_
+6	her	she	PRON	PRP$	_	7	A	7:A	_
+7	contribution	contribution	NOUN	NN	_	4	A	4:A	_
+8	to	to	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	revival	revival	NOUN	NN	_	7	A	7:A	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	vaudeville	vaudeville	NOUN	NN	_	10	E	10:E	_
+13	with	with	ADP	IN	_	17	R	17:R	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	Special	special	ADJ	JJ	_	17	E	17:E	_
+16	Tony	Tony	PROPN	NNP	_	17	E	17:E	_
+17	Award	Award	PROPN	NNP	_	4	A	4:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

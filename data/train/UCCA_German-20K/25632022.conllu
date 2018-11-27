@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25632022
+# text = Das enorme Fahrzeug blieb durchaus leer .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	enorme	enorme	ADJ	ADJA	_	3	E	3:E	_
+3	Fahrzeug	Fahrzeug	NOUN	NN	_	6	A	6:A	_
+4	blieb	bleiben	AUX	VVFIN	_	6	D	6:D	_
+5	durchaus	durchaus	ADV	ADV	_	6	D	6:D	_
+6	leer	leer	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

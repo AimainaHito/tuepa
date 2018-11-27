@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 638010
+# text = Her song " Death of Samantha " was inspired by the incident .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	4	E	4:E	_
+3	"	"	PUNCT	''	_	4	U	4:U	_
+4	Death	death	NOUN	NN	_	9	A	9:A	_
+5	of	of	ADP	IN	_	4	Terminal	4:Terminal	_
+6	Samantha	Samantha	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	"	"	PUNCT	''	_	9	U	9:U	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	inspired	inspire	VERB	VBN	_	0	H	0:H	_
+10	by	by	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	incident	incident	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

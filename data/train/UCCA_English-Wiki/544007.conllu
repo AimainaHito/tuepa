@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 544007
+# text = In 1939 , the studio released Confessions of a Nazi Spy , starring Edward G . Robinson .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1939	1939	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	studio	studio	NOUN	NN	_	6	A	6:A	_
+6	released	release	VERB	VBN	_	0	H	0:H	_
+7	Confessions	Confession	NOUN	NNS	_	6	A	6:A	_
+8	of	of	ADP	IN	_	7	Terminal	7:Terminal	_
+9	a	a	DET	DT	_	7	Terminal	7:Terminal	_
+10	Nazi	Nazi	PROPN	NNP	_	7	Terminal	7:Terminal	_
+11	Spy	spy	PROPN	NNP	_	7	Terminal	7:Terminal	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	starring	starr	VERB	VBG	_	7	E	7:E	_
+14	Edward	Edward	PROPN	NNP	_	13	A	13:A	_
+15	G	g	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+17	Robinson	Robinson	PROPN	NNP	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	.	_	13	U	13:U	_
+

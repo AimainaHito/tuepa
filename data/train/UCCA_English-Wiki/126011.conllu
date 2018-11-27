@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 126011
+# text = " On the strength of A Bill of Divorcement , RKO signed the actress to a long - term contract .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	On	on	ADP	IN	_	6	R	6:R	_
+3	the	the	DET	DT	_	2	Terminal	2:Terminal	_
+4	strength	strength	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	of	of	ADP	IN	_	2	Terminal	2:Terminal	_
+6	A	a	DET	DT	_	12	A	12:A	_
+7	Bill	Bill	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	of	of	ADP	IN	_	6	Terminal	6:Terminal	_
+9	Divorcement	Divorcement	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	,	_	12	U	12:U	_
+11	RKO	RKO	PROPN	NNP	_	12	A	12:A	_
+12	signed	sign	VERB	VBD	_	0	H	0:H	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	actress	actress	NOUN	NN	_	12	A	12:A	_
+15	to	to	ADP	IN	_	20	R	20:R	_
+16	a	a	DET	DT	_	20	E	20:E	_
+17	long	long	ADJ	JJ	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	term	term	NOUN	NN	_	20	E	20:E	_
+20	contract	contract	NOUN	NN	_	12	A	12:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

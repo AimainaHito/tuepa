@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25797008
+# text = » Ach ! « sagte Conseil , » wie erquickend ist der Sauerstoff ! Jetzt braucht mein Herr nicht mehr mit Angst zu atmen . Es ist genug da für jedermann ! «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Ach	ach	PROPN	ITJ	_	10	F	10:F	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	wie	wie	CCONJ	ADV	_	10	D	10:D	_
+10	erquickend	erquickend	ADJ	ADJD	_	5	A	5:A	_
+11	ist	sein	AUX	VVFIN	_	10	F	10:F	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Sauerstoff	Sauerstoff	NOUN	NN	_	10	A	10:A	_
+14	!	!	PUNCT	$.	_	10	U	10:U	_
+15	Jetzt	jetzt	ADV	ADV	_	24	D	24:D	_
+16	braucht	brauchen	VERB	VVFIN	_	24	D	24:D	_
+17	mein	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Herr	Herr	NOUN	NN	_	24	A	24:A	_
+19	nicht	nicht	PART	CARD	_	24	D	24:D	_
+20	mehr	mehr	ADV	ADV	_	19	E	19:E	_
+21	mit	mit	ADP	APPR	_	22	R	22:R	_
+22	Angst	Angst	NOUN	NN	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	atmen	atmen	VERB	VVINF	_	10	H	10:H	_
+25	.	.	PUNCT	$.	_	10	U	10:U	_
+26	Es	es	PRON	PPER	_	28	F	28:F	_
+27	ist	sein	AUX	VVFIN	_	28	F	28:F	_
+28	genug	genug	ADV	ADV	_	10	H	10:H	_
+29	da	da	ADV	ADV	_	28	A	28:A	_
+30	für	für	ADP	APPR	_	31	R	31:R	_
+31	jedermann	jedermann	PROPN	NE	_	28	A	28:A	_
+32	!	!	PUNCT	$.	_	31	U	31:U	_
+33	«	«	PUNCT	$(	_	31	U	31:U	_
+

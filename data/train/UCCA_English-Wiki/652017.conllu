@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 652017
+# text = Wiener published the results of his 14 - year campaign in January 2000 .
+1	Wiener	Wiener	PROPN	NNP	_	2	A	2:A	_
+2	published	publish	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	results	result	NOUN	NNS	_	2	A	2:A	_
+5	of	of	ADP	IN	_	10	R	10:R	_
+6	his	he	PRON	PRP$	_	10	A	10:A	_
+7	14	14	NUM	CD	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	year	year	NOUN	NN	_	10	D	10:D	_
+10	campaign	campaign	NOUN	NN	_	4	E	4:E	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	January	January	PROPN	NNP	_	13	E	13:E	_
+13	2000	2000	NUM	CD	_	2	D	2:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

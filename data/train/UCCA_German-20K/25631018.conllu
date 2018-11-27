@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25631018
+# text = Zwei Wald tauben vervollständigten noch die Neben gerichte .
+1	Zwei	zwei	NUM	CARD	_	3	E	3:E	_
+2	Wald	Wald	NOUN	NN	_	3	E	3:E	_
+3	tauben	tauben	VERB	NN	_	4	A	4:A	_
+4	vervollständigten	vervollständigen	VERB	VVFIN	_	0	H	0:H	_
+5	noch	noch	ADV	CARD	_	4	D	4:D	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Neben	neben	NOUN	APPR	_	8	E	8:E	_
+8	gerichte	gerichen	VERB	ADJA	_	4	A	4:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

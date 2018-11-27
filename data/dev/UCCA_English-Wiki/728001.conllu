@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 728001
+# text = The film received mixed reviews , but was generally lauded for the chemistry between the two leads .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	0	C	0:C|10:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	mixed	mix	VERB	VBN	_	5	E	5:E	_
+5	reviews	review	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	but	but	CCONJ	CC	_	3	L	3:L	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	generally	generally	ADV	RB	_	10	D	10:D	_
+10	lauded	laude	VERB	VBN	_	3	H	3:H	_
+11	for	for	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	chemistry	chemistry	NOUN	NN	_	10	A	10:A	_
+14	between	between	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	two	two	NUM	CD	_	17	E	17:E	_
+17	leads	lead	NOUN	NNS	_	13	E	13:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

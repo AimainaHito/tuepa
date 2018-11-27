@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 706004
+# text = The song " Every Grain of Sand " reminded some critics of William Blake 's verses .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	9	A	9:A	_
+3	"	"	PUNCT	``	_	2	U	2:U	_
+4	Every	every	DET	DT	_	2	E	2:E	_
+5	Grain	grain	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	of	of	ADP	IN	_	4	Terminal	4:Terminal	_
+7	Sand	Sand	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	"	"	PUNCT	''	_	9	U	9:U	_
+9	reminded	remind	VERB	VBD	_	0	H	0:H	_
+10	some	some	DET	DT	_	11	E	11:E	_
+11	critics	critic	NOUN	NNS	_	9	A	9:A	_
+12	of	of	ADP	IN	_	16	R	16:R	_
+13	William	William	PROPN	NNP	_	16	E	16:E	_
+14	Blake	Blake	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	's	's	PART	POS	_	13	R	13:R	_
+16	verses	verse	NOUN	NNS	_	9	A	9:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

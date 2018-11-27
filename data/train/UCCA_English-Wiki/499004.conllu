@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 499004
+# text = " His later Ziggy shows , which included songs from both Ziggy Stardust and Aladdin Sane , were ultra - theatrical affairs filled with shocking stage moments , such as Bowie stripping down to a sumo wrestling loincloth or simulating oral sex with Ronson 's guitar .
+1	"	"	PUNCT	``	_	18	U	18:U	_
+2	His	he	PRON	PRP$	_	5	E	5:E	_
+3	later	later	ADJ	JJR	_	5	E	5:E	_
+4	Ziggy	Ziggy	PROPN	NNP	_	5	E	5:E	_
+5	shows	show	NOUN	NNS	_	18	A	18:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	which	which	PRON	WDT	_	8	F	8:F	_
+8	included	include	VERB	VBD	_	5	E	5:E	_
+9	songs	song	NOUN	NNS	_	8	A	8:A	_
+10	from	from	ADP	IN	_	12	R	12:R	_
+11	both	both	CCONJ	CC	_	12	N	12:N	_
+12	Ziggy	Ziggy	PROPN	NNP	_	9	E	9:E	_
+13	Stardust	Stardust	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	and	and	CCONJ	CC	_	12	N	12:N	_
+15	Aladdin	Aladdin	PROPN	NNP	_	12	C	12:C	_
+16	Sane	Sane	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	were	be	AUX	VBD	_	0	H	0:H	_
+19	ultra	ultra	ADJ	JJ	_	21	E	21:E	_
+20	-	-	PUNCT	,	_	21	U	21:U	_
+21	theatrical	theatrical	ADJ	JJ	_	22	E	22:E	_
+22	affairs	affair	NOUN	NNS	_	18	A	18:A	_
+23	filled	fill	VERB	VBN	_	22	E	22:E	_
+24	with	with	ADP	IN	_	27	R	27:R	_
+25	shocking	shocking	NOUN	NN	_	27	E	27:E	_
+26	stage	stage	NOUN	NN	_	27	E	27:E	_
+27	moments	moment	NOUN	NNS	_	23	A	23:A	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	such	such	ADJ	JJ	_	32	R	32:R	_
+30	as	as	ADP	IN	_	29	Terminal	29:Terminal	_
+31	Bowie	Bowie	SCONJ	IN	_	32	A	32:A|40:A	_
+32	stripping	stripp	VERB	VBG	_	27	E	27:E	_
+33	down	down	ADP	RP	_	32	Terminal	32:Terminal	_
+34	to	to	ADP	IN	_	38	R	38:R	_
+35	a	a	DET	DT	_	38	E	38:E	_
+36	sumo	sumo	NOUN	NN	_	37	E	37:E	_
+37	wrestling	wrestling	NOUN	NN	_	38	E	38:E	_
+38	loincloth	loincloth	NOUN	NN	_	32	A	32:A	_
+39	or	or	CCONJ	CC	_	32	N	32:N	_
+40	simulating	simulat	VERB	VBG	_	32	C	32:C	_
+41	oral	oral	ADJ	JJ	_	42	E	42:E	_
+42	sex	sex	NOUN	NN	_	40	A	40:A	_
+43	with	with	ADP	IN	_	46	R	46:R	_
+44	Ronson	Ronson	PROPN	NNP	_	46	E	46:E	_
+45	's	's	PART	POS	_	44	R	44:R	_
+46	guitar	guitar	NOUN	NN	_	40	A	40:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25768007
+# text = » Das glaub' ich auch , Herr Arronax « , erwiderte Kapitän Nemo . » Ich will Ihnen nur die einzige Bemerkung machen , dass Sie , nachdem Sie so viele Einwände gegen mein Projekt hatten , nun mich durch Ihre Gründe überwältigen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	DET	ART	_	3	A	3:A	_
+3	glaub'	glaub'	PROPN	$(	_	11	A	11:A	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	auch	auch	ADV	ADV	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Arronax	Arronax	PROPN	NE	_	3	G	3:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	Kapitän	Kapitän	PROPN	NN	_	13	E	13:E	_
+13	Nemo	Nemo	PROPN	NE	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	11	U	11:U	_
+15	»	»	PUNCT	$(	_	11	U	11:U	_
+16	Ich	ich	PRON	PPER	_	23	A	23:A|22:A	_
+17	will	wollen	AUX	NN	_	23	D	23:D	_
+18	Ihnen	Sie|sie	PRON	PPER	_	23	A	23:A	_
+19	nur	nur	ADV	NE	_	23	D	23:D	_
+20	die	der	DET	ART	_	22	E	22:E	_
+21	einzige	einzig	ADJ	ADJA	_	22	E	22:E	_
+22	Bemerkung	Bemerkung	NOUN	NN	_	23	A	23:A	_
+23	machen	machen	VERB	VVINF	_	3	H	3:H	_
+24	,	,	PUNCT	$,	_	3	U	3:U	_
+25	dass	dass	SCONJ	KOUS	_	3	L	3:L	_
+26	Sie	sie	PRON	PPER	_	43	A	43:A	_
+27	,	,	PUNCT	$,	_	3	U	3:U	_
+28	nachdem	nachdem	SCONJ	XY	_	3	L	3:L	_
+29	Sie	sie	PRON	PPER	_	32	A	32:A	_
+30	so	so	ADV	ADV	_	31	E	31:E	_
+31	viele	viel	ADJ	NE	_	32	D	32:D	_
+32	Einwände	Einwand	NOUN	NE	_	3	H	3:H	_
+33	gegen	gegen	ADP	APPR	_	35	R	35:R	_
+34	mein	mein	DET	PPOSAT	_	35	E	35:E	_
+35	Projekt	Projekt	NOUN	NN	_	32	A	32:A	_
+36	hatten	haben	VERB	VAFIN	_	32	F	32:F	_
+37	,	,	PUNCT	$,	_	3	U	3:U	_
+38	nun	nun	ADV	ADV	_	43	F	43:F	_
+39	mich	ich	PRON	PRF	_	43	A	43:A	_
+40	durch	durch	ADP	APPR	_	42	R	42:R	_
+41	Ihre	Ihr|ihr	DET	PPOSAT	_	42	E	42:E	_
+42	Gründe	Grund	NOUN	NN	_	43	A	43:A	_
+43	überwältigen	überwältig	ADJ	VVINF	_	3	H	3:H	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+45	«	«	PUNCT	$(	_	43	U	43:U	_
+

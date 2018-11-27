@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 636011
+# text = The supergroup , composed of Lennon , Eric Clapton , Keith Richards and Mitch Mitchell , also backed a vocal performance by Ono in the film .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	supergroup	supergroup	NOUN	NN	_	18	A	18:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	composed	compose	VERB	VBN	_	2	E	2:E	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	Lennon	Lennon	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Eric	Eric	PROPN	NNP	_	6	C	6:C	_
+9	Clapton	Clapton	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	Keith	Keith	PROPN	NNP	_	6	C	6:C	_
+12	Richards	Richards	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	6	N	6:N	_
+14	Mitch	Mitch	PROPN	NNP	_	6	C	6:C	_
+15	Mitchell	Mitchell	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	18	U	18:U	_
+17	also	also	ADV	RB	_	18	D	18:D	_
+18	backed	back	VERB	VBD	_	0	H	0:H	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	vocal	vocal	ADJ	JJ	_	21	E	21:E	_
+21	performance	performance	NOUN	NN	_	18	A	18:A	_
+22	by	by	ADP	IN	_	23	R	23:R	_
+23	Ono	Ono	PROPN	NNP	_	21	A	21:A	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	film	film	NOUN	NN	_	18	A	18:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

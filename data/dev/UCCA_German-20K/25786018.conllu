@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25786018
+# text = » Die bewohnte Welt ! « sagte er mit Kopfschütteln . » Seien Sie nur ruhig , Freund Conseil , wir werden nie dahin zurückkehren ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Die	der	DET	ART	_	4	E	4:E	_
+3	bewohnte	bewohnt	ADJ	ADJA	_	4	E	4:E	_
+4	Welt	Welt	NOUN	NN	_	7	A	7:A	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	mit	mit	ADP	APPR	_	10	R	10:R	_
+10	Kopfschütteln	Kopfschüttel	NOUN	NN	_	7	A	7:A	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+12	»	»	PUNCT	$(	_	7	U	7:U	_
+13	Seien	sein	AUX	VAFIN	_	16	F	16:F	_
+14	Sie	Sie|sie	PRON	PPER	_	16	A	16:A	_
+15	nur	nur	ADV	NE	_	16	D	16:D	_
+16	ruhig	ruhig	ADJ	ADJD	_	4	H	4:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Freund	Freund	NOUN	NN	_	19	E	19:E	_
+19	Conseil	Conseil	PROPN	NE	_	16	G	16:G	_
+20	,	,	PUNCT	$,	_	4	U	4:U	_
+21	wir	wir	PRON	NE	_	25	A	25:A	_
+22	werden	werden	AUX	ADV	_	25	F	25:F	_
+23	nie	nie	ADV	ADV	_	25	D	25:D	_
+24	dahin	dahin	ADV	PAV	_	25	A	25:A	_
+25	zurückkehren	zurückkehren	VERB	VVINF	_	4	H	4:H	_
+26	!	!	PUNCT	$.	_	25	U	25:U	_
+27	«	«	PUNCT	$(	_	25	U	25:U	_
+

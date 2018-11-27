@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25594008
+# text = Die unterseeische Flora schien mir sehr vollständig zu sein , reicher sogar als unter den arktischen und tropischen Zonen , wo die Produkte aus dem Pflanzen reich minder zahlreich sind .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	unterseeische	unterseeisch	ADJ	ADJA	_	3	E	3:E	_
+3	Flora	Flora	PROPN	NN	_	7	A	7:A	_
+4	schien	scheinen	AUX	VVFIN	_	7	G	7:G	_
+5	mir	ich	PRON	PPER	_	7	A	7:A	_
+6	sehr	sehr	ADV	NE	_	7	D	7:D	_
+7	vollständig	vollständig	ADJ	ADJD	_	0	H	0:H	_
+8	zu	zu	PART	VVINF	_	7	F	7:F	_
+9	sein	sein	AUX	VAINF	_	7	F	7:F	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	reicher	reicher	ADJ	ADJA	_	7	H	7:H	_
+12	sogar	sogar	ADV	ADV	_	11	D	11:D	_
+13	als	als	ADP	KOKOM	_	19	R	19:R	_
+14	unter	unter	ADP	ADJD	_	19	R	19:R	_
+15	den	der	DET	ART	_	19	E	19:E	_
+16	arktischen	arktisch	ADJ	ADJA	_	19	E	19:E	_
+17	und	und	CCONJ	NN	_	16	N	16:N	_
+18	tropischen	tropisch	ADJ	ADJA	_	16	C	16:C	_
+19	Zonen	Zone	NOUN	NN	_	11	A	11:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	wo	wo	ADV	NN	_	29	R	29:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Produkte	Produkt	NOUN	NN	_	29	A	29:A	_
+24	aus	aus	ADP	APPR	_	27	R	27:R	_
+25	dem	der	DET	ART	_	27	E	27:E	_
+26	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	27	E	27:E	_
+27	reich	reich	ADJ	NN	_	23	E	23:E	_
+28	minder	minder	ADV	ADV	_	29	D	29:D	_
+29	zahlreich	zahlreich	ADJ	ADJD	_	19	E	19:E	_
+30	sind	sein	AUX	NN	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

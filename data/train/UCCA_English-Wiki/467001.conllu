@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 467001
+# text = Johnson grew up in Lansing , and came to love basketball as a youngster , idolizing players such as Earl Monroeand Marques Haynes , and practicing " all day " .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A|10:A|16:A	_
+2	grew	grow	VERB	VBD	_	0	H	0:H	_
+3	up	up	ADP	RP	_	2	Terminal	2:Terminal	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Lansing	Lansing	PROPN	NNP	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	came	come	VERB	VBD	_	10	D	10:D	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	love	love	VERB	VB	_	2	H	2:H	_
+11	basketball	basketball	NOUN	NN	_	10	A	10:A	_
+12	as	as	ADP	IN	_	14	R	14:R	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	youngster	youngster	NOUN	NN	_	10	A	10:A	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	idolizing	idolize	VERB	VBG	_	2	H	2:H	_
+17	players	player	NOUN	NNS	_	16	A	16:A	_
+18	such	such	ADJ	JJ	_	20	R	20:R	_
+19	as	as	ADP	IN	_	18	Terminal	18:Terminal	_
+20	Earl	Earl	PROPN	NNP	_	17	E	17:E	_
+21	Monroeand	Monroeand	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Marques	Marques	PROPN	NNP	_	20	C	20:C	_
+23	Haynes	Haynes	PROPN	NNPS	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	2	U	2:U	_
+25	and	and	CCONJ	CC	_	2	L	2:L	_
+26	practicing	practice	VERB	VBG	_	2	H	2:H	_
+27	"	"	PUNCT	``	_	26	U	26:U	_
+28	all	all	DET	DT	_	29	E	29:E	_
+29	day	day	NOUN	NN	_	26	D	26:D	_
+30	"	"	PUNCT	''	_	29	U	29:U	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

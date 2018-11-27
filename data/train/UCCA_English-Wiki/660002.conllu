@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 660002
+# text = After the first two songs , he became so enamored at the sound and quality of Carey 's voice that he turned around and returned to the event , only to find that she had left .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	first	first	ADJ	JJ	_	5	E	5:E	_
+4	two	two	NUM	CD	_	5	E	5:E	_
+5	songs	song	NOUN	NNS	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	he	he	PRON	PRP	_	10	A	10:A	_
+8	became	become	VERB	VBD	_	10	D	10:D	_
+9	so	so	ADV	RB	_	10	D	10:D	_
+10	enamored	enamor	ADJ	JJ	_	5	H	5:H	_
+11	at	at	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	sound	sound	NOUN	NN	_	10	A	10:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	quality	quality	NOUN	NN	_	13	C	13:C	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	Carey	Carey	PROPN	NNP	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	voice	voice	NOUN	NN	_	13	E	13:E	_
+20	that	that	SCONJ	IN	_	22	R	22:R	_
+21	he	he	PRON	PRP	_	22	A	22:A|25:A	_
+22	turned	turn	VERB	VBD	_	5	H	5:H	_
+23	around	around	ADV	RB	_	22	D	22:D	_
+24	and	and	CCONJ	CC	_	5	L	5:L	_
+25	returned	return	VERB	VBD	_	5	H	5:H	_
+26	to	to	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	event	event	NOUN	NN	_	25	A	25:A	_
+29	,	,	PUNCT	,	_	5	U	5:U	_
+30	only	only	ADV	RB	_	32	D	32:D	_
+31	to	to	PART	TO	_	32	F	32:F	_
+32	find	find	VERB	VB	_	5	H	5:H	_
+33	that	that	SCONJ	IN	_	36	F	36:F	_
+34	she	she	PRON	PRP	_	36	A	36:A	_
+35	had	have	AUX	VBD	_	36	F	36:F	_
+36	left	leave	VERB	VBN	_	32	A	32:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

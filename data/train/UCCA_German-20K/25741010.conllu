@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25741010
+# text = » Da sind wir einmal wieder auf dem Land « , sagte Conseil .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Da	da	ADV	NE	_	3	A	3:A	_
+3	sind	sein	AUX	NE	_	12	A	12:A	_
+4	wir	wir	PRON	NE	_	3	A	3:A	_
+5	einmal	einmal	ADV	ADV	_	3	D	3:D	_
+6	wieder	wieder	ADV	NN	_	3	D	3:D	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Land	Land	NOUN	NN	_	3	A	3:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+13	Conseil	Conseil	PROPN	NE	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 231014
+# text = The films will be entitled Speedpost 206 , Wo n't Tell You and Tropical Tornado and will be directed by Xie Dong , Jiang Tao and Cai Rong Hui .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	films	film	NOUN	NNS	_	5	A	5:A|19:A	_
+3	will	will	AUX	MD	_	5	F	5:F	_
+4	be	be	AUX	VB	_	5	F	5:F	_
+5	entitled	entitle	VERB	VBN	_	0	H	0:H	_
+6	Speedpost	speedpost	ADV	RB	_	5	A	5:A	_
+7	206	206	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	Wo	will	AUX	MD	_	6	C	6:C	_
+10	n't	not	PART	RB	_	9	Terminal	9:Terminal	_
+11	Tell	tell	VERB	VB	_	9	Terminal	9:Terminal	_
+12	You	you	PRON	PRP	_	9	Terminal	9:Terminal	_
+13	and	and	CCONJ	CC	_	6	N	6:N	_
+14	Tropical	tropical	PROPN	NNP	_	6	C	6:C	_
+15	Tornado	Tornado	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	and	and	CCONJ	CC	_	5	L	5:L	_
+17	will	will	AUX	MD	_	19	F	19:F	_
+18	be	be	AUX	VB	_	19	F	19:F	_
+19	directed	direct	VERB	VBN	_	5	H	5:H	_
+20	by	by	ADP	IN	_	21	R	21:R	_
+21	Xie	Xie	PROPN	NNP	_	19	A	19:A	_
+22	Dong	Dong	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	21	U	21:U	_
+24	Jiang	Jiang	PROPN	NNP	_	21	C	21:C	_
+25	Tao	Tao	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	and	and	CCONJ	CC	_	21	N	21:N	_
+27	Cai	Cai	PROPN	NNP	_	21	C	21:C	_
+28	Rong	Rong	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	Hui	hui	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	.	.	PUNCT	.	_	21	U	21:U	_
+

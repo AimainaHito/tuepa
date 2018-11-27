@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 542000
+# text = During this period , Warner took an active role in recruiting talent .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	period	period	NOUN	NN	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Warner	Warner	PROPN	NNP	_	9	A	9:A|11:A	_
+6	took	take	VERB	VBD	_	9	F	9:F	_
+7	an	a	DET	DT	_	8	E	8:E	_
+8	active	active	ADJ	JJ	_	9	D	9:D	_
+9	role	role	NOUN	NN	_	0	H	0:H	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	recruiting	recruiting	NOUN	NN	_	9	A	9:A	_
+12	talent	talent	NOUN	NN	_	11	A	11:A	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

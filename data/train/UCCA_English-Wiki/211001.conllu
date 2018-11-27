@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 211001
+# text = In 2011 , Hoffman reprised his role as Shifu in the commercially and critically successful animated film Kung Fu Panda 2 .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	2011	2011	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Hoffman	Hoffman	PROPN	NNP	_	5	A	5:A	_
+5	reprised	reprise	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	7	A	7:A	_
+7	role	role	NOUN	NN	_	5	A	5:A	_
+8	as	as	ADP	IN	_	9	R	9:R	_
+9	Shifu	Shifu	PROPN	NNP	_	7	E	7:E	_
+10	in	in	ADP	IN	_	18	R	18:R	_
+11	the	the	DET	DT	_	18	E	18:E	_
+12	commercially	commercially	NOUN	NN	_	15	E	15:E	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	critically	critically	ADV	RB	_	12	C	12:C	_
+15	successful	successful	ADJ	JJ	_	18	E	18:E	_
+16	animated	animate	ADJ	JJ	_	17	E	17:E	_
+17	film	film	NOUN	NN	_	18	E	18:E	_
+18	Kung	kung	NOUN	NN	_	5	A	5:A	_
+19	Fu	Fu	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Panda	Panda	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	2	2	NUM	CD	_	18	Terminal	18:Terminal	_
+22	.	.	PUNCT	.	_	18	U	18:U	_
+

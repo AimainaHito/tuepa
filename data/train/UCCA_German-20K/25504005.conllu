@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25504005
+# text = » So rauchen Sie davon nach Belieben und ohne sich über ihren Ursprung Gedanken zu machen . Sie sind von keiner Verwaltung kontrolliert und sind darum nicht minder gut , denk' ich . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	So	so	ADV	ADV	_	3	L	3:L	_
+3	rauchen	rauchen	VERB	ADJA	_	0	H	0:H	_
+4	Sie	Sie|sie	PRON	PPER	_	3	F	3:F|10:A	_
+5	davon	davon	ADV	PAV	_	3	A	3:A	_
+6	nach	nach	ADP	NN	_	7	R	7:R	_
+7	Belieben	Belieben	PROPN	NN	_	3	D	3:D	_
+8	und	und	CCONJ	NN	_	3	L	3:L	_
+9	ohne	ohne	ADP	NN	_	10	D	10:D	_
+10	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+11	über	über	ADP	ADJD	_	13	R	13:R	_
+12	ihren	ihr	DET	PPOSAT	_	13	E	13:E	_
+13	Ursprung	Ursprung	NOUN	NN	_	10	A	10:A	_
+14	Gedanken	Gedanke	NOUN	NN	_	10	Terminal	10:Terminal	_
+15	zu	zu	PART	VVINF	_	10	F	10:F	_
+16	machen	machen	VERB	VVINF	_	10	Terminal	10:Terminal	_
+17	.	.	PUNCT	$.	_	3	U	3:U	_
+18	Sie	Sie|sie	PRON	PPER	_	23	A	23:A|29:A	_
+19	sind	sein	AUX	NN	_	23	F	23:F	_
+20	von	von	ADP	NN	_	22	R	22:R	_
+21	keiner	kein	PRON	PIAT	_	22	E	22:E	_
+22	Verwaltung	Verwaltung	NOUN	NN	_	23	A	23:A	_
+23	kontrolliert	kontrollieren	VERB	VVFIN	_	3	H	3:H	_
+24	und	und	CCONJ	NE	_	3	L	3:L	_
+25	sind	sein	AUX	NE	_	29	F	29:F	_
+26	darum	darum	ADV	PAV	_	29	D	29:D	_
+27	nicht	nicht	PART	XY	_	28	E	28:E	_
+28	minder	minder	ADV	ADV	_	29	D	29:D	_
+29	gut	gut	ADJ	ADJD	_	31	A	31:A	_
+30	,	,	PUNCT	$,	_	31	U	31:U	_
+31	denk'	denk'	PUNCT	$,	_	3	H	3:H	_
+32	ich	ich	PRON	PPER	_	31	A	31:A	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+34	«	«	PUNCT	$(	_	31	U	31:U	_
+

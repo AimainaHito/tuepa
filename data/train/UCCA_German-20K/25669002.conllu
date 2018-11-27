@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25669002
+# text = Ich gab dem Kanadier keine Antwort weiter ; ich wollte nicht darüber hin und her reden .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+3	dem	der	DET	ART	_	4	E	4:E	_
+4	Kanadier	Kanadier	NOUN	NN	_	2	A	2:A	_
+5	keine	kein	PRON	PIAT	_	2	D	2:D	_
+6	Antwort	Antwort	NOUN	NN	_	2	A	2:A	_
+7	weiter	weiter	ADV	ADV	_	2	Terminal	2:Terminal	_
+8	;	;	PUNCT	$.	_	2	U	2:U	_
+9	ich	ich	PRON	PPER	_	16	A	16:A	_
+10	wollte	wollen	VERB	VMFIN	_	16	D	16:D	_
+11	nicht	nicht	PART	CARD	_	16	D	16:D	_
+12	darüber	darüber	ADV	PAV	_	16	A	16:A	_
+13	hin	hin	ADV	ADV	_	16	D	16:D	_
+14	und	und	CCONJ	NE	_	13	Terminal	13:Terminal	_
+15	her	her	ADV	ADV	_	13	Terminal	13:Terminal	_
+16	reden	reden	ADJ	ADJD	_	2	H	2:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

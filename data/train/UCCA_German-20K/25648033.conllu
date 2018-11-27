@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25648033
+# text = Was während dieser Nacht vorgegangen war , wußten sie wohl ebensowenig wie ich .
+1	Was	was	PRON	NE	_	5	A	5:A	_
+2	während	während	ADP	NN	_	4	R	4:R	_
+3	dieser	dies	PRON	PDAT	_	4	E	4:E	_
+4	Nacht	Nacht	NOUN	NN	_	5	A	5:A	_
+5	vorgegangen	vorgehen	VERB	VVPP	_	0	H	0:H	_
+6	war	sein	AUX	ADV	_	5	F	5:F	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	wußten	wissen	VERB	VVFIN	_	5	H	5:H	_
+9	sie	sie	PRON	ADV	_	8	A	8:A	_
+10	wohl	wohl	ADV	ADV	_	8	G	8:G	_
+11	ebensowenig	ebensowenig	ADV	ADV	_	8	D	8:D	_
+12	wie	wie	ADP	ADV	_	13	E	13:E	_
+13	ich	ich	PRON	PPER	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

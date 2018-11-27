@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25759009
+# text = » Das sind Pottfische , fürchterliche Tiere , die ich mitunter in Scharen von 2- bis 300 getroffen habe !
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	ART	_	3	A	3:A	_
+3	sind	sein	AUX	NE	_	0	H	0:H	_
+4	Pottfische	Pottfisch	ADJ	ADJA	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	fürchterliche	fürchterlich	ADJ	ADJA	_	7	E	7:E	_
+7	Tiere	Tier	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	18	R	18:R	_
+10	ich	ich	PRON	PPER	_	18	A	18:A	_
+11	mitunter	mitunter	ADV	ADV	_	18	D	18:D	_
+12	in	in	ADP	APPR	_	13	R	13:R	_
+13	Scharen	Scharen	PROPN	ADJA	_	18	A	18:A	_
+14	von	von	ADP	NN	_	15	R	15:R	_
+15	2-	2-	PUNCT	$(	_	13	E	13:E	_
+16	bis	bis	ADP	APPR	_	15	N	15:N	_
+17	300	300	NUM	CARD	_	15	C	15:C	_
+18	getroffen	treffen|triefen	VERB	VVPP	_	7	E	7:E	_
+19	habe	haben	AUX	VAFIN	_	18	F	18:F	_
+20	!	!	PUNCT	$.	_	18	U	18:U	_
+

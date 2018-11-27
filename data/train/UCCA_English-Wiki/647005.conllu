@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 647005
+# text = After she had been working with the couple for three years , Ono confided that she and Lennon were becoming estranged from one another .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	she	she	PRON	PRP	_	5	A	5:A	_
+3	had	have	AUX	VBD	_	5	F	5:F	_
+4	been	be	AUX	VBN	_	5	F	5:F	_
+5	working	work	VERB	VBG	_	0	H	0:H	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	couple	couple	NOUN	NN	_	5	A	5:A	_
+9	for	for	ADP	IN	_	11	R	11:R	_
+10	three	three	NUM	CD	_	11	E	11:E	_
+11	years	year	NOUN	NNS	_	5	D	5:D	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	Ono	Ono	PROPN	NNP	_	14	A	14:A	_
+14	confided	confide	VERB	VBD	_	5	H	5:H	_
+15	that	that	SCONJ	IN	_	21	F	21:F	_
+16	she	she	PRON	PRP	_	21	A	21:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	Lennon	Lennon	PROPN	NNP	_	16	C	16:C	_
+19	were	be	AUX	VBD	_	21	F	21:F	_
+20	becoming	become	AUX	VBG	_	21	D	21:D	_
+21	estranged	estrange	VERB	VBN	_	14	A	14:A	_
+22	from	from	ADP	IN	_	23	R	23:R	_
+23	one	one	NUM	CD	_	21	A	21:A	_
+24	another	another	DET	DT	_	21	D	21:D	_
+25	.	.	PUNCT	.	_	21	U	21:U	_
+

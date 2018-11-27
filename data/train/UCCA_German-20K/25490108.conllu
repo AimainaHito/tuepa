@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25490108
+# text = Ohne Zweifel in die Tiefe versenkt , gehörte es der Erde nicht mehr an .
+1	Ohne	ohne	ADP	NN	_	6	G	6:G	_
+2	Zweifel	Zweifel	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Tiefe	Tiefe	NOUN	NN	_	6	A	6:A	_
+6	versenkt	versenken	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	gehörte	gehören	VERB	VVFIN	_	6	H	6:H	_
+9	es	es	PRON	PPER	_	8	A	8:A|6:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Erde	Erde	NOUN	NN	_	8	A	8:A	_
+12	nicht	nicht	PART	CARD	_	13	E	13:E	_
+13	mehr	mehr	ADV	ADV	_	8	D	8:D	_
+14	an	an	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+15	.	.	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 637002
+# text = " He later wrote , " I started the band . I disbanded it . It 's as simple as that .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	He	he	PRON	PRP	_	4	A	4:A	_
+3	later	later	ADV	RB	_	4	D	4:D	_
+4	wrote	write	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	''	_	4	U	4:U	_
+7	I	I	PRON	PRP	_	8	A	8:A	_
+8	started	start	VERB	VBD	_	4	A	4:A	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	band	band	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	8	U	8:U	_
+12	I	I	PRON	PRP	_	13	A	13:A	_
+13	disbanded	disband	VERB	VBD	_	8	H	8:H	_
+14	it	it	PRON	PRP	_	13	A	13:A	_
+15	.	.	PUNCT	.	_	8	U	8:U	_
+16	It	it	PRON	PRP	_	17	A	17:A	_
+17	's	be	AUX	VBZ	_	8	H	8:H	_
+18	as	as	ADV	RB	_	19	R	19:R	_
+19	simple	simple	ADJ	JJ	_	17	A	17:A	_
+20	as	as	ADP	IN	_	21	R	21:R	_
+21	that	that	PRON	DT	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

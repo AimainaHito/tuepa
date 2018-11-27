@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25706012
+# text = » Die Fahrt darin muß schwierig sein ? «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Fahrt	Fahrt	NOUN	NN	_	6	A	6:A	_
+4	darin	darin	ADV	PAV	_	6	A	6:A	_
+5	muß	müssen	AUX	VMFIN	_	6	D	6:D	_
+6	schwierig	schwierig	ADJ	ADJD	_	0	H	0:H	_
+7	sein	sein	AUX	VAINF	_	6	F	6:F	_
+8	?	?	PUNCT	$.	_	6	U	6:U	_
+9	«	«	PUNCT	$(	_	6	U	6:U	_
+

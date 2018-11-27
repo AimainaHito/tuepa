@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25525004
+# text = Ich brauchte Conseil nicht auf zu muntern .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	brauchte	brauchen	VERB	VVFIN	_	5	D	5:D	_
+3	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+4	nicht	nicht	PART	CARD	_	5	D	5:D	_
+5	auf	auf	ADP	APPR	_	0	H	0:H	_
+6	zu	zu	PART	NE	_	5	F	5:F	_
+7	muntern	muntern	VERB	VVINF	_	5	Terminal	5:Terminal	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

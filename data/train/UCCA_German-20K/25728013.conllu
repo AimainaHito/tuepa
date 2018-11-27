@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25728013
+# text = Er war direkter Universal erbe der den Inkas und den von Ferdinand Cortez überwundenen Eingeborenen entrissenen Schätze .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	direkter	direkt	ADJ	ADJA	_	5	E	5:E	_
+4	Universal	Universal	NOUN	NN	_	5	E	5:E	_
+5	erbe	erben	VERB	NN	_	2	A	2:A	_
+6	der	der	PRON	ART	_	17	E	17:E	_
+7	den	der	DET	ADJA	_	8	E	8:E	_
+8	Inkas	Inka	NOUN	NE	_	16	A	16:A	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	den	der	DET	ART	_	15	E	15:E	_
+11	von	von	ADP	NE	_	14	R	14:R	_
+12	Ferdinand	Ferdinand	PROPN	NE	_	14	A	14:A	_
+13	Cortez	Cortez	PROPN	NE	_	12	Terminal	12:Terminal	_
+14	überwundenen	überwundenen	VERB	ADJA	_	15	E	15:E	_
+15	Eingeborenen	eingeboren	NOUN	ADJA	_	8	C	8:C	_
+16	entrissenen	entrissen	ADJ	ADJA	_	5	E	5:E	_
+17	Schätze	Schatz	NOUN	NN	_	16	A	16:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

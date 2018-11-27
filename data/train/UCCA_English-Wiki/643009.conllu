@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 643009
+# text = According to biographer Philip Norman , one of his reasons for wanting to manage the group was that he was physically attracted to Lennon .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	4	R	4:R	_
+3	biographer	biographer	PROPN	NNP	_	4	E	4:E	_
+4	Philip	Philip	PROPN	NNP	_	1	A	1:A	_
+5	Norman	Norman	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	one	one	NUM	CD	_	10	E	10:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	his	he	PRON	PRP$	_	10	E	10:E|14:A	_
+10	reasons	reason	NOUN	NNS	_	17	A	17:A	_
+11	for	for	SCONJ	IN	_	14	F	14:F	_
+12	wanting	want	VERB	VBG	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	manage	manage	VERB	VB	_	10	E	10:E	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	group	group	NOUN	NN	_	14	A	14:A	_
+17	was	be	VERB	VBD	_	1	A	1:A	_
+18	that	that	SCONJ	IN	_	22	F	22:F	_
+19	he	he	PRON	PRP	_	22	A	22:A	_
+20	was	be	AUX	VBD	_	22	F	22:F	_
+21	physically	physically	ADV	RB	_	22	D	22:D	_
+22	attracted	attract	VERB	VBN	_	17	A	17:A	_
+23	to	to	ADP	IN	_	24	R	24:R	_
+24	Lennon	Lennon	PROPN	NNP	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

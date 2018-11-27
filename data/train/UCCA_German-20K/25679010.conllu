@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25679010
+# text = » In der Tat « , sagte ich , » hat Ned Land recht . Und wenn wir jemals eine Perle von einigen Millionen Wert nach Europa oder Amerika bringen , so gäbe das mindestens ein starkes Beweis mittel der Echtheit und zugleich der Erzählung von unseren Abenteuern einen hohen Wert . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Tat	Tat	NOUN	NN	_	14	D	14:D	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	hat	haben	VERB	VAFIN	_	14	F	14:F	_
+12	Ned	Ned	PROPN	NE	_	14	A	14:A	_
+13	Land	Land	PROPN	NE	_	12	Terminal	12:Terminal	_
+14	recht	recht	ADV	NE	_	7	A	7:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+16	Und	und	CCONJ	NE	_	14	L	14:L	_
+17	wenn	wenn	SCONJ	NE	_	14	L	14:L	_
+18	wir	wir	PRON	NE	_	30	A	30:A	_
+19	jemals	jemals	ADV	ADV	_	30	D	30:D	_
+20	eine	ein	DET	ART	_	21	E	21:E	_
+21	Perle	Perl	NOUN	NN	_	30	A	30:A	_
+22	von	von	ADP	NN	_	25	R	25:R	_
+23	einigen	einige	PRON	PIAT	_	24	E	24:E	_
+24	Millionen	Million	NUM	NN	_	25	A	25:A	_
+25	Wert	Wert	NOUN	NN	_	21	E	21:E	_
+26	nach	nach	ADP	CARD	_	27	R	27:R	_
+27	Europa	Europa	PROPN	NE	_	30	A	30:A	_
+28	oder	oder	CCONJ	CARD	_	27	N	27:N	_
+29	Amerika	Amerika	PROPN	NE	_	27	C	27:C	_
+30	bringen	bringen	PROPN	VVINF	_	14	H	14:H	_
+31	,	,	PUNCT	$,	_	14	U	14:U	_
+32	so	so	ADV	ADV	_	14	L	14:L	_
+33	gäbe	geben	VERB	VVFIN	_	14	H	14:H	_
+34	das	der	PRON	PDS	_	33	A	33:A	_
+35	mindestens	mindestens	ADV	ADV	_	33	D	33:D	_
+36	ein	ein	DET	ART	_	39	E	39:E	_
+37	starkes	stark	ADJ	ADJA	_	39	E	39:E	_
+38	Beweis	Beweis	NOUN	NN	_	39	E	39:E	_
+39	mittel	mittel	ADV	NN	_	33	A	33:A	_
+40	der	der	DET	ART	_	41	R	41:R	_
+41	Echtheit	Echtheit	NOUN	NN	_	39	E	39:E	_
+42	und	und	CCONJ	NE	_	41	N	41:N	_
+43	zugleich	zugleich	ADV	NN	_	45	D	45:D	_
+44	der	der	DET	ART	_	45	R	45:R	_
+45	Erzählung	Erzählung	NOUN	NN	_	41	C	41:C	_
+46	von	von	ADP	NE	_	48	R	48:R	_
+47	unseren	unser	PRON	PPOSAT	_	48	E	48:E	_
+48	Abenteuern	Abenteuer	NOUN	NN	_	45	A	45:A	_
+49	einen	ein	DET	ART	_	51	E	51:E	_
+50	hohen	hoch	ADJ	ADJA	_	51	E	51:E	_
+51	Wert	Wert	NOUN	NN	_	33	A	33:A	_
+52	.	.	PUNCT	$.	_	51	U	51:U	_
+53	«	«	PUNCT	$(	_	51	U	51:U	_
+

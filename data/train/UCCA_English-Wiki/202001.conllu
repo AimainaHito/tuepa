@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 202001
+# text = Their successful partnership in television is one in which Sorkin focuses on writing the scripts while Schlamme executive produces and occasionally directs ; they have worked together on Sports Night , The West Wing , and Studio 60 on the Sunset Strip .
+1	Their	they	PRON	PRP$	_	3	A	3:A	_
+2	successful	successful	ADJ	JJ	_	3	E	3:E	_
+3	partnership	partnership	NOUN	NN	_	6	A	6:A	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	television	television	NOUN	NN	_	3	A	3:A	_
+6	is	be	AUX	VBZ	_	0	H	0:H	_
+7	one	one	NUM	CD	_	6	A	6:A	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	which	which	PRON	WDT	_	11	F	11:F	_
+10	Sorkin	Sorkin	PROPN	NNP	_	11	A	11:A|13:A	_
+11	focuses	focus	VERB	VBZ	_	7	E	7:E	_
+12	on	on	SCONJ	IN	_	13	R	13:R	_
+13	writing	write	VERB	VBG	_	11	A	11:A	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	scripts	script	NOUN	NNS	_	13	A	13:A	_
+16	while	while	SCONJ	IN	_	11	L	11:L	_
+17	Schlamme	Schlamme	PROPN	NNP	_	19	A	19:A|22:A	_
+18	executive	executive	ADJ	JJ	_	19	E	19:E	_
+19	produces	produces	NOUN	NNS	_	11	H	11:H	_
+20	and	and	CCONJ	CC	_	11	L	11:L	_
+21	occasionally	occasionally	ADV	RB	_	22	D	22:D	_
+22	directs	direct	VERB	VBZ	_	11	H	11:H	_
+23	;	;	PUNCT	,	_	6	U	6:U	_
+24	they	they	PRON	PRP	_	26	A	26:A	_
+25	have	have	AUX	VBP	_	26	F	26:F	_
+26	worked	work	VERB	VBN	_	6	H	6:H	_
+27	together	together	ADV	RB	_	26	D	26:D	_
+28	on	on	ADP	IN	_	29	R	29:R	_
+29	Sports	Sports	PROPN	NNP	_	26	A	26:A	_
+30	Night	night	NOUN	NN	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	29	U	29:U	_
+32	The	the	DET	DT	_	29	C	29:C	_
+33	West	West	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Wing	wing	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	,	,	PUNCT	,	_	29	U	29:U	_
+36	and	and	CCONJ	CC	_	29	N	29:N	_
+37	Studio	studio	PROPN	NNP	_	29	C	29:C	_
+38	60	60	NUM	CD	_	37	Terminal	37:Terminal	_
+39	on	on	ADP	IN	_	37	Terminal	37:Terminal	_
+40	the	the	DET	DT	_	37	Terminal	37:Terminal	_
+41	Sunset	Sunset	ADJ	JJ	_	37	Terminal	37:Terminal	_
+42	Strip	Strip	PROPN	NNP	_	37	Terminal	37:Terminal	_
+43	.	.	PUNCT	.	_	29	U	29:U	_
+

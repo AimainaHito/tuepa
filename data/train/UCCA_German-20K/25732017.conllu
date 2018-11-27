@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25732017
+# text = Sollte ich auf tiefem Meeresgrund Genossen , Freunde von Kapitän Nemo finden , die wie er ein so seltsames Dasein hatten , denen er einen Besuch abstatten wollte ?
+1	Sollte	sollen	AUX	VMFIN	_	12	D	12:D	_
+2	ich	ich	PRON	PPER	_	12	A	12:A	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	tiefem	tief	DET	ADJA	_	5	E	5:E	_
+5	Meeresgrund	Meeresgrund	NOUN	NN	_	12	A	12:A	_
+6	Genossen	genießen	VERB	VVFIN	_	12	A	12:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Freunde	Freund	NOUN	NN	_	6	C	6:C	_
+9	von	von	ADP	NE	_	8	R	8:R	_
+10	Kapitän	Kapitän	PROPN	FM	_	11	E	11:E	_
+11	Nemo	Nemo	PROPN	NE	_	8	E	8:E	_
+12	finden	finden	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	PRON	PRELS	_	21	R	21:R	_
+15	wie	wie	ADP	ADV	_	16	R	16:R	_
+16	er	er	PRON	PPER	_	21	H	21:H	_
+17	ein	ein	DET	ART	_	20	R	20:R	_
+18	so	so	ADV	ADV	_	19	D	19:D	_
+19	seltsames	seltsam	ADJ	ADJA	_	21	A	21:A	_
+20	Dasein	Dasein	NOUN	NN	_	19	A	19:A	_
+21	hatten	haben	VERB	VAFIN	_	8	E	8:E	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	denen	der	PRON	PRELS	_	25	R	25:R	_
+24	er	er	PRON	PPER	_	25	A	25:A	_
+25	einen	ein	DET	ART	_	21	H	21:H	_
+26	Besuch	Besuch	NOUN	NN	_	25	Terminal	25:Terminal	_
+27	abstatten	abstatten	VERB	VVINF	_	25	Terminal	25:Terminal	_
+28	wollte	wollen	AUX	VMFIN	_	25	D	25:D	_
+29	?	?	PUNCT	$.	_	25	U	25:U	_
+

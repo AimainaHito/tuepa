@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 549003
+# text = Before the film 's release , Warner showed a preview cut to U . S . President Richard Nixon , who recommended substantial changes , including the removal of two songs that struck him as veiled criticisms of the ongoing Vietnam War .
+1	Before	before	SCONJ	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	5	A	5:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	release	release	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Warner	Warner	PROPN	NNP	_	8	A	8:A	_
+8	showed	show	VERB	VBD	_	5	H	5:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	preview	preview	NOUN	NN	_	11	E	11:E	_
+11	cut	cut	NOUN	NN	_	8	A	8:A	_
+12	to	to	ADP	IN	_	18	R	18:R	_
+13	U	U	PROPN	NNP	_	17	E	17:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+15	S	's	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+16	.	.	PUNCT	.	_	17	U	17:U	_
+17	President	President	PROPN	NNP	_	18	E	18:E	_
+18	Richard	Richard	PROPN	NNP	_	8	A	8:A	_
+19	Nixon	Nixon	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	18	U	18:U	_
+21	who	who	PRON	WP	_	22	F	22:F	_
+22	recommended	recommend	VERB	VBD	_	18	E	18:E	_
+23	substantial	substantial	ADJ	JJ	_	24	E	24:E	_
+24	changes	change	NOUN	NNS	_	22	A	22:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	including	include	VERB	VBG	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	removal	removal	NOUN	NN	_	24	E	24:E	_
+29	of	of	ADP	IN	_	31	R	31:R	_
+30	two	two	NUM	CD	_	31	E	31:E	_
+31	songs	song	NOUN	NNS	_	28	A	28:A	_
+32	that	that	PRON	WDT	_	33	F	33:F	_
+33	struck	strike	VERB	VBD	_	31	E	31:E	_
+34	him	he	PRON	PRP	_	33	A	33:A	_
+35	as	as	ADP	IN	_	37	R	37:R	_
+36	veiled	veil	VERB	VBN	_	37	E	37:E	_
+37	criticisms	criticism	NOUN	NNS	_	33	A	33:A	_
+38	of	of	ADP	IN	_	42	R	42:R	_
+39	the	the	DET	DT	_	42	E	42:E	_
+40	ongoing	ongoing	ADJ	JJ	_	42	E	42:E	_
+41	Vietnam	Vietnam	PROPN	NNP	_	42	E	42:E	_
+42	War	War	PROPN	NNP	_	37	E	37:E	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

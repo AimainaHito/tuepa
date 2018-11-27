@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25639011
+# text = Ich wartete noch eine Weile , dann begab ich mich in den großen Salon .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	wartete	warten	VERB	VVFIN	_	0	H	0:H	_
+3	noch	noch	ADV	ADV	_	2	D	2:D	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Weile	Weile	NOUN	NN	_	2	D	2:D	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	dann	dann	ADV	ADV	_	2	L	2:L	_
+8	begab	begeben	VERB	VVFIN	_	2	H	2:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	mich	ich	PRON	PRF	_	8	Terminal	8:Terminal	_
+11	in	in	ADP	APPR	_	14	R	14:R	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	großen	groß	ADJ	ADJA	_	14	E	14:E	_
+14	Salon	Salon	NOUN	NN	_	8	A	8:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

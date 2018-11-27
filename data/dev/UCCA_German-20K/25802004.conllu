@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25802004
+# text = Von Fischen , die ich noch nicht zu studieren Gelegenheit hatte , bemerkte ich einige Arten .
+1	Von	von	ADP	APPR	_	2	R	2:R	_
+2	Fischen	Fisch	PROPN	NN	_	13	A	13:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	die	der	PRON	PRELS	_	9	R	9:R	_
+5	ich	ich	PRON	PPER	_	9	A	9:A	_
+6	noch	noch	ADV	VVINF	_	7	E	7:E	_
+7	nicht	nicht	PART	XY	_	9	D	9:D	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	studieren	studieren	VERB	VVINF	_	2	E	2:E	_
+10	Gelegenheit	Gelegenheit	NOUN	NN	_	9	D	9:D	_
+11	hatte	haben	VERB	VAFIN	_	9	F	9:F	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A	_
+15	einige	einige	PRON	PIAT	_	16	E	16:E	_
+16	Arten	Art	NOUN	NN	_	13	A	13:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

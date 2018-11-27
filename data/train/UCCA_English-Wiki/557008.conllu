@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 557008
+# text = Not long after , he failed an audition for a local vocal quartet , the Songfellows .
+1	Not	not	PART	RB	_	2	E	2:E	_
+2	long	long	ADV	RB	_	8	D	8:D	_
+3	after	after	ADV	RB	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	he	he	PRON	PRP	_	8	A	8:A	_
+6	failed	fail	VERB	VBD	_	8	D	8:D	_
+7	an	a	DET	DT	_	8	E	8:E	_
+8	audition	audition	NOUN	NN	_	0	H	0:H	_
+9	for	for	ADP	IN	_	15	R	15:R	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	local	local	ADJ	JJ	_	13	E	13:E	_
+12	vocal	vocal	ADJ	JJ	_	13	E	13:E	_
+13	quartet	quartet	NOUN	NN	_	15	E	15:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	the	the	DET	DT	_	8	A	8:A	_
+16	Songfellows	Songfellows	PROPN	NNPS	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

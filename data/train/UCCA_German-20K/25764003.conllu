@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25764003
+# text = Dies Hindernis konnte den Kapitän nicht aufhalten , der drang mit schrecklicher Gewalt auf so ein Eisfeld ein , und die ›Nautilus‹ zerspaltete wie ein Keil die zerbrechliche Masse , dass sie mit fürchterlichem Krachen auseinander wich .
+1	Dies	dies	PRON	PDS	_	2	E	2:E	_
+2	Hindernis	Hindernis	NOUN	NN	_	7	A	7:A	_
+3	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	aufhalten	aufhalten	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	der	der	PRON	ART	_	10	A	10:A	_
+10	drang	drang	ADV	NN	_	7	H	7:H	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	schrecklicher	schrecklich	ADJ	ADJA	_	13	E	13:E	_
+13	Gewalt	Gewalt	NOUN	NN	_	10	D	10:D	_
+14	auf	auf	ADP	APPR	_	17	R	17:R	_
+15	so	so	ADV	ADV	_	17	E	17:E	_
+16	ein	ein	DET	ART	_	17	E	17:E	_
+17	Eisfeld	Eisfeld	NOUN	NN	_	10	A	10:A	_
+18	ein	ein	ADV	PTKVZ	_	10	Terminal	10:Terminal	_
+19	,	,	PUNCT	$,	_	7	U	7:U	_
+20	und	und	CCONJ	NE	_	7	L	7:L	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	›Nautilus‹	›Nautilus‹	NOUN	NE	_	23	A	23:A	_
+23	zerspaltete	zerspalten	VERB	VVFIN	_	7	H	7:H	_
+24	wie	wie	ADP	ADV	_	26	R	26:R	_
+25	ein	ein	DET	ART	_	26	E	26:E	_
+26	Keil	Keil	NOUN	NN	_	7	H	7:H	_
+27	die	der	DET	ART	_	29	E	29:E	_
+28	zerbrechliche	zerbrechlich	ADJ	ADJA	_	29	E	29:E	_
+29	Masse	Masse	NOUN	NN	_	23	A	23:A	_
+30	,	,	PUNCT	$,	_	7	U	7:U	_
+31	dass	dass	SCONJ	KOUS	_	7	L	7:L	_
+32	sie	sie	PRON	ADV	_	36	A	36:A|35:A	_
+33	mit	mit	ADP	APPR	_	35	R	35:R	_
+34	fürchterlichem	fürchterlich	ADJ	ADJA	_	35	D	35:D	_
+35	Krachen	Krachen	NOUN	ADJA	_	36	A	36:A	_
+36	auseinander	auseinander	ADV	PTKVZ	_	7	H	7:H	_
+37	wich	weichen	ADJ	ADJA	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	$.	_	36	U	36:U	_
+

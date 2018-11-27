@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 633011
+# text = After the first Hamburg residency , the band accepted another in April 1961 , and a third in April 1962 .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	first	first	ADJ	JJ	_	5	D	5:D	_
+4	Hamburg	Hamburg	PROPN	NNP	_	5	E	5:E	_
+5	residency	residency	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	band	band	NOUN	NN	_	0	C	0:C|17:A	_
+9	accepted	accept	VERB	VBD	_	5	H	5:H	_
+10	another	another	DET	DT	_	9	A	9:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	April	April	PROPN	NNP	_	13	E	13:E	_
+13	1961	1961	NUM	CD	_	9	D	9:D	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	and	and	CCONJ	CC	_	5	L	5:L	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	third	third	ADJ	JJ	_	5	H	5:H	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	April	April	PROPN	NNP	_	20	E	20:E	_
+20	1962	1962	NUM	CD	_	17	D	17:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

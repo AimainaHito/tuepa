@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 533005
+# text = On June 22 , 1969 , Garland was found dead by Deans in the bathroom of their rented house in Chelsea , London .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	June	June	PROPN	NNP	_	10	D	10:D	_
+3	22	22	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1969	1969	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	Garland	Garland	PROPN	NNP	_	10	A	10:A	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	found	find	VERB	VBN	_	10	D	10:D	_
+10	dead	dead	ADJ	JJ	_	0	H	0:H	_
+11	by	by	ADP	IN	_	12	R	12:R	_
+12	Deans	Deans	PROPN	NNPS	_	10	A	10:A	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	bathroom	bathroom	NOUN	NN	_	10	A	10:A	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	their	they	PRON	PRP$	_	19	E	19:E	_
+18	rented	rent	VERB	VBN	_	19	E	19:E	_
+19	house	house	NOUN	NN	_	15	E	15:E	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	Chelsea	Chelsea	PROPN	NNP	_	19	E	19:E	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	London	London	PROPN	NNP	_	21	E	21:E	_
+24	.	.	PUNCT	.	_	21	U	21:U	_
+

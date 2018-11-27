@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 538003
+# text = " Warner claimed that he briefly belonged to a street gang based at Westlake 's Crossing , a notorious neighborhood located just west of the city 's downtown area .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Warner	Warner	PROPN	NNP	_	3	A	3:A	_
+3	claimed	claim	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	7	F	7:F	_
+5	he	he	PRON	PRP	_	7	A	7:A	_
+6	briefly	briefly	ADV	RB	_	7	D	7:D	_
+7	belonged	belong	VERB	VBD	_	3	A	3:A	_
+8	to	to	ADP	IN	_	11	R	11:R	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	street	street	NOUN	NN	_	11	E	11:E	_
+11	gang	gang	NOUN	NN	_	7	A	7:A	_
+12	based	base	VERB	VBN	_	11	E	11:E	_
+13	at	at	ADP	IN	_	14	R	14:R	_
+14	Westlake	Westlake	PROPN	NNP	_	12	A	12:A	_
+15	's	's	PART	POS	_	14	Terminal	14:Terminal	_
+16	Crossing	crossing	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	14	U	14:U	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	notorious	notorious	ADJ	JJ	_	20	E	20:E	_
+20	neighborhood	neighborhood	NOUN	NN	_	21	A	21:A	_
+21	located	locate	VERB	VBN	_	14	E	14:E	_
+22	just	just	ADV	RB	_	23	E	23:E	_
+23	west	west	ADV	RBS	_	29	E	29:E	_
+24	of	of	ADP	IN	_	23	R	23:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	city	city	NOUN	NN	_	29	E	29:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	downtown	downtown	NOUN	NN	_	29	E	29:E	_
+29	area	area	NOUN	NN	_	21	A	21:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

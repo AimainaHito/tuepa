@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 201003
+# text = He describes his writing process as physical because he will often stand up and speak the dialogue he is developing .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	describes	describe	VERB	VBZ	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	5	A	5:A	_
+4	writing	writing	NOUN	NN	_	5	E	5:E	_
+5	process	process	NOUN	NN	_	2	A	2:A	_
+6	as	as	ADP	IN	_	7	R	7:R	_
+7	physical	physical	ADJ	JJ	_	2	A	2:A	_
+8	because	because	SCONJ	IN	_	2	L	2:L	_
+9	he	he	PRON	PRP	_	12	A	12:A|15:A	_
+10	will	will	AUX	MD	_	12	F	12:F	_
+11	often	often	ADV	RB	_	12	D	12:D	_
+12	stand	stand	VERB	VB	_	2	H	2:H	_
+13	up	up	ADP	RP	_	12	Terminal	12:Terminal	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	speak	speak	VERB	VB	_	2	H	2:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	dialogue	dialogue	NOUN	NN	_	15	A	15:A	_
+18	he	he	PRON	PRP	_	20	A	20:A	_
+19	is	be	AUX	VBZ	_	20	F	20:F	_
+20	developing	develop	VERB	VBG	_	17	E	17:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

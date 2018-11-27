@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25788026
+# text = » Auf welcher Seite ? « fragte ich .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Auf	auf	ADP	APPR	_	4	R	4:R	_
+3	welcher	welch	PRON	PWAT	_	4	E	4:E	_
+4	Seite	Seite	NOUN	NN	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

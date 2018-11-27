@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25488017
+# text = Die Luft ging mir aus ... ! » Zu Hilfe ! « Diesen letzten Ruf stieß ich aus .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luft	Luft	NOUN	NN	_	3	A	3:A	_
+3	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	aus	aus	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+6	...	...	PUNCT	$(	_	3	U	3:U	_
+7	!	!	PUNCT	$.	_	3	U	3:U	_
+8	»	»	PUNCT	$(	_	3	U	3:U	_
+9	Zu	zu	ADP	NE	_	10	R	10:R	_
+10	Hilfe	Hilfe	NOUN	NE	_	16	A	16:A	_
+11	!	!	PUNCT	$.	_	16	U	16:U	_
+12	«	«	PUNCT	$(	_	16	U	16:U	_
+13	Diesen	dies	PRON	PDS	_	15	E	15:E	_
+14	letzten	letzt	ADJ	ADJA	_	15	E	15:E	_
+15	Ruf	Ruf	NOUN	NN	_	16	A	16:A	_
+16	stieß	stoßen	VERB	VVFIN	_	3	H	3:H	_
+17	ich	ich	PRON	PPER	_	16	A	16:A	_
+18	aus	aus	ADP	PTKVZ	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	$.	_	16	U	16:U	_
+

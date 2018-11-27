@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 663000
+# text = Released on October 3 , 1995 , Daydream combined the pop sensibilities of Music Box with downbeat R & B and hip hop influences .
+1	Released	release	VERB	VBD	_	0	H	0:H	_
+2	on	on	ADP	IN	_	3	R	3:R	_
+3	October	October	PROPN	NNP	_	1	D	1:D	_
+4	3	3	NUM	CD	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	1995	1995	NUM	CD	_	3	Terminal	3:Terminal	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Daydream	Daydream	PROPN	NNP	_	9	A	9:A|1:A	_
+9	combined	combin	VERB	VBD	_	1	H	1:H	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	pop	pop	NOUN	NN	_	12	E	12:E	_
+12	sensibilities	sensibility	NOUN	NNS	_	9	A	9:A	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	Music	music	ADJ	JJ	_	12	E	12:E	_
+15	Box	box	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	with	with	ADP	IN	_	24	R	24:R	_
+17	downbeat	downbeat	PROPN	NNP	_	18	E	18:E	_
+18	R	r	PROPN	NNP	_	24	E	24:E	_
+19	&	&	CCONJ	CC	_	18	Terminal	18:Terminal	_
+20	B	b	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	and	and	CCONJ	CC	_	18	N	18:N	_
+22	hip	hip	VERB	VB	_	18	C	18:C	_
+23	hop	hop	VERB	VB	_	22	Terminal	22:Terminal	_
+24	influences	influence	NOUN	NNS	_	9	A	9:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

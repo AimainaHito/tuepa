@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25618017
+# text = » Übrigens , Herr Arronax , die " Nautilus " ist nicht in gefährlicher Lage . Sie ist noch imstande , Ihnen alle Wunder des Ozeans zu zeigen . Unsere Reise fängt erst an , und ich wünschte nicht so bald mich der Ehre Ihrer Gesellschaft zu berauben . «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Übrigens	übrigens	PROPN	ADV	_	15	G	15:G	_
+3	,	,	PUNCT	$,	_	15	U	15:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Arronax	Arronax	PROPN	NE	_	15	G	15:G	_
+6	,	,	PUNCT	$,	_	15	U	15:U	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	"	"	PUNCT	$(	_	9	U	9:U	_
+9	Nautilus	Nautilus	PROPN	NN	_	15	A	15:A	_
+10	"	"	PUNCT	$(	_	15	U	15:U	_
+11	ist	sein	AUX	VVFIN	_	15	F	15:F	_
+12	nicht	nicht	PART	CARD	_	15	D	15:D	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	gefährlicher	gefährlich	ADJ	ADJA	_	15	D	15:D	_
+15	Lage	Lage	NOUN	NN	_	0	H	0:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+17	Sie	Sie|sie	PRON	PPER	_	28	A	28:A	_
+18	ist	sein	AUX	VVFIN	_	28	F	28:F	_
+19	noch	noch	ADV	ADV	_	28	D	28:D	_
+20	imstande	imstande	ADV	NN	_	28	D	28:D	_
+21	,	,	PUNCT	$,	_	28	U	28:U	_
+22	Ihnen	Sie|sie	PRON	PPER	_	28	A	28:A	_
+23	alle	alle	PRON	PIAT	_	24	E	24:E	_
+24	Wunder	Wunder	NOUN	NN	_	28	A	28:A	_
+25	des	der	DET	ART	_	26	R	26:R	_
+26	Ozeans	Ozeans	NOUN	NN	_	24	E	24:E	_
+27	zu	zu	PART	NE	_	28	F	28:F	_
+28	zeigen	zeigen	VERB	VVINF	_	15	H	15:H	_
+29	.	.	PUNCT	$.	_	15	U	15:U	_
+30	Unsere	unser	PRON	PPOSAT	_	31	E	31:E	_
+31	Reise	Reise	NOUN	NN	_	32	A	32:A	_
+32	fängt	fangen	VERB	VVFIN	_	15	H	15:H	_
+33	erst	erst	ADV	ADV	_	32	D	32:D	_
+34	an	an	ADP	PTKVZ	_	32	Terminal	32:Terminal	_
+35	,	,	PUNCT	$,	_	15	U	15:U	_
+36	und	und	CCONJ	NE	_	15	L	15:L	_
+37	ich	ich	PRON	PPER	_	38	A	38:A|42:A	_
+38	wünschte	wünschen	VERB	VVFIN	_	15	H	15:H	_
+39	nicht	nicht	PART	XY	_	41	E	41:E	_
+40	so	so	ADV	ADV	_	41	E	41:E	_
+41	bald	bald	ADV	ADV	_	42	D	42:D	_
+42	mich	ich	PRON	PRF	_	38	A	38:A	_
+43	der	der	DET	ART	_	44	E	44:E	_
+44	Ehre	Ehre	NOUN	NN	_	42	A	42:A	_
+45	Ihrer	Ihrer	PROPN	PPOSAT	_	46	R	46:R	_
+46	Gesellschaft	Gesellschaft	PROPN	NN	_	44	E	44:E	_
+47	zu	zu	PART	VVINF	_	42	F	42:F	_
+48	berauben	berauben	VERB	VVFIN	_	42	Terminal	42:Terminal	_
+49	.	.	PUNCT	$.	_	42	U	42:U	_
+50	«	«	PUNCT	$(	_	42	U	42:U	_
+

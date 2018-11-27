@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 130005
+# text = It had a successful tour , but uncertain about the script and unwilling to risk failure after the disaster of The Lake , Hepburn decided against taking the show to Broadway .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	had	have	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	successful	successful	ADJ	JJ	_	5	E	5:E	_
+5	tour	tour	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	but	but	CCONJ	CC	_	2	L	2:L	_
+8	uncertain	uncertain	ADJ	JJ	_	2	H	2:H	_
+9	about	about	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	script	script	NOUN	NN	_	8	A	8:A	_
+12	and	and	CCONJ	CC	_	2	L	2:L	_
+13	unwilling	unwilling	ADJ	JJ	_	2	H	2:H	_
+14	to	to	PART	TO	_	15	R	15:R	_
+15	risk	risk	VERB	VB	_	13	A	13:A	_
+16	failure	failure	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	after	after	ADP	IN	_	15	L	15:L	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	disaster	disaster	NOUN	NN	_	15	H	15:H	_
+20	of	of	ADP	IN	_	21	F	21:F	_
+21	The	the	DET	DT	_	19	A	19:A	_
+22	Lake	Lake	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	15	U	15:U	_
+24	Hepburn	Hepburn	PROPN	NNP	_	25	A	25:A|8:A|13:A|15:A|27:A	_
+25	decided	decide	VERB	VBD	_	2	H	2:H	_
+26	against	against	SCONJ	IN	_	25	D	25:D	_
+27	taking	take	VERB	VBG	_	25	A	25:A	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	show	show	NOUN	NN	_	27	A	27:A	_
+30	to	to	ADP	IN	_	31	R	31:R	_
+31	Broadway	Broadway	PROPN	NNP	_	27	A	27:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

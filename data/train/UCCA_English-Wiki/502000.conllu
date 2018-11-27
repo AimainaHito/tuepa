@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 502000
+# text = Bowie moved to Switzerland in 1976 , purchasing a chalet in the hills to the north of Lake Geneva .
+1	Bowie	Bowie	PROPN	NNP	_	2	A	2:A|8:A	_
+2	moved	move	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	4	R	4:R	_
+4	Switzerland	Switzerland	PROPN	NNP	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1976	1976	NUM	CD	_	2	D	2:D	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	purchasing	purchase	VERB	VBG	_	2	H	2:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	chalet	chalet	NOUN	NN	_	8	A	8:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	hills	hill	NOUN	NNS	_	10	E	10:E	_
+14	to	to	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	north	north	NOUN	NN	_	18	E	18:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	Lake	Lake	PROPN	NNP	_	13	E	13:E	_
+19	Geneva	Geneva	PROPN	NNP	_	18	E	18:E	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

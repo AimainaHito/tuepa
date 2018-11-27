@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 710009
+# text = " This collection of complex songs won him his first solo " Album of the Year " Grammy Award .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	This	this	DET	DT	_	3	E	3:E	_
+3	collection	collection	NOUN	NN	_	7	A	7:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	complex	complex	ADJ	JJ	_	6	E	6:E	_
+6	songs	song	NOUN	NNS	_	3	E	3:E	_
+7	won	win	VERB	VBD	_	0	H	0:H	_
+8	him	he	PRON	PRP	_	7	A	7:A	_
+9	his	he	PRON	PRP$	_	19	E	19:E	_
+10	first	first	ADJ	JJ	_	19	E	19:E	_
+11	solo	solo	NOUN	NN	_	19	E	19:E	_
+12	"	"	PUNCT	''	_	19	U	19:U	_
+13	Album	Album	NOUN	NN	_	19	E	19:E	_
+14	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+15	the	the	DET	DT	_	13	Terminal	13:Terminal	_
+16	Year	year	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	"	"	PUNCT	``	_	19	U	19:U	_
+18	Grammy	Grammy	PROPN	NNP	_	19	E	19:E	_
+19	Award	Award	PROPN	NNP	_	7	A	7:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

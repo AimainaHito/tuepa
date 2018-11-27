@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25525007
+# text = Kurz , tausend Fragen , die ich zu beantworten keine Zeit hatte .
+1	Kurz	kurz	ADJ	ADJD	_	4	G	4:G	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	tausend	tausend	NUM	ADJD	_	4	E	4:E	_
+4	Fragen	Frage	NOUN	NN	_	0	C	0:C|9:A	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	die	der	PRON	PRELS	_	9	R	9:R	_
+7	ich	ich	PRON	PPER	_	12	A	12:A|9:A	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	beantworten	beantworten	VERB	VVINF	_	4	H	4:H	_
+10	keine	kein	PRON	PIAT	_	12	D	12:D	_
+11	Zeit	Zeit	NOUN	NN	_	12	A	12:A	_
+12	hatte	haben	VERB	VAFIN	_	4	H	4:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

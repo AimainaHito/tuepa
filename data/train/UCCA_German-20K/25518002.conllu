@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25518002
+# text = « » Gläser , die solchem Druck widerstehen können ? «
+1	«	«	PUNCT	$(	_	8	U	8:U	_
+2	»	»	PUNCT	$(	_	8	U	8:U	_
+3	Gläser	Gläser	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	PRON	PRELS	_	8	R	8:R	_
+6	solchem	solch	PRON	PWAT	_	7	E	7:E	_
+7	Druck	Druck	NOUN	NN	_	8	A	8:A	_
+8	widerstehen	widerstehen	VERB	VVINF	_	3	E	3:E	_
+9	können	können	AUX	VMFIN	_	8	D	8:D	_
+10	?	?	PUNCT	$.	_	8	U	8:U	_
+11	«	«	PUNCT	$(	_	8	U	8:U	_
+

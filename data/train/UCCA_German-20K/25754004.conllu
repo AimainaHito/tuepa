@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25754004
+# text = Als auf ein Signal des Kapitäns die Schraube gehemmt , die Ebenen senkrecht gerichtet waren , fuhr die ›Nautilus‹ , wie ein Ballon in die Lüfte steigt , mit blitzgleicher Schnelligkeit aufwärts .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	auf	auf	ADP	APPR	_	4	R	4:R	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Signal	Signal	NOUN	NN	_	0	H	0:H	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Kapitäns	Kapitän	NOUN	NN	_	4	A	4:A	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Schraube	Schraube	NOUN	NN	_	9	A	9:A	_
+9	gehemmt	hemmen	VERB	VVPP	_	4	H	4:H	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Ebenen	Ebene	NOUN	NN	_	14	A	14:A	_
+13	senkrecht	senkrecht	ADJ	ADJD	_	14	D	14:D	_
+14	gerichtet	richten	ADJ	VVPP	_	4	H	4:H	_
+15	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	fuhr	fahren	VERB	VVFIN	_	4	H	4:H	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	›Nautilus‹	›Nautilus‹	NOUN	NE	_	17	A	17:A	_
+20	,	,	PUNCT	$,	_	4	U	4:U	_
+21	wie	wie	ADP	KON	_	27	R	27:R	_
+22	ein	ein	DET	ART	_	23	E	23:E	_
+23	Ballon	Ballon	NOUN	NN	_	27	A	27:A	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Lüfte	Lüfte	NOUN	ADJA	_	27	A	27:A	_
+27	steigt	steigen	VERB	VVFIN	_	4	H	4:H	_
+28	,	,	PUNCT	$,	_	4	U	4:U	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	blitzgleicher	blitzgleich	ADJ	ADJA	_	31	E	31:E	_
+31	Schnelligkeit	Schnelligkeit	NOUN	NN	_	17	D	17:D	_
+32	aufwärts	aufwärts	ADV	ADV	_	17	Terminal	17:Terminal	_
+33	.	.	PUNCT	$.	_	17	U	17:U	_
+

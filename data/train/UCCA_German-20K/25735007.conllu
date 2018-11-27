@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25735007
+# text = Ich nahm meine letzten Kräfte zusammen , ihm zu folgen , und in einigen Minuten hatten wir die Spitze erstiegen , die um etwa 10 Meter über diese ganze Felsenmasse emporragte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|10:A	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	meine	mein	PRON	VVFIN	_	5	E	5:E	_
+4	letzten	letzt	ADJ	ADJA	_	5	E	5:E	_
+5	Kräfte	Kraft	NOUN	NN	_	2	A	2:A	_
+6	zusammen	zusammen	ADV	NE	_	2	Terminal	2:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	ihm	er	PRON	PPER	_	10	A	10:A	_
+9	zu	zu	PART	VVINF	_	10	F	10:F	_
+10	folgen	folgen	VERB	VVINF	_	2	H	2:H	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	einigen	einige	PRON	PIAT	_	15	E	15:E	_
+15	Minuten	Minute	NOUN	NN	_	20	D	20:D	_
+16	hatten	haben	VERB	VAFIN	_	20	F	20:F	_
+17	wir	wir	PRON	NE	_	20	A	20:A	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Spitze	Spitze	NOUN	NN	_	20	A	20:A	_
+20	erstiegen	ersteigen	VERB	VVINF	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	31	R	31:R	_
+23	um	um	ADP	APPR	_	26	R	26:R	_
+24	etwa	etwa	ADV	ADV	_	26	E	26:E	_
+25	10	10	NUM	CARD	_	26	E	26:E	_
+26	Meter	Meter	NOUN	NN	_	31	A	31:A	_
+27	über	über	ADP	VVFIN	_	30	R	30:R	_
+28	diese	dies	PRON	PDAT	_	30	E	30:E	_
+29	ganze	ganz	ADJ	ADJA	_	30	E	30:E	_
+30	Felsenmasse	Felsenmasse	NOUN	NN	_	31	A	31:A	_
+31	emporragte	emporragen	VERB	VVFIN	_	19	E	19:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

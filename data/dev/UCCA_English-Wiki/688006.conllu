@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 688006
+# text = Dylan 's lyrics have incorporated a variety of political , social , philosophical , and literary influences .
+1	Dylan	Dylan	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	lyrics	lyric	NOUN	NNS	_	5	A	5:A	_
+4	have	have	AUX	VBP	_	5	F	5:F	_
+5	incorporated	incorporate	VERB	VBN	_	0	H	0:H	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	variety	variety	NOUN	NN	_	17	E	17:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	political	political	ADJ	JJ	_	17	E	17:E	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	social	social	ADJ	JJ	_	9	C	9:C	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	philosophical	philosophical	ADJ	JJ	_	9	C	9:C	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	and	and	CCONJ	CC	_	9	N	9:N	_
+16	literary	literary	ADJ	JJ	_	9	C	9:C	_
+17	influences	influence	NOUN	NNS	_	5	A	5:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

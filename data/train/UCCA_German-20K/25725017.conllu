@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25725017
+# text = Vergeblich trachtete ich meine Gemütsruhe wiederzugewinnen .
+1	Vergeblich	vergeblich	ADJ	ADJD	_	6	D	6:D	_
+2	trachtete	trachten	VERB	VVFIN	_	6	D	6:D	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	meine	mein	DET	PPOSAT	_	5	E	5:E	_
+5	Gemütsruhe	Gemütsruhe	NOUN	NN	_	6	A	6:A	_
+6	wiederzugewinnen	wiederzugewinnen	ADV	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

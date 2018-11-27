@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25618009
+# text = Aber konnte es auch nicht untersinken oder leck werden , so war es doch sehr in Gefahr , für immer auf diesen Felsen festzusitzen , und dann war der unterseeische Apparat von Kapitän Nemo zwecklos .
+1	Aber	aber	ADV	KON	_	6	L	6:L	_
+2	konnte	können	AUX	VMFIN	_	6	D	6:D	_
+3	es	es	PRON	PPER	_	6	A	6:A	_
+4	auch	auch	ADV	ADV	_	5	E	5:E	_
+5	nicht	nicht	PART	CARD	_	6	D	6:D	_
+6	untersinken	untersink	ADJ	VVFIN	_	0	H	0:H	_
+7	oder	oder	CCONJ	CARD	_	6	N	6:N	_
+8	leck	leck	ADJ	NN	_	6	C	6:C	_
+9	werden	werden	AUX	ADV	_	6	F	6:F	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	so	so	ADV	ADV	_	6	L	6:L	_
+12	war	sein	AUX	ADV	_	17	F	17:F	_
+13	es	es	PRON	PPER	_	17	A	17:A|24:A	_
+14	doch	doch	ADV	ADV	_	17	D	17:D	_
+15	sehr	sehr	ADV	NE	_	17	D	17:D	_
+16	in	in	ADP	APPR	_	17	R	17:R	_
+17	Gefahr	Gefahr	NOUN	NN	_	6	H	6:H	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	für	für	ADP	APPR	_	20	R	20:R	_
+20	immer	immer	ADV	ADV	_	24	D	24:D	_
+21	auf	auf	ADP	APPR	_	23	R	23:R	_
+22	diesen	dies	PRON	PDAT	_	23	E	23:E	_
+23	Felsen	Felsen	NOUN	NN	_	24	A	24:A	_
+24	festzusitzen	festzusitzen	VERB	VVFIN	_	17	A	17:A	_
+25	,	,	PUNCT	$,	_	6	U	6:U	_
+26	und	und	CCONJ	NE	_	6	L	6:L	_
+27	dann	dann	ADV	ADV	_	6	L	6:L	_
+28	war	sein	AUX	ADV	_	35	F	35:F	_
+29	der	der	DET	ART	_	31	E	31:E	_
+30	unterseeische	unterseeisch	ADJ	ADJA	_	31	E	31:E	_
+31	Apparat	Apparat	NOUN	NN	_	35	A	35:A	_
+32	von	von	ADP	NE	_	34	R	34:R	_
+33	Kapitän	Kapitän	PROPN	FM	_	34	E	34:E	_
+34	Nemo	Nemo	PROPN	NE	_	35	A	35:A	_
+35	zwecklos	zwecklos	ADJ	ADJD	_	6	H	6:H	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

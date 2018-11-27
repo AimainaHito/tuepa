@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25762013
+# text = Am 14 . März bemerkte ich unterm 55 . Breitengrad Treibeis , blasse Blöcke von nur 20 bis 25 Fuß , gleich Klippen , woran sich die Wellen brachen .
+1	Am	am	PROPN	NE	_	4	R	4:R	_
+2	14	14	PROPN	CARD	_	4	E	4:E	_
+3	.	.	PUNCT	$.	_	4	U	4:U	_
+4	März	März	PROPN	NN	_	5	D	5:D	_
+5	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	unterm	unterm	ADV	NN	_	10	R	10:R	_
+8	55	55	NUM	CARD	_	10	E	10:E	_
+9	.	.	PUNCT	$.	_	10	U	10:U	_
+10	Breitengrad	Breitengrad	PROPN	NE	_	5	A	5:A	_
+11	Treibeis	Treibeis	PROPN	NE	_	5	A	5:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	blasse	blaß	ADJ	ADJA	_	14	E	14:E	_
+14	Blöcke	Block	NOUN	NN	_	11	E	11:E	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	nur	nur	ADV	NE	_	17	E	17:E	_
+17	20	20	NUM	CARD	_	14	E	14:E	_
+18	bis	bis	ADP	APPR	_	17	R	17:R	_
+19	25	25	NUM	CARD	_	20	E	20:E	_
+20	Fuß	Fuß	NOUN	NN	_	17	C	17:C	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	gleich	gleich	ADJ	ADV	_	23	R	23:R	_
+23	Klippen	Klippe	NOUN	NN	_	5	H	5:H	_
+24	,	,	PUNCT	$,	_	5	U	5:U	_
+25	woran	woran	PRON	PWAV	_	26	R	26:R	_
+26	sich	er|es|sie	PRON	PRF	_	14	E	14:E	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	Wellen	Welle	NOUN	NN	_	26	A	26:A	_
+29	brachen	brechen	VERB	VVFIN	_	26	Terminal	26:Terminal	_
+30	.	.	PUNCT	$.	_	26	U	26:U	_
+

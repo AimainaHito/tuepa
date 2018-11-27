@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25635005
+# text = Ich hörte sie oft das Wort » assai « sprechen und entnahm aus ihren Gebärden , dass sie mich einluden , zu ihnen an Land zu kommen ; ich glaubte aber diese Einladung ablehnen zu müssen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|12:A	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	10	A	10:A	_
+4	oft	oft	ADV	CARD	_	10	D	10:D	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Wort	Wort	NOUN	NN	_	8	E	8:E	_
+7	»	»	PUNCT	$(	_	8	U	8:U	_
+8	assai	assai	X	NN	_	10	A	10:A	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	sprechen	sprechen	VERB	VVINF	_	2	A	2:A	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	entnahm	entnehmen	VERB	VVFIN	_	2	H	2:H	_
+13	aus	aus	ADP	APPR	_	15	R	15:R	_
+14	ihren	ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Gebärden	Gebärde	NOUN	NN	_	12	A	12:A	_
+16	,	,	PUNCT	$,	_	12	U	12:U	_
+17	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+18	sie	sie	PRON	ADV	_	20	A	20:A	_
+19	mich	ich	PRON	PPER	_	20	A	20:A|27:A	_
+20	einluden	einluden	VERB	NN	_	12	A	12:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	zu	zu	ADP	NE	_	23	R	23:R	_
+23	ihnen	sie	PRON	PPER	_	27	A	27:A	_
+24	an	an	ADP	APPR	_	25	R	25:R	_
+25	Land	Land	NOUN	NN	_	27	A	27:A	_
+26	zu	zu	PART	VVINF	_	27	F	27:F	_
+27	kommen	kommen	VERB	VVINF	_	20	A	20:A	_
+28	;	;	PUNCT	$.	_	2	U	2:U	_
+29	ich	ich	PRON	PPER	_	34	A	34:A	_
+30	glaubte	glauben	VERB	VVFIN	_	34	D	34:D	_
+31	aber	aber	ADV	ADV	_	2	L	2:L	_
+32	diese	dies	PRON	PDAT	_	33	E	33:E	_
+33	Einladung	Einladung	NOUN	NN	_	34	A	34:A	_
+34	ablehnen	ablehnen	VERB	VVINF	_	2	H	2:H	_
+35	zu	zu	PART	VVINF	_	34	F	34:F	_
+36	müssen	müssen	AUX	VMINF	_	34	D	34:D	_
+37	.	.	PUNCT	$.	_	34	U	34:U	_
+

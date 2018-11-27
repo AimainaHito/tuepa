@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25720011
+# text = Die ungeheure Wasser fläche umfaßt 25 Millionen Quadratmeilen , bei einer Länge von 9.000 Meilen gegen eine mittlere Breite von 2.700 Meilen .
+1	Die	der	DET	ART	_	4	E	4:E	_
+2	ungeheure	ungeheuer	ADJ	ADJA	_	4	E	4:E	_
+3	Wasser	Wasser	NOUN	NN	_	4	E	4:E	_
+4	fläche	fläch	ADJ	VVFIN	_	0	C	0:C|19:A|12:A	_
+5	umfaßt	umfaßen|wissen	VERB	VVFIN	_	0	H	0:H	_
+6	25	25	NUM	CARD	_	8	E	8:E	_
+7	Millionen	Million	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	Quadratmeilen	Quadratmeil	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	bei	bei	ADP	APPR	_	12	R	12:R	_
+11	einer	ein	DET	ART	_	12	E	12:E	_
+12	Länge	Länge	NOUN	NN	_	5	H	5:H	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	9.000	9.0	NUM	CARD	_	15	E	15:E	_
+15	Meilen	Meile	NOUN	NN	_	12	E	12:E	_
+16	gegen	gegen	ADP	APPR	_	19	R	19:R	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	mittlere	mittler	ADJ	ADJA	_	19	E	19:E	_
+19	Breite	Breite	NOUN	NN	_	5	H	5:H	_
+20	von	von	ADP	NN	_	22	R	22:R	_
+21	2.700	2.7	NUM	CARD	_	22	E	22:E	_
+22	Meilen	Meile	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

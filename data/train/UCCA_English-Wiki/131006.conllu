@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 131006
+# text = Reflecting on this change in fortunes , Andrew Britton writes of Hepburn , " No other star has emerged with greater rapidity or with more ecstatic acclaim .
+1	Reflecting	reflecte	VERB	VBG	_	0	H	0:H	_
+2	on	on	ADP	IN	_	4	R	4:R	_
+3	this	this	DET	DT	_	4	F	4:F	_
+4	change	change	NOUN	NN	_	1	A	1:A	_
+5	in	in	ADP	IN	_	6	F	6:F	_
+6	fortunes	fortune	NOUN	NNS	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Andrew	Andrew	PROPN	NNP	_	10	A	10:A|1:A	_
+9	Britton	Britton	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	writes	write	NOUN	NNS	_	1	H	1:H	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	Hepburn	Hepburn	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	"	"	PUNCT	''	_	10	U	10:U	_
+15	No	no	DET	DT	_	17	E	17:E	_
+16	other	other	ADJ	JJ	_	17	E	17:E	_
+17	star	star	NOUN	NN	_	19	A	19:A	_
+18	has	have	AUX	VBZ	_	19	F	19:F	_
+19	emerged	emerge	VERB	VBN	_	10	A	10:A	_
+20	with	with	ADP	IN	_	22	R	22:R	_
+21	greater	greater	ADJ	JJR	_	22	E	22:E	_
+22	rapidity	rapidity	NOUN	NN	_	19	D	19:D	_
+23	or	or	CCONJ	CC	_	22	N	22:N	_
+24	with	with	ADP	IN	_	27	E	27:E	_
+25	more	more	ADJ	JJR	_	26	E	26:E	_
+26	ecstatic	ecstatic	ADJ	JJ	_	27	E	27:E	_
+27	acclaim	acclaim	NOUN	NNS	_	22	C	22:C	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

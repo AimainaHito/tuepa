@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25714009
+# text = Ich begab mich voll Unruhe , begreift man , auf mein Zimmer , versuchte vergebens zu schlafen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|4:A	_
+2	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	voll	voll	ADJ	VMFIN	_	2	H	2:H	_
+5	Unruhe	Unruhe	NOUN	NN	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	begreift	begreifen	VERB	VVFIN	_	2	H	2:H	_
+8	man	man	PRON	PIS	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	mein	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Zimmer	Zimmer	NOUN	NN	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	versuchte	versuchen	VERB	VVFIN	_	17	D	17:D	_
+15	vergebens	vergebens	ADV	ADV	_	2	H	2:H	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	schlafen	schlafen	VERB	VVINF	_	2	H	2:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

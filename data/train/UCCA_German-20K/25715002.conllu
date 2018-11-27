@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25715002
+# text = Ich war im Begriff , den Salon zu verlassen , als Kapitän Nemo eintrat .
+1	Ich	ich	PRON	PPER	_	9	A	9:A	_
+2	war	sein	AUX	ADV	_	9	F	9:F	_
+3	im	im	ADV	NE	_	9	D	9:D	_
+4	Begriff	Begriff	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Salon	Salen	NOUN	NN	_	9	A	9:A	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	verlassen	verlassen	VERB	NN	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	als	als	SCONJ	KOUS	_	9	L	9:L	_
+12	Kapitän	Kapitän	PROPN	NN	_	13	E	13:E	_
+13	Nemo	Nemo	PROPN	NE	_	14	A	14:A	_
+14	eintrat	eintreten	VERB	VVFIN	_	9	H	9:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

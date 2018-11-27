@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 220004
+# text = Reports have stated that she will join Clive Owen and Orlando Bloom in the international thriller titled Cities .
+1	Reports	report	NOUN	NNS	_	3	A	3:A	_
+2	have	have	AUX	VBP	_	3	F	3:F	_
+3	stated	state	VERB	VBN	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	7	F	7:F	_
+5	she	she	PRON	PRP	_	7	A	7:A	_
+6	will	will	AUX	MD	_	7	F	7:F	_
+7	join	join	VERB	VB	_	3	A	3:A	_
+8	Clive	Clive	PROPN	NNP	_	7	A	7:A	_
+9	Owen	Owen	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	and	and	CCONJ	CC	_	8	N	8:N	_
+11	Orlando	Orlando	PROPN	NNP	_	8	C	8:C	_
+12	Bloom	Bloom	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	IN	_	17	R	17:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	international	international	ADJ	JJ	_	16	E	16:E	_
+16	thriller	thriller	NOUN	NN	_	17	A	17:A	_
+17	titled	title	VERB	VBN	_	3	A	3:A	_
+18	Cities	City	NOUN	NNS	_	17	A	17:A	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

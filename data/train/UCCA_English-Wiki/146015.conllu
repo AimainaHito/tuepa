@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 146015
+# text = " Her public declarations of these beliefs led the American Humanist Association to award her the Humanist Arts Award in 1985 .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Her	she	PRON	PRP$	_	4	A	4:A	_
+3	public	public	ADJ	JJ	_	4	D	4:D	_
+4	declarations	declaration	NOUN	NNS	_	8	A	8:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	these	these	DET	DT	_	7	E	7:E	_
+7	beliefs	belief	NOUN	NNS	_	4	A	4:A	_
+8	led	lead	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	American	american	PROPN	NNP	_	8	A	8:A|14:A	_
+11	Humanist	Humanist	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Association	Association	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	award	award	VERB	VB	_	8	A	8:A	_
+15	her	she	PRON	PRP	_	14	A	14:A	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	Humanist	Humanist	PROPN	NNP	_	19	E	19:E	_
+18	Arts	Arts	PROPN	NNPS	_	17	Terminal	17:Terminal	_
+19	Award	Award	PROPN	NNP	_	14	A	14:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1985	1985	NUM	CD	_	14	D	14:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

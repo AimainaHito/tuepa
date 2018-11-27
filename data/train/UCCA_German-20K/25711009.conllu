@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25711009
+# text = » Wenn bei einer dunklen Nacht die ›Nautilus‹ einer europäischen Küste nah käme . «
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	12	L	12:L	_
+3	bei	bei	ADP	APPR	_	6	R	6:R	_
+4	einer	ein	DET	ART	_	6	E	6:E	_
+5	dunklen	dunkel	ADJ	ADJA	_	6	E	6:E	_
+6	Nacht	Nacht	NOUN	NN	_	12	A	12:A	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	12	A	12:A	_
+9	einer	ein	DET	ART	_	11	E	11:E	_
+10	europäischen	europäisch	ADJ	ADJA	_	11	E	11:E	_
+11	Küste	Küste	NOUN	NN	_	12	A	12:A	_
+12	nah	nah	ADJ	ADJD	_	0	H	0:H	_
+13	käme	kommen	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+15	«	«	PUNCT	$(	_	12	U	12:U	_
+

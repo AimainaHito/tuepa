@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25653014
+# text = Aber da gab 's nicht mehr einzelne Büsche noch niedere Schläge .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	da	da	ADV	ADV	_	3	A	3:A	_
+3	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+4	's	es	PART	PPER	_	3	F	3:F	_
+5	nicht	nicht	PART	CARD	_	6	E	6:E	_
+6	mehr	mehr	ADV	ADV	_	3	D	3:D	_
+7	einzelne	einzeln	ADJ	ADJA	_	8	E	8:E	_
+8	Büsche	Büsche	NOUN	ADJA	_	3	A	3:A	_
+9	noch	noch	ADV	CARD	_	3	D	3:D	_
+10	niedere	nied	ADJ	ADJA	_	11	E	11:E	_
+11	Schläge	Schlag	NOUN	NN	_	3	A	3:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

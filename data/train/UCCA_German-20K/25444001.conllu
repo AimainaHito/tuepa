@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25444001
+# text = Ich muß gestehen , dass er an das Einhorn wenig glaubte und dass er allein an Bord die allgemeine Ansicht nicht teilte .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	muß	müssen	AUX	VMFIN	_	3	D	3:D	_
+3	gestehen	stehen	VERB	VVINF	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+6	er	er	PRON	PPER	_	11	A	11:A	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	das	der	DET	ART	_	9	E	9:E	_
+9	Einhorn	Einhorn	NOUN	NE	_	11	A	11:A	_
+10	wenig	wenig	ADV	PPOSAT	_	11	D	11:D	_
+11	glaubte	glauben	VERB	VVFIN	_	3	A	3:A	_
+12	und	und	CCONJ	NE	_	11	L	11:L	_
+13	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+14	er	er	PRON	PPER	_	22	A	22:A	_
+15	allein	allein	ADV	ADV	_	22	D	22:D	_
+16	an	an	ADP	APPR	_	17	E	17:E	_
+17	Bord	Bord	NOUN	NN	_	22	A	22:A	_
+18	die	der	DET	ART	_	20	E	20:E	_
+19	allgemeine	allgemein	ADJ	ADJA	_	20	E	20:E	_
+20	Ansicht	Ansicht	NOUN	NN	_	22	A	22:A	_
+21	nicht	nicht	PART	XY	_	22	D	22:D	_
+22	teilte	teilen	VERB	VVFIN	_	11	H	11:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

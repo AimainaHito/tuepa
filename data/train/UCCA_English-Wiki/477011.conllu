@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 477011
+# text = To prevent his HIV infection from progressing to AIDS , Johnson takes a daily combination of drugs .
+1	To	to	PART	TO	_	2	L	2:L	_
+2	prevent	prevent	VERB	VB	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	5	A	5:A	_
+4	HIV	Hiv	NOUN	NN	_	5	E	5:E	_
+5	infection	infection	NOUN	NN	_	0	C	0:C|7:A	_
+6	from	from	SCONJ	IN	_	7	R	7:R	_
+7	progressing	progresse	VERB	VBG	_	2	A	2:A	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	AIDS	AIDS	NOUN	NNS	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	Johnson	Johnson	PROPN	NNP	_	12	A	12:A|2:A	_
+12	takes	take	VERB	VBZ	_	2	H	2:H	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	daily	daily	ADJ	JJ	_	15	E	15:E	_
+15	combination	combination	NOUN	NN	_	17	E	17:E	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	drugs	drug	NOUN	NNS	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25416002
+# text = Und in der Tat , sofern nicht solch eine Klippe eine Maschine im Leib hatte , wie konnte sie so reißend schnell die Stelle wechseln .
+1	Und	und	CCONJ	ADJD	_	25	L	25:L	_
+2	in	in	ADP	APPR	_	25	G	25:G	_
+3	der	der	DET	ART	_	2	Terminal	2:Terminal	_
+4	Tat	Tat	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	25	U	25:U	_
+6	sofern	sofern	SCONJ	KOUS	_	25	L	25:L	_
+7	nicht	nicht	PART	XY	_	15	D	15:D	_
+8	solch	solch	PRON	ADJD	_	10	E	10:E	_
+9	eine	ein	DET	ART	_	10	E	10:E	_
+10	Klippe	Klippe	NOUN	NN	_	15	A	15:A	_
+11	eine	ein	DET	ART	_	12	E	12:E	_
+12	Maschine	Maschine	NOUN	NN	_	15	A	15:A	_
+13	im	im	ADJ	NE	_	14	R	14:R	_
+14	Leib	Leib	NOUN	NE	_	15	A	15:A	_
+15	hatte	haben	VERB	VAFIN	_	25	H	25:H	_
+16	,	,	PUNCT	$,	_	25	U	25:U	_
+17	wie	wie	CCONJ	KON	_	25	D	25:D	_
+18	konnte	können	AUX	VMFIN	_	25	F	25:F	_
+19	sie	sie	PRON	ADV	_	25	A	25:A	_
+20	so	so	ADV	ADV	_	22	E	22:E	_
+21	reißend	reißend	ADJ	ADJD	_	22	E	22:E	_
+22	schnell	schnell	ADV	NN	_	25	D	25:D	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Stelle	Stelle	NOUN	NN	_	25	A	25:A	_
+25	wechseln	wechseln	VERB	VVINF	_	0	H	0:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

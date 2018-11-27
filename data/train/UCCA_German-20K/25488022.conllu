@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25488022
+# text = « » Und der Stoß hat dich zugleich mit mir ins Meer geschleudert ?
+1	«	«	PUNCT	$(	_	13	U	13:U	_
+2	»	»	PUNCT	$(	_	13	U	13:U	_
+3	Und	und	CCONJ	NN	_	13	F	13:F	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Stoß	Stoß	NOUN	NN	_	13	A	13:A	_
+6	hat	haben	AUX	VAFIN	_	13	F	13:F	_
+7	dich	du	PRON	PRF	_	13	A	13:A	_
+8	zugleich	zugleich	ADV	NN	_	13	D	13:D	_
+9	mit	mit	ADP	APPR	_	10	R	10:R	_
+10	mir	ich	PRON	NE	_	13	A	13:A	_
+11	ins	in	DET	NE	_	12	R	12:R	_
+12	Meer	Meer	NOUN	NE	_	13	A	13:A	_
+13	geschleudert	schleudern	VERB	ADJD	_	0	H	0:H	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+

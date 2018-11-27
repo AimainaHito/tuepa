@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25644005
+# text = Der stürmische und mit dichtem Gewölk bedeckte Himmel ließ in die obersten Schichten des Ozeans nur ungenügendes Licht dringen .
+1	Der	der	DET	ART	_	8	E	8:E	_
+2	stürmische	stürmisch	ADJ	ADJA	_	8	E	8:E	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	dichtem	dichtem	ADJ	ADJA	_	6	E	6:E	_
+6	Gewölk	Gewölk	NOUN	NN	_	7	A	7:A	_
+7	bedeckte	bedecken	ADJ	VVFIN	_	2	C	2:C	_
+8	Himmel	Himmel	NOUN	NE	_	19	A	19:A	_
+9	ließ	lassen	VERB	VVFIN	_	19	D	19:D	_
+10	in	in	ADP	APPR	_	15	R	15:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	obersten	ober	ADJ	ADJA	_	13	E	13:E	_
+13	Schichten	Schicht	NOUN	NN	_	15	E	15:E	_
+14	des	der	DET	ART	_	13	R	13:R	_
+15	Ozeans	Ozeans	NOUN	NE	_	19	A	19:A	_
+16	nur	nur	ADV	NE	_	19	D	19:D	_
+17	ungenügendes	ungenügend	ADJ	ADJA	_	18	E	18:E	_
+18	Licht	Licht	NOUN	NN	_	19	A	19:A	_
+19	dringen	dringen	VERB	VVFIN	_	0	H	0:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25723018
+# text = Seit jener Nacht , in der das Boot die ›Nautilus‹ um einer geheimnisvollen Verrichtung willen verlassen , hatten sich meine Ideen in Hinsicht darauf ein wenig geändert .
+1	Seit	seit	ADP	APPR	_	3	R	3:R	_
+2	jener	jen	DET	PDAT	_	3	E	3:E	_
+3	Nacht	Nacht	NOUN	NN	_	19	A	19:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	der	der	PRON	PRELS	_	16	R	16:R	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Boot	Boot	NOUN	NN	_	16	A	16:A	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	A	16:A	_
+11	um	um	ADP	APPR	_	13	R	13:R	_
+12	einer	ein	DET	ART	_	14	E	14:E	_
+13	geheimnisvollen	geheimnisvoll	ADJ	ADJA	_	16	A	16:A	_
+14	Verrichtung	Verrichtung	NOUN	NN	_	13	A	13:A	_
+15	willen	willen	ADP	ADJA	_	11	Terminal	11:Terminal	_
+16	verlassen	verlassen	VERB	NN	_	3	E	3:E	_
+17	,	,	PUNCT	$,	_	19	U	19:U	_
+18	hatten	haben	AUX	VAFIN	_	19	F	19:F	_
+19	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+20	meine	mein	DET	VVFIN	_	21	E	21:E	_
+21	Ideen	Idee	NOUN	NN	_	19	A	19:A	_
+22	in	in	ADP	APPR	_	21	R	21:R	_
+23	Hinsicht	Hinsicht	NOUN	NN	_	22	Terminal	22:Terminal	_
+24	darauf	darauf	ADV	PAV	_	22	Terminal	22:Terminal	_
+25	ein	ein	DET	ART	_	19	D	19:D	_
+26	wenig	wenig	PRON	NN	_	25	Terminal	25:Terminal	_
+27	geändert	ändern	VERB	VVPP	_	19	Terminal	19:Terminal	_
+28	.	.	PUNCT	$.	_	19	U	19:U	_
+

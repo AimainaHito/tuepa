@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25608003
+# text = Am 15 . Dezember ließen wir östlich den reizenden Archipel der Gesellschaftsinseln und das anmutige Tahiti .
+1	Am	am	PROPN	NE	_	2	E	2:E	_
+2	15	15	PROPN	CARD	_	5	D	5:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Dezember	Dezember	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	ließen	lassen	VERB	VVFIN	_	0	H	0:H	_
+6	wir	wir	PRON	NE	_	5	A	5:A	_
+7	östlich	östlich	ADP	NE	_	5	D	5:D	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	reizenden	reizend	ADJ	ADJA	_	10	E	10:E	_
+10	Archipel	Archipel	NOUN	NN	_	5	A	5:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Gesellschaftsinseln	Gesellschaftsinsel	NOUN	NN	_	10	E	10:E	_
+13	und	und	CCONJ	NE	_	10	N	10:N	_
+14	das	der	DET	ART	_	16	E	16:E	_
+15	anmutige	anmutig	ADJ	ADJA	_	16	E	16:E	_
+16	Tahiti	Tahiti	NOUN	NE	_	10	C	10:C	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

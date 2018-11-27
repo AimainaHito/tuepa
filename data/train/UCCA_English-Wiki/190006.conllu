@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 190006
+# text = The movie was directed by Rob Reiner , starring Tom Cruise , Jack Nicholson , Demi Moore , and Kevin Bacon , and was produced by David Brown .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	0	C	0:C|25:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	directed	direct	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Rob	Rob	PROPN	NNP	_	4	A	4:A	_
+7	Reiner	Reiner	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	starring	starr	VERB	VBG	_	4	H	4:H	_
+10	Tom	Tom	PROPN	NNP	_	9	A	9:A	_
+11	Cruise	cruise	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	Jack	Jack	PROPN	NNP	_	10	C	10:C	_
+14	Nicholson	Nicholson	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	Demi	Demi	PROPN	NNP	_	10	C	10:C	_
+17	Moore	Moore	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	10	U	10:U	_
+19	and	and	CCONJ	CC	_	10	N	10:N	_
+20	Kevin	Kevin	PROPN	NNP	_	10	C	10:C	_
+21	Bacon	Bacon	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	and	and	CCONJ	CC	_	4	L	4:L	_
+24	was	be	AUX	VBD	_	25	F	25:F	_
+25	produced	produce	VERB	VBN	_	4	H	4:H	_
+26	by	by	ADP	IN	_	27	R	27:R	_
+27	David	David	PROPN	NNP	_	25	A	25:A	_
+28	Brown	Brown	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

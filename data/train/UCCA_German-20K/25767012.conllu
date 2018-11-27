@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25767012
+# text = » Richtig , mein Herr , sehr richtig « , erwiderte ich lebhaft .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Richtig	richtig	NOUN	ADJD	_	11	A	11:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	sehr	sehr	ADV	NE	_	8	D	8:D	_
+8	richtig	richtig	ADJ	ADJD	_	2	H	2:H	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	lebhaft	lebhafen	VERB	ADJD	_	11	D	11:D	_
+14	.	.	PUNCT	$.	_	11	U	11:U	_
+

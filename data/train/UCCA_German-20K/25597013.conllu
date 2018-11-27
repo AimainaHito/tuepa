@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25597013
+# text = In dem Augenblick sah ich , wie Kapitän Nemo lebhaft die Büchse anlegte und auf einen beweglichen Gegenstand im Gebüsch zielte .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	wie	wie	ADP	ADJA	_	13	L	13:L	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	0	C	0:C|21:A	_
+10	lebhaft	lebhafen	VERB	NN	_	13	D	13:D	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Büchse	Büchse	NOUN	NN	_	13	A	13:A	_
+13	anlegte	anlegen	VERB	VVFIN	_	4	A	4:A	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	auf	auf	ADP	APPR	_	18	R	18:R	_
+16	einen	ein	DET	ART	_	18	E	18:E	_
+17	beweglichen	beweglichen	ADJ	ADJA	_	18	E	18:E	_
+18	Gegenstand	Gegenstand	NOUN	NN	_	21	A	21:A	_
+19	im	im	ADJ	NE	_	20	R	20:R	_
+20	Gebüsch	Gebüsch	NOUN	NN	_	18	E	18:E	_
+21	zielte	zielen	VERB	VVFIN	_	13	H	13:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

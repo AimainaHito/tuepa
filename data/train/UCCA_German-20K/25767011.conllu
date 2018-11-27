@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25767011
+# text = » Sie wird sogar in größerer Tiefe die gleichförmige Temperatur des Meerwassers aufsuchen können , wo wir getrost den 30 bis 40 Kältegraden der Oberfläche Trotz bieten können . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Sie	Sie|sie	PRON	PPER	_	13	A	13:A	_
+3	wird	werden	AUX	VAFIN	_	13	F	13:F	_
+4	sogar	sogar	ADV	ADV	_	13	D	13:D	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	größerer	groß	ADJ	ADJA	_	7	E	7:E	_
+7	Tiefe	Tiefe	NOUN	NN	_	13	A	13:A	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	gleichförmige	gleichförmige	ADJ	ADJA	_	10	E	10:E	_
+10	Temperatur	Temperatur	NOUN	NN	_	13	A	13:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Meerwassers	Meerwassers	NOUN	NN	_	10	E	10:E	_
+13	aufsuchen	aufsuchen	VERB	VVINF	_	0	H	0:H	_
+14	können	können	AUX	VMFIN	_	13	D	13:D	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	wo	wo	ADV	NN	_	27	R	27:R	_
+17	wir	wir	PRON	NE	_	27	A	27:A|18:A	_
+18	getrost	trosen	VERB	FM	_	7	E	7:E	_
+19	den	der	DET	ART	_	23	R	23:R	_
+20	30	30	NUM	CARD	_	23	E	23:E	_
+21	bis	bis	ADP	KON	_	20	R	20:R	_
+22	40	40	NUM	CARD	_	20	C	20:C	_
+23	Kältegraden	Kältegraden	NOUN	NN	_	27	A	27:A	_
+24	der	der	DET	ART	_	25	R	25:R	_
+25	Oberfläche	Oberfläche	PROPN	NN	_	23	E	23:E	_
+26	Trotz	trotz	PROPN	APPR	_	27	A	27:A	_
+27	bieten	bieten	VERB	VVINF	_	7	E	7:E	_
+28	können	können	AUX	VMFIN	_	27	D	27:D	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+30	«	«	PUNCT	$(	_	27	U	27:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 102000
+# text = Tel était ce dernier fait , qui eut pour résultat de passionner à nouveau l'opinion publique .
+1	Tel	tel	PROPN	_	_	2	A	2:A	_
+2	était	être	AUX	_	_	0	H	0:H	_
+3	ce	ce	DET	_	_	5	E	5:E	_
+4	dernier	dernier	ADJ	_	_	5	E	5:E	_
+5	fait	fait	NOUN	_	_	2	A	2:A	_
+6	,	,	PUNCT	_	_	5	U	5:U	_
+7	qui	qui	PRON	_	_	10	R	10:R	_
+8	eut	avoir	VERB	_	_	10	F	10:F	_
+9	pour	pour	ADP	_	_	10	R	10:R	_
+10	résultat	résultat	NOUN	_	_	5	E	5:E	_
+11	de	de	ADP	_	_	12	F	12:F	_
+12	passionner	passionner	VERB	_	_	10	A	10:A	_
+13	à	à	ADP	_	_	14	R	14:R	_
+14	nouveau	nouveau	ADJ	_	_	10	D	10:D	_
+15	l'opinion	l'opinion	NOUN	_	_	12	A	12:A	_
+16	publique	public	ADJ	_	_	15	E	15:E	_
+17	.	.	PUNCT	_	_	15	U	15:U	_
+

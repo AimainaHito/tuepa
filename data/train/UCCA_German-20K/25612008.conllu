@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25612008
+# text = Dumont d'Urville vernahm auf Befragen der Eingeborenen , dass La Pérouse , nachdem er seine beiden Schiffe auf den Riffen der Insel verloren , ein kleineres Fahrzeug bauen ließ , um damit abermals zugrunde zu gehen ... Wo ? wusste man nicht .
+1	Dumont	Dumont	PROPN	NE	_	3	A	3:A	_
+2	d'Urville	d'Urville	PROPN	NE	_	1	Terminal	1:Terminal	_
+3	vernahm	vernehmen	VERB	VVFIN	_	0	H	0:H	_
+4	auf	auf	ADP	APPR	_	5	R	5:R	_
+5	Befragen	befragen	NOUN	NN	_	3	A	3:A	_
+6	der	der	DET	PRELS	_	7	R	7:R	_
+7	Eingeborenen	eingeboren	NOUN	ADJA	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	dass	dass	SCONJ	KOUS	_	28	R	28:R	_
+10	La	La	PROPN	NE	_	28	A	28:A	_
+11	Pérouse	Pérouse	PROPN	NE	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	$,	_	28	U	28:U	_
+13	nachdem	nachdem	SCONJ	PTKVZ	_	28	L	28:L	_
+14	er	er	PRON	PPER	_	23	A	23:A	_
+15	seine	sein	DET	PPOSAT	_	17	E	17:E	_
+16	beiden	beide	PRON	PIAT	_	17	E	17:E	_
+17	Schiffe	Schiff	NOUN	NN	_	23	A	23:A	_
+18	auf	auf	ADP	APPR	_	20	R	20:R	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Riffen	Riff	NOUN	NN	_	23	A	23:A	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	Insel	Insel	NOUN	NN	_	20	E	20:E	_
+23	verloren	verlieren	VERB	VVFIN	_	28	H	28:H	_
+24	,	,	PUNCT	$,	_	28	U	28:U	_
+25	ein	ein	DET	ART	_	27	E	27:E	_
+26	kleineres	klein	ADJ	ADJA	_	27	E	27:E	_
+27	Fahrzeug	Fahrzeug	NOUN	NN	_	0	C	0:C|34:A	_
+28	bauen	bauen	VERB	VVINF	_	3	A	3:A	_
+29	ließ	lassen	VERB	VVFIN	_	28	D	28:D	_
+30	,	,	PUNCT	$,	_	28	U	28:U	_
+31	um	um	ADP	KOUI	_	28	L	28:L	_
+32	damit	damit	ADV	PAV	_	34	R	34:R	_
+33	abermals	abermals	ADV	ADV	_	34	D	34:D	_
+34	zugrunde	zugrunde	ADV	NE	_	28	H	28:H	_
+35	zu	zu	PART	NE	_	34	F	34:F	_
+36	gehen	gehen	VERB	VVINF	_	34	Terminal	34:Terminal	_
+37	...	...	PUNCT	$(	_	3	U	3:U	_
+38	Wo	wo	NOUN	PWAV	_	40	A	40:A	_
+39	?	?	PUNCT	$.	_	40	U	40:U	_
+40	wusste	wissen	VERB	VVFIN	_	3	H	3:H	_
+41	man	man	PRON	PIS	_	40	A	40:A	_
+42	nicht	nicht	PART	XY	_	40	D	40:D	_
+43	.	.	PUNCT	$.	_	40	U	40:U	_
+

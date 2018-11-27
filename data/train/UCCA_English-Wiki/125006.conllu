@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 125006
+# text = She was released from the role after the playwright took a dislike to her , saying " She looks a fright , her manner is objectionable , and she has no talent " , but then rehired when no other actress could be found .
+1	She	she	PRON	PRP	_	3	A	3:A|37:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	released	release	VERB	VBN	_	0	H	0:H	_
+4	from	from	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	role	role	NOUN	NN	_	3	A	3:A	_
+7	after	after	ADP	IN	_	3	L	3:L	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	playwright	playwright	NOUN	NN	_	0	C	0:C|16:A	_
+10	took	take	VERB	VBD	_	12	F	12:F	_
+11	a	a	DET	DT	_	12	F	12:F	_
+12	dislike	dislike	VERB	VB	_	3	H	3:H	_
+13	to	to	ADP	IN	_	14	R	14:R	_
+14	her	she	PRON	PRP	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	saying	say	VERB	VBG	_	3	H	3:H	_
+17	"	"	PUNCT	``	_	16	U	16:U	_
+18	She	she	PRON	PRP	_	21	A	21:A	_
+19	looks	look	VERB	VBZ	_	21	G	21:G	_
+20	a	a	DET	DT	_	21	F	21:F	_
+21	fright	fright	NOUN	NN	_	16	A	16:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	her	she	PRON	PRP$	_	24	E	24:E	_
+24	manner	manner	NOUN	NN	_	26	A	26:A	_
+25	is	be	AUX	VBZ	_	26	F	26:F	_
+26	objectionable	objectionable	ADJ	JJ	_	21	H	21:H	_
+27	,	,	PUNCT	,	_	21	U	21:U	_
+28	and	and	CCONJ	CC	_	21	L	21:L	_
+29	she	she	PRON	PRP	_	32	A	32:A	_
+30	has	have	VERB	VBZ	_	32	F	32:F	_
+31	no	no	DET	DT	_	32	D	32:D	_
+32	talent	talent	NOUN	NN	_	21	H	21:H	_
+33	"	"	PUNCT	''	_	3	U	3:U	_
+34	,	,	PUNCT	,	_	3	U	3:U	_
+35	but	but	CCONJ	CC	_	3	L	3:L	_
+36	then	then	ADV	RB	_	37	D	37:D	_
+37	rehired	rehire	VERB	VBD	_	3	H	3:H	_
+38	when	when	ADV	WRB	_	3	L	3:L	_
+39	no	no	DET	DT	_	44	D	44:D	_
+40	other	other	ADJ	JJ	_	41	E	41:E	_
+41	actress	actress	NOUN	NN	_	44	A	44:A	_
+42	could	could	AUX	MD	_	44	D	44:D	_
+43	be	be	AUX	VB	_	44	F	44:F	_
+44	found	find	VERB	VBN	_	3	H	3:H	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

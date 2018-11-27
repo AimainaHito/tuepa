@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25626005
+# text = » Marsch ! « erwiderte Conseil .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Marsch	Marsch	PROPN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	erwiderte	erwidert	ADJ	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

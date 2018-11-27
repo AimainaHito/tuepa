@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 458012
+# text = " Although changes were made to World News Tonight to restore its luster and stop the hemorrhaging , Nightly News ended 1997 as the number - one evening newscast .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Although	although	SCONJ	IN	_	5	L	5:L	_
+3	changes	change	NOUN	NNS	_	5	A	5:A	_
+4	were	be	AUX	VBD	_	5	F	5:F	_
+5	made	make	VERB	VBN	_	0	H	0:H	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	World	World	PROPN	NNP	_	5	A	5:A	_
+8	News	news	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Tonight	Tonight	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	to	to	PART	TO	_	5	L	5:L	_
+11	restore	restore	VERB	VB	_	5	H	5:H	_
+12	its	its	PRON	PRP$	_	13	E	13:E	_
+13	luster	luster	NOUN	NN	_	11	A	11:A	_
+14	and	and	CCONJ	CC	_	5	L	5:L	_
+15	stop	stop	VERB	VB	_	5	H	5:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	hemorrhaging	hemorrhaging	NOUN	NN	_	15	A	15:A	_
+18	,	,	PUNCT	,	_	5	U	5:U	_
+19	Nightly	Nightly	ADV	RB	_	21	A	21:A	_
+20	News	news	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	ended	end	VERB	VBD	_	5	H	5:H	_
+22	1997	1997	NUM	CD	_	21	D	21:D	_
+23	as	as	ADP	IN	_	29	R	29:R	_
+24	the	the	DET	DT	_	29	E	29:E	_
+25	number	number	NOUN	NN	_	29	E	29:E	_
+26	-	-	PUNCT	HYPH	_	25	U	25:U	_
+27	one	one	NUM	CD	_	25	E	25:E	_
+28	evening	evening	NOUN	NN	_	29	E	29:E	_
+29	newscast	newscast	NOUN	NN	_	21	A	21:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

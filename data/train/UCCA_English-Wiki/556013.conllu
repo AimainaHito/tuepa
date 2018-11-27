@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 556013
+# text = He certainly listened to the regional radio stations that played " race records " : spirituals , blues , and the modern , backbeat - heavy sound of rhythm and blues .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	certainly	certainly	ADV	RB	_	3	D	3:D	_
+3	listened	listen	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	regional	regional	ADJ	JJ	_	8	E	8:E	_
+7	radio	radio	NOUN	NN	_	8	E	8:E	_
+8	stations	station	NOUN	NNS	_	3	A	3:A	_
+9	that	that	PRON	WDT	_	10	F	10:F	_
+10	played	play	VERB	VBD	_	8	E	8:E	_
+11	"	"	PUNCT	``	_	10	U	10:U	_
+12	race	race	NOUN	NN	_	10	A	10:A	_
+13	records	record	NOUN	NNS	_	12	Terminal	12:Terminal	_
+14	"	"	PUNCT	''	_	12	U	12:U	_
+15	:	:	PUNCT	:	_	12	U	12:U	_
+16	spirituals	spiritual	NOUN	NNS	_	12	E	12:E	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	blues	blue	NOUN	NNS	_	16	C	16:C	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	and	and	CCONJ	CC	_	16	N	16:N	_
+21	the	the	DET	DT	_	27	E	27:E	_
+22	modern	modern	ADJ	JJ	_	27	E	27:E	_
+23	,	,	PUNCT	,	_	27	U	27:U	_
+24	backbeat	backbeat	ADJ	JJ	_	27	E	27:E	_
+25	-	-	PUNCT	HYPH	_	24	U	24:U	_
+26	heavy	heavy	ADJ	JJ	_	24	Terminal	24:Terminal	_
+27	sound	sound	NOUN	NN	_	16	C	16:C	_
+28	of	of	ADP	IN	_	29	R	29:R	_
+29	rhythm	rhythm	NOUN	NN	_	27	E	27:E	_
+30	and	and	CCONJ	CC	_	29	N	29:N	_
+31	blues	blue	NOUN	NNS	_	29	C	29:C	_
+32	.	.	PUNCT	.	_	29	U	29:U	_
+

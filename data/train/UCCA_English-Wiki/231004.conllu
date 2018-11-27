@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 231004
+# text = In July 2008 , the BTV reality television series entitled The Disciple
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	9	D	9:D	_
+3	2008	2008	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	BTV	BTV	PROPN	NNP	_	9	E	9:E	_
+7	reality	reality	NOUN	NN	_	9	E	9:E	_
+8	television	television	NOUN	NN	_	9	E	9:E	_
+9	series	series	NOUN	NNS	_	0	H	0:H	_
+10	entitled	entitle	VERB	VBN	_	9	E	9:E	_
+11	The	the	DET	DT	_	10	A	10:A	_
+12	Disciple	Disciple	PROPN	NNP	_	11	Terminal	11:Terminal	_
+

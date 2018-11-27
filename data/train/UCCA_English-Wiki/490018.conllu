@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 490018
+# text = ) In 2004 , Bana purchased a Porsche 944 to compete in Australia 's Porsche Challenge .
+1	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	2004	2004	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Bana	Bana	PROPN	NNP	_	6	A	6:A|11:A	_
+6	purchased	purchase	VERB	VBD	_	0	H	0:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	Porsche	Porsche	PROPN	NNP	_	6	A	6:A	_
+9	944	944	NUM	CD	_	8	Terminal	8:Terminal	_
+10	to	to	PART	TO	_	6	L	6:L	_
+11	compete	compete	VERB	VB	_	6	H	6:H	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	Australia	Australia	PROPN	NNP	_	15	E	15:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	Porsche	Porsche	PROPN	NNP	_	11	A	11:A	_
+16	Challenge	challenge	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

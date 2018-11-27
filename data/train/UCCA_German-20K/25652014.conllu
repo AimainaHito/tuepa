@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25652014
+# text = Ich kannte die letzten Arbeiten über diese sonderbaren Zoophyten , die , während sie Zweige treiben , zum Mineral werden , und es konnte mir nichts angenehmer sein , als einmal einen dieser versteinerten Wälder zu besuchen , welche die Natur auf dem Meeres grund angepflanzt hat .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	kannte	kennen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	letzten	letzt	ADJ	ADJA	_	5	D	5:D	_
+5	Arbeiten	Arbeit|Arbeiten	NOUN	NN	_	2	A	2:A	_
+6	über	über	ADP	VVFIN	_	9	R	9:R	_
+7	diese	dies	PRON	PDAT	_	9	E	9:E	_
+8	sonderbaren	sonderbar	ADJ	ADJA	_	9	E	9:E	_
+9	Zoophyten	Zoophyten	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	20	R	20:R	_
+12	,	,	PUNCT	$,	_	20	U	20:U	_
+13	während	während	SCONJ	NN	_	20	L	20:L	_
+14	sie	sie	PRON	ADV	_	16	A	16:A	_
+15	Zweige	Zweig	NOUN	NN	_	16	A	16:A	_
+16	treiben	treiben	VERB	VVFIN	_	20	H	20:H	_
+17	,	,	PUNCT	$,	_	20	U	20:U	_
+18	zum	zum	ADP	NN	_	19	R	19:R	_
+19	Mineral	Mineral	NOUN	PDAT	_	20	A	20:A	_
+20	werden	werden	AUX	NE	_	9	E	9:E	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	und	und	CCONJ	NE	_	2	L	2:L	_
+23	es	es	PRON	PPER	_	25	F	25:F	_
+24	konnte	können	AUX	VMFIN	_	25	D	25:D	_
+25	mir	ich	PRON	PPER	_	2	H	2:H	_
+26	nichts	nichts	PRON	ADJA	_	25	A	25:A	_
+27	angenehmer	angenehm	ADJ	ADJA	_	25	Terminal	25:Terminal	_
+28	sein	sein	AUX	VAINF	_	25	F	25:F	_
+29	,	,	PUNCT	$,	_	2	U	2:U	_
+30	als	als	SCONJ	KOUS	_	2	L	2:L	_
+31	einmal	einmal	ADV	ADV	_	37	D	37:D	_
+32	einen	ein	PRON	ART	_	35	E	35:E	_
+33	dieser	dies	PRON	PDS	_	35	E	35:E	_
+34	versteinerten	versteinert	ADJ	ADJA	_	35	E	35:E	_
+35	Wälder	Wald	NOUN	NN	_	37	A	37:A	_
+36	zu	zu	PART	VVINF	_	37	F	37:F	_
+37	besuchen	besuchen	VERB	VVINF	_	2	H	2:H	_
+38	,	,	PUNCT	$,	_	37	U	37:U	_
+39	welche	welch	PRON	NN	_	46	R	46:R	_
+40	die	der	DET	ART	_	41	E	41:E	_
+41	Natur	Natur	NOUN	NN	_	46	A	46:A	_
+42	auf	auf	ADP	APPR	_	45	R	45:R	_
+43	dem	der	DET	ART	_	45	E	45:E	_
+44	Meeres	Meer	NOUN	NN	_	45	E	45:E	_
+45	grund	grund	ADJ	APPR	_	46	A	46:A	_
+46	angepflanzt	anpflanzen	VERB	VVPP	_	35	E	35:E	_
+47	hat	haben	AUX	VAFIN	_	46	F	46:F	_
+48	.	.	PUNCT	$.	_	46	U	46:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 130006
+# text = Towards the end of 1936 , Hepburn vied for the role of Scarlett O'Hara in Gone With The Wind .
+1	Towards	towards	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	end	end	NOUN	NN	_	8	D	8:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	1936	1936	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Hepburn	Hepburn	PROPN	NNP	_	8	A	8:A	_
+8	vied	vy	VERB	VBD	_	0	H	0:H	_
+9	for	for	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	role	role	NOUN	NN	_	8	A	8:A	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	Scarlett	Scarlett	PROPN	NNP	_	11	E	11:E	_
+14	O'Hara	O'Hara	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	Gone	Gone	PROPN	NNP	_	8	A	8:A	_
+17	With	with	SCONJ	IN	_	16	Terminal	16:Terminal	_
+18	The	the	DET	DT	_	16	Terminal	16:Terminal	_
+19	Wind	wind	NOUN	NN	_	16	Terminal	16:Terminal	_
+20	.	.	PUNCT	.	_	16	U	16:U	_
+

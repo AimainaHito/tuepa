@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 666003
+# text = Due to the pressure and the awkward relationship Carey had now developed with Sony , she completed the album in a period of three months in the summer of 1999 , quicker than any of her other albums .
+1	Due	due	ADP	IN	_	12	L	12:L	_
+2	to	to	ADP	IN	_	1	Terminal	1:Terminal	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	pressure	pressure	NOUN	NN	_	12	A	12:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	awkward	awkward	ADJ	JJ	_	8	E	8:E	_
+8	relationship	relationship	NOUN	NN	_	4	C	4:C	_
+9	Carey	Carey	PROPN	NNP	_	12	A	12:A	_
+10	had	have	AUX	VBD	_	12	F	12:F	_
+11	now	now	ADV	RB	_	12	D	12:D	_
+12	developed	develop	VERB	VBN	_	0	H	0:H	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	Sony	Sony	PROPN	NNP	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	she	she	PRON	PRP	_	17	A	17:A	_
+17	completed	complete	VERB	VBD	_	12	H	12:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	album	album	NOUN	NN	_	0	C	0:C|38:A	_
+20	in	in	ADP	IN	_	25	R	25:R	_
+21	a	a	DET	DT	_	25	E	25:E	_
+22	period	period	NOUN	NN	_	25	E	25:E	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	three	three	NUM	CD	_	25	E	25:E	_
+25	months	month	NOUN	NNS	_	17	D	17:D	_
+26	in	in	ADP	IN	_	30	R	30:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	summer	summer	NOUN	NN	_	30	E	30:E	_
+29	of	of	ADP	IN	_	28	R	28:R	_
+30	1999	1999	NUM	CD	_	25	E	25:E	_
+31	,	,	PUNCT	,	_	12	U	12:U	_
+32	quicker	quicker	ADV	RBR	_	38	D	38:D	_
+33	than	than	ADP	IN	_	38	R	38:R	_
+34	any	any	DET	DT	_	38	E	38:E	_
+35	of	of	ADP	IN	_	34	R	34:R	_
+36	her	she	PRON	PRP$	_	38	E	38:E	_
+37	other	other	ADJ	JJ	_	38	E	38:E	_
+38	albums	album	NOUN	NNS	_	12	H	12:H	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

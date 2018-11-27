@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 145005
+# text = She rarely appeared in public , even avoiding restaurants , and once wrestled a camera out of a photographer 's hand when he took a picture without asking .
+1	She	she	PRON	PRP	_	3	A	3:A|8:A	_
+2	rarely	rarely	ADV	RB	_	3	D	3:D	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	public	public	ADJ	JJ	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	even	even	ADV	RB	_	3	L	3:L	_
+8	avoiding	avoid	VERB	VBG	_	3	H	3:H	_
+9	restaurants	restaurant	NOUN	NNS	_	8	A	8:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	and	and	CCONJ	CC	_	3	L	3:L	_
+12	once	once	ADV	RB	_	13	D	13:D	_
+13	wrestled	wrestle	VERB	VBD	_	3	H	3:H	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	camera	camera	NOUN	NN	_	13	A	13:A	_
+16	out	out	ADP	IN	_	21	R	21:R	_
+17	of	of	ADP	IN	_	21	F	21:F	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	photographer	photographer	NOUN	NN	_	21	E	21:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	hand	hand	NOUN	NN	_	13	A	13:A	_
+22	when	when	ADV	WRB	_	3	L	3:L	_
+23	he	he	PRON	PRP	_	24	A	24:A|28:A	_
+24	took	take	VERB	VBD	_	3	H	3:H	_
+25	a	a	DET	DT	_	24	Terminal	24:Terminal	_
+26	picture	picture	NOUN	NN	_	24	Terminal	24:Terminal	_
+27	without	without	SCONJ	IN	_	3	L	3:L	_
+28	asking	ask	VERB	VBG	_	3	H	3:H	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

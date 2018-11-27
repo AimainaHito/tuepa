@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25516005
+# text = » Ich höre Ihnen zu , Kapitän .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	höre	hören	VERB	VVFIN	_	0	H	0:H	_
+4	Ihnen	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	zu	zu	ADP	NE	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Kapitän	Kapitän	NOUN	FM	_	3	G	3:G	_
+8	.	.	PUNCT	$.	_	3	U	3:U	_
+

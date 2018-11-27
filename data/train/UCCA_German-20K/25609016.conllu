@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25609016
+# text = » Wenn es Ihnen beliebt , Herr Professor . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	5	L	5:L	_
+3	es	es	PRON	PPER	_	5	F	5:F	_
+4	Ihnen	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	beliebt	beliebt	VERB	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Professor	Professor	PROPN	NE	_	5	G	5:G	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25793009
+# text = Seit 5 Tagen also lebten wir von dem Vorrat an Bord !
+1	Seit	seit	ADP	APPR	_	2	E	2:E	_
+2	5	5	NUM	CARD	_	5	D	5:D	_
+3	Tagen	Tag	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	also	also	ADV	ADV	_	5	G	5:G	_
+5	lebten	leben	VERB	VVFIN	_	0	H	0:H	_
+6	wir	wir	PRON	NE	_	5	A	5:A	_
+7	von	von	ADP	NN	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Vorrat	Vorrat	NOUN	NN	_	5	A	5:A	_
+10	an	an	ADP	APPR	_	11	R	11:R	_
+11	Bord	Bord	NOUN	NN	_	9	E	9:E	_
+12	!	!	PUNCT	$.	_	11	U	11:U	_
+

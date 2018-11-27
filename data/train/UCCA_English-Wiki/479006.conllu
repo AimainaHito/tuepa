@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 479006
+# text = Prior to Johnson and Bird 's arrival , the NBA had gone through a decade of declining interest and low TV ratings .
+1	Prior	prior	ADP	IN	_	7	L	7:L	_
+2	to	to	ADP	IN	_	3	R	3:R	_
+3	Johnson	Johnson	PROPN	NNP	_	7	A	7:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	Bird	bird	PROPN	NNP	_	3	C	3:C	_
+6	's	's	PART	POS	_	3	R	3:R	_
+7	arrival	arrival	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	NBA	NBa	PROPN	NNP	_	12	A	12:A|18:A	_
+11	had	have	AUX	VBD	_	12	F	12:F	_
+12	gone	go	VERB	VBN	_	7	H	7:H	_
+13	through	through	ADP	IN	_	12	Terminal	12:Terminal	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	decade	decade	NOUN	NN	_	18	D	18:D	_
+16	of	of	SCONJ	IN	_	15	R	15:R	_
+17	declining	decli	VERB	VBG	_	18	D	18:D	_
+18	interest	interest	NOUN	NN	_	12	A	12:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	low	low	ADJ	JJ	_	22	E	22:E	_
+21	TV	tv	NOUN	NN	_	22	E	22:E	_
+22	ratings	rating	NOUN	NNS	_	18	C	18:C	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

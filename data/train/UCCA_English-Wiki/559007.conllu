@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 559007
+# text = There was just no reference point in the culture to compare it .
+1	There	there	PRON	EX	_	5	F	5:F	_
+2	was	be	VERB	VBD	_	5	F	5:F	_
+3	just	just	ADV	RB	_	5	D	5:D	_
+4	no	no	DET	DT	_	5	D	5:D	_
+5	reference	reference	NOUN	NN	_	0	H	0:H	_
+6	point	point	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	culture	culture	NOUN	NN	_	5	A	5:A	_
+10	to	to	PART	TO	_	5	L	5:L	_
+11	compare	compare	VERB	VB	_	5	H	5:H	_
+12	it	it	PRON	PRP	_	11	A	11:A	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

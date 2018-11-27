@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 135007
+# text = " In January 1950 , Hepburn made her first venture into Shakespeare , playing Rosalind in As You Like It .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	In	in	ADP	IN	_	4	R	4:R	_
+3	January	January	PROPN	NNP	_	4	E	4:E	_
+4	1950	1950	NUM	CD	_	10	D	10:D	_
+5	,	,	PUNCT	,	_	10	U	10:U	_
+6	Hepburn	Hepburn	PROPN	NNP	_	10	A	10:A|14:A	_
+7	made	make	VERB	VBD	_	10	F	10:F	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	first	first	ADJ	JJ	_	10	E	10:E	_
+10	venture	venture	NOUN	NN	_	0	H	0:H	_
+11	into	into	ADP	IN	_	12	R	12:R	_
+12	Shakespeare	Shakespeare	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	playing	play	VERB	VBG	_	10	H	10:H	_
+15	Rosalind	Rosalind	PROPN	NNP	_	14	A	14:A	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	As	as	SCONJ	IN	_	14	A	14:A	_
+18	You	you	PRON	PRP	_	17	Terminal	17:Terminal	_
+19	Like	like	VERB	VBP	_	17	Terminal	17:Terminal	_
+20	It	it	PRON	PRP	_	17	Terminal	17:Terminal	_
+21	.	.	PUNCT	.	_	17	U	17:U	_
+

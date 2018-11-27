@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 771000
+# text = Conseil , jusqu' ici et depuis dix ans , m' avait suivi partout où m' entraînait la science .
+1	Conseil	conseil	NOUN	_	_	12	A	12:A	_
+2	,	,	PUNCT	_	_	12	U	12:U	_
+3	jusqu'	jusque	ADP	_	_	4	R	4:R	_
+4	ici	ici	ADV	_	_	12	D	12:D	_
+5	et	et	CCONJ	_	_	4	N	4:N	_
+6	depuis	depuis	ADP	_	_	8	R	8:R	_
+7	dix	dix	NUM	_	_	8	E	8:E	_
+8	ans	an	NOUN	_	_	4	C	4:C	_
+9	,	,	PUNCT	_	_	12	U	12:U	_
+10	m'	me	PRON	_	_	12	A	12:A	_
+11	avait	avoir	AUX	_	_	12	F	12:F	_
+12	suivi	suivre	VERB	_	_	0	H	0:H	_
+13	partout	partout	ADV	_	_	12	A	12:A	_
+14	où	où	PRON	_	_	16	R	16:R	_
+15	m'	me	PRON	_	_	16	A	16:A	_
+16	entraînait	entraîner	VERB	_	_	13	E	13:E	_
+17	la	le	DET	_	_	18	E	18:E	_
+18	science	science	NOUN	_	_	16	A	16:A	_
+19	.	.	PUNCT	_	_	18	U	18:U	_
+

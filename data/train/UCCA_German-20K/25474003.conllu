@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25474003
+# text = « » Wenn es Lust hat , Sie zu hören « , erwiderte ich mit wenig Überzeugung .
+1	«	«	PUNCT	$(	_	13	U	13:U	_
+2	»	»	PUNCT	$(	_	13	U	13:U	_
+3	Wenn	wenn	SCONJ	KOUS	_	10	R	10:R	_
+4	es	es	PRON	PPER	_	10	A	10:A	_
+5	Lust	Lust	PROPN	NN	_	10	D	10:D	_
+6	hat	haben	VERB	VAFIN	_	10	F	10:F	_
+7	,	,	PUNCT	$,	_	10	U	10:U	_
+8	Sie	Sie|sie	PRON	PPER	_	10	A	10:A	_
+9	zu	zu	ADP	ADJA	_	10	F	10:F	_
+10	hören	hör	NOUN	NN	_	13	A	13:A	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	wenig	wenig	ADJ	NN	_	17	E	17:E	_
+17	Überzeugung	Überzeugung	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

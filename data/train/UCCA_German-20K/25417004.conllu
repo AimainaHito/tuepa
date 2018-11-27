@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25417004
+# text = Auf die Chassepots folgten die Torpedos , auf die Torpedos die unterseeischen Sturmböcke , hernach - die Reaktion .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Chassepots	Chassepot	NOUN	NN	_	4	A	4:A	_
+4	folgten	folgen	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Torpedos	Torpedo	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Torpedos	Torpedo	NOUN	NN	_	4	H	4:H	_
+11	die	der	DET	ART	_	13	E	13:E	_
+12	unterseeischen	unterseeisch	ADJ	ADJA	_	13	E	13:E	_
+13	Sturmböcke	Sturmbock	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	4	U	4:U	_
+15	hernach	hernach	ADP	PAV	_	18	D	18:D	_
+16	-	-	PUNCT	$(	_	18	U	18:U	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Reaktion	Reaktion	NOUN	NN	_	4	H	4:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

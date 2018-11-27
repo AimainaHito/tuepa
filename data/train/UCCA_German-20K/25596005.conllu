@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25596005
+# text = Die Vorzüglichkeit unserer Apparate machte es möglich , dass wir so 90 Meter über die Linie hinausgelangten , die bisher die Natur selbst den unterseeischen Unternehmungen als Grenze gesteckt zu haben schien .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Vorzüglichkeit	Vorzüglichkeit	NOUN	NN	_	7	A	7:A	_
+3	unserer	unser	PRON	PPOSAT	_	4	R	4:R	_
+4	Apparate	Apparate	NOUN	NN	_	2	E	2:E	_
+5	machte	machen	VERB	VVFIN	_	7	D	7:D	_
+6	es	es	PRON	PPER	_	7	F	7:F	_
+7	möglich	möglich	ADJ	ADJD	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	dass	dass	SCONJ	KOUS	_	17	R	17:R	_
+10	wir	wir	PRON	NE	_	17	A	17:A	_
+11	so	so	ADV	ADV	_	12	E	12:E	_
+12	90	90	NUM	CARD	_	17	A	17:A	_
+13	Meter	Meter	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	über	über	ADP	ADJD	_	16	R	16:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Linie	Linie	NOUN	NN	_	17	A	17:A	_
+17	hinausgelangten	hinausgelangen	VERB	VVFIN	_	7	A	7:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	die	der	PRON	PRELS	_	29	R	29:R	_
+20	bisher	bisher	ADV	ADV	_	29	D	29:D	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Natur	Natur	NOUN	NN	_	29	A	29:A	_
+23	selbst	selbst	ADV	VVFIN	_	29	D	29:D	_
+24	den	der	DET	ART	_	26	E	26:E	_
+25	unterseeischen	unterseeisch	ADJ	ADJA	_	26	E	26:E	_
+26	Unternehmungen	Unternehmung	NOUN	NN	_	29	A	29:A	_
+27	als	als	ADP	KOKOM	_	28	R	28:R	_
+28	Grenze	Grenze	NOUN	NN	_	29	A	29:A	_
+29	gesteckt	stecken	VERB	VVPP	_	16	E	16:E	_
+30	zu	zu	PART	NE	_	29	F	29:F	_
+31	haben	haben	AUX	VAINF	_	29	F	29:F	_
+32	schien	scheinen	VERB	VVFIN	_	29	G	29:G	_
+33	.	.	PUNCT	$.	_	29	U	29:U	_
+

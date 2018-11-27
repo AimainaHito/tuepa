@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 588002
+# text = According to a survey taken by Fandango , Depp was a major draw for audiences .
+1	According	accord	VERB	VBG	_	4	R	4:R	_
+2	to	to	ADP	IN	_	1	F	1:F	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	survey	survey	NOUN	NN	_	10	A	10:A	_
+5	taken	take	VERB	VBN	_	4	E	4:E	_
+6	by	by	ADP	IN	_	7	R	7:R	_
+7	Fandango	Fandango	PROPN	NNP	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	Depp	Depp	PROPN	NNP	_	10	A	10:A	_
+10	was	be	AUX	VBD	_	0	H	0:H	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	major	major	ADJ	JJ	_	13	E	13:E	_
+13	draw	draw	NOUN	NN	_	10	A	10:A	_
+14	for	for	ADP	IN	_	15	R	15:R	_
+15	audiences	audience	NOUN	NNS	_	13	E	13:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

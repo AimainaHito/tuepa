@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 658003
+# text = According to the Recording Industry Association of America , she is the third best - selling female artist in the United States , with 63.5 million certified albums .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	1	Terminal	1:Terminal	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	Recording	recording	PROPN	NNP	_	6	E	6:E	_
+5	Industry	Industry	PROPN	NNP	_	6	E	6:E	_
+6	Association	Association	PROPN	NNP	_	1	A	1:A	_
+7	of	of	ADP	IN	_	6	R	6:R	_
+8	America	America	PROPN	NNP	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	she	she	PRON	PRP	_	11	A	11:A|28:A	_
+11	is	be	AUX	VBZ	_	1	A	1:A	_
+12	the	the	DET	DT	_	18	E	18:E	_
+13	third	third	ADJ	JJ	_	18	E	18:E	_
+14	best	best	ADJ	JJS	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	selling	sell	VERB	VBG	_	18	E	18:E	_
+17	female	female	ADJ	JJ	_	18	E	18:E	_
+18	artist	artist	NOUN	NN	_	11	A	11:A	_
+19	in	in	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	United	United	PROPN	NNP	_	18	E	18:E	_
+22	States	States	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	1	U	1:U	_
+24	with	with	ADP	IN	_	1	L	1:L	_
+25	63.5	63.5	NUM	CD	_	26	E	26:E	_
+26	million	million	NUM	CD	_	28	E	28:E	_
+27	certified	certified	ADJ	JJ	_	28	E	28:E	_
+28	albums	album	NOUN	NNS	_	1	H	1:H	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

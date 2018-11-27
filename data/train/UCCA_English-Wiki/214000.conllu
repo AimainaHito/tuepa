@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 214000
+# text = Until the age of eight , Dunst lived in Brick Township , New Jersey , where she attended Ranney School .
+1	Until	until	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	eight	eight	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Dunst	Dunst	PROPN	NNP	_	8	A	8:A|3:A	_
+8	lived	live	VERB	VBD	_	3	H	3:H	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	Brick	Brick	PROPN	NNP	_	11	E	11:E	_
+11	Township	township	PROPN	NNP	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	New	New	PROPN	NNP	_	11	E	11:E	_
+14	Jersey	Jersey	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	where	where	ADV	WRB	_	3	L	3:L	_
+17	she	she	PRON	PRP	_	18	A	18:A	_
+18	attended	attend	VERB	VBD	_	3	H	3:H	_
+19	Ranney	Ranney	PROPN	NNP	_	20	E	20:E	_
+20	School	School	PROPN	NNP	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

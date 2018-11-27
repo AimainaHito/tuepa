@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25700011
+# text = » Trotzdem will ich recht gern an diesen Durchweg glauben und wünsche nur , dass der Kapitän uns wirklich ins Mittelmeer führen möge . «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Trotzdem	trotzdem	ADV	PAV	_	10	L	10:L	_
+3	will	wollen	AUX	NN	_	10	D	10:D	_
+4	ich	ich	PRON	PPER	_	10	A	10:A|12:A	_
+5	recht	recht	ADV	NE	_	6	E	6:E	_
+6	gern	gern	ADV	ADV	_	10	D	10:D	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	diesen	dies	PRON	PDAT	_	9	E	9:E	_
+9	Durchweg	durchweg	NOUN	NN	_	10	A	10:A	_
+10	glauben	glauben	VERB	VVINF	_	0	H	0:H	_
+11	und	und	CCONJ	NE	_	10	L	10:L	_
+12	wünsche	wünschen	VERB	VVFIN	_	10	H	10:H	_
+13	nur	nur	ADV	NE	_	12	D	12:D	_
+14	,	,	PUNCT	$,	_	12	U	12:U	_
+15	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Kapitän	Kapitän	NOUN	NN	_	22	A	22:A	_
+18	uns	wir	PRON	NN	_	22	A	22:A	_
+19	wirklich	wirklich	ADV	ADV	_	22	D	22:D	_
+20	ins	in	DET	NN	_	21	R	21:R	_
+21	Mittelmeer	Mittelmeer	PROPN	NE	_	22	A	22:A	_
+22	führen	führen	VERB	VVINF	_	12	A	12:A	_
+23	möge	mögen	VERB	VVFIN	_	22	D	22:D	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+25	«	«	PUNCT	$(	_	22	U	22:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25676012
+# text = » Auch die Muscheln ? « fragte der Kanadier .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Auch	auch	ADV	ADV	_	4	D	4:D	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Muscheln	Muschel	NOUN	NN	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kanadier	Kanadier	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

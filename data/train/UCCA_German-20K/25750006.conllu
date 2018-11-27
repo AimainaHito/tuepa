@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25750006
+# text = Es ist gewiß merkwürdig , wie die Delphine mit höchster Genauigkeit auf sie Jagd machen .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	ist	sein	AUX	VVFIN	_	4	F	4:F	_
+3	gewiß	gewiß	ADJ	ADJD	_	4	G	4:G	_
+4	merkwürdig	merkwürdig	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	wie	wie	SCONJ	KON	_	14	R	14:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Delphine	Delphine	NOUN	NN	_	14	A	14:A	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	höchster	hoch	ADJ	ADJA	_	11	E	11:E	_
+11	Genauigkeit	Genauigkeit	NOUN	NN	_	14	D	14:D	_
+12	auf	auf	ADP	APPR	_	13	R	13:R	_
+13	sie	sie	PRON	TRUNC	_	14	A	14:A	_
+14	Jagd	Jagd	NOUN	NN	_	4	A	4:A	_
+15	machen	machen	VERB	VVINF	_	14	F	14:F	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

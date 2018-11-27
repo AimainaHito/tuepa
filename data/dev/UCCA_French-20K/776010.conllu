@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 776010
+# text = - Et le babiroussa vivant de monsieur ?
+1	-	-	PUNCT	_	_	4	U	4:U	_
+2	Et	et	CCONJ	_	_	4	L	4:L	_
+3	le	le	DET	_	_	4	E	4:E	_
+4	babiroussa	babiroussa	NOUN	_	_	0	H	0:H	_
+5	vivant	vivant	ADJ	_	_	4	E	4:E	_
+6	de	de	ADP	_	_	7	R	7:R	_
+7	monsieur	Monsieur	NOUN	_	_	4	E	4:E	_
+8	?	?	PUNCT	_	_	7	U	7:U	_
+

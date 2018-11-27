@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 705007
+# text = Years ago they ... said I was a prophet .
+1	Years	year	NOUN	NNS	_	5	D	5:D	_
+2	ago	ago	ADV	RB	_	1	R	1:R	_
+3	they	they	PRON	PRP	_	5	A	5:A	_
+4	...	...	PUNCT	,	_	5	U	5:U	_
+5	said	say	VERB	VBD	_	0	H	0:H	_
+6	I	I	PRON	PRP	_	7	A	7:A	_
+7	was	be	AUX	VBD	_	5	A	5:A	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	prophet	prophet	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25674004
+# text = » Vor den Haifischen ? « rief ich aus .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Vor	vor	ADP	NN	_	4	R	4:R	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Haifischen	Haifischen	NOUN	NE	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	aus	aus	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25525009
+# text = » Nichts gesehen , nichts gehört ! « erwiderte der Kanadier . Ich habe nicht einmal die Mannschaft des Boots gesehen . Sollte sie vielleicht auch elektrisch sein ?
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Nichts	nichts	PRON	ADV	_	3	A	3:A	_
+3	gesehen	sehen	VERB	VVINF	_	9	A	9:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	nichts	nichts	PRON	NN	_	6	A	6:A	_
+6	gehört	gehören	VERB	VVFIN	_	3	H	3:H	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+13	Ich	ich	PRON	PPER	_	21	A	21:A	_
+14	habe	haben	AUX	VAFIN	_	21	F	21:F	_
+15	nicht	nicht	PART	CARD	_	21	D	21:D	_
+16	einmal	einmal	ADV	ADV	_	15	Terminal	15:Terminal	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Mannschaft	Mannschaft	NOUN	NN	_	21	A	21:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Boots	Boot	NOUN	NN	_	18	E	18:E	_
+21	gesehen	sehen	VERB	VVINF	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	3	U	3:U	_
+23	Sollte	sollen	AUX	NN	_	27	D	27:D	_
+24	sie	sie	PRON	ADV	_	27	A	27:A	_
+25	vielleicht	vielleicht	ADV	NE	_	27	G	27:G	_
+26	auch	auch	ADV	ADV	_	27	D	27:D	_
+27	elektrisch	elektrisch	ADJ	ADJD	_	3	H	3:H	_
+28	sein	sein	AUX	VAINF	_	27	F	27:F	_
+29	?	?	PUNCT	$.	_	27	U	27:U	_
+

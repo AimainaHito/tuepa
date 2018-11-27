@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25805019
+# text = Man durfte nichts vom Kommandanten der ›Nautilus‹ hoffen ; alles nur von uns selbst .
+1	Man	man	PRON	PIS	_	8	A	8:A	_
+2	durfte	dürfen	AUX	VMFIN	_	8	D	8:D	_
+3	nichts	nichts	PRON	ADJA	_	8	A	8:A	_
+4	vom	vom	ADP	NN	_	5	R	5:R	_
+5	Kommandanten	Kommandant	NOUN	NN	_	8	A	8:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	E	5:E	_
+8	hoffen	hoffen	VERB	VVFIN	_	0	H	0:H	_
+9	;	;	PUNCT	$.	_	10	U	10:U	_
+10	alles	alle	PRON	PIS	_	8	H	8:H	_
+11	nur	nur	ADV	NE	_	10	D	10:D	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	uns	wir	PRON	NE	_	10	A	10:A	_
+14	selbst	selbst	ADV	VVFIN	_	10	D	10:D	_
+15	.	.	PUNCT	$.	_	10	U	10:U	_
+

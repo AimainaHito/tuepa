@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25778015
+# text = Trotzdem hatte ich unter den gegebenen Umständen seinen Eigensinn nicht zu bedauern .
+1	Trotzdem	trotzdem	ADV	PAV	_	12	L	12:L	_
+2	hatte	haben	VERB	VAFIN	_	12	D	12:D	_
+3	ich	ich	PRON	PPER	_	12	A	12:A	_
+4	unter	unter	ADP	ADJD	_	7	R	7:R	_
+5	den	der	DET	ART	_	7	E	7:E	_
+6	gegebenen	gegeben	ADJ	ADJA	_	7	E	7:E	_
+7	Umständen	Umstand	NOUN	NN	_	12	A	12:A	_
+8	seinen	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Eigensinn	Eigensinn	NOUN	NN	_	12	A	12:A	_
+10	nicht	nicht	PART	XY	_	12	D	12:D	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	bedauern	bedauern	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

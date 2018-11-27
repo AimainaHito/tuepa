@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25620002
+# text = » Ich kann ihn darum bitten « , erwiderte ich , » aber er wird 's abschlagen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ich	ich	PRON	PPER	_	6	A	6:A	_
+3	kann	können	AUX	VMFIN	_	6	D	6:D	_
+4	ihn	er	PRON	PPER	_	6	A	6:A	_
+5	darum	darum	ADV	PAV	_	6	A	6:A	_
+6	bitten	bitten	VERB	VVFIN	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	aber	aber	CCONJ	ADV	_	6	L	6:L	_
+14	er	er	PRON	PPER	_	17	A	17:A	_
+15	wird	werden	AUX	VAFIN	_	17	F	17:F	_
+16	's	es	PART	PPER	_	17	A	17:A	_
+17	abschlagen	abschlagen	VERB	VVINF	_	6	H	6:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+19	«	«	PUNCT	$(	_	17	U	17:U	_
+

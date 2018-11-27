@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25688004
+# text = Ich blickte mit verstörten Augen hin , sah die Erfolge des Kampfs schwanken .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|8:A	_
+2	blickte	blicken	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	verstörten	verstört	ADJ	ADJA	_	5	E	5:E	_
+5	Augen	Auge	NOUN	NN	_	2	A	2:A	_
+6	hin	hin	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Erfolge	Erfolg	NOUN	NN	_	13	A	13:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Kampfs	Kampfs	NOUN	NN	_	10	E	10:E	_
+13	schwanken	schwanken	VERB	NN	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

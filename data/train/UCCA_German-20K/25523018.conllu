@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25523018
+# text = Mir reichte er nie die seine .
+1	Mir	ich	PROPN	PPER	_	2	A	2:A	_
+2	reichte	reichen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	nie	nie	ADV	ADV	_	2	D	2:D	_
+5	die	der	PRON	ART	_	6	E	6:E	_
+6	seine	sein	PRON	PPOSAT	_	2	A	2:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25768004
+# text = » Wohl , mein Herr , denken Sie nicht daran , dass die ›Nautilus‹ mit einem fürchterlichen Schnabel bewehrt ist , mit dem wir in dia-gonaler Richtung die Decke der Eisfelder durchbohren und zertrümmern könnten ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Wohl	wohl	NOUN	NE	_	7	D	7:D	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	7	G	7:G	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	denken	denken	VERB	VVFIN	_	0	H	0:H	_
+8	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+9	nicht	nicht	PART	XY	_	7	D	7:D	_
+10	daran	daran	PRON	PAV	_	19	F	19:F	_
+11	,	,	PUNCT	$,	_	19	U	19:U	_
+12	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	›Nautilus‹	›Nautilus‹	NOUN	NE	_	19	A	19:A	_
+15	mit	mit	ADP	APPR	_	18	R	18:R	_
+16	einem	ein	DET	ART	_	18	E	18:E	_
+17	fürchterlichen	fürchterlich	ADJ	ADJA	_	18	E	18:E	_
+18	Schnabel	Schnabel	NOUN	NN	_	19	A	19:A	_
+19	bewehrt	bewehren	VERB	ADJD	_	7	A	7:A	_
+20	ist	sein	AUX	NN	_	19	F	19:F	_
+21	,	,	PUNCT	$,	_	19	U	19:U	_
+22	mit	mit	ADP	APPR	_	23	R	23:R	_
+23	dem	der	PRON	ART	_	32	R	32:R	_
+24	wir	wir	PRON	NN	_	32	A	32:A	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	dia-gonaler	dia-gonal	ADJ	ADJA	_	27	E	27:E	_
+27	Richtung	Richtung	NOUN	NN	_	32	A	32:A	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Decke	Decke	NOUN	NN	_	32	A	32:A	_
+30	der	der	DET	ART	_	31	R	31:R	_
+31	Eisfelder	Eisfeld	NOUN	NN	_	29	E	29:E	_
+32	durchbohren	durchbohren	VERB	VVINF	_	18	E	18:E	_
+33	und	und	CCONJ	NE	_	32	N	32:N	_
+34	zertrümmern	zertrümmern	VERB	VVINF	_	32	C	32:C	_
+35	könnten	können	AUX	VMFIN	_	32	D	32:D	_
+36	?	?	PUNCT	$.	_	32	U	32:U	_
+37	«	«	PUNCT	$(	_	32	U	32:U	_
+

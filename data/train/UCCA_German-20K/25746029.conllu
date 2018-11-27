@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25746029
+# text = Dieses war auch einer der Gründe , die Kolumbus auf die Vermutung brachten , es existiere eine Neue Welt .
+1	Dieses	dies	PRON	PDS	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	2	D	2:D	_
+4	einer	ein	PRON	PIS	_	6	E	6:E	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Gründe	Grund	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	DET	PRELS	_	13	R	13:R	_
+9	Kolumbus	Kolumben	NOUN	NE	_	13	A	13:A	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Vermutung	vermutung	NOUN	NN	_	13	A	13:A	_
+13	brachten	bringen	VERB	VVINF	_	6	E	6:E	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	es	es	PRON	PPER	_	16	F	16:F	_
+16	existiere	existieren	VERB	NN	_	12	E	12:E	_
+17	eine	ein	DET	ART	_	18	E	18:E	_
+18	Neue	neu	ADJ	ADJA	_	16	A	16:A	_
+19	Welt	Welt	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

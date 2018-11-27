@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25811004
+# text = » Das gäbe keinen Grund ab « , entgegnete ich , » Arme und Schwanz erneuern sich bei diesen Tieren , und seit 7 Jahren hatte der Schwanz des Kalmar Bouguer wohl Zeit nach zu wachsen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	PDS	_	3	A	3:A	_
+3	gäbe	geben	VERB	VVFIN	_	9	A	9:A	_
+4	keinen	kein	PRON	PIAT	_	5	E	5:E	_
+5	Grund	Grund	NOUN	NN	_	3	A	3:A	_
+6	ab	ab	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	Arme	Arm|Arme	NOUN	NN	_	16	A	16:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	Schwanz	Schwanz	NOUN	NN	_	13	C	13:C	_
+16	erneuern	erneuern	VERB	VVINF	_	3	H	3:H	_
+17	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	bei	bei	ADP	APPR	_	20	R	20:R	_
+19	diesen	dies	PRON	PDAT	_	20	E	20:E	_
+20	Tieren	Tier	NOUN	NN	_	16	A	16:A	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	und	und	CCONJ	NN	_	3	L	3:L	_
+23	seit	seit	ADP	NN	_	24	R	24:R	_
+24	7	7	NUM	CARD	_	34	D	34:D	_
+25	Jahren	Jahr	NOUN	NN	_	24	Terminal	24:Terminal	_
+26	hatte	haben	VERB	VAFIN	_	34	F	34:F	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Schwanz	Schwanz	NOUN	NN	_	34	A	34:A	_
+29	des	der	DET	ART	_	30	R	30:R	_
+30	Kalmar	Kalmar	PROPN	NE	_	28	E	28:E	_
+31	Bouguer	Bouguer	PROPN	NE	_	30	Terminal	30:Terminal	_
+32	wohl	wohl	ADV	NE	_	34	G	34:G	_
+33	Zeit	Zeit	NOUN	NN	_	34	A	34:A	_
+34	nach	nach	ADP	CARD	_	3	H	3:H	_
+35	zu	zu	PART	NE	_	34	F	34:F	_
+36	wachsen	wachsen	VERB	NE	_	34	Terminal	34:Terminal	_
+37	.	.	PUNCT	$.	_	34	U	34:U	_
+38	«	«	PUNCT	$(	_	34	U	34:U	_
+

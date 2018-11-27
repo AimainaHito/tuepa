@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 534008
+# text = Reasons often given for her standing , especially among gay men , are admiration of her ability as a performer , the way her personal struggles mirrored those of gay men in America during the height of her fame and her value as a camp figure .
+1	Reasons	reason	NOUN	NNS	_	13	A	13:A	_
+2	often	often	ADV	RB	_	3	D	3:D	_
+3	given	give	VERB	VBN	_	1	E	1:E	_
+4	for	for	ADP	IN	_	6	R	6:R	_
+5	her	she	PRON	PRP$	_	6	E	6:E	_
+6	standing	standing	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	especially	especially	ADV	RB	_	11	E	11:E	_
+9	among	among	ADP	IN	_	11	R	11:R	_
+10	gay	gay	ADJ	JJ	_	11	E	11:E	_
+11	men	man	NOUN	NNS	_	6	E	6:E	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	are	be	AUX	VBP	_	0	H	0:H	_
+14	admiration	admiration	NOUN	NN	_	13	A	13:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	her	she	PRON	PRP$	_	17	E	17:E	_
+17	ability	ability	NOUN	NN	_	14	A	14:A	_
+18	as	as	ADP	IN	_	20	R	20:R	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	performer	performer	NOUN	NN	_	17	E	17:E	_
+21	,	,	PUNCT	,	_	14	U	14:U	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	way	way	NOUN	NN	_	14	C	14:C	_
+24	her	she	PRON	PRP$	_	26	A	26:A	_
+25	personal	personal	ADJ	JJ	_	26	D	26:D	_
+26	struggles	struggle	NOUN	NNS	_	27	A	27:A	_
+27	mirrored	mirror	VERB	VBD	_	23	E	23:E	_
+28	those	those	PRON	DT	_	31	F	31:F	_
+29	of	of	ADP	IN	_	31	R	31:R	_
+30	gay	gay	ADJ	JJ	_	31	E	31:E	_
+31	men	man	NOUN	NNS	_	27	A	27:A	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	America	America	PROPN	NNP	_	31	E	31:E	_
+34	during	during	ADP	IN	_	39	R	39:R	_
+35	the	the	DET	DT	_	39	E	39:E	_
+36	height	height	NOUN	NN	_	39	E	39:E	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	her	she	PRON	PRP$	_	39	E	39:E	_
+39	fame	fame	NOUN	NN	_	26	D	26:D	_
+40	and	and	CCONJ	CC	_	14	N	14:N	_
+41	her	she	PRON	PRP$	_	42	E	42:E	_
+42	value	value	NOUN	NN	_	14	C	14:C	_
+43	as	as	ADP	IN	_	46	R	46:R	_
+44	a	a	DET	DT	_	46	E	46:E	_
+45	camp	camp	NOUN	NN	_	46	E	46:E	_
+46	figure	figure	NOUN	NN	_	42	E	42:E	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

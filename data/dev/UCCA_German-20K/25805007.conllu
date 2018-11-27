@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25805007
+# text = An Wasser tiefe hätte es zwar dort nicht gemangelt , denn sie beträgt durchschnittlich 1.800 Meter ; aber vermutlich gefiel diese Gegend Kapitän Nemo deshalb nicht , weil sie mit Inseln besät und beständig von Booten befahren ist .
+1	An	an	ADP	APPR	_	3	E	3:E	_
+2	Wasser	Wasser	NOUN	NN	_	3	E	3:E	_
+3	tiefe	tief	ADJ	ADJA	_	9	A	9:A	_
+4	hätte	haben	AUX	VAFIN	_	9	D	9:D	_
+5	es	es	PRON	PPER	_	9	F	9:F	_
+6	zwar	zwar	ADV	ADV	_	9	F	9:F	_
+7	dort	dort	ADV	ADV	_	9	A	9:A	_
+8	nicht	nicht	PART	CARD	_	9	D	9:D	_
+9	gemangelt	mangeln	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	denn	denn	SCONJ	KON	_	9	L	9:L	_
+12	sie	sie	PRON	ADV	_	13	A	13:A	_
+13	beträgt	betragen	VERB	VVFIN	_	9	H	9:H	_
+14	durchschnittlich	durchschnittlich	ADJ	ADJD	_	13	D	13:D	_
+15	1.800	1.8	NUM	CARD	_	16	E	16:E	_
+16	Meter	Meter	NOUN	NN	_	13	A	13:A	_
+17	;	;	PUNCT	$.	_	9	U	9:U	_
+18	aber	aber	CCONJ	KON	_	9	L	9:L	_
+19	vermutlich	vermutlich	ADJ	ADV	_	20	D	20:D	_
+20	gefiel	gefallen	VERB	VVFIN	_	9	H	9:H	_
+21	diese	dies	PRON	PDAT	_	22	E	22:E	_
+22	Gegend	Gegend	NOUN	NN	_	20	A	20:A	_
+23	Kapitän	Kapitän	PROPN	NN	_	24	E	24:E	_
+24	Nemo	Nemo	PROPN	NE	_	20	A	20:A	_
+25	deshalb	deshalb	ADV	PAV	_	9	L	9:L	_
+26	nicht	nicht	PART	CARD	_	20	D	20:D	_
+27	,	,	PUNCT	$,	_	9	U	9:U	_
+28	weil	weil	SCONJ	KOUS	_	9	L	9:L	_
+29	sie	sie	PRON	ADV	_	32	A	32:A|37:A	_
+30	mit	mit	ADP	APPR	_	31	R	31:R	_
+31	Inseln	Insel	NOUN	NN	_	32	A	32:A	_
+32	besät	besät	ADJ	NN	_	9	H	9:H	_
+33	und	und	CCONJ	NE	_	9	L	9:L	_
+34	beständig	beständig	ADJ	ADJD	_	37	D	37:D	_
+35	von	von	ADP	NN	_	36	R	36:R	_
+36	Booten	Boot	NOUN	NN	_	37	A	37:A	_
+37	befahren	befahren	VERB	VVINF	_	9	H	9:H	_
+38	ist	sein	AUX	VVFIN	_	37	F	37:F	_
+39	.	.	PUNCT	$.	_	37	U	37:U	_
+

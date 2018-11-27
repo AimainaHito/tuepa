@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25489037
+# text = Das ließ sich nicht erraten .
+1	Das	der	DET	PDS	_	5	A	5:A	_
+2	ließ	lassen	NOUN	VVFIN	_	5	D	5:D	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	erraten	erraten	VERB	VVINF	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

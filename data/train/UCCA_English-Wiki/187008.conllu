@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 187008
+# text = One weekend , while house sitting at a friend 's place he found an IBM Selectric typewriter , started typing , and " felt a phenomenal confidence and a kind of joy that [ he ] had never experienced before in [ his ] life . "
+1	One	one	NUM	CD	_	2	E	2:E	_
+2	weekend	weekend	NOUN	NN	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	while	while	SCONJ	IN	_	5	L	5:L	_
+5	house	house	NOUN	NN	_	0	H	0:H	_
+6	sitting	sit	VERB	VBG	_	5	Terminal	5:Terminal	_
+7	at	at	ADP	IN	_	11	R	11:R	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	friend	friend	NOUN	NN	_	10	R	10:R	_
+10	's	's	PART	POS	_	11	E	11:E	_
+11	place	place	NOUN	NN	_	5	A	5:A	_
+12	he	he	PRON	PRP	_	13	A	13:A|20:A|24:A	_
+13	found	find	VERB	VBD	_	5	H	5:H	_
+14	an	a	DET	DT	_	17	E	17:E	_
+15	IBM	IBM	PROPN	NNP	_	17	E	17:E	_
+16	Selectric	Selectric	PROPN	NNP	_	17	E	17:E	_
+17	typewriter	typewriter	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	,	_	5	U	5:U	_
+19	started	start	VERB	VBD	_	20	D	20:D	_
+20	typing	typ	VERB	VBG	_	5	H	5:H	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	and	and	CCONJ	CC	_	5	L	5:L	_
+23	"	"	PUNCT	``	_	5	U	5:U	_
+24	felt	feel	VERB	VBD	_	5	H	5:H	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	phenomenal	phenomenal	ADJ	JJ	_	27	E	27:E	_
+27	confidence	confidence	NOUN	NN	_	24	A	24:A	_
+28	and	and	CCONJ	CC	_	27	N	27:N	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	kind	kind	NOUN	NN	_	32	E	32:E	_
+31	of	of	ADP	IN	_	30	R	30:R	_
+32	joy	joy	NOUN	NN	_	27	C	27:C	_
+33	that	that	SCONJ	IN	_	39	F	39:F	_
+34	[	[	PUNCT	-LRB-	_	39	U	39:U	_
+35	he	he	PRON	PRP	_	39	A	39:A	_
+36	]	]	PUNCT	-RRB-	_	39	U	39:U	_
+37	had	have	AUX	VBD	_	39	F	39:F	_
+38	never	never	ADV	RB	_	39	D	39:D	_
+39	experienced	experience	VERB	VBN	_	32	E	32:E	_
+40	before	before	ADV	RB	_	39	D	39:D	_
+41	in	in	ADP	IN	_	45	R	45:R	_
+42	[	[	PUNCT	-LRB-	_	45	U	45:U	_
+43	his	he	PRON	PRP$	_	45	A	45:A	_
+44	]	]	PUNCT	-RRB-	_	45	U	45:U	_
+45	life	life	NOUN	NN	_	39	A	39:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+47	"	"	PUNCT	''	_	45	U	45:U	_
+

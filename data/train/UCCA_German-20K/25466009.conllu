@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25466009
+# text = Die Nacht nahte heran , es schlug schon 8 Uhr .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Nacht	Nacht	NOUN	NN	_	3	A	3:A	_
+3	nahte	nahen	VERB	VVFIN	_	0	H	0:H	_
+4	heran	heran	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	es	es	PRON	PPER	_	7	F	7:F	_
+7	schlug	schlagen	VERB	VVFIN	_	3	H	3:H	_
+8	schon	schon	ADV	ADV	_	9	E	9:E	_
+9	8	8	NUM	CARD	_	7	D	7:D	_
+10	Uhr	Uhr	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

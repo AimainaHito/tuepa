@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25787001
+# text = » Ja « , antwortete ich . » Der Tunnel muß nach dieser Seite hin ohne Ausgang sein . «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Ja	Ja	PROPN	PTKANT	_	17	D	17:D	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	antwortete	antworten	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	Der	der	DET	ART	_	10	E	10:E	_
+10	Tunnel	Tunnel	NOUN	NE	_	17	A	17:A	_
+11	muß	müssen	AUX	VMFIN	_	17	D	17:D	_
+12	nach	nach	ADP	CARD	_	14	R	14:R	_
+13	dieser	dies	PRON	PDAT	_	14	E	14:E	_
+14	Seite	Seite	NOUN	NN	_	17	A	17:A	_
+15	hin	hin	ADV	ADV	_	12	Terminal	12:Terminal	_
+16	ohne	ohne	ADP	CARD	_	17	D	17:D	_
+17	Ausgang	Ausgang	NOUN	NN	_	5	A	5:A	_
+18	sein	sein	AUX	VAINF	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+20	«	«	PUNCT	$(	_	17	U	17:U	_
+

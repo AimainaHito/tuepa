@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25633010
+# text = » Ich meinesteils , mein Herr , habe überall solche angetroffen . «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Ich	ich	PRON	PPER	_	11	A	11:A	_
+3	meinesteils	meinesteils	ADV	ADV	_	11	D	11:D	_
+4	,	,	PUNCT	$,	_	11	U	11:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	NOUN	NN	_	11	G	11:G	_
+7	,	,	PUNCT	$,	_	11	U	11:U	_
+8	habe	haben	AUX	VAFIN	_	11	F	11:F	_
+9	überall	überall	ADV	ADJD	_	11	A	11:A	_
+10	solche	solch	PRON	ADJA	_	11	A	11:A	_
+11	angetroffen	antreffen	VERB	VVPP	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+13	«	«	PUNCT	$(	_	11	U	11:U	_
+

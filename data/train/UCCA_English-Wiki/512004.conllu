@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 512004
+# text = The beginnings of his acting career predate his commercial breakthrough as a musician .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	beginnings	beginning	NOUN	NNS	_	7	A	7:A	_
+3	of	of	ADP	IN	_	6	R	6:R	_
+4	his	he	PRON	PRP$	_	6	A	6:A	_
+5	acting	act	VERB	VBG	_	6	E	6:E	_
+6	career	career	NOUN	NN	_	2	A	2:A	_
+7	predate	predate	VERB	VBP	_	0	H	0:H	_
+8	his	he	PRON	PRP$	_	10	A	10:A	_
+9	commercial	commercial	ADJ	JJ	_	10	E	10:E	_
+10	breakthrough	breakthrough	NOUN	NN	_	7	A	7:A	_
+11	as	as	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	musician	musician	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

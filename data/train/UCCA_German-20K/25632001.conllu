@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25632001
+# text = » Wenn wir nie wieder dahin zurückkehrten ! « fügte Ned Land hinzu .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	7	L	7:L	_
+3	wir	wir	PRON	NE	_	7	A	7:A	_
+4	nie	nie	ADV	ADV	_	5	E	5:E	_
+5	wieder	wieder	ADV	NN	_	7	D	7:D	_
+6	dahin	dahin	ADV	PAV	_	7	A	7:A	_
+7	zurückkehrten	zurückkehren	VERB	VVFIN	_	10	A	10:A	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fügte	fügen	VERB	VVFIN	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	Land	Land	NOUN	NE	_	11	Terminal	11:Terminal	_
+13	hinzu	hinzu	ADV	PTKVZ	_	10	Terminal	10:Terminal	_
+14	.	.	PUNCT	$.	_	10	U	10:U	_
+

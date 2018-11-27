@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 105000
+# text = When she was seven years old , Jolie had a small part in Lookin ' to Get Out ( 1982 ) , a movie co - written by and starring her father , Jon Voight .
+1	When	when	ADV	WRB	_	6	L	6:L	_
+2	she	she	PRON	PRP	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	seven	seven	NUM	CD	_	5	E	5:E	_
+5	years	year	NOUN	NNS	_	6	E	6:E	_
+6	old	old	ADJ	JJ	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Jolie	Jolie	PROPN	NNP	_	9	A	9:A	_
+9	had	have	VERB	VBD	_	6	H	6:H	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	small	small	ADJ	JJ	_	12	E	12:E	_
+12	part	part	NOUN	NN	_	9	A	9:A	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	Lookin	Lookin	PROPN	NNP	_	9	A	9:A	_
+15	'	'	PUNCT	''	_	14	U	14:U	_
+16	to	to	PART	TO	_	14	Terminal	14:Terminal	_
+17	Get	get	VERB	VB	_	14	Terminal	14:Terminal	_
+18	Out	out	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+20	1982	1982	NUM	CD	_	14	E	14:E	_
+21	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+22	,	,	PUNCT	,	_	14	U	14:U	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	movie	movie	NOUN	NN	_	14	E	14:E	_
+25	co	co	X	AFX	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	written	write	VERB	VBN	_	24	E	24:E	_
+28	by	by	ADV	RP	_	34	R	34:R	_
+29	and	and	CCONJ	CC	_	27	N	27:N	_
+30	starring	starr	VERB	VBG	_	27	C	27:C	_
+31	her	she	PRON	PRP$	_	32	E	32:E	_
+32	father	father	NOUN	NN	_	34	E	34:E	_
+33	,	,	PUNCT	,	_	34	U	34:U	_
+34	Jon	Jon	PROPN	NNP	_	27	A	27:A	_
+35	Voight	Voight	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 531011
+# text = She also asserted that he had repeatedly struck her while he was drinking and that he had attempted to take their children from her by force .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	asserted	assert	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	8	R	8:R	_
+5	he	he	PRON	PRP	_	8	A	8:A	_
+6	had	have	AUX	VBD	_	8	F	8:F	_
+7	repeatedly	repeatedly	ADV	RB	_	8	D	8:D	_
+8	struck	strike	VERB	VBN	_	3	A	3:A	_
+9	her	she	PRON	PRP	_	8	A	8:A	_
+10	while	while	SCONJ	IN	_	8	L	8:L	_
+11	he	he	PRON	PRP	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	drinking	drink	VERB	VBG	_	8	H	8:H	_
+14	and	and	CCONJ	CC	_	8	L	8:L	_
+15	that	that	SCONJ	IN	_	20	F	20:F	_
+16	he	he	PRON	PRP	_	20	A	20:A	_
+17	had	have	AUX	VBD	_	20	F	20:F	_
+18	attempted	attempt	VERB	VBN	_	20	D	20:D	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	take	take	VERB	VB	_	8	H	8:H	_
+21	their	they	PRON	PRP$	_	22	E	22:E	_
+22	children	child	NOUN	NNS	_	20	A	20:A	_
+23	from	from	ADP	IN	_	24	R	24:R	_
+24	her	she	PRON	PRP	_	20	A	20:A	_
+25	by	by	ADP	IN	_	26	R	26:R	_
+26	force	force	NOUN	NN	_	20	D	20:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

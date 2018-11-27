@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25772008
+# text = Nach 5 Minuten solcher Gemütserhebung wendete er sich zu uns und rief mir zu :
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	5	5	NUM	CARD	_	3	E	3:E	_
+3	Minuten	Minute	NOUN	NN	_	5	D	5:D	_
+4	solcher	solch	PRON	PIAT	_	5	R	5:R	_
+5	Gemütserhebung	Gemütserhebung	NOUN	NN	_	0	H	0:H	_
+6	wendete	wenden	VERB	VVFIN	_	5	H	5:H	_
+7	er	er	PRON	PPER	_	6	A	6:A|5:A|12:A	_
+8	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+9	zu	zu	ADP	NE	_	10	R	10:R	_
+10	uns	wir	PRON	NE	_	6	A	6:A	_
+11	und	und	CCONJ	NE	_	5	L	5:L	_
+12	rief	rufen	VERB	VVFIN	_	5	H	5:H	_
+13	mir	ich	PRON	PPER	_	12	A	12:A	_
+14	zu	zu	ADP	VVINF	_	12	Terminal	12:Terminal	_
+15	:	:	PUNCT	$.	_	12	U	12:U	_
+

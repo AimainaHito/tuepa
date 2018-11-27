@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25785015
+# text = Es war allzu schön .
+1	Es	es	PRON	PPER	_	4	A	4:A	_
+2	war	sein	AUX	NE	_	4	F	4:F	_
+3	allzu	allzu	ADV	APPR	_	4	D	4:D	_
+4	schön	schön	ADJ	FM	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 533000
+# text = Returning to the stage , Garland made her last appearances at New York 's Palace Theatre in July , a 16 - show stand , performing with her children Lorna and Joey Luft .
+1	Returning	return	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	stage	stage	NOUN	NN	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	Garland	Garland	PROPN	NNP	_	10	A	10:A|26:A|1:A	_
+7	made	make	VERB	VBD	_	10	F	10:F	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	last	last	ADJ	JJ	_	10	D	10:D	_
+10	appearances	appearance	NOUN	NNS	_	1	H	1:H	_
+11	at	at	ADP	IN	_	16	R	16:R	_
+12	New	New	PROPN	NNP	_	16	E	16:E	_
+13	York	York	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	's	's	PART	POS	_	12	R	12:R	_
+15	Palace	Palace	PROPN	NNP	_	16	E	16:E	_
+16	Theatre	theatre	PROPN	NNP	_	10	A	10:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	July	July	PROPN	NNP	_	10	D	10:D	_
+19	,	,	PUNCT	,	_	1	U	1:U	_
+20	a	a	DET	DT	_	24	E	24:E	_
+21	16	16	NUM	CD	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	show	show	NOUN	NN	_	24	E	24:E	_
+24	stand	stand	NOUN	NN	_	26	A	26:A	_
+25	,	,	PUNCT	,	_	26	U	26:U	_
+26	performing	perform	VERB	VBG	_	1	H	1:H	_
+27	with	with	ADP	IN	_	30	R	30:R	_
+28	her	she	PRON	PRP$	_	29	E	29:E	_
+29	children	child	NOUN	NNS	_	30	E	30:E	_
+30	Lorna	Lorna	PROPN	NNP	_	26	A	26:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	Joey	Joey	PROPN	NNP	_	30	C	30:C	_
+33	Luft	Luft	PROPN	NNP	_	30	C	30:C	_
+34	.	.	PUNCT	.	_	30	U	30:U	_
+

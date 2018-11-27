@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 666014
+# text = " Vibe magazine expressed similar sentiments , writing , " She pulls out all stops [ ... ] Rainbow will garner even more adoration " . Though a commercial success , Rainbow became Carey 's lowest selling album to that point in her career .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Vibe	vibe	NOUN	NN	_	3	E	3:E	_
+3	magazine	magazine	NOUN	NN	_	0	C	0:C|8:A	_
+4	expressed	express	VERB	VBN	_	0	H	0:H	_
+5	similar	similar	ADJ	JJ	_	6	E	6:E	_
+6	sentiments	sentiment	NOUN	NNS	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	writing	write	NOUN	NN	_	4	H	4:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	"	"	PUNCT	''	_	8	U	8:U	_
+11	She	she	PRON	PRP	_	12	A	12:A	_
+12	pulls	pull	VERB	VBZ	_	8	A	8:A	_
+13	out	out	ADP	RP	_	12	Terminal	12:Terminal	_
+14	all	all	DET	DT	_	15	E	15:E	_
+15	stops	stop	NOUN	NNS	_	12	E	12:E	_
+16	[	[	PUNCT	-LRB-	_	12	U	12:U	_
+17	...	...	PUNCT	,	_	12	U	12:U	_
+18	]	]	PUNCT	-RRB-	_	12	U	12:U	_
+19	Rainbow	rainbow	PROPN	NNP	_	24	A	24:A	_
+20	will	will	AUX	MD	_	24	F	24:F	_
+21	garner	garner	VERB	VB	_	24	D	24:D	_
+22	even	even	ADV	RB	_	23	R	23:R	_
+23	more	more	ADJ	JJR	_	24	D	24:D	_
+24	adoration	adoration	NOUN	NN	_	12	H	12:H	_
+25	"	"	PUNCT	''	_	4	U	4:U	_
+26	.	.	PUNCT	.	_	4	U	4:U	_
+27	Though	through	SCONJ	IN	_	4	L	4:L	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	commercial	commercial	ADJ	JJ	_	30	A	30:A	_
+30	success	success	NOUN	NN	_	4	H	4:H	_
+31	,	,	PUNCT	,	_	30	U	30:U	_
+32	Rainbow	rainbow	PROPN	NNP	_	33	A	33:A|30:A	_
+33	became	become	VERB	VBD	_	4	H	4:H	_
+34	Carey	Carey	PROPN	NNP	_	38	E	38:E	_
+35	's	's	PART	POS	_	34	R	34:R	_
+36	lowest	lowest	ADJ	JJS	_	37	E	37:E	_
+37	selling	sell	NOUN	NN	_	38	E	38:E	_
+38	album	album	NOUN	NN	_	33	A	33:A	_
+39	to	to	ADP	IN	_	41	R	41:R	_
+40	that	that	DET	DT	_	41	E	41:E	_
+41	point	point	NOUN	NN	_	33	D	33:D	_
+42	in	in	ADP	IN	_	44	R	44:R	_
+43	her	she	PRON	PRP$	_	44	E	44:E	_
+44	career	career	NOUN	NN	_	41	E	41:E	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25756016
+# text = » Ich sage , wie es wirklich ist . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	sage	sagen	VERB	NN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wie	wie	SCONJ	KON	_	8	D	8:D	_
+6	es	es	PRON	PPER	_	8	A	8:A	_
+7	wirklich	wirklich	ADJ	ADJD	_	8	D	8:D	_
+8	ist	sein	AUX	VVFIN	_	3	A	3:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

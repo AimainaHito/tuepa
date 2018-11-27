@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25786009
+# text = Darauf schlossen sich die Läden des Salons wieder .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	schlossen	schließen	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Läden	Laden	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Salons	Salon	NOUN	NE	_	5	E	5:E	_
+8	wieder	wieder	ADV	NE	_	2	D	2:D	_
+9	.	.	PUNCT	$.	_	2	U	2:U	_
+

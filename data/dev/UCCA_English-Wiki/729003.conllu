@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 729003
+# text = That same year , Jolie took on the lead role in Clint Eastwood 's drama Changeling .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Jolie	Jolie	PROPN	NNP	_	6	A	6:A	_
+6	took	take	VERB	VBD	_	0	H	0:H	_
+7	on	on	ADP	IN	_	6	R	6:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	lead	lead	ADJ	JJ	_	10	E	10:E	_
+10	role	role	NOUN	NN	_	6	A	6:A	_
+11	in	in	ADP	IN	_	16	R	16:R	_
+12	Clint	Clint	PROPN	NNP	_	15	E	15:E	_
+13	Eastwood	Eastwood	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	's	's	PART	POS	_	12	R	12:R	_
+15	drama	drama	NOUN	NN	_	16	E	16:E	_
+16	Changeling	Changeling	NOUN	NN	_	10	E	10:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

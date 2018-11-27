@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25488013
+# text = » Zu Hilfe ! Hilfe ! « rief ich , indem ich mit verzweifelndem Arm auf die ›Abraham Lincoln‹ zu schwamm .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Zu	zu	ADP	ADJA	_	3	R	3:R	_
+3	Hilfe	Hilfe	NOUN	NN	_	8	A	8:A	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	Hilfe	Hilfe	NOUN	NN	_	3	H	3:H	_
+6	!	!	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	indem	indem	SCONJ	KOUS	_	8	L	8:L	_
+12	ich	ich	PRON	PPER	_	21	A	21:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	verzweifelndem	verzweifelnd	ADJ	ADJA	_	15	E	15:E	_
+15	Arm	Arm	NOUN	NN	_	21	A	21:A	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	›Abraham	›Abraham	PROPN	NE	_	21	A	21:A	_
+19	Lincoln‹	Lincoln‹	NOUN	NE	_	18	Terminal	18:Terminal	_
+20	zu	zu	ADP	NE	_	16	Terminal	16:Terminal	_
+21	schwamm	schwamm	ADJ	NN	_	8	H	8:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

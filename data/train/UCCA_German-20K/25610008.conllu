@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25610008
+# text = La Pérouse und sein Unter befehlshaber , Kapitän de Langle , wurden von Ludwig XVI . im Jahr 1785 ausgeschickt , um eine Welt umsegelung vor zu nehmen .
+1	La	La	PROPN	NE	_	0	C	0:C|26:A	_
+2	Pérouse	Pérouse	PROPN	NE	_	1	Terminal	1:Terminal	_
+3	und	und	CCONJ	NE	_	1	N	1:N	_
+4	sein	sein	DET	VAINF	_	6	E	6:E	_
+5	Unter	unter	NOUN	NE	_	6	E	6:E	_
+6	befehlshaber	befehlshaber	ADJ	KON	_	9	E	9:E	_
+7	,	,	PUNCT	$,	_	9	U	9:U	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	de	de	PROPN	NE	_	1	C	1:C	_
+10	Langle	Langle	PROPN	NE	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	$,	_	20	U	20:U	_
+12	wurden	werden	AUX	NN	_	20	F	20:F	_
+13	von	von	ADP	NE	_	14	R	14:R	_
+14	Ludwig	Ludwig	PROPN	NE	_	20	A	20:A	_
+15	XVI	XVI	PROPN	NE	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	$.	_	20	U	20:U	_
+17	im	im	ADJ	NN	_	18	R	18:R	_
+18	Jahr	Jahr	NOUN	NN	_	20	D	20:D	_
+19	1785	1785	NUM	CARD	_	18	Terminal	18:Terminal	_
+20	ausgeschickt	ausgeschicken	VERB	VVPP	_	0	H	0:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	um	um	ADP	KOUI	_	20	L	20:L	_
+23	eine	ein	DET	ART	_	25	E	25:E	_
+24	Welt	Welt	NOUN	NN	_	25	E	25:E	_
+25	umsegelung	umsegelung	NOUN	NN	_	26	A	26:A	_
+26	vor	vor	ADP	NE	_	20	H	20:H	_
+27	zu	zu	PART	NE	_	26	F	26:F	_
+28	nehmen	nehmen	VERB	CARD	_	26	Terminal	26:Terminal	_
+29	.	.	PUNCT	$.	_	26	U	26:U	_
+

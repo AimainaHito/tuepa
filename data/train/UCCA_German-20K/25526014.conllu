@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25526014
+# text = Wer vermöchte die Licht effekte durch diese erleuchteten Streifen und die sanften allmählichen Abstufungen bis zu den unteren und oberen Schichten zu schildern !
+1	Wer	wer	PRON	PWS	_	23	A	23:A	_
+2	vermöchte	vermöchen	VERB	VVFIN	_	23	D	23:D	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Licht	Licht	NOUN	NN	_	5	E	5:E	_
+5	effekte	effeken	VERB	ADJA	_	23	A	23:A	_
+6	durch	durch	ADP	APPR	_	9	R	9:R	_
+7	diese	dies	PRON	PDS	_	9	E	9:E	_
+8	erleuchteten	erleuchtet	ADJ	ADJA	_	9	E	9:E	_
+9	Streifen	Streifen	NOUN	NN	_	23	A	23:A	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	die	der	DET	ART	_	14	E	14:E	_
+12	sanften	sanft	ADJ	ADJA	_	14	E	14:E	_
+13	allmählichen	allmählich	ADJ	ADJA	_	14	E	14:E	_
+14	Abstufungen	Abstufung	NOUN	NN	_	9	C	9:C	_
+15	bis	bis	ADP	APPR	_	21	R	21:R	_
+16	zu	zu	ADP	NN	_	21	R	21:R	_
+17	den	der	DET	ART	_	21	E	21:E	_
+18	unteren	unter	ADJ	ADJA	_	21	E	21:E	_
+19	und	und	CCONJ	NN	_	18	N	18:N	_
+20	oberen	ober	ADJ	ADJA	_	18	C	18:C	_
+21	Schichten	Schicht	NOUN	NN	_	14	E	14:E	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	schildern	schildern	VERB	VVINF	_	0	H	0:H	_
+24	!	!	PUNCT	$.	_	23	U	23:U	_
+

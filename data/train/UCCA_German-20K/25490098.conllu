@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25490098
+# text = Allmählich hörte ich Flüche aus seiner grollenden Seele , sah ihn drohende Gebärden machen .
+1	Allmählich	allmählich	ADJ	ADJD	_	2	D	2:D	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A|10:A	_
+4	Flüche	Fluch	NOUN	NN	_	2	A	2:A	_
+5	aus	aus	ADP	APPR	_	8	R	8:R	_
+6	seiner	sein	DET	PPOSAT	_	8	E	8:E	_
+7	grollenden	grollend	ADJ	ADJA	_	8	E	8:E	_
+8	Seele	Seele	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+11	ihn	er	PRON	PPER	_	14	A	14:A	_
+12	drohende	drohend	ADJ	ADJA	_	13	E	13:E	_
+13	Gebärden	Gebärde	NOUN	NN	_	14	A	14:A	_
+14	machen	machen	VERB	VVINF	_	10	A	10:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

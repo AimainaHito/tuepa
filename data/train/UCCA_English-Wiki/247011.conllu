@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 247011
+# text = Variety wrote that Hawke 's part " shows signs of coming to new life as a screen actor after somnolent turns in the likes of Snow Falling on Cedars . Hawke adds feisty and cunning flourishes to his part that allow him to respectably hold his own under formidable circumstances .
+1	Variety	variety	PROPN	NNP	_	2	A	2:A	_
+2	wrote	write	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	8	R	8:R	_
+4	Hawke	Hawke	PROPN	NNP	_	6	A	6:A|11:A|21:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	part	part	NOUN	NN	_	8	A	8:A	_
+7	"	"	PUNCT	``	_	8	U	8:U	_
+8	shows	show	NOUN	NNS	_	2	A	2:A	_
+9	signs	sign	NOUN	NNS	_	11	E	11:E	_
+10	of	of	SCONJ	IN	_	9	R	9:R	_
+11	coming	come	VERB	VBG	_	8	A	8:A	_
+12	to	to	ADP	IN	_	14	R	14:R	_
+13	new	new	ADJ	JJ	_	14	E	14:E	_
+14	life	life	NOUN	NN	_	11	A	11:A	_
+15	as	as	ADP	IN	_	18	R	18:R	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	screen	screen	NOUN	NN	_	18	E	18:E	_
+18	actor	actor	NOUN	NN	_	11	A	11:A	_
+19	after	after	ADP	IN	_	8	L	8:L	_
+20	somnolent	somnolent	ADJ	JJ	_	21	E	21:E	_
+21	turns	turn	NOUN	NNS	_	8	H	8:H	_
+22	in	in	ADP	IN	_	26	R	26:R	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	likes	likes	NOUN	NNS	_	26	E	26:E	_
+25	of	of	ADP	IN	_	26	R	26:R	_
+26	Snow	snow	PROPN	NNP	_	21	A	21:A	_
+27	Falling	fall	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	on	on	ADP	IN	_	26	Terminal	26:Terminal	_
+29	Cedars	Cedars	PROPN	NNPS	_	26	Terminal	26:Terminal	_
+30	.	.	PUNCT	.	_	8	U	8:U	_
+31	Hawke	Hawke	PROPN	NNP	_	32	A	32:A	_
+32	adds	add	VERB	VBZ	_	8	H	8:H	_
+33	feisty	feisty	NOUN	NN	_	36	E	36:E	_
+34	and	and	CCONJ	CC	_	33	N	33:N	_
+35	cunning	cunning	VERB	VBG	_	33	C	33:C	_
+36	flourishes	flourish	NOUN	NNS	_	0	C	0:C|41:A	_
+37	to	to	ADP	IN	_	39	R	39:R	_
+38	his	he	PRON	PRP$	_	39	A	39:A	_
+39	part	part	NOUN	NN	_	32	A	32:A	_
+40	that	that	PRON	WDT	_	41	R	41:R	_
+41	allow	allow	VERB	VBP	_	8	H	8:H	_
+42	him	he	PRON	PRP	_	41	A	41:A|47:A	_
+43	to	to	PART	TO	_	47	F	47:F	_
+44	respectably	respectably	ADV	RB	_	47	D	47:D	_
+45	hold	hold	VERB	VB	_	47	D	47:D	_
+46	his	he	PRON	PRP$	_	47	E	47:E	_
+47	own	own	ADJ	JJ	_	41	A	41:A	_
+48	under	under	ADP	IN	_	50	R	50:R	_
+49	formidable	formidable	ADJ	JJ	_	50	E	50:E	_
+50	circumstances	circumstance	NOUN	NNS	_	47	A	47:A	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

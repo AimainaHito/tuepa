@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25744014
+# text = Die ›Nautilus‹ hielt sich völlig unbeweglich .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	6	A	6:A	_
+3	hielt	halten	VERB	VVFIN	_	6	F	6:F	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	völlig	völlig	ADJ	ADJD	_	6	D	6:D	_
+6	unbeweglich	unbeweglich	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25610014
+# text = Die " Espérance " und " Recherche " fuhren selbst vor Vanikoro vorüber , ohne dort anzuhalten , und überhaupt war diese Fahrt sehr unglücklich , denn sie kostete das Leben des Kommandanten , zweier Unter befehlshaber und einiger Leute von der Bemannung .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Espérance	Espérance	PROPN	NE	_	9	A	9:A	_
+4	"	"	PUNCT	$(	_	3	U	3:U	_
+5	und	und	CCONJ	NE	_	3	N	3:N	_
+6	"	"	PUNCT	$(	_	3	U	3:U	_
+7	Recherche	Recherche	NOUN	NN	_	3	C	3:C	_
+8	"	"	PUNCT	$(	_	9	U	9:U	_
+9	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+10	selbst	selbst	ADV	VVFIN	_	9	D	9:D	_
+11	vor	vor	ADP	NE	_	12	R	12:R	_
+12	Vanikoro	Vanikoro	PROPN	NE	_	9	A	9:A	_
+13	vorüber	vorüber	ADP	ADV	_	9	Terminal	9:Terminal	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	ohne	ohne	ADP	CARD	_	9	L	9:L	_
+16	dort	dort	ADV	ADV	_	17	A	17:A	_
+17	anzuhalten	anzuhalten	VERB	VVFIN	_	9	H	9:H	_
+18	,	,	PUNCT	$,	_	9	U	9:U	_
+19	und	und	CCONJ	NE	_	9	L	9:L	_
+20	überhaupt	überhaupt	ADV	ADV	_	25	G	25:G	_
+21	war	sein	AUX	ADV	_	25	F	25:F	_
+22	diese	dies	PRON	PDAT	_	23	E	23:E	_
+23	Fahrt	Fahrt	NOUN	NN	_	25	A	25:A	_
+24	sehr	sehr	ADV	NE	_	25	D	25:D	_
+25	unglücklich	unglücklich	ADJ	ADJD	_	9	H	9:H	_
+26	,	,	PUNCT	$,	_	9	U	9:U	_
+27	denn	denn	SCONJ	KON	_	9	L	9:L	_
+28	sie	sie	PRON	ADV	_	29	A	29:A	_
+29	kostete	kosten	VERB	VVFIN	_	9	H	9:H	_
+30	das	der	DET	ART	_	29	Terminal	29:Terminal	_
+31	Leben	Leben	NOUN	NN	_	29	Terminal	29:Terminal	_
+32	des	der	DET	ART	_	33	R	33:R	_
+33	Kommandanten	Kommandant	NOUN	NN	_	29	A	29:A	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	zweier	zweier	NUM	NN	_	37	E	37:E	_
+36	Unter	unter	NOUN	NN	_	37	E	37:E	_
+37	befehlshaber	befehlshaber	ADV	NN	_	33	C	33:C	_
+38	und	und	CCONJ	NE	_	33	N	33:N	_
+39	einiger	einige	PRON	PIAT	_	40	E	40:E	_
+40	Leute	Leute	NOUN	NN	_	33	C	33:C	_
+41	von	von	ADP	NE	_	43	R	43:R	_
+42	der	der	DET	ART	_	43	E	43:E	_
+43	Bemannung	Bemannung	NOUN	NN	_	40	E	40:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25759007
+# text = » Nicht ohne Grund habe ich gesagt , dass auch ohne den Menschen die Walfische Feinde genug haben . Es wird nicht lange dauern , so werden diese ihre harte Not bekommen . Sehen Sie , Herr Arronax , 8 Meilen unterm Wind diese schwärzlichen Punkte sich bewegen ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Nicht	nicht	PART	XY	_	7	D	7:D	_
+3	ohne	ohne	ADP	NN	_	7	D	7:D	_
+4	Grund	Grund	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	habe	haben	AUX	VAFIN	_	7	F	7:F	_
+6	ich	ich	PRON	PPER	_	7	A	7:A	_
+7	gesagt	sagen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	dass	dass	SCONJ	KOUS	_	17	R	17:R	_
+10	auch	auch	ADV	ADV	_	17	A	17:A	_
+11	ohne	ohne	ADP	CARD	_	17	D	17:D	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Menschen	Mensch	NOUN	NN	_	17	A	17:A	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Walfische	Walfisch	PROPN	ADJA	_	17	A	17:A	_
+16	Feinde	Feind	NOUN	NN	_	17	A	17:A	_
+17	genug	genagen	VERB	ADV	_	7	A	7:A	_
+18	haben	haben	AUX	VAINF	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	7	U	7:U	_
+20	Es	es	PRON	PPER	_	24	A	24:A	_
+21	wird	werden	AUX	VAFIN	_	24	F	24:F	_
+22	nicht	nicht	PART	CARD	_	24	D	24:D	_
+23	lange	lange	ADJ	ADJA	_	24	D	24:D	_
+24	dauern	dauern	VERB	NN	_	7	H	7:H	_
+25	,	,	PUNCT	$,	_	7	U	7:U	_
+26	so	so	ADV	ADV	_	7	L	7:L	_
+27	werden	werden	AUX	VVFIN	_	32	F	32:F	_
+28	diese	dies	PRON	PDAT	_	32	A	32:A	_
+29	ihre	ihr	DET	PPOSAT	_	31	E	31:E	_
+30	harte	hart	ADJ	ADJA	_	31	E	31:E	_
+31	Not	not	NOUN	NN	_	32	A	32:A	_
+32	bekommen	bekommen	VERB	VVPP	_	7	H	7:H	_
+33	.	.	PUNCT	$.	_	7	U	7:U	_
+34	Sehen	sehen	NOUN	VVFIN	_	7	H	7:H	_
+35	Sie	Sie|sie	PRON	PPER	_	34	A	34:A	_
+36	,	,	PUNCT	$,	_	34	U	34:U	_
+37	Herr	Herr	PROPN	NN	_	38	E	38:E	_
+38	Arronax	Arronax	PROPN	NE	_	34	G	34:G	_
+39	,	,	PUNCT	$,	_	34	U	34:U	_
+40	8	8	NUM	CARD	_	41	E	41:E	_
+41	Meilen	Meile	NOUN	NN	_	34	A	34:A	_
+42	unterm	unterm	ADJ	NN	_	43	R	43:R	_
+43	Wind	Wind	NOUN	NN	_	41	E	41:E	_
+44	diese	dies	PRON	PDAT	_	46	E	46:E	_
+45	schwärzlichen	schwärzlichen	VERB	ADJA	_	46	E	46:E	_
+46	Punkte	Punkt	NOUN	NN	_	47	A	47:A	_
+47	sich	er|es|sie	PRON	PRF	_	34	A	34:A	_
+48	bewegen	bewegen	VERB	VVFIN	_	47	Terminal	47:Terminal	_
+49	?	?	PUNCT	$.	_	47	U	47:U	_
+50	«	«	PUNCT	$(	_	47	U	47:U	_
+

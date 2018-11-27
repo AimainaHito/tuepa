@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25523010
+# text = Ich blieb nun allein in meine Gedanken vertieft .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|8:A	_
+2	blieb	bleiben	VERB	VVFIN	_	0	H	0:H	_
+3	nun	nun	ADV	ADV	_	2	D	2:D	_
+4	allein	allein	ADV	ADV	_	2	D	2:D	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	meine	mein	DET	PPOSAT	_	7	E	7:E	_
+7	Gedanken	Gedanke	NOUN	NN	_	8	A	8:A	_
+8	vertieft	vertiefen	VERB	VVPP	_	2	H	2:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

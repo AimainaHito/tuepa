@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25804013
+# text = Die Bootsleute der ›Nautilus‹ befestigten an den Schwanz dieser Fische einen Ring , der weit genug war , um ihre Bewegungen nicht zu hindern , und an diesen Ring ein langes Tau , das mit dem anderen Ende an Bord fest war .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Bootsleute	Bootsleute	NOUN	NN	_	0	C	0:C|29:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	2	E	2:E	_
+5	befestigten	befestigen	VERB	VVFIN	_	0	H	0:H	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Schwanz	Schwanz	NOUN	NN	_	5	A	5:A	_
+9	dieser	dies	PRON	PDS	_	10	R	10:R	_
+10	Fische	Fisch	NOUN	NN	_	8	E	8:E	_
+11	einen	ein	DET	ART	_	12	E	12:E	_
+12	Ring	Ring	NOUN	NN	_	5	A	5:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	der	der	DET	PRELS	_	15	R	15:R	_
+15	weit	weit	ADJ	ADJD	_	12	E	12:E	_
+16	genug	genug	ADJ	ADV	_	15	D	15:D	_
+17	war	sein	AUX	ADV	_	15	F	15:F	_
+18	,	,	PUNCT	$,	_	15	U	15:U	_
+19	um	um	ADP	KOUI	_	24	R	24:R	_
+20	ihre	ihr	DET	PPOSAT	_	21	E	21:E	_
+21	Bewegungen	Bewegung	NOUN	NN	_	24	A	24:A	_
+22	nicht	nicht	PART	CARD	_	24	D	24:D	_
+23	zu	zu	PART	NN	_	24	F	24:F	_
+24	hindern	hindern	VERB	VVINF	_	15	A	15:A	_
+25	,	,	PUNCT	$,	_	5	U	5:U	_
+26	und	und	CCONJ	NE	_	5	L	5:L	_
+27	an	an	ADP	APPR	_	29	R	29:R	_
+28	diesen	dies	PRON	PDS	_	29	E	29:E	_
+29	Ring	Ring	NOUN	NN	_	5	H	5:H	_
+30	ein	ein	DET	ART	_	32	E	32:E	_
+31	langes	lang	ADJ	ADJA	_	32	E	32:E	_
+32	Tau	Tau	NOUN	NN	_	29	A	29:A	_
+33	,	,	PUNCT	$,	_	32	U	32:U	_
+34	das	der	PRON	PRELS	_	41	R	41:R	_
+35	mit	mit	ADP	APPR	_	38	R	38:R	_
+36	dem	der	DET	ART	_	38	E	38:E	_
+37	anderen	ander	ADJ	ADJA	_	38	E	38:E	_
+38	Ende	Ende	NOUN	NN	_	41	A	41:A	_
+39	an	an	ADP	APPR	_	40	E	40:E	_
+40	Bord	Bord	NOUN	NN	_	41	A	41:A	_
+41	fest	fest	ADJ	PTKVZ	_	32	E	32:E	_
+42	war	sein	AUX	ADV	_	41	F	41:F	_
+43	.	.	PUNCT	$.	_	41	U	41:U	_
+

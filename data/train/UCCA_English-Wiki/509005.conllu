@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 509005
+# text = Bowie reunited with Visconti in 1998 to record " ( Safe in This ) Sky Life " for The Rugrats Movie .
+1	Bowie	Bowie	PROPN	NNP	_	2	A	2:A|8:A	_
+2	reunited	reunit	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	4	R	4:R	_
+4	Visconti	Visconti	PROPN	NNP	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1998	1998	NUM	CD	_	2	D	2:D	_
+7	to	to	ADP	IN	_	2	L	2:L	_
+8	record	record	NOUN	NN	_	2	H	2:H	_
+9	"	"	PUNCT	''	_	8	U	8:U	_
+10	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+11	Safe	safe	PROPN	NNP	_	8	A	8:A	_
+12	in	in	ADP	IN	_	11	Terminal	11:Terminal	_
+13	This	this	PRON	DT	_	11	Terminal	11:Terminal	_
+14	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+15	Sky	sky	PROPN	NNP	_	11	Terminal	11:Terminal	_
+16	Life	life	PROPN	NNP	_	11	Terminal	11:Terminal	_
+17	"	"	PUNCT	''	_	8	U	8:U	_
+18	for	for	ADP	IN	_	21	R	21:R	_
+19	The	the	DET	DT	_	20	E	20:E	_
+20	Rugrats	Rugrats	PROPN	NNPS	_	21	E	21:E	_
+21	Movie	movie	PROPN	NNP	_	8	A	8:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25648010
+# text = Wir setzten uns zu Tisch .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	setzten	setzen	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NE	_	2	Terminal	2:Terminal	_
+4	zu	zu	ADP	NE	_	2	A	2:A	_
+5	Tisch	Tisch	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+

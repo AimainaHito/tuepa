@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25629011
+# text = » Aber nein , lieber Junge . Da hast du einen Meister griff getan . Einen solchen Vogel lebendig und mit der Hand zu fangen ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Aber	aber	CCONJ	KON	_	3	F	3:F	_
+3	nein	nein	PART	PTKANT	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	lieber	lieber	ADP	ADV	_	6	E	6:E	_
+6	Junge	Junge	NOUN	ADJA	_	3	G	3:G	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+8	Da	da	ADV	ADV	_	13	A	13:A	_
+9	hast	haben	VERB	VAFIN	_	13	F	13:F	_
+10	du	du	PRON	PPER	_	13	A	13:A	_
+11	einen	ein	DET	ART	_	13	E	13:E	_
+12	Meister	Meister	NOUN	NN	_	13	E	13:E	_
+13	griff	griff	ADJ	NN	_	3	H	3:H	_
+14	getan	tun	VERB	VVPP	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	3	U	3:U	_
+16	Einen	ein	PRON	ADJA	_	18	E	18:E	_
+17	solchen	solch	PRON	PIAT	_	18	E	18:E	_
+18	Vogel	Vogel	NOUN	NN	_	0	C	0:C|25:A	_
+19	lebendig	lebendig	ADJ	ADJD	_	18	D	18:D	_
+20	und	und	CCONJ	NE	_	3	L	3:L	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Hand	Hand	NOUN	NN	_	25	A	25:A	_
+24	zu	zu	PART	NE	_	25	F	25:F	_
+25	fangen	fangen	VERB	NE	_	0	P	0:P|18:P	_
+26	!	!	PUNCT	$.	_	18	U	18:U	_
+27	«	«	PUNCT	$(	_	18	U	18:U	_
+

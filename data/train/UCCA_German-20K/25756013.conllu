@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25756013
+# text = » In diesen Meeren , Ned , haben Sie nie gefischt ? « » Nein , mein Herr . Nur im Norden und in der Bering- wie in der Davisstraße . «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	diesen	dies	PRON	PDS	_	4	E	4:E	_
+4	Meeren	Meer	NOUN	NN	_	11	A	11:A	_
+5	,	,	PUNCT	$,	_	11	U	11:U	_
+6	Ned	Ned	PROPN	NE	_	11	G	11:G	_
+7	,	,	PUNCT	$,	_	11	U	11:U	_
+8	haben	haben	AUX	VAFIN	_	11	F	11:F	_
+9	Sie	Sie|sie	PRON	PPER	_	11	A	11:A	_
+10	nie	nie	ADV	ADV	_	11	D	11:D|15:D	_
+11	gefischt	fischen	VERB	VVPP	_	0	P	0:P|15:P|22:P	_
+12	?	?	PUNCT	$.	_	15	U	15:U	_
+13	«	«	PUNCT	$(	_	15	U	15:U	_
+14	»	»	PUNCT	$(	_	15	U	15:U	_
+15	Nein	nein	PROPN	PTKANT	_	11	H	11:H	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	mein	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Herr	Herr	NOUN	NN	_	15	G	15:G	_
+19	.	.	PUNCT	$.	_	15	U	15:U	_
+20	Nur	nur	ADV	NE	_	22	D	22:D	_
+21	im	im	ADJ	NE	_	22	R	22:R	_
+22	Norden	Norden	NOUN	NE	_	15	H	15:H	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Bering-	Bering-	NOUN	$(	_	22	C	22:C	_
+27	wie	wie	ADP	ADV	_	22	N	22:N	_
+28	in	in	ADP	APPR	_	30	R	30:R	_
+29	der	der	DET	ART	_	30	E	30:E	_
+30	Davisstraße	Davisstraße	PROPN	NN	_	22	C	22:C	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+32	«	«	PUNCT	$(	_	30	U	30:U	_
+

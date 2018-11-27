@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25488060
+# text = » Laß mich ! Laß mich ! « sagte ich zu ihm .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Laß	Laß	SCONJ	VVFIN	_	9	A	9:A	_
+3	mich	ich	PRON	ADJD	_	2	A	2:A	_
+4	!	!	PUNCT	$.	_	2	U	2:U	_
+5	Laß	Laß	PROPN	NN	_	2	H	2:H	_
+6	mich	ich	PRON	PPER	_	5	A	5:A	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	zu	zu	ADP	VVINF	_	12	R	12:R	_
+12	ihm	er	PRON	PPER	_	9	A	9:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

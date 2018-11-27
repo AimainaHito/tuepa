@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 557015
+# text = As Keisker reported , " Over and over I remember Sam saying , ' If I could find a white man who had the Negro sound and the Negro feel , I could make a billion dollars .
+1	As	as	SCONJ	IN	_	3	L	3:L	_
+2	Keisker	Keisker	PROPN	NNP	_	3	A	3:A	_
+3	reported	report	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	Over	over	ADV	RB	_	12	D	12:D	_
+7	and	and	CCONJ	CC	_	6	Terminal	6:Terminal	_
+8	over	over	ADV	RB	_	6	Terminal	6:Terminal	_
+9	I	I	PRON	PRP	_	10	A	10:A	_
+10	remember	remember	VERB	VBP	_	3	A	3:A	_
+11	Sam	Sam	PROPN	NNP	_	12	A	12:A	_
+12	saying	say	VERB	VBG	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	'	'	PUNCT	``	_	12	U	12:U	_
+15	If	if	SCONJ	IN	_	18	L	18:L	_
+16	I	I	PRON	PRP	_	18	A	18:A	_
+17	could	could	AUX	MD	_	18	D	18:D	_
+18	find	find	VERB	VB	_	12	A	12:A	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	white	white	ADJ	JJ	_	21	E	21:E	_
+21	man	man	NOUN	NN	_	18	A	18:A	_
+22	who	who	PRON	WP	_	23	F	23:F	_
+23	had	have	VERB	VBD	_	21	E	21:E	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	Negro	Negro	PROPN	NNP	_	26	E	26:E	_
+26	sound	sound	NOUN	NN	_	23	A	23:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	Negro	Negro	PROPN	NNP	_	30	E	30:E	_
+30	feel	feel	NOUN	NN	_	26	C	26:C	_
+31	,	,	PUNCT	,	_	18	U	18:U	_
+32	I	I	PRON	PRP	_	34	A	34:A	_
+33	could	could	AUX	MD	_	34	D	34:D	_
+34	make	make	VERB	VB	_	18	H	18:H	_
+35	a	a	DET	DT	_	37	E	37:E	_
+36	billion	billion	NUM	CD	_	37	E	37:E	_
+37	dollars	dollar	NOUN	NNS	_	34	A	34:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

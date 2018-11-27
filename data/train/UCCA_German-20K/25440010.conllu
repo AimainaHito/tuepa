@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25440010
+# text = Solange die Sonne am Himmel stand , waren die Masten voll Matrosen , denen auf dem Verdeck die Fuß sohlen brannten und die sich nicht an ihrem Platz halten konnten !
+1	Solange	solange	SCONJ	KOUS	_	6	L	6:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Sonne	Sonne	NOUN	NN	_	6	A	6:A	_
+4	am	am	ADJ	ADJD	_	5	R	5:R	_
+5	Himmel	Himmel	NOUN	NN	_	6	A	6:A	_
+6	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	waren	sein	AUX	VAFIN	_	6	H	6:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Masten	Masten	NOUN	NN	_	8	A	8:A	_
+11	voll	voll	ADJ	VMFIN	_	8	D	8:D	_
+12	Matrosen	Matrose	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	denen	der	PRON	PRELS	_	21	R	21:R	_
+15	auf	auf	ADP	APPR	_	17	R	17:R	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	Verdeck	Verdeck	NOUN	NN	_	21	A	21:A	_
+18	die	der	DET	ART	_	20	E	20:E	_
+19	Fuß	Fuß	NOUN	NN	_	20	E	20:E	_
+20	sohlen	sohlen	VERB	VVINF	_	21	A	21:A	_
+21	brannten	brannten	ADJ	VVFIN	_	12	E	12:E	_
+22	und	und	CCONJ	NE	_	21	N	21:N	_
+23	die	der	PRON	ART	_	24	R	24:R	_
+24	sich	er|es|sie	PRON	PRF	_	21	C	21:C	_
+25	nicht	nicht	PART	CARD	_	24	D	24:D	_
+26	an	an	ADP	APPR	_	28	R	28:R	_
+27	ihrem	ihr	DET	PPOSAT	_	28	E	28:E	_
+28	Platz	Platz	NOUN	NN	_	24	A	24:A	_
+29	halten	halten	VERB	VVINF	_	24	Terminal	24:Terminal	_
+30	konnten	können	AUX	VMFIN	_	24	D	24:D	_
+31	!	!	PUNCT	$.	_	24	U	24:U	_
+

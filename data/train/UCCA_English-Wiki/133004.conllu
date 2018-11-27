@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 133004
+# text = Hepburn presented the finished product to MGM and demanded $ 250,000 - half for her , half for the authors , Michael Kanin and Ring Lardner , Jr .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|9:A	_
+2	presented	present	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	finished	finish	VERB	VBN	_	5	E	5:E	_
+5	product	product	NOUN	NN	_	2	A	2:A	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	MGM	MGM	PROPN	NNP	_	2	A	2:A	_
+8	and	and	CCONJ	CC	_	2	L	2:L	_
+9	demanded	demand	VERB	VBD	_	2	H	2:H	_
+10	$	$	SYM	$	_	9	U	9:U	_
+11	250,000	250,000	NUM	CD	_	9	A	9:A	_
+12	-	-	PUNCT	:	_	11	U	11:U	_
+13	half	half	NOUN	NN	_	14	A	14:A	_
+14	for	for	ADP	IN	_	11	E	11:E	_
+15	her	she	PRON	PRP	_	14	A	14:A	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	half	half	ADV	RB	_	18	A	18:A	_
+18	for	for	ADP	IN	_	14	C	14:C	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	authors	author	NOUN	NNS	_	18	A	18:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	Michael	Michael	PROPN	NNP	_	20	E	20:E	_
+23	Kanin	Kanin	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	and	and	CCONJ	CC	_	22	N	22:N	_
+25	Ring	re	PROPN	NNP	_	22	C	22:C	_
+26	Lardner	Lardner	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	25	U	25:U	_
+28	Jr	Jr	PROPN	NNP	_	25	Terminal	25:Terminal	_
+29	.	.	PUNCT	.	_	22	U	22:U	_
+

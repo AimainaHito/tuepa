@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 558021
+# text = A more composed and energetic second set inspired an enthusiastic response .
+1	A	a	DET	DT	_	7	E	7:E	_
+2	more	more	ADV	RBR	_	3	E	3:E	_
+3	composed	composed	ADJ	JJ	_	7	E	7:E	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	energetic	energetic	ADJ	JJ	_	3	C	3:C	_
+6	second	second	ADJ	JJ	_	7	E	7:E	_
+7	set	set	NOUN	NN	_	8	A	8:A	_
+8	inspired	inspire	VERB	VBD	_	0	H	0:H	_
+9	an	a	DET	DT	_	11	E	11:E	_
+10	enthusiastic	enthusiastic	ADJ	JJ	_	11	E	11:E	_
+11	response	response	NOUN	NN	_	8	A	8:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

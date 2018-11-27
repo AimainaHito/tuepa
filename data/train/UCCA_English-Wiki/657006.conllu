@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 657006
+# text = Carey left Columbia in 2000 , and signed a record - breaking $ 100 million recording contract with Virgin Records .
+1	Carey	Carey	PROPN	NNP	_	0	H	0:H	_
+2	left	leave	VERB	VBD	_	1	P	1:P	_
+3	Columbia	Columbia	PROPN	NNP	_	1	A	1:A	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	2000	2000	NUM	CD	_	1	D	1:D	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	and	and	CCONJ	CC	_	1	L	1:L	_
+8	signed	sign	VERB	VBN	_	1	H	1:H	_
+9	a	a	DET	DT	_	17	E	17:E	_
+10	record	record	NOUN	NN	_	17	E	17:E	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	breaking	breaking	NOUN	NN	_	10	E	10:E	_
+13	$	$	SYM	$	_	17	U	17:U	_
+14	100	100	NUM	CD	_	17	E	17:E	_
+15	million	million	NUM	CD	_	14	Terminal	14:Terminal	_
+16	recording	record	NOUN	NN	_	17	E	17:E	_
+17	contract	contract	NOUN	NN	_	8	A	8:A	_
+18	with	with	ADP	IN	_	19	R	19:R	_
+19	Virgin	Virgin	PROPN	NNP	_	17	E	17:E	_
+20	Records	record	NOUN	NNS	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

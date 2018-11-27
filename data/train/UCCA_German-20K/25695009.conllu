@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25695009
+# text = Er kam , sowie er mich bemerkte , gleich auf mich zu , bot mir freundlich eine Zigarre an , und sagte zu mir :
+1	Er	er	PRON	PPER	_	2	A	2:A|14:A|22:A	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	sowie	sowie	CCONJ	NE	_	2	L	2:L	_
+5	er	er	PRON	PPER	_	7	A	7:A	_
+6	mich	ich	PRON	PPER	_	7	A	7:A	_
+7	bemerkte	bemerken	VERB	VVFIN	_	2	H	2:H	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	gleich	gleich	ADV	ADV	_	2	D	2:D	_
+10	auf	auf	ADP	APPR	_	11	R	11:R	_
+11	mich	ich	PRON	PPER	_	2	A	2:A	_
+12	zu	zu	PART	VVINF	_	2	Terminal	2:Terminal	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	bot	bieten	VERB	VVFIN	_	2	H	2:H	_
+15	mir	ich	PRON	PPER	_	14	A	14:A	_
+16	freundlich	freundlich	ADJ	ADJD	_	14	D	14:D	_
+17	eine	ein	DET	ART	_	18	E	18:E	_
+18	Zigarre	Zigarre	NOUN	NN	_	14	A	14:A	_
+19	an	an	ADP	PTKVZ	_	14	Terminal	14:Terminal	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	und	und	CCONJ	NE	_	2	L	2:L	_
+22	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+23	zu	zu	ADP	VVINF	_	24	R	24:R	_
+24	mir	ich	PRON	PPER	_	22	A	22:A	_
+25	:	:	PUNCT	$.	_	24	U	24:U	_
+

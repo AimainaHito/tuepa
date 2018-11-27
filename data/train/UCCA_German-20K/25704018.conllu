@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25704018
+# text = Der Boots führer sagte einige Worte in seiner seltsamen Sprache , womit er vermutlich seine Leute warnte , auf der Hut zu sein .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	Boots	Boot	NOUN	NN	_	3	E	3:E	_
+3	führer	führ	ADJ	PPOSAT	_	4	A	4:A	_
+4	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	einige	einige	PRON	PIAT	_	6	E	6:E	_
+6	Worte	Wort	NOUN	NN	_	4	A	4:A	_
+7	in	in	ADP	APPR	_	10	R	10:R	_
+8	seiner	sein	DET	PPOSAT	_	10	E	10:E	_
+9	seltsamen	seltsam	ADJ	ADJA	_	10	E	10:E	_
+10	Sprache	Sprache	NOUN	NN	_	4	A	4:A	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	womit	womit	PRON	VVINF	_	17	R	17:R	_
+13	er	er	PRON	PPER	_	17	A	17:A	_
+14	vermutlich	vermutlich	ADJ	ADV	_	17	D	17:D	_
+15	seine	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Leute	Leute	NOUN	NN	_	17	A	17:A	_
+17	warnte	warnen	VERB	VVFIN	_	6	E	6:E	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	auf	auf	ADP	APPR	_	17	A	17:A	_
+20	der	der	DET	ART	_	19	Terminal	19:Terminal	_
+21	Hut	Hut	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	zu	zu	PART	VVINF	_	19	Terminal	19:Terminal	_
+23	sein	sein	AUX	VAINF	_	19	Terminal	19:Terminal	_
+24	.	.	PUNCT	$.	_	19	U	19:U	_
+

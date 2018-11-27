@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25632023
+# text = Nach 20 Minuten waren wir an Bord .
+1	Nach	nach	ADP	APPR	_	2	E	2:E	_
+2	20	20	NUM	CARD	_	4	D	4:D	_
+3	Minuten	Minute	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	an	an	ADP	APPR	_	7	R	7:R	_
+7	Bord	Bord	NOUN	NN	_	4	A	4:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

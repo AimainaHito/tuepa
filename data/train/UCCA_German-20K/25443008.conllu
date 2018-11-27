@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25443008
+# text = Wir sind alte Freunde geworden , geeinigt durch die unerschütterliche Sympathie , die in den entsetzlichsten Lebens lagen entsteht und aneinander fesselt !
+1	Wir	wir	PRON	NE	_	5	A	5:A	_
+2	sind	sein	AUX	NN	_	5	F	5:F	_
+3	alte	alt	ADJ	ADJA	_	4	E	4:E	_
+4	Freunde	Freund	NOUN	NN	_	5	A	5:A	_
+5	geworden	werden	AUX	PAV	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	geeinigt	einigen	VERB	VVPP	_	5	H	5:H	_
+8	durch	durch	ADP	APPR	_	10	R	10:R	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	unerschütterliche	unerschütterlich	ADJ	ADJA	_	7	A	7:A	_
+11	Sympathie	Sympathie	NOUN	NN	_	0	C	0:C|22:A|19:A	_
+12	,	,	PUNCT	$,	_	19	U	19:U	_
+13	die	der	PRON	PRELS	_	19	R	19:R	_
+14	in	in	ADP	APPR	_	18	R	18:R	_
+15	den	der	DET	ART	_	18	E	18:E	_
+16	entsetzlichsten	entsetzlich	ADJ	NN	_	18	E	18:E	_
+17	Lebens	Leben	NOUN	NN	_	18	E	18:E	_
+18	lagen	liegen	VERB	VVFIN	_	19	A	19:A	_
+19	entsteht	entstehen	VERB	VVFIN	_	10	E	10:E	_
+20	und	und	CCONJ	NE	_	19	L	19:L	_
+21	aneinander	aneinander	ADV	ADV	_	22	A	22:A	_
+22	fesselt	fesseln	VERB	VVFIN	_	19	H	19:H	_
+23	!	!	PUNCT	$.	_	22	U	22:U	_
+

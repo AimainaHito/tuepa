@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25683017
+# text = So stieß ich mehrmals auf den enormen , von Darwin beobachteten Meer krebs , dem die Natur die erforderliche Kraft und den Instinkt gegeben hat , um sich von Kokos nüssen zu nähren .
+1	So	so	ADV	ADV	_	2	L	2:L	_
+2	stieß	stoßen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	mehrmals	mehrmals	ADV	ADV	_	2	D	2:D	_
+5	auf	auf	ADP	APPR	_	13	R	13:R	_
+6	den	der	DET	ART	_	13	E	13:E	_
+7	enormen	enorm	ADJ	ADJA	_	13	E	13:E	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	Darwin	Darwin	PROPN	NE	_	11	A	11:A	_
+11	beobachteten	beobachten	VERB	ADJA	_	13	E	13:E	_
+12	Meer	Meer	PROPN	NN	_	13	E	13:E	_
+13	krebs	krebs	X	NN	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	dem	der	PRON	PRELS	_	24	R	24:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Natur	Natur	NOUN	NN	_	24	A	24:A	_
+18	die	der	DET	ART	_	20	E	20:E	_
+19	erforderliche	erforderlich	ADJ	ADJA	_	20	E	20:E	_
+20	Kraft	Kraft	NOUN	NN	_	24	A	24:A	_
+21	und	und	CCONJ	NE	_	20	N	20:N	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Instinkt	Instinkt	NOUN	NN	_	20	C	20:C	_
+24	gegeben	geben	VERB	VVPP	_	13	E	13:E	_
+25	hat	haben	AUX	VAFIN	_	24	F	24:F	_
+26	,	,	PUNCT	$,	_	2	U	2:U	_
+27	um	um	ADP	KOUI	_	2	L	2:L	_
+28	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+29	von	von	ADP	NN	_	31	R	31:R	_
+30	Kokos	Kokos	PROPN	NE	_	31	E	31:E	_
+31	nüssen	nüssen	ADV	VVINF	_	28	A	28:A	_
+32	zu	zu	PART	VVINF	_	28	F	28:F	_
+33	nähren	nähren	VERB	VVINF	_	28	Terminal	28:Terminal	_
+34	.	.	PUNCT	$.	_	28	U	28:U	_
+

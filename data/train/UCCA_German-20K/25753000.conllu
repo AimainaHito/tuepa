@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25753000
+# text = Im Vorbeifahren an den Felswänden bemerkte ich noch einige Muscheln , wie Serpula und Spinorbis lebend .
+1	Im	Im	ADJ	NE	_	2	R	2:R	_
+2	Vorbeifahren	vorbeifahren	NOUN	NE	_	0	H	0:H	_
+3	an	an	ADP	APPR	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Felswänden	Felswände	NOUN	NE	_	2	A	2:A	_
+6	bemerkte	bemerken	VERB	VVFIN	_	2	H	2:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	noch	noch	ADV	VVINF	_	6	D	6:D	_
+9	einige	einige	PRON	PIAT	_	10	E	10:E	_
+10	Muscheln	Muschel	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wie	wie	ADP	NE	_	16	R	16:R	_
+13	Serpula	Serpula	PROPN	NE	_	16	A	16:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	Spinorbis	Spinorbis	PROPN	NE	_	13	C	13:C	_
+16	lebend	lebend	ADJ	ADJD	_	10	E	10:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

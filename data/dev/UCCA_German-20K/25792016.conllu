@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25792016
+# text = » Ja ! Kapitän , vielleicht .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Kapitän	Kapitän	PROPN	NN	_	2	G	2:G	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	vielleicht	vielleicht	ADV	NE	_	2	D	2:D	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+

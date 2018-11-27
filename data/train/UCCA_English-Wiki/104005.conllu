@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 104005
+# text = Jolie has had a difficult relationship with her father .
+1	Jolie	Jolie	PROPN	NNP	_	6	A	6:A	_
+2	has	have	AUX	VBZ	_	6	F	6:F	_
+3	had	have	VERB	VBN	_	6	F	6:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	difficult	difficult	ADJ	JJ	_	6	D	6:D	_
+6	relationship	relationship	NOUN	NN	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	father	father	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

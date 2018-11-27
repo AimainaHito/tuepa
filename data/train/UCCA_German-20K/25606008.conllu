@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25606008
+# text = Als ich diese Ansicht gegenüber Kapitän Nemo äußerte , entgegnete er kalt :
+1	Als	als	SCONJ	KOUS	_	8	L	8:L	_
+2	ich	ich	PRON	PPER	_	8	A	8:A	_
+3	diese	dies	PRON	PDAT	_	4	E	4:E	_
+4	Ansicht	Ansicht	NOUN	NN	_	8	A	8:A	_
+5	gegenüber	gegenüber	ADP	ADV	_	7	R	7:R	_
+6	Kapitän	Kapitän	PROPN	NN	_	7	E	7:E	_
+7	Nemo	Nemo	PROPN	NE	_	8	A	8:A	_
+8	äußerte	äußern	VERB	VVFIN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	entgegnete	entgegnen	VERB	VVFIN	_	8	H	8:H	_
+11	er	er	PRON	PPER	_	10	A	10:A	_
+12	kalt	kalt	VERB	ADJD	_	10	D	10:D	_
+13	:	:	PUNCT	$.	_	10	U	10:U	_
+

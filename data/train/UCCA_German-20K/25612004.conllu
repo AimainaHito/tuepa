@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25612004
+# text = Dies verkehrte Benehmen ließ glauben , sie hätten die Schiff brüchigen mißhandelt ; und sie schienen in der Tat Angst zu haben , Dumont d'Urville sei gekommen , um La Pérouse und seine Unglücks genossen zu rächen .
+1	Dies	dies	PRON	PDS	_	3	E	3:E	_
+2	verkehrte	verkehren	VERB	VVFIN	_	3	E	3:E	_
+3	Benehmen	Benehmen	NOUN	NE	_	5	A	5:A	_
+4	ließ	lassen	VERB	VVFIN	_	5	D	5:D	_
+5	glauben	glauben	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	sie	sie	PRON	ADV	_	12	A	12:A	_
+8	hätten	haben	AUX	VAFIN	_	12	F	12:F	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	Schiff	Schiff	NOUN	NN	_	11	E	11:E	_
+11	brüchigen	brüchigen	VERB	VVINF	_	12	A	12:A	_
+12	mißhandelt	mißhandeln	AUX	VVFIN	_	5	A	5:A	_
+13	;	;	PUNCT	$.	_	5	U	5:U	_
+14	und	und	CCONJ	NE	_	5	L	5:L	_
+15	sie	sie	PRON	ADV	_	20	A	20:A	_
+16	schienen	schienen	VERB	ADJA	_	20	G	20:G	_
+17	in	in	ADP	APPR	_	20	G	20:G	_
+18	der	der	DET	ART	_	17	Terminal	17:Terminal	_
+19	Tat	Tat	NOUN	NN	_	17	Terminal	17:Terminal	_
+20	Angst	Angst	PROPN	NN	_	5	H	5:H	_
+21	zu	zu	PART	VVINF	_	20	F	20:F	_
+22	haben	haben	VERB	VAFIN	_	20	F	20:F	_
+23	,	,	PUNCT	$,	_	5	U	5:U	_
+24	Dumont	Dumont	PROPN	NE	_	27	A	27:A	_
+25	d'Urville	d'Urville	PROPN	NE	_	24	Terminal	24:Terminal	_
+26	sei	sein	AUX	NE	_	27	F	27:F	_
+27	gekommen	kommen	ADJ	VVPP	_	5	H	5:H	_
+28	,	,	PUNCT	$,	_	5	U	5:U	_
+29	um	um	ADP	KOUI	_	5	L	5:L	_
+30	La	La	PROPN	NE	_	37	A	37:A	_
+31	Pérouse	Pérouse	PROPN	NE	_	30	Terminal	30:Terminal	_
+32	und	und	CCONJ	NE	_	30	N	30:N	_
+33	seine	sein	DET	PPOSAT	_	35	E	35:E	_
+34	Unglücks	Unglück	NOUN	NE	_	35	E	35:E	_
+35	genossen	nießen	ADJ	VVFIN	_	30	C	30:C	_
+36	zu	zu	PART	VVINF	_	37	F	37:F	_
+37	rächen	rächen	VERB	VVINF	_	5	H	5:H	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

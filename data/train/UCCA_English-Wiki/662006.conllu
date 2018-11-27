@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 662006
+# text = The album was met with mixed reception from music critics ; while many praised the album 's pop influence and strong content , others felt that Carey made less usage of her acclaimed vocal range .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	met	meet	VERB	VBN	_	0	H	0:H	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	mixed	mix	VERB	VBN	_	7	E	7:E	_
+7	reception	reception	NOUN	NN	_	4	A	4:A	_
+8	from	from	ADP	IN	_	10	R	10:R	_
+9	music	music	NOUN	NN	_	10	E	10:E	_
+10	critics	critics	NOUN	NNS	_	7	E	7:E	_
+11	;	;	PUNCT	,	_	4	U	4:U	_
+12	while	while	SCONJ	IN	_	4	L	4:L	_
+13	many	many	ADJ	JJ	_	14	A	14:A	_
+14	praised	praise	VERB	VBN	_	4	H	4:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	album	album	NOUN	NN	_	19	E	19:E	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	pop	pop	NOUN	NN	_	19	E	19:E	_
+19	influence	influence	NOUN	NN	_	14	A	14:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	strong	strong	ADJ	JJ	_	22	E	22:E	_
+22	content	content	NOUN	NN	_	19	C	19:C	_
+23	,	,	PUNCT	,	_	4	U	4:U	_
+24	others	other	NOUN	NNS	_	25	A	25:A	_
+25	felt	feel	VERB	VBD	_	4	H	4:H	_
+26	that	that	SCONJ	IN	_	30	F	30:F	_
+27	Carey	Carey	PROPN	NNP	_	30	A	30:A	_
+28	made	make	VERB	VBD	_	30	F	30:F	_
+29	less	less	ADJ	JJR	_	30	D	30:D	_
+30	usage	usage	NOUN	NN	_	25	A	25:A	_
+31	of	of	ADP	IN	_	35	R	35:R	_
+32	her	she	PRON	PRP$	_	35	E	35:E	_
+33	acclaimed	acclaim	VERB	VBN	_	35	E	35:E	_
+34	vocal	vocal	ADJ	JJ	_	35	E	35:E	_
+35	range	range	NOUN	NN	_	30	A	30:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

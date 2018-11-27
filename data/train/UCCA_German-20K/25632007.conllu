@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25632007
+# text = Dies gab meiner Bemerkung noch mehr Gewicht .
+1	Dies	dies	PRON	PDS	_	2	A	2:A	_
+2	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+3	meiner	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Bemerkung	Bemerkung	NOUN	NN	_	2	A	2:A	_
+5	noch	noch	ADV	CARD	_	6	E	6:E	_
+6	mehr	mehr	ADV	ADV	_	7	E	7:E	_
+7	Gewicht	Gewicht	NOUN	NN	_	2	A	2:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

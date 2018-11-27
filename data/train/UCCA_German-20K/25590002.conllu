@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25590002
+# text = » Aber wie gelangen wir hinaus ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+3	wie	wie	ADV	ADV	_	4	D	4:D	_
+4	gelangen	gelangen|gelingen	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	hinaus	hinaus	ADV	ADV	_	4	A	4:A	_
+7	?	?	PUNCT	$.	_	4	U	4:U	_
+8	«	«	PUNCT	$(	_	4	U	4:U	_
+

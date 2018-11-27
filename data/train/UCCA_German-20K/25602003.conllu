@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25602003
+# text = Darauf , als wolle er einen schlimmen Gedanken verscheuchen , wendete er sich hastig zu mir und sagte :
+1	Darauf	darauf	ADV	PAV	_	9	L	9:L	_
+2	,	,	PUNCT	$,	_	9	U	9:U	_
+3	als	als	SCONJ	KOKOM	_	9	L	9:L	_
+4	wolle	wollen	AUX	VMFIN	_	9	D	9:D	_
+5	er	er	PRON	PPER	_	9	A	9:A	_
+6	einen	ein	DET	ART	_	8	E	8:E	_
+7	schlimmen	schlimm	ADJ	ADJA	_	8	E	8:E	_
+8	Gedanken	Gedanke	NOUN	NN	_	9	A	9:A	_
+9	verscheuchen	verscheuchen	VERB	ADJA	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	wendete	wenden	VERB	VVFIN	_	9	H	9:H	_
+12	er	er	PRON	PPER	_	11	A	11:A|18:A	_
+13	sich	er|es|sie	PRON	PRF	_	11	Terminal	11:Terminal	_
+14	hastig	hastig	ADJ	ADV	_	11	D	11:D	_
+15	zu	zu	ADP	VVINF	_	16	R	16:R	_
+16	mir	ich	PRON	PPER	_	11	A	11:A	_
+17	und	und	CCONJ	NN	_	9	L	9:L	_
+18	sagte	sagen	VERB	VVFIN	_	9	H	9:H	_
+19	:	:	PUNCT	$.	_	18	U	18:U	_
+

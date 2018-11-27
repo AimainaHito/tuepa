@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25665018
+# text = Doch werde ich nur mit gewissem Leidwesen mit mir nehmen , was uns von den Geheimnissen der ›Nautilus‹ durch das Vertrauen des Kapitäns mitgeteilt worden .
+1	Doch	doch	ADV	ADV	_	10	L	10:L	_
+2	werde	werden	AUX	NN	_	10	F	10:F	_
+3	ich	ich	PRON	PPER	_	10	A	10:A	_
+4	nur	nur	ADV	NE	_	10	D	10:D	_
+5	mit	mit	ADP	APPR	_	7	R	7:R	_
+6	gewissem	gewiß	ADJ	ADJA	_	7	E	7:E	_
+7	Leidwesen	Leidwese	NOUN	NN	_	10	A	10:A	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	mir	ich	PRON	PPER	_	10	A	10:A	_
+10	nehmen	nehmen	VERB	CARD	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	was	was	PRON	NE	_	24	A	24:A	_
+13	uns	wir	PRON	NE	_	24	A	24:A	_
+14	von	von	ADP	NN	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Geheimnissen	Geheimnis	NOUN	NN	_	24	A	24:A	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	E	16:E	_
+19	durch	durch	ADP	APPR	_	21	R	21:R	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Vertrauen	Vertrauen	NOUN	NN	_	24	A	24:A	_
+22	des	der	DET	ART	_	23	R	23:R	_
+23	Kapitäns	Kapitän	NOUN	NN	_	21	A	21:A	_
+24	mitgeteilt	mitteilen	VERB	VVPP	_	10	A	10:A	_
+25	worden	werden	AUX	ADV	_	24	F	24:F	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

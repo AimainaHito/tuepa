@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25712018
+# text = Er schien voll Gedanken schweigsam .
+1	Er	er	PRON	PPER	_	4	A	4:A|5:A|2:A	_
+2	schien	scheinen	VERB	VVFIN	_	4	H	4:H	_
+3	voll	voll	ADJ	VMFIN	_	4	D	4:D	_
+4	Gedanken	Gedanke	NOUN	NN	_	0	H	0:H	_
+5	schweigsam	schweigsam	ADJ	ADJD	_	4	H	4:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

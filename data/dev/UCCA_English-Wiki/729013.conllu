@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 729013
+# text = Peter Travers wrote , " Depp and Jolie hit career lows , producing the chemistry of high - fashion zombies .
+1	Peter	Peter	PROPN	NNP	_	3	A	3:A	_
+2	Travers	Travers	PROPN	NNPS	_	1	Terminal	1:Terminal	_
+3	wrote	write	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	''	_	3	U	3:U	_
+6	Depp	Depp	PROPN	NNP	_	9	A	9:A|13:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	Jolie	Jolie	PROPN	NNP	_	6	C	6:C	_
+9	hit	hit	VERB	VBD	_	3	A	3:A	_
+10	career	career	NOUN	NN	_	11	E	11:E	_
+11	lows	low	NOUN	NNS	_	9	A	9:A	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	producing	produce	VERB	VBG	_	9	H	9:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	chemistry	chemistry	NOUN	NN	_	13	A	13:A	_
+16	of	of	ADP	IN	_	20	R	20:R	_
+17	high	high	ADJ	JJ	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	fashion	fashion	NOUN	NN	_	20	E	20:E	_
+20	zombies	zomby	NOUN	NNS	_	15	E	15:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

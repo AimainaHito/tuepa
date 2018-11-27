@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 787001
+# text = - Aussi bien , n' en déplaise à monsieur , répondit Conseil , qu' un bernard - l' ermite dans la coquille d' un buccin . »
+1	-	-	PUNCT	_	_	3	U	3:U	_
+2	Aussi	aussi	ADV	_	_	3	D	3:D	_
+3	bien	bien	ADV	_	_	11	A	11:A	_
+4	,	,	PUNCT	_	_	3	U	3:U	_
+5	n'	ne	ADV	_	_	3	G	3:G	_
+6	en	en	PRON	_	_	5	Terminal	5:Terminal	_
+7	déplaise	déplaise	VERB	_	_	5	Terminal	5:Terminal	_
+8	à	à	ADP	_	_	5	Terminal	5:Terminal	_
+9	monsieur	Monsieur	NOUN	_	_	5	Terminal	5:Terminal	_
+10	,	,	PUNCT	_	_	11	U	11:U	_
+11	répondit	répondre	VERB	_	_	0	H	0:H	_
+12	Conseil	conseil	NOUN	_	_	11	A	11:A	_
+13	,	,	PUNCT	_	_	11	U	11:U	_
+14	qu'	que	SCONJ	_	_	16	R	16:R	_
+15	un	un	DET	_	_	16	E	16:E	_
+16	bernard	bernard	NOUN	_	_	3	A	3:A	_
+17	-	-	PUNCT	_	_	16	U	16:U	_
+18	l'	le	DET	_	_	16	Terminal	16:Terminal	_
+19	ermite	ermite	NOUN	_	_	16	Terminal	16:Terminal	_
+20	dans	dans	ADP	_	_	22	R	22:R	_
+21	la	le	DET	_	_	22	E	22:E	_
+22	coquille	coquille	NOUN	_	_	16	E	16:E	_
+23	d'	de	ADP	_	_	25	R	25:R	_
+24	un	un	DET	_	_	25	E	25:E	_
+25	buccin	buccin	NOUN	_	_	22	E	22:E	_
+26	.	.	PUNCT	_	_	25	U	25:U	_
+27	»	»	PUNCT	_	_	25	U	25:U	_
+

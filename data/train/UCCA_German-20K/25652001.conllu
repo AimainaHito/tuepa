@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25652001
+# text = In einer halben Stunde waren wir für diesen wiederholten Gang angekleidet und mit den Apparaten zur Beleuchtung und zum Atmen versehen .
+1	In	in	ADP	APPR	_	4	R	4:R	_
+2	einer	ein	DET	ART	_	4	E	4:E	_
+3	halben	halb	ADJ	ADJA	_	4	E	4:E	_
+4	Stunde	Stunde	NOUN	NN	_	11	D	11:D	_
+5	waren	sein	AUX	VAFIN	_	11	F	11:F	_
+6	wir	wir	PRON	NE	_	11	A	11:A|21:A	_
+7	für	für	ADP	APPR	_	10	R	10:R	_
+8	diesen	dies	PRON	PDAT	_	10	E	10:E	_
+9	wiederholten	wiederholt	ADJ	ADJA	_	10	E	10:E	_
+10	Gang	Gang	NOUN	NN	_	11	A	11:A	_
+11	angekleidet	angekleiden	VERB	VVFIN	_	0	H	0:H	_
+12	und	und	CCONJ	NE	_	11	L	11:L	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Apparaten	Apparat	NOUN	NN	_	21	A	21:A	_
+16	zur	zur	ADV	NE	_	17	R	17:R	_
+17	Beleuchtung	beleuchtung	NOUN	NN	_	21	A	21:A	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	zum	zum	ADP	NN	_	20	R	20:R	_
+20	Atmen	Atmen	NOUN	NN	_	17	C	17:C	_
+21	versehen	versehen	VERB	VVPP	_	11	H	11:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

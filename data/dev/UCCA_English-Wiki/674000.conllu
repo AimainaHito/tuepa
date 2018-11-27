@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 674000
+# text = Following the cancellation of Angels Advocate , it was announced that Carey would return to the studio to start work on her thirteenth studio album .
+1	Following	follow	VERB	VBG	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	cancellation	cancellation	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Angels	angel	PROPN	NNP	_	3	A	3:A	_
+6	Advocate	advocate	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	it	it	PRON	PRP	_	10	F	10:F	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	announced	announce	VERB	VBN	_	3	H	3:H	_
+11	that	that	SCONJ	IN	_	14	F	14:F	_
+12	Carey	Carey	PRON	PRP	_	14	A	14:A|19:A	_
+13	would	would	AUX	MD	_	14	F	14:F	_
+14	return	return	VERB	VB	_	10	A	10:A	_
+15	to	to	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	studio	studio	NOUN	NN	_	14	A	14:A	_
+18	to	to	PART	TO	_	3	L	3:L	_
+19	start	start	VERB	VB	_	3	H	3:H	_
+20	work	work	NOUN	NN	_	19	A	19:A	_
+21	on	on	ADP	IN	_	20	R	20:R	_
+22	her	she	PRON	PRP$	_	20	E	20:E	_
+23	thirteenth	thirteenth	ADJ	JJ	_	20	E	20:E	_
+24	studio	studio	NOUN	NN	_	25	E	25:E	_
+25	album	album	NOUN	NN	_	20	E	20:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

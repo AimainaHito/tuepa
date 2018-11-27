@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25683008
+# text = Die Sonnen strahlen brachten schon hinreichende Helle unter die Gewässer .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Sonnen	Sonne	NOUN	NN	_	3	E	3:E	_
+3	strahlen	strahlen	VERB	VVFIN	_	4	A	4:A	_
+4	brachten	bringen	VERB	VVFIN	_	0	H	0:H	_
+5	schon	schon	ADV	ADV	_	4	D	4:D	_
+6	hinreichende	hinreichend	ADJ	ADJA	_	7	E	7:E	_
+7	Helle	hell	NOUN	NN	_	4	A	4:A	_
+8	unter	unter	ADP	ADJD	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Gewässer	Gewässer	NOUN	NN	_	4	A	4:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

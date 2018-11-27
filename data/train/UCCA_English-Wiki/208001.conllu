@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 208001
+# text = Who Is Harry Kellerman and Why Is He Saying Those Terrible Things About Me ? ( 1971 ) , Straw Dogs ( also 1971 ) , and Papillon ( 1973 ) were followed by Lenny ( 1974 ) , for which Hoffman received his third nomination for Best Actor in seven years .
+1	Who	who	PRON	WP	_	33	A	33:A	_
+2	Is	be	AUX	VBZ	_	1	Terminal	1:Terminal	_
+3	Harry	Harry	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Kellerman	Kellerman	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	and	and	CCONJ	CC	_	1	Terminal	1:Terminal	_
+6	Why	why	ADV	WRB	_	1	Terminal	1:Terminal	_
+7	Is	be	AUX	VBZ	_	1	Terminal	1:Terminal	_
+8	He	he	PRON	PRP	_	1	Terminal	1:Terminal	_
+9	Saying	say	VERB	VBG	_	1	Terminal	1:Terminal	_
+10	Those	those	DET	DT	_	1	Terminal	1:Terminal	_
+11	Terrible	terrible	ADJ	JJ	_	1	Terminal	1:Terminal	_
+12	Things	thing	NOUN	NNS	_	1	Terminal	1:Terminal	_
+13	About	about	ADP	IN	_	1	Terminal	1:Terminal	_
+14	Me	I	PRON	PRP	_	1	Terminal	1:Terminal	_
+15	?	?	PUNCT	.	_	1	U	1:U	_
+16	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+17	1971	1971	NUM	CD	_	1	E	1:E	_
+18	)	)	PUNCT	-RRB-	_	1	U	1:U	_
+19	,	,	PUNCT	,	_	1	U	1:U	_
+20	Straw	Straw	PROPN	NNP	_	1	C	1:C	_
+21	Dogs	dog	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	(	(	PUNCT	-LRB-	_	20	U	20:U	_
+23	also	also	ADV	RB	_	24	R	24:R	_
+24	1971	1971	NUM	CD	_	20	E	20:E	_
+25	)	)	PUNCT	-RRB-	_	1	U	1:U	_
+26	,	,	PUNCT	,	_	1	U	1:U	_
+27	and	and	CCONJ	CC	_	1	N	1:N	_
+28	Papillon	Papillon	PROPN	NNP	_	1	C	1:C	_
+29	(	(	PUNCT	-LRB-	_	28	U	28:U	_
+30	1973	1973	NUM	CD	_	28	E	28:E	_
+31	)	)	PUNCT	-RRB-	_	33	U	33:U	_
+32	were	be	AUX	VBD	_	33	F	33:F	_
+33	followed	follow	VERB	VBN	_	0	H	0:H	_
+34	by	by	ADP	IN	_	35	R	35:R	_
+35	Lenny	Lenny	PROPN	NNP	_	33	A	33:A	_
+36	(	(	PUNCT	-LRB-	_	35	U	35:U	_
+37	1974	1974	NUM	CD	_	35	E	35:E	_
+38	)	)	PUNCT	-RRB-	_	35	U	35:U	_
+39	,	,	PUNCT	,	_	35	U	35:U	_
+40	for	for	ADP	IN	_	43	A	43:A	_
+41	which	which	PRON	WDT	_	43	F	43:F	_
+42	Hoffman	Hoffman	PROPN	NNP	_	43	A	43:A	_
+43	received	receive	VERB	VBD	_	35	E	35:E	_
+44	his	he	PRON	PRP$	_	46	E	46:E	_
+45	third	third	ADJ	JJ	_	46	E	46:E	_
+46	nomination	nomination	NOUN	NN	_	43	A	43:A	_
+47	for	for	ADP	IN	_	49	R	49:R	_
+48	Best	best	ADJ	JJS	_	49	E	49:E	_
+49	Actor	Actor	NOUN	NN	_	46	E	46:E	_
+50	in	in	ADP	IN	_	52	R	52:R	_
+51	seven	seven	NUM	CD	_	52	E	52:E	_
+52	years	year	NOUN	NNS	_	46	E	46:E	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

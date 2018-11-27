@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 642001
+# text = " His body was cremated at Ferncliff Cemetery in Hartsdale , New York .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	His	he	PRON	PRP$	_	3	E	3:E	_
+3	body	body	NOUN	NN	_	5	A	5:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	cremated	cremate	VERB	VBN	_	0	H	0:H	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	Ferncliff	Ferncliff	PROPN	NNP	_	8	E	8:E	_
+8	Cemetery	Cemetery	PROPN	NNP	_	5	A	5:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Hartsdale	Hartsdale	PROPN	NNP	_	5	A	5:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	New	New	PROPN	NNP	_	10	E	10:E	_
+13	York	York	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	10	U	10:U	_
+

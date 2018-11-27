@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25675015
+# text = » In der Tat « , sagte ich . » Und er hat Ihnen nichts Besonderes gesagt über ... «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Tat	Tat	NOUN	NN	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	Und	und	CCONJ	NE	_	4	L	4:L	_
+12	er	er	PRON	PPER	_	17	A	17:A	_
+13	hat	haben	AUX	VAFIN	_	17	F	17:F	_
+14	Ihnen	Sie|sie	PRON	PPER	_	17	A	17:A	_
+15	nichts	nichts	PRON	NN	_	17	D	17:D	_
+16	Besonderes	besonder	NOUN	NN	_	17	A	17:A	_
+17	gesagt	sagen	VERB	VVPP	_	4	H	4:H	_
+18	über	über	ADP	ADJD	_	17	A	17:A	_
+19	...	...	PUNCT	$(	_	17	U	17:U	_
+20	«	«	PUNCT	$(	_	17	U	17:U	_
+

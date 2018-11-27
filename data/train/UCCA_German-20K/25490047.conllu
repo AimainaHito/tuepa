@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25490047
+# text = « » Man wollte uns denn mästen ! « entgegnete Ned .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Man	man	PRON	PIS	_	7	A	7:A	_
+4	wollte	wollen	AUX	VMFIN	_	7	D	7:D	_
+5	uns	wir	PRON	NN	_	7	A	7:A	_
+6	denn	denn	ADV	KOKOM	_	7	F	7:F	_
+7	mästen	mäsen	VERB	NN	_	10	A	10:A	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

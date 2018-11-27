@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25814033
+# text = Der unveränderliche Umfang seiner Gewässer ist bedeutender als der aller Flüsse der Erde .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	unveränderliche	unveränderlich	ADJ	ADJA	_	3	E	3:E	_
+3	Umfang	Umfang	NOUN	NN	_	7	A	7:A	_
+4	seiner	sein	DET	PPOSAT	_	5	R	5:R	_
+5	Gewässer	Gewässer	NOUN	NN	_	3	E	3:E	_
+6	ist	sein	AUX	VVFIN	_	7	F	7:F	_
+7	bedeutender	bedeutend	ADJ	ADJA	_	0	H	0:H	_
+8	als	als	ADP	KOKOM	_	9	R	9:R	_
+9	der	der	DET	ART	_	7	A	7:A	_
+10	aller	alle	PRON	PIAT	_	11	E	11:E	_
+11	Flüsse	Fluß	NOUN	NN	_	9	E	9:E	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Erde	Erde	NOUN	NE	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

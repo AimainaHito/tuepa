@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 664002
+# text = With each following album , and her continual established fame and popularity , Carey began to take more initiative and control with her music , and started infusing more genres into her work .
+1	With	with	ADP	IN	_	4	L	4:L	_
+2	each	each	DET	DT	_	4	E	4:E	_
+3	following	follow	VERB	VBG	_	4	E	4:E	_
+4	album	album	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	her	she	PRON	PRP$	_	10	A	10:A	_
+8	continual	continual	ADJ	JJ	_	10	D	10:D	_
+9	established	establish	VERB	VBN	_	10	D	10:D	_
+10	fame	fame	NOUN	NN	_	4	H	4:H	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	popularity	popularity	NOUN	NN	_	10	C	10:C	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	Carey	Carey	PROPN	NNP	_	17	A	17:A|28:A	_
+15	began	begin	VERB	VBD	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	take	take	VERB	VB	_	4	H	4:H	_
+18	more	more	ADJ	JJR	_	19	E	19:E	_
+19	initiative	initiative	NOUN	NN	_	17	E	17:E	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	control	control	NOUN	NN	_	19	C	19:C	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	her	she	PRON	PRP$	_	24	E	24:E	_
+24	music	music	NOUN	NN	_	17	A	17:A	_
+25	,	,	PUNCT	,	_	4	U	4:U	_
+26	and	and	CCONJ	CC	_	4	L	4:L	_
+27	started	start	VERB	VBN	_	28	D	28:D	_
+28	infusing	infuse	VERB	VBG	_	4	H	4:H	_
+29	more	more	ADJ	JJR	_	30	E	30:E	_
+30	genres	genre	NOUN	NNS	_	28	A	28:A	_
+31	into	into	ADP	IN	_	33	R	33:R	_
+32	her	she	PRON	PRP$	_	33	E	33:E	_
+33	work	work	NOUN	NN	_	28	A	28:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

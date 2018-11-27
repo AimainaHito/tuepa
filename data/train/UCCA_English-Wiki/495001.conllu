@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 495001
+# text = The singer 's debut single , " Liza Jane " , credited to Davie Jones and the King Bees , had no commercial success .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	singer	singer	NOUN	NN	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	debut	debut	NOUN	NN	_	5	E	5:E	_
+5	single	single	ADJ	JJ	_	8	E	8:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	"	"	PUNCT	''	_	8	U	8:U	_
+8	Liza	Liza	PROPN	NNP	_	24	A	24:A	_
+9	Jane	Jane	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	"	"	PUNCT	''	_	8	U	8:U	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	credited	credit	VERB	VBD	_	8	E	8:E	_
+13	to	to	ADP	IN	_	14	R	14:R	_
+14	Davie	Davie	PROPN	NNP	_	12	A	12:A	_
+15	Jones	Jones	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	and	and	CCONJ	CC	_	14	N	14:N	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	King	King	PROPN	NNP	_	14	C	14:C	_
+19	Bees	bees	PROPN	NNPS	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	24	U	24:U	_
+21	had	have	VERB	VBD	_	24	F	24:F	_
+22	no	no	DET	DT	_	24	D	24:D	_
+23	commercial	commercial	ADJ	JJ	_	24	E	24:E	_
+24	success	success	NOUN	NN	_	0	H	0:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

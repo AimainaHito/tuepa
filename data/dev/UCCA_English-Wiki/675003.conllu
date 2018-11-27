@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 675003
+# text = However , a late 2011 release for a single never materialized .
+1	However	however	ADV	RB	_	11	L	11:L	_
+2	,	,	PUNCT	,	_	11	U	11:U	_
+3	a	a	DET	DT	_	6	E	6:E	_
+4	late	late	ADJ	JJ	_	6	E	6:E	_
+5	2011	2011	NUM	CD	_	6	E	6:E	_
+6	release	release	NOUN	NN	_	11	A	11:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	single	single	ADJ	JJ	_	6	E	6:E	_
+10	never	never	ADV	RB	_	11	D	11:D	_
+11	materialized	materialize	VERB	VBN	_	0	H	0:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

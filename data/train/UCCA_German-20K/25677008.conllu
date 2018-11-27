@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25677008
+# text = Darauf tut man sie in ungeheure Behälter voll Meer wasser , öffnet und wäscht sie .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	tut	tuen	VERB	VVFIN	_	0	H	0:H	_
+3	man	man	PRON	PIS	_	2	A	2:A|14:A|12:A	_
+4	sie	sie	PRON	TRUNC	_	2	A	2:A|12:A	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	ungeheure	ungeheuer	ADJ	ADJA	_	7	E	7:E	_
+7	Behälter	Behälter	NOUN	NN	_	2	A	2:A	_
+8	voll	voll	ADJ	VMFIN	_	10	E	10:E	_
+9	Meer	Meer	NOUN	NN	_	10	E	10:E	_
+10	wasser	wass	ADJ	NN	_	7	E	7:E	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	öffnet	öffnen	VERB	VVFIN	_	2	H	2:H	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	wäscht	waschen	VERB	VVFIN	_	2	H	2:H	_
+15	sie	sie	PRON	ADV	_	14	A	14:A	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

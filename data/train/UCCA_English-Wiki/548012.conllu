@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 548012
+# text = Another factor was that Logan was able to manipulate Warner 's ego to persuade him from cutting the screenplay 's length , despite the fact that the studio executive had already agreed with the film 's unofficial producer , Joel Freeman , that it was overlong .
+1	Another	another	DET	DT	_	2	R	2:R	_
+2	factor	factor	NOUN	NN	_	9	L	9:L	_
+3	was	be	VERB	VBD	_	2	F	2:F	_
+4	that	that	SCONJ	IN	_	9	F	9:F	_
+5	Logan	Logan	PROPN	NNP	_	9	A	9:A|14:A	_
+6	was	be	AUX	VBD	_	9	F	9:F	_
+7	able	able	ADJ	JJ	_	9	E	9:E	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	manipulate	manipulate	VERB	VB	_	0	H	0:H	_
+10	Warner	Warner	PROPN	NNP	_	0	C	0:C|17:A	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	ego	ego	NOUN	NN	_	9	A	9:A	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	persuade	persuade	VERB	VB	_	9	A	9:A	_
+15	him	he	PRON	PRP	_	14	A	14:A	_
+16	from	from	SCONJ	IN	_	17	F	17:F	_
+17	cutting	cut	VERB	VBG	_	14	A	14:A	_
+18	the	the	DET	DT	_	21	E	21:E	_
+19	screenplay	screenplay	NOUN	NN	_	21	E	21:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	length	length	NOUN	NN	_	17	A	17:A	_
+22	,	,	PUNCT	,	_	9	U	9:U	_
+23	despite	despite	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	fact	fact	NOUN	NN	_	9	L	9:L	_
+26	that	that	SCONJ	IN	_	32	F	32:F	_
+27	the	the	DET	DT	_	29	E	29:E	_
+28	studio	studio	NOUN	NN	_	29	E	29:E	_
+29	executive	executive	ADJ	JJ	_	32	A	32:A	_
+30	had	have	AUX	VBD	_	32	F	32:F	_
+31	already	already	ADV	RB	_	32	D	32:D	_
+32	agreed	agree	VERB	VBN	_	9	H	9:H	_
+33	with	with	ADP	IN	_	40	R	40:R	_
+34	the	the	DET	DT	_	38	E	38:E	_
+35	film	film	NOUN	NN	_	38	E	38:E	_
+36	's	's	PART	POS	_	35	R	35:R	_
+37	unofficial	unofficial	ADJ	JJ	_	38	E	38:E	_
+38	producer	producer	NOUN	NN	_	40	E	40:E	_
+39	,	,	PUNCT	,	_	40	U	40:U	_
+40	Joel	Joel	PROPN	NNP	_	32	A	32:A	_
+41	Freeman	Freeman	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	,	,	PUNCT	,	_	32	U	32:U	_
+43	that	that	SCONJ	IN	_	46	F	46:F	_
+44	it	it	PRON	PRP	_	46	A	46:A	_
+45	was	be	AUX	VBD	_	46	F	46:F	_
+46	overlong	overlong	ADJ	JJ	_	32	A	32:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

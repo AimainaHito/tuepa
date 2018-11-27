@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 124005
+# text = Knopf decided to produce The Big Pond in New York and called for Hepburn to be the understudy to the leading lady .
+1	Knopf	Knopf	PROPN	NNP	_	2	A	2:A|4:A|12:A	_
+2	decided	decide	VERB	VBD	_	0	H	0:H	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	produce	produce	VERB	VB	_	2	A	2:A	_
+5	The	the	DET	DT	_	4	A	4:A	_
+6	Big	Big	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Pond	Pond	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	New	New	PROPN	NNP	_	4	A	4:A	_
+10	York	York	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	called	call	VERB	VBN	_	2	H	2:H	_
+13	for	for	ADP	IN	_	12	F	12:F	_
+14	Hepburn	Hepburn	PROPN	NNP	_	12	A	12:A|16:A	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	be	be	AUX	VB	_	12	A	12:A	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	understudy	understudy	NOUN	NN	_	16	A	16:A	_
+19	to	to	ADP	IN	_	22	R	22:R	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	leading	leading	NOUN	NN	_	22	E	22:E	_
+22	lady	lady	NOUN	NN	_	18	E	18:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

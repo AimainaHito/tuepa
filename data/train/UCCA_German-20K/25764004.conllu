@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25764004
+# text = Lediglich die Treibkraft des Fahrzeugs bahnte ihm die Durchfahrt .
+1	Lediglich	lediglich	ADV	ADV	_	6	G	6:G	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Treibkraft	Treibkraft	NOUN	NN	_	6	A	6:A	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Fahrzeugs	Fahrzeug	NOUN	NN	_	0	C	0:C|9:A	_
+6	bahnte	bahnen	VERB	VVFIN	_	0	H	0:H	_
+7	ihm	er	PRON	PPER	_	6	A	6:A	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Durchfahrt	Durchfahrt	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

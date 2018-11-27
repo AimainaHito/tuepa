@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 556008
+# text = He knew all of Hank Snow 's songs and he loved records by other country singers such as Roy Acuff , Ernest Tubb , Ted Daffan , Jimmie Rodgers , Jimmie Davis , and Bob Wills .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	knew	know	VERB	VBD	_	0	H	0:H	_
+3	all	all	DET	DT	_	8	E	8:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	Hank	Hank	PROPN	NNP	_	8	E	8:E	_
+6	Snow	snow	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	songs	song	NOUN	NNS	_	2	A	2:A	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	loved	love	VERB	VBD	_	2	H	2:H	_
+12	records	record	NOUN	NNS	_	11	A	11:A	_
+13	by	by	ADP	IN	_	16	R	16:R	_
+14	other	other	ADJ	JJ	_	16	E	16:E	_
+15	country	country	NOUN	NN	_	16	E	16:E	_
+16	singers	singer	NOUN	NNS	_	12	E	12:E	_
+17	such	such	ADJ	JJ	_	19	R	19:R	_
+18	as	as	ADP	IN	_	17	Terminal	17:Terminal	_
+19	Roy	Roy	PROPN	NNP	_	16	E	16:E	_
+20	Acuff	Acuff	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	19	U	19:U	_
+22	Ernest	Ernest	PROPN	NNP	_	19	C	19:C	_
+23	Tubb	Tubb	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	19	U	19:U	_
+25	Ted	Ted	PROPN	NNP	_	19	C	19:C	_
+26	Daffan	Daffan	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	19	U	19:U	_
+28	Jimmie	Jimmie	PROPN	NNP	_	19	C	19:C	_
+29	Rodgers	Rodgers	PROPN	NNPS	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	19	U	19:U	_
+31	Jimmie	Jimmie	PROPN	NNP	_	19	C	19:C	_
+32	Davis	Davis	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	,	,	PUNCT	,	_	19	U	19:U	_
+34	and	and	CCONJ	CC	_	19	N	19:N	_
+35	Bob	Bob	PROPN	NNP	_	19	C	19:C	_
+36	Wills	Wills	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	.	.	PUNCT	.	_	19	U	19:U	_
+

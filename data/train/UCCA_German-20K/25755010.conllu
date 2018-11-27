@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25755010
+# text = » 625 « , wiederholte Ned .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	625	625	NUM	CARD	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	wiederholte	wiederholen	VERB	VVFIN	_	0	H	0:H	_
+6	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25672004
+# text = Als die Lage aufgenommen war , begab ich mich wieder in den Salon und erkannte auf der Karte , dass wir im Angesicht der Insel Ceylon waren , dieser Perle an der unteren Spitze der indischen Halbinsel .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Lage	Lage	NOUN	NN	_	4	A	4:A	_
+4	aufgenommen	aufnehmen	VERB	VVFIN	_	0	H	0:H	_
+5	war	sein	AUX	ADV	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	begab	begeben	VERB	VVFIN	_	4	H	4:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A|15:A	_
+9	mich	ich	PRON	PRF	_	7	Terminal	7:Terminal	_
+10	wieder	wieder	ADV	NE	_	7	D	7:D	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Salon	Salon	NOUN	NN	_	7	A	7:A	_
+14	und	und	CCONJ	NE	_	4	L	4:L	_
+15	erkannte	erkennen	VERB	VVFIN	_	4	H	4:H	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Karte	Karte	NOUN	NN	_	15	A	15:A	_
+19	,	,	PUNCT	$,	_	15	U	15:U	_
+20	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+21	wir	wir	PRON	NE	_	22	A	22:A	_
+22	im	im	ADV	NE	_	15	A	15:A	_
+23	Angesicht	Angesicht	NOUN	NE	_	22	Terminal	22:Terminal	_
+24	der	der	DET	ART	_	26	R	26:R	_
+25	Insel	Insel	NOUN	NN	_	26	E	26:E	_
+26	Ceylon	Ceylon	PROPN	NE	_	22	A	22:A	_
+27	waren	sein	AUX	VAFIN	_	22	F	22:F	_
+28	,	,	PUNCT	$,	_	22	U	22:U	_
+29	dieser	dies	PRON	PDS	_	30	E	30:E	_
+30	Perle	Perl	NOUN	NE	_	26	E	26:E	_
+31	an	an	ADP	APPR	_	34	R	34:R	_
+32	der	der	DET	ART	_	34	R	34:R	_
+33	unteren	unter	ADJ	ADJA	_	34	E	34:E	_
+34	Spitze	Spitze	NOUN	NN	_	30	E	30:E	_
+35	der	der	DET	ART	_	36	R	36:R	_
+36	indischen	indisch	ADJ	ADJA	_	34	A	34:A	_
+37	Halbinsel	Halbinsel	NOUN	NN	_	36	E	36:E	_
+38	.	.	PUNCT	$.	_	36	U	36:U	_
+

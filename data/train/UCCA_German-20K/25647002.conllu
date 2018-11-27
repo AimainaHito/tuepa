@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25647002
+# text = Nein ! Ich konnte nicht Gegenstand des Hasses sein , denn er sah mich nicht an , und sein Auge blieb unverwandt auf den undurchdringlichen Punkt des Horizonts gerichtet .
+1	Nein	nein	PART	PTKANT	_	0	H	0:H	_
+2	!	!	PUNCT	$.	_	1	U	1:U	_
+3	Ich	ich	PRON	PPER	_	9	A	9:A	_
+4	konnte	können	AUX	VMFIN	_	9	D	9:D	_
+5	nicht	nicht	PART	XY	_	9	D	9:D	_
+6	Gegenstand	Gegenstand	NOUN	NN	_	9	A	9:A	_
+7	des	der	DET	ART	_	6	R	6:R	_
+8	Hasses	Haß	NOUN	NN	_	6	E	6:E	_
+9	sein	sein	AUX	VAINF	_	1	H	1:H	_
+10	,	,	PUNCT	$,	_	1	U	1:U	_
+11	denn	denn	SCONJ	KON	_	1	L	1:L	_
+12	er	er	PRON	PPER	_	13	A	13:A	_
+13	sah	sehen	VERB	VVFIN	_	1	H	1:H	_
+14	mich	ich	PRON	PRF	_	13	A	13:A	_
+15	nicht	nicht	PART	XY	_	13	D	13:D	_
+16	an	an	PART	PTKVZ	_	13	Terminal	13:Terminal	_
+17	,	,	PUNCT	$,	_	1	U	1:U	_
+18	und	und	CCONJ	NE	_	1	L	1:L	_
+19	sein	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Auge	Auge	NOUN	NN	_	29	A	29:A	_
+21	blieb	bleiben	AUX	VVFIN	_	29	D	29:D	_
+22	unverwandt	unverwandt	ADJ	NE	_	29	D	29:D	_
+23	auf	auf	ADP	APPR	_	26	R	26:R	_
+24	den	der	DET	ART	_	26	E	26:E	_
+25	undurchdringlichen	undurchdringlich	ADJ	ADJA	_	26	E	26:E	_
+26	Punkt	Punkt	NOUN	NN	_	29	A	29:A	_
+27	des	der	DET	ART	_	28	R	28:R	_
+28	Horizonts	Horizont	NOUN	NN	_	26	E	26:E	_
+29	gerichtet	richten	VERB	VVPP	_	1	H	1:H	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

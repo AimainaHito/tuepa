@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25763000
+# text = So fuhr die ›Nautilus‹ , durch seine geschickte Hand geleitet , durch alle diese Eisberge , unendliche Eisflächen und schwimmende Treibeisblöcke .
+1	So	so	ADV	ADV	_	2	D	2:D	_
+2	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|10:A	_
+5	,	,	PUNCT	$,	_	10	U	10:U	_
+6	durch	durch	ADP	APPR	_	9	R	9:R	_
+7	seine	sein	DET	PPOSAT	_	9	E	9:E	_
+8	geschickte	geschickt	ADJ	ADJA	_	9	E	9:E	_
+9	Hand	Hand	NOUN	NN	_	10	A	10:A	_
+10	geleitet	geleiten|leiten	VERB	VVPP	_	2	H	2:H	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	durch	durch	ADP	APPR	_	15	R	15:R	_
+13	alle	alle	PRON	PIAT	_	15	E	15:E	_
+14	diese	dies	PRON	PDAT	_	15	E	15:E	_
+15	Eisberge	Eisberg	NOUN	NN	_	2	A	2:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	unendliche	unendlich	ADJ	ADJA	_	15	C	15:C	_
+18	Eisflächen	Eisflächen	NOUN	NE	_	17	A	17:A	_
+19	und	und	CCONJ	NE	_	15	N	15:N	_
+20	schwimmende	schwimmend	ADJ	ADJA	_	15	C	15:C	_
+21	Treibeisblöcke	Treibeisblock	NOUN	NN	_	20	A	20:A	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

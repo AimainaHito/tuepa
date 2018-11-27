@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25611004
+# text = Die " Recherche " warf , nachdem sie an verschiedenen anderen Punkten angehalten , am 7 . Juli 1827 vor Vanikoro Anker in demselben Hafen Vanou , wo die " Nautilus " eben lag .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Recherche	Recherche	PROPN	NE	_	5	A	5:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	warf	werfen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	nachdem	nachdem	SCONJ	XY	_	5	L	5:L	_
+8	sie	sie	PRON	TRUNC	_	13	A	13:A	_
+9	an	an	ADP	APPR	_	12	R	12:R	_
+10	verschiedenen	verschieden	ADJ	ADJA	_	12	E	12:E	_
+11	anderen	ander	ADJ	ADJA	_	12	E	12:E	_
+12	Punkten	Punkt	NOUN	NN	_	13	A	13:A	_
+13	angehalten	anhalten	VERB	VVPP	_	5	H	5:H	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	am	ommen	VERB	ADJD	_	16	E	16:E	_
+16	7	7	NUM	CARD	_	5	D	5:D	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+18	Juli	Juli	PROPN	NN	_	16	Terminal	16:Terminal	_
+19	1827	1827	NUM	CARD	_	16	Terminal	16:Terminal	_
+20	vor	vor	ADP	NE	_	21	R	21:R	_
+21	Vanikoro	Vanikoro	PROPN	NE	_	5	A	5:A	_
+22	Anker	Anker	NOUN	NE	_	5	Terminal	5:Terminal	_
+23	in	in	ADP	APPR	_	26	R	26:R	_
+24	demselben	derselbe	PRON	PDAT	_	26	E	26:E	_
+25	Hafen	Hafen	NOUN	NN	_	26	E	26:E|34:A	_
+26	Vanou	Vanou	PROPN	NE	_	5	A	5:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	wo	wo	ADV	ADJA	_	34	R	34:R	_
+29	die	der	DET	ART	_	31	E	31:E	_
+30	"	"	PUNCT	$(	_	31	U	31:U	_
+31	Nautilus	Nautilus	PROPN	NE	_	34	A	34:A	_
+32	"	"	PUNCT	$(	_	34	U	34:U	_
+33	eben	eben	ADV	ADV	_	34	D	34:D	_
+34	lag	liegen	VERB	VVFIN	_	26	E	26:E	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

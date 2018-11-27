@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25488026
+# text = » Die Fregatte ! « erwiderte Conseil , indem er sich wieder auf den Rücken legte ; ich glaube , mein Herr wird wohltun , nicht allzuviel auf sie zu rechnen !
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Fregatte	Fregatte	NOUN	NN	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	NOUN	NE	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	indem	indem	SCONJ	KOUS	_	6	L	6:L	_
+10	er	er	PRON	PPER	_	11	A	11:A	_
+11	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+12	wieder	wieder	ADV	NN	_	11	D	11:D	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Rücken	Rücken	NOUN	NN	_	11	A	11:A	_
+16	legte	legen	VERB	VVFIN	_	11	Terminal	11:Terminal	_
+17	;	;	PUNCT	$.	_	6	U	6:U	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	glaube	glauben	VERB	VVFIN	_	6	H	6:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	mein	mein	PRON	PPOSAT	_	22	E	22:E	_
+22	Herr	Herr	NOUN	NN	_	24	A	24:A	_
+23	wird	werden	AUX	VAFIN	_	24	F	24:F	_
+24	wohltun	wohltun	ADV	ADJD	_	19	A	19:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	nicht	nicht	PART	CARD	_	31	D	31:D	_
+27	allzuviel	allzuviel	ADV	ADV	_	31	D	31:D	_
+28	auf	auf	ADP	APPR	_	29	R	29:R	_
+29	sie	sie	PRON	ADV	_	31	A	31:A	_
+30	zu	zu	PART	VVINF	_	31	F	31:F	_
+31	rechnen	rechnen	VERB	VVINF	_	24	A	24:A	_
+32	!	!	PUNCT	$.	_	31	U	31:U	_
+

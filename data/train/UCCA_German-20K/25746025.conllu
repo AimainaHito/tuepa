@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25746025
+# text = Die Gewässer dieser großen Strömung bilden inmitten des Atlantiks einen wahren See und brauchen nicht weniger als 3 Jahre Zeit , um ihn ganz zu durchlaufen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Gewässer	Gewässer	NOUN	NN	_	0	C	0:C|16:A|26:A	_
+3	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+4	großen	groß	ADJ	ADJA	_	5	E	5:E	_
+5	Strömung	Strömung	NOUN	NN	_	2	E	2:E	_
+6	bilden	bilden	VERB	VVFIN	_	0	H	0:H	_
+7	inmitten	inmitten	ADP	APPR	_	9	R	9:R	_
+8	des	der	DET	ART	_	9	E	9:E	_
+9	Atlantiks	Atlantiks	NOUN	NE	_	6	A	6:A	_
+10	einen	ein	DET	ART	_	12	E	12:E	_
+11	wahren	wahr	ADJ	ADJA	_	12	E	12:E	_
+12	See	See	NOUN	NE	_	6	A	6:A	_
+13	und	und	CCONJ	NE	_	6	L	6:L	_
+14	brauchen	brauchen	VERB	VVFIN	_	16	D	16:D	_
+15	nicht	nicht	PART	XY	_	16	D	16:D	_
+16	weniger	wenig	ADV	ADV	_	6	H	6:H	_
+17	als	als	ADP	KOKOM	_	19	R	19:R	_
+18	3	3	NUM	CARD	_	19	E	19:E	_
+19	Jahre	Jahr	NOUN	NN	_	16	A	16:A	_
+20	Zeit	Zeit	NOUN	NN	_	16	A	16:A	_
+21	,	,	PUNCT	$,	_	6	U	6:U	_
+22	um	um	ADP	KOUI	_	26	R	26:R	_
+23	ihn	er	PRON	PPER	_	26	A	26:A	_
+24	ganz	ganz	ADJ	ADV	_	26	D	26:D	_
+25	zu	zu	PART	VVINF	_	26	F	26:F	_
+26	durchlaufen	durchlaufen	VERB	VVINF	_	6	H	6:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

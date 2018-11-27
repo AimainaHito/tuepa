@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 663003
+# text = Daydream became her biggest - selling album in the United States , and became her second album to be certified Diamond by the RIAA , following Music Box .
+1	Daydream	Daydream	PROPN	NNP	_	2	A	2:A|14:A	_
+2	became	become	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	7	E	7:E	_
+4	biggest	biggest	ADJ	JJS	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	selling	sell	VERB	VBG	_	7	E	7:E	_
+7	album	album	NOUN	NN	_	2	A	2:A	_
+8	in	in	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	United	United	PROPN	NNP	_	7	E	7:E	_
+11	States	States	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	and	and	CCONJ	CC	_	2	L	2:L	_
+14	became	become	VERB	VBD	_	2	H	2:H	_
+15	her	she	PRON	PRP$	_	17	E	17:E	_
+16	second	second	ADJ	JJ	_	17	E	17:E	_
+17	album	album	NOUN	NN	_	14	A	14:A	_
+18	to	to	PART	TO	_	20	F	20:F	_
+19	be	be	AUX	VB	_	20	F	20:F	_
+20	certified	certify	VERB	VBN	_	0	S	0:S|27:S	_
+21	Diamond	Diamond	PROPN	NNP	_	20	A	20:A	_
+22	by	by	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	RIAA	RIAa	NOUN	NN	_	20	A	20:A	_
+25	,	,	PUNCT	,	_	2	U	2:U	_
+26	following	follow	VERB	VBG	_	2	L	2:L	_
+27	Music	music	ADJ	JJ	_	2	H	2:H	_
+28	Box	Box	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

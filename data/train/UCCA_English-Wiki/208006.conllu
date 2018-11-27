@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 208006
+# text = Hoffman next starred in Robert Benton 's Kramer vs . Kramer ( 1979 ) as workaholic Ted Kramer whose wife ( Meryl Streep ) unexpectedly leaves him ; he raises their son alone .
+1	Hoffman	Hoffman	PROPN	NNP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	8	R	8:R	_
+5	Robert	Robert	PROPN	NNP	_	8	E	8:E	_
+6	Benton	Benton	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	Kramer	Kramer	PROPN	NNP	_	3	A	3:A	_
+9	vs	v	PROPN	NNPS	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+11	Kramer	Kramer	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+13	1979	1979	NUM	CD	_	8	E	8:E	_
+14	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+15	as	as	ADP	IN	_	17	R	17:R	_
+16	workaholic	workaholic	ADJ	JJ	_	17	E	17:E	_
+17	Ted	Ted	PROPN	NNP	_	3	A	3:A	_
+18	Kramer	Kramer	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	whose	whose	PRON	WP$	_	26	F	26:F	_
+20	wife	wife	NOUN	NN	_	26	A	26:A	_
+21	(	(	PUNCT	-LRB-	_	20	U	20:U	_
+22	Meryl	Meryl	PROPN	NNP	_	20	E	20:E	_
+23	Streep	Streep	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	)	)	PUNCT	-RRB-	_	26	U	26:U	_
+25	unexpectedly	unexpectedly	ADV	RB	_	26	D	26:D	_
+26	leaves	leave	VERB	VBZ	_	17	E	17:E	_
+27	him	he	PRON	PRP	_	26	A	26:A	_
+28	;	;	PUNCT	,	_	3	U	3:U	_
+29	he	he	PRON	PRP	_	30	A	30:A	_
+30	raises	raise	VERB	VBZ	_	3	H	3:H	_
+31	their	they	PRON	PRP$	_	32	E	32:E	_
+32	son	son	NOUN	NN	_	30	A	30:A	_
+33	alone	alone	ADV	RB	_	30	D	30:D	_
+34	.	.	PUNCT	.	_	30	U	30:U	_
+

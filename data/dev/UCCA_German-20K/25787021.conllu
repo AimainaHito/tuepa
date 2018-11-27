@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25787021
+# text = Bleiben wir beisammen , bis wir aus der Sackgasse wieder heraus sind . «
+1	Bleiben	bleiben	AUX	VVFIN	_	0	H	0:H	_
+2	wir	wir	PRON	NE	_	1	F	1:F	_
+3	beisammen	beisammen	VERB	VVINF	_	1	D	1:D	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	bis	bis	SCONJ	APPR	_	1	L	1:L	_
+6	wir	wir	PRON	NE	_	11	A	11:A	_
+7	aus	aus	ADP	APPR	_	9	R	9:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Sackgasse	Sackgasse	NOUN	NN	_	11	A	11:A	_
+10	wieder	wieder	ADV	TRUNC	_	11	D	11:D	_
+11	heraus	heraus	ADV	ADV	_	1	H	1:H	_
+12	sind	sein	VERB	NN	_	11	F	11:F	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+14	«	«	PUNCT	$(	_	11	U	11:U	_
+

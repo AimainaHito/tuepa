@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 128004
+# text = It is widely considered one of her worst films , and Hepburn received poor reviews for the effort .
+1	It	it	PRON	PRP	_	4	A	4:A	_
+2	is	be	AUX	VBZ	_	4	F	4:F	_
+3	widely	widely	ADV	RB	_	4	D	4:D	_
+4	considered	consider	VERB	VBN	_	0	H	0:H	_
+5	one	one	NUM	CD	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	her	she	PRON	PRP$	_	8	E	8:E	_
+8	worst	worst	ADJ	JJS	_	9	E	9:E	_
+9	films	film	NOUN	NNS	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	and	and	CCONJ	CC	_	4	L	4:L	_
+12	Hepburn	Hepburn	PROPN	NNP	_	13	A	13:A	_
+13	received	receive	VERB	VBD	_	4	H	4:H	_
+14	poor	poor	ADJ	JJ	_	15	E	15:E	_
+15	reviews	review	NOUN	NNS	_	13	A	13:A	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	effort	effort	NOUN	NN	_	13	A	13:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25610012
+# text = Aber d'Entrecasteaux , der von dieser - zudem ziemlich unbestimmten - Mitteilung nichts wusste , fuhr in der Richtung der Admiralitätsinseln , die in einem Bericht des Kapitäns Hunter als die Gegend des Schiffbruchs La Pérouses bezeichnet waren .
+1	Aber	aber	PROPN	KON	_	16	L	16:L	_
+2	d'Entrecasteaux	d'Entrecasteaux	PROPN	NE	_	16	A	16:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	der	der	PRON	ART	_	14	R	14:R	_
+5	von	von	ADP	NE	_	12	R	12:R	_
+6	dieser	dies	PRON	PDAT	_	12	E	12:E	_
+7	-	-	PUNCT	$(	_	12	U	12:U	_
+8	zudem	zudem	ADV	PAV	_	12	E	12:E	_
+9	ziemlich	ziemlich	ADV	ADV	_	10	E	10:E	_
+10	unbestimmten	unbestimmt	ADJ	ADJA	_	12	E	12:E	_
+11	-	-	PUNCT	$(	_	12	U	12:U	_
+12	Mitteilung	Mitteilung	NOUN	NN	_	14	A	14:A	_
+13	nichts	nichts	PRON	NE	_	14	D	14:D	_
+14	wusste	wissen	VERB	VVFIN	_	2	E	2:E	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Richtung	Richtung	NOUN	NN	_	16	A	16:A	_
+20	der	der	DET	ART	_	21	R	21:R	_
+21	Admiralitätsinseln	Admiralitätsinsel	PROPN	NN	_	19	E	19:E	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	die	der	PRON	PRELS	_	37	R	37:R	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	einem	ein	DET	ART	_	26	E	26:E	_
+26	Bericht	Bericht	NOUN	NN	_	37	A	37:A	_
+27	des	der	DET	ART	_	29	R	29:R	_
+28	Kapitäns	Kapitän	NOUN	NE	_	29	E	29:E	_
+29	Hunter	Hunter	PROPN	NE	_	26	E	26:E	_
+30	als	als	ADP	KOKOM	_	34	R	34:R	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Gegend	Gegend	NOUN	NN	_	34	E	34:E	_
+33	des	der	DET	ART	_	32	R	32:R	_
+34	Schiffbruchs	Schiffbruch	NOUN	NN	_	37	A	37:A	_
+35	La	La	PROPN	NE	_	34	E	34:E	_
+36	Pérouses	Pérous	PROPN	NN	_	35	Terminal	35:Terminal	_
+37	bezeichnet	bezeichnen	VERB	VVPP	_	21	E	21:E	_
+38	waren	sein	AUX	VAFIN	_	37	F	37:F	_
+39	.	.	PUNCT	$.	_	37	U	37:U	_
+

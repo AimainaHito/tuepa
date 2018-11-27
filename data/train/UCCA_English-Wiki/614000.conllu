@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 614000
+# text = McCartney 's vocals cross several musical genres .
+1	McCartney	McCartney	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	vocals	vocal	NOUN	NNS	_	4	A	4:A	_
+4	cross	cross	VERB	VBP	_	0	H	0:H	_
+5	several	several	ADJ	JJ	_	7	E	7:E	_
+6	musical	musical	ADJ	JJ	_	7	E	7:E	_
+7	genres	genre	NOUN	NNS	_	4	A	4:A	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

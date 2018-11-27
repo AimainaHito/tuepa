@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 698007
+# text = Dylan undertook a world tour of Australia and Europe in early 1966 .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A	_
+2	undertook	undertake	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	world	world	NOUN	NN	_	5	E	5:E	_
+5	tour	tour	NOUN	NN	_	2	A	2:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Australia	Australia	PROPN	NNP	_	5	E	5:E	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	Europe	Europe	PROPN	NNP	_	7	C	7:C	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	early	early	ADJ	JJ	_	12	E	12:E	_
+12	1966	1966	NUM	CD	_	2	D	2:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

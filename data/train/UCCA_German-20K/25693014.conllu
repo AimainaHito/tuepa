@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25693014
+# text = Wie hatte ich da nur Musterstücke der unterseeischen Flora und Fauna beim Licht unserer elektrischen Leuchte zu bewundern !
+1	Wie	wie	ADV	KON	_	18	D	18:D	_
+2	hatte	haben	VERB	VAFIN	_	18	F	18:F	_
+3	ich	ich	PRON	PPER	_	18	A	18:A	_
+4	da	da	ADV	ADV	_	18	D	18:D	_
+5	nur	nur	ADV	NN	_	18	D	18:D	_
+6	Musterstücke	Musterstücke	NOUN	NN	_	18	A	18:A	_
+7	der	der	DET	ART	_	9	R	9:R	_
+8	unterseeischen	unterseeisch	ADJ	ADJA	_	9	E	9:E	_
+9	Flora	Flora	PROPN	NE	_	6	E	6:E	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	Fauna	Fauna	PROPN	NE	_	9	C	9:C	_
+12	beim	beim	ADJ	NE	_	13	R	13:R	_
+13	Licht	Licht	NOUN	NN	_	18	A	18:A	_
+14	unserer	unser	PRON	PPOSAT	_	16	E	16:E	_
+15	elektrischen	elektrisch	ADJ	ADJA	_	16	E	16:E	_
+16	Leuchte	Leucht	NOUN	NN	_	13	E	13:E	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	bewundern	bewundern	VERB	VVINF	_	0	H	0:H	_
+19	!	!	PUNCT	$.	_	18	U	18:U	_
+

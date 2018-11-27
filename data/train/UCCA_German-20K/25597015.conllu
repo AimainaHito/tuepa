@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25597015
+# text = Es war ein prächtiger Seeotter , das einzige vierfüßige , nur im Meer lebende Tier .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	5	E	5:E	_
+4	prächtiger	prächtig	ADJ	ADJA	_	5	E	5:E	_
+5	Seeotter	Seeotter	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	das	der	PRON	ART	_	15	E	15:E	_
+8	einzige	einzig	ADJ	ADJA	_	15	E	15:E	_
+9	vierfüßige	vierfüßige	PRON	ADJA	_	15	E	15:E	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	nur	nur	ADV	NE	_	14	D	14:D	_
+12	im	im	ADJ	NE	_	13	R	13:R	_
+13	Meer	Meer	NOUN	NN	_	14	A	14:A	_
+14	lebende	lebend	ADJ	ADJA	_	9	E	9:E	_
+15	Tier	Tier	NOUN	NN	_	2	A	2:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

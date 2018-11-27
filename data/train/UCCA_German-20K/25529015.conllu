@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25529015
+# text = » Nein « , erwiderte ich , » denn das Aquarium ist ein Gefängnis , und diese Fische da sind frei wie die Vögel in der Luft .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PART	PTKANT	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	denn	denn	SCONJ	KON	_	2	L	2:L	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Aquarium	Aquarium	NOUN	NN	_	12	A	12:A	_
+12	ist	sein	AUX	VVFIN	_	2	H	2:H	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Gefängnis	Gefängnis	NOUN	NN	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	diese	dies	PRON	PDAT	_	18	E	18:E	_
+18	Fische	Fisch	NOUN	NN	_	21	A	21:A	_
+19	da	da	ADV	ADV	_	21	A	21:A	_
+20	sind	sein	AUX	NN	_	21	F	21:F	_
+21	frei	frei	ADJ	ADJD	_	2	H	2:H	_
+22	wie	wie	ADP	ADV	_	24	R	24:R	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Vögel	Vogel	NOUN	NN	_	21	A	21:A	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	der	der	DET	ART	_	27	E	27:E	_
+27	Luft	Luft	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

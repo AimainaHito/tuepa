@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 381006
+# text = Gyllenhaal himself is the godfather of Matilda Rose Ledger ( born October 28 , 2005 ) , daughter of Heath Ledger and Michelle Williams , both of whom co - starred with him in Brokeback Mountain .
+1	Gyllenhaal	Gyllenhaal	ADJ	JJ	_	3	A	3:A	_
+2	himself	himself	PRON	PRP	_	3	D	3:D	_
+3	is	be	AUX	VBZ	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	godfather	godfather	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Matilda	Matilda	PROPN	NNP	_	5	E	5:E	_
+8	Rose	Rose	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Ledger	ledger	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+11	born	bear	VERB	VBN	_	7	E	7:E	_
+12	October	October	PROPN	NNP	_	15	E	15:E	_
+13	28	28	NUM	CD	_	15	E	15:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	2005	2005	NUM	CD	_	11	D	11:D	_
+16	)	)	PUNCT	-RRB-	_	7	U	7:U	_
+17	,	,	PUNCT	,	_	7	U	7:U	_
+18	daughter	daughter	NOUN	NN	_	7	E	7:E	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	Heath	Heath	PROPN	NNP	_	18	A	18:A	_
+21	Ledger	ledger	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	and	and	CCONJ	CC	_	20	N	20:N	_
+23	Michelle	Michelle	PROPN	NNP	_	20	C	20:C	_
+24	Williams	Williams	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	20	U	20:U	_
+26	both	both	CCONJ	CC	_	31	A	31:A	_
+27	of	of	ADP	IN	_	26	F	26:F	_
+28	whom	whom	PRON	WP	_	26	F	26:F	_
+29	co	co	X	AFX	_	31	E	31:E	_
+30	-	-	PUNCT	HYPH	_	31	U	31:U	_
+31	starred	star	VERB	VBN	_	20	E	20:E	_
+32	with	with	ADP	IN	_	33	R	33:R	_
+33	him	he	PRON	PRP	_	31	A	31:A	_
+34	in	in	ADP	IN	_	35	R	35:R	_
+35	Brokeback	Brokeback	PROPN	NNP	_	31	A	31:A	_
+36	Mountain	Mountain	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	.	.	PUNCT	.	_	35	U	35:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 520004
+# text = Garland 's ancestry on both sides of her family can be traced back to the early colonial days of the United States .
+1	Garland	Garland	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	ancestry	ancestry	NOUN	NN	_	12	A	12:A	_
+4	on	on	ADP	IN	_	6	R	6:R	_
+5	both	both	DET	DT	_	6	E	6:E	_
+6	sides	side	NOUN	NNS	_	3	D	3:D	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	family	family	NOUN	NN	_	6	E	6:E	_
+10	can	can	AUX	MD	_	12	D	12:D	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	traced	trace	VERB	VBN	_	0	H	0:H	_
+13	back	back	ADV	RB	_	12	Terminal	12:Terminal	_
+14	to	to	ADP	IN	_	18	R	18:R	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	early	early	ADJ	JJ	_	18	E	18:E	_
+17	colonial	colonial	ADJ	JJ	_	18	E	18:E	_
+18	days	day	NOUN	NNS	_	12	D	12:D	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	United	United	PROPN	NNP	_	18	E	18:E	_
+22	States	States	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

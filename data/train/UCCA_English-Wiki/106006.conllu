@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 106006
+# text = " She then appeared in the television film True Women ( 1997 ) , a historical romantic drama set in the American West and based on the book by Janice Woods Windle .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	She	she	PRON	PRP	_	4	A	4:A	_
+3	then	then	ADV	RB	_	4	D	4:D	_
+4	appeared	appear	VERB	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	9	R	9:R	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	television	television	NOUN	NN	_	9	E	9:E	_
+8	film	film	NOUN	NN	_	9	E	9:E	_
+9	True	True	ADJ	JJ	_	4	A	4:A	_
+10	Women	women	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+12	1997	1997	NUM	CD	_	9	E	9:E	_
+13	)	)	PUNCT	-RRB-	_	9	U	9:U	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	a	a	DET	DT	_	18	E	18:E	_
+16	historical	historical	ADJ	JJ	_	18	E	18:E	_
+17	romantic	romantic	ADJ	JJ	_	18	E	18:E	_
+18	drama	drama	NOUN	NN	_	9	E	9:E	_
+19	set	set	VERB	VBN	_	18	E	18:E	_
+20	in	in	ADP	IN	_	23	E	23:E	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	American	american	PROPN	NNP	_	23	E	23:E	_
+23	West	west	PROPN	NNP	_	19	A	19:A	_
+24	and	and	CCONJ	CC	_	19	L	19:L	_
+25	based	base	VERB	VBN	_	19	H	19:H	_
+26	on	on	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	book	book	NOUN	NN	_	25	A	25:A	_
+29	by	by	ADP	IN	_	30	R	30:R	_
+30	Janice	Janice	PROPN	NNP	_	28	A	28:A	_
+31	Woods	Woods	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Windle	Windle	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

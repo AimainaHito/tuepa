@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25515010
+# text = Ich habe daher bei seiner Erbauung nach den gegebenen Dimensionen dieses Gewicht nicht überschreiten dürfen .
+1	Ich	ich	PRON	PPER	_	14	A	14:A	_
+2	habe	haben	AUX	VAFIN	_	14	F	14:F	_
+3	daher	daher	ADV	PAV	_	14	D	14:D	_
+4	bei	bei	ADP	APPR	_	6	R	6:R	_
+5	seiner	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Erbauung	Erbauung	NOUN	NN	_	14	A	14:A	_
+7	nach	nach	ADP	NN	_	10	R	10:R	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	gegebenen	geben	ADJ	ADJA	_	10	E	10:E	_
+10	Dimensionen	Dimension	NOUN	NN	_	14	A	14:A	_
+11	dieses	dies	PRON	PDAT	_	12	E	12:E	_
+12	Gewicht	Gewicht	NOUN	NN	_	14	A	14:A	_
+13	nicht	nicht	PART	XY	_	14	D	14:D	_
+14	überschreiten	überschreit	ADJ	VVINF	_	0	H	0:H	_
+15	dürfen	dürfen	AUX	VMFIN	_	14	D	14:D	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

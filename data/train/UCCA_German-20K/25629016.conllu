@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25629016
+# text = » Ja , mein Herr , betrunken von den Nüssen des Muskatbaums , unter dem ich ihn gefangen habe . Sehen Sie , Freund Ned , was die Unmäßigkeit für Wunder tut ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	betrunken	betrunken	VERB	ADJD	_	2	H	2:H	_
+8	von	von	ADP	NN	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Nüssen	Nuß	NOUN	NN	_	7	A	7:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Muskatbaums	Muskatbaums	NOUN	NN	_	10	E	10:E	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	unter	unter	ADP	ADJD	_	18	R	18:R	_
+15	dem	der	PRON	PRELS	_	18	R	18:R	_
+16	ich	ich	PRON	PPER	_	18	A	18:A	_
+17	ihn	er	PRON	PPER	_	18	A	18:A	_
+18	gefangen	fangen	VERB	VVPP	_	12	E	12:E	_
+19	habe	haben	AUX	VAFIN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	2	U	2:U	_
+21	Sehen	sehen	NOUN	VVFIN	_	2	H	2:H	_
+22	Sie	Sie|sie	PRON	PPER	_	21	F	21:F	_
+23	,	,	PUNCT	$,	_	21	U	21:U	_
+24	Freund	Freund	NOUN	NE	_	25	E	25:E	_
+25	Ned	Ned	PROPN	NE	_	21	G	21:G	_
+26	,	,	PUNCT	$,	_	21	U	21:U	_
+27	was	was	PRON	NE	_	31	E	31:E	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Unmäßigkeit	Unmäßigkeit	NOUN	NN	_	32	A	32:A	_
+30	für	für	ADP	APPR	_	27	Terminal	27:Terminal	_
+31	Wunder	Wunder	NOUN	NN	_	32	A	32:A	_
+32	tut	tun	VERB	VVFIN	_	21	A	21:A	_
+33	!	!	PUNCT	$.	_	32	U	32:U	_
+34	«	«	PUNCT	$(	_	32	U	32:U	_
+

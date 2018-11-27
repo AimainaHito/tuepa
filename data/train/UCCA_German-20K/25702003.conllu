@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25702003
+# text = Seine Hand zuckte schon , um es zu harpunieren .
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Hand	Hand	NOUN	NN	_	3	A	3:A	_
+3	zuckte	zucken	VERB	VVFIN	_	0	H	0:H	_
+4	schon	schon	ADV	ADV	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	um	um	ADP	KOUI	_	3	L	3:L	_
+7	es	es	PRON	PPER	_	9	A	9:A	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	harpunieren	harpunieren	VERB	VVINF	_	3	H	3:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25699011
+# text = » Doch , wenn er nicht zu Land oder über den Isthmus fahren will ... «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Doch	doch	ADJ	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+5	er	er	PRON	PPER	_	13	A	13:A	_
+6	nicht	nicht	PART	CARD	_	13	D	13:D	_
+7	zu	zu	ADP	NN	_	8	R	8:R	_
+8	Land	Land	NOUN	NN	_	13	A	13:A	_
+9	oder	oder	CCONJ	CARD	_	8	N	8:N	_
+10	über	über	ADP	VVFIN	_	12	R	12:R	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Isthmus	Isthmus	NOUN	NN	_	8	C	8:C	_
+13	fahren	fahren	VERB	VVFIN	_	2	H	2:H	_
+14	will	wollen	AUX	NN	_	13	D	13:D	_
+15	...	...	PUNCT	$(	_	13	U	13:U	_
+16	«	«	PUNCT	$(	_	13	U	13:U	_
+

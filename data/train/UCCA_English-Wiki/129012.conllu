@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 129012
+# text = Quality Street ( 1937 ) also had a period setting , this time a comedy .
+1	Quality	quality	NOUN	NN	_	0	C	0:C|4:A|15:A	_
+2	Street	Street	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+4	1937	1937	NUM	CD	_	1	E	1:E	_
+5	)	)	PUNCT	-RRB-	_	7	U	7:U	_
+6	also	also	ADV	RB	_	7	D	7:D	_
+7	had	have	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	period	period	NOUN	NN	_	10	E	10:E	_
+10	setting	setting	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	7	U	7:U	_
+12	this	this	DET	DT	_	13	E	13:E	_
+13	time	time	NOUN	NN	_	7	L	7:L	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	comedy	comedy	NOUN	NN	_	7	H	7:H	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 507012
+# text = Bowie recalled , " I was naming the children the night we met ... it was absolutely immediate .
+1	Bowie	Bowie	PROPN	NNP	_	2	A	2:A	_
+2	recalled	recall	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	''	_	2	U	2:U	_
+5	I	I	PRON	PRP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	naming	name	VERB	VBG	_	2	A	2:A	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	children	child	NOUN	NNS	_	7	A	7:A	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	night	night	NOUN	NN	_	13	D	13:D	_
+12	we	we	PRON	PRP	_	13	A	13:A	_
+13	met	meet	VERB	VBD	_	7	H	7:H	_
+14	...	...	PUNCT	,	_	7	U	7:U	_
+15	it	it	PRON	PRP	_	18	A	18:A	_
+16	was	be	AUX	VBD	_	18	F	18:F	_
+17	absolutely	absolutely	ADV	RB	_	18	D	18:D	_
+18	immediate	immediate	ADJ	JJ	_	7	H	7:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

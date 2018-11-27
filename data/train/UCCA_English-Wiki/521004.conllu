@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 521004
+# text = They next appeared together in Bubbles .
+1	They	they	PRON	PRP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	together	together	ADV	RB	_	3	D	3:D	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	Bubbles	Bubbles	PROPN	NNP	_	3	A	3:A	_
+7	.	.	PUNCT	.	_	6	U	6:U	_
+

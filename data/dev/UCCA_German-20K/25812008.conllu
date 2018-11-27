@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25812008
+# text = » Und mit der Harpune , mein Herr « , sagte der Kanadier , » wenn Sie meinen Beistand nicht abweisen . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Und	und	CCONJ	NN	_	5	L	5:L	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Harpune	Harpune	PROPN	NE	_	11	A	11:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herr	Herr	NOUN	NN	_	5	G	5:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	»	»	PUNCT	$(	_	11	U	11:U	_
+16	wenn	wenn	SCONJ	VVFIN	_	5	L	5:L	_
+17	Sie	sie	PRON	PPER	_	21	A	21:A	_
+18	meinen	mein	PRON	PPOSAT	_	19	E	19:E	_
+19	Beistand	Beistand	NOUN	NN	_	21	A	21:A	_
+20	nicht	nicht	PART	CARD	_	21	D	21:D	_
+21	abweisen	abweisen	VERB	NN	_	5	H	5:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

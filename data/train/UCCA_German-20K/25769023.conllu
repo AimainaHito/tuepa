@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25769023
+# text = Behielt sie die bei , so reichten 40 Stunden , um zum Pol zu gelangen .
+1	Behielt	behalten	VERB	VVFIN	_	0	H	0:H	_
+2	sie	sie	PRON	ADV	_	1	A	1:A	_
+3	die	der	DET	ART	_	1	A	1:A	_
+4	bei	bei	ADP	PTKVZ	_	1	Terminal	1:Terminal	_
+5	,	,	PUNCT	$,	_	1	U	1:U	_
+6	so	so	ADV	ADV	_	1	L	1:L	_
+7	reichten	reichen	VERB	VVFIN	_	1	H	1:H	_
+8	40	40	NUM	CARD	_	9	E	9:E	_
+9	Stunden	Stunde|Stunden	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	$,	_	1	U	1:U	_
+11	um	um	ADP	KOUI	_	1	L	1:L	_
+12	zum	zum	ADP	NN	_	13	R	13:R	_
+13	Pol	pol	NOUN	NE	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	gelangen	gelangen	VERB	VVINF	_	1	H	1:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

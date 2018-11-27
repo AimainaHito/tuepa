@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25497002
+# text = « » Ganz einfach .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Ganz	ganz	NOUN	ADJA	_	4	D	4:D	_
+4	einfach	einfach	ADJ	ADJD	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

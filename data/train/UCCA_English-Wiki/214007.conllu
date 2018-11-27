@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 214007
+# text = Dunst began her career when she was three years old as a child fashion model in television commercials .
+1	Dunst	Dunst	PROPN	NNP	_	2	A	2:A	_
+2	began	begin	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	4	E	4:E	_
+4	career	career	NOUN	NN	_	2	A	2:A	_
+5	when	when	ADV	WRB	_	2	L	2:L	_
+6	she	she	PRON	PRP	_	10	A	10:A	_
+7	was	be	AUX	VBD	_	10	F	10:F	_
+8	three	three	NUM	CD	_	10	E	10:E	_
+9	years	year	NOUN	NNS	_	10	E	10:E	_
+10	old	old	ADJ	JJ	_	2	H	2:H	_
+11	as	as	ADP	IN	_	15	R	15:R	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	child	child	NOUN	NN	_	15	E	15:E	_
+14	fashion	fashion	NOUN	NN	_	15	E	15:E	_
+15	model	model	NOUN	NN	_	2	A	2:A	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	television	television	NOUN	NN	_	18	E	18:E	_
+18	commercials	commercial	NOUN	NNS	_	2	A	2:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

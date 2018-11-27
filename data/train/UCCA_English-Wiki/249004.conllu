@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 249004
+# text = In 2006 Hawke was cast in a supporting role in the film Fast Food Nation , an adaptation by Linklater and Eric Schlosser of Schlosser 's best - selling 2001 non - fiction book Fast Food Nation : The Dark Side of the All - American Meal .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2006	2006	NUM	CD	_	5	D	5:D	_
+3	Hawke	Hawke	PROPN	NNP	_	5	A	5:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	cast	cast	VERB	VBN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	supporting	support	VERB	VBG	_	9	E	9:E	_
+9	role	role	NOUN	NN	_	5	A	5:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	film	film	NOUN	NN	_	13	E	13:E	_
+13	Fast	fast	PROPN	NNP	_	5	A	5:A	_
+14	Food	food	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Nation	nation	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	an	a	DET	DT	_	18	E	18:E	_
+18	adaptation	adaptation	NOUN	NN	_	13	E	13:E	_
+19	by	by	ADP	IN	_	20	R	20:R	_
+20	Linklater	Linklater	PROPN	NNP	_	18	A	18:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	Eric	Eric	PROPN	NNP	_	20	C	20:C	_
+23	Schlosser	Schlosser	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	of	of	ADP	IN	_	35	R	35:R	_
+25	Schlosser	Schlosser	PROPN	NNP	_	35	E	35:E	_
+26	's	's	PART	POS	_	25	R	25:R	_
+27	best	best	ADJ	JJS	_	35	E	35:E	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	selling	sell	VERB	VBG	_	27	Terminal	27:Terminal	_
+30	2001	2001	NUM	CD	_	35	E	35:E	_
+31	non	non	X	AFX	_	33	E	33:E	_
+32	-	-	PUNCT	HYPH	_	33	U	33:U	_
+33	fiction	fiction	NOUN	NN	_	35	E	35:E	_
+34	book	book	NOUN	NN	_	35	E	35:E	_
+35	Fast	fast	PROPN	NNP	_	18	A	18:A	_
+36	Food	food	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	Nation	nation	PROPN	NNP	_	35	Terminal	35:Terminal	_
+38	:	:	PUNCT	:	_	35	U	35:U	_
+39	The	the	DET	DT	_	35	Terminal	35:Terminal	_
+40	Dark	Dark	PROPN	NNP	_	35	Terminal	35:Terminal	_
+41	Side	side	PROPN	NNP	_	35	Terminal	35:Terminal	_
+42	of	of	ADP	IN	_	35	Terminal	35:Terminal	_
+43	the	the	DET	DT	_	35	Terminal	35:Terminal	_
+44	All	all	DET	DT	_	35	Terminal	35:Terminal	_
+45	-	-	PUNCT	HYPH	_	35	U	35:U	_
+46	American	american	ADJ	JJ	_	35	Terminal	35:Terminal	_
+47	Meal	meal	PROPN	NNP	_	35	Terminal	35:Terminal	_
+48	.	.	PUNCT	.	_	35	U	35:U	_
+

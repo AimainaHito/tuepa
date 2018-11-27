@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 537006
+# text = Pearl Warner and the couple 's two children joined him in Baltimore , Maryland , less than a year later .
+1	Pearl	Pearl	PROPN	NNP	_	9	A	9:A	_
+2	Warner	Warner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	and	and	CCONJ	CC	_	1	N	1:N	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	couple	couple	NOUN	NN	_	8	E	8:E	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	two	two	NUM	CD	_	8	E	8:E	_
+8	children	child	NOUN	NNS	_	1	C	1:C	_
+9	joined	join	VERB	VBD	_	0	H	0:H	_
+10	him	he	PRON	PRP	_	9	A	9:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	Baltimore	Baltimore	PROPN	NNP	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Maryland	Maryland	PROPN	NNP	_	12	E	12:E	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	less	less	ADJ	JJR	_	19	E	19:E	_
+17	than	than	ADP	IN	_	16	R	16:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	year	year	NOUN	NN	_	9	D	9:D	_
+20	later	later	ADV	RB	_	19	R	19:R	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

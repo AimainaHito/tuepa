@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 128002
+# text = He asked Hepburn to appear in the play The Lake , which she agreed to do for a low salary .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	asked	ask	VERB	VBD	_	0	H	0:H	_
+3	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|5:A	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	appear	appear	VERB	VB	_	2	A	2:A	_
+6	in	in	ADP	IN	_	9	E	9:E	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	play	play	NOUN	NN	_	9	E	9:E	_
+9	The	the	DET	DT	_	5	A	5:A	_
+10	Lake	Lake	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	which	which	PRON	WDT	_	2	L	2:L	_
+13	she	she	PRON	PRP	_	14	A	14:A|16:A	_
+14	agreed	agree	VERB	VBD	_	2	H	2:H	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	do	do	VERB	VB	_	14	A	14:A	_
+17	for	for	ADP	IN	_	20	R	20:R	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	low	low	ADJ	JJ	_	20	E	20:E	_
+20	salary	salary	NOUN	NN	_	14	A	14:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

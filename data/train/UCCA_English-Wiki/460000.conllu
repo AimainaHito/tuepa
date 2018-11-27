@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 460000
+# text = Jennings anchored ABC 's coverage of the September 11 attacks for seventeen straight hours , an effort described as " Herculean " by television critics .
+1	Jennings	Jenning	PROPN	NNP	_	2	A	2:A	_
+2	anchored	anchor	VERB	VBD	_	0	H	0:H	_
+3	ABC	ABC	PROPN	NNP	_	5	A	5:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	coverage	coverage	NOUN	NN	_	2	A	2:A	_
+6	of	of	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	September	September	PROPN	NNP	_	10	E	10:E	_
+9	11	11	NUM	CD	_	8	Terminal	8:Terminal	_
+10	attacks	attack	NOUN	NNS	_	5	A	5:A	_
+11	for	for	ADP	IN	_	14	R	14:R	_
+12	seventeen	seventeen	NUM	CD	_	14	E	14:E	_
+13	straight	straight	ADJ	JJ	_	14	E	14:E	_
+14	hours	hour	NOUN	NNS	_	2	D	2:D	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	an	a	DET	DT	_	17	E	17:E	_
+17	effort	effort	NOUN	NN	_	18	A	18:A	_
+18	described	describe	VERB	VBN	_	2	H	2:H	_
+19	as	as	ADP	IN	_	18	R	18:R	_
+20	"	"	PUNCT	``	_	18	U	18:U	_
+21	Herculean	Herculean	PROPN	NNP	_	18	A	18:A	_
+22	"	"	PUNCT	''	_	18	U	18:U	_
+23	by	by	ADP	IN	_	25	R	25:R	_
+24	television	television	NOUN	NN	_	25	E	25:E	_
+25	critics	critics	NOUN	NNS	_	18	A	18:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

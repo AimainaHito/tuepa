@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 646001
+# text = They spent the night recording what would become the Two Virgins album , after which , he said , they " made love at dawn .
+1	They	they	PRON	PRP	_	5	A	5:A	_
+2	spent	spend	VERB	VBD	_	5	E	5:E	_
+3	the	the	DET	DT	_	2	Terminal	2:Terminal	_
+4	night	night	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	recording	record	VERB	VBG	_	0	H	0:H	_
+6	what	what	PRON	WP	_	8	R	8:R	_
+7	would	would	AUX	MD	_	8	E	8:E	_
+8	become	become	VERB	VB	_	12	E	12:E	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	Two	two	NUM	CD	_	9	Terminal	9:Terminal	_
+11	Virgins	Virgins	NOUN	NNS	_	9	Terminal	9:Terminal	_
+12	album	album	NOUN	NN	_	5	A	5:A	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	after	after	ADP	IN	_	5	L	5:L	_
+15	which	which	PRON	WDT	_	14	F	14:F	_
+16	,	,	PUNCT	,	_	5	U	5:U	_
+17	he	he	PRON	PRP	_	18	A	18:A	_
+18	said	say	VERB	VBD	_	5	H	5:H	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	they	they	PRON	PRP	_	22	A	22:A	_
+21	"	"	PUNCT	``	_	22	U	22:U	_
+22	made	make	VERB	VBD	_	18	A	18:A	_
+23	love	love	NOUN	NN	_	22	Terminal	22:Terminal	_
+24	at	at	ADP	IN	_	25	R	25:R	_
+25	dawn	daw	NOUN	NN	_	22	D	22:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

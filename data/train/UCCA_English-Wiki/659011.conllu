@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 659011
+# text = " Carey and Christopher began writing and composing songs in the basement of his father 's store during Carey 's senior year .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	Christopher	Christopher	PROPN	NNP	_	2	C	2:C	_
+5	began	begin	VERB	VBD	_	6	D	6:D	_
+6	writing	writing	NOUN	NN	_	0	H	0:H	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	composing	composing	VERB	VBG	_	6	C	6:C	_
+9	songs	song	NOUN	NNS	_	6	A	6:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	basement	basement	NOUN	NN	_	6	A	6:A	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	his	he	PRON	PRP$	_	17	E	17:E	_
+15	father	father	NOUN	NN	_	17	E	17:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	store	store	NOUN	NN	_	12	E	12:E	_
+18	during	during	ADP	IN	_	6	L	6:L	_
+19	Carey	Carey	PROPN	NNP	_	6	H	6:H	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	senior	senior	ADJ	JJ	_	22	E	22:E	_
+22	year	year	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

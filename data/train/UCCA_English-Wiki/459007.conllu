@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 459007
+# text = An estimated 175 million people tuned in to at least a portion of the program .
+1	An	a	DET	DT	_	5	E	5:E	_
+2	estimated	estimate	VERB	VBN	_	5	E	5:E	_
+3	175	175	NUM	CD	_	5	E	5:E	_
+4	million	million	NUM	CD	_	3	Terminal	3:Terminal	_
+5	people	people	NOUN	NNS	_	6	A	6:A	_
+6	tuned	tun	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	6	R	6:R	_
+8	to	to	ADP	IN	_	15	R	15:R	_
+9	at	at	ADV	RB	_	12	E	12:E	_
+10	least	least	ADV	RBS	_	9	Terminal	9:Terminal	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	portion	portion	NOUN	NN	_	15	E	15:E	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	program	program	NOUN	NN	_	6	A	6:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

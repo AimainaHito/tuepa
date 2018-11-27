@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25522018
+# text = Kapitän Nemo nahm mit Hilfe seines Sextanten den Höhenstand der Sonne auf , woraus sich ihm die Breite ergab .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	5	R	5:R	_
+5	Hilfe	Hilfe	NOUN	NN	_	7	R	7:R	_
+6	seines	sein	DET	PPOSAT	_	7	R	7:R	_
+7	Sextanten	Sextant	NOUN	NN	_	3	A	3:A	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Höhenstand	Höhenstand	NOUN	NN	_	3	A	3:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Sonne	Sonne	NOUN	NN	_	9	E	9:E	_
+12	auf	auf	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	woraus	woraus	ADV	PWAV	_	15	R	15:R	_
+15	sich	er|es|sie	PRON	PRF	_	9	E	9:E	_
+16	ihm	er	PRON	PPER	_	15	A	15:A	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Breite	Breite	NOUN	ADJA	_	15	A	15:A	_
+19	ergab	ergeben	VERB	VVFIN	_	15	Terminal	15:Terminal	_
+20	.	.	PUNCT	$.	_	15	U	15:U	_
+

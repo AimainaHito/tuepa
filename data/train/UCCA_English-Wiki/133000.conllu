@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 133000
+# text = Hepburn was also responsible for the development of her next project , the romantic comedy Woman of the Year .
+1	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	D	4:D	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	responsible	responsible	ADJ	JJ	_	0	H	0:H	_
+5	for	for	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	development	development	NOUN	NN	_	4	A	4:A	_
+8	of	of	ADP	IN	_	11	R	11:R	_
+9	her	she	PRON	PRP$	_	11	A	11:A	_
+10	next	next	ADJ	JJ	_	11	D	11:D	_
+11	project	project	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	romantic	romantic	ADJ	JJ	_	16	E	16:E	_
+15	comedy	comedy	NOUN	NN	_	16	E	16:E	_
+16	Woman	woman	NOUN	NN	_	11	E	11:E	_
+17	of	of	ADP	IN	_	16	Terminal	16:Terminal	_
+18	the	the	DET	DT	_	16	Terminal	16:Terminal	_
+19	Year	Year	PROPN	NNP	_	16	Terminal	16:Terminal	_
+20	.	.	PUNCT	.	_	16	U	16:U	_
+

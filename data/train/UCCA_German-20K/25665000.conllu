@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25665000
+# text = Der Indische Ozean
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	Indische	indisch	PROPN	ADJA	_	3	E	3:E	_
+3	Ozean	Ozean	PROPN	NE	_	0	H	0:H	_
+

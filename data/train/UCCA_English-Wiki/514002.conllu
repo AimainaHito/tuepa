@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 514002
+# text = In the 2008 film August , directed by Austin Chick , he played a supporting role as Ogilvie , alongside Josh Hartnett and Rip Torn , with whom he had worked in 1976 for The Man Who Fell to Earth .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	2008	2008	NUM	CD	_	4	E	4:E	_
+4	film	film	NOUN	NN	_	5	E	5:E	_
+5	August	August	PROPN	NNP	_	13	A	13:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	directed	direct	VERB	VBN	_	5	E	5:E	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	Austin	Austin	PROPN	NNP	_	7	A	7:A	_
+10	Chick	Chick	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	he	he	PRON	PRP	_	13	A	13:A	_
+13	played	play	VERB	VBD	_	0	H	0:H	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	supporting	support	VERB	VBG	_	16	E	16:E	_
+16	role	role	NOUN	NN	_	13	A	13:A	_
+17	as	as	ADP	IN	_	18	R	18:R	_
+18	Ogilvie	Ogilvie	PROPN	NNP	_	16	E	16:E	_
+19	,	,	PUNCT	,	_	13	U	13:U	_
+20	alongside	alongside	ADP	IN	_	21	R	21:R	_
+21	Josh	Josh	PROPN	NNP	_	13	A	13:A	_
+22	Hartnett	Hartnett	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	and	and	CCONJ	CC	_	21	N	21:N	_
+24	Rip	rip	PROPN	NNP	_	21	C	21:C	_
+25	Torn	torn	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	,	_	21	U	21:U	_
+27	with	with	ADP	IN	_	31	A	31:A	_
+28	whom	whom	PRON	WP	_	27	F	27:F	_
+29	he	he	PRON	PRP	_	31	A	31:A	_
+30	had	have	AUX	VBD	_	31	F	31:F	_
+31	worked	work	VERB	VBN	_	21	E	21:E	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	1976	1976	NUM	CD	_	31	D	31:D	_
+34	for	for	ADP	IN	_	35	R	35:R	_
+35	The	the	DET	DT	_	31	A	31:A	_
+36	Man	Man	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	Who	who	PROPN	NNP	_	35	Terminal	35:Terminal	_
+38	Fell	fell	PROPN	NNP	_	35	Terminal	35:Terminal	_
+39	to	to	ADP	IN	_	35	Terminal	35:Terminal	_
+40	Earth	Earth	PROPN	NNP	_	35	Terminal	35:Terminal	_
+41	.	.	PUNCT	.	_	35	U	35:U	_
+

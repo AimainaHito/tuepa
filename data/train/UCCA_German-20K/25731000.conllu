@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25731000
+# text = In einigen Augenblicken waren wir angezogen .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	einigen	einige	PRON	PIAT	_	3	E	3:E	_
+3	Augenblicken	Augenblick	NOUN	NN	_	6	D	6:D	_
+4	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+5	wir	wir	PRON	NE	_	6	A	6:A	_
+6	angezogen	anziehen	VERB	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

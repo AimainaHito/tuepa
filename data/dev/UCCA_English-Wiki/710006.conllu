@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 710006
+# text = September saw the release of the new Lanois - produced album , Time Out of Mind .
+1	September	September	PROPN	NNP	_	4	D	4:D	_
+2	saw	see	VERB	VBD	_	4	F	4:F	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	release	release	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	11	R	11:R	_
+6	the	the	DET	DT	_	11	E	11:E	_
+7	new	new	ADJ	JJ	_	11	E	11:E	_
+8	Lanois	Lanois	PROPN	NNP	_	10	A	10:A	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	produced	produce	VERB	VBN	_	11	E	11:E	_
+11	album	album	NOUN	NN	_	4	A	4:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	Time	Time	ADV	RB	_	11	E	11:E	_
+14	Out	out	ADP	IN	_	13	Terminal	13:Terminal	_
+15	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+16	Mind	Mind	NOUN	NN	_	13	Terminal	13:Terminal	_
+17	.	.	PUNCT	.	_	11	U	11:U	_
+

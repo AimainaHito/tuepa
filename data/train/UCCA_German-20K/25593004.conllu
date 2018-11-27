@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25593004
+# text = Das geringste Geräusch pflanzte sich mit einer Raschheit fort , woran das Ohr auf der Erde nicht gewöhnt ist .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	geringste	gering	ADJ	ADJA	_	3	E	3:E	_
+3	Geräusch	Geräusch	NOUN	NN	_	4	A	4:A	_
+4	pflanzte	pflanzen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	einer	ein	DET	ART	_	8	E	8:E	_
+8	Raschheit	Raschheit	NOUN	NN	_	4	A	4:A	_
+9	fort	fort	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	woran	woran	ADV	PWAV	_	18	R	18:R	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Ohr	Ohr	NOUN	NN	_	18	A	18:A	_
+14	auf	auf	ADP	APPR	_	16	R	16:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Erde	Erde	NOUN	NN	_	18	A	18:A	_
+17	nicht	nicht	PART	CARD	_	18	D	18:D	_
+18	gewöhnt	gewöhnt	ADJ	VVPP	_	8	E	8:E	_
+19	ist	sein	AUX	VVFIN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

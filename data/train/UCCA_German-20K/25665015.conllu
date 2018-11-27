@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25665015
+# text = Dennoch hat Ned Land die Hoffnung nicht aufgegeben , wieder die Freiheit zu erlangen .
+1	Dennoch	dennoch	ADV	ADV	_	8	L	8:L	_
+2	hat	haben	VERB	VAFIN	_	8	F	8:F	_
+3	Ned	Ned	PROPN	NE	_	8	A	8:A|14:A	_
+4	Land	Land	PROPN	NN	_	3	Terminal	3:Terminal	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Hoffnung	Hoffnung	NOUN	NN	_	8	A	8:A	_
+7	nicht	nicht	PART	CARD	_	8	D	8:D	_
+8	aufgegeben	aufgegeb	NOUN	VVFIN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wieder	wieder	ADV	NN	_	14	D	14:D	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Freiheit	Freiheit	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	erlangen	erlangen	VERB	VVINF	_	8	A	8:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 587005
+# text = Depp , a fan and long - time friend of writer Hunter S . Thompson , played a version of Thompson ( named Raoul Duke ) in 1998 's Fear and Loathing in Las Vegas , based on the writer 's pseudobiographical novel of the same name .
+1	Depp	Depp	PROPN	NNP	_	17	A	17:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	fan	fan	NOUN	NN	_	1	E	1:E	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	long	long	ADJ	JJ	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	time	time	NOUN	NN	_	9	E	9:E	_
+9	friend	friend	NOUN	NN	_	4	C	4:C	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	writer	writer	NOUN	NN	_	12	E	12:E	_
+12	Hunter	Hunter	PROPN	NNP	_	4	E	4:E	_
+13	S	S	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+15	Thompson	Thompson	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	played	play	VERB	VBD	_	0	H	0:H	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	version	version	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	Thompson	Thompson	PROPN	NNP	_	17	A	17:A	_
+22	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+23	named	name	VERB	VBN	_	21	E	21:E	_
+24	Raoul	Raoul	PROPN	NNP	_	23	A	23:A	_
+25	Duke	Duke	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	)	)	PUNCT	-RRB-	_	17	U	17:U	_
+27	in	in	ADP	IN	_	30	R	30:R	_
+28	1998	1998	NUM	CD	_	30	E	30:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	Fear	fear	PROPN	NNP	_	17	A	17:A	_
+31	and	and	CCONJ	CC	_	30	Terminal	30:Terminal	_
+32	Loathing	Loathing	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	in	in	ADP	IN	_	30	Terminal	30:Terminal	_
+34	Las	Las	PROPN	NNP	_	30	Terminal	30:Terminal	_
+35	Vegas	Vegas	PROPN	NNP	_	30	Terminal	30:Terminal	_
+36	,	,	PUNCT	,	_	30	U	30:U	_
+37	based	base	VERB	VBN	_	30	E	30:E	_
+38	on	on	ADP	IN	_	43	R	43:R	_
+39	the	the	DET	DT	_	40	E	40:E	_
+40	writer	writer	NOUN	NN	_	43	E	43:E	_
+41	's	's	PART	POS	_	40	R	40:R	_
+42	pseudobiographical	pseudobiographical	ADJ	JJ	_	43	E	43:E	_
+43	novel	novel	NOUN	NN	_	37	A	37:A	_
+44	of	of	ADP	IN	_	47	R	47:R	_
+45	the	the	DET	DT	_	47	E	47:E	_
+46	same	same	ADJ	JJ	_	47	E	47:E	_
+47	name	name	NOUN	NN	_	43	E	43:E	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 489007
+# text = In the film , he played Huck Cheever , a professional poker player who must overcome his personal problems to win a high stakes tournament in Las Vegas .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	6	A	6:A	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	played	play	VERB	VBD	_	0	H	0:H	_
+7	Huck	Huck	PROPN	NNP	_	6	A	6:A	_
+8	Cheever	Cheever	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	professional	professional	ADJ	JJ	_	13	E	13:E	_
+12	poker	poker	NOUN	NN	_	13	E	13:E	_
+13	player	player	NOUN	NN	_	7	E	7:E	_
+14	who	who	PRON	WP	_	16	R	16:R	_
+15	must	must	AUX	MD	_	16	D	16:D	_
+16	overcome	overcome	VERB	VB	_	7	E	7:E	_
+17	his	he	PRON	PRP$	_	19	E	19:E	_
+18	personal	personal	ADJ	JJ	_	19	E	19:E	_
+19	problems	problem	NOUN	NNS	_	16	A	16:A	_
+20	to	to	PART	TO	_	16	L	16:L	_
+21	win	win	VERB	VB	_	16	H	16:H	_
+22	a	a	DET	DT	_	25	E	25:E	_
+23	high	high	ADJ	JJ	_	24	E	24:E	_
+24	stakes	stakes	NOUN	NNS	_	25	E	25:E	_
+25	tournament	tournament	NOUN	NN	_	21	A	21:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	Las	Las	PROPN	NNP	_	25	E	25:E	_
+28	Vegas	Vegas	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

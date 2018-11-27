@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25650011
+# text = » Ich bin bereit , Sie zu begleiten . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Ich	ich	PRON	PPER	_	8	A	8:A	_
+3	bin	sein	AUX	VAFIN	_	8	F	8:F	_
+4	bereit	bereit	ADJ	ADJD	_	8	D	8:D	_
+5	,	,	PUNCT	$,	_	8	U	8:U	_
+6	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+7	zu	zu	PART	VVINF	_	8	F	8:F	_
+8	begleiten	begleiten	VERB	VVINF	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

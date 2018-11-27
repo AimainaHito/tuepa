@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 662010
+# text = With the release of the album 's third single , Carey achieved several career milestones .
+1	With	with	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	release	release	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	album	album	NOUN	NN	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	third	third	ADJ	JJ	_	9	E	9:E	_
+9	single	single	ADJ	JJ	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	Carey	Carey	PROPN	NNP	_	12	A	12:A	_
+12	achieved	achieve	VERB	VBD	_	3	H	3:H	_
+13	several	several	ADJ	JJ	_	15	E	15:E	_
+14	career	career	NOUN	NN	_	15	E	15:E	_
+15	milestones	milestone	NOUN	NNS	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 230005
+# text = Promotional materials for Rumble in the Bronx emphasised that Chan performed all of the stunts , and one version of the movie poster even diagrammed his many injuries .
+1	Promotional	promotional	ADJ	JJ	_	2	E	2:E	_
+2	materials	material	NOUN	NNS	_	8	A	8:A	_
+3	for	for	ADP	IN	_	4	R	4:R	_
+4	Rumble	Rumble	PROPN	NNP	_	2	E	2:E	_
+5	in	in	ADP	IN	_	4	Terminal	4:Terminal	_
+6	the	the	DET	DT	_	4	Terminal	4:Terminal	_
+7	Bronx	Bronx	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	emphasised	emphasise	VERB	VBD	_	0	H	0:H	_
+9	that	that	SCONJ	IN	_	11	F	11:F	_
+10	Chan	Chan	PROPN	NNP	_	11	A	11:A	_
+11	performed	perform	VERB	VBD	_	8	A	8:A	_
+12	all	all	DET	DT	_	15	E	15:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	stunts	stunt	NOUN	NNS	_	11	A	11:A	_
+16	,	,	PUNCT	,	_	8	U	8:U	_
+17	and	and	CCONJ	CC	_	8	L	8:L	_
+18	one	one	NUM	CD	_	19	E	19:E	_
+19	version	version	NOUN	NN	_	23	E	23:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	movie	movie	NOUN	NN	_	23	E	23:E	_
+23	poster	poster	NOUN	NN	_	25	A	25:A	_
+24	even	even	ADV	RB	_	25	D	25:D	_
+25	diagrammed	diagram	VERB	VBD	_	8	H	8:H	_
+26	his	he	PRON	PRP$	_	28	E	28:E	_
+27	many	many	ADJ	JJ	_	28	E	28:E	_
+28	injuries	injury	NOUN	NNS	_	25	A	25:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 381003
+# text = In December 2006 , Jake and his sister escaped a fire that destroyed Manka ' s , a famed lodge and restaurant in Inverness , California , at which they were vacationing .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	December	December	PROPN	NNP	_	3	E	3:E	_
+3	2006	2006	NUM	CD	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Jake	Jake	PROPN	NNP	_	9	A	9:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	sister	sister	NOUN	NN	_	5	C	5:C	_
+9	escaped	escape	VERB	VBD	_	0	H	0:H	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	fire	fire	NOUN	NN	_	9	A	9:A	_
+12	that	that	PRON	WDT	_	13	F	13:F	_
+13	destroyed	destroy	VERB	VBD	_	11	E	11:E	_
+14	Manka	Manka	PROPN	NNP	_	13	A	13:A	_
+15	'	's	PART	POS	_	14	U	14:U	_
+16	s	's	PART	POS	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	14	U	14:U	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	famed	fam	ADJ	JJ	_	20	E	20:E	_
+20	lodge	lodge	NOUN	NN	_	14	E	14:E	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	restaurant	restaurant	NOUN	NN	_	20	C	20:C	_
+23	in	in	ADP	IN	_	26	R	26:R	_
+24	Inverness	Inverness	PROPN	NNP	_	26	E	26:E	_
+25	,	,	PUNCT	,	_	26	U	26:U	_
+26	California	California	PROPN	NNP	_	20	E	20:E	_
+27	,	,	PUNCT	,	_	14	U	14:U	_
+28	at	at	ADP	IN	_	32	A	32:A	_
+29	which	which	PRON	WDT	_	32	F	32:F	_
+30	they	they	PRON	PRP	_	32	A	32:A	_
+31	were	be	AUX	VBD	_	32	F	32:F	_
+32	vacationing	vacation	ADJ	JJ	_	14	E	14:E	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

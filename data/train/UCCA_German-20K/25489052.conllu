@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25489052
+# text = Zu dieser Fähigkeit gesellte sich eine Sehkraft , welche die Ned Land s noch weit übertraf , und welcher Blick !
+1	Zu	zu	ADP	NN	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Fähigkeit	Fähigkeit	NOUN	NN	_	4	A	4:A	_
+4	gesellte	gesellen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	eine	ein	DET	ART	_	7	E	7:E	_
+7	Sehkraft	Sehkraft	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	welche	welch	PRON	NN	_	16	R	16:R	_
+10	die	der	DET	ART	_	16	A	16:A	_
+11	Ned	Ned	PROPN	NE	_	10	E	10:E	_
+12	Land	Land	NOUN	NE	_	11	Terminal	11:Terminal	_
+13	s	s	ADV	NN	_	10	R	10:R	_
+14	noch	noch	ADV	CARD	_	15	E	15:E	_
+15	weit	weit	ADJ	ADJD	_	16	D	16:D	_
+16	übertraf	übertraf	ADV	VVFIN	_	7	E	7:E	_
+17	,	,	PUNCT	$,	_	7	U	7:U	_
+18	und	und	CCONJ	NE	_	7	N	7:N	_
+19	welcher	welch	PRON	PWAT	_	20	E	20:E	_
+20	Blick	Blick	NOUN	NN	_	7	C	7:C	_
+21	!	!	PUNCT	$.	_	20	U	20:U	_
+

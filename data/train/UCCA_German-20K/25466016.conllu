@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25466016
+# text = Bei Conseil konnte ich wahrnehmen , dass dieser brave Bursche sehr wenig dem allgemeinen Einfluß unterworfen war .
+1	Bei	bei	ADP	APPR	_	2	R	2:R	_
+2	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+3	konnte	können	AUX	VMFIN	_	5	D	5:D	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	wahrnehmen	wahrnehmen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+8	dieser	dies	PRON	PDS	_	10	E	10:E	_
+9	brave	brav	ADJ	NN	_	10	E	10:E	_
+10	Bursche	Bursche	NOUN	ADJA	_	16	A	16:A	_
+11	sehr	sehr	ADV	NE	_	12	E	12:E	_
+12	wenig	wenig	PRON	PPOSAT	_	16	D	16:D	_
+13	dem	der	DET	ART	_	15	E	15:E	_
+14	allgemeinen	allgemein	ADJ	ADJA	_	15	E	15:E	_
+15	Einfluß	Einfluß	NOUN	NN	_	16	A	16:A	_
+16	unterworfen	unterwerfen	VERB	VVFIN	_	5	A	5:A	_
+17	war	sein	AUX	ADV	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

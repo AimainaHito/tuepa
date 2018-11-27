@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25650019
+# text = Sein Kopf , in blutige Leinwand gewickelt , ruhte auf einem doppelten Kissen .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Kopf	Kopf	NOUN	NN	_	7	A	7:A	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	blutige	blutig	ADJ	ADJA	_	6	E	6:E	_
+6	Leinwand	Leinwand	NOUN	NN	_	7	A	7:A	_
+7	gewickelt	wickeln	VERB	VVPP	_	9	A	9:A	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	ruhte	ruhen	VERB	VVFIN	_	0	H	0:H	_
+10	auf	auf	ADP	APPR	_	13	R	13:R	_
+11	einem	ein	DET	ART	_	13	E	13:E	_
+12	doppelten	doppelt	ADJ	ADJA	_	13	E	13:E	_
+13	Kissen	Kissen	NOUN	NN	_	9	A	9:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

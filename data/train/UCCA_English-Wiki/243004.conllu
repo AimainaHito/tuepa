@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 243004
+# text = In 2001 , Hawke was cast as a rookie police officer in Training Day , for which he received a Screen Actors Guild and Academy Award nomination in the Best Supporting Actor category .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2001	2001	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Hawke	Hawke	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	cast	cast	VERB	VBN	_	0	H	0:H	_
+7	as	as	ADP	IN	_	11	R	11:R	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	rookie	rookie	NOUN	NN	_	11	E	11:E	_
+10	police	police	NOUN	NN	_	11	E	11:E	_
+11	officer	officer	NOUN	NN	_	6	A	6:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Training	train	PROPN	NNP	_	6	A	6:A	_
+14	Day	Day	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	for	for	ADP	IN	_	19	A	19:A	_
+17	which	which	PRON	WDT	_	19	F	19:F	_
+18	he	he	PRON	PRP	_	19	A	19:A	_
+19	received	receive	VERB	VBD	_	13	E	13:E	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	Screen	screen	PROPN	NNP	_	27	E	27:E	_
+22	Actors	Actors	PROPN	NNPS	_	21	Terminal	21:Terminal	_
+23	Guild	Guild	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	and	and	CCONJ	CC	_	21	N	21:N	_
+25	Academy	Academy	PROPN	NNP	_	21	C	21:C	_
+26	Award	Award	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	nomination	nomination	NOUN	NN	_	19	A	19:A	_
+28	in	in	ADP	IN	_	33	R	33:R	_
+29	the	the	DET	DT	_	33	E	33:E	_
+30	Best	best	ADJ	JJS	_	32	E	32:E	_
+31	Supporting	supporting	NOUN	NN	_	32	E	32:E	_
+32	Actor	Actor	NOUN	NN	_	33	E	33:E	_
+33	category	category	NOUN	NN	_	27	E	27:E	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

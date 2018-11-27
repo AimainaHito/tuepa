@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 130013
+# text = She was cast in Howard Hawks ' screwball comedy Bringing Up Baby ( 1938 ) alongside Cary Grant .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	cast	cast	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	10	R	10:R	_
+5	Howard	Howard	PROPN	NNP	_	10	E	10:E	_
+6	Hawks	Hawks	PROPN	NNPS	_	5	Terminal	5:Terminal	_
+7	'	's	PART	POS	_	10	U	10:U	_
+8	screwball	screwball	NOUN	NN	_	10	E	10:E	_
+9	comedy	comedy	NOUN	NN	_	10	E	10:E	_
+10	Bringing	bring	VERB	VBG	_	3	A	3:A	_
+11	Up	Up	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Baby	baby	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+14	1938	1938	NUM	CD	_	10	E	10:E	_
+15	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+16	alongside	alongside	ADP	IN	_	17	R	17:R	_
+17	Cary	Cary	PROPN	NNP	_	3	A	3:A	_
+18	Grant	grant	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

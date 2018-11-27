@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25412006
+# text = Dieses Fachwerk war zum Glück nicht dasjenige , welches die Kessel enthielt , sonst wären die Feuer mit einem Male ausgelöscht worden .
+1	Dieses	dies	PRON	PDAT	_	2	E	2:E	_
+2	Fachwerk	Fachwerk	NOUN	NN	_	3	A	3:A	_
+3	war	sein	AUX	ADV	_	0	H	0:H	_
+4	zum	zum	ADP	NN	_	5	R	5:R	_
+5	Glück	Glück	NOUN	NN	_	3	D	3:D	_
+6	nicht	nicht	PART	CARD	_	3	D	3:D	_
+7	dasjenige	dasjenig	ADJ	PIAT	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	welches	welch	PRON	PRELS	_	12	R	12:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Kessel	Kessel	NOUN	NN	_	12	A	12:A	_
+12	enthielt	enthalten	VERB	VVFIN	_	7	E	7:E	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	sonst	sonst	ADV	NN	_	3	L	3:L	_
+15	wären	sein	AUX	VVINF	_	21	D	21:D	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Feuer	Feuer	NOUN	NN	_	21	A	21:A	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Male	male	NOUN	NN	_	21	D	21:D	_
+21	ausgelöscht	ausgelöschen	VERB	VVPP	_	3	H	3:H	_
+22	worden	werden	AUX	ADV	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

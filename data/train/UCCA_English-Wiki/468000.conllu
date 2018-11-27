@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 468000
+# text = Johnson was drafted first overall in 1979 by the Los Angeles Lakers .
+1	Johnson	Johnson	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	drafted	draft	VERB	VBN	_	0	H	0:H	_
+4	first	first	ADV	RB	_	3	A	3:A	_
+5	overall	overall	ADV	RB	_	4	E	4:E	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1979	1979	NUM	CD	_	3	D	3:D	_
+8	by	by	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Los	Los	PROPN	NNP	_	3	A	3:A	_
+11	Angeles	Angeles	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Lakers	Lakers	PROPN	NNPS	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25622014
+# text = » Zu seinem eigenen Nachteil « , sagte Conseil .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Zu	zu	ADP	NN	_	5	R	5:R	_
+3	seinem	sein	DET	PPOSAT	_	5	E	5:E	_
+4	eigenen	eigen	ADJ	ADJA	_	5	D	5:D	_
+5	Nachteil	Nachteil	NOUN	NN	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

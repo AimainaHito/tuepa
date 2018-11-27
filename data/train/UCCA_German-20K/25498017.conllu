@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25498017
+# text = « Ich folgte Kapitän Nemo , und sowie ich aus der Tür getreten war , gingen wir durch einen elektrisch erleuchteten etwa 10 Meter langen Gang , dann öffnete sich vor uns eine zweite Tür .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	folgte	folgen	VERB	VVFIN	_	0	H	0:H	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	und	und	CCONJ	NE	_	3	L	3:L	_
+8	sowie	sowie	CCONJ	NE	_	3	L	3:L	_
+9	ich	ich	PRON	PPER	_	13	A	13:A	_
+10	aus	aus	ADP	APPR	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Tür	Tür	NOUN	NN	_	13	A	13:A	_
+13	getreten	treten	VERB	VVFIN	_	3	H	3:H	_
+14	war	sein	AUX	ADV	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	gingen	gehen	VERB	VVFIN	_	3	H	3:H	_
+17	wir	wir	PRON	NE	_	16	A	16:A	_
+18	durch	durch	ADP	APPR	_	26	R	26:R	_
+19	einen	ein	DET	ART	_	26	E	26:E	_
+20	elektrisch	elektrisch	ADJ	NN	_	21	D	21:D	_
+21	erleuchteten	erleuchtet	ADJ	VVFIN	_	26	E	26:E	_
+22	etwa	etwa	ADV	ADV	_	25	D	25:D	_
+23	10	10	NUM	CARD	_	24	E	24:E	_
+24	Meter	Meter	NOUN	NN	_	25	A	25:A	_
+25	langen	lang	ADJ	ADJA	_	26	E	26:E	_
+26	Gang	Gang	NOUN	NN	_	16	A	16:A	_
+27	,	,	PUNCT	$,	_	3	U	3:U	_
+28	dann	dann	ADV	ADV	_	3	L	3:L	_
+29	öffnete	öffnen	VERB	VVFIN	_	3	H	3:H	_
+30	sich	er|es|sie	PRON	PRF	_	29	Terminal	29:Terminal	_
+31	vor	vor	ADP	NE	_	32	R	32:R	_
+32	uns	wir	PRON	NE	_	29	A	29:A	_
+33	eine	ein	DET	ART	_	35	E	35:E	_
+34	zweite	zweit	ADJ	NN	_	35	E	35:E	_
+35	Tür	Tür	NOUN	NN	_	29	A	29:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

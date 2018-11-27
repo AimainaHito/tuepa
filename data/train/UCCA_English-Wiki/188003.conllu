@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 188003
+# text = The contents of his first two plays got him a theatrical agent .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	contents	contents	NOUN	NNS	_	8	A	8:A	_
+3	of	of	ADP	IN	_	7	R	7:R	_
+4	his	he	PRON	PRP$	_	7	E	7:E	_
+5	first	first	ADJ	JJ	_	7	E	7:E	_
+6	two	two	NUM	CD	_	7	E	7:E	_
+7	plays	play	NOUN	NNS	_	2	E	2:E	_
+8	got	get	VERB	VBD	_	0	H	0:H	_
+9	him	he	PRON	PRP	_	8	A	8:A	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	theatrical	theatrical	ADJ	JJ	_	12	E	12:E	_
+12	agent	agent	NOUN	NN	_	8	A	8:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

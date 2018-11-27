@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25800002
+# text = Die Meeres tiefe war mäßig .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Meeres	Meer	NOUN	NN	_	3	E	3:E	_
+3	tiefe	tief	ADJ	ADJA	_	5	A	5:A	_
+4	war	sein	AUX	ADV	_	5	F	5:F	_
+5	mäßig	mäßig	ADJ	CARD	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

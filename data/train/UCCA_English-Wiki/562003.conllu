@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 562003
+# text = Twelve weeks after its original release , " Heartbreak Hotel " became Presley 's first number - one pop hit .
+1	Twelve	twelve	NUM	CD	_	2	E	2:E	_
+2	weeks	week	NOUN	NNS	_	6	L	6:L	_
+3	after	after	ADP	IN	_	2	R	2:R	_
+4	its	its	PRON	PRP$	_	6	A	6:A	_
+5	original	original	ADJ	JJ	_	6	E	6:E	_
+6	release	release	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	"	"	PUNCT	''	_	6	U	6:U	_
+9	Heartbreak	Heartbreak	PROPN	NNP	_	12	A	12:A|4:C	_
+10	Hotel	Hotel	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	"	"	PUNCT	''	_	12	U	12:U	_
+12	became	become	VERB	VBD	_	6	H	6:H	_
+13	Presley	Presley	PROPN	NNP	_	20	E	20:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	first	first	ADJ	JJ	_	20	E	20:E	_
+16	number	number	NOUN	NN	_	20	E	20:E	_
+17	-	-	PUNCT	HYPH	_	16	U	16:U	_
+18	one	one	NUM	CD	_	16	E	16:E	_
+19	pop	pop	NOUN	NN	_	20	E	20:E	_
+20	hit	hit	NOUN	NN	_	12	A	12:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

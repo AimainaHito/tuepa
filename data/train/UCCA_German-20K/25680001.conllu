@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25680001
+# text = » Ja , das ist ' s eben . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	das	der	PRON	PDS	_	5	A	5:A	_
+5	ist	sein	AUX	VVFIN	_	2	H	2:H	_
+6	'	'	PUNCT	$(	_	5	U	5:U	_
+7	s	s	NOUN	ADJD	_	5	F	5:F	_
+8	eben	eben	ADV	ADV	_	5	D	5:D	_
+9	.	.	PUNCT	$.	_	5	U	5:U	_
+10	«	«	PUNCT	$(	_	5	U	5:U	_
+

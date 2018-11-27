@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25734011
+# text = Die Felsenmasse war voll undurchdringlicher Spalten , tiefer Grotten , unergründlicher Löcher , worin es sich auf dem Grund fürchterlich rührte und regte .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Felsenmasse	Felsenmasse	NOUN	NN	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	D	4:D	_
+4	voll	voll	ADJ	VMFIN	_	0	H	0:H	_
+5	undurchdringlicher	undurchdringlich	ADJ	ADJA	_	6	E	6:E	_
+6	Spalten	Spalte|Spalten	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	tiefer	tief	ADJ	ADJD	_	9	E	9:E	_
+9	Grotten	Grotte	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	unergründlicher	unergründlich	ADJ	ADJA	_	12	E	12:E	_
+12	Löcher	Loch	NOUN	NN	_	4	A	4:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	worin	worin	PRON	PWAV	_	16	R	16:R	_
+15	es	es	PRON	PPER	_	16	A	16:A|23:A	_
+16	sich	er|es|sie	PRON	PRF	_	12	E	12:E	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	dem	der	DET	ART	_	19	E	19:E	_
+19	Grund	Grund	NOUN	NN	_	16	A	16:A	_
+20	fürchterlich	fürchterlich	ADJ	ADJD	_	16	D	16:D	_
+21	rührte	rühren	VERB	VVFIN	_	16	Terminal	16:Terminal	_
+22	und	und	CCONJ	NE	_	16	L	16:L	_
+23	regte	regen	VERB	VVFIN	_	16	H	16:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

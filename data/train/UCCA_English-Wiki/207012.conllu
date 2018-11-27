@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 207012
+# text = For his performance in the production , Hoffman won a Drama Desk Award for Outstanding Performance .
+1	For	for	ADP	IN	_	3	L	3:L	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	performance	performance	NOUN	NN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	production	production	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	Hoffman	Hoffman	PROPN	NNP	_	9	A	9:A	_
+9	won	win	VERB	VBD	_	3	H	3:H	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	Drama	drama	PROPN	NNP	_	13	E	13:E	_
+12	Desk	desk	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Award	Award	PROPN	NNP	_	9	A	9:A	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	Outstanding	outstanding	ADJ	JJ	_	16	E	16:E	_
+16	Performance	performance	NOUN	NN	_	13	E	13:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

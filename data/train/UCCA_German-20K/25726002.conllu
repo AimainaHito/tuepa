@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25726002
+# text = » Ah ! Herr Professor « , sagte er in liebenswürdigem Ton , » ich suchte Sie . Kennen Sie die Geschichte Spaniens ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ah	Ah	PROPN	NN	_	8	A	8:A	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	16	G	16:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	liebenswürdigem	liebenswürdigem	ADJ	ADJA	_	12	E	12:E	_
+12	Ton	Ton	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	»	»	PUNCT	$(	_	8	U	8:U	_
+15	ich	ich	PRON	PPER	_	16	A	16:A	_
+16	suchte	suchen	VERB	VVFIN	_	2	H	2:H	_
+17	Sie	Sie|sie	PRON	PPER	_	16	A	16:A	_
+18	.	.	PUNCT	$.	_	2	U	2:U	_
+19	Kennen	kennen	NOUN	PTKVZ	_	2	H	2:H	_
+20	Sie	Sie|sie	PRON	PPER	_	19	A	19:A	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Geschichte	Geschichte	NOUN	NN	_	19	A	19:A	_
+23	Spaniens	Spanien	PROPN	NE	_	22	E	22:E	_
+24	?	?	PUNCT	$.	_	22	U	22:U	_
+25	«	«	PUNCT	$(	_	22	U	22:U	_
+

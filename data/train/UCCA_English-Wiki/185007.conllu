@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 185007
+# text = In the mid - 1990s he worked as a script doctor on films such as Bulworth .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	mid	mid	X	AFX	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	1990s	1990	NOUN	NNS	_	7	D	7:D	_
+6	he	he	PRON	PRP	_	7	A	7:A	_
+7	worked	work	VERB	VBD	_	0	H	0:H	_
+8	as	as	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	script	script	NOUN	NN	_	7	A	7:A	_
+11	doctor	doctor	NOUN	NN	_	10	E	10:E	_
+12	on	on	ADP	IN	_	13	R	13:R	_
+13	films	film	NOUN	NNS	_	7	A	7:A	_
+14	such	such	ADJ	JJ	_	16	R	16:R	_
+15	as	as	ADP	IN	_	14	Terminal	14:Terminal	_
+16	Bulworth	Bulworth	PROPN	NNP	_	13	E	13:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

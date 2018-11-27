@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 185013
+# text = He also wrote the feature film screenplay for The Social Network , winning the Academy Award for Best Adapted Screenplay .
+1	He	he	PRON	PRP	_	3	A	3:A|13:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	wrote	write	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	feature	feature	NOUN	NN	_	6	E	6:E	_
+6	film	film	NOUN	NN	_	7	E	7:E	_
+7	screenplay	screenplay	NOUN	NN	_	3	A	3:A	_
+8	for	for	ADP	IN	_	9	R	9:R	_
+9	The	the	DET	DT	_	7	E	7:E	_
+10	Social	social	ADJ	JJ	_	9	Terminal	9:Terminal	_
+11	Network	Network	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	winning	win	VERB	VBG	_	3	H	3:H	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Academy	Academy	PROPN	NNP	_	16	E	16:E	_
+16	Award	Award	PROPN	NNP	_	13	A	13:A	_
+17	for	for	ADP	IN	_	16	R	16:R	_
+18	Best	Best	PROPN	NNP	_	20	E	20:E	_
+19	Adapted	adapt	PROPN	NNP	_	20	E	20:E	_
+20	Screenplay	Screenplay	PROPN	NNP	_	16	E	16:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

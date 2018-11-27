@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25609017
+# text = » Wenn werden wir zu Vanikoro anlangen ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	7	A	7:A	_
+3	werden	werden	AUX	ADV	_	7	F	7:F	_
+4	wir	wir	PRON	NE	_	7	A	7:A	_
+5	zu	zu	ADP	NE	_	6	R	6:R	_
+6	Vanikoro	Vanikoro	PROPN	NE	_	7	A	7:A	_
+7	anlangen	anlangen	VERB	NE	_	0	H	0:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

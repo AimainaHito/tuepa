@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 664004
+# text = During the album 's recording , Carey and Mottola separated , with Carey citing it as her way of achieving freedom , and a new lease on life .
+1	During	during	ADP	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	album	album	NOUN	NN	_	5	A	5:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	recording	recording	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Carey	Carey	PROPN	NNP	_	10	A	10:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	Mottola	Mottola	PROPN	NNP	_	7	C	7:C	_
+10	separated	separate	VERB	VBD	_	5	H	5:H	_
+11	,	,	PUNCT	,	_	5	U	5:U	_
+12	with	with	SCONJ	IN	_	5	L	5:L	_
+13	Carey	Carey	PROPN	NNP	_	14	A	14:A|20:A	_
+14	citing	cite	VERB	VBG	_	5	H	5:H	_
+15	it	it	PRON	PRP	_	14	A	14:A	_
+16	as	as	ADP	IN	_	18	R	18:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	way	way	NOUN	NN	_	14	A	14:A	_
+19	of	of	SCONJ	IN	_	20	R	20:R	_
+20	achieving	achieve	VERB	VBG	_	18	E	18:E	_
+21	freedom	freedom	NOUN	NN	_	20	A	20:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	and	and	CCONJ	CC	_	21	N	21:N	_
+24	a	a	DET	DT	_	26	E	26:E	_
+25	new	new	ADJ	JJ	_	26	E	26:E	_
+26	lease	lease	NOUN	NN	_	21	C	21:C	_
+27	on	on	ADP	IN	_	28	R	28:R	_
+28	life	life	NOUN	NN	_	26	E	26:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

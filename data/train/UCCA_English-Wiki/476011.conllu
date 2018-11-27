@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 476011
+# text = In addition to these business ventures , Johnson has also created the Magic Card , a pre - paid MasterCard aimed at helping low - income people save money and participate in electronic commerce .
+1	In	in	ADP	IN	_	6	R	6:R	_
+2	addition	addition	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	to	to	ADP	IN	_	6	R	6:R	_
+4	these	these	DET	DT	_	6	E	6:E	_
+5	business	business	NOUN	NN	_	6	E	6:E	_
+6	ventures	venture	NOUN	NNS	_	11	A	11:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Johnson	Johnson	PROPN	NNP	_	11	A	11:A|6:A	_
+9	has	have	AUX	VBZ	_	11	F	11:F	_
+10	also	also	ADV	RB	_	11	D	11:D	_
+11	created	create	VERB	VBN	_	0	H	0:H	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	Magic	magic	PROPN	NNP	_	14	E	14:E	_
+14	Card	Card	PROPN	NNP	_	11	A	11:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	a	a	DET	DT	_	19	E	19:E	_
+17	pre	pre	X	AFX	_	19	D	19:D	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	paid	pay	VERB	VBN	_	21	A	21:A|23:A	_
+20	MasterCard	MasterCard	NOUN	NN	_	19	A	19:A	_
+21	aimed	aim	VERB	VBN	_	14	E	14:E	_
+22	at	at	SCONJ	IN	_	23	R	23:R	_
+23	helping	help	VERB	VBG	_	21	A	21:A	_
+24	low	low	ADJ	JJ	_	26	E	26:E	_
+25	-	-	PUNCT	HYPH	_	26	U	26:U	_
+26	income	income	NOUN	NN	_	27	E	27:E	_
+27	people	people	NOUN	NNS	_	23	A	23:A	_
+28	save	save	ADP	IN	_	23	A	23:A	_
+29	money	money	NOUN	NN	_	28	A	28:A	_
+30	and	and	CCONJ	CC	_	28	N	28:N	_
+31	participate	participate	VERB	VB	_	28	C	28:C	_
+32	in	in	ADP	IN	_	34	R	34:R	_
+33	electronic	electronic	ADJ	JJ	_	34	E	34:E	_
+34	commerce	commerce	NOUN	NN	_	31	A	31:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

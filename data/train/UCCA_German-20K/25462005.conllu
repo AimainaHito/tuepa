@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25462005
+# text = Ned Land zeigte stets hartnäckige Ungläubigkeit ; er stellte sich sogar , als beobachte er außer der Zeit , da er auf dem Verdeck sein mußte , gar nicht die Wasser fläche - wenigstens wenn nicht ein Walfisch in Sicht war .
+1	Ned	Ned	ADJ	NE	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	stets	stets	ADV	ADV	_	3	D	3:D	_
+5	hartnäckige	hartnäckig	ADJ	ADJA	_	6	E	6:E	_
+6	Ungläubigkeit	Ungläubigkeit	NOUN	NN	_	3	A	3:A	_
+7	;	;	PUNCT	$.	_	3	U	3:U	_
+8	er	er	PRON	PPER	_	9	A	9:A	_
+9	stellte	stellen	VERB	VVFIN	_	3	H	3:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	A	9:A	_
+11	sogar	sogar	ADV	ADV	_	9	D	9:D	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	als	als	SCONJ	KOUS	_	14	R	14:R	_
+14	beobachte	beobingen	VERB	ADJA	_	9	A	9:A	_
+15	er	er	PRON	PPER	_	14	A	14:A	_
+16	außer	außer	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Zeit	Zeit	NOUN	NN	_	14	A	14:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	da	da	SCONJ	KOUS	_	25	R	25:R	_
+21	er	er	PRON	PPER	_	25	A	25:A|34:A	_
+22	auf	auf	ADP	APPR	_	24	R	24:R	_
+23	dem	der	DET	ART	_	24	E	24:E	_
+24	Verdeck	Verdeck	NOUN	NN	_	25	A	25:A	_
+25	sein	sein	AUX	VAINF	_	18	E	18:E	_
+26	mußte	müssen	AUX	VVFIN	_	25	D	25:D	_
+27	,	,	PUNCT	$,	_	14	U	14:U	_
+28	gar	gar	ADV	ADV	_	29	E	29:E	_
+29	nicht	nicht	PART	CARD	_	0	C	0:C|34:D	_
+30	die	der	DET	ART	_	32	E	32:E	_
+31	Wasser	Wasser	NOUN	NN	_	32	E	32:E	_
+32	fläche	fläch	ADJ	VVFIN	_	0	C	0:C|34:A	_
+33	-	-	PUNCT	$(	_	34	U	34:U	_
+34	wenigstens	wenigstens	ADV	ADV	_	14	H	14:H	_
+35	wenn	wenn	SCONJ	VVFIN	_	14	L	14:L	_
+36	nicht	nicht	PART	CARD	_	40	D	40:D	_
+37	ein	ein	DET	ART	_	38	E	38:E	_
+38	Walfisch	Walfisch	NOUN	NN	_	40	A	40:A	_
+39	in	in	ADP	APPR	_	40	R	40:R	_
+40	Sicht	Sicht	NOUN	NN	_	14	H	14:H	_
+41	war	sein	AUX	ADV	_	40	F	40:F	_
+42	.	.	PUNCT	$.	_	40	U	40:U	_
+

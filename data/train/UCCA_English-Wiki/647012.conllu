@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 647012
+# text = Lennon , hitherto inhibited by Ono in this regard , began to reestablish contact with other relatives and friends .
+1	Lennon	Lennon	PROPN	NNP	_	14	A	14:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	hitherto	hitherto	PART	TO	_	4	D	4:D	_
+4	inhibited	inhibit	VERB	VBN	_	1	E	1:E	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Ono	Ono	PROPN	NNP	_	4	A	4:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	this	this	DET	DT	_	9	E	9:E	_
+9	regard	regard	NOUN	NN	_	4	D	4:D	_
+10	,	,	PUNCT	,	_	14	U	14:U	_
+11	began	begin	VERB	VBD	_	14	D	14:D	_
+12	to	to	PART	TO	_	14	F	14:F	_
+13	reestablish	reestablish	VERB	VB	_	14	D	14:D	_
+14	contact	contact	NOUN	NN	_	0	H	0:H	_
+15	with	with	ADP	IN	_	17	R	17:R	_
+16	other	other	ADJ	JJ	_	17	E	17:E	_
+17	relatives	relative	NOUN	NNS	_	14	A	14:A	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	friends	friend	NOUN	NNS	_	17	C	17:C	_
+20	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 458011
+# text = " We did very badly with it , " Jennings said . " The audience kicked us in the teeth .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	We	we	PRON	PRP	_	3	A	3:A	_
+3	did	do	VERB	VBD	_	11	A	11:A	_
+4	very	very	ADV	RB	_	5	E	5:E	_
+5	badly	badly	ADV	RB	_	3	D	3:D	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	it	it	PRON	PRP	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	"	"	PUNCT	''	_	11	U	11:U	_
+10	Jennings	Jennings	NOUN	NNS	_	11	A	11:A	_
+11	said	say	VERB	VBD	_	0	H	0:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+13	"	"	PUNCT	``	_	11	U	11:U	_
+14	The	the	DET	DT	_	15	E	15:E	_
+15	audience	audience	NOUN	NN	_	16	A	16:A	_
+16	kicked	kick	VERB	VBD	_	3	H	3:H	_
+17	us	we	PRON	PRP	_	16	A	16:A	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	teeth	teeth	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

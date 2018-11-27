@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25761010
+# text = Eine fürchterliche Explosion hätte nicht ärger zerrissen , zerschnitten , zerfetzt , wie hier mit diesen Massen geschehen war .
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	fürchterliche	fürchterlich	ADJ	ADJA	_	3	D	3:D	_
+3	Explosion	Explosion	NOUN	NN	_	7	A	7:A	_
+4	hätte	haben	AUX	VAFIN	_	7	D	7:D	_
+5	nicht	nicht	PART	XY	_	7	D	7:D	_
+6	ärger	ärger	ADJ	ADJA	_	7	D	7:D	_
+7	zerrissen	zerrissen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	zerschnitten	zerschnitten	VERB	VVPP	_	7	C	7:C	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	zerfetzt	zerfetzen	VERB	VVPP	_	7	C	7:C	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	wie	wie	CCONJ	KON	_	18	R	18:R	_
+14	hier	hier	ADV	ADV	_	18	A	18:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	diesen	dies	PRON	PDAT	_	17	E	17:E	_
+17	Massen	Masse	NOUN	NN	_	18	A	18:A	_
+18	geschehen	geschehen	VERB	VVPP	_	7	H	7:H	_
+19	war	sein	AUX	ADV	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

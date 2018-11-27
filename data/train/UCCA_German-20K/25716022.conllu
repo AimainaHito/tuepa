@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25716022
+# text = Offenbar war das Mittelmeer , eingeengt zwischen Ländern , die Kapitän Nemo meiden wollte , ihm kein angenehmer Aufenthalt .
+1	Offenbar	offenbar	ADJ	NE	_	2	D	2:D	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Mittelmeer	Mittelmeer	PROPN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	eingeengt	eingeengt	VERB	VVPP	_	4	E	4:E	_
+7	zwischen	zwischen	ADP	ADJA	_	8	R	8:R	_
+8	Ländern	Land	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	DET	PRELS	_	13	R	13:R	_
+11	Kapitän	Kapitän	PROPN	FM	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	13	A	13:A	_
+13	meiden	meiden	VERB	VVINF	_	8	E	8:E	_
+14	wollte	wollen	AUX	VMFIN	_	13	D	13:D	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	ihm	er	PRON	PPER	_	2	A	2:A	_
+17	kein	kein	PRON	PIAT	_	2	D	2:D	_
+18	angenehmer	angenehm	ADJ	ADJA	_	19	E	19:E	_
+19	Aufenthalt	Aufenthalt	NOUN	NN	_	2	A	2:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25594004
+# text = Schling pflanzen und Meer gräser nahmen beim Aufwachsen eine streng senkrechte Richtung , wie sie die Dichte des Elements vorschrieb .
+1	Schling	Schling	PROPN	NN	_	2	E	2:E	_
+2	pflanzen	pflanzen	VERB	VVFIN	_	0	C	0:C|8:A	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	Meer	Meer	NOUN	NN	_	5	E	5:E	_
+5	gräser	gräser	ADJ	NN	_	2	C	2:C	_
+6	nahmen	nehmen	VERB	VVFIN	_	0	H	0:H	_
+7	beim	beim	ADJ	NE	_	8	R	8:R	_
+8	Aufwachsen	aufwachsen	NOUN	NE	_	6	A	6:A	_
+9	eine	ein	DET	ART	_	12	E	12:E	_
+10	streng	streng	ADJ	ADJD	_	11	E	11:E	_
+11	senkrechte	senkrecht	ADJ	ADJA	_	12	E	12:E	_
+12	Richtung	Richtung	NOUN	NN	_	6	A	6:A	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	wie	wie	SCONJ	NN	_	6	L	6:L	_
+15	sie	sie	PRON	ADV	_	20	A	20:A	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Dichte	Dichte	NOUN	NN	_	20	A	20:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Elements	Element	NOUN	NN	_	17	E	17:E	_
+20	vorschrieb	vorschreiben	VERB	VVFIN	_	6	H	6:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

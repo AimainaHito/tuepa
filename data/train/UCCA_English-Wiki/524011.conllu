@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 524011
+# text = Following this recognition , she became one of MGM 's most bankable stars .
+1	Following	follow	VERB	VBG	_	3	L	3:L	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	recognition	recognition	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	she	she	PRON	PRP	_	13	A	13:A	_
+6	became	become	VERB	VBD	_	13	D	13:D	_
+7	one	one	NUM	CD	_	13	E	13:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	MGM	MGM	PROPN	NNP	_	13	E	13:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	most	most	ADV	RBS	_	13	D	13:D	_
+12	bankable	bankable	ADJ	JJ	_	13	E	13:E	_
+13	stars	star	NOUN	NNS	_	3	H	3:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

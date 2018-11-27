@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 545002
+# text = In time , however , Warner Bros . produced more films with anti - Nazi messages , including Underground and All Through the Night .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	time	time	NOUN	NN	_	9	D	9:D	_
+3	,	,	PUNCT	,	_	9	U	9:U	_
+4	however	however	ADV	RB	_	9	L	9:L	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	Warner	Warner	PROPN	NNP	_	9	A	9:A	_
+7	Bros	Bros	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	.	_	9	U	9:U	_
+9	produced	produce	VERB	VBN	_	0	H	0:H	_
+10	more	more	ADJ	JJR	_	11	E	11:E	_
+11	films	film	NOUN	NNS	_	9	A	9:A	_
+12	with	with	ADP	IN	_	16	R	16:R	_
+13	anti	anti	X	AFX	_	15	E	15:E	_
+14	-	-	PUNCT	HYPH	_	15	U	15:U	_
+15	Nazi	Nazi	PROPN	NNP	_	16	E	16:E	_
+16	messages	message	NOUN	NNS	_	11	E	11:E	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	including	include	VERB	VBG	_	19	R	19:R	_
+19	Underground	underground	PROPN	NNP	_	11	E	11:E	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	All	all	PROPN	NNP	_	19	C	19:C	_
+22	Through	through	ADP	IN	_	21	Terminal	21:Terminal	_
+23	the	the	DET	DT	_	21	Terminal	21:Terminal	_
+24	Night	night	NOUN	NN	_	21	Terminal	21:Terminal	_
+25	.	.	PUNCT	.	_	19	U	19:U	_
+

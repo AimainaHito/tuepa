@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25489061
+# text = Ich erwiderte in gutem Französisch , dass ich seine Frage nicht verstehe ; aber er schien mich auch nicht zu verstehen , und wir gerieten in einige Verlegenheit .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	gutem	gut	ADJ	ADJA	_	5	E	5:E	_
+5	Französisch	Französisch	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+8	ich	ich	PRON	PPER	_	12	A	12:A	_
+9	seine	sein	DET	PPOSAT	_	10	R	10:R	_
+10	Frage	Frage	NOUN	NN	_	12	A	12:A	_
+11	nicht	nicht	PART	XY	_	12	D	12:D	_
+12	verstehe	verstehen	VERB	VVFIN	_	2	A	2:A	_
+13	;	;	PUNCT	$.	_	2	U	2:U	_
+14	aber	aber	CCONJ	KON	_	2	L	2:L	_
+15	er	er	PRON	PPER	_	16	A	16:A|21:A	_
+16	schien	scheinen	VERB	VVFIN	_	2	H	2:H	_
+17	mich	ich	PRON	PRF	_	21	A	21:A	_
+18	auch	auch	ADV	ADV	_	21	D	21:D	_
+19	nicht	nicht	PART	CARD	_	21	D	21:D	_
+20	zu	zu	PART	NN	_	21	F	21:F	_
+21	verstehen	verstehen	VERB	VVINF	_	16	A	16:A	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	und	und	CCONJ	NE	_	2	L	2:L	_
+24	wir	wir	PRON	NE	_	25	A	25:A	_
+25	gerieten	geraten	VERB	VVFIN	_	2	H	2:H	_
+26	in	in	ADP	APPR	_	25	Terminal	25:Terminal	_
+27	einige	einige	PRON	PIAT	_	25	Terminal	25:Terminal	_
+28	Verlegenheit	Verlegenheit	NOUN	NN	_	25	Terminal	25:Terminal	_
+29	.	.	PUNCT	$.	_	25	U	25:U	_
+

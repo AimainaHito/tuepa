@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25725000
+# text = Welches Band einigte diese heroischen Seelen mit der von Kapitän Nemo ?
+1	Welches	welch	PRON	PRELS	_	2	E	2:E	_
+2	Band	Band	NOUN	NN	_	3	A	3:A	_
+3	einigte	einigen	VERB	VVFIN	_	0	H	0:H	_
+4	diese	dies	PRON	PDS	_	6	E	6:E	_
+5	heroischen	heroisch	ADJ	ADJA	_	6	E	6:E	_
+6	Seelen	Seelen	NOUN	NN	_	3	A	3:A	_
+7	mit	mit	ADP	APPR	_	8	R	8:R	_
+8	der	der	DET	ART	_	3	A	3:A	_
+9	von	von	ADP	NE	_	11	R	11:R	_
+10	Kapitän	Kapitän	PROPN	FM	_	11	E	11:E	_
+11	Nemo	Nemo	PROPN	NE	_	8	E	8:E	_
+12	?	?	PUNCT	$.	_	11	U	11:U	_
+

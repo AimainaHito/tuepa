@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25589009
+# text = Der Stoff der Weste war durch Kupfer plättchen geschützt , die der Brust zum Panzer dienten , um den Druck des Wassers aus zu halten und den Lungen ihre freie Tätigkeit zu sichern .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Stoff	Stoff	NOUN	NN	_	9	A	9:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Weste	weste	NOUN	NE	_	2	E	2:E	_
+5	war	sein	AUX	NN	_	9	F	9:F	_
+6	durch	durch	ADP	APPR	_	8	R	8:R	_
+7	Kupfer	Kupfer	NOUN	NN	_	8	E	8:E	_
+8	plättchen	plättch	ADJ	ADJA	_	0	C	0:C|23:A|16:A|33:A	_
+9	geschützt	schützen	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	16	R	16:R	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Brust	Brust	NOUN	NN	_	16	A	16:A	_
+14	zum	zum	ADP	NN	_	15	R	15:R	_
+15	Panzer	Panzer	NOUN	NN	_	16	A	16:A	_
+16	dienten	dienen	VERB	VVFIN	_	8	E	8:E	_
+17	,	,	PUNCT	$,	_	9	U	9:U	_
+18	um	um	ADP	KOUI	_	9	L	9:L	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Druck	Druck	NOUN	NN	_	23	A	23:A	_
+21	des	der	DET	ART	_	22	R	22:R	_
+22	Wassers	Wasser	NOUN	NN	_	20	E	20:E	_
+23	aus	aus	ADP	PTKVZ	_	9	H	9:H	_
+24	zu	zu	PART	NE	_	23	F	23:F	_
+25	halten	halten	VERB	VVINF	_	23	Terminal	23:Terminal	_
+26	und	und	CCONJ	NE	_	9	L	9:L	_
+27	den	der	DET	ART	_	28	E	28:E	_
+28	Lungen	Lunge	NOUN	NN	_	33	A	33:A	_
+29	ihre	ihr	DET	PPOSAT	_	31	E	31:E	_
+30	freie	frei	ADJ	ADJA	_	31	E	31:E	_
+31	Tätigkeit	Tätigkeit	NOUN	NN	_	33	A	33:A	_
+32	zu	zu	PART	VVINF	_	33	F	33:F	_
+33	sichern	sichern	VERB	VVINF	_	9	H	9:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

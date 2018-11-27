@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 143000
+# text = By the 1980s Hepburn had developed a noticeable tremor , giving her a permanently shaking head .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1980s	1980	NOUN	NNS	_	6	D	6:D	_
+4	Hepburn	Hepburn	PROPN	NNP	_	6	A	6:A	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	developed	develop	VERB	VBN	_	0	H	0:H	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	noticeable	noticeable	ADJ	JJ	_	9	E	9:E	_
+9	tremor	tremor	NOUN	NN	_	0	C	0:C|11:A	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	giving	give	VERB	VBG	_	6	H	6:H	_
+12	her	she	PRON	PRP$	_	11	A	11:A|16:A	_
+13	a	a	DET	DT	_	16	E	16:E	_
+14	permanently	permanently	ADV	RB	_	16	D	16:D	_
+15	shaking	shaking	ADJ	JJ	_	16	D	16:D	_
+16	head	head	NOUN	NN	_	11	A	11:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

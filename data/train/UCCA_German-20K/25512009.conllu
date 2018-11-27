@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25512009
+# text = Die Drähte , unter den Öfen angelangt , teilten Platinaschwämmen eine Wärme mit , die sich verteilte und regelmäßig andauerte .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Drähte	Drähte	NOUN	NN	_	9	A	9:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	unter	unter	ADP	ADJD	_	7	R	7:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Öfen	Ofen	NOUN	NN	_	7	A	7:A	_
+7	angelangt	angelangen	VERB	VVPP	_	2	E	2:E	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	teilten	teilen	VERB	VVFIN	_	0	H	0:H	_
+10	Platinaschwämmen	Platinaschwämmen	NOUN	NE	_	9	A	9:A	_
+11	eine	ein	DET	ART	_	12	E	12:E	_
+12	Wärme	Wärme	NOUN	NN	_	9	A	9:A	_
+13	mit	mit	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	die	der	PRON	PRELS	_	16	R	16:R	_
+16	sich	er|es|sie	PRON	PRF	_	12	E	12:E	_
+17	verteilte	verteilen	VERB	VVFIN	_	16	Terminal	16:Terminal	_
+18	und	und	CCONJ	NE	_	16	N	16:N	_
+19	regelmäßig	regelmäßig	ADJ	ADJD	_	16	C	16:C	_
+20	andauerte	andauern	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	$.	_	16	U	16:U	_
+

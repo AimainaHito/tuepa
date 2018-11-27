@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25746013
+# text = Wie dem auch sein mag , am folgenden Morgen fuhr die ›Nautilus‹ , nachdem sie ihren Zufluchtshafen verlassen , weit ab von jedem Land auf hoher See , einige Meter unter dem Spiegel des Atlantiks .
+1	Wie	wie	SCONJ	KON	_	0	H	0:H	_
+2	dem	der	PRON	ART	_	1	Terminal	1:Terminal	_
+3	auch	auch	ADV	ADV	_	1	Terminal	1:Terminal	_
+4	sein	sein	AUX	VAINF	_	1	Terminal	1:Terminal	_
+5	mag	mögen	AUX	XY	_	1	Terminal	1:Terminal	_
+6	,	,	PUNCT	$,	_	1	U	1:U	_
+7	am	am	ADJ	ADJD	_	9	R	9:R	_
+8	folgenden	folgend	ADJ	NN	_	9	E	9:E	_
+9	Morgen	Morgen	NOUN	XY	_	10	D	10:D	_
+10	fuhr	fahren	VERB	VVFIN	_	1	H	1:H	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	1	U	1:U	_
+14	nachdem	nachdem	SCONJ	PTKVZ	_	1	L	1:L	_
+15	sie	sie	PRON	ADV	_	18	A	18:A	_
+16	ihren	ihr	DET	PPOSAT	_	17	E	17:E	_
+17	Zufluchtshafen	Zufluchtshafen	NOUN	NN	_	18	A	18:A	_
+18	verlassen	verlassen	VERB	NN	_	1	H	1:H	_
+19	,	,	PUNCT	$,	_	1	U	1:U	_
+20	weit	weit	ADJ	ADJD	_	10	D	10:D	_
+21	ab	ab	ADP	PTKVZ	_	20	Terminal	20:Terminal	_
+22	von	von	ADP	NN	_	24	R	24:R	_
+23	jedem	jed	PRON	PIAT	_	24	E	24:E	_
+24	Land	Land	NOUN	NN	_	10	A	10:A	_
+25	auf	auf	ADP	APPR	_	27	R	27:R	_
+26	hoher	hoch	ADJ	ADJA	_	27	E	27:E	_
+27	See	See	NOUN	NN	_	10	A	10:A	_
+28	,	,	PUNCT	$,	_	10	U	10:U	_
+29	einige	einige	PRON	PIAT	_	30	E	30:E	_
+30	Meter	Meter	NOUN	NN	_	10	A	10:A	_
+31	unter	unter	ADP	ADJD	_	33	R	33:R	_
+32	dem	der	DET	ART	_	33	E	33:E	_
+33	Spiegel	Spiegel	NOUN	NN	_	30	E	30:E	_
+34	des	der	DET	ART	_	35	R	35:R	_
+35	Atlantiks	Atlantiks	PROPN	NE	_	33	E	33:E	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

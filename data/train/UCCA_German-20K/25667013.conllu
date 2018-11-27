@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25667013
+# text = Ihr Fleisch war meist nicht viel wert , aber ihre Eier bildeten eine treffliche Erfrischung .
+1	Ihr	Ihr|ihr	DET	PPOSAT	_	2	R	2:R	_
+2	Fleisch	Fleisch	NOUN	NN	_	7	A	7:A	_
+3	war	sein	AUX	ADV	_	7	F	7:F	_
+4	meist	meist	ADV	ADV	_	7	D	7:D	_
+5	nicht	nicht	PART	CARD	_	6	E	6:E	_
+6	viel	viel	PRON	ADJD	_	7	D	7:D	_
+7	wert	wert	ADJ	ADJD	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	aber	aber	CCONJ	KON	_	7	L	7:L	_
+10	ihre	ihr	DET	PPOSAT	_	11	R	11:R	_
+11	Eier	Eier	NOUN	NN	_	12	A	12:A	_
+12	bildeten	bilden	VERB	VVFIN	_	7	H	7:H	_
+13	eine	ein	DET	ART	_	15	E	15:E	_
+14	treffliche	trefflich	ADJ	ADJA	_	15	D	15:D	_
+15	Erfrischung	Erfrischung	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

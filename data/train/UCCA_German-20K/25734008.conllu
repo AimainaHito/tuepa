@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25734008
+# text = 2 Stunden nachdem wir die ›Nautilus‹ verlassen hatten , waren wir über die Linie des Baumwuchses hinausgekommen , und 100 Fuß über unseren Köpfen ragte die Spitze des Berges empor , der die glänzende Bestrahlung des Abhangs der anderen Seite verdeckte .
+1	2	2	NUM	CARD	_	2	E	2:E	_
+2	Stunden	Stunde|Stunden	NOUN	NN	_	17	D	17:D	_
+3	nachdem	nachdem	SCONJ	ADJA	_	17	L	17:L	_
+4	wir	wir	PRON	NN	_	7	A	7:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	7	A	7:A	_
+7	verlassen	verlassen	VERB	NN	_	17	H	17:H	_
+8	hatten	haben	AUX	VAFIN	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	17	U	17:U	_
+10	waren	sein	AUX	VAFIN	_	17	F	17:F	_
+11	wir	wir	PRON	NE	_	17	A	17:A	_
+12	über	über	ADP	VVFIN	_	14	R	14:R	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Linie	Linie	NOUN	NN	_	17	A	17:A	_
+15	des	der	DET	ART	_	16	R	16:R	_
+16	Baumwuchses	Baumwuchs	NOUN	NN	_	14	E	14:E	_
+17	hinausgekommen	hinausgekommen	VERB	VVFIN	_	0	H	0:H	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	und	und	CCONJ	NE	_	17	L	17:L	_
+20	100	100	NUM	CARD	_	21	E	21:E	_
+21	Fuß	Fuß	NOUN	NN	_	25	A	25:A	_
+22	über	über	ADP	ADJD	_	24	R	24:R	_
+23	unseren	unser	PRON	PPOSAT	_	24	E	24:E	_
+24	Köpfen	Köpfen	NOUN	NN	_	21	E	21:E	_
+25	ragte	ragt	VERB	VVFIN	_	17	H	17:H	_
+26	die	der	DET	ART	_	27	E	27:E	_
+27	Spitze	Spitze	NOUN	NN	_	25	A	25:A	_
+28	des	der	DET	ART	_	29	R	29:R	_
+29	Berges	Berg	NOUN	NN	_	27	E	27:E	_
+30	empor	empor	X	NE	_	25	Terminal	25:Terminal	_
+31	,	,	PUNCT	$,	_	25	U	25:U	_
+32	der	der	PRON	PRELS	_	41	R	41:R	_
+33	die	der	DET	ART	_	35	E	35:E	_
+34	glänzende	glänzend	ADJ	ADJA	_	35	D	35:D	_
+35	Bestrahlung	Bestrahlung	NOUN	NN	_	41	A	41:A	_
+36	des	der	DET	ART	_	37	R	37:R	_
+37	Abhangs	Abhang	NOUN	NN	_	35	A	35:A	_
+38	der	der	DET	ART	_	40	R	40:R	_
+39	anderen	ander	ADJ	ADJA	_	40	E	40:E	_
+40	Seite	Seite	NOUN	NN	_	37	A	37:A	_
+41	verdeckte	verdecken	VERB	VVFIN	_	29	E	29:E	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

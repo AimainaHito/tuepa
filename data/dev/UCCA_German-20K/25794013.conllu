@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25794013
+# text = Mein wackerer Conseil , der dasselbe zu leiden hatte , wich nicht von meiner Seite .
+1	Mein	mein	ADV	PPOSAT	_	3	E	3:E	_
+2	wackerer	wacker	PRON	ADJA	_	3	E	3:E	_
+3	Conseil	Conseil	NOUN	NN	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	der	der	PRON	PRELS	_	8	R	8:R	_
+6	dasselbe	dasselbe	PRON	PDAT	_	8	A	8:A	_
+7	zu	zu	PART	VVINF	_	8	F	8:F	_
+8	leiden	leiden	VERB	VVINF	_	3	E	3:E	_
+9	hatte	haben	AUX	VAFIN	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	wich	weichen	ADJ	NN	_	0	H	0:H	_
+12	nicht	nicht	PART	CARD	_	11	D	11:D	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	meiner	mein	DET	PPOSAT	_	15	E	15:E	_
+15	Seite	Seite	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25590009
+# text = Die Ruhmkorffsche Lampe an meinem Gürtel , das Gewehr in der Hand , war ich fertig zum Fortgehen .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Ruhmkorffsche	Ruhmkorffsch	PROPN	ADJA	_	3	E	3:E	_
+3	Lampe	Lampe	PROPN	NN	_	0	H	0:H	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	meinem	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Gürtel	Gürtel	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	das	der	DET	ART	_	9	E	9:E	_
+9	Gewehr	Gewehr	NOUN	NN	_	3	H	3:H	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Hand	Hand	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	war	sein	AUX	ADV	_	16	F	16:F	_
+15	ich	ich	PRON	PPER	_	16	A	16:A	_
+16	fertig	fertig	ADJ	ADJD	_	3	H	3:H	_
+17	zum	zum	ADJ	NN	_	18	R	18:R	_
+18	Fortgehen	Fortgehen	NOUN	VVFIN	_	16	A	16:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25596010
+# text = Kapitän Nemo hatte seinen elektrischen Apparat in Tätigkeit gesetzt .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+3	hatte	haben	AUX	VAFIN	_	7	F	7:F	_
+4	seinen	sein	DET	PPOSAT	_	6	E	6:E	_
+5	elektrischen	elektrisch	ADJ	ADJA	_	6	E	6:E	_
+6	Apparat	Apparat	NOUN	NE	_	7	A	7:A	_
+7	in	in	ADP	APPR	_	0	H	0:H	_
+8	Tätigkeit	Tätigkeit	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	gesetzt	setzen	VERB	VVPP	_	7	Terminal	7:Terminal	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+

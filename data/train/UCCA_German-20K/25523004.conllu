@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25523004
+# text = » Mein Herr « , erwiderte er , » ich habe verschiedene Chronometer , die nach den Meridianen von Paris , Greenwich und Washington gestellt sind . Aber Ihnen zu Ehren will ich mich des Parisers bedienen . «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	11	G	11:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	ich	ich	PRON	PPER	_	11	A	11:A	_
+11	habe	haben	VERB	VAFIN	_	6	A	6:A	_
+12	verschiedene	verschieden	ADJ	ADJA	_	13	E	13:E	_
+13	Chronometer	Chronometer	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	PRELS	_	25	R	25:R	_
+16	nach	nach	ADP	NN	_	18	R	18:R	_
+17	den	der	DET	ART	_	18	E	18:E	_
+18	Meridianen	Meridian	NOUN	NN	_	25	A	25:A	_
+19	von	von	ADP	NN	_	20	R	20:R	_
+20	Paris	Paris	PROPN	NE	_	18	E	18:E	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	Greenwich	Greenwich	PROPN	NE	_	20	C	20:C	_
+23	und	und	CCONJ	NE	_	20	N	20:N	_
+24	Washington	Washington	PROPN	NE	_	20	C	20:C	_
+25	gestellt	stellen	VERB	VVPP	_	13	E	13:E	_
+26	sind	sein	AUX	NN	_	25	F	25:F	_
+27	.	.	PUNCT	$.	_	11	U	11:U	_
+28	Aber	aber	CCONJ	KON	_	11	L	11:L	_
+29	Ihnen	Sie|sie	PRON	PPER	_	34	A	34:A	_
+30	zu	zu	ADP	NE	_	31	R	31:R	_
+31	Ehren	Ehre|Ehren	NOUN	NN	_	34	A	34:A	_
+32	will	wollen	AUX	NE	_	34	D	34:D	_
+33	ich	ich	PRON	PPER	_	34	A	34:A	_
+34	mich	ich	PRON	PRF	_	11	H	11:H	_
+35	des	der	DET	ART	_	36	R	36:R	_
+36	Parisers	Pariser	NOUN	NN	_	34	A	34:A	_
+37	bedienen	bedienen	VERB	VVFIN	_	34	Terminal	34:Terminal	_
+38	.	.	PUNCT	$.	_	34	U	34:U	_
+39	«	«	PUNCT	$(	_	34	U	34:U	_
+

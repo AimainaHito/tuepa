@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25621012
+# text = » Wie dem auch sein mag « , fuhr Ned Land fort , » jedes vier füßige ungefiederte oder zwei füßige gefiederte Tier wird meinem ersten Schuß willkommen sein . «
+1	»	»	PUNCT	$(	_	28	U	28:U	_
+2	Wie	wie	SCONJ	NE	_	28	G	28:G	_
+3	dem	der	PRON	ART	_	2	Terminal	2:Terminal	_
+4	auch	auch	ADV	ADV	_	2	Terminal	2:Terminal	_
+5	sein	sein	DET	VAINF	_	2	Terminal	2:Terminal	_
+6	mag	mögen	NOUN	XY	_	2	Terminal	2:Terminal	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+10	Ned	Ned	PROPN	NE	_	9	A	9:A	_
+11	Land	Land	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	fort	fort	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	»	»	PUNCT	$(	_	9	U	9:U	_
+15	jedes	jed	PRON	PIAT	_	23	E	23:E	_
+16	vier	vier	NUM	NN	_	17	E	17:E	_
+17	füßige	füßige	NOUN	ADJA	_	23	E	23:E	_
+18	ungefiederte	ungefiederen	VERB	ADJA	_	17	C	17:C	_
+19	oder	oder	CCONJ	CARD	_	17	N	17:N	_
+20	zwei	zwei	NUM	NN	_	21	E	21:E	_
+21	füßige	füßige	NOUN	ADJA	_	17	C	17:C	_
+22	gefiederte	gefiedert	ADJ	ADJA	_	21	C	21:C	_
+23	Tier	Tier	NOUN	NN	_	28	A	28:A	_
+24	wird	werden	AUX	VAFIN	_	28	F	28:F	_
+25	meinem	mein	PRON	PPOSAT	_	27	E	27:E	_
+26	ersten	erst	ADJ	ADJA	_	27	E	27:E	_
+27	Schuß	Schuß	NOUN	NN	_	28	A	28:A	_
+28	willkommen	willkommen	ADJ	VVPP	_	9	A	9:A	_
+29	sein	sein	AUX	VAINF	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	28	U	28:U	_
+31	«	«	PUNCT	$(	_	28	U	28:U	_
+

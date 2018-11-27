@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 130002
+# text = When asked if she had any children , she snapped back , " Yes I have five : two white and three colored .
+1	When	when	ADV	WRB	_	2	L	2:L	_
+2	asked	ask	VERB	VBN	_	0	H	0:H	_
+3	if	if	SCONJ	IN	_	5	R	5:R	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	had	have	VERB	VBD	_	2	A	2:A	_
+6	any	any	DET	DT	_	7	E	7:E	_
+7	children	child	NOUN	NNS	_	0	C	0:C|17:C	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	she	she	PRON	PRP	_	10	A	10:A|2:A	_
+10	snapped	snap	VERB	VBD	_	2	H	2:H	_
+11	back	back	ADV	RB	_	10	E	10:E	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	"	"	PUNCT	''	_	10	U	10:U	_
+14	Yes	yes	INTJ	UH	_	10	A	10:A	_
+15	I	I	PRON	PRP	_	16	A	16:A	_
+16	have	have	VERB	VBP	_	14	H	14:H	_
+17	five	five	NUM	CD	_	16	A	16:A	_
+18	:	:	PUNCT	:	_	17	U	17:U	_
+19	two	two	NUM	CD	_	20	E	20:E	_
+20	white	white	NOUN	NN	_	17	E	17:E	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	three	three	NUM	CD	_	23	E	23:E	_
+23	colored	colore	NOUN	NN	_	20	C	20:C	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

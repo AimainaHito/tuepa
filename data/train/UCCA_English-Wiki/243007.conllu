@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 243007
+# text = He made his directorial debut with the 2002 independent feature Chelsea Walls .
+1	He	he	PRON	PRP	_	5	A	5:A	_
+2	made	make	VERB	VBD	_	5	F	5:F	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	directorial	directorial	ADJ	JJ	_	5	E	5:E	_
+5	debut	debut	NOUN	NN	_	0	H	0:H	_
+6	with	with	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	2002	2002	NUM	CD	_	11	E	11:E	_
+9	independent	independent	ADJ	JJ	_	10	E	10:E	_
+10	feature	feature	NOUN	NN	_	11	E	11:E	_
+11	Chelsea	Chelsea	PROPN	NNP	_	5	A	5:A	_
+12	Walls	walls	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

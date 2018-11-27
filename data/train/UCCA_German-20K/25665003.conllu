@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25665003
+# text = Stets dasselbe Mißtrauen , das wilde , unversöhnliche , gegen die menschliche Gesellschaft !
+1	Stets	stets	ADV	ADV	_	3	D	3:D	_
+2	dasselbe	dasselbe	PRON	PDAT	_	3	E	3:E	_
+3	Mißtrauen	Mißtrauen	NOUN	NN	_	0	C	0:C|5:C	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	das	der	PRON	PRELS	_	6	A	6:A	_
+6	wilde	wilde	ADJ	NN	_	3	H	3:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	unversöhnliche	unversöhnlich	ADJ	ADJA	_	6	C	6:C	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	gegen	gegen	ADP	APPR	_	13	R	13:R	_
+11	die	der	DET	ART	_	13	E	13:E	_
+12	menschliche	menschlich	ADJ	ADJA	_	13	E	13:E	_
+13	Gesellschaft	Gesellschaft	NOUN	NN	_	3	A	3:A	_
+14	!	!	PUNCT	$.	_	13	U	13:U	_
+

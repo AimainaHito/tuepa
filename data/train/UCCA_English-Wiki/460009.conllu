@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 460009
+# text = The two began writing the book in early 2001 ; after the terrorist attacks , they revisited many of the people they had interviewed to see how the events had affected them .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	two	two	NUM	CD	_	4	A	4:A	_
+3	began	begin	VERB	VBD	_	4	D	4:D	_
+4	writing	write	VERB	VBG	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	book	book	NOUN	NN	_	4	A	4:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	early	early	ADJ	JJ	_	9	E	9:E	_
+9	2001	2001	NUM	CD	_	4	D	4:D	_
+10	;	;	PUNCT	,	_	4	U	4:U	_
+11	after	after	ADP	IN	_	4	L	4:L	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	terrorist	terrorist	NOUN	NN	_	14	E	14:E	_
+14	attacks	attack	NOUN	NNS	_	4	H	4:H	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	they	they	PRON	PRP	_	17	A	17:A	_
+17	revisited	revisit	VERB	VBD	_	4	H	4:H	_
+18	many	many	ADJ	JJ	_	21	E	21:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	people	people	NOUN	NNS	_	24	A	24:A	_
+22	they	they	PRON	PRP	_	24	A	24:A	_
+23	had	have	AUX	VBD	_	24	F	24:F	_
+24	interviewed	interview	VERB	VBN	_	17	A	17:A	_
+25	to	to	PART	TO	_	4	L	4:L	_
+26	see	see	VERB	VB	_	4	H	4:H	_
+27	how	how	ADV	WRB	_	31	D	31:D	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	events	event	NOUN	NNS	_	31	A	31:A	_
+30	had	have	AUX	VBD	_	31	F	31:F	_
+31	affected	affect	VERB	VBN	_	26	A	26:A	_
+32	them	they	PRON	PRP	_	31	A	31:A	_
+33	.	.	PUNCT	.	_	31	U	31:U	_
+

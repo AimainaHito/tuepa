@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25798003
+# text = » Ja « , fuhr Ned Land fort , » das Recht , Sie mit mir zu nehmen , wenn ich diese höllische ›Nautilus‹ verlassen werde . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+7	Land	Land	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	fort	fort	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	»	»	PUNCT	$(	_	5	U	5:U	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	Recht	Recht	NOUN	NN	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	Sie	Sie|sie	PRON	PPER	_	18	A	18:A	_
+15	mit	mit	ADP	APPR	_	16	R	16:R	_
+16	mir	ich	PRON	PPER	_	18	A	18:A	_
+17	zu	zu	PART	NE	_	18	F	18:F	_
+18	nehmen	nehmen	VERB	CARD	_	2	H	2:H	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+21	ich	ich	PRON	PPER	_	25	A	25:A	_
+22	diese	dies	PRON	PDAT	_	24	E	24:E	_
+23	höllische	höllisch	ADJ	ADJA	_	24	E	24:E	_
+24	›Nautilus‹	›Nautilus‹	NOUN	NE	_	25	A	25:A	_
+25	verlassen	verlassen	VERB	NN	_	2	H	2:H	_
+26	werde	werden	AUX	NN	_	25	F	25:F	_
+27	.	.	PUNCT	$.	_	25	U	25:U	_
+28	«	«	PUNCT	$(	_	25	U	25:U	_
+

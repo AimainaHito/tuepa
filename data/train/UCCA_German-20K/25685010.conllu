@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25685010
+# text = Hier sah ich zwischen blätterigen Falten eine freiliegende Perle von der Größe einer Kokos nuß .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	zwischen	zwischen	ADP	ADJA	_	6	R	6:R	_
+5	blätterigen	blätterig	ADJ	ADJA	_	6	E	6:E	_
+6	Falten	falten	NOUN	VVFIN	_	2	A	2:A	_
+7	eine	ein	DET	ART	_	9	E	9:E	_
+8	freiliegende	freiliegend	ADJ	ADJA	_	9	E	9:E	_
+9	Perle	Perl	NOUN	NN	_	12	A	12:A	_
+10	von	von	ADP	NN	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Größe	Größe	NOUN	NN	_	2	A	2:A	_
+13	einer	ein	DET	ART	_	15	R	15:R	_
+14	Kokos	Kokos	NOUN	NE	_	15	E	15:E	_
+15	nuß	nüssen	VERB	VMFIN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

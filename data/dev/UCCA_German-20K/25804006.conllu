@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25804006
+# text = Die Manati ließen sich ohne Widerstand erlegen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Manati	Manati	PROPN	NN	_	7	A	7:A	_
+3	ließen	lassen	VERB	VVFIN	_	7	D	7:D	_
+4	sich	er|es|sie	PRON	PRF	_	7	A	7:A	_
+5	ohne	ohne	ADP	NN	_	7	D	7:D	_
+6	Widerstand	Widerstand	NOUN	NN	_	7	A	7:A	_
+7	erlegen	erlegen	ADP	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

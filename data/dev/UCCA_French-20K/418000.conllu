@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 418000
+# text = À mon arrivée à New York , la question brûlait .
+1	À	à	ADP	_	_	3	L	3:L	_
+2	mon	son	DET	_	_	3	E	3:E	_
+3	arrivée	arrivée	NOUN	_	_	0	H	0:H	_
+4	à	à	ADP	_	_	5	R	5:R	_
+5	New	New	PROPN	_	_	3	A	3:A	_
+6	York	York	PROPN	_	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	_	_	3	U	3:U	_
+8	la	le	DET	_	_	9	E	9:E	_
+9	question	question	NOUN	_	_	10	A	10:A	_
+10	brûlait	brûler	VERB	_	_	3	H	3:H	_
+11	.	.	PUNCT	_	_	10	U	10:U	_
+

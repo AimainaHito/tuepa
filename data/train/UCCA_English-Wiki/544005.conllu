@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 544005
+# text = Warner later described the incident in the following terms : " Like many an outnumbered Jew he was trapped in an alley . They [ Nazi hoodlums ] hit him with fists and clubs and then kicked the life out of him with their boots and left him dying there .
+1	Warner	Warner	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	described	describe	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	incident	incident	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	following	follow	VERB	VBG	_	9	E	9:E	_
+9	terms	term	NOUN	NNS	_	3	A	3:A	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	"	"	PUNCT	``	_	9	U	9:U	_
+12	Like	like	INTJ	UH	_	16	R	16:R	_
+13	many	many	DET	PDT	_	16	E	16:E	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	outnumbered	outnumbered	ADJ	JJ	_	16	E	16:E	_
+16	Jew	Jew	PROPN	NNP	_	19	A	19:A	_
+17	he	he	PRON	PRP	_	19	A	19:A	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	trapped	trap	VERB	VBN	_	9	E	9:E	_
+20	in	in	ADP	IN	_	22	R	22:R	_
+21	an	a	DET	DT	_	22	E	22:E	_
+22	alley	alley	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	19	U	19:U	_
+24	They	they	PRON	PRP	_	0	C	0:C|49:A|37:A	_
+25	[	[	PUNCT	-LRB-	_	24	U	24:U	_
+26	Nazi	Nazi	PROPN	NNP	_	24	E	24:E	_
+27	hoodlums	hoodlum	NOUN	NNS	_	26	E	26:E	_
+28	]	]	PUNCT	-RRB-	_	29	U	29:U	_
+29	hit	hit	VERB	VBD	_	19	H	19:H	_
+30	him	he	PRON	PRP	_	29	A	29:A	_
+31	with	with	ADP	IN	_	32	R	32:R	_
+32	fists	fist	NOUN	NNS	_	29	A	29:A	_
+33	and	and	CCONJ	CC	_	32	N	32:N	_
+34	clubs	club	NOUN	NNS	_	32	C	32:C	_
+35	and	and	CCONJ	CC	_	19	L	19:L	_
+36	then	then	ADV	RB	_	37	D	37:D	_
+37	kicked	kick	VERB	VBD	_	19	H	19:H	_
+38	the	the	DET	DT	_	37	Terminal	37:Terminal	_
+39	life	life	NOUN	NN	_	37	Terminal	37:Terminal	_
+40	out	out	ADP	IN	_	37	Terminal	37:Terminal	_
+41	of	of	ADP	IN	_	37	Terminal	37:Terminal	_
+42	him	he	PRON	PRP	_	37	Terminal	37:Terminal	_
+43	with	with	ADP	IN	_	45	R	45:R	_
+44	their	they	PRON	PRP$	_	45	E	45:E	_
+45	boots	boot	NOUN	NNS	_	37	A	37:A	_
+46	and	and	CCONJ	CC	_	19	L	19:L	_
+47	left	leave	VERB	VBD	_	49	D	49:D	_
+48	him	he	PRON	PRP	_	49	A	49:A	_
+49	dying	die	VERB	VBG	_	19	H	19:H	_
+50	there	there	ADV	RB	_	49	A	49:A	_
+51	.	.	PUNCT	.	_	49	U	49:U	_
+

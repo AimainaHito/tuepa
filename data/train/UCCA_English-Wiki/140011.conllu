@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 140011
+# text = " Reviews for the production were mediocre , but Hepburn herself was praised and Coco was popular with the public .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	Reviews	review	NOUN	NNS	_	7	A	7:A	_
+3	for	for	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	production	production	NOUN	NN	_	2	E	2:E	_
+6	were	be	AUX	VBD	_	7	F	7:F	_
+7	mediocre	mediocre	ADJ	JJ	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	but	but	CCONJ	CC	_	7	L	7:L	_
+10	Hepburn	Hepburn	PROPN	NNP	_	13	A	13:A	_
+11	herself	herself	PRON	PRP	_	10	E	10:E	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	praised	praise	VERB	VBN	_	7	H	7:H	_
+14	and	and	CCONJ	CC	_	7	L	7:L	_
+15	Coco	Coco	PROPN	NNP	_	17	A	17:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	popular	popular	ADJ	JJ	_	7	H	7:H	_
+18	with	with	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	public	public	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

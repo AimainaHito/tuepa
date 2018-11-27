@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 231017
+# text = In addition , the finalists will be given roles in a forthcoming BTV action series .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	addition	addition	NOUN	NN	_	8	L	8:L	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	finalists	finalist	NOUN	NNS	_	8	A	8:A	_
+6	will	will	AUX	MD	_	8	F	8:F	_
+7	be	be	AUX	VB	_	8	F	8:F	_
+8	given	give	VERB	VBN	_	0	H	0:H	_
+9	roles	role	NOUN	NNS	_	8	A	8:A	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	a	a	DET	DT	_	15	E	15:E	_
+12	forthcoming	forthcoming	ADJ	JJ	_	15	E	15:E	_
+13	BTV	BTV	NOUN	NN	_	15	E	15:E	_
+14	action	action	NOUN	NN	_	15	E	15:E	_
+15	series	series	NOUN	NN	_	8	A	8:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

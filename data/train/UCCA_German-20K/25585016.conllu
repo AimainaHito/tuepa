@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25585016
+# text = Es bestand aus verschiedenen Fischen und Stücken Holothurien , trefflichen Tier pflanzen , Bei essen von eröffnenden Algen .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	bestand	bestehen	VERB	VVFIN	_	0	H	0:H	_
+3	aus	aus	ADP	APPR	_	5	R	5:R	_
+4	verschiedenen	verschieden	ADJ	ADJA	_	5	E	5:E	_
+5	Fischen	Fisch|Fischen	NOUN	NN	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Stücken	Stück	NOUN	NN	_	8	E	8:E	_
+8	Holothurien	Holothurien	PROPN	NE	_	5	C	5:C	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	trefflichen	trefflichen	VERB	ADJA	_	12	E	12:E	_
+11	Tier	Tier	NOUN	TRUNC	_	12	E	12:E	_
+12	pflanzen	pflanzen	VERB	VVFIN	_	5	C	5:C	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	Bei	Bei	NOUN	APPR	_	15	E	15:E	_
+15	essen	essen	VERB	NN	_	5	C	5:C	_
+16	von	von	ADP	NN	_	18	R	18:R	_
+17	eröffnenden	eröffnend	ADJ	ADJA	_	18	E	18:E	_
+18	Algen	Alge	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 244010
+# text = Hawke later described the disappointment as difficult to bear at such a young age , adding " I would never recommend that a kid act .
+1	Hawke	Hawke	PROPN	NNP	_	3	A	3:A|9:A|16:A	_
+2	later	later	ADV	RB	_	3	L	3:L	_
+3	described	describe	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	disappointment	disappointment	NOUN	NN	_	3	A	3:A	_
+6	as	as	SCONJ	IN	_	9	R	9:R	_
+7	difficult	difficult	ADJ	JJ	_	9	E	9:E	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	bear	bear	VERB	VB	_	3	A	3:A	_
+10	at	at	ADP	IN	_	14	R	14:R	_
+11	such	such	DET	PDT	_	14	R	14:R	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	young	young	ADJ	JJ	_	14	E	14:E	_
+14	age	age	NOUN	NN	_	9	D	9:D	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	adding	add	VERB	VBG	_	3	H	3:H	_
+17	"	"	PUNCT	``	_	16	U	16:U	_
+18	I	I	PRON	PRP	_	21	A	21:A	_
+19	would	would	AUX	MD	_	21	F	21:F	_
+20	never	never	ADV	RB	_	21	D	21:D	_
+21	recommend	recommend	VERB	VB	_	16	A	16:A	_
+22	that	that	SCONJ	IN	_	25	F	25:F	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	kid	kid	NOUN	NN	_	25	A	25:A	_
+25	act	act	NOUN	NN	_	21	A	21:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

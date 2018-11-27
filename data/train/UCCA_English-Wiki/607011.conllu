@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 607011
+# text = The following year , he and Jackson worked on " Say Say Say " , McCartney 's most recent US number one as of 2012 .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	R	3:R	_
+3	year	year	NOUN	NN	_	8	D	8:D	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	he	he	PRON	PRP	_	8	A	8:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Jackson	Jackson	PROPN	NNP	_	5	C	5:C	_
+8	worked	work	VERB	VBD	_	0	H	0:H	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	Say	Say	PROPN	NNP	_	8	A	8:A	_
+12	Say	Say	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Say	Say	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	"	"	PUNCT	''	_	11	U	11:U	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	McCartney	McCartney	PROPN	NNP	_	22	E	22:E	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	most	most	ADV	RBS	_	19	R	19:R	_
+19	recent	recent	ADJ	JJ	_	22	E	22:E	_
+20	US	US	PROPN	NNP	_	22	E	22:E	_
+21	number	number	NOUN	NN	_	22	E	22:E	_
+22	one	one	NUM	CD	_	11	E	11:E	_
+23	as	as	ADP	IN	_	25	R	25:R	_
+24	of	of	ADP	IN	_	25	E	25:E	_
+25	2012	2012	NUM	CD	_	22	E	22:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

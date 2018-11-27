@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 461004
+# text = " The anchor 's formal pledge of allegiance took place at a regular citizenship ceremony on May 30 in Lower Manhattan .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	The	the	DET	DT	_	8	E	8:E	_
+3	anchor	anchor	NOUN	NN	_	8	E	8:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	formal	formal	ADJ	JJ	_	8	E	8:E	_
+6	pledge	pledge	NOUN	NN	_	8	E	8:E	_
+7	of	of	ADP	IN	_	6	R	6:R	_
+8	allegiance	allegiance	NOUN	NN	_	10	A	10:A	_
+9	took	take	VERB	VBD	_	10	F	10:F	_
+10	place	place	NOUN	NN	_	0	H	0:H	_
+11	at	at	ADP	IN	_	15	R	15:R	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	regular	regular	ADJ	JJ	_	15	E	15:E	_
+14	citizenship	citizenship	NOUN	NN	_	15	E	15:E	_
+15	ceremony	ceremony	NOUN	NN	_	10	A	10:A	_
+16	on	on	ADP	IN	_	17	R	17:R	_
+17	May	May	PROPN	NNP	_	10	D	10:D	_
+18	30	30	NUM	CD	_	17	Terminal	17:Terminal	_
+19	in	in	ADP	IN	_	21	R	21:R	_
+20	Lower	lower	PROPN	NNP	_	21	E	21:E	_
+21	Manhattan	Manhattan	PROPN	NNP	_	10	A	10:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

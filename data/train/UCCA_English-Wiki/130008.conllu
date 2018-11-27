@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 130008
+# text = He reportedly told Hepburn , " I can 't see Rhett Butler chasing you for twelve years . "
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	reportedly	reportedly	ADV	RB	_	3	D	3:D	_
+3	told	tell	VERB	VBD	_	0	H	0:H	_
+4	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	"	"	PUNCT	''	_	3	U	3:U	_
+7	I	I	PRON	PRP	_	10	A	10:A	_
+8	can	can	AUX	MD	_	10	F	10:F	_
+9	't	ot	PART	RB	_	10	D	10:D	_
+10	see	see	VERB	VB	_	3	A	3:A	_
+11	Rhett	Rhett	PROPN	NNP	_	13	A	13:A	_
+12	Butler	Butler	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	chasing	chase	VERB	VBG	_	10	A	10:A	_
+14	you	you	PRON	PRP	_	13	A	13:A	_
+15	for	for	ADP	IN	_	17	R	17:R	_
+16	twelve	twelve	NUM	CD	_	17	E	17:E	_
+17	years	year	NOUN	NNS	_	13	D	13:D	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+19	"	"	PUNCT	''	_	17	U	17:U	_
+

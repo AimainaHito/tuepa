@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 107000
+# text = Jolie 's career prospects began to improve after she won a Golden Globe Award for her performance in TNT 's George Wallace ( 1997 ) . She portrayed Cornelia Wallace , the second wife of Alabama Governor George Wallace , played by Gary Sinise .
+1	Jolie	Jolie	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	career	career	NOUN	NN	_	4	E	4:E	_
+4	prospects	prospects	NOUN	NNS	_	7	A	7:A	_
+5	began	begin	VERB	VBD	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	improve	improve	VERB	VB	_	0	H	0:H	_
+8	after	after	SCONJ	IN	_	7	L	7:L	_
+9	she	she	PRON	PRP	_	10	A	10:A	_
+10	won	win	VERB	VBD	_	7	H	7:H	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	Golden	golden	PROPN	NNP	_	14	E	14:E	_
+13	Globe	Globe	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Award	Award	PROPN	NNP	_	10	A	10:A	_
+15	for	for	ADP	IN	_	17	R	17:R	_
+16	her	she	PRON	PRP$	_	17	A	17:A	_
+17	performance	performance	NOUN	NN	_	10	A	10:A	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	TNT	Tnt	PROPN	NNP	_	21	E	21:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	George	George	PROPN	NNP	_	17	A	17:A	_
+22	Wallace	Wallace	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+24	1997	1997	NUM	CD	_	21	E	21:E	_
+25	)	)	PUNCT	-RRB-	_	7	U	7:U	_
+26	.	.	PUNCT	.	_	7	U	7:U	_
+27	She	she	PRON	PRP	_	28	A	28:A	_
+28	portrayed	portray	VERB	VBD	_	7	H	7:H	_
+29	Cornelia	Cornelia	PROPN	NNP	_	28	A	28:A	_
+30	Wallace	Wallace	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	29	U	29:U	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	second	second	ADJ	JJ	_	34	E	34:E	_
+34	wife	wife	NOUN	NN	_	29	E	29:E	_
+35	of	of	ADP	IN	_	38	R	38:R	_
+36	Alabama	Alabama	PROPN	NNP	_	37	E	37:E	_
+37	Governor	Governor	PROPN	NNP	_	38	E	38:E	_
+38	George	George	PROPN	NNP	_	34	E	34:E	_
+39	Wallace	Wallace	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	,	,	PUNCT	,	_	29	U	29:U	_
+41	played	play	VERB	VBD	_	29	E	29:E	_
+42	by	by	ADP	IN	_	43	R	43:R	_
+43	Gary	gary	PROPN	NNP	_	41	A	41:A	_
+44	Sinise	Sinise	PROPN	NNP	_	43	Terminal	43:Terminal	_
+45	.	.	PUNCT	.	_	43	U	43:U	_
+

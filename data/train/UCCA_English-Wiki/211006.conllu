@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 211006
+# text = Hoffman married Anne Byrne in May 1969 .
+1	Hoffman	Hoffman	PROPN	NNP	_	2	A	2:A	_
+2	married	marry	VERB	VBD	_	0	H	0:H	_
+3	Anne	Anne	PROPN	NNP	_	2	A	2:A	_
+4	Byrne	Byrne	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	May	May	PROPN	NNP	_	2	D	2:D	_
+7	1969	1969	NUM	CD	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	.	_	6	U	6:U	_
+

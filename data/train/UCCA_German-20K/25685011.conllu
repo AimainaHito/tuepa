@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25685011
+# text = Ihre kugelrunde Form , vollkommene Klarheit , ihr bewundernswertes Wasser machte sie zu einem Kleinod von unschätzbarem Wert .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	3	E	3:E	_
+2	kugelrunde	kugelrunde	ADJ	NN	_	3	E	3:E	_
+3	Form	Form	NOUN	NN	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	11	U	11:U	_
+5	vollkommene	vollkommen	ADJ	ADJA	_	6	E	6:E	_
+6	Klarheit	Klarheit	NOUN	NN	_	11	A	11:A	_
+7	,	,	PUNCT	$,	_	11	U	11:U	_
+8	ihr	ihr	PRON	PPOSAT	_	10	E	10:E	_
+9	bewundernswertes	bewundernswert	ADJ	ADJA	_	10	E	10:E	_
+10	Wasser	Wasser	NOUN	NN	_	11	A	11:A	_
+11	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+12	sie	sie	PRON	ADV	_	11	A	11:A	_
+13	zu	zu	ADP	VVINF	_	15	R	15:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Kleinod	Kleinod	NOUN	NN	_	11	A	11:A	_
+16	von	von	ADP	NN	_	18	R	18:R	_
+17	unschätzbarem	unschätzbar	ADJ	PPOSAT	_	18	E	18:E	_
+18	Wert	Wert	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

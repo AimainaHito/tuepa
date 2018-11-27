@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25489123
+# text = Als unser Appetit befriedigt war , machte sich das Bedürfnis des Schlafs gebieterisch geltend .
+1	Als	als	SCONJ	KOKOM	_	4	L	4:L	_
+2	unser	unser	PRON	FM	_	3	E	3:E	_
+3	Appetit	Appetit	NOUN	NE	_	4	A	4:A	_
+4	befriedigt	befriedigen	VERB	VVFIN	_	0	H	0:H	_
+5	war	sein	AUX	ADV	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	machte	machen	VERB	VVFIN	_	4	H	4:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Bedürfnis	Bedürfnis	NOUN	NN	_	7	A	7:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Schlafs	Schlaf	NOUN	NN	_	10	E	10:E	_
+13	gebieterisch	gebieterisch	ADJ	ADJD	_	7	D	7:D	_
+14	geltend	geltend	ADJ	ADJD	_	7	Terminal	7:Terminal	_
+15	.	.	PUNCT	$.	_	7	U	7:U	_
+

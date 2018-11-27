@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25763019
+# text = Ansichten , die in den schief fallenden Sonnenstrahlen unaufhörlich wechselten oder inmitten der Schnee stürme sich in graue Nebel verloren .
+1	Ansichten	Ansicht	NOUN	NN	_	0	H	0:H	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	die	der	PRON	PRELS	_	10	R	10:R	_
+4	in	in	ADP	APPR	_	8	R	8:R	_
+5	den	der	DET	ART	_	8	E	8:E	_
+6	schief	schief	ADV	ADJD	_	7	D	7:D	_
+7	fallenden	fallend	ADJ	ADJA	_	10	A	10:A	_
+8	Sonnenstrahlen	Sonnenstrahlen	NOUN	NN	_	7	A	7:A	_
+9	unaufhörlich	unaufhörlich	ADJ	ADJD	_	10	D	10:D	_
+10	wechselten	wechselt	ADJ	VVFIN	_	1	E	1:E	_
+11	oder	oder	CCONJ	CARD	_	10	N	10:N	_
+12	inmitten	inmitten	ADP	APPR	_	15	R	15:R	_
+13	der	der	DET	ART	_	15	R	15:R	_
+14	Schnee	Schnee	NOUN	NN	_	15	E	15:E	_
+15	stürme	stürm	ADJ	ADJA	_	16	A	16:A	_
+16	sich	er|es|sie	PRON	PRF	_	10	C	10:C	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	graue	grau	ADJ	ADJA	_	19	E	19:E	_
+19	Nebel	Nebel	NOUN	NN	_	16	A	16:A	_
+20	verloren	verlieren	VERB	VVPP	_	16	Terminal	16:Terminal	_
+21	.	.	PUNCT	$.	_	16	U	16:U	_
+

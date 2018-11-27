@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25792000
+# text = Diesen Abend musste Kapitän Nemo die Hähne seiner Luft behälter öffnen und einige Ströme reiner Luft in die ›Nautilus‹ hineinlassen .
+1	Diesen	dies	PRON	PDAT	_	2	E	2:E	_
+2	Abend	Abend	NOUN	NN	_	11	D	11:D	_
+3	musste	müssen	AUX	VVFIN	_	11	D	11:D|20:D	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	0	C	0:C|20:A	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Hähne	Hahn	NOUN	NN	_	11	A	11:A	_
+8	seiner	sein	DET	PPOSAT	_	10	R	10:R	_
+9	Luft	Luft	NOUN	NN	_	10	E	10:E	_
+10	behälter	behält	ADJ	ADJA	_	7	E	7:E	_
+11	öffnen	öffnen	VERB	VVFIN	_	0	H	0:H	_
+12	und	und	CCONJ	NE	_	11	L	11:L	_
+13	einige	einige	PRON	PIAT	_	14	E	14:E	_
+14	Ströme	Ströme	NOUN	NN	_	16	E	16:E	_
+15	reiner	rein	ADJ	PPOSAT	_	16	E	16:E	_
+16	Luft	Luft	NOUN	NN	_	20	A	20:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	›Nautilus‹	›Nautilus‹	NOUN	NE	_	20	A	20:A	_
+20	hineinlassen	hineinlassen	ADV	VVFIN	_	11	H	11:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

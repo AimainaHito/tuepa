@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25768014
+# text = Aber auf Conseil machte die Mitteilung des Planes , nach dem Südpol zu dringen , doch noch weniger Eindruck .
+1	Aber	aber	CCONJ	KON	_	19	L	19:L	_
+2	auf	auf	ADP	APPR	_	3	R	3:R	_
+3	Conseil	Conseil	NOUN	NE	_	19	A	19:A	_
+4	machte	machen	VERB	VVFIN	_	19	F	19:F	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Mitteilung	Mitteilung	NOUN	NN	_	19	A	19:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Planes	Planes	NOUN	NE	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	nach	nach	ADP	CARD	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Südpol	Südpol	NOUN	NE	_	14	A	14:A	_
+13	zu	zu	PART	NE	_	14	F	14:F	_
+14	dringen	dringen	VERB	VVFIN	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	19	U	19:U	_
+16	doch	doch	ADV	KON	_	19	F	19:F	_
+17	noch	noch	ADV	ADV	_	18	E	18:E	_
+18	weniger	weniger	ADJ	PIAT	_	19	D	19:D	_
+19	Eindruck	Eindruck	NOUN	NN	_	0	H	0:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

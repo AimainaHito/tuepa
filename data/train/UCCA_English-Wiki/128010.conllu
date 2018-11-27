@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 128010
+# text = Dorothy Parker quipped , " Katharine Hepburn runs the gamut of emotions from A to B .
+1	Dorothy	Dorothy	PROPN	NNP	_	3	A	3:A	_
+2	Parker	Parker	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	quipped	quip	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	Katharine	Katharine	PROPN	NNP	_	8	A	8:A	_
+7	Hepburn	Hepburn	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	runs	run	VERB	VBZ	_	3	A	3:A	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	gamut	gamut	NOUN	NN	_	12	E	12:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	emotions	emotion	NOUN	NNS	_	8	A	8:A	_
+13	from	from	ADP	IN	_	14	R	14:R	_
+14	A	A	PROPN	NNP	_	8	A	8:A	_
+15	to	to	ADP	IN	_	14	N	14:N	_
+16	B	B	PROPN	NNP	_	14	C	14:C	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

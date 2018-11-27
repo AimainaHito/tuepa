@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25754022
+# text = » Wieviel Mann glauben Sie , dass sich an Bord der ›Nautilus‹ befinden ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wieviel	Wieviel	PROPN	PIAT	_	4	A	4:A	_
+3	Mann	Mann	PROPN	NN	_	2	A	2:A|8:A	_
+4	glauben	glauben	VERB	VVFIN	_	0	H	0:H	_
+5	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	dass	dass	SCONJ	KOUS	_	8	F	8:F	_
+8	sich	er|es|sie	PRON	PRF	_	2	E	2:E	_
+9	an	an	ADP	APPR	_	10	R	10:R	_
+10	Bord	Bord	NOUN	NN	_	8	A	8:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	E	10:E	_
+13	befinden	befinden	VERB	VVFIN	_	8	Terminal	8:Terminal	_
+14	?	?	PUNCT	$.	_	8	U	8:U	_
+15	«	«	PUNCT	$(	_	8	U	8:U	_
+

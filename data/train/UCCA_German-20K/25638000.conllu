@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25638000
+# text = Bei diesen Worten schien Kapitän Nemo von Rührung ergriffen .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Worten	Wort	NOUN	NN	_	9	A	9:A	_
+4	schien	scheinen	VERB	VVFIN	_	9	G	9:G	_
+5	Kapitän	Kapitän	PROPN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+7	von	von	ADP	NE	_	8	R	8:R	_
+8	Rührung	Rührung	NOUN	NN	_	9	A	9:A	_
+9	ergriffen	ergriffen	VERB	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

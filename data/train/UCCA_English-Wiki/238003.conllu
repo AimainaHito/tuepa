@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 238003
+# text = Following the 2008 Sichuan earthquake , Chan donated RMB ¥ 10 million to help those in need .
+1	Following	follow	VERB	VBG	_	5	L	5:L	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	2008	2008	NUM	CD	_	5	D	5:D	_
+4	Sichuan	Sichuan	PROPN	NNP	_	5	A	5:A	_
+5	earthquake	earthquake	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Chan	Chan	PROPN	NNP	_	8	A	8:A	_
+8	donated	donate	VERB	VBD	_	5	H	5:H	_
+9	RMB	RMB	PROPN	NNP	_	8	A	8:A	_
+10	¥	¥	SYM	$	_	9	U	9:U	_
+11	10	10	NUM	CD	_	9	Terminal	9:Terminal	_
+12	million	million	NUM	CD	_	9	Terminal	9:Terminal	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	help	help	VERB	VB	_	8	A	8:A	_
+15	those	those	PRON	DT	_	14	A	14:A	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	need	need	NOUN	NN	_	15	E	15:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

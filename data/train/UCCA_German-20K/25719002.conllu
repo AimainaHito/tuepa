@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25719002
+# text = » Nun , die Erde wird dereinst so ein kalter Leichnam sein . Sie wird unbewohnbar und unbewohnt sein wie der Mond , der längst seine Lebenswärme verloren hat . «
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Nun	nun	ADV	ADV	_	12	F	12:F	_
+3	,	,	PUNCT	$,	_	12	U	12:U	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Erde	Erde	NOUN	NE	_	12	A	12:A	_
+6	wird	werden	AUX	VAFIN	_	12	F	12:F	_
+7	dereinst	dereinst	ADV	ADV	_	12	D	12:D	_
+8	so	so	ADV	ADV	_	12	D	12:D	_
+9	ein	ein	DET	ART	_	11	E	11:E	_
+10	kalter	kalt	ADJ	ADJA	_	11	E	11:E	_
+11	Leichnam	Leichnam	NOUN	NN	_	12	A	12:A	_
+12	sein	sein	AUX	VAINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+14	Sie	Sie|sie	PRON	PPER	_	16	A	16:A|18:A	_
+15	wird	werden	AUX	VAFIN	_	16	F	16:F	_
+16	unbewohnbar	unbewohnbar	ADJ	ADJD	_	12	H	12:H	_
+17	und	und	CCONJ	NE	_	12	L	12:L	_
+18	unbewohnt	unbewohnen	ADJ	ADJD	_	12	H	12:H	_
+19	sein	sein	AUX	VAINF	_	18	F	18:F	_
+20	wie	wie	ADP	ADV	_	12	L	12:L	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Mond	Mond	NOUN	NN	_	12	H	12:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	der	der	PRON	PRELS	_	28	R	28:R	_
+25	längst	längst	ADV	ADV	_	28	D	28:D	_
+26	seine	sein	DET	PPOSAT	_	27	E	27:E	_
+27	Lebenswärme	Lebenswärme	NOUN	NN	_	28	A	28:A	_
+28	verloren	verlieren	VERB	VVPP	_	22	E	22:E	_
+29	hat	haben	AUX	VAFIN	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	28	U	28:U	_
+31	«	«	PUNCT	$(	_	28	U	28:U	_
+

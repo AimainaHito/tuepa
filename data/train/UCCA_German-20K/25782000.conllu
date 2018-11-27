@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25782000
+# text = Um 3 Uhr früh wurde ich durch einen heftigen Stoß aufgerüttelt .
+1	Um	um	ADP	KOUI	_	4	R	4:R	_
+2	3	3	NUM	CARD	_	4	E	4:E	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	früh	früh	CCONJ	ADJD	_	11	D	11:D	_
+5	wurde	werden	AUX	TRUNC	_	11	F	11:F	_
+6	ich	ich	PRON	PPER	_	11	A	11:A	_
+7	durch	durch	ADP	APPR	_	10	R	10:R	_
+8	einen	ein	DET	ART	_	10	E	10:E	_
+9	heftigen	heftig	ADJ	ADJA	_	10	E	10:E	_
+10	Stoß	Stoß	NOUN	NN	_	11	A	11:A	_
+11	aufgerüttelt	aufgerütteln	VERB	VVPP	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25439000
+# text = Das Geleit der Boote und Tender verließ die Fregatte erst auf der Höhe des Leuchtboots , dessen zwei Feuer die Einfahrt in das Seegatt von New York bezeichnen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Geleit	Geleit	NOUN	NN	_	7	A	7:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Boote	Boot	NOUN	NN	_	2	E	2:E	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Tender	Tender	NOUN	NE	_	4	C	4:C	_
+7	verließ	verlassen	VERB	VVFIN	_	0	H	0:H	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Fregatte	Fregatte	NOUN	NN	_	7	A	7:A	_
+10	erst	erst	ADV	ADV	_	7	D	7:D	_
+11	auf	auf	ADP	APPR	_	15	R	15:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Höhe	Höhe	NOUN	NN	_	15	E	15:E	_
+14	des	der	DET	ART	_	13	R	13:R	_
+15	Leuchtboots	Leuchtboot	NOUN	NN	_	7	A	7:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	dessen	der	PRON	PRELAT	_	28	R	28:R	_
+18	zwei	zwei	NUM	NN	_	19	E	19:E	_
+19	Feuer	Feuer	NOUN	ADJA	_	28	A	28:A	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Einfahrt	Einfahrt	NOUN	NN	_	28	A	28:A	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	das	der	DET	ART	_	24	E	24:E	_
+24	Seegatt	Seegatt	NOUN	NN	_	21	A	21:A	_
+25	von	von	ADP	NN	_	26	R	26:R	_
+26	New	New	PROPN	NE	_	21	A	21:A	_
+27	York	York	PROPN	NE	_	26	Terminal	26:Terminal	_
+28	bezeichnen	bezeichnen	VERB	VVFIN	_	15	E	15:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

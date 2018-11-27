@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25523007
+# text = » 37 Grad und 15 Minuten westlicher Länge vom Pariser Meridian ab , und 30 Grad , 7 Minuten nördlicher Breite , d.h . etwa 300 Meilen vom Gestade Japans . Heute haben wir den 8 . November , da zu Mittag unsere unterseeische Forschungsreise beginnt . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	37	37	NUM	CARD	_	3	E	3:E	_
+3	Grad	Grad	NOUN	NN	_	0	H	0:H	_
+4	und	und	CCONJ	NN	_	3	N	3:N	_
+5	15	15	NUM	CARD	_	6	E	6:E	_
+6	Minuten	Minute	NOUN	NN	_	3	C	3:C	_
+7	westlicher	westlich	ADJ	ADJA	_	8	E	8:E	_
+8	Länge	Länge	NOUN	NN	_	3	E	3:E	_
+9	vom	vom	ADP	NE	_	11	R	11:R	_
+10	Pariser	Pariser	PROPN	ADJA	_	11	E	11:E	_
+11	Meridian	Meridian	PROPN	NE	_	3	E	3:E	_
+12	ab	ab	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	und	und	CCONJ	NE	_	3	N	3:N	_
+15	30	30	NUM	CARD	_	16	E	16:E	_
+16	Grad	Grad	NOUN	NN	_	3	C	3:C	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	7	7	NUM	CARD	_	19	E	19:E	_
+19	Minuten	Minute	NOUN	NN	_	16	C	16:C	_
+20	nördlicher	nördlich	ADJ	ADJA	_	21	E	21:E	_
+21	Breite	Breite	NOUN	NN	_	16	E	16:E	_
+22	,	,	PUNCT	$,	_	3	U	3:U	_
+23	d.h	d.h	CCONJ	ADJD	_	3	L	3:L	_
+24	.	.	PUNCT	$.	_	3	U	3:U	_
+25	etwa	etwa	ADV	ADV	_	27	D	27:D	_
+26	300	300	NUM	CARD	_	27	E	27:E	_
+27	Meilen	Meile	NOUN	NN	_	3	H	3:H	_
+28	vom	vom	ADJ	NN	_	30	R	30:R	_
+29	Gestade	Gestade	NOUN	NE	_	30	E	30:E	_
+30	Japans	Japan	PROPN	NE	_	27	E	27:E	_
+31	.	.	PUNCT	$.	_	3	U	3:U	_
+32	Heute	heute	PROPN	ADV	_	33	D	33:D	_
+33	haben	haben	AUX	VAFIN	_	3	H	3:H	_
+34	wir	wir	PRON	NE	_	33	A	33:A	_
+35	den	der	DET	ART	_	36	E	36:E	_
+36	8	8	NUM	CARD	_	33	D	33:D	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+38	November	November	PROPN	NN	_	36	Terminal	36:Terminal	_
+39	,	,	PUNCT	$,	_	3	U	3:U	_
+40	da	da	SCONJ	KOUS	_	3	L	3:L	_
+41	zu	zu	ADP	ADJA	_	42	R	42:R	_
+42	Mittag	mittag	NOUN	NN	_	46	D	46:D	_
+43	unsere	unser	PRON	PPOSAT	_	45	E	45:E	_
+44	unterseeische	unterseeisch	ADJ	ADJA	_	45	E	45:E	_
+45	Forschungsreise	Forschungsreise	NOUN	NN	_	46	A	46:A	_
+46	beginnt	beginnen	VERB	VVFIN	_	3	H	3:H	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+48	«	«	PUNCT	$(	_	46	U	46:U	_
+

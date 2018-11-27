@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25737000
+# text = Diese historischen Erinnerungen rief die Inschrift von Kapitän Nemo in meinem Geist wach .
+1	Diese	dies	PRON	PDS	_	3	E	3:E	_
+2	historischen	historischen	ADJ	ADJA	_	3	D	3:D	_
+3	Erinnerungen	Erinnerung	NOUN	NN	_	4	A	4:A	_
+4	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Inschrift	Inschrift	NOUN	NN	_	4	A	4:A	_
+7	von	von	ADP	NE	_	9	R	9:R	_
+8	Kapitän	Kapitän	PROPN	FM	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	meinem	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Geist	Geist	NOUN	NN	_	4	A	4:A	_
+13	wach	wechen	VERB	VVFIN	_	4	Terminal	4:Terminal	_
+14	.	.	PUNCT	$.	_	4	U	4:U	_
+

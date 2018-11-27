@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25810014
+# text = Ihr spindelförmiger , in der Mitte aufgedunsener Leib bildete eine fleischige Masse , die 20- bis 25.000 Kilogramm wiegen musste .
+1	Ihr	Ihr|ihr	DET	PPOSAT	_	8	E	8:E	_
+2	spindelförmiger	spindelförmig	ADJ	ADJA	_	8	E	8:E	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Mitte	Mitte	NOUN	NN	_	7	A	7:A	_
+7	aufgedunsener	aufgedunsen	ADJ	ADJA	_	8	E	8:E	_
+8	Leib	Leib	NOUN	NN	_	9	A	9:A	_
+9	bildete	bilden	VERB	VVFIN	_	0	H	0:H	_
+10	eine	ein	DET	ART	_	12	E	12:E	_
+11	fleischige	fleischig	ADJ	ADJA	_	12	E	12:E	_
+12	Masse	Masse	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	PRON	PRELS	_	19	R	19:R	_
+15	20-	20-	PUNCT	$(	_	18	E	18:E	_
+16	bis	bis	ADP	APPR	_	15	N	15:N	_
+17	25.000	25.0	NUM	CARD	_	15	C	15:C	_
+18	Kilogramm	Kilogramm	NOUN	NN	_	19	A	19:A	_
+19	wiegen	wiegen	VERB	VVINF	_	12	E	12:E	_
+20	musste	müssen	AUX	VVFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25680029
+# text = Dort , unter düsterem Gewässer , befand sich die Perl muschel bank , ein unerschöpfliches Feld , das über 20 Meilen weit sich erstreckt .
+1	Dort	dort	ADV	ADV	_	7	A	7:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	unter	unter	ADP	ADJD	_	5	R	5:R	_
+4	düsterem	düster	PRON	ADJA	_	5	E	5:E	_
+5	Gewässer	Gewässer	NOUN	NN	_	1	E	1:E	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	die	der	DET	ART	_	12	E	12:E	_
+10	Perl	Perl	PROPN	NN	_	11	E	11:E	_
+11	muschel	muschel	PROPN	NE	_	12	E	12:E	_
+12	bank	binken	VERB	NE	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	ein	ein	DET	ART	_	16	E	16:E	_
+15	unerschöpfliches	unerschöpflich	ADJ	ADJA	_	16	E	16:E	_
+16	Feld	Feld	NOUN	NN	_	12	C	12:C	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	das	der	PRON	ART	_	23	R	23:R	_
+19	über	über	ADP	NN	_	20	R	20:R	_
+20	20	20	NUM	CARD	_	23	A	23:A	_
+21	Meilen	Meile	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	weit	weit	ADJ	ADJD	_	23	D	23:D	_
+23	sich	er|es|sie	PRON	PRF	_	16	E	16:E	_
+24	erstreckt	erstrecken	VERB	ADJD	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

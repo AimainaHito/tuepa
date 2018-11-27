@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25694000
+# text = Der Schwamm gehört nicht dem Pflanzen reich an , wie noch manche Natur forscher annehmen , sondern ist ein Tier der letzten Ordnung , ein Polypen geschöpf , das noch niedriger steht als die Koralle .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Schwamm	Schwamm	NOUN	NN	_	0	C	0:C|18:A|27:A	_
+3	gehört	gehören	VERB	VVFIN	_	0	H	0:H	_
+4	nicht	nicht	PART	XY	_	3	D	3:D	_
+5	dem	der	DET	ART	_	7	E	7:E	_
+6	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	7	E	7:E	_
+7	reich	reich	ADJ	NN	_	3	A	3:A	_
+8	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	wie	wie	ADV	KON	_	3	L	3:L	_
+11	noch	noch	ADV	CARD	_	15	D	15:D	_
+12	manche	manch	PRON	PIAT	_	14	E	14:E	_
+13	Natur	Natur	NOUN	NN	_	14	E	14:E	_
+14	forscher	forsch	PRON	ADJA	_	15	A	15:A	_
+15	annehmen	annehmen	VERB	VVFIN	_	3	H	3:H	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	sondern	sondern	CCONJ	NN	_	3	L	3:L	_
+18	ist	sein	AUX	VVFIN	_	3	H	3:H	_
+19	ein	ein	DET	ART	_	20	E	20:E	_
+20	Tier	Tier	NOUN	NN	_	18	A	18:A	_
+21	der	der	DET	ART	_	23	R	23:R	_
+22	letzten	letzt	ADJ	ADJA	_	23	E	23:E	_
+23	Ordnung	Ordnung	NOUN	NN	_	20	E	20:E	_
+24	,	,	PUNCT	$,	_	3	U	3:U	_
+25	ein	ein	DET	ART	_	27	E	27:E	_
+26	Polypen	Polyp	NOUN	NN	_	27	E	27:E	_
+27	geschöpf	geschöpf	ADJ	NN	_	3	H	3:H	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	das	der	PRON	PRELS	_	32	R	32:R	_
+30	noch	noch	ADV	CARD	_	32	D	32:D	_
+31	niedriger	niedrig	ADJ	ADJD	_	32	D	32:D	_
+32	steht	stehen	VERB	VVFIN	_	0	S	0:S|35:P	_
+33	als	als	ADP	KOKOM	_	35	R	35:R	_
+34	die	der	DET	ART	_	35	E	35:E	_
+35	Koralle	Koralle	NOUN	NN	_	3	H	3:H	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

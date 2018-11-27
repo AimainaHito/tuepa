@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25788021
+# text = » Erstens « , fuhr er fort , » den Tod des Erdrückens und zweitens den des Erstickens . Vom Hungertod rede ich nicht , denn unsere Lebensmittel reichen gewiß weiter aus als unser Leben . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Erstens	erstens	ADV	ADV	_	13	D	13:D	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	fort	fort	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Tod	Tod	NOUN	NN	_	13	A	13:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Erdrückens	Erdrücken	NOUN	NN	_	5	A	5:A	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	zweitens	zweitens	ADP	NE	_	18	D	18:D	_
+16	den	der	PRON	ART	_	18	A	18:A	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Erstickens	Ersticken	NOUN	NN	_	13	H	13:H	_
+19	.	.	PUNCT	$.	_	13	U	13:U	_
+20	Vom	Vom	PROPN	NE	_	21	R	21:R	_
+21	Hungertod	Hungertod	PROPN	NE	_	22	A	22:A	_
+22	rede	red	PRON	PIS	_	13	H	13:H	_
+23	ich	ich	PRON	PPER	_	22	A	22:A	_
+24	nicht	nicht	PART	CARD	_	22	D	22:D	_
+25	,	,	PUNCT	$,	_	13	U	13:U	_
+26	denn	denn	SCONJ	KON	_	13	L	13:L	_
+27	unsere	unser	PRON	PPOSAT	_	28	E	28:E	_
+28	Lebensmittel	Lebensmittel	NOUN	NN	_	29	A	29:A	_
+29	reichen	reichen	VERB	VVFIN	_	13	H	13:H	_
+30	gewiß	gewiß	ADJ	ADJD	_	29	G	29:G	_
+31	weiter	weiter	ADJ	ADV	_	29	D	29:D	_
+32	aus	aus	ADP	PTKVZ	_	29	Terminal	29:Terminal	_
+33	als	als	ADP	KOKOM	_	35	R	35:R	_
+34	unser	unser	PRON	NN	_	35	E	35:E	_
+35	Leben	Leben	NOUN	NN	_	29	A	29:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+37	«	«	PUNCT	$(	_	35	U	35:U	_
+

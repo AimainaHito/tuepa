@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 213009
+# text = Her father worked as a medical services executive , and her mother was an artist and one - time gallery owner .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	father	father	NOUN	NN	_	3	A	3:A	_
+3	worked	work	VERB	VBD	_	0	H	0:H	_
+4	as	as	ADP	IN	_	8	R	8:R	_
+5	a	a	DET	DT	_	8	E	8:E	_
+6	medical	medical	ADJ	JJ	_	7	E	7:E	_
+7	services	service	NOUN	NNS	_	8	E	8:E	_
+8	executive	executive	ADJ	JJ	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	mother	mother	NOUN	NN	_	13	A	13:A	_
+13	was	be	AUX	VBD	_	3	H	3:H	_
+14	an	a	DET	DT	_	15	E	15:E	_
+15	artist	artist	NOUN	NN	_	13	A	13:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	one	one	NUM	CD	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	time	time	NOUN	NN	_	21	E	21:E	_
+20	gallery	gallery	NOUN	NN	_	21	E	21:E	_
+21	owner	owner	NOUN	NN	_	15	C	15:C	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

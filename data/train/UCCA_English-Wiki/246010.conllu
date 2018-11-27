@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 246010
+# text = Although Gattaca was not a success at the box office it drew generally favorable reviews from critics , and Hawke 's performance was critically well - received .
+1	Although	although	SCONJ	IN	_	6	L	6:L	_
+2	Gattaca	Gattaca	PROPN	NNP	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	not	not	PART	RB	_	6	D	6:D	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	success	success	NOUN	NN	_	0	H	0:H	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	box	box	NOUN	NN	_	6	A	6:A	_
+10	office	office	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	it	it	PRON	PRP	_	12	A	12:A	_
+12	drew	draw	VERB	VBD	_	6	H	6:H	_
+13	generally	generally	ADV	RB	_	12	D	12:D	_
+14	favorable	favorable	ADJ	JJ	_	15	E	15:E	_
+15	reviews	review	NOUN	NNS	_	12	A	12:A	_
+16	from	from	ADP	IN	_	17	R	17:R	_
+17	critics	critic	NOUN	NNS	_	12	A	12:A	_
+18	,	,	PUNCT	,	_	6	U	6:U	_
+19	and	and	CCONJ	CC	_	6	L	6:L	_
+20	Hawke	Hawke	PROPN	NNP	_	22	A	22:A	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	performance	performance	NOUN	NN	_	27	A	27:A	_
+23	was	be	AUX	VBD	_	27	F	27:F	_
+24	critically	critically	ADV	RB	_	27	A	27:A	_
+25	well	well	ADV	RB	_	27	D	27:D	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	received	receive	VERB	VBN	_	6	H	6:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

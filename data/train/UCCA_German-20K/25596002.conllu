@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25596002
+# text = Ich vermutete übrigens , dass hier unser Spaziergang sich endigen würde ; aber ich täuschte mich , Kapitän Nemo setzte seinen kühnen Ausflug fort .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	vermutete	vermuten	VERB	VVFIN	_	0	H	0:H	_
+3	übrigens	übrigens	ADV	ADV	_	2	G	2:G	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	9	R	9:R	_
+6	hier	hier	ADV	ADV	_	9	A	9:A	_
+7	unser	unser	PRON	NN	_	8	E	8:E	_
+8	Spaziergang	Spaziergang	NOUN	NE	_	9	A	9:A	_
+9	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+10	endigen	endigen	VERB	ADJA	_	9	Terminal	9:Terminal	_
+11	würde	werden	AUX	NN	_	9	F	9:F	_
+12	;	;	PUNCT	$.	_	2	U	2:U	_
+13	aber	aber	CCONJ	ADV	_	2	L	2:L	_
+14	ich	ich	PRON	PPER	_	15	A	15:A	_
+15	täuschte	täuschen	VERB	VVFIN	_	2	H	2:H	_
+16	mich	ich	PRON	PRF	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	Kapitän	Kapitän	NOUN	NN	_	19	E	19:E	_
+19	Nemo	Nemo	PROPN	NE	_	20	A	20:A	_
+20	setzte	setzen	VERB	VVFIN	_	2	H	2:H	_
+21	seinen	sein	DET	PPOSAT	_	23	E	23:E	_
+22	kühnen	sküe	PRON	NN	_	23	E	23:E	_
+23	Ausflug	Ausflug	NOUN	NE	_	20	A	20:A	_
+24	fort	fort	ADV	PTKVZ	_	20	Terminal	20:Terminal	_
+25	.	.	PUNCT	$.	_	20	U	20:U	_
+

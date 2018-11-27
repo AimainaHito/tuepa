@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 808004
+# text = The couple had a two - and - a - half - year relationship , and were due to marry until Rhone 's miscarriage ; according to Spitz , McCartney , now " free of obligation " , ended the engagement .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	couple	couple	NOUN	NN	_	14	A	14:A|20:A	_
+3	had	have	VERB	VBD	_	14	F	14:F	_
+4	a	a	DET	DT	_	14	E	14:E	_
+5	two	two	NUM	CD	_	13	E	13:E	_
+6	-	-	PUNCT	HYPH	_	5	U	5:U	_
+7	and	and	CCONJ	CC	_	5	Terminal	5:Terminal	_
+8	-	-	PUNCT	HYPH	_	5	U	5:U	_
+9	a	a	DET	DT	_	5	Terminal	5:Terminal	_
+10	-	-	PUNCT	HYPH	_	5	U	5:U	_
+11	half	half	NOUN	NN	_	5	Terminal	5:Terminal	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	year	year	NOUN	NN	_	14	D	14:D	_
+14	relationship	relationship	NOUN	NN	_	0	H	0:H	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	and	and	CCONJ	CC	_	14	L	14:L	_
+17	were	be	AUX	VBD	_	20	F	20:F	_
+18	due	due	ADJ	JJ	_	20	E	20:E	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	marry	marry	VERB	VB	_	14	H	14:H	_
+21	until	until	ADP	IN	_	14	L	14:L	_
+22	Rhone	Rhone	PROPN	NNP	_	24	A	24:A	_
+23	's	's	PART	POS	_	22	R	22:R	_
+24	miscarriage	miscarriage	NOUN	NN	_	14	H	14:H	_
+25	;	;	PUNCT	,	_	14	U	14:U	_
+26	according	accord	VERB	VBG	_	14	H	14:H	_
+27	to	to	ADP	IN	_	28	R	28:R	_
+28	Spitz	Spitz	PROPN	NNP	_	26	A	26:A	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	McCartney	McCartney	PROPN	NNP	_	39	A	39:A	_
+31	,	,	PUNCT	,	_	30	U	30:U	_
+32	now	now	ADV	RB	_	34	D	34:D	_
+33	"	"	PUNCT	``	_	34	U	34:U	_
+34	free	free	ADJ	JJ	_	30	E	30:E	_
+35	of	of	ADP	IN	_	36	R	36:R	_
+36	obligation	obligation	NOUN	NN	_	34	E	34:E	_
+37	"	"	PUNCT	''	_	39	U	39:U	_
+38	,	,	PUNCT	,	_	39	U	39:U	_
+39	ended	end	VERB	VBD	_	26	A	26:A	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	engagement	engagement	NOUN	NN	_	39	A	39:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

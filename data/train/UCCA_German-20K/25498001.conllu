@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25498001
+# text = Ich dachte , der Kommandant werde mir die Hand reichen , um unseren Vertrag zu besiegeln .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Kommandant	Kommandant	NOUN	NN	_	0	C	0:C|16:A	_
+6	werde	werden	AUX	NE	_	10	F	10:F	_
+7	mir	ich	PRON	PPER	_	10	A	10:A	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Hand	Hand	NOUN	NN	_	10	A	10:A	_
+10	reichen	reichen	VERB	VVFIN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	um	um	ADP	KOUI	_	10	L	10:L	_
+13	unseren	unser	PRON	PPOSAT	_	14	E	14:E	_
+14	Vertrag	Vertrag	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	besiegeln	besiegeln	VERB	VVFIN	_	10	H	10:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

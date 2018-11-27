@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 472005
+# text = There they faced the Chicago Bulls , led by shooting guard Michael Jordan , a five - time scoring champion regarded as the finest player of his era .
+1	There	there	PRON	EX	_	3	L	3:L	_
+2	they	they	PRON	PRP	_	3	A	3:A	_
+3	faced	face	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Chicago	Chicago	PROPN	NNP	_	3	A	3:A	_
+6	Bulls	Bulls	PROPN	NNPS	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	led	lead	VERB	VBN	_	5	E	5:E	_
+9	by	by	ADP	IN	_	12	R	12:R	_
+10	shooting	shoote	NOUN	NN	_	12	E	12:E	_
+11	guard	guard	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	Michael	Michael	PROPN	NNP	_	8	A	8:A	_
+13	Jordan	Jordan	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	a	a	DET	DT	_	20	E	20:E	_
+16	five	five	NUM	CD	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	time	time	NOUN	NN	_	20	E	20:E	_
+19	scoring	scoring	NOUN	NN	_	20	E	20:E	_
+20	champion	champion	NOUN	NN	_	21	A	21:A	_
+21	regarded	regard	VERB	VBN	_	12	E	12:E	_
+22	as	as	ADP	IN	_	25	R	25:R	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	finest	finest	ADJ	JJS	_	25	E	25:E	_
+25	player	player	NOUN	NN	_	21	A	21:A	_
+26	of	of	ADP	IN	_	28	R	28:R	_
+27	his	he	PRON	PRP$	_	28	E	28:E	_
+28	era	era	NOUN	NN	_	25	E	25:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

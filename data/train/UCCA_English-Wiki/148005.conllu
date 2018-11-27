@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 148005
+# text = In 2007 , William J . Mann released a biography of the actress in which he argued this was the case .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2007	2007	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	William	William	PROPN	NNP	_	8	A	8:A	_
+5	J	j	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	.	.	PUNCT	.	_	4	U	4:U	_
+7	Mann	Mann	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	released	release	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	biography	biography	NOUN	NN	_	8	A	8:A	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	actress	actress	NOUN	NN	_	10	E	10:E	_
+14	in	in	ADP	IN	_	17	R	17:R	_
+15	which	which	PRON	WDT	_	14	Terminal	14:Terminal	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	argued	argue	VERB	VBD	_	10	E	10:E	_
+18	this	this	PRON	DT	_	21	A	21:A	_
+19	was	be	AUX	VBD	_	21	F	21:F	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	case	case	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

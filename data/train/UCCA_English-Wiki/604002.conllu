@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 604002
+# text = By late 1968 , relations within the band were deteriorating .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	late	late	ADJ	JJ	_	3	E	3:E	_
+3	1968	1968	NUM	CD	_	10	D	10:D	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	relations	relation	NOUN	NNS	_	10	A	10:A	_
+6	within	within	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	band	band	NOUN	NN	_	5	E	5:E	_
+9	were	be	AUX	VBD	_	10	F	10:F	_
+10	deteriorating	deteriorat	VERB	VBG	_	0	H	0:H	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

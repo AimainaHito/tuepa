@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25498011
+# text = Darauf wendete er sich zu dem Kanadier und Conseil mit den Worten :
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	wendete	wenden	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	zu	zu	ADP	VVINF	_	7	R	7:R	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Kanadier	Kanadier	NOUN	NN	_	2	A	2:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Conseil	Conseil	NOUN	NE	_	7	C	7:C	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Worten	Wort	NOUN	NN	_	2	A	2:A	_
+13	:	:	PUNCT	$.	_	12	U	12:U	_
+

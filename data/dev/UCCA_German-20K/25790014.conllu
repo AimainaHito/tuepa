@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25790014
+# text = Sollte sie das Los haben , samt allen , die sie in sich faßte , in dieser Eis gruft zugrunde zu gehen ?
+1	Sollte	sollen	AUX	ADJA	_	5	D	5:D	_
+2	sie	sie	PRON	NN	_	5	A	5:A|20:A	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Los	Los	NOUN	NN	_	5	A	5:A	_
+5	haben	haben	VERB	VAFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	samt	samt	ADV	APPR	_	8	R	8:R	_
+8	allen	alle	PRON	PIS	_	20	A	20:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	ART	_	14	R	14:R	_
+11	sie	sie	PRON	NN	_	14	A	14:A	_
+12	in	in	ADP	APPR	_	13	R	13:R	_
+13	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+14	faßte	faßte	ADJ	VVFIN	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	20	U	20:U	_
+16	in	in	ADP	APPR	_	19	R	19:R	_
+17	dieser	dies	PRON	PDAT	_	19	E	19:E	_
+18	Eis	Eis	NOUN	NN	_	19	E	19:E	_
+19	gruft	grufen	VERB	VVFIN	_	20	A	20:A	_
+20	zugrunde	zugrunde	ADV	NE	_	5	A	5:A	_
+21	zu	zu	PART	NE	_	20	F	20:F	_
+22	gehen	gehen	VERB	VVINF	_	20	Terminal	20:Terminal	_
+23	?	?	PUNCT	$.	_	20	U	20:U	_
+

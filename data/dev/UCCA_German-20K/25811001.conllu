@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25811001
+# text = Ich überwand den widerwilligen Ekel , den mir sein Anblick erregte , ergriff einen Bleistift und fing an es ab zu zeichnen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|13:A|20:A	_
+2	überwand	überwinden	VERB	VVFIN	_	0	H	0:H	_
+3	den	der	DET	ART	_	5	E	5:E	_
+4	widerwilligen	widerwillig	ADJ	ADJA	_	5	E	5:E	_
+5	Ekel	Ekel	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	den	der	PRON	PRELS	_	11	R	11:R	_
+8	mir	ich	PRON	PPER	_	11	A	11:A	_
+9	sein	sein	DET	PPOSAT	_	10	E	10:E	_
+10	Anblick	Anblick	NOUN	NN	_	11	A	11:A	_
+11	erregte	erregen	VERB	VVFIN	_	5	E	5:E	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	ergriff	ergreifen	VERB	VVFIN	_	2	H	2:H	_
+14	einen	ein	DET	ART	_	15	E	15:E	_
+15	Bleistift	Bleistift	NOUN	NN	_	13	A	13:A	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	fing	fangen	VERB	VVFIN	_	20	D	20:D	_
+18	an	an	ADP	APPR	_	17	Terminal	17:Terminal	_
+19	es	es	PRON	PPER	_	20	A	20:A	_
+20	ab	ab	ADP	PTKVZ	_	2	H	2:H	_
+21	zu	zu	PART	NE	_	20	F	20:F	_
+22	zeichnen	zeichnen	VERB	VVINF	_	20	Terminal	20:Terminal	_
+23	.	.	PUNCT	$.	_	20	U	20:U	_
+

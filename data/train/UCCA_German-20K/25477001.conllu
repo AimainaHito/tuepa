@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25477001
+# text = « Die Blicke aller richteten sich dahin .
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	Die	der	DET	PDS	_	3	E	3:E	_
+3	Blicke	Blicke	NOUN	NE	_	5	A	5:A	_
+4	aller	alle	PRON	PIS	_	3	E	3:E	_
+5	richteten	richten	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	dahin	dahin	ADV	PAV	_	5	A	5:A	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 106000
+# text = She next appeared in the 1996 comedy Love Is All There Is , a modern - day loose adaptation of Romeo and Juliet set among two rival Italian family restaurant owners in The Bronx , New York .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	1996	1996	NUM	CD	_	8	E	8:E	_
+7	comedy	comedy	NOUN	NN	_	8	E	8:E	_
+8	Love	love	NOUN	NN	_	3	A	3:A	_
+9	Is	be	AUX	VBZ	_	8	Terminal	8:Terminal	_
+10	All	all	DET	DT	_	8	Terminal	8:Terminal	_
+11	There	there	PRON	EX	_	8	Terminal	8:Terminal	_
+12	Is	be	VERB	VBZ	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	a	a	DET	DT	_	19	E	19:E	_
+15	modern	modern	ADJ	JJ	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	day	day	NOUN	NN	_	19	E	19:E	_
+18	loose	loose	ADJ	JJ	_	19	E	19:E	_
+19	adaptation	adaptation	NOUN	NN	_	24	A	24:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	Romeo	Romeo	PROPN	NNP	_	19	E	19:E	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	Juliet	Juliet	PROPN	NNP	_	21	C	21:C	_
+24	set	set	VERB	VBD	_	8	E	8:E	_
+25	among	among	ADP	IN	_	31	R	31:R	_
+26	two	two	NUM	CD	_	31	E	31:E	_
+27	rival	rival	ADJ	JJ	_	31	E	31:E	_
+28	Italian	italian	ADJ	JJ	_	29	E	29:E	_
+29	family	family	NOUN	NN	_	31	E	31:E	_
+30	restaurant	restaurant	NOUN	NN	_	31	E	31:E	_
+31	owners	owner	NOUN	NNS	_	24	A	24:A	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	The	the	DET	DT	_	24	A	24:A	_
+34	Bronx	Bronx	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	,	,	PUNCT	,	_	33	U	33:U	_
+36	New	New	PROPN	NNP	_	33	E	33:E	_
+37	York	York	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	.	_	33	U	33:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25810000
+# text = » Nun denn ! Wenn 's meinem Herrn beliebt « , versetzte ruhig Conseil , » ist da nicht der Kalmar Bouguer , so ist 's doch ein Bruder von ihm . «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Nun	nun	ADV	ADV	_	9	F	9:F	_
+3	denn	denn	CCONJ	VVFIN	_	2	Terminal	2:Terminal	_
+4	!	!	PUNCT	$.	_	9	U	9:U	_
+5	Wenn	wenn	PROPN	KOUS	_	9	D	9:D	_
+6	's	es	PROPN	PPER	_	9	F	9:F	_
+7	meinem	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herrn	Herr	NOUN	NN	_	9	A	9:A	_
+9	beliebt	beliebt	VERB	VVPP	_	12	A	12:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+13	ruhig	ruhig	ADJ	ADJD	_	12	D	12:D	_
+14	Conseil	Conseil	NOUN	NE	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	»	»	PUNCT	$(	_	12	U	12:U	_
+17	ist	sein	AUX	VVFIN	_	18	F	18:F	_
+18	da	da	ADV	ADV	_	9	H	9:H	_
+19	nicht	nicht	PART	XY	_	18	D	18:D	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Kalmar	Kalmar	PROPN	NE	_	18	A	18:A	_
+22	Bouguer	Bouguer	PROPN	NE	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	$,	_	9	U	9:U	_
+24	so	so	ADV	ADV	_	9	L	9:L	_
+25	ist	sein	AUX	VVFIN	_	9	H	9:H	_
+26	's	es	PRON	PPER	_	25	F	25:F	_
+27	doch	doch	ADV	ADV	_	25	D	25:D	_
+28	ein	ein	DET	ART	_	29	E	29:E	_
+29	Bruder	Bruder	NOUN	NN	_	25	A	25:A	_
+30	von	von	ADP	NE	_	31	R	31:R	_
+31	ihm	er	PRON	PPER	_	25	A	25:A	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+33	«	«	PUNCT	$(	_	31	U	31:U	_
+

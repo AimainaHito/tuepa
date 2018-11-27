@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 528007
+# text = Directed by George Cukor and costarring James Mason , it was a large undertaking to which she initially fully dedicated herself .
+1	Directed	direct	VERB	VBN	_	0	H	0:H	_
+2	by	by	ADP	IN	_	3	R	3:R	_
+3	George	George	PROPN	NNP	_	1	A	1:A	_
+4	Cukor	Cukor	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	and	and	CCONJ	CC	_	1	L	1:L	_
+6	costarring	costarr	VERB	VBG	_	1	H	1:H	_
+7	James	James	PROPN	NNP	_	6	A	6:A	_
+8	Mason	Mason	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	it	it	PRON	PRP	_	14	A	14:A	_
+11	was	be	AUX	VBD	_	14	F	14:F	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	large	large	ADJ	JJ	_	14	D	14:D	_
+14	undertaking	undertaking	NOUN	NN	_	1	H	1:H	_
+15	to	to	ADP	IN	_	16	R	16:R	_
+16	which	which	PRON	WDT	_	1	L	1:L	_
+17	she	she	PRON	PRP	_	20	A	20:A	_
+18	initially	initially	ADV	RB	_	20	D	20:D	_
+19	fully	fully	ADV	RB	_	20	D	20:D	_
+20	dedicated	dedicate	ADJ	JJ	_	1	H	1:H	_
+21	herself	herself	PRON	PRP	_	20	D	20:D	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

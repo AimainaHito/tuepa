@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 187003
+# text = In 1979 , Sorkin attended Syracuse University .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1979	1979	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Sorkin	Sorkin	PROPN	NNP	_	5	A	5:A	_
+5	attended	attend	VERB	VBD	_	0	H	0:H	_
+6	Syracuse	Syracuse	PROPN	NNP	_	7	E	7:E	_
+7	University	University	PROPN	NNP	_	5	A	5:A	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

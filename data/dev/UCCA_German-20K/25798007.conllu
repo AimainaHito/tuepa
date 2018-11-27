@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25798007
+# text = Hierauf wusste ich nicht zu antworten , und ich fürchtete , Kapitän Nemo werde uns eher vielmehr in den ungeheuren Ozean führen , der Asien und Amerika zugleich bespült , um seine unterseeische Rundreise zu vollenden und dort seine Unabhängigkeit vollständiger zu finden .
+1	Hierauf	hierauf	ADV	PAV	_	6	L	6:L	_
+2	wusste	wissen	VERB	VVFIN	_	6	D	6:D	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	nicht	nicht	PART	CARD	_	6	D	6:D	_
+5	zu	zu	PART	NN	_	6	F	6:F	_
+6	antworten	antworten	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	ich	ich	PRON	PPER	_	10	A	10:A	_
+10	fürchtete	fürchtet	VERB	VVFIN	_	6	H	6:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	Kapitän	Kapitän	PROPN	NN	_	13	E	13:E	_
+13	Nemo	Nemo	PROPN	NE	_	0	C	0:C|36:A|43:A	_
+14	werde	werden	AUX	NE	_	22	F	22:F	_
+15	uns	wir	PRON	NN	_	22	A	22:A	_
+16	eher	eher	ADV	ADV	_	22	D	22:D	_
+17	vielmehr	vielmehr	ADV	CARD	_	22	D	22:D	_
+18	in	in	ADP	APPR	_	21	R	21:R	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	ungeheuren	ungeheur	ADJ	NN	_	21	E	21:E	_
+21	Ozean	Ozean	NOUN	NN	_	22	A	22:A	_
+22	führen	führen	VERB	VVINF	_	10	A	10:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	der	der	DET	ART	_	29	R	29:R	_
+25	Asien	Asien	PROPN	NN	_	29	A	29:A	_
+26	und	und	CCONJ	NE	_	25	N	25:N	_
+27	Amerika	Amerika	PROPN	NN	_	25	C	25:C	_
+28	zugleich	zugleich	ADV	NN	_	29	D	29:D	_
+29	bespült	bespülen	VERB	VVFIN	_	21	E	21:E	_
+30	,	,	PUNCT	$,	_	6	U	6:U	_
+31	um	um	ADP	KOUI	_	6	L	6:L	_
+32	seine	sein	DET	PPOSAT	_	34	E	34:E	_
+33	unterseeische	unterseeisch	ADJ	ADJA	_	34	E	34:E	_
+34	Rundreise	Rundreise	NOUN	NN	_	36	A	36:A	_
+35	zu	zu	PART	NE	_	36	F	36:F	_
+36	vollenden	vollenden	VERB	ADJA	_	6	H	6:H	_
+37	und	und	CCONJ	NN	_	6	L	6:L	_
+38	dort	dort	ADV	ADV	_	43	A	43:A	_
+39	seine	sein	DET	PPOSAT	_	40	E	40:E	_
+40	Unabhängigkeit	Unabhängigkeit	NOUN	NN	_	43	A	43:A	_
+41	vollständiger	vollständig	ADJ	ADJA	_	43	D	43:D	_
+42	zu	zu	PART	NN	_	43	F	43:F	_
+43	finden	finden	VERB	VVINF	_	6	H	6:H	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

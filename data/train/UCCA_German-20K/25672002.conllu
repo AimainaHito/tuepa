@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25672002
+# text = Am 28 . Februar , als die ›Nautilus‹ zur Mittags zeit unter 9 ° 4 ? nördlicher Breite wieder an die Oberfläche des Meeres kam , befand sie sich im Angesicht eines Landes , das 8 Meilen westlich lag .
+1	Am	am	PROPN	NE	_	2	R	2:R	_
+2	28	28	PROPN	CARD	_	27	D	27:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Februar	Februar	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	27	U	27:U	_
+6	als	als	SCONJ	KOUS	_	27	L	27:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	25	A	25:A	_
+9	zur	zur	ADP	NE	_	11	E	11:E	_
+10	Mittags	Mittag	NOUN	NN	_	11	E	11:E	_
+11	zeit	zeit	ADV	ADJD	_	25	D	25:D	_
+12	unter	unter	ADP	NE	_	13	R	13:R	_
+13	9	9	NUM	CARD	_	25	A	25:A	_
+14	°	°	NOUN	NN	_	13	U	13:U	_
+15	4	4	NUM	CARD	_	13	Terminal	13:Terminal	_
+16	?	?	PUNCT	$.	_	13	U	13:U	_
+17	nördlicher	nördlich	ADJ	ADJA	_	13	Terminal	13:Terminal	_
+18	Breite	Breite	NOUN	NN	_	13	Terminal	13:Terminal	_
+19	wieder	wieder	ADV	NE	_	25	D	25:D	_
+20	an	an	ADP	APPR	_	22	R	22:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Oberfläche	Oberfläche	NOUN	NN	_	25	A	25:A	_
+23	des	der	DET	ART	_	24	R	24:R	_
+24	Meeres	Meer	NOUN	NN	_	22	E	22:E	_
+25	kam	kommen	VERB	VVFIN	_	27	H	27:H	_
+26	,	,	PUNCT	$,	_	27	U	27:U	_
+27	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+28	sie	sie	PRON	ADV	_	27	A	27:A	_
+29	sich	er|es|sie	PRON	PRF	_	27	Terminal	27:Terminal	_
+30	im	im	ADV	NE	_	31	R	31:R	_
+31	Angesicht	Angesicht	NOUN	NN	_	27	D	27:D	_
+32	eines	ein	DET	ART	_	33	E	33:E	_
+33	Landes	Land	NOUN	NN	_	27	A	27:A	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	das	der	PRON	PRELS	_	39	R	39:R	_
+36	8	8	NUM	CARD	_	37	E	37:E	_
+37	Meilen	Meile	NOUN	NN	_	38	E	38:E	_
+38	westlich	westlich	ADJ	ADJA	_	39	D	39:D	_
+39	lag	liegen	VERB	VVFIN	_	33	E	33:E	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

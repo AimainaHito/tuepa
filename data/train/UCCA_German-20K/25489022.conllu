@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25489022
+# text = Die Höhe konnte Ned Land trotz seiner Statur nicht messen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Höhe	Höhe	NOUN	NN	_	10	A	10:A	_
+3	konnte	können	AUX	VMFIN	_	10	D	10:D	_
+4	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+5	Land	Land	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	trotz	trotz	ADP	APPR	_	8	R	8:R	_
+7	seiner	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Statur	Statur	NOUN	NN	_	10	A	10:A	_
+9	nicht	nicht	PART	CARD	_	10	D	10:D	_
+10	messen	messen	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

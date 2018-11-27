@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 698017
+# text = " as they launched into the final song of the night - " Like a Rolling Stone . "
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	as	as	SCONJ	IN	_	4	L	4:L	_
+3	they	they	PRON	PRP	_	4	A	4:A	_
+4	launched	launch	VERB	VBD	_	0	H	0:H	_
+5	into	into	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	final	final	ADJ	JJ	_	8	E	8:E	_
+8	song	song	NOUN	NN	_	4	A	4:A	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	night	night	NOUN	NN	_	8	E	8:E	_
+12	-	-	PUNCT	,	_	8	U	8:U	_
+13	"	"	PUNCT	``	_	8	U	8:U	_
+14	Like	like	INTJ	UH	_	8	E	8:E	_
+15	a	a	DET	DT	_	14	Terminal	14:Terminal	_
+16	Rolling	Rolling	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	Stone	Stone	PROPN	NNP	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	.	_	8	U	8:U	_
+19	"	"	PUNCT	''	_	8	U	8:U	_
+

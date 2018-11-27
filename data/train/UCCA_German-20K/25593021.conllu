@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25593021
+# text = Er sah sie als sein eigen an und übte darüber dieselben Rechte , welche die ersten Menschen in den ersten Tagen der Welt hatten .
+1	Er	er	PRON	PPER	_	2	A	2:A|9:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	als	als	ADP	KOKOM	_	6	R	6:R	_
+5	sein	sein	DET	PPOSAT	_	6	E	6:E	_
+6	eigen	eigen	ADJ	ADJA	_	2	A	2:A	_
+7	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+8	und	und	CCONJ	NN	_	2	L	2:L	_
+9	übte	üben	VERB	VVFIN	_	2	H	2:H	_
+10	darüber	darüber	ADV	PAV	_	9	A	9:A	_
+11	dieselben	dieselbe	PRON	PDS	_	12	E	12:E	_
+12	Rechte	Recht|Rechte	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	welche	welch	PRON	NN	_	24	R	24:R	_
+15	die	der	DET	ART	_	17	E	17:E	_
+16	ersten	erst	ADJ	ADJA	_	17	E	17:E	_
+17	Menschen	Mensch	NOUN	NN	_	24	A	24:A	_
+18	in	in	ADP	APPR	_	21	R	21:R	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	ersten	erst	ADJ	ADJA	_	21	E	21:E	_
+21	Tagen	Tag	NOUN	NN	_	24	A	24:A	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Welt	Welt	NOUN	NN	_	21	E	21:E	_
+24	hatten	haben	VERB	VAFIN	_	12	E	12:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

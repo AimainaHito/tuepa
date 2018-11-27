@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 28001
+# text = Pitt 's onscreen career began in 1987 , with uncredited parts in the films No Way Out , No Man 's Land and Less Than Zero .
+1	Pitt	Pitt	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	onscreen	onscreen	ADJ	JJ	_	4	E	4:E	_
+4	career	career	NOUN	NN	_	5	A	5:A	_
+5	began	begin	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1987	1987	NUM	CD	_	5	D	5:D	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	with	with	ADP	IN	_	11	R	11:R	_
+10	uncredited	uncredit	ADJ	JJ	_	11	E	11:E	_
+11	parts	part	NOUN	NNS	_	5	A	5:A	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	films	film	NOUN	NNS	_	15	E	15:E	_
+15	No	no	DET	DT	_	11	E	11:E	_
+16	Way	Way	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Out	Out	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	,	,	PUNCT	,	_	15	U	15:U	_
+19	No	no	PROPN	NNP	_	15	C	15:C	_
+20	Man	man	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	's	's	PART	POS	_	19	Terminal	19:Terminal	_
+22	Land	land	PROPN	NNP	_	19	Terminal	19:Terminal	_
+23	and	and	CCONJ	CC	_	15	N	15:N	_
+24	Less	less	PROPN	NNP	_	15	C	15:C	_
+25	Than	Than	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	Zero	Zero	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	.	.	PUNCT	.	_	15	U	15:U	_
+

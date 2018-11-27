@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25730009
+# text = Am Abend gegen 11 Uhr erhielt ich ganz unerwartet den Besuch von Kapitän Nemo .
+1	Am	am	ADJ	ADJD	_	2	R	2:R	_
+2	Abend	Abend	NOUN	ADV	_	6	D	6:D	_
+3	gegen	gegen	ADP	APPR	_	5	R	5:R	_
+4	11	11	NUM	CARD	_	5	E	5:E	_
+5	Uhr	Uhr	NOUN	NN	_	2	E	2:E	_
+6	erhielt	erhalten	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	ganz	ganz	ADV	ADV	_	9	D	9:D	_
+9	unerwartet	unerwartet	ADJ	ADJD	_	6	H	6:H	_
+10	den	der	DET	ART	_	6	Terminal	6:Terminal	_
+11	Besuch	Besuch	NOUN	NN	_	6	Terminal	6:Terminal	_
+12	von	von	ADP	NE	_	14	R	14:R	_
+13	Kapitän	Kapitän	PROPN	FM	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

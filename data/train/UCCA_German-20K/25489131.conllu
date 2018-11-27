@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25489131
+# text = Welche seltsame Macht hatte uns erfaßt ?
+1	Welche	welch	PRON	PIAT	_	3	E	3:E	_
+2	seltsame	seltsam	ADJ	ADJA	_	3	E	3:E	_
+3	Macht	Macht	NOUN	NN	_	6	A	6:A	_
+4	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+5	uns	wir	PRON	NN	_	6	A	6:A	_
+6	erfaßt	erfassen	VERB	VVPP	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25687004
+# text = Und wie viele Muscheln waren ohne Perlen , für die er sein Leben wagte !
+1	Und	und	CCONJ	ADJD	_	5	L	5:L	_
+2	wie	wie	ADP	ADJA	_	4	E	4:E	_
+3	viele	viel	ADJ	NN	_	2	Terminal	2:Terminal	_
+4	Muscheln	Muschel	NOUN	NN	_	5	A	5:A	_
+5	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+6	ohne	ohne	ADP	CARD	_	5	D	5:D	_
+7	Perlen	Perle|Perlen	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	für	für	ADP	APPR	_	14	R	14:R	_
+10	die	der	PRON	PRELS	_	14	R	14:R	_
+11	er	er	PRON	PPER	_	14	A	14:A	_
+12	sein	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Leben	Leben	NOUN	NN	_	14	A	14:A	_
+14	wagte	wagen	VERB	VVFIN	_	4	E	4:E	_
+15	!	!	PUNCT	$.	_	14	U	14:U	_
+

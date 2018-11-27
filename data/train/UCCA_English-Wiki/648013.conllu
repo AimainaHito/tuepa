@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 648013
+# text = In addition to attacking him through the lyrics of " How Do You Sleep ?
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	addition	addition	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	to	to	SCONJ	IN	_	4	F	4:F	_
+4	attacking	attack	VERB	VBG	_	0	H	0:H	_
+5	him	he	PRON	PRP	_	4	A	4:A	_
+6	through	through	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	lyrics	lyric	NOUN	NNS	_	4	A	4:A	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	How	how	ADV	WRB	_	8	E	8:E	_
+12	Do	do	AUX	VBP	_	11	Terminal	11:Terminal	_
+13	You	you	PRON	PRP	_	11	Terminal	11:Terminal	_
+14	Sleep	sleep	VERB	VB	_	11	Terminal	11:Terminal	_
+15	?	?	PUNCT	.	_	11	U	11:U	_
+

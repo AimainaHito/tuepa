@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 689007
+# text = Zimmerman formed several bands while attending Hibbing High School .
+1	Zimmerman	Zimmerman	PROPN	NNP	_	2	A	2:A|6:A	_
+2	formed	form	VERB	VBD	_	0	H	0:H	_
+3	several	several	ADJ	JJ	_	4	E	4:E	_
+4	bands	band	NOUN	NNS	_	2	A	2:A	_
+5	while	while	SCONJ	IN	_	2	L	2:L	_
+6	attending	attende	VERB	VBG	_	2	H	2:H	_
+7	Hibbing	Hibb	PROPN	NNP	_	8	E	8:E	_
+8	High	High	PROPN	NNP	_	6	A	6:A	_
+9	School	School	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+

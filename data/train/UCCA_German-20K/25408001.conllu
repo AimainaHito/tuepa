@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25408001
+# text = Ein seltsames Ereignis , ein unerklärtes , und eine unerklärbare Natur erscheinung , die sich im Jahre 1866 begab , ist ohne Zweifel noch unvergessen .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	seltsames	seltsam	ADJ	ADJA	_	3	E	3:E	_
+3	Ereignis	Ereignis	NOUN	NN	_	25	A	25:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	unerklärtes	unerklärt	ADJ	ADJA	_	3	E	3:E	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	N	3:N	_
+9	eine	ein	DET	ART	_	12	E	12:E	_
+10	unerklärbare	unerklärbar	ADJ	ADJA	_	12	E	12:E	_
+11	Natur	Natur	NOUN	NN	_	12	E	12:E	_
+12	erscheinung	erscheinung	NOUN	NN	_	3	C	3:C	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	PRON	PRELS	_	15	R	15:R	_
+15	sich	er|es|sie	PRON	PRF	_	12	E	12:E	_
+16	im	im	ADJ	NE	_	17	R	17:R	_
+17	Jahre	Jahr	NOUN	NN	_	15	D	15:D	_
+18	1866	1866	NUM	CARD	_	17	E	17:E	_
+19	begab	begeben	VERB	VVFIN	_	15	Terminal	15:Terminal	_
+20	,	,	PUNCT	$,	_	25	U	25:U	_
+21	ist	sein	AUX	NN	_	25	F	25:F	_
+22	ohne	ohne	ADP	CARD	_	25	D	25:D	_
+23	Zweifel	Zweifel	NOUN	NN	_	22	Terminal	22:Terminal	_
+24	noch	noch	ADV	VVINF	_	25	D	25:D	_
+25	unvergessen	unvergessen	ADV	VVINF	_	0	H	0:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

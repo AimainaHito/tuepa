@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25614003
+# text = Er öffnete sie , und ich sah einen Pack vergilbter , doch noch lesbarer Papiere .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	ich	ich	PRON	PPER	_	7	A	7:A	_
+7	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+8	einen	ein	DET	ART	_	9	E	9:E	_
+9	Pack	Pack	NOUN	NN	_	15	E	15:E	_
+10	vergilbter	vergilbt	ADJ	ADJA	_	15	E	15:E	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	doch	doch	ADV	KON	_	10	N	10:N	_
+13	noch	noch	ADV	CARD	_	14	E	14:E	_
+14	lesbarer	lesbar	ADJ	ADJA	_	10	C	10:C	_
+15	Papiere	Papier	NOUN	NN	_	7	A	7:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25450002
+# text = » Mit Zahlen lässt sich alles machen !
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Mit	mit	ADP	APPR	_	3	E	3:E	_
+3	Zahlen	Zahl	NOUN	NN	_	7	A	7:A	_
+4	lässt	lassen	VERB	VVFIN	_	7	D	7:D	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	alles	alle	PRON	PIS	_	7	A	7:A	_
+7	machen	machen	VERB	VVINF	_	0	H	0:H	_
+8	!	!	PUNCT	$.	_	7	U	7:U	_
+

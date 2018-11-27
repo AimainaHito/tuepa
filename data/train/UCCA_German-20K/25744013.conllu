@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25744013
+# text = Die Leuchte ließ seinen riesigen Spiegel vollständig erkennen , wie er ohne Wellen und Runzeln war .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Leuchte	Leuchte	NOUN	NN	_	8	A	8:A	_
+3	ließ	lassen	VERB	VVFIN	_	8	D	8:D	_
+4	seinen	sein	DET	PPOSAT	_	6	E	6:E	_
+5	riesigen	riesig	ADJ	ADJA	_	6	E	6:E	_
+6	Spiegel	Spiegel	NOUN	NN	_	8	A	8:A	_
+7	vollständig	vollständig	ADJ	ADJD	_	8	D	8:D	_
+8	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wie	wie	SCONJ	KON	_	16	R	16:R	_
+11	er	er	PRON	PPER	_	16	A	16:A	_
+12	ohne	ohne	ADP	NE	_	16	D	16:D	_
+13	Wellen	Welle	NOUN	NN	_	16	A	16:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	Runzeln	Runzeln	NOUN	NE	_	13	C	13:C	_
+16	war	sein	AUX	NE	_	8	H	8:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

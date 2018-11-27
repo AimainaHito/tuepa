@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25705020
+# text = Es war der Berg Horeb , jener Sinai , auf dessen Gipfel Moses Gott von Angesicht zu Angesicht schaute und den man sich beständig von Blitzen umzuckt vorstellt .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	Berg	Berg	PROPN	NN	_	5	E	5:E	_
+5	Horeb	Horeb	PROPN	NE	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	jener	jen	PRON	PDAT	_	8	E	8:E	_
+8	Sinai	Sinai	PROPN	NE	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	dessen	der	DET	PDAT	_	12	E	12:E	_
+12	Gipfel	Gipfel	NOUN	NN	_	19	A	19:A	_
+13	Moses	Moses	PROPN	NE	_	19	A	19:A	_
+14	Gott	Gott	PROPN	NE	_	19	A	19:A	_
+15	von	von	ADP	NE	_	19	D	19:D	_
+16	Angesicht	Angesicht	NOUN	NE	_	15	Terminal	15:Terminal	_
+17	zu	zu	PART	NE	_	15	Terminal	15:Terminal	_
+18	Angesicht	Angesicht	PART	NE	_	15	Terminal	15:Terminal	_
+19	schaute	schauen	VERB	VVFIN	_	8	E	8:E	_
+20	und	und	CCONJ	NE	_	19	L	19:L	_
+21	den	der	DET	ART	_	23	R	23:R	_
+22	man	man	PRON	PIS	_	23	A	23:A	_
+23	sich	er|es|sie	PRON	PRF	_	19	H	19:H	_
+24	beständig	beständig	ADJ	ADJD	_	23	D	23:D	_
+25	von	von	ADP	NN	_	26	R	26:R	_
+26	Blitzen	Blitz	NOUN	NN	_	27	A	27:A	_
+27	umzuckt	umzuckt	ADJ	ADJD	_	23	A	23:A	_
+28	vorstellt	vorstellen	VERB	VVPP	_	23	Terminal	23:Terminal	_
+29	.	.	PUNCT	$.	_	23	U	23:U	_
+

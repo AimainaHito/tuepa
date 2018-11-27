@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 474017
+# text = Cedric Ceballos , upset over a reduction in his playing time after Magic Johnson 's arrival , left the team for several days .
+1	Cedric	Cedric	PROPN	NNP	_	18	A	18:A	_
+2	Ceballos	Ceballos	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	upset	upset	ADJ	JJ	_	1	E	1:E	_
+5	over	over	ADP	IN	_	7	R	7:R	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	reduction	reduction	NOUN	NN	_	4	A	4:A	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	his	he	PRON	PRP$	_	11	A	11:A	_
+10	playing	play	VERB	VBG	_	11	E	11:E	_
+11	time	time	NOUN	NN	_	7	A	7:A	_
+12	after	after	ADP	IN	_	7	L	7:L	_
+13	Magic	magic	PROPN	NNP	_	16	A	16:A	_
+14	Johnson	Johnson	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	's	's	PART	POS	_	13	R	13:R	_
+16	arrival	arrival	NOUN	NN	_	7	H	7:H	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	left	leave	VERB	VBD	_	0	H	0:H	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	team	team	NOUN	NN	_	18	A	18:A	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	several	several	ADJ	JJ	_	23	E	23:E	_
+23	days	day	NOUN	NNS	_	18	D	18:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

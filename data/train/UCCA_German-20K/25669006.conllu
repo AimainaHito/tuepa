@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25669006
+# text = Wir kamen so bis auf 2 bis 3 Kilometer , aber ohne jemals die großen Tiefen dieses Indischen Meeres festzustellen , die durch Sondieren mit 13.000 Meter nicht hatte erreicht werden können .
+1	Wir	wir	PRON	NE	_	2	A	2:A|20:A	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	so	so	ADV	ADV	_	2	D	2:D	_
+4	bis	bis	ADP	APPR	_	9	R	9:R	_
+5	auf	auf	ADP	APPR	_	4	Terminal	4:Terminal	_
+6	2	2	NUM	CARD	_	9	E	9:E	_
+7	bis	bis	ADP	KON	_	6	N	6:N	_
+8	3	3	NUM	CARD	_	6	C	6:C	_
+9	Kilometer	Kilometer	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	aber	aber	CCONJ	KON	_	2	L	2:L	_
+12	ohne	ohne	ADP	CARD	_	20	D	20:D	_
+13	jemals	jemals	ADV	ADV	_	20	D	20:D	_
+14	die	der	DET	ART	_	16	E	16:E	_
+15	großen	groß	ADJ	ADJA	_	16	E	16:E	_
+16	Tiefen	tiefe	NOUN	NN	_	20	A	20:A	_
+17	dieses	dies	PRON	PDAT	_	19	R	19:R	_
+18	Indischen	Indischen	NOUN	ADJA	_	19	E	19:E	_
+19	Meeres	Meer	NOUN	NN	_	16	E	16:E	_
+20	festzustellen	feststellen	VERB	VVIZU	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	30	R	30:R	_
+23	durch	durch	ADP	APPR	_	24	R	24:R	_
+24	Sondieren	Sondieren	NOUN	NN	_	30	A	30:A	_
+25	mit	mit	ADP	APPR	_	27	R	27:R	_
+26	13.000	13.0	NUM	CARD	_	27	E	27:E	_
+27	Meter	Meter	NOUN	NN	_	24	E	24:E	_
+28	nicht	nicht	PART	CARD	_	30	D	30:D	_
+29	hatte	haben	AUX	VAFIN	_	30	F	30:F	_
+30	erreicht	erreichen	VERB	VVPP	_	16	E	16:E	_
+31	werden	werden	AUX	VVFIN	_	30	F	30:F	_
+32	können	können	AUX	VMFIN	_	30	D	30:D	_
+33	.	.	PUNCT	$.	_	30	U	30:U	_
+

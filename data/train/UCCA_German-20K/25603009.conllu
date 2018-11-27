@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25603009
+# text = Fast täglich öffneten sich einige Stunden lang die Läden des Salons , und unsere Augen konnten sich nicht satt sehen an den Geheimnissen der unterseeischen Welt .
+1	Fast	fast	ADV	ADV	_	3	D	3:D	_
+2	täglich	täglich	ADJ	ADJD	_	3	D	3:D	_
+3	öffneten	öffnen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	einige	einige	PRON	PIAT	_	6	E	6:E	_
+6	Stunden	Stunde|Stunden	NOUN	NN	_	3	D	3:D	_
+7	lang	lang	ADP	ADJD	_	6	E	6:E	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Läden	Laden	NOUN	NN	_	3	A	3:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Salons	Salon	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	unsere	unser	PRON	PPOSAT	_	15	E	15:E	_
+15	Augen	Auge	NOUN	NN	_	17	A	17:A	_
+16	konnten	können	AUX	VMFIN	_	17	D	17:D	_
+17	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+18	nicht	nicht	PART	CARD	_	17	D	17:D	_
+19	satt	satt	ADJ	ADJD	_	17	Terminal	17:Terminal	_
+20	sehen	sehen	VERB	VVFIN	_	17	Terminal	17:Terminal	_
+21	an	an	ADP	APPR	_	23	R	23:R	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Geheimnissen	Geheimnis	NOUN	NN	_	17	A	17:A	_
+24	der	der	DET	ART	_	26	R	26:R	_
+25	unterseeischen	unterseeisch	ADJ	ADJA	_	26	E	26:E	_
+26	Welt	Welt	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

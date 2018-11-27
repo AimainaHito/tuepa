@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 476003
+# text = Johnson and Cookie have one son , Earvin III , who is openly gay ; the couple adopted a daughter , Elisa , in 1995 .
+1	Johnson	Johnson	PROPN	NNP	_	4	A	4:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Cookie	Cookie	PROPN	NNP	_	1	C	1:C	_
+4	have	have	VERB	VBP	_	0	H	0:H	_
+5	one	one	NUM	CD	_	6	E	6:E	_
+6	son	son	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Earvin	Earvin	PROPN	NNP	_	6	E	6:E|14:A	_
+9	III	III	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	who	who	PRON	WP	_	14	F	14:F	_
+12	is	be	AUX	VBZ	_	14	F	14:F	_
+13	openly	openly	ADV	RB	_	14	D	14:D	_
+14	gay	gay	ADJ	JJ	_	6	E	6:E	_
+15	;	;	PUNCT	,	_	4	U	4:U	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	couple	couple	NOUN	NN	_	18	A	18:A	_
+18	adopted	adopt	VERB	VBD	_	4	H	4:H	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	daughter	daughter	NOUN	NN	_	22	E	22:E	_
+21	,	,	PUNCT	,	_	22	U	22:U	_
+22	Elisa	Elisa	PROPN	NNP	_	18	A	18:A	_
+23	,	,	PUNCT	,	_	18	U	18:U	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	1995	1995	NUM	CD	_	18	D	18:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

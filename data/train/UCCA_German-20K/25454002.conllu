@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25454002
+# text = « » Vielleicht ... « , sagte Ned stotternd .
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Vielleicht	vielleicht	NOUN	NN	_	7	A	7:A	_
+4	...	...	PUNCT	$(	_	7	U	7:U	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	Ned	Ned	PROPN	NE	_	7	A	7:A|9:A	_
+9	stotternd	stotternd	ADJ	ADJD	_	7	H	7:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

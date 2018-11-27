@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25524003
+# text = Es sind besondere Strömungen , die an ihrer Temperatur und Farbe kenntlich sind ; der merkwürdigste ist unter dem Namen Golfstrom bekannt .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	sind	sein	AUX	NN	_	0	H	0:H	_
+3	besondere	besonder	ADJ	ADJA	_	4	E	4:E	_
+4	Strömungen	Strömung	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	12	R	12:R	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	ihrer	ihr	DET	PPOSAT	_	9	E	9:E	_
+9	Temperatur	Temperatur	NOUN	NN	_	12	A	12:A	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	Farbe	Farb	NOUN	NN	_	9	C	9:C	_
+12	kenntlich	kenntlich	ADJ	ADJD	_	4	E	4:E	_
+13	sind	sein	AUX	NN	_	12	F	12:F	_
+14	;	;	PUNCT	$.	_	2	U	2:U	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	merkwürdigste	merkwürdig	NOUN	ADJA	_	22	A	22:A	_
+17	ist	sein	AUX	NN	_	22	F	22:F	_
+18	unter	unter	ADP	ADJD	_	21	R	21:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Namen	Name	NOUN	NN	_	21	E	21:E	_
+21	Golfstrom	Golfstrom	PROPN	NN	_	22	A	22:A	_
+22	bekannt	bekennen	ADJ	ADJD	_	2	H	2:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

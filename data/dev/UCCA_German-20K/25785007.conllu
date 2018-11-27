@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25785007
+# text = Die ›Nautilus‹ war in einem wahrhaften Eis tunnel eingesperrt .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	9	A	9:A	_
+3	war	sein	AUX	NE	_	9	F	9:F	_
+4	in	in	ADP	APPR	_	8	R	8:R	_
+5	einem	ein	DET	ART	_	8	E	8:E	_
+6	wahrhaften	wahrhaft	ADJ	ADJA	_	8	E	8:E	_
+7	Eis	Eis	NOUN	NN	_	8	E	8:E	_
+8	tunnel	tunnel	ADJ	NE	_	9	A	9:A	_
+9	eingesperrt	einsperren	VERB	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25523013
+# text = Wodurch ist sein Haß gegen die menschliche Gesellschaft , ein Haß , der vielleicht auf schreckliche Rache ausging , hervorgerufen worden ?
+1	Wodurch	wodurch	ADV	NE	_	20	A	20:A	_
+2	ist	sein	AUX	NE	_	20	F	20:F	_
+3	sein	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Haß	Haß	NOUN	NN	_	20	A	20:A	_
+5	gegen	gegen	ADP	APPR	_	8	R	8:R	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	menschliche	menschlich	ADJ	ADJA	_	8	E	8:E	_
+8	Gesellschaft	Gesellschaft	NOUN	NN	_	4	E	4:E	_
+9	,	,	PUNCT	$,	_	20	U	20:U	_
+10	ein	ein	DET	ART	_	11	E	11:E	_
+11	Haß	Haß	NOUN	NN	_	20	A	20:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	der	der	PRON	PRELS	_	18	R	18:R	_
+14	vielleicht	vielleicht	ADV	NE	_	18	G	18:G	_
+15	auf	auf	ADP	APPR	_	17	R	17:R	_
+16	schreckliche	schrecklich	ADJ	ADJA	_	17	E	17:E	_
+17	Rache	Rache	NOUN	NN	_	18	A	18:A	_
+18	ausging	ausgehen	VERB	VVFIN	_	11	E	11:E	_
+19	,	,	PUNCT	$,	_	20	U	20:U	_
+20	hervorgerufen	hervorgerufen	VERB	VVPP	_	0	H	0:H	_
+21	worden	werden	AUX	ADV	_	20	F	20:F	_
+22	?	?	PUNCT	$.	_	20	U	20:U	_
+

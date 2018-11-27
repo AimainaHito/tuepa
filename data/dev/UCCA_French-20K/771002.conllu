@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 771002
+# text = Nulle objection à boucler sa valise pour un pays quelconque , Chine ou Congo , si éloigné qu' il fût .
+1	Nulle	nul	ADJ	_	_	2	D	2:D	_
+2	objection	objection	NOUN	_	_	0	H	0:H	_
+3	à	à	ADP	_	_	4	F	4:F	_
+4	boucler	boucler	VERB	_	_	2	A	2:A	_
+5	sa	son	DET	_	_	6	E	6:E	_
+6	valise	valise	NOUN	_	_	4	A	4:A	_
+7	pour	pour	ADP	_	_	9	R	9:R	_
+8	un	un	DET	_	_	9	E	9:E	_
+9	pays	pays	NOUN	_	_	4	A	4:A	_
+10	quelconque	quelconque	ADJ	_	_	9	E	9:E	_
+11	,	,	PUNCT	_	_	9	U	9:U	_
+12	Chine	Chine	PROPN	_	_	9	E	9:E	_
+13	ou	ou	CCONJ	_	_	12	N	12:N	_
+14	Congo	Congo	PROPN	_	_	12	C	12:C	_
+15	,	,	PUNCT	_	_	9	U	9:U	_
+16	si	si	SCONJ	_	_	17	F	17:F	_
+17	éloigné	éloigner	VERB	_	_	9	E	9:E	_
+18	qu'	que	SCONJ	_	_	16	Terminal	16:Terminal	_
+19	il	il	PRON	_	_	16	Terminal	16:Terminal	_
+20	fût	être	AUX	_	_	16	Terminal	16:Terminal	_
+21	.	.	PUNCT	_	_	17	U	17:U	_
+

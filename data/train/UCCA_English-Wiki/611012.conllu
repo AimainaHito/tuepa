@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 611012
+# text = Having donated his time , he received £ 1 from the Olympic organisers .
+1	Having	have	PROPN	NNP	_	2	F	2:F	_
+2	donated	donate	VERB	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	time	time	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	he	he	PRON	PRP	_	7	A	7:A|2:A	_
+7	received	receive	VERB	VBD	_	2	H	2:H	_
+8	£	£	SYM	$	_	7	U	7:U	_
+9	1	1	NUM	CD	_	7	A	7:A	_
+10	from	from	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	Olympic	Olympic	PROPN	NNP	_	13	E	13:E	_
+13	organisers	organiser	NOUN	NNS	_	7	A	7:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

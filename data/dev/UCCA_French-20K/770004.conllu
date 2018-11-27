@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 770004
+# text = Très - versé dans la théorie de la classification , peu dans la pratique , il n' eût pas distingué , je crois , un cachalot d' une baleine !
+1	Très	très	ADV	_	_	3	D	3:D	_
+2	-	-	PUNCT	_	_	3	U	3:U	_
+3	versé	verser	VERB	_	_	0	H	0:H	_
+4	dans	dans	ADP	_	_	6	R	6:R	_
+5	la	le	DET	_	_	6	E	6:E	_
+6	théorie	théorie	NOUN	_	_	3	A	3:A	_
+7	de	de	ADP	_	_	9	R	9:R	_
+8	la	le	DET	_	_	9	E	9:E	_
+9	classification	classification	NOUN	_	_	6	E	6:E	_
+10	,	,	PUNCT	_	_	3	U	3:U	_
+11	peu	peu	ADV	_	_	14	D	14:D	_
+12	dans	dans	ADP	_	_	14	R	14:R	_
+13	la	le	DET	_	_	14	E	14:E	_
+14	pratique	pratique	NOUN	_	_	3	H	3:H	_
+15	,	,	PUNCT	_	_	14	U	14:U	_
+16	il	il	PRON	_	_	20	A	20:A|14:A|3:A	_
+17	n'	ne	ADV	_	_	20	D	20:D	_
+18	eût	avoir	AUX	_	_	20	F	20:F	_
+19	pas	pas	ADV	_	_	17	Terminal	17:Terminal	_
+20	distingué	distinguer	VERB	_	_	3	H	3:H	_
+21	,	,	PUNCT	_	_	20	U	20:U	_
+22	je	il	PRON	_	_	20	G	20:G	_
+23	crois	croire	VERB	_	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	_	_	20	U	20:U	_
+25	un	un	DET	_	_	26	E	26:E	_
+26	cachalot	cachalot	NOUN	_	_	20	A	20:A	_
+27	d'	de	ADP	_	_	26	R	26:R	_
+28	une	un	DET	_	_	29	E	29:E	_
+29	baleine	baleine	NOUN	_	_	26	C	26:C	_
+30	!	!	PUNCT	_	_	29	U	29:U	_
+

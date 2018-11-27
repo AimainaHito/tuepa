@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 589001
+# text = Depp played the title role of Sweeney Todd in Tim Burton 's film adaptation of the musical , for which he won a Golden Globe Award for Best Actor - Motion Picture Musical or Comedy .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	title	title	NOUN	NN	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	2	A	2:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Sweeney	Sweeney	PROPN	NNP	_	5	E	5:E	_
+8	Todd	Todd	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	IN	_	14	R	14:R	_
+10	Tim	Tim	PROPN	NNP	_	14	E	14:E	_
+11	Burton	Burton	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	's	's	PART	POS	_	10	R	10:R	_
+13	film	film	NOUN	NN	_	14	A	14:A	_
+14	adaptation	adaptation	NOUN	NN	_	2	A	2:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	musical	musical	ADJ	JJ	_	14	A	14:A	_
+18	,	,	PUNCT	,	_	2	U	2:U	_
+19	for	for	ADP	IN	_	2	L	2:L	_
+20	which	which	PRON	WDT	_	19	F	19:F	_
+21	he	he	PRON	PRP	_	22	A	22:A	_
+22	won	win	VERB	VBD	_	2	H	2:H	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	Golden	golden	PROPN	NNP	_	22	A	22:A	_
+25	Globe	Globe	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	Award	Award	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	for	for	ADP	IN	_	28	R	28:R	_
+28	Best	Best	ADJ	JJS	_	24	E	24:E	_
+29	Actor	Actor	NOUN	NN	_	28	Terminal	28:Terminal	_
+30	-	-	PUNCT	HYPH	_	28	U	28:U	_
+31	Motion	motion	NOUN	NN	_	32	E	32:E	_
+32	Picture	picture	NOUN	NN	_	33	E	33:E	_
+33	Musical	musical	PROPN	NNP	_	28	E	28:E	_
+34	or	or	CCONJ	CC	_	33	N	33:N	_
+35	Comedy	comedy	PROPN	NNP	_	33	C	33:C	_
+36	.	.	PUNCT	.	_	33	U	33:U	_
+

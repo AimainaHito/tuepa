@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 558008
+# text = The interest was such that Phillips played the record repeatedly during the last two hours of his show .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	interest	interest	NOUN	NN	_	0	H	0:H	_
+3	was	be	AUX	VBD	_	2	L	2:L	_
+4	such	such	ADJ	JJ	_	3	Terminal	3:Terminal	_
+5	that	that	SCONJ	IN	_	3	Terminal	3:Terminal	_
+6	Phillips	Phillips	PROPN	NNP	_	9	A	9:A	_
+7	played	play	VERB	VBD	_	9	D	9:D	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	record	record	NOUN	NN	_	2	H	2:H	_
+10	repeatedly	repeatedly	ADV	RB	_	9	D	9:D	_
+11	during	during	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	last	last	ADJ	JJ	_	14	E	14:E	_
+14	two	two	NUM	CD	_	15	E	15:E	_
+15	hours	hour	NOUN	NNS	_	9	A	9:A	_
+16	of	of	ADP	IN	_	18	E	18:E	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	show	show	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

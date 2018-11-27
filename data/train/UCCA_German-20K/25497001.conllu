@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25497001
+# text = » Also , mein Herr « , fuhr ich fort , » Sie geben uns nur die Wahl zwischen Leben und Tod ?
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Also	also	PROPN	ADV	_	14	F	14:F	_
+3	,	,	PUNCT	$,	_	14	U	14:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	14	G	14:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	fort	fort	ADV	PTKVZ	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	Sie	Sie|sie	PRON	PPER	_	14	A	14:A	_
+14	geben	geben	VERB	VVFIN	_	8	A	8:A	_
+15	uns	wir	PRON	ADJA	_	14	A	14:A	_
+16	nur	nur	ADV	NE	_	14	D	14:D	_
+17	die	der	DET	ART	_	14	Terminal	14:Terminal	_
+18	Wahl	Wahl	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	zwischen	zwischen	ADP	ADJA	_	20	N	20:N	_
+20	Leben	Leben	NOUN	NN	_	14	A	14:A	_
+21	und	und	CCONJ	NE	_	19	Terminal	19:Terminal	_
+22	Tod	Tod	NOUN	NN	_	20	C	20:C	_
+23	?	?	PUNCT	$.	_	20	U	20:U	_
+

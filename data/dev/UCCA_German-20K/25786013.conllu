@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25786013
+# text = » Meiner Treu , das hätte ich niemals geglaubt « , sagte Conseil .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Meiner	Meiner	PROPN	PPOSAT	_	9	G	9:G	_
+3	Treu	treu	PROPN	NE	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	9	U	9:U	_
+5	das	der	PRON	PRELS	_	9	A	9:A	_
+6	hätte	haben	AUX	VAFIN	_	9	F	9:F	_
+7	ich	ich	PRON	PPER	_	9	A	9:A	_
+8	niemals	niemals	ADV	ADV	_	9	D	9:D	_
+9	geglaubt	glauben	VERB	VVPP	_	12	A	12:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+13	Conseil	Conseil	PROPN	NE	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

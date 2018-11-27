@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25582012
+# text = Das Meer geriet wie durch ein Lauf pulver in Flammen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	3	A	3:A	_
+3	geriet	geraten	VERB	VVFIN	_	0	H	0:H	_
+4	wie	wie	ADV	ADV	_	8	R	8:R	_
+5	durch	durch	ADP	APPR	_	8	R	8:R	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	Lauf	Lauf	NOUN	NN	_	8	E	8:E	_
+8	pulver	pulv	ADJ	ADJA	_	3	A	3:A	_
+9	in	in	ADP	APPR	_	10	R	10:R	_
+10	Flammen	Flamme	NOUN	NN	_	3	A	3:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

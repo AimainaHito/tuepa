@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 501002
+# text = Developing the funk and soul of Young Americans , Station to Station also prefigured the Krautrock and synthesiser music of his next releases .
+1	Developing	develo	VERB	VBG	_	0	H	0:H	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	funk	funk	NOUN	NN	_	1	A	1:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	soul	soul	NOUN	NN	_	3	C	3:C	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Young	young	ADJ	JJ	_	3	E	3:E	_
+8	Americans	Americans	PROPN	NNPS	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	Station	Station	PROPN	NNP	_	14	A	14:A|1:A	_
+11	to	to	ADP	IN	_	10	Terminal	10:Terminal	_
+12	Station	Station	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	also	also	ADV	RB	_	14	D	14:D	_
+14	prefigured	prefigure	VERB	VBD	_	1	H	1:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Krautrock	Krautrock	NOUN	NN	_	19	E	19:E	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	synthesiser	synthesiser	NOUN	NN	_	16	C	16:C	_
+19	music	music	NOUN	NN	_	14	A	14:A	_
+20	of	of	ADP	IN	_	23	R	23:R	_
+21	his	he	PRON	PRP$	_	23	A	23:A	_
+22	next	next	ADJ	JJ	_	23	D	23:D	_
+23	releases	release	NOUN	NNS	_	19	E	19:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

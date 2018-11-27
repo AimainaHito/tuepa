@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 490003
+# text = It details his personal relationship with his first car and follows his progression as a car lover .
+1	It	it	PRON	PRP	_	2	A	2:A|11:A	_
+2	details	detail	VERB	VBZ	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	personal	personal	ADJ	JJ	_	5	E	5:E	_
+5	relationship	relationship	NOUN	NN	_	2	A	2:A	_
+6	with	with	ADP	IN	_	9	R	9:R	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	first	first	ADJ	JJ	_	9	E	9:E	_
+9	car	car	NOUN	NN	_	5	E	5:E	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	follows	follow	VERB	VBZ	_	2	H	2:H	_
+12	his	he	PRON	PRP$	_	13	A	13:A	_
+13	progression	progression	NOUN	NN	_	11	A	11:A	_
+14	as	as	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	car	car	NOUN	NN	_	17	E	17:E	_
+17	lover	lover	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

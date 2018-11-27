@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 521013
+# text = He claimed that he had sent actress Judith Anderson a telegram containing the word " garland " and it stuck in his mind .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	claimed	claim	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	6	F	6:F	_
+4	he	he	PRON	PRP	_	6	A	6:A	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	sent	send	VERB	VBN	_	2	A	2:A	_
+7	actress	actress	NOUN	NN	_	8	E	8:E	_
+8	Judith	Judith	PROPN	NNP	_	6	A	6:A	_
+9	Anderson	Anderson	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	telegram	telegram	NOUN	NN	_	12	A	12:A	_
+12	containing	contain	VERB	VBG	_	6	A	6:A	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	word	word	NOUN	NN	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	garland	garland	NOUN	NN	_	12	A	12:A	_
+17	"	"	PUNCT	''	_	2	U	2:U	_
+18	and	and	CCONJ	CC	_	2	L	2:L	_
+19	it	it	PRON	PRP	_	20	F	20:F	_
+20	stuck	stick	VERB	VBD	_	2	H	2:H	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	mind	mind	NOUN	NN	_	20	A	20:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

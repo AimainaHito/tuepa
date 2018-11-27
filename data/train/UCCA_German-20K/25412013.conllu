@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25412013
+# text = Da nun , mit Recht oder Unrecht , die Beschuldigung sich erhob , dass der Verkehr in gefährlicher Weise gestört sei , so verlangte das Publicum auf 's Entschiedenste , dass die Meere endlich um jeden Preis von dem fürchterlichen Ungetüm befreit würden .
+1	Da	da	SCONJ	KOUS	_	11	L	11:L	_
+2	nun	nun	ADV	ADV	_	11	D	11:D	_
+3	,	,	PUNCT	$,	_	11	U	11:U	_
+4	mit	mit	ADP	APPR	_	5	R	5:R	_
+5	Recht	Recht	NOUN	NN	_	11	A	11:A	_
+6	oder	oder	CCONJ	CARD	_	5	N	5:N	_
+7	Unrecht	Unrecht	NOUN	NN	_	5	C	5:C	_
+8	,	,	PUNCT	$,	_	11	U	11:U	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Beschuldigung	Beschuldigung	NOUN	NN	_	11	A	11:A	_
+11	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+12	erhob	erheben	VERB	VVFIN	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Verkehr	Verkehr	NOUN	NN	_	20	A	20:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	gefährlicher	gefährlich	ADJ	ADJA	_	19	E	19:E	_
+19	Weise	Weise	NOUN	NN	_	20	D	20:D	_
+20	gestört	stören	VERB	VVPP	_	10	A	10:A	_
+21	sei	sein	AUX	NN	_	20	F	20:F	_
+22	,	,	PUNCT	$,	_	11	U	11:U	_
+23	so	so	ADV	ADV	_	11	L	11:L	_
+24	verlangte	verlangte	VERB	VVFIN	_	11	H	11:H	_
+25	das	der	DET	ART	_	26	E	26:E	_
+26	Publicum	Publicum	NOUN	NN	_	24	A	24:A	_
+27	auf	auf	ADP	APPR	_	29	R	29:R	_
+28	's	es	X	PPER	_	29	E	29:E	_
+29	Entschiedenste	Entschiedenst	NOUN	NN	_	24	D	24:D	_
+30	,	,	PUNCT	$,	_	24	U	24:U	_
+31	dass	dass	SCONJ	KOUS	_	42	R	42:R	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Meere	Meer	NOUN	NN	_	42	A	42:A	_
+34	endlich	endlich	ADV	ADV	_	42	D	42:D	_
+35	um	um	ADP	APPR	_	42	A	42:A	_
+36	jeden	jed	PRON	PIAT	_	35	Terminal	35:Terminal	_
+37	Preis	Preis	NOUN	NN	_	35	Terminal	35:Terminal	_
+38	von	von	ADP	NN	_	41	R	41:R	_
+39	dem	der	DET	ART	_	41	E	41:E	_
+40	fürchterlichen	fürchterlich	ADJ	ADJA	_	41	E	41:E	_
+41	Ungetüm	Ungetüm	NOUN	NN	_	42	A	42:A	_
+42	befreit	befreien	VERB	VVPP	_	24	A	24:A	_
+43	würden	werden	AUX	ADJD	_	42	F	42:F	_
+44	.	.	PUNCT	$.	_	42	U	42:U	_
+

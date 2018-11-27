@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25631009
+# text = Ned nahm in seiner Freude sich vor , den folgenden Tag diese Zauber insel wieder zu besuchen , um sie ihrer eßbaren Vierfüßler zu berauben .
+1	Ned	Ned	PROPN	NE	_	2	A	2:A|17:A|25:A	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	seiner	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Freude	Freude	NOUN	NN	_	2	A	2:A	_
+6	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+7	vor	vor	ADP	NN	_	2	Terminal	2:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	den	der	DET	ART	_	11	E	11:E	_
+10	folgenden	folgend	ADJ	ADJA	_	11	E	11:E	_
+11	Tag	Tag	NOUN	NN	_	17	D	17:D	_
+12	diese	dies	PRON	PDAT	_	14	E	14:E	_
+13	Zauber	Zauber	NOUN	NN	_	14	E	14:E	_
+14	insel	insel	ADV	NN	_	17	A	17:A	_
+15	wieder	wieder	ADV	NE	_	17	D	17:D	_
+16	zu	zu	PART	NE	_	17	F	17:F	_
+17	besuchen	besuchen	VERB	VVINF	_	2	A	2:A	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	um	um	ADP	KOUI	_	2	L	2:L	_
+20	sie	sie	PRON	ADV	_	25	A	25:A	_
+21	ihrer	ihr	DET	PPOSAT	_	23	E	23:E	_
+22	eßbaren	eßbar	ADJ	ADJA	_	23	E	23:E	_
+23	Vierfüßler	Vierfüßler	NOUN	NN	_	25	A	25:A	_
+24	zu	zu	PART	VVINF	_	25	F	25:F	_
+25	berauben	berauben	VERB	VVFIN	_	2	H	2:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

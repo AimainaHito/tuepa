@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25762028
+# text = Aber Kapitän Nemo fand bald eine enge Öffnung , durch die er kühn weiterdrang , obwohl er wusste , dass sie sich hinter ihm wieder schloß .
+1	Aber	aber	PROPN	KON	_	4	L	4:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+4	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+5	bald	bald	ADV	ADV	_	4	D	4:D	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	enge	eng	ADJ	ADJA	_	8	E	8:E	_
+8	Öffnung	Öffnung	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	durch	durch	ADP	APPR	_	11	E	11:E	_
+11	die	der	PRON	PRELS	_	14	R	14:R	_
+12	er	er	PRON	PPER	_	14	A	14:A	_
+13	kühn	kühn	ADJ	NN	_	14	D	14:D	_
+14	weiterdrang	weiterdrang	ADJ	VVFIN	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	obwohl	obwohl	SCONJ	ADV	_	4	L	4:L	_
+17	er	er	PRON	PPER	_	18	A	18:A	_
+18	wusste	wissen	VERB	VVFIN	_	4	H	4:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+21	sie	sie	PRON	ADV	_	22	A	22:A	_
+22	sich	er|es|sie	PRON	PRF	_	18	A	18:A	_
+23	hinter	hinter	ADP	APPR	_	24	R	24:R	_
+24	ihm	er	PRON	PPER	_	22	A	22:A	_
+25	wieder	wieder	ADV	NN	_	22	D	22:D	_
+26	schloß	schließen	VERB	VVFIN	_	22	Terminal	22:Terminal	_
+27	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25708022
+# text = » Ja , just diese Nacht , in einigen Minuten sind wir durch diesen Isthmus gefahren . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	just	just	ADV	NN	_	6	D	6:D	_
+5	diese	dies	PRON	PDAT	_	6	E	6:E	_
+6	Nacht	Nacht	NOUN	NN	_	0	C	0:C|2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	einigen	einige	PRON	PIAT	_	10	E	10:E	_
+10	Minuten	Minute	NOUN	NN	_	16	D	16:D	_
+11	sind	sein	AUX	NE	_	16	F	16:F	_
+12	wir	wir	PRON	NE	_	16	A	16:A	_
+13	durch	durch	ADP	APPR	_	15	R	15:R	_
+14	diesen	dies	PRON	PDAT	_	15	E	15:E	_
+15	Isthmus	Isthmus	NOUN	NN	_	16	A	16:A	_
+16	gefahren	fahren	VERB	VVPP	_	0	P	0:P|2:P	_
+17	.	.	PUNCT	$.	_	2	U	2:U	_
+18	«	«	PUNCT	$(	_	2	U	2:U	_
+

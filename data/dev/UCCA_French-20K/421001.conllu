@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 421001
+# text = Qu' un simple particulier eût à sa disposition un tel engin mécanique , c' était peu probable .
+1	Qu'	que	SCONJ	_	_	8	R	8:R	_
+2	un	un	DET	_	_	4	E	4:E	_
+3	simple	simple	NOUN	_	_	4	E	4:E	_
+4	particulier	particulier	ADJ	_	_	8	A	8:A	_
+5	eût	avoir	VERB	_	_	8	F	8:F	_
+6	à	à	ADP	_	_	8	R	8:R	_
+7	sa	son	DET	_	_	8	E	8:E	_
+8	disposition	disposition	NOUN	_	_	17	A	17:A	_
+9	un	un	DET	_	_	11	E	11:E	_
+10	tel	tel	ADJ	_	_	11	E	11:E	_
+11	engin	engin	NOUN	_	_	8	A	8:A	_
+12	mécanique	mécanique	ADJ	_	_	11	E	11:E	_
+13	,	,	PUNCT	_	_	17	U	17:U	_
+14	c'	ce	PRON	_	_	17	F	17:F	_
+15	était	être	AUX	_	_	17	F	17:F	_
+16	peu	peu	ADV	_	_	17	D	17:D	_
+17	probable	probable	ADJ	_	_	0	H	0:H	_
+18	.	.	PUNCT	_	_	17	U	17:U	_
+

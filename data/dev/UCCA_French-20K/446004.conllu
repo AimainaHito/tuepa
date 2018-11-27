@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 446004
+# text = Pas un homme ne manquait à son rôle d' équipage .
+1	Pas	pas	ADV	_	_	5	D	5:D	_
+2	un	un	DET	_	_	3	E	3:E	_
+3	homme	homme	NOUN	_	_	5	A	5:A	_
+4	ne	ne	ADV	_	_	5	D	5:D	_
+5	manquait	manquer	VERB	_	_	0	H	0:H	_
+6	à	à	ADP	_	_	8	F	8:F	_
+7	son	son	DET	_	_	8	E	8:E	_
+8	rôle	rôle	NOUN	_	_	5	A	5:A	_
+9	d'	de	ADP	_	_	10	R	10:R	_
+10	équipage	équipage	NOUN	_	_	8	E	8:E	_
+11	.	.	PUNCT	_	_	10	U	10:U	_
+

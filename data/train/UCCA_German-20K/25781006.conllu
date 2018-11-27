@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25781006
+# text = Am folgenden Tag , dem 22 . März , wurden um 6 Uhr früh die Vorbereitungen zur Abreise begonnen .
+1	Am	am	PROPN	ADJD	_	3	E	3:E	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	6	E	6:E	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	22	22	NUM	CARD	_	16	D	16:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	März	März	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	16	U	16:U	_
+10	wurden	werden	AUX	ADJD	_	16	F	16:F	_
+11	um	um	ADP	APPR	_	12	R	12:R	_
+12	6	6	NUM	CARD	_	16	D	16:D	_
+13	Uhr	Uhr	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	früh	früh	ADP	ADJD	_	12	E	12:E	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Vorbereitungen	Vorbereitung	NOUN	NN	_	0	H	0:H	_
+17	zur	zur	ADP	NE	_	18	R	18:R	_
+18	Abreise	Abreise	NOUN	NN	_	16	A	16:A	_
+19	begonnen	beginnen	VERB	VVPP	_	16	D	16:D	_
+20	.	.	PUNCT	$.	_	16	U	16:U	_
+

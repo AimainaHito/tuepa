@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25725024
+# text = In dem Moment wurden die Bewegungen der Schraube merklich schwächer , dann hörte sie gänzlich auf .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Moment	Moment	NOUN	NN	_	10	D	10:D	_
+4	wurden	werden	AUX	ADJD	_	10	F	10:F	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Bewegungen	Bewegung	NOUN	NN	_	10	A	10:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Schraube	Schraube	NOUN	NN	_	6	A	6:A	_
+9	merklich	merklich	ADJ	ADJD	_	10	D	10:D	_
+10	schwächer	schwach	ADJ	ADJD	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dann	dann	ADV	ADV	_	10	L	10:L	_
+13	hörte	hören	VERB	VVFIN	_	10	H	10:H	_
+14	sie	sie	PRON	ADV	_	13	A	13:A	_
+15	gänzlich	gänzlich	ADJ	ADJD	_	13	D	13:D	_
+16	auf	auf	ADP	PTKVZ	_	13	Terminal	13:Terminal	_
+17	.	.	PUNCT	$.	_	13	U	13:U	_
+

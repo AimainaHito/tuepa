@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25495009
+# text = Diese Gedanken durchkreuzten sich rasch in meinem Geist , während der sonderbare Mann , vertieft und in sich selbst versenkt , schwieg .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Gedanken	Gedanke	NOUN	NN	_	3	A	3:A	_
+3	durchkreuzten	durchkreuzen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	rasch	rasch	ADJ	ADJD	_	3	D	3:D	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	meinem	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Geist	Geist	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	während	während	SCONJ	VVINF	_	3	L	3:L	_
+11	der	der	DET	ART	_	13	E	13:E	_
+12	sonderbare	sonderbar	ADJ	ADJA	_	13	E	13:E	_
+13	Mann	Mann	NOUN	NN	_	0	C	0:C|15:A|20:A	_
+14	,	,	PUNCT	$,	_	15	U	15:U	_
+15	vertieft	vertiefen	ADJ	FM	_	3	H	3:H	_
+16	und	und	CCONJ	NE	_	3	L	3:L	_
+17	in	in	ADP	APPR	_	18	R	18:R	_
+18	sich	er|es|sie	PRON	PRF	_	20	A	20:A	_
+19	selbst	selbst	ADV	NN	_	18	E	18:E	_
+20	versenkt	versenken	VERB	VVPP	_	3	H	3:H	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	schwieg	schweigen	VERB	VVFIN	_	3	H	3:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

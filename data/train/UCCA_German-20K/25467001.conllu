@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25467001
+# text = « » Erlauben mir , mein Herr , zu bemerken « , versetzte Conseil , » daß ich nie auf diesen Preis mir Rechnung gemacht habe ; und die Regierung der Union konnte 100.000 Dollar versprechen , sie wäre um nichts ärmer geworden .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Erlauben	erlauben	NOUN	NN	_	10	D	10:D	_
+4	mir	ich	PRON	PPER	_	10	A	10:A	_
+5	,	,	PUNCT	$,	_	10	U	10:U	_
+6	mein	mein	PRON	PPOSAT	_	7	E	7:E	_
+7	Herr	Herr	NOUN	NN	_	10	G	10:G	_
+8	,	,	PUNCT	$,	_	10	U	10:U	_
+9	zu	zu	PART	NE	_	10	F	10:F	_
+10	bemerken	bemerken	VERB	VVINF	_	13	A	13:A	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	versetzte	versetzter	ADJ	VVFIN	_	0	H	0:H	_
+14	Conseil	Conseil	NOUN	NE	_	13	A	13:A	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	»	»	PUNCT	$(	_	13	U	13:U	_
+17	daß	daß	SCONJ	KOUS	_	24	L	24:L	_
+18	ich	ich	PRON	PPER	_	24	A	24:A	_
+19	nie	nie	ADV	ADV	_	24	D	24:D	_
+20	auf	auf	ADP	APPR	_	22	R	22:R	_
+21	diesen	dies	PRON	PDAT	_	22	E	22:E	_
+22	Preis	Preis	NOUN	NN	_	24	A	24:A	_
+23	mir	ich	PRON	PPER	_	24	A	24:A	_
+24	Rechnung	Rechnung	NOUN	NN	_	10	A	10:A	_
+25	gemacht	machen	VERB	VVPP	_	24	Terminal	24:Terminal	_
+26	habe	haben	AUX	VAFIN	_	24	F	24:F	_
+27	;	;	PUNCT	$.	_	24	U	24:U	_
+28	und	und	CCONJ	NE	_	24	L	24:L	_
+29	die	der	DET	ART	_	30	E	30:E	_
+30	Regierung	Regierung	NOUN	NN	_	36	A	36:A	_
+31	der	der	DET	ART	_	32	R	32:R	_
+32	Union	Union	NOUN	NE	_	30	E	30:E	_
+33	konnte	können	AUX	VMFIN	_	36	D	36:D	_
+34	100.000	100.0	NUM	CARD	_	35	E	35:E	_
+35	Dollar	Dollar	NOUN	NN	_	36	A	36:A	_
+36	versprechen	versprechen	VERB	VVFIN	_	24	H	24:H	_
+37	,	,	PUNCT	$,	_	24	U	24:U	_
+38	sie	sie	PRON	ADV	_	42	A	42:A	_
+39	wäre	sein	AUX	ADV	_	42	D	42:D	_
+40	um	um	ADP	APPR	_	41	R	41:R	_
+41	nichts	nichts	PRON	NN	_	42	A	42:A	_
+42	ärmer	ärmer	ADJ	NN	_	24	H	24:H	_
+43	geworden	werden	AUX	PAV	_	42	F	42:F	_
+44	.	.	PUNCT	$.	_	42	U	42:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 490022
+# text = Bana appeared on the British motoring show Top Gear on 15 November 2009 as a guest for its " Star in a Reasonably Priced Car " segment .
+1	Bana	Bana	PROPN	NNP	_	2	A	2:A	_
+2	appeared	appear	VERB	VBD	_	0	H	0:H	_
+3	on	on	ADP	IN	_	8	R	8:R	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	British	british	ADJ	JJ	_	7	E	7:E	_
+6	motoring	motoring	NOUN	NN	_	7	E	7:E	_
+7	show	show	NOUN	NN	_	8	E	8:E	_
+8	Top	top	PROPN	NNP	_	2	A	2:A	_
+9	Gear	gear	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	15	15	NUM	CD	_	2	D	2:D	_
+12	November	November	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	2009	2009	NUM	CD	_	11	Terminal	11:Terminal	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	guest	guest	NOUN	NN	_	2	A	2:A	_
+17	for	for	ADP	IN	_	20	R	20:R	_
+18	its	its	PRON	PRP$	_	20	E	20:E	_
+19	"	"	PUNCT	``	_	20	U	20:U	_
+20	Star	star	PROPN	NNP	_	16	E	16:E	_
+21	in	in	ADP	IN	_	20	Terminal	20:Terminal	_
+22	a	a	DET	DT	_	20	Terminal	20:Terminal	_
+23	Reasonably	reasonably	ADV	RB	_	20	Terminal	20:Terminal	_
+24	Priced	price	ADJ	JJ	_	20	Terminal	20:Terminal	_
+25	Car	car	NOUN	NN	_	20	Terminal	20:Terminal	_
+26	"	"	PUNCT	''	_	20	U	20:U	_
+27	segment	segment	NOUN	NN	_	20	E	20:E	_
+28	.	.	PUNCT	.	_	20	U	20:U	_
+

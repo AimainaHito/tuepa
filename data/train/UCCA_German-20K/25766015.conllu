@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25766015
+# text = » Noch weiter südlich ? « fragte ich den Kapitän .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Noch	noch	ADV	ADV	_	7	A	7:A	_
+3	weiter	weit	ADV	ADV	_	2	D	2:D	_
+4	südlich	südlich	ADJ	CARD	_	2	D	2:D	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

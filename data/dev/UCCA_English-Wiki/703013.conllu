@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 703013
+# text = Allen Ginsberg accompanied the troupe , staging scenes for the film Dylan was simultaneously shooting .
+1	Allen	Allen	PROPN	NNP	_	3	A	3:A|7:A	_
+2	Ginsberg	Ginsberg	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	accompanied	accompany	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	troupe	troupe	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	staging	stage	VERB	VBG	_	3	H	3:H	_
+8	scenes	scene	NOUN	NNS	_	7	A	7:A	_
+9	for	for	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	7	A	7:A	_
+12	Dylan	Dylan	PROPN	NNP	_	15	A	15:A	_
+13	was	be	AUX	VBD	_	15	F	15:F	_
+14	simultaneously	simultaneously	ADV	RB	_	15	D	15:D	_
+15	shooting	shooting	VERB	VBG	_	11	E	11:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

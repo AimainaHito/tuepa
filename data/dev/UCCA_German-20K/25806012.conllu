@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25806012
+# text = Jetzt war ich berechtigt , das wahre Buch über das Meer zu schreiben , und ich wünschte , dass dieses Buch lieber früher wie später erschiene .
+1	Jetzt	jetzt	ADV	ADV	_	13	D	13:D	_
+2	war	sein	AUX	ADV	_	13	F	13:F	_
+3	ich	ich	PRON	PPER	_	13	A	13:A	_
+4	berechtigt	berechtigen	VERB	ADJD	_	13	D	13:D	_
+5	,	,	PUNCT	$,	_	13	U	13:U	_
+6	das	der	DET	ART	_	8	E	8:E	_
+7	wahre	wahr	ADJ	NN	_	8	E	8:E	_
+8	Buch	Buch	NOUN	NN	_	13	A	13:A	_
+9	über	über	ADP	VVFIN	_	8	Terminal	8:Terminal	_
+10	das	der	DET	ART	_	8	Terminal	8:Terminal	_
+11	Meer	Meer	NOUN	NN	_	8	Terminal	8:Terminal	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	schreiben	schreiben	VERB	VVINF	_	0	H	0:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	und	und	CCONJ	NE	_	13	L	13:L	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	wünschte	wünschen	VERB	VVFIN	_	13	H	13:H	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	dass	dass	SCONJ	KOUS	_	26	R	26:R	_
+20	dieses	dies	PRON	PDAT	_	21	E	21:E	_
+21	Buch	Buch	NOUN	NN	_	26	A	26:A	_
+22	lieber	lieb	ADV	ADV	_	26	D	26:D	_
+23	früher	früher	ADJ	ADV	_	26	D	26:D	_
+24	wie	wie	ADP	ADV	_	25	R	25:R	_
+25	später	spät	ADJ	ADJD	_	26	D	26:D	_
+26	erschiene	erschiene	ADJ	VVFIN	_	17	A	17:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

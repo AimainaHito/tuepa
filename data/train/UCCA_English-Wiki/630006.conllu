@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 630006
+# text = Julia followed them - with her partner at the time , ' Bobby ' Dykins - and after a heated argument his father forced the five - year - old to choose between them .
+1	Julia	Julia	PROPN	NNP	_	2	A	2:A	_
+2	followed	follow	VERB	VBD	_	0	H	0:H	_
+3	them	they	PRON	PRP	_	2	A	2:A	_
+4	-	-	PUNCT	,	_	2	U	2:U	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	her	she	PRON	PRP$	_	7	E	7:E	_
+7	partner	partner	NOUN	NN	_	2	A	2:A	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	time	time	NOUN	NN	_	7	E	7:E	_
+11	,	,	PUNCT	,	_	7	U	7:U	_
+12	'	'	PUNCT	``	_	7	U	7:U	_
+13	Bobby	Bobby	PROPN	NNP	_	7	E	7:E	_
+14	'	'	PUNCT	''	_	13	U	13:U	_
+15	Dykins	Dykins	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+16	-	-	PUNCT	,	_	2	U	2:U	_
+17	and	and	CCONJ	CC	_	2	L	2:L	_
+18	after	after	ADP	IN	_	17	Terminal	17:Terminal	_
+19	a	a	DET	DT	_	20	R	20:R	_
+20	heated	heate	VERB	VBN	_	21	D	21:D	_
+21	argument	argument	NOUN	NN	_	2	H	2:H	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	father	father	NOUN	NN	_	24	A	24:A	_
+24	forced	force	VERB	VBN	_	2	H	2:H	_
+25	the	the	DET	DT	_	30	E	30:E	_
+26	five	five	NUM	CD	_	28	E	28:E	_
+27	-	-	PUNCT	HYPH	_	28	U	28:U	_
+28	year	year	NOUN	NN	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	old	old	ADJ	JJ	_	24	A	24:A	_
+31	to	to	PART	TO	_	32	F	32:F	_
+32	choose	choose	VERB	VB	_	24	A	24:A	_
+33	between	between	ADP	IN	_	34	R	34:R	_
+34	them	they	PRON	PRP	_	32	A	32:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

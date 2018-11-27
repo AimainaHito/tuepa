@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25625000
+# text = » Und wie wollen Sie sie zubereiten ? « fragte ich den Kanadier .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Und	und	CCONJ	ADJD	_	7	L	7:L	_
+3	wie	wie	ADV	ADV	_	7	D	7:D	_
+4	wollen	wollen	AUX	VMFIN	_	7	D	7:D	_
+5	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+6	sie	sie	PRON	ADV	_	7	A	7:A	_
+7	zubereiten	zubereiten	VERB	VVINF	_	10	A	10:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NE	_	10	A	10:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

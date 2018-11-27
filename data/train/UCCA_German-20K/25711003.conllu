@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25711003
+# text = Man musste offenbar zum Schluß kommen , und Ausflüchte waren mir zuwider .
+1	Man	man	PRON	PIS	_	5	A	5:A	_
+2	musste	müssen	AUX	VVFIN	_	5	D	5:D	_
+3	offenbar	offenbar	ADJ	NE	_	5	D	5:D	_
+4	zum	zum	ADP	NN	_	5	R	5:R	_
+5	Schluß	Schluß	NOUN	NN	_	0	H	0:H	_
+6	kommen	kommen	VERB	VVFIN	_	5	F	5:F	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	und	und	CCONJ	NE	_	5	L	5:L	_
+9	Ausflüchte	Ausflüchte	NOUN	NE	_	12	A	12:A	_
+10	waren	sein	AUX	VAFIN	_	12	F	12:F	_
+11	mir	ich	PRON	PPER	_	12	A	12:A	_
+12	zuwider	zuwider	ADV	PIAT	_	5	H	5:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

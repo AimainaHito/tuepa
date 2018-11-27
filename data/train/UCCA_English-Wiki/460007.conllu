@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 460007
+# text = In the summer of 2002 , Jennings and ABC refused to allow Toby Keith to open their coverage of July 4 celebrations with " Courtesy of the Red , White , & Blue " , prompting criticism from Keith and country music fans , who highlighted the anchor 's Canadian citizenship .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	summer	summer	NOUN	NN	_	12	D	12:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	2002	2002	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	12	U	12:U	_
+7	Jennings	Jennings	PROPN	NNP	_	12	A	12:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	ABC	ABC	PROPN	NNP	_	7	C	7:C	_
+10	refused	refuse	VERB	VBD	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	allow	allow	VERB	VB	_	0	H	0:H	_
+13	Toby	Toby	PROPN	NNP	_	16	A	16:A	_
+14	Keith	Keith	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	open	open	VERB	VB	_	12	A	12:A	_
+17	their	they	PRON	PRP$	_	18	E	18:E	_
+18	coverage	coverage	NOUN	NN	_	16	A	16:A	_
+19	of	of	ADP	IN	_	22	R	22:R	_
+20	July	July	PROPN	NNP	_	22	E	22:E	_
+21	4	4	NUM	CD	_	20	Terminal	20:Terminal	_
+22	celebrations	celebration	NOUN	NNS	_	18	E	18:E	_
+23	with	with	ADP	IN	_	25	R	25:R	_
+24	"	"	PUNCT	``	_	25	U	25:U	_
+25	Courtesy	Courtesy	NOUN	NN	_	16	A	16:A	_
+26	of	of	ADP	IN	_	25	Terminal	25:Terminal	_
+27	the	the	DET	DT	_	25	Terminal	25:Terminal	_
+28	Red	red	NOUN	NN	_	25	Terminal	25:Terminal	_
+29	,	,	PUNCT	,	_	25	U	25:U	_
+30	White	White	PROPN	NNP	_	25	Terminal	25:Terminal	_
+31	,	,	PUNCT	,	_	25	U	25:U	_
+32	&	&	CCONJ	CC	_	25	U	25:U	_
+33	Blue	Blue	PROPN	NNP	_	25	Terminal	25:Terminal	_
+34	"	"	PUNCT	''	_	12	U	12:U	_
+35	,	,	PUNCT	,	_	12	U	12:U	_
+36	prompting	prompt	VERB	VBG	_	12	H	12:H	_
+37	criticism	criticism	NOUN	NN	_	36	A	36:A	_
+38	from	from	ADP	IN	_	39	R	39:R	_
+39	Keith	Keith	PROPN	NNP	_	37	E	37:E	_
+40	and	and	CCONJ	CC	_	39	N	39:N	_
+41	country	country	NOUN	NN	_	42	E	42:E	_
+42	music	music	NOUN	NN	_	43	E	43:E	_
+43	fans	fan	NOUN	NNS	_	39	C	39:C	_
+44	,	,	PUNCT	,	_	39	U	39:U	_
+45	who	who	PRON	WP	_	46	R	46:R	_
+46	highlighted	highlight	VERB	VBD	_	39	E	39:E	_
+47	the	the	DET	DT	_	51	E	51:E	_
+48	anchor	anchor	NOUN	NN	_	51	E	51:E	_
+49	's	's	PART	POS	_	48	R	48:R	_
+50	Canadian	canadian	ADJ	JJ	_	51	E	51:E	_
+51	citizenship	citizenship	NOUN	NN	_	46	A	46:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

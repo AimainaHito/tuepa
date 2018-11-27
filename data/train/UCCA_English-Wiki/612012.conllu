@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 612012
+# text = " MacDonald inferred the influence of James Brown 's " Papa 's Got a Brand New Bag " and Pickett 's " In the Midnight Hour " , American soul tracks from which McCartney absorbed elements and drew inspiration as he " delivered his most spontaneous bass - part to date " .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	MacDonald	MacDonald	PROPN	NNP	_	3	A	3:A	_
+3	inferred	infer	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	influence	influence	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	11	R	11:R	_
+7	James	James	PROPN	NNP	_	11	E	11:E	_
+8	Brown	Brown	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	Papa	Papa	PROPN	NNP	_	5	E	5:E	_
+12	's	's	PART	POS	_	11	Terminal	11:Terminal	_
+13	Got	Got	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	a	a	DET	DT	_	11	Terminal	11:Terminal	_
+15	Brand	brand	PROPN	NNP	_	11	Terminal	11:Terminal	_
+16	New	New	PROPN	NNP	_	11	Terminal	11:Terminal	_
+17	Bag	bag	PROPN	NNP	_	11	Terminal	11:Terminal	_
+18	"	"	PUNCT	''	_	11	U	11:U	_
+19	and	and	CCONJ	CC	_	11	N	11:N	_
+20	Pickett	Pickett	PROPN	NNP	_	23	E	23:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	"	"	PUNCT	``	_	23	U	23:U	_
+23	In	in	ADP	IN	_	11	C	11:C	_
+24	the	the	DET	DT	_	23	Terminal	23:Terminal	_
+25	Midnight	Midnight	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	Hour	hour	NOUN	NN	_	23	Terminal	23:Terminal	_
+27	"	"	PUNCT	''	_	11	U	11:U	_
+28	,	,	PUNCT	,	_	11	U	11:U	_
+29	American	american	ADJ	JJ	_	31	E	31:E	_
+30	soul	soul	NOUN	NN	_	31	E	31:E	_
+31	tracks	track	NOUN	NNS	_	11	E	11:E	_
+32	from	from	ADP	IN	_	36	A	36:A	_
+33	which	which	PRON	WDT	_	32	F	32:F	_
+34	McCartney	McCartney	PROPN	NNP	_	36	A	36:A	_
+35	absorbed	absor	VERB	VBD	_	36	D	36:D	_
+36	elements	element	NOUN	NNS	_	31	E	31:E	_
+37	and	and	CCONJ	CC	_	36	N	36:N	_
+38	drew	draw	NOUN	NN	_	36	D	36:D	_
+39	inspiration	inspiration	NOUN	NN	_	36	C	36:C	_
+40	as	as	SCONJ	IN	_	36	L	36:L	_
+41	he	he	PRON	PRP	_	43	A	43:A	_
+42	"	"	PUNCT	``	_	43	U	43:U	_
+43	delivered	deliver	VERB	VBD	_	36	H	36:H	_
+44	his	he	PRON	PRP$	_	49	E	49:E	_
+45	most	most	ADV	RBS	_	46	E	46:E	_
+46	spontaneous	spontaneous	ADJ	JJ	_	49	E	49:E	_
+47	bass	bass	NOUN	NN	_	49	E	49:E	_
+48	-	-	PUNCT	HYPH	_	49	U	49:U	_
+49	part	part	NOUN	NN	_	43	A	43:A	_
+50	to	to	ADP	IN	_	51	R	51:R	_
+51	date	date	NOUN	NN	_	49	E	49:E	_
+52	"	"	PUNCT	''	_	51	U	51:U	_
+53	.	.	PUNCT	.	_	51	U	51:U	_
+

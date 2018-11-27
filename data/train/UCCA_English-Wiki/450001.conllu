@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 450001
+# text = His father was on a business trip to the Middle East when the show debuted ; upon returning , Charles Jennings , who harbored a deep dislike of nepotism , was outraged to learn that the network had put his son on the air .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	father	father	NOUN	NN	_	0	C	0:C|18:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	on	on	ADP	IN	_	7	R	7:R	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	business	business	NOUN	NN	_	7	E	7:E	_
+7	trip	trip	NOUN	NN	_	3	A	3:A	_
+8	to	to	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	Middle	Middle	PROPN	NNP	_	11	E	11:E	_
+11	East	East	PROPN	NNP	_	7	E	7:E	_
+12	when	when	ADV	WRB	_	3	L	3:L	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	show	show	NOUN	NN	_	15	A	15:A	_
+15	debuted	debute	VERB	VBD	_	3	H	3:H	_
+16	;	;	PUNCT	,	_	3	U	3:U	_
+17	upon	upon	SCONJ	IN	_	3	L	3:L	_
+18	returning	return	VERB	VBG	_	3	H	3:H	_
+19	,	,	PUNCT	,	_	3	U	3:U	_
+20	Charles	Charles	PROPN	NNP	_	32	A	32:A	_
+21	Jennings	Jennings	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	who	who	PRON	WP	_	24	F	24:F	_
+24	harbored	harbor	VERB	VBD	_	20	E	20:E	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	deep	deep	ADJ	JJ	_	27	D	27:D	_
+27	dislike	dislike	ADP	IN	_	24	A	24:A	_
+28	of	of	ADP	IN	_	29	R	29:R	_
+29	nepotism	nepotism	NOUN	NN	_	27	A	27:A	_
+30	,	,	PUNCT	,	_	32	U	32:U	_
+31	was	be	AUX	VBD	_	32	F	32:F	_
+32	outraged	outrage	ADJ	JJ	_	3	H	3:H	_
+33	to	to	PART	TO	_	34	F	34:F	_
+34	learn	learn	VERB	VB	_	32	A	32:A	_
+35	that	that	SCONJ	IN	_	39	F	39:F	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	network	network	NOUN	NN	_	39	A	39:A	_
+38	had	have	AUX	VBD	_	39	F	39:F	_
+39	put	put	VERB	VBN	_	34	A	34:A	_
+40	his	he	PRON	PRP$	_	41	E	41:E	_
+41	son	son	NOUN	NN	_	39	A	39:A	_
+42	on	on	ADP	IN	_	44	R	44:R	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	air	air	NOUN	NN	_	39	A	39:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

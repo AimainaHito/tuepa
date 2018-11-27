@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25611000
+# text = Dillon vermutete , dass es sich um die Schiffe La Pérouses handle , an deren Verschwinden die ganze Welt Anteil genommen hatte .
+1	Dillon	Dillon	PRON	NE	_	2	A	2:A	_
+2	vermutete	vermuten	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	6	R	6:R	_
+5	es	es	PRON	PPER	_	6	F	6:F	_
+6	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+7	um	um	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Schiffe	Schiff	NOUN	NN	_	6	A	6:A	_
+10	La	La	PROPN	NE	_	9	E	9:E	_
+11	Pérouses	Pérous	PROPN	NE	_	10	Terminal	10:Terminal	_
+12	handle	handeln	VERB	VVFIN	_	6	Terminal	6:Terminal	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	an	an	ADP	APPR	_	16	R	16:R	_
+15	deren	der	DET	PRELAT	_	16	E	16:E	_
+16	Verschwinden	Verschwinden	NOUN	NN	_	20	A	20:A	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	ganze	ganz	ADJ	ADJA	_	19	E	19:E	_
+19	Welt	Welt	NOUN	NN	_	20	A	20:A	_
+20	Anteil	Anteil	NOUN	NN	_	9	E	9:E	_
+21	genommen	nehmen	VERB	VVPP	_	20	Terminal	20:Terminal	_
+22	hatte	haben	AUX	VAFIN	_	20	F	20:F	_
+23	.	.	PUNCT	$.	_	20	U	20:U	_
+

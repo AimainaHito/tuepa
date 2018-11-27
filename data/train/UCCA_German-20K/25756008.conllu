@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25756008
+# text = Wir saßen bei ruhiger Flut auf der Plattform , und der Oktober hat unter jenen Breitengraden recht schöne Herbsttage .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	saßen	sitzen	VERB	VVFIN	_	0	H	0:H	_
+3	bei	bei	ADP	APPR	_	5	E	5:E	_
+4	ruhiger	ruhig	ADJ	ADJA	_	2	H	2:H	_
+5	Flut	Flut	NOUN	NN	_	4	A	4:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Plattform	Plattform	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	und	und	CCONJ	NN	_	2	L	2:L	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Oktober	Oktober	PROPN	NN	_	13	A	13:A	_
+13	hat	haben	AUX	VAFIN	_	2	H	2:H	_
+14	unter	unter	ADP	ADJD	_	16	R	16:R	_
+15	jenen	jen	DET	PDAT	_	16	E	16:E	_
+16	Breitengraden	Breitengraden	NOUN	NE	_	13	A	13:A	_
+17	recht	recht	ADV	NE	_	18	E	18:E	_
+18	schöne	schön	ADJ	ADJA	_	13	D	13:D	_
+19	Herbsttage	Herbsttage	NOUN	NN	_	13	A	13:A	_
+20	.	.	PUNCT	$.	_	13	U	13:U	_
+

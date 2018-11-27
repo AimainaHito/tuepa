@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25763002
+# text = Das Thermometer zeigte in der äußeren Luft 2 bis 3 Grad unter Null .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Thermometer	Thermometer	NOUN	NN	_	3	A	3:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	7	R	7:R	_
+5	der	der	DET	ART	_	7	E	7:E	_
+6	äußeren	äußer	ADJ	ADJA	_	7	E	7:E	_
+7	Luft	Luft	NOUN	NN	_	3	A	3:A	_
+8	2	2	NUM	CARD	_	11	E	11:E	_
+9	bis	bis	ADP	KON	_	8	R	8:R	_
+10	3	3	NUM	CARD	_	8	C	8:C	_
+11	Grad	Grad	NOUN	NN	_	3	A	3:A	_
+12	unter	unter	ADP	ADJD	_	13	R	13:R	_
+13	Null	_	NOUN	CARD	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

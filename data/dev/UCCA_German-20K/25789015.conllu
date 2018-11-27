@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25789015
+# text = Demnach handelte sich 's darum , ein Stück von der Größe der ›Nautilus‹ an seiner Wasser linie aus zu hauen .
+1	Demnach	demnach	ADV	PAV	_	2	L	2:L	_
+2	handelte	handeln	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	's	es	PRON	PPER	_	2	F	2:F	_
+5	darum	darum	ADV	PAV	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	ein	ein	DET	ART	_	8	E	8:E	_
+8	Stück	Stück	NOUN	NN	_	18	A	18:A	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Größe	Größe	NOUN	NN	_	18	A	18:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	11	E	11:E	_
+14	an	an	ADP	APPR	_	17	R	17:R	_
+15	seiner	sein	DET	PPOSAT	_	17	E	17:E	_
+16	Wasser	Wasser	NOUN	NN	_	17	E	17:E	_
+17	linie	linie	ADV	NE	_	18	A	18:A	_
+18	aus	aus	ADP	APPR	_	2	A	2:A	_
+19	zu	zu	PART	NE	_	18	F	18:F	_
+20	hauen	hauen	VERB	VVINF	_	18	Terminal	18:Terminal	_
+21	.	.	PUNCT	$.	_	18	U	18:U	_
+

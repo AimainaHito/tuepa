@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25504004
+# text = » Kapitän , von jetzt an mag ich sie nicht mehr . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Kapitän	Kapitän	NOUN	NN	_	7	G	7:G	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	von	von	ADP	NN	_	7	D	7:D	_
+5	jetzt	jetzt	ADV	ADV	_	4	Terminal	4:Terminal	_
+6	an	an	ADP	APPR	_	4	Terminal	4:Terminal	_
+7	mag	mögen	AUX	XY	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	sie	sie	PRON	ADV	_	7	A	7:A	_
+10	nicht	nicht	PART	CARD	_	7	D	7:D	_
+11	mehr	mehr	ADV	ADV	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	$.	_	7	U	7:U	_
+13	«	«	PUNCT	$(	_	7	U	7:U	_
+

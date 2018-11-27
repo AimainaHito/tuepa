@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 672010
+# text = Additionally , Carey 's newly slimmed figure began to change , as she stopped her exercise routines and gained weight .
+1	Additionally	additionally	ADV	RB	_	10	L	10:L	_
+2	,	,	PUNCT	,	_	10	U	10:U	_
+3	Carey	Carey	PROPN	NNP	_	7	E	7:E	_
+4	's	be	AUX	VBZ	_	3	R	3:R	_
+5	newly	newly	ADV	RB	_	6	E	6:E	_
+6	slimmed	slim	VERB	VBN	_	7	E	7:E	_
+7	figure	figure	NOUN	NN	_	10	A	10:A	_
+8	began	begin	VERB	VBD	_	10	D	10:D	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	change	change	VERB	VB	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	as	as	SCONJ	IN	_	10	L	10:L	_
+13	she	she	PRON	PRP	_	14	A	14:A|19:A	_
+14	stopped	stop	VERB	VBD	_	10	H	10:H	_
+15	her	she	PRON	PRP$	_	17	E	17:E	_
+16	exercise	exercise	NOUN	NN	_	17	E	17:E	_
+17	routines	routine	NOUN	NNS	_	14	A	14:A	_
+18	and	and	CCONJ	CC	_	10	L	10:L	_
+19	gained	gain	VERB	VBD	_	10	H	10:H	_
+20	weight	weight	NOUN	NN	_	19	A	19:A	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

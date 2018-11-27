@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25725012
+# text = Nun war ich fertig , ich wartete .
+1	Nun	nun	ADV	ADV	_	4	F	4:F	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	ich	ich	PRON	PPER	_	7	A	7:A	_
+7	wartete	warten	VERB	VVFIN	_	4	H	4:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

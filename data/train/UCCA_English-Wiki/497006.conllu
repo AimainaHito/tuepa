@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 497006
+# text = It was not a significant commercial success at the time but was ranked number 58 by voters on the All Time Top 1000 Albums list .
+1	It	it	PRON	PRP	_	7	A	7:A	_
+2	was	be	AUX	VBD	_	7	F	7:F	_
+3	not	not	PART	RB	_	7	D	7:D	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	significant	significant	ADJ	JJ	_	7	D	7:D	_
+6	commercial	commercial	ADJ	JJ	_	7	E	7:E	_
+7	success	success	NOUN	NN	_	0	H	0:H	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	time	time	NOUN	NN	_	7	D	7:D	_
+11	but	but	CCONJ	CC	_	7	L	7:L	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	ranked	rank	VERB	VBN	_	7	H	7:H	_
+14	number	number	NOUN	NN	_	13	A	13:A	_
+15	58	58	NUM	CD	_	14	E	14:E	_
+16	by	by	ADP	IN	_	17	R	17:R	_
+17	voters	voter	NOUN	NNS	_	13	A	13:A	_
+18	on	on	ADP	IN	_	25	R	25:R	_
+19	the	the	DET	DT	_	25	E	25:E	_
+20	All	all	PROPN	NNP	_	25	E	25:E	_
+21	Time	Time	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Top	Top	ADJ	JJ	_	20	Terminal	20:Terminal	_
+23	1000	1000	NUM	CD	_	20	Terminal	20:Terminal	_
+24	Albums	Albums	NOUN	NNS	_	20	Terminal	20:Terminal	_
+25	list	list	NOUN	NN	_	13	A	13:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

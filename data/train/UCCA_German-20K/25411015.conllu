@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25411015
+# text = Die Unternehmung ward mit größter Geschicklichkeit geleitet , und ihre Geschäfte waren vom besten Erfolg gekrönt .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Unternehmung	Unternehmung	NOUN	NN	_	7	A	7:A	_
+3	ward	ward	VERB	NE	_	7	F	7:F	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	größter	groß	ADJ	ADJA	_	6	E	6:E	_
+6	Geschicklichkeit	Geschicklichkeit	NOUN	NN	_	7	D	7:D	_
+7	geleitet	geleiten|leiten	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	L	7:L	_
+10	ihre	ihr	DET	PPOSAT	_	11	E	11:E	_
+11	Geschäfte	Geschäft	NOUN	NN	_	16	A	16:A	_
+12	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+13	vom	vom	ADV	NN	_	15	R	15:R	_
+14	besten	gut	ADJ	ADJA	_	15	E	15:E	_
+15	Erfolg	Erfolg	NOUN	NN	_	16	A	16:A	_
+16	gekrönt	krönen	VERB	VVPP	_	7	H	7:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

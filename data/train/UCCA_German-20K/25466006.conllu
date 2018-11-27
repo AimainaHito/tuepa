@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25466006
+# text = Nach diesem Termin musste Kommandant Farragut , seinem Versprechen gemäß , die Fahrt nach Südosten richten und entschieden die nördlichen Gegenden des Pazifiks verlassen .
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Termin	Termin	NOUN	NN	_	16	A	16:A	_
+4	musste	müssen	AUX	ADJA	_	16	D	16:D|24:D	_
+5	Kommandant	Kommandant	NOUN	NN	_	6	E	6:E	_
+6	Farragut	Farragut	NOUN	NN	_	0	C	0:C|24:A	_
+7	,	,	PUNCT	$,	_	16	U	16:U	_
+8	seinem	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Versprechen	Versprechen	NOUN	NN	_	10	A	10:A	_
+10	gemäß	gemäß	ADP	ADJD	_	16	H	16:H	_
+11	,	,	PUNCT	$,	_	16	U	16:U	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Fahrt	Fahrt	NOUN	NN	_	16	A	16:A	_
+14	nach	nach	ADP	CARD	_	15	R	15:R	_
+15	Südosten	Südosten	NOUN	NN	_	16	A	16:A	_
+16	richten	richten	VERB	VVFIN	_	0	H	0:H	_
+17	und	und	CCONJ	NE	_	16	L	16:L	_
+18	entschieden	entschieden	VERB	VVFIN	_	24	D	24:D	_
+19	die	der	DET	ART	_	21	E	21:E	_
+20	nördlichen	nördlich	ADJ	ADJA	_	21	E	21:E	_
+21	Gegenden	Gegend	NOUN	NN	_	23	E	23:E	_
+22	des	der	DET	ART	_	23	R	23:R	_
+23	Pazifiks	Pazifik	NOUN	NN	_	24	A	24:A	_
+24	verlassen	verlassen	VERB	NN	_	16	H	16:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

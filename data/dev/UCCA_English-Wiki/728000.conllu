@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 728000
+# text = Jolie then starred opposite Brad Pitt in the 2005 action - comedy Mr. & Mrs. Smith , which tells the story of a bored married couple , John and Jane Smith , who find out that they are both secret assassins .
+1	Jolie	Jolie	PROPN	NNP	_	3	A	3:A	_
+2	then	then	ADV	RB	_	3	D	3:D	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	opposite	opposite	ADP	IN	_	5	R	5:R	_
+5	Brad	Brad	PROPN	NNP	_	3	A	3:A	_
+6	Pitt	Pitt	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	13	R	13:R	_
+8	the	the	DET	DT	_	13	E	13:E	_
+9	2005	2005	NUM	CD	_	13	E	13:E	_
+10	action	action	NOUN	NN	_	13	E	13:E	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	comedy	comedy	NOUN	NN	_	10	C	10:C	_
+13	Mr.	Mr.	PROPN	NNP	_	3	A	3:A	_
+14	&	&	CCONJ	CC	_	13	U	13:U	_
+15	Mrs.	Mrs.	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Smith	Smith	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	which	which	PRON	WDT	_	19	F	19:F	_
+19	tells	tell	VERB	VBZ	_	13	E	13:E	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	story	story	NOUN	NN	_	19	A	19:A	_
+22	of	of	ADP	IN	_	28	R	28:R	_
+23	a	a	DET	DT	_	26	E	26:E	_
+24	bored	bore	ADJ	JJ	_	26	E	26:E	_
+25	married	marry	ADJ	JJ	_	26	E	26:E	_
+26	couple	couple	NOUN	NN	_	28	E	28:E	_
+27	,	,	PUNCT	,	_	28	U	28:U	_
+28	John	John	PROPN	NNP	_	21	E	21:E	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	Jane	Jane	PROPN	NNP	_	28	C	28:C	_
+31	Smith	Smith	PROPN	NNP	_	28	C	28:C	_
+32	,	,	PUNCT	,	_	28	U	28:U	_
+33	who	who	PRON	WP	_	34	F	34:F	_
+34	find	find	VERB	VBP	_	28	E	28:E	_
+35	out	out	ADP	RP	_	34	Terminal	34:Terminal	_
+36	that	that	SCONJ	IN	_	41	F	41:F	_
+37	they	they	PRON	PRP	_	41	A	41:A	_
+38	are	be	AUX	VBP	_	41	F	41:F	_
+39	both	both	ADV	RB	_	41	D	41:D	_
+40	secret	secret	ADJ	JJ	_	41	E	41:E	_
+41	assassins	assassin	NOUN	NNS	_	34	A	34:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

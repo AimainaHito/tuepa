@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25417002
+# text = Wie hätte deren Verfertigung geheim bleiben können ?
+1	Wie	wie	ADV	KON	_	5	D	5:D	_
+2	hätte	haben	AUX	VAFIN	_	5	D	5:D	_
+3	deren	der	DET	PDAT	_	4	R	4:R	_
+4	Verfertigung	Verfertigung	NOUN	NN	_	5	A	5:A	_
+5	geheim	geheim	ADV	ADJD	_	0	H	0:H	_
+6	bleiben	bleiben	VERB	VVINF	_	5	D	5:D	_
+7	können	können	AUX	VMFIN	_	5	D	5:D	_
+8	?	?	PUNCT	$.	_	5	U	5:U	_
+

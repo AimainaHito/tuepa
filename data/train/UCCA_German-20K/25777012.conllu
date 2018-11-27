@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25777012
+# text = Ich stellte mich neben ihn und wartete still .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|7:A	_
+2	stellte	stellen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	neben	neben	ADP	TRUNC	_	5	R	5:R	_
+5	ihn	er	PRON	PPER	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	wartete	warten	VERB	VVFIN	_	2	H	2:H	_
+8	still	still	ADJ	NN	_	7	D	7:D	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

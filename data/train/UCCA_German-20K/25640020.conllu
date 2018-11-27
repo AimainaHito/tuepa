@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25640020
+# text = Aber in diesem Moment verließ die " Nautilus " , durch die Wogen der Flut gehoben , ihr Korallen lager , genau in der 40 . Minute , wie Kapitän Nemo bestimmt hatte .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	diesem	dies	PRON	PDAT	_	4	E	4:E	_
+4	Moment	Moment	NOUN	NN	_	5	D	5:D	_
+5	verließ	verlassen	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	"	"	PUNCT	$(	_	8	U	8:U	_
+8	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+9	"	"	PUNCT	$(	_	8	U	8:U	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	durch	durch	ADP	APPR	_	16	R	16:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Wogen	Woge	NOUN	NN	_	16	A	16:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Flut	Flut	NOUN	NN	_	13	E	13:E	_
+16	gehoben	heben	VERB	VVPP	_	8	E	8:E	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	ihr	ihr	DET	PPOSAT	_	20	E	20:E	_
+19	Korallen	Koralle	NOUN	NE	_	20	E	20:E	_
+20	lager	lager	ADJ	NN	_	5	A	5:A	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	genau	genau	ADJ	ADV	_	5	D	5:D	_
+23	in	in	ADP	APPR	_	25	R	25:R	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	40	40	NUM	CARD	_	5	D	5:D	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+27	Minute	Minute	NOUN	NN	_	25	Terminal	25:Terminal	_
+28	,	,	PUNCT	$,	_	5	U	5:U	_
+29	wie	wie	ADP	KON	_	5	L	5:L	_
+30	Kapitän	Kapitän	PROPN	NN	_	31	E	31:E	_
+31	Nemo	Nemo	PROPN	NE	_	32	A	32:A	_
+32	bestimmt	bestimmen	VERB	VVPP	_	5	H	5:H	_
+33	hatte	haben	AUX	VAFIN	_	32	F	32:F	_
+34	.	.	PUNCT	$.	_	32	U	32:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25780004
+# text = Wenn das Verschwinden der hellen Sonnen scheibe mit 12 Uhr des Chronometers zusammentraf , so befanden wir uns am Pol .
+1	Wenn	wenn	SCONJ	KOUS	_	13	L	13:L	_
+2	das	der	DET	ART	_	3	E	3:E	_
+3	Verschwinden	Verschwinden	NOUN	NN	_	13	A	13:A	_
+4	der	der	DET	ART	_	7	R	7:R	_
+5	hellen	hell	ADJ	ADJA	_	7	E	7:E	_
+6	Sonnen	Sonne	NOUN	NN	_	7	E	7:E	_
+7	scheibe	scheiben	VERB	VVFIN	_	3	A	3:A	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	12	12	NUM	CARD	_	13	A	13:A	_
+10	Uhr	Uhr	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Chronometers	Chronometer	NOUN	NN	_	9	E	9:E	_
+13	zusammentraf	zusammentraf	ADV	VVFIN	_	0	H	0:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	so	so	ADV	ADV	_	13	L	13:L	_
+16	befanden	befinden	VERB	VVFIN	_	13	H	13:H	_
+17	wir	wir	PRON	NE	_	16	A	16:A	_
+18	uns	wir	PRON	NE	_	16	Terminal	16:Terminal	_
+19	am	am	ADJ	NE	_	20	R	20:R	_
+20	Pol	pol	NOUN	NE	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

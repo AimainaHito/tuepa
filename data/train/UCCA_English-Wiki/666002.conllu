@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 666002
+# text = She felt Mottola was trying to separate her from Afanasieff , in hopes of keeping their relationship permanently strained .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	felt	feel	VERB	VBD	_	0	H	0:H	_
+3	Mottola	Mottola	PROPN	NNP	_	7	A	7:A|13:A	_
+4	was	be	AUX	VBD	_	7	F	7:F	_
+5	trying	try	VERB	VBG	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	separate	separate	VERB	VB	_	2	A	2:A	_
+8	her	she	PRON	PRP	_	7	A	7:A	_
+9	from	from	ADP	IN	_	10	R	10:R	_
+10	Afanasieff	Afanasieff	PROPN	NNP	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	hopes	hope	NOUN	NNS	_	2	H	2:H	_
+14	of	of	SCONJ	IN	_	19	R	19:R	_
+15	keeping	keep	VERB	VBG	_	19	D	19:D	_
+16	their	they	PRON	PRP$	_	17	E	17:E	_
+17	relationship	relationship	NOUN	NN	_	19	A	19:A	_
+18	permanently	permanently	ADV	RB	_	19	D	19:D	_
+19	strained	straine	VERB	VBN	_	13	A	13:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

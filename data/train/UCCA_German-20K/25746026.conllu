@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25746026
+# text = Das Tangmeer bedeckt eigentlich den ganzen Teil der versunkenen Atlantis .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Tangmeer	Tangmeer	NOUN	NN	_	3	A	3:A	_
+3	bedeckt	bedecken	VERB	VVFIN	_	0	H	0:H	_
+4	eigentlich	eigentlich	ADJ	ADV	_	3	G	3:G	_
+5	den	der	DET	ART	_	7	E	7:E	_
+6	ganzen	ganz	ADJ	ADJA	_	7	E	7:E	_
+7	Teil	Teil	NOUN	NN	_	3	A	3:A	_
+8	der	der	DET	ART	_	7	R	7:R	_
+9	versunkenen	versunken	ADJ	ADJA	_	10	E	10:E	_
+10	Atlantis	Atlantis	PROPN	NN	_	7	E	7:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

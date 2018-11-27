@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25813015
+# text = 7 von den 8 Armen waren abgehauen ; ein einziger nur , der das Opfer schwang wie eine Feder , krümmte sich noch in der Luft .
+1	7	7	NUM	CARD	_	7	A	7:A	_
+2	von	von	ADP	NN	_	5	R	5:R	_
+3	den	der	DET	ART	_	5	E	5:E	_
+4	8	8	NUM	CARD	_	5	E	5:E	_
+5	Armen	Arm|Arme	NOUN	NN	_	1	E	1:E	_
+6	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+7	abgehauen	abgehau	ADJ	VVINF	_	0	H	0:H	_
+8	;	;	PUNCT	$.	_	7	U	7:U	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	einziger	einzig	ADJ	ADJA	_	21	A	21:A	_
+11	nur	nur	ADV	NN	_	10	E	10:E	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	der	der	PRON	PRELS	_	16	R	16:R	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Opfer	Opfer	NOUN	NN	_	16	A	16:A	_
+16	schwang	schwingen	VERB	VVFIN	_	10	E	10:E	_
+17	wie	wie	ADP	ADV	_	19	R	19:R	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Feder	Feder	NOUN	NN	_	16	A	16:A	_
+20	,	,	PUNCT	$,	_	21	U	21:U	_
+21	krümmte	krümmen	VERB	VVFIN	_	7	H	7:H	_
+22	sich	er|es|sie	PRON	PRF	_	21	Terminal	21:Terminal	_
+23	noch	noch	ADV	NN	_	21	D	21:D	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Luft	Luft	NOUN	NN	_	21	A	21:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

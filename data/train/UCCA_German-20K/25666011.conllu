@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25666011
+# text = Dieser leere Raum sparte auch die Graphit spitzen , zwischen denen die Licht strömung sich entwickelt .
+1	Dieser	dies	PRON	PDAT	_	3	E	3:E	_
+2	leere	leer	ADJ	ADJA	_	3	E	3:E	_
+3	Raum	Raum	NOUN	NN	_	4	A	4:A	_
+4	sparte	sparen	VERB	VVFIN	_	0	H	0:H	_
+5	auch	auch	ADV	ADV	_	4	D	4:D	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Graphit	Graphit	NOUN	NN	_	8	E	8:E	_
+8	spitzen	spitzen	VERB	VVFIN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	zwischen	zwischen	ADP	ADJA	_	11	R	11:R	_
+11	denen	der	PRON	PRELS	_	15	R	15:R	_
+12	die	der	DET	ART	_	14	E	14:E	_
+13	Licht	Licht	NOUN	NN	_	14	E	14:E	_
+14	strömung	strömung	PROPN	NN	_	15	A	15:A	_
+15	sich	er|es|sie	PRON	PRF	_	8	E	8:E	_
+16	entwickelt	entwickeln	VERB	VVPP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

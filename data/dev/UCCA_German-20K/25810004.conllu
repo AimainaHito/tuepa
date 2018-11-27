@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25810004
+# text = Ich sah ebenfalls hin und konnte mich einer Bewegung des Widerwillens nicht erwehren .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|7:A|9:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	ebenfalls	ebenfalls	ADV	ADV	_	2	D	2:D	_
+4	hin	hin	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+7	mich	ich	PRON	PRF	_	2	H	2:H	_
+8	einer	ein	DET	ART	_	9	E	9:E	_
+9	Bewegung	Bewegung	NOUN	NN	_	7	A	7:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Widerwillens	Widerwille	NOUN	NN	_	9	A	9:A	_
+12	nicht	nicht	PART	CARD	_	7	D	7:D	_
+13	erwehren	erwehren	VERB	VVINF	_	7	Terminal	7:Terminal	_
+14	.	.	PUNCT	$.	_	7	U	7:U	_
+

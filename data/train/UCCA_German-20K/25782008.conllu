@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25782008
+# text = Aber Kapitän Nemo erschien nicht .
+1	Aber	aber	PROPN	KON	_	4	L	4:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+4	erschien	erscheinen	AUX	VVFIN	_	0	H	0:H	_
+5	nicht	nicht	PART	CARD	_	4	D	4:D	_
+6	.	.	PUNCT	$.	_	4	U	4:U	_
+

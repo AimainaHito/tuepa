@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25607001
+# text = Diese Fels wände waren speziell das Werk von Madreporenarten , die mit besonderen Namen Milleporen , Poriten , Mäandrinen genannt werden .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	Fels	Fels	NOUN	NE	_	3	E	3:E	_
+3	wände	wänd	ADJ	NN	_	7	A	7:A	_
+4	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+5	speziell	speziell	ADJ	ADJA	_	7	D	7:D	_
+6	das	der	DET	ART	_	7	E	7:E	_
+7	Werk	Werk	NOUN	NN	_	0	H	0:H	_
+8	von	von	ADP	NN	_	9	R	9:R	_
+9	Madreporenarten	Madreporenart	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	20	R	20:R	_
+12	mit	mit	ADP	APPR	_	15	R	15:R	_
+13	besonderen	besonder	ADJ	ADJA	_	14	E	14:E	_
+14	Namen	Name	NOUN	NN	_	15	E	15:E	_
+15	Milleporen	Millepor	PROPN	NE	_	20	A	20:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	Poriten	Poriten	PROPN	NE	_	15	C	15:C	_
+18	,	,	PUNCT	$,	_	15	U	15:U	_
+19	Mäandrinen	Mäandrinen	PROPN	NE	_	15	C	15:C	_
+20	genannt	nennen	AUX	VVPP	_	9	E	9:E	_
+21	werden	werden	AUX	VVFIN	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

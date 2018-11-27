@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25511002
+# text = » Es ist wunderbar « , erwiderte ich , » und ich sehe wohl , Kapitän , dass Sie Grund hatten , dieses Agens zu gebrauchen , dem es bestimmt ist , Wind , Wasser und Dampf zu ersetzen . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Es	es	PRON	PPER	_	4	A	4:A	_
+3	ist	sein	AUX	VVFIN	_	4	F	4:F	_
+4	wunderbar	wunderbar	ADJ	ADJD	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	und	und	CCONJ	NE	_	4	L	4:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	sehe	sehen	VERB	VVFIN	_	4	H	4:H	_
+14	wohl	wohl	ADV	ADV	_	13	G	13:G	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	Kapitän	Kapitän	NOUN	NN	_	13	G	13:G	_
+17	,	,	PUNCT	$,	_	13	U	13:U	_
+18	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+19	Sie	sie	PRON	PPER	_	20	A	20:A|26:A	_
+20	Grund	Grund	NOUN	NN	_	13	A	13:A	_
+21	hatten	haben	VERB	VAFIN	_	20	F	20:F	_
+22	,	,	PUNCT	$,	_	20	U	20:U	_
+23	dieses	dies	PRON	PDAT	_	24	E	24:E	_
+24	Agens	Agens	NOUN	NN	_	26	A	26:A	_
+25	zu	zu	PART	NN	_	26	F	26:F	_
+26	gebrauchen	brauchen	VERB	ADJA	_	20	A	20:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	dem	der	PRON	PRELS	_	30	R	30:R	_
+29	es	es	PRON	PPER	_	30	F	30:F	_
+30	bestimmt	bestimmen	ADJ	ADJD	_	24	E	24:E	_
+31	ist	sein	AUX	NN	_	30	F	30:F	_
+32	,	,	PUNCT	$,	_	30	U	30:U	_
+33	Wind	Wind	NOUN	NN	_	39	A	39:A	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	Wasser	Wasser	NOUN	NN	_	33	C	33:C	_
+36	und	und	CCONJ	NE	_	33	N	33:N	_
+37	Dampf	Dampf	NOUN	NN	_	33	C	33:C	_
+38	zu	zu	PART	NE	_	39	F	39:F	_
+39	ersetzen	ersetzen	VERB	VVINF	_	30	A	30:A	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

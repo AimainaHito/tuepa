@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 214003
+# text = The following year Dunst began attending Notre Dame High School , a private Catholic high school in Los Angeles .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	Dunst	Dunst	PROPN	NNP	_	6	A	6:A	_
+5	began	begin	VERB	VBD	_	6	D	6:D	_
+6	attending	attende	VERB	VBG	_	0	H	0:H	_
+7	Notre	Notre	PROPN	NNP	_	9	E	9:E	_
+8	Dame	Dame	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	High	High	PROPN	NNP	_	6	A	6:A	_
+10	School	School	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	private	private	ADJ	JJ	_	15	E	15:E	_
+14	Catholic	Catholic	PROPN	NNP	_	15	E	15:E	_
+15	high	high	ADJ	JJ	_	9	E	9:E	_
+16	school	school	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	Los	Los	PROPN	NNP	_	15	E	15:E	_
+19	Angeles	angeles	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

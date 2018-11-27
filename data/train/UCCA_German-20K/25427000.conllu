@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25427000
+# text = So würde das unerklärliche Phänomen seine Erklärung finden - sofern nicht etwa nichts daran ist , trotz dem , was man gesehen und vermutet hat - was auch möglich ist !
+1	So	so	ADV	ADV	_	7	D	7:D	_
+2	würde	werden	AUX	NN	_	7	F	7:F	_
+3	das	der	DET	ART	_	5	E	5:E	_
+4	unerklärliche	unerklärlich	ADJ	ADJA	_	7	A	7:A	_
+5	Phänomen	Phänomen	NOUN	NN	_	4	A	4:A	_
+6	seine	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Erklärung	Erklärung	NOUN	NN	_	0	H	0:H	_
+8	finden	finden	VERB	VVINF	_	7	D	7:D	_
+9	-	-	PUNCT	$(	_	7	U	7:U	_
+10	sofern	sofern	SCONJ	KOUS	_	7	L	7:L	_
+11	nicht	nicht	PART	XY	_	14	D	14:D	_
+12	etwa	etwa	ADV	ADV	_	14	D	14:D	_
+13	nichts	nichts	PRON	NN	_	14	A	14:A	_
+14	daran	daran	PRON	PAV	_	7	H	7:H	_
+15	ist	sein	AUX	NN	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	7	U	7:U	_
+17	trotz	trotz	ADP	APPR	_	7	L	7:L	_
+18	dem	der	PRON	PRELS	_	22	F	22:F	_
+19	,	,	PUNCT	$,	_	22	U	22:U	_
+20	was	was	PRON	NE	_	22	A	22:A	_
+21	man	man	PRON	PIS	_	22	A	22:A	_
+22	gesehen	sehen	VERB	VVINF	_	7	H	7:H	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	vermutet	vermuten	VERB	VVPP	_	22	C	22:C	_
+25	hat	haben	AUX	VAFIN	_	22	F	22:F	_
+26	-	-	PUNCT	$(	_	7	U	7:U	_
+27	was	was	PRON	NE	_	29	A	29:A	_
+28	auch	auch	ADV	ADV	_	29	D	29:D	_
+29	möglich	möglich	ADJ	ADJD	_	7	H	7:H	_
+30	ist	sein	AUX	NN	_	29	F	29:F	_
+31	!	!	PUNCT	$.	_	29	U	29:U	_
+

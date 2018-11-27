@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25524000
+# text = Eine volle Stunde blieb ich in diese Gedanken versunken , indem ich das mir so interessante Geheimnis zu durchdringen suchte .
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	volle	voll	ADJ	ADJA	_	3	E	3:E	_
+3	Stunde	Stunde	NOUN	NN	_	9	D	9:D	_
+4	blieb	bleiben	VERB	VVFIN	_	9	D	9:D	_
+5	ich	ich	PRON	PPER	_	9	A	9:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Gedanken	Gedanke	NOUN	NN	_	9	A	9:A	_
+9	versunken	versunken	VERB	VVINF	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	indem	indem	SCONJ	KOUS	_	9	L	9:L	_
+12	ich	ich	PRON	PPER	_	19	A	19:A	_
+13	das	der	DET	ART	_	17	E	17:E	_
+14	mir	ich	PRON	PPER	_	16	A	16:A	_
+15	so	so	ADV	ADV	_	16	D	16:D	_
+16	interessante	interessant	ADJ	ADJA	_	17	E	17:E	_
+17	Geheimnis	Geheimnis	NOUN	NN	_	19	A	19:A	_
+18	zu	zu	PART	NE	_	19	F	19:F	_
+19	durchdringen	durchdringen	VERB	NE	_	9	H	9:H	_
+20	suchte	suchen	VERB	VVFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

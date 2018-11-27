@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25767005
+# text = Die wunderbaren Eigenschaften der ›Nautilus‹ sollten auch zu diesem übermenschlichen Vorhaben dienen !
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	wunderbaren	wunderbar	ADJ	ADJA	_	3	D	3:D	_
+3	Eigenschaften	Eigenschaft	NOUN	NN	_	12	A	12:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|3:A	_
+6	sollten	sollen	AUX	VMFIN	_	12	D	12:D	_
+7	auch	auch	ADV	ADV	_	12	D	12:D	_
+8	zu	zu	ADP	VVINF	_	11	R	11:R	_
+9	diesem	dies	PRON	PDAT	_	11	E	11:E	_
+10	übermenschlichen	übermenschlich	ADJ	ADJA	_	11	D	11:D	_
+11	Vorhaben	Vorhaben	NOUN	NN	_	12	A	12:A	_
+12	dienen	dienen	VERB	VVFIN	_	0	H	0:H	_
+13	!	!	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 249012
+# text = The following year he starred as a vampire researcher trying to save humanity from extinction in the horror - thriller Daybreakers ( 2010 ) . The feature received reasonable reviews , and earned $ 51 million worldwide .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	5	D	5:D	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	as	as	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	vampire	vampire	NOUN	NN	_	9	E	9:E	_
+9	researcher	researcher	NOUN	NN	_	12	A	12:A	_
+10	trying	try	VERB	VBG	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	save	save	VERB	VB	_	5	A	5:A	_
+13	humanity	humanity	NOUN	NN	_	12	A	12:A|15:A	_
+14	from	from	ADP	IN	_	15	R	15:R	_
+15	extinction	extinction	NOUN	NN	_	12	A	12:A	_
+16	in	in	ADP	IN	_	21	R	21:R	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	horror	horror	NOUN	NN	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	thriller	thriller	NOUN	NN	_	21	E	21:E	_
+21	Daybreakers	Daybreaker	NOUN	NNS	_	0	C	0:C|33:A	_
+22	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+23	2010	2010	NUM	CD	_	21	E	21:E	_
+24	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+25	.	.	PUNCT	.	_	5	U	5:U	_
+26	The	the	DET	DT	_	27	E	27:E	_
+27	feature	feature	NOUN	NN	_	28	A	28:A	_
+28	received	receive	VERB	VBD	_	5	H	5:H	_
+29	reasonable	reasonable	ADJ	JJ	_	30	E	30:E	_
+30	reviews	review	NOUN	NNS	_	28	A	28:A	_
+31	,	,	PUNCT	,	_	5	U	5:U	_
+32	and	and	CCONJ	CC	_	5	L	5:L	_
+33	earned	earn	VERB	VBD	_	5	H	5:H	_
+34	$	$	SYM	$	_	33	U	33:U	_
+35	51	51	NUM	CD	_	33	A	33:A	_
+36	million	million	NUM	CD	_	35	E	35:E	_
+37	worldwide	worldwide	NOUN	NN	_	35	E	35:E	_
+38	.	.	PUNCT	.	_	35	U	35:U	_
+

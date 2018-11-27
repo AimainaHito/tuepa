@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 703005
+# text = " In Rolling Stone , reviewer Jon Landau wrote that " the record has been made with typical shoddiness .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	Rolling	Rolling	PROPN	NNP	_	9	A	9:A	_
+4	Stone	stone	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	reviewer	reviewer	NOUN	NN	_	9	A	9:A	_
+7	Jon	Jon	PROPN	NNP	_	6	E	6:E	_
+8	Landau	Landau	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	wrote	write	VERB	VBD	_	0	H	0:H	_
+10	that	that	SCONJ	IN	_	16	F	16:F	_
+11	"	"	PUNCT	``	_	16	U	16:U	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	record	record	NOUN	NN	_	16	A	16:A	_
+14	has	have	AUX	VBZ	_	16	F	16:F	_
+15	been	be	AUX	VBN	_	16	F	16:F	_
+16	made	make	VERB	VBN	_	9	A	9:A	_
+17	with	with	ADP	IN	_	19	R	19:R	_
+18	typical	typical	ADJ	JJ	_	19	E	19:E	_
+19	shoddiness	shoddiness	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

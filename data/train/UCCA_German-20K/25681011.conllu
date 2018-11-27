@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25681011
+# text = Völlig verlassen war die Stelle , wo die Perlen fischer zusammen zu kommen pflegten .
+1	Völlig	völlig	PROPN	ADJD	_	2	D	2:D	_
+2	verlassen	verlassen	VERB	NN	_	0	H	0:H	_
+3	war	sein	AUX	ADV	_	2	F	2:F	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Stelle	Stelle	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	wo	wo	ADV	ADJA	_	11	R	11:R	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	Perlen	Perle|Perlen	NOUN	NN	_	10	E	10:E	_
+10	fischer	fisch	ADJ	ADJA	_	11	A	11:A	_
+11	zusammen	zusammen	ADV	NN	_	5	E	5:E	_
+12	zu	zu	PART	NE	_	11	F	11:F	_
+13	kommen	kommen	VERB	VVINF	_	11	Terminal	11:Terminal	_
+14	pflegten	pflegen	AUX	VVFIN	_	11	D	11:D	_
+15	.	.	PUNCT	$.	_	11	U	11:U	_
+

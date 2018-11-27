@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 145003
+# text = Hepburn was known for being fiercely private , and would not give interviews or talk to fans for much of her career .
+1	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A|10:A|12:A|15:A|7:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	known	known	VERB	VBN	_	0	H	0:H	_
+4	for	for	SCONJ	IN	_	7	R	7:R	_
+5	being	be	AUX	VBG	_	7	F	7:F	_
+6	fiercely	fiercely	ADV	RB	_	7	D	7:D	_
+7	private	private	ADJ	JJ	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	would	would	AUX	MD	_	3	H	3:H	_
+11	not	not	PART	RB	_	10	D	10:D	_
+12	give	give	VERB	VB	_	10	A	10:A	_
+13	interviews	interview	NOUN	NNS	_	12	A	12:A	_
+14	or	or	CCONJ	CC	_	12	N	12:N	_
+15	talk	talk	VERB	VB	_	12	C	12:C	_
+16	to	to	ADP	IN	_	17	R	17:R	_
+17	fans	fan	NOUN	NNS	_	15	A	15:A	_
+18	for	for	ADP	IN	_	22	R	22:R	_
+19	much	much	ADJ	JJ	_	22	E	22:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	her	she	PRON	PRP$	_	22	E	22:E	_
+22	career	career	NOUN	NN	_	12	E	12:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

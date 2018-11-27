@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 461012
+# text = However , despite having almost always reported from the scene of any major news story , Jennings was sidelined by an upper respiratory infection in late December 2004 ; he was forced to anchor from New York during the aftermath of the Asian tsunami , while his competitors traveled to the region .
+1	However	however	ADV	RB	_	7	L	7:L	_
+2	,	,	PUNCT	,	_	7	U	7:U	_
+3	despite	despite	SCONJ	IN	_	7	L	7:L	_
+4	having	have	VERB	VBG	_	7	F	7:F	_
+5	almost	almost	ADV	RB	_	6	E	6:E	_
+6	always	always	ADV	RB	_	7	D	7:D	_
+7	reported	report	VERB	VBN	_	0	H	0:H	_
+8	from	from	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	scene	scene	NOUN	NN	_	7	A	7:A	_
+11	of	of	ADP	IN	_	15	R	15:R	_
+12	any	any	DET	DT	_	15	E	15:E	_
+13	major	major	ADJ	JJ	_	15	E	15:E	_
+14	news	news	NOUN	NN	_	15	E	15:E	_
+15	story	story	NOUN	NN	_	10	E	10:E	_
+16	,	,	PUNCT	,	_	7	U	7:U	_
+17	Jennings	Jenning	PROPN	NNP	_	19	A	19:A|7:A	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	sidelined	sidelin	VERB	VBN	_	7	H	7:H	_
+20	by	by	ADP	IN	_	24	R	24:R	_
+21	an	a	DET	DT	_	24	E	24:E	_
+22	upper	upper	ADJ	JJ	_	23	E	23:E	_
+23	respiratory	respiratory	NOUN	NN	_	24	E	24:E	_
+24	infection	infection	NOUN	NN	_	19	A	19:A	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	late	late	ADJ	JJ	_	27	E	27:E	_
+27	December	December	PROPN	NNP	_	19	D	19:D	_
+28	2004	2004	NUM	CD	_	27	Terminal	27:Terminal	_
+29	;	;	PUNCT	,	_	7	U	7:U	_
+30	he	he	PRON	PRP	_	34	A	34:A	_
+31	was	be	AUX	VBD	_	34	F	34:F	_
+32	forced	force	VERB	VBN	_	34	D	34:D	_
+33	to	to	PART	TO	_	34	F	34:F	_
+34	anchor	anchor	VERB	VB	_	7	H	7:H	_
+35	from	from	ADP	IN	_	36	R	36:R	_
+36	New	New	PROPN	NNP	_	34	A	34:A	_
+37	York	York	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	during	during	ADP	IN	_	7	L	7:L	_
+39	the	the	DET	DT	_	40	E	40:E	_
+40	aftermath	aftermath	NOUN	NN	_	7	H	7:H	_
+41	of	of	ADP	IN	_	44	R	44:R	_
+42	the	the	DET	DT	_	44	E	44:E	_
+43	Asian	asian	ADJ	JJ	_	44	E	44:E	_
+44	tsunami	tsunami	NOUN	NN	_	40	E	40:E	_
+45	,	,	PUNCT	,	_	7	U	7:U	_
+46	while	while	SCONJ	IN	_	7	L	7:L	_
+47	his	he	PRON	PRP$	_	48	E	48:E	_
+48	competitors	competitor	NOUN	NNS	_	49	A	49:A	_
+49	traveled	travel	VERB	VBN	_	7	H	7:H	_
+50	to	to	ADP	IN	_	52	R	52:R	_
+51	the	the	DET	DT	_	52	E	52:E	_
+52	region	region	NOUN	NN	_	49	A	49:A	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 694004
+# text = Dylan 's third album , The Times They Are a - Changin ' , reflected a more politicized and cynical Dylan .
+1	Dylan	Dylan	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	4	R	4:R	_
+3	third	third	ADJ	JJ	_	4	E	4:E	_
+4	album	album	NOUN	NN	_	15	A	15:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	The	the	DET	DT	_	4	E	4:E	_
+7	Times	Times	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	They	they	PRON	PRP	_	6	Terminal	6:Terminal	_
+9	Are	be	AUX	VBP	_	6	Terminal	6:Terminal	_
+10	a	a	DET	DT	_	6	Terminal	6:Terminal	_
+11	-	-	PUNCT	HYPH	_	6	U	6:U	_
+12	Changin	Changin	NOUN	NN	_	6	Terminal	6:Terminal	_
+13	'	'	PUNCT	''	_	15	U	15:U	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	reflected	reflect	VERB	VBD	_	0	H	0:H	_
+16	a	a	DET	DT	_	21	E	21:E	_
+17	more	more	ADV	RBR	_	18	E	18:E	_
+18	politicized	politicized	ADJ	JJ	_	21	E	21:E	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	cynical	cynical	ADJ	JJ	_	18	C	18:C	_
+21	Dylan	Dylan	PROPN	NNP	_	15	A	15:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

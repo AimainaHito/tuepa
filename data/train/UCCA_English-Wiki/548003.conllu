@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 548003
+# text = His wife , Ann , continually pressured him to " slow down " , and the aging studio head felt a need to put his affairs in order .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	wife	wife	NOUN	NN	_	4	E	4:E	_
+3	,	,	PUNCT	,	_	4	U	4:U	_
+4	Ann	Ann	PROPN	NNP	_	7	A	7:A	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	continually	continually	ADV	RB	_	7	D	7:D	_
+7	pressured	pressure	VERB	VBD	_	0	H	0:H	_
+8	him	he	PRON	PRP	_	7	A	7:A|11:A	_
+9	to	to	PART	TO	_	11	F	11:F	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	slow	slow	VERB	VB	_	7	A	7:A	_
+12	down	down	ADP	RP	_	11	Terminal	11:Terminal	_
+13	"	"	PUNCT	''	_	7	U	7:U	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	and	and	CCONJ	CC	_	7	L	7:L	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	aging	ag	VERB	VBG	_	19	E	19:E	_
+18	studio	studio	NOUN	NN	_	19	E	19:E	_
+19	head	head	NOUN	NN	_	22	A	22:A	_
+20	felt	feel	VERB	VBD	_	22	G	22:G	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	need	need	NOUN	NN	_	7	H	7:H	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	put	put	VERB	VB	_	22	A	22:A	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	affairs	affair	NOUN	NNS	_	24	A	24:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	order	order	NOUN	NN	_	24	E	24:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

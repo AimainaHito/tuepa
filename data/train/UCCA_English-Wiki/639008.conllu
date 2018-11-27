@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 639008
+# text = Lennon also contributed " I 'm the Greatest " , to Starr 's album Ringo ( 1973 ) , released the same month .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	contributed	contribute	VERB	VBN	_	0	H	0:H	_
+4	"	"	PUNCT	``	_	3	U	3:U	_
+5	I	I	PRON	PRP	_	3	A	3:A	_
+6	'm	be	AUX	VBP	_	5	Terminal	5:Terminal	_
+7	the	the	DET	DT	_	5	Terminal	5:Terminal	_
+8	Greatest	greatest	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	"	"	PUNCT	''	_	3	U	3:U	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	to	to	ADP	IN	_	15	R	15:R	_
+12	Starr	Starr	PROPN	NNP	_	14	E	14:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	album	album	PROPN	NNP	_	15	E	15:E	_
+15	Ringo	Ringo	PROPN	NNP	_	3	A	3:A	_
+16	(	(	PUNCT	-LRB-	_	15	U	15:U	_
+17	1973	1973	NUM	CD	_	15	E	15:E	_
+18	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+19	,	,	PUNCT	,	_	15	U	15:U	_
+20	released	release	VERB	VBD	_	15	E	15:E	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	same	same	ADJ	JJ	_	23	E	23:E	_
+23	month	month	NOUN	NN	_	20	D	20:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25724022
+# text = Jetzt fielen mir einige an den Wänden hängende Kupferstiche auf , die ich früher übersehen hatte .
+1	Jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+2	fielen	fallen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	einige	einige	PRON	PIS	_	9	E	9:E	_
+5	an	an	ADP	APPR	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Wänden	Wand	NOUN	NN	_	8	A	8:A	_
+8	hängende	hängend	ADJ	ADJA	_	2	A	2:A	_
+9	Kupferstiche	Kupferstich	NOUN	NN	_	0	C	0:C|15:A	_
+10	auf	auf	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	die	der	PRON	PRELS	_	15	R	15:R	_
+13	ich	ich	PRON	PPER	_	15	A	15:A	_
+14	früher	früher	ADJ	ADV	_	15	D	15:D	_
+15	übersehen	übersehen	VERB	VVPP	_	8	E	8:E	_
+16	hatte	haben	AUX	VAFIN	_	15	F	15:F	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

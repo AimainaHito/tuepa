@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25677012
+# text = » Der Preis der Perlen richtet sich nach ihrer Größe ? « fragte Conseil .
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Der	der	DET	ART	_	3	E	3:E	_
+3	Preis	Preis	NOUN	NN	_	6	A	6:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Perlen	Perle|Perlen	NOUN	NN	_	3	E	3:E	_
+6	richtet	richten	VERB	VVFIN	_	13	A	13:A	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	nach	nach	ADP	NN	_	10	R	10:R	_
+9	ihrer	ihr	DET	PPOSAT	_	10	E	10:E	_
+10	Größe	Größe	NOUN	NN	_	6	A	6:A	_
+11	?	?	PUNCT	$.	_	13	U	13:U	_
+12	«	«	PUNCT	$(	_	13	U	13:U	_
+13	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+14	Conseil	Conseil	NOUN	NE	_	13	A	13:A	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

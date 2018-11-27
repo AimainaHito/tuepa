@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25667001
+# text = Die ›Nautilus‹ hielt sich im allgemeinen 100 bis 200 Meter tief .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	im	im	ADV	NE	_	3	D	3:D	_
+6	allgemeinen	allgemein	ADJ	ADJA	_	5	Terminal	5:Terminal	_
+7	100	100	NUM	CARD	_	10	E	10:E	_
+8	bis	bis	ADP	KON	_	7	N	7:N	_
+9	200	200	NUM	CARD	_	7	C	7:C	_
+10	Meter	Meter	NOUN	NN	_	3	A	3:A	_
+11	tief	tief	ADJ	VVFIN	_	3	D	3:D	_
+12	.	.	PUNCT	$.	_	3	U	3:U	_
+

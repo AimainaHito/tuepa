@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25679014
+# text = » So ist ' s Ned . Beiläufig « , fuhr ich fort , indem ich Kapitän Nemos leichten Ton anzunehmen suchte , » fürchten Sie sich vor den Hai- fischen , wackerer Ned ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	So	so	ADV	ADV	_	11	A	11:A	_
+3	ist	sein	AUX	NN	_	2	F	2:F	_
+4	'	'	PUNCT	$(	_	2	U	2:U	_
+5	s	s	NOUN	ADJD	_	2	A	2:A	_
+6	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+8	Beiläufig	Beiläufig	PROPN	ADJD	_	25	G	25:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	fort	fort	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	indem	indem	SCONJ	KOUS	_	11	L	11:L	_
+16	ich	ich	PRON	PPER	_	21	A	21:A	_
+17	Kapitän	Kapitän	PROPN	NN	_	18	E	18:E	_
+18	Nemos	Nemos	PROPN	NE	_	20	E	20:E	_
+19	leichten	leicht	ADJ	VVFIN	_	20	E	20:E	_
+20	Ton	Ton	NOUN	NN	_	21	A	21:A	_
+21	anzunehmen	annehmen	VERB	VVIZU	_	11	H	11:H	_
+22	suchte	suchen	VERB	VVFIN	_	21	D	21:D	_
+23	,	,	PUNCT	$,	_	11	U	11:U	_
+24	»	»	PUNCT	$(	_	11	U	11:U	_
+25	fürchten	fürchen	VERB	VVFIN	_	2	H	2:H	_
+26	Sie	Sie|sie	PRON	PPER	_	25	A	25:A	_
+27	sich	er|es|sie	PRON	PRF	_	25	Terminal	25:Terminal	_
+28	vor	vor	ADP	NN	_	31	R	31:R	_
+29	den	der	DET	ART	_	31	E	31:E	_
+30	Hai-	Hai-	NOUN	NN	_	31	E	31:E	_
+31	fischen	fischen	VERB	ADJA	_	25	A	25:A	_
+32	,	,	PUNCT	$,	_	25	U	25:U	_
+33	wackerer	wacker	PRON	ADJA	_	34	E	34:E	_
+34	Ned	Ned	PROPN	NE	_	25	G	25:G	_
+35	?	?	PUNCT	$.	_	34	U	34:U	_
+36	«	«	PUNCT	$(	_	34	U	34:U	_
+

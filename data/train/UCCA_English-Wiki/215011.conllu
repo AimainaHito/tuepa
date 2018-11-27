@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 215011
+# text = Also in 1997 , Dunst appeared in the political satire Wag the Dog , opposite Robert De Niro and Dustin Hoffman .
+1	Also	also	ADV	RB	_	6	L	6:L	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	1997	1997	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dunst	Dunst	PROPN	NNP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	political	political	ADJ	JJ	_	10	E	10:E	_
+10	satire	satire	NOUN	NN	_	11	E	11:E	_
+11	Wag	Wag	VERB	VBG	_	6	A	6:A	_
+12	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+13	Dog	dog	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	opposite	opposite	SCONJ	IN	_	16	R	16:R	_
+16	Robert	Robert	PROPN	NNP	_	6	A	6:A	_
+17	De	De	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Niro	Niro	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	and	and	CCONJ	CC	_	16	N	16:N	_
+20	Dustin	Dustin	PROPN	NNP	_	16	C	16:C	_
+21	Hoffman	Hoffman	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	16	U	16:U	_
+

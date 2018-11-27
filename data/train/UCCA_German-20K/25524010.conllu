@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25524010
+# text = » Wo sind wir ? Wo sind wir ? « rief der Kanadier . » Im Museum zu Quebec ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Wo	wo	ADV	PWAV	_	3	A	3:A	_
+3	sind	sein	AUX	NE	_	11	A	11:A	_
+4	wir	wir	ADJ	NE	_	3	A	3:A	_
+5	?	?	PUNCT	$.	_	3	U	3:U	_
+6	Wo	wo	ADV	NE	_	7	A	7:A	_
+7	sind	sein	AUX	NN	_	3	H	3:H	_
+8	wir	wir	PRON	NE	_	7	A	7:A|17:A	_
+9	?	?	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	11	U	11:U	_
+15	»	»	PUNCT	$(	_	11	U	11:U	_
+16	Im	Im	PROPN	NE	_	17	R	17:R	_
+17	Museum	Museum	PROPN	NE	_	3	H	3:H	_
+18	zu	zu	ADP	NE	_	19	R	19:R	_
+19	Quebec	Quebec	PROPN	NE	_	17	E	17:E	_
+20	?	?	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

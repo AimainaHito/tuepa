@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 526000
+# text = During the filming of Meet Me in St. Louis , after some initial conflict between them , Garland and Minnelli entered a relationship .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	filming	filming	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	Meet	meet	PROPN	NNP	_	3	A	3:A	_
+6	Me	Me	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	5	Terminal	5:Terminal	_
+8	St.	St.	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	Louis	Louis	PROPN	NNP	_	5	Terminal	5:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	after	after	SCONJ	IN	_	3	L	3:L	_
+12	some	some	DET	DT	_	14	D	14:D	_
+13	initial	initial	ADJ	JJ	_	14	D	14:D	_
+14	conflict	conflict	NOUN	NN	_	3	H	3:H	_
+15	between	between	ADP	IN	_	16	R	16:R	_
+16	them	they	PRON	PRP	_	14	A	14:A	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	Garland	Garland	PROPN	NNP	_	23	A	23:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	Minnelli	Minnelli	PROPN	NNP	_	18	C	18:C	_
+21	entered	enter	VERB	VBD	_	23	D	23:D	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	relationship	relationship	NOUN	NN	_	3	H	3:H	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

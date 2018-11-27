@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 485003
+# text = Bana has performed across a wide spectrum of leading roles in a variety of low - budget and major studio films , ranging from romantic comedies and drama to science fiction and action thrillers .
+1	Bana	Bana	PROPN	NNP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	performed	perform	VERB	VBN	_	0	H	0:H	_
+4	across	across	ADP	IN	_	10	R	10:R	_
+5	a	a	DET	DT	_	10	E	10:E	_
+6	wide	wide	ADJ	JJ	_	7	E	7:E	_
+7	spectrum	spectrum	NOUN	NN	_	10	E	10:E	_
+8	of	of	SCONJ	IN	_	7	R	7:R	_
+9	leading	lead	VERB	VBG	_	10	E	10:E	_
+10	roles	role	NOUN	NNS	_	3	A	3:A	_
+11	in	in	ADP	IN	_	21	R	21:R	_
+12	a	a	DET	DT	_	21	E	21:E	_
+13	variety	variety	NOUN	NN	_	21	E	21:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	low	low	ADJ	JJ	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	budget	budget	NOUN	NN	_	21	E	21:E	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	major	major	ADJ	JJ	_	17	C	17:C	_
+20	studio	studio	NOUN	NN	_	21	E	21:E	_
+21	films	film	NOUN	NNS	_	10	E	10:E	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	ranging	rang	VERB	VBG	_	21	E	21:E	_
+24	from	from	ADP	IN	_	26	R	26:R	_
+25	romantic	romantic	ADJ	JJ	_	26	E	26:E	_
+26	comedies	comedy	NOUN	NNS	_	23	A	23:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	drama	drama	NOUN	NN	_	26	C	26:C	_
+29	to	to	ADP	IN	_	26	N	26:N	_
+30	science	science	NOUN	NN	_	31	E	31:E	_
+31	fiction	fiction	NOUN	NN	_	26	C	26:C	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	action	action	NOUN	NN	_	34	E	34:E	_
+34	thrillers	thriller	NOUN	NNS	_	31	C	31:C	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

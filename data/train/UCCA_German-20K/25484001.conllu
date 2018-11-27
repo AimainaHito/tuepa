@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25484001
+# text = « Die Kanone des Vorderkastells wurde unverzüglich geladen und aufgeprotzt .
+1	«	«	PUNCT	$(	_	8	U	8:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Kanone	Kanone	NOUN	NE	_	8	A	8:A	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Vorderkastells	Vorderkastell	NOUN	NN	_	3	E	3:E	_
+6	wurde	werden	AUX	NN	_	8	F	8:F	_
+7	unverzüglich	unverzüglich	ADJ	ADJD	_	8	D	8:D	_
+8	geladen	laden	VERB	VVPP	_	0	H	0:H	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	aufgeprotzt	aufgeprotzen	VERB	VVPP	_	8	C	8:C	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

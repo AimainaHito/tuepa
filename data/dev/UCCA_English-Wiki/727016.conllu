@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 727016
+# text = The film failed domestically , which director Oliver Stone attributed to disapproval of the depiction of Alexander 's bisexuality , but it succeeded internationally , with revenue of $ 139 million outside the United States .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	failed	fail	VERB	VBD	_	0	H	0:H	_
+4	domestically	domestically	ADV	RB	_	3	A	3:A	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	which	which	DET	WDT	_	3	L	3:L	_
+7	director	director	NOUN	NN	_	8	E	8:E	_
+8	Oliver	Oliver	PROPN	NNP	_	10	A	10:A	_
+9	Stone	Stone	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	attributed	attribute	VERB	VBD	_	3	H	3:H	_
+11	to	to	PART	TO	_	12	R	12:R	_
+12	disapproval	disapproval	VERB	VB	_	10	A	10:A	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	depiction	depiction	NOUN	NN	_	12	A	12:A	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	Alexander	Alexander	PROPN	NNP	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	bisexuality	bisexuality	NOUN	NN	_	15	A	15:A	_
+20	,	,	PUNCT	,	_	3	U	3:U	_
+21	but	but	CCONJ	CC	_	3	L	3:L	_
+22	it	it	PRON	PRP	_	23	A	23:A	_
+23	succeeded	succeed	VERB	VBD	_	3	H	3:H	_
+24	internationally	internationally	ADV	RB	_	23	A	23:A	_
+25	,	,	PUNCT	,	_	3	U	3:U	_
+26	with	with	ADP	IN	_	3	L	3:L	_
+27	revenue	revenue	NOUN	NN	_	3	H	3:H	_
+28	of	of	ADP	IN	_	30	R	30:R	_
+29	$	$	SYM	$	_	30	U	30:U	_
+30	139	139	NUM	CD	_	27	E	27:E	_
+31	million	million	NUM	CD	_	30	Terminal	30:Terminal	_
+32	outside	outside	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	United	United	PROPN	NNP	_	27	A	27:A	_
+35	States	States	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 631007
+# text = Parkes recalled , " John , cousin Leila and I were very close . From Edinburgh we would drive up to the family croft at Durness , which was from about the time John was nine years old until he was about 16 .
+1	Parkes	Parke	NOUN	NNS	_	2	A	2:A	_
+2	recalled	recall	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	John	John	PROPN	NNP	_	13	A	13:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	cousin	cousin	PROPN	NNP	_	8	E	8:E	_
+8	Leila	Leila	PROPN	NNP	_	5	C	5:C	_
+9	and	and	CCONJ	CC	_	5	N	5:N	_
+10	I	I	PRON	PRP	_	5	C	5:C	_
+11	were	be	AUX	VBD	_	13	F	13:F	_
+12	very	very	ADV	RB	_	13	D	13:D	_
+13	close	close	ADJ	JJ	_	2	A	2:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+15	From	from	ADP	IN	_	16	R	16:R	_
+16	Edinburgh	Edinburgh	PROPN	NNP	_	19	A	19:A	_
+17	we	we	PRON	PRP	_	19	A	19:A	_
+18	would	would	AUX	MD	_	19	F	19:F	_
+19	drive	drive	VERB	VB	_	13	H	13:H	_
+20	up	up	ADP	RP	_	19	Terminal	19:Terminal	_
+21	to	to	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	family	family	NOUN	NN	_	24	E	24:E	_
+24	croft	croft	NOUN	NN	_	19	A	19:A	_
+25	at	at	ADP	IN	_	26	R	26:R	_
+26	Durness	Durness	PROPN	NNP	_	24	E	24:E	_
+27	,	,	PUNCT	,	_	13	U	13:U	_
+28	which	which	PRON	WDT	_	13	L	13:L	_
+29	was	be	AUX	VBD	_	28	Terminal	28:Terminal	_
+30	from	from	ADP	IN	_	28	Terminal	28:Terminal	_
+31	about	about	ADP	IN	_	28	Terminal	28:Terminal	_
+32	the	the	DET	DT	_	28	Terminal	28:Terminal	_
+33	time	time	NOUN	NN	_	28	Terminal	28:Terminal	_
+34	John	John	PROPN	NNP	_	38	A	38:A	_
+35	was	be	AUX	VBD	_	38	F	38:F	_
+36	nine	nine	NUM	CD	_	37	E	37:E	_
+37	years	year	NOUN	NNS	_	38	E	38:E	_
+38	old	old	ADJ	JJ	_	13	H	13:H	_
+39	until	until	SCONJ	IN	_	13	L	13:L	_
+40	he	he	PRON	PRP	_	43	A	43:A	_
+41	was	be	AUX	VBD	_	43	F	43:F	_
+42	about	about	ADP	IN	_	43	D	43:D	_
+43	16	16	NUM	CD	_	13	H	13:H	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

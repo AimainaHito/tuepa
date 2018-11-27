@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 555014
+# text = They and three other boys - including two future rockabilly pioneers , brothers Dorsey and Johnny Burnette - formed a loose musical collective that played frequently around the Courts .
+1	They	they	PRON	PRP	_	19	A	19:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	three	three	NUM	CD	_	5	E	5:E	_
+4	other	other	ADJ	JJ	_	5	E	5:E	_
+5	boys	boy	NOUN	NNS	_	1	C	1:C	_
+6	-	-	PUNCT	,	_	5	U	5:U	_
+7	including	include	VERB	VBG	_	17	R	17:R	_
+8	two	two	NUM	CD	_	11	E	11:E	_
+9	future	future	ADJ	JJ	_	11	E	11:E	_
+10	rockabilly	rockabilly	NOUN	NN	_	11	E	11:E	_
+11	pioneers	pioneer	NOUN	NNS	_	17	E	17:E	_
+12	,	,	PUNCT	,	_	17	U	17:U	_
+13	brothers	brother	NOUN	NNS	_	17	E	17:E	_
+14	Dorsey	Dorsey	PROPN	NNP	_	17	E	17:E	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	Johnny	Johnny	PROPN	NNP	_	14	C	14:C	_
+17	Burnette	Burnette	PROPN	NNP	_	5	E	5:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	formed	form	VERB	VBN	_	0	H	0:H	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	loose	loose	ADJ	JJ	_	23	E	23:E	_
+22	musical	musical	ADJ	JJ	_	23	E	23:E	_
+23	collective	collective	NOUN	NN	_	19	A	19:A	_
+24	that	that	PRON	WDT	_	25	F	25:F	_
+25	played	play	VERB	VBD	_	23	E	23:E	_
+26	frequently	frequently	ADV	RB	_	25	D	25:D	_
+27	around	around	ADP	IN	_	29	R	29:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	Courts	courts	NOUN	NNS	_	25	A	25:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 493009
+# text = In 1953 the family moved to the suburb of Bromley , where , two years later , Bowie progressed to Burnt Ash Junior School .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1953	1953	NUM	CD	_	5	D	5:D	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	family	family	NOUN	NN	_	5	A	5:A	_
+5	moved	move	VERB	VBD	_	0	H	0:H	_
+6	to	to	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	suburb	suburb	NOUN	NN	_	10	E	10:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	Bromley	Bromley	PROPN	NNP	_	5	A	5:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	where	where	ADV	WRB	_	19	F	19:F	_
+13	,	,	PUNCT	,	_	19	U	19:U	_
+14	two	two	NUM	CD	_	15	E	15:E	_
+15	years	year	NOUN	NNS	_	19	D	19:D	_
+16	later	later	ADV	RB	_	15	R	15:R	_
+17	,	,	PUNCT	,	_	19	U	19:U	_
+18	Bowie	Bowie	PROPN	NNP	_	19	A	19:A	_
+19	progressed	progress	VERB	VBD	_	10	E	10:E	_
+20	to	to	ADP	IN	_	23	R	23:R	_
+21	Burnt	burnt	PROPN	NNP	_	23	E	23:E	_
+22	Ash	Ash	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Junior	junior	PROPN	NNP	_	19	A	19:A	_
+24	School	School	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

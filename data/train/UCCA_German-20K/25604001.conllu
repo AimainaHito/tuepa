@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25604001
+# text = Sie durchschnitt am 1 . Dezember den Äquator , unter 142 ° Länge , und am 4 . desselben Monats , nach einer raschen Fahrt ohne Zwischenfall , bekamen wir die Gruppe der Marquesasinseln zu sehen .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	durchschnitt	durchschneten	VERB	VVFIN	_	0	H	0:H	_
+3	am	am	ADV	ADJD	_	4	E	4:E	_
+4	1	1	NUM	CARD	_	2	D	2:D	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+6	Dezember	Dezember	PROPN	NN	_	4	Terminal	4:Terminal	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Äquator	Äquator	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	unter	unter	ADP	ADJD	_	11	R	11:R	_
+11	142	142	NUM	CARD	_	2	A	2:A	_
+12	°	°	NOUN	ADJD	_	11	U	11:U	_
+13	Länge	Länge	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	am	ommen	VERB	NE	_	20	E	20:E	_
+17	4	4	NUM	CARD	_	20	E	20:E	_
+18	.	.	PUNCT	$.	_	20	U	20:U	_
+19	desselben	derselbe	DET	PDAT	_	20	E	20:E	_
+20	Monats	Monat	NOUN	NN	_	36	D	36:D	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	nach	nach	ADP	ADJA	_	2	L	2:L	_
+23	einer	ein	DET	ART	_	25	E	25:E	_
+24	raschen	rasch	ADJ	ADJA	_	25	D	25:D	_
+25	Fahrt	Fahrt	NOUN	NN	_	2	H	2:H	_
+26	ohne	ohne	ADP	NE	_	25	D	25:D	_
+27	Zwischenfall	Zwischenfall	NOUN	NN	_	25	A	25:A	_
+28	,	,	PUNCT	$,	_	2	U	2:U	_
+29	bekamen	bekommen	VERB	VVFIN	_	36	D	36:D	_
+30	wir	wir	PRON	NE	_	36	A	36:A|25:A	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Gruppe	Gruppe	NOUN	NN	_	34	E	34:E	_
+33	der	der	DET	ART	_	34	R	34:R	_
+34	Marquesasinseln	Marquesasinsel	NOUN	NN	_	36	A	36:A	_
+35	zu	zu	PART	NN	_	36	F	36:F	_
+36	sehen	sehen	VERB	VVINF	_	2	H	2:H	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

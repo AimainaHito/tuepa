@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25639025
+# text = » Herr Arronax « , erwiderte ruhig Kapitän Nemo , » man dringt nicht so durch die Luken in die " Nautilus " , selbst wenn sie offen sind . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Arronax	Arronax	PROPN	NE	_	13	G	13:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	ruhig	ruhig	ADJ	ADJD	_	6	D	6:D	_
+8	Kapitän	Kapitän	NOUN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	man	man	PRON	PIS	_	13	A	13:A	_
+13	dringt	dringt	ADV	VVFIN	_	6	A	6:A	_
+14	nicht	nicht	PART	XY	_	13	D	13:D	_
+15	so	so	ADV	ADV	_	13	D	13:D	_
+16	durch	durch	ADP	APPR	_	18	R	18:R	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Luken	Luken	NOUN	NN	_	13	A	13:A	_
+19	in	in	ADP	APPR	_	22	R	22:R	_
+20	die	der	DET	ART	_	22	E	22:E	_
+21	"	"	PUNCT	$(	_	22	U	22:U	_
+22	Nautilus	Nautilus	PROPN	NE	_	13	A	13:A	_
+23	"	"	PUNCT	$(	_	13	U	13:U	_
+24	,	,	PUNCT	$,	_	13	U	13:U	_
+25	selbst	selbst	ADV	VVFIN	_	13	L	13:L	_
+26	wenn	wenn	SCONJ	VVFIN	_	25	Terminal	25:Terminal	_
+27	sie	sie	PRON	ADV	_	28	A	28:A	_
+28	offen	offen	ADJ	NN	_	13	H	13:H	_
+29	sind	sein	AUX	NN	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	28	U	28:U	_
+31	«	«	PUNCT	$(	_	28	U	28:U	_
+

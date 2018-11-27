@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 497005
+# text = ) Elsewhere , the album explored more serious themes , and found Bowie paying unusually direct homage to his influences with " Song for Bob Dylan " , " Andy Warhol " , and " Queen Bitch " , a Velvet Underground pastiche .
+1	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+2	Elsewhere	elsewhere	ADV	RB	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	0	C	0:C|12:A	_
+6	explored	explore	VERB	VBD	_	0	H	0:H	_
+7	more	more	ADV	RBR	_	9	R	9:R	_
+8	serious	serious	ADJ	JJ	_	9	E	9:E	_
+9	themes	theme	NOUN	NNS	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	and	and	CCONJ	CC	_	6	L	6:L	_
+12	found	find	VERB	VBD	_	6	H	6:H	_
+13	Bowie	Bowie	PROPN	NNP	_	17	A	17:A	_
+14	paying	pay	VERB	VBG	_	17	F	17:F	_
+15	unusually	unusually	ADV	RB	_	17	D	17:D	_
+16	direct	direct	ADJ	JJ	_	17	D	17:D	_
+17	homage	homage	NOUN	NN	_	12	A	12:A	_
+18	to	to	ADP	IN	_	20	R	20:R	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	influences	influence	NOUN	NNS	_	17	A	17:A	_
+21	with	with	ADP	IN	_	23	R	23:R	_
+22	"	"	PUNCT	``	_	23	U	23:U	_
+23	Song	song	PROPN	NNP	_	20	E	20:E	_
+24	for	for	ADP	IN	_	23	Terminal	23:Terminal	_
+25	Bob	Bob	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	Dylan	Dylan	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	"	"	PUNCT	''	_	23	U	23:U	_
+28	,	,	PUNCT	,	_	23	U	23:U	_
+29	"	"	PUNCT	``	_	23	U	23:U	_
+30	Andy	Andy	PROPN	NNP	_	23	C	23:C	_
+31	Warhol	Warhol	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	"	"	PUNCT	''	_	23	U	23:U	_
+33	,	,	PUNCT	,	_	23	U	23:U	_
+34	and	and	CCONJ	CC	_	23	N	23:N	_
+35	"	"	PUNCT	``	_	23	U	23:U	_
+36	Queen	Queen	PROPN	NNP	_	23	C	23:C	_
+37	Bitch	Bitch	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	"	"	PUNCT	''	_	36	U	36:U	_
+39	,	,	PUNCT	,	_	36	U	36:U	_
+40	a	a	DET	DT	_	43	E	43:E	_
+41	Velvet	Velvet	NOUN	NN	_	43	E	43:E	_
+42	Underground	underground	ADP	IN	_	41	Terminal	41:Terminal	_
+43	pastiche	pastiche	NOUN	NN	_	36	E	36:E	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

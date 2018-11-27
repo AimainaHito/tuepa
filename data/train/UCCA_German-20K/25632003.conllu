@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25632003
+# text = Kapitän Nemo s Blitz strahl
+1	Kapitän	Kapitän	NOUN	NN	_	5	A	5:A	_
+2	Nemo	Nemo	PROPN	NE	_	1	Terminal	1:Terminal	_
+3	s	s	PROPN	NN	_	1	R	1:R	_
+4	Blitz	Blitz	PROPN	NE	_	5	E	5:E	_
+5	strahl	strehlen	VERB	NN	_	0	H	0:H	_
+

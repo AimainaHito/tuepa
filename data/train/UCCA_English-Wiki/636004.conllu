@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 636004
+# text = While the film itself proved to be their first critical flop , its soundtrack release , featuring Lennon 's acclaimed , Lewis Carroll - inspired " I Am the Walrus " , was a success .
+1	While	while	SCONJ	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	7	A	7:A	_
+4	itself	itself	PRON	PRP	_	7	D	7:D	_
+5	proved	prove	VERB	VBD	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	be	be	VERB	VB	_	0	H	0:H	_
+8	their	they	PRON	PRP$	_	11	A	11:A	_
+9	first	first	ADJ	JJ	_	11	D	11:D	_
+10	critical	critical	ADJ	JJ	_	11	A	11:A	_
+11	flop	flop	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	its	its	PRON	PRP$	_	14	E	14:E	_
+14	soundtrack	soundtrack	VERB	NN	_	0	C	0:C|17:A	_
+15	release	release	NOUN	NN	_	35	A	35:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	featuring	feature	VERB	VBG	_	15	E	15:E	_
+18	Lennon	Lennon	PROPN	NNP	_	27	E	27:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	acclaimed	acclaim	VERB	VBN	_	27	E	27:E	_
+21	,	,	PUNCT	,	_	27	U	27:U	_
+22	Lewis	Lewis	PROPN	NNP	_	25	A	25:A	_
+23	Carroll	Carroll	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	inspired	inspire	VERB	VBN	_	27	E	27:E	_
+26	"	"	PUNCT	''	_	25	U	25:U	_
+27	I	I	PRON	PRP	_	17	A	17:A	_
+28	Am	be	AUX	VBP	_	27	Terminal	27:Terminal	_
+29	the	the	DET	DT	_	27	Terminal	27:Terminal	_
+30	Walrus	Walrus	PROPN	NNP	_	27	Terminal	27:Terminal	_
+31	"	"	PUNCT	''	_	35	U	35:U	_
+32	,	,	PUNCT	,	_	35	U	35:U	_
+33	was	be	AUX	VBD	_	35	F	35:F	_
+34	a	a	DET	DT	_	35	E	35:E	_
+35	success	success	NOUN	NN	_	7	H	7:H	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

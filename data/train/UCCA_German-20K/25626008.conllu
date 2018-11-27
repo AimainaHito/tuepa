@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25626008
+# text = Doch war Ned Land noch nicht mit dem Vorrat zufrieden .
+1	Doch	doch	ADV	KON	_	10	L	10:L	_
+2	war	sein	AUX	ADV	_	10	F	10:F	_
+3	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+4	Land	Land	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	noch	noch	ADV	XY	_	6	E	6:E	_
+6	nicht	nicht	PART	CARD	_	10	D	10:D	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Vorrat	Vorrat	NOUN	NN	_	10	A	10:A	_
+10	zufrieden	zufrieden	ADJ	ADJD	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

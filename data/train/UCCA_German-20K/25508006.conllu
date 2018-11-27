@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25508006
+# text = » Und diese Instrumente , deren Gebrauch mir völlig unbekannt ist ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	diese	dies	PRON	PDAT	_	4	E	4:E	_
+4	Instrumente	Instrument	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	deren	der	DET	PRELAT	_	10	R	10:R	_
+7	Gebrauch	Gebrauch	NOUN	NN	_	10	A	10:A	_
+8	mir	ich	PRON	PPER	_	10	A	10:A	_
+9	völlig	völlig	ADJ	ADJD	_	10	D	10:D	_
+10	unbekannt	unbekannt	ADJ	ADJD	_	4	E	4:E	_
+11	ist	sein	AUX	VVFIN	_	10	F	10:F	_
+12	?	?	PUNCT	$.	_	10	U	10:U	_
+13	«	«	PUNCT	$(	_	10	U	10:U	_
+

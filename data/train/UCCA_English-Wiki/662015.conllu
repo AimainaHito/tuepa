@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 662015
+# text = Following Music Box , Carey took a relatively large period of time away from the public eye , and began working on an unknown project throughout 1994 .
+1	Following	follow	VERB	VBG	_	2	L	2:L	_
+2	Music	music	ADJ	JJ	_	0	H	0:H	_
+3	Box	Box	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	Carey	Carey	PROPN	NNP	_	12	A	12:A|21:A	_
+6	took	take	VERB	VBD	_	12	F	12:F	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	relatively	relatively	ADV	RB	_	9	E	9:E	_
+9	large	large	ADJ	JJ	_	10	E	10:E	_
+10	period	period	NOUN	NN	_	12	D	12:D	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	time	time	NOUN	NN	_	2	H	2:H	_
+13	away	away	ADV	RB	_	12	D	12:D	_
+14	from	from	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	public	public	ADJ	JJ	_	17	E	17:E	_
+17	eye	eye	NOUN	NN	_	12	A	12:A	_
+18	,	,	PUNCT	,	_	2	U	2:U	_
+19	and	and	CCONJ	CC	_	2	L	2:L	_
+20	began	begin	VERB	VBD	_	21	D	21:D	_
+21	working	work	VERB	VBG	_	2	H	2:H	_
+22	on	on	ADP	IN	_	25	R	25:R	_
+23	an	a	DET	DT	_	25	E	25:E	_
+24	unknown	unknown	ADJ	JJ	_	25	E	25:E	_
+25	project	project	NOUN	NN	_	21	A	21:A	_
+26	throughout	throughout	ADP	IN	_	27	R	27:R	_
+27	1994	1994	NUM	CD	_	21	D	21:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

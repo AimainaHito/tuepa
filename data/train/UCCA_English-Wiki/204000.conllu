@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 204000
+# text = In 1987 , Sorkin started using marijuana and cocaine .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1987	1987	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Sorkin	Sorkin	PROPN	NNP	_	6	A	6:A	_
+5	started	start	VERB	VBD	_	6	D	6:D	_
+6	using	use	VERB	VBG	_	0	H	0:H	_
+7	marijuana	marijuana	NOUN	NN	_	6	A	6:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	cocaine	cocaine	NOUN	NN	_	7	C	7:C	_
+10	.	.	PUNCT	.	_	7	U	7:U	_
+

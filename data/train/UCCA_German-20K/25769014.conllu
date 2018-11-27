@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25769014
+# text = Aber die ›Nautilus‹ tauchte noch tiefer , bis zu 800 Meter hinab .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	A	4:A	_
+4	tauchte	tauchen	VERB	VVFIN	_	0	H	0:H	_
+5	noch	noch	ADV	CARD	_	6	E	6:E	_
+6	tiefer	tief	ADJ	ADJD	_	4	D	4:D	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	bis	bis	ADP	APPR	_	11	R	11:R	_
+9	zu	zu	ADP	NE	_	8	Terminal	8:Terminal	_
+10	800	800	NUM	CARD	_	11	E	11:E	_
+11	Meter	Meter	NOUN	NN	_	4	A	4:A	_
+12	hinab	hinab	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+13	.	.	PUNCT	$.	_	4	U	4:U	_
+

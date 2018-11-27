@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 708001
+# text = Dylan also toured with The Grateful Dead in 1987 , resulting in a live album Dylan & The Dead .
+1	Dylan	Dylan	PROPN	NNP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	toured	toure	VERB	VBD	_	0	H	0:H	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	The	the	DET	DT	_	3	A	3:A	_
+6	Grateful	grateful	ADJ	JJ	_	5	Terminal	5:Terminal	_
+7	Dead	dead	NOUN	NN	_	5	Terminal	5:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	1987	1987	NUM	CD	_	3	D	3:D	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	resulting	result	VERB	VBG	_	3	H	3:H	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	live	live	ADJ	JJ	_	15	E	15:E	_
+15	album	album	NOUN	NN	_	11	A	11:A	_
+16	Dylan	Dylan	PROPN	NNP	_	15	E	15:E	_
+17	&	&	CCONJ	CC	_	16	Terminal	16:Terminal	_
+18	The	the	DET	DT	_	16	Terminal	16:Terminal	_
+19	Dead	dead	NOUN	NN	_	16	Terminal	16:Terminal	_
+20	.	.	PUNCT	.	_	15	U	15:U	_
+

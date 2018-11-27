@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25650008
+# text = » Herr Arronax « , sagte sodann Kapitän Nemo , » würden Sie die Gefälligkeit haben , einem meiner Leute Ihren Rat zu erteilen ? «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Arronax	Arronax	PROPN	NE	_	15	G	15:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	sodann	sodann	ADV	ADV	_	6	L	6:L	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	würden	werden	AUX	ADJD	_	15	F	15:F	_
+13	Sie	Sie|sie	PRON	PPER	_	15	A	15:A|24:A	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Gefälligkeit	Gefälligkeit	NOUN	NN	_	6	A	6:A	_
+16	haben	haben	VERB	VAINF	_	15	F	15:F	_
+17	,	,	PUNCT	$,	_	15	U	15:U	_
+18	einem	ein	DET	PIS	_	20	E	20:E	_
+19	meiner	mein	ADJ	PPOSS	_	20	E	20:E	_
+20	Leute	Leute	NOUN	NN	_	24	A	24:A	_
+21	Ihren	ihr	DET	PPOSAT	_	22	E	22:E	_
+22	Rat	Rat	NOUN	NN	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	erteilen	erteilen	VERB	VVINF	_	15	A	15:A	_
+25	?	?	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

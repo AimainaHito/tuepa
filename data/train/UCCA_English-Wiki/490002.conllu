@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 490002
+# text = In 2009 , Bana released a self - produced and directed documentary - style film called Love the Beast .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2009	2009	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Bana	Bana	PROPN	NNP	_	5	A	5:A	_
+5	released	release	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	15	E	15:E	_
+7	self	self	NOUN	NN	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	produced	produce	VERB	VBN	_	15	E	15:E	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	directed	direct	VERB	VBN	_	9	C	9:C	_
+12	documentary	documentary	NOUN	NN	_	14	E	14:E	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	style	style	NOUN	NN	_	15	E	15:E	_
+15	film	film	NOUN	NN	_	5	A	5:A	_
+16	called	call	VERB	VBN	_	15	E	15:E	_
+17	Love	Love	ADP	IN	_	16	A	16:A	_
+18	the	the	DET	DT	_	17	Terminal	17:Terminal	_
+19	Beast	Beast	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	.	_	16	U	16:U	_
+

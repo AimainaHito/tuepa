@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25490027
+# text = Hiermit war also die Art der Luft erneuerung des Schiffs völlig ermittelt .
+1	Hiermit	Hiermit	ADV	KOUS	_	12	A	12:A	_
+2	war	sein	AUX	ADV	_	12	F	12:F	_
+3	also	also	ADV	ADV	_	12	F	12:F	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Art	Art	NOUN	NN	_	8	E	8:E	_
+6	der	der	DET	ART	_	8	R	8:R	_
+7	Luft	Luft	NOUN	NN	_	8	E	8:E	_
+8	erneuerung	erneuerung	NOUN	NN	_	12	A	12:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Schiffs	Schiff	NOUN	NN	_	8	E	8:E	_
+11	völlig	völlig	ADJ	ADJD	_	12	D	12:D	_
+12	ermittelt	ermitteln	VERB	VVPP	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

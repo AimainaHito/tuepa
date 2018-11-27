@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25488108
+# text = Er ließ , wenn man ihn anklopfte , einen Metall ton hören , und so unglaublich es auch war , er schien von eingebolzten Platten gemacht .
+1	Er	er	PRON	PPER	_	12	A	12:A	_
+2	ließ	lassen	VERB	VVFIN	_	12	D	12:D	_
+3	,	,	PUNCT	$,	_	12	U	12:U	_
+4	wenn	wenn	SCONJ	VVFIN	_	12	L	12:L	_
+5	man	man	PRON	PIS	_	7	A	7:A	_
+6	ihn	er	PRON	PPER	_	7	A	7:A	_
+7	anklopfte	anklopfen	VERB	VVFIN	_	12	H	12:H	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	einen	ein	DET	ART	_	11	E	11:E	_
+10	Metall	Metall	NOUN	NN	_	11	E	11:E	_
+11	ton	ton	PROPN	NN	_	12	A	12:A	_
+12	hören	hören	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	und	und	CCONJ	NE	_	12	L	12:L	_
+15	so	so	ADV	ADV	_	16	D	16:D	_
+16	unglaublich	unglaublich	ADJ	ADJD	_	12	H	12:H	_
+17	es	es	PRON	PPER	_	16	A	16:A	_
+18	auch	auch	ADV	ADV	_	16	F	16:F	_
+19	war	sein	AUX	ADV	_	16	F	16:F	_
+20	,	,	PUNCT	$,	_	12	U	12:U	_
+21	er	er	PRON	PPER	_	22	A	22:A|26:A	_
+22	schien	scheinen	VERB	VVFIN	_	12	H	12:H	_
+23	von	von	ADP	NN	_	25	R	25:R	_
+24	eingebolzten	eingebolzt	ADJ	ADJA	_	25	E	25:E	_
+25	Platten	Platte	NOUN	NN	_	26	A	26:A	_
+26	gemacht	machen	VERB	VVPP	_	22	A	22:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

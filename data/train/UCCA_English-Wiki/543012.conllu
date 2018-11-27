@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 543012
+# text = " Warner also earned the gratitude and affection of Errol Flynn .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Warner	Warner	PROPN	NNP	_	4	A	4:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	earned	earn	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	gratitude	gratitude	NOUN	NN	_	4	A	4:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	affection	affection	NOUN	NN	_	6	C	6:C	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	Errol	Errol	PROPN	NNP	_	6	A	6:A	_
+11	Flynn	Flynn	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

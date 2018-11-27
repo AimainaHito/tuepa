@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25814000
+# text = Ah ! mein Herz wollte brechen vor Rührung und Grausen !
+1	Ah	Ah	PROPN	NN	_	6	F	6:F	_
+2	!	!	PUNCT	$.	_	6	U	6:U	_
+3	mein	mein	PROPN	PPOSAT	_	4	E	4:E	_
+4	Herz	Herz	PROPN	NN	_	6	A	6:A	_
+5	wollte	wollen	AUX	VMFIN	_	6	D	6:D	_
+6	brechen	brechen	VERB	ADJA	_	0	H	0:H	_
+7	vor	vor	ADP	NN	_	8	R	8:R	_
+8	Rührung	Rührung	NOUN	NN	_	6	A	6:A	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	Grausen	Grausen	PROPN	NE	_	8	C	8:C	_
+11	!	!	PUNCT	$.	_	8	U	8:U	_
+

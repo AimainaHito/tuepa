@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25648025
+# text = Ein Gefühl eisiger Kälte durchdrang meine schweren Glieder , die wie gelähmt waren .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Gefühl	Gefühl	NOUN	NN	_	5	A	5:A	_
+3	eisiger	eisig	ADJ	ADJA	_	4	E	4:E	_
+4	Kälte	Kälte	NOUN	NN	_	2	E	2:E	_
+5	durchdrang	durchdrang	ADP	VVFIN	_	0	H	0:H	_
+6	meine	mein	DET	PPOSAT	_	8	E	8:E	_
+7	schweren	schwer	ADJ	ADJA	_	8	E	8:E	_
+8	Glieder	Glieder	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	12	R	12:R	_
+11	wie	wie	ADV	ADV	_	12	D	12:D	_
+12	gelähmt	lähmen	ADJ	ADJD	_	8	E	8:E	_
+13	waren	sein	AUX	VAFIN	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

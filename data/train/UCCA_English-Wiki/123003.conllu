@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 123003
+# text = The incident made the teenage Hepburn nervous , moody , and suspicious of people .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	incident	incident	NOUN	NN	_	7	A	7:A	_
+3	made	make	VERB	VBD	_	7	F	7:F	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	teenage	teenage	ADJ	JJ	_	6	E	6:E	_
+6	Hepburn	Hepburn	NOUN	NN	_	7	A	7:A	_
+7	nervous	nervous	ADJ	JJ	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	moody	moody	ADJ	JJ	_	7	C	7:C	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	and	and	CCONJ	CC	_	7	N	7:N	_
+12	suspicious	suspicious	ADJ	JJ	_	7	C	7:C	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	people	people	NOUN	NNS	_	12	E	12:E	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

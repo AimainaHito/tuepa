@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 231006
+# text = The series was produced by , and featured Jackie Chan .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	series	series	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	produced	produce	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	4	E	4:E	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	and	and	CCONJ	CC	_	4	N	4:N	_
+8	featured	feature	VERB	VBN	_	4	C	4:C	_
+9	Jackie	Jackie	PROPN	NNP	_	4	A	4:A	_
+10	Chan	Chan	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	4	U	4:U	_
+

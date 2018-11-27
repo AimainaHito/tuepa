@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25460010
+# text = Und in der Tat war es auch nicht wahrscheinlich , dass man in dieser Enge auf den Narwal stoßen werde .
+1	Und	und	CCONJ	ADJD	_	9	L	9:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Tat	Tat	NOUN	NN	_	9	G	9:G	_
+5	war	sein	AUX	ADV	_	9	F	9:F	_
+6	es	es	PRON	PPER	_	9	F	9:F	_
+7	auch	auch	ADV	ADV	_	9	D	9:D	_
+8	nicht	nicht	PART	XY	_	9	D	9:D	_
+9	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+12	man	man	PRON	PIS	_	19	A	19:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	dieser	dies	PRON	PDAT	_	15	E	15:E	_
+15	Enge	enge	NOUN	NN	_	19	A	19:A	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	den	der	DET	ART	_	18	E	18:E	_
+18	Narwal	Narwal	NOUN	NN	_	19	A	19:A	_
+19	stoßen	stoßen	VERB	VVINF	_	9	A	9:A	_
+20	werde	werden	AUX	NN	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

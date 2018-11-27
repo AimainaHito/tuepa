@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 651007
+# text = The next month the United States Immigration and Naturalization Service ( INS ) began deportation proceedings , arguing that his 1968 misdemeanor conviction for cannabis possession in London had made him ineligible for admission to the United States .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	month	month	NOUN	NN	_	14	D	14:D	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	United	United	PROPN	NNP	_	10	E	10:E	_
+6	States	States	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Immigration	Immigration	PROPN	NNP	_	10	E	10:E	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	Naturalization	Naturalization	PROPN	NNP	_	7	C	7:C	_
+10	Service	Service	PROPN	NNP	_	14	A	14:A	_
+11	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+12	INS	INS	PROPN	NNP	_	10	E	10:E|18:A	_
+13	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+14	began	begin	VERB	VBD	_	0	H	0:H	_
+15	deportation	deportation	NOUN	NN	_	16	E	16:E	_
+16	proceedings	proceedings	NOUN	NNS	_	14	A	14:A	_
+17	,	,	PUNCT	,	_	14	U	14:U	_
+18	arguing	argue	VERB	VBG	_	14	H	14:H	_
+19	that	that	SCONJ	IN	_	32	F	32:F	_
+20	his	he	PRON	PRP$	_	23	A	23:A|26:A	_
+21	1968	1968	NUM	CD	_	23	D	23:D	_
+22	misdemeanor	misdemeanor	NOUN	NN	_	23	E	23:E	_
+23	conviction	conviction	NOUN	NN	_	32	A	32:A	_
+24	for	for	ADP	IN	_	26	R	26:R	_
+25	cannabis	cannabis	DET	DT	_	26	E	26:E	_
+26	possession	possession	NOUN	NN	_	23	A	23:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	London	London	PROPN	NNP	_	26	A	26:A	_
+29	had	have	AUX	VBD	_	32	F	32:F	_
+30	made	make	VERB	VBN	_	32	D	32:D	_
+31	him	he	PRON	PRP	_	32	A	32:A|34:A	_
+32	ineligible	ineligible	ADJ	JJ	_	18	A	18:A	_
+33	for	for	ADP	IN	_	34	F	34:F	_
+34	admission	admission	NOUN	NN	_	32	A	32:A	_
+35	to	to	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	United	United	PROPN	NNP	_	34	A	34:A	_
+38	States	States	PROPN	NNP	_	37	Terminal	37:Terminal	_
+39	.	.	PUNCT	.	_	37	U	37:U	_
+

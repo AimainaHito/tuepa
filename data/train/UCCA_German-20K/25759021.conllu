@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25759021
+# text = Denn obwohl der Pottfisch mitunter 25 Meter groß ist , so nimmt sein enormer Kopf doch etwa den dritten Teil seines Körpers ein .
+1	Denn	denn	ADV	KON	_	8	L	8:L	_
+2	obwohl	obwohl	SCONJ	ADV	_	8	L	8:L	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Pottfisch	Pottfisch	NOUN	NE	_	8	A	8:A	_
+5	mitunter	mitunter	ADP	ADV	_	8	D	8:D	_
+6	25	25	NUM	CARD	_	7	E	7:E	_
+7	Meter	Meter	NOUN	NN	_	8	A	8:A	_
+8	groß	groß	ADJ	ADJD	_	0	H	0:H	_
+9	ist	sein	AUX	VVFIN	_	8	F	8:F	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	so	so	ADV	ADV	_	8	L	8:L	_
+12	nimmt	nehmen	VERB	VVFIN	_	8	H	8:H	_
+13	sein	sein	DET	PPOSAT	_	15	E	15:E	_
+14	enormer	enorm	ADJ	NN	_	15	E	15:E	_
+15	Kopf	Kopf	NOUN	NE	_	12	A	12:A	_
+16	doch	doch	ADV	ADV	_	12	F	12:F	_
+17	etwa	etwa	ADV	ADV	_	12	D	12:D	_
+18	den	der	DET	ART	_	20	E	20:E	_
+19	dritten	dritt	ADJ	ADJA	_	20	E	20:E	_
+20	Teil	Teil	NOUN	NN	_	12	A	12:A	_
+21	seines	sein	DET	PPOSAT	_	22	R	22:R	_
+22	Körpers	Körper	NOUN	NN	_	20	E	20:E	_
+23	ein	ein	ADV	PTKVZ	_	12	Terminal	12:Terminal	_
+24	.	.	PUNCT	$.	_	12	U	12:U	_
+

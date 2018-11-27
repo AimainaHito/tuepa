@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25776020
+# text = Es war Freudejauchzen , was wir gehört hatten .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	Freudejauchzen	Freudejauchzen	NOUN	NN	_	2	A	2:A|7:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	was	was	PRON	NE	_	7	A	7:A	_
+6	wir	wir	PRON	NE	_	7	A	7:A	_
+7	gehört	gehören	VERB	VVPP	_	2	A	2:A	_
+8	hatten	haben	AUX	VAFIN	_	7	F	7:F	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

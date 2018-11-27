@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 591010
+# text = He made a cameo as the Mad Hatter in the music video for Avril Lavigne 's " Alice " in 2010 .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	made	make	VERB	VBD	_	4	F	4:F	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	cameo	cameo	NOUN	NN	_	0	H	0:H	_
+5	as	as	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	Mad	mad	PROPN	NNP	_	4	A	4:A	_
+8	Hatter	Hatter	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	music	music	NOUN	NN	_	12	E	12:E	_
+12	video	video	NOUN	NN	_	4	A	4:A	_
+13	for	for	ADP	IN	_	18	R	18:R	_
+14	Avril	Avril	PROPN	NNP	_	18	E	18:E	_
+15	Lavigne	Lavigne	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	's	's	PART	POS	_	14	R	14:R	_
+17	"	"	PUNCT	``	_	18	U	18:U	_
+18	Alice	Alice	PROPN	NNP	_	12	E	12:E	_
+19	"	"	PUNCT	''	_	4	U	4:U	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	2010	2010	NUM	CD	_	4	D	4:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

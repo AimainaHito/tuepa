@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25729032
+# text = Ned Land war mir schon zuvorgekommen .
+1	Ned	Ned	PROPN	NN	_	6	A	6:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	mir	ich	PRON	PPER	_	6	A	6:A	_
+5	schon	schon	ADV	ADV	_	6	D	6:D	_
+6	zuvorgekommen	zuvorkommen	VERB	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

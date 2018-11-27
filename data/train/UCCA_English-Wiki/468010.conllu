@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 468010
+# text = He missed 45 games , and said that his rehabilitation was the " most down " he had ever felt .
+1	He	he	PRON	PRP	_	2	A	2:A|7:A	_
+2	missed	miss	VERB	VBD	_	0	H	0:H	_
+3	45	45	NUM	CD	_	4	E	4:E	_
+4	games	game	NOUN	NNS	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	and	and	CCONJ	CC	_	2	L	2:L	_
+7	said	say	VERB	VBD	_	2	H	2:H	_
+8	that	that	SCONJ	IN	_	11	F	11:F	_
+9	his	he	PRON	PRP$	_	10	A	10:A	_
+10	rehabilitation	rehabilitation	NOUN	NN	_	11	A	11:A	_
+11	was	be	AUX	VBD	_	7	A	7:A	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	"	"	PUNCT	``	_	15	U	15:U	_
+14	most	most	ADV	RBS	_	15	E	15:E	_
+15	down	down	ADV	RB	_	20	A	20:A	_
+16	"	"	PUNCT	''	_	20	U	20:U	_
+17	he	he	PRON	PRP	_	20	A	20:A	_
+18	had	have	VERB	VBD	_	20	F	20:F	_
+19	ever	ever	ADV	RB	_	20	D	20:D	_
+20	felt	feel	ADJ	JJ	_	11	A	11:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

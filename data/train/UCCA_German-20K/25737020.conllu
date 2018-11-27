@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25737020
+# text = Die ›Nautilus‹ fuhr in der Tat nur 10 Meter hoch über dem Boden der Atlantis hin , und zwar so schnell wie ein Ballon , den der Wind über Wiesenland treibt ; richtiger gesagt , wir waren in diesem Salon wie in dem Waggon eines Eilzugs .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|21:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Tat	Tat	NOUN	NN	_	3	G	3:G	_
+7	nur	nur	ADV	NE	_	3	D	3:D	_
+8	10	10	NUM	CARD	_	9	E	9:E	_
+9	Meter	Meter	NOUN	NN	_	10	E	10:E	_
+10	hoch	hoch	ADJ	ADJD	_	3	D	3:D	_
+11	über	über	ADP	VVFIN	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Boden	Boden	NOUN	NN	_	3	A	3:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Atlantis	Atlantis	PROPN	NN	_	13	E	13:E	_
+16	hin	hin	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	und	und	CCONJ	NE	_	3	L	3:L	_
+19	zwar	zwar	ADV	ADV	_	18	Terminal	18:Terminal	_
+20	so	so	ADV	ADV	_	24	D	24:D	_
+21	schnell	schnell	ADJ	NN	_	3	H	3:H	_
+22	wie	wie	ADP	ADV	_	20	Terminal	20:Terminal	_
+23	ein	ein	DET	ART	_	24	E	24:E	_
+24	Ballon	Ballon	NOUN	NN	_	3	H	3:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	den	der	PRON	PRELS	_	31	R	31:R	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Wind	Wind	NOUN	NN	_	31	A	31:A	_
+29	über	über	ADP	NE	_	30	R	30:R	_
+30	Wiesenland	Wiesenland	PROPN	NE	_	31	A	31:A	_
+31	treibt	treeben	VERB	VVFIN	_	24	E	24:E	_
+32	;	;	PUNCT	$.	_	3	U	3:U	_
+33	richtiger	richtig	ADJ	ADJD	_	37	G	37:G	_
+34	gesagt	sagen	VERB	VVPP	_	33	Terminal	33:Terminal	_
+35	,	,	PUNCT	$,	_	37	U	37:U	_
+36	wir	wir	PRON	NE	_	37	A	37:A|44:A	_
+37	waren	sein	AUX	VAFIN	_	3	H	3:H	_
+38	in	in	ADP	APPR	_	40	R	40:R	_
+39	diesem	dies	PRON	PDAT	_	40	E	40:E	_
+40	Salon	Salon	NOUN	NN	_	37	A	37:A	_
+41	wie	wie	ADP	KON	_	44	R	44:R	_
+42	in	in	ADP	APPR	_	44	R	44:R	_
+43	dem	der	DET	ART	_	44	E	44:E	_
+44	Waggon	Waggon	NOUN	NN	_	37	A	37:A	_
+45	eines	ein	DET	ART	_	46	R	46:R	_
+46	Eilzugs	Eilzugs	NOUN	NN	_	44	E	44:E	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 702003
+# text = On his next album , Planet Waves , he used The Band as backing group , while rehearsing for a major tour .
+1	On	on	ADP	IN	_	4	R	4:R	_
+2	his	he	PRON	PRP$	_	4	E	4:E	_
+3	next	next	ADJ	JJ	_	4	E	4:E	_
+4	album	album	NOUN	NN	_	10	A	10:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Planet	Planet	PROPN	NNP	_	4	E	4:E	_
+7	Waves	Wave	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	he	he	PRON	PRP	_	10	A	10:A|18:A	_
+10	used	use	VERB	VBD	_	0	H	0:H	_
+11	The	the	DET	DT	_	12	E	12:E	_
+12	Band	Band	PROPN	NNP	_	10	A	10:A	_
+13	as	as	SCONJ	IN	_	15	R	15:R	_
+14	backing	back	VERB	VBG	_	15	E	15:E	_
+15	group	group	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	while	while	SCONJ	IN	_	10	L	10:L	_
+18	rehearsing	rehearse	VERB	VBG	_	10	H	10:H	_
+19	for	for	ADP	IN	_	22	R	22:R	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	major	major	ADJ	JJ	_	22	E	22:E	_
+22	tour	tour	NOUN	NN	_	18	A	18:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

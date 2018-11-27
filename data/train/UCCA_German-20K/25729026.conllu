@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25729026
+# text = Der Kompaß beruhigte nicht .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kompaß	Kompaß	NOUN	NN	_	3	A	3:A	_
+3	beruhigte	beruhigen	VERB	VVFIN	_	0	H	0:H	_
+4	nicht	nicht	PART	XY	_	3	D	3:D	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+

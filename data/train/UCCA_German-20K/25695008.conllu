@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25695008
+# text = Ich nahm mir vor , ihn nicht wieder hinabgehen zu lassen , ohne ihn wenigstens über seine weiteren Pläne ausgeforscht zu haben .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|9:A|20:A	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	vor	vor	ADP	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	ihn	er	PRON	PPER	_	9	A	9:A	_
+7	nicht	nicht	PART	CARD	_	9	D	9:D	_
+8	wieder	wieder	ADV	NN	_	9	D	9:D	_
+9	hinabgehen	hinabgehen	VERB	VVINF	_	2	A	2:A	_
+10	zu	zu	PART	VVINF	_	9	F	9:F	_
+11	lassen	lassen	VERB	VVINF	_	9	D	9:D	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	ohne	ohne	SCONJ	NN	_	9	L	9:L	_
+14	ihn	er	PRON	PPER	_	20	A	20:A	_
+15	wenigstens	wenigstens	ADV	ADV	_	20	D	20:D	_
+16	über	über	ADP	ADJD	_	19	R	19:R	_
+17	seine	sein	DET	PPOSAT	_	19	E	19:E	_
+18	weiteren	weit	ADJ	ADJA	_	19	E	19:E	_
+19	Pläne	Plan	NOUN	NN	_	20	A	20:A	_
+20	ausgeforscht	ausgeforschen	VERB	VVPP	_	9	H	9:H	_
+21	zu	zu	PART	NE	_	20	F	20:F	_
+22	haben	haben	AUX	VAINF	_	20	F	20:F	_
+23	.	.	PUNCT	$.	_	20	U	20:U	_
+

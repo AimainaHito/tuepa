@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25763005
+# text = Auch brauchte sie nur einige Meter tief unter die Wellen zu tauchen , um da eine erträgliche Temperatur zu finden .
+1	Auch	auch	ADV	ADV	_	12	L	12:L	_
+2	brauchte	brauchen	VERB	VVFIN	_	12	D	12:D	_
+3	sie	sie	PRON	ADV	_	12	A	12:A|20:A	_
+4	nur	nur	ADV	NE	_	12	D	12:D	_
+5	einige	einige	PRON	PIAT	_	6	E	6:E	_
+6	Meter	Meter	NOUN	NN	_	12	A	12:A	_
+7	tief	tief	ADJ	VVFIN	_	12	D	12:D	_
+8	unter	unter	ADP	ADJD	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Wellen	Welle	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	tauchen	tauchen	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	um	um	ADP	KOUI	_	20	R	20:R	_
+15	da	da	ADV	KOUS	_	20	A	20:A	_
+16	eine	ein	DET	ART	_	18	E	18:E	_
+17	erträgliche	erträglich	ADJ	ADJA	_	18	E	18:E	_
+18	Temperatur	Temperatur	NOUN	NN	_	20	A	20:A	_
+19	zu	zu	PART	VVINF	_	20	F	20:F	_
+20	finden	finden	VERB	VVINF	_	12	H	12:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

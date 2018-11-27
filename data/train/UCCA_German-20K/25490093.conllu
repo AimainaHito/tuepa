@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25490093
+# text = Ich sah sogar kein Mittel , um aus dieser hermetisch verschlossenen Zelle zu entrinnen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	sogar	sogar	ADV	ADV	_	2	D	2:D	_
+4	kein	kein	PRON	PIAT	_	2	D	2:D	_
+5	Mittel	Mittel	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	um	um	ADP	KOUI	_	2	L	2:L	_
+8	aus	aus	ADP	APPR	_	12	R	12:R	_
+9	dieser	dies	PRON	PDS	_	12	E	12:E	_
+10	hermetisch	hermetisch	ADJ	ADJD	_	11	D	11:D	_
+11	verschlossenen	verschlossenen	ADJ	ADJA	_	12	E	12:E	_
+12	Zelle	Zelle	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	entrinnen	entrinnen	VERB	VVINF	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 647017
+# text = Two days later , Lennon reappeared at a joint dental appointment , stupefied and confused to such an extent that Pang believed he had been brainwashed .
+1	Two	two	NUM	CD	_	2	E	2:E	_
+2	days	day	NOUN	NNS	_	6	D	6:D	_
+3	later	later	ADV	RB	_	2	R	2:R	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Lennon	Lennon	PROPN	NNP	_	6	A	6:A	_
+6	reappeared	reappear	VERB	VBD	_	0	H	0:H	_
+7	at	at	ADP	IN	_	11	R	11:R	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	joint	joint	ADJ	JJ	_	11	E	11:E	_
+10	dental	dental	ADJ	JJ	_	11	E	11:E	_
+11	appointment	appointment	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	stupefied	stupefied	ADJ	JJ	_	6	H	6:H	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	confused	confused	ADJ	JJ	_	13	C	13:C	_
+16	to	to	ADP	IN	_	19	R	19:R	_
+17	such	such	DET	PDT	_	19	E	19:E	_
+18	an	a	DET	DT	_	17	R	17:R	_
+19	extent	extent	NOUN	NN	_	6	L	6:L	_
+20	that	that	SCONJ	IN	_	22	F	22:F	_
+21	Pang	Pang	PROPN	NNP	_	22	A	22:A	_
+22	believed	believe	VERB	VBD	_	6	H	6:H	_
+23	he	he	PRON	PRP	_	26	A	26:A|13:A	_
+24	had	have	AUX	VBD	_	26	F	26:F	_
+25	been	be	AUX	VBN	_	26	F	26:F	_
+26	brainwashed	brainwash	VERB	VBN	_	22	A	22:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

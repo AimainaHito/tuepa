@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25812017
+# text = Alsbald glitt einer dieser langen Arme gleich einer Schlange durch die Öffnung , und zwanzig andere ringelten sich oben .
+1	Alsbald	alsbald	PROPN	ADV	_	2	L	2:L	_
+2	glitt	gleiden	VERB	VVFIN	_	0	H	0:H	_
+3	einer	ein	PRON	ART	_	2	A	2:A	_
+4	dieser	dies	PRON	PDAT	_	6	R	6:R	_
+5	langen	lang	ADJ	ADJA	_	6	E	6:E	_
+6	Arme	Arm|Arme	NOUN	NN	_	0	C	0:C|15:C	_
+7	gleich	gleich	ADV	ADV	_	9	R	9:R	_
+8	einer	ein	DET	ART	_	9	E	9:E	_
+9	Schlange	Schlange	NOUN	NN	_	2	A	2:A	_
+10	durch	durch	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Öffnung	Öffnung	NOUN	NN	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	zwanzig	zwanzig	NUM	CARD	_	17	A	17:A	_
+16	andere	ander	NOUN	PIS	_	15	E	15:E	_
+17	ringelten	ringelten	VERB	VVFIN	_	2	H	2:H	_
+18	sich	er|es|sie	PRON	PRF	_	17	Terminal	17:Terminal	_
+19	oben	oben	ADV	NN	_	17	A	17:A	_
+20	.	.	PUNCT	$.	_	17	U	17:U	_
+

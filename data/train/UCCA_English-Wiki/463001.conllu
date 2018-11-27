@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 463001
+# text = On August 10 , 2005 , ABC aired a two - hour special , Peter Jennings : Reporter , with archival clips of his reports and interviews with colleagues and friends .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	August	August	PROPN	NNP	_	8	D	8:D	_
+3	10	10	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2005	2005	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	ABC	ABC	PROPN	NNP	_	8	A	8:A	_
+8	aired	aire	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	15	E	15:E	_
+10	two	two	NUM	CD	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	hour	hour	NOUN	NN	_	13	E	13:E	_
+13	special	special	NOUN	NN	_	15	E	15:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	Peter	Peter	PROPN	NNP	_	8	A	8:A	_
+16	Jennings	Jenning	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	:	:	PUNCT	:	_	15	U	15:U	_
+18	Reporter	reporter	NOUN	NN	_	15	Terminal	15:Terminal	_
+19	,	,	PUNCT	,	_	15	U	15:U	_
+20	with	with	ADP	IN	_	22	R	22:R	_
+21	archival	archival	NOUN	NN	_	22	E	22:E	_
+22	clips	clip	NOUN	NNS	_	15	E	15:E	_
+23	of	of	ADP	IN	_	25	R	25:R	_
+24	his	he	PRON	PRP$	_	25	E	25:E	_
+25	reports	report	NOUN	NNS	_	22	E	22:E	_
+26	and	and	CCONJ	CC	_	22	N	22:N	_
+27	interviews	interview	NOUN	NNS	_	22	C	22:C	_
+28	with	with	ADP	IN	_	29	R	29:R	_
+29	colleagues	colleague	NOUN	NNS	_	27	E	27:E	_
+30	and	and	CCONJ	CC	_	29	N	29:N	_
+31	friends	friend	NOUN	NNS	_	29	C	29:C	_
+32	.	.	PUNCT	.	_	29	U	29:U	_
+

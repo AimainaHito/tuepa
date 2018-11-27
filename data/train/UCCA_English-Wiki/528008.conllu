@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 528008
+# text = As shooting progressed , however , she began making the same pleas of illness which she had so often made during her final films at MGM .
+1	As	as	SCONJ	IN	_	3	L	3:L	_
+2	shooting	shoot	AUX	VBG	_	3	A	3:A	_
+3	progressed	progress	VERB	VBN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	however	however	ADV	RB	_	3	L	3:L	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	she	she	PRON	PRP	_	9	A	9:A	_
+8	began	begin	VERB	VBD	_	9	D	9:D	_
+9	making	make	VERB	VBG	_	3	H	3:H	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	same	same	ADJ	JJ	_	12	E	12:E	_
+12	pleas	plea	NOUN	NNS	_	9	A	9:A	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	illness	illness	NOUN	NN	_	12	E	12:E	_
+15	which	which	PRON	WDT	_	20	F	20:F	_
+16	she	she	PRON	PRP	_	20	A	20:A|24:A	_
+17	had	have	VERB	VBD	_	20	F	20:F	_
+18	so	so	ADV	RB	_	19	E	19:E	_
+19	often	often	ADV	RB	_	20	D	20:D	_
+20	made	make	VERB	VBN	_	12	E	12:E	_
+21	during	during	ADP	IN	_	20	L	20:L	_
+22	her	she	PRON	PRP$	_	24	E	24:E	_
+23	final	final	ADJ	JJ	_	24	E	24:E	_
+24	films	film	NOUN	NNS	_	20	H	20:H	_
+25	at	at	ADP	IN	_	26	R	26:R	_
+26	MGM	MGM	PROPN	NNP	_	24	E	24:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

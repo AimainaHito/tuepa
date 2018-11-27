@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 602011
+# text = He pressed them to start a new project , which became Sgt . Pepper 's Lonely Hearts Club Band , widely regarded as rock 's first concept album .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	pressed	press	VERB	VBD	_	0	H	0:H	_
+3	them	they	PRON	PRP	_	2	A	2:A|5:A	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	start	start	VERB	VB	_	2	A	2:A	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	new	new	ADJ	JJ	_	8	E	8:E	_
+8	project	project	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	which	which	PRON	WDT	_	11	F	11:F	_
+11	became	become	VERB	VBD	_	8	E	8:E	_
+12	Sgt	Sgt	PROPN	NNP	_	11	A	11:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+14	Pepper	pepper	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	's	's	PART	POS	_	12	Terminal	12:Terminal	_
+16	Lonely	Lonely	PROPN	NNP	_	12	Terminal	12:Terminal	_
+17	Hearts	hearts	PROPN	NNP	_	12	Terminal	12:Terminal	_
+18	Club	Club	PROPN	NNP	_	12	Terminal	12:Terminal	_
+19	Band	band	PROPN	NNP	_	12	Terminal	12:Terminal	_
+20	,	,	PUNCT	,	_	12	U	12:U	_
+21	widely	widely	ADV	RB	_	22	D	22:D	_
+22	regarded	regard	VERB	VBN	_	12	E	12:E	_
+23	as	as	ADP	IN	_	28	R	28:R	_
+24	rock	rock	NOUN	NN	_	28	E	28:E	_
+25	's	's	PART	POS	_	24	R	24:R	_
+26	first	first	ADJ	JJ	_	28	E	28:E	_
+27	concept	concept	NOUN	NN	_	28	E	28:E	_
+28	album	album	NOUN	NN	_	22	A	22:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

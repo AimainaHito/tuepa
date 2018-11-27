@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 647018
+# text = He told her his separation from Ono was now over , though Ono would allow him to continue seeing her as his mistress .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	told	tell	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP	_	2	A	2:A	_
+4	his	he	PRON	PRP$	_	5	A	5:A	_
+5	separation	separation	NOUN	NN	_	10	A	10:A	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Ono	Ono	PROPN	NNP	_	5	A	5:A	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	now	now	ADV	RB	_	10	D	10:D	_
+10	over	over	ADV	RB	_	2	A	2:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	though	though	SCONJ	IN	_	2	L	2:L	_
+13	Ono	Ono	PROPN	NNP	_	15	A	15:A	_
+14	would	would	AUX	MD	_	15	D	15:D	_
+15	allow	allow	VERB	VB	_	2	H	2:H	_
+16	him	he	PRON	PRP	_	15	A	15:A	_
+17	to	to	PART	TO	_	19	F	19:F	_
+18	continue	continue	VERB	VB	_	19	D	19:D	_
+19	seeing	see	VERB	VBG	_	15	A	15:A	_
+20	her	she	PRON	PRP$	_	19	A	19:A	_
+21	as	as	ADP	IN	_	23	R	23:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	mistress	mistress	NOUN	NN	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

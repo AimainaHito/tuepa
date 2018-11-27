@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25496018
+# text = Sie haben mich angegriffen !
+1	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+2	haben	haben	AUX	VAFIN	_	4	F	4:F	_
+3	mich	ich	PRON	PPER	_	4	A	4:A	_
+4	angegriffen	angreifen	VERB	VVPP	_	0	H	0:H	_
+5	!	!	PUNCT	$.	_	4	U	4:U	_
+

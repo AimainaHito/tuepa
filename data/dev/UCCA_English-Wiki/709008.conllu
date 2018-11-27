@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 709008
+# text = In 1991 , Dylan was honored by the recording industry with a Grammy Lifetime Achievement Award from American actor Jack Nicholson .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1991	1991	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	honored	honor	VERB	VBN	_	0	H	0:H	_
+7	by	by	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	recording	recording	NOUN	NN	_	10	E	10:E	_
+10	industry	industry	NOUN	NN	_	6	A	6:A	_
+11	with	with	ADP	IN	_	16	R	16:R	_
+12	a	a	DET	DT	_	16	E	16:E	_
+13	Grammy	Grammy	PROPN	NNP	_	16	E	16:E	_
+14	Lifetime	lifetime	PROPN	NNP	_	15	E	15:E	_
+15	Achievement	achievement	PROPN	NNP	_	13	E	13:E	_
+16	Award	award	PROPN	NNP	_	6	A	6:A	_
+17	from	from	ADP	IN	_	19	R	19:R	_
+18	American	american	PROPN	NNP	_	19	E	19:E	_
+19	actor	actor	ADP	IN	_	6	A	6:A	_
+20	Jack	Jack	PROPN	NNP	_	19	E	19:E	_
+21	Nicholson	Nicholson	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	19	U	19:U	_
+

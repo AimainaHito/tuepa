@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 657010
+# text = Carey once again ventured into film with a well - received starring role in Precious ( 2009 ) ; she was awarded the " Breakthrough Performance Award " at the Palm Springs International Film Festival , and Black Reel and NAACP Image Award multi nominations
+1	Carey	Carey	PROPN	NNP	_	4	A	4:A|13:A	_
+2	once	once	ADV	RB	_	4	D	4:D	_
+3	again	again	ADV	RB	_	2	Terminal	2:Terminal	_
+4	ventured	venture	VERB	VBN	_	0	H	0:H	_
+5	into	into	ADP	IN	_	6	R	6:R	_
+6	film	film	NOUN	NN	_	4	A	4:A	_
+7	with	with	ADP	IN	_	4	L	4:L	_
+8	a	a	DET	DT	_	13	E	13:E	_
+9	well	well	ADV	RB	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	received	receive	VERB	VBN	_	13	E	13:E	_
+12	starring	starring	VERB	VBG	_	13	E	13:E	_
+13	role	role	NOUN	NN	_	4	H	4:H	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Precious	precious	PROPN	NNP	_	13	E	13:E	_
+16	(	(	PUNCT	-LRB-	_	15	U	15:U	_
+17	2009	2009	NUM	CD	_	15	E	15:E	_
+18	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+19	;	;	PUNCT	,	_	4	U	4:U	_
+20	she	she	PRON	PRP	_	22	A	22:A	_
+21	was	be	AUX	VBD	_	22	F	22:F	_
+22	awarded	award	VERB	VBN	_	4	H	4:H	_
+23	the	the	DET	DT	_	27	E	27:E	_
+24	"	"	PUNCT	``	_	27	U	27:U	_
+25	Breakthrough	Breakthrough	ADJ	JJ	_	27	E	27:E	_
+26	Performance	performance	NOUN	NN	_	27	E	27:E	_
+27	Award	Award	PROPN	NNP	_	22	A	22:A	_
+28	"	"	PUNCT	''	_	27	U	27:U	_
+29	at	at	ADP	IN	_	35	R	35:R	_
+30	the	the	DET	DT	_	35	E	35:E	_
+31	Palm	Palm	PROPN	NNP	_	35	E	35:E	_
+32	Springs	Springs	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	International	International	PROPN	NNP	_	35	E	35:E	_
+34	Film	film	PROPN	NNP	_	35	E	35:E	_
+35	Festival	Festival	PROPN	NNP	_	27	E	27:E	_
+36	,	,	PUNCT	,	_	27	U	27:U	_
+37	and	and	CCONJ	CC	_	27	N	27:N	_
+38	Black	Black	PROPN	NNP	_	45	E	45:E	_
+39	Reel	Reel	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	and	and	CCONJ	CC	_	38	N	38:N	_
+41	NAACP	NAACP	PROPN	NNP	_	43	E	43:E	_
+42	Image	Image	PROPN	NNP	_	43	E	43:E	_
+43	Award	Award	PROPN	NNP	_	38	C	38:C	_
+44	multi	multi	X	AFX	_	45	E	45:E	_
+45	nominations	nomination	NOUN	NNS	_	27	C	27:C	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 218011
+# text = Nonetheless , with a total worldwide gross of $ 891 million , it stands as the most commercially successful film in the series and Dunst 's highest grossing film to the end of 2008 .
+1	Nonetheless	nonetheless	ADV	RB	_	20	L	20:L	_
+2	,	,	PUNCT	,	_	20	U	20:U	_
+3	with	with	ADP	IN	_	7	R	7:R	_
+4	a	a	DET	DT	_	7	E	7:E	_
+5	total	total	ADJ	JJ	_	7	E	7:E	_
+6	worldwide	worldwide	ADJ	JJ	_	7	E	7:E	_
+7	gross	gross	NOUN	NN	_	20	A	20:A	_
+8	of	of	ADP	IN	_	11	R	11:R	_
+9	$	$	SYM	$	_	11	U	11:U	_
+10	891	891	NUM	CD	_	11	E	11:E	_
+11	million	million	NUM	CD	_	7	E	7:E	_
+12	,	,	PUNCT	,	_	20	U	20:U	_
+13	it	it	PRON	PRP	_	20	A	20:A	_
+14	stands	stand	VERB	VBZ	_	20	D	20:D	_
+15	as	as	ADP	IN	_	20	R	20:R	_
+16	the	the	DET	DT	_	20	E	20:E	_
+17	most	most	ADV	RBS	_	20	D	20:D	_
+18	commercially	commercially	ADV	RB	_	19	E	19:E	_
+19	successful	successful	ADJ	JJ	_	20	E	20:E	_
+20	film	film	NOUN	NN	_	0	H	0:H	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	series	series	NOUN	NNS	_	20	E	20:E	_
+24	and	and	CCONJ	CC	_	20	L	20:L	_
+25	Dunst	Dunst	PROPN	NNP	_	29	A	29:A	_
+26	's	's	PART	POS	_	25	R	25:R	_
+27	highest	highest	ADJ	JJS	_	28	E	28:E	_
+28	grossing	gross	NOUN	NN	_	29	E	29:E	_
+29	film	film	NOUN	NN	_	20	H	20:H	_
+30	to	to	ADP	IN	_	34	R	34:R	_
+31	the	the	DET	DT	_	34	E	34:E	_
+32	end	end	NOUN	NN	_	34	E	34:E	_
+33	of	of	ADP	IN	_	32	R	32:R	_
+34	2008	2008	NUM	CD	_	29	D	29:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

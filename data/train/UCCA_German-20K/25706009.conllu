@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25706009
+# text = » Ein schwimmender Pharus « , sagte jemand in meiner Nähe .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ein	ein	DET	ART	_	4	E	4:E	_
+3	schwimmender	schwimmend	ADJ	ADJA	_	7	A	7:A	_
+4	Pharus	Pharus	NOUN	ADV	_	3	A	3:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	jemand	jemand	PRON	PIS	_	7	A	7:A	_
+9	in	in	ADP	APPR	_	10	R	10:R	_
+10	meiner	mein	DET	PPOSAT	_	7	A	7:A	_
+11	Nähe	Nähe	NOUN	NN	_	10	E	10:E	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

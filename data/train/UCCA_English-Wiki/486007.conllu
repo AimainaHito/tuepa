@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 486007
+# text = During his four years on the show , Bana wrote much of his own material , and based some of his characters on members of his family .
+1	During	during	ADP	IN	_	7	L	7:L	_
+2	his	he	PRON	PRP$	_	7	A	7:A	_
+3	four	four	NUM	CD	_	4	E	4:E	_
+4	years	year	NOUN	NNS	_	7	D	7:D	_
+5	on	on	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	show	show	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Bana	Bana	PROPN	NNP	_	10	A	10:A|18:A	_
+10	wrote	write	VERB	VBD	_	7	H	7:H	_
+11	much	much	ADV	RB	_	15	E	15:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	his	he	PRON	PRP$	_	15	E	15:E	_
+14	own	own	ADJ	JJ	_	15	E	15:E	_
+15	material	material	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	7	U	7:U	_
+17	and	and	CCONJ	CC	_	7	L	7:L	_
+18	based	base	VERB	VBN	_	7	H	7:H	_
+19	some	some	DET	DT	_	22	E	22:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	characters	character	NOUN	NNS	_	18	A	18:A	_
+23	on	on	ADP	IN	_	24	R	24:R	_
+24	members	member	NOUN	NNS	_	18	A	18:A	_
+25	of	of	ADP	IN	_	27	R	27:R	_
+26	his	he	PRON	PRP$	_	27	E	27:E	_
+27	family	family	NOUN	NN	_	24	E	24:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

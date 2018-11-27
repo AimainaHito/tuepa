@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25631000
+# text = Der Kanadier weidete es geschickt aus und nahm davon ein halbes Dutzend Koteletts zu einem Rostbraten für den Abend .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|8:A	_
+3	weidete	weiden	VERB	VVFIN	_	0	H	0:H	_
+4	es	es	PRON	PPER	_	3	A	3:A	_
+5	geschickt	schicken	VERB	ADJD	_	3	D	3:D	_
+6	aus	aus	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+7	und	und	CCONJ	NE	_	3	L	3:L	_
+8	nahm	nehmen	VERB	VVFIN	_	3	H	3:H	_
+9	davon	davon	ADV	PAV	_	8	A	8:A	_
+10	ein	ein	DET	ART	_	12	E	12:E	_
+11	halbes	halb	ADJ	ADJA	_	12	E	12:E	_
+12	Dutzend	Dutzend	NOUN	NN	_	13	E	13:E	_
+13	Koteletts	Koteletts	PROPN	NE	_	8	A	8:A	_
+14	zu	zu	ADP	NE	_	16	R	16:R	_
+15	einem	ein	DET	ART	_	16	E	16:E	_
+16	Rostbraten	Rostbrat	NOUN	NE	_	8	A	8:A	_
+17	für	für	ADP	APPR	_	19	R	19:R	_
+18	den	der	DET	ART	_	19	E	19:E	_
+19	Abend	Abend	NOUN	NN	_	8	A	8:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

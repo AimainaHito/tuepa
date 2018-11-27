@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25490017
+# text = In diesem Falle musste er einige Verbindungen mit dem Festland unterhalten haben , um sich die für diese Operation erforderlichen Materialien zu verschaffen ?
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Falle	Falle	NOUN	NN	_	11	A	11:A	_
+4	musste	müssen	AUX	VVFIN	_	11	D	11:D	_
+5	er	er	PRON	PPER	_	11	A	11:A|23:A	_
+6	einige	einige	PRON	PIAT	_	7	E	7:E	_
+7	Verbindungen	Verbindung	NOUN	NN	_	11	A	11:A	_
+8	mit	mit	ADP	APPR	_	10	R	10:R	_
+9	dem	der	DET	ART	_	10	E	10:E	_
+10	Festland	Festland	NOUN	NN	_	7	E	7:E	_
+11	unterhalten	unterhalten	VERB	VVPP	_	0	H	0:H	_
+12	haben	haben	AUX	VAFIN	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	um	um	ADP	KOUI	_	11	L	11:L	_
+15	sich	er|es|sie	PRON	PRF	_	23	A	23:A	_
+16	die	der	DET	ART	_	21	E	21:E	_
+17	für	für	ADP	APPR	_	19	R	19:R	_
+18	diese	dies	PRON	PDAT	_	19	E	19:E	_
+19	Operation	Operation	NOUN	NN	_	20	A	20:A	_
+20	erforderlichen	erforderlich	ADJ	ADJA	_	21	E	21:E	_
+21	Materialien	Material	NOUN	NN	_	23	A	23:A	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	verschaffen	verschaffen	VERB	VVINF	_	11	H	11:H	_
+24	?	?	PUNCT	$.	_	23	U	23:U	_
+

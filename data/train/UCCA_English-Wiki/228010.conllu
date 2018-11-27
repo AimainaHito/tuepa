@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 228010
+# text = The film was released in America on 11 June 2010 and sees Chan 's first dramatic American film .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A|12:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	released	release	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	America	America	PROPN	NNP	_	4	A	4:A	_
+7	on	on	ADP	IN	_	8	R	8:R	_
+8	11	11	NUM	CD	_	4	D	4:D	_
+9	June	June	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	2010	2010	NUM	CD	_	8	Terminal	8:Terminal	_
+11	and	and	CCONJ	CC	_	4	L	4:L	_
+12	sees	see	VERB	VBZ	_	4	H	4:H	_
+13	Chan	Chan	PROPN	NNP	_	18	E	18:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	first	first	ADV	RB	_	18	E	18:E	_
+16	dramatic	dramatic	ADJ	JJ	_	18	E	18:E	_
+17	American	american	ADJ	JJ	_	18	E	18:E	_
+18	film	film	NOUN	NN	_	12	A	12:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25490057
+# text = « » Wozu soll das dienen ? « fragte Conseil .
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	»	»	PUNCT	$(	_	9	U	9:U	_
+3	Wozu	wozu	ADV	PWAV	_	6	A	6:A	_
+4	soll	sollen	AUX	ADJD	_	6	D	6:D	_
+5	das	der	PRON	PDS	_	6	A	6:A	_
+6	dienen	dienen	VERB	VVFIN	_	9	A	9:A	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	fragte	fragen	ADJ	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

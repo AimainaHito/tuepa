@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25639000
+# text = » Nein , mein Freund . Was macht Ned Land ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PART	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Freund	Freund	NOUN	NN	_	2	G	2:G	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	Was	was	PRON	NN	_	8	A	8:A	_
+8	macht	machen	VERB	VVFIN	_	2	H	2:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	?	?	PUNCT	$.	_	8	U	8:U	_
+12	«	«	PUNCT	$(	_	8	U	8:U	_
+

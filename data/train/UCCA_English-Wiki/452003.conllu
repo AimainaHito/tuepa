@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 452003
+# text = As ABC 's Beirut bureau chief , Jennings soon became familiar with the intricacies of the Arab - Israeli conflict , including the rise of the Palestinian Black September Organization during the early 1970s .
+1	As	as	ADP	IN	_	6	L	6:L	_
+2	ABC	ABC	PROPN	NNP	_	6	E	6:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	Beirut	Beirut	PROPN	NNP	_	6	E	6:E	_
+5	bureau	bureau	NOUN	NN	_	6	E	6:E	_
+6	chief	chief	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Jennings	Jennings	PROPN	NNP	_	11	A	11:A|6:A	_
+9	soon	soon	ADV	RB	_	11	D	11:D	_
+10	became	become	VERB	VBD	_	11	D	11:D	_
+11	familiar	familiar	ADJ	JJ	_	6	H	6:H	_
+12	with	with	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	intricacies	intricacy	NOUN	NNS	_	11	A	11:A	_
+15	of	of	ADP	IN	_	20	R	20:R	_
+16	the	the	DET	DT	_	20	E	20:E	_
+17	Arab	arab	ADJ	JJ	_	20	E	20:E	_
+18	-	-	PUNCT	HYPH	_	17	U	17:U	_
+19	Israeli	israeli	ADJ	JJ	_	17	C	17:C	_
+20	conflict	conflict	NOUN	NN	_	14	E	14:E	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	including	include	VERB	VBG	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	rise	rise	NOUN	NN	_	20	E	20:E	_
+25	of	of	ADP	IN	_	30	R	30:R	_
+26	the	the	DET	DT	_	30	E	30:E	_
+27	Palestinian	Palestinian	ADJ	JJ	_	30	E	30:E	_
+28	Black	Black	PROPN	NNP	_	29	E	29:E	_
+29	September	September	PROPN	NNP	_	30	E	30:E	_
+30	Organization	Organization	PROPN	NNP	_	24	A	24:A	_
+31	during	during	ADP	IN	_	34	R	34:R	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	early	early	ADJ	JJ	_	34	E	34:E	_
+34	1970s	1970	NOUN	NNS	_	24	D	24:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

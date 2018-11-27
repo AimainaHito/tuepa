@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 688007
+# text = They defied existing pop music conventions and appealed hugely to the then burgeoning counterculture .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	defied	defy	VERB	VBD	_	0	H	0:H	_
+3	existing	exist	VERB	VBG	_	6	E	6:E	_
+4	pop	pop	NOUN	NN	_	5	E	5:E	_
+5	music	music	NOUN	NN	_	6	E	6:E	_
+6	conventions	convention	NOUN	NNS	_	2	A	2:A	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	appealed	appeal	VERB	VBD	_	2	H	2:H	_
+9	hugely	hugely	ADV	RB	_	8	D	8:D	_
+10	to	to	ADP	IN	_	14	R	14:R	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	then	then	ADV	RB	_	13	D	13:D	_
+13	burgeoning	burgeon	VERB	VBG	_	14	E	14:E	_
+14	counterculture	counterculture	NOUN	NN	_	8	A	8:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

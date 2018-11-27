@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 700005
+# text = In October and November 1967 , Dylan returned to Nashville .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	October	October	PROPN	NNP	_	5	E	5:E	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	November	November	PROPN	NNP	_	2	C	2:C	_
+5	1967	1967	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Dylan	Dylan	PROPN	NNP	_	8	A	8:A	_
+8	returned	return	VERB	VBD	_	0	H	0:H	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	Nashville	Nashville	PROPN	NNP	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

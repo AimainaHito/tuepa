@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25464011
+# text = Die wärmsten Verfechter der Unternehmung waren nun am ärgsten zum Schmähen bereit .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	wärmsten	wärm	ADJ	NN	_	3	E	3:E	_
+3	Verfechter	Verfechter	NOUN	NN	_	12	A	12:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Unternehmung	Unternehmung	NOUN	NN	_	3	E	3:E	_
+6	waren	sein	AUX	VAFIN	_	12	F	12:F	_
+7	nun	nun	ADV	ADV	_	12	D	12:D	_
+8	am	am	ADJ	ADJD	_	12	D	12:D	_
+9	ärgsten	arg	ADJ	ADJA	_	8	Terminal	8:Terminal	_
+10	zum	zum	ADP	NN	_	11	R	11:R	_
+11	Schmähen	Schmähen	NOUN	NE	_	12	A	12:A	_
+12	bereit	bereit	ADJ	ADJD	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25498009
+# text = Ein Steward erschien .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Steward	Steward	NOUN	NN	_	3	A	3:A	_
+3	erschien	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

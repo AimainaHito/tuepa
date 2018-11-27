@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 531001
+# text = The first , entitled The Judy Garland Show , aired in 1962 and featured guests Frank Sinatra and Dean Martin .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	first	first	ADJ	JJ	_	4	A	4:A	_
+3	,	,	PUNCT	,	_	4	U	4:U	_
+4	entitled	entitle	VERB	VBN	_	10	A	10:A	_
+5	The	the	DET	DT	_	4	A	4:A|14:A	_
+6	Judy	Judy	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Garland	Garland	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	Show	show	ADV	RB	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	aired	aire	VERB	VBD	_	0	H	0:H	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1962	1962	NUM	CD	_	10	D	10:D	_
+13	and	and	CCONJ	CC	_	10	L	10:L	_
+14	featured	feature	VERB	VBN	_	10	H	10:H	_
+15	guests	guest	NOUN	NNS	_	16	E	16:E	_
+16	Frank	Frank	PROPN	NNP	_	14	A	14:A	_
+17	Sinatra	Sinatra	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	and	and	CCONJ	CC	_	16	N	16:N	_
+19	Dean	Dean	PROPN	NNP	_	16	C	16:C	_
+20	Martin	Martin	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	16	U	16:U	_
+

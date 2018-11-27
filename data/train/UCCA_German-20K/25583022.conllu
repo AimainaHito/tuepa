@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25583022
+# text = » Jedenfalls muß man das annehmen « , versetzte der Kanadier . Sind wir einmal auf dem Festland , so werden wir schon wissen , was wir zu tun haben . Übrigens würde mir 's schon ganz recht sein , einige Stücke frisches Wildbret zu genießen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Jedenfalls	jedenfalls	ADV	ADV	_	6	D	6:D	_
+3	muß	müssen	AUX	VMFIN	_	6	D	6:D	_
+4	man	man	PRON	PIS	_	6	A	6:A	_
+5	das	der	PRON	PDS	_	6	A	6:A	_
+6	annehmen	annehmen	VERB	VVFIN	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+13	Sind	sein	AUX	NE	_	6	H	6:H	_
+14	wir	wir	PRON	NE	_	13	A	13:A	_
+15	einmal	einmal	ADV	ADV	_	13	D	13:D	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Festland	Festland	NOUN	NN	_	13	A	13:A	_
+19	,	,	PUNCT	$,	_	6	U	6:U	_
+20	so	so	ADV	ADV	_	6	L	6:L	_
+21	werden	werden	AUX	VVFIN	_	24	F	24:F	_
+22	wir	wir	PRON	NE	_	24	A	24:A	_
+23	schon	schon	ADV	ADV	_	24	D	24:D	_
+24	wissen	wissen	VERB	VVINF	_	6	H	6:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	was	was	PRON	NE	_	29	A	29:A	_
+27	wir	wir	PRON	NE	_	29	A	29:A	_
+28	zu	zu	PART	NE	_	29	F	29:F	_
+29	tun	tun	VERB	VVINF	_	24	A	24:A	_
+30	haben	haben	AUX	VAFIN	_	29	D	29:D	_
+31	.	.	PUNCT	$.	_	6	U	6:U	_
+32	Übrigens	übrigens	NOUN	NN	_	38	G	38:G	_
+33	würde	werden	AUX	NN	_	38	D	38:D	_
+34	mir	ich	PRON	PPER	_	38	A	38:A|46:A	_
+35	's	es	PRON	PPER	_	46	F	46:F	_
+36	schon	schon	ADV	ADV	_	38	D	38:D	_
+37	ganz	ganz	ADV	ADV	_	38	D	38:D	_
+38	recht	recht	ADJ	NE	_	6	H	6:H	_
+39	sein	sein	AUX	VAINF	_	38	F	38:F	_
+40	,	,	PUNCT	$,	_	38	U	38:U	_
+41	einige	einige	PRON	PIAT	_	42	E	42:E	_
+42	Stücke	Stück	NOUN	NN	_	44	E	44:E	_
+43	frisches	frisches	ADJ	ADJA	_	44	E	44:E	_
+44	Wildbret	Wildbret	NOUN	NN	_	46	A	46:A	_
+45	zu	zu	PART	VVINF	_	46	F	46:F	_
+46	genießen	genießen	VERB	VVINF	_	38	A	38:A	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+48	«	«	PUNCT	$(	_	46	U	46:U	_
+

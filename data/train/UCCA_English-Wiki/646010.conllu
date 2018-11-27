@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 646010
+# text = The couple settled at Tittenhurst Park at Sunninghill in Berkshire .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	couple	couple	NOUN	NN	_	3	A	3:A	_
+3	settled	settle	VERB	VBN	_	0	H	0:H	_
+4	at	at	ADP	IN	_	6	R	6:R	_
+5	Tittenhurst	Tittenhurst	PROPN	NNP	_	6	E	6:E	_
+6	Park	Park	PROPN	NNP	_	3	A	3:A	_
+7	at	at	ADP	IN	_	8	R	8:R	_
+8	Sunninghill	Sunninghill	PROPN	NNP	_	6	E	6:E	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Berkshire	Berkshire	PROPN	NNP	_	6	E	6:E	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

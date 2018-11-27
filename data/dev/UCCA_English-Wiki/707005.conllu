@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 707005
+# text = One reviewer commented that " the record follows too many detours to be consistently compelling , and some of those detours wind down roads that are indisputably dead ends . By 1986 , such uneven records were n't entirely unexpected by Dylan , but that did n't make them any less frustrating .
+1	One	one	NUM	CD	_	2	E	2:E	_
+2	reviewer	reviewer	NOUN	NN	_	3	A	3:A	_
+3	commented	comment	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	8	F	8:F	_
+5	"	"	PUNCT	``	_	8	U	8:U	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	record	record	NOUN	NN	_	8	A	8:A	_
+8	follows	follow	VERB	VBZ	_	3	A	3:A	_
+9	too	too	ADV	RB	_	11	E	11:E	_
+10	many	many	ADJ	JJ	_	9	Terminal	9:Terminal	_
+11	detours	detour	NOUN	NNS	_	8	A	8:A	_
+12	to	to	PART	TO	_	15	F	15:F	_
+13	be	be	AUX	VB	_	15	F	15:F	_
+14	consistently	consistently	ADV	RB	_	15	D	15:D	_
+15	compelling	compelling	ADJ	JJ	_	8	A	8:A	_
+16	,	,	PUNCT	,	_	8	U	8:U	_
+17	and	and	CCONJ	CC	_	8	L	8:L	_
+18	some	some	DET	DT	_	21	E	21:E	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	those	those	DET	DT	_	21	E	21:E	_
+21	detours	detour	NOUN	NNS	_	22	A	22:A	_
+22	wind	wind	VERB	VBP	_	8	H	8:H	_
+23	down	down	ADP	RP	_	22	Terminal	22:Terminal	_
+24	roads	road	NOUN	NNS	_	22	A	22:A	_
+25	that	that	PRON	WDT	_	26	R	26:R	_
+26	are	be	AUX	VBP	_	24	E	24:E	_
+27	indisputably	indisputably	ADV	RB	_	26	D	26:D	_
+28	dead	dead	ADJ	JJ	_	26	A	26:A	_
+29	ends	end	NOUN	NNS	_	28	Terminal	28:Terminal	_
+30	.	.	PUNCT	.	_	8	U	8:U	_
+31	By	by	ADP	IN	_	32	R	32:R	_
+32	1986	1986	NUM	CD	_	40	D	40:D	_
+33	,	,	PUNCT	,	_	40	U	40:U	_
+34	such	such	ADJ	JJ	_	36	E	36:E	_
+35	uneven	uneven	ADJ	JJ	_	36	E	36:E	_
+36	records	record	NOUN	NNS	_	40	A	40:A	_
+37	were	be	AUX	VBD	_	40	F	40:F	_
+38	n't	not	PART	RB	_	39	E	39:E	_
+39	entirely	entirely	ADV	RB	_	40	D	40:D	_
+40	unexpected	unexpect	ADJ	JJ	_	8	H	8:H	_
+41	by	by	ADP	IN	_	42	R	42:R	_
+42	Dylan	Dylan	PROPN	NNP	_	40	A	40:A	_
+43	,	,	PUNCT	,	_	8	U	8:U	_
+44	but	but	CCONJ	CC	_	8	L	8:L	_
+45	that	that	PRON	DT	_	52	A	52:A	_
+46	did	do	AUX	VBD	_	52	F	52:F	_
+47	n't	not	PART	RB	_	52	D	52:D	_
+48	make	make	VERB	VB	_	52	D	52:D	_
+49	them	they	PRON	PRP	_	52	A	52:A	_
+50	any	any	DET	DT	_	51	R	51:R	_
+51	less	less	ADV	RBS	_	52	D	52:D	_
+52	frustrating	frustrating	ADJ	JJ	_	8	H	8:H	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

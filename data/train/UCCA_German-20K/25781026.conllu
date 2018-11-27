@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25781026
+# text = Und jetzt begann die Rückkehr .
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	jetzt	jetzt	ADV	ADV	_	3	D	3:D	_
+3	begann	beginnen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Rückkehr	Rückkehr	NOUN	NN	_	3	A	3:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

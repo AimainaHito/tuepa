@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25729024
+# text = Der Kanadier kehrte zu Conseil zurück .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+3	kehrte	kehren	VERB	VVFIN	_	0	H	0:H	_
+4	zu	zu	ADP	NE	_	5	R	5:R	_
+5	Conseil	Conseil	NOUN	NE	_	3	A	3:A	_
+6	zurück	zurück	ADV	ADJA	_	3	Terminal	3:Terminal	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

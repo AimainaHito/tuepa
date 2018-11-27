@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 806000
+# text = Paul and Linda were vegetarians for most of their 30 - year marriage .
+1	Paul	Paul	PROPN	NNP	_	5	A	5:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Linda	Linda	PROPN	NNP	_	1	C	1:C	_
+4	were	be	AUX	VBD	_	5	F	5:F	_
+5	vegetarians	vegetarian	NOUN	NNS	_	0	H	0:H	_
+6	for	for	ADP	IN	_	7	R	7:R	_
+7	most	most	ADJ	JJS	_	5	L	5:L	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	their	they	PRON	PRP$	_	13	A	13:A	_
+10	30	30	NUM	CD	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	year	year	NOUN	NN	_	13	D	13:D	_
+13	marriage	marriage	NOUN	NN	_	5	H	5:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

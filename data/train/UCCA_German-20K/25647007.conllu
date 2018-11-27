@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25647007
+# text = » Worum handelt sich , Kapitän ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Worum	Worum	PROPN	ADV	_	3	A	3:A	_
+3	handelt	handeln	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	3	G	3:G	_
+7	?	?	PUNCT	$.	_	3	U	3:U	_
+8	«	«	PUNCT	$(	_	3	U	3:U	_
+

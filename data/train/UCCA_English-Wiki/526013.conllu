@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 526013
+# text = It was around this time she also developed a serious problem with alcohol .
+1	It	it	PRON	PRP	_	5	F	5:F	_
+2	was	be	AUX	VBD	_	5	F	5:F	_
+3	around	around	ADV	RB	_	5	R	5:R	_
+4	this	this	DET	DT	_	5	E	5:E	_
+5	time	time	NOUN	NN	_	8	D	8:D	_
+6	she	she	PRON	PRP	_	8	A	8:A	_
+7	also	also	ADV	RB	_	8	D	8:D	_
+8	developed	develop	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	serious	serious	ADJ	JJ	_	11	E	11:E	_
+11	problem	problem	NOUN	NN	_	8	A	8:A	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	alcohol	alcohol	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

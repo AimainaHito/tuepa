@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 180001
+# text = She is the daughter of director Stephen Gyllenhaal and screenwriter Naomi Foner ( née Achs ) and the older sister of actor Jake Gyllenhaal .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	is	be	AUX	VBZ	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	daughter	daughter	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	director	director	NOUN	NN	_	7	E	7:E	_
+7	Stephen	Stephen	PROPN	NNP	_	4	E	4:E	_
+8	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	and	and	CCONJ	CC	_	7	N	7:N	_
+10	screenwriter	screenwriter	PROPN	NNP	_	11	E	11:E	_
+11	Naomi	Naomi	PROPN	NNP	_	7	C	7:C	_
+12	Foner	Foner	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+14	née	née	ADJ	JJ	_	15	E	15:E	_
+15	Achs	Ach	NOUN	NNS	_	11	E	11:E	_
+16	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+17	and	and	CCONJ	CC	_	4	N	4:N	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	older	older	ADJ	JJR	_	20	E	20:E	_
+20	sister	sister	NOUN	NN	_	4	C	4:C	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	actor	actor	NOUN	NN	_	23	E	23:E	_
+23	Jake	Jake	PROPN	NNP	_	20	E	20:E	_
+24	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

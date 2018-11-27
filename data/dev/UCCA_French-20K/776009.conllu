@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 776009
+# text = - On les gardera à l' hôtel .
+1	-	-	PUNCT	_	_	4	U	4:U	_
+2	On	on	PRON	_	_	4	A	4:A	_
+3	les	le	PRON	_	_	4	A	4:A	_
+4	gardera	garder	VERB	_	_	0	H	0:H	_
+5	à	à	ADP	_	_	7	R	7:R	_
+6	l'	le	DET	_	_	7	E	7:E	_
+7	hôtel	hôtel	NOUN	_	_	4	A	4:A	_
+8	.	.	PUNCT	_	_	7	U	7:U	_
+

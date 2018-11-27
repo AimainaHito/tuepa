@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25785009
+# text = Die Leuchte am Plafond war erloschen , und dennoch war der Salon von starkem Licht zum Blenden erhellt , weil die Licht ströme des Fanals von den Eis wänden in großer Stärke zurückgestrahlt wurden .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Leuchte	Leuchte	NOUN	NN	_	6	A	6:A	_
+3	am	am	ADJ	NE	_	4	R	4:R	_
+4	Plafond	Plafond	NOUN	NE	_	2	E	2:E	_
+5	war	sein	AUX	NE	_	6	F	6:F	_
+6	erloschen	erlöschen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	dennoch	dennoch	ADV	ADV	_	6	L	6:L	_
+10	war	sein	AUX	ADV	_	18	F	18:F	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Salon	Salon	NOUN	NN	_	18	A	18:A	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	starkem	stark	ADJ	ADJA	_	15	E	15:E	_
+15	Licht	Licht	NOUN	NN	_	18	A	18:A	_
+16	zum	zum	ADP	NN	_	17	R	17:R	_
+17	Blenden	Blenden	PROPN	NE	_	18	D	18:D	_
+18	erhellt	erhellen	VERB	VVPP	_	6	H	6:H	_
+19	,	,	PUNCT	$,	_	6	U	6:U	_
+20	weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	Licht	Licht	NOUN	NN	_	23	E	23:E	_
+23	ströme	strömen	VERB	NN	_	33	A	33:A	_
+24	des	der	DET	ART	_	25	R	25:R	_
+25	Fanals	Fanals	NOUN	NN	_	23	E	23:E	_
+26	von	von	ADP	NE	_	29	R	29:R	_
+27	den	der	DET	PDS	_	29	E	29:E	_
+28	Eis	Eis	NOUN	NN	_	29	E	29:E	_
+29	wänden	wänden	VERB	VVINF	_	33	A	33:A	_
+30	in	in	ADP	APPR	_	32	R	32:R	_
+31	großer	groß	ADJ	ADJA	_	32	E	32:E	_
+32	Stärke	Stärke	NOUN	NN	_	33	D	33:D	_
+33	zurückgestrahlt	zurückgestrahlen	VERB	VVPP	_	6	H	6:H	_
+34	wurden	werden	AUX	ADJD	_	33	F	33:F	_
+35	.	.	PUNCT	$.	_	33	U	33:U	_
+

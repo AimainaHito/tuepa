@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25615009
+# text = » Mein Herr ist nie so freigebig gewesen « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	7	A	7:A	_
+4	ist	sein	AUX	VVFIN	_	7	F	7:F	_
+5	nie	nie	ADV	ADV	_	7	D	7:D	_
+6	so	so	ADV	ADV	_	7	D	7:D	_
+7	freigebig	freigebig	ADJ	ADJD	_	11	A	11:A	_
+8	gewesen	sein	AUX	PAV	_	7	F	7:F	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	Conseil	Conseil	NOUN	NE	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

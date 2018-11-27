@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25702013
+# text = » Dank , mein Herr « , erwiderte Ned Land mit sprühenden Blicken .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Dank	Dank	NOUN	NN	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	sprühenden	sprühend	ADJ	ADJA	_	13	E	13:E	_
+13	Blicken	Blick|Blicken	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

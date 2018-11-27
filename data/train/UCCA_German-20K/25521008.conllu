@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25521008
+# text = Das Feste hatte dem Flüssigen 37 Millionen 657 Quadratmeilen abgewonnen im Betrag von 12.916 Millionen Hektar .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Feste	F	NOUN	NN	_	10	A	10:A	_
+3	hatte	haben	VERB	VAFIN	_	10	F	10:F	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Flüssigen	flüssige	NOUN	ADJA	_	10	A	10:A	_
+6	37	37	NUM	CARD	_	9	E	9:E	_
+7	Millionen	Million	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	657	657	NUM	CARD	_	6	Terminal	6:Terminal	_
+9	Quadratmeilen	Quadratmeil	NOUN	NN	_	10	A	10:A	_
+10	abgewonnen	abgewonnen	ADV	NN	_	0	H	0:H	_
+11	im	im	ADV	NN	_	12	R	12:R	_
+12	Betrag	Betrag	NOUN	NN	_	16	E	16:E	_
+13	von	von	ADP	NN	_	12	R	12:R	_
+14	12.916	12.916	NUM	CARD	_	16	E	16:E	_
+15	Millionen	Million	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	Hektar	Hektar	NOUN	NN	_	10	A	10:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

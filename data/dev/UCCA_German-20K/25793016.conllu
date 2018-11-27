@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25793016
+# text = Endlich entfuhren seinen Lippen die Worte :
+1	Endlich	endlich	ADJ	ADV	_	2	D	2:D	_
+2	entfuhren	entfuhren	VERB	VVFIN	_	0	H	0:H	_
+3	seinen	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Lippen	Lippe	NOUN	NN	_	2	A	2:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Worte	Wort	NOUN	NN	_	2	A	2:A	_
+7	:	:	PUNCT	$.	_	6	U	6:U	_
+

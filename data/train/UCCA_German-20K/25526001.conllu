@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25526001
+# text = Diese letzten Worte sagte Ned Land , als es plötzlich stock finster wurde .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	letzten	letzt	ADJ	ADJA	_	3	E	3:E	_
+3	Worte	Wort	NOUN	NN	_	4	A	4:A	_
+4	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	Ned	Ned	PROPN	NE	_	4	A	4:A	_
+6	Land	Land	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	als	als	SCONJ	KOUS	_	4	L	4:L	_
+9	es	es	PRON	PPER	_	12	A	12:A	_
+10	plötzlich	plötzlich	ADJ	ADJD	_	12	D	12:D	_
+11	stock	stock	CCONJ	NN	_	12	E	12:E	_
+12	finster	finster	ADJ	ADJD	_	4	H	4:H	_
+13	wurde	werden	AUX	TRUNC	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

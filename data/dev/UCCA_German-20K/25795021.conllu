@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25795021
+# text = Das Niveau legte sich tiefer .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Niveau	Niveau	NOUN	NN	_	3	A	3:A	_
+3	legte	legen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	tiefer	tief	ADJ	ADJD	_	3	D	3:D	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

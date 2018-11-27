@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25645009
+# text = Ned war wie gewöhnlich bemüht , Abwechslung in das Gewöhnliche zu bringen .
+1	Ned	Ned	PROPN	NE	_	5	A	5:A|7:A	_
+2	war	sein	AUX	ADV	_	5	F	5:F	_
+3	wie	wie	ADP	ADV	_	4	E	4:E	_
+4	gewöhnlich	gewöhnlich	ADJ	ADJD	_	5	D	5:D	_
+5	bemüht	bemüht	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Abwechslung	Abwechslung	NOUN	NN	_	5	A	5:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Gewöhnliche	gewöhnlich	PROPN	ADJA	_	7	A	7:A	_
+11	zu	zu	PART	NN	_	7	F	7:F	_
+12	bringen	bringen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+13	.	.	PUNCT	$.	_	7	U	7:U	_
+

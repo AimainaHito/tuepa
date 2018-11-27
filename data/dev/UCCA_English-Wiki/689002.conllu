@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 689002
+# text = His maternal grandparents , Benjamin and Lybba Edelstein , were Lithuanian Jews who arrived in the United States in 1902 .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	maternal	maternal	ADJ	JJ	_	3	E	3:E	_
+3	grandparents	grandparent	NOUN	NNS	_	10	A	10:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Benjamin	Benjamin	PROPN	NNP	_	3	E	3:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Lybba	Lybba	PROPN	NNP	_	5	C	5:C	_
+8	Edelstein	Edelstein	PROPN	NNP	_	5	C	5:C	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	were	be	AUX	VBD	_	0	H	0:H	_
+11	Lithuanian	Lithuanian	ADJ	JJ	_	12	E	12:E	_
+12	Jews	Jews	PROPN	NNPS	_	10	A	10:A	_
+13	who	who	PRON	WP	_	14	F	14:F	_
+14	arrived	arrive	VERB	VBD	_	12	E	12:E	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	United	United	PROPN	NNP	_	14	A	14:A	_
+18	States	States	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	1902	1902	NUM	CD	_	14	D	14:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

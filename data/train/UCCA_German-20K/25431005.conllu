@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25431005
+# text = Einen halben Tag Zögerung hätte man ihm nicht verziehen !
+1	Einen	ein	DET	ART	_	3	E	3:E	_
+2	halben	halb	ADJ	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	4	D	4:D	_
+4	Zögerung	Zögerung	NOUN	NN	_	9	A	9:A	_
+5	hätte	haben	AUX	VAFIN	_	9	F	9:F	_
+6	man	man	PRON	PIS	_	9	A	9:A	_
+7	ihm	er	PRON	PPER	_	9	A	9:A|4:A	_
+8	nicht	nicht	PART	XY	_	9	D	9:D	_
+9	verziehen	verziehen	VERB	VVPP	_	0	H	0:H	_
+10	!	!	PUNCT	$.	_	9	U	9:U	_
+

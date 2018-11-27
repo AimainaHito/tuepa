@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25472015
+# text = « » Vielleicht « , fügte ich bei , » kann man ihm ebensowenig nah kommen als wie einem Zitterfisch ! «
+1	«	«	PUNCT	$(	_	15	U	15:U	_
+2	»	»	PUNCT	$(	_	15	U	15:U	_
+3	Vielleicht	vielleicht	NOUN	NN	_	15	G	15:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	fügte	fügen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	bei	bei	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	kann	können	AUX	VMFIN	_	15	D	15:D|20:D	_
+12	man	man	PRON	PIS	_	15	A	15:A|20:A	_
+13	ihm	er	PRON	PPER	_	15	A	15:A	_
+14	ebensowenig	ebensowenig	ADV	ADV	_	15	D	15:D	_
+15	nah	nah	ADV	ADJD	_	6	A	6:A	_
+16	kommen	kommen	VERB	VVFIN	_	15	Terminal	15:Terminal	_
+17	als	als	ADV	KOKOM	_	20	R	20:R	_
+18	wie	wie	ADP	NE	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Zitterfisch	Zitterfisch	NOUN	NN	_	15	H	15:H	_
+21	!	!	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

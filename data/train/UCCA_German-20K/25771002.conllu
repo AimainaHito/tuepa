@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25771002
+# text = Gegen 3 Uhr morgens beobachtete ich , dass die untere Fläche der Eisdecke nur noch 50 Meter tief lag , wir also nur noch 150 Fuß von der Oberfläche geschieden waren .
+1	Gegen	gegen	ADP	APPR	_	4	R	4:R	_
+2	3	3	NUM	CARD	_	3	E	3:E	_
+3	Uhr	Uhr	NOUN	NN	_	4	E	4:E	_
+4	morgens	morgens	ADV	ADV	_	5	D	5:D	_
+5	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	untere	unter	ADJ	ADJA	_	11	E	11:E	_
+11	Fläche	Fläche	NOUN	NN	_	19	A	19:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Eisdecke	Eisdecke	NOUN	NN	_	11	E	11:E	_
+14	nur	nur	ADV	NE	_	19	D	19:D	_
+15	noch	noch	ADV	CARD	_	19	D	19:D	_
+16	50	50	NUM	CARD	_	17	E	17:E	_
+17	Meter	Meter	NOUN	NN	_	19	A	19:A	_
+18	tief	tief	ADJ	VVFIN	_	19	D	19:D	_
+19	lag	liegen	VERB	VVFIN	_	5	A	5:A	_
+20	,	,	PUNCT	$,	_	5	U	5:U	_
+21	wir	wir	PRON	NE	_	30	A	30:A	_
+22	also	also	ADV	ADV	_	5	L	5:L	_
+23	nur	nur	ADV	NE	_	30	D	30:D	_
+24	noch	noch	ADV	CARD	_	30	D	30:D	_
+25	150	150	NUM	CARD	_	26	E	26:E	_
+26	Fuß	Fuß	NOUN	NN	_	30	A	30:A	_
+27	von	von	ADP	NN	_	29	R	29:R	_
+28	der	der	DET	ART	_	29	E	29:E	_
+29	Oberfläche	Oberfläche	NOUN	NN	_	30	A	30:A	_
+30	geschieden	scheiden	VERB	VVPP	_	5	H	5:H	_
+31	waren	sein	AUX	VAFIN	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

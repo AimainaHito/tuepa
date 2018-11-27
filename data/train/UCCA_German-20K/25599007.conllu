@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25599007
+# text = Die äußere Tür war offen geblieben , und Kapitän Nemo schloß sie wieder , sobald wir in das vordere Kämmerchen getreten waren .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	äußere	äußer	ADJ	ADJA	_	3	E	3:E	_
+3	Tür	Tür	NOUN	NN	_	5	A	5:A	_
+4	war	sein	AUX	ADV	_	5	F	5:F	_
+5	offen	offen	ADJ	CARD	_	0	H	0:H	_
+6	geblieben	bleiben	AUX	VVPP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	und	und	CCONJ	NE	_	5	L	5:L	_
+9	Kapitän	Kapitän	PROPN	NN	_	10	E	10:E	_
+10	Nemo	Nemo	PROPN	NE	_	11	A	11:A	_
+11	schloß	schließen	VERB	VVFIN	_	5	H	5:H	_
+12	sie	sie	PRON	ADV	_	11	A	11:A	_
+13	wieder	wieder	ADV	NE	_	11	D	11:D	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	sobald	sobald	SCONJ	KOUS	_	5	L	5:L	_
+16	wir	wir	PRON	NE	_	21	A	21:A	_
+17	in	in	ADP	APPR	_	20	R	20:R	_
+18	das	der	DET	ART	_	20	E	20:E	_
+19	vordere	vorder	ADJ	ADJA	_	20	E	20:E	_
+20	Kämmerchen	Kämmerchen	NOUN	NE	_	21	A	21:A	_
+21	getreten	treten	VERB	VVPP	_	5	H	5:H	_
+22	waren	sein	AUX	VAFIN	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 560011
+# text = After three major labels made offers of up to $ 25,000 , Parker and Phillips struck a deal with RCA Victor on November 21 to acquire Presley 's Sun contract for an unprecedented $ 40,000.c Presley , at 20 , was still a minor , so his father signed the contract .
+1	After	after	ADP	IN	_	6	L	6:L	_
+2	three	three	NUM	CD	_	4	E	4:E	_
+3	major	major	ADJ	JJ	_	4	E	4:E	_
+4	labels	label	NOUN	NNS	_	6	A	6:A	_
+5	made	make	VERB	VBN	_	6	F	6:F	_
+6	offers	offer	NOUN	NNS	_	0	H	0:H	_
+7	of	of	ADP	IN	_	11	R	11:R	_
+8	up	up	NOUN	NN	_	11	E	11:E	_
+9	to	to	ADP	IN	_	8	Terminal	8:Terminal	_
+10	$	$	SYM	$	_	11	U	11:U	_
+11	25,000	25,000	NUM	CD	_	6	E	6:E	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	Parker	Parker	PROPN	NNP	_	16	A	16:A|26:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	Phillips	Phillips	PROPN	NNP	_	13	C	13:C	_
+16	struck	strike	VERB	VBD	_	6	H	6:H	_
+17	a	a	DET	DT	_	16	Terminal	16:Terminal	_
+18	deal	deal	NOUN	NN	_	16	Terminal	16:Terminal	_
+19	with	with	ADP	IN	_	20	R	20:R	_
+20	RCA	RCA	PROPN	NNP	_	16	A	16:A	_
+21	Victor	Victor	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	on	on	ADP	IN	_	23	R	23:R	_
+23	November	November	PROPN	NNP	_	16	D	16:D	_
+24	21	21	NUM	CD	_	23	Terminal	23:Terminal	_
+25	to	to	PART	TO	_	6	L	6:L	_
+26	acquire	acquire	VERB	VB	_	6	H	6:H	_
+27	Presley	Presley	PROPN	NNP	_	30	E	30:E	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	Sun	Sun	PROPN	NNP	_	30	E	30:E	_
+30	contract	contract	NOUN	NN	_	26	A	26:A	_
+31	for	for	ADP	IN	_	35	R	35:R	_
+32	an	a	DET	DT	_	35	E	35:E	_
+33	unprecedented	unprecedented	ADJ	JJ	_	35	E	35:E	_
+34	$	$	SYM	$	_	35	U	35:U	_
+35	40,000.c	40,000.c	ADJ	JJ	_	26	A	26:A	_
+36	Presley	Presley	PROPN	NNP	_	44	A	44:A	_
+37	,	,	PUNCT	,	_	36	U	36:U	_
+38	at	at	ADP	IN	_	39	R	39:R	_
+39	20	20	NUM	CD	_	36	E	36:E	_
+40	,	,	PUNCT	,	_	44	U	44:U	_
+41	was	be	AUX	VBD	_	44	F	44:F	_
+42	still	still	ADV	RB	_	44	D	44:D	_
+43	a	a	DET	DT	_	44	E	44:E	_
+44	minor	minor	ADJ	JJ	_	6	H	6:H	_
+45	,	,	PUNCT	,	_	6	U	6:U	_
+46	so	so	ADV	RB	_	6	L	6:L	_
+47	his	he	PRON	PRP$	_	48	E	48:E	_
+48	father	father	NOUN	NN	_	49	A	49:A	_
+49	signed	sign	VERB	VBD	_	6	H	6:H	_
+50	the	the	DET	DT	_	51	E	51:E	_
+51	contract	contract	NOUN	NN	_	49	A	49:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

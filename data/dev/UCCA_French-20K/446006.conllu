@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 446006
+# text = On ne lui eût pas pardonné une demi - journée de retard !
+1	On	on	PRON	_	_	6	A	6:A	_
+2	ne	ne	ADV	_	_	6	D	6:D	_
+3	lui	lui	PRON	_	_	6	A	6:A	_
+4	eût	avoir	AUX	_	_	6	F	6:F	_
+5	pas	pas	ADV	_	_	2	Terminal	2:Terminal	_
+6	pardonné	pardonner	VERB	_	_	0	H	0:H	_
+7	une	un	DET	_	_	10	E	10:E	_
+8	demi	demi	ADJ	_	_	10	E	10:E	_
+9	-	-	PUNCT	_	_	10	U	10:U	_
+10	journée	journée	NOUN	_	_	12	E	12:E	_
+11	de	de	ADP	_	_	10	R	10:R	_
+12	retard	retard	NOUN	_	_	6	A	6:A	_
+13	!	!	PUNCT	_	_	12	U	12:U	_
+

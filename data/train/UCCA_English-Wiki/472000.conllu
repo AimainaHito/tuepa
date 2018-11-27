@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 472000
+# text = In the 1988 - 89 NBA season , Johnson 's 22.5 points , 12.8 assists , and 7.9 rebounds per game earned him his second MVP award , and the Lakers reached the 1989 NBA Finals , in which they again faced the Pistons .
+1	In	in	ADP	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1988	1988	NUM	CD	_	7	D	7:D	_
+4	-	-	SYM	SYM	_	3	U	3:U	_
+5	89	89	NUM	CD	_	3	C	3:C	_
+6	NBA	NBa	PROPN	NNP	_	7	E	7:E	_
+7	season	season	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Johnson	Johnson	PROPN	NNP	_	22	A	22:A	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	22.5	22.5	NUM	CD	_	12	E	12:E	_
+12	points	point	NOUN	NNS	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	12.8	12.8	NUM	CD	_	15	E	15:E	_
+15	assists	assist	NOUN	NNS	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	and	and	CCONJ	CC	_	12	N	12:N	_
+18	7.9	7.9	NUM	CD	_	19	E	19:E	_
+19	rebounds	rebound	NOUN	NNS	_	12	C	12:C	_
+20	per	per	ADP	IN	_	21	R	21:R	_
+21	game	game	NOUN	NN	_	12	E	12:E	_
+22	earned	earn	VERB	VBD	_	7	H	7:H	_
+23	him	he	PRON	PRP	_	22	A	22:A	_
+24	his	he	PRON	PRP$	_	25	E	25:E	_
+25	second	second	ADJ	JJ	_	27	E	27:E	_
+26	MVP	Mvp	NOUN	NN	_	27	E	27:E	_
+27	award	award	NOUN	NN	_	22	A	22:A	_
+28	,	,	PUNCT	,	_	7	U	7:U	_
+29	and	and	CCONJ	CC	_	7	L	7:L	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	Lakers	Laker	NOUN	NNS	_	32	A	32:A	_
+32	reached	reach	VERB	VBD	_	7	H	7:H	_
+33	the	the	DET	DT	_	36	E	36:E	_
+34	1989	1989	NUM	CD	_	36	E	36:E	_
+35	NBA	NBA	PROPN	NNP	_	36	E	36:E	_
+36	Finals	Finals	PROPN	NNPS	_	32	A	32:A	_
+37	,	,	PUNCT	,	_	36	U	36:U	_
+38	in	in	ADP	IN	_	41	A	41:A	_
+39	which	which	PRON	WDT	_	41	F	41:F	_
+40	they	they	PRON	PRP	_	41	A	41:A	_
+41	again	again	ADV	RB	_	36	E	36:E	_
+42	faced	face	VERB	VBD	_	41	D	41:D	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	Pistons	Pistons	NOUN	NNS	_	41	A	41:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

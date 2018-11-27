@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25720000
+# text = Solche Trümmer waren zahlreicher , je näher man der Enge von Gibraltar kam , der Raum zwischen der afrikanischen und europäischen Küste sich verengte .
+1	Solche	solch	PRON	PIAT	_	2	E	2:E	_
+2	Trümmer	Trümmer	NOUN	NN	_	4	A	4:A	_
+3	waren	sein	AUX	VAFIN	_	4	F	4:F	_
+4	zahlreicher	zahlreicher	ADJ	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	je	je	ADV	KOUS	_	4	L	4:L	_
+7	näher	nah	ADJ	PTKVZ	_	4	H	4:H	_
+8	man	man	PRON	PIS	_	7	A	7:A	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Enge	enge	NOUN	NN	_	12	E	12:E	_
+11	von	von	ADP	NE	_	12	R	12:R	_
+12	Gibraltar	Gibraltar	PROPN	NE	_	7	A	7:A	_
+13	kam	kommen	VERB	VVFIN	_	7	E	7:E	_
+14	,	,	PUNCT	$,	_	4	U	4:U	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Raum	Raum	NOUN	NN	_	23	A	23:A	_
+17	zwischen	zwischen	ADP	NN	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	afrikanischen	afrikanisch	ADJ	ADJA	_	16	E	16:E	_
+20	und	und	CCONJ	NE	_	19	N	19:N	_
+21	europäischen	europäisch	ADJ	ADJA	_	22	E	22:E	_
+22	Küste	Küste	NOUN	NN	_	19	C	19:C	_
+23	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+24	verengte	verengen	VERB	VVFIN	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

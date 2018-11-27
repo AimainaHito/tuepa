@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25636016
+# text = » Ich störe ? « sagte ich aus Höflichkeit .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	störe	stören	VERB	VVFIN	_	6	A	6:A	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	aus	aus	ADP	APPR	_	9	R	9:R	_
+9	Höflichkeit	Höflichkeit	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

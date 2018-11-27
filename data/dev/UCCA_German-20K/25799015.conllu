@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25799015
+# text = Es diente Myriaden von Schal- und Weichtieren zum Lager und zur Nahrung ; bot namentlich den Robben und Ottern ein prächtiges Mahl .
+1	Es	es	PRON	PPER	_	2	A	2:A|14:A	_
+2	diente	dienen	VERB	VVFIN	_	0	H	0:H	_
+3	Myriaden	Myriaden	PROPN	NE	_	2	A	2:A	_
+4	von	von	ADP	NN	_	5	R	5:R	_
+5	Schal-	Schal-	NOUN	NE	_	3	E	3:E	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Weichtieren	Weichtier	NOUN	NN	_	5	C	5:C	_
+8	zum	zum	ADP	NN	_	9	R	9:R	_
+9	Lager	Lager	NOUN	NN	_	2	A	2:A	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	zur	zur	ADV	NE	_	12	R	12:R	_
+12	Nahrung	Nahrung	NOUN	NN	_	9	C	9:C	_
+13	;	;	PUNCT	$.	_	2	U	2:U	_
+14	bot	bieten	VERB	VVFIN	_	2	H	2:H	_
+15	namentlich	namentlich	ADJ	ADJD	_	14	D	14:D	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Robben	Robbe	NOUN	NN	_	14	A	14:A	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	Ottern	Otter	NOUN	NE	_	17	C	17:C	_
+20	ein	ein	DET	ART	_	22	E	22:E	_
+21	prächtiges	prächtig	ADJ	ADJA	_	22	E	22:E	_
+22	Mahl	Mahl	NOUN	NN	_	14	A	14:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

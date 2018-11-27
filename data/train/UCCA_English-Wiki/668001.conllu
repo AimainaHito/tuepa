@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 668001
+# text = Following the heavy media coverage surrounding Carey 's publicized breakdown and hospitalization , Virgin Records and 20th Century Fox delayed the release of both Glitter , as well as its soundtrack of the same name .
+1	Following	follow	VERB	VBG	_	5	L	5:L	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	heavy	heavy	ADJ	JJ	_	5	E	5:E	_
+4	media	media	NOUN	NN	_	5	E	5:E	_
+5	coverage	coverage	NOUN	NN	_	0	H	0:H	_
+6	surrounding	surround	VERB	VBG	_	10	R	10:R	_
+7	Carey	Carey	PROPN	NNP	_	10	A	10:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	publicized	publicized	VERB	VBN	_	10	D	10:D	_
+10	breakdown	breakdown	NOUN	NN	_	5	A	5:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	hospitalization	hospitalization	NOUN	NN	_	10	C	10:C	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	Virgin	Virgin	PROPN	NNP	_	20	A	20:A	_
+15	Records	record	NOUN	NNS	_	14	Terminal	14:Terminal	_
+16	and	and	CCONJ	CC	_	14	N	14:N	_
+17	20th	20th	NOUN	NN	_	14	C	14:C	_
+18	Century	Century	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Fox	Fox	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	delayed	delay	VERB	VBD	_	5	H	5:H	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	release	release	NOUN	NN	_	20	A	20:A	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	both	both	CCONJ	CC	_	25	N	25:N	_
+25	Glitter	Glitter	PROPN	NNP	_	22	A	22:A	_
+26	,	,	PUNCT	,	_	25	U	25:U	_
+27	as	as	ADV	RB	_	25	N	25:N	_
+28	well	well	ADV	RB	_	27	Terminal	27:Terminal	_
+29	as	as	ADP	IN	_	27	Terminal	27:Terminal	_
+30	its	its	PRON	PRP$	_	31	E	31:E	_
+31	soundtrack	soundtrack	NOUN	NN	_	25	C	25:C	_
+32	of	of	ADP	IN	_	35	R	35:R	_
+33	the	the	DET	DT	_	35	E	35:E	_
+34	same	same	ADJ	JJ	_	35	E	35:E	_
+35	name	name	NOUN	NN	_	31	E	31:E	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

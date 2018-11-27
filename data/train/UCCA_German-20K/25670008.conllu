@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25670008
+# text = In der Tat ist ' s ein wirkliches Boot , worin das Tier , das es durch Absonderung geschaffen hat , fährt , ohne dass es ihm anhängt .
+1	In	in	ADP	APPR	_	4	G	4:G	_
+2	der	der	DET	ART	_	1	Terminal	1:Terminal	_
+3	Tat	Tat	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+5	'	'	PUNCT	$,	_	4	U	4:U	_
+6	s	s	ADV	NN	_	4	A	4:A	_
+7	ein	ein	DET	ART	_	9	E	9:E	_
+8	wirkliches	wirklich	ADJ	ADJA	_	9	E	9:E	_
+9	Boot	Boot	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	worin	worin	PRON	PWAV	_	22	R	22:R	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Tier	Tier	NOUN	NN	_	22	A	22:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	das	der	PRON	PRELS	_	19	R	19:R	_
+16	es	es	PRON	PPER	_	19	A	19:A	_
+17	durch	durch	ADP	APPR	_	18	R	18:R	_
+18	Absonderung	Absonderung	NOUN	NN	_	19	A	19:A	_
+19	geschaffen	schaffen	VERB	VVPP	_	13	E	13:E	_
+20	hat	haben	AUX	VAFIN	_	19	F	19:F	_
+21	,	,	PUNCT	$,	_	22	U	22:U	_
+22	fährt	fahren	VERB	VVFIN	_	9	E	9:E	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	ohne	ohne	ADP	NE	_	22	D	22:D	_
+25	dass	dass	SCONJ	KOUS	_	28	R	28:R	_
+26	es	es	PRON	PPER	_	28	A	28:A	_
+27	ihm	er	PRON	PPER	_	28	A	28:A	_
+28	anhängt	anhängen	VERB	VVFIN	_	22	A	22:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

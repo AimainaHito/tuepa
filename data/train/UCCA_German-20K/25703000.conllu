@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25703000
+# text = » Herr Kapitän « , sagte darauf Conseil im Ernst , » wenn vielleicht dieses das Letzte seiner Rasse wäre , würde es dann nicht besser sein , es zu schonen , im Interesse der Wissenschaft ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Kapitän	Kapitän	PROPN	NN	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	darauf	darauf	ADV	PAV	_	6	A	6:A	_
+8	Conseil	Conseil	PROPN	NE	_	6	A	6:A	_
+9	im	im	PROPN	NE	_	10	R	10:R	_
+10	Ernst	Ernst	PROPN	NE	_	6	D	6:D	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	»	»	PUNCT	$(	_	6	U	6:U	_
+13	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+14	vielleicht	vielleicht	ADV	NE	_	17	G	17:G	_
+15	dieses	dies	PRON	PDAT	_	17	A	17:A	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Letzte	letzt	NOUN	ADJA	_	3	H	3:H	_
+18	seiner	sein	DET	PPOSAT	_	19	R	19:R	_
+19	Rasse	Rasse	NOUN	NN	_	17	A	17:A	_
+20	wäre	sein	AUX	ADV	_	17	D	17:D	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	würde	werden	AUX	NN	_	26	D	26:D	_
+23	es	es	PRON	PPER	_	26	F	26:F	_
+24	dann	dann	ADV	ADV	_	26	D	26:D	_
+25	nicht	nicht	PART	CARD	_	26	D	26:D	_
+26	besser	gut	ADJ	ADJD	_	3	H	3:H	_
+27	sein	sein	AUX	VAINF	_	26	F	26:F	_
+28	,	,	PUNCT	$,	_	26	U	26:U	_
+29	es	es	PRON	PPER	_	31	A	31:A	_
+30	zu	zu	PART	VVINF	_	31	F	31:F	_
+31	schonen	schonen	VERB	VVINF	_	26	A	26:A	_
+32	,	,	PUNCT	$,	_	26	U	26:U	_
+33	im	im	ADJ	NN	_	34	R	34:R	_
+34	Interesse	Interesse	NOUN	NN	_	36	R	36:R	_
+35	der	der	DET	ART	_	36	E	36:E	_
+36	Wissenschaft	Wissenschaft	NOUN	NN	_	26	A	26:A	_
+37	?	?	PUNCT	$.	_	36	U	36:U	_
+38	«	«	PUNCT	$(	_	36	U	36:U	_
+

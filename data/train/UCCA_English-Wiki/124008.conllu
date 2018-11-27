@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 124008
+# text = She was promptly fired , and the original leading lady rehired .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	promptly	promptly	ADV	RB	_	4	D	4:D	_
+4	fired	fire	VERB	VBN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	original	original	ADJ	JJ	_	10	E	10:E	_
+9	leading	leading	NOUN	NN	_	10	E	10:E	_
+10	lady	lady	NOUN	NN	_	11	A	11:A	_
+11	rehired	rehire	VERB	VBD	_	4	H	4:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

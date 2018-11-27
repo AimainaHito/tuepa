@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25743004
+# text = Die Aufwege wurden immer steiler und enger .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Aufwege	Aufweg	NOUN	NN	_	5	A	5:A	_
+3	wurden	werden	AUX	ADJD	_	5	D	5:D	_
+4	immer	immer	ADV	ADV	_	5	D	5:D	_
+5	steiler	steil	ADJ	ADJA	_	0	H	0:H	_
+6	und	und	CCONJ	NN	_	5	N	5:N	_
+7	enger	enger	ADJ	ADJD	_	5	C	5:C	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

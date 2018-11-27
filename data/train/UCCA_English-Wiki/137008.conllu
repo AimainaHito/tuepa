@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 137008
+# text = She described it as " a very emotional part " and found it fascinating to work with Lean .
+1	She	she	PRON	PRP	_	2	A	2:A|16:A|14:A	_
+2	described	describe	VERB	VBD	_	0	H	0:H	_
+3	it	it	PRON	PRP	_	2	A	2:A	_
+4	as	as	ADP	IN	_	9	R	9:R	_
+5	"	"	PUNCT	``	_	9	U	9:U	_
+6	a	a	DET	DT	_	9	E	9:E	_
+7	very	very	ADV	RB	_	8	E	8:E	_
+8	emotional	emotional	ADJ	JJ	_	9	E	9:E	_
+9	part	part	NOUN	NN	_	2	A	2:A	_
+10	"	"	PUNCT	''	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	found	find	VERB	VBD	_	14	D	14:D	_
+13	it	it	PRON	PRP	_	14	F	14:F	_
+14	fascinating	fascinating	ADJ	JJ	_	2	H	2:H	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	work	work	VERB	VB	_	14	A	14:A	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	Lean	lean	PROPN	NNP	_	16	A	16:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

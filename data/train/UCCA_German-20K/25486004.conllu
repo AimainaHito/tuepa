@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25486004
+# text = Ich schätze , dass er an dem unseligen 6 . November mindestens 500 Kilometer lief !
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	schätze	schätzen	VERB	NN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+5	er	er	PRON	PPER	_	15	A	15:A	_
+6	an	an	ADP	APPR	_	9	E	9:E	_
+7	dem	der	DET	ART	_	9	E	9:E	_
+8	unseligen	unselig	ADJ	ADJA	_	9	E	9:E	_
+9	6	6	NUM	CARD	_	15	D	15:D	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	November	November	PROPN	NN	_	9	Terminal	9:Terminal	_
+12	mindestens	mindestens	ADV	ADV	_	14	E	14:E	_
+13	500	500	NUM	CARD	_	14	E	14:E	_
+14	Kilometer	Kilometer	NOUN	NN	_	15	A	15:A	_
+15	lief	laufen	VERB	VVFIN	_	2	H	2:H	_
+16	!	!	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25686008
+# text = Mit einem Wink befahl er , an seiner Seite in einer Krümmung uns auf den Boden zu ducken .
+1	Mit	mit	ADP	APPR	_	3	R	3:R	_
+2	einem	ein	DET	ART	_	3	E	3:E	_
+3	Wink	Winken	NOUN	NN	_	4	A	4:A	_
+4	befahl	befehlen	VERB	VVFIN	_	0	H	0:H	_
+5	er	er	PRON	PPER	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	seiner	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Seite	Seite	NOUN	NN	_	18	A	18:A	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	einer	ein	DET	ART	_	12	E	12:E	_
+12	Krümmung	Krümmung	NOUN	NN	_	18	A	18:A	_
+13	uns	wir	PRON	NN	_	18	A	18:A	_
+14	auf	auf	ADP	APPR	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Boden	Boden	NOUN	NN	_	18	A	18:A	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	ducken	ducken	VERB	VVINF	_	4	A	4:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

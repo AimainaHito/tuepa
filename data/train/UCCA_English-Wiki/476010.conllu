@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 476010
+# text = He runs Magic Johnson Enterprises , a company that has a net worth of $ 700 million ; its subsidiaries include Magic Johnson Productions , a promotional company ; Magic Johnson Theaters , a nationwide chain of movie theaters ; and Magic Johnson Entertainment , a movie studio .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	runs	run	VERB	VBZ	_	0	H	0:H	_
+3	Magic	magic	PROPN	NNP	_	5	E	5:E	_
+4	Johnson	Johnson	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Enterprises	enterprise	PROPN	NNP	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	company	company	NOUN	NN	_	5	E	5:E	_
+9	that	that	PRON	WDT	_	13	F	13:F	_
+10	has	have	VERB	VBZ	_	13	F	13:F	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	net	net	NOUN	NN	_	13	E	13:E	_
+13	worth	worth	NOUN	NN	_	8	E	8:E	_
+14	of	of	ADP	IN	_	17	R	17:R	_
+15	$	$	SYM	$	_	17	U	17:U	_
+16	700	700	NUM	CD	_	17	E	17:E	_
+17	million	million	NUM	CD	_	13	A	13:A	_
+18	;	;	PUNCT	,	_	2	U	2:U	_
+19	its	its	PRON	PRP$	_	20	E	20:E	_
+20	subsidiaries	subsidiary	NOUN	NNS	_	21	A	21:A	_
+21	include	include	VERB	VBP	_	2	H	2:H	_
+22	Magic	magic	PROPN	NNP	_	24	E	24:E	_
+23	Johnson	Johnson	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Productions	Productions	PROPN	NNPS	_	21	A	21:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	a	a	DET	DT	_	28	E	28:E	_
+27	promotional	promotional	ADJ	JJ	_	28	E	28:E	_
+28	company	company	NOUN	NN	_	24	E	24:E	_
+29	;	;	PUNCT	,	_	24	U	24:U	_
+30	Magic	magic	PROPN	NNP	_	32	E	32:E	_
+31	Johnson	Johnson	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Theaters	theaters	PROPN	NNPS	_	24	C	24:C	_
+33	,	,	PUNCT	,	_	32	U	32:U	_
+34	a	a	DET	DT	_	36	E	36:E	_
+35	nationwide	nationwide	ADJ	JJ	_	36	E	36:E	_
+36	chain	chain	NOUN	NN	_	39	E	39:E	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	movie	movie	NOUN	NN	_	39	E	39:E	_
+39	theaters	theater	NOUN	NNS	_	32	E	32:E	_
+40	;	;	PUNCT	,	_	24	U	24:U	_
+41	and	and	CCONJ	CC	_	24	N	24:N	_
+42	Magic	magic	PROPN	NNP	_	44	E	44:E	_
+43	Johnson	Johnson	PROPN	NNP	_	42	Terminal	42:Terminal	_
+44	Entertainment	entertainment	PROPN	NNP	_	24	C	24:C	_
+45	,	,	PUNCT	,	_	44	U	44:U	_
+46	a	a	DET	DT	_	48	E	48:E	_
+47	movie	movie	NOUN	NN	_	48	E	48:E	_
+48	studio	studio	NOUN	NN	_	44	E	44:E	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

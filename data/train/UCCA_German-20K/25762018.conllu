@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25762018
+# text = In der Tat , bald zeigten sich bedeutend größere Blöcke , die je nach den Launen des Nebels in anderen Farben schimmerten .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Tat	Tat	NOUN	NN	_	6	G	6:G	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	bald	bald	ADV	ADV	_	6	D	6:D	_
+6	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	bedeutend	bedeutend	ADJ	ADJD	_	9	D	9:D	_
+9	größere	groß	ADJ	ADJA	_	6	A	6:A	_
+10	Blöcke	Block	NOUN	NN	_	9	A	9:A|22:A	_
+11	,	,	PUNCT	$,	_	22	U	22:U	_
+12	die	der	PRON	PRELS	_	22	R	22:R	_
+13	je	je	ADV	ADV	_	16	R	16:R	_
+14	nach	nach	ADP	CARD	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Launen	Laune	NOUN	NN	_	9	E	9:E	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Nebels	Nebels	NOUN	NN	_	16	A	16:A	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	anderen	ander	ADJ	ADJA	_	21	E	21:E	_
+21	Farben	Farbe	NOUN	NN	_	22	A	22:A	_
+22	schimmerten	schimmeren	VERB	VVFIN	_	9	E	9:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

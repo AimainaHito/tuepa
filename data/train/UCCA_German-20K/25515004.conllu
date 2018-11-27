@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25515004
+# text = Seine Länge beträgt genau 70 , seine größte Breite 8 Meter ; also letztere nicht völlig im Verhältnis von 1 zu 10 , wie die schnell segelnden Dampfer gewöhnlich gebaut sind , und die Länge ist hinreichend zugespitzt , damit das verdrängte Wasser leicht sich scheidet und dem Lauf nicht hinderlich ist .
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Länge	Länge	NOUN	NN	_	3	A	3:A	_
+3	beträgt	betragen	AUX	VVFIN	_	0	H	0:H	_
+4	genau	genau	ADJ	ADJD	_	3	D	3:D	_
+5	70	70	NUM	CARD	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	seine	sein	DET	PPOSAT	_	9	E	9:E	_
+8	größte	groß	ADJ	ADJA	_	9	E	9:E	_
+9	Breite	Breite	NOUN	NN	_	3	H	3:H	_
+10	8	8	NUM	CARD	_	11	E	11:E	_
+11	Meter	Meter	NOUN	NN	_	9	A	9:A	_
+12	;	;	PUNCT	$.	_	3	U	3:U	_
+13	also	also	ADV	ADV	_	3	L	3:L	_
+14	letztere	letzt	ADJ	ADJA	_	3	H	3:H	_
+15	nicht	nicht	PART	CARD	_	16	E	16:E	_
+16	völlig	völlig	ADJ	ADJD	_	14	D	14:D	_
+17	im	im	ADJ	NN	_	18	R	18:R	_
+18	Verhältnis	Verhältnis	NOUN	NN	_	20	E	20:E	_
+19	von	von	ADP	NN	_	18	R	18:R	_
+20	1	1	NUM	CARD	_	14	A	14:A	_
+21	zu	zu	PART	NE	_	20	R	20:R	_
+22	10	10	NUM	CARD	_	20	C	20:C	_
+23	,	,	PUNCT	$,	_	3	U	3:U	_
+24	wie	wie	SCONJ	KON	_	3	L	3:L	_
+25	die	der	DET	ART	_	28	E	28:E	_
+26	schnell	schnell	ADJ	NN	_	27	D	27:D	_
+27	segelnden	segelnd	ADJ	ADJA	_	28	E	28:E	_
+28	Dampfer	Dampfer	NOUN	NN	_	30	A	30:A	_
+29	gewöhnlich	gewöhnlich	ADJ	ADJD	_	30	D	30:D	_
+30	gebaut	bauen	VERB	VVPP	_	3	H	3:H	_
+31	sind	sein	AUX	NN	_	30	F	30:F	_
+32	,	,	PUNCT	$,	_	3	U	3:U	_
+33	und	und	CCONJ	NE	_	3	L	3:L	_
+34	die	der	DET	ART	_	35	E	35:E	_
+35	Länge	Länge	NOUN	NN	_	38	A	38:A	_
+36	ist	sein	AUX	VVFIN	_	38	F	38:F	_
+37	hinreichend	hinreichend	ADJ	ADJD	_	38	D	38:D	_
+38	zugespitzt	zuspitzen	ADJ	ADJD	_	3	H	3:H	_
+39	,	,	PUNCT	$,	_	3	U	3:U	_
+40	damit	damit	SCONJ	KOUS	_	3	L	3:L	_
+41	das	der	DET	ART	_	43	E	43:E	_
+42	verdrängte	verdrängen	ADJ	ADJA	_	43	E	43:E	_
+43	Wasser	Wasser	NOUN	NN	_	0	C	0:C|51:A|42:A	_
+44	leicht	leichen	VERB	PTKVZ	_	45	D	45:D	_
+45	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+46	scheidet	scheiden	VERB	VVFIN	_	45	Terminal	45:Terminal	_
+47	und	und	CCONJ	NE	_	3	L	3:L	_
+48	dem	der	DET	ART	_	49	E	49:E	_
+49	Lauf	Lauf	NOUN	NN	_	51	A	51:A	_
+50	nicht	nicht	PART	XY	_	51	D	51:D	_
+51	hinderlich	hinderlich	ADJ	ADJD	_	3	H	3:H	_
+52	ist	sein	AUX	NN	_	51	F	51:F	_
+53	.	.	PUNCT	$.	_	51	U	51:U	_
+

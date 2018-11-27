@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 206014
+# text = Confused about what to do with his life , he is seduced into having an affair with Mrs . Robinson , an alcoholic and a neurotic , and the wife of his father 's business partner .
+1	Confused	confused	ADJ	JJ	_	0	H	0:H	_
+2	about	about	SCONJ	IN	_	5	R	5:R	_
+3	what	what	PRON	WP	_	5	A	5:A	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	do	do	VERB	VB	_	1	A	1:A	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	life	life	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	he	he	PRON	PRP	_	12	A	12:A|14:A	_
+11	is	be	AUX	VBZ	_	12	F	12:F	_
+12	seduced	seduce	VERB	VBN	_	1	H	1:H	_
+13	into	into	SCONJ	IN	_	14	R	14:R	_
+14	having	have	VERB	VBG	_	12	E	12:E	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	affair	affair	NOUN	NN	_	14	A	14:A	_
+17	with	with	ADP	IN	_	20	R	20:R	_
+18	Mrs	Mrs	PROPN	NNP	_	20	E	20:E	_
+19	.	.	PUNCT	.	_	20	U	20:U	_
+20	Robinson	Robinson	PROPN	NNP	_	12	A	12:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	an	a	DET	DT	_	23	E	23:E	_
+23	alcoholic	alcoholic	NOUN	NN	_	20	E	20:E	_
+24	and	and	CCONJ	CC	_	23	N	23:N	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	neurotic	neurotic	NOUN	NN	_	23	C	23:C	_
+27	,	,	PUNCT	,	_	23	U	23:U	_
+28	and	and	CCONJ	CC	_	23	N	23:N	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	wife	wife	NOUN	NN	_	23	C	23:C	_
+31	of	of	ADP	IN	_	36	R	36:R	_
+32	his	he	PRON	PRP$	_	36	E	36:E	_
+33	father	father	NOUN	NN	_	36	E	36:E	_
+34	's	's	PART	POS	_	33	R	33:R	_
+35	business	business	NOUN	NN	_	36	E	36:E	_
+36	partner	partner	NOUN	NN	_	30	E	30:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

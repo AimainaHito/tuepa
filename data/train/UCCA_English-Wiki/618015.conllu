@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 618015
+# text = In 1969 , James sold a controlling interest in Northern Songs to Lew Grade 's Associated Television ( ATV ) after which McCartney and John Lennon sold their remaining shares although they remained under contract to ATV until 1973 .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1969	1969	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	James	James	PROPN	NNP	_	5	A	5:A	_
+5	sold	sell	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	controlling	control	NOUN	NN	_	8	E	8:E	_
+8	interest	interest	NOUN	NN	_	5	A	5:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Northern	Northern	PROPN	NNP	_	8	E	8:E	_
+11	Songs	songs	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	to	to	ADP	IN	_	16	R	16:R	_
+13	Lew	Lew	PROPN	NNP	_	16	E	16:E	_
+14	Grade	grade	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	's	's	PART	POS	_	13	R	13:R	_
+16	Associated	Associated	PROPN	NNP	_	5	A	5:A	_
+17	Television	television	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	(	(	PUNCT	-LRB-	_	16	U	16:U	_
+19	ATV	ATV	PROPN	NNP	_	16	E	16:E	_
+20	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+21	after	after	ADP	IN	_	5	L	5:L	_
+22	which	which	PRON	WDT	_	21	F	21:F	_
+23	McCartney	McCartney	PROPN	NNP	_	27	A	27:A	_
+24	and	and	CCONJ	CC	_	23	N	23:N	_
+25	John	John	PROPN	NNP	_	23	C	23:C	_
+26	Lennon	Lennon	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	sold	sell	VERB	VBD	_	5	H	5:H	_
+28	their	they	PRON	PRP$	_	30	E	30:E	_
+29	remaining	remaining	VERB	VBG	_	30	E	30:E	_
+30	shares	share	NOUN	NNS	_	27	A	27:A	_
+31	although	although	SCONJ	IN	_	5	L	5:L	_
+32	they	they	PRON	PRP	_	35	A	35:A	_
+33	remained	remain	VERB	VBD	_	35	D	35:D	_
+34	under	under	ADP	IN	_	35	R	35:R	_
+35	contract	contract	NOUN	NN	_	5	H	5:H	_
+36	to	to	ADP	IN	_	37	R	37:R	_
+37	ATV	ATV	PROPN	NNP	_	35	A	35:A	_
+38	until	until	ADP	IN	_	39	R	39:R	_
+39	1973	1973	NUM	CD	_	35	D	35:D	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

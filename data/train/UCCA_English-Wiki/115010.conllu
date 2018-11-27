@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 115010
+# text = In 1999 , she was named by the American Film Institute as the top female Hollywood legend .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1999	1999	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	she	she	PRON	PRP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	named	name	VERB	VBN	_	0	H	0:H	_
+7	by	by	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	American	american	ADJ	JJ	_	11	E	11:E	_
+10	Film	film	PROPN	NNP	_	11	E	11:E	_
+11	Institute	Institute	PROPN	NNP	_	6	A	6:A	_
+12	as	as	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	top	top	ADJ	JJ	_	17	E	17:E	_
+15	female	female	ADJ	JJ	_	17	E	17:E	_
+16	Hollywood	Hollywood	NOUN	NN	_	17	E	17:E	_
+17	legend	legend	NOUN	NN	_	6	A	6:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

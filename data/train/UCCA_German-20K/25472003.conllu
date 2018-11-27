@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25472003
+# text = Es fuhr um die Fregatte herum und umzog sie mit elektrischen Streifen .
+1	Es	es	PRON	PPER	_	2	A	2:A|8:A	_
+2	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	um	um	ADP	APPR	_	5	R	5:R	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Fregatte	Fregatte	NOUN	NN	_	2	A	2:A	_
+6	herum	herum	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	umzog	umziehen	VERB	VVFIN	_	2	H	2:H	_
+9	sie	sie	PRON	ADV	_	8	A	8:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	elektrischen	elektrisch	ADJ	ADJA	_	12	E	12:E	_
+12	Streifen	Streifen	NOUN	NN	_	8	A	8:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

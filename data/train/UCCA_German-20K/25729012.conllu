@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25729012
+# text = Seine Miene war sehr herabgestimmt .
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Miene	Miene	NOUN	NN	_	5	A	5:A	_
+3	war	sein	AUX	ADV	_	5	F	5:F	_
+4	sehr	sehr	ADV	NE	_	5	D	5:D	_
+5	herabgestimmt	herabgestimmt	ADJ	VVPP	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

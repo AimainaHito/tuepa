@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 132010
+# text = " Herb Golden of Variety stated , " It 's Katharine Hepburn 's picture ... The perfect conception of all flighty but characterful Main Line socialite gals rolled into one , the story without her is almost inconceivable .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Herb	Herb	NOUN	NN	_	6	A	6:A	_
+3	Golden	golden	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Variety	variety	PROPN	NNP	_	2	E	2:E	_
+6	stated	state	VERB	VBD	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	"	"	PUNCT	``	_	6	U	6:U	_
+9	It	it	PRON	PRP	_	10	A	10:A	_
+10	's	be	AUX	VBZ	_	6	A	6:A	_
+11	Katharine	Katharine	PROPN	NNP	_	14	E	14:E	_
+12	Hepburn	Hepburn	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	's	's	PART	POS	_	11	R	11:R	_
+14	picture	picture	NOUN	NN	_	10	A	10:A	_
+15	...	...	PUNCT	,	_	10	U	10:U	_
+16	The	the	DET	DT	_	18	E	18:E	_
+17	perfect	perfect	ADJ	JJ	_	18	E	18:E	_
+18	conception	conception	NOUN	NN	_	10	H	10:H	_
+19	of	of	ADP	IN	_	27	R	27:R	_
+20	all	all	DET	DT	_	27	E	27:E	_
+21	flighty	flighty	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	but	but	CCONJ	CC	_	20	N	20:N	_
+23	characterful	characterful	ADJ	JJ	_	20	C	20:C	_
+24	Main	main	ADJ	JJ	_	27	E	27:E	_
+25	Line	line	NOUN	NN	_	24	Terminal	24:Terminal	_
+26	socialite	socialite	NOUN	NN	_	27	E	27:E	_
+27	gals	gal	NOUN	NNS	_	28	A	28:A	_
+28	rolled	roll	VERB	VBN	_	18	E	18:E	_
+29	into	into	ADP	IN	_	28	Terminal	28:Terminal	_
+30	one	one	NOUN	NN	_	28	Terminal	28:Terminal	_
+31	,	,	PUNCT	,	_	10	U	10:U	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	story	story	NOUN	NN	_	34	A	34:A	_
+34	without	without	ADP	IN	_	38	A	38:A	_
+35	her	she	PRON	PRP$	_	34	A	34:A	_
+36	is	be	AUX	VBZ	_	38	F	38:F	_
+37	almost	almost	ADV	RB	_	38	D	38:D	_
+38	inconceivable	inconceivable	ADJ	JJ	_	10	H	10:H	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

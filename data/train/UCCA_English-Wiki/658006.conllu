@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 658006
+# text = Referred to as the " songbird supreme " by the Guinness World Records , she is famed for her five - octave vocal range , power , melismatic style and signature use of the whistle register .
+1	Referred	refer	VERB	VBD	_	0	H	0:H	_
+2	to	to	ADP	IN	_	1	R	1:R	_
+3	as	as	ADP	IN	_	7	R	7:R	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	"	"	PUNCT	``	_	7	U	7:U	_
+6	songbird	songbird	NOUN	NN	_	7	E	7:E	_
+7	supreme	supreme	ADJ	JJ	_	1	A	1:A	_
+8	"	"	PUNCT	''	_	1	U	1:U	_
+9	by	by	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	Guinness	Guinness	PROPN	NNP	_	13	E	13:E	_
+12	World	World	PROPN	NNP	_	13	E	13:E	_
+13	Records	record	PROPN	NNPS	_	1	A	1:A	_
+14	,	,	PUNCT	,	_	1	U	1:U	_
+15	she	she	PRON	PRP	_	17	A	17:A|1:A|32:A	_
+16	is	be	AUX	VBZ	_	17	F	17:F	_
+17	famed	fame	VERB	VBN	_	1	H	1:H	_
+18	for	for	ADP	IN	_	24	R	24:R	_
+19	her	she	PRON	PRP$	_	24	E	24:E	_
+20	five	five	NUM	CD	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	octave	octave	ADJ	JJ	_	24	E	24:E	_
+23	vocal	vocal	ADJ	JJ	_	24	E	24:E	_
+24	range	range	NOUN	NN	_	17	A	17:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	power	power	NOUN	NN	_	24	C	24:C	_
+27	,	,	PUNCT	,	_	24	U	24:U	_
+28	melismatic	melismatic	ADJ	JJ	_	29	E	29:E	_
+29	style	style	NOUN	NN	_	24	C	24:C	_
+30	and	and	CCONJ	CC	_	24	N	24:N	_
+31	signature	signature	NOUN	NN	_	32	D	32:D	_
+32	use	use	NOUN	NN	_	24	C	24:C	_
+33	of	of	ADP	IN	_	36	R	36:R	_
+34	the	the	DET	DT	_	36	E	36:E	_
+35	whistle	whistle	ADJ	JJ	_	36	E	36:E	_
+36	register	register	NOUN	NN	_	32	A	32:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

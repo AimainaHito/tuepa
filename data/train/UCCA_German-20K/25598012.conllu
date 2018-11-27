@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25598012
+# text = Es war die Leuchte der " Nautilus " . Vor Ablauf von 20 Minuten mußten wir an Bord sein , wo ich wieder aufatmen konnte , denn mein Behälter schien mir eine Luft mit wenig Sauerstoff zu gewähren .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Leuchte	Leuchte	NOUN	NN	_	2	A	2:A	_
+5	der	der	DET	ART	_	7	R	7:R	_
+6	"	"	PUNCT	$(	_	7	U	7:U	_
+7	Nautilus	Nautilus	PROPN	NE	_	4	E	4:E	_
+8	"	"	PUNCT	$(	_	2	U	2:U	_
+9	.	.	PUNCT	$.	_	2	U	2:U	_
+10	Vor	vor	ADP	NN	_	11	R	11:R	_
+11	Ablauf	Ablauf	NOUN	NN	_	19	D	19:D	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	20	20	NUM	CARD	_	11	E	11:E	_
+14	Minuten	Minute	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	mußten	müssen	AUX	NN	_	19	D	19:D	_
+16	wir	wir	PRON	NE	_	19	A	19:A	_
+17	an	an	ADP	APPR	_	18	R	18:R	_
+18	Bord	Bord	NOUN	NN	_	19	R	19:R	_
+19	sein	sein	AUX	VAINF	_	2	H	2:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	wo	wo	ADV	ADJA	_	24	R	24:R	_
+22	ich	ich	PRON	PPER	_	24	A	24:A	_
+23	wieder	wieder	ADV	NN	_	24	D	24:D	_
+24	aufatmen	aufatmen	VERB	VVINF	_	18	E	18:E	_
+25	konnte	können	AUX	VMFIN	_	24	D	24:D	_
+26	,	,	PUNCT	$,	_	2	U	2:U	_
+27	denn	denn	SCONJ	KON	_	2	L	2:L	_
+28	mein	mein	PRON	PPOSAT	_	29	E	29:E	_
+29	Behälter	Behälter	NOUN	NN	_	38	A	38:A	_
+30	schien	scheinen	VERB	VVFIN	_	38	G	38:G	_
+31	mir	ich	PRON	PPER	_	38	A	38:A	_
+32	eine	ein	DET	ART	_	33	E	33:E	_
+33	Luft	Luft	NOUN	NN	_	38	A	38:A	_
+34	mit	mit	ADP	APPR	_	36	R	36:R	_
+35	wenig	wenig	ADJ	NN	_	36	E	36:E	_
+36	Sauerstoff	Sauerstoff	NOUN	NE	_	33	E	33:E	_
+37	zu	zu	PART	NE	_	38	F	38:F	_
+38	gewähren	währen	VERB	VVINF	_	2	H	2:H	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+

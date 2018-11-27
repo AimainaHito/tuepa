@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25766011
+# text = » Ich meine , wir können weder vor- noch rückwärts und auch nicht seitwärts . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	meine	mein	PRON	PPOSAT	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wir	wir	PRON	NE	_	8	A	8:A|14:A|10:A	_
+6	können	können	AUX	VMFIN	_	8	D	8:D|10:D|14:D	_
+7	weder	weder	CCONJ	ADJD	_	8	D	8:D	_
+8	vor-	vor-	PUNCT	$(	_	3	A	3:A	_
+9	noch	noch	ADV	VVINF	_	10	D	10:D	_
+10	rückwärts	rückwärts	ADV	ADV	_	8	H	8:H	_
+11	und	und	CCONJ	NE	_	8	L	8:L	_
+12	auch	auch	ADV	ADV	_	14	D	14:D	_
+13	nicht	nicht	PART	XY	_	14	D	14:D	_
+14	seitwärts	seitwärts	ADV	ADV	_	8	H	8:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+16	«	«	PUNCT	$(	_	14	U	14:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25744011
+# text = » Lassen wir jetzt den Lebkuchen « , sagte ich , » und setzen unseren interessanten Spaziergang fort . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Lassen	lassen	NOUN	VVINF	_	9	A	9:A	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Lebkuchen	Lebkuchen	NOUN	NE	_	2	A	2:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	setzen	setzen	VERB	VVFIN	_	2	H	2:H	_
+15	unseren	unser	PRON	PPOSAT	_	17	E	17:E	_
+16	interessanten	interessant	ADJ	ADJA	_	17	E	17:E	_
+17	Spaziergang	Spaziergang	NOUN	NN	_	14	A	14:A	_
+18	fort	fort	ADV	PTKVZ	_	14	Terminal	14:Terminal	_
+19	.	.	PUNCT	$.	_	14	U	14:U	_
+20	«	«	PUNCT	$(	_	14	U	14:U	_
+

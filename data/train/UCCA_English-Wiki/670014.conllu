@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 670014
+# text = At the end of 2005 , the IFPI reported that The Emancipation of Mimi had sold more than 7.7 million copies globally , and was the second best - selling album of the year after Coldplay 's X & Y .
+1	At	at	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	end	end	NOUN	NN	_	5	E	5:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	2005	2005	NUM	CD	_	9	D	9:D	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	IFPI	IFPI	PROPN	NNP	_	9	A	9:A	_
+9	reported	report	VERB	VBD	_	0	H	0:H	_
+10	that	that	SCONJ	IN	_	16	R	16:R	_
+11	The	the	DET	DT	_	16	A	16:A|25:A	_
+12	Emancipation	Emancipation	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	of	of	ADP	IN	_	11	Terminal	11:Terminal	_
+14	Mimi	Mimi	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	had	have	AUX	VBD	_	16	F	16:F	_
+16	sold	sell	VERB	VBN	_	9	A	9:A	_
+17	more	more	ADJ	JJR	_	21	E	21:E	_
+18	than	than	ADP	IN	_	17	R	17:R	_
+19	7.7	7.7	NUM	CD	_	21	E	21:E	_
+20	million	million	NUM	CD	_	19	Terminal	19:Terminal	_
+21	copies	copy	NOUN	NNS	_	16	A	16:A	_
+22	globally	globally	ADV	RB	_	16	A	16:A	_
+23	,	,	PUNCT	,	_	16	U	16:U	_
+24	and	and	CCONJ	CC	_	16	L	16:L	_
+25	was	be	AUX	VBD	_	16	H	16:H	_
+26	the	the	DET	DT	_	31	E	31:E	_
+27	second	second	ADJ	JJ	_	31	E	31:E	_
+28	best	best	ADJ	JJS	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	selling	sell	VERB	VBG	_	31	E	31:E	_
+31	album	album	NOUN	NN	_	25	A	25:A	_
+32	of	of	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	year	year	NOUN	NN	_	31	E	31:E	_
+35	after	after	ADP	IN	_	38	R	38:R	_
+36	Coldplay	Coldplay	PROPN	NNP	_	38	E	38:E	_
+37	's	's	PART	POS	_	36	R	36:R	_
+38	X	x	PROPN	NNP	_	31	E	31:E	_
+39	&	&	CCONJ	CC	_	38	U	38:U	_
+40	Y	y	PROPN	NNP	_	38	Terminal	38:Terminal	_
+41	.	.	PUNCT	.	_	38	U	38:U	_
+

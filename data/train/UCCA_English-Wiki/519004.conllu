@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 519004
+# text = She remains the youngest recipient ( at 39 years of age ) of the Cecil B. DeMille Award for lifetime achievement in the motion picture industry .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	remains	remain	VERB	VBZ	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	youngest	youngest	ADJ	JJS	_	5	E	5:E	_
+5	recipient	recipient	NOUN	NN	_	2	A	2:A	_
+6	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	39	39	NUM	CD	_	9	E	9:E	_
+9	years	year	NOUN	NNS	_	5	E	5:E	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	age	age	NOUN	NN	_	9	E	9:E	_
+12	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+13	of	of	ADP	IN	_	18	R	18:R	_
+14	the	the	DET	DT	_	18	E	18:E	_
+15	Cecil	Cecil	PROPN	NNP	_	18	E	18:E	_
+16	B.	B.	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	DeMille	DeMille	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	Award	Award	PROPN	NNP	_	5	E	5:E	_
+19	for	for	ADP	IN	_	21	R	21:R	_
+20	lifetime	lifetime	NOUN	NN	_	21	E	21:E	_
+21	achievement	achievement	NOUN	NN	_	18	E	18:E	_
+22	in	in	ADP	IN	_	26	R	26:R	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	motion	motion	NOUN	NN	_	25	E	25:E	_
+25	picture	picture	NOUN	NN	_	26	E	26:E	_
+26	industry	industry	NOUN	NN	_	21	E	21:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

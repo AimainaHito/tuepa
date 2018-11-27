@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25805017
+# text = Ein solcher Schritt mißfiel mir .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	solcher	solch	PRON	ADJA	_	3	E	3:E	_
+3	Schritt	Schritt	NOUN	NN	_	4	A	4:A	_
+4	mißfiel	mißfallen	VERB	VVFIN	_	0	H	0:H	_
+5	mir	ich	PRON	PPER	_	4	A	4:A	_
+6	.	.	PUNCT	$.	_	4	U	4:U	_
+

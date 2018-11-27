@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 543003
+# text = " Film director Gottfried Reinhardt claimed that Warner " derived pleasure " from humiliating subordinates .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Film	film	ADJ	JJ	_	3	E	3:E	_
+3	director	director	NOUN	NN	_	4	E	4:E	_
+4	Gottfried	Gottfry	VERB	VBN	_	6	A	6:A	_
+5	Reinhardt	Reinhardt	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	claimed	claim	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	11	F	11:F	_
+8	Warner	Warner	PROPN	NNP	_	11	A	11:A|14:A	_
+9	"	"	PUNCT	''	_	11	U	11:U	_
+10	derived	derive	VERB	VBD	_	11	D	11:D	_
+11	pleasure	pleasure	NOUN	NN	_	6	A	6:A	_
+12	"	"	PUNCT	''	_	11	U	11:U	_
+13	from	from	ADP	IN	_	14	R	14:R	_
+14	humiliating	humiliat	ADJ	JJ	_	11	A	11:A	_
+15	subordinates	subordinate	NOUN	NNS	_	14	A	14:A	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

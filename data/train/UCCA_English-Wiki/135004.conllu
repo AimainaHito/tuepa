@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 135004
+# text = The New York Times critic Bosley Crowther was full of praise for the film and hailed the duo 's " perfect compatibility " .
+1	The	the	DET	DT	_	5	E	5:E	_
+2	New	New	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	York	York	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Times	Times	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	critic	critic	ADJ	JJ	_	6	E	6:E	_
+6	Bosley	Bosley	PROPN	NNP	_	0	C	0:C|16:A	_
+7	Crowther	Crowther	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	was	be	AUX	VBD	_	11	D	11:D	_
+9	full	full	ADJ	JJ	_	11	D	11:D	_
+10	of	of	ADP	IN	_	9	R	9:R	_
+11	praise	praise	NOUN	NN	_	0	H	0:H	_
+12	for	for	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	film	film	NOUN	NN	_	11	A	11:A	_
+15	and	and	CCONJ	CC	_	11	L	11:L	_
+16	hailed	hail	VERB	VBD	_	11	H	11:H	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	duo	duo	NOUN	NN	_	22	A	22:A	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	"	"	PUNCT	``	_	22	U	22:U	_
+21	perfect	perfect	ADJ	JJ	_	22	E	22:E	_
+22	compatibility	compatibility	NOUN	NN	_	16	A	16:A	_
+23	"	"	PUNCT	''	_	22	U	22:U	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

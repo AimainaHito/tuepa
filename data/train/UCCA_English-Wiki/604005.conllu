@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 604005
+# text = In March 1969 , McCartney married Linda Eastman , and in August , the couple had their first child , Mary , named after his late mother .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	March	March	PROPN	NNP	_	6	D	6:D	_
+3	1969	1969	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	McCartney	McCartney	PROPN	NNP	_	6	A	6:A	_
+6	married	marry	VERB	VBD	_	0	H	0:H	_
+7	Linda	Linda	PROPN	NNP	_	6	A	6:A	_
+8	Eastman	Eastman	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	and	and	CCONJ	CC	_	6	L	6:L	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	August	August	PROPN	NNP	_	16	D	16:D	_
+13	,	,	PUNCT	,	_	16	U	16:U	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	couple	couple	NOUN	NN	_	16	A	16:A	_
+16	had	have	VERB	VBD	_	6	H	6:H	_
+17	their	they	PRON	PRP$	_	19	E	19:E	_
+18	first	first	ADJ	JJ	_	19	E	19:E	_
+19	child	child	NOUN	NN	_	21	E	21:E	_
+20	,	,	PUNCT	,	_	21	U	21:U	_
+21	Mary	Mary	PROPN	NNP	_	16	A	16:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	named	nam	VERB	VBD	_	21	E	21:E	_
+24	after	after	ADP	IN	_	27	R	27:R	_
+25	his	he	PRON	PRP$	_	27	E	27:E	_
+26	late	late	ADJ	JJ	_	27	E	27:E	_
+27	mother	mother	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

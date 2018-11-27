@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25808004
+# text = » Gar manche Leute , Freund Ned . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Gar	gar	PROPN	ADV	_	4	D	4:D	_
+3	manche	manch	PROPN	PIAT	_	4	E	4:E	_
+4	Leute	Leute	PROPN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Freund	Freund	PROPN	NE	_	7	E	7:E	_
+7	Ned	Ned	PROPN	NE	_	4	G	4:G	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

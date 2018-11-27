@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 208012
+# text = He also went on to win a Golden Globe for the same performance .
+1	He	he	PRON	PRP	_	6	A	6:A	_
+2	also	also	ADV	RB	_	6	D	6:D	_
+3	went	go	VERB	VBD	_	6	E	6:E	_
+4	on	on	ADV	RB	_	3	Terminal	3:Terminal	_
+5	to	to	PART	TO	_	3	Terminal	3:Terminal	_
+6	win	win	VERB	VB	_	0	H	0:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	Golden	golden	PROPN	NNP	_	6	A	6:A	_
+9	Globe	Globe	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	for	for	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	same	same	ADJ	JJ	_	13	E	13:E	_
+13	performance	performance	NOUN	NN	_	6	A	6:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

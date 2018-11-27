@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25653016
+# text = Unter ihrem hohen Gezweig gingen wir frei und hatten zu unseren Füßen einen förmlichen Teppich von Tubiporen , Meandrinen , Caryo-phyllen und anderen wie Edelstein glänzenden Blumen .
+1	Unter	unter	ADP	ADJD	_	4	R	4:R	_
+2	ihrem	ihr	DET	PPOSAT	_	4	E	4:E	_
+3	hohen	hoch	ADJ	ADJA	_	4	E	4:E	_
+4	Gezweig	Gezweig	NOUN	NN	_	5	A	5:A	_
+5	gingen	gehen	VERB	VVFIN	_	0	H	0:H	_
+6	wir	wir	PRON	NN	_	5	A	5:A|9:A	_
+7	frei	frei	ADV	ADJD	_	5	D	5:D	_
+8	und	und	CCONJ	NN	_	5	L	5:L	_
+9	hatten	haben	VERB	VAFIN	_	5	H	5:H	_
+10	zu	zu	ADP	VVINF	_	12	R	12:R	_
+11	unseren	unser	PRON	PPOSAT	_	12	E	12:E	_
+12	Füßen	Fuß	NOUN	NN	_	9	A	9:A	_
+13	einen	ein	DET	ART	_	15	E	15:E	_
+14	förmlichen	förmlich	ADJ	ADJA	_	15	E	15:E	_
+15	Teppich	Teppich	NOUN	NN	_	9	A	9:A	_
+16	von	von	ADP	NE	_	17	R	17:R	_
+17	Tubiporen	Tubipor	NOUN	NE	_	15	E	15:E	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	Meandrinen	Meandrine	NOUN	NE	_	17	C	17:C	_
+20	,	,	PUNCT	$,	_	17	U	17:U	_
+21	Caryo-phyllen	Caryo-phylle	NOUN	NE	_	17	C	17:C	_
+22	und	und	CCONJ	NE	_	17	N	17:N	_
+23	anderen	ander	PRON	VVFIN	_	27	E	27:E	_
+24	wie	wie	ADP	ADV	_	25	R	25:R	_
+25	Edelstein	Edelstein	NOUN	NE	_	26	A	26:A	_
+26	glänzenden	glänzend	ADJ	ADJA	_	27	E	27:E	_
+27	Blumen	Blume	NOUN	NN	_	17	C	17:C	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

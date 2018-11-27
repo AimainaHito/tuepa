@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25712013
+# text = Ich weiß es nicht , aber er hielt sich meistens in mäßiger Tiefe unter Wasser und weit ab von den Küsten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	nicht	nicht	PART	XY	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	aber	aber	CCONJ	KON	_	2	L	2:L	_
+7	er	er	PRON	PPER	_	8	A	8:A	_
+8	hielt	halten	VERB	VVFIN	_	2	H	2:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	meistens	meistens	ADV	ADV	_	8	D	8:D	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	mäßiger	mäßig	ADJ	ADJA	_	13	E	13:E	_
+13	Tiefe	Tiefe	NOUN	NN	_	8	A	8:A	_
+14	unter	unter	ADP	ADJD	_	15	R	15:R	_
+15	Wasser	Wasser	NOUN	NN	_	13	C	13:C	_
+16	und	und	CCONJ	NE	_	13	N	13:N	_
+17	weit	weit	ADJ	ADJD	_	21	R	21:R	_
+18	ab	ab	ADP	ADV	_	17	Terminal	17:Terminal	_
+19	von	von	ADP	NN	_	17	Terminal	17:Terminal	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Küsten	Küste	NOUN	NN	_	13	C	13:C	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

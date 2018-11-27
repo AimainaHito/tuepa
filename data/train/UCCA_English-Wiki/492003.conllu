@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 492003
+# text = Bowie first caught the eye and ear of the public in July 1969 , when his song " Space Oddity " reached the top five of the UK Singles Chart .
+1	Bowie	Bowie	PROPN	NNP	_	3	A	3:A	_
+2	first	first	ADV	RB	_	3	D	3:D	_
+3	caught	catch	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	eye	eye	NOUN	NN	_	3	E	3:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	ear	ear	NOUN	NN	_	5	C	5:C	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	public	public	NOUN	NN	_	3	A	3:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	July	July	PROPN	NNP	_	13	E	13:E	_
+13	1969	1969	NUM	CD	_	3	D	3:D	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	when	when	ADV	WRB	_	3	L	3:L	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	song	song	NOUN	NN	_	19	E	19:E	_
+18	"	"	PUNCT	``	_	19	U	19:U	_
+19	Space	Space	PROPN	NNP	_	22	A	22:A	_
+20	Oddity	Oddity	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	"	"	PUNCT	''	_	22	U	22:U	_
+22	reached	reach	VERB	VBD	_	3	H	3:H	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	top	top	ADJ	JJ	_	25	E	25:E	_
+25	five	five	NUM	CD	_	22	A	22:A	_
+26	of	of	ADP	IN	_	30	R	30:R	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	UK	UK	PROPN	NNP	_	30	E	30:E	_
+29	Singles	singles	PROPN	NNP	_	30	E	30:E	_
+30	Chart	chart	PROPN	NNP	_	25	E	25:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

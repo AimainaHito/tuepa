@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 586016
+# text = Despite this success , Depp felt " forced into the role of product .
+1	Despite	despite	ADP	IN	_	3	L	3:L	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	success	success	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Depp	Depp	PROPN	NNP	_	6	A	6:A|3:A|8:A	_
+6	felt	feel	VERB	VBD	_	3	H	3:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	forced	force	VERB	VBN	_	6	A	6:A	_
+9	into	into	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	role	role	NOUN	NN	_	8	A	8:A	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	product	product	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

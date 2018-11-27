@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25689018
+# text = Conseil betrachtete ihn mit rein wissenschaftlichem Interesse , und ich bin überzeugt , dass er ihn unter den Knorpel fischen richtig zu klassifizieren verstand .
+1	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+2	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+3	ihn	er	PRON	PPER	_	2	A	2:A	_
+4	mit	mit	ADP	APPR	_	7	R	7:R	_
+5	rein	rein	ADJ	NN	_	6	E	6:E	_
+6	wissenschaftlichem	wissenschaftlich	ADJ	ADJA	_	7	E	7:E	_
+7	Interesse	Interesse	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	und	und	CCONJ	NE	_	2	L	2:L	_
+10	ich	ich	PRON	PPER	_	12	A	12:A	_
+11	bin	sein	AUX	VAFIN	_	12	F	12:F	_
+12	überzeugt	überzeugt	ADJ	ADJD	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+15	er	er	PRON	PPER	_	23	A	23:A	_
+16	ihn	er	PRON	PPER	_	23	A	23:A	_
+17	unter	unter	ADP	ADJD	_	20	R	20:R	_
+18	den	der	DET	ART	_	20	E	20:E	_
+19	Knorpel	Knorpel	NOUN	NN	_	20	E	20:E	_
+20	fischen	fischen	VERB	ADJA	_	23	A	23:A	_
+21	richtig	richtig	ADV	ADJD	_	23	D	23:D	_
+22	zu	zu	PART	NN	_	23	F	23:F	_
+23	klassifizieren	klassifizieren	VERB	VVINF	_	12	A	12:A	_
+24	verstand	verstehen	VERB	VVFIN	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

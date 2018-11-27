@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 511009
+# text = On 8 January 2013 ( his 66th birthday ) , his website announced a new album , to be titled The Next Day and scheduled for release 8 March for Australia , 12 March for the United States and 11 March for the rest of the world .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	8	8	NUM	CD	_	13	D	13:D	_
+3	January	January	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	2013	2013	NUM	CD	_	2	Terminal	2:Terminal	_
+5	(	(	PUNCT	-LRB-	_	2	U	2:U	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	66th	66th	ADJ	JJ	_	8	E	8:E	_
+8	birthday	birthday	NOUN	NN	_	2	E	2:E	_
+9	)	)	PUNCT	-RRB-	_	13	U	13:U	_
+10	,	,	PUNCT	,	_	13	U	13:U	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	website	website	NOUN	NN	_	13	A	13:A	_
+13	announced	announce	VERB	VBD	_	0	H	0:H	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	new	new	ADJ	JJ	_	16	E	16:E	_
+16	album	album	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	to	to	PART	TO	_	20	F	20:F	_
+19	be	be	AUX	VB	_	20	F	20:F	_
+20	titled	title	VERB	VBN	_	16	E	16:E	_
+21	The	the	DET	DT	_	20	A	20:A	_
+22	Next	next	ADJ	JJ	_	21	Terminal	21:Terminal	_
+23	Day	day	NOUN	NN	_	21	Terminal	21:Terminal	_
+24	and	and	CCONJ	CC	_	20	L	20:L	_
+25	scheduled	schedule	VERB	VBN	_	27	D	27:D	_
+26	for	for	ADP	IN	_	27	F	27:F	_
+27	release	release	NOUN	NN	_	20	H	20:H	_
+28	8	8	NUM	CD	_	27	D	27:D	_
+29	March	March	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	for	for	ADP	IN	_	31	R	31:R	_
+31	Australia	Australia	PROPN	NNP	_	28	E	28:E	_
+32	,	,	PUNCT	,	_	28	U	28:U	_
+33	12	12	NUM	CD	_	37	E	37:E	_
+34	March	March	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	for	for	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	United	United	PROPN	NNP	_	28	C	28:C	_
+38	States	States	PROPN	NNP	_	37	Terminal	37:Terminal	_
+39	and	and	CCONJ	CC	_	28	N	28:N	_
+40	11	11	NUM	CD	_	47	E	47:E	_
+41	March	March	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	for	for	ADP	IN	_	47	R	47:R	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	rest	rest	NOUN	NN	_	47	E	47:E	_
+45	of	of	ADP	IN	_	44	R	44:R	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	world	world	NOUN	NN	_	28	C	28:C	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

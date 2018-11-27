@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25787006
+# text = » Das wird nur eine Verzögerung sein « , sagte Ned Land .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Das	der	PRON	PDS	_	6	A	6:A	_
+3	wird	werden	AUX	VAFIN	_	6	F	6:F	_
+4	nur	nur	ADV	NE	_	6	D	6:D	_
+5	eine	ein	DET	ART	_	6	E	6:E	_
+6	Verzögerung	Verzögerung	NOUN	NN	_	10	A	10:A	_
+7	sein	sein	AUX	VAINF	_	6	F	6:F	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	Land	Land	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

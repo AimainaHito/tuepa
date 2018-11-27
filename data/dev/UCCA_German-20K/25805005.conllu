@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25805005
+# text = Einige Tage lang entfernte sich die ›Nautilus‹ beständig von der amerikanischen Küste .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Tage	Tag	NOUN	NN	_	4	D	4:D	_
+3	lang	lang	ADJ	ADJD	_	4	D	4:D	_
+4	entfernte	entfernen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	A	4:A	_
+8	beständig	beständig	ADJ	ADJD	_	4	D	4:D	_
+9	von	von	ADP	NN	_	12	R	12:R	_
+10	der	der	DET	ART	_	12	E	12:E	_
+11	amerikanischen	amerikanisch	ADJ	ADJA	_	12	E	12:E	_
+12	Küste	Küste	NOUN	NN	_	4	A	4:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

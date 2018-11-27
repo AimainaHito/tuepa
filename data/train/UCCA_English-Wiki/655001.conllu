@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 655001
+# text = Lennon said , " I could n't sing the damn thing , I was just screaming .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	said	say	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	I	I	PRON	PRP	_	8	A	8:A	_
+6	could	could	AUX	MD	_	8	D	8:D	_
+7	n't	not	PART	RB	_	8	D	8:D	_
+8	sing	se	VERB	VBG	_	2	A	2:A	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	damn	damn	NOUN	NN	_	11	E	11:E	_
+11	thing	thing	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	I	I	PRON	PRP	_	16	A	16:A	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	just	just	ADV	RB	_	16	D	16:D	_
+16	screaming	scream	VERB	VBG	_	8	H	8:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 92000
+# text = Ce fait , extrêmement grave en lui - même , eût peut-être été oublié comme tant d' autres , si , trois semaines après , il ne se fût reproduit dans des conditions identiques .
+1	Ce	ce	DET	_	_	2	E	2:E	_
+2	fait	fait	NOUN	_	_	14	A	14:A	_
+3	,	,	PUNCT	_	_	2	U	2:U	_
+4	extrêmement	extrêmement	ADV	_	_	5	D	5:D	_
+5	grave	grave	ADJ	_	_	2	E	2:E	_
+6	en	en	ADP	_	_	7	R	7:R	_
+7	lui	lui	PRON	_	_	5	A	5:A	_
+8	-	-	PUNCT	_	_	7	U	7:U	_
+9	même	même	ADV	_	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	_	_	14	U	14:U	_
+11	eût	avoir	AUX	_	_	14	F	14:F	_
+12	peut-être	peut-être	ADV	_	_	14	G	14:G	_
+13	été	être	AUX	_	_	14	F	14:F	_
+14	oublié	oublier	VERB	_	_	0	H	0:H	_
+15	comme	comme	ADP	_	_	18	R	18:R	_
+16	tant	tant	ADV	_	_	18	E	18:E	_
+17	d'	de	ADP	_	_	18	E	18:E	_
+18	autres	autre	PRON	_	_	14	A	14:A	_
+19	,	,	PUNCT	_	_	14	U	14:U	_
+20	si	si	SCONJ	_	_	14	L	14:L	_
+21	,	,	PUNCT	_	_	14	U	14:U	_
+22	trois	trois	NUM	_	_	23	E	23:E	_
+23	semaines	semaine	NOUN	_	_	28	D	28:D	_
+24	après	après	ADV	_	_	23	R	23:R	_
+25	,	,	PUNCT	_	_	28	U	28:U	_
+26	il	il	PRON	_	_	28	A	28:A	_
+27	ne	ne	ADV	_	_	28	D	28:D	_
+28	se	se	PRON	_	_	14	H	14:H	_
+29	fût	être	AUX	_	_	28	F	28:F	_
+30	reproduit	reproduire	VERB	_	_	28	Terminal	28:Terminal	_
+31	dans	dans	ADP	_	_	33	R	33:R	_
+32	des	un	DET	_	_	33	E	33:E	_
+33	conditions	condition	NOUN	_	_	28	A	28:A	_
+34	identiques	identique	ADJ	_	_	33	E	33:E	_
+35	.	.	PUNCT	_	_	33	U	33:U	_
+

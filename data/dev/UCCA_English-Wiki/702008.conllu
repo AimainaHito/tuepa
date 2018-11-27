@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 702008
+# text = In January 1974 , Dylan returned to live touring after a break of seven years ; backed by The Band , he embarked on a high - profile , coast - to - coast North American tour , playing 40 concerts .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	January	January	PROPN	NNP	_	3	E	3:E	_
+3	1974	1974	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dylan	Dylan	PROPN	NNP	_	6	A	6:A|17:A|12:A	_
+6	returned	return	VERB	VBD	_	0	H	0:H	_
+7	to	to	PART	TO	_	9	R	9:R	_
+8	live	live	VERB	VB	_	9	E	9:E	_
+9	touring	tour	VERB	VBG	_	6	A	6:A	_
+10	after	after	ADP	IN	_	6	L	6:L	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	break	break	NOUN	NN	_	6	H	6:H	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	seven	seven	NUM	CD	_	15	E	15:E	_
+15	years	year	NOUN	NNS	_	12	D	12:D	_
+16	;	;	PUNCT	,	_	6	U	6:U	_
+17	backed	back	VERB	VBN	_	6	H	6:H	_
+18	by	by	ADP	IN	_	20	R	20:R	_
+19	The	the	DET	DT	_	20	E	20:E	_
+20	Band	band	PROPN	NNP	_	17	A	17:A	_
+21	,	,	PUNCT	,	_	6	U	6:U	_
+22	he	he	PRON	PRP	_	23	A	23:A|39:A	_
+23	embarked	embark	VERB	VBD	_	6	H	6:H	_
+24	on	on	ADP	IN	_	37	R	37:R	_
+25	a	a	DET	DT	_	37	E	37:E	_
+26	high	high	ADJ	JJ	_	28	E	28:E	_
+27	-	-	PUNCT	HYPH	_	28	U	28:U	_
+28	profile	profile	NOUN	NN	_	37	E	37:E	_
+29	,	,	PUNCT	,	_	37	U	37:U	_
+30	coast	coast	NOUN	NN	_	37	E	37:E	_
+31	-	-	PUNCT	HYPH	_	30	U	30:U	_
+32	to	to	ADP	IN	_	30	N	30:N	_
+33	-	-	PUNCT	HYPH	_	30	U	30:U	_
+34	coast	coast	NOUN	NN	_	30	C	30:C	_
+35	North	North	PROPN	NNP	_	36	E	36:E	_
+36	American	american	PROPN	NNP	_	37	E	37:E	_
+37	tour	tour	NOUN	NN	_	23	A	23:A	_
+38	,	,	PUNCT	,	_	6	U	6:U	_
+39	playing	play	VERB	VBG	_	6	H	6:H	_
+40	40	40	NUM	CD	_	41	E	41:E	_
+41	concerts	concert	NOUN	NNS	_	39	A	39:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

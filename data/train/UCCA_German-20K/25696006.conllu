@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25696006
+# text = » Sie haben recht « , erwiderte ich , » Ihr Schiff ist ein Jahrhundert , mehrere vielleicht , seiner Zeit zuvorgekommen . Um so mehr schade , wenn ein solches Geheimnis mit seinem Erfinder wieder untergehen soll ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+3	haben	haben	VERB	VAFIN	_	4	F	4:F	_
+4	recht	recht	ADV	NE	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	Ihr	Ihr|ihr	DET	PPOSAT	_	12	E	12:E	_
+12	Schiff	Schiff	NOUN	NN	_	22	A	22:A	_
+13	ist	sein	AUX	VVFIN	_	22	F	22:F	_
+14	ein	ein	DET	ART	_	15	E	15:E	_
+15	Jahrhundert	Jahrhundert	NOUN	NN	_	22	A	22:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	mehrere	mehrere	PRON	PIAT	_	15	C	15:C	_
+18	vielleicht	vielleicht	ADV	NN	_	22	G	22:G	_
+19	,	,	PUNCT	$,	_	22	U	22:U	_
+20	seiner	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Zeit	Zeit	NOUN	NN	_	22	A	22:A	_
+22	zuvorgekommen	zuvorkommen	VERB	VVPP	_	4	H	4:H	_
+23	.	.	PUNCT	$.	_	4	U	4:U	_
+24	Um	Um	CCONJ	KOUI	_	27	D	27:D	_
+25	so	so	ADV	ADV	_	24	Terminal	24:Terminal	_
+26	mehr	mehr	ADV	ADV	_	24	Terminal	24:Terminal	_
+27	schade	schade	VERB	ADJD	_	4	H	4:H	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	wenn	wenn	SCONJ	VVFIN	_	37	R	37:R	_
+30	ein	ein	DET	ART	_	32	E	32:E	_
+31	solches	solch	ADJ	ADJA	_	32	E	32:E	_
+32	Geheimnis	Geheimnis	NOUN	NN	_	37	A	37:A	_
+33	mit	mit	ADP	APPR	_	35	R	35:R	_
+34	seinem	sein	DET	PIS	_	35	E	35:E	_
+35	Erfinder	Erfinder	NOUN	NE	_	37	A	37:A	_
+36	wieder	wieder	ADV	NE	_	37	D	37:D	_
+37	untergehen	untergehen	VERB	VVINF	_	27	A	27:A	_
+38	soll	sollen	AUX	VVINF	_	37	D	37:D	_
+39	!	!	PUNCT	$.	_	37	U	37:U	_
+40	«	«	PUNCT	$(	_	37	U	37:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25792014
+# text = » Nun ? « fragte ich , da ich die Idee des Kapitäns nicht begriff .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Nun	nun	PROPN	ADV	_	5	A	5:A	_
+3	?	?	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	da	da	SCONJ	KOUS	_	5	L	5:L	_
+9	ich	ich	PRON	PPER	_	15	A	15:A	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Idee	Idee	NOUN	NN	_	15	A	15:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Kapitäns	Kapitän	NOUN	NN	_	11	E	11:E	_
+14	nicht	nicht	PART	CARD	_	15	D	15:D	_
+15	begriff	begreifen	VERB	VVFIN	_	5	H	5:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 590019
+# text = Burton first gave him an original cast recording of the 1979 stage musical in 2000 .
+1	Burton	Burton	PROPN	NNP	_	3	A	3:A	_
+2	first	first	ADV	RB	_	3	D	3:D	_
+3	gave	give	VERB	VBD	_	0	H	0:H	_
+4	him	he	PRON	PRP	_	3	A	3:A	_
+5	an	a	DET	DT	_	8	E	8:E	_
+6	original	original	ADJ	JJ	_	8	E	8:E	_
+7	cast	cast	NOUN	NN	_	8	E	8:E	_
+8	recording	recording	NOUN	NN	_	3	A	3:A	_
+9	of	of	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	1979	1979	NUM	CD	_	13	E	13:E	_
+12	stage	stage	NOUN	NN	_	13	E	13:E	_
+13	musical	musical	NOUN	NN	_	8	E	8:E	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	2000	2000	NUM	CD	_	3	D	3:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 184006
+# text = A Universal Studios talent scout saw her perform and invited her to Hollywood for a screen test .
+1	A	a	DET	DT	_	5	E	5:E	_
+2	Universal	universal	PROPN	NNP	_	3	E	3:E	_
+3	Studios	studios	PROPN	NNPS	_	5	E	5:E	_
+4	talent	talent	ADJ	JJ	_	5	E	5:E	_
+5	scout	scout	NOUN	NN	_	0	C	0:C|10:A	_
+6	saw	see	VERB	VBD	_	0	H	0:H	_
+7	her	she	PRON	PRP$	_	8	A	8:A	_
+8	perform	perform	NOUN	NN	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	6	L	6:L	_
+10	invited	invite	VERB	VBD	_	6	H	6:H	_
+11	her	she	PRON	PRP	_	10	A	10:A	_
+12	to	to	ADP	IN	_	13	R	13:R	_
+13	Hollywood	Hollywood	PROPN	NNP	_	10	A	10:A	_
+14	for	for	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	screen	screen	NOUN	NN	_	17	E	17:E	_
+17	test	test	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

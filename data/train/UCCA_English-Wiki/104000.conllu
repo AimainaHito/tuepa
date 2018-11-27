@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 104000
+# text = Jolie suffered episodes of suicidal depression throughout her teens and early twenties .
+1	Jolie	Jolie	PROPN	NNP	_	2	A	2:A|3:A	_
+2	suffered	suffer	VERB	VBD	_	0	H	0:H	_
+3	episodes	episode	NOUN	NNS	_	2	A	2:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	suicidal	suicidal	ADJ	JJ	_	6	E	6:E	_
+6	depression	depression	NOUN	NN	_	3	E	3:E	_
+7	throughout	throughout	ADP	IN	_	2	L	2:L	_
+8	her	she	PRON	PRP$	_	9	A	9:A	_
+9	teens	teens	NOUN	NNS	_	2	H	2:H	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	early	early	ADJ	JJ	_	12	E	12:E	_
+12	twenties	twenty	NOUN	NNS	_	9	C	9:C	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

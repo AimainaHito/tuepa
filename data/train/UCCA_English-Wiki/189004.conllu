@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 189004
+# text = In 1988 Sorkin sold the film rights for his play A Few Good Men to producer David Brown before it premiered , in a deal reportedly " well into six figures .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1988	1988	NUM	CD	_	4	D	4:D	_
+3	Sorkin	Sorkin	PROPN	NNP	_	4	A	4:A	_
+4	sold	sell	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	film	film	NOUN	NN	_	7	E	7:E	_
+7	rights	rights	NOUN	NNS	_	4	A	4:A	_
+8	for	for	ADP	IN	_	10	R	10:R	_
+9	his	he	PRON	PRP$	_	10	E	10:E	_
+10	play	play	NOUN	NN	_	7	E	7:E	_
+11	A	a	DET	DT	_	10	E	10:E	_
+12	Few	few	ADJ	JJ	_	11	Terminal	11:Terminal	_
+13	Good	Good	ADJ	JJ	_	11	Terminal	11:Terminal	_
+14	Men	men	NOUN	NN	_	11	Terminal	11:Terminal	_
+15	to	to	PART	TO	_	17	R	17:R	_
+16	producer	producer	VERB	VB	_	17	E	17:E	_
+17	David	David	PROPN	NNP	_	4	A	4:A	_
+18	Brown	Brown	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	before	before	SCONJ	IN	_	4	L	4:L	_
+20	it	it	PRON	PRP	_	21	A	21:A	_
+21	premiered	premier	VERB	VBD	_	4	H	4:H	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	in	in	ADP	IN	_	25	R	25:R	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	deal	deal	NOUN	NN	_	4	A	4:A	_
+26	reportedly	reportedly	ADV	RB	_	31	G	31:G	_
+27	"	"	PUNCT	``	_	31	U	31:U	_
+28	well	well	ADV	RB	_	31	D	31:D	_
+29	into	into	ADP	IN	_	31	R	31:R	_
+30	six	six	NUM	CD	_	31	E	31:E	_
+31	figures	figure	NOUN	NNS	_	25	E	25:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

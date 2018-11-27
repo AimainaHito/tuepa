@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25421001
+# text = Und sogar wurde der » ehrenwerte Pierre Arronax , Professor am Museum zu Paris « , vom ›New York Herald‹ öffentlich aufgefordert , irgendeine Ansicht über die Sache zu formulieren .
+1	Und	und	CCONJ	ADJD	_	22	L	22:L	_
+2	sogar	sogar	ADV	ADV	_	22	G	22:G	_
+3	wurde	werden	AUX	NN	_	22	F	22:F	_
+4	der	der	DET	ART	_	7	E	7:E	_
+5	»	»	PUNCT	$(	_	7	U	7:U	_
+6	ehrenwerte	ehrenwert	ADJ	ADJA	_	7	E	7:E	_
+7	Pierre	Pierre	PROPN	NE	_	22	A	22:A	_
+8	Arronax	Arronax	PROPN	NE	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	Professor	Professor	NOUN	NN	_	0	S	0:S|30:A	_
+11	am	am	ADJ	NE	_	12	R	12:R	_
+12	Museum	Museum	NOUN	NE	_	10	A	10:A	_
+13	zu	zu	ADP	NE	_	14	R	14:R	_
+14	Paris	Paris	PROPN	NE	_	10	A	10:A	_
+15	«	«	PUNCT	$(	_	22	U	22:U	_
+16	,	,	PUNCT	$,	_	22	U	22:U	_
+17	vom	vom	ADP	NE	_	18	R	18:R	_
+18	›New	›New	PROPN	NE	_	22	A	22:A	_
+19	York	York	PROPN	NE	_	18	Terminal	18:Terminal	_
+20	Herald‹	Herald‹	NOUN	NE	_	18	Terminal	18:Terminal	_
+21	öffentlich	öffentlich	ADJ	NN	_	22	D	22:D	_
+22	aufgefordert	auffordern	VERB	VVPP	_	0	H	0:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	irgendeine	irgendein	PRON	PIAT	_	25	E	25:E	_
+25	Ansicht	Ansicht	NOUN	NN	_	30	A	30:A	_
+26	über	über	ADP	VVFIN	_	28	R	28:R	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	Sache	Sache	NOUN	NN	_	30	A	30:A	_
+29	zu	zu	PART	VVINF	_	30	F	30:F	_
+30	formulieren	formulieren	VERB	VVINF	_	22	A	22:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

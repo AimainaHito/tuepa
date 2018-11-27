@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 511017
+# text = On 1 March , the album was made available to stream for free through iTunes .
+1	On	on	ADP	IN	_	3	R	3:R	_
+2	1	1	NUM	CD	_	3	E	3:E	_
+3	March	March	PROPN	NNP	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	album	album	NOUN	NN	_	9	A	9:A	_
+7	was	be	AUX	VBD	_	9	F	9:F	_
+8	made	make	VERB	VBN	_	9	F	9:F	_
+9	available	available	ADJ	JJ	_	0	H	0:H	_
+10	to	to	PART	TO	_	11	R	11:R	_
+11	stream	stream	VERB	VB	_	9	E	9:E	_
+12	for	for	ADP	IN	_	13	R	13:R	_
+13	free	free	ADJ	JJ	_	9	D	9:D	_
+14	through	through	ADP	IN	_	15	R	15:R	_
+15	iTunes	iTune	NOUN	NNS	_	9	A	9:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

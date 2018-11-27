@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 709009
+# text = The event coincided with the start of the Gulf War against Saddam Hussein , and Dylan performed his song " Masters of War " . Dylan then made a short speech that startled some of the audience .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	event	event	NOUN	NN	_	3	A	3:A	_
+3	coincided	coincide	VERB	VBD	_	0	H	0:H	_
+4	with	with	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	start	start	NOUN	NN	_	3	A	3:A	_
+7	of	of	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	Gulf	Gulf	PROPN	NNP	_	10	E	10:E	_
+10	War	War	PROPN	NNP	_	6	A	6:A	_
+11	against	against	ADP	IN	_	12	R	12:R	_
+12	Saddam	Saddam	PROPN	NNP	_	10	E	10:E	_
+13	Hussein	Hussein	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	Dylan	Dylan	PROPN	NNP	_	17	A	17:A	_
+17	performed	perform	VERB	VBD	_	3	H	3:H	_
+18	his	he	PRON	PRP$	_	19	E	19:E	_
+19	song	song	NOUN	NN	_	17	A	17:A	_
+20	"	"	PUNCT	''	_	19	U	19:U	_
+21	Masters	Masters	NOUN	NNS	_	19	E	19:E	_
+22	of	of	ADP	IN	_	21	Terminal	21:Terminal	_
+23	War	War	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	"	"	PUNCT	''	_	3	U	3:U	_
+25	.	.	PUNCT	.	_	3	U	3:U	_
+26	Dylan	Dylan	PROPN	NNP	_	28	A	28:A	_
+27	then	then	ADV	RB	_	28	D	28:D	_
+28	made	make	VERB	VBD	_	3	H	3:H	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	short	short	ADJ	JJ	_	31	E	31:E	_
+31	speech	speech	NOUN	NN	_	28	A	28:A	_
+32	that	that	PRON	WDT	_	33	R	33:R	_
+33	startled	startle	VERB	VBD	_	31	E	31:E	_
+34	some	some	DET	DT	_	37	E	37:E	_
+35	of	of	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	audience	audience	NOUN	NN	_	33	A	33:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

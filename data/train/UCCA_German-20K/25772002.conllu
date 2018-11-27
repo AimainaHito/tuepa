@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25772002
+# text = » Mein Herr « , sagte ich zum Kapitän Nemo , » Ihnen gehört die Ehre , zuerst dieses Land zu betreten . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	14	G	14:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	zum	zum	ADP	NN	_	10	R	10:R	_
+9	Kapitän	Kapitän	PROPN	FM	_	10	E	10:E	_
+10	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	»	»	PUNCT	$(	_	6	U	6:U	_
+13	Ihnen	Sie|sie	PRON	PPER	_	14	A	14:A	_
+14	gehört	gehören	VERB	VVFIN	_	6	A	6:A	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Ehre	Ehre	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	zuerst	zuerst	ADV	FM	_	22	D	22:D	_
+19	dieses	dies	PRON	PDAT	_	20	E	20:E	_
+20	Land	Land	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	betreten	betreten	VERB	VVINF	_	16	E	16:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

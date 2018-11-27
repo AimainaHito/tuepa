@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25789002
+# text = » Er wird Ihren Beistand nicht ablehnen . Kommen Sie , Ned . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Er	er	PRON	PPER	_	7	A	7:A	_
+3	wird	werden	AUX	VAFIN	_	7	F	7:F	_
+4	Ihren	ihr	DET	PPOSAT	_	5	E	5:E	_
+5	Beistand	Beistand	NOUN	NN	_	7	A	7:A	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	ablehnen	ablehnen	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	Kommen	kommen	NOUN	NN	_	7	H	7:H	_
+10	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	Ned	Ned	PROPN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	$.	_	9	U	9:U	_
+14	«	«	PUNCT	$(	_	9	U	9:U	_
+

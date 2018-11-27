@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25714004
+# text = In dem Moment wandte sich Kapitän Nemo zu mir :
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Moment	Moment	NOUN	NN	_	4	D	4:D	_
+4	wandte	wenden	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	Kapitän	Kapitän	PROPN	NN	_	7	E	7:E	_
+7	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+8	zu	zu	ADP	NE	_	9	R	9:R	_
+9	mir	ich	PRON	PPER	_	4	A	4:A	_
+10	:	:	PUNCT	$.	_	9	U	9:U	_
+

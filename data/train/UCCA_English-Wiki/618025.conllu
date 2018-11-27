@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 618025
+# text = McCartney acquired their publishing rights from Ardmore in the mid - 1980s , and they are the only two Beatles songs owned by MPL Communications .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	acquired	acquire	VERB	VBD	_	0	H	0:H	_
+3	their	they	PRON	PRP$	_	5	E	5:E	_
+4	publishing	publishing	NOUN	NN	_	5	E	5:E	_
+5	rights	rights	NOUN	NNS	_	2	A	2:A	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Ardmore	Ardmore	PROPN	NNP	_	2	A	2:A	_
+8	in	in	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	mid	mid	X	AFX	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	1980s	1980	NOUN	NNS	_	2	D	2:D	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	they	they	PRON	PRP	_	16	A	16:A	_
+16	are	be	AUX	VBP	_	2	H	2:H	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	only	only	ADJ	JJ	_	19	E	19:E	_
+19	two	two	NUM	CD	_	21	E	21:E	_
+20	Beatles	Beatles	PROPN	NNPS	_	21	E	21:E	_
+21	songs	song	NOUN	NNS	_	16	A	16:A	_
+22	owned	own	VERB	VBN	_	21	E	21:E	_
+23	by	by	ADP	IN	_	24	R	24:R	_
+24	MPL	MPL	PROPN	NNP	_	22	A	22:A	_
+25	Communications	Communications	PROPN	NNPS	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

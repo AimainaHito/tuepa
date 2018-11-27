@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 491000
+# text = Bana is a prominent fan of Australian rules football .
+1	Bana	Bana	PROPN	NNP	_	5	A	5:A	_
+2	is	be	AUX	VBZ	_	5	F	5:F	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	prominent	prominent	ADJ	JJ	_	5	E	5:E	_
+5	fan	fan	NOUN	NN	_	0	H	0:H	_
+6	of	of	ADP	IN	_	9	R	9:R	_
+7	Australian	australian	ADJ	JJ	_	8	E	8:E	_
+8	rules	rule	NOUN	NNS	_	9	E	9:E	_
+9	football	football	NOUN	NN	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

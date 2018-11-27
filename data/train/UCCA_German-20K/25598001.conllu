@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25598001
+# text = Eine Stunde lang hatten wir eine Sand ebene vor uns .
+1	Eine	ein	DET	ART	_	2	E	2:E	_
+2	Stunde	Stunde	NOUN	NN	_	4	D	4:D	_
+3	lang	lang	ADJ	ADJD	_	4	D	4:D	_
+4	hatten	haben	AUX	VAFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	Sand	Sand	NOUN	NN	_	8	E	8:E	_
+8	ebene	ebene	ADJ	ADJA	_	4	A	4:A	_
+9	vor	vor	ADP	NN	_	10	R	10:R	_
+10	uns	wir	PRON	NN	_	4	A	4:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

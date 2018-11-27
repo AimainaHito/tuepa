@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25489127
+# text = Meine beiden Gefährten streckten sich auf die Matte der Kabine und sanken bald in tiefen Schlummer .
+1	Meine	mein	PRON	PPOSAT	_	3	E	3:E	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Gefährten	Gefährt|Gefährte	NOUN	NE	_	0	C	0:C|12:A	_
+4	streckten	strecken	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Matte	Matte	NOUN	NN	_	4	A	4:A	_
+9	der	der	DET	ART	_	10	R	10:R	_
+10	Kabine	Kabine	NOUN	NE	_	8	E	8:E	_
+11	und	und	CCONJ	NE	_	4	L	4:L	_
+12	sanken	sinken	VERB	VVFIN	_	4	H	4:H	_
+13	bald	bald	ADV	ADV	_	12	D	12:D	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	tiefen	tief	ADJ	ADJA	_	16	E	16:E	_
+16	Schlummer	Schlummer	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

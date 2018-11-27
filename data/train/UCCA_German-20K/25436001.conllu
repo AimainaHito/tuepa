@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25436001
+# text = 3 Sekunden nachdem ich den Brief des ehrenwerten Marine ministers gelesen , begriff ich endlich , dass mein wahrer Beruf , das einzige Ziel meines Lebens , darin bestehe , das beunruhigende Ungeheuer zu verjagen und die Welt von ihm zu befreien .
+1	3	3	NUM	CARD	_	2	E	2:E	_
+2	Sekunden	Sekunde	NOUN	NN	_	13	D	13:D	_
+3	nachdem	nachdem	SCONJ	NE	_	13	L	13:L	_
+4	ich	ich	PRON	PPER	_	11	A	11:A	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Brief	Brief	NOUN	NN	_	11	A	11:A	_
+7	des	der	DET	ART	_	10	R	10:R	_
+8	ehrenwerten	ehrenwert	ADJ	ADJA	_	10	E	10:E	_
+9	Marine	Marine	NOUN	NN	_	10	E	10:E	_
+10	ministers	ministers	ADV	NE	_	6	E	6:E	_
+11	gelesen	lesen	VERB	VVPP	_	13	H	13:H	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	begriff	begreifen	VERB	VVFIN	_	0	H	0:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A|35:A	_
+15	endlich	endlich	ADV	ADV	_	13	D	13:D	_
+16	,	,	PUNCT	$,	_	13	U	13:U	_
+17	dass	dass	SCONJ	KOUS	_	29	R	29:R	_
+18	mein	mein	PRON	PPOSAT	_	20	E	20:E	_
+19	wahrer	wahr	PRON	ADJA	_	20	E	20:E	_
+20	Beruf	Beruf	NOUN	NN	_	29	A	29:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	das	der	PRON	ART	_	24	E	24:E	_
+23	einzige	einzig	ADJ	ADJA	_	24	D	24:D	_
+24	Ziel	Ziel	NOUN	NN	_	20	E	20:E	_
+25	meines	mein	PRON	PPOSAT	_	26	E	26:E	_
+26	Lebens	Leben	NOUN	NN	_	24	A	24:A	_
+27	,	,	PUNCT	$,	_	29	U	29:U	_
+28	darin	darin	PRON	PAV	_	29	F	29:F	_
+29	bestehe	bestehen	VERB	VVFIN	_	13	A	13:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	das	der	DET	ART	_	33	E	33:E	_
+32	beunruhigende	beunruhigend	ADJ	ADJA	_	35	A	35:A	_
+33	Ungeheuer	Ungeheuer	NOUN	NN	_	32	A	32:A	_
+34	zu	zu	PART	VVINF	_	35	F	35:F	_
+35	verjagen	verjagen	VERB	VVINF	_	29	A	29:A	_
+36	und	und	CCONJ	NE	_	13	L	13:L	_
+37	die	der	DET	ART	_	38	E	38:E	_
+38	Welt	Welt	NOUN	NN	_	42	A	42:A	_
+39	von	von	ADP	NE	_	40	R	40:R	_
+40	ihm	er	PRON	PPER	_	42	A	42:A	_
+41	zu	zu	PART	VVINF	_	42	F	42:F	_
+42	befreien	befreien	VERB	VVINF	_	13	H	13:H	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

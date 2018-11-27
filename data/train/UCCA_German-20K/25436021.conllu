@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25436021
+# text = Übrigens von trefflicher Gesundheit , die allen Krankheiten trotzte , starken Muskeln , aber ohne Nerven , nicht einen Schein von Nerven - moralisch , versteht sich .
+1	Übrigens	übrigens	ADV	ADV	_	4	G	4:G	_
+2	von	von	ADP	NE	_	4	R	4:R	_
+3	trefflicher	trefflich	ADJ	ADJA	_	4	E	4:E	_
+4	Gesundheit	Gesundheit	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	9	R	9:R	_
+7	allen	alle	PRON	PIS	_	8	E	8:E	_
+8	Krankheiten	Krankheit	NOUN	NN	_	9	A	9:A	_
+9	trotzte	trotzen	VERB	VVFIN	_	4	E	4:E	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	starken	stark	ADJ	ADJA	_	12	E	12:E	_
+12	Muskeln	Muskel	NOUN	NN	_	4	H	4:H	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	aber	aber	CCONJ	KON	_	4	L	4:L	_
+15	ohne	ohne	ADP	CARD	_	16	D	16:D	_
+16	Nerven	Nerv|Nerven	NOUN	NN	_	4	H	4:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	nicht	nicht	PART	XY	_	16	D	16:D	_
+19	einen	ein	DET	ART	_	18	Terminal	18:Terminal	_
+20	Schein	Schein	NOUN	NN	_	16	A	16:A	_
+21	von	von	ADP	NE	_	22	R	22:R	_
+22	Nerven	Nerv|Nerven	NOUN	NN	_	20	E	20:E	_
+23	-	-	PUNCT	$(	_	16	U	16:U	_
+24	moralisch	moralisch	ADJ	ADJD	_	16	D	16:D	_
+25	,	,	PUNCT	$,	_	4	U	4:U	_
+26	versteht	verstehen	VERB	VVFIN	_	4	H	4:H	_
+27	sich	er|es|sie	PRON	PRF	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	$.	_	26	U	26:U	_
+

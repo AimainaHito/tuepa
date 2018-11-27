@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 231008
+# text = Contestants were trained by Jackie Chan Stunt Team members Alan Wu and He Jun and competed in various fields , including explosion scenes , high - altitude wire - suspension , gunplay , car stunts , diving , obstacles courses etc .
+1	Contestants	Contestant	NOUN	NNS	_	3	A	3:A|16:A	_
+2	were	be	AUX	VBD	_	3	F	3:F	_
+3	trained	train	VERB	VBN	_	0	H	0:H	_
+4	by	by	ADP	IN	_	10	R	10:R	_
+5	Jackie	Jackie	PROPN	NNP	_	9	E	9:E	_
+6	Chan	Chan	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Stunt	Stunt	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	Team	Team	NOUN	NN	_	5	Terminal	5:Terminal	_
+9	members	member	NOUN	NNS	_	10	E	10:E	_
+10	Alan	Alan	PROPN	NNP	_	3	A	3:A	_
+11	Wu	Wu	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	He	he	PROPN	NNP	_	10	C	10:C	_
+14	Jun	Jun	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	competed	compet	VERB	VBN	_	3	H	3:H	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	various	various	ADJ	JJ	_	19	E	19:E	_
+19	fields	field	NOUN	NNS	_	16	A	16:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	including	include	VERB	VBG	_	23	R	23:R	_
+22	explosion	explosion	NOUN	NN	_	23	E	23:E	_
+23	scenes	scene	NOUN	NNS	_	19	E	19:E	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	high	high	ADJ	JJ	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	altitude	altitude	NOUN	NN	_	30	E	30:E	_
+28	wire	wire	NOUN	NN	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	suspension	suspension	NOUN	NN	_	23	C	23:C	_
+31	,	,	PUNCT	,	_	23	U	23:U	_
+32	gunplay	gunplay	NOUN	NN	_	23	C	23:C	_
+33	,	,	PUNCT	,	_	23	U	23:U	_
+34	car	car	NOUN	NN	_	35	E	35:E	_
+35	stunts	stunt	NOUN	NNS	_	23	C	23:C	_
+36	,	,	PUNCT	,	_	23	U	23:U	_
+37	diving	diving	NOUN	NN	_	23	C	23:C	_
+38	,	,	PUNCT	,	_	23	U	23:U	_
+39	obstacles	obstacle	NOUN	NNS	_	40	E	40:E	_
+40	courses	course	NOUN	NNS	_	23	C	23:C	_
+41	etc	etc	X	FW	_	23	N	23:N	_
+42	.	.	PUNCT	.	_	23	U	23:U	_
+

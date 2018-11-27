@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25478000
+# text = Die Berichte des Shannon und der Helvetia hatten die Verhältnisse etwas übertrieben , und ich schätzte seine Länge auf nur 250 Fuß .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Berichte	Bericht	NOUN	NN	_	12	A	12:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Shannon	Shannon	PROPN	NE	_	2	E	2:E	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Helvetia	Helvetia	PROPN	NE	_	4	C	4:C	_
+8	hatten	haben	VERB	VAFIN	_	12	F	12:F	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Verhältnisse	Verhältnis	NOUN	NN	_	12	A	12:A	_
+11	etwas	etwas	PRON	PIS	_	12	D	12:D	_
+12	übertrieben	übertreiben	ADV	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	und	und	CCONJ	NE	_	12	L	12:L	_
+15	ich	ich	PRON	PPER	_	16	A	16:A	_
+16	schätzte	schätzen	VERB	VVFIN	_	12	H	12:H	_
+17	seine	sein	DET	PPOSAT	_	18	E	18:E	_
+18	Länge	Länge	NOUN	NN	_	16	A	16:A	_
+19	auf	auf	ADP	APPR	_	22	R	22:R	_
+20	nur	nur	ADV	NE	_	18	D	18:D	_
+21	250	250	NUM	CARD	_	22	E	22:E	_
+22	Fuß	Fuß	NOUN	VMFIN	_	18	A	18:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

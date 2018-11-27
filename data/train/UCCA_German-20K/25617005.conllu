@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25617005
+# text = » Das ist ein schlimmes Meer ! « sagte Ned Land .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Das	der	PRON	PDS	_	5	F	5:F	_
+3	ist	sein	AUX	VVFIN	_	5	F	5:F	_
+4	ein	ein	DET	ART	_	6	E	6:E	_
+5	schlimmes	schlimm	ADJ	ADJA	_	9	A	9:A	_
+6	Meer	Meer	NOUN	NN	_	5	A	5:A	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	Ned	Ned	PROPN	NE	_	9	A	9:A	_
+11	Land	Land	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

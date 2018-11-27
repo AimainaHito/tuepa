@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 617000
+# text = When McCartney was a child , his mother read him poems and encouraged him to read books .
+1	When	when	ADV	WRB	_	5	L	5:L	_
+2	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	child	child	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	mother	mother	NOUN	NN	_	9	A	9:A|13:A	_
+9	read	read	VERB	VBD	_	5	H	5:H	_
+10	him	he	PRON	PRP	_	9	A	9:A	_
+11	poems	poem	NOUN	NNS	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	5	L	5:L	_
+13	encouraged	encourage	VERB	VBD	_	5	H	5:H	_
+14	him	he	PRON	PRP	_	13	A	13:A|16:A	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	read	read	VERB	VB	_	13	A	13:A	_
+17	books	book	NOUN	NNS	_	16	A	16:A	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

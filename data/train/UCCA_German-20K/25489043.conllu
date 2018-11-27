@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25489043
+# text = Er sprach in meiner Gegenwart stets einen sonderbaren , durchaus unverständlichen Dialekt .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	meiner	mein	DET	PPOSAT	_	5	E	5:E	_
+5	Gegenwart	Gegenwart	NOUN	NN	_	2	A	2:A	_
+6	stets	stets	ADV	ADV	_	2	D	2:D	_
+7	einen	ein	DET	ART	_	12	E	12:E	_
+8	sonderbaren	sonderbar	ADJ	ADJA	_	12	E	12:E	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	durchaus	durchaus	ADV	ADV	_	11	E	11:E	_
+11	unverständlichen	unverständlich	ADJ	ADJA	_	8	C	8:C	_
+12	Dialekt	Dialekt	NOUN	NN	_	2	A	2:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

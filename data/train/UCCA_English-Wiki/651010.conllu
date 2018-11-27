@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 651010
+# text = Lennon and Ono co - hosted the Mike Douglas Show for a week in February 1972 , introducing guests such as Jerry Rubin and Bobby Seale to mid - America .
+1	Lennon	Lennon	PROPN	NNP	_	6	A	6:A|18:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Ono	Ono	PROPN	NNP	_	1	C	1:C	_
+4	co	co	X	AFX	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	hosted	host	VERB	VBN	_	0	H	0:H	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Mike	Mike	PROPN	NNP	_	6	A	6:A	_
+9	Douglas	Douglas	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Show	show	VERB	VBD	_	8	Terminal	8:Terminal	_
+11	for	for	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	week	week	NOUN	NN	_	6	D	6:D	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	February	February	PROPN	NNP	_	16	E	16:E	_
+16	1972	1972	NUM	CD	_	6	D	6:D	_
+17	,	,	PUNCT	,	_	6	U	6:U	_
+18	introducing	introduce	VERB	VBG	_	6	H	6:H	_
+19	guests	guest	NOUN	NNS	_	18	A	18:A	_
+20	such	such	ADJ	JJ	_	22	R	22:R	_
+21	as	as	ADP	IN	_	20	Terminal	20:Terminal	_
+22	Jerry	Jerry	PROPN	NNP	_	19	E	19:E	_
+23	Rubin	Rubin	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	and	and	CCONJ	CC	_	22	N	22:N	_
+25	Bobby	Bobby	PROPN	NNP	_	22	C	22:C	_
+26	Seale	Seale	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	to	to	ADP	IN	_	30	R	30:R	_
+28	mid	mid	X	AFX	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	America	America	PROPN	NNP	_	18	A	18:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 467012
+# text = During the 1978 - 79 season , Michigan State again qualified for the NCAA Tournament , where they advanced to the championship game and faced Indiana State University , which was led by senior Larry Bird .
+1	During	during	ADP	IN	_	6	L	6:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1978	1978	NUM	CD	_	6	D	6:D	_
+4	-	-	PUNCT	HYPH	_	3	U	3:U	_
+5	79	79	NUM	CD	_	3	C	3:C	_
+6	season	season	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Michigan	Michigan	PROPN	NNP	_	11	A	11:A	_
+9	State	State	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	again	again	ADV	RB	_	11	D	11:D	_
+11	qualified	qualified	ADJ	JJ	_	6	H	6:H	_
+12	for	for	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	NCAA	NCAA	PROPN	NNP	_	15	E	15:E	_
+15	Tournament	tournament	PROPN	NNP	_	11	A	11:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	where	where	ADV	WRB	_	19	F	19:F	_
+18	they	they	PRON	PRP	_	19	A	19:A|25:A	_
+19	advanced	advance	VERB	VBD	_	15	E	15:E	_
+20	to	to	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	championship	championship	NOUN	NN	_	23	E	23:E	_
+23	game	game	NOUN	NN	_	19	A	19:A	_
+24	and	and	CCONJ	CC	_	19	L	19:L	_
+25	faced	face	VERB	VBD	_	19	H	19:H	_
+26	Indiana	Indiana	PROPN	NNP	_	28	E	28:E	_
+27	State	State	PROPN	NNP	_	28	E	28:E	_
+28	University	University	PROPN	NNP	_	25	A	25:A	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	which	which	PRON	WDT	_	32	F	32:F	_
+31	was	be	AUX	VBD	_	32	F	32:F	_
+32	led	lead	VERB	VBN	_	28	E	28:E	_
+33	by	by	ADP	IN	_	35	R	35:R	_
+34	senior	senior	ADJ	JJ	_	35	E	35:E	_
+35	Larry	Larry	PROPN	NNP	_	32	A	32:A	_
+36	Bird	bird	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	.	.	PUNCT	.	_	35	U	35:U	_
+

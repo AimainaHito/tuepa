@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 558002
+# text = Sam , I think , had the door to the control booth open ... he stuck his head out and said , ' What are you doing ?
+1	Sam	Sam	PROPN	NNP	_	6	A	6:A	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	I	I	PRON	PRP	_	4	A	4:A	_
+4	think	think	VERB	VBP	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	had	have	VERB	VBD	_	4	A	4:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	door	door	NOUN	NN	_	13	A	13:A	_
+9	to	to	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	control	control	NOUN	NN	_	12	E	12:E	_
+12	booth	booth	CCONJ	CC	_	8	E	8:E	_
+13	open	open	ADJ	JJ	_	6	A	6:A	_
+14	...	...	PUNCT	,	_	4	U	4:U	_
+15	he	he	PRON	PRP	_	16	A	16:A|21:A	_
+16	stuck	stick	VERB	VBD	_	4	H	4:H	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	head	head	NOUN	NN	_	16	A	16:A	_
+19	out	out	ADP	RP	_	16	Terminal	16:Terminal	_
+20	and	and	CCONJ	CC	_	4	L	4:L	_
+21	said	say	VERB	VBD	_	4	H	4:H	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	'	'	PUNCT	``	_	21	U	21:U	_
+24	What	what	PRON	WP	_	27	D	27:D	_
+25	are	be	AUX	VBP	_	27	F	27:F	_
+26	you	you	PRON	PRP	_	27	A	27:A	_
+27	doing	do	VERB	VBG	_	21	A	21:A	_
+28	?	?	PUNCT	.	_	27	U	27:U	_
+

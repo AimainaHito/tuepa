@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25605000
+# text = Ich las eben ein reizendes Buch von Jean Macé , als Conseil mich mit einem sonderbaren Ton unterbrach .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	las	lesen	PROPN	VVFIN	_	0	H	0:H	_
+3	eben	eben	ADV	ADV	_	2	D	2:D	_
+4	ein	ein	DET	ART	_	6	E	6:E	_
+5	reizendes	reizendes	ADJ	ADJA	_	6	E	6:E	_
+6	Buch	Buch	NOUN	NN	_	2	A	2:A	_
+7	von	von	ADP	NN	_	8	R	8:R	_
+8	Jean	Jean	PROPN	NE	_	6	E	6:E	_
+9	Macé	Macé	PROPN	NE	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	als	als	ADP	KOKOM	_	2	L	2:L	_
+12	Conseil	Conseil	NOUN	NE	_	18	A	18:A	_
+13	mich	ich	PRON	PRF	_	18	A	18:A	_
+14	mit	mit	ADP	APPR	_	17	R	17:R	_
+15	einem	ein	DET	ART	_	17	E	17:E	_
+16	sonderbaren	sonderbar	ADJ	ADJA	_	17	E	17:E	_
+17	Ton	Ton	NOUN	NN	_	18	A	18:A	_
+18	unterbrach	unterbrechen	VERB	VVFIN	_	2	H	2:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

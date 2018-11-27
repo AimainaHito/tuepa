@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 725010
+# text = In 1999 , she starred in the comedy - drama Pushing Tin , alongside John Cusack , Billy Bob Thornton , and Cate Blanchett .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1999	1999	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	comedy	comedy	NOUN	NN	_	11	E	11:E	_
+9	-	-	PUNCT	HYPH	_	8	U	8:U	_
+10	drama	drama	NOUN	NN	_	8	C	8:C	_
+11	Pushing	pushing	NOUN	NN	_	5	A	5:A	_
+12	Tin	tin	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	alongside	alongside	ADP	IN	_	15	R	15:R	_
+15	John	John	PROPN	NNP	_	5	A	5:A	_
+16	Cusack	Cusack	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	15	U	15:U	_
+18	Billy	Billy	PROPN	NNP	_	15	C	15:C	_
+19	Bob	Bob	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Thornton	Thornton	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	,	_	15	U	15:U	_
+22	and	and	CCONJ	CC	_	15	N	15:N	_
+23	Cate	Cate	PROPN	NNP	_	15	C	15:C	_
+24	Blanchett	Blanchett	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	15	U	15:U	_
+

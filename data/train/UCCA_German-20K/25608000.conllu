@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25608000
+# text = Gegen Abend schwand Clermont-Tonnère in der Ferne aus den Augen , und die Fahrt der " Nautilus " änderte merklich ihre Richtung .
+1	Gegen	gegen	ADP	APPR	_	2	E	2:E	_
+2	Abend	Abend	NOUN	NN	_	3	D	3:D	_
+3	schwand	schwinden	VERB	VVFIN	_	0	H	0:H	_
+4	Clermont-Tonnère	Clermont-Tonnère	PROPN	NE	_	3	A	3:A	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Ferne	Ferne	NOUN	NN	_	3	A	3:A	_
+8	aus	aus	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Augen	Auge	NOUN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	und	und	CCONJ	NE	_	3	L	3:L	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Fahrt	Fahrt	NOUN	NN	_	19	A	19:A	_
+15	der	der	DET	ART	_	17	R	17:R	_
+16	"	"	PUNCT	$(	_	17	U	17:U	_
+17	Nautilus	Nautilus	PROPN	NE	_	14	E	14:E	_
+18	"	"	PUNCT	$(	_	19	U	19:U	_
+19	änderte	ändern	VERB	VVFIN	_	3	H	3:H	_
+20	merklich	merklich	ADJ	ADV	_	19	D	19:D	_
+21	ihre	ihr	DET	PPOSAT	_	22	E	22:E	_
+22	Richtung	Richtung	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

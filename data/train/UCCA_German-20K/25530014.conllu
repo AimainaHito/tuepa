@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25530014
+# text = Es bestand aus einer Suppe von Caretschildkröte , Meerbarbe von weißem Fleisch , deren Leber besonders in köstlicher Zubereitung , und Stückchen Kaiser-Holocante , das mir schmackhafter als Salmen vorkam .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	bestand	bestehen	VERB	VVFIN	_	0	H	0:H	_
+3	aus	aus	ADP	APPR	_	5	R	5:R	_
+4	einer	ein	DET	ART	_	5	E	5:E	_
+5	Suppe	Suppe	NOUN	NN	_	2	A	2:A	_
+6	von	von	ADP	NE	_	7	R	7:R	_
+7	Caretschildkröte	Caretschildkröte	PROPN	NE	_	5	E	5:E	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	Meerbarbe	Meerbarbe	NOUN	NE	_	5	C	5:C	_
+10	von	von	ADP	NE	_	12	R	12:R	_
+11	weißem	weiß	ADJ	ADJA	_	12	E	12:E	_
+12	Fleisch	Fleisch	NOUN	NN	_	9	E	9:E	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	deren	der	DET	PRELAT	_	15	E	15:E	_
+15	Leber	Leber	NOUN	NN	_	19	A	19:A	_
+16	besonders	besonders	ADV	ADV	_	19	D	19:D	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	köstlicher	köstlich	ADJ	ADJA	_	19	D	19:D	_
+19	Zubereitung	Zubereitung	NOUN	NN	_	9	E	9:E	_
+20	,	,	PUNCT	$,	_	5	U	5:U	_
+21	und	und	CCONJ	NE	_	5	N	5:N	_
+22	Stückchen	Stückchen	NOUN	NE	_	23	E	23:E	_
+23	Kaiser-Holocante	Kaiser-Holocante	NOUN	NE	_	5	C	5:C	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	das	der	PRON	PRELS	_	30	R	30:R	_
+26	mir	ich	PRON	PPER	_	30	A	30:A	_
+27	schmackhafter	schmackhafter	ADV	ADJA	_	30	D	30:D	_
+28	als	als	ADP	KOKOM	_	29	R	29:R	_
+29	Salmen	Salm	NOUN	NN	_	30	A	30:A	_
+30	vorkam	vorkommen	VERB	VVFIN	_	23	E	23:E	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 558006
+# text = Three days later , popular Memphis DJ Dewey Phillips played " That 's All Right " on his Red , Hot , and Blue show .
+1	Three	three	NUM	CD	_	2	E	2:E	_
+2	days	day	NOUN	NNS	_	10	D	10:D	_
+3	later	later	ADV	RB	_	2	R	2:R	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	popular	popular	ADJ	JJ	_	7	E	7:E	_
+6	Memphis	Memphis	PROPN	NNP	_	7	E	7:E	_
+7	DJ	DJ	PROPN	NNP	_	8	E	8:E	_
+8	Dewey	Dewey	PROPN	NNP	_	10	A	10:A	_
+9	Phillips	Phillips	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	played	play	VERB	VBD	_	0	H	0:H	_
+11	"	"	PUNCT	``	_	10	U	10:U	_
+12	That	that	PRON	DT	_	10	A	10:A	_
+13	's	be	AUX	VBZ	_	12	Terminal	12:Terminal	_
+14	All	all	DET	DT	_	12	Terminal	12:Terminal	_
+15	Right	right	ADJ	JJ	_	12	Terminal	12:Terminal	_
+16	"	"	PUNCT	``	_	10	U	10:U	_
+17	on	on	ADP	IN	_	25	R	25:R	_
+18	his	he	PRON	PRP$	_	25	E	25:E	_
+19	Red	red	NOUN	NN	_	25	E	25:E	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	Hot	hot	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	and	and	CCONJ	CC	_	19	Terminal	19:Terminal	_
+24	Blue	Blue	PROPN	NNP	_	19	Terminal	19:Terminal	_
+25	show	show	VERB	VB	_	10	A	10:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

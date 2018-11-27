@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25761014
+# text = Kapitän Nemo kam zu uns .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	zu	zu	ADP	NE	_	5	R	5:R	_
+5	uns	wir	PRON	NN	_	3	A	3:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

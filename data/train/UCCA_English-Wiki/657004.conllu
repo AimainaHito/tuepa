@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 657004
+# text = During the recording of the album , Carey began to deviate from her R & B and pop beginnings and slowly traversed into hip hop .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	recording	recording	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	album	album	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	Carey	Carey	PROPN	NNP	_	11	A	11:A|22:A	_
+9	began	begin	VERB	VBD	_	11	D	11:D	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	deviate	deviate	VERB	VB	_	3	H	3:H	_
+12	from	from	ADP	IN	_	19	R	19:R	_
+13	her	she	PRON	PRP$	_	19	E	19:E	_
+14	R	r	NOUN	NN	_	19	E	19:E	_
+15	&	&	CCONJ	CC	_	14	U	14:U	_
+16	B	b	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	and	and	CCONJ	CC	_	14	N	14:N	_
+18	pop	pop	NOUN	NN	_	14	C	14:C	_
+19	beginnings	beginning	NOUN	NNS	_	11	A	11:A	_
+20	and	and	CCONJ	CC	_	3	L	3:L	_
+21	slowly	slowly	ADV	RB	_	22	D	22:D	_
+22	traversed	traverse	VERB	VBN	_	3	H	3:H	_
+23	into	into	ADP	IN	_	24	R	24:R	_
+24	hip	hip	NOUN	NN	_	22	A	22:A	_
+25	hop	hop	VERB	VBP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

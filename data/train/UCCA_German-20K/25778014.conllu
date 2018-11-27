@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25778014
+# text = Der Starrkopf weigerte sich , und ich sah wohl , dass seine Schweigsamkeit nebst seiner schlimmen Laune täglich zunahm .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Starrkopf	Starrkopf	NOUN	NN	_	3	A	3:A	_
+3	weigerte	weigern	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	sah	sehen	VERB	VVFIN	_	3	H	3:H	_
+9	wohl	wohl	ADV	ADV	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+12	seine	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Schweigsamkeit	Schweigsamkeit	NOUN	NN	_	19	A	19:A	_
+14	nebst	neben	VERB	APPR	_	17	R	17:R	_
+15	seiner	sein	DET	PPOSAT	_	17	E	17:E	_
+16	schlimmen	schlimm	ADJ	ADJA	_	17	E	17:E	_
+17	Laune	Laune	NOUN	NE	_	19	A	19:A	_
+18	täglich	täglich	ADJ	ADJD	_	19	D	19:D	_
+19	zunahm	zunehmen	VERB	VVFIN	_	8	A	8:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 546001
+# text = Initially , he tried to compete with the new medium , introducing gimmicks such as 3 - D films , which soon lost their appeal among moviegoers .
+1	Initially	initially	ADV	RB	_	6	D	6:D	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	he	he	PRON	PRP	_	6	A	6:A|12:A	_
+4	tried	try	VERB	VBD	_	6	D	6:D	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	compete	compete	VERB	VB	_	0	H	0:H	_
+7	with	with	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	new	new	ADJ	JJ	_	10	E	10:E	_
+10	medium	medium	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	introducing	introduce	VERB	VBG	_	6	H	6:H	_
+13	gimmicks	gimmick	NOUN	NNS	_	12	A	12:A	_
+14	such	such	ADJ	JJ	_	19	R	19:R	_
+15	as	as	ADP	IN	_	14	Terminal	14:Terminal	_
+16	3	3	NUM	CD	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	D	d	NOUN	NN	_	19	E	19:E	_
+19	films	film	NOUN	NNS	_	13	E	13:E	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	which	which	PRON	WDT	_	25	F	25:F	_
+22	soon	soon	ADV	RB	_	25	D	25:D	_
+23	lost	lose	VERB	VBD	_	25	D	25:D	_
+24	their	they	PRON	PRP$	_	25	E	25:E	_
+25	appeal	appeal	NOUN	NN	_	19	E	19:E	_
+26	among	among	ADP	IN	_	27	R	27:R	_
+27	moviegoers	moviegoer	NOUN	NNS	_	25	A	25:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

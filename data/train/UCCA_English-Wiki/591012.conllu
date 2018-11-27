@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 591012
+# text = , also performing live with Marilyn Manson in the Revolver Golden Gods Awards 2012 , performing various songs of Marilyn Manson .
+1	,	,	PUNCT	,	_	3	U	3:U	_
+2	also	also	ADV	RB	_	3	L	3:L	_
+3	performing	perform	VERB	VBG	_	0	H	0:H	_
+4	live	live	NOUN	NN	_	3	D	3:D	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Marilyn	Marilyn	PROPN	NNP	_	3	A	3:A	_
+7	Manson	Manson	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Revolver	Revolver	PROPN	NNP	_	3	A	3:A	_
+11	Golden	golden	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Gods	gods	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	Awards	awards	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	2012	2012	NUM	CD	_	10	E	10:E	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	performing	perform	VERB	VBG	_	3	H	3:H	_
+17	various	various	ADJ	JJ	_	18	E	18:E	_
+18	songs	song	NOUN	NNS	_	16	A	16:A	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	Marilyn	Marilyn	PROPN	NNP	_	18	E	18:E	_
+21	Manson	Manson	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

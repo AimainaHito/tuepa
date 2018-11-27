@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 617002
+# text = In 2001 , McCartney published Blackbird Singing , a volume of poems and lyrics to his songs for which he gave readings in Liverpool and New York City .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2001	2001	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+5	published	publish	VERB	VBD	_	0	H	0:H	_
+6	Blackbird	Blackbird	PROPN	NNP	_	5	A	5:A|22:A	_
+7	Singing	Singing	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	volume	volume	NOUN	NN	_	6	E	6:E	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	poems	poem	NOUN	NNS	_	10	E	10:E	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	lyrics	lyric	NOUN	NNS	_	12	C	12:C	_
+15	to	to	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	songs	song	NOUN	NNS	_	14	E	14:E	_
+18	for	for	ADP	IN	_	5	L	5:L	_
+19	which	which	PRON	WDT	_	18	F	18:F	_
+20	he	he	PRON	PRP	_	22	A	22:A	_
+21	gave	give	VERB	VBD	_	22	F	22:F	_
+22	readings	reading	NOUN	NNS	_	5	H	5:H	_
+23	in	in	ADP	IN	_	24	R	24:R	_
+24	Liverpool	Liverpool	PROPN	NNP	_	22	A	22:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	New	New	PROPN	NNP	_	24	C	24:C	_
+27	York	York	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	City	City	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	.	.	PUNCT	.	_	24	U	24:U	_
+

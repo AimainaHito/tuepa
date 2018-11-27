@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 123006
+# text = It was not until her 1991 autobiography , Me : Stories of My Life , that Hepburn revealed her true birth date .
+1	It	it	PRON	PRP	_	9	L	9:L	_
+2	was	be	AUX	VBD	_	1	Terminal	1:Terminal	_
+3	not	not	PART	RB	_	1	Terminal	1:Terminal	_
+4	until	until	ADP	IN	_	1	Terminal	1:Terminal	_
+5	her	she	PRON	PRP	_	9	A	9:A	_
+6	1991	1991	NUM	CD	_	9	E	9:E	_
+7	autobiography	autobiography	NOUN	NN	_	9	E	9:E	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	Me	I	PRON	PRP	_	0	H	0:H	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	Stories	story	NOUN	NNS	_	9	Terminal	9:Terminal	_
+12	of	of	ADP	IN	_	9	Terminal	9:Terminal	_
+13	My	my	PRON	PRP$	_	9	Terminal	9:Terminal	_
+14	Life	life	NOUN	NN	_	9	Terminal	9:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	that	that	SCONJ	IN	_	18	F	18:F	_
+17	Hepburn	Hepburn	PROPN	NNP	_	18	A	18:A	_
+18	revealed	reveal	VERB	VBD	_	9	H	9:H	_
+19	her	she	PRON	PRP$	_	21	A	21:A	_
+20	true	True	ADJ	JJ	_	21	D	21:D	_
+21	birth	birth	NOUN	NN	_	18	A	18:A	_
+22	date	date	NOUN	NN	_	21	E	21:E	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

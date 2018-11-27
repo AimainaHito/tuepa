@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 710003
+# text = His scheduled European tour was cancelled , but Dylan made a speedy recovery and left the hospital saying , " I really thought I 'd be seeing Elvis soon .
+1	His	he	PRON	PRP$	_	4	E	4:E	_
+2	scheduled	schedule	VERB	VBN	_	4	E	4:E	_
+3	European	european	ADJ	JJ	_	4	E	4:E	_
+4	tour	tour	NOUN	NN	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	cancelled	cancel	VERB	VBN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	but	but	CCONJ	CC	_	6	L	6:L	_
+9	Dylan	Dylan	PROPN	NNP	_	13	A	13:A|15:A|18:A	_
+10	made	make	VERB	VBD	_	13	F	13:F	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	speedy	speedy	ADJ	JJ	_	13	D	13:D	_
+13	recovery	recovery	NOUN	NN	_	6	H	6:H	_
+14	and	and	CCONJ	CC	_	6	L	6:L	_
+15	left	leave	VERB	VBD	_	6	H	6:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	hospital	hospital	NOUN	NN	_	15	A	15:A	_
+18	saying	say	VERB	VBG	_	6	H	6:H	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	"	"	PUNCT	``	_	18	U	18:U	_
+21	I	I	PRON	PRP	_	23	A	23:A	_
+22	really	really	ADV	RB	_	23	D	23:D	_
+23	thought	think	VERB	VBD	_	18	A	18:A	_
+24	I	I	PRON	PRP	_	27	A	27:A	_
+25	'd	would	AUX	MD	_	27	F	27:F	_
+26	be	be	AUX	VB	_	27	F	27:F	_
+27	seeing	see	VERB	VBG	_	23	A	23:A	_
+28	Elvis	Elvis	PROPN	NNP	_	27	A	27:A	_
+29	soon	soon	ADV	RB	_	27	D	27:D	_
+30	.	.	PUNCT	.	_	27	U	27:U	_
+

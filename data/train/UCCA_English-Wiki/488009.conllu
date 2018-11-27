@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 488009
+# text = The film was an international success , grossing US $ 364million .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	6	A	6:A|8:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	an	a	DET	DT	_	5	E	5:E	_
+5	international	international	ADJ	JJ	_	6	A	6:A	_
+6	success	success	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	grossing	grosse	VERB	VBG	_	6	H	6:H	_
+9	US	US	PROPN	NNP	_	8	A	8:A	_
+10	$	$	SYM	$	_	9	U	9:U	_
+11	364million	364million	NUM	CD	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	.	_	8	U	8:U	_
+

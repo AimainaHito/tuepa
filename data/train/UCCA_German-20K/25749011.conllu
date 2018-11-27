@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25749011
+# text = Aber Kapitän Nemo wollte nicht diese wackeren Leute Zeit und Mühe verlieren lassen und tauchte unter .
+1	Aber	aber	PROPN	KON	_	13	L	13:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	0	C	0:C|15:A	_
+4	wollte	wollen	AUX	VMFIN	_	13	D	13:D	_
+5	nicht	nicht	PART	CARD	_	13	D	13:D	_
+6	diese	dies	PRON	PDS	_	8	E	8:E	_
+7	wackeren	wack	ADJ	VVFIN	_	8	E	8:E	_
+8	Leute	Leute	NOUN	NN	_	12	A	12:A	_
+9	Zeit	Zeit	NOUN	NN	_	12	A	12:A	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	Mühe	Mühe	NOUN	NN	_	9	C	9:C	_
+12	verlieren	verlieren	VERB	VVINF	_	13	A	13:A	_
+13	lassen	lassen	VERB	VVINF	_	0	H	0:H	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	tauchte	tauchen	VERB	VVFIN	_	13	H	13:H	_
+16	unter	unter	ADP	ADJD	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

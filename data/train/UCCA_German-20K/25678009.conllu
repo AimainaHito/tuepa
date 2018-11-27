@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25678009
+# text = » Ach ! diese Essenz « , erwiderte Ned , » muß teuer sein . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ach	ach	PROPN	ITJ	_	8	A	8:A	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Essenz	Essenz	NOUN	NN	_	13	A	13:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	muß	müssen	AUX	VMFIN	_	13	D	13:D	_
+13	teuer	teuer	ADJ	ADJD	_	2	H	2:H	_
+14	sein	sein	AUX	VAINF	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+16	«	«	PUNCT	$(	_	13	U	13:U	_
+

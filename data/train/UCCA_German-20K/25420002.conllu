@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25420002
+# text = Dieses besonders von der gelehrten Welt gut aufgenommene Buch machte aus mir eine Spezialität in diesem noch ziemlich unklaren Teil der Naturwissenschaft .
+1	Dieses	dies	PRON	PDAT	_	9	E	9:E	_
+2	besonders	besonders	ADV	ADV	_	8	D	8:D	_
+3	von	von	ADP	NN	_	6	R	6:R	_
+4	der	der	DET	ART	_	6	E	6:E	_
+5	gelehrten	gelehrt	ADJ	ADJA	_	6	E	6:E	_
+6	Welt	Welt	NOUN	NN	_	8	A	8:A	_
+7	gut	gut	ADJ	ADJD	_	8	D	8:D	_
+8	aufgenommene	aufgenommene	ADJ	ADJA	_	9	E	9:E	_
+9	Buch	Buch	NOUN	NN	_	10	A	10:A	_
+10	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+11	aus	aus	ADP	APPR	_	12	R	12:R	_
+12	mir	ich	PRON	PPER	_	10	A	10:A	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	Spezialität	Spezialität	NOUN	NN	_	10	A	10:A	_
+15	in	in	ADP	APPR	_	20	R	20:R	_
+16	diesem	dies	PRON	PDAT	_	20	E	20:E	_
+17	noch	noch	ADV	NN	_	19	E	19:E	_
+18	ziemlich	ziemlich	ADV	ADV	_	19	E	19:E	_
+19	unklaren	unklar	ADJ	ADJA	_	20	E	20:E	_
+20	Teil	Teil	NOUN	NN	_	10	A	10:A	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	Naturwissenschaft	Naturwissenschaft	NOUN	NN	_	20	E	20:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

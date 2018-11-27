@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 63006
+# text = After Thelma & Louise , Pitt starred in the 1991 film Johnny Suede , a low - budget picture about an aspiring rock star , and the 1992 film Cool World , although neither furthered his career , having poor reviews and box office performance .
+1	After	after	ADP	IN	_	2	R	2:R	_
+2	Thelma	Thelma	PROPN	NNP	_	7	D	7:D	_
+3	&	&	CCONJ	CC	_	2	U	2:U	_
+4	Louise	Louise	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	Pitt	Pitt	PROPN	NNP	_	7	A	7:A	_
+7	starred	star	VERB	VBD	_	0	H	0:H	_
+8	in	in	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	1991	1991	NUM	CD	_	12	E	12:E	_
+11	film	film	NOUN	NN	_	12	E	12:E|34:C|39:A	_
+12	Johnny	Johnny	PROPN	NNP	_	7	A	7:A	_
+13	Suede	Suede	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	a	a	DET	DT	_	19	E	19:E	_
+16	low	low	ADJ	JJ	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	budget	budget	NOUN	NN	_	19	E	19:E	_
+19	picture	picture	NOUN	NN	_	12	E	12:E	_
+20	about	about	ADP	IN	_	24	R	24:R	_
+21	an	a	DET	DT	_	24	E	24:E	_
+22	aspiring	aspire	VERB	VBG	_	24	E	24:E	_
+23	rock	rock	NOUN	NN	_	24	E	24:E	_
+24	star	star	NOUN	NN	_	19	E	19:E	_
+25	,	,	PUNCT	,	_	12	U	12:U	_
+26	and	and	CCONJ	CC	_	12	N	12:N	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	1992	1992	NUM	CD	_	30	E	30:E	_
+29	film	film	NOUN	NN	_	30	E	30:E	_
+30	Cool	cool	PROPN	NNP	_	12	C	12:C	_
+31	World	World	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	,	,	PUNCT	,	_	7	U	7:U	_
+33	although	although	SCONJ	IN	_	7	L	7:L	_
+34	neither	neither	DET	DT	_	35	A	35:A	_
+35	furthered	further	VERB	VBD	_	7	H	7:H	_
+36	his	he	PRON	PRP$	_	37	E	37:E	_
+37	career	career	NOUN	NN	_	35	A	35:A	_
+38	,	,	PUNCT	,	_	7	U	7:U	_
+39	having	have	VERB	VBG	_	7	H	7:H	_
+40	poor	poor	ADJ	JJ	_	41	E	41:E	_
+41	reviews	review	NOUN	NNS	_	39	A	39:A	_
+42	and	and	CCONJ	CC	_	41	N	41:N	_
+43	box	box	NOUN	NN	_	44	E	44:E	_
+44	office	office	NOUN	NN	_	45	E	45:E	_
+45	performance	performance	NOUN	NN	_	41	C	41:C	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

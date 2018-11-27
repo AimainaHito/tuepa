@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25623006
+# text = » Ned ! Ned ! Was sagen Sie « , versetzte Conseil . » Sie Menschen fresser ! Dann bin ich ja nicht mehr in der Kabine sicher vor Ihnen ! Da könnte ich einmal morgens halb gefressen aufwachen ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ned	Ned	PROPN	NE	_	7	G	7:G	_
+3	!	!	PUNCT	$.	_	7	U	7:U	_
+4	Ned	Ned	PROPN	NE	_	7	G	7:G	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	Was	was	PRON	NE	_	7	A	7:A	_
+7	sagen	sagen	VERB	VVFIN	_	11	A	11:A	_
+8	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	versetzte	versetzter	ADJ	ADJA	_	0	H	0:H	_
+12	Conseil	Conseil	NOUN	NN	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+14	»	»	PUNCT	$(	_	11	U	11:U	_
+15	Sie	Sie|sie	PRON	PPER	_	17	A	17:A	_
+16	Menschen	Mensch	NOUN	NN	_	17	A	17:A	_
+17	fresser	fresser	ADJ	NN	_	7	H	7:H	_
+18	!	!	PUNCT	$.	_	7	U	7:U	_
+19	Dann	dann	ADV	ADV	_	7	L	7:L	_
+20	bin	sein	AUX	VAFIN	_	28	F	28:F	_
+21	ich	ich	PRON	PPER	_	28	A	28:A	_
+22	ja	ja	ADV	ADV	_	28	F	28:F	_
+23	nicht	nicht	PART	CARD	_	24	E	24:E	_
+24	mehr	mehr	ADV	ADV	_	28	D	28:D	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	der	der	DET	ART	_	27	E	27:E	_
+27	Kabine	Kabine	NOUN	NE	_	28	A	28:A	_
+28	sicher	sicher	ADJ	ADJA	_	7	H	7:H	_
+29	vor	vor	ADP	NN	_	30	R	30:R	_
+30	Ihnen	Ihnen	NOUN	PPER	_	28	A	28:A	_
+31	!	!	PUNCT	$.	_	7	U	7:U	_
+32	Da	da	ADV	ADV	_	7	L	7:L	_
+33	könnte	können	AUX	VMFIN	_	39	D	39:D	_
+34	ich	ich	PRON	PPER	_	39	A	39:A|38:A	_
+35	einmal	einmal	ADV	ADV	_	39	D	39:D	_
+36	morgens	morgens	ADV	ADV	_	39	D	39:D	_
+37	halb	halb	ADV	CARD	_	38	D	38:D	_
+38	gefressen	fressen	VERB	NN	_	39	A	39:A	_
+39	aufwachen	aufwachen	VERB	ADJA	_	7	H	7:H	_
+40	?	?	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

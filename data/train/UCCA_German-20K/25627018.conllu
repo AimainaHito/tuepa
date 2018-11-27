@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25627018
+# text = Nunmehr freilich schwatzten sie in Gesellschaft mit Verwandten aller Farben , Kakadus , Loris , Kolaos , lasurblauen Papuas und einer Mannigfaltigkeit reizenden Geflügels , das im allgemeinen wenig eßbar war .
+1	Nunmehr	nunmehr	ADV	NN	_	3	D	3:D	_
+2	freilich	freilich	ADJ	ADJD	_	3	D	3:D	_
+3	schwatzten	schwatzen	VERB	ADJA	_	0	H	0:H	_
+4	sie	sie	PRON	TRUNC	_	3	A	3:A	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Gesellschaft	Gesellschaft	NOUN	NN	_	3	A	3:A	_
+7	mit	mit	ADP	APPR	_	8	R	8:R	_
+8	Verwandten	Verwandte|Verwandter	NOUN	NN	_	3	A	3:A	_
+9	aller	alle	PRON	PIAT	_	10	E	10:E	_
+10	Farben	Farbe	NOUN	NN	_	8	E	8:E	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	Kakadus	Kakadus	PROPN	NE	_	3	A	3:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	Loris	Loris	PROPN	NE	_	12	C	12:C	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	Kolaos	Kolaos	PROPN	NE	_	12	C	12:C	_
+17	,	,	PUNCT	$,	_	12	U	12:U	_
+18	lasurblauen	lasurblau	ADJ	NN	_	19	E	19:E	_
+19	Papuas	Papuas	NOUN	NE	_	12	C	12:C	_
+20	und	und	CCONJ	NE	_	12	N	12:N	_
+21	einer	ein	DET	ART	_	22	E	22:E	_
+22	Mannigfaltigkeit	Mannigfaltigkeit	NOUN	NN	_	24	E	24:E	_
+23	reizenden	reizend	ADJ	ADJA	_	24	E	24:E	_
+24	Geflügels	Geflügels	NOUN	NN	_	12	C	12:C	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	das	der	PRON	ART	_	30	R	30:R	_
+27	im	im	ADV	NN	_	28	R	28:R	_
+28	allgemeinen	allgemein	ADJ	ADJA	_	30	D	30:D	_
+29	wenig	wenig	ADV	NN	_	30	D	30:D	_
+30	eßbar	eßbar	ADJ	ADJD	_	24	E	24:E	_
+31	war	sein	AUX	ADV	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

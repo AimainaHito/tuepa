@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 635007
+# text = The furore that followed - burning of Beatles ' records , Ku Klux Klan activity and threats against Lennon - contributed to the band 's decision to stop touring .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	furore	furore	NOUN	NN	_	4	A	4:A	_
+3	that	that	PRON	WDT	_	4	F	4:F	_
+4	followed	follow	VERB	VBD	_	21	A	21:A	_
+5	-	-	PUNCT	,	_	4	U	4:U	_
+6	burning	burning	VERB	VBG	_	4	E	4:E	_
+7	of	of	ADP	IN	_	10	R	10:R	_
+8	Beatles	Beatles	PROPN	NNPS	_	10	E	10:E	_
+9	'	's	PART	POS	_	10	U	10:U	_
+10	records	record	NOUN	NNS	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	Ku	Ku	PROPN	NNP	_	15	A	15:A	_
+13	Klux	Klux	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Klan	Klan	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	activity	activity	NOUN	NN	_	6	C	6:C	_
+16	and	and	CCONJ	CC	_	6	N	6:N	_
+17	threats	threat	NOUN	NNS	_	6	C	6:C	_
+18	against	against	ADP	IN	_	19	R	19:R	_
+19	Lennon	Lennon	PROPN	NNP	_	17	A	17:A	_
+20	-	-	PUNCT	,	_	21	U	21:U	_
+21	contributed	contribute	VERB	VBN	_	0	H	0:H	_
+22	to	to	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	band	band	NOUN	NN	_	26	A	26:A	_
+25	's	's	PART	POS	_	24	R	24:R	_
+26	decision	decision	NOUN	NN	_	21	A	21:A	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	stop	stop	VERB	VB	_	26	A	26:A	_
+29	touring	touring	NOUN	NN	_	28	A	28:A	_
+30	.	.	PUNCT	.	_	28	U	28:U	_
+

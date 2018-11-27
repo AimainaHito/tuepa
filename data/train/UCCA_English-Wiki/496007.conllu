@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 496007
+# text = Continuing the divergence from rock and roll and blues begun by his work with Farthingale , Bowie joined forces with Finnigan , Christina Ostrom and Barrie Jackson to run a folk club on Sunday nights at the Three Tuns pub in Beckenham High Street .
+1	Continuing	continue	VERB	VBG	_	0	H	0:H	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	divergence	divergence	NOUN	NN	_	10	A	10:A	_
+4	from	from	ADP	IN	_	5	R	5:R	_
+5	rock	rock	NOUN	NN	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	5	Terminal	5:Terminal	_
+7	roll	roll	NOUN	NN	_	5	Terminal	5:Terminal	_
+8	and	and	CCONJ	CC	_	5	N	5:N	_
+9	blues	blue	NOUN	NNS	_	5	C	5:C	_
+10	begun	begin	VERB	VBN	_	1	A	1:A	_
+11	by	by	ADP	IN	_	13	R	13:R	_
+12	his	he	PRON	PRP$	_	13	A	13:A	_
+13	work	work	NOUN	NN	_	10	A	10:A	_
+14	with	with	ADP	IN	_	15	R	15:R	_
+15	Farthingale	Farthingale	PROPN	NNP	_	13	A	13:A	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	Bowie	Bowie	PROPN	NNP	_	18	A	18:A|3:A|1:A|29:A	_
+18	joined	join	VERB	VBD	_	1	H	1:H	_
+19	forces	force	NOUN	NNS	_	18	Terminal	18:Terminal	_
+20	with	with	ADP	IN	_	21	R	21:R	_
+21	Finnigan	Finnigan	PROPN	NNP	_	18	A	18:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	Christina	Christina	PROPN	NNP	_	21	C	21:C	_
+24	Ostrom	Ostrom	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	and	and	CCONJ	CC	_	21	N	21:N	_
+26	Barrie	Barrie	PROPN	NNP	_	21	C	21:C	_
+27	Jackson	Jackson	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	to	to	PART	TO	_	1	L	1:L	_
+29	run	run	VERB	VB	_	1	H	1:H	_
+30	a	a	DET	DT	_	32	E	32:E	_
+31	folk	folk	NOUN	NN	_	32	E	32:E	_
+32	club	club	NOUN	NN	_	29	A	29:A	_
+33	on	on	ADP	IN	_	34	R	34:R	_
+34	Sunday	Sunday	PROPN	NNP	_	29	D	29:D	_
+35	nights	night	NOUN	NNS	_	34	E	34:E	_
+36	at	at	ADP	IN	_	40	R	40:R	_
+37	the	the	DET	DT	_	40	E	40:E	_
+38	Three	Three	PROPN	NNP	_	40	E	40:E	_
+39	Tuns	Tuns	PROPN	NNPS	_	38	Terminal	38:Terminal	_
+40	pub	pub	NOUN	NN	_	29	A	29:A	_
+41	in	in	ADP	IN	_	44	R	44:R	_
+42	Beckenham	Beckenham	PROPN	NNP	_	44	E	44:E	_
+43	High	High	PROPN	NNP	_	44	E	44:E	_
+44	Street	Street	PROPN	NNP	_	40	E	40:E	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

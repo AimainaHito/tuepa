@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25804009
+# text = Als der Fisch zug vollendet war , näherte sich die ›Nautilus‹ der Küste .
+1	Als	als	ADP	KOUS	_	5	L	5:L	_
+2	der	der	DET	ART	_	4	E	4:E	_
+3	Fisch	Fisch	NOUN	NN	_	4	E	4:E	_
+4	zug	zug	ADV	NN	_	5	A	5:A	_
+5	vollendet	vollendet	VERB	VVFIN	_	0	H	0:H	_
+6	war	sein	AUX	ADV	_	5	F	5:F	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	näherte	nähern	VERB	VVFIN	_	5	H	5:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	8	A	8:A	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Küste	Küste	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

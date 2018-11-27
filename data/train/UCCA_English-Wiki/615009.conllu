@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 615009
+# text = In 1971 , McCartney bought the publishing rights to Holly 's catalogue , and in 1976 , on the fortieth anniversary of Holly 's birth , McCartney inaugurated the annual " Buddy Holly Week " in England .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1971	1971	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+5	bought	buy	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	publishing	publish	NOUN	NN	_	8	E	8:E	_
+8	rights	rights	NOUN	NNS	_	5	A	5:A	_
+9	to	to	ADP	IN	_	12	R	12:R	_
+10	Holly	Holly	PROPN	NNP	_	12	E	12:E	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	catalogue	catalogue	NOUN	NN	_	8	E	8:E	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	and	and	CCONJ	CC	_	5	L	5:L	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	1976	1976	NUM	CD	_	28	D	28:D	_
+17	,	,	PUNCT	,	_	5	U	5:U	_
+18	on	on	ADP	IN	_	5	L	5:L	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	fortieth	fortieth	ADJ	JJ	_	21	D	21:D	_
+21	anniversary	anniversary	NOUN	NN	_	5	H	5:H	_
+22	of	of	ADP	IN	_	25	R	25:R	_
+23	Holly	Holly	PROPN	NNP	_	25	A	25:A	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	birth	birth	NOUN	NN	_	21	E	21:E	_
+26	,	,	PUNCT	,	_	5	U	5:U	_
+27	McCartney	McCartney	PROPN	NNP	_	28	A	28:A	_
+28	inaugurated	inaugurate	VERB	VBD	_	5	H	5:H	_
+29	the	the	DET	DT	_	34	E	34:E	_
+30	annual	annual	ADJ	JJ	_	34	E	34:E	_
+31	"	"	PUNCT	``	_	34	U	34:U	_
+32	Buddy	buddy	PROPN	NNP	_	34	E	34:E	_
+33	Holly	Holly	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Week	week	PROPN	NNP	_	28	A	28:A	_
+35	"	"	PUNCT	''	_	28	U	28:U	_
+36	in	in	ADP	IN	_	37	R	37:R	_
+37	England	England	PROPN	NNP	_	28	A	28:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

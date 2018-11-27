@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 537007
+# text = In Baltimore , the couple had five more children , including Abraham ( later known as Albert ) and Sam Warner .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Baltimore	Baltimore	PROPN	NNP	_	6	A	6:A	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	couple	couple	NOUN	NN	_	6	A	6:A	_
+6	had	have	VERB	VBD	_	0	H	0:H	_
+7	five	five	NUM	CD	_	8	E	8:E	_
+8	more	more	ADJ	JJR	_	9	E	9:E	_
+9	children	child	NOUN	NNS	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	including	include	VERB	VBG	_	12	R	12:R	_
+12	Abraham	Abraham	PROPN	NNP	_	9	E	9:E	_
+13	(	(	PUNCT	-LRB-	_	12	U	12:U	_
+14	later	later	ADV	RB	_	15	D	15:D	_
+15	known	know	VERB	VBN	_	12	E	12:E	_
+16	as	as	ADP	IN	_	17	R	17:R	_
+17	Albert	Albert	PROPN	NNP	_	15	A	15:A	_
+18	)	)	PUNCT	-RRB-	_	12	U	12:U	_
+19	and	and	CCONJ	CC	_	12	N	12:N	_
+20	Sam	Sam	PROPN	NNP	_	12	C	12:C	_
+21	Warner	Warner	PROPN	NNP	_	12	C	12:C	_
+22	.	.	PUNCT	.	_	12	U	12:U	_
+

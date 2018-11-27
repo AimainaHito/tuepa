@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 523009
+# text = They starred together in five additional films , including two more of the Hardy films .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	starred	star	VERB	VBD	_	0	H	0:H	_
+3	together	together	ADV	RB	_	2	D	2:D	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	five	five	NUM	CD	_	7	E	7:E	_
+6	additional	additional	ADJ	JJ	_	7	E	7:E	_
+7	films	film	NOUN	NNS	_	2	A	2:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	including	include	VERB	VBG	_	15	R	15:R	_
+10	two	two	NUM	CD	_	11	E	11:E	_
+11	more	more	ADJ	JJR	_	15	E	15:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	Hardy	Hardy	ADJ	JJ	_	15	E	15:E	_
+15	films	film	NOUN	NNS	_	7	E	7:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

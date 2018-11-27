@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25705012
+# text = Ein Schwarm Seeschwalben ließ sich auf der ›Nautilus‹ nieder .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Schwarm	Schwarm	NOUN	NN	_	4	A	4:A	_
+3	Seeschwalben	Seeschwalben	NOUN	NE	_	2	E	2:E	_
+4	ließ	lassen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	A	4:A	_
+9	nieder	nieder	ADV	XY	_	4	Terminal	4:Terminal	_
+10	.	.	PUNCT	$.	_	4	U	4:U	_
+

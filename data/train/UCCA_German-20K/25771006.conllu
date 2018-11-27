@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25771006
+# text = Endlich , um 6 Uhr früh , öffnete sich die Tür des Salons , und Kapitän Nemo trat ein .
+1	Endlich	endlich	ADJ	ADV	_	8	D	8:D	_
+2	,	,	PUNCT	$,	_	8	U	8:U	_
+3	um	um	ADP	KOUI	_	6	R	6:R	_
+4	6	6	NUM	CARD	_	5	E	5:E	_
+5	Uhr	Uhr	NOUN	NN	_	6	E	6:E	_
+6	früh	früh	ADJ	ADJD	_	8	D	8:D	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Tür	Tür	NOUN	NN	_	8	A	8:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Salons	Salon	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	8	U	8:U	_
+15	und	und	CCONJ	NE	_	8	L	8:L	_
+16	Kapitän	Kapitän	PROPN	NN	_	17	E	17:E	_
+17	Nemo	Nemo	PROPN	NE	_	18	A	18:A	_
+18	trat	treten	VERB	VVFIN	_	8	H	8:H	_
+19	ein	ein	ADV	PTKVZ	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

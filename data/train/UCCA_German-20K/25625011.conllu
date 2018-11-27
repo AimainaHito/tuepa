@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25625011
+# text = Der Harpunier ging voran und sammelte während seines Gangs durch den Wald mit sicherem Griff vortreffliches Obst , das seinen Proviant vervollständigen sollte .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Harpunier	Harpunier	NOUN	NN	_	0	C	0:C|6:A|9:A	_
+3	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+4	voran	voran	ADV	NE	_	3	Terminal	3:Terminal	_
+5	und	und	CCONJ	NE	_	3	L	3:L	_
+6	sammelte	sammeln	VERB	VVFIN	_	3	H	3:H	_
+7	während	während	ADP	NE	_	9	R	9:R	_
+8	seines	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Gangs	Gang	NOUN	NE	_	6	A	6:A	_
+10	durch	durch	ADP	APPR	_	12	R	12:R	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Wald	Wald	NOUN	NN	_	9	A	9:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	sicherem	sicher	ADJ	ADJA	_	15	E	15:E	_
+15	Griff	Griff	NOUN	NN	_	6	A	6:A	_
+16	vortreffliches	vortrefflich	ADJ	ADJA	_	17	E	17:E	_
+17	Obst	Obst	NOUN	NN	_	6	A	6:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	das	der	PRON	PRELS	_	22	R	22:R	_
+20	seinen	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Proviant	Proviant	NOUN	NN	_	22	A	22:A	_
+22	vervollständigen	vervollständigen	VERB	VVINF	_	17	E	17:E	_
+23	sollte	sollen	AUX	VMFIN	_	22	D	22:D	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+

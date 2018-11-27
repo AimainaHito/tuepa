@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 705000
+# text = In April and May 1978 , Dylan took the same large band and backing vocalists into Rundown Studios , a rehearsal space Dylan had rented in Santa Monica , California , to record an album of new material : Street - Legal .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	April	April	PROPN	NNP	_	5	E	5:E	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	May	May	PROPN	NNP	_	2	C	2:C	_
+5	1978	1978	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Dylan	Dylan	PROPN	NNP	_	8	A	8:A|33:A	_
+8	took	take	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	same	same	ADJ	JJ	_	12	E	12:E	_
+11	large	large	ADJ	JJ	_	12	E	12:E	_
+12	band	band	NOUN	NN	_	8	A	8:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	backing	backing	VERB	VBG	_	15	E	15:E	_
+15	vocalists	vocalist	NOUN	NNS	_	12	C	12:C	_
+16	into	into	ADP	IN	_	18	R	18:R	_
+17	Rundown	Rundown	ADP	IN	_	18	E	18:E	_
+18	Studios	studios	PROPN	NNP	_	8	A	8:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	rehearsal	rehearsal	ADJ	JJ	_	22	E	22:E	_
+22	space	space	NOUN	NN	_	18	E	18:E	_
+23	Dylan	Dylan	PROPN	NNP	_	25	A	25:A	_
+24	had	have	AUX	VBD	_	25	F	25:F	_
+25	rented	rent	VERB	VBN	_	22	E	22:E	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	Santa	Santa	PROPN	NNP	_	25	A	25:A	_
+28	Monica	Monica	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	,	,	PUNCT	,	_	27	U	27:U	_
+30	California	California	PROPN	NNP	_	27	E	27:E	_
+31	,	,	PUNCT	,	_	8	U	8:U	_
+32	to	to	PART	TO	_	33	F	33:F	_
+33	record	record	VERB	VB	_	8	A	8:A	_
+34	an	a	DET	DT	_	35	E	35:E	_
+35	album	album	NOUN	NN	_	33	A	33:A	_
+36	of	of	ADP	IN	_	38	R	38:R	_
+37	new	new	ADJ	JJ	_	38	E	38:E	_
+38	material	material	NOUN	NN	_	35	E	35:E	_
+39	:	:	PUNCT	:	_	35	U	35:U	_
+40	Street	Street	PROPN	NNP	_	35	E	35:E	_
+41	-	-	PUNCT	HYPH	_	40	U	40:U	_
+42	Legal	legal	PROPN	NNP	_	40	Terminal	40:Terminal	_
+43	.	.	PUNCT	.	_	35	U	35:U	_
+

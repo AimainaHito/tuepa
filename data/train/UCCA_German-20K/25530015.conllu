@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25530015
+# text = Den Abend brachte ich mit Lesen , Schreiben und in Gedanken hin .
+1	Den	der	DET	ART	_	2	E	2:E	_
+2	Abend	Abend	NOUN	NN	_	3	A	3:A	_
+3	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	mit	mit	ADP	APPR	_	6	R	6:R	_
+6	Lesen	Lese|Lesen	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Schreiben	Schreiben	NOUN	NN	_	6	C	6:C	_
+9	und	und	CCONJ	NE	_	6	N	6:N	_
+10	in	in	ADP	APPR	_	11	R	11:R	_
+11	Gedanken	Gedanke	NOUN	NN	_	6	C	6:C	_
+12	hin	hin	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+13	.	.	PUNCT	$.	_	3	U	3:U	_
+

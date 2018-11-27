@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25460013
+# text = - » Jetzt Achtung ! Augen auf ! « riefen wiederholt die Matrosen der ›Abraham Lincoln‹.
+1	-	-	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Jetzt	jetzt	ADJ	VVPP	_	4	D	4:D	_
+4	Achtung	Achtung	NOUN	NN	_	10	A	10:A	_
+5	!	!	PUNCT	$.	_	4	U	4:U	_
+6	Augen	Auge	NOUN	NN	_	7	A	7:A	_
+7	auf	auf	ADP	APPR	_	4	H	4:H	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	riefen	rufen	VERB	VVFIN	_	0	H	0:H	_
+11	wiederholt	wiederholt	ADJ	VVFIN	_	10	D	10:D	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Matrosen	Matrose	NOUN	NN	_	10	A	10:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	›Abraham	›Abraham	PROPN	NE	_	13	E	13:E	_
+16	Lincoln‹.	Lincoln‹.	PROPN	NE	_	15	Terminal	15:Terminal	_
+

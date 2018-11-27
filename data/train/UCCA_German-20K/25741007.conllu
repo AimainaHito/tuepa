@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25741007
+# text = Conseil , der über nichts mehr sich verwunderte , sah es als etwas ganz Natürliches an , dass er unter einem Berg aufwachte , nachdem er unter dem Wasser eingeschlafen war .
+1	Conseil	Conseil	NOUN	NE	_	10	A	10:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	der	der	PRON	PRELS	_	7	R	7:R	_
+4	über	über	ADP	ADJD	_	5	R	5:R	_
+5	nichts	nichts	PRON	ADJA	_	7	A	7:A	_
+6	mehr	mehr	ADV	ADV	_	5	Terminal	5:Terminal	_
+7	sich	er|es|sie	PRON	PRF	_	1	E	1:E	_
+8	verwunderte	verwundern	VERB	VVFIN	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+11	es	es	PRON	PPER	_	10	A	10:A	_
+12	als	als	ADP	KOKOM	_	15	R	15:R	_
+13	etwas	etwas	PRON	PIS	_	15	A	15:A	_
+14	ganz	ganz	ADJ	ADV	_	15	D	15:D	_
+15	Natürliches	Natürlich	NOUN	ADJA	_	10	A	10:A	_
+16	an	an	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+17	,	,	PUNCT	$,	_	10	U	10:U	_
+18	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+19	er	er	PRON	PPER	_	23	A	23:A	_
+20	unter	unter	ADP	ADJD	_	22	R	22:R	_
+21	einem	ein	DET	ART	_	22	E	22:E	_
+22	Berg	Berg	NOUN	NN	_	23	A	23:A	_
+23	aufwachte	aufwachen	VERB	VVFIN	_	15	A	15:A	_
+24	,	,	PUNCT	$,	_	10	U	10:U	_
+25	nachdem	nachdem	SCONJ	XY	_	10	L	10:L	_
+26	er	er	PRON	PPER	_	30	A	30:A	_
+27	unter	unter	ADP	ADJD	_	29	R	29:R	_
+28	dem	der	DET	ART	_	29	E	29:E	_
+29	Wasser	Wasser	NOUN	NN	_	30	A	30:A	_
+30	eingeschlafen	eingeschlafen	VERB	VVINF	_	10	H	10:H	_
+31	war	sein	AUX	ADV	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 127002
+# text = Regina Crewe wrote in the Journal American that although her mannerisms were grating , " they compel attention , and they fascinate an audience . She is a distinct , definite , positive personality .
+1	Regina	Regina	PROPN	NNP	_	3	A	3:A	_
+2	Crewe	Crewe	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	wrote	write	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	Journal	Journal	PROPN	NNP	_	3	A	3:A	_
+7	American	american	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	that	that	SCONJ	IN	_	9	R	9:R	_
+9	although	although	SCONJ	IN	_	13	L	13:L	_
+10	her	she	PRON	PRP$	_	11	E	11:E	_
+11	mannerisms	mannerism	NOUN	NNS	_	13	A	13:A	_
+12	were	be	AUX	VBD	_	13	F	13:F	_
+13	grating	grat	VERB	VBG	_	3	A	3:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	"	"	PUNCT	''	_	13	U	13:U	_
+16	they	they	PRON	PRP	_	17	A	17:A	_
+17	compel	compel	VERB	VBP	_	13	H	13:H	_
+18	attention	attention	NOUN	NN	_	17	A	17:A	_
+19	,	,	PUNCT	,	_	13	U	13:U	_
+20	and	and	CCONJ	CC	_	13	L	13:L	_
+21	they	they	PRON	PRP	_	22	A	22:A	_
+22	fascinate	fascinate	VERB	VBP	_	13	H	13:H	_
+23	an	a	DET	DT	_	24	E	24:E	_
+24	audience	audience	NOUN	NN	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	13	U	13:U	_
+26	She	she	PRON	PRP	_	34	A	34:A	_
+27	is	be	AUX	VBZ	_	34	R	34:R	_
+28	a	a	DET	DT	_	34	E	34:E	_
+29	distinct	distinct	ADJ	JJ	_	34	E	34:E	_
+30	,	,	PUNCT	,	_	34	U	34:U	_
+31	definite	definite	ADJ	JJ	_	34	E	34:E	_
+32	,	,	PUNCT	,	_	34	U	34:U	_
+33	positive	positive	ADJ	JJ	_	34	E	34:E	_
+34	personality	personality	NOUN	NN	_	13	H	13:H	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

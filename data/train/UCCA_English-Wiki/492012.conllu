@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 492012
+# text = Throughout the 1990s and 2000s , Bowie continued to experiment with musical styles , including blue - eyed soul , industrial , adult contemporary , and jungle .
+1	Throughout	throughout	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1990s	1990	NOUN	NNS	_	10	D	10:D	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	2000s	2000	NOUN	NNS	_	3	C	3:C	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	Bowie	Bowie	PROPN	NNP	_	10	A	10:A	_
+8	continued	continue	VERB	VBD	_	10	D	10:D	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	experiment	experiment	VERB	VB	_	0	H	0:H	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	musical	musical	ADJ	JJ	_	10	A	10:A	_
+13	styles	style	NOUN	NNS	_	12	E	12:E	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	including	include	VERB	VBG	_	19	R	19:R	_
+16	blue	blue	ADJ	JJ	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	eyed	eyed	VERB	VBN	_	19	E	19:E	_
+19	soul	soul	NOUN	NN	_	12	E	12:E	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	industrial	industrial	ADJ	JJ	_	19	C	19:C	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	adult	adult	ADJ	JJ	_	24	E	24:E	_
+24	contemporary	contemporary	NOUN	NN	_	19	C	19:C	_
+25	,	,	PUNCT	,	_	19	U	19:U	_
+26	and	and	CCONJ	CC	_	19	N	19:N	_
+27	jungle	jungle	NOUN	NN	_	19	C	19:C	_
+28	.	.	PUNCT	.	_	19	U	19:U	_
+

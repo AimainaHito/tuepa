@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25482002
+# text = » Nun ! Ich gestehe , ich wäre schon zufrieden es zu riskieren .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nun	nun	ADV	ADV	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Ich	ich	PRON	PPER	_	5	A	5:A	_
+5	gestehe	gestehen	VERB	VVFIN	_	2	H	2:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	ich	ich	PRON	PPER	_	10	A	10:A|13:A	_
+8	wäre	sein	AUX	ADV	_	10	D	10:D	_
+9	schon	schon	ADV	ADV	_	10	D	10:D	_
+10	zufrieden	zufrieden	ADJ	ADJD	_	5	A	5:A	_
+11	es	es	PRON	PPER	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	riskieren	riskieren	VERB	VVINF	_	10	A	10:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

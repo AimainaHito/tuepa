@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 186003
+# text = His writing staff are more likely to do research and come up with stories for him to tell .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	writing	writing	NOUN	NN	_	3	E	3:E	_
+3	staff	staff	NOUN	NNS	_	8	A	8:A	_
+4	are	be	AUX	VBP	_	6	E	6:E	_
+5	more	more	ADV	RBR	_	6	E	6:E	_
+6	likely	likely	ADJ	JJ	_	8	D	8:D	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	do	do	VERB	VB	_	0	H	0:H	_
+9	research	research	NOUN	NN	_	8	A	8:A	_
+10	and	and	CCONJ	CC	_	8	N	8:N	_
+11	come	come	VERB	VB	_	8	C	8:C	_
+12	up	up	ADP	RP	_	11	Terminal	11:Terminal	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	stories	story	NOUN	NNS	_	8	A	8:A	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	him	he	PRON	PRP	_	18	A	18:A	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	tell	tell	VERB	VB	_	8	A	8:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

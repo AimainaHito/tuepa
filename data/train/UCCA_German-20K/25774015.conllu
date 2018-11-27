@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25774015
+# text = » Weil der leidenschaftliche Jäger sie alle erlegt hätte . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Weil	weil	SCONJ	KOUS	_	8	R	8:R	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	leidenschaftliche	leidenschaftlich	ADJ	ADJA	_	5	E	5:E	_
+5	Jäger	Jäger	NOUN	NN	_	8	A	8:A	_
+6	sie	sie	PRON	ADV	_	8	A	8:A	_
+7	alle	alle	PRON	PIS	_	8	D	8:D	_
+8	erlegt	erlegen	VERB	VVPP	_	0	H	0:H	_
+9	hätte	haben	AUX	VAFIN	_	8	D	8:D	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+11	«	«	PUNCT	$(	_	8	U	8:U	_
+

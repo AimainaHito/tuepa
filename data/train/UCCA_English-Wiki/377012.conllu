@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 377012
+# text = Donnie Darko , Gyllenhaal 's second major film , was not a box office success upon its initial 2001 release , but eventually became a cult favorite .
+1	Donnie	Donnie	PROPN	NNP	_	15	A	15:A	_
+2	Darko	Darko	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	8	E	8:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	second	second	ADJ	JJ	_	8	E	8:E	_
+7	major	major	ADJ	JJ	_	8	E	8:E	_
+8	film	film	NOUN	NN	_	0	C	0:C|24:A	_
+9	,	,	PUNCT	,	_	15	U	15:U	_
+10	was	be	AUX	VBD	_	15	F	15:F	_
+11	not	not	PART	RB	_	15	D	15:D	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	box	box	NOUN	NN	_	15	A	15:A	_
+14	office	office	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	success	success	NOUN	NN	_	0	H	0:H	_
+16	upon	upon	ADP	IN	_	15	L	15:L	_
+17	its	its	PRON	PRP$	_	20	A	20:A	_
+18	initial	initial	ADJ	JJ	_	20	E	20:E	_
+19	2001	2001	NUM	CD	_	20	D	20:D	_
+20	release	release	NOUN	NN	_	15	H	15:H	_
+21	,	,	PUNCT	,	_	15	U	15:U	_
+22	but	but	CCONJ	CC	_	15	L	15:L	_
+23	eventually	eventually	ADV	RB	_	24	D	24:D	_
+24	became	become	VERB	VBD	_	15	H	15:H	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	cult	cult	ADJ	JJ	_	27	E	27:E	_
+27	favorite	favorite	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

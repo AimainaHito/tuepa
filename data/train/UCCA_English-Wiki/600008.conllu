@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 600008
+# text = A trumpet player and pianist who led Jim Mac 's Jazz Band in the 1920s , McCartney 's father kept an upright piano in the front room , and he encouraged his sons to be musical .
+1	A	a	DET	DT	_	3	E	3:E	_
+2	trumpet	trumpet	NOUN	NN	_	3	E	3:E	_
+3	player	player	NOUN	NN	_	20	A	20:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	pianist	pianist	NOUN	NN	_	3	C	3:C	_
+6	who	who	PRON	WP	_	7	R	7:R	_
+7	led	lead	VERB	VBD	_	3	A	3:A	_
+8	Jim	Jim	PROPN	NNP	_	12	E	12:E	_
+9	Mac	Mac	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	's	's	PART	POS	_	8	R	8:R	_
+11	Jazz	Jazz	PROPN	NNP	_	12	E	12:E	_
+12	Band	Band	PROPN	NNP	_	7	A	7:A	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	1920s	1920	NOUN	NNS	_	7	D	7:D	_
+16	,	,	PUNCT	,	_	7	U	7:U	_
+17	McCartney	McCartney	PROPN	NNP	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	father	father	NOUN	NN	_	3	A	3:A|7:A	_
+20	kept	keep	VERB	VBD	_	0	H	0:H	_
+21	an	a	DET	DT	_	23	E	23:E	_
+22	upright	upright	ADJ	JJ	_	23	E	23:E	_
+23	piano	piano	NOUN	NN	_	20	A	20:A	_
+24	in	in	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	front	front	ADJ	JJ	_	27	E	27:E	_
+27	room	room	NOUN	NN	_	20	A	20:A	_
+28	,	,	PUNCT	,	_	20	U	20:U	_
+29	and	and	CCONJ	CC	_	20	L	20:L	_
+30	he	he	PRON	PRP	_	31	A	31:A	_
+31	encouraged	encourage	VERB	VBD	_	20	H	20:H	_
+32	his	he	PRON	PRP$	_	33	E	33:E	_
+33	sons	son	NOUN	NNS	_	31	A	31:A|36:A	_
+34	to	to	PART	TO	_	36	F	36:F	_
+35	be	be	AUX	VB	_	36	F	36:F	_
+36	musical	musical	ADJ	JJ	_	31	A	31:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

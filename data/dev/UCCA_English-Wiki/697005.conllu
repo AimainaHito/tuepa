@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 697005
+# text = In support of the record , Dylan was booked for two U . S . concerts and set about assembling a band .
+1	In	in	ADP	IN	_	2	L	2:L	_
+2	support	support	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	record	record	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	Dylan	Dylan	PROPN	NNP	_	9	A	9:A|20:A|2:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	booked	book	VERB	VBN	_	2	H	2:H	_
+10	for	for	ADP	IN	_	16	R	16:R	_
+11	two	two	NUM	CD	_	16	E	16:E	_
+12	U	U	PROPN	NNP	_	16	E	16:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+14	S	be	NOUN	NN	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	.	_	16	U	16:U	_
+16	concerts	concert	NOUN	NNS	_	9	A	9:A	_
+17	and	and	CCONJ	CC	_	2	L	2:L	_
+18	set	set	VERB	VB	_	20	E	20:E	_
+19	about	about	SCONJ	IN	_	18	Terminal	18:Terminal	_
+20	assembling	assembl	VERB	VBG	_	2	H	2:H	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	band	band	NOUN	NN	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25672014
+# text = Ich suchte auf der Karte den Golf von Manaar .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	suchte	suchen	VERB	VVFIN	_	0	H	0:H	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Karte	Karte	NOUN	NN	_	2	A	2:A	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Golf	Golf	NOUN	NN	_	9	E	9:E	_
+8	von	von	ADP	NE	_	9	R	9:R	_
+9	Manaar	Manaar	PROPN	NE	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

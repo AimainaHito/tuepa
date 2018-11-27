@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25776013
+# text = » Im Kampf oder beim Spiel . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Im	Im	NOUN	NN	_	3	R	3:R	_
+3	Kampf	Kampf	NOUN	NE	_	0	H	0:H	_
+4	oder	oder	CCONJ	CARD	_	3	L	3:L	_
+5	beim	beim	ADJ	NE	_	6	R	6:R	_
+6	Spiel	Spiel	NOUN	NN	_	3	H	3:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

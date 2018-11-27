@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 191008
+# text = It took Sorkin a few years to write the screenplay for The American President , which started off as a massive 385 - page screenplay ; it was eventually whittled down to a standard shooting script of around 120 pages .
+1	It	it	PRON	PRP	_	6	A	6:A	_
+2	took	take	VERB	VBD	_	6	F	6:F	_
+3	Sorkin	Sorkin	PROPN	NNP	_	6	A	6:A|8:A	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	few	few	ADJ	JJ	_	6	E	6:E	_
+6	years	year	NOUN	NNS	_	0	H	0:H	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	write	write	VERB	VB	_	6	A	6:A	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	screenplay	screenplay	NOUN	NN	_	8	A	8:A	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	The	the	DET	DT	_	10	E	10:E	_
+13	American	american	ADJ	JJ	_	12	Terminal	12:Terminal	_
+14	President	President	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	which	which	PRON	WDT	_	17	F	17:F	_
+17	started	start	VERB	VBD	_	10	E	10:E	_
+18	off	off	ADP	RP	_	17	E	17:E	_
+19	as	as	ADP	IN	_	25	R	25:R	_
+20	a	a	DET	DT	_	25	E	25:E	_
+21	massive	massive	ADJ	JJ	_	25	E	25:E	_
+22	385	385	NUM	CD	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	page	page	NOUN	NN	_	25	E	25:E	_
+25	screenplay	screenplay	NOUN	NN	_	17	A	17:A	_
+26	;	;	PUNCT	,	_	6	U	6:U	_
+27	it	it	PRON	PRP	_	30	A	30:A	_
+28	was	be	AUX	VBD	_	30	F	30:F	_
+29	eventually	eventually	ADV	RB	_	30	D	30:D	_
+30	whittled	whittle	VERB	VBN	_	6	H	6:H	_
+31	down	down	ADP	RP	_	30	E	30:E	_
+32	to	to	ADP	IN	_	36	R	36:R	_
+33	a	a	DET	DT	_	36	E	36:E	_
+34	standard	standard	ADJ	JJ	_	36	E	36:E	_
+35	shooting	shoot	NOUN	NN	_	36	E	36:E	_
+36	script	script	NOUN	NN	_	30	A	30:A	_
+37	of	of	ADP	IN	_	40	R	40:R	_
+38	around	around	ADV	RB	_	39	E	39:E	_
+39	120	120	NUM	CD	_	40	E	40:E	_
+40	pages	page	NOUN	NNS	_	36	E	36:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 642017
+# text = Julian was born on 8 April 1963 ; Lennon was on tour at the time and did not see his son until three days later .
+1	Julian	Julian	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	8	8	NUM	CD	_	3	D	3:D	_
+6	April	April	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	1963	1963	NUM	CD	_	5	Terminal	5:Terminal	_
+8	;	;	PUNCT	,	_	3	U	3:U	_
+9	Lennon	Lennon	PROPN	NNP	_	12	A	12:A|19:A	_
+10	was	be	AUX	VBD	_	12	F	12:F	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	tour	tour	NOUN	NN	_	3	H	3:H	_
+13	at	at	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	time	time	NOUN	NN	_	12	D	12:D	_
+16	and	and	CCONJ	CC	_	3	L	3:L	_
+17	did	do	AUX	VBD	_	19	F	19:F	_
+18	not	not	PART	RB	_	19	D	19:D	_
+19	see	see	VERB	VB	_	3	H	3:H	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	son	son	NOUN	NN	_	19	A	19:A	_
+22	until	until	ADP	IN	_	24	R	24:R	_
+23	three	three	NUM	CD	_	24	E	24:E	_
+24	days	day	NOUN	NNS	_	19	D	19:D	_
+25	later	later	ADV	RB	_	24	E	24:E	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

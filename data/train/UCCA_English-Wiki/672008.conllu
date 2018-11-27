@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 672008
+# text = " Despite continued plans for a tour , and announcements made on The X Factor in the United Kingdom in November , the tour was suddenly cancelled in early December 2008 .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Despite	despite	ADP	IN	_	4	L	4:L	_
+3	continued	continue	VERB	VBN	_	4	D	4:D	_
+4	plans	plan	NOUN	NNS	_	0	H	0:H	_
+5	for	for	ADP	IN	_	7	R	7:R	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	tour	tour	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	and	and	CCONJ	CC	_	4	L	4:L	_
+10	announcements	announcement	NOUN	NNS	_	11	A	11:A	_
+11	made	make	VERB	VBN	_	4	H	4:H	_
+12	on	on	ADP	IN	_	13	R	13:R	_
+13	The	the	DET	DT	_	11	A	11:A	_
+14	X	x	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Factor	factor	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	United	United	PROPN	NNP	_	13	E	13:E	_
+19	Kingdom	Kingdom	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	November	November	PROPN	NNP	_	11	D	11:D	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	tour	tour	NOUN	NN	_	27	A	27:A	_
+25	was	be	AUX	VBD	_	27	F	27:F	_
+26	suddenly	suddenly	ADV	RB	_	27	D	27:D	_
+27	cancelled	cancel	VERB	VBN	_	4	H	4:H	_
+28	in	in	ADP	IN	_	30	R	30:R	_
+29	early	early	ADJ	JJ	_	30	E	30:E	_
+30	December	December	PROPN	NNP	_	27	D	27:D	_
+31	2008	2008	NUM	CD	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

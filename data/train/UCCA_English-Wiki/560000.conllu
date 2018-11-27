@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 560000
+# text = Presley renewed Neal 's management contract in August 1955 , simultaneously appointing Parker as his special adviser .
+1	Presley	Presley	PROPN	NNP	_	2	A	2:A|12:A	_
+2	renewed	renew	VERB	VBD	_	0	H	0:H	_
+3	Neal	Neal	PROPN	NNP	_	6	E	6:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	management	management	NOUN	NN	_	6	E	6:E	_
+6	contract	contract	NOUN	NN	_	2	A	2:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	August	August	PROPN	NNP	_	2	D	2:D	_
+9	1955	1955	NUM	CD	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	simultaneously	simultaneously	ADV	RB	_	2	L	2:L	_
+12	appointing	appoint	VERB	VBG	_	2	H	2:H	_
+13	Parker	Parker	PROPN	NNP	_	12	A	12:A	_
+14	as	as	ADP	IN	_	17	R	17:R	_
+15	his	he	PRON	PRP$	_	17	E	17:E	_
+16	special	special	ADJ	JJ	_	17	E	17:E	_
+17	adviser	adviser	NOUN	NN	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

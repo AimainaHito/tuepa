@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 648002
+# text = Sean was born on 9 October 1975 , Lennon 's 35th birthday , delivered by Caesarean section .
+1	Sean	Sean	PROPN	NNP	_	3	A	3:A|14:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	9	9	NUM	CD	_	3	D	3:D	_
+6	October	October	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	1975	1975	NUM	CD	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	Lennon	Lennon	PROPN	NNP	_	3	H	3:H	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	35th	35th	NOUN	NN	_	12	E	12:E	_
+12	birthday	birthday	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	delivered	deliver	VERB	VBN	_	3	H	3:H	_
+15	by	by	ADP	IN	_	17	R	17:R	_
+16	Caesarean	Caesarean	PROPN	NNP	_	17	E	17:E	_
+17	section	section	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25479001
+# text = Die Stunde des Kampfs hatte geschlagen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Stunde	Stunde	NOUN	NN	_	6	A	6:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Kampfs	Kampf	NOUN	NN	_	2	E	2:E	_
+5	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+6	geschlagen	schlagen	VERB	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

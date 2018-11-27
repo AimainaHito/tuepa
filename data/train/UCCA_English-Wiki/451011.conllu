@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 451011
+# text = " ABC was in bad shape at the time , " Jennings said . " They were willing to try anything , and , to demonstrate the point , they tried me . "
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	ABC	Abc	PROPN	NNP	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	bad	bad	ADJ	JJ	_	6	E	6:E	_
+6	shape	shape	NOUN	NN	_	13	A	13:A	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	time	time	NOUN	NN	_	6	D	6:D	_
+10	,	,	PUNCT	,	_	13	U	13:U	_
+11	"	"	PUNCT	''	_	13	U	13:U	_
+12	Jennings	Jennings	NOUN	NNS	_	13	A	13:A	_
+13	said	say	VERB	VBD	_	0	H	0:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+15	"	"	PUNCT	``	_	13	U	13:U	_
+16	They	they	PRON	PRP	_	20	A	20:A	_
+17	were	be	AUX	VBD	_	20	F	20:F	_
+18	willing	willing	ADJ	JJ	_	20	E	20:E	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	try	try	VERB	VB	_	6	H	6:H	_
+21	anything	anything	PRON	NN	_	20	A	20:A	_
+22	,	,	PUNCT	,	_	6	U	6:U	_
+23	and	and	CCONJ	CC	_	6	L	6:L	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	to	to	PART	TO	_	23	R	23:R	_
+26	demonstrate	demonstrate	VERB	VB	_	6	H	6:H	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	point	point	NOUN	NN	_	26	A	26:A	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	they	they	PRON	PRP	_	31	A	31:A|26:A	_
+31	tried	try	VERB	VBD	_	6	H	6:H	_
+32	me	I	PRON	PRP	_	31	A	31:A	_
+33	.	.	PUNCT	.	_	31	U	31:U	_
+34	"	"	PUNCT	''	_	31	U	31:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 654005
+# text = Impressed , the driver told Lennon of a harmonica he could have if he came to Edinburgh the following day , where one had been stored in the bus depot since a passenger left it on a bus .
+1	Impressed	impressed	VERB	VBN	_	0	H	0:H	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	driver	driver	NOUN	NN	_	0	C	0:C|1:A	_
+5	told	tell	VERB	VBD	_	1	H	1:H	_
+6	Lennon	Lennon	PROPN	NNP	_	5	A	5:A	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	harmonica	harmonica	NOUN	NN	_	5	A	5:A	_
+10	he	he	PRON	PRP	_	12	A	12:A	_
+11	could	could	AUX	MD	_	12	D	12:D	_
+12	have	have	VERB	VB	_	9	E	9:E	_
+13	if	if	SCONJ	IN	_	12	L	12:L	_
+14	he	he	PRON	PRP	_	15	A	15:A	_
+15	came	come	VERB	VBD	_	12	H	12:H	_
+16	to	to	ADP	IN	_	17	R	17:R	_
+17	Edinburgh	Edinburgh	PROPN	NNP	_	15	A	15:A	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	following	follow	VERB	VBG	_	20	E	20:E	_
+20	day	day	NOUN	NN	_	15	D	15:D	_
+21	,	,	PUNCT	,	_	12	U	12:U	_
+22	where	where	ADV	WRB	_	12	L	12:L	_
+23	one	one	NUM	CD	_	26	A	26:A	_
+24	had	have	AUX	VBD	_	26	F	26:F	_
+25	been	be	AUX	VBN	_	26	F	26:F	_
+26	stored	store	VERB	VBN	_	12	H	12:H	_
+27	in	in	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	bus	bus	NOUN	NN	_	30	E	30:E	_
+30	depot	depot	ADV	RB	_	26	A	26:A	_
+31	since	since	ADP	IN	_	12	L	12:L	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	passenger	passenger	NOUN	NN	_	34	A	34:A	_
+34	left	leave	VERB	VBD	_	12	H	12:H	_
+35	it	it	PRON	PRP	_	34	A	34:A	_
+36	on	on	ADP	IN	_	38	R	38:R	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	bus	bus	NOUN	NN	_	34	A	34:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25794003
+# text = Während der Nacht stieg die Temperatur des Wassers auf einen Grad unter Null ; eine höhere ließ sich nicht erzielen .
+1	Während	während	ADP	KOUS	_	3	E	3:E	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Nacht	Nacht	NOUN	NN	_	4	D	4:D	_
+4	stieg	steigen	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Temperatur	Temperatur	NOUN	NN	_	0	C	0:C|15:C	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Wassers	Wasser	NOUN	NN	_	6	E	6:E	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	einen	ein	DET	ART	_	11	E	11:E	_
+11	Grad	Grad	NOUN	NN	_	4	A	4:A	_
+12	unter	unter	ADP	ADJD	_	11	Terminal	11:Terminal	_
+13	Null	_	NOUN	CARD	_	11	Terminal	11:Terminal	_
+14	;	;	PUNCT	$.	_	4	U	4:U	_
+15	eine	ein	DET	ART	_	18	A	18:A	_
+16	höhere	hoch	ADJ	ADJA	_	15	E	15:E	_
+17	ließ	lassen	VERB	VVFIN	_	18	D	18:D	_
+18	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+19	nicht	nicht	PART	XY	_	18	D	18:D	_
+20	erzielen	erzielen	VERB	VVINF	_	18	Terminal	18:Terminal	_
+21	.	.	PUNCT	$.	_	18	U	18:U	_
+

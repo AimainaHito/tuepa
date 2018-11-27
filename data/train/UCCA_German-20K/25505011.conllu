@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25505011
+# text = Manche dieser Perlen waren von der Größe eines Taubeneies und kamen an Wert den berühmten des Schahs von Persien und des Imams von Mascat gleich .
+1	Manche	manch	PRON	PIAT	_	3	E	3:E	_
+2	dieser	dies	PRON	PDAT	_	3	R	3:R	_
+3	Perlen	Perle|Perlen	NOUN	NN	_	0	C	0:C|14:C|11:A	_
+4	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+5	von	von	ADP	NN	_	9	R	9:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Größe	Größe	NOUN	NN	_	9	E	9:E	_
+8	eines	ein	DET	ART	_	9	E	9:E	_
+9	Taubeneies	Taubeneies	NOUN	NE	_	4	A	4:A	_
+10	und	und	CCONJ	NE	_	4	L	4:L	_
+11	kamen	kommen	VERB	VVFIN	_	4	H	4:H	_
+12	an	an	ADP	APPR	_	13	R	13:R	_
+13	Wert	Wert	NOUN	NN	_	11	A	11:A	_
+14	den	der	DET	ART	_	11	A	11:A	_
+15	berühmten	berühmte	NOUN	NN	_	14	E	14:E	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Schahs	Schah	NOUN	NN	_	14	E	14:E	_
+18	von	von	ADP	NE	_	19	R	19:R	_
+19	Persien	Persien	PROPN	NE	_	17	E	17:E	_
+20	und	und	CCONJ	NE	_	17	N	17:N	_
+21	des	der	DET	ART	_	22	R	22:R	_
+22	Imams	Imam	NOUN	NE	_	17	C	17:C	_
+23	von	von	ADP	NE	_	24	R	24:R	_
+24	Mascat	Mascat	PROPN	NN	_	22	E	22:E	_
+25	gleich	gleich	ADJ	PTKVZ	_	11	Terminal	11:Terminal	_
+26	.	.	PUNCT	$.	_	11	U	11:U	_
+

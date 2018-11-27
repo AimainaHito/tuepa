@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25676008
+# text = » Mein Herr , was ist denn eigentlich eine Perle ? «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	6	G	6:G	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	was	was	PRON	NN	_	6	A	6:A	_
+6	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+7	denn	denn	ADV	ADV	_	6	F	6:F	_
+8	eigentlich	eigentlich	ADJ	ADV	_	6	D	6:D	_
+9	eine	ein	DET	ART	_	10	E	10:E	_
+10	Perle	Perl	NOUN	NN	_	6	A	6:A	_
+11	?	?	PUNCT	$.	_	10	U	10:U	_
+12	«	«	PUNCT	$(	_	10	U	10:U	_
+

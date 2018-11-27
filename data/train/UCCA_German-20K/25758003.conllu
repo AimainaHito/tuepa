@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25758003
+# text = » Herr Naturforscher « , erwiderte der Kanadier ernsthaft , » von den Walfischen kann man alles glauben . - Man behauptet , sie könnten in 14 Tagen den Weg um die ganze Erde machen . «
+1	»	»	PUNCT	$(	_	18	U	18:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Naturforscher	Naturforscher	PROPN	NN	_	18	G	18:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	ernsthaft	ernsthafen	VERB	ADJD	_	6	D	6:D	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	von	von	ADP	NE	_	14	R	14:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Walfischen	Walfischen	NOUN	NE	_	18	A	18:A	_
+15	kann	können	AUX	VMFIN	_	18	D	18:D	_
+16	man	man	PRON	PIS	_	18	A	18:A	_
+17	alles	alle	PRON	PIS	_	18	A	18:A	_
+18	glauben	glauben	VERB	VVINF	_	6	A	6:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+20	-	-	PUNCT	$(	_	18	U	18:U	_
+21	Man	man	NOUN	PIS	_	22	A	22:A	_
+22	behauptet	behaupten	VERB	VVFIN	_	18	H	18:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	sie	sie	PRON	ADV	_	30	A	30:A	_
+25	könnten	können	AUX	VMFIN	_	30	D	30:D	_
+26	in	in	ADP	APPR	_	28	R	28:R	_
+27	14	14	NUM	CARD	_	28	E	28:E	_
+28	Tagen	Tag	NOUN	NN	_	30	D	30:D	_
+29	den	der	DET	ART	_	30	E	30:E	_
+30	Weg	Weg	NOUN	NN	_	22	A	22:A	_
+31	um	um	ADP	APPR	_	34	R	34:R	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	ganze	ganz	ADJ	ADJA	_	34	E	34:E	_
+34	Erde	Erde	NOUN	NN	_	30	A	30:A	_
+35	machen	machen	VERB	VVINF	_	30	F	30:F	_
+36	.	.	PUNCT	$.	_	30	U	30:U	_
+37	«	«	PUNCT	$(	_	30	U	30:U	_
+

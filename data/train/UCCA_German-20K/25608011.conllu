@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25608011
+# text = Welches von diesen drei Ereignissen der Menschheit nützlicher gewesen , steht zu erwägen .
+1	Welches	welch	PRON	PRELS	_	8	D	8:D	_
+2	von	von	ADP	NN	_	5	R	5:R	_
+3	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+4	drei	drei	NUM	CARD	_	5	E	5:E	_
+5	Ereignissen	Ereignis	NOUN	NN	_	8	A	8:A	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Menschheit	Menschheit	NOUN	NN	_	8	A	8:A	_
+8	nützlicher	nützlich	ADJ	ADJA	_	13	A	13:A	_
+9	gewesen	sein	AUX	VVINF	_	8	F	8:F	_
+10	,	,	PUNCT	$,	_	13	U	13:U	_
+11	steht	stehen	VERB	VVFIN	_	13	D	13:D	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	erwägen	erwägen	VERB	VVINF	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

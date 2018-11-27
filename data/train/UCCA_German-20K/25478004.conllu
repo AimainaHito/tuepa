@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25478004
+# text = Ich entnahm daraus entschieden , dass es zu den Wirbel tieren gehörte , der Klasse der Säuge tiere , Gruppe der Fisch förmigen , Ordnung der Walfisch artigen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	entnahm	entnehmen	VERB	VVFIN	_	0	H	0:H	_
+3	daraus	daraus	PRON	PAV	_	2	A	2:A	_
+4	entschieden	entscheiden	VERB	ADJD	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+7	es	es	PRON	PPER	_	12	A	12:A	_
+8	zu	zu	ADP	VVINF	_	11	R	11:R	_
+9	den	der	DET	ART	_	11	E	11:E	_
+10	Wirbel	Wirbel	NOUN	NN	_	11	E	11:E	_
+11	tieren	tieren	PROPN	VVINF	_	12	A	12:A	_
+12	gehörte	gehören	VERB	VVFIN	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Klasse	Klasse	NOUN	NN	_	12	A	12:A	_
+16	der	der	DET	ART	_	18	R	18:R	_
+17	Säuge	Säug	NOUN	NN	_	18	E	18:E	_
+18	tiere	ti	ADJ	NN	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	12	U	12:U	_
+20	Gruppe	Gruppe	NOUN	NN	_	12	A	12:A	_
+21	der	der	DET	ART	_	23	R	23:R	_
+22	Fisch	Fischen	NOUN	NN	_	23	E	23:E	_
+23	förmigen	förmigen	VERB	VVINF	_	20	E	20:E	_
+24	,	,	PUNCT	$,	_	12	U	12:U	_
+25	Ordnung	Ordnung	NOUN	NN	_	12	A	12:A	_
+26	der	der	DET	ART	_	28	R	28:R	_
+27	Walfisch	Walfisch	NOUN	ADJA	_	28	E	28:E	_
+28	artigen	artigen	VERB	ADJA	_	25	E	25:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

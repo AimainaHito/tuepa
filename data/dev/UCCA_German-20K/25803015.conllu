@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25803015
+# text = Ich belehrte Ned Land und Conseil , dass die Sorge der Natur diesen Säugetieren eine wichtige Rolle zugewiesen habe .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	belehrte	belehren	VERB	VVFIN	_	0	H	0:H	_
+3	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+4	Land	Land	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	und	und	CCONJ	NE	_	3	N	3:N	_
+6	Conseil	Conseil	NOUN	NE	_	3	C	3:C	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Sorge	Sorge	NOUN	NN	_	12	E	12:E	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Natur	Natur	NOUN	NN	_	18	A	18:A	_
+13	diesen	dies	PRON	PDAT	_	14	E	14:E	_
+14	Säugetieren	Säugetier	NOUN	NN	_	18	A	18:A	_
+15	eine	ein	DET	ART	_	17	E	17:E	_
+16	wichtige	wichtig	ADJ	ADJA	_	17	E	17:E	_
+17	Rolle	Rolle	NOUN	NN	_	18	A	18:A	_
+18	zugewiesen	zuweisen	VERB	VVPP	_	2	A	2:A	_
+19	habe	haben	AUX	VAFIN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

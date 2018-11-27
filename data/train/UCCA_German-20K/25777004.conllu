@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25777004
+# text = Nach dieser Musterung dachte ich auf den Rückweg .
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Musterung	Musterung	NOUN	NN	_	4	A	4:A	_
+4	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Rückweg	Rückweg	NOUN	NN	_	4	A	4:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

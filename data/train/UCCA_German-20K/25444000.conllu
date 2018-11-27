@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25444000
+# text = Und jetzt , was war denn Ned Land s Meinung in der Frage des See ungeheuers ?
+1	Und	und	CCONJ	ADJD	_	10	L	10:L	_
+2	jetzt	jetzen	VERB	ADV	_	10	G	10:G	_
+3	,	,	PUNCT	$,	_	10	U	10:U	_
+4	was	was	PRON	NE	_	10	D	10:D	_
+5	war	sein	AUX	ADV	_	10	F	10:F	_
+6	denn	denn	SCONJ	ADV	_	10	F	10:F	_
+7	Ned	Ned	PROPN	NN	_	10	A	10:A	_
+8	Land	Land	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	s	s	PROPN	ADJD	_	7	R	7:R	_
+10	Meinung	Meinung	PROPN	NN	_	0	H	0:H	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Frage	Frage	NOUN	NN	_	10	A	10:A	_
+14	des	der	DET	ART	_	16	R	16:R	_
+15	See	See	NOUN	NN	_	16	E	16:E	_
+16	ungeheuers	ungeheuers	ADJ	NN	_	13	E	13:E	_
+17	?	?	PUNCT	$.	_	16	U	16:U	_
+

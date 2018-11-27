@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 139006
+# text = It remains one of her most praised performances .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	remains	remain	VERB	VBZ	_	0	H	0:H	_
+3	one	one	NUM	CD	_	8	E	8:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	her	she	PRON	PRP$	_	8	E	8:E	_
+6	most	most	ADV	RBS	_	7	E	7:E	_
+7	praised	praised	VERB	VBN	_	8	E	8:E	_
+8	performances	performance	NOUN	NNS	_	2	A	2:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

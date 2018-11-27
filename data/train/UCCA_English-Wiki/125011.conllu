@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 125011
+# text = " This unsettled the self - assured Hepburn , but she continued to look for work .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	This	this	PRON	DT	_	3	A	3:A	_
+3	unsettled	unsettled	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	self	self	NOUN	NN	_	7	E	7:E	_
+6	-	-	PUNCT	HYPH	_	7	U	7:U	_
+7	assured	assure	VERB	VBN	_	8	E	8:E	_
+8	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	but	but	CCONJ	CC	_	3	L	3:L	_
+11	she	she	PRON	PRP	_	14	A	14:A	_
+12	continued	continue	VERB	VBD	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	look	look	VERB	VB	_	3	H	3:H	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	work	work	NOUN	NN	_	14	A	14:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 642010
+# text = Lennon later said that until he met Ono , he had never questioned his chauvinistic attitude to women .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	7	F	7:F	_
+5	until	until	SCONJ	IN	_	7	L	7:L	_
+6	he	he	PRON	PRP	_	7	A	7:A	_
+7	met	meet	VERB	VBD	_	3	A	3:A	_
+8	Ono	Ono	PROPN	NNP	_	7	A	7:A	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	he	he	PRON	PRP	_	13	A	13:A	_
+11	had	have	AUX	VBD	_	13	F	13:F	_
+12	never	never	ADV	RB	_	13	D	13:D	_
+13	questioned	question	VERB	VBN	_	7	H	7:H	_
+14	his	he	PRON	PRP$	_	16	E	16:E	_
+15	chauvinistic	chauvinistic	ADJ	JJ	_	16	E	16:E	_
+16	attitude	attitude	NOUN	NN	_	13	A	13:A	_
+17	to	to	ADP	IN	_	18	R	18:R	_
+18	women	woman	NOUN	NNS	_	16	E	16:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

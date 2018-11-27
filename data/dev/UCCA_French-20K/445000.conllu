@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 445000
+# text = Donc , la frégate armée pour une campagne lointaine et pourvue de formidables engins de pêche , on ne savait plus où la diriger .
+1	Donc	donc	ADV	_	_	20	L	20:L	_
+2	,	,	PUNCT	_	_	20	U	20:U	_
+3	la	le	DET	_	_	4	E	4:E	_
+4	frégate	frégate	ADJ	_	_	20	A	20:A	_
+5	armée	armer	NOUN	_	_	4	E	4:E	_
+6	pour	pour	ADP	_	_	8	R	8:R	_
+7	une	un	DET	_	_	8	E	8:E	_
+8	campagne	campagne	NOUN	_	_	5	A	5:A	_
+9	lointaine	lointain	ADJ	_	_	8	E	8:E	_
+10	et	et	CCONJ	_	_	5	L	5:L	_
+11	pourvue	pourvoir	VERB	_	_	5	H	5:H	_
+12	de	de	ADP	_	_	14	R	14:R	_
+13	formidables	formidable	ADJ	_	_	14	E	14:E	_
+14	engins	engin	NOUN	_	_	11	A	11:A	_
+15	de	de	ADP	_	_	16	R	16:R	_
+16	pêche	pêche	NOUN	_	_	14	E	14:E	_
+17	,	,	PUNCT	_	_	20	U	20:U	_
+18	on	on	PRON	_	_	20	A	20:A	_
+19	ne	ne	ADV	_	_	20	D	20:D	_
+20	savait	savoir	VERB	_	_	0	H	0:H	_
+21	plus	plus	ADV	_	_	19	Terminal	19:Terminal	_
+22	où	où	PRON	_	_	24	A	24:A	_
+23	la	le	PRON	_	_	24	A	24:A	_
+24	diriger	diriger	VERB	_	_	20	A	20:A	_
+25	.	.	PUNCT	_	_	24	U	24:U	_
+

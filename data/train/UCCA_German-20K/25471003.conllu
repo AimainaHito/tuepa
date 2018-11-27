@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25471003
+# text = » Steuer rechts ! Maschine voran ! « rief Kommandant Farragut .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Steuer	Steuer	NOUN	TRUNC	_	9	A	9:A	_
+3	rechts	rechts	ADV	NE	_	2	D	2:D	_
+4	!	!	PUNCT	$.	_	2	U	2:U	_
+5	Maschine	Maschine	NOUN	NE	_	6	A	6:A	_
+6	voran	voran	VERB	NE	_	2	H	2:H	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+10	Kommandant	Kommandant	NOUN	NN	_	11	E	11:E	_
+11	Farragut	Farragut	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

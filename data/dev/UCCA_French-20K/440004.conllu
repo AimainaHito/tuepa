@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 440004
+# text = Or la mer est précisément leur meilleur véhicule , le seul milieu où ces géants près desquels les animaux terrestres , éléphants ou rhinocéros , ne sont que des nains , - puissent se produire et se développer .
+1	Or	or	CCONJ	_	_	4	L	4:L	_
+2	la	le	DET	_	_	3	E	3:E	_
+3	mer	mer	NOUN	_	_	4	A	4:A	_
+4	est	être	AUX	_	_	0	H	0:H	_
+5	précisément	précisément	ADV	_	_	4	D	4:D	_
+6	leur	son	DET	_	_	8	E	8:E	_
+7	meilleur	meilleur	ADJ	_	_	8	E	8:E	_
+8	véhicule	véhicule	NOUN	_	_	4	A	4:A	_
+9	,	,	PUNCT	_	_	8	U	8:U	_
+10	le	le	DET	_	_	12	E	12:E	_
+11	seul	seul	ADJ	_	_	12	E	12:E	_
+12	milieu	milieu	NOUN	_	_	8	E	8:E	_
+13	où	où	PRON	_	_	34	R	34:R	_
+14	ces	ce	DET	_	_	15	E	15:E	_
+15	géants	géant	NOUN	_	_	34	A	34:A	_
+16	près	près	ADV	_	_	27	A	27:A	_
+17	desquels	desquel	ADJ	_	_	27	R	27:R	_
+18	les	le	DET	_	_	19	E	19:E	_
+19	animaux	animal	NOUN	_	_	27	A	27:A	_
+20	terrestres	terrestre	ADJ	_	_	19	E	19:E	_
+21	,	,	PUNCT	_	_	19	U	19:U	_
+22	éléphants	éléphant	NOUN	_	_	19	E	19:E	_
+23	ou	ou	CCONJ	_	_	22	N	22:N	_
+24	rhinocéros	rhinocéros	NOUN	_	_	22	C	22:C	_
+25	,	,	PUNCT	_	_	27	U	27:U	_
+26	ne	ne	ADV	_	_	27	D	27:D	_
+27	sont	être	AUX	_	_	15	E	15:E	_
+28	que	que	ADV	_	_	26	Terminal	26:Terminal	_
+29	des	un	DET	_	_	30	E	30:E	_
+30	nains	nain	NOUN	_	_	27	A	27:A	_
+31	,	,	PUNCT	_	_	34	U	34:U	_
+32	-	-	PUNCT	_	_	34	U	34:U	_
+33	puissent	pouvoir	VERB	_	_	34	D	34:D	_
+34	se	se	PRON	_	_	12	E	12:E	_
+35	produire	produire	VERB	_	_	34	Terminal	34:Terminal	_
+36	et	et	CCONJ	_	_	34	N	34:N	_
+37	se	se	PRON	_	_	34	C	34:C	_
+38	développer	développer	VERB	_	_	37	Terminal	37:Terminal	_
+39	.	.	PUNCT	_	_	34	U	34:U	_
+

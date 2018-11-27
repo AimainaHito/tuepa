@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25687018
+# text = Kapitän Nemo nahm seine Stellung .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+4	seine	sein	DET	PPOSAT	_	3	Terminal	3:Terminal	_
+5	Stellung	Stellung	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

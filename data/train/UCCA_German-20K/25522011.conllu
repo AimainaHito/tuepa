@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25522011
+# text = Das lange Fahrzeug spürte kaum die weiten Wogen des Ozeans .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	lange	lang	ADJ	ADJA	_	3	E	3:E	_
+3	Fahrzeug	Fahrzeug	NOUN	NN	_	4	A	4:A	_
+4	spürte	spüren	VERB	VVFIN	_	0	H	0:H	_
+5	kaum	kaum	ADV	ADV	_	4	D	4:D	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	weiten	weit	ADJ	ADJA	_	8	E	8:E	_
+8	Wogen	Woge	NOUN	NN	_	4	A	4:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Ozeans	Ozeans	NOUN	NN	_	8	E	8:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25701000
+# text = » Sehen Sie da etwas , Herr Professor ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Sehen	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	da	da	ADV	ADV	_	2	A	2:A	_
+5	etwas	etwas	ADV	ADV	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Professor	Professor	PROPN	NN	_	2	G	2:G	_
+9	?	?	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

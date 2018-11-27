@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25490109
+# text = Das düstere Schweigen war zum Erschrecken .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	düstere	düster	ADJ	ADJA	_	3	E	3:E	_
+3	Schweigen	schweige	NOUN	ADJA	_	6	A	6:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	zum	zum	ADP	NN	_	6	R	6:R	_
+6	Erschrecken	Erschrecken	NOUN	NE	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

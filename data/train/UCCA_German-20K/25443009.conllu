@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25443009
+# text = Wackerer Ned !
+1	Wackerer	Wackerer	PROPN	NE	_	0	H	0:H	_
+2	Ned	Ned	PROPN	NE	_	1	A	1:A	_
+3	!	!	PUNCT	$.	_	1	U	1:U	_
+

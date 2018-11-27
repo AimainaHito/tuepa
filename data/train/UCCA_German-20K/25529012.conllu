@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25529012
+# text = « » Ja , wackerer Ned « , erwiderte Conseil . » Merken Sie aber , hiermit weiß man nichts , denn die Familien teilen sich in Gattungen , Arten , Varietäten . «
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Ja	Ja	PROPN	PTKANT	_	9	A	9:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wackerer	wacker	ADJ	ADJA	_	6	E	6:E	_
+6	Ned	Ned	NOUN	NE	_	3	G	3:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	Merken	merken	NOUN	NE	_	3	H	3:H	_
+14	Sie	Sie|sie	PRON	PPER	_	13	F	13:F	_
+15	aber	aber	ADV	ADV	_	3	L	3:L	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	hiermit	hiermit	ADV	PWAV	_	18	A	18:A	_
+18	weiß	wissen	VERB	VVFIN	_	13	A	13:A	_
+19	man	man	PRON	PIS	_	18	A	18:A	_
+20	nichts	nichts	PRON	NN	_	18	D	18:D	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	denn	denn	SCONJ	KON	_	3	L	3:L	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Familien	Familie	NOUN	NN	_	25	A	25:A	_
+25	teilen	teilen	VERB	VVFIN	_	3	H	3:H	_
+26	sich	er|es|sie	PRON	PRF	_	25	Terminal	25:Terminal	_
+27	in	in	ADP	APPR	_	28	R	28:R	_
+28	Gattungen	Gattung	NOUN	NN	_	25	A	25:A	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	Arten	Art	NOUN	NN	_	28	C	28:C	_
+31	,	,	PUNCT	$,	_	28	U	28:U	_
+32	Varietäten	Varietät	NOUN	NN	_	28	C	28:C	_
+33	.	.	PUNCT	$.	_	28	U	28:U	_
+34	«	«	PUNCT	$(	_	28	U	28:U	_
+

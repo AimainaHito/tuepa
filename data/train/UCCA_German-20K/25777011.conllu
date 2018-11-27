@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25777011
+# text = Er stand , von seinen Instrumenten umgeben , auf einem Basalt block , den Blick unverwandt auf den Norden des Horizonts gerichtet , wo eben die Sonne ihre längliche Kurve beschrieb .
+1	Er	er	PRON	PPER	_	2	A	2:A|7:A	_
+2	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	von	von	ADP	NN	_	6	R	6:R	_
+5	seinen	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Instrumenten	Instrument	NOUN	NN	_	7	A	7:A	_
+7	umgeben	umgeben	ADJ	VVPP	_	2	H	2:H	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	auf	auf	ADP	APPR	_	12	R	12:R	_
+10	einem	ein	DET	ART	_	12	E	12:E	_
+11	Basalt	Basalt	NOUN	NN	_	12	E	12:E	_
+12	block	block	ADV	NE	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Blick	Blick	NOUN	NN	_	22	A	22:A	_
+16	unverwandt	unverwandt	ADJ	VVPP	_	22	D	22:D	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	den	der	DET	ART	_	19	E	19:E	_
+19	Norden	Norden	NOUN	NN	_	22	A	22:A	_
+20	des	der	DET	ART	_	21	R	21:R	_
+21	Horizonts	Horizont	NOUN	NN	_	19	E	19:E	_
+22	gerichtet	richten	ADJ	VVPP	_	2	H	2:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	wo	wo	ADV	ADJA	_	31	R	31:R	_
+25	eben	eben	ADV	ADV	_	31	D	31:D	_
+26	die	der	DET	ART	_	27	E	27:E	_
+27	Sonne	Sonne	NOUN	NN	_	31	A	31:A	_
+28	ihre	ihr	DET	PPOSAT	_	30	E	30:E	_
+29	längliche	länglich	ADJ	ADJA	_	30	E	30:E	_
+30	Kurve	Kurve	NOUN	NN	_	31	A	31:A	_
+31	beschrieb	beschreiben	VERB	VVFIN	_	19	E	19:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

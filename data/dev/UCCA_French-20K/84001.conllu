@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 84001
+# text = Dans cette observation simultanée , on crut pouvoir évaluer la longueur minimum du mammifère à plus de trois cent cinquante pieds anglais , puisque le Shannon et l' Helvetia étaient de dimension inférieure à lui , bien qu' ils mesurassent cent mètres de l' étrave à l' étambot .
+1	Dans	dans	ADP	_	_	3	R	3:R	_
+2	cette	ce	DET	_	_	3	E	3:E	_
+3	observation	observation	NOUN	_	_	7	A	7:A	_
+4	simultanée	simultané	ADJ	_	_	3	E	3:E	_
+5	,	,	PUNCT	_	_	7	U	7:U	_
+6	on	on	PRON	_	_	7	A	7:A|9:A	_
+7	crut	craître	VERB	_	_	0	H	0:H	_
+8	pouvoir	pouvoir	VERB	_	_	9	D	9:D	_
+9	évaluer	évaluer	VERB	_	_	7	A	7:A	_
+10	la	le	DET	_	_	11	E	11:E	_
+11	longueur	longueur	NOUN	_	_	9	A	9:A	_
+12	minimum	minimum	ADJ	_	_	11	E	11:E	_
+13	du	du	DET	_	_	14	R	14:R	_
+14	mammifère	mammifère	NOUN	_	_	11	E	11:E	_
+15	à	à	ADP	_	_	21	R	21:R	_
+16	plus	plus	ADV	_	_	21	E	21:E	_
+17	de	de	ADP	_	_	16	R	16:R	_
+18	trois	trois	NUM	_	_	21	E	21:E	_
+19	cent	cent	NUM	_	_	18	Terminal	18:Terminal	_
+20	cinquante	cinquante	NUM	_	_	18	Terminal	18:Terminal	_
+21	pieds	pied	NOUN	_	_	9	A	9:A	_
+22	anglais	anglais	ADJ	_	_	21	E	21:E	_
+23	,	,	PUNCT	_	_	7	U	7:U	_
+24	puisque	puisque	SCONJ	_	_	7	L	7:L	_
+25	le	le	DET	_	_	26	E	26:E	_
+26	Shannon	Shannon	PROPN	_	_	33	A	33:A	_
+27	et	et	CCONJ	_	_	26	N	26:N	_
+28	l'	le	DET	_	_	29	E	29:E	_
+29	Helvetia	Helvetia	PROPN	_	_	26	C	26:C	_
+30	étaient	être	AUX	_	_	33	F	33:F	_
+31	de	de	ADP	_	_	32	R	32:R	_
+32	dimension	dimension	NOUN	_	_	33	D	33:D	_
+33	inférieure	inférieur	ADJ	_	_	7	H	7:H	_
+34	à	à	ADP	_	_	35	R	35:R	_
+35	lui	lui	PRON	_	_	33	A	33:A	_
+36	,	,	PUNCT	_	_	7	U	7:U	_
+37	bien	bien	ADV	_	_	7	L	7:L	_
+38	qu'	que	SCONJ	_	_	37	Terminal	37:Terminal	_
+39	ils	il	PRON	_	_	40	A	40:A	_
+40	mesurassent	mesurasser	VERB	_	_	7	H	7:H	_
+41	cent	cent	NUM	_	_	42	E	42:E	_
+42	mètres	mètre	NOUN	_	_	40	A	40:A	_
+43	de	de	ADP	_	_	45	N	45:N	_
+44	l'	le	DET	_	_	45	E	45:E	_
+45	étrave	étrave	NOUN	_	_	40	A	40:A	_
+46	à	à	ADP	_	_	45	N	45:N	_
+47	l'	le	DET	_	_	48	E	48:E	_
+48	étambot	étambot	NOUN	_	_	45	C	45:C	_
+49	.	.	PUNCT	_	_	48	U	48:U	_
+

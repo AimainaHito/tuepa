@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25721002
+# text = Ned Land schwieg .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	schwieg	schweigen	VERB	VVFIN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

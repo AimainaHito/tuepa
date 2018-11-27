@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 496001
+# text = He featured in a Lyons Maid ice cream commercial , but was rejected for another by Kit Kat .
+1	He	he	PRON	PRP	_	2	A	2:A|13:A	_
+2	featured	feature	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	9	R	9:R	_
+4	a	a	DET	DT	_	9	E	9:E	_
+5	Lyons	Lyons	PROPN	NNP	_	7	E	7:E	_
+6	Maid	May	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	ice	ice	NOUN	NN	_	9	E	9:E	_
+8	cream	cream	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	commercial	commercial	ADJ	JJ	_	0	C	0:C|15:C	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	but	but	CCONJ	CC	_	2	L	2:L	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	rejected	reject	VERB	VBN	_	2	H	2:H	_
+14	for	for	ADP	IN	_	15	R	15:R	_
+15	another	another	DET	DT	_	13	A	13:A	_
+16	by	by	ADP	IN	_	17	R	17:R	_
+17	Kit	Kit	PROPN	NNP	_	13	A	13:A	_
+18	Kat	Kat	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

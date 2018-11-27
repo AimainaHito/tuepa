@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 691012
+# text = Under the pseudonym Tedham Porterhouse , Dylan contributed harmonica to Ramblin ' Jack Elliott 's 1964 album Jack Elliott .
+1	Under	under	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	pseudonym	pseudonym	NOUN	NN	_	8	A	8:A	_
+4	Tedham	Tedham	PROPN	NNP	_	3	E	3:E	_
+5	Porterhouse	Porterhouse	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Dylan	Dylan	PROPN	NNP	_	8	A	8:A	_
+8	contributed	contribute	VERB	VBN	_	0	H	0:H	_
+9	harmonica	harmonica	ADP	IN	_	8	A	8:A	_
+10	to	to	ADP	IN	_	17	R	17:R	_
+11	Ramblin	Ramblin	PROPN	NNP	_	17	E	17:E	_
+12	'	's	PART	POS	_	11	U	11:U	_
+13	Jack	Jack	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	Elliott	Elliott	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	's	's	PART	POS	_	11	R	11:R	_
+16	1964	1964	NUM	CD	_	17	E	17:E	_
+17	album	album	NOUN	NN	_	8	A	8:A	_
+18	Jack	Jack	PROPN	NNP	_	17	E	17:E	_
+19	Elliott	Elliott	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25794017
+# text = Da diese schlimme Lage für uns alle unerträglich war , so legte man mit hastiger Freude das Skaphander kleid an , um zu arbeiten .
+1	Da	da	SCONJ	KOUS	_	8	L	8:L	_
+2	diese	dies	PRON	PDS	_	4	E	4:E	_
+3	schlimme	schlimm	ADJ	VVFIN	_	4	E	4:E	_
+4	Lage	Lage	NOUN	NN	_	8	A	8:A	_
+5	für	für	ADP	APPR	_	6	R	6:R	_
+6	uns	wir	PRON	NE	_	8	A	8:A	_
+7	alle	alle	PRON	PIAT	_	6	E	6:E	_
+8	unerträglich	unerträglich	ADJ	ADJD	_	0	H	0:H	_
+9	war	sein	AUX	ADV	_	8	F	8:F	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	so	so	ADV	ADV	_	8	L	8:L	_
+12	legte	legen	VERB	VVFIN	_	8	H	8:H	_
+13	man	man	PRON	PIS	_	12	A	12:A|24:A	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	hastiger	hastig	ADJ	ADJA	_	16	E	16:E	_
+16	Freude	Freude	NOUN	NN	_	12	A	12:A	_
+17	das	der	DET	ART	_	19	E	19:E	_
+18	Skaphander	Skaphander	NOUN	NN	_	19	E	19:E	_
+19	kleid	kleid	ADJ	NN	_	12	A	12:A	_
+20	an	an	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+21	,	,	PUNCT	$,	_	8	U	8:U	_
+22	um	um	ADP	KOUI	_	8	L	8:L	_
+23	zu	zu	PART	NE	_	24	F	24:F	_
+24	arbeiten	arbeiten	VERB	VVINF	_	8	H	8:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

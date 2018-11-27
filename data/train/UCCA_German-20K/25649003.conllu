@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25649003
+# text = Ich öffnete die Tür , ging durch die Gänge , stieg die Leiter im Zentrum hinauf .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|6:A|11:A	_
+2	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Tür	Tür	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	ging	gehen	VERB	VVFIN	_	2	H	2:H	_
+7	durch	durch	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Gänge	Gang	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	stieg	steigen	VERB	VVFIN	_	2	H	2:H	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Leiter	Leiter	NOUN	NN	_	11	A	11:A	_
+14	im	im	PROPN	NN	_	15	R	15:R	_
+15	Zentrum	Zentrum	PROPN	NN	_	11	A	11:A	_
+16	hinauf	hinauf	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+17	.	.	PUNCT	$.	_	11	U	11:U	_
+

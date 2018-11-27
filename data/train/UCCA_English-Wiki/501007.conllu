@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 501007
+# text = In the ensuing conversation with Harty , as described by biographer David Buckley , " the singer made hardly any sense at all throughout what was quite an extensive interview . ... Bowie looked completely disconnected and was hardly able to utter a coherent sentence .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	ensuing	ensue	VERB	VBG	_	4	D	4:D	_
+4	conversation	conversation	NOUN	NN	_	9	A	9:A	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Harty	Harty	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	as	as	SCONJ	IN	_	9	F	9:F	_
+9	described	describe	VERB	VBN	_	0	H	0:H	_
+10	by	by	ADP	IN	_	12	R	12:R	_
+11	biographer	biographer	NOUN	NN	_	12	E	12:E	_
+12	David	David	PROPN	NNP	_	9	A	9:A	_
+13	Buckley	Buckley	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	"	"	PUNCT	``	_	9	U	9:U	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	singer	singer	NOUN	NN	_	21	A	21:A|4:A	_
+18	made	make	VERB	VBN	_	21	F	21:F	_
+19	hardly	hardly	ADV	RB	_	21	D	21:D	_
+20	any	any	DET	DT	_	21	E	21:E	_
+21	sense	sense	NOUN	NN	_	9	A	9:A	_
+22	at	at	ADV	RB	_	23	E	23:E	_
+23	all	all	ADV	RB	_	21	D	21:D	_
+24	throughout	throughout	SCONJ	IN	_	21	L	21:L	_
+25	what	what	PRON	WP	_	26	F	26:F	_
+26	was	be	AUX	VBD	_	21	H	21:H	_
+27	quite	quite	DET	PDT	_	30	E	30:E	_
+28	an	a	DET	DT	_	30	E	30:E	_
+29	extensive	extensive	ADJ	JJ	_	30	E	30:E	_
+30	interview	interview	NOUN	NN	_	26	A	26:A	_
+31	.	.	PUNCT	.	_	21	U	21:U	_
+32	...	...	PUNCT	,	_	21	U	21:U	_
+33	Bowie	Bowie	PROPN	NNP	_	34	A	34:A|42:A	_
+34	looked	look	VERB	VBD	_	21	H	21:H	_
+35	completely	completely	ADV	RB	_	36	E	36:E	_
+36	disconnected	disconnected	ADJ	JJ	_	34	A	34:A	_
+37	and	and	CCONJ	CC	_	21	L	21:L	_
+38	was	be	AUX	VBD	_	42	F	42:F	_
+39	hardly	hardly	ADV	RB	_	42	D	42:D	_
+40	able	able	ADJ	JJ	_	42	E	42:E	_
+41	to	to	PART	TO	_	42	F	42:F	_
+42	utter	utter	VERB	VB	_	21	H	21:H	_
+43	a	a	DET	DT	_	45	E	45:E	_
+44	coherent	coherent	ADJ	JJ	_	45	E	45:E	_
+45	sentence	sentence	NOUN	NN	_	42	A	42:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

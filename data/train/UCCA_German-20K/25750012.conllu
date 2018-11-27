@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25750012
+# text = In derselben Gegend hatte der Kapitän Denham der ›Herald‹ mit 14.000 Meter Sonde keinen Grund gefunden , und ebenso war der Lieutenant Parker von der amerikanischen Fregatte Congreß mit 15.140 Meter nicht zum Ziel des Meeresgrunds gekommen .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	derselben	dieselbe	ADJ	PDAT	_	3	E	3:E	_
+3	Gegend	Gegend	NOUN	NN	_	16	A	16:A	_
+4	hatte	haben	VERB	VAFIN	_	16	F	16:F	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	7	E	7:E	_
+7	Denham	Denham	PROPN	NE	_	16	A	16:A	_
+8	der	der	DET	ART	_	9	R	9:R	_
+9	›Herald‹	›Herald‹	NOUN	NE	_	6	E	6:E	_
+10	mit	mit	ADP	APPR	_	13	R	13:R	_
+11	14.000	14.0	NUM	CARD	_	12	E	12:E	_
+12	Meter	Meter	NOUN	NN	_	13	E	13:E	_
+13	Sonde	Sond	NOUN	NE	_	16	A	16:A	_
+14	keinen	kein	PRON	PIAT	_	16	D	16:D	_
+15	Grund	Grund	NOUN	NN	_	16	A	16:A	_
+16	gefunden	gefund	ADJ	VVPP	_	0	H	0:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	und	und	CCONJ	NE	_	16	L	16:L	_
+19	ebenso	ebenso	ADV	ADV	_	37	D	37:D	_
+20	war	sein	AUX	ADV	_	37	F	37:F	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Lieutenant	Lieutenant	PROPN	NN	_	23	E	23:E	_
+23	Parker	Parker	PROPN	NE	_	37	A	37:A	_
+24	von	von	ADP	NE	_	28	R	28:R	_
+25	der	der	DET	ART	_	27	E	27:E	_
+26	amerikanischen	amerikanisch	ADJ	ADJA	_	27	E	27:E	_
+27	Fregatte	Fregatte	NOUN	VAFIN	_	28	E	28:E	_
+28	Congreß	Congreß	PROPN	NE	_	37	A	37:A	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	15.140	15.14	NUM	CARD	_	31	E	31:E	_
+31	Meter	Meter	NOUN	NN	_	37	A	37:A	_
+32	nicht	nicht	PART	CARD	_	37	D	37:D	_
+33	zum	zum	ADP	NN	_	34	R	34:R	_
+34	Ziel	Ziel	NOUN	NN	_	37	A	37:A	_
+35	des	der	DET	ART	_	36	R	36:R	_
+36	Meeresgrunds	Meeresgrunds	NOUN	NE	_	34	E	34:E	_
+37	gekommen	kommen	ADJ	VVPP	_	16	H	16:H	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

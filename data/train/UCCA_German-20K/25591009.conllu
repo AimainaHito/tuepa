@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25591009
+# text = Wahrhaftig , dieses Wasser um mich herum war zwar dichter als die Atmosphäre der Erde , aber fast ebenso durchsichtig .
+1	Wahrhaftig	Wahrhaftig	ADJ	ADJD	_	10	G	10:G	_
+2	,	,	PUNCT	$,	_	10	U	10:U	_
+3	dieses	dies	PRON	PDAT	_	4	E	4:E	_
+4	Wasser	Wasser	NOUN	NN	_	0	C	0:C|20:A	_
+5	um	um	ADP	APPR	_	6	R	6:R	_
+6	mich	mich	ADJ	PPER	_	4	E	4:E	_
+7	herum	heren	NOUN	ADV	_	5	Terminal	5:Terminal	_
+8	war	sein	AUX	ADV	_	10	F	10:F	_
+9	zwar	zwar	ADV	ADV	_	10	F	10:F	_
+10	dichter	dicht	ADJ	ADJD	_	0	H	0:H	_
+11	als	als	ADP	KOKOM	_	13	R	13:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Atmosphäre	Atmosphäre	NOUN	NN	_	10	A	10:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Erde	Erde	NOUN	NN	_	13	E	13:E	_
+16	,	,	PUNCT	$,	_	10	U	10:U	_
+17	aber	aber	CCONJ	KON	_	10	L	10:L	_
+18	fast	fast	ADV	ADV	_	19	E	19:E	_
+19	ebenso	ebenso	ADV	ADV	_	20	D	20:D	_
+20	durchsichtig	durchsichtig	ADJ	ADJD	_	10	H	10:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25604009
+# text = Die " Nautilus " fuhr , ungeachtet ihrer Schnelligkeit , doch mehrere Stunden lang mitten durch diese Truppe , und ihre Garne fingen eine ungeheure Menge von ihnen .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	0	C	0:C|7:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	ungeachtet	ungeachtet	VERB	VVFIN	_	5	H	5:H	_
+8	ihrer	ihr	DET	PPOSAT	_	9	E	9:E	_
+9	Schnelligkeit	Schnelligkeit	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	doch	doch	ADV	KON	_	5	L	5:L	_
+12	mehrere	mehrere	PRON	PIAT	_	13	E	13:E	_
+13	Stunden	Stunde|Stunden	NOUN	NN	_	5	D	5:D	_
+14	lang	lang	ADJ	ADJD	_	13	E	13:E	_
+15	mitten	mitten	ADV	ADV	_	16	E	16:E	_
+16	durch	durch	ADP	APPR	_	18	R	18:R	_
+17	diese	dies	PRON	PDAT	_	18	E	18:E	_
+18	Truppe	Truppe	NOUN	NN	_	5	A	5:A	_
+19	,	,	PUNCT	$,	_	5	U	5:U	_
+20	und	und	CCONJ	NE	_	5	L	5:L	_
+21	ihre	ihr	DET	PPOSAT	_	22	E	22:E	_
+22	Garne	Garn	NOUN	NN	_	23	A	23:A	_
+23	fingen	fangen	VERB	VVFIN	_	5	H	5:H	_
+24	eine	ein	DET	ART	_	26	E	26:E	_
+25	ungeheure	ungeheuer	ADJ	ADJA	_	26	E	26:E	_
+26	Menge	Menge	NOUN	NN	_	23	D	23:D	_
+27	von	von	ADP	NE	_	28	R	28:R	_
+28	ihnen	sie	PRON	PPER	_	23	A	23:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

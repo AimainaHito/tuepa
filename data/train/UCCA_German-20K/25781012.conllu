@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25781012
+# text = Zahlreiche schwärzliche Platten auf seiner Oberfläche kündigten die bevorstehende Bildung frischen Eises an .
+1	Zahlreiche	zahlreich	ADJ	ADJA	_	3	E	3:E	_
+2	schwärzliche	schwärzlich	ADJ	ADJA	_	3	E	3:E	_
+3	Platten	Platte	NOUN	NN	_	7	A	7:A	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	seiner	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Oberfläche	Oberfläche	NOUN	NN	_	7	A	7:A	_
+7	kündigten	kündigen	VERB	VVFIN	_	0	H	0:H	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	bevorstehende	bevorstehend	ADJ	ADJA	_	10	D	10:D	_
+10	Bildung	Bildung	NOUN	NN	_	7	A	7:A	_
+11	frischen	frischen	ADJ	ADJA	_	12	E	12:E	_
+12	Eises	Eis	NOUN	NN	_	10	A	10:A	_
+13	an	an	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+14	.	.	PUNCT	$.	_	7	U	7:U	_
+

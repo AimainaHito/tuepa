@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25712009
+# text = » Und jetzt , Ned Land « , fügte ich hinzu , » bleiben wir dabei . Kein Wort weiter über das alles . Wenn Sie dazu gerüstet und bereit sind , melden Sie ' s uns , und wir werden uns Ihnen anschließen . Ich verlasse mich gänzlich auf Sie . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Und	und	CCONJ	NN	_	14	L	14:L	_
+3	jetzt	jetzt	ADV	ADV	_	14	D	14:D	_
+4	,	,	PUNCT	$,	_	14	U	14:U	_
+5	Ned	Ned	PROPN	NN	_	14	A	14:A	_
+6	Land	Land	PROPN	NN	_	5	Terminal	5:Terminal	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	fügte	fügen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	hinzu	hinzu	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	»	»	PUNCT	$(	_	9	U	9:U	_
+14	bleiben	bleiben	VERB	VVFIN	_	9	A	9:A	_
+15	wir	wir	PRON	NE	_	14	A	14:A	_
+16	dabei	dabei	ADV	PAV	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+18	Kein	kein	PROPN	PIAT	_	14	H	14:H	_
+19	Wort	Wort	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	weiter	weiter	ADV	ADV	_	18	D	18:D	_
+21	über	über	ADP	ADJD	_	22	R	22:R	_
+22	das	der	DET	PDS	_	18	A	18:A	_
+23	alles	alle	PRON	PIS	_	22	E	22:E	_
+24	.	.	PUNCT	$.	_	14	U	14:U	_
+25	Wenn	wenn	SCONJ	KOUS	_	14	L	14:L	_
+26	Sie	sie	PRON	PPER	_	28	A	28:A|30:A	_
+27	dazu	dazu	ADV	PAV	_	28	A	28:A	_
+28	gerüstet	gerüsten	ADJ	VVPP	_	14	H	14:H	_
+29	und	und	CCONJ	NE	_	14	L	14:L	_
+30	bereit	bereit	ADJ	ADJD	_	14	H	14:H	_
+31	sind	sein	AUX	NN	_	30	F	30:F	_
+32	,	,	PUNCT	$,	_	14	U	14:U	_
+33	melden	melden	VERB	VVFIN	_	14	H	14:H	_
+34	Sie	Sie|sie	PRON	PPER	_	33	A	33:A	_
+35	'	'	PUNCT	$(	_	33	U	33:U	_
+36	s	s	ADV	ADJD	_	33	A	33:A	_
+37	uns	wir	PRON	ADJA	_	33	A	33:A	_
+38	,	,	PUNCT	$,	_	14	U	14:U	_
+39	und	und	CCONJ	NE	_	14	L	14:L	_
+40	wir	wir	PRON	NE	_	42	A	42:A	_
+41	werden	werden	AUX	VVFIN	_	42	F	42:F	_
+42	uns	wir	PRON	NN	_	14	H	14:H	_
+43	Ihnen	Sie|sie	PRON	PPER	_	42	A	42:A	_
+44	anschließen	anschließen	VERB	VVFIN	_	42	Terminal	42:Terminal	_
+45	.	.	PUNCT	$.	_	14	U	14:U	_
+46	Ich	ich	PRON	PPER	_	47	A	47:A	_
+47	verlasse	verlassen	VERB	VVFIN	_	14	H	14:H	_
+48	mich	ich	PRON	PRF	_	47	Terminal	47:Terminal	_
+49	gänzlich	gänzlich	ADJ	ADJD	_	47	D	47:D	_
+50	auf	auf	ADP	APPR	_	51	R	51:R	_
+51	Sie	sie	NOUN	PPER	_	47	A	47:A	_
+52	.	.	PUNCT	$.	_	51	U	51:U	_
+53	«	«	PUNCT	$(	_	51	U	51:U	_
+

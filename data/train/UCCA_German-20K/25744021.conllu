@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25744021
+# text = Man kann sich denken , wie der Kanadier Lust nach einem solchen Braten bekam , und wie leid es ihm war , keine Flinte zur Hand zu haben .
+1	Man	man	PRON	PIS	_	3	A	3:A	_
+2	kann	können	AUX	VMFIN	_	3	D	3:D	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	denken	denken	VERB	VVFIN	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	wie	wie	ADP	KON	_	9	R	9:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	PROPN	NN	_	0	C	0:C|28:A	_
+9	Lust	Lust	PROPN	NE	_	3	A	3:A	_
+10	nach	nach	ADP	CARD	_	13	R	13:R	_
+11	einem	ein	DET	ART	_	13	E	13:E	_
+12	solchen	solch	PRON	PIAT	_	13	E	13:E	_
+13	Braten	brat	NOUN	NN	_	9	A	9:A	_
+14	bekam	bekommen	VERB	VVFIN	_	9	F	9:F	_
+15	,	,	PUNCT	$,	_	9	U	9:U	_
+16	und	und	CCONJ	NE	_	9	L	9:L	_
+17	wie	wie	ADV	ADJA	_	18	R	18:R	_
+18	leid	leid	VERB	NN	_	9	H	9:H	_
+19	es	es	PRON	PPER	_	18	F	18:F	_
+20	ihm	er	PRON	PPER	_	18	A	18:A	_
+21	war	sein	AUX	ADV	_	18	F	18:F	_
+22	,	,	PUNCT	$,	_	18	U	18:U	_
+23	keine	kein	PRON	PIAT	_	28	D	28:D	_
+24	Flinte	Flinte	NOUN	ADJA	_	28	A	28:A	_
+25	zur	zur	ADP	NN	_	26	E	26:E	_
+26	Hand	Hand	NOUN	NN	_	28	A	28:A	_
+27	zu	zu	PART	VVINF	_	28	F	28:F	_
+28	haben	haben	VERB	VAFIN	_	18	A	18:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

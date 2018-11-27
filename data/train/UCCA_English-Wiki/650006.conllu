@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 650006
+# text = The performance was recorded and two of the tracks later appeared on John Lennon Anthology ( 1998 ) .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	performance	performance	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	recorded	record	VERB	VBN	_	0	H	0:H	_
+5	and	and	CCONJ	CC	_	4	L	4:L	_
+6	two	two	NUM	CD	_	9	E	9:E	_
+7	of	of	ADP	IN	_	6	R	6:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	tracks	track	NOUN	NNS	_	11	A	11:A	_
+10	later	later	ADV	RB	_	11	D	11:D	_
+11	appeared	appear	VERB	VBD	_	4	H	4:H	_
+12	on	on	ADP	IN	_	15	R	15:R	_
+13	John	John	PROPN	NNP	_	15	E	15:E	_
+14	Lennon	Lennon	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Anthology	Anthology	PROPN	NNP	_	11	A	11:A	_
+16	(	(	PUNCT	-LRB-	_	15	U	15:U	_
+17	1998	1998	NUM	CD	_	15	E	15:E	_
+18	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+19	.	.	PUNCT	.	_	15	U	15:U	_
+

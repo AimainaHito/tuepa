@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 149014
+# text = Hepburn requested that there be no memorial service .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A	_
+2	requested	request	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	5	R	5:R	_
+4	there	there	PRON	EX	_	5	F	5:F	_
+5	be	be	VERB	VBP	_	2	A	2:A	_
+6	no	no	DET	DT	_	5	D	5:D	_
+7	memorial	memorial	ADJ	JJ	_	8	E	8:E	_
+8	service	service	NOUN	NN	_	5	A	5:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

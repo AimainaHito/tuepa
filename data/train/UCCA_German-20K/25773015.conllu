@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25773015
+# text = Während unserer Abwesenheit hatte man die Garne ausgesteckt , und ich betrachtete mit Interesse die Fische , die man an Bord gezogen hatte .
+1	Während	während	SCONJ	KOUS	_	3	L	3:L	_
+2	unserer	unser	PRON	PPOSAT	_	3	E	3:E	_
+3	Abwesenheit	Abwesenheit	NOUN	NN	_	0	H	0:H	_
+4	hatte	haben	VERB	VAFIN	_	8	F	8:F	_
+5	man	man	PRON	PIS	_	8	A	8:A	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Garne	Garn	NOUN	NN	_	8	A	8:A	_
+8	ausgesteckt	ausgestecken	ADJ	ADJD	_	3	H	3:H	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	ich	ich	PRON	PPER	_	12	A	12:A	_
+12	betrachtete	betrachten	VERB	VVFIN	_	3	H	3:H	_
+13	mit	mit	ADP	APPR	_	14	R	14:R	_
+14	Interesse	Interesse	NOUN	NN	_	12	D	12:D	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Fische	Fisch	NOUN	NN	_	12	A	12:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	die	der	PRON	PRELS	_	22	R	22:R	_
+19	man	man	PRON	PIS	_	22	A	22:A	_
+20	an	an	ADP	APPR	_	21	R	21:R	_
+21	Bord	Bord	NOUN	NN	_	22	A	22:A	_
+22	gezogen	ziehen	VERB	VVPP	_	16	E	16:E	_
+23	hatte	haben	AUX	VAFIN	_	22	F	22:F	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+

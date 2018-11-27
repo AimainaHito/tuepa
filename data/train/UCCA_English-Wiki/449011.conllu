@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 449011
+# text = Having always been fascinated with the United States , Jennings became a naturalized United States citizen in 2003 .
+1	Having	have	VERB	VBG	_	4	F	4:F	_
+2	always	always	ADV	RB	_	4	D	4:D	_
+3	been	be	AUX	VBN	_	4	F	4:F	_
+4	fascinated	fascinate	VERB	VBN	_	0	H	0:H	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	United	United	PROPN	NNP	_	4	A	4:A	_
+8	States	States	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Jennings	Jennings	PROPN	NNP	_	16	A	16:A|4:A	_
+11	became	become	VERB	VBD	_	16	D	16:D	_
+12	a	a	DET	DT	_	16	E	16:E	_
+13	naturalized	naturalized	ADJ	JJ	_	16	D	16:D	_
+14	United	United	PROPN	NNP	_	16	E	16:E	_
+15	States	States	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	citizen	citizen	NOUN	NN	_	4	H	4:H	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	2003	2003	NUM	CD	_	16	D	16:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

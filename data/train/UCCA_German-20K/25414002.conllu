@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25414002
+# text = Ich beschäftigte mich eben damit , inzwischen meine mineralogischen , botanischen und zoologischen Schätze zu ordnen , als der Unfall der ›Scotia‹ sich ereignete .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|16:A	_
+2	beschäftigte	beschäftigen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	eben	eben	ADV	ADV	_	2	D	2:D	_
+5	damit	damit	ADV	PAV	_	16	F	16:F	_
+6	,	,	PUNCT	$,	_	16	U	16:U	_
+7	inzwischen	inzwischen	ADV	ADV	_	16	D	16:D	_
+8	meine	mein	PRON	PPOSAT	_	14	E	14:E	_
+9	mineralogischen	mineralogischen	VERB	ADJA	_	14	E	14:E	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	botanischen	botanischen	VERB	ADJA	_	9	C	9:C	_
+12	und	und	CCONJ	NE	_	9	N	9:N	_
+13	zoologischen	zoologisch	ADJ	ADJA	_	9	C	9:C	_
+14	Schätze	Schatz	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	ordnen	ordnen	VERB	VVINF	_	2	A	2:A	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	als	als	SCONJ	KOUS	_	2	L	2:L	_
+19	der	der	DET	ART	_	20	E	20:E	_
+20	Unfall	Unfall	NOUN	NN	_	23	A	23:A	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	›Scotia‹	›Scotia‹	NOUN	NE	_	20	A	20:A	_
+23	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+24	ereignete	ereignen	VERB	VVFIN	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25677002
+# text = » 150 Haifische ! « rief Ned Land aus .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	150	150	NUM	CARD	_	3	E	3:E	_
+3	Haifische	Haifische	NOUN	ADJA	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+8	Land	Land	PROPN	NE	_	7	Terminal	7:Terminal	_
+9	aus	aus	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

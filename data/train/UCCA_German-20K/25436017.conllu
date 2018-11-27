@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25436017
+# text = Conseil hatte bisher seit 10 Jahren mich überall , wohin mich die Wissenschaft zog , begleitet .
+1	Conseil	Conseil	NOUN	NE	_	16	A	16:A	_
+2	hatte	haben	AUX	VAFIN	_	16	F	16:F	_
+3	bisher	bisher	ADV	ADV	_	16	D	16:D	_
+4	seit	seit	ADP	ADJA	_	5	E	5:E	_
+5	10	10	NUM	CARD	_	16	D	16:D	_
+6	Jahren	Jahr	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	mich	ich	PRON	PPER	_	16	A	16:A	_
+8	überall	überall	ADV	ADJD	_	16	A	16:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wohin	wohin	SCONJ	ADJD	_	14	A	14:A	_
+11	mich	ich	PRON	PPER	_	14	A	14:A	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Wissenschaft	Wissenschaft	NOUN	NN	_	14	A	14:A	_
+14	zog	ziehen	VERB	VVFIN	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	begleitet	begleiten	VERB	VVPP	_	0	H	0:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25436008
+# text = » Conseil ! « rief ich ungeduldig .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	ungeduldig	ungeduldig	ADJ	ADJD	_	5	D	5:D	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

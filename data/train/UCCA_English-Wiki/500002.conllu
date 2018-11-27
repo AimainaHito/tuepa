@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 500002
+# text = The album went to number one in the UK , spawning the hits " Rebel Rebel " and " Diamond Dogs " , and number five in the US .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	0	C	0:C|11:A|25:A	_
+3	went	go	VERB	VBD	_	0	H	0:H	_
+4	to	to	PART	TO	_	5	R	5:R	_
+5	number	number	VERB	VB	_	3	A	3:A	_
+6	one	one	NUM	CD	_	5	E	5:E	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	UK	UK	PROPN	NNP	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	spawning	spawn	VERB	VBG	_	3	H	3:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	hits	hit	NOUN	NNS	_	15	E	15:E	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	Rebel	rebel	PROPN	NNP	_	11	A	11:A	_
+16	Rebel	rebel	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	"	"	PUNCT	''	_	15	U	15:U	_
+18	and	and	CCONJ	CC	_	15	N	15:N	_
+19	"	"	PUNCT	``	_	15	U	15:U	_
+20	Diamond	Diamond	PROPN	NNP	_	15	C	15:C	_
+21	Dogs	dog	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	"	"	PUNCT	''	_	3	U	3:U	_
+23	,	,	PUNCT	,	_	3	U	3:U	_
+24	and	and	CCONJ	CC	_	3	L	3:L	_
+25	number	number	NOUN	NN	_	3	H	3:H	_
+26	five	five	NUM	CD	_	25	E	25:E	_
+27	in	in	ADP	IN	_	29	R	29:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	US	US	PROPN	NNP	_	25	A	25:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

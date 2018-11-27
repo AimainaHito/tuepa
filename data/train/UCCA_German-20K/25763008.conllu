@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25763008
+# text = Der Kapitän teilte mir mit , diese Striche seien ehemals von zahlreichen Robben bewohnt gewesen , aber die englischen und amerikanischen Walfischjäger hätten in Zerstörungswut durch Vernichtung der Erwachsenen samt den trächtigen Weibchen Todesstille an der Stelle regen Lebens verbreitet .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+3	teilte	teilen	VERB	VVFIN	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	mit	mit	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Striche	Strich	NOUN	NE	_	14	A	14:A	_
+9	seien	sein	AUX	VAFIN	_	14	F	14:F	_
+10	ehemals	ehemals	ADV	ADV	_	14	D	14:D	_
+11	von	von	ADP	NN	_	13	R	13:R	_
+12	zahlreichen	zahlreich	ADJ	ADJA	_	13	E	13:E	_
+13	Robben	Robbe	NOUN	NN	_	14	A	14:A	_
+14	bewohnt	bewohnen	VERB	ADJD	_	3	A	3:A	_
+15	gewesen	sein	AUX	VVINF	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	aber	aber	CCONJ	KON	_	14	L	14:L	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	englischen	englisch	ADJ	ADJA	_	22	E	22:E	_
+20	und	und	CCONJ	NN	_	19	N	19:N	_
+21	amerikanischen	amerikanisch	ADJ	ADJA	_	19	C	19:C	_
+22	Walfischjäger	Walfischjäger	NOUN	NN	_	0	C	0:C|25:A	_
+23	hätten	haben	AUX	VAFIN	_	40	F	40:F	_
+24	in	in	ADP	APPR	_	25	R	25:R	_
+25	Zerstörungswut	Zerstörungswut	NOUN	NN	_	14	H	14:H	_
+26	durch	durch	ADP	APPR	_	27	R	27:R	_
+27	Vernichtung	Vernichtung	NOUN	NN	_	14	H	14:H	_
+28	der	der	DET	ART	_	29	R	29:R	_
+29	Erwachsenen	Erwachsene	NOUN	NN	_	27	A	27:A	_
+30	samt	samt	ADP	APPR	_	29	N	29:N	_
+31	den	der	DET	ART	_	33	E	33:E	_
+32	trächtigen	trächtig	ADJ	ADJA	_	33	E	33:E	_
+33	Weibchen	Weibchen	NOUN	NN	_	29	C	29:C	_
+34	Todesstille	Todesstille	NOUN	NE	_	40	A	40:A	_
+35	an	an	ADP	APPR	_	37	R	37:R	_
+36	der	der	DET	ART	_	37	E	37:E	_
+37	Stelle	Stelle	NOUN	NN	_	40	A	40:A	_
+38	regen	rege	ADJ	ADJA	_	39	D	39:D	_
+39	Lebens	Leben	NOUN	NN	_	37	E	37:E	_
+40	verbreitet	verbreiten	ADJ	VVFIN	_	14	H	14:H	_
+41	.	.	PUNCT	$.	_	40	U	40:U	_
+

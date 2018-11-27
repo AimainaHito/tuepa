@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 205014
+# text = He graduated from Los Angeles High School in 1955 and enrolled at Santa Monica College with the intention of studying medicine .
+1	He	he	PRON	PRP	_	2	A	2:A|20:A|11:A|18:A	_
+2	graduated	graduate	VERB	VBD	_	0	H	0:H	_
+3	from	from	ADP	IN	_	6	R	6:R	_
+4	Los	Los	PROPN	NNP	_	6	E	6:E	_
+5	Angeles	angeles	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	High	High	PROPN	NNP	_	2	A	2:A	_
+7	School	School	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	1955	1955	NUM	CD	_	2	D	2:D	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	enrolled	enrol	VERB	VBN	_	2	H	2:H	_
+12	at	at	ADP	IN	_	15	R	15:R	_
+13	Santa	Santa	PROPN	NNP	_	15	E	15:E	_
+14	Monica	Monica	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	College	College	PROPN	NNP	_	11	A	11:A	_
+16	with	with	ADP	IN	_	18	F	18:F	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	intention	intention	NOUN	NN	_	11	A	11:A	_
+19	of	of	SCONJ	IN	_	20	F	20:F	_
+20	studying	study	VERB	VBG	_	18	A	18:A	_
+21	medicine	medicine	NOUN	NN	_	20	A	20:A	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25731005
+# text = Ich legte meinen Panzer vollständig an und fühlte , dass man mir einen beschlagenen Stock in die Hand gab , und nach einigen Minuten faßten wir Fuß auf dem Grund des Atlantiks in einer Tiefe von 300 Meter .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|8:A	_
+2	legte	legen	VERB	VVFIN	_	0	H	0:H	_
+3	meinen	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Panzer	Panzer	NOUN	NN	_	2	A	2:A	_
+5	vollständig	vollständig	ADJ	ADJD	_	2	D	2:D	_
+6	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+7	und	und	CCONJ	NN	_	2	L	2:L	_
+8	fühlte	fühlen	VERB	VVFIN	_	2	H	2:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+11	man	man	PRON	PIS	_	19	A	19:A	_
+12	mir	ich	PRON	PPER	_	19	A	19:A	_
+13	einen	ein	DET	ART	_	15	E	15:E	_
+14	beschlagenen	beschlagen	ADJ	ADJA	_	15	E	15:E	_
+15	Stock	Stock	NOUN	NN	_	19	A	19:A	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Hand	Hand	NOUN	NN	_	19	A	19:A	_
+19	gab	geben	VERB	VVFIN	_	8	A	8:A	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	und	und	CCONJ	NE	_	2	L	2:L	_
+22	nach	nach	ADP	CARD	_	24	R	24:R	_
+23	einigen	einige	PRON	PIAT	_	24	E	24:E	_
+24	Minuten	Minute	NOUN	NN	_	25	D	25:D	_
+25	faßten	faßen	VERB	NE	_	2	H	2:H	_
+26	wir	wir	PRON	NE	_	25	A	25:A	_
+27	Fuß	Fuß	NOUN	NN	_	25	Terminal	25:Terminal	_
+28	auf	auf	ADP	APPR	_	30	R	30:R	_
+29	dem	der	DET	ART	_	30	E	30:E	_
+30	Grund	Grund	NOUN	NN	_	25	A	25:A	_
+31	des	der	DET	ART	_	32	R	32:R	_
+32	Atlantiks	Atlantiks	PROPN	NE	_	30	E	30:E	_
+33	in	in	ADP	APPR	_	35	R	35:R	_
+34	einer	ein	DET	ART	_	35	E	35:E	_
+35	Tiefe	Tiefe	NOUN	NN	_	25	A	25:A	_
+36	von	von	ADP	NE	_	38	R	38:R	_
+37	300	300	NUM	CARD	_	38	E	38:E	_
+38	Meter	Meter	NOUN	NN	_	35	E	35:E	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+

@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 527009
+# text = Reputable biographies following her death stated that after this latest dismissal , she slightly grazed her neck with a broken water glass , requiring only a Band - Aid , but at the time , the public was informed that a despondent Garland had slashed her throat .
+1	Reputable	reputable	ADJ	JJ	_	2	E	2:E	_
+2	biographies	biography	NOUN	NNS	_	6	A	6:A	_
+3	following	follow	VERB	VBG	_	5	R	5:R	_
+4	her	she	PRON	PRP$	_	5	E	5:E	_
+5	death	death	NOUN	NN	_	2	E	2:E	_
+6	stated	state	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	11	F	11:F	_
+8	after	after	ADP	IN	_	11	L	11:L	_
+9	this	this	DET	DT	_	11	E	11:E	_
+10	latest	latest	ADJ	JJS	_	11	E	11:E	_
+11	dismissal	dismissal	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	she	she	PRON	PRP	_	15	A	15:A|24:A	_
+14	slightly	slightly	ADV	RB	_	15	D	15:D	_
+15	grazed	graze	VERB	VBD	_	11	H	11:H	_
+16	her	she	PRON	PRP$	_	17	E	17:E	_
+17	neck	neck	NOUN	NN	_	15	A	15:A	_
+18	with	with	ADP	IN	_	22	R	22:R	_
+19	a	a	DET	DT	_	22	E	22:E	_
+20	broken	broken	ADJ	JJ	_	22	E	22:E	_
+21	water	water	NOUN	NN	_	22	E	22:E	_
+22	glass	glass	NOUN	NN	_	15	A	15:A	_
+23	,	,	PUNCT	,	_	11	U	11:U	_
+24	requiring	require	VERB	VBG	_	11	H	11:H	_
+25	only	only	ADV	RB	_	27	E	27:E	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	Band	Band	PROPN	NNP	_	24	A	24:A	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	Aid	Aid	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	,	,	PUNCT	,	_	11	U	11:U	_
+31	but	but	CCONJ	CC	_	11	L	11:L	_
+32	at	at	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	time	time	NOUN	NN	_	39	D	39:D	_
+35	,	,	PUNCT	,	_	39	U	39:U	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	public	public	NOUN	NN	_	39	A	39:A	_
+38	was	be	AUX	VBD	_	39	F	39:F	_
+39	informed	inform	VERB	VBN	_	11	H	11:H	_
+40	that	that	SCONJ	IN	_	45	F	45:F	_
+41	a	a	DET	DT	_	43	E	43:E	_
+42	despondent	despondent	ADJ	JJ	_	43	E	43:E	_
+43	Garland	Garland	PROPN	NNP	_	45	A	45:A	_
+44	had	have	AUX	VBD	_	45	F	45:F	_
+45	slashed	slash	VERB	VBN	_	39	A	39:A	_
+46	her	she	PRON	PRP$	_	47	E	47:E	_
+47	throat	throat	NOUN	NN	_	45	A	45:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

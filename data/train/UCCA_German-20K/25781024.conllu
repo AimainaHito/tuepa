@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25781024
+# text = Mein Geist war ganz in die Erinnerungen an den Pol versenkt .
+1	Mein	mein	PROPN	PPOSAT	_	2	E	2:E	_
+2	Geist	Geist	PROPN	NN	_	11	A	11:A	_
+3	war	sein	AUX	ADV	_	11	F	11:F	_
+4	ganz	ganz	ADJ	ADV	_	11	D	11:D	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Erinnerungen	Erinnerung	NOUN	NN	_	11	A	11:A	_
+8	an	an	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Pol	pol	NOUN	NE	_	7	E	7:E	_
+11	versenkt	versenken	VERB	VVPP	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

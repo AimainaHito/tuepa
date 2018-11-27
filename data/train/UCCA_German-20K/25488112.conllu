@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25488112
+# text = Daß das Wunderbare von Gott herkommt , ist eine einfache Sache .
+1	Daß	daß	SCONJ	KOUS	_	6	R	6:R	_
+2	das	der	DET	ART	_	3	E	3:E	_
+3	Wunderbare	wunderbare	NOUN	ADJA	_	6	A	6:A	_
+4	von	von	ADP	NN	_	5	R	5:R	_
+5	Gott	Gott	NOUN	NE	_	6	A	6:A	_
+6	herkommt	herkommen	VERB	VVFIN	_	8	A	8:A	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+9	eine	ein	DET	ART	_	11	E	11:E	_
+10	einfache	einfach	ADJ	ADJA	_	11	E	11:E	_
+11	Sache	Sache	NOUN	NN	_	8	A	8:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

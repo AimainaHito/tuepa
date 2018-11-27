@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 526008
+# text = She was able to complete filming , but in July she undertook her first suicide attempt , making minor cuts to her wrist with a broken glass .
+1	She	she	PRON	PRP	_	5	A	5:A	_
+2	was	be	AUX	VBD	_	5	F	5:F	_
+3	able	able	ADJ	JJ	_	5	E	5:E	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	complete	complete	VERB	VB	_	0	H	0:H	_
+6	filming	film	VERB	VBG	_	5	A	5:A	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	but	but	CCONJ	CC	_	5	L	5:L	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	July	July	PROPN	NNP	_	12	D	12:D	_
+11	she	she	PRON	PRP	_	12	A	12:A|18:A|16:A	_
+12	undertook	undertake	VERB	VBD	_	5	H	5:H	_
+13	her	she	PRON	PRP$	_	14	E	14:E	_
+14	first	first	ADJ	JJ	_	16	D	16:D	_
+15	suicide	suicide	NOUN	NN	_	16	E	16:E	_
+16	attempt	attempt	NOUN	NN	_	12	A	12:A	_
+17	,	,	PUNCT	,	_	5	U	5:U	_
+18	making	make	VERB	VBG	_	5	H	5:H	_
+19	minor	minor	ADJ	JJ	_	20	E	20:E	_
+20	cuts	cut	NOUN	NNS	_	18	A	18:A	_
+21	to	to	ADP	IN	_	23	R	23:R	_
+22	her	she	PRON	PRP$	_	23	E	23:E	_
+23	wrist	wrist	NOUN	NN	_	18	A	18:A	_
+24	with	with	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	broken	break	VERB	VBN	_	27	E	27:E	_
+27	glass	glass	NOUN	NN	_	18	A	18:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

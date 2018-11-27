@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25645024
+# text = Er schien übrigens einige Einwendungen zu machen , auf die der Leutnant durch förmliche Versicherungen antwortete .
+1	Er	er	PRON	PPER	_	7	A	7:A	_
+2	schien	scheinen	VERB	VVFIN	_	7	G	7:G	_
+3	übrigens	übrigens	ADV	ADV	_	7	G	7:G	_
+4	einige	einige	PRON	PIAT	_	5	E	5:E	_
+5	Einwendungen	Einwendung	NOUN	NN	_	7	A	7:A	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	machen	machen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	auf	auf	ADP	APPR	_	10	R	10:R	_
+10	die	der	PRON	PRELS	_	16	R	16:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Leutnant	Leutnant	NOUN	NN	_	16	A	16:A	_
+13	durch	durch	ADP	APPR	_	15	R	15:R	_
+14	förmliche	förmlich	ADJ	ADJA	_	15	E	15:E	_
+15	Versicherungen	Versicherung	NOUN	NN	_	16	A	16:A	_
+16	antwortete	antworten	VERB	VVFIN	_	5	E	5:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

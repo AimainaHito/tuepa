@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25634011
+# text = Es waren wohl echte Papuas von athletischem Wuchs , ein schöner Menschenschlag , mit breiter , hoher Stirn , dicker , aber nicht platter Nase , weißen Zähnen .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	waren	sein	AUX	VAFIN	_	4	F	4:F	_
+3	wohl	wohl	ADV	ADV	_	4	G	4:G	_
+4	echte	echt	ADJ	ADJA	_	0	H	0:H	_
+5	Papuas	Papuas	NOUN	NE	_	4	A	4:A	_
+6	von	von	ADP	NE	_	8	R	8:R	_
+7	athletischem	athletisch	ADJ	PWAT	_	8	E	8:E	_
+8	Wuchs	wuchs	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	ein	ein	DET	ART	_	12	E	12:E	_
+11	schöner	schön	ADJ	ADJA	_	12	E	12:E	_
+12	Menschenschlag	Menschenschlag	NOUN	NN	_	4	A	4:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	mit	mit	ADP	APPR	_	18	R	18:R	_
+15	breiter	breit	ADJ	ADJD	_	18	E	18:E	_
+16	,	,	PUNCT	$,	_	18	U	18:U	_
+17	hoher	hoch	ADJ	ADJA	_	18	E	18:E	_
+18	Stirn	Stirn	NOUN	NE	_	12	E	12:E	_
+19	,	,	PUNCT	$,	_	12	U	12:U	_
+20	dicker	dicker	ADJ	NE	_	25	E	25:E	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	aber	aber	CCONJ	KON	_	20	N	20:N	_
+23	nicht	nicht	PART	XY	_	24	E	24:E	_
+24	platter	platt	ADJ	NN	_	20	C	20:C	_
+25	Nase	Nase	NOUN	NN	_	12	E	12:E	_
+26	,	,	PUNCT	$,	_	12	U	12:U	_
+27	weißen	weiß	ADJ	ADJA	_	28	E	28:E	_
+28	Zähnen	Zähnen	NOUN	VVFIN	_	12	E	12:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

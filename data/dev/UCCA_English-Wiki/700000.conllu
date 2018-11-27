@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 700000
+# text = Once Dylan was well enough to resume creative work , he began editing film footage of his 1966 tour for Eat the Document , a rarely exhibited follow - up to Dont Look Back .
+1	Once	once	SCONJ	IN	_	4	L	4:L	_
+2	Dylan	Dylan	PROPN	NNP	_	4	A	4:A|7:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	well	well	ADV	RB	_	0	H	0:H	_
+5	enough	enough	ADJ	JJ	_	4	L	4:L	_
+6	to	to	PART	TO	_	5	Terminal	5:Terminal	_
+7	resume	resume	VERB	VB	_	4	H	4:H	_
+8	creative	creative	ADJ	JJ	_	9	E	9:E	_
+9	work	work	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	he	he	PRON	PRP	_	13	A	13:A	_
+12	began	begin	VERB	VBD	_	13	D	13:D	_
+13	editing	edit	NOUN	NN	_	4	H	4:H	_
+14	film	film	NOUN	NN	_	15	E	15:E	_
+15	footage	footage	NOUN	NN	_	13	A	13:A	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	1966	1966	NUM	CD	_	19	D	19:D	_
+19	tour	tour	NOUN	NN	_	15	E	15:E	_
+20	for	for	ADP	IN	_	21	R	21:R	_
+21	Eat	Eat	PROPN	NNP	_	19	A	19:A	_
+22	the	the	DET	DT	_	21	Terminal	21:Terminal	_
+23	Document	document	NOUN	NN	_	21	Terminal	21:Terminal	_
+24	,	,	PUNCT	,	_	15	U	15:U	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	rarely	rarely	ADV	RB	_	27	D	27:D	_
+27	exhibited	exhibit	VERB	VBN	_	15	E	15:E	_
+28	follow	follow	NOUN	NN	_	27	A	27:A	_
+29	-	-	PUNCT	HYPH	_	28	U	28:U	_
+30	up	up	NOUN	NN	_	28	Terminal	28:Terminal	_
+31	to	to	ADP	IN	_	32	R	32:R	_
+32	Dont	Dont	PROPN	NNP	_	27	E	27:E	_
+33	Look	Look	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Back	Back	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	.	.	PUNCT	.	_	32	U	32:U	_
+

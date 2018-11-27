@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 637010
+# text = The same year , Tariq Ali 's revolutionary political views , expressed when he interviewed Lennon , inspired the singer to write " Power to the People " . Lennon also became involved with Ali during a protest against Oz magazine 's prosecution for alleged obscenity .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	18	D	18:D	_
+4	,	,	PUNCT	,	_	18	U	18:U	_
+5	Tariq	Tariq	PROPN	NNP	_	10	E	10:E	_
+6	Ali	Ali	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	revolutionary	revolutionary	ADJ	JJ	_	10	E	10:E	_
+9	political	political	ADJ	JJ	_	10	E	10:E	_
+10	views	view	NOUN	NNS	_	12	A	12:A	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	expressed	express	VERB	VBD	_	18	A	18:A	_
+13	when	when	ADV	WRB	_	12	L	12:L	_
+14	he	he	PRON	PRP	_	15	A	15:A	_
+15	interviewed	interview	VERB	VBD	_	12	H	12:H	_
+16	Lennon	Lennon	PROPN	NNP	_	15	A	15:A	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	inspired	inspire	VERB	VBD	_	0	H	0:H	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	singer	singer	NOUN	NN	_	18	A	18:A	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	write	write	VERB	VB	_	18	A	18:A	_
+23	"	"	PUNCT	``	_	22	U	22:U	_
+24	Power	power	NOUN	NN	_	22	A	22:A	_
+25	to	to	ADP	IN	_	24	Terminal	24:Terminal	_
+26	the	the	DET	DT	_	24	Terminal	24:Terminal	_
+27	People	People	NOUN	NNS	_	24	Terminal	24:Terminal	_
+28	"	"	PUNCT	''	_	18	U	18:U	_
+29	.	.	PUNCT	.	_	18	U	18:U	_
+30	Lennon	Lennon	PROPN	NNP	_	33	A	33:A	_
+31	also	also	ADV	RB	_	33	D	33:D	_
+32	became	become	VERB	VBD	_	33	D	33:D	_
+33	involved	involved	ADJ	JJ	_	18	H	18:H	_
+34	with	with	ADP	IN	_	35	R	35:R	_
+35	Ali	Ali	PROPN	NNP	_	33	A	33:A	_
+36	during	during	ADP	IN	_	18	L	18:L	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	protest	protest	NOUN	NN	_	18	H	18:H	_
+39	against	against	ADP	IN	_	43	R	43:R	_
+40	Oz	Oz	PROPN	NNP	_	41	E	41:E	_
+41	magazine	magazine	PROPN	NNP	_	43	A	43:A	_
+42	's	's	PART	POS	_	41	R	41:R	_
+43	prosecution	prosecution	NOUN	NN	_	38	A	38:A	_
+44	for	for	ADP	IN	_	46	R	46:R	_
+45	alleged	alleged	ADJ	JJ	_	46	E	46:E	_
+46	obscenity	obscenity	NOUN	NN	_	43	A	43:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 519000
+# text = Judy Garland ( born Frances Ethel Gumm ; June 10 , 1922 - June 22 , 1969 ) was an American actress , singer and vaudevillian .
+1	Judy	Judy	PROPN	NNP	_	5	A	5:A|19:A	_
+2	Garland	Garland	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+4	born	bear	VERB	VBN	_	5	D	5:D	_
+5	Frances	Frances	NOUN	NNS	_	0	H	0:H	_
+6	Ethel	Ethel	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Gumm	Gumm	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	;	;	PUNCT	,	_	5	U	5:U	_
+9	June	June	PROPN	NNP	_	5	D	5:D	_
+10	10	10	NUM	CD	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	1922	1922	NUM	CD	_	9	Terminal	9:Terminal	_
+13	-	-	PUNCT	HYPH	_	9	U	9:U	_
+14	June	June	PROPN	NNP	_	9	C	9:C	_
+15	22	22	NUM	CD	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	1969	1969	NUM	CD	_	14	Terminal	14:Terminal	_
+18	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+19	was	be	AUX	VBD	_	5	H	5:H	_
+20	an	a	DET	DT	_	22	E	22:E	_
+21	American	american	ADJ	JJ	_	22	E	22:E	_
+22	actress	actress	NOUN	NN	_	19	A	19:A	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	singer	singer	ADJ	JJ	_	22	C	22:C	_
+25	and	and	CCONJ	CC	_	22	N	22:N	_
+26	vaudevillian	vaudevillian	ADJ	JJ	_	22	C	22:C	_
+27	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 218004
+# text = " It was a box office disappointment .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	It	it	PRON	PRP	_	7	A	7:A	_
+3	was	be	AUX	VBD	_	7	F	7:F	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	box	box	NOUN	NN	_	6	E	6:E	_
+6	office	office	NOUN	NN	_	7	A	7:A	_
+7	disappointment	disappointment	NOUN	NN	_	0	H	0:H	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

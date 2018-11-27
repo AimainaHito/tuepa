@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25599009
+# text = Ich hörte die Pumpen im Schiff arbeiten , fühlte , wie das Wasser um mich herum sank , und in einigen Augenblicken war die Zelle ganz leer .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|9:A	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Pumpen	Pumpe|Pumpen	NOUN	NN	_	7	A	7:A	_
+5	im	im	ADJ	NE	_	6	R	6:R	_
+6	Schiff	Schiff	NOUN	NN	_	7	A	7:A	_
+7	arbeiten	arbeiten	VERB	VVINF	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	fühlte	fühlen	VERB	VVFIN	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	wie	wie	SCONJ	KON	_	17	R	17:R	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Wasser	Wasser	NOUN	NN	_	17	A	17:A	_
+14	um	um	ADP	APPR	_	15	R	15:R	_
+15	mich	ich	PRON	PPER	_	17	A	17:A	_
+16	herum	herum	ADV	ADV	_	14	Terminal	14:Terminal	_
+17	sank	sank	NOUN	VVFIN	_	9	A	9:A	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	und	und	CCONJ	NE	_	2	L	2:L	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	einigen	einige	PRON	PIAT	_	22	E	22:E	_
+22	Augenblicken	Augenblick	NOUN	NN	_	27	D	27:D	_
+23	war	sein	AUX	ADV	_	27	F	27:F	_
+24	die	der	DET	ART	_	25	E	25:E	_
+25	Zelle	Zelle	NOUN	NN	_	27	A	27:A	_
+26	ganz	ganz	ADJ	ADV	_	27	D	27:D	_
+27	leer	leer	ADJ	ADJD	_	2	H	2:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

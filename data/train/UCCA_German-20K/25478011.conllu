@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25478011
+# text = » Mein Herr « , sagte der Kommandant , » haben wir den nötigen Dampf ?
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	11	G	11:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kommandant	Kommandant	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	haben	haben	VERB	VAINF	_	6	A	6:A	_
+12	wir	wir	PRON	NE	_	11	A	11:A	_
+13	den	der	DET	ART	_	15	E	15:E	_
+14	nötigen	nötig	ADJ	ADJA	_	15	E	15:E	_
+15	Dampf	Dampf	NOUN	NN	_	11	A	11:A	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+

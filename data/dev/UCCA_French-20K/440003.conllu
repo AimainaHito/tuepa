@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 440003
+# text = L'esprit humain se plaît à ces conceptions grandioses d' êtres surnaturels .
+1	L'esprit	L'esprit	NOUN	_	_	3	A	3:A	_
+2	humain	humain	ADJ	_	_	1	E	1:E	_
+3	se	se	PRON	_	_	0	H	0:H	_
+4	plaît	plaire	VERB	_	_	3	Terminal	3:Terminal	_
+5	à	à	ADP	_	_	7	R	7:R	_
+6	ces	ce	DET	_	_	7	E	7:E	_
+7	conceptions	conception	NOUN	_	_	3	A	3:A	_
+8	grandioses	grandiose	ADJ	_	_	7	E	7:E	_
+9	d'	de	ADP	_	_	10	R	10:R	_
+10	êtres	être	NOUN	_	_	7	E	7:E	_
+11	surnaturels	surnaturel	ADJ	_	_	10	E	10:E	_
+12	.	.	PUNCT	_	_	10	U	10:U	_
+

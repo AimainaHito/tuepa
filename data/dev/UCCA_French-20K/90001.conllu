@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 90001
+# text = Sous l' effort combiné du vent et de ses quatre cents chevaux-vapeur , il marchait à la vitesse de treize nuds .
+1	Sous	sous	ADP	_	_	3	R	3:R	_
+2	l'	le	DET	_	_	3	E	3:E	_
+3	effort	effort	NOUN	_	_	15	A	15:A	_
+4	combiné	combiner	VERB	_	_	3	D	3:D	_
+5	du	du	DET	_	_	6	R	6:R	_
+6	vent	vent	NOUN	_	_	3	A	3:A	_
+7	et	et	CCONJ	_	_	6	N	6:N	_
+8	de	de	ADP	_	_	12	R	12:R	_
+9	ses	son	DET	_	_	12	E	12:E	_
+10	quatre	quatre	NUM	_	_	12	E	12:E	_
+11	cents	cents	NOUN	_	_	10	Terminal	10:Terminal	_
+12	chevaux-vapeur	chevaux-vapeur	NOUN	_	_	6	C	6:C	_
+13	,	,	PUNCT	_	_	15	U	15:U	_
+14	il	il	PRON	_	_	15	A	15:A	_
+15	marchait	marcher	VERB	_	_	0	H	0:H	_
+16	à	à	ADP	_	_	18	R	18:R	_
+17	la	le	DET	_	_	18	E	18:E	_
+18	vitesse	vitesse	NOUN	_	_	21	E	21:E	_
+19	de	de	ADP	_	_	18	R	18:R	_
+20	treize	treize	NUM	_	_	21	E	21:E	_
+21	nuds	nud	NOUN	_	_	15	A	15:A	_
+22	.	.	PUNCT	_	_	21	U	21:U	_
+

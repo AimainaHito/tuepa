@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 546007
+# text = During this period , Warner showed little foresight in his treatment of the studio 's cartoon operation .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	period	period	NOUN	NN	_	8	D	8:D	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Warner	Warner	PROPN	NNP	_	8	A	8:A	_
+6	showed	show	VERB	VBD	_	8	D	8:D	_
+7	little	little	ADJ	JJ	_	8	E	8:E	_
+8	foresight	foresight	NOUN	NN	_	0	H	0:H	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	his	he	PRON	PRP$	_	11	A	11:A	_
+11	treatment	treatment	NOUN	NN	_	8	A	8:A	_
+12	of	of	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	studio	studio	NOUN	NN	_	17	E	17:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	cartoon	cartoon	NOUN	NN	_	17	E	17:E	_
+17	operation	operation	NOUN	NN	_	11	A	11:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

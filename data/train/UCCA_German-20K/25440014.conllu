@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25440014
+# text = Übrigens sprach Kommandant Farragut von einer Summe von 2.000 Dollar , die er aussetzte - Schiffsjunge , Matrose oder Offizier - der das Tier signalisierte .
+1	Übrigens	übrigens	ADV	ADV	_	2	G	2:G	_
+2	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+3	Kommandant	Kommandant	NOUN	NN	_	4	E	4:E	_
+4	Farragut	Farragut	PROPN	NN	_	2	A	2:A	_
+5	von	von	ADP	NN	_	7	R	7:R	_
+6	einer	ein	DET	ART	_	7	E	7:E	_
+7	Summe	Summe	NOUN	NN	_	2	A	2:A	_
+8	von	von	ADP	NN	_	9	R	9:R	_
+9	2.000	2.0	NUM	CARD	_	7	E	7:E	_
+10	Dollar	Dollar	PROPN	NN	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	die	der	PRON	PRELS	_	14	R	14:R	_
+13	er	er	PRON	PPER	_	14	A	14:A	_
+14	aussetzte	aussetzt	ADJ	NN	_	7	E	7:E	_
+15	-	-	PUNCT	$(	_	14	U	14:U	_
+16	Schiffsjunge	Schiffsjunge	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Matrose	Matrose	NOUN	NN	_	16	C	16:C	_
+19	oder	oder	CCONJ	CARD	_	16	N	16:N	_
+20	Offizier	Offizier	NOUN	NN	_	16	C	16:C	_
+21	-	-	PUNCT	$(	_	16	U	16:U	_
+22	der	der	PRON	PRELS	_	25	R	25:R	_
+23	das	der	DET	ART	_	24	E	24:E	_
+24	Tier	Tier	NOUN	NN	_	25	A	25:A	_
+25	signalisierte	signalisiern	VERB	VVFIN	_	16	E	16:E	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25615003
+# text = » Ich denke also , wenn 's meinem Herrn beliebt , ein gutes Jahr wäre ein Jahr , das uns alles zu sehen vergönnte ... «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	denke	denken	VERB	VVFIN	_	0	H	0:H	_
+4	also	also	ADV	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+7	's	es	PRON	PPER	_	10	A	10:A	_
+8	meinem	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Herrn	Herr	NOUN	NN	_	10	A	10:A	_
+10	beliebt	beliebt	VERB	VVPP	_	3	H	3:H	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	ein	ein	DET	ART	_	14	E	14:E	_
+13	gutes	gut	ADJ	ADJA	_	14	E	14:E	_
+14	Jahr	Jahr	NOUN	NN	_	15	A	15:A	_
+15	wäre	sein	AUX	ADV	_	3	A	3:A	_
+16	ein	ein	DET	ART	_	17	E	17:E	_
+17	Jahr	Jahr	NOUN	NN	_	15	A	15:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	das	der	PRON	PRELS	_	23	R	23:R	_
+20	uns	wir	PRON	NE	_	23	A	23:A	_
+21	alles	alle	PRON	PIS	_	23	A	23:A	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	sehen	sehen	VERB	VVINF	_	17	E	17:E	_
+24	vergönnte	vergönnen	VERB	ADJA	_	23	D	23:D	_
+25	...	...	PUNCT	$(	_	23	U	23:U	_
+26	«	«	PUNCT	$(	_	23	U	23:U	_
+

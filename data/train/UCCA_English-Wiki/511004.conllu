@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 511004
+# text = He performed again in November , alongside Alicia Keys , at the Black Ball , a New York benefit event for Keep a Child Alive , a performance that marks the last time Bowie performed his music on stage .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	again	again	ADV	RB	_	2	D	2:D	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	November	November	PROPN	NNP	_	2	D	2:D	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	alongside	alongside	ADP	IN	_	8	R	8:R	_
+8	Alicia	Alicia	PROPN	NNP	_	2	A	2:A	_
+9	Keys	keys	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	at	at	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	Black	Black	PROPN	NNP	_	2	A	2:A	_
+14	Ball	Ball	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	New	New	PROPN	NNP	_	20	E	20:E	_
+18	York	York	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	benefit	benefit	NOUN	NN	_	20	E	20:E	_
+20	event	event	NOUN	NN	_	13	E	13:E	_
+21	for	for	SCONJ	IN	_	22	R	22:R	_
+22	Keep	Keep	VERB	VB	_	20	E	20:E	_
+23	a	a	DET	DT	_	22	Terminal	22:Terminal	_
+24	Child	child	NOUN	NN	_	22	Terminal	22:Terminal	_
+25	Alive	alive	PROPN	NNP	_	22	Terminal	22:Terminal	_
+26	,	,	PUNCT	,	_	2	U	2:U	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	performance	performance	NOUN	NN	_	30	A	30:A	_
+29	that	that	PRON	WDT	_	30	F	30:F	_
+30	marks	mark	VERB	VBZ	_	2	H	2:H	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	last	last	ADJ	JJ	_	33	E	33:E	_
+33	time	time	NOUN	NN	_	35	D	35:D	_
+34	Bowie	Bowie	PROPN	NNP	_	35	A	35:A	_
+35	performed	perform	VERB	VBD	_	30	A	30:A	_
+36	his	he	PRON	PRP$	_	37	E	37:E	_
+37	music	music	NOUN	NN	_	35	A	35:A	_
+38	on	on	ADP	IN	_	39	R	39:R	_
+39	stage	stage	NOUN	NN	_	35	A	35:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

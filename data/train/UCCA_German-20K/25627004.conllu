@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25627004
+# text = Ned Land hoffte , als Jäger glücklicher als gestern zu sein , und wünschte eine andere Gegend des Waldes zu besuchen .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A|21:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	hoffte	hoffen	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	als	als	ADP	KOUS	_	6	R	6:R	_
+6	Jäger	Jäger	NOUN	NE	_	7	A	7:A	_
+7	glücklicher	glücklich	ADJ	ADJA	_	3	A	3:A	_
+8	als	als	ADP	KOKOM	_	9	R	9:R	_
+9	gestern	gestern	ADJ	ADV	_	7	D	7:D	_
+10	zu	zu	PART	VVINF	_	7	F	7:F	_
+11	sein	sein	AUX	VAINF	_	7	F	7:F	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	wünschte	wünschen	VERB	VVFIN	_	21	D	21:D	_
+15	eine	ein	DET	ART	_	17	E	17:E	_
+16	andere	ander	ADJ	ADJA	_	17	E	17:E	_
+17	Gegend	Gegend	NOUN	NN	_	21	A	21:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Waldes	Waldes	NOUN	NN	_	17	E	17:E	_
+20	zu	zu	PART	NN	_	21	F	21:F	_
+21	besuchen	besuchen	VERB	VVINF	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

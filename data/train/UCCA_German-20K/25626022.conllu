@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25626022
+# text = Ich aß und legte mich schlafen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|4:A	_
+2	aß	itzen	VERB	VVFIN	_	0	H	0:H	_
+3	und	und	CCONJ	NE	_	2	L	2:L	_
+4	legte	legen	VERB	VVFIN	_	2	H	2:H	_
+5	mich	ich	PRON	PPER	_	4	Terminal	4:Terminal	_
+6	schlafen	schlafen	VERB	VVINF	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

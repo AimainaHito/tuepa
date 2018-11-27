@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25686006
+# text = 10 Minuten später blieb Kapitän Nemo plötzlich stehen .
+1	10	10	NUM	CARD	_	2	E	2:E	_
+2	Minuten	Minute	NOUN	NN	_	3	E	3:E	_
+3	später	spät	ADJ	ADJD	_	4	D	4:D	_
+4	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+5	Kapitän	Kapitän	PROPN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+7	plötzlich	plötzlich	ADJ	ADJD	_	4	D	4:D	_
+8	stehen	stehen	VERB	VVFIN	_	4	Terminal	4:Terminal	_
+9	.	.	PUNCT	$.	_	4	U	4:U	_
+

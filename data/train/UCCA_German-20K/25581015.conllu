@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25581015
+# text = Die Fenster läden blieben geschlossen .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Fenster	Fenster	NOUN	NN	_	3	E	3:E	_
+3	läden	läd	ADJ	NN	_	5	A	5:A	_
+4	blieben	bleiben	AUX	VVFIN	_	5	D	5:D	_
+5	geschlossen	schließen	VERB	VVPP	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

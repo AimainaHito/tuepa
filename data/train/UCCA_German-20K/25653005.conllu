@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25653005
+# text = Diese Korallen kommen an Wert denen gleich , die man im Mittelmeer an den Küsten Frankreichs , Italiens und der Berberei fischt .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Korallen	Koralle	NOUN	NN	_	3	A	3:A	_
+3	kommen	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	an	an	ADP	APPR	_	5	R	5:R	_
+5	Wert	Wert	NOUN	NN	_	3	A	3:A	_
+6	denen	der	PRON	PRELS	_	3	A	3:A	_
+7	gleich	gleich	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	die	der	PRON	PRELS	_	22	R	22:R	_
+10	man	man	PRON	PIS	_	22	A	22:A	_
+11	im	im	ADV	NE	_	12	R	12:R	_
+12	Mittelmeer	Mittelmeer	PROPN	NE	_	22	A	22:A	_
+13	an	an	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Küsten	Küste	NOUN	NN	_	22	A	22:A	_
+16	Frankreichs	Frankreich	PROPN	NE	_	15	E	15:E	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Italiens	Italien	PROPN	NE	_	16	C	16:C	_
+19	und	und	CCONJ	NE	_	16	N	16:N	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Berberei	Berberei	NOUN	NN	_	16	C	16:C	_
+22	fischt	fischen	VERB	VVFIN	_	6	E	6:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

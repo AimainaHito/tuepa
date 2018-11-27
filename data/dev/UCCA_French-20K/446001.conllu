@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 446001
+# text = On n' accorda pas vingt-quatre heures de répit au commandant Farragut .
+1	On	on	PRON	_	_	3	A	3:A	_
+2	n'	ne	ADV	_	_	3	D	3:D	_
+3	accorda	accorder	VERB	_	_	0	H	0:H	_
+4	pas	pas	ADV	_	_	2	Terminal	2:Terminal	_
+5	vingt-quatre	vingt-quatre	NUM	_	_	6	E	6:E	_
+6	heures	heure	NOUN	_	_	3	D	3:D	_
+7	de	de	ADP	_	_	8	R	8:R	_
+8	répit	répit	NOUN	_	_	3	A	3:A	_
+9	au	au	ADJ	_	_	11	R	11:R	_
+10	commandant	commandant	VERB	_	_	11	E	11:E	_
+11	Farragut	Farragut	PROPN	_	_	3	A	3:A	_
+12	.	.	PUNCT	_	_	11	U	11:U	_
+

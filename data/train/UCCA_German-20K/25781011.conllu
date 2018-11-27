@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25781011
+# text = Die Eis blöcke vermehrten sich auf dem freien Wasser ; das Meer fing an überall zu gefrieren .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Eis	Eis	NOUN	NN	_	3	E	3:E	_
+3	blöcke	blöck	ADJ	NN	_	4	A	4:A	_
+4	vermehrten	vermehrn	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	auf	auf	ADP	APPR	_	9	R	9:R	_
+7	dem	der	DET	ART	_	9	E	9:E	_
+8	freien	frei	ADJ	ADJA	_	9	E	9:E	_
+9	Wasser	Wasser	NOUN	NN	_	4	A	4:A	_
+10	;	;	PUNCT	$.	_	4	U	4:U	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	Meer	Meer	NOUN	NN	_	17	A	17:A	_
+13	fing	fangen	VERB	VVFIN	_	17	D	17:D	_
+14	an	an	ADP	APPR	_	13	Terminal	13:Terminal	_
+15	überall	überall	ADV	ADJD	_	17	A	17:A	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	gefrieren	gefrieren	VERB	VVINF	_	4	H	4:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25482008
+# text = « » Noch stärker feuern ! «
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	»	»	PUNCT	$(	_	5	U	5:U	_
+3	Noch	noch	ADV	ADV	_	4	E	4:E	_
+4	stärker	stark	ADJ	ADJD	_	5	D	5:D	_
+5	feuern	feuern	VERB	VVINF	_	0	H	0:H	_
+6	!	!	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

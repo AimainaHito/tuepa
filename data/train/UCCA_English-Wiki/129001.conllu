@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 129001
+# text = There was no such recurrence , and the picture was a commercial failure .
+1	There	there	PRON	EX	_	2	F	2:F	_
+2	was	be	VERB	VBD	_	0	H	0:H	_
+3	no	no	DET	DT	_	2	D	2:D	_
+4	such	such	ADJ	JJ	_	5	E	5:E	_
+5	recurrence	recurrence	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	picture	picture	NOUN	NN	_	13	A	13:A	_
+10	was	be	AUX	VBD	_	13	F	13:F	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	commercial	commercial	ADJ	JJ	_	13	A	13:A	_
+13	failure	failure	NOUN	NN	_	2	H	2:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

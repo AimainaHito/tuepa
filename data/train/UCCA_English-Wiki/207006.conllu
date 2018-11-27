@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 207006
+# text = It 's a film one digs , rather than understands intellectually .
+1	It	it	PRON	PRP	_	4	A	4:A	_
+2	's	be	AUX	VBZ	_	4	F	4:F	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	film	film	NOUN	NN	_	0	C	0:C|10:A|6:A	_
+5	one	one	NUM	CD	_	6	A	6:A|10:A	_
+6	digs	dig	VERB	VBZ	_	4	E	4:E	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	rather	rather	ADP	IN	_	4	L	4:L	_
+9	than	than	ADP	IN	_	8	R	8:R	_
+10	understands	understand	VERB	VBZ	_	4	H	4:H	_
+11	intellectually	intellectually	ADV	RB	_	10	D	10:D	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25703002
+# text = » Gehen Sie nur ans Werk , Meister Land « , erwiderte Kapitän Nemo .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Gehen	gehen	VERB	VVFIN	_	12	A	12:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	nur	nur	ADV	NE	_	2	D	2:D	_
+5	ans	ans	ADP	NE	_	6	R	6:R	_
+6	Werk	Werk	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	Meister	Meister	NOUN	NN	_	9	E	9:E	_
+9	Land	Land	NOUN	NN	_	2	G	2:G	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	Kapitän	Kapitän	PROPN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	12	A	12:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

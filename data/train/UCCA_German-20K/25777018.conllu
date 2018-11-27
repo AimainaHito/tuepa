@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25777018
+# text = Seit dem Äquinoktium des September war sie am nördlichen Himmel aufgetaucht , um in langen Spirallinien bis zum 21 . Dezember auf zu steigen .
+1	Seit	seit	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Äquinoktium	Äquinoktium	NOUN	NN	_	11	D	11:D	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	September	September	PROPN	NN	_	3	E	3:E	_
+6	war	sein	AUX	NE	_	11	F	11:F	_
+7	sie	sie	PRON	ADV	_	11	A	11:A|22:A	_
+8	am	am	ADJ	ADJD	_	10	R	10:R	_
+9	nördlichen	nördlich	ADJ	ADJA	_	10	E	10:E	_
+10	Himmel	Himmel	NOUN	NN	_	11	A	11:A	_
+11	aufgetaucht	aufgetauchen	VERB	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	um	um	ADP	KOUI	_	11	L	11:L	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	langen	lang	ADJ	ADJA	_	16	E	16:E	_
+16	Spirallinien	Spirallinie	NOUN	NN	_	22	A	22:A	_
+17	bis	bis	ADP	APPR	_	19	R	19:R	_
+18	zum	zum	ADV	NN	_	17	Terminal	17:Terminal	_
+19	21	21	NUM	CARD	_	22	D	22:D	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+21	Dezember	Dezember	PROPN	NN	_	19	Terminal	19:Terminal	_
+22	auf	auf	ADP	APPR	_	11	H	11:H	_
+23	zu	zu	PART	NE	_	22	F	22:F	_
+24	steigen	steigen	VERB	VVINF	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	$.	_	22	U	22:U	_
+

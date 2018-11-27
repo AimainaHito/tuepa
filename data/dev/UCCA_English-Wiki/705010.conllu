@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 705010
+# text = " They used to say " You sure are a prophet .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	They	they	PRON	PRP	_	5	A	5:A	_
+3	used	use	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	say	say	VERB	VB	_	0	H	0:H	_
+6	"	"	PUNCT	``	_	5	U	5:U	_
+7	You	you	PRON	PRP	_	9	A	9:A	_
+8	sure	sure	ADJ	JJ	_	9	D	9:D	_
+9	are	be	AUX	VBP	_	5	A	5:A	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	prophet	prophet	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25513002
+# text = Dieses klar beleuchtete Maschinen zimmer war nicht weniger als 20 Meter lang .
+1	Dieses	dies	PRON	PDAT	_	5	E	5:E	_
+2	klar	klar	ADJ	ADJD	_	3	D	3:D	_
+3	beleuchtete	beleuchtet	ADJ	ADJA	_	5	E	5:E	_
+4	Maschinen	Maschine	NOUN	NN	_	5	E	5:E	_
+5	zimmer	zimmer	ADV	NN	_	12	A	12:A	_
+6	war	sein	AUX	ADV	_	12	F	12:F	_
+7	nicht	nicht	PART	XY	_	8	E	8:E	_
+8	weniger	weniger	ADJ	ADV	_	12	D	12:D	_
+9	als	als	ADP	KOKOM	_	11	R	11:R	_
+10	20	20	NUM	CARD	_	11	E	11:E	_
+11	Meter	Meter	NOUN	NN	_	12	A	12:A	_
+12	lang	lang	ADJ	ADJD	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

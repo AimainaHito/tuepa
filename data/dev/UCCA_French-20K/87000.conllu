@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 87000
+# text = Alors éclata l' interminable polémique des crédules et des incrédules dans les sociétés savantes et les journaux scientifiques .
+1	Alors	alors	ADV	_	_	2	L	2:L	_
+2	éclata	éclater	VERB	_	_	0	H	0:H	_
+3	l'	le	DET	_	_	5	E	5:E	_
+4	interminable	interminable	ADJ	_	_	5	E	5:E	_
+5	polémique	polémique	NOUN	_	_	2	A	2:A	_
+6	des	un	DET	_	_	7	R	7:R	_
+7	crédules	crédule	NOUN	_	_	5	E	5:E	_
+8	et	et	CCONJ	_	_	7	N	7:N	_
+9	des	un	DET	_	_	10	R	10:R	_
+10	incrédules	incrédule	NOUN	_	_	7	C	7:C	_
+11	dans	dans	ADP	_	_	13	R	13:R|17:R	_
+12	les	le	DET	_	_	13	E	13:E	_
+13	sociétés	société	NOUN	_	_	2	A	2:A	_
+14	savantes	savant	ADJ	_	_	13	E	13:E	_
+15	et	et	CCONJ	_	_	13	N	13:N	_
+16	les	le	DET	_	_	17	E	17:E	_
+17	journaux	journal	NOUN	_	_	13	C	13:C	_
+18	scientifiques	scientifique	ADJ	_	_	17	E	17:E	_
+19	.	.	PUNCT	_	_	17	U	17:U	_
+

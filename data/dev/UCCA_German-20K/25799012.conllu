@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25799012
+# text = Die ›Nautilus‹ tauchte wieder unter und näherte sich der Küste , an der sie in einer Entfernung von nur einigen Meilen vorüberfuhr .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|7:A	_
+3	tauchte	tauchen	VERB	VVFIN	_	0	H	0:H	_
+4	wieder	wieder	ADV	NN	_	3	D	3:D	_
+5	unter	unter	ADP	NE	_	3	Terminal	3:Terminal	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	näherte	nähern	VERB	VVFIN	_	3	H	3:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Küste	Küste	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	an	an	ADP	APPR	_	13	R	13:R	_
+13	der	der	PRON	ART	_	22	R	22:R	_
+14	sie	sie	PRON	NN	_	22	A	22:A	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	einer	ein	DET	ART	_	17	E	17:E	_
+17	Entfernung	Entfernung	NOUN	NN	_	22	A	22:A	_
+18	von	von	ADP	NE	_	21	R	21:R	_
+19	nur	nur	ADV	NE	_	21	E	21:E	_
+20	einigen	einige	PRON	PIAT	_	21	E	21:E	_
+21	Meilen	Meile	NOUN	NN	_	17	A	17:A	_
+22	vorüberfuhr	vorüberfuhr	ADV	VVFIN	_	10	E	10:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25591007
+# text = Ich konnte die Gegenstände in einer Entfernung von 100 Metern klar unterscheiden .
+1	Ich	ich	PRON	PPER	_	12	A	12:A	_
+2	konnte	können	AUX	VMFIN	_	12	D	12:D	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Gegenstände	Gegenstand	NOUN	NN	_	12	A	12:A	_
+5	in	in	ADP	APPR	_	10	R	10:R	_
+6	einer	ein	DET	ART	_	7	E	7:E	_
+7	Entfernung	Entfernung	NOUN	NN	_	10	E	10:E	_
+8	von	von	ADP	NE	_	7	R	7:R	_
+9	100	100	NUM	CARD	_	10	E	10:E	_
+10	Metern	Meter	NOUN	NN	_	12	A	12:A	_
+11	klar	klar	ADJ	ADJD	_	12	D	12:D	_
+12	unterscheiden	unterscheiden	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

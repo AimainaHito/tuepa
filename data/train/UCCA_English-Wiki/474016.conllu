@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 474016
+# text = " While Johnson played well in 1996 , there were struggles both on and off the court .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	While	while	SCONJ	IN	_	4	L	4:L	_
+3	Johnson	Johnson	PROPN	NNP	_	4	A	4:A	_
+4	played	play	VERB	VBD	_	0	H	0:H	_
+5	well	well	ADV	RB	_	4	D	4:D	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1996	1996	NUM	CD	_	4	D	4:D	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	there	there	PRON	EX	_	10	F	10:F	_
+10	were	be	VERB	VBD	_	4	H	4:H	_
+11	struggles	struggle	NOUN	NNS	_	10	A	10:A	_
+12	both	both	CCONJ	CC	_	13	N	13:N	_
+13	on	on	ADP	IN	_	17	E	17:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	off	off	ADP	IN	_	13	C	13:C	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	court	court	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

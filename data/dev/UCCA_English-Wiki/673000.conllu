@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 673000
+# text = On January 20 , 2009 , Carey performed " Hero " at the Neighborhood Inaugural Ball after Barack Obama was sworn as the first African - American president of the United States .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	January	January	PROPN	NNP	_	8	D	8:D	_
+3	20	20	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Carey	Carey	PROPN	NNP	_	8	A	8:A	_
+8	performed	perform	VERB	VBD	_	0	H	0:H	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	Hero	hero	NOUN	NN	_	8	A	8:A	_
+11	"	"	PUNCT	''	_	8	U	8:U	_
+12	at	at	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	Neighborhood	neighborhood	PROPN	NNP	_	16	E	16:E	_
+15	Inaugural	Inaugural	PROPN	NNP	_	16	E	16:E	_
+16	Ball	Ball	PROPN	NNP	_	8	A	8:A	_
+17	after	after	ADP	IN	_	8	L	8:L	_
+18	Barack	Barack	PROPN	NNP	_	21	A	21:A	_
+19	Obama	Obama	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	was	be	AUX	VBD	_	21	F	21:F	_
+21	sworn	swear	VERB	VBN	_	8	H	8:H	_
+22	as	as	ADP	IN	_	28	R	28:R	_
+23	the	the	DET	DT	_	28	E	28:E	_
+24	first	first	ADV	RBS	_	28	E	28:E	_
+25	African	african	ADJ	JJ	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	American	american	ADJ	JJ	_	28	E	28:E	_
+28	president	president	NOUN	NN	_	21	A	21:A	_
+29	of	of	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	United	United	PROPN	NNP	_	28	E	28:E	_
+32	States	States	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	.	.	PUNCT	.	_	31	U	31:U	_
+

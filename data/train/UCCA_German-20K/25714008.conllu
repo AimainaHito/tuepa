@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25714008
+# text = Mit diesen Worten verließ der Kapitän den Salon .
+1	Mit	mit	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Worten	Wort	NOUN	NN	_	0	H	0:H	_
+4	verließ	verlassen	VERB	VVFIN	_	3	H	3:H	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|3:A	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Salon	Salon	NOUN	NN	_	4	A	4:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

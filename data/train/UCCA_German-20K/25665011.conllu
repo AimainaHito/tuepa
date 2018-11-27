@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25665011
+# text = Übrigens sind wir durch nichts an Kapitän Nemo gebunden .
+1	Übrigens	übrigens	ADV	ADV	_	9	G	9:G	_
+2	sind	sein	AUX	NN	_	9	F	9:F	_
+3	wir	wir	PRON	NE	_	9	A	9:A	_
+4	durch	durch	ADP	APPR	_	5	R	5:R	_
+5	nichts	nichts	PRON	NN	_	9	D	9:D	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+9	gebunden	binden	VERB	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

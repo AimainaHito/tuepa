@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25605017
+# text = Es war eine junge Frau .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	eine	ein	DET	ART	_	5	E	5:E	_
+4	junge	jung	ADJ	ADJA	_	0	H	0:H	_
+5	Frau	Frau	NOUN	NN	_	4	A	4:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

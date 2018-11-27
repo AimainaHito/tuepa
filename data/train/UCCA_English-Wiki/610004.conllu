@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 610004
+# text = The tour resulted in the double live album Back in the U.S. , released internationally in 2003 as Back in the World .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	tour	tour	NOUN	NN	_	3	A	3:A	_
+3	resulted	result	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	double	double	ADJ	JJ	_	8	E	8:E	_
+7	live	live	NOUN	NN	_	8	E	8:E	_
+8	album	album	NOUN	NN	_	9	E	9:E	_
+9	Back	back	ADV	RB	_	3	A	3:A	_
+10	in	in	ADP	IN	_	9	Terminal	9:Terminal	_
+11	the	the	DET	DT	_	9	Terminal	9:Terminal	_
+12	U.S.	U.S.	PROPN	NNP	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	released	release	VERB	VBD	_	9	E	9:E	_
+15	internationally	internationally	ADV	RB	_	14	D	14:D	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	2003	2003	NUM	CD	_	14	D	14:D	_
+18	as	as	SCONJ	IN	_	19	R	19:R	_
+19	Back	back	ADV	RB	_	14	A	14:A	_
+20	in	in	ADP	IN	_	19	Terminal	19:Terminal	_
+21	the	the	DET	DT	_	19	Terminal	19:Terminal	_
+22	World	World	NOUN	NN	_	19	Terminal	19:Terminal	_
+23	.	.	PUNCT	.	_	19	U	19:U	_
+

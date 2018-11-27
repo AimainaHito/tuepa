@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25640024
+# text = Am folgenden Tag , 10 . Januar , setzte die " Nautilus " ihre Fahrt fort , aber mit einer merkwürdigen Geschwindigkeit , die ich nicht geringer als auf 35 Meilen die Stunde anschlagen kann .
+1	Am	am	PROPN	NN	_	3	E	3:E	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	10	10	NUM	CARD	_	9	D	9:D	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	Januar	Januar	PROPN	NN	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	"	"	PUNCT	$(	_	12	U	12:U	_
+12	Nautilus	Nautilus	PROPN	NN	_	0	C	0:C|22:A	_
+13	"	"	PUNCT	$(	_	9	U	9:U	_
+14	ihre	ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Fahrt	Fahrt	NOUN	NN	_	0	C	0:C|22:P	_
+16	fort	fort	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+17	,	,	PUNCT	$,	_	9	U	9:U	_
+18	aber	aber	CCONJ	KON	_	9	L	9:L	_
+19	mit	mit	ADP	APPR	_	22	R	22:R	_
+20	einer	ein	DET	ART	_	22	E	22:E	_
+21	merkwürdigen	merkwürdig	ADJ	ADJA	_	22	E	22:E	_
+22	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	9	H	9:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	die	der	PRON	PRELS	_	34	R	34:R	_
+25	ich	ich	PRON	PPER	_	34	A	34:A	_
+26	nicht	nicht	PART	XY	_	27	E	27:E	_
+27	geringer	gering	ADJ	ADJD	_	34	D	34:D	_
+28	als	als	ADP	KOKOM	_	31	R	31:R	_
+29	auf	auf	ADP	APPR	_	31	R	31:R	_
+30	35	35	NUM	CARD	_	31	E	31:E	_
+31	Meilen	Meile	NOUN	NN	_	34	A	34:A	_
+32	die	der	DET	ART	_	31	Terminal	31:Terminal	_
+33	Stunde	Stunde	NOUN	NN	_	31	Terminal	31:Terminal	_
+34	anschlagen	anschlagen	VERB	VVINF	_	22	E	22:E	_
+35	kann	können	AUX	VMFIN	_	34	D	34:D	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

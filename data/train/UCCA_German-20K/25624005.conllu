@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25624005
+# text = Unser Zweck hier ist , Experimente zu machen .
+1	Unser	unser	PROPN	PPOSAT	_	2	E	2:E	_
+2	Zweck	Zweck	PROPN	NE	_	0	H	0:H	_
+3	hier	hier	ADV	ADV	_	2	A	2:A	_
+4	ist	sein	AUX	VVFIN	_	2	F	2:F	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Experimente	Experiment	NOUN	NN	_	8	A	8:A	_
+7	zu	zu	PART	VVINF	_	8	F	8:F	_
+8	machen	machen	VERB	VVINF	_	2	A	2:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

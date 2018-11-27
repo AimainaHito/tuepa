@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 565011
+# text = To further take advantage of Presley 's popularity , four musical numbers were added to what was originally a straight acting role .
+1	To	to	PART	TO	_	4	L	4:L	_
+2	further	further	ADV	RB	_	4	D	4:D	_
+3	take	take	VERB	VB	_	4	F	4:F	_
+4	advantage	advantage	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	8	R	8:R	_
+6	Presley	Presley	PROPN	NNP	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	popularity	popularity	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	four	four	NUM	CD	_	12	E	12:E	_
+11	musical	musical	ADJ	JJ	_	12	E	12:E	_
+12	numbers	number	NOUN	NNS	_	14	A	14:A	_
+13	were	be	AUX	VBD	_	14	F	14:F	_
+14	added	add	VERB	VBN	_	4	H	4:H	_
+15	to	to	SCONJ	IN	_	17	R	17:R	_
+16	what	what	PRON	WP	_	17	A	17:A	_
+17	was	be	AUX	VBD	_	14	A	14:A	_
+18	originally	originally	ADV	RB	_	17	D	17:D	_
+19	a	a	DET	DT	_	22	E	22:E	_
+20	straight	straight	ADJ	JJ	_	22	E	22:E	_
+21	acting	acting	NOUN	NN	_	22	E	22:E	_
+22	role	role	NOUN	NN	_	17	A	17:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25511009
+# text = Ich fragte den Kapitän , wozu diese Leiter diene .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	wozu	wozu	PRON	ADJA	_	9	A	9:A	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Leiter	Leiter	NOUN	NN	_	9	A	9:A	_
+9	diene	dienen	VERB	VVFIN	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

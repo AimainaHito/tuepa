@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 512007
+# text = In 1976 he earned acclaim for his first major film role , portraying Thomas Jerome Newton , an alien from a dying planet , in The Man Who Fell to Earth , directed by Nic Roeg .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1976	1976	NUM	CD	_	5	D	5:D	_
+3	he	he	PRON	PRP	_	5	A	5:A|13:A	_
+4	earned	earn	VERB	VBD	_	5	D	5:D	_
+5	acclaim	acclaim	PRON	PRP	_	0	H	0:H	_
+6	for	for	ADP	IN	_	11	R	11:R	_
+7	his	he	PRON	PRP$	_	11	E	11:E	_
+8	first	first	ADJ	JJ	_	11	E	11:E	_
+9	major	major	ADJ	JJ	_	11	E	11:E	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	role	role	NOUN	NN	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	portraying	portray	VERB	VBG	_	5	H	5:H	_
+14	Thomas	Thomas	PROPN	NNP	_	13	A	13:A	_
+15	Jerome	Jerome	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Newton	Newton	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	14	U	14:U	_
+18	an	a	DET	DT	_	19	E	19:E	_
+19	alien	alien	NOUN	NN	_	23	A	23:A	_
+20	from	from	ADP	IN	_	23	R	23:R	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	dying	die	VERB	VBG	_	23	D	23:D	_
+23	planet	planet	NOUN	NN	_	14	E	14:E	_
+24	,	,	PUNCT	,	_	13	U	13:U	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	The	the	DET	DT	_	13	A	13:A	_
+27	Man	man	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	Who	who	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	Fell	fell	PROPN	NNP	_	26	Terminal	26:Terminal	_
+30	to	to	ADP	IN	_	26	Terminal	26:Terminal	_
+31	Earth	Earth	PROPN	NNP	_	26	Terminal	26:Terminal	_
+32	,	,	PUNCT	,	_	26	U	26:U	_
+33	directed	direct	VERB	VBN	_	26	E	26:E	_
+34	by	by	ADP	IN	_	35	R	35:R	_
+35	Nic	Nic	PROPN	NNP	_	33	A	33:A	_
+36	Roeg	Roeg	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	.	.	PUNCT	.	_	35	U	35:U	_
+

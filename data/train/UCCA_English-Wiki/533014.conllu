@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 533014
+# text = On June 27 , James Mason gave a eulogy at the funeral , an Episcopal service led by the Rev. Peter A. Delaney of St Marylebone Parish Church , London , who had officiated at her marriage to Deans .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	June	June	PROPN	NNP	_	7	D	7:D	_
+3	27	27	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	James	James	PROPN	NNP	_	7	A	7:A	_
+6	Mason	Mason	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	gave	give	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	eulogy	eulogy	NOUN	NN	_	7	A	7:A	_
+10	at	at	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	funeral	funeral	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	Episcopal	Episcopal	ADJ	JJ	_	16	E	16:E	_
+16	service	service	NOUN	NN	_	17	A	17:A	_
+17	led	lead	VERB	VBN	_	12	E	12:E	_
+18	by	by	ADP	IN	_	17	R	17:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	Rev.	Rev.	PROPN	NNP	_	21	E	21:E	_
+21	Peter	Peter	PROPN	NNP	_	17	A	17:A	_
+22	A.	A.	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Delaney	Delaney	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	of	of	ADP	IN	_	28	R	28:R	_
+25	St	St	PROPN	NNP	_	28	E	28:E	_
+26	Marylebone	Marylebone	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	Parish	Parish	PROPN	NNP	_	28	E	28:E	_
+28	Church	Church	PROPN	NNP	_	21	E	21:E	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	London	London	PROPN	NNP	_	28	E	28:E	_
+31	,	,	PUNCT	,	_	21	U	21:U	_
+32	who	who	PRON	WP	_	34	R	34:R	_
+33	had	have	AUX	VBD	_	34	F	34:F	_
+34	officiated	officiate	VERB	VBN	_	21	E	21:E	_
+35	at	at	ADP	IN	_	37	R	37:R	_
+36	her	she	PRON	PRP$	_	37	E	37:E	_
+37	marriage	marriage	NOUN	NN	_	34	A	34:A	_
+38	to	to	ADP	IN	_	39	R	39:R	_
+39	Deans	Deans	NOUN	NNS	_	37	A	37:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

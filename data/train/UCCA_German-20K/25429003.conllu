@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25429003
+# text = Die industriellen und Handelsblätter behandelten die Frage hauptsächlich von diesem Gesichtspunkt aus ; alle den Assekuranzgesellschaften ergebenen Blätter waren darüber einstimmig .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	industriellen	industriell	ADJ	NN	_	5	A	5:A	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	Handelsblätter	Handelsblätter	NOUN	NN	_	2	C	2:C	_
+5	behandelten	behandeln	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Frage	Frage	NOUN	NN	_	5	A	5:A	_
+8	hauptsächlich	hauptsächlich	ADV	ADV	_	5	D	5:D	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	diesem	dies	PRON	PDAT	_	11	E	11:E	_
+11	Gesichtspunkt	Gesichtspunkt	NOUN	NN	_	5	A	5:A	_
+12	aus	aus	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+13	;	;	PUNCT	$.	_	5	U	5:U	_
+14	alle	alle	PRON	PIS	_	18	E	18:E	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Assekuranzgesellschaften	Assekuranzgesellschaft	NOUN	ADJA	_	17	A	17:A	_
+17	ergebenen	ergeben	ADJ	ADJA	_	18	E	18:E	_
+18	Blätter	Blatt	NOUN	NN	_	21	A	21:A	_
+19	waren	sein	AUX	VAFIN	_	21	F	21:F	_
+20	darüber	darüber	ADV	PAV	_	21	A	21:A	_
+21	einstimmig	einstimmig	ADJ	ADJD	_	5	H	5:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

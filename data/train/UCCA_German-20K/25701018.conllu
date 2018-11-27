@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25701018
+# text = Dies Wort brachte mich auf den rechten Weg , und ich sah , dass dies Tier zu den See geschöpfen gehörte , woraus die Fabel Sirenen , Fischweibchen , gemacht hat .
+1	Dies	dies	PRON	PDS	_	2	E	2:E	_
+2	Wort	Wort	NOUN	NN	_	3	A	3:A	_
+3	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PRF	_	3	A	3:A	_
+5	auf	auf	ADP	APPR	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	rechten	recht	ADJ	ADJA	_	8	E	8:E	_
+8	Weg	Weg	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	ich	ich	PRON	PPER	_	12	A	12:A	_
+12	sah	sehen	VERB	VVFIN	_	3	H	3:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	dass	dass	SCONJ	KOUS	_	21	R	21:R	_
+15	dies	dies	PRON	PDS	_	16	E	16:E	_
+16	Tier	Tier	NOUN	NN	_	21	A	21:A	_
+17	zu	zu	ADP	VVINF	_	20	R	20:R	_
+18	den	der	DET	ART	_	20	E	20:E	_
+19	See	See	NOUN	NN	_	20	E	20:E	_
+20	geschöpfen	schöpfen	ADJ	VVINF	_	21	A	21:A	_
+21	gehörte	gehören	VERB	VVFIN	_	12	A	12:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	woraus	woraus	PRON	PWAV	_	30	R	30:R	_
+24	die	der	DET	ART	_	25	E	25:E	_
+25	Fabel	Fabel	NOUN	NN	_	30	A	30:A	_
+26	Sirenen	Sirene	NOUN	NN	_	30	A	30:A	_
+27	,	,	PUNCT	$,	_	30	U	30:U	_
+28	Fischweibchen	Fischweibchen	NOUN	NE	_	30	A	30:A	_
+29	,	,	PUNCT	$,	_	30	U	30:U	_
+30	gemacht	machen	VERB	VVPP	_	20	E	20:E	_
+31	hat	haben	AUX	VAFIN	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

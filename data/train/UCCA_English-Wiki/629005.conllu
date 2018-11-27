@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 629005
+# text = He was murdered three weeks after its release .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	murdered	murder	VERB	VBN	_	0	H	0:H	_
+4	three	three	NUM	CD	_	5	E	5:E	_
+5	weeks	week	NOUN	NNS	_	3	D	3:D	_
+6	after	after	ADP	IN	_	3	L	3:L	_
+7	its	its	PRON	PRP$	_	8	A	8:A	_
+8	release	release	NOUN	NN	_	3	H	3:H	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

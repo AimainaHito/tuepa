@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25641006
+# text = Diese Fürsten nennen sich Söhne der Krokodile , d.h . , ihre Abstammung hat den höchsten Ursprung , wonach ein menschliches Wesen streben kann .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Fürsten	Fürst	NOUN	NN	_	3	A	3:A	_
+3	nennen	nennen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	Söhne	Sohn	NOUN	NN	_	3	A	3:A	_
+6	der	der	DET	ART	_	5	Terminal	5:Terminal	_
+7	Krokodile	Krokodil	NOUN	NN	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	d.h	d.h	CCONJ	ADJD	_	3	L	3:L	_
+10	.	.	PUNCT	$.	_	3	U	3:U	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	ihre	ihr	DET	PPOSAT	_	13	E	13:E	_
+13	Abstammung	Abstammung	NOUN	NN	_	3	H	3:H	_
+14	hat	haben	AUX	VAFIN	_	13	F	13:F	_
+15	den	der	DET	ART	_	17	E	17:E	_
+16	höchsten	hoch	ADJ	ADJA	_	13	D	13:D	_
+17	Ursprung	Ursprung	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	wonach	wonach	PRON	NN	_	23	R	23:R	_
+20	ein	ein	DET	ART	_	22	E	22:E	_
+21	menschliches	menschlich	ADJ	ADJA	_	22	E	22:E	_
+22	Wesen	Wesen	NOUN	NN	_	23	A	23:A	_
+23	streben	streben	VERB	VVINF	_	17	E	17:E	_
+24	kann	können	AUX	VMFIN	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

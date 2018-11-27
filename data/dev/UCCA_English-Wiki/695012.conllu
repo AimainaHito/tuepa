@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 695012
+# text = " It 's All Over Now Baby Blue " and " It 's Alright Ma ( I 'm Only Bleeding ) " were acclaimed as two of Dylan 's most important compositions .
+1	"	"	PUNCT	``	_	24	U	24:U	_
+2	It	it	PRON	PRP	_	24	A	24:A	_
+3	's	be	AUX	VBZ	_	2	Terminal	2:Terminal	_
+4	All	all	DET	DT	_	2	Terminal	2:Terminal	_
+5	Over	over	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	Now	now	ADV	RB	_	2	Terminal	2:Terminal	_
+7	Baby	baby	PROPN	NNP	_	2	Terminal	2:Terminal	_
+8	Blue	Blue	PROPN	NNP	_	2	Terminal	2:Terminal	_
+9	"	"	PUNCT	''	_	2	U	2:U	_
+10	and	and	CCONJ	CC	_	2	N	2:N	_
+11	"	"	PUNCT	``	_	2	U	2:U	_
+12	It	it	PRON	PRP	_	2	C	2:C	_
+13	's	be	AUX	VBZ	_	12	Terminal	12:Terminal	_
+14	Alright	Alright	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	Ma	ma	NOUN	NN	_	12	Terminal	12:Terminal	_
+16	(	(	PUNCT	-LRB-	_	12	U	12:U	_
+17	I	I	PRON	PRP	_	12	Terminal	12:Terminal	_
+18	'm	be	AUX	VBP	_	12	Terminal	12:Terminal	_
+19	Only	only	ADV	RB	_	12	Terminal	12:Terminal	_
+20	Bleeding	bleed	VERB	VBG	_	12	Terminal	12:Terminal	_
+21	)	)	PUNCT	-RRB-	_	24	U	24:U	_
+22	"	"	PUNCT	''	_	24	U	24:U	_
+23	were	be	AUX	VBD	_	24	F	24:F	_
+24	acclaimed	acclaim	VERB	VBN	_	0	H	0:H	_
+25	as	as	ADP	IN	_	32	R	32:R	_
+26	two	two	NUM	CD	_	32	E	32:E	_
+27	of	of	ADP	IN	_	32	R	32:R	_
+28	Dylan	Dylan	PROPN	NNP	_	32	E	32:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	most	most	ADV	RBS	_	31	E	31:E	_
+31	important	important	ADJ	JJ	_	32	E	32:E	_
+32	compositions	composition	NOUN	NNS	_	24	A	24:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

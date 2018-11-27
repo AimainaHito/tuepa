@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 191011
+# text = Kenneth Turan in the Los Angeles Times described the film as " genial and entertaining if not notably inspired " , and believed its most interesting aspects were the " pipe dreams about the American political system and where it could theoretically be headed " .
+1	Kenneth	Kenneth	PROPN	NNP	_	0	C	0:C|23:A	_
+2	Turan	Turan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	in	in	ADP	IN	_	1	R	1:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Los	Los	PROPN	NNP	_	1	E	1:E	_
+6	Angeles	Angeles	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Times	Times	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	described	describe	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	film	film	NOUN	NN	_	8	A	8:A	_
+11	as	as	ADP	IN	_	13	R	13:R	_
+12	"	"	PUNCT	``	_	13	U	13:U	_
+13	genial	genial	ADJ	JJ	_	8	A	8:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	entertaining	entertaining	ADJ	JJ	_	13	C	13:C	_
+16	if	if	SCONJ	IN	_	13	L	13:L	_
+17	not	not	PART	RB	_	19	D	19:D	_
+18	notably	notably	ADV	RB	_	19	D	19:D	_
+19	inspired	inspire	VERB	VBN	_	13	H	13:H	_
+20	"	"	PUNCT	''	_	8	U	8:U	_
+21	,	,	PUNCT	,	_	8	U	8:U	_
+22	and	and	CCONJ	CC	_	8	L	8:L	_
+23	believed	believe	VERB	VBN	_	8	H	8:H	_
+24	its	its	PRON	PRP$	_	27	E	27:E	_
+25	most	most	ADJ	JJS	_	27	E	27:E	_
+26	interesting	interesting	ADJ	JJ	_	27	E	27:E	_
+27	aspects	aspect	NOUN	NNS	_	28	A	28:A	_
+28	were	be	AUX	VBD	_	23	A	23:A	_
+29	the	the	DET	DT	_	32	E	32:E	_
+30	"	"	PUNCT	``	_	32	U	32:U	_
+31	pipe	pipe	NOUN	NN	_	32	E	32:E	_
+32	dreams	dream	NOUN	NNS	_	28	A	28:A	_
+33	about	about	ADP	IN	_	37	R	37:R	_
+34	the	the	DET	DT	_	37	E	37:E	_
+35	American	american	ADJ	JJ	_	37	E	37:E	_
+36	political	political	ADJ	JJ	_	37	E	37:E	_
+37	system	system	NOUN	NN	_	32	E	32:E	_
+38	and	and	CCONJ	CC	_	32	N	32:N	_
+39	where	where	ADV	WRB	_	44	R	44:R	_
+40	it	it	PRON	PRP	_	44	A	44:A	_
+41	could	could	AUX	MD	_	44	D	44:D	_
+42	theoretically	theoretically	ADV	RB	_	44	D	44:D	_
+43	be	be	AUX	VB	_	44	F	44:F	_
+44	headed	head	VERB	VBN	_	32	C	32:C	_
+45	"	"	PUNCT	''	_	44	U	44:U	_
+46	.	.	PUNCT	.	_	44	U	44:U	_
+

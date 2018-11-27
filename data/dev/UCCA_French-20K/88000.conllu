@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 88000
+# text = Six mois durant , la guerre se poursuivit avec des chances diverses .
+1	Six	Six	NUM	_	_	2	E	2:E	_
+2	mois	mois	NOUN	_	_	7	D	7:D	_
+3	durant	durant	ADV	_	_	2	R	2:R	_
+4	,	,	PUNCT	_	_	7	U	7:U	_
+5	la	le	DET	_	_	6	E	6:E	_
+6	guerre	guerre	NOUN	_	_	7	A	7:A	_
+7	se	se	PRON	_	_	0	H	0:H	_
+8	poursuivit	poursuivre	VERB	_	_	7	Terminal	7:Terminal	_
+9	avec	avec	ADP	_	_	11	R	11:R	_
+10	des	un	DET	_	_	11	E	11:E	_
+11	chances	chance	NOUN	_	_	7	A	7:A	_
+12	diverses	divers	ADJ	_	_	11	E	11:E	_
+13	.	.	PUNCT	_	_	11	U	11:U	_
+

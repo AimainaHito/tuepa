@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25411001
+# text = Es handelte sich dabei nicht mehr um die Lösung eines wissenschaftlichen Problems , als die Vermeidung einer wirklichen , ernsten Gefahr .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	handelte	handeln	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	dabei	dabei	ADV	PAV	_	2	R	2:R	_
+5	nicht	nicht	PART	CARD	_	2	D	2:D	_
+6	mehr	mehr	ADV	ADV	_	5	E	5:E	_
+7	um	um	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Lösung	Lösung	NOUN	NN	_	2	A	2:A	_
+10	eines	ein	DET	ART	_	12	R	12:R	_
+11	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	_	12	E	12:E	_
+12	Problems	problems	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	als	als	SCONJ	KOUS	_	2	L	2:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Vermeidung	Vermeidung	NOUN	NN	_	2	H	2:H	_
+17	einer	ein	DET	ART	_	21	R	21:R	_
+18	wirklichen	wirklich	ADJ	ADJA	_	21	E	21:E	_
+19	,	,	PUNCT	$,	_	21	U	21:U	_
+20	ernsten	ern	ADJ	NN	_	21	E	21:E	_
+21	Gefahr	Gefahr	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25630015
+# text = Das Tier kam uns erwünscht , um uns mit echtem Vierfüßler fleisch zu versehen , und wir hießen es willkommen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Tier	Tier	NOUN	NN	_	0	C	0:C|14:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	uns	wir	PRON	NN	_	3	A	3:A	_
+5	erwünscht	erwünscht	ADJ	ADJD	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	um	um	ADP	KOUI	_	3	L	3:L	_
+8	uns	wir	PRON	NE	_	14	A	14:A	_
+9	mit	mit	ADP	APPR	_	12	R	12:R	_
+10	echtem	echtem	ADJ	ADJA	_	12	E	12:E	_
+11	Vierfüßler	Vierfüßler	NOUN	NN	_	12	E	12:E	_
+12	fleisch	fleisch	ADJ	ADJD	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	versehen	versehen	VERB	VVINF	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	und	und	CCONJ	NE	_	3	L	3:L	_
+17	wir	wir	PRON	NE	_	20	A	20:A	_
+18	hießen	hassen	VERB	VVINF	_	20	D	20:D	_
+19	es	es	PRON	PPER	_	20	A	20:A	_
+20	willkommen	willkommen	ADJ	VVPP	_	3	H	3:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

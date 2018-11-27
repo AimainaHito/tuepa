@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 610008
+# text = He participated in the National Football League 's Super Bowl , performing " Freedom " during the pre - game show for Super Bowl XXXVI in 2002 and headlining the halftime show at Super Bowl XXXIX in 2005 .
+1	He	he	PRON	PRP	_	2	A	2:A|12:A|29:A|21:A	_
+2	participated	participate	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	9	R	9:R	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	National	National	PROPN	NNP	_	7	E	7:E	_
+6	Football	football	PROPN	NNP	_	7	E	7:E	_
+7	League	League	PROPN	NNP	_	9	E	9:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	Super	super	PROPN	NNP	_	2	A	2:A	_
+10	Bowl	bowl	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	performing	perform	VERB	VBG	_	2	H	2:H	_
+13	"	"	PUNCT	``	_	12	U	12:U	_
+14	Freedom	freedom	NOUN	NN	_	12	A	12:A	_
+15	"	"	PUNCT	''	_	2	U	2:U	_
+16	during	during	ADP	IN	_	2	L	2:L	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	pre	pre	X	AFX	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	game	game	NOUN	NN	_	21	E	21:E	_
+21	show	show	NOUN	NN	_	2	H	2:H	_
+22	for	for	ADP	IN	_	23	R	23:R	_
+23	Super	super	PROPN	NNP	_	21	E	21:E	_
+24	Bowl	bowl	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	XXXVI	XXXVI	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	2002	2002	NUM	CD	_	21	D	21:D	_
+28	and	and	CCONJ	CC	_	2	L	2:L	_
+29	headlining	headlin	VERB	VBG	_	2	H	2:H	_
+30	the	the	DET	DT	_	32	E	32:E	_
+31	halftime	halftime	NOUN	NN	_	32	E	32:E	_
+32	show	show	NOUN	NN	_	29	A	29:A	_
+33	at	at	ADP	IN	_	34	R	34:R	_
+34	Super	super	PROPN	NNP	_	32	E	32:E	_
+35	Bowl	bowl	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	XXXIX	XXXIX	PROPN	NNP	_	34	Terminal	34:Terminal	_
+37	in	in	ADP	IN	_	38	R	38:R	_
+38	2005	2005	NUM	CD	_	29	D	29:D	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

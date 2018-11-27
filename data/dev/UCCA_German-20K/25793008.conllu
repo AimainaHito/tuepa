@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25793008
+# text = Jetzt hatten wir den 26 .
+1	Jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+2	hatten	haben	AUX	VAFIN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	26	26	NUM	CARD	_	2	A	2:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

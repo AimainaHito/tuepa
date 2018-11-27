@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25681012
+# text = Wir kamen , wie Kapitän Nemo mir bemerkt hatte , 1 Monat zu früh in diese Gegend .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wie	wie	ADP	ADJA	_	2	L	2:L	_
+5	Kapitän	Kapitän	PROPN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	8	A	8:A	_
+7	mir	ich	PRON	NE	_	8	A	8:A	_
+8	bemerkt	bemerken	VERB	VVPP	_	2	H	2:H	_
+9	hatte	haben	AUX	VAFIN	_	8	F	8:F	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	1	1	NUM	CARD	_	12	E	12:E	_
+12	Monat	Monat	NOUN	NN	_	13	E	13:E	_
+13	zu	zu	ADP	VVINF	_	2	D	2:D	_
+14	früh	früh	ADJ	ADJD	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	diese	dies	PRON	PDAT	_	17	E	17:E	_
+17	Gegend	Gegend	NOUN	NN	_	2	A	2:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

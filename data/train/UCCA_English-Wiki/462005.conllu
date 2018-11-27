@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 462005
+# text = Throughout the summer , Charles Gibson , co - host of Good Morning America , and Elizabeth Vargas , co - host of 20 / 20 , served as temporary anchors .
+1	Throughout	throughout	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	summer	summer	NOUN	NN	_	28	D	28:D	_
+4	,	,	PUNCT	,	_	28	U	28:U	_
+5	Charles	Charles	PROPN	NNP	_	28	A	28:A	_
+6	Gibson	Gibson	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	co	co	X	AFX	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	host	host	NOUN	NN	_	12	E	12:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	Good	Good	PROPN	NNP	_	5	E	5:E	_
+13	Morning	Morning	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	America	America	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	5	U	5:U	_
+16	and	and	CCONJ	CC	_	5	N	5:N	_
+17	Elizabeth	Elizabeth	PROPN	NNP	_	5	C	5:C	_
+18	Vargas	Vargas	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	17	U	17:U	_
+20	co	co	X	AFX	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	host	host	NOUN	NN	_	24	E	24:E	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	20	20	NUM	CD	_	17	E	17:E	_
+25	/	/	PUNCT	,	_	24	U	24:U	_
+26	20	20	NUM	CD	_	24	Terminal	24:Terminal	_
+27	,	,	PUNCT	,	_	28	U	28:U	_
+28	served	serve	VERB	VBD	_	0	H	0:H	_
+29	as	as	ADP	IN	_	31	R	31:R	_
+30	temporary	temporary	ADJ	JJ	_	31	E	31:E	_
+31	anchors	anchor	NOUN	NNS	_	28	A	28:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25753016
+# text = Unbeschreiblich ist dieses Gesamtbild glatter , schwarzer , glänzender Felsen , ohne ein Moospflänzchen , ohne einen Flecken , in seltsam geschnittenen Formen , von solidem Bau auf diesem Teppich von Sand , der in den Strahlen des elektrischen Lichts funkelte .
+1	Unbeschreiblich	Unbeschreiblich	ADJ	ADJD	_	0	H	0:H	_
+2	ist	sein	AUX	VVFIN	_	1	F	1:F	_
+3	dieses	dies	PRON	PDAT	_	4	E	4:E	_
+4	Gesamtbild	Gesamtbild	NOUN	NN	_	1	A	1:A	_
+5	glatter	glatt	ADJ	NN	_	4	E	4:E	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	schwarzer	schwarz	ADJ	ADJA	_	5	C	5:C	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	glänzender	glänzend	ADJ	ADJA	_	5	C	5:C	_
+10	Felsen	Felsen	NOUN	NN	_	5	A	5:A	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	ohne	ohne	ADP	CARD	_	14	D	14:D	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Moospflänzchen	Moospflänzchen	NOUN	NE	_	4	E	4:E	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	ohne	ohne	ADP	NE	_	18	D	18:D	_
+17	einen	ein	DET	ART	_	18	E	18:E	_
+18	Flecken	Flecken	NOUN	NN	_	4	E	4:E	_
+19	,	,	PUNCT	$,	_	4	U	4:U	_
+20	in	in	ADP	APPR	_	23	R	23:R	_
+21	seltsam	seltsam	ADJ	ADJD	_	22	D	22:D	_
+22	geschnittenen	geschnittt	ADJ	ADJA	_	4	E	4:E	_
+23	Formen	Form	NOUN	NN	_	22	A	22:A	_
+24	,	,	PUNCT	$,	_	4	U	4:U	_
+25	von	von	ADP	NE	_	27	R	27:R	_
+26	solidem	solider	PRON	PRELS	_	27	E	27:E	_
+27	Bau	Bau	NOUN	NN	_	4	E	4:E	_
+28	auf	auf	ADP	APPR	_	30	R	30:R	_
+29	diesem	dies	PRON	PDAT	_	30	E	30:E	_
+30	Teppich	Teppich	NOUN	NN	_	27	A	27:A	_
+31	von	von	ADP	NE	_	32	R	32:R	_
+32	Sand	Sand	NOUN	NE	_	30	E	30:E	_
+33	,	,	PUNCT	$,	_	30	U	30:U	_
+34	der	der	PRON	PRELS	_	41	R	41:R	_
+35	in	in	ADP	APPR	_	37	R	37:R	_
+36	den	der	DET	ART	_	37	E	37:E	_
+37	Strahlen	Strahl|Strahlen	NOUN	NN	_	41	A	41:A	_
+38	des	der	DET	ART	_	40	R	40:R	_
+39	elektrischen	elektrisch	ADJ	ADJA	_	40	E	40:E	_
+40	Lichts	Licht	NOUN	NN	_	37	E	37:E	_
+41	funkelte	funkeln	VERB	VVFIN	_	30	E	30:E	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

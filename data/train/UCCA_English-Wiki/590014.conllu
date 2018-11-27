@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 590014
+# text = Depp modeled the character 's hair on Anna Wintour .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	modeled	model	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	character	character	NOUN	NN	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	hair	hair	NOUN	NN	_	2	A	2:A	_
+7	on	on	ADP	IN	_	8	R	8:R	_
+8	Anna	Anna	PROPN	NNP	_	2	A	2:A	_
+9	Wintour	Wintour	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+

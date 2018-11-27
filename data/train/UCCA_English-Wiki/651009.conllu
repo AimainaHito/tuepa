@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 651009
+# text = " While the legal battle continued , Lennon attended rallies and made television appearances .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	While	while	SCONJ	IN	_	6	L	6:L	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	legal	legal	ADJ	JJ	_	5	E	5:E	_
+5	battle	battle	NOUN	NN	_	6	A	6:A	_
+6	continued	continue	VERB	VBD	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Lennon	Lennon	PROPN	NNP	_	9	A	9:A|14:A	_
+9	attended	attend	VERB	VBD	_	6	H	6:H	_
+10	rallies	rallie	NOUN	NNS	_	9	A	9:A	_
+11	and	and	CCONJ	CC	_	6	L	6:L	_
+12	made	make	VERB	VBN	_	14	F	14:F	_
+13	television	television	NOUN	NN	_	14	A	14:A	_
+14	appearances	appearance	NOUN	NNS	_	6	H	6:H	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

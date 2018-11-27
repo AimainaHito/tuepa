@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25707004
+# text = Es war eine Kabine von 6 Quadrat fuß , ungefähr wie die der Steuerer bei den Dampfern auf dem Mississippi oder Hudson .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	eine	ein	DET	ART	_	4	E	4:E	_
+4	Kabine	Kabine	NOUN	NN	_	0	C	0:C|10:A	_
+5	von	von	ADP	NE	_	8	R	8:R	_
+6	6	6	NUM	CARD	_	8	E	8:E	_
+7	Quadrat	Quadrat	NOUN	NE	_	8	E	8:E	_
+8	fuß	füssen	VERB	VMFIN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	ungefähr	ungefähr	ADV	NE	_	2	H	2:H	_
+11	wie	wie	ADP	NN	_	2	L	2:L	_
+12	die	der	PRON	ART	_	2	H	2:H	_
+13	der	der	DET	ART	_	14	R	14:R	_
+14	Steuerer	Steuerer	NOUN	NN	_	12	E	12:E	_
+15	bei	bei	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Dampfern	Dampfer	NOUN	NN	_	14	E	14:E	_
+18	auf	auf	ADP	APPR	_	20	R	20:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Mississippi	Mississippi	PROPN	NE	_	17	E	17:E	_
+21	oder	oder	CCONJ	NN	_	20	N	20:N	_
+22	Hudson	Hudson	PROPN	NE	_	20	C	20:C	_
+23	.	.	PUNCT	$.	_	20	U	20:U	_
+

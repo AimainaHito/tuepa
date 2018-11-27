@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25651011
+# text = Die Hand von Kapitän Nemo zuckte krampfhaft , und einige Tränen rannen aus seinen Augen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Hand	Hand	NOUN	NN	_	6	A	6:A	_
+3	von	von	ADP	NN	_	5	R	5:R	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	2	E	2:E	_
+6	zuckte	zucken	VERB	VVFIN	_	0	H	0:H	_
+7	krampfhaft	krampfhaft	ADJ	ADJD	_	6	D	6:D	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	und	und	CCONJ	NE	_	6	L	6:L	_
+10	einige	einige	PRON	PIS	_	11	E	11:E	_
+11	Tränen	Träne|Tränen	NOUN	NN	_	12	A	12:A	_
+12	rannen	rannen	ADV	VVINF	_	6	H	6:H	_
+13	aus	aus	ADP	APPR	_	15	R	15:R	_
+14	seinen	sein	DET	PPOSAT	_	15	E	15:E	_
+15	Augen	Auge	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

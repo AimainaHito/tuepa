@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25680013
+# text = Am folgenden Morgen weckte mich um 4 Uhr der Steward , den Kapitän Nemo besonders zu meinen Diensten bestellt hatte .
+1	Am	am	ADV	ADJD	_	3	R	3:R	_
+2	folgenden	folgend	ADJ	NN	_	3	E	3:E	_
+3	Morgen	Morgen	NOUN	XY	_	4	D	4:D	_
+4	weckte	wecken	VERB	VVFIN	_	0	H	0:H	_
+5	mich	ich	PRON	PRF	_	4	A	4:A	_
+6	um	um	ADP	APPR	_	7	R	7:R	_
+7	4	4	NUM	CARD	_	4	D	4:D	_
+8	Uhr	Uhr	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Steward	Steward	PROPN	NN	_	4	A	4:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	den	der	DET	ART	_	19	R	19:R	_
+13	Kapitän	Kapitän	NOUN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	19	A	19:A	_
+15	besonders	besonders	ADV	ADV	_	19	D	19:D	_
+16	zu	zu	ADP	VVINF	_	18	R	18:R	_
+17	meinen	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Diensten	Dienst	NOUN	NN	_	19	A	19:A	_
+19	bestellt	bestellen	VERB	VVPP	_	10	E	10:E	_
+20	hatte	haben	AUX	VAFIN	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 790000
+# text = Mais le commandant Farragut ne voulait perdre ni un jour , ni une heure pour rallier les mers dans lesquelles l' animal venait d' être signalé .
+1	Mais	mais	CCONJ	_	_	7	L	7:L	_
+2	le	le	DET	_	_	3	E	3:E	_
+3	commandant	commandant	NOUN	_	_	4	E	4:E	_
+4	Farragut	Farragut	PROPN	_	_	0	C	0:C|16:A	_
+5	ne	ne	ADV	_	_	7	D	7:D	_
+6	voulait	vouloir	VERB	_	_	7	D	7:D	_
+7	perdre	perdre	VERB	_	_	0	H	0:H	_
+8	ni	ni	CCONJ	_	_	10	N	10:N	_
+9	un	un	DET	_	_	10	E	10:E	_
+10	jour	jour	NOUN	_	_	7	A	7:A	_
+11	,	,	PUNCT	_	_	10	U	10:U	_
+12	ni	ni	CCONJ	_	_	10	N	10:N	_
+13	une	un	DET	_	_	14	E	14:E	_
+14	heure	heure	NOUN	_	_	10	C	10:C	_
+15	pour	pour	ADP	_	_	7	L	7:L	_
+16	rallier	rallier	VERB	_	_	7	H	7:H	_
+17	les	le	DET	_	_	18	E	18:E	_
+18	mers	mers	NOUN	_	_	16	A	16:A	_
+19	dans	dans	ADP	_	_	18	E	18:E	_
+20	lesquelles	lequel	PRON	_	_	19	R	19:R	_
+21	l'	le	DET	_	_	22	E	22:E	_
+22	animal	animal	NOUN	_	_	26	A	26:A	_
+23	venait	venir	VERB	_	_	26	D	26:D	_
+24	d'	de	ADP	_	_	26	F	26:F	_
+25	être	être	AUX	_	_	26	F	26:F	_
+26	signalé	signaler	VERB	_	_	19	A	19:A	_
+27	.	.	PUNCT	_	_	26	U	26:U	_
+

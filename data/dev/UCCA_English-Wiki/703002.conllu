@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 703002
+# text = Dylan delayed the album 's release , and re - recorded half of the songs at Sound 80 Studios in Minneapolis with production assistance from his brother David Zimmerman .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A|11:A	_
+2	delayed	delay	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	album	album	NOUN	NN	_	6	A	6:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	release	release	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	and	and	CCONJ	CC	_	2	L	2:L	_
+9	re	be	ADP	IN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	recorded	record	VERB	VBN	_	2	H	2:H	_
+12	half	half	NOUN	NN	_	15	E	15:E	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	songs	song	NOUN	NNS	_	11	A	11:A	_
+16	at	at	ADP	IN	_	19	R	19:R	_
+17	Sound	sound	PROPN	NNP	_	19	E	19:E	_
+18	80	80	NUM	CD	_	17	Terminal	17:Terminal	_
+19	Studios	studio	PROPN	NNPS	_	11	A	11:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	Minneapolis	Minneapolis	PROPN	NNP	_	19	E	19:E	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	production	production	NOUN	NN	_	24	E	24:E	_
+24	assistance	assistance	NOUN	NN	_	11	A	11:A	_
+25	from	from	ADP	IN	_	27	R	27:R	_
+26	his	he	PRON	PRP$	_	27	E	27:E	_
+27	brother	brother	NOUN	NN	_	24	E	24:E	_
+28	David	David	PROPN	NNP	_	27	E	27:E	_
+29	Zimmerman	Zimmerman	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	.	.	PUNCT	.	_	27	U	27:U	_
+

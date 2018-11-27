@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25584010
+# text = Er hatte mich schon erwartet , stand auf , grüßte und fragte mich , ob es mir genehm wäre , ihn zu begleiten .
+1	Er	er	PRON	PPER	_	5	A	5:A|7:A|12:A|10:A	_
+2	hatte	haben	AUX	VAFIN	_	5	F	5:F	_
+3	mich	ich	PRON	PPER	_	5	A	5:A	_
+4	schon	schon	ADV	ADV	_	5	D	5:D	_
+5	erwartet	erwarten	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	stand	stehen	VERB	VVFIN	_	5	H	5:H	_
+8	auf	auf	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	grüßte	grüßen	VERB	VVFIN	_	5	H	5:H	_
+11	und	und	CCONJ	NE	_	5	L	5:L	_
+12	fragte	fragen	VERB	VVFIN	_	5	H	5:H	_
+13	mich	ich	PRON	PPER	_	12	A	12:A	_
+14	,	,	PUNCT	$,	_	12	U	12:U	_
+15	ob	ob	SCONJ	VVFIN	_	18	R	18:R	_
+16	es	es	PRON	PPER	_	18	F	18:F	_
+17	mir	ich	PRON	PPER	_	18	A	18:A|23:A	_
+18	genehm	genehm	ADJ	ADJD	_	12	A	12:A	_
+19	wäre	sein	AUX	ADV	_	18	D	18:D	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	ihn	er	PRON	PPER	_	23	A	23:A	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	begleiten	begleiten	VERB	VVINF	_	18	A	18:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

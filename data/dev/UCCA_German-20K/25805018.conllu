@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25805018
+# text = Meiner Ansicht nach konnte er nicht zum Ziele führen .
+1	Meiner	mein	DET	PPOSAT	_	9	G	9:G	_
+2	Ansicht	Ansicht	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	nach	nach	ADP	XY	_	1	Terminal	1:Terminal	_
+4	konnte	können	AUX	VMFIN	_	9	D	9:D	_
+5	er	er	PRON	PPER	_	9	A	9:A	_
+6	nicht	nicht	PART	XY	_	9	D	9:D	_
+7	zum	zum	ADJ	NN	_	8	R	8:R	_
+8	Ziele	Ziel	NOUN	NN	_	9	A	9:A	_
+9	führen	führen	VERB	VVINF	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

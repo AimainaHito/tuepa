@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 645012
+# text = Dunbar asked her , " Do n't you know who this is ? He 's a millionaire ! He might buy it .
+1	Dunbar	Dunbar	PROPN	NNP	_	2	A	2:A	_
+2	asked	ask	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP	_	2	A	2:A	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	"	"	PUNCT	``	_	2	U	2:U	_
+6	Do	do	AUX	VBP	_	9	R	9:R	_
+7	n't	not	PART	RB	_	9	D	9:D	_
+8	you	you	PRON	PRP	_	9	A	9:A	_
+9	know	know	VERB	VB	_	2	A	2:A	_
+10	who	who	PRON	WP	_	12	A	12:A	_
+11	this	this	PRON	DT	_	12	A	12:A	_
+12	is	be	VERB	VBZ	_	9	A	9:A	_
+13	?	?	PUNCT	.	_	9	U	9:U	_
+14	He	he	PRON	PRP	_	17	A	17:A	_
+15	's	be	AUX	VBZ	_	17	F	17:F	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	millionaire	millionaire	NOUN	NN	_	9	H	9:H	_
+18	!	!	PUNCT	.	_	9	U	9:U	_
+19	He	he	PRON	PRP	_	21	A	21:A	_
+20	might	might	AUX	MD	_	21	D	21:D	_
+21	buy	buy	VERB	VB	_	9	H	9:H	_
+22	it	it	PRON	PRP	_	21	A	21:A	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

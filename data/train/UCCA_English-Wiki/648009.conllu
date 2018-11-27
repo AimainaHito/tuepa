@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 648009
+# text = ( Lennon eventually signed the papers while holidaying in Florida with Pang and Julian .
+1	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+2	Lennon	Lennon	PROPN	NNP	_	4	A	4:A|8:A	_
+3	eventually	eventually	ADV	RB	_	4	D	4:D	_
+4	signed	sign	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	papers	papers	NOUN	NNS	_	4	A	4:A	_
+7	while	while	SCONJ	IN	_	4	L	4:L	_
+8	holidaying	holiday	VERB	VBG	_	4	H	4:H	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Florida	Florida	PROPN	NNP	_	8	A	8:A	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	Pang	Pang	PROPN	NNP	_	8	A	8:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	Julian	Julian	PROPN	NNP	_	12	C	12:C	_
+15	.	.	PUNCT	.	_	12	U	12:U	_
+

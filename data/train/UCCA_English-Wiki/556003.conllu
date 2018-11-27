@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 556003
+# text = Overcoming his reticence about performing outside the Courts , he competed in Humes 's Annual " Minstrel " show in April 1953 .
+1	Overcoming	Overcom	VERB	VBG	_	3	D	3:D	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	reticence	reticence	NOUN	NN	_	0	H	0:H	_
+4	about	about	SCONJ	IN	_	5	R	5:R	_
+5	performing	perform	VERB	VBG	_	3	A	3:A	_
+6	outside	outside	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Courts	courts	NOUN	NNS	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	he	he	PRON	PRP	_	11	A	11:A|3:A|5:A	_
+11	competed	compete	VERB	VBD	_	3	H	3:H	_
+12	in	in	ADP	IN	_	19	E	19:E	_
+13	Humes	Humes	PROPN	NNPS	_	19	E	19:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	Annual	annual	ADJ	JJ	_	19	E	19:E	_
+16	"	"	PUNCT	``	_	19	U	19:U	_
+17	Minstrel	Minstrel	NOUN	NN	_	19	E	19:E	_
+18	"	"	PUNCT	''	_	19	U	19:U	_
+19	show	show	NOUN	NN	_	11	A	11:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	April	April	PROPN	NNP	_	11	D	11:D	_
+22	1953	1953	NUM	CD	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

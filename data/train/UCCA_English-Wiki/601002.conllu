@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 601002
+# text = The band invited McCartney to join soon afterwards as a rhythm guitarist , and he formed a close working relationship with Lennon .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	band	band	NOUN	NN	_	3	A	3:A	_
+3	invited	invite	VERB	VBD	_	0	H	0:H	_
+4	McCartney	McCartney	PROPN	NNP	_	3	A	3:A	_
+5	to	to	PART	TO	_	6	R	6:R	_
+6	join	join	VERB	VB	_	3	A	3:A	_
+7	soon	soon	ADV	RB	_	8	R	8:R	_
+8	afterwards	afterwards	ADV	RB	_	3	D	3:D	_
+9	as	as	ADP	IN	_	12	R	12:R	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	rhythm	rhythm	NOUN	NN	_	12	E	12:E	_
+12	guitarist	guitarist	NOUN	NN	_	3	A	3:A	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	and	and	CCONJ	CC	_	3	L	3:L	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	formed	form	VERB	VBD	_	3	H	3:H	_
+17	a	a	DET	DT	_	20	E	20:E	_
+18	close	close	NOUN	NN	_	20	E	20:E	_
+19	working	work	VERB	VBG	_	20	E	20:E	_
+20	relationship	relationship	NOUN	NN	_	16	A	16:A	_
+21	with	with	ADP	IN	_	22	R	22:R	_
+22	Lennon	Lennon	PROPN	NNP	_	20	E	20:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

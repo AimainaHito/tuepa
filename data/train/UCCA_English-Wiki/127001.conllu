@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 127001
+# text = The picture was not commercially successful , but Hepburn 's own reviews were good .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	picture	picture	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	not	not	PART	RB	_	6	D	6:D	_
+5	commercially	commercially	ADV	RB	_	6	A	6:A	_
+6	successful	successful	ADJ	JJ	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	but	but	CCONJ	CC	_	6	L	6:L	_
+9	Hepburn	Hepburn	PROPN	NNP	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	own	own	ADJ	JJ	_	12	E	12:E	_
+12	reviews	review	NOUN	NNS	_	14	A	14:A	_
+13	were	be	AUX	VBD	_	14	F	14:F	_
+14	good	good	ADJ	JJ	_	6	H	6:H	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

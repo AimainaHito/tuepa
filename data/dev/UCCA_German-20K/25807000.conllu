@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 25807000
+# text = Wie manche wunderhafte Musterstücke hätte ich noch beobachten können , wäre nicht die ›Nautilus‹ allmählich in tiefere Schichten hinabgegangen , bis zu 2.000 und 3.500 Meter , wo das Tier leben nur noch durch Seesterne , reizende Medusenhäupter , Blutzähne und große Ufermollusken repräsentiert war .
+1	Wie	wie	ADP	KON	_	8	D	8:D	_
+2	manche	manch	PRON	PIS	_	4	E	4:E	_
+3	wunderhafte	wunderhaft	ADJ	ADJA	_	4	E	4:E	_
+4	Musterstücke	Musterstücke	NOUN	NN	_	8	A	8:A	_
+5	hätte	haben	AUX	VAFIN	_	8	D	8:D	_
+6	ich	ich	PRON	PPER	_	8	A	8:A	_
+7	noch	noch	ADV	NN	_	8	D	8:D	_
+8	beobachten	beobachten	VERB	VVINF	_	0	H	0:H	_
+9	können	können	AUX	VMFIN	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	wäre	sein	AUX	ADV	_	19	D	19:D	_
+12	nicht	nicht	PART	XY	_	19	D	19:D	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	›Nautilus‹	›Nautilus‹	NOUN	NE	_	19	A	19:A	_
+15	allmählich	allmählich	ADJ	ADJD	_	19	D	19:D	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	tiefere	tief	ADJ	ADJA	_	18	E	18:E	_
+18	Schichten	Schicht	NOUN	NN	_	19	A	19:A	_
+19	hinabgegangen	hinabgegangen	VERB	NN	_	8	H	8:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	bis	bis	ADP	KOUS	_	23	R	23:R	_
+22	zu	zu	ADP	NE	_	21	Terminal	21:Terminal	_
+23	2.000	2.0	NUM	CARD	_	18	E	18:E	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	3.500	3.5	NUM	CARD	_	26	E	26:E	_
+26	Meter	Meter	NOUN	NN	_	0	C	0:C|23:C	_
+27	,	,	PUNCT	$,	_	18	U	18:U	_
+28	wo	wo	ADV	NN	_	44	R	44:R	_
+29	das	der	DET	ART	_	30	E	30:E	_
+30	Tier	Tier	NOUN	NN	_	44	A	44:A	_
+31	leben	leben	VERB	VVFIN	_	30	E	30:E	_
+32	nur	nur	ADV	NE	_	33	E	33:E	_
+33	noch	noch	ADV	CARD	_	44	D	44:D	_
+34	durch	durch	ADP	APPR	_	35	R	35:R	_
+35	Seesterne	Seestern	NOUN	NN	_	44	A	44:A	_
+36	,	,	PUNCT	$,	_	35	U	35:U	_
+37	reizende	reizend	ADJ	ADJA	_	38	E	38:E	_
+38	Medusenhäupter	Medusenhäupter	NOUN	NN	_	35	C	35:C	_
+39	,	,	PUNCT	$,	_	35	U	35:U	_
+40	Blutzähne	Blutzahn	NOUN	NN	_	35	C	35:C	_
+41	und	und	CCONJ	NE	_	35	N	35:N	_
+42	große	groß	ADJ	ADJA	_	43	E	43:E	_
+43	Ufermollusken	Ufermollusko	NOUN	NN	_	35	C	35:C	_
+44	repräsentiert	repräsentieren	VERB	VVFIN	_	18	E	18:E	_
+45	war	sein	AUX	ADV	_	44	F	44:F	_
+46	.	.	PUNCT	$.	_	44	U	44:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25517008
+# text = » Dies führt mich natürlich darauf anzugeben , wie die ›Nautilus‹ manövriert wird .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Dies	dies	PRON	PDS	_	7	A	7:A	_
+3	führt	führen	VERB	VVFIN	_	7	D	7:D	_
+4	mich	ich	PRON	PRF	_	7	A	7:A	_
+5	natürlich	natürlich	ADJ	ADV	_	7	G	7:G	_
+6	darauf	darauf	ADV	PAV	_	7	F	7:F	_
+7	anzugeben	anzugeben	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	wie	wie	SCONJ	KON	_	12	D	12:D	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	12	A	12:A	_
+12	manövriert	manövrieren	VERB	VVPP	_	7	A	7:A	_
+13	wird	werden	AUX	VAFIN	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

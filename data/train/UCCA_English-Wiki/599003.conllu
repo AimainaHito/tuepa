@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 599003
+# text = Guinness World Records described McCartney as the " most successful composer and recording artist of all time " , with 60 gold discs and sales of over 100 million albums and 100 million singles , and as the " most successful songwriter " in United Kingdom chart history .
+1	Guinness	Guinness	PROPN	NNP	_	4	A	4:A	_
+2	World	World	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Records	records	NOUN	NNS	_	1	Terminal	1:Terminal	_
+4	described	describe	VERB	VBD	_	0	H	0:H	_
+5	McCartney	McCartney	PROPN	NNP	_	4	A	4:A|20:A|25:A	_
+6	as	as	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	"	"	PUNCT	``	_	9	U	9:U	_
+9	most	most	ADV	RBS	_	10	E	10:E	_
+10	successful	successful	ADJ	JJ	_	11	E	11:E	_
+11	composer	composer	NOUN	NN	_	4	A	4:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	recording	record	NOUN	NN	_	14	E	14:E	_
+14	artist	artist	NOUN	NN	_	11	C	11:C	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	all	all	DET	DT	_	17	E	17:E	_
+17	time	time	NOUN	NN	_	11	E	11:E	_
+18	"	"	PUNCT	''	_	11	U	11:U	_
+19	,	,	PUNCT	,	_	11	U	11:U	_
+20	with	with	ADP	IN	_	11	E	11:E	_
+21	60	60	NUM	CD	_	23	E	23:E	_
+22	gold	gold	ADJ	JJ	_	23	E	23:E	_
+23	discs	disc	NOUN	NNS	_	20	A	20:A	_
+24	and	and	CCONJ	CC	_	20	L	20:L	_
+25	sales	sale	NOUN	NNS	_	20	H	20:H	_
+26	of	of	ADP	IN	_	30	R	30:R	_
+27	over	over	ADV	RB	_	28	E	28:E	_
+28	100	100	NUM	CD	_	30	E	30:E	_
+29	million	million	NUM	CD	_	28	Terminal	28:Terminal	_
+30	albums	album	NOUN	NNS	_	25	A	25:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	100	100	NUM	CD	_	34	E	34:E	_
+33	million	million	NUM	CD	_	32	Terminal	32:Terminal	_
+34	singles	singles	NOUN	NNS	_	30	C	30:C	_
+35	,	,	PUNCT	,	_	11	U	11:U	_
+36	and	and	CCONJ	CC	_	11	N	11:N	_
+37	as	as	SCONJ	IN	_	42	R	42:R	_
+38	the	the	DET	DT	_	42	E	42:E	_
+39	"	"	PUNCT	``	_	42	U	42:U	_
+40	most	most	ADV	RBS	_	41	E	41:E	_
+41	successful	successful	ADJ	JJ	_	42	E	42:E	_
+42	songwriter	songwriter	NOUN	NN	_	11	C	11:C	_
+43	"	"	PUNCT	''	_	42	U	42:U	_
+44	in	in	ADP	IN	_	48	R	48:R	_
+45	United	United	PROPN	NNP	_	48	E	48:E	_
+46	Kingdom	Kingdom	PROPN	NNP	_	45	Terminal	45:Terminal	_
+47	chart	chart	NOUN	NN	_	48	E	48:E	_
+48	history	history	NOUN	NN	_	42	E	42:E	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

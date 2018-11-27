@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25605002
+# text = » Was gibt 's da , Conseil ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Was	was	PRON	NE	_	3	A	3:A	_
+3	gibt	geben	VERB	VVFIN	_	0	H	0:H	_
+4	's	es	PRON	PPER	_	3	F	3:F	_
+5	da	da	ADV	PTKVZ	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Conseil	Conseil	NOUN	NE	_	3	G	3:G	_
+8	?	?	PUNCT	$.	_	3	U	3:U	_
+9	«	«	PUNCT	$(	_	3	U	3:U	_
+

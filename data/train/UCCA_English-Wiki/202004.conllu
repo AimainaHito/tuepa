@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 202004
+# text = Although his scripts are lauded for being literate , Sorkin has been criticized for often turning in scripts that are overwrought .
+1	Although	although	SCONJ	IN	_	5	L	5:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	scripts	script	NOUN	NNS	_	5	A	5:A	_
+4	are	be	AUX	VBP	_	5	F	5:F	_
+5	lauded	laude	VERB	VBN	_	0	H	0:H	_
+6	for	for	SCONJ	IN	_	7	R	7:R	_
+7	being	be	AUX	VBG	_	5	A	5:A	_
+8	literate	literate	ADJ	JJ	_	7	A	7:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	Sorkin	Sorkin	PROPN	NNP	_	13	A	13:A|16:A	_
+11	has	have	AUX	VBZ	_	13	F	13:F	_
+12	been	be	AUX	VBN	_	13	F	13:F	_
+13	criticized	criticize	VERB	VBN	_	5	H	5:H	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	often	often	ADV	RB	_	16	D	16:D	_
+16	turning	turn	VERB	VBG	_	13	A	13:A	_
+17	in	in	ADP	IN	_	16	Terminal	16:Terminal	_
+18	scripts	script	NOUN	NNS	_	16	A	16:A	_
+19	that	that	PRON	WDT	_	20	F	20:F	_
+20	are	be	AUX	VBP	_	18	E	18:E	_
+21	overwrought	overwrought	ADJ	JJ	_	20	A	20:A	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

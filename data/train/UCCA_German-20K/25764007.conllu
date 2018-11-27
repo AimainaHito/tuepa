@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25764007
+# text = Mitunter war der Nebel so dicht , dass man nicht von einem Ende der ›Nautilus‹ zum andern sehen konnte .
+1	Mitunter	mitunter	NOUN	ADV	_	6	D	6:D	_
+2	war	sein	AUX	ADV	_	6	F	6:F	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Nebel	Nebel	NOUN	NN	_	6	A	6:A	_
+5	so	so	ADV	ADV	_	6	F	6:F	_
+6	dicht	dicht	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dass	daß	SCONJ	KOUS	_	6	L	6:L	_
+9	man	man	PRON	PIS	_	18	A	18:A	_
+10	nicht	nicht	PART	XY	_	18	D	18:D	_
+11	von	von	ADP	NN	_	13	R	13:R	_
+12	einem	ein	DET	ART	_	13	E	13:E	_
+13	Ende	Ende	NOUN	NN	_	18	A	18:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	›Nautilus‹	›Nautilus‹	NOUN	NE	_	13	E	13:E	_
+16	zum	zum	ADP	NN	_	17	R	17:R	_
+17	andern	ander	NOUN	VVINF	_	18	A	18:A	_
+18	sehen	sehen	VERB	VVINF	_	6	H	6:H	_
+19	konnte	können	AUX	VMFIN	_	18	D	18:D	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

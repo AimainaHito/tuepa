@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25496006
+# text = « » Nun , die Freiheit hin und her zu gehen , zu sehen , selbst alles , was hier vorgeht , zu beobachten - außer in manchen seltenen Fällen - , kurz , die Freiheit , die wir selbst genießen , ich samt meinen Genossen . «
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Nun	nun	PROPN	ADV	_	6	F	6:F	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Freiheit	Freiheit	NOUN	NN	_	0	H	0:H	_
+7	hin	hin	ADV	ADV	_	11	D	11:D	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	her	her	ADV	ADV	_	7	C	7:C	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	gehen	gehen	VERB	VVINF	_	6	A	6:A	_
+12	,	,	PUNCT	$,	_	6	U	6:U	_
+13	zu	zu	PART	VVINF	_	14	R	14:R	_
+14	sehen	sehen	VERB	VVINF	_	6	A	6:A	_
+15	,	,	PUNCT	$,	_	6	U	6:U	_
+16	selbst	selbst	ADV	VVFIN	_	24	D	24:D	_
+17	alles	alle	PRON	PIS	_	24	A	24:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	was	was	PRON	NE	_	21	R	21:R	_
+20	hier	hier	ADV	ADV	_	21	A	21:A	_
+21	vorgeht	vorgehen	ADP	VVFIN	_	17	E	17:E	_
+22	,	,	PUNCT	$,	_	24	U	24:U	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	beobachten	beobachten	VERB	VVINF	_	6	A	6:A	_
+25	-	-	PUNCT	$(	_	24	U	24:U	_
+26	außer	außer	ADP	APPR	_	24	D	24:D	_
+27	in	in	ADP	APPR	_	30	R	30:R	_
+28	manchen	manch	PRON	PIAT	_	30	E	30:E	_
+29	seltenen	selten	ADJ	ADJA	_	30	E	30:E	_
+30	Fällen	Fall|Fällen	NOUN	NN	_	24	A	24:A	_
+31	-	-	PUNCT	$(	_	6	U	6:U	_
+32	,	,	PUNCT	$,	_	6	U	6:U	_
+33	kurz	kurz	ADJ	ADJD	_	36	G	36:G	_
+34	,	,	PUNCT	$,	_	36	U	36:U	_
+35	die	der	DET	ART	_	36	E	36:E	_
+36	Freiheit	Freiheit	NOUN	NN	_	6	H	6:H	_
+37	,	,	PUNCT	$,	_	36	U	36:U	_
+38	die	der	PRON	PRELS	_	41	R	41:R	_
+39	wir	wir	PRON	NE	_	41	A	41:A	_
+40	selbst	selbst	ADV	NN	_	41	D	41:D	_
+41	genießen	genießen	VERB	VVINF	_	36	E	36:E	_
+42	,	,	PUNCT	$,	_	41	U	41:U	_
+43	ich	ich	PRON	PPER	_	44	A	44:A	_
+44	samt	samt	ADP	APPR	_	39	C	39:C	_
+45	meinen	mein	PRON	PPOSAT	_	46	E	46:E	_
+46	Genossen	genießen	VERB	VVFIN	_	44	A	44:A	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+48	«	«	PUNCT	$(	_	46	U	46:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 234005
+# text = Construction has begun on a Jackie Chan museum in Shanghai .
+1	Construction	Construction	NOUN	NN	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	begun	begin	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	IN	_	8	R	8:R	_
+5	a	a	DET	DT	_	8	E	8:E	_
+6	Jackie	Jackie	PROPN	NNP	_	8	E	8:E	_
+7	Chan	Chan	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	museum	museum	NOUN	NN	_	3	A	3:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Shanghai	Shanghai	PROPN	NNP	_	3	A	3:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

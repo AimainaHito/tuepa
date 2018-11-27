@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 532006
+# text = Issues with Garland 's behavior ended her Hollywood Palace guest appearances .
+1	Issues	issue	NOUN	NNS	_	6	A	6:A	_
+2	with	with	ADP	IN	_	5	R	5:R	_
+3	Garland	Garland	PROPN	NNP	_	5	E	5:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	behavior	behavior	NOUN	NN	_	1	E	1:E	_
+6	ended	end	VERB	VBD	_	0	H	0:H	_
+7	her	she	PRON	PRP$	_	9	E	9:E	_
+8	Hollywood	Hollywood	PROPN	NNP	_	9	E	9:E	_
+9	Palace	Palace	PROPN	NNP	_	11	A	11:A	_
+10	guest	guest	NOUN	NN	_	11	E	11:E	_
+11	appearances	appearance	NOUN	NNS	_	6	A	6:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

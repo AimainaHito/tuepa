@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 646004
+# text = During Lennon 's last two years in the Beatles , he and Ono began public protests against the Vietnam War .
+1	During	during	ADP	IN	_	2	L	2:L	_
+2	Lennon	Lennon	PROPN	NNP	_	0	H	0:H	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	last	last	ADJ	JJ	_	6	E	6:E	_
+5	two	two	NUM	CD	_	6	E	6:E	_
+6	years	year	NOUN	NNS	_	2	D	2:D	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Beatles	Beatles	PROPN	NNPS	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	he	he	PRON	PRP	_	16	A	16:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	Ono	Ono	PROPN	NNP	_	11	C	11:C	_
+14	began	begin	VERB	VBD	_	16	D	16:D	_
+15	public	public	ADJ	JJ	_	16	D	16:D	_
+16	protests	protest	NOUN	NNS	_	2	H	2:H	_
+17	against	against	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	Vietnam	Vietnam	PROPN	NNP	_	20	E	20:E	_
+20	War	War	PROPN	NNP	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

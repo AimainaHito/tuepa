@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 251012
+# text = The Cherry Orchard won a mixed review from the New York Daily News , which wrote " Ethan Hawke ... fits the image of the ' mangy ' student Trofimov , but one wishes he did n't speak with a perennial frog in his throat .
+1	The	the	DET	DT	_	4	A	4:A	_
+2	Cherry	Cherry	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Orchard	Orchard	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	won	win	VERB	VBD	_	0	H	0:H	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	mixed	mix	ADJ	JJ	_	7	E	7:E	_
+7	review	review	NOUN	NN	_	4	A	4:A	_
+8	from	from	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	New	New	PROPN	NNP	_	4	A	4:A	_
+11	York	York	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Daily	Daily	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	News	News	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	which	which	PRON	WDT	_	16	F	16:F	_
+16	wrote	write	VERB	VBD	_	10	E	10:E	_
+17	"	"	PUNCT	``	_	16	U	16:U	_
+18	Ethan	Ethan	PROPN	NNP	_	21	A	21:A	_
+19	Hawke	Hawke	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	...	...	PUNCT	,	_	21	U	21:U	_
+21	fits	fits	VERB	VBZ	_	16	A	16:A	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	image	image	NOUN	NN	_	21	A	21:A	_
+24	of	of	ADP	IN	_	30	R	30:R	_
+25	the	the	DET	DT	_	29	E	29:E	_
+26	'	'	PUNCT	``	_	29	U	29:U	_
+27	mangy	mangy	NOUN	NN	_	29	E	29:E	_
+28	'	'	PUNCT	''	_	29	U	29:U	_
+29	student	student	NOUN	NN	_	30	E	30:E	_
+30	Trofimov	Trofimov	PROPN	NNP	_	23	E	23:E	_
+31	,	,	PUNCT	,	_	21	U	21:U	_
+32	but	but	CCONJ	CC	_	21	L	21:L	_
+33	one	one	NUM	CD	_	34	A	34:A	_
+34	wishes	wish	NOUN	NNS	_	21	H	21:H	_
+35	he	he	PRON	PRP	_	38	A	38:A	_
+36	did	do	AUX	VBD	_	38	F	38:F	_
+37	n't	not	PART	RB	_	38	D	38:D	_
+38	speak	speak	VERB	VB	_	34	A	34:A	_
+39	with	with	ADP	IN	_	45	R	45:R	_
+40	a	a	DET	DT	_	42	E	42:E	_
+41	perennial	perennial	ADJ	JJ	_	42	E	42:E	_
+42	frog	frog	NOUN	NN	_	45	A	45:A	_
+43	in	in	ADP	IN	_	45	R	45:R	_
+44	his	he	PRON	PRP$	_	45	E	45:E	_
+45	throat	throat	NOUN	NN	_	38	A	38:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

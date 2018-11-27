@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25757009
+# text = » Sind diese Walfische ebenso groß « , fragte er , » als die im Norden ? «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Sind	sein	AUX	NN	_	6	F	6:F	_
+3	diese	dies	PRON	PDAT	_	4	E	4:E	_
+4	Walfische	Walfische	NOUN	ADJA	_	6	A	6:A	_
+5	ebenso	ebenso	ADV	ADV	_	6	D	6:D	_
+6	groß	groß	ADJ	ADJD	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	er	er	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	als	als	ADP	KOKOM	_	14	R	14:R	_
+14	die	der	DET	ART	_	6	H	6:H	_
+15	im	im	ADJ	NN	_	16	R	16:R	_
+16	Norden	Norden	NOUN	NE	_	14	A	14:A	_
+17	?	?	PUNCT	$.	_	16	U	16:U	_
+18	«	«	PUNCT	$(	_	16	U	16:U	_
+

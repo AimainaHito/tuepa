@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 216013
+# text = " For her work , she won the Best Actress Silver Ombú category award at the 2002 Mar del Plata Film Festival .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	For	for	ADP	IN	_	4	L	4:L	_
+3	her	she	PRON	PRP$	_	4	A	4:A	_
+4	work	work	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	she	she	PRON	PRP	_	7	A	7:A	_
+7	won	win	VERB	VBD	_	4	H	4:H	_
+8	the	the	DET	DT	_	14	E	14:E	_
+9	Best	best	ADJ	JJS	_	10	E	10:E	_
+10	Actress	actress	NOUN	NN	_	14	E	14:E	_
+11	Silver	silver	NOUN	NN	_	13	E	13:E	_
+12	Ombú	Ombú	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	category	category	NOUN	NN	_	14	E	14:E	_
+14	award	award	NOUN	NN	_	7	A	7:A	_
+15	at	at	ADP	IN	_	22	R	22:R	_
+16	the	the	DET	DT	_	22	E	22:E	_
+17	2002	2002	NUM	CD	_	22	E	22:E	_
+18	Mar	Mar	PROPN	NNP	_	22	E	22:E	_
+19	del	del	X	FW	_	18	Terminal	18:Terminal	_
+20	Plata	Plata	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	Film	film	PROPN	NNP	_	22	E	22:E	_
+22	Festival	Festival	PROPN	NNP	_	7	A	7:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 600010
+# text = He found it difficult to play guitar right - handed , but after noticing a poster advertising a Slim Whitman concert and realising that Whitman also played left - handed , he reversed the order of the strings .
+1	He	he	PRON	PRP	_	2	A	2:A|6:A|23:A|4:A|14:A	_
+2	found	find	VERB	VBD	_	0	H	0:H	_
+3	it	it	PRON	PRP	_	2	A	2:A	_
+4	difficult	difficult	ADJ	JJ	_	2	A	2:A	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	play	play	VERB	VB	_	4	A	4:A	_
+7	guitar	guitar	NOUN	NN	_	6	A	6:A	_
+8	right	right	ADV	RB	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	handed	handed	VERB	VBN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	but	but	CCONJ	CC	_	2	L	2:L	_
+13	after	after	SCONJ	IN	_	2	L	2:L	_
+14	noticing	notice	VERB	VBG	_	2	H	2:H	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	poster	poster	NOUN	NN	_	14	A	14:A	_
+17	advertising	advertise	VERB	VBG	_	16	E	16:E	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	Slim	Slim	PROPN	NNP	_	21	E	21:E	_
+20	Whitman	Whitman	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	concert	concert	NOUN	NN	_	17	A	17:A	_
+22	and	and	CCONJ	CC	_	2	L	2:L	_
+23	realising	realise	VERB	VBG	_	2	H	2:H	_
+24	that	that	SCONJ	IN	_	27	F	27:F	_
+25	Whitman	Whitman	PROPN	NNP	_	27	A	27:A	_
+26	also	also	ADV	RB	_	27	D	27:D	_
+27	played	play	VERB	VBD	_	23	A	23:A	_
+28	left	leave	ADJ	JJ	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	handed	hand	VERB	VBN	_	27	A	27:A	_
+31	,	,	PUNCT	,	_	2	U	2:U	_
+32	he	he	PRON	PRP	_	33	A	33:A	_
+33	reversed	reverse	VERB	VBD	_	2	H	2:H	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	order	order	NOUN	NN	_	33	A	33:A	_
+36	of	of	ADP	IN	_	38	R	38:R	_
+37	the	the	DET	DT	_	38	E	38:E	_
+38	strings	string	NOUN	NNS	_	35	E	35:E	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25497009
+# text = Daher beschränkte ich mich darauf zu erwidern :
+1	Daher	daher	ADV	PAV	_	7	L	7:L	_
+2	beschränkte	beschränken	VERB	VVFIN	_	7	D	7:D	_
+3	ich	ich	PRON	PPER	_	7	A	7:A	_
+4	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	darauf	darauf	ADV	PAV	_	7	A	7:A	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	erwidern	erwidern	VERB	VVINF	_	0	H	0:H	_
+8	:	:	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 467016
+# text = He led all scorers with 39 points .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	led	lead	VERB	VBD	_	0	H	0:H	_
+3	all	all	DET	DT	_	4	E	4:E	_
+4	scorers	scorer	NOUN	NNS	_	2	A	2:A	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	39	39	NUM	CD	_	7	E	7:E	_
+7	points	point	NOUN	NNS	_	2	A	2:A	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

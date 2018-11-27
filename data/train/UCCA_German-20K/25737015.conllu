@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25737015
+# text = Die Ermüdung der nächtlichen Partie hatte mich bis 11 Uhr zu Bett gehalten .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Ermüdung	Ermüdung	NOUN	NN	_	12	A	12:A	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	nächtlichen	nächtlich	ADJ	ADJA	_	5	E	5:E	_
+5	Partie	Partie	NOUN	NN	_	2	A	2:A	_
+6	hatte	haben	AUX	VAFIN	_	12	F	12:F	_
+7	mich	ich	PRON	PPER	_	12	A	12:A|2:A	_
+8	bis	bis	ADP	APPR	_	10	R	10:R	_
+9	11	11	NUM	CARD	_	10	E	10:E	_
+10	Uhr	Uhr	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	ADP	NE	_	12	R	12:R	_
+12	Bett	Bett	NOUN	NE	_	0	H	0:H	_
+13	gehalten	halten	VERB	VVPP	_	12	D	12:D	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

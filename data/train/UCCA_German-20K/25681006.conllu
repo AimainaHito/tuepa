@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25681006
+# text = Conseil war in neugieriger Spannung .
+1	Conseil	Conseil	NOUN	NN	_	5	A	5:A	_
+2	war	sein	AUX	ADV	_	5	F	5:F	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	neugieriger	neugierig	ADJ	ADJA	_	5	D	5:D	_
+5	Spannung	Spannung	NOUN	NN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

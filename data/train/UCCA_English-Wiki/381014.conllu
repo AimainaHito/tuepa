@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 381014
+# text = " In an interview for Rendition , he remarked that " it 's a sad time when actors are politicians and politicians are actors . "
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	In	in	ADP	IN	_	4	R	4:R	_
+3	an	a	DET	DT	_	4	E	4:E	_
+4	interview	interview	NOUN	NN	_	9	A	9:A	_
+5	for	for	ADP	IN	_	6	R	6:R	_
+6	Rendition	Rendition	PROPN	NNP	_	4	E	4:E	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	he	he	PRON	PRP	_	9	A	9:A	_
+9	remarked	remark	VERB	VBD	_	0	H	0:H	_
+10	that	that	SCONJ	IN	_	13	F	13:F	_
+11	"	"	PUNCT	``	_	13	U	13:U	_
+12	it	it	PRON	PRP	_	13	F	13:F	_
+13	's	be	AUX	VBZ	_	9	A	9:A	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	sad	sad	ADJ	JJ	_	16	E	16:E	_
+16	time	time	NOUN	NN	_	13	A	13:A	_
+17	when	when	ADV	WRB	_	13	L	13:L	_
+18	actors	actor	NOUN	NNS	_	19	A	19:A	_
+19	are	be	AUX	VBP	_	13	H	13:H	_
+20	politicians	politician	NOUN	NNS	_	19	A	19:A	_
+21	and	and	CCONJ	CC	_	13	L	13:L	_
+22	politicians	politician	NOUN	NNS	_	23	A	23:A	_
+23	are	be	AUX	VBP	_	13	H	13:H	_
+24	actors	actor	NOUN	NNS	_	23	A	23:A	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+26	"	"	PUNCT	''	_	23	U	23:U	_
+

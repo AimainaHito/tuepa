@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 473010
+# text = " A Midsummer Night 's Magic " eventually came under the umbrella of the Magic Johnson Foundation , which he founded in 1991 .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	A	a	DET	DT	_	9	A	9:A	_
+3	Midsummer	Midsummer	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Night	night	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	's	's	PART	POS	_	2	Terminal	2:Terminal	_
+6	Magic	magic	PROPN	NNP	_	2	Terminal	2:Terminal	_
+7	"	"	PUNCT	''	_	9	U	9:U	_
+8	eventually	eventually	ADV	RB	_	9	D	9:D	_
+9	came	come	VERB	VBD	_	0	H	0:H	_
+10	under	under	ADP	IN	_	9	Terminal	9:Terminal	_
+11	the	the	DET	DT	_	9	Terminal	9:Terminal	_
+12	umbrella	umbrella	NOUN	NN	_	9	Terminal	9:Terminal	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	the	the	DET	DT	_	9	A	9:A	_
+15	Magic	magic	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Johnson	Johnson	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	Foundation	foundation	PROPN	NNP	_	14	Terminal	14:Terminal	_
+18	,	,	PUNCT	,	_	14	U	14:U	_
+19	which	which	PRON	WDT	_	21	F	21:F	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	founded	found	VERB	VBD	_	14	E	14:E	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	1991	1991	NUM	CD	_	21	D	21:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

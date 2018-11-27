@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25806005
+# text = Ich bat daher Ned , mich überlegen zu lassen , bevor wir handelten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bat	bitten	VERB	VVFIN	_	0	H	0:H	_
+3	daher	daher	ADV	PAV	_	2	L	2:L	_
+4	Ned	Ned	NOUN	NE	_	2	A	2:A|7:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	mich	ich	PRON	PPER	_	7	A	7:A	_
+7	überlegen	überlegen	VERB	VVINF	_	2	A	2:A	_
+8	zu	zu	PART	VVINF	_	7	F	7:F	_
+9	lassen	lassen	VERB	VVINF	_	7	D	7:D	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	bevor	bevor	SCONJ	KOUS	_	7	L	7:L	_
+12	wir	wir	PRON	NE	_	13	A	13:A	_
+13	handelten	handeln	VERB	VVINF	_	7	H	7:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

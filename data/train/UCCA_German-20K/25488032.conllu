@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25488032
+# text = « Die unverwüstliche Kaltblütigkeit Conseils richtete meinen Mut auf .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	Die	der	DET	ART	_	4	E	4:E	_
+3	unverwüstliche	unverwüstlich	ADJ	ADJA	_	4	E	4:E	_
+4	Kaltblütigkeit	Kaltblütigkeit	NOUN	NN	_	6	A	6:A	_
+5	Conseils	Conseils	PROPN	NE	_	4	E	4:E	_
+6	richtete	richten	VERB	VVFIN	_	0	H	0:H	_
+7	meinen	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Mut	Mut	NOUN	NN	_	6	A	6:A	_
+9	auf	auf	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

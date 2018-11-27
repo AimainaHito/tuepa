@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 553011
+# text = Drafted into military service in 1958 , Presley relaunched his recording career two years later with some of his most commercially successful work .
+1	Drafted	drafte	VERB	VBD	_	0	H	0:H	_
+2	into	into	ADP	IN	_	4	R	4:R	_
+3	military	military	ADJ	JJ	_	4	E	4:E	_
+4	service	service	NOUN	NN	_	1	A	1:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1958	1958	NUM	CD	_	1	D	1:D	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Presley	Presley	PROPN	NNP	_	9	A	9:A|1:A	_
+9	relaunched	relaunch	VERB	VBD	_	1	H	1:H	_
+10	his	he	PRON	PRP$	_	12	A	12:A	_
+11	recording	record	NOUN	NN	_	12	E	12:E	_
+12	career	career	NOUN	NN	_	9	A	9:A	_
+13	two	two	NUM	CD	_	14	E	14:E	_
+14	years	year	NOUN	NNS	_	1	L	1:L	_
+15	later	later	ADV	RB	_	14	R	14:R	_
+16	with	with	ADP	IN	_	23	R	23:R	_
+17	some	some	DET	DT	_	23	E	23:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	his	he	PRON	PRP$	_	23	A	23:A	_
+20	most	most	ADV	RBS	_	22	E	22:E	_
+21	commercially	commercially	ADV	RB	_	22	E	22:E	_
+22	successful	successful	ADJ	JJ	_	23	E	23:E	_
+23	work	work	NOUN	NN	_	9	A	9:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 711015
+# text = The film received a Peabody Award in April 2006 and a Columbia - duPont Award in January 2007 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	0	C	0:C|15:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	Peabody	Peabody	PROPN	NNP	_	6	E	6:E	_
+6	Award	Award	PROPN	NNP	_	3	A	3:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	April	April	PROPN	NNP	_	9	E	9:E	_
+9	2006	2006	NUM	CD	_	3	D	3:D	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	a	a	DET	DT	_	15	E	15:E	_
+12	Columbia	Columbia	PROPN	NNP	_	15	E	15:E	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	duPont	duPont	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	Award	Award	PROPN	NNP	_	3	H	3:H	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	January	January	PROPN	NNP	_	18	E	18:E	_
+18	2007	2007	NUM	CD	_	15	D	15:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

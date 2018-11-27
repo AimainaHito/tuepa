@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 195005
+# text = " Sorkin would later return in the final episode in a cameo appearance as a member of President Bartlet 's staff .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Sorkin	Sorkin	NOUN	NN	_	5	A	5:A	_
+3	would	would	AUX	MD	_	5	F	5:F	_
+4	later	later	ADV	RB	_	5	D	5:D	_
+5	return	return	VERB	VB	_	0	H	0:H	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	final	final	ADJ	JJ	_	9	E	9:E	_
+9	episode	episode	NOUN	NN	_	5	A	5:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	cameo	cameo	NOUN	NN	_	13	E	13:E	_
+13	appearance	appearance	NOUN	NN	_	5	A	5:A	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	member	member	NOUN	NN	_	5	A	5:A	_
+17	of	of	ADP	IN	_	21	R	21:R	_
+18	President	President	PROPN	NNP	_	21	E	21:E	_
+19	Bartlet	Bartlet	PROPN	NNP	_	18	E	18:E	_
+20	's	's	PART	POS	_	21	R	21:R	_
+21	staff	staff	NOUN	NNS	_	16	E	16:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

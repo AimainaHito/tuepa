@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25488053
+# text = Ich rechnete also , dass wir bis zu Sonnen aufgang 8 Stunden zu schwimmen hätten , was mit äußerster Anstrengung durch gegenseitige Ablösung ausführbar war .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	rechnete	rechnen	VERB	VVFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+6	wir	wir	PRON	NE	_	14	A	14:A	_
+7	bis	bis	ADP	APPR	_	9	R	9:R	_
+8	zu	zu	ADP	NE	_	9	E	9:E	_
+9	Sonnen	Sonne	NOUN	NE	_	14	A	14:A	_
+10	aufgang	aufgang	ADP	NN	_	9	E	9:E	_
+11	8	8	NUM	CARD	_	14	A	14:A	_
+12	Stunden	Stunde|Stunden	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	schwimmen	schwimmen	VERB	VVINF	_	2	H	2:H	_
+15	hätten	haben	AUX	VAFIN	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	was	was	PRON	NE	_	24	A	24:A	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	äußerster	äußer	ADJ	NN	_	20	E	20:E	_
+20	Anstrengung	Anstrengung	NOUN	NN	_	24	A	24:A	_
+21	durch	durch	ADP	APPR	_	23	R	23:R	_
+22	gegenseitige	gegenseitig	ADJ	ADJA	_	23	E	23:E	_
+23	Ablösung	Ablösung	NOUN	NN	_	24	A	24:A	_
+24	ausführbar	ausführbar	ADJ	ADV	_	2	H	2:H	_
+25	war	sein	AUX	ADV	_	24	F	24:F	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 233004
+# text = Furthermore , Mitsubishi honoured Chan by launching Evolution , a limited series of cars which he personally customised .
+1	Furthermore	furthermore	ADV	RB	_	4	G	4:G	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	Mitsubishi	Mitsubishi	PROPN	NNP	_	4	A	4:A|7:A	_
+4	honoured	honoure	VERB	VBD	_	0	H	0:H	_
+5	Chan	Chan	PROPN	NNP	_	4	A	4:A	_
+6	by	by	SCONJ	IN	_	7	R	7:R	_
+7	launching	launch	VERB	VBG	_	4	A	4:A	_
+8	Evolution	evolution	PROPN	NNP	_	7	A	7:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	limited	limited	ADJ	JJ	_	12	E	12:E	_
+12	series	series	NOUN	NN	_	8	E	8:E	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	cars	car	NOUN	NNS	_	12	E	12:E	_
+15	which	which	PRON	WDT	_	18	R	18:R	_
+16	he	he	PRON	PRP	_	18	A	18:A	_
+17	personally	personally	ADV	RB	_	18	D	18:D	_
+18	customised	customise	VERB	VBD	_	12	E	12:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

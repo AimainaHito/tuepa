@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25617003
+# text = Das Meer brauste wütend um die " Nautilus " her .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	3	A	3:A	_
+3	brauste	brausen	VERB	VVFIN	_	0	H	0:H	_
+4	wütend	wütend	ADJ	ADJD	_	3	D	3:D	_
+5	um	um	ADP	APPR	_	8	R	8:R	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	"	"	PUNCT	$(	_	8	U	8:U	_
+8	Nautilus	Nautilus	PROPN	NE	_	3	A	3:A	_
+9	"	"	PUNCT	$(	_	8	U	8:U	_
+10	her	her	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

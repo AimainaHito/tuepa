@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 657008
+# text = Following the film 's poor reception , she was bought out of her recording contract for $ 50 million , which led to a decline in her career .
+1	Following	follow	VERB	VBG	_	6	L	6:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	6	A	6:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	poor	poor	ADJ	JJ	_	6	D	6:D	_
+6	reception	reception	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	she	she	PRON	PRP	_	10	A	10:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	bought	buy	VERB	VBN	_	0	C	0:C|22:A	_
+11	out	out	ADP	IN	_	10	R	10:R	_
+12	of	of	ADP	IN	_	10	R	10:R	_
+13	her	she	PRON	PRP$	_	15	E	15:E	_
+14	recording	recording	NOUN	NN	_	15	E	15:E	_
+15	contract	contract	NOUN	NN	_	10	A	10:A	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	$	$	SYM	$	_	18	U	18:U	_
+18	50	50	NUM	CD	_	10	A	10:A	_
+19	million	million	NUM	CD	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	6	U	6:U	_
+21	which	which	PRON	WDT	_	6	L	6:L	_
+22	led	lead	VERB	VBD	_	6	H	6:H	_
+23	to	to	ADP	IN	_	22	R	22:R	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	decline	decline	NOUN	NN	_	22	A	22:A	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	her	she	PRON	PRP$	_	28	E	28:E	_
+28	career	career	NOUN	NN	_	25	A	25:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

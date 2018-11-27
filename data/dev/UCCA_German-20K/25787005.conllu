@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25787005
+# text = Indessen wurde die Rückwärts bewegung der ›Nautilus‹ rascher und brachte uns mit großer Schnelligkeit weiter .
+1	Indessen	indessen	ADV	ADV	_	8	L	8:L	_
+2	wurde	werden	AUX	NE	_	8	F	8:F	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Rückwärts	Rückwärts	NOUN	NE	_	5	E	5:E	_
+5	bewegung	bewegung	NOUN	NN	_	0	C	0:C|10:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	A	5:A	_
+8	rascher	rasch	ADJ	ADJA	_	0	H	0:H	_
+9	und	und	CCONJ	NE	_	8	L	8:L	_
+10	brachte	bringen	VERB	VVFIN	_	8	H	8:H	_
+11	uns	wir	PRON	NN	_	10	A	10:A	_
+12	mit	mit	ADP	APPR	_	14	R	14:R	_
+13	großer	groß	ADJ	ADJA	_	14	E	14:E	_
+14	Schnelligkeit	Schnelligkeit	NOUN	NN	_	10	A	10:A	_
+15	weiter	weiter	ADV	ADV	_	10	Terminal	10:Terminal	_
+16	.	.	PUNCT	$.	_	10	U	10:U	_
+

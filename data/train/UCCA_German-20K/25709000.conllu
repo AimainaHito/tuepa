@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25709000
+# text = » Jetzt , Ned , hören wir Ihnen zu « , sagte ich . » Was haben Sie uns mitzuteilen ? «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Jetzt	jetzt	ADV	ADV	_	6	D	6:D	_
+3	,	,	PUNCT	$,	_	6	U	6:U	_
+4	Ned	Ned	PROPN	NN	_	6	G	6:G	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	hören	hören	VERB	VVFIN	_	12	A	12:A	_
+7	wir	wir	PRON	NE	_	6	A	6:A	_
+8	Ihnen	Sie|sie	PRON	PPER	_	6	A	6:A	_
+9	zu	zu	ADP	VVINF	_	6	Terminal	6:Terminal	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+15	»	»	PUNCT	$(	_	12	U	12:U	_
+16	Was	was	PRON	NE	_	20	A	20:A	_
+17	haben	haben	VERB	VAFIN	_	20	D	20:D	_
+18	Sie	Sie|sie	PRON	PPER	_	20	A	20:A	_
+19	uns	wir	PRON	NN	_	20	A	20:A	_
+20	mitzuteilen	mitteilen	VERB	VVIZU	_	6	H	6:H	_
+21	?	?	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

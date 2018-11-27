@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 586011
+# text = Depp was later turned down by the film 's producer , who rejected the director 's decision .
+1	Depp	Depp	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	later	later	ADV	RB	_	4	D	4:D	_
+4	turned	turn	VERB	VBN	_	0	H	0:H	_
+5	down	down	ADP	RP	_	4	Terminal	4:Terminal	_
+6	by	by	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	film	film	NOUN	NN	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	producer	producer	NOUN	NN	_	4	A	4:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	who	who	PRON	WP	_	13	R	13:R	_
+13	rejected	reject	VERB	VBD	_	10	E	10:E	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	director	director	NOUN	NN	_	17	E	17:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	decision	decision	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

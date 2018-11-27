@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25600002
+# text = Als er damit fertig war , stützte er sich mit dem Ellbogen auf das Gehäuse des Leucht feuers , und seine Blicke schweiften über den Meeres spiegel .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	er	er	PRON	PPER	_	4	A	4:A	_
+3	damit	damit	ADV	PAV	_	4	A	4:A	_
+4	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+5	war	sein	AUX	ADV	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	stützte	stützen	VERB	VVFIN	_	4	H	4:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Ellbogen	Ellboge	NOUN	NN	_	7	A	7:A	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Gehäuse	Gehäuse	NOUN	NN	_	7	A	7:A	_
+16	des	der	DET	ART	_	18	R	18:R	_
+17	Leucht	Leucht	NOUN	NN	_	18	E	18:E	_
+18	feuers	feuers	ADV	NN	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	4	U	4:U	_
+20	und	und	CCONJ	NE	_	4	L	4:L	_
+21	seine	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Blicke	Blicke	NOUN	NN	_	23	A	23:A	_
+23	schweiften	schweifen	VERB	VVFIN	_	4	H	4:H	_
+24	über	über	ADP	NE	_	27	R	27:R	_
+25	den	der	DET	ART	_	27	E	27:E	_
+26	Meeres	Meer	NOUN	ADJA	_	27	E	27:E	_
+27	spiegel	spiegel	PROPN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 200007
+# text = In January 2012 , it is reported that Stephen Schwartz is now writing the music and lyrics , while Sorkin is making his debut as a librettist .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	January	January	PROPN	NNP	_	3	E	3:E	_
+3	2012	2012	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	it	it	PRON	PRP	_	7	F	7:F	_
+6	is	be	AUX	VBZ	_	7	F	7:F	_
+7	reported	report	VERB	VBN	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	13	F	13:F	_
+9	Stephen	Stephen	PROPN	NNP	_	13	A	13:A	_
+10	Schwartz	Schwartz	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	is	be	AUX	VBZ	_	13	F	13:F	_
+12	now	now	ADV	RB	_	13	D	13:D	_
+13	writing	write	VERB	VBG	_	7	A	7:A	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	music	music	NOUN	NN	_	13	A	13:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	lyrics	lyric	NOUN	NNS	_	15	C	15:C	_
+18	,	,	PUNCT	,	_	7	U	7:U	_
+19	while	while	SCONJ	IN	_	7	L	7:L	_
+20	Sorkin	Sorkin	PROPN	NNP	_	24	A	24:A	_
+21	is	be	AUX	VBZ	_	24	F	24:F	_
+22	making	make	VERB	VBG	_	24	F	24:F	_
+23	his	he	PRON	PRP$	_	24	E	24:E	_
+24	debut	debut	NOUN	NN	_	7	H	7:H	_
+25	as	as	ADP	IN	_	27	R	27:R	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	librettist	librettist	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

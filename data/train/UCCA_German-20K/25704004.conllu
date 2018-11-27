@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25704004
+# text = Die kräftig geschwungene Harpune hatte wohl nur das Wasser gestreift .
+1	Die	der	DET	ART	_	4	E	4:E	_
+2	kräftig	kräftig	ADJ	ADJD	_	3	D	3:D	_
+3	geschwungene	geschwungen	ADJ	ADJA	_	4	E	4:E	_
+4	Harpune	Harpune	NOUN	NN	_	10	A	10:A	_
+5	hatte	haben	AUX	VAFIN	_	10	F	10:F	_
+6	wohl	wohl	ADV	NE	_	10	D	10:D	_
+7	nur	nur	ADV	NE	_	10	D	10:D	_
+8	das	der	DET	ART	_	9	E	9:E	_
+9	Wasser	Wasser	NOUN	NN	_	10	A	10:A	_
+10	gestreift	streifen	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

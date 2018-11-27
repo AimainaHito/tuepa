@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25622009
+# text = Er bemerkte einen Kokos baum , schlug einige seiner Früchte ab , zerbrach sie , und wir tranken ihre Milch , aßen ihren Kern , mit einem Vergnügen , das gegen den gewöhnlichen Tisch der " Nautilus " protestierte .
+1	Er	er	PRON	PPER	_	2	A	2:A|7:A|13:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	einen	ein	DET	ART	_	5	E	5:E	_
+4	Kokos	Kokos	NOUN	NE	_	5	E	5:E	_
+5	baum	baum	ADP	NE	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	schlug	schlagen	VERB	VVFIN	_	2	H	2:H	_
+8	einige	einige	PRON	PIAT	_	7	D	7:D	_
+9	seiner	sein	DET	PPOSAT	_	10	R	10:R	_
+10	Früchte	Frucht	NOUN	NN	_	7	A	7:A	_
+11	ab	ab	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	zerbrach	zerbrach	SCONJ	VVFIN	_	2	H	2:H	_
+14	sie	sie	PRON	ADV	_	13	A	13:A	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	wir	wir	PRON	NE	_	18	A	18:A|22:A	_
+18	tranken	tranken	VERB	VVFIN	_	2	H	2:H	_
+19	ihre	ihr	DET	PPOSAT	_	20	E	20:E	_
+20	Milch	Milch	NOUN	NN	_	18	A	18:A	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	aßen	itzen	VERB	ADV	_	2	H	2:H	_
+23	ihren	ihr	DET	PPOSAT	_	24	E	24:E	_
+24	Kern	Kern	NOUN	NN	_	22	A	22:A	_
+25	,	,	PUNCT	$,	_	22	U	22:U	_
+26	mit	mit	ADP	APPR	_	28	R	28:R	_
+27	einem	ein	DET	ART	_	28	E	28:E	_
+28	Vergnügen	Vergnügen	NOUN	NN	_	22	A	22:A	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	das	der	PRON	PRELS	_	39	R	39:R	_
+31	gegen	gegen	ADP	APPR	_	34	R	34:R	_
+32	den	der	DET	ART	_	34	E	34:E	_
+33	gewöhnlichen	gewöhnlich	ADJ	ADJA	_	34	E	34:E	_
+34	Tisch	Tisch	NOUN	NN	_	39	A	39:A	_
+35	der	der	DET	ART	_	37	R	37:R	_
+36	"	"	PUNCT	$(	_	37	U	37:U	_
+37	Nautilus	Nautilus	PROPN	NE	_	34	E	34:E	_
+38	"	"	PUNCT	$(	_	39	U	39:U	_
+39	protestierte	protestieren	VERB	VVFIN	_	28	E	28:E	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25692010
+# text = Aber ich bekam nichts zu sehen , nicht einmal die Insel Parim , welche die englische Regierung zur Verstärkung des Platzes befestigt hat .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	ich	ich	PRON	PPER	_	6	A	6:A	_
+3	bekam	bekommen	VERB	VVFIN	_	6	D	6:D	_
+4	nichts	nichts	PRON	ADJA	_	6	A	6:A	_
+5	zu	zu	PART	NN	_	6	F	6:F	_
+6	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	12	U	12:U	_
+8	nicht	nicht	PART	XY	_	12	D	12:D	_
+9	einmal	einmal	ADV	ADV	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	Insel	Insel	NOUN	NN	_	12	E	12:E|22:A	_
+12	Parim	Parim	PROPN	NN	_	6	H	6:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	welche	welch	PRON	NN	_	22	R	22:R	_
+15	die	der	DET	ART	_	17	E	17:E	_
+16	englische	englisch	ADJ	ADJA	_	17	E	17:E	_
+17	Regierung	Regierung	NOUN	NN	_	22	A	22:A	_
+18	zur	zur	ADP	NN	_	19	R	19:R	_
+19	Verstärkung	Verstärkung	NOUN	NN	_	22	A	22:A	_
+20	des	der	DET	ART	_	21	R	21:R	_
+21	Platzes	Platz	NOUN	NN	_	19	E	19:E	_
+22	befestigt	befestigen	VERB	VVPP	_	12	E	12:E	_
+23	hat	haben	AUX	VAFIN	_	22	F	22:F	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+

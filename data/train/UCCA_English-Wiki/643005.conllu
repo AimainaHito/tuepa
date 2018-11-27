@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 643005
+# text = After negotiations , Lennon capitulated and agreed to her divorcing him on the same grounds .
+1	After	after	ADP	IN	_	2	L	2:L	_
+2	negotiations	negotiation	NOUN	NNS	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	Lennon	Lennon	PROPN	NNP	_	5	A	5:A|2:A|7:A	_
+5	capitulated	capitulate	VERB	VBD	_	2	H	2:H	_
+6	and	and	CCONJ	CC	_	2	L	2:L	_
+7	agreed	agree	VERB	VBD	_	2	H	2:H	_
+8	to	to	ADP	IN	_	10	R	10:R	_
+9	her	she	PRON	PRP	_	10	A	10:A	_
+10	divorcing	divorce	VERB	VBG	_	7	A	7:A	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	on	on	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	same	same	ADJ	JJ	_	15	E	15:E	_
+15	grounds	grounds	NOUN	NNS	_	7	A	7:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

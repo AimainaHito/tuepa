@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 644009
+# text = Lennon was distant from Julian , who felt closer to McCartney than to his father .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	distant	distant	ADJ	JJ	_	0	H	0:H	_
+4	from	from	ADP	IN	_	5	R	5:R	_
+5	Julian	Julian	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	who	who	PRON	WP	_	9	F	9:F	_
+8	felt	feel	VERB	VBD	_	9	G	9:G	_
+9	closer	closer	ADJ	JJR	_	5	E	5:E	_
+10	to	to	ADP	IN	_	11	R	11:R	_
+11	McCartney	McCartney	PROPN	NNP	_	9	A	9:A	_
+12	than	than	ADP	IN	_	15	R	15:R	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	his	he	PRON	PRP$	_	15	E	15:E	_
+15	father	father	NOUN	NN	_	9	A	9:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

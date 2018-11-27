@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 208003
+# text = Hoffman 's next roles were less successful .
+1	Hoffman	Hoffman	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	next	next	ADJ	JJ	_	4	E	4:E	_
+4	roles	role	NOUN	NNS	_	7	A	7:A	_
+5	were	be	AUX	VBD	_	7	D	7:D	_
+6	less	less	ADV	RBR	_	7	D	7:D	_
+7	successful	successful	ADJ	JJ	_	0	H	0:H	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

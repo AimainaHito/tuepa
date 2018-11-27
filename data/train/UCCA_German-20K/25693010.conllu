@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25693010
+# text = Hier , wo das Wasser in einiger Tiefe durchsichtig wie Kristall ist , ließ sie uns bei geöffneten Läden merkwürdiges Gebüsch glänzender Korallen betrachten und ungeheure Fels wände , die mit einem glänzenden Teppich von Tang und Algen bedeckt waren .
+1	Hier	hier	ADV	ADV	_	24	A	24:A	_
+2	,	,	PUNCT	$,	_	24	U	24:U	_
+3	wo	wo	ADV	ADJA	_	24	L	24:L	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Wasser	Wasser	NOUN	NN	_	9	A	9:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	einiger	einige	PRON	PIAT	_	8	E	8:E	_
+8	Tiefe	Tiefe	NOUN	NN	_	9	A	9:A	_
+9	durchsichtig	durchsichtig	ADJ	ADJD	_	24	H	24:H	_
+10	wie	wie	ADP	NE	_	11	R	11:R	_
+11	Kristall	Kristall	PROPN	NE	_	24	H	24:H	_
+12	ist	sein	AUX	NE	_	9	F	9:F	_
+13	,	,	PUNCT	$,	_	24	U	24:U	_
+14	ließ	lassen	VERB	VVFIN	_	24	D	24:D	_
+15	sie	sie	PRON	ADV	_	24	A	24:A	_
+16	uns	wir	PRON	NN	_	24	A	24:A	_
+17	bei	bei	ADP	APPR	_	19	R	19:R	_
+18	geöffneten	geöffnet	ADJ	ADJA	_	19	E	19:E	_
+19	Läden	Laden	NOUN	NN	_	24	A	24:A	_
+20	merkwürdiges	merkwürdiges	PRON	ADJA	_	21	E	21:E	_
+21	Gebüsch	Gebüsch	NOUN	NN	_	24	A	24:A	_
+22	glänzender	glänzend	ADJ	ADV	_	23	E	23:E	_
+23	Korallen	Koralle	NOUN	NN	_	21	E	21:E	_
+24	betrachten	betrachten	VERB	VVINF	_	0	H	0:H	_
+25	und	und	CCONJ	NE	_	21	N	21:N	_
+26	ungeheure	ungeheuer	ADJ	ADJA	_	28	E	28:E	_
+27	Fels	Fels	NOUN	NE	_	28	E	28:E	_
+28	wände	wänd	ADJ	NN	_	21	C	21:C	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	die	der	PRON	PRELS	_	39	R	39:R	_
+31	mit	mit	ADP	APPR	_	34	R	34:R	_
+32	einem	ein	DET	ART	_	34	E	34:E	_
+33	glänzenden	glänzend	ADJ	ADJA	_	34	E	34:E	_
+34	Teppich	Teppich	NOUN	NN	_	39	A	39:A	_
+35	von	von	ADP	NE	_	36	R	36:R	_
+36	Tang	Tang	NOUN	NE	_	34	E	34:E	_
+37	und	und	CCONJ	NE	_	36	N	36:N	_
+38	Algen	Alge	NOUN	NN	_	36	C	36:C	_
+39	bedeckt	bedecken	ADJ	VVPP	_	28	E	28:E	_
+40	waren	sein	AUX	VAFIN	_	39	F	39:F	_
+41	.	.	PUNCT	$.	_	39	U	39:U	_
+

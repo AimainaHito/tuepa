@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25503010
+# text = « » Ein Rauch zimmer ? « rief ich aus . » Also raucht man an Bord ?
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	»	»	PUNCT	$(	_	5	U	5:U	_
+3	Ein	ein	DET	ART	_	5	E	5:E	_
+4	Rauch	Rauch	NOUN	NN	_	5	E	5:E	_
+5	zimmer	zimmer	ADV	NN	_	8	A	8:A	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	aus	aus	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	Also	also	ADV	ADV	_	5	L	5:L	_
+14	raucht	rauchen	VERB	VVFIN	_	5	H	5:H	_
+15	man	man	PRON	PIS	_	14	A	14:A	_
+16	an	an	ADP	APPR	_	17	R	17:R	_
+17	Bord	Bord	NOUN	NN	_	14	A	14:A	_
+18	?	?	PUNCT	$.	_	17	U	17:U	_
+

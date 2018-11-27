@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25589004
+# text = » Man wird Sie nicht mit Gewalt nötigen , Meister Ned « , sagte Kapitän Nemo .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Man	man	PRON	PIS	_	8	A	8:A	_
+3	wird	werden	AUX	VAFIN	_	8	F	8:F	_
+4	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+5	nicht	nicht	PART	XY	_	8	D	8:D	_
+6	mit	mit	ADP	APPR	_	7	R	7:R	_
+7	Gewalt	Gewalt	NOUN	NN	_	8	A	8:A	_
+8	nötigen	nötigen	VERB	VVINF	_	14	A	14:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	Meister	Meister	NOUN	NN	_	11	E	11:E	_
+11	Ned	Ned	PROPN	NE	_	8	G	8:G	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+15	Kapitän	Kapitän	PROPN	NN	_	16	E	16:E	_
+16	Nemo	Nemo	PROPN	NE	_	14	A	14:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

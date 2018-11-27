@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25628008
+# text = » Familie der Rebhühner ? « fragte Ned Land .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Familie	Familie	NOUN	NN	_	4	E	4:E	_
+3	der	der	DET	ART	_	2	R	2:R	_
+4	Rebhühner	Rebhühner	NOUN	NN	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	Ned	Ned	PROPN	NE	_	7	A	7:A	_
+9	Land	Land	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+

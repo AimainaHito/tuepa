@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25490115
+# text = Aber sollte dieser Mann wirklich im Sinne haben , uns in diesem engen Kerker Hungers sterben zu lassen , uns den greulichen Versuchungen preiszugeben , wozu des Hungers peinigende Qual treibt ?
+1	Aber	aber	ADV	KON	_	6	L	6:L	_
+2	sollte	sollen	AUX	VMFIN	_	6	D	6:D	_
+3	dieser	dies	PRON	PDAT	_	4	E	4:E	_
+4	Mann	Mann	NOUN	NN	_	6	A	6:A	_
+5	wirklich	wirklich	ADJ	ADV	_	6	D	6:D	_
+6	im	im	ADJ	NE	_	0	H	0:H	_
+7	Sinne	Sinn	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	haben	haben	VERB	VAFIN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	uns	wir	PRON	NN	_	16	A	16:A	_
+11	in	in	ADP	APPR	_	14	R	14:R	_
+12	diesem	dies	PRON	PDAT	_	14	E	14:E	_
+13	engen	eng	ADJ	ADJA	_	14	E	14:E	_
+14	Kerker	Kerker	NOUN	NN	_	16	A	16:A	_
+15	Hungers	Hunger	PROPN	NE	_	16	A	16:A	_
+16	sterben	sterben	VERB	VVINF	_	6	A	6:A	_
+17	zu	zu	PART	VVINF	_	16	F	16:F	_
+18	lassen	lassen	VERB	VVINF	_	16	D	16:D	_
+19	,	,	PUNCT	$,	_	16	U	16:U	_
+20	uns	wir	PRON	NN	_	24	A	24:A	_
+21	den	der	DET	ART	_	23	E	23:E	_
+22	greulichen	greulich	ADJ	ADJA	_	23	E	23:E	_
+23	Versuchungen	Versuchung	NOUN	NN	_	24	A	24:A	_
+24	preiszugeben	preiszugeben	VERB	VVINF	_	16	H	16:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	wozu	wozu	PRON	ADJA	_	31	R	31:R	_
+27	des	der	DET	ART	_	28	R	28:R	_
+28	Hungers	Hunger	NOUN	NN	_	30	E	30:E	_
+29	peinigende	peinigend	ADJ	ADJA	_	30	E	30:E	_
+30	Qual	Qual	NOUN	NN	_	31	A	31:A	_
+31	treibt	treiben	VERB	VVFIN	_	23	E	23:E	_
+32	?	?	PUNCT	$.	_	31	U	31:U	_
+

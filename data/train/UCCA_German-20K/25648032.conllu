@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25648032
+# text = Meine Gefährten waren ohne Zweifel ebenso , ohne es zu merken , in ihre Kabine gebracht worden .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Gefährten	Gefährt|Gefährte	NOUN	NE	_	0	C	0:C|11:A	_
+3	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+4	ohne	ohne	ADP	NN	_	5	E	5:E	_
+5	Zweifel	Zweifel	NOUN	NN	_	16	G	16:G	_
+6	ebenso	ebenso	ADV	ADV	_	16	D	16:D	_
+7	,	,	PUNCT	$,	_	16	U	16:U	_
+8	ohne	ohne	SCONJ	NN	_	16	L	16:L	_
+9	es	es	PRON	PPER	_	11	F	11:F	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	merken	merken	VERB	VVINF	_	16	H	16:H	_
+12	,	,	PUNCT	$,	_	16	U	16:U	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	ihre	ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Kabine	Kabine	NOUN	NN	_	16	A	16:A	_
+16	gebracht	bringen	VERB	VVPP	_	0	H	0:H	_
+17	worden	werden	AUX	ADV	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

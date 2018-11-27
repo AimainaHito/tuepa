@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25588010
+# text = Diese Zelle war eigentlich Arsenal und Kleider kammer der " Nautilus " . Ein Dutzend Skaphanderapparate , die an der Wand hingen , harrten der Spaziergänger .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Zelle	Zelle	NOUN	NN	_	3	A	3:A	_
+3	war	sein	AUX	ADV	_	0	H	0:H	_
+4	eigentlich	eigentlich	ADJ	ADV	_	3	G	3:G	_
+5	Arsenal	Arsenal	PROPN	NN	_	3	A	3:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Kleider	Kleider	PROPN	NE	_	8	E	8:E	_
+8	kammer	kammer	PROPN	NN	_	5	C	5:C	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	Nautilus	Nautilus	PROPN	NE	_	5	E	5:E	_
+12	"	"	PUNCT	$(	_	3	U	3:U	_
+13	.	.	PUNCT	$.	_	3	U	3:U	_
+14	Ein	ein	NOUN	ART	_	15	E	15:E	_
+15	Dutzend	Dutzend	PROPN	NN	_	16	E	16:E	_
+16	Skaphanderapparate	Skaphanderapparat	PROPN	NN	_	24	A	24:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	die	der	PRON	PRELS	_	22	R	22:R	_
+19	an	an	ADP	APPR	_	21	R	21:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Wand	Wand	NOUN	NN	_	22	A	22:A	_
+22	hingen	hingen	VERB	NE	_	16	E	16:E	_
+23	,	,	PUNCT	$,	_	24	U	24:U	_
+24	harrten	harren	VERB	VVFIN	_	3	H	3:H	_
+25	der	der	DET	ART	_	26	R	26:R	_
+26	Spaziergänger	Spaziergänger	NOUN	NN	_	24	A	24:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

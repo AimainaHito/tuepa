@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 521001
+# text = They appeared with the troupe at its annual Christmas show .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	appeared	appear	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	troupe	troupe	NOUN	NN	_	2	A	2:A	_
+6	at	at	ADP	IN	_	10	R	10:R	_
+7	its	its	PRON	PRP$	_	10	E	10:E	_
+8	annual	annual	ADJ	JJ	_	10	E	10:E	_
+9	Christmas	Christmas	PROPN	NNP	_	10	E	10:E	_
+10	show	show	NOUN	NN	_	2	A	2:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

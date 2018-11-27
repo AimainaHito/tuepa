@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 689011
+# text = Zimmerman moved to Minneapolis in September 1959 , where he enrolled at the University of Minnesota .
+1	Zimmerman	Zimmerman	PROPN	NNP	_	2	A	2:A	_
+2	moved	move	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	4	R	4:R	_
+4	Minneapolis	Minneapolis	PROPN	NNP	_	2	A	2:A	_
+5	in	in	ADP	IN	_	7	R	7:R	_
+6	September	September	PROPN	NNP	_	7	E	7:E	_
+7	1959	1959	NUM	CD	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	where	where	ADV	WRB	_	2	L	2:L	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	enrolled	enrol	VERB	VBD	_	2	H	2:H	_
+12	at	at	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	University	University	PROPN	NNP	_	11	A	11:A	_
+15	of	of	ADP	IN	_	16	R	16:R	_
+16	Minnesota	Minnesota	PROPN	NNP	_	14	E	14:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

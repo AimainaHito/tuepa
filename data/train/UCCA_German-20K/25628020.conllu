@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25628020
+# text = Glücklicherweise gelang Conseil , zu seiner großen Überraschung , ein doppelter Schuß , und er sicherte damit das Frühstück .
+1	Glücklicherweise	Glücklicherweise	ADV	ADV	_	2	G	2:G	_
+2	gelang	gelingen	VERB	VVFIN	_	0	H	0:H	_
+3	Conseil	Conseil	NOUN	NE	_	2	A	2:A|8:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	zu	zu	ADP	NE	_	8	R	8:R	_
+6	seiner	sein	DET	PPOSAT	_	8	E	8:E	_
+7	großen	groß	ADJ	ADJA	_	8	D	8:D	_
+8	Überraschung	Überraschung	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	ein	ein	DET	ART	_	12	E	12:E	_
+11	doppelter	doppelt	ADJ	NN	_	12	E	12:E	_
+12	Schuß	Schuß	NOUN	NE	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	er	er	PRON	PPER	_	16	A	16:A	_
+16	sicherte	sichern	VERB	VVFIN	_	2	H	2:H	_
+17	damit	damit	ADV	PAV	_	16	A	16:A	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	Frühstück	Frühstück	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

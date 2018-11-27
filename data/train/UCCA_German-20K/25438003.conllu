@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25438003
+# text = Ein Matrose führte mich aufs Vorder verdeck zu einem Offizier von stattlichem Aussehen , der mir die Hand reichte .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Matrose	Matrose	NOUN	NN	_	3	A	3:A	_
+3	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	A	3:A	_
+5	aufs	aufs	ADV	NN	_	7	R	7:R	_
+6	Vorder	Vorder	NOUN	NN	_	7	E	7:E	_
+7	verdeck	verdeck	ADV	NE	_	3	A	3:A	_
+8	zu	zu	ADP	NN	_	10	R	10:R	_
+9	einem	ein	DET	ART	_	10	E	10:E	_
+10	Offizier	Offizier	NOUN	NN	_	3	A	3:A	_
+11	von	von	ADP	NN	_	13	E	13:E	_
+12	stattlichem	stattlich	ADJ	ADJA	_	13	E	13:E	_
+13	Aussehen	Aussehen	NOUN	NN	_	10	E	10:E	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	der	der	PRON	PRELS	_	19	R	19:R	_
+16	mir	ich	PRON	PPER	_	19	A	19:A	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Hand	Hand	NOUN	NN	_	19	A	19:A	_
+19	reichte	reichen	VERB	VVFIN	_	10	E	10:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

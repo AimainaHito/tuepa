@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 604009
+# text = On 10 April 1970 , in the midst of business disagreements with his bandmates , McCartney announced his departure from the group .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	10	10	NUM	CD	_	17	D	17:D	_
+3	April	April	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	1970	1970	NUM	CD	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	17	U	17:U	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	midst	midst	NOUN	NN	_	17	L	17:L	_
+9	of	of	ADP	IN	_	8	F	8:F	_
+10	business	business	NOUN	NN	_	11	A	11:A	_
+11	disagreements	disagreement	NOUN	NNS	_	17	H	17:H	_
+12	with	with	ADP	IN	_	14	R	14:R	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	bandmates	bandmate	NOUN	NNS	_	11	A	11:A	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	McCartney	McCartney	PROPN	NNP	_	17	A	17:A|11:A	_
+17	announced	announce	VERB	VBD	_	0	H	0:H	_
+18	his	he	PRON	PRP$	_	19	A	19:A	_
+19	departure	departure	NOUN	NN	_	17	A	17:A	_
+20	from	from	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	group	group	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

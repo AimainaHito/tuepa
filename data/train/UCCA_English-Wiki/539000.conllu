@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 539000
+# text = The Warner brothers pooled their resources and moved into film production in 1910 .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Warner	Warner	PROPN	NNP	_	3	E	3:E	_
+3	brothers	brother	NOUN	NNS	_	0	C	0:C|8:A	_
+4	pooled	pool	VERB	VBD	_	0	H	0:H	_
+5	their	they	PRON	PRP$	_	6	E	6:E	_
+6	resources	resource	NOUN	NNS	_	4	A	4:A	_
+7	and	and	CCONJ	CC	_	4	L	4:L	_
+8	moved	move	VERB	VBD	_	4	H	4:H	_
+9	into	into	ADP	IN	_	11	R	11:R	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	production	production	NOUN	NN	_	8	A	8:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	1910	1910	NUM	CD	_	8	D	8:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

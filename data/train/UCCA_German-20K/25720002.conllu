@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25720002
+# text = Hier gibt ' s zwei Strömungen : die obere , die längst bekannt ist , führt die Gewässer aus dem Ozean in das Becken des Mittelmeers , sodann eine tiefer in entgegengesetzter Richtung , deren Existenz nun durch Folgerungen bewiesen ist .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	gibt	geben	VERB	VVFIN	_	0	H	0:H	_
+3	'	'	PUNCT	$(	_	2	U	2:U	_
+4	s	s	ADV	ADJD	_	2	F	2:F	_
+5	zwei	zwei	NUM	VVFIN	_	6	E	6:E	_
+6	Strömungen	Strömung	NOUN	NN	_	0	C	0:C|32:A|36:A	_
+7	:	:	PUNCT	$.	_	2	U	2:U	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	obere	ober	NOUN	ADJA	_	16	A	16:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	13	R	13:R	_
+12	längst	längst	ADV	ADV	_	13	D	13:D	_
+13	bekannt	bekannt	ADJ	ADJD	_	9	E	9:E	_
+14	ist	sein	AUX	NN	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	führt	führen	VERB	VVFIN	_	2	H	2:H	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Gewässer	Gewässer	NOUN	NN	_	16	A	16:A	_
+19	aus	aus	ADP	APPR	_	21	R	21:R	_
+20	dem	der	DET	ART	_	21	E	21:E	_
+21	Ozean	Ozean	PROPN	NN	_	16	A	16:A	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	das	der	DET	ART	_	24	E	24:E	_
+24	Becken	Becken	NOUN	NN	_	16	A	16:A	_
+25	des	der	DET	ART	_	26	R	26:R	_
+26	Mittelmeers	Mittelmeers	NOUN	NN	_	24	E	24:E	_
+27	,	,	PUNCT	$,	_	2	U	2:U	_
+28	sodann	sodann	ADV	ADV	_	2	L	2:L	_
+29	eine	ein	DET	ART	_	30	A	30:A	_
+30	tiefer	tief	ADJ	ADJD	_	2	H	2:H	_
+31	in	in	ADP	APPR	_	33	R	33:R	_
+32	entgegengesetzter	entgegengesetzt	ADJ	ADJA	_	30	A	30:A	_
+33	Richtung	Richtung	NOUN	NN	_	32	A	32:A	_
+34	,	,	PUNCT	$,	_	30	U	30:U	_
+35	deren	der	DET	PRELAT	_	36	R	36:R	_
+36	Existenz	Existenz	NOUN	NN	_	40	A	40:A	_
+37	nun	nun	ADV	ADV	_	40	F	40:F	_
+38	durch	durch	ADP	APPR	_	39	R	39:R	_
+39	Folgerungen	Folgerung	NOUN	NN	_	40	A	40:A	_
+40	bewiesen	bewiesen	VERB	VVPP	_	29	E	29:E	_
+41	ist	sein	AUX	NN	_	40	F	40:F	_
+42	.	.	PUNCT	$.	_	40	U	40:U	_
+

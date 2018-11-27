@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 601003
+# text = Harrison joined in 1958 as lead guitarist , followed by Lennon 's art school friend Stuart Sutcliffe on bass , in 1960 .
+1	Harrison	Harrison	PROPN	NNP	_	2	A	2:A|9:A	_
+2	joined	join	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	1958	1958	NUM	CD	_	2	D	2:D	_
+5	as	as	ADP	IN	_	7	R	7:R	_
+6	lead	lead	ADJ	JJ	_	7	E	7:E	_
+7	guitarist	guitarist	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	followed	follow	VERB	VBN	_	2	H	2:H	_
+10	by	by	ADP	IN	_	16	R	16:R	_
+11	Lennon	Lennon	PROPN	NNP	_	15	E	15:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	art	art	NOUN	NN	_	14	E	14:E	_
+14	school	school	NOUN	NN	_	15	E	15:E	_
+15	friend	friend	NOUN	NN	_	16	E	16:E	_
+16	Stuart	Stuart	PROPN	NNP	_	19	A	19:A	_
+17	Sutcliffe	Sutcliffe	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	on	on	ADP	IN	_	19	R	19:R	_
+19	bass	bass	NOUN	NN	_	9	A	9:A	_
+20	,	,	PUNCT	,	_	9	U	9:U	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	1960	1960	NUM	CD	_	9	D	9:D	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 453003
+# text = The show never gained ground against Today , and was canceled in just ten months .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	show	show	NOUN	NN	_	0	C	0:C|11:A	_
+3	never	never	ADV	RB	_	4	D	4:D	_
+4	gained	gain	VERB	VBN	_	0	H	0:H	_
+5	ground	ground	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	against	against	ADP	IN	_	7	R	7:R	_
+7	Today	today	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	and	and	CCONJ	CC	_	4	L	4:L	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	canceled	cancel	VERB	VBN	_	4	H	4:H	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	just	just	ADV	RB	_	15	E	15:E	_
+14	ten	ten	NUM	CD	_	15	E	15:E	_
+15	months	month	NOUN	NNS	_	11	D	11:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

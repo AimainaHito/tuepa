@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 536001
+# text = Warner 's career spanned some forty - five years , its duration surpassing that of any other of the seminal Hollywood studio moguls .
+1	Warner	Warner	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	career	career	NOUN	NN	_	4	A	4:A	_
+4	spanned	span	VERB	VBD	_	0	H	0:H	_
+5	some	some	DET	DT	_	9	E	9:E	_
+6	forty	forty	NOUN	NN	_	9	E	9:E	_
+7	-	-	PUNCT	HYPH	_	6	U	6:U	_
+8	five	five	NUM	CD	_	6	Terminal	6:Terminal	_
+9	years	year	NOUN	NNS	_	4	D	4:D	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	its	its	PRON	PRP$	_	12	E	12:E	_
+12	duration	duration	NOUN	NN	_	13	A	13:A	_
+13	surpassing	surpass	VERB	VBG	_	4	H	4:H	_
+14	that	that	PRON	DT	_	23	F	23:F	_
+15	of	of	ADP	IN	_	23	R	23:R	_
+16	any	any	DET	DT	_	17	E	17:E	_
+17	other	other	ADJ	JJ	_	23	E	23:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	the	the	DET	DT	_	23	E	23:E	_
+20	seminal	seminal	ADJ	JJ	_	23	E	23:E	_
+21	Hollywood	Hollywood	NOUN	NN	_	23	E	23:E	_
+22	studio	studio	NOUN	NN	_	23	E	23:E	_
+23	moguls	mogul	NOUN	NNS	_	13	A	13:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

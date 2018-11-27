@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25522012
+# text = Ein leichter Ostwind runzelte die Oberfläche der Gewässer .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	leichter	leicht	ADJ	ADJA	_	3	E	3:E	_
+3	Ostwind	Ostwind	NOUN	NN	_	4	A	4:A	_
+4	runzelte	runzeln	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Oberfläche	Oberfläche	NOUN	NN	_	4	A	4:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Gewässer	Gewässer	NOUN	NN	_	6	E	6:E	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25530011
+# text = Ich erwartete Kapitän Nemo , aber er erschien nicht .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erwartete	erwarten	VERB	VVFIN	_	0	H	0:H	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	aber	aber	CCONJ	KON	_	2	L	2:L	_
+7	er	er	PRON	PPER	_	8	A	8:A	_
+8	erschien	erscheinen	VERB	VVFIN	_	2	H	2:H	_
+9	nicht	nicht	PART	XY	_	8	D	8:D	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

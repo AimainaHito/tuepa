@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25686017
+# text = Darin bestand sein ganzer Apparat .
+1	Darin	darin	ADV	PAV	_	2	A	2:A	_
+2	bestand	bestehen	VERB	VVFIN	_	0	H	0:H	_
+3	sein	sein	DET	PPOSAT	_	5	E	5:E	_
+4	ganzer	ganz	ADJ	ADJA	_	5	E	5:E	_
+5	Apparat	Apparat	NOUN	NN	_	2	A	2:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

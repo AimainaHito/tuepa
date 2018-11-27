@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 478000
+# text = In 905 NBA games , Johnson tallied 17,707 points , 6,559 rebounds , and 10,141 assists , translating to career averages of 19.5 points , 7.2 rebounds , and 11.2 assists per game , the highest assists per game average in NBA history .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	905	905	NUM	CD	_	4	E	4:E	_
+3	NBA	NBa	PROPN	NNP	_	4	E	4:E	_
+4	games	game	NOUN	NNS	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Johnson	Johnson	PROPN	NNP	_	7	A	7:A|4:A	_
+7	tallied	tally	VERB	VBD	_	4	H	4:H	_
+8	17,707	17,707	NUM	CD	_	9	E	9:E	_
+9	points	point	NOUN	NNS	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	6,559	6,559	NUM	CD	_	12	E	12:E	_
+12	rebounds	rebound	NOUN	NNS	_	9	C	9:C	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	and	and	CCONJ	CC	_	9	N	9:N	_
+15	10,141	10,141	NUM	CD	_	16	E	16:E	_
+16	assists	assist	NOUN	NNS	_	9	C	9:C	_
+17	,	,	PUNCT	,	_	4	U	4:U	_
+18	translating	translat	VERB	VBG	_	4	H	4:H	_
+19	to	to	ADP	IN	_	21	R	21:R	_
+20	career	career	NOUN	NN	_	21	A	21:A	_
+21	averages	average	NOUN	NNS	_	18	A	18:A	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	19.5	19.5	NUM	CD	_	24	E	24:E	_
+24	points	point	NOUN	NNS	_	21	A	21:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	7.2	7.2	NUM	CD	_	27	E	27:E	_
+27	rebounds	rebound	NOUN	NNS	_	24	C	24:C	_
+28	,	,	PUNCT	,	_	24	U	24:U	_
+29	and	and	CCONJ	CC	_	24	N	24:N	_
+30	11.2	11.2	NUM	CD	_	31	E	31:E	_
+31	assists	assist	NOUN	NNS	_	24	C	24:C	_
+32	per	per	ADP	IN	_	33	R	33:R	_
+33	game	game	NOUN	NN	_	24	E	24:E	_
+34	,	,	PUNCT	,	_	24	U	24:U	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	highest	highest	ADJ	JJS	_	40	D	40:D	_
+37	assists	assist	NOUN	NNS	_	40	E	40:E	_
+38	per	per	ADP	IN	_	39	R	39:R	_
+39	game	game	NOUN	NN	_	37	E	37:E	_
+40	average	average	NOUN	NN	_	24	E	24:E	_
+41	in	in	ADP	IN	_	43	R	43:R	_
+42	NBA	NBA	PROPN	NNP	_	43	E	43:E	_
+43	history	history	NOUN	NN	_	40	A	40:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

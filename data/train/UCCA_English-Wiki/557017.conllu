@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 557017
+# text = Presley came by the studio , but was unable to do it justice .
+1	Presley	Presley	PROPN	NNP	_	2	A	2:A|11:A	_
+2	came	come	VERB	VBD	_	0	H	0:H	_
+3	by	by	ADP	IN	_	2	Terminal	2:Terminal	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	studio	studio	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	but	but	CCONJ	CC	_	2	L	2:L	_
+8	was	be	AUX	VBD	_	11	F	11:F	_
+9	unable	unable	ADJ	JJ	_	11	E	11:E	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	do	do	VERB	VB	_	2	H	2:H	_
+12	it	it	PRON	PRP	_	11	Terminal	11:Terminal	_
+13	justice	justice	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	.	_	11	U	11:U	_
+

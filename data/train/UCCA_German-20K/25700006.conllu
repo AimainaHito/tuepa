@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25700006
+# text = Noch denselben Tag teilte ich Conseil und Ned den sie zunächst interessierenden Teil dieser Unterhaltung mit .
+1	Noch	noch	ADV	ADV	_	4	D	4:D	_
+2	denselben	denselb	ADJ	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	4	D	4:D	_
+4	teilte	teilen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	Conseil	Conseil	NOUN	NE	_	4	A	4:A	_
+7	und	und	CCONJ	NE	_	6	N	6:N	_
+8	Ned	Ned	NOUN	NE	_	6	C	6:C	_
+9	den	der	PRON	ART	_	13	E	13:E	_
+10	sie	sie	PRON	TRUNC	_	12	A	12:A	_
+11	zunächst	zunächst	ADV	ADV	_	12	D	12:D	_
+12	interessierenden	interessierend	ADJ	ADJA	_	13	E	13:E	_
+13	Teil	Teil	NOUN	NN	_	4	A	4:A	_
+14	dieser	dies	PRON	PDAT	_	15	R	15:R	_
+15	Unterhaltung	unterhaltung	NOUN	NN	_	13	E	13:E	_
+16	mit	mit	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+17	.	.	PUNCT	$.	_	4	U	4:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25490038
+# text = « » Nur , Herr Arronax , habe ich keinen Begriff davon , wie viel Uhr es ist , außer zur Zeit des Mittagessens ?
+1	«	«	PUNCT	$(	_	11	U	11:U	_
+2	»	»	PUNCT	$(	_	11	U	11:U	_
+3	Nur	Nur	NOUN	ADV	_	11	F	11:F	_
+4	,	,	PUNCT	$,	_	11	U	11:U	_
+5	Herr	Herr	PROPN	NN	_	6	E	6:E	_
+6	Arronax	Arronax	PROPN	NE	_	11	G	11:G	_
+7	,	,	PUNCT	$,	_	11	U	11:U	_
+8	habe	haben	AUX	VAFIN	_	11	F	11:F	_
+9	ich	ich	PRON	PPER	_	11	A	11:A	_
+10	keinen	kein	PRON	PIAT	_	11	D	11:D	_
+11	Begriff	Begriff	NOUN	NN	_	0	H	0:H	_
+12	davon	davon	ADV	PAV	_	18	F	18:F	_
+13	,	,	PUNCT	$,	_	18	U	18:U	_
+14	wie	wie	ADV	KON	_	18	A	18:A	_
+15	viel	viel	ADJ	ADJD	_	14	Terminal	14:Terminal	_
+16	Uhr	Uhr	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	es	es	PRON	PPER	_	18	F	18:F	_
+18	ist	sein	VERB	VVFIN	_	11	A	11:A	_
+19	,	,	PUNCT	$,	_	11	U	11:U	_
+20	außer	außer	ADP	APPR	_	11	L	11:L	_
+21	zur	zur	ADV	NE	_	22	R	22:R	_
+22	Zeit	Zeit	NOUN	NN	_	11	H	11:H	_
+23	des	der	DET	ART	_	24	R	24:R	_
+24	Mittagessens	Mittagessen	NOUN	NN	_	22	A	22:A	_
+25	?	?	PUNCT	$.	_	24	U	24:U	_
+

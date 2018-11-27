@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 247010
+# text = The film was a box office hit , taking $ 104 million worldwide , and garnered generally favorable reviews .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	0	C	0:C|9:A|16:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	7	E	7:E	_
+5	box	box	NOUN	NN	_	7	E	7:E	_
+6	office	office	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	hit	hit	VERB	VBD	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	taking	take	VERB	VBG	_	3	H	3:H	_
+10	$	$	SYM	$	_	9	U	9:U	_
+11	104	104	NUM	CD	_	9	A	9:A	_
+12	million	million	NUM	CD	_	11	E	11:E	_
+13	worldwide	worldwide	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	garnered	garner	VERB	VBD	_	3	H	3:H	_
+17	generally	generally	ADV	RB	_	16	D	16:D	_
+18	favorable	favorable	ADJ	JJ	_	19	E	19:E	_
+19	reviews	review	NOUN	NNS	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

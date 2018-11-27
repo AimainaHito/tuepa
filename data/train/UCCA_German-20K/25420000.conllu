@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25420000
+# text = Bei meiner Ankunft zu New York erwiesen mir manche Männer die Ehre , mich über die fragliche Erscheinung um meine Ansicht zu ersuchen .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	meiner	mein	PRON	PPOSAT	_	3	E	3:E	_
+3	Ankunft	Ankunft	NOUN	NN	_	0	H	0:H	_
+4	zu	zu	ADP	NE	_	5	R	5:R	_
+5	New	New	PROPN	NE	_	3	A	3:A	_
+6	York	York	PROPN	NE	_	5	Terminal	5:Terminal	_
+7	erwiesen	erwiesen	VERB	VVPP	_	3	H	3:H	_
+8	mir	ich	PRON	PPER	_	7	A	7:A	_
+9	manche	manch	PRON	PIS	_	10	E	10:E	_
+10	Männer	Mann	NOUN	NN	_	7	A	7:A	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Ehre	Ehre	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	mich	ich	PRON	PRF	_	23	A	23:A	_
+15	über	über	ADP	VVFIN	_	18	R	18:R	_
+16	die	der	DET	ART	_	18	E	18:E	_
+17	fragliche	fragliche	ADJ	ADJA	_	18	E	18:E	_
+18	Erscheinung	Erscheinung	NOUN	NN	_	23	A	23:A	_
+19	um	um	ADP	APPR	_	21	R	21:R	_
+20	meine	mein	DET	PPOSAT	_	21	E	21:E	_
+21	Ansicht	Ansicht	NOUN	NN	_	23	A	23:A	_
+22	zu	zu	PART	NN	_	23	F	23:F	_
+23	ersuchen	ersuchen	VERB	ADJA	_	12	E	12:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

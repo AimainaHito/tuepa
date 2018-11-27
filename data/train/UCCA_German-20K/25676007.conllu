@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25676007
+# text = Ned und Conseil setzten sich auf einen Diwan , und zuerst sagte der Kanadier zu mir :
+1	Ned	Ned	NOUN	NE	_	4	A	4:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Conseil	Conseil	NOUN	NE	_	1	C	1:C	_
+4	setzten	setzen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	einen	ein	DET	ART	_	8	E	8:E	_
+8	Diwan	Diwan	NOUN	NE	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	und	und	CCONJ	NE	_	4	L	4:L	_
+11	zuerst	zuerst	ADV	NE	_	12	D	12:D	_
+12	sagte	sagen	VERB	VVFIN	_	4	H	4:H	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Kanadier	Kanadier	NOUN	NN	_	12	A	12:A	_
+15	zu	zu	ADP	NE	_	16	R	16:R	_
+16	mir	ich	PRON	PPER	_	12	A	12:A	_
+17	:	:	PUNCT	$.	_	16	U	16:U	_
+

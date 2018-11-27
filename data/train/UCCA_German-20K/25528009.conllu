@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25528009
+# text = » Pfui ! « sagte der Kanadier verächtlich , » Süßwasser fische !
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Pfui	Pfui	PROPN	NN	_	12	F	12:F	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kanadier	Kanadier	NOUN	NN	_	5	A	5:A	_
+8	verächtlich	verächtlich	ADJ	ADJD	_	5	D	5:D	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	»	»	PUNCT	$(	_	5	U	5:U	_
+11	Süßwasser	Süßwasser	NOUN	NN	_	12	E	12:E	_
+12	fische	fisch	ADJ	ADJA	_	5	A	5:A	_
+13	!	!	PUNCT	$.	_	12	U	12:U	_
+

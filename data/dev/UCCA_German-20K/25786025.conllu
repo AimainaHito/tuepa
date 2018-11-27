@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25786025
+# text = Doch nahm die ›Nautilus‹ , gegen meine Erwartung , eine entschiedene Rückwärts bewegung vor .
+1	Doch	doch	ADV	KON	_	2	L	2:L	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	gegen	gegen	ADP	APPR	_	8	R	8:R	_
+7	meine	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Erwartung	Erwartung	NOUN	NN	_	2	H	2:H	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	eine	ein	DET	ART	_	13	E	13:E	_
+11	entschiedene	entschiedend	ADJ	ADJA	_	13	E	13:E	_
+12	Rückwärts	Rückwärts	NOUN	NE	_	13	E	13:E	_
+13	bewegung	bewegung	NOUN	NN	_	2	A	2:A	_
+14	vor	vor	ADP	NE	_	2	Terminal	2:Terminal	_
+15	.	.	PUNCT	$.	_	2	U	2:U	_
+

@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 554009
+# text = Presley 's ancestry was primarily a Western European mix : on his mother 's side , he was Scots - Irish , with some French Norman ; one of Gladys ' great - great - grandmothers was Cherokee . b His father 's forebears were of Scottish and German origin .
+1	Presley	Presley	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	ancestry	ancestry	NOUN	NN	_	9	A	9:A	_
+4	was	be	AUX	VBD	_	9	F	9:F	_
+5	primarily	primarily	ADV	RB	_	9	D	9:D	_
+6	a	a	DET	DT	_	9	E	9:E	_
+7	Western	Western	ADJ	JJ	_	8	E	8:E	_
+8	European	european	ADJ	JJ	_	9	E	9:E	_
+9	mix	mix	NOUN	NN	_	0	H	0:H	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	on	on	ADP	IN	_	15	R	15:R	_
+12	his	he	PRON	PRP$	_	15	E	15:E	_
+13	mother	mother	NOUN	NN	_	15	E	15:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	side	side	NOUN	NN	_	19	A	19:A	_
+16	,	,	PUNCT	,	_	19	U	19:U	_
+17	he	he	PRON	PRP	_	19	A	19:A	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	Scots	Scots	PROPN	NNPS	_	9	H	9:H	_
+20	-	-	PUNCT	,	_	19	U	19:U	_
+21	Irish	irish	ADJ	JJ	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	with	with	SCONJ	IN	_	26	R	26:R	_
+24	some	some	DET	DT	_	26	E	26:E	_
+25	French	french	ADJ	JJ	_	26	E	26:E	_
+26	Norman	Norman	NOUN	NN	_	19	A	19:A	_
+27	;	;	PUNCT	,	_	9	U	9:U	_
+28	one	one	NUM	CD	_	37	A	37:A	_
+29	of	of	ADP	IN	_	36	R	36:R	_
+30	Gladys	Gladys	PROPN	NNPS	_	36	E	36:E	_
+31	'	's	PART	POS	_	36	U	36:U	_
+32	great	great	ADJ	JJ	_	36	E	36:E	_
+33	-	-	PUNCT	HYPH	_	36	U	36:U	_
+34	great	great	ADJ	JJ	_	36	E	36:E	_
+35	-	-	PUNCT	HYPH	_	36	U	36:U	_
+36	grandmothers	grandmother	NOUN	NNS	_	28	E	28:E	_
+37	was	be	AUX	VBD	_	9	H	9:H	_
+38	Cherokee	Cherokee	PROPN	NNP	_	37	A	37:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+40	b	benefit	VERB	VB	_	38	F	38:F	_
+41	His	he	PRON	PRP$	_	44	E	44:E	_
+42	father	father	NOUN	NN	_	44	E	44:E	_
+43	's	's	PART	POS	_	42	R	42:R	_
+44	forebears	forebear	NOUN	NNS	_	45	A	45:A	_
+45	were	be	AUX	VBD	_	9	H	9:H	_
+46	of	of	ADP	IN	_	50	R	50:R	_
+47	Scottish	scottish	PROPN	NNP	_	50	E	50:E	_
+48	and	and	CCONJ	CC	_	47	N	47:N	_
+49	German	german	ADJ	JJ	_	47	C	47:C	_
+50	origin	origin	NOUN	NN	_	45	A	45:A	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

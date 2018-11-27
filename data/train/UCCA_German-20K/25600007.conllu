@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25600007
+# text = Übrigens waren diese Leute wortkarg und bedienten sich untereinander der seltsamen Sprache , über deren Ursprung ich nicht einmal eine Vermutung haben konnte .
+1	Übrigens	übrigens	ADV	ADV	_	5	G	5:G	_
+2	waren	sein	AUX	VAFIN	_	5	F	5:F	_
+3	diese	dies	PRON	PDS	_	4	E	4:E	_
+4	Leute	Leute	NOUN	NN	_	0	C	0:C|7:A	_
+5	wortkarg	wortkergen	VERB	ADJD	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	bedienten	bedienen	VERB	VVFIN	_	5	H	5:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	untereinander	untereinander	ADV	ADV	_	7	A	7:A	_
+10	der	der	DET	ART	_	12	R	12:R	_
+11	seltsamen	seltsam	ADJ	ADJA	_	12	E	12:E	_
+12	Sprache	Sprache	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	über	über	ADP	VVFIN	_	16	R	16:R	_
+15	deren	der	DET	PDAT	_	16	R	16:R	_
+16	Ursprung	Ursprung	NOUN	NN	_	21	A	21:A	_
+17	ich	ich	PRON	PPER	_	21	A	21:A	_
+18	nicht	nicht	PART	XY	_	21	D	21:D	_
+19	einmal	einmal	ADV	ADV	_	18	Terminal	18:Terminal	_
+20	eine	ein	DET	ART	_	21	E	21:E	_
+21	Vermutung	Vermutung	NOUN	NN	_	12	E	12:E	_
+22	haben	haben	VERB	VAINF	_	21	F	21:F	_
+23	konnte	können	AUX	VMFIN	_	21	D	21:D	_
+24	.	.	PUNCT	$.	_	21	U	21:U	_
+

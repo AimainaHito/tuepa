@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25714011
+# text = Bald merkte ich an einigen schwankenden Bewegungen , dass die ›Nautilus‹ sich aus den niederen Schichten auf die Oberfläche der Gewässer hob .
+1	Bald	bald	ADV	ADV	_	2	D	2:D	_
+2	merkte	merken	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	an	an	ADP	APPR	_	7	R	7:R	_
+5	einigen	einige	PRON	PIAT	_	7	E	7:E	_
+6	schwankenden	schwankend	ADJ	ADJA	_	7	E	7:E	_
+7	Bewegungen	Bewegung	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	12	A	12:A	_
+12	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+13	aus	aus	ADP	APPR	_	16	R	16:R	_
+14	den	der	DET	ART	_	16	E	16:E	_
+15	niederen	nied	ADJ	ADJA	_	16	E	16:E	_
+16	Schichten	Schicht	NOUN	NN	_	12	A	12:A	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Oberfläche	Oberfläche	NOUN	NN	_	12	A	12:A	_
+20	der	der	DET	ART	_	21	R	21:R	_
+21	Gewässer	Gewässer	NOUN	NN	_	19	E	19:E	_
+22	hob	heben	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+23	.	.	PUNCT	$.	_	12	U	12:U	_
+

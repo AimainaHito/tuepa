@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25488125
+# text = » So lange , als es sich horizontal bewegt « , brummte Ned Land , » hab' ich nichts dagegen zu sagen . Aber wenn es ihm einfällt unterzutauchen , so gäb' ich keine 2 Dollar für mein Leben !
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	So	so	ADV	ADV	_	7	L	7:L	_
+3	lange	lange	ADJ	ADJA	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	7	U	7:U	_
+5	als	als	SCONJ	KOUS	_	7	L	7:L	_
+6	es	es	PRON	PPER	_	7	A	7:A	_
+7	sich	er|es|sie	PRON	PRF	_	12	A	12:A	_
+8	horizontal	horizontal	ADJ	ADJD	_	7	D	7:D	_
+9	bewegt	bewegen	VERB	VVFIN	_	7	Terminal	7:Terminal	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	brummte	brummen	VERB	ADJA	_	0	H	0:H	_
+13	Ned	Ned	PROPN	NN	_	12	A	12:A	_
+14	Land	Land	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	»	»	PUNCT	$(	_	12	U	12:U	_
+17	hab'	hab'	PUNCT	$(	_	22	D	22:D	_
+18	ich	ich	PRON	PPER	_	22	A	22:A	_
+19	nichts	nichts	PRON	NN	_	22	D	22:D	_
+20	dagegen	dagegen	ADV	PAV	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	sagen	sagen	VERB	VVINF	_	7	H	7:H	_
+23	.	.	PUNCT	$.	_	7	U	7:U	_
+24	Aber	aber	CCONJ	ADV	_	7	L	7:L	_
+25	wenn	wenn	SCONJ	VVFIN	_	7	L	7:L	_
+26	es	es	PRON	PPER	_	28	F	28:F	_
+27	ihm	er	PRON	PPER	_	28	A	28:A|29:A	_
+28	einfällt	einfällen	ADJ	VVFIN	_	7	H	7:H	_
+29	unterzutauchen	unterzutauchen	VERB	ADJA	_	28	A	28:A	_
+30	,	,	PUNCT	$,	_	7	U	7:U	_
+31	so	so	ADV	ADV	_	7	L	7:L	_
+32	gäb'	gäb'	PUNCT	$(	_	7	H	7:H	_
+33	ich	ich	PRON	PPER	_	32	A	32:A	_
+34	keine	kein	PRON	PIAT	_	32	D	32:D	_
+35	2	2	NUM	CARD	_	36	E	36:E	_
+36	Dollar	Dollar	NOUN	NN	_	32	A	32:A	_
+37	für	für	ADP	APPR	_	39	R	39:R	_
+38	mein	mein	PRON	PPOSAT	_	39	E	39:E	_
+39	Leben	Leben	NOUN	NN	_	32	A	32:A	_
+40	!	!	PUNCT	$.	_	39	U	39:U	_
+

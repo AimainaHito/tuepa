@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25488139
+# text = Zum Glück fand Ned mit der Hand einen auf dem Rücken der Platte eingelassenen Ring , woran wir uns fest anklammern konnten .
+1	Zum	Zum	ADP	NE	_	2	R	2:R	_
+2	Glück	Glück	NOUN	NE	_	3	G	3:G	_
+3	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+4	Ned	Ned	PROPN	NE	_	3	A	3:A	_
+5	mit	mit	ADP	APPR	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Hand	Hand	NOUN	NN	_	3	A	3:A	_
+8	einen	ein	DET	ART	_	15	E	15:E	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Rücken	Rücken	NOUN	NN	_	14	A	14:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Platte	Platte	NOUN	NN	_	11	E	11:E	_
+14	eingelassenen	eingelassenen	ADJ	ADJA	_	15	E	15:E	_
+15	Ring	Ring	NOUN	NN	_	3	A	3:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	woran	woran	ADV	PWAV	_	19	R	19:R	_
+18	wir	wir	PRON	NE	_	19	A	19:A	_
+19	uns	wir	PRON	NE	_	15	E	15:E	_
+20	fest	fest	ADV	PTKVZ	_	19	D	19:D	_
+21	anklammern	anklammern	VERB	VVINF	_	19	Terminal	19:Terminal	_
+22	konnten	können	AUX	VMFIN	_	19	D	19:D	_
+23	.	.	PUNCT	$.	_	19	U	19:U	_
+

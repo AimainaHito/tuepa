@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 704003
+# text = Released in 1978 , the movie received generally poor , sometimes scathing , reviews and had a very brief theatrical run .
+1	Released	release	VERB	VBN	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	1978	1978	NUM	CD	_	1	D	1:D	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	movie	movie	NOUN	NN	_	0	C	0:C|21:A|1:A	_
+7	received	receive	VERB	VBD	_	1	H	1:H	_
+8	generally	generally	ADV	RB	_	9	D	9:D	_
+9	poor	poor	ADJ	JJ	_	14	E	14:E	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	sometimes	sometimes	ADV	RB	_	12	D	12:D	_
+12	scathing	scathing	NOUN	NN	_	9	C	9:C	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	reviews	review	NOUN	NNS	_	7	A	7:A	_
+15	and	and	CCONJ	CC	_	1	L	1:L	_
+16	had	have	VERB	VBD	_	21	F	21:F	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	very	very	ADV	RB	_	19	E	19:E	_
+19	brief	brief	ADJ	JJ	_	21	D	21:D	_
+20	theatrical	theatrical	ADJ	JJ	_	21	A	21:A	_
+21	run	run	NOUN	NN	_	1	H	1:H	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

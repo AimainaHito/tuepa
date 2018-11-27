@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25744023
+# text = Zwanzigmal , das ist reine Wahrheit , setzte er sein Leben daran , bis dass er es in seinen Sack zu den Lebkuchen bekam .
+1	Zwanzigmal	Zwanzigmal	PROPN	ADV	_	8	A	8:A	_
+2	,	,	PUNCT	$,	_	8	U	8:U	_
+3	das	der	PRON	PDS	_	6	A	6:A	_
+4	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+5	reine	rein	ADJ	ADJA	_	6	E	6:E	_
+6	Wahrheit	Wahrheit	NOUN	NN	_	8	H	8:H	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	sein	sein	DET	PPOSAT	_	11	E	11:E	_
+11	Leben	Leben	NOUN	NN	_	8	A	8:A	_
+12	daran	daran	ADV	PAV	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	bis	bis	ADP	KOUS	_	8	L	8:L	_
+15	dass	dass	SCONJ	KOUS	_	14	Terminal	14:Terminal	_
+16	er	er	PRON	PPER	_	24	A	24:A	_
+17	es	es	PRON	PPER	_	24	A	24:A	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	seinen	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Sack	Sack	NOUN	NN	_	24	A	24:A	_
+21	zu	zu	ADP	NE	_	23	R	23:R	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Lebkuchen	Lebkuchen	NOUN	NE	_	24	A	24:A	_
+24	bekam	bekommen	VERB	VVFIN	_	8	H	8:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

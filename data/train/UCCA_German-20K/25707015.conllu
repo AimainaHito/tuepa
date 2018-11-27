@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25707015
+# text = Ich hatte mich an die Luke zur linken Seite gesetzt , wo ich prächtige Korallen gerüste sah , Zoophyten , Algen und Schaltiere , die mit ihren ungeheuren Tatzen , die sie aus den Spalten der Felsen herausstreckten , hin und her langten .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	hatte	haben	AUX	VAFIN	_	3	F	3:F	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Luke	Luke	NOUN	NN	_	3	A	3:A	_
+7	zur	zur	ADV	NE	_	9	R	9:R	_
+8	linken	link	ADJ	ADJA	_	9	E	9:E	_
+9	Seite	Seite	NOUN	NN	_	6	E	6:E	_
+10	gesetzt	setzen	VERB	VVPP	_	3	Terminal	3:Terminal	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	wo	wo	ADV	ADJA	_	17	R	17:R	_
+13	ich	ich	PRON	PPER	_	17	A	17:A	_
+14	prächtige	prächtig	ADJ	ADJA	_	16	E	16:E	_
+15	Korallen	Koralle	NOUN	NN	_	16	E	16:E	_
+16	gerüste	gerü	ADJ	ADJA	_	17	A	17:A	_
+17	sah	sehen	VERB	VVFIN	_	6	E	6:E	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	Zoophyten	Zoophyten	NOUN	NN	_	16	C	16:C	_
+20	,	,	PUNCT	$,	_	16	U	16:U	_
+21	Algen	Alge	NOUN	NN	_	16	C	16:C	_
+22	und	und	CCONJ	NE	_	16	N	16:N	_
+23	Schaltiere	Schaltier	NOUN	NN	_	16	C	16:C|43:A	_
+24	,	,	PUNCT	$,	_	43	U	43:U	_
+25	die	der	PRON	PRELS	_	43	R	43:R	_
+26	mit	mit	ADP	APPR	_	29	R	29:R	_
+27	ihren	ihr	DET	PPOSAT	_	29	E	29:E	_
+28	ungeheuren	ungeheur	ADJ	NN	_	29	E	29:E	_
+29	Tatzen	Tatze	NOUN	VVINF	_	43	A	43:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	die	der	PRON	PRELS	_	38	R	38:R	_
+32	sie	sie	PRON	TRUNC	_	38	A	38:A	_
+33	aus	aus	ADP	APPR	_	35	R	35:R	_
+34	den	der	DET	ART	_	35	E	35:E	_
+35	Spalten	Spalte|Spalten	NOUN	NN	_	38	A	38:A	_
+36	der	der	DET	ART	_	37	R	37:R	_
+37	Felsen	Felsen	NOUN	NN	_	35	E	35:E	_
+38	herausstreckten	herausstrecken	VERB	VVFIN	_	29	E	29:E	_
+39	,	,	PUNCT	$,	_	43	U	43:U	_
+40	hin	hin	ADV	ADV	_	43	A	43:A	_
+41	und	und	CCONJ	NE	_	40	N	40:N	_
+42	her	her	PART	ADV	_	40	C	40:C	_
+43	langten	langt	VERB	VVFIN	_	16	E	16:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

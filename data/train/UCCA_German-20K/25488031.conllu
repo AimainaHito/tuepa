@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25488031
+# text = « » Vielleicht « , erwiderte ruhig Conseil . » Doch wir haben noch einige Stunden vor uns , und in einigen Stunden kann man viel zustande bringen !
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Vielleicht	vielleicht	NOUN	NN	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	ruhig	ruhig	ADJ	ADJD	_	6	D	6:D	_
+8	Conseil	Conseil	NOUN	NE	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	Doch	doch	CCONJ	NN	_	3	L	3:L	_
+12	wir	wir	PRON	NE	_	13	A	13:A	_
+13	haben	haben	VERB	VAFIN	_	3	H	3:H	_
+14	noch	noch	ADV	CARD	_	16	E	16:E	_
+15	einige	einige	PRON	PIAT	_	16	E	16:E	_
+16	Stunden	Stunde|Stunden	NOUN	NN	_	13	A	13:A	_
+17	vor	vor	ADP	NE	_	18	R	18:R	_
+18	uns	wir	PRON	NE	_	13	A	13:A	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	und	und	CCONJ	NE	_	3	L	3:L	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	einigen	einige	PRON	PIAT	_	23	E	23:E	_
+23	Stunden	Stunde|Stunden	NOUN	NN	_	27	D	27:D	_
+24	kann	können	AUX	VMFIN	_	27	F	27:F	_
+25	man	man	PRON	PIS	_	27	A	27:A	_
+26	viel	viel	PRON	ADJD	_	27	D	27:D	_
+27	zustande	zustande	ADV	PTKVZ	_	3	H	3:H	_
+28	bringen	bringen	VERB	VVINF	_	27	Terminal	27:Terminal	_
+29	!	!	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 245004
+# text = Hawke 's next film , 1991 's White Fang , brought his first leading role .
+1	Hawke	Hawke	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	next	next	ADJ	JJ	_	4	E	4:E	_
+4	film	film	NOUN	NN	_	8	E	8:E	_
+5	,	,	PUNCT	,	_	8	U	8:U	_
+6	1991	1991	NUM	CD	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	White	White	PROPN	NNP	_	11	A	11:A	_
+9	Fang	Fang	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	brought	bring	VERB	VBD	_	0	H	0:H	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	first	first	ADJ	JJ	_	15	E	15:E	_
+14	leading	lead	NOUN	NN	_	15	E	15:E	_
+15	role	role	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

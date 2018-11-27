@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 379007
+# text = The film went on to win four Golden Globe Awards , four British Academy of Film and Television Arts ( BAFTA ) Awards , and three Academy Awards .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	6	A	6:A	_
+3	went	go	VERB	VBD	_	6	E	6:E	_
+4	on	on	ADV	RB	_	3	R	3:R	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	win	win	VERB	VB	_	0	H	0:H	_
+7	four	four	NUM	CD	_	8	E	8:E	_
+8	Golden	golden	NOUN	NN	_	6	A	6:A	_
+9	Globe	Globe	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Awards	awards	PROPN	NNP	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	four	four	NUM	CD	_	23	E	23:E	_
+13	British	british	PROPN	NNP	_	23	E	23:E	_
+14	Academy	Academy	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+16	Film	film	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	and	and	CCONJ	CC	_	13	Terminal	13:Terminal	_
+18	Television	television	PROPN	NNP	_	13	Terminal	13:Terminal	_
+19	Arts	Arts	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+20	(	(	PUNCT	-LRB-	_	13	U	13:U	_
+21	BAFTA	BAFTA	PROPN	NNP	_	13	E	13:E	_
+22	)	)	PUNCT	-RRB-	_	23	U	23:U	_
+23	Awards	Award	NOUN	NNS	_	8	C	8:C	_
+24	,	,	PUNCT	,	_	8	U	8:U	_
+25	and	and	CCONJ	CC	_	8	N	8:N	_
+26	three	three	NUM	CD	_	28	E	28:E	_
+27	Academy	Academy	ADJ	JJ	_	28	E	28:E	_
+28	Awards	award	NOUN	NNS	_	8	C	8:C	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

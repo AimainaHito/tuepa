@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25794012
+# text = Eine moralische Erstarrung befiel mich ; ich lag da ohne Kraft , fast ohne Besinnung .
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	moralische	moralisch	ADJ	ADJA	_	3	E	3:E	_
+3	Erstarrung	Erstarrung	NOUN	NN	_	4	A	4:A	_
+4	befiel	befallen	VERB	ADJD	_	0	H	0:H	_
+5	mich	ich	PRON	PRF	_	4	A	4:A	_
+6	;	;	PUNCT	$.	_	4	U	4:U	_
+7	ich	ich	PRON	PPER	_	8	A	8:A|15:A	_
+8	lag	liegen	VERB	VVFIN	_	4	H	4:H	_
+9	da	da	ADV	ADV	_	8	A	8:A	_
+10	ohne	ohne	ADP	CARD	_	8	D	8:D	_
+11	Kraft	Kraft	NOUN	NN	_	8	A	8:A	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	fast	fast	ADV	ADV	_	15	D	15:D	_
+14	ohne	ohne	ADP	CARD	_	15	D	15:D	_
+15	Besinnung	Besinnung	NOUN	NN	_	4	H	4:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

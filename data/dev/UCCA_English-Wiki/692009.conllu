@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 692009
+# text = His most famous song at this time , " Blowin ' in the Wind " , partially derived its melody from the traditional slave song " No More Auction Block " , while its lyrics questioned the social and political status quo .
+1	His	he	PRON	PRP$	_	3	A	3:A	_
+2	most	most	ADJ	JJS	_	3	D	3:D	_
+3	famous	famous	ADJ	JJ	_	10	E	10:E	_
+4	song	song	NOUN	NN	_	3	A	3:A	_
+5	at	at	ADP	IN	_	7	R	7:R	_
+6	this	this	DET	DT	_	7	E	7:E	_
+7	time	time	NOUN	NN	_	3	D	3:D	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	"	"	PUNCT	``	_	10	U	10:U	_
+10	Blowin	Blowin	PROPN	NNP	_	18	A	18:A	_
+11	'	'	PUNCT	''	_	10	U	10:U	_
+12	in	in	ADP	IN	_	10	Terminal	10:Terminal	_
+13	the	the	DET	DT	_	10	Terminal	10:Terminal	_
+14	Wind	wind	PROPN	NNP	_	10	Terminal	10:Terminal	_
+15	"	"	PUNCT	''	_	18	U	18:U	_
+16	,	,	PUNCT	,	_	18	U	18:U	_
+17	partially	partially	ADV	RB	_	18	D	18:D	_
+18	derived	derive	VERB	VBD	_	0	H	0:H	_
+19	its	its	PRON	PRP$	_	20	E	20:E	_
+20	melody	melody	NOUN	NN	_	18	A	18:A	_
+21	from	from	ADP	IN	_	25	R	25:R	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	traditional	traditional	ADJ	JJ	_	25	E	25:E	_
+24	slave	slave	NOUN	NN	_	25	E	25:E	_
+25	song	song	NOUN	NN	_	18	A	18:A	_
+26	"	"	PUNCT	''	_	25	U	25:U	_
+27	No	no	DET	DT	_	25	E	25:E	_
+28	More	more	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	Auction	auction	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	Block	block	PROPN	NNP	_	27	Terminal	27:Terminal	_
+31	"	"	PUNCT	''	_	18	U	18:U	_
+32	,	,	PUNCT	,	_	18	U	18:U	_
+33	while	while	SCONJ	IN	_	18	L	18:L	_
+34	its	its	PRON	PRP$	_	35	E	35:E	_
+35	lyrics	lyric	NOUN	NNS	_	36	A	36:A	_
+36	questioned	question	VERB	VBD	_	18	H	18:H	_
+37	the	the	DET	DT	_	38	E	38:E	_
+38	social	social	ADJ	JJ	_	41	E	41:E	_
+39	and	and	CCONJ	CC	_	38	N	38:N	_
+40	political	political	ADJ	JJ	_	38	C	38:C	_
+41	status	status	NOUN	NN	_	36	A	36:A	_
+42	quo	quo	NOUN	NN	_	41	Terminal	41:Terminal	_
+43	.	.	PUNCT	.	_	41	U	41:U	_
+

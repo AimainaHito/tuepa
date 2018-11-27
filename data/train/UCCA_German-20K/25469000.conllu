@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25469000
+# text = Mit vollem Dampf Auf diesen Ruf stürzte die gesamte Mannschaft , Kommandant , Offiziere , Matrosen und Schiffsjungen , hin zum Harpunier , selbst die Ingenieure verließen ihre Maschine , die Heizer ihr Feuer .
+1	Mit	mit	ADP	APPR	_	3	R	3:R	_
+2	vollem	voll	ADJ	ADJA	_	3	E	3:E	_
+3	Dampf	Dampf	NOUN	NN	_	0	H	0:H	_
+4	Auf	auf	ADP	APPR	_	6	R	6:R	_
+5	diesen	dies	PRON	PDAT	_	6	E	6:E	_
+6	Ruf	Ruf	NOUN	NN	_	7	A	7:A	_
+7	stürzte	stürzen	VERB	VVFIN	_	3	H	3:H	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	gesamte	gesamt	ADJ	ADJA	_	10	E	10:E	_
+10	Mannschaft	Mannschaft	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	Kommandant	Kommandant	NOUN	NN	_	10	C	10:C	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	Offiziere	Offizier	NOUN	NN	_	10	C	10:C	_
+15	,	,	PUNCT	$,	_	10	U	10:U	_
+16	Matrosen	Matrose	NOUN	NE	_	10	C	10:C	_
+17	und	und	CCONJ	NE	_	10	N	10:N	_
+18	Schiffsjungen	Schiffsjung	NOUN	NE	_	10	C	10:C	_
+19	,	,	PUNCT	$,	_	7	U	7:U	_
+20	hin	hin	ADV	ADV	_	7	Terminal	7:Terminal	_
+21	zum	zum	ADP	NN	_	22	R	22:R	_
+22	Harpunier	Harpunier	NOUN	NE	_	7	A	7:A	_
+23	,	,	PUNCT	$,	_	3	U	3:U	_
+24	selbst	selbst	ADV	VVFIN	_	3	L	3:L	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Ingenieure	Ingenieur	NOUN	NN	_	27	A	27:A	_
+27	verließen	verlassen	VERB	VVFIN	_	3	H	3:H	_
+28	ihre	ihr	DET	PPOSAT	_	29	E	29:E	_
+29	Maschine	Maschine	NOUN	NN	_	27	A	27:A	_
+30	,	,	PUNCT	$,	_	3	U	3:U	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Heizer	Heizer	NOUN	NN	_	3	H	3:H	_
+33	ihr	ihr	DET	PPOSAT	_	34	E	34:E	_
+34	Feuer	Feuer	NOUN	NN	_	32	A	32:A	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25704006
+# text = » Nein « , sagte ich , » das Tier ist verwundet , hier sieht man Blut , aber Ihre Waffe ist nicht steckengeblieben . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PART	PTKANT	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Tier	Tier	NOUN	NN	_	12	A	12:A	_
+11	ist	sein	AUX	NN	_	12	F	12:F	_
+12	verwundet	verwunden	ADJ	VVPP	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	hier	hier	ADV	ADV	_	15	A	15:A	_
+15	sieht	sehen	VERB	VVFIN	_	2	H	2:H	_
+16	man	man	PRON	PIS	_	15	A	15:A	_
+17	Blut	Blut	NOUN	NN	_	15	A	15:A	_
+18	,	,	PUNCT	$,	_	2	U	2:U	_
+19	aber	aber	CCONJ	KON	_	2	L	2:L	_
+20	Ihre	Ihr|ihr	DET	PPOSAT	_	21	E	21:E	_
+21	Waffe	Waffe	NOUN	NN	_	24	A	24:A	_
+22	ist	sein	AUX	NN	_	24	F	24:F	_
+23	nicht	nicht	PART	CARD	_	24	D	24:D	_
+24	steckengeblieben	steckengeblieben	VERB	VVINF	_	2	H	2:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

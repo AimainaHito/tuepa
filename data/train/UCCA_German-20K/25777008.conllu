@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25777008
+# text = Ein schmaler Anberg führte uns auf den Gipfel der Fels wand .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	schmaler	schmal	ADJ	ADJA	_	3	E	3:E	_
+3	Anberg	Anberg	NOUN	NN	_	4	A	4:A	_
+4	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+5	uns	wir	PRON	NE	_	4	A	4:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Gipfel	Gipfel	NOUN	NN	_	4	A	4:A	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	Fels	Fels	NOUN	NN	_	11	E	11:E	_
+11	wand	winden	VERB	VVFIN	_	8	E	8:E	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

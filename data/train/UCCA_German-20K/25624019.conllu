@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25624019
+# text = Nach einigen Minuten waren die übers Feuer gesetzten Früchte völlig mit Kohle umgeben .
+1	Nach	nach	ADP	APPR	_	3	E	3:E	_
+2	einigen	einige	PRON	PIAT	_	3	E	3:E	_
+3	Minuten	Minute	NOUN	NN	_	13	D	13:D	_
+4	waren	sein	AUX	VAFIN	_	13	F	13:F	_
+5	die	der	DET	ART	_	9	E	9:E	_
+6	übers	übers	ADJ	NN	_	7	R	7:R	_
+7	Feuer	Feuer	NOUN	ADJA	_	8	A	8:A	_
+8	gesetzten	gesetzten	ADJ	ADJA	_	9	E	9:E	_
+9	Früchte	Frucht	NOUN	NN	_	13	A	13:A	_
+10	völlig	völlig	ADJ	ADJD	_	13	D	13:D	_
+11	mit	mit	ADP	APPR	_	12	R	12:R	_
+12	Kohle	Kohle	NOUN	NN	_	13	A	13:A	_
+13	umgeben	umgeben	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

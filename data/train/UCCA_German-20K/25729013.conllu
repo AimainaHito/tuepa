@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25729013
+# text = » Nun , mein Herr « , sagte er zu mir .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Nun	nun	ADV	ADV	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	zu	zu	ADP	VVINF	_	11	R	11:R	_
+11	mir	ich	PRON	PPER	_	8	A	8:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

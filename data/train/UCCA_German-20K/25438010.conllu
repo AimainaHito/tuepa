@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25438010
+# text = Dadurch bekam er eine mittlere Geschwindigkeit von 18,3 Meilen die Stunde ; doch war diese beträchtliche Schnelligkeit nicht ausreichend für einen Kampf mit dem Riesen tier .
+1	Dadurch	dadurch	ADV	PAV	_	2	A	2:A	_
+2	bekam	bekommen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	mittlere	mittler	ADJ	ADJA	_	6	E	6:E	_
+6	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	2	A	2:A	_
+7	von	von	ADP	NN	_	8	R	8:R	_
+8	18,3	18,3	NUM	CARD	_	6	E	6:E	_
+9	Meilen	Meile	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	8	Terminal	8:Terminal	_
+11	Stunde	Stunde	NOUN	NN	_	8	Terminal	8:Terminal	_
+12	;	;	PUNCT	$.	_	2	U	2:U	_
+13	doch	doch	ADV	ADV	_	2	L	2:L	_
+14	war	sein	AUX	ADV	_	19	F	19:F	_
+15	diese	dies	PRON	PDAT	_	17	E	17:E	_
+16	beträchtliche	beträchtlich	ADJ	ADJA	_	17	E	17:E	_
+17	Schnelligkeit	Schnelligkeit	NOUN	NN	_	19	A	19:A	_
+18	nicht	nicht	PART	CARD	_	19	D	19:D	_
+19	ausreichend	ausreichend	ADJ	ADJD	_	2	H	2:H	_
+20	für	für	ADP	APPR	_	22	R	22:R	_
+21	einen	ein	DET	ART	_	22	E	22:E	_
+22	Kampf	Kampf	NOUN	NN	_	19	A	19:A	_
+23	mit	mit	ADP	APPR	_	26	R	26:R	_
+24	dem	der	DET	ART	_	26	E	26:E	_
+25	Riesen	Riese	NOUN	NN	_	26	E	26:E	_
+26	tier	tier	ADJ	NN	_	22	E	22:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

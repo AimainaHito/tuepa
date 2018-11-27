@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25588007
+# text = Kapitän Nemo führte mich zum Hinterteil der " Nautilus " , und im Vorübergehen vor Neds und Conseils Kabine rief ich meine beiden Gefährten ab , und sie schlossen sich sogleich an .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	A	3:A	_
+5	zum	zum	ADP	NN	_	6	R	6:R	_
+6	Hinterteil	Hinterteil	NOUN	NN	_	3	A	3:A	_
+7	der	der	DET	ART	_	9	R	9:R	_
+8	"	"	PUNCT	$(	_	9	U	9:U	_
+9	Nautilus	Nautilus	PROPN	NN	_	6	E	6:E	_
+10	"	"	PUNCT	$(	_	3	U	3:U	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	und	und	CCONJ	NE	_	3	L	3:L	_
+13	im	im	ADJ	NE	_	14	R	14:R	_
+14	Vorübergehen	Vorübergehen	NOUN	NE	_	20	A	20:A	_
+15	vor	vor	ADP	NE	_	16	R	16:R	_
+16	Neds	Neds	PROPN	NE	_	14	A	14:A	_
+17	und	und	CCONJ	NE	_	16	N	16:N	_
+18	Conseils	Conseils	PROPN	NE	_	19	E	19:E	_
+19	Kabine	Kabine	PROPN	NE	_	16	C	16:C	_
+20	rief	rufen	VERB	VVFIN	_	3	H	3:H	_
+21	ich	ich	PRON	PPER	_	20	A	20:A	_
+22	meine	mein	DET	PPOSAT	_	24	E	24:E	_
+23	beiden	beide	PRON	PIAT	_	24	E	24:E	_
+24	Gefährten	Gefährt|Gefährte	NOUN	NE	_	20	A	20:A	_
+25	ab	ab	ADP	PTKVZ	_	20	Terminal	20:Terminal	_
+26	,	,	PUNCT	$,	_	3	U	3:U	_
+27	und	und	CCONJ	NE	_	3	L	3:L	_
+28	sie	sie	PRON	ADV	_	29	A	29:A	_
+29	schlossen	schließen	VERB	VVFIN	_	3	H	3:H	_
+30	sich	er|es|sie	PRON	PRF	_	29	Terminal	29:Terminal	_
+31	sogleich	sogleich	ADJ	NN	_	29	D	29:D	_
+32	an	an	ADP	PTKVZ	_	29	Terminal	29:Terminal	_
+33	.	.	PUNCT	$.	_	29	U	29:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25527001
+# text = Auf jeder Seite blickte ich durchs offene Fenster in die unerforschten Abgründe .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	jeder	jed	PRON	PIAT	_	3	E	3:E	_
+3	Seite	Seite	NOUN	NN	_	4	A	4:A	_
+4	blickte	blicken	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	durchs	durchs	NUM	NE	_	8	R	8:R	_
+7	offene	offen	ADJ	ADJA	_	8	E	8:E	_
+8	Fenster	Fenster	NOUN	NN	_	4	A	4:A	_
+9	in	in	ADP	APPR	_	12	R	12:R	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	unerforschten	unerforscht	ADJ	ADJA	_	12	E	12:E	_
+12	Abgründe	Abgrund	NOUN	NN	_	4	A	4:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

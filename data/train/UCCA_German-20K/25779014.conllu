@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25779014
+# text = Zu unseren Füßen blendende Schnee felder ; über unserem Haupt blasses Blau , frei von Nebel .
+1	Zu	zu	ADP	VVINF	_	3	R	3:R	_
+2	unseren	unser	PRON	PPOSAT	_	3	E	3:E	_
+3	Füßen	Fuß	NOUN	NN	_	4	A	4:A	_
+4	blendende	blendend	ADJ	ADJA	_	0	H	0:H	_
+5	Schnee	Schnee	NOUN	NN	_	6	E	6:E	_
+6	felder	felder	PROPN	ADJA	_	4	A	4:A	_
+7	;	;	PUNCT	$.	_	4	U	4:U	_
+8	über	über	ADP	VVFIN	_	10	R	10:R	_
+9	unserem	unser	DET	PPOSAT	_	10	E	10:E	_
+10	Haupt	Haupt	NOUN	NN	_	4	H	4:H	_
+11	blasses	blaß	PROPN	NN	_	12	E	12:E	_
+12	Blau	Blau	PROPN	NN	_	0	C	0:C|14:A	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	frei	frei	ADJ	ADJD	_	4	H	4:H	_
+15	von	von	ADP	NN	_	16	R	16:R	_
+16	Nebel	Nebel	NOUN	NN	_	14	A	14:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

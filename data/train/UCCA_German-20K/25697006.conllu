@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25697006
+# text = » Also , Kapitän Nemo , Sie befahren nicht zum ersten Mal an Bord der ›Nautilus‹ das Rote Meer ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Also	also	PROPN	ADV	_	8	L	8:L	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+8	befahren	befahren	VERB	VVINF	_	0	H	0:H	_
+9	nicht	nicht	PART	XY	_	8	D	8:D	_
+10	zum	zum	ADV	NN	_	12	R	12:R	_
+11	ersten	erst	ADJ	ADJA	_	12	E	12:E	_
+12	Mal	Mal	NOUN	NN	_	8	A	8:A	_
+13	an	an	ADP	APPR	_	14	R	14:R	_
+14	Bord	Bord	NOUN	NN	_	8	A	8:A	_
+15	der	der	DET	ART	_	16	R	16:R	_
+16	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	E	14:E	_
+17	das	der	DET	ART	_	18	R	18:R	_
+18	Rote	rot	PROPN	NE	_	8	A	8:A	_
+19	Meer	Meer	PROPN	NN	_	18	E	18:E	_
+20	?	?	PUNCT	$.	_	18	U	18:U	_
+21	«	«	PUNCT	$(	_	18	U	18:U	_
+

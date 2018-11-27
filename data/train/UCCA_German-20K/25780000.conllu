@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25780000
+# text = Als Kapitän Nemo auf dem Gipfel der Anhöhe ankam , nahm er vermittels des Barometers sorgfältig die Höhe auf .
+1	Als	als	ADP	KOKOM	_	9	L	9:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	Gipfel	Gipfel	NOUN	NN	_	9	A	9:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Anhöhe	Anhöhe	NOUN	NN	_	6	E	6:E	_
+9	ankam	ankommen	VERB	VVFIN	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	nahm	nehmen	VERB	VVFIN	_	9	H	9:H	_
+12	er	er	PRON	PPER	_	11	A	11:A	_
+13	vermittels	vermittels	ADP	NE	_	15	R	15:R	_
+14	des	der	DET	ART	_	15	E	15:E	_
+15	Barometers	Barometer	NOUN	NE	_	11	A	11:A	_
+16	sorgfältig	sorgfältig	ADV	ADJD	_	11	D	11:D	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Höhe	Höhe	NOUN	NN	_	11	A	11:A	_
+19	auf	auf	ADP	PTKVZ	_	11	Terminal	11:Terminal	_
+20	.	.	PUNCT	$.	_	11	U	11:U	_
+

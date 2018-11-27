@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25777002
+# text = Manche waren 4 Meter lang .
+1	Manche	manch	PRON	PIS	_	5	A	5:A	_
+2	waren	sein	AUX	VAFIN	_	5	F	5:F	_
+3	4	4	NUM	CARD	_	4	E	4:E	_
+4	Meter	Meter	NOUN	NN	_	5	A	5:A	_
+5	lang	lang	ADJ	ADJD	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

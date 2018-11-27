@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 144003
+# text = The majority of Hepburn 's roles from this point were in television movies , which did not receive the critical praise of her earlier work in the medium but remained popular with audiences .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	majority	majority	NOUN	NN	_	13	A	13:A	_
+3	of	of	ADP	IN	_	6	R	6:R	_
+4	Hepburn	Hepburn	PROPN	NNP	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	roles	role	NOUN	NNS	_	2	E	2:E	_
+7	from	from	ADP	IN	_	13	D	13:D	_
+8	this	this	DET	DT	_	7	Terminal	7:Terminal	_
+9	point	point	NOUN	NN	_	7	Terminal	7:Terminal	_
+10	were	be	AUX	VBD	_	13	F	13:F	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	television	television	NOUN	NN	_	13	E	13:E	_
+13	movies	movie	NOUN	NNS	_	0	H	0:H	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	which	which	PRON	WDT	_	18	F	18:F	_
+16	did	do	AUX	VBD	_	18	F	18:F	_
+17	not	not	PART	RB	_	18	D	18:D	_
+18	receive	receive	VERB	VB	_	13	E	13:E	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	critical	critical	ADJ	JJ	_	21	E	21:E	_
+21	praise	praise	NOUN	NN	_	18	A	18:A	_
+22	of	of	ADP	IN	_	25	R	25:R	_
+23	her	she	PRON	PRP$	_	25	A	25:A	_
+24	earlier	earlier	ADJ	JJ	_	25	D	25:D	_
+25	work	work	NOUN	NN	_	21	E	21:E	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	medium	medium	NOUN	NN	_	25	A	25:A	_
+29	but	but	CCONJ	CC	_	18	L	18:L	_
+30	remained	remain	VERB	VBD	_	31	D	31:D	_
+31	popular	popular	ADJ	JJ	_	18	H	18:H	_
+32	with	with	ADP	IN	_	33	R	33:R	_
+33	audiences	audience	NOUN	NNS	_	31	A	31:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

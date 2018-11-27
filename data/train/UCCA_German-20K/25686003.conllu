@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25686003
+# text = Die Boden erhebung zog sich merklich der Meeres oberfläche zu , und bald war mein Kopf nur noch einen Meter von ihr entfernt .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Boden	Boden	NOUN	NN	_	3	E	3:E	_
+3	erhebung	Erhebung	NOUN	NN	_	4	A	4:A	_
+4	zog	ziehen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	merklich	merklich	ADJ	ADV	_	4	D	4:D	_
+7	der	der	DET	ART	_	9	R	9:R	_
+8	Meeres	Meer	NOUN	NN	_	9	E	9:E	_
+9	oberfläche	oberfläch	ADJ	VVFIN	_	4	A	4:A	_
+10	zu	zu	ADP	NE	_	4	Terminal	4:Terminal	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	und	und	CCONJ	NE	_	4	L	4:L	_
+13	bald	bald	ADV	ADV	_	23	D	23:D	_
+14	war	sein	AUX	ADV	_	23	F	23:F	_
+15	mein	mein	PRON	PPOSAT	_	16	E	16:E	_
+16	Kopf	Kopf	NOUN	NN	_	23	A	23:A	_
+17	nur	nur	ADV	NE	_	23	D	23:D	_
+18	noch	noch	ADV	CARD	_	23	D	23:D	_
+19	einen	ein	DET	ART	_	20	E	20:E	_
+20	Meter	Meter	NOUN	NN	_	23	A	23:A	_
+21	von	von	ADP	NN	_	22	R	22:R	_
+22	ihr	ihr	PRON	PPOSAT	_	23	A	23:A	_
+23	entfernt	entfernen	VERB	ADJD	_	4	H	4:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

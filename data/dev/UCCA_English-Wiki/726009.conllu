@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 726009
+# text = An adaptation of the popular Tomb Raider videogame , Jolie was required to learn an English accent and undergo extensive martial arts training to play the title role of Lara Croft .
+1	An	a	DET	DT	_	2	E	2:E	_
+2	adaptation	adaptation	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	8	R	8:R	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	popular	popular	ADJ	JJ	_	8	E	8:E	_
+6	Tomb	Tomb	PROPN	NNP	_	8	E	8:E	_
+7	Raider	Raider	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	videogame	videogame	NOUN	NN	_	2	E	2:E	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	Jolie	Jolie	PROPN	NNP	_	14	A	14:A|25:A|19:A	_
+11	was	be	AUX	VBD	_	14	F	14:F	_
+12	required	require	VERB	VBN	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	learn	learn	VERB	VB	_	2	H	2:H	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	English	english	ADJ	JJ	_	17	E	17:E	_
+17	accent	accent	NOUN	NN	_	14	A	14:A	_
+18	and	and	CCONJ	CC	_	2	L	2:L	_
+19	undergo	undergo	X	FW	_	2	H	2:H	_
+20	extensive	extensive	ADJ	JJ	_	23	E	23:E	_
+21	martial	martial	ADJ	JJ	_	22	E	22:E	_
+22	arts	art	NOUN	NNS	_	23	E	23:E	_
+23	training	train	VERB	VBG	_	19	A	19:A	_
+24	to	to	PART	TO	_	2	L	2:L	_
+25	play	play	VERB	VB	_	2	H	2:H	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	title	title	NOUN	NN	_	28	E	28:E	_
+28	role	role	NOUN	NN	_	25	A	25:A	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	Lara	lara	PROPN	NNP	_	28	E	28:E	_
+31	Croft	Croft	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

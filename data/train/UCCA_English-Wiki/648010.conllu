@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 648010
+# text = ) Harrison incensed Lennon in 1980 , when he published an autobiography that made little mention of him .
+1	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+2	Harrison	Harrison	PROPN	NNP	_	3	A	3:A	_
+3	incensed	incense	VERB	VBD	_	0	H	0:H	_
+4	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1980	1980	NUM	CD	_	3	D	3:D	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	when	when	ADV	WRB	_	3	L	3:L	_
+9	he	he	PRON	PRP	_	10	A	10:A	_
+10	published	publish	VERB	VBD	_	3	H	3:H	_
+11	an	a	DET	DT	_	12	E	12:E	_
+12	autobiography	autobiography	NOUN	NN	_	10	A	10:A	_
+13	that	that	PRON	WDT	_	16	R	16:R	_
+14	made	make	VERB	VBD	_	16	F	16:F	_
+15	little	little	ADJ	JJ	_	16	D	16:D	_
+16	mention	mention	NOUN	NN	_	12	E	12:E	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	him	he	PRON	PRP	_	16	A	16:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

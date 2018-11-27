@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 470000
+# text = In Johnson 's fifth season , he averaged a double - double of 17.6 points and 13.1 assists , as well as 7.3 rebounds per game .
+1	In	in	ADP	IN	_	5	L	5:L	_
+2	Johnson	Johnson	PROPN	NNP	_	5	A	5:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	fifth	fifth	ADJ	JJ	_	5	D	5:D	_
+5	season	season	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	averaged	average	VERB	VBD	_	5	H	5:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	double	double	ADJ	JJ	_	8	A	8:A	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	double	double	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	17.6	17.6	NUM	CD	_	15	E	15:E	_
+15	points	point	NOUN	NNS	_	10	E	10:E	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	13.1	13.1	NUM	CD	_	18	E	18:E	_
+18	assists	assist	NOUN	NNS	_	15	C	15:C	_
+19	,	,	PUNCT	,	_	10	U	10:U	_
+20	as	as	ADV	RB	_	10	N	10:N	_
+21	well	well	ADV	RB	_	20	Terminal	20:Terminal	_
+22	as	as	ADP	IN	_	20	Terminal	20:Terminal	_
+23	7.3	7.3	NUM	CD	_	24	E	24:E	_
+24	rebounds	rebound	NOUN	NNS	_	10	C	10:C	_
+25	per	per	ADP	IN	_	26	R	26:R	_
+26	game	game	NOUN	NN	_	24	E	24:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

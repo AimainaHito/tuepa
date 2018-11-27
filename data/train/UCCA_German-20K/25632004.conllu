@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25632004
+# text = Wir richteten , ohne auf zu stehen , unsere Blicke nach dem Walde hin ; meine Hand hielt inne mit der Bewegung nach dem Mund , die Ned Land s fuhr fort , ihre Verrichtung zu üben .
+1	Wir	wir	PRON	NE	_	2	A	2:A|5:A	_
+2	richteten	richten	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	ohne	ohne	ADP	CARD	_	2	L	2:L	_
+5	auf	auf	ADP	APPR	_	2	H	2:H	_
+6	zu	zu	PART	NE	_	5	F	5:F	_
+7	stehen	stehen	VERB	VVINF	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	unsere	unser	PRON	PPOSAT	_	10	E	10:E	_
+10	Blicke	Blick	NOUN	NE	_	2	A	2:A	_
+11	nach	nach	ADP	CARD	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Walde	Walde	NOUN	NN	_	2	A	2:A	_
+14	hin	hin	ADV	ADV	_	11	Terminal	11:Terminal	_
+15	;	;	PUNCT	$.	_	2	U	2:U	_
+16	meine	mein	DET	PPOSAT	_	17	E	17:E	_
+17	Hand	Hand	NOUN	NN	_	18	A	18:A	_
+18	hielt	halten	VERB	VVFIN	_	2	H	2:H	_
+19	inne	inne	ADV	PTKVZ	_	18	Terminal	18:Terminal	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Bewegung	Bewegung	NOUN	NN	_	18	A	18:A	_
+23	nach	nach	ADP	CARD	_	25	R	25:R	_
+24	dem	der	DET	ART	_	25	E	25:E	_
+25	Mund	Mund	NOUN	NN	_	22	A	22:A	_
+26	,	,	PUNCT	$,	_	2	U	2:U	_
+27	die	der	DET	ART	_	37	A	37:A	_
+28	Ned	Ned	PROPN	NE	_	27	E	27:E	_
+29	Land	Land	NOUN	NE	_	28	Terminal	28:Terminal	_
+30	s	s	PROPN	NN	_	27	R	27:R	_
+31	fuhr	fahren	VERB	VVFIN	_	37	D	37:D	_
+32	fort	fort	ADV	PTKVZ	_	31	Terminal	31:Terminal	_
+33	,	,	PUNCT	$,	_	37	U	37:U	_
+34	ihre	ihr	DET	PPOSAT	_	35	E	35:E	_
+35	Verrichtung	Verrichtung	NOUN	NN	_	37	A	37:A	_
+36	zu	zu	PART	VVINF	_	37	F	37:F	_
+37	üben	üben	VERB	VVINF	_	2	H	2:H	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

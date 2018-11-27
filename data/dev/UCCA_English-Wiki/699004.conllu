@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 699004
+# text = After his European tour , Dylan returned to New York , but the pressures on him increased .
+1	After	after	ADP	IN	_	2	L	2:L	_
+2	his	he	PRON	PRP$	_	0	H	0:H	_
+3	European	european	ADJ	JJ	_	4	E	4:E	_
+4	tour	tour	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	Dylan	Dylan	PROPN	NNP	_	7	A	7:A	_
+7	returned	return	VERB	VBD	_	2	H	2:H	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	New	New	PROPN	NNP	_	7	A	7:A	_
+10	York	York	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	but	but	CCONJ	CC	_	2	L	2:L	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	pressures	pressure	NOUN	NNS	_	17	A	17:A	_
+15	on	on	ADP	IN	_	16	R	16:R	_
+16	him	he	PRON	PRP	_	14	A	14:A	_
+17	increased	increase	VERB	VBD	_	2	H	2:H	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

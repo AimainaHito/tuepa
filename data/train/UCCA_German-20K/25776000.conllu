@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25776000
+# text = Die meisten dieser Robben schliefen auf den Felsen oder dem Sande .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	meisten	meist	NOUN	PIS	_	5	A	5:A	_
+3	dieser	dies	PRON	PDAT	_	4	R	4:R	_
+4	Robben	Robbe	NOUN	NN	_	2	E	2:E	_
+5	schliefen	schlafen	VERB	VVFIN	_	0	H	0:H	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Felsen	Felsen	NOUN	NN	_	5	A	5:A	_
+9	oder	oder	CCONJ	CARD	_	8	N	8:N	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Sande	Sande	NOUN	NN	_	8	C	8:C	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

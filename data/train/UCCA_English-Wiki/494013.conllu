@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 494013
+# text = Frustrated by his band - mates ' limited aspirations , Bowie left the Konrads and joined another band , the King Bees .
+1	Frustrated	frustrate	VERB	VBN	_	0	H	0:H	_
+2	by	by	ADP	IN	_	9	R	9:R	_
+3	his	he	PRON	PRP$	_	6	E	6:E	_
+4	band	band	NOUN	NN	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	mates	mate	NOUN	NNS	_	9	E	9:E	_
+7	'	'	PART	POS	_	9	U	9:U	_
+8	limited	limit	ADJ	JJ	_	9	E	9:E	_
+9	aspirations	aspiration	NOUN	NNS	_	1	A	1:A	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	Bowie	Bowie	PROPN	NNP	_	12	A	12:A|1:A|16:A	_
+12	left	leave	VERB	VBD	_	1	H	1:H	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Konrads	Konrad	NOUN	NNS	_	12	A	12:A	_
+15	and	and	CCONJ	CC	_	1	L	1:L	_
+16	joined	join	VERB	VBD	_	1	H	1:H	_
+17	another	another	DET	DT	_	18	E	18:E	_
+18	band	band	NOUN	NN	_	21	E	21:E	_
+19	,	,	PUNCT	,	_	21	U	21:U	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	King	King	PROPN	NNP	_	16	A	16:A	_
+22	Bees	bees	PROPN	NNPS	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

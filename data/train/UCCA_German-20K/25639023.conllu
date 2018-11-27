@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25639023
+# text = » Werden die nicht ins Innere der " Nautilus " dringen ? « » Und wie ? «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Werden	werden	AUX	VVFIN	_	11	F	11:F	_
+3	die	der	DET	ART	_	11	A	11:A	_
+4	nicht	nicht	PART	XY	_	11	D	11:D	_
+5	ins	ins	ADV	NN	_	6	R	6:R	_
+6	Innere	Innere	NOUN	NN	_	11	A	11:A	_
+7	der	der	DET	ART	_	9	R	9:R	_
+8	"	"	PUNCT	$(	_	9	U	9:U	_
+9	Nautilus	Nautilus	PROPN	NE	_	6	E	6:E	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	dringen	dringen	VERB	VVFIN	_	0	P	0:P|16:P	_
+12	?	?	PUNCT	$.	_	16	U	16:U	_
+13	«	«	PUNCT	$(	_	16	U	16:U	_
+14	»	»	PUNCT	$(	_	16	U	16:U	_
+15	Und	und	CCONJ	ADJD	_	16	L	16:L	_
+16	wie	wie	ADP	KON	_	11	H	11:H	_
+17	?	?	PUNCT	$.	_	16	U	16:U	_
+18	«	«	PUNCT	$(	_	16	U	16:U	_
+

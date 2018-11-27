@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 221012
+# text = Her charity work includes participation with the Elizabeth Glaser Pediatric AIDS Foundation , in which she helped design and promote a necklace , for which all proceeds from sales went to the Glaser foundation .
+1	Her	she	PRON	PRP$	_	3	E	3:E|5:A	_
+2	charity	charity	NOUN	NN	_	3	E	3:E	_
+3	work	work	NOUN	NN	_	4	A	4:A	_
+4	includes	include	VERB	VBZ	_	0	H	0:H	_
+5	participation	participation	NOUN	NN	_	4	A	4:A	_
+6	with	with	ADP	IN	_	12	R	12:R	_
+7	the	the	DET	DT	_	12	E	12:E	_
+8	Elizabeth	Elizabeth	PROPN	NNP	_	12	E	12:E	_
+9	Glaser	Glaser	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Pediatric	Pediatric	PROPN	NNP	_	12	E	12:E	_
+11	AIDS	aids	NOUN	NN	_	12	E	12:E	_
+12	Foundation	foundation	NOUN	NN	_	5	A	5:A	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	which	which	PRON	WDT	_	4	L	4:L	_
+16	she	she	PRON	PRP	_	18	A	18:A	_
+17	helped	help	VERB	VBD	_	18	D	18:D	_
+18	design	design	NOUN	NN	_	4	H	4:H	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	promote	promote	VERB	VB	_	18	C	18:C	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	necklace	necklace	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	for	for	ADP	IN	_	30	R	30:R	_
+25	which	which	PRON	WDT	_	30	F	30:F	_
+26	all	all	DET	DT	_	27	E	27:E	_
+27	proceeds	proceed	NOUN	NNS	_	30	A	30:A	_
+28	from	from	ADP	IN	_	29	R	29:R	_
+29	sales	sale	NOUN	NNS	_	27	E	27:E	_
+30	went	go	VERB	VBD	_	22	E	22:E	_
+31	to	to	ADP	IN	_	30	F	30:F	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	Glaser	Glaser	PROPN	NNP	_	34	E	34:E	_
+34	foundation	foundation	NOUN	NN	_	30	A	30:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

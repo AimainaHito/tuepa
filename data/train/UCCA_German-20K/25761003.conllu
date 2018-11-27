@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25761003
+# text = Ned Land , der außer sich war , drohte ihnen , höhnte sie .
+1	Ned	Ned	PROPN	NN	_	0	C	0:C|6:A|12:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	$,	_	1	U	1:U	_
+4	der	der	PRON	PRELS	_	6	R	6:R	_
+5	außer	außer	ADP	APPR	_	6	E	6:E	_
+6	sich	er|es|sie	PRON	PRF	_	1	E	1:E	_
+7	war	sein	AUX	ADV	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	drohte	drohen	VERB	VVFIN	_	0	H	0:H	_
+10	ihnen	sie	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	höhnte	höhnen	VERB	VVFIN	_	9	H	9:H	_
+13	sie	sie	PRON	ADV	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

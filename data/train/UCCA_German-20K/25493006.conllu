@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25493006
+# text = Nahm er Anstand zu reden ?
+1	Nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+2	er	er	PRON	PPER	_	1	A	1:A|5:A	_
+3	Anstand	Anstand	NOUN	NN	_	5	A	5:A	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	reden	reden	VERB	VVINF	_	1	A	1:A	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+

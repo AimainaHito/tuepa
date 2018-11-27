@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25804005
+# text = Diese Jagd bot kein Interesse dar .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Jagd	Jagd	NOUN	NN	_	3	A	3:A	_
+3	bot	bieten	VERB	VVFIN	_	0	H	0:H	_
+4	kein	kein	PRON	PIAT	_	5	E	5:E	_
+5	Interesse	Interesse	NOUN	NN	_	3	A	3:A	_
+6	dar	dar	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

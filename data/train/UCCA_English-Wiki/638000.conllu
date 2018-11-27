@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 638000
+# text = Sample of " Imagine " , Lennon 's " most famous post - Beatles ' track .
+1	Sample	sample	NOUN	NN	_	0	H	0:H	_
+2	of	of	ADP	IN	_	16	R	16:R	_
+3	"	"	PUNCT	``	_	16	U	16:U	_
+4	Imagine	imagine	NOUN	NN	_	16	E	16:E	_
+5	"	"	PUNCT	''	_	16	U	16:U	_
+6	,	,	PUNCT	,	_	16	U	16:U	_
+7	Lennon	Lennon	PROPN	NNP	_	16	E	16:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	"	"	PUNCT	``	_	16	U	16:U	_
+10	most	most	ADV	RBS	_	11	E	11:E	_
+11	famous	famous	ADJ	JJ	_	16	E	16:E	_
+12	post	post	NOUN	NN	_	14	E	14:E	_
+13	-	-	PUNCT	,	_	14	U	14:U	_
+14	Beatles	Beatles	PROPN	NNPS	_	16	E	16:E	_
+15	'	's	PART	POS	_	16	U	16:U	_
+16	track	track	NOUN	NN	_	1	E	1:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25595001
+# text = Gegen 1 Uhr gab Kapitän Nemo das Zeichen zum Halt .
+1	Gegen	gegen	ADP	APPR	_	2	E	2:E	_
+2	1	1	NUM	CARD	_	4	D	4:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+5	Kapitän	Kapitän	PROPN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Zeichen	Zeichen	NOUN	NN	_	4	A	4:A	_
+9	zum	zum	ADP	NN	_	10	R	10:R	_
+10	Halt	Halt	NOUN	NN	_	8	E	8:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

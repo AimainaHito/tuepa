@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 475004
+# text = They also toured the United States , playing five games against teams from the CBA .
+1	They	they	PRON	PRP	_	3	A	3:A|8:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	toured	toure	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	United	United	PROPN	NNP	_	3	A	3:A	_
+6	States	States	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	playing	play	VERB	VBG	_	3	H	3:H	_
+9	five	five	NUM	CD	_	10	E	10:E	_
+10	games	game	NOUN	NNS	_	8	A	8:A	_
+11	against	against	ADP	IN	_	12	R	12:R	_
+12	teams	team	NOUN	NNS	_	8	A	8:A	_
+13	from	from	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	CBA	CBa	NOUN	NN	_	12	E	12:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

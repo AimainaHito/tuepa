@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25811018
+# text = Die Schraube war nicht in Tätigkeit .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Schraube	Schraube	NOUN	NN	_	6	A	6:A	_
+3	war	sein	VERB	NN	_	6	F	6:F	_
+4	nicht	nicht	PART	CARD	_	6	D	6:D	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Tätigkeit	Tätigkeit	NOUN	NN	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

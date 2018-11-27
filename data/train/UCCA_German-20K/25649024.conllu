@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25649024
+# text = Er erwiderte kaum vernehmlich meinen Gruß , ohne ein Wort mit mir zu reden .
+1	Er	er	PRON	PPER	_	2	A	2:A|14:A	_
+2	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+3	kaum	kaum	ADV	ADV	_	4	E	4:E	_
+4	vernehmlich	vernehmlich	ADJ	ADJD	_	2	D	2:D	_
+5	meinen	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Gruß	Gruß	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	ohne	ohne	ADP	NN	_	2	L	2:L	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Wort	Wort	NOUN	NN	_	14	A	14:A	_
+11	mit	mit	ADP	APPR	_	12	R	12:R	_
+12	mir	ich	PRON	PPER	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	reden	reden	VERB	VVINF	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

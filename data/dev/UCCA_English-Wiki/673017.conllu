@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 673017
+# text = On December 31 , 2009 , Carey embarked her seventh concert tour , Angels Advocate Tour , which visited the United States and Canada .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	8	D	8:D	_
+3	31	31	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Carey	Carey	PROPN	NNP	_	8	A	8:A	_
+8	embarked	embark	VERB	VBD	_	0	H	0:H	_
+9	her	she	PRON	PRP$	_	16	E	16:E	_
+10	seventh	seventh	NOUN	NN	_	16	E	16:E	_
+11	concert	concert	NOUN	NN	_	12	E	12:E	_
+12	tour	tour	NOUN	NN	_	16	E	16:E	_
+13	,	,	PUNCT	,	_	16	U	16:U	_
+14	Angels	Angels	PROPN	NNP	_	16	E	16:E	_
+15	Advocate	advocate	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Tour	Tour	PROPN	NNP	_	8	A	8:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	which	which	PRON	WDT	_	19	R	19:R	_
+19	visited	visit	VERB	VBD	_	16	E	16:E	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	United	United	PROPN	NNP	_	19	A	19:A	_
+22	States	States	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	and	and	CCONJ	CC	_	21	N	21:N	_
+24	Canada	Canada	PROPN	NNP	_	21	C	21:C	_
+25	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25749004
+# text = Mein Werk über den Meeresgrund war am Rand mit Anmerkungen bedeckt , die oft mit meinen Theorien und Ansichten im Widerspruch waren .
+1	Mein	mein	DET	PPOSAT	_	2	E	2:E	_
+2	Werk	Werk	NOUN	NN	_	11	A	11:A	_
+3	über	über	ADP	VVFIN	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Meeresgrund	Meeresgrund	NOUN	NN	_	2	E	2:E	_
+6	war	sein	AUX	ADV	_	11	F	11:F	_
+7	am	am	ADJ	ADJD	_	8	R	8:R	_
+8	Rand	Rand	NOUN	NN	_	11	A	11:A	_
+9	mit	mit	ADP	APPR	_	10	R	10:R	_
+10	Anmerkungen	Anmerkung	NOUN	NN	_	11	A	11:A	_
+11	bedeckt	bedecken	VERB	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	21	R	21:R	_
+14	oft	oft	ADV	CARD	_	21	D	21:D	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	meinen	mein	PRON	PPOSAT	_	17	E	17:E	_
+17	Theorien	Theorie	NOUN	NN	_	21	A	21:A	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	Ansichten	Ansicht	NOUN	NN	_	17	C	17:C	_
+20	im	im	ADJ	NN	_	21	R	21:R	_
+21	Widerspruch	Widerspruch	NOUN	NN	_	10	E	10:E	_
+22	waren	sein	AUX	VAFIN	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

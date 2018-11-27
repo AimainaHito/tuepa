@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 473005
+# text = Before the 1992 - 93 NBA season , Johnson announced his intention to stage an NBA comeback .
+1	Before	before	ADP	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1992	1992	NUM	CD	_	7	D	7:D	_
+4	-	-	SYM	SYM	_	3	U	3:U	_
+5	93	93	NUM	CD	_	3	C	3:C	_
+6	NBA	NBa	PROPN	NNP	_	7	E	7:E	_
+7	season	season	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Johnson	Johnson	PROPN	NNP	_	10	A	10:A|14:A	_
+10	announced	announce	VERB	VBD	_	7	H	7:H	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	intention	intention	NOUN	NN	_	10	A	10:A	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	stage	stage	VERB	VB	_	12	E	12:E	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	NBA	NBA	PROPN	NNP	_	17	E	17:E	_
+17	comeback	comeback	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

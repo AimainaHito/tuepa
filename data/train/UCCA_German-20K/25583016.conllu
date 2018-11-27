@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25583016
+# text = Der Kommandant der " Nautilus " ,
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kommandant	Kommandant	NOUN	NN	_	0	H	0:H	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	Nautilus	Nautilus	PROPN	NE	_	2	E	2:E	_
+6	"	"	PUNCT	$(	_	5	U	5:U	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+

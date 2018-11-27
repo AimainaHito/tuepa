@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25743007
+# text = Man glitt auf den Knien , man rutschte auf dem Bauch .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	glitt	gleiden	VERB	VVFIN	_	0	H	0:H	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Knien	knie	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	man	man	PRON	PIS	_	8	A	8:A	_
+8	rutschte	rutschen	VERB	VVFIN	_	2	H	2:H	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Bauch	Bauch	NOUN	NN	_	8	A	8:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

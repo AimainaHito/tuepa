@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25513015
+# text = Dieses war mir unbegreiflich .
+1	Dieses	dies	PRON	PDS	_	4	A	4:A	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	mir	ich	PRON	PPER	_	4	A	4:A	_
+4	unbegreiflich	unbegreiflich	ADJ	ADJD	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

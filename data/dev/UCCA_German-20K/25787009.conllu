@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25787009
+# text = Ich ging auf einige Augenblicke aus dem Salon in die Bibliothek .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	einige	einige	PRON	PIAT	_	5	E	5:E	_
+5	Augenblicke	Augenblick	NOUN	NN	_	2	D	2:D	_
+6	aus	aus	ADP	APPR	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Salon	Salon	NOUN	NN	_	2	A	2:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Bibliothek	Bibliothek	NOUN	NN	_	2	A	2:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

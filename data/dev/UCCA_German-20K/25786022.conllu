@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25786022
+# text = Dies musste ein falsches Manöver sein , denn der unterseeische , von Blöcken versperrte Tunnel bot nicht eine leichte Fahrt .
+1	Dies	dies	PRON	PDS	_	5	A	5:A	_
+2	musste	müssen	AUX	VVFIN	_	5	D	5:D	_
+3	ein	ein	DET	ART	_	5	E	5:E	_
+4	falsches	falsch	ADJ	ADJA	_	5	D	5:D	_
+5	Manöver	Manöver	NOUN	NN	_	0	H	0:H	_
+6	sein	sein	AUX	VAINF	_	5	F	5:F	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	denn	denn	SCONJ	KON	_	5	L	5:L	_
+9	der	der	DET	ART	_	15	E	15:E	_
+10	unterseeische	unterseeisch	ADJ	ADJA	_	15	E	15:E	_
+11	,	,	PUNCT	$,	_	15	U	15:U	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	Blöcken	Block	NOUN	NN	_	14	A	14:A	_
+14	versperrte	versperrt	ADJ	VVFIN	_	15	E	15:E	_
+15	Tunnel	Tunnel	NOUN	NE	_	16	A	16:A	_
+16	bot	bieten	VERB	VVFIN	_	5	H	5:H	_
+17	nicht	nicht	PART	CARD	_	16	D	16:D	_
+18	eine	ein	DET	ART	_	20	E	20:E	_
+19	leichte	leicht	ADJ	ADJA	_	20	E	20:E	_
+20	Fahrt	Fahrt	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

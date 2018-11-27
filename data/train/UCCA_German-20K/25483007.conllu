@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25483007
+# text = Dann , sowie er im Begriff war zu werfen , entwischte es mit einer Schnelligkeit , die mindestens auf 30 Meilen die Stunde sich schätzen ließ .
+1	Dann	dann	ADV	ADV	_	9	L	9:L	_
+2	,	,	PUNCT	$,	_	9	U	9:U	_
+3	sowie	sowie	CCONJ	NN	_	9	L	9:L	_
+4	er	er	PRON	PPER	_	9	A	9:A	_
+5	im	im	ADJ	NE	_	6	E	6:E	_
+6	Begriff	Begriff	NOUN	NN	_	9	D	9:D	_
+7	war	sein	AUX	NE	_	6	F	6:F	_
+8	zu	zu	PART	NE	_	9	F	9:F	_
+9	werfen	werfen	VERB	VVINF	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	entwischte	entwischen	VERB	VVFIN	_	9	H	9:H	_
+12	es	es	PRON	PPER	_	11	A	11:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	einer	ein	DET	ART	_	15	E	15:E	_
+15	Schnelligkeit	Schnelligkeit	NOUN	NN	_	11	A	11:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	24	R	24:R	_
+18	mindestens	mindestens	ADV	ADV	_	24	D	24:D	_
+19	auf	auf	ADP	APPR	_	21	R	21:R	_
+20	30	30	NUM	CARD	_	21	E	21:E	_
+21	Meilen	Meile	NOUN	NN	_	24	A	24:A	_
+22	die	der	DET	ART	_	21	Terminal	21:Terminal	_
+23	Stunde	Stunde	NOUN	NN	_	21	Terminal	21:Terminal	_
+24	sich	er|es|sie	PRON	PRF	_	15	E	15:E	_
+25	schätzen	schätzen	VERB	VVINF	_	24	Terminal	24:Terminal	_
+26	ließ	lassen	VERB	VVFIN	_	24	D	24:D	_
+27	.	.	PUNCT	$.	_	24	U	24:U	_
+

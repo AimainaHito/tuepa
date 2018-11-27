@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25761013
+# text = Einige Meilen weit waren die Wogen rot gefärbt , und die ›Nautilus‹ schwamm durch ein Blut meer .
+1	Einige	einige	PRON	PIS	_	2	E	2:E	_
+2	Meilen	Meile	NOUN	VVFIN	_	8	A	8:A	_
+3	weit	weit	ADJ	ADJD	_	8	D	8:D	_
+4	waren	sein	AUX	VAFIN	_	8	F	8:F	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Wogen	Woge	NOUN	NN	_	8	A	8:A	_
+7	rot	rot	ADJ	NN	_	8	D	8:D	_
+8	gefärbt	färben	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	13	A	13:A	_
+13	schwamm	schwamm	ADJ	NE	_	8	H	8:H	_
+14	durch	durch	ADP	APPR	_	17	R	17:R	_
+15	ein	ein	DET	ART	_	17	E	17:E	_
+16	Blut	Blut	NOUN	NN	_	17	E	17:E	_
+17	meer	meer	ADJ	NE	_	13	A	13:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25654012
+# text = Der Kapitän mit seinen Leuten war damit beschäftigt , den Kameraden an dieser unzugänglichen Stelle des Meeresgrunds zu bestatten .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|19:A	_
+3	mit	mit	ADP	APPR	_	2	N	2:N	_
+4	seinen	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Leuten	Leute	NOUN	NN	_	2	C	2:C	_
+6	war	sein	AUX	ADV	_	8	F	8:F	_
+7	damit	damit	ADV	PAV	_	19	F	19:F	_
+8	beschäftigt	beschäftigen	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Kameraden	Kamerad	NOUN	NN	_	19	A	19:A	_
+12	an	an	ADP	APPR	_	15	R	15:R	_
+13	dieser	dies	PRON	PDAT	_	15	E	15:E	_
+14	unzugänglichen	unzugänglichen	ADJ	ADJA	_	15	E	15:E	_
+15	Stelle	Stelle	NOUN	NN	_	19	A	19:A	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Meeresgrunds	Meeresgrunds	NOUN	NN	_	15	E	15:E	_
+18	zu	zu	PART	NN	_	19	F	19:F	_
+19	bestatten	bestatten	VERB	VVINF	_	8	A	8:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

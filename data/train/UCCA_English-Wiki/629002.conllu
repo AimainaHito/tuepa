@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 629002
+# text = Born and raised in Liverpool , as a teenager Lennon became involved in the skiffle craze ; his first band , the Quarrymen , evolved into the Beatles in 1960 .
+1	Born	bear	VERB	VB	_	0	H	0:H	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	raised	raise	VERB	VBN	_	1	C	1:C	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Liverpool	Liverpool	PROPN	NNP	_	1	A	1:A	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	as	as	ADP	IN	_	1	L	1:L	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	teenager	teenager	NOUN	NN	_	1	H	1:H	_
+10	Lennon	Lennon	PROPN	NNP	_	12	A	12:A|9:A	_
+11	became	become	VERB	VBD	_	12	D	12:D	_
+12	involved	involved	ADJ	JJ	_	1	H	1:H	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	skiffle	skiffle	NOUN	NN	_	16	E	16:E	_
+16	craze	craze	NOUN	NN	_	12	A	12:A	_
+17	;	;	PUNCT	,	_	1	U	1:U	_
+18	his	he	PRON	PRP$	_	20	E	20:E	_
+19	first	first	ADJ	JJ	_	20	E	20:E	_
+20	band	band	NOUN	NN	_	25	A	25:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	Quarrymen	Quarryman	PROPN	NNP	_	20	E	20:E	_
+24	,	,	PUNCT	,	_	25	U	25:U	_
+25	evolved	evolve	VERB	VBD	_	1	H	1:H	_
+26	into	into	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	Beatles	Beatles	PROPN	NNPS	_	25	A	25:A	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	1960	1960	NUM	CD	_	25	D	25:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25742005
+# text = Der Glimmerstaub des Ufers , den unsere Tritte erregten , flog auf gleich einer Wolke von Funken .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Glimmerstaub	Glimmerstaub	NOUN	NN	_	11	A	11:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Ufers	Ufer	NOUN	NN	_	2	E	2:E	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	den	der	PRON	PRELS	_	9	R	9:R	_
+7	unsere	unser	PRON	PPOSAT	_	8	E	8:E	_
+8	Tritte	Tritt	NOUN	NN	_	9	A	9:A	_
+9	erregten	erregen	VERB	VVFIN	_	2	E	2:E	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	flog	fliehen	VERB	VVFIN	_	0	H	0:H	_
+12	auf	auf	ADP	APPR	_	11	Terminal	11:Terminal	_
+13	gleich	gleich	ADV	ADV	_	15	D	15:D	_
+14	einer	ein	DET	ART	_	15	E	15:E	_
+15	Wolke	Wolke	NOUN	NN	_	11	H	11:H	_
+16	von	von	ADP	NE	_	15	R	15:R	_
+17	Funken	Funken	NOUN	NN	_	15	E	15:E	_
+18	.	.	PUNCT	$.	_	15	U	15:U	_
+

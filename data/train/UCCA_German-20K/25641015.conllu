@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25641015
+# text = Dies wohl schwerlich , da er die bewohnten Kontinente vermied .
+1	Dies	dies	PRON	PDS	_	3	A	3:A	_
+2	wohl	wohl	ADV	ADV	_	3	G	3:G	_
+3	schwerlich	schwerlich	ADJ	ADJD	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	da	da	SCONJ	KOUS	_	3	L	3:L	_
+6	er	er	PRON	PPER	_	10	A	10:A	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	bewohnten	bewohnt	ADJ	ADJA	_	9	E	9:E	_
+9	Kontinente	Kontinent	NOUN	NN	_	10	A	10:A	_
+10	vermied	vermeiden	VERB	VVFIN	_	3	H	3:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

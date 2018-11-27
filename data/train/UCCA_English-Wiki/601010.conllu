@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 601010
+# text = Ringo Starr replaced Best in August , and the band had their first hit , " Love Me Do " , in October , becoming popular in the UK in 1963 , and in the US a year later .
+1	Ringo	Ringo	PROPN	NNP	_	3	A	3:A	_
+2	Starr	Starr	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	replaced	replace	VERB	VBD	_	0	H	0:H	_
+4	Best	Best	ADJ	JJS	_	3	A	3:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	August	August	PROPN	NNP	_	3	D	3:D	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	band	band	NOUN	NN	_	11	A	11:A|26:A|36:A	_
+11	had	have	VERB	VBD	_	3	H	3:H	_
+12	their	they	PRON	PRP$	_	13	E	13:E	_
+13	first	first	ADJ	JJ	_	14	E	14:E	_
+14	hit	hit	NOUN	NN	_	17	E	17:E	_
+15	,	,	PUNCT	,	_	17	U	17:U	_
+16	"	"	PUNCT	''	_	17	U	17:U	_
+17	Love	Love	VERB	VBP	_	11	A	11:A	_
+18	Me	Me	PRON	PRP	_	17	Terminal	17:Terminal	_
+19	Do	do	AUX	VBP	_	17	Terminal	17:Terminal	_
+20	"	"	PUNCT	``	_	11	U	11:U	_
+21	,	,	PUNCT	,	_	11	U	11:U	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	October	October	PROPN	NNP	_	11	D	11:D	_
+24	,	,	PUNCT	,	_	3	U	3:U	_
+25	becoming	become	VERB	VBG	_	26	D	26:D	_
+26	popular	popular	ADJ	JJ	_	3	H	3:H	_
+27	in	in	ADP	IN	_	29	R	29:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	UK	UK	PROPN	NNP	_	26	A	26:A	_
+30	in	in	ADP	IN	_	31	R	31:R	_
+31	1963	1963	NUM	CD	_	26	D	26:D	_
+32	,	,	PUNCT	,	_	3	U	3:U	_
+33	and	and	CCONJ	CC	_	3	L	3:L	_
+34	in	in	ADP	IN	_	36	R	36:R	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	US	US	PROPN	NNP	_	3	H	3:H	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	year	year	NOUN	NN	_	36	D	36:D	_
+39	later	later	ADV	RB	_	38	R	38:R	_
+40	.	.	PUNCT	.	_	38	U	38:U	_
+

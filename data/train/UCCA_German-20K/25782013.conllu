@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25782013
+# text = » Aber doch « , fragte ich , » ist er wieder auf die Oberfläche gekommen ? «
+1	»	»	PUNCT	$(	_	16	U	16:U	_
+2	Aber	aber	CCONJ	KON	_	16	L	16:L	_
+3	doch	doch	ADV	ADV	_	16	L	16:L	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	ist	sein	AUX	VVFIN	_	16	F	16:F	_
+11	er	er	PRON	PPER	_	16	A	16:A	_
+12	wieder	wieder	ADV	NN	_	16	D	16:D	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Oberfläche	Oberfläche	NOUN	NN	_	16	A	16:A	_
+16	gekommen	kommen	VERB	VVPP	_	6	A	6:A	_
+17	?	?	PUNCT	$.	_	16	U	16:U	_
+18	«	«	PUNCT	$(	_	16	U	16:U	_
+

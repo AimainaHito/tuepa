@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 523007
+# text = Judy was then put in the cast of the fourth of the Hardy Family movies as a literal girl next door to Rooney 's character , Andy Hardy in Love Finds Andy Hardy , although Hardy 's love interest was played by Lana Turner .
+1	Judy	Judy	PROPN	NNP	_	4	A	4:A|19:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	then	then	ADV	RB	_	4	D	4:D	_
+4	put	put	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	cast	cast	NOUN	NN	_	4	A	4:A	_
+8	of	of	ADP	IN	_	15	R	15:R	_
+9	the	the	DET	DT	_	15	E	15:E	_
+10	fourth	fourth	NOUN	NN	_	15	E	15:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	Hardy	Hardy	PROPN	NNP	_	14	E	14:E	_
+14	Family	family	NOUN	NN	_	15	E	15:E	_
+15	movies	movie	NOUN	NNS	_	7	E	7:E	_
+16	as	as	ADP	IN	_	4	L	4:L	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	literal	literal	ADJ	JJ	_	19	E	19:E	_
+19	girl	girl	NOUN	NN	_	4	H	4:H	_
+20	next	next	ADJ	JJ	_	21	E	21:E	_
+21	door	door	NOUN	NN	_	19	E	19:E	_
+22	to	to	ADP	IN	_	27	R	27:R	_
+23	Rooney	Rooney	PROPN	NNP	_	25	E	25:E	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	character	character	NOUN	NN	_	27	E	27:E	_
+26	,	,	PUNCT	,	_	27	U	27:U	_
+27	Andy	Andy	PROPN	NNP	_	19	E	19:E	_
+28	Hardy	Hardy	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	Love	Love	PROPN	NNP	_	19	A	19:A	_
+31	Finds	finds	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Andy	Andy	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	Hardy	Hardy	PROPN	NNP	_	30	Terminal	30:Terminal	_
+34	,	,	PUNCT	,	_	4	U	4:U	_
+35	although	although	SCONJ	IN	_	4	L	4:L	_
+36	Hardy	Hardy	PROPN	NNP	_	39	E	39:E	_
+37	's	's	PART	POS	_	36	R	36:R	_
+38	love	love	NOUN	NN	_	39	E	39:E	_
+39	interest	interest	NOUN	NN	_	41	A	41:A	_
+40	was	be	AUX	VBD	_	41	F	41:F	_
+41	played	play	VERB	VBN	_	4	H	4:H	_
+42	by	by	ADP	IN	_	43	R	43:R	_
+43	Lana	Lana	PROPN	NNP	_	41	A	41:A	_
+44	Turner	Turner	PROPN	NNP	_	43	Terminal	43:Terminal	_
+45	.	.	PUNCT	.	_	43	U	43:U	_
+

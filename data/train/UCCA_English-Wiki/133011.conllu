@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 133011
+# text = MGM were eager to reunite Tracy and Hepburn for a new picture , and settled on Keeper of the Flame ( 1942 ) . A dark mystery with a propaganda message on the dangers of fascism , the film was seen by Hepburn as an opportunity to make a worthy political statement .
+1	MGM	MGm	PRON	PRP	_	3	A	3:A|15:A|5:A	_
+2	were	be	AUX	VBD	_	3	D	3:D	_
+3	eager	eager	ADJ	JJ	_	0	H	0:H	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	reunite	reunite	VERB	VB	_	3	A	3:A	_
+6	Tracy	Tracy	PROPN	NNP	_	5	A	5:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	Hepburn	Hepburn	PROPN	NNP	_	6	C	6:C	_
+9	for	for	ADP	IN	_	12	R	12:R	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	new	new	ADJ	JJ	_	12	E	12:E	_
+12	picture	picture	NOUN	NN	_	3	A	3:A	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	and	and	CCONJ	CC	_	3	L	3:L	_
+15	settled	settle	VERB	VBN	_	3	H	3:H	_
+16	on	on	ADP	IN	_	17	R	17:R	_
+17	Keeper	Keeper	PROPN	NNP	_	15	A	15:A	_
+18	of	of	ADP	IN	_	17	Terminal	17:Terminal	_
+19	the	the	DET	DT	_	17	Terminal	17:Terminal	_
+20	Flame	Flame	PROPN	NNP	_	17	Terminal	17:Terminal	_
+21	(	(	PUNCT	-LRB-	_	17	U	17:U	_
+22	1942	1942	NUM	CD	_	17	E	17:E	_
+23	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+24	.	.	PUNCT	.	_	3	U	3:U	_
+25	A	a	DET	DT	_	27	E	27:E	_
+26	dark	dark	ADJ	JJ	_	27	E	27:E	_
+27	mystery	mystery	NOUN	NN	_	3	H	3:H	_
+28	with	with	ADP	IN	_	31	R	31:R	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	propaganda	propaganda	NOUN	NN	_	31	E	31:E	_
+31	message	message	NOUN	NN	_	27	A	27:A	_
+32	on	on	ADP	IN	_	36	R	36:R	_
+33	the	the	DET	DT	_	36	E	36:E	_
+34	dangers	danger	NOUN	NNS	_	36	E	36:E	_
+35	of	of	ADP	IN	_	36	R	36:R	_
+36	fascism	fascism	NOUN	NN	_	31	E	31:E	_
+37	,	,	PUNCT	,	_	27	U	27:U	_
+38	the	the	DET	DT	_	39	E	39:E	_
+39	film	film	NOUN	NN	_	41	A	41:A|27:A	_
+40	was	be	AUX	VBD	_	41	F	41:F	_
+41	seen	see	VERB	VBN	_	3	H	3:H	_
+42	by	by	ADP	IN	_	43	R	43:R	_
+43	Hepburn	Hepburn	PROPN	NNP	_	41	A	41:A	_
+44	as	as	ADP	IN	_	46	R	46:R	_
+45	an	a	DET	DT	_	46	E	46:E	_
+46	opportunity	opportunity	NOUN	NN	_	41	A	41:A	_
+47	to	to	PART	TO	_	48	F	48:F	_
+48	make	make	VERB	VB	_	46	E	46:E	_
+49	a	a	DET	DT	_	52	E	52:E	_
+50	worthy	worthy	ADJ	JJ	_	52	E	52:E	_
+51	political	political	ADJ	JJ	_	52	E	52:E	_
+52	statement	statement	NOUN	NN	_	48	A	48:A	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

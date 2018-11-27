@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25526003
+# text = Wir blieben still , rührten uns nicht , da wir nicht wußten , welche angenehme oder unangenehme Überraschung uns bevorstand .
+1	Wir	wir	PRON	NE	_	2	A	2:A|5:A	_
+2	blieben	bleiben	AUX	VVFIN	_	0	H	0:H	_
+3	still	still	ADJ	NN	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	rührten	rührt	ADJ	NN	_	2	H	2:H	_
+6	uns	wir	PRON	NE	_	5	Terminal	5:Terminal	_
+7	nicht	nicht	PART	CARD	_	5	D	5:D	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	da	da	SCONJ	KOUS	_	2	L	2:L	_
+10	wir	wir	PRON	NE	_	12	A	12:A	_
+11	nicht	nicht	PART	CARD	_	12	D	12:D	_
+12	wußten	wissen	VERB	VVFIN	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	welche	welch	PRON	NN	_	18	E	18:E	_
+15	angenehme	angenehm	ADJ	ADJA	_	18	E	18:E	_
+16	oder	oder	CCONJ	CARD	_	15	N	15:N	_
+17	unangenehme	unangenehm	ADJ	ADJA	_	15	C	15:C	_
+18	Überraschung	Überraschung	NOUN	NN	_	20	A	20:A	_
+19	uns	wir	PRON	NN	_	20	A	20:A	_
+20	bevorstand	bevorstehen	VERB	VVFIN	_	12	A	12:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

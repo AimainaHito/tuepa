@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25604000
+# text = Die Richtung der " Nautilus " blieb fortwährend süd östlich .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Richtung	Richtung	NOUN	NN	_	9	A	9:A	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	Nautilus	Nautilus	PROPN	NE	_	2	E	2:E	_
+6	"	"	PUNCT	$(	_	9	U	9:U	_
+7	blieb	bleiben	AUX	VVFIN	_	9	F	9:F	_
+8	fortwährend	fortwährend	ADJ	ADJD	_	9	D	9:D	_
+9	süd	süd	ADJ	NN	_	0	H	0:H	_
+10	östlich	östlich	ADJ	NE	_	9	C	9:C	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

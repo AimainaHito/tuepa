@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25582008
+# text = Sollte wohl Kapitän Nemo , wie ich hoffte , sich einfinden ?
+1	Sollte	sollen	AUX	VMFIN	_	10	D	10:D	_
+2	wohl	wohl	ADV	ADV	_	10	G	10:G	_
+3	Kapitän	Kapitän	NOUN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	10	A	10:A	_
+5	,	,	PUNCT	$,	_	10	U	10:U	_
+6	wie	wie	SCONJ	KON	_	10	L	10:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	hoffte	hoffen	VERB	VVFIN	_	10	H	10:H	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+11	einfinden	einfinden	VERB	VVINF	_	10	Terminal	10:Terminal	_
+12	?	?	PUNCT	$.	_	10	U	10:U	_
+

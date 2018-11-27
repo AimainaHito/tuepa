@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25679006
+# text = » Pah ! « sagte Conseil .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Pah	Pah	PROPN	VVFIN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 380009
+# text = I 'm open to whatever people want to call me .
+1	I	I	PRON	PRP	_	3	A	3:A	_
+2	'm	be	AUX	VBP	_	3	F	3:F	_
+3	open	open	ADJ	JJ	_	0	H	0:H	_
+4	to	to	ADP	TO	_	9	R	9:R	_
+5	whatever	whatever	DET	WDT	_	9	A	9:A	_
+6	people	people	NOUN	NNS	_	9	A	9:A	_
+7	want	want	VERB	VBP	_	9	D	9:D	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	call	call	VERB	VB	_	3	A	3:A	_
+10	me	I	PRON	PRP	_	9	A	9:A	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

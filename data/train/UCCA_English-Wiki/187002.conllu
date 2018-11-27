@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 187002
+# text = In the Scarsdale High School senior class production of Once Upon a Mattress , Sorkin played Sir Harry .
+1	In	in	ADP	IN	_	8	L	8:L	_
+2	the	the	DET	DT	_	7	E	7:E	_
+3	Scarsdale	Scarsdale	PROPN	NNP	_	5	E	5:E	_
+4	High	High	PROPN	NNP	_	5	E	5:E	_
+5	School	School	PROPN	NNP	_	7	E	7:E	_
+6	senior	senior	ADJ	JJ	_	7	E	7:E	_
+7	class	class	NOUN	NN	_	8	A	8:A	_
+8	production	production	NOUN	NN	_	0	H	0:H	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	Once	Once	PROPN	NNP	_	8	A	8:A	_
+11	Upon	upon	ADP	IN	_	10	Terminal	10:Terminal	_
+12	a	a	DET	DT	_	10	Terminal	10:Terminal	_
+13	Mattress	Mattress	NOUN	NN	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	,	_	8	U	8:U	_
+15	Sorkin	Sorkin	PROPN	NNP	_	16	A	16:A	_
+16	played	play	VERB	VBD	_	8	H	8:H	_
+17	Sir	Sir	PROPN	NNP	_	18	E	18:E	_
+18	Harry	Harry	PROPN	NNP	_	16	A	16:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

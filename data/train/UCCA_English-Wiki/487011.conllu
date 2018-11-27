@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 487011
+# text = In 2001 , director Ridley Scott cast Bana as an American soldier in the film Black Hawk Down ( 2001 ) . Scott , impressed by Bana 's performance in Chopper , did not require him to audition .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2001	2001	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	director	director	NOUN	NN	_	5	E	5:E	_
+5	Ridley	Ridley	PROPN	NNP	_	7	A	7:A	_
+6	Scott	Scott	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	cast	cast	VERB	VBD	_	0	H	0:H	_
+8	Bana	Bana	PROPN	NNP	_	7	A	7:A	_
+9	as	as	ADP	IN	_	12	R	12:R	_
+10	an	a	DET	DT	_	12	E	12:E	_
+11	American	american	ADJ	JJ	_	12	E	12:E	_
+12	soldier	soldier	NOUN	NN	_	7	A	7:A	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	film	film	NOUN	NN	_	16	E	16:E	_
+16	Black	Black	PROPN	NNP	_	7	A	7:A	_
+17	Hawk	Hawk	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Down	Down	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	(	(	PUNCT	-LRB-	_	16	U	16:U	_
+20	2001	2001	NUM	CD	_	16	E	16:E	_
+21	)	)	PUNCT	-RRB-	_	7	U	7:U	_
+22	.	.	PUNCT	.	_	7	U	7:U	_
+23	Scott	Scott	PROPN	NNP	_	35	A	35:A	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	impressed	impress	VERB	VBN	_	23	E	23:E	_
+26	by	by	ADP	IN	_	29	R	29:R	_
+27	Bana	Bana	PROPN	NNP	_	29	A	29:A	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	performance	performance	NOUN	NN	_	25	A	25:A	_
+30	in	in	ADP	IN	_	31	R	31:R	_
+31	Chopper	Chopper	PROPN	NNP	_	29	A	29:A	_
+32	,	,	PUNCT	,	_	35	U	35:U	_
+33	did	do	AUX	VBD	_	35	F	35:F	_
+34	not	not	PART	RB	_	35	D	35:D	_
+35	require	require	VERB	VB	_	7	H	7:H	_
+36	him	he	PRON	PRP	_	35	A	35:A|38:A	_
+37	to	to	ADP	IN	_	38	F	38:F	_
+38	audition	audition	NOUN	NN	_	35	A	35:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 588008
+# text = Depp has said that Sparrow is " definitely a big part of me , " and he even voiced the character in the video game Pirates of the Caribbean : The Legend of Jack Sparrow .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	said	say	VERB	VBN	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	6	F	6:F	_
+5	Sparrow	Sparrow	PROPN	NNP	_	6	A	6:A	_
+6	is	be	AUX	VBZ	_	3	A	3:A	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	definitely	definitely	ADV	RB	_	6	D	6:D	_
+9	a	a	DET	DT	_	13	E	13:E	_
+10	big	big	ADJ	JJ	_	11	E	11:E	_
+11	part	part	NOUN	NN	_	13	E	13:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	me	I	PRON	PRP	_	6	A	6:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	"	"	PUNCT	''	_	3	U	3:U	_
+16	and	and	CCONJ	CC	_	3	L	3:L	_
+17	he	he	PRON	PRP	_	19	A	19:A	_
+18	even	even	ADV	RB	_	19	D	19:D	_
+19	voiced	voice	VERB	VBD	_	3	H	3:H	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	character	character	NOUN	NN	_	19	A	19:A	_
+22	in	in	ADP	IN	_	26	R	26:R	_
+23	the	the	DET	DT	_	26	E	26:E	_
+24	video	video	NOUN	NN	_	25	E	25:E	_
+25	game	game	NOUN	NN	_	26	E	26:E	_
+26	Pirates	pirate	NOUN	NNS	_	19	A	19:A	_
+27	of	of	ADP	IN	_	26	Terminal	26:Terminal	_
+28	the	the	DET	DT	_	26	Terminal	26:Terminal	_
+29	Caribbean	Caribbean	PROPN	NNP	_	26	Terminal	26:Terminal	_
+30	:	:	PUNCT	:	_	26	U	26:U	_
+31	The	the	DET	DT	_	26	Terminal	26:Terminal	_
+32	Legend	legend	PROPN	NNP	_	26	Terminal	26:Terminal	_
+33	of	of	ADP	IN	_	26	Terminal	26:Terminal	_
+34	Jack	Jack	PROPN	NNP	_	26	Terminal	26:Terminal	_
+35	Sparrow	Sparrow	PROPN	NNP	_	26	Terminal	26:Terminal	_
+36	.	.	PUNCT	.	_	26	U	26:U	_
+

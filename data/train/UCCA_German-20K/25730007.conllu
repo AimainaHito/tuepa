@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25730007
+# text = Ich meinesteils war nicht übermäßig untröstlich .
+1	Ich	ich	PRON	PPER	_	6	A	6:A	_
+2	meinesteils	meinesteils	ADV	ADV	_	6	D	6:D	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	nicht	nicht	PART	CARD	_	6	D	6:D	_
+5	übermäßig	übermäßig	ADJ	ADJD	_	6	D	6:D	_
+6	untröstlich	untröstlich	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

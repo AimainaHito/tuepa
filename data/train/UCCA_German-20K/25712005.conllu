@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25712005
+# text = » Weshalb ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Weshalb	weshalb	PROPN	ADJA	_	0	H	0:H	_
+3	?	?	PUNCT	$.	_	2	U	2:U	_
+4	«	«	PUNCT	$(	_	2	U	2:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 382006
+# text = On December 19 , 2011 , he was announced as a jury member for the 62nd Berlin International Film Festival that was held in February 2012 .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	December	December	PROPN	NNP	_	5	E	5:E	_
+3	19	19	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	2011	2011	NUM	CD	_	9	D	9:D	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	he	he	PRON	PRP	_	9	A	9:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	announced	announce	VERB	VBN	_	0	H	0:H	_
+10	as	as	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	jury	jury	NOUN	NN	_	13	E	13:E	_
+13	member	member	NOUN	NN	_	9	A	9:A	_
+14	for	for	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	62nd	62nd	ADJ	JJ	_	17	E	17:E	_
+17	Berlin	Berlin	PROPN	NNP	_	13	E	13:E	_
+18	International	International	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Film	film	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	Festival	Festival	PROPN	NNP	_	17	Terminal	17:Terminal	_
+21	that	that	PRON	WDT	_	23	F	23:F	_
+22	was	be	AUX	VBD	_	23	F	23:F	_
+23	held	hold	VERB	VBN	_	17	E	17:E	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	February	February	PROPN	NNP	_	26	E	26:E	_
+26	2012	2012	NUM	CD	_	23	D	23:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

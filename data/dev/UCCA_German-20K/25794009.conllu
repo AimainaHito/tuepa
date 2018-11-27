@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25794009
+# text = Gegen 3 Uhr nachmittags wurde dies Gefühl der Beklemmung aufs höchste gesteigert .
+1	Gegen	gegen	ADP	APPR	_	2	R	2:R	_
+2	3	3	NUM	CARD	_	12	D	12:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	nachmittags	nachmittags	ADV	ADV	_	2	E	2:E	_
+5	wurde	werden	AUX	TRUNC	_	12	F	12:F	_
+6	dies	dies	PRON	PDS	_	7	E	7:E	_
+7	Gefühl	Gefühl	NOUN	NN	_	12	A	12:A	_
+8	der	der	DET	ART	_	9	R	9:R	_
+9	Beklemmung	Beklemmung	NOUN	NN	_	7	E	7:E	_
+10	aufs	aufs	ADV	NN	_	11	R	11:R	_
+11	höchste	hoch	ADJ	ADJA	_	12	D	12:D	_
+12	gesteigert	steigern	VERB	VVPP	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

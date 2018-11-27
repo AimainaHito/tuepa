@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 725004
+# text = " Encouraged by her Golden Globe Award win for George Wallace and the positive critical reception of Gia , she resumed her career .
+1	"	"	PUNCT	``	_	2	U	2:U	_
+2	Encouraged	encourage	VERB	VBN	_	0	H	0:H	_
+3	by	by	ADP	IN	_	8	R	8:R	_
+4	her	she	PRON	PRP$	_	8	E	8:E	_
+5	Golden	golden	NOUN	NN	_	7	E	7:E	_
+6	Globe	Globe	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Award	Award	PROPN	NNP	_	8	E	8:E	_
+8	win	win	PROPN	NNP	_	2	A	2:A	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	George	George	PROPN	NNP	_	8	E	8:E	_
+11	Wallace	Wallace	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	8	N	8:N	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	positive	positive	ADJ	JJ	_	16	E	16:E	_
+15	critical	critical	ADJ	JJ	_	16	E	16:E	_
+16	reception	reception	NOUN	NN	_	8	C	8:C	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	Gia	Gia	PROPN	NNP	_	16	E	16:E	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	she	she	PRON	PRP	_	21	A	21:A|2:A	_
+21	resumed	resume	VERB	VBD	_	2	H	2:H	_
+22	her	she	PRON	PRP$	_	23	E	23:E	_
+23	career	career	NOUN	NN	_	21	A	21:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

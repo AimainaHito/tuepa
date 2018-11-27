@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 525009
+# text = At the age of 21 , she was given the " glamour treatment " in Presenting Lily Mars , in which she was dressed in " grown - up " gowns .
+1	At	at	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	21	21	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	she	she	PRON	PRP	_	9	A	9:A|3:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	given	give	VERB	VBN	_	3	H	3:H	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	"	"	PUNCT	``	_	13	U	13:U	_
+12	glamour	glamour	NOUN	NN	_	13	E	13:E	_
+13	treatment	treatment	NOUN	NN	_	9	A	9:A	_
+14	"	"	PUNCT	''	_	9	U	9:U	_
+15	in	in	SCONJ	IN	_	16	R	16:R	_
+16	Presenting	present	VERB	VBG	_	9	A	9:A	_
+17	Lily	Lily	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Mars	Mars	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	,	,	PUNCT	,	_	3	U	3:U	_
+20	in	in	ADP	IN	_	3	L	3:L	_
+21	which	which	PRON	WDT	_	20	Terminal	20:Terminal	_
+22	she	she	PRON	PRP	_	24	A	24:A	_
+23	was	be	AUX	VBD	_	24	F	24:F	_
+24	dressed	dress	VERB	VBN	_	3	H	3:H	_
+25	in	in	ADP	IN	_	31	R	31:R	_
+26	"	"	PUNCT	``	_	31	U	31:U	_
+27	grown	grow	VERB	VBN	_	31	E	31:E	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	up	up	ADP	RP	_	27	Terminal	27:Terminal	_
+30	"	"	PUNCT	``	_	31	U	31:U	_
+31	gowns	gown	NOUN	NNS	_	24	A	24:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

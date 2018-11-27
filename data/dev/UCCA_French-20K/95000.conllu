@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 95000
+# text = Le 13 avril 1867 , la mer étant belle , la brise maniable , le Scotia se trouvait par 15°12' de longitude et 45°37' de latitude .
+1	Le	le	DET	_	_	2	E	2:E	_
+2	13	13	NUM	_	_	17	D	17:D	_
+3	avril	avril	NOUN	_	_	2	Terminal	2:Terminal	_
+4	1867	1867	NUM	_	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	_	_	17	U	17:U	_
+6	la	le	DET	_	_	7	E	7:E	_
+7	mer	mer	NOUN	_	_	9	A	9:A	_
+8	étant	être	AUX	_	_	9	F	9:F	_
+9	belle	beau	ADJ	_	_	17	H	17:H	_
+10	,	,	PUNCT	_	_	17	U	17:U	_
+11	la	le	DET	_	_	12	E	12:E	_
+12	brise	brise	NOUN	_	_	13	A	13:A	_
+13	maniable	maniable	ADJ	_	_	17	H	17:H	_
+14	,	,	PUNCT	_	_	17	U	17:U	_
+15	le	le	DET	_	_	16	E	16:E	_
+16	Scotia	Scotia	PROPN	_	_	17	A	17:A	_
+17	se	se	PRON	_	_	0	H	0:H	_
+18	trouvait	trouver	VERB	_	_	17	Terminal	17:Terminal	_
+19	par	par	ADP	_	_	20	R	20:R|24:R	_
+20	15°12'	15°12e	PRON	_	_	17	A	17:A	_
+21	de	de	ADP	_	_	22	R	22:R	_
+22	longitude	longitude	NOUN	_	_	20	E	20:E	_
+23	et	et	CCONJ	_	_	20	N	20:N	_
+24	45°37'	45°37e	SCONJ	_	_	20	C	20:C	_
+25	de	de	ADP	_	_	26	R	26:R	_
+26	latitude	latitude	NOUN	_	_	24	E	24:E	_
+27	.	.	PUNCT	_	_	26	U	26:U	_
+

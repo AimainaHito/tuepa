@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25732014
+# text = Oder eine den Gelehrten der Erde noch unbekannte Naturerscheinung ?
+1	Oder	oder	CCONJ	NE	_	9	L	9:L	_
+2	eine	ein	DET	PIS	_	9	E	9:E	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Gelehrten	Gelehrten	NOUN	NN	_	8	A	8:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Erde	Erde	NOUN	NE	_	4	E	4:E	_
+7	noch	noch	ADV	CARD	_	8	D	8:D	_
+8	unbekannte	unbekannt	ADJ	NE	_	9	E	9:E	_
+9	Naturerscheinung	Naturerscheinung	NOUN	NN	_	0	H	0:H	_
+10	?	?	PUNCT	$.	_	9	U	9:U	_
+

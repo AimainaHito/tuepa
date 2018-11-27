@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 494003
+# text = After Terry Burns , his half - brother , introduced him to modern jazz , his enthusiasm for players like Charles Mingus and John Coltrane led his mother to give him a plastic alto saxophone in 1961 ; he was soon receiving lessons from a local musician .
+1	After	after	SCONJ	IN	_	10	L	10:L	_
+2	Terry	Terry	PROPN	NNP	_	10	A	10:A	_
+3	Burns	burns	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	his	he	PRON	PRP$	_	8	E	8:E	_
+6	half	half	NOUN	NN	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	brother	brother	NOUN	NN	_	2	E	2:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	introduced	introduce	VERB	VBD	_	0	H	0:H	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	to	to	ADP	IN	_	14	R	14:R	_
+13	modern	modern	ADJ	JJ	_	14	E	14:E	_
+14	jazz	jazz	NOUN	NN	_	10	A	10:A	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	his	he	PRON	PRP$	_	17	A	17:A	_
+17	enthusiasm	enthusiasm	NOUN	NN	_	26	A	26:A	_
+18	for	for	ADP	IN	_	19	R	19:R	_
+19	players	player	NOUN	NNS	_	17	A	17:A	_
+20	like	like	ADP	IN	_	21	R	21:R	_
+21	Charles	Charles	PROPN	NNP	_	19	E	19:E	_
+22	Mingus	Mingus	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	and	and	CCONJ	CC	_	21	N	21:N	_
+24	John	John	PROPN	NNP	_	21	C	21:C	_
+25	Coltrane	Coltrane	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	led	lead	VERB	VBD	_	10	H	10:H	_
+27	his	he	PRON	PRP$	_	28	E	28:E	_
+28	mother	mother	NOUN	NN	_	26	A	26:A	_
+29	to	to	PART	TO	_	30	F	30:F	_
+30	give	give	VERB	VB	_	26	A	26:A	_
+31	him	he	PRON	PRP	_	30	A	30:A	_
+32	a	a	DET	DT	_	35	E	35:E	_
+33	plastic	plastic	NOUN	NN	_	35	E	35:E	_
+34	alto	alto	PART	TO	_	35	E	35:E	_
+35	saxophone	saxophone	VERB	VB	_	30	A	30:A	_
+36	in	in	ADP	IN	_	37	R	37:R	_
+37	1961	1961	NUM	CD	_	30	D	30:D	_
+38	;	;	PUNCT	,	_	10	U	10:U	_
+39	he	he	PRON	PRP	_	42	A	42:A	_
+40	was	be	AUX	VBD	_	42	F	42:F	_
+41	soon	soon	ADV	RB	_	42	D	42:D	_
+42	receiving	receive	VERB	VBG	_	10	H	10:H	_
+43	lessons	lesson	NOUN	NNS	_	42	A	42:A	_
+44	from	from	ADP	IN	_	47	R	47:R	_
+45	a	a	DET	DT	_	47	E	47:E	_
+46	local	local	ADJ	JJ	_	47	E	47:E	_
+47	musician	musician	NOUN	NN	_	42	A	42:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

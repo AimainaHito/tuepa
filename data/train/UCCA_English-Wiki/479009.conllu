@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 479009
+# text = Despite their on - court rivalry , Johnson and Bird became close friends during the filming of a 1984 Converse shoe advertisement that depicted them as enemies .
+1	Despite	despite	ADP	IN	_	6	L	6:L	_
+2	their	they	PRON	PRP$	_	6	A	6:A	_
+3	on	on	ADP	IN	_	5	R	5:R	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	court	court	NOUN	NN	_	6	D	6:D	_
+6	rivalry	rivalry	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Johnson	Johnson	PROPN	NNP	_	11	A	11:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	Bird	bird	PROPN	NNP	_	8	C	8:C	_
+11	became	become	VERB	VBD	_	6	H	6:H	_
+12	close	close	ADJ	JJ	_	13	E	13:E	_
+13	friends	friend	NOUN	NNS	_	11	A	11:A	_
+14	during	during	ADP	IN	_	6	L	6:L	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	filming	filming	NOUN	NN	_	6	H	6:H	_
+17	of	of	ADP	IN	_	22	R	22:R	_
+18	a	a	DET	DT	_	22	E	22:E	_
+19	1984	1984	NUM	CD	_	22	E	22:E	_
+20	Converse	Converse	NOUN	NN	_	21	E	21:E	_
+21	shoe	shoe	NOUN	NN	_	22	E	22:E	_
+22	advertisement	advertisement	NOUN	NN	_	16	A	16:A	_
+23	that	that	PRON	WDT	_	24	F	24:F	_
+24	depicted	depict	VERB	VBD	_	22	E	22:E	_
+25	them	they	PRON	PRP	_	24	A	24:A|27:A	_
+26	as	as	ADP	IN	_	27	R	27:R	_
+27	enemies	enemy	NOUN	NNS	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

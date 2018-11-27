@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25702005
+# text = » Oh , mein Herr « , sagte er zu mir mit vor Unruhe zitternder Stimme , » so etwas hab' ich noch nie erlegt . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Oh	Oh	PROPN	ADJD	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	zu	zu	ADP	VVINF	_	11	R	11:R	_
+11	mir	ich	PRON	PPER	_	8	A	8:A	_
+12	mit	mit	ADP	APPR	_	16	R	16:R	_
+13	vor	vor	ADP	NN	_	14	R	14:R	_
+14	Unruhe	Unruhe	PROPN	NN	_	15	A	15:A	_
+15	zitternder	zitternd	ADJ	ADJA	_	8	A	8:A	_
+16	Stimme	Stimme	NOUN	NN	_	15	A	15:A	_
+17	,	,	PUNCT	$,	_	8	U	8:U	_
+18	»	»	PUNCT	$(	_	8	U	8:U	_
+19	so	so	ADV	ADV	_	25	A	25:A	_
+20	etwas	etwas	PRON	PIS	_	19	Terminal	19:Terminal	_
+21	hab'	hab'	PUNCT	$(	_	25	F	25:F	_
+22	ich	ich	PRON	PPER	_	25	A	25:A	_
+23	noch	noch	ADV	VVINF	_	25	D	25:D	_
+24	nie	nie	ADV	ADV	_	25	D	25:D	_
+25	erlegt	erlegen	VERB	VVPP	_	2	H	2:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+27	«	«	PUNCT	$(	_	25	U	25:U	_
+

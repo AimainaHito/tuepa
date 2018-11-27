@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 224005
+# text = Chan 's first major breakthrough was the 1978 film Snake in the Eagle 's Shadow , shot while he was loaned to Seasonal Film Corporation under a two - picture deal .
+1	Chan	Chan	PROPN	NNP	_	5	A	5:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	first	first	ADJ	JJ	_	5	D	5:D	_
+4	major	major	ADJ	JJ	_	5	D	5:D	_
+5	breakthrough	breakthrough	NOUN	NN	_	6	A	6:A	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	1978	1978	NUM	CD	_	10	E	10:E	_
+9	film	film	NOUN	NN	_	10	E	10:E	_
+10	Snake	snake	NOUN	NN	_	6	A	6:A	_
+11	in	in	ADP	IN	_	10	Terminal	10:Terminal	_
+12	the	the	DET	DT	_	10	Terminal	10:Terminal	_
+13	Eagle	Eagle	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	's	's	PART	POS	_	10	Terminal	10:Terminal	_
+15	Shadow	shadow	PROPN	NNP	_	10	Terminal	10:Terminal	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	shot	shot	VERB	VBD	_	10	E	10:E	_
+18	while	while	SCONJ	IN	_	17	L	17:L	_
+19	he	he	PRON	PRP	_	21	A	21:A	_
+20	was	be	AUX	VBD	_	21	F	21:F	_
+21	loaned	loan	VERB	VBN	_	17	H	17:H	_
+22	to	to	ADP	IN	_	23	R	23:R	_
+23	Seasonal	seasonal	PROPN	NNP	_	21	A	21:A	_
+24	Film	film	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	Corporation	Corporation	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	under	under	ADP	IN	_	31	R	31:R	_
+27	a	a	DET	DT	_	31	E	31:E	_
+28	two	two	NUM	CD	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	picture	picture	NOUN	NN	_	31	E	31:E	_
+31	deal	deal	NOUN	NN	_	21	A	21:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

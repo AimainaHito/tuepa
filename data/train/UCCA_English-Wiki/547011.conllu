@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 547011
+# text = Meanwhile , Lehman and the film 's director , Mike Nichols , battled with studio executives and exhibitors who insisted that the film be shot in color rather than black and white .
+1	Meanwhile	meanwhile	ADV	RB	_	13	L	13:L	_
+2	,	,	PUNCT	,	_	13	U	13:U	_
+3	Lehman	Lehman	PROPN	NNP	_	13	A	13:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	film	film	NOUN	NN	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	director	director	NOUN	NN	_	10	E	10:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	Mike	Mike	PROPN	NNP	_	3	C	3:C	_
+11	Nichols	Nichols	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	battled	battle	VERB	VBN	_	0	H	0:H	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	studio	studio	NOUN	NN	_	16	E	16:E	_
+16	executives	executive	NOUN	NNS	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	exhibitors	exhibitor	NOUN	NNS	_	16	C	16:C	_
+19	who	who	PRON	WP	_	20	F	20:F	_
+20	insisted	insist	VERB	VBD	_	16	E	16:E	_
+21	that	that	SCONJ	IN	_	25	F	25:F	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	film	film	NOUN	NN	_	25	A	25:A	_
+24	be	be	AUX	VB	_	25	F	25:F	_
+25	shot	shoot	VERB	VBN	_	20	A	20:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	color	color	NOUN	NN	_	25	A	25:A	_
+28	rather	rather	ADV	RB	_	27	N	27:N	_
+29	than	than	ADP	IN	_	28	Terminal	28:Terminal	_
+30	black	black	ADJ	JJ	_	27	C	27:C	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	white	white	ADJ	JJ	_	30	C	30:C	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

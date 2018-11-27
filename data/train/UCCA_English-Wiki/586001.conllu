@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 586001
+# text = A year after his parents ' divorce , Depp dropped out of high school to become a rock musician .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	year	year	NOUN	NN	_	7	L	7:L	_
+3	after	after	ADP	IN	_	2	R	2:R	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	parents	parent	NOUN	NNS	_	7	A	7:A	_
+6	'	's	PART	POS	_	7	U	7:U	_
+7	divorce	divorce	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Depp	Depp	PROPN	NNP	_	10	A	10:A|16:A	_
+10	dropped	drop	VERB	VBD	_	7	H	7:H	_
+11	out	out	ADP	IN	_	10	Terminal	10:Terminal	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	high	high	ADJ	JJ	_	10	A	10:A	_
+14	school	school	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	to	to	PART	TO	_	7	L	7:L	_
+16	become	become	VERB	VB	_	7	H	7:H	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	rock	rock	NOUN	NN	_	19	E	19:E	_
+19	musician	musician	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

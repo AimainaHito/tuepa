@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25782009
+# text = Im Moment , als ich den Salon zu verlassen im Begriff war , traten Ned Land und Conseil ein .
+1	Im	Im	ADJ	NE	_	9	L	9:L	_
+2	Moment	Moment	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	$,	_	1	U	1:U	_
+4	als	als	SCONJ	KOUS	_	1	Terminal	1:Terminal	_
+5	ich	ich	PRON	PPER	_	9	A	9:A	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Salon	Salen	NOUN	NN	_	9	A	9:A	_
+8	zu	zu	PART	ADJA	_	9	F	9:F	_
+9	verlassen	verlassen	VERB	NN	_	0	H	0:H	_
+10	im	im	ADV	NE	_	11	R	11:R	_
+11	Begriff	Begriff	NOUN	NN	_	9	D	9:D	_
+12	war	sein	AUX	ADV	_	9	F	9:F	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	traten	treten	VERB	VVFIN	_	9	H	9:H	_
+15	Ned	Ned	PROPN	NE	_	14	A	14:A	_
+16	Land	Land	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	und	und	CCONJ	NE	_	15	N	15:N	_
+18	Conseil	Conseil	NOUN	NE	_	15	C	15:C	_
+19	ein	ein	ADV	PTKVZ	_	14	Terminal	14:Terminal	_
+20	.	.	PUNCT	$.	_	14	U	14:U	_
+

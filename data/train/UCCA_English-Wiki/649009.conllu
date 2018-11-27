@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 649009
+# text = Later that year , Lennon and Ono supported efforts by the family of James Hanratty , hanged for murder in 1962 , to prove his innocence .
+1	Later	later	ADV	RBR	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	8	D	8:D	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Lennon	Lennon	PROPN	NNP	_	8	A	8:A|24:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Ono	Ono	PROPN	NNP	_	5	C	5:C	_
+8	supported	support	VERB	VBD	_	0	H	0:H	_
+9	efforts	effort	NOUN	NNS	_	8	A	8:A	_
+10	by	by	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	family	family	NOUN	NN	_	9	A	9:A	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	James	James	PROPN	NNP	_	12	E	12:E	_
+15	Hanratty	Hanratty	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	hanged	hang	VERB	VBD	_	14	E	14:E	_
+18	for	for	ADP	IN	_	19	R	19:R	_
+19	murder	murder	NOUN	NN	_	17	A	17:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1962	1962	NUM	CD	_	17	D	17:D	_
+22	,	,	PUNCT	,	_	9	U	9:U	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	prove	prove	VERB	VB	_	9	A	9:A	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	innocence	innocence	NOUN	NN	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

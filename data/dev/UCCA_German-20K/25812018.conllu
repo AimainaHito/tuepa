@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25812018
+# text = Kapitän Nemo hieb mit einem Beil den fürchterlichen Arm entzwei , der sich krümmend über die Treppenstufen rutschte .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	hieb	heiben	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	einem	ein	DET	ART	_	6	E	6:E	_
+6	Beil	Beil	NOUN	NN	_	3	A	3:A	_
+7	den	der	DET	ART	_	9	E	9:E	_
+8	fürchterlichen	fürchterlich	ADJ	ADJA	_	9	E	9:E	_
+9	Arm	Arm	NOUN	NN	_	3	A	3:A	_
+10	entzwei	entzwein	VERB	CARD	_	3	Terminal	3:Terminal	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	der	der	PRON	PRELS	_	13	R	13:R	_
+13	sich	er|es|sie	PRON	PRF	_	9	E	9:E	_
+14	krümmend	krümmend	ADJ	ADJD	_	13	D	13:D	_
+15	über	über	ADP	VVFIN	_	17	R	17:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Treppenstufen	Treppenstufe	NOUN	NN	_	13	A	13:A	_
+18	rutschte	rutschen	VERB	VVFIN	_	13	Terminal	13:Terminal	_
+19	.	.	PUNCT	$.	_	13	U	13:U	_
+

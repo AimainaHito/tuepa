@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25520002
+# text = « » Herr Arronax , ein eisernes Schiff kostet 1.125 Franc per Tonne . Da nun die ›Nautilus‹ 1.500 Tonnen Gewicht hat , so kommt er auf 1.687.000 Franc , und mit Inbegriff seiner Einrichtung 2 Millionen , d.h. mit den Kunst werken und Sammlungen 4 bis 5 Millionen .
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	»	»	PUNCT	$(	_	9	U	9:U	_
+3	Herr	Herr	PROPN	NN	_	4	E	4:E	_
+4	Arronax	Arronax	PROPN	NE	_	9	G	9:G	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	eisernes	eisern	ADJ	ADJA	_	8	E	8:E	_
+8	Schiff	Schiff	NOUN	NN	_	9	A	9:A	_
+9	kostet	kosten	VERB	VVFIN	_	0	H	0:H	_
+10	1.125	1.125	NUM	CARD	_	11	E	11:E	_
+11	Franc	Franc	NOUN	NN	_	9	A	9:A	_
+12	per	per	ADP	CARD	_	13	R	13:R	_
+13	Tonne	Tonne	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	9	U	9:U	_
+15	Da	da	SCONJ	KOUS	_	9	L	9:L	_
+16	nun	nun	ADV	ADV	_	22	F	22:F	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	›Nautilus‹	›Nautilus‹	NOUN	NE	_	22	A	22:A	_
+19	1.500	1.5	NUM	CARD	_	20	E	20:E	_
+20	Tonnen	Tonne	NOUN	NN	_	22	A	22:A	_
+21	Gewicht	Gewicht	NOUN	VVFIN	_	22	A	22:A	_
+22	hat	haben	VERB	VAFIN	_	9	H	9:H	_
+23	,	,	PUNCT	$,	_	9	U	9:U	_
+24	so	so	ADV	ADV	_	9	L	9:L	_
+25	kommt	kommen	VERB	VVFIN	_	9	H	9:H	_
+26	er	er	PRON	PPER	_	25	A	25:A	_
+27	auf	auf	ADP	APPR	_	29	R	29:R	_
+28	1.687.000	1.687.000	NUM	CARD	_	29	E	29:E	_
+29	Franc	Franc	NOUN	NN	_	0	C	0:C|36:C	_
+30	,	,	PUNCT	$,	_	9	U	9:U	_
+31	und	und	CCONJ	NE	_	9	L	9:L	_
+32	mit	mit	ADP	APPR	_	33	R	33:R	_
+33	Inbegriff	Inbegriff	NOUN	NN	_	9	H	9:H	_
+34	seiner	sein	DET	PPOSAT	_	35	R	35:R	_
+35	Einrichtung	Einrichtung	NOUN	NN	_	33	E	33:E	_
+36	2	2	NUM	CARD	_	33	A	33:A	_
+37	Millionen	Million	NOUN	NN	_	36	Terminal	36:Terminal	_
+38	,	,	PUNCT	$,	_	9	U	9:U	_
+39	d.h.	d.h.	CCONJ	KON	_	9	L	9:L	_
+40	mit	mit	ADP	APPR	_	43	R	43:R	_
+41	den	der	DET	ART	_	43	E	43:E	_
+42	Kunst	Kunst	NOUN	NN	_	43	E	43:E	_
+43	werken	werken	VERB	VVFIN	_	9	H	9:H	_
+44	und	und	CCONJ	NE	_	43	N	43:N	_
+45	Sammlungen	Sammlung	NOUN	NN	_	43	C	43:C	_
+46	4	4	NUM	CARD	_	49	E	49:E	_
+47	bis	bis	ADP	KON	_	46	N	46:N	_
+48	5	5	NUM	CARD	_	46	C	46:C	_
+49	Millionen	Million	NOUN	NN	_	43	A	43:A	_
+50	.	.	PUNCT	$.	_	49	U	49:U	_
+

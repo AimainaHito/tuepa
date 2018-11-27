@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25706017
+# text = » Herr Professor « , sagte er zu mir , » wäre es Ihnen gefällig , mich in das Gehäuse des Steuerers zu begleiten . «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Professor	Professor	PROPN	NN	_	15	G	15:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	zu	zu	ADP	VVINF	_	9	R	9:R	_
+9	mir	ich	PRON	PPER	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	wäre	sein	AUX	ADV	_	15	D	15:D	_
+13	es	es	PRON	PPER	_	15	F	15:F	_
+14	Ihnen	sie	PRON	PPER	_	15	A	15:A|24:A	_
+15	gefällig	gefällig	ADJ	ADJD	_	6	A	6:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	mich	ich	PRON	PRF	_	24	A	24:A	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	Gehäuse	Gehäuse	NOUN	NN	_	24	A	24:A	_
+21	des	der	DET	ART	_	22	R	22:R	_
+22	Steuerers	Steuerer	NOUN	NN	_	20	E	20:E	_
+23	zu	zu	PART	NE	_	24	F	24:F	_
+24	begleiten	begleiten	VERB	VVINF	_	15	A	15:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

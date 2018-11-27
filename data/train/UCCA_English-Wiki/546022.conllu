@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 546022
+# text = This subterfuge , however , proved too much for Harry ; he never spoke to Jack again .
+1	This	this	DET	DT	_	2	E	2:E	_
+2	subterfuge	subterfuge	NOUN	NN	_	8	A	8:A	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	however	however	ADV	RB	_	8	L	8:L	_
+5	,	,	PUNCT	,	_	8	U	8:U	_
+6	proved	prove	VERB	VBD	_	8	D	8:D	_
+7	too	too	ADV	RB	_	8	D	8:D	_
+8	much	much	ADJ	JJ	_	0	H	0:H	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	Harry	Harry	PROPN	NNP	_	8	A	8:A	_
+11	;	;	PUNCT	,	_	8	U	8:U	_
+12	he	he	PRON	PRP	_	14	A	14:A	_
+13	never	never	ADV	RB	_	14	D	14:D	_
+14	spoke	speak	VERB	VBD	_	8	H	8:H	_
+15	to	to	ADP	IN	_	16	R	16:R	_
+16	Jack	Jack	PROPN	NNP	_	14	A	14:A	_
+17	again	again	ADV	RB	_	14	D	14:D	_
+18	.	.	PUNCT	.	_	14	U	14:U	_
+

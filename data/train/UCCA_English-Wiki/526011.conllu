@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 526011
+# text = Because of her mental condition , Garland was unable to complete a series of films .
+1	Because	because	ADP	IN	_	5	L	5:L	_
+2	of	of	ADP	IN	_	1	Terminal	1:Terminal	_
+3	her	she	PRON	PRP$	_	5	E	5:E	_
+4	mental	mental	ADJ	JJ	_	5	E	5:E	_
+5	condition	condition	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Garland	Garland	PROPN	NNP	_	11	A	11:A	_
+8	was	be	AUX	VBD	_	11	F	11:F	_
+9	unable	unable	ADJ	JJ	_	11	E	11:E	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	complete	complete	VERB	VB	_	5	H	5:H	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	series	series	NOUN	NN	_	15	E	15:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	films	film	NOUN	NNS	_	11	A	11:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

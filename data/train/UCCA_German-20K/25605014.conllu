@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25605014
+# text = Aber es hatte sich , auf der Seite liegend , gefüllt .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	es	es	PRON	PPER	_	4	A	4:A	_
+3	hatte	haben	VERB	VAFIN	_	4	F	4:F	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Seite	Seite	NOUN	NN	_	9	A	9:A	_
+9	liegend	liegend	ADJ	ADJD	_	2	E	2:E	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	gefüllt	füllen	ADJ	VVPP	_	4	Terminal	4:Terminal	_
+12	.	.	PUNCT	$.	_	4	U	4:U	_
+

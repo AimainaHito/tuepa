@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25627012
+# text = » Das sind nur erst Vögel « , sagte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Das	der	PRON	ART	_	3	A	3:A	_
+3	sind	sein	AUX	NE	_	9	A	9:A	_
+4	nur	nur	ADV	NE	_	3	D	3:D	_
+5	erst	erst	ADV	ADV	_	3	D	3:D	_
+6	Vögel	Vogel	NOUN	NN	_	3	A	3:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	PROPN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

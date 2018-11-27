@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 601000
+# text = At the age of fifteen , McCartney met Lennon and his band , the Quarrymen , at the St Peter 's Church Hall fête in Woolton on 6 July 1957 .
+1	At	at	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	5	E	5:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	fifteen	fifteen	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	McCartney	McCartney	PROPN	NNP	_	8	A	8:A	_
+8	met	meet	VERB	VBD	_	0	H	0:H	_
+9	Lennon	Lennon	PROPN	NNP	_	8	A	8:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	band	band	NOUN	NN	_	14	E	14:E	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	the	the	DET	DT	_	9	C	9:C	_
+15	Quarrymen	Quarrymen	PROPN	NNPS	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	8	U	8:U	_
+17	at	at	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	St	St	PROPN	NNP	_	8	A	8:A	_
+20	Peter	Peter	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	's	's	PART	POS	_	19	Terminal	19:Terminal	_
+22	Church	Church	PROPN	NNP	_	19	Terminal	19:Terminal	_
+23	Hall	Hall	PROPN	NNP	_	19	Terminal	19:Terminal	_
+24	fête	fête	NOUN	NN	_	19	Terminal	19:Terminal	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Woolton	Woolton	PROPN	NNP	_	8	A	8:A	_
+27	on	on	ADP	IN	_	28	R	28:R	_
+28	6	6	NUM	CD	_	8	D	8:D	_
+29	July	July	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	1957	1957	NUM	CD	_	28	Terminal	28:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

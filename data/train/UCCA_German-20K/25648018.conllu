@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25648018
+# text = Meine Augen , die ich offenhalten wollte , schlossen sich trotz meines Widerstrebens .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Augen	Auge	NOUN	NN	_	9	A	9:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	die	der	PRON	PRELS	_	6	R	6:R	_
+5	ich	ich	PRON	PPER	_	6	A	6:A	_
+6	offenhalten	offenhalten	VERB	VVINF	_	2	E	2:E	_
+7	wollte	wollen	AUX	VMFIN	_	6	D	6:D	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	schlossen	schließen	VERB	VVFIN	_	0	H	0:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	trotz	trotz	ADP	APPR	_	13	R	13:R	_
+12	meines	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Widerstrebens	Widerstreben	NOUN	NN	_	9	A	9:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25631014
+# text = Ned Land machte sich unverzüglich an die Bereitung des Mahles , worauf er sich vortrefflich verstand .
+1	Ned	Ned	PROPN	NE	_	3	A	3:A|8:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	unverzüglich	unverzüglich	ADJ	ADJD	_	3	D	3:D	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Bereitung	Bereitung	NOUN	NN	_	0	C	0:C|14:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Mahles	Mahle	NOUN	NE	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	worauf	worauf	SCONJ	PWAV	_	14	R	14:R	_
+13	er	er	PRON	PPER	_	14	A	14:A	_
+14	sich	er|es|sie	PRON	PRF	_	8	E	8:E	_
+15	vortrefflich	vortrefflich	ADJ	ADJD	_	14	D	14:D	_
+16	verstand	verstehen	VERB	VVFIN	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

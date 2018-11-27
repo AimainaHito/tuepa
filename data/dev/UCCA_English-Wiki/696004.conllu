@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 696004
+# text = This account is supported by Kooper and one of the directors of the festival , who reports his audio recording of the concert proves that the only boos were in reaction to the emcee 's announcement that there was only enough time for a short set .
+1	This	this	DET	DT	_	2	E	2:E	_
+2	account	account	NOUN	NN	_	4	A	4:A	_
+3	is	be	AUX	VBZ	_	4	F	4:F	_
+4	supported	support	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Kooper	Kooper	PROPN	NNP	_	4	A	4:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	one	one	NUM	CD	_	11	E	11:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	directors	director	NOUN	NNS	_	0	C	0:C|17:A	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	festival	festival	NOUN	NN	_	11	E	11:E	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	who	who	PRON	WP	_	17	F	17:F	_
+17	reports	report	VERB	VBZ	_	6	E	6:E	_
+18	his	he	PRON	PRP$	_	20	E	20:E	_
+19	audio	audio	NOUN	NN	_	20	E	20:E	_
+20	recording	recording	NOUN	NN	_	24	A	24:A	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	concert	concert	NOUN	NN	_	20	E	20:E	_
+24	proves	prove	VERB	VBZ	_	17	A	17:A	_
+25	that	that	SCONJ	IN	_	30	F	30:F	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	only	only	ADJ	JJ	_	30	D	30:D	_
+28	boos	boo	NOUN	NNS	_	30	A	30:A	_
+29	were	be	AUX	VBD	_	30	F	30:F	_
+30	in	in	ADP	IN	_	24	A	24:A	_
+31	reaction	reaction	NOUN	NN	_	30	Terminal	30:Terminal	_
+32	to	to	ADP	IN	_	36	R	36:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	emcee	emcee	NOUN	NN	_	36	A	36:A	_
+35	's	's	PART	POS	_	34	R	34:R	_
+36	announcement	announcement	NOUN	NN	_	30	A	30:A	_
+37	that	that	SCONJ	IN	_	42	F	42:F	_
+38	there	there	PRON	EX	_	42	F	42:F	_
+39	was	be	VERB	VBD	_	42	F	42:F	_
+40	only	only	ADV	RB	_	42	D	42:D	_
+41	enough	enough	ADJ	JJ	_	42	E	42:E	_
+42	time	time	NOUN	NN	_	36	A	36:A	_
+43	for	for	ADP	IN	_	46	R	46:R	_
+44	a	a	DET	DT	_	46	E	46:E	_
+45	short	short	ADJ	JJ	_	46	E	46:E	_
+46	set	set	NOUN	NN	_	42	A	42:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

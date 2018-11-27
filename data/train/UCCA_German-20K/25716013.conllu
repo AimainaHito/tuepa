@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25716013
+# text = Es wurde Befehl erteilt , und die ›Nautilus‹ drehte sich , um sich aus diesem Glühofen , dem sie nicht ungestraft trotzen konnte , zu entfernen .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	wurde	werden	AUX	TRUNC	_	4	F	4:F	_
+3	Befehl	Befehl	NOUN	NN	_	4	A	4:A	_
+4	erteilt	erteilen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	und	und	CCONJ	NE	_	4	L	4:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|21:A|13:A	_
+9	drehte	drehen	VERB	VVFIN	_	4	H	4:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	um	um	ADP	KOUI	_	4	L	4:L	_
+13	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+14	aus	aus	ADP	APPR	_	16	R	16:R	_
+15	diesem	dies	PRON	PDAT	_	16	E	16:E	_
+16	Glühofen	Glühofen	NOUN	NE	_	13	A	13:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	dem	der	PRON	ART	_	22	R	22:R	_
+19	sie	sie	PRON	ADV	_	22	A	22:A	_
+20	nicht	nicht	PART	CARD	_	22	D	22:D	_
+21	ungestraft	ungestraft	ADJ	NN	_	16	E	16:E	_
+22	trotzen	trotzen	VERB	VVINF	_	16	E	16:E	_
+23	konnte	können	AUX	VMFIN	_	22	D	22:D	_
+24	,	,	PUNCT	$,	_	13	U	13:U	_
+25	zu	zu	PART	VVINF	_	13	F	13:F	_
+26	entfernen	entfernen	VERB	VVINF	_	13	Terminal	13:Terminal	_
+27	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 470003
+# text = In Game 3 , Johnson responded with 21 assists in a 137 - 104 win , but in Game 4 , he again made several crucial errors late in the contest .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Game	game	NOUN	NN	_	6	D	6:D	_
+3	3	3	NUM	CD	_	2	E	2:E	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Johnson	Johnson	PROPN	NNP	_	6	A	6:A	_
+6	responded	respond	VERB	VBD	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	21	21	NUM	CD	_	9	E	9:E	_
+9	assists	assist	NOUN	NNS	_	6	A	6:A	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	a	a	DET	DT	_	15	E	15:E	_
+12	137	137	NUM	CD	_	15	E	15:E	_
+13	-	-	SYM	SYM	_	12	U	12:U	_
+14	104	104	NUM	CD	_	12	Terminal	12:Terminal	_
+15	win	win	NOUN	NN	_	6	A	6:A	_
+16	,	,	PUNCT	,	_	6	U	6:U	_
+17	but	but	CCONJ	CC	_	6	L	6:L	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	Game	game	NOUN	NN	_	24	D	24:D	_
+20	4	4	NUM	CD	_	19	E	19:E	_
+21	,	,	PUNCT	,	_	24	U	24:U	_
+22	he	he	PRON	PRP	_	24	A	24:A	_
+23	again	again	ADV	RB	_	24	D	24:D	_
+24	made	make	VERB	VBD	_	6	H	6:H	_
+25	several	several	ADJ	JJ	_	27	E	27:E	_
+26	crucial	crucial	ADJ	JJ	_	27	E	27:E	_
+27	errors	error	NOUN	NNS	_	24	A	24:A	_
+28	late	late	ADV	RB	_	31	E	31:E	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	contest	contest	NOUN	NN	_	24	D	24:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

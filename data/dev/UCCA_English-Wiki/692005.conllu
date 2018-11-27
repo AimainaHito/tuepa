@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 692005
+# text = He also learned new material from several UK performers , including Martin Carthy .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	learned	learn	VERB	VBD	_	0	H	0:H	_
+4	new	new	ADJ	JJ	_	5	E	5:E	_
+5	material	material	NOUN	NN	_	3	A	3:A	_
+6	from	from	ADP	IN	_	9	R	9:R	_
+7	several	several	ADJ	JJ	_	9	E	9:E	_
+8	UK	UK	PROPN	NNP	_	9	E	9:E	_
+9	performers	performer	NOUN	NNS	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	including	include	VERB	VBG	_	12	R	12:R	_
+12	Martin	Martin	PROPN	NNP	_	9	E	9:E	_
+13	Carthy	Carthy	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

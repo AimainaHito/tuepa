@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 471001
+# text = The Lakers advanced to the Western Conference Finals , but were unable to defeat the Houston Rockets , who advanced to the Finals in five games .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Lakers	Laker	NOUN	NNS	_	3	A	3:A|14:A	_
+3	advanced	advance	ADJ	JJ	_	0	H	0:H	_
+4	to	to	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	Western	Western	ADJ	JJ	_	8	E	8:E	_
+7	Conference	Conference	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	Finals	Finals	NOUN	NNS	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	but	but	CCONJ	CC	_	3	L	3:L	_
+11	were	be	AUX	VBD	_	14	F	14:F	_
+12	unable	unable	ADJ	JJ	_	14	E	14:E	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	defeat	defeat	VERB	VB	_	3	H	3:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Houston	Houston	PROPN	NNP	_	14	A	14:A	_
+17	Rockets	Rockets	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	who	who	PRON	WP	_	20	F	20:F	_
+20	advanced	advance	VERB	VBD	_	16	E	16:E	_
+21	to	to	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	Finals	Finals	NOUN	NNS	_	20	A	20:A	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	five	five	NUM	CD	_	26	E	26:E	_
+26	games	game	NOUN	NNS	_	20	A	20:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

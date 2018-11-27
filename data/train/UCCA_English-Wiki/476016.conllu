@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 476016
+# text = In 2006 Johnson created a contract food service with Sodexo USA called Sodexo - Magic .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2006	2006	NUM	CD	_	4	D	4:D	_
+3	Johnson	Johnson	PROPN	NNP	_	4	A	4:A	_
+4	created	create	VERB	VBD	_	0	H	0:H	_
+5	a	a	DET	DT	_	8	E	8:E	_
+6	contract	contract	NOUN	NN	_	8	E	8:E	_
+7	food	food	NOUN	NN	_	8	E	8:E	_
+8	service	service	NOUN	NN	_	12	A	12:A	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Sodexo	Sodexo	PROPN	NNP	_	4	A	4:A	_
+11	USA	USA	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	called	call	VERB	VBD	_	4	A	4:A	_
+13	Sodexo	Sodexo	PROPN	NNP	_	12	A	12:A	_
+14	-	-	PUNCT	HYPH	_	13	U	13:U	_
+15	Magic	magic	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	.	.	PUNCT	.	_	12	U	12:U	_
+

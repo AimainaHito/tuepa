@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 199003
+# text = On September 8 , 2011 , HBO ordered ten episodes of The Newsroom , which debuted on June 24 , 2012 .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	September	September	PROPN	NNP	_	5	E	5:E	_
+3	8	8	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	2011	2011	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	HBO	HBO	PROPN	NNP	_	8	A	8:A	_
+8	ordered	order	VERB	VBD	_	0	H	0:H	_
+9	ten	ten	NUM	CD	_	10	E	10:E	_
+10	episodes	episode	NOUN	NNS	_	12	E	12:E	_
+11	of	of	ADP	IN	_	10	R	10:R	_
+12	The	the	DET	DT	_	8	A	8:A	_
+13	Newsroom	Newsroom	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	which	which	PRON	WDT	_	16	F	16:F	_
+16	debuted	debute	VERB	VBD	_	12	E	12:E	_
+17	on	on	ADP	IN	_	21	R	21:R	_
+18	June	June	PROPN	NNP	_	21	E	21:E	_
+19	24	24	NUM	CD	_	21	E	21:E	_
+20	,	,	PUNCT	,	_	21	U	21:U	_
+21	2012	2012	NUM	CD	_	16	D	16:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

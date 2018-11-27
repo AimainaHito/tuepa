@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 419000
+# text = De même fut repoussée l' existence d' une coque flottante , d' une énorme épave , et toujours à cause de la rapidité du déplacement .
+1	De	de	ADP	_	_	4	L	4:L	_
+2	même	même	ADV	_	_	1	Terminal	1:Terminal	_
+3	fut	être	AUX	_	_	4	F	4:F	_
+4	repoussée	repousser	VERB	_	_	0	H	0:H	_
+5	l'	le	DET	_	_	6	E	6:E	_
+6	existence	existence	NOUN	_	_	4	A	4:A	_
+7	d'	de	ADP	_	_	9	R	9:R	_
+8	une	un	DET	_	_	9	E	9:E	_
+9	coque	coque	NOUN	_	_	6	A	6:A	_
+10	flottante	flottant	ADJ	_	_	9	E	9:E	_
+11	,	,	PUNCT	_	_	9	U	9:U	_
+12	d'	de	ADP	_	_	15	R	15:R	_
+13	une	un	DET	_	_	15	E	15:E	_
+14	énorme	énorme	ADJ	_	_	15	E	15:E	_
+15	épave	épave	NOUN	_	_	9	C	9:C	_
+16	,	,	PUNCT	_	_	4	U	4:U	_
+17	et	et	CCONJ	_	_	4	F	4:F	_
+18	toujours	toujours	ADV	_	_	23	D	23:D	_
+19	à	à	ADP	_	_	23	D	23:D	_
+20	cause	cause	NOUN	_	_	19	Terminal	19:Terminal	_
+21	de	de	ADP	_	_	19	Terminal	19:Terminal	_
+22	la	le	DET	_	_	23	E	23:E	_
+23	rapidité	rapidité	NOUN	_	_	4	A	4:A	_
+24	du	du	DET	_	_	25	R	25:R	_
+25	déplacement	déplacement	NOUN	_	_	23	A	23:A	_
+26	.	.	PUNCT	_	_	25	U	25:U	_
+

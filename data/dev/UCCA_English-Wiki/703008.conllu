@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 703008
+# text = " Novelist Rick Moody called it " the truest , most honest account of a love affair from tip to stern ever put down on magnetic tape . "
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Novelist	Novelist	PROPN	NNP	_	5	A	5:A	_
+3	Rick	Rick	PROPN	NNP	_	2	E	2:E	_
+4	Moody	Moody	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	called	call	VERB	VBD	_	0	H	0:H	_
+6	it	it	PRON	PRP	_	5	A	5:A	_
+7	"	"	PUNCT	``	_	5	U	5:U	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	truest	truest	NOUN	NN	_	13	D	13:D	_
+10	,	,	PUNCT	,	_	13	U	13:U	_
+11	most	most	ADJ	JJS	_	12	E	12:E	_
+12	honest	honest	ADJ	JJ	_	13	D	13:D	_
+13	account	account	NOUN	NN	_	23	A	23:A	_
+14	of	of	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	love	love	NOUN	NN	_	17	A	17:A	_
+17	affair	affair	NOUN	NN	_	13	A	13:A	_
+18	from	from	ADP	IN	_	19	R	19:R	_
+19	tip	tip	NOUN	NN	_	13	D	13:D	_
+20	to	to	PART	TO	_	19	R	19:R	_
+21	stern	stern	VERB	VB	_	19	C	19:C	_
+22	ever	ever	ADV	RB	_	23	D	23:D	_
+23	put	put	VERB	VBN	_	5	A	5:A	_
+24	down	down	ADP	RP	_	23	Terminal	23:Terminal	_
+25	on	on	ADP	IN	_	27	R	27:R	_
+26	magnetic	magnetic	ADJ	JJ	_	27	E	27:E	_
+27	tape	tape	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+29	"	"	PUNCT	''	_	27	U	27:U	_
+

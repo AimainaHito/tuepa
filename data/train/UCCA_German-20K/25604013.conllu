@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25604013
+# text = Ned Land und Conseil betrachteten die erleuchteten Gewässer durch die Fenster bei geöffneten Läden .
+1	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	und	und	CCONJ	NE	_	1	N	1:N	_
+4	Conseil	Conseil	NOUN	NE	_	1	C	1:C	_
+5	betrachteten	betrachten	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	erleuchteten	erleuchtet	ADJ	ADJA	_	8	E	8:E	_
+8	Gewässer	Gewässer	NOUN	NN	_	5	A	5:A	_
+9	durch	durch	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Fenster	Fenster	NOUN	NN	_	5	A	5:A	_
+12	bei	bei	ADP	APPR	_	13	R	13:R	_
+13	geöffneten	geöffnet	ADJ	ADJA	_	5	A	5:A	_
+14	Läden	Laden	NOUN	NN	_	13	A	13:A	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

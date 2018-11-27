@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25777000
+# text = Als wir an den merkwürdigen Tieren vorbeikamen , konnte ich sie nach Muße betrachten , denn sie ließen sich nicht stören .
+1	Als	als	SCONJ	KOUS	_	7	L	7:L	_
+2	wir	wir	PRON	NE	_	7	A	7:A	_
+3	an	an	ADP	APPR	_	6	R	6:R	_
+4	den	der	DET	ART	_	6	E	6:E	_
+5	merkwürdigen	merkwürdig	ADJ	ADJA	_	6	E	6:E	_
+6	Tieren	Tier	NOUN	NN	_	7	A	7:A	_
+7	vorbeikamen	vorbeikam	ADJ	ADJA	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	konnte	können	AUX	VMFIN	_	14	D	14:D	_
+10	ich	ich	PRON	PPER	_	14	A	14:A	_
+11	sie	sie	PRON	ADV	_	14	A	14:A	_
+12	nach	nach	ADP	NN	_	13	R	13:R	_
+13	Muße	Muß|Muße	NOUN	NN	_	14	D	14:D	_
+14	betrachten	betrachten	VERB	VVINF	_	7	H	7:H	_
+15	,	,	PUNCT	$,	_	7	U	7:U	_
+16	denn	denn	SCONJ	KON	_	7	L	7:L	_
+17	sie	sie	PRON	ADV	_	19	A	19:A	_
+18	ließen	lassen	VERB	VVFIN	_	19	D	19:D	_
+19	sich	er|es|sie	PRON	PRF	_	7	H	7:H	_
+20	nicht	nicht	PART	CARD	_	19	D	19:D	_
+21	stören	stören	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+

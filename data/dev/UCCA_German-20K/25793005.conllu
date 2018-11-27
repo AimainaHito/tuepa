@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25793005
+# text = Ein kalter Schweiß befiel mich .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	kalter	kalt	ADJ	ADJA	_	3	E	3:E	_
+3	Schweiß	schweiß	NOUN	NE	_	4	A	4:A	_
+4	befiel	befallen	VERB	VVFIN	_	0	H	0:H	_
+5	mich	ich	PRON	PPER	_	4	A	4:A	_
+6	.	.	PUNCT	$.	_	4	U	4:U	_
+

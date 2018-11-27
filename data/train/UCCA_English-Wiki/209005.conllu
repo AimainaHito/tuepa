@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 209005
+# text = In 1991 , Hoffman voiced substitute teacher Mr . Bergstrom in The Simpsons episode " Lisa 's Substitute " , under the pseudonym Sam Etic .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1991	1991	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Hoffman	Hoffman	PROPN	NNP	_	5	A	5:A	_
+5	voiced	voice	VERB	VBD	_	0	H	0:H	_
+6	substitute	substitute	ADJ	JJ	_	7	E	7:E	_
+7	teacher	teacher	NOUN	NN	_	8	E	8:E	_
+8	Mr	mr	PROPN	NNP	_	5	A	5:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+10	Bergstrom	Bergstrom	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	in	in	ADP	IN	_	16	R	16:R	_
+12	The	the	DET	DT	_	14	E	14:E	_
+13	Simpsons	Simpsons	PROPN	NNPS	_	12	Terminal	12:Terminal	_
+14	episode	episode	NOUN	NN	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	Lisa	Lisa	PROPN	NNP	_	5	A	5:A	_
+17	's	's	PART	POS	_	16	Terminal	16:Terminal	_
+18	Substitute	Substitute	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	"	"	PUNCT	''	_	5	U	5:U	_
+20	,	,	PUNCT	,	_	5	U	5:U	_
+21	under	under	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	pseudonym	pseudonym	NOUN	NN	_	24	E	24:E	_
+24	Sam	Sam	PROPN	NNP	_	5	A	5:A	_
+25	Etic	Etic	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

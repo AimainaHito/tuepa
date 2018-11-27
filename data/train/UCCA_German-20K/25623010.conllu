@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25623010
+# text = Der Zufall begünstigte das Suchen nach Pflanzen nahrung , und eins der nützlichsten Produkte der tropischen Zone gewährte uns eine kostbare Speise , die an Bord völlig mangelte .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Zufall	Zufall	NOUN	NN	_	3	A	3:A	_
+3	begünstigte	begünstigen	VERB	VVFIN	_	0	H	0:H	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Suchen	suchen	NOUN	NN	_	3	A	3:A	_
+6	nach	nach	ADP	CARD	_	8	R	8:R	_
+7	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	8	E	8:E	_
+8	nahrung	nahrung	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	eins	ein	NOUN	NN	_	14	E	14:E	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	nützlichsten	nützlichst	ADJ	NN	_	14	E	14:E	_
+14	Produkte	Produkt	NOUN	NN	_	18	A	18:A	_
+15	der	der	DET	ART	_	17	R	17:R	_
+16	tropischen	tropischen	ADJ	ADJA	_	17	E	17:E	_
+17	Zone	Zone	NOUN	NN	_	14	E	14:E	_
+18	gewährte	gewährt	VERB	VVFIN	_	3	H	3:H	_
+19	uns	wir	PRON	NN	_	18	A	18:A	_
+20	eine	ein	DET	ART	_	22	E	22:E	_
+21	kostbare	kostbar	ADJ	ADJA	_	22	E	22:E	_
+22	Speise	Speise	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	die	der	PRON	PRELS	_	28	R	28:R	_
+25	an	an	ADP	APPR	_	26	R	26:R	_
+26	Bord	Bord	NOUN	NN	_	28	A	28:A	_
+27	völlig	völlig	ADJ	ADJD	_	28	D	28:D	_
+28	mangelte	mangeln	VERB	VVFIN	_	22	E	22:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

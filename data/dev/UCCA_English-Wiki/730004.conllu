@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 730004
+# text = The film , which Jolie also scripted and co - produced , aroused both praise and criticism in the Balkans ; the response from Bosniak war - victims advocacy organizations was " overwhelmingly positive , " while a Serb war prisoners group decried the film for its alleged anti - Serb bias .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	13	A	13:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	which	which	PRON	WDT	_	7	F	7:F	_
+5	Jolie	Jolie	PROPN	NNP	_	7	A	7:A	_
+6	also	also	ADV	RB	_	7	D	7:D	_
+7	scripted	script	VERB	VBD	_	2	E	2:E	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	co	co	X	AFX	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	produced	produce	VERB	VBN	_	7	C	7:C	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	aroused	arouse	VERB	VBN	_	0	H	0:H	_
+14	both	both	DET	DT	_	15	E	15:E	_
+15	praise	praise	NOUN	NN	_	13	A	13:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	criticism	criticism	NOUN	NN	_	15	C	15:C	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Balkans	Balkans	PROPN	NNPS	_	13	A	13:A	_
+21	;	;	PUNCT	,	_	13	U	13:U	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	response	response	NOUN	NN	_	34	A	34:A	_
+24	from	from	ADP	IN	_	30	R	30:R	_
+25	Bosniak	Bosniak	PROPN	NNP	_	30	E	30:E	_
+26	war	war	NOUN	NN	_	28	E	28:E	_
+27	-	-	PUNCT	HYPH	_	28	U	28:U	_
+28	victims	victim	NOUN	NNS	_	30	E	30:E	_
+29	advocacy	advocacy	NOUN	NN	_	30	E	30:E	_
+30	organizations	organization	NOUN	NNS	_	23	A	23:A	_
+31	was	be	AUX	VBD	_	34	F	34:F	_
+32	"	"	PUNCT	``	_	34	U	34:U	_
+33	overwhelmingly	overwhelmingly	ADV	RB	_	34	D	34:D	_
+34	positive	positive	ADJ	JJ	_	13	H	13:H	_
+35	,	,	PUNCT	,	_	13	U	13:U	_
+36	"	"	PUNCT	''	_	13	U	13:U	_
+37	while	while	SCONJ	IN	_	13	L	13:L	_
+38	a	a	DET	DT	_	42	E	42:E	_
+39	Serb	Serb	PROPN	NNP	_	40	E	40:E	_
+40	war	war	NOUN	NN	_	42	E	42:E	_
+41	prisoners	prisoner	NOUN	NNS	_	42	E	42:E	_
+42	group	group	NOUN	NN	_	43	A	43:A	_
+43	decried	decry	VERB	VBD	_	13	H	13:H	_
+44	the	the	DET	DT	_	45	E	45:E	_
+45	film	film	NOUN	NN	_	43	A	43:A	_
+46	for	for	ADP	IN	_	52	R	52:R	_
+47	its	its	PRON	PRP$	_	52	E	52:E	_
+48	alleged	allege	VERB	VBN	_	52	E	52:E	_
+49	anti	anti	NOUN	NN	_	51	E	51:E	_
+50	-	-	PUNCT	HYPH	_	51	U	51:U	_
+51	Serb	Serb	NOUN	NN	_	52	E	52:E	_
+52	bias	bia	NOUN	NNS	_	43	A	43:A	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

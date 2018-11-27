@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25665019
+# text = Denn , kurz zu reden , muß man diesen Mann hassen oder bewundern ?
+1	Denn	denn	ADV	KON	_	5	L	5:L	_
+2	,	,	PUNCT	$,	_	5	U	5:U	_
+3	kurz	kurz	ADJ	ADJD	_	5	D	5:D	_
+4	zu	zu	PART	NE	_	5	F	5:F	_
+5	reden	reden	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	muß	müssen	AUX	VMFIN	_	11	D	11:D	_
+8	man	man	PRON	PIS	_	11	A	11:A|5:A	_
+9	diesen	dies	PRON	PDAT	_	10	E	10:E	_
+10	Mann	Mann	NOUN	NN	_	11	A	11:A	_
+11	hassen	hassen	VERB	VVINF	_	5	H	5:H	_
+12	oder	oder	CCONJ	CARD	_	11	N	11:N	_
+13	bewundern	bewundern	VERB	VVFIN	_	11	C	11:C	_
+14	?	?	PUNCT	$.	_	11	U	11:U	_
+

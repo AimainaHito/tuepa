@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 605006
+# text = Paul 's collaboration with Linda and former Beatles producer Martin resulted in the song " Live and Let Die " , which was the theme song for the James Bond film of the same name .
+1	Paul	Paul	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	collaboration	collaboration	NOUN	NN	_	11	A	11:A	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	Linda	Linda	PROPN	NNP	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	former	former	ADJ	JJ	_	9	E	9:E	_
+8	Beatles	Beatles	PROPN	NNPS	_	9	E	9:E	_
+9	producer	producer	NOUN	NN	_	10	E	10:E	_
+10	Martin	Martin	PROPN	NNP	_	5	C	5:C	_
+11	resulted	result	VERB	VBD	_	0	H	0:H	_
+12	in	in	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	song	song	NOUN	NN	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	Live	Live	PROPN	NNP	_	11	A	11:A	_
+17	and	and	CCONJ	CC	_	16	Terminal	16:Terminal	_
+18	Let	let	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	Die	die	PROPN	NNP	_	16	Terminal	16:Terminal	_
+20	"	"	PUNCT	''	_	16	U	16:U	_
+21	,	,	PUNCT	,	_	16	U	16:U	_
+22	which	which	PRON	WDT	_	23	F	23:F	_
+23	was	be	AUX	VBD	_	16	E	16:E	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	theme	theme	NOUN	NN	_	26	E	26:E	_
+26	song	song	NOUN	NN	_	23	A	23:A	_
+27	for	for	ADP	IN	_	31	R	31:R	_
+28	the	the	DET	DT	_	31	E	31:E	_
+29	James	James	PROPN	NNP	_	31	E	31:E	_
+30	Bond	bond	NOUN	NN	_	29	Terminal	29:Terminal	_
+31	film	film	NOUN	NN	_	26	E	26:E	_
+32	of	of	ADP	IN	_	35	R	35:R	_
+33	the	the	DET	DT	_	35	E	35:E	_
+34	same	same	ADJ	JJ	_	35	E	35:E	_
+35	name	name	NOUN	NN	_	31	E	31:E	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

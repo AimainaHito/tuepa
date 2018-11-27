@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25489124
+# text = Ein ganz natürlicher Rückschlag nach der unendlich langen Nacht , während wir mit dem Tod zu ringen hatten .
+1	Ein	ein	DET	ART	_	4	E	4:E	_
+2	ganz	ganz	ADJ	ADV	_	3	E	3:E	_
+3	natürlicher	natürlich	ADJ	ADJA	_	4	D	4:D	_
+4	Rückschlag	Rückschlag	NOUN	NN	_	0	H	0:H	_
+5	nach	nach	ADP	NN	_	9	R	9:R	_
+6	der	der	DET	ART	_	9	E	9:E	_
+7	unendlich	unendlich	ADJ	ADJD	_	8	E	8:E	_
+8	langen	lang	ADJ	ADJA	_	9	E	9:E	_
+9	Nacht	Nacht	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	während	während	SCONJ	VVINF	_	4	L	4:L	_
+12	wir	wir	PRON	NE	_	17	A	17:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	dem	der	DET	ART	_	15	E	15:E	_
+15	Tod	Tod	NOUN	NN	_	17	A	17:A	_
+16	zu	zu	PART	NE	_	17	F	17:F	_
+17	ringen	ringen	VERB	NE	_	4	H	4:H	_
+18	hatten	haben	AUX	VAFIN	_	17	D	17:D	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

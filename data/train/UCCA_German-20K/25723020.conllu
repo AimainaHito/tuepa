@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25723020
+# text = Verließ er niemals die ›Nautilus‹ ?
+1	Verließ	verlassen	VERB	VVFIN	_	0	H	0:H	_
+2	er	er	PRON	PPER	_	1	A	1:A	_
+3	niemals	niemals	ADV	ADV	_	1	D	1:D	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	›Nautilus‹	›Nautilus‹	NOUN	NE	_	1	A	1:A	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+

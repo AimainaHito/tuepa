@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25787019
+# text = Ned und Conseil standen auf , um sich zurück zu ziehen .
+1	Ned	Ned	NOUN	NE	_	0	C	0:C|8:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Conseil	Conseil	NOUN	NE	_	1	C	1:C|8:A	_
+4	standen	stehen	VERB	VVFIN	_	0	H	0:H	_
+5	auf	auf	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	um	um	ADP	KOUI	_	4	L	4:L	_
+8	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+9	zurück	zurück	ADV	ADJA	_	8	Terminal	8:Terminal	_
+10	zu	zu	PART	NN	_	8	F	8:F	_
+11	ziehen	ziehen	VERB	VVINF	_	8	Terminal	8:Terminal	_
+12	.	.	PUNCT	$.	_	8	U	8:U	_
+

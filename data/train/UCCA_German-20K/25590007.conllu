@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25590007
+# text = Drei mit dicken Gläsern versehene Löcher gestatteten nach allen Richtungen zu sehen , indem man nur in der Kugel den Kopf zu drehen hatte .
+1	Drei	drei	NUM	CARD	_	6	E	6:E	_
+2	mit	mit	ADP	APPR	_	4	R	4:R	_
+3	dicken	dick	ADJ	ADJA	_	4	E	4:E	_
+4	Gläsern	Gläser	NOUN	NN	_	5	A	5:A	_
+5	versehene	versehen	ADJ	NN	_	6	E	6:E	_
+6	Löcher	Loch	NOUN	NN	_	12	A	12:A	_
+7	gestatteten	gestatten	VERB	VVFIN	_	12	D	12:D	_
+8	nach	nach	ADP	CARD	_	10	R	10:R	_
+9	allen	alle	PRON	PIS	_	10	E	10:E	_
+10	Richtungen	Richtung	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	indem	indem	SCONJ	KOUS	_	12	L	12:L	_
+15	man	man	PRON	PIS	_	23	A	23:A	_
+16	nur	nur	ADV	NE	_	23	D	23:D	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Kugel	Kugel	NOUN	NN	_	23	A	23:A	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Kopf	Kopf	NOUN	NN	_	23	A	23:A	_
+22	zu	zu	PART	NE	_	23	F	23:F	_
+23	drehen	drehen	VERB	VVPP	_	12	H	12:H	_
+24	hatte	haben	VERB	VAFIN	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

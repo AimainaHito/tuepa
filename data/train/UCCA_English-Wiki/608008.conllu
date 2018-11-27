@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 608008
+# text = He performed for the largest paying stadium audience in history on 21 April 1990 , when 184,000 people attended his concert at Maracanã Stadium in Rio de Janeiro , Brazil .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	for	for	ADP	IN	_	8	R	8:R	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	largest	largest	ADJ	JJS	_	8	E	8:E	_
+6	paying	pay	VERB	VBG	_	8	E	8:E	_
+7	stadium	stadium	NOUN	NN	_	8	E	8:E	_
+8	audience	audience	NOUN	NN	_	2	A	2:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	history	history	NOUN	NN	_	8	E	8:E	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	21	21	NUM	CD	_	2	D	2:D	_
+13	April	April	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	1990	1990	NUM	CD	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	when	when	ADV	WRB	_	2	L	2:L	_
+17	184,000	184,000	NUM	CD	_	18	E	18:E	_
+18	people	people	NOUN	NNS	_	19	A	19:A	_
+19	attended	attend	VERB	VBD	_	2	H	2:H	_
+20	his	he	PRON	PRP$	_	21	A	21:A	_
+21	concert	concert	NOUN	NN	_	19	A	19:A	_
+22	at	at	ADP	IN	_	23	R	23:R	_
+23	Maracanã	Maracanã	NOUN	NN	_	19	A	19:A	_
+24	Stadium	stadium	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Rio	Rio	PROPN	NNP	_	23	E	23:E	_
+27	de	de	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	Janeiro	Janeiro	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	Brazil	Brazil	PROPN	NNP	_	26	Terminal	26:Terminal	_
+31	.	.	PUNCT	.	_	26	U	26:U	_
+

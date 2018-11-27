@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25481004
+# text = Noch eine Stunde lang setzte die Fregatte dieses Verfahren fort , ohne eine Klafter zu gewinnen !
+1	Noch	noch	ADV	ADV	_	5	D	5:D	_
+2	eine	ein	DET	ART	_	3	E	3:E	_
+3	Stunde	Stunde	NOUN	NN	_	5	D	5:D	_
+4	lang	lang	ADJ	ADJD	_	5	D	5:D	_
+5	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Fregatte	Fregatte	NOUN	NN	_	0	C	0:C|16:A|9:A	_
+8	dieses	dies	PRON	PDAT	_	9	E	9:E	_
+9	Verfahren	Verfahren	NOUN	NN	_	5	A	5:A	_
+10	fort	fort	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	ohne	ohne	ADP	CARD	_	5	L	5:L	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	Klafter	Klafter	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	gewinnen	gewinnen	VERB	VVINF	_	5	H	5:H	_
+17	!	!	PUNCT	$.	_	16	U	16:U	_
+

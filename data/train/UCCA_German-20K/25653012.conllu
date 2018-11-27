@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25653012
+# text = Unter dem Korallengebüsch gewahrte ich noch andere Polypen , die nicht minder merkwürdig sind , Meliten , Iris , Büsche von Korallinen , grün und rot , wahre Algen mit einer Kruste von kalkhaltigem Salz , welche die Natur forscher nach langem Streiten dem Pflanzen reich zugeteilt haben .
+1	Unter	unter	ADP	ADJD	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Korallengebüsch	Korallengebüsch	NOUN	NN	_	4	A	4:A	_
+4	gewahrte	gewahrt	VERB	ADJA	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A|16:A	_
+6	noch	noch	ADV	VVINF	_	4	D	4:D	_
+7	andere	ander	ADJ	ADJA	_	8	E	8:E	_
+8	Polypen	Polyp	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	13	R	13:R	_
+11	nicht	nicht	PART	XY	_	13	D	13:D	_
+12	minder	minder	ADV	ADV	_	13	D	13:D	_
+13	merkwürdig	merkwürdig	ADJ	ADJD	_	8	E	8:E	_
+14	sind	sein	AUX	NN	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	4	U	4:U	_
+16	Meliten	Melit	NOUN	NE	_	4	H	4:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Iris	Iris	PROPN	NE	_	16	C	16:C	_
+19	,	,	PUNCT	$,	_	16	U	16:U	_
+20	Büsche	Büsche	NOUN	NE	_	16	C	16:C	_
+21	von	von	ADP	NE	_	22	R	22:R	_
+22	Korallinen	Korallinen	PROPN	NE	_	20	E	20:E	_
+23	,	,	PUNCT	$,	_	20	U	20:U	_
+24	grün	grün	ADJ	ADJD	_	20	E	20:E	_
+25	und	und	CCONJ	NE	_	24	N	24:N	_
+26	rot	rot	ADJ	NE	_	24	C	24:C	_
+27	,	,	PUNCT	$,	_	16	U	16:U	_
+28	wahre	wahr	ADJ	NN	_	29	E	29:E	_
+29	Algen	Alge	NOUN	NN	_	16	C	16:C	_
+30	mit	mit	ADP	APPR	_	32	R	32:R	_
+31	einer	ein	DET	ART	_	32	E	32:E	_
+32	Kruste	Krust	NOUN	NN	_	29	E	29:E	_
+33	von	von	ADP	NN	_	35	R	35:R	_
+34	kalkhaltigem	kalkhaltigem	ADJ	ADJA	_	35	E	35:E	_
+35	Salz	Salz	NOUN	NN	_	32	E	32:E	_
+36	,	,	PUNCT	$,	_	29	U	29:U	_
+37	welche	welch	PRON	NN	_	47	R	47:R	_
+38	die	der	DET	ART	_	40	E	40:E	_
+39	Natur	Natur	NOUN	NN	_	40	E	40:E	_
+40	forscher	forsch	ADJ	ADJA	_	47	A	47:A	_
+41	nach	nach	ADP	NN	_	43	R	43:R	_
+42	langem	lang	ADJ	ADJA	_	43	D	43:D	_
+43	Streiten	streiten	NOUN	NN	_	47	A	47:A	_
+44	dem	der	DET	ART	_	46	E	46:E	_
+45	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	46	E	46:E	_
+46	reich	reich	ADJ	NN	_	47	A	47:A	_
+47	zugeteilt	zuteilen	VERB	VVPP	_	29	E	29:E	_
+48	haben	haben	AUX	VAFIN	_	47	F	47:F	_
+49	.	.	PUNCT	$.	_	47	U	47:U	_
+

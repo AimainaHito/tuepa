@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 20008
+# text = He loved films \u2014 " a portal into different worlds for me " \u2014 and , since films were not made in Missouri , he decided to go to where they were made .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	loved	love	VERB	VBD	_	0	H	0:H	_
+3	films	film	NOUN	NNS	_	2	A	2:A	_
+4	\u2014	\u2014	ADP	IN	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	portal	portal	NOUN	NN	_	3	E	3:E	_
+8	into	into	ADP	IN	_	10	R	10:R	_
+9	different	different	ADJ	JJ	_	10	E	10:E	_
+10	worlds	world	NOUN	NNS	_	7	E	7:E	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	me	I	PRON	PRP	_	7	E	7:E	_
+13	"	"	PUNCT	``	_	2	U	2:U	_
+14	\u2014	\u2014	NOUN	NN	_	2	U	2:U	_
+15	and	and	CCONJ	CC	_	2	L	2:L	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	since	since	SCONJ	IN	_	2	L	2:L	_
+18	films	film	NOUN	NNS	_	21	A	21:A	_
+19	were	be	AUX	VBD	_	21	F	21:F	_
+20	not	not	PART	RB	_	21	D	21:D	_
+21	made	make	VERB	VBN	_	2	H	2:H	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	Missouri	Missouri	PROPN	NNP	_	21	A	21:A	_
+24	,	,	PUNCT	,	_	2	U	2:U	_
+25	he	he	PRON	PRP	_	26	A	26:A|28:A	_
+26	decided	decide	VERB	VBD	_	2	H	2:H	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	go	go	VERB	VB	_	26	A	26:A	_
+29	to	to	ADP	IN	_	33	R	33:R	_
+30	where	where	ADV	WRB	_	33	A	33:A	_
+31	they	they	PRON	PRP	_	33	A	33:A	_
+32	were	be	AUX	VBD	_	33	F	33:F	_
+33	made	make	VERB	VBN	_	28	A	28:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

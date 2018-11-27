@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25488024
+# text = « Der wackere Bursche hielt dies für natürlich !
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	Der	der	DET	ART	_	4	E	4:E	_
+3	wackere	wack	ADJ	ADJA	_	4	E	4:E	_
+4	Bursche	Bursche	NOUN	ADJA	_	5	A	5:A	_
+5	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+6	dies	dies	PRON	PDS	_	8	A	8:A	_
+7	für	für	ADP	APPR	_	8	R	8:R	_
+8	natürlich	natürlich	ADJ	ADV	_	5	A	5:A	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+

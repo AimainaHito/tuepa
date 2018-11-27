@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25489058
+# text = Es war ein volltönender , harmonischer , biegsamer Dialekt mit sehr verschiedenartiger Betonung .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	9	E	9:E	_
+4	volltönender	volltönend	ADJ	ADJA	_	9	E	9:E	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	harmonischer	harmonisch	ADJ	ADJA	_	4	C	4:C	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	biegsamer	biegsam	ADJ	ADJA	_	4	C	4:C	_
+9	Dialekt	Dialekt	NOUN	NN	_	2	A	2:A	_
+10	mit	mit	ADP	APPR	_	13	R	13:R	_
+11	sehr	sehr	ADV	NE	_	12	E	12:E	_
+12	verschiedenartiger	verschiedenartig	ADJ	ADJA	_	13	E	13:E	_
+13	Betonung	Betonung	NOUN	NN	_	9	E	9:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 191017
+# text = At one point Sorkin sued Beatty for proper compensation for his work on the Ocean of Storms script ; however , he eventually continued working on the script once the matter was settled .
+1	At	at	ADP	IN	_	3	E	3:E	_
+2	one	one	NUM	CD	_	3	E	3:E	_
+3	point	point	NOUN	NN	_	5	D	5:D	_
+4	Sorkin	Sorkin	PROPN	NNP	_	5	A	5:A	_
+5	sued	sue	VERB	VBD	_	0	H	0:H	_
+6	Beatty	Beatty	PROPN	NNP	_	5	A	5:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	proper	proper	ADJ	JJ	_	9	E	9:E	_
+9	compensation	compensation	NOUN	NN	_	5	A	5:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	A	12:A	_
+12	work	work	NOUN	NN	_	9	E	9:E	_
+13	on	on	ADP	IN	_	18	R	18:R	_
+14	the	the	DET	DT	_	18	E	18:E	_
+15	Ocean	Ocean	PROPN	NNP	_	18	E	18:E	_
+16	of	of	ADP	IN	_	15	Terminal	15:Terminal	_
+17	Storms	Storms	PROPN	NNPS	_	15	Terminal	15:Terminal	_
+18	script	script	NOUN	NN	_	12	A	12:A	_
+19	;	;	PUNCT	,	_	5	U	5:U	_
+20	however	however	ADV	RB	_	5	L	5:L	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	he	he	PRON	PRP	_	25	A	25:A	_
+23	eventually	eventually	ADV	RB	_	25	D	25:D	_
+24	continued	continue	VERB	VBD	_	25	D	25:D	_
+25	working	work	VERB	VBG	_	5	H	5:H	_
+26	on	on	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	script	script	NOUN	NN	_	25	A	25:A	_
+29	once	once	SCONJ	IN	_	5	L	5:L	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	matter	matter	NOUN	NN	_	33	A	33:A	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	settled	settled	ADJ	JJ	_	5	H	5:H	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

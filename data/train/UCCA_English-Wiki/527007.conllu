@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 527007
+# text = She again failed to report to the set on multiple occasions , and the studio suspended her contract on June 17 , 1950 .
+1	She	she	PRON	PRP	_	5	A	5:A	_
+2	again	again	ADV	RB	_	5	D	5:D	_
+3	failed	fail	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	report	report	VERB	VB	_	0	H	0:H	_
+6	to	to	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	set	set	NOUN	NN	_	5	A	5:A	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	multiple	multiple	ADJ	JJ	_	11	E	11:E	_
+11	occasions	occasion	NOUN	NNS	_	5	D	5:D	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	and	and	CCONJ	CC	_	5	L	5:L	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	studio	studio	NOUN	NN	_	16	A	16:A	_
+16	suspended	suspend	VERB	VBD	_	5	H	5:H	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	contract	contract	NOUN	NN	_	16	A	16:A	_
+19	on	on	ADP	IN	_	20	R	20:R	_
+20	June	June	PROPN	NNP	_	16	D	16:D	_
+21	17	17	NUM	CD	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	1950	1950	NUM	CD	_	20	Terminal	20:Terminal	_
+24	.	.	PUNCT	.	_	20	U	20:U	_
+

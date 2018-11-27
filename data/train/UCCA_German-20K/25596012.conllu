@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25596012
+# text = Durch Drehen einer Schraube stellte ich die Verbindung der Induktionsröhre mit der gläsernen Serpentine her , und das Meer wurde durch unsere vier Laternen bis auf 25 Meter weit im Umkreis erleuchtet .
+1	Durch	durch	ADP	APPR	_	2	D	2:D	_
+2	Drehen	drehen	NOUN	NN	_	5	A	5:A	_
+3	einer	ein	DET	ART	_	4	R	4:R	_
+4	Schraube	Schraube	NOUN	NN	_	2	A	2:A	_
+5	stellte	stellen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Verbindung	Verbindung	NOUN	NN	_	5	A	5:A	_
+9	der	der	DET	ART	_	10	R	10:R	_
+10	Induktionsröhre	Induktionsröhre	NOUN	NN	_	8	E	8:E	_
+11	mit	mit	ADP	APPR	_	14	R	14:R	_
+12	der	der	DET	ART	_	14	E	14:E	_
+13	gläsernen	gläsern	ADJ	ADJA	_	14	E	14:E	_
+14	Serpentine	Serpentin|Serpentine	NOUN	NN	_	8	E	8:E	_
+15	her	her	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+16	,	,	PUNCT	$,	_	5	U	5:U	_
+17	und	und	CCONJ	NE	_	5	L	5:L	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	Meer	Meer	NOUN	NN	_	32	A	32:A	_
+20	wurde	werden	AUX	NN	_	32	F	32:F	_
+21	durch	durch	ADP	APPR	_	24	R	24:R	_
+22	unsere	unser	PRON	PPOSAT	_	24	E	24:E	_
+23	vier	vier	NUM	NN	_	24	E	24:E	_
+24	Laternen	Laterne	NOUN	ADJA	_	32	A	32:A	_
+25	bis	bis	ADP	APPR	_	28	R	28:R	_
+26	auf	auf	ADP	APPR	_	25	Terminal	25:Terminal	_
+27	25	25	NUM	CARD	_	28	E	28:E	_
+28	Meter	Meter	NOUN	NN	_	32	A	32:A	_
+29	weit	weit	ADJ	ADJD	_	32	D	32:D	_
+30	im	im	ADJ	NE	_	31	R	31:R	_
+31	Umkreis	Umkreis	NOUN	NN	_	32	A	32:A	_
+32	erleuchtet	erleuchten	VERB	VVPP	_	5	H	5:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

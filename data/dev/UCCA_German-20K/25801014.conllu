@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25801014
+# text = Ned Land sah dies wohl selbst ein , denn er sprach kein Wort mit mir .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	dies	dies	PRON	PDS	_	3	A	3:A	_
+5	wohl	wohl	ADV	ADV	_	3	G	3:G	_
+6	selbst	selbst	ADV	VVFIN	_	3	D	3:D	_
+7	ein	ein	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	denn	denn	SCONJ	KON	_	3	L	3:L	_
+10	er	er	PRON	PPER	_	11	A	11:A	_
+11	sprach	sprechen	VERB	VVFIN	_	3	H	3:H	_
+12	kein	kein	PRON	PIAT	_	11	A	11:A	_
+13	Wort	Wort	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	mit	mit	ADP	APPR	_	15	R	15:R	_
+15	mir	ich	PRON	PPER	_	11	A	11:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

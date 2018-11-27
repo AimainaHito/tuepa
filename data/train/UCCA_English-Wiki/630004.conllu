@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 630004
+# text = After her sister , Mimi Smith , twice complained to Liverpool 's Social Services , Julia handed the care of Lennon over to her .
+1	After	after	ADP	IN	_	9	L	9:L	_
+2	her	she	PRON	PRP$	_	3	E	3:E	_
+3	sister	sister	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Mimi	Mimi	PROPN	NNP	_	9	A	9:A	_
+6	Smith	Smith	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	twice	twice	ADV	RB	_	9	D	9:D	_
+9	complained	complain	VERB	VBN	_	0	H	0:H	_
+10	to	to	ADP	IN	_	13	R	13:R	_
+11	Liverpool	Liverpool	PROPN	NNP	_	13	E	13:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	Social	social	ADJ	JJ	_	9	A	9:A	_
+14	Services	service	NOUN	NNS	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	Julia	Julia	PROPN	NNP	_	17	A	17:A	_
+17	handed	hand	VERB	VBD	_	9	H	9:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	care	care	NOUN	NN	_	17	A	17:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	Lennon	Lennon	PROPN	NNP	_	19	A	19:A	_
+22	over	over	ADV	RB	_	17	E	17:E	_
+23	to	to	ADP	IN	_	24	R	24:R	_
+24	her	she	PRON	PRP	_	17	A	17:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

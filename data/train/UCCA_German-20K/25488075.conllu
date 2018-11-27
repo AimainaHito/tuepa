@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25488075
+# text = « Und Conseil stieß nochmals einen verzweifelten Hilfe ruf aus .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	Conseil	Conseil	NOUN	NE	_	4	A	4:A	_
+4	stieß	stoßen	VERB	VVFIN	_	0	H	0:H	_
+5	nochmals	nochmals	ADV	ADV	_	4	D	4:D	_
+6	einen	ein	DET	ART	_	9	E	9:E	_
+7	verzweifelten	verzweifelt	ADJ	ADJA	_	9	E	9:E	_
+8	Hilfe	Hilfe	NOUN	NN	_	9	E	9:E	_
+9	ruf	ruf	PART	VVFIN	_	4	A	4:A	_
+10	aus	aus	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+11	.	.	PUNCT	$.	_	4	U	4:U	_
+

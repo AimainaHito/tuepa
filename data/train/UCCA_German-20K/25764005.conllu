@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25764005
+# text = Manchmal schoß es über die Eisdecke und zertrümmerte sie durch sein Gewicht .
+1	Manchmal	manchmal	ADV	ADV	_	2	D	2:D	_
+2	schoß	schießen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A|8:A	_
+4	über	über	ADP	ADJD	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Eisdecke	Eisdecke	NOUN	NN	_	2	A	2:A	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	zertrümmerte	zertrümmeren	VERB	VVFIN	_	2	H	2:H	_
+9	sie	sie	PRON	ADV	_	8	A	8:A	_
+10	durch	durch	ADP	APPR	_	12	R	12:R	_
+11	sein	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Gewicht	Gewicht	NOUN	NN	_	8	A	8:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 490015
+# text = ( Bana has had this car for more than a quarter century .
+1	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+2	Bana	Bana	PROPN	NNP	_	4	A	4:A	_
+3	has	have	AUX	VBZ	_	4	F	4:F	_
+4	had	have	VERB	VBN	_	0	H	0:H	_
+5	this	this	DET	DT	_	6	E	6:E	_
+6	car	car	NOUN	NN	_	4	A	4:A	_
+7	for	for	ADP	IN	_	12	R	12:R	_
+8	more	more	ADJ	JJR	_	12	E	12:E	_
+9	than	than	ADP	IN	_	8	R	8:R	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	quarter	quarter	ADJ	JJ	_	12	E	12:E	_
+12	century	century	NOUN	NN	_	4	D	4:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

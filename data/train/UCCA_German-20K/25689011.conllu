@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25689011
+# text = Ein bleiches Lächeln auf den Lippen des Kapitäns , das war alles .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	bleiches	bleich	ADJ	ADJA	_	3	D	3:D	_
+3	Lächeln	Lächeln	NOUN	NN	_	0	C	0:C|11:A	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Lippen	Lippe	NOUN	NN	_	3	A	3:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Kapitäns	Kapitän	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	das	der	PRON	PRELS	_	11	F	11:F	_
+11	war	sein	AUX	ADV	_	3	H	3:H	_
+12	alles	alle	PRON	PIS	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25739021
+# text = » Aber , ich begreife nicht ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Aber	aber	NOUN	KON	_	5	L	5:L	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	begreife	begreif	ADJ	NE	_	0	H	0:H	_
+6	nicht	nicht	PART	XY	_	5	D	5:D	_
+7	?	?	PUNCT	$.	_	5	U	5:U	_
+8	«	«	PUNCT	$(	_	5	U	5:U	_
+

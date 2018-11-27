@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25814007
+# text = Dieser Kampf hatte eine Viertelstunde lang gedauert .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Kampf	Kampf	NOUN	NN	_	7	A	7:A	_
+3	hatte	haben	VERB	VAFIN	_	7	F	7:F	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Viertelstunde	Viertelstunde	NOUN	NN	_	7	A	7:A	_
+6	lang	lang	ADJ	ADJD	_	5	E	5:E	_
+7	gedauert	dauern	ADJ	VVPP	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

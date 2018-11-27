@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 533002
+# text = By early 1969 , Garland 's health had deteriorated .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	early	early	ADJ	JJ	_	3	E	3:E	_
+3	1969	1969	NUM	CD	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Garland	Garland	PROPN	NNP	_	7	A	7:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	health	health	NOUN	NN	_	9	A	9:A	_
+8	had	have	AUX	VBD	_	9	F	9:F	_
+9	deteriorated	deteriorate	VERB	VBN	_	0	H	0:H	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

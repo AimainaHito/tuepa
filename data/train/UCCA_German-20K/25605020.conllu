@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25605020
+# text = Die vier Matrosen sahen schrecklich aus , da sie mit krampfhaften Bewegungen von dem Tauwerk , das sie fesselte , sich loszumachen getrachtet hatten .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	vier	vier	NUM	NN	_	3	E	3:E	_
+3	Matrosen	Matrose	NOUN	NE	_	4	A	4:A	_
+4	sahen	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	schrecklich	schrecklich	ADJ	ADJD	_	4	D	4:D	_
+6	aus	aus	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	da	da	SCONJ	KOUS	_	4	L	4:L	_
+9	sie	sie	PRON	NN	_	21	A	21:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	krampfhaften	krampfhaft	ADJ	NN	_	12	E	12:E	_
+12	Bewegungen	Bewegung	NOUN	NN	_	21	A	21:A	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	dem	der	DET	ART	_	15	E	15:E	_
+15	Tauwerk	Tauwerk	NOUN	NN	_	21	A	21:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	das	der	PRON	PRELS	_	19	R	19:R	_
+18	sie	sie	PRON	TRUNC	_	19	A	19:A	_
+19	fesselte	fesseln	VERB	VVFIN	_	15	E	15:E	_
+20	,	,	PUNCT	$,	_	21	U	21:U	_
+21	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+22	loszumachen	loszumachen	VERB	ADJA	_	21	Terminal	21:Terminal	_
+23	getrachtet	trachten	VERB	VVPP	_	21	D	21:D	_
+24	hatten	haben	AUX	VAFIN	_	21	F	21:F	_
+25	.	.	PUNCT	$.	_	21	U	21:U	_
+

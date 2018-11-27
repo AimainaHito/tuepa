@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 433000
+# text = « Si , au contraire , nous connaissons toutes les espèces vivantes , il faut nécessairement chercher l' animal en question parmi les êtres marins déjà catalogués , et dans ce cas , je serai disposé à admettre l' existence d ' un Narwal géant .
+1	«	«	PUNCT	_	_	8	U	8:U	_
+2	Si	si	SCONJ	_	_	8	L	8:L	_
+3	,	,	PUNCT	_	_	8	U	8:U	_
+4	au	au	NOUN	_	_	5	R	5:R	_
+5	contraire	contraire	ADJ	_	_	8	L	8:L	_
+6	,	,	PUNCT	_	_	8	U	8:U	_
+7	nous	nous	PRON	_	_	8	A	8:A	_
+8	connaissons	connaître	VERB	_	_	0	H	0:H	_
+9	toutes	tout	DET	_	_	11	E	11:E	_
+10	les	le	DET	_	_	11	E	11:E	_
+11	espèces	espèce	NOUN	_	_	8	A	8:A	_
+12	vivantes	vivant	ADJ	_	_	11	E	11:E	_
+13	,	,	PUNCT	_	_	8	U	8:U	_
+14	il	il	PRON	_	_	17	F	17:F	_
+15	faut	falloir	VERB	_	_	17	D	17:D	_
+16	nécessairement	nécessairement	ADV	_	_	17	D	17:D	_
+17	chercher	chercher	VERB	_	_	8	H	8:H	_
+18	l'	le	DET	_	_	19	E	19:E	_
+19	animal	animal	NOUN	_	_	17	A	17:A	_
+20	en	en	ADP	_	_	21	R	21:R	_
+21	question	question	NOUN	_	_	19	E	19:E	_
+22	parmi	parmi	ADP	_	_	24	R	24:R	_
+23	les	le	DET	_	_	24	E	24:E	_
+24	êtres	être	NOUN	_	_	17	A	17:A	_
+25	marins	marin	ADJ	_	_	24	E	24:E	_
+26	déjà	déjà	ADV	_	_	27	D	27:D	_
+27	catalogués	cataloguer	VERB	_	_	24	E	24:E	_
+28	,	,	PUNCT	_	_	8	U	8:U	_
+29	et	et	CCONJ	_	_	8	L	8:L	_
+30	dans	dans	ADP	_	_	32	R	32:R	_
+31	ce	ce	DET	_	_	32	E	32:E	_
+32	cas	cas	NOUN	_	_	38	A	38:A	_
+33	,	,	PUNCT	_	_	38	U	38:U	_
+34	je	il	PRON	_	_	38	A	38:A	_
+35	serai	ser	VERB	_	_	38	F	38:F	_
+36	disposé	disposer	VERB	_	_	38	D	38:D	_
+37	à	à	ADP	_	_	36	R	36:R	_
+38	admettre	admettre	VERB	_	_	8	H	8:H	_
+39	l'	le	DET	_	_	40	E	40:E	_
+40	existence	existence	NOUN	_	_	38	A	38:A	_
+41	d	de	ADP	_	_	44	R	44:R	_
+42	'	'	PUNCT	_	_	44	U	44:U	_
+43	un	un	DET	_	_	44	E	44:E	_
+44	Narwal	Narwal	NOUN	_	_	40	A	40:A	_
+45	géant	géant	ADJ	_	_	44	E	44:E	_
+46	.	.	PUNCT	_	_	44	U	44:U	_
+

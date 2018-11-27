@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25680027
+# text = Ich wendete meinen Blick dem Land zu , sah aber nur einen trüben Streifen , der drei Viertel des Horizonts von Süd west nach Nord west schloß .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|9:A	_
+2	wendete	wenden	VERB	VVFIN	_	0	H	0:H	_
+3	meinen	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Blick	Blick	PROPN	NN	_	2	A	2:A	_
+5	dem	der	DET	ART	_	6	R	6:R	_
+6	Land	Land	NOUN	NN	_	2	A	2:A	_
+7	zu	zu	PART	VVINF	_	2	Terminal	2:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+10	aber	aber	ADV	ADV	_	2	L	2:L	_
+11	nur	nur	ADV	NE	_	9	D	9:D	_
+12	einen	ein	DET	ART	_	14	E	14:E	_
+13	trüben	trüben	ADJ	ADV	_	14	E	14:E	_
+14	Streifen	Streifen	NOUN	NE	_	9	A	9:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	der	der	PRON	PRELS	_	27	R	27:R	_
+17	drei	drei	NUM	CARD	_	20	E	20:E	_
+18	Viertel	Viertel	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Horizonts	Horizont	NOUN	NN	_	27	A	27:A	_
+21	von	von	ADP	NE	_	23	R	23:R	_
+22	Süd	Süd	NOUN	NN	_	23	E	23:E	_
+23	west	west	ADJ	NE	_	27	A	27:A	_
+24	nach	nach	ADP	CARD	_	23	R	23:R	_
+25	Nord	Nord	NOUN	NE	_	26	E	26:E	_
+26	west	west	ADV	NE	_	23	C	23:C	_
+27	schloß	schließen	VERB	VVFIN	_	14	E	14:E	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

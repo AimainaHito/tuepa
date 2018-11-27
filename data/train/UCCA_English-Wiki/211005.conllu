@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 211005
+# text = Hoffman is the only actor to have top billing in three films which won the Best Picture Oscar : Midnight Cowboy , Kramer v Kramer , and Rain Man .
+1	Hoffman	Hoffman	PROPN	NNP	_	5	A	5:A|7:A	_
+2	is	be	AUX	VBZ	_	5	D	5:D	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	only	only	ADJ	JJ	_	5	E	5:E	_
+5	actor	actor	NOUN	NN	_	0	H	0:H	_
+6	to	to	PART	TO	_	5	L	5:L	_
+7	have	have	VERB	VB	_	5	H	5:H	_
+8	top	top	ADJ	JJ	_	9	E	9:E	_
+9	billing	billing	NOUN	NN	_	7	A	7:A	_
+10	in	in	ADP	IN	_	20	R	20:R	_
+11	three	three	NUM	CD	_	12	E	12:E	_
+12	films	film	NOUN	NNS	_	20	E	20:E	_
+13	which	which	PRON	WDT	_	14	F	14:F	_
+14	won	win	VERB	VBD	_	12	E	12:E	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	Best	best	ADJ	JJS	_	17	E	17:E	_
+17	Picture	picture	NOUN	NN	_	18	E	18:E	_
+18	Oscar	Oscar	NOUN	NN	_	14	A	14:A	_
+19	:	:	PUNCT	:	_	20	U	20:U	_
+20	Midnight	Midnight	PROPN	NNP	_	7	A	7:A	_
+21	Cowboy	cowboy	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	Kramer	Kramer	PROPN	NNP	_	20	C	20:C	_
+24	v	v	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	Kramer	Kramer	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	,	,	PUNCT	,	_	20	U	20:U	_
+27	and	and	CCONJ	CC	_	20	N	20:N	_
+28	Rain	rain	PROPN	NNP	_	20	C	20:C	_
+29	Man	man	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 560003
+# text = So many of them , through some sort of jealousy , would practically hate him .
+1	So	so	ADV	RB	_	2	E	2:E	_
+2	many	many	ADJ	JJ	_	14	A	14:A	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	them	they	PRON	PRP	_	2	E	2:E	_
+5	,	,	PUNCT	,	_	14	U	14:U	_
+6	through	through	ADP	IN	_	10	R	10:R	_
+7	some	some	DET	DT	_	10	E	10:E	_
+8	sort	sort	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	of	of	ADP	IN	_	7	R	7:R	_
+10	jealousy	jealousy	NOUN	NN	_	14	D	14:D	_
+11	,	,	PUNCT	,	_	14	U	14:U	_
+12	would	would	AUX	MD	_	14	F	14:F	_
+13	practically	practically	ADV	RB	_	14	D	14:D	_
+14	hate	hate	VERB	VB	_	0	H	0:H	_
+15	him	he	PRON	PRP	_	14	A	14:A	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

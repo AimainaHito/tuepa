@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 379006
+# text = The film won the Golden Lion prize at the Venice Film Festival .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	Golden	golden	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Lion	Lion	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	prize	prize	NOUN	NN	_	3	A	3:A	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Venice	Venice	PROPN	NNP	_	3	A	3:A	_
+11	Film	film	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Festival	Festival	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	.	_	10	U	10:U	_
+

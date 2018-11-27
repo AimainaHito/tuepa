@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 727009
+# text = The film reflected Jolie 's real - life interest in promoting humanitarian relief , but it was critically and financially unsuccessful .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	reflected	reflect	VERB	VBN	_	0	H	0:H	_
+4	Jolie	Jolie	PROPN	NNP	_	9	E	9:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	real	real	ADJ	JJ	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	life	life	NOUN	NN	_	9	E	9:E	_
+9	interest	interest	NOUN	NN	_	3	A	3:A	_
+10	in	in	SCONJ	IN	_	11	R	11:R	_
+11	promoting	promote	VERB	VBG	_	9	E	9:E	_
+12	humanitarian	humanitarian	ADJ	JJ	_	13	E	13:E	_
+13	relief	relief	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	but	but	CCONJ	CC	_	3	L	3:L	_
+16	it	it	PRON	PRP	_	21	A	21:A	_
+17	was	be	AUX	VBD	_	21	F	21:F	_
+18	critically	critically	ADV	RB	_	21	A	21:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	financially	financially	ADV	RB	_	18	C	18:C	_
+21	unsuccessful	unsuccessful	ADJ	JJ	_	3	H	3:H	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

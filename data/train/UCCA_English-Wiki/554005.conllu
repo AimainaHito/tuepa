@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 554005
+# text = Elvis Presley was born on January 8 , 1935 , in Tupelo , Mississippi , to 18 - year - old Vernon Elvis and 22 - year - old Gladys Love Presley , in the two - room shotgun house built by his father in readiness for the birth .
+1	Elvis	Elvis	PROPN	NNP	_	4	A	4:A	_
+2	Presley	Presley	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	born	bear	VERB	VBN	_	0	H	0:H	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	January	January	PROPN	NNP	_	4	D	4:D	_
+7	8	8	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	1935	1935	NUM	CD	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	Tupelo	Tupelo	PROPN	NNP	_	4	A	4:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Mississippi	Mississippi	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	to	to	ADP	IN	_	22	R	22:R	_
+17	18	18	NUM	CD	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	year	year	NOUN	NN	_	22	E	22:E	_
+20	-	-	PUNCT	HYPH	_	19	U	19:U	_
+21	old	old	ADJ	JJ	_	19	Terminal	19:Terminal	_
+22	Vernon	Vernon	PROPN	NNP	_	4	A	4:A	_
+23	Elvis	Elvis	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	and	and	CCONJ	CC	_	22	N	22:N	_
+25	22	22	NUM	CD	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	year	year	NOUN	NN	_	30	E	30:E	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	old	old	ADJ	JJ	_	27	Terminal	27:Terminal	_
+30	Gladys	Gladys	PROPN	NNP	_	22	C	22:C	_
+31	Love	Love	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Presley	Presley	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	,	,	PUNCT	,	_	4	U	4:U	_
+34	in	in	ADP	IN	_	40	R	40:R	_
+35	the	the	DET	DT	_	40	E	40:E	_
+36	two	two	NUM	CD	_	38	E	38:E	_
+37	-	-	PUNCT	HYPH	_	38	U	38:U	_
+38	room	room	NOUN	NN	_	40	E	40:E	_
+39	shotgun	shotgun	NOUN	NN	_	40	E	40:E	_
+40	house	house	NOUN	NN	_	4	A	4:A	_
+41	built	build	VERB	VBN	_	40	E	40:E	_
+42	by	by	ADP	IN	_	44	R	44:R	_
+43	his	he	PRON	PRP$	_	44	E	44:E	_
+44	father	father	NOUN	NN	_	41	A	41:A	_
+45	in	in	ADP	IN	_	46	F	46:F	_
+46	readiness	readiness	NOUN	NN	_	41	A	41:A	_
+47	for	for	ADP	IN	_	49	R	49:R	_
+48	the	the	DET	DT	_	49	E	49:E	_
+49	birth	birth	NOUN	NN	_	46	A	46:A	_
+50	.	.	PUNCT	.	_	49	U	49:U	_
+

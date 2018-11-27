@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25582007
+# text = Der Himmel zeigte sich bedeckt , das Meer grau , doch ruhig ; kaum eine Bewegung der Wellen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Himmel	Himmel	NOUN	NE	_	5	A	5:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	5	D	5:D	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	bedeckt	bedeckt	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Meer	Meer	NOUN	NN	_	0	C	0:C|12:A	_
+9	grau	grau	ADJ	ADJD	_	5	H	5:H	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	doch	doch	ADV	ADV	_	5	L	5:L	_
+12	ruhig	ruhig	ADJ	ADJD	_	5	H	5:H	_
+13	;	;	PUNCT	$.	_	5	U	5:U	_
+14	kaum	kaum	ADV	ADV	_	16	D	16:D	_
+15	eine	ein	DET	ART	_	16	E	16:E	_
+16	Bewegung	Bewegung	NOUN	NN	_	5	H	5:H	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	Wellen	Welle	NOUN	NN	_	16	E	16:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

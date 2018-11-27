@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25811025
+# text = » Eine merkwürdige Sammlung von Polypen « , sagte ich zu ihm mit dem unbefangenen Ton eines Betrachters vor dem Fenster eines Aquariums .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Eine	ein	DET	ART	_	4	E	4:E	_
+3	merkwürdige	merkwürdig	ADJ	ADJA	_	4	D	4:D	_
+4	Sammlung	Sammlung	NOUN	NN	_	6	E	6:E	_
+5	von	von	ADP	NE	_	6	R	6:R	_
+6	Polypen	Polyp	NOUN	NN	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	zu	zu	ADP	VVINF	_	12	R	12:R	_
+12	ihm	er	PRON	PPER	_	9	A	9:A	_
+13	mit	mit	ADP	APPR	_	18	R	18:R	_
+14	dem	der	DET	ART	_	16	E	16:E	_
+15	unbefangenen	unbefangen	ADJ	ADJA	_	16	E	16:E	_
+16	Ton	Ton	NOUN	NN	_	18	A	18:A	_
+17	eines	ein	DET	ART	_	18	E	18:E	_
+18	Betrachters	Betrachter	NOUN	NE	_	9	A	9:A	_
+19	vor	vor	ADP	NN	_	21	R	21:R	_
+20	dem	der	DET	ART	_	21	E	21:E	_
+21	Fenster	Fenster	NOUN	NN	_	18	A	18:A	_
+22	eines	ein	DET	ART	_	23	R	23:R	_
+23	Aquariums	Aquarium	NOUN	NN	_	21	E	21:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

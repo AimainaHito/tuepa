@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25509005
+# text = » Und welches ?
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Und	und	CCONJ	NN	_	3	L	3:L	_
+3	welches	welch	PRON	PWAT	_	0	H	0:H	_
+4	?	?	PUNCT	$.	_	3	U	3:U	_
+

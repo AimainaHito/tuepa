@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25438024
+# text = Auf diesen Befehl , der vermittels eines Apparats mit verdichteter Luft zur Maschine befördert wurde , setzten die Maschinenleute das Rad in Bewegung .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Befehl	Befehl	NOUN	NN	_	17	A	17:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	der	der	PRON	PRELS	_	14	R	14:R	_
+6	vermittels	vermittels	ADP	NE	_	8	R	8:R	_
+7	eines	ein	DET	ART	_	8	E	8:E	_
+8	Apparats	Apparat	NOUN	NN	_	14	A	14:A	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	verdichteter	verdichtet	ADJ	ADJA	_	11	E	11:E	_
+11	Luft	Luft	NOUN	NN	_	8	E	8:E	_
+12	zur	zur	ADP	NE	_	13	R	13:R	_
+13	Maschine	Maschine	NOUN	NE	_	14	A	14:A	_
+14	befördert	befördern	VERB	VVPP	_	3	E	3:E	_
+15	wurde	werden	AUX	TRUNC	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	setzten	setzen	VERB	VVFIN	_	0	H	0:H	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Maschinenleute	Maschinenleute	NOUN	NN	_	17	A	17:A	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Rad	Rad	NOUN	NN	_	17	A	17:A	_
+22	in	in	ADP	APPR	_	17	Terminal	17:Terminal	_
+23	Bewegung	Bewegung	NOUN	NN	_	17	Terminal	17:Terminal	_
+24	.	.	PUNCT	$.	_	17	U	17:U	_
+

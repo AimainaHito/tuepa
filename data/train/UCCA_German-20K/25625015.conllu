@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25625015
+# text = » Alle diese Pflanzen können ein Mahl nicht vollständig machen « , erwiderte Ned . » Dieses ist das Dessert . Aber die Suppe ? Der Braten ? «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Alle	alle	PRON	PIAT	_	4	E	4:E	_
+3	diese	dies	PRON	PDAT	_	4	E	4:E	_
+4	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	9	A	9:A	_
+5	können	können	AUX	VMFIN	_	9	D	9:D	_
+6	ein	ein	DET	ART	_	7	E	7:E	_
+7	Mahl	Mahl	NOUN	NN	_	9	A	9:A	_
+8	nicht	nicht	PART	XY	_	9	D	9:D	_
+9	vollständig	vollständig	ADJ	ADJD	_	13	A	13:A	_
+10	machen	machen	VERB	VVINF	_	9	D	9:D	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+14	Ned	Ned	PROPN	NE	_	13	A	13:A	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+16	»	»	PUNCT	$(	_	13	U	13:U	_
+17	Dieses	dies	PRON	PDS	_	18	A	18:A	_
+18	ist	sein	AUX	VVFIN	_	9	H	9:H	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	Dessert	Dessert	NOUN	FM	_	18	A	18:A	_
+21	.	.	PUNCT	$.	_	9	U	9:U	_
+22	Aber	aber	CCONJ	KON	_	9	L	9:L	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Suppe	Suppe	NOUN	NN	_	9	H	9:H	_
+25	?	?	PUNCT	$.	_	9	U	9:U	_
+26	Der	der	PROPN	ART	_	27	E	27:E	_
+27	Braten	braten	PROPN	NN	_	9	H	9:H	_
+28	?	?	PUNCT	$.	_	27	U	27:U	_
+29	«	«	PUNCT	$(	_	27	U	27:U	_
+

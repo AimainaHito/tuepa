@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25412005
+# text = Der Kapitän begab sich sofort in den Schiffs raum und erkannte , dass das Wasser in das fünfte Gefach durch einen beträchtlichen Leck eindrang .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|11:A	_
+3	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	sofort	sofort	ADV	ADJD	_	3	D	3:D	_
+6	in	in	ADP	APPR	_	9	R	9:R	_
+7	den	der	DET	ART	_	9	E	9:E	_
+8	Schiffs	Schiff	NOUN	NN	_	9	E	9:E	_
+9	raum	raum	ADV	NN	_	3	A	3:A	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	erkannte	erkennen	VERB	VVFIN	_	3	H	3:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	dass	dass	SCONJ	KOUS	_	24	R	24:R	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Wasser	Wasser	NOUN	NN	_	24	A	24:A	_
+16	in	in	ADP	APPR	_	19	R	19:R	_
+17	das	der	DET	ART	_	19	E	19:E	_
+18	fünfte	fünft	NUM	ADJA	_	19	E	19:E	_
+19	Gefach	Gefach	NOUN	NE	_	24	A	24:A	_
+20	durch	durch	ADP	APPR	_	23	R	23:R	_
+21	einen	ein	DET	ART	_	23	E	23:E	_
+22	beträchtlichen	beträchtlich	ADJ	ADJA	_	24	A	24:A	_
+23	Leck	Leck	NOUN	NE	_	22	A	22:A	_
+24	eindrang	eindringen	VERB	VVFIN	_	11	A	11:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

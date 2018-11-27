@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 673003
+# text = She later apologized on The Today Show , explaining how she did her best effort despite the circumstances .
+1	She	she	PRON	PRP	_	3	A	3:A|9:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	apologized	apologize	VERB	VBD	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	The	the	DET	DT	_	3	A	3:A	_
+6	Today	today	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	Show	show	ADV	WRB	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	explaining	explain	VERB	VBG	_	3	H	3:H	_
+10	how	how	ADV	WRB	_	15	L	15:L	_
+11	she	she	PRON	PRP	_	15	A	15:A	_
+12	did	do	VERB	VBD	_	15	D	15:D	_
+13	her	she	PRON	PRP$	_	15	E	15:E	_
+14	best	best	ADJ	JJS	_	15	E	15:E	_
+15	effort	effort	NOUN	NN	_	9	A	9:A	_
+16	despite	despite	ADP	IN	_	15	L	15:L	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	circumstances	circumstance	NOUN	NNS	_	15	H	15:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

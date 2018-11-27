@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25647012
+# text = Hierauf hatte ich nicht zu disputieren , sondern zu gehorchen , weil jeder Widerstand unmöglich gewesen wäre .
+1	Hierauf	hierauf	ADV	PAV	_	6	L	6:L	_
+2	hatte	haben	AUX	VAFIN	_	6	D	6:D|10:D	_
+3	ich	ich	PRON	PPER	_	6	A	6:A|10:A	_
+4	nicht	nicht	PART	CARD	_	6	D	6:D	_
+5	zu	zu	PART	NN	_	6	F	6:F	_
+6	disputieren	disputieren	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sondern	sondern	CCONJ	NN	_	6	L	6:L	_
+9	zu	zu	PART	NN	_	10	F	10:F	_
+10	gehorchen	horchen	VERB	ADJA	_	6	H	6:H	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+13	jeder	jed	PRON	PIAT	_	14	E	14:E	_
+14	Widerstand	Widerstand	NOUN	NN	_	15	A	15:A	_
+15	unmöglich	unmöglich	ADJ	ADJD	_	6	H	6:H	_
+16	gewesen	sein	AUX	PAV	_	15	F	15:F	_
+17	wäre	sein	AUX	ADV	_	15	D	15:D	_
+18	.	.	PUNCT	$.	_	15	U	15:U	_
+

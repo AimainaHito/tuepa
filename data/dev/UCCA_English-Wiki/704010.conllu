@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 704010
+# text = Concerts in Tokyo in February and March were recorded and released as the live double album , Bob Dylan At Budokan .
+1	Concerts	concert	NOUN	NNS	_	9	A	9:A	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	Tokyo	Tokyo	PROPN	NNP	_	1	A	1:A	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	February	February	PROPN	NNP	_	1	D	1:D	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	March	March	PROPN	NNP	_	5	C	5:C	_
+8	were	be	AUX	VBD	_	9	F	9:F	_
+9	recorded	record	VERB	VBN	_	0	H	0:H	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	released	release	VERB	VBN	_	9	C	9:C	_
+12	as	as	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	live	live	ADJ	JJ	_	16	E	16:E	_
+15	double	double	ADJ	JJ	_	16	E	16:E	_
+16	album	album	NOUN	NN	_	9	A	9:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	Bob	bob	PROPN	NNP	_	16	E	16:E	_
+19	Dylan	Dylan	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	At	at	ADP	IN	_	18	Terminal	18:Terminal	_
+21	Budokan	Budokan	PROPN	NNP	_	18	Terminal	18:Terminal	_
+22	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 485004
+# text = Eric Bana was born Eric Banadinović in Melbourne , Victoria , the younger of two children ; he has a brother , Anthony .
+1	Eric	Eric	PROPN	NNP	_	4	A	4:A|16:A	_
+2	Bana	Bana	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	born	bear	VERB	VBN	_	0	H	0:H	_
+5	Eric	Eric	ADJ	JJ	_	4	A	4:A	_
+6	Banadinović	Banadinović	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Melbourne	Melbourne	PROPN	NNP	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	Victoria	Victoria	PROPN	NNP	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	younger	younger	NOUN	NN	_	16	E	16:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	two	two	NUM	CD	_	16	E	16:E	_
+16	children	child	NOUN	NNS	_	4	H	4:H	_
+17	;	;	PUNCT	,	_	4	U	4:U	_
+18	he	he	PRON	PRP	_	19	A	19:A	_
+19	has	have	VERB	VBZ	_	4	H	4:H	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	brother	brother	NOUN	NN	_	23	E	23:E	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	Anthony	Anthony	PROPN	NNP	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

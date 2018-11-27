@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 134010
+# text = The same year , Hepburn portrayed Clara Wieck Schumann in Song of Love .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Hepburn	Hepburn	PROPN	NNP	_	6	A	6:A	_
+6	portrayed	portray	VERB	VBD	_	0	H	0:H	_
+7	Clara	Clara	PROPN	NNP	_	6	A	6:A	_
+8	Wieck	Wieck	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Schumann	Schumann	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Song	song	PROPN	NNP	_	6	A	6:A	_
+12	of	of	ADP	IN	_	11	Terminal	11:Terminal	_
+13	Love	Love	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	.	_	11	U	11:U	_
+

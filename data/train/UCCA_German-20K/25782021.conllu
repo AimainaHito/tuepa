@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25782021
+# text = » Folgen Sie mir « , sagte ich zu meinen Gefährten .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Folgen	Folge	NOUN	NN	_	7	A	7:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	F	2:F	_
+4	mir	ich	PRON	PPER	_	2	A	2:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	zu	zu	ADP	VVINF	_	11	R	11:R	_
+10	meinen	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Gefährten	Gefährt|Gefährte	NOUN	NE	_	0	C	0:C|2:A	_
+12	.	.	PUNCT	$.	_	2	U	2:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 590012
+# text = Depp stated , " I always thought of Ichabod as a very delicate , fragile person who was maybe a little too in touch with his feminine side , like a frightened little girl . "
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	stated	state	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	''	_	2	U	2:U	_
+5	I	I	PRON	PRP	_	7	A	7:A	_
+6	always	always	ADV	RB	_	7	D	7:D	_
+7	thought	think	VERB	VBD	_	2	A	2:A	_
+8	of	of	ADP	IN	_	9	R	9:R	_
+9	Ichabod	Ichabod	PROPN	NNP	_	7	A	7:A	_
+10	as	as	ADP	IN	_	16	R	16:R	_
+11	a	a	DET	DT	_	16	E	16:E	_
+12	very	very	ADV	RB	_	16	E	16:E	_
+13	delicate	delicate	ADJ	JJ	_	16	E	16:E	_
+14	,	,	PUNCT	,	_	16	U	16:U	_
+15	fragile	fragile	ADJ	JJ	_	16	E	16:E	_
+16	person	person	NOUN	NN	_	7	A	7:A	_
+17	who	who	PRON	WP	_	24	R	24:R	_
+18	was	be	AUX	VBD	_	24	F	24:F	_
+19	maybe	maybe	ADV	RB	_	24	D	24:D	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	little	little	ADJ	JJ	_	22	E	22:E	_
+22	too	too	ADV	RB	_	24	E	24:E	_
+23	in	in	ADP	IN	_	24	E	24:E	_
+24	touch	touch	NOUN	NN	_	16	E	16:E	_
+25	with	with	ADP	IN	_	28	R	28:R	_
+26	his	he	PRON	PRP$	_	28	E	28:E	_
+27	feminine	feminine	NOUN	NN	_	28	E	28:E	_
+28	side	side	NOUN	NN	_	24	A	24:A	_
+29	,	,	PUNCT	,	_	16	U	16:U	_
+30	like	like	ADP	IN	_	34	R	34:R	_
+31	a	a	DET	DT	_	34	E	34:E	_
+32	frightened	frighten	VERB	VBN	_	34	E	34:E	_
+33	little	little	ADJ	JJ	_	34	E	34:E	_
+34	girl	girl	NOUN	NN	_	16	E	16:E	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+36	"	"	PUNCT	''	_	34	U	34:U	_
+

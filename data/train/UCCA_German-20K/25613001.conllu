@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25613001
+# text = Inzwischen hatte die französische Regierung , in Besorgnis , Dumont d'Urville habe keine Kenntnis von Dillons Arbeiten , die Corvette La Bayonnaise unter dem Kommando von Legoarant de Tromelin nach Vanikoro geschickt .
+1	Inzwischen	inzwischen	ADV	ADV	_	32	L	32:L	_
+2	hatte	haben	AUX	VAFIN	_	32	F	32:F	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	französische	französisch	ADJ	ADJA	_	5	E	5:E	_
+5	Regierung	Regierung	NOUN	NN	_	32	A	32:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	in	in	ADP	APPR	_	8	R	8:R	_
+8	Besorgnis	Besorgnis	PROPN	NN	_	5	E	5:E	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	Dumont	Dumont	PROPN	NE	_	14	A	14:A	_
+11	d'Urville	d'Urville	PROPN	NE	_	10	Terminal	10:Terminal	_
+12	habe	haben	AUX	VAFIN	_	14	F	14:F	_
+13	keine	kein	PRON	PIAT	_	14	E	14:E	_
+14	Kenntnis	Kenntnis	NOUN	NN	_	8	E	8:E	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	Dillons	Dillons	PROPN	NE	_	17	E	17:E	_
+17	Arbeiten	Arbeit|Arbeiten	PROPN	NN	_	14	A	14:A	_
+18	,	,	PUNCT	$,	_	32	U	32:U	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Corvette	Corvette	NOUN	NN	_	21	E	21:E	_
+21	La	La	PROPN	NE	_	25	A	25:A	_
+22	Bayonnaise	Bayonnaise	PROPN	NE	_	21	Terminal	21:Terminal	_
+23	unter	unter	ADP	NE	_	25	R	25:R	_
+24	dem	der	DET	ART	_	25	E	25:E	_
+25	Kommando	Kommando	NOUN	NN	_	32	A	32:A	_
+26	von	von	ADP	NE	_	27	R	27:R	_
+27	Legoarant	Legoarant	PROPN	NE	_	25	A	25:A	_
+28	de	de	PROPN	NE	_	27	Terminal	27:Terminal	_
+29	Tromelin	Tromelin	PROPN	NE	_	27	Terminal	27:Terminal	_
+30	nach	nach	ADP	CARD	_	31	R	31:R	_
+31	Vanikoro	Vanikoro	PROPN	NE	_	32	A	32:A	_
+32	geschickt	schicken	VERB	VVPP	_	0	H	0:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

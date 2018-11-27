@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 774000
+# text = « Conseil ! » répétai - je , tout en commençant d' une main fébrile mes préparatifs de départ .
+1	«	«	PUNCT	_	_	5	U	5:U	_
+2	Conseil	conseil	NOUN	_	_	5	A	5:A	_
+3	!	!	PUNCT	_	_	5	U	5:U	_
+4	»	»	PUNCT	_	_	5	U	5:U	_
+5	répétai	répétai	NOUN	_	_	0	H	0:H	_
+6	-	-	PUNCT	_	_	5	U	5:U	_
+7	je	il	PRON	_	_	5	A	5:A|11:A	_
+8	,	,	PUNCT	_	_	5	U	5:U	_
+9	tout	tout	ADV	_	_	5	L	5:L	_
+10	en	en	ADP	_	_	11	F	11:F	_
+11	commençant	commencer	VERB	_	_	5	H	5:H	_
+12	d'	de	ADP	_	_	14	R	14:R	_
+13	une	un	DET	_	_	14	E	14:E	_
+14	main	main	NOUN	_	_	11	D	11:D	_
+15	fébrile	fébrile	ADJ	_	_	14	E	14:E	_
+16	mes	son	DET	_	_	17	E	17:E	_
+17	préparatifs	préparatif	NOUN	_	_	11	A	11:A	_
+18	de	de	ADP	_	_	19	R	19:R	_
+19	départ	départ	NOUN	_	_	17	E	17:E	_
+20	.	.	PUNCT	_	_	19	U	19:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25582010
+# text = Ich setzte mich auf einen Vorsprung , den der Rumpf des Boots gewährte , und atmete mit Behagen die köstliche See luft ein .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|16:A	_
+2	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	einen	ein	DET	ART	_	6	E	6:E	_
+6	Vorsprung	Vorsprung	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	den	der	PRON	PRELS	_	13	R	13:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Rumpf	Rumpf	NOUN	NN	_	13	A	13:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Boots	Boot	NOUN	NN	_	10	E	10:E	_
+13	gewährte	gewährt	VERB	VVFIN	_	6	E	6:E	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	atmete	atmen	VERB	VVFIN	_	2	H	2:H	_
+17	mit	mit	ADP	APPR	_	18	R	18:R	_
+18	Behagen	Behage	NOUN	NN	_	16	D	16:D	_
+19	die	der	DET	ART	_	22	E	22:E	_
+20	köstliche	köstlich	ADJ	ADJA	_	22	E	22:E	_
+21	See	See	NOUN	NE	_	22	E	22:E	_
+22	luft	lufen	VERB	VVFIN	_	16	A	16:A	_
+23	ein	ein	ADV	PTKVZ	_	16	Terminal	16:Terminal	_
+24	.	.	PUNCT	$.	_	16	U	16:U	_
+

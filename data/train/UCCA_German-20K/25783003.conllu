@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25783003
+# text = In dieser Lage befanden wir uns seit 20 Minuten , indem wir das geringste Geräusch im Innern der ›Nautilus‹ belauschten , als Kapitän Nemo eintrat .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Lage	Lage	NOUN	NN	_	4	A	4:A	_
+4	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	uns	wir	PRON	NE	_	4	Terminal	4:Terminal	_
+7	seit	seit	ADP	NN	_	9	R	9:R	_
+8	20	20	NUM	CARD	_	9	E	9:E	_
+9	Minuten	Minute	NOUN	NN	_	4	D	4:D	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	indem	indem	SCONJ	KOUS	_	4	L	4:L	_
+12	wir	wir	PRON	NE	_	20	A	20:A	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	geringste	gering	ADJ	ADJA	_	15	E	15:E	_
+15	Geräusch	Geräusch	NOUN	NN	_	20	A	20:A	_
+16	im	im	PROPN	NE	_	17	R	17:R	_
+17	Innern	Innere	PROPN	NN	_	20	A	20:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	›Nautilus‹	›Nautilus‹	NOUN	NE	_	17	E	17:E	_
+20	belauschten	belauschen	VERB	VVINF	_	4	H	4:H	_
+21	,	,	PUNCT	$,	_	4	U	4:U	_
+22	als	als	SCONJ	KOUS	_	4	L	4:L	_
+23	Kapitän	Kapitän	NOUN	NN	_	24	E	24:E	_
+24	Nemo	Nemo	PROPN	NE	_	25	A	25:A	_
+25	eintrat	eintreten	VERB	VVFIN	_	4	H	4:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

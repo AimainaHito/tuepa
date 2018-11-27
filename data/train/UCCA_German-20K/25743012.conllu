@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25743012
+# text = Durch den oberen Teil des Kraters fiel ein stärkeres Licht herein und übergoß mit einem Dämmerschein alle diese für immer im Schoß des erloschenen Gebirges vergrabenen vulkanischen Auswürfe .
+1	Durch	durch	ADP	APPR	_	4	R	4:R	_
+2	den	der	DET	ART	_	4	E	4:E	_
+3	oberen	ober	ADJ	ADJA	_	4	E	4:E	_
+4	Teil	Teil	NOUN	NN	_	7	A	7:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Kraters	Krater	NOUN	NN	_	4	E	4:E	_
+7	fiel	fallen	VERB	VVFIN	_	0	H	0:H	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	stärkeres	stärker	ADJ	ADJA	_	10	E	10:E	_
+10	Licht	Licht	NOUN	NN	_	7	A	7:A	_
+11	herein	herein	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+12	und	und	CCONJ	NE	_	7	L	7:L	_
+13	übergoß	übergoß	ADV	VVFIN	_	7	H	7:H	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	einem	ein	DET	ART	_	16	E	16:E	_
+16	Dämmerschein	Dämmerschein	NOUN	NN	_	13	A	13:A	_
+17	alle	alle	PRON	PIAT	_	28	E	28:E	_
+18	diese	dies	PRON	PDAT	_	28	E	28:E	_
+19	für	für	ADP	APPR	_	20	R	20:R	_
+20	immer	immer	ADV	ADV	_	26	D	26:D	_
+21	im	im	ADJ	NE	_	22	R	22:R	_
+22	Schoß	Schoß	NOUN	NE	_	26	A	26:A	_
+23	des	der	DET	ART	_	25	R	25:R	_
+24	erloschenen	erloschen	ADJ	ADJA	_	25	E	25:E	_
+25	Gebirges	Gebirge	NOUN	NN	_	22	E	22:E	_
+26	vergrabenen	vergrabenen	VERB	ADJA	_	28	E	28:E	_
+27	vulkanischen	vulkanischen	ADJ	ADJA	_	28	E	28:E	_
+28	Auswürfe	Auswurf	NOUN	NN	_	13	A	13:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

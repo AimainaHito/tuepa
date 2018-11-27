@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25466004
+# text = Aber der Abend des 4 . November kam heran , ohne dass das unterirdische Geheimnis sich enthüllte .
+1	Aber	aber	CCONJ	KON	_	8	L	8:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Abend	Abend	NOUN	NN	_	5	E	5:E	_
+4	des	der	DET	ART	_	3	R	3:R	_
+5	4	4	NUM	CARD	_	8	A	8:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	November	November	PROPN	NN	_	5	Terminal	5:Terminal	_
+8	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+9	heran	heran	ADV	PTKVZ	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	ohne	ohne	ADP	CARD	_	8	L	8:L	_
+12	dass	dass	SCONJ	KOUS	_	11	Terminal	11:Terminal	_
+13	das	der	DET	ART	_	15	E	15:E	_
+14	unterirdische	unterirdische	ADJ	NN	_	15	E	15:E	_
+15	Geheimnis	Geheimnis	NOUN	NN	_	16	A	16:A	_
+16	sich	er|es|sie	PRON	PRF	_	8	H	8:H	_
+17	enthüllte	enthüllen	VERB	VVFIN	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

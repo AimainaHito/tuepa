@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 203000
+# text = He was married to Julia Bingham .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	married	marry	VERB	VBN	_	0	H	0:H	_
+4	to	to	ADP	IN	_	5	R	5:R	_
+5	Julia	Julia	PROPN	NNP	_	3	A	3:A	_
+6	Bingham	Bingham	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	.	.	PUNCT	.	_	5	U	5:U	_
+

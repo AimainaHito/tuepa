@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 128006
+# text = The Lake previewed in Washington , D.C . , where there was a large advance sale .
+1	The	the	DET	DT	_	3	A	3:A	_
+2	Lake	Lake	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	previewed	preview	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Washington	Washington	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	D.C	D.C	PROPN	NNP	_	5	E	5:E	_
+8	.	.	PUNCT	.	_	5	U	5:U	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	where	where	ADV	WRB	_	12	R	12:R	_
+11	there	there	PRON	EX	_	12	F	12:F	_
+12	was	be	VERB	VBD	_	5	E	5:E	_
+13	a	a	DET	DT	_	16	E	16:E	_
+14	large	large	ADJ	JJ	_	16	E	16:E	_
+15	advance	advance	NOUN	NN	_	16	E	16:E	_
+16	sale	sale	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

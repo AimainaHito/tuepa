@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 234001
+# text = In a Clean Hong Kong commercial , he urged the people of Hong Kong to be more considerate with regards to littering , a problem that has been widespread for decades .
+1	In	in	ADP	IN	_	6	R	6:R	_
+2	a	a	DET	DT	_	6	E	6:E	_
+3	Clean	Clean	PROPN	NNP	_	6	E	6:E	_
+4	Hong	Hong	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Kong	Kong	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	commercial	commercial	ADJ	JJ	_	9	A	9:A	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	he	he	PRON	PRP	_	9	A	9:A	_
+9	urged	urge	VERB	VBD	_	0	H	0:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	people	people	NOUN	NNS	_	9	A	9:A|18:A	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	Hong	Hong	PROPN	NNP	_	11	E	11:E	_
+14	Kong	Kong	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	to	to	PART	TO	_	18	F	18:F	_
+16	be	be	AUX	VB	_	18	F	18:F	_
+17	more	more	ADV	RBR	_	18	D	18:D	_
+18	considerate	considerate	ADJ	JJ	_	9	A	9:A	_
+19	with	with	ADP	IN	_	20	E	20:E	_
+20	regards	regards	NOUN	NNS	_	22	R	22:R	_
+21	to	to	ADP	IN	_	20	F	20:F	_
+22	littering	littering	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	problem	problem	NOUN	NN	_	22	E	22:E	_
+26	that	that	PRON	WDT	_	29	F	29:F	_
+27	has	have	AUX	VBZ	_	29	F	29:F	_
+28	been	be	AUX	VBN	_	29	F	29:F	_
+29	widespread	widespread	VERB	VBN	_	25	E	25:E	_
+30	for	for	ADP	IN	_	31	R	31:R	_
+31	decades	decade	NOUN	NNS	_	29	D	29:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 248007
+# text = In Taking Lives opposite Angelina Jolie , he played a man who could identify a serial killer who had been assuming the identity of his victims .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Taking	take	VERB	VBG	_	0	H	0:H	_
+3	Lives	life	NOUN	NNS	_	2	Terminal	2:Terminal	_
+4	opposite	opposite	ADP	IN	_	5	R	5:R	_
+5	Angelina	Angelina	PROPN	NNP	_	2	A	2:A	_
+6	Jolie	Jolie	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	he	he	PRON	PRP	_	9	A	9:A|2:A	_
+9	played	play	VERB	VBD	_	0	P	0:P|2:P	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	man	man	NOUN	NN	_	9	A	9:A	_
+12	who	who	PRON	WP	_	14	F	14:F	_
+13	could	could	AUX	MD	_	14	D	14:D	_
+14	identify	identify	VERB	VB	_	11	E	11:E	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	serial	serial	ADJ	JJ	_	17	E	17:E	_
+17	killer	killer	NOUN	NN	_	14	A	14:A	_
+18	who	who	PRON	WP	_	21	F	21:F	_
+19	had	have	AUX	VBD	_	21	F	21:F	_
+20	been	be	AUX	VBN	_	21	F	21:F	_
+21	assuming	assume	VERB	VBG	_	17	E	17:E	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	identity	identity	NOUN	NN	_	21	A	21:A	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	victims	victim	NOUN	NNS	_	23	E	23:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

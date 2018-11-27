@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 458016
+# text = Both denied that the disappointing ratings performance of World News Tonight contributed to the decision .
+1	Both	both	DET	DT	_	2	A	2:A	_
+2	denied	deny	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	12	F	12:F	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	disappointing	disappointe	VERB	VBG	_	7	E	7:E	_
+6	ratings	rating	NOUN	NNS	_	7	E	7:E	_
+7	performance	performance	NOUN	NN	_	12	A	12:A	_
+8	of	of	ADP	IN	_	9	R	9:R	_
+9	World	World	PROPN	NNP	_	7	E	7:E	_
+10	News	News	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Tonight	tonight	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	contributed	contribute	VERB	VBD	_	2	A	2:A	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	decision	decision	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

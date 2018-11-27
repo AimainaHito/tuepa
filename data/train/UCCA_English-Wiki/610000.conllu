@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 610000
+# text = Having witnessed the 11 September 2001 attacks from the JFK airport tarmac , McCartney was inspired to take a leading role in organising the Concert for New York City .
+1	Having	have	VERB	VBG	_	2	F	2:F	_
+2	witnessed	witness	VERB	VBN	_	0	H	0:H	_
+3	the	the	DET	DT	_	7	E	7:E	_
+4	11	11	NUM	CD	_	7	E	7:E	_
+5	September	September	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	2001	2001	NUM	CD	_	4	Terminal	4:Terminal	_
+7	attacks	attack	NOUN	NNS	_	2	A	2:A	_
+8	from	from	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	JFK	JFK	PROPN	NNP	_	11	E	11:E	_
+11	airport	airport	NOUN	NN	_	12	E	12:E	_
+12	tarmac	tarmac	NOUN	NN	_	2	A	2:A	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	McCartney	McCartney	PROPN	NNP	_	16	A	16:A|23:A|2:A|18:A	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	inspired	inspired	ADJ	JJ	_	2	H	2:H	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	take	take	VERB	VB	_	16	A	16:A	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	leading	leading	VERB	VBG	_	21	E	21:E	_
+21	role	role	NOUN	NN	_	18	A	18:A	_
+22	in	in	SCONJ	IN	_	23	R	23:R	_
+23	organising	organis	VERB	VBG	_	18	A	18:A	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	Concert	concert	PROPN	NNP	_	23	A	23:A	_
+26	for	for	ADP	IN	_	27	R	27:R	_
+27	New	New	PROPN	NNP	_	25	E	25:E	_
+28	York	York	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	City	City	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	.	.	PUNCT	.	_	27	U	27:U	_
+

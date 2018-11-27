@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25488133
+# text = Darum musste notwendig eine Öffnung vorhanden sein , um das Innere des Fahrzeugs mit der Atmosphäre in Verbindung zu setzen .
+1	Darum	darum	ADV	PAV	_	6	L	6:L	_
+2	musste	müssen	AUX	VVFIN	_	6	D	6:D	_
+3	notwendig	notwendig	ADJ	CARD	_	6	D	6:D	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Öffnung	Öffnung	NOUN	NN	_	6	A	6:A	_
+6	vorhanden	vorhanden	ADJ	ADJA	_	0	H	0:H	_
+7	sein	sein	AUX	VAINF	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	um	um	ADP	KOUI	_	6	L	6:L	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Innere	Innere	NOUN	NN	_	17	A	17:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Fahrzeugs	Fahrzeug	NOUN	NN	_	11	E	11:E	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Atmosphäre	Atmosphäre	NOUN	NN	_	17	A	17:A	_
+17	in	in	ADP	APPR	_	6	H	6:H	_
+18	Verbindung	Verbindung	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	zu	zu	PART	VVINF	_	17	Terminal	17:Terminal	_
+20	setzen	setzen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+21	.	.	PUNCT	$.	_	17	U	17:U	_
+

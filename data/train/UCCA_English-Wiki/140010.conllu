@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 140010
+# text = She was nervous about every performance , and recalled " wondering what the hell I was doing there .
+1	She	she	PRON	PRP	_	3	A	3:A|9:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	nervous	nervous	ADJ	JJ	_	0	H	0:H	_
+4	about	about	ADP	IN	_	6	R	6:R	_
+5	every	every	DET	DT	_	6	E	6:E	_
+6	performance	performance	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	recalled	recall	VERB	VBN	_	3	H	3:H	_
+10	"	"	PUNCT	``	_	9	U	9:U	_
+11	wondering	wonder	VERB	VBG	_	9	A	9:A	_
+12	what	what	PRON	WP	_	17	F	17:F	_
+13	the	the	DET	DT	_	12	Terminal	12:Terminal	_
+14	hell	hell	NOUN	NN	_	12	Terminal	12:Terminal	_
+15	I	I	PRON	PRP	_	17	A	17:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	doing	do	VERB	VBG	_	11	A	11:A	_
+18	there	there	ADV	RB	_	17	A	17:A	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

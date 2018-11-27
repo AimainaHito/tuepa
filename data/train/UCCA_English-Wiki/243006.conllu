@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 243006
+# text = Hawke has appeared in many theater productions including The Seagull , Henry IV , Hurlyburly , The Cherry Orchard , The Winter 's Tale and The Coast of Utopia , for which he earned a Tony Award nomination .
+1	Hawke	Hawke	PROPN	NNP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	appeared	appear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	many	many	ADJ	JJ	_	7	E	7:E	_
+6	theater	theater	NOUN	NN	_	7	E	7:E	_
+7	productions	production	NOUN	NNS	_	3	A	3:A	_
+8	including	include	VERB	VBG	_	9	R	9:R	_
+9	The	the	DET	DT	_	7	E	7:E	_
+10	Seagull	Seagull	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	Henry	Henry	PROPN	NNP	_	9	C	9:C	_
+13	IV	iv	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	Hurlyburly	Hurlyburly	PROPN	NNP	_	9	C	9:C	_
+16	,	,	PUNCT	,	_	9	U	9:U	_
+17	The	the	DET	DT	_	9	C	9:C	_
+18	Cherry	Cherry	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Orchard	Orchard	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	,	_	9	U	9:U	_
+21	The	the	DET	DT	_	9	C	9:C	_
+22	Winter	Winter	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	's	's	PART	POS	_	21	Terminal	21:Terminal	_
+24	Tale	Tale	PROPN	NNP	_	21	Terminal	21:Terminal	_
+25	and	and	CCONJ	CC	_	9	N	9:N	_
+26	The	the	DET	DT	_	9	C	9:C	_
+27	Coast	Coast	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	of	of	ADP	IN	_	26	Terminal	26:Terminal	_
+29	Utopia	Utopia	PROPN	NNP	_	26	Terminal	26:Terminal	_
+30	,	,	PUNCT	,	_	26	U	26:U	_
+31	for	for	ADP	IN	_	34	A	34:A	_
+32	which	which	PRON	WDT	_	34	F	34:F	_
+33	he	he	PRON	PRP	_	34	A	34:A	_
+34	earned	earn	VERB	VBD	_	26	E	26:E	_
+35	a	a	DET	DT	_	38	E	38:E	_
+36	Tony	Tony	PROPN	NNP	_	37	E	37:E	_
+37	Award	Award	PROPN	NNP	_	38	E	38:E	_
+38	nomination	nomination	NOUN	NN	_	34	A	34:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

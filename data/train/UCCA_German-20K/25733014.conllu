@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25733014
+# text = Fortgerissen , fühlte ich keine Müdigkeit .
+1	Fortgerissen	Fortgerisse	NOUN	NN	_	0	H	0:H	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	fühlte	fühlen	VERB	VVFIN	_	6	D	6:D	_
+4	ich	ich	PRON	PPER	_	6	A	6:A|1:A	_
+5	keine	kein	PRON	PIAT	_	6	D	6:D	_
+6	Müdigkeit	Müdigkeit	NOUN	NN	_	1	H	1:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

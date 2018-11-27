@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 218012
+# text = Having initially signed on for three Spider - Man films , she revealed that she would do a fourth , but only if Raimi and Maguire also returned .
+1	Having	have	VERB	VBG	_	3	F	3:F	_
+2	initially	initially	ADV	RB	_	3	D	3:D	_
+3	signed	sign	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	RP	_	3	Terminal	3:Terminal	_
+5	for	for	ADP	IN	_	10	R	10:R	_
+6	three	three	NUM	CD	_	10	E	10:E	_
+7	Spider	Spider	NOUN	NN	_	10	E	10:E	_
+8	-	-	PUNCT	HYPH	_	7	U	7:U	_
+9	Man	Man	NOUN	NN	_	7	Terminal	7:Terminal	_
+10	films	film	NOUN	NNS	_	3	A	3:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	she	she	PRON	PRP	_	13	A	13:A	_
+13	revealed	reveal	VERB	VBD	_	3	H	3:H	_
+14	that	that	SCONJ	IN	_	17	F	17:F	_
+15	she	she	PRON	PRP	_	17	A	17:A	_
+16	would	would	AUX	MD	_	17	D	17:D	_
+17	do	do	VERB	VB	_	13	A	13:A	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	fourth	fourth	NOUN	NN	_	17	A	17:A	_
+20	,	,	PUNCT	,	_	17	U	17:U	_
+21	but	but	CCONJ	CC	_	17	L	17:L	_
+22	only	only	ADV	RB	_	21	Terminal	21:Terminal	_
+23	if	if	SCONJ	IN	_	21	Terminal	21:Terminal	_
+24	Raimi	Raimi	PROPN	NNP	_	28	A	28:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	Maguire	Maguire	PROPN	NNP	_	24	C	24:C	_
+27	also	also	ADV	RB	_	28	D	28:D	_
+28	returned	return	VERB	VBD	_	17	H	17:H	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

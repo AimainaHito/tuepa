@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 688009
+# text = His recording career , spanning fifty years , has explored many of the traditions in American song - from folk , blues , and country to gospel , rock and roll , and rockabilly to English , Scottish , and Irish folk music , embracing even jazz and swing .
+1	His	he	PRON	PRP$	_	3	A	3:A	_
+2	recording	recording	NOUN	NN	_	3	E	3:E	_
+3	career	career	NOUN	NN	_	0	C	0:C|45:A	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	spanning	spann	VERB	VBG	_	3	E	3:E	_
+6	fifty	fifty	NUM	CD	_	7	E	7:E	_
+7	years	year	NOUN	NNS	_	5	D	5:D	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	has	have	AUX	VBZ	_	10	F	10:F	_
+10	explored	explore	VERB	VBN	_	0	H	0:H	_
+11	many	many	ADJ	JJ	_	14	E	14:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	traditions	tradition	NOUN	NNS	_	10	A	10:A	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	American	american	ADJ	JJ	_	17	E	17:E	_
+17	song	song	NOUN	NN	_	14	E	14:E	_
+18	-	-	PUNCT	,	_	14	U	14:U	_
+19	from	from	ADP	IN	_	20	R	20:R	_
+20	folk	folk	NOUN	NN	_	14	E	14:E	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	blues	blue	NOUN	NNS	_	20	C	20:C	_
+23	,	,	PUNCT	,	_	20	U	20:U	_
+24	and	and	CCONJ	CC	_	20	N	20:N	_
+25	country	country	NOUN	NN	_	20	C	20:C	_
+26	to	to	PART	TO	_	20	R	20:R	_
+27	gospel	gospel	VERB	VB	_	20	C	20:C	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	rock	rock	NOUN	NN	_	27	C	27:C	_
+30	and	and	CCONJ	CC	_	29	N	29:N	_
+31	roll	roll	NOUN	NN	_	29	C	29:C	_
+32	,	,	PUNCT	,	_	20	U	20:U	_
+33	and	and	CCONJ	CC	_	20	N	20:N	_
+34	rockabilly	rockabilly	ADV	RB	_	20	C	20:C	_
+35	to	to	ADP	IN	_	34	R	34:R	_
+36	English	English	PROPN	NNP	_	43	E	43:E	_
+37	,	,	PUNCT	,	_	36	U	36:U	_
+38	Scottish	Scottish	PROPN	NNP	_	36	C	36:C	_
+39	,	,	PUNCT	,	_	36	U	36:U	_
+40	and	and	CCONJ	CC	_	36	N	36:N	_
+41	Irish	irish	ADJ	JJ	_	36	C	36:C	_
+42	folk	folk	NOUN	NN	_	43	E	43:E	_
+43	music	music	NOUN	NN	_	34	C	34:C	_
+44	,	,	PUNCT	,	_	10	U	10:U	_
+45	embracing	embrace	VERB	VBG	_	10	H	10:H	_
+46	even	even	ADV	RB	_	45	D	45:D	_
+47	jazz	jazz	NOUN	NN	_	45	A	45:A	_
+48	and	and	CCONJ	CC	_	47	N	47:N	_
+49	swing	swing	NOUN	NN	_	47	C	47:C	_
+50	.	.	PUNCT	.	_	47	U	47:U	_
+

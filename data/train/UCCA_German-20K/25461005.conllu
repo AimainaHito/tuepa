@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25461005
+# text = Bald auf die Schanz verkleidung des Vorder kastells , bald auf das Gebälk des hinteren gelehnt , folgte ich mit gierigen Blicken dem schaumigen Kiel wasser , so weit das Gesicht reichte .
+1	Bald	bald	ADV	ADV	_	5	L	5:L	_
+2	auf	auf	ADP	APPR	_	5	R	5:R	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Schanz	schanz	NOUN	NN	_	5	E	5:E	_
+5	verkleidung	verkleidung	NOUN	NN	_	0	H	0:H	_
+6	des	der	DET	ART	_	8	R	8:R	_
+7	Vorder	Vorder	NOUN	NN	_	8	E	8:E	_
+8	kastells	kastells	ADV	NE	_	5	E	5:E	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	bald	bald	ADV	ADV	_	5	L	5:L	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Gebälk	Gebälk	NOUN	NN	_	16	A	16:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	hinteren	hinter	NOUN	ADJA	_	13	E	13:E	_
+16	gelehnt	lehnen	VERB	NN	_	0	S	0:S|5:S	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	folgte	folgen	VERB	VVFIN	_	5	H	5:H	_
+19	ich	ich	PRON	PPER	_	18	A	18:A	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	gierigen	gierig	ADJ	ADJA	_	22	E	22:E	_
+22	Blicken	Blick|Blicken	NOUN	NN	_	18	A	18:A	_
+23	dem	der	DET	ART	_	26	E	26:E	_
+24	schaumigen	schaumigen	ADJ	ADJA	_	26	E	26:E	_
+25	Kiel	Kiel	NOUN	NN	_	26	E	26:E	_
+26	wasser	wass	ADJ	NN	_	18	A	18:A	_
+27	,	,	PUNCT	$,	_	5	U	5:U	_
+28	so	so	ADV	ADV	_	32	D	32:D	_
+29	weit	weit	ADJ	ADJD	_	28	Terminal	28:Terminal	_
+30	das	der	DET	ART	_	31	E	31:E	_
+31	Gesicht	Gesicht	NOUN	NN	_	32	A	32:A	_
+32	reichte	reichen	VERB	VVFIN	_	5	H	5:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

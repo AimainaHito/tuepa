@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25802006
+# text = Von Knochenfischen beobachtete ich eine große Menge , deren Aufzählung zu langweilig sein würde .
+1	Von	von	ADP	APPR	_	2	R	2:R	_
+2	Knochenfischen	Knochenfisch	PROPN	NE	_	3	A	3:A	_
+3	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	eine	ein	DET	ART	_	7	E	7:E	_
+6	große	groß	ADJ	ADJA	_	7	E	7:E	_
+7	Menge	Menge	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	deren	der	DET	PRELAT	_	10	R	10:R	_
+10	Aufzählung	Aufzählung	NOUN	NN	_	7	E	7:E	_
+11	zu	zu	PART	VVINF	_	12	E	12:E	_
+12	langweilig	langweilig	ADJ	ADJD	_	10	D	10:D	_
+13	sein	sein	AUX	PPOSAT	_	10	F	10:F	_
+14	würde	werden	AUX	NN	_	10	D	10:D	_
+15	.	.	PUNCT	$.	_	10	U	10:U	_
+

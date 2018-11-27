@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25430003
+# text = Dem Kommandanten Farragut wurden die Arsenale geöffnet , und er betrieb eifrigst ihre Ausrüstung .
+1	Dem	der	DET	ART	_	3	R	3:R	_
+2	Kommandanten	Kommandant	NOUN	NN	_	3	E	3:E	_
+3	Farragut	Farragut	NOUN	NN	_	7	A	7:A	_
+4	wurden	werden	AUX	ADJD	_	7	F	7:F	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Arsenale	Arsenal	NOUN	ADJA	_	7	A	7:A	_
+7	geöffnet	öffnen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	L	7:L	_
+10	er	er	PRON	PPER	_	11	A	11:A	_
+11	betrieb	betreiben	VERB	VVFIN	_	7	H	7:H	_
+12	eifrigst	eifrigst	ADV	ADV	_	11	D	11:D	_
+13	ihre	ihr	DET	PPOSAT	_	14	E	14:E	_
+14	Ausrüstung	Ausrüstung	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

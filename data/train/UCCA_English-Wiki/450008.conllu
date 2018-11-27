@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 450008
+# text = Although Jennings dreamed of following in his father 's footsteps in broadcasting , his first job was as a bank teller for the Royal Bank of Canada .
+1	Although	although	SCONJ	IN	_	3	L	3:L	_
+2	Jennings	Jenning	PROPN	NNP	_	3	A	3:A|5:A	_
+3	dreamed	dream	VERB	VBD	_	0	H	0:H	_
+4	of	of	SCONJ	IN	_	5	F	5:F	_
+5	following	follow	VERB	VBG	_	3	A	3:A	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	his	he	PRON	PRP$	_	10	E	10:E	_
+8	father	father	NOUN	NN	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	footsteps	footstep	NOUN	NNS	_	5	A	5:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	broadcasting	broadcasting	NOUN	NN	_	10	E	10:E	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	his	he	PRON	PRP$	_	16	E	16:E	_
+15	first	first	ADJ	JJ	_	16	E	16:E	_
+16	job	job	NOUN	NN	_	17	A	17:A	_
+17	was	be	AUX	VBD	_	3	H	3:H	_
+18	as	as	ADP	IN	_	21	R	21:R	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	bank	bank	NOUN	NN	_	21	E	21:E	_
+21	teller	teller	NOUN	NN	_	17	A	17:A	_
+22	for	for	ADP	IN	_	25	R	25:R	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	Royal	Royal	PROPN	NNP	_	25	E	25:E	_
+25	Bank	Bank	PROPN	NNP	_	21	E	21:E	_
+26	of	of	ADP	IN	_	27	R	27:R	_
+27	Canada	Canada	PROPN	NNP	_	25	E	25:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

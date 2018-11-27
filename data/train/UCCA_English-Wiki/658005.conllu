@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 658005
+# text = In 2012 , Carey was ranked second on VH1 's list of the " 100 Greatest Women in Music " . Aside from her commercial accomplishments , Carey has won five Grammy Awards , 17 World Music Awards , 11 American Music Awards , and 31 Billboard Music Awards .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2012	2012	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	ranked	rank	VERB	VBN	_	0	H	0:H	_
+7	second	second	ADV	RB	_	6	A	6:A	_
+8	on	on	ADP	IN	_	11	R	11:R	_
+9	VH1	VH1	PROPN	NNP	_	11	E	11:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	list	list	NOUN	NN	_	6	A	6:A	_
+12	of	of	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	"	"	PUNCT	``	_	17	U	17:U	_
+15	100	100	NUM	CD	_	17	E	17:E	_
+16	Greatest	greatest	PROPN	NNP	_	17	E	17:E	_
+17	Women	woman	PROPN	NNP	_	11	E	11:E	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	Music	music	PROPN	NNP	_	17	E	17:E	_
+20	"	"	PUNCT	''	_	6	U	6:U	_
+21	.	.	PUNCT	.	_	6	U	6:U	_
+22	Aside	aside	ADV	RB	_	6	L	6:L	_
+23	from	from	ADP	IN	_	22	R	22:R	_
+24	her	she	PRON	PRP	_	26	E	26:E	_
+25	commercial	commercial	ADJ	JJ	_	26	E	26:E	_
+26	accomplishments	accomplishment	NOUN	NNS	_	6	H	6:H	_
+27	,	,	PUNCT	,	_	6	U	6:U	_
+28	Carey	Carey	PROPN	NNP	_	30	A	30:A	_
+29	has	have	VERB	VBZ	_	30	F	30:F	_
+30	won	won	NUM	CD	_	6	H	6:H	_
+31	five	five	NUM	CD	_	33	E	33:E	_
+32	Grammy	Grammy	NOUN	NN	_	33	E	33:E	_
+33	Awards	award	NOUN	NNS	_	30	A	30:A	_
+34	,	,	PUNCT	,	_	33	U	33:U	_
+35	17	17	NUM	CD	_	38	E	38:E	_
+36	World	World	PROPN	NNP	_	37	E	37:E	_
+37	Music	music	PROPN	NNP	_	38	E	38:E	_
+38	Awards	awards	NOUN	NNS	_	33	C	33:C	_
+39	,	,	PUNCT	,	_	33	U	33:U	_
+40	11	11	NUM	CD	_	43	E	43:E	_
+41	American	American	ADJ	JJ	_	42	E	42:E	_
+42	Music	music	NOUN	NN	_	43	E	43:E	_
+43	Awards	Award	NOUN	NNS	_	33	C	33:C	_
+44	,	,	PUNCT	,	_	33	U	33:U	_
+45	and	and	CCONJ	CC	_	33	N	33:N	_
+46	31	31	NUM	CD	_	49	E	49:E	_
+47	Billboard	Billboard	PROPN	NNP	_	49	E	49:E	_
+48	Music	music	PROPN	NNP	_	49	E	49:E	_
+49	Awards	award	NOUN	NNS	_	33	C	33:C	_
+50	.	.	PUNCT	.	_	49	U	49:U	_
+

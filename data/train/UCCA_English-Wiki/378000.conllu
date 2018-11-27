@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 378000
+# text = After the critical success of Donnie Darko , Gyllenhaal 's next role was as Pilot Kelston in 2002 's Highway alongside Jared Leto .
+1	After	after	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	critical	critical	ADJ	JJ	_	4	A	4:A	_
+4	success	success	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	Donnie	Donnie	PROPN	NNP	_	4	A	4:A	_
+7	Darko	Darko	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	next	next	ADJ	JJ	_	12	E	12:E	_
+12	role	role	NOUN	NN	_	13	A	13:A	_
+13	was	be	VERB	VBD	_	4	H	4:H	_
+14	as	as	SCONJ	IN	_	15	R	15:R	_
+15	Pilot	Pilot	PROPN	NNP	_	13	A	13:A	_
+16	Kelston	Kelston	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	2002	2002	NUM	CD	_	20	E	20:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	Highway	highway	PROPN	NNP	_	13	A	13:A	_
+21	alongside	alongside	ADV	RB	_	22	R	22:R	_
+22	Jared	Jared	VERB	VBD	_	13	A	13:A	_
+23	Leto	Leto	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

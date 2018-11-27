@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25613004
+# text = » Also « , sagte er , » man weiß noch nicht , wo das dritte , von den Schiff brüchigen erbaute Schiff zugrunde gegangen ist ? «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Also	also	PROPN	ADV	_	10	F	10:F	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	man	man	PRON	PIS	_	10	A	10:A	_
+10	weiß	wissen	VERB	VVFIN	_	5	A	5:A	_
+11	noch	noch	ADV	CARD	_	12	E	12:E	_
+12	nicht	nicht	PART	CARD	_	10	D	10:D	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	wo	wo	ADV	NN	_	24	A	24:A	_
+15	das	der	DET	ART	_	16	E	16:E	_
+16	dritte	dritt	ADJ	ADJA	_	23	E	23:E	_
+17	,	,	PUNCT	$,	_	23	U	23:U	_
+18	von	von	ADP	NN	_	22	R	22:R	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	Schiff	Schiff	NOUN	NN	_	21	E	21:E	_
+21	brüchigen	brüchigen	VERB	ADJA	_	22	A	22:A	_
+22	erbaute	erbaut	ADJ	ADJA	_	23	E	23:E	_
+23	Schiff	Schiff	NOUN	NN	_	24	A	24:A	_
+24	zugrunde	zugrunde	ADV	NE	_	10	A	10:A	_
+25	gegangen	gehen	VERB	VVPP	_	24	Terminal	24:Terminal	_
+26	ist	sein	AUX	NN	_	24	F	24:F	_
+27	?	?	PUNCT	$.	_	24	U	24:U	_
+28	«	«	PUNCT	$(	_	24	U	24:U	_
+

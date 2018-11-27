@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 659004
+# text = After several years of financial struggles , Patricia earned enough money to move her family into a stable and more affluent sector in New York .
+1	After	after	ADP	IN	_	6	L	6:L	_
+2	several	several	ADJ	JJ	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	6	D	6:D	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	financial	financial	ADJ	JJ	_	6	E	6:E	_
+6	struggles	struggle	NOUN	NNS	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Patricia	Patricia	PROPN	NNP	_	9	A	9:A|13:A	_
+9	earned	earn	VERB	VBD	_	6	H	6:H	_
+10	enough	enough	ADJ	JJ	_	11	E	11:E	_
+11	money	money	NOUN	NN	_	9	A	9:A	_
+12	to	to	PART	TO	_	6	L	6:L	_
+13	move	move	VERB	VB	_	6	H	6:H	_
+14	her	she	PRON	PRP$	_	15	E	15:E	_
+15	family	family	NOUN	NN	_	13	A	13:A	_
+16	into	into	ADP	IN	_	22	R	22:R	_
+17	a	a	DET	DT	_	22	E	22:E	_
+18	stable	stable	NOUN	NN	_	22	E	22:E	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	more	more	ADV	RBR	_	21	E	21:E	_
+21	affluent	affluent	ADJ	JJ	_	18	C	18:C	_
+22	sector	sector	NOUN	NN	_	13	A	13:A	_
+23	in	in	ADP	IN	_	24	R	24:R	_
+24	New	New	PROPN	NNP	_	22	E	22:E	_
+25	York	York	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

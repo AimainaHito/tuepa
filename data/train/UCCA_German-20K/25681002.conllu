@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25681002
+# text = Ich beobachtete , dass die kräftig unter m Wasser geführten Ruder schläge nur von 10 zu 10 Sekunden aufeinander folgten , nach der allgemein bei den Kriegs marinen üblichen Weise .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+5	die	der	DET	ART	_	12	R	12:R	_
+6	kräftig	kräftig	ADJ	ADJD	_	10	D	10:D	_
+7	unter	unter	ADP	ADJA	_	9	R	9:R	_
+8	m	m	NOUN	NN	_	9	E	9:E	_
+9	Wasser	Wasser	NOUN	NN	_	10	A	10:A	_
+10	geführten	geführt	ADJ	ADJA	_	20	A	20:A	_
+11	Ruder	Ruder	NOUN	NN	_	12	E	12:E	_
+12	schläge	schläge	ADJ	NN	_	10	A	10:A	_
+13	nur	nur	ADV	NN	_	20	D	20:D	_
+14	von	von	ADP	NN	_	15	R	15:R	_
+15	10	10	NUM	CARD	_	20	D	20:D	_
+16	zu	zu	ADP	NN	_	14	Terminal	14:Terminal	_
+17	10	10	NUM	CARD	_	18	E	18:E	_
+18	Sekunden	Sekunde	NOUN	NN	_	15	C	15:C	_
+19	aufeinander	aufeinander	ADV	PTKVZ	_	20	D	20:D	_
+20	folgten	folgen	VERB	VVFIN	_	2	A	2:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	nach	nach	ADP	CARD	_	30	R	30:R	_
+23	der	der	DET	ART	_	30	E	30:E	_
+24	allgemein	allgemein	ADJ	ADJD	_	29	D	29:D	_
+25	bei	bei	ADP	APPR	_	28	R	28:R	_
+26	den	der	DET	ART	_	28	E	28:E	_
+27	Kriegs	Krieg	NOUN	NN	_	28	E	28:E	_
+28	marinen	marin	ADJ	NN	_	29	A	29:A	_
+29	üblichen	üblich	ADJ	ADJA	_	20	A	20:A	_
+30	Weise	Weise	NOUN	NN	_	29	A	29:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

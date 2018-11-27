@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25647006
+# text = » Herr Arronax « , sagte er zu mir in sehr gebieterischem Ton , » ich nehme nun eine der Verbindlichkeiten in Anspruch , die Sie gegen mich eingegangen sind . «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Arronax	Arronax	PROPN	NE	_	17	G	17:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	zu	zu	ADP	VVINF	_	9	R	9:R	_
+9	mir	ich	PRON	PPER	_	6	A	6:A	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	sehr	sehr	ADV	NE	_	13	E	13:E	_
+12	gebieterischem	gebieterisch	ADJ	ADJA	_	13	E	13:E	_
+13	Ton	Ton	NOUN	NN	_	6	A	6:A	_
+14	,	,	PUNCT	$,	_	6	U	6:U	_
+15	»	»	PUNCT	$(	_	6	U	6:U	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	nehme	nehmen	VERB	VVFIN	_	6	A	6:A	_
+18	nun	nun	ADV	ADV	_	17	D	17:D	_
+19	eine	ein	PRON	PIS	_	21	E	21:E	_
+20	der	der	DET	ART	_	21	R	21:R	_
+21	Verbindlichkeiten	Verbindlichkeit	NOUN	NN	_	17	A	17:A	_
+22	in	in	ADP	APPR	_	17	Terminal	17:Terminal	_
+23	Anspruch	Anspruch	NOUN	NN	_	17	Terminal	17:Terminal	_
+24	,	,	PUNCT	$,	_	17	U	17:U	_
+25	die	der	PRON	PRELS	_	29	R	29:R	_
+26	Sie	sie	PRON	PPER	_	29	A	29:A	_
+27	gegen	gegen	ADP	APPR	_	28	E	28:E	_
+28	mich	ich	PRON	PPER	_	29	A	29:A	_
+29	eingegangen	eingehen	VERB	VVPP	_	21	E	21:E	_
+30	sind	sein	AUX	NN	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+32	«	«	PUNCT	$(	_	29	U	29:U	_
+

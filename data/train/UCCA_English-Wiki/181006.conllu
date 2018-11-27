@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 181006
+# text = Gyllenhaal grew up in Los Angeles , California , and studied at the Harvard - Westlake prep school .
+1	Gyllenhaal	Gyllenhaal	ADJ	JJ	_	2	A	2:A|11:A	_
+2	grew	grow	VERB	VBD	_	0	H	0:H	_
+3	up	up	ADP	RP	_	2	Terminal	2:Terminal	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Los	Los	PROPN	NNP	_	2	A	2:A	_
+6	Angeles	angeles	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	California	California	PROPN	NNP	_	5	E	5:E	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	studied	study	VERB	VBN	_	2	H	2:H	_
+12	at	at	ADP	IN	_	18	R	18:R	_
+13	the	the	DET	DT	_	18	E	18:E	_
+14	Harvard	Harvard	PROPN	NNP	_	18	E	18:E	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	Westlake	Westlake	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	prep	prep	ADJ	JJ	_	18	E	18:E	_
+18	school	school	NOUN	NN	_	11	A	11:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

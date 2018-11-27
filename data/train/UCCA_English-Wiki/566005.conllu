@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 566005
+# text = Presley made his third and final Ed Sullivan Show appearance on January 6 , 1957 - on this occasion indeed shot only down to the waist .
+1	Presley	Presley	PRON	PRP	_	10	A	10:A|21:A	_
+2	made	make	VERB	VBD	_	10	F	10:F	_
+3	his	he	PRON	PRP$	_	10	E	10:E	_
+4	third	third	ADJ	JJ	_	10	D	10:D	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	final	final	ADJ	JJ	_	4	C	4:C	_
+7	Ed	Ed	PROPN	NNP	_	10	A	10:A	_
+8	Sullivan	Sullivan	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Show	show	VERB	VBD	_	7	Terminal	7:Terminal	_
+10	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	January	January	PROPN	NNP	_	10	D	10:D	_
+13	6	6	NUM	CD	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	1957	1957	NUM	CD	_	12	Terminal	12:Terminal	_
+16	-	-	PUNCT	HYPH	_	10	U	10:U	_
+17	on	on	ADP	IN	_	19	R	19:R	_
+18	this	this	DET	DT	_	19	E	19:E	_
+19	occasion	occasion	NOUN	NN	_	21	A	21:A	_
+20	indeed	indeed	ADV	RB	_	21	D	21:D	_
+21	shot	shoot	VERB	VBD	_	10	H	10:H	_
+22	only	only	ADV	RB	_	21	D	21:D	_
+23	down	down	ADV	RB	_	26	R	26:R	_
+24	to	to	ADP	IN	_	23	Terminal	23:Terminal	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	waist	waist	NOUN	NN	_	21	D	21:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

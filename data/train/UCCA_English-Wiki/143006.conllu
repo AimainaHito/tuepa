@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 143006
+# text = The movie won her a second BAFTA and a record fourth Academy Award .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	3	A	3:A	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	her	she	PRON	PRP	_	3	A	3:A	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	second	second	ADJ	JJ	_	7	E	7:E	_
+7	BAFTA	BAFTa	NOUN	NN	_	3	A	3:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	a	a	DET	DT	_	13	E	13:E	_
+10	record	record	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	fourth	fourth	ADP	IN	_	13	E	13:E	_
+12	Academy	Academy	PROPN	NNP	_	13	E	13:E	_
+13	Award	Award	PROPN	NNP	_	7	C	7:C	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

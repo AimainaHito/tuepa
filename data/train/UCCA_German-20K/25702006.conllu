@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25702006
+# text = In dieser Äußerung zeigte sich der ganze Harpunier .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Äußerung	Äußerung	NOUN	NN	_	4	A	4:A	_
+4	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	ganze	ganz	ADJ	ADJA	_	8	E	8:E	_
+8	Harpunier	Harpunier	NOUN	NN	_	4	A	4:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

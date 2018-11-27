@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 543007
+# text = " The studio executive did , however , win the affection of a few film personalities .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	The	the	DET	DT	_	4	E	4:E	_
+3	studio	studio	NOUN	NN	_	4	E	4:E	_
+4	executive	executive	ADJ	JJ	_	9	A	9:A	_
+5	did	do	VERB	VBD	_	9	F	9:F	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	however	however	ADV	RB	_	9	L	9:L	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	win	win	VERB	VB	_	0	H	0:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	affection	affection	NOUN	NN	_	9	A	9:A	_
+12	of	of	ADP	IN	_	16	R	16:R	_
+13	a	a	DET	DT	_	16	E	16:E	_
+14	few	few	ADJ	JJ	_	16	E	16:E	_
+15	film	film	NOUN	NN	_	16	E	16:E	_
+16	personalities	personality	NOUN	NNS	_	11	E	11:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

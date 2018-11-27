@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 546017
+# text = In July 1956 , Jack , Harry , and Albert announced they were putting Warner Bros . on the market .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	July	July	PROPN	NNP	_	3	E	3:E	_
+3	1956	1956	NUM	CD	_	11	D	11:D	_
+4	,	,	PUNCT	,	_	11	U	11:U	_
+5	Jack	Jack	PROPN	NNP	_	11	A	11:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Harry	Harry	PROPN	NNP	_	5	C	5:C	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	and	and	CCONJ	CC	_	5	N	5:N	_
+10	Albert	Albert	PROPN	NNP	_	5	C	5:C	_
+11	announced	announce	VERB	VBD	_	0	H	0:H	_
+12	they	they	PRON	PRP	_	14	A	14:A	_
+13	were	be	AUX	VBD	_	14	F	14:F	_
+14	putting	put	VERB	VBG	_	11	A	11:A	_
+15	Warner	Warner	PROPN	NNP	_	14	A	14:A	_
+16	Bros	Bros	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+18	on	on	ADP	IN	_	14	Terminal	14:Terminal	_
+19	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+20	market	market	NOUN	NN	_	14	Terminal	14:Terminal	_
+21	.	.	PUNCT	.	_	14	U	14:U	_
+

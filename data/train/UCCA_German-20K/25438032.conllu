@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25438032
+# text = Die ›Abraham Lincoln‹ erwiderte den Gruß durch dreimaliges Aufziehen der amerikanischen Flagge mit ihren 39 an der Spitze * Kleine Dampf boote zur Bedienung der großen Steamer .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Abraham	›Abraham	PROPN	NE	_	4	A	4:A	_
+3	Lincoln‹	Lincoln‹	NOUN	NE	_	2	Terminal	2:Terminal	_
+4	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Gruß	Gruß	NOUN	NN	_	4	A	4:A	_
+7	durch	durch	ADP	APPR	_	9	R	9:R	_
+8	dreimaliges	dreimalig	ADJ	ADJA	_	9	E	9:E	_
+9	Aufziehen	aufziehen	NOUN	NN	_	4	A	4:A	_
+10	der	der	DET	ART	_	12	R	12:R	_
+11	amerikanischen	amerikanisch	ADJ	ADJA	_	12	E	12:E	_
+12	Flagge	Flagge	NOUN	NN	_	9	A	9:A	_
+13	mit	mit	ADP	APPR	_	12	R	12:R	_
+14	ihren	ihr	DET	PPOSAT	_	15	R	15:R	_
+15	39	39	NUM	CARD	_	12	E	12:E	_
+16	an	an	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Spitze	Spitze	NOUN	NN	_	15	E	15:E	_
+19	*	*	X	XY	_	4	U	4:U	_
+20	Kleine	klein	ADJ	ADJA	_	22	E	22:E	_
+21	Dampf	Dampf	NOUN	NN	_	22	E	22:E	_
+22	boote	booen	VERB	NN	_	24	A	24:A	_
+23	zur	zur	ADV	NE	_	24	R	24:R	_
+24	Bedienung	Bedienung	NOUN	NN	_	4	H	4:H	_
+25	der	der	DET	ART	_	27	R	27:R	_
+26	großen	groß	ADJ	ADJA	_	27	E	27:E	_
+27	Steamer	Steamer	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

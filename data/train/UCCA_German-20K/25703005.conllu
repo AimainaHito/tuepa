@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25703005
+# text = Das Boot wurde aus seinem Gehäuse genommen und ins Meer hinabgelassen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	0	C	0:C|11:A	_
+3	wurde	werden	AUX	NN	_	7	F	7:F	_
+4	aus	aus	ADP	APPR	_	6	R	6:R	_
+5	seinem	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Gehäuse	Gehäuse	NOUN	NN	_	7	A	7:A	_
+7	genommen	nehmen	VERB	VVPP	_	0	H	0:H	_
+8	und	und	CCONJ	NE	_	7	L	7:L	_
+9	ins	in	DET	NE	_	10	R	10:R	_
+10	Meer	Meer	NOUN	NE	_	11	A	11:A	_
+11	hinabgelassen	hinabgelassen	ADV	VVPP	_	7	H	7:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

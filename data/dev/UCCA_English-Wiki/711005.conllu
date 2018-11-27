@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 711005
+# text = In 2003 , Dylan revisited the evangelical songs from his " born again " period and participated in the CD project Gotta Serve Somebody : The Gospel Songs of Bob Dylan .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2003	2003	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Dylan	Dylan	PROPN	NNP	_	5	A	5:A|17:A	_
+5	revisited	revisit	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	evangelical	evangelical	ADJ	JJ	_	8	E	8:E	_
+8	songs	song	NOUN	NNS	_	5	A	5:A	_
+9	from	from	ADP	IN	_	15	R	15:R	_
+10	his	he	PRON	PRP$	_	15	E	15:E|12:A	_
+11	"	"	PUNCT	``	_	15	U	15:U	_
+12	born	bear	VERB	VBN	_	15	E	15:E	_
+13	again	again	ADV	RB	_	12	D	12:D	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	period	period	VERB	VBN	_	8	E	8:E	_
+16	and	and	CCONJ	CC	_	5	L	5:L	_
+17	participated	participate	VERB	VBN	_	5	H	5:H	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	CD	CD	PROPN	NNP	_	21	E	21:E	_
+21	project	project	NOUN	NN	_	17	A	17:A	_
+22	Gotta	Gotta	PROPN	NNP	_	21	E	21:E	_
+23	Serve	serve	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Somebody	somebody	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	:	:	PUNCT	:	_	22	U	22:U	_
+26	The	the	DET	DT	_	22	Terminal	22:Terminal	_
+27	Gospel	Gospel	PROPN	NNP	_	22	Terminal	22:Terminal	_
+28	Songs	songs	PROPN	NNPS	_	22	Terminal	22:Terminal	_
+29	of	of	ADP	IN	_	22	Terminal	22:Terminal	_
+30	Bob	Bob	PROPN	NNP	_	22	Terminal	22:Terminal	_
+31	Dylan	Dylan	PROPN	NNP	_	22	Terminal	22:Terminal	_
+32	.	.	PUNCT	.	_	21	U	21:U	_
+

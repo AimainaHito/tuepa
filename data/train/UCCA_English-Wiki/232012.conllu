@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 232012
+# text = Jackie Chan has received worldwide recognition for his acting , having won several awards including an Innovator Award from the American Choreography Awards and a lifetime achievement award from the Taurus World Stunt Awards .
+1	Jackie	Jackie	PROPN	NNP	_	4	A	4:A|12:A	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	has	have	AUX	VBZ	_	4	F	4:F	_
+4	received	receive	VERB	VBN	_	0	H	0:H	_
+5	worldwide	worldwide	ADJ	JJ	_	6	A	6:A	_
+6	recognition	recognition	NOUN	NN	_	4	A	4:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	his	he	PRON	PRP$	_	9	A	9:A	_
+9	acting	acting	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	having	have	VERB	VBG	_	12	F	12:F	_
+12	won	win	VERB	VBD	_	4	H	4:H	_
+13	several	several	ADJ	JJ	_	14	E	14:E	_
+14	awards	award	SCONJ	IN	_	12	A	12:A	_
+15	including	include	VERB	VBG	_	18	R	18:R	_
+16	an	a	DET	DT	_	18	E	18:E	_
+17	Innovator	Innovator	PROPN	NNP	_	18	E	18:E	_
+18	Award	award	PROPN	NNP	_	14	E	14:E	_
+19	from	from	ADP	IN	_	23	R	23:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	American	American	PROPN	NNP	_	22	E	22:E	_
+22	Choreography	Choreography	PROPN	NNP	_	23	E	23:E	_
+23	Awards	awards	PROPN	NNP	_	18	E	18:E	_
+24	and	and	CCONJ	CC	_	18	N	18:N	_
+25	a	a	DET	DT	_	28	E	28:E	_
+26	lifetime	lifetime	NOUN	NN	_	27	E	27:E	_
+27	achievement	achievement	NOUN	NN	_	28	E	28:E	_
+28	award	award	NOUN	NN	_	18	C	18:C	_
+29	from	from	ADP	IN	_	34	R	34:R	_
+30	the	the	DET	DT	_	34	E	34:E	_
+31	Taurus	Taurus	PROPN	NNP	_	34	E	34:E	_
+32	World	World	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	Stunt	Stunt	PROPN	NNP	_	31	Terminal	31:Terminal	_
+34	Awards	awards	PROPN	NNPS	_	28	E	28:E	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

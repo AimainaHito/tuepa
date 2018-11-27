@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25489044
+# text = Der zweite hatte sehr entschieden markierte Züge , so dass ein Physiognom darin wie in einem offenen Buch lesen konnte .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	zweite	zweit	NOUN	NN	_	3	A	3:A	_
+3	hatte	haben	AUX	VAFIN	_	0	H	0:H	_
+4	sehr	sehr	ADV	NE	_	5	E	5:E	_
+5	entschieden	entschieden	ADJ	ADJD	_	6	D	6:D	_
+6	markierte	markiert	ADJ	ADJA	_	3	A	3:A	_
+7	Züge	Zug	NOUN	NN	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	so	so	ADV	ADV	_	3	L	3:L	_
+10	dass	dass	SCONJ	KOUS	_	9	Terminal	9:Terminal	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Physiognom	Physiognom	NOUN	NN	_	0	C	0:C|18:A	_
+13	darin	darin	ADV	PAV	_	19	A	19:A	_
+14	wie	wie	ADV	ADV	_	18	R	18:R	_
+15	in	in	ADP	APPR	_	18	R	18:R	_
+16	einem	ein	DET	ART	_	18	E	18:E	_
+17	offenen	offen	ADJ	ADJA	_	18	E	18:E	_
+18	Buch	Buch	NOUN	NN	_	3	H	3:H	_
+19	lesen	lesen	VERB	VVINF	_	3	H	3:H	_
+20	konnte	können	AUX	VMFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

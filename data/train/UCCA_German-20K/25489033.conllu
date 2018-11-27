@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25489033
+# text = Die unsichtbare Tür musste hermetisch verschlossen sein .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	unsichtbare	unsichtbar	ADJ	ADJA	_	3	E	3:E	_
+3	Tür	Tür	NOUN	NN	_	6	A	6:A	_
+4	musste	müssen	AUX	CARD	_	6	D	6:D	_
+5	hermetisch	hermetisch	ADJ	ADJD	_	6	D	6:D	_
+6	verschlossen	verschließen	VERB	VVPP	_	0	H	0:H	_
+7	sein	sein	AUX	VAINF	_	6	F	6:F	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

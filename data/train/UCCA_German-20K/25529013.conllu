@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25529013
+# text = » Aber , Freund Conseil « , sagte der Harpunier , » da sehen wir ja die Arten und Varietäten vor dem Fenster vorüberziehen !
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Aber	aber	CCONJ	KON	_	14	L	14:L	_
+3	,	,	PUNCT	$,	_	14	U	14:U	_
+4	Freund	Freund	PROPN	NN	_	5	E	5:E	_
+5	Conseil	Conseil	PROPN	NE	_	14	G	14:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Harpunier	Harpunier	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	da	da	ADV	ADV	_	14	A	14:A	_
+14	sehen	sehen	VERB	VVFIN	_	8	A	8:A	_
+15	wir	wir	PRON	NE	_	14	A	14:A	_
+16	ja	ja	ADV	ADV	_	14	F	14:F	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Arten	Art	NOUN	NN	_	24	A	24:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Varietäten	Varietät	NOUN	NN	_	18	C	18:C	_
+21	vor	vor	ADP	NN	_	23	R	23:R	_
+22	dem	der	DET	ART	_	23	E	23:E	_
+23	Fenster	Fenster	NOUN	NN	_	24	A	24:A	_
+24	vorüberziehen	vorüberziehen	VERB	VVFIN	_	14	A	14:A	_
+25	!	!	PUNCT	$.	_	24	U	24:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25814008
+# text = Die Ungeheuer , überwältigt , verstümmelt , zu Tode getroffen , räumten uns endlich den Platz und verschwanden unter den Wellen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Ungeheuer	Ungeheuer	NOUN	NN	_	0	C	0:C|4:A|18:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	überwältigt	überwältigen	VERB	VVPP	_	2	E	2:E	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	verstümmelt	verstümmeln	VERB	VVPP	_	4	C	4:C	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	zu	zu	ADP	ADJA	_	4	C	4:C	_
+9	Tode	Tod	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	getroffen	treffen|triefen	VERB	VVPP	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	räumten	räumen	VERB	VVFIN	_	0	H	0:H	_
+13	uns	wir	PRON	NN	_	12	A	12:A	_
+14	endlich	endlich	ADV	ADV	_	12	D	12:D	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Platz	Platz	NOUN	NN	_	12	A	12:A	_
+17	und	und	CCONJ	NE	_	12	L	12:L	_
+18	verschwanden	verschwanden	VERB	VVINF	_	12	H	12:H	_
+19	unter	unter	ADP	ADJD	_	21	R	21:R	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Wellen	Welle	NOUN	NN	_	18	A	18:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

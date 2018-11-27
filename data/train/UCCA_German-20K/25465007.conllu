@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25465007
+# text = Wenn im Verlauf von 3 Tagen das Ungeheuer sich nicht zeigte , solle die ›Abraham Lincoln‹ die Heimkehr nach den europäischen Meeren antreten .
+1	Wenn	wenn	SCONJ	KOUS	_	9	L	9:L	_
+2	im	im	ADJ	NE	_	3	R	3:R	_
+3	Verlauf	Verlauf	NOUN	NN	_	9	A	9:A	_
+4	von	von	ADP	NE	_	3	R	3:R	_
+5	3	3	NUM	CARD	_	6	E	6:E	_
+6	Tagen	Tag	NOUN	NN	_	3	D	3:D	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Ungeheuer	Ungeheuer	NOUN	NN	_	9	A	9:A	_
+9	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+10	nicht	nicht	PART	XY	_	9	D	9:D	_
+11	zeigte	zeigen	VERB	VVFIN	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	solle	sollen	AUX	VMFIN	_	23	D	23:D	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	›Abraham	›Abraham	PROPN	NE	_	23	A	23:A	_
+16	Lincoln‹	Lincoln‹	NOUN	NE	_	15	Terminal	15:Terminal	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Heimkehr	Heimkehr	NOUN	NN	_	23	A	23:A	_
+19	nach	nach	ADP	CARD	_	22	R	22:R	_
+20	den	der	DET	ART	_	22	E	22:E	_
+21	europäischen	europäisch	ADJ	ADJA	_	22	E	22:E	_
+22	Meeren	Meer	NOUN	NN	_	18	A	18:A	_
+23	antreten	antreten	VERB	VVFIN	_	9	H	9:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25647015
+# text = Übrigens war keine Zeit zu Erörterungen .
+1	Übrigens	übrigens	ADV	ADV	_	6	G	6:G	_
+2	war	sein	AUX	ADV	_	6	F	6:F	_
+3	keine	kein	PRON	PIAT	_	6	D	6:D	_
+4	Zeit	Zeit	NOUN	NN	_	6	A	6:A	_
+5	zu	zu	ADP	VVINF	_	6	R	6:R	_
+6	Erörterungen	Erörterung	NOUN	NE	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

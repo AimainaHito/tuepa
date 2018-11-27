@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 633003
+# text = McCartney says that Aunt Mimi : " was very aware that John 's friends were lower class " , and would often patronise him when he arrived to visit Lennon .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	says	say	VERB	VBZ	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	10	F	10:F	_
+4	Aunt	aunt	PROPN	NNP	_	10	A	10:A|23:A	_
+5	Mimi	Mimi	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	:	:	PUNCT	:	_	10	U	10:U	_
+7	"	"	PUNCT	``	_	10	U	10:U	_
+8	was	be	VERB	VBD	_	10	F	10:F	_
+9	very	very	ADV	RB	_	10	D	10:D	_
+10	aware	aware	ADJ	JJ	_	2	A	2:A	_
+11	that	that	SCONJ	IN	_	17	F	17:F	_
+12	John	john	PROPN	NNP	_	14	E	14:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	friends	friend	NOUN	NNS	_	17	A	17:A	_
+15	were	be	AUX	VBD	_	17	F	17:F	_
+16	lower	lower	ADJ	JJ	_	17	E	17:E	_
+17	class	class	NOUN	NN	_	10	A	10:A	_
+18	"	"	PUNCT	''	_	2	U	2:U	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	and	and	CCONJ	CC	_	2	L	2:L	_
+21	would	would	AUX	MD	_	23	F	23:F	_
+22	often	often	ADV	RB	_	23	D	23:D	_
+23	patronise	patronise	VERB	VB	_	2	H	2:H	_
+24	him	he	PRON	PRP	_	23	A	23:A	_
+25	when	when	ADV	WRB	_	2	L	2:L	_
+26	he	he	PRON	PRP	_	29	A	29:A	_
+27	arrived	arrive	VERB	VBD	_	29	D	29:D	_
+28	to	to	PART	TO	_	29	F	29:F	_
+29	visit	visit	VERB	VB	_	2	H	2:H	_
+30	Lennon	Lennon	PROPN	NNP	_	29	A	29:A	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

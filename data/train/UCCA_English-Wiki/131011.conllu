@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 131011
+# text = Howard Hughes , Hepburn 's beau at the time , sensed that the play could be her ticket back to Hollywood stardom and bought her the film rights before it even debuted on stage .
+1	Howard	Howard	PROPN	NNP	_	11	A	11:A|24:A	_
+2	Hughes	Hughes	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	Hepburn	Hepburn	PROPN	NNP	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	beau	beau	NOUN	NN	_	1	E	1:E	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	time	time	NOUN	NN	_	6	D	6:D	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	sensed	sense	VERB	VBD	_	0	H	0:H	_
+12	that	that	SCONJ	IN	_	16	F	16:F	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	play	play	NOUN	NN	_	16	A	16:A	_
+15	could	could	AUX	MD	_	16	F	16:F	_
+16	be	be	AUX	VB	_	11	A	11:A	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	ticket	ticket	NOUN	NN	_	16	A	16:A	_
+19	back	back	ADV	RB	_	22	R	22:R	_
+20	to	to	ADP	IN	_	22	F	22:F	_
+21	Hollywood	Hollywood	NOUN	NN	_	22	E	22:E	_
+22	stardom	stardom	NOUN	NN	_	18	E	18:E	_
+23	and	and	CCONJ	CC	_	11	L	11:L	_
+24	bought	buy	VERB	VBD	_	11	H	11:H	_
+25	her	she	PRON	PRP$	_	24	A	24:A	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	film	film	NOUN	NN	_	28	E	28:E	_
+28	rights	rights	NOUN	NNS	_	24	A	24:A	_
+29	before	before	SCONJ	IN	_	11	L	11:L	_
+30	it	it	PRON	PRP	_	32	A	32:A	_
+31	even	even	ADV	RB	_	32	D	32:D	_
+32	debuted	debute	VERB	VBD	_	11	H	11:H	_
+33	on	on	ADP	IN	_	34	R	34:R	_
+34	stage	stage	NOUN	NN	_	32	A	32:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

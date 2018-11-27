@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 245011
+# text = " Nonetheless , the film was a surprise box office disappointment .
+1	"	"	PUNCT	``	_	11	U	11:U	_
+2	Nonetheless	nonetheless	PROPN	NNP	_	11	L	11:L	_
+3	,	,	PUNCT	,	_	11	U	11:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	film	film	NOUN	NN	_	11	A	11:A	_
+6	was	be	AUX	VBD	_	11	D	11:D	_
+7	a	a	DET	DT	_	11	E	11:E	_
+8	surprise	surprise	NOUN	NN	_	11	E	11:E	_
+9	box	box	NOUN	NN	_	10	E	10:E	_
+10	office	office	NOUN	NN	_	11	E	11:E	_
+11	disappointment	disappointment	NOUN	NN	_	0	H	0:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

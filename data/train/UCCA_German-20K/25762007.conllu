@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25762007
+# text = Von diesem Tag an merkte ich mit Unruhe , dass Ned Lands Stimmung gegen Kapitän Nemo immer übler wurde , und entschloß mich , seine Handlungen und Gebärden strenge zu überwachen .
+1	Von	von	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	5	D	5:D	_
+4	an	an	ADP	APPR	_	1	Terminal	1:Terminal	_
+5	merkte	merken	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A|31:A|22:A	_
+7	mit	mit	ADP	APPR	_	8	R	8:R	_
+8	Unruhe	Unruhe	NOUN	NE	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+11	Ned	Ned	PROPN	NE	_	18	A	18:A	_
+12	Lands	Land	PROPN	NE	_	11	Terminal	11:Terminal	_
+13	Stimmung	Stimmung	NOUN	NN	_	11	E	11:E	_
+14	gegen	gegen	ADP	APPR	_	16	R	16:R	_
+15	Kapitän	Kapitän	PROPN	NN	_	16	E	16:E	_
+16	Nemo	Nemo	PROPN	NE	_	18	A	18:A	_
+17	immer	immer	ADV	ADV	_	18	D	18:D	_
+18	übler	übel	ADJ	ADJD	_	5	A	5:A	_
+19	wurde	werden	AUX	TRUNC	_	18	F	18:F	_
+20	,	,	PUNCT	$,	_	5	U	5:U	_
+21	und	und	CCONJ	NE	_	5	L	5:L	_
+22	entschloß	entschloß	ADV	VVFIN	_	5	H	5:H	_
+23	mich	ich	PRON	PPER	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	$,	_	22	U	22:U	_
+25	seine	sein	DET	PPOSAT	_	26	E	26:E	_
+26	Handlungen	Handlung	NOUN	NN	_	31	A	31:A	_
+27	und	und	CCONJ	NE	_	26	N	26:N	_
+28	Gebärden	Gebärde	NOUN	NE	_	26	C	26:C	_
+29	strenge	streng	ADJ	ADJA	_	31	D	31:D	_
+30	zu	zu	PART	VVINF	_	31	F	31:F	_
+31	überwachen	überwachen	VERB	VVINF	_	22	A	22:A	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

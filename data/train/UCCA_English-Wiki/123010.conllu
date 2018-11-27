@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 123010
+# text = She struggled with the scholastic demands of university , and was once suspended for smoking in her room .
+1	She	she	PRON	PRP	_	2	A	2:A|15:A|13:A	_
+2	struggled	struggle	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	6	R	6:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	scholastic	scholastic	ADJ	JJ	_	6	E	6:E	_
+6	demands	demand	NOUN	NNS	_	2	A	2:A	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	university	university	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	was	be	AUX	VBD	_	13	F	13:F	_
+12	once	once	ADV	RB	_	13	D	13:D	_
+13	suspended	suspend	VERB	VBN	_	2	H	2:H	_
+14	for	for	ADP	IN	_	15	R	15:R	_
+15	smoking	smoke	NOUN	NN	_	13	A	13:A	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	room	room	NOUN	NN	_	15	A	15:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

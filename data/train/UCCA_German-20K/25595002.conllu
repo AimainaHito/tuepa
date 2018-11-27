@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25595002
+# text = Ich meinesteils war wohl zufrieden damit , und wir streckten uns nieder .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	meinesteils	meinesteils	ADV	ADV	_	5	D	5:D	_
+3	war	sein	AUX	ADV	_	5	F	5:F	_
+4	wohl	wohl	ADV	ADV	_	5	D	5:D	_
+5	zufrieden	zufrieden	ADJ	ADJD	_	0	H	0:H	_
+6	damit	damit	ADV	PAV	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	und	und	CCONJ	NE	_	5	L	5:L	_
+9	wir	wir	PRON	NE	_	10	A	10:A	_
+10	streckten	strecken	VERB	VVFIN	_	5	H	5:H	_
+11	uns	wir	PRON	NN	_	10	Terminal	10:Terminal	_
+12	nieder	nieder	ADV	NN	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25581007
+# text = Über die Beschaffenheit dieses Stoffs machte Conseil öfters seine Bemerkungen .
+1	Über	über	ADP	APPR	_	3	R	3:R	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Beschaffenheit	Beschaffenheit	NOUN	NN	_	6	A	6:A	_
+4	dieses	dies	PRON	PDAT	_	5	E	5:E	_
+5	Stoffs	Stoff	NOUN	NN	_	3	A	3:A	_
+6	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	NOUN	NE	_	6	A	6:A	_
+8	öfters	öfters	ADV	ADV	_	6	D	6:D	_
+9	seine	sein	DET	PPOSAT	_	6	Terminal	6:Terminal	_
+10	Bemerkungen	Bemerkung	NOUN	NN	_	6	Terminal	6:Terminal	_
+11	.	.	PUNCT	$.	_	6	U	6:U	_
+

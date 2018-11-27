@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25488149
+# text = Zum Glück hielt die Bewegung , die unterzutauchen drohte , inne .
+1	Zum	Zum	ADP	NE	_	2	R	2:R	_
+2	Glück	Glück	PROPN	NE	_	3	G	3:G	_
+3	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Bewegung	Bewegung	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	die	der	PRON	PRELS	_	8	R	8:R	_
+8	unterzutauchen	unterzutauch	ADJ	ADJA	_	5	E	5:E	_
+9	drohte	drohen	VERB	ADJA	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	inne	inne	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+12	.	.	PUNCT	$.	_	3	U	3:U	_
+

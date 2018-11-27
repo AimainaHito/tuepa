@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25725003
+# text = Hatte er in den letzten politischen oder sozialen Bewegungen dieses Jahrhunderts eine Rolle gespielt ?
+1	Hatte	haben	VERB	VAFIN	_	12	F	12:F	_
+2	er	er	PRON	PPER	_	12	A	12:A	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	den	der	DET	ART	_	9	E	9:E	_
+5	letzten	letzt	ADJ	ADJA	_	12	A	12:A	_
+6	politischen	politisch	ADJ	ADJA	_	5	D	5:D	_
+7	oder	oder	CCONJ	CARD	_	6	N	6:N	_
+8	sozialen	sozial	ADJ	ADJA	_	6	C	6:C	_
+9	Bewegungen	Bewegung	NOUN	NN	_	5	A	5:A	_
+10	dieses	dies	PRON	PDAT	_	11	R	11:R	_
+11	Jahrhunderts	Jahrhundert	NOUN	ADV	_	5	D	5:D	_
+12	eine	ein	DET	ART	_	0	H	0:H	_
+13	Rolle	Rolle	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	gespielt	spielen	VERB	VVPP	_	12	Terminal	12:Terminal	_
+15	?	?	PUNCT	$.	_	12	U	12:U	_
+

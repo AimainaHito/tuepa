@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25489017
+# text = 5 Schritte weit stieß ich auf eine eiserne Wand aus zusammengefügtem Blech .
+1	5	5	NUM	CARD	_	2	E	2:E	_
+2	Schritte	Schritt	NOUN	NN	_	3	E	3:E	_
+3	weit	weit	ADJ	ADJD	_	4	A	4:A	_
+4	stieß	stoßen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	auf	auf	ADP	APPR	_	9	R	9:R	_
+7	eine	ein	DET	ART	_	9	E	9:E	_
+8	eiserne	eisern	ADJ	ADJA	_	9	E	9:E	_
+9	Wand	Wand	NOUN	NN	_	4	A	4:A	_
+10	aus	aus	ADP	APPR	_	12	R	12:R	_
+11	zusammengefügtem	zusammengefügt	ADJ	ADJA	_	12	E	12:E	_
+12	Blech	Blech	NOUN	NN	_	9	E	9:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

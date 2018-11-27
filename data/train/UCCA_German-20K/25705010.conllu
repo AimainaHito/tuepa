@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25705010
+# text = Ich fand es vortrefflich und sogar vorzüglicher als Kalbfleisch , wo nicht Rindfleisch .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	4	A	4:A	_
+4	vortrefflich	vortrefflich	ADJ	ADJD	_	2	A	2:A	_
+5	und	und	CCONJ	NN	_	4	N	4:N	_
+6	sogar	sogar	ADV	ADV	_	4	D	4:D	_
+7	vorzüglicher	vorzüglich	ADJ	ADJA	_	4	C	4:C	_
+8	als	als	ADP	KOKOM	_	4	F	4:F	_
+9	Kalbfleisch	Kalbfleisch	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	wo	wo	ADV	NN	_	2	L	2:L	_
+12	nicht	nicht	PART	CARD	_	13	D	13:D	_
+13	Rindfleisch	Rindfleisch	NOUN	NN	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

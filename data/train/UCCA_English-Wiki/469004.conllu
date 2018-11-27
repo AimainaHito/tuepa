@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 469004
+# text = Despite his off - court troubles , Johnson averaged 18.6 points , 9.6 rebounds , 9.5 assists , and a league - high 2.7 steals per game , and was voted a member of the All - NBA Second Team .
+1	Despite	despite	ADP	IN	_	6	L	6:L	_
+2	his	he	PRON	PRP$	_	6	A	6:A	_
+3	off	off	NOUN	NN	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	court	court	NOUN	NN	_	6	E	6:E	_
+6	troubles	trouble	NOUN	NNS	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Johnson	Johnson	PROPN	NNP	_	9	A	9:A|31:A	_
+9	averaged	average	VERB	VBD	_	6	H	6:H	_
+10	18.6	18.6	NUM	CD	_	11	E	11:E	_
+11	points	point	NOUN	NNS	_	9	A	9:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	9.6	9.6	NUM	CD	_	14	E	14:E	_
+14	rebounds	rebound	NOUN	NNS	_	11	C	11:C	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	9.5	9.5	NUM	CD	_	17	E	17:E	_
+17	assists	assist	NOUN	NNS	_	11	C	11:C	_
+18	,	,	PUNCT	,	_	11	U	11:U	_
+19	and	and	CCONJ	CC	_	11	N	11:N	_
+20	a	a	DET	DT	_	25	E	25:E	_
+21	league	league	NOUN	NN	_	25	E	25:E	_
+22	-	-	PUNCT	HYPH	_	21	U	21:U	_
+23	high	high	ADJ	JJ	_	21	E	21:E	_
+24	2.7	2.7	NUM	CD	_	25	E	25:E	_
+25	steals	steal	NOUN	NNS	_	11	C	11:C	_
+26	per	per	ADP	IN	_	27	R	27:R	_
+27	game	game	NOUN	NN	_	11	E	11:E	_
+28	,	,	PUNCT	,	_	6	U	6:U	_
+29	and	and	CCONJ	CC	_	6	L	6:L	_
+30	was	be	AUX	VBD	_	31	F	31:F	_
+31	voted	vote	VERB	VBD	_	6	H	6:H	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	member	member	NOUN	NN	_	31	A	31:A	_
+34	of	of	ADP	IN	_	40	R	40:R	_
+35	the	the	DET	DT	_	40	E	40:E	_
+36	All	all	PROPN	NNP	_	38	E	38:E	_
+37	-	-	PUNCT	HYPH	_	38	U	38:U	_
+38	NBA	NBA	PROPN	NNP	_	40	E	40:E	_
+39	Second	second	PROPN	NNP	_	40	E	40:E	_
+40	Team	team	PROPN	NNP	_	33	E	33:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

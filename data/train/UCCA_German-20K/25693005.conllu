@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25693005
+# text = Es war mir gar nicht darum zu tun , über die Laune von Kapitän Nemo zu grübeln , dass er uns in diesen Golf führte ; aber ich billigte unverhohlen , dass die ›Nautilus‹ hineinfuhr .
+1	Es	es	PRON	PPER	_	8	F	8:F	_
+2	war	sein	AUX	ADV	_	8	F	8:F	_
+3	mir	ich	PRON	PPER	_	8	A	8:A	_
+4	gar	gar	ADV	ADV	_	5	E	5:E	_
+5	nicht	nicht	PART	XY	_	8	D	8:D	_
+6	darum	darum	ADV	PAV	_	17	R	17:R	_
+7	zu	zu	PART	VVINF	_	8	F	8:F	_
+8	tun	tun	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	über	über	ADP	VVFIN	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Laune	Laune	NOUN	NN	_	17	A	17:A	_
+13	von	von	ADP	NE	_	15	R	15:R	_
+14	Kapitän	Kapitän	PROPN	FM	_	15	E	15:E	_
+15	Nemo	Nemo	PROPN	NE	_	12	E	12:E	_
+16	zu	zu	PART	NE	_	17	F	17:F	_
+17	grübeln	grübeln	VERB	NN	_	8	A	8:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	dass	dass	SCONJ	KOUS	_	25	R	25:R	_
+20	er	er	PRON	PPER	_	25	A	25:A	_
+21	uns	wir	PRON	NN	_	25	A	25:A	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	diesen	dies	PRON	PDAT	_	24	E	24:E	_
+24	Golf	Golf	NOUN	NN	_	25	A	25:A	_
+25	führte	führen	VERB	VVFIN	_	17	A	17:A	_
+26	;	;	PUNCT	$.	_	8	U	8:U	_
+27	aber	aber	CCONJ	ADV	_	8	L	8:L	_
+28	ich	ich	PRON	PPER	_	29	A	29:A	_
+29	billigte	billigen	VERB	VVFIN	_	8	H	8:H	_
+30	unverhohlen	unverhohlen	VERB	VVINF	_	29	D	29:D	_
+31	,	,	PUNCT	$,	_	29	U	29:U	_
+32	dass	dass	SCONJ	KOUS	_	35	R	35:R	_
+33	die	der	DET	ART	_	34	E	34:E	_
+34	›Nautilus‹	›Nautilus‹	NOUN	NE	_	35	A	35:A	_
+35	hineinfuhr	hineinfuhr	ADV	VVFIN	_	29	A	29:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

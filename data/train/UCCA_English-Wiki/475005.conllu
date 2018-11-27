@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 475005
+# text = In the final game of the CBA series , Magic Johnson had 30 points , 17 rebounds , and 13 assists , leading the All - Stars to a 126 - 121 victory over the Oklahoma City Cavalry .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	final	final	ADJ	JJ	_	4	E	4:E	_
+4	game	game	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	CBA	CBA	PROPN	NNP	_	8	E	8:E	_
+8	series	series	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Magic	magic	PROPN	NNP	_	12	A	12:A|23:A	_
+11	Johnson	Johnson	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	had	have	VERB	VBD	_	4	H	4:H	_
+13	30	30	NUM	CD	_	14	E	14:E	_
+14	points	point	NOUN	NNS	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	17	17	NUM	CD	_	17	E	17:E	_
+17	rebounds	rebound	NOUN	NNS	_	14	C	14:C	_
+18	,	,	PUNCT	,	_	14	U	14:U	_
+19	and	and	CCONJ	CC	_	14	N	14:N	_
+20	13	13	NUM	CD	_	21	E	21:E	_
+21	assists	assist	NOUN	NNS	_	14	C	14:C	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	leading	lead	VERB	VBG	_	4	H	4:H	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	All	all	DET	DT	_	23	A	23:A	_
+26	-	-	PUNCT	HYPH	_	25	U	25:U	_
+27	Stars	Star	NOUN	NNS	_	25	Terminal	25:Terminal	_
+28	to	to	ADP	IN	_	33	R	33:R	_
+29	a	a	DET	DT	_	33	E	33:E	_
+30	126	126	NUM	CD	_	33	E	33:E	_
+31	-	-	SYM	SYM	_	30	U	30:U	_
+32	121	121	NUM	CD	_	30	Terminal	30:Terminal	_
+33	victory	victory	NOUN	NN	_	23	A	23:A	_
+34	over	over	ADP	IN	_	38	R	38:R	_
+35	the	the	DET	DT	_	38	E	38:E	_
+36	Oklahoma	Oklahoma	PROPN	NNP	_	38	E	38:E	_
+37	City	city	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	Cavalry	Cavalry	PROPN	NNP	_	33	A	33:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

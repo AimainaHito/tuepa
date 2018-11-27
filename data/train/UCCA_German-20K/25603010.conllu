@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25603010
+# text = Die allgemeine Richtung der " Nautilus " war süd östlich , und sie hielt sich in der Tiefe von 100 bis 150 Meter .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	allgemeine	allgemein	ADJ	ADJA	_	3	E	3:E	_
+3	Richtung	Richtung	NOUN	NN	_	9	A	9:A	_
+4	der	der	DET	ART	_	6	R	6:R	_
+5	"	"	PUNCT	$(	_	6	U	6:U	_
+6	Nautilus	Nautilus	PROPN	NE	_	3	E	3:E	_
+7	"	"	PUNCT	$(	_	9	U	9:U	_
+8	war	sein	AUX	NE	_	9	F	9:F	_
+9	süd	süd	ADJ	NE	_	0	H	0:H	_
+10	östlich	östlich	ADJ	NE	_	9	C	9:C	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	und	und	CCONJ	NE	_	9	L	9:L	_
+13	sie	sie	PRON	ADV	_	14	A	14:A	_
+14	hielt	halten	VERB	VVFIN	_	9	H	9:H	_
+15	sich	er|es|sie	PRON	PRF	_	14	Terminal	14:Terminal	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Tiefe	Tiefe	NOUN	NN	_	14	A	14:A	_
+19	von	von	ADP	NE	_	23	R	23:R	_
+20	100	100	NUM	CARD	_	23	E	23:E	_
+21	bis	bis	ADP	KON	_	20	N	20:N	_
+22	150	150	NUM	CARD	_	20	C	20:C	_
+23	Meter	Meter	NOUN	NN	_	18	E	18:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

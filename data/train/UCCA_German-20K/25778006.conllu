@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25778006
+# text = Ich hob ein Pinguinei von merkwürdiger Größe auf , für das ein Liebhaber wohl 1.000 Franc gezahlt hätte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hob	heben	VERB	VVFIN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Pinguinei	Pinguinei	NOUN	NE	_	2	A	2:A	_
+5	von	von	ADP	NE	_	7	R	7:R	_
+6	merkwürdiger	merkwürdig	ADJ	ADJA	_	7	D	7:D	_
+7	Größe	Größe	NOUN	NN	_	4	E	4:E	_
+8	auf	auf	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	für	für	ADP	APPR	_	11	R	11:R	_
+11	das	der	PRON	PDS	_	17	R	17:R	_
+12	ein	ein	DET	ART	_	13	E	13:E	_
+13	Liebhaber	Liebhaber	NOUN	NN	_	17	A	17:A	_
+14	wohl	wohl	ADV	ADV	_	17	D	17:D	_
+15	1.000	1.0	NUM	CARD	_	16	E	16:E	_
+16	Franc	Franc	NOUN	NN	_	17	A	17:A	_
+17	gezahlt	zahln	VERB	VVPP	_	4	E	4:E	_
+18	hätte	haben	AUX	VAFIN	_	17	D	17:D	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

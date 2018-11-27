@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25670005
+# text = Diese zierlichen Mollusken bewegten sich vermittels ihrer Fortbewegungs röhre rückwärts , indem sie durch diese Röhre das eingesaugte Wasser entfernen .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	zierlichen	zierlich	ADJ	ADJA	_	3	E	3:E	_
+3	Mollusken	Mollusko	NOUN	NN	_	4	A	4:A	_
+4	bewegten	bewegen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	vermittels	vermittels	ADP	NE	_	9	R	9:R	_
+7	ihrer	ihr	DET	PPOSAT	_	9	E	9:E	_
+8	Fortbewegungs	Fortbewegungs	NOUN	NN	_	9	E	9:E	_
+9	röhre	röhr	PRON	NN	_	4	A	4:A	_
+10	rückwärts	rückwärts	ADV	ADV	_	4	D	4:D	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	indem	indem	SCONJ	KOUS	_	4	L	4:L	_
+13	sie	sie	PRON	ADV	_	20	A	20:A	_
+14	durch	durch	ADP	APPR	_	16	R	16:R	_
+15	diese	dies	PRON	PDAT	_	16	E	16:E	_
+16	Röhre	Röhre	NOUN	NN	_	20	A	20:A	_
+17	das	der	DET	ART	_	19	E	19:E	_
+18	eingesaugte	eingesaugt	ADJ	ADJA	_	19	E	19:E	_
+19	Wasser	Wasser	NOUN	NN	_	20	A	20:A	_
+20	entfernen	entfernen	VERB	VVINF	_	4	H	4:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

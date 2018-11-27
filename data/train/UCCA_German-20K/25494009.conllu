@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25494009
+# text = « » Ich blieb die Antwort schuldig .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Ich	ich	PRON	PPER	_	4	A	4:A	_
+4	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Antwort	Antwort	NOUN	NN	_	4	A	4:A	_
+7	schuldig	schuldig	ADJ	ADJD	_	4	Terminal	4:Terminal	_
+8	.	.	PUNCT	$.	_	4	U	4:U	_
+

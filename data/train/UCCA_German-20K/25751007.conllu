@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25751007
+# text = Bald hatten wir die bewohnbare Zone , wo die meisten Fische hausen , zurückgelegt .
+1	Bald	bald	ADV	ADV	_	14	D	14:D	_
+2	hatten	haben	VERB	VAFIN	_	14	F	14:F	_
+3	wir	wir	PRON	NE	_	14	A	14:A	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	bewohnbare	bewohnbar	ADJ	ADJA	_	6	E	6:E	_
+6	Zone	Zone	NOUN	NN	_	14	A	14:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	wo	wo	ADV	NN	_	12	R	12:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	meisten	meist	ADJ	PIAT	_	11	E	11:E	_
+11	Fische	Fisch	NOUN	NN	_	12	A	12:A	_
+12	hausen	hausen	VERB	NE	_	6	E	6:E	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	zurückgelegt	zurückgelegen	VERB	VVPP	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

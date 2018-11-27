@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25683006
+# text = Ich wurde wieder zum Erstaunen ruhig .
+1	Ich	ich	PRON	PPER	_	6	A	6:A	_
+2	wurde	werden	AUX	NN	_	6	F	6:F	_
+3	wieder	wieder	ADV	NE	_	6	D	6:D	_
+4	zum	zum	ADP	NN	_	5	E	5:E	_
+5	Erstaunen	Erstaunen	NOUN	NN	_	6	G	6:G	_
+6	ruhig	ruhig	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

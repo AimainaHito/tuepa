@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25408010
+# text = Sie in 's Reich der Fabeln zu verweisen , ging schon nicht mehr an .
+1	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	's	es	PROPN	ART	_	4	E	4:E	_
+4	Reich	Reich	PROPN	NN	_	8	A	8:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Fabeln	Fabeln	NOUN	NE	_	4	E	4:E	_
+7	zu	zu	PART	NE	_	8	F	8:F	_
+8	verweisen	verweisen	VERB	VVINF	_	10	A	10:A	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+11	schon	schon	ADV	ADV	_	10	D	10:D	_
+12	nicht	nicht	PART	CARD	_	10	D	10:D	_
+13	mehr	mehr	ADV	ADV	_	12	Terminal	12:Terminal	_
+14	an	an	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+15	.	.	PUNCT	$.	_	10	U	10:U	_
+

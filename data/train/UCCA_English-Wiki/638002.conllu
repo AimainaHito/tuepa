@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 638002
+# text = Lennon 's explanation was , " If you can imagine a world at peace , with no denominations of religion - not without religion , but without this ' my God is bigger than your God ' thing - then it can be true . "
+1	Lennon	Lennon	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	explanation	explanation	NOUN	NN	_	4	A	4:A	_
+4	was	be	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	If	if	SCONJ	IN	_	10	L	10:L	_
+8	you	you	PRON	PRP	_	10	A	10:A	_
+9	can	can	AUX	MD	_	10	D	10:D	_
+10	imagine	imagine	VERB	VB	_	4	A	4:A	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	world	world	NOUN	NN	_	14	A	14:A	_
+13	at	at	ADP	IN	_	14	R	14:R	_
+14	peace	peace	NOUN	NN	_	10	A	10:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	with	with	ADP	IN	_	18	R	18:R	_
+17	no	no	DET	DT	_	18	D	18:D	_
+18	denominations	denomination	NOUN	NNS	_	14	A	14:A	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	religion	religion	NOUN	NN	_	18	E	18:E	_
+21	-	-	PUNCT	,	_	18	U	18:U	_
+22	not	not	ADV	RB	_	23	D	23:D	_
+23	without	without	ADP	IN	_	18	E	18:E	_
+24	religion	religion	NOUN	NN	_	23	A	23:A	_
+25	,	,	PUNCT	,	_	23	U	23:U	_
+26	but	but	CCONJ	CC	_	23	L	23:L	_
+27	without	without	ADP	IN	_	23	H	23:H	_
+28	this	this	PRON	DT	_	33	E	33:E	_
+29	'	'	PUNCT	``	_	33	U	33:U	_
+30	my	my	PRON	PRP$	_	31	E	31:E	_
+31	God	God	PROPN	NNP	_	33	A	33:A	_
+32	is	be	AUX	VBZ	_	33	F	33:F	_
+33	bigger	bigger	ADJ	JJR	_	27	A	27:A	_
+34	than	than	ADP	IN	_	36	R	36:R	_
+35	your	you	PRON	PRP$	_	36	E	36:E	_
+36	God	God	PROPN	NNP	_	33	A	33:A	_
+37	'	's	PART	POS	_	33	U	33:U	_
+38	thing	thing	NOUN	NN	_	33	E	33:E	_
+39	-	-	PUNCT	,	_	10	U	10:U	_
+40	then	then	ADV	RB	_	7	Terminal	7:Terminal	_
+41	it	it	PRON	PRP	_	44	A	44:A	_
+42	can	can	AUX	MD	_	44	D	44:D	_
+43	be	be	AUX	VB	_	44	F	44:F	_
+44	true	True	ADJ	JJ	_	10	H	10:H	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+46	"	"	PUNCT	''	_	44	U	44:U	_
+

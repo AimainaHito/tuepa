@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 486008
+# text = His impressions of Columbo , Arnold Schwarzenegger , Sylvester Stallone , and Tom Cruise made Bana popular with the show 's audience .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	impressions	impression	NOUN	NNS	_	17	A	17:A	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	Columbo	Columbo	PROPN	NNP	_	2	E	2:E	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Arnold	Arnold	PROPN	NNP	_	4	C	4:C	_
+7	Schwarzenegger	Schwarzenegger	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	Sylvester	Sylvester	PROPN	NNP	_	4	C	4:C	_
+10	Stallone	Stallone	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	and	and	CCONJ	CC	_	4	N	4:N	_
+13	Tom	Tom	PROPN	NNP	_	4	C	4:C	_
+14	Cruise	cruise	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	made	make	VERB	VBN	_	17	D	17:D	_
+16	Bana	Bana	PROPN	NNP	_	17	A	17:A	_
+17	popular	popular	ADJ	JJ	_	0	H	0:H	_
+18	with	with	ADP	IN	_	22	R	22:R	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	show	show	NOUN	NN	_	22	E	22:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	audience	audience	NOUN	NN	_	17	A	17:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

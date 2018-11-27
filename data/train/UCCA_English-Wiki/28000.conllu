@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 28000
+# text = While struggling to establish himself in Los Angeles , Pitt took lessons from acting coach Roy London .
+1	While	while	SCONJ	IN	_	4	L	4:L	_
+2	struggling	struggle	VERB	VBG	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	establish	establish	VERB	VB	_	0	H	0:H	_
+5	himself	himself	PRON	PRP	_	4	A	4:A	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	Los	Los	PROPN	NNP	_	4	A	4:A	_
+8	Angeles	angeles	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Pitt	Pitt	PROPN	NNP	_	12	A	12:A|4:A	_
+11	took	take	VERB	VBD	_	12	F	12:F	_
+12	lessons	lesson	NOUN	NNS	_	4	H	4:H	_
+13	from	from	SCONJ	IN	_	16	R	16:R	_
+14	acting	act	VERB	VBG	_	15	E	15:E	_
+15	coach	coach	NOUN	NN	_	16	E	16:E	_
+16	Roy	Roy	PROPN	NNP	_	12	A	12:A	_
+17	London	London	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

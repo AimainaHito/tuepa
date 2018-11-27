@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25744002
+# text = » Ein Bienenstock ! « versetzte ich mit ungläubiger Miene .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ein	ein	DET	ART	_	3	E	3:E	_
+3	Bienenstock	Bienenstock	NOUN	NN	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A|9:A	_
+8	mit	mit	ADP	APPR	_	10	E	10:E	_
+9	ungläubiger	ungläubig	ADJ	ADJA	_	6	H	6:H	_
+10	Miene	Miene	NOUN	NN	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

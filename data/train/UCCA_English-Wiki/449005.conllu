@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 449005
+# text = In 1965 , ABC News tapped him to anchor its flagship evening news program .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1965	1965	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	ABC	ABC	PROPN	NNP	_	5	E	5:E	_
+5	News	news	PROPN	NNP	_	6	A	6:A	_
+6	tapped	tap	VERB	VBD	_	0	H	0:H	_
+7	him	he	PRON	PRP	_	6	A	6:A|9:A	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	anchor	anchor	VERB	VB	_	6	A	6:A	_
+10	its	its	PRON	PRP$	_	14	E	14:E	_
+11	flagship	flagship	NOUN	NN	_	14	E	14:E	_
+12	evening	evening	NOUN	NN	_	13	E	13:E	_
+13	news	news	NOUN	NN	_	14	E	14:E	_
+14	program	program	NOUN	NN	_	9	A	9:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

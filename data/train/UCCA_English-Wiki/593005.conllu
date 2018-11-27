@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 593005
+# text = In 2003 , Depp told Germany 's Stern magazine , " America is dumb , is something like a dumb puppy that has big teeth - that can bite and hurt you , aggressive .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2003	2003	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+5	told	tell	VERB	VBD	_	0	H	0:H	_
+6	Germany	Germany	PROPN	NNP	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	Stern	Stern	PROPN	NNP	_	5	A	5:A	_
+9	magazine	magazine	NOUN	NN	_	8	E	8:E	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	"	"	PUNCT	''	_	5	U	5:U	_
+12	America	America	PROPN	NNP	_	13	A	13:A|18:A	_
+13	is	be	AUX	VBZ	_	5	A	5:A	_
+14	dumb	dumb	ADJ	JJ	_	13	A	13:A	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	is	be	AUX	VBZ	_	18	F	18:F	_
+17	something	something	PRON	NN	_	18	D	18:D	_
+18	like	like	ADP	IN	_	13	H	13:H	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	dumb	dumb	ADJ	JJ	_	21	E	21:E	_
+21	puppy	puppy	NOUN	NN	_	18	A	18:A	_
+22	that	that	PRON	WDT	_	23	R	23:R	_
+23	has	have	VERB	VBZ	_	21	E	21:E	_
+24	big	big	ADJ	JJ	_	25	E	25:E	_
+25	teeth	tooth	NOUN	NN	_	23	A	23:A	_
+26	-	-	PUNCT	,	_	21	U	21:U	_
+27	that	that	PRON	DT	_	29	R	29:R	_
+28	can	can	AUX	MD	_	29	F	29:F	_
+29	bite	bite	VERB	VB	_	21	E	21:E	_
+30	and	and	CCONJ	CC	_	29	N	29:N	_
+31	hurt	hurt	VERB	VB	_	29	C	29:C	_
+32	you	you	PRON	PRP	_	29	A	29:A	_
+33	,	,	PUNCT	,	_	21	U	21:U	_
+34	aggressive	aggressive	ADJ	JJ	_	21	E	21:E	_
+35	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25764006
+# text = Während dieser Tage wurden wir von ungestümen Windstößen heimgesucht .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tage	Tag	NOUN	NN	_	9	D	9:D	_
+4	wurden	werden	AUX	NN	_	9	F	9:F	_
+5	wir	wir	PRON	NE	_	9	A	9:A	_
+6	von	von	ADP	NE	_	7	R	7:R	_
+7	ungestümen	ungestüm	ADJ	VVFIN	_	9	A	9:A	_
+8	Windstößen	Windstoß	NOUN	NN	_	7	A	7:A	_
+9	heimgesucht	heimgesuchen	VERB	VVFIN	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25523011
+# text = Sie waren alle beim Kommandanten der ›Nautilus‹ .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	alle	alle	PRON	PIS	_	2	A	2:A	_
+4	beim	beim	ADJ	NN	_	5	R	5:R	_
+5	Kommandanten	Kommandant	NOUN	NN	_	2	A	2:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	E	5:E	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

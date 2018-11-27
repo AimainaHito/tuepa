@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 560006
+# text = " The trio became a quartet when Hayride drummer Fontana joined as a full member .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	trio	trio	NOUN	NN	_	6	A	6:A	_
+4	became	become	VERB	VBD	_	6	D	6:D	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	quartet	quartet	NOUN	NN	_	0	H	0:H	_
+7	when	when	ADV	WRB	_	6	L	6:L	_
+8	Hayride	Hayride	PROPN	NNP	_	9	E	9:E	_
+9	drummer	drummer	NOUN	NN	_	10	E	10:E	_
+10	Fontana	Fontana	PROPN	NNP	_	11	A	11:A	_
+11	joined	join	VERB	VBD	_	6	H	6:H	_
+12	as	as	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	full	full	ADJ	JJ	_	15	E	15:E	_
+15	member	member	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

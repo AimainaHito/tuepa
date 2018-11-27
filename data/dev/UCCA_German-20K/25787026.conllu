@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25787026
+# text = Aber Kapitän Nemo wusste , dass er nicht genug eilen konnte und dass damals die Minuten Jahrhunderte galten .
+1	Aber	aber	PROPN	KON	_	4	L	4:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+4	wusste	wissen	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	10	L	10:L	_
+7	er	er	PRON	PPER	_	10	A	10:A	_
+8	nicht	nicht	PART	CARD	_	9	E	9:E	_
+9	genug	genug	ADV	ADV	_	10	D	10:D	_
+10	eilen	eilen	VERB	VVINF	_	4	A	4:A	_
+11	konnte	können	AUX	VMFIN	_	10	D	10:D	_
+12	und	und	CCONJ	NE	_	10	L	10:L	_
+13	dass	dass	SCONJ	KOUS	_	10	L	10:L	_
+14	damals	damals	ADV	ADV	_	18	D	18:D	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Minuten	Minute	NOUN	NN	_	18	A	18:A	_
+17	Jahrhunderte	Jahrhundert	NOUN	VVFIN	_	18	A	18:A	_
+18	galten	gelten	VERB	VVFIN	_	10	H	10:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

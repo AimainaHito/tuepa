@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25754027
+# text = » Weshalb ? « entgegnete ich , und sah Ned Land , dessen Absichten leicht zu erraten waren , fest ins Angesicht .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Weshalb	weshalb	PROPN	ADJA	_	5	A	5:A	_
+3	?	?	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A|9:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	und	und	CCONJ	NE	_	5	L	5:L	_
+9	sah	sehen	VERB	VVFIN	_	5	H	5:H	_
+10	Ned	Ned	PROPN	NE	_	9	A	9:A	_
+11	Land	Land	NOUN	TRUNC	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	dessen	der	DET	PRELAT	_	17	R	17:R	_
+14	Absichten	Absicht	NOUN	NN	_	17	A	17:A	_
+15	leicht	leicht	ADJ	PTKVZ	_	17	D	17:D	_
+16	zu	zu	PART	NE	_	17	F	17:F	_
+17	erraten	erraten	VERB	VVINF	_	10	E	10:E	_
+18	waren	sein	AUX	VAFIN	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	9	U	9:U	_
+20	fest	fest	ADV	PTKVZ	_	9	D	9:D	_
+21	ins	in	DET	NE	_	22	R	22:R	_
+22	Angesicht	Angesicht	NOUN	NE	_	9	A	9:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

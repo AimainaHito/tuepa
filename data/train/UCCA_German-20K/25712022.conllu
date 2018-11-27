@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25712022
+# text = Unter anderen sah ich den schon von Aristoteles angeführten Trichterfisch , den man gewöhnlich Meergrundel nennt ; sodann Sackflossen , die etwas phosphoreszieren , eine Art Meerbrassen , die zu den heiligen Tieren der Ägypter gehörten , indem sie durch ihr Erscheinen im Fluß dessen befruchtende Überschwemmung ankündigten .
+1	Unter	unter	ADP	NE	_	2	R	2:R	_
+2	anderen	ander	PRON	PIS	_	3	A	3:A	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A|27:A|19:A	_
+5	den	der	DET	ART	_	10	E	10:E	_
+6	schon	schon	ADV	ADV	_	9	D	9:D	_
+7	von	von	ADP	NN	_	8	R	8:R	_
+8	Aristoteles	Aristoteles	PROPN	NE	_	9	A	9:A	_
+9	angeführten	angeführt	ADJ	ADJA	_	10	E	10:E	_
+10	Trichterfisch	Trichterfisch	NOUN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	den	der	PRON	PRELS	_	16	R	16:R	_
+13	man	man	PRON	PIS	_	16	A	16:A	_
+14	gewöhnlich	gewöhnlich	ADJ	ADJD	_	16	D	16:D	_
+15	Meergrundel	Meergrundel	NOUN	NN	_	16	A	16:A	_
+16	nennt	nennen	VERB	VVFIN	_	10	E	10:E	_
+17	;	;	PUNCT	$.	_	3	U	3:U	_
+18	sodann	sodann	ADV	ADV	_	3	L	3:L	_
+19	Sackflossen	Sackflossen	PROPN	NN	_	3	H	3:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	die	der	PRON	PRELS	_	23	R	23:R	_
+22	etwas	etwas	PRON	PIS	_	23	D	23:D	_
+23	phosphoreszieren	phosphoreszieren	VERB	VVFIN	_	19	E	19:E	_
+24	,	,	PUNCT	$,	_	3	U	3:U	_
+25	eine	ein	DET	ART	_	26	E	26:E	_
+26	Art	Art	NOUN	NN	_	27	E	27:E	_
+27	Meerbrassen	Meerbrasse	NOUN	NN	_	3	H	3:H	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	die	der	PRON	PRELS	_	36	R	36:R	_
+30	zu	zu	ADP	VVINF	_	33	R	33:R	_
+31	den	der	DET	ART	_	33	E	33:E	_
+32	heiligen	heilig	ADJ	ADJA	_	33	E	33:E	_
+33	Tieren	Tier	NOUN	NN	_	36	A	36:A	_
+34	der	der	DET	ART	_	35	R	35:R	_
+35	Ägypter	Ägypter	NOUN	NN	_	33	E	33:E	_
+36	gehörten	gehören	VERB	VVFIN	_	27	E	27:E	_
+37	,	,	PUNCT	$,	_	3	U	3:U	_
+38	indem	indem	SCONJ	KOUS	_	3	L	3:L	_
+39	sie	sie	PRON	ADV	_	48	A	48:A|42:A	_
+40	durch	durch	ADP	APPR	_	42	R	42:R	_
+41	ihr	ihr	DET	PPOSAT	_	42	E	42:E	_
+42	Erscheinen	Erscheinen	NOUN	NN	_	3	H	3:H	_
+43	im	im	ADV	NE	_	44	R	44:R	_
+44	Fluß	Fluß	NOUN	NN	_	42	A	42:A	_
+45	dessen	der	DET	PDAT	_	47	R	47:R	_
+46	befruchtende	befruchtend	ADJ	ADJA	_	47	D	47:D	_
+47	Überschwemmung	Überschwemmung	NOUN	NN	_	48	A	48:A	_
+48	ankündigten	ankündigen	VERB	VVFIN	_	3	H	3:H	_
+49	.	.	PUNCT	$.	_	48	U	48:U	_
+

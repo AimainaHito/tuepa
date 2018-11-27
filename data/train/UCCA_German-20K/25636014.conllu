@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25636014
+# text = Da ich hier niemand fand , wurde ich so kühn , am Zimmer des Kapitäns zu klopfen .
+1	Da	da	SCONJ	KOUS	_	5	L	5:L	_
+2	ich	ich	PRON	PPER	_	5	A	5:A	_
+3	hier	hier	ADV	ADV	_	5	A	5:A	_
+4	niemand	niemand	PRON	PIS	_	5	A	5:A	_
+5	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	wurde	werden	AUX	TRUNC	_	10	F	10:F	_
+8	ich	ich	PRON	PPER	_	10	A	10:A|17:A	_
+9	so	so	ADV	ADV	_	10	D	10:D	_
+10	kühn	kühn	ADJ	NN	_	5	H	5:H	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	am	am	ADJ	ADJD	_	13	R	13:R	_
+13	Zimmer	Zimmer	NOUN	NN	_	17	A	17:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Kapitäns	Kapitän	NOUN	NN	_	13	E	13:E	_
+16	zu	zu	PART	NN	_	17	F	17:F	_
+17	klopfen	klopfen	VERB	VVINF	_	5	H	5:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

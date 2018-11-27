@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 603008
+# text = Scholar David Scott Kastan described Sgt . Pepper as " the most important and influential rock - and - roll album ever recorded " .
+1	Scholar	scholar	PROPN	NNP	_	2	E	2:E	_
+2	David	David	PROPN	NNP	_	5	A	5:A	_
+3	Scott	Scott	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Kastan	Kastan	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	described	describe	VERB	VBD	_	0	H	0:H	_
+6	Sgt	Sgt	PROPN	NNP	_	5	A	5:A	_
+7	.	.	PUNCT	.	_	6	U	6:U	_
+8	Pepper	pepper	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	as	as	ADP	IN	_	21	R	21:R	_
+10	"	"	PUNCT	``	_	21	U	21:U	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	most	most	ADV	RBS	_	13	E	13:E	_
+13	important	important	ADJ	JJ	_	21	E	21:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	influential	influential	ADJ	JJ	_	13	C	13:C	_
+16	rock	rock	NOUN	NN	_	21	E	21:E	_
+17	-	-	PUNCT	HYPH	_	16	U	16:U	_
+18	and	and	CCONJ	CC	_	16	Terminal	16:Terminal	_
+19	-	-	PUNCT	HYPH	_	16	U	16:U	_
+20	roll	roll	VERB	VB	_	16	Terminal	16:Terminal	_
+21	album	album	NOUN	NN	_	5	A	5:A	_
+22	ever	ever	ADV	RB	_	23	D	23:D	_
+23	recorded	record	VERB	VBN	_	21	E	21:E	_
+24	"	"	PUNCT	''	_	23	U	23:U	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

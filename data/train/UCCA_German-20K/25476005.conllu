@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25476005
+# text = Um 7 Uhr war es völlig Tag geworden , aber ein dichter Morgennebel beschränkte den Horizont , so dass die besten Lorgnetten nicht durchdringen konnten .
+1	Um	um	ADP	APPR	_	2	E	2:E	_
+2	7	7	NUM	CARD	_	7	D	7:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	war	sein	AUX	ADV	_	7	F	7:F	_
+5	es	es	PRON	PPER	_	7	F	7:F	_
+6	völlig	völlig	ADJ	ADJD	_	7	D	7:D	_
+7	Tag	Tag	NOUN	NN	_	0	H	0:H	_
+8	geworden	werden	AUX	PAV	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	aber	aber	CCONJ	KON	_	7	L	7:L	_
+11	ein	ein	DET	ART	_	13	E	13:E	_
+12	dichter	dicht	ADJ	ADJA	_	13	E	13:E	_
+13	Morgennebel	Morgennebel	NOUN	NN	_	14	A	14:A	_
+14	beschränkte	beschränken	VERB	VVFIN	_	7	H	7:H	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Horizont	Horizont	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	7	U	7:U	_
+18	so	so	ADV	ADV	_	7	L	7:L	_
+19	dass	dass	SCONJ	KOUS	_	18	Terminal	18:Terminal	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	besten	gut	ADJ	ADJA	_	22	E	22:E	_
+22	Lorgnetten	Lorgnette	NOUN	NN	_	24	A	24:A	_
+23	nicht	nicht	PART	CARD	_	24	D	24:D	_
+24	durchdringen	durchdringen	VERB	NN	_	7	H	7:H	_
+25	konnten	können	AUX	VMFIN	_	24	D	24:D	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

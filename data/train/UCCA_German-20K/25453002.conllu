@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25453002
+# text = « » So ist 's , Ned , und nun denken Sie , was eine solche mit der Schnelligkeit eines Eil zugs gegen einen Schiffs rumpf anstürzende Masse für Zerstörung anrichten kann .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	So	so	ADV	ADV	_	4	D	4:D	_
+4	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+5	's	es	PRON	PPER	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	Ned	Ned	NOUN	NN	_	4	G	4:G	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	nun	nun	ADV	ADV	_	11	D	11:D	_
+11	denken	denken	VERB	VVFIN	_	4	H	4:H	_
+12	Sie	Sie|sie	PRON	PPER	_	11	A	11:A	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	was	was	PRON	NE	_	31	R	31:R	_
+15	eine	ein	DET	ART	_	28	E	28:E	_
+16	solche	solch	PRON	ADJA	_	28	E	28:E	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Schnelligkeit	Schnelligkeit	NOUN	NN	_	27	A	27:A	_
+20	eines	ein	DET	ART	_	22	R	22:R	_
+21	Eil	Eil	NOUN	NN	_	22	E	22:E	_
+22	zugs	zugs	ADV	ADV	_	19	E	19:E	_
+23	gegen	gegen	ADP	APPR	_	26	R	26:R	_
+24	einen	ein	DET	ART	_	26	E	26:E	_
+25	Schiffs	Schiff	NOUN	NN	_	26	E	26:E	_
+26	rumpf	rumpf	ADJ	ADJD	_	27	A	27:A	_
+27	anstürzende	anstürzend	ADJ	ADJA	_	28	E	28:E	_
+28	Masse	Masse	NOUN	NN	_	31	A	31:A	_
+29	für	für	ADP	APPR	_	30	R	30:R	_
+30	Zerstörung	Zerstörung	NOUN	NN	_	31	A	31:A	_
+31	anrichten	anrichen	VERB	VVINF	_	11	A	11:A	_
+32	kann	können	AUX	VMFIN	_	31	D	31:D	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+

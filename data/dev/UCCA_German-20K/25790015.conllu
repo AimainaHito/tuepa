@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25790015
+# text = Schreckliche Lage .
+1	Schreckliche	Schrecklich	ADJ	ADJA	_	0	H	0:H	_
+2	Lage	Lage	NOUN	NN	_	1	A	1:A	_
+3	.	.	PUNCT	$.	_	1	U	1:U	_
+

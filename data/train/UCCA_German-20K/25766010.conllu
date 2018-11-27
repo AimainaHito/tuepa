@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25766010
+# text = » Wir stecken fest ! Was meinen Sie damit ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Wir	wir	PRON	NE	_	3	A	3:A	_
+3	stecken	stecken	VERB	VVINF	_	0	H	0:H	_
+4	fest	fest	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+5	!	!	PUNCT	$.	_	3	U	3:U	_
+6	Was	was	PRON	NE	_	7	A	7:A	_
+7	meinen	meinen	VERB	PPOSAT	_	3	H	3:H	_
+8	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+9	damit	damit	ADV	PAV	_	7	A	7:A	_
+10	?	?	PUNCT	$.	_	7	U	7:U	_
+11	«	«	PUNCT	$(	_	7	U	7:U	_
+

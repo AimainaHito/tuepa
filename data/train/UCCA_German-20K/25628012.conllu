@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25628012
+# text = Bald legen sie Schlingen auf die Gipfel hoher Bäume , wo sich die Paradiesvögel vorzugsweise aufhalten .
+1	Bald	bald	ADV	ADV	_	2	L	2:L	_
+2	legen	legen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	Schlingen	Schlinge|Schlingen	NOUN	NN	_	2	A	2:A	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Gipfel	Gipfel	NOUN	NN	_	2	A	2:A	_
+8	hoher	hoch	ADJ	PWAV	_	9	E	9:E	_
+9	Bäume	Baum	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	wo	wo	ADV	ADJA	_	12	R	12:R	_
+12	sich	er|es|sie	PRON	PRF	_	7	E	7:E	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Paradiesvögel	Paradiesvogel	NOUN	NN	_	12	A	12:A	_
+15	vorzugsweise	vorzugsweise	ADV	ADV	_	12	D	12:D	_
+16	aufhalten	aufhalten	VERB	VVINF	_	12	Terminal	12:Terminal	_
+17	.	.	PUNCT	$.	_	12	U	12:U	_
+

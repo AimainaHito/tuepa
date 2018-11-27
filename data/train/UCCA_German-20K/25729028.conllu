@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25729028
+# text = Wir kehrten Europa den Rücken .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	kehrten	kehren	VERB	VVFIN	_	0	H	0:H	_
+3	Europa	Europa	PROPN	NE	_	2	A	2:A	_
+4	den	der	DET	ART	_	2	Terminal	2:Terminal	_
+5	Rücken	Rücken	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 124009
+# text = Undeterred , Hepburn joined forces with producer Arthur Hopkins , and accepted the role of a schoolgirl in These Days .
+1	Undeterred	Undeter	PROPN	NNP	_	0	H	0:H	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A|12:A|1:A	_
+4	joined	join	VERB	VBD	_	1	H	1:H	_
+5	forces	force	NOUN	NNS	_	4	Terminal	4:Terminal	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	producer	producer	NOUN	NN	_	8	E	8:E	_
+8	Arthur	Arthur	PROPN	NNP	_	4	A	4:A	_
+9	Hopkins	Hopkins	PROPN	NNPS	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	and	and	CCONJ	CC	_	1	L	1:L	_
+12	accepted	accept	VERB	VBD	_	1	H	1:H	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	role	role	NOUN	NN	_	12	A	12:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	schoolgirl	schoolgirl	NOUN	NN	_	14	E	14:E	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	These	these	DET	DT	_	12	A	12:A	_
+20	Days	Day	NOUN	NNS	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

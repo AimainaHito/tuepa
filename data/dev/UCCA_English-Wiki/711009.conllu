@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 711009
+# text = In October 2004 , Dylan published the first part of his autobiography , Chronicles : Volume One .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	October	October	PROPN	NNP	_	3	E	3:E	_
+3	2004	2004	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+6	published	publish	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	first	first	ADJ	JJ	_	9	E	9:E	_
+9	part	part	NOUN	NN	_	6	A	6:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	autobiography	autobiography	NOUN	NN	_	9	E	9:E	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Chronicles	Chronicle	NOUN	NNS	_	12	E	12:E	_
+15	:	:	PUNCT	:	_	14	U	14:U	_
+16	Volume	volume	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	One	one	NUM	CD	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	.	_	12	U	12:U	_
+

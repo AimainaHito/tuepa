@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25791017
+# text = Um sie fort zu schaffen , hätte man Gefäße mit kaustischem Kali füllen und beständig rütteln müssen .
+1	Um	um	SCONJ	KOUI	_	3	L	3:L	_
+2	sie	sie	PRON	ADV	_	3	A	3:A	_
+3	fort	fort	ADV	PTKVZ	_	0	H	0:H	_
+4	zu	zu	PART	VVINF	_	3	F	3:F	_
+5	schaffen	schaffen	VERB	VVINF	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	hätte	haben	AUX	VAFIN	_	13	F	13:F	_
+8	man	man	PRON	PIS	_	13	A	13:A|3:A	_
+9	Gefäße	Gefäß	NOUN	NN	_	13	A	13:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	kaustischem	kaustisch	ADJ	ADJA	_	12	E	12:E	_
+12	Kali	Kali	NOUN	NE	_	13	A	13:A	_
+13	füllen	füllen	VERB	ADJA	_	3	H	3:H	_
+14	und	und	CCONJ	NN	_	13	N	13:N	_
+15	beständig	beständig	ADJ	ADJD	_	13	D	13:D	_
+16	rütteln	rütteln	VERB	VVINF	_	13	C	13:C	_
+17	müssen	müssen	AUX	VMFIN	_	13	D	13:D	_
+18	.	.	PUNCT	$.	_	13	U	13:U	_
+

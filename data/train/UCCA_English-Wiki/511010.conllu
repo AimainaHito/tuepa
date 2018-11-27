@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 511010
+# text = Bowie 's first studio album in a decade , The Next Day contains 14 songs plus 3 bonus tracks .
+1	Bowie	Bowie	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	first	first	ADJ	JJ	_	5	E	5:E	_
+4	studio	studio	NOUN	NN	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	decade	decade	NOUN	NN	_	5	E	5:E	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	The	the	DET	DT	_	13	A	13:A|5:A	_
+11	Next	next	ADJ	JJ	_	10	Terminal	10:Terminal	_
+12	Day	day	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	contains	contain	VERB	VBZ	_	5	H	5:H	_
+14	14	14	NUM	CD	_	15	E	15:E	_
+15	songs	song	NOUN	NNS	_	13	A	13:A	_
+16	plus	plus	CCONJ	CC	_	15	N	15:N	_
+17	3	3	NUM	CD	_	19	E	19:E	_
+18	bonus	bonus	ADJ	JJ	_	19	E	19:E	_
+19	tracks	track	NOUN	NNS	_	15	C	15:C	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

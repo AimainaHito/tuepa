@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 473009
+# text = The proceeds went to the United Negro College Fund , and Johnson held this event for twenty years , ending in 2005 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	proceeds	proceed	NOUN	NNS	_	3	A	3:A	_
+3	went	go	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	United	United	PROPN	NNP	_	3	A	3:A	_
+7	Negro	Negro	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	College	College	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	Fund	Fund	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	and	and	CCONJ	CC	_	3	L	3:L	_
+12	Johnson	Johnson	PROPN	NNP	_	13	A	13:A	_
+13	held	hold	VERB	VBD	_	3	H	3:H	_
+14	this	this	DET	DT	_	15	E	15:E	_
+15	event	event	NOUN	NN	_	0	C	0:C|20:A	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	twenty	twenty	NUM	CD	_	18	E	18:E	_
+18	years	year	NOUN	NNS	_	13	D	13:D	_
+19	,	,	PUNCT	,	_	3	U	3:U	_
+20	ending	end	VERB	VBG	_	3	H	3:H	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	2005	2005	NUM	CD	_	20	D	20:D	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

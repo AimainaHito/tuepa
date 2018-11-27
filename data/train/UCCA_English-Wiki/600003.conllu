@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 600003
+# text = Harrison had also passed the exam , meaning he could attend a grammar school rather than a secondary modern school , where most pupils went until becoming eligible to work .
+1	Harrison	Harrison	PROPN	NNP	_	4	A	4:A	_
+2	had	have	VERB	VBD	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	passed	pass	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	exam	exam	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	meaning	mean	VERB	VBG	_	4	L	4:L	_
+9	he	he	PRON	PRP	_	11	A	11:A	_
+10	could	could	AUX	MD	_	11	F	11:F	_
+11	attend	attend	VERB	VB	_	4	H	4:H	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	grammar	grammar	NOUN	NN	_	14	E	14:E	_
+14	school	school	NOUN	NN	_	11	A	11:A	_
+15	rather	rather	ADV	RB	_	20	R	20:R	_
+16	than	than	ADP	IN	_	15	E	15:E	_
+17	a	a	DET	DT	_	20	E	20:E	_
+18	secondary	secondary	ADJ	JJ	_	20	E	20:E	_
+19	modern	modern	ADJ	JJ	_	20	E	20:E	_
+20	school	school	NOUN	NN	_	14	E	14:E	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	where	where	ADV	WRB	_	25	F	25:F	_
+23	most	most	ADV	RBS	_	24	E	24:E	_
+24	pupils	pupil	NOUN	NNS	_	25	A	25:A|28:A	_
+25	went	go	VERB	VBD	_	20	E	20:E	_
+26	until	until	SCONJ	IN	_	25	L	25:L	_
+27	becoming	become	VERB	VBG	_	28	D	28:D	_
+28	eligible	eligible	ADJ	JJ	_	25	H	25:H	_
+29	to	to	PART	TO	_	30	R	30:R	_
+30	work	work	VERB	VB	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

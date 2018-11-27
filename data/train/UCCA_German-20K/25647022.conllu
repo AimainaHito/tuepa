@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25647022
+# text = Ich war unfähig , zwei Ideen logisch zu verbinden , und verlor mich in den absurdesten Hypothesen , als ich aus der Spannung meines Geistes durch Ned Lands Worte gerissen wurde :
+1	Ich	ich	PRON	PPER	_	9	A	9:A|12:A	_
+2	war	sein	AUX	ADV	_	9	F	9:F	_
+3	unfähig	unfähig	ADJ	ADJD	_	9	D	9:D	_
+4	,	,	PUNCT	$,	_	9	U	9:U	_
+5	zwei	zwei	NUM	VVFIN	_	6	E	6:E	_
+6	Ideen	Idee	NOUN	NN	_	9	A	9:A	_
+7	logisch	logisch	ADJ	ADJD	_	9	D	9:D	_
+8	zu	zu	PART	NN	_	9	F	9:F	_
+9	verbinden	verbinden	VERB	VVFIN	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	und	und	CCONJ	NE	_	9	L	9:L	_
+12	verlor	verlieren	VERB	VVFIN	_	9	H	9:H	_
+13	mich	ich	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	APPR	_	17	R	17:R	_
+15	den	der	DET	ART	_	17	E	17:E	_
+16	absurdesten	absurde	ADJ	NN	_	17	E	17:E	_
+17	Hypothesen	Hypothese	NOUN	VVINF	_	12	A	12:A	_
+18	,	,	PUNCT	$,	_	9	U	9:U	_
+19	als	als	SCONJ	KOUS	_	9	L	9:L	_
+20	ich	ich	PRON	PPER	_	30	A	30:A	_
+21	aus	aus	ADP	APPR	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Spannung	Spannung	NOUN	NN	_	30	A	30:A	_
+24	meines	mein	PRON	PPOSAT	_	25	E	25:E	_
+25	Geistes	Geist	NOUN	NN	_	23	E	23:E	_
+26	durch	durch	ADP	APPR	_	29	R	29:R	_
+27	Ned	Ned	PROPN	NE	_	29	E	29:E	_
+28	Lands	Land	PROPN	NE	_	27	Terminal	27:Terminal	_
+29	Worte	Worte	PROPN	NN	_	30	A	30:A	_
+30	gerissen	reißen	VERB	VVPP	_	9	H	9:H	_
+31	wurde	werden	AUX	TRUNC	_	30	F	30:F	_
+32	:	:	PUNCT	$.	_	30	U	30:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25485002
+# text = « » Verdammt ! « rief Kommandant Farragut .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Verdammt	verdammt	NOUN	VVFIN	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	rief	rief	ADJ	VVFIN	_	0	H	0:H	_
+7	Kommandant	Kommandant	NOUN	NN	_	8	E	8:E	_
+8	Farragut	Farragut	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

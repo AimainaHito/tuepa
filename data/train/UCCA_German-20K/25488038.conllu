@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25488038
+# text = Ich leistete dagegen Conseil denselben Dienst , und wir schwammen dann nebeneinander weiter .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	leistete	leisten	VERB	VVFIN	_	0	H	0:H	_
+3	dagegen	dagegen	ADV	PAV	_	2	L	2:L	_
+4	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+5	denselben	denselb	ADJ	NN	_	2	D	2:D	_
+6	Dienst	Dienst	NOUN	NN	_	2	Terminal	2:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	wir	wir	PRON	NE	_	10	A	10:A	_
+10	schwammen	schwammen	VERB	VVFIN	_	2	H	2:H	_
+11	dann	dann	ADV	ADV	_	10	D	10:D	_
+12	nebeneinander	nebeneinander	ADV	ADV	_	10	D	10:D	_
+13	weiter	weiter	ADJ	ADV	_	10	Terminal	10:Terminal	_
+14	.	.	PUNCT	$.	_	10	U	10:U	_
+

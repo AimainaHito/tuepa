@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 660000
+# text = As Carey 's friendship with Starr grew , so did her interest in helping Carey succeed in the industry .
+1	As	as	ADP	IN	_	7	L	7:L	_
+2	Carey	Carey	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	friendship	friendship	NOUN	NN	_	7	A	7:A	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Starr	Starr	PROPN	NNP	_	4	A	4:A	_
+7	grew	grew	VERB	VBD	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	so	so	ADV	RB	_	7	L	7:L	_
+10	did	do	VERB	VBD	_	12	D	12:D	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	interest	interest	NOUN	NN	_	7	H	7:H	_
+13	in	in	SCONJ	IN	_	16	F	16:F	_
+14	helping	help	VERB	VBG	_	16	D	16:D	_
+15	Carey	Carey	PROPN	NNP	_	16	A	16:A	_
+16	succeed	succeed	VERB	VBD	_	12	E	12:E	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	industry	industry	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

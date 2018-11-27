@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 95001
+# text = Il marchait avec une vitesse de treize nuds quarante-trois centièmes sous la poussée de ses mille chevaux - vapeur .
+1	Il	il	PRON	_	_	2	A	2:A	_
+2	marchait	marcher	VERB	_	_	0	H	0:H	_
+3	avec	avec	ADP	_	_	5	R	5:R	_
+4	une	un	DET	_	_	5	E	5:E	_
+5	vitesse	vitesse	NOUN	_	_	2	A	2:A	_
+6	de	de	ADP	_	_	8	R	8:R	_
+7	treize	treize	NUM	_	_	8	E	8:E	_
+8	nuds	nud	NOUN	_	_	5	E	5:E	_
+9	quarante-trois	quarante-trois	NUM	_	_	10	E	10:E	_
+10	centièmes	centième	NOUN	_	_	7	C	7:C	_
+11	sous	sous	ADP	_	_	13	R	13:R	_
+12	la	le	DET	_	_	13	E	13:E	_
+13	poussée	poussée	NOUN	_	_	2	A	2:A	_
+14	de	de	ADP	_	_	17	R	17:R	_
+15	ses	son	DET	_	_	17	E	17:E	_
+16	mille	mille	NUM	_	_	17	E	17:E	_
+17	chevaux	cheval	NOUN	_	_	13	A	13:A	_
+18	-	-	PUNCT	_	_	17	U	17:U	_
+19	vapeur	vapeur	NOUN	_	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	_	_	17	U	17:U	_
+

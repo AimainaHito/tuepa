@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 180000
+# text = Margaret Ruth " Maggie " Gyllenhaal ( born November 16 , 1977 ) is an American actress .
+1	Margaret	Margaret	PROPN	NNP	_	14	A	14:A	_
+2	Ruth	Ruth	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	"	"	PUNCT	``	_	1	U	1:U	_
+4	Maggie	Maggie	PROPN	NNP	_	1	E	1:E	_
+5	"	"	PUNCT	''	_	1	U	1:U	_
+6	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	1	Terminal	1:Terminal	_
+7	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+8	born	bear	VERB	VBN	_	1	E	1:E	_
+9	November	November	PROPN	NNP	_	8	D	8:D	_
+10	16	16	NUM	CD	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	1977	1977	NUM	CD	_	9	Terminal	9:Terminal	_
+13	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+14	is	be	AUX	VBZ	_	0	H	0:H	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	American	american	ADJ	JJ	_	17	E	17:E	_
+17	actress	actress	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

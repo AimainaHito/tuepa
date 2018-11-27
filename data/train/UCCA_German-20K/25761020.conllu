@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25761020
+# text = Ich fürchtete schon , dieser werde sich zu einer Gewalttat fortreißen lassen , die gefährliche Folgen haben könnte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fürchtete	fürchten	VERB	VVFIN	_	0	H	0:H	_
+3	schon	schon	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dieser	dies	PRON	PDS	_	7	A	7:A	_
+6	werde	werden	AUX	NN	_	7	F	7:F	_
+7	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+8	zu	zu	ADP	VVINF	_	10	R	10:R	_
+9	einer	ein	DET	ART	_	10	E	10:E	_
+10	Gewalttat	Gewalttat	NOUN	NN	_	7	A	7:A	_
+11	fortreißen	fortreißen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+12	lassen	lassen	VERB	VVINF	_	7	D	7:D	_
+13	,	,	PUNCT	$,	_	7	U	7:U	_
+14	die	der	DET	ART	_	16	R	16:R	_
+15	gefährliche	gefährlich	ADJ	ADJA	_	16	D	16:D	_
+16	Folgen	Folge	NOUN	NN	_	10	E	10:E	_
+17	haben	haben	VERB	VAINF	_	16	F	16:F	_
+18	könnte	können	AUX	VMFIN	_	16	D	16:D	_
+19	.	.	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 485009
+# text = In a cover story for The Mail on Sunday , he told author Antonella Gambotto - Burke that his family had suffered from racist taunts , and that it had distressed him .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	cover	cover	NOUN	NN	_	4	E	4:E	_
+4	story	story	NOUN	NN	_	12	A	12:A	_
+5	for	for	ADP	IN	_	6	R	6:R	_
+6	The	the	DET	DT	_	4	E	4:E	_
+7	Mail	mail	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	on	on	ADP	IN	_	6	Terminal	6:Terminal	_
+9	Sunday	Sunday	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	,	_	12	U	12:U	_
+11	he	he	PRON	PRP	_	12	A	12:A	_
+12	told	tell	VERB	VBD	_	0	H	0:H	_
+13	author	author	NOUN	NN	_	14	E	14:E	_
+14	Antonella	Antonella	PROPN	NNP	_	12	A	12:A	_
+15	Gambotto	Gambotto	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	-	-	PUNCT	HYPH	_	14	U	14:U	_
+17	Burke	Burke	PROPN	NNP	_	14	Terminal	14:Terminal	_
+18	that	that	SCONJ	IN	_	22	R	22:R	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	family	family	NOUN	NN	_	22	A	22:A	_
+21	had	have	AUX	VBD	_	22	F	22:F	_
+22	suffered	suffer	VERB	VBN	_	12	A	12:A	_
+23	from	from	ADP	IN	_	25	R	25:R	_
+24	racist	racist	NOUN	NN	_	25	E	25:E	_
+25	taunts	taunt	NOUN	NNS	_	22	A	22:A	_
+26	,	,	PUNCT	,	_	22	U	22:U	_
+27	and	and	CCONJ	CC	_	22	L	22:L	_
+28	that	that	SCONJ	IN	_	31	F	31:F	_
+29	it	it	PRON	PRP	_	31	A	31:A	_
+30	had	have	AUX	VBD	_	31	F	31:F	_
+31	distressed	distress	VERB	VBN	_	22	H	22:H	_
+32	him	he	PRON	PRP	_	31	A	31:A	_
+33	.	.	PUNCT	.	_	31	U	31:U	_
+

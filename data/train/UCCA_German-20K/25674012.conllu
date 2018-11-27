@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25674012
+# text = « Aber lädt man uns ein , den Haifisch in seinem natürlichen Element zu jagen , so erbitten wir uns vielleicht Bedenk zeit aus , bevor wir die Einladung annehmen .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	Aber	aber	ADV	KON	_	3	L	3:L	_
+3	lädt	laden	VERB	VVFIN	_	0	H	0:H	_
+4	man	man	PRON	PIS	_	3	A	3:A	_
+5	uns	wir	PRON	NN	_	3	A	3:A	_
+6	ein	ein	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Haifisch	Haifisch	NOUN	NN	_	15	A	15:A	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	seinem	sein	DET	PPOSAT	_	13	E	13:E	_
+12	natürlichen	natürlich	ADJ	ADJA	_	13	E	13:E	_
+13	Element	Element	NOUN	NN	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	jagen	jagen	VERB	VVINF	_	3	A	3:A	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	so	so	ADV	ADV	_	3	L	3:L	_
+18	erbitten	erbitten	VERB	VVINF	_	3	H	3:H	_
+19	wir	wir	PRON	NE	_	18	A	18:A	_
+20	uns	wir	PRON	NE	_	18	Terminal	18:Terminal	_
+21	vielleicht	vielleicht	ADV	NE	_	18	D	18:D	_
+22	Bedenk	Bedenk	NOUN	NE	_	23	E	23:E	_
+23	zeit	zeit	ADJ	ADJD	_	18	A	18:A	_
+24	aus	aus	ADP	PTKVZ	_	18	Terminal	18:Terminal	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	bevor	bevor	SCONJ	KOUS	_	3	L	3:L	_
+27	wir	wir	PRON	NE	_	30	A	30:A	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Einladung	Einladung	NOUN	NN	_	30	A	30:A	_
+30	annehmen	annehmen	VERB	VVINF	_	3	H	3:H	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

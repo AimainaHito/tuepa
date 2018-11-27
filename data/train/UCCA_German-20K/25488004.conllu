@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25488004
+# text = Vor allem suchten meine Augen die Fregatte .
+1	Vor	vor	ADP	NN	_	2	R	2:R	_
+2	allem	alle	PRON	PIS	_	3	D	3:D	_
+3	suchten	suchen	VERB	VVINF	_	0	H	0:H	_
+4	meine	mein	DET	PPOSAT	_	5	E	5:E	_
+5	Augen	Auge	NOUN	NN	_	3	A	3:A	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Fregatte	Fregatte	NOUN	NN	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

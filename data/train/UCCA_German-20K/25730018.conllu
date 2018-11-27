@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25730018
+# text = » Nun , so kommen Sie , Herr Professor , um unsere Skaphander anzuziehen .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Nun	nun	ADV	ADV	_	5	F	5:F	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	so	so	ADV	ADV	_	5	D	5:D	_
+5	kommen	kommen	VERB	VVFIN	_	0	H	0:H	_
+6	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	Herr	Herr	PROPN	NN	_	9	E	9:E	_
+9	Professor	Professor	PROPN	NN	_	5	G	5:G	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	um	um	ADP	KOUI	_	5	L	5:L	_
+12	unsere	unser	PRON	PPOSAT	_	13	E	13:E	_
+13	Skaphander	Skaphander	NOUN	NN	_	14	A	14:A	_
+14	anzuziehen	anzuziehen	VERB	VVFIN	_	5	H	5:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

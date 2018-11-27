@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 633006
+# text = George Harrison joined the band as lead guitarist , even though Lennon thought Harrison ( at 14 years old ) was too young to join the band , so McCartney engineered a second audition on the upper deck of a Liverpool bus , where Harrison played " Raunchy " for Lennon .
+1	George	George	PROPN	NNP	_	3	A	3:A	_
+2	Harrison	Harrison	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	joined	join	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	band	band	NOUN	NN	_	3	A	3:A	_
+6	as	as	ADP	IN	_	8	R	8:R	_
+7	lead	lead	ADJ	JJ	_	8	E	8:E	_
+8	guitarist	guitarist	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	even	even	ADV	RB	_	3	L	3:L	_
+11	though	though	SCONJ	IN	_	10	Terminal	10:Terminal	_
+12	Lennon	Lennon	PROPN	NNP	_	13	A	13:A	_
+13	thought	think	VERB	VBD	_	3	H	3:H	_
+14	Harrison	Harrison	PROPN	NNP	_	23	A	23:A|19:A|25:A	_
+15	(	(	PUNCT	-LRB-	_	23	U	23:U	_
+16	at	at	ADP	IN	_	23	L	23:L	_
+17	14	14	NUM	CD	_	18	E	18:E	_
+18	years	year	NOUN	NNS	_	19	E	19:E	_
+19	old	old	ADJ	JJ	_	23	H	23:H	_
+20	)	)	PUNCT	-RRB-	_	23	U	23:U	_
+21	was	be	AUX	VBD	_	23	F	23:F	_
+22	too	too	ADV	RB	_	23	D	23:D	_
+23	young	young	ADJ	JJ	_	13	A	13:A	_
+24	to	to	PART	TO	_	23	L	23:L	_
+25	join	join	VERB	VB	_	23	H	23:H	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	band	band	NOUN	NN	_	25	A	25:A	_
+28	,	,	PUNCT	,	_	3	U	3:U	_
+29	so	so	ADV	RB	_	3	L	3:L	_
+30	McCartney	McCartney	PROPN	NNP	_	31	A	31:A	_
+31	engineered	engineer	VERB	VBD	_	3	H	3:H	_
+32	a	a	DET	DT	_	34	E	34:E	_
+33	second	second	ADJ	JJ	_	34	E	34:E	_
+34	audition	audition	NOUN	NN	_	31	A	31:A	_
+35	on	on	ADP	IN	_	42	R	42:R	_
+36	the	the	DET	DT	_	38	E	38:E	_
+37	upper	upper	ADJ	JJ	_	38	E	38:E	_
+38	deck	deck	NOUN	NN	_	42	E	42:E	_
+39	of	of	ADP	IN	_	38	R	38:R	_
+40	a	a	DET	DT	_	42	E	42:E	_
+41	Liverpool	Liverpool	PROPN	NNP	_	42	E	42:E	_
+42	bus	bus	NOUN	NN	_	31	A	31:A	_
+43	,	,	PUNCT	,	_	3	U	3:U	_
+44	where	where	ADV	WRB	_	3	L	3:L	_
+45	Harrison	Harrison	PROPN	NNP	_	46	A	46:A	_
+46	played	play	VERB	VBD	_	3	H	3:H	_
+47	"	"	PUNCT	``	_	46	U	46:U	_
+48	Raunchy	Raunchy	PROPN	NNP	_	46	A	46:A	_
+49	"	"	PUNCT	''	_	46	U	46:U	_
+50	for	for	ADP	IN	_	51	R	51:R	_
+51	Lennon	Lennon	PROPN	NNP	_	46	A	46:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

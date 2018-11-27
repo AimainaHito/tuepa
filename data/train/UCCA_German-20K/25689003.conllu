@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25689003
+# text = Und was musste er gar denken , als Kapitän Nemo ein Säckchen voll Perlen aus der Tasche zog und es ihm in die Hand drückte ?
+1	Und	und	CCONJ	ADJD	_	6	L	6:L	_
+2	was	was	PRON	NE	_	6	A	6:A	_
+3	musste	müssen	AUX	VVFIN	_	6	D	6:D	_
+4	er	er	PRON	PPER	_	6	A	6:A	_
+5	gar	gar	ADV	ADV	_	6	D	6:D	_
+6	denken	denken	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	als	als	SCONJ	KOUS	_	6	L	6:L	_
+9	Kapitän	Kapitän	PROPN	NN	_	10	E	10:E	_
+10	Nemo	Nemo	PROPN	NE	_	18	A	18:A	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Säckchen	Säckchen	NOUN	NE	_	18	A	18:A	_
+13	voll	voll	ADJ	VVFIN	_	14	E	14:E	_
+14	Perlen	Perle|Perlen	NOUN	NN	_	12	E	12:E	_
+15	aus	aus	ADP	APPR	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Tasche	Tasche	NOUN	NN	_	18	A	18:A	_
+18	zog	ziehen	VERB	VVFIN	_	6	H	6:H	_
+19	und	und	CCONJ	NE	_	6	L	6:L	_
+20	es	es	PRON	PPER	_	25	A	25:A	_
+21	ihm	er	PRON	PPER	_	25	A	25:A	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Hand	Hand	NOUN	NN	_	25	A	25:A	_
+25	drückte	drücken	VERB	VVFIN	_	6	H	6:H	_
+26	?	?	PUNCT	$.	_	25	U	25:U	_
+

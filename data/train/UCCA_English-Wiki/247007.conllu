@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 247007
+# text = The real - time drama Tape , based on a play from Stephen Belber , took place entirely in a single motel room with three characters played by Hawke , Robert Sean Leonard and Uma Thurman .
+1	The	the	DET	DT	_	6	E	6:E	_
+2	real	real	ADJ	JJ	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	time	time	NOUN	NN	_	5	E	5:E	_
+5	drama	drama	NOUN	NN	_	6	E	6:E	_
+6	Tape	tape	PROPN	NNP	_	16	A	16:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	based	base	VERB	VBN	_	6	E	6:E	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	play	play	NOUN	NN	_	8	A	8:A	_
+12	from	from	ADP	IN	_	13	R	13:R	_
+13	Stephen	Stephen	PROPN	NNP	_	11	E	11:E	_
+14	Belber	Belber	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	took	take	VERB	VBD	_	0	H	0:H	_
+17	place	place	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	entirely	entirely	ADV	RB	_	16	D	16:D	_
+19	in	in	ADP	IN	_	23	R	23:R	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	single	single	ADJ	JJ	_	23	E	23:E	_
+22	motel	motel	NOUN	NN	_	23	E	23:E	_
+23	room	room	NOUN	NN	_	16	A	16:A	_
+24	with	with	ADP	IN	_	26	R	26:R	_
+25	three	three	NUM	CD	_	26	E	26:E	_
+26	characters	character	NOUN	NNS	_	16	A	16:A	_
+27	played	play	VERB	VBN	_	26	E	26:E	_
+28	by	by	ADP	IN	_	29	R	29:R	_
+29	Hawke	Hawke	PROPN	NNP	_	27	A	27:A	_
+30	,	,	PUNCT	,	_	29	U	29:U	_
+31	Robert	Robert	PROPN	NNP	_	29	C	29:C	_
+32	Sean	Sean	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	Leonard	Leonard	PROPN	NNP	_	31	Terminal	31:Terminal	_
+34	and	and	CCONJ	CC	_	29	N	29:N	_
+35	Uma	Uma	PROPN	NNP	_	29	C	29:C	_
+36	Thurman	Thurman	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	.	.	PUNCT	.	_	29	U	29:U	_
+

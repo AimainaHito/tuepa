@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25681013
+# text = Um 6 Uhr wurde es plötzlich Tag , so rasch , wie es den Tropen gegenden eigentümlich ist , wo man weder Dämmerung noch Morgenröte kennt .
+1	Um	um	ADP	APPR	_	3	R	3:R	_
+2	6	6	NUM	CARD	_	3	E	3:E	_
+3	Uhr	Uhr	NOUN	NN	_	7	D	7:D	_
+4	wurde	werden	AUX	TRUNC	_	7	F	7:F	_
+5	es	es	PRON	PPER	_	7	F	7:F	_
+6	plötzlich	plötzlich	ADJ	ADJD	_	7	D	7:D	_
+7	Tag	Tag	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	so	so	ADV	ADV	_	10	D	10:D	_
+10	rasch	rasch	ADJ	ADJD	_	7	H	7:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wie	wie	SCONJ	KON	_	17	D	17:D	_
+13	es	es	PRON	PPER	_	17	F	17:F	_
+14	den	der	DET	ART	_	16	E	16:E	_
+15	Tropen	Trope|Tropen	NOUN	NN	_	16	E	16:E	_
+16	gegenden	gegend	ADJ	ADJA	_	17	A	17:A	_
+17	eigentümlich	eigentümlich	ADJ	ADJD	_	10	A	10:A	_
+18	ist	sein	AUX	VVFIN	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	7	U	7:U	_
+20	wo	wo	ADV	ADJA	_	7	L	7:L	_
+21	man	man	PRON	PIS	_	26	A	26:A	_
+22	weder	weder	CCONJ	NN	_	23	N	23:N	_
+23	Dämmerung	Dämmerung	NOUN	NN	_	26	A	26:A	_
+24	noch	noch	CCONJ	CARD	_	22	Terminal	22:Terminal	_
+25	Morgenröte	Morgenröte	NOUN	NN	_	23	C	23:C	_
+26	kennt	kennen	VERB	VVFIN	_	7	H	7:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

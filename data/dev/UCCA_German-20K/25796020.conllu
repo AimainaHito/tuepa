@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25796020
+# text = Es war 11 Uhr vormittags ; es musste der 28 . März sein .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	11	11	NUM	CARD	_	2	D	2:D	_
+4	Uhr	Uhr	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	vormittags	vormittags	ADV	ADV	_	3	E	3:E	_
+6	;	;	PUNCT	$.	_	2	U	2:U	_
+7	es	es	PRON	PPER	_	13	A	13:A	_
+8	musste	müssen	AUX	VVFIN	_	13	D	13:D	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	28	28	NUM	CARD	_	13	D	13:D	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	März	März	PROPN	NN	_	10	Terminal	10:Terminal	_
+13	sein	sein	AUX	VAINF	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

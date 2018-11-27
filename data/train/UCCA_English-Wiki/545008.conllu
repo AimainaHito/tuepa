@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 545008
+# text = In 1943 , Warner , at the advice of President Franklin D . Roosevelt , produced a film adaption of the controversial book Mission to Moscow ; a film intended to inspire public support for the uneasy military alliance the United States had with the Soviet Union .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1943	1943	NUM	CD	_	16	D	16:D	_
+3	,	,	PUNCT	,	_	16	U	16:U	_
+4	Warner	Warner	PROPN	NNP	_	16	A	16:A	_
+5	,	,	PUNCT	,	_	16	U	16:U	_
+6	at	at	ADP	IN	_	16	L	16:L	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	advice	advice	NOUN	NN	_	16	H	16:H	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	President	President	PROPN	NNP	_	8	A	8:A	_
+11	Franklin	Franklin	PROPN	NNP	_	10	E	10:E	_
+12	D	D	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+14	Roosevelt	Roosevelt	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	produced	produce	VERB	VBD	_	0	H	0:H	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	film	film	NOUN	NN	_	19	A	19:A	_
+19	adaption	adaption	NOUN	NN	_	16	A	16:A	_
+20	of	of	ADP	IN	_	24	R	24:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	controversial	controversial	ADJ	JJ	_	23	E	23:E	_
+23	book	book	NOUN	NN	_	24	E	24:E	_
+24	Mission	mission	PROPN	NNP	_	19	A	19:A	_
+25	to	to	ADP	IN	_	24	Terminal	24:Terminal	_
+26	Moscow	Moscow	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	;	;	PUNCT	,	_	24	U	24:U	_
+28	a	a	DET	DT	_	29	E	29:E	_
+29	film	film	NOUN	NN	_	32	A	32:A	_
+30	intended	intend	VERB	VBN	_	32	D	32:D	_
+31	to	to	PART	TO	_	32	F	32:F	_
+32	inspire	inspire	VERB	VB	_	24	E	24:E	_
+33	public	public	ADJ	JJ	_	34	A	34:A	_
+34	support	support	NOUN	NN	_	32	A	32:A	_
+35	for	for	ADP	IN	_	39	R	39:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	uneasy	uneasy	ADJ	JJ	_	39	D	39:D	_
+38	military	military	ADJ	JJ	_	39	A	39:A	_
+39	alliance	alliance	NOUN	NN	_	34	A	34:A	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	United	United	PROPN	NNP	_	43	A	43:A	_
+42	States	States	PROPN	NNP	_	41	Terminal	41:Terminal	_
+43	had	have	VERB	VBD	_	39	A	39:A	_
+44	with	with	ADP	IN	_	45	R	45:R	_
+45	the	the	DET	DT	_	43	A	43:A	_
+46	Soviet	Soviet	PROPN	NNP	_	45	Terminal	45:Terminal	_
+47	Union	Union	PROPN	NNP	_	45	Terminal	45:Terminal	_
+48	.	.	PUNCT	.	_	45	U	45:U	_
+

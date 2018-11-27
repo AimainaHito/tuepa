@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 144007
+# text = It topped best - seller lists for over a year .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	topped	top	VERB	VBD	_	0	H	0:H	_
+3	best	best	ADJ	JJS	_	6	E	6:E	_
+4	-	-	PUNCT	HYPH	_	3	U	3:U	_
+5	seller	seller	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	lists	list	NOUN	NNS	_	2	A	2:A	_
+7	for	for	ADP	IN	_	10	R	10:R	_
+8	over	over	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	year	year	NOUN	NN	_	2	D	2:D	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

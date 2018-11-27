@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25753005
+# text = » Was meinen Sie damit ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Was	was	PRON	NE	_	3	A	3:A	_
+3	meinen	meinen	VERB	PPOSAT	_	0	H	0:H	_
+4	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	damit	damit	ADV	PAV	_	3	A	3:A	_
+6	?	?	PUNCT	$.	_	3	U	3:U	_
+7	«	«	PUNCT	$(	_	3	U	3:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 546002
+# text = In 1954 , Warner finally engaged the new medium , providing ABC with a weekly show , Warner Bros . Presents .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1954	1954	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Warner	Warner	PROPN	NNP	_	6	A	6:A|11:A	_
+5	finally	finally	ADV	RB	_	6	D	6:D	_
+6	engaged	engage	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	new	new	ADJ	JJ	_	9	E	9:E	_
+9	medium	medium	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	providing	provide	VERB	VBG	_	6	H	6:H	_
+12	ABC	ABC	PROPN	NNP	_	11	A	11:A	_
+13	with	with	ADP	IN	_	18	R	18:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	weekly	weekly	ADJ	JJ	_	16	E	16:E	_
+16	show	show	NOUN	NN	_	18	E	18:E	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	Warner	Warner	PROPN	NNP	_	11	A	11:A	_
+19	Bros	Bros	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+21	Presents	presents	PROPN	NNPS	_	18	Terminal	18:Terminal	_
+22	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25418000
+# text = Aber diese Idee einer Kriegsmaschine musste gegenüber den Erklärungen der Regierungen fallengelassen werden .
+1	Aber	aber	SCONJ	KON	_	12	L	12:L	_
+2	diese	dies	PRON	PDS	_	3	E	3:E	_
+3	Idee	Idee	NOUN	NN	_	12	A	12:A	_
+4	einer	ein	DET	ART	_	5	R	5:R	_
+5	Kriegsmaschine	Kriegsmaschine	NOUN	NE	_	3	E	3:E	_
+6	musste	müssen	AUX	VVFIN	_	12	D	12:D	_
+7	gegenüber	gegenüber	ADP	APPR	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Erklärungen	Erklärung	NOUN	NN	_	12	A	12:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Regierungen	Regierung	NOUN	NN	_	9	A	9:A	_
+12	fallengelassen	fallengelassen	VERB	VVPP	_	0	H	0:H	_
+13	werden	werden	AUX	VVFIN	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

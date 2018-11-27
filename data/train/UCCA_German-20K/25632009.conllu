@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25632009
+# text = » Sind ' s Affen ? « rief Ned Land .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Sind	sein	AUX	NN	_	8	A	8:A	_
+3	'	'	PUNCT	$(	_	2	U	2:U	_
+4	s	s	ADJ	ADJD	_	2	F	2:F	_
+5	Affen	Aff	NOUN	NN	_	2	A	2:A	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

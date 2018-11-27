@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25756004
+# text = Diese Tiere flüchten nämlich , wenn sie aufs äußerste verfolgt werden , in die höheren Breitengrade .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Tiere	Tier	NOUN	NN	_	3	A	3:A	_
+3	flüchten	flüchten	VERB	VVFIN	_	0	H	0:H	_
+4	nämlich	nämlich	ADJ	VVFIN	_	3	G	3:G	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	wenn	wenn	SCONJ	NE	_	3	L	3:L	_
+7	sie	sie	PRON	ADV	_	10	A	10:A	_
+8	aufs	aufs	ADV	NN	_	9	R	9:R	_
+9	äußerste	äußer	ADJ	ADJA	_	10	D	10:D	_
+10	verfolgt	verfolgen	VERB	VVFIN	_	3	H	3:H	_
+11	werden	werden	AUX	ADV	_	10	F	10:F	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	in	in	ADP	APPR	_	16	R	16:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	höheren	hoch	ADJ	ADJA	_	16	E	16:E	_
+16	Breitengrade	Breitengrad	NOUN	NN	_	3	A	3:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

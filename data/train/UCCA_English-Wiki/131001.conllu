@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 131001
+# text = After its release , the Independent Theatre Owners of America included Hepburn on a list of actors considered " Box Office Poison " . The next film RKO offered her was Mother Carey 's Chickens , a B movie with poor prospects .
+1	After	after	ADP	IN	_	3	L	3:L	_
+2	its	its	PRON	PRP$	_	3	A	3:A	_
+3	release	release	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	the	the	DET	DT	_	11	A	11:A	_
+6	Independent	Independent	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Theatre	theatre	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	Owners	owners	PROPN	NNPS	_	5	Terminal	5:Terminal	_
+9	of	of	ADP	IN	_	5	Terminal	5:Terminal	_
+10	America	America	PROPN	NNP	_	5	Terminal	5:Terminal	_
+11	included	include	VERB	VBD	_	3	H	3:H	_
+12	Hepburn	Hepburn	PROPN	NNP	_	11	A	11:A	_
+13	on	on	ADP	IN	_	15	R	15:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	list	list	NOUN	NN	_	11	A	11:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	actors	actor	NOUN	NNS	_	18	A	18:A	_
+18	considered	consider	VERB	VBN	_	15	E	15:E	_
+19	"	"	PUNCT	``	_	18	U	18:U	_
+20	Box	box	NOUN	NN	_	21	E	21:E	_
+21	Office	office	PROPN	NNP	_	22	E	22:E	_
+22	Poison	poison	PROPN	NNP	_	18	A	18:A	_
+23	"	"	PUNCT	''	_	3	U	3:U	_
+24	.	.	PUNCT	.	_	3	U	3:U	_
+25	The	the	DET	DT	_	27	E	27:E	_
+26	next	next	ADJ	JJ	_	27	E	27:E	_
+27	film	film	NOUN	NN	_	29	A	29:A	_
+28	RKO	RKO	PROPN	NNP	_	29	A	29:A	_
+29	offered	offer	VERB	VBD	_	31	A	31:A	_
+30	her	she	PRON	PRP$	_	29	A	29:A	_
+31	was	be	AUX	VBD	_	3	H	3:H	_
+32	Mother	mother	PROPN	NNP	_	31	A	31:A	_
+33	Carey	Carey	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	's	's	PART	POS	_	32	Terminal	32:Terminal	_
+35	Chickens	chickens	PROPN	NNPS	_	32	Terminal	32:Terminal	_
+36	,	,	PUNCT	,	_	32	U	32:U	_
+37	a	a	DET	DT	_	39	E	39:E	_
+38	B	b	ADJ	JJ	_	39	E	39:E	_
+39	movie	movie	NOUN	NN	_	32	E	32:E	_
+40	with	with	ADP	IN	_	42	R	42:R	_
+41	poor	poor	ADJ	JJ	_	42	E	42:E	_
+42	prospects	prospect	NOUN	NNS	_	32	E	32:E	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

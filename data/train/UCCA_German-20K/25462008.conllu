@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25462008
+# text = Ich machte ihm oft Vorwürfe über seine Gleichgültigkeit .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+3	ihm	er	PRON	PPER	_	2	A	2:A	_
+4	oft	oft	ADV	ADV	_	2	D	2:D	_
+5	Vorwürfe	Vorwurf	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	über	über	ADP	ADJD	_	8	R	8:R	_
+7	seine	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Gleichgültigkeit	Gleichgültigkeit	NOUN	NN	_	2	A	2:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

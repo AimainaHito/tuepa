@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 659009
+# text = While a high school student , Carey developed a relationship with Gavin Christopher , with whom she shared musical aspirations .
+1	While	while	SCONJ	IN	_	5	L	5:L	_
+2	a	a	DET	DT	_	5	E	5:E	_
+3	high	high	ADJ	JJ	_	4	E	4:E	_
+4	school	school	NOUN	NN	_	5	E	5:E	_
+5	student	student	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Carey	Carey	PROPN	NNP	_	10	A	10:A|5:A	_
+8	developed	develop	VERB	VBD	_	10	D	10:D	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	relationship	relationship	NOUN	NN	_	5	H	5:H	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	Gavin	Gavin	PROPN	NNP	_	10	A	10:A	_
+13	Christopher	Christopher	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	with	with	ADP	IN	_	18	R	18:R	_
+16	whom	whom	PRON	WP	_	18	F	18:F	_
+17	she	she	PRON	PRP	_	18	A	18:A	_
+18	shared	share	VERB	VBD	_	12	E	12:E	_
+19	musical	musical	ADJ	JJ	_	20	E	20:E	_
+20	aspirations	aspiration	NOUN	NNS	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

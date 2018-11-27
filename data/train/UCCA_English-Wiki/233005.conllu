@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 233005
+# text = A number of video games have featured Jackie Chan .
+1	A	a	DET	DT	_	5	E	5:E	_
+2	number	number	NOUN	NN	_	5	E	5:E	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	video	video	NOUN	NN	_	5	E	5:E	_
+5	games	game	NOUN	NNS	_	7	A	7:A	_
+6	have	have	AUX	VBP	_	7	F	7:F	_
+7	featured	feature	VERB	VBN	_	0	H	0:H	_
+8	Jackie	Jackie	PROPN	NNP	_	7	A	7:A	_
+9	Chan	Chan	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	7	U	7:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25769013
+# text = Ungefähr 300 Meter , wie Kapitän Nemo bemerkt hatte , schwammen wir unter der wellenförmigen Eisdecke .
+1	Ungefähr	ungefähr	ADV	NE	_	3	E	3:E	_
+2	300	300	NUM	CARD	_	3	E	3:E	_
+3	Meter	Meter	NOUN	NN	_	11	A	11:A	_
+4	,	,	PUNCT	$,	_	11	U	11:U	_
+5	wie	wie	ADP	ADJA	_	11	L	11:L	_
+6	Kapitän	Kapitän	PROPN	NN	_	7	E	7:E	_
+7	Nemo	Nemo	PROPN	NE	_	8	A	8:A	_
+8	bemerkt	bemerken	VERB	VVPP	_	11	H	11:H	_
+9	hatte	haben	AUX	VAFIN	_	8	F	8:F	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	schwammen	schwammen	VERB	VVINF	_	0	H	0:H	_
+12	wir	wir	PRON	NE	_	11	A	11:A	_
+13	unter	unter	ADP	NE	_	16	R	16:R	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	wellenförmigen	wellenförmig	ADJ	ADJA	_	16	E	16:E	_
+16	Eisdecke	Eisdecke	NOUN	NN	_	11	A	11:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

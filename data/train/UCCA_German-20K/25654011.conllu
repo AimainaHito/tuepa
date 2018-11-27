@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25654011
+# text = Jetzt wurde mir 's klar : Diese Lichtung war ein Friedhof , dies Loch ein Grab , der längliche Gegenstand die Leiche des verstorbenen Mannes .
+1	Jetzt	jetzt	ADV	ADV	_	5	D	5:D	_
+2	wurde	werden	AUX	NE	_	5	F	5:F	_
+3	mir	ich	PRON	NE	_	5	A	5:A	_
+4	's	es	X	ART	_	5	F	5:F	_
+5	klar	klar	ADJ	ADJD	_	0	H	0:H	_
+6	:	:	PUNCT	$.	_	5	U	5:U	_
+7	Diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Lichtung	Lichtung	NOUN	NN	_	9	A	9:A	_
+9	war	sein	AUX	ADV	_	5	H	5:H	_
+10	ein	ein	DET	ART	_	11	E	11:E	_
+11	Friedhof	Friedhof	NOUN	NN	_	9	A	9:A	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	dies	dies	PRON	PDS	_	14	E	14:E	_
+14	Loch	Loch	NOUN	ADV	_	5	H	5:H	_
+15	ein	ein	DET	ART	_	16	E	16:E	_
+16	Grab	Grab	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	der	der	DET	ART	_	20	E	20:E	_
+19	längliche	länglich	ADJ	ADJA	_	20	E	20:E	_
+20	Gegenstand	Gegenstand	NOUN	NN	_	5	H	5:H	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Leiche	Leiche	NOUN	ADJA	_	20	A	20:A	_
+23	des	der	DET	ART	_	25	R	25:R	_
+24	verstorbenen	verstorben	ADJ	NN	_	25	E	25:E	_
+25	Mannes	Mann	NOUN	NN	_	22	E	22:E	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

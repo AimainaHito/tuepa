@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25489034
+# text = Kein Geräusch drang zu unseren Ohren .
+1	Kein	kein	PROPN	PIAT	_	3	D	3:D	_
+2	Geräusch	Geräusch	PROPN	NN	_	3	A	3:A	_
+3	drang	dringen	VERB	VVFIN	_	0	H	0:H	_
+4	zu	zu	ADP	VVINF	_	6	R	6:R	_
+5	unseren	unser	PRON	PPOSAT	_	6	E	6:E	_
+6	Ohren	Ohr	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

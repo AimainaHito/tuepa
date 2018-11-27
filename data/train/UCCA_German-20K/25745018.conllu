@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25745018
+# text = Es kam mir vor , diese Grotte bilde die doppelte Schale meiner Muschel ...
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	vor	vor	ADP	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	diese	dies	PRON	PDAT	_	7	E	7:E	_
+7	Grotte	Grotte	NOUN	NE	_	8	A	8:A	_
+8	bilde	bilde	ADV	NE	_	2	H	2:H	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	doppelte	doppeln	ADJ	ADJA	_	11	E	11:E	_
+11	Schale	Schale	NOUN	NN	_	8	A	8:A	_
+12	meiner	mein	DET	PPOSAT	_	13	R	13:R	_
+13	Muschel	Muschel	NOUN	NE	_	11	E	11:E	_
+14	...	...	PUNCT	$(	_	13	U	13:U	_
+

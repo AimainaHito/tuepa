@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25758000
+# text = » Man baut Häuser darauf « , sagt Conseil .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Man	man	PRON	PIS	_	3	A	3:A	_
+3	baut	bauen	VERB	VVFIN	_	8	A	8:A	_
+4	Häuser	Haus	NOUN	NN	_	3	A	3:A	_
+5	darauf	darauf	ADV	PAV	_	3	A	3:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagt	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NE	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

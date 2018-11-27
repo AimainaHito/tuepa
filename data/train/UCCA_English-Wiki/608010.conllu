@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 608010
+# text = He collaborated with composer Carl Davis , producing Liverpool Oratorio .
+1	He	he	PRON	PRP	_	2	A	2:A|8:A	_
+2	collaborated	collaborate	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	5	R	5:R	_
+4	composer	composer	NOUN	NN	_	5	E	5:E	_
+5	Carl	Carl	PROPN	NNP	_	2	A	2:A	_
+6	Davis	Davis	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	producing	produce	VERB	VBG	_	2	H	2:H	_
+9	Liverpool	Liverpool	PROPN	NNP	_	8	A	8:A	_
+10	Oratorio	Oratorio	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	8	U	8:U	_
+

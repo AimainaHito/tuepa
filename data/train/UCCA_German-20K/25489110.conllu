@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25489110
+# text = Die Gerichte , mit silbernen Glocken bedeckt , wurden symmetrisch auf das Tischtuch gestellt , und wir setzten uns zu Tisch .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Gerichte	Gericht	NOUN	NN	_	14	A	14:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	silbernen	silbern	ADJ	ADJA	_	6	E	6:E	_
+6	Glocken	Glocke	NOUN	NN	_	7	A	7:A	_
+7	bedeckt	bedecken	VERB	VVPP	_	2	E	2:E	_
+8	,	,	PUNCT	$,	_	14	U	14:U	_
+9	wurden	werden	AUX	ADJD	_	14	F	14:F	_
+10	symmetrisch	symmetrisch	ADJ	ADJD	_	14	D	14:D	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Tischtuch	Tischtuch	NOUN	NN	_	14	A	14:A	_
+14	gestellt	stellen	VERB	VVPP	_	0	H	0:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	und	und	CCONJ	NE	_	14	L	14:L	_
+17	wir	wir	PRON	NE	_	18	A	18:A	_
+18	setzten	setzen	VERB	VVFIN	_	14	H	14:H	_
+19	uns	wir	PRON	NE	_	18	Terminal	18:Terminal	_
+20	zu	zu	ADP	NE	_	21	R	21:R	_
+21	Tisch	Tisch	NOUN	NN	_	18	A	18:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25667012
+# text = Diese Tiere tauchen leicht unter und können sich lange unter Wasser halten , indem sie die fleischige Klappe an der äußeren Mündung ihres Nasen kanals schließen .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Tiere	Tier	NOUN	NN	_	0	C	0:C|8:A	_
+3	tauchen	tauchen	VERB	VVFIN	_	0	H	0:H	_
+4	leicht	leicht	ADJ	ADJD	_	3	D	3:D	_
+5	unter	unter	ADP	ADJD	_	3	Terminal	3:Terminal	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	können	können	AUX	VMFIN	_	8	D	8:D	_
+8	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+9	lange	lange	ADV	ADV	_	8	D	8:D	_
+10	unter	unter	ADP	ADJD	_	11	R	11:R	_
+11	Wasser	Wasser	NOUN	NN	_	8	A	8:A	_
+12	halten	halten	VERB	VVFIN	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	indem	indem	SCONJ	KOUS	_	3	L	3:L	_
+15	sie	sie	PRON	ADV	_	26	A	26:A	_
+16	die	der	DET	ART	_	18	E	18:E	_
+17	fleischige	fleischig	ADJ	ADJA	_	18	E	18:E	_
+18	Klappe	Klappe	NOUN	NN	_	26	A	26:A	_
+19	an	an	ADP	APPR	_	22	R	22:R	_
+20	der	der	DET	ART	_	22	E	22:E	_
+21	äußeren	äußer	ADJ	ADJA	_	22	E	22:E	_
+22	Mündung	Mündung	NOUN	NN	_	18	E	18:E	_
+23	ihres	ihr	DET	PPOSAT	_	25	R	25:R	_
+24	Nasen	Nase	NOUN	NN	_	25	E	25:E	_
+25	kanals	kanals	PART	NE	_	18	E	18:E	_
+26	schließen	schließen	VERB	VVINF	_	3	H	3:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

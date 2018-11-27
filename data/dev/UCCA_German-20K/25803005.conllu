@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25803005
+# text = » Ach , mein Herr kann mir 's wohl glauben « , versetzte Conseil , » aber ich werde mich an diesem Tier rächen . «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Ach	ach	PROPN	ITJ	_	10	F	10:F	_
+3	,	,	PUNCT	$,	_	10	U	10:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	10	A	10:A	_
+6	kann	können	AUX	VMFIN	_	10	D	10:D	_
+7	mir	ich	PRON	PPER	_	10	A	10:A	_
+8	's	es	PRON	PPER	_	10	A	10:A	_
+9	wohl	wohl	ADV	ADV	_	10	G	10:G	_
+10	glauben	glauben	VERB	VVINF	_	13	A	13:A	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+14	Conseil	Conseil	PROPN	NE	_	13	A	13:A	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	»	»	PUNCT	$(	_	13	U	13:U	_
+17	aber	aber	CCONJ	ADV	_	10	L	10:L	_
+18	ich	ich	PRON	PPER	_	20	A	20:A	_
+19	werde	werden	AUX	NN	_	20	F	20:F	_
+20	mich	ich	PRON	PRF	_	10	H	10:H	_
+21	an	an	ADP	APPR	_	23	R	23:R	_
+22	diesem	dies	PRON	PDAT	_	23	E	23:E	_
+23	Tier	Tier	NOUN	NN	_	20	A	20:A	_
+24	rächen	rächen	VERB	VVINF	_	20	Terminal	20:Terminal	_
+25	.	.	PUNCT	$.	_	20	U	20:U	_
+26	«	«	PUNCT	$(	_	20	U	20:U	_
+

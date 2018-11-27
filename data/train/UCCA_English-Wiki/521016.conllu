@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 521016
+# text = By August 1935 they were broken up when Suzanne Garland flew to Reno , Nevada , and married musician Lee Kahn , a member of the Jimmy Davis orchestra playing at Cal - Neva Lodge , Lake Tahoe .
+1	By	by	ADP	IN	_	2	R	2:R	_
+2	August	August	PROPN	NNP	_	6	D	6:D	_
+3	1935	1935	NUM	CD	_	2	Terminal	2:Terminal	_
+4	they	they	PRON	PRP	_	6	A	6:A	_
+5	were	be	AUX	VBD	_	6	F	6:F	_
+6	broken	break	VERB	VBN	_	0	H	0:H	_
+7	up	up	ADP	RP	_	6	Terminal	6:Terminal	_
+8	when	when	ADV	WRB	_	6	L	6:L	_
+9	Suzanne	Suzanne	PROPN	NNP	_	11	A	11:A|18:A	_
+10	Garland	Garland	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	flew	fly	VERB	VBD	_	6	H	6:H	_
+12	to	to	ADP	IN	_	13	R	13:R	_
+13	Reno	Reno	PROPN	NNP	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	Nevada	Nevada	PROPN	NNP	_	13	E	13:E	_
+16	,	,	PUNCT	,	_	6	U	6:U	_
+17	and	and	CCONJ	CC	_	6	L	6:L	_
+18	married	marry	ADJ	JJ	_	6	H	6:H	_
+19	musician	musician	NOUN	NN	_	20	E	20:E	_
+20	Lee	Lee	PROPN	NNP	_	18	A	18:A	_
+21	Kahn	Kahn	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	member	member	NOUN	NN	_	30	A	30:A	_
+25	of	of	ADP	IN	_	29	R	29:R	_
+26	the	the	DET	DT	_	29	E	29:E	_
+27	Jimmy	Jimmy	PROPN	NNP	_	29	E	29:E	_
+28	Davis	Davis	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	orchestra	orchestra	NOUN	NN	_	24	E	24:E	_
+30	playing	play	VERB	VBG	_	20	E	20:E	_
+31	at	at	ADP	IN	_	35	R	35:R	_
+32	Cal	Cal	PROPN	NNP	_	35	E	35:E	_
+33	-	-	PUNCT	HYPH	_	32	U	32:U	_
+34	Neva	Neva	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	Lodge	Lodge	PROPN	NNP	_	30	A	30:A	_
+36	,	,	PUNCT	,	_	35	U	35:U	_
+37	Lake	Lake	PROPN	NNP	_	35	E	35:E	_
+38	Tahoe	Tahoe	PROPN	NNP	_	37	E	37:E	_
+39	.	.	PUNCT	.	_	37	U	37:U	_
+

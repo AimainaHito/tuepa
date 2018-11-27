@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25772011
+# text = Der Boden zeigte in weiter Ausdehnung einen Tuff von rötlicher Farbe , als bestehe er aus zerstampftem Ziegelstein .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Boden	Boden	NOUN	NN	_	3	A	3:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	weiter	weit	ADJ	FM	_	6	D	6:D	_
+6	Ausdehnung	Ausdehnung	NOUN	NN	_	3	A	3:A	_
+7	einen	ein	DET	ART	_	8	E	8:E	_
+8	Tuff	Tuff	NOUN	NN	_	3	A	3:A	_
+9	von	von	ADP	NE	_	11	R	11:R	_
+10	rötlicher	rötlich	ADJ	ADJA	_	11	E	11:E	_
+11	Farbe	Farbe	NOUN	NN	_	8	E	8:E	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	als	als	SCONJ	KOUS	_	14	R	14:R	_
+14	bestehe	bestehen	VERB	VVFIN	_	3	H	3:H	_
+15	er	er	PRON	PPER	_	14	A	14:A	_
+16	aus	aus	ADP	APPR	_	18	R	18:R	_
+17	zerstampftem	zerstampft	ADJ	ADJA	_	14	A	14:A	_
+18	Ziegelstein	Ziegelstein	NOUN	NN	_	17	A	17:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25692012
+# text = Auch hielt sie sich vorsichtig in einiger Tiefe .
+1	Auch	auch	ADV	ADV	_	2	D	2:D	_
+2	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	vorsichtig	vorsichtig	ADJ	ADJD	_	2	D	2:D	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	einiger	einige	PRON	PIAT	_	8	E	8:E	_
+8	Tiefe	Tiefe	NOUN	NN	_	2	A	2:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

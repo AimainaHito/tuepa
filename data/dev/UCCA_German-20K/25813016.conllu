@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25813016
+# text = Aber in dem Augenblick , da Kapitän Nemo und sein Lieutenant sich auf ihn stürzten , strömte das Tier einen Strahl schwarzer Flüssigkeit , die es in einem Beutel an seinem Unterleib absonderte , uns entgegen .
+1	Aber	aber	CCONJ	KON	_	17	L	17:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	dem	der	DET	ART	_	4	E	4:E	_
+4	Augenblick	Augenblick	NOUN	NN	_	17	D	17:D	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	da	da	SCONJ	KOUS	_	12	R	12:R	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	12	A	12:A	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	sein	sein	DET	PPOSAT	_	11	E	11:E	_
+11	Lieutenant	Lieutenant	NOUN	NN	_	8	C	8:C	_
+12	sich	er|es|sie	PRON	PRF	_	4	E	4:E	_
+13	auf	auf	ADP	APPR	_	14	R	14:R	_
+14	ihn	er	PRON	PPER	_	12	A	12:A	_
+15	stürzten	stürzen	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	strömte	strömen	VERB	VVFIN	_	0	H	0:H	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	Tier	Tier	NOUN	NN	_	17	A	17:A	_
+20	einen	ein	DET	ART	_	21	E	21:E	_
+21	Strahl	Strahl	NOUN	NN	_	17	A	17:A	_
+22	schwarzer	schwarz	ADJ	ADJA	_	23	E	23:E	_
+23	Flüssigkeit	Flüssigkeit	NOUN	NN	_	21	E	21:E	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	die	der	PRON	PRELS	_	33	R	33:R	_
+26	es	es	PRON	PPER	_	33	A	33:A	_
+27	in	in	ADP	APPR	_	29	R	29:R	_
+28	einem	ein	DET	ART	_	29	E	29:E	_
+29	Beutel	Beutel	NOUN	NN	_	33	A	33:A	_
+30	an	an	ADP	APPR	_	32	R	32:R	_
+31	seinem	sein	DET	PPOSAT	_	32	E	32:E	_
+32	Unterleib	Unterleib	NOUN	NN	_	29	E	29:E	_
+33	absonderte	absonderen	VERB	VVFIN	_	23	E	23:E	_
+34	,	,	PUNCT	$,	_	17	U	17:U	_
+35	uns	wir	PRON	NN	_	17	A	17:A	_
+36	entgegen	entgegen	ADV	PTKVZ	_	17	Terminal	17:Terminal	_
+37	.	.	PUNCT	$.	_	17	U	17:U	_
+

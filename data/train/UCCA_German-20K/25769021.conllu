@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25769021
+# text = Von 69 ° 30 ? bis zu 90 ° waren noch 22 ° 30 ? an Breite zu durchlaufen , d.h . etwas über 500 Lieue .
+1	Von	von	ADP	APPR	_	2	R	2:R	_
+2	69	69	NUM	CARD	_	19	A	19:A	_
+3	°	°	NOUN	ADJD	_	2	U	2:U	_
+4	30	30	NUM	CARD	_	2	Terminal	2:Terminal	_
+5	?	?	PUNCT	$.	_	2	U	2:U	_
+6	bis	bis	ADP	APPR	_	2	R	2:R	_
+7	zu	zu	ADP	NE	_	6	Terminal	6:Terminal	_
+8	90	90	NUM	CARD	_	2	C	2:C	_
+9	°	°	NOUN	ADJD	_	19	U	19:U	_
+10	waren	sein	AUX	VAFIN	_	19	D	19:D	_
+11	noch	noch	ADV	ADV	_	19	D	19:D	_
+12	22	22	NUM	CARD	_	19	A	19:A	_
+13	°	°	NOUN	ADJD	_	12	U	12:U	_
+14	30	30	NUM	CARD	_	12	Terminal	12:Terminal	_
+15	?	?	PUNCT	$.	_	12	U	12:U	_
+16	an	an	ADP	APPR	_	12	R	12:R	_
+17	Breite	Breite	NOUN	NN	_	12	E	12:E	_
+18	zu	zu	PART	VVINF	_	19	F	19:F	_
+19	durchlaufen	durchlaufen	VERB	VVINF	_	0	H	0:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	d.h	d.h	CCONJ	ADJD	_	19	L	19:L	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+23	etwas	etwas	PRON	PIS	_	19	H	19:H	_
+24	über	über	ADP	VVFIN	_	26	R	26:R	_
+25	500	500	NUM	CARD	_	26	E	26:E	_
+26	Lieue	Lieue	NOUN	ADJA	_	23	A	23:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

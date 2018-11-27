@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25799007
+# text = Ich glaubte sogar den Sarmiento zu sehen , der sich 2.070 Meter hoch über dem Meeresspiegel erhebt , ein pyramidaler Schieferblock mit sehr spitzem Gipfel , der , je nachdem er mit Dünsten umgeben oder davon frei ist , » gutes oder schlechtes Wetter anzeigt « , wie Ned Land sagte .
+1	Ich	ich	PRON	PPER	_	7	A	7:A	_
+2	glaubte	glauben	VERB	VVFIN	_	7	D	7:D	_
+3	sogar	sogar	ADV	ADV	_	7	D	7:D	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Sarmiento	Sarmiento	NOUN	NE	_	7	A	7:A	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	der	der	PRON	PRELS	_	10	R	10:R	_
+10	sich	er|es|sie	PRON	PRF	_	5	E	5:E	_
+11	2.070	2.07	NUM	CARD	_	12	E	12:E	_
+12	Meter	Meter	NOUN	NN	_	10	A	10:A	_
+13	hoch	hoch	ADJ	ADJD	_	12	E	12:E	_
+14	über	über	ADP	VVFIN	_	16	R	16:R	_
+15	dem	der	DET	ART	_	16	E	16:E	_
+16	Meeresspiegel	Meeresspiegel	NOUN	NN	_	10	A	10:A	_
+17	erhebt	erhebt	VERB	VVFIN	_	10	Terminal	10:Terminal	_
+18	,	,	PUNCT	$,	_	5	U	5:U	_
+19	ein	ein	DET	ART	_	21	E	21:E	_
+20	pyramidaler	pyramidal	ADJ	ADJA	_	21	E	21:E	_
+21	Schieferblock	Schieferblock	NOUN	NN	_	5	E	5:E	_
+22	mit	mit	ADP	APPR	_	24	R	24:R	_
+23	sehr	sehr	ADV	NE	_	24	D	24:D	_
+24	spitzem	spitzem	ADJ	ADJA	_	21	A	21:A	_
+25	Gipfel	Gipfel	NOUN	NN	_	24	A	24:A	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	der	der	PRON	PRELS	_	34	R	34:R	_
+28	,	,	PUNCT	$,	_	34	U	34:U	_
+29	je	je	ADV	ADV	_	34	L	34:L	_
+30	nachdem	nachdem	SCONJ	XY	_	29	Terminal	29:Terminal	_
+31	er	er	PRON	PPER	_	34	A	34:A	_
+32	mit	mit	ADP	APPR	_	33	R	33:R	_
+33	Dünsten	Dünst	NOUN	NN	_	34	A	34:A	_
+34	umgeben	umgeben	VERB	VVPP	_	25	E	25:E	_
+35	oder	oder	CCONJ	CARD	_	34	L	34:L	_
+36	davon	davon	ADV	PAV	_	37	A	37:A	_
+37	frei	frei	ADJ	ADJD	_	34	H	34:H	_
+38	ist	sein	AUX	NN	_	37	F	37:F	_
+39	,	,	PUNCT	$,	_	34	U	34:U	_
+40	»	»	PUNCT	$(	_	34	U	34:U	_
+41	gutes	gut	ADJ	ADJA	_	44	E	44:E	_
+42	oder	oder	CCONJ	CARD	_	41	N	41:N	_
+43	schlechtes	schlecht	ADJ	ADJA	_	41	C	41:C	_
+44	Wetter	Wetter	NOUN	NN	_	45	A	45:A	_
+45	anzeigt	anzeigen	VERB	VVFIN	_	34	H	34:H	_
+46	«	«	PUNCT	$(	_	24	U	24:U	_
+47	,	,	PUNCT	$,	_	24	U	24:U	_
+48	wie	wie	ADP	NE	_	51	R	51:R	_
+49	Ned	Ned	PROPN	NE	_	51	A	51:A	_
+50	Land	Land	PROPN	NN	_	49	Terminal	49:Terminal	_
+51	sagte	sagen	VERB	VVFIN	_	24	A	24:A	_
+52	.	.	PUNCT	$.	_	51	U	51:U	_
+

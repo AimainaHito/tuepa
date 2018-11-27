@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25438014
+# text = » So gut , mit Erlaubnis meines Herrn , als der Einsiedler Bernhard in der Muschel schale .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	So	so	ADV	ADV	_	3	E	3:E	_
+3	gut	gut	ADJ	ADJD	_	6	D	6:D	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	mit	mit	ADP	APPR	_	6	R	6:R	_
+6	Erlaubnis	Erlaubnis	NOUN	NN	_	0	H	0:H	_
+7	meines	mein	PRON	PPOSAT	_	8	R	8:R	_
+8	Herrn	Herr	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	als	als	SCONJ	KOUS	_	13	R	13:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Einsiedler	Einsiedler	NOUN	NN	_	13	E	13:E	_
+13	Bernhard	Bernhard	PROPN	NE	_	6	A	6:A	_
+14	in	in	ADP	APPR	_	17	R	17:R	_
+15	der	der	DET	ART	_	17	E	17:E	_
+16	Muschel	Muschel	NOUN	NN	_	17	E	17:E	_
+17	schale	schal	ADJ	NE	_	6	A	6:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

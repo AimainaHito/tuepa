@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25797015
+# text = Ich konnte ihnen für diese Hingebung nicht genug Dankbarkeit zollen .
+1	Ich	ich	PRON	PPER	_	10	A	10:A	_
+2	konnte	können	AUX	VMFIN	_	10	D	10:D	_
+3	ihnen	sie	PRON	PPER	_	10	A	10:A	_
+4	für	für	ADP	APPR	_	6	R	6:R	_
+5	diese	dies	PRON	PDAT	_	6	E	6:E	_
+6	Hingebung	Hingebung	NOUN	NN	_	10	A	10:A	_
+7	nicht	nicht	PART	XY	_	10	D	10:D	_
+8	genug	genug	ADJ	ADV	_	10	D	10:D	_
+9	Dankbarkeit	Dankbarkeit	NOUN	NN	_	10	A	10:A	_
+10	zollen	zollen	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

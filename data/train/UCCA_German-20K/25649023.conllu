@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25649023
+# text = Ich grüßte ihn .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	grüßte	grüßen	VERB	VVFIN	_	0	H	0:H	_
+3	ihn	er	PRON	PPER	_	2	A	2:A	_
+4	.	.	PUNCT	$.	_	2	U	2:U	_
+

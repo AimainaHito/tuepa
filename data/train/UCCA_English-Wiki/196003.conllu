@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 196003
+# text = In January 2007 , Sorkin spoke out against the press for focusing too heavily on the ratings slide and for using blogs and unemployed comedy writers as sources .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	January	January	PROPN	NNP	_	3	E	3:E	_
+3	2007	2007	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Sorkin	Sorkin	PROPN	NNP	_	6	A	6:A	_
+6	spoke	speak	VERB	VBD	_	0	H	0:H	_
+7	out	out	ADV	RB	_	6	Terminal	6:Terminal	_
+8	against	against	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	press	press	NOUN	NN	_	6	A	6:A	_
+11	for	for	SCONJ	IN	_	12	R	12:R	_
+12	focusing	focus	VERB	VBG	_	6	A	6:A	_
+13	too	too	ADV	RB	_	14	E	14:E	_
+14	heavily	heavily	ADV	RB	_	12	D	12:D	_
+15	on	on	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	ratings	rating	NOUN	NNS	_	18	E	18:E	_
+18	slide	slide	VERB	VBP	_	12	A	12:A	_
+19	and	and	CCONJ	CC	_	12	L	12:L	_
+20	for	for	SCONJ	IN	_	21	R	21:R	_
+21	using	use	VERB	VBG	_	12	H	12:H	_
+22	blogs	blog	NOUN	NNS	_	21	A	21:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	unemployed	unemployed	ADJ	JJ	_	26	E	26:E	_
+25	comedy	comedy	NOUN	NN	_	26	E	26:E	_
+26	writers	writer	NOUN	NNS	_	22	C	22:C	_
+27	as	as	ADP	IN	_	28	R	28:R	_
+28	sources	source	NOUN	NNS	_	21	A	21:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 691015
+# text = Grossman remained Dylan 's manager until 1970 , and was notable both for his sometimes confrontational personality , and for the fiercely protective loyalty he displayed towards his principal client .
+1	Grossman	Grossman	PROPN	NNP	_	2	A	2:A|11:A	_
+2	remained	remain	VERB	VBD	_	0	H	0:H	_
+3	Dylan	Dylan	PROPN	NNP	_	5	E	5:E	_
+4	's	's	PART	POS	_	5	R	5:R	_
+5	manager	manager	NOUN	NN	_	2	A	2:A	_
+6	until	until	ADP	IN	_	7	R	7:R	_
+7	1970	1970	NUM	CD	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	notable	notable	ADJ	JJ	_	2	H	2:H	_
+12	both	both	CCONJ	CC	_	17	N	17:N	_
+13	for	for	ADP	IN	_	17	R	17:R	_
+14	his	he	PRON	PRP$	_	17	E	17:E	_
+15	sometimes	sometimes	ADV	RB	_	16	E	16:E	_
+16	confrontational	confrontational	ADJ	JJ	_	17	E	17:E	_
+17	personality	personality	NOUN	NN	_	11	A	11:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	and	and	CCONJ	CC	_	17	N	17:N	_
+20	for	for	ADP	IN	_	26	R	26:R	_
+21	the	the	DET	DT	_	26	E	26:E	_
+22	fiercely	fiercely	ADV	RB	_	23	E	23:E	_
+23	protective	protective	ADJ	JJ	_	24	E	24:E	_
+24	loyalty	loyalty	NOUN	NN	_	26	A	26:A	_
+25	he	he	PRON	PRP	_	26	A	26:A	_
+26	displayed	display	VERB	VBD	_	17	C	17:C	_
+27	towards	towards	ADP	IN	_	30	R	30:R	_
+28	his	he	PRON	PRP$	_	30	E	30:E	_
+29	principal	principal	NOUN	NN	_	30	E	30:E	_
+30	client	client	NOUN	NN	_	26	A	26:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

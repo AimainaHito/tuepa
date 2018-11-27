@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 454002
+# text = Jennings reported on the Iranian Revolution and subsequent hostage crisis , the assassination of Sadat , the Falklands war , Israel 's 1982 invasion of Lebanon , and Pope John Paul II 's 1983 visit to Poland .
+1	Jennings	Jenning	PROPN	NNP	_	2	A	2:A	_
+2	reported	report	VERB	VBD	_	0	H	0:H	_
+3	on	on	ADP	IN	_	2	R	2:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	Iranian	iranian	ADJ	JJ	_	6	E	6:E	_
+6	Revolution	revolution	NOUN	NN	_	2	A	2:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	subsequent	subsequent	ADJ	JJ	_	10	D	10:D	_
+9	hostage	hostage	NOUN	NN	_	10	E	10:E	_
+10	crisis	crisis	NOUN	NN	_	6	C	6:C	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	assassination	assassination	NOUN	NN	_	6	C	6:C	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Sadat	Sadat	PROPN	NNP	_	13	A	13:A	_
+16	,	,	PUNCT	,	_	6	U	6:U	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	Falklands	Falklands	NOUN	NNS	_	19	E	19:E	_
+19	war	war	NOUN	NN	_	6	C	6:C	_
+20	,	,	PUNCT	,	_	6	U	6:U	_
+21	Israel	Israel	PROPN	NNP	_	24	A	24:A	_
+22	's	's	PART	POS	_	21	R	21:R	_
+23	1982	1982	NUM	CD	_	24	D	24:D	_
+24	invasion	invasion	NOUN	NN	_	6	C	6:C	_
+25	of	of	ADP	IN	_	26	R	26:R	_
+26	Lebanon	Lebanon	PROPN	NNP	_	24	A	24:A	_
+27	,	,	PUNCT	,	_	6	U	6:U	_
+28	and	and	CCONJ	CC	_	6	N	6:N	_
+29	Pope	Pope	PROPN	NNP	_	35	A	35:A	_
+30	John	John	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	Paul	Paul	PROPN	NNP	_	29	Terminal	29:Terminal	_
+32	II	II	PROPN	NNP	_	29	Terminal	29:Terminal	_
+33	's	's	PART	POS	_	29	R	29:R	_
+34	1983	1983	NUM	CD	_	35	D	35:D	_
+35	visit	visit	NOUN	NN	_	6	C	6:C	_
+36	to	to	ADP	IN	_	37	R	37:R	_
+37	Poland	Poland	PROPN	NNP	_	35	A	35:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

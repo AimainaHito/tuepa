@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 630000
+# text = Lennon was born in war - time England , on 9 October 1940 at Liverpool Maternity Hospital to Julia ( née Stanley ) and Alfred Lennon , a merchant seaman who was away at the time of his son 's birth .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	8	R	8:R	_
+5	war	war	NOUN	NN	_	8	E	8:E	_
+6	-	-	PUNCT	,	_	5	U	5:U	_
+7	time	time	NOUN	NN	_	5	E	5:E	_
+8	England	England	PROPN	NNP	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	on	on	ADP	IN	_	13	R	13:R	_
+11	9	9	NUM	CD	_	13	E	13:E	_
+12	October	October	PROPN	NNP	_	13	E	13:E	_
+13	1940	1940	NUM	CD	_	3	D	3:D	_
+14	at	at	ADP	IN	_	17	R	17:R	_
+15	Liverpool	Liverpool	PROPN	NNP	_	17	E	17:E	_
+16	Maternity	Maternity	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Hospital	Hospital	PROPN	NNP	_	3	A	3:A	_
+18	to	to	ADP	IN	_	19	R	19:R	_
+19	Julia	Julia	PROPN	NNP	_	3	A	3:A	_
+20	(	(	PUNCT	-LRB-	_	19	U	19:U	_
+21	née	née	ADV	RB	_	19	E	19:E	_
+22	Stanley	Stanley	PROPN	NNP	_	21	A	21:A	_
+23	)	)	PUNCT	-RRB-	_	19	U	19:U	_
+24	and	and	CCONJ	CC	_	19	N	19:N	_
+25	Alfred	Alfred	PROPN	NNP	_	19	C	19:C	_
+26	Lennon	Lennon	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	25	U	25:U	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	merchant	merchant	NOUN	NN	_	30	E	30:E	_
+30	seaman	seaman	NOUN	NN	_	25	E	25:E	_
+31	who	who	PRON	WP	_	33	F	33:F	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	away	away	ADV	RB	_	30	E	30:E	_
+34	at	at	ADP	IN	_	36	R	36:R	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	time	time	NOUN	NN	_	33	L	33:L	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	his	he	PRON	PRP$	_	39	E	39:E	_
+39	son	son	NOUN	NN	_	41	A	41:A	_
+40	's	's	PART	POS	_	39	R	39:R	_
+41	birth	birth	NOUN	NN	_	33	H	33:H	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25749012
+# text = Die Fische , die ich unterdessen mit Conseil beobachtete , unterschieden sich wenig von denjenigen , die wir unter anderen Breiten studiert hatten .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fische	Fisch	NOUN	NN	_	11	A	11:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	die	der	PRON	PRELS	_	9	R	9:R	_
+5	ich	ich	PRON	PPER	_	9	A	9:A	_
+6	unterdessen	unterdessen	VERB	VVPP	_	9	D	9:D	_
+7	mit	mit	ADP	APPR	_	8	R	8:R	_
+8	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+9	beobachtete	beobachten	VERB	VVFIN	_	2	E	2:E	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	unterschieden	unterschieden	VERB	VVFIN	_	0	H	0:H	_
+12	sich	er|es|sie	PRON	PRF	_	11	Terminal	11:Terminal	_
+13	wenig	wenig	PRON	PPOSAT	_	11	D	11:D	_
+14	von	von	ADP	NN	_	15	R	15:R	_
+15	denjenigen	derjenige	PRON	PDS	_	11	A	11:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	ART	_	22	R	22:R	_
+18	wir	wir	PRON	NE	_	22	A	22:A	_
+19	unter	unter	ADP	ADJD	_	21	R	21:R	_
+20	anderen	ander	ADJ	ADJA	_	21	E	21:E	_
+21	Breiten	Breite	NOUN	NN	_	22	A	22:A	_
+22	studiert	studieren	VERB	VVPP	_	15	E	15:E	_
+23	hatten	haben	AUX	VAFIN	_	22	F	22:F	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+

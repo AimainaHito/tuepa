@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25502013
+# text = » Nein , mein Herr ; und zugleich ist 's sehr ärmlich gegen das Ihrige . Sie haben da wohl 6- bis 7.000 ... «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	;	;	PUNCT	$.	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	zugleich	zugleich	ADV	NE	_	12	D	12:D	_
+9	ist	sein	AUX	VVFIN	_	12	F	12:F	_
+10	's	es	PRON	PPER	_	12	A	12:A	_
+11	sehr	sehr	ADV	NN	_	12	D	12:D	_
+12	ärmlich	ärmlich	ADJ	ADJD	_	2	H	2:H	_
+13	gegen	gegen	ADP	APPR	_	15	R	15:R	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Ihrige	Ihrige	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	2	U	2:U	_
+17	Sie	Sie|sie	PRON	PPER	_	18	A	18:A	_
+18	haben	haben	VERB	VAFIN	_	2	H	2:H	_
+19	da	da	ADV	ADV	_	18	A	18:A	_
+20	wohl	wohl	ADV	ADV	_	18	D	18:D	_
+21	6-	6-	PUNCT	$(	_	18	A	18:A	_
+22	bis	bis	ADP	APPR	_	21	N	21:N	_
+23	7.000	7.0	NUM	CARD	_	21	C	21:C	_
+24	...	...	PUNCT	$(	_	21	U	21:U	_
+25	«	«	PUNCT	$(	_	21	U	21:U	_
+

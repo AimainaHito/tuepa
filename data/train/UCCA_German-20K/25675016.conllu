@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25675016
+# text = » Nichts , Herr Natur forscher . Sie werden doch mit dabeisein , nicht wahr ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nichts	nichts	PRON	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Herr	Herr	NOUN	NN	_	6	E	6:E	_
+5	Natur	Natur	NOUN	NE	_	6	E	6:E	_
+6	forscher	forsch	ADJ	ADJA	_	2	G	2:G	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+8	Sie	Sie|sie	PRON	PPER	_	12	A	12:A	_
+9	werden	werden	AUX	VVFIN	_	12	F	12:F	_
+10	doch	doch	ADV	ADV	_	12	D	12:D	_
+11	mit	mit	ADP	APPR	_	12	R	12:R	_
+12	dabeisein	dabeisein	PRON	PPOSAT	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	nicht	nicht	PART	CARD	_	15	D	15:D	_
+15	wahr	wahr	ADV	FM	_	2	H	2:H	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

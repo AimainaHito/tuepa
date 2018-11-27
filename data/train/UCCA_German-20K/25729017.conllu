@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25729017
+# text = » Seinem Bankier ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Seinem	sein	DET	PPOSAT	_	3	E	3:E	_
+3	Bankier	Bankier	NOUN	NN	_	0	H	0:H	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	«	«	PUNCT	$(	_	3	U	3:U	_
+

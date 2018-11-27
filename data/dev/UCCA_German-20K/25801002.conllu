@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25801002
+# text = Kein Fisch noch Vogel , so flink sie auch sein mochten , konnten uns begleiten , und die Naturmerkwürdigkeiten dieser Meere entzogen sich aller Beobachtung .
+1	Kein	kein	PRON	PIAT	_	2	N	2:N	_
+2	Fisch	Fisch	NOUN	NN	_	15	A	15:A	_
+3	noch	noch	ADV	VVINF	_	2	N	2:N	_
+4	Vogel	Vogel	NOUN	NE	_	2	C	2:C	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	so	so	ADV	ADV	_	7	D	7:D	_
+7	flink	flink	ADJ	NN	_	2	E	2:E	_
+8	sie	sie	PRON	ADV	_	7	A	7:A	_
+9	auch	auch	ADV	ADV	_	7	F	7:F	_
+10	sein	sein	AUX	VAINF	_	7	F	7:F	_
+11	mochten	mögen	AUX	VVINF	_	7	D	7:D	_
+12	,	,	PUNCT	$,	_	15	U	15:U	_
+13	konnten	können	AUX	VMFIN	_	15	D	15:D	_
+14	uns	wir	PRON	NN	_	15	A	15:A	_
+15	begleiten	begleiten	VERB	VVINF	_	0	H	0:H	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	und	und	CCONJ	NE	_	15	L	15:L	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Naturmerkwürdigkeiten	Naturmerkwürdigkeit	NOUN	NN	_	22	A	22:A	_
+20	dieser	dies	PRON	PDAT	_	21	R	21:R	_
+21	Meere	Meer	NOUN	NE	_	19	E	19:E	_
+22	entzogen	entziehen	VERB	VVPP	_	15	H	15:H	_
+23	sich	er|es|sie	PRON	PRF	_	22	Terminal	22:Terminal	_
+24	aller	alle	PRON	PIAT	_	25	E	25:E	_
+25	Beobachtung	Beobachtung	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 500016
+# text = " Michael Lippman , Bowie 's lawyer during the negotiations , became his new manager ; Lippman in turn was awarded substantial compensation when Bowie fired him the following year .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	Michael	Michael	PROPN	NNP	_	12	A	12:A	_
+3	Lippman	Lippman	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	Bowie	Bowie	PROPN	NNP	_	7	E	7:E	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	lawyer	lawyer	NOUN	NN	_	2	E	2:E	_
+8	during	during	ADP	IN	_	7	L	7:L	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	negotiations	negotiation	NOUN	NNS	_	7	H	7:H	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	became	become	VERB	VBD	_	0	H	0:H	_
+13	his	he	PRON	PRP$	_	15	E	15:E	_
+14	new	new	ADJ	JJ	_	15	E	15:E	_
+15	manager	manager	NOUN	NN	_	12	A	12:A	_
+16	;	;	PUNCT	,	_	12	U	12:U	_
+17	Lippman	Lippman	PROPN	NNP	_	21	A	21:A	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	turn	turn	NOUN	NN	_	21	D	21:D	_
+20	was	be	AUX	VBD	_	21	F	21:F	_
+21	awarded	awarded	VERB	VBN	_	12	H	12:H	_
+22	substantial	substantial	ADJ	JJ	_	23	E	23:E	_
+23	compensation	compensation	NOUN	NN	_	21	A	21:A	_
+24	when	when	ADV	WRB	_	12	L	12:L	_
+25	Bowie	Bowie	PROPN	NNP	_	26	A	26:A	_
+26	fired	fire	VERB	VBD	_	12	H	12:H	_
+27	him	he	PRON	PRP	_	26	A	26:A	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	following	follow	VERB	VBG	_	30	R	30:R	_
+30	year	year	NOUN	NN	_	26	D	26:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

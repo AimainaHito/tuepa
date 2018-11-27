@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25442001
+# text = Er besaß Gewandtheit und Kaltblütigkeit , Kühnheit und List in besonders hohem Grad , und ein Walfisch musste schon recht tückisch , ein Pottfisch besonders listig sein , um seiner Harpune zu entrinnen .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	besaß	besitzen	VERB	VVFIN	_	0	H	0:H	_
+3	Gewandtheit	Gewandtheit	NOUN	NE	_	2	A	2:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	Kaltblütigkeit	Kaltblütigkeit	NOUN	NE	_	3	C	3:C	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	Kühnheit	Kühnheit	NOUN	NE	_	2	A	2:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	List	list	NOUN	NE	_	7	C	7:C	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	besonders	besonders	ADV	ADV	_	12	E	12:E	_
+12	hohem	hoch	ADJ	ADJA	_	13	E	13:E	_
+13	Grad	Grad	NOUN	NN	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	ein	ein	DET	ART	_	17	E	17:E	_
+17	Walfisch	Walfisch	NOUN	NN	_	0	C	0:C|33:A	_
+18	musste	müssen	AUX	VVFIN	_	21	D	21:D	_
+19	schon	schon	ADV	ADV	_	21	F	21:F	_
+20	recht	recht	ADV	NE	_	21	D	21:D	_
+21	tückisch	tückisch	ADJ	NN	_	2	H	2:H	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	ein	ein	DET	ART	_	24	E	24:E	_
+24	Pottfisch	Pottfisch	NOUN	NN	_	0	C	0:C|33:A	_
+25	besonders	besonders	ADV	ADV	_	26	D	26:D	_
+26	listig	listig	ADJ	ADJD	_	2	H	2:H	_
+27	sein	sein	AUX	VAINF	_	26	F	26:F	_
+28	,	,	PUNCT	$,	_	2	U	2:U	_
+29	um	um	ADP	KOUI	_	33	R	33:R	_
+30	seiner	sein	DET	PPOSAT	_	31	R	31:R	_
+31	Harpune	Harpune	NOUN	NN	_	33	A	33:A	_
+32	zu	zu	PART	VVINF	_	33	F	33:F	_
+33	entrinnen	entrinnen	VERB	VVINF	_	2	H	2:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

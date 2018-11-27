@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25799008
+# text = » Ein merkwürdiges Barometer , mein lieber Freund . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ein	ein	DET	ART	_	4	E	4:E	_
+3	merkwürdiges	merkwürdig	ADJ	ADJA	_	0	H	0:H	_
+4	Barometer	Barometer	NOUN	NN	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+7	lieber	lieber	ADP	ADV	_	8	E	8:E	_
+8	Freund	Freund	NOUN	NN	_	3	G	3:G	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

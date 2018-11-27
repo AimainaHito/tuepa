@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25729020
+# text = » Kurz « , sagte er , » es ist noch nicht aller Tage Abend ! nur ein vergeblicher Wurf der Harpune ! Ein andermal wird ' s glücken , und gleich diesen Abend , wenn es sein muß ... «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Kurz	kurz	ADJ	ADJD	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	es	es	PRON	PPER	_	10	A	10:A	_
+10	ist	sein	VERB	VVFIN	_	2	H	2:H	_
+11	noch	noch	ADV	ADV	_	10	D	10:D	_
+12	nicht	nicht	PART	XY	_	10	D	10:D	_
+13	aller	alle	PRON	PIAT	_	10	A	10:A	_
+14	Tage	Tag	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	Abend	Abend	NOUN	NN	_	13	Terminal	13:Terminal	_
+16	!	!	PUNCT	$.	_	2	U	2:U	_
+17	nur	nur	ADV	NE	_	20	D	20:D	_
+18	ein	ein	DET	ART	_	20	E	20:E	_
+19	vergeblicher	vergeblich	ADJ	ADJA	_	20	D	20:D	_
+20	Wurf	Wurf	NOUN	NN	_	2	H	2:H	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	Harpune	Harpune	PROPN	NN	_	20	A	20:A	_
+23	!	!	PUNCT	$.	_	2	U	2:U	_
+24	Ein	ein	PROPN	ART	_	25	E	25:E	_
+25	andermal	andermal	ADV	ADV	_	29	D	29:D	_
+26	wird	werden	AUX	VAFIN	_	29	F	29:F	_
+27	'	'	PUNCT	$(	_	29	U	29:U	_
+28	s	s	ADV	ADJD	_	29	A	29:A	_
+29	glücken	glücken	VERB	NN	_	2	H	2:H	_
+30	,	,	PUNCT	$,	_	2	U	2:U	_
+31	und	und	CCONJ	NE	_	2	L	2:L	_
+32	gleich	gleich	ADV	ADV	_	2	H	2:H	_
+33	diesen	dies	PRON	PDAT	_	34	E	34:E	_
+34	Abend	Abend	NOUN	NN	_	32	D	32:D	_
+35	,	,	PUNCT	$,	_	2	U	2:U	_
+36	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+37	es	es	PRON	PPER	_	38	A	38:A|32:A	_
+38	sein	sein	DET	VAINF	_	0	S	0:S|32:S	_
+39	muß	muß	NOUN	VMFIN	_	38	D	38:D	_
+40	...	...	PUNCT	$(	_	38	U	38:U	_
+41	«	«	PUNCT	$(	_	38	U	38:U	_
+

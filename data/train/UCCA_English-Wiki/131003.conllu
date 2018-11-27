@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 131003
+# text = Many actors were afraid to leave the stability of the studio system at the time , but Hepburn 's personal wealth meant she could afford to be independent .
+1	Many	many	ADJ	JJ	_	2	E	2:E	_
+2	actors	actor	NOUN	NNS	_	4	A	4:A	_
+3	were	be	AUX	VBD	_	4	F	4:F	_
+4	afraid	afraid	ADJ	JJ	_	0	H	0:H	_
+5	to	to	PART	TO	_	6	R	6:R	_
+6	leave	leave	VERB	VB	_	4	A	4:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	stability	stability	NOUN	NN	_	6	A	6:A	_
+9	of	of	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	studio	studio	NOUN	NN	_	12	E	12:E	_
+12	system	system	NOUN	NN	_	8	E	8:E	_
+13	at	at	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	time	time	NOUN	NN	_	4	D	4:D	_
+16	,	,	PUNCT	,	_	4	U	4:U	_
+17	but	but	CCONJ	CC	_	4	L	4:L	_
+18	Hepburn	Hepburn	PROPN	NNP	_	19	A	19:A	_
+19	's	's	PART	POS	_	4	H	4:H	_
+20	personal	personal	ADJ	JJ	_	21	E	21:E	_
+21	wealth	wealth	NOUN	NN	_	19	A	19:A	_
+22	meant	mean	VERB	VBN	_	4	L	4:L	_
+23	she	she	PRON	PRP	_	25	A	25:A|28:A	_
+24	could	could	AUX	MD	_	25	F	25:F	_
+25	afford	afford	VERB	VB	_	4	H	4:H	_
+26	to	to	PART	TO	_	28	F	28:F	_
+27	be	be	AUX	VB	_	28	F	28:F	_
+28	independent	independent	ADJ	JJ	_	25	A	25:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

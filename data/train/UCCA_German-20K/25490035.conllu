@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25490035
+# text = « Ein Seemann konnte darin nicht irren , und ich erzählte dem Kanadier , was während seines Schlafs vorgegangen war .
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	Ein	ein	DET	ART	_	3	E	3:E	_
+3	Seemann	Seemann	NOUN	NN	_	7	A	7:A	_
+4	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+5	darin	darin	ADV	PAV	_	7	A	7:A	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	irren	irren	VERB	NN	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	L	7:L	_
+10	ich	ich	PRON	PPER	_	11	A	11:A	_
+11	erzählte	erzähln	VERB	VVFIN	_	7	H	7:H	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	was	was	PRON	NN	_	19	A	19:A	_
+16	während	während	ADP	NE	_	18	E	18:E	_
+17	seines	sein	DET	PPOSAT	_	18	E	18:E	_
+18	Schlafs	Schlaf	NOUN	NN	_	19	A	19:A	_
+19	vorgegangen	vorgehen	VERB	VVPP	_	11	A	11:A	_
+20	war	sein	AUX	ADV	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

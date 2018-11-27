@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 651004
+# text = He and Ono planned to join the workers ' protest on 14 December .
+1	He	he	PRON	PRP	_	6	A	6:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Ono	Ono	PROPN	NNP	_	1	C	1:C	_
+4	planned	plan	VERB	VBD	_	6	D	6:D	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	join	join	VERB	VB	_	0	H	0:H	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	workers	worker	NOUN	NNS	_	10	E	10:E	_
+9	'	's	PART	POS	_	10	U	10:U	_
+10	protest	protest	NOUN	NN	_	6	A	6:A	_
+11	on	on	ADP	IN	_	13	R	13:R	_
+12	14	14	NUM	CD	_	13	E	13:E	_
+13	December	December	PROPN	NNP	_	6	D	6:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

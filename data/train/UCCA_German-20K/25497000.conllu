@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25497000
+# text = Diese Worte gaben zu erkennen , dass der Kommandant einen Entschluß gefaßt hatte , gegen den kein Argument durchdringen konnte .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Worte	Wort	NOUN	NN	_	5	A	5:A	_
+3	gaben	geben	VERB	VVFIN	_	5	D	5:D	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kommandant	Kommandant	NOUN	NN	_	12	A	12:A	_
+10	einen	ein	DET	ART	_	11	E	11:E	_
+11	Entschluß	Entschluß	NOUN	NN	_	12	A	12:A	_
+12	gefaßt	fassen	VERB	VVPP	_	5	A	5:A	_
+13	hatte	haben	AUX	VAFIN	_	12	F	12:F	_
+14	,	,	PUNCT	$,	_	12	U	12:U	_
+15	gegen	gegen	ADP	APPR	_	16	R	16:R	_
+16	den	der	DET	PRELS	_	19	R	19:R	_
+17	kein	kein	PRON	PIAT	_	18	E	18:E	_
+18	Argument	Argument	NOUN	NN	_	19	A	19:A	_
+19	durchdringen	durchdringen	VERB	NE	_	11	E	11:E	_
+20	konnte	können	AUX	VMFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

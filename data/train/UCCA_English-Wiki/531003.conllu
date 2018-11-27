@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 531003
+# text = " Although she had said as early as 1955 that she would never do a weekly television series , in the early 1960s she was in a financially precarious situation .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Although	although	SCONJ	IN	_	5	L	5:L	_
+3	she	she	PRON	PRP	_	5	A	5:A	_
+4	had	have	AUX	VBD	_	5	F	5:F	_
+5	said	say	VERB	VBN	_	0	H	0:H	_
+6	as	as	ADV	RB	_	9	R	9:R	_
+7	early	early	ADV	RB	_	9	E	9:E	_
+8	as	as	ADP	IN	_	9	R	9:R	_
+9	1955	1955	NUM	CD	_	5	D	5:D	_
+10	that	that	SCONJ	IN	_	14	F	14:F	_
+11	she	she	PRON	PRP	_	14	A	14:A	_
+12	would	would	AUX	MD	_	14	F	14:F	_
+13	never	never	ADV	RB	_	14	D	14:D	_
+14	do	do	VERB	VB	_	5	A	5:A	_
+15	a	a	DET	DT	_	18	E	18:E	_
+16	weekly	weekly	ADJ	JJ	_	18	E	18:E	_
+17	television	television	NOUN	NN	_	18	E	18:E	_
+18	series	series	NOUN	NNS	_	14	A	14:A	_
+19	,	,	PUNCT	,	_	5	U	5:U	_
+20	in	in	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	early	early	ADJ	JJ	_	23	E	23:E	_
+23	1960s	1960	NOUN	NNS	_	25	D	25:D	_
+24	she	she	PRON	PRP	_	25	A	25:A	_
+25	was	be	AUX	VBD	_	5	H	5:H	_
+26	in	in	ADP	IN	_	30	R	30:R	_
+27	a	a	DET	DT	_	30	E	30:E	_
+28	financially	financially	ADV	RB	_	30	E	30:E	_
+29	precarious	precarious	ADJ	JJ	_	30	E	30:E	_
+30	situation	situation	NOUN	NN	_	25	A	25:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

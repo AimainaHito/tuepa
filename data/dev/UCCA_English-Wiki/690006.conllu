@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 690006
+# text = Describing Guthrie 's impact on him , Dylan later wrote : " The songs themselves had the infinite sweep of humanity in them ... [ He ] was the true voice of the American spirit . I said to myself I was going to be Guthrie 's greatest disciple .
+1	Describing	describe	VERB	VBG	_	0	H	0:H	_
+2	Guthrie	Guthrie	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	impact	impact	NOUN	NN	_	1	A	1:A	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	him	he	PRON	PRP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Dylan	Dylan	PROPN	NNP	_	10	A	10:A|1:A	_
+9	later	later	ADV	RB	_	10	D	10:D	_
+10	wrote	write	VERB	VBD	_	1	H	1:H	_
+11	:	:	PUNCT	:	_	10	U	10:U	_
+12	"	"	PUNCT	``	_	10	U	10:U	_
+13	The	the	DET	DT	_	14	E	14:E	_
+14	songs	song	NOUN	NNS	_	16	A	16:A	_
+15	themselves	themselves	PRON	PRP	_	16	D	16:D	_
+16	had	have	VERB	VBD	_	10	A	10:A	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	infinite	infinite	ADJ	JJ	_	19	E	19:E	_
+19	sweep	sweep	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	humanity	humanity	NOUN	NN	_	16	A	16:A	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	them	they	PRON	PRP	_	16	A	16:A	_
+24	...	...	PUNCT	,	_	16	U	16:U	_
+25	[	[	PUNCT	-LRB-	_	16	U	16:U	_
+26	He	he	PRON	PRP	_	28	A	28:A	_
+27	]	]	PUNCT	-RRB-	_	28	U	28:U	_
+28	was	be	AUX	VBD	_	16	H	16:H	_
+29	the	the	DET	DT	_	31	E	31:E	_
+30	true	True	ADJ	JJ	_	31	E	31:E	_
+31	voice	voice	NOUN	NN	_	28	A	28:A	_
+32	of	of	ADP	IN	_	35	R	35:R	_
+33	the	the	DET	DT	_	35	E	35:E	_
+34	American	american	ADJ	JJ	_	35	E	35:E	_
+35	spirit	spirit	NOUN	NN	_	31	E	31:E	_
+36	.	.	PUNCT	.	_	16	U	16:U	_
+37	I	I	PRON	PRP	_	38	A	38:A	_
+38	said	say	VERB	VBD	_	16	H	16:H	_
+39	to	to	ADP	IN	_	40	F	40:F	_
+40	myself	myself	PRON	PRP	_	38	D	38:D	_
+41	I	I	PRON	PRP	_	45	A	45:A	_
+42	was	be	AUX	VBD	_	45	F	45:F	_
+43	going	go	VERB	VBG	_	45	D	45:D	_
+44	to	to	PART	TO	_	45	F	45:F	_
+45	be	be	AUX	VB	_	38	A	38:A	_
+46	Guthrie	Guthrie	PROPN	NNP	_	49	E	49:E	_
+47	's	's	PART	POS	_	46	R	46:R	_
+48	greatest	greatest	ADJ	JJS	_	49	E	49:E	_
+49	disciple	disciple	NOUN	NN	_	45	A	45:A	_
+50	.	.	PUNCT	.	_	49	U	49:U	_
+

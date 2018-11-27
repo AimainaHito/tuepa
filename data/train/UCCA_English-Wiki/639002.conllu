@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 639002
+# text = " Woman Is the Nigger of the World " , released as a US single from the album the same year , was televised on 11 May , on The Dick Cavett Show .
+1	"	"	PUNCT	``	_	24	U	24:U	_
+2	Woman	woman	NOUN	NN	_	11	A	11:A|24:A	_
+3	Is	be	AUX	VBZ	_	2	Terminal	2:Terminal	_
+4	the	the	DET	DT	_	2	Terminal	2:Terminal	_
+5	Nigger	nigger	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	of	of	ADP	IN	_	2	Terminal	2:Terminal	_
+7	the	the	DET	DT	_	2	Terminal	2:Terminal	_
+8	World	world	PROPN	NNP	_	2	Terminal	2:Terminal	_
+9	"	"	PUNCT	''	_	11	U	11:U	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	released	release	VERB	VBD	_	0	H	0:H	_
+12	as	as	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	US	US	PROPN	NNP	_	15	E	15:E	_
+15	single	single	ADJ	JJ	_	11	A	11:A	_
+16	from	from	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	album	album	NOUN	NN	_	15	E	15:E	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	same	same	ADJ	JJ	_	21	E	21:E	_
+21	year	year	NOUN	NN	_	11	D	11:D	_
+22	,	,	PUNCT	,	_	11	U	11:U	_
+23	was	be	AUX	VBD	_	24	F	24:F	_
+24	televised	televise	VERB	VBN	_	11	H	11:H	_
+25	on	on	ADP	IN	_	27	R	27:R	_
+26	11	11	NUM	CD	_	27	E	27:E	_
+27	May	May	PROPN	NNP	_	24	D	24:D	_
+28	,	,	PUNCT	,	_	24	U	24:U	_
+29	on	on	ADP	IN	_	30	R	30:R	_
+30	The	the	DET	DT	_	24	A	24:A	_
+31	Dick	Dick	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Cavett	Cavett	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	Show	show	ADV	RB	_	30	Terminal	30:Terminal	_
+34	.	.	PUNCT	.	_	30	U	30:U	_
+

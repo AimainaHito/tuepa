@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25728014
+# text = » Wußten Sie , Herr Professor « , fragte er mich lächelnd , » daß das Meer solche Schätze birgt ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wußten	wissen	VERB	VVFIN	_	9	A	9:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	Herr	Herr	PROPN	NN	_	6	E	6:E	_
+6	Professor	Professor	PROPN	NN	_	2	G	2:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	er	er	PRON	PPER	_	9	A	9:A|12:A	_
+11	mich	ich	PRON	PPER	_	9	A	9:A	_
+12	lächelnd	lächelnd	ADJ	ADJD	_	9	H	9:H	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	»	»	PUNCT	$(	_	9	U	9:U	_
+15	daß	daß	SCONJ	KOUS	_	20	R	20:R	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Meer	Meer	NOUN	NN	_	20	A	20:A	_
+18	solche	solch	PRON	ADJA	_	19	E	19:E	_
+19	Schätze	Schatz	NOUN	NN	_	20	A	20:A	_
+20	birgt	bergen	VERB	VVPP	_	2	A	2:A	_
+21	?	?	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

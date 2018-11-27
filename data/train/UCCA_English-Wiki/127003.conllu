@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 127003
+# text = " Her third picture confirmed Hepburn as a major actress in Hollywood .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Her	she	PRON	PRP$	_	4	E	4:E	_
+3	third	third	ADJ	JJ	_	4	E	4:E	_
+4	picture	picture	NOUN	NN	_	5	A	5:A	_
+5	confirmed	confirm	VERB	VBD	_	0	H	0:H	_
+6	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A	_
+7	as	as	ADP	IN	_	10	R	10:R	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	major	major	ADJ	JJ	_	10	E	10:E	_
+10	actress	actress	NOUN	NN	_	5	A	5:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	Hollywood	Hollywood	PROPN	NNP	_	10	E	10:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

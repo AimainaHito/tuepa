@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25706007
+# text = Vor Ungeduld , den Tunnel von Kapitän Nemo zu durchfahren , hielt ich ' s innen nicht aus und suchte die frische Nacht luft zu atmen .
+1	Vor	vor	ADP	NE	_	2	R	2:R	_
+2	Ungeduld	Ungeduld	PROPN	NE	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Tunnel	Tunnel	NOUN	NN	_	10	A	10:A	_
+6	von	von	ADP	NE	_	8	R	8:R	_
+7	Kapitän	Kapitän	PROPN	FM	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	5	E	5:E	_
+9	zu	zu	PART	NE	_	10	F	10:F	_
+10	durchfahren	durchfahren	VERB	VVINF	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	hielt	halten	VERB	VVFIN	_	2	H	2:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A|26:A|2:A|10:A|20:A	_
+14	'	'	PUNCT	$,	_	12	U	12:U	_
+15	s	s	ADJ	ADJD	_	12	A	12:A	_
+16	innen	in	NOUN	ADV	_	12	A	12:A	_
+17	nicht	nicht	PART	XY	_	12	D	12:D	_
+18	aus	aus	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+19	und	und	CCONJ	NE	_	2	L	2:L	_
+20	suchte	suchen	VERB	VVFIN	_	2	H	2:H	_
+21	die	der	DET	ART	_	24	E	24:E	_
+22	frische	frische	ADJ	ADJA	_	24	E	24:E	_
+23	Nacht	Nacht	NOUN	NN	_	24	E	24:E	_
+24	luft	lufen	VERB	VVFIN	_	0	C	0:C|26:A	_
+25	zu	zu	PART	VVINF	_	26	F	26:F	_
+26	atmen	atmen	VERB	VVINF	_	2	H	2:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

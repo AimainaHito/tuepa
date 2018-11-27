@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 604010
+# text = He filed suit for the band 's formal dissolution on 31 December 1970 .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	filed	file	VERB	VBD	_	3	D	3:D	_
+3	suit	suit	NOUN	NN	_	0	H	0:H	_
+4	for	for	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	band	band	NOUN	NN	_	9	A	9:A	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	formal	formal	ADJ	JJ	_	9	D	9:D	_
+9	dissolution	dissolution	NOUN	NN	_	3	A	3:A	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	31	31	NUM	CD	_	3	D	3:D	_
+12	December	December	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	1970	1970	NUM	CD	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	.	_	11	U	11:U	_
+

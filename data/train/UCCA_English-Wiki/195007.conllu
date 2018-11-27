@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 195007
+# text = In early October 2005 a pilot script dubbed Studio 7 on the Sunset Strip for a new TV series , written by him and with Tommy Schlamme attached as producer , started circulating around Hollywood and generating interest on the web .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	early	early	ADJ	JJ	_	4	E	4:E	_
+3	October	October	PROPN	NNP	_	4	E	4:E	_
+4	2005	2005	NUM	CD	_	33	D	33:D	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	pilot	pilot	NOUN	NN	_	7	E	7:E	_
+7	script	script	NOUN	NN	_	0	C	0:C|28:A|8:A|38:A|21:A	_
+8	dubbed	dub	VERB	VBD	_	7	E	7:E	_
+9	Studio	studio	ADV	RB	_	8	A	8:A	_
+10	7	7	NUM	CD	_	9	Terminal	9:Terminal	_
+11	on	on	ADP	IN	_	9	Terminal	9:Terminal	_
+12	the	the	DET	DT	_	9	Terminal	9:Terminal	_
+13	Sunset	Sunset	ADJ	JJ	_	9	Terminal	9:Terminal	_
+14	Strip	Strip	PROPN	NNP	_	9	Terminal	9:Terminal	_
+15	for	for	ADP	IN	_	19	R	19:R	_
+16	a	a	DET	DT	_	19	E	19:E	_
+17	new	new	ADJ	JJ	_	19	E	19:E	_
+18	TV	tv	NOUN	NN	_	19	E	19:E	_
+19	series	series	NOUN	NNS	_	7	E	7:E	_
+20	,	,	PUNCT	,	_	7	U	7:U	_
+21	written	write	VERB	VBN	_	7	E	7:E	_
+22	by	by	ADP	IN	_	23	R	23:R	_
+23	him	he	PRON	PRP	_	21	A	21:A	_
+24	and	and	CCONJ	CC	_	21	L	21:L	_
+25	with	with	ADP	IN	_	26	R	26:R	_
+26	Tommy	Tommy	PROPN	NNP	_	28	A	28:A	_
+27	Schlamme	Schlamme	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	attached	attach	VERB	VBN	_	21	H	21:H	_
+29	as	as	ADP	IN	_	30	R	30:R	_
+30	producer	producer	NOUN	NN	_	28	A	28:A	_
+31	,	,	PUNCT	,	_	33	U	33:U	_
+32	started	start	VERB	VBD	_	33	D	33:D	_
+33	circulating	circulat	VERB	VBG	_	0	H	0:H	_
+34	around	around	ADP	IN	_	35	R	35:R	_
+35	Hollywood	Hollywood	PROPN	NNP	_	33	A	33:A	_
+36	and	and	CCONJ	CC	_	33	L	33:L	_
+37	generating	generate	VERB	VBG	_	38	D	38:D	_
+38	interest	interest	NOUN	NN	_	33	H	33:H	_
+39	on	on	ADP	IN	_	41	R	41:R	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	web	web	NOUN	NN	_	38	A	38:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

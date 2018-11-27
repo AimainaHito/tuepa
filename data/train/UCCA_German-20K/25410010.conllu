@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25410010
+# text = Endlich versetzte , in einem Artikel eines sehr gefürchteten satirischen Journals , der beliebteste seiner Redaktoren , bei einem Überblick über das Ganze , dem Ungeheuer einen letzten Streich , und erlegte es inmitten allgemeinen hallenden Gelächters .
+1	Endlich	endlich	ADJ	ADV	_	2	D	2:D	_
+2	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	einem	ein	DET	ART	_	6	E	6:E	_
+6	Artikel	Artikel	NOUN	NN	_	2	A	2:A	_
+7	eines	ein	DET	ART	_	11	R	11:R	_
+8	sehr	sehr	ADV	NN	_	11	E	11:E	_
+9	gefürchteten	gefürchtet	ADJ	ADJA	_	11	E	11:E	_
+10	satirischen	satirischen	ADJ	ADJA	_	11	E	11:E	_
+11	Journals	Journal	NOUN	NN	_	0	C	0:C|14:A	_
+12	,	,	PUNCT	$,	_	14	U	14:U	_
+13	der	der	PRON	PRELS	_	14	E	14:E	_
+14	beliebteste	beliebt	ADJ	ADJA	_	2	A	2:A	_
+15	seiner	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Redaktoren	Redaktor	NOUN	NN	_	14	A	14:A	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	bei	bei	ADP	APPR	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Überblick	Überblick	NOUN	NN	_	2	A	2:A	_
+21	über	über	ADP	VVFIN	_	23	R	23:R	_
+22	das	der	DET	ART	_	23	E	23:E	_
+23	Ganze	Ganze	NOUN	NN	_	20	A	20:A	_
+24	,	,	PUNCT	$,	_	2	U	2:U	_
+25	dem	der	DET	ART	_	26	E	26:E	_
+26	Ungeheuer	Ungeheuer	NOUN	NN	_	2	A	2:A	_
+27	einen	ein	DET	ART	_	2	Terminal	2:Terminal	_
+28	letzten	letzt	ADJ	ADJA	_	2	D	2:D	_
+29	Streich	Streich	NOUN	NN	_	2	Terminal	2:Terminal	_
+30	,	,	PUNCT	$,	_	2	U	2:U	_
+31	und	und	CCONJ	NE	_	2	L	2:L	_
+32	erlegte	erlegen	VERB	VVFIN	_	2	H	2:H	_
+33	es	es	PRON	PPER	_	32	A	32:A	_
+34	inmitten	inmitten	ADP	APPR	_	37	R	37:R	_
+35	allgemeinen	allgemein	ADJ	ADJA	_	36	D	36:D	_
+36	hallenden	hallend	ADJ	ADJA	_	32	A	32:A	_
+37	Gelächters	Gelächter	NOUN	NE	_	36	A	36:A	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

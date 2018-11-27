@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 469010
+# text = During the 1982 - 83 NBA season , Johnson averaged 16.8 points , 10.5 assists , and 8.6 rebounds per game and earned his first All - NBA First Team nomination .
+1	During	during	ADP	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1982	1982	NUM	CD	_	7	D	7:D	_
+4	-	-	SYM	SYM	_	3	U	3:U	_
+5	83	83	NUM	CD	_	3	C	3:C	_
+6	NBA	NBa	PROPN	NNP	_	7	E	7:E	_
+7	season	season	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Johnson	Johnson	PROPN	NNP	_	10	A	10:A|23:A	_
+10	averaged	average	VERB	VBD	_	7	H	7:H	_
+11	16.8	16.8	NUM	CD	_	12	E	12:E	_
+12	points	point	NOUN	NNS	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	10.5	10.5	NUM	CD	_	15	E	15:E	_
+15	assists	assist	NOUN	NNS	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	and	and	CCONJ	CC	_	12	N	12:N	_
+18	8.6	8.6	NUM	CD	_	19	E	19:E	_
+19	rebounds	rebound	NOUN	NNS	_	12	C	12:C	_
+20	per	per	ADP	IN	_	21	R	21:R	_
+21	game	game	NOUN	NN	_	12	E	12:E	_
+22	and	and	CCONJ	CC	_	7	L	7:L	_
+23	earned	earn	VERB	VBD	_	7	H	7:H	_
+24	his	he	PRON	PRP$	_	25	E	25:E	_
+25	first	first	ADJ	JJ	_	31	E	31:E	_
+26	All	all	DET	DT	_	31	E	31:E	_
+27	-	-	PUNCT	HYPH	_	26	U	26:U	_
+28	NBA	NBa	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	First	first	PROPN	NNP	_	26	Terminal	26:Terminal	_
+30	Team	team	NOUN	NN	_	26	Terminal	26:Terminal	_
+31	nomination	nomination	NOUN	NN	_	23	A	23:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

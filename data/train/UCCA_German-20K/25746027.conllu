@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25746027
+# text = Manche Schriftsteller haben gar die Meinung aufgestellt , die zahlreichen Kräuter , womit es bedeckt ist , hätten ihren Ursprung in dem Wiesenland des vormaligen Kontinents .
+1	Manche	manch	PRON	PIAT	_	2	E	2:E	_
+2	Schriftsteller	Schriftsteller	NOUN	NN	_	7	A	7:A	_
+3	haben	haben	VERB	VAFIN	_	7	F	7:F	_
+4	gar	gar	ADV	ADV	_	7	D	7:D	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Meinung	Meinung	NOUN	NN	_	7	A	7:A	_
+7	aufgestellt	aufstellen	ADJ	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	zahlreichen	zahlreich	ADJ	ADJA	_	11	E	11:E	_
+11	Kräuter	Kräuter	NOUN	ADJA	_	20	A	20:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	womit	womit	PRON	VVFIN	_	15	R	15:R	_
+14	es	es	PRON	PPER	_	15	A	15:A	_
+15	bedeckt	bedecken	ADJ	VVPP	_	11	E	11:E	_
+16	ist	sein	AUX	NN	_	15	F	15:F	_
+17	,	,	PUNCT	$,	_	20	U	20:U	_
+18	hätten	haben	AUX	VAFIN	_	20	D	20:D	_
+19	ihren	ihr	DET	PPOSAT	_	20	E	20:E	_
+20	Ursprung	Ursprung	NOUN	NN	_	6	E	6:E	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	dem	der	DET	ART	_	23	E	23:E	_
+23	Wiesenland	Wiesenland	NOUN	NN	_	20	A	20:A	_
+24	des	der	DET	ART	_	26	R	26:R	_
+25	vormaligen	vormalig	ADJ	ADJA	_	26	E	26:E	_
+26	Kontinents	Kontinent	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

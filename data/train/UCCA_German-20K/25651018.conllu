@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25651018
+# text = Den ganzen Tag über war ich von bangen Ahnungen gequält .
+1	Den	der	DET	ART	_	3	E	3:E	_
+2	ganzen	ganz	ADJ	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	über	über	ADP	ADJD	_	3	R	3:R	_
+5	war	sein	AUX	ADV	_	10	F	10:F	_
+6	ich	ich	PRON	PPER	_	10	A	10:A	_
+7	von	von	ADP	NN	_	9	R	9:R	_
+8	bangen	bang	ADJ	NE	_	9	E	9:E	_
+9	Ahnungen	Ahnungen	NOUN	NE	_	10	A	10:A	_
+10	gequält	quälen	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

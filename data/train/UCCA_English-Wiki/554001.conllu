@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 554001
+# text = He had a versatile voice and unusually wide success encompassing many genres , including country , pop ballads , gospel , and blues .
+1	He	he	PRON	PRP	_	5	A	5:A|10:A	_
+2	had	have	VERB	VBD	_	5	F	5:F	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	versatile	versatile	ADJ	JJ	_	5	E	5:E	_
+5	voice	voice	NOUN	NN	_	0	H	0:H	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	unusually	unusually	ADV	RB	_	5	D	5:D	_
+8	wide	wide	ADJ	JJ	_	9	E	9:E	_
+9	success	success	NOUN	NN	_	5	C	5:C	_
+10	encompassing	encompasse	VERB	VBG	_	5	A	5:A	_
+11	many	many	ADJ	JJ	_	12	E	12:E	_
+12	genres	genre	NOUN	NNS	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	including	include	VERB	VBG	_	15	R	15:R	_
+15	country	country	NOUN	NN	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	pop	pop	NOUN	NN	_	18	E	18:E	_
+18	ballads	ballad	NOUN	NNS	_	15	C	15:C	_
+19	,	,	PUNCT	,	_	15	U	15:U	_
+20	gospel	gospel	NOUN	NN	_	15	C	15:C	_
+21	,	,	PUNCT	,	_	15	U	15:U	_
+22	and	and	CCONJ	CC	_	15	N	15:N	_
+23	blues	blue	NOUN	NNS	_	15	C	15:C	_
+24	.	.	PUNCT	.	_	15	U	15:U	_
+

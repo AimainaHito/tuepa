@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 248011
+# text = Hawke called it one of his favorite movies , a " romance for realists " . Before Sunset was nominated for an Academy Award for Best Adapted Screenplay , Hawke 's first screenwriting Oscar nomination .
+1	Hawke	Hawke	PROPN	NNP	_	2	A	2:A	_
+2	called	call	VERB	VBD	_	0	H	0:H	_
+3	it	it	PRON	PRP	_	2	A	2:A	_
+4	one	one	NUM	CD	_	8	E	8:E	_
+5	of	of	ADP	IN	_	8	R	8:R	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	favorite	favorite	ADJ	JJ	_	8	E	8:E	_
+8	movies	movie	NOUN	NNS	_	2	A	2:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	romance	romance	NOUN	NN	_	2	A	2:A	_
+13	for	for	ADP	IN	_	14	R	14:R	_
+14	realists	realist	NOUN	NNS	_	12	A	12:A	_
+15	"	"	PUNCT	''	_	2	U	2:U	_
+16	.	.	PUNCT	.	_	2	U	2:U	_
+17	Before	before	SCONJ	IN	_	20	A	20:A	_
+18	Sunset	Sunset	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	was	be	AUX	VBD	_	20	F	20:F	_
+20	nominated	nominate	VERB	VBN	_	2	H	2:H	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	an	a	DET	DT	_	23	E	23:E	_
+23	Academy	Academy	PROPN	NNP	_	20	A	20:A	_
+24	Award	Award	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	for	for	ADP	IN	_	28	R	28:R	_
+26	Best	Best	PROPN	NNP	_	28	E	28:E	_
+27	Adapted	adapt	PROPN	NNP	_	28	E	28:E	_
+28	Screenplay	Screenplay	PROPN	NNP	_	23	E	23:E	_
+29	,	,	PUNCT	,	_	23	U	23:U	_
+30	Hawke	Hawke	PROPN	NNP	_	35	A	35:A	_
+31	's	's	PART	POS	_	30	R	30:R	_
+32	first	first	ADJ	JJ	_	35	D	35:D	_
+33	screenwriting	screenwriting	NOUN	NN	_	35	D	35:D	_
+34	Oscar	Oscar	NOUN	NN	_	35	E	35:E	_
+35	nomination	nomination	NOUN	NN	_	23	E	23:E	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

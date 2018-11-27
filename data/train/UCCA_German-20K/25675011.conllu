@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25675011
+# text = » Meiner Treu , mein Herr « , sagte Ned Land zu mir , » Ihr Kapitän Nemo - hol ihn der Teufel - hat uns soeben einen sehr annehm-lichen Vorschlag gemacht . «
+1	»	»	PUNCT	$(	_	32	U	32:U	_
+2	Meiner	Meiner	PROPN	PPOSAT	_	3	E	3:E	_
+3	Treu	treu	PROPN	NE	_	32	G	32:G	_
+4	,	,	PUNCT	$,	_	32	U	32:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	NOUN	NN	_	32	G	32:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	Ned	Ned	PROPN	FM	_	9	A	9:A	_
+11	Land	Land	PROPN	FM	_	10	Terminal	10:Terminal	_
+12	zu	zu	PART	NE	_	13	R	13:R	_
+13	mir	ich	PRON	PPER	_	9	A	9:A	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	»	»	PUNCT	$(	_	9	U	9:U	_
+16	Ihr	ihr	PROPN	PPOSAT	_	18	E	18:E	_
+17	Kapitän	Kapitän	PROPN	NN	_	18	E	18:E	_
+18	Nemo	Nemo	PROPN	NE	_	32	A	32:A	_
+19	-	-	PUNCT	$(	_	32	U	32:U	_
+20	hol	hol	X	NE	_	32	H	32:H	_
+21	ihn	er	PRON	PPER	_	20	A	20:A	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Teufel	Teufel	PROPN	NN	_	20	A	20:A	_
+24	-	-	PUNCT	$(	_	32	U	32:U	_
+25	hat	haben	AUX	VAFIN	_	32	F	32:F	_
+26	uns	wir	PRON	NN	_	32	A	32:A	_
+27	soeben	soeben	VERB	VVINF	_	32	D	32:D	_
+28	einen	ein	DET	ART	_	31	E	31:E	_
+29	sehr	sehr	ADV	NE	_	30	D	30:D	_
+30	annehm-lichen	annehm-lich	ADJ	ADJA	_	31	E	31:E	_
+31	Vorschlag	Vorschlag	NOUN	NN	_	32	A	32:A	_
+32	gemacht	machen	VERB	VVPP	_	9	A	9:A	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+34	«	«	PUNCT	$(	_	32	U	32:U	_
+

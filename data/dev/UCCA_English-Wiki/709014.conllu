@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 709014
+# text = The album produced from it , MTV Unplugged , included " John Brown " , an unreleased 1963 song detailing the ravages of both war and jingoism .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	3	A	3:A	_
+3	produced	produce	VERB	VBN	_	10	A	10:A	_
+4	from	from	ADP	IN	_	5	R	5:R	_
+5	it	it	PRON	PRP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	MTV	haMtve	PROPN	NNP	_	3	E	3:E	_
+8	Unplugged	Unplug	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	included	include	VERB	VBD	_	0	H	0:H	_
+11	"	"	PUNCT	``	_	10	U	10:U	_
+12	John	John	PROPN	NNP	_	10	A	10:A	_
+13	Brown	Brown	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	"	"	PUNCT	''	_	12	U	12:U	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	an	a	DET	DT	_	19	E	19:E	_
+17	unreleased	unreleased	ADJ	JJ	_	19	E	19:E	_
+18	1963	1963	NUM	CD	_	19	E	19:E	_
+19	song	song	NOUN	NN	_	20	A	20:A	_
+20	detailing	detaile	VERB	VBG	_	12	E	12:E	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	ravages	ravage	NOUN	NNS	_	20	A	20:A	_
+23	of	of	ADP	IN	_	25	R	25:R	_
+24	both	both	CCONJ	CC	_	25	N	25:N	_
+25	war	war	NOUN	NN	_	22	E	22:E	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	jingoism	jingoism	NOUN	NN	_	25	C	25:C	_
+28	.	.	PUNCT	.	_	25	U	25:U	_
+

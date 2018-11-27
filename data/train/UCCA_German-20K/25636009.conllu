@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25636009
+# text = Aber allmählich wurden sie keck und versuchten sich näher mit ihm bekannt zu machen .
+1	Aber	aber	ADV	KON	_	5	L	5:L	_
+2	allmählich	allmählich	ADJ	ADJD	_	5	D	5:D	_
+3	wurden	werden	AUX	ADJD	_	5	F	5:F	_
+4	sie	sie	PRON	ADV	_	5	A	5:A|8:A	_
+5	keck	keck	ADV	NE	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	versuchten	versuchen	VERB	VVFIN	_	8	D	8:D	_
+8	sich	er|es|sie	PRON	PRF	_	5	H	5:H	_
+9	näher	nah	ADJ	PTKVZ	_	8	D	8:D	_
+10	mit	mit	ADP	APPR	_	11	R	11:R	_
+11	ihm	er	PRON	PPER	_	8	A	8:A	_
+12	bekannt	bekannt	ADJ	ADJD	_	8	Terminal	8:Terminal	_
+13	zu	zu	PART	VVINF	_	8	F	8:F	_
+14	machen	machen	VERB	VVINF	_	8	Terminal	8:Terminal	_
+15	.	.	PUNCT	$.	_	8	U	8:U	_
+

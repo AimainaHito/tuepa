@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 675008
+# text = That same month , Carey announced that she and John Legend collaborated on a duet , " When Christmas Comes " , which was originally part of Carey 's 2010 holiday album Merry Christmas II You .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	month	month	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+6	announced	announce	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	12	F	12:F	_
+8	she	she	PRON	PRP	_	12	A	12:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	John	John	PROPN	NNP	_	8	C	8:C	_
+11	Legend	legend	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	collaborated	collaborate	VERB	VBD	_	6	A	6:A	_
+13	on	on	ADP	IN	_	18	R	18:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	duet	duet	NOUN	NN	_	18	E	18:E	_
+16	,	,	PUNCT	,	_	18	U	18:U	_
+17	"	"	PUNCT	''	_	18	U	18:U	_
+18	When	when	ADV	WRB	_	12	A	12:A	_
+19	Christmas	Christmas	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Comes	comes	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	"	"	PUNCT	''	_	18	U	18:U	_
+22	,	,	PUNCT	,	_	18	U	18:U	_
+23	which	which	PRON	WDT	_	26	F	26:F	_
+24	was	be	AUX	VBD	_	26	F	26:F	_
+25	originally	originally	ADV	RB	_	26	D	26:D	_
+26	part	part	NOUN	NN	_	18	E	18:E	_
+27	of	of	ADP	IN	_	26	R	26:R	_
+28	Carey	Carey	PROPN	NNP	_	33	E	33:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	2010	2010	NUM	CD	_	33	E	33:E	_
+31	holiday	holiday	NOUN	NN	_	32	E	32:E	_
+32	album	album	NOUN	NN	_	33	E	33:E	_
+33	Merry	Merry	PROPN	NNP	_	26	A	26:A	_
+34	Christmas	christmas	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	II	ii	PROPN	NNP	_	33	Terminal	33:Terminal	_
+36	You	you	PROPN	NNP	_	33	Terminal	33:Terminal	_
+37	.	.	PUNCT	.	_	33	U	33:U	_
+

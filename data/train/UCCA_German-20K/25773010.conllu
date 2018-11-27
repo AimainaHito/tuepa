@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25773010
+# text = Der kühne und mächtige Mann konnte der Sonne nicht so gebieten wie dem Meer .
+1	Der	der	DET	ART	_	5	E	5:E	_
+2	kühne	kühne	NOUN	NN	_	5	E	5:E	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	mächtige	mächtig	ADJ	ADJA	_	2	C	2:C	_
+5	Mann	Mann	NOUN	NN	_	0	C	0:C|2:A|14:A	_
+6	konnte	können	AUX	VMFIN	_	11	D	11:D	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Sonne	Sonne	NOUN	NN	_	11	A	11:A	_
+9	nicht	nicht	PART	XY	_	11	D	11:D	_
+10	so	so	ADV	ADV	_	11	D	11:D	_
+11	gebieten	bieten	VERB	VVFIN	_	0	H	0:H	_
+12	wie	wie	ADP	ADV	_	14	R	14:R	_
+13	dem	der	DET	ART	_	14	R	14:R	_
+14	Meer	Meer	NOUN	NN	_	11	H	11:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

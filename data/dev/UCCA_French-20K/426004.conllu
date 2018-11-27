@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 426004
+# text = Tant que je pus nier la réalité du fait , je me renfermai dans une absolue négation .
+1	Tant	tant	ADV	_	_	5	L	5:L	_
+2	que	que	SCONJ	_	_	1	Terminal	1:Terminal	_
+3	je	il	PRON	_	_	5	A	5:A	_
+4	pus	pre	VERB	_	_	5	D	5:D	_
+5	nier	nier	VERB	_	_	0	H	0:H	_
+6	la	le	DET	_	_	7	E	7:E	_
+7	réalité	réalité	NOUN	_	_	5	A	5:A	_
+8	du	devoir	DET	_	_	9	R	9:R	_
+9	fait	faire	NOUN	_	_	7	E	7:E	_
+10	,	,	PUNCT	_	_	5	U	5:U	_
+11	je	il	PRON	_	_	12	A	12:A	_
+12	me	se	PRON	_	_	5	H	5:H	_
+13	renfermai	renferm	VERB	_	_	12	Terminal	12:Terminal	_
+14	dans	dans	ADP	_	_	17	R	17:R	_
+15	une	un	DET	_	_	17	E	17:E	_
+16	absolue	absolu	ADJ	_	_	17	E	17:E	_
+17	négation	négation	NOUN	_	_	12	A	12:A	_
+18	.	.	PUNCT	_	_	17	U	17:U	_
+

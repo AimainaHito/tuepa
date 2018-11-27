@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 701011
+# text = Between March 16 and 19 , 1971 , Dylan reserved three days at Blue Rock Studios , a small studio in New York 's Greenwich Village .
+1	Between	between	PROPN	NNP	_	7	R	7:R	_
+2	March	March	PROPN	NNP	_	7	E	7:E	_
+3	16	16	NUM	CD	_	2	E	2:E	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	19	19	NUM	CD	_	3	C	3:C	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	1971	1971	NUM	CD	_	10	D	10:D	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	Dylan	Dylan	PROPN	NNP	_	10	A	10:A	_
+10	reserved	reserve	VERB	VBD	_	0	H	0:H	_
+11	three	three	NUM	CD	_	12	E	12:E	_
+12	days	day	NOUN	NNS	_	10	A	10:A	_
+13	at	at	ADP	IN	_	16	R	16:R	_
+14	Blue	blue	PROPN	NNP	_	16	E	16:E	_
+15	Rock	rock	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Studios	studios	PROPN	NNPS	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	small	small	ADJ	JJ	_	20	E	20:E	_
+20	studio	studio	NOUN	NN	_	16	E	16:E	_
+21	in	in	ADP	IN	_	25	R	25:R	_
+22	New	New	PROPN	NNP	_	25	E	25:E	_
+23	York	York	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	's	's	PART	POS	_	22	R	22:R	_
+25	Greenwich	Greenwich	PROPN	NNP	_	20	E	20:E	_
+26	Village	Village	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

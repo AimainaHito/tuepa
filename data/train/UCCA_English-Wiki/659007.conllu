@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 659007
+# text = Though introducing her daughter to the world of classical opera , Patricia never pressured Carey to pursue a career in the genre , as she never seemed interested in that world of music .
+1	Though	though	SCONJ	IN	_	2	L	2:L	_
+2	introducing	introduce	VERB	VBG	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	4	E	4:E	_
+4	daughter	daughter	NOUN	NN	_	2	A	2:A	_
+5	to	to	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	world	world	NOUN	NN	_	2	A	2:A	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	classical	classical	ADJ	JJ	_	10	E	10:E	_
+10	opera	opera	NOUN	NN	_	7	E	7:E	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	Patricia	Patricia	PROPN	NNP	_	17	A	17:A|2:A	_
+13	never	never	ADV	RB	_	17	D	17:D	_
+14	pressured	pressure	VERB	VBD	_	17	D	17:D	_
+15	Carey	Carey	PROPN	NNP	_	17	A	17:A	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	pursue	pursue	VERB	VB	_	2	H	2:H	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	career	career	NOUN	NN	_	17	A	17:A	_
+20	in	in	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	genre	genre	NOUN	NN	_	19	E	19:E	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	as	as	SCONJ	IN	_	2	L	2:L	_
+25	she	she	PRON	PRP	_	28	A	28:A	_
+26	never	never	ADV	RB	_	28	D	28:D	_
+27	seemed	seem	VERB	VBD	_	28	G	28:G	_
+28	interested	interested	ADJ	JJ	_	2	H	2:H	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	that	that	DET	DT	_	31	E	31:E	_
+31	world	world	NOUN	NN	_	28	A	28:A	_
+32	of	of	ADP	IN	_	33	R	33:R	_
+33	music	music	NOUN	NN	_	31	E	31:E	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

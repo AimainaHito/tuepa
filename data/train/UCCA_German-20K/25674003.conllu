@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25674003
+# text = » Beiläufig , Herr Arronax , Sie fürchten sich doch nicht vor den Haifischen ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Beiläufig	Beiläufig	ADJ	NN	_	8	D	8:D	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	Herr	Herr	NOUN	NN	_	5	E	5:E	_
+5	Arronax	Arronax	PROPN	NE	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+8	fürchten	fürchen	VERB	VVFIN	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	doch	doch	ADV	ADV	_	8	D	8:D	_
+11	nicht	nicht	PART	CARD	_	8	D	8:D	_
+12	vor	vor	ADP	NN	_	14	R	14:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Haifischen	Haifischen	NOUN	NE	_	8	A	8:A	_
+15	?	?	PUNCT	$.	_	14	U	14:U	_
+16	«	«	PUNCT	$(	_	14	U	14:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 249005
+# text = The same year Hawke directed his second feature , The Hottest State , based on his eponymous 1996 novel .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	5	D	5:D	_
+4	Hawke	Hawke	PROPN	NNP	_	5	A	5:A	_
+5	directed	direct	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	second	second	ADJ	JJ	_	8	E	8:E	_
+8	feature	feature	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	The	the	DET	DT	_	8	E	8:E|14:A	_
+11	Hottest	Hottest	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	State	state	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	based	base	VERB	VBN	_	8	E	8:E	_
+15	on	on	ADP	IN	_	19	R	19:R	_
+16	his	he	PRON	PRP$	_	19	E	19:E	_
+17	eponymous	eponymous	ADJ	JJ	_	19	E	19:E	_
+18	1996	1996	NUM	CD	_	19	E	19:E	_
+19	novel	novel	NOUN	NN	_	14	A	14:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 232013
+# text = He has stars on the Hollywood Walk of Fame and the Hong Kong Avenue of Stars .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	has	have	VERB	VBZ	_	0	H	0:H	_
+3	stars	star	NOUN	NNS	_	2	A	2:A	_
+4	on	on	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	Hollywood	Hollywood	NOUN	NN	_	7	E	7:E	_
+7	Walk	Walk	NOUN	NNS	_	2	A	2:A	_
+8	of	of	ADP	IN	_	7	Terminal	7:Terminal	_
+9	Fame	fame	NOUN	NN	_	7	Terminal	7:Terminal	_
+10	and	and	CCONJ	CC	_	7	N	7:N	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	Hong	Hong	PROPN	NNP	_	14	E	14:E	_
+13	Kong	Kong	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Avenue	Avenue	PROPN	NNP	_	7	C	7:C	_
+15	of	of	ADP	IN	_	14	Terminal	14:Terminal	_
+16	Stars	stars	NOUN	NNS	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25804015
+# text = Man zog sie dann samt den Schildkröten an Bord .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	zog	ziehen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	dann	dann	ADV	ADV	_	2	D	2:D	_
+5	samt	samt	ADP	APPR	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Schildkröten	Schildkröte	NOUN	NN	_	2	A	2:A	_
+8	an	an	ADP	APPR	_	9	R	9:R	_
+9	Bord	Bord	NOUN	NN	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

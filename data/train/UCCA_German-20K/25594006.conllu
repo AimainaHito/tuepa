@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25594006
+# text = Ich gewöhnte mich bald an diese sonderbare Neigung zum Senkrechten , wie an das verhältnismäßige Dunkel um uns her .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|16:A	_
+2	gewöhnte	gewöhnen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	bald	bald	ADV	ADV	_	2	D	2:D	_
+5	an	an	ADP	APPR	_	8	R	8:R	_
+6	diese	dies	PRON	PDAT	_	8	E	8:E	_
+7	sonderbare	sonderbar	ADJ	ADJA	_	8	E	8:E	_
+8	Neigung	Neigung	NOUN	NN	_	2	A	2:A	_
+9	zum	zum	ADP	NN	_	10	R	10:R	_
+10	Senkrechten	Senkrecht	NOUN	NE	_	8	E	8:E	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	wie	wie	ADP	KON	_	2	L	2:L	_
+13	an	an	ADP	APPR	_	16	R	16:R	_
+14	das	der	DET	ART	_	16	E	16:E	_
+15	verhältnismäßige	verhältnismäßig	ADJ	ADJA	_	16	E	16:E	_
+16	Dunkel	dunkel	NOUN	NN	_	2	H	2:H	_
+17	um	um	ADP	APPR	_	18	R	18:R	_
+18	uns	wir	PRON	NE	_	16	A	16:A	_
+19	her	her	ADV	PTKVZ	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

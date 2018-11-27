@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 644002
+# text = " During the recording of " Baby , You 're a Rich Man " , he sang altered choruses of " Baby , you 're a rich fag Jew " .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	During	during	ADP	IN	_	4	L	4:L	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	recording	recording	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	"	"	PUNCT	``	_	7	U	7:U	_
+7	Baby	baby	PROPN	NNP	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	You	you	PRON	PRP	_	7	Terminal	7:Terminal	_
+10	're	be	AUX	VBP	_	7	Terminal	7:Terminal	_
+11	a	a	DET	DT	_	7	Terminal	7:Terminal	_
+12	Rich	Rich	PROPN	NNP	_	7	Terminal	7:Terminal	_
+13	Man	man	PROPN	NNP	_	7	Terminal	7:Terminal	_
+14	"	"	PUNCT	''	_	4	U	4:U	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	sang	sang	VERB	VBD	_	4	H	4:H	_
+18	altered	alter	VERB	VBN	_	19	E	19:E	_
+19	choruses	choruse	NOUN	NNS	_	17	A	17:A	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	"	"	PUNCT	``	_	22	U	22:U	_
+22	Baby	baby	PROPN	NNP	_	19	E	19:E	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	you	you	PRON	PRP	_	22	Terminal	22:Terminal	_
+25	're	be	AUX	VBP	_	22	Terminal	22:Terminal	_
+26	a	a	DET	DT	_	22	Terminal	22:Terminal	_
+27	rich	rich	ADJ	JJ	_	22	Terminal	22:Terminal	_
+28	fag	fag	NOUN	NN	_	22	Terminal	22:Terminal	_
+29	Jew	Jew	PROPN	NNP	_	22	Terminal	22:Terminal	_
+30	"	"	PUNCT	''	_	22	U	22:U	_
+31	.	.	PUNCT	.	_	22	U	22:U	_
+

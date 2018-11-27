@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 611005
+# text = A New York Times review of the first concert reported that McCartney was " not saying goodbye but touring stadiums and playing marathon concerts .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	New	New	PROPN	NNP	_	5	A	5:A	_
+3	York	York	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Times	Times	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	review	review	NOUN	NN	_	10	A	10:A	_
+6	of	of	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	first	first	ADJ	JJ	_	9	E	9:E	_
+9	concert	concert	NOUN	NN	_	5	A	5:A	_
+10	reported	report	VERB	VBD	_	0	H	0:H	_
+11	that	that	SCONJ	IN	_	16	R	16:R	_
+12	McCartney	McCartney	PROPN	NNP	_	16	A	16:A|19:A|22:A	_
+13	was	be	AUX	VBD	_	16	F	16:F	_
+14	"	"	PUNCT	``	_	16	U	16:U	_
+15	not	not	PART	RB	_	16	D	16:D	_
+16	saying	say	VERB	VBG	_	10	A	10:A	_
+17	goodbye	goodbye	NOUN	NN	_	16	A	16:A	_
+18	but	but	CCONJ	CC	_	16	L	16:L	_
+19	touring	tour	NOUN	NN	_	16	H	16:H	_
+20	stadiums	stadium	NOUN	NNS	_	19	A	19:A	_
+21	and	and	CCONJ	CC	_	16	L	16:L	_
+22	playing	play	VERB	VBG	_	16	H	16:H	_
+23	marathon	marathon	NOUN	NN	_	24	E	24:E	_
+24	concerts	concert	NOUN	NNS	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

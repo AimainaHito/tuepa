@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 529008
+# text = Garland engaged Sid Luft as her manager the same year she divorced Minnelli .
+1	Garland	Garland	PROPN	NNP	_	2	A	2:A	_
+2	engaged	engage	VERB	VBD	_	0	H	0:H	_
+3	Sid	Sid	PROPN	NNP	_	2	A	2:A	_
+4	Luft	Luft	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	as	as	ADP	IN	_	7	R	7:R	_
+6	her	she	PRON	PRP$	_	7	E	7:E	_
+7	manager	manager	NOUN	NN	_	2	A	2:A	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	same	same	ADJ	JJ	_	10	E	10:E	_
+10	year	year	NOUN	NN	_	2	L	2:L	_
+11	she	she	PRON	PRP	_	12	A	12:A	_
+12	divorced	divorce	VERB	VBD	_	2	H	2:H	_
+13	Minnelli	Minnelli	PROPN	NNP	_	12	A	12:A	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25490086
+# text = « » Ich versprech 's Ihnen , Herr Professor « , erwiderte Ned Land in einem Ton , der wenig beruhigen konnte . Kein ungestümes Wort soll aus meinem Mund kommen , keine brutale Bewegung soll mich verraten , wenn auch die Tafel nicht immer nach Wunsch versehen werden sollte .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Ich	ich	PRON	PPER	_	4	A	4:A	_
+4	versprech	versprech	ADJ	ADJD	_	12	A	12:A	_
+5	's	es	PART	ART	_	4	A	4:A	_
+6	Ihnen	Sie|sie	PRON	VVINF	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	Herr	Herr	PROPN	NN	_	9	E	9:E	_
+9	Professor	Professor	PROPN	NN	_	4	G	4:G	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	Ned	Ned	PROPN	NE	_	12	A	12:A	_
+14	Land	Land	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	einem	ein	DET	ART	_	17	E	17:E	_
+17	Ton	Ton	NOUN	NN	_	12	A	12:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	der	der	PRON	ART	_	21	R	21:R	_
+20	wenig	wenig	ADV	NN	_	21	D	21:D	_
+21	beruhigen	beruhigen	VERB	VVINF	_	17	E	17:E	_
+22	konnte	können	AUX	VMFIN	_	21	D	21:D	_
+23	.	.	PUNCT	$.	_	12	U	12:U	_
+24	Kein	kein	NOUN	PIAT	_	31	D	31:D	_
+25	ungestümes	ungestümes	ADP	ADJA	_	26	E	26:E	_
+26	Wort	Wort	NOUN	NN	_	31	A	31:A	_
+27	soll	sollen	AUX	ADJD	_	31	D	31:D	_
+28	aus	aus	ADP	APPR	_	30	R	30:R	_
+29	meinem	mein	DET	PPOSAT	_	30	E	30:E	_
+30	Mund	Mund	NOUN	NN	_	31	A	31:A	_
+31	kommen	kommen	VERB	VVINF	_	4	H	4:H	_
+32	,	,	PUNCT	$,	_	4	U	4:U	_
+33	keine	kein	PRON	PIAT	_	38	D	38:D	_
+34	brutale	brutal	ADJ	ADJA	_	35	E	35:E	_
+35	Bewegung	Bewegung	NOUN	NN	_	38	A	38:A	_
+36	soll	sollen	AUX	ADJD	_	38	D	38:D	_
+37	mich	ich	PRON	PPER	_	38	A	38:A	_
+38	verraten	verraten	VERB	VVINF	_	4	H	4:H	_
+39	,	,	PUNCT	$,	_	4	U	4:U	_
+40	wenn	wenn	SCONJ	VVFIN	_	4	L	4:L	_
+41	auch	auch	ADV	ADV	_	40	Terminal	40:Terminal	_
+42	die	der	DET	ART	_	43	E	43:E	_
+43	Tafel	Tafel	NOUN	NN	_	48	A	48:A	_
+44	nicht	nicht	PART	CARD	_	48	D	48:D	_
+45	immer	immer	ADV	ADV	_	48	D	48:D	_
+46	nach	nach	ADP	CARD	_	47	R	47:R	_
+47	Wunsch	Wunsch	NOUN	NN	_	48	A	48:A	_
+48	versehen	versehen	VERB	VVPP	_	4	H	4:H	_
+49	werden	werden	AUX	VVFIN	_	48	F	48:F	_
+50	sollte	sollen	AUX	VMFIN	_	48	D	48:D	_
+51	.	.	PUNCT	$.	_	48	U	48:U	_
+

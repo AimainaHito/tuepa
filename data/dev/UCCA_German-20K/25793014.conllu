@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25793014
+# text = Aber er schien sie ab zu weisen .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	er	er	PRON	PPER	_	5	A	5:A	_
+3	schien	scheinen	VERB	VVFIN	_	5	G	5:G	_
+4	sie	sie	PRON	ADV	_	5	A	5:A	_
+5	ab	ab	ADP	PTKVZ	_	0	H	0:H	_
+6	zu	zu	PART	NE	_	5	F	5:F	_
+7	weisen	weisen	VERB	VVINF	_	5	Terminal	5:Terminal	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

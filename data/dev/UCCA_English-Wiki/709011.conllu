@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 709011
+# text = Many critics and fans commented on the quiet beauty of the song " Lone Pilgrim " , penned by a 19th century teacher and sung by Dylan with a haunting reverence .
+1	Many	many	ADJ	JJ	_	2	E	2:E	_
+2	critics	critic	NOUN	NNS	_	5	A	5:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	fans	fan	NOUN	NNS	_	2	C	2:C	_
+5	commented	comment	VERB	VBN	_	0	H	0:H	_
+6	on	on	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	quiet	quiet	ADJ	JJ	_	9	E	9:E	_
+9	beauty	beauty	NOUN	NN	_	5	A	5:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	song	song	NOUN	NN	_	9	E	9:E	_
+13	"	"	PUNCT	``	_	12	U	12:U	_
+14	Lone	Lone	PROPN	NNP	_	12	E	12:E|25:A|18:A	_
+15	Pilgrim	Pilgrim	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	"	"	PUNCT	''	_	18	U	18:U	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	penned	pen	VERB	VBN	_	9	E	9:E	_
+19	by	by	ADP	IN	_	23	R	23:R	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	19th	19th	ADJ	JJ	_	22	E	22:E	_
+22	century	century	NOUN	NN	_	23	E	23:E	_
+23	teacher	teacher	NOUN	NN	_	18	A	18:A	_
+24	and	and	CCONJ	CC	_	18	L	18:L	_
+25	sung	sung	VERB	VBN	_	18	H	18:H	_
+26	by	by	ADP	IN	_	27	R	27:R	_
+27	Dylan	Dylan	PROPN	NNP	_	25	A	25:A	_
+28	with	with	ADP	IN	_	31	R	31:R	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	haunting	haunting	NOUN	NN	_	31	E	31:E	_
+31	reverence	reverence	NOUN	NN	_	25	A	25:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

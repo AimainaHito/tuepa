@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 525002
+# text = She was deeply devoted to him and was devastated in early 1940 when he eloped with Lana Turner .
+1	She	she	PRON	PRP	_	4	A	4:A|9:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	deeply	deeply	ADV	RB	_	4	D	4:D	_
+4	devoted	devote	ADJ	JJ	_	0	H	0:H	_
+5	to	to	ADP	IN	_	6	R	6:R	_
+6	him	he	PRON	PRP	_	4	A	4:A	_
+7	and	and	CCONJ	CC	_	4	L	4:L	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	devastated	devastate	VERB	VBN	_	4	H	4:H	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	early	early	ADJ	JJ	_	12	E	12:E	_
+12	1940	1940	NUM	CD	_	9	D	9:D	_
+13	when	when	ADV	WRB	_	4	L	4:L	_
+14	he	he	PRON	PRP	_	15	A	15:A	_
+15	eloped	elope	VERB	VBD	_	4	H	4:H	_
+16	with	with	ADP	IN	_	17	R	17:R	_
+17	Lana	Lana	PROPN	NNP	_	15	A	15:A	_
+18	Turner	Turner	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

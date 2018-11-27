@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 523004
+# text = Her rendition was so well regarded that she performed the song in the all - star extravaganza Broadway Melody of 1938 ( 1937 ) , singing to a photograph of him .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	rendition	rendition	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	so	so	ADV	RB	_	5	E	5:E	_
+5	well	well	ADV	RB	_	6	D	6:D	_
+6	regarded	regard	VERB	VBN	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	9	F	9:F	_
+8	she	she	PRON	PRP	_	9	A	9:A|26:A	_
+9	performed	perform	VERB	VBD	_	6	A	6:A	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	song	song	NOUN	NN	_	9	A	9:A	_
+12	in	in	ADP	IN	_	19	R	19:R	_
+13	the	the	DET	DT	_	19	E	19:E	_
+14	all	all	DET	DT	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	star	star	NOUN	NN	_	19	E	19:E	_
+17	extravaganza	extravaganza	NOUN	NN	_	19	E	19:E	_
+18	Broadway	Broadway	PROPN	NNP	_	19	E	19:E	_
+19	Melody	Melody	PROPN	NNP	_	9	A	9:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	1938	1938	NUM	CD	_	19	E	19:E	_
+22	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+23	1937	1937	NUM	CD	_	9	D	9:D	_
+24	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+25	,	,	PUNCT	,	_	6	U	6:U	_
+26	singing	singe	VERB	VBG	_	6	H	6:H	_
+27	to	to	ADP	IN	_	29	R	29:R	_
+28	a	a	DET	DT	_	29	E	29:E	_
+29	photograph	photograph	NOUN	NN	_	26	A	26:A	_
+30	of	of	ADP	IN	_	31	R	31:R	_
+31	him	he	PRON	PRP	_	29	E	29:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

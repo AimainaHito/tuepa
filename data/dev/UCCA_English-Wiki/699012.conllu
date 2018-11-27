@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 699012
+# text = Dylan confirmed this interpretation of the crash when he stated in his autobiography , " I had been in a motorcycle accident and I 'd been hurt , but I recovered . Truth was that I wanted to get out of the rat race .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A	_
+2	confirmed	confirm	VERB	VBD	_	0	H	0:H	_
+3	this	this	DET	DT	_	4	A	4:A	_
+4	interpretation	interpretation	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	crash	crash	NOUN	NN	_	4	A	4:A	_
+8	when	when	ADV	WRB	_	2	L	2:L	_
+9	he	he	PRON	PRP	_	10	A	10:A	_
+10	stated	state	VERB	VBD	_	2	H	2:H	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	autobiography	autobiography	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	"	"	PUNCT	''	_	10	U	10:U	_
+16	I	I	PRON	PRP	_	18	A	18:A	_
+17	had	have	AUX	VBD	_	18	F	18:F	_
+18	been	be	AUX	VBN	_	10	A	10:A	_
+19	in	in	ADP	IN	_	22	R	22:R	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	motorcycle	motorcycle	NOUN	NN	_	22	E	22:E	_
+22	accident	accident	NOUN	NN	_	18	A	18:A	_
+23	and	and	CCONJ	CC	_	18	L	18:L	_
+24	I	I	PRON	PRP	_	27	A	27:A	_
+25	'd	have	AUX	VBD	_	27	F	27:F	_
+26	been	be	AUX	VBN	_	27	F	27:F	_
+27	hurt	hurt	VERB	VBN	_	18	H	18:H	_
+28	,	,	PUNCT	,	_	18	U	18:U	_
+29	but	but	CCONJ	CC	_	18	L	18:L	_
+30	I	I	PRON	PRP	_	31	A	31:A	_
+31	recovered	recover	VERB	VBD	_	18	H	18:H	_
+32	.	.	PUNCT	.	_	18	U	18:U	_
+33	Truth	Truth	NOUN	NN	_	34	A	34:A	_
+34	was	be	VERB	VBD	_	18	H	18:H	_
+35	that	that	SCONJ	IN	_	39	F	39:F	_
+36	I	I	PRON	PRP	_	39	A	39:A	_
+37	wanted	want	VERB	VBD	_	39	D	39:D	_
+38	to	to	PART	TO	_	39	F	39:F	_
+39	get	get	VERB	VB	_	34	A	34:A	_
+40	out	out	ADP	IN	_	39	Terminal	39:Terminal	_
+41	of	of	ADP	IN	_	44	R	44:R	_
+42	the	the	DET	DT	_	44	E	44:E	_
+43	rat	rat	NOUN	NN	_	44	E	44:E	_
+44	race	race	NOUN	NN	_	39	A	39:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

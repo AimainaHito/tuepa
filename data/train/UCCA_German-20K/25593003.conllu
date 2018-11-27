@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25593003
+# text = Wir gingen im regelmäßigen Schritt , der erstaunlich stark auf dem Boden widerhallte .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	gingen	gehen	VERB	VVFIN	_	0	H	0:H	_
+3	im	im	ADV	NE	_	5	R	5:R	_
+4	regelmäßigen	regelmäßig	ADJ	ADJA	_	5	E	5:E	_
+5	Schritt	Schritt	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	der	der	DET	PRELS	_	13	R	13:R	_
+8	erstaunlich	erstaunlich	ADJ	ADJD	_	9	E	9:E	_
+9	stark	stark	ADJ	NN	_	13	D	13:D	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Boden	Boden	NOUN	NN	_	13	A	13:A	_
+13	widerhallte	widerhallen	VERB	VMFIN	_	5	E	5:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

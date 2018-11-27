@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25655012
+# text = » Hier ist unser Friedhof , einige hundert Fuß unter dem Meeresspiegel ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Hier	hier	ADV	ADV	_	0	H	0:H	_
+3	ist	sein	AUX	NN	_	2	F	2:F	_
+4	unser	unser	PRON	NE	_	5	E	5:E	_
+5	Friedhof	Friedhof	NOUN	NE	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	einige	einige	PRON	PIAT	_	8	E	8:E	_
+8	hundert	hundert	NUM	VVFIN	_	9	E	9:E	_
+9	Fuß	Fuß	NOUN	NN	_	10	A	10:A	_
+10	unter	unter	ADP	ADJA	_	2	A	2:A	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Meeresspiegel	Meeresspiegel	NOUN	NN	_	10	A	10:A	_
+13	!	!	PUNCT	$.	_	12	U	12:U	_
+14	«	«	PUNCT	$(	_	12	U	12:U	_
+

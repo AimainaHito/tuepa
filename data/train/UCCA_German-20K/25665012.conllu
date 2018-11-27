@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25665012
+# text = Er weiß , dass ein Entrinnen unmöglich ist .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	7	R	7:R	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Entrinnen	entrinnen	NOUN	NN	_	7	A	7:A	_
+7	unmöglich	unmöglich	ADJ	ADJD	_	2	A	2:A	_
+8	ist	sein	AUX	NN	_	7	F	7:F	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

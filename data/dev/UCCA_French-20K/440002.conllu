@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 440002
+# text = La solution qu' il proposait , d' ailleurs , laissait libre carrière à l' imagination .
+1	La	le	DET	_	_	2	E	2:E	_
+2	solution	solution	NOUN	_	_	11	A	11:A	_
+3	qu'	que	PRON	_	_	5	R	5:R	_
+4	il	il	PRON	_	_	5	A	5:A	_
+5	proposait	proposer	VERB	_	_	2	E	2:E	_
+6	,	,	PUNCT	_	_	11	U	11:U	_
+7	d'	de	ADP	_	_	8	R	8:R	_
+8	ailleurs	ailleurs	ADV	_	_	11	L	11:L	_
+9	,	,	PUNCT	_	_	11	U	11:U	_
+10	laissait	laisser	VERB	_	_	11	D	11:D	_
+11	libre	libre	ADJ	_	_	0	H	0:H	_
+12	carrière	carrière	NOUN	_	_	11	A	11:A	_
+13	à	à	ADP	_	_	15	R	15:R	_
+14	l'	le	DET	_	_	15	E	15:E	_
+15	imagination	imagination	NOUN	_	_	12	A	12:A	_
+16	.	.	PUNCT	_	_	15	U	15:U	_
+

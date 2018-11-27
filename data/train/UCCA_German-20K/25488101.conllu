@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25488101
+# text = Die letzten Worte des Kanadiers bewirkten in meinem Kopf eine plötzliche Wandlung .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	letzten	letzt	ADJ	ADJA	_	3	E	3:E	_
+3	Worte	Wort	NOUN	NN	_	6	A	6:A	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Kanadiers	Kanadier	NOUN	NN	_	3	E	3:E	_
+6	bewirkten	bewirken	VERB	VVFIN	_	0	H	0:H	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	meinem	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Kopf	Kopf	NOUN	NN	_	6	A	6:A	_
+10	eine	ein	DET	ART	_	12	E	12:E	_
+11	plötzliche	plötzlich	ADJ	ADJA	_	12	E	12:E	_
+12	Wandlung	Wandlung	NOUN	NN	_	6	A	6:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

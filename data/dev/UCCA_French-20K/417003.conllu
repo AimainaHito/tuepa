@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 417003
+# text = Dans l' impossibilité de me former une opinion , je flottais d' un extrême à l' autre .
+1	Dans	dans	ADP	_	_	3	R	3:R	_
+2	l'	le	DET	_	_	3	E	3:E	_
+3	impossibilité	impossibilité	NOUN	_	_	0	H	0:H	_
+4	de	de	ADP	_	_	5	R	5:R	_
+5	me	se	PRON	_	_	3	A	3:A	_
+6	former	former	VERB	_	_	5	Terminal	5:Terminal	_
+7	une	un	DET	_	_	8	E	8:E	_
+8	opinion	opinion	NOUN	_	_	5	A	5:A	_
+9	,	,	PUNCT	_	_	5	U	5:U	_
+10	je	il	PRON	_	_	11	A	11:A|5:A|3:A	_
+11	flottais	flotter	VERB	_	_	3	H	3:H	_
+12	d'	de	ADP	_	_	14	R	14:R	_
+13	un	un	DET	_	_	14	E	14:E	_
+14	extrême	extrême	NOUN	_	_	11	A	11:A	_
+15	à	à	ADP	_	_	14	R	14:R	_
+16	l'	le	DET	_	_	14	C	14:C	_
+17	autre	autre	PRON	_	_	16	E	16:E	_
+18	.	.	PUNCT	_	_	16	U	16:U	_
+

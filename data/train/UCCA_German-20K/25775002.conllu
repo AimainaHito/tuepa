@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25775002
+# text = » Mein Herr weiß wohl « , erwiderte Conseil , » daß ich im Praktischen nicht sehr bewandert bin . Wenn ich ihre Namen weiß ... «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	4	A	4:A	_
+4	weiß	wissen	VERB	VVFIN	_	8	A	8:A	_
+5	wohl	wohl	ADV	ADV	_	4	D	4:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+9	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	daß	daß	SCONJ	KOUS	_	18	R	18:R	_
+13	ich	ich	PRON	PPER	_	18	A	18:A	_
+14	im	im	ADV	NE	_	15	R	15:R	_
+15	Praktischen	praktischen	NOUN	ADJA	_	18	A	18:A	_
+16	nicht	nicht	PART	XY	_	18	D	18:D	_
+17	sehr	sehr	ADV	NE	_	18	D	18:D	_
+18	bewandert	bewandert	ADJ	ADJD	_	4	A	4:A	_
+19	bin	sein	AUX	VAFIN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	4	U	4:U	_
+21	Wenn	wenn	SCONJ	KOUS	_	4	L	4:L	_
+22	ich	ich	PRON	PPER	_	25	A	25:A	_
+23	ihre	ihr	DET	PPOSAT	_	24	E	24:E	_
+24	Namen	Name	NOUN	NN	_	25	A	25:A	_
+25	weiß	wissen	VERB	VVFIN	_	4	H	4:H	_
+26	...	...	PUNCT	$(	_	25	U	25:U	_
+27	«	«	PUNCT	$(	_	25	U	25:U	_
+

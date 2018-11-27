@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25507002
+# text = Ich trat ins Zimmer des Kapitäns .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+3	ins	in	DET	NE	_	4	R	4:R	_
+4	Zimmer	Zimmer	NOUN	NN	_	2	A	2:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Kapitäns	Kapitän	NOUN	NN	_	4	E	4:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

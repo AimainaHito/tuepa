@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25710002
+# text = » Aber was erwarten Sie dann ? « fragte der Kanadier .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+3	was	was	PRON	NE	_	4	A	4:A	_
+4	erwarten	erwarten	VERB	VVFIN	_	9	A	9:A	_
+5	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	dann	dann	ADV	ADV	_	4	D	4:D	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

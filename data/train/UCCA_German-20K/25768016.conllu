@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25768016
+# text = Der Kanadier aber zuckte gewaltig die Achseln .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	4	A	4:A	_
+3	aber	aber	ADV	ADV	_	4	L	4:L	_
+4	zuckte	zucken	VERB	VVFIN	_	0	H	0:H	_
+5	gewaltig	gewaltig	ADJ	ADJD	_	4	D	4:D	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Achseln	Achsel	NOUN	NN	_	4	A	4:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

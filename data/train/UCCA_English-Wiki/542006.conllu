@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 542006
+# text = During his frequent arguments with Warner , Cagney often resorted to screaming the Yiddish obscenities he learned during his upbringing in the Hell 's Kitchen district of New York City .
+1	During	during	ADP	IN	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	4	A	4:A	_
+3	frequent	frequent	ADJ	JJ	_	4	D	4:D	_
+4	arguments	argument	NOUN	NNS	_	0	H	0:H	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Warner	Warner	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	Cagney	Cagney	PROPN	NNP	_	12	A	12:A	_
+9	often	often	ADV	RB	_	12	D	12:D	_
+10	resorted	resort	VERB	VBD	_	12	D	12:D	_
+11	to	to	SCONJ	IN	_	12	F	12:F	_
+12	screaming	scream	VERB	VBG	_	4	H	4:H	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	Yiddish	Yiddish	ADJ	JJ	_	15	E	15:E	_
+15	obscenities	obscenity	NOUN	NNS	_	12	A	12:A	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	learned	learn	VERB	VBD	_	15	E	15:E	_
+18	during	during	ADP	IN	_	17	L	17:L	_
+19	his	he	PRON	PRP$	_	20	A	20:A	_
+20	upbringing	upbringe	NOUN	NN	_	17	H	17:H	_
+21	in	in	ADP	IN	_	26	R	26:R	_
+22	the	the	DET	DT	_	26	E	26:E	_
+23	Hell	Hell	PROPN	NNP	_	26	E	26:E	_
+24	's	's	PART	POS	_	23	Terminal	23:Terminal	_
+25	Kitchen	Kitchen	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	district	district	NOUN	NN	_	20	A	20:A	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	New	New	PROPN	NNP	_	26	E	26:E	_
+29	York	York	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	City	City	PROPN	NNP	_	28	Terminal	28:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

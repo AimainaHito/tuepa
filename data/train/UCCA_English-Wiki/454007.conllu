@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 454007
+# text = In 1983 , Reynolds fell ill with multiple myeloma , a type of leukemia / lymphoma that often attacks the bones , and was forced to stop anchoring in April .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1983	1983	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Reynolds	Reynolds	PROPN	NNPS	_	6	A	6:A|28:A	_
+5	fell	fall	VERB	VBD	_	6	D	6:D	_
+6	ill	ill	ADJ	JJ	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	multiple	multiple	ADJ	JJ	_	9	E	9:E	_
+9	myeloma	myeloma	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	type	type	NOUN	NN	_	14	E	14:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	leukemia	leukemia	NOUN	NN	_	9	E	9:E	_
+15	/	/	PUNCT	,	_	14	U	14:U	_
+16	lymphoma	lymphoma	NOUN	NN	_	14	C	14:C	_
+17	that	that	PRON	WDT	_	19	F	19:F	_
+18	often	often	ADV	RB	_	19	D	19:D	_
+19	attacks	attack	VERB	VBZ	_	14	E	14:E	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	bones	bone	NOUN	NNS	_	19	A	19:A	_
+22	,	,	PUNCT	,	_	6	U	6:U	_
+23	and	and	CCONJ	CC	_	6	L	6:L	_
+24	was	be	AUX	VBD	_	28	F	28:F	_
+25	forced	force	VERB	VBN	_	28	D	28:D	_
+26	to	to	PART	TO	_	28	F	28:F	_
+27	stop	stop	VERB	VB	_	28	D	28:D	_
+28	anchoring	anchor	VERB	VBG	_	6	H	6:H	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	April	April	PROPN	NNP	_	28	D	28:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

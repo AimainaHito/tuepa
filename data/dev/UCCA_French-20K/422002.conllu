@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 422002
+# text = Du moins , je l' espère .
+1	Du	Du	VERB	_	_	6	L	6:L	_
+2	moins	moins	ADV	_	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	_	_	6	U	6:U	_
+4	je	il	PRON	_	_	6	A	6:A	_
+5	l'	le	DET	_	_	6	A	6:A	_
+6	espère	espérer	NOUN	_	_	0	H	0:H	_
+7	.	.	PUNCT	_	_	6	U	6:U	_
+

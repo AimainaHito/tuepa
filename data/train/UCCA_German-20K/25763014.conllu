@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25763014
+# text = » Darauf möchte ich nicht schwören « , erwiderte ich .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Darauf	darauf	ADV	PAV	_	6	A	6:A	_
+3	möchte	mögen	AUX	VVFIN	_	6	D	6:D	_
+4	ich	ich	PRON	PPER	_	6	A	6:A	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	schwören	schwören	VERB	VVINF	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

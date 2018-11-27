@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 591004
+# text = Also in 2011 , Hugo , directed by Martin Scorsese , was released .
+1	Also	also	ADV	RB	_	13	D	13:D	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	2011	2011	NUM	CD	_	13	D	13:D	_
+4	,	,	PUNCT	,	_	13	U	13:U	_
+5	Hugo	Hugo	PROPN	NNP	_	13	A	13:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	directed	direct	VERB	VBN	_	5	E	5:E	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	Martin	Martin	PROPN	NNP	_	7	A	7:A	_
+10	Scorsese	Scorsese	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	released	release	VERB	VBN	_	0	H	0:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

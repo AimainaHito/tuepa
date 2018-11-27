@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25665009
+# text = Sein furchtbares Fahrzeug diente nicht allein seinem Freiheits bedürfnis , sondern vielleicht auch der Absicht gewisser fürchterlicher Repressalien .
+1	Sein	sein	DET	PPOSAT	_	3	E	3:E	_
+2	furchtbares	furchtbar	ADJ	ADJA	_	3	E	3:E	_
+3	Fahrzeug	Fahrzeug	NOUN	NN	_	0	C	0:C|18:A	_
+4	diente	dienen	VERB	VVFIN	_	0	H	0:H	_
+5	nicht	nicht	PART	XY	_	6	E	6:E	_
+6	allein	allein	ADJ	ADV	_	4	D	4:D	_
+7	seinem	sein	DET	PPOSAT	_	9	E	9:E	_
+8	Freiheits	Freiheit	PROPN	NN	_	9	E	9:E	_
+9	bedürfnis	bedürfnis	PROPN	NE	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	sondern	sondern	CCONJ	NN	_	4	L	4:L	_
+12	vielleicht	vielleicht	ADV	NE	_	18	D	18:D	_
+13	auch	auch	ADV	ADV	_	18	D	18:D	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Absicht	Absicht	NOUN	NN	_	18	A	18:A	_
+16	gewisser	gewiß	ADJ	ADJA	_	18	D	18:D	_
+17	fürchterlicher	fürchterlicher	NOUN	ADJA	_	18	D	18:D	_
+18	Repressalien	Repressalien	PROPN	NN	_	4	H	4:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

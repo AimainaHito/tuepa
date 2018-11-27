@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25673001
+# text = » Immer noch « , erwiderte Kapitän Nemo , » obwohl diese Fischereien dem gewerb verständigsten Volk der Welt angehören , den Engländern , denen sie im Vertrag zu Amiens , 1802 , abgetreten worden sind . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Immer	immer	NOUN	ADV	_	6	A	6:A	_
+3	noch	noch	ADV	VVINF	_	2	Terminal	2:Terminal	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	obwohl	obwohl	SCONJ	ADV	_	2	L	2:L	_
+12	diese	dies	PRON	PDS	_	13	E	13:E	_
+13	Fischereien	Fischereien	NOUN	NN	_	20	A	20:A	_
+14	dem	der	DET	ART	_	17	E	17:E	_
+15	gewerb	gewerb	ADJ	NN	_	16	E	16:E	_
+16	verständigsten	verständig	ADJ	NN	_	17	E	17:E	_
+17	Volk	Volk	NOUN	NN	_	20	A	20:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	Welt	Welt	NOUN	NN	_	17	E	17:E	_
+20	angehören	angehören	VERB	VVFIN	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Engländern	Engländer	NOUN	NN	_	17	C	17:C	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	denen	der	PRON	PRELS	_	34	R	34:R	_
+26	sie	sie	PRON	ADV	_	34	A	34:A	_
+27	im	im	ADJ	NN	_	28	R	28:R	_
+28	Vertrag	Vertrag	NOUN	NN	_	34	A	34:A	_
+29	zu	zu	ADP	NN	_	28	R	28:R	_
+30	Amiens	Amien	PROPN	NE	_	28	E	28:E	_
+31	,	,	PUNCT	$,	_	28	U	28:U	_
+32	1802	1802	NUM	CARD	_	28	E	28:E	_
+33	,	,	PUNCT	$,	_	34	U	34:U	_
+34	abgetreten	abtreten	VERB	VVPP	_	23	E	23:E	_
+35	worden	werden	AUX	ADV	_	34	F	34:F	_
+36	sind	sein	AUX	NN	_	34	F	34:F	_
+37	.	.	PUNCT	$.	_	34	U	34:U	_
+38	«	«	PUNCT	$(	_	34	U	34:U	_
+

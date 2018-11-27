@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25770010
+# text = Mir klopfte das Herz .
+1	Mir	ich	PROPN	PPER	_	2	A	2:A	_
+2	klopfte	klopfen	VERB	VVFIN	_	0	H	0:H	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Herz	Herz	NOUN	NN	_	2	A	2:A	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

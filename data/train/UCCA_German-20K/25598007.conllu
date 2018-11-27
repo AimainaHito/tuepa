@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25598007
+# text = Getroffen sank das Tier herab , dass der gewandte Jäger es greifen konnte und mit sich nahm .
+1	Getroffen	troffen	ADJ	VVPP	_	2	D	2:D	_
+2	sank	sinken	VERB	VVFIN	_	0	H	0:H	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Tier	Tier	NOUN	NN	_	2	A	2:A	_
+5	herab	herab	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+8	der	der	DET	ART	_	10	E	10:E	_
+9	gewandte	gewandt	ADJ	ADJA	_	10	E	10:E	_
+10	Jäger	Jäger	PROPN	NE	_	0	C	0:C|17:A	_
+11	es	es	PRON	PPER	_	12	A	12:A	_
+12	greifen	greifen	VERB	VVINF	_	2	H	2:H	_
+13	konnte	können	AUX	VMFIN	_	12	D	12:D	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	mit	mit	ADP	APPR	_	16	R	16:R	_
+16	sich	er|es|sie	PRON	PRF	_	17	A	17:A	_
+17	nahm	nehmen	VERB	VVFIN	_	2	H	2:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25770020
+# text = Am Abend war noch keine Änderung unserer Lage eingetreten .
+1	Am	am	PROPN	ADJD	_	2	R	2:R	_
+2	Abend	Abend	NOUN	ADV	_	9	D	9:D	_
+3	war	sein	AUX	ADV	_	9	F	9:F	_
+4	noch	noch	ADV	VVINF	_	9	D	9:D	_
+5	keine	kein	PRON	PIAT	_	9	D	9:D	_
+6	Änderung	Änderung	NOUN	NN	_	9	A	9:A	_
+7	unserer	unser	PRON	PPOSAT	_	8	R	8:R	_
+8	Lage	Lage	NOUN	NN	_	6	A	6:A	_
+9	eingetreten	eingetren	VERB	VVINF	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

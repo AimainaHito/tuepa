@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 225014
+# text = The film was Chan 's biggest domestic box office success up to that point , grossing over HK$35 million .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A|16:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	Chan	Chan	PROPN	NNP	_	10	E	10:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	biggest	biggest	ADJ	JJS	_	10	E	10:E	_
+7	domestic	domestic	ADJ	JJ	_	9	E	9:E	_
+8	box	box	NOUN	NN	_	9	E	9:E	_
+9	office	office	NOUN	NN	_	10	E	10:E	_
+10	success	success	NOUN	NN	_	3	A	3:A	_
+11	up	up	ADV	RB	_	14	R	14:R	_
+12	to	to	ADP	IN	_	11	Terminal	11:Terminal	_
+13	that	that	DET	DT	_	14	E	14:E	_
+14	point	point	NOUN	NN	_	3	D	3:D	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	grossing	grosse	VERB	VBG	_	3	H	3:H	_
+17	over	over	ADV	RB	_	18	R	18:R	_
+18	HK$35	HK$35	NUM	CD	_	16	A	16:A	_
+19	million	million	NUM	CD	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

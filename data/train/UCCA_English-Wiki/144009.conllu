@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 144009
+# text = In 1994 she worked opposite Anthony Quinn in This Ca n't Be Love , which was largely based on Hepburn 's own life , with numerous references to her personality and career .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1994	1994	NUM	CD	_	4	D	4:D	_
+3	she	she	PRON	PRP	_	4	A	4:A	_
+4	worked	work	VERB	VBD	_	0	H	0:H	_
+5	opposite	opposite	ADP	IN	_	6	R	6:R	_
+6	Anthony	Anthony	PROPN	NNP	_	4	A	4:A	_
+7	Quinn	Quinn	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	This	this	DET	DT	_	4	A	4:A	_
+10	Ca	can	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	n't	not	PART	RB	_	9	Terminal	9:Terminal	_
+12	Be	be	AUX	VB	_	9	Terminal	9:Terminal	_
+13	Love	Love	PROPN	NNP	_	9	Terminal	9:Terminal	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	which	which	PRON	WDT	_	18	F	18:F	_
+16	was	be	AUX	VBD	_	18	F	18:F	_
+17	largely	largely	ADV	RB	_	18	D	18:D	_
+18	based	base	VERB	VBN	_	9	E	9:E	_
+19	on	on	ADP	IN	_	23	R	23:R	_
+20	Hepburn	Hepburn	PROPN	NNP	_	23	A	23:A	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	own	own	ADJ	JJ	_	23	E	23:E	_
+23	life	life	NOUN	NN	_	18	A	18:A	_
+24	,	,	PUNCT	,	_	18	U	18:U	_
+25	with	with	ADP	IN	_	18	L	18:L	_
+26	numerous	numerous	ADJ	JJ	_	27	E	27:E	_
+27	references	reference	NOUN	NNS	_	18	H	18:H	_
+28	to	to	ADP	IN	_	30	R	30:R	_
+29	her	she	PRON	PRP$	_	30	E	30:E	_
+30	personality	personality	NOUN	NN	_	27	A	27:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	career	career	NOUN	NN	_	30	C	30:C	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

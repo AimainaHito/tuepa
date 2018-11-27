@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25781025
+# text = Wir hatten diesen unzugänglichen Punkt ohne Beschwerden und Gefahr erreicht , als wenn unser schwimmender Waggon über die Schienen einer Eisenbahn glitt .
+1	Wir	wir	PRON	NE	_	10	A	10:A	_
+2	hatten	haben	VERB	VAFIN	_	10	F	10:F	_
+3	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+4	unzugänglichen	unzugänglichen	ADJ	ADJA	_	5	E	5:E	_
+5	Punkt	Punkt	NOUN	NN	_	10	A	10:A	_
+6	ohne	ohne	ADP	NE	_	10	D	10:D	_
+7	Beschwerden	Beschwerde	NOUN	NN	_	10	A	10:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Gefahr	Gefahr	NOUN	NN	_	7	C	7:C	_
+10	erreicht	erreichen	VERB	VVPP	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	als	als	CCONJ	KOUS	_	10	L	10:L	_
+13	wenn	wenn	SCONJ	VVFIN	_	12	Terminal	12:Terminal	_
+14	unser	unser	PRON	FM	_	16	E	16:E	_
+15	schwimmender	schwimmend	ADJ	ADV	_	16	E	16:E	_
+16	Waggon	Waggon	NOUN	NN	_	22	A	22:A	_
+17	über	über	ADP	VVFIN	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Schienen	Schiene	NOUN	NN	_	22	A	22:A	_
+20	einer	ein	DET	ART	_	21	R	21:R	_
+21	Eisenbahn	Eisenbahn	NOUN	NN	_	19	E	19:E	_
+22	glitt	gleiden	VERB	VVFIN	_	10	H	10:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

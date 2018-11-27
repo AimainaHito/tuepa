@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 552004
+# text = Finally , on August 13 , 1978 , Warner was admitted to Cedars - Sinai Hospital , where he died of a heart inflammation ( edema ) on September 9 .
+1	Finally	finally	ADV	RB	_	11	L	11:L	_
+2	,	,	PUNCT	,	_	11	U	11:U	_
+3	on	on	ADP	IN	_	7	R	7:R	_
+4	August	August	PROPN	NNP	_	7	E	7:E	_
+5	13	13	NUM	CD	_	7	E	7:E	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	1978	1978	NUM	CD	_	11	D	11:D	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	Warner	Warner	PROPN	NNP	_	11	A	11:A	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	admitted	admit	VERB	VBN	_	0	H	0:H	_
+12	to	to	ADP	IN	_	16	R	16:R	_
+13	Cedars	Cedars	PROPN	NNP	_	16	E	16:E	_
+14	-	-	PUNCT	HYPH	_	13	U	13:U	_
+15	Sinai	Sinai	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Hospital	Hospital	PROPN	NNP	_	11	A	11:A	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	where	where	ADV	WRB	_	11	L	11:L	_
+19	he	he	PRON	PRP	_	20	A	20:A	_
+20	died	die	VERB	VBD	_	11	H	11:H	_
+21	of	of	ADP	IN	_	24	R	24:R	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	heart	heart	NOUN	NN	_	24	E	24:E	_
+24	inflammation	inflammation	NOUN	NN	_	20	A	20:A	_
+25	(	(	PUNCT	-LRB-	_	24	U	24:U	_
+26	edema	edema	NOUN	NN	_	24	E	24:E	_
+27	)	)	PUNCT	-RRB-	_	20	U	20:U	_
+28	on	on	ADP	IN	_	30	R	30:R	_
+29	September	September	PROPN	NNP	_	30	E	30:E	_
+30	9	9	NUM	CD	_	20	D	20:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

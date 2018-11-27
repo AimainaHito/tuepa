@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 590005
+# text = Producer Scott Rudin once said , " Basically Johnny Depp is playing Tim Burton in all his movies , " although Burton personally disapproved of the comment .
+1	Producer	producer	NOUN	NN	_	2	E	2:E	_
+2	Scott	Scott	PROPN	NNP	_	5	A	5:A	_
+3	Rudin	Rudin	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	once	once	ADV	RB	_	5	D	5:D	_
+5	said	say	VERB	VBD	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	"	"	PUNCT	``	_	5	U	5:U	_
+8	Basically	basically	ADV	RB	_	12	D	12:D	_
+9	Johnny	Johnny	PROPN	NNP	_	12	A	12:A	_
+10	Depp	Depp	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	is	be	AUX	VBZ	_	12	F	12:F	_
+12	playing	play	VERB	VBG	_	5	A	5:A	_
+13	Tim	Tim	PROPN	NNP	_	12	A	12:A	_
+14	Burton	Burton	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	IN	_	18	R	18:R	_
+16	all	all	DET	DT	_	18	E	18:E	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	movies	movie	NOUN	NNS	_	12	A	12:A	_
+19	,	,	PUNCT	,	_	5	U	5:U	_
+20	"	"	PUNCT	''	_	5	U	5:U	_
+21	although	although	SCONJ	IN	_	5	L	5:L	_
+22	Burton	Burton	PROPN	NNP	_	24	A	24:A	_
+23	personally	personally	ADV	RB	_	24	D	24:D	_
+24	disapproved	disapprove	VERB	VBD	_	5	H	5:H	_
+25	of	of	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	comment	comment	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

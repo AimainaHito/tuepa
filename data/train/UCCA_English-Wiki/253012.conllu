@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 253012
+# text = Hawke is a relative of Tennessee Williams : Williams was his great - uncle on his father 's side .
+1	Hawke	Hawke	PROPN	NNP	_	2	A	2:A	_
+2	is	be	AUX	VBZ	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	relative	relative	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	Tennessee	Tennessee	PROPN	NNP	_	4	E	4:E	_
+7	Williams	Williams	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	:	:	PUNCT	:	_	2	U	2:U	_
+9	Williams	Williams	PROPN	NNP	_	10	A	10:A	_
+10	was	be	AUX	VBD	_	2	H	2:H	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	great	great	ADJ	JJ	_	10	A	10:A	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	uncle	uncle	NOUN	NN	_	12	Terminal	12:Terminal	_
+15	on	on	ADP	IN	_	19	R	19:R	_
+16	his	he	PRON	PRP$	_	19	E	19:E	_
+17	father	father	NOUN	NN	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	side	side	NOUN	NN	_	12	E	12:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

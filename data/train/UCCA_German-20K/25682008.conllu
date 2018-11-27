@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25682008
+# text = Während der Kapitän diese Äußerung machte , wendete ich mich um nach Conseil und Ned Land .
+1	Während	während	ADP	KOUS	_	6	L	6:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Kapitän	Kapitän	NOUN	NN	_	6	A	6:A	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Äußerung	Äußerung	NOUN	NN	_	6	A	6:A	_
+6	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	wendete	wenden	VERB	VVFIN	_	6	H	6:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	mich	ich	PRON	PRF	_	8	Terminal	8:Terminal	_
+11	um	um	ADP	APPR	_	8	Terminal	8:Terminal	_
+12	nach	nach	ADP	CARD	_	13	R	13:R	_
+13	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	Ned	Ned	PROPN	NE	_	13	C	13:C	_
+16	Land	Land	PROPN	NN	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	$.	_	13	U	13:U	_
+

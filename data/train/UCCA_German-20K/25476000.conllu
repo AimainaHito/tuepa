@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25476000
+# text = Man blieb bis zum Tag in steter Erwartung zum Kampf gerüstet .
+1	Man	man	PRON	PIS	_	11	A	11:A|8:A	_
+2	blieb	bleiben	AUX	VVFIN	_	11	D	11:D	_
+3	bis	bis	ADP	APPR	_	5	R	5:R	_
+4	zum	zum	ADP	NN	_	5	E	5:E	_
+5	Tag	Tag	NOUN	NN	_	11	D	11:D	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	steter	steter	ADJ	ADJA	_	8	E	8:E	_
+8	Erwartung	Erwartung	NOUN	NN	_	11	A	11:A	_
+9	zum	zum	ADP	NN	_	10	R	10:R	_
+10	Kampf	Kampf	NOUN	NE	_	11	A	11:A	_
+11	gerüstet	rüsten	VERB	VVPP	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

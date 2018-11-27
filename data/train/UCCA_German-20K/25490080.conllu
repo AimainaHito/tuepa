@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25490080
+# text = « » Aber nachdem man Kerkermeister , Schließer und Hüter hinausgeworfen « , fügte Ned Land hinzu .
+1	«	«	PUNCT	$(	_	14	U	14:U	_
+2	»	»	PUNCT	$(	_	14	U	14:U	_
+3	Aber	aber	CCONJ	KON	_	11	L	11:L	_
+4	nachdem	nachdem	SCONJ	NE	_	11	L	11:L	_
+5	man	man	PRON	PIS	_	11	A	11:A	_
+6	Kerkermeister	Kerkermeister	NOUN	NN	_	11	A	11:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Schließer	Schließer	NOUN	NE	_	6	C	6:C	_
+9	und	und	CCONJ	NE	_	6	N	6:N	_
+10	Hüter	Hüter	NOUN	NN	_	6	C	6:C	_
+11	hinausgeworfen	hinausgeworfen	VERB	VVPP	_	14	A	14:A	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	fügte	fügen	VERB	VVFIN	_	0	H	0:H	_
+15	Ned	Ned	PROPN	NE	_	14	A	14:A	_
+16	Land	Land	NOUN	NE	_	15	Terminal	15:Terminal	_
+17	hinzu	hinzu	ADV	PTKVZ	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	$.	_	14	U	14:U	_
+

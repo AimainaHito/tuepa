@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 148014
+# text = With Tracy determined to conceal the relationship with Hepburn from his wife , it had to remain private .
+1	With	with	SCONJ	IN	_	3	L	3:L	_
+2	Tracy	Tracy	PROPN	NNP	_	3	A	3:A|7:A|5:A	_
+3	determined	determine	VERB	VBD	_	0	H	0:H	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	conceal	conceal	VERB	VB	_	3	A	3:A	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	relationship	relationship	NOUN	NN	_	5	A	5:A	_
+8	with	with	ADP	IN	_	9	R	9:R	_
+9	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A	_
+10	from	from	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	wife	wife	NOUN	NN	_	5	A	5:A	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	it	it	PRON	PRP	_	17	A	17:A	_
+15	had	have	VERB	VBD	_	17	F	17:F	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	remain	remain	VERB	VB	_	3	H	3:H	_
+18	private	private	ADJ	JJ	_	17	A	17:A	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

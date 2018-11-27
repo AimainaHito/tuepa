@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 228003
+# text = The film is expected to be the third in the Armour of God series , and has a working title of Armour of God III : Chinese Zodiac .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A|17:A|6:A	_
+3	is	be	AUX	VBZ	_	4	F	4:F	_
+4	expected	expect	VERB	VBN	_	0	H	0:H	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	be	be	AUX	VB	_	4	A	4:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	third	third	ADJ	JJ	_	14	E	14:E	_
+9	in	in	ADP	IN	_	8	F	8:F	_
+10	the	the	DET	DT	_	14	E	14:E	_
+11	Armour	armour	NOUN	NN	_	14	E	14:E	_
+12	of	of	ADP	IN	_	11	Terminal	11:Terminal	_
+13	God	God	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	series	series	NOUN	NNS	_	6	A	6:A	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	and	and	CCONJ	CC	_	4	L	4:L	_
+17	has	have	VERB	VBZ	_	4	H	4:H	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	working	working	VERB	VBG	_	20	E	20:E	_
+20	title	title	NOUN	NN	_	17	A	17:A	_
+21	of	of	ADP	IN	_	22	F	22:F	_
+22	Armour	armour	PROPN	NNP	_	20	E	20:E	_
+23	of	of	ADP	IN	_	22	Terminal	22:Terminal	_
+24	God	God	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	III	iii	PROPN	NNP	_	22	Terminal	22:Terminal	_
+26	:	:	PUNCT	:	_	22	U	22:U	_
+27	Chinese	chinese	ADJ	JJ	_	22	Terminal	22:Terminal	_
+28	Zodiac	Zodiac	PROPN	NNP	_	22	Terminal	22:Terminal	_
+29	.	.	PUNCT	.	_	22	U	22:U	_
+

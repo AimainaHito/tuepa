@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 701008
+# text = In October 1970 , Dylan released New Morning , which some considered a return to form .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	October	October	PROPN	NNP	_	3	E	3:E	_
+3	1970	1970	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+6	released	release	VERB	VBD	_	0	H	0:H	_
+7	New	New	PROPN	NNP	_	6	A	6:A	_
+8	Morning	Morning	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	which	which	PRON	WDT	_	6	L	6:L	_
+11	some	some	DET	DT	_	12	A	12:A	_
+12	considered	consider	VERB	VBD	_	6	H	6:H	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	return	return	NOUN	NN	_	12	A	12:A	_
+15	to	to	ADP	IN	_	16	R	16:R	_
+16	form	form	NOUN	NN	_	14	A	14:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

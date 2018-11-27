@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25669001
+# text = » Ah ! Herr , kann man ' s nicht ohne seine Erlaubnis tun ? «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Ah	Ah	PROPN	NN	_	14	F	14:F	_
+3	!	!	PUNCT	$.	_	14	U	14:U	_
+4	Herr	Herr	PROPN	NN	_	14	G	14:G	_
+5	,	,	PUNCT	$,	_	14	U	14:U	_
+6	kann	können	AUX	VMFIN	_	14	D	14:D	_
+7	man	man	PRON	PIS	_	14	A	14:A	_
+8	'	'	PUNCT	$,	_	14	U	14:U	_
+9	s	s	NOUN	NN	_	14	A	14:A	_
+10	nicht	nicht	PART	CARD	_	14	D	14:D	_
+11	ohne	ohne	ADP	NN	_	14	D	14:D	_
+12	seine	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Erlaubnis	Erlaubnis	NOUN	NN	_	14	A	14:A	_
+14	tun	tun	VERB	VVFIN	_	0	H	0:H	_
+15	?	?	PUNCT	$.	_	14	U	14:U	_
+16	«	«	PUNCT	$(	_	14	U	14:U	_
+

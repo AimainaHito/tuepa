@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 632006
+# text = Once at the college , he started wearing Teddy Boy clothes and acquired a reputation for disrupting classes and ridiculing teachers .
+1	Once	once	SCONJ	IN	_	4	L	4:L	_
+2	at	at	ADP	IN	_	4	F	4:F	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	college	college	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	he	he	PRON	PRP	_	8	A	8:A|13:A|20:A|17:A|4:A	_
+7	started	start	VERB	VBD	_	8	D	8:D	_
+8	wearing	wear	VERB	VBG	_	4	H	4:H	_
+9	Teddy	Teddy	PROPN	NNP	_	11	E	11:E	_
+10	Boy	Boy	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	clothes	clothes	NOUN	NNS	_	8	A	8:A	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	acquired	acquire	VERB	VBD	_	4	H	4:H	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	reputation	reputation	NOUN	NN	_	13	A	13:A	_
+16	for	for	SCONJ	IN	_	17	R	17:R	_
+17	disrupting	disrupte	VERB	VBG	_	15	E	15:E	_
+18	classes	class	NOUN	NNS	_	17	A	17:A	_
+19	and	and	CCONJ	CC	_	17	N	17:N	_
+20	ridiculing	ridiculing	NOUN	NN	_	17	C	17:C	_
+21	teachers	teacher	NOUN	NNS	_	20	A	20:A	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

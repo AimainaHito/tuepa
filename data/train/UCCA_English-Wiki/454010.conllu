@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 454010
+# text = On July 20 , 1983 , Reynolds died unexpectedly after developing acute hepatitis .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	8	D	8:D	_
+3	20	20	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1983	1983	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Reynolds	Reynolds	PROPN	NNPS	_	8	A	8:A|11:A	_
+8	died	die	VERB	VBD	_	0	H	0:H	_
+9	unexpectedly	unexpectedly	ADV	RB	_	8	D	8:D	_
+10	after	after	SCONJ	IN	_	8	L	8:L	_
+11	developing	develop	VERB	VBG	_	8	H	8:H	_
+12	acute	acute	ADJ	JJ	_	13	E	13:E	_
+13	hepatitis	hepatitis	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

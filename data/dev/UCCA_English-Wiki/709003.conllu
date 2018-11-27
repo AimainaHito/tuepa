@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 709003
+# text = The religious imagery of " Ring Them Bells " struck some critics as a re - affirmation of faith .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	religious	religious	ADJ	JJ	_	3	E	3:E	_
+3	imagery	imagery	NOUN	NN	_	10	A	10:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	"	"	PUNCT	``	_	6	U	6:U	_
+6	Ring	re	VERB	VBG	_	3	E	3:E	_
+7	Them	they	PRON	PRP	_	6	Terminal	6:Terminal	_
+8	Bells	Bells	NOUN	NNS	_	6	Terminal	6:Terminal	_
+9	"	"	PUNCT	''	_	10	U	10:U	_
+10	struck	strike	VERB	VBN	_	0	H	0:H	_
+11	some	some	DET	DT	_	12	E	12:E	_
+12	critics	critic	NOUN	NNS	_	10	A	10:A	_
+13	as	as	ADP	IN	_	17	R	17:R	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	re	re	ADP	IN	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	affirmation	affirmation	NOUN	NN	_	10	A	10:A	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	faith	faith	NOUN	NN	_	17	A	17:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

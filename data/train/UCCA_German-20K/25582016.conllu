@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25582016
+# text = Er trat vor auf die Plattform und schien meine Anwesenheit nicht zu bemerken .
+1	Er	er	PRON	PPER	_	2	A	2:A|13:A	_
+2	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+3	vor	vor	ADP	NE	_	2	Terminal	2:Terminal	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Plattform	Plattform	NOUN	NN	_	2	A	2:A	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	schien	scheinen	VERB	VVFIN	_	13	G	13:G	_
+9	meine	mein	DET	PPOSAT	_	10	E	10:E	_
+10	Anwesenheit	Anwesenheit	NOUN	NN	_	13	A	13:A	_
+11	nicht	nicht	PART	CARD	_	13	D	13:D	_
+12	zu	zu	PART	NN	_	13	F	13:F	_
+13	bemerken	bemerken	VERB	VVINF	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25771027
+# text = Die ›Nautilus‹ hielt jedoch , um nicht festzufahren , 3 Kabellängen von einem flachen Sandufer an , über das eine prachtvolle Felsengruppe ragte .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|8:A	_
+3	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+4	jedoch	jedoch	ADV	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	um	um	ADP	APPR	_	8	R	8:R	_
+7	nicht	nicht	PART	CARD	_	8	D	8:D	_
+8	festzufahren	festzufahren	VERB	NN	_	3	H	3:H	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	3	3	NUM	CARD	_	11	E	11:E	_
+11	Kabellängen	Kabelläng	NOUN	NN	_	3	A	3:A	_
+12	von	von	ADP	NN	_	15	R	15:R	_
+13	einem	ein	DET	ART	_	15	E	15:E	_
+14	flachen	flach	ADJ	ADJA	_	15	E	15:E	_
+15	Sandufer	Sandufer	NOUN	NN	_	3	A	3:A	_
+16	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	über	über	ADP	NE	_	19	R	19:R	_
+19	das	der	PRON	PDS	_	23	R	23:R	_
+20	eine	ein	DET	ART	_	22	E	22:E	_
+21	prachtvolle	prachtvoll	ADJ	ADJA	_	22	E	22:E	_
+22	Felsengruppe	Felsengruppe	NOUN	NN	_	23	A	23:A	_
+23	ragte	ragt	VERB	VVFIN	_	15	E	15:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 450006
+# text = " Jennings then briefly attended Carleton University , where he says he " lasted about 10 minutes " before dropping out .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Jennings	Jenning	NOUN	NNS	_	5	A	5:A	_
+3	then	then	ADV	RB	_	5	D	5:D	_
+4	briefly	briefly	ADV	RB	_	5	D	5:D	_
+5	attended	attend	VERB	VBN	_	0	H	0:H	_
+6	Carleton	Carleton	PROPN	NNP	_	7	E	7:E	_
+7	University	University	PROPN	NNP	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	where	where	ADV	WRB	_	5	L	5:L	_
+10	he	he	PRON	PRP	_	11	A	11:A|20:A	_
+11	says	say	VERB	VBZ	_	5	H	5:H	_
+12	he	he	PRON	PRP	_	14	A	14:A	_
+13	"	"	PUNCT	``	_	14	U	14:U	_
+14	lasted	last	VERB	VBD	_	11	A	11:A	_
+15	about	about	ADP	IN	_	17	E	17:E	_
+16	10	10	NUM	CD	_	17	E	17:E	_
+17	minutes	minute	NOUN	NNS	_	14	D	14:D	_
+18	"	"	PUNCT	''	_	14	U	14:U	_
+19	before	before	SCONJ	IN	_	14	L	14:L	_
+20	dropping	drop	VERB	VBG	_	14	H	14:H	_
+21	out	out	ADP	RP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

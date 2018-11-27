@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 236008
+# text = The same month , in an interview with Phoenix TV , Chan dubbed the United States as the " most corrupt " country in the world .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	month	month	NOUN	NN	_	13	D	13:D	_
+4	,	,	PUNCT	,	_	13	U	13:U	_
+5	in	in	ADP	IN	_	7	R	7:R	_
+6	an	a	DET	DT	_	7	E	7:E	_
+7	interview	interview	NOUN	NN	_	13	A	13:A	_
+8	with	with	ADP	IN	_	9	R	9:R	_
+9	Phoenix	Phoenix	PROPN	NNP	_	7	E	7:E	_
+10	TV	TV	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	Chan	Chan	PROPN	NNP	_	13	A	13:A	_
+13	dubbed	dub	VERB	VBD	_	0	H	0:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	United	United	PROPN	NNP	_	13	A	13:A	_
+16	States	States	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	as	as	ADP	IN	_	21	R	21:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	"	"	PUNCT	``	_	20	U	20:U	_
+20	most	most	ADV	RBS	_	21	D	21:D	_
+21	corrupt	corrupt	ADJ	JJ	_	13	A	13:A	_
+22	"	"	PUNCT	''	_	21	U	21:U	_
+23	country	country	NOUN	NN	_	21	A	21:A	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	world	world	NOUN	NN	_	21	D	21:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25795015
+# text = Jetzt begab sich die gesamte Mannschaft wieder an Bord , die doppelte Verkehrs pforte wurde geschlossen .
+1	Jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+2	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	gesamte	gesamt	ADJ	ADJA	_	6	E	6:E	_
+6	Mannschaft	Mannschaft	NOUN	NN	_	2	A	2:A	_
+7	wieder	wieder	ADV	NE	_	2	D	2:D	_
+8	an	an	ADP	APPR	_	9	R	9:R	_
+9	Bord	Bord	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	die	der	DET	PRELS	_	14	E	14:E	_
+12	doppelte	doppelt	ADJ	VVFIN	_	14	E	14:E	_
+13	Verkehrs	Verkehr	NOUN	NE	_	14	E	14:E	_
+14	pforte	pforen	VERB	NE	_	16	A	16:A	_
+15	wurde	werden	AUX	NN	_	16	F	16:F	_
+16	geschlossen	schließen	VERB	VVPP	_	2	H	2:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

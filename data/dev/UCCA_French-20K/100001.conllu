@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 100001
+# text = Quelques instants après , on constatait l' existence d' un trou large de deux mètres dans la carène du steamer .
+1	Quelques	quelque	DET	_	_	2	E	2:E	_
+2	instants	instant	NOUN	_	_	6	D	6:D	_
+3	après	après	ADV	_	_	2	R	2:R	_
+4	,	,	PUNCT	_	_	6	U	6:U	_
+5	on	on	PRON	_	_	6	A	6:A	_
+6	constatait	constater	VERB	_	_	0	H	0:H	_
+7	l'	le	DET	_	_	8	E	8:E	_
+8	existence	existence	NOUN	_	_	6	A	6:A	_
+9	d'	de	ADP	_	_	11	R	11:R	_
+10	un	un	DET	_	_	11	E	11:E	_
+11	trou	trou	NOUN	_	_	8	E	8:E	_
+12	large	large	ADJ	_	_	15	E	15:E	_
+13	de	de	ADP	_	_	12	R	12:R	_
+14	deux	deux	NUM	_	_	15	E	15:E	_
+15	mètres	mètre	NOUN	_	_	11	E	11:E	_
+16	dans	dans	ADP	_	_	18	R	18:R	_
+17	la	le	DET	_	_	18	E	18:E	_
+18	carène	carène	NOUN	_	_	11	E	11:E	_
+19	du	devoir	DET	_	_	20	R	20:R	_
+20	steamer	steamer	NOUN	_	_	18	E	18:E	_
+21	.	.	PUNCT	_	_	20	U	20:U	_
+

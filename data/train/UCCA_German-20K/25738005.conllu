@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25738005
+# text = Um 4 Uhr abends zeigte das Erdreich , das im allgemeinen aus dichtem Schlamm mit mineralisiertem Gezweig vermischt bestand , allmählich eine andere Beschaffenheit ; es wurde steinig und schien bedeckt mit einem Gemenge von Basalttuff mit einigen Lagen Lava mit schwefligem Obsidian .
+1	Um	um	ADP	APPR	_	4	R	4:R	_
+2	4	4	NUM	CARD	_	3	E	3:E	_
+3	Uhr	Uhr	NOUN	NN	_	4	E	4:E	_
+4	abends	abends	ADV	ADV	_	5	D	5:D	_
+5	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+6	das	der	DET	ART	_	7	E	7:E	_
+7	Erdreich	Erdreich	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	das	der	PRON	ART	_	19	R	19:R	_
+10	im	im	ADV	NN	_	11	R	11:R	_
+11	allgemeinen	allgemein	ADJ	ADJA	_	19	D	19:D	_
+12	aus	aus	ADP	APPR	_	14	R	14:R	_
+13	dichtem	dicht	ADJ	ADJA	_	14	E	14:E	_
+14	Schlamm	Schlamm	NOUN	NN	_	18	A	18:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	mineralisiertem	mineralisiertem	ADJ	ADJA	_	17	E	17:E	_
+17	Gezweig	Gezweig	NOUN	NN	_	18	A	18:A	_
+18	vermischt	vermischen	VERB	ADJD	_	19	A	19:A	_
+19	bestand	bestehen	AUX	VVFIN	_	7	E	7:E	_
+20	,	,	PUNCT	$,	_	5	U	5:U	_
+21	allmählich	allmählich	ADP	ADJD	_	5	D	5:D	_
+22	eine	ein	DET	ART	_	24	E	24:E	_
+23	andere	ander	ADJ	ADJA	_	24	E	24:E	_
+24	Beschaffenheit	Beschaffenheit	NOUN	NN	_	5	A	5:A	_
+25	;	;	PUNCT	$.	_	5	U	5:U	_
+26	es	es	PRON	PPER	_	28	A	28:A	_
+27	wurde	werden	AUX	NE	_	28	F	28:F|30:A	_
+28	steinig	steinig	ADJ	NE	_	5	H	5:H	_
+29	und	und	CCONJ	NE	_	5	L	5:L	_
+30	schien	scheinen	VERB	VVFIN	_	5	H	5:H	_
+31	bedeckt	bedecken	ADJ	ADJD	_	30	A	30:A	_
+32	mit	mit	ADP	APPR	_	34	R	34:R	_
+33	einem	ein	DET	ART	_	34	E	34:E	_
+34	Gemenge	Gemenge	NOUN	NN	_	31	A	31:A	_
+35	von	von	ADP	NE	_	36	R	36:R	_
+36	Basalttuff	Basalttuff	NOUN	NE	_	34	E	34:E	_
+37	mit	mit	ADP	APPR	_	40	R	40:R	_
+38	einigen	einige	PRON	PIAT	_	39	E	39:E	_
+39	Lagen	Lage	NOUN	NN	_	40	E	40:E	_
+40	Lava	Lava	PROPN	NE	_	31	A	31:A	_
+41	mit	mit	ADP	APPR	_	43	R	43:R	_
+42	schwefligem	schwefligem	ADJ	ADJA	_	43	E	43:E	_
+43	Obsidian	Obsidian	PROPN	NE	_	40	E	40:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

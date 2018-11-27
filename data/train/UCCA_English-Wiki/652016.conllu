@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 652016
+# text = In 1997 , respecting President Bill Clinton 's newly instigated rule that documents should be withheld only if releasing them would involve " foreseeable harm " , the Justice Department settled most of the outstanding issues outside court by releasing all but 10 of the contested documents .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1997	1997	NUM	CD	_	31	D	31:D	_
+3	,	,	PUNCT	,	_	31	U	31:U	_
+4	respecting	respecte	VERB	VBG	_	30	E	30:E	_
+5	President	President	PROPN	NNP	_	6	E	6:E	_
+6	Bill	Bill	PROPN	NNP	_	11	E	11:E	_
+7	Clinton	Clinton	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	's	be	PART	POS	_	6	R	6:R	_
+9	newly	newly	ADV	RB	_	10	E	10:E	_
+10	instigated	instigate	VERB	VBN	_	11	E	11:E	_
+11	rule	rule	VERB	VBP	_	4	A	4:A	_
+12	that	that	SCONJ	IN	_	16	R	16:R	_
+13	documents	document	NOUN	NNS	_	16	A	16:A	_
+14	should	should	AUX	MD	_	16	D	16:D	_
+15	be	be	AUX	VB	_	16	F	16:F	_
+16	withheld	withheld	VERB	VBN	_	11	E	11:E	_
+17	only	only	ADV	RB	_	16	L	16:L	_
+18	if	if	SCONJ	IN	_	17	Terminal	17:Terminal	_
+19	releasing	release	VERB	VBG	_	22	A	22:A	_
+20	them	they	PRON	PRP	_	19	A	19:A	_
+21	would	would	AUX	MD	_	22	D	22:D	_
+22	involve	involve	VERB	VB	_	16	H	16:H	_
+23	"	"	PUNCT	``	_	22	U	22:U	_
+24	foreseeable	foreseeable	ADJ	JJ	_	25	E	25:E	_
+25	harm	harm	NOUN	NN	_	22	A	22:A	_
+26	"	"	PUNCT	''	_	30	U	30:U	_
+27	,	,	PUNCT	,	_	30	U	30:U	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	Justice	justice	PROPN	NNP	_	30	E	30:E	_
+30	Department	Department	PROPN	NNP	_	31	A	31:A	_
+31	settled	settle	VERB	VBD	_	0	H	0:H	_
+32	most	most	ADJ	JJS	_	36	E	36:E	_
+33	of	of	ADP	IN	_	32	R	32:R	_
+34	the	the	DET	DT	_	36	E	36:E	_
+35	outstanding	outstanding	ADJ	JJ	_	36	E	36:E	_
+36	issues	issue	NOUN	NNS	_	31	A	31:A	_
+37	outside	outside	ADP	IN	_	38	R	38:R	_
+38	court	court	NOUN	NN	_	31	A	31:A	_
+39	by	by	SCONJ	IN	_	40	R	40:R	_
+40	releasing	release	VERB	VBG	_	31	A	31:A	_
+41	all	all	ADV	RB	_	47	E	47:E	_
+42	but	but	CCONJ	CC	_	43	R	43:R	_
+43	10	10	NUM	CD	_	41	E	41:E	_
+44	of	of	ADP	IN	_	41	R	41:R	_
+45	the	the	DET	DT	_	47	E	47:E	_
+46	contested	contest	VERB	VBN	_	47	E	47:E	_
+47	documents	document	NOUN	NNS	_	40	A	40:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

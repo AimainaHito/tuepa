@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25708011
+# text = In weniger als 10 Minuten war die ›Nautilus‹ , von der Strömung fortgerissen , durch den Isthmus von Suez hindurchgefahren .
+1	In	in	ADP	APPR	_	2	R	2:R	_
+2	weniger	weniger	PRON	ADV	_	0	H	0:H	_
+3	als	als	ADP	KOKOM	_	5	R	5:R	_
+4	10	10	NUM	CARD	_	5	E	5:E	_
+5	Minuten	Minute	NOUN	NN	_	2	A	2:A	_
+6	war	sein	AUX	ADV	_	20	F	20:F	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|13:A	_
+9	,	,	PUNCT	$,	_	13	U	13:U	_
+10	von	von	ADP	NN	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Strömung	Strömung	NOUN	NN	_	13	A	13:A	_
+13	fortgerissen	fortgerissen	VERB	VVINF	_	2	H	2:H	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	durch	durch	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Isthmus	Isthmus	NOUN	NN	_	20	A	20:A	_
+18	von	von	ADP	NE	_	19	R	19:R	_
+19	Suez	Suez	PROPN	NE	_	17	E	17:E	_
+20	hindurchgefahren	hindurchgefahren	VERB	VVINF	_	2	H	2:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

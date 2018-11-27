@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25526010
+# text = Anfangs schauderte mir beim Gedanken an die Zerbrechlichkeit dieser Wand ; doch war sie durch starke Kupfer einfassung befestigt , so dass sie fast unendlichen Widerstand zu leisten fähig war .
+1	Anfangs	anfangs	ADV	ADV	_	2	A	2:A	_
+2	schauderte	schauderen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+4	beim	beim	ADV	NN	_	5	E	5:E	_
+5	Gedanken	Gedanke	NOUN	NN	_	2	A	2:A	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Zerbrechlichkeit	Zerbrechlichkeit	NOUN	NN	_	5	E	5:E	_
+9	dieser	dies	PRON	PDAT	_	10	E	10:E	_
+10	Wand	Wand	NOUN	NN	_	8	E	8:E	_
+11	;	;	PUNCT	$.	_	2	U	2:U	_
+12	doch	doch	ADV	ADV	_	2	L	2:L	_
+13	war	sein	AUX	ADV	_	19	F	19:F	_
+14	sie	sie	PRON	ADV	_	19	A	19:A	_
+15	durch	durch	ADP	APPR	_	18	R	18:R	_
+16	starke	stark	ADJ	NE	_	18	E	18:E	_
+17	Kupfer	kupfern	NOUN	NN	_	18	E	18:E	_
+18	einfassung	einfassung	NOUN	NE	_	19	A	19:A	_
+19	befestigt	befestigen	VERB	VVPP	_	2	H	2:H	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	so	so	ADV	ADV	_	2	L	2:L	_
+22	dass	dass	SCONJ	KOUS	_	21	Terminal	21:Terminal	_
+23	sie	sie	PRON	ADV	_	29	A	29:A	_
+24	fast	fast	ADV	ADV	_	29	D	29:D	_
+25	unendlichen	unendlich	ADJ	ADJA	_	29	D	29:D	_
+26	Widerstand	Widerstand	NOUN	NN	_	29	D	29:D	_
+27	zu	zu	PART	VVINF	_	26	Terminal	26:Terminal	_
+28	leisten	leisten	VERB	VVFIN	_	26	Terminal	26:Terminal	_
+29	fähig	fähig	ADJ	ADJD	_	2	H	2:H	_
+30	war	sein	AUX	ADV	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

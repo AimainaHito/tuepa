@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25653008
+# text = Bald wurden die Gebüsche dichter , der Baumwuchs höher .
+1	Bald	bald	ADV	ADV	_	5	D	5:D	_
+2	wurden	werden	AUX	ADJD	_	5	F	5:F	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Gebüsche	Gebüsche	NOUN	ADJA	_	5	A	5:A	_
+5	dichter	dicht	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Baumwuchs	Baumwuch	NOUN	NE	_	9	A	9:A	_
+9	höher	hoch	ADJ	ADJD	_	5	H	5:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

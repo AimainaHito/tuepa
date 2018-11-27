@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 728008
+# text = The film was screened at the Tribeca Film Festival and was intended for distribution to high schools through the National Education Association .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	0	C	0:C|14:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	screened	screen	VERB	VBN	_	0	H	0:H	_
+5	at	at	ADP	IN	_	9	R	9:R	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	Tribeca	Tribeca	PROPN	NNP	_	9	E	9:E	_
+8	Film	film	PROPN	NNP	_	9	E	9:E	_
+9	Festival	Festival	PROPN	NNP	_	4	A	4:A	_
+10	and	and	CCONJ	CC	_	4	L	4:L	_
+11	was	be	AUX	VBD	_	14	F	14:F	_
+12	intended	intend	VERB	VBN	_	14	D	14:D	_
+13	for	for	ADP	IN	_	14	R	14:R	_
+14	distribution	distribution	NOUN	NN	_	4	H	4:H	_
+15	to	to	ADP	IN	_	17	R	17:R	_
+16	high	high	ADJ	JJ	_	17	E	17:E	_
+17	schools	school	NOUN	NNS	_	14	A	14:A	_
+18	through	through	ADP	IN	_	22	R	22:R	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	National	National	PROPN	NNP	_	21	E	21:E	_
+21	Education	Education	PROPN	NNP	_	22	E	22:E	_
+22	Association	Association	PROPN	NNP	_	17	E	17:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

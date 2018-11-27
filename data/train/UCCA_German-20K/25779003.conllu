@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25779003
+# text = Auf dem Boot mit mir befanden sich Kapitän Nemo , zwei Leute der Bemannung und die Instrumente , nämlich ein Chronometer , ein Fernrohr und ein Barometer .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Boot	Boot	NOUN	NN	_	6	A	6:A	_
+4	mit	mit	ADP	APPR	_	5	R	5:R	_
+5	mir	ich	PRON	PPER	_	6	A	6:A	_
+6	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	zwei	zwei	NUM	VVFIN	_	12	E	12:E	_
+12	Leute	Leute	NOUN	NN	_	9	C	9:C	_
+13	der	der	DET	ART	_	14	R	14:R	_
+14	Bemannung	Bemannung	NOUN	NN	_	12	E	12:E	_
+15	und	und	CCONJ	NE	_	9	N	9:N	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Instrumente	Instrument	NOUN	NN	_	9	C	9:C	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	nämlich	nämlich	ADV	VVFIN	_	21	F	21:F	_
+20	ein	ein	DET	ART	_	21	E	21:E	_
+21	Chronometer	Chronometer	NOUN	NN	_	17	E	17:E	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	ein	ein	DET	ART	_	24	E	24:E	_
+24	Fernrohr	Fernrohr	NOUN	NN	_	21	C	21:C	_
+25	und	und	CCONJ	NE	_	21	N	21:N	_
+26	ein	ein	DET	ART	_	27	E	27:E	_
+27	Barometer	Barometer	NOUN	NN	_	21	C	21:C	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

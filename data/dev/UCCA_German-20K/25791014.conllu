@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25791014
+# text = Ach ! wie mußten wir die chemischen Mittel vermissen , wodurch man das verdorbene Gas entfernen kann !
+1	Ach	ach	PROPN	ADJD	_	9	F	9:F	_
+2	!	!	PUNCT	$.	_	9	U	9:U	_
+3	wie	wie	CCONJ	ADJA	_	9	D	9:D	_
+4	mußten	müssen	AUX	NN	_	9	D	9:D	_
+5	wir	wir	PRON	NE	_	9	A	9:A	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	chemischen	chemisch	ADJ	ADJA	_	8	E	8:E	_
+8	Mittel	Mittel	NOUN	NN	_	9	A	9:A	_
+9	vermissen	vermissen	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	wodurch	wodurch	PRON	VVPP	_	16	R	16:R	_
+12	man	man	PRON	PIS	_	16	A	16:A	_
+13	das	der	DET	ART	_	15	E	15:E	_
+14	verdorbene	verdorben	ADJ	ADJA	_	15	E	15:E	_
+15	Gas	Gas	NOUN	NE	_	16	A	16:A	_
+16	entfernen	entfernen	VERB	VVINF	_	8	E	8:E	_
+17	kann	können	AUX	VMFIN	_	16	D	16:D	_
+18	!	!	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 136002
+# text = Co - starring Humphrey Bogart , The African Queen was shot mostly on location in the Belgian Congo , an opportunity Hepburn embraced .
+1	Co	co	PROPN	NNP	_	3	E	3:E	_
+2	-	-	PUNCT	,	_	3	U	3:U	_
+3	starring	starr	VERB	VBG	_	0	H	0:H	_
+4	Humphrey	Humphrey	PROPN	NNP	_	3	A	3:A	_
+5	Bogart	Bogart	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	The	the	DET	DT	_	11	A	11:A|3:A	_
+8	African	African	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Queen	Queen	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	was	be	AUX	VBD	_	11	F	11:F	_
+11	shot	shoot	VERB	VBN	_	3	H	3:H	_
+12	mostly	mostly	ADV	RB	_	11	D	11:D	_
+13	on	on	ADP	IN	_	14	R	14:R	_
+14	location	location	NOUN	NN	_	11	A	11:A	_
+15	in	in	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	Belgian	belgian	PROPN	NNP	_	18	E	18:E	_
+18	Congo	Congo	PROPN	NNP	_	14	E	14:E	_
+19	,	,	PUNCT	,	_	3	U	3:U	_
+20	an	a	DET	DT	_	21	E	21:E	_
+21	opportunity	opportunity	NOUN	NN	_	23	A	23:A	_
+22	Hepburn	Hepburn	NOUN	NN	_	23	A	23:A	_
+23	embraced	embrace	VERB	VBD	_	3	H	3:H	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

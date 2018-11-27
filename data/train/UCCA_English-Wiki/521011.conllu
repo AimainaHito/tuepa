@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 521011
+# text = Garland 's daughter , Lorna Luft , stated that her mother selected the name when Jessel announced that the trio " looked prettier than a garland of flowers .
+1	Garland	Garland	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	daughter	daughter	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Lorna	Lorna	PROPN	NNP	_	8	A	8:A	_
+6	Luft	Luft	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	stated	state	VERB	VBD	_	0	H	0:H	_
+9	that	that	SCONJ	IN	_	12	F	12:F	_
+10	her	she	PRON	PRP$	_	11	E	11:E	_
+11	mother	mother	NOUN	NN	_	12	A	12:A	_
+12	selected	select	VERB	VBD	_	8	A	8:A	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	name	name	NOUN	NN	_	12	A	12:A	_
+15	when	when	ADV	WRB	_	12	L	12:L	_
+16	Jessel	Jessel	PROPN	NNP	_	17	A	17:A	_
+17	announced	announce	VERB	VBD	_	12	H	12:H	_
+18	that	that	SCONJ	IN	_	22	F	22:F	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	trio	trio	NOUN	NN	_	22	A	22:A	_
+21	"	"	PUNCT	``	_	22	U	22:U	_
+22	looked	look	VERB	VBD	_	17	A	17:A	_
+23	prettier	prettier	ADJ	JJR	_	22	D	22:D	_
+24	than	than	ADP	IN	_	26	R	26:R	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	garland	garland	NOUN	NN	_	23	E	23:E	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	flowers	flower	NOUN	NNS	_	26	E	26:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25765005
+# text = Über diese öde Natur breitete sich eine Stille , die kaum vom Flügelschlag der Sturmvögel oder Wasserscherer unterbrochen war .
+1	Über	über	ADP	APPR	_	4	R	4:R	_
+2	diese	dies	PRON	PDAT	_	4	E	4:E	_
+3	öde	öde	ADJ	ADJA	_	4	E	4:E	_
+4	Natur	Natur	NOUN	NN	_	5	A	5:A	_
+5	breitete	breiten	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	eine	ein	DET	ART	_	8	E	8:E	_
+8	Stille	Stille	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	18	R	18:R	_
+11	kaum	kaum	ADV	ADV	_	18	D	18:D	_
+12	vom	vom	ADP	NN	_	13	R	13:R	_
+13	Flügelschlag	Flügelschlag	NOUN	VVFIN	_	18	A	18:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Sturmvögel	Sturmvogel	NOUN	NN	_	13	A	13:A	_
+16	oder	oder	CCONJ	CARD	_	15	N	15:N	_
+17	Wasserscherer	Wasserscherer	NOUN	NN	_	15	C	15:C	_
+18	unterbrochen	unterbrechen	VERB	ADJA	_	8	E	8:E	_
+19	war	sein	AUX	ADV	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

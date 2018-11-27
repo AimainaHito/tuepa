@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 562010
+# text = After a show in La Crosse , Wisconsin , an urgent message on the letterhead of the local Catholic diocese 's newspaper was sent to FBI director J . Edgar Hoover .
+1	After	after	ADP	IN	_	3	L	3:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	show	show	NOUN	NN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	La	La	PROPN	NNP	_	3	A	3:A	_
+6	Crosse	Crosse	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	Wisconsin	Wisconsin	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	an	a	DET	DT	_	12	E	12:E	_
+11	urgent	urgent	ADJ	JJ	_	12	E	12:E	_
+12	message	message	NOUN	NN	_	24	A	24:A	_
+13	on	on	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	letterhead	letterhead	NOUN	NN	_	12	E	12:E	_
+16	of	of	ADP	IN	_	22	R	22:R	_
+17	the	the	DET	DT	_	22	E	22:E	_
+18	local	local	ADJ	JJ	_	22	E	22:E	_
+19	Catholic	Catholic	PROPN	NNP	_	22	E	22:E	_
+20	diocese	diocese	NOUN	NN	_	22	E	22:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	newspaper	newspaper	NOUN	NN	_	15	E	15:E	_
+23	was	be	AUX	VBD	_	24	F	24:F	_
+24	sent	send	VERB	VBN	_	3	H	3:H	_
+25	to	to	ADP	IN	_	27	R	27:R	_
+26	FBI	FBI	PROPN	NNP	_	27	E	27:E	_
+27	director	director	NOUN	NN	_	24	A	24:A	_
+28	J	j	NOUN	NN	_	27	E	27:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+30	Edgar	Edgar	PROPN	NNP	_	28	Terminal	28:Terminal	_
+31	Hoover	Hoover	PROPN	NNP	_	28	Terminal	28:Terminal	_
+32	.	.	PUNCT	.	_	27	U	27:U	_
+

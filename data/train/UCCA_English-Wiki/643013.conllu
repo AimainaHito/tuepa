@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 643013
+# text = " The MC , known for his wordplay and affectionate but cutting remarks , was making a joke , but ten months had passed since Lennon 's marriage , and the honeymoon , deferred , was still two months in the future .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	MC	Mc	PROPN	NNP	_	0	C	0:C|18:A	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	known	know	VERB	VBN	_	0	H	0:H	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	wordplay	wordplay	NOUN	NN	_	5	A	5:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	affectionate	affectionate	NOUN	NN	_	13	E	13:E	_
+11	but	but	CCONJ	CC	_	10	N	10:N	_
+12	cutting	cut	VERB	VBG	_	10	C	10:C	_
+13	remarks	remark	NOUN	NNS	_	8	C	8:C	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	was	be	AUX	VBD	_	18	F	18:F	_
+16	making	make	VERB	VBG	_	18	F	18:F	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	joke	joke	NOUN	NN	_	5	H	5:H	_
+19	,	,	PUNCT	,	_	5	U	5:U	_
+20	but	but	CCONJ	CC	_	5	L	5:L	_
+21	ten	ten	NUM	CD	_	22	E	22:E	_
+22	months	month	NOUN	NNS	_	24	A	24:A	_
+23	had	have	AUX	VBD	_	24	F	24:F	_
+24	passed	pass	VERB	VBN	_	5	H	5:H	_
+25	since	since	ADP	IN	_	5	L	5:L	_
+26	Lennon	Lennon	PROPN	NNP	_	28	A	28:A	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	marriage	marriage	NOUN	NN	_	5	H	5:H	_
+29	,	,	PUNCT	,	_	5	U	5:U	_
+30	and	and	CCONJ	CC	_	5	L	5:L	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	honeymoon	honeymoon	NOUN	NN	_	34	A	34:A|39:A	_
+33	,	,	PUNCT	,	_	34	U	34:U	_
+34	deferred	defer	VERB	VBD	_	5	H	5:H	_
+35	,	,	PUNCT	,	_	5	U	5:U	_
+36	was	be	AUX	VBD	_	39	F	39:F	_
+37	still	still	ADV	RB	_	39	D	39:D	_
+38	two	two	NUM	CD	_	39	E	39:E	_
+39	months	month	NOUN	NNS	_	5	H	5:H	_
+40	in	in	ADP	IN	_	42	R	42:R	_
+41	the	the	DET	DT	_	42	E	42:E	_
+42	future	future	NOUN	NN	_	39	R	39:R	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

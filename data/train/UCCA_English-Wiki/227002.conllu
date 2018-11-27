@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 227002
+# text = Chan then helped create a PlayStation game in 2000 called Jackie Chan Stuntmaster , to which he lent his voice and performed the motion capture .
+1	Chan	Chan	PROPN	NNP	_	4	A	4:A	_
+2	then	then	ADV	RB	_	4	D	4:D	_
+3	helped	help	VERB	VBD	_	4	D	4:D	_
+4	create	create	VERB	VB	_	0	H	0:H	_
+5	a	a	DET	DT	_	7	R	7:R	_
+6	PlayStation	playstation	NOUN	NN	_	7	E	7:E	_
+7	game	game	NOUN	NN	_	4	A	4:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	2000	2000	NUM	CD	_	4	D	4:D	_
+10	called	call	VERB	VBN	_	7	E	7:E	_
+11	Jackie	Jackie	PROPN	NNP	_	10	A	10:A	_
+12	Chan	Chan	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Stuntmaster	Stuntmaster	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	to	to	ADP	IN	_	18	A	18:A	_
+16	which	which	PRON	WDT	_	18	F	18:F	_
+17	he	he	PRON	PRP	_	18	A	18:A|22:A	_
+18	lent	lent	VERB	VBD	_	7	E	7:E	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	voice	voice	NOUN	NN	_	18	A	18:A	_
+21	and	and	CCONJ	CC	_	18	L	18:L	_
+22	performed	perform	VERB	VBD	_	18	H	18:H	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	motion	motion	NOUN	NN	_	25	E	25:E	_
+25	capture	capture	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

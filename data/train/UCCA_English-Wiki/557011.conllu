@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 557011
+# text = In April , Presley began working for the Crown Electric company as a truck driver .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	April	April	PROPN	NNP	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Presley	Presley	PROPN	NNP	_	6	A	6:A	_
+5	began	begin	VERB	VBD	_	6	D	6:D	_
+6	working	work	VERB	VBG	_	0	H	0:H	_
+7	for	for	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	Crown	Crown	PROPN	NNP	_	11	E	11:E	_
+10	Electric	electric	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	company	company	NOUN	NN	_	6	A	6:A	_
+12	as	as	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	truck	truck	NOUN	NN	_	15	E	15:E	_
+15	driver	driver	NOUN	NN	_	6	A	6:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

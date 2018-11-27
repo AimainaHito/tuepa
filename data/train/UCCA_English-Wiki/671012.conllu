@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 671012
+# text = By spring 2007 , Carey had begun to work on her eleventh studio album , E = MC ² , in a private villa in Anguilla .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	spring	spring	NOUN	NN	_	3	E	3:E	_
+3	2007	2007	NUM	CD	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Carey	Carey	PROPN	NNP	_	9	A	9:A	_
+6	had	have	AUX	VBD	_	7	E	7:E	_
+7	begun	begin	VERB	VBN	_	9	D	9:D	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	work	work	VERB	VB	_	0	H	0:H	_
+10	on	on	ADP	IN	_	16	R	16:R	_
+11	her	she	PRON	PRP$	_	16	E	16:E	_
+12	eleventh	eleventh	ADJ	JJ	_	16	E	16:E	_
+13	studio	studio	NOUN	NN	_	14	E	14:E	_
+14	album	album	NOUN	NN	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	E	E	NOUN	NN	_	9	A	9:A	_
+17	=	=	SYM	SYM	_	16	U	16:U	_
+18	MC	Mc	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	²	²	NUM	CD	_	9	U	9:U	_
+20	,	,	PUNCT	,	_	9	U	9:U	_
+21	in	in	ADP	IN	_	24	R	24:R	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	private	private	ADJ	JJ	_	24	E	24:E	_
+24	villa	villa	NOUN	NN	_	9	A	9:A	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Anguilla	Anguilla	PROPN	NNP	_	24	E	24:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

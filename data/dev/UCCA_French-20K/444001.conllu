@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 444001
+# text = Pendant deux mois , personne n' en entendit parler .
+1	Pendant	pendant	ADP	_	_	3	R	3:R	_
+2	deux	deux	NUM	_	_	3	E	3:E	_
+3	mois	mois	NOUN	_	_	8	D	8:D	_
+4	,	,	PUNCT	_	_	8	U	8:U	_
+5	personne	personne	PRON	_	_	8	A	8:A	_
+6	n'	ne	ADV	_	_	8	D	8:D	_
+7	en	en	PRON	_	_	8	A	8:A|9:A	_
+8	entendit	entendre	VERB	_	_	0	H	0:H	_
+9	parler	parler	VERB	_	_	8	A	8:A	_
+10	.	.	PUNCT	_	_	9	U	9:U	_
+

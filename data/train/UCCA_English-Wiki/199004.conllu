@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 199004
+# text = The Newsroom has been renewed for a second season , which will premiere in June 2013 .
+1	The	the	DET	DT	_	5	A	5:A	_
+2	Newsroom	Newsroom	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	has	have	AUX	VBZ	_	5	F	5:F	_
+4	been	be	AUX	VBN	_	5	F	5:F	_
+5	renewed	renew	VERB	VBN	_	0	H	0:H	_
+6	for	for	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	second	second	ADJ	JJ	_	9	E	9:E	_
+9	season	season	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	which	which	PRON	WDT	_	13	F	13:F	_
+12	will	will	AUX	MD	_	13	F	13:F	_
+13	premiere	premiere	VERB	VB	_	9	E	9:E	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	June	June	PROPN	NNP	_	16	E	16:E	_
+16	2013	2013	NUM	CD	_	13	D	13:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25507003
+# text = Es sah ernst , fast mönchisch aus .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	ernst	ernst	ADJ	ADJD	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	fast	fast	ADV	ADV	_	6	E	6:E	_
+6	mönchisch	mönchisch	ADJ	ADJD	_	2	D	2:D	_
+7	aus	aus	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+8	.	.	PUNCT	$.	_	2	U	2:U	_
+

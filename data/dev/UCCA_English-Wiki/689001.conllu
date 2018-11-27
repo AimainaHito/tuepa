@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 689001
+# text = His paternal grandparents , Zigman and Anna Zimmerman , emigrated from Odessa in the Russian Empire ( now Ukraine ) to the United States following the anti - Semitic pogroms of 1905 .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	paternal	paternal	ADJ	JJ	_	3	E	3:E	_
+3	grandparents	grandparent	NOUN	NNS	_	10	A	10:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Zigman	Zigman	PROPN	NNP	_	3	E	3:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Anna	Anna	PROPN	NNP	_	5	C	5:C	_
+8	Zimmerman	Zimmerman	PROPN	NNP	_	5	C	5:C	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	emigrated	emigrate	VERB	VBD	_	0	H	0:H	_
+11	from	from	ADP	IN	_	12	R	12:R	_
+12	Odessa	Odessa	PROPN	NNP	_	10	A	10:A	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Russian	Russian	PROPN	NNP	_	16	E	16:E	_
+16	Empire	Empire	PROPN	NNP	_	12	E	12:E	_
+17	(	(	PUNCT	-LRB-	_	12	U	12:U	_
+18	now	now	ADV	RB	_	19	D	19:D	_
+19	Ukraine	Ukraine	PROPN	NNP	_	12	E	12:E	_
+20	)	)	PUNCT	-RRB-	_	10	U	10:U	_
+21	to	to	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	United	United	PROPN	NNP	_	10	A	10:A	_
+24	States	States	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	following	follow	VERB	VBG	_	10	L	10:L	_
+26	the	the	DET	DT	_	30	E	30:E	_
+27	anti	anti	X	AFX	_	29	E	29:E	_
+28	-	-	PUNCT	HYPH	_	29	U	29:U	_
+29	Semitic	Semitic	ADJ	JJ	_	30	E	30:E	_
+30	pogroms	pogrom	NOUN	NNS	_	10	H	10:H	_
+31	of	of	ADP	IN	_	32	R	32:R	_
+32	1905	1905	NUM	CD	_	30	D	30:D	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

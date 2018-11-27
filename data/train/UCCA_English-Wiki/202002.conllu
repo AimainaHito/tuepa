@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 202002
+# text = Schlamme will create the look of the shows , work with the other directors , discuss the scripts with Sorkin as soon as they are turned in , make design and casting decisions , and attend the budget meetings ; Sorkin tends to stick strictly to writing .
+1	Schlamme	Schlamme	NOUN	NN	_	3	A	3:A|10:A|33:A|36:A|16:A	_
+2	will	will	AUX	MD	_	3	F	3:F	_
+3	create	create	VERB	VB	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	look	look	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	shows	show	NOUN	NNS	_	5	E	5:E	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	work	work	NOUN	NN	_	3	H	3:H	_
+11	with	with	ADP	IN	_	14	R	14:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	other	other	ADJ	JJ	_	14	E	14:E	_
+14	directors	director	NOUN	NNS	_	10	A	10:A	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	discuss	discuss	VERB	VB	_	3	H	3:H	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	scripts	script	NOUN	NNS	_	16	A	16:A	_
+19	with	with	ADP	IN	_	20	R	20:R	_
+20	Sorkin	Sorkin	PROPN	NNP	_	16	A	16:A	_
+21	as	as	ADV	RB	_	3	L	3:L	_
+22	soon	soon	ADV	RB	_	21	Terminal	21:Terminal	_
+23	as	as	SCONJ	IN	_	21	Terminal	21:Terminal	_
+24	they	they	PRON	PRP	_	26	A	26:A	_
+25	are	be	AUX	VBP	_	26	F	26:F	_
+26	turned	turn	VERB	VBN	_	3	H	3:H	_
+27	in	in	ADP	RP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	3	U	3:U	_
+29	make	make	VERB	VB	_	33	F	33:F	_
+30	design	design	NOUN	NN	_	33	E	33:E	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	casting	casting	NOUN	NN	_	30	C	30:C	_
+33	decisions	decision	NOUN	NNS	_	3	H	3:H	_
+34	,	,	PUNCT	,	_	3	U	3:U	_
+35	and	and	CCONJ	CC	_	3	L	3:L	_
+36	attend	attend	VERB	VB	_	3	H	3:H	_
+37	the	the	DET	DT	_	39	E	39:E	_
+38	budget	budget	NOUN	NN	_	39	E	39:E	_
+39	meetings	meeting	NOUN	NNS	_	36	A	36:A	_
+40	;	;	PUNCT	,	_	3	U	3:U	_
+41	Sorkin	Sorkin	PROPN	NNP	_	44	A	44:A|47:A	_
+42	tends	tend	VERB	VBZ	_	44	E	44:E	_
+43	to	to	PART	TO	_	42	R	42:R	_
+44	stick	stick	VERB	VB	_	3	H	3:H	_
+45	strictly	strictly	ADV	RB	_	44	D	44:D	_
+46	to	to	ADP	IN	_	47	F	47:F	_
+47	writing	writing	NOUN	NN	_	44	A	44:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

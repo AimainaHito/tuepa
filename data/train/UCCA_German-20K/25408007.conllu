@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25408007
+# text = Cuvier , Lacépède , Dumeril , Quatrefages - hätten sicher die Existenz eines solchen Ungeheuers nicht gelten lassen - sofern sie es nicht selbst gesehen , d.h . mit eigenen kundigen Augen gesehen .
+1	Cuvier	Cuvier	PROPN	NE	_	17	A	17:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	Lacépède	Lacépède	PROPN	NE	_	1	C	1:C	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	Dumeril	Dumeril	PROPN	NE	_	1	C	1:C	_
+6	,	,	PUNCT	$,	_	1	U	1:U	_
+7	Quatrefages	Quatrefag	PROPN	NE	_	1	C	1:C	_
+8	-	-	PUNCT	$(	_	17	U	17:U	_
+9	hätten	haben	AUX	VAFIN	_	17	D	17:D	_
+10	sicher	sicher	ADV	ADJD	_	17	D	17:D	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Existenz	Existenz	NOUN	NN	_	17	A	17:A	_
+13	eines	ein	DET	ART	_	15	R	15:R	_
+14	solchen	solch	PRON	PIAT	_	15	E	15:E	_
+15	Ungeheuers	Ungeheuer	NOUN	NN	_	12	A	12:A	_
+16	nicht	nicht	PART	XY	_	17	D	17:D	_
+17	gelten	gelten	VERB	VVFIN	_	0	H	0:H	_
+18	lassen	lassen	VERB	VVINF	_	17	D	17:D	_
+19	-	-	PUNCT	$(	_	17	U	17:U	_
+20	sofern	sofern	SCONJ	KOUS	_	17	L	17:L	_
+21	sie	sie	PRON	ADV	_	25	A	25:A	_
+22	es	es	PRON	PPER	_	25	A	25:A	_
+23	nicht	nicht	PART	ADJA	_	25	D	25:D	_
+24	selbst	selbst	ADV	NN	_	25	D	25:D	_
+25	gesehen	sehen	ADJ	VVINF	_	17	H	17:H	_
+26	,	,	PUNCT	$,	_	17	U	17:U	_
+27	d.h	d.h	ADJ	ADJD	_	17	L	17:L	_
+28	.	.	PUNCT	$.	_	17	U	17:U	_
+29	mit	mit	ADP	APPR	_	32	R	32:R	_
+30	eigenen	eigen	ADJ	ADJA	_	32	E	32:E	_
+31	kundigen	kundigen	ADJ	ADJA	_	32	E	32:E	_
+32	Augen	Auge	NOUN	NN	_	33	A	33:A	_
+33	gesehen	sehen	VERB	VVINF	_	17	H	17:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

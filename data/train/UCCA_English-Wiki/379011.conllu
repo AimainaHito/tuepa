@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 379011
+# text = Shortly after the 2006 Academy Awards , Gyllenhaal was invited to join the Academy in recognition of his acting career .
+1	Shortly	shortly	ADV	RB	_	6	L	6:L	_
+2	after	after	ADP	IN	_	1	Terminal	1:Terminal	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	2006	2006	NUM	CD	_	6	E	6:E	_
+5	Academy	Academy	NOUN	NN	_	6	E	6:E	_
+6	Awards	awards	NOUN	NNS	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	10	A	10:A|12:A|16:A|6:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	invited	invite	VERB	VBN	_	6	H	6:H	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	join	join	VERB	VB	_	10	A	10:A	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Academy	Academy	NOUN	NN	_	12	A	12:A	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	recognition	recognition	NOUN	NN	_	12	A	12:A	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	his	he	PRON	PRP$	_	20	A	20:A	_
+19	acting	act	VERB	VBG	_	20	E	20:E	_
+20	career	career	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

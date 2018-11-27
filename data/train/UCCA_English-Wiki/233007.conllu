@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 233007
+# text = In 1995 , Chan was featured in the arcade fighting game Jackie Chan The Kung - Fu Master .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1995	1995	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Chan	Chan	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	featured	feature	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	arcade	arcade	NOUN	NN	_	11	E	11:E	_
+10	fighting	fighting	NOUN	NN	_	11	E	11:E	_
+11	game	game	NOUN	NN	_	12	E	12:E	_
+12	Jackie	Jackie	PROPN	NNP	_	6	A	6:A	_
+13	Chan	Chan	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	The	the	DET	DT	_	12	Terminal	12:Terminal	_
+15	Kung	kung	ADJ	JJ	_	12	Terminal	12:Terminal	_
+16	-	-	PUNCT	HYPH	_	12	U	12:U	_
+17	Fu	Fu	NOUN	NN	_	12	Terminal	12:Terminal	_
+18	Master	master	NOUN	NN	_	12	Terminal	12:Terminal	_
+19	.	.	PUNCT	.	_	12	U	12:U	_
+

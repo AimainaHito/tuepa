@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25669013
+# text = Nichts am Horizont , als gegen 4 Uhr abends ein langes Dampf boot , das uns westlich entgegenfuhr .
+1	Nichts	nichts	PRON	ADV	_	0	H	0:H	_
+2	am	ommen	VERB	ADJD	_	3	R	3:R	_
+3	Horizont	Horizont	NOUN	NN	_	1	A	1:A	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	als	als	ADP	KOUS	_	13	R	13:R	_
+6	gegen	gegen	ADP	APPR	_	7	R	7:R	_
+7	4	4	NUM	CARD	_	13	D	13:D	_
+8	Uhr	Uhr	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	abends	abends	ADV	ADV	_	7	E	7:E	_
+10	ein	ein	DET	ART	_	13	E	13:E	_
+11	langes	lang	ADJ	ADJA	_	13	E	13:E	_
+12	Dampf	Dampf	NOUN	NN	_	13	E	13:E	_
+13	boot	boieten	VERB	FM	_	1	H	1:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	das	der	PRON	PRELS	_	18	R	18:R	_
+16	uns	wir	PRON	NN	_	18	A	18:A	_
+17	westlich	westlich	ADJ	ADJA	_	18	D	18:D	_
+18	entgegenfuhr	entgegenfuhr	ADV	VVFIN	_	13	E	13:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

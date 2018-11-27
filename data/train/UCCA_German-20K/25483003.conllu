@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25483003
+# text = Welch ein Verfolgen !
+1	Welch	welch	PRON	NN	_	3	E	3:E	_
+2	ein	ein	DET	ART	_	3	E	3:E	_
+3	Verfolgen	verfolgen	NOUN	NN	_	0	H	0:H	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+

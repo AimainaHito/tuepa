@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 427002
+# text = Je discutai la question sous toutes ses faces , politiquement et scientifiquement , et je donne ici un extrait d' un article très - nourri que je publiai dans le numéro du 30 avril .
+1	Je	il	PRON	_	_	2	A	2:A	_
+2	discutai	discut	VERB	_	_	0	H	0:H	_
+3	la	le	DET	_	_	4	E	4:E	_
+4	question	question	NOUN	_	_	2	A	2:A	_
+5	sous	sous	ADP	_	_	8	R	8:R	_
+6	toutes	tout	DET	_	_	8	E	8:E	_
+7	ses	son	DET	_	_	8	E	8:E	_
+8	faces	face	NOUN	_	_	2	A	2:A	_
+9	,	,	PUNCT	_	_	8	U	8:U	_
+10	politiquement	politiquement	ADV	_	_	8	E	8:E	_
+11	et	et	CCONJ	_	_	10	N	10:N	_
+12	scientifiquement	scientifiquement	ADV	_	_	10	C	10:C	_
+13	,	,	PUNCT	_	_	2	U	2:U	_
+14	et	et	CCONJ	_	_	2	L	2:L	_
+15	je	il	PRON	_	_	16	A	16:A	_
+16	donne	donner	VERB	_	_	2	H	2:H	_
+17	ici	ici	ADV	_	_	16	A	16:A	_
+18	un	un	DET	_	_	19	E	19:E	_
+19	extrait	extrait	NOUN	_	_	22	E	22:E	_
+20	d'	de	ADP	_	_	19	R	19:R	_
+21	un	un	DET	_	_	22	E	22:E	_
+22	article	article	NOUN	_	_	16	A	16:A	_
+23	très	très	ADV	_	_	25	E	25:E	_
+24	-	-	PUNCT	_	_	25	U	25:U	_
+25	nourri	nourrir	ADJ	_	_	22	E	22:E	_
+26	que	que	PRON	_	_	28	R	28:R	_
+27	je	il	PRON	_	_	28	A	28:A	_
+28	publiai	publi	VERB	_	_	22	E	22:E	_
+29	dans	dans	ADP	_	_	31	R	31:R	_
+30	le	le	DET	_	_	31	E	31:E	_
+31	numéro	numéro	NOUN	_	_	28	A	28:A	_
+32	du	devoir	DET	_	_	33	R	33:R	_
+33	30	30	NUM	_	_	28	D	28:D	_
+34	avril	avril	NOUN	_	_	33	Terminal	33:Terminal	_
+35	.	.	PUNCT	_	_	33	U	33:U	_
+

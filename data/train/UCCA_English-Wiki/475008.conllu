@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 475008
+# text = Magic , at the age of 42 , played with the All - Stars against his alma mater , Michigan State .
+1	Magic	magic	ADJ	JJ	_	9	A	9:A|5:A	_
+2	,	,	PUNCT	,	_	9	U	9:U	_
+3	at	at	ADP	IN	_	9	L	9:L	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	age	age	NOUN	NN	_	9	H	9:H	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	42	42	NUM	CD	_	5	E	5:E	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	played	play	VERB	VBD	_	0	H	0:H	_
+10	with	with	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	All	all	DET	DT	_	9	A	9:A	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	Stars	star	NOUN	NNS	_	12	Terminal	12:Terminal	_
+15	against	against	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	alma	alma	NOUN	NN	_	9	A	9:A	_
+18	mater	mater	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	17	U	17:U	_
+20	Michigan	Michigan	PROPN	NNP	_	0	root	0:root	_
+21	State	State	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	17	U	17:U	_
+

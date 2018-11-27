@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 561015
+# text = " It became the first rock - and - roll album to top the Billboard chart , a position it held for 10 weeks .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	It	it	PRON	PRP	_	3	A	3:A	_
+3	became	become	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	11	E	11:E	_
+5	first	first	ADJ	JJ	_	11	E	11:E	_
+6	rock	rock	NOUN	NN	_	11	E	11:E	_
+7	-	-	PUNCT	HYPH	_	6	U	6:U	_
+8	and	and	CCONJ	CC	_	6	Terminal	6:Terminal	_
+9	-	-	PUNCT	HYPH	_	6	U	6:U	_
+10	roll	roll	ADJ	JJ	_	6	Terminal	6:Terminal	_
+11	album	album	NOUN	NN	_	3	A	3:A	_
+12	to	to	PART	TO	_	13	R	13:R	_
+13	top	top	VERB	VB	_	11	E	11:E	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Billboard	Billboard	PROPN	NNP	_	16	E	16:E	_
+16	chart	chart	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	position	position	NOUN	NN	_	13	A	13:A	_
+20	it	it	PRON	PRP	_	21	F	21:F	_
+21	held	hold	VERB	VBD	_	19	E	19:E	_
+22	for	for	ADP	IN	_	24	R	24:R	_
+23	10	10	NUM	CD	_	24	E	24:E	_
+24	weeks	week	NOUN	NNS	_	21	D	21:D	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

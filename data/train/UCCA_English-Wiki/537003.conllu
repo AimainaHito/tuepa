@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 537003
+# text = Following their marriage in 1876 , the couple had three children in Poland , one of whom died at a young age .
+1	Following	follow	VERB	VBG	_	3	L	3:L	_
+2	their	they	PRON	PRP$	_	3	A	3:A	_
+3	marriage	marriage	NOUN	NN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	1876	1876	NUM	CD	_	3	D	3:D	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	couple	couple	NOUN	NN	_	9	A	9:A	_
+9	had	have	VERB	VBD	_	3	H	3:H	_
+10	three	three	NUM	CD	_	11	E	11:E	_
+11	children	child	NOUN	NNS	_	9	A	9:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Poland	Poland	PROPN	NNP	_	9	D	9:D	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	one	one	NUM	CD	_	18	A	18:A	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	whom	whom	PRON	WP	_	15	F	15:F	_
+18	died	die	VERB	VBD	_	11	E	11:E	_
+19	at	at	ADP	IN	_	18	L	18:L	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	young	young	ADJ	JJ	_	22	E	22:E	_
+22	age	age	NOUN	NN	_	18	H	18:H	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

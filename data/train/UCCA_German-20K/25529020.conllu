@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25529020
+# text = Ned und Conseil zusammen hätten einen ausgezeichneten Naturkundigen abgegeben .
+1	Ned	Ned	PROPN	NE	_	9	A	9:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Conseil	Conseil	PROPN	NE	_	1	C	1:C	_
+4	zusammen	zusammen	ADV	NE	_	9	D	9:D	_
+5	hätten	haben	AUX	VAFIN	_	9	D	9:D	_
+6	einen	ein	DET	ART	_	8	E	8:E	_
+7	ausgezeichneten	ausgezeichnet	ADJ	ADJA	_	8	E	8:E	_
+8	Naturkundigen	Naturkundige	NOUN	ADJA	_	9	A	9:A	_
+9	abgegeben	abgeben	VERB	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

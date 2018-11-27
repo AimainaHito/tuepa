@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 441002
+# text = Je le répète , l' opinion se fit alors sur la nature du phénomène , et le public admit sans conteste l' existence d' un être prodigieux qui n' avait rien de commun avec les fabuleux serpents de mer .
+1	Je	il	PRON	_	_	3	A	3:A	_
+2	le	le	PRON	_	_	3	A	3:A	_
+3	répète	répéter	VERB	_	_	0	H	0:H	_
+4	,	,	PUNCT	_	_	3	U	3:U	_
+5	l'	le	DET	_	_	6	E	6:E	_
+6	opinion	opinion	NOUN	_	_	7	A	7:A	_
+7	se	se	PRON	_	_	3	H	3:H	_
+8	fit	faire	VERB	_	_	7	Terminal	7:Terminal	_
+9	alors	alors	ADV	_	_	3	L	3:L	_
+10	sur	sur	ADP	_	_	12	R	12:R	_
+11	la	le	DET	_	_	12	E	12:E	_
+12	nature	nature	NOUN	_	_	7	A	7:A	_
+13	du	du	DET	_	_	14	R	14:R	_
+14	phénomène	phénomène	NOUN	_	_	12	E	12:E	_
+15	,	,	PUNCT	_	_	3	U	3:U	_
+16	et	et	CCONJ	_	_	3	L	3:L	_
+17	le	le	DET	_	_	18	E	18:E	_
+18	public	public	NOUN	_	_	0	C	0:C|21:A	_
+19	admit	admettre	VERB	_	_	3	H	3:H	_
+20	sans	sans	ADP	_	_	3	L	3:L|21:D	_
+21	conteste	contester	NOUN	_	_	3	H	3:H	_
+22	l'	le	DET	_	_	23	E	23:E	_
+23	existence	existence	NOUN	_	_	19	A	19:A	_
+24	d'	de	ADP	_	_	26	R	26:R	_
+25	un	un	DET	_	_	26	E	26:E	_
+26	être	être	NOUN	_	_	23	A	23:A	_
+27	prodigieux	prodigieux	ADJ	_	_	26	E	26:E	_
+28	qui	qui	PRON	_	_	33	R	33:R	_
+29	n'	ne	ADV	_	_	33	D	33:D	_
+30	avait	avoir	VERB	_	_	33	F	33:F	_
+31	rien	rien	PRON	_	_	33	A	33:A	_
+32	de	de	ADP	_	_	33	R	33:R	_
+33	commun	commun	ADJ	_	_	26	E	26:E	_
+34	avec	avec	ADP	_	_	37	R	37:R	_
+35	les	le	DET	_	_	37	E	37:E	_
+36	fabuleux	fabuleux	NOUN	_	_	37	E	37:E	_
+37	serpents	serpent	ADJ	_	_	33	A	33:A	_
+38	de	de	ADP	_	_	39	R	39:R	_
+39	mer	mer	NOUN	_	_	37	E	37:E	_
+40	.	.	PUNCT	_	_	39	U	39:U	_
+

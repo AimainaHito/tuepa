@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25724000
+# text = Alle diese Ideen bestürmten mich mit einemmal .
+1	Alle	alle	PRON	PIAT	_	3	E	3:E	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Ideen	Idee	NOUN	NN	_	4	A	4:A	_
+4	bestürmten	bestürmen	VERB	VVFIN	_	0	H	0:H	_
+5	mich	ich	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	mit	mit	ADP	APPR	_	7	R	7:R	_
+7	einemmal	einemmal	X	ADV	_	4	D	4:D	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

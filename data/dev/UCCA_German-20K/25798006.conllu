@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25798006
+# text = » Allerdings « , fuhr Ned Land fort , » aber ich möchte wissen , ob wir wieder in den Pazifik oder Atlantik fahren , d.h . in besuchte oder verlassene Meere . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Allerdings	allerdings	ADV	ADV	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+7	Land	Land	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	fort	fort	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	»	»	PUNCT	$(	_	5	U	5:U	_
+11	aber	aber	CCONJ	ADV	_	2	L	2:L	_
+12	ich	ich	PRON	PPER	_	14	A	14:A	_
+13	möchte	mögen	AUX	CARD	_	14	D	14:D	_
+14	wissen	wissen	VERB	VVINF	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	ob	ob	SCONJ	VVFIN	_	24	R	24:R	_
+17	wir	wir	PRON	NE	_	24	A	24:A	_
+18	wieder	wieder	ADV	NE	_	24	D	24:D	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Pazifik	Pazifik	PROPN	NE	_	24	A	24:A	_
+22	oder	oder	CCONJ	CARD	_	21	N	21:N	_
+23	Atlantik	Atlantik	PROPN	NE	_	21	C	21:C	_
+24	fahren	fahren	VERB	VVINF	_	0	P	0:P|32:P	_
+25	,	,	PUNCT	$,	_	2	U	2:U	_
+26	d.h	d.h	CCONJ	ADJD	_	2	L	2:L	_
+27	.	.	PUNCT	$.	_	2	U	2:U	_
+28	in	in	ADP	APPR	_	32	R	32:R	_
+29	besuchte	besuchen	VERB	VVFIN	_	32	E	32:E	_
+30	oder	oder	CCONJ	CARD	_	29	N	29:N	_
+31	verlassene	verlassen	ADJ	ADJA	_	29	C	29:C	_
+32	Meere	Meer	NOUN	NN	_	2	H	2:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+34	«	«	PUNCT	$(	_	32	U	32:U	_
+

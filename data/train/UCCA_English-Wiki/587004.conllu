@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 587004
+# text = The film 's success began his long association with Burton .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	success	success	NOUN	NN	_	5	A	5:A	_
+5	began	begin	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	8	A	8:A	_
+7	long	long	ADJ	JJ	_	8	D	8:D	_
+8	association	association	NOUN	NN	_	5	A	5:A	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Burton	Burton	PROPN	NNP	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

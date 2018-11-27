@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25713013
+# text = In dem Augenblick öffnete der Kapitän , ohne meine Anwesenheit zu beachten , den Koffer , der eine Menge Goldstangen enthielt .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|12:A	_
+7	,	,	PUNCT	$,	_	12	U	12:U	_
+8	ohne	ohne	ADP	NE	_	12	D	12:D	_
+9	meine	mein	PRON	PPOSAT	_	10	E	10:E	_
+10	Anwesenheit	Anwesenheit	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	beachten	beachten	VERB	VVINF	_	4	H	4:H	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Koffer	Koffer	NOUN	NN	_	4	A	4:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	der	der	PRON	PRELS	_	21	R	21:R	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Menge	Menge	NOUN	NN	_	20	E	20:E	_
+20	Goldstangen	Goldstang	NOUN	NE	_	21	A	21:A	_
+21	enthielt	enthalten	VERB	VVFIN	_	15	E	15:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

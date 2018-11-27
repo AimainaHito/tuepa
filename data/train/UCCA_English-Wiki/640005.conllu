@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 640005
+# text = Lennon co - wrote " Fame " , David Bowie 's first US number one , and provided guitar and backing vocals for the January 1975 recording .
+1	Lennon	Lennon	PROPN	NNP	_	4	A	4:A|18:A	_
+2	co	co	X	AFX	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	wrote	write	ADJ	JJ	_	0	H	0:H	_
+5	"	"	PUNCT	``	_	4	U	4:U	_
+6	Fame	fame	NOUN	NN	_	4	A	4:A	_
+7	"	"	PUNCT	''	_	6	U	6:U	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	David	David	PROPN	NNP	_	6	E	6:E	_
+10	Bowie	Bowie	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	's	's	PART	POS	_	9	R	9:R	_
+12	first	first	ADJ	JJ	_	9	D	9:D	_
+13	US	US	PROPN	NNP	_	14	E	14:E	_
+14	number	number	NOUN	NN	_	9	A	9:A	_
+15	one	one	NUM	CD	_	14	E	14:E	_
+16	,	,	PUNCT	,	_	4	U	4:U	_
+17	and	and	CCONJ	CC	_	4	L	4:L	_
+18	provided	provide	VERB	VBD	_	4	H	4:H	_
+19	guitar	guitar	NOUN	NN	_	18	A	18:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	backing	backing	VERB	VBG	_	22	E	22:E	_
+22	vocals	vocal	NOUN	NNS	_	19	C	19:C	_
+23	for	for	ADP	IN	_	4	L	4:L	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	January	January	PROPN	NNP	_	26	E	26:E	_
+26	1975	1975	NUM	CD	_	27	D	27:D	_
+27	recording	recording	NOUN	NN	_	4	H	4:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

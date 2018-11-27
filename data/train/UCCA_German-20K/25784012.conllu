@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25784012
+# text = Mit unruhigem Gemüt beobachteten , spürten wir das Wieder aufrichten .
+1	Mit	mit	ADP	APPR	_	2	R	2:R	_
+2	unruhigem	unruhig	ADJ	NN	_	4	A	4:A	_
+3	Gemüt	Gemüt	NOUN	NN	_	2	A	2:A	_
+4	beobachteten	beobachten	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	spürten	spüren	VERB	VVFIN	_	4	C	4:C	_
+7	wir	wir	PRON	NE	_	4	A	4:A	_
+8	das	der	DET	ART	_	10	E	10:E	_
+9	Wieder	wieder	NOUN	NN	_	10	E	10:E	_
+10	aufrichten	aufrichen	VERB	VVINF	_	4	A	4:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

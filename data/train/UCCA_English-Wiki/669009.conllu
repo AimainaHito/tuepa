@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 669009
+# text = In the United Kingdom , it became Carey 's first tour to feature shows outside of London , booking arena stops in Glasgow , Birmingham and Manchester .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	United	United	PROPN	NNP	_	7	A	7:A	_
+4	Kingdom	Kingdom	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	it	it	PRON	PRP	_	7	F	7:F	_
+7	became	become	VERB	VBD	_	0	H	0:H	_
+8	Carey	Carey	PROPN	NNP	_	11	E	11:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	first	first	ADJ	JJ	_	11	E	11:E	_
+11	tour	tour	NOUN	NN	_	0	C	0:C|19:A|13:A	_
+12	to	to	ADP	IN	_	13	R	13:R	_
+13	feature	feature	ADJ	JJ	_	11	E	11:E	_
+14	shows	show	NOUN	NNS	_	13	A	13:A	_
+15	outside	outside	ADP	IN	_	17	R	17:R	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	London	London	PROPN	NNP	_	14	E	14:E	_
+18	,	,	PUNCT	,	_	7	U	7:U	_
+19	booking	book	VERB	VBG	_	7	H	7:H	_
+20	arena	arena	NOUN	NN	_	21	E	21:E	_
+21	stops	stop	NOUN	NNS	_	19	A	19:A	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	Glasgow	Glasgow	PROPN	NNP	_	21	E	21:E	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	Birmingham	Birmingham	PROPN	NNP	_	23	C	23:C	_
+26	and	and	CCONJ	CC	_	23	N	23:N	_
+27	Manchester	Manchester	PROPN	NNP	_	23	C	23:C	_
+28	.	.	PUNCT	.	_	23	U	23:U	_
+

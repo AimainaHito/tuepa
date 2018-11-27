@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 133002
+# text = Hepburn passed the outline onto Joseph L . Mankiewicz at MGM , who expressed an interest in the picture .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A	_
+2	passed	pass	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	outline	outline	NOUN	NN	_	2	A	2:A	_
+5	onto	onto	ADP	IN	_	6	R	6:R	_
+6	Joseph	Joseph	PROPN	NNP	_	2	A	2:A	_
+7	L	L	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	.	_	6	U	6:U	_
+9	Mankiewicz	Mankiewicz	PROPN	NNP	_	6	Terminal	6:Terminal	_
+10	at	at	ADP	IN	_	6	R	6:R	_
+11	MGM	MGM	PROPN	NNP	_	6	E	6:E	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	who	who	PRON	WP	_	16	F	16:F	_
+14	expressed	express	VERB	VBD	_	16	D	16:D	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	interest	interest	NOUN	NN	_	6	E	6:E	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	picture	picture	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

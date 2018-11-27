@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 590013
+# text = Depp did not work with Burton again until 2005 in Charlie and the Chocolate Factory , in which he played Willy Wonka .
+1	Depp	Depp	PROPN	NNP	_	4	A	4:A	_
+2	did	do	AUX	VBD	_	4	F	4:F	_
+3	not	not	PART	RB	_	4	D	4:D	_
+4	work	work	VERB	VB	_	0	H	0:H	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Burton	Burton	PROPN	NNP	_	4	A	4:A	_
+7	again	again	ADV	RB	_	4	D	4:D	_
+8	until	until	ADP	IN	_	11	R	11:R	_
+9	2005	2005	NUM	CD	_	11	E	11:E	_
+10	in	in	ADP	IN	_	11	F	11:F	_
+11	Charlie	Charlie	PROPN	NNP	_	4	A	4:A	_
+12	and	and	CCONJ	CC	_	11	Terminal	11:Terminal	_
+13	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+14	Chocolate	chocolate	NOUN	NN	_	11	Terminal	11:Terminal	_
+15	Factory	factory	ADJ	JJ	_	11	Terminal	11:Terminal	_
+16	,	,	PUNCT	,	_	11	U	11:U	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	which	which	PRON	WDT	_	20	R	20:R	_
+19	he	he	PRON	PRP	_	20	A	20:A	_
+20	played	play	VERB	VBD	_	11	E	11:E	_
+21	Willy	Willy	PROPN	NNP	_	20	A	20:A	_
+22	Wonka	Wonka	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

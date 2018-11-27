@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 452010
+# text = After the events of Munich , Jennings continued to report on Middle East issues .
+1	After	after	SCONJ	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	events	event	NOUN	NNS	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Munich	Munich	PROPN	NNP	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Jennings	Jennings	PROPN	NNP	_	10	A	10:A	_
+8	continued	continue	VERB	VBD	_	10	D	10:D	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	report	report	VERB	VB	_	3	H	3:H	_
+11	on	on	ADP	IN	_	14	R	14:R	_
+12	Middle	Middle	PROPN	NNP	_	13	E	13:E	_
+13	East	East	PROPN	NNP	_	14	E	14:E	_
+14	issues	issue	NOUN	NNS	_	10	A	10:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 516001
+# text = " As described by John Peel , " The one distinguishing feature about early - 70s progressive rock was that it did n't progress . Before Bowie came along , people did n't want too much change .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	As	as	SCONJ	IN	_	3	R	3:R	_
+3	described	describe	VERB	VBN	_	0	H	0:H	_
+4	by	by	ADP	IN	_	5	R	5:R	_
+5	John	John	PROPN	NNP	_	3	A	3:A	_
+6	Peel	Peel	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	"	"	PUNCT	``	_	3	U	3:U	_
+9	The	the	DET	DT	_	10	E	10:E	_
+10	one	one	NUM	CD	_	11	D	11:D	_
+11	distinguishing	distinguishing	ADJ	JJ	_	19	A	19:A	_
+12	feature	feature	NOUN	NN	_	11	A	11:A	_
+13	about	about	ADP	IN	_	18	R	18:R	_
+14	early	early	ADJ	JJ	_	18	E	18:E	_
+15	-	-	PUNCT	HYPH	_	18	U	18:U	_
+16	70s	70	NOUN	NNS	_	18	E	18:E	_
+17	progressive	progressive	ADJ	JJ	_	18	E	18:E	_
+18	rock	rock	NOUN	NN	_	11	A	11:A	_
+19	was	be	VERB	VBD	_	3	A	3:A	_
+20	that	that	SCONJ	IN	_	24	F	24:F	_
+21	it	it	PRON	PRP	_	24	A	24:A	_
+22	did	do	AUX	VBD	_	24	F	24:F	_
+23	n't	not	PART	RB	_	24	D	24:D	_
+24	progress	progress	VERB	VB	_	19	A	19:A	_
+25	.	.	PUNCT	.	_	19	U	19:U	_
+26	Before	before	SCONJ	IN	_	19	L	19:L	_
+27	Bowie	Bowie	PROPN	NNP	_	28	A	28:A	_
+28	came	come	VERB	VBD	_	19	H	19:H	_
+29	along	along	ADV	RB	_	28	A	28:A	_
+30	,	,	PUNCT	,	_	19	U	19:U	_
+31	people	people	NOUN	NNS	_	34	A	34:A	_
+32	did	do	AUX	VBD	_	34	F	34:F	_
+33	n't	not	PART	RB	_	34	D	34:D	_
+34	want	want	VERB	VB	_	19	H	19:H	_
+35	too	too	ADV	RB	_	36	R	36:R	_
+36	much	much	ADJ	JJ	_	37	E	37:E	_
+37	change	change	NOUN	NN	_	34	A	34:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

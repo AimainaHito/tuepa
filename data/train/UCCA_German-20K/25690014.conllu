@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25690014
+# text = Von hier aus war es nicht möglich weiter zu fahren .
+1	Von	von	ADP	APPR	_	2	R	2:R	_
+2	hier	hier	ADV	ADV	_	7	A	7:A	_
+3	aus	aus	ADP	APPR	_	1	Terminal	1:Terminal	_
+4	war	sein	AUX	ADV	_	7	F	7:F	_
+5	es	es	PRON	PPER	_	7	F	7:F	_
+6	nicht	nicht	PART	XY	_	7	D	7:D	_
+7	möglich	möglich	ADJ	ADJD	_	0	H	0:H	_
+8	weiter	weiter	ADV	ADV	_	7	A	7:A	_
+9	zu	zu	PART	VVINF	_	7	F	7:F	_
+10	fahren	fahren	VERB	VVINF	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

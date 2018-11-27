@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 709002
+# text = " The track " Most of the Time " , a lost love composition , was later prominently featured in the film High Fidelity , while " What Was It You Wanted ? " has been interpreted both as a catechism and a wry comment on the expectations of critics and fans .
+1	"	"	PUNCT	``	_	19	U	19:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	track	track	NOUN	NN	_	19	A	19:A	_
+4	"	"	PUNCT	``	_	3	U	3:U	_
+5	Most	Most	ADJ	JJS	_	3	E	3:E	_
+6	of	of	ADP	IN	_	5	Terminal	5:Terminal	_
+7	the	the	DET	DT	_	5	Terminal	5:Terminal	_
+8	Time	time	NOUN	NN	_	5	Terminal	5:Terminal	_
+9	"	"	PUNCT	''	_	3	U	3:U	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	lost	lose	VERB	VBN	_	13	E	13:E	_
+13	love	love	NOUN	NN	_	14	E	14:E	_
+14	composition	composition	NOUN	NN	_	3	E	3:E	_
+15	,	,	PUNCT	,	_	19	U	19:U	_
+16	was	be	VERB	VBD	_	19	F	19:F	_
+17	later	later	ADV	RBR	_	19	D	19:D	_
+18	prominently	prominently	ADV	RB	_	19	D	19:D	_
+19	featured	feature	VERB	VBN	_	0	H	0:H	_
+20	in	in	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	film	film	NOUN	NN	_	19	A	19:A	_
+23	High	high	PROPN	NNP	_	22	E	22:E	_
+24	Fidelity	fidelity	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	19	U	19:U	_
+26	while	while	SCONJ	IN	_	19	L	19:L	_
+27	"	"	PUNCT	``	_	19	U	19:U	_
+28	What	what	PRON	WP	_	37	A	37:A	_
+29	Was	be	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	It	it	PRON	PRP	_	28	Terminal	28:Terminal	_
+31	You	you	PROPN	NNP	_	28	Terminal	28:Terminal	_
+32	Wanted	want	PROPN	NNP	_	28	Terminal	28:Terminal	_
+33	?	?	PUNCT	,	_	37	U	37:U	_
+34	"	"	PUNCT	''	_	37	U	37:U	_
+35	has	have	AUX	VBZ	_	37	F	37:F	_
+36	been	be	AUX	VBN	_	37	F	37:F	_
+37	interpreted	interpret	VERB	VBN	_	19	H	19:H	_
+38	both	both	CCONJ	CC	_	41	N	41:N	_
+39	as	as	ADP	IN	_	41	R	41:R	_
+40	a	a	DET	DT	_	41	E	41:E	_
+41	catechism	catechism	NOUN	NN	_	37	A	37:A	_
+42	and	and	CCONJ	CC	_	41	N	41:N	_
+43	a	a	DET	DT	_	45	E	45:E	_
+44	wry	wry	NOUN	NN	_	45	E	45:E	_
+45	comment	comment	NOUN	NN	_	41	C	41:C	_
+46	on	on	ADP	IN	_	48	R	48:R	_
+47	the	the	DET	DT	_	48	E	48:E	_
+48	expectations	expectation	NOUN	NNS	_	45	E	45:E	_
+49	of	of	ADP	IN	_	50	R	50:R	_
+50	critics	critic	NOUN	NNS	_	48	E	48:E	_
+51	and	and	CCONJ	CC	_	50	N	50:N	_
+52	fans	fan	NOUN	NNS	_	50	C	50:C	_
+53	.	.	PUNCT	.	_	50	U	50:U	_
+

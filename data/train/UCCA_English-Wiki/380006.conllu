@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 380006
+# text = When asked about such gossip during an interview , Gyllenhaal said :
+1	When	when	ADV	WRB	_	2	L	2:L	_
+2	asked	ask	VERB	VBN	_	0	H	0:H	_
+3	about	about	ADP	IN	_	5	R	5:R	_
+4	such	such	ADJ	JJ	_	5	E	5:E	_
+5	gossip	gossip	NOUN	NN	_	2	A	2:A	_
+6	during	during	ADP	IN	_	8	R	8:R	_
+7	an	a	DET	DT	_	8	E	8:E	_
+8	interview	interview	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	11	A	11:A|2:A	_
+11	said	say	VERB	VBD	_	2	H	2:H	_
+12	:	:	PUNCT	:	_	11	U	11:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25441005
+# text = Aber sie besaß noch mehr , den Harpunier könig Ned Land .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	sie	sie	PRON	ADV	_	3	A	3:A	_
+3	besaß	besitzen	VERB	VVFIN	_	0	H	0:H	_
+4	noch	noch	ADV	CARD	_	3	D	3:D	_
+5	mehr	mehr	ADV	ADV	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	den	der	DET	ART	_	9	R	9:R	_
+8	Harpunier	Harpunier	NOUN	NE	_	9	E	9:E	_
+9	könig	könig	ADJ	NN	_	10	E	10:E	_
+10	Ned	Ned	PROPN	NE	_	3	A	3:A	_
+11	Land	Land	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

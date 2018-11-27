@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 422001
+# text = Après les chassepots , les torpilles , après les torpilles , les béliers sous-marins , puis . - la réaction .
+1	Après	après	ADP	_	_	3	R	3:R	_
+2	les	le	DET	_	_	3	E	3:E	_
+3	chassepots	chassepot	NOUN	_	_	0	H	0:H	_
+4	,	,	PUNCT	_	_	3	U	3:U	_
+5	les	le	DET	_	_	6	E	6:E	_
+6	torpilles	torpille	NOUN	_	_	3	A	3:A	_
+7	,	,	PUNCT	_	_	3	U	3:U	_
+8	après	après	ADP	_	_	10	R	10:R	_
+9	les	le	DET	_	_	10	E	10:E	_
+10	torpilles	torpille	NOUN	_	_	3	H	3:H	_
+11	,	,	PUNCT	_	_	10	U	10:U	_
+12	les	le	DET	_	_	13	E	13:E	_
+13	béliers	bélier	NOUN	_	_	10	A	10:A	_
+14	sous-marins	sous-marin	ADJ	_	_	13	E	13:E	_
+15	,	,	PUNCT	_	_	3	U	3:U	_
+16	puis	puis	SCONJ	_	_	3	L	3:L	_
+17	.	.	PUNCT	_	_	3	U	3:U	_
+18	-	-	PUNCT	_	_	3	U	3:U	_
+19	la	le	DET	_	_	20	E	20:E	_
+20	réaction	réaction	NOUN	_	_	3	H	3:H	_
+21	.	.	PUNCT	_	_	20	U	20:U	_
+

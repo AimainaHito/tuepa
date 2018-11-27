@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25736001
+# text = Ich wollte es um jeden Preis wissen , ich wollte reden , die kupferne Kugel , die meinen Kopf einkerkerte , abreißen .
+1	Ich	ich	PRON	PPER	_	7	A	7:A	_
+2	wollte	wollen	AUX	VMFIN	_	7	D	7:D	_
+3	es	es	PRON	PPER	_	7	A	7:A	_
+4	um	um	ADP	APPR	_	6	R	6:R	_
+5	jeden	jed	PRON	PIAT	_	6	E	6:E	_
+6	Preis	Preis	NOUN	NN	_	7	D	7:D	_
+7	wissen	wissen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	ich	ich	PRON	PPER	_	11	A	11:A|22:A	_
+10	wollte	wollen	AUX	VMFIN	_	11	D	11:D|22:D	_
+11	reden	reden	ADJ	VVINF	_	7	H	7:H	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	die	der	DET	ART	_	15	E	15:E	_
+14	kupferne	kupfern	ADJ	ADJA	_	15	E	15:E	_
+15	Kugel	Kugel	NOUN	NN	_	22	A	22:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	20	R	20:R	_
+18	meinen	mein	PRON	PPOSAT	_	19	E	19:E	_
+19	Kopf	Kopf	NOUN	NN	_	20	A	20:A	_
+20	einkerkerte	einkerkern	VERB	VVFIN	_	15	E	15:E	_
+21	,	,	PUNCT	$,	_	22	U	22:U	_
+22	abreißen	abreißen	VERB	ADJA	_	7	H	7:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25425004
+# text = Das Museum der Naturgeschichte zu Paris besitzt ein solches Horn , das 2 Meter 25 lang und an seiner Basis 48 Zentimeter stark ist !
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Museum	Museum	NOUN	NN	_	7	A	7:A	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Naturgeschichte	Naturgeschichte	NOUN	NN	_	2	E	2:E	_
+5	zu	zu	ADP	NE	_	6	R	6:R	_
+6	Paris	Paris	PROPN	NE	_	2	E	2:E	_
+7	besitzt	besitzen	VERB	VVFIN	_	0	H	0:H	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	solches	solch	ADJ	PIAT	_	10	E	10:E	_
+10	Horn	Horn	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	das	der	PRON	PRELS	_	16	R	16:R	_
+13	2	2	NUM	CARD	_	16	A	16:A	_
+14	Meter	Meter	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	25	25	NUM	CARD	_	13	Terminal	13:Terminal	_
+16	lang	lang	ADJ	ADJD	_	10	E	10:E	_
+17	und	und	CCONJ	NN	_	16	L	16:L	_
+18	an	an	ADP	APPR	_	20	R	20:R	_
+19	seiner	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Basis	Basis	NOUN	NN	_	23	A	23:A	_
+21	48	48	NUM	CARD	_	23	A	23:A	_
+22	Zentimeter	Zentimeter	NOUN	NN	_	21	Terminal	21:Terminal	_
+23	stark	stark	ADJ	NN	_	16	H	16:H	_
+24	ist	sein	AUX	VVFIN	_	23	F	23:F	_
+25	!	!	PUNCT	$.	_	23	U	23:U	_
+

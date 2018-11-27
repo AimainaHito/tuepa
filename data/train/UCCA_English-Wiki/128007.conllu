@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 128007
+# text = Harris 's poor direction had eroded Hepburn 's confidence , and she struggled with the performance .
+1	Harris	Harris	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	poor	poor	ADJ	JJ	_	4	D	4:D	_
+4	direction	direction	NOUN	NN	_	6	A	6:A	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	eroded	erod	VERB	VBN	_	0	H	0:H	_
+7	Hepburn	Hepburn	PROPN	NNP	_	9	E	9:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	confidence	confidence	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	and	and	CCONJ	CC	_	6	L	6:L	_
+12	she	she	PRON	PRP	_	13	A	13:A	_
+13	struggled	struggle	VERB	VBD	_	6	H	6:H	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	performance	performance	NOUN	NN	_	13	A	13:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

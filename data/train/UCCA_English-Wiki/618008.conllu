@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 618008
+# text = Following the formal dissolution of the Beatles ' partnership in 1975 , McCartney re - signed with EMI worldwide and Capitol in the US and Canada .
+1	Following	follow	VERB	VBG	_	4	L	4:L	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	formal	formal	ADJ	JJ	_	4	E	4:E	_
+4	dissolution	dissolution	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	9	R	9:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	Beatles	Beatles	PROPN	NNPS	_	9	E	9:E	_
+8	'	's	PART	POS	_	9	U	9:U	_
+9	partnership	partnership	NOUN	NN	_	4	A	4:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1975	1975	NUM	CD	_	4	D	4:D	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	McCartney	McCartney	PROPN	NNP	_	14	A	14:A	_
+14	re	be	ADP	IN	_	4	H	4:H	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	signed	sign	VERB	VBN	_	14	Terminal	14:Terminal	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	EMI	EMI	PROPN	NNP	_	14	A	14:A	_
+19	worldwide	worldwide	PROPN	NNP	_	18	E	18:E	_
+20	and	and	CCONJ	CC	_	18	N	18:N	_
+21	Capitol	Capitol	PROPN	NNP	_	18	C	18:C	_
+22	in	in	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	US	US	PROPN	NNP	_	21	E	21:E	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	Canada	Canada	PROPN	NNP	_	24	C	24:C	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+

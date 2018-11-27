@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 561000
+# text = On January 10 , 1956 , Presley made his first recordings for RCA in Nashville .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	January	January	PROPN	NNP	_	8	D	8:D	_
+3	10	10	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1956	1956	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Presley	Presley	PROPN	NNP	_	8	A	8:A	_
+8	made	make	VERB	VBD	_	0	H	0:H	_
+9	his	he	PRON	PRP$	_	11	E	11:E	_
+10	first	first	ADJ	JJ	_	11	E	11:E	_
+11	recordings	recording	NOUN	NNS	_	8	A	8:A	_
+12	for	for	ADP	IN	_	13	R	13:R	_
+13	RCA	RCA	PROPN	NNP	_	11	E	11:E	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Nashville	Nashville	PROPN	NNP	_	8	A	8:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

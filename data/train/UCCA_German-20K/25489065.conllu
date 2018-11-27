@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25489065
+# text = Der Mann mit den sanften und ruhigen Augen hörte mir gelassen , selbst höflich und sehr aufmerksam zu .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	9	A	9:A	_
+3	mit	mit	ADP	APPR	_	8	R	8:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	sanften	sanft	ADJ	ADJA	_	8	E	8:E	_
+6	und	und	CCONJ	NN	_	5	N	5:N	_
+7	ruhigen	ruhig	ADJ	ADJA	_	5	C	5:C	_
+8	Augen	Auge	NOUN	NN	_	2	E	2:E	_
+9	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+10	mir	ich	PRON	PPER	_	9	A	9:A	_
+11	gelassen	lassen	VERB	ADJD	_	9	D	9:D	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	selbst	selbst	ADV	VVFIN	_	14	E	14:E	_
+14	höflich	höflich	ADJ	ADJD	_	9	D	9:D	_
+15	und	und	CCONJ	NE	_	14	N	14:N	_
+16	sehr	sehr	ADV	NE	_	17	E	17:E	_
+17	aufmerksam	aufmerksam	ADJ	ADJD	_	14	C	14:C	_
+18	zu	zu	ADP	VVINF	_	9	Terminal	9:Terminal	_
+19	.	.	PUNCT	$.	_	9	U	9:U	_
+

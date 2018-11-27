@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25697001
+# text = » Meine persönliche Ansicht , Herr Arronax , will ich Ihnen sagen . Der Name enthält eine Übersetzung des hebräischen Wortes ›Edrom‹ , und die Alten haben ihm den wegen der besonderen Färbung seiner Gewässer gegeben . «
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Meine	mein	PRON	PPOSAT	_	4	E	4:E	_
+3	persönliche	persönlich	ADJ	NN	_	4	E	4:E	_
+4	Ansicht	Ansicht	NOUN	NN	_	12	A	12:A	_
+5	,	,	PUNCT	$,	_	12	U	12:U	_
+6	Herr	Herr	PROPN	NN	_	7	E	7:E	_
+7	Arronax	Arronax	PROPN	NE	_	12	G	12:G	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	will	wollen	AUX	NE	_	12	D	12:D	_
+10	ich	ich	PRON	PPER	_	12	A	12:A	_
+11	Ihnen	Sie|sie	PRON	PPER	_	12	A	12:A	_
+12	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+14	Der	der	DET	ART	_	15	E	15:E	_
+15	Name	Name	NOUN	NN	_	16	A	16:A	_
+16	enthält	enthalten	VERB	VVFIN	_	12	H	12:H	_
+17	eine	ein	DET	ART	_	18	E	18:E	_
+18	Übersetzung	Übersetzung	NOUN	NN	_	16	A	16:A	_
+19	des	der	DET	ART	_	21	R	21:R	_
+20	hebräischen	hebräisch	ADJ	ADJA	_	21	E	21:E	_
+21	Wortes	Wort	NOUN	NN	_	18	E	18:E	_
+22	›Edrom‹	›Edrom‹	NOUN	NE	_	21	E	21:E	_
+23	,	,	PUNCT	$,	_	12	U	12:U	_
+24	und	und	CCONJ	NE	_	12	L	12:L	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Alten	alt	NOUN	ADJA	_	36	A	36:A	_
+27	haben	haben	AUX	VAFIN	_	36	F	36:F	_
+28	ihm	er	PRON	PPER	_	36	A	36:A	_
+29	den	der	DET	ART	_	36	A	36:A	_
+30	wegen	wegen	ADP	NN	_	33	R	33:R	_
+31	der	der	DET	ART	_	33	R	33:R	_
+32	besonderen	besonder	ADJ	ADJA	_	33	D	33:D	_
+33	Färbung	Färbung	NOUN	NN	_	36	A	36:A	_
+34	seiner	sein	DET	PPOSAT	_	35	R	35:R	_
+35	Gewässer	Gewässer	NOUN	NN	_	33	A	33:A	_
+36	gegeben	geben	VERB	VVPP	_	12	H	12:H	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+38	«	«	PUNCT	$(	_	36	U	36:U	_
+

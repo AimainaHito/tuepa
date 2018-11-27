@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25463007
+# text = Hierauf nahm die Fregatte eine mehr entschieden westliche Richtung an und drang in die mittleren Gewässer des Pazifiks ein .
+1	Hierauf	hierauf	ADV	PAV	_	2	L	2:L	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Fregatte	Fregatte	NOUN	NN	_	0	C	0:C|12:A	_
+5	eine	ein	DET	ART	_	9	E	9:E	_
+6	mehr	mehr	ADV	ADV	_	8	E	8:E	_
+7	entschieden	entschieden	ADJ	ADJD	_	8	E	8:E	_
+8	westliche	westlich	ADJ	NE	_	9	E	9:E	_
+9	Richtung	Richtung	NOUN	NN	_	2	A	2:A	_
+10	an	an	ADP	APPR	_	2	Terminal	2:Terminal	_
+11	und	und	CCONJ	NN	_	2	L	2:L	_
+12	drang	drang	ADV	VVFIN	_	2	H	2:H	_
+13	in	in	ADP	APPR	_	16	R	16:R	_
+14	die	der	DET	ART	_	16	E	16:E	_
+15	mittleren	mittler	ADJ	ADJA	_	16	E	16:E	_
+16	Gewässer	Gewässer	NOUN	NN	_	12	A	12:A	_
+17	des	der	DET	ART	_	18	R	18:R	_
+18	Pazifiks	Pazifik	NOUN	NN	_	16	E	16:E	_
+19	ein	ein	ADV	PTKVZ	_	12	Terminal	12:Terminal	_
+20	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25463001
+# text = « Hierauf wusste ich nichts zu erwidern .
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	Hierauf	hierauf	ADV	PAV	_	7	R	7:R	_
+3	wusste	wissen	VERB	VVFIN	_	7	D	7:D	_
+4	ich	ich	PRON	PPER	_	7	A	7:A	_
+5	nichts	nichts	PRON	NN	_	7	D	7:D	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	erwidern	erwidern	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

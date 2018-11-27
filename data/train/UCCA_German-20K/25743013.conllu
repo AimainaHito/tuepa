@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25743013
+# text = Doch wurde unser Aufsteigen bald auf einer Höhe von etwa 250 Fuß durch unüberwindliche Hindernisse gehemmt .
+1	Doch	doch	ADV	KON	_	16	L	16:L	_
+2	wurde	werden	AUX	NE	_	16	F	16:F	_
+3	unser	unser	PRON	FM	_	4	E	4:E	_
+4	Aufsteigen	aufsteigen	NOUN	VVINF	_	16	A	16:A	_
+5	bald	bald	ADV	ADV	_	16	D	16:D	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	einer	ein	DET	ART	_	8	E	8:E	_
+8	Höhe	Höhe	NOUN	NN	_	16	A	16:A	_
+9	von	von	ADP	NE	_	8	R	8:R	_
+10	etwa	etwa	ADV	ADV	_	12	E	12:E	_
+11	250	250	NUM	CARD	_	12	E	12:E	_
+12	Fuß	Fuß	NOUN	NN	_	8	E	8:E	_
+13	durch	durch	ADP	APPR	_	15	R	15:R	_
+14	unüberwindliche	unüberwindlich	ADJ	ADJA	_	15	D	15:D	_
+15	Hindernisse	Hindernis	NOUN	NN	_	16	A	16:A	_
+16	gehemmt	hemmen	VERB	VVPP	_	0	H	0:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

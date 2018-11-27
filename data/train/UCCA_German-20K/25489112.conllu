@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25489112
+# text = Doch muß ich bemerken , dass Brot und Wein gänzlich mangelten .
+1	Doch	doch	ADV	KON	_	4	L	4:L	_
+2	muß	müssen	AUX	VMFIN	_	4	D	4:D	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	bemerken	bemerken	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+7	Brot	Brot	NOUN	NE	_	11	A	11:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Wein	Wein	NOUN	NE	_	7	C	7:C	_
+10	gänzlich	gänzlich	ADJ	ADJD	_	11	D	11:D	_
+11	mangelten	mangeln	VERB	VVINF	_	4	A	4:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

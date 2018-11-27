@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25645025
+# text = Wenigstens nahm ich dies aus ihrem Ton und Gebärden ab .
+1	Wenigstens	wenigstens	ADV	ADV	_	2	G	2:G	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	dies	dies	PRON	PDS	_	2	A	2:A	_
+5	aus	aus	ADP	APPR	_	7	R	7:R	_
+6	ihrem	ihr	DET	PPOSAT	_	7	E	7:E	_
+7	Ton	Ton	NOUN	NN	_	2	A	2:A	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Gebärden	Gebärde	NOUN	NE	_	7	C	7:C	_
+10	ab	ab	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+11	.	.	PUNCT	$.	_	2	U	2:U	_
+

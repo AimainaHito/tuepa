@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25674007
+# text = » Ich muß Ihnen gestehen , Kapitän , dass ich mich mit dieser Art Fische noch nicht sehr befreundet habe . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Ich	ich	PRON	PPER	_	5	A	5:A	_
+3	muß	müssen	AUX	VMFIN	_	5	D	5:D	_
+4	Ihnen	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	gestehen	stehen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Kapitän	Kapitän	NOUN	NN	_	5	G	5:G	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+10	ich	ich	PRON	PPER	_	11	A	11:A	_
+11	mich	ich	PRON	PRF	_	5	A	5:A	_
+12	mit	mit	ADP	APPR	_	15	R	15:R	_
+13	dieser	dies	PRON	PDAT	_	14	E	14:E	_
+14	Art	Art	NOUN	NN	_	15	E	15:E	_
+15	Fische	Fisch	NOUN	NN	_	11	A	11:A	_
+16	noch	noch	ADV	ADV	_	17	E	17:E	_
+17	nicht	nicht	PART	XY	_	11	D	11:D	_
+18	sehr	sehr	ADV	NE	_	11	D	11:D	_
+19	befreundet	befreundet	ADJ	ADJD	_	11	Terminal	11:Terminal	_
+20	habe	haben	AUX	VAFIN	_	11	F	11:F	_
+21	.	.	PUNCT	$.	_	11	U	11:U	_
+22	«	«	PUNCT	$(	_	11	U	11:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 196004
+# text = After two months on hiatus , Studio 60 resumed to air the last episodes of season one , which would be its only season .
+1	After	after	ADP	IN	_	5	L	5:L	_
+2	two	two	NUM	CD	_	3	E	3:E	_
+3	months	month	NOUN	NNS	_	5	D	5:D	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	hiatus	hiatus	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Studio	Studio	PROPN	NNP	_	9	A	9:A|11:A|5:A	_
+8	60	60	NUM	CD	_	7	Terminal	7:Terminal	_
+9	resumed	resume	VERB	VBN	_	5	H	5:H	_
+10	to	to	ADP	IN	_	11	F	11:F	_
+11	air	air	NOUN	NN	_	9	A	9:A	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	last	last	ADJ	JJ	_	14	E	14:E	_
+14	episodes	episode	NOUN	NNS	_	11	A	11:A	_
+15	of	of	ADP	IN	_	16	R	16:R	_
+16	season	season	NOUN	NN	_	14	E	14:E	_
+17	one	one	NUM	CD	_	16	E	16:E	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	which	which	PRON	WDT	_	21	F	21:F	_
+20	would	would	AUX	MD	_	21	F	21:F	_
+21	be	be	AUX	VB	_	16	E	16:E	_
+22	its	its	PRON	PRP$	_	23	E	23:E	_
+23	only	only	ADJ	JJ	_	24	E	24:E	_
+24	season	season	NOUN	NN	_	21	A	21:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

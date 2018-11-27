@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25623007
+# text = » Freund Conseil , ich liebe Sie sehr , doch nicht so arg , um ohne Not Sie auf zu zehren . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Freund	Freund	ADJ	NN	_	3	E	3:E	_
+3	Conseil	Conseil	NOUN	NE	_	6	G	6:G	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	ich	ich	PRON	PPER	_	6	A	6:A|19:A|11:A	_
+6	liebe	lieben	VERB	NE	_	0	H	0:H	_
+7	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+8	sehr	sehr	ADV	NE	_	6	D	6:D	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	doch	doch	CCONJ	ADV	_	6	L	6:L	_
+11	nicht	nicht	PART	XY	_	6	H	6:H	_
+12	so	so	ADV	ADV	_	13	E	13:E	_
+13	arg	arg	ADJ	ADJD	_	11	D	11:D	_
+14	,	,	PUNCT	$,	_	6	U	6:U	_
+15	um	um	ADP	KOUI	_	6	L	6:L	_
+16	ohne	ohne	ADP	CARD	_	17	E	17:E	_
+17	Not	not	NOUN	NN	_	19	A	19:A	_
+18	Sie	Sie|sie	PRON	PPER	_	19	A	19:A	_
+19	auf	auf	ADP	APPR	_	6	H	6:H	_
+20	zu	zu	PART	NE	_	19	F	19:F	_
+21	zehren	zehren	VERB	VVINF	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+23	«	«	PUNCT	$(	_	19	U	19:U	_
+

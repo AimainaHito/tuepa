@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 494005
+# text = Doctors feared he would become blind in that eye .
+1	Doctors	doctor	NOUN	NNS	_	2	A	2:A	_
+2	feared	fear	VERB	VBD	_	0	H	0:H	_
+3	he	he	PRON	PRP	_	6	A	6:A	_
+4	would	would	AUX	MD	_	6	F	6:F	_
+5	become	become	VERB	VB	_	6	D	6:D	_
+6	blind	blind	ADJ	JJ	_	2	A	2:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	that	that	DET	DT	_	9	E	9:E	_
+9	eye	eye	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

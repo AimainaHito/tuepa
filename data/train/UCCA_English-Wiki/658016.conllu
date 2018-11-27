@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 658016
+# text = Carey 's name was derived from the song " They Call the Wind Mariah " , originally from the 1951 Broadway musical Paint Your Wagon .
+1	Carey	Carey	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	name	name	NOUN	NN	_	5	A	5:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	derived	derive	VERB	VBN	_	0	H	0:H	_
+6	from	from	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	song	song	NOUN	NN	_	10	E	10:E	_
+9	"	"	PUNCT	``	_	10	U	10:U	_
+10	They	they	PRON	PRP	_	5	A	5:A	_
+11	Call	call	VERB	VBP	_	10	Terminal	10:Terminal	_
+12	the	the	DET	DT	_	10	Terminal	10:Terminal	_
+13	Wind	wind	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	Mariah	Mariah	PROPN	NNP	_	10	Terminal	10:Terminal	_
+15	"	"	PUNCT	''	_	10	U	10:U	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	originally	originally	ADV	RB	_	23	D	23:D	_
+18	from	from	ADP	IN	_	23	R	23:R	_
+19	the	the	DET	DT	_	23	E	23:E	_
+20	1951	1951	NUM	CD	_	23	E	23:E	_
+21	Broadway	Broadway	PROPN	NNP	_	22	E	22:E	_
+22	musical	musical	ADJ	JJ	_	23	E	23:E	_
+23	Paint	paint	NOUN	NN	_	10	E	10:E	_
+24	Your	you	PRON	PRP$	_	23	Terminal	23:Terminal	_
+25	Wagon	wagon	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	.	.	PUNCT	.	_	23	U	23:U	_
+

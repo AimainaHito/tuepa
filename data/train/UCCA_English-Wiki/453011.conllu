@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 453011
+# text = By the summer of 1979 , the innovative broadcast , which featured some of the same glitzy presentation as Arledge 's previous television coup , Wide World of Sports , had climbed in the ratings .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	summer	summer	NOUN	NN	_	32	D	32:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	1979	1979	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	32	U	32:U	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	innovative	innovative	ADJ	JJ	_	9	E	9:E	_
+9	broadcast	broadcast	NOUN	NN	_	32	A	32:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	which	which	PRON	WDT	_	12	F	12:F	_
+12	featured	feature	VERB	VBD	_	9	E	9:E	_
+13	some	some	DET	DT	_	18	E	18:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	same	same	ADJ	JJ	_	18	E	18:E	_
+17	glitzy	glitzy	NOUN	NN	_	18	E	18:E	_
+18	presentation	presentation	NOUN	NN	_	12	A	12:A	_
+19	as	as	ADP	IN	_	26	R	26:R	_
+20	Arledge	Arledge	PROPN	NNP	_	26	E	26:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	previous	previous	ADJ	JJ	_	26	E	26:E	_
+23	television	television	NOUN	NN	_	24	E	24:E	_
+24	coup	coup	NOUN	NN	_	26	E	26:E	_
+25	,	,	PUNCT	,	_	26	U	26:U	_
+26	Wide	wide	PROPN	NNP	_	18	E	18:E	_
+27	World	World	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	of	of	ADP	IN	_	26	Terminal	26:Terminal	_
+29	Sports	Sports	PROPN	NNPS	_	26	Terminal	26:Terminal	_
+30	,	,	PUNCT	,	_	32	U	32:U	_
+31	had	have	AUX	VBD	_	32	F	32:F	_
+32	climbed	climb	VERB	VBN	_	0	H	0:H	_
+33	in	in	ADP	IN	_	35	R	35:R	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	ratings	rating	NOUN	NNS	_	32	A	32:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

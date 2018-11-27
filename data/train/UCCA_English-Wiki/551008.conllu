@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 551008
+# text = " I do n't think President Kennedy would object to my friendship with Dick Nixon , " Warner said later . " I would have voted for both of them if I could . You might think this is a form of fence - straddling , but I love everybody .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	I	I	PRON	PRP	_	5	A	5:A	_
+3	do	do	AUX	VBP	_	5	F	5:F	_
+4	n't	not	PART	RB	_	5	D	5:D	_
+5	think	think	VERB	VB	_	19	A	19:A	_
+6	President	President	PROPN	NNP	_	9	A	9:A	_
+7	Kennedy	Kennedy	PROPN	NNP	_	6	E	6:E	_
+8	would	would	AUX	MD	_	9	D	9:D	_
+9	object	object	VERB	VB	_	5	A	5:A	_
+10	to	to	ADP	IN	_	12	R	12:R	_
+11	my	my	PRON	PRP$	_	12	A	12:A	_
+12	friendship	friendship	NOUN	NN	_	9	A	9:A	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	Dick	Dick	PROPN	NNP	_	12	A	12:A	_
+15	Nixon	Nixon	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	19	U	19:U	_
+17	"	"	PUNCT	''	_	19	U	19:U	_
+18	Warner	Warner	PROPN	NNP	_	19	A	19:A	_
+19	said	say	VERB	VBD	_	0	H	0:H	_
+20	later	later	ADV	RB	_	19	D	19:D	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+22	"	"	PUNCT	''	_	19	U	19:U	_
+23	I	I	PRON	PRP	_	26	A	26:A	_
+24	would	would	AUX	MD	_	26	D	26:D	_
+25	have	have	AUX	VB	_	26	F	26:F	_
+26	voted	vote	VERB	VBN	_	5	H	5:H	_
+27	for	for	ADP	IN	_	28	R	28:R	_
+28	both	both	DET	DT	_	26	A	26:A	_
+29	of	of	ADP	IN	_	28	Terminal	28:Terminal	_
+30	them	they	PRON	PRP	_	28	Terminal	28:Terminal	_
+31	if	if	SCONJ	IN	_	5	L	5:L	_
+32	I	I	PRON	PRP	_	33	A	33:A	_
+33	could	could	VERB	VBP	_	5	H	5:H	_
+34	.	.	PUNCT	.	_	5	U	5:U	_
+35	You	you	PRON	PRP	_	37	A	37:A	_
+36	might	might	AUX	MD	_	37	D	37:D	_
+37	think	think	VERB	VB	_	5	H	5:H	_
+38	this	this	PRON	DT	_	39	A	39:A	_
+39	is	be	AUX	VBZ	_	37	A	37:A	_
+40	a	a	DET	DT	_	41	E	41:E	_
+41	form	form	NOUN	NN	_	43	E	43:E	_
+42	of	of	ADP	IN	_	41	R	41:R	_
+43	fence	fence	NOUN	NN	_	39	A	39:A	_
+44	-	-	PUNCT	HYPH	_	43	U	43:U	_
+45	straddling	straddling	NOUN	NN	_	43	Terminal	43:Terminal	_
+46	,	,	PUNCT	,	_	5	U	5:U	_
+47	but	but	CCONJ	CC	_	5	L	5:L	_
+48	I	I	PRON	PRP	_	49	A	49:A	_
+49	love	love	VERB	VBP	_	5	H	5:H	_
+50	everybody	everybody	PRON	NN	_	49	A	49:A	_
+51	.	.	PUNCT	.	_	49	U	49:U	_
+

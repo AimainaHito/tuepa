@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25776017
+# text = Manchmal fiel ich zu Boden , dass mich die Nieren schmerzten , Conseil , der vorsichtiger war oder fester auf den Füßen stand , wankte nicht und hob mich auf mit den Worten :
+1	Manchmal	manchmal	ADV	ADV	_	2	D	2:D	_
+2	fiel	fallen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	zu	zu	ADP	ADJA	_	5	R	5:R	_
+5	Boden	Boden	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+8	mich	ich	PRON	PPER	_	2	H	2:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Nieren	Niere	PROPN	NN	_	8	A	8:A	_
+11	schmerzten	schmerzen	VERB	VVFIN	_	8	Terminal	8:Terminal	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	Conseil	Conseil	NOUN	NE	_	0	C	0:C|23:A|16:A|28:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	der	der	PRON	PRELS	_	16	R	16:R	_
+16	vorsichtiger	vorsichtig	ADJ	ADJD	_	13	E	13:E	_
+17	war	sein	AUX	ADV	_	16	F	16:F	_
+18	oder	oder	CCONJ	CARD	_	16	L	16:L	_
+19	fester	fest	ADJ	NN	_	23	D	23:D	_
+20	auf	auf	ADP	APPR	_	22	R	22:R	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Füßen	Fuß	NOUN	NN	_	23	A	23:A	_
+23	stand	stehen	VERB	VVFIN	_	16	H	16:H	_
+24	,	,	PUNCT	$,	_	25	U	25:U	_
+25	wankte	wanken	VERB	VVFIN	_	2	H	2:H	_
+26	nicht	nicht	PART	CARD	_	25	D	25:D	_
+27	und	und	CCONJ	NE	_	2	L	2:L	_
+28	hob	heben	VERB	VVFIN	_	2	H	2:H	_
+29	mich	ich	PRON	PRF	_	28	A	28:A	_
+30	auf	auf	ADP	APPR	_	28	Terminal	28:Terminal	_
+31	mit	mit	ADP	APPR	_	33	R	33:R	_
+32	den	der	DET	ART	_	33	E	33:E	_
+33	Worten	Wort	NOUN	NN	_	28	A	28:A	_
+34	:	:	PUNCT	$.	_	33	U	33:U	_
+

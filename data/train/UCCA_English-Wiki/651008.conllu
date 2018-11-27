@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 651008
+# text = Lennon spent the next three and a half years in and out of deportation hearings until on 8 October 1975 , when a court of appeals barred the deportation attempt , stating " ... the courts will not condone selective deportation based upon secret political grounds .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	spent	spend	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	9	E	9:E	_
+4	next	next	ADJ	JJ	_	9	E	9:E	_
+5	three	three	NUM	CD	_	9	E	9:E	_
+6	and	and	CCONJ	CC	_	5	Terminal	5:Terminal	_
+7	a	a	DET	DT	_	5	Terminal	5:Terminal	_
+8	half	half	NOUN	NN	_	5	Terminal	5:Terminal	_
+9	years	year	NOUN	NNS	_	2	D	2:D	_
+10	in	in	ADP	IN	_	2	E	2:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	out	out	ADP	IN	_	10	C	10:C	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	deportation	deportation	NOUN	NN	_	15	E	15:E	_
+15	hearings	hearing	NOUN	NNS	_	2	A	2:A	_
+16	until	until	SCONJ	IN	_	2	L	2:L	_
+17	on	on	ADP	IN	_	20	R	20:R	_
+18	8	8	NUM	CD	_	20	E	20:E	_
+19	October	October	PROPN	NNP	_	20	E	20:E	_
+20	1975	1975	NUM	CD	_	27	D	27:D	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	when	when	ADV	WRB	_	2	L	2:L	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	court	court	NOUN	NN	_	0	C	0:C|32:A	_
+25	of	of	ADP	IN	_	26	R	26:R	_
+26	appeals	appeal	NOUN	NNS	_	24	E	24:E	_
+27	barred	bar	VERB	VBD	_	2	H	2:H	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	deportation	deportation	NOUN	NN	_	30	A	30:A	_
+30	attempt	attempt	NOUN	NN	_	27	A	27:A	_
+31	,	,	PUNCT	,	_	2	U	2:U	_
+32	stating	state	VERB	VBG	_	2	H	2:H	_
+33	"	"	PUNCT	''	_	32	U	32:U	_
+34	...	...	PUNCT	,	_	32	U	32:U	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	courts	court	NOUN	NNS	_	39	A	39:A	_
+37	will	will	AUX	MD	_	39	F	39:F	_
+38	not	not	PART	RB	_	39	D	39:D	_
+39	condone	condone	VERB	VB	_	32	A	32:A	_
+40	selective	selective	ADJ	JJ	_	41	E	41:E	_
+41	deportation	deportation	NOUN	NN	_	39	A	39:A	_
+42	based	base	VERB	VBN	_	41	E	41:E	_
+43	upon	upon	ADP	IN	_	46	R	46:R	_
+44	secret	secret	ADJ	JJ	_	46	E	46:E	_
+45	political	political	ADJ	JJ	_	46	E	46:E	_
+46	grounds	grounds	NOUN	NNS	_	42	A	42:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

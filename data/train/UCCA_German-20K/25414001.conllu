@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25414001
+# text = Gegen Ende März kam ich nach 6monatigem Aufenthalt in Nebraska mit kostbaren Sammlungen zu New York an und meine Abreise nach Frankreich war auf Anfang Mai festgesetzt .
+1	Gegen	gegen	ADP	APPR	_	3	R	3:R	_
+2	Ende	Ende	NOUN	NN	_	3	E	3:E	_
+3	März	März	PROPN	NN	_	4	D	4:D	_
+4	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	nach	nach	ADP	XY	_	8	R	8:R	_
+7	6monatigem	6monatigem	ADJ	ADJA	_	8	E	8:E	_
+8	Aufenthalt	Aufenthalt	NOUN	NN	_	4	A	4:A	_
+9	in	in	ADP	APPR	_	10	R	10:R	_
+10	Nebraska	Nebraska	PROPN	NE	_	8	E	8:E	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	kostbaren	kostbar	ADJ	ADJA	_	13	E	13:E	_
+13	Sammlungen	Sammlung	NOUN	NN	_	4	A	4:A	_
+14	zu	zu	ADP	NE	_	15	R	15:R	_
+15	New	New	PROPN	NE	_	4	A	4:A	_
+16	York	York	PROPN	NE	_	15	Terminal	15:Terminal	_
+17	an	an	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+18	und	und	CCONJ	NE	_	4	L	4:L	_
+19	meine	mein	PRON	VVFIN	_	20	E	20:E	_
+20	Abreise	Abreise	NOUN	NN	_	27	A	27:A	_
+21	nach	nach	ADP	CARD	_	22	R	22:R	_
+22	Frankreich	Frankreich	PROPN	NE	_	20	A	20:A	_
+23	war	sein	AUX	ADV	_	27	F	27:F	_
+24	auf	auf	ADP	APPR	_	26	R	26:R	_
+25	Anfang	Anfang	NOUN	NN	_	26	E	26:E	_
+26	Mai	Mai	PROPN	NN	_	27	D	27:D	_
+27	festgesetzt	festsetzen	VERB	VVPP	_	4	H	4:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

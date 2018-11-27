@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 730001
+# text = It became the fourth - highest grossing film of 2011 and Jolie 's highest grossing film to date , earning $ 666 million at the international box office .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	became	become	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	8	E	8:E	_
+4	fourth	fourth	NOUN	NN	_	8	E	8:E	_
+5	-	-	PUNCT	,	_	8	U	8:U	_
+6	highest	highest	ADJ	JJS	_	7	E	7:E	_
+7	grossing	grossing	NOUN	NN	_	8	E	8:E	_
+8	film	film	NOUN	NN	_	2	A	2:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	2011	2011	NUM	CD	_	8	E	8:E	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	Jolie	Jolie	PROPN	NNP	_	16	A	16:A	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	highest	highest	ADJ	JJS	_	15	E	15:E	_
+15	grossing	gross	NOUN	NN	_	16	E	16:E	_
+16	film	film	NOUN	NN	_	0	C	0:C|20:A	_
+17	to	to	ADP	IN	_	18	R	18:R	_
+18	date	date	NOUN	NN	_	16	D	16:D	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	earning	earn	VERB	VBG	_	2	H	2:H	_
+21	$	$	SYM	$	_	20	U	20:U	_
+22	666	666	NUM	CD	_	20	A	20:A	_
+23	million	million	NUM	CD	_	22	Terminal	22:Terminal	_
+24	at	at	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	international	international	ADJ	JJ	_	27	E	27:E	_
+27	box	box	NOUN	NN	_	20	A	20:A	_
+28	office	office	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

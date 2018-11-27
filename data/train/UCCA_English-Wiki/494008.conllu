@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 494008
+# text = [ dead link ] Despite their altercation , Underwood and Bowie remained good friends , and Underwood went on to create the artwork for Bowie 's early albums .
+1	[	[	PUNCT	-LRB-	_	2	U	2:U	_
+2	dead	dead	ADJ	JJ	_	0	H	0:H	_
+3	link	link	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	]	]	PUNCT	-RRB-	_	2	U	2:U	_
+5	Despite	despite	ADP	IN	_	2	L	2:L	_
+6	their	they	PRON	PRP$	_	7	A	7:A	_
+7	altercation	altercation	NOUN	NN	_	2	H	2:H	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Underwood	Underwood	PROPN	NNP	_	12	A	12:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	Bowie	Bowie	PROPN	NNP	_	9	C	9:C	_
+12	remained	remain	VERB	VBD	_	2	H	2:H	_
+13	good	good	ADJ	JJ	_	14	E	14:E	_
+14	friends	friend	NOUN	NNS	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	and	and	CCONJ	CC	_	2	L	2:L	_
+17	Underwood	Underwood	PROPN	NNP	_	21	A	21:A	_
+18	went	go	VERB	VBD	_	21	E	21:E	_
+19	on	on	ADV	RB	_	18	Terminal	18:Terminal	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	create	create	VERB	VB	_	2	H	2:H	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	artwork	artwork	NOUN	NN	_	21	A	21:A	_
+24	for	for	ADP	IN	_	28	R	28:R	_
+25	Bowie	Bowie	PROPN	NNP	_	28	E	28:E	_
+26	's	's	PART	POS	_	25	R	25:R	_
+27	early	early	ADJ	JJ	_	28	E	28:E	_
+28	albums	album	NOUN	NNS	_	23	E	23:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

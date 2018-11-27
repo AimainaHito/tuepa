@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 148019
+# text = They often spent stretches of time apart due to their work , particularly in the 1950s when Hepburn was largely abroad for career commitments .
+1	They	they	PRON	PRP	_	7	A	7:A	_
+2	often	often	ADV	RB	_	7	D	7:D	_
+3	spent	spend	VERB	VBD	_	7	D	7:D	_
+4	stretches	stretch	NOUN	NNS	_	6	E	6:E	_
+5	of	of	ADP	IN	_	6	E	6:E	_
+6	time	time	NOUN	NN	_	7	A	7:A	_
+7	apart	apart	ADV	RB	_	0	H	0:H	_
+8	due	due	ADP	IN	_	7	L	7:L	_
+9	to	to	ADP	IN	_	8	Terminal	8:Terminal	_
+10	their	they	PRON	PRP$	_	11	A	11:A	_
+11	work	work	NOUN	NN	_	7	H	7:H	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	particularly	particularly	ADV	RB	_	7	L	7:L	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	1950s	1950	NOUN	NNS	_	19	D	19:D	_
+17	when	when	ADV	WRB	_	13	F	13:F	_
+18	Hepburn	Hepburn	PROPN	NNP	_	19	A	19:A	_
+19	was	be	AUX	VBD	_	7	H	7:H	_
+20	largely	largely	ADV	RB	_	19	D	19:D	_
+21	abroad	abroad	ADV	RB	_	19	A	19:A	_
+22	for	for	ADP	IN	_	24	R	24:R	_
+23	career	career	NOUN	NN	_	24	E	24:E	_
+24	commitments	commitment	NOUN	NNS	_	19	A	19:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

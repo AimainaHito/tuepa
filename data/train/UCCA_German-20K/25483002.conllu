@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25483002
+# text = Aber das Ungeheuer » heizte « ohne Zweifel ebenfalls , denn es fuhr ganz leicht auch seine 19,3 Meilen .
+1	Aber	aber	ADV	KON	_	5	L	5:L	_
+2	das	der	DET	ART	_	3	E	3:E	_
+3	Ungeheuer	Ungeheuer	NOUN	NN	_	5	A	5:A	_
+4	»	»	PUNCT	$(	_	5	U	5:U	_
+5	heizte	heizen	VERB	ADJA	_	0	H	0:H	_
+6	«	«	PUNCT	$(	_	5	U	5:U	_
+7	ohne	ohne	ADP	NN	_	8	E	8:E	_
+8	Zweifel	Zweifel	NOUN	NN	_	5	G	5:G	_
+9	ebenfalls	ebenfalls	ADV	ADV	_	5	D	5:D	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	denn	denn	CCONJ	KON	_	5	L	5:L	_
+12	es	es	PRON	PPER	_	13	A	13:A	_
+13	fuhr	fahren	VERB	VVFIN	_	5	H	5:H	_
+14	ganz	ganz	ADJ	ADV	_	15	E	15:E	_
+15	leicht	leicht	ADJ	ADJD	_	13	D	13:D	_
+16	auch	auch	ADV	ADV	_	13	D	13:D	_
+17	seine	sein	DET	PPOSAT	_	19	E	19:E	_
+18	19,3	19,3	NUM	CARD	_	19	E	19:E	_
+19	Meilen	Meile	NOUN	NN	_	13	A	13:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

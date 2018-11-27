@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 474015
+# text = The Lakers had a record of 22 - 10 in the games Johnson played , and he considered his final comeback " a success .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Lakers	Laker	NOUN	NNS	_	5	A	5:A	_
+3	had	have	VERB	VBD	_	5	F	5:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	record	record	NOUN	NN	_	0	H	0:H	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	22	22	NUM	CD	_	5	A	5:A	_
+8	-	-	SYM	SYM	_	7	U	7:U	_
+9	10	10	NUM	CD	_	7	Terminal	7:Terminal	_
+10	in	in	ADP	IN	_	5	L	5:L	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	games	game	NOUN	NNS	_	14	A	14:A	_
+13	Johnson	Johnson	PROPN	NNP	_	14	A	14:A	_
+14	played	play	VERB	VBD	_	5	H	5:H	_
+15	,	,	PUNCT	,	_	5	U	5:U	_
+16	and	and	CCONJ	CC	_	5	L	5:L	_
+17	he	he	PRON	PRP	_	18	A	18:A	_
+18	considered	consider	VERB	VBD	_	5	H	5:H	_
+19	his	he	PRON	PRP$	_	21	E	21:E	_
+20	final	final	ADJ	JJ	_	21	E	21:E	_
+21	comeback	comeback	NOUN	NN	_	18	A	18:A	_
+22	"	"	PUNCT	''	_	18	U	18:U	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	success	success	NOUN	NN	_	18	A	18:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25592010
+# text = Die mancherlei Korallenarten , die wie Champignons gestalteten Fongiten , die Anemonen , bildeten einen Blumen grund , bunt verziert mit Porpiten im Schmuck ihres Kragens lasurblauer Fühl fäden , mit See sternen , womit der Sand besät war .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	mancherlei	mancherlei	NUM	PIAT	_	3	E	3:E	_
+3	Korallenarten	Korallenart	NOUN	NN	_	14	A	14:A	_
+4	,	,	PUNCT	$,	_	14	U	14:U	_
+5	die	der	PRON	PRELS	_	9	E	9:E	_
+6	wie	wie	ADP	ADV	_	8	R	8:R	_
+7	Champignons	Champignons	PROPN	NE	_	8	A	8:A	_
+8	gestalteten	gestalten	VERB	VVFIN	_	9	E	9:E	_
+9	Fongiten	Fongiten	PROPN	NE	_	14	A	14:A	_
+10	,	,	PUNCT	$,	_	14	U	14:U	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Anemonen	Anemon	NOUN	NN	_	14	A	14:A	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	bildeten	bilden	VERB	VVFIN	_	0	H	0:H	_
+15	einen	ein	DET	ART	_	17	E	17:E	_
+16	Blumen	Blume	NOUN	NN	_	17	E	17:E	_
+17	grund	grund	ADJ	APPR	_	14	A	14:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	bunt	bunt	ADJ	ADJD	_	20	D	20:D	_
+20	verziert	verziert	VERB	ADJD	_	17	E	17:E	_
+21	mit	mit	ADP	APPR	_	22	R	22:R	_
+22	Porpiten	Porpiten	PROPN	NN	_	20	A	20:A	_
+23	im	im	PROPN	NE	_	24	R	24:R	_
+24	Schmuck	Schmucken	PROPN	NE	_	29	E	29:E	_
+25	ihres	ihr	DET	PPOSAT	_	26	R	26:R	_
+26	Kragens	Kragen	NOUN	NN	_	24	E	24:E	_
+27	lasurblauer	lasurblauer	ADJ	NE	_	29	E	29:E	_
+28	Fühl	Fühl	NOUN	NN	_	29	E	29:E	_
+29	fäden	fäden	VERB	NN	_	22	E	22:E	_
+30	,	,	PUNCT	$,	_	14	U	14:U	_
+31	mit	mit	ADP	APPR	_	33	R	33:R	_
+32	See	See	NOUN	NN	_	33	E	33:E	_
+33	sternen	sternen	VERB	VVINF	_	14	A	14:A	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	womit	womit	PRON	VVFIN	_	38	R	38:R	_
+36	der	der	DET	ART	_	37	E	37:E	_
+37	Sand	Sand	NOUN	NN	_	38	A	38:A	_
+38	besät	besaten	VERB	NN	_	33	E	33:E	_
+39	war	sein	AUX	ADV	_	38	F	38:F	_
+40	.	.	PUNCT	$.	_	38	U	38:U	_
+

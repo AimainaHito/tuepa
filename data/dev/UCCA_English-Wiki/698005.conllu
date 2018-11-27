@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 698005
+# text = Some of Dylan 's friends ( including Ramblin ' Jack Elliott ) claim that , in conversation immediately after the event , Dylan denied that he was married .
+1	Some	some	DET	DT	_	5	E	5:E	_
+2	of	of	ADP	IN	_	5	R	5:R	_
+3	Dylan	Dylan	PROPN	NNP	_	5	E	5:E	_
+4	's	's	PART	POS	_	5	R	5:R	_
+5	friends	friend	NOUN	NNS	_	13	A	13:A	_
+6	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+7	including	include	VERB	VBG	_	8	R	8:R	_
+8	Ramblin	Ramblin	PROPN	NNP	_	5	E	5:E	_
+9	'	's	PART	POS	_	8	U	8:U	_
+10	Jack	Jack	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	Elliott	Elliott	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	)	)	PUNCT	-RRB-	_	13	U	13:U	_
+13	claim	claim	NOUN	NN	_	0	H	0:H	_
+14	that	that	PRON	WDT	_	24	F	24:F	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	in	in	ADP	IN	_	13	L	13:L	_
+17	conversation	conversation	NOUN	NN	_	13	H	13:H	_
+18	immediately	immediately	ADV	RB	_	13	L	13:L	_
+19	after	after	ADP	IN	_	18	Terminal	18:Terminal	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	event	event	NOUN	NN	_	13	H	13:H	_
+22	,	,	PUNCT	,	_	13	U	13:U	_
+23	Dylan	Dylan	PROPN	NNP	_	24	A	24:A	_
+24	denied	deny	VERB	VBD	_	13	A	13:A	_
+25	that	that	SCONJ	IN	_	28	F	28:F	_
+26	he	he	PRON	PRP	_	28	A	28:A	_
+27	was	be	AUX	VBD	_	28	F	28:F	_
+28	married	marry	ADJ	JJ	_	24	A	24:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

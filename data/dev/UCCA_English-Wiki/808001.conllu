@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 808001
+# text = According to Spitz , Rhone felt that McCartney had a compulsion to control situations .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	3	R	3:R	_
+3	Spitz	Spitz	PROPN	NNP	_	1	A	1:A	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	Rhone	Rhone	PROPN	NNP	_	6	A	6:A	_
+6	felt	feel	VERB	VBD	_	1	A	1:A	_
+7	that	that	SCONJ	IN	_	11	F	11:F	_
+8	McCartney	McCartney	PROPN	NNP	_	11	A	11:A|13:A	_
+9	had	have	VERB	VBD	_	11	F	11:F	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	compulsion	compulsion	NOUN	NN	_	6	A	6:A	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	control	control	VERB	VB	_	11	A	11:A	_
+14	situations	situation	NOUN	NNS	_	13	A	13:A	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

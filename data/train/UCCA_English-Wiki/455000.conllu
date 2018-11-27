@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 455000
+# text = Jennings ' debut on September 5 , 1983 , marked the beginning of a steady climb in the ratings for ABC News .
+1	Jennings	Jenning	PROPN	NNP	_	3	A	3:A	_
+2	'	'	PART	POS	_	3	U	3:U	_
+3	debut	debut	NOUN	NN	_	10	A	10:A	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	September	September	PROPN	NNP	_	10	D	10:D	_
+6	5	5	NUM	CD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	1983	1983	NUM	CD	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	marked	mark	VERB	VBD	_	0	H	0:H	_
+11	the	the	DET	DT	_	16	E	16:E	_
+12	beginning	beginning	NOUN	NN	_	16	E	16:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	steady	steady	ADJ	JJ	_	16	E	16:E	_
+16	climb	climb	NOUN	NN	_	10	A	10:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	ratings	rating	NOUN	NNS	_	16	E	16:E	_
+20	for	for	ADP	IN	_	22	R	22:R	_
+21	ABC	ABC	PROPN	NNP	_	22	E	22:E	_
+22	News	News	PROPN	NNP	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 377001
+# text = He made his acting debut as Billy Crystal 's son in the 1991 comedy film City Slickers .
+1	He	he	PRON	PRP	_	5	A	5:A	_
+2	made	make	VERB	VBD	_	5	F	5:F	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	acting	act	VERB	VBG	_	5	E	5:E	_
+5	debut	debut	NOUN	NN	_	0	H	0:H	_
+6	as	as	ADP	IN	_	10	R	10:R	_
+7	Billy	Billy	PROPN	NNP	_	10	E	10:E	_
+8	Crystal	Crystal	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	son	son	NOUN	NN	_	5	A	5:A	_
+11	in	in	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	1991	1991	NUM	CD	_	15	E	15:E	_
+14	comedy	comedy	NOUN	NN	_	15	E	15:E	_
+15	film	film	NOUN	NN	_	16	E	16:E	_
+16	City	City	PROPN	NNP	_	5	A	5:A	_
+17	Slickers	Slickers	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

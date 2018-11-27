@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 699010
+# text = Mystery still surrounds the circumstances of the accident since no ambulance was called to the scene and Dylan was not hospitalized .
+1	Mystery	mystery	NOUN	NN	_	3	A	3:A	_
+2	still	still	ADV	RB	_	3	D	3:D	_
+3	surrounds	surround	VERB	VBZ	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	circumstances	circumstance	NOUN	NNS	_	3	A	3:A	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	accident	accident	NOUN	NN	_	5	E	5:E	_
+9	since	since	ADP	IN	_	3	L	3:L	_
+10	no	no	DET	DT	_	13	D	13:D	_
+11	ambulance	ambulance	NOUN	NN	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	called	call	VERB	VBN	_	3	H	3:H	_
+14	to	to	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	scene	scene	NOUN	NN	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	3	L	3:L	_
+18	Dylan	Dylan	PROPN	NNP	_	21	A	21:A	_
+19	was	be	AUX	VBD	_	21	F	21:F	_
+20	not	not	PART	RB	_	21	D	21:D	_
+21	hospitalized	hospitalize	VERB	VBN	_	3	H	3:H	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

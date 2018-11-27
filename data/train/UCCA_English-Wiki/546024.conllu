@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 546024
+# text = Asked to respond to his brother 's death , Jack said , " I did n't give a shit about Harry .
+1	Asked	ask	VERB	VBD	_	10	E	10:E	_
+2	to	to	PART	TO	_	3	F	3:F	_
+3	respond	respond	VERB	VB	_	1	A	1:A	_
+4	to	to	ADP	IN	_	8	R	8:R	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	brother	brother	NOUN	NN	_	8	A	8:A	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	death	death	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	Jack	Jack	PROPN	NNP	_	11	A	11:A	_
+11	said	say	VERB	VBD	_	0	H	0:H	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	"	"	PUNCT	``	_	11	U	11:U	_
+14	I	I	PRON	PRP	_	15	A	15:A	_
+15	did	do	AUX	VBD	_	11	A	11:A	_
+16	n't	not	PART	RB	_	15	D	15:D	_
+17	give	give	VERB	VB	_	15	Terminal	15:Terminal	_
+18	a	a	DET	DT	_	15	Terminal	15:Terminal	_
+19	shit	shit	NOUN	NN	_	15	Terminal	15:Terminal	_
+20	about	about	ADP	IN	_	21	R	21:R	_
+21	Harry	Harry	PROPN	NNP	_	15	A	15:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25795017
+# text = Die Hähne der Behälter wurden weit geöffnet , und 100 Kubikmeter Wasser stürzten ein und erhöhten das Gewicht der ›Nautilus‹ um 100.000 Kilogramm .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Hähne	Hahn	NOUN	NN	_	7	A	7:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Behälter	Behälter	NOUN	NN	_	2	E	2:E	_
+5	wurden	werden	AUX	ADJD	_	7	F	7:F	_
+6	weit	weit	ADJ	ADJD	_	7	D	7:D	_
+7	geöffnet	öffnen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	L	7:L	_
+10	100	100	NUM	CARD	_	11	E	11:E	_
+11	Kubikmeter	Kubikmeter	NOUN	NN	_	12	E	12:E	_
+12	Wasser	Wasser	NOUN	NN	_	0	C	0:C|16:A	_
+13	stürzten	stürzen	VERB	VVFIN	_	7	H	7:H	_
+14	ein	ein	ADV	ART	_	13	Terminal	13:Terminal	_
+15	und	und	CCONJ	NE	_	7	L	7:L	_
+16	erhöhten	erhöhen	VERB	VVFIN	_	7	H	7:H	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Gewicht	Gewicht	NOUN	NN	_	16	A	16:A	_
+19	der	der	DET	ART	_	20	R	20:R	_
+20	›Nautilus‹	›Nautilus‹	NOUN	NE	_	18	E	18:E	_
+21	um	um	ADP	APPR	_	23	R	23:R	_
+22	100.000	100.0	NUM	CARD	_	23	E	23:E	_
+23	Kilogramm	Kilogramm	NOUN	NN	_	16	A	16:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

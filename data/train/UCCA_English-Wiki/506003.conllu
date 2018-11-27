@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 506003
+# text = The same year , Bowie worked with the Pat Metheny Group to record " This Is Not America " for the soundtrack of The Falcon and the Snowman .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Bowie	Bowie	PROPN	NNP	_	6	A	6:A|13:A	_
+6	worked	work	VERB	VBD	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Pat	Pat	PROPN	NNP	_	0	C	0:C|13:A	_
+10	Metheny	Metheny	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Group	Group	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	to	to	PART	TO	_	6	L	6:L	_
+13	record	record	VERB	VB	_	6	H	6:H	_
+14	"	"	PUNCT	``	_	13	U	13:U	_
+15	This	this	PRON	DT	_	13	A	13:A	_
+16	Is	be	AUX	VBZ	_	15	Terminal	15:Terminal	_
+17	Not	not	PART	RB	_	15	Terminal	15:Terminal	_
+18	America	America	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	"	"	PUNCT	''	_	13	U	13:U	_
+20	for	for	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	soundtrack	soundtrack	NOUN	NN	_	13	A	13:A	_
+23	of	of	ADP	IN	_	24	R	24:R	_
+24	The	the	DET	DT	_	22	E	22:E	_
+25	Falcon	Falcon	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	and	and	CCONJ	CC	_	24	Terminal	24:Terminal	_
+27	the	the	DET	DT	_	24	Terminal	24:Terminal	_
+28	Snowman	Snowman	NOUN	NN	_	24	Terminal	24:Terminal	_
+29	.	.	PUNCT	.	_	24	U	24:U	_
+

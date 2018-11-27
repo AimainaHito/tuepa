@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25622001
+# text = Ned Land probierte den Boden mit dem Fuß , als wolle er ihn in Besitz nehmen .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	probierte	probieren	VERB	VVFIN	_	0	H	0:H	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Boden	Boden	NOUN	NN	_	3	A	3:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Fuß	Fuß	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	als	als	SCONJ	KOUS	_	3	L	3:L	_
+11	wolle	wollen	AUX	VMFIN	_	14	D	14:D	_
+12	er	er	PRON	PPER	_	14	A	14:A	_
+13	ihn	er	PRON	PPER	_	14	A	14:A	_
+14	in	in	ADP	APPR	_	3	H	3:H	_
+15	Besitz	Besitz	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	nehmen	nehmen	VERB	CARD	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

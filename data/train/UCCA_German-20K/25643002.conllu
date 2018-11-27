@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25643002
+# text = » Ich habe diese Beobachtungen angestellt « , sagte er , » und kann für ihre Zuverlässigkeit bürgen . «
+1	»	»	PUNCT	$(	_	18	U	18:U	_
+2	Ich	ich	PRON	PPER	_	5	A	5:A|18:A	_
+3	habe	haben	AUX	VAFIN	_	5	F	5:F	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Beobachtungen	Beobachtunge	NOUN	NN	_	9	A	9:A	_
+6	angestellt	anstellen	VERB	VVPP	_	5	D	5:D	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	er	er	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	und	und	CCONJ	NE	_	5	L	5:L	_
+14	kann	können	AUX	VMFIN	_	18	D	18:D	_
+15	für	für	ADP	APPR	_	17	R	17:R	_
+16	ihre	ihr	DET	PPOSAT	_	17	E	17:E	_
+17	Zuverlässigkeit	Zuverlässigkeit	NOUN	NN	_	18	A	18:A	_
+18	bürgen	bürgen	VERB	VVINF	_	5	H	5:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+20	«	«	PUNCT	$(	_	18	U	18:U	_
+

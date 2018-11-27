@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 546005
+# text = He was angered by the perceived ingratitude of television actors , who evidently showed more independence than film actors , and this deepened his contempt for the new medium .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	angered	anger	VERB	VBN	_	0	H	0:H	_
+4	by	by	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	perceived	perceive	VERB	VBN	_	7	D	7:D	_
+7	ingratitude	ingratitude	NOUN	NN	_	3	A	3:A	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	television	television	NOUN	NN	_	10	E	10:E	_
+10	actors	actor	NOUN	NNS	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	who	who	PRON	WP	_	14	F	14:F	_
+13	evidently	evidently	ADV	RB	_	14	D	14:D	_
+14	showed	show	VERB	VBD	_	10	E	10:E	_
+15	more	more	ADJ	JJR	_	16	E	16:E	_
+16	independence	independence	NOUN	NN	_	0	C	0:C|19:A	_
+17	than	than	ADP	IN	_	14	R	14:R	_
+18	film	film	NOUN	NN	_	19	E	19:E	_
+19	actors	actor	NOUN	NNS	_	14	C	14:C	_
+20	,	,	PUNCT	,	_	3	U	3:U	_
+21	and	and	CCONJ	CC	_	3	L	3:L	_
+22	this	this	PRON	DT	_	23	A	23:A	_
+23	deepened	deepen	VERB	VBD	_	3	H	3:H	_
+24	his	he	PRON	PRP$	_	25	A	25:A	_
+25	contempt	contempt	NOUN	NN	_	23	A	23:A	_
+26	for	for	ADP	IN	_	29	R	29:R	_
+27	the	the	DET	DT	_	29	E	29:E	_
+28	new	new	ADJ	JJ	_	29	E	29:E	_
+29	medium	medium	NOUN	NN	_	25	A	25:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

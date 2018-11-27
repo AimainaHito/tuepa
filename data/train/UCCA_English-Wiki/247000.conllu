@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 247000
+# text = In 1999 Hawke starred in Snow Falling on Cedars , in which he played a reporter named Ishmael Chambers , who , after being wounded in World War II , comes home to take over his family newspaper after his father 's death .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1999	1999	NUM	CD	_	4	D	4:D	_
+3	Hawke	Hawke	PROPN	NNP	_	4	A	4:A	_
+4	starred	star	VERB	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	E	6:E	_
+6	Snow	snow	PROPN	NNP	_	4	A	4:A	_
+7	Falling	fall	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	on	on	ADP	IN	_	6	Terminal	6:Terminal	_
+9	Cedars	Cedars	PROPN	NNPS	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	in	in	ADP	IN	_	14	A	14:A	_
+12	which	which	PRON	WDT	_	14	F	14:F	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	played	play	VERB	VBD	_	6	E	6:E	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	reporter	reporter	NOUN	NN	_	14	A	14:A	_
+17	named	name	VERB	VBN	_	16	E	16:E	_
+18	Ishmael	Ishmael	PROPN	NNP	_	17	A	17:A|34:A|25:A	_
+19	Chambers	chambers	PROPN	NNPS	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	16	U	16:U	_
+21	who	who	PRON	WP	_	25	F	25:F	_
+22	,	,	PUNCT	,	_	25	U	25:U	_
+23	after	after	SCONJ	IN	_	25	L	25:L	_
+24	being	be	AUX	VBG	_	25	F	25:F	_
+25	wounded	wound	ADJ	JJ	_	16	E	16:E	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	World	World	PROPN	NNP	_	28	E	28:E	_
+28	War	War	PROPN	NNP	_	25	D	25:D	_
+29	II	ii	PROPN	NNP	_	28	E	28:E	_
+30	,	,	PUNCT	,	_	25	U	25:U	_
+31	comes	come	VERB	VBZ	_	25	H	25:H	_
+32	home	home	ADV	RB	_	31	A	31:A	_
+33	to	to	PART	TO	_	25	L	25:L	_
+34	take	take	VERB	VB	_	25	H	25:H	_
+35	over	over	ADP	RP	_	34	Terminal	34:Terminal	_
+36	his	he	PRON	PRP$	_	38	E	38:E	_
+37	family	family	NOUN	NN	_	38	E	38:E	_
+38	newspaper	newspaper	NOUN	NN	_	34	A	34:A	_
+39	after	after	ADP	IN	_	25	L	25:L	_
+40	his	he	PRON	PRP$	_	41	E	41:E	_
+41	father	father	NOUN	NN	_	43	A	43:A	_
+42	's	's	PART	POS	_	41	R	41:R	_
+43	death	death	NOUN	NN	_	25	H	25:H	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

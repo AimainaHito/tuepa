@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 499000
+# text = Bowie 's love of acting led his total immersion in the characters he created for his music .
+1	Bowie	Bowie	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	love	love	NOUN	NN	_	6	A	6:A	_
+4	of	of	SCONJ	IN	_	5	R	5:R	_
+5	acting	act	VERB	VBG	_	3	A	3:A	_
+6	led	lead	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	9	A	9:A	_
+8	total	total	ADJ	JJ	_	9	D	9:D	_
+9	immersion	immersion	NOUN	NN	_	6	A	6:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	characters	character	NOUN	NNS	_	9	A	9:A	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	created	create	VERB	VBD	_	12	E	12:E	_
+15	for	for	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	music	music	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

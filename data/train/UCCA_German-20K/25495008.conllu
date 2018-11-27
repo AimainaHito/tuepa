@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25495008
+# text = Gott , wenn er an ihn glaubte , sein Gewissen , wenn er eins hatte , waren seine einzigen Richter .
+1	Gott	Gott	NOUN	NE	_	17	A	17:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	wenn	wenn	SCONJ	VVFIN	_	7	R	7:R	_
+4	er	er	PRON	PPER	_	7	A	7:A	_
+5	an	an	ADP	APPR	_	6	R	6:R	_
+6	ihn	er	PRON	PPER	_	7	A	7:A	_
+7	glaubte	glauben	VERB	ADJA	_	1	E	1:E	_
+8	,	,	PUNCT	$,	_	17	U	17:U	_
+9	sein	sein	AUX	PPOSAT	_	10	E	10:E	_
+10	Gewissen	gewiß	ADJ	NN	_	17	A	17:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wenn	wenn	SCONJ	VVFIN	_	15	R	15:R	_
+13	er	er	PRON	PPER	_	15	A	15:A	_
+14	eins	ein	DET	CARD	_	15	A	15:A	_
+15	hatte	haben	VERB	VAFIN	_	10	E	10:E	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+18	seine	sein	DET	PPOSAT	_	20	E	20:E	_
+19	einzigen	einzig	ADJ	ADJA	_	20	E	20:E	_
+20	Richter	Richter	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

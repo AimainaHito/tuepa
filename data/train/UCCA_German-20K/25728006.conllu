@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25728006
+# text = Ein Teil der Mannschaft mit Skaphandern gepanzert , war beschäftigt , halb verfaulte Fässer abzuräumen und Kisten zu leeren inmitten des schwarzen Strandgutes .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Teil	Teil	NOUN	NN	_	4	E	4:E	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Mannschaft	Mannschaft	NOUN	NN	_	0	C	0:C|7:A|19:A	_
+5	mit	mit	ADP	APPR	_	6	R	6:R	_
+6	Skaphandern	Skaphand	NOUN	NN	_	7	A	7:A	_
+7	gepanzert	gepanzert	VERB	VVPP	_	15	H	15:H	_
+8	,	,	PUNCT	$,	_	15	U	15:U	_
+9	war	sein	AUX	ADV	_	15	F	15:F	_
+10	beschäftigt	beschäftigen	ADJ	VVPP	_	15	D	15:D	_
+11	,	,	PUNCT	$,	_	15	U	15:U	_
+12	halb	halb	ADV	APPR	_	13	D	13:D	_
+13	verfaulte	verfault	ADJ	ADJA	_	15	A	15:A	_
+14	Fässer	Fässer	NOUN	NN	_	13	A	13:A	_
+15	abzuräumen	abzuräumen	VERB	VVINF	_	0	H	0:H	_
+16	und	und	CCONJ	NE	_	15	L	15:L	_
+17	Kisten	Kiste	NOUN	NN	_	19	A	19:A	_
+18	zu	zu	PART	NE	_	19	F	19:F	_
+19	leeren	leeren	VERB	VVINF	_	15	H	15:H	_
+20	inmitten	inmitten	ADP	APPR	_	23	R	23:R	_
+21	des	der	DET	ART	_	23	R	23:R	_
+22	schwarzen	schwarz	ADJ	ADJA	_	23	E	23:E	_
+23	Strandgutes	Strandgut	NOUN	NN	_	19	A	19:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

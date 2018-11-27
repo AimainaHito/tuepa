@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 693012
+# text = Cameron Crowe described it as " a fascinating look at a folk artist with his mind wandering towards Elvis Presley and Sun Records . "
+1	Cameron	Cameron	PROPN	NNP	_	3	A	3:A	_
+2	Crowe	Crowe	PRON	PRP	_	1	Terminal	1:Terminal	_
+3	described	describe	VERB	VBD	_	0	H	0:H	_
+4	it	it	PRON	PRP	_	3	A	3:A	_
+5	as	as	SCONJ	IN	_	9	R	9:R	_
+6	"	"	PUNCT	``	_	9	U	9:U	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	fascinating	fascinating	ADJ	JJ	_	9	D	9:D	_
+9	look	look	NOUN	NN	_	3	A	3:A	_
+10	at	at	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	folk	folk	NOUN	NN	_	13	E	13:E	_
+13	artist	artist	NOUN	NN	_	9	A	9:A	_
+14	with	with	ADP	IN	_	9	L	9:L	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	mind	mind	NOUN	NN	_	17	A	17:A	_
+17	wandering	wandere	VERB	VBG	_	9	H	9:H	_
+18	towards	towards	ADP	IN	_	19	R	19:R	_
+19	Elvis	Elvis	PROPN	NNP	_	17	A	17:A	_
+20	Presley	Presley	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	and	and	CCONJ	CC	_	19	N	19:N	_
+22	Sun	Sun	PROPN	NNP	_	19	C	19:C	_
+23	Records	record	NOUN	NNS	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	19	U	19:U	_
+25	"	"	PUNCT	''	_	19	U	19:U	_
+

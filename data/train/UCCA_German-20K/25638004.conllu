@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25638004
+# text = » In welchem , mein Herr ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	In	in	ADP	APPR	_	3	R	3:R	_
+3	welchem	welch	PRON	PRELS	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	PROPN	NN	_	3	G	3:G	_
+7	?	?	PROPN	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

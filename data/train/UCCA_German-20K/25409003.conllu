@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25409003
+# text = Die gleiche Tatsache wurde am 23 . Juli desselben Jahres in den Gewässern des Stillen Ozeans , von dem Christobal Colon der West India and Pacific steam navigation Company beobachtet .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	gleiche	gleich	ADJ	ADJA	_	3	E	3:E	_
+3	Tatsache	Tatsache	NOUN	NN	_	30	A	30:A	_
+4	wurde	werden	AUX	NE	_	30	F	30:F	_
+5	am	ommen	VERB	ADJD	_	6	R	6:R	_
+6	23	23	NUM	CARD	_	30	D	30:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Juli	Juli	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	desselben	derselbe	PRON	PDAT	_	10	R	10:R	_
+10	Jahres	Jahr	NOUN	NN	_	6	E	6:E	_
+11	in	in	ADP	APPR	_	15	R	15:R	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Gewässern	Gewässer	NOUN	NN	_	15	E	15:E	_
+14	des	der	DET	ART	_	13	R	13:R	_
+15	Stillen	Stille	NOUN	NE	_	30	A	30:A	_
+16	Ozeans	Ozeans	PROPN	NE	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	$,	_	30	U	30:U	_
+18	von	von	ADP	NE	_	20	R	20:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Christobal	Christobal	PROPN	NN	_	30	A	30:A	_
+21	Colon	Colon	PROPN	NE	_	20	Terminal	20:Terminal	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	West	West	PROPN	NE	_	20	E	20:E	_
+24	India	India	PROPN	NE	_	23	Terminal	23:Terminal	_
+25	and	and	CCONJ	NE	_	23	Terminal	23:Terminal	_
+26	Pacific	Pacific	PROPN	NE	_	23	Terminal	23:Terminal	_
+27	steam	steommen	VERB	NN	_	23	Terminal	23:Terminal	_
+28	navigation	navigation	NUM	NE	_	23	Terminal	23:Terminal	_
+29	Company	Company	PROPN	NE	_	23	Terminal	23:Terminal	_
+30	beobachtet	beobachtet	VERB	VVPP	_	0	H	0:H	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

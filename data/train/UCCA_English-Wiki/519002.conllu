@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 519002
+# text = Respected for her versatility , she received a Juvenile Academy Award and won a Golden Globe Award as well as Grammy Awards and a Special Tony Award .
+1	Respected	respect	VERB	VBN	_	0	H	0:H	_
+2	for	for	ADP	IN	_	4	R	4:R	_
+3	her	she	PRON	PRP$	_	4	E	4:E	_
+4	versatility	versatility	NOUN	NN	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	she	she	PRON	PRP	_	7	A	7:A|1:A	_
+7	received	receive	VERB	VBD	_	1	H	1:H	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	Juvenile	juvenile	PROPN	NNP	_	11	E	11:E	_
+10	Academy	Academy	PROPN	NNP	_	11	E	11:E	_
+11	Award	Award	PROPN	NNP	_	7	A	7:A	_
+12	and	and	CCONJ	CC	_	1	L	1:L	_
+13	won	win	VERB	VBD	_	1	H	1:H	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	Golden	golden	PROPN	NNP	_	16	E	16:E	_
+16	Globe	Globe	PROPN	NNP	_	17	E	17:E	_
+17	Award	Award	PROPN	NNP	_	13	A	13:A	_
+18	as	as	ADV	RB	_	17	N	17:N	_
+19	well	well	ADV	RB	_	18	Terminal	18:Terminal	_
+20	as	as	ADP	IN	_	18	Terminal	18:Terminal	_
+21	Grammy	Grammy	PROPN	NNP	_	22	E	22:E	_
+22	Awards	awards	PROPN	NNP	_	17	C	17:C	_
+23	and	and	CCONJ	CC	_	17	N	17:N	_
+24	a	a	DET	DT	_	27	E	27:E	_
+25	Special	special	ADJ	JJ	_	27	E	27:E	_
+26	Tony	Tony	PROPN	NNP	_	27	E	27:E	_
+27	Award	Award	PROPN	NNP	_	17	C	17:C	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

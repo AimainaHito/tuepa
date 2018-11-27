@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25755004
+# text = » Gleichviel « , versetzte Ned Land dringend .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Gleichviel	Gleichviel	NOUN	PIS	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	versetzte	versetzen	VERB	ADJA	_	0	H	0:H	_
+6	Ned	Ned	PROPN	NN	_	5	A	5:A|8:A	_
+7	Land	Land	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	dringend	dringend	ADJ	ADJD	_	5	H	5:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

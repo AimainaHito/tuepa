@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25666010
+# text = Ihr Licht erzeugte sich wirklich im leeren Räume , wodurch seine Regelmäßigkeit und Stärke gesichert wurde .
+1	Ihr	Ihr|ihr	DET	PPOSAT	_	2	E	2:E	_
+2	Licht	Licht	NOUN	NN	_	3	A	3:A	_
+3	erzeugte	erzeugen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	wirklich	wirklich	ADJ	ADV	_	3	G	3:G	_
+6	im	im	ADV	NN	_	8	R	8:R	_
+7	leeren	leer	ADJ	VVFIN	_	8	E	8:E	_
+8	Räume	Raum	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	wodurch	wodurch	PRON	VVPP	_	3	L	3:L	_
+11	seine	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Regelmäßigkeit	Regelmäßigkeit	NOUN	NN	_	15	A	15:A	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	Stärke	Stärke	NOUN	NN	_	12	C	12:C	_
+15	gesichert	sichern	VERB	VVPP	_	3	H	3:H	_
+16	wurde	werden	AUX	TRUNC	_	15	F	15:F	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25523002
+# text = » Herr Arronax , wir befinden uns unterm 137 . Grad und 15 Minuten westlicher Länge ... «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Arronax	Arronax	PROPN	NE	_	6	G	6:G	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	wir	wir	PRON	NE	_	6	A	6:A	_
+6	befinden	befinden	VERB	VVFIN	_	0	H	0:H	_
+7	uns	wir	PRON	NN	_	6	Terminal	6:Terminal	_
+8	unterm	unterm	ADV	NN	_	16	R	16:R	_
+9	137	137	NUM	CARD	_	11	E	11:E	_
+10	.	.	PUNCT	$.	_	11	U	11:U	_
+11	Grad	Grad	NOUN	NN	_	16	E	16:E	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	15	15	NUM	CARD	_	14	E	14:E	_
+14	Minuten	Minute	NOUN	NN	_	11	C	11:C	_
+15	westlicher	westlich	ADJ	ADJA	_	16	E	16:E	_
+16	Länge	Länge	NOUN	NN	_	6	A	6:A	_
+17	...	...	PUNCT	$(	_	16	U	16:U	_
+18	«	«	PUNCT	$(	_	16	U	16:U	_
+

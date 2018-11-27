@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25463003
+# text = Aber wie sollte man sonst verfahren ?
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	wie	wie	ADV	ADV	_	6	D	6:D	_
+3	sollte	sollen	AUX	VMFIN	_	6	D	6:D	_
+4	man	man	PRON	PIS	_	6	A	6:A	_
+5	sonst	sonst	ADV	NN	_	6	D	6:D	_
+6	verfahren	verfahren	VERB	VVINF	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 539005
+# text = The brothers were soon poised to exploit the expanding California movie market .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	brothers	brother	NOUN	NNS	_	7	A	7:A	_
+3	were	be	AUX	VBD	_	7	F	7:F	_
+4	soon	soon	ADV	RB	_	7	D	7:D	_
+5	poised	poise	VERB	VBN	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	exploit	exploit	VERB	VB	_	0	H	0:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	expanding	expand	VERB	VBG	_	7	A	7:A	_
+10	California	California	PROPN	NNP	_	9	A	9:A	_
+11	movie	movie	NOUN	NN	_	12	E	12:E	_
+12	market	market	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

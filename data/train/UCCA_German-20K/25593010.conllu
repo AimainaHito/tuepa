@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25593010
+# text = Ich empfand nur in den Finger gelenken einige Unbehaglichkeit , und auch diese verschwand bald .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	empfand	empfinden	VERB	VVFIN	_	0	H	0:H	_
+3	nur	nur	ADV	NE	_	2	D	2:D	_
+4	in	in	ADP	APPR	_	7	R	7:R	_
+5	den	der	DET	ART	_	7	E	7:E	_
+6	Finger	Finger	NOUN	NN	_	7	E	7:E	_
+7	gelenken	lenken	VERB	VVFIN	_	2	A	2:A	_
+8	einige	einige	PRON	PIAT	_	9	E	9:E	_
+9	Unbehaglichkeit	Unbehaglichkeit	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	auch	auch	ADV	ADV	_	14	D	14:D	_
+13	diese	dies	PRON	PDS	_	14	A	14:A	_
+14	verschwand	verschwinden	VERB	VVFIN	_	2	H	2:H	_
+15	bald	bald	ADV	ADV	_	14	D	14:D	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

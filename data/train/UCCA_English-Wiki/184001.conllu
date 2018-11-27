@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 184001
+# text = Davis later recalled that it inspired her full commitment to her chosen career , and said , " Before that performance I wanted to be an actress . When it ended , I had to be an actress ... exactly like Peg Entwistle .
+1	Davis	Davis	PROPN	NNP	_	3	A	3:A|16:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	recalled	recall	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	6	F	6:F	_
+5	it	it	PRON	PRP	_	6	A	6:A	_
+6	inspired	inspire	VERB	VBD	_	3	A	3:A	_
+7	her	she	PRON	PRP$	_	9	A	9:A	_
+8	full	full	ADJ	JJ	_	9	D	9:D	_
+9	commitment	commitment	NOUN	NN	_	6	A	6:A	_
+10	to	to	ADP	IN	_	13	R	13:R	_
+11	her	she	PRON	PRP	_	13	E	13:E	_
+12	chosen	chosen	VERB	VBN	_	13	E	13:E	_
+13	career	career	NOUN	NN	_	9	A	9:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	said	say	VERB	VBD	_	3	H	3:H	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	"	"	PUNCT	``	_	16	U	16:U	_
+19	Before	before	SCONJ	IN	_	21	L	21:L	_
+20	that	that	DET	DT	_	21	E	21:E	_
+21	performance	performance	NOUN	NN	_	16	A	16:A	_
+22	I	I	PRON	PRP	_	23	A	23:A|25:A	_
+23	wanted	want	VERB	VBD	_	21	H	21:H	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	be	be	AUX	VB	_	23	A	23:A	_
+26	an	a	DET	DT	_	27	E	27:E	_
+27	actress	actress	NOUN	NN	_	25	A	25:A	_
+28	.	.	PUNCT	.	_	21	U	21:U	_
+29	When	when	ADV	WRB	_	21	L	21:L	_
+30	it	it	PRON	PRP	_	31	A	31:A	_
+31	ended	end	VERB	VBD	_	21	H	21:H	_
+32	,	,	PUNCT	,	_	21	U	21:U	_
+33	I	I	PRON	PRP	_	36	A	36:A	_
+34	had	have	VERB	VBD	_	36	F	36:F	_
+35	to	to	PART	TO	_	36	F	36:F	_
+36	be	be	AUX	VB	_	21	H	21:H	_
+37	an	a	DET	DT	_	38	E	38:E	_
+38	actress	actress	NOUN	NN	_	36	A	36:A	_
+39	...	...	PUNCT	,	_	38	U	38:U	_
+40	exactly	exactly	ADV	RB	_	42	E	42:E	_
+41	like	like	ADP	IN	_	42	R	42:R	_
+42	Peg	Peg	PROPN	NNP	_	38	E	38:E	_
+43	Entwistle	Entwistle	PROPN	NNP	_	42	Terminal	42:Terminal	_
+44	.	.	PUNCT	.	_	42	U	42:U	_
+

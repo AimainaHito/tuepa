@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25731012
+# text = Während des Voranschreitens vernahm ich über meinem Kopf ein gewisses Rieseln .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	des	der	DET	ART	_	3	E	3:E	_
+3	Voranschreitens	Voranschreiten	NOUN	NN	_	4	A	4:A	_
+4	vernahm	vernehmen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	über	über	ADP	ADJD	_	8	R	8:R	_
+7	meinem	mein	DET	PPOSAT	_	8	E	8:E	_
+8	Kopf	Kopf	NOUN	NN	_	4	A	4:A	_
+9	ein	ein	DET	ART	_	11	E	11:E	_
+10	gewisses	gewisses	ADJ	NN	_	11	D	11:D	_
+11	Rieseln	Riesel	NOUN	NN	_	4	A	4:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

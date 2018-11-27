@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 692012
+# text = Like " Blowin ' in the Wind " , " A Hard Rain 's a - Gonna Fall " marked an important new direction in modern songwriting , blending a stream - of - consciousness , imagist lyrical attack with a traditional folk form .
+1	Like	like	ADP	IN	_	3	R	3:R	_
+2	"	"	PUNCT	``	_	3	U	3:U	_
+3	Blowin	Blowin	PROPN	NNP	_	20	A	20:A	_
+4	'	'	PUNCT	''	_	3	U	3:U	_
+5	in	in	ADP	IN	_	3	Terminal	3:Terminal	_
+6	the	the	DET	DT	_	3	Terminal	3:Terminal	_
+7	Wind	wind	PROPN	NNP	_	3	Terminal	3:Terminal	_
+8	"	"	PUNCT	''	_	20	U	20:U	_
+9	,	,	PUNCT	,	_	20	U	20:U	_
+10	"	"	PUNCT	``	_	20	U	20:U	_
+11	A	a	DET	DT	_	20	A	20:A	_
+12	Hard	hard	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Rain	rain	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	's	be	PART	POS	_	11	Terminal	11:Terminal	_
+15	a	a	NOUN	NN	_	11	Terminal	11:Terminal	_
+16	-	-	PUNCT	,	_	11	U	11:U	_
+17	Gonna	Gonna	PROPN	NNP	_	11	Terminal	11:Terminal	_
+18	Fall	fall	NOUN	NN	_	11	Terminal	11:Terminal	_
+19	"	"	PUNCT	''	_	20	U	20:U	_
+20	marked	mark	VERB	VBN	_	0	H	0:H	_
+21	an	a	DET	DT	_	24	E	24:E	_
+22	important	important	ADJ	JJ	_	24	E	24:E	_
+23	new	new	ADJ	JJ	_	24	E	24:E	_
+24	direction	direction	NOUN	NN	_	0	C	0:C|29:A	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	modern	modern	ADJ	JJ	_	27	E	27:E	_
+27	songwriting	songwriting	NOUN	NN	_	24	E	24:E	_
+28	,	,	PUNCT	,	_	20	U	20:U	_
+29	blending	blend	VERB	VBG	_	20	H	20:H	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	stream	stream	NOUN	NN	_	39	E	39:E	_
+32	-	-	PUNCT	HYPH	_	31	U	31:U	_
+33	of	of	ADP	IN	_	35	R	35:R	_
+34	-	-	PUNCT	HYPH	_	35	U	35:U	_
+35	consciousness	consciousness	NOUN	NN	_	31	E	31:E	_
+36	,	,	PUNCT	,	_	39	U	39:U	_
+37	imagist	imagist	ADJ	JJS	_	39	E	39:E	_
+38	lyrical	lyrical	ADJ	JJ	_	39	E	39:E	_
+39	attack	attack	NOUN	NN	_	29	A	29:A	_
+40	with	with	ADP	IN	_	39	N	39:N	_
+41	a	a	DET	DT	_	44	E	44:E	_
+42	traditional	traditional	ADJ	JJ	_	44	E	44:E	_
+43	folk	folk	NOUN	NN	_	44	E	44:E	_
+44	form	form	NOUN	NN	_	39	C	39:C	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

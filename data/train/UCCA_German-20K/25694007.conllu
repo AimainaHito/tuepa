@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25694007
+# text = Aber weil ich keine Aussicht hatte , sie in der Levante zu studieren , so begnügte ich mich , sie in den Gewässern des Roten Meeres zu beobachten .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+3	ich	ich	PRON	PPER	_	6	A	6:A|13:A	_
+4	keine	kein	PRON	PIAT	_	6	D	6:D	_
+5	Aussicht	Aussicht	NOUN	NN	_	6	A	6:A	_
+6	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sie	sie	PRON	ADV	_	13	A	13:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Levante	Levante	NOUN	NN	_	13	A	13:A	_
+12	zu	zu	PART	NE	_	13	F	13:F	_
+13	studieren	studieren	VERB	VVINF	_	5	E	5:E	_
+14	,	,	PUNCT	$,	_	6	U	6:U	_
+15	so	so	ADV	ADV	_	6	L	6:L	_
+16	begnügte	begnügen	VERB	VVFIN	_	6	H	6:H	_
+17	ich	ich	PRON	PPER	_	16	A	16:A	_
+18	mich	ich	PRON	PRF	_	16	Terminal	16:Terminal	_
+19	,	,	PUNCT	$,	_	16	U	16:U	_
+20	sie	sie	PRON	ADV	_	28	A	28:A	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Gewässern	Gewässer	NOUN	NN	_	28	A	28:A	_
+24	des	der	DET	ART	_	25	R	25:R	_
+25	Roten	rot	PROPN	ADJA	_	23	E	23:E	_
+26	Meeres	Meer	PROPN	NN	_	25	E	25:E	_
+27	zu	zu	PART	VVINF	_	28	F	28:F	_
+28	beobachten	beobachten	VERB	VVINF	_	16	A	16:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

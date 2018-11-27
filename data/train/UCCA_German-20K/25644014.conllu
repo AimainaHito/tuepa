@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25644014
+# text = Man fühlte , es war ein lebendiges Licht !
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	es	es	PRON	PPER	_	7	F	7:F	_
+5	war	sein	AUX	ADV	_	7	F	7:F	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	lebendiges	lebendig	ADJ	ADJA	_	2	A	2:A	_
+8	Licht	Licht	NOUN	NN	_	7	A	7:A	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+

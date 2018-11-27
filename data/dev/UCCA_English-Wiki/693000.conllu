@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 693000
+# text = While Dylan 's topical songs solidified his early reputation , Freewheelin ' also included a mixture of love songs and jokey , surreal talking blues .
+1	While	while	SCONJ	IN	_	6	L	6:L	_
+2	Dylan	Dylan	PROPN	NNP	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	topical	topical	ADJ	JJ	_	5	E	5:E	_
+5	songs	song	NOUN	NNS	_	6	A	6:A	_
+6	solidified	solidify	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	early	early	ADJ	JJ	_	9	E	9:E	_
+9	reputation	reputation	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	Freewheelin	Freewheelin	PROPN	NNP	_	14	A	14:A	_
+12	'	'	PART	POS	_	14	U	14:U	_
+13	also	also	ADV	RB	_	14	D	14:D	_
+14	included	include	VERB	VBD	_	6	H	6:H	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	mixture	mixture	NOUN	NN	_	14	A	14:A	_
+17	of	of	ADP	IN	_	19	R	19:R	_
+18	love	love	NOUN	NN	_	19	E	19:E	_
+19	songs	song	NOUN	NNS	_	16	E	16:E	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	jokey	jokey	NOUN	NN	_	25	E	25:E	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	surreal	surreal	NOUN	NN	_	24	E	24:E	_
+24	talking	talk	VERB	VBG	_	21	C	21:C	_
+25	blues	blue	NOUN	NNS	_	19	C	19:C	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

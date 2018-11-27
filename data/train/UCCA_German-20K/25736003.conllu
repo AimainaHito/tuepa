@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25736003
+# text = Darauf hob er ein Stückchen kreideartigen Gesteins auf , trat an einen schwarzen Basaltfelsen und schrieb darauf nur das einzige Wort :
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	hob	heben	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|16:A|10:A	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	Stückchen	Stückchen	NOUN	ADJA	_	7	E	7:E	_
+6	kreideartigen	kreideartig	ADJ	ADJA	_	7	E	7:E	_
+7	Gesteins	Gestein	NOUN	NN	_	2	A	2:A	_
+8	auf	auf	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	trat	treten	VERB	VVFIN	_	2	H	2:H	_
+11	an	an	ADP	APPR	_	14	R	14:R	_
+12	einen	ein	DET	ART	_	14	E	14:E	_
+13	schwarzen	schwarz	ADJ	ADJA	_	14	E	14:E	_
+14	Basaltfelsen	Basaltfelsen	NOUN	NE	_	10	A	10:A	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	schrieb	schreiben	VERB	VVFIN	_	2	H	2:H	_
+17	darauf	darauf	ADV	PAV	_	16	A	16:A	_
+18	nur	nur	ADV	NE	_	16	D	16:D	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	einzige	einzig	ADJ	ADJA	_	21	E	21:E	_
+21	Wort	Wort	NOUN	NN	_	16	A	16:A	_
+22	:	:	PUNCT	$.	_	21	U	21:U	_
+

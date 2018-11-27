@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25801004
+# text = Aber damals entfernte sich die ›Nautilus‹ abermals und suchte in größeren Tiefen ein unterseeisches Tal auf zwischen diesem Kap und Sierra Leone an der afrikanischen Küste .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	damals	damals	ADV	ADV	_	3	D	3:D	_
+3	entfernte	entfernen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|9:A	_
+7	abermals	abermals	ADV	ADV	_	3	D	3:D	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	suchte	suchen	VERB	VVFIN	_	3	H	3:H	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	größeren	groß	ADJ	ADJA	_	12	E	12:E	_
+12	Tiefen	tiefe	NOUN	NN	_	9	A	9:A	_
+13	ein	ein	DET	ART	_	15	E	15:E	_
+14	unterseeisches	unterseeisch	ADJ	ADJA	_	15	E	15:E	_
+15	Tal	Tal	NOUN	NN	_	9	A	9:A	_
+16	auf	auf	ADP	APPR	_	9	Terminal	9:Terminal	_
+17	zwischen	zwischen	ADP	ADJA	_	19	R	19:R	_
+18	diesem	dies	PRON	ADJA	_	19	E	19:E	_
+19	Kap	Kap	NOUN	NN	_	9	A	9:A	_
+20	und	und	CCONJ	NE	_	19	N	19:N	_
+21	Sierra	Sierra	PROPN	NE	_	19	C	19:C	_
+22	Leone	Leone	PROPN	NE	_	21	Terminal	21:Terminal	_
+23	an	an	ADP	APPR	_	26	R	26:R	_
+24	der	der	DET	ART	_	26	E	26:E	_
+25	afrikanischen	afrikanisch	ADJ	ADJA	_	26	E	26:E	_
+26	Küste	Küste	NOUN	NN	_	19	E	19:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

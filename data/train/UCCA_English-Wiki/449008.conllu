@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 449008
+# text = He returned as one of World News Tonight 's three anchors in 1978 , and was promoted to the role of sole anchor in 1983 .
+1	He	he	PRON	PRP	_	2	A	2:A|17:A	_
+2	returned	return	VERB	VBD	_	0	H	0:H	_
+3	as	as	ADP	IN	_	11	R	11:R	_
+4	one	one	NUM	CD	_	11	E	11:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	World	World	PROPN	NNP	_	11	E	11:E	_
+7	News	News	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Tonight	tonight	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	's	's	PART	POS	_	6	R	6:R	_
+10	three	three	NUM	CD	_	11	E	11:E	_
+11	anchors	anchor	NOUN	NNS	_	2	A	2:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	1978	1978	NUM	CD	_	2	D	2:D	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	and	and	CCONJ	CC	_	2	L	2:L	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	promoted	promote	VERB	VBN	_	2	H	2:H	_
+18	to	to	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	role	role	NOUN	NN	_	17	A	17:A	_
+21	of	of	ADP	IN	_	20	R	20:R	_
+22	sole	sole	ADJ	JJ	_	23	E	23:E	_
+23	anchor	anchor	NOUN	NN	_	20	E	20:E	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	1983	1983	NUM	CD	_	17	D	17:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

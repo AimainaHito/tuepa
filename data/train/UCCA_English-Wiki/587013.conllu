@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 587013
+# text = Depp has chosen roles which he found interesting , rather than those he thought would succeed at the box office .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	chosen	choose	VERB	VBN	_	0	H	0:H	_
+4	roles	role	NOUN	NNS	_	3	A	3:A	_
+5	which	which	PRON	WDT	_	7	F	7:F	_
+6	he	he	PRON	PRP	_	7	A	7:A	_
+7	found	find	VERB	VBD	_	4	E	4:E	_
+8	interesting	interesting	ADJ	JJ	_	7	A	7:A	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	rather	rather	ADV	RB	_	7	L	7:L	_
+11	than	than	ADP	IN	_	10	Terminal	10:Terminal	_
+12	those	those	PRON	DT	_	7	F	7:F	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	thought	think	VERB	VBD	_	7	H	7:H	_
+15	would	would	AUX	MD	_	16	F	16:F	_
+16	succeed	succeed	VERB	VB	_	14	A	14:A	_
+17	at	at	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	box	box	NOUN	NN	_	20	E	20:E	_
+20	office	office	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

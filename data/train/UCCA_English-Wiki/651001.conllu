@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 651001
+# text = However , the FBI considered Lennon to have limited effectiveness as a revolutionary since he was " constantly under the influence of narcotics " .
+1	However	however	ADV	RB	_	5	L	5:L	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	FBI	FBI	PROPN	NNP	_	5	A	5:A	_
+5	considered	consider	VERB	VBD	_	0	H	0:H	_
+6	Lennon	Lennon	PROPN	NNP	_	5	A	5:A|10:A	_
+7	to	to	PART	TO	_	10	F	10:F	_
+8	have	have	VERB	VB	_	10	F	10:F	_
+9	limited	limit	VERB	VBN	_	10	D	10:D	_
+10	effectiveness	effectiveness	NOUN	NN	_	5	A	5:A	_
+11	as	as	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	revolutionary	revolutionary	NOUN	NN	_	10	A	10:A	_
+14	since	since	SCONJ	IN	_	5	L	5:L	_
+15	he	he	PRON	PRP	_	19	A	19:A	_
+16	was	be	AUX	VBD	_	19	F	19:F	_
+17	"	"	PUNCT	``	_	19	U	19:U	_
+18	constantly	constantly	ADV	RB	_	19	D	19:D	_
+19	under	under	ADP	IN	_	5	H	5:H	_
+20	the	the	DET	DT	_	19	Terminal	19:Terminal	_
+21	influence	influence	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	of	of	ADP	IN	_	23	R	23:R	_
+23	narcotics	narcotic	NOUN	NNS	_	19	A	19:A	_
+24	"	"	PUNCT	''	_	23	U	23:U	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

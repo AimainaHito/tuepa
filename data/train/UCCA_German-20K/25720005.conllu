@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25720005
+# text = Und genauso ist ' s wirklich .
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	genauso	genauso	ADV	ADV	_	3	D	3:D	_
+3	ist	sein	AUX	NN	_	0	H	0:H	_
+4	'	'	PUNCT	$(	_	3	U	3:U	_
+5	s	s	ADV	ADJD	_	3	A	3:A	_
+6	wirklich	wirklich	ADJ	ADJD	_	3	D	3:D	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

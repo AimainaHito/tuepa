@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 610018
+# text = In 2009 , after a four - year break , he returned to touring and has since performed over 80 shows .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2009	2009	NUM	CD	_	14	D	14:D	_
+3	,	,	PUNCT	,	_	14	U	14:U	_
+4	after	after	ADP	IN	_	14	L	14:L	_
+5	a	a	DET	DT	_	9	E	9:E	_
+6	four	four	NUM	CD	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	year	year	NOUN	NN	_	9	E	9:E	_
+9	break	break	NOUN	NN	_	14	H	14:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	he	he	PRON	PRP	_	14	A	14:A|18:A|9:A	_
+12	returned	return	VERB	VBD	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	R	14:R	_
+14	touring	touring	VERB	VB	_	0	H	0:H	_
+15	and	and	CCONJ	CC	_	14	L	14:L	_
+16	has	have	VERB	VBZ	_	18	F	18:F	_
+17	since	since	SCONJ	IN	_	18	D	18:D	_
+18	performed	perform	VERB	VBN	_	14	H	14:H	_
+19	over	over	ADV	RB	_	20	R	20:R	_
+20	80	80	NUM	CD	_	21	E	21:E	_
+21	shows	show	NOUN	NNS	_	18	A	18:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

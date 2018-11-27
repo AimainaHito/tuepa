@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25735012
+# text = 50 Fuß unterhalb der Spitze , mitten in einem Regen von Steinen und Schlacken , warf ein weiter Krater Lavaströme aus , die in feurigem Sprudeln durch die Gewässer drangen .
+1	50	50	NUM	CARD	_	2	E	2:E	_
+2	Fuß	Fuß	NOUN	NN	_	16	A	16:A	_
+3	unterhalb	unterhalb	ADP	APPR	_	2	R	2:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Spitze	Spitze	NOUN	NN	_	2	E	2:E	_
+6	,	,	PUNCT	$,	_	16	U	16:U	_
+7	mitten	mitten	ADV	ADV	_	10	R	10:R	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	einem	ein	DET	ART	_	10	E	10:E	_
+10	Regen	Regen	NOUN	NN	_	16	A	16:A	_
+11	von	von	ADP	NE	_	12	R	12:R	_
+12	Steinen	Stein	NOUN	NE	_	10	E	10:E	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	Schlacken	Schlacken	NOUN	NE	_	12	C	12:C	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	warf	werfen	VERB	VVFIN	_	0	H	0:H	_
+17	ein	ein	DET	ART	_	19	E	19:E	_
+18	weiter	weit	ADJ	ADJA	_	19	E	19:E	_
+19	Krater	Krater	NOUN	NN	_	16	A	16:A	_
+20	Lavaströme	Lavaströme	PROPN	NN	_	16	A	16:A	_
+21	aus	aus	ADP	PTKVZ	_	16	Terminal	16:Terminal	_
+22	,	,	PUNCT	$,	_	16	U	16:U	_
+23	die	der	PRON	PRELS	_	30	R	30:R	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	feurigem	feurigem	ADJ	NN	_	26	E	26:E	_
+26	Sprudeln	Sprudeln	NOUN	NN	_	30	A	30:A	_
+27	durch	durch	ADP	APPR	_	29	R	29:R	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Gewässer	Gewässer	NOUN	NN	_	30	A	30:A	_
+30	drangen	drangen	VERB	NN	_	20	E	20:E	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

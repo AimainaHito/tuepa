@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 466004
+# text = Johnson 's career achievements include three NBA MVP Awards , nine NBA Finals appearances , twelve All - Star games , and ten All - NBA First and Second Team nominations .
+1	Johnson	Johnson	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	career	career	NOUN	NN	_	4	E	4:E	_
+4	achievements	achievement	NOUN	NNS	_	5	A	5:A	_
+5	include	include	VERB	VBP	_	0	H	0:H	_
+6	three	three	NUM	CD	_	9	E	9:E	_
+7	NBA	NBA	PROPN	NNP	_	9	E	9:E	_
+8	MVP	Mvp	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	Awards	award	NOUN	NNS	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	nine	nine	NUM	CD	_	14	E	14:E	_
+12	NBA	NBa	NOUN	NN	_	14	E	14:E	_
+13	Finals	Final	NOUN	NNS	_	12	Terminal	12:Terminal	_
+14	appearances	appearance	NOUN	NNS	_	9	C	9:C	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	twelve	twelve	NUM	CD	_	20	E	20:E	_
+17	All	all	DET	DT	_	20	E	20:E	_
+18	-	-	PUNCT	HYPH	_	17	U	17:U	_
+19	Star	star	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	games	game	NOUN	NNS	_	9	C	9:C	_
+21	,	,	PUNCT	,	_	9	U	9:U	_
+22	and	and	CCONJ	CC	_	9	N	9:N	_
+23	ten	ten	NUM	CD	_	30	E	30:E	_
+24	All	all	DET	DT	_	30	E	30:E	_
+25	-	-	PUNCT	HYPH	_	24	U	24:U	_
+26	NBA	NBA	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	First	first	PROPN	NNP	_	30	E	30:E	_
+28	and	and	CCONJ	CC	_	27	N	27:N	_
+29	Second	Second	PROPN	NNP	_	27	C	27:C	_
+30	Team	team	NOUN	NN	_	31	E	31:E	_
+31	nominations	nomination	NOUN	NNS	_	9	C	9:C	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

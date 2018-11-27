@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 521015
+# text = Frances changed her name to " Judy " soon after , inspired by a popular Hoagy Carmichael song .
+1	Frances	France	NOUN	NNS	_	2	A	2:A|12:A	_
+2	changed	change	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	4	E	4:E	_
+4	name	name	NOUN	NN	_	2	A	2:A	_
+5	to	to	ADP	IN	_	7	R	7:R	_
+6	"	"	PUNCT	``	_	7	U	7:U	_
+7	Judy	Judy	PROPN	NNP	_	2	A	2:A	_
+8	"	"	PUNCT	''	_	2	U	2:U	_
+9	soon	soon	ADV	RB	_	2	D	2:D	_
+10	after	after	ADV	RB	_	9	R	9:R	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	inspired	inspire	VERB	VBN	_	2	H	2:H	_
+13	by	by	ADP	IN	_	18	R	18:R	_
+14	a	a	DET	DT	_	18	E	18:E	_
+15	popular	popular	ADJ	JJ	_	18	E	18:E	_
+16	Hoagy	Hoagy	PROPN	NNP	_	18	E	18:E	_
+17	Carmichael	Carmichael	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	song	song	NOUN	NN	_	12	A	12:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

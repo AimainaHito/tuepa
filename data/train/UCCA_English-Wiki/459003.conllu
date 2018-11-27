@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 459003
+# text = Designed as a companion book for ABC 's upcoming documentary series of the same name , the book topped the New York Times Best Seller List in December 1998 , a month after it debuted .
+1	Designed	Design	VERB	VBN	_	0	H	0:H	_
+2	as	as	ADP	IN	_	5	R	5:R	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	companion	companion	NOUN	NN	_	5	E	5:E	_
+5	book	book	NOUN	NN	_	1	A	1:A	_
+6	for	for	ADP	IN	_	11	R	11:R	_
+7	ABC	ABC	PROPN	NNP	_	11	E	11:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	upcoming	upcoming	ADJ	JJ	_	11	E	11:E	_
+10	documentary	documentary	ADJ	JJ	_	11	E	11:E	_
+11	series	series	NOUN	NNS	_	5	E	5:E	_
+12	of	of	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	same	same	ADJ	JJ	_	15	E	15:E	_
+15	name	name	NOUN	NN	_	11	E	11:E	_
+16	,	,	PUNCT	,	_	1	U	1:U	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	book	book	NOUN	NN	_	19	A	19:A	_
+19	topped	top	VERB	VBD	_	1	H	1:H	_
+20	the	the	DET	DT	_	26	E	26:E	_
+21	New	New	PROPN	NNP	_	26	E	26:E	_
+22	York	York	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Times	Times	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	Best	best	ADJ	JJS	_	25	E	25:E	_
+25	Seller	seller	NOUN	NN	_	26	E	26:E	_
+26	List	list	NOUN	NN	_	19	A	19:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	December	December	PROPN	NNP	_	19	D	19:D	_
+29	1998	1998	NUM	CD	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	1	U	1:U	_
+31	a	a	DET	DT	_	32	E	32:E	_
+32	month	month	NOUN	NN	_	1	L	1:L	_
+33	after	after	SCONJ	IN	_	32	R	32:R	_
+34	it	it	PRON	PRP	_	35	A	35:A	_
+35	debuted	debute	VERB	VBD	_	1	H	1:H	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

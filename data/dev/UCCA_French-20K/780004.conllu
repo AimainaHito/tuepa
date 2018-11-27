@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 780004
+# text = Je fis ouvrir un crédit suffisant au babiroussa , et , Conseil me suivant , je sautai dans une voiture .
+1	Je	il	PRON	_	_	3	A	3:A	_
+2	fis	fils	ADJ	_	_	3	F	3:F	_
+3	ouvrir	ouvrir	VERB	_	_	0	H	0:H	_
+4	un	un	DET	_	_	5	E	5:E	_
+5	crédit	crédit	NOUN	_	_	3	A	3:A	_
+6	suffisant	suffisant	ADJ	_	_	5	E	5:E	_
+7	au	au	ADJ	_	_	8	R	8:R	_
+8	babiroussa	babiroussa	VERB	_	_	6	A	6:A	_
+9	,	,	PUNCT	_	_	3	U	3:U	_
+10	et	et	CCONJ	_	_	3	L	3:L	_
+11	,	,	PUNCT	_	_	3	U	3:U	_
+12	Conseil	conseil	NOUN	_	_	14	A	14:A	_
+13	me	lui	ADJ	_	_	14	A	14:A	_
+14	suivant	suivant	ADJ	_	_	3	H	3:H	_
+15	,	,	PUNCT	_	_	3	U	3:U	_
+16	je	il	PRON	_	_	17	A	17:A	_
+17	sautai	saut	VERB	_	_	3	H	3:H	_
+18	dans	dans	ADP	_	_	20	R	20:R	_
+19	une	un	DET	_	_	20	E	20:E	_
+20	voiture	voiture	NOUN	_	_	17	A	17:A	_
+21	.	.	PUNCT	_	_	20	U	20:U	_
+

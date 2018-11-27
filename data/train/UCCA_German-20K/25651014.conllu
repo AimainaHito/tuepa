@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25651014
+# text = Ich betrachtete sein verständiges Antlitz , das frühzeitig mit tiefen Runzeln bedeckt war , die das Unglück , das Elend vielleicht , seit langer Zeit gegraben hatten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+3	sein	sein	DET	PPOSAT	_	5	E	5:E	_
+4	verständiges	verständig	ADJ	ADJA	_	5	E	5:E	_
+5	Antlitz	Antlitz	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	das	der	PRON	PRELS	_	12	R	12:R	_
+8	frühzeitig	frühzeitig	ADJ	ADJD	_	12	D	12:D	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	tiefen	tief	ADJ	ADJA	_	11	E	11:E	_
+11	Runzeln	Runzeln	NOUN	NN	_	12	A	12:A	_
+12	bedeckt	bedecken	ADJ	VVFIN	_	5	E	5:E	_
+13	war	sein	AUX	ADV	_	12	F	12:F	_
+14	,	,	PUNCT	$,	_	12	U	12:U	_
+15	die	der	PRON	PRELS	_	26	R	26:R	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Unglück	Unglück	NOUN	NN	_	26	A	26:A	_
+18	,	,	PUNCT	$,	_	26	U	26:U	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	Elend	Elend	NOUN	NN	_	26	A	26:A	_
+21	vielleicht	vielleicht	ADV	NE	_	26	G	26:G	_
+22	,	,	PUNCT	$,	_	26	U	26:U	_
+23	seit	seit	ADP	ADJA	_	25	E	25:E	_
+24	langer	lang	ADJ	ADJA	_	25	E	25:E	_
+25	Zeit	Zeit	NOUN	NN	_	26	A	26:A	_
+26	gegraben	gegraben	NOUN	VVINF	_	11	E	11:E	_
+27	hatten	haben	VERB	VAFIN	_	26	F	26:F	_
+28	.	.	PUNCT	$.	_	26	U	26:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25603013
+# text = Am 26 . November , um 3 Uhr früh , fuhr die " Nautilus " unter 172 ° Länge über den Wendekreis des Krebses .
+1	Am	am	PROPN	NN	_	2	R	2:R	_
+2	26	26	NUM	CARD	_	11	D	11:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	November	November	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	11	U	11:U	_
+6	um	um	ADP	KOUI	_	8	R	8:R	_
+7	3	3	NUM	CARD	_	8	E	8:E	_
+8	Uhr	Uhr	NOUN	NN	_	11	D	11:D	_
+9	früh	früh	ADJ	ADJD	_	8	E	8:E	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+12	die	der	DET	ART	_	14	E	14:E	_
+13	"	"	PUNCT	$(	_	14	U	14:U	_
+14	Nautilus	Nautilus	PROPN	NE	_	11	A	11:A	_
+15	"	"	PUNCT	$(	_	11	U	11:U	_
+16	unter	unter	ADP	ADJD	_	19	R	19:R	_
+17	172	172	NUM	CARD	_	19	E	19:E	_
+18	°	°	NOUN	NN	_	19	U	19:U	_
+19	Länge	Länge	NOUN	NN	_	11	A	11:A	_
+20	über	über	ADP	VVFIN	_	22	R	22:R	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Wendekreis	Wendekreis	NOUN	NN	_	11	A	11:A	_
+23	des	der	DET	ART	_	22	Terminal	22:Terminal	_
+24	Krebses	Krebs	NOUN	NN	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 589015
+# text = Depp is in final negotiations to star in the film adaptation of the musical , Into the Woods .
+1	Depp	Depp	PROPN	NNP	_	5	A	5:A|7:A	_
+2	is	be	AUX	VBZ	_	5	F	5:F	_
+3	in	in	ADP	IN	_	5	E	5:E	_
+4	final	final	ADJ	JJ	_	5	D	5:D	_
+5	negotiations	negotiation	NOUN	NNS	_	0	H	0:H	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	star	star	VERB	VB	_	5	A	5:A	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	film	film	NOUN	NN	_	11	A	11:A	_
+11	adaptation	adaptation	NOUN	NN	_	7	A	7:A	_
+12	of	of	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	musical	musical	ADJ	JJ	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	Into	Into	ADP	IN	_	11	A	11:A	_
+17	the	the	DET	DT	_	16	Terminal	16:Terminal	_
+18	Woods	Woods	NOUN	NNS	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25489118
+# text = Das N war ohne Zweifel der Anfangs buchstabe des rätselhaften Mannes , der im Meeres grund herrschte !
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	N	N	NOUN	ADJA	_	3	A	3:A	_
+3	war	sein	AUX	ADV	_	0	H	0:H	_
+4	ohne	ohne	ADP	NN	_	3	G	3:G	_
+5	Zweifel	Zweifel	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	Anfangs	anfangs	NOUN	NN	_	8	E	8:E	_
+8	buchstabe	buchstaben	AUX	VAFIN	_	3	A	3:A	_
+9	des	der	DET	ART	_	11	R	11:R	_
+10	rätselhaften	rätselhaft	ADJ	ADJA	_	11	E	11:E	_
+11	Mannes	Mann	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	der	der	DET	ART	_	17	R	17:R	_
+14	im	im	ADJ	NN	_	16	R	16:R	_
+15	Meeres	Meer	NOUN	NN	_	16	E	16:E	_
+16	grund	grund	ADV	ADV	_	17	A	17:A	_
+17	herrschte	herrschen	VERB	VVFIN	_	11	E	11:E	_
+18	!	!	PUNCT	$.	_	17	U	17:U	_
+

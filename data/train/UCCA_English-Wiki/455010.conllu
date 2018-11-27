@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 455010
+# text = It was World News Tonight , however , that ended the year at the top ; ABC 's evening newscast spent the last 13 weeks of the year in first place , and its average ratings for the entire year beat CBS for the first time .
+1	It	it	PRON	PRP	_	10	F	10:F	_
+2	was	be	AUX	VBD	_	10	F	10:F	_
+3	World	World	PROPN	NNP	_	10	A	10:A	_
+4	News	news	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	Tonight	tonight	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	however	however	ADV	RB	_	10	L	10:L	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	that	that	PRON	DT	_	10	F	10:F	_
+10	ended	end	VERB	VBD	_	0	H	0:H	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	year	year	NOUN	NN	_	10	D	10:D	_
+13	at	at	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	top	top	NOUN	NN	_	10	E	10:E	_
+16	;	;	PUNCT	,	_	10	U	10:U	_
+17	ABC	ABC	PROPN	NNP	_	20	E	20:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	evening	evening	NOUN	NN	_	20	E	20:E	_
+20	newscast	newscast	NOUN	NN	_	21	A	21:A	_
+21	spent	spend	VERB	VBD	_	10	H	10:H	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	last	last	ADJ	JJ	_	25	E	25:E	_
+24	13	13	NUM	CD	_	25	E	25:E	_
+25	weeks	week	NOUN	NNS	_	21	D	21:D	_
+26	of	of	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	year	year	NOUN	NN	_	25	E	25:E	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	first	first	ADJ	JJ	_	31	E	31:E	_
+31	place	place	NOUN	NN	_	21	A	21:A	_
+32	,	,	PUNCT	,	_	10	U	10:U	_
+33	and	and	CCONJ	CC	_	10	L	10:L	_
+34	its	its	PRON	PRP$	_	36	E	36:E	_
+35	average	average	ADJ	JJ	_	36	E	36:E	_
+36	ratings	rating	NOUN	NNS	_	41	A	41:A	_
+37	for	for	ADP	IN	_	40	R	40:R	_
+38	the	the	DET	DT	_	40	E	40:E	_
+39	entire	entire	ADJ	JJ	_	40	E	40:E	_
+40	year	year	NOUN	NN	_	36	E	36:E	_
+41	beat	beat	VERB	VBD	_	10	H	10:H	_
+42	CBS	CBS	PROPN	NNP	_	41	A	41:A	_
+43	for	for	ADP	IN	_	46	R	46:R	_
+44	the	the	DET	DT	_	46	E	46:E	_
+45	first	first	ADJ	JJ	_	46	E	46:E	_
+46	time	time	NOUN	NN	_	41	D	41:D	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

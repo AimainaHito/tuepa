@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25581004
+# text = Ich ließ den wackeren Jungen nach Belieben schwatzen , ohne ihm viel zu antworten .
+1	Ich	ich	PRON	PPER	_	8	A	8:A|14:A	_
+2	ließ	lassen	VERB	VVFIN	_	8	D	8:D	_
+3	den	der	DET	ART	_	5	E	5:E	_
+4	wackeren	wack	ADJ	ADJA	_	5	E	5:E	_
+5	Jungen	jung	NOUN	NN	_	8	A	8:A	_
+6	nach	nach	ADP	NN	_	7	R	7:R	_
+7	Belieben	Belieben	PROPN	NN	_	8	A	8:A	_
+8	schwatzen	schwatzen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	ohne	ohne	SCONJ	NE	_	8	L	8:L	_
+11	ihm	er	PRON	PPER	_	14	A	14:A	_
+12	viel	viel	PRON	NE	_	14	D	14:D	_
+13	zu	zu	PART	NE	_	14	F	14:F	_
+14	antworten	antworten	VERB	VVINF	_	8	H	8:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

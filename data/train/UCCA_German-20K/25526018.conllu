@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25526018
+# text = Aber in der flüssigen Umgebung der ›Nautilus‹ wurde der elektrische Glanz im Schoß der Wogen selbst hervorgebracht : es war nicht erleuchtetes Wasser , sondern flüssiges Licht .
+1	Aber	aber	CCONJ	KON	_	17	L	17:L	_
+2	in	in	ADP	APPR	_	5	R	5:R	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	flüssigen	flüssig	ADJ	ADJA	_	5	E	5:E	_
+5	Umgebung	Umgebung	NOUN	NN	_	17	A	17:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	E	5:E	_
+8	wurde	werden	AUX	NN	_	17	F	17:F	_
+9	der	der	DET	ART	_	11	E	11:E	_
+10	elektrische	elektrisch	ADJ	ADJA	_	11	E	11:E	_
+11	Glanz	Glanz	NOUN	NN	_	17	A	17:A	_
+12	im	im	ADJ	NE	_	13	R	13:R	_
+13	Schoß	Schoß	NOUN	NE	_	17	A	17:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Wogen	Woge	NOUN	NE	_	13	E	13:E	_
+16	selbst	selbst	ADV	VVINF	_	17	D	17:D	_
+17	hervorgebracht	hervorgebrachen	VERB	VVPP	_	0	H	0:H	_
+18	:	:	PUNCT	$.	_	17	U	17:U	_
+19	es	es	PRON	PPER	_	22	A	22:A	_
+20	war	sein	AUX	ADV	_	22	F	22:F	_
+21	nicht	nicht	PART	CARD	_	22	D	22:D	_
+22	erleuchtetes	erleuchtet	ADJ	ADJA	_	17	H	17:H	_
+23	Wasser	Wasser	NOUN	NN	_	22	A	22:A	_
+24	,	,	PUNCT	$,	_	17	U	17:U	_
+25	sondern	sondern	CCONJ	NN	_	17	L	17:L	_
+26	flüssiges	flüssig	ADJ	ADJA	_	17	H	17:H	_
+27	Licht	Licht	NOUN	NN	_	26	A	26:A	_
+28	.	.	PUNCT	$.	_	26	U	26:U	_
+

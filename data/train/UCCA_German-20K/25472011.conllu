@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25472011
+# text = Sein Angesicht , das gewöhnlich so feste Züge hatte , ließ eine unbeschreibliche Bestürzung erkennen .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Angesicht	Angesicht	NOUN	NN	_	15	A	15:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	das	der	PRON	PRELS	_	9	R	9:R	_
+5	gewöhnlich	gewöhnlich	ADJ	ADJD	_	9	D	9:D	_
+6	so	so	ADV	ADV	_	8	E	8:E	_
+7	feste	fest	ADJ	ADJA	_	8	E	8:E	_
+8	Züge	Zug	NOUN	NN	_	9	A	9:A	_
+9	hatte	haben	VERB	VAFIN	_	2	E	2:E	_
+10	,	,	PUNCT	$,	_	15	U	15:U	_
+11	ließ	lassen	VERB	VVFIN	_	15	D	15:D	_
+12	eine	ein	DET	ART	_	14	E	14:E	_
+13	unbeschreibliche	unbeschreiblich	ADJ	ADJA	_	14	E	14:E	_
+14	Bestürzung	Bestürzung	NOUN	NN	_	15	A	15:A	_
+15	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

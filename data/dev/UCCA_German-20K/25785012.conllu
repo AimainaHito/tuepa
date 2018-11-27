@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25785012
+# text = » Ja ! « sagte ich , » 's ist ein wundervoller Anblick . Nicht wahr , Ned ? «
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Ja	Ja	PROPN	PTKANT	_	12	D	12:D	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	's	es	X	PPER	_	12	F	12:F	_
+10	ist	sein	AUX	VVFIN	_	12	F	12:F	_
+11	ein	ein	DET	ART	_	13	E	13:E	_
+12	wundervoller	wundervoll	ADJ	ADJA	_	5	A	5:A	_
+13	Anblick	Anblick	NOUN	NN	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+15	Nicht	nicht	PART	XY	_	16	D	16:D	_
+16	wahr	wahr	ADV	FM	_	12	H	12:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Ned	Ned	PROPN	NE	_	16	G	16:G	_
+19	?	?	PUNCT	$.	_	16	U	16:U	_
+20	«	«	PUNCT	$(	_	16	U	16:U	_
+

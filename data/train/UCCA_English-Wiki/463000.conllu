@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 463000
+# text = American President George W. Bush and Canadian Prime Minister Paul Martin offered statements of condolence to the press .
+1	American	american	ADJ	JJ	_	2	E	2:E	_
+2	President	President	PROPN	NNP	_	3	E	3:E	_
+3	George	George	PROPN	NNP	_	12	A	12:A	_
+4	W.	W.	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Bush	Bush	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	and	and	CCONJ	CC	_	3	N	3:N	_
+7	Canadian	canadian	ADJ	JJ	_	8	E	8:E	_
+8	Prime	Prime	PROPN	NNP	_	10	E	10:E	_
+9	Minister	Minister	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Paul	Paul	PROPN	NNP	_	3	C	3:C	_
+11	Martin	Martin	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	offered	offer	VERB	VBD	_	0	H	0:H	_
+13	statements	statement	NOUN	NNS	_	12	A	12:A	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	condolence	condolence	NOUN	NN	_	13	E	13:E	_
+16	to	to	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	press	press	NOUN	NN	_	12	A	12:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

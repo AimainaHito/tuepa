@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25791003
+# text = Was konnten wir bei dieser neuen und dringenden Gefahr für Aussicht auf Rettung haben , und wie konnten wir das Einfrieren vermeiden , wodurch die Wände der ›Nautilus‹ wie Glas zersprengt würden ?
+1	Was	was	PRON	NE	_	11	E	11:E	_
+2	konnten	können	AUX	VMFIN	_	11	D	11:D	_
+3	wir	wir	PRON	NE	_	11	A	11:A|13:A	_
+4	bei	bei	ADP	APPR	_	6	R	6:R	_
+5	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+6	neuen	neu	ADJ	ADJA	_	11	A	11:A	_
+7	und	und	CCONJ	NN	_	6	N	6:N	_
+8	dringenden	dringenden	ADJ	ADJA	_	6	C	6:C	_
+9	Gefahr	Gefahr	NOUN	NN	_	6	A	6:A	_
+10	für	für	ADP	APPR	_	1	Terminal	1:Terminal	_
+11	Aussicht	Aussicht	NOUN	NN	_	0	H	0:H	_
+12	auf	auf	ADP	APPR	_	13	R	13:R	_
+13	Rettung	Rettung	NOUN	NN	_	11	A	11:A	_
+14	haben	haben	VERB	VAFIN	_	11	F	11:F	_
+15	,	,	PUNCT	$,	_	11	U	11:U	_
+16	und	und	CCONJ	NE	_	11	L	11:L	_
+17	wie	wie	ADV	NE	_	22	D	22:D	_
+18	konnten	können	AUX	VMFIN	_	22	D	22:D	_
+19	wir	wir	PRON	NE	_	22	A	22:A	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Einfrieren	Einfrieren	NOUN	NN	_	0	C	0:C|31:A	_
+22	vermeiden	vermeiden	ADJ	VVFIN	_	11	H	11:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	wodurch	wodurch	SCONJ	VVFIN	_	31	R	31:R	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Wände	Wand	NOUN	NN	_	31	A	31:A	_
+27	der	der	DET	ART	_	28	R	28:R	_
+28	›Nautilus‹	›Nautilus‹	NOUN	NE	_	26	E	26:E	_
+29	wie	wie	ADP	ADJA	_	30	R	30:R	_
+30	Glas	Glas	NOUN	NN	_	31	A	31:A	_
+31	zersprengt	zersprengt	VERB	VVFIN	_	21	E	21:E	_
+32	würden	werden	AUX	ADJD	_	31	F	31:F	_
+33	?	?	PUNCT	$.	_	31	U	31:U	_
+

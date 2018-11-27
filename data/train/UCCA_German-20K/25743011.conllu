@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25743011
+# text = Sodann schlängelten sich weithin Gänge kalt gewordener Lava mit Harz streifen durchzogen , und stellenweise bereiteten sich weite Schwefel lager .
+1	Sodann	Sodann	ADV	ADV	_	2	L	2:L	_
+2	schlängelten	schlängelten	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	weithin	weithin	ADV	ADV	_	2	D	2:D	_
+5	Gänge	Gäng	NOUN	NN	_	2	A	2:A	_
+6	kalt	kalt	VERB	ADJD	_	7	D	7:D	_
+7	gewordener	gewordener	ADJ	ADJA	_	5	E	5:E	_
+8	Lava	Lava	NOUN	NE	_	7	A	7:A	_
+9	mit	mit	ADP	APPR	_	10	E	10:E	_
+10	Harz	Harz	PROPN	NE	_	12	A	12:A	_
+11	streifen	streif	ADJ	VVFIN	_	10	E	10:E	_
+12	durchzogen	durchziehen	VERB	ADJD	_	5	E	5:E	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	stellenweise	stellenweise	ADV	ADV	_	16	D	16:D	_
+16	bereiteten	bereiten	VERB	VVFIN	_	2	H	2:H	_
+17	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	weite	weit	ADJ	NN	_	20	E	20:E	_
+19	Schwefel	Schwefel	NOUN	NE	_	20	E	20:E	_
+20	lager	lager	ADJ	NN	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

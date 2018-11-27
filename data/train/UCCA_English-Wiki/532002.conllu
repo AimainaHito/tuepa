@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 532002
+# text = The concert , which was also filmed for British television network ITV , was one of her final appearances at the venue .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	concert	concert	NOUN	NN	_	14	A	14:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	which	which	PRON	WDT	_	7	R	7:R	_
+5	was	be	AUX	VBD	_	7	F	7:F	_
+6	also	also	ADV	RB	_	7	D	7:D	_
+7	filmed	film	VERB	VBN	_	2	E	2:E	_
+8	for	for	ADP	IN	_	12	R	12:R	_
+9	British	british	ADJ	JJ	_	11	E	11:E	_
+10	television	television	NOUN	NN	_	11	E	11:E	_
+11	network	network	NOUN	NN	_	12	E	12:E	_
+12	ITV	Itv	PROPN	NNP	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	was	be	AUX	VBD	_	0	H	0:H	_
+15	one	one	NUM	CD	_	19	E	19:E	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	final	final	ADJ	JJ	_	19	E	19:E	_
+19	appearances	appearance	NOUN	NNS	_	14	A	14:A	_
+20	at	at	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	venue	venue	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

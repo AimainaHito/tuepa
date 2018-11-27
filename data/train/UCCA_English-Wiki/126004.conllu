@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 126004
+# text = Cukor encouraged the studio to accept her demands and they signed Hepburn to a temporary contract with a three - week guarantee .
+1	Cukor	Cukor	PROPN	NNP	_	6	A	6:A	_
+2	encouraged	encourage	VERB	VBD	_	6	D	6:D	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	studio	studio	NOUN	NN	_	6	A	6:A	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	accept	accept	VERB	VB	_	0	H	0:H	_
+7	her	she	PRON	PRP	_	8	E	8:E	_
+8	demands	demand	NOUN	NNS	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	6	L	6:L	_
+10	they	they	PRON	PRP	_	11	A	11:A	_
+11	signed	sign	VERB	VBD	_	6	H	6:H	_
+12	Hepburn	Hepburn	PROPN	NNP	_	11	A	11:A	_
+13	to	to	ADP	IN	_	16	R	16:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	temporary	temporary	ADJ	JJ	_	16	E	16:E	_
+16	contract	contract	NOUN	NN	_	11	A	11:A	_
+17	with	with	ADP	IN	_	22	R	22:R	_
+18	a	a	DET	DT	_	22	E	22:E	_
+19	three	three	NUM	CD	_	21	E	21:E	_
+20	-	-	PUNCT	HYPH	_	21	U	21:U	_
+21	week	week	NOUN	NN	_	22	E	22:E	_
+22	guarantee	guarantee	NOUN	NN	_	16	E	16:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

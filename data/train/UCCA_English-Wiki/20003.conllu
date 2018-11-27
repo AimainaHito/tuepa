@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 20003
+# text = Pitt attended Kickapoo High School , where he was a member of the golf , tennis , wrestling and swimming teams .
+1	Pitt	Pitt	PROPN	NNP	_	2	A	2:A	_
+2	attended	attend	VERB	VBD	_	0	H	0:H	_
+3	Kickapoo	Kickapo	PROPN	NNP	_	2	A	2:A	_
+4	High	High	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	School	School	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	where	where	ADV	WRB	_	11	F	11:F	_
+8	he	he	PRON	PRP	_	11	A	11:A	_
+9	was	be	AUX	VBD	_	11	F	11:F	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	member	member	NOUN	NN	_	3	E	3:E	_
+12	of	of	ADP	IN	_	21	R	21:R	_
+13	the	the	DET	DT	_	21	E	21:E	_
+14	golf	golf	NOUN	NN	_	21	E	21:E	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	tennis	tennis	NOUN	NN	_	14	C	14:C	_
+17	,	,	PUNCT	,	_	14	U	14:U	_
+18	wrestling	wrestling	VERB	VBG	_	14	C	14:C	_
+19	and	and	CCONJ	CC	_	14	N	14:N	_
+20	swimming	swimming	VERB	VBG	_	14	C	14:C	_
+21	teams	team	NOUN	NNS	_	11	A	11:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

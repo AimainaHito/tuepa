@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25488152
+# text = Einige Augenblicke darauf erschienen abermals , und zwar schweigend , acht starke Burschen mit verkapptem Angesicht und zogen uns in ihre fürchterliche Maschine hinein .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Augenblicke	Augenblick	NOUN	NN	_	4	D	4:D	_
+3	darauf	darauf	ADV	PAV	_	2	R	2:R	_
+4	erschienen	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+5	abermals	abermals	ADV	ADV	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	und	und	CCONJ	NE	_	9	F	9:F	_
+8	zwar	zwar	ADV	ADV	_	7	Terminal	7:Terminal	_
+9	schweigend	schweigend	ADJ	ADJD	_	4	H	4:H	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	acht	acht	NUM	CARD	_	13	E	13:E	_
+12	starke	stark	ADJ	NN	_	13	E	13:E	_
+13	Burschen	Burschen	NOUN	NE	_	0	C	0:C|18:A|9:A	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	verkapptem	verkappt	ADJ	ADJA	_	16	E	16:E	_
+16	Angesicht	Angesicht	NOUN	NN	_	13	E	13:E	_
+17	und	und	CCONJ	NE	_	4	L	4:L	_
+18	zogen	ziehen	VERB	VVFIN	_	4	H	4:H	_
+19	uns	wir	PRON	NE	_	18	A	18:A	_
+20	in	in	ADP	APPR	_	23	R	23:R	_
+21	ihre	ihr	DET	PPOSAT	_	23	E	23:E	_
+22	fürchterliche	fürchterlich	ADJ	ADJA	_	23	E	23:E	_
+23	Maschine	Maschine	NOUN	NN	_	18	A	18:A	_
+24	hinein	hinein	ADV	PTKVZ	_	18	Terminal	18:Terminal	_
+25	.	.	PUNCT	$.	_	18	U	18:U	_
+

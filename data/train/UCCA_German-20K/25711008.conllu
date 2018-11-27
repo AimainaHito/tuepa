@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25711008
+# text = » Einverstanden . Und nun , sagen Sie mir , was verstehen Sie unter einer günstigen Gelegenheit ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Einverstanden	einverstanden	NOUN	ADJD	_	0	H	0:H	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Und	und	CCONJ	ADJD	_	2	L	2:L	_
+5	nun	nun	ADV	ADV	_	7	F	7:F	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagen	sagen	VERB	VVFIN	_	2	H	2:H	_
+8	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+9	mir	ich	PRON	PPER	_	7	A	7:A	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	was	was	PRON	NE	_	12	A	12:A	_
+12	verstehen	verstehen	VERB	VVFIN	_	7	A	7:A	_
+13	Sie	Sie|sie	PRON	PPER	_	12	A	12:A	_
+14	unter	unter	ADP	NE	_	17	R	17:R	_
+15	einer	ein	DET	ART	_	17	E	17:E	_
+16	günstigen	günstig	ADJ	ADJA	_	17	E	17:E	_
+17	Gelegenheit	Gelegenheit	NOUN	NN	_	12	A	12:A	_
+18	?	?	PUNCT	$.	_	17	U	17:U	_
+19	«	«	PUNCT	$(	_	17	U	17:U	_
+

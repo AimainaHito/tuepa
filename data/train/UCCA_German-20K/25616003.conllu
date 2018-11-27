@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25616003
+# text = Kapitän Nemo ließ mich wissen , dass er durch die Straße Torres den Indischen Ozean besuchen wolle .
+1	Kapitän	Kapitän	NOUN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	5	A	5:A	_
+3	ließ	lassen	VERB	VVFIN	_	5	D	5:D	_
+4	mich	ich	PRON	PPER	_	5	A	5:A	_
+5	wissen	wissen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+8	er	er	PRON	PPER	_	16	A	16:A	_
+9	durch	durch	ADP	APPR	_	12	R	12:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Straße	Straße	PROPN	NN	_	12	E	12:E	_
+12	Torres	Torr	PROPN	FM	_	16	A	16:A	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Indischen	indisch	PROPN	ADJA	_	16	A	16:A	_
+15	Ozean	Ozean	PROPN	NN	_	14	Terminal	14:Terminal	_
+16	besuchen	besuchen	VERB	VVINF	_	5	A	5:A	_
+17	wolle	wollen	AUX	VMFIN	_	16	D	16:D	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

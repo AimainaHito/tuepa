@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25744019
+# text = Es waren Sperber und schreiende Weihe .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	Sperber	Sperber	NOUN	NE	_	2	A	2:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	schreiende	schreiend	ADJ	ADJA	_	3	C	3:C	_
+6	Weihe	Weihe	NOUN	NN	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

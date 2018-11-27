@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25796031
+# text = Um ihr Gleichgewicht zu ändern , hatte ein Einführen von Wasser genügt .
+1	Um	um	ADP	APPR	_	5	L	5:L	_
+2	ihr	ihr	DET	PPOSAT	_	3	E	3:E	_
+3	Gleichgewicht	gleichgewicht	NOUN	NN	_	5	A	5:A	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	ändern	ändern	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	hatte	haben	AUX	VAFIN	_	12	F	12:F	_
+8	ein	ein	DET	ART	_	9	E	9:E	_
+9	Einführen	Einführen	NOUN	NN	_	12	A	12:A	_
+10	von	von	ADP	NN	_	11	R	11:R	_
+11	Wasser	Wasser	NOUN	NN	_	9	A	9:A	_
+12	genügt	nügen	VERB	VVPP	_	5	H	5:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 729014
+# text = " Roger Ebert defended Jolie , stating she " does her darndest " and " plays her femme fatale with flat - out , drop - dead sexuality .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	Roger	Roger	PROPN	NNP	_	4	A	4:A|7:A	_
+3	Ebert	Ebert	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	defended	defend	VERB	VBD	_	0	H	0:H	_
+5	Jolie	Jolie	PROPN	NNP	_	4	A	4:A	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	stating	stat	VERB	VBG	_	4	H	4:H	_
+8	she	she	PRON	PRP	_	12	A	12:A|16:A	_
+9	"	"	PUNCT	``	_	12	U	12:U	_
+10	does	do	AUX	VBZ	_	12	D	12:D	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	darndest	darndest	NOUN	NN	_	7	A	7:A	_
+13	"	"	PUNCT	''	_	12	U	12:U	_
+14	and	and	CCONJ	CC	_	12	L	12:L	_
+15	"	"	PUNCT	``	_	12	U	12:U	_
+16	plays	play	VERB	VBZ	_	12	H	12:H	_
+17	her	she	PRON	PRP$	_	19	E	19:E	_
+18	femme	femme	ADJ	JJ	_	19	E	19:E	_
+19	fatale	fatale	NOUN	NN	_	16	A	16:A	_
+20	with	with	ADP	IN	_	28	R	28:R	_
+21	flat	flat	ADJ	JJ	_	28	E	28:E	_
+22	-	-	PUNCT	HYPH	_	21	U	21:U	_
+23	out	out	NOUN	NN	_	21	Terminal	21:Terminal	_
+24	,	,	PUNCT	,	_	28	U	28:U	_
+25	drop	drop	NOUN	NN	_	28	E	28:E	_
+26	-	-	PUNCT	HYPH	_	25	U	25:U	_
+27	dead	dead	ADJ	JJ	_	25	Terminal	25:Terminal	_
+28	sexuality	sexuality	NOUN	NN	_	19	E	19:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

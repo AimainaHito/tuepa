@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 643002
+# text = She later recalled how the incident seemed to symbolise the ending of their marriage .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	recalled	recall	VERB	VBD	_	0	H	0:H	_
+4	how	how	ADV	WRB	_	9	R	9:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	incident	incident	NOUN	NN	_	9	A	9:A	_
+7	seemed	seem	VERB	VBD	_	9	G	9:G	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	symbolise	symbolise	VERB	VB	_	3	A	3:A	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	ending	ending	NOUN	NN	_	14	E	14:E	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	their	they	PRON	PRP$	_	14	A	14:A	_
+14	marriage	marriage	NOUN	NN	_	9	A	9:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

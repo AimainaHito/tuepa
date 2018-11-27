@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25716001
+# text = » Hier ist er « , erwiderte Kapitän Nemo , und wies auf eine Karte des Archipels .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Hier	hier	ADV	ADV	_	3	A	3:A	_
+3	ist	sein	AUX	VVFIN	_	7	A	7:A	_
+4	er	er	PRON	PPER	_	3	A	3:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+8	Kapitän	Kapitän	PROPN	NN	_	9	E	9:E	_
+9	Nemo	Nemo	PROPN	NE	_	0	C	0:C|12:A	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	und	und	CCONJ	NE	_	7	L	7:L	_
+12	wies	weisen	VERB	VVFIN	_	7	H	7:H	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	eine	ein	DET	ART	_	15	E	15:E	_
+15	Karte	Karte	NOUN	NN	_	12	A	12:A	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Archipels	Archipel	NOUN	NN	_	15	E	15:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

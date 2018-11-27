@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25490056
+# text = » Sie nützen Ihre Galle und Nerven wenig ab ! Stets ruhig ! Sie wären fähig , Gratias vor dem Benedicte her zu sagen , und lieber Hungers zu sterben , als sich beklagen !
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A|12:A	_
+3	nützen	nützen	VERB	VVFIN	_	0	H	0:H	_
+4	Ihre	Ihr|ihr	DET	PPOSAT	_	5	E	5:E	_
+5	Galle	Galle	NOUN	NN	_	3	A	3:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Nerven	Nerv|Nerven	NOUN	NN	_	5	C	5:C	_
+8	wenig	wenig	ADV	ADJA	_	3	D	3:D	_
+9	ab	ab	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+10	!	!	PUNCT	$.	_	3	U	3:U	_
+11	Stets	stets	NOUN	ADV	_	12	D	12:D	_
+12	ruhig	ruhig	ADJ	ADJD	_	3	H	3:H	_
+13	!	!	PUNCT	$.	_	3	U	3:U	_
+14	Sie	sie	PRON	PPER	_	22	A	22:A|30:A|33:A	_
+15	wären	sein	AUX	VVINF	_	22	D	22:D	_
+16	fähig	fähig	ADJ	ADJD	_	22	D	22:D|30:D	_
+17	,	,	PUNCT	$,	_	22	U	22:U	_
+18	Gratias	Gratias	PROPN	NE	_	22	A	22:A	_
+19	vor	vor	ADP	NN	_	21	R	21:R	_
+20	dem	der	DET	ART	_	21	E	21:E	_
+21	Benedicte	Benedicte	NOUN	NN	_	18	E	18:E	_
+22	her	her	ADV	ADV	_	3	H	3:H	_
+23	zu	zu	PART	VVINF	_	22	F	22:F	_
+24	sagen	sagen	VERB	VVINF	_	22	Terminal	22:Terminal	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	und	und	CCONJ	NE	_	3	L	3:L	_
+27	lieber	lieber	ADP	ADV	_	30	D	30:D	_
+28	Hungers	Hunger	NOUN	NE	_	30	A	30:A	_
+29	zu	zu	PART	NE	_	30	F	30:F	_
+30	sterben	sterben	VERB	VVINF	_	3	H	3:H	_
+31	,	,	PUNCT	$,	_	3	U	3:U	_
+32	als	als	SCONJ	KOUS	_	3	L	3:L	_
+33	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+34	beklagen	beklagen	VERB	VVINF	_	33	Terminal	33:Terminal	_
+35	!	!	PUNCT	$.	_	33	U	33:U	_
+

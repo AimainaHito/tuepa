@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 198005
+# text = Sorkin won the Academy , BAFTA and Golden Globe Awards for The Social Network .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	won	win	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	Academy	Academy	PROPN	NNP	_	10	E	10:E	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	BAFTA	BAFTA	PROPN	NNP	_	4	C	4:C	_
+7	and	and	CCONJ	CC	_	4	N	4:N	_
+8	Golden	golden	PROPN	NNP	_	4	C	4:C	_
+9	Globe	Globe	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Awards	awards	PROPN	NNPS	_	2	A	2:A	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	The	the	DET	DT	_	2	A	2:A	_
+13	Social	social	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Network	Network	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	.	_	12	U	12:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 645011
+# text = Although the exhibition had not yet begun , Lennon wanted to hammer a nail into the clean board , but Ono stopped him .
+1	Although	although	SCONJ	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	exhibition	exhibition	NOUN	NN	_	7	A	7:A	_
+4	had	have	AUX	VBD	_	7	F	7:F	_
+5	not	not	PART	RB	_	7	D	7:D	_
+6	yet	yet	ADV	RB	_	7	D	7:D	_
+7	begun	begin	VERB	VBN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Lennon	Lennon	PROPN	NNP	_	12	A	12:A	_
+10	wanted	want	VERB	VBD	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	hammer	hammer	VERB	VB	_	7	H	7:H	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	nail	nail	NOUN	NN	_	12	A	12:A	_
+15	into	into	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	clean	clean	ADJ	JJ	_	18	E	18:E	_
+18	board	board	NOUN	NN	_	12	A	12:A	_
+19	,	,	PUNCT	,	_	7	U	7:U	_
+20	but	but	CCONJ	CC	_	7	L	7:L	_
+21	Ono	Ono	PROPN	NNP	_	22	A	22:A	_
+22	stopped	stop	VERB	VBD	_	7	H	7:H	_
+23	him	he	PRON	PRP	_	22	A	22:A	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25783000
+# text = Die Verwünschungen des Kanadiers übergehe ich .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Verwünschungen	Verwünschung	NOUN	NN	_	5	A	5:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Kanadiers	Kanadier	NOUN	NN	_	2	A	2:A	_
+5	übergehe	übergehen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

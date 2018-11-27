@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25759014
+# text = Die ›Nautilus‹ wird schon allein mit diesen Pottfischen fertig werden .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	9	A	9:A	_
+3	wird	werden	AUX	VAFIN	_	9	F	9:F	_
+4	schon	schon	ADV	ADV	_	9	D	9:D	_
+5	allein	allein	ADV	ADV	_	9	D	9:D	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+8	Pottfischen	Pottfischen	NOUN	NE	_	9	A	9:A	_
+9	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+10	werden	werden	AUX	VVFIN	_	9	F	9:F	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

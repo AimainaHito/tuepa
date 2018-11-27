@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25804003
+# text = Die Mannschaft der ›Nautilus‹ , ohne jedoch diese Theorien zu verachten , erlegte ein halbes Dutzend dieser Manati .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Mannschaft	Mannschaft	NOUN	NN	_	0	C	0:C|11:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	2	E	2:E	_
+5	,	,	PUNCT	$,	_	13	U	13:U	_
+6	ohne	ohne	SCONJ	NE	_	13	L	13:L	_
+7	jedoch	jedoch	ADV	ADV	_	13	L	13:L	_
+8	diese	dies	PRON	PDAT	_	9	E	9:E	_
+9	Theorien	Theorie	NOUN	NN	_	11	A	11:A	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	verachten	verachen	VERB	VVINF	_	13	H	13:H	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	erlegte	erlegen	VERB	VVFIN	_	0	H	0:H	_
+14	ein	ein	DET	ART	_	16	E	16:E	_
+15	halbes	halb	ADJ	ADJA	_	16	E	16:E	_
+16	Dutzend	Dutzend	NOUN	NN	_	18	E	18:E	_
+17	dieser	dies	PRON	PDAT	_	18	E	18:E	_
+18	Manati	Manati	NOUN	NE	_	13	A	13:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

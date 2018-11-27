@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25444003
+# text = An einem prachtvollen Abend des 30 Juli . , d.h. 3 Wochen nach unserer Abfahrt , befand sich die Fregatte auf der Höhe des Kaps Blanco , 30 Meilen unterm Wind an der patagonischen Küste .
+1	An	an	ADP	APPR	_	6	R	6:R	_
+2	einem	ein	DET	ART	_	4	E	4:E	_
+3	prachtvollen	prachtvoll	ADJ	ADJA	_	4	E	4:E	_
+4	Abend	Abend	NOUN	NN	_	6	E	6:E	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	30	30	PROPN	CARD	_	17	D	17:D	_
+7	Juli	Juli	PROPN	NN	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	$.	_	17	U	17:U	_
+9	,	,	PUNCT	$,	_	17	U	17:U	_
+10	d.h.	d.h.	CCONJ	KOUS	_	17	L	17:L	_
+11	3	3	NUM	CARD	_	12	E	12:E	_
+12	Wochen	Woche	NOUN	NN	_	15	D	15:D	_
+13	nach	nach	ADP	NN	_	15	R	15:R	_
+14	unserer	unser	ADJ	PPOSAT	_	15	E	15:E	_
+15	Abfahrt	Abfahrt	NOUN	NN	_	17	H	17:H	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+18	sich	er|es|sie	PRON	PRF	_	17	Terminal	17:Terminal	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Fregatte	Fregatte	NOUN	NN	_	17	A	17:A	_
+21	auf	auf	ADP	APPR	_	25	R	25:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Höhe	Höhe	NOUN	NN	_	25	E	25:E	_
+24	des	der	DET	ART	_	23	R	23:R	_
+25	Kaps	Kap	PROPN	NN	_	17	A	17:A	_
+26	Blanco	Blanco	PROPN	NE	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	$,	_	25	U	25:U	_
+28	30	30	NUM	CARD	_	29	E	29:E	_
+29	Meilen	Meile	NOUN	NN	_	25	E	25:E	_
+30	unterm	unterm	ADJ	NE	_	29	E	29:E	_
+31	Wind	Wind	NOUN	NE	_	30	Terminal	30:Terminal	_
+32	an	an	ADP	APPR	_	35	R	35:R	_
+33	der	der	DET	ART	_	35	E	35:E	_
+34	patagonischen	patagonisch	ADJ	ADJA	_	35	E	35:E	_
+35	Küste	Küste	NOUN	NN	_	29	E	29:E	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

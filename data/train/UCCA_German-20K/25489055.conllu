@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25489055
+# text = Er durchschaute klar die für uns dunkeln Gewässer und reichte bis auf den Meeres grund ... ! Die beiden Unbekannten , mit Mützen von Seeotter fell und in See stiefeln von Robben fell , trugen Kleider von einem besonderen Gewebe , die große Freiheit der Bewegungen gestatteten .
+1	Er	er	PRON	PPER	_	2	A	2:A|10:A	_
+2	durchschaute	durchschauen	VERB	VVFIN	_	0	H	0:H	_
+3	klar	klar	ADJ	ADJD	_	2	D	2:D	_
+4	die	der	DET	ART	_	8	E	8:E	_
+5	für	für	ADP	APPR	_	6	R	6:R	_
+6	uns	wir	PRON	NE	_	7	A	7:A	_
+7	dunkeln	dunkeln	VERB	VVFIN	_	8	E	8:E	_
+8	Gewässer	Gewässer	NOUN	NN	_	2	A	2:A	_
+9	und	und	CCONJ	NE	_	2	L	2:L	_
+10	reichte	reichen	VERB	VVFIN	_	2	H	2:H	_
+11	bis	bis	ADP	APPR	_	15	R	15:R	_
+12	auf	auf	ADP	APPR	_	11	Terminal	11:Terminal	_
+13	den	der	DET	ART	_	15	E	15:E	_
+14	Meeres	Meer	NOUN	NN	_	15	E	15:E	_
+15	grund	grund	ADV	APPR	_	10	A	10:A	_
+16	...	...	PUNCT	$(	_	2	U	2:U	_
+17	!	!	PUNCT	$.	_	2	U	2:U	_
+18	Die	der	DET	ART	_	20	E	20:E	_
+19	beiden	beide	PRON	PIAT	_	20	E	20:E	_
+20	Unbekannten	unbekannt	NOUN	NN	_	35	A	35:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	mit	mit	ADP	APPR	_	23	R	23:R	_
+23	Mützen	Mützen	NOUN	NN	_	20	E	20:E	_
+24	von	von	ADP	NE	_	26	R	26:R	_
+25	Seeotter	Seeotter	NOUN	NE	_	26	E	26:E	_
+26	fell	fell	ADJ	NE	_	23	E	23:E	_
+27	und	und	CCONJ	NE	_	23	N	23:N	_
+28	in	in	ADP	APPR	_	30	R	30:R	_
+29	See	See	PROPN	NE	_	30	E	30:E	_
+30	stiefeln	stiefeln	VERB	VVFIN	_	23	C	23:C	_
+31	von	von	ADP	NN	_	33	R	33:R	_
+32	Robben	Robben	PROPN	NN	_	33	E	33:E	_
+33	fell	fell	ADJ	ADJD	_	30	E	30:E	_
+34	,	,	PUNCT	$,	_	35	U	35:U	_
+35	trugen	tragen	VERB	VVFIN	_	2	H	2:H	_
+36	Kleider	Kleider	PROPN	PIAT	_	35	A	35:A	_
+37	von	von	ADP	NN	_	40	R	40:R	_
+38	einem	ein	DET	ART	_	40	E	40:E	_
+39	besonderen	besonder	ADJ	ADJA	_	40	E	40:E	_
+40	Gewebe	Gewebe	NOUN	NN	_	36	E	36:E	_
+41	,	,	PUNCT	$,	_	36	U	36:U	_
+42	die	der	DET	ART	_	47	R	47:R	_
+43	große	groß	ADJ	ADJA	_	44	E	44:E	_
+44	Freiheit	Freiheit	NOUN	NN	_	47	A	47:A	_
+45	der	der	DET	ART	_	46	R	46:R	_
+46	Bewegungen	Bewegung	NOUN	NN	_	47	A	47:A	_
+47	gestatteten	statteten	VERB	VVFIN	_	36	E	36:E	_
+48	.	.	PUNCT	$.	_	47	U	47:U	_
+

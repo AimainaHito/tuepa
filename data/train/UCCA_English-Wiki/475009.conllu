@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 475009
+# text = Although he played in a celebrity game to honor coach Jud Heathcoate in 1995 , this was Johnson 's first meaningful game played in his hometown of Lansing in 22 years .
+1	Although	although	SCONJ	IN	_	3	L	3:L	_
+2	he	he	PRON	PRP	_	3	A	3:A	_
+3	played	play	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	celebrity	celebrity	NOUN	NN	_	7	E	7:E	_
+7	game	game	NOUN	NN	_	3	A	3:A	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	honor	honor	NOUN	NN	_	7	E	7:E	_
+10	coach	coach	NOUN	NN	_	11	E	11:E	_
+11	Jud	Jud	PROPN	NNP	_	9	A	9:A	_
+12	Heathcoate	Heathcoate	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	1995	1995	NUM	CD	_	3	D	3:D	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	this	this	PRON	DT	_	17	A	17:A	_
+17	was	be	AUX	VBD	_	3	H	3:H	_
+18	Johnson	Johnson	PROPN	NNP	_	22	E	22:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	first	first	ADV	RBS	_	22	E	22:E	_
+21	meaningful	meaningful	ADJ	JJ	_	22	E	22:E	_
+22	game	game	NOUN	NN	_	23	A	23:A	_
+23	played	play	VERB	VBD	_	17	A	17:A	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	hometown	hometown	NOUN	NN	_	23	A	23:A	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	Lansing	Lansing	PROPN	NNP	_	26	E	26:E	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	22	22	NUM	CD	_	31	E	31:E	_
+31	years	year	NOUN	NNS	_	17	D	17:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

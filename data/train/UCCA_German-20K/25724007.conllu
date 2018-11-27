@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25724007
+# text = Um 7 Uhr stand ich von der Tafel auf .
+1	Um	um	ADP	APPR	_	3	R	3:R	_
+2	7	7	NUM	CARD	_	3	E	3:E	_
+3	Uhr	Uhr	NOUN	NN	_	4	D	4:D	_
+4	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Tafel	Tafel	NOUN	NN	_	4	A	4:A	_
+9	auf	auf	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+10	.	.	PUNCT	$.	_	4	U	4:U	_
+

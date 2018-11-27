@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 549004
+# text = Without consulting the film 's director , Peter H . Hunt , Warner ordered the film re - edited .
+1	Without	without	SCONJ	IN	_	2	L	2:L	_
+2	consulting	consult	VERB	VBG	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	film	film	NOUN	NN	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	director	director	NOUN	NN	_	8	E	8:E	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	Peter	Peter	PROPN	NNP	_	2	A	2:A	_
+9	H	H	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+11	Hunt	hunt	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	Warner	Warner	PROPN	NNP	_	14	A	14:A|2:A	_
+14	ordered	order	VERB	VBD	_	2	H	2:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	film	film	NOUN	NN	_	19	A	19:A	_
+17	re	re	ADP	IN	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	edited	edite	VERB	VBN	_	14	A	14:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25687008
+# text = Da auf einmal , als der Inder eben auf dem Boden kniete , sah ich ihn mit Entsetzen aufspringen und sich aufwärts schwingen zur Rückkehr an die Oberfläche .
+1	Da	da	SCONJ	KOUS	_	14	L	14:L	_
+2	auf	auf	ADP	APPR	_	14	D	14:D	_
+3	einmal	einmal	ADV	ADV	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	14	U	14:U	_
+5	als	als	SCONJ	KOUS	_	14	L	14:L	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Inder	Inder	NOUN	NN	_	12	A	12:A	_
+8	eben	eben	ADV	ADV	_	12	D	12:D	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	Boden	Boden	NOUN	NN	_	12	A	12:A	_
+12	kniete	knien	VERB	VVFIN	_	14	H	14:H	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+15	ich	ich	PRON	PPER	_	14	A	14:A	_
+16	ihn	er	PRON	PPER	_	19	A	19:A|21:A|18:A	_
+17	mit	mit	ADP	APPR	_	18	R	18:R	_
+18	Entsetzen	Entsetzen	NOUN	NN	_	19	A	19:A	_
+19	aufspringen	aufspringen	VERB	NE	_	14	A	14:A	_
+20	und	und	CCONJ	NE	_	19	L	19:L	_
+21	sich	er|es|sie	PRON	PRF	_	19	H	19:H	_
+22	aufwärts	aufwärts	ADV	ADV	_	21	D	21:D	_
+23	schwingen	schwingen	VERB	NE	_	21	Terminal	21:Terminal	_
+24	zur	zur	ADV	NE	_	25	R	25:R	_
+25	Rückkehr	Rückkehr	NOUN	NN	_	21	A	21:A	_
+26	an	an	ADP	APPR	_	28	R	28:R	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	Oberfläche	Oberfläche	NOUN	NN	_	25	A	25:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

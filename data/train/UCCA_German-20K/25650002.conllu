@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25650002
+# text = Ich war so wenig auf diese Frage gefaßt , dass ich ihn eine Weile ansah , ohne zu antworten .
+1	Ich	ich	PRON	PPER	_	8	A	8:A	_
+2	war	sein	AUX	ADV	_	8	F	8:F	_
+3	so	so	ADV	ADV	_	4	E	4:E	_
+4	wenig	wenig	ADV	PPOSAT	_	8	D	8:D	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	diese	dies	PRON	PDAT	_	7	E	7:E	_
+7	Frage	Frage	NOUN	NN	_	8	A	8:A	_
+8	gefaßt	fassen	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	dass	dass	SCONJ	KOUS	_	8	L	8:L	_
+11	ich	ich	PRON	PPER	_	15	A	15:A|19:A	_
+12	ihn	er	PRON	PPER	_	15	A	15:A	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	Weile	Weile	NOUN	NN	_	15	D	15:D	_
+15	ansah	ansehen	VERB	VVFIN	_	8	H	8:H	_
+16	,	,	PUNCT	$,	_	8	U	8:U	_
+17	ohne	ohne	ADP	CARD	_	8	L	8:L	_
+18	zu	zu	PART	NN	_	19	F	19:F	_
+19	antworten	antworten	VERB	VVINF	_	8	H	8:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

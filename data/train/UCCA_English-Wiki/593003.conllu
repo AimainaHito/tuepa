@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 593003
+# text = Depp has around 13 tattoos , many of them signifying important persons or events in his life .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	has	have	VERB	VBZ	_	0	H	0:H	_
+3	around	around	ADV	RB	_	5	R	5:R	_
+4	13	13	NUM	CD	_	5	E	5:E	_
+5	tattoos	tattoo	NOUN	NNS	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	many	many	ADJ	JJ	_	9	E	9:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	them	they	PRON	PRP	_	10	A	10:A	_
+10	signifying	signify	VERB	VBG	_	5	E	5:E	_
+11	important	important	ADJ	JJ	_	12	E	12:E	_
+12	persons	person	NOUN	NNS	_	10	A	10:A	_
+13	or	or	CCONJ	CC	_	12	N	12:N	_
+14	events	event	NOUN	NNS	_	12	C	12:C	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	life	life	NOUN	NN	_	12	E	12:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

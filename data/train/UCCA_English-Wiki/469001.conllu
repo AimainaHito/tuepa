@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 469001
+# text = Early in the 1981 - 82 season , Johnson had a heated dispute with Westhead , who Johnson said made the Lakers " slow " and " predictable " . After Johnson demanded to be traded , Lakers owner Jerry Buss fired Westhead and replaced him with Riley .
+1	Early	Early	ADV	RB	_	4	R	4:R	_
+2	in	in	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	1981	1981	NUM	CD	_	7	D	7:D	_
+5	-	-	PUNCT	HYPH	_	4	U	4:U	_
+6	82	82	NUM	CD	_	4	C	4:C	_
+7	season	season	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Johnson	Johnson	PROPN	NNP	_	13	A	13:A	_
+10	had	have	VERB	VBD	_	13	F	13:F	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	heated	heated	VERB	VBN	_	13	D	13:D	_
+13	dispute	dispute	NOUN	NN	_	7	H	7:H	_
+14	with	with	ADP	IN	_	15	R	15:R	_
+15	Westhead	Westhead	PROPN	NNP	_	13	A	13:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	who	who	PRON	WP	_	19	F	19:F	_
+18	Johnson	Johnson	PROPN	NNP	_	19	A	19:A	_
+19	said	say	VERB	VBD	_	15	E	15:E	_
+20	made	make	VERB	VBN	_	19	A	19:A	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	Lakers	Lakers	NOUN	NNS	_	20	A	20:A	_
+23	"	"	PUNCT	``	_	20	U	20:U	_
+24	slow	slow	ADJ	JJ	_	20	A	20:A	_
+25	"	"	PUNCT	''	_	24	U	24:U	_
+26	and	and	CCONJ	CC	_	24	N	24:N	_
+27	"	"	PUNCT	``	_	24	U	24:U	_
+28	predictable	predictable	ADJ	JJ	_	24	C	24:C	_
+29	"	"	PUNCT	''	_	7	U	7:U	_
+30	.	.	PUNCT	.	_	7	U	7:U	_
+31	After	after	SCONJ	IN	_	7	L	7:L	_
+32	Johnson	Johnson	PROPN	NNP	_	33	A	33:A|36:A	_
+33	demanded	demand	VERB	VBD	_	7	H	7:H	_
+34	to	to	PART	TO	_	36	F	36:F	_
+35	be	be	AUX	VB	_	36	F	36:F	_
+36	traded	trad	VERB	VBN	_	33	A	33:A	_
+37	,	,	PUNCT	,	_	7	U	7:U	_
+38	Lakers	Lakers	NOUN	NNS	_	39	E	39:E	_
+39	owner	owner	NOUN	NN	_	40	E	40:E	_
+40	Jerry	Jerry	PROPN	NNP	_	0	C	0:C|45:A	_
+41	Buss	Buss	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	fired	fire	VERB	VBD	_	7	H	7:H	_
+43	Westhead	Westhead	PROPN	NNP	_	42	A	42:A	_
+44	and	and	CCONJ	CC	_	7	L	7:L	_
+45	replaced	replace	VERB	VBD	_	7	H	7:H	_
+46	him	he	PRON	PRP	_	45	A	45:A	_
+47	with	with	ADP	IN	_	48	R	48:R	_
+48	Riley	Riley	PROPN	NNP	_	45	A	45:A	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

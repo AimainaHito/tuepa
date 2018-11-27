@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25631005
+# text = Ich glaube , hätte der Kanadier nicht so viel gesprochen , so hätte er mit seiner Freude den ganzen Trupp erlegt !
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	glaube	glauben	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	hätte	haben	AUX	VAFIN	_	10	F	10:F	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kanadier	Kanadier	NOUN	NN	_	10	A	10:A	_
+7	nicht	nicht	PART	CARD	_	10	D	10:D	_
+8	so	so	ADV	ADV	_	9	E	9:E	_
+9	viel	viel	PRON	ADJD	_	10	D	10:D	_
+10	gesprochen	sprechen	VERB	VVPP	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	so	so	ADV	ADV	_	10	L	10:L	_
+13	hätte	haben	AUX	VAFIN	_	21	F	21:F	_
+14	er	er	PRON	PPER	_	21	A	21:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	seiner	sein	DET	PPOSAT	_	17	E	17:E	_
+17	Freude	Freude	NOUN	NN	_	21	A	21:A	_
+18	den	der	DET	ART	_	20	E	20:E	_
+19	ganzen	ganz	ADJ	ADJA	_	20	E	20:E	_
+20	Trupp	Trup	NOUN	NN	_	21	A	21:A	_
+21	erlegt	erlegen	VERB	VVPP	_	10	H	10:H	_
+22	!	!	PUNCT	$.	_	21	U	21:U	_
+

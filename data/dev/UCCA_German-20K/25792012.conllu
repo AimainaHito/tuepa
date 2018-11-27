@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25792012
+# text = » Ja ! « sagte ich , » aber was anfangen ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	aber	aber	ADV	ADV	_	2	L	2:L	_
+10	was	was	PRON	NE	_	11	A	11:A	_
+11	anfangen	anfangen	VERB	VVINF	_	2	H	2:H	_
+12	?	?	PUNCT	$.	_	11	U	11:U	_
+13	«	«	PUNCT	$(	_	11	U	11:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 187005
+# text = It was a devastating setback because he wanted to be an actor , and the Drama department did not allow students to take the stage until they completed all the core freshman classes .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	devastating	devastating	ADJ	JJ	_	5	E	5:E	_
+5	setback	setback	NOUN	NN	_	2	A	2:A	_
+6	because	because	SCONJ	IN	_	2	L	2:L	_
+7	he	he	PRON	PRP	_	8	A	8:A|10:A	_
+8	wanted	want	VERB	VBD	_	2	H	2:H	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	be	be	AUX	VB	_	8	A	8:A	_
+11	an	a	DET	DT	_	12	E	12:E	_
+12	actor	actor	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	Drama	drama	PROPN	NNP	_	17	E	17:E	_
+17	department	department	NOUN	NN	_	20	A	20:A	_
+18	did	do	AUX	VBD	_	20	F	20:F	_
+19	not	not	PART	RB	_	20	D	20:D	_
+20	allow	allow	VERB	VB	_	2	H	2:H	_
+21	students	student	NOUN	NNS	_	20	A	20:A|23:A	_
+22	to	to	PART	TO	_	23	F	23:F	_
+23	take	take	VERB	VB	_	20	A	20:A	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	stage	stage	NOUN	NN	_	23	A	23:A	_
+26	until	until	SCONJ	IN	_	2	L	2:L	_
+27	they	they	PRON	PRP	_	28	A	28:A	_
+28	completed	complete	VERB	VBD	_	2	H	2:H	_
+29	all	all	DET	PDT	_	33	E	33:E	_
+30	the	the	DET	DT	_	33	E	33:E	_
+31	core	core	NOUN	NN	_	33	E	33:E	_
+32	freshman	freshman	ADJ	JJ	_	33	E	33:E	_
+33	classes	class	NOUN	NNS	_	28	A	28:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 665000
+# text = Toward the turn of the millennium , Carey began developing other projects , many of which she was n't able to during her marriage .
+1	Toward	toward	VERB	VB	_	6	R	6:R	_
+2	the	the	DET	DT	_	6	E	6:E	_
+3	turn	turn	NOUN	NN	_	6	E	6:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	millennium	millennium	NOUN	NN	_	10	D	10:D	_
+7	,	,	PUNCT	,	_	10	U	10:U	_
+8	Carey	Carey	PROPN	NNP	_	10	A	10:A	_
+9	began	begin	VERB	VBD	_	10	D	10:D	_
+10	developing	develop	VERB	VBG	_	0	H	0:H	_
+11	other	other	ADJ	JJ	_	12	E	12:E	_
+12	projects	project	NOUN	NNS	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	many	many	ADJ	JJ	_	20	A	20:A	_
+15	of	of	ADP	IN	_	14	R	14:R	_
+16	which	which	PRON	WDT	_	14	F	14:F	_
+17	she	she	PRON	PRP	_	20	A	20:A	_
+18	was	be	AUX	VBD	_	20	F	20:F	_
+19	n't	not	PART	RB	_	20	D	20:D	_
+20	able	able	ADJ	JJ	_	12	E	12:E	_
+21	to	to	ADP	IN	_	20	F	20:F	_
+22	during	during	ADP	IN	_	20	L	20:L	_
+23	her	she	PRON	PRP$	_	24	A	24:A	_
+24	marriage	marriage	NOUN	NN	_	20	H	20:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

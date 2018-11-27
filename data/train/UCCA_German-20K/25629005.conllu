@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25629005
+# text = Es war dies ein vernünftiger Rat , und er wurde befolgt .
+1	Es	es	PRON	PPER	_	6	F	6:F	_
+2	war	sein	AUX	ADV	_	6	F	6:F	_
+3	dies	dies	PRON	PDS	_	6	A	6:A	_
+4	ein	ein	DET	ART	_	6	E	6:E	_
+5	vernünftiger	vernünftig	ADJ	ADJA	_	6	D	6:D	_
+6	Rat	Rat	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	er	er	PRON	PPER	_	11	A	11:A	_
+10	wurde	werden	AUX	TRUNC	_	11	F	11:F	_
+11	befolgt	befolgen	VERB	VVPP	_	6	H	6:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25775008
+# text = Es waren vorzugsweise Robben , die gesonderte Gruppen bildeten , Männchen und Weibchen , der Vater seine Familie überwachend , die Mütter ihre Säuglinge stillend , einige halbwüchsige Junge in einiger Entfernung sich frei tummelnd .
+1	Es	es	PRON	PPER	_	3	F	3:F	_
+2	waren	sein	AUX	VAFIN	_	3	F	3:F	_
+3	vorzugsweise	vorzugsweise	ADV	ADV	_	0	H	0:H	_
+4	Robben	Robbe	NOUN	NN	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	DET	ART	_	9	R	9:R	_
+7	gesonderte	gesondert	ADJ	ADJA	_	9	A	9:A	_
+8	Gruppen	Gruppe	NOUN	NN	_	7	A	7:A	_
+9	bildeten	bilden	VERB	VVFIN	_	4	E	4:E	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	Männchen	Männchen	NOUN	NN	_	3	A	3:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	Weibchen	Weibchen	NOUN	NN	_	11	C	11:C	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Vater	Vater	NOUN	NN	_	19	A	19:A	_
+17	seine	sein	DET	PPOSAT	_	18	E	18:E	_
+18	Familie	Familie	NOUN	NN	_	19	A	19:A	_
+19	überwachend	überwachend	ADJ	ADJD	_	3	H	3:H	_
+20	,	,	PUNCT	$,	_	3	U	3:U	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Mütter	Mutter	NOUN	NN	_	25	A	25:A	_
+23	ihre	ihr	DET	PPOSAT	_	24	E	24:E	_
+24	Säuglinge	Säugling	NOUN	NN	_	25	A	25:A	_
+25	stillend	stillend	VERB	ADJD	_	3	H	3:H	_
+26	,	,	PUNCT	$,	_	3	U	3:U	_
+27	einige	einige	PRON	PIS	_	29	E	29:E	_
+28	halbwüchsige	halbwüchsig	ADJ	ADJA	_	29	E	29:E	_
+29	Junge	jung	NOUN	NN	_	33	A	33:A	_
+30	in	in	ADP	APPR	_	32	R	32:R	_
+31	einiger	einige	PRON	PIAT	_	32	E	32:E	_
+32	Entfernung	Entfernung	NOUN	NN	_	33	A	33:A	_
+33	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+34	frei	frei	ADJ	ADJD	_	33	D	33:D	_
+35	tummelnd	tummelnd	ADJ	ADJD	_	33	Terminal	33:Terminal	_
+36	.	.	PUNCT	$.	_	33	U	33:U	_
+

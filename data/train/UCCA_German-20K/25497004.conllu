@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25497004
+# text = « » Kein Wort , mein Herr « , erwiderte der Unbekannte .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Kein	Kein	PROPN	PIAT	_	4	D	4:D	_
+4	Wort	Wort	PROPN	NN	_	10	A	10:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	mein	mein	PRON	PPOSAT	_	7	E	7:E	_
+7	Herr	Herr	NOUN	NN	_	4	G	4:G	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Unbekannte	unbekannt	ADJ	NN	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

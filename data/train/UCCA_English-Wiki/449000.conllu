@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 449000
+# text = Peter Charles Archibald Ewart Jennings , CM ( July 29 , 1938 - August 7 , 2005 ) was a Canadian American journalist and news anchor .
+1	Peter	Peter	PROPN	NNP	_	19	A	19:A	_
+2	Charles	Charles	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Archibald	Archibald	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Ewart	Ewart	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	Jennings	Jennings	PROPN	NNP	_	1	Terminal	1:Terminal	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	CM	cm	PROPN	NNP	_	1	E	1:E	_
+8	(	(	PUNCT	-LRB-	_	19	U	19:U	_
+9	July	July	PROPN	NNP	_	19	D	19:D	_
+10	29	29	NUM	CD	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	1938	1938	NUM	CD	_	9	Terminal	9:Terminal	_
+13	-	-	PUNCT	:	_	9	U	9:U	_
+14	August	August	PROPN	NNP	_	9	C	9:C	_
+15	7	7	NUM	CD	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	2005	2005	NUM	CD	_	14	Terminal	14:Terminal	_
+18	)	)	PUNCT	-RRB-	_	19	U	19:U	_
+19	was	be	AUX	VBD	_	0	H	0:H	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	Canadian	canadian	ADJ	JJ	_	23	E	23:E	_
+22	American	american	ADJ	JJ	_	23	E	23:E	_
+23	journalist	journalist	NOUN	NN	_	19	A	19:A	_
+24	and	and	CCONJ	CC	_	23	N	23:N	_
+25	news	news	NOUN	NN	_	26	E	26:E	_
+26	anchor	anchor	NOUN	NN	_	23	C	23:C	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25808015
+# text = » Nein , in einer Kirche « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Nein	nein	PART	PTKANT	_	6	D	6:D	_
+3	,	,	PUNCT	$,	_	6	U	6:U	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	einer	ein	DET	ART	_	6	E	6:E	_
+6	Kirche	Kirche	NOUN	NN	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

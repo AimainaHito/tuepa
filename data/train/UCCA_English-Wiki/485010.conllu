@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 485010
+# text = " Wog is such a terrible word , " he said .
+1	"	"	PUNCT	``	_	11	U	11:U	_
+2	Wog	Wog	NOUN	NN	_	3	A	3:A	_
+3	is	be	AUX	VBZ	_	11	A	11:A	_
+4	such	such	DET	PDT	_	7	E	7:E	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	terrible	terrible	ADJ	JJ	_	7	E	7:E	_
+7	word	word	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	"	"	PUNCT	''	_	11	U	11:U	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	said	say	VERB	VBD	_	0	H	0:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

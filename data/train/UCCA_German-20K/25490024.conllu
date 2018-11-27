@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25490024
+# text = Ich atmete weit auf , und meine Lungen erquickten sich an dem frischen Element .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	atmete	atmen	VERB	VVFIN	_	0	H	0:H	_
+3	weit	weit	ADJ	ADJD	_	2	D	2:D	_
+4	auf	auf	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	meine	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Lungen	Lunge	NOUN	NN	_	9	A	9:A	_
+9	erquickten	erquicken	VERB	VVFIN	_	2	H	2:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	an	an	ADP	APPR	_	14	R	14:R	_
+12	dem	der	DET	ART	_	14	E	14:E	_
+13	frischen	frischen	ADJ	ADJA	_	14	E	14:E	_
+14	Element	Element	NOUN	NN	_	9	A	9:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

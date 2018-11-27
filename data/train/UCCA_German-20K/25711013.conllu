@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25711013
+# text = » In diesem Falle würde ich mich bemühen , in Besitz des Boots zu gelangen . Ich verstehe es zu führen . Wir würden uns ins Innere schleichen , die Zapfen wegnehmen und uns wieder auf die Oberfläche begeben , ohne dass selbst der vorne befindliche Steuermann unsere Flucht bemerkte . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	diesem	dies	PRON	PDAT	_	4	E	4:E	_
+4	Falle	Falle	NOUN	NN	_	7	A	7:A	_
+5	würde	werden	AUX	NN	_	7	D	7:D	_
+6	ich	ich	PRON	PPER	_	7	A	7:A|11:A	_
+7	mich	ich	PRON	PRF	_	0	H	0:H	_
+8	bemühen	bemühen	VERB	VVINF	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	in	in	ADP	APPR	_	11	R	11:R	_
+11	Besitz	Besitz	NOUN	NN	_	7	A	7:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Boots	Boot	NOUN	NN	_	11	A	11:A	_
+14	zu	zu	PART	NN	_	11	F	11:F	_
+15	gelangen	gelangen	VERB	VVINF	_	11	D	11:D	_
+16	.	.	PUNCT	$.	_	7	U	7:U	_
+17	Ich	ich	PRON	PPER	_	18	A	18:A|21:A	_
+18	verstehe	verstehen	VERB	VVFIN	_	7	H	7:H	_
+19	es	es	PRON	PPER	_	21	A	21:A	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	führen	führen	VERB	VVINF	_	18	A	18:A	_
+22	.	.	PUNCT	$.	_	7	U	7:U	_
+23	Wir	Wu	PRON	NE	_	25	A	25:A|39:A|32:A	_
+24	würden	werden	AUX	ADJD	_	25	D	25:D|39:D|32:D	_
+25	uns	wir	PRON	NN	_	7	H	7:H	_
+26	ins	in	DET	NN	_	27	R	27:R	_
+27	Innere	Innere	NOUN	NN	_	25	A	25:A	_
+28	schleichen	schleichen	VERB	VVFIN	_	25	Terminal	25:Terminal	_
+29	,	,	PUNCT	$,	_	7	U	7:U	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	Zapfen	Zapfen	NOUN	NN	_	32	A	32:A	_
+32	wegnehmen	wegnehmen	VERB	NN	_	7	H	7:H	_
+33	und	und	CCONJ	NE	_	7	L	7:L	_
+34	uns	wir	PRON	ADJA	_	39	A	39:A	_
+35	wieder	wieder	ADV	NE	_	39	D	39:D	_
+36	auf	auf	ADP	APPR	_	38	R	38:R	_
+37	die	der	DET	ART	_	38	E	38:E	_
+38	Oberfläche	Oberfläche	NOUN	NN	_	39	A	39:A	_
+39	begeben	begeben	VERB	VVFIN	_	7	H	7:H	_
+40	,	,	PUNCT	$,	_	7	U	7:U	_
+41	ohne	ohne	ADP	CARD	_	50	D	50:D	_
+42	dass	dass	SCONJ	KOUS	_	7	L	7:L	_
+43	selbst	selbst	ADV	VVFIN	_	50	D	50:D	_
+44	der	der	DET	ART	_	47	E	47:E	_
+45	vorne	vorne	ADV	NE	_	46	D	46:D	_
+46	befindliche	befindlich	ADJ	ADJA	_	50	A	50:A	_
+47	Steuermann	Steuermann	NOUN	NN	_	46	A	46:A	_
+48	unsere	unser	PRON	PPOSAT	_	49	E	49:E	_
+49	Flucht	Flucht	NOUN	NN	_	50	A	50:A	_
+50	bemerkte	bemerken	VERB	VVFIN	_	7	H	7:H	_
+51	.	.	PUNCT	$.	_	50	U	50:U	_
+52	«	«	PUNCT	$(	_	50	U	50:U	_
+

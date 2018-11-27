@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25464000
+# text = Und in der Tat ließ sie nicht auf sich warten .
+1	Und	und	CCONJ	ADJD	_	8	L	8:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Tat	Tat	NOUN	NN	_	8	G	8:G	_
+5	ließ	lassen	VERB	VVFIN	_	8	D	8:D	_
+6	sie	sie	PRON	ADV	_	8	A	8:A	_
+7	nicht	nicht	PART	CARD	_	8	D	8:D	_
+8	auf	auf	ADP	APPR	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	warten	warten	VERB	VVINF	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

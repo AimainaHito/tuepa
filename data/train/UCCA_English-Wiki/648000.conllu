@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 648000
+# text = When Lennon and Ono were reunited , she became pregnant , but having previously suffered three miscarriages in her attempt to have a child with Lennon , she said she wanted an abortion .
+1	When	when	ADV	WRB	_	6	L	6:L	_
+2	Lennon	Lennon	PROPN	NNP	_	6	A	6:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	Ono	Ono	PROPN	NNP	_	2	C	2:C	_
+5	were	be	AUX	VBD	_	6	F	6:F	_
+6	reunited	reunit	VERB	VBN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	she	she	PRON	PRP	_	10	A	10:A|15:A	_
+9	became	become	VERB	VBD	_	10	D	10:D	_
+10	pregnant	pregnant	ADJ	JJ	_	6	H	6:H	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	but	but	CCONJ	CC	_	6	L	6:L	_
+13	having	have	AUX	VBG	_	15	F	15:F	_
+14	previously	previously	ADV	RB	_	15	D	15:D	_
+15	suffered	suffer	VERB	VBN	_	6	H	6:H	_
+16	three	three	NUM	CD	_	17	E	17:E	_
+17	miscarriages	miscarriage	NOUN	NNS	_	15	A	15:A	_
+18	in	in	ADP	IN	_	22	R	22:R	_
+19	her	she	PRON	PRP$	_	22	A	22:A	_
+20	attempt	attempt	NOUN	NN	_	22	E	22:E	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	have	have	VERB	VB	_	15	A	15:A	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	child	child	NOUN	NN	_	22	A	22:A	_
+25	with	with	ADP	IN	_	26	R	26:R	_
+26	Lennon	Lennon	PROPN	NNP	_	22	A	22:A	_
+27	,	,	PUNCT	,	_	6	U	6:U	_
+28	she	she	PRON	PRP	_	29	A	29:A	_
+29	said	say	VERB	VBD	_	6	H	6:H	_
+30	she	she	PRON	PRP	_	31	A	31:A	_
+31	wanted	want	VERB	VBD	_	29	A	29:A	_
+32	an	a	DET	DT	_	33	E	33:E	_
+33	abortion	abortion	NOUN	NN	_	31	A	31:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

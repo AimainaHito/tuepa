@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 671021
+# text = Her highest - charting single in Japan peaked at number two .
+1	Her	she	PRON	PRP$	_	5	E	5:E	_
+2	highest	highest	ADJ	JJS	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	charting	chart	NOUN	NN	_	5	E	5:E	_
+5	single	single	ADJ	JJ	_	8	A	8:A	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	Japan	Japan	PROPN	NNP	_	5	E	5:E	_
+8	peaked	peake	VERB	VBN	_	0	H	0:H	_
+9	at	at	ADP	IN	_	10	R	10:R	_
+10	number	number	NOUN	NN	_	8	A	8:A	_
+11	two	two	NUM	CD	_	10	E	10:E	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

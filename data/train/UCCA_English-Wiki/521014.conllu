@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 521014
+# text = By late 1934 , the Gumm Sisters had changed their name to the Garland Sisters .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	late	late	ADJ	JJ	_	3	E	3:E	_
+3	1934	1934	NUM	CD	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	Gumm	Gumm	PROPN	NNP	_	7	E	7:E	_
+7	Sisters	sisters	PROPN	NNPS	_	9	A	9:A	_
+8	had	have	AUX	VBD	_	9	F	9:F	_
+9	changed	change	VERB	VBN	_	0	H	0:H	_
+10	their	they	PRON	PRP$	_	11	E	11:E	_
+11	name	name	NOUN	NN	_	9	A	9:A	_
+12	to	to	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	Garland	Garland	PROPN	NNP	_	15	E	15:E	_
+15	Sisters	sisters	PROPN	NNPS	_	9	A	9:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

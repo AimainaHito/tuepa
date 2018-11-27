@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 251005
+# text = The production starred Paul Dano , Peter Dinklage , Josh Hamilton , and Zoe Kazan .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	production	production	NOUN	NN	_	3	A	3:A	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	Paul	Paul	PROPN	NNP	_	3	A	3:A	_
+5	Dano	Dano	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	Peter	Peter	PROPN	NNP	_	4	C	4:C	_
+8	Dinklage	Dinklage	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Josh	Josh	PROPN	NNP	_	4	C	4:C	_
+11	Hamilton	Hamilton	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	and	and	CCONJ	CC	_	4	N	4:N	_
+14	Zoe	Zoe	PROPN	NNP	_	4	C	4:C	_
+15	Kazan	Kazan	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	4	U	4:U	_
+

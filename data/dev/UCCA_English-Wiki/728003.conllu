@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 728003
+# text = " The movie earned $ 478 million worldwide , making it the seventh - highest grossing film of 2005 .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	movie	movie	NOUN	NN	_	4	A	4:A	_
+4	earned	earn	VERB	VBD	_	0	H	0:H	_
+5	$	$	SYM	$	_	4	U	4:U	_
+6	478	478	NUM	CD	_	4	A	4:A	_
+7	million	million	NUM	CD	_	6	Terminal	6:Terminal	_
+8	worldwide	worldwide	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	making	make	VERB	VBG	_	4	H	4:H	_
+11	it	it	PRON	PRP	_	10	A	10:A	_
+12	the	the	DET	DT	_	17	E	17:E	_
+13	seventh	seventh	NOUN	NN	_	15	E	15:E	_
+14	-	-	PUNCT	,	_	15	U	15:U	_
+15	highest	highest	ADJ	JJS	_	17	E	17:E	_
+16	grossing	gross	NOUN	NN	_	17	E	17:E	_
+17	film	film	NOUN	NN	_	10	A	10:A	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	2005	2005	NUM	CD	_	17	E	17:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

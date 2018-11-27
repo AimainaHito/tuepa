@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25686015
+# text = Von da aus tauchte er unter , kehrte dahin zurück .
+1	Von	von	ADP	APPR	_	2	R	2:R	_
+2	da	da	ADV	ADV	_	4	A	4:A	_
+3	aus	aus	ADP	APZR	_	1	Terminal	1:Terminal	_
+4	tauchte	tauchen	VERB	VVFIN	_	0	H	0:H	_
+5	er	er	PRON	PPER	_	4	A	4:A	_
+6	unter	unter	ADP	ADJA	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	kehrte	kehren	VERB	VVFIN	_	4	H	4:H	_
+9	dahin	dahin	ADV	PAV	_	8	A	8:A	_
+10	zurück	zurück	ADV	ADJA	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

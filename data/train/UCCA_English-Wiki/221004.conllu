@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 221004
+# text = She has also gone public detailing her " sedate lifestyle " and the fact that she has a single apartment in New York with one bedroom .
+1	She	she	PRON	PRP	_	4	A	4:A|6:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	gone	go	VERB	VBN	_	0	H	0:H	_
+5	public	public	ADJ	JJ	_	4	Terminal	4:Terminal	_
+6	detailing	detaile	NOUN	NN	_	4	A	4:A	_
+7	her	she	PRON	PRP$	_	10	E	10:E	_
+8	"	"	PUNCT	``	_	10	U	10:U	_
+9	sedate	sedate	NOUN	NN	_	10	E	10:E	_
+10	lifestyle	lifestyle	NOUN	NN	_	6	A	6:A	_
+11	"	"	PUNCT	''	_	10	U	10:U	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	fact	fact	NOUN	NN	_	10	C	10:C	_
+15	that	that	SCONJ	IN	_	17	F	17:F	_
+16	she	she	PRON	PRP	_	17	A	17:A	_
+17	has	have	VERB	VBZ	_	14	E	14:E	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	single	single	ADJ	JJ	_	20	E	20:E	_
+20	apartment	apartment	NOUN	NN	_	17	A	17:A	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	New	New	PROPN	NNP	_	17	A	17:A	_
+23	York	York	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	with	with	ADP	IN	_	26	R	26:R	_
+25	one	one	NUM	CD	_	26	E	26:E	_
+26	bedroom	bedroom	NOUN	NN	_	20	E	20:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

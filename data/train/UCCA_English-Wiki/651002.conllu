@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 651002
+# text = In 1973 , Lennon contributed a limerick called " Why Make It Sad To Be Gay ? " to Len Richmond 's The Gay Liberation Book .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1973	1973	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Lennon	Lennon	PROPN	NNP	_	5	A	5:A	_
+5	contributed	contribute	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	limerick	limerick	NOUN	NN	_	5	A	5:A	_
+8	called	call	VERB	VBN	_	7	E	7:E	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	Why	why	ADV	WRB	_	8	A	8:A	_
+11	Make	make	VERB	VB	_	10	Terminal	10:Terminal	_
+12	It	it	PRON	PRP	_	10	Terminal	10:Terminal	_
+13	Sad	sad	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	To	to	PART	TO	_	10	Terminal	10:Terminal	_
+15	Be	be	VERB	VB	_	10	Terminal	10:Terminal	_
+16	Gay	Gay	PROPN	NNP	_	10	Terminal	10:Terminal	_
+17	?	?	PUNCT	.	_	5	U	5:U	_
+18	"	"	PUNCT	''	_	5	U	5:U	_
+19	to	to	ADP	IN	_	23	R	23:R	_
+20	Len	Len	PROPN	NNP	_	23	E	23:E	_
+21	Richmond	Richmond	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	's	's	PART	POS	_	20	R	20:R	_
+23	The	the	DET	DT	_	5	A	5:A	_
+24	Gay	Gay	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	Liberation	Liberation	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	Book	book	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	.	.	PUNCT	.	_	23	U	23:U	_
+

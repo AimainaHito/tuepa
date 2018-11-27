@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25673006
+# text = » Schwerlich , Herr Professor . Zu Panama verdienen sie nur einen Dollar die Woche . Meistens bekommen sie nur einen Sou für die Muschel mit einer Perle , und wie viele bringen Sie herauf , die keine enthalten ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Schwerlich	schwerlich	PROPN	ADJD	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	2	G	2:G	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	Zu	zu	PROPN	NE	_	8	R	8:R	_
+8	Panama	Panama	PROPN	NN	_	9	A	9:A	_
+9	verdienen	verdienen	VERB	VVFIN	_	2	H	2:H	_
+10	sie	sie	PRON	ADV	_	9	A	9:A	_
+11	nur	nur	ADV	NE	_	9	D	9:D	_
+12	einen	ein	DET	ART	_	13	E	13:E	_
+13	Dollar	Dollar	NOUN	NN	_	9	A	9:A	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Woche	Woche	NOUN	NN	_	13	E	13:E	_
+16	.	.	PUNCT	$.	_	2	U	2:U	_
+17	Meistens	meistens	NOUN	NN	_	18	D	18:D	_
+18	bekommen	bekommen	VERB	VVFIN	_	2	H	2:H	_
+19	sie	sie	PRON	ADV	_	18	A	18:A	_
+20	nur	nur	ADV	NE	_	18	D	18:D	_
+21	einen	ein	DET	ART	_	18	A	18:A	_
+22	Sou	Sou	PROPN	NN	_	21	Terminal	21:Terminal	_
+23	für	für	ADP	APPR	_	25	R	25:R	_
+24	die	der	DET	ART	_	25	E	25:E	_
+25	Muschel	Muschel	NOUN	NN	_	0	C	0:C|39:A|33:A	_
+26	mit	mit	ADP	APPR	_	28	R	28:R	_
+27	einer	ein	DET	ART	_	28	E	28:E	_
+28	Perle	Perl	NOUN	NN	_	0	C	0:C|39:A	_
+29	,	,	PUNCT	$,	_	2	U	2:U	_
+30	und	und	CCONJ	NE	_	2	L	2:L	_
+31	wie	wie	ADV	NE	_	33	A	33:A	_
+32	viele	viel	PRON	NE	_	31	Terminal	31:Terminal	_
+33	bringen	bringen	VERB	VVFIN	_	2	H	2:H	_
+34	Sie	Sie|sie	PRON	PPER	_	33	A	33:A	_
+35	herauf	herauf	ADV	ADV	_	33	Terminal	33:Terminal	_
+36	,	,	PUNCT	$,	_	33	U	33:U	_
+37	die	der	PRON	PRELS	_	39	R	39:R	_
+38	keine	kein	PRON	PIAT	_	39	D	39:D	_
+39	enthalten	enthalten	VERB	VVINF	_	31	E	31:E	_
+40	!	!	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

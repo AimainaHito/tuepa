@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25623000
+# text = » Mein Herr hat recht « , sagte Conseil , » und ich schlage vor , drei Plätze in unserem Boot frei zu halten , einen für Obst , einen zweiten für Gemüse und den dritten für Wildbret , wovon ich noch kein Pröbchen gesehen habe . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	5	A	5:A	_
+4	hat	haben	VERB	VAFIN	_	5	F	5:F	_
+5	recht	recht	ADV	NE	_	8	A	8:A	_
+6	«	«	PUNCT	$.	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	ADJ	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NE	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	und	und	CCONJ	NE	_	5	L	5:L	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	schlage	schlagen	NOUN	NN	_	5	H	5:H	_
+15	vor	vor	ADP	NE	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	drei	drei	NUM	CARD	_	18	E	18:E	_
+18	Plätze	Platz	NOUN	NN	_	22	A	22:A	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	unserem	unser	DET	PPOSAT	_	21	E	21:E	_
+21	Boot	Boot	NOUN	NN	_	22	A	22:A	_
+22	frei	frei	ADV	ADJD	_	14	A	14:A	_
+23	zu	zu	ADP	VVINF	_	22	F	22:F	_
+24	halten	halten	NOUN	VVINF	_	22	Terminal	22:Terminal	_
+25	,	,	PUNCT	$,	_	22	U	22:U	_
+26	einen	ein	PRON	ART	_	22	A	22:A	_
+27	für	für	ADP	APPR	_	28	R	28:R	_
+28	Obst	Obst	NOUN	NN	_	26	E	26:E	_
+29	,	,	PUNCT	$,	_	22	U	22:U	_
+30	einen	ein	DET	ART	_	31	E	31:E	_
+31	zweiten	zweit	NOUN	ADJA	_	22	A	22:A	_
+32	für	für	ADP	APPR	_	33	R	33:R	_
+33	Gemüse	Gemüse	NOUN	NN	_	31	A	31:A	_
+34	und	und	CCONJ	NE	_	31	N	31:N	_
+35	den	der	DET	ART	_	36	E	36:E	_
+36	dritten	dritt	NOUN	ADJA	_	31	C	31:C	_
+37	für	für	ADP	APPR	_	38	R	38:R	_
+38	Wildbret	Wildbret	PROPN	NE	_	36	A	36:A	_
+39	,	,	PUNCT	$,	_	38	U	38:U	_
+40	wovon	wovon	PRON	ADJA	_	45	R	45:R	_
+41	ich	ich	PRON	PPER	_	45	A	45:A	_
+42	noch	noch	ADV	VVINF	_	45	D	45:D	_
+43	kein	kein	PRON	PIAT	_	45	D	45:D	_
+44	Pröbchen	Pröbchen	NOUN	NE	_	45	A	45:A	_
+45	gesehen	sehen	VERB	VVINF	_	38	E	38:E	_
+46	habe	haben	AUX	VAFIN	_	45	F	45:F	_
+47	.	.	PUNCT	$.	_	45	U	45:U	_
+48	«	«	PUNCT	$(	_	45	U	45:U	_
+

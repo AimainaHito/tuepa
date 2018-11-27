@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 653000
+# text = Beatles ' biographer Bill Harry writes that Lennon began drawing and writing creatively at an early age with the encouragement of his uncle .
+1	Beatles	Beatles	PROPN	NNPS	_	3	E	3:E	_
+2	'	's	PART	POS	_	3	U	3:U	_
+3	biographer	biographer	NOUN	NN	_	6	A	6:A	_
+4	Bill	Bill	PROPN	NNP	_	3	E	3:E	_
+5	Harry	Harry	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	writes	write	VERB	VBZ	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	10	F	10:F	_
+8	Lennon	Lennon	PROPN	NNP	_	10	A	10:A|17:A	_
+9	began	begin	VERB	VBD	_	10	D	10:D	_
+10	drawing	draw	VERB	VBG	_	6	A	6:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	writing	write	VERB	VBG	_	10	C	10:C	_
+13	creatively	creatively	ADV	RB	_	10	D	10:D	_
+14	at	at	ADP	IN	_	10	L	10:L	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	early	early	ADJ	JJ	_	17	E	17:E	_
+17	age	age	NOUN	NN	_	10	H	10:H	_
+18	with	with	ADP	IN	_	10	L	10:L	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	encouragement	encouragement	NOUN	NN	_	10	H	10:H	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	uncle	uncle	NOUN	NN	_	20	A	20:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

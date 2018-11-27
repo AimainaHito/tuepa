@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25440005
+# text = Entweder Kommandant Farragut würde den Narwal töten oder der Narwal den Kommandanten .
+1	Entweder	entweder	CCONJ	KON	_	7	L	7:L	_
+2	Kommandant	Kommandant	NOUN	NN	_	3	E	3:E	_
+3	Farragut	Farragut	PROPN	NE	_	7	A	7:A	_
+4	würde	werden	AUX	NN	_	7	D	7:D|10:D	_
+5	den	der	DET	ART	_	6	R	6:R	_
+6	Narwal	Narwal	NOUN	NN	_	7	A	7:A	_
+7	töten	töten	VERB	VVFIN	_	0	H	0:H	_
+8	oder	oder	CCONJ	CARD	_	1	Terminal	1:Terminal	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Narwal	Narwal	NOUN	NN	_	7	H	7:H	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Kommandanten	Kommandant	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

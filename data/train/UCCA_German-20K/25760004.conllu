@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25760004
+# text = Conseil und Ned setzten sich neben mich vor die Fenster des Salons .
+1	Conseil	Conseil	NOUN	NN	_	4	A	4:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Ned	Ned	NOUN	NE	_	1	C	1:C	_
+4	setzten	setzen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	neben	neben	ADP	TRUNC	_	7	R	7:R	_
+7	mich	ich	PRON	PPER	_	4	A	4:A	_
+8	vor	vor	ADP	NN	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Fenster	Fenster	NOUN	NN	_	4	A	4:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Salons	Salon	NOUN	NN	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

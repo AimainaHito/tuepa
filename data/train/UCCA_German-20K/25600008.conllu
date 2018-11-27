@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25600008
+# text = Ich musste also verzichten , sie zu fragen .
+1	Ich	ich	PRON	PPER	_	4	A	4:A|8:A	_
+2	musste	müssen	AUX	VVFIN	_	4	D	4:D	_
+3	also	also	ADV	ADV	_	4	F	4:F	_
+4	verzichten	verzichten	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	sie	sie	PRON	ADV	_	8	A	8:A	_
+7	zu	zu	PART	NE	_	8	F	8:F	_
+8	fragen	fragen	VERB	VVINF	_	4	A	4:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

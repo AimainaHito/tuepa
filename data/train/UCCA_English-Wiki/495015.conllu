@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 495015
+# text = Satirising life in a British prison , meanwhile , the Bowie - penned " Over the Wall We Go " became a 1967 single for Oscar ; another Bowie composition , " Silly Boy Blue " , was released by Billy Fury the following year .
+1	Satirising	Satirise	ADJ	JJ	_	0	H	0:H	_
+2	life	life	NOUN	NN	_	1	A	1:A	_
+3	in	in	ADP	IN	_	6	R	6:R	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	British	british	ADJ	JJ	_	6	E	6:E	_
+6	prison	prison	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	meanwhile	meanwhile	ADV	RB	_	1	L	1:L	_
+9	,	,	PUNCT	,	_	1	U	1:U	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	Bowie	Bowie	PROPN	NNP	_	13	A	13:A	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	penned	pen	VERB	VBN	_	15	E	15:E	_
+14	"	"	PUNCT	''	_	13	U	13:U	_
+15	Over	over	ADP	IN	_	21	A	21:A	_
+16	the	the	DET	DT	_	15	Terminal	15:Terminal	_
+17	Wall	wall	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	We	We	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	Go	go	PROPN	NNP	_	15	Terminal	15:Terminal	_
+20	"	"	PUNCT	''	_	21	U	21:U	_
+21	became	become	VERB	VBD	_	1	H	1:H	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	1967	1967	NUM	CD	_	24	E	24:E	_
+24	single	single	ADJ	JJ	_	21	A	21:A	_
+25	for	for	ADP	IN	_	26	R	26:R	_
+26	Oscar	Oscar	PROPN	NNP	_	24	E	24:E	_
+27	;	;	PUNCT	,	_	1	U	1:U	_
+28	another	another	DET	DT	_	30	R	30:R	_
+29	Bowie	Bowie	PROPN	NNP	_	30	A	30:A	_
+30	composition	composition	NOUN	NN	_	33	E	33:E	_
+31	,	,	PUNCT	,	_	30	U	30:U	_
+32	"	"	PUNCT	''	_	30	U	30:U	_
+33	Silly	Silly	PROPN	NNP	_	39	A	39:A	_
+34	Boy	Boy	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	Blue	Blue	PROPN	NNP	_	33	Terminal	33:Terminal	_
+36	"	"	PUNCT	''	_	39	U	39:U	_
+37	,	,	PUNCT	,	_	39	U	39:U	_
+38	was	be	AUX	VBD	_	39	F	39:F	_
+39	released	release	VERB	VBN	_	1	H	1:H	_
+40	by	by	ADP	IN	_	41	R	41:R	_
+41	Billy	Billy	PROPN	NNP	_	39	A	39:A	_
+42	Fury	Fury	PROPN	NNP	_	41	Terminal	41:Terminal	_
+43	the	the	DET	DT	_	45	E	45:E	_
+44	following	follow	VERB	VBG	_	45	E	45:E	_
+45	year	year	NOUN	NN	_	39	D	39:D	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

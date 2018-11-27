@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25795005
+# text = Solche Leiden lassen sich nicht schildern .
+1	Solche	solch	PRON	PIAT	_	2	E	2:E	_
+2	Leiden	Leiden	NOUN	NN	_	4	A	4:A	_
+3	lassen	lassen	VERB	VVINF	_	4	D	4:D	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	nicht	nicht	PART	XY	_	4	D	4:D	_
+6	schildern	schildern	VERB	VVINF	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

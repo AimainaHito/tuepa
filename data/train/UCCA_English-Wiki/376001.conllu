@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 376001
+# text = The son of director Stephen Gyllenhaal and screenwriter Naomi Foner , Gyllenhaal began acting at the age of ten .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	son	son	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	director	director	NOUN	NN	_	5	E	5:E	_
+5	Stephen	Stephen	PROPN	NNP	_	2	E	2:E	_
+6	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	and	and	CCONJ	CC	_	5	N	5:N	_
+8	screenwriter	screenwriter	PROPN	NNP	_	9	E	9:E	_
+9	Naomi	Naomi	PROPN	NNP	_	5	C	5:C	_
+10	Foner	Foner	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	14	A	14:A	_
+13	began	begin	VERB	VBD	_	14	D	14:D	_
+14	acting	act	VERB	VBG	_	2	H	2:H	_
+15	at	at	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	age	age	NOUN	NN	_	19	E	19:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	ten	ten	NUM	CD	_	14	A	14:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

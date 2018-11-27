@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 489004
+# text = " Bana was considered for play James Bond role in 2006 film Casino Royale but he lost out to Daniel Craig .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Bana	Bana	PROPN	NNP	_	4	A	4:A|6:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	considered	consider	VERB	VBN	_	0	H	0:H	_
+5	for	for	ADP	IN	_	6	R	6:R	_
+6	play	play	NOUN	NN	_	4	A	4:A	_
+7	James	James	PROPN	NNP	_	9	E	9:E	_
+8	Bond	bond	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	role	role	NOUN	NN	_	6	A	6:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	2006	2006	NUM	CD	_	13	E	13:E	_
+12	film	film	NOUN	NN	_	13	E	13:E	_
+13	Casino	Casino	PROPN	NNP	_	6	A	6:A	_
+14	Royale	Royale	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	but	but	CCONJ	CC	_	4	L	4:L	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	lost	lose	VERB	VBD	_	4	H	4:H	_
+18	out	out	ADP	RP	_	17	E	17:E	_
+19	to	to	ADP	IN	_	20	R	20:R	_
+20	Daniel	Daniel	PROPN	NNP	_	17	A	17:A	_
+21	Craig	Craig	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

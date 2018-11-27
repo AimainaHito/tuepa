@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 549008
+# text = On October 14 , 1914 , Warner married Irma Solomons , the adolescent daughter of one of San Francisco 's pioneer Jewish families .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	October	October	PROPN	NNP	_	5	E	5:E	_
+3	14	14	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	1914	1914	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Warner	Warner	PROPN	NNP	_	8	A	8:A	_
+8	married	marry	VERB	VBD	_	0	H	0:H	_
+9	Irma	Irma	PROPN	NNP	_	8	A	8:A	_
+10	Solomons	Solomons	PROPN	NNPS	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	adolescent	adolescent	ADJ	JJ	_	14	E	14:E	_
+14	daughter	daughter	NOUN	NN	_	9	E	9:E	_
+15	of	of	ADP	IN	_	23	R	23:R	_
+16	one	one	NUM	CD	_	23	E	23:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	San	San	PROPN	NNP	_	23	E	23:E	_
+19	Francisco	Francisco	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	18	R	18:R	_
+21	pioneer	pioneer	NOUN	NN	_	23	E	23:E	_
+22	Jewish	jewish	ADJ	JJ	_	23	E	23:E	_
+23	families	family	NOUN	NNS	_	14	E	14:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

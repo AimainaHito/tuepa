@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25726001
+# text = Er bemerkte mich und sagte ohne weiteres :
+1	Er	er	PRON	PPER	_	2	A	2:A|5:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PPER	_	2	A	2:A	_
+4	und	und	CCONJ	NE	_	2	L	2:L	_
+5	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+6	ohne	ohne	ADP	NN	_	5	D	5:D	_
+7	weiteres	weiter	ADJ	ADJA	_	5	A	5:A	_
+8	:	:	PUNCT	$.	_	5	U	5:U	_
+

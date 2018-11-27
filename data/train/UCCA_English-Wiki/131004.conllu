@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 131004
+# text = She signed on for the film version of Holiday ( 1938 ) with Columbia Pictures , pairing her for the third time with Grant .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	signed	sign	VERB	VBD	_	0	H	0:H	_
+3	on	on	ADP	IN	_	2	E	2:E	_
+4	for	for	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	film	film	NOUN	NN	_	7	E	7:E	_
+7	version	version	NOUN	NN	_	9	E	9:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	Holiday	holiday	PROPN	NNP	_	2	A	2:A	_
+10	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+11	1938	1938	NUM	CD	_	9	E	9:E	_
+12	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+13	with	with	ADP	IN	_	14	E	14:E	_
+14	Columbia	Columbia	PROPN	NNP	_	2	A	2:A	_
+15	Pictures	Pictures	NOUN	NNS	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	pairing	paire	VERB	VBG	_	2	H	2:H	_
+18	her	she	PRON	PRP$	_	17	A	17:A	_
+19	for	for	ADP	IN	_	22	R	22:R	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	third	third	ADJ	JJ	_	22	E	22:E	_
+22	time	time	NOUN	NN	_	17	D	17:D	_
+23	with	with	ADP	IN	_	24	R	24:R	_
+24	Grant	grant	PROPN	NNP	_	17	A	17:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

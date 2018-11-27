@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25486003
+# text = Übrigens muß man anerkennen , dass die ›Abraham Lincoln‹ mit unermüdlicher Ausdauer kämpfte .
+1	Übrigens	übrigens	ADV	ADV	_	4	G	4:G	_
+2	muß	müssen	AUX	VMFIN	_	4	D	4:D	_
+3	man	man	PRON	PIS	_	4	A	4:A	_
+4	anerkennen	anerkennen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	13	R	13:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Abraham	›Abraham	PROPN	NE	_	13	A	13:A	_
+9	Lincoln‹	Lincoln‹	NOUN	NE	_	8	Terminal	8:Terminal	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	unermüdlicher	unermüdlich	ADJ	ADJA	_	12	E	12:E	_
+12	Ausdauer	Ausdauer	NOUN	NN	_	13	A	13:A	_
+13	kämpfte	kämpfen	VERB	VVFIN	_	4	A	4:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

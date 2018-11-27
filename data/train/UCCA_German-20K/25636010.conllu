@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25636010
+# text = Dies aber gerade war zu verhindern .
+1	Dies	dies	PRON	PDS	_	6	A	6:A	_
+2	aber	aber	ADV	ADV	_	6	L	6:L	_
+3	gerade	gerade	ADV	ADV	_	6	D	6:D	_
+4	war	sein	AUX	ADV	_	6	D	6:D	_
+5	zu	zu	PART	VVINF	_	6	F	6:F	_
+6	verhindern	verhindern	VERB	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

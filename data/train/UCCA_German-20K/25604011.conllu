@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25604011
+# text = Die Szenen und Dekorationen änderten sich zu unserer Augenweide , und wir waren dadurch imstande , nicht nur die Werke des Schöpfers mitten in ihrem Element zu betrachten , sondern auch in die gefürchtetsten Geheimnisse des Ozeans zu dringen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Szenen	Szene	NOUN	NN	_	5	A	5:A	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	Dekorationen	Dekoration	NOUN	NE	_	2	C	2:C	_
+5	änderten	ändern	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	zu	zu	ADP	NN	_	9	R	9:R	_
+8	unserer	unser	PRON	PPOSAT	_	9	E	9:E	_
+9	Augenweide	Augenweide	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	und	und	CCONJ	NE	_	5	L	5:L	_
+12	wir	wir	PRON	NE	_	15	A	15:A|39:A|28:A	_
+13	waren	sein	AUX	VAFIN	_	15	F	15:F	_
+14	dadurch	dadurch	ADV	PAV	_	15	D	15:D	_
+15	imstande	imstande	ADV	NE	_	5	H	5:H	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	nicht	nicht	PART	CARD	_	28	L	28:L	_
+18	nur	nur	ADV	NE	_	17	Terminal	17:Terminal	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Werke	Werk	NOUN	NN	_	28	A	28:A	_
+21	des	der	DET	ART	_	22	R	22:R	_
+22	Schöpfers	Schöpfer	NOUN	NN	_	20	E	20:E	_
+23	mitten	mitten	ADV	ADV	_	26	R	26:R	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	ihrem	ihr	DET	PPOSAT	_	26	E	26:E	_
+26	Element	Element	NOUN	NN	_	28	A	28:A	_
+27	zu	zu	PART	VVINF	_	28	F	28:F	_
+28	betrachten	betrachten	VERB	VVINF	_	15	A	15:A	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	sondern	sondern	CCONJ	NN	_	28	L	28:L	_
+31	auch	auch	ADV	ADV	_	30	Terminal	30:Terminal	_
+32	in	in	ADP	APPR	_	35	R	35:R	_
+33	die	der	DET	ART	_	35	E	35:E	_
+34	gefürchtetsten	gefürchtet	ADJ	NN	_	35	E	35:E	_
+35	Geheimnisse	Geheimnis	NOUN	NN	_	39	A	39:A	_
+36	des	der	DET	ART	_	37	R	37:R	_
+37	Ozeans	Ozeans	NOUN	NE	_	35	E	35:E	_
+38	zu	zu	PART	NN	_	39	F	39:F	_
+39	dringen	dringen	VERB	VVFIN	_	28	H	28:H	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

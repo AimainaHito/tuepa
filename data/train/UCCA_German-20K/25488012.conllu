@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25488012
+# text = Jetzt hielt ich mich für verloren .
+1	Jetzt	jetzt	ADV	ADV	_	6	D	6:D	_
+2	hielt	halten	VERB	VVFIN	_	6	D	6:D	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	mich	ich	PRON	PRF	_	6	A	6:A	_
+5	für	für	ADP	APPR	_	6	R	6:R	_
+6	verloren	verlieren	ADV	PTKVZ	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

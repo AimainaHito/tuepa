@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 252000
+# text = In January 2010 Hawke directed his second play , A Lie of the Mind , by Sam Shepard on the New York stage .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	January	January	PROPN	NNP	_	3	E	3:E	_
+3	2010	2010	NUM	CD	_	5	D	5:D	_
+4	Hawke	Hawke	PROPN	NNP	_	5	A	5:A	_
+5	directed	direct	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	second	second	ADJ	JJ	_	8	E	8:E	_
+8	play	play	NOUN	NN	_	10	E	10:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	A	a	DET	DT	_	5	A	5:A	_
+11	Lie	lie	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	of	of	ADP	IN	_	10	Terminal	10:Terminal	_
+13	the	the	DET	DT	_	10	Terminal	10:Terminal	_
+14	Mind	Mind	NOUN	NN	_	10	Terminal	10:Terminal	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	by	by	ADP	IN	_	10	E	10:E	_
+17	Sam	Sam	PROPN	NNP	_	16	A	16:A	_
+18	Shepard	Shepard	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	on	on	ADP	IN	_	23	R	23:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	New	New	PROPN	NNP	_	23	E	23:E	_
+22	York	York	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	stage	stage	NOUN	NN	_	5	A	5:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

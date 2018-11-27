@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25783009
+# text = » Ein Zwischenfall , Kapitän ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ein	ein	DET	ART	_	3	E	3:E	_
+3	Zwischenfall	Zwischenfall	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Kapitän	Kapitän	NOUN	NN	_	3	G	3:G	_
+6	?	?	PUNCT	$.	_	3	U	3:U	_
+7	«	«	PUNCT	$(	_	3	U	3:U	_
+

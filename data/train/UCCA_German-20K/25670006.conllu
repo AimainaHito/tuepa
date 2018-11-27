@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25670006
+# text = Von ihren acht Fühl fäden schwammen sechs lange und feine oben auf dem Wasser , während die beiden andern blattförmig zusammengerollt wie ein leichtes Segel im Wind aufgespannt waren .
+1	Von	von	ADP	APPR	_	5	R	5:R	_
+2	ihren	ihr	DET	PPOSAT	_	5	E	5:E	_
+3	acht	acht	NUM	CARD	_	5	E	5:E	_
+4	Fühl	Fühl	NOUN	NN	_	5	E	5:E	_
+5	fäden	fäden	VERB	NN	_	6	A	6:A	_
+6	schwammen	schwammen	VERB	VVINF	_	0	H	0:H	_
+7	sechs	sechs	NUM	NN	_	8	E	8:E	_
+8	lange	lange	ADJ	ADV	_	6	A	6:A	_
+9	und	und	CCONJ	NN	_	8	N	8:N	_
+10	feine	fein	ADJ	ADJA	_	8	C	8:C	_
+11	oben	oben	ADV	NN	_	6	D	6:D	_
+12	auf	auf	ADP	APPR	_	14	R	14:R	_
+13	dem	der	DET	ART	_	14	E	14:E	_
+14	Wasser	Wasser	NOUN	NN	_	6	A	6:A	_
+15	,	,	PUNCT	$,	_	6	U	6:U	_
+16	während	während	SCONJ	VVINF	_	6	L	6:L	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	beiden	beide	PRON	PIS	_	19	E	19:E	_
+19	andern	ander	NOUN	VVFIN	_	28	A	28:A	_
+20	blattförmig	blattförmig	ADJ	ADJD	_	21	D	21:D	_
+21	zusammengerollt	zusammengerollt	ADJ	VMFIN	_	19	E	19:E	_
+22	wie	wie	ADP	ADV	_	25	R	25:R	_
+23	ein	ein	DET	ART	_	25	E	25:E	_
+24	leichtes	leicht	ADJ	ADJA	_	25	E	25:E	_
+25	Segel	segel	NOUN	NN	_	21	A	21:A	_
+26	im	im	ADJ	NE	_	27	R	27:R	_
+27	Wind	Wind	NOUN	NN	_	25	A	25:A	_
+28	aufgespannt	aufgespennen	VERB	VVPP	_	6	H	6:H	_
+29	waren	sein	AUX	VAFIN	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	28	U	28:U	_
+

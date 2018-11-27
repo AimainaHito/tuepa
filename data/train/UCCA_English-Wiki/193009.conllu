@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 193009
+# text = Cleveland and Sorkin also won the Writers Guild of America Award for best episodic drama at the February 2001 ceremony for " In Excelsis Deo " .
+1	Cleveland	Cleveland	PROPN	NNP	_	5	A	5:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Sorkin	Sorkin	PROPN	NNP	_	1	C	1:C	_
+4	also	also	ADV	RB	_	5	D	5:D	_
+5	won	win	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	11	E	11:E	_
+7	Writers	Writers	PROPN	NNPS	_	11	E	11:E	_
+8	Guild	Guild	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	of	of	ADP	IN	_	7	Terminal	7:Terminal	_
+10	America	America	PROPN	NNP	_	7	Terminal	7:Terminal	_
+11	Award	Award	PROPN	NNP	_	5	A	5:A	_
+12	for	for	ADP	IN	_	15	R	15:R	_
+13	best	best	ADJ	JJS	_	15	E	15:E	_
+14	episodic	episodic	ADJ	JJ	_	15	E	15:E	_
+15	drama	drama	NOUN	NN	_	11	E	11:E	_
+16	at	at	ADP	IN	_	20	R	20:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	February	February	PROPN	NNP	_	20	E	20:E	_
+19	2001	2001	NUM	CD	_	18	Terminal	18:Terminal	_
+20	ceremony	ceremony	NOUN	NN	_	5	A	5:A	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	"	"	PUNCT	``	_	23	U	23:U	_
+23	In	in	ADP	IN	_	20	E	20:E	_
+24	Excelsis	Excelsis	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	Deo	Deo	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	"	"	PUNCT	''	_	23	U	23:U	_
+27	.	.	PUNCT	.	_	23	U	23:U	_
+

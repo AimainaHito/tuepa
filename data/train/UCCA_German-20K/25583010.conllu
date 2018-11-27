@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25583010
+# text = Die Schriftzüge waren frei und klar , aber etwas gotisch , was an deutsche Schrift erinnerte .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Schriftzüge	Schriftzüge	NOUN	NN	_	4	A	4:A	_
+3	waren	sein	AUX	VAFIN	_	4	F	4:F	_
+4	frei	frei	ADJ	ADJD	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	klar	klar	ADJ	ADJD	_	4	C	4:C	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	aber	aber	CCONJ	KON	_	4	N	4:N	_
+9	etwas	etwas	PRON	ADV	_	10	E	10:E	_
+10	gotisch	gotisch	ADJ	ADJD	_	4	C	4:C	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	was	was	PRON	NE	_	16	A	16:A	_
+13	an	an	ADP	APPR	_	15	R	15:R	_
+14	deutsche	deutsch	ADJ	ADJA	_	15	E	15:E	_
+15	Schrift	Schrift	NOUN	NN	_	16	A	16:A	_
+16	erinnerte	erinnern	VERB	VVFIN	_	4	H	4:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

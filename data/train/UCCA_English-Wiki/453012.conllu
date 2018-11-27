@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 453012
+# text = The newscast had gained 1.9 million households from its debut , and was now in a dead heat with NBC 's evening newscast .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	newscast	newscast	NOUN	NN	_	0	C	0:C|17:A	_
+3	had	have	AUX	VBD	_	4	F	4:F	_
+4	gained	gain	VERB	VBN	_	0	H	0:H	_
+5	1.9	1.9	NUM	CD	_	6	E	6:E	_
+6	million	million	NUM	CD	_	7	E	7:E	_
+7	households	household	NOUN	NNS	_	4	A	4:A	_
+8	from	from	ADP	IN	_	10	R	10:R	_
+9	its	its	PRON	PRP$	_	10	A	10:A	_
+10	debut	debut	NOUN	NN	_	4	A	4:A	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	was	be	AUX	VBD	_	17	F	17:F	_
+14	now	now	ADV	RB	_	17	D	17:D	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	dead	dead	ADJ	JJ	_	4	H	4:H	_
+18	heat	heat	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	with	with	ADP	IN	_	23	R	23:R	_
+20	NBC	NBC	PROPN	NNP	_	23	E	23:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	evening	evening	NOUN	NN	_	23	E	23:E	_
+23	newscast	newscast	NOUN	NN	_	17	A	17:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

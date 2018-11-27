@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 771003
+# text = Il allait là comme ici , sans en demander davantage .
+1	Il	il	PRON	_	_	2	A	2:A|9:A	_
+2	allait	aller	VERB	_	_	0	H	0:H	_
+3	là	là	ADV	_	_	2	A	2:A	_
+4	comme	comme	ADP	_	_	3	R	3:R	_
+5	ici	ici	ADV	_	_	3	C	3:C	_
+6	,	,	PUNCT	_	_	2	U	2:U	_
+7	sans	sans	ADP	_	_	2	L	2:L	_
+8	en	en	PRON	_	_	9	A	9:A	_
+9	demander	demander	VERB	_	_	2	H	2:H	_
+10	davantage	davantage	ADV	_	_	9	D	9:D	_
+11	.	.	PUNCT	_	_	9	U	9:U	_
+

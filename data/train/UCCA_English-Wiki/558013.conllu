@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 558013
+# text = A combination of his strong response to rhythm and nervousness at playing before a large crowd led Presley to shake his legs as he performed : his wide - cut pants emphasized his movements , causing young women in the audience to start screaming .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	combination	combination	NOUN	NN	_	17	A	17:A	_
+3	of	of	ADP	IN	_	6	R	6:R	_
+4	his	he	PRON	PRP$	_	6	E	6:E	_
+5	strong	strong	ADJ	JJ	_	6	E	6:E	_
+6	response	response	NOUN	NN	_	2	E	2:E	_
+7	to	to	PART	TO	_	8	R	8:R	_
+8	rhythm	rhythm	VERB	VB	_	6	E	6:E	_
+9	and	and	CCONJ	CC	_	6	N	6:N	_
+10	nervousness	nervousness	VERB	VB	_	6	C	6:C	_
+11	at	at	SCONJ	IN	_	12	R	12:R	_
+12	playing	play	VERB	VBG	_	10	E	10:E	_
+13	before	before	ADP	IN	_	16	R	16:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	large	large	ADJ	JJ	_	16	E	16:E	_
+16	crowd	crowd	NOUN	NN	_	12	A	12:A	_
+17	led	lead	VERB	VBD	_	0	H	0:H	_
+18	Presley	Presley	PROPN	NNP	_	17	A	17:A|12:A|20:A	_
+19	to	to	PART	TO	_	20	R	20:R	_
+20	shake	shake	VERB	VB	_	17	A	17:A	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	legs	leg	NOUN	NNS	_	20	A	20:A	_
+23	as	as	SCONJ	IN	_	20	L	20:L	_
+24	he	he	PRON	PRP	_	25	A	25:A	_
+25	performed	perform	VERB	VBD	_	20	H	20:H	_
+26	:	:	PUNCT	:	_	17	U	17:U	_
+27	his	he	PRON	PRP$	_	31	E	31:E	_
+28	wide	wide	ADV	RB	_	30	D	30:D	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	cut	cut	ADJ	JJ	_	31	E	31:E	_
+31	pants	pants	NOUN	NNS	_	32	A	32:A	_
+32	emphasized	emphasize	VERB	VBD	_	17	H	17:H	_
+33	his	he	PRON	PRP$	_	34	E	34:E	_
+34	movements	movement	NOUN	NNS	_	32	A	32:A|36:A	_
+35	,	,	PUNCT	,	_	36	U	36:U	_
+36	causing	cause	VERB	VBG	_	17	H	17:H	_
+37	young	young	ADJ	JJ	_	38	E	38:E	_
+38	women	woman	NOUN	NNS	_	44	A	44:A	_
+39	in	in	ADP	IN	_	41	R	41:R	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	audience	audience	NOUN	NN	_	38	E	38:E	_
+42	to	to	PART	TO	_	44	F	44:F	_
+43	start	start	VERB	VB	_	44	D	44:D	_
+44	screaming	scream	VERB	VBG	_	36	A	36:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

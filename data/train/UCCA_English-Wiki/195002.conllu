@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 195002
+# text = " He admits that this approach can have its drawbacks , saying " Out of 88 [ West Wing ] episodes that I did we were on time and on budget never , not once .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	He	he	PRON	PRP	_	3	A	3:A|12:A	_
+3	admits	admit	VERB	VBZ	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	8	F	8:F	_
+5	this	this	DET	DT	_	6	E	6:E	_
+6	approach	approach	NOUN	NN	_	8	A	8:A	_
+7	can	can	AUX	MD	_	8	F	8:F	_
+8	have	have	VERB	VB	_	3	A	3:A	_
+9	its	its	PRON	PRP$	_	10	E	10:E	_
+10	drawbacks	drawback	NOUN	NNS	_	8	A	8:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	saying	say	VERB	VBG	_	3	H	3:H	_
+13	"	"	PUNCT	``	_	12	U	12:U	_
+14	Out	out	ADP	IN	_	15	E	15:E	_
+15	of	of	ADP	IN	_	21	R	21:R	_
+16	88	88	NUM	CD	_	21	E	21:E	_
+17	[	[	PUNCT	-LRB-	_	21	U	21:U	_
+18	West	West	ADJ	JJ	_	21	E	21:E	_
+19	Wing	wing	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	]	]	PUNCT	-RRB-	_	21	U	21:U	_
+21	episodes	episode	NOUN	NNS	_	28	A	28:A	_
+22	that	that	PRON	WDT	_	24	R	24:R	_
+23	I	I	PRON	PRP	_	24	A	24:A	_
+24	did	do	VERB	VBD	_	21	E	21:E	_
+25	we	we	PRON	PRP	_	28	A	28:A	_
+26	were	be	AUX	VBD	_	28	F	28:F	_
+27	on	on	ADP	IN	_	28	R	28:R	_
+28	time	time	NOUN	NN	_	12	A	12:A	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	on	on	ADP	IN	_	31	R	31:R	_
+31	budget	budget	NOUN	NN	_	28	C	28:C	_
+32	never	never	ADV	RB	_	28	D	28:D	_
+33	,	,	PUNCT	,	_	28	U	28:U	_
+34	not	not	ADV	RB	_	35	E	35:E	_
+35	once	once	ADV	RB	_	28	D	28:D	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

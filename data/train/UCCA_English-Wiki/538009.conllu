@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 538009
+# text = Sam Warner then secured a job as a projectionist at Idora Park , a local amusement park .
+1	Sam	Sam	PROPN	NNP	_	6	A	6:A	_
+2	Warner	Warner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	then	then	ADV	RB	_	6	D	6:D	_
+4	secured	secure	VERB	VBD	_	6	D	6:D	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	job	job	NOUN	NN	_	0	H	0:H	_
+7	as	as	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	projectionist	projectionist	NOUN	NN	_	6	A	6:A	_
+10	at	at	ADP	IN	_	12	R	12:R	_
+11	Idora	Idora	PROPN	NNP	_	12	E	12:E	_
+12	Park	park	PROPN	NNP	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	local	local	ADJ	JJ	_	17	E	17:E	_
+16	amusement	amusement	NOUN	NN	_	17	E	17:E	_
+17	park	park	NOUN	NN	_	12	E	12:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

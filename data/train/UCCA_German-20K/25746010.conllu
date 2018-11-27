@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25746010
+# text = Doch Kapitän Nemo gab keinen Befehl dazu .
+1	Doch	doch	PROPN	ADV	_	6	L	6:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+4	gab	geben	VERB	VVFIN	_	6	F	6:F	_
+5	keinen	kein	PRON	PIAT	_	6	D	6:D	_
+6	Befehl	Befehl	NOUN	NN	_	0	H	0:H	_
+7	dazu	dazu	ADV	PTKVZ	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

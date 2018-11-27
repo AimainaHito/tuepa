@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25436025
+# text = » Conseil ! « rief ich abermals , während ich mit fieberhafter Eile meine Vorbereitungen zur Abreise begann .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	abermals	abermals	ADV	ADV	_	5	D	5:D	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	während	während	SCONJ	VVINF	_	5	L	5:L	_
+10	ich	ich	PRON	PPER	_	15	A	15:A|17:A	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	fieberhafter	fieberhaft	ADJ	ADJA	_	13	E	13:E	_
+13	Eile	Eil	NOUN	NN	_	15	A	15:A	_
+14	meine	mein	DET	PPOSAT	_	15	E	15:E	_
+15	Vorbereitungen	Vorbereitung	NOUN	NN	_	5	H	5:H	_
+16	zur	zur	ADP	NN	_	17	R	17:R	_
+17	Abreise	Abreise	NOUN	NN	_	15	A	15:A	_
+18	begann	beginnen	VERB	VVFIN	_	15	D	15:D	_
+19	.	.	PUNCT	$.	_	15	U	15:U	_
+

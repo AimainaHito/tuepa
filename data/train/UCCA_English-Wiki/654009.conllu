@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 654009
+# text = At 16 , he played rhythm guitar with the Quarrymen .
+1	At	at	ADP	IN	_	2	L	2:L	_
+2	16	16	NUM	CD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	he	he	PRON	PRP	_	5	A	5:A|2:A	_
+5	played	play	VERB	VBD	_	2	H	2:H	_
+6	rhythm	rhythm	ADJ	JJ	_	7	E	7:E	_
+7	guitar	guitar	NOUN	NN	_	5	A	5:A	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Quarrymen	Quarrymen	PROPN	NNPS	_	5	A	5:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

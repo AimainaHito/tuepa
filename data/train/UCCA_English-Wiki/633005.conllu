@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 633005
+# text = During this time , the 18 - year - old Lennon wrote his first song , " Hello Little Girl " , a UK top 10 hit for The Fourmost nearly five years later .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	time	time	NOUN	NN	_	12	D	12:D	_
+4	,	,	PUNCT	,	_	12	U	12:U	_
+5	the	the	DET	DT	_	11	E	11:E	_
+6	18	18	NUM	CD	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	year	year	NOUN	NN	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	old	old	ADJ	JJ	_	11	E	11:E	_
+11	Lennon	Lennon	PROPN	NNP	_	12	A	12:A	_
+12	wrote	write	VERB	VBD	_	0	H	0:H	_
+13	his	he	PRON	PRP$	_	15	E	15:E	_
+14	first	first	ADJ	JJ	_	15	E	15:E	_
+15	song	song	NOUN	NN	_	12	A	12:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	"	"	PUNCT	''	_	15	U	15:U	_
+18	Hello	hello	INTJ	UH	_	15	E	15:E	_
+19	Little	Little	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Girl	girl	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	"	"	PUNCT	''	_	15	U	15:U	_
+22	,	,	PUNCT	,	_	15	U	15:U	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	UK	UK	PROPN	NNP	_	27	E	27:E	_
+25	top	top	NOUN	NN	_	26	E	26:E	_
+26	10	10	NUM	CD	_	27	E	27:E	_
+27	hit	hit	NOUN	NN	_	15	A	15:A	_
+28	for	for	ADP	IN	_	30	R	30:R	_
+29	The	the	DET	DT	_	30	E	30:E	_
+30	Fourmost	Fourmost	ADV	RBS	_	27	E	27:E	_
+31	nearly	nearly	ADV	RB	_	33	E	33:E	_
+32	five	five	NUM	CD	_	33	E	33:E	_
+33	years	year	NOUN	NNS	_	15	D	15:D	_
+34	later	later	ADV	RBR	_	33	R	33:R	_
+35	.	.	PUNCT	.	_	33	U	33:U	_
+

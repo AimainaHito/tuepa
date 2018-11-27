@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25628018
+# text = Der Hunger spornte uns .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Hunger	Hunger	NOUN	NN	_	3	A	3:A	_
+3	spornte	spornen	VERB	VVFIN	_	0	H	0:H	_
+4	uns	wir	PRON	NN	_	3	A	3:A	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 711014
+# text = The documentary focuses on the period from Dylan 's arrival in New York in 1961 to his motorcycle crash in 1966 , featuring interviews with Suze Rotolo , Liam Clancy , Joan Baez , Allen Ginsberg , Pete Seeger , Mavis Staples , and Dylan himself .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	documentary	documentary	NOUN	NN	_	0	C	0:C|23:A	_
+3	focuses	focus	VERB	VBZ	_	0	H	0:H	_
+4	on	on	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	period	period	NOUN	NN	_	3	A	3:A	_
+7	from	from	ADP	IN	_	10	R	10:R	_
+8	Dylan	Dylan	PROPN	NNP	_	10	A	10:A	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	arrival	arrival	NOUN	NN	_	6	E	6:E	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	New	New	PROPN	NNP	_	10	A	10:A	_
+13	York	York	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	1961	1961	NUM	CD	_	10	D	10:D	_
+16	to	to	ADP	IN	_	10	R	10:R	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	motorcycle	motorcycle	NOUN	NN	_	19	A	19:A	_
+19	crash	crash	NOUN	NN	_	10	C	10:C	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1966	1966	NUM	CD	_	19	D	19:D	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	featuring	feature	VERB	VBG	_	3	H	3:H	_
+24	interviews	interview	NOUN	NNS	_	23	A	23:A	_
+25	with	with	ADP	IN	_	26	R	26:R	_
+26	Suze	Suze	PROPN	NNP	_	24	E	24:E	_
+27	Rotolo	Rotolo	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	26	U	26:U	_
+29	Liam	Liam	PROPN	NNP	_	26	C	26:C	_
+30	Clancy	Clancy	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	26	U	26:U	_
+32	Joan	Joan	PROPN	NNP	_	26	C	26:C	_
+33	Baez	Baez	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	,	,	PUNCT	,	_	26	U	26:U	_
+35	Allen	Allen	PROPN	NNP	_	26	C	26:C	_
+36	Ginsberg	Ginsberg	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	,	,	PUNCT	,	_	26	U	26:U	_
+38	Pete	Pete	PROPN	NNP	_	26	C	26:C	_
+39	Seeger	Seeger	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	,	,	PUNCT	,	_	26	U	26:U	_
+41	Mavis	Mavis	PROPN	NNP	_	26	C	26:C	_
+42	Staples	staples	PROPN	NNP	_	41	Terminal	41:Terminal	_
+43	,	,	PUNCT	,	_	26	U	26:U	_
+44	and	and	CCONJ	CC	_	26	N	26:N	_
+45	Dylan	Dylan	PROPN	NNP	_	26	C	26:C	_
+46	himself	himself	PRON	PRP	_	45	D	45:D	_
+47	.	.	PUNCT	.	_	45	U	45:U	_
+

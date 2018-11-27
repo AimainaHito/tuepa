@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 590020
+# text = Although not a fan of the musical genre , Depp grew to like the tale 's treatment .
+1	Although	although	SCONJ	IN	_	4	L	4:L	_
+2	not	not	PART	RB	_	4	D	4:D	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	fan	fan	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	musical	musical	ADJ	JJ	_	8	E	8:E	_
+8	genre	genre	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Depp	Depp	PROPN	NNP	_	13	A	13:A|4:A	_
+11	grew	grow	VERB	VBD	_	13	D	13:D	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	like	like	VERB	VB	_	4	H	4:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	tale	tale	NOUN	NN	_	17	E	17:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	treatment	treatment	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

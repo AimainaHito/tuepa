@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 455014
+# text = His second installment of Peter Jennings Reporting in April , " From the Killing Fields " , focused on U . S . policy towards Cambodia .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	second	second	ADJ	JJ	_	3	E	3:E	_
+3	installment	installment	NOUN	NN	_	12	E	12:E	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Peter	Peter	PROPN	NNP	_	3	E	3:E	_
+6	Jennings	Jennings	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Reporting	report	VERB	VBG	_	5	Terminal	5:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	April	April	PROPN	NNP	_	3	E	3:E	_
+10	,	,	PUNCT	,	_	12	U	12:U	_
+11	"	"	PUNCT	''	_	12	U	12:U	_
+12	From	from	ADP	IN	_	18	A	18:A	_
+13	the	the	DET	DT	_	12	Terminal	12:Terminal	_
+14	Killing	killing	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	Fields	field	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	"	"	PUNCT	''	_	18	U	18:U	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	focused	focus	VERB	VBN	_	0	H	0:H	_
+19	on	on	ADP	IN	_	18	R	18:R	_
+20	U	U	PRON	PRP	_	24	E	24:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+22	S	be	NOUN	NN	_	20	Terminal	20:Terminal	_
+23	.	.	PUNCT	.	_	24	U	24:U	_
+24	policy	policy	NOUN	NN	_	18	A	18:A	_
+25	towards	towards	ADP	IN	_	26	R	26:R	_
+26	Cambodia	Cambodia	PROPN	NNP	_	24	E	24:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

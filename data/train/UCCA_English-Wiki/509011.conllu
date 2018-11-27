@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 509011
+# text = Bowie and Visconti continued their collaboration , producing a new album of completely original songs instead : the result of the sessions was the 2002 album Heathen .
+1	Bowie	Bowie	PROPN	NNP	_	4	A	4:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Visconti	Visconti	PROPN	NNP	_	1	C	1:C	_
+4	continued	continue	VERB	VBD	_	0	H	0:H	_
+5	their	they	PRON	PRP$	_	6	A	6:A	_
+6	collaboration	collaboration	NOUN	NN	_	0	P	0:P|8:A	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	producing	produce	VERB	VBG	_	4	H	4:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	new	new	ADJ	JJ	_	11	E	11:E	_
+11	album	album	NOUN	NN	_	8	A	8:A	_
+12	of	of	ADP	IN	_	15	R	15:R	_
+13	completely	completely	ADV	RB	_	15	E	15:E	_
+14	original	original	ADJ	JJ	_	15	E	15:E	_
+15	songs	song	NOUN	NNS	_	11	E	11:E	_
+16	instead	instead	ADV	RB	_	8	D	8:D	_
+17	:	:	PUNCT	:	_	4	U	4:U	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	result	result	NOUN	NN	_	23	A	23:A	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	sessions	session	NOUN	NNS	_	19	E	19:E	_
+23	was	be	AUX	VBD	_	4	H	4:H	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	2002	2002	NUM	CD	_	27	E	27:E	_
+26	album	album	NOUN	NN	_	27	E	27:E	_
+27	Heathen	heathen	ADV	RB	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

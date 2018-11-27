@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25797000
+# text = Die Luke wurde geöffnet , sozusagen gesprengt , und die reine Luft drang nun in alle Räume der ›Nautilus‹ .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luke	Luke	NOUN	NE	_	0	C	0:C|7:A	_
+3	wurde	werden	AUX	NE	_	4	F	4:F	_
+4	geöffnet	öffnen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	sozusagen	sozusagen	ADV	ADV	_	7	G	7:G	_
+7	gesprengt	sprengen	VERB	VVPP	_	4	H	4:H	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	reine	rein	ADJ	ADJA	_	12	E	12:E	_
+12	Luft	Luft	NOUN	NN	_	13	A	13:A	_
+13	drang	drang	ADV	VVFIN	_	4	H	4:H	_
+14	nun	nun	ADV	ADV	_	13	D	13:D	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	alle	alle	PRON	PIAT	_	17	E	17:E	_
+17	Räume	Raum	NOUN	NN	_	13	A	13:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	›Nautilus‹	›Nautilus‹	NOUN	NE	_	17	E	17:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

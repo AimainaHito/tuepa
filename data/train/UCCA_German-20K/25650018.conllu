@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25650018
+# text = Der Mann war nicht allein krank , sondern verwundet .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	6	A	6:A	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	nicht	nicht	PART	XY	_	6	N	6:N	_
+5	allein	allein	ADJ	ADV	_	4	Terminal	4:Terminal	_
+6	krank	krinken	VERB	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sondern	sondern	CCONJ	NN	_	6	N	6:N	_
+9	verwundet	verwunden	VERB	VVPP	_	6	C	6:C	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 523010
+# text = To keep up with the frantic pace of making one film after another , Garland , Rooney , and other young performers were constantly given amphetamines as well as barbiturates to take before going to bed .
+1	To	to	PART	TO	_	2	L	2:L	_
+2	keep	keep	VERB	VB	_	0	H	0:H	_
+3	up	up	ADP	RP	_	2	Terminal	2:Terminal	_
+4	with	with	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	frantic	frantic	ADJ	JJ	_	7	E	7:E	_
+7	pace	pace	NOUN	NN	_	2	A	2:A	_
+8	of	of	SCONJ	IN	_	9	R	9:R	_
+9	making	make	VERB	VBG	_	7	E	7:E	_
+10	one	one	NUM	CD	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	9	A	9:A	_
+12	after	after	ADP	IN	_	13	R	13:R	_
+13	another	another	DET	DT	_	9	D	9:D	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	Garland	Garland	PROPN	NNP	_	32	A	32:A|36:A|2:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	Rooney	Rooney	PROPN	NNP	_	15	C	15:C	_
+18	,	,	PUNCT	,	_	15	U	15:U	_
+19	and	and	CCONJ	CC	_	15	N	15:N	_
+20	other	other	ADJ	JJ	_	22	E	22:E	_
+21	young	young	ADJ	JJ	_	22	E	22:E	_
+22	performers	performer	NOUN	NNS	_	15	C	15:C	_
+23	were	be	AUX	VBD	_	32	F	32:F	_
+24	constantly	constantly	ADV	RB	_	32	D	32:D	_
+25	given	give	VERB	VBN	_	32	F	32:F	_
+26	amphetamines	amphetamine	NOUN	NNS	_	32	A	32:A	_
+27	as	as	ADV	RB	_	26	N	26:N	_
+28	well	well	ADV	RB	_	27	Terminal	27:Terminal	_
+29	as	as	ADP	IN	_	27	Terminal	27:Terminal	_
+30	barbiturates	barbiturate	NOUN	NNS	_	26	C	26:C	_
+31	to	to	PART	TO	_	32	F	32:F	_
+32	take	take	VERB	VB	_	2	H	2:H	_
+33	before	before	SCONJ	IN	_	2	L	2:L	_
+34	going	go	VERB	VBG	_	36	D	36:D	_
+35	to	to	ADP	IN	_	36	F	36:F	_
+36	bed	bed	NOUN	NN	_	2	H	2:H	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

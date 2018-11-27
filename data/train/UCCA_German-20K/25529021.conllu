@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25529021
+# text = » Ein chinesischer Hornfisch ! « rief Ned Land und irrte nicht .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ein	ein	DET	ART	_	4	E	4:E	_
+3	chinesischer	chinesisch	ADJ	NN	_	4	E	4:E	_
+4	Hornfisch	Hornfisch	NOUN	NN	_	7	A	7:A	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+8	Ned	Ned	PROPN	NE	_	7	A	7:A|11:A	_
+9	Land	Land	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	und	und	CCONJ	NE	_	7	L	7:L	_
+11	irrte	irren	VERB	VVFIN	_	7	H	7:H	_
+12	nicht	nicht	PART	CARD	_	11	D	11:D	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25666004
+# text = An diesem Tag , dem 21 . Januar 1868 , war um Mittag der Schiffs lieutenant beschäftigt , den Höhen stand der Sonne aufzunehmen .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	24	D	24:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	21	21	NUM	CARD	_	3	E	3:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Januar	Januar	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	1868	1868	NUM	CARD	_	6	Terminal	6:Terminal	_
+10	,	,	PUNCT	$,	_	24	U	24:U	_
+11	war	sein	AUX	ADV	_	24	F	24:F	_
+12	um	um	ADP	APPR	_	13	R	13:R	_
+13	Mittag	mittag	NOUN	NN	_	24	D	24:D	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	Schiffs	Schiff	NOUN	NN	_	16	E	16:E	_
+16	lieutenant	lieutenant	ADJ	ADJD	_	24	A	24:A	_
+17	beschäftigt	beschäftigen	VERB	VVPP	_	24	D	24:D	_
+18	,	,	PUNCT	$,	_	24	U	24:U	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	Höhen	Höhe	NOUN	NN	_	21	E	21:E	_
+21	stand	stehen	VERB	VVFIN	_	24	A	24:A	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Sonne	Sonne	NOUN	NN	_	21	E	21:E	_
+24	aufzunehmen	aufnehmen	VERB	VVIZU	_	0	H	0:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

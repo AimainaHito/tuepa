@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 610014
+# text = In 2006 , McCartney released the classical work Ecce Cor Meum .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2006	2006	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+5	released	release	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	classical	classical	ADJ	JJ	_	8	E	8:E	_
+8	work	work	NOUN	NN	_	9	E	9:E	_
+9	Ecce	Ecce	PROPN	NNP	_	5	A	5:A	_
+10	Cor	Cor	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Meum	Meum	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	.	_	9	U	9:U	_
+

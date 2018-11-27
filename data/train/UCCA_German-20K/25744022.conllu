@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25744022
+# text = Er versuchte durch Steine das Blei zu ersetzen , und es gelang ihm auch , nach einigen fruchtlosen Versuchen , eins der prächtigen Tiere zu verwunden .
+1	Er	er	PRON	PPER	_	8	A	8:A|19:A|26:A	_
+2	versuchte	versuchen	VERB	VVFIN	_	8	D	8:D	_
+3	durch	durch	ADP	APPR	_	4	R	4:R	_
+4	Steine	Stein	NOUN	NN	_	8	A	8:A	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Blei	Blei	NOUN	NN	_	8	A	8:A	_
+7	zu	zu	PART	VVINF	_	8	F	8:F	_
+8	ersetzen	ersetzen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	es	es	PRON	PPER	_	12	F	12:F	_
+12	gelang	gelingen	VERB	VVFIN	_	8	H	8:H	_
+13	ihm	er	PRON	PPER	_	12	A	12:A	_
+14	auch	auch	ADV	ADV	_	12	D	12:D	_
+15	,	,	PUNCT	$,	_	8	U	8:U	_
+16	nach	nach	ADP	CARD	_	19	R	19:R	_
+17	einigen	einige	PRON	PIAT	_	19	E	19:E	_
+18	fruchtlosen	fruchtlos	ADJ	ADJA	_	19	D	19:D	_
+19	Versuchen	versuchen	NOUN	NN	_	8	H	8:H	_
+20	,	,	PUNCT	$,	_	8	U	8:U	_
+21	eins	ein	NOUN	CARD	_	24	E	24:E	_
+22	der	der	DET	ART	_	24	R	24:R	_
+23	prächtigen	prächtig	ADJ	ADJA	_	24	E	24:E	_
+24	Tiere	Tier	NOUN	NN	_	26	A	26:A	_
+25	zu	zu	PART	VVINF	_	26	F	26:F	_
+26	verwunden	verwunden	VERB	VVINF	_	12	A	12:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

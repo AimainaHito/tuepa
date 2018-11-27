@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 590023
+# text = Depp recorded demos and worked with Bruce Witkin to shape his vocals without a qualified voice coach .
+1	Depp	Depp	VERB	VB	_	2	A	2:A|10:A|5:A	_
+2	recorded	record	VERB	VBN	_	0	H	0:H	_
+3	demos	demo	NOUN	NNS	_	2	A	2:A	_
+4	and	and	CCONJ	CC	_	2	L	2:L	_
+5	worked	work	VERB	VBD	_	2	H	2:H	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	Bruce	Bruce	PROPN	NNP	_	5	A	5:A	_
+8	Witkin	Witkin	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	to	to	PART	TO	_	2	L	2:L	_
+10	shape	shape	VERB	VB	_	2	H	2:H	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	vocals	vocal	NOUN	NNS	_	10	A	10:A	_
+13	without	without	ADP	IN	_	17	R	17:R	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	qualified	qualified	ADJ	JJ	_	17	E	17:E	_
+16	voice	voice	NOUN	NN	_	17	E	17:E	_
+17	coach	coach	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

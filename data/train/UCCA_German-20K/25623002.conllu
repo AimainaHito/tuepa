@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25623002
+# text = » So setzen wir unseren Ausflug fort « , versetzte ich , » aber hüten wir uns vor einem Überfall ! Obwohl die Insel unbewohnt scheint , so könnten sich doch Leute da finden , die hinsichtlich der Beschaffenheit des Wildbrets weniger wählerisch wären als wir ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	So	so	ADV	ADV	_	3	L	3:L	_
+3	setzen	setzen	VERB	VVINF	_	10	A	10:A	_
+4	wir	wir	PRON	NE	_	3	A	3:A	_
+5	unseren	unser	PRON	PPOSAT	_	6	E	6:E	_
+6	Ausflug	Ausflug	NOUN	NN	_	3	A	3:A	_
+7	fort	fort	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	»	»	PUNCT	$(	_	10	U	10:U	_
+14	aber	aber	ADV	ADV	_	3	L	3:L	_
+15	hüten	hüten	VERB	NN	_	3	H	3:H	_
+16	wir	wir	PRON	NE	_	15	A	15:A	_
+17	uns	wir	PRON	NE	_	15	Terminal	15:Terminal	_
+18	vor	vor	ADP	NN	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Überfall	Überfall	NOUN	NN	_	15	A	15:A	_
+21	!	!	PUNCT	$.	_	3	U	3:U	_
+22	Obwohl	Obwohl	SCONJ	KOUS	_	3	L	3:L	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Insel	Insel	NOUN	NN	_	25	A	25:A	_
+25	unbewohnt	unbewohnen	ADJ	ADJD	_	3	H	3:H	_
+26	scheint	scheinen	AUX	VVFIN	_	25	G	25:G	_
+27	,	,	PUNCT	$,	_	3	U	3:U	_
+28	so	so	ADV	ADV	_	3	L	3:L	_
+29	könnten	können	AUX	VMFIN	_	30	D	30:D	_
+30	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+31	doch	doch	ADV	ADV	_	30	F	30:F	_
+32	Leute	Leute	NOUN	NN	_	30	A	30:A	_
+33	da	da	SCONJ	ADV	_	30	A	30:A	_
+34	finden	finden	VERB	VVINF	_	30	Terminal	30:Terminal	_
+35	,	,	PUNCT	$,	_	30	U	30:U	_
+36	die	der	PRON	PRELS	_	43	R	43:R	_
+37	hinsichtlich	hinsichtlich	ADP	APPR	_	39	R	39:R	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Beschaffenheit	Beschaffenheit	NOUN	NN	_	43	A	43:A	_
+40	des	der	DET	ART	_	41	R	41:R	_
+41	Wildbrets	Wildbret	NOUN	NN	_	39	E	39:E	_
+42	weniger	weniger	ADV	ADV	_	43	D	43:D	_
+43	wählerisch	wählerisch	ADJ	ADJD	_	32	E	32:E	_
+44	wären	sein	AUX	VVINF	_	43	F	43:F	_
+45	als	als	ADP	KOKOM	_	46	R	46:R	_
+46	wir	wir	PRON	NE	_	43	A	43:A	_
+47	!	!	PUNCT	$.	_	46	U	46:U	_
+48	«	«	PUNCT	$(	_	46	U	46:U	_
+

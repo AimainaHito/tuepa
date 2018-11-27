@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 209001
+# text = Levinson , Hoffman and Cruise worked for two years on the film , and Hoffman 's performance gained him his second Academy Award .
+1	Levinson	Levinson	PROPN	NNP	_	6	A	6:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	Hoffman	Hoffman	PROPN	NNP	_	1	C	1:C	_
+4	and	and	CCONJ	CC	_	1	N	1:N	_
+5	Cruise	cruise	PROPN	NNP	_	1	C	1:C	_
+6	worked	work	VERB	VBD	_	0	H	0:H	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	two	two	NUM	CD	_	9	E	9:E	_
+9	years	year	NOUN	NNS	_	6	D	6:D	_
+10	on	on	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	film	film	NOUN	NN	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	and	and	CCONJ	CC	_	6	L	6:L	_
+15	Hoffman	Hoffman	PROPN	NNP	_	17	A	17:A	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	performance	performance	NOUN	NN	_	18	A	18:A	_
+18	gained	gain	VERB	VBD	_	6	H	6:H	_
+19	him	he	PRON	PRP	_	18	A	18:A	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	second	second	ADJ	JJ	_	22	E	22:E	_
+22	Academy	Academy	PROPN	NNP	_	18	A	18:A	_
+23	Award	Award	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

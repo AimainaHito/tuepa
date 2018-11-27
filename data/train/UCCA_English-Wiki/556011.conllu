@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 556011
+# text = He adored the music of black gospel singer Sister Rosetta Tharpe .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	adored	ador	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	music	music	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	10	R	10:R	_
+6	black	black	ADJ	JJ	_	10	E	10:E	_
+7	gospel	gospel	NOUN	NN	_	8	E	8:E	_
+8	singer	singer	NOUN	NN	_	10	E	10:E	_
+9	Sister	sister	PROPN	NNP	_	10	E	10:E	_
+10	Rosetta	Rosetta	PROPN	NNP	_	4	E	4:E	_
+11	Tharpe	Tharpe	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

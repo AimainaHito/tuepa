@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25592013
+# text = Alle diese Wunder sah ich im Raum einer Viertelmeile , indem ich kaum stehenbleiben konnte , da Kapitän Nemo mich mit einem Wink mahnte , ihm zu folgen .
+1	Alle	alle	PRON	PIS	_	3	E	3:E	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Wunder	Wunder	NOUN	NN	_	4	A	4:A	_
+4	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	im	im	ADJ	NE	_	7	R	7:R	_
+7	Raum	Raum	NOUN	NN	_	4	A	4:A	_
+8	einer	ein	DET	ART	_	9	E	9:E	_
+9	Viertelmeile	Viertelmeil	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	indem	indem	SCONJ	KOUS	_	4	L	4:L	_
+12	ich	ich	PRON	PPER	_	14	A	14:A	_
+13	kaum	kaum	ADV	ADV	_	14	D	14:D	_
+14	stehenbleiben	stehenbleiben	VERB	VVINF	_	4	H	4:H	_
+15	konnte	können	AUX	VMFIN	_	14	D	14:D	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	da	da	SCONJ	KOUS	_	4	L	4:L	_
+18	Kapitän	Kapitän	PROPN	NN	_	19	E	19:E	_
+19	Nemo	Nemo	PROPN	NE	_	24	A	24:A	_
+20	mich	ich	PRON	PPER	_	24	A	24:A	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	einem	ein	DET	ART	_	23	E	23:E	_
+23	Wink	Winken	NOUN	NN	_	24	A	24:A	_
+24	mahnte	mahnen	VERB	VVFIN	_	4	H	4:H	_
+25	,	,	PUNCT	$,	_	4	U	4:U	_
+26	ihm	er	PRON	PPER	_	28	A	28:A	_
+27	zu	zu	PART	VVINF	_	28	F	28:F	_
+28	folgen	folgen	VERB	VVINF	_	4	H	4:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

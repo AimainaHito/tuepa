@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 376013
+# text = His parents insisted that he have summer jobs to support himself , and he thus worked as a lifeguard and as a busboy at a restaurant operated by a family friend .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	parents	parent	NOUN	NNS	_	3	A	3:A	_
+3	insisted	insist	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	6	F	6:F	_
+5	he	he	PRON	PRP	_	6	A	6:A|10:A	_
+6	have	have	VERB	VBP	_	3	A	3:A	_
+7	summer	summer	NOUN	NN	_	8	E	8:E	_
+8	jobs	job	NOUN	NNS	_	6	A	6:A	_
+9	to	to	PART	TO	_	3	L	3:L	_
+10	support	support	VERB	VB	_	3	H	3:H	_
+11	himself	himself	PRON	PRP	_	10	D	10:D	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	and	and	CCONJ	CC	_	3	L	3:L	_
+14	he	he	PRON	PRP	_	16	A	16:A	_
+15	thus	thus	ADV	RB	_	3	L	3:L	_
+16	worked	work	VERB	VBD	_	3	H	3:H	_
+17	as	as	ADP	IN	_	19	R	19:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	lifeguard	lifeguard	NOUN	NN	_	16	A	16:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	as	as	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	busboy	busboy	NOUN	NN	_	19	C	19:C	_
+24	at	at	ADP	IN	_	26	R	26:R	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	restaurant	restaurant	NOUN	NN	_	23	E	23:E	_
+27	operated	operate	VERB	VBN	_	26	E	26:E	_
+28	by	by	ADP	IN	_	31	R	31:R	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	family	family	NOUN	NN	_	31	E	31:E	_
+31	friend	friend	NOUN	NN	_	27	A	27:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 144006
+# text = In 1991 she released her autobiography , Me : Stories of my Life .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	1991	1991	NUM	CD	_	4	D	4:D	_
+3	she	she	PRON	PRP	_	4	A	4:A	_
+4	released	release	VERB	VBD	_	0	H	0:H	_
+5	her	she	PRON	PRP$	_	8	E	8:E	_
+6	autobiography	autobiography	NOUN	NN	_	8	E	8:E	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	Me	I	PRON	PRP	_	4	A	4:A	_
+9	:	:	PUNCT	:	_	8	U	8:U	_
+10	Stories	story	NOUN	NNS	_	8	Terminal	8:Terminal	_
+11	of	of	ADP	IN	_	8	Terminal	8:Terminal	_
+12	my	my	PRON	PRP$	_	8	Terminal	8:Terminal	_
+13	Life	life	NOUN	NN	_	8	Terminal	8:Terminal	_
+14	.	.	PUNCT	.	_	8	U	8:U	_
+

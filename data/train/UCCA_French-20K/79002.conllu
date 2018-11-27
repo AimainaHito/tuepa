@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 79002
+# text = Ni Cuvier , ni Lacépède , ni M . Dumeril , ni M . de Quatrefages n' eussent admis l' existence d' un tel monstre , - à moins de l' avoir vu , ce qui s' appelle vu de leurs propres yeux de savants .
+1	Ni	Ni	PROPN	_	_	2	N	2:N	_
+2	Cuvier	Cuvier	PROPN	_	_	19	A	19:A	_
+3	,	,	PUNCT	_	_	2	U	2:U	_
+4	ni	ni	CCONJ	_	_	2	N	2:N	_
+5	Lacépède	Lacépède	PROPN	_	_	2	C	2:C	_
+6	,	,	PUNCT	_	_	2	U	2:U	_
+7	ni	ni	CCONJ	_	_	2	N	2:N	_
+8	M	M	NOUN	_	_	2	C	2:C	_
+9	.	.	PUNCT	_	_	8	U	8:U	_
+10	Dumeril	Dumeril	PROPN	_	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	_	_	2	U	2:U	_
+12	ni	ni	CCONJ	_	_	2	N	2:N	_
+13	M	M	NOUN	_	_	2	C	2:C	_
+14	.	.	PUNCT	_	_	13	U	13:U	_
+15	de	de	ADP	_	_	13	Terminal	13:Terminal	_
+16	Quatrefages	Quatrefages	PROPN	_	_	13	Terminal	13:Terminal	_
+17	n'	ne	ADV	_	_	19	D	19:D	_
+18	eussent	eusser	VERB	_	_	19	F	19:F	_
+19	admis	admettre	VERB	_	_	0	H	0:H	_
+20	l'	le	DET	_	_	21	E	21:E	_
+21	existence	existence	NOUN	_	_	19	A	19:A	_
+22	d'	de	ADP	_	_	25	R	25:R	_
+23	un	un	DET	_	_	25	E	25:E	_
+24	tel	tel	ADJ	_	_	25	E	25:E	_
+25	monstre	monstre	NOUN	_	_	21	A	21:A	_
+26	,	,	PUNCT	_	_	19	U	19:U	_
+27	-	-	PUNCT	_	_	19	U	19:U	_
+28	à	à	ADP	_	_	33	D	33:D	_
+29	moins	moins	ADV	_	_	28	Terminal	28:Terminal	_
+30	de	de	ADP	_	_	28	R	28:R	_
+31	l'	le	PRON	_	_	33	A	33:A	_
+32	avoir	avoir	AUX	_	_	33	F	33:F	_
+33	vu	voir	VERB	_	_	19	H	19:H	_
+34	,	,	PUNCT	_	_	19	U	19:U	_
+35	ce	ce	PRON	_	_	37	A	37:A	_
+36	qui	qui	PRON	_	_	35	R	35:R	_
+37	s'	se	PRON	_	_	19	H	19:H	_
+38	appelle	appeler	VERB	_	_	37	Terminal	37:Terminal	_
+39	vu	voir	VERB	_	_	37	A	37:A	_
+40	de	de	ADP	_	_	43	R	43:R	_
+41	leurs	son	DET	_	_	43	E	43:E	_
+42	propres	propre	ADJ	_	_	43	E	43:E	_
+43	yeux	oeil	NOUN	_	_	45	A	45:A	_
+44	de	de	ADP	_	_	45	R	45:R	_
+45	savants	savant	NOUN	_	_	37	A	37:A	_
+46	.	.	PUNCT	_	_	45	U	45:U	_
+

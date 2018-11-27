@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25489038
+# text = Indessen , die Beleuchtung war nicht ohne Grund eingetreten .
+1	Indessen	indessen	ADV	ADV	_	9	L	9:L	_
+2	,	,	PUNCT	$,	_	9	U	9:U	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Beleuchtung	Beleuchtung	NOUN	NN	_	9	A	9:A	_
+5	war	sein	AUX	ADV	_	9	F	9:F	_
+6	nicht	nicht	PART	XY	_	9	D	9:D	_
+7	ohne	ohne	ADP	NN	_	8	E	8:E	_
+8	Grund	Grund	NOUN	NN	_	9	A	9:A	_
+9	eingetreten	eingetren	VERB	VVINF	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

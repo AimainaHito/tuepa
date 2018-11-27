@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25743005
+# text = Mitunter wurden sie von tiefen Schluchten unterbrochen , über die man setzen musste .
+1	Mitunter	mitunter	ADV	ADV	_	7	D	7:D	_
+2	wurden	werden	AUX	ADJD	_	7	F	7:F	_
+3	sie	sie	PRON	ADV	_	7	A	7:A	_
+4	von	von	ADP	NN	_	6	R	6:R	_
+5	tiefen	tief	ADJ	ADJA	_	6	E	6:E	_
+6	Schluchten	Schlucht	NOUN	NN	_	7	A	7:A	_
+7	unterbrochen	unterbrechen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	über	über	ADP	VVFIN	_	10	E	10:E	_
+10	die	der	DET	PRELS	_	12	R	12:R	_
+11	man	man	NOUN	PIS	_	12	A	12:A	_
+12	setzen	setzen	VERB	VVINF	_	6	E	6:E	_
+13	musste	müssen	AUX	VVFIN	_	12	D	12:D	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

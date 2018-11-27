@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25814031
+# text = Seine durchschnittliche Tiefe beträgt 3.000 Fuß , seine mittlere Breite 60 Meilen .
+1	Seine	sein	DET	PPOSAT	_	3	E	3:E	_
+2	durchschnittliche	durchschnittlich	ADJ	ADJA	_	3	E	3:E	_
+3	Tiefe	Tiefe	NOUN	NN	_	4	A	4:A	_
+4	beträgt	betragen	AUX	VVFIN	_	0	H	0:H	_
+5	3.000	3.0	NUM	CARD	_	6	E	6:E	_
+6	Fuß	Fuß	NOUN	VMFIN	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	seine	sein	DET	PPOSAT	_	10	E	10:E	_
+9	mittlere	mittler	ADJ	ADJA	_	10	E	10:E	_
+10	Breite	Breite	NOUN	NN	_	4	H	4:H	_
+11	60	60	NUM	CARD	_	12	E	12:E	_
+12	Meilen	Meile	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

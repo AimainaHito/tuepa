@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25779005
+# text = Sie belustigten sich truppweise in den ruhigen Gewässern , und man sah wohl , dass dieses Becken des Südpols gegenwärtig den allzu arg von den Jägern verfolgten Tieren dieser Art eine Zufluchtsstätte war .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	belustigten	belustigen	AUX	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	truppweise	truppweise	ADV	ADV	_	2	D	2:D	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	ruhigen	ruhig	ADJ	ADJA	_	8	E	8:E	_
+8	Gewässern	Gewässer	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	man	man	PRON	PIS	_	12	A	12:A	_
+12	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+13	wohl	wohl	ADV	ADV	_	12	D	12:D	_
+14	,	,	PUNCT	$,	_	12	U	12:U	_
+15	dass	dass	SCONJ	KOUS	_	33	R	33:R	_
+16	dieses	dies	PRON	PDS	_	17	E	17:E	_
+17	Becken	Becken	NOUN	NN	_	33	A	33:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Südpols	Südpol	NOUN	NN	_	17	E	17:E	_
+20	gegenwärtig	gegenwärtig	ADP	ADJD	_	33	D	33:D	_
+21	den	der	DET	ART	_	28	E	28:E	_
+22	allzu	allzu	ADV	ADV	_	23	E	23:E	_
+23	arg	arg	ADJ	ADJD	_	27	D	27:D	_
+24	von	von	ADP	NN	_	26	R	26:R	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Jägern	Jäger	NOUN	NN	_	27	A	27:A	_
+27	verfolgten	verfolgen	VERB	ADJA	_	28	E	28:E	_
+28	Tieren	Tier	NOUN	NN	_	33	A	33:A	_
+29	dieser	dies	PRON	PDAT	_	30	R	30:R	_
+30	Art	Art	NOUN	NN	_	28	E	28:E	_
+31	eine	ein	DET	ART	_	32	E	32:E	_
+32	Zufluchtsstätte	Zufluchtsstätte	NOUN	NN	_	33	A	33:A	_
+33	war	sein	AUX	ADV	_	12	A	12:A	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

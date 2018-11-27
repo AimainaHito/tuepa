@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 467014
+# text = After two years in college , during which he averaged 17.1 points , 7.6 rebounds , and 7.9 assists per game , Johnson was drafted in the 1979 NBA Draft .
+1	After	after	ADP	IN	_	5	L	5:L	_
+2	two	two	NUM	CD	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	5	D	5:D	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	college	college	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	during	during	ADP	IN	_	5	L	5:L	_
+8	which	which	PRON	WDT	_	7	Terminal	7:Terminal	_
+9	he	he	PRON	PRP	_	10	A	10:A|5:A	_
+10	averaged	average	VERB	VBD	_	5	H	5:H	_
+11	17.1	17.1	NUM	CD	_	12	E	12:E	_
+12	points	point	NOUN	NNS	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	7.6	7.6	NUM	CD	_	15	E	15:E	_
+15	rebounds	rebound	NOUN	NNS	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	and	and	CCONJ	CC	_	12	N	12:N	_
+18	7.9	7.9	NUM	CD	_	19	E	19:E	_
+19	assists	assist	NOUN	NNS	_	12	C	12:C	_
+20	per	per	ADP	IN	_	21	R	21:R	_
+21	game	game	NOUN	NN	_	12	E	12:E	_
+22	,	,	PUNCT	,	_	5	U	5:U	_
+23	Johnson	Johnson	PROPN	NNP	_	25	A	25:A	_
+24	was	be	AUX	VBD	_	25	F	25:F	_
+25	drafted	draft	VERB	VBN	_	5	H	5:H	_
+26	in	in	ADP	IN	_	30	R	30:R	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	1979	1979	NUM	CD	_	30	E	30:E	_
+29	NBA	NBA	PROPN	NNP	_	30	E	30:E	_
+30	Draft	Draft	PROPN	NNP	_	25	A	25:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

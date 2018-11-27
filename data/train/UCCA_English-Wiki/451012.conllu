@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 451012
+# text = An inexperienced Jennings had a hard time keeping up with his rivals at the other networks , and he - and the upstart ABC News - could not compete with the venerable newscasts of Walter Cronkite at CBS and Chet Huntley and David Brinkley at NBC .
+1	An	a	DET	DT	_	3	E	3:E	_
+2	inexperienced	inexperienced	ADJ	JJ	_	3	E	3:E	_
+3	Jennings	Jennings	PROPN	NNP	_	8	A	8:A	_
+4	had	have	VERB	VBD	_	8	F	8:F	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	hard	hard	ADJ	JJ	_	7	E	7:E	_
+7	time	time	NOUN	NN	_	8	E	8:E	_
+8	keeping	kee	VERB	VBG	_	0	H	0:H	_
+9	up	up	ADP	RP	_	8	Terminal	8:Terminal	_
+10	with	with	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	rivals	rival	NOUN	NNS	_	8	A	8:A	_
+13	at	at	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	other	other	ADJ	JJ	_	16	E	16:E	_
+16	networks	network	NOUN	NNS	_	12	E	12:E	_
+17	,	,	PUNCT	,	_	8	U	8:U	_
+18	and	and	CCONJ	CC	_	8	L	8:L	_
+19	he	he	PRON	PRP	_	29	A	29:A	_
+20	-	-	PUNCT	,	_	19	U	19:U	_
+21	and	and	CCONJ	CC	_	19	N	19:N	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	upstart	upstart	ADJ	JJ	_	25	E	25:E	_
+24	ABC	ABC	PROPN	NNP	_	25	E	25:E	_
+25	News	News	PROPN	NNP	_	19	C	19:C	_
+26	-	-	PUNCT	,	_	29	U	29:U	_
+27	could	could	AUX	MD	_	29	D	29:D	_
+28	not	not	PART	RB	_	29	D	29:D	_
+29	compete	compete	VERB	VB	_	8	H	8:H	_
+30	with	with	ADP	IN	_	33	R	33:R	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	venerable	venerable	ADJ	JJ	_	33	E	33:E	_
+33	newscasts	newscast	NOUN	NNS	_	29	A	29:A	_
+34	of	of	ADP	IN	_	35	R	35:R	_
+35	Walter	Walter	PROPN	NNP	_	33	E	33:E	_
+36	Cronkite	Cronkite	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	at	at	ADP	IN	_	38	R	38:R	_
+38	CBS	CBS	PROPN	NNP	_	35	E	35:E	_
+39	and	and	CCONJ	CC	_	35	N	35:N	_
+40	Chet	Chet	PROPN	NNP	_	35	C	35:C	_
+41	Huntley	Huntley	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	and	and	CCONJ	CC	_	40	N	40:N	_
+43	David	David	PROPN	NNP	_	40	C	40:C	_
+44	Brinkley	Brinkley	PROPN	NNP	_	43	Terminal	43:Terminal	_
+45	at	at	ADP	IN	_	46	R	46:R	_
+46	NBC	NBC	PROPN	NNP	_	43	E	43:E	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

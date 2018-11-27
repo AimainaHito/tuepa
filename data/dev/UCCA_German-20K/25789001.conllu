@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25789001
+# text = » Ich verstehe « , fuhr er fort , » die Hacke so gut zu führen wie die Harpune , und wenn ich nützlich sein kann , stehe ich dem Kapitän zu Diensten . «
+1	»	»	PUNCT	$(	_	16	U	16:U	_
+2	Ich	ich	PRON	PPER	_	16	A	16:A	_
+3	verstehe	verstehen	VERB	VVFIN	_	16	D	16:D	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	fort	fort	ADV	PTKVZ	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Hacke	Hacke	NOUN	NN	_	16	A	16:A	_
+13	so	so	ADV	ADV	_	14	E	14:E	_
+14	gut	gut	ADJ	ADJD	_	16	D	16:D	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	führen	führen	VERB	VVINF	_	6	A	6:A	_
+17	wie	wie	CCONJ	KON	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Harpune	Harpune	NOUN	NN	_	16	A	16:A	_
+20	,	,	PUNCT	$,	_	16	U	16:U	_
+21	und	und	CCONJ	NE	_	16	L	16:L	_
+22	wenn	wenn	SCONJ	VVFIN	_	16	L	16:L	_
+23	ich	ich	PRON	PPER	_	24	A	24:A	_
+24	nützlich	nützlich	ADJ	ADJD	_	16	H	16:H	_
+25	sein	sein	AUX	VAINF	_	24	F	24:F	_
+26	kann	können	AUX	VMFIN	_	24	D	24:D	_
+27	,	,	PUNCT	$,	_	16	U	16:U	_
+28	stehe	stehen	VERB	VVFIN	_	16	H	16:H	_
+29	ich	ich	PRON	PPER	_	28	A	28:A	_
+30	dem	der	DET	ART	_	31	E	31:E	_
+31	Kapitän	kapitän	NOUN	NN	_	28	A	28:A	_
+32	zu	zu	ADP	NE	_	28	Terminal	28:Terminal	_
+33	Diensten	Dienst	NOUN	NN	_	28	Terminal	28:Terminal	_
+34	.	.	PUNCT	$.	_	28	U	28:U	_
+35	«	«	PUNCT	$(	_	28	U	28:U	_
+

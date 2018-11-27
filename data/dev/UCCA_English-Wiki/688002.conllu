@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 688002
+# text = Much of his most celebrated work dates from the 1960s when he was an informal chronicler and a seemingly reluctant figurehead of social unrest .
+1	Much	much	ADJ	JJ	_	6	E	6:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	his	he	PRON	PRP$	_	6	E	6:E	_
+4	most	most	ADV	RBS	_	5	E	5:E	_
+5	celebrated	celebrated	VERB	VBN	_	6	E	6:E	_
+6	work	work	NOUN	NN	_	7	A	7:A	_
+7	dates	date	NOUN	NNS	_	0	H	0:H	_
+8	from	from	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	1960s	1960	NOUN	NNS	_	7	D	7:D	_
+11	when	when	ADV	WRB	_	7	L	7:L	_
+12	he	he	PRON	PRP	_	13	A	13:A	_
+13	was	be	AUX	VBD	_	7	H	7:H	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	informal	informal	ADJ	JJ	_	16	E	16:E	_
+16	chronicler	chronicler	NOUN	NN	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	seemingly	seemingly	ADV	RB	_	20	E	20:E	_
+20	reluctant	reluctant	ADJ	JJ	_	21	E	21:E	_
+21	figurehead	figurehead	NOUN	NN	_	16	C	16:C	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	social	social	ADJ	JJ	_	24	E	24:E	_
+24	unrest	unrest	NOUN	NN	_	21	E	21:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

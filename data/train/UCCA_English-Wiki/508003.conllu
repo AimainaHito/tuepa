@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 508003
+# text = Intending to move to Los Angeles , they flew in to search for a suitable property , but found themselves confined to their hotel , under curfew : the 1992 Los Angeles riots began the day they arrived .
+1	Intending	intend	VERB	VBG	_	3	D	3:D	_
+2	to	to	PART	TO	_	3	F	3:F	_
+3	move	move	VERB	VB	_	0	H	0:H	_
+4	to	to	ADP	IN	_	5	R	5:R	_
+5	Los	Los	PROPN	NNP	_	3	A	3:A	_
+6	Angeles	angeles	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	they	they	PRON	PRP	_	9	A	9:A|12:A|27:A|21:A	_
+9	flew	fly	VERB	VBD	_	3	H	3:H	_
+10	in	in	ADV	RB	_	9	E	9:E	_
+11	to	to	PART	TO	_	3	L	3:L	_
+12	search	search	VERB	VB	_	3	H	3:H	_
+13	for	for	ADP	IN	_	16	R	16:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	suitable	suitable	ADJ	JJ	_	16	E	16:E	_
+16	property	property	NOUN	NN	_	12	A	12:A	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	but	but	CCONJ	CC	_	3	L	3:L	_
+19	found	find	VERB	VBN	_	21	D	21:D	_
+20	themselves	themselves	PRON	PRP	_	21	D	21:D	_
+21	confined	confine	VERB	VBN	_	3	H	3:H	_
+22	to	to	ADP	IN	_	24	R	24:R	_
+23	their	they	PRON	PRP$	_	24	E	24:E	_
+24	hotel	hotel	NOUN	NN	_	21	A	21:A	_
+25	,	,	PUNCT	,	_	3	U	3:U	_
+26	under	under	ADP	IN	_	27	E	27:E	_
+27	curfew	curfew	NOUN	NN	_	3	H	3:H	_
+28	:	:	PUNCT	:	_	3	U	3:U	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	1992	1992	NUM	CD	_	34	D	34:D	_
+31	Los	Los	PROPN	NNP	_	33	E	33:E	_
+32	Angeles	Angeles	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	riots	riot	NOUN	NNS	_	34	A	34:A	_
+34	began	begin	VERB	VBD	_	3	H	3:H	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	day	day	NOUN	NN	_	3	L	3:L	_
+37	they	they	PRON	PRP	_	38	A	38:A	_
+38	arrived	arrive	VERB	VBD	_	3	H	3:H	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

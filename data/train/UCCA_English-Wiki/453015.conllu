@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 453015
+# text = That same year , he became a father when Marton gave birth to their daughter , Elizabeth .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	8	D	8:D	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	he	he	PRON	PRP	_	8	A	8:A	_
+6	became	become	VERB	VBD	_	8	D	8:D	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	father	father	NOUN	NN	_	0	H	0:H	_
+9	when	when	ADV	WRB	_	8	L	8:L	_
+10	Marton	Marton	PROPN	NNP	_	12	A	12:A	_
+11	gave	give	VERB	VBD	_	12	F	12:F	_
+12	birth	birth	NOUN	NN	_	8	H	8:H	_
+13	to	to	ADP	IN	_	17	R	17:R	_
+14	their	they	PRON	PRP$	_	17	E	17:E	_
+15	daughter	daughter	NOUN	NN	_	17	E	17:E	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	Elizabeth	Elizabeth	PROPN	NNP	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

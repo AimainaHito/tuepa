@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25684006
+# text = - Ned Land beeilte sich , mit den schönsten Mollusken ein Garn zu füllen , das er an der Seite hängen hatte .
+1	-	-	PUNCT	$(	_	14	U	14:U	_
+2	Ned	Ned	PROPN	NN	_	14	A	14:A	_
+3	Land	Land	PROPN	NN	_	2	Terminal	2:Terminal	_
+4	beeilte	beeilen	VERB	VVFIN	_	14	D	14:D	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	14	U	14:U	_
+7	mit	mit	ADP	APPR	_	10	R	10:R	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	schönsten	schön	ADJ	ADJA	_	10	E	10:E	_
+10	Mollusken	Mollusko	NOUN	NN	_	14	A	14:A	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Garn	gar	NOUN	NE	_	14	A	14:A	_
+13	zu	zu	PART	NE	_	14	F	14:F	_
+14	füllen	füllen	VERB	VVINF	_	0	H	0:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	das	der	PRON	PRELS	_	21	R	21:R	_
+17	er	er	PRON	PPER	_	21	A	21:A	_
+18	an	an	ADP	APPR	_	20	R	20:R	_
+19	der	der	DET	ART	_	20	E	20:E	_
+20	Seite	Seite	NOUN	NN	_	21	A	21:A	_
+21	hängen	hängen	VERB	VVINF	_	12	E	12:E	_
+22	hatte	haben	AUX	VAFIN	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

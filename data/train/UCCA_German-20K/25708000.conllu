@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25708000
+# text = Um 10 Uhr 15 nahm Kapitän Nemo selbst das Steuer zur Hand .
+1	Um	um	ADP	APPR	_	2	R	2:R	_
+2	10	10	NUM	CARD	_	5	D	5:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	15	15	NUM	CARD	_	2	Terminal	2:Terminal	_
+5	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+6	Kapitän	Kapitän	PROPN	NN	_	7	E	7:E	_
+7	Nemo	Nemo	PROPN	NE	_	5	A	5:A	_
+8	selbst	selbst	ADV	VVFIN	_	5	D	5:D	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Steuer	Steuer	NOUN	NN	_	5	A	5:A	_
+11	zur	zur	ADP	NE	_	12	R	12:R	_
+12	Hand	Hand	NOUN	NN	_	5	A	5:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

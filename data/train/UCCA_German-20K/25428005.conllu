@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25428005
+# text = Vormals , in der Urzeit , waren die Land tiere , Vier füßler , Reptilien und Vögel nach riesen mäßigem Maßstab geformt .
+1	Vormals	vormals	ADV	ADV	_	22	D	22:D	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Urzeit	Urzeit	NOUN	NN	_	1	E	1:E	_
+6	,	,	PUNCT	$,	_	22	U	22:U	_
+7	waren	sein	AUX	VAFIN	_	22	F	22:F	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	Land	Land	NOUN	NN	_	10	E	10:E	_
+10	tiere	tieren	VERB	NN	_	22	A	22:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	Vier	vier	NOUN	CARD	_	13	E	13:E	_
+13	füßler	füßl	ADJ	NN	_	10	C	10:C	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	Reptilien	Reptil	NOUN	NE	_	10	C	10:C	_
+16	und	und	CCONJ	NE	_	10	N	10:N	_
+17	Vögel	Vogel	NOUN	NN	_	10	C	10:C	_
+18	nach	nach	ADP	XY	_	21	R	21:R	_
+19	riesen	reisen	VERB	NN	_	20	E	20:E	_
+20	mäßigem	mäßig	PRON	ADJA	_	21	E	21:E	_
+21	Maßstab	Maßstab	NOUN	NN	_	22	D	22:D	_
+22	geformt	formen	VERB	VVPP	_	0	H	0:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 618009
+# text = In 1979 , McCartney signed with Columbia Records in the US and Canada reportedly receiving the industry 's most lucrative recording contract to date , while remaining with EMI for distribution throughout the rest of the world .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1979	1979	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A|27:A|15:A	_
+5	signed	sign	VERB	VBD	_	0	H	0:H	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	Columbia	Columbia	PROPN	NNP	_	8	E	8:E	_
+8	Records	Record	NOUN	NNS	_	5	A	5:A	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	US	US	PROPN	NNP	_	5	A	5:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	Canada	Canada	PROPN	NNP	_	11	C	11:C	_
+14	reportedly	reportedly	ADV	RB	_	15	D	15:D	_
+15	receiving	receive	VERB	VBG	_	5	H	5:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	industry	industry	NOUN	NN	_	22	E	22:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	most	most	ADV	RBS	_	20	E	20:E	_
+20	lucrative	lucrative	ADJ	JJ	_	22	E	22:E	_
+21	recording	recorde	NOUN	NN	_	22	E	22:E	_
+22	contract	contract	NOUN	NN	_	15	A	15:A	_
+23	to	to	ADP	IN	_	24	R	24:R	_
+24	date	date	NOUN	NN	_	22	E	22:E	_
+25	,	,	PUNCT	,	_	5	U	5:U	_
+26	while	while	SCONJ	IN	_	5	L	5:L	_
+27	remaining	remain	VERB	VBG	_	5	H	5:H	_
+28	with	with	ADP	IN	_	29	R	29:R	_
+29	EMI	EMI	PROPN	NNP	_	27	A	27:A	_
+30	for	for	ADP	IN	_	31	R	31:R	_
+31	distribution	distribution	NOUN	NN	_	27	A	27:A	_
+32	throughout	throughout	ADP	IN	_	37	R	37:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	rest	rest	NOUN	NN	_	37	E	37:E	_
+35	of	of	ADP	IN	_	34	R	34:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	world	world	NOUN	NN	_	31	E	31:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

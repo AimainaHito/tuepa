@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 452002
+# text = The next year , he demonstrated his growing expertise in Middle Eastern affairs with Palestine : New State of Mind , a well - received half - hour documentary for ABC 's Now news program .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	demonstrated	demonstrate	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	growing	grow	VERB	VBG	_	9	E	9:E	_
+9	expertise	expertise	NOUN	NN	_	6	A	6:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	Middle	Middle	PROPN	NNP	_	12	E	12:E	_
+12	Eastern	eastern	PROPN	NNP	_	13	E	13:E	_
+13	affairs	affairs	NOUN	NNS	_	9	E	9:E	_
+14	with	with	ADP	IN	_	15	R	15:R	_
+15	Palestine	Palestine	PROPN	NNP	_	6	A	6:A	_
+16	:	:	PUNCT	:	_	15	U	15:U	_
+17	New	New	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	State	State	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	of	of	ADP	IN	_	15	Terminal	15:Terminal	_
+20	Mind	Mind	PROPN	NNP	_	15	Terminal	15:Terminal	_
+21	,	,	PUNCT	,	_	15	U	15:U	_
+22	a	a	DET	DT	_	29	E	29:E	_
+23	well	well	ADV	RB	_	25	D	25:D	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	received	receive	VERB	VBN	_	29	E	29:E	_
+26	half	half	NOUN	NN	_	28	E	28:E	_
+27	-	-	PUNCT	HYPH	_	28	U	28:U	_
+28	hour	hour	NOUN	NN	_	29	E	29:E	_
+29	documentary	documentary	NOUN	NN	_	15	E	15:E	_
+30	for	for	ADP	IN	_	35	R	35:R	_
+31	ABC	ABC	PROPN	NNP	_	35	E	35:E	_
+32	's	's	PART	POS	_	31	R	31:R	_
+33	Now	Now	PROPN	NNP	_	35	E	35:E	_
+34	news	news	NOUN	NN	_	35	E	35:E	_
+35	program	program	NOUN	NN	_	29	E	29:E	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

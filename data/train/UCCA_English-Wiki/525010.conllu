@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 525010
+# text = Her lightened hair was also pulled up in a stylish fashion .
+1	Her	she	PRON	PRP$	_	3	E	3:E	_
+2	lightened	lighten	VERB	VBD	_	3	E	3:E	_
+3	hair	hair	NOUN	NN	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	also	also	ADV	RB	_	6	D	6:D	_
+6	pulled	pull	VERB	VBN	_	0	H	0:H	_
+7	up	up	ADP	RP	_	6	R	6:R	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	stylish	stylish	ADJ	JJ	_	11	E	11:E	_
+11	fashion	fashion	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

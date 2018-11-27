@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 551000
+# text = An ardent Republican , Jack Warner nevertheless supported Franklin D . Roosevelt in the early 1930s .
+1	An	a	DET	DT	_	3	E	3:E	_
+2	ardent	ardent	ADJ	JJ	_	3	E	3:E	_
+3	Republican	Republican	PROPN	NNP	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Jack	Jack	PROPN	NNP	_	8	A	8:A|3:A	_
+6	Warner	Warner	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	nevertheless	nevertheless	ADV	RB	_	3	L	3:L	_
+8	supported	support	VERB	VBN	_	3	H	3:H	_
+9	Franklin	Franklin	PROPN	NNP	_	8	A	8:A	_
+10	D	D	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+12	Roosevelt	Roosevelt	PROPN	NNP	_	9	Terminal	9:Terminal	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	early	early	ADJ	JJ	_	16	E	16:E	_
+16	1930s	1930	NOUN	NNS	_	8	D	8:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

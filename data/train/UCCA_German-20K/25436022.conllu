@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25436022
+# text = Dieser Junge war 30 Jahre alt , und seines Herrn Alter verhielt sich zu diesem wie 20 zu 15 .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Junge	Junge	NOUN	NN	_	6	A	6:A	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	30	30	NUM	CARD	_	6	A	6:A	_
+5	Jahre	Jahr	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	alt	alt	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	seines	sein	DET	PPOSAT	_	11	R	11:R	_
+10	Herrn	Herr	NOUN	NN	_	11	E	11:E	_
+11	Alter	Alter	PROPN	ADJA	_	12	A	12:A	_
+12	verhielt	verhalten	VERB	VVFIN	_	6	H	6:H	_
+13	sich	er|es|sie	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	zu	zu	ADP	VVINF	_	15	R	15:R	_
+15	diesem	dies	PRON	PDS	_	12	A	12:A	_
+16	wie	wie	ADP	ADV	_	17	R	17:R	_
+17	20	20	NUM	CARD	_	12	A	12:A	_
+18	zu	zu	ADP	VVINF	_	17	Terminal	17:Terminal	_
+19	15	15	NUM	CARD	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	$.	_	17	U	17:U	_
+

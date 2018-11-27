@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25788002
+# text = Meine Gefährten waren zu mir getreten .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Gefährten	Gefährt|Gefährte	NOUN	NE	_	6	A	6:A	_
+3	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+4	zu	zu	ADP	NE	_	5	R	5:R	_
+5	mir	ich	PRON	PPER	_	6	A	6:A	_
+6	getreten	treten	VERB	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

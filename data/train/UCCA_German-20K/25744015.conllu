@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25744015
+# text = Auf ihrer Plattform und dem Ufer regte sich die Mannschaft gleich schwarzen Schatten , die mitten aus dem Lichtkreise sich deutlich hervorhoben .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	ihrer	ihr	DET	PPOSAT	_	3	E	3:E	_
+3	Plattform	Plattform	NOUN	NN	_	7	A	7:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	Ufer	Ufer	NOUN	NN	_	3	C	3:C	_
+7	regte	regt	VERB	VVFIN	_	0	H	0:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Mannschaft	Mannschaft	NOUN	NN	_	7	A	7:A	_
+11	gleich	gleich	ADV	ADV	_	13	R	13:R	_
+12	schwarzen	schwarz	ADJ	ADJA	_	13	E	13:E	_
+13	Schatten	Schatten	NOUN	NN	_	7	H	7:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	PRELS	_	20	R	20:R	_
+16	mitten	mitten	ADV	ADV	_	19	R	19:R	_
+17	aus	aus	ADP	APPR	_	19	R	19:R	_
+18	dem	der	DET	ART	_	19	E	19:E	_
+19	Lichtkreise	Lichtkreise	NOUN	NN	_	20	A	20:A	_
+20	sich	er|es|sie	PRON	PRF	_	13	E	13:E	_
+21	deutlich	deutlich	ADJ	ADJD	_	20	D	20:D	_
+22	hervorhoben	hervorheben	VERB	NN	_	20	Terminal	20:Terminal	_
+23	.	.	PUNCT	$.	_	20	U	20:U	_
+

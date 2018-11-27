@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 486004
+# text = His stand - up gigs in inner - city pubs did not provide him with enough income to support himself , so he continued his work as a barman and waiting tables .
+1	His	he	PRON	PRP$	_	5	E	5:E	_
+2	stand	stand	VERB	VB	_	5	E	5:E	_
+3	-	-	PUNCT	HYPH	_	2	U	2:U	_
+4	up	up	ADP	RP	_	2	Terminal	2:Terminal	_
+5	gigs	gig	NOUN	NNS	_	13	A	13:A	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	inner	inner	ADJ	JJ	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	city	city	NOUN	NN	_	10	E	10:E	_
+10	pubs	pub	NOUN	NNS	_	5	E	5:E	_
+11	did	do	AUX	VBD	_	13	F	13:F	_
+12	not	not	PART	RB	_	13	D	13:D	_
+13	provide	provide	VERB	VB	_	0	H	0:H	_
+14	him	he	PRON	PRP	_	13	A	13:A|19:A	_
+15	with	with	ADP	IN	_	17	R	17:R	_
+16	enough	enough	ADJ	JJ	_	17	E	17:E	_
+17	income	income	NOUN	NN	_	13	A	13:A	_
+18	to	to	PART	TO	_	19	R	19:R	_
+19	support	support	VERB	VB	_	17	E	17:E	_
+20	himself	himself	PRON	PRP	_	19	D	19:D	_
+21	,	,	PUNCT	,	_	13	U	13:U	_
+22	so	so	ADV	RB	_	13	L	13:L	_
+23	he	he	PRON	PRP	_	24	A	24:A|31:A	_
+24	continued	continue	VERB	VBD	_	13	H	13:H	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	work	work	NOUN	NN	_	24	A	24:A	_
+27	as	as	ADP	IN	_	29	R	29:R	_
+28	a	a	DET	DT	_	29	E	29:E	_
+29	barman	barman	NOUN	NN	_	26	E	26:E	_
+30	and	and	CCONJ	CC	_	29	N	29:N	_
+31	waiting	waiting	VERB	VBG	_	29	C	29:C	_
+32	tables	table	NOUN	NNS	_	31	A	31:A	_
+33	.	.	PUNCT	.	_	31	U	31:U	_
+

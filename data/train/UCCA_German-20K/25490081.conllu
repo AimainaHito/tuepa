@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25490081
+# text = « » Wie , Ned ? Sie dächten ernstlich daran , sich dieses Fahrzeugs zu bemächtigen ?
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Wie	wie	PROPN	NE	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Ned	Ned	PROPN	NE	_	3	G	3:G	_
+6	?	?	PUNCT	$.	_	3	U	3:U	_
+7	Sie	Sie|sie	PRON	PPER	_	8	A	8:A|16:A	_
+8	dächten	dächen	VERB	VVFIN	_	3	H	3:H	_
+9	ernstlich	ernstlich	ADJ	ADJD	_	8	D	8:D	_
+10	daran	daran	ADV	PAV	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	sich	er|es|sie	PRON	PRF	_	16	A	16:A	_
+13	dieses	dies	PRON	PDAT	_	14	R	14:R	_
+14	Fahrzeugs	Fahrzeug	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	bemächtigen	bemächtigen	VERB	VVINF	_	8	A	8:A	_
+17	?	?	PUNCT	$.	_	16	U	16:U	_
+

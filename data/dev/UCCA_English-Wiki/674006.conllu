@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 674006
+# text = It also became Carey 's 16th top ten album in the United States .
+1	It	it	PRON	PRP	_	9	A	9:A	_
+2	also	also	ADV	RB	_	9	D	9:D	_
+3	became	become	VERB	VBD	_	9	D	9:D	_
+4	Carey	Carey	PROPN	NNP	_	9	E	9:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	16th	16th	PROPN	NNP	_	9	E	9:E	_
+7	top	top	NOUN	NN	_	8	E	8:E	_
+8	ten	ten	NUM	CD	_	9	E	9:E	_
+9	album	album	NOUN	NN	_	0	H	0:H	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	United	United	PROPN	NNP	_	9	E	9:E	_
+13	States	States	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

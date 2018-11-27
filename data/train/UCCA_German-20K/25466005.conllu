@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25466005
+# text = Am folgenden Tag , 5 November . , lief der strenge Termin ab .
+1	Am	am	PROPN	NN	_	5	R	5:R	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	5	5	NUM	CARD	_	9	D	9:D	_
+6	November	November	PROPN	NN	_	5	Terminal	5:Terminal	_
+7	.	.	PUNCT	$.	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	lief	laufen	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	12	E	12:E	_
+11	strenge	streng	ADJ	ADJA	_	12	E	12:E	_
+12	Termin	Termin	NOUN	NN	_	9	A	9:A	_
+13	ab	ab	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+14	.	.	PUNCT	$.	_	9	U	9:U	_
+

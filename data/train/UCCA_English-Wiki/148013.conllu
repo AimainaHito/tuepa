@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 148013
+# text = Hepburn did not interfere , and never fought for marriage .
+1	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A|8:A	_
+2	did	do	AUX	VBD	_	4	F	4:F	_
+3	not	not	PART	RB	_	4	D	4:D	_
+4	interfere	interfere	VERB	VB	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	never	never	ADV	RB	_	8	D	8:D	_
+8	fought	fight	VERB	VBN	_	4	H	4:H	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	marriage	marriage	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

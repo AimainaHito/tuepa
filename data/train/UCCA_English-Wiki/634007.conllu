@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 634007
+# text = Lennon was on tour when his first son , Julian , was born in April .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	on	on	ADP	IN	_	4	R	4:R	_
+4	tour	tour	NOUN	NN	_	2	A	2:A	_
+5	when	when	ADV	WRB	_	2	L	2:L	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	son	son	NOUN	NN	_	13	A	13:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	Julian	Julian	PROPN	NNP	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	born	bear	VERB	VBN	_	2	H	2:H	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	April	April	PROPN	NNP	_	13	D	13:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

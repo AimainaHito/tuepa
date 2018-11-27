@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 501006
+# text = This he refused to do , and his interview went ahead .
+1	This	this	DET	DT	_	5	F	5:F	_
+2	he	he	PRON	PRP	_	5	A	5:A	_
+3	refused	refuse	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	do	do	VERB	VB	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	and	and	CCONJ	CC	_	5	L	5:L	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	interview	interview	NOUN	NN	_	11	A	11:A	_
+10	went	go	VERB	VBD	_	11	D	11:D	_
+11	ahead	ahead	ADV	RB	_	5	H	5:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

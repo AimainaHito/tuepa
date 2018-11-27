@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 106002
+# text = That same year , Jolie also portrayed Margret " Legs " Sadovsky , one of five teenage girls who form an unlikely bond in the film Foxfire after they beat up a teacher who has sexually harassed them .
+1	That	that	DET	DT	_	3	F	3:F	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Jolie	Jolie	PROPN	NNP	_	7	A	7:A	_
+6	also	also	ADV	RB	_	7	D	7:D	_
+7	portrayed	portray	VERB	VBD	_	0	H	0:H	_
+8	Margret	Margret	PROPN	NNP	_	7	A	7:A	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	Legs	leg	PROPN	NNPS	_	8	Terminal	8:Terminal	_
+11	"	"	PUNCT	''	_	8	U	8:U	_
+12	Sadovsky	Sadovsky	PROPN	NNP	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	one	one	NUM	CD	_	18	E	18:E	_
+15	of	of	ADP	IN	_	14	R	14:R	_
+16	five	five	NUM	CD	_	18	E	18:E	_
+17	teenage	teenage	ADJ	JJ	_	18	E	18:E	_
+18	girls	girl	NOUN	NNS	_	8	E	8:E	_
+19	who	who	PRON	WP	_	20	R	20:R	_
+20	form	form	VERB	VBP	_	18	E	18:E	_
+21	an	a	DET	DT	_	23	E	23:E	_
+22	unlikely	unlikely	ADJ	JJ	_	23	E	23:E	_
+23	bond	bond	NOUN	NN	_	20	A	20:A	_
+24	in	in	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	film	film	NOUN	NN	_	27	E	27:E	_
+27	Foxfire	Foxfire	NOUN	NN	_	20	A	20:A	_
+28	after	after	SCONJ	IN	_	20	L	20:L	_
+29	they	they	PRON	PRP	_	30	A	30:A	_
+30	beat	beat	VERB	VBP	_	20	H	20:H	_
+31	up	up	ADP	RP	_	30	Terminal	30:Terminal	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	teacher	teacher	NOUN	NN	_	30	A	30:A	_
+34	who	who	PRON	WP	_	37	R	37:R	_
+35	has	have	AUX	VBZ	_	37	F	37:F	_
+36	sexually	sexually	ADV	RB	_	37	D	37:D	_
+37	harassed	harass	VERB	VBN	_	33	E	33:E	_
+38	them	they	PRON	PRP	_	37	A	37:A	_
+39	.	.	PUNCT	.	_	37	U	37:U	_
+

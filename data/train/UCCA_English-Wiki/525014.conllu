@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 525014
+# text = She appreciated the results so much that Ponedel was written into her contract for all her remaining pictures at MGM .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	appreciated	appreciate	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	results	result	NOUN	NNS	_	2	A	2:A	_
+5	so	so	ADV	RB	_	6	E	6:E	_
+6	much	much	ADJ	JJ	_	2	D	2:D	_
+7	that	that	SCONJ	IN	_	10	R	10:R	_
+8	Ponedel	Ponedel	PROPN	NNP	_	10	A	10:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	written	write	VERB	VBN	_	2	H	2:H	_
+11	into	into	ADP	IN	_	13	R	13:R	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	contract	contract	NOUN	NN	_	10	A	10:A	_
+14	for	for	ADP	IN	_	18	R	18:R	_
+15	all	all	DET	DT	_	18	E	18:E	_
+16	her	she	PRON	PRP$	_	18	E	18:E	_
+17	remaining	remain	VERB	VBG	_	18	E	18:E	_
+18	pictures	picture	NOUN	NNS	_	10	D	10:D	_
+19	at	at	ADP	IN	_	20	R	20:R	_
+20	MGM	MGM	PROPN	NNP	_	18	E	18:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

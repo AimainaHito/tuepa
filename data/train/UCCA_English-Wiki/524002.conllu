@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 524002
+# text = " Although producers Arthur Freed and Mervyn LeRoy had wanted her from the start , studio chief Mayer tried first to borrow Shirley Temple from 20th Century Fox but declined .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	Although	although	SCONJ	IN	_	10	L	10:L	_
+3	producers	producer	NOUN	NNS	_	4	E	4:E	_
+4	Arthur	Arthur	PROPN	NNP	_	10	A	10:A	_
+5	Freed	Free	VERB	VBD	_	4	Terminal	4:Terminal	_
+6	and	and	CCONJ	CC	_	4	N	4:N	_
+7	Mervyn	Mervyn	PROPN	NNP	_	4	C	4:C	_
+8	LeRoy	LeRoy	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	had	have	AUX	VBD	_	10	F	10:F	_
+10	wanted	want	VERB	VBN	_	0	H	0:H	_
+11	her	she	PRON	PRP$	_	10	A	10:A	_
+12	from	from	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	start	start	NOUN	NN	_	10	D	10:D	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	studio	studio	NOUN	NN	_	17	E	17:E	_
+17	chief	chief	NOUN	NN	_	18	E	18:E	_
+18	Mayer	Mayer	PROPN	NNP	_	22	A	22:A|30:A	_
+19	tried	try	VERB	VBD	_	22	D	22:D	_
+20	first	first	ADV	RB	_	22	D	22:D	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	borrow	borrow	VERB	VB	_	10	H	10:H	_
+23	Shirley	Shirley	PROPN	NNP	_	22	A	22:A	_
+24	Temple	Temple	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	from	from	ADP	IN	_	28	R	28:R	_
+26	20th	20th	PROPN	NNP	_	28	E	28:E	_
+27	Century	century	PROPN	NNP	_	28	E	28:E	_
+28	Fox	fox	PROPN	NNP	_	22	A	22:A	_
+29	but	but	CCONJ	CC	_	10	L	10:L	_
+30	declined	decline	VERB	VBN	_	10	H	10:H	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25787015
+# text = » Das glaube ich . Es ist meines Herrn eigenes Werk ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	PDS	_	3	A	3:A	_
+3	glaube	glauben	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+6	Es	es	PRON	PPER	_	10	F	10:F	_
+7	ist	sein	AUX	VVFIN	_	10	F	10:F	_
+8	meines	mein	PRON	PPOSAT	_	9	R	9:R	_
+9	Herrn	Herr	NOUN	NN	_	10	A	10:A	_
+10	eigenes	eigen	ADJ	ADJA	_	3	H	3:H	_
+11	Werk	Werk	NOUN	NN	_	10	A	10:A	_
+12	!	!	PUNCT	$.	_	10	U	10:U	_
+13	«	«	PUNCT	$(	_	10	U	10:U	_
+

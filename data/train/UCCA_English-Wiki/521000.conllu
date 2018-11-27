@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 521000
+# text = In 1928 , The Gumm Sisters enrolled in a dance school run by Ethel Meglin , proprietress of the Meglin Kiddies dance troupe .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1928	1928	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	The	the	DET	DT	_	6	E	6:E	_
+5	Gumm	Gumm	PROPN	NNP	_	6	E	6:E	_
+6	Sisters	sisters	PROPN	NNP	_	7	A	7:A	_
+7	enrolled	enrol	VERB	VBD	_	0	H	0:H	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	dance	dance	NOUN	NN	_	11	E	11:E	_
+11	school	school	NOUN	NN	_	7	A	7:A	_
+12	run	run	VERB	VBN	_	11	E	11:E	_
+13	by	by	ADP	IN	_	14	R	14:R	_
+14	Ethel	Ethel	PROPN	NNP	_	12	A	12:A	_
+15	Meglin	Meglin	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	proprietress	proprietress	NOUN	NNS	_	14	E	14:E	_
+18	of	of	ADP	IN	_	23	R	23:R	_
+19	the	the	DET	DT	_	23	E	23:E	_
+20	Meglin	Meglin	PROPN	NNP	_	21	E	21:E	_
+21	Kiddies	kiddies	PROPN	NNP	_	23	E	23:E	_
+22	dance	dance	NOUN	NN	_	23	E	23:E	_
+23	troupe	troupe	NOUN	NN	_	17	E	17:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

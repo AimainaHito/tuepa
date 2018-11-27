@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 225010
+# text = Over the following two years , the " Three Brothers " appeared in Wheels on Meals and the original Lucky Stars trilogy .
+1	Over	over	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	following	follow	VERB	VBG	_	5	E	5:E	_
+4	two	two	NUM	CD	_	5	E	5:E	_
+5	years	year	NOUN	NNS	_	12	D	12:D	_
+6	,	,	PUNCT	,	_	12	U	12:U	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	"	"	PUNCT	``	_	9	U	9:U	_
+9	Three	three	PROPN	NNP	_	12	A	12:A	_
+10	Brothers	Brother	PROPN	NNPS	_	9	Terminal	9:Terminal	_
+11	"	"	PUNCT	''	_	12	U	12:U	_
+12	appeared	appear	VERB	VBD	_	0	H	0:H	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	Wheels	wheels	PROPN	NNP	_	12	A	12:A	_
+15	on	on	ADP	IN	_	14	Terminal	14:Terminal	_
+16	Meals	meals	PROPN	NNPS	_	14	Terminal	14:Terminal	_
+17	and	and	CCONJ	CC	_	14	N	14:N	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	original	original	ADJ	JJ	_	20	E	20:E	_
+20	Lucky	Lucky	PROPN	NNP	_	14	C	14:C	_
+21	Stars	stars	PROPN	NNPS	_	20	Terminal	20:Terminal	_
+22	trilogy	trilogy	NOUN	NN	_	20	E	20:E	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

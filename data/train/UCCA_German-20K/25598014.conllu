@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25598014
+# text = Ich war etwa 20 Schritt zurück geblieben , als ich Kapitän Nemo hastig auf mich zukommen sah .
+1	Ich	ich	PRON	PPER	_	6	A	6:A	_
+2	war	sein	AUX	ADV	_	6	F	6:F	_
+3	etwa	etwa	ADV	ADV	_	4	E	4:E	_
+4	20	20	NUM	CARD	_	6	A	6:A	_
+5	Schritt	Schritt	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	zurück	zurück	ADV	ADJA	_	0	H	0:H	_
+7	geblieben	bleiben	VERB	VVPP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	als	als	SCONJ	KOUS	_	6	L	6:L	_
+10	ich	ich	PRON	PPER	_	17	A	17:A	_
+11	Kapitän	Kapitän	PROPN	NN	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	16	A	16:A	_
+13	hastig	hastig	ADJ	ADJD	_	16	D	16:D	_
+14	auf	auf	ADP	APPR	_	15	R	15:R	_
+15	mich	ich	PRON	PPER	_	16	A	16:A	_
+16	zukommen	zukommen	VERB	VVINF	_	17	A	17:A	_
+17	sah	sehen	VERB	VVFIN	_	6	H	6:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

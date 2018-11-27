@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25445000
+# text = » Wie ist es , Ned « , fragte ich , » wie ist nur möglich , dass Sie von der Existenz des Tieres , das wir verfolgen , nicht überzeugt sind ? Haben Sie denn besondere Gründe , sich so ungläubig zu zeigen ?
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Wie	wie	ADV	NE	_	3	D	3:D	_
+3	ist	sein	AUX	VVFIN	_	9	A	9:A	_
+4	es	es	PRON	PPER	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Ned	Ned	NOUN	NN	_	3	G	3:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	wie	wie	CCONJ	NE	_	16	D	16:D	_
+14	ist	sein	AUX	NE	_	16	F	16:F	_
+15	nur	nur	ADV	NE	_	16	D	16:D	_
+16	möglich	möglich	ADJ	ADJD	_	3	H	3:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	dass	dass	SCONJ	KOUS	_	31	R	31:R	_
+19	Sie	sie	PRON	PPER	_	31	A	31:A	_
+20	von	von	ADP	NN	_	22	R	22:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Existenz	Existenz	NOUN	NN	_	31	A	31:A	_
+23	des	der	DET	ART	_	24	R	24:R	_
+24	Tieres	Tier	NOUN	NN	_	22	A	22:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	das	der	PRON	ART	_	28	R	28:R	_
+27	wir	wir	PRON	NE	_	28	A	28:A	_
+28	verfolgen	verfolgen	VERB	VVFIN	_	24	E	24:E	_
+29	,	,	PUNCT	$,	_	31	U	31:U	_
+30	nicht	nicht	PART	XY	_	31	D	31:D	_
+31	überzeugt	überzeugen	VERB	ADJD	_	16	A	16:A	_
+32	sind	sein	AUX	NN	_	31	F	31:F	_
+33	?	?	PUNCT	$.	_	3	U	3:U	_
+34	Haben	haben	AUX	VAFIN	_	38	F	38:F	_
+35	Sie	Sie|sie	PRON	PPER	_	38	A	38:A|40:A	_
+36	denn	denn	CCONJ	KOKOM	_	38	F	38:F	_
+37	besondere	besonder	ADJ	ADJA	_	38	E	38:E	_
+38	Gründe	Grund	NOUN	NN	_	3	H	3:H	_
+39	,	,	PUNCT	$,	_	38	U	38:U	_
+40	sich	er|es|sie	PRON	PRF	_	38	A	38:A	_
+41	so	so	ADV	ADV	_	42	E	42:E	_
+42	ungläubig	ungläubig	ADJ	ADJD	_	40	D	40:D	_
+43	zu	zu	PART	NN	_	40	F	40:F	_
+44	zeigen	zeigen	VERB	VVFIN	_	40	Terminal	40:Terminal	_
+45	?	?	PUNCT	$.	_	40	U	40:U	_
+

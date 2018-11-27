@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25771014
+# text = » Sind wir am Pol ? « fragte ich mit klopfendem Herzen den Kapitän .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Sind	sein	AUX	NN	_	8	A	8:A	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	am	am	ADJ	ADJD	_	5	R	5:R	_
+5	Pol	pol	NOUN	NE	_	2	A	2:A	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	klopfendem	klopfend	ADJ	ADJA	_	12	E	12:E	_
+12	Herzen	Herz	NOUN	NN	_	8	A	8:A	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Kapitän	Kapitän	NOUN	NN	_	8	A	8:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

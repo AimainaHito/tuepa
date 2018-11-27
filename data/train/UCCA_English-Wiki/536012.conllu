@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 536012
+# text = Despite his controversial public image , Warner remained a force in the motion picture industry until his retirement in the early 1970s .
+1	Despite	despite	ADP	IN	_	3	L	3:L	_
+2	his	he	PRON	PRP$	_	5	E	5:E	_
+3	controversial	controversial	ADJ	JJ	_	0	H	0:H	_
+4	public	public	ADJ	JJ	_	5	E	5:E	_
+5	image	image	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Warner	Warner	PROPN	NNP	_	8	A	8:A	_
+8	remained	remain	VERB	VBD	_	3	H	3:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	force	force	NOUN	NN	_	8	A	8:A	_
+11	in	in	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	motion	motion	NOUN	NN	_	14	E	14:E	_
+14	picture	picture	NOUN	NN	_	15	E	15:E	_
+15	industry	industry	NOUN	NN	_	8	A	8:A	_
+16	until	until	ADP	IN	_	3	L	3:L	_
+17	his	he	PRON	PRP$	_	18	A	18:A	_
+18	retirement	retirement	NOUN	NN	_	3	H	3:H	_
+19	in	in	ADP	IN	_	22	R	22:R	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	early	early	ADJ	JJ	_	22	E	22:E	_
+22	1970s	1970	NOUN	NNS	_	18	D	18:D	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

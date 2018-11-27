@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25481007
+# text = Der Ingenieur wurde abermals gerufen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Ingenieur	Ingenieur	NOUN	NN	_	5	A	5:A	_
+3	wurde	werden	AUX	NE	_	5	F	5:F	_
+4	abermals	abermals	ADV	ADV	_	5	D	5:D	_
+5	gerufen	rufen	VERB	VVPP	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

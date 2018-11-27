@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25628016
+# text = Und in der Tat , wir verbrauchten vergeblich einen Teil unserer Munition .
+1	Und	und	CCONJ	ADJD	_	7	L	7:L	_
+2	in	in	ADP	APPR	_	7	G	7:G	_
+3	der	der	DET	ART	_	2	Terminal	2:Terminal	_
+4	Tat	Tat	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	7	U	7:U	_
+6	wir	wir	PRON	NE	_	7	A	7:A	_
+7	verbrauchten	verbrauchen	VERB	VVFIN	_	0	H	0:H	_
+8	vergeblich	vergeblich	ADJ	ADJD	_	7	D	7:D	_
+9	einen	ein	DET	ART	_	10	E	10:E	_
+10	Teil	Teil	NOUN	NN	_	7	A	7:A	_
+11	unserer	unser	PRON	PPOSAT	_	12	R	12:R	_
+12	Munition	Munition	NOUN	NN	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

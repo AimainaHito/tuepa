@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 91006
+# text = On ne put le savoir ; mais , examen fait de sa carène dans les bassins de radoub , il fut reconnu qu' une partie de la quille avait été brisée .
+1	On	on	PRON	_	_	5	A	5:A	_
+2	ne	ne	ADV	_	_	5	D	5:D	_
+3	put	pouvoir	VERB	_	_	5	D	5:D	_
+4	le	le	DET	_	_	5	A	5:A	_
+5	savoir	savoir	NOUN	_	_	0	H	0:H	_
+6	;	;	PUNCT	_	_	5	U	5:U	_
+7	mais	mais	CCONJ	_	_	5	L	5:L	_
+8	,	,	PUNCT	_	_	5	U	5:U	_
+9	examen	examen	NOUN	_	_	10	A	10:A	_
+10	fait	faire	VERB	_	_	5	H	5:H	_
+11	de	de	ADP	_	_	13	R	13:R	_
+12	sa	son	DET	_	_	13	E	13:E	_
+13	carène	carène	NOUN	_	_	9	A	9:A	_
+14	dans	dans	ADP	_	_	16	R	16:R	_
+15	les	le	DET	_	_	16	E	16:E	_
+16	bassins	bassin	NOUN	_	_	9	A	9:A	_
+17	de	de	ADP	_	_	18	R	18:R	_
+18	radoub	radoub	NOUN	_	_	16	E	16:E	_
+19	,	,	PUNCT	_	_	5	U	5:U	_
+20	il	il	PRON	_	_	22	A	22:A	_
+21	fut	être	AUX	_	_	22	F	22:F	_
+22	reconnu	reconnaître	VERB	_	_	5	H	5:H	_
+23	qu'	que	SCONJ	_	_	31	R	31:R	_
+24	une	un	DET	_	_	25	E	25:E	_
+25	partie	partie	NOUN	_	_	31	A	31:A	_
+26	de	de	ADP	_	_	28	R	28:R	_
+27	la	le	DET	_	_	28	E	28:E	_
+28	quille	quille	NOUN	_	_	25	E	25:E	_
+29	avait	avoir	AUX	_	_	31	F	31:F	_
+30	été	être	AUX	_	_	31	F	31:F	_
+31	brisée	briser	VERB	_	_	22	A	22:A	_
+32	.	.	PUNCT	_	_	31	U	31:U	_
+

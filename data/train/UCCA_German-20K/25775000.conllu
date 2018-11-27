@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25775000
+# text = » Er hat recht . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Er	er	PRON	PPER	_	4	A	4:A	_
+3	hat	haben	VERB	VAFIN	_	4	F	4:F	_
+4	recht	recht	ADV	NE	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+6	«	«	PUNCT	$(	_	4	U	4:U	_
+

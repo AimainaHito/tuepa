@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 662016
+# text = The project was kept very secretive until Billboard announced on their October issue that Carey would release a holiday album later that year .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	project	project	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	kept	keep	VERB	VBN	_	6	D	6:D	_
+5	very	very	ADV	RB	_	6	D	6:D	_
+6	secretive	secretive	ADJ	JJ	_	0	H	0:H	_
+7	until	until	SCONJ	IN	_	6	L	6:L	_
+8	Billboard	Billboard	PROPN	NNP	_	9	A	9:A	_
+9	announced	announce	VERB	VBD	_	6	H	6:H	_
+10	on	on	ADP	IN	_	13	R	13:R	_
+11	their	they	PRON	PRP$	_	13	E	13:E	_
+12	October	October	PROPN	NNP	_	13	E	13:E	_
+13	issue	issue	NOUN	NN	_	9	A	9:A	_
+14	that	that	SCONJ	IN	_	17	F	17:F	_
+15	Carey	Carey	PRON	EX	_	17	A	17:A	_
+16	would	would	AUX	MD	_	17	F	17:F	_
+17	release	release	VERB	VB	_	9	A	9:A	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	holiday	holiday	NOUN	NN	_	20	E	20:E	_
+20	album	album	NOUN	NN	_	17	A	17:A	_
+21	later	later	ADV	RBR	_	23	R	23:R	_
+22	that	that	DET	DT	_	23	E	23:E	_
+23	year	year	NOUN	NN	_	17	D	17:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

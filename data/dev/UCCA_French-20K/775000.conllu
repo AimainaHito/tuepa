@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 775000
+# text = Certainement , j' étais sûr de ce garçon si dévoué .
+1	Certainement	certainement	ADV	_	_	5	G	5:G	_
+2	,	,	PUNCT	_	_	5	U	5:U	_
+3	j'	je	PRON	_	_	5	A	5:A	_
+4	étais	être	AUX	_	_	5	F	5:F	_
+5	sûr	sûr	ADJ	_	_	0	H	0:H	_
+6	de	de	ADP	_	_	8	R	8:R	_
+7	ce	ce	DET	_	_	8	E	8:E	_
+8	garçon	garçon	NOUN	_	_	5	A	5:A	_
+9	si	si	SCONJ	_	_	10	E	10:E	_
+10	dévoué	dévoué	ADJ	_	_	8	E	8:E	_
+11	.	.	PUNCT	_	_	10	U	10:U	_
+

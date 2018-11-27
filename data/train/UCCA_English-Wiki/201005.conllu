@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 201005
+# text = " Sorkin has also said , " As a writer , I do n't like to answer questions until the very moment that I have to .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	Sorkin	Sorkin	PROPN	NNP	_	5	A	5:A	_
+3	has	have	AUX	VBZ	_	5	F	5:F	_
+4	also	also	ADV	RB	_	5	D	5:D	_
+5	said	say	VERB	VBN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	"	"	PUNCT	``	_	5	U	5:U	_
+8	As	as	SCONJ	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	writer	writer	NOUN	NN	_	5	A	5:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	I	I	PRON	PRP	_	17	A	17:A|10:A	_
+13	do	do	AUX	VBP	_	17	F	17:F	_
+14	n't	not	PART	RB	_	17	D	17:D	_
+15	like	like	VERB	VB	_	17	E	17:E	_
+16	to	to	PART	TO	_	15	R	15:R	_
+17	answer	answer	VERB	VB	_	0	C	0:C|25:C	_
+18	questions	question	NOUN	NNS	_	17	A	17:A	_
+19	until	until	ADP	IN	_	10	L	10:L	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	very	very	ADJ	JJ	_	22	E	22:E	_
+22	moment	moment	NOUN	NN	_	25	D	25:D	_
+23	that	that	PRON	WDT	_	24	F	24:F	_
+24	I	I	PRON	PRP	_	25	A	25:A	_
+25	have	have	VERB	VBP	_	10	H	10:H	_
+26	to	to	PART	TO	_	25	E	25:E	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

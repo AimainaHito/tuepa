@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 25698000
+# text = » Ohne Zweifel « , erwiderte ich , » und die Archäologen mögen hoffen , dass solche Nachgrabungen früher oder später angestellt werden , wenn nach dem Durchstich des Kanals von Suez neue Städte auf diesem Isthmus entstehen werden . Für eine ›Nautilus‹ freilich wäre ein solcher Kanal wenig nütze ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ohne	ohne	ADP	NN	_	3	R	3:R	_
+3	Zweifel	Zweifel	NOUN	NN	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Archäologen	Archäologe	NOUN	NN	_	14	A	14:A	_
+13	mögen	mög	ADJ	NN	_	14	D	14:D	_
+14	hoffen	hoffen	VERB	VVINF	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+17	solche	solch	PRON	ADJA	_	18	E	18:E	_
+18	Nachgrabungen	Nachgrabung	NOUN	NN	_	22	A	22:A	_
+19	früher	früher	ADJ	ADV	_	22	D	22:D	_
+20	oder	oder	CCONJ	CARD	_	19	N	19:N	_
+21	später	spät	ADJ	ADJD	_	19	C	19:C	_
+22	angestellt	anstellen	VERB	VVPP	_	14	A	14:A	_
+23	werden	werden	AUX	VVFIN	_	22	F	22:F	_
+24	,	,	PUNCT	$,	_	3	U	3:U	_
+25	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+26	nach	nach	ADP	CARD	_	28	R	28:R	_
+27	dem	der	DET	ART	_	28	E	28:E	_
+28	Durchstich	Durchstich	NOUN	NN	_	38	A	38:A	_
+29	des	der	DET	ART	_	32	R	32:R	_
+30	Kanals	Kanal	NOUN	NN	_	32	E	32:E	_
+31	von	von	ADP	NE	_	32	R	32:R	_
+32	Suez	Suez	PROPN	NE	_	28	A	28:A	_
+33	neue	neu	ADJ	NN	_	34	E	34:E	_
+34	Städte	Stadt	NOUN	NN	_	38	A	38:A	_
+35	auf	auf	ADP	APPR	_	37	R	37:R	_
+36	diesem	dies	PRON	PDAT	_	37	E	37:E	_
+37	Isthmus	Isthmus	NOUN	NN	_	38	A	38:A	_
+38	entstehen	entstehen	VERB	VVINF	_	3	H	3:H	_
+39	werden	werden	AUX	VVFIN	_	38	F	38:F	_
+40	.	.	PUNCT	$.	_	3	U	3:U	_
+41	Für	für	ADP	APPR	_	43	R	43:R	_
+42	eine	ein	DET	ART	_	43	E	43:E	_
+43	›Nautilus‹	›Nautilus‹	NOUN	NE	_	50	A	50:A	_
+44	freilich	freilich	ADJ	ADV	_	50	D	50:D	_
+45	wäre	sein	AUX	ADV	_	50	D	50:D	_
+46	ein	ein	DET	ART	_	48	E	48:E	_
+47	solcher	solch	PRON	ADJA	_	48	E	48:E	_
+48	Kanal	Kanal	NOUN	NN	_	50	A	50:A	_
+49	wenig	wenig	ADV	ADJA	_	50	D	50:D	_
+50	nütze	nütze	ADJ	ADJD	_	3	H	3:H	_
+51	!	!	PUNCT	$.	_	50	U	50:U	_
+52	«	«	PUNCT	$(	_	50	U	50:U	_
+

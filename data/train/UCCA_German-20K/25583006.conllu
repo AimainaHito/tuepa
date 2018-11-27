@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25583006
+# text = Die gleiche Person sagte dieselbe Phrase .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	gleiche	gleich	ADJ	ADJA	_	3	E	3:E	_
+3	Person	Person	NOUN	NN	_	4	A	4:A	_
+4	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	dieselbe	dieselbe	PRON	PDAT	_	6	E	6:E	_
+6	Phrase	Phrase	NOUN	NN	_	4	A	4:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 613005
+# text = McCartney played lead electric guitar on several Beatles recordings , including what MacDonald described as a " fiercely angular slide guitar solo " on " Drive My Car " , which McCartney played on an Epiphone Casino .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	lead	lead	ADJ	JJ	_	5	E	5:E	_
+4	electric	electric	ADJ	JJ	_	5	E	5:E	_
+5	guitar	guitar	NOUN	NN	_	2	A	2:A	_
+6	on	on	ADP	IN	_	9	R	9:R	_
+7	several	several	ADJ	JJ	_	9	E	9:E	_
+8	Beatles	Beatles	PROPN	NNPS	_	9	E	9:E	_
+9	recordings	recording	NOUN	NNS	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	including	include	VERB	VBG	_	14	R	14:R	_
+12	what	what	PRON	WP	_	14	F	14:F	_
+13	MacDonald	MacDonald	PROPN	NNP	_	14	A	14:A	_
+14	described	describe	VERB	VBD	_	9	E	9:E	_
+15	as	as	ADP	IN	_	14	A	14:A	_
+16	a	a	DET	DT	_	22	E	22:E	_
+17	"	"	PUNCT	``	_	22	U	22:U	_
+18	fiercely	fiercely	ADV	RB	_	19	E	19:E	_
+19	angular	angular	ADJ	JJ	_	22	E	22:E|15:C	_
+20	slide	slide	NOUN	NN	_	21	E	21:E	_
+21	guitar	guitar	NOUN	NN	_	22	E	22:E	_
+22	solo	solo	ADV	RB	_	14	A	14:A	_
+23	"	"	PUNCT	``	_	14	U	14:U	_
+24	on	on	ADV	RB	_	26	R	26:R	_
+25	"	"	PUNCT	''	_	26	U	26:U	_
+26	Drive	drive	VERB	VB	_	14	E	14:E	_
+27	My	my	PRON	PRP$	_	26	Terminal	26:Terminal	_
+28	Car	Car	NOUN	NN	_	26	Terminal	26:Terminal	_
+29	"	"	PUNCT	''	_	26	U	26:U	_
+30	,	,	PUNCT	,	_	26	U	26:U	_
+31	which	which	PRON	WDT	_	33	F	33:F	_
+32	McCartney	McCartney	PROPN	NNP	_	33	A	33:A	_
+33	played	play	VERB	VBD	_	26	E	26:E	_
+34	on	on	ADP	IN	_	36	R	36:R	_
+35	an	a	DET	DT	_	36	E	36:E	_
+36	Epiphone	Epiphone	PROPN	NNP	_	33	A	33:A	_
+37	Casino	Casino	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	.	_	36	U	36:U	_
+

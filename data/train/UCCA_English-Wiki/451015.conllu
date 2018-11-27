@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 451015
+# text = " After three rocky years at the anchor desk , Jennings quit to become a foreign correspondent .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	After	after	ADP	IN	_	9	L	9:L	_
+3	three	three	NUM	CD	_	5	E	5:E	_
+4	rocky	rocky	ADJ	JJ	_	5	E	5:E	_
+5	years	year	NOUN	NNS	_	9	D	9:D	_
+6	at	at	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	anchor	anchor	NOUN	NN	_	9	E	9:E	_
+9	desk	desk	NOUN	NN	_	0	H	0:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	Jennings	Jennings	PROPN	NNP	_	12	A	12:A|9:A|14:A	_
+12	quit	quit	VERB	VB	_	9	H	9:H	_
+13	to	to	PART	TO	_	9	L	9:L	_
+14	become	become	VERB	VB	_	9	H	9:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	foreign	foreign	ADJ	JJ	_	17	E	17:E	_
+17	correspondent	correspondent	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

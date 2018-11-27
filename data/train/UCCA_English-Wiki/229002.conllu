@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 229002
+# text = He later clarified that he would not be completely retiring from action films , but would be performing fewer stunts and taking care of his body more .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	clarified	clarify	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	10	R	10:R	_
+5	he	he	PRON	PRP	_	10	A	10:A|18:A|22:A	_
+6	would	would	AUX	MD	_	10	F	10:F	_
+7	not	not	PART	RB	_	10	D	10:D	_
+8	be	be	AUX	VB	_	10	F	10:F	_
+9	completely	completely	ADV	RB	_	10	D	10:D	_
+10	retiring	retir	VERB	VBG	_	3	A	3:A	_
+11	from	from	ADP	IN	_	13	R	13:R	_
+12	action	action	NOUN	NN	_	13	E	13:E	_
+13	films	film	NOUN	NNS	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	but	but	CCONJ	CC	_	10	L	10:L	_
+16	would	would	AUX	MD	_	18	F	18:F	_
+17	be	be	AUX	VB	_	18	F	18:F	_
+18	performing	perform	VERB	VBG	_	10	H	10:H	_
+19	fewer	fewer	ADJ	JJR	_	20	E	20:E	_
+20	stunts	stunt	NOUN	NNS	_	18	A	18:A	_
+21	and	and	CCONJ	CC	_	10	L	10:L	_
+22	taking	take	VERB	VBG	_	10	H	10:H	_
+23	care	care	NOUN	NN	_	22	Terminal	22:Terminal	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	body	body	NOUN	NN	_	22	A	22:A	_
+27	more	more	ADV	RBR	_	22	D	22:D	_
+28	.	.	PUNCT	.	_	22	U	22:U	_
+

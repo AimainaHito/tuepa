@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 808002
+# text = He often chose clothes and make - up for her , encouraging her to grow her hair out like Brigitte Bardot ' s , and at least once insisting she have it re - styled , to disappointing effect .
+1	He	he	PRON	PRP	_	3	A	3:A|12:A	_
+2	often	often	ADV	RB	_	3	D	3:D	_
+3	chose	choose	VERB	VBD	_	0	H	0:H	_
+4	clothes	clothes	NOUN	NNS	_	3	A	3:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	make	make	VERB	VB	_	4	C	4:C	_
+7	-	-	PUNCT	HYPH	_	6	U	6:U	_
+8	up	up	ADP	RP	_	6	Terminal	6:Terminal	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	her	she	PRON	PRP	_	3	A	3:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	encouraging	encourage	VERB	VBG	_	3	H	3:H	_
+13	her	she	PRON	PRP$	_	12	A	12:A|15:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	grow	grow	VERB	VB	_	12	A	12:A	_
+16	her	she	PRON	PRP	_	17	E	17:E	_
+17	hair	hair	NOUN	NN	_	15	A	15:A	_
+18	out	out	ADV	RB	_	15	E	15:E	_
+19	like	like	ADP	IN	_	20	R	20:R	_
+20	Brigitte	Brigitte	PROPN	NNP	_	15	A	15:A	_
+21	Bardot	Bardot	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	'	'	PART	POS	_	20	U	20:U	_
+23	s	's	PART	POS	_	20	R	20:R	_
+24	,	,	PUNCT	,	_	3	U	3:U	_
+25	and	and	CCONJ	CC	_	3	L	3:L	_
+26	at	at	ADV	RB	_	27	R	27:R	_
+27	least	least	ADV	RBS	_	28	E	28:E	_
+28	once	once	SCONJ	IN	_	29	D	29:D	_
+29	insisting	insist	VERB	VBG	_	3	H	3:H	_
+30	she	she	PRON	PRP	_	35	A	35:A	_
+31	have	have	VERB	VBP	_	35	F	35:F	_
+32	it	it	PRON	PRP	_	35	A	35:A	_
+33	re	be	ADP	IN	_	35	E	35:E	_
+34	-	-	PUNCT	HYPH	_	35	U	35:U	_
+35	styled	style	VERB	VBN	_	29	A	29:A	_
+36	,	,	PUNCT	,	_	3	U	3:U	_
+37	to	to	SCONJ	IN	_	3	L	3:L	_
+38	disappointing	disappointe	VERB	VBG	_	39	E	39:E	_
+39	effect	effect	NOUN	NN	_	3	H	3:H	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

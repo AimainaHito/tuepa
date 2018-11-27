@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25696004
+# text = » Man sieht wohl « , erwiderte ich , » daß diese Historiker nicht an Bord der ›Nautilus‹ gefahren sind . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Man	man	PRON	PIS	_	3	A	3:A	_
+3	sieht	sehen	VERB	VVFIN	_	7	A	7:A	_
+4	wohl	wohl	ADV	ADV	_	3	D	3:D	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	daß	daß	SCONJ	KOUS	_	19	R	19:R	_
+12	diese	dies	PRON	PDAT	_	13	E	13:E	_
+13	Historiker	Historiker	NOUN	NN	_	19	A	19:A	_
+14	nicht	nicht	PART	CARD	_	19	D	19:D	_
+15	an	an	ADP	APPR	_	16	R	16:R	_
+16	Bord	Bord	NOUN	NN	_	19	A	19:A	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	E	16:E	_
+19	gefahren	fahren	VERB	VVPP	_	3	A	3:A	_
+20	sind	sein	AUX	NN	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+22	«	«	PUNCT	$(	_	19	U	19:U	_
+

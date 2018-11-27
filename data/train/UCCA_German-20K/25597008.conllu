@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25597008
+# text = Ich glaubte wahrzunehmen , dass wir nicht den gleichen Weg einschlugen , um wieder zur " Nautilus " zu kommen .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	glaubte	glauben	VERB	VVFIN	_	3	D	3:D	_
+3	wahrzunehmen	wahrzunehmen	VERB	VVINF	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+6	wir	wir	PRON	NE	_	11	A	11:A|20:A	_
+7	nicht	nicht	PART	CARD	_	11	D	11:D	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	gleichen	gleich	ADJ	ADJA	_	10	E	10:E	_
+10	Weg	Weg	NOUN	NN	_	11	A	11:A	_
+11	einschlugen	einschlagen	VERB	VVFIN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	um	um	ADP	KOUI	_	3	L	3:L	_
+14	wieder	wieder	ADV	NE	_	20	D	20:D	_
+15	zur	zur	ADV	NE	_	17	R	17:R	_
+16	"	"	PUNCT	$(	_	17	U	17:U	_
+17	Nautilus	Nautilus	PROPN	NE	_	20	A	20:A	_
+18	"	"	PUNCT	$(	_	20	U	20:U	_
+19	zu	zu	PART	NE	_	20	F	20:F	_
+20	kommen	kommen	VERB	VVINF	_	3	H	3:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

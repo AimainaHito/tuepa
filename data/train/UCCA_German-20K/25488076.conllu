@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25488076
+# text = Diesmal war nicht zu zweifeln , eine Menschen stimme antwortete uns !
+1	Diesmal	diesmal	ADV	ADV	_	5	A	5:A	_
+2	war	sein	VERB	ADV	_	5	D	5:D	_
+3	nicht	nicht	PART	CARD	_	5	D	5:D	_
+4	zu	zu	PART	NN	_	5	F	5:F	_
+5	zweifeln	zweifeln	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	eine	ein	DET	ART	_	9	E	9:E	_
+8	Menschen	Mensch	NOUN	NN	_	9	E	9:E	_
+9	stimme	stimmen	VERB	VVFIN	_	10	A	10:A	_
+10	antwortete	antworten	VERB	VVFIN	_	5	H	5:H	_
+11	uns	wir	PRON	NN	_	10	A	10:A	_
+12	!	!	PUNCT	$.	_	10	U	10:U	_
+

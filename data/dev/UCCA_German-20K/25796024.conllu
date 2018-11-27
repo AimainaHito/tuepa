@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25796024
+# text = Waren seine Genossen mit ihm erlegen ?
+1	Waren	sein	AUX	VAFIN	_	6	F	6:F	_
+2	seine	sein	DET	PPOSAT	_	3	E	3:E	_
+3	Genossen	nießen	ADJ	NN	_	6	A	6:A	_
+4	mit	mit	ADP	APPR	_	5	R	5:R	_
+5	ihm	er	PRON	PPER	_	6	A	6:A	_
+6	erlegen	erlegen	VERB	VVINF	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

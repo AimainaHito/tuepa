@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25488136
+# text = Die Schraube schlug die Wellen mit mathematischer Regelmäßigkeit und tauchte von Zeit zu Zeit auf , um ihr phosphoreszierendes Wasser hoch empor zu spritzen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Schraube	Schraube	NOUN	NN	_	0	C	0:C|10:A|22:A	_
+3	schlug	schlagen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Wellen	Welle	NOUN	NN	_	3	A	3:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	mathematischer	mathematisch	ADJ	ADJA	_	8	E	8:E	_
+8	Regelmäßigkeit	Regelmäßigkeit	NOUN	NN	_	3	A	3:A	_
+9	und	und	CCONJ	NE	_	3	L	3:L	_
+10	tauchte	tauchen	VERB	VVFIN	_	3	H	3:H	_
+11	von	von	ADP	NN	_	10	A	10:A	_
+12	Zeit	Zeit	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	zu	zu	ADP	ADJA	_	11	Terminal	11:Terminal	_
+14	Zeit	Zeit	NOUN	NN	_	11	Terminal	11:Terminal	_
+15	auf	auf	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	um	um	ADP	KOUI	_	3	L	3:L	_
+18	ihr	ihr	PRON	PPOSAT	_	20	E	20:E	_
+19	phosphoreszierendes	phosphoreszierend	ADJ	ADJA	_	20	E	20:E	_
+20	Wasser	Wasser	NOUN	NN	_	22	A	22:A	_
+21	hoch	hoch	ADJ	ADJD	_	22	D	22:D	_
+22	empor	empören	VERB	NN	_	3	H	3:H	_
+23	zu	zu	PART	VVINF	_	22	F	22:F	_
+24	spritzen	spritzen	VERB	VVINF	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	$.	_	22	U	22:U	_
+

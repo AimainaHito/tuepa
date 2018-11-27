@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25595010
+# text = Wie lange ich in diesem Schlummer lag , konnte ich nicht schätzen ; aber als ich aufwachte , schien mir die Sonne schon sich zum Horizont zu neigen .
+1	Wie	wie	ADV	KON	_	2	E	2:E	_
+2	lange	lang	ADJ	ADV	_	7	D	7:D	_
+3	ich	ich	PRON	PPER	_	7	A	7:A	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	diesem	dies	PRON	PDAT	_	6	E	6:E	_
+6	Schlummer	Schlummer	NOUN	NN	_	7	A	7:A	_
+7	lag	liegen	VERB	VVFIN	_	12	A	12:A	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	konnte	können	AUX	VMFIN	_	12	D	12:D	_
+10	ich	ich	PRON	PPER	_	12	A	12:A	_
+11	nicht	nicht	PART	XY	_	12	D	12:D	_
+12	schätzen	schätzen	VERB	VVINF	_	0	H	0:H	_
+13	;	;	PUNCT	$.	_	12	U	12:U	_
+14	aber	aber	CCONJ	ADV	_	12	L	12:L	_
+15	als	als	SCONJ	KOKOM	_	12	L	12:L	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	aufwachte	aufwachen	VERB	VVFIN	_	12	H	12:H	_
+18	,	,	PUNCT	$,	_	12	U	12:U	_
+19	schien	scheinen	VERB	VVFIN	_	24	G	24:G	_
+20	mir	ich	PRON	PPER	_	24	A	24:A	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Sonne	Sonne	NOUN	NN	_	24	A	24:A	_
+23	schon	schon	ADV	ADV	_	24	D	24:D	_
+24	sich	er|es|sie	PRON	PRF	_	12	H	12:H	_
+25	zum	zum	ADP	NN	_	26	R	26:R	_
+26	Horizont	Horizont	NOUN	NE	_	24	A	24:A	_
+27	zu	zu	PART	NN	_	24	F	24:F	_
+28	neigen	neigen	VERB	VVINF	_	24	Terminal	24:Terminal	_
+29	.	.	PUNCT	$.	_	24	U	24:U	_
+

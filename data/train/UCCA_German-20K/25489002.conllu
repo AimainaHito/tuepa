@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25489002
+# text = Mit wem hatten wir 's zu tun ?
+1	Mit	mit	ADP	APPR	_	2	R	2:R	_
+2	wem	wer	PRON	PWS	_	3	A	3:A	_
+3	hatten	haben	VERB	VAFIN	_	0	H	0:H	_
+4	wir	wir	PRON	NE	_	3	A	3:A	_
+5	's	es	PRON	ART	_	3	Terminal	3:Terminal	_
+6	zu	zu	PART	NE	_	3	Terminal	3:Terminal	_
+7	tun	tun	VERB	VVINF	_	3	Terminal	3:Terminal	_
+8	?	?	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25723013
+# text = Sollte der Zufall mich vor unserem Entweichen noch einmal mit ihm zusammenbringen ?
+1	Sollte	sollen	AUX	VMFIN	_	12	D	12:D	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Zufall	Zufall	NOUN	NN	_	12	A	12:A	_
+4	mich	ich	PRON	PRF	_	12	A	12:A	_
+5	vor	vor	ADP	NN	_	7	R	7:R	_
+6	unserem	unser	PRON	PPOSAT	_	7	E	7:E	_
+7	Entweichen	Entweichen	NOUN	NN	_	12	H	12:H	_
+8	noch	noch	ADV	VVINF	_	12	D	12:D	_
+9	einmal	einmal	ADV	ADV	_	8	Terminal	8:Terminal	_
+10	mit	mit	ADP	APPR	_	11	R	11:R	_
+11	ihm	er	PRON	PPER	_	12	A	12:A	_
+12	zusammenbringen	zusammenbringen	VERB	VVIZU	_	0	H	0:H	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25646014
+# text = Sein von düsterem Feuer sprühendes Auge verdeckte sich unter den gerunzelten Brauen , seine Zähne waren zur Hälfte sichtbar .
+1	Sein	sein	DET	PPOSAT	_	6	E	6:E	_
+2	von	von	ADP	NN	_	4	R	4:R	_
+3	düsterem	düster	DET	ADJA	_	4	E	4:E	_
+4	Feuer	Feuer	NOUN	NN	_	5	A	5:A	_
+5	sprühendes	sprühend	ADJ	ADJA	_	6	E	6:E	_
+6	Auge	Auge	NOUN	NN	_	7	A	7:A	_
+7	verdeckte	verdecken	VERB	VVFIN	_	0	H	0:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	unter	unter	ADP	ADJD	_	12	R	12:R	_
+10	den	der	DET	ART	_	12	E	12:E	_
+11	gerunzelten	gerunzelt	ADJ	ADJA	_	12	E	12:E	_
+12	Brauen	brauen	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	7	U	7:U	_
+14	seine	sein	DET	PPOSAT	_	15	E	15:E	_
+15	Zähne	Zahn	NOUN	NN	_	19	A	19:A	_
+16	waren	sein	AUX	VAFIN	_	19	F	19:F	_
+17	zur	zur	ADV	NE	_	18	R	18:R	_
+18	Hälfte	Hälfte	NOUN	NN	_	19	D	19:D	_
+19	sichtbar	sichtbar	ADJ	ADJD	_	7	H	7:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

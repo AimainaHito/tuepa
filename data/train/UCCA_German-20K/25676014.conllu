@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25676014
+# text = » Gut ! Das wird man sich merken « , erwiderte der Kanadier .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Gut	gut	NOUN	NN	_	11	A	11:A	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Das	der	PRON	PDS	_	7	A	7:A	_
+5	wird	werden	AUX	VAFIN	_	7	F	7:F	_
+6	man	man	PRON	PIS	_	7	A	7:A	_
+7	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+8	merken	merken	VERB	VVINF	_	7	Terminal	7:Terminal	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

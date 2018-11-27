@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25639016
+# text = Ich hörte an seiner Verkleidung den rauhen Kalkstein des Korallen grunds kratzen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	an	an	ADP	APPR	_	5	R	5:R	_
+4	seiner	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Verkleidung	Verkleidung	NOUN	NN	_	12	A	12:A	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	rauhen	rauh	ADJ	ADJA	_	8	E	8:E	_
+8	Kalkstein	Kalkstein	NOUN	NN	_	12	A	12:A	_
+9	des	der	DET	ART	_	11	R	11:R	_
+10	Korallen	Koralle	NOUN	NN	_	11	E	11:E	_
+11	grunds	grunds	ADV	ADV	_	8	E	8:E	_
+12	kratzen	kratzen	VERB	VVINF	_	2	A	2:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

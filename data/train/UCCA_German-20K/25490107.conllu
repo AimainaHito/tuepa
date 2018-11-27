@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25490107
+# text = Es lag unbeweglich , sonst hätte man etwas von zitternder Bewegung beim Arbeiten der Schraube gespürt .
+1	Es	es	PRON	PPER	_	3	A	3:A	_
+2	lag	liegen	VERB	VVFIN	_	3	D	3:D	_
+3	unbeweglich	unbeweglich	ADJ	ADJD	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	sonst	sonst	ADV	NN	_	3	L	3:L	_
+6	hätte	haben	AUX	VAFIN	_	16	D	16:D	_
+7	man	man	PRON	PIS	_	16	A	16:A	_
+8	etwas	etwas	PRON	PIS	_	16	D	16:D	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	zitternder	zitternd	ADJ	ADV	_	11	E	11:E	_
+11	Bewegung	Bewegung	NOUN	NN	_	16	A	16:A	_
+12	beim	beim	ADJ	NE	_	13	R	13:R	_
+13	Arbeiten	Arbeit|Arbeiten	NOUN	NN	_	16	A	16:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Schraube	Schraube	NOUN	NN	_	13	A	13:A	_
+16	gespürt	spüren	VERB	VVPP	_	3	H	3:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

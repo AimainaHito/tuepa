@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25711000
+# text = Ich konnte mich des Lachens nicht erwehren , als ich sah , wie Conseil seine Persönlichkeit so vollständig verleugnete .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	konnte	können	AUX	VMFIN	_	3	D	3:D	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Lachens	Lachen	NOUN	NN	_	3	A	3:A	_
+6	nicht	nicht	PART	CARD	_	3	D	3:D	_
+7	erwehren	erwehren	VERB	VVINF	_	3	Terminal	3:Terminal	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	als	als	SCONJ	KOUS	_	3	L	3:L	_
+10	ich	ich	PRON	PPER	_	11	A	11:A	_
+11	sah	sehen	VERB	VVFIN	_	3	H	3:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	wie	wie	SCONJ	NE	_	19	R	19:R	_
+14	Conseil	Conseil	PROPN	NE	_	19	A	19:A	_
+15	seine	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Persönlichkeit	Persönlichkeit	NOUN	NN	_	19	A	19:A	_
+17	so	so	ADV	ADV	_	18	E	18:E	_
+18	vollständig	vollständig	ADJ	ADJD	_	19	D	19:D	_
+19	verleugnete	verleugnen	VERB	VVFIN	_	11	A	11:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

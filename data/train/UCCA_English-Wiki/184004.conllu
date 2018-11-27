@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 184004
+# text = She was later chosen to play Hedwig , the character she had seen Entwistle play , in The Wild Duck .
+1	She	she	PRON	PRP	_	6	A	6:A	_
+2	was	be	AUX	VBD	_	6	F	6:F	_
+3	later	later	ADV	RB	_	6	D	6:D	_
+4	chosen	chosen	VERB	VBN	_	6	D	6:D	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	play	play	VERB	VB	_	0	H	0:H	_
+7	Hedwig	Hedwig	PROPN	NNP	_	6	A	6:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	character	character	NOUN	NN	_	7	E	7:E	_
+11	she	she	PRON	PRP	_	15	A	15:A	_
+12	had	have	AUX	VBD	_	15	F	15:F	_
+13	seen	see	VERB	VBN	_	15	D	15:D	_
+14	Entwistle	Entwistle	PROPN	NNP	_	15	A	15:A	_
+15	play	play	VERB	VB	_	10	E	10:E	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	The	the	DET	DT	_	15	A	15:A	_
+19	Wild	Wild	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Duck	duck	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	.	.	PUNCT	.	_	18	U	18:U	_
+

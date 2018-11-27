@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25796016
+# text = Nein ! Meine wackeren Freunde , Ned und Conseil , opferten sich , um mich zu retten .
+1	Nein	nein	PART	PTKANT	_	11	D	11:D	_
+2	!	!	PUNCT	$.	_	11	U	11:U	_
+3	Meine	mein	NOUN	PPOSAT	_	5	E	5:E	_
+4	wackeren	wackeren	VERB	VVFIN	_	5	E	5:E	_
+5	Freunde	Freund	NOUN	NN	_	0	C	0:C|17:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Ned	Ned	NOUN	NE	_	5	E	5:E	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Conseil	Conseil	NOUN	NE	_	7	C	7:C	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	opferten	opferen	VERB	VVFIN	_	0	H	0:H	_
+12	sich	er|es|sie	PRON	PRF	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	um	um	ADP	KOUI	_	11	L	11:L	_
+15	mich	ich	PRON	PPER	_	17	A	17:A	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	retten	retten	VERB	VVINF	_	11	H	11:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 114008
+# text = In the 1940s she was contracted to Metro - Goldwyn - Mayer , where her career focused on an alliance with Spencer Tracy .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1940s	1940	NOUN	NNS	_	6	D	6:D	_
+4	she	she	PRON	PRP	_	6	A	6:A|20:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	contracted	contract	VERB	VBN	_	0	H	0:H	_
+7	to	to	ADP	IN	_	8	R	8:R	_
+8	Metro	Metro	PROPN	NNP	_	6	A	6:A	_
+9	-	-	PUNCT	HYPH	_	8	U	8:U	_
+10	Goldwyn	Goldwyn	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	-	-	PUNCT	HYPH	_	8	U	8:U	_
+12	Mayer	Mayer	PROPN	NNP	_	8	Terminal	8:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	where	where	ADV	WRB	_	17	R	17:R	_
+15	her	she	PRON	PRP$	_	16	E	16:E	_
+16	career	career	NOUN	NN	_	17	A	17:A	_
+17	focused	focus	VERB	VBN	_	8	E	8:E	_
+18	on	on	ADP	IN	_	20	R	20:R	_
+19	an	a	DET	DT	_	20	E	20:E	_
+20	alliance	alliance	NOUN	NN	_	17	A	17:A	_
+21	with	with	ADP	IN	_	22	R	22:R	_
+22	Spencer	Spencer	PROPN	NNP	_	20	A	20:A	_
+23	Tracy	Tracy	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

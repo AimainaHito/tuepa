@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 552010
+# text = Warner , however , left $ 200,000 to his estranged son , Jack Jr .
+1	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	however	however	ADV	RB	_	5	L	5:L	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	left	leave	VERB	VBD	_	0	H	0:H	_
+6	$	$	SYM	$	_	5	U	5:U	_
+7	200,000	200,000	NUM	CD	_	5	A	5:A	_
+8	to	to	ADP	IN	_	11	R	11:R	_
+9	his	he	PRON	PRP$	_	11	E	11:E	_
+10	estranged	estrange	VERB	VBN	_	11	E	11:E	_
+11	son	son	NOUN	NN	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	Jack	Jack	PROPN	NNP	_	11	E	11:E	_
+14	Jr	jr	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	11	U	11:U	_
+

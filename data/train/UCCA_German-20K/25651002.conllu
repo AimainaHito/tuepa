@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25651002
+# text = Ich verband den Unglücklichen , legte die Leinwand umhüllung seines Kopfs wieder zurecht und begab mich darauf zum Kapitän Nemo .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|15:A|6:A	_
+2	verband	verbinden	VERB	NN	_	0	H	0:H	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Unglücklichen	Unglücklichen	NOUN	ADJA	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	legte	legen	VERB	VVFIN	_	2	H	2:H	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	Leinwand	Leinwand	NOUN	NN	_	9	E	9:E	_
+9	umhüllung	umhüllung	NOUN	NN	_	6	A	6:A	_
+10	seines	sein	DET	PPOSAT	_	11	R	11:R	_
+11	Kopfs	Kopf	NOUN	NN	_	9	E	9:E	_
+12	wieder	wieder	ADV	NE	_	6	D	6:D	_
+13	zurecht	zurecht	ADV	ADV	_	6	Terminal	6:Terminal	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	begab	begeben	VERB	VVFIN	_	2	H	2:H	_
+16	mich	ich	PRON	PPER	_	15	Terminal	15:Terminal	_
+17	darauf	darauf	ADV	PAV	_	2	L	2:L	_
+18	zum	zum	ADP	NN	_	20	R	20:R	_
+19	Kapitän	Kapitän	PROPN	FM	_	20	E	20:E	_
+20	Nemo	Nemo	PROPN	NN	_	15	A	15:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

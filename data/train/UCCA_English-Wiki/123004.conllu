@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 123004
+# text = She shied away from other children , dropped out of Oxford School , and began receiving private tutoring .
+1	She	she	PRON	PRP	_	2	A	2:A|18:A|8:A|16:A	_
+2	shied	shy	VERB	VBD	_	0	H	0:H	_
+3	away	away	ADV	RB	_	2	Terminal	2:Terminal	_
+4	from	from	ADP	IN	_	5	R	5:R	_
+5	other	other	ADJ	JJ	_	6	E	6:E	_
+6	children	child	NOUN	NNS	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	dropped	drop	VERB	VBD	_	2	H	2:H	_
+9	out	out	ADP	IN	_	8	Terminal	8:Terminal	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	Oxford	Oxford	PROPN	NNP	_	12	E	12:E	_
+12	School	School	PROPN	NNP	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	began	begin	VERB	VBD	_	16	D	16:D	_
+16	receiving	receive	VERB	VBG	_	2	H	2:H	_
+17	private	private	ADJ	JJ	_	18	E	18:E	_
+18	tutoring	tutoring	NOUN	NN	_	16	A	16:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

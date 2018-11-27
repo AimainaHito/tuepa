@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25810003
+# text = » Das fürchterliche Tier ! « rief er aus .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Das	der	DET	ART	_	4	E	4:E	_
+3	fürchterliche	fürchterlich	ADJ	ADJA	_	7	A	7:A	_
+4	Tier	Tier	NOUN	NN	_	3	A	3:A	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	aus	aus	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+

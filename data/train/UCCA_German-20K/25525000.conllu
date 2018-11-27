@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25525000
+# text = » Wenn 's meinem Herrn beliebt « , versetzte Conseil , » wäre es eher im Hotel Sommerard !
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	6	L	6:L	_
+3	's	es	PRON	PPER	_	6	A	6:A	_
+4	meinem	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herrn	Herr	NOUN	NN	_	6	A	6:A	_
+6	beliebt	beliebt	VERB	ADJD	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	versetzte	versetzter	ADJ	ADJA	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NN	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	wäre	sein	AUX	ADV	_	6	H	6:H	_
+14	es	es	PRON	PPER	_	13	A	13:A	_
+15	eher	eher	ADV	ADV	_	13	D	13:D	_
+16	im	im	ADV	NE	_	18	R	18:R	_
+17	Hotel	Hotel	PROPN	NN	_	18	E	18:E	_
+18	Sommerard	Sommerard	PROPN	NE	_	13	A	13:A	_
+19	!	!	PUNCT	$.	_	18	U	18:U	_
+

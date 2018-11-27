@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25758005
+# text = » Das ist allerdings etwas stark « , sagte ich .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Das	der	PRON	PDS	_	6	A	6:A	_
+3	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+4	allerdings	allerdings	ADV	ADV	_	6	G	6:G	_
+5	etwas	etwas	ADV	ADV	_	6	D	6:D	_
+6	stark	stark	ADJ	NN	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

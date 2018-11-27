@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25618005
+# text = 2 Meilen rechts sah man die Insel Quebo-roar , deren Küste sich von Norden nach Westen wie ein ungeheurer Arm abrundete .
+1	2	2	NUM	CARD	_	4	A	4:A	_
+2	Meilen	Meile	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	rechts	rechts	ADV	NN	_	1	E	1:E	_
+4	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Insel	Insel	NOUN	NN	_	8	E	8:E	_
+8	Quebo-roar	Quebo-roar	PROPN	NE	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	deren	der	DET	PRELAT	_	11	R	11:R	_
+11	Küste	Küste	NOUN	NN	_	12	A	12:A	_
+12	sich	er|es|sie	PRON	PRF	_	8	E	8:E	_
+13	von	von	ADP	NE	_	14	N	14:N	_
+14	Norden	Norden	NOUN	NE	_	12	A	12:A	_
+15	nach	nach	ADP	XY	_	13	Terminal	13:Terminal	_
+16	Westen	Weste|Westen	NOUN	NN	_	14	C	14:C	_
+17	wie	wie	ADP	ADV	_	20	R	20:R	_
+18	ein	ein	DET	ART	_	20	E	20:E	_
+19	ungeheurer	ungeheur	ADJ	ADJA	_	20	E	20:E	_
+20	Arm	Arm	NOUN	NN	_	12	A	12:A	_
+21	abrundete	abrunden	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+22	.	.	PUNCT	$.	_	12	U	12:U	_
+

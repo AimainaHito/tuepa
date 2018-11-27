@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25634016
+# text = Einige Anführer trugen als Zierat am Hals einen Halbmond und Halsbänder von rotem und weißem Glas , fast alle waren mit Bogen , Pfeilen und Schilden bewaffnet und trugen an der Schulter eine Art Netz mit runden Steinen , die sie vermittels einer Schleuder geschickt zu werfen verstehen .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Anführer	Anführer	NOUN	NN	_	0	C	0:C|29:A	_
+3	trugen	tragen	VERB	VVFIN	_	0	H	0:H	_
+4	als	als	ADP	KOKOM	_	5	R	5:R	_
+5	Zierat	Zierat	NOUN	NN	_	3	A	3:A	_
+6	am	ommen	VERB	ADJD	_	7	R	7:R	_
+7	Hals	Hals	PROPN	NN	_	3	A	3:A	_
+8	einen	ein	DET	ART	_	9	E	9:E	_
+9	Halbmond	Halbmond	NOUN	NN	_	3	A	3:A	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	Halsbänder	Halsbänder	NOUN	NE	_	9	C	9:C	_
+12	von	von	ADP	NE	_	16	R	16:R	_
+13	rotem	rot	ADJ	ADJA	_	16	E	16:E	_
+14	und	und	CCONJ	NN	_	13	N	13:N	_
+15	weißem	weiß	ADJ	ADJA	_	13	C	13:C	_
+16	Glas	Glas	NOUN	NN	_	9	E	9:E	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	fast	fast	ADV	ADV	_	19	E	19:E	_
+19	alle	alle	PRON	PIS	_	27	A	27:A	_
+20	waren	sein	AUX	VAFIN	_	27	F	27:F	_
+21	mit	mit	ADP	APPR	_	22	R	22:R	_
+22	Bogen	Bogen	NOUN	NN	_	27	A	27:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	Pfeilen	Pfeil	NOUN	NE	_	22	C	22:C	_
+25	und	und	CCONJ	NE	_	22	N	22:N	_
+26	Schilden	Schild	NOUN	NE	_	22	C	22:C	_
+27	bewaffnet	bewaffnen	VERB	VVPP	_	3	H	3:H	_
+28	und	und	CCONJ	NE	_	3	L	3:L	_
+29	trugen	tragen	VERB	VVFIN	_	3	H	3:H	_
+30	an	an	ADP	APPR	_	32	R	32:R	_
+31	der	der	DET	ART	_	32	E	32:E	_
+32	Schulter	Schulter	NOUN	NN	_	29	A	29:A	_
+33	eine	ein	DET	ART	_	34	E	34:E	_
+34	Art	Art	NOUN	NN	_	35	E	35:E	_
+35	Netz	Netz	NOUN	NN	_	29	A	29:A	_
+36	mit	mit	ADP	APPR	_	38	R	38:R	_
+37	runden	rund	ADJ	ADJA	_	38	E	38:E	_
+38	Steinen	Steinen	NOUN	NN	_	35	E	35:E	_
+39	,	,	PUNCT	$,	_	38	U	38:U	_
+40	die	der	PRON	ART	_	47	R	47:R	_
+41	sie	sie	PRON	NN	_	47	A	47:A	_
+42	vermittels	vermittels	ADP	NE	_	47	D	47:D	_
+43	einer	ein	DET	ART	_	44	R	44:R	_
+44	Schleuder	Schleuder	NOUN	NE	_	47	A	47:A	_
+45	geschickt	schicken	VERB	VVPP	_	47	D	47:D	_
+46	zu	zu	PART	VVINF	_	47	F	47:F	_
+47	werfen	werfen	VERB	VVINF	_	38	E	38:E	_
+48	verstehen	verstehen	VERB	VVINF	_	47	D	47:D	_
+49	.	.	PUNCT	$.	_	47	U	47:U	_
+

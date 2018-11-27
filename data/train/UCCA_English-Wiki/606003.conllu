@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 606003
+# text = One of the best - selling releases of the decade , it remained on the UK charts for 124 weeks .
+1	One	one	NUM	CD	_	7	E	7:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	the	the	DET	DT	_	7	E	7:E	_
+4	best	best	ADJ	JJS	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	selling	sell	VERB	VBG	_	7	E	7:E	_
+7	releases	release	NOUN	NNS	_	0	H	0:H	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	decade	decade	NOUN	NN	_	7	E	7:E	_
+11	,	,	PUNCT	,	_	7	U	7:U	_
+12	it	it	PRON	PRP	_	13	A	13:A|7:A	_
+13	remained	remain	VERB	VBD	_	7	H	7:H	_
+14	on	on	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	UK	UK	PROPN	NNP	_	17	E	17:E	_
+17	charts	chart	NOUN	NNS	_	13	A	13:A	_
+18	for	for	ADP	IN	_	20	R	20:R	_
+19	124	124	NUM	CD	_	20	E	20:E	_
+20	weeks	week	NOUN	NNS	_	13	D	13:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25715014
+# text = Ich hielt meine Hand an eins der Fenster , aber es war so heiß , dass ich sie zurückziehen musste .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+3	meine	mein	DET	PPOSAT	_	4	E	4:E	_
+4	Hand	Hand	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	APPR	_	8	R	8:R	_
+6	eins	ein	NOUN	CARD	_	8	E	8:E	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	Fenster	Fenster	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	aber	aber	CCONJ	KON	_	2	L	2:L	_
+11	es	es	PRON	PPER	_	14	A	14:A	_
+12	war	sein	AUX	ADV	_	14	F	14:F	_
+13	so	so	ADV	ADV	_	14	D	14:D	_
+14	heiß	heiß	ADJ	ADJD	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+17	ich	ich	PRON	PPER	_	19	A	19:A	_
+18	sie	sie	PRON	ADV	_	19	A	19:A	_
+19	zurückziehen	zurückziehen	VERB	VVINF	_	2	H	2:H	_
+20	musste	müssen	AUX	VVFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

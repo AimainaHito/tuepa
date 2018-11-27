@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25600012
+# text = Ein trefflicher Fang fürwahr , so dass wir an köstlicher Nahrung keinen Mangel hatten .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	trefflicher	trefflich	ADJ	ADJA	_	3	E	3:E	_
+3	Fang	Fang	NOUN	NN	_	0	H	0:H	_
+4	fürwahr	fürwahr	ADV	PTKVZ	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	so	so	ADV	ADV	_	3	L	3:L	_
+7	dass	dass	SCONJ	KOUS	_	6	Terminal	6:Terminal	_
+8	wir	wir	PRON	NE	_	13	A	13:A	_
+9	an	an	ADP	APPR	_	11	R	11:R	_
+10	köstlicher	köstlich	ADJ	ADJA	_	11	E	11:E	_
+11	Nahrung	Nahrung	NOUN	NN	_	13	A	13:A	_
+12	keinen	kein	PRON	PIAT	_	13	D	13:D	_
+13	Mangel	Mangel	NOUN	NN	_	3	H	3:H	_
+14	hatten	haben	VERB	VAFIN	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 503014
+# text = " As described by biographer Christopher Sandford , " The record dashed such high hopes with dubious choices , and production that spelt the end - for fifteen years - of Bowie 's partnership with Eno .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	As	as	SCONJ	IN	_	3	R	3:R	_
+3	described	describe	VERB	VBN	_	0	H	0:H	_
+4	by	by	ADP	IN	_	5	R	5:R	_
+5	biographer	biographer	ADJ	JJR	_	3	A	3:A	_
+6	Christopher	Christopher	PROPN	NNP	_	5	E	5:E	_
+7	Sandford	Sandford	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	"	"	PUNCT	``	_	3	U	3:U	_
+10	The	the	DET	DT	_	11	E	11:E	_
+11	record	record	NOUN	NN	_	12	A	12:A	_
+12	dashed	dash	VERB	VBN	_	3	A	3:A	_
+13	such	such	ADJ	JJ	_	15	R	15:R	_
+14	high	high	ADJ	JJ	_	15	E	15:E	_
+15	hopes	hope	NOUN	NNS	_	12	A	12:A	_
+16	with	with	ADP	IN	_	18	R	18:R	_
+17	dubious	dubious	ADJ	JJ	_	18	E	18:E	_
+18	choices	choice	NOUN	NNS	_	12	A	12:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	and	and	CCONJ	CC	_	18	N	18:N	_
+21	production	production	NOUN	NN	_	18	C	18:C	_
+22	that	that	PRON	WDT	_	23	F	23:F	_
+23	spelt	spelt	VERB	VBD	_	21	E	21:E	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	end	end	NOUN	NN	_	23	A	23:A	_
+26	-	-	PUNCT	,	_	25	U	25:U	_
+27	for	for	ADP	IN	_	29	R	29:R	_
+28	fifteen	fifteen	NUM	CD	_	29	E	29:E	_
+29	years	year	NOUN	NNS	_	25	D	25:D	_
+30	-	-	PUNCT	:	_	25	U	25:U	_
+31	of	of	ADP	IN	_	34	R	34:R	_
+32	Bowie	Bowie	PROPN	NNP	_	34	A	34:A	_
+33	's	's	PART	POS	_	32	R	32:R	_
+34	partnership	partnership	NOUN	NN	_	25	A	25:A	_
+35	with	with	ADP	IN	_	36	R	36:R	_
+36	Eno	Eno	PROPN	NNP	_	34	A	34:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

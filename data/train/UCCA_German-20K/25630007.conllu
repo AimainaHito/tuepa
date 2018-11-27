@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 25630007
+# text = » Sehr rar , wackerer Kamerad , und zudem sehr schwer lebendig zu fangen . Und selbst tot sind diese Vögel noch ein wichtiger Handels artikel . Darum sind auch die Eingeborenen auf den Gedanken gekommen , solche Vögel zu fabrizieren , wie man Perlen oder Diamanten nachmacht . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sehr	sehr	ADV	ADV	_	3	D	3:D	_
+3	rar	rar	ADJ	ADJD	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wackerer	wacker	ADJ	ADJA	_	6	E	6:E	_
+6	Kamerad	Kamerad	NOUN	NN	_	3	G	3:G	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	zudem	zudem	ADV	PAV	_	11	D	11:D	_
+10	sehr	sehr	ADV	NE	_	11	E	11:E	_
+11	schwer	schwer	ADJ	NN	_	3	H	3:H	_
+12	lebendig	lebendig	ADJ	ADJD	_	14	D	14:D	_
+13	zu	zu	PART	NE	_	14	F	14:F	_
+14	fangen	fangen	VERB	NE	_	11	A	11:A	_
+15	.	.	PUNCT	$.	_	3	U	3:U	_
+16	Und	und	CCONJ	NE	_	3	L	3:L	_
+17	selbst	selbst	ADV	VVFIN	_	18	D	18:D	_
+18	tot	tot	ADJ	ADJD	_	3	H	3:H	_
+19	sind	sein	AUX	NN	_	25	F	25:F	_
+20	diese	dies	PRON	PDAT	_	21	E	21:E	_
+21	Vögel	Vogel	NOUN	NN	_	0	C	0:C|18:A	_
+22	noch	noch	ADV	CARD	_	25	D	25:D	_
+23	ein	ein	DET	ART	_	26	E	26:E	_
+24	wichtiger	wichtig	ADJ	ADJA	_	25	D	25:D	_
+25	Handels	Handel	NOUN	NN	_	3	H	3:H	_
+26	artikel	artikel	ADJ	NN	_	25	A	25:A	_
+27	.	.	PUNCT	$.	_	3	U	3:U	_
+28	Darum	darum	ADV	PAV	_	3	L	3:L	_
+29	sind	sein	AUX	NN	_	36	F	36:F	_
+30	auch	auch	ADV	ADV	_	36	F	36:F	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Eingeborenen	eingeboren	NOUN	ADJA	_	36	A	36:A	_
+33	auf	auf	ADP	APPR	_	35	R	35:R	_
+34	den	der	DET	ART	_	35	E	35:E	_
+35	Gedanken	Gedanke	NOUN	NN	_	36	A	36:A	_
+36	gekommen	kommen	VERB	ADJD	_	3	H	3:H	_
+37	,	,	PUNCT	$,	_	36	U	36:U	_
+38	solche	solch	PRON	ADJA	_	39	E	39:E	_
+39	Vögel	Vogel	NOUN	NN	_	41	A	41:A	_
+40	zu	zu	PART	NE	_	41	F	41:F	_
+41	fabrizieren	fabrizieren	VERB	VVINF	_	35	E	35:E	_
+42	,	,	PUNCT	$,	_	3	U	3:U	_
+43	wie	wie	SCONJ	KON	_	48	D	48:D	_
+44	man	man	PRON	PIS	_	48	A	48:A	_
+45	Perlen	Perle|Perlen	NOUN	NN	_	48	A	48:A	_
+46	oder	oder	CCONJ	CARD	_	45	N	45:N	_
+47	Diamanten	Diamant	NOUN	NN	_	45	C	45:C	_
+48	nachmacht	nachmachen	VERB	VVFIN	_	3	H	3:H	_
+49	.	.	PUNCT	$.	_	48	U	48:U	_
+50	«	«	PUNCT	$(	_	48	U	48:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 455016
+# text = On July 18 , though , the White House announced that it was ending recognition of the Khmer Rouge .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	10	D	10:D	_
+3	18	18	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	though	though	ADV	RB	_	10	L	10:L	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	White	White	PROPN	NNP	_	10	A	10:A	_
+9	House	House	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	announced	announce	VERB	VBD	_	0	H	0:H	_
+11	that	that	SCONJ	IN	_	15	F	15:F	_
+12	it	it	PRON	PRP	_	15	A	15:A	_
+13	was	be	AUX	VBD	_	15	F	15:F	_
+14	ending	end	VERB	VBG	_	15	D	15:D	_
+15	recognition	recognition	NOUN	NN	_	10	A	10:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	Khmer	Khmer	PROPN	NNP	_	15	A	15:A	_
+19	Rouge	Rouge	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

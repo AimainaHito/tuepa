@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 599010
+# text = McCartney was born on 18 June 1942 , in Walton Hospital , Liverpool , England , where his mother , Mary ( née Mohin ) , had qualified to practise as a nurse .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	18	18	NUM	CD	_	3	D	3:D	_
+6	June	June	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	1942	1942	NUM	CD	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Walton	Walton	PROPN	NNP	_	3	A	3:A	_
+11	Hospital	Hospital	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	Liverpool	Liverpool	PROPN	NNP	_	10	E	10:E|28:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	England	England	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	where	where	ADV	WRB	_	28	R	28:R	_
+18	his	he	PRON	PRP$	_	19	E	19:E	_
+19	mother	mother	NOUN	NN	_	21	E	21:E	_
+20	,	,	PUNCT	,	_	21	U	21:U	_
+21	Mary	Mary	PROPN	NNP	_	28	A	28:A	_
+22	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+23	née	née	ADJ	JJ	_	24	R	24:R	_
+24	Mohin	Mohin	NOUN	NN	_	21	E	21:E	_
+25	)	)	PUNCT	-RRB-	_	28	U	28:U	_
+26	,	,	PUNCT	,	_	28	U	28:U	_
+27	had	have	AUX	VBD	_	28	F	28:F	_
+28	qualified	qualify	ADJ	JJ	_	10	E	10:E	_
+29	to	to	PART	TO	_	30	F	30:F	_
+30	practise	practise	VERB	VB	_	28	A	28:A	_
+31	as	as	ADP	IN	_	33	R	33:R	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	nurse	nurse	NOUN	NN	_	30	A	30:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

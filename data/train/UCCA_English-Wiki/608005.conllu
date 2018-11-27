@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 608005
+# text = In September 1989 , they launched the Paul McCartney World Tour , his first in over a decade .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	September	September	PROPN	NNP	_	6	D	6:D	_
+3	1989	1989	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	they	they	PRON	PRP	_	6	A	6:A	_
+6	launched	launch	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	Paul	Paul	PROPN	NNP	_	11	E	11:E	_
+9	McCartney	McCartney	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	World	World	PROPN	NNP	_	11	E	11:E	_
+11	Tour	Tour	PROPN	NNP	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	his	he	PRON	PRP$	_	11	E	11:E	_
+14	first	first	ADJ	JJ	_	13	E	13:E	_
+15	in	in	ADP	IN	_	18	R	18:R	_
+16	over	over	ADP	IN	_	18	E	18:E	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	decade	decade	NOUN	NN	_	13	E	13:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

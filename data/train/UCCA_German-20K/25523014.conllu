@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25523014
+# text = War es einer der verkannten Gelehrten , ein Genie , dem man sein Leben verkümmert hat , ein moderner Galilei , oder einer der Männer der Wissenschaft , deren Laufbahn durch politische Revolutionen zertrümmert wurde ?
+1	War	sein	AUX	NE	_	0	H	0:H	_
+2	es	es	PRON	PPER	_	1	F	1:F	_
+3	einer	ein	PRON	PIS	_	1	A	1:A	_
+4	der	der	DET	ART	_	6	R	6:R	_
+5	verkannten	verkannt	ADJ	ADJA	_	6	E	6:E	_
+6	Gelehrten	Gelehrte	NOUN	NN	_	3	E	3:E	_
+7	,	,	PUNCT	$,	_	1	U	1:U	_
+8	ein	ein	DET	ART	_	9	E	9:E	_
+9	Genie	Genie	NOUN	NN	_	1	A	1:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	dem	der	PRON	PRELS	_	15	R	15:R	_
+12	man	man	PRON	PIS	_	15	A	15:A	_
+13	sein	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Leben	Leben	NOUN	NN	_	15	A	15:A	_
+15	verkümmert	verkümmern	VERB	VVPP	_	9	E	9:E	_
+16	hat	haben	VERB	VAFIN	_	15	F	15:F	_
+17	,	,	PUNCT	$,	_	1	U	1:U	_
+18	ein	ein	DET	ART	_	20	E	20:E	_
+19	moderner	modern	ADJ	ADJA	_	20	E	20:E	_
+20	Galilei	Galilei	NOUN	PIAT	_	1	A	1:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	oder	oder	CCONJ	CARD	_	20	N	20:N	_
+23	einer	ein	PRON	PIS	_	25	E	25:E	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	Männer	Mann	NOUN	NN	_	20	C	20:C	_
+26	der	der	DET	ART	_	27	R	27:R	_
+27	Wissenschaft	Wissenschaft	NOUN	NN	_	25	E	25:E	_
+28	,	,	PUNCT	$,	_	25	U	25:U	_
+29	deren	der	DET	PRELAT	_	34	R	34:R	_
+30	Laufbahn	Laufbahn	NOUN	NN	_	34	A	34:A	_
+31	durch	durch	ADP	APPR	_	33	R	33:R	_
+32	politische	politisch	ADJ	NE	_	33	E	33:E	_
+33	Revolutionen	Revolution	NOUN	NN	_	34	A	34:A	_
+34	zertrümmert	zertrümmern	VERB	VVPP	_	25	E	25:E	_
+35	wurde	werden	AUX	TRUNC	_	34	F	34:F	_
+36	?	?	PUNCT	$.	_	34	U	34:U	_
+

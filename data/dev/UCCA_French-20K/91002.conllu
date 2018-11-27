@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 91002
+# text = Ils examinèrent l' Océan avec la plus scrupuleuse attention .
+1	Ils	il	PRON	_	_	2	A	2:A	_
+2	examinèrent	examiner	VERB	_	_	0	H	0:H	_
+3	l'	le	DET	_	_	4	E	4:E	_
+4	Océan	Océan	PROPN	_	_	2	A	2:A	_
+5	avec	avec	ADP	_	_	9	R	9:R	_
+6	la	le	DET	_	_	8	E	8:E	_
+7	plus	plus	ADV	_	_	8	E	8:E	_
+8	scrupuleuse	scrupuleux	ADJ	_	_	9	E	9:E	_
+9	attention	attention	NOUN	_	_	2	A	2:A	_
+10	.	.	PUNCT	_	_	9	U	9:U	_
+

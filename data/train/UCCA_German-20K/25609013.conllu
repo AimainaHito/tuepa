@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25609013
+# text = » Die " Nautilus " fährt nach Vanikoro ? « fragte ich .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Die	der	DET	ART	_	4	E	4:E	_
+3	"	"	PUNCT	$(	_	4	U	4:U	_
+4	Nautilus	Nautilus	PROPN	NN	_	6	A	6:A	_
+5	"	"	PUNCT	$(	_	6	U	6:U	_
+6	fährt	fahren	VERB	VVFIN	_	11	A	11:A	_
+7	nach	nach	ADP	CARD	_	8	R	8:R	_
+8	Vanikoro	Vanikoro	PROPN	NN	_	6	A	6:A	_
+9	?	?	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

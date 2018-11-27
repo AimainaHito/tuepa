@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25738007
+# text = Sie ragte offenbar über den Meeresspiegel hinan .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	ragte	ragt	VERB	VVFIN	_	0	H	0:H	_
+3	offenbar	offenbar	ADV	NE	_	2	D	2:D	_
+4	über	über	ADP	VVFIN	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Meeresspiegel	Meeresspiegel	NOUN	NN	_	2	A	2:A	_
+7	hinan	hinan	ADV	ADV	_	2	Terminal	2:Terminal	_
+8	.	.	PUNCT	$.	_	2	U	2:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25774010
+# text = Aber sie teilten dieses Reich damals mit ungeheuren Herden von Seesäugetieren , die uns mit sanften Augen anblickten .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	sie	sie	PRON	ADV	_	3	A	3:A	_
+3	teilten	teilen	VERB	VVFIN	_	0	H	0:H	_
+4	dieses	dies	PRON	PDAT	_	5	E	5:E	_
+5	Reich	reich	NOUN	NN	_	3	A	3:A	_
+6	damals	damals	ADV	ADV	_	3	D	3:D	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	ungeheuren	ungeheur	ADJ	NN	_	9	E	9:E	_
+9	Herden	Herde	NOUN	NE	_	3	A	3:A	_
+10	von	von	ADP	NE	_	11	R	11:R	_
+11	Seesäugetieren	Seesäugetieren	PROPN	NE	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	18	R	18:R	_
+14	uns	wir	PRON	NN	_	18	A	18:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	sanften	sanft	ADJ	ADJA	_	17	E	17:E	_
+17	Augen	Auge	NOUN	NN	_	18	A	18:A	_
+18	anblickten	anblicken	VERB	VVFIN	_	11	E	11:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

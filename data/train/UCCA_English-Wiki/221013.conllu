@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 221013
+# text = She also has helped with breast cancer awareness ; in September 2008 she participated in the Stand Up to Cancer telethon , to help raise funds to accelerate cancer research .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	also	also	ADV	RB	_	4	D	4:D	_
+3	has	have	AUX	VBZ	_	4	F	4:F	_
+4	helped	help	VERB	VBN	_	0	H	0:H	_
+5	with	with	ADP	IN	_	8	R	8:R	_
+6	breast	breast	NOUN	NN	_	7	E	7:E	_
+7	cancer	cancer	NOUN	NN	_	8	E	8:E	_
+8	awareness	awareness	NOUN	NN	_	4	A	4:A	_
+9	;	;	PUNCT	,	_	4	U	4:U	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	September	September	PROPN	NNP	_	14	D	14:D	_
+12	2008	2008	NUM	CD	_	11	Terminal	11:Terminal	_
+13	she	she	PRON	PRP	_	14	A	14:A|24:A	_
+14	participated	participate	VERB	VBD	_	4	H	4:H	_
+15	in	in	ADP	IN	_	21	R	21:R	_
+16	the	the	DET	DT	_	21	E	21:E	_
+17	Stand	stand	PROPN	NNP	_	21	E	21:E	_
+18	Up	up	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	to	to	ADP	IN	_	17	Terminal	17:Terminal	_
+20	Cancer	Cancer	PROPN	NNP	_	17	Terminal	17:Terminal	_
+21	telethon	telethon	PROPN	NNP	_	14	A	14:A	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	to	to	PART	TO	_	4	L	4:L	_
+24	help	help	VERB	VB	_	4	H	4:H	_
+25	raise	raise	VERB	VB	_	24	A	24:A	_
+26	funds	fund	NOUN	NNS	_	25	A	25:A	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	accelerate	accelerate	VERB	VB	_	25	A	25:A	_
+29	cancer	cancer	NOUN	NN	_	30	E	30:E	_
+30	research	research	NOUN	NN	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

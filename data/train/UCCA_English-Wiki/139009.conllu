@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 139009
+# text = The movie dealt with the subject of interracial marriage , with Hepburn 's niece , Katharine Houghton , playing her daughter .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	3	A	3:A	_
+3	dealt	deal	VERB	VBN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	subject	subject	NOUN	NN	_	3	A	3:A	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	interracial	interracial	ADJ	JJ	_	9	E	9:E	_
+9	marriage	marriage	NOUN	NN	_	6	E	6:E	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	with	with	ADP	IN	_	3	L	3:L	_
+12	Hepburn	Hepburn	PROPN	NNP	_	14	E	14:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	niece	niece	NOUN	NN	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	Katharine	Katharine	PROPN	NNP	_	19	A	19:A	_
+17	Houghton	Houghton	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	19	U	19:U	_
+19	playing	play	VERB	VBG	_	3	H	3:H	_
+20	her	she	PRON	PRP$	_	21	E	21:E	_
+21	daughter	daughter	NOUN	NN	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

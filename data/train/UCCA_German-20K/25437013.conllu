@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25437013
+# text = » Ja ... Gewiß ... « erwiderte ich ausweichend , » aber auf einem Umweg .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	7	A	7:A	_
+3	...	...	PUNCT	$(	_	2	U	2:U	_
+4	Gewiß	gewiß	PROPN	NN	_	2	H	2:H	_
+5	...	...	PUNCT	$(	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A|9:A	_
+9	ausweichend	ausweichend	ADJ	ADJD	_	7	H	7:H	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	aber	aber	ADV	ADV	_	2	L	2:L	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Umweg	Umweg	NOUN	NN	_	2	H	2:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

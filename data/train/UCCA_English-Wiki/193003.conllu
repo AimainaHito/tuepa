@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 193003
+# text = When a year later some other networks started showing interest in The West Wing , NBC decided to greenlight the series despite their previous reluctance .
+1	When	when	ADV	WRB	_	9	L	9:L	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	year	year	NOUN	NN	_	4	E	4:E	_
+4	later	later	ADV	RB	_	9	D	9:D	_
+5	some	some	DET	DT	_	7	E	7:E	_
+6	other	other	ADJ	JJ	_	7	E	7:E	_
+7	networks	network	NOUN	NNS	_	9	A	9:A	_
+8	started	start	VERB	VBD	_	9	D	9:D	_
+9	showing	show	VERB	VBG	_	0	H	0:H	_
+10	interest	interest	NOUN	NN	_	9	E	9:E	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	The	the	DET	DT	_	9	A	9:A	_
+13	West	West	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Wing	wing	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	NBC	NBC	PROPN	NNP	_	17	A	17:A|19:A	_
+17	decided	decide	VERB	VBD	_	9	H	9:H	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	greenlight	greenlight	VERB	VB	_	17	A	17:A	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	series	series	NOUN	NNS	_	19	A	19:A	_
+22	despite	despite	ADP	IN	_	9	L	9:L	_
+23	their	they	PRON	PRP$	_	25	A	25:A	_
+24	previous	previous	ADJ	JJ	_	25	D	25:D	_
+25	reluctance	reluctance	NOUN	NN	_	9	H	9:H	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

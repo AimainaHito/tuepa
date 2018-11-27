@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25697010
+# text = » Und der ist ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	der	der	PRON	ART	_	4	A	4:A	_
+4	ist	sein	AUX	NN	_	0	H	0:H	_
+5	?	?	PUNCT	$.	_	4	U	4:U	_
+6	«	«	PUNCT	$(	_	4	U	4:U	_
+

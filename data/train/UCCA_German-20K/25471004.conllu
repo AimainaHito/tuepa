@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25471004
+# text = Diese Befehle wurden ausgeführt , und die Fregatte entfernte sich rasch von der leuchtenden Stelle .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Befehle	befehle	NOUN	NN	_	4	A	4:A	_
+3	wurden	werden	AUX	ADJD	_	4	F	4:F	_
+4	ausgeführt	ausführen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	und	und	CCONJ	NE	_	4	L	4:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Fregatte	Fregatte	NOUN	NN	_	9	A	9:A	_
+9	entfernte	entfernen	VERB	VVFIN	_	4	H	4:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	rasch	rasch	ADJ	ADJD	_	9	D	9:D	_
+12	von	von	ADP	NN	_	15	R	15:R	_
+13	der	der	DET	ART	_	15	E	15:E	_
+14	leuchtenden	leuchtend	ADJ	ADJA	_	15	E	15:E	_
+15	Stelle	Stelle	NOUN	NN	_	9	A	9:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

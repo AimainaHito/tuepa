@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25689015
+# text = An der schwarzen Farbe der Spitzen seiner Flossen erkannte ich den furchtbaren Schwarzflosser des Indischen Meeres , der zu r Gattung der eigentlichen Haifische zählt .
+1	An	an	ADP	APPR	_	4	R	4:R	_
+2	der	der	DET	ART	_	4	E	4:E	_
+3	schwarzen	schwarz	ADJ	ADJA	_	4	E	4:E	_
+4	Farbe	Farbe	NOUN	NN	_	9	A	9:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Spitzen	Spitze	NOUN	VVFIN	_	4	E	4:E	_
+7	seiner	sein	DET	PPOSAT	_	8	R	8:R	_
+8	Flossen	Flosse	NOUN	NN	_	6	E	6:E	_
+9	erkannte	erkennen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	den	der	DET	ART	_	13	R	13:R	_
+12	furchtbaren	furchtbaren	ADJ	ADJA	_	13	E	13:E	_
+13	Schwarzflosser	Schwarzflosser	NOUN	NN	_	9	A	9:A	_
+14	des	der	DET	ART	_	16	R	16:R	_
+15	Indischen	indisch	PROPN	ADJA	_	16	E	16:E	_
+16	Meeres	Meer	PROPN	NN	_	13	E	13:E	_
+17	,	,	PUNCT	$,	_	13	U	13:U	_
+18	der	der	PRON	ART	_	25	R	25:R	_
+19	zu	zu	ADP	ADJA	_	21	R	21:R	_
+20	r	r	ADJ	NN	_	21	E	21:E	_
+21	Gattung	Gattung	NOUN	NN	_	25	A	25:A	_
+22	der	der	DET	ART	_	24	R	24:R	_
+23	eigentlichen	eigentlich	ADJ	ADJA	_	24	E	24:E	_
+24	Haifische	Haifische	NOUN	ADJA	_	21	E	21:E	_
+25	zählt	zählen	VERB	VVFIN	_	13	E	13:E	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

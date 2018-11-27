@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 243005
+# text = Other films have included the science fiction feature Gattaca ( 1997 ) , the title role in Michael Almereyda 's Hamlet ( 2000 ) , the action thriller Assault on Precinct 13 ( 2005 ) , and the crime drama Before the Devil Knows You 're Dead ( 2007 ) .
+1	Other	other	ADJ	JJ	_	2	E	2:E	_
+2	films	film	NOUN	NNS	_	4	A	4:A	_
+3	have	have	AUX	VBP	_	4	F	4:F	_
+4	included	include	VERB	VBN	_	0	H	0:H	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	science	science	NOUN	NN	_	7	E	7:E	_
+7	fiction	fiction	NOUN	NN	_	8	E	8:E	_
+8	feature	feature	NOUN	NN	_	4	A	4:A	_
+9	Gattaca	Gattaca	PROPN	NNP	_	8	E	8:E|11:A	_
+10	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+11	1997	1997	NUM	CD	_	8	E	8:E	_
+12	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	title	title	NOUN	NN	_	16	E	16:E	_
+16	role	role	NOUN	NN	_	8	C	8:C	_
+17	in	in	ADP	IN	_	21	R	21:R	_
+18	Michael	Michael	PROPN	NNP	_	21	E	21:E	_
+19	Almereyda	Almereyda	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	21	R	21:R	_
+21	Hamlet	Hamlet	PROPN	NNP	_	16	E	16:E	_
+22	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+23	2000	2000	NUM	CD	_	21	E	21:E	_
+24	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+25	,	,	PUNCT	,	_	8	U	8:U	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	action	action	NOUN	NN	_	28	E	28:E	_
+28	thriller	thriller	NOUN	NN	_	8	C	8:C	_
+29	Assault	assault	NOUN	NN	_	28	E	28:E|34:A	_
+30	on	on	ADP	IN	_	29	Terminal	29:Terminal	_
+31	Precinct	Precinct	NOUN	NN	_	29	Terminal	29:Terminal	_
+32	13	13	NUM	CD	_	29	Terminal	29:Terminal	_
+33	(	(	PUNCT	-LRB-	_	28	U	28:U	_
+34	2005	2005	NUM	CD	_	28	E	28:E	_
+35	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+36	,	,	PUNCT	,	_	8	U	8:U	_
+37	and	and	CCONJ	CC	_	8	N	8:N	_
+38	the	the	DET	DT	_	40	E	40:E	_
+39	crime	crime	NOUN	NN	_	40	E	40:E	_
+40	drama	drama	NOUN	NN	_	8	C	8:C	_
+41	Before	before	ADP	IN	_	40	E	40:E|49:A	_
+42	the	the	DET	DT	_	41	Terminal	41:Terminal	_
+43	Devil	Devil	PROPN	NNP	_	41	Terminal	41:Terminal	_
+44	Knows	knows	PROPN	NNPS	_	41	Terminal	41:Terminal	_
+45	You	you	PRON	PRP	_	41	Terminal	41:Terminal	_
+46	're	be	AUX	VBP	_	41	Terminal	41:Terminal	_
+47	Dead	dead	NOUN	NN	_	41	Terminal	41:Terminal	_
+48	(	(	PUNCT	-LRB-	_	40	U	40:U	_
+49	2007	2007	NUM	CD	_	40	E	40:E	_
+50	)	)	PUNCT	-RRB-	_	49	U	49:U	_
+51	.	.	PUNCT	.	_	49	U	49:U	_
+

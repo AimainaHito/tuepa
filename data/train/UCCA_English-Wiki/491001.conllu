@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 491001
+# text = His love of the sport began at a young age when his godfather took him to games to see the St Kilda Football Club , his favourite team in the Australian Football League .
+1	His	he	PRON	PRP$	_	2	A	2:A	_
+2	love	love	NOUN	NN	_	6	A	6:A	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	sport	sport	NOUN	NN	_	2	A	2:A	_
+6	began	begin	VERB	VBD	_	0	H	0:H	_
+7	at	at	ADP	IN	_	10	R	10:R	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	young	young	ADJ	JJ	_	10	E	10:E	_
+10	age	age	NOUN	NN	_	6	A	6:A	_
+11	when	when	ADV	WRB	_	6	L	6:L	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	godfather	godfather	NOUN	NN	_	14	A	14:A	_
+14	took	take	VERB	VBD	_	6	H	6:H	_
+15	him	he	PRON	PRP	_	14	A	14:A|19:A	_
+16	to	to	ADP	IN	_	17	R	17:R	_
+17	games	game	NOUN	NNS	_	14	A	14:A	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	see	see	VERB	VB	_	14	A	14:A	_
+20	the	the	DET	DT	_	24	E	24:E	_
+21	St	St	PROPN	NNP	_	24	E	24:E	_
+22	Kilda	Kilda	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Football	football	PROPN	NNP	_	24	E	24:E	_
+24	Club	Club	PROPN	NNP	_	19	A	19:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	his	he	PRON	PRP$	_	28	E	28:E	_
+27	favourite	favourite	ADJ	JJ	_	28	E	28:E	_
+28	team	team	NOUN	NN	_	24	E	24:E	_
+29	in	in	ADP	IN	_	33	R	33:R	_
+30	the	the	DET	DT	_	33	E	33:E	_
+31	Australian	Australian	PROPN	NNP	_	33	E	33:E	_
+32	Football	football	PROPN	NNP	_	33	E	33:E	_
+33	League	League	PROPN	NNP	_	28	E	28:E	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

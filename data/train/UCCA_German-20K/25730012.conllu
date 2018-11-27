@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25730012
+# text = » Dann , Herr Arronax , will ich Ihnen einen merkwürdigen Ausflug vorschlagen . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Dann	dann	PROPN	ADV	_	13	L	13:L	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Arronax	Arronax	PROPN	NE	_	13	G	13:G	_
+6	,	,	PUNCT	$,	_	13	U	13:U	_
+7	will	wollen	AUX	NE	_	13	D	13:D	_
+8	ich	ich	PRON	PPER	_	13	A	13:A	_
+9	Ihnen	Sie|sie	PRON	PPER	_	13	A	13:A	_
+10	einen	ein	DET	ART	_	12	E	12:E	_
+11	merkwürdigen	merkwürdig	ADJ	ADJA	_	12	D	12:D	_
+12	Ausflug	Ausflug	NOUN	NN	_	13	A	13:A	_
+13	vorschlagen	vorschlagen	VERB	VVINF	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	«	«	PUNCT	$(	_	13	U	13:U	_
+

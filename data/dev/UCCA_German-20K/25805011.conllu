@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25805011
+# text = Das Entrinnen wäre leicht gewesen , wenn es Ned Land gelungen wäre , sich heimlich des Boots zu bemächtigen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Entrinnen	entrin	NOUN	NN	_	4	A	4:A	_
+3	wäre	sein	AUX	ADV	_	4	D	4:D	_
+4	leicht	leicht	ADJ	ADJD	_	0	H	0:H	_
+5	gewesen	sein	AUX	VVINF	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	wenn	wenn	SCONJ	VVFIN	_	4	L	4:L	_
+8	es	es	PRON	PPER	_	11	F	11:F	_
+9	Ned	Ned	PROPN	NN	_	11	A	11:A|14:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	gelungen	gelingen	VERB	VVPP	_	4	H	4:H	_
+12	wäre	sein	AUX	ADV	_	11	D	11:D	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	sich	er|es|sie	PRON	PRF	_	11	A	11:A	_
+15	heimlich	heimlich	ADP	ADJD	_	14	D	14:D	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Boots	Boot	NOUN	NN	_	14	A	14:A	_
+18	zu	zu	PART	NN	_	14	F	14:F	_
+19	bemächtigen	bemächtigen	VERB	VVINF	_	14	Terminal	14:Terminal	_
+20	.	.	PUNCT	$.	_	14	U	14:U	_
+

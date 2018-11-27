@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25667002
+# text = So ging es 5 Tage lang .
+1	So	so	ADV	ADV	_	2	D	2:D	_
+2	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	5	5	NUM	CARD	_	2	D	2:D	_
+5	Tage	Tag	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	lang	lang	ADJ	ADJD	_	2	D	2:D	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+

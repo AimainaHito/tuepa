@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25803001
+# text = Unterstützt vom Kanadier hob ich ihn auf , und wir rieben ihn aus Leibeskräften .
+1	Unterstützt	unterstützen	ADJ	NN	_	0	H	0:H	_
+2	vom	vom	ADP	NN	_	3	R	3:R	_
+3	Kanadier	Kanadier	PROPN	NE	_	1	A	1:A	_
+4	hob	heben	VERB	VVFIN	_	1	H	1:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A|1:A	_
+6	ihn	er	PRON	PPER	_	4	A	4:A	_
+7	auf	auf	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	1	U	1:U	_
+9	und	und	CCONJ	NE	_	1	L	1:L	_
+10	wir	wir	PRON	NE	_	11	A	11:A	_
+11	rieben	rieben	VERB	VVFIN	_	1	H	1:H	_
+12	ihn	er	PRON	PPER	_	11	A	11:A	_
+13	aus	aus	ADP	APPR	_	11	D	11:D	_
+14	Leibeskräften	Leibeskräft	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 245002
+# text = " With revenue of $ 235 million worldwide , the film remains Hawke 's most commercially successful picture to date .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	With	with	ADJ	JJ	_	3	L	3:L	_
+3	revenue	revenue	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	$	$	SYM	$	_	6	U	6:U	_
+6	235	235	NUM	CD	_	3	A	3:A	_
+7	million	million	NUM	CD	_	6	E	6:E	_
+8	worldwide	worldwide	ADV	RB	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	12	A	12:A|3:A	_
+12	remains	remain	VERB	VBZ	_	3	H	3:H	_
+13	Hawke	Hawke	PROPN	NNP	_	18	E	18:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	most	most	ADV	RBS	_	17	E	17:E	_
+16	commercially	commercially	ADV	RB	_	17	E	17:E	_
+17	successful	successful	ADJ	JJ	_	18	E	18:E	_
+18	picture	picture	NOUN	NN	_	12	A	12:A	_
+19	to	to	ADP	IN	_	20	R	20:R	_
+20	date	date	NOUN	NN	_	12	D	12:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

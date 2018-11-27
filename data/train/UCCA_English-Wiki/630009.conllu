@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 630009
+# text = Throughout the rest of his childhood and adolescence he lived with his aunt and uncle , Mimi and George Smith , who had no children of their own , at Mendips , 251 Menlove Avenue , Woolton .
+1	Throughout	throughout	ADP	IN	_	6	L	6:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	rest	rest	NOUN	NN	_	6	D	6:D	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	his	he	PRON	PRP$	_	6	A	6:A	_
+6	childhood	childhood	NOUN	NN	_	0	H	0:H	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	adolescence	adolescence	NOUN	NN	_	6	C	6:C	_
+9	he	he	PRON	PRP	_	10	A	10:A	_
+10	lived	live	VERB	VBD	_	6	H	6:H	_
+11	with	with	ADP	IN	_	17	R	17:R	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	aunt	aunt	NOUN	NN	_	17	E	17:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	uncle	uncle	NOUN	NN	_	13	C	13:C	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	Mimi	Mimi	PROPN	NNP	_	10	A	10:A	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	George	George	PROPN	NNP	_	17	C	17:C	_
+20	Smith	Smith	PROPN	NNP	_	17	C	17:C	_
+21	,	,	PUNCT	,	_	17	U	17:U	_
+22	who	who	PRON	WP	_	23	F	23:F	_
+23	had	have	VERB	VBD	_	17	E	17:E	_
+24	no	no	DET	DT	_	25	E	25:E	_
+25	children	child	NOUN	NNS	_	23	A	23:A	_
+26	of	of	ADP	IN	_	28	R	28:R	_
+27	their	they	PRON	PRP$	_	28	E	28:E	_
+28	own	own	ADJ	JJ	_	25	E	25:E	_
+29	,	,	PUNCT	,	_	10	U	10:U	_
+30	at	at	ADP	IN	_	34	R	34:R	_
+31	Mendips	Mendips	PROPN	NNP	_	34	E	34:E	_
+32	,	,	PUNCT	,	_	34	U	34:U	_
+33	251	251	NUM	CD	_	34	E	34:E	_
+34	Menlove	Menlove	PROPN	NNP	_	10	A	10:A	_
+35	Avenue	Avenue	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	,	,	PUNCT	,	_	34	U	34:U	_
+37	Woolton	Woolton	PROPN	NNP	_	34	E	34:E	_
+38	.	.	PUNCT	.	_	34	U	34:U	_
+

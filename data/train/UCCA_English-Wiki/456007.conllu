@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 456007
+# text = " Jennings continued to produce special programs aimed at young viewers , anchoring Growing Up in the Age of AIDS , a frank , 90 - minute - long discussion on AIDS in February 1992 ; and Prejudice : Answering Children 's Questions , a forum on racism in April 1992 .
+1	"	"	PUNCT	``	_	38	U	38:U	_
+2	Jennings	Jenning	NOUN	NNS	_	5	A	5:A|38:A|14:A|13:A	_
+3	continued	continue	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	produce	produce	VERB	VB	_	0	H	0:H	_
+6	special	special	ADJ	JJ	_	7	E	7:E	_
+7	programs	program	NOUN	NNS	_	5	A	5:A	_
+8	aimed	aim	VERB	VBN	_	7	E	7:E	_
+9	at	at	ADP	IN	_	8	R	8:R	_
+10	young	young	ADJ	JJ	_	11	E	11:E	_
+11	viewers	viewer	NOUN	NNS	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	anchoring	anchor	VERB	VBG	_	5	H	5:H	_
+14	Growing	growing	PROPN	NNP	_	13	A	13:A	_
+15	Up	up	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	in	in	ADP	IN	_	14	Terminal	14:Terminal	_
+17	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+18	Age	age	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	of	of	ADP	IN	_	14	Terminal	14:Terminal	_
+20	AIDS	aids	NOUN	NN	_	14	Terminal	14:Terminal	_
+21	,	,	PUNCT	,	_	14	U	14:U	_
+22	a	a	DET	DT	_	30	E	30:E	_
+23	frank	frank	NOUN	NN	_	30	E	30:E	_
+24	,	,	PUNCT	,	_	30	U	30:U	_
+25	90	90	NUM	CD	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	minute	minute	NOUN	NN	_	30	E	30:E	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	long	long	ADJ	JJ	_	27	R	27:R	_
+30	discussion	discussion	NOUN	NN	_	14	E	14:E	_
+31	on	on	ADP	IN	_	32	R	32:R	_
+32	AIDS	aids	NOUN	NN	_	30	E	30:E	_
+33	in	in	ADP	IN	_	34	R	34:R	_
+34	February	February	PROPN	NNP	_	14	D	14:D	_
+35	1992	1992	NUM	CD	_	34	Terminal	34:Terminal	_
+36	;	;	PUNCT	,	_	14	U	14:U	_
+37	and	and	CCONJ	CC	_	14	L	14:L	_
+38	Prejudice	prejudice	NOUN	NN	_	14	H	14:H	_
+39	:	:	PUNCT	:	_	38	U	38:U	_
+40	Answering	answer	VERB	VBG	_	38	Terminal	38:Terminal	_
+41	Children	Children	PROPN	NNP	_	38	Terminal	38:Terminal	_
+42	's	's	PART	POS	_	38	Terminal	38:Terminal	_
+43	Questions	question	NOUN	NNS	_	38	Terminal	38:Terminal	_
+44	,	,	PUNCT	,	_	38	U	38:U	_
+45	a	a	DET	DT	_	46	E	46:E	_
+46	forum	forum	NOUN	NN	_	38	E	38:E	_
+47	on	on	ADP	IN	_	48	R	48:R	_
+48	racism	racism	NOUN	NN	_	46	E	46:E	_
+49	in	in	ADP	IN	_	50	R	50:R	_
+50	April	April	PROPN	NNP	_	38	D	38:D	_
+51	1992	1992	NUM	CD	_	50	Terminal	50:Terminal	_
+52	.	.	PUNCT	.	_	50	U	50:U	_
+

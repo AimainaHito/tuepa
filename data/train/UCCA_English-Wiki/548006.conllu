@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 548006
+# text = " At the time of the sale , Warner had earned the distinction of being the second chief to also serve as company president , after Columbia Pictures ' Harry Cohn .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	At	at	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	time	time	NOUN	NN	_	7	L	7:L	_
+5	of	of	ADP	IN	_	4	F	4:F	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	sale	sale	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Warner	Warner	PROPN	NNP	_	13	A	13:A|15:A|7:A	_
+10	had	have	AUX	VBD	_	13	F	13:F	_
+11	earned	earn	VERB	VBN	_	13	D	13:D	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	distinction	distinction	NOUN	NN	_	7	H	7:H	_
+14	of	of	SCONJ	IN	_	15	F	15:F	_
+15	being	be	AUX	VBG	_	13	A	13:A	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	second	second	ADJ	JJ	_	18	E	18:E	_
+18	chief	chief	NOUN	NN	_	21	A	21:A	_
+19	to	to	PART	TO	_	21	F	21:F	_
+20	also	also	ADV	RB	_	21	D	21:D	_
+21	serve	serve	VERB	VB	_	15	A	15:A	_
+22	as	as	ADP	IN	_	24	R	24:R	_
+23	company	company	NOUN	NN	_	24	E	24:E	_
+24	president	president	PROPN	NNP	_	21	A	21:A	_
+25	,	,	PUNCT	,	_	21	U	21:U	_
+26	after	after	ADP	IN	_	21	L	21:L	_
+27	Columbia	Columbia	PROPN	NNP	_	30	E	30:E	_
+28	Pictures	Pictures	PROPN	NNPS	_	27	Terminal	27:Terminal	_
+29	'	's	PART	POS	_	30	U	30:U	_
+30	Harry	Harry	PROPN	NNP	_	21	H	21:H	_
+31	Cohn	Cohn	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25726010
+# text = » Ich gebe acht , Kapitän « , sagte ich , » indem ich nicht wusste , wo er damit hinauswollte , und fragte mich , ob dieser Zwischenfall sich auf unser Flucht projekt beziehe .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	gebe	geben	VERB	VVFIN	_	9	A	9:A	_
+4	acht	acht	NUM	CARD	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	3	G	3:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	indem	indem	SCONJ	KOUS	_	9	L	9:L	_
+14	ich	ich	PRON	PPER	_	16	A	16:A|24:A	_
+15	nicht	nicht	PART	CARD	_	16	D	16:D	_
+16	wusste	wissen	VERB	ADJA	_	9	H	9:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	wo	wo	ADV	ADJA	_	21	A	21:A	_
+19	er	er	PRON	PPER	_	21	A	21:A	_
+20	damit	damit	ADV	PAV	_	21	A	21:A	_
+21	hinauswollte	hinauswollen	AUX	VMFIN	_	16	A	16:A	_
+22	,	,	PUNCT	$,	_	9	U	9:U	_
+23	und	und	CCONJ	NE	_	9	L	9:L	_
+24	fragte	fragen	VERB	VVFIN	_	9	H	9:H	_
+25	mich	ich	PRON	PPER	_	24	A	24:A	_
+26	,	,	PUNCT	$,	_	24	U	24:U	_
+27	ob	ob	SCONJ	VVFIN	_	30	R	30:R	_
+28	dieser	dies	PRON	PDS	_	29	E	29:E	_
+29	Zwischenfall	Zwischenfall	NOUN	NN	_	30	A	30:A	_
+30	sich	er|es|sie	PRON	PRF	_	24	A	24:A	_
+31	auf	auf	ADP	APPR	_	34	R	34:R	_
+32	unser	unser	DET	NE	_	34	E	34:E	_
+33	Flucht	Flucht	NOUN	NN	_	30	A	30:A	_
+34	projekt	projekt	ADJ	ADJD	_	33	A	33:A	_
+35	beziehe	beziehen	VERB	VVFIN	_	30	Terminal	30:Terminal	_
+36	.	.	PUNCT	$.	_	30	U	30:U	_
+

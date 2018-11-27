@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25696000
+# text = » Ja , Kapitän Nemo « , erwiderte ich , » und die ›Nautilus‹ hat sich diesem Studium zum Erstaunen willig gezeigt . Ach ! Es ist ein verständiges Fahrzeug . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	A	16:A	_
+15	hat	haben	AUX	VAFIN	_	16	F	16:F	_
+16	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+17	diesem	dies	PRON	PDS	_	18	E	18:E	_
+18	Studium	Studium	NOUN	NN	_	16	A	16:A	_
+19	zum	zum	ADP	NN	_	20	R	20:R	_
+20	Erstaunen	Erstaunen	NOUN	NN	_	16	D	16:D	_
+21	willig	willig	ADJ	ADJD	_	16	D	16:D	_
+22	gezeigt	zeigen	VERB	VVPP	_	16	Terminal	16:Terminal	_
+23	.	.	PUNCT	$.	_	2	U	2:U	_
+24	Ach	ach	PROPN	ITJ	_	2	H	2:H	_
+25	!	!	PUNCT	$.	_	2	U	2:U	_
+26	Es	es	PRON	PPER	_	29	F	29:F	_
+27	ist	sein	AUX	VVFIN	_	29	F	29:F	_
+28	ein	ein	DET	ART	_	30	E	30:E	_
+29	verständiges	verständig	ADJ	ADJA	_	2	H	2:H	_
+30	Fahrzeug	Fahrzeug	NOUN	NN	_	29	A	29:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+32	«	«	PUNCT	$(	_	30	U	30:U	_
+

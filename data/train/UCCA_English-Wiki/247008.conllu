@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 247008
+# text = Hawke regarded Tape as his " first adult performance " , a performance noted by Roger Ebert for its " physical and verbal acting mastery " .
+1	Hawke	Hawke	PROPN	NNP	_	2	A	2:A	_
+2	regarded	regard	VERB	VBD	_	0	H	0:H	_
+3	Tape	tape	PROPN	NNP	_	2	A	2:A	_
+4	as	as	ADP	IN	_	9	R	9:R	_
+5	his	he	PRON	PRP$	_	9	A	9:A|13:A	_
+6	"	"	PUNCT	``	_	9	U	9:U	_
+7	first	first	ADJ	JJ	_	9	D	9:D	_
+8	adult	adult	NOUN	NN	_	9	E	9:E	_
+9	performance	performance	NOUN	NN	_	2	A	2:A	_
+10	"	"	PUNCT	''	_	2	U	2:U	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	performance	performance	NOUN	NN	_	14	A	14:A	_
+14	noted	note	VERB	VBN	_	2	H	2:H	_
+15	by	by	ADP	IN	_	16	R	16:R	_
+16	Roger	Roger	PROPN	NNP	_	14	A	14:A	_
+17	Ebert	Ebert	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	for	for	ADP	IN	_	24	R	24:R	_
+19	its	its	PRON	PRP$	_	24	A	24:A	_
+20	"	"	PUNCT	``	_	24	U	24:U	_
+21	physical	physical	ADJ	JJ	_	24	E	24:E	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	verbal	verbal	ADJ	JJ	_	21	C	21:C	_
+24	acting	act	VERB	VBG	_	14	A	14:A	_
+25	mastery	mastery	NOUN	NN	_	24	E	24:E	_
+26	"	"	PUNCT	''	_	24	U	24:U	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+

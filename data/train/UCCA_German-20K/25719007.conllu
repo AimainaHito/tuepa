@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25719007
+# text = Nicht minder eifrig befaßte er sich mit der Beobachtung der Mollusken und Gliedertiere und stellte ein langes Verzeichnis auf , womit ich aber doch den Leser verschonen will .
+1	Nicht	nicht	PART	XY	_	4	D	4:D	_
+2	minder	minder	ADV	ADV	_	3	E	3:E	_
+3	eifrig	eifrig	ADJ	ADJD	_	4	D	4:D	_
+4	befaßte	befaßen	VERB	VVFIN	_	0	H	0:H	_
+5	er	er	PRON	PPER	_	4	A	4:A|15:A	_
+6	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Beobachtung	Beobachtung	NOUN	NN	_	4	A	4:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Mollusken	Mollusko	NOUN	NN	_	9	A	9:A	_
+12	und	und	CCONJ	NE	_	11	N	11:N	_
+13	Gliedertiere	Gliedertier	NOUN	NE	_	11	C	11:C	_
+14	und	und	CCONJ	NE	_	4	L	4:L	_
+15	stellte	stellen	VERB	VVFIN	_	4	H	4:H	_
+16	ein	ein	DET	ART	_	18	E	18:E	_
+17	langes	lang	ADJ	ADJA	_	18	E	18:E	_
+18	Verzeichnis	Verzeichnis	NOUN	NN	_	0	C	0:C|27:A	_
+19	auf	auf	ADP	PTKVZ	_	15	Terminal	15:Terminal	_
+20	,	,	PUNCT	$,	_	4	U	4:U	_
+21	womit	womit	SCONJ	VVFIN	_	27	R	27:R	_
+22	ich	ich	PRON	PPER	_	27	A	27:A	_
+23	aber	aber	ADV	ADV	_	4	L	4:L	_
+24	doch	doch	ADV	ADV	_	27	F	27:F	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Leser	Leser	NOUN	NN	_	27	A	27:A	_
+27	verschonen	verschonen	VERB	NN	_	4	H	4:H	_
+28	will	wollen	AUX	NN	_	27	D	27:D	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

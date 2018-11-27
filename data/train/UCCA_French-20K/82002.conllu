@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 82002
+# text = Donc , à moins que cet écueil ne fût soumis aux expansions intermittentes d' un geyser , le Governor - Higginson avait affaire bel et bien à quelque mammifère aquatique , inconnu jusque - là , qui rejetait par ses évents des colonnes d' eau , mélangées d' air et de vapeur .
+1	Donc	donc	ADV	_	_	10	L	10:L	_
+2	,	,	PUNCT	_	_	10	U	10:U	_
+3	à	à	ADP	_	_	10	L	10:L	_
+4	moins	moins	ADV	_	_	3	Terminal	3:Terminal	_
+5	que	que	SCONJ	_	_	3	Terminal	3:Terminal	_
+6	cet	ce	DET	_	_	7	E	7:E	_
+7	écueil	écueil	NOUN	_	_	10	A	10:A	_
+8	ne	ne	ADV	_	_	10	D	10:D	_
+9	fût	être	AUX	_	_	10	F	10:F	_
+10	soumis	soumettre	VERB	_	_	0	H	0:H	_
+11	aux	au	ADJ	_	_	12	R	12:R	_
+12	expansions	expansion	NOUN	_	_	10	A	10:A	_
+13	intermittentes	intermittent	ADJ	_	_	12	D	12:D	_
+14	d'	de	ADP	_	_	16	R	16:R	_
+15	un	un	DET	_	_	16	E	16:E	_
+16	geyser	geyser	NOUN	_	_	12	A	12:A	_
+17	,	,	PUNCT	_	_	10	U	10:U	_
+18	le	le	DET	_	_	19	E	19:E	_
+19	Governor	Governor	PROPN	_	_	23	A	23:A	_
+20	-	-	PUNCT	_	_	19	U	19:U	_
+21	Higginson	Higginson	PROPN	_	_	19	Terminal	19:Terminal	_
+22	avait	avoir	VERB	_	_	23	F	23:F	_
+23	affaire	affaire	NOUN	_	_	10	H	10:H	_
+24	bel	beau	ADV	_	_	23	D	23:D	_
+25	et	et	CCONJ	_	_	24	Terminal	24:Terminal	_
+26	bien	bien	ADV	_	_	24	Terminal	24:Terminal	_
+27	à	à	ADP	_	_	29	R	29:R	_
+28	quelque	quelque	DET	_	_	29	E	29:E	_
+29	mammifère	mammifère	NOUN	_	_	23	A	23:A	_
+30	aquatique	aquatique	ADJ	_	_	29	E	29:E	_
+31	,	,	PUNCT	_	_	29	U	29:U	_
+32	inconnu	inconnaître	ADJ	_	_	29	E	29:E	_
+33	jusque	jusque	ADP	_	_	35	E	35:E	_
+34	-	-	PUNCT	_	_	35	U	35:U	_
+35	là	là	ADV	_	_	32	D	32:D	_
+36	,	,	PUNCT	_	_	29	U	29:U	_
+37	qui	qui	PRON	_	_	38	R	38:R	_
+38	rejetait	rejeter	VERB	_	_	29	E	29:E	_
+39	par	par	ADP	_	_	41	R	41:R	_
+40	ses	son	DET	_	_	41	E	41:E	_
+41	évents	évent	NOUN	_	_	38	A	38:A	_
+42	des	un	DET	_	_	43	E	43:E	_
+43	colonnes	colonne	NOUN	_	_	38	A	38:A	_
+44	d'	de	ADP	_	_	45	R	45:R	_
+45	eau	eau	NOUN	_	_	43	E	43:E	_
+46	,	,	PUNCT	_	_	43	U	43:U	_
+47	mélangées	mélanger	VERB	_	_	43	E	43:E	_
+48	d'	de	ADP	_	_	49	R	49:R	_
+49	air	air	NOUN	_	_	47	A	47:A	_
+50	et	et	CCONJ	_	_	49	N	49:N	_
+51	de	de	ADP	_	_	52	R	52:R	_
+52	vapeur	vapeur	NOUN	_	_	49	C	49:C	_
+53	.	.	PUNCT	_	_	52	U	52:U	_
+

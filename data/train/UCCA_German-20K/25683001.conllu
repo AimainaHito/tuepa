@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25683001
+# text = Sie waren wie wir in Rüstung , und dazu schwang Ned Land eine ungeheure Harpune , die er , bevor er die ›Nautilus‹ verließ , in das Boot gelegt hatte .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	wie	wie	ADP	ADV	_	2	L	2:L	_
+4	wir	wir	PRON	NE	_	2	H	2:H	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Rüstung	Rüstung	NOUN	NN	_	2	A	2:A|4:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	dazu	dazu	ADV	PAV	_	10	D	10:D	_
+10	schwang	schwingen	VERB	VVFIN	_	2	H	2:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	Land	Land	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	eine	ein	DET	ART	_	15	E	15:E	_
+14	ungeheure	ungeheuer	ADJ	ADJA	_	15	E	15:E	_
+15	Harpune	Harpune	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	29	R	29:R	_
+18	er	er	PRON	PPER	_	29	A	29:A	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	bevor	bevor	SCONJ	KOUS	_	2	L	2:L	_
+21	er	er	PRON	PPER	_	24	A	24:A	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	›Nautilus‹	›Nautilus‹	NOUN	NE	_	24	A	24:A	_
+24	verließ	verlassen	VERB	VVFIN	_	2	H	2:H	_
+25	,	,	PUNCT	$,	_	2	U	2:U	_
+26	in	in	ADP	APPR	_	28	R	28:R	_
+27	das	der	DET	ART	_	28	E	28:E	_
+28	Boot	Boot	NOUN	NN	_	29	A	29:A	_
+29	gelegt	legen	VERB	VVPP	_	15	E	15:E	_
+30	hatte	haben	AUX	VAFIN	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

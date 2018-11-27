@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25720008
+# text = Einige Minuten darauf schwammen wir auf den Wogen des Atlantiks .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Minuten	Minute	NOUN	NN	_	4	D	4:D	_
+3	darauf	darauf	ADV	PAV	_	2	R	2:R	_
+4	schwammen	schwammen	VERB	VVINF	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	auf	auf	ADP	APPR	_	10	R	10:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Wogen	Woge	NOUN	NN	_	10	E	10:E	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Atlantiks	Atlantiks	NOUN	NE	_	4	A	4:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

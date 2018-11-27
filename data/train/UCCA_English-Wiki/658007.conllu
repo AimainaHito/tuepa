@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 658007
+# text = Mariah Carey was born in Northport , New York , on March 27 , 1970 .
+1	Mariah	Mariah	PROPN	NNP	_	4	A	4:A	_
+2	Carey	Carey	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	born	bear	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	Northport	Northport	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	New	New	PROPN	NNP	_	6	E	6:E	_
+9	York	York	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	March	March	PROPN	NNP	_	4	D	4:D	_
+13	27	27	NUM	CD	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	1970	1970	NUM	CD	_	12	Terminal	12:Terminal	_
+16	.	.	PUNCT	.	_	12	U	12:U	_
+

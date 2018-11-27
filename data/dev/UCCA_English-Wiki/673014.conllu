@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 673014
+# text = According to MTV , Carey alludes to drug problems in " Obsessed " , which Eminem opened up about on his sixth studio album , Relapse .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	3	R	3:R	_
+3	MTV	MTV	PROPN	NNP	_	1	A	1:A	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+6	alludes	allude	NOUN	NNS	_	1	A	1:A	_
+7	to	to	ADP	IN	_	6	R	6:R	_
+8	drug	drug	NOUN	NN	_	9	E	9:E|17:A	_
+9	problems	problem	NOUN	NNS	_	6	A	6:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	Obsessed	obsessed	PROPN	NNP	_	6	A	6:A	_
+13	"	"	PUNCT	''	_	6	U	6:U	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	which	which	PRON	WDT	_	17	R	17:R	_
+16	Eminem	Eminem	PROPN	NNP	_	17	A	17:A	_
+17	opened	open	VERB	VBD	_	9	E	9:E	_
+18	up	up	ADV	RB	_	17	Terminal	17:Terminal	_
+19	about	about	ADP	IN	_	17	F	17:F	_
+20	on	on	ADP	IN	_	26	R	26:R	_
+21	his	he	PRON	PRP$	_	26	E	26:E	_
+22	sixth	sixth	ADJ	JJ	_	26	E	26:E	_
+23	studio	studio	NOUN	NN	_	24	E	24:E	_
+24	album	album	NOUN	NN	_	26	E	26:E	_
+25	,	,	PUNCT	,	_	26	U	26:U	_
+26	Relapse	relapse	NOUN	NN	_	17	A	17:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

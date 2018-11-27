@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 439001
+# text = Je me réservais une échappatoire .
+1	Je	il	PRON	_	_	3	A	3:A	_
+2	me	se	PRON	_	_	3	A	3:A	_
+3	réservais	réservoir	VERB	_	_	0	H	0:H	_
+4	une	un	DET	_	_	5	E	5:E	_
+5	échappatoire	échappatoire	NOUN	_	_	3	A	3:A	_
+6	.	.	PUNCT	_	_	5	U	5:U	_
+

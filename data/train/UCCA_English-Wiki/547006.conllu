@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 547006
+# text = However , the film won the best - picture Academy Award for 1964 .
+1	However	however	ADV	RB	_	5	L	5:L	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	film	film	NOUN	NN	_	5	A	5:A	_
+5	won	win	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	best	best	ADJ	JJS	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	picture	picture	NOUN	NN	_	10	E	10:E	_
+10	Academy	Academy	PROPN	NNP	_	5	A	5:A	_
+11	Award	Award	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	for	for	ADP	IN	_	13	R	13:R	_
+13	1964	1964	NUM	CD	_	10	E	10:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

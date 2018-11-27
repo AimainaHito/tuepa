@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25610015
+# text = Ein alter , im Pazifik sehr bewanderter Kapitän , Dillon , fand zuerst unbestreitbare Spuren der Schiff brüchigen .
+1	Ein	ein	DET	ART	_	8	E	8:E	_
+2	alter	alt	ADJ	ADJA	_	7	D	7:D	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	im	im	ADJ	NE	_	5	R	5:R	_
+5	Pazifik	Pazifik	PROPN	NE	_	7	A	7:A	_
+6	sehr	sehr	ADV	NE	_	7	D	7:D	_
+7	bewanderter	bewandert	ADJ	ADJA	_	8	E	8:E	_
+8	Kapitän	Kapitän	NOUN	NN	_	10	E	10:E	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	Dillon	Dillon	NOUN	NN	_	12	A	12:A	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+13	zuerst	zuerst	ADV	FM	_	12	D	12:D	_
+14	unbestreitbare	unbestreitbar	ADJ	ADJA	_	15	E	15:E	_
+15	Spuren	Spur|Spuren	NOUN	NN	_	12	A	12:A	_
+16	der	der	DET	ART	_	18	R	18:R	_
+17	Schiff	Schiff	NOUN	NN	_	18	E	18:E	_
+18	brüchigen	brüchigen	VERB	VVINF	_	15	E	15:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

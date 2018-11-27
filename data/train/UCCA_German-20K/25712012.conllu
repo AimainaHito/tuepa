@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25712012
+# text = Mißtraute uns Kapitän Nemo in diesen vielbesuchten Meeren , oder wollte er sich nur dem Angesicht der vielen Schiffe aller Nationen , die das Mittelmeer befahren , entziehen ?
+1	Mißtraute	Mißtraute	NOUN	VVFIN	_	0	H	0:H	_
+2	uns	wir	PROPN	NN	_	1	A	1:A	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	1	A	1:A	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+7	vielbesuchten	vielbesucht	ADJ	ADJA	_	8	E	8:E	_
+8	Meeren	Meer	NOUN	NN	_	1	A	1:A	_
+9	,	,	PUNCT	$,	_	1	U	1:U	_
+10	oder	oder	CCONJ	CARD	_	1	L	1:L	_
+11	wollte	wollen	AUX	VMFIN	_	13	D	13:D	_
+12	er	er	PRON	PPER	_	13	A	13:A	_
+13	sich	er|es|sie	PRON	PRF	_	1	H	1:H	_
+14	nur	nur	ADV	NE	_	13	D	13:D	_
+15	dem	der	DET	ART	_	16	E	16:E	_
+16	Angesicht	Angesicht	NOUN	NN	_	13	A	13:A	_
+17	der	der	DET	ART	_	19	R	19:R	_
+18	vielen	viel	ADJ	PIAT	_	19	E	19:E	_
+19	Schiffe	Schiff	NOUN	NN	_	16	E	16:E	_
+20	aller	alle	PRON	PIAT	_	21	E	21:E	_
+21	Nationen	Nation	NOUN	NN	_	19	E	19:E	_
+22	,	,	PUNCT	$,	_	19	U	19:U	_
+23	die	der	PRON	PRELS	_	26	R	26:R	_
+24	das	der	DET	ART	_	25	E	25:E	_
+25	Mittelmeer	Mittelmeer	PROPN	NN	_	26	A	26:A	_
+26	befahren	befahren	VERB	VVINF	_	19	E	19:E	_
+27	,	,	PUNCT	$,	_	13	U	13:U	_
+28	entziehen	entziehen	VERB	VVFIN	_	13	Terminal	13:Terminal	_
+29	?	?	PUNCT	$.	_	13	U	13:U	_
+

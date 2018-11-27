@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 640008
+# text = He made what would be his final stage appearance in the ATV special A Salute to Lew Grade , recorded on 18 April and televised in June .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	made	make	VERB	VBD	_	0	H	0:H	_
+3	what	what	PRON	WP	_	5	R	5:R	_
+4	would	would	AUX	MD	_	5	E	5:E	_
+5	be	be	AUX	VB	_	9	E	9:E	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	final	final	ADJ	JJ	_	9	E	9:E	_
+8	stage	stage	NOUN	NN	_	9	E	9:E	_
+9	appearance	appearance	NOUN	NN	_	2	A	2:A	_
+10	in	in	ADP	IN	_	14	R	14:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	ATV	ATV	PROPN	NNP	_	13	E	13:E	_
+13	special	special	NOUN	NN	_	14	E	14:E	_
+14	A	a	DET	DT	_	0	C	0:C|20:A|25:A	_
+15	Salute	salute	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	to	to	ADP	IN	_	14	Terminal	14:Terminal	_
+17	Lew	Lew	PROPN	NNP	_	14	Terminal	14:Terminal	_
+18	Grade	grade	PROPN	NNP	_	14	Terminal	14:Terminal	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	recorded	record	VERB	VBD	_	2	H	2:H	_
+21	on	on	ADP	IN	_	23	R	23:R	_
+22	18	18	NUM	CD	_	23	E	23:E	_
+23	April	April	PROPN	NNP	_	20	D	20:D	_
+24	and	and	CCONJ	CC	_	2	L	2:L	_
+25	televised	televise	VERB	VBN	_	2	H	2:H	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	June	June	PROPN	NNP	_	25	D	25:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

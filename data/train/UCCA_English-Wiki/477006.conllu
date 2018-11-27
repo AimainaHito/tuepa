@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 477006
+# text = In 1992 , he joined the National Commission on AIDS , a committee appointed by members of Congress and the Bush Administration .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1992	1992	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	joined	join	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	National	National	PROPN	NNP	_	8	E	8:E	_
+8	Commission	Commission	PROPN	NNP	_	5	A	5:A	_
+9	on	on	ADP	IN	_	10	R	10:R	_
+10	AIDS	aids	PROPN	NNPS	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	committee	committee	NOUN	NN	_	14	A	14:A	_
+14	appointed	appoint	VERB	VBN	_	8	E	8:E	_
+15	by	by	ADP	IN	_	18	R	18:R	_
+16	members	member	NOUN	NNS	_	18	E	18:E	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	Congress	Congress	PROPN	NNP	_	14	A	14:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	the	the	DET	DT	_	22	R	22:R	_
+21	Bush	Bush	PROPN	NNP	_	22	E	22:E	_
+22	Administration	administration	PROPN	NNP	_	18	C	18:C	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

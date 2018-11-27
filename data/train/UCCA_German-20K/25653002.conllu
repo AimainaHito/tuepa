@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25653002
+# text = Ich war versucht , diese frischen Blumen kelche mit zarten Staub fäden zu pflücken ; aber wenn meine Hand sich den lebenden Blumen näherte , kam sogleich die ganze Kolonie in Aufruhr .
+1	Ich	ich	PRON	PPER	_	3	A	3:A|14:A	_
+2	war	sein	AUX	ADV	_	3	F	3:F	_
+3	versucht	versuchen	VERB	VVPP	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	diese	dies	PRON	PDAT	_	8	E	8:E	_
+6	frischen	frischen	ADJ	ADJA	_	8	E	8:E	_
+7	Blumen	Blume	NOUN	NN	_	8	E	8:E	_
+8	kelche	kelch	PRON	PWAT	_	14	A	14:A	_
+9	mit	mit	ADP	APPR	_	12	R	12:R	_
+10	zarten	zart	ADJ	ADJA	_	12	E	12:E	_
+11	Staub	Staub	NOUN	NN	_	12	E	12:E	_
+12	fäden	fäden	VERB	NN	_	8	E	8:E	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	pflücken	pflücken	VERB	VVINF	_	3	A	3:A	_
+15	;	;	PUNCT	$.	_	3	U	3:U	_
+16	aber	aber	ADV	ADV	_	3	L	3:L	_
+17	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+18	meine	mein	PRON	VVFIN	_	19	E	19:E	_
+19	Hand	Hand	NOUN	NN	_	20	A	20:A	_
+20	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+21	den	der	DET	ART	_	23	E	23:E	_
+22	lebenden	lebend	ADJ	ADJA	_	23	E	23:E	_
+23	Blumen	Blume	NOUN	NN	_	20	A	20:A	_
+24	näherte	nähern	VERB	VVFIN	_	20	Terminal	20:Terminal	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	kam	kommen	VERB	VVFIN	_	3	H	3:H	_
+27	sogleich	sogleich	ADV	NN	_	26	D	26:D	_
+28	die	der	DET	ART	_	30	E	30:E	_
+29	ganze	ganz	ADJ	ADJA	_	30	E	30:E	_
+30	Kolonie	Kolonie	NOUN	NN	_	26	A	26:A	_
+31	in	in	ADP	APPR	_	26	Terminal	26:Terminal	_
+32	Aufruhr	Aufruhr	PROPN	NN	_	26	Terminal	26:Terminal	_
+33	.	.	PUNCT	$.	_	26	U	26:U	_
+

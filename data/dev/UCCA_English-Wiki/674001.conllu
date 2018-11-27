@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 674001
+# text = It was later revealed that it would be her second Christmas album , the follow - up to Merry Christmas ( 1994 ) , which became the best - selling Holiday album of all time .
+1	It	it	PRON	PRP	_	4	F	4:F	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	later	later	ADV	RB	_	4	D	4:D	_
+4	revealed	reveal	VERB	VBN	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	8	F	8:F	_
+6	it	it	PRON	PRP	_	8	A	8:A	_
+7	would	would	AUX	MD	_	8	F	8:F	_
+8	be	be	AUX	VB	_	4	A	4:A	_
+9	her	she	PRON	PRP$	_	12	E	12:E	_
+10	second	second	ADJ	JJ	_	12	E	12:E	_
+11	Christmas	christmas	PROPN	NNP	_	12	E	12:E	_
+12	album	album	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	follow	follow	NOUN	NN	_	12	E	12:E	_
+16	-	-	PUNCT	HYPH	_	15	U	15:U	_
+17	up	up	NOUN	NN	_	15	Terminal	15:Terminal	_
+18	to	to	ADP	IN	_	19	R	19:R	_
+19	Merry	Merry	PROPN	NNP	_	15	E	15:E	_
+20	Christmas	Christmas	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	(	(	PUNCT	-LRB-	_	19	U	19:U	_
+22	1994	1994	NUM	CD	_	19	E	19:E	_
+23	)	)	PUNCT	-RRB-	_	12	U	12:U	_
+24	,	,	PUNCT	,	_	12	U	12:U	_
+25	which	which	PRON	WDT	_	26	F	26:F	_
+26	became	become	VERB	VBD	_	12	E	12:E	_
+27	the	the	DET	DT	_	32	E	32:E	_
+28	best	best	ADJ	JJS	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	selling	sell	VERB	VBG	_	32	E	32:E	_
+31	Holiday	holiday	NOUN	NN	_	32	E	32:E	_
+32	album	album	NOUN	NN	_	26	A	26:A	_
+33	of	of	ADP	IN	_	35	R	35:R	_
+34	all	all	DET	DT	_	35	E	35:E	_
+35	time	time	NOUN	NN	_	32	E	32:E	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25787003
+# text = » Dann « , sagte ich , » ist das Verfahren sehr einfach . Wir fahren den Weg , den wir kamen , zurück , um an der südlichen Mündung heraus zu kommen . Das ist alles . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Dann	dann	PROPN	ADV	_	13	L	13:L	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	ist	sein	AUX	VVFIN	_	13	F	13:F	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Verfahren	Verfahren	NOUN	NN	_	13	A	13:A	_
+12	sehr	sehr	ADV	NE	_	13	D	13:D	_
+13	einfach	einfach	ADJ	ADJD	_	5	A	5:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	Wir	wir	PRON	NE	_	16	A	16:A	_
+16	fahren	fahren	VERB	VVFIN	_	13	H	13:H	_
+17	den	der	DET	ART	_	18	E	18:E	_
+18	Weg	Weg	NOUN	NN	_	16	A	16:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	den	der	PRON	PRELS	_	22	R	22:R	_
+21	wir	wir	PRON	NE	_	22	A	22:A|31:A	_
+22	kamen	kommen	VERB	VVFIN	_	18	E	18:E	_
+23	,	,	PUNCT	$,	_	16	U	16:U	_
+24	zurück	zurück	ADV	ADJA	_	16	D	16:D	_
+25	,	,	PUNCT	$,	_	13	U	13:U	_
+26	um	um	ADP	KOUI	_	13	L	13:L	_
+27	an	an	ADP	APPR	_	30	R	30:R	_
+28	der	der	DET	ART	_	30	E	30:E	_
+29	südlichen	südlich	ADJ	ADJA	_	30	E	30:E	_
+30	Mündung	Mündung	NOUN	NN	_	31	A	31:A	_
+31	heraus	heraus	ADV	ADV	_	13	H	13:H	_
+32	zu	zu	PART	VVINF	_	31	F	31:F	_
+33	kommen	kommen	VERB	VVINF	_	31	Terminal	31:Terminal	_
+34	.	.	PUNCT	$.	_	13	U	13:U	_
+35	Das	der	PRON	PDS	_	37	A	37:A	_
+36	ist	sein	AUX	VVFIN	_	37	F	37:F	_
+37	alles	alle	PRON	PIS	_	13	H	13:H	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+39	«	«	PUNCT	$(	_	37	U	37:U	_
+

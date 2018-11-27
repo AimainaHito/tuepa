@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 652015
+# text = The Justice Department appealed the decision to the Supreme Court in April 1992 , but the court declined to review the case .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Justice	Justice	PROPN	NNP	_	3	E	3:E	_
+3	Department	Department	PROPN	NNP	_	4	A	4:A	_
+4	appealed	appeal	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	decision	decision	NOUN	NN	_	4	A	4:A	_
+7	to	to	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	Supreme	Supreme	PROPN	NNP	_	10	E	10:E	_
+10	Court	Court	PROPN	NNP	_	4	A	4:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	April	April	PROPN	NNP	_	13	E	13:E	_
+13	1992	1992	NUM	CD	_	4	D	4:D	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	but	but	CCONJ	CC	_	4	L	4:L	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	court	court	NOUN	NN	_	20	A	20:A	_
+18	declined	decline	VERB	VBN	_	20	D	20:D	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	review	review	VERB	VB	_	4	H	4:H	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	case	case	NOUN	NN	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25489051
+# text = Seine Augen , etwas weit voneinander abstehend , vermochten fast ein Viertel des Horizonts zugleich zu überblicken .
+1	Seine	sein	DET	PPOSAT	_	2	R	2:R	_
+2	Augen	Auge	NOUN	NN	_	17	A	17:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	etwas	etwas	PRON	ADV	_	5	E	5:E	_
+5	weit	weit	ADJ	ADJD	_	7	D	7:D	_
+6	voneinander	voneinander	ADV	ADV	_	7	A	7:A	_
+7	abstehend	abstehend	ADJ	ADJD	_	2	E	2:E	_
+8	,	,	PUNCT	$,	_	17	U	17:U	_
+9	vermochten	vermochen	VERB	VVFIN	_	17	D	17:D	_
+10	fast	fast	ADV	ADV	_	12	E	12:E	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Viertel	Viertel	NOUN	NN	_	17	A	17:A	_
+13	des	der	DET	ART	_	14	R	14:R	_
+14	Horizonts	Horizont	NOUN	NN	_	12	E	12:E	_
+15	zugleich	zugleich	ADV	NN	_	17	D	17:D	_
+16	zu	zu	PART	NE	_	17	F	17:F	_
+17	überblicken	überblicken	VERB	VVINF	_	0	H	0:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

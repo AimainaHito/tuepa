@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 532007
+# text = A 1964 tour of Australia was largely disastrous .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	1964	1964	NUM	CD	_	3	D	3:D	_
+3	tour	tour	NOUN	NN	_	8	A	8:A	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Australia	Australia	PROPN	NNP	_	3	A	3:A	_
+6	was	be	AUX	VBD	_	8	F	8:F	_
+7	largely	largely	ADV	RB	_	8	D	8:D	_
+8	disastrous	disastrous	ADJ	JJ	_	0	H	0:H	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

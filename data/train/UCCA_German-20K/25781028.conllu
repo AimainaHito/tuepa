@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25781028
+# text = Ich dachte es , da die Reihe der unterseeischen Wunder unerschöpflich ist !
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	da	da	SCONJ	KOUS	_	2	L	2:L	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Reihe	Reihe	NOUN	NN	_	10	E	10:E	_
+8	der	der	DET	ART	_	7	R	7:R	_
+9	unterseeischen	unterseeisch	ADJ	ADJA	_	10	E	10:E	_
+10	Wunder	Wunder	NOUN	NN	_	11	A	11:A	_
+11	unerschöpflich	unerschöpflich	ADJ	ADJD	_	2	H	2:H	_
+12	ist	sein	AUX	NN	_	11	F	11:F	_
+13	!	!	PUNCT	$.	_	11	U	11:U	_
+

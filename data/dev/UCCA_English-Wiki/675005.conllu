@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 675005
+# text = On November 5 , 2011 , Carey and Bieber filmed a music video for the duet at the Macy 's in New York City .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	November	November	PROPN	NNP	_	10	D	10:D	_
+3	5	5	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2011	2011	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	10	U	10:U	_
+7	Carey	Carey	PROPN	NNP	_	10	A	10:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	Bieber	Bieber	PROPN	NNP	_	7	C	7:C	_
+10	filmed	film	VERB	VBD	_	0	H	0:H	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	music	music	NOUN	NN	_	13	E	13:E	_
+13	video	video	NOUN	NN	_	10	A	10:A	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	duet	duet	NOUN	NN	_	13	E	13:E	_
+17	at	at	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	Macy	Macy	PROPN	NNP	_	10	A	10:A	_
+20	's	's	PART	POS	_	19	Terminal	19:Terminal	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	New	New	PROPN	NNP	_	19	E	19:E	_
+23	York	York	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	City	City	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	.	_	22	U	22:U	_
+

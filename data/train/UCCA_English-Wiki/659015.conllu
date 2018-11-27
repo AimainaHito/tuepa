@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 659015
+# text = During this time , Carey worked as a waitress for various restaurants , usually getting fired after two - week intervals .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	time	time	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Carey	Carey	PROPN	NNP	_	6	A	6:A|16:A	_
+6	worked	work	VERB	VBD	_	0	H	0:H	_
+7	as	as	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	waitress	waitress	NOUN	NN	_	6	A	6:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	various	various	ADJ	JJ	_	12	E	12:E	_
+12	restaurants	restaurant	NOUN	NNS	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	usually	usually	ADV	RB	_	16	D	16:D	_
+15	getting	get	AUX	VBG	_	16	E	16:E	_
+16	fired	fire	VERB	VBN	_	6	H	6:H	_
+17	after	after	ADP	IN	_	21	R	21:R	_
+18	two	two	NUM	CD	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	week	week	NOUN	NN	_	21	E	21:E	_
+21	intervals	interval	NOUN	NNS	_	16	D	16:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

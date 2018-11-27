@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25629010
+# text = » Mein Herr ist sehr gütig « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	6	A	6:A	_
+4	ist	sein	AUX	NE	_	6	F	6:F	_
+5	sehr	sehr	ADV	NE	_	6	D	6:D	_
+6	gütig	gütig	ADJ	ADJD	_	9	A	9:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

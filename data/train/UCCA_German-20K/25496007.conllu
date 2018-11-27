@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25496007
+# text = Offenbar verstanden wir uns nicht .
+1	Offenbar	offenbar	ADJ	NE	_	2	G	2:G	_
+2	verstanden	verstehen	VERB	VVPP	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	uns	wir	PRON	NE	_	2	Terminal	2:Terminal	_
+5	nicht	nicht	PART	CARD	_	2	D	2:D	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+

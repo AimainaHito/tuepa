@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 496011
+# text = They married within a year .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	married	marry	VERB	VBD	_	0	H	0:H	_
+3	within	within	ADP	IN	_	5	R	5:R	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	year	year	NOUN	NN	_	2	D	2:D	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+

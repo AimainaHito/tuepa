@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 590006
+# text = Depp , however agrees with Rudin 's statement .
+1	Depp	Depp	PROPN	NNP	_	4	A	4:A	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	however	however	ADV	RB	_	4	L	4:L	_
+4	agrees	agree	VERB	VBZ	_	0	H	0:H	_
+5	with	with	ADP	IN	_	8	R	8:R	_
+6	Rudin	Rudin	PROPN	NNP	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	statement	statement	NOUN	NN	_	4	A	4:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

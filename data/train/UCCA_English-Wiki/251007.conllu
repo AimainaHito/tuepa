@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 251007
+# text = " New York magazine praised Hawke 's " understated direction " , particularly his ability to " steer a gifted cast away from the histrionics " .
+1	"	"	PUNCT	``	_	15	U	15:U	_
+2	New	New	PROPN	NNP	_	5	A	5:A|15:A	_
+3	York	York	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	magazine	magazine	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	praised	praise	VERB	VBN	_	0	H	0:H	_
+6	Hawke	Hawke	PROPN	NNP	_	10	A	10:A	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	"	"	PUNCT	``	_	10	U	10:U	_
+9	understated	understated	VERB	VBN	_	10	D	10:D	_
+10	direction	direction	NOUN	NN	_	5	A	5:A	_
+11	"	"	PUNCT	''	_	5	U	5:U	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	particularly	particularly	ADV	RB	_	15	D	15:D	_
+14	his	he	PRON	PRP$	_	15	E	15:E|18:A	_
+15	ability	ability	NOUN	NN	_	5	A	5:A	_
+16	to	to	PART	TO	_	18	F	18:F	_
+17	"	"	PUNCT	``	_	18	U	18:U	_
+18	steer	steer	VERB	VB	_	15	E	15:E	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	gifted	gift	VERB	VBN	_	21	E	21:E	_
+21	cast	cast	NOUN	NN	_	18	A	18:A	_
+22	away	away	ADV	RB	_	18	D	18:D	_
+23	from	from	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	histrionics	histrionic	NOUN	NNS	_	18	A	18:A	_
+26	"	"	PUNCT	''	_	25	U	25:U	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

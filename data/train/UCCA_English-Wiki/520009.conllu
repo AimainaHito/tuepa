@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 520009
+# text = Frank purchased and operated another theater in Lancaster , and Ethel , acting as their manager , began working to get her daughters into motion pictures .
+1	Frank	Frank	PROPN	NNP	_	2	A	2:A	_
+2	purchased	purchase	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	operated	operate	VERB	VBD	_	2	C	2:C	_
+5	another	another	DET	DT	_	6	E	6:E	_
+6	theater	theater	NOUN	NN	_	2	A	2:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Lancaster	Lancaster	PROPN	NNP	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	Ethel	Ethel	PROPN	NNP	_	13	A	13:A|21:A	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	acting	act	VERB	VBG	_	19	A	19:A	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	their	they	PRON	PRP$	_	16	E	16:E	_
+16	manager	manager	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	,	_	19	U	19:U	_
+18	began	begin	VERB	VBD	_	19	D	19:D	_
+19	working	work	VERB	VBG	_	2	H	2:H	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	get	get	VERB	VB	_	19	A	19:A	_
+22	her	she	PRON	PRP	_	23	E	23:E	_
+23	daughters	daughter	NOUN	NNS	_	21	A	21:A	_
+24	into	into	ADP	IN	_	26	R	26:R	_
+25	motion	motion	NOUN	NN	_	26	E	26:E	_
+26	pictures	picture	NOUN	NNS	_	21	A	21:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

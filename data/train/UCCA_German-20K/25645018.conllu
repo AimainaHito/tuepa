@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25645018
+# text = Aber diesmal hörte man statt ihrer eine andere , ebenso unverständliche .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	diesmal	diesmal	ADV	ADV	_	3	D	3:D	_
+3	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+4	man	man	PRON	PIS	_	3	A	3:A	_
+5	statt	statt	ADP	NE	_	6	R	6:R	_
+6	ihrer	ihr	PRON	PPER	_	3	A	3:A	_
+7	eine	ein	DET	ART	_	8	E	8:E	_
+8	andere	ander	ADJ	ADJA	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	ebenso	ebenso	ADV	ADV	_	11	D	11:D	_
+11	unverständliche	unverständlich	ADJ	ADJA	_	8	E	8:E	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

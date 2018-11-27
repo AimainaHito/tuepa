@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25670000
+# text = Um 5 Uhr abends , vor der Dämmerung , die in den Tropen gegenden so kurz ist , wurden wir , Conseil und ich , durch einen merkwürdigen Anblick in Staunen versetzt .
+1	Um	um	ADP	KOUI	_	2	R	2:R	_
+2	5	5	NUM	CARD	_	30	D	30:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	abends	abends	ADV	ADV	_	2	E	2:E	_
+5	,	,	PUNCT	$,	_	30	U	30:U	_
+6	vor	vor	ADP	NN	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Dämmerung	Dämmerung	NOUN	NN	_	30	A	30:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	PRON	PRELS	_	16	R	16:R	_
+11	in	in	ADP	APPR	_	14	R	14:R	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	Tropen	Trope|Tropen	NOUN	NN	_	14	E	14:E	_
+14	gegenden	gegend	ADJ	ADJA	_	16	A	16:A	_
+15	so	so	ADV	ADV	_	16	D	16:D	_
+16	kurz	kurz	ADJ	ADJD	_	8	E	8:E	_
+17	ist	sein	AUX	NN	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	30	U	30:U	_
+19	wurden	werden	AUX	ADJD	_	30	F	30:F	_
+20	wir	wir	PRON	NE	_	30	A	30:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	Conseil	Conseil	NOUN	NE	_	20	E	20:E	_
+23	und	und	CCONJ	NE	_	22	N	22:N	_
+24	ich	ich	PRON	PPER	_	22	C	22:C	_
+25	,	,	PUNCT	$,	_	30	U	30:U	_
+26	durch	durch	ADP	APPR	_	29	R	29:R	_
+27	einen	ein	DET	ART	_	29	E	29:E	_
+28	merkwürdigen	merkwürdig	ADJ	ADJA	_	29	E	29:E	_
+29	Anblick	Anblick	NOUN	NN	_	30	A	30:A	_
+30	in	in	ADP	APPR	_	0	H	0:H	_
+31	Staunen	Staune	NOUN	NN	_	30	Terminal	30:Terminal	_
+32	versetzt	versetzen	VERB	VVPP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	$.	_	30	U	30:U	_
+

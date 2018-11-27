@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25708006
+# text = Die ›Nautilus‹ folgte der Strömung pfeilschnell , so sehr die Maschine sich anstrengte , zu hemmen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	folgte	folgen	VERB	VVFIN	_	0	H	0:H	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Strömung	Strömung	NOUN	NN	_	3	A	3:A	_
+6	pfeilschnell	pfeilschnell	ADV	ADJD	_	3	D	3:D	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	so	so	ADV	ADV	_	16	D	16:D	_
+9	sehr	sehr	ADV	NE	_	8	Terminal	8:Terminal	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Maschine	Maschine	NOUN	NN	_	16	A	16:A	_
+12	sich	er|es|sie	PRON	PRF	_	16	D	16:D	_
+13	anstrengte	anstrengen	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	$,	_	16	U	16:U	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	hemmen	hemmen	VERB	VVINF	_	3	H	3:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

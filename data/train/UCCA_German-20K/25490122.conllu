@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25490122
+# text = Der Steward drohte zu ersticken .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Steward	Steward	NOUN	NN	_	5	A	5:A	_
+3	drohte	drohen	VERB	VVFIN	_	5	D	5:D	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	ersticken	ersticken	VERB	VVINF	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

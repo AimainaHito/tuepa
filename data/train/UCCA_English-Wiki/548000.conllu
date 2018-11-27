@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 548000
+# text = Despite these achievements , Jack grew weary of making films , and he sold a substantial amount of his studio stock to Seven Arts Productions on November 14 , 1966 .
+1	Despite	despite	ADP	IN	_	3	L	3:L	_
+2	these	these	DET	DT	_	3	E	3:E	_
+3	achievements	achievement	NOUN	NNS	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Jack	Jack	PROPN	NNP	_	7	A	7:A|3:A|9:A	_
+6	grew	grow	VERB	VBD	_	7	D	7:D	_
+7	weary	weary	NOUN	NN	_	3	H	3:H	_
+8	of	of	SCONJ	IN	_	9	R	9:R	_
+9	making	make	VERB	VBG	_	7	A	7:A	_
+10	films	film	NOUN	NNS	_	9	A	9:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	and	and	CCONJ	CC	_	3	L	3:L	_
+13	he	he	PRON	PRP	_	14	A	14:A	_
+14	sold	sell	VERB	VBD	_	3	H	3:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	substantial	substantial	ADJ	JJ	_	17	E	17:E	_
+17	amount	amount	NOUN	NN	_	21	E	21:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	his	he	PRON	PRP$	_	21	E	21:E	_
+20	studio	studio	NOUN	NN	_	21	E	21:E	_
+21	stock	stock	NOUN	NN	_	14	A	14:A	_
+22	to	to	ADP	IN	_	23	R	23:R	_
+23	Seven	Seven	PROPN	NNP	_	14	A	14:A	_
+24	Arts	Arts	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+25	Productions	Productions	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+26	on	on	ADP	IN	_	30	R	30:R	_
+27	November	November	PROPN	NNP	_	30	E	30:E	_
+28	14	14	NUM	CD	_	30	E	30:E	_
+29	,	,	PUNCT	,	_	30	U	30:U	_
+30	1966	1966	NUM	CD	_	14	D	14:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

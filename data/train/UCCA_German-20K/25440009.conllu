@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25440009
+# text = Mancher , der sonst einen solchen Dienst verwünscht hätte , übernahm freiwillig eine Wache auf dem Mastgebälk .
+1	Mancher	manch	PROPN	PIAT	_	11	A	11:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	der	der	PRON	ART	_	8	R	8:R	_
+4	sonst	sonst	ADV	NN	_	8	D	8:D	_
+5	einen	ein	DET	ART	_	7	E	7:E	_
+6	solchen	solch	ADJ	ADJA	_	7	E	7:E	_
+7	Dienst	Dienst	NOUN	NN	_	8	A	8:A	_
+8	verwünscht	verwünschen	VERB	VVPP	_	1	E	1:E	_
+9	hätte	haben	AUX	VAFIN	_	8	F	8:F	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	übernahm	übernehmen	VERB	VVFIN	_	0	H	0:H	_
+12	freiwillig	freiwillig	ADJ	ADJD	_	11	D	11:D	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	Wache	Wache	NOUN	NN	_	11	A	11:A	_
+15	auf	auf	ADP	APPR	_	17	R	17:R	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	Mastgebälk	Mastgebälk	NOUN	NN	_	14	E	14:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

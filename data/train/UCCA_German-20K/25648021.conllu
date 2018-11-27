@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25648021
+# text = Der Wellen schlag des Meeres , der ein leichtes Schwanken hervorrief , hörte auf .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	Wellen	Welle	NOUN	NN	_	3	E	3:E	_
+3	schlag	schliegen	VERB	VVFIN	_	13	A	13:A	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Meeres	Meer	NOUN	NN	_	3	E	3:E	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	der	der	PRON	PRELS	_	11	R	11:R	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	leichtes	leicht	ADJ	ADJA	_	10	E	10:E	_
+10	Schwanken	Schwanken	NOUN	NN	_	11	A	11:A	_
+11	hervorrief	hervorrufen	VERB	VVFIN	_	3	E	3:E	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	hörte	hörn	VERB	VVFIN	_	0	H	0:H	_
+14	auf	auf	ADP	PTKVZ	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

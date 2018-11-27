@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 675016
+# text = The song was co - written and co - produced by Carey , Jermaine Dupri , and Bryan - Michael Cox .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	6	A	6:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	co	co	X	AFX	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	written	write	VERB	VBN	_	0	H	0:H	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	co	co	X	AFX	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	produced	produce	VERB	VBN	_	6	C	6:C	_
+11	by	by	ADP	IN	_	12	R	12:R	_
+12	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Jermaine	Jermaine	PROPN	NNP	_	12	C	12:C	_
+15	Dupri	Dupri	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	and	and	CCONJ	CC	_	12	N	12:N	_
+18	Bryan	Bryan	PROPN	NNP	_	12	C	12:C	_
+19	-	-	PUNCT	HYPH	_	18	U	18:U	_
+20	Michael	Michael	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	Cox	Cox	PROPN	NNP	_	18	Terminal	18:Terminal	_
+22	.	.	PUNCT	.	_	12	U	12:U	_
+

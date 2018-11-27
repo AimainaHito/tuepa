@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 558007
+# text = Listeners began phoning in , eager to find out who the singer was .
+1	Listeners	listener	NOUN	NNS	_	3	A	3:A|8:A	_
+2	began	begin	VERB	VBD	_	3	D	3:D	_
+3	phoning	pho	VERB	VBG	_	0	H	0:H	_
+4	in	in	ADV	RB	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	eager	eager	ADJ	JJ	_	8	E	8:E	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	find	find	VERB	VB	_	3	H	3:H	_
+9	out	out	ADP	RP	_	8	Terminal	8:Terminal	_
+10	who	who	PRON	WP	_	13	D	13:D	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	singer	singer	NOUN	NN	_	13	A	13:A	_
+13	was	be	VERB	VBD	_	8	A	8:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

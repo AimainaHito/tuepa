@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25621000
+# text = Um 8 Uhr fuhren wir , mit Büchsen und Beilen bewaffnet , von der " Nautilus " ab .
+1	Um	um	ADP	APPR	_	2	E	2:E	_
+2	8	8	NUM	CARD	_	4	D	4:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	AUX	NE	_	4	A	4:A|11:A	_
+6	,	,	PUNCT	$,	_	11	U	11:U	_
+7	mit	mit	ADP	APPR	_	8	R	8:R	_
+8	Büchsen	Büchse	NOUN	NN	_	11	A	11:A	_
+9	und	und	CCONJ	NN	_	8	N	8:N	_
+10	Beilen	Beil	NOUN	NN	_	8	C	8:C	_
+11	bewaffnet	bewaffnet	VERB	VVPP	_	4	H	4:H	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	von	von	ADP	NE	_	16	R	16:R	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	"	"	PUNCT	$(	_	16	U	16:U	_
+16	Nautilus	Nautilus	PROPN	NE	_	4	A	4:A	_
+17	"	"	PUNCT	$(	_	4	U	4:U	_
+18	ab	ab	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+19	.	.	PUNCT	$.	_	4	U	4:U	_
+

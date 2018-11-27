@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25488043
+# text = Ein Charakter zum Erstaunen !
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Charakter	Charakter	NOUN	ADJA	_	0	H	0:H	_
+3	zum	zum	ADP	NN	_	4	R	4:R	_
+4	Erstaunen	Erstaunen	NOUN	NN	_	2	A	2:A	_
+5	!	!	PUNCT	$.	_	4	U	4:U	_
+

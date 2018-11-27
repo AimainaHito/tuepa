@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25689005
+# text = Seine scheuen Blicke gaben übrigens zu erkennen , dass er nicht wusste , welchen übermenschlichen Wesen er Leben und Glück verdankte .
+1	Seine	sein	DET	PPOSAT	_	3	E	3:E	_
+2	scheuen	scheu	ADJ	ADJA	_	3	E	3:E	_
+3	Blicke	Blick	NOUN	NE	_	7	A	7:A	_
+4	gaben	geben	VERB	VVFIN	_	7	D	7:D	_
+5	übrigens	übrigens	ADV	ADV	_	7	D	7:D	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+10	er	er	PRON	PPER	_	12	A	12:A	_
+11	nicht	nicht	PART	XY	_	12	D	12:D	_
+12	wusste	wissen	VERB	VVFIN	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	welchen	welch	PRON	PWS	_	16	E	16:E	_
+15	übermenschlichen	übermenschlichen	VERB	ADJA	_	16	E	16:E	_
+16	Wesen	Wesen	PROPN	NN	_	21	A	21:A	_
+17	er	er	PRON	PPER	_	21	A	21:A	_
+18	Leben	Leben	NOUN	NN	_	21	A	21:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Glück	Glück	NOUN	NN	_	18	C	18:C	_
+21	verdankte	verdanken	VERB	VVFIN	_	12	A	12:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

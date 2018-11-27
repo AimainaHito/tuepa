@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 564004
+# text = The single pairing " Do n't Be Cruel " with " Hound Dog " ruled the top of the charts for 11 weeks - a mark that would not be surpassed for 36 years .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	single	single	ADJ	JJ	_	3	E	3:E	_
+3	pairing	pairing	NOUN	NN	_	5	E	5:E	_
+4	"	"	PUNCT	''	_	5	U	5:U	_
+5	Do	do	AUX	VB	_	15	A	15:A	_
+6	n't	not	PART	RB	_	5	Terminal	5:Terminal	_
+7	Be	be	AUX	VB	_	5	Terminal	5:Terminal	_
+8	Cruel	cruel	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	"	"	PUNCT	''	_	5	U	5:U	_
+10	with	with	ADP	IN	_	5	R	5:R	_
+11	"	"	PUNCT	``	_	5	U	5:U	_
+12	Hound	Hound	PROPN	NNP	_	5	C	5:C	_
+13	Dog	dog	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	"	"	PUNCT	''	_	15	U	15:U	_
+15	ruled	rul	VERB	VBD	_	0	H	0:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	top	top	NOUN	NN	_	15	A	15:A	_
+18	of	of	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	charts	chart	NOUN	NNS	_	17	E	17:E	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	11	11	NUM	CD	_	23	E	23:E	_
+23	weeks	week	NOUN	NNS	_	15	D	15:D	_
+24	-	-	PUNCT	:	_	15	U	15:U	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	mark	mark	NOUN	NN	_	15	A	15:A	_
+27	that	that	PRON	WDT	_	31	R	31:R	_
+28	would	would	AUX	MD	_	31	D	31:D	_
+29	not	not	PART	RB	_	31	D	31:D	_
+30	be	be	AUX	VB	_	31	F	31:F	_
+31	surpassed	surpass	VERB	VBN	_	26	E	26:E	_
+32	for	for	ADP	IN	_	34	R	34:R	_
+33	36	36	NUM	CD	_	34	E	34:E	_
+34	years	year	NOUN	NNS	_	31	D	31:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

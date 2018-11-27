@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25489072
+# text = « Ned ließ sich nicht bitten und wiederholte meine Erzählung , dem Inhalt nach dasselbe , aber in etwas abweichender Form .
+1	«	«	PUNCT	$(	_	8	U	8:U	_
+2	Ned	Ned	PROPN	NN	_	6	A	6:A|8:A	_
+3	ließ	lassen	VERB	VVFIN	_	6	D	6:D	_
+4	sich	er|es|sie	PRON	PRF	_	6	A	6:A	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	bitten	bitten	VERB	VVFIN	_	0	H	0:H	_
+7	und	und	CCONJ	NE	_	6	L	6:L	_
+8	wiederholte	wiederholen	VERB	VVFIN	_	6	H	6:H	_
+9	meine	mein	DET	PPOSAT	_	10	E	10:E	_
+10	Erzählung	Erzählung	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Inhalt	Inhalt	NOUN	NN	_	10	E	10:E	_
+14	nach	nach	ADP	NN	_	13	R	13:R	_
+15	dasselbe	dasselbe	PRON	PDAT	_	13	E	13:E	_
+16	,	,	PUNCT	$,	_	13	U	13:U	_
+17	aber	aber	CCONJ	KON	_	13	N	13:N	_
+18	in	in	ADP	APPR	_	21	R	21:R	_
+19	etwas	etwas	PRON	ADV	_	20	E	20:E	_
+20	abweichender	abweichend	ADJ	ADJA	_	21	E	21:E	_
+21	Form	Form	NOUN	NN	_	13	C	13:C	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

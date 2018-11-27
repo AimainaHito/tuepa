@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 506007
+# text = He also appeared as Jareth , the Goblin King , in the 1986 Jim Henson film Labyrinth , for which he wrote five songs .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	as	as	ADP	IN	_	5	R	5:R	_
+5	Jareth	Jareth	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	Goblin	Goblin	PROPN	NNP	_	9	E	9:E	_
+9	King	King	PROPN	NNP	_	5	E	5:E	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	in	in	ADP	IN	_	17	R	17:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	1986	1986	NUM	CD	_	16	E	16:E	_
+14	Jim	Jim	PROPN	NNP	_	16	E	16:E	_
+15	Henson	Henson	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	film	film	NOUN	NN	_	17	E	17:E	_
+17	Labyrinth	labyrinth	PROPN	NNP	_	3	A	3:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	for	for	ADP	IN	_	22	A	22:A	_
+20	which	which	PRON	WDT	_	22	F	22:F	_
+21	he	he	PRON	PRP	_	22	A	22:A	_
+22	wrote	write	VERB	VBD	_	17	E	17:E	_
+23	five	five	NUM	CD	_	24	E	24:E	_
+24	songs	song	NOUN	NNS	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

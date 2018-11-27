@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 653006
+# text = Lennon 's love of wordplay and nonsense with a twist found a wider audience when he was 24 .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	love	love	NOUN	NN	_	11	A	11:A	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	wordplay	wordplay	NOUN	NN	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	nonsense	nonsense	NOUN	NN	_	5	C	5:C	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	twist	twist	NOUN	NN	_	7	E	7:E	_
+11	found	find	VERB	VBD	_	0	H	0:H	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	wider	wider	ADJ	JJR	_	14	E	14:E	_
+14	audience	audience	NOUN	NN	_	11	A	11:A	_
+15	when	when	ADV	WRB	_	11	L	11:L	_
+16	he	he	PRON	PRP	_	18	A	18:A	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	24	24	NUM	CD	_	11	H	11:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

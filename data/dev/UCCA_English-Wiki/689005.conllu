@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 689005
+# text = Robert Zimmerman lived in Duluth until age six , when his father was stricken with polio and the family returned to his mother 's home town , Hibbing , where Zimmerman spent the rest of his childhood .
+1	Robert	Robert	PROPN	NNP	_	3	A	3:A|7:A	_
+2	Zimmerman	Zimmerman	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	lived	live	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Duluth	Duluth	PROPN	NNP	_	3	A	3:A	_
+6	until	until	ADP	IN	_	3	L	3:L	_
+7	age	age	NOUN	NN	_	3	H	3:H	_
+8	six	six	NUM	CD	_	7	E	7:E	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	when	when	ADV	WRB	_	3	L	3:L	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	father	father	NOUN	NN	_	14	A	14:A	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	stricken	stricken	ADJ	JJ	_	3	H	3:H	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	polio	polio	NOUN	NN	_	14	A	14:A	_
+17	and	and	CCONJ	CC	_	3	L	3:L	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	family	family	NOUN	NN	_	20	A	20:A	_
+20	returned	return	VERB	VBD	_	3	H	3:H	_
+21	to	to	ADP	IN	_	26	R	26:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	mother	mother	NOUN	NN	_	26	E	26:E	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	home	home	NOUN	NN	_	26	E	26:E	_
+26	town	town	NOUN	NN	_	20	A	20:A	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	Hibbing	Hibb	PROPN	NNP	_	26	E	26:E	_
+29	,	,	PUNCT	,	_	3	U	3:U	_
+30	where	where	ADV	WRB	_	3	L	3:L	_
+31	Zimmerman	Zimmerman	PROPN	NNP	_	32	A	32:A	_
+32	spent	spend	VERB	VBD	_	3	H	3:H	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	rest	rest	NOUN	NN	_	37	E	37:E	_
+35	of	of	ADP	IN	_	34	R	34:R	_
+36	his	he	PRON	PRP$	_	37	E	37:E	_
+37	childhood	childhood	NOUN	NN	_	32	A	32:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

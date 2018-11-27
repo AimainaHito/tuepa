@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 248004
+# text = A second novel , 2002 's Ash Wednesday , was better received and made the New York Times Best Seller list for hardcover fiction .
+1	A	a	DET	DT	_	3	E	3:E	_
+2	second	second	ADJ	JJ	_	3	E	3:E	_
+3	novel	novel	NOUN	NN	_	12	A	12:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	2002	2002	NUM	CD	_	3	E	3:E	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	Ash	Ash	PROPN	NNP	_	3	E	3:E|14:A	_
+8	Wednesday	Wednesday	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	12	U	12:U	_
+10	was	be	AUX	VBD	_	12	F	12:F	_
+11	better	better	ADV	RBR	_	12	D	12:D	_
+12	received	receive	VERB	VBN	_	0	H	0:H	_
+13	and	and	CCONJ	CC	_	12	L	12:L	_
+14	made	make	VERB	VBN	_	12	H	12:H	_
+15	the	the	DET	DT	_	21	E	21:E	_
+16	New	New	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	York	York	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	Times	Times	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	Best	best	ADJ	JJS	_	20	E	20:E	_
+20	Seller	seller	NOUN	NN	_	21	E	21:E	_
+21	list	list	NOUN	NN	_	14	A	14:A	_
+22	for	for	ADP	IN	_	24	R	24:R	_
+23	hardcover	hardcover	NOUN	NN	_	24	E	24:E	_
+24	fiction	fiction	NOUN	NN	_	21	E	21:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

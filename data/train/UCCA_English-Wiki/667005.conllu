@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 667005
+# text = In an interview the following year , she said , " I was with people who did n't really know me and I had no personal assistant . I 'd do interviews all day long and get two hours of sleep a night , if that .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	an	a	DET	DT	_	3	E	3:E	_
+3	interview	interview	NOUN	NN	_	9	A	9:A	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	following	follow	VERB	VBG	_	6	E	6:E	_
+6	year	year	NOUN	NN	_	9	D	9:D	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	she	she	PRON	PRP	_	9	A	9:A	_
+9	said	say	VERB	VBD	_	0	H	0:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	"	"	PUNCT	``	_	9	U	9:U	_
+12	I	I	PRON	PRP	_	13	A	13:A	_
+13	was	be	AUX	VBD	_	9	A	9:A	_
+14	with	with	ADP	IN	_	15	R	15:R	_
+15	people	people	NOUN	NNS	_	13	A	13:A	_
+16	who	who	PRON	WP	_	20	R	20:R	_
+17	did	do	AUX	VBD	_	20	F	20:F	_
+18	n't	not	PART	RB	_	20	D	20:D	_
+19	really	really	ADV	RB	_	20	D	20:D	_
+20	know	know	VERB	VB	_	15	E	15:E	_
+21	me	I	PRON	PRP	_	20	A	20:A	_
+22	and	and	CCONJ	CC	_	13	L	13:L	_
+23	I	I	PRON	PRP	_	24	A	24:A	_
+24	had	have	VERB	VBD	_	13	H	13:H	_
+25	no	no	DET	DT	_	24	D	24:D	_
+26	personal	personal	ADJ	JJ	_	27	E	27:E	_
+27	assistant	assistant	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	13	U	13:U	_
+29	I	I	PRON	PRP	_	31	A	31:A|37:A	_
+30	'd	would	AUX	MD	_	31	F	31:F	_
+31	do	do	VERB	VB	_	13	H	13:H	_
+32	interviews	interview	NOUN	NNS	_	31	A	31:A	_
+33	all	all	DET	DT	_	34	E	34:E	_
+34	day	day	NOUN	NN	_	31	D	31:D	_
+35	long	long	ADV	RB	_	34	E	34:E	_
+36	and	and	CCONJ	CC	_	13	L	13:L	_
+37	get	get	VERB	VB	_	13	H	13:H	_
+38	two	two	NUM	CD	_	39	E	39:E	_
+39	hours	hour	NOUN	NNS	_	41	E	41:E	_
+40	of	of	ADP	IN	_	39	R	39:R	_
+41	sleep	sleep	NOUN	NN	_	37	A	37:A	_
+42	a	a	DET	DT	_	43	R	43:R	_
+43	night	night	NOUN	NN	_	41	E	41:E	_
+44	,	,	PUNCT	,	_	41	U	41:U	_
+45	if	if	SCONJ	IN	_	46	F	46:F	_
+46	that	that	PRON	DT	_	41	E	41:E	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

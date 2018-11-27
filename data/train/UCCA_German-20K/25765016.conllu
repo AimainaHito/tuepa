@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25765016
+# text = » Was denn ? « fragte ich .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Was	was	PRON	NE	_	6	A	6:A	_
+3	denn	dennen	VERB	VVFIN	_	2	F	2:F	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

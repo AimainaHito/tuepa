@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25802003
+# text = Mollusken waren es von den bereits beschriebenen , Turmschnecken , durchsichtige Hyalen , Argonauten , vortreffliche eßbare Tintenfische , einige Arten Calmar usw .
+1	Mollusken	Mollusk	ADJ	NN	_	2	A	2:A	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	F	2:F	_
+4	von	von	ADP	NN	_	7	R	7:R	_
+5	den	der	DET	ART	_	7	A	7:A	_
+6	bereits	bereits	ADV	ADV	_	7	D	7:D	_
+7	beschriebenen	beschrieben	ADJ	ADJA	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	Turmschnecken	Turmschnecken	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	durchsichtige	durchsichtig	ADJ	ADJA	_	12	E	12:E	_
+12	Hyalen	Hyale	NOUN	NE	_	9	C	9:C	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	Argonauten	Argonau	NOUN	NE	_	9	C	9:C	_
+15	,	,	PUNCT	$,	_	9	U	9:U	_
+16	vortreffliche	vortrefflich	ADJ	ADJA	_	18	E	18:E	_
+17	eßbare	eßbar	ADJ	ADJA	_	18	E	18:E	_
+18	Tintenfische	Tintenfische	NOUN	ADJA	_	9	C	9:C	_
+19	,	,	PUNCT	$,	_	9	U	9:U	_
+20	einige	einige	PRON	PIAT	_	21	E	21:E	_
+21	Arten	Art	NOUN	NN	_	22	E	22:E	_
+22	Calmar	Calmar	PROPN	NE	_	9	C	9:C	_
+23	usw	usw	X	NE	_	9	R	9:R	_
+24	.	.	PUNCT	$.	_	9	U	9:U	_
+

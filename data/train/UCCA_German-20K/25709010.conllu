@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25709010
+# text = Dann kreuzte er die Arme und sagte : » Offen gesagt , diese Reise unterm Meer mißfällt mir nicht . Ich werde befriedigt sein , wenn sie gemacht ist . Dafür aber muß sie ein Ende nehmen . Dies denke ich darüber . «
+1	Dann	dann	ADV	ADV	_	2	L	2:L	_
+2	kreuzte	kreuzen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|7:A|11:A	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Arme	Arm|Arme	NOUN	NN	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+8	:	:	PUNCT	$.	_	11	U	11:U	_
+9	»	»	PUNCT	$(	_	11	U	11:U	_
+10	Offen	offen	ADJ	NN	_	11	D	11:D	_
+11	gesagt	sagen	VERB	VVPP	_	2	H	2:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	diese	dies	PRON	PDAT	_	14	E	14:E	_
+14	Reise	Reise	NOUN	NN	_	17	A	17:A	_
+15	unterm	unterm	ADJ	NE	_	14	R	14:R	_
+16	Meer	Meer	NOUN	NN	_	14	E	14:E	_
+17	mißfällt	mißfallen	VERB	VVFIN	_	11	H	11:H	_
+18	mir	ich	PRON	PPER	_	17	A	17:A	_
+19	nicht	nicht	PART	XY	_	17	D	17:D	_
+20	.	.	PUNCT	$.	_	11	U	11:U	_
+21	Ich	ich	PRON	PPER	_	23	A	23:A	_
+22	werde	werden	AUX	NN	_	23	F	23:F	_
+23	befriedigt	befriedigen	VERB	VVFIN	_	11	H	11:H	_
+24	sein	sein	AUX	VAINF	_	23	F	23:F	_
+25	,	,	PUNCT	$,	_	11	U	11:U	_
+26	wenn	wenn	SCONJ	VVFIN	_	11	L	11:L	_
+27	sie	sie	PRON	ADV	_	28	A	28:A	_
+28	gemacht	machen	VERB	VVPP	_	11	H	11:H	_
+29	ist	sein	AUX	VVFIN	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	11	U	11:U	_
+31	Dafür	Dafür	ADV	PAV	_	11	L	11:L	_
+32	aber	aber	ADV	ADV	_	11	L	11:L	_
+33	muß	müssen	AUX	VMFIN	_	36	D	36:D	_
+34	sie	sie	PRON	ADV	_	36	A	36:A	_
+35	ein	ein	DET	ART	_	36	E	36:E	_
+36	Ende	Ende	NOUN	NN	_	11	H	11:H	_
+37	nehmen	nehmen	VERB	CARD	_	36	F	36:F	_
+38	.	.	PUNCT	$.	_	11	U	11:U	_
+39	Dies	dies	PRON	PDS	_	40	A	40:A	_
+40	denke	denken	VERB	VVFIN	_	11	H	11:H	_
+41	ich	ich	PRON	PPER	_	40	A	40:A	_
+42	darüber	darüber	ADV	PAV	_	40	A	40:A	_
+43	.	.	PUNCT	$.	_	40	U	40:U	_
+44	«	«	PUNCT	$(	_	40	U	40:U	_
+

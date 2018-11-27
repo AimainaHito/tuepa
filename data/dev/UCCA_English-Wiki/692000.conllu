@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 692000
+# text = From December 1962 to January 1963 , Dylan made his first trip to the United Kingdom .
+1	From	from	ADP	IN	_	3	R	3:R	_
+2	December	December	PROPN	NNP	_	3	E	3:E	_
+3	1962	1962	NUM	CD	_	9	D	9:D	_
+4	to	to	ADP	IN	_	3	R	3:R	_
+5	January	January	PROPN	NNP	_	6	E	6:E	_
+6	1963	1963	NUM	CD	_	3	C	3:C	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	Dylan	Dylan	PROPN	NNP	_	9	A	9:A	_
+9	made	make	VERB	VBD	_	0	H	0:H	_
+10	his	he	PRON	PRP$	_	12	A	12:A	_
+11	first	first	ADJ	JJ	_	12	D	12:D	_
+12	trip	trip	NOUN	NN	_	9	A	9:A	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	United	United	PROPN	NNP	_	12	A	12:A	_
+16	Kingdom	Kingdom	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25790010
+# text = » Ohne zu rechnen « , versetzte Ned , » daß wir , wenn wir einmal aus diesem verdammten Kerker heraus sind , dann doch noch unter der Eis decke stecken ohne eine mögliche Verbindung mit der Atmosphäre ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Ohne	ohne	NOUN	NE	_	4	L	4:L	_
+3	zu	zu	PART	NE	_	4	F	4:F	_
+4	rechnen	rechnen	VERB	VVINF	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+8	Ned	Ned	PROPN	NE	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	daß	daß	SCONJ	KOUS	_	4	L	4:L	_
+12	wir	wir	PRON	NE	_	31	A	31:A|4:A|35:A	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	wenn	wenn	SCONJ	VVFIN	_	4	L	4:L	_
+15	wir	wir	PRON	NE	_	21	A	21:A	_
+16	einmal	einmal	ADV	ADV	_	21	D	21:D	_
+17	aus	aus	ADP	APPR	_	19	R	19:R	_
+18	diesem	dies	PRON	PDAT	_	20	E	20:E	_
+19	verdammten	verdammt	ADJ	ADJA	_	21	A	21:A	_
+20	Kerker	Kerker	NOUN	NN	_	19	A	19:A	_
+21	heraus	heraus	ADV	PTKVZ	_	4	H	4:H	_
+22	sind	sein	AUX	NN	_	21	F	21:F	_
+23	,	,	PUNCT	$,	_	4	U	4:U	_
+24	dann	dann	ADV	ADV	_	31	D	31:D	_
+25	doch	doch	ADV	ADV	_	31	F	31:F	_
+26	noch	noch	ADV	CARD	_	31	D	31:D	_
+27	unter	unter	ADP	ADJD	_	30	R	30:R	_
+28	der	der	DET	ART	_	30	E	30:E	_
+29	Eis	Eis	PROPN	NN	_	30	E	30:E	_
+30	decke	decke	PROPN	NN	_	31	A	31:A	_
+31	stecken	stecken	VERB	VVFIN	_	4	H	4:H	_
+32	ohne	ohne	ADP	NN	_	4	L	4:L	_
+33	eine	ein	DET	ART	_	35	E	35:E	_
+34	mögliche	möglich	ADJ	CARD	_	35	D	35:D	_
+35	Verbindung	Verbindung	NOUN	NN	_	4	H	4:H	_
+36	mit	mit	ADP	APPR	_	38	R	38:R	_
+37	der	der	DET	ART	_	38	E	38:E	_
+38	Atmosphäre	Atmosphäre	NOUN	NN	_	35	A	35:A	_
+39	!	!	PUNCT	$.	_	38	U	38:U	_
+40	«	«	PUNCT	$(	_	38	U	38:U	_
+

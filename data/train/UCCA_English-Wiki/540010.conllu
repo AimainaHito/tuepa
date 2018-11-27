@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 540010
+# text = Sam 's death left Jack inconsolable .
+1	Sam	Sam	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	death	death	NOUN	NN	_	4	A	4:A	_
+4	left	leave	VERB	VBD	_	0	H	0:H	_
+5	Jack	Jack	PROPN	NNP	_	4	A	4:A|6:A	_
+6	inconsolable	inconsolable	ADJ	JJ	_	4	A	4:A	_
+7	.	.	PUNCT	.	_	6	U	6:U	_
+

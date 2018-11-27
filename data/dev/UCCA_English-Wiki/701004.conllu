@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 701004
+# text = In the early 1970s , critics charged that Dylan 's output was of varied and unpredictable quality .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	early	early	ADJ	JJ	_	4	E	4:E	_
+4	1970s	1970	NOUN	NNS	_	7	D	7:D	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	critics	critic	NOUN	NNS	_	7	A	7:A	_
+7	charged	charge	VERB	VBD	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	12	F	12:F	_
+9	Dylan	Dylan	PROPN	NNP	_	11	E	11:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	output	output	NOUN	NN	_	12	A	12:A	_
+12	was	be	AUX	VBD	_	7	A	7:A	_
+13	of	of	ADP	IN	_	17	R	17:R	_
+14	varied	varied	ADJ	JJ	_	17	E	17:E	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	unpredictable	unpredictable	ADJ	JJ	_	14	C	14:C	_
+17	quality	quality	NOUN	NN	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

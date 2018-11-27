@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 648017
+# text = Lennon summarised his feelings towards McCartney in an interview three days before his death : " Throughout my career , I 've selected to work with ... only two people : Paul McCartney and Yoko Ono ... That ai n't bad picking . "
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A|9:A	_
+2	summarised	summarise	VERB	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	feelings	feeling	NOUN	NNS	_	2	A	2:A	_
+5	towards	towards	ADP	IN	_	6	R	6:R	_
+6	McCartney	McCartney	PROPN	NNP	_	4	E	4:E	_
+7	in	in	ADP	IN	_	2	L	2:L	_
+8	an	a	DET	DT	_	9	E	9:E	_
+9	interview	interview	NOUN	NN	_	2	H	2:H	_
+10	three	three	NUM	CD	_	2	L	2:L	_
+11	days	day	NOUN	NNS	_	10	Terminal	10:Terminal	_
+12	before	before	ADP	IN	_	10	Terminal	10:Terminal	_
+13	his	he	PRON	PRP$	_	14	A	14:A	_
+14	death	death	NOUN	NN	_	2	H	2:H	_
+15	:	:	PUNCT	:	_	2	U	2:U	_
+16	"	"	PUNCT	``	_	2	U	2:U	_
+17	Throughout	Throughout	ADP	IN	_	19	L	19:L	_
+18	my	my	PRON	PRP$	_	19	A	19:A	_
+19	career	career	NOUN	NN	_	2	A	2:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	I	I	PRON	PRP	_	25	A	25:A	_
+22	've	have	AUX	VBP	_	25	F	25:F	_
+23	selected	select	VERB	VBN	_	25	D	25:D	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	work	work	VERB	VB	_	19	H	19:H	_
+26	with	with	ADP	IN	_	32	R	32:R	_
+27	...	...	PUNCT	,	_	32	U	32:U	_
+28	only	only	ADV	RB	_	30	E	30:E	_
+29	two	two	NUM	CD	_	30	E	30:E	_
+30	people	people	NOUN	NNS	_	32	E	32:E	_
+31	:	:	PUNCT	:	_	32	U	32:U	_
+32	Paul	Paul	PROPN	NNP	_	25	A	25:A	_
+33	McCartney	McCartney	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	and	and	CCONJ	CC	_	32	N	32:N	_
+35	Yoko	Yoko	PROPN	NNP	_	32	C	32:C	_
+36	Ono	Ono	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	...	...	PUNCT	,	_	19	U	19:U	_
+38	That	that	PRON	DT	_	39	A	39:A	_
+39	ai	be	AUX	VBZ	_	19	H	19:H	_
+40	n't	not	PART	RB	_	39	D	39:D	_
+41	bad	bad	ADJ	JJ	_	42	E	42:E	_
+42	picking	picking	NOUN	NN	_	39	A	39:A	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+44	"	"	PUNCT	''	_	42	U	42:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25651013
+# text = Seine Blässe nahm zu bei dem elektrischen Licht , das auf sein Sterbebett fiel .
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Blässe	Blaß	NOUN	NN	_	3	A	3:A	_
+3	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+4	zu	zu	PART	NE	_	3	Terminal	3:Terminal	_
+5	bei	bei	ADP	APPR	_	8	R	8:R	_
+6	dem	der	DET	ART	_	8	E	8:E	_
+7	elektrischen	elektrisch	ADJ	ADJA	_	8	E	8:E	_
+8	Licht	Licht	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	das	der	PRON	PRELS	_	14	R	14:R	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	sein	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Sterbebett	Sterbebett	NOUN	NN	_	14	A	14:A	_
+14	fiel	fallen	VERB	VVFIN	_	8	E	8:E	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 604013
+# text = After the Beatles ' break - up in 1970 , McCartney continued his musical career with his first solo release , McCartney , a US number - one album .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	Beatles	Beatles	PROPN	NNPS	_	5	A	5:A	_
+4	'	's	PART	POS	_	5	U	5:U	_
+5	break	break	NOUN	NN	_	0	H	0:H	_
+6	-	-	PUNCT	HYPH	_	5	U	5:U	_
+7	up	up	NOUN	NN	_	5	Terminal	5:Terminal	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	1970	1970	NUM	CD	_	5	D	5:D	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	McCartney	McCartney	PROPN	NNP	_	12	A	12:A	_
+12	continued	continue	VERB	VBD	_	5	H	5:H	_
+13	his	he	PRON	PRP$	_	15	A	15:A	_
+14	musical	musical	ADJ	JJ	_	15	E	15:E	_
+15	career	career	NOUN	NN	_	12	A	12:A	_
+16	with	with	ADP	IN	_	20	R	20:R	_
+17	his	he	PRON	PRP$	_	20	A	20:A	_
+18	first	first	ADJ	JJ	_	20	D	20:D	_
+19	solo	solo	NOUN	NN	_	20	E	20:E	_
+20	release	release	NOUN	NN	_	12	A	12:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	McCartney	McCartney	PROPN	NNP	_	20	A	20:A	_
+23	,	,	PUNCT	,	_	22	U	22:U	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	US	US	PROPN	NNP	_	22	E	22:E	_
+26	number	number	NOUN	NN	_	29	E	29:E	_
+27	-	-	PUNCT	HYPH	_	26	U	26:U	_
+28	one	one	NUM	CD	_	26	E	26:E	_
+29	album	album	NOUN	NN	_	25	A	25:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25762011
+# text = Ich glaubte es nicht , denn bisher waren alle Bemühungen , bis dahin vorzudringen , gescheitert .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	glaubte	glauben	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	nicht	nicht	PART	CARD	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	denn	denn	CCONJ	KON	_	2	L	2:L	_
+7	bisher	bisher	ADV	ADV	_	16	D	16:D	_
+8	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+9	alle	alle	PRON	PIAT	_	10	E	10:E	_
+10	Bemühungen	Bemühung	NOUN	NN	_	14	A	14:A	_
+11	,	,	PUNCT	$,	_	14	U	14:U	_
+12	bis	bis	ADP	APPR	_	13	R	13:R	_
+13	dahin	dahin	ADV	PAV	_	14	A	14:A	_
+14	vorzudringen	vorzudring	ADJ	NE	_	16	A	16:A	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	gescheitert	scheitern	VERB	VVPP	_	2	H	2:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

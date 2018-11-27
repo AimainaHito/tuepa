@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 636015
+# text = In protest at Britain 's involvement in the Nigerian Civil War , Lennon returned his MBE medal to the Queen , though this had no effect on his MBE status , which could not be renounced .
+1	In	in	ADP	IN	_	2	L	2:L	_
+2	protest	protest	ADJ	JJS	_	0	H	0:H	_
+3	at	at	ADP	IN	_	6	R	6:R	_
+4	Britain	Britain	PROPN	NNP	_	6	A	6:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	involvement	involvement	NOUN	NN	_	2	A	2:A	_
+7	in	in	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	Nigerian	Nigerian	PROPN	NNP	_	11	E	11:E	_
+10	Civil	Civil	PROPN	NNP	_	11	E	11:E	_
+11	War	War	PROPN	NNP	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	Lennon	Lennon	PROPN	NNP	_	14	A	14:A|2:A	_
+14	returned	return	VERB	VBD	_	2	H	2:H	_
+15	his	he	PRON	PRP$	_	17	E	17:E	_
+16	MBE	Mbe	NOUN	NN	_	17	E	17:E	_
+17	medal	medal	NOUN	NN	_	14	A	14:A	_
+18	to	to	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Queen	Queen	NOUN	NN	_	14	A	14:A	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	though	though	SCONJ	IN	_	2	L	2:L	_
+23	this	this	PRON	DT	_	26	A	26:A	_
+24	had	have	VERB	VBD	_	26	F	26:F	_
+25	no	no	DET	DT	_	26	D	26:D	_
+26	effect	effect	NOUN	NN	_	2	H	2:H	_
+27	on	on	ADP	IN	_	30	R	30:R	_
+28	his	he	PRON	PRP$	_	30	E	30:E	_
+29	MBE	Mbe	NOUN	NN	_	30	E	30:E	_
+30	status	status	NOUN	NN	_	26	A	26:A	_
+31	,	,	PUNCT	,	_	30	U	30:U	_
+32	which	which	PRON	WDT	_	36	R	36:R	_
+33	could	could	AUX	MD	_	36	D	36:D	_
+34	not	not	PART	RB	_	36	D	36:D	_
+35	be	be	AUX	VB	_	36	F	36:F	_
+36	renounced	renounce	VERB	VBN	_	30	E	30:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

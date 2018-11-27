@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25745009
+# text = Ihre Wände waren vom Feuer glatt emailliert und funkelnd , ganz mit Glimmerstaub bestreut .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	2	E	2:E	_
+2	Wände	Wand	NOUN	NN	_	0	C	0:C|14:A|9:A	_
+3	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+4	vom	vom	ADP	NN	_	5	R	5:R	_
+5	Feuer	Feuer	NOUN	ADJA	_	7	A	7:A	_
+6	glatt	glatt	ADJ	NE	_	7	D	7:D	_
+7	emailliert	emaillieren	VERB	VVPP	_	0	H	0:H	_
+8	und	und	CCONJ	NE	_	7	L	7:L	_
+9	funkelnd	funkelnd	ADJ	ADJD	_	7	H	7:H	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	ganz	ganz	ADJ	ADV	_	14	D	14:D	_
+12	mit	mit	ADP	APPR	_	13	E	13:E	_
+13	Glimmerstaub	Glimmerstaub	NOUN	NN	_	14	A	14:A	_
+14	bestreut	bestreuen	VERB	VVPP	_	7	H	7:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

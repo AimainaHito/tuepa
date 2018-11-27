@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 530006
+# text = Later that year she returned to the Palace Theatre , site of her two - a - day triumph .
+1	Later	later	ADV	RBR	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	5	D	5:D	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	returned	return	VERB	VBD	_	0	H	0:H	_
+6	to	to	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	Palace	palace	PROPN	NNP	_	9	E	9:E	_
+9	Theatre	theatre	PROPN	NNP	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	site	site	NOUN	NN	_	9	E	9:E	_
+12	of	of	ADP	IN	_	19	R	19:R	_
+13	her	she	PRON	PRP$	_	19	E	19:E	_
+14	two	two	NUM	CD	_	18	E	18:E	_
+15	-	-	PUNCT	HYPH	_	18	U	18:U	_
+16	a	a	NOUN	NN	_	18	R	18:R	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	day	day	NOUN	NN	_	19	E	19:E	_
+19	triumph	triumph	NOUN	NN	_	11	E	11:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

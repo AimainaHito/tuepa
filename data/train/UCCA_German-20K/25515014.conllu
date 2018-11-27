@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25515014
+# text = Diese beiden Rümpfe sind aus Stahl platten gefertigt , deren Dichte im Verhältnis zum Wasser 7 bis 8 Zehntel beträgt .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Rümpfe	Rümpfe	NOUN	NN	_	8	A	8:A	_
+4	sind	sein	AUX	NN	_	8	F	8:F	_
+5	aus	aus	ADP	APPR	_	7	R	7:R	_
+6	Stahl	Stahl	NOUN	NE	_	7	E	7:E	_
+7	platten	platt	ADJ	NN	_	8	A	8:A	_
+8	gefertigt	fertigen	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	deren	der	DET	PRELAT	_	11	R	11:R	_
+11	Dichte	dicht	NOUN	NN	_	20	A	20:A	_
+12	im	im	ADJ	NN	_	15	R	15:R	_
+13	Verhältnis	Verhältnis	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	zum	zum	ADP	NN	_	12	Terminal	12:Terminal	_
+15	Wasser	Wasser	NOUN	NN	_	20	A	20:A	_
+16	7	7	NUM	CARD	_	19	E	19:E	_
+17	bis	bis	ADP	KON	_	16	R	16:R	_
+18	8	8	NUM	CARD	_	16	C	16:C	_
+19	Zehntel	Zehntel	NOUN	NN	_	20	A	20:A	_
+20	beträgt	betragen	AUX	VVFIN	_	7	E	7:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

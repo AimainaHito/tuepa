@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 592005
+# text = In 1998 , following a four - year relationship with British supermodel Kate Moss , Depp began a relationship with Vanessa Paradis , a French actress and singer whom he met while filming The Ninth Gate .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1998	1998	NUM	CD	_	19	D	19:D	_
+3	,	,	PUNCT	,	_	19	U	19:U	_
+4	following	follow	VERB	VBG	_	19	L	19:L	_
+5	a	a	DET	DT	_	9	E	9:E	_
+6	four	four	NUM	CD	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	year	year	NOUN	NN	_	9	E	9:E	_
+9	relationship	relationship	NOUN	NN	_	19	H	19:H	_
+10	with	with	ADP	IN	_	13	R	13:R	_
+11	British	british	PROPN	NNP	_	13	E	13:E	_
+12	supermodel	supermodel	PROPN	NNP	_	13	E	13:E	_
+13	Kate	Kate	PROPN	NNP	_	9	A	9:A	_
+14	Moss	Moss	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	Depp	Depp	PROPN	NNP	_	19	A	19:A|9:A	_
+17	began	begin	VERB	VBD	_	19	D	19:D	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	relationship	relationship	NOUN	NN	_	0	H	0:H	_
+20	with	with	ADP	IN	_	21	R	21:R	_
+21	Vanessa	Vanessa	PROPN	NNP	_	19	A	19:A	_
+22	Paradis	Paradis	PROPN	NNPS	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	21	U	21:U	_
+24	a	a	DET	DT	_	26	E	26:E	_
+25	French	french	ADJ	JJ	_	26	E	26:E	_
+26	actress	actress	NOUN	NN	_	21	E	21:E	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	singer	singer	NOUN	NN	_	26	C	26:C	_
+29	whom	whom	PRON	WP	_	31	F	31:F	_
+30	he	he	PRON	PRP	_	31	A	31:A|33:A	_
+31	met	meet	VERB	VBD	_	21	E	21:E	_
+32	while	while	SCONJ	IN	_	31	L	31:L	_
+33	filming	filme	VERB	VBG	_	31	H	31:H	_
+34	The	the	DET	DT	_	33	A	33:A	_
+35	Ninth	Ninth	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	Gate	gate	PROPN	NNP	_	34	Terminal	34:Terminal	_
+37	.	.	PUNCT	.	_	33	U	33:U	_
+

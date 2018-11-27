@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25747007
+# text = Und die Zeit wird einst die andere Ansicht Maurys rechtfertigen , dass diese seit Jahrhunderten so zusammengehäuften Stoffe durch Einwirken des Wassers sich mineralisieren und dann unerschöpfliche Kohlengruben bilden werden .
+1	Und	und	CCONJ	ADJD	_	10	L	10:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Zeit	Zeit	NOUN	NN	_	10	A	10:A	_
+4	wird	werden	AUX	VAFIN	_	10	F	10:F	_
+5	einst	einst	ADV	ADV	_	10	D	10:D	_
+6	die	der	DET	ART	_	8	R	8:R	_
+7	andere	ander	ADJ	ADJA	_	8	E	8:E	_
+8	Ansicht	Ansicht	NOUN	NN	_	10	A	10:A	_
+9	Maurys	Maurys	PROPN	NE	_	8	A	8:A	_
+10	rechtfertigen	rechtfertigen	VERB	VVINF	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+13	diese	dies	PRON	PDAT	_	18	E	18:E	_
+14	seit	seit	ADP	NN	_	15	R	15:R	_
+15	Jahrhunderten	Jahrhundert	NOUN	NN	_	17	D	17:D	_
+16	so	so	ADV	ADV	_	17	D	17:D	_
+17	zusammengehäuften	zusammengehäuft	ADJ	ADJA	_	18	E	18:E	_
+18	Stoffe	Stoff	NOUN	NN	_	0	C	0:C|29:A|17:A	_
+19	durch	durch	ADP	APPR	_	20	R	20:R	_
+20	Einwirken	einwirken	NOUN	NN	_	23	A	23:A	_
+21	des	der	DET	ART	_	22	R	22:R	_
+22	Wassers	Wasser	NOUN	NN	_	20	A	20:A	_
+23	sich	er|es|sie	PRON	PRF	_	10	A	10:A	_
+24	mineralisieren	mineralisieren	VERB	VVINF	_	23	Terminal	23:Terminal	_
+25	und	und	CCONJ	NE	_	23	L	23:L	_
+26	dann	dann	ADV	ADV	_	29	D	29:D	_
+27	unerschöpfliche	unerschöpfliche	ADJ	ADJA	_	28	E	28:E	_
+28	Kohlengruben	Kohlengrube	NOUN	NN	_	29	A	29:A	_
+29	bilden	bilden	VERB	VVINF	_	23	H	23:H	_
+30	werden	werden	AUX	VVFIN	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

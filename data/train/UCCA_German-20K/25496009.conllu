@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25496009
+# text = « » Doch muß sie Ihnen genügen ! «
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Doch	doch	CCONJ	ADV	_	7	L	7:L	_
+4	muß	müssen	AUX	VMFIN	_	7	D	7:D	_
+5	sie	sie	PRON	ADV	_	7	A	7:A	_
+6	Ihnen	Sie|sie	PRON	PPER	_	7	A	7:A	_
+7	genügen	genügen	VERB	VVFIN	_	0	H	0:H	_
+8	!	!	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

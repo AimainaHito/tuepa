@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 376005
+# text = Gyllenhaal then played against type as a frustrated Marine in Jarhead ( 2005 ) . The same year , his role as Jack Twist in Brokeback Mountain earned him critical acclaim .
+1	Gyllenhaal	Gyllenhaal	ADJ	JJ	_	3	A	3:A	_
+2	then	then	ADV	RB	_	3	G	3:G	_
+3	played	play	VERB	VBD	_	0	H	0:H	_
+4	against	against	ADP	IN	_	5	R	5:R	_
+5	type	type	NOUN	NN	_	3	A	3:A	_
+6	as	as	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	frustrated	frustrated	ADJ	JJ	_	9	E	9:E	_
+9	Marine	Marine	PROPN	NNP	_	3	A	3:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Jarhead	Jarhead	PROPN	NNP	_	3	A	3:A	_
+12	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+13	2005	2005	NUM	CD	_	11	E	11:E	_
+14	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+15	.	.	PUNCT	.	_	3	U	3:U	_
+16	The	the	DET	DT	_	18	E	18:E	_
+17	same	same	ADJ	JJ	_	18	E	18:E	_
+18	year	year	NOUN	NN	_	28	D	28:D	_
+19	,	,	PUNCT	,	_	28	U	28:U	_
+20	his	he	PRON	PRP$	_	21	A	21:A	_
+21	role	role	NOUN	NN	_	28	A	28:A	_
+22	as	as	ADP	IN	_	23	R	23:R	_
+23	Jack	Jack	PROPN	NNP	_	21	A	21:A	_
+24	Twist	Twist	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Brokeback	Brokeback	PROPN	NNP	_	21	E	21:E	_
+27	Mountain	Mountain	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	earned	earn	VERB	VBD	_	3	H	3:H	_
+29	him	he	PRON	PRP	_	28	A	28:A	_
+30	critical	critical	ADJ	JJ	_	31	A	31:A	_
+31	acclaim	acclaim	NOUN	NN	_	28	A	28:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

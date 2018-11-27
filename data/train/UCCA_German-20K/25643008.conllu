@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25643008
+# text = » 1 / 18.000 befindet sich im Ionischen Meer , und 1 / 29.000 in der Adria . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	1	1	NUM	CARD	_	5	A	5:A	_
+3	/	/	PUNCT	$(	_	2	U	2:U	_
+4	18.000	18.0	NUM	CARD	_	2	Terminal	2:Terminal	_
+5	befindet	befinden	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	im	im	ADV	NN	_	8	R	8:R	_
+8	Ionischen	ionischen	PROPN	ADJA	_	5	A	5:A	_
+9	Meer	Meer	PROPN	NN	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	und	und	CCONJ	NE	_	5	L	5:L	_
+12	1	1	NUM	CARD	_	5	H	5:H	_
+13	/	/	PUNCT	$(	_	12	U	12:U	_
+14	29.000	29.0	NUM	CARD	_	12	Terminal	12:Terminal	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Adria	Adria	PROPN	NE	_	12	A	12:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+19	«	«	PUNCT	$(	_	17	U	17:U	_
+

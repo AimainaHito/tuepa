@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 236001
+# text = Although saddened by the news , he also tweeted " If they killed the guy sooner , they will say why not negotiate first ? If they negotiate first , they ask why not kill the guy sooner ?
+1	Although	although	SCONJ	IN	_	2	L	2:L	_
+2	saddened	sadden	VERB	VBN	_	0	H	0:H	_
+3	by	by	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	news	news	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	he	he	PRON	PRP	_	9	A	9:A|2:A	_
+8	also	also	ADV	RB	_	9	D	9:D	_
+9	tweeted	tweete	VERB	VBD	_	2	H	2:H	_
+10	"	"	PUNCT	``	_	9	U	9:U	_
+11	If	if	SCONJ	IN	_	13	L	13:L	_
+12	they	they	PRON	PRP	_	13	A	13:A	_
+13	killed	kill	VERB	VBD	_	9	A	9:A	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	guy	guy	NOUN	NN	_	13	A	13:A	_
+16	sooner	sooner	ADV	RBR	_	13	D	13:D	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	they	they	PRON	PRP	_	20	A	20:A	_
+19	will	will	AUX	MD	_	20	F	20:F	_
+20	say	say	VERB	VB	_	13	H	13:H	_
+21	why	why	ADV	WRB	_	23	F	23:F	_
+22	not	not	PART	RB	_	23	D	23:D	_
+23	negotiate	negotiate	VERB	VB	_	20	A	20:A	_
+24	first	first	ADV	RB	_	23	D	23:D	_
+25	?	?	PUNCT	.	_	13	U	13:U	_
+26	If	if	SCONJ	IN	_	13	L	13:L	_
+27	they	they	PRON	PRP	_	28	A	28:A	_
+28	negotiate	negotiate	VERB	VBP	_	13	H	13:H	_
+29	first	first	ADV	RB	_	28	D	28:D	_
+30	,	,	PUNCT	,	_	13	U	13:U	_
+31	they	they	PRON	PRP	_	32	A	32:A	_
+32	ask	ask	VERB	VBP	_	13	H	13:H	_
+33	why	why	ADV	WRB	_	35	F	35:F	_
+34	not	not	PART	RB	_	35	D	35:D	_
+35	kill	kill	VERB	VB	_	32	A	32:A	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	guy	guy	NOUN	NN	_	35	A	35:A	_
+38	sooner	sooner	ADV	RBR	_	35	D	35:D	_
+39	?	?	PUNCT	.	_	35	U	35:U	_
+

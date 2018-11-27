@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 500004
+# text = Choreographed by Toni Basil , and lavishly produced with theatrical special effects , the high - budget stage production was filmed by Alan Yentob .
+1	Choreographed	Choreograph	VERB	VBN	_	0	H	0:H	_
+2	by	by	ADP	IN	_	3	R	3:R	_
+3	Toni	toni	PROPN	NNP	_	1	A	1:A	_
+4	Basil	Basil	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	and	and	CCONJ	CC	_	1	L	1:L	_
+7	lavishly	lavishly	ADV	RB	_	8	D	8:D	_
+8	produced	produce	VERB	VBN	_	1	H	1:H	_
+9	with	with	ADP	IN	_	12	R	12:R	_
+10	theatrical	theatrical	ADJ	JJ	_	12	E	12:E	_
+11	special	special	ADJ	JJ	_	12	E	12:E	_
+12	effects	effect	NOUN	NNS	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	the	the	DET	DT	_	19	E	19:E	_
+15	high	high	ADJ	JJ	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	budget	budget	NOUN	NN	_	19	E	19:E	_
+18	stage	stage	NOUN	NN	_	19	E	19:E	_
+19	production	production	NOUN	NN	_	21	A	21:A|1:A|8:A	_
+20	was	be	AUX	VBD	_	21	F	21:F	_
+21	filmed	film	VERB	VBN	_	1	H	1:H	_
+22	by	by	ADP	IN	_	23	R	23:R	_
+23	Alan	Alan	PROPN	NNP	_	21	A	21:A	_
+24	Yentob	Yentob	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

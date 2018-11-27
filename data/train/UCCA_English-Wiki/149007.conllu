@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 149007
+# text = " Her health began to deteriorate not long after her final screen appearance .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Her	she	PRON	PRP$	_	3	E	3:E	_
+3	health	health	NOUN	NN	_	6	A	6:A	_
+4	began	begin	VERB	VBD	_	6	D	6:D	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	deteriorate	deteriorate	VERB	VB	_	0	H	0:H	_
+7	not	not	ADV	RB	_	8	E	8:E	_
+8	long	long	ADV	RB	_	9	E	9:E	_
+9	after	after	ADP	IN	_	6	L	6:L	_
+10	her	she	PRON	PRP$	_	13	A	13:A	_
+11	final	final	ADJ	JJ	_	13	D	13:D	_
+12	screen	screen	NOUN	NN	_	13	A	13:A	_
+13	appearance	appearance	NOUN	NN	_	6	H	6:H	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

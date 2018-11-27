@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25775003
+# text = » Es sind Robben und Walrosse , deren verschiedene Arten wir , wenn ich nicht irre , hier zu beobachten Gelegenheit haben werden . Machen wir uns auf den Weg . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Es	es	PRON	PPER	_	3	F	3:F	_
+3	sind	sein	AUX	NN	_	0	H	0:H	_
+4	Robben	Robbe	NOUN	NE	_	3	A	3:A	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Walrosse	Walrosse	NOUN	NE	_	4	C	4:C	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	deren	der	PRON	PRELAT	_	20	R	20:R	_
+9	verschiedene	verschieden	ADJ	ADJA	_	10	E	10:E	_
+10	Arten	Art	NOUN	NN	_	20	A	20:A	_
+11	wir	wir	PRON	NE	_	20	A	20:A	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+14	ich	ich	PRON	PPER	_	16	A	16:A	_
+15	nicht	nicht	PART	CARD	_	16	D	16:D	_
+16	irre	irre	ADJ	ADJA	_	3	H	3:H	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	hier	hier	ADV	ADV	_	20	A	20:A	_
+19	zu	zu	ADP	NE	_	20	F	20:F	_
+20	beobachten	beobacht	ADJ	ADJA	_	4	E	4:E	_
+21	Gelegenheit	Gelegenheit	NOUN	NN	_	20	D	20:D	_
+22	haben	haben	VERB	VAINF	_	20	F	20:F	_
+23	werden	werden	AUX	VVFIN	_	20	F	20:F	_
+24	.	.	PUNCT	$.	_	3	U	3:U	_
+25	Machen	machen	NOUN	VVINF	_	3	H	3:H	_
+26	wir	wir	PRON	NE	_	25	A	25:A	_
+27	uns	wir	PRON	NE	_	25	Terminal	25:Terminal	_
+28	auf	auf	ADP	APPR	_	25	Terminal	25:Terminal	_
+29	den	der	DET	ART	_	25	Terminal	25:Terminal	_
+30	Weg	Weg	NOUN	NN	_	25	Terminal	25:Terminal	_
+31	.	.	PUNCT	$.	_	25	U	25:U	_
+32	«	«	PUNCT	$(	_	25	U	25:U	_
+

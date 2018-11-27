@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 99002
+# text = Fort heureusement , ce compartiment ne renfermait pas les chaudières , car les feux se fussent subitement éteints .
+1	Fort	fort	ADV	_	_	2	E	2:E	_
+2	heureusement	heureusement	ADV	_	_	7	G	7:G	_
+3	,	,	PUNCT	_	_	7	U	7:U	_
+4	ce	ce	DET	_	_	5	E	5:E	_
+5	compartiment	compartiment	NOUN	_	_	7	A	7:A	_
+6	ne	ne	ADV	_	_	7	D	7:D	_
+7	renfermait	renfermer	VERB	_	_	0	H	0:H	_
+8	pas	pas	ADV	_	_	6	Terminal	6:Terminal	_
+9	les	le	DET	_	_	10	E	10:E	_
+10	chaudières	chaudière	NOUN	_	_	7	A	7:A	_
+11	,	,	PUNCT	_	_	7	U	7:U	_
+12	car	car	CCONJ	_	_	7	L	7:L	_
+13	les	le	DET	_	_	14	E	14:E	_
+14	feux	feu	NOUN	_	_	15	A	15:A	_
+15	se	se	PRON	_	_	7	H	7:H	_
+16	fussent	fusser	VERB	_	_	15	F	15:F	_
+17	subitement	subitement	ADV	_	_	15	D	15:D	_
+18	éteints	éteint	ADJ	_	_	15	Terminal	15:Terminal	_
+19	.	.	PUNCT	_	_	15	U	15:U	_
+

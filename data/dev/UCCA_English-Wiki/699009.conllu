@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 699009
+# text = Though the extent of his injuries were never fully disclosed , Dylan said that he broke several vertebrae in his neck .
+1	Though	though	SCONJ	IN	_	10	L	10:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	extent	extent	NOUN	NN	_	6	E	6:E	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	injuries	injury	NOUN	NNS	_	10	A	10:A	_
+7	were	be	AUX	VBD	_	10	F	10:F	_
+8	never	never	ADV	RB	_	10	D	10:D	_
+9	fully	fully	ADV	RB	_	10	D	10:D	_
+10	disclosed	disclose	VERB	VBN	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Dylan	Dylan	PROPN	NNP	_	13	A	13:A	_
+13	said	say	VERB	VBD	_	10	H	10:H	_
+14	that	that	SCONJ	IN	_	16	F	16:F	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	broke	break	VERB	VBD	_	13	A	13:A	_
+17	several	several	ADJ	JJ	_	18	E	18:E	_
+18	vertebrae	vertebra	NOUN	NN	_	16	A	16:A	_
+19	in	in	ADP	IN	_	21	R	21:R	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	neck	neck	NOUN	NN	_	18	E	18:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25598016
+# text = Anfangs wusste ich nicht recht , was ich von dem barschen Anfall denken sollte , aber ich beruhigte mich , als ich sah , dass der Kapitän sich neben mich legte und sich unbeweglich hielt .
+1	Anfangs	anfangs	ADV	ADV	_	2	D	2:D	_
+2	wusste	wissen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	nicht	nicht	PART	XY	_	2	D	2:D	_
+5	recht	recht	ADV	NE	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	was	was	PRON	NE	_	13	A	13:A	_
+8	ich	ich	PRON	PPER	_	13	A	13:A	_
+9	von	von	ADP	NN	_	12	R	12:R	_
+10	dem	der	DET	ART	_	12	E	12:E	_
+11	barschen	barsch	ADJ	ADJA	_	12	E	12:E	_
+12	Anfall	Anfall	NOUN	NN	_	13	A	13:A	_
+13	denken	denken	VERB	VVFIN	_	2	A	2:A	_
+14	sollte	sollen	AUX	VMFIN	_	13	D	13:D	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	aber	aber	CCONJ	KON	_	2	L	2:L	_
+17	ich	ich	PRON	PPER	_	18	A	18:A	_
+18	beruhigte	beruhigen	VERB	VVFIN	_	2	H	2:H	_
+19	mich	ich	PRON	PRF	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	als	als	SCONJ	KOUS	_	2	L	2:L	_
+22	ich	ich	PRON	PPER	_	23	A	23:A	_
+23	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	dass	dass	SCONJ	KOUS	_	28	L	28:L	_
+26	der	der	DET	ART	_	27	E	27:E	_
+27	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|33:A	_
+28	sich	er|es|sie	PRON	PRF	_	23	A	23:A	_
+29	neben	neben	ADP	TRUNC	_	30	R	30:R	_
+30	mich	ich	PRON	PPER	_	28	A	28:A	_
+31	legte	legen	VERB	VVFIN	_	28	Terminal	28:Terminal	_
+32	und	und	CCONJ	NE	_	28	L	28:L	_
+33	sich	er|es|sie	PRON	PRF	_	28	H	28:H	_
+34	unbeweglich	unbeweglich	ADJ	ADJD	_	33	D	33:D	_
+35	hielt	halten	VERB	VVFIN	_	33	Terminal	33:Terminal	_
+36	.	.	PUNCT	$.	_	33	U	33:U	_
+

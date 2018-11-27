@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 137001
+# text = Her parents had read Shaw to her when she was a child , which made the play a special experience for the actress .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	parents	parent	NOUN	NNS	_	4	A	4:A	_
+3	had	have	AUX	VBD	_	4	F	4:F	_
+4	read	read	VERB	VBN	_	0	H	0:H	_
+5	Shaw	Shaw	ADV	RB	_	4	A	4:A	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	her	she	PRON	PRP	_	4	A	4:A	_
+8	when	when	ADV	WRB	_	4	L	4:L	_
+9	she	she	PRON	PRP	_	12	A	12:A	_
+10	was	be	AUX	VBD	_	12	F	12:F	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	child	child	NOUN	NN	_	4	H	4:H	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	which	which	PRON	WDT	_	4	L	4:L	_
+15	made	make	VERB	VBD	_	4	H	4:H	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	play	play	NOUN	NN	_	15	A	15:A	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	special	special	ADJ	JJ	_	20	E	20:E	_
+20	experience	experience	NOUN	NN	_	17	E	17:E	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	actress	actress	NOUN	NN	_	20	E	20:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

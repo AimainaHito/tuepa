@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 98001
+# text = En effet , le danger ne pouvait être imminent .
+1	En	en	ADP	_	_	2	R	2:R	_
+2	effet	effet	NOUN	_	_	9	L	9:L	_
+3	,	,	PUNCT	_	_	9	U	9:U	_
+4	le	le	DET	_	_	5	E	5:E	_
+5	danger	danger	NOUN	_	_	9	A	9:A	_
+6	ne	ne	ADV	_	_	9	D	9:D	_
+7	pouvait	pouvoir	VERB	_	_	9	D	9:D	_
+8	être	être	AUX	_	_	9	F	9:F	_
+9	imminent	immidre	ADJ	_	_	0	H	0:H	_
+10	.	.	PUNCT	_	_	9	U	9:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 652014
+# text = The ACLU , representing Wiener , won a favourable decision in their suit against the FBI in the Ninth Circuit in 1991 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	ACLU	Aclu	NOUN	NN	_	7	A	7:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	representing	represent	VERB	VBG	_	2	E	2:E	_
+5	Wiener	Wiener	PROPN	NNP	_	4	A	4:A	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	won	win	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	favourable	favourable	ADJ	JJ	_	10	E	10:E	_
+10	decision	decision	NOUN	NN	_	7	A	7:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	their	they	PRON	PRP$	_	13	A	13:A	_
+13	suit	suit	NOUN	NN	_	7	A	7:A	_
+14	against	against	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	FBI	FBI	PROPN	NNP	_	13	A	13:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	Ninth	Ninth	PROPN	NNP	_	7	A	7:A	_
+20	Circuit	Circuit	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	1991	1991	NUM	CD	_	7	D	7:D	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

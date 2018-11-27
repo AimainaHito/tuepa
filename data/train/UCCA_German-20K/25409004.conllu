@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25409004
+# text = Demnach war dieses außerordentliche See tier im Stande , mit erstaunlicher Schnelligkeit seine Stellung zu wechseln , da es vom Governor Higginson und Christobal Colon nach Verlauf von drei Tagen an zwei Punkten beobachtet wurde , welche der Karte nach über siebenhundert See meilen voneinander entfernt sind .
+1	Demnach	demnach	ADV	PAV	_	16	L	16:L	_
+2	war	sein	AUX	ADV	_	16	D	16:D	_
+3	dieses	dies	PRON	PDAT	_	6	E	6:E	_
+4	außerordentliche	außerordentlich	ADJ	ADJA	_	6	E	6:E	_
+5	See	See	NOUN	NN	_	6	E	6:E	_
+6	tier	tier	ADJ	NE	_	16	A	16:A	_
+7	im	im	ADJ	NE	_	2	Terminal	2:Terminal	_
+8	Stande	Stand	NOUN	NE	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	16	U	16:U	_
+10	mit	mit	ADP	APPR	_	11	R	11:R	_
+11	erstaunlicher	erstaunlich	ADJ	ADJA	_	16	A	16:A	_
+12	Schnelligkeit	Schnelligkeit	NOUN	NN	_	11	A	11:A	_
+13	seine	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Stellung	Stellung	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	wechseln	wechseln	VERB	VVINF	_	0	H	0:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	da	da	SCONJ	KOUS	_	16	L	16:L	_
+19	es	es	PRON	PPER	_	34	A	34:A	_
+20	vom	vom	ADP	NN	_	21	R	21:R	_
+21	Governor	Governor	PROPN	NE	_	34	A	34:A	_
+22	Higginson	Higginson	PROPN	NE	_	21	Terminal	21:Terminal	_
+23	und	und	CCONJ	NE	_	21	N	21:N	_
+24	Christobal	Christobal	PROPN	NE	_	21	C	21:C	_
+25	Colon	Colon	PROPN	NE	_	24	Terminal	24:Terminal	_
+26	nach	nach	ADP	CARD	_	27	E	27:E	_
+27	Verlauf	Verlauf	NOUN	NN	_	30	E	30:E	_
+28	von	von	ADP	NE	_	27	R	27:R	_
+29	drei	drei	NUM	CARD	_	30	E	30:E	_
+30	Tagen	Tag	NOUN	NN	_	34	D	34:D	_
+31	an	an	ADP	APPR	_	33	E	33:E	_
+32	zwei	zwei	NUM	VVFIN	_	33	E	33:E	_
+33	Punkten	Punkt	NOUN	NN	_	34	A	34:A	_
+34	beobachtet	beobachten	VERB	VVFIN	_	16	H	16:H	_
+35	wurde	werden	AUX	TRUNC	_	34	F	34:F	_
+36	,	,	PUNCT	$,	_	34	U	34:U	_
+37	welche	welch	PRON	NN	_	46	R	46:R	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Karte	Karte	NOUN	NE	_	46	A	46:A	_
+40	nach	nach	ADP	CARD	_	39	R	39:R	_
+41	über	über	ADP	NE	_	44	E	44:E	_
+42	siebenhundert	siebenhundert	NUM	VVFIN	_	44	E	44:E	_
+43	See	See	NOUN	NE	_	44	E	44:E	_
+44	meilen	meilen	VERB	ADV	_	46	A	46:A	_
+45	voneinander	voneinander	ADV	ADV	_	46	D	46:D	_
+46	entfernt	entfernt	ADJ	ADJD	_	33	E	33:E	_
+47	sind	sein	AUX	NN	_	46	F	46:F	_
+48	.	.	PUNCT	$.	_	46	U	46:U	_
+

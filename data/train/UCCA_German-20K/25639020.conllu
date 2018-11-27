@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25639020
+# text = » Ich habe befohlen , die Luken zu öffnen . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Ich	ich	PRON	PPER	_	4	A	4:A	_
+3	habe	haben	AUX	VAFIN	_	4	F	4:F	_
+4	befohlen	befohlen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Luken	Luken	NOUN	NN	_	9	A	9:A	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	öffnen	öffnen	VERB	VVINF	_	4	A	4:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

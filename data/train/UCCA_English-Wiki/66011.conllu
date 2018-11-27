@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 66011
+# text = Two years later , after the relationship had ended , she rented an apartment above a garage a few blocks from her mother 's home .
+1	Two	two	NUM	CD	_	2	E	2:E	_
+2	years	year	NOUN	NNS	_	12	D	12:D	_
+3	later	later	ADV	RBR	_	2	R	2:R	_
+4	,	,	PUNCT	,	_	12	U	12:U	_
+5	after	after	ADP	IN	_	12	L	12:L	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	relationship	relationship	NOUN	NN	_	9	A	9:A	_
+8	had	have	AUX	VBD	_	9	F	9:F	_
+9	ended	end	VERB	VBN	_	12	H	12:H	_
+10	,	,	PUNCT	,	_	12	U	12:U	_
+11	she	she	PRON	PRP	_	12	A	12:A	_
+12	rented	rent	VERB	VBD	_	0	H	0:H	_
+13	an	a	DET	DT	_	14	E	14:E	_
+14	apartment	apartment	NOUN	NN	_	12	A	12:A	_
+15	above	above	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	garage	garage	NOUN	NN	_	14	E	14:E	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	few	few	ADJ	JJ	_	18	Terminal	18:Terminal	_
+20	blocks	block	NOUN	NNS	_	14	E	14:E	_
+21	from	from	ADP	IN	_	25	R	25:R	_
+22	her	she	PRON	PRP$	_	25	E	25:E	_
+23	mother	mother	NOUN	NN	_	25	E	25:E	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	home	home	NOUN	NN	_	20	E	20:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

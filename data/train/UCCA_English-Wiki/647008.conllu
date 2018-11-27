@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 647008
+# text = The pair soon moved to California , beginning an 18 - month period he later called his " lost weekend " . In Los Angeles , Pang encouraged Lennon to develop regular contact with Julian , whom he had not seen for two years .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	pair	pair	NOUN	NN	_	0	C	0:C|8:A	_
+3	soon	soon	ADV	RB	_	4	D	4:D	_
+4	moved	move	VERB	VBD	_	0	H	0:H	_
+5	to	to	ADP	IN	_	6	R	6:R	_
+6	California	California	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	beginning	begin	VERB	VBG	_	4	H	4:H	_
+9	an	a	DET	DT	_	13	E	13:E	_
+10	18	18	NUM	CD	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	month	month	NOUN	NN	_	13	E	13:E	_
+13	period	period	NOUN	NN	_	0	C	0:C|16:A	_
+14	he	he	PRON	PRP	_	16	A	16:A	_
+15	later	later	ADV	RB	_	16	D	16:D	_
+16	called	call	VERB	VBD	_	4	H	4:H	_
+17	his	he	PRON	PRP$	_	20	E	20:E	_
+18	"	"	PUNCT	``	_	20	U	20:U	_
+19	lost	lose	ADJ	JJ	_	20	E	20:E	_
+20	weekend	weekend	NOUN	NN	_	16	A	16:A	_
+21	"	"	PUNCT	''	_	4	U	4:U	_
+22	.	.	PUNCT	.	_	4	U	4:U	_
+23	In	in	ADP	IN	_	24	R	24:R	_
+24	Los	Los	PROPN	NNP	_	28	A	28:A	_
+25	Angeles	angeles	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	,	_	28	U	28:U	_
+27	Pang	Pang	PROPN	NNP	_	28	A	28:A	_
+28	encouraged	encourage	VERB	VBD	_	4	H	4:H	_
+29	Lennon	Lennon	PROPN	NNP	_	28	A	28:A|33:A	_
+30	to	to	PART	TO	_	33	F	33:F	_
+31	develop	develop	VERB	VB	_	33	D	33:D	_
+32	regular	regular	ADJ	JJ	_	33	D	33:D	_
+33	contact	contact	NOUN	NN	_	28	A	28:A	_
+34	with	with	ADP	IN	_	35	R	35:R	_
+35	Julian	Julian	PROPN	NNP	_	33	A	33:A	_
+36	,	,	PUNCT	,	_	35	U	35:U	_
+37	whom	whom	PRON	WP	_	41	F	41:F	_
+38	he	he	PRON	PRP	_	41	A	41:A	_
+39	had	have	AUX	VBD	_	41	F	41:F	_
+40	not	not	PART	RB	_	41	D	41:D	_
+41	seen	see	VERB	VBN	_	35	E	35:E	_
+42	for	for	ADP	IN	_	44	R	44:R	_
+43	two	two	NUM	CD	_	44	E	44:E	_
+44	years	year	NOUN	NNS	_	41	D	41:D	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25674013
+# text = Ich für meinen Teil fuhr mit der Hand über meine Stirn und fühlte da einige Tropfen kalten Schweißes .
+1	Ich	ich	PRON	PPER	_	5	A	5:A|13:A	_
+2	für	für	ADP	APPR	_	5	G	5:G	_
+3	meinen	mein	PRON	PPOSAT	_	2	Terminal	2:Terminal	_
+4	Teil	Teil	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Hand	Hand	NOUN	NN	_	5	A	5:A	_
+9	über	über	ADP	NE	_	11	R	11:R	_
+10	meine	mein	DET	PPOSAT	_	11	E	11:E	_
+11	Stirn	Stirn	NOUN	NE	_	5	A	5:A	_
+12	und	und	CCONJ	NE	_	5	L	5:L	_
+13	fühlte	fühlen	VERB	VVFIN	_	5	H	5:H	_
+14	da	da	SCONJ	KOUS	_	13	A	13:A	_
+15	einige	einige	PRON	PIAT	_	16	E	16:E	_
+16	Tropfen	Tropfen	NOUN	NN	_	18	E	18:E	_
+17	kalten	kalt	ADJ	ADJA	_	18	E	18:E	_
+18	Schweißes	Schweißes	NOUN	NN	_	13	A	13:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

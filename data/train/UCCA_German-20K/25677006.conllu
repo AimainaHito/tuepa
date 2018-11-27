@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25677006
+# text = Aber zumeist werden die Perl muscheln über Matten von Pfrimmen kraut gebreitet , die am Ufer liegen .
+1	Aber	aber	CCONJ	KON	_	12	L	12:L	_
+2	zumeist	zumeist	ADV	ADV	_	12	D	12:D	_
+3	werden	werden	AUX	VVFIN	_	12	F	12:F	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Perl	Perl	NOUN	NE	_	6	E	6:E	_
+6	muscheln	muscheln	VERB	VVFIN	_	12	A	12:A	_
+7	über	über	ADP	ADJD	_	8	R	8:R	_
+8	Matten	Matte	NOUN	NN	_	12	A	12:A	_
+9	von	von	ADP	NN	_	8	R	8:R	_
+10	Pfrimmen	Pfrimmen	NOUN	NN	_	11	E	11:E	_
+11	kraut	krauen	VERB	ADJD	_	8	C	8:C	_
+12	gebreitet	breiten	AUX	VVPP	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	DET	PRELS	_	17	R	17:R	_
+15	am	am	ADJ	ADJD	_	16	R	16:R	_
+16	Ufer	Ufer	NOUN	NN	_	17	A	17:A	_
+17	liegen	liegen	VERB	VVFIN	_	8	E	8:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25599004
+# text = Zu unserem Glück haben diese gefräßigen Tiere kein scharfes Gesicht .
+1	Zu	zu	ADP	NN	_	10	G	10:G	_
+2	unserem	unser	DET	PPOSAT	_	1	Terminal	1:Terminal	_
+3	Glück	Glück	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	haben	haben	AUX	VAFIN	_	10	F	10:F	_
+5	diese	dies	PRON	PDAT	_	7	E	7:E	_
+6	gefräßigen	gefräßigen	ADP	ADJA	_	7	E	7:E	_
+7	Tiere	Tier	NOUN	NN	_	10	A	10:A	_
+8	kein	kein	PRON	PIAT	_	10	D	10:D	_
+9	scharfes	scharf	ADJ	ADJA	_	10	D	10:D	_
+10	Gesicht	Gesicht	NOUN	NN	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

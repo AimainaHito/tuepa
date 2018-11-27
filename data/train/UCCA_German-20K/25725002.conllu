@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25725002
+# text = War er der Kampf held unterdrückter Völker , Befreier der Sklaven massen ?
+1	War	sein	AUX	NN	_	0	H	0:H	_
+2	er	er	PRON	PPER	_	1	A	1:A|5:A|9:A	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	Kampf	Kampf	NOUN	NN	_	5	E	5:E	_
+5	held	held	AUX	NE	_	1	A	1:A	_
+6	unterdrückter	unterdrückter	ADJ	ADJA	_	7	E	7:E	_
+7	Völker	Volk	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	1	U	1:U	_
+9	Befreier	Befreier	NOUN	ADJA	_	1	A	1:A	_
+10	der	der	DET	ART	_	12	R	12:R	_
+11	Sklaven	Sklave	NOUN	NN	_	12	E	12:E	_
+12	massen	massen	VERB	VVPP	_	9	A	9:A	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+

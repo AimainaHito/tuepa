@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25769019
+# text = » Ich rechne sicher darauf ! « erwiderte ich mit dem Ton völliger Überzeugung .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	rechne	rechne	NOUN	NN	_	8	A	8:A	_
+4	sicher	sicher	ADJ	ADJD	_	3	D	3:D	_
+5	darauf	darauf	ADV	PAV	_	3	A	3:A	_
+6	!	!	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A|13:A	_
+10	mit	mit	ADP	APPR	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Ton	Ton	NOUN	NN	_	13	A	13:A	_
+13	völliger	völlig	ADJ	ADJD	_	8	A	8:A	_
+14	Überzeugung	Überzeugung	NOUN	NN	_	13	A	13:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

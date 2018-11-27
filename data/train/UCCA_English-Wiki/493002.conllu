@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 493002
+# text = Throughout his career , he has sold an estimated 140 million albums .
+1	Throughout	throughout	ADP	IN	_	3	L	3:L	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	career	career	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	he	he	PRON	PRP	_	7	A	7:A	_
+6	has	have	AUX	VBZ	_	7	F	7:F	_
+7	sold	sell	VERB	VBN	_	3	H	3:H	_
+8	an	a	DET	DT	_	11	E	11:E	_
+9	estimated	estimate	VERB	VBN	_	11	E	11:E	_
+10	140	140	NUM	CD	_	11	E	11:E	_
+11	million	million	NUM	CD	_	12	E	12:E	_
+12	albums	album	NOUN	NNS	_	7	A	7:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

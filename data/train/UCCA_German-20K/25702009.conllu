@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25702009
+# text = » Wenn Sie eine Harpune hätten , Meister Land , würde Ihnen da nicht die Hand zucken ? « » Allerdings , mein Herr . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	6	L	6:L	_
+3	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Harpune	Harpune	NOUN	NN	_	6	A	6:A	_
+6	hätten	haben	VERB	VAFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Meister	Meister	NOUN	NN	_	9	E	9:E	_
+9	Land	Land	NOUN	NN	_	6	G	6:G	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	würde	werden	AUX	NN	_	17	D	17:D	_
+12	Ihnen	Sie|sie	PRON	PPER	_	17	A	17:A	_
+13	da	da	ADV	ADV	_	17	D	17:D	_
+14	nicht	nicht	PART	CARD	_	17	D	17:D	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Hand	Hand	NOUN	NN	_	0	C	0:C|21:A	_
+17	zucken	zucken	VERB	VVFIN	_	0	P	0:P|21:P	_
+18	?	?	PUNCT	$.	_	21	U	21:U	_
+19	«	«	PUNCT	$(	_	21	U	21:U	_
+20	»	»	PUNCT	$(	_	21	U	21:U	_
+21	Allerdings	allerdings	ADV	ADV	_	6	H	6:H	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	mein	mein	PRON	PPOSAT	_	24	E	24:E	_
+24	Herr	Herr	NOUN	NN	_	21	G	21:G	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

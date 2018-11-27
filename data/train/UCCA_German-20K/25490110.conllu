@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25490110
+# text = Wie lange unsere Abgeschiedenheit und Verlassenheit im Schoß dieser Zelle dauern werde , getraute ich mir nicht zu schätzen .
+1	Wie	wie	ADV	KON	_	2	E	2:E	_
+2	lange	lang	ADJ	ADV	_	11	D	11:D	_
+3	unsere	unser	PRON	PPOSAT	_	4	E	4:E	_
+4	Abgeschiedenheit	Abgeschiedenheit	NOUN	NN	_	11	A	11:A	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Verlassenheit	Verlassenheit	NOUN	NN	_	4	C	4:C	_
+7	im	im	ADJ	NE	_	8	R	8:R	_
+8	Schoß	Schoß	NOUN	NN	_	11	A	11:A	_
+9	dieser	dies	PRON	PDAT	_	10	R	10:R	_
+10	Zelle	Zelle	NOUN	NN	_	8	E	8:E	_
+11	dauern	dauern	VERB	VVINF	_	19	A	19:A	_
+12	werde	werden	AUX	NN	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	19	U	19:U	_
+14	getraute	getrauen	VERB	VVFIN	_	19	D	19:D	_
+15	ich	ich	PRON	PPER	_	19	A	19:A	_
+16	mir	ich	PRON	PRF	_	19	A	19:A	_
+17	nicht	nicht	PART	CARD	_	19	D	19:D	_
+18	zu	zu	PART	NN	_	19	F	19:F	_
+19	schätzen	schätzen	VERB	VVINF	_	0	H	0:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

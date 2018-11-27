@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25596015
+# text = Die Meer pflanzen verließen bereits den trocken gewordenen Boden , während eine erstaunliche Menge von Tieren , Zoophyten , Wirbel tieren , Mollusken und Fischen dort wimmelte .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Meer	Meer	NOUN	NN	_	3	E	3:E	_
+3	pflanzen	pflanzen	VERB	VVFIN	_	4	A	4:A	_
+4	verließen	verlassen	VERB	VVFIN	_	0	H	0:H	_
+5	bereits	bereits	ADV	ADV	_	4	D	4:D	_
+6	den	der	DET	ART	_	9	E	9:E	_
+7	trocken	trock	ADJ	NN	_	9	E	9:E	_
+8	gewordenen	worden	ADJ	ADJA	_	7	F	7:F	_
+9	Boden	Boden	NOUN	NN	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	während	während	SCONJ	NN	_	4	L	4:L	_
+12	eine	ein	DET	ART	_	14	E	14:E	_
+13	erstaunliche	erstaunlich	ADJ	ADJA	_	14	E	14:E	_
+14	Menge	Menge	NOUN	NN	_	16	E	16:E	_
+15	von	von	ADP	NN	_	14	R	14:R	_
+16	Tieren	Tier	NOUN	NN	_	27	A	27:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Zoophyten	Zoophyten	NOUN	NN	_	16	C	16:C	_
+19	,	,	PUNCT	$,	_	16	U	16:U	_
+20	Wirbel	Wirbel	NOUN	NN	_	21	E	21:E	_
+21	tieren	tieren	VERB	VVFIN	_	16	C	16:C	_
+22	,	,	PUNCT	$,	_	16	U	16:U	_
+23	Mollusken	Mollusko	NOUN	NE	_	16	C	16:C	_
+24	und	und	CCONJ	NE	_	16	N	16:N	_
+25	Fischen	Fisch|Fischen	NOUN	NN	_	16	C	16:C	_
+26	dort	dort	ADV	ADV	_	27	A	27:A	_
+27	wimmelte	wimmeln	VERB	VVFIN	_	4	H	4:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

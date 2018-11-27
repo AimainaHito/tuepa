@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 505003
+# text = As " Ashes to Ashes " hit number one on the UK charts , Bowie opened a three - month run on Broadway on 24 September , starring in The Elephant Man .
+1	As	as	ADP	IN	_	7	L	7:L	_
+2	"	"	PUNCT	``	_	7	U	7:U	_
+3	Ashes	Ash	NOUN	NNS	_	7	A	7:A	_
+4	to	to	ADP	IN	_	3	Terminal	3:Terminal	_
+5	Ashes	Ash	NOUN	NNS	_	3	Terminal	3:Terminal	_
+6	"	"	PUNCT	''	_	7	U	7:U	_
+7	hit	hit	VERB	VBN	_	0	H	0:H	_
+8	number	number	NOUN	NN	_	7	A	7:A	_
+9	one	one	NUM	CD	_	8	E	8:E	_
+10	on	on	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	UK	UK	PROPN	NNP	_	13	E	13:E	_
+13	charts	chart	PROPN	NNPS	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	Bowie	Bowie	PROPN	NNP	_	21	A	21:A|28:A	_
+16	opened	open	VERB	VBD	_	21	D	21:D	_
+17	a	a	DET	DT	_	20	E	20:E	_
+18	three	three	NUM	CD	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	month	month	NOUN	NN	_	21	D	21:D	_
+21	run	run	NOUN	NN	_	7	H	7:H	_
+22	on	on	ADP	IN	_	23	R	23:R	_
+23	Broadway	Broadway	PROPN	NNP	_	21	A	21:A	_
+24	on	on	ADP	IN	_	26	R	26:R	_
+25	24	24	NUM	CD	_	26	E	26:E	_
+26	September	September	PROPN	NNP	_	21	D	21:D	_
+27	,	,	PUNCT	,	_	7	U	7:U	_
+28	starring	starr	VERB	VBG	_	7	H	7:H	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	The	the	DET	DT	_	28	A	28:A	_
+31	Elephant	elephant	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Man	man	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+

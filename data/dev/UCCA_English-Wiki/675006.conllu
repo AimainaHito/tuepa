@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 675006
+# text = On October 21 , 2011 , a pre - taped interview with Barbara Walters aired on ABC 's 20 / 20 , during the interview Carey and Cannon allowed the cameras to photograph / film twins Moroccan and Monroe for the first time .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	October	October	PROPN	NNP	_	15	D	15:D	_
+3	21	21	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2011	2011	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	15	U	15:U	_
+7	a	a	DET	DT	_	11	E	11:E	_
+8	pre	pre	X	AFX	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	taped	tape	VERB	VBN	_	11	E	11:E	_
+11	interview	interview	NOUN	NN	_	15	A	15:A	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	Barbara	Barbara	PROPN	NNP	_	11	E	11:E	_
+14	Walters	Walters	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	aired	aire	VERB	VBD	_	0	H	0:H	_
+16	on	on	ADP	IN	_	19	R	19:R	_
+17	ABC	ABC	PROPN	NNP	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	20	20	NUM	CD	_	15	A	15:A	_
+20	/	/	PUNCT	HYPH	_	19	U	19:U	_
+21	20	20	NUM	CD	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	15	U	15:U	_
+23	during	during	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	interview	interview	NOUN	NN	_	33	A	33:A	_
+26	Carey	Carey	PROPN	NNP	_	33	A	33:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	Cannon	cannon	PROPN	NNP	_	26	C	26:C	_
+29	allowed	allow	VERB	VBD	_	33	D	33:D	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	cameras	camera	NOUN	NNS	_	33	A	33:A	_
+32	to	to	ADP	IN	_	33	F	33:F	_
+33	photograph	photograph	NOUN	NN	_	15	H	15:H	_
+34	/	/	PUNCT	,	_	33	U	33:U	_
+35	film	film	NOUN	NN	_	33	C	33:C	_
+36	twins	twin	NOUN	NNS	_	37	E	37:E	_
+37	Moroccan	Moroccan	PROPN	NNP	_	33	A	33:A	_
+38	and	and	CCONJ	CC	_	37	N	37:N	_
+39	Monroe	Monroe	PROPN	NNP	_	37	C	37:C	_
+40	for	for	ADP	IN	_	43	R	43:R	_
+41	the	the	DET	DT	_	43	E	43:E	_
+42	first	first	ADJ	JJ	_	43	E	43:E	_
+43	time	time	NOUN	NN	_	33	D	33:D	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

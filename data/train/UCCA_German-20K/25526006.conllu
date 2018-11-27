@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25526006
+# text = » Ordnung der Hydromedusen ! « murmelte Conseil .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ordnung	Ordnung	NOUN	NN	_	4	E	4:E	_
+3	der	der	DET	ART	_	2	R	2:R	_
+4	Hydromedusen	Hydromedusen	PROPN	NE	_	7	A	7:A	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	murmelte	murmeln	AUX	VVFIN	_	0	H	0:H	_
+8	Conseil	Conseil	NOUN	NE	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

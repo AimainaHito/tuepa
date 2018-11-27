@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 193000
+# text = Sorkin conceived the political TV drama The West Wing in 1997 when he went unprepared to a lunch with producer John Wells and in a panic pitched to Wells a show centered on the senior staff of the White House , using leftover ideas from his script for The American President .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	conceived	conceive	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	political	political	ADJ	JJ	_	6	E	6:E	_
+5	TV	tv	NOUN	NN	_	6	E	6:E	_
+6	drama	drama	NOUN	NN	_	7	E	7:E	_
+7	The	the	DET	DT	_	2	A	2:A	_
+8	West	West	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Wing	wing	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1997	1997	NUM	CD	_	2	D	2:D	_
+12	when	when	ADV	WRB	_	2	L	2:L	_
+13	he	he	PRON	PRP	_	14	A	14:A|27:A|26:A|42:A	_
+14	went	go	VERB	VBD	_	2	H	2:H	_
+15	unprepared	unprepar	ADJ	JJ	_	14	D	14:D	_
+16	to	to	ADP	IN	_	18	R	18:R	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	lunch	lunch	NOUN	NN	_	14	A	14:A	_
+19	with	with	ADP	IN	_	21	R	21:R	_
+20	producer	producer	NOUN	NN	_	21	E	21:E	_
+21	John	John	PROPN	NNP	_	18	E	18:E	_
+22	Wells	Wells	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	and	and	CCONJ	CC	_	2	L	2:L	_
+24	in	in	ADP	IN	_	26	E	26:E	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	panic	panic	NOUN	NN	_	2	H	2:H	_
+27	pitched	pitch	VERB	VBN	_	2	H	2:H	_
+28	to	to	PART	TO	_	29	R	29:R	_
+29	Wells	Wells	VERB	VB	_	27	A	27:A	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	show	show	NOUN	NN	_	27	A	27:A	_
+32	centered	center	VERB	VBN	_	31	E	31:E	_
+33	on	on	ADP	IN	_	36	R	36:R	_
+34	the	the	DET	DT	_	36	E	36:E	_
+35	senior	senior	ADJ	JJ	_	36	E	36:E	_
+36	staff	staff	NOUN	NNS	_	32	A	32:A	_
+37	of	of	ADP	IN	_	39	R	39:R	_
+38	the	the	DET	DT	_	39	E	39:E	_
+39	White	White	PROPN	NNP	_	36	E	36:E	_
+40	House	House	PROPN	NNP	_	39	Terminal	39:Terminal	_
+41	,	,	PUNCT	,	_	2	U	2:U	_
+42	using	use	VERB	VBG	_	2	H	2:H	_
+43	leftover	leftover	NOUN	NN	_	44	E	44:E	_
+44	ideas	idea	NOUN	NNS	_	42	A	42:A	_
+45	from	from	ADP	IN	_	47	R	47:R	_
+46	his	he	PRON	PRP$	_	47	E	47:E	_
+47	script	script	NOUN	NN	_	44	E	44:E	_
+48	for	for	ADP	IN	_	49	R	49:R	_
+49	The	the	DET	DT	_	47	E	47:E	_
+50	American	American	ADJ	JJ	_	49	Terminal	49:Terminal	_
+51	President	President	PROPN	NNP	_	49	Terminal	49:Terminal	_
+52	.	.	PUNCT	.	_	49	U	49:U	_
+

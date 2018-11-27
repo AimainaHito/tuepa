@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 524012
+# text = In 1940 , she starred in three films : Andy Hardy Meets Debutante , Strike Up the Band , and Little Nellie Kelly .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1940	1940	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	three	three	NUM	CD	_	8	E	8:E	_
+8	films	film	NOUN	NNS	_	5	A	5:A	_
+9	:	:	PUNCT	:	_	8	U	8:U	_
+10	Andy	Andy	PROPN	NNP	_	8	E	8:E	_
+11	Hardy	Hardy	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Meets	meets	PROPN	NNPS	_	10	Terminal	10:Terminal	_
+13	Debutante	Debutante	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	Strike	Strike	PROPN	NNP	_	10	C	10:C	_
+16	Up	up	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	the	the	DET	DT	_	15	Terminal	15:Terminal	_
+18	Band	Band	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	,	,	PUNCT	,	_	10	U	10:U	_
+20	and	and	CCONJ	CC	_	10	N	10:N	_
+21	Little	Little	PROPN	NNP	_	10	C	10:C	_
+22	Nellie	Nellie	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Kelly	Kelly	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	.	.	PUNCT	.	_	10	U	10:U	_
+

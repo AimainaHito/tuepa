@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 649001
+# text = During his five - year career break he was content to sit back so long as McCartney was producing what Lennon saw as mediocre material .
+1	During	during	ADP	IN	_	7	L	7:L	_
+2	his	he	PRON	PRP$	_	7	A	7:A	_
+3	five	five	NUM	CD	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	year	year	NOUN	NN	_	7	D	7:D	_
+6	career	career	NOUN	NN	_	7	A	7:A	_
+7	break	break	NOUN	NN	_	0	H	0:H	_
+8	he	he	PRON	PRP	_	10	A	10:A|12:A	_
+9	was	be	AUX	VBD	_	10	F	10:F	_
+10	content	content	ADJ	JJ	_	7	H	7:H	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	sit	sit	VERB	VB	_	10	A	10:A	_
+13	back	back	ADV	RB	_	12	Terminal	12:Terminal	_
+14	so	so	ADV	RB	_	7	L	7:L	_
+15	long	long	ADV	RB	_	14	Terminal	14:Terminal	_
+16	as	as	SCONJ	IN	_	14	Terminal	14:Terminal	_
+17	McCartney	McCartney	PROPN	NNP	_	19	A	19:A	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	producing	produce	VERB	VBG	_	7	H	7:H	_
+20	what	what	PRON	WP	_	22	D	22:D	_
+21	Lennon	Lennon	PROPN	NNP	_	22	A	22:A	_
+22	saw	see	VERB	VBD	_	19	A	19:A	_
+23	as	as	ADP	IN	_	25	R	25:R	_
+24	mediocre	mediocre	ADJ	JJ	_	25	E	25:E	_
+25	material	material	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

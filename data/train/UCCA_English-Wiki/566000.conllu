@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 566000
+# text = On December 4 , Presley dropped into Sun Records where Carl Perkins and Jerry Lee Lewis were recording and jammed with them .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	6	D	6:D	_
+3	4	4	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Presley	Presley	PROPN	NNP	_	6	A	6:A|20:A	_
+6	dropped	drop	VERB	VBD	_	0	H	0:H	_
+7	into	into	ADP	IN	_	8	R	8:R	_
+8	Sun	Sun	PROPN	NNP	_	6	A	6:A	_
+9	Records	record	NOUN	NNS	_	8	Terminal	8:Terminal	_
+10	where	where	ADV	WRB	_	6	L	6:L	_
+11	Carl	Carl	PROPN	NNP	_	18	A	18:A	_
+12	Perkins	Perkins	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	11	N	11:N	_
+14	Jerry	Jerry	PROPN	NNP	_	11	C	11:C	_
+15	Lee	Lee	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Lewis	Lewis	PROPN	NNPS	_	14	Terminal	14:Terminal	_
+17	were	be	AUX	VBD	_	18	F	18:F	_
+18	recording	record	VERB	VBG	_	6	H	6:H	_
+19	and	and	CCONJ	CC	_	6	L	6:L	_
+20	jammed	jam	VERB	VBN	_	6	H	6:H	_
+21	with	with	ADP	IN	_	22	R	22:R	_
+22	them	they	PRON	PRP	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

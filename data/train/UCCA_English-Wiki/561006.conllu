@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 561006
+# text = The sessions yielded eight songs , including a cover of Carl Perkins ' rockabilly anthem " Blue Suede Shoes " . In February , Presley 's " I Forgot to Remember to Forget " , a Sun recording initially released the previous August , reached the top of the Billboard country chart .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	sessions	session	NOUN	NNS	_	3	A	3:A	_
+3	yielded	yield	VERB	VBD	_	0	H	0:H	_
+4	eight	eight	NUM	CD	_	5	E	5:E	_
+5	songs	song	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	including	include	VERB	VBG	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	cover	cover	NOUN	NN	_	5	E	5:E	_
+10	of	of	ADP	IN	_	17	R	17:R	_
+11	Carl	Carl	PROPN	NNP	_	15	E	15:E	_
+12	Perkins	Perkins	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	'	'	PART	POS	_	15	U	15:U	_
+14	rockabilly	rockabilly	NOUN	NN	_	15	E	15:E	_
+15	anthem	anthey	NOUN	NN	_	17	E	17:E	_
+16	"	"	PUNCT	''	_	17	U	17:U	_
+17	Blue	Blue	PROPN	NNP	_	9	E	9:E	_
+18	Suede	Suede	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Shoes	shoe	PROPN	NNPS	_	17	Terminal	17:Terminal	_
+20	"	"	PUNCT	''	_	3	U	3:U	_
+21	.	.	PUNCT	.	_	3	U	3:U	_
+22	In	in	ADP	IN	_	23	E	23:E	_
+23	February	February	PROPN	NNP	_	45	D	45:D	_
+24	,	,	PUNCT	,	_	45	U	45:U	_
+25	Presley	Presley	PROPN	NNP	_	28	E	28:E	_
+26	's	's	PART	POS	_	25	R	25:R	_
+27	"	"	PUNCT	``	_	28	U	28:U	_
+28	I	I	PRON	PRP	_	45	A	45:A	_
+29	Forgot	forget	VERB	VBD	_	28	Terminal	28:Terminal	_
+30	to	to	PART	TO	_	28	Terminal	28:Terminal	_
+31	Remember	remember	VERB	VB	_	28	Terminal	28:Terminal	_
+32	to	to	ADP	IN	_	28	Terminal	28:Terminal	_
+33	Forget	forget	PROPN	NNP	_	28	Terminal	28:Terminal	_
+34	"	"	PUNCT	''	_	28	U	28:U	_
+35	,	,	PUNCT	,	_	28	U	28:U	_
+36	a	a	DET	DT	_	38	E	38:E	_
+37	Sun	Sun	PROPN	NNP	_	38	E	38:E	_
+38	recording	record	NOUN	NN	_	28	E	28:E	_
+39	initially	initially	ADV	RB	_	40	D	40:D	_
+40	released	release	VERB	VBD	_	38	E	38:E	_
+41	the	the	DET	DT	_	43	E	43:E	_
+42	previous	previous	ADJ	JJ	_	43	E	43:E	_
+43	August	August	PROPN	NNP	_	40	D	40:D	_
+44	,	,	PUNCT	,	_	45	U	45:U	_
+45	reached	reach	VERB	VBD	_	3	H	3:H	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	top	top	NOUN	NN	_	45	A	45:A	_
+48	of	of	ADP	IN	_	52	R	52:R	_
+49	the	the	DET	DT	_	52	E	52:E	_
+50	Billboard	Billboard	PROPN	NNP	_	52	E	52:E	_
+51	country	country	NOUN	NN	_	52	E	52:E	_
+52	chart	chart	NOUN	NN	_	47	E	47:E	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

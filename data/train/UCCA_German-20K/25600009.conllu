@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25600009
+# text = Die Garne wurden an Bord gezogen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Garne	Garn	NOUN	NN	_	6	A	6:A	_
+3	wurden	werden	AUX	ADJD	_	6	F	6:F	_
+4	an	an	ADP	APPR	_	5	R	5:R	_
+5	Bord	Bord	NOUN	NN	_	6	A	6:A	_
+6	gezogen	ziehen	VERB	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

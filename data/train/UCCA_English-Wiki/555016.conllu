@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 555016
+# text = Other jobs followed during his school years : Precision Tool , Loew 's again , and MARL Metal Products .
+1	Other	other	ADJ	JJ	_	2	E	2:E	_
+2	jobs	job	NOUN	NNS	_	3	A	3:A	_
+3	followed	follow	VERB	VBD	_	0	H	0:H	_
+4	during	during	ADP	IN	_	7	R	7:R	_
+5	his	he	PRON	PRP$	_	7	A	7:A	_
+6	school	school	NOUN	NN	_	7	E	7:E	_
+7	years	year	NOUN	NNS	_	3	A	3:A	_
+8	:	:	PUNCT	:	_	3	U	3:U	_
+9	Precision	Precision	NOUN	NN	_	10	E	10:E	_
+10	Tool	tool	PROPN	NNP	_	2	E	2:E	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Loew	Loew	PROPN	NNP	_	10	C	10:C	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	again	again	ADV	RB	_	12	R	12:R	_
+15	,	,	PUNCT	,	_	10	U	10:U	_
+16	and	and	CCONJ	CC	_	10	N	10:N	_
+17	MARL	MARL	PROPN	NNP	_	10	C	10:C	_
+18	Metal	Metal	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	Products	Products	PROPN	NNPS	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	.	_	10	U	10:U	_
+

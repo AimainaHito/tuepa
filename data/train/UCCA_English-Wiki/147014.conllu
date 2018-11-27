@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 147014
+# text = Hughes wished to marry her , and the tabloids reported their impending nuptials , but at that time Hepburn was too focused on resurrecting her failing career .
+1	Hughes	Hughes	PROPN	NNP	_	2	A	2:A|4:A	_
+2	wished	wish	VERB	VBD	_	0	H	0:H	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	marry	marry	VERB	VB	_	2	A	2:A	_
+5	her	she	PRON	PRP	_	4	A	4:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	tabloids	tabloid	NOUN	NNS	_	10	A	10:A	_
+10	reported	report	VERB	VBD	_	2	H	2:H	_
+11	their	they	PRON	PRP$	_	13	A	13:A	_
+12	impending	impend	ADJ	JJ	_	13	D	13:D	_
+13	nuptials	nuptial	NOUN	NNS	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	but	but	CCONJ	CC	_	2	L	2:L	_
+16	at	at	ADP	IN	_	18	R	18:R	_
+17	that	that	DET	DT	_	18	E	18:E	_
+18	time	time	NOUN	NN	_	22	D	22:D	_
+19	Hepburn	Hepburn	PROPN	NNP	_	22	A	22:A|24:A	_
+20	was	be	AUX	VBD	_	22	F	22:F	_
+21	too	too	ADV	RB	_	22	D	22:D	_
+22	focused	focus	VERB	VBN	_	2	H	2:H	_
+23	on	on	SCONJ	IN	_	24	R	24:R	_
+24	resurrecting	resurrect	VERB	VBG	_	22	A	22:A	_
+25	her	she	PRON	PRP$	_	27	E	27:E	_
+26	failing	fail	VERB	VBG	_	27	E	27:E	_
+27	career	career	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

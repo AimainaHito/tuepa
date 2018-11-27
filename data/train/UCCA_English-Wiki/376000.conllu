@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 376000
+# text = Jacob Benjamin " Jake " Gyllenhaal ( pron . : / ˈdʒɪlənhɔːl / jil - ən - hawl , born December 19 , 1980 ) is an American actor .
+1	Jacob	Jacob	PROPN	NNP	_	26	A	26:A	_
+2	Benjamin	Benjamin	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	"	"	PUNCT	``	_	1	U	1:U	_
+4	Jake	Jake	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	"	"	PUNCT	''	_	1	U	1:U	_
+6	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	1	Terminal	1:Terminal	_
+7	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+8	pron	pron	NOUN	NN	_	1	E	1:E	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+10	:	:	PUNCT	:	_	8	U	8:U	_
+11	/	/	PUNCT	,	_	8	U	8:U	_
+12	ˈdʒɪlənhɔːl	ˈdʒɪlənhɔːl	NOUN	NN	_	8	A	8:A	_
+13	/	/	PUNCT	,	_	12	U	12:U	_
+14	jil	jil	NOUN	NN	_	12	C	12:C	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	ən	ən	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	-	-	PUNCT	HYPH	_	14	U	14:U	_
+18	hawl	hawl	NOUN	NN	_	14	Terminal	14:Terminal	_
+19	,	,	PUNCT	,	_	1	U	1:U	_
+20	born	bear	VERB	VBN	_	1	E	1:E	_
+21	December	December	PROPN	NNP	_	24	E	24:E	_
+22	19	19	NUM	CD	_	24	E	24:E	_
+23	,	,	PUNCT	,	_	24	U	24:U	_
+24	1980	1980	NUM	CD	_	20	D	20:D	_
+25	)	)	PUNCT	-RRB-	_	26	U	26:U	_
+26	is	be	AUX	VBZ	_	0	H	0:H	_
+27	an	a	DET	DT	_	29	E	29:E	_
+28	American	american	ADJ	JJ	_	29	E	29:E	_
+29	actor	actor	NOUN	NN	_	26	A	26:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

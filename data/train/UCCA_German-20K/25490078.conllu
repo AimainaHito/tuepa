@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25490078
+# text = « » Es ist sehr einfach , sie müssen sich bequemen zu bleiben .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Es	es	PRON	PPER	_	6	A	6:A	_
+4	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+5	sehr	sehr	ADV	NE	_	6	D	6:D	_
+6	einfach	einfach	ADJ	ADV	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sie	sie	PRON	ADV	_	13	A	13:A	_
+9	müssen	müssen	AUX	VMFIN	_	13	D	13:D	_
+10	sich	er|es|sie	PRON	PRF	_	13	D	13:D	_
+11	bequemen	bequem	ADJ	ADJA	_	10	Terminal	10:Terminal	_
+12	zu	zu	PART	NN	_	13	F	13:F	_
+13	bleiben	bleiben	VERB	VVINF	_	6	H	6:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

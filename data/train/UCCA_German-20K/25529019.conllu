@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25529019
+# text = Gerade im Gegenteil verstand der Kanadier diese Fische alle zu benennen .
+1	Gerade	gerade	ADV	ADV	_	11	D	11:D	_
+2	im	im	ADJ	NN	_	3	R	3:R	_
+3	Gegenteil	Gegenteil	NOUN	NN	_	11	A	11:A	_
+4	verstand	verstehen	VERB	VVFIN	_	11	D	11:D	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Fische	Fisch	NOUN	NN	_	11	A	11:A	_
+9	alle	alle	PRON	PIAT	_	8	E	8:E	_
+10	zu	zu	PART	NN	_	11	F	11:F	_
+11	benennen	benennen	VERB	VVINF	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25808012
+# text = » Wo , wenn 's beliebt ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wo	wo	ADV	PWAV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+5	's	es	PRON	PPER	_	6	F	6:F	_
+6	beliebt	belieben	VERB	VVPP	_	2	H	2:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

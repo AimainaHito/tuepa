@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 245006
+# text = According to The Oregonian , " Hawke does a good job as young Jack , being both physically robust but still boyishly naive . He makes Jack 's passion for White Fang real and keeps it from being ridiculous or overly sentimental .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	4	R	4:R	_
+3	The	the	DET	DT	_	4	E	4:E	_
+4	Oregonian	Oregonian	PROPN	NNP	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	"	"	PUNCT	''	_	1	U	1:U	_
+7	Hawke	Hawke	PROPN	NNP	_	11	A	11:A|16:A	_
+8	does	do	AUX	VBZ	_	11	F	11:F	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	good	good	ADJ	JJ	_	11	D	11:D	_
+11	job	job	NOUN	NN	_	1	A	1:A	_
+12	as	as	ADP	IN	_	14	R	14:R	_
+13	young	young	ADJ	JJ	_	14	E	14:E	_
+14	Jack	Jack	PROPN	NNP	_	11	A	11:A	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	being	be	AUX	VBG	_	11	H	11:H	_
+17	both	both	ADV	RB	_	19	N	19:N	_
+18	physically	physically	ADV	RB	_	19	E	19:E	_
+19	robust	robust	ADJ	JJ	_	16	A	16:A	_
+20	but	but	CCONJ	CC	_	19	N	19:N	_
+21	still	still	ADV	RB	_	23	E	23:E	_
+22	boyishly	boyishly	ADV	RB	_	23	E	23:E	_
+23	naive	naive	ADJ	JJ	_	19	C	19:C	_
+24	.	.	PUNCT	.	_	11	U	11:U	_
+25	He	he	PRON	PRP	_	26	A	26:A|35:A	_
+26	makes	make	VERB	VBZ	_	11	H	11:H	_
+27	Jack	Jack	PROPN	NNP	_	29	A	29:A	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	passion	passion	NOUN	NN	_	26	A	26:A	_
+30	for	for	ADP	IN	_	31	R	31:R	_
+31	White	White	PROPN	NNP	_	29	A	29:A	_
+32	Fang	Fang	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	real	real	ADJ	JJ	_	26	A	26:A	_
+34	and	and	CCONJ	CC	_	11	L	11:L	_
+35	keeps	keep	VERB	VBZ	_	11	H	11:H	_
+36	it	it	PRON	PRP	_	35	A	35:A|38:A	_
+37	from	from	SCONJ	IN	_	38	R	38:R	_
+38	being	be	AUX	VBG	_	35	A	35:A	_
+39	ridiculous	ridiculous	ADJ	JJ	_	38	A	38:A	_
+40	or	or	CCONJ	CC	_	39	N	39:N	_
+41	overly	overly	ADV	RB	_	42	E	42:E	_
+42	sentimental	sentimental	ADJ	JJ	_	39	C	39:C	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

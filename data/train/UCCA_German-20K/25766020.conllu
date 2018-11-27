@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25766020
+# text = Daß dieser Mann bis zur Verwegenheit kühn sei , war mir bekannt !
+1	Daß	daß	SCONJ	KOUS	_	7	R	7:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Mann	Mann	NOUN	NN	_	7	A	7:A	_
+4	bis	bis	ADP	APPR	_	6	R	6:R	_
+5	zur	zur	ADV	NE	_	6	E	6:E	_
+6	Verwegenheit	Verwegenheit	NOUN	NE	_	7	D	7:D	_
+7	kühn	kühnen	VERB	NN	_	12	A	12:A	_
+8	sei	sein	AUX	NN	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	12	U	12:U	_
+10	war	sein	AUX	ADV	_	12	F	12:F	_
+11	mir	ich	PRON	PPER	_	12	A	12:A	_
+12	bekannt	bekennen	ADJ	ADJD	_	0	H	0:H	_
+13	!	!	PUNCT	$.	_	12	U	12:U	_
+

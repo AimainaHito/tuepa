@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25650023
+# text = Blut klumpen hatten sich in der zerfließenden Masse gebildet , die an Farbe der Weinhefe glich .
+1	Blut	Blut	NOUN	ADV	_	2	E	2:E	_
+2	klumpen	klumpen	VERB	VVINF	_	4	A	4:A	_
+3	hatten	haben	AUX	VAFIN	_	4	F	4:F	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	zerfließenden	zerfließend	ADJ	ADJA	_	8	E	8:E	_
+8	Masse	Masse	NOUN	NN	_	4	A	4:A	_
+9	gebildet	bilden	VERB	VVPP	_	4	Terminal	4:Terminal	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	die	der	PRON	PRELS	_	16	R	16:R	_
+12	an	an	ADP	APPR	_	13	R	13:R	_
+13	Farbe	Farbe	NOUN	NN	_	16	A	16:A	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Weinhefe	Weinhefe	NOUN	NN	_	16	A	16:A	_
+16	glich	glich	ADJ	ADJD	_	8	E	8:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

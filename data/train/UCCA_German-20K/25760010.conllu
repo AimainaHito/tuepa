@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25760010
+# text = Aber bald mußten sie seinen Stößen ausweichen .
+1	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+2	bald	bald	ADV	ADV	_	7	D	7:D	_
+3	mußten	müssen	AUX	NN	_	7	D	7:D	_
+4	sie	sie	PRON	ADV	_	7	A	7:A	_
+5	seinen	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Stößen	Stoß	NOUN	NN	_	7	A	7:A	_
+7	ausweichen	ausweichen	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

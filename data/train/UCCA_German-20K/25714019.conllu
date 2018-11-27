@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25714019
+# text = Mit wem stand der Kapitän in solcher Verbindung ?
+1	Mit	mit	ADP	APPR	_	2	R	2:R	_
+2	wem	wer	PRON	PWS	_	3	A	3:A	_
+3	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	APPR	_	3	Terminal	3:Terminal	_
+7	solcher	solch	PRON	PIAT	_	3	D	3:D	_
+8	Verbindung	Verbindung	NOUN	NN	_	3	Terminal	3:Terminal	_
+9	?	?	PUNCT	$.	_	3	U	3:U	_
+

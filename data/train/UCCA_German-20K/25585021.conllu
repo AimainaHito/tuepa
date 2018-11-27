@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25585021
+# text = » Hören Sie mich gefälligst an , dann werden Sie sehen , ob Sie mir Widerspruch mit mir selbst oder Narrheit vorwerfen dürfen .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Hören	hören	NOUN	VVFIN	_	0	H	0:H	_
+3	Sie	Sie|sie	PRON	PPER	_	2	F	2:F	_
+4	mich	ich	PRON	PPER	_	2	A	2:A	_
+5	gefälligst	fälligsen	VERB	ADV	_	2	D	2:D	_
+6	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	dann	dann	ADV	ADV	_	2	L	2:L	_
+9	werden	werden	AUX	ADV	_	11	D	11:D	_
+10	Sie	Sie|sie	PRON	PPER	_	11	A	11:A	_
+11	sehen	sehen	VERB	VVINF	_	2	H	2:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	ob	ob	SCONJ	VVFIN	_	22	R	22:R	_
+14	Sie	sie	PRON	PPER	_	22	A	22:A	_
+15	mir	ich	PRON	PPER	_	22	A	22:A	_
+16	Widerspruch	Widerspruch	NOUN	NN	_	22	A	22:A	_
+17	mit	mit	ADP	APPR	_	18	R	18:R	_
+18	mir	ich	PRON	PPER	_	16	A	16:A	_
+19	selbst	selbst	ADV	VVFIN	_	16	D	16:D	_
+20	oder	oder	CCONJ	CARD	_	16	N	16:N	_
+21	Narrheit	Narrheit	NOUN	NN	_	16	C	16:C	_
+22	vorwerfen	vorwerfen	VERB	VVINF	_	11	A	11:A	_
+23	dürfen	dürfen	AUX	VMFIN	_	22	D	22:D	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+

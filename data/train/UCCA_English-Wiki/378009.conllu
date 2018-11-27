@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 378009
+# text = The story , which received mixed reviews , is loosely based on writer / director Brad Silberling 's personal experiences following the murder of girlfriend Rebecca Schaeffer .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	story	story	NOUN	NN	_	11	A	11:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	which	which	PRON	WDT	_	5	F	5:F	_
+5	received	receive	VERB	VBD	_	2	E	2:E	_
+6	mixed	mix	ADJ	JJ	_	7	E	7:E	_
+7	reviews	review	NOUN	NNS	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	is	be	AUX	VBZ	_	11	F	11:F	_
+10	loosely	loosely	ADV	RB	_	11	D	11:D	_
+11	based	base	VERB	VBN	_	0	H	0:H	_
+12	on	on	ADP	IN	_	20	R	20:R	_
+13	writer	writer	NOUN	NN	_	16	E	16:E	_
+14	/	/	PUNCT	,	_	13	U	13:U	_
+15	director	director	NOUN	NN	_	13	C	13:C	_
+16	Brad	Brad	PROPN	NNP	_	20	A	20:A	_
+17	Silberling	Silberling	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	's	's	PART	POS	_	16	R	16:R	_
+19	personal	personal	ADJ	JJ	_	20	E	20:E	_
+20	experiences	experience	NOUN	NNS	_	11	A	11:A	_
+21	following	follow	VERB	VBG	_	20	L	20:L	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	murder	murder	NOUN	NN	_	20	H	20:H	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	girlfriend	girlfriend	NOUN	NN	_	26	E	26:E	_
+26	Rebecca	Rebecca	PROPN	NNP	_	23	A	23:A	_
+27	Schaeffer	Schaeffer	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+

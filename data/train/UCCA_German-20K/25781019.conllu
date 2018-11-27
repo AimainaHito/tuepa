@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25781019
+# text = Unterdessen waren die Wasser behälter gefüllt worden , und die ›Nautilus‹ tauchte langsam hinab und machte in einer Tiefe von 1.000 Fuß halt .
+1	Unterdessen	unterdessen	ADV	ADV	_	6	L	6:L	_
+2	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Wasser	Wasser	NOUN	NN	_	5	E	5:E	_
+5	behälter	behält	ADJ	ADJA	_	6	A	6:A	_
+6	gefüllt	fülln	VERB	VVPP	_	0	H	0:H	_
+7	worden	werden	AUX	ADV	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	und	und	CCONJ	NE	_	6	L	6:L	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|23:A	_
+12	tauchte	tauchen	VERB	VVFIN	_	6	H	6:H	_
+13	langsam	langsam	ADJ	ADJD	_	12	D	12:D	_
+14	hinab	hinab	ADV	PTKVZ	_	12	Terminal	12:Terminal	_
+15	und	und	CCONJ	NE	_	6	L	6:L	_
+16	machte	machen	VERB	VVFIN	_	23	D	23:D	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	einer	ein	DET	ART	_	19	E	19:E	_
+19	Tiefe	Tiefe	NOUN	NN	_	23	A	23:A	_
+20	von	von	ADP	NE	_	21	R	21:R	_
+21	1.000	1.0	NUM	CARD	_	19	E	19:E	_
+22	Fuß	Fuß	NOUN	NN	_	21	Terminal	21:Terminal	_
+23	halt	halt	VERB	VVFIN	_	6	H	6:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

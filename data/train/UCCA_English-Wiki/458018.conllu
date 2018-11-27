@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 458018
+# text = Several Democratic candidates denied interviews to support the union .
+1	Several	several	ADJ	JJ	_	3	E	3:E	_
+2	Democratic	Democratic	ADJ	JJ	_	3	E	3:E	_
+3	candidates	candidate	NOUN	NNS	_	0	C	0:C|7:A	_
+4	denied	deny	VERB	VBN	_	0	H	0:H	_
+5	interviews	interview	NOUN	NNS	_	4	A	4:A	_
+6	to	to	PART	TO	_	4	L	4:L	_
+7	support	support	VERB	VB	_	4	H	4:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	union	union	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

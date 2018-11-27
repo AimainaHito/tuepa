@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 461007
+# text = As he did in 2000 , Jennings moderated the 2004 Democratic presidential primary debate , which was held that year at Saint Anselm College in New Hampshire .
+1	As	as	SCONJ	IN	_	3	L	3:L	_
+2	he	he	PRON	PRP	_	3	A	3:A	_
+3	did	do	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	2000	2000	NUM	CD	_	3	D	3:D	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Jennings	Jennings	PROPN	NNP	_	8	A	8:A	_
+8	moderated	moderate	VERB	VBD	_	3	H	3:H	_
+9	the	the	DET	DT	_	14	E	14:E	_
+10	2004	2004	NUM	CD	_	14	E	14:E	_
+11	Democratic	Democratic	ADJ	JJ	_	14	E	14:E	_
+12	presidential	presidential	ADJ	JJ	_	14	E	14:E	_
+13	primary	primary	ADJ	JJ	_	14	E	14:E	_
+14	debate	debate	NOUN	NN	_	8	A	8:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	which	which	PRON	WDT	_	18	R	18:R	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	held	hold	VERB	VBN	_	14	E	14:E	_
+19	that	that	DET	DT	_	20	E	20:E	_
+20	year	year	NOUN	NN	_	18	D	18:D	_
+21	at	at	ADP	IN	_	24	R	24:R	_
+22	Saint	Saint	PROPN	NNP	_	23	E	23:E	_
+23	Anselm	Anselm	PROPN	NNP	_	24	E	24:E	_
+24	College	College	PROPN	NNP	_	18	A	18:A	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	New	New	PROPN	NNP	_	24	E	24:E	_
+27	Hampshire	Hampshire	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 492013
+# text = He has not toured since the 2003 - 04 Reality Tour and has not performed live since 2006 .
+1	He	he	PRON	PRP	_	4	A	4:A|15:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	not	not	PART	RB	_	4	D	4:D	_
+4	toured	tour	VERB	VBN	_	0	H	0:H	_
+5	since	since	ADP	IN	_	4	L	4:L	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	2003	2003	NUM	CD	_	10	D	10:D	_
+8	-	-	PUNCT	HYPH	_	7	U	7:U	_
+9	04	04	NUM	CD	_	7	C	7:C	_
+10	Reality	reality	NOUN	NN	_	4	H	4:H	_
+11	Tour	tour	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	has	have	AUX	VBZ	_	15	F	15:F	_
+14	not	not	PART	RB	_	15	D	15:D	_
+15	performed	perform	VERB	VBN	_	4	H	4:H	_
+16	live	live	NOUN	NN	_	15	D	15:D	_
+17	since	since	ADP	IN	_	18	R	18:R	_
+18	2006	2006	NUM	CD	_	15	D	15:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

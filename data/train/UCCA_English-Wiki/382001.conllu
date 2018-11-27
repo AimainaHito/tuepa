@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 382001
+# text = Environmentally conscious , he recycles regularly , and said in an interview that he spends $ 400 a year to have trees planted in a Mozambique forest , partly to promote the Future Forests program .
+1	Environmentally	environmentally	ADV	RB	_	2	E	2:E	_
+2	conscious	conscious	ADJ	JJ	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	he	he	PRON	PRP	_	5	A	5:A|2:A|9:A	_
+5	recycles	recycle	VERB	VBZ	_	2	H	2:H	_
+6	regularly	regularly	ADV	RB	_	5	D	5:D	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	and	and	CCONJ	CC	_	2	L	2:L	_
+9	said	say	VERB	VBD	_	2	H	2:H	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	an	a	DET	DT	_	12	E	12:E	_
+12	interview	interview	NOUN	NN	_	9	A	9:A	_
+13	that	that	SCONJ	IN	_	15	R	15:R	_
+14	he	he	PRON	PRP	_	15	A	15:A|31:A|21:A	_
+15	spends	spend	VERB	VBZ	_	9	A	9:A	_
+16	$	$	SYM	$	_	15	U	15:U	_
+17	400	400	NUM	CD	_	15	A	15:A	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	year	year	NOUN	NN	_	15	D	15:D	_
+20	to	to	PART	TO	_	15	L	15:L	_
+21	have	have	VERB	VB	_	15	H	15:H	_
+22	trees	tree	NOUN	NNS	_	23	A	23:A	_
+23	planted	plant	VERB	VBN	_	21	A	21:A	_
+24	in	in	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	Mozambique	Mozambique	PROPN	NNP	_	27	E	27:E	_
+27	forest	forest	NOUN	NN	_	23	A	23:A	_
+28	,	,	PUNCT	,	_	15	U	15:U	_
+29	partly	partly	ADV	RB	_	31	D	31:D	_
+30	to	to	PART	TO	_	31	F	31:F	_
+31	promote	promote	VERB	VB	_	15	H	15:H	_
+32	the	the	DET	DT	_	35	E	35:E	_
+33	Future	Future	PROPN	NNP	_	35	E	35:E	_
+34	Forests	Forests	PROPN	NNPS	_	33	Terminal	33:Terminal	_
+35	program	program	NOUN	NN	_	31	A	31:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

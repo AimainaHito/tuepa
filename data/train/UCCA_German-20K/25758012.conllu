@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25758012
+# text = Nach einer kleinen Weile erschienen sie beide wieder auf der Plattform .
+1	Nach	nach	ADP	APPR	_	4	R	4:R	_
+2	einer	ein	DET	ART	_	4	E	4:E	_
+3	kleinen	klein	ADJ	ADJA	_	4	E	4:E	_
+4	Weile	Weile	NOUN	NN	_	5	D	5:D	_
+5	erschienen	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+6	sie	sie	PRON	ADV	_	5	A	5:A	_
+7	beide	beide	PRON	PIS	_	6	E	6:E	_
+8	wieder	wieder	ADV	NN	_	5	D	5:D	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Plattform	Plattform	NOUN	NN	_	5	A	5:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

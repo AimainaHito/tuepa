@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25633012
+# text = » Seien Sie ganz ruhig , Herr Professor , es ist kein Grund zu Besorgnissen vorhanden . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Seien	sein	AUX	VAFIN	_	5	F	5:F	_
+3	Sie	Sie|sie	PRON	PPER	_	5	F	5:F	_
+4	ganz	ganz	ADV	ADV	_	5	D	5:D	_
+5	ruhig	ruhig	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Professor	Professor	PROPN	NN	_	5	G	5:G	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	es	es	PRON	PPER	_	16	F	16:F	_
+11	ist	sein	AUX	VVFIN	_	16	F	16:F	_
+12	kein	kein	PRON	PIAT	_	13	E	13:E	_
+13	Grund	Grund	NOUN	NN	_	16	A	16:A|5:A	_
+14	zu	zu	ADP	ADJA	_	15	R	15:R	_
+15	Besorgnissen	Besorgnisse	NOUN	NN	_	16	A	16:A	_
+16	vorhanden	vorhanden	ADJ	ADJA	_	5	H	5:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+18	«	«	PUNCT	$(	_	16	U	16:U	_
+

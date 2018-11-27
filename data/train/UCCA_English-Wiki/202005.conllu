@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 202005
+# text = His mentor William Goldman has commented that normally in visual media speeches are avoided , but that Sorkin has a talent for dialogue and gets away with breaking this rule .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	mentor	mentor	NOUN	NN	_	3	E	3:E	_
+3	William	William	PROPN	NNP	_	6	A	6:A	_
+4	Goldman	Goldman	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	has	have	AUX	VBZ	_	6	F	6:F	_
+6	commented	comment	VERB	VBN	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	14	F	14:F	_
+8	normally	normally	ADV	RB	_	14	D	14:D	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	visual	visual	ADJ	JJ	_	11	E	11:E	_
+11	media	media	NOUN	NN	_	14	A	14:A	_
+12	speeches	speech	NOUN	NNS	_	14	A	14:A	_
+13	are	be	AUX	VBP	_	14	F	14:F	_
+14	avoided	avoid	VERB	VBN	_	6	A	6:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	but	but	CCONJ	CC	_	14	L	14:L	_
+17	that	that	SCONJ	IN	_	21	F	21:F	_
+18	Sorkin	Sorkin	PROPN	NNP	_	21	A	21:A|28:A|25:A	_
+19	has	have	VERB	VBZ	_	21	F	21:F	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	talent	talent	NOUN	NN	_	14	H	14:H	_
+22	for	for	ADP	IN	_	23	R	23:R	_
+23	dialogue	dialogue	NOUN	NN	_	21	A	21:A	_
+24	and	and	CCONJ	CC	_	14	L	14:L	_
+25	gets	get	VERB	VBZ	_	14	H	14:H	_
+26	away	away	ADV	RB	_	25	Terminal	25:Terminal	_
+27	with	with	SCONJ	IN	_	28	F	28:F	_
+28	breaking	break	VERB	VBG	_	25	A	25:A	_
+29	this	this	DET	DT	_	30	E	30:E	_
+30	rule	rule	NOUN	NN	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

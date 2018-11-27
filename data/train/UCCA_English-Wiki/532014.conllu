@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 532014
+# text = Garland 's tour promoter Mark Herron announced that they had married aboard a freighter off the coast of Hong Kong ; however , she was not legally divorced from Luft at the time the ceremony was performed .
+1	Garland	Garland	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	tour	tour	NOUN	NN	_	4	E	4:E	_
+4	promoter	promoter	NOUN	NN	_	5	E	5:E	_
+5	Mark	Mark	PROPN	NNP	_	7	A	7:A	_
+6	Herron	Herron	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	announced	announce	VERB	VBD	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	11	F	11:F	_
+9	they	they	PRON	PRP	_	11	A	11:A	_
+10	had	have	AUX	VBD	_	11	F	11:F	_
+11	married	marry	VERB	VBN	_	7	A	7:A	_
+12	aboard	aboard	ADV	RB	_	14	R	14:R	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	freighter	freighter	NOUN	NN	_	11	A	11:A	_
+15	off	off	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	coast	coast	NOUN	NN	_	14	E	14:E	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	Hong	Hong	PROPN	NNP	_	17	E	17:E	_
+20	Kong	Kong	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	;	;	PUNCT	,	_	7	U	7:U	_
+22	however	however	ADV	RB	_	7	L	7:L	_
+23	,	,	PUNCT	,	_	7	U	7:U	_
+24	she	she	PRON	PRP	_	28	A	28:A	_
+25	was	be	AUX	VBD	_	28	F	28:F	_
+26	not	not	PART	RB	_	28	D	28:D	_
+27	legally	legally	ADV	RB	_	28	D	28:D	_
+28	divorced	divorce	ADJ	JJ	_	7	H	7:H	_
+29	from	from	ADP	IN	_	30	R	30:R	_
+30	Luft	Luft	PROPN	NNP	_	28	A	28:A	_
+31	at	at	ADP	IN	_	33	R	33:R	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	time	time	NOUN	NN	_	7	L	7:L	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	ceremony	ceremony	NOUN	NN	_	37	A	37:A	_
+36	was	be	AUX	VBD	_	37	F	37:F	_
+37	performed	perform	VERB	VBN	_	7	H	7:H	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25716021
+# text = Wir fuhren am Morgen des 16 . Februar aus den Gewässern Griechenlands ab , und am 18 . bei Sonnenaufgang hatten wir die Straße von Gibraltar passiert .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	am	am	ADJ	ADJD	_	4	R	4:R	_
+4	Morgen	Morgen	NOUN	ADV	_	2	D	2:D	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	16	16	NUM	CARD	_	4	E	4:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Februar	Februar	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	aus	aus	ADP	APPR	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Gewässern	Gewässer	NOUN	NN	_	12	E	12:E	_
+12	Griechenlands	Griechenland	PROPN	NE	_	2	A	2:A	_
+13	ab	ab	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	am	am	ADV	NE	_	17	R	17:R	_
+17	18	18	NUM	CARD	_	27	D	27:D	_
+18	.	.	PUNCT	$.	_	27	U	27:U	_
+19	bei	bei	ADP	APPR	_	20	R	20:R	_
+20	Sonnenaufgang	Sonnenaufgang	NOUN	NN	_	27	A	27:A	_
+21	hatten	haben	VERB	VAFIN	_	27	F	27:F	_
+22	wir	wir	PRON	NE	_	27	A	27:A	_
+23	die	der	DET	ART	_	24	E	24:E	_
+24	Straße	Straße	NOUN	NN	_	26	E	26:E	_
+25	von	von	ADP	NN	_	26	R	26:R	_
+26	Gibraltar	Gibraltar	NOUN	NE	_	27	A	27:A	_
+27	passiert	passieren	ADJ	VVPP	_	2	H	2:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

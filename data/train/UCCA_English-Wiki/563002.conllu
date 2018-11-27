@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 563002
+# text = " During the performance , Presley abruptly halted an uptempo rendition of " Hound Dog " with a wave of his arm and launched into a slow , grinding version accentuated with energetic , exaggerated body movements .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	During	during	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	performance	performance	NOUN	NN	_	8	A	8:A	_
+5	,	,	PUNCT	,	_	8	U	8:U	_
+6	Presley	Presley	PROPN	NNP	_	8	A	8:A|19:A|24:A	_
+7	abruptly	abruptly	ADV	RB	_	8	D	8:D	_
+8	halted	halt	VERB	VBD	_	0	H	0:H	_
+9	an	a	DET	DT	_	11	E	11:E	_
+10	uptempo	uptempo	ADJ	JJ	_	11	E	11:E	_
+11	rendition	rendition	NOUN	NN	_	8	A	8:A	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	"	"	PUNCT	``	_	14	U	14:U	_
+14	Hound	Hound	PROPN	NNP	_	11	E	11:E	_
+15	Dog	dog	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	"	"	PUNCT	''	_	8	U	8:U	_
+17	with	with	ADP	IN	_	8	L	8:L	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	wave	wave	NOUN	NN	_	8	H	8:H	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	arm	arm	NOUN	NN	_	19	A	19:A	_
+23	and	and	CCONJ	CC	_	8	L	8:L	_
+24	launched	launch	VERB	VBD	_	8	H	8:H	_
+25	into	into	ADP	IN	_	30	R	30:R	_
+26	a	a	DET	DT	_	30	E	30:E	_
+27	slow	slow	ADJ	JJ	_	30	E	30:E	_
+28	,	,	PUNCT	,	_	30	U	30:U	_
+29	grinding	grind	VERB	VBG	_	30	E	30:E	_
+30	version	version	NOUN	NN	_	24	A	24:A	_
+31	accentuated	accentuate	VERB	VBN	_	30	E	30:E	_
+32	with	with	ADP	IN	_	37	R	37:R	_
+33	energetic	energetic	ADJ	JJ	_	37	E	37:E	_
+34	,	,	PUNCT	,	_	37	U	37:U	_
+35	exaggerated	exaggerate	VERB	VBN	_	37	E	37:E	_
+36	body	body	NOUN	NN	_	37	E	37:E	_
+37	movements	movement	NOUN	NNS	_	31	A	31:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

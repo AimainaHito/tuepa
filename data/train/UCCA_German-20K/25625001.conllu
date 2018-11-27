@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25625001
+# text = » Ich mache aus ihrem Fleisch einen gegorenen Teig , der hält sich sehr lange , ohne zu verderben . Wann ich davon brauche , röste ich ihn in der Küche , und dieses Gebäck wird Ihnen , trotz seines etwas säuerlichen Geschmacks , vortrefflich munden .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	mache	mach	PRON	NN	_	0	H	0:H	_
+4	aus	aus	ADP	APPR	_	6	R	6:R	_
+5	ihrem	ihr	DET	PPOSAT	_	6	E	6:E	_
+6	Fleisch	Fleisch	NOUN	NN	_	3	A	3:A	_
+7	einen	ein	DET	ART	_	9	E	9:E	_
+8	gegorenen	gegoren	ADJ	ADJA	_	9	E	9:E	_
+9	Teig	Teig	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	der	der	PRON	PRELS	_	12	R	12:R	_
+12	hält	halten	VERB	VVFIN	_	9	E	9:E	_
+13	sich	er|es|sie	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	sehr	sehr	ADV	NE	_	15	E	15:E	_
+15	lange	lange	ADJ	ADV	_	12	D	12:D	_
+16	,	,	PUNCT	$,	_	9	U	9:U	_
+17	ohne	ohne	ADP	CARD	_	19	D	19:D	_
+18	zu	zu	PART	NN	_	19	F	19:F	_
+19	verderben	verderben	VERB	VVINF	_	9	E	9:E	_
+20	.	.	PUNCT	$.	_	3	U	3:U	_
+21	Wann	wann	SCONJ	PWAV	_	3	L	3:L	_
+22	ich	ich	PRON	PPER	_	24	A	24:A	_
+23	davon	davon	ADV	PAV	_	24	A	24:A	_
+24	brauche	brauchen	VERB	VVFIN	_	3	H	3:H	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	röste	rösen	VERB	VVFIN	_	3	H	3:H	_
+27	ich	ich	PRON	PPER	_	26	A	26:A	_
+28	ihn	er	PRON	PPER	_	26	A	26:A	_
+29	in	in	ADP	APPR	_	31	R	31:R	_
+30	der	der	DET	ART	_	31	E	31:E	_
+31	Küche	Küche	NOUN	NN	_	26	A	26:A	_
+32	,	,	PUNCT	$,	_	3	U	3:U	_
+33	und	und	CCONJ	NE	_	3	L	3:L	_
+34	dieses	dies	PRON	PDAT	_	35	E	35:E	_
+35	Gebäck	Gebäck	NOUN	NN	_	0	C	0:C|43:A	_
+36	wird	werden	AUX	VAFIN	_	46	F	46:F	_
+37	Ihnen	Sie|sie	PRON	PPER	_	46	A	46:A	_
+38	,	,	PUNCT	$,	_	3	U	3:U	_
+39	trotz	trotz	ADP	APPR	_	3	L	3:L	_
+40	seines	sein	DET	PPOSAT	_	43	E	43:E	_
+41	etwas	etwas	ADV	ADV	_	43	D	43:D	_
+42	säuerlichen	säuerlich	ADJ	ADJA	_	43	D	43:D	_
+43	Geschmacks	Geschmack	NOUN	NN	_	3	H	3:H	_
+44	,	,	PUNCT	$,	_	3	U	3:U	_
+45	vortrefflich	vortrefflich	ADJ	ADJD	_	46	D	46:D	_
+46	munden	munden	VERB	VVINF	_	3	H	3:H	_
+47	.	.	PUNCT	$.	_	46	U	46:U	_
+

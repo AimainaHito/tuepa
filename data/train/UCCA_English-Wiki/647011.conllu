@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 647011
+# text = On moving to New York , they prepared a spare room in their newly rented apartment for Julian to visit .
+1	On	on	SCONJ	IN	_	2	L	2:L	_
+2	moving	move	VERB	VBG	_	0	H	0:H	_
+3	to	to	ADP	IN	_	4	R	4:R	_
+4	New	New	PROPN	NNP	_	2	A	2:A	_
+5	York	York	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	they	they	PRON	PRP	_	8	A	8:A|2:A	_
+8	prepared	prepare	VERB	VBD	_	2	H	2:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	spare	spare	ADJ	JJ	_	11	E	11:E	_
+11	room	room	NOUN	NN	_	8	A	8:A	_
+12	in	in	ADP	IN	_	16	R	16:R	_
+13	their	they	PRON	PRP$	_	16	E	16:E	_
+14	newly	newly	ADV	RB	_	15	E	15:E	_
+15	rented	rent	VERB	VBD	_	16	E	16:E	_
+16	apartment	apartment	NOUN	NN	_	8	A	8:A	_
+17	for	for	ADP	IN	_	20	R	20:R	_
+18	Julian	Julian	PROPN	NNP	_	20	A	20:A	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	visit	visit	VERB	VB	_	8	A	8:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

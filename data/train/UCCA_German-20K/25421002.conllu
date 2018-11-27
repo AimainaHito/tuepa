@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25421002
+# text = Ich machte mich daran .
+1	Ich	ich	PRON	PPER	_	0	H	0:H	_
+2	machte	machen	VERB	VVFIN	_	1	D	1:D	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	daran	daran	ADV	PTKVZ	_	1	A	1:A	_
+5	.	.	PUNCT	$.	_	1	U	1:U	_
+

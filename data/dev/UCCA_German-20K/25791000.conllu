@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25791000
+# text = Während der Nacht wurde , meiner Berechnung gemäß , abermals eine Schicht von einem Meter fortgeschafft .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Nacht	Nacht	NOUN	NE	_	16	A	16:A	_
+4	wurde	werden	AUX	NE	_	16	F	16:F	_
+5	,	,	PUNCT	$,	_	16	U	16:U	_
+6	meiner	mein	PRON	PPOSS	_	7	E	7:E	_
+7	Berechnung	Berechnung	NOUN	NN	_	16	G	16:G	_
+8	gemäß	gemäß	ADJ	ADJD	_	7	R	7:R	_
+9	,	,	PUNCT	$,	_	16	U	16:U	_
+10	abermals	abermals	ADV	ADV	_	16	D	16:D	_
+11	eine	ein	DET	ART	_	12	E	12:E	_
+12	Schicht	Schicht	NOUN	NN	_	16	A	16:A	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Meter	Meter	NOUN	NN	_	12	E	12:E	_
+16	fortgeschafft	fortgeschaffen	VERB	VVPP	_	0	H	0:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

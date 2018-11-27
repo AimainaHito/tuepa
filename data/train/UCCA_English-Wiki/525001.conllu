@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 525001
+# text = The first was with the band leader Artie Shaw .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	first	first	ADJ	JJ	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	with	with	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	band	band	NOUN	NN	_	7	E	7:E	_
+7	leader	leader	NOUN	NN	_	8	E	8:E	_
+8	Artie	Artie	PROPN	NNP	_	3	A	3:A	_
+9	Shaw	Shaw	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+

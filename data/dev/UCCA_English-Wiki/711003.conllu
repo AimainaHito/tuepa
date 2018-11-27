@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 711003
+# text = Critics noted that Dylan was widening his musical palette to include rockabilly , Western swing , jazz , and even lounge ballads .
+1	Critics	critics	NOUN	NNS	_	2	A	2:A	_
+2	noted	note	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	6	F	6:F	_
+4	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	widening	widen	VERB	VBG	_	2	A	2:A	_
+7	his	he	PRON	PRP$	_	9	E	9:E	_
+8	musical	musical	ADJ	JJ	_	9	E	9:E	_
+9	palette	palette	NOUN	NN	_	6	A	6:A	_
+10	to	to	PART	TO	_	11	F	11:F	_
+11	include	include	VERB	VB	_	6	A	6:A	_
+12	rockabilly	rockabilly	ADV	RB	_	11	A	11:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Western	western	ADJ	JJ	_	15	E	15:E	_
+15	swing	swing	NOUN	NN	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	12	U	12:U	_
+17	jazz	jazz	NOUN	NN	_	12	C	12:C	_
+18	,	,	PUNCT	,	_	12	U	12:U	_
+19	and	and	CCONJ	CC	_	12	N	12:N	_
+20	even	even	ADV	RB	_	22	D	22:D	_
+21	lounge	lounge	NOUN	NN	_	22	E	22:E	_
+22	ballads	ballad	NOUN	NNS	_	12	C	12:C	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

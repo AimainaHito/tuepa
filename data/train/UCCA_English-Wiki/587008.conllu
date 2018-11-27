@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 587008
+# text = In 2008 , he narrated the documentary film Gonzo : The Life and Work of Dr . Hunter S . Thompson .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2008	2008	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	narrated	narrate	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	documentary	documentary	ADJ	JJ	_	8	E	8:E	_
+8	film	film	NOUN	NN	_	9	E	9:E	_
+9	Gonzo	Gonzo	NOUN	NN	_	5	A	5:A	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	The	the	DET	DT	_	9	Terminal	9:Terminal	_
+12	Life	life	NOUN	NN	_	9	Terminal	9:Terminal	_
+13	and	and	CCONJ	CC	_	9	Terminal	9:Terminal	_
+14	Work	work	NOUN	NN	_	9	Terminal	9:Terminal	_
+15	of	of	ADP	IN	_	9	Terminal	9:Terminal	_
+16	Dr	dr	PROPN	NNP	_	9	Terminal	9:Terminal	_
+17	.	.	PUNCT	.	_	9	U	9:U	_
+18	Hunter	Hunter	PROPN	NNP	_	9	Terminal	9:Terminal	_
+19	S	s	PROPN	NNP	_	9	Terminal	9:Terminal	_
+20	.	.	PUNCT	.	_	9	U	9:U	_
+21	Thompson	Thompson	PROPN	NNP	_	9	Terminal	9:Terminal	_
+22	.	.	PUNCT	.	_	9	U	9:U	_
+

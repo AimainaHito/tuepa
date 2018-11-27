@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 487007
+# text = During filming he arrived on set at four in the morning and spent five hours being covered in Read 's trademark tattoos .
+1	During	during	ADP	IN	_	2	L	2:L	_
+2	filming	filming	NOUN	NN	_	0	H	0:H	_
+3	he	he	PRON	PRP	_	4	A	4:A|2:A|17:A|13:A	_
+4	arrived	arrive	VERB	VBD	_	2	H	2:H	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	set	set	NOUN	NN	_	4	A	4:A	_
+7	at	at	ADP	IN	_	11	R	11:R	_
+8	four	four	NUM	CD	_	11	E	11:E	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	morning	morning	NOUN	NN	_	4	D	4:D	_
+12	and	and	CCONJ	CC	_	2	L	2:L	_
+13	spent	spend	VERB	VBD	_	2	H	2:H	_
+14	five	five	NUM	CD	_	15	E	15:E	_
+15	hours	hour	NOUN	NNS	_	13	A	13:A	_
+16	being	be	AUX	VBG	_	17	F	17:F	_
+17	covered	cover	VERB	VBN	_	13	A	13:A	_
+18	in	in	ADP	IN	_	22	R	22:R	_
+19	Read	read	VERB	VBN	_	22	E	22:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	trademark	trademark	NOUN	NN	_	22	E	22:E	_
+22	tattoos	tattoo	NOUN	NNS	_	17	A	17:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

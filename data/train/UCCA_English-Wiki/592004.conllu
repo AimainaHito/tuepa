@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 592004
+# text = He was later successively engaged to actresses Jennifer Grey and Sherilyn Fenn in the late 1980s before proposing in 1990 to his Edward Scissorhands co - star Winona Ryder , for whom he tattooed " WINONA FOREVER " on his right arm .
+1	He	he	PRON	PRP	_	5	A	5:A|18:A	_
+2	was	be	AUX	VBD	_	5	F	5:F	_
+3	later	later	ADV	RB	_	5	D	5:D	_
+4	successively	successively	ADV	RB	_	5	D	5:D	_
+5	engaged	engage	VERB	VBN	_	0	H	0:H	_
+6	to	to	ADP	IN	_	8	R	8:R	_
+7	actresses	actress	NOUN	NNS	_	8	E	8:E	_
+8	Jennifer	Jennifer	PROPN	NNP	_	5	A	5:A	_
+9	Grey	grey	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	and	and	CCONJ	CC	_	8	N	8:N	_
+11	Sherilyn	Sherilyn	PROPN	NNP	_	8	C	8:C	_
+12	Fenn	Fenn	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	late	late	ADJ	JJ	_	16	E	16:E	_
+16	1980s	1980	NOUN	NNS	_	5	D	5:D	_
+17	before	before	SCONJ	IN	_	5	L	5:L	_
+18	proposing	propose	VERB	VBG	_	5	H	5:H	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	1990	1990	NUM	CD	_	18	D	18:D	_
+21	to	to	ADP	IN	_	28	R	28:R	_
+22	his	he	PRON	PRP$	_	27	E	27:E	_
+23	Edward	Edward	PROPN	NNP	_	27	E	27:E	_
+24	Scissorhands	Scissorhand	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+25	co	co	X	AFX	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	star	star	NOUN	NN	_	28	E	28:E	_
+28	Winona	Winona	PROPN	NNP	_	18	A	18:A	_
+29	Ryder	Ryder	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	28	U	28:U	_
+31	for	for	ADP	IN	_	34	A	34:A	_
+32	whom	whom	PRON	WP	_	34	F	34:F	_
+33	he	he	PRON	PRP	_	34	A	34:A	_
+34	tattooed	tattoo	VERB	VBD	_	28	E	28:E	_
+35	"	"	PUNCT	``	_	34	U	34:U	_
+36	WINONA	WINONA	PROPN	NNP	_	34	A	34:A	_
+37	FOREVER	forever	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	"	"	PUNCT	''	_	34	U	34:U	_
+39	on	on	ADP	IN	_	42	R	42:R	_
+40	his	he	PRON	PRP$	_	42	E	42:E	_
+41	right	right	ADJ	JJ	_	42	E	42:E	_
+42	arm	arm	NOUN	NN	_	34	A	34:A	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

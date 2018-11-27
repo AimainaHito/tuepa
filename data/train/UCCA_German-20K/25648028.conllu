@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25648028
+# text = Darauf verschwanden die Gesichter , und ich lag wie völlig vernichtet .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	verschwanden	verschwanden	VERB	VVINF	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Gesichter	Gesicht	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	ich	ich	PRON	PPER	_	11	A	11:A	_
+8	lag	liegen	VERB	VVFIN	_	11	D	11:D	_
+9	wie	wie	ADP	ADV	_	11	R	11:R	_
+10	völlig	völlig	ADJ	ADJD	_	11	E	11:E	_
+11	vernichtet	vernichten	VERB	VVPP	_	2	H	2:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

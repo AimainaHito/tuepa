@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 454005
+# text = When his contract expired with ABC in the early 1980s , Jennings flirted with the possibility of moving back to Canada and working with the CBC on its new nightly newscast , The Journal .
+1	When	when	ADV	WRB	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	contract	contract	NOUN	NN	_	4	A	4:A	_
+4	expired	expire	VERB	VBD	_	0	H	0:H	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	ABC	Abc	PROPN	NNP	_	4	A	4:A	_
+7	in	in	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	early	early	ADJ	JJ	_	10	E	10:E	_
+10	1980s	1980	NOUN	NNS	_	4	D	4:D	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	Jennings	Jenning	PROPN	NNP	_	13	A	13:A|18:A|23:A	_
+13	flirted	flirt	VERB	VBD	_	4	H	4:H	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	possibility	possibility	NOUN	NN	_	13	A	13:A	_
+17	of	of	SCONJ	IN	_	18	R	18:R	_
+18	moving	move	VERB	VBG	_	16	E	16:E	_
+19	back	back	ADV	RB	_	18	D	18:D	_
+20	to	to	ADP	IN	_	21	R	21:R	_
+21	Canada	Canada	PROPN	NNP	_	18	A	18:A	_
+22	and	and	CCONJ	CC	_	18	L	18:L	_
+23	working	work	VERB	VBG	_	18	H	18:H	_
+24	with	with	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	CBC	Cbc	NOUN	NN	_	23	A	23:A	_
+27	on	on	ADP	IN	_	33	R	33:R	_
+28	its	its	PRON	PRP$	_	33	E	33:E	_
+29	new	new	ADJ	JJ	_	33	E	33:E	_
+30	nightly	nightly	ADV	RB	_	31	E	31:E	_
+31	newscast	newscast	ADJ	JJ	_	33	E	33:E	_
+32	,	,	PUNCT	,	_	33	U	33:U	_
+33	The	the	DET	DT	_	23	A	23:A	_
+34	Journal	Journal	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	.	.	PUNCT	.	_	33	U	33:U	_
+

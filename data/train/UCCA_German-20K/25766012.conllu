@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25766012
+# text = » Also , Herr Professor , Sie meinen , die ›Nautilus‹ könne sich nicht frei machen ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Also	also	PROPN	ADV	_	8	F	8:F	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+8	meinen	meinen	VERB	PPOSAT	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	DET	PRELS	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	13	A	13:A	_
+12	könne	können	AUX	VMFIN	_	13	D	13:D	_
+13	sich	er|es|sie	PRON	PRF	_	8	A	8:A	_
+14	nicht	nicht	PART	XY	_	13	D	13:D	_
+15	frei	frei	ADJ	ADJD	_	13	Terminal	13:Terminal	_
+16	machen	machen	VERB	VVFIN	_	13	Terminal	13:Terminal	_
+17	?	?	PUNCT	$.	_	13	U	13:U	_
+18	«	«	PUNCT	$(	_	13	U	13:U	_
+

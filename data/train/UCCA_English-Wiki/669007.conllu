@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 669007
+# text = Throughout the United States , the shows were done in smaller theaters , and something more Broadway - influenced , " It 's much more intimate so you 'll feel like you had an experience . You experience a night with me .
+1	Throughout	throughout	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	United	United	PROPN	NNP	_	9	A	9:A	_
+4	States	States	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	shows	show	NOUN	NNS	_	9	A	9:A	_
+8	were	be	AUX	VBD	_	9	F	9:F	_
+9	done	do	VERB	VBN	_	0	H	0:H	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	smaller	smaller	ADJ	JJR	_	12	E	12:E	_
+12	theaters	theater	NOUN	NNS	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	and	and	CCONJ	CC	_	12	N	12:N	_
+15	something	something	PRON	NN	_	19	D	19:D	_
+16	more	more	ADV	RBR	_	19	R	19:R	_
+17	Broadway	Broadway	ADV	RB	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	influenced	influenced	ADJ	JJ	_	12	C	12:C	_
+20	,	,	PUNCT	,	_	9	U	9:U	_
+21	"	"	PUNCT	''	_	9	U	9:U	_
+22	It	it	PRON	PRP	_	26	F	26:F	_
+23	's	be	AUX	VBZ	_	25	F	25:F	_
+24	much	much	ADV	RB	_	25	E	25:E	_
+25	more	more	ADV	RBR	_	26	D	26:D	_
+26	intimate	intimate	ADJ	JJ	_	9	H	9:H	_
+27	so	so	SCONJ	IN	_	26	L	26:L	_
+28	you	you	PRON	PRP	_	30	A	30:A	_
+29	'll	will	AUX	MD	_	30	F	30:F	_
+30	feel	feel	VERB	VB	_	26	H	26:H	_
+31	like	like	SCONJ	IN	_	35	F	35:F	_
+32	you	you	PRON	PRP	_	35	A	35:A	_
+33	had	have	VERB	VBD	_	35	F	35:F	_
+34	an	a	DET	DT	_	35	E	35:E	_
+35	experience	experience	NOUN	NN	_	30	A	30:A	_
+36	.	.	PUNCT	.	_	26	U	26:U	_
+37	You	you	PRON	PRP	_	38	A	38:A	_
+38	experience	experience	VERB	VBP	_	26	H	26:H	_
+39	a	a	DET	DT	_	40	E	40:E	_
+40	night	night	NOUN	NN	_	38	A	38:A	_
+41	with	with	ADP	IN	_	42	R	42:R	_
+42	me	I	PRON	PRP	_	38	A	38:A	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

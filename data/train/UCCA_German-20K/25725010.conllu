@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25725010
+# text = Die Umstände waren also dem Vorhaben des Kanadiers günstig .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Umstände	Umstand	NOUN	NN	_	9	A	9:A	_
+3	waren	sein	AUX	VAFIN	_	9	D	9:D	_
+4	also	also	ADV	ADV	_	9	F	9:F	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	Vorhaben	Vorhaben	NOUN	NN	_	9	A	9:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Kanadiers	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	günstig	günstig	ADJ	ADJD	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

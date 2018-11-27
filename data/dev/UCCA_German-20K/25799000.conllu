@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25799000
+# text = » Man sollte ihn nicht dazu herausfordern « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Man	man	PRON	PIS	_	7	A	7:A	_
+3	sollte	sollen	AUX	VMFIN	_	7	D	7:D	_
+4	ihn	er	PRON	PPER	_	7	A	7:A	_
+5	nicht	nicht	PART	XY	_	7	D	7:D	_
+6	dazu	dazu	ADV	PAV	_	7	A	7:A	_
+7	herausfordern	herausfordern	VERB	VVINF	_	10	A	10:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	Conseil	Conseil	NOUN	NE	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25600003
+# text = Inzwischen waren etwa 20 Matrosen der " Nautilus " , lauter kräftige und rüstige Leute , auf die Plattform heraufgekommen .
+1	Inzwischen	inzwischen	ADV	ADV	_	20	D	20:D	_
+2	waren	sein	AUX	VAFIN	_	20	F	20:F	_
+3	etwa	etwa	ADV	ADV	_	5	E	5:E	_
+4	20	20	NUM	CARD	_	5	E	5:E	_
+5	Matrosen	Matrose	NOUN	NN	_	20	A	20:A	_
+6	der	der	DET	ART	_	8	R	8:R	_
+7	"	"	PUNCT	$(	_	8	U	8:U	_
+8	Nautilus	Nautilus	PROPN	NN	_	5	E	5:E	_
+9	"	"	PUNCT	$(	_	5	U	5:U	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	lauter	laut	ADJ	ADJA	_	15	E	15:E	_
+12	kräftige	kräftig	ADJ	ADJA	_	15	E	15:E	_
+13	und	und	CCONJ	NN	_	12	N	12:N	_
+14	rüstige	rüstig	ADJ	ADJA	_	12	C	12:C	_
+15	Leute	Leute	NOUN	NN	_	5	C	5:C	_
+16	,	,	PUNCT	$,	_	20	U	20:U	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Plattform	Plattform	NOUN	NN	_	20	A	20:A	_
+20	heraufgekommen	heraufgekommen	VERB	VVPP	_	0	H	0:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

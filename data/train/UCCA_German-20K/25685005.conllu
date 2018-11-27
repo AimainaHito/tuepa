@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25685005
+# text = Kapitän Nemo war ohne Zweifel schon mit dem Dasein dieses Schal tieres bekannt und besuchte es nicht jetzt zum ersten Mal , und ich dachte , er wolle , indem er uns dahin führte , uns nur eine Natur merkwürdigkeit zeigen .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	0	C	0:C|15:A	_
+3	war	sein	AUX	ADV	_	13	F	13:F	_
+4	ohne	ohne	ADP	NN	_	5	R	5:R	_
+5	Zweifel	Zweifel	NOUN	NN	_	13	G	13:G	_
+6	schon	schon	ADV	ADV	_	13	D	13:D	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	PDS	_	9	E	9:E	_
+9	Dasein	Dasein	NOUN	PPOSAT	_	13	A	13:A	_
+10	dieses	dies	PRON	PDAT	_	12	R	12:R	_
+11	Schal	Schal	NOUN	ADJD	_	12	E	12:E	_
+12	tieres	ti	ADJ	ADJA	_	9	A	9:A	_
+13	bekannt	bekannt	ADJ	ADJD	_	0	H	0:H	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	besuchte	besuchen	VERB	VVFIN	_	13	H	13:H	_
+16	es	es	PRON	PPER	_	15	A	15:A	_
+17	nicht	nicht	PART	CARD	_	15	D	15:D	_
+18	jetzt	jetzt	ADV	ADV	_	15	D	15:D	_
+19	zum	zum	ADP	NN	_	21	R	21:R	_
+20	ersten	erst	ADJ	ADJA	_	21	E	21:E	_
+21	Mal	Mal	NOUN	NN	_	15	A	15:A	_
+22	,	,	PUNCT	$,	_	13	U	13:U	_
+23	und	und	CCONJ	NE	_	13	L	13:L	_
+24	ich	ich	PRON	PPER	_	25	A	25:A	_
+25	dachte	denken	VERB	VVFIN	_	13	H	13:H	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	er	er	PRON	PPER	_	41	A	41:A	_
+28	wolle	wollen	AUX	VMFIN	_	41	D	41:D	_
+29	,	,	PUNCT	$,	_	41	U	41:U	_
+30	indem	indem	SCONJ	KOUS	_	41	L	41:L	_
+31	er	er	PRON	PPER	_	34	A	34:A	_
+32	uns	wir	PRON	NN	_	34	A	34:A	_
+33	dahin	dahin	ADV	PAV	_	34	A	34:A	_
+34	führte	führen	VERB	VVFIN	_	41	H	41:H	_
+35	,	,	PUNCT	$,	_	41	U	41:U	_
+36	uns	wir	PRON	NN	_	41	A	41:A	_
+37	nur	nur	ADV	NE	_	41	D	41:D	_
+38	eine	ein	DET	ART	_	40	E	40:E	_
+39	Natur	Natur	NOUN	NN	_	40	E	40:E	_
+40	merkwürdigkeit	merkwürdigkeit	ADJ	NN	_	41	A	41:A	_
+41	zeigen	zeigen	VERB	VVINF	_	25	A	25:A	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

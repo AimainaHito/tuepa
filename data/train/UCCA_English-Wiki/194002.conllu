@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 194002
+# text = His drug addiction was highly publicized , most notably when Saturday Night Live did a parody called " The West Wing " , though he did recover .
+1	His	he	PRON	PRP$	_	3	A	3:A	_
+2	drug	drug	NOUN	NN	_	3	E	3:E	_
+3	addiction	addiction	NOUN	NN	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	highly	highly	ADV	RB	_	6	D	6:D	_
+6	publicized	publicize	VERB	VBN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	most	most	ADV	RBS	_	9	E	9:E	_
+9	notably	notably	ADV	RB	_	16	G	16:G	_
+10	when	when	ADV	WRB	_	6	L	6:L	_
+11	Saturday	Saturday	PROPN	NNP	_	16	A	16:A	_
+12	Night	night	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Live	Live	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	did	do	VERB	VBD	_	16	F	16:F	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	parody	parody	NOUN	NN	_	6	H	6:H	_
+17	called	call	VERB	VBN	_	16	A	16:A	_
+18	"	"	PUNCT	``	_	17	U	17:U	_
+19	The	the	DET	DT	_	17	A	17:A	_
+20	West	West	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Wing	wing	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	"	"	PUNCT	''	_	6	U	6:U	_
+23	,	,	PUNCT	,	_	6	U	6:U	_
+24	though	though	SCONJ	IN	_	6	L	6:L	_
+25	he	he	PRON	PRP	_	27	A	27:A	_
+26	did	do	AUX	VBD	_	27	F	27:F	_
+27	recover	recover	VERB	VB	_	6	H	6:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

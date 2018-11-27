@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 125016
+# text = Hepburn 's first entrance called for her to leap down a narrow stairway with a stag over her shoulder , wearing a short silver tunic .
+1	Hepburn	Hepburn	PROPN	NNP	_	0	C	0:C|21:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	first	first	ADJ	JJ	_	4	D	4:D	_
+4	entrance	entrance	NOUN	NN	_	5	A	5:A	_
+5	called	call	VERB	VBD	_	0	H	0:H	_
+6	for	for	ADP	IN	_	9	R	9:R	_
+7	her	she	PRON	PRP	_	9	A	9:A	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	leap	leap	VERB	VB	_	5	A	5:A	_
+10	down	down	ADP	RP	_	9	E	9:E	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	narrow	narrow	ADJ	JJ	_	13	E	13:E	_
+13	stairway	stairway	NOUN	NN	_	9	A	9:A	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	stag	stag	NOUN	NN	_	9	A	9:A	_
+17	over	over	ADP	IN	_	19	R	19:R	_
+18	her	she	PRON	PRP$	_	19	E	19:E	_
+19	shoulder	shoulder	NOUN	NN	_	16	E	16:E	_
+20	,	,	PUNCT	,	_	5	U	5:U	_
+21	wearing	wear	VERB	VBG	_	5	H	5:H	_
+22	a	a	DET	DT	_	25	E	25:E	_
+23	short	short	ADJ	JJ	_	25	E	25:E	_
+24	silver	silver	NOUN	NN	_	25	E	25:E	_
+25	tunic	tunic	NOUN	NN	_	21	A	21:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

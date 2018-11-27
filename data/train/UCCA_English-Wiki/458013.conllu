@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 458013
+# text = The slide in the ratings coincided with some rockiness at ABC News .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	slide	slide	NOUN	NN	_	6	A	6:A	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	ratings	rating	NOUN	NNS	_	2	A	2:A	_
+6	coincided	coincide	VERB	VBD	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	some	some	DET	DT	_	9	E	9:E	_
+9	rockiness	rockiness	NOUN	NN	_	6	A	6:A	_
+10	at	at	ADP	IN	_	12	R	12:R	_
+11	ABC	ABC	PROPN	NNP	_	12	E	12:E	_
+12	News	News	PROPN	NNP	_	9	E	9:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

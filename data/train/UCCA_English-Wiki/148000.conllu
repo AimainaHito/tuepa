@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 148000
+# text = Hepburn stuck to her decision not to remarry , and made a conscious choice not to have children .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|14:A|17:A	_
+2	stuck	stick	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	5	R	5:R	_
+4	her	she	PRON	PRP$	_	5	A	5:A|8:A	_
+5	decision	decision	NOUN	NN	_	2	A	2:A	_
+6	not	not	ADV	RB	_	8	D	8:D	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	remarry	remarry	VERB	VB	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	and	and	CCONJ	CC	_	2	L	2:L	_
+11	made	make	VERB	VBN	_	14	F	14:F	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	conscious	conscious	ADJ	JJ	_	14	D	14:D	_
+14	choice	choice	NOUN	NN	_	2	H	2:H	_
+15	not	not	ADV	RB	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	have	have	VERB	VB	_	14	A	14:A	_
+18	children	child	NOUN	NNS	_	17	A	17:A	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

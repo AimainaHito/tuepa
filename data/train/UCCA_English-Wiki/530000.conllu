@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 530000
+# text = Beginning in 1955 , Garland appeared in a number of television specials .
+1	Beginning	begin	NOUN	NN	_	3	R	3:R	_
+2	in	in	ADP	IN	_	1	R	1:R	_
+3	1955	1955	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Garland	Garland	PROPN	NNP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	a	a	DET	DT	_	12	E	12:E	_
+9	number	number	NOUN	NN	_	12	E	12:E	_
+10	of	of	ADP	IN	_	9	R	9:R	_
+11	television	television	NOUN	NN	_	12	E	12:E	_
+12	specials	special	NOUN	NNS	_	6	A	6:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

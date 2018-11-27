@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 210001
+# text = In director David O . Russell 's I Heart Huckabees ( also 2004 ) , Hoffman appeared opposite Lily Tomlin as an existential detective team member .
+1	In	in	ADP	IN	_	8	R	8:R	_
+2	director	director	NOUN	NN	_	8	A	8:A	_
+3	David	David	PROPN	NNP	_	2	E	2:E	_
+4	O	O	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	.	.	PUNCT	.	_	3	U	3:U	_
+6	Russell	Russell	PROPN	NNP	_	3	Terminal	3:Terminal	_
+7	's	's	PART	POS	_	2	R	2:R	_
+8	I	I	PRON	PRP	_	17	A	17:A	_
+9	Heart	heart	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Huckabees	Huckabees	PROPN	NNPS	_	8	Terminal	8:Terminal	_
+11	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+12	also	also	ADV	RB	_	13	R	13:R	_
+13	2004	2004	NUM	CD	_	8	E	8:E	_
+14	)	)	PUNCT	-RRB-	_	17	U	17:U	_
+15	,	,	PUNCT	,	_	17	U	17:U	_
+16	Hoffman	Hoffman	PROPN	NNP	_	17	A	17:A	_
+17	appeared	appear	VERB	VBD	_	0	H	0:H	_
+18	opposite	opposite	ADP	IN	_	19	R	19:R	_
+19	Lily	Lily	PROPN	NNP	_	17	A	17:A	_
+20	Tomlin	Tomlin	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	as	as	ADP	IN	_	26	R	26:R	_
+22	an	a	DET	DT	_	26	E	26:E	_
+23	existential	existential	ADJ	JJ	_	26	E	26:E	_
+24	detective	detective	NOUN	NN	_	26	E	26:E	_
+25	team	team	NOUN	NN	_	26	E	26:E	_
+26	member	member	NOUN	NN	_	17	A	17:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

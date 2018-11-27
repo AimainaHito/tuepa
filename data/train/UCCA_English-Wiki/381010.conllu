@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 381010
+# text = Gyllenhaal is politically active .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	4	A	4:A	_
+2	is	be	AUX	VBZ	_	4	F	4:F	_
+3	politically	politically	ADV	RB	_	4	D	4:D	_
+4	active	active	ADJ	JJ	_	0	H	0:H	_
+5	.	.	PUNCT	.	_	4	U	4:U	_
+

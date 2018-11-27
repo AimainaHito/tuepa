@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25624000
+# text = Ned Land kannte diese Frucht wohl .
+1	Ned	Ned	PROPN	NE	_	3	A	3:A	_
+2	Land	Land	PROPN	NN	_	1	Terminal	1:Terminal	_
+3	kannte	kennen	VERB	VVFIN	_	0	H	0:H	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Frucht	Frucht	NOUN	NN	_	3	A	3:A	_
+6	wohl	wohl	ADV	ADV	_	3	D	3:D	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

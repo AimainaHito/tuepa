@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25479004
+# text = Dieses ließ ihn bis auf halbe Kabel länge gleichgültig an sich herankommen ; darauf , ohne unter zu tauchen , machte es eine Wendung zur Flucht , beschränkte sich jedoch darauf , seine Entfernung zu behaupten .
+1	Dieses	dies	PRON	PDS	_	12	A	12:A	_
+2	ließ	lassen	VERB	VVFIN	_	12	D	12:D	_
+3	ihn	er	PRON	PPER	_	12	A	12:A	_
+4	bis	bis	ADP	APPR	_	8	R	8:R	_
+5	auf	auf	ADP	APPR	_	4	Terminal	4:Terminal	_
+6	halbe	halb	ADJ	ADJA	_	8	E	8:E	_
+7	Kabel	Kabel	NOUN	NN	_	8	E	8:E	_
+8	länge	länge	ADJ	NN	_	12	A	12:A	_
+9	gleichgültig	gleichgültig	ADJ	ADJD	_	12	D	12:D	_
+10	an	an	ADP	APPR	_	11	R	11:R	_
+11	sich	er|es|sie	PRON	PRF	_	12	A	12:A	_
+12	herankommen	herankommen	VERB	VVINF	_	0	H	0:H	_
+13	;	;	PUNCT	$.	_	12	U	12:U	_
+14	darauf	darauf	PRON	PAV	_	12	L	12:L	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	ohne	ohne	ADP	NN	_	12	L	12:L	_
+17	unter	unter	ADP	NE	_	12	H	12:H	_
+18	zu	zu	PART	NN	_	17	F	17:F	_
+19	tauchen	tauchen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	$,	_	12	U	12:U	_
+21	machte	machen	VERB	VVFIN	_	24	D	24:D	_
+22	es	es	PRON	PPER	_	24	A	24:A|28:A|26:A|36:A|17:A	_
+23	eine	ein	DET	ART	_	24	E	24:E	_
+24	Wendung	Wendung	NOUN	NN	_	12	H	12:H	_
+25	zur	zur	ADP	NE	_	26	R	26:R	_
+26	Flucht	Flucht	NOUN	NN	_	24	A	24:A	_
+27	,	,	PUNCT	$,	_	12	U	12:U	_
+28	beschränkte	beschränken	VERB	VVFIN	_	12	H	12:H	_
+29	sich	er|es|sie	PRON	PRF	_	28	Terminal	28:Terminal	_
+30	jedoch	jedoch	ADV	ADV	_	28	D	28:D	_
+31	darauf	darauf	ADV	PAV	_	36	F	36:F	_
+32	,	,	PUNCT	$,	_	36	U	36:U	_
+33	seine	sein	DET	PPOSAT	_	34	E	34:E	_
+34	Entfernung	Entfernung	NOUN	NN	_	36	A	36:A	_
+35	zu	zu	PART	VVINF	_	36	F	36:F	_
+36	behaupten	behaupten	VERB	VVINF	_	28	A	28:A	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

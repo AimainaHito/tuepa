@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 585002
+# text = Depp rose to prominence on the 1980s television series 21 Jump Street , becoming a teen idol .
+1	Depp	Depp	PROPN	NNP	_	4	A	4:A|14:A	_
+2	rose	rise	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	prominence	prominence	VERB	VB	_	0	H	0:H	_
+5	on	on	ADP	IN	_	10	R	10:R	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	1980s	1980	NOUN	NNS	_	10	E	10:E	_
+8	television	television	NOUN	NN	_	9	E	9:E	_
+9	series	sery	NOUN	NNS	_	10	E	10:E	_
+10	21	21	NUM	CD	_	4	A	4:A	_
+11	Jump	jump	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Street	street	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	becoming	become	VERB	VBG	_	4	H	4:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	teen	teen	NOUN	NN	_	17	E	17:E	_
+17	idol	idol	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

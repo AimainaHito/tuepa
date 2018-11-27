@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 89003
+# text = Le monstre redevint îlot , rocher , écueil , mais écueil fuyant , indéterminable , insaisissable
+1	Le	le	DET	_	_	2	E	2:E	_
+2	monstre	monstre	NOUN	_	_	3	A	3:A	_
+3	redevint	redevenir	VERB	_	_	0	H	0:H	_
+4	îlot	îlot	NOUN	_	_	3	A	3:A	_
+5	,	,	PUNCT	_	_	4	U	4:U	_
+6	rocher	rocher	NOUN	_	_	4	C	4:C	_
+7	,	,	PUNCT	_	_	4	U	4:U	_
+8	écueil	écueil	NOUN	_	_	4	C	4:C	_
+9	,	,	PUNCT	_	_	8	U	8:U	_
+10	mais	mais	CCONJ	_	_	11	R	11:R	_
+11	écueil	écueil	NOUN	_	_	8	E	8:E	_
+12	fuyant	fuyant	VERB	_	_	11	E	11:E	_
+13	,	,	PUNCT	_	_	11	U	11:U	_
+14	indéterminable	indéterminable	ADJ	_	_	11	E	11:E	_
+15	,	,	PUNCT	_	_	11	U	11:U	_
+16	insaisissable	insaisissable	ADJ	_	_	11	E	11:E	_
+

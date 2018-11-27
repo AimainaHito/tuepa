@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 505001
+# text = While Scary Monsters utilised principles established by the Berlin albums , it was considered by critics to be far more direct musically and lyrically .
+1	While	while	SCONJ	IN	_	4	L	4:L	_
+2	Scary	scary	PROPN	NNP	_	4	A	4:A	_
+3	Monsters	Monsters	PROPN	NNPS	_	2	Terminal	2:Terminal	_
+4	utilised	utilise	VERB	VBN	_	0	H	0:H	_
+5	principles	principle	NOUN	NNS	_	4	A	4:A	_
+6	established	establish	VERB	VBN	_	5	E	5:E	_
+7	by	by	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	Berlin	Berlin	PROPN	NNP	_	10	E	10:E	_
+10	albums	albums	PROPN	NNPS	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	it	it	PRON	PRP	_	14	A	14:A|18:A	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	considered	consider	VERB	VBN	_	4	H	4:H	_
+15	by	by	ADP	IN	_	16	R	16:R	_
+16	critics	critic	NOUN	NNS	_	14	A	14:A	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	be	be	AUX	VB	_	14	A	14:A	_
+19	far	far	ADV	RB	_	20	E	20:E	_
+20	more	more	ADV	RBR	_	21	E	21:E	_
+21	direct	direct	ADJ	JJ	_	22	E	22:E	_
+22	musically	musically	ADV	RB	_	18	A	18:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	lyrically	lyrically	ADV	RB	_	22	C	22:C	_
+25	.	.	PUNCT	.	_	22	U	22:U	_
+

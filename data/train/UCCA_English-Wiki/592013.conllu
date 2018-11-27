@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 592013
+# text = Depp also acquired a vineyard estate in the Plan - de - la - Tour area in 2007 .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	acquired	acquire	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	vineyard	vineyard	NOUN	NN	_	6	E	6:E	_
+6	estate	estate	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	IN	_	16	R	16:R	_
+8	the	the	DET	DT	_	16	E	16:E	_
+9	Plan	plan	NOUN	NN	_	16	E	16:E	_
+10	-	-	PUNCT	HYPH	_	9	U	9:U	_
+11	de	de	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	-	-	PUNCT	HYPH	_	9	U	9:U	_
+13	la	la	NOUN	NN	_	9	Terminal	9:Terminal	_
+14	-	-	PUNCT	HYPH	_	9	U	9:U	_
+15	Tour	tour	PROPN	NNP	_	9	Terminal	9:Terminal	_
+16	area	area	NOUN	NN	_	6	E	6:E	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	2007	2007	NUM	CD	_	3	D	3:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

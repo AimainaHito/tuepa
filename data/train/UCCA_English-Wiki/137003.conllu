@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 137003
+# text = In October 1952 it opened at the Shubert Theatre , where despite a lukewarm critical response it sold out its ten - week run .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	October	October	PROPN	NNP	_	5	D	5:D	_
+3	1952	1952	NUM	CD	_	2	Terminal	2:Terminal	_
+4	it	it	PRON	PRP	_	5	A	5:A	_
+5	opened	open	VERB	VBD	_	0	H	0:H	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Shubert	Shubert	PROPN	NNP	_	5	A	5:A	_
+9	Theatre	theatre	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	where	where	ADV	WRB	_	5	L	5:L	_
+12	despite	despite	ADP	IN	_	5	L	5:L	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	lukewarm	lukewarm	NOUN	NN	_	16	D	16:D	_
+15	critical	critical	ADJ	JJ	_	16	A	16:A	_
+16	response	response	NOUN	NN	_	5	H	5:H	_
+17	it	it	PRON	PRP	_	18	A	18:A	_
+18	sold	sell	VERB	VBD	_	5	H	5:H	_
+19	out	out	ADP	RP	_	18	Terminal	18:Terminal	_
+20	its	its	PRON	PRP$	_	24	E	24:E	_
+21	ten	ten	NUM	CD	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	week	week	NOUN	NN	_	24	E	24:E	_
+24	run	run	NOUN	NN	_	18	A	18:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

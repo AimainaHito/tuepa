@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 588006
+# text = Depp next starred as Willy Wonka in the 2005 film Charlie and the Chocolate Factory , a major success at the box office and earning him a nomination for the Golden Globe Award for Best Actor in a Musical or Comedy .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	as	as	SCONJ	IN	_	5	R	5:R	_
+5	Willy	Willy	PROPN	NNP	_	3	A	3:A	_
+6	Wonka	Wonka	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	2005	2005	NUM	CD	_	11	E	11:E	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	Charlie	charlie	PROPN	NNP	_	3	A	3:A	_
+12	and	and	CCONJ	CC	_	11	Terminal	11:Terminal	_
+13	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+14	Chocolate	chocolate	NOUN	NN	_	11	Terminal	11:Terminal	_
+15	Factory	factory	NOUN	NN	_	11	Terminal	11:Terminal	_
+16	,	,	PUNCT	,	_	11	U	11:U	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	major	major	ADJ	JJ	_	19	D	19:D	_
+19	success	success	NOUN	NN	_	11	E	11:E	_
+20	at	at	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	box	box	NOUN	NN	_	23	E	23:E	_
+23	office	office	NOUN	NN	_	19	A	19:A	_
+24	and	and	CCONJ	CC	_	19	N	19:N	_
+25	earning	earn	VERB	VBG	_	19	C	19:C	_
+26	him	he	PRON	PRP	_	25	A	25:A	_
+27	a	a	DET	DT	_	28	R	28:R	_
+28	nomination	nomination	NOUN	NN	_	25	A	25:A	_
+29	for	for	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	Golden	golden	PROPN	NNP	_	28	E	28:E	_
+32	Globe	Globe	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	Award	Award	PROPN	NNP	_	31	Terminal	31:Terminal	_
+34	for	for	ADP	IN	_	35	R	35:R	_
+35	Best	best	ADJ	JJS	_	31	E	31:E	_
+36	Actor	Actor	NOUN	NN	_	35	Terminal	35:Terminal	_
+37	in	in	ADP	IN	_	39	R	39:R	_
+38	a	a	DET	DT	_	39	E	39:E	_
+39	Musical	musical	PROPN	NNP	_	35	E	35:E	_
+40	or	or	CCONJ	CC	_	39	N	39:N	_
+41	Comedy	comedy	PROPN	NNP	_	39	C	39:C	_
+42	.	.	PUNCT	.	_	39	U	39:U	_
+

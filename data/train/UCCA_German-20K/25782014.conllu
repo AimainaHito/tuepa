@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25782014
+# text = » Das wissen wir nicht « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Das	der	DET	ART	_	3	A	3:A	_
+3	wissen	wissen	NOUN	VVINF	_	8	A	8:A	_
+4	wir	wir	PRON	NE	_	3	A	3:A	_
+5	nicht	nicht	PART	XY	_	3	D	3:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NE	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25526011
+# text = Das Meer war im Umfang einer Meile um die ›Nautilus‹ herum klar zu durchschauen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	14	A	14:A	_
+3	war	sein	AUX	ADV	_	14	F	14:F	_
+4	im	im	ADV	NE	_	5	R	5:R	_
+5	Umfang	Umfang	NOUN	NE	_	14	A	14:A	_
+6	einer	ein	DET	PIS	_	7	E	7:E	_
+7	Meile	Meile	NOUN	NN	_	5	E	5:E	_
+8	um	um	ADP	KOUI	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	E	5:E	_
+11	herum	herum	ADV	ADV	_	14	D	14:D	_
+12	klar	klar	ADJ	ADJD	_	14	D	14:D	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	durchschauen	durchschauen	VERB	VVINF	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

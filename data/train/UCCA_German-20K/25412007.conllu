@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25412007
+# text = Der Kapitän ließ sogleich halten , ein Matrose tauchte unter , um den Schaden zu untersuchen , und es fand sich ein zwei Meter breites Loch im Kiel .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	5	A	5:A	_
+3	ließ	lassen	VERB	VVFIN	_	5	D	5:D	_
+4	sogleich	sogleich	ADJ	NN	_	5	D	5:D	_
+5	halten	halten	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	ein	ein	DET	ART	_	8	E	8:E	_
+8	Matrose	Matrose	NOUN	NN	_	0	C	0:C|16:A	_
+9	tauchte	tauchen	VERB	VVFIN	_	5	H	5:H	_
+10	unter	unter	ADP	ADJD	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	um	um	ADP	KOUI	_	16	R	16:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Schaden	Schaden	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	untersuchen	untersuchen	VERB	ADJA	_	5	H	5:H	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	und	und	CCONJ	NE	_	5	L	5:L	_
+19	es	es	PRON	PPER	_	20	F	20:F	_
+20	fand	finden	VERB	VVFIN	_	5	H	5:H	_
+21	sich	er|es|sie	PRON	PRF	_	20	Terminal	20:Terminal	_
+22	ein	ein	DET	ART	_	26	E	26:E	_
+23	zwei	zwei	NUM	NN	_	24	E	24:E	_
+24	Meter	Meter	NOUN	NN	_	25	A	25:A	_
+25	breites	breit	ADJ	ADJA	_	20	A	20:A	_
+26	Loch	Loch	NOUN	NN	_	25	A	25:A	_
+27	im	im	PROPN	NE	_	28	R	28:R	_
+28	Kiel	Kiel	PROPN	NE	_	20	A	20:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

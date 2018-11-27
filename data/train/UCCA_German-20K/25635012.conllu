@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25635012
+# text = Da wir nichts Besseres zu tun hatten , dachte ich in dem klaren Wasser , wo ich eine Menge Muscheln , Pflanzen tiere und See pflanzen sah , ein wenig auf zu räumen .
+1	Da	da	SCONJ	KOUS	_	6	L	6:L	_
+2	wir	wir	PRON	NE	_	6	A	6:A	_
+3	nichts	nichts	PRON	NN	_	6	D	6:D	_
+4	Besseres	Bessere	NOUN	NN	_	6	A	6:A	_
+5	zu	zu	PART	NE	_	6	F	6:F	_
+6	tun	tun	VERB	VVINF	_	0	H	0:H	_
+7	hatten	haben	AUX	VAFIN	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	dachte	denken	VERB	VVFIN	_	31	D	31:D	_
+10	ich	ich	PRON	PPER	_	31	A	31:A	_
+11	in	in	ADP	APPR	_	14	R	14:R	_
+12	dem	der	DET	ART	_	14	E	14:E	_
+13	klaren	klar	ADJ	ADJA	_	14	E	14:E	_
+14	Wasser	Wasser	NOUN	NN	_	31	A	31:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	wo	wo	ADV	NN	_	27	R	27:R	_
+17	ich	ich	PRON	PPER	_	27	A	27:A	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Menge	Menge	NOUN	NN	_	20	E	20:E	_
+20	Muscheln	Muschel	NOUN	NN	_	27	A	27:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	23	E	23:E	_
+23	tiere	tieren	VERB	NN	_	20	C	20:C	_
+24	und	und	CCONJ	NE	_	20	N	20:N	_
+25	See	See	NOUN	NE	_	26	E	26:E	_
+26	pflanzen	pflanzen	VERB	NN	_	20	C	20:C	_
+27	sah	sehen	VERB	VVFIN	_	14	E	14:E	_
+28	,	,	PUNCT	$,	_	31	U	31:U	_
+29	ein	ein	DET	ART	_	30	E	30:E	_
+30	wenig	wenig	NOUN	ADJA	_	31	D	31:D	_
+31	auf	auf	ADP	APPR	_	6	H	6:H	_
+32	zu	zu	PART	NE	_	31	F	31:F	_
+33	räumen	räumen	VERB	VVINF	_	31	Terminal	31:Terminal	_
+34	.	.	PUNCT	$.	_	31	U	31:U	_
+

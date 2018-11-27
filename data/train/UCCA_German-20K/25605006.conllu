@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25605006
+# text = Ich betrachtete sie aufmerksam , bemüht , die Beschaffenheit dieses riesenhaften Tieres zu erkennen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|14:A	_
+2	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	aufmerksam	aufmerksam	ADJ	ADJD	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	bemüht	bemühen	ADJ	ADJD	_	14	D	14:D	_
+7	,	,	PUNCT	$,	_	14	U	14:U	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Beschaffenheit	Beschaffenheit	NOUN	NN	_	14	A	14:A	_
+10	dieses	dies	PRON	PDAT	_	12	R	12:R	_
+11	riesenhaften	riesenhaft	ADJ	NN	_	12	E	12:E	_
+12	Tieres	Tier	NOUN	NN	_	9	E	9:E	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	erkennen	erkennen	VERB	VVINF	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 643008
+# text = Epstein was homosexual .
+1	Epstein	Epstein	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	homosexual	homosexual	ADJ	JJ	_	0	H	0:H	_
+4	.	.	PUNCT	.	_	3	U	3:U	_
+

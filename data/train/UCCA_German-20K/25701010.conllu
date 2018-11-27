@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25701010
+# text = Wirklich , der schwärzliche Gegenstand war bald nur noch 1 Meile von uns entfernt .
+1	Wirklich	wirklich	ADV	ADV	_	14	G	14:G	_
+2	,	,	PUNCT	$,	_	14	U	14:U	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	schwärzliche	schwärzlich	ADJ	ADJA	_	5	E	5:E	_
+5	Gegenstand	Gegenstand	NOUN	NN	_	14	A	14:A	_
+6	war	sein	AUX	ADV	_	14	F	14:F	_
+7	bald	bald	ADV	ADV	_	14	D	14:D	_
+8	nur	nur	ADV	NE	_	14	D	14:D	_
+9	noch	noch	ADV	XY	_	14	D	14:D	_
+10	1	1	NUM	CARD	_	11	E	11:E	_
+11	Meile	Meile	NOUN	NN	_	14	A	14:A	_
+12	von	von	ADP	NE	_	13	R	13:R	_
+13	uns	wir	PRON	NN	_	14	A	14:A	_
+14	entfernt	entfernen	VERB	VVPP	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

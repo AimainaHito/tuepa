@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 191002
+# text = Sorkin had to leave the project to finish up the script for A Few Good Men , and screenwriter Scott Frank wrote two drafts of the Malice screenplay .
+1	Sorkin	Sorkin	PROPN	NNP	_	4	A	4:A|8:A	_
+2	had	have	VERB	VBD	_	4	F	4:F	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	leave	leave	VERB	VB	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	project	project	NOUN	NN	_	4	A	4:A	_
+7	to	to	PART	TO	_	4	L	4:L	_
+8	finish	finish	VERB	VB	_	4	H	4:H	_
+9	up	up	ADP	RP	_	8	E	8:E	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	script	script	NOUN	NN	_	8	A	8:A	_
+12	for	for	ADP	IN	_	13	R	13:R	_
+13	A	a	DET	DT	_	11	E	11:E	_
+14	Few	Few	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Good	Good	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Men	men	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	,	,	PUNCT	,	_	4	U	4:U	_
+18	and	and	CCONJ	CC	_	4	L	4:L	_
+19	screenwriter	screenwriter	NOUN	NN	_	20	E	20:E	_
+20	Scott	Scott	PROPN	NNP	_	22	A	22:A	_
+21	Frank	Frank	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	wrote	write	VERB	VBD	_	4	H	4:H	_
+23	two	two	NUM	CD	_	24	E	24:E	_
+24	drafts	draft	NOUN	NNS	_	22	A	22:A	_
+25	of	of	ADP	IN	_	28	R	28:R	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	Malice	Malice	PROPN	NNP	_	28	E	28:E	_
+28	screenplay	screenplay	NOUN	NN	_	24	E	24:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

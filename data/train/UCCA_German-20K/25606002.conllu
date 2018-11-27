@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25606002
+# text = Seit sie sich in stärker befahrenen Gegenden bewegte , gewahrten wir oft gescheiterte Schiffs rümpfe , die ganz verfault waren , und mehr in der Tiefe Kanonen , Kugeln , Anker , Ketten und tausend andere eiserne , von Rost zerfressene Gegenstände .
+1	Seit	seit	SCONJ	APPR	_	3	L	3:L	_
+2	sie	sie	PRON	TRUNC	_	3	A	3:A	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	stärker	stark	ADJ	ADJD	_	6	D	6:D	_
+6	befahrenen	befahren	ADJ	ADJA	_	3	A	3:A	_
+7	Gegenden	Gegend	NOUN	NN	_	6	A	6:A	_
+8	bewegte	bewegen	VERB	VVFIN	_	3	Terminal	3:Terminal	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	gewahrten	gewahren	VERB	ADJA	_	3	H	3:H	_
+11	wir	wir	PRON	NN	_	10	A	10:A	_
+12	oft	oft	ADV	CARD	_	10	D	10:D	_
+13	gescheiterte	gescheitert	ADJ	ADJA	_	15	E	15:E	_
+14	Schiffs	Schiff	NOUN	NN	_	15	E	15:E	_
+15	rümpfe	rümpfe	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	19	R	19:R	_
+18	ganz	ganz	ADV	ADV	_	19	D	19:D	_
+19	verfault	verfault	ADJ	NE	_	15	E	15:E	_
+20	waren	sein	AUX	VAFIN	_	19	F	19:F	_
+21	,	,	PUNCT	$,	_	3	U	3:U	_
+22	und	und	CCONJ	NE	_	3	L	3:L	_
+23	mehr	mehr	ADV	ADV	_	26	D	26:D	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Tiefe	Tiefe	NOUN	NN	_	3	H	3:H	_
+27	Kanonen	Kanone	NOUN	NN	_	26	A	26:A	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	Kugeln	Kugel	NOUN	NN	_	27	C	27:C	_
+30	,	,	PUNCT	$,	_	27	U	27:U	_
+31	Anker	Anker	NOUN	NE	_	27	C	27:C	_
+32	,	,	PUNCT	$,	_	27	U	27:U	_
+33	Ketten	Kette	NOUN	NE	_	27	C	27:C	_
+34	und	und	CCONJ	NE	_	27	N	27:N	_
+35	tausend	tausend	NUM	CARD	_	42	E	42:E	_
+36	andere	ander	NOUN	ADJA	_	42	E	42:E	_
+37	eiserne	eisern	ADJ	ADJA	_	42	E	42:E	_
+38	,	,	PUNCT	$,	_	42	U	42:U	_
+39	von	von	ADP	NN	_	40	R	40:R	_
+40	Rost	Rost	PROPN	NE	_	41	A	41:A	_
+41	zerfressene	zerfressen	ADJ	ADJA	_	42	E	42:E	_
+42	Gegenstände	Gegenstand	NOUN	NN	_	27	C	27:C	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

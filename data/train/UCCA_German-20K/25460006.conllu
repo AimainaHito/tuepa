@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25460006
+# text = Unstreitig , wenn das Ungeheuer jemals mit Ned Lands Harpune zu schaffen bekommt , gehe ich keine Wette zu seinen Gunsten ein .
+1	Unstreitig	Unstreitig	ADJ	ADJD	_	15	G	15:G	_
+2	,	,	PUNCT	$,	_	15	U	15:U	_
+3	wenn	wenn	SCONJ	VVFIN	_	15	L	15:L	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Ungeheuer	Ungeheuer	NOUN	NN	_	11	A	11:A	_
+6	jemals	jemals	ADV	ADV	_	11	D	11:D	_
+7	mit	mit	ADP	APPR	_	10	R	10:R	_
+8	Ned	Ned	PROPN	NE	_	10	E	10:E	_
+9	Lands	Land	PROPN	NN	_	8	Terminal	8:Terminal	_
+10	Harpune	Harpune	PROPN	PTKVZ	_	11	A	11:A	_
+11	zu	zu	PART	NE	_	15	H	15:H	_
+12	schaffen	schaffen	VERB	VVINF	_	11	Terminal	11:Terminal	_
+13	bekommt	bekommen	AUX	VVFIN	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	$,	_	15	U	15:U	_
+15	gehe	gehen	VERB	VVFIN	_	0	H	0:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	keine	kein	PRON	PIAT	_	15	D	15:D	_
+18	Wette	Wette	NOUN	NN	_	15	A	15:A	_
+19	zu	zu	ADP	VVINF	_	21	R	21:R	_
+20	seinen	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Gunsten	Gunst	NOUN	NN	_	15	A	15:A	_
+22	ein	ein	ADV	PTKVZ	_	15	Terminal	15:Terminal	_
+23	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 765002
+# text = Mais rien ne put me retenir .
+1	Mais	mais	CCONJ	_	_	6	L	6:L	_
+2	rien	rien	PRON	_	_	6	A	6:A	_
+3	ne	ne	ADV	_	_	6	D	6:D	_
+4	put	pouvoir	VERB	_	_	6	D	6:D	_
+5	me	se	PRON	_	_	6	A	6:A	_
+6	retenir	retenir	VERB	_	_	0	H	0:H	_
+7	.	.	PUNCT	_	_	6	U	6:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25610018
+# text = Er versicherte auch , er habe 6 Jahre zuvor , während eines Aufenthalts zu Vanikoro , zwei Europäer gesehen , denen Schiffe angehörten , die vor langen Jahren an den Riffen der Insel gescheitert seien .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	versicherte	versichern	VERB	VVFIN	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	er	er	PRON	PPER	_	19	A	19:A	_
+6	habe	haben	AUX	VAFIN	_	19	F	19:F	_
+7	6	6	NUM	CARD	_	8	E	8:E	_
+8	Jahre	Jahr	NOUN	NN	_	19	D	19:D	_
+9	zuvor	zuvor	ADV	ADV	_	8	R	8:R	_
+10	,	,	PUNCT	$,	_	19	U	19:U	_
+11	während	während	SCONJ	NN	_	13	R	13:R	_
+12	eines	ein	DET	ART	_	13	E	13:E	_
+13	Aufenthalts	Aufenthalt	NOUN	NN	_	19	A	19:A	_
+14	zu	zu	ADP	NE	_	15	R	15:R	_
+15	Vanikoro	Vanikoro	PROPN	NE	_	13	E	13:E	_
+16	,	,	PUNCT	$,	_	19	U	19:U	_
+17	zwei	zwei	NUM	NN	_	18	E	18:E	_
+18	Europäer	Europäer	NOUN	NE	_	19	A	19:A	_
+19	gesehen	sehen	VERB	VVINF	_	2	A	2:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	denen	der	PRON	PRELS	_	23	R	23:R	_
+22	Schiffe	Schiff	NOUN	NN	_	23	A	23:A	_
+23	angehörten	angehören	VERB	VVFIN	_	18	E	18:E	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	die	der	PRON	ART	_	34	R	34:R	_
+26	vor	vor	ADP	NN	_	28	R	28:R	_
+27	langen	lang	ADJ	ADJA	_	28	E	28:E	_
+28	Jahren	Jahr	NOUN	NN	_	34	D	34:D	_
+29	an	an	ADP	APPR	_	31	R	31:R	_
+30	den	der	DET	ART	_	31	E	31:E	_
+31	Riffen	Riff	NOUN	NN	_	34	A	34:A	_
+32	der	der	DET	ART	_	33	R	33:R	_
+33	Insel	Insel	NOUN	NN	_	31	E	31:E	_
+34	gescheitert	scheitern	VERB	VVPP	_	22	E	22:E	_
+35	seien	sein	AUX	VAFIN	_	34	F	34:F	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 226011
+# text = Jackie 's first huge blockbuster success came when he co - starred with Chris Tucker in the 1998 buddy cop action comedy Rush Hour , grossing US $ 130 million in the United States alone .
+1	Jackie	Jackie	PROPN	NNP	_	6	A	6:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	first	first	ADJ	JJ	_	6	D	6:D	_
+4	huge	huge	ADJ	JJ	_	6	D	6:D	_
+5	blockbuster	blockbuster	NOUN	NN	_	6	A	6:A	_
+6	success	success	NOUN	NN	_	7	A	7:A	_
+7	came	come	VERB	VBD	_	0	H	0:H	_
+8	when	when	ADV	WRB	_	7	L	7:L	_
+9	he	he	PRON	PRP	_	12	A	12:A	_
+10	co	co	X	AFX	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	starred	star	VERB	VBD	_	7	H	7:H	_
+13	with	with	ADP	IN	_	14	R	14:R	_
+14	Chris	Chris	PROPN	NNP	_	12	A	12:A	_
+15	Tucker	Tucker	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	in	in	ADP	IN	_	23	R	23:R	_
+17	the	the	DET	DT	_	23	E	23:E	_
+18	1998	1998	NUM	CD	_	23	E	23:E	_
+19	buddy	buddy	NOUN	NN	_	20	E	20:E	_
+20	cop	cop	NOUN	NN	_	23	E	23:E	_
+21	action	action	NOUN	NN	_	23	E	23:E	_
+22	comedy	comedy	NOUN	NN	_	23	E	23:E	_
+23	Rush	rush	PROPN	NNP	_	0	C	0:C|26:A	_
+24	Hour	hour	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	26	U	26:U	_
+26	grossing	gross	VERB	VBG	_	7	H	7:H	_
+27	US	US	PROPN	NNP	_	26	A	26:A	_
+28	$	$	SYM	$	_	27	U	27:U	_
+29	130	130	NUM	CD	_	27	Terminal	27:Terminal	_
+30	million	million	NUM	CD	_	27	Terminal	27:Terminal	_
+31	in	in	ADP	IN	_	33	R	33:R	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	United	United	PROPN	NNP	_	26	A	26:A	_
+34	States	States	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	alone	alone	ADV	RB	_	33	E	33:E	_
+36	.	.	PUNCT	.	_	33	U	33:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25436023
+# text = Nur einen Fehler hatte Conseil .
+1	Nur	nur	ADV	ADV	_	4	D	4:D	_
+2	einen	ein	DET	ART	_	3	E	3:E	_
+3	Fehler	Fehler	NOUN	NN	_	4	A	4:A	_
+4	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+5	Conseil	Conseil	NOUN	NN	_	4	A	4:A	_
+6	.	.	PUNCT	$.	_	4	U	4:U	_
+

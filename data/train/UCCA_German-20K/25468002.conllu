@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25468002
+# text = « » Wirklich !
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Wirklich	wirklich	ADJ	ADJD	_	0	H	0:H	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25412011
+# text = Diese Tatsache setzte die öffentliche Meinung in leidenschaftliche Bewegung .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Tatsache	Tatsache	NOUN	NN	_	3	A	3:A	_
+3	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	öffentliche	öffentlich	ADJ	PPOSAT	_	6	E	6:E	_
+6	Meinung	Meinung	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	APPR	_	3	Terminal	3:Terminal	_
+8	leidenschaftliche	leidenschaftlich	ADJ	ADJA	_	3	D	3:D	_
+9	Bewegung	Bewegung	NOUN	NN	_	3	Terminal	3:Terminal	_
+10	.	.	PUNCT	$.	_	3	U	3:U	_
+

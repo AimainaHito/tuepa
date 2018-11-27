@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25686018
+# text = Sowie er , etwa 5 Meter tief , auf den Grund kam , fiel er auf die Knie und füllte seinen Sack mit rasch zusammen gerafften Muscheln .
+1	Sowie	sowie	SCONJ	NN	_	12	L	12:L	_
+2	er	er	PRON	PPER	_	12	A	12:A	_
+3	,	,	PUNCT	$,	_	12	U	12:U	_
+4	etwa	etwa	ADV	ADV	_	12	D	12:D	_
+5	5	5	NUM	CARD	_	6	E	6:E	_
+6	Meter	Meter	NOUN	NN	_	7	E	7:E	_
+7	tief	tief	ADJ	VVFIN	_	12	A	12:A	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Grund	Grund	NOUN	NN	_	12	A	12:A	_
+12	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	fiel	fallen	VERB	VVFIN	_	12	H	12:H	_
+15	er	er	PRON	PPER	_	14	A	14:A|20:A	_
+16	auf	auf	ADP	APPR	_	18	R	18:R	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Knie	Knie	NOUN	NN	_	14	A	14:A	_
+19	und	und	CCONJ	NE	_	12	L	12:L	_
+20	füllte	füllen	VERB	VVFIN	_	12	H	12:H	_
+21	seinen	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Sack	Sack	NOUN	NN	_	20	A	20:A	_
+23	mit	mit	ADP	APPR	_	27	R	27:R	_
+24	rasch	rasch	ADJ	ADJD	_	26	E	26:E	_
+25	zusammen	zusammen	ADV	NN	_	26	E	26:E	_
+26	gerafften	gerafft	ADJ	ADJA	_	27	E	27:E	_
+27	Muscheln	Muschel	NOUN	NN	_	20	A	20:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

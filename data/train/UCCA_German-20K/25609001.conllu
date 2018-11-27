@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25609001
+# text = Sie gehören zu der bekannten , in Korsika sehr häufigen Gattung Ostrea lamellosa .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	gehören	gehören	VERB	VVFIN	_	0	H	0:H	_
+3	zu	zu	ADP	NE	_	12	R	12:R	_
+4	der	der	DET	ART	_	11	E	11:E	_
+5	bekannten	bekannt	ADJ	ADJA	_	11	E	11:E	_
+6	,	,	PUNCT	$,	_	11	U	11:U	_
+7	in	in	ADP	APPR	_	8	R	8:R	_
+8	Korsika	Korsika	PROPN	NE	_	10	A	10:A	_
+9	sehr	sehr	ADV	NE	_	10	D	10:D	_
+10	häufigen	häufig	ADJ	ADJA	_	11	E	11:E	_
+11	Gattung	Gattung	NOUN	NN	_	12	E	12:E	_
+12	Ostrea	Ostrea	PROPN	NE	_	2	A	2:A	_
+13	lamellosa	lamellosa	PROPN	NE	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

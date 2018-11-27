@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 564010
+# text = Actor Charles Laughton hosted the show , filling in while Sullivan recuperated from a car accident .
+1	Actor	Actor	CCONJ	CC	_	2	E	2:E	_
+2	Charles	Charles	PROPN	NNP	_	0	C	0:C|8:A	_
+3	Laughton	Laughton	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	hosted	host	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	show	show	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	filling	fill	VERB	VBG	_	4	H	4:H	_
+9	in	in	ADV	RB	_	8	Terminal	8:Terminal	_
+10	while	while	SCONJ	IN	_	4	L	4:L	_
+11	Sullivan	Sullivan	PROPN	NNP	_	12	A	12:A	_
+12	recuperated	recuperate	VERB	VBD	_	4	H	4:H	_
+13	from	from	ADP	IN	_	16	R	16:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	car	car	NOUN	NN	_	16	E	16:E	_
+16	accident	accident	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

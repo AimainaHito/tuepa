@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 180006
+# text = Gyllenhaal has been in a relationship with actor Peter Sarsgaard since 2002 .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	6	A	6:A	_
+2	has	have	AUX	VBZ	_	6	F	6:F	_
+3	been	be	AUX	VBN	_	6	D	6:D	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	relationship	relationship	NOUN	NN	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	actor	actor	NOUN	NN	_	9	E	9:E	_
+9	Peter	Peter	PROPN	NNP	_	6	A	6:A	_
+10	Sarsgaard	Sarsgaard	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	since	since	ADP	IN	_	12	R	12:R	_
+12	2002	2002	NUM	CD	_	6	D	6:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 215004
+# text = The story is about a supernatural and ominous board game which makes animals and other jungle hazards appear upon each roll of the dice .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	story	story	NOUN	NN	_	4	A	4:A	_
+3	is	be	AUX	VBZ	_	4	F	4:F	_
+4	about	about	ADP	IN	_	0	H	0:H	_
+5	a	a	DET	DT	_	10	E	10:E	_
+6	supernatural	supernatural	ADJ	JJ	_	10	E	10:E	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	ominous	ominous	ADJ	JJ	_	6	C	6:C	_
+9	board	board	NOUN	NN	_	10	E	10:E	_
+10	game	game	NOUN	NN	_	4	A	4:A	_
+11	which	which	PRON	WDT	_	18	F	18:F	_
+12	makes	make	VERB	VBZ	_	18	F	18:F	_
+13	animals	animal	NOUN	NNS	_	18	A	18:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	other	other	ADJ	JJ	_	17	E	17:E	_
+16	jungle	jungle	NOUN	NN	_	17	E	17:E	_
+17	hazards	hazard	NOUN	NNS	_	13	C	13:C	_
+18	appear	appear	VERB	VBP	_	10	E	10:E	_
+19	upon	upon	ADP	IN	_	10	L	10:L	_
+20	each	each	DET	DT	_	21	D	21:D	_
+21	roll	roll	NOUN	NN	_	10	H	10:H	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	dice	dice	NOUN	NN	_	21	A	21:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

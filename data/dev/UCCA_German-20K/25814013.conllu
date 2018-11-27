@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25814013
+# text = Der Schmerz von Kapitän Nemo war unermeßlich .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Schmerz	Schmerz	NOUN	NN	_	7	A	7:A	_
+3	von	von	ADP	NE	_	5	R	5:R	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	2	E	2:E	_
+6	war	sein	AUX	ADV	_	7	F	7:F	_
+7	unermeßlich	unermeßlich	ADJ	ADJD	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

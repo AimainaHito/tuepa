@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25628023
+# text = Währenddessen bereitete Ned die Frucht des Brotfruchtbaums zu .
+1	Währenddessen	währenddessen	ADV	PAV	_	2	L	2:L	_
+2	bereitete	bereiten	VERB	VVFIN	_	0	H	0:H	_
+3	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Frucht	Frucht	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Brotfruchtbaums	Brotfruchtbaums	NOUN	NN	_	5	E	5:E	_
+8	zu	zu	ADP	VVINF	_	2	Terminal	2:Terminal	_
+9	.	.	PUNCT	$.	_	2	U	2:U	_
+

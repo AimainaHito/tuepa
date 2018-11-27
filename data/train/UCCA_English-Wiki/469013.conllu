@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 469013
+# text = In a losing effort against Philadelphia , Johnson averaged 19.0 points on .403 shooting , 12.5 assists , and 7.8 rebounds per game .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	losing	lose	VERB	VBG	_	4	E	4:E	_
+4	effort	effort	NOUN	NN	_	0	H	0:H	_
+5	against	against	ADP	IN	_	6	R	6:R	_
+6	Philadelphia	Philadelphia	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	Johnson	Johnson	PROPN	NNP	_	9	A	9:A|4:A	_
+9	averaged	average	VERB	VBD	_	4	H	4:H	_
+10	19.0	19.0	NUM	CD	_	11	E	11:E	_
+11	points	point	NOUN	NNS	_	14	E	14:E	_
+12	on	on	ADP	IN	_	14	R	14:R	_
+13	.403	.403	NUM	CD	_	14	E	14:E	_
+14	shooting	shooting	NOUN	NN	_	9	A	9:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	12.5	12.5	NUM	CD	_	17	E	17:E	_
+17	assists	assist	NOUN	NNS	_	14	C	14:C	_
+18	,	,	PUNCT	,	_	14	U	14:U	_
+19	and	and	CCONJ	CC	_	14	N	14:N	_
+20	7.8	7.8	NUM	CD	_	21	E	21:E	_
+21	rebounds	rebound	NOUN	NNS	_	14	C	14:C	_
+22	per	per	ADP	IN	_	23	R	23:R	_
+23	game	game	NOUN	NN	_	14	E	14:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

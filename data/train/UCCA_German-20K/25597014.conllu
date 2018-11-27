@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25597014
+# text = Der Schuß ging los , ich hörte ein schwaches Pfeifen , und ein Tier fiel in einer Entfernung von einigen Schritten nieder .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Schuß	Schuß	NOUN	NN	_	3	A	3:A	_
+3	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+4	los	los	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	ich	ich	PRON	PPER	_	7	A	7:A	_
+7	hörte	hörn	VERB	VVFIN	_	3	H	3:H	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	schwaches	schwach	ADJ	ADJA	_	10	E	10:E	_
+10	Pfeifen	Pfeife|Pfeifen	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	und	und	CCONJ	NE	_	3	L	3:L	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Tier	Tier	NOUN	NN	_	15	A	15:A	_
+15	fiel	fallen	VERB	VVFIN	_	3	H	3:H	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	einer	ein	DET	ART	_	18	E	18:E	_
+18	Entfernung	Entfernung	NOUN	NN	_	15	A	15:A	_
+19	von	von	ADP	NE	_	21	R	21:R	_
+20	einigen	einige	PRON	PIAT	_	21	E	21:E	_
+21	Schritten	Schritt	NOUN	NN	_	18	E	18:E	_
+22	nieder	nieder	ADV	XY	_	15	Terminal	15:Terminal	_
+23	.	.	PUNCT	$.	_	15	U	15:U	_
+

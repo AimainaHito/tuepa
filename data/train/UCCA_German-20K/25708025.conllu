@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25708025
+# text = » Das mag man , mein Herr , sonst jemandem weismachen « , entgegnete der starrköpfige Kanadier .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Das	der	PRON	PDS	_	11	A	11:A	_
+3	mag	mögen	AUX	VVFIN	_	11	D	11:D	_
+4	man	man	PRON	PIS	_	11	A	11:A	_
+5	,	,	PUNCT	$,	_	11	U	11:U	_
+6	mein	mein	PRON	PPOSAT	_	7	E	7:E	_
+7	Herr	Herr	NOUN	NN	_	11	G	11:G	_
+8	,	,	PUNCT	$,	_	11	U	11:U	_
+9	sonst	sonst	ADV	NN	_	11	A	11:A	_
+10	jemandem	jemandem	ADV	KOUS	_	9	E	9:E	_
+11	weismachen	weismachen	VERB	ADJA	_	14	A	14:A	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+15	der	der	DET	ART	_	17	E	17:E	_
+16	starrköpfige	starrköpfig	ADJ	ADJA	_	17	E	17:E	_
+17	Kanadier	Kanadier	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

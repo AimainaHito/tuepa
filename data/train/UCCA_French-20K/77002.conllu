@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 77002
+# text = Les négociants , armateurs , capitaines de navires , skippers et masters de l' Europe et de l' Amérique , officiers des marines militaires de tous pays , et , après eux , les gouvernements des divers États des deux continents , se préoccupèrent de ce fait au plus haut point .
+1	Les	le	DET	_	_	2	E	2:E|4:E|6:E	_
+2	négociants	négociant	NOUN	_	_	43	A	43:A	_
+3	,	,	PUNCT	_	_	2	U	2:U	_
+4	armateurs	armateur	NOUN	_	_	2	C	2:C	_
+5	,	,	PUNCT	_	_	2	U	2:U	_
+6	capitaines	capitaine	NOUN	_	_	2	C	2:C	_
+7	de	de	ADP	_	_	8	R	8:R	_
+8	navires	navire	NOUN	_	_	6	E	6:E	_
+9	,	,	PUNCT	_	_	2	U	2:U	_
+10	skippers	skipper	NOUN	_	_	2	C	2:C	_
+11	et	et	CCONJ	_	_	2	N	2:N	_
+12	masters	master	NOUN	_	_	2	C	2:C	_
+13	de	de	ADP	_	_	15	R	15:R	_
+14	l'	le	DET	_	_	15	E	15:E	_
+15	Europe	Europe	PROPN	_	_	2	E	2:E	_
+16	et	et	CCONJ	_	_	15	N	15:N	_
+17	de	de	ADP	_	_	19	R	19:R	_
+18	l'	le	DET	_	_	19	E	19:E	_
+19	Amérique	Amérique	PROPN	_	_	15	C	15:C	_
+20	,	,	PUNCT	_	_	2	U	2:U	_
+21	officiers	officier	NOUN	_	_	2	C	2:C	_
+22	des	un	DET	_	_	23	R	23:R	_
+23	marines	marine	NOUN	_	_	21	E	21:E	_
+24	militaires	militaire	ADJ	_	_	23	E	23:E	_
+25	de	de	ADP	_	_	27	R	27:R	_
+26	tous	tout	DET	_	_	27	E	27:E	_
+27	pays	pays	NOUN	_	_	23	E	23:E	_
+28	,	,	PUNCT	_	_	2	U	2:U	_
+29	et	et	CCONJ	_	_	2	N	2:N	_
+30	,	,	PUNCT	_	_	2	U	2:U	_
+31	après	après	ADP	_	_	35	R	35:R	_
+32	eux	soi	PRON	_	_	35	F	35:F	_
+33	,	,	PUNCT	_	_	35	U	35:U	_
+34	les	le	DET	_	_	35	E	35:E	_
+35	gouvernements	gouvernement	NOUN	_	_	2	C	2:C	_
+36	des	de	DET	_	_	38	R	38:R	_
+37	divers	divers	ADJ	_	_	38	E	38:E	_
+38	États	États	PROPN	_	_	35	E	35:E	_
+39	des	un	DET	_	_	41	R	41:R	_
+40	deux	deux	NUM	_	_	41	E	41:E	_
+41	continents	continent	NOUN	_	_	38	E	38:E	_
+42	,	,	PUNCT	_	_	43	U	43:U	_
+43	se	se	PRON	_	_	0	H	0:H	_
+44	préoccupèrent	préoccuper	VERB	_	_	43	Terminal	43:Terminal	_
+45	de	de	ADP	_	_	47	R	47:R	_
+46	ce	ce	DET	_	_	47	E	47:E	_
+47	fait	fait	NOUN	_	_	43	A	43:A	_
+48	au	au	VERB	_	_	51	R	51:R	_
+49	plus	plus	ADV	_	_	51	E	51:E	_
+50	haut	haut	ADJ	_	_	51	E	51:E	_
+51	point	point	NOUN	_	_	43	D	43:D	_
+52	.	.	PUNCT	_	_	51	U	51:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25687020
+# text = Aber damit war ' s noch nicht aus .
+1	Aber	aber	CCONJ	KON	_	8	L	8:L	_
+2	damit	damit	ADV	PAV	_	8	A	8:A	_
+3	war	sein	AUX	ADV	_	8	F	8:F	_
+4	'	'	PUNCT	$(	_	8	U	8:U	_
+5	s	s	ADV	ADJD	_	8	A	8:A	_
+6	noch	noch	ADV	VVINF	_	8	D	8:D	_
+7	nicht	nicht	PART	XY	_	8	D	8:D	_
+8	aus	aus	ADP	PTKVZ	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

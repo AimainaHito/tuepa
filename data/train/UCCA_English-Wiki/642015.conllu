@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 642015
+# text = He performed on the evening of his wedding day , and would continue to do so almost daily from then on .
+1	He	he	PRON	PRP	_	2	A	2:A|12:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	on	on	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	evening	evening	NOUN	NN	_	2	D	2:D	_
+6	of	of	ADP	IN	_	9	R	9:R	_
+7	his	he	PRON	PRP$	_	9	A	9:A	_
+8	wedding	wedding	NOUN	NN	_	9	E	9:E	_
+9	day	day	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	would	would	AUX	MD	_	2	H	2:H	_
+13	continue	continue	VERB	VB	_	12	D	12:D	_
+14	to	to	PART	TO	_	12	F	12:F	_
+15	do	do	VERB	VB	_	12	F	12:F	_
+16	so	so	ADV	RB	_	12	A	12:A	_
+17	almost	almost	ADV	RB	_	18	E	18:E	_
+18	daily	daily	ADV	RB	_	12	D	12:D	_
+19	from	from	ADP	IN	_	20	R	20:R	_
+20	then	then	ADV	RB	_	12	D	12:D	_
+21	on	on	ADV	RB	_	20	E	20:E	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

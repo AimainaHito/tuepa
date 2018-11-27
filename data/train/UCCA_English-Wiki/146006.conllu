@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 146006
+# text = She also enjoyed painting , which became a passion later in life .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	enjoyed	enjoy	VERB	VBD	_	0	H	0:H	_
+4	painting	painting	VERB	VBG	_	3	A	3:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	which	which	PRON	WDT	_	9	R	9:R	_
+7	became	become	VERB	VBD	_	9	D	9:D	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	passion	passion	NOUN	NN	_	4	E	4:E	_
+10	later	later	ADV	RBR	_	12	R	12:R	_
+11	in	in	ADP	IN	_	12	F	12:F	_
+12	life	life	NOUN	NN	_	9	D	9:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

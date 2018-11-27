@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25666009
+# text = Die elektrische Lampe war derart eingerichtet , dass sie alle ihre Leucht kraft hingab .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	elektrische	elektrisch	ADJ	ADJA	_	6	A	6:A	_
+3	Lampe	Lampe	NOUN	NN	_	2	A	2:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	derart	derart	ADV	ADV	_	6	F	6:F	_
+6	eingerichtet	einrichten	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dass	dass	SCONJ	KOUS	_	6	L	6:L	_
+9	sie	sie	PRON	ADV	_	14	A	14:A	_
+10	alle	alle	PRON	PIS	_	13	E	13:E	_
+11	ihre	ihr	DET	PPOSAT	_	13	E	13:E	_
+12	Leucht	Leucht	NOUN	NN	_	13	E	13:E	_
+13	kraft	krafen	VERB	NN	_	14	A	14:A	_
+14	hingab	hingaben	AUX	VVFIN	_	6	H	6:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

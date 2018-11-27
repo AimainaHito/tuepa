@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25630012
+# text = » Richtig « , sagte Ned , » ist 's auch nicht der Vogel , so sind 's doch seine Federn , und insofern der Gegenstand nicht zum Essen bestimmt ist , sehe ich dabei kein so arges Übel ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Richtig	richtig	NOUN	ADJD	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	ist	sein	VERB	VVFIN	_	2	H	2:H	_
+10	's	es	PRON	PPER	_	9	A	9:A	_
+11	auch	auch	ADV	ADV	_	2	L	2:L	_
+12	nicht	nicht	PART	ADJA	_	9	D	9:D	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Vogel	Vogel	NOUN	NN	_	9	A	9:A	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	so	so	ADV	ADV	_	2	L	2:L	_
+17	sind	sein	AUX	NE	_	2	H	2:H	_
+18	's	es	PART	ART	_	17	F	17:F	_
+19	doch	doch	ADV	ADV	_	17	F	17:F	_
+20	seine	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Federn	Feder	NOUN	NN	_	17	A	17:A	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	und	und	CCONJ	NE	_	2	L	2:L	_
+24	insofern	insofern	ADV	ADV	_	2	L	2:L	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Gegenstand	Gegenstand	NOUN	NN	_	29	A	29:A	_
+27	nicht	nicht	PART	CARD	_	29	D	29:D	_
+28	zum	zum	ADP	NN	_	29	R	29:R	_
+29	Essen	es	NOUN	NE	_	2	H	2:H	_
+30	bestimmt	bestimmen	VERB	ADJD	_	29	D	29:D	_
+31	ist	sein	AUX	NN	_	29	F	29:F	_
+32	,	,	PUNCT	$,	_	2	U	2:U	_
+33	sehe	sehe	SCONJ	VVFIN	_	2	H	2:H	_
+34	ich	ich	PRON	PPER	_	33	A	33:A	_
+35	dabei	dabei	ADV	PAV	_	33	A	33:A	_
+36	kein	kein	PRON	PIAT	_	33	D	33:D	_
+37	so	so	ADV	ADV	_	38	E	38:E	_
+38	arges	arg	ADJ	NE	_	39	E	39:E	_
+39	Übel	Übel	NOUN	NE	_	33	A	33:A	_
+40	!	!	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

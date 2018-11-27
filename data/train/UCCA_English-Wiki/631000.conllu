@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 631000
+# text = In September 1980 , Lennon commented about his family and his rebellious nature :
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	September	September	PROPN	NNP	_	3	E	3:E	_
+3	1980	1980	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Lennon	Lennon	PROPN	NNP	_	6	A	6:A	_
+6	commented	comment	VERB	VBD	_	0	H	0:H	_
+7	about	about	ADP	IN	_	9	R	9:R	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	family	family	NOUN	NN	_	6	A	6:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	his	he	PRON	PRP$	_	13	E	13:E	_
+12	rebellious	rebellious	ADJ	JJ	_	13	E	13:E	_
+13	nature	nature	NOUN	NN	_	9	C	9:C	_
+14	:	:	PUNCT	:	_	13	U	13:U	_
+

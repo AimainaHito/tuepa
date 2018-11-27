@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 204002
+# text = In 1995 , he checked into rehab at the Hazelden Institute in Minnesota , on the advice of his then girlfriend and soon to be wife Julia Bingham , to try to beat his addiction to cocaine .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1995	1995	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	he	he	PRON	PRP	_	7	A	7:A|33:A	_
+5	checked	check	VERB	VBD	_	7	E	7:E	_
+6	into	into	ADP	IN	_	5	R	5:R	_
+7	rehab	rehab	NOUN	NN	_	0	H	0:H	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Hazelden	Hazelden	PROPN	NNP	_	7	A	7:A	_
+11	Institute	Institute	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Minnesota	Minnesota	PROPN	NNP	_	10	E	10:E	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	on	on	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	advice	advice	NOUN	NN	_	7	A	7:A	_
+18	of	of	ADP	IN	_	27	R	27:R	_
+19	his	he	PRON	PRP$	_	21	E	21:E	_
+20	then	then	ADV	RB	_	21	E	21:E	_
+21	girlfriend	girlfriend	NOUN	NN	_	27	E	27:E	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	soon	soon	ADV	RB	_	26	D	26:D	_
+24	to	to	PART	TO	_	26	F	26:F	_
+25	be	be	AUX	VB	_	26	F	26:F	_
+26	wife	wife	NOUN	NN	_	21	C	21:C	_
+27	Julia	Julia	PROPN	NNP	_	17	A	17:A	_
+28	Bingham	Bingham	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	,	,	PUNCT	,	_	7	U	7:U	_
+30	to	to	PART	TO	_	7	L	7:L	_
+31	try	try	VERB	VB	_	33	D	33:D	_
+32	to	to	PART	TO	_	33	F	33:F	_
+33	beat	beat	VERB	VB	_	7	H	7:H	_
+34	his	he	PRON	PRP$	_	35	E	35:E	_
+35	addiction	addiction	NOUN	NN	_	33	A	33:A	_
+36	to	to	PART	TO	_	37	R	37:R	_
+37	cocaine	cocaine	VERB	VB	_	35	E	35:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

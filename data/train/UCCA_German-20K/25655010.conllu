@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25655010
+# text = Und sein Gesicht mit den Händen bedeckend , versuchte der Kapitän vergebens sein Schluchzen zu verbergen .
+1	Und	und	CCONJ	ADJD	_	16	L	16:L	_
+2	sein	sein	DET	PPOSAT	_	3	E	3:E	_
+3	Gesicht	Gesicht	NOUN	NN	_	7	A	7:A	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Händen	Händen	NOUN	NN	_	7	A	7:A	_
+7	bedeckend	bedeckend	ADJ	ADJD	_	16	A	16:A	_
+8	,	,	PUNCT	$,	_	16	U	16:U	_
+9	versuchte	versuchen	VERB	VVFIN	_	16	D	16:D	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|7:A	_
+12	vergebens	vergebens	ADP	ADV	_	16	D	16:D	_
+13	sein	sein	DET	PPOSAT	_	14	E	14:E	_
+14	Schluchzen	Schluchzen	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	verbergen	verbergen	VERB	VVINF	_	0	H	0:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

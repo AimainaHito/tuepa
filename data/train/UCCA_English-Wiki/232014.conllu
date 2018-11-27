@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 232014
+# text = Despite considerable box office success in The Northsouth Territories , Chan 's American films have been criticised with regard to their action choreography .
+1	Despite	despite	ADP	IN	_	5	L	5:L	_
+2	considerable	considerable	ADJ	JJ	_	5	D	5:D	_
+3	box	box	NOUN	NN	_	4	E	4:E	_
+4	office	office	NOUN	NN	_	5	A	5:A	_
+5	success	success	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	The	the	DET	DT	_	5	A	5:A	_
+8	Northsouth	Northsouth	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Territories	territories	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	Chan	Chan	PROPN	NNP	_	14	E	14:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	American	american	ADJ	JJ	_	14	E	14:E	_
+14	films	film	NOUN	NNS	_	17	A	17:A	_
+15	have	have	AUX	VBP	_	17	F	17:F	_
+16	been	be	AUX	VBN	_	17	F	17:F	_
+17	criticised	criticise	VERB	VBN	_	5	H	5:H	_
+18	with	with	ADP	IN	_	19	E	19:E	_
+19	regard	regard	NOUN	NN	_	23	R	23:R	_
+20	to	to	ADP	IN	_	19	F	19:F	_
+21	their	they	PRON	PRP$	_	23	E	23:E	_
+22	action	action	NOUN	NN	_	23	E	23:E	_
+23	choreography	choreography	NOUN	NN	_	17	A	17:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

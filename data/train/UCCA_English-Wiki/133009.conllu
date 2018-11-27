@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 133009
+# text = In 1942 , Hepburn returned to Broadway to appear in another Philip Barry play , Without Love , which was also written with the actress in mind .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1942	1942	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A|9:A	_
+5	returned	return	VERB	VBD	_	0	H	0:H	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	Broadway	Broadway	PROPN	NNP	_	5	A	5:A	_
+8	to	to	PART	TO	_	5	L	5:L	_
+9	appear	appear	VERB	VB	_	5	H	5:H	_
+10	in	in	ADP	IN	_	16	R	16:R	_
+11	another	another	DET	DT	_	14	E	14:E	_
+12	Philip	Philip	PROPN	NNP	_	14	E	14:E	_
+13	Barry	Barry	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	play	play	VERB	VB	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	Without	without	ADP	IN	_	9	A	9:A	_
+17	Love	Love	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	which	which	PRON	WDT	_	22	F	22:F	_
+20	was	be	AUX	VBD	_	22	F	22:F	_
+21	also	also	ADV	RB	_	22	D	22:D	_
+22	written	write	VERB	VBN	_	16	E	16:E	_
+23	with	with	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	actress	actress	NOUN	NN	_	22	A	22:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	mind	mind	NOUN	NN	_	25	E	25:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

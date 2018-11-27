@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 698001
+# text = Producer Bob Johnston persuaded Dylan to record in Nashville in February 1966 , and surrounded him with a cadre of top - notch session men .
+1	Producer	producer	NOUN	NN	_	0	C	0:C|15:A	_
+2	Bob	Bob	PROPN	NNP	_	1	E	1:E	_
+3	Johnston	Johnston	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	persuaded	persuad	VERB	VBD	_	0	H	0:H	_
+5	Dylan	Dylan	PROPN	NNP	_	4	A	4:A	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	record	record	VERB	VB	_	4	A	4:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Nashville	Nashville	PROPN	NNP	_	7	A	7:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	February	February	PROPN	NNP	_	12	E	12:E	_
+12	1966	1966	NUM	CD	_	7	D	7:D	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	and	and	CCONJ	CC	_	4	L	4:L	_
+15	surrounded	surround	VERB	VBD	_	4	H	4:H	_
+16	him	he	PRON	PRP	_	15	A	15:A	_
+17	with	with	ADP	IN	_	19	R	19:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	cadre	cadre	NOUN	NN	_	15	A	15:A	_
+20	of	of	ADP	IN	_	25	R	25:R	_
+21	top	top	ADJ	JJ	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	notch	notch	NOUN	NN	_	25	E	25:E	_
+24	session	session	NOUN	NN	_	25	E	25:E	_
+25	men	man	NOUN	NNS	_	19	E	19:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

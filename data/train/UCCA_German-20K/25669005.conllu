@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25669005
+# text = Sie war auch launenhafter und zog uns oft in große Tiefen hinab .
+1	Sie	Sie|sie	PRON	PPER	_	4	A	4:A|6:A	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	auch	auch	ADV	ADV	_	4	L	4:L	_
+4	launenhafter	launenhaft	ADJ	ADJA	_	0	H	0:H	_
+5	und	und	CCONJ	NN	_	4	L	4:L	_
+6	zog	ziehen	VERB	VVFIN	_	4	H	4:H	_
+7	uns	wir	PRON	NN	_	6	A	6:A	_
+8	oft	oft	ADV	CARD	_	6	D	6:D	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	große	groß	ADJ	ADJA	_	11	E	11:E	_
+11	Tiefen	tiefe	NOUN	NN	_	6	A	6:A	_
+12	hinab	hinab	ADV	PTKVZ	_	6	Terminal	6:Terminal	_
+13	.	.	PUNCT	$.	_	6	U	6:U	_
+

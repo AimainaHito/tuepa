@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25808007
+# text = » Aber ich « , sagte Conseil mit der ernstesten Miene von der Welt , » erinnere mich wohl gesehen zu haben , wie ein großes Fahrzeug von den Armen eines Kopffüßlers unters Wasser hinabgezogen wurde . «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Aber	aber	CCONJ	KON	_	17	L	17:L	_
+3	ich	ich	PRON	PPER	_	17	A	17:A|20:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	PROPN	NE	_	6	A	6:A	_
+8	mit	mit	ADP	APPR	_	11	R	11:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	ernstesten	ernste	ADJ	NN	_	11	E	11:E	_
+11	Miene	Miene	NOUN	NE	_	6	A	6:A	_
+12	von	von	ADP	NE	_	14	R	14:R	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Welt	Welt	NOUN	NN	_	11	E	11:E	_
+15	,	,	PUNCT	$,	_	6	U	6:U	_
+16	»	»	PUNCT	$(	_	6	U	6:U	_
+17	erinnere	erinnern	VERB	ADJA	_	6	A	6:A	_
+18	mich	ich	PRON	PPER	_	17	Terminal	17:Terminal	_
+19	wohl	wohl	ADV	ADV	_	17	G	17:G	_
+20	gesehen	sehen	VERB	FM	_	17	A	17:A	_
+21	zu	zu	PART	NE	_	20	F	20:F	_
+22	haben	haben	VERB	VAINF	_	20	F	20:F	_
+23	,	,	PUNCT	$,	_	20	U	20:U	_
+24	wie	wie	CCONJ	KON	_	35	R	35:R	_
+25	ein	ein	DET	ART	_	27	E	27:E	_
+26	großes	groß	ADJ	ADJA	_	27	E	27:E	_
+27	Fahrzeug	Fahrzeug	NOUN	NN	_	35	A	35:A	_
+28	von	von	ADP	NN	_	30	R	30:R	_
+29	den	der	DET	ART	_	30	E	30:E	_
+30	Armen	Arm|Arme	NOUN	NN	_	35	A	35:A	_
+31	eines	ein	DET	ART	_	32	R	32:R	_
+32	Kopffüßlers	Kopffüßler	NOUN	NN	_	30	E	30:E	_
+33	unters	unters	ADJ	NE	_	34	R	34:R	_
+34	Wasser	Wasser	NOUN	NN	_	35	A	35:A	_
+35	hinabgezogen	hinabziehen	VERB	ADJD	_	20	A	20:A	_
+36	wurde	werden	AUX	TRUNC	_	35	F	35:F	_
+37	.	.	PUNCT	$.	_	35	U	35:U	_
+38	«	«	PUNCT	$(	_	35	U	35:U	_
+

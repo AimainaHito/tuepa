@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25765001
+# text = Ich begriff , dass dies für Ned Land wie für alle früheren Seefahrer ein unüberwindliches Hindernis war .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	begriff	begreifen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+5	dies	dies	PRON	PDS	_	16	A	16:A	_
+6	für	für	ADP	APPR	_	7	R	7:R	_
+7	Ned	Ned	PROPN	NE	_	16	A	16:A	_
+8	Land	Land	NOUN	NE	_	7	Terminal	7:Terminal	_
+9	wie	wie	CCONJ	ADV	_	13	R	13:R	_
+10	für	für	ADP	APPR	_	13	R	13:R	_
+11	alle	alle	PRON	PIAT	_	13	E	13:E	_
+12	früheren	früh	ADJ	ADJA	_	13	E	13:E	_
+13	Seefahrer	Seefahrer	NOUN	NN	_	16	H	16:H	_
+14	ein	ein	DET	ART	_	16	E	16:E	_
+15	unüberwindliches	unüberwindlich	ADJ	ADJA	_	16	D	16:D	_
+16	Hindernis	Hindernis	NOUN	NN	_	0	C	0:C|13:S	_
+17	war	sein	AUX	ADV	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

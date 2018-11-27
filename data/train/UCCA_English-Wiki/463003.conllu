@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 463003
+# text = For the week of his death , World News Tonight placed number one in the ratings race for the first time since June 2004 .
+1	For	for	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	week	week	NOUN	NN	_	11	D	11:D	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	death	death	NOUN	NN	_	3	E	3:E	_
+7	,	,	PUNCT	,	_	11	U	11:U	_
+8	World	World	PROPN	NNP	_	11	A	11:A	_
+9	News	news	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Tonight	tonight	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	placed	place	VERB	VBN	_	0	H	0:H	_
+12	number	number	NOUN	NN	_	13	E	13:E	_
+13	one	one	NUM	CD	_	11	A	11:A	_
+14	in	in	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	ratings	rating	NOUN	NNS	_	17	E	17:E	_
+17	race	race	NOUN	NN	_	13	E	13:E	_
+18	for	for	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	first	first	ADJ	JJ	_	21	E	21:E	_
+21	time	time	NOUN	NN	_	11	D	11:D	_
+22	since	since	ADP	IN	_	23	R	23:R	_
+23	June	June	PROPN	NNP	_	21	E	21:E	_
+24	2004	2004	NUM	CD	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

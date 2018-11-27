@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25623014
+# text = Aus seinem grünen Laub ragten große kugelrunde Früchte vom Durchmesser eines Dezimeter mit rauher Schale hervor , deren Unebenheiten sechseckige Form zeigten .
+1	Aus	aus	ADP	APPR	_	4	R	4:R	_
+2	seinem	sein	DET	PPOSAT	_	4	E	4:E	_
+3	grünen	grün	ADJ	ADJA	_	4	E	4:E	_
+4	Laub	Laub	NOUN	NN	_	5	A	5:A	_
+5	ragten	ragen	AUX	VVFIN	_	0	H	0:H	_
+6	große	groß	ADJ	ADJA	_	8	E	8:E	_
+7	kugelrunde	kugelrunde	ADJ	NN	_	8	E	8:E	_
+8	Früchte	Frucht	NOUN	NN	_	5	A	5:A	_
+9	vom	vom	ADP	NN	_	10	R	10:R	_
+10	Durchmesser	Durchmesser	NOUN	NN	_	8	E	8:E	_
+11	eines	ein	DET	ART	_	12	R	12:R	_
+12	Dezimeter	Dezimeter	NOUN	NN	_	10	E	10:E	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	rauher	rauher	ADJ	ADJA	_	15	E	15:E	_
+15	Schale	Schale	NOUN	NN	_	10	E	10:E	_
+16	hervor	hervor	ADV	PTKVZ	_	5	Terminal	5:Terminal	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	deren	der	DET	PRELAT	_	22	R	22:R	_
+19	Unebenheiten	Unebenheit	NOUN	NN	_	22	A	22:A	_
+20	sechseckige	sechseckig	ADJ	ADJA	_	21	E	21:E	_
+21	Form	Form	NOUN	NN	_	22	A	22:A	_
+22	zeigten	zeigen	VERB	VVFIN	_	15	E	15:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

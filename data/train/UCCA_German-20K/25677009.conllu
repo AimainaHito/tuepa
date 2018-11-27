@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25677009
+# text = Jetzt beginn die doppelte Arbeit der Aussonderung .
+1	Jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+2	beginn	beginn	SCONJ	NN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	doppelte	doppelt	ADJ	ADJA	_	5	E	5:E	_
+5	Arbeit	Arbeit	NOUN	NN	_	2	A	2:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Aussonderung	Aussonderung	NOUN	NN	_	5	E	5:E	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

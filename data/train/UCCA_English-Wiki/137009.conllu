@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 137009
+# text = At her own insistence , Hepburn performed a fall into a canal and developed a chronic eye infection as a result . The role earned her another Academy Award nomination and has been cited as some of her finest work .
+1	At	at	ADP	IN	_	4	L	4:L	_
+2	her	she	PRON	PRP$	_	4	A	4:A	_
+3	own	own	ADJ	JJ	_	4	D	4:D	_
+4	insistence	insistence	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A|14:A	_
+7	performed	perform	VERB	VBD	_	4	H	4:H	_
+8	a	a	DET	DT	_	9	F	9:F	_
+9	fall	fall	NOUN	NN	_	7	A	7:A	_
+10	into	into	ADP	IN	_	12	R	12:R	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	canal	canal	NOUN	NN	_	9	A	9:A	_
+13	and	and	CCONJ	CC	_	4	L	4:L	_
+14	developed	develop	VERB	VBD	_	4	H	4:H	_
+15	a	a	DET	DT	_	18	E	18:E	_
+16	chronic	chronic	ADJ	JJ	_	18	E	18:E	_
+17	eye	eye	NOUN	NN	_	18	E	18:E	_
+18	infection	infection	NOUN	NN	_	14	A	14:A	_
+19	as	as	ADP	IN	_	4	L	4:L	_
+20	a	a	DET	DT	_	19	Terminal	19:Terminal	_
+21	result	result	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	.	_	4	U	4:U	_
+23	The	the	DET	DT	_	24	E	24:E	_
+24	role	role	NOUN	NN	_	0	C	0:C|34:A	_
+25	earned	earn	VERB	VBD	_	4	H	4:H	_
+26	her	she	PRON	PRP	_	25	A	25:A	_
+27	another	another	DET	DT	_	30	E	30:E	_
+28	Academy	Academy	PROPN	NNP	_	29	E	29:E	_
+29	Award	Award	PROPN	NNP	_	30	E	30:E	_
+30	nomination	nomination	NOUN	NN	_	25	A	25:A	_
+31	and	and	CCONJ	CC	_	4	L	4:L	_
+32	has	have	AUX	VBZ	_	34	F	34:F	_
+33	been	be	AUX	VBN	_	34	F	34:F	_
+34	cited	cit	VERB	VBN	_	4	H	4:H	_
+35	as	as	ADP	IN	_	40	R	40:R	_
+36	some	some	DET	DT	_	40	E	40:E	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	her	she	PRON	PRP$	_	40	E	40:E	_
+39	finest	finest	ADJ	JJ	_	40	E	40:E	_
+40	work	work	NOUN	NN	_	34	A	34:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

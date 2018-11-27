@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25794019
+# text = Hatte man doch Lebens luft für die Lungen !
+1	Hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+2	man	man	PRON	PIS	_	1	A	1:A	_
+3	doch	doch	ADV	ADV	_	1	D	1:D	_
+4	Lebens	Leben	NOUN	NN	_	5	E	5:E	_
+5	luft	lufen	VERB	VVFIN	_	1	A	1:A	_
+6	für	für	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Lungen	Lunge	NOUN	NN	_	1	A	1:A	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+

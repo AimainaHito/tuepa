@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25594010
+# text = Fauna und Flora stehen in der unterseeischen Welt dicht nebeneinander !
+1	Fauna	Fauna	PROPN	NE	_	4	A	4:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Flora	Flora	PROPN	NE	_	1	C	1:C	_
+4	stehen	stehen	VERB	VVFIN	_	0	H	0:H	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	unterseeischen	unterseeisch	ADJ	ADJA	_	8	E	8:E	_
+8	Welt	Welt	NOUN	NN	_	4	A	4:A	_
+9	dicht	dicht	ADJ	ADJD	_	4	D	4:D	_
+10	nebeneinander	nebeneinander	ADV	ADV	_	4	D	4:D	_
+11	!	!	PUNCT	$.	_	4	U	4:U	_
+

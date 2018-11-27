@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25446001
+# text = « » Darin gerade irren Sie , Herr Professor « , erwiderte Ned .
+1	«	«	PUNCT	$(	_	12	U	12:U	_
+2	»	»	PUNCT	$(	_	12	U	12:U	_
+3	Darin	darin	PRON	PAV	_	5	A	5:A	_
+4	gerade	gerade	ADV	ADV	_	5	D	5:D	_
+5	irren	irren	VERB	NN	_	12	A	12:A	_
+6	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	Herr	Herr	PROPN	NN	_	9	E	9:E	_
+9	Professor	Professor	PROPN	NN	_	5	A	5:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	Ned	Ned	PROPN	NE	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

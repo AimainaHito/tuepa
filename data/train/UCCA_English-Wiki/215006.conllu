@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 215006
+# text = The movie grossed $ 262 million worldwide .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	3	A	3:A	_
+3	grossed	gross	VERB	VBD	_	0	H	0:H	_
+4	$	$	SYM	$	_	3	U	3:U	_
+5	262	262	NUM	CD	_	3	A	3:A	_
+6	million	million	NUM	CD	_	5	Terminal	5:Terminal	_
+7	worldwide	worldwide	ADV	RB	_	3	A	3:A	_
+8	.	.	PUNCT	.	_	3	U	3:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25805020
+# text = Übrigens wurde dieser Mann seit einiger Zeit düsterer , zurückgezogener , weniger gesellig .
+1	Übrigens	übrigens	ADV	ADV	_	8	G	8:G	_
+2	wurde	werden	AUX	NN	_	8	F	8:F	_
+3	dieser	dies	PRON	PDAT	_	4	E	4:E	_
+4	Mann	Mann	NOUN	NN	_	8	A	8:A	_
+5	seit	seit	ADP	ADJA	_	7	R	7:R	_
+6	einiger	einige	PRON	PIAT	_	7	E	7:E	_
+7	Zeit	Zeit	NOUN	NN	_	8	D	8:D	_
+8	düsterer	düster	ADJ	ADJD	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	zurückgezogener	zurückgezogen	ADJ	ADJD	_	8	C	8:C	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	weniger	weniger	ADJ	ADV	_	13	E	13:E	_
+13	gesellig	gesellig	ADJ	ADJD	_	8	C	8:C	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

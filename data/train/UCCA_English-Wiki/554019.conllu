@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 554019
+# text = Presley recalled , " I took the guitar , and I watched people , and I learned to play a little bit . But I would never sing in public . I was very shy about it . "
+1	Presley	Presley	PROPN	NNP	_	2	A	2:A	_
+2	recalled	recall	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	''	_	2	U	2:U	_
+5	I	I	PRON	PRP	_	6	A	6:A	_
+6	took	take	VERB	VBD	_	2	A	2:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	guitar	guitar	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	and	and	CCONJ	CC	_	6	L	6:L	_
+11	I	I	PRON	PRP	_	12	A	12:A	_
+12	watched	watch	VERB	VBD	_	6	H	6:H	_
+13	people	people	NOUN	NNS	_	12	A	12:A	_
+14	,	,	PUNCT	,	_	6	U	6:U	_
+15	and	and	CCONJ	CC	_	6	L	6:L	_
+16	I	I	PRON	PRP	_	19	A	19:A	_
+17	learned	learn	VERB	VBD	_	19	D	19:D	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	play	play	VERB	VB	_	6	H	6:H	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	little	little	ADJ	JJ	_	19	A	19:A	_
+22	bit	bit	NOUN	NN	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	6	U	6:U	_
+24	But	but	CCONJ	CC	_	6	L	6:L	_
+25	I	I	PRON	PRP	_	28	A	28:A|37:A	_
+26	would	would	AUX	MD	_	28	D	28:D	_
+27	never	never	ADV	RB	_	28	D	28:D	_
+28	sing	s	VERB	VBG	_	6	H	6:H	_
+29	in	in	ADP	IN	_	30	E	30:E	_
+30	public	public	NOUN	NN	_	28	A	28:A|37:A	_
+31	.	.	PUNCT	.	_	6	U	6:U	_
+32	I	I	PRON	PRP	_	35	A	35:A	_
+33	was	be	AUX	VBD	_	35	D	35:D	_
+34	very	very	ADV	RB	_	35	D	35:D	_
+35	shy	shy	ADJ	JJ	_	6	H	6:H	_
+36	about	about	ADP	IN	_	37	R	37:R	_
+37	it	it	PRON	PRP	_	35	A	35:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+39	"	"	PUNCT	''	_	37	U	37:U	_
+

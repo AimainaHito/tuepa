@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25488083
+# text = Manchmal hob er den Kopf empor , blickte vor sich , rief wieder , um sich kund zu geben , und eine andere Stimme ließ sich immer näher vernehmen .
+1	Manchmal	manchmal	ADV	ADV	_	2	D	2:D	_
+2	hob	heben	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|8:A|12:A|16:A	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Kopf	Kopf	NOUN	NN	_	2	A	2:A	_
+6	empor	empören	VERB	NN	_	2	Terminal	2:Terminal	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	blickte	blicken	VERB	VVFIN	_	2	H	2:H	_
+9	vor	vor	ADP	NE	_	10	R	10:R	_
+10	sich	er|es|sie	PRON	PRF	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	rief	rufen	VERB	VVFIN	_	2	H	2:H	_
+13	wieder	wieder	ADV	NN	_	12	D	12:D	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	um	um	ADP	KOUI	_	2	L	2:L	_
+16	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+17	kund	kund	CCONJ	NN	_	16	Terminal	16:Terminal	_
+18	zu	zu	PART	VVINF	_	16	F	16:F	_
+19	geben	geben	VERB	VVINF	_	16	Terminal	16:Terminal	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	und	und	CCONJ	NE	_	2	L	2:L	_
+22	eine	ein	DET	ART	_	24	E	24:E	_
+23	andere	ander	ADJ	ADJA	_	24	E	24:E	_
+24	Stimme	Stimme	NOUN	NN	_	29	A	29:A	_
+25	ließ	lassen	VERB	VVFIN	_	29	D	29:D	_
+26	sich	er|es|sie	PRON	PRF	_	29	A	29:A	_
+27	immer	immer	ADV	ADV	_	28	E	28:E	_
+28	näher	nah	ADJ	ADJD	_	29	A	29:A	_
+29	vernehmen	vernehmen	VERB	VVINF	_	2	H	2:H	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

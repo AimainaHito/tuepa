@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25622005
+# text = Der ganze Horizont war hinter einem Vorhang staunenswerter Waldung verborgen .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	ganze	ganz	ADJ	ADJA	_	3	E	3:E	_
+3	Horizont	Horizont	NOUN	NN	_	10	A	10:A	_
+4	war	sein	AUX	ADV	_	10	F	10:F	_
+5	hinter	hinter	ADP	APPR	_	7	R	7:R	_
+6	einem	ein	DET	ART	_	7	E	7:E	_
+7	Vorhang	vorhang	NOUN	NN	_	10	A	10:A	_
+8	staunenswerter	staunenswert	ADJ	ADJA	_	9	E	9:E	_
+9	Waldung	Waldung	NOUN	NN	_	7	E	7:E	_
+10	verborgen	verborgen	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

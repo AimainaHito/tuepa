@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 146012
+# text = For decades , Hepburn openly promoted birth control and supported abortion .
+1	For	for	ADP	IN	_	2	R	2:R	_
+2	decades	decade	NOUN	NNS	_	6	D	6:D|10:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Hepburn	Hepburn	PROPN	NNP	_	6	A	6:A|10:A	_
+5	openly	openly	ADV	RB	_	6	D	6:D|10:D	_
+6	promoted	promote	VERB	VBN	_	0	H	0:H	_
+7	birth	birth	NOUN	NN	_	8	E	8:E	_
+8	control	control	NOUN	NN	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	6	L	6:L	_
+10	supported	support	VERB	VBN	_	6	H	6:H	_
+11	abortion	abortion	NOUN	NN	_	10	A	10:A	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

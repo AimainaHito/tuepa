@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25808014
+# text = » Im Hafen ? « fragte Ned Land ironisch .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Im	Im	PROPN	NN	_	3	R	3:R	_
+3	Hafen	Hafen	PROPN	NN	_	6	A	6:A	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+8	Land	Land	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	ironisch	ironisch	ADJ	ADJD	_	6	D	6:D	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

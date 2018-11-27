@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 531010
+# text = Garland sued Luft for divorce in 1963 , claiming " cruelty " as the grounds .
+1	Garland	Garland	PROPN	NNP	_	5	A	5:A|9:A	_
+2	sued	sue	VERB	VBD	_	5	D	5:D	_
+3	Luft	Luft	PROPN	NNP	_	5	A	5:A	_
+4	for	for	ADP	IN	_	5	R	5:R	_
+5	divorce	divorce	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1963	1963	NUM	CD	_	5	D	5:D	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	claiming	claim	VERB	VBG	_	5	H	5:H	_
+10	"	"	PUNCT	``	_	9	U	9:U	_
+11	cruelty	cruelty	NOUN	NN	_	9	A	9:A	_
+12	"	"	PUNCT	''	_	9	U	9:U	_
+13	as	as	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	grounds	grounds	NOUN	NNS	_	9	A	9:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

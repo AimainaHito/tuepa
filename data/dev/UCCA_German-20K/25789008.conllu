@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25789008
+# text = Die Ruhmkorffschen Leuchten waren nicht nötig , weil das Wasser genug erhellt war .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Ruhmkorffschen	Ruhmkorffsch	PROPN	NE	_	3	E	3:E	_
+3	Leuchten	Leuchten	NOUN	NE	_	6	A	6:A	_
+4	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	nötig	nötig	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Wasser	Wasser	NOUN	NN	_	12	A	12:A	_
+11	genug	genug	ADV	ADV	_	12	D	12:D	_
+12	erhellt	erhellen	VERB	VVFIN	_	6	H	6:H	_
+13	war	sein	AUX	ADV	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

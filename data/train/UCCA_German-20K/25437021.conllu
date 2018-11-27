@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25437021
+# text = Wir begaben uns ins Erdgeschoß , wo ich in dem geräumigen , stets umlagerten Comptoir meine Rechnung berichtigte , den Auftrag erteilte , meine Kisten mit ausgebalgten Tieren und getrockneten Pflanzen nach
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	begaben	begeben	VERB	VVINF	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	A	2:A	_
+4	ins	in	DET	NN	_	5	R	5:R	_
+5	Erdgeschoß	Erdgeschoß	NOUN	VVFIN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	wo	wo	ADV	ADJA	_	18	R	18:R	_
+8	ich	ich	PRON	PPER	_	18	A	18:A|21:A	_
+9	in	in	ADP	APPR	_	15	R	15:R	_
+10	dem	der	DET	ART	_	11	E	11:E	_
+11	geräumigen	geräumig	ADJ	ADJA	_	15	E	15:E	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	stets	stets	ADV	ADV	_	14	E	14:E	_
+14	umlagerten	umlageren	VERB	VVFIN	_	11	C	11:C	_
+15	Comptoir	Comptoir	PROPN	NE	_	18	A	18:A	_
+16	meine	mein	PRON	PPOSAT	_	17	E	17:E	_
+17	Rechnung	Rechnung	NOUN	NN	_	18	A	18:A	_
+18	berichtigte	berichtigen	VERB	VVFIN	_	5	E	5:E	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Auftrag	Auftrag	NOUN	NN	_	18	H	18:H	_
+22	erteilte	erteilen	VERB	VVFIN	_	21	F	21:F	_
+23	,	,	PUNCT	$,	_	21	U	21:U	_
+24	meine	mein	PRON	VVFIN	_	25	E	25:E	_
+25	Kisten	Kiste	NOUN	NN	_	21	A	21:A	_
+26	mit	mit	ADP	APPR	_	28	R	28:R	_
+27	ausgebalgten	ausgebalgt	ADJ	ADJA	_	25	E	25:E	_
+28	Tieren	Tier	NOUN	NN	_	27	A	27:A	_
+29	und	und	CCONJ	NE	_	25	N	25:N	_
+30	getrockneten	getrocknet	ADJ	VVFIN	_	25	C	25:C	_
+31	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	30	A	30:A	_
+32	nach	nach	ADP	CARD	_	25	A	25:A	_
+

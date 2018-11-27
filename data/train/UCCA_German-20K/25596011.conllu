@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25596011
+# text = Sein Genosse machte es ihm nach , und ich folgte nebst Conseil ihrem Beispiel .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Genosse	Genosse	NOUN	NN	_	3	A	3:A	_
+3	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+4	es	es	PRON	PPER	_	3	Terminal	3:Terminal	_
+5	ihm	er	PRON	PPER	_	3	A	3:A	_
+6	nach	nach	ADP	CARD	_	3	Terminal	3:Terminal	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	ich	ich	PRON	PPER	_	10	A	10:A	_
+10	folgte	folgen	VERB	VVFIN	_	3	H	3:H	_
+11	nebst	nebst	ADV	APPR	_	9	R	9:R	_
+12	Conseil	Conseil	NOUN	NE	_	9	E	9:E	_
+13	ihrem	ihr	DET	PPOSAT	_	14	E	14:E	_
+14	Beispiel	Beispiel	NOUN	NN	_	10	A	10:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

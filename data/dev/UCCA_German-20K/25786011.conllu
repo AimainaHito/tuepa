@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25786011
+# text = Es bedurfte einiger Zeit , um die Unruhe unseres Blicks zu beruhigen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	bedurfte	bedurfte	VERB	VVFIN	_	0	H	0:H	_
+3	einiger	einige	PRON	PIAT	_	4	E	4:E	_
+4	Zeit	Zeit	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	um	um	ADP	KOUI	_	12	R	12:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Unruhe	Unruhe	NOUN	NN	_	12	A	12:A	_
+9	unseres	unser	PRON	PPOSAT	_	10	R	10:R	_
+10	Blicks	Blicks	NOUN	NN	_	8	A	8:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	beruhigen	beruhigen	VERB	VVINF	_	2	A	2:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

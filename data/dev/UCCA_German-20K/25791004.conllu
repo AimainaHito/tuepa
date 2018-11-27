@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25791004
+# text = Ich ließ meine beiden Gefährten von dieser neuen Gefahr nichts merken , um nicht ihre für die Rettungs arbeit nötige Tatkraft herab zu stimmen .
+1	Ich	ich	PRON	PPER	_	11	A	11:A|22:A	_
+2	ließ	lassen	VERB	VVFIN	_	11	D	11:D	_
+3	meine	mein	DET	PPOSAT	_	5	E	5:E	_
+4	beiden	beide	PRON	PIAT	_	5	E	5:E	_
+5	Gefährten	Gefährt|Gefährte	NOUN	NE	_	11	A	11:A	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+8	neuen	neu	ADJ	ADJA	_	11	A	11:A	_
+9	Gefahr	Gefahr	NOUN	NN	_	8	A	8:A	_
+10	nichts	nichts	PRON	NE	_	11	D	11:D	_
+11	merken	merken	VERB	VVINF	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	um	um	ADP	KOUI	_	11	L	11:L	_
+14	nicht	nicht	PART	CARD	_	22	D	22:D	_
+15	ihre	ihr	DET	PPOSAT	_	21	E	21:E	_
+16	für	für	ADP	APPR	_	20	R	20:R	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	Rettungs	Rettung	NOUN	TRUNC	_	20	A	20:A	_
+19	arbeit	arbeit	ADP	ADV	_	18	A	18:A	_
+20	nötige	nötig	ADJ	ADJA	_	21	E	21:E	_
+21	Tatkraft	Tatkraft	NOUN	NN	_	22	A	22:A	_
+22	herab	herab	ADV	PTKVZ	_	11	H	11:H	_
+23	zu	zu	PART	VVINF	_	22	F	22:F	_
+24	stimmen	stimmen	VERB	VVINF	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	$.	_	22	U	22:U	_
+

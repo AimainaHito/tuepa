@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25610005
+# text = » Und können Sie mir sagen , was jedermann weiß ? « fragte er mit etwas ironischem Ton .
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Und	und	CCONJ	NN	_	6	L	6:L	_
+3	können	können	AUX	VMFIN	_	6	D	6:D	_
+4	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+5	mir	ich	PRON	PPER	_	6	A	6:A	_
+6	sagen	sagen	VERB	VVINF	_	13	A	13:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	was	was	PRON	NE	_	10	A	10:A	_
+9	jedermann	jedermann	ADV	NE	_	10	A	10:A	_
+10	weiß	wissen	ADJ	VVFIN	_	6	A	6:A	_
+11	?	?	PUNCT	$.	_	13	U	13:U	_
+12	«	«	PUNCT	$(	_	13	U	13:U	_
+13	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+14	er	er	PRON	PPER	_	13	A	13:A	_
+15	mit	mit	ADP	APPR	_	18	R	18:R	_
+16	etwas	etwas	PRON	ADV	_	17	E	17:E	_
+17	ironischem	ironisch	ADJ	ADJA	_	18	E	18:E	_
+18	Ton	Ton	NOUN	NN	_	13	A	13:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

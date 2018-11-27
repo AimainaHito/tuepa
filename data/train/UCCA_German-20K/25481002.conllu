@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25481002
+# text = Man konstatierte mit dem Log , dass die ›Abraham Lincoln‹ im Verhältnis von 18 Meilen die Stunde fuhr .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	konstatierte	konstatieren	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Log	Log	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	›Abraham	›Abraham	PROPN	NE	_	18	A	18:A	_
+10	Lincoln‹	Lincoln‹	NOUN	NE	_	9	Terminal	9:Terminal	_
+11	im	im	ADJ	NN	_	12	R	12:R	_
+12	Verhältnis	Verhältnis	NOUN	NN	_	15	E	15:E	_
+13	von	von	ADP	NN	_	12	R	12:R	_
+14	18	18	NUM	CARD	_	15	E	15:E	_
+15	Meilen	Meile	NOUN	NN	_	18	A	18:A	_
+16	die	der	DET	ART	_	15	Terminal	15:Terminal	_
+17	Stunde	Stunde	NOUN	NN	_	15	Terminal	15:Terminal	_
+18	fuhr	fahren	VERB	VVFIN	_	2	A	2:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

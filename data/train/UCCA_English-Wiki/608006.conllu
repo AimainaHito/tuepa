@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 608006
+# text = The following year , he released the triple album , Tripping the Live Fantastic , which contained select performances from the tour .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	R	3:R	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	released	release	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	triple	triple	NOUN	NN	_	9	E	9:E	_
+9	album	album	NOUN	NN	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	Tripping	Tripp	VERB	VBG	_	6	A	6:A	_
+12	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+13	Live	Live	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	Fantastic	fantastic	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	which	which	PRON	WDT	_	17	F	17:F	_
+17	contained	contain	VERB	VBD	_	11	E	11:E	_
+18	select	select	ADJ	JJ	_	19	E	19:E	_
+19	performances	performance	NOUN	NNS	_	17	A	17:A	_
+20	from	from	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	tour	tour	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

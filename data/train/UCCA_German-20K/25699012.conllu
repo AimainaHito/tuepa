@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25699012
+# text = » Oder drunter her , Herr Arronax . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Oder	oder	CCONJ	NN	_	4	L	4:L	_
+3	drunter	drunter	ADV	ADJA	_	4	A	4:A	_
+4	her	her	ADV	ADV	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Herr	Herr	PROPN	NN	_	7	E	7:E	_
+7	Arronax	Arronax	PROPN	NE	_	4	G	4:G	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 610016
+# text = In 2008 , he released his third Fireman album , Electric Arguments .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2008	2008	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	released	release	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	9	E	9:E	_
+7	third	third	ADJ	JJ	_	9	E	9:E	_
+8	Fireman	Fireman	NOUN	NN	_	9	E	9:E	_
+9	album	album	NOUN	NN	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	Electric	electric	ADJ	JJ	_	5	A	5:A	_
+12	Arguments	argument	NOUN	NNS	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 470005
+# text = The Celtics won Game 4 in overtime , and the teams split the next two games .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Celtics	Celtics	PROPN	NNPS	_	3	A	3:A	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	Game	game	NOUN	NN	_	3	A	3:A	_
+5	4	4	NUM	CD	_	4	E	4:E	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	overtime	overtime	NOUN	NN	_	3	D	3:D	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	teams	team	NOUN	NNS	_	12	A	12:A	_
+12	split	split	VERB	VBD	_	3	H	3:H	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	next	next	ADJ	JJ	_	15	E	15:E	_
+15	two	two	NUM	CD	_	16	E	16:E	_
+16	games	game	NOUN	NNS	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

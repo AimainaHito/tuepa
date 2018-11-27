@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25676001
+# text = Offenbar hatte Kapitän Nemo für unzuträglich gehalten , den Gedanken an Hai fische bei meinen Gefährten anzuregen .
+1	Offenbar	offenbar	ADJ	NE	_	6	G	6:G	_
+2	hatte	haben	VERB	VAFIN	_	6	F	6:F	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+5	für	für	ADP	APPR	_	6	R	6:R	_
+6	unzuträglich	unzuträglich	ADJ	ADJD	_	0	H	0:H	_
+7	gehalten	halten	AUX	VVPP	_	6	D	6:D	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Gedanken	Gedanke	NOUN	NN	_	17	A	17:A	_
+11	an	an	ADP	APPR	_	13	R	13:R	_
+12	Hai	Hai	PROPN	NN	_	13	E	13:E	_
+13	fische	fisch	ADJ	ADJA	_	10	E	10:E	_
+14	bei	bei	ADP	APPR	_	16	R	16:R	_
+15	meinen	mein	PRON	PPOSAT	_	16	E	16:E	_
+16	Gefährten	Gefährt|Gefährte	NOUN	NE	_	17	A	17:A	_
+17	anzuregen	anzuregen	ADP	VVINF	_	6	A	6:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

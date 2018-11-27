@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25488078
+# text = Oder gar ließ ein Boot der Fregatte uns durchs Sprachrohr den Ruf zugehen ?
+1	Oder	oder	CCONJ	NE	_	13	L	13:L	_
+2	gar	gar	ADV	NE	_	13	D	13:D	_
+3	ließ	lassen	VERB	VVFIN	_	13	D	13:D	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	Boot	Boot	NOUN	NN	_	13	A	13:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Fregatte	Fregatte	NOUN	VAFIN	_	5	E	5:E	_
+8	uns	wir	PRON	NN	_	13	A	13:A	_
+9	durchs	durchs	NUM	NE	_	10	R	10:R	_
+10	Sprachrohr	Sprachrohr	NOUN	NE	_	13	A	13:A	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Ruf	Ruf	NOUN	NN	_	13	A	13:A	_
+13	zugehen	zugehen	VERB	VVINF	_	0	H	0:H	_
+14	?	?	PUNCT	$.	_	13	U	13:U	_
+

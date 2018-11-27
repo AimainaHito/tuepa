@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 528001
+# text = They had been estranged for years , with Garland characterizing her mother as " no good for anything except to create chaos and fear " and accusing her of mismanaging and misappropriating her salary from the earliest days of her career .
+1	They	they	PRON	PRP	_	4	A	4:A	_
+2	had	have	AUX	VBD	_	4	F	4:F	_
+3	been	be	AUX	VBN	_	4	D	4:D	_
+4	estranged	estrange	VERB	VBN	_	0	H	0:H	_
+5	for	for	ADP	IN	_	6	R	6:R	_
+6	years	year	NOUN	NNS	_	4	D	4:D	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	with	with	SCONJ	IN	_	4	L	4:L	_
+9	Garland	Garland	PROPN	NNP	_	10	A	10:A|27:A	_
+10	characterizing	characterize	VERB	VBG	_	4	H	4:H	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	mother	mother	NOUN	NN	_	10	A	10:A	_
+13	as	as	SCONJ	IN	_	16	R	16:R	_
+14	"	"	PUNCT	``	_	16	U	16:U	_
+15	no	no	DET	DT	_	16	D	16:D	_
+16	good	good	NOUN	NN	_	10	A	10:A	_
+17	for	for	SCONJ	IN	_	18	R	18:R	_
+18	anything	anything	PRON	NN	_	16	A	16:A	_
+19	except	except	VERB	VBD	_	16	L	16:L	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	create	create	VERB	VB	_	16	H	16:H	_
+22	chaos	chaos	NOUN	NN	_	21	A	21:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	fear	fear	NOUN	NN	_	22	C	22:C	_
+25	"	"	PUNCT	''	_	4	U	4:U	_
+26	and	and	CCONJ	CC	_	4	L	4:L	_
+27	accusing	accuse	VERB	VBG	_	4	H	4:H	_
+28	her	she	PRON	PRP$	_	27	A	27:A	_
+29	of	of	ADP	IN	_	30	F	30:F	_
+30	mismanaging	mismanaging	NOUN	NN	_	27	A	27:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	misappropriating	misappropriat	VERB	VBG	_	30	C	30:C	_
+33	her	she	PRON	PRP$	_	34	E	34:E	_
+34	salary	salary	NOUN	NN	_	30	A	30:A	_
+35	from	from	ADP	IN	_	38	R	38:R	_
+36	the	the	DET	DT	_	38	E	38:E	_
+37	earliest	earliest	ADJ	JJS	_	38	E	38:E	_
+38	days	day	NOUN	NNS	_	30	D	30:D	_
+39	of	of	ADP	IN	_	41	R	41:R	_
+40	her	she	PRON	PRP$	_	41	E	41:E	_
+41	career	career	NOUN	NN	_	38	E	38:E	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25489047
+# text = Unwillkürlich fühlte ich mich in seiner Gegenwart beruhigt , und ich ahnte nur Gutes von unserer Unterredung .
+1	Unwillkürlich	Unwillkürlich	ADJ	ADJD	_	2	D	2:D	_
+2	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A|8:A	_
+4	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	seiner	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Gegenwart	Gegenwart	NOUN	NN	_	2	A	2:A	_
+8	beruhigt	beruhigen	VERB	ADJD	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	ich	ich	PRON	PPER	_	12	A	12:A	_
+12	ahnte	ahnen	VERB	VVFIN	_	2	H	2:H	_
+13	nur	nur	ADV	NE	_	12	D	12:D	_
+14	Gutes	gut	NOUN	ADJA	_	12	A	12:A	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	unserer	unser	PRON	PPOSAT	_	17	E	17:E	_
+17	Unterredung	Unterredung	NOUN	NN	_	12	A	12:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

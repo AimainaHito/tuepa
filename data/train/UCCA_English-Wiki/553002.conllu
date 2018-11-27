@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 553002
+# text = One of the most popular musicians of the 20th century , he is often referred to as the " King of Rock and Roll " or " the King " .
+1	One	one	NUM	CD	_	6	E	6:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	most	most	ADV	RBS	_	5	E	5:E	_
+5	popular	popular	ADJ	JJ	_	6	E	6:E	_
+6	musicians	musician	NOUN	NNS	_	0	H	0:H	_
+7	of	of	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	20th	20th	ADJ	JJ	_	10	E	10:E	_
+10	century	century	NOUN	NN	_	6	E	6:E	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	he	he	PRON	PRP	_	15	A	15:A|6:A	_
+13	is	be	AUX	VBZ	_	15	F	15:F	_
+14	often	often	ADV	RB	_	15	D	15:D	_
+15	referred	refer	VERB	VBN	_	6	H	6:H	_
+16	to	to	ADP	IN	_	15	E	15:E	_
+17	as	as	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	"	"	PUNCT	``	_	20	U	20:U	_
+20	King	King	NOUN	NN	_	15	A	15:A	_
+21	of	of	ADP	IN	_	22	R	22:R	_
+22	Rock	rock	NOUN	NN	_	20	E	20:E	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	Roll	roll	NOUN	NN	_	22	C	22:C	_
+25	"	"	PUNCT	''	_	20	U	20:U	_
+26	or	or	CCONJ	CC	_	20	N	20:N	_
+27	"	"	PUNCT	``	_	20	U	20:U	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	King	King	NOUN	NN	_	20	C	20:C	_
+30	"	"	PUNCT	''	_	29	U	29:U	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

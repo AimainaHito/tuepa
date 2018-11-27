@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 586002
+# text = He attempted to go back to school two weeks later , but the principal told him to follow his dream of being a musician .
+1	He	he	PRON	PRP	_	2	A	2:A|5:A	_
+2	attempted	attempt	VERB	VBD	_	0	H	0:H	_
+3	to	to	PART	TO	_	5	F	5:F	_
+4	go	go	VERB	VB	_	5	D	5:D	_
+5	back	back	ADV	RB	_	2	A	2:A	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	school	school	NOUN	NN	_	5	A	5:A	_
+8	two	two	NUM	CD	_	9	E	9:E	_
+9	weeks	week	NOUN	NNS	_	2	D	2:D	_
+10	later	later	ADV	RB	_	9	R	9:R	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	but	but	CCONJ	CC	_	2	L	2:L	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	principal	principal	NOUN	NN	_	15	A	15:A	_
+15	told	tell	VERB	VBD	_	2	H	2:H	_
+16	him	he	PRON	PRP	_	15	A	15:A|18:A|22:A	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	follow	follow	VERB	VB	_	15	A	15:A	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	dream	dream	NOUN	NN	_	18	A	18:A	_
+21	of	of	SCONJ	IN	_	22	R	22:R	_
+22	being	be	AUX	VBG	_	20	E	20:E	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	musician	musician	NOUN	NN	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

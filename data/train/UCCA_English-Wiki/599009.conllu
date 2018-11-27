@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 599009
+# text = McCartney has married three times and is the father of five children .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A|7:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	married	marry	VERB	VBN	_	0	H	0:H	_
+4	three	three	NUM	CD	_	5	E	5:E	_
+5	times	time	NOUN	NNS	_	3	D	3:D	_
+6	and	and	CCONJ	CC	_	3	L	3:L	_
+7	is	be	AUX	VBZ	_	3	H	3:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	father	father	NOUN	NN	_	7	A	7:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	five	five	NUM	CD	_	12	E	12:E	_
+12	children	child	NOUN	NNS	_	9	E	9:E	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

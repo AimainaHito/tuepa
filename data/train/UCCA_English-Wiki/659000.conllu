@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 659000
+# text = After their separation , Alison moved in with her father , while the other two children remained with their mother .
+1	After	after	ADP	IN	_	3	L	3:L	_
+2	their	they	PRON	PRP$	_	3	A	3:A	_
+3	separation	separation	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Alison	Alison	PROPN	NNP	_	6	A	6:A	_
+6	moved	move	VERB	VBD	_	3	H	3:H	_
+7	in	in	ADV	RB	_	6	R	6:R	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	her	she	PRON	PRP$	_	10	E	10:E	_
+10	father	father	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	while	while	SCONJ	IN	_	3	L	3:L	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	other	other	ADJ	JJ	_	16	E	16:E	_
+15	two	two	NUM	CD	_	16	E	16:E	_
+16	children	child	NOUN	NNS	_	17	A	17:A	_
+17	remained	remain	VERB	VBD	_	3	H	3:H	_
+18	with	with	ADP	IN	_	20	R	20:R	_
+19	their	they	PRON	PRP$	_	20	E	20:E	_
+20	mother	mother	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 505013
+# text = " Modern Love " and " China Girl " made number two in the UK , accompanied by a pair of acclaimed promotional videos that , as described by biographer David Buckley , " were totally absorbing and activated key archetypes in the pop world .
+1	"	"	PUNCT	``	_	17	U	17:U	_
+2	Modern	modern	ADJ	JJ	_	10	A	10:A|17:A	_
+3	Love	love	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	"	"	PUNCT	''	_	2	U	2:U	_
+5	and	and	CCONJ	CC	_	2	N	2:N	_
+6	"	"	PUNCT	``	_	2	U	2:U	_
+7	China	China	PROPN	NNP	_	2	C	2:C	_
+8	Girl	girl	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	"	"	PUNCT	''	_	10	U	10:U	_
+10	made	make	VERB	VBN	_	0	H	0:H	_
+11	number	number	NOUN	NN	_	10	A	10:A	_
+12	two	two	NUM	CD	_	11	E	11:E	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	UK	UK	PROPN	NNP	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	accompanied	accompany	VERB	VBN	_	10	H	10:H	_
+18	by	by	ADP	IN	_	24	R	24:R	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	pair	pair	NOUN	NN	_	24	E	24:E	_
+21	of	of	ADP	IN	_	20	R	20:R	_
+22	acclaimed	acclaim	VERB	VBN	_	24	E	24:E	_
+23	promotional	promotional	ADJ	JJ	_	24	E	24:E	_
+24	videos	video	NOUN	NNS	_	17	A	17:A	_
+25	that	that	PRON	WDT	_	28	F	28:F	_
+26	,	,	PUNCT	,	_	28	U	28:U	_
+27	as	as	SCONJ	IN	_	28	R	28:R	_
+28	described	describe	VERB	VBN	_	24	E	24:E	_
+29	by	by	ADP	IN	_	30	R	30:R	_
+30	biographer	biographer	NOUN	NN	_	28	A	28:A	_
+31	David	David	PROPN	NNP	_	30	E	30:E	_
+32	Buckley	Buckley	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	,	,	PUNCT	,	_	28	U	28:U	_
+34	"	"	PUNCT	''	_	28	U	28:U	_
+35	were	be	AUX	VBD	_	37	F	37:F	_
+36	totally	totally	ADV	RB	_	37	D	37:D	_
+37	absorbing	absorbing	VERB	VBG	_	28	A	28:A	_
+38	and	and	CCONJ	CC	_	37	L	37:L	_
+39	activated	activated	VERB	VBD	_	37	H	37:H	_
+40	key	key	ADJ	JJ	_	41	E	41:E	_
+41	archetypes	archetype	NOUN	NNS	_	39	A	39:A	_
+42	in	in	ADP	IN	_	45	R	45:R	_
+43	the	the	DET	DT	_	45	E	45:E	_
+44	pop	pop	NOUN	NN	_	45	E	45:E	_
+45	world	world	NOUN	NN	_	39	A	39:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

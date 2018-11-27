@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25509004
+# text = « » Ja , Herr Professor , und an Mitteln fehlt 's da nicht . Ich hätte zwar , indem ich Drähte aus verschiedenen Tiefen miteinander in Verbindung setzte , Elektrizität aus der Verschiedenheit der Temperaturen erzielen können , aber ich zog ein praktischeres System vor . «
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Herr	Herr	PROPN	NN	_	6	E	6:E	_
+6	Professor	Professor	PROPN	NN	_	3	G	3:G	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	an	an	ADP	APPR	_	10	E	10:E	_
+10	Mitteln	Mittel|Mitteln	NOUN	NN	_	11	A	11:A	_
+11	fehlt	fehlen	VERB	VVFIN	_	3	H	3:H	_
+12	's	es	PRON	PPER	_	11	F	11:F	_
+13	da	da	ADV	ADV	_	11	A	11:A	_
+14	nicht	nicht	PART	XY	_	11	D	11:D	_
+15	.	.	PUNCT	$.	_	3	U	3:U	_
+16	Ich	ich	PRON	PPER	_	37	A	37:A	_
+17	hätte	haben	AUX	VAFIN	_	37	D	37:D	_
+18	zwar	zwar	ADV	ADV	_	37	F	37:F	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	indem	indem	SCONJ	KOUS	_	3	L	3:L	_
+21	ich	ich	PRON	PPER	_	27	A	27:A	_
+22	Drähte	Drähte	NOUN	NN	_	27	A	27:A	_
+23	aus	aus	ADP	APPR	_	25	R	25:R	_
+24	verschiedenen	verschieden	ADJ	ADJA	_	25	E	25:E	_
+25	Tiefen	tiefe	NOUN	NN	_	27	A	27:A	_
+26	miteinander	miteinander	ADV	ADV	_	27	A	27:A	_
+27	in	in	ADP	APPR	_	3	H	3:H	_
+28	Verbindung	Verbindung	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	setzte	setzen	VERB	VVFIN	_	27	Terminal	27:Terminal	_
+30	,	,	PUNCT	$,	_	3	U	3:U	_
+31	Elektrizität	Elektrizität	NOUN	NN	_	37	A	37:A	_
+32	aus	aus	ADP	APPR	_	34	R	34:R	_
+33	der	der	DET	ART	_	34	E	34:E	_
+34	Verschiedenheit	Verschiedenheit	NOUN	NN	_	37	A	37:A	_
+35	der	der	DET	ART	_	36	R	36:R	_
+36	Temperaturen	Temperatur	NOUN	NN	_	34	E	34:E	_
+37	erzielen	erzielen	VERB	VVINF	_	3	H	3:H	_
+38	können	können	AUX	VMFIN	_	37	D	37:D	_
+39	,	,	PUNCT	$,	_	3	U	3:U	_
+40	aber	aber	CCONJ	KON	_	3	L	3:L	_
+41	ich	ich	PRON	PPER	_	42	A	42:A	_
+42	zog	ziehen	VERB	VVFIN	_	3	H	3:H	_
+43	ein	ein	DET	ART	_	45	E	45:E	_
+44	praktischeres	praktisch	ADJ	ADJA	_	45	E	45:E	_
+45	System	System	NOUN	NN	_	42	A	42:A	_
+46	vor	vor	ADP	NE	_	42	Terminal	42:Terminal	_
+47	.	.	PUNCT	$.	_	42	U	42:U	_
+48	«	«	PUNCT	$(	_	42	U	42:U	_
+

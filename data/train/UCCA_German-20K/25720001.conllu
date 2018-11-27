@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25720001
+# text = Die ›Nautilus‹ fuhr mit reißender Schnelligkeit gleichgültig über sie alle hinweg , und langte am 18 . Februar um 3 Uhr früh beim Eingang der Straße an .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|7:A|5:A|14:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	reißender	reißend	ADJ	ADJA	_	3	H	3:H	_
+6	Schnelligkeit	Schnelligkeit	NOUN	NN	_	5	A	5:A	_
+7	gleichgültig	gleichgültig	ADJ	ADJD	_	3	H	3:H	_
+8	über	über	ADP	ADJD	_	9	R	9:R	_
+9	sie	sie	PRON	TRUNC	_	3	A	3:A	_
+10	alle	alle	PRON	PIAT	_	9	E	9:E	_
+11	hinweg	hinweg	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	langte	langte	VERB	VVFIN	_	3	H	3:H	_
+15	am	am	ADV	ADJD	_	16	R	16:R	_
+16	18	18	NUM	CARD	_	14	D	14:D	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+18	Februar	Februar	PROPN	NN	_	16	Terminal	16:Terminal	_
+19	um	um	ADP	APPR	_	20	R	20:R	_
+20	3	3	NUM	CARD	_	16	E	16:E	_
+21	Uhr	Uhr	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	früh	früh	ADJ	ADJD	_	20	E	20:E	_
+23	beim	beim	ADJ	NE	_	24	R	24:R	_
+24	Eingang	Eingang	NOUN	NN	_	14	A	14:A	_
+25	der	der	DET	ART	_	26	R	26:R	_
+26	Straße	Straße	NOUN	NN	_	24	E	24:E	_
+27	an	an	ADP	PTKVZ	_	14	Terminal	14:Terminal	_
+28	.	.	PUNCT	$.	_	14	U	14:U	_
+

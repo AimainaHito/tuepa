@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25438005
+# text = » Der bin ich . Kommandant Farragut ?
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Der	der	PRON	PDS	_	3	A	3:A	_
+3	bin	sein	AUX	VAFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+6	Kommandant	Kommandant	NOUN	NN	_	7	E	7:E	_
+7	Farragut	Farragut	PROPN	NN	_	3	H	3:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+

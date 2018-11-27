@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 227010
+# text = However , it was a disappointment in Hong Kong , grossing only HK $ 3.5 million during its opening weekend .
+1	However	however	ADV	RB	_	6	L	6:L	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	it	it	PRON	PRP	_	6	A	6:A|11:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	disappointment	disappointment	NOUN	NN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Hong	Hong	PROPN	NNP	_	6	A	6:A	_
+9	Kong	Kong	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	grossing	grosse	VERB	VBG	_	6	H	6:H	_
+12	only	only	ADV	RB	_	13	E	13:E	_
+13	HK	Hk	ADV	RB	_	11	A	11:A	_
+14	$	$	SYM	$	_	13	U	13:U	_
+15	3.5	3.5	NUM	CD	_	13	Terminal	13:Terminal	_
+16	million	million	NUM	CD	_	13	Terminal	13:Terminal	_
+17	during	during	ADP	IN	_	20	R	20:R	_
+18	its	its	PRON	PRP$	_	20	E	20:E	_
+19	opening	opening	NOUN	NN	_	20	E	20:E	_
+20	weekend	weekend	NOUN	NN	_	11	D	11:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

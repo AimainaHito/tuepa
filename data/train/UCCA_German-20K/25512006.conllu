@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25512006
+# text = Nachdem ich an dem Behälter der zur Plattform führenden Leiter vorüber war , sah ich eine 2 Meter große Kabine , worin Conseil und Ned Land beschäftigt waren , ihr wohl schmeckendes Mahl munter zu verschlingen .
+1	Nachdem	nachdem	SCONJ	KOUS	_	11	L	11:L	_
+2	ich	ich	PRON	PPER	_	11	A	11:A	_
+3	an	an	ADP	APPR	_	5	R	5:R	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Behälter	Behälter	NOUN	NN	_	11	A	11:A	_
+6	der	der	DET	ART	_	10	R	10:R	_
+7	zur	zur	ADP	NE	_	8	R	8:R	_
+8	Plattform	Plattform	NOUN	NN	_	9	A	9:A	_
+9	führenden	führend	ADJ	ADJA	_	10	E	10:E	_
+10	Leiter	Leiter	NOUN	NN	_	5	E	5:E	_
+11	vorüber	vorüber	ADJ	APPR	_	0	H	0:H	_
+12	war	sein	AUX	ADV	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	sah	sehen	VERB	VVFIN	_	11	H	11:H	_
+15	ich	ich	PRON	PPER	_	14	A	14:A	_
+16	eine	ein	DET	ART	_	20	E	20:E	_
+17	2	2	NUM	CARD	_	18	E	18:E	_
+18	Meter	Meter	NOUN	NN	_	20	E	20:E	_
+19	große	groß	ADJ	ADJA	_	18	E	18:E	_
+20	Kabine	Kabine	NOUN	NN	_	14	A	14:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	worin	worin	ADV	NN	_	36	R	36:R	_
+23	Conseil	Conseil	PROPN	NE	_	36	A	36:A	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	Ned	Ned	PROPN	NE	_	23	C	23:C	_
+26	Land	Land	PROPN	NN	_	25	Terminal	25:Terminal	_
+27	beschäftigt	beschäftigen	VERB	VVPP	_	36	D	36:D	_
+28	waren	sein	AUX	VAFIN	_	36	F	36:F	_
+29	,	,	PUNCT	$,	_	36	U	36:U	_
+30	ihr	ihr	PRON	PPER	_	33	E	33:E	_
+31	wohl	wohl	ADV	ADV	_	32	E	32:E	_
+32	schmeckendes	schmeckend	ADJ	ADJA	_	33	E	33:E	_
+33	Mahl	Mahl	NOUN	NN	_	36	A	36:A	_
+34	munter	munter	ADP	NE	_	36	D	36:D	_
+35	zu	zu	PART	NE	_	36	F	36:F	_
+36	verschlingen	verschlingen	VERB	NE	_	20	E	20:E	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

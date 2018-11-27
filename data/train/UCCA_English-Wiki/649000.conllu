@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 649000
+# text = Along with his estrangement from McCartney , Lennon always felt a musical competitiveness with him and kept an ear on his music .
+1	Along	along	ADP	IN	_	4	L	4:L	_
+2	with	with	ADP	IN	_	4	F	4:F	_
+3	his	he	PRON	PRP$	_	4	A	4:A	_
+4	estrangement	estrangement	NOUN	NN	_	0	H	0:H	_
+5	from	from	ADP	IN	_	6	R	6:R	_
+6	McCartney	McCartney	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	Lennon	Lennon	PROPN	NNP	_	10	A	10:A|4:A|17:A|13:A	_
+9	always	always	ADV	RB	_	10	D	10:D	_
+10	felt	feel	VERB	VBD	_	4	H	4:H	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	musical	musical	ADJ	JJ	_	13	A	13:A	_
+13	competitiveness	competitiveness	NOUN	NN	_	10	A	10:A	_
+14	with	with	ADP	IN	_	15	R	15:R	_
+15	him	he	PRON	PRP	_	13	A	13:A	_
+16	and	and	CCONJ	CC	_	4	L	4:L	_
+17	kept	keep	VERB	VBD	_	4	H	4:H	_
+18	an	a	DET	DT	_	17	Terminal	17:Terminal	_
+19	ear	ear	NOUN	NN	_	17	Terminal	17:Terminal	_
+20	on	on	ADP	IN	_	22	R	22:R	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	music	music	NOUN	NN	_	17	A	17:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

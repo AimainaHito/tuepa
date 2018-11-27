@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 564000
+# text = The next day , Presley recorded " Hound Dog " , along with " Any Way You Want Me " and " Do n't Be Cruel " . The Jordanaires sang harmony , as they had on The Steve Allen Show ; they would work with Presley through the 1960s .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	day	day	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Presley	Presley	PROPN	NNP	_	6	A	6:A	_
+6	recorded	record	VERB	VBD	_	0	H	0:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	Hound	Hound	PROPN	NNP	_	6	A	6:A	_
+9	Dog	dog	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	"	"	PUNCT	''	_	6	U	6:U	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	along	along	ADP	IN	_	15	R	15:R	_
+13	with	with	ADP	IN	_	15	R	15:R	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	Any	any	DET	DT	_	6	A	6:A	_
+16	Way	way	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	You	You	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	Want	want	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	Me	I	PROPN	NNP	_	15	Terminal	15:Terminal	_
+20	"	"	PUNCT	''	_	15	U	15:U	_
+21	and	and	CCONJ	CC	_	15	N	15:N	_
+22	"	"	PUNCT	``	_	15	U	15:U	_
+23	Do	do	AUX	VB	_	15	C	15:C	_
+24	n't	not	PART	RB	_	23	Terminal	23:Terminal	_
+25	Be	be	AUX	VB	_	23	Terminal	23:Terminal	_
+26	Cruel	cruel	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	"	"	PUNCT	''	_	6	U	6:U	_
+28	.	.	PUNCT	.	_	6	U	6:U	_
+29	The	the	DET	DT	_	30	E	30:E	_
+30	Jordanaires	Jordanaires	PROPN	NNP	_	31	A	31:A	_
+31	sang	sang	NOUN	NN	_	6	H	6:H	_
+32	harmony	harmony	NOUN	NN	_	31	A	31:A	_
+33	,	,	PUNCT	,	_	6	U	6:U	_
+34	as	as	SCONJ	IN	_	6	L	6:L	_
+35	they	they	PRON	PRP	_	6	H	6:H	_
+36	had	have	VERB	VBD	_	35	F	35:F	_
+37	on	on	ADP	IN	_	38	R	38:R	_
+38	The	the	DET	DT	_	35	A	35:A	_
+39	Steve	Steve	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	Allen	Allen	PROPN	NNP	_	38	Terminal	38:Terminal	_
+41	Show	show	NOUN	NN	_	38	Terminal	38:Terminal	_
+42	;	;	PUNCT	,	_	6	U	6:U	_
+43	they	they	PRON	PRP	_	45	A	45:A	_
+44	would	would	AUX	MD	_	45	D	45:D	_
+45	work	work	VERB	VB	_	6	H	6:H	_
+46	with	with	ADP	IN	_	47	R	47:R	_
+47	Presley	Presley	PROPN	NNP	_	45	A	45:A	_
+48	through	through	ADP	IN	_	50	R	50:R	_
+49	the	the	DET	DT	_	50	E	50:E	_
+50	1960s	1960	NOUN	NNS	_	45	D	45:D	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

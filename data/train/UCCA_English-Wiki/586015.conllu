@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 586015
+# text = The series ' success turned Depp into a popular teen idol during the late 1980s .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	series	series	NOUN	NNS	_	4	A	4:A	_
+3	'	's	PART	POS	_	4	U	4:U	_
+4	success	success	NOUN	NN	_	5	A	5:A	_
+5	turned	turn	VERB	VBD	_	0	H	0:H	_
+6	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+7	into	into	ADP	IN	_	11	R	11:R	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	popular	popular	ADJ	JJ	_	11	E	11:E	_
+10	teen	teen	NOUN	NN	_	11	E	11:E	_
+11	idol	idol	NOUN	NN	_	5	A	5:A	_
+12	during	during	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	late	late	ADJ	JJ	_	15	E	15:E	_
+15	1980s	1980	NOUN	NNS	_	5	D	5:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

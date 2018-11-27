@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25429000
+# text = Doch wenden wir uns aus dem Reiche der Phantasie zur schrecklichen Wirklichkeit .
+1	Doch	doch	ADV	KON	_	2	L	2:L	_
+2	wenden	wenden	VERB	VVFIN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	uns	wir	PRON	NE	_	2	Terminal	2:Terminal	_
+5	aus	aus	ADP	APPR	_	9	R	9:R	_
+6	dem	der	DET	ART	_	7	E	7:E	_
+7	Reiche	Reich	NOUN	ADJA	_	9	E	9:E	_
+8	der	der	DET	ART	_	9	R	9:R	_
+9	Phantasie	Phantasie	NOUN	NN	_	2	A	2:A	_
+10	zur	zur	ADV	NE	_	12	R	12:R	_
+11	schrecklichen	schrecklich	ADJ	ADJA	_	12	E	12:E	_
+12	Wirklichkeit	Wirklichkeit	NOUN	NN	_	2	A	2:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

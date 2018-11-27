@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25488127
+# text = Ich suchte an seiner Oberfläche nach einer Öffnung , einer Luke ; aber die aneinanderstoßenden Platten waren festgefugt und wie aus einem Stück .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	suchte	suchen	VERB	VVFIN	_	0	H	0:H	_
+3	an	an	ADP	APPR	_	5	R	5:R	_
+4	seiner	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Oberfläche	Oberfläche	NOUN	NN	_	2	A	2:A	_
+6	nach	nach	ADP	CARD	_	8	R	8:R	_
+7	einer	ein	DET	ART	_	8	E	8:E	_
+8	Öffnung	Öffnung	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	einer	ein	DET	ART	_	11	E	11:E	_
+11	Luke	Luke	NOUN	NE	_	8	C	8:C	_
+12	;	;	PUNCT	$.	_	2	U	2:U	_
+13	aber	aber	ADV	ADV	_	2	L	2:L	_
+14	die	der	DET	ART	_	16	E	16:E	_
+15	aneinanderstoßenden	aneinanderstoßend	ADJ	ADJA	_	16	E	16:E	_
+16	Platten	Platte	NOUN	NN	_	0	C	0:C|23:A	_
+17	waren	sein	AUX	VAFIN	_	18	F	18:F|23:S	_
+18	festgefugt	festgefugen	ADJ	VVPP	_	2	H	2:H	_
+19	und	und	CCONJ	NE	_	2	L	2:L	_
+20	wie	wie	ADV	KON	_	23	R	23:R	_
+21	aus	aus	ADP	APPR	_	23	R	23:R	_
+22	einem	ein	DET	ART	_	23	E	23:E	_
+23	Stück	Stück	NOUN	NN	_	2	H	2:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

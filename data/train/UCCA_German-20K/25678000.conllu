@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25678000
+# text = » Aber das Aussondern der Perlen nach der Größe muß eine langwierige Arbeit sein « , sagte der Kanadier .
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Aber	aber	CCONJ	KON	_	13	L	13:L	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Aussondern	Aussond	NOUN	NN	_	13	A	13:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Perlen	Perle|Perlen	NOUN	NE	_	4	A	4:A	_
+7	nach	nach	ADP	CARD	_	9	R	9:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Größe	Größe	NOUN	NN	_	4	A	4:A	_
+10	muß	müssen	AUX	VMFIN	_	13	D	13:D	_
+11	eine	ein	DET	ART	_	13	E	13:E	_
+12	langwierige	langwierig	ADJ	ADJA	_	13	D	13:D	_
+13	Arbeit	Arbeit	NOUN	NN	_	17	A	17:A	_
+14	sein	sein	AUX	VAINF	_	13	F	13:F	_
+15	«	«	PUNCT	$(	_	17	U	17:U	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Kanadier	Kanadier	NOUN	NN	_	17	A	17:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

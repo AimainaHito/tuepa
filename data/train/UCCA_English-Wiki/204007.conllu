@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 204007
+# text = Sorkin continued working on The West Wing amidst his drug abuse .
+1	Sorkin	Sorkin	PROPN	NNP	_	3	A	3:A	_
+2	continued	continue	VERB	VBD	_	3	D	3:D	_
+3	working	work	VERB	VBG	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	The	the	DET	DT	_	3	A	3:A	_
+6	West	west	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Wing	wing	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	amidst	amidst	VERB	VBP	_	3	L	3:L	_
+9	his	he	PRON	PRP$	_	11	A	11:A	_
+10	drug	drug	NOUN	NN	_	11	E	11:E	_
+11	abuse	abuse	NOUN	NN	_	3	H	3:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

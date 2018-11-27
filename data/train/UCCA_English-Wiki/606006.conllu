@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 606006
+# text = The album also included the top - ten hits " Jet " and " Helen Wheels " , and earned the 413th spot on Rolling Stone 's list of the 500 Greatest Albums of All Time .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	4	A	4:A|20:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	included	include	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	11	R	11:R	_
+6	top	top	ADJ	JJ	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	ten	ten	NOUN	NN	_	9	E	9:E	_
+9	hits	hit	NOUN	NNS	_	11	E	11:E	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	Jet	jet	NOUN	NN	_	4	A	4:A	_
+12	"	"	PUNCT	''	_	11	U	11:U	_
+13	and	and	CCONJ	CC	_	11	N	11:N	_
+14	"	"	PUNCT	``	_	11	U	11:U	_
+15	Helen	Helen	PROPN	NNP	_	11	C	11:C	_
+16	Wheels	wheels	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	"	"	PUNCT	''	_	4	U	4:U	_
+18	,	,	PUNCT	,	_	4	U	4:U	_
+19	and	and	CCONJ	CC	_	4	L	4:L	_
+20	earned	earn	VERB	VBD	_	4	H	4:H	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	413th	413th	ADJ	JJ	_	23	E	23:E	_
+23	spot	spot	NOUN	NN	_	20	A	20:A	_
+24	on	on	ADP	IN	_	28	R	28:R	_
+25	Rolling	Rolling	PROPN	NNP	_	28	E	28:E	_
+26	Stone	Stone	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	's	's	PART	POS	_	25	R	25:R	_
+28	list	list	NOUN	NN	_	23	E	23:E	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	the	the	DET	DT	_	28	E	28:E	_
+31	500	500	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Greatest	greatest	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	Albums	Album	PROPN	NNPS	_	30	Terminal	30:Terminal	_
+34	of	of	ADP	IN	_	30	Terminal	30:Terminal	_
+35	All	all	DET	DT	_	30	Terminal	30:Terminal	_
+36	Time	time	NOUN	NN	_	30	Terminal	30:Terminal	_
+37	.	.	PUNCT	.	_	30	U	30:U	_
+

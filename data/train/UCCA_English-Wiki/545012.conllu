@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 545012
+# text = In addition , the studio produced patriotic musicals such as This is the Army and Yankee Doodle Dandy .
+1	In	in	ADP	IN	_	6	L	6:L	_
+2	addition	addition	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	studio	studio	NOUN	NN	_	6	A	6:A	_
+6	produced	produce	VERB	VBD	_	0	H	0:H	_
+7	patriotic	patriotic	ADJ	JJ	_	8	E	8:E	_
+8	musicals	musical	NOUN	NNS	_	6	A	6:A	_
+9	such	such	ADJ	JJ	_	11	R	11:R	_
+10	as	as	ADP	IN	_	9	Terminal	9:Terminal	_
+11	This	this	PRON	DT	_	8	E	8:E	_
+12	is	be	AUX	VBZ	_	11	Terminal	11:Terminal	_
+13	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+14	Army	army	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	and	and	CCONJ	CC	_	11	N	11:N	_
+16	Yankee	Yankee	PROPN	NNP	_	11	C	11:C	_
+17	Doodle	Doodle	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Dandy	dandy	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25461004
+# text = Ich vergönnte mir zum Essen nur einige Minuten , zum Schlafen nur einige Stunden , verließ , unbekümmert um Regen oder Sonnenschein , keinen Augenblick das Verdeck .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|16:A|5:A|11:A|18:A	_
+2	vergönnte	vergönnen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	zum	zum	ADV	NN	_	5	R	5:R	_
+5	Essen	es	NOUN	NE	_	2	A	2:A	_
+6	nur	nur	ADV	NE	_	2	D	2:D	_
+7	einige	einige	PRON	PIAT	_	8	E	8:E	_
+8	Minuten	Minute	NOUN	NN	_	2	D	2:D	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	zum	zum	ADP	NN	_	11	R	11:R	_
+11	Schlafen	schlafen	NOUN	NN	_	2	H	2:H	_
+12	nur	nur	ADV	NE	_	11	D	11:D	_
+13	einige	einige	PRON	PIAT	_	14	E	14:E	_
+14	Stunden	Stunde|Stunden	NOUN	NN	_	11	D	11:D	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	verließ	verlassen	VERB	VVFIN	_	2	H	2:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	unbekümmert	unbekümmeren	ADJ	VVFIN	_	16	A	16:A	_
+19	um	um	ADP	APPR	_	20	R	20:R	_
+20	Regen	Regen	NOUN	NN	_	18	A	18:A	_
+21	oder	oder	CCONJ	CARD	_	20	N	20:N	_
+22	Sonnenschein	Sonnenschein	NOUN	NN	_	20	C	20:C	_
+23	,	,	PUNCT	$,	_	16	U	16:U	_
+24	keinen	kein	PRON	PIAT	_	16	D	16:D	_
+25	Augenblick	Augenblick	NOUN	NN	_	16	D	16:D	_
+26	das	der	DET	ART	_	27	E	27:E	_
+27	Verdeck	Verdeck	NOUN	NN	_	16	A	16:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

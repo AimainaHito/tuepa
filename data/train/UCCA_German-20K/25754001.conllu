@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25754001
+# text = » Jawohl « , erwiderte ich .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Jawohl	Jawohl	PROPN	KOUS	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25798016
+# text = Diesen Abend nun war es zu meiner großen Befriedigung klar , dass wir durch den Atlantik wieder nach Norden fuhren .
+1	Diesen	dies	PRON	PDAT	_	2	E	2:E	_
+2	Abend	Abend	NOUN	NN	_	10	D	10:D	_
+3	nun	nun	ADV	ADV	_	10	D	10:D	_
+4	war	sein	AUX	ADV	_	10	F	10:F	_
+5	es	es	PRON	PPER	_	10	F	10:F	_
+6	zu	zu	ADP	VVINF	_	9	R	9:R	_
+7	meiner	mein	DET	PPOSAT	_	9	A	9:A	_
+8	großen	groß	ADJ	ADJA	_	9	E	9:E	_
+9	Befriedigung	Befriedigung	NOUN	NN	_	10	H	10:H	_
+10	klar	klar	ADJ	ADJD	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+13	wir	wir	PRON	NE	_	20	A	20:A	_
+14	durch	durch	ADP	APPR	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Atlantik	Atlantik	NOUN	NN	_	20	A	20:A	_
+17	wieder	wieder	ADV	NE	_	20	D	20:D	_
+18	nach	nach	ADP	NN	_	19	R	19:R	_
+19	Norden	Norden	NOUN	NN	_	20	A	20:A	_
+20	fuhren	fahren	VERB	VVFIN	_	10	A	10:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

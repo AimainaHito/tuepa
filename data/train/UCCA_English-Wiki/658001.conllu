@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 658001
+# text = In 1998 , she was honored as the world 's best - selling recording artist of the 1990s at the World Music Awards .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1998	1998	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	she	she	PRON	PRP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	honored	honor	VERB	VBN	_	0	H	0:H	_
+7	as	as	ADP	IN	_	15	R	15:R	_
+8	the	the	DET	DT	_	15	E	15:E	_
+9	world	world	NOUN	NN	_	15	E	15:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	best	best	ADJ	JJS	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	selling	sell	VERB	VBG	_	15	E	15:E	_
+14	recording	record	NOUN	NN	_	15	E	15:E	_
+15	artist	artist	NOUN	NN	_	6	A	6:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	1990s	1990	NOUN	NNS	_	15	E	15:E	_
+19	at	at	ADP	IN	_	23	R	23:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	World	World	PROPN	NNP	_	23	E	23:E	_
+22	Music	music	PROPN	NNP	_	23	E	23:E	_
+23	Awards	awards	PROPN	NNPS	_	6	A	6:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

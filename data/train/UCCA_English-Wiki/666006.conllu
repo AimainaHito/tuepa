@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 666006
+# text = Rainbow was released on November 2 , 1999 , to the highest first week sales of her career at the time , however debuting at number two on the Billboard 200 .
+1	Rainbow	rainbow	PROPN	NNP	_	3	A	3:A|24:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	released	release	VERB	VBN	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	November	November	PROPN	NNP	_	3	D	3:D	_
+6	2	2	NUM	CD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	1999	1999	NUM	CD	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	to	to	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	highest	highest	ADJ	JJS	_	15	E	15:E	_
+13	first	first	ADJ	JJ	_	14	E	14:E	_
+14	week	week	NOUN	NN	_	15	E	15:E	_
+15	sales	sale	NOUN	NNS	_	3	A	3:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	career	career	NOUN	NN	_	15	E	15:E	_
+19	at	at	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	time	time	NOUN	NN	_	18	E	18:E	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	however	however	ADV	RB	_	3	L	3:L	_
+24	debuting	debut	VERB	VBG	_	3	H	3:H	_
+25	at	at	ADP	IN	_	26	R	26:R	_
+26	number	number	NOUN	NN	_	24	A	24:A	_
+27	two	two	NUM	CD	_	26	E	26:E	_
+28	on	on	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	Billboard	Billboard	NOUN	NN	_	24	A	24:A	_
+31	200	200	NUM	CD	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

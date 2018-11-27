@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 233009
+# text = Chan has always wanted to be a role model to children , remaining popular with them due to his good - natured acting style .
+1	Chan	Chan	PROPN	NNP	_	4	A	4:A|9:A|14:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	always	always	ADV	RB	_	4	D	4:D	_
+4	wanted	want	VERB	VBN	_	0	H	0:H	_
+5	to	to	PART	TO	_	9	F	9:F	_
+6	be	be	AUX	VB	_	9	F	9:F	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	role	role	NOUN	NN	_	9	E	9:E	_
+9	model	model	NOUN	NN	_	4	A	4:A	_
+10	to	to	ADP	IN	_	11	R	11:R	_
+11	children	child	NOUN	NNS	_	9	A	9:A	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	remaining	remain	VERB	VBG	_	14	D	14:D	_
+14	popular	popular	ADJ	JJ	_	4	H	4:H	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	them	they	PRON	PRP	_	14	A	14:A	_
+17	due	due	ADP	IN	_	24	R	24:R	_
+18	to	to	ADP	IN	_	24	F	24:F	_
+19	his	he	PRON	PRP$	_	24	E	24:E	_
+20	good	good	ADJ	JJ	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	natured	nature	VERB	VBN	_	24	E	24:E	_
+23	acting	act	VERB	VBG	_	24	E	24:E	_
+24	style	style	NOUN	NN	_	14	A	14:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

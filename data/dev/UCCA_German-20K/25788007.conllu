@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25788007
+# text = » Der Weg ist auch im Süden versperrt ? « fragte ich .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Der	der	DET	ART	_	3	E	3:E	_
+3	Weg	Weg	NOUN	NN	_	8	A	8:A	_
+4	ist	sein	AUX	VVFIN	_	8	F	8:F	_
+5	auch	auch	ADV	ADV	_	8	D	8:D	_
+6	im	im	ADJ	NE	_	7	R	7:R	_
+7	Süden	Süden	NOUN	NE	_	8	A	8:A	_
+8	versperrt	versperren	VERB	VVPP	_	11	A	11:A	_
+9	?	?	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

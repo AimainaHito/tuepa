@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25779010
+# text = Das Hinauf steigen über spitze Lava stücke und Bims steine ist in einer häufig mit ausströmenden Schwefel dünsten durchdrungenen Luft beschwerlich .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	Hinauf	hinauf	NOUN	NN	_	3	E	3:E	_
+3	steigen	steigen	VERB	VVFIN	_	21	A	21:A	_
+4	über	über	ADP	ADJD	_	6	R	6:R	_
+5	spitze	spitz	ADJ	NN	_	6	E	6:E	_
+6	Lava	Lava	PROPN	NN	_	3	A	3:A	_
+7	stücke	stücke	PROPN	NN	_	6	E	6:E	_
+8	und	und	CCONJ	NE	_	6	N	6:N	_
+9	Bims	Bims	PROPN	NE	_	10	E	10:E	_
+10	steine	stein	PRON	PPOSAT	_	6	C	6:C	_
+11	ist	sein	AUX	VVFIN	_	21	F	21:F	_
+12	in	in	ADP	APPR	_	20	R	20:R	_
+13	einer	ein	DET	ART	_	20	E	20:E	_
+14	häufig	häufig	ADJ	ADJD	_	19	D	19:D	_
+15	mit	mit	ADP	APPR	_	18	R	18:R	_
+16	ausströmenden	ausströmend	ADJ	ADJA	_	18	E	18:E	_
+17	Schwefel	Schwefel	NOUN	NN	_	18	E	18:E	_
+18	dünsten	dünsen	VERB	NN	_	19	A	19:A	_
+19	durchdrungenen	durchdrungen	ADJ	ADJA	_	20	E	20:E	_
+20	Luft	Luft	NOUN	NN	_	21	A	21:A	_
+21	beschwerlich	beschwerlich	ADJ	ADJD	_	0	H	0:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

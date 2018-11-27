@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25488008
+# text = Durfte ich auf Rettung hoffen ?
+1	Durfte	dürfen	AUX	VMFIN	_	5	D	5:D	_
+2	ich	ich	PRON	PPER	_	5	A	5:A	_
+3	auf	auf	ADP	APPR	_	4	R	4:R	_
+4	Rettung	Rettung	NOUN	NN	_	5	A	5:A	_
+5	hoffen	hoffen	VERB	VVINF	_	0	H	0:H	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+

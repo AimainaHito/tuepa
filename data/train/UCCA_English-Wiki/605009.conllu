@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 605009
+# text = Music professor and author Vincent Benitez described the track as " symphonic rock at its best " .
+1	Music	music	ADJ	JJ	_	2	E	2:E	_
+2	professor	professor	NOUN	NN	_	5	E	5:E	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	author	author	NOUN	NN	_	2	C	2:C	_
+5	Vincent	Vincent	PROPN	NNP	_	7	A	7:A	_
+6	Benitez	Benitez	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	described	describe	VERB	VBD	_	0	H	0:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	track	track	NOUN	NN	_	7	A	7:A	_
+10	as	as	SCONJ	IN	_	13	R	13:R	_
+11	"	"	PUNCT	``	_	13	U	13:U	_
+12	symphonic	symphonic	ADJ	JJ	_	13	E	13:E	_
+13	rock	rock	NOUN	NN	_	7	A	7:A	_
+14	at	at	ADP	IN	_	16	R	16:R	_
+15	its	its	PRON	PRP$	_	16	E	16:E	_
+16	best	best	ADJ	JJS	_	13	E	13:E	_
+17	"	"	PUNCT	''	_	16	U	16:U	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25777003
+# text = Ruhiger und weniger furchtsam als ihre Gattungs genossen im Norden , stellen sie nicht zur Hut ihrer Lager stätten Schildwachen aus .
+1	Ruhiger	ruhig	ADJ	NN	_	12	A	12:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	weniger	weniger	ADV	ADV	_	1	D	1:D	_
+4	furchtsam	furchtsam	ADJ	ADJD	_	1	C	1:C	_
+5	als	als	ADP	KOKOM	_	8	R	8:R	_
+6	ihre	ihr	DET	PPOSAT	_	8	E	8:E	_
+7	Gattungs	Gattung	NOUN	TRUNC	_	8	E	8:E	_
+8	genossen	genießen	VERB	VVFIN	_	1	A	1:A	_
+9	im	im	ADV	NE	_	10	R	10:R	_
+10	Norden	Norden	NOUN	NE	_	8	E	8:E	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	stellen	stellen	VERB	VVFIN	_	0	H	0:H	_
+13	sie	sie	PRON	ADV	_	12	A	12:A|1:A	_
+14	nicht	nicht	PART	CARD	_	12	D	12:D	_
+15	zur	zur	ADV	NE	_	16	R	16:R	_
+16	Hut	Hut	NOUN	NN	_	12	A	12:A	_
+17	ihrer	ihr	DET	PPOSAT	_	19	R	19:R	_
+18	Lager	Lager	NOUN	NN	_	19	E	19:E	_
+19	stätten	stätt	ADJ	VVINF	_	16	A	16:A	_
+20	Schildwachen	Schildwachen	NOUN	NE	_	12	A	12:A	_
+21	aus	aus	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+22	.	.	PUNCT	$.	_	12	U	12:U	_
+

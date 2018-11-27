@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 705011
+# text = " They used to convince me I was a prophet .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	They	they	PRON	PRP	_	5	A	5:A	_
+3	used	use	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	convince	convince	VERB	VB	_	0	H	0:H	_
+6	me	I	PRON	PRP	_	5	A	5:A	_
+7	I	I	PRON	PRP	_	8	A	8:A	_
+8	was	be	AUX	VBD	_	5	A	5:A	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	prophet	prophet	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

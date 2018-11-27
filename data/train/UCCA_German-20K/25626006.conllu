@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25626006
+# text = Wir begaben uns also durch den Wald auf den Heimweg und vervollständigten unsere Ernte , indem wir eine Razzia von Palmkohl machten , die auf den Gipfeln der Bäume zu holen waren , von kleinen Bohnen und einer vorzüglichen Sorte Yams .
+1	Wir	wir	PRON	NE	_	2	A	2:A|12:A	_
+2	begaben	begeben	VERB	VVINF	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	Terminal	2:Terminal	_
+4	also	also	ADV	ADV	_	2	L	2:L	_
+5	durch	durch	ADP	APPR	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Wald	Wald	NOUN	NN	_	2	A	2:A	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Heimweg	Heimweg	NOUN	NN	_	2	A	2:A	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	vervollständigten	vervollständigen	VERB	VVFIN	_	2	H	2:H	_
+13	unsere	unser	PRON	PPOSAT	_	14	E	14:E	_
+14	Ernte	Ernte	NOUN	NN	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	indem	indem	SCONJ	KOUS	_	2	L	2:L	_
+17	wir	wir	PRON	NE	_	22	A	22:A	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Razzia	Razzia	NOUN	NN	_	22	A	22:A	_
+20	von	von	ADP	NE	_	21	R	21:R	_
+21	Palmkohl	Palmkohl	PROPN	NE	_	19	E	19:E	_
+22	machten	machten	VERB	VVFIN	_	2	H	2:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	die	der	PRON	PRELS	_	31	R	31:R	_
+25	auf	auf	ADP	APPR	_	27	R	27:R	_
+26	den	der	DET	ART	_	27	E	27:E	_
+27	Gipfeln	gipfeln	NOUN	NN	_	31	A	31:A	_
+28	der	der	DET	ART	_	29	R	29:R	_
+29	Bäume	Baum	NOUN	NN	_	27	E	27:E	_
+30	zu	zu	PART	NN	_	31	F	31:F	_
+31	holen	holen	VERB	VVINF	_	21	E	21:E	_
+32	waren	sein	AUX	VAFIN	_	31	D	31:D	_
+33	,	,	PUNCT	$,	_	22	U	22:U	_
+34	von	von	ADP	NN	_	36	R	36:R	_
+35	kleinen	klein	ADJ	ADJA	_	36	E	36:E	_
+36	Bohnen	Bohne	NOUN	NN	_	22	A	22:A	_
+37	und	und	CCONJ	NE	_	36	N	36:N	_
+38	einer	ein	DET	ART	_	41	E	41:E	_
+39	vorzüglichen	vorzüglich	ADJ	ADJA	_	41	E	41:E	_
+40	Sorte	sorte	NOUN	NN	_	41	E	41:E	_
+41	Yams	Yam	PROPN	NE	_	36	C	36:C	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

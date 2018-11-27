@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25686014
+# text = Ich bemerkte , wie sein Canot , das einige Fuß über seinem Kopf ankerte , ihm als Rückhalt diente .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wie	wie	SCONJ	KON	_	18	R	18:R	_
+5	sein	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Canot	Canot	NOUN	NN	_	18	A	18:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	das	der	PRON	PRELS	_	14	R	14:R	_
+9	einige	einige	PRON	PIAT	_	10	E	10:E	_
+10	Fuß	Fuß	NOUN	NN	_	14	D	14:D	_
+11	über	über	ADP	ADJD	_	13	R	13:R	_
+12	seinem	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Kopf	Kopf	NOUN	NN	_	14	A	14:A	_
+14	ankerte	ankeren	VERB	VVFIN	_	6	E	6:E	_
+15	,	,	PUNCT	$,	_	18	U	18:U	_
+16	ihm	er	PRON	PPER	_	18	A	18:A	_
+17	als	als	ADP	KOKOM	_	18	R	18:R	_
+18	Rückhalt	Rückhalt	NOUN	NN	_	2	A	2:A	_
+19	diente	dienen	VERB	VVFIN	_	18	D	18:D	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

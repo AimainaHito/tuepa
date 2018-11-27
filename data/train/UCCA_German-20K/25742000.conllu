@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25742000
+# text = » Das nenn' ich nicht ›Land‹ « , erwiderte der Kanadier . Und zudem sind wir nicht darauf , sondern darunter . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	DET	ART	_	3	A	3:A	_
+3	nenn'	nenn'	PROPN	$(	_	9	A	9:A	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	nicht	nicht	PART	XY	_	3	D	3:D	_
+6	›Land‹	›Land‹	NOUN	NE	_	3	A	3:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+13	Und	und	CCONJ	NN	_	3	L	3:L	_
+14	zudem	zudem	ADV	PAV	_	3	L	3:L	_
+15	sind	sein	AUX	NN	_	18	F	18:F	_
+16	wir	wir	PRON	NE	_	18	A	18:A|21:A	_
+17	nicht	nicht	PART	CARD	_	18	D	18:D	_
+18	darauf	darauf	ADV	PAV	_	3	H	3:H	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	sondern	sondern	CCONJ	NN	_	3	L	3:L	_
+21	darunter	darunter	ADV	PAV	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

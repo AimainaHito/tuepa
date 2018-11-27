@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25489104
+# text = Hosen und Weste , aus einem mir unbekannten Stoff .
+1	Hosen	Hose	NOUN	NN	_	0	H	0:H	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Weste	West	NOUN	NE	_	1	C	1:C	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	aus	aus	ADP	APPR	_	9	R	9:R	_
+6	einem	ein	DET	ART	_	9	E	9:E	_
+7	mir	ich	PRON	PPER	_	8	A	8:A	_
+8	unbekannten	unbekannt	ADJ	ADJA	_	9	E	9:E	_
+9	Stoff	Stoff	NOUN	NN	_	1	A	1:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

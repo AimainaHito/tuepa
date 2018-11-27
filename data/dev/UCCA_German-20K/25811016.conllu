@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25811016
+# text = » Jedenfalls « , erwiderte der Kanadier , » würden wir bereits wieder frei sein , denn wir sitzen nicht auf . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Jedenfalls	jedenfalls	PROPN	ADV	_	14	D	14:D	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kanadier	Kanadier	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	würden	werden	AUX	ADJD	_	14	D	14:D	_
+11	wir	wir	PRON	NE	_	14	A	14:A	_
+12	bereits	bereits	ADV	ADV	_	14	D	14:D	_
+13	wieder	wieder	ADV	NN	_	14	D	14:D	_
+14	frei	frei	ADJ	ADJD	_	5	A	5:A	_
+15	sein	sein	AUX	VAINF	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	denn	denn	SCONJ	KON	_	14	L	14:L	_
+18	wir	wir	PRON	NE	_	19	A	19:A	_
+19	sitzen	sitzen	VERB	VVFIN	_	14	H	14:H	_
+20	nicht	nicht	PART	XY	_	19	D	19:D	_
+21	auf	auf	ADP	PTKVZ	_	19	Terminal	19:Terminal	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+23	«	«	PUNCT	$(	_	19	U	19:U	_
+

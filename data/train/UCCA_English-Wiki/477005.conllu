@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 477005
+# text = After announcing his infection in November 1991 , Johnson created the Magic Johnson Foundation to help combat HIV , although he later diversified the foundation to include other charitable goals .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	announcing	announce	VERB	VBG	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	infection	infection	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	7	R	7:R	_
+6	November	November	PROPN	NNP	_	7	E	7:E	_
+7	1991	1991	NUM	CD	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Johnson	Johnson	PROPN	NNP	_	10	A	10:A|2:A	_
+10	created	create	VERB	VBD	_	2	H	2:H	_
+11	the	the	DET	DT	_	14	E	14:E	_
+12	Magic	magic	PROPN	NNP	_	14	E	14:E	_
+13	Johnson	Johnson	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Foundation	foundation	NOUN	NN	_	10	A	10:A|17:A	_
+15	to	to	PART	TO	_	2	L	2:L	_
+16	help	help	VERB	VB	_	17	D	17:D	_
+17	combat	combat	NOUN	NN	_	2	H	2:H	_
+18	HIV	HIV	NOUN	NN	_	17	A	17:A	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	although	although	SCONJ	IN	_	2	L	2:L	_
+21	he	he	PRON	PRP	_	23	A	23:A	_
+22	later	later	ADV	RB	_	23	D	23:D	_
+23	diversified	diversify	VERB	VBD	_	2	H	2:H	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	foundation	foundation	NOUN	NN	_	23	A	23:A	_
+26	to	to	PART	TO	_	27	F	27:F	_
+27	include	include	VERB	VB	_	23	A	23:A	_
+28	other	other	ADJ	JJ	_	30	E	30:E	_
+29	charitable	charitable	ADJ	JJ	_	30	E	30:E	_
+30	goals	goal	NOUN	NNS	_	27	A	27:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

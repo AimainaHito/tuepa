@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25643009
+# text = Offenbar vermied die " Nautilus " nicht die viel befahrenen europäischen Meere , und ich schloß daraus , er werde uns - vielleicht in der Kürze - den zivilisierten Kontinenten zuführen .
+1	Offenbar	offenbar	ADJ	NE	_	2	G	2:G	_
+2	vermied	vermeiden	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	Nautilus	Nautilus	PROPN	NE	_	2	A	2:A	_
+6	"	"	PUNCT	$(	_	2	U	2:U	_
+7	nicht	nicht	PART	CARD	_	2	D	2:D	_
+8	die	der	DET	ART	_	12	E	12:E	_
+9	viel	viel	ADJ	ADJD	_	10	D	10:D	_
+10	befahrenen	befahren	ADJ	ADJA	_	12	E	12:E	_
+11	europäischen	europäisch	ADJ	ADJA	_	12	E	12:E	_
+12	Meere	Meer	NOUN	NN	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	ich	ich	PRON	PPER	_	16	A	16:A	_
+16	schloß	schließen	VERB	VVFIN	_	2	H	2:H	_
+17	daraus	daraus	ADV	PAV	_	16	A	16:A	_
+18	,	,	PUNCT	$,	_	16	U	16:U	_
+19	er	er	PRON	PPER	_	31	A	31:A	_
+20	werde	werden	AUX	NE	_	31	F	31:F	_
+21	uns	wir	PRON	NN	_	31	A	31:A	_
+22	-	-	PUNCT	$(	_	31	U	31:U	_
+23	vielleicht	vielleicht	ADV	NN	_	31	G	31:G	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Kürze	Kürze	NOUN	ADJA	_	31	D	31:D	_
+27	-	-	PUNCT	$(	_	31	U	31:U	_
+28	den	der	DET	ART	_	30	E	30:E	_
+29	zivilisierten	zivilisiert	ADJ	ADJA	_	30	E	30:E	_
+30	Kontinenten	Kontinent	NOUN	NN	_	31	A	31:A	_
+31	zuführen	zuführen	VERB	VVINF	_	16	A	16:A	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

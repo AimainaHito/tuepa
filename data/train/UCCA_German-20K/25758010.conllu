@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25758010
+# text = » Aber , Freund Ned « , sagte Conseil , » warum fragen Sie nicht Kapitän Nemo um Erlaubnis , eine Jagd zu machen ? «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Aber	aber	NOUN	KON	_	13	L	13:L	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	Freund	Freund	PROPN	NN	_	5	E	5:E	_
+5	Ned	Ned	PROPN	NE	_	13	G	13:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	warum	warum	ADV	NE	_	13	A	13:A	_
+13	fragen	fragen	VERB	VVFIN	_	8	A	8:A	_
+14	Sie	Sie|sie	PRON	PPER	_	13	A	13:A	_
+15	nicht	nicht	PART	ADJA	_	13	D	13:D	_
+16	Kapitän	Kapitän	NOUN	NN	_	17	E	17:E	_
+17	Nemo	Nemo	PROPN	NE	_	13	A	13:A	_
+18	um	um	ADP	APPR	_	19	R	19:R	_
+19	Erlaubnis	Erlaubnis	NOUN	NN	_	13	A	13:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	eine	ein	DET	ART	_	22	E	22:E	_
+22	Jagd	Jagd	NOUN	NN	_	24	A	24:A	_
+23	zu	zu	PART	VVINF	_	24	F	24:F	_
+24	machen	machen	VERB	VVINF	_	19	A	19:A	_
+25	?	?	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

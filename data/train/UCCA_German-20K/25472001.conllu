@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25472001
+# text = Bestürzung weit mehr als Furcht machte uns stumm und unbeweglich .
+1	Bestürzung	Bestürzung	NOUN	NN	_	6	A	6:A	_
+2	weit	weit	ADJ	ADJD	_	3	E	3:E	_
+3	mehr	mehr	ADV	ADV	_	6	D	6:D	_
+4	als	als	ADP	KOKOM	_	5	R	5:R	_
+5	Furcht	Furcht	NOUN	NN	_	6	H	6:H	_
+6	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+7	uns	wir	PRON	NN	_	6	A	6:A|5:A	_
+8	stumm	stumm	ADJ	ADJD	_	6	D	6:D	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	unbeweglich	unbeweglich	ADJ	ADJD	_	8	C	8:C|5:D	_
+11	.	.	PUNCT	$.	_	5	U	5:U	_
+

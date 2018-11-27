@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 462000
+# text = In late March , viewers started noticing that Jennings ' voice sounded uncharacteristically gravelly and unhealthy during evening newscasts .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	late	late	ADJ	JJ	_	3	E	3:E	_
+3	March	March	PROPN	NNP	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	viewers	viewer	NOUN	NNS	_	7	A	7:A	_
+6	started	start	VERB	VBD	_	7	D	7:D	_
+7	noticing	notice	VERB	VBG	_	0	H	0:H	_
+8	that	that	SCONJ	IN	_	14	F	14:F	_
+9	Jennings	Jennings	PROPN	NNPS	_	11	E	11:E	_
+10	'	's	PART	POS	_	11	U	11:U	_
+11	voice	voice	NOUN	NN	_	14	A	14:A	_
+12	sounded	sound	VERB	VBD	_	14	G	14:G	_
+13	uncharacteristically	uncharacteristically	ADV	RB	_	7	D	7:D	_
+14	gravelly	gravelly	ADV	RB	_	7	A	7:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	unhealthy	unhealthy	ADJ	JJ	_	14	C	14:C	_
+17	during	during	ADP	IN	_	7	L	7:L	_
+18	evening	evening	NOUN	NN	_	19	E	19:E	_
+19	newscasts	newscast	NOUN	NNS	_	7	H	7:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

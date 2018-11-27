@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 728011
+# text = " Jolie was nominated for a Golden Globe Award and a Screen Actors Guild Award for her performance .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Jolie	Jolie	PROPN	NNP	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	nominated	nominate	VERB	VBN	_	0	H	0:H	_
+5	for	for	ADP	IN	_	9	R	9:R	_
+6	a	a	DET	DT	_	9	E	9:E	_
+7	Golden	golden	PROPN	NNP	_	9	E	9:E	_
+8	Globe	Globe	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Award	Award	PROPN	NNP	_	4	A	4:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	a	a	DET	DT	_	15	E	15:E	_
+12	Screen	screen	PROPN	NNP	_	13	E	13:E	_
+13	Actors	Actors	PROPN	NNPS	_	14	E	14:E	_
+14	Guild	guild	PROPN	NNP	_	15	E	15:E	_
+15	Award	Award	PROPN	NNP	_	9	C	9:C	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	performance	performance	NOUN	NN	_	4	A	4:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

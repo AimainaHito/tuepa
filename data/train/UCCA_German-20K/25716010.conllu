@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25716010
+# text = Wahrhaftig , ich fühlte , wie ich im Begriff war zu braten !
+1	Wahrhaftig	Wahrhaftig	ADJ	ADJD	_	4	G	4:G	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	wie	wie	SCONJ	KON	_	12	R	12:R	_
+7	ich	ich	PRON	PPER	_	12	A	12:A	_
+8	im	im	ADV	NE	_	12	D	12:D	_
+9	Begriff	Begriff	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	war	sein	AUX	ADV	_	12	F	12:F	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	braten	braten	VERB	VVINF	_	4	A	4:A	_
+13	!	!	PUNCT	$.	_	12	U	12:U	_
+

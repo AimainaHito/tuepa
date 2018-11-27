@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 142007
+# text = It later went on a successful nationwide tour .
+1	It	it	PRON	PRP	_	8	F	8:F	_
+2	later	later	ADV	RB	_	8	D	8:D	_
+3	went	go	VERB	VBD	_	8	D	8:D	_
+4	on	on	ADP	IN	_	8	R	8:R	_
+5	a	a	DET	DT	_	8	E	8:E	_
+6	successful	successful	ADJ	JJ	_	8	E	8:E	_
+7	nationwide	nationwide	NOUN	NN	_	8	E	8:E	_
+8	tour	tour	NOUN	NN	_	0	H	0:H	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

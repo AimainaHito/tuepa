@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 490010
+# text = Bana and Gleeson have two children , a son , Klaus ( born August 1999 ) , and a daughter , Sophia ( born April 2002 ) . They live in Melbourne .
+1	Bana	Bana	PROPN	NNP	_	4	A	4:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Gleeson	Gleeson	PROPN	NNP	_	1	C	1:C	_
+4	have	have	VERB	VBP	_	0	H	0:H	_
+5	two	two	NUM	CD	_	6	E	6:E	_
+6	children	child	NOUN	NNS	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	son	son	NOUN	NN	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	Klaus	Klaus	PROPN	NNP	_	6	E	6:E	_
+12	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+13	born	bear	VERB	VBN	_	11	E	11:E	_
+14	August	August	PROPN	NNP	_	13	D	13:D	_
+15	1999	1999	NUM	CD	_	14	Terminal	14:Terminal	_
+16	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	and	and	CCONJ	CC	_	11	N	11:N	_
+19	a	a	DET	DT	_	22	E	22:E	_
+20	daughter	daughter	NOUN	NN	_	22	E	22:E	_
+21	,	,	PUNCT	,	_	22	U	22:U	_
+22	Sophia	Sophia	PROPN	NNP	_	11	C	11:C	_
+23	(	(	PUNCT	-LRB-	_	22	U	22:U	_
+24	born	bear	VERB	VBN	_	22	E	22:E	_
+25	April	April	PROPN	NNP	_	24	D	24:D	_
+26	2002	2002	NUM	CD	_	25	Terminal	25:Terminal	_
+27	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+28	.	.	PUNCT	.	_	4	U	4:U	_
+29	They	they	PRON	PRP	_	30	A	30:A	_
+30	live	live	VERB	VBP	_	4	H	4:H	_
+31	in	in	ADP	IN	_	32	R	32:R	_
+32	Melbourne	Melbourne	PROPN	NNP	_	30	A	30:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

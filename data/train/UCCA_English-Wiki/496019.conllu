@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 496019
+# text = " Cambridge summarily quit and was replaced by Mick Woodmansey .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	Cambridge	Cambridge	VERB	VB	_	4	A	4:A|7:A	_
+3	summarily	summarily	ADV	RB	_	4	D	4:D	_
+4	quit	quit	VERB	VB	_	0	H	0:H	_
+5	and	and	CCONJ	CC	_	4	L	4:L	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	replaced	replace	VERB	VBN	_	4	H	4:H	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	Mick	Mick	PROPN	NNP	_	7	A	7:A	_
+10	Woodmansey	Woodmansey	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

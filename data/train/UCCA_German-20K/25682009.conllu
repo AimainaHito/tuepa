@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25682009
+# text = Aber diese beiden Freunde hatten schon ihren Kopf in die metallene Kappe gesteckt , und sie konnten weder hören noch antworten .
+1	Aber	aber	CCONJ	KON	_	13	L	13:L	_
+2	diese	dies	PRON	PDAT	_	4	E	4:E	_
+3	beiden	beide	PRON	PIAT	_	4	E	4:E	_
+4	Freunde	Freund	NOUN	NN	_	13	A	13:A	_
+5	hatten	haben	AUX	VAFIN	_	13	F	13:F	_
+6	schon	schon	ADV	ADV	_	13	D	13:D	_
+7	ihren	ihr	DET	PPOSAT	_	8	E	8:E	_
+8	Kopf	Kopf	NOUN	NN	_	13	A	13:A	_
+9	in	in	ADP	APPR	_	12	R	12:R	_
+10	die	der	DET	ART	_	12	E	12:E	_
+11	metallene	metallen	ADJ	ADJA	_	12	E	12:E	_
+12	Kappe	Kappe	NOUN	NN	_	13	A	13:A	_
+13	gesteckt	stecken	VERB	VVPP	_	0	H	0:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	und	und	CCONJ	NE	_	13	L	13:L	_
+16	sie	sie	PRON	ADV	_	19	A	19:A|21:A	_
+17	konnten	können	AUX	VMFIN	_	19	D	19:D|21:D	_
+18	weder	weder	CCONJ	ADJD	_	19	D	19:D	_
+19	hören	hören	VERB	VVFIN	_	13	H	13:H	_
+20	noch	noch	CCONJ	CARD	_	21	D	21:D	_
+21	antworten	antworten	VERB	VVINF	_	13	H	13:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

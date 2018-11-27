@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 616006
+# text = McCartney became involved in the renovation and publicising of the Indica Gallery in Mason 's Yard , London , which Barry Miles had co - founded and where Lennon first met Yoko Ono .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A	_
+2	became	become	VERB	VBD	_	3	D	3:D	_
+3	involved	involved	ADJ	JJ	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	renovation	renovation	NOUN	NN	_	3	A	3:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	publicising	publicising	NOUN	NN	_	6	C	6:C	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Indica	Indica	PROPN	NNP	_	6	A	6:A	_
+12	Gallery	Gallery	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	Mason	Mason	PROPN	NNP	_	16	E	16:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	Yard	Yard	PROPN	NNP	_	11	E	11:E	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	London	London	PROPN	NNP	_	16	E	16:E	_
+19	,	,	PUNCT	,	_	11	U	11:U	_
+20	which	which	PRON	WDT	_	26	F	26:F	_
+21	Barry	Barry	PROPN	NNP	_	26	A	26:A	_
+22	Miles	miles	PROPN	NNPS	_	21	Terminal	21:Terminal	_
+23	had	have	VERB	VBD	_	26	F	26:F	_
+24	co	co	X	AFX	_	26	E	26:E	_
+25	-	-	PUNCT	HYPH	_	26	U	26:U	_
+26	founded	founded	ADJ	JJ	_	11	E	11:E	_
+27	and	and	CCONJ	CC	_	26	L	26:L	_
+28	where	where	ADV	WRB	_	31	F	31:F	_
+29	Lennon	Lennon	PROPN	NNP	_	31	A	31:A	_
+30	first	first	ADV	RB	_	31	D	31:D	_
+31	met	meet	VERB	VBD	_	26	H	26:H	_
+32	Yoko	Yoko	PROPN	NNP	_	31	A	31:A	_
+33	Ono	Ono	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	.	.	PUNCT	.	_	31	U	31:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25807013
+# text = » Es wird mich nie jemand davon überzeugen « , sagte Ned Land , » daß es solche Tiere gibt . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Es	es	PRON	PPER	_	8	F	8:F	_
+3	wird	werden	AUX	VAFIN	_	8	F	8:F	_
+4	mich	ich	PRON	PPER	_	8	A	8:A	_
+5	nie	nie	ADV	ADV	_	8	D	8:D	_
+6	jemand	jemand	PRON	PIS	_	8	A	8:A	_
+7	davon	davon	ADV	PAV	_	20	F	20:F	_
+8	überzeugen	überzeugen	VERB	VVINF	_	11	A	11:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	Ned	Ned	PROPN	NE	_	11	A	11:A	_
+13	Land	Land	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	»	»	PUNCT	$(	_	11	U	11:U	_
+16	daß	daß	SCONJ	KOUS	_	20	R	20:R	_
+17	es	es	PRON	PPER	_	20	F	20:F	_
+18	solche	solch	PRON	ADJA	_	19	E	19:E	_
+19	Tiere	Tier	NOUN	NN	_	20	A	20:A	_
+20	gibt	geben	VERB	VVFIN	_	8	A	8:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

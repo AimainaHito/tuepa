@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25616004
+# text = Diese gilt für ebenso gefährlich durch ihre Klippen als durch ihre wilden Bewohner .
+1	Diese	dies	PRON	PDS	_	5	A	5:A	_
+2	gilt	gelten	AUX	VVFIN	_	5	D	5:D	_
+3	für	für	ADP	APPR	_	2	Terminal	2:Terminal	_
+4	ebenso	ebenso	ADV	ADV	_	8	N	8:N	_
+5	gefährlich	gefährlich	ADJ	ADJD	_	0	H	0:H	_
+6	durch	durch	ADP	APPR	_	8	R	8:R	_
+7	ihre	ihr	DET	PPOSAT	_	8	E	8:E	_
+8	Klippen	Klippe	NOUN	NN	_	5	A	5:A	_
+9	als	als	ADP	KOKOM	_	8	N	8:N	_
+10	durch	durch	ADP	APPR	_	13	R	13:R	_
+11	ihre	ihr	DET	PPOSAT	_	13	E	13:E	_
+12	wilden	wild	ADJ	ADJD	_	13	E	13:E	_
+13	Bewohner	Bewohner	NOUN	NN	_	8	C	8:C	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

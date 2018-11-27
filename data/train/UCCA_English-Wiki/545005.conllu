@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 545005
+# text = In 1941 , Warner also produced the influential pro - war film Sergeant York .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1941	1941	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Warner	Warner	PROPN	NNP	_	6	A	6:A	_
+5	also	also	ADV	RB	_	6	D	6:D	_
+6	produced	produce	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	12	E	12:E	_
+8	influential	influential	ADJ	JJ	_	12	E	12:E	_
+9	pro	pro	NOUN	NN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	war	war	NOUN	NN	_	12	E	12:E	_
+12	film	film	NOUN	NN	_	13	E	13:E	_
+13	Sergeant	sergean	PROPN	NNP	_	6	A	6:A	_
+14	York	york	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

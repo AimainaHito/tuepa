@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25596018
+# text = Manchmal bemerkte ich , dass Kapitän Nemo stehenblieb und sein Gewehr anlegte ; dann , nachdem er eine Weile beobachtet , setzte er seinen Weg fort .
+1	Manchmal	manchmal	ADV	ADV	_	2	D	2:D	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	8	R	8:R	_
+6	Kapitän	Kapitän	PROPN	NN	_	7	E	7:E	_
+7	Nemo	Nemo	PROPN	NE	_	0	C	0:C|12:A	_
+8	stehenblieb	stehenbleiben	VERB	VVFIN	_	2	A	2:A	_
+9	und	und	CCONJ	NE	_	2	L	2:L	_
+10	sein	sein	DET	PPOSAT	_	11	E	11:E	_
+11	Gewehr	Gewehr	NOUN	NN	_	12	A	12:A	_
+12	anlegte	anlegen	VERB	VVFIN	_	2	H	2:H	_
+13	;	;	PUNCT	$.	_	2	U	2:U	_
+14	dann	dann	ADV	ADV	_	2	L	2:L	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	nachdem	nachdem	SCONJ	XY	_	2	L	2:L	_
+17	er	er	PRON	PPER	_	20	A	20:A	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Weile	Weile	NOUN	NN	_	20	D	20:D	_
+20	beobachtet	beobachten	VERB	VVPP	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	setzte	setzen	VERB	VVFIN	_	2	H	2:H	_
+23	er	er	PRON	PPER	_	22	A	22:A	_
+24	seinen	sein	DET	PPOSAT	_	25	E	25:E	_
+25	Weg	Weg	NOUN	NN	_	22	A	22:A	_
+26	fort	fort	ADV	PTKVZ	_	22	Terminal	22:Terminal	_
+27	.	.	PUNCT	$.	_	22	U	22:U	_
+

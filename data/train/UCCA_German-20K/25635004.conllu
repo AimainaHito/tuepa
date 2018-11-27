@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25635004
+# text = Während der ganzen Zeit der Ebbe trieben sich diese Eingeborenen in der Nähe der " Nautilus " herum , aber ohne Lärm .
+1	Während	während	ADP	KOUS	_	6	R	6:R	_
+2	der	der	DET	ART	_	4	E	4:E	_
+3	ganzen	ganz	ADJ	ADJA	_	4	E	4:E	_
+4	Zeit	Zeit	NOUN	NN	_	6	E	6:E	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Ebbe	Ebbe	NOUN	NN	_	7	A	7:A	_
+7	trieben	treiben	VERB	VVFIN	_	0	H	0:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	diese	dies	PRON	PDAT	_	10	E	10:E	_
+10	Eingeborenen	eingeboren	NOUN	ADJA	_	0	C	0:C|22:A	_
+11	in	in	ADP	APPR	_	16	R	16:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Nähe	Nähe	NOUN	NN	_	16	E	16:E	_
+14	der	der	DET	ART	_	16	R	16:R	_
+15	"	"	PUNCT	$(	_	16	U	16:U	_
+16	Nautilus	Nautilus	PROPN	NE	_	7	A	7:A	_
+17	"	"	PUNCT	$(	_	7	U	7:U	_
+18	herum	herum	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+19	,	,	PUNCT	$,	_	7	U	7:U	_
+20	aber	aber	CCONJ	KON	_	7	L	7:L	_
+21	ohne	ohne	ADP	CARD	_	22	E	22:E	_
+22	Lärm	Lärm	NOUN	NN	_	7	H	7:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25758011
+# text = Conseil hatte noch nicht ausgesprochen , als Ned Land schon die Luke hinabeilte , den Kapitän aufzusuchen .
+1	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+2	hatte	haben	AUX	VAFIN	_	5	F	5:F	_
+3	noch	noch	ADV	CARD	_	4	E	4:E	_
+4	nicht	nicht	PART	CARD	_	5	D	5:D	_
+5	ausgesprochen	aussprechen	VERB	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	als	als	SCONJ	KOKOM	_	5	L	5:L	_
+8	Ned	Ned	PROPN	NN	_	13	A	13:A|17:A	_
+9	Land	Land	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	schon	schon	ADV	ADV	_	13	D	13:D	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Luke	Luke	NOUN	NN	_	13	A	13:A	_
+13	hinabeilte	hinabeilen	VERB	VVFIN	_	5	H	5:H	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Kapitän	Kapitän	NOUN	NN	_	17	A	17:A	_
+17	aufzusuchen	aufzusuchen	VERB	ADJA	_	5	H	5:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

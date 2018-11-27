@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 475001
+# text = A few days later Johnson changed his mind and retired permanently , saying , " I am going out on my terms , something I could n't say when I aborted a comeback in 1992 . "
+1	A	a	DET	DT	_	3	E	3:E	_
+2	few	few	ADJ	JJ	_	3	E	3:E	_
+3	days	day	NOUN	NNS	_	6	D	6:D	_
+4	later	later	ADV	RB	_	3	R	3:R	_
+5	Johnson	Johnson	PROPN	NNP	_	6	A	6:A|10:A|13:A	_
+6	changed	change	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	6	Terminal	6:Terminal	_
+8	mind	mind	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	and	and	CCONJ	CC	_	6	L	6:L	_
+10	retired	retire	VERB	VBD	_	6	H	6:H	_
+11	permanently	permanently	ADV	RB	_	10	D	10:D	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	saying	say	VERB	VBG	_	6	H	6:H	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	"	"	PUNCT	''	_	13	U	13:U	_
+16	I	I	PRON	PRP	_	18	A	18:A	_
+17	am	be	AUX	VBP	_	18	F	18:F	_
+18	going	go	VERB	VBG	_	13	A	13:A	_
+19	out	out	ADV	RB	_	18	Terminal	18:Terminal	_
+20	on	on	ADP	IN	_	22	R	22:R	_
+21	my	my	PRON	PRP$	_	22	E	22:E	_
+22	terms	term	NOUN	NNS	_	18	D	18:D	_
+23	,	,	PUNCT	,	_	18	U	18:U	_
+24	something	something	PRON	NN	_	28	F	28:F	_
+25	I	I	PRON	PRP	_	28	A	28:A	_
+26	could	could	AUX	MD	_	28	D	28:D	_
+27	n't	not	PART	RB	_	28	D	28:D	_
+28	say	say	VERB	VB	_	18	H	18:H	_
+29	when	when	ADV	WRB	_	18	L	18:L	_
+30	I	I	PRON	PRP	_	31	A	31:A	_
+31	aborted	abort	VERB	VBD	_	18	H	18:H	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	comeback	comeback	NOUN	NN	_	31	A	31:A	_
+34	in	in	ADP	IN	_	35	R	35:R	_
+35	1992	1992	NUM	CD	_	31	D	31:D	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+37	"	"	PUNCT	''	_	35	U	35:U	_
+

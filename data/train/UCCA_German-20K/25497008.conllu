@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25497008
+# text = Übrigens rechnete ich auf die Zukunft , um diese wichtige Frage zu lösen .
+1	Übrigens	übrigens	ADV	ADV	_	2	G	2:G	_
+2	rechnete	rechnen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A|13:A	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Zukunft	Zukunft	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	um	um	ADP	KOUI	_	2	L	2:L	_
+9	diese	dies	PRON	PDS	_	11	E	11:E	_
+10	wichtige	wichtig	ADJ	ADJA	_	11	E	11:E	_
+11	Frage	Frage	NOUN	NN	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	lösen	lösen	VERB	VVINF	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

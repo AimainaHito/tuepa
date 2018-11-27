@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25527010
+# text = « » Was liegt Ihnen denn daran , Freund Ned « , erwiderte Conseil , » Sie kennen sie ja doch nicht .
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Was	was	PRON	NE	_	4	A	4:A	_
+4	liegt	liegen	VERB	VVFIN	_	13	A	13:A	_
+5	Ihnen	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	denn	denn	SCONJ	ADV	_	4	F	4:F	_
+7	daran	daran	ADV	PAV	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	Freund	Freund	PROPN	NN	_	10	E	10:E	_
+10	Ned	Ned	PROPN	NE	_	4	G	4:G	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+14	Conseil	Conseil	PROPN	NE	_	13	A	13:A	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	»	»	PUNCT	$(	_	13	U	13:U	_
+17	Sie	Sie|sie	PRON	PPER	_	18	A	18:A	_
+18	kennen	kennen	VERB	VVFIN	_	4	H	4:H	_
+19	sie	sie	PRON	ADV	_	18	A	18:A	_
+20	ja	ja	ADV	ADV	_	18	F	18:F	_
+21	doch	doch	ADV	ADV	_	18	F	18:F	_
+22	nicht	nicht	PART	CARD	_	18	D	18:D	_
+23	.	.	PUNCT	$.	_	18	U	18:U	_
+

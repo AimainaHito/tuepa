@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25438026
+# text = Die langen horizontalen Stempel dröhnten und trieben die Stangen der Welle .
+1	Die	der	DET	ART	_	4	E	4:E	_
+2	langen	lang	ADJ	ADJA	_	4	E	4:E	_
+3	horizontalen	horizontalen	ADJ	ADJA	_	4	E	4:E	_
+4	Stempel	Stempel	NOUN	NN	_	0	C	0:C|7:A	_
+5	dröhnten	dröhnen	VERB	VVFIN	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	trieben	treiben	VERB	VVFIN	_	5	H	5:H	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Stangen	Stange	NOUN	NN	_	7	A	7:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Welle	Welle	NOUN	NN	_	7	A	7:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

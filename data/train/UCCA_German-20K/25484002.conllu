@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25484002
+# text = Die Kugel wurde abgeschossen , sie fuhr aber einige Fuß über dem Tier weg , das eine halbe Meile entfernt war .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Kugel	Kugel	NOUN	NN	_	4	A	4:A	_
+3	wurde	werden	AUX	NE	_	4	F	4:F	_
+4	abgeschossen	abschießen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	sie	sie	PRON	ADV	_	7	A	7:A	_
+7	fuhr	fahren	VERB	VVFIN	_	4	H	4:H	_
+8	aber	aber	ADV	ADV	_	4	L	4:L	_
+9	einige	einige	PRON	PIAT	_	10	E	10:E	_
+10	Fuß	Fuß	NOUN	NN	_	7	A	7:A	_
+11	über	über	ADP	VVFIN	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	R	13:R	_
+13	Tier	Tier	NOUN	NN	_	7	A	7:A	_
+14	weg	weg	ADV	NN	_	7	Terminal	7:Terminal	_
+15	,	,	PUNCT	$,	_	7	U	7:U	_
+16	das	der	PRON	PRELS	_	20	R	20:R	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	halbe	halb	ADJ	ADJA	_	19	E	19:E	_
+19	Meile	Meile	NOUN	NN	_	20	A	20:A	_
+20	entfernt	entfernt	ADJ	ADJD	_	13	E	13:E	_
+21	war	sein	AUX	ADV	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

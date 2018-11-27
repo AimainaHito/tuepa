@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 439000
+# text = Ces derniers mots étaient une lâcheté de ma part ; mais je voulais jusqu' à un certain point couvrir ma dignité de professeur , et ne pas trop prêter à rire aux Américains , qui rient bien , quand ils rient .
+1	Ces	ce	DET	_	_	3	E	3:E	_
+2	derniers	dernier	ADJ	_	_	3	E	3:E	_
+3	mots	mot	NOUN	_	_	6	A	6:A	_
+4	étaient	être	AUX	_	_	6	F	6:F	_
+5	une	un	DET	_	_	6	E	6:E	_
+6	lâcheté	lâcheté	NOUN	_	_	0	H	0:H	_
+7	de	de	ADP	_	_	9	R	9:R	_
+8	ma	son	DET	_	_	9	E	9:E	_
+9	part	part	NOUN	_	_	6	A	6:A	_
+10	;	;	PUNCT	_	_	6	U	6:U	_
+11	mais	mais	CCONJ	_	_	6	L	6:L	_
+12	je	il	PRON	_	_	19	A	19:A|29:A	_
+13	voulais	vouloir	VERB	_	_	19	D	19:D|29:P	_
+14	jusqu'	jusque	ADP	_	_	18	R	18:R	_
+15	à	à	ADP	_	_	14	Terminal	14:Terminal	_
+16	un	un	DET	_	_	18	E	18:E	_
+17	certain	certain	ADJ	_	_	18	E	18:E	_
+18	point	point	NOUN	_	_	19	A	19:A	_
+19	couvrir	couvrir	VERB	_	_	6	H	6:H	_
+20	ma	son	DET	_	_	21	E	21:E	_
+21	dignité	dignité	NOUN	_	_	19	A	19:A	_
+22	de	de	ADP	_	_	23	R	23:R	_
+23	professeur	professeur	NOUN	_	_	21	E	21:E	_
+24	,	,	PUNCT	_	_	6	U	6:U	_
+25	et	et	CCONJ	_	_	6	L	6:L	_
+26	ne	ne	ADV	_	_	29	D	29:D	_
+27	pas	pas	ADV	_	_	26	Terminal	26:Terminal	_
+28	trop	trop	ADV	_	_	29	D	29:D	_
+29	prêter	prêter	VERB	_	_	6	H	6:H	_
+30	à	à	ADP	_	_	29	Terminal	29:Terminal	_
+31	rire	rire	VERB	_	_	29	Terminal	29:Terminal	_
+32	aux	au	ADJ	_	_	33	R	33:R	_
+33	Américains	américain	NOUN	_	_	29	A	29:A	_
+34	,	,	PUNCT	_	_	33	U	33:U	_
+35	qui	qui	PRON	_	_	36	R	36:R	_
+36	rient	renir	VERB	_	_	33	E	33:E	_
+37	bien	bien	ADV	_	_	36	D	36:D	_
+38	,	,	PUNCT	_	_	36	U	36:U	_
+39	quand	quand	SCONJ	_	_	36	L	36:L	_
+40	ils	il	PRON	_	_	41	A	41:A	_
+41	rient	renir	VERB	_	_	36	H	36:H	_
+42	.	.	PUNCT	_	_	41	U	41:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25638010
+# text = Das hieß mich verabschieden , und ich begab mich wieder auf mein Zimmer .
+1	Das	der	PRON	PDS	_	2	A	2:A	_
+2	hieß	heißen	AUX	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PPER	_	4	A	4:A	_
+4	verabschieden	verabscheiden	VERB	VVPP	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	begab	begeben	VERB	VVFIN	_	2	H	2:H	_
+9	mich	ich	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	wieder	wieder	ADV	NN	_	8	D	8:D	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	mein	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Zimmer	Zimmer	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 661007
+# text = While praised for Carey 's improved songwriting , production and new sound , the album was criticized for its material , which many felt was noticeably weaker than her debut .
+1	While	while	SCONJ	IN	_	2	L	2:L	_
+2	praised	praise	VERB	VBN	_	0	H	0:H	_
+3	for	for	ADP	IN	_	2	R	2:R	_
+4	Carey	Carey	PROPN	NNP	_	7	E	7:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	improved	improve	VERB	VBN	_	7	E	7:E	_
+7	songwriting	songwriting	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	production	production	NOUN	NN	_	7	C	7:C	_
+10	and	and	CCONJ	CC	_	7	N	7:N	_
+11	new	new	ADJ	JJ	_	12	E	12:E	_
+12	sound	sound	NOUN	NN	_	7	C	7:C	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	album	album	NOUN	NN	_	0	C	0:C|2:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	criticized	criticize	VERB	VBN	_	2	H	2:H	_
+18	for	for	ADP	IN	_	20	R	20:R	_
+19	its	its	PRON	PRP$	_	20	E	20:E	_
+20	material	material	NOUN	NN	_	17	A	17:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	which	which	PRON	WDT	_	27	F	27:F	_
+23	many	many	ADJ	JJ	_	27	A	27:A	_
+24	felt	feel	NOUN	NN	_	27	G	27:G	_
+25	was	be	AUX	VBD	_	27	F	27:F	_
+26	noticeably	noticeably	ADV	RB	_	27	D	27:D	_
+27	weaker	weaker	ADJ	JJR	_	20	E	20:E	_
+28	than	than	ADP	IN	_	30	R	30:R	_
+29	her	she	PRON	PRP$	_	30	E	30:E	_
+30	debut	debut	NOUN	NN	_	27	A	27:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

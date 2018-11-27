@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25490022
+# text = In der Tat war ich schon genötigt , häufiger zu atmen , um den geringen Vorrat von Sauerstoff , den die Zelle noch enthielt , herauszuziehen , als ich plötzlich durch einen Strom reiner und ganz von Salz dünsten durchdrungener Luft erfrischt wurde .
+1	In	in	ADP	APPR	_	11	G	11:G	_
+2	der	der	DET	ART	_	1	Terminal	1:Terminal	_
+3	Tat	Tat	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	war	sein	AUX	ADV	_	11	F	11:F	_
+5	ich	ich	PRON	PPER	_	11	A	11:A|26:A	_
+6	schon	schon	ADV	ADV	_	11	D	11:D	_
+7	genötigt	genötigen	VERB	VVPP	_	11	D	11:D	_
+8	,	,	PUNCT	$,	_	11	U	11:U	_
+9	häufiger	häufig	ADJ	ADJD	_	11	D	11:D	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	atmen	atmen	VERB	NN	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	um	um	ADP	KOUI	_	11	L	11:L	_
+14	den	der	DET	ART	_	16	E	16:E	_
+15	geringen	gering	ADJ	ADJA	_	16	E	16:E	_
+16	Vorrat	Vorrat	NOUN	NN	_	26	A	26:A	_
+17	von	von	ADP	NE	_	18	R	18:R	_
+18	Sauerstoff	Sauerstoff	NOUN	NE	_	16	E	16:E	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	den	der	PRON	PRELS	_	24	R	24:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Zelle	Zelle	NOUN	NN	_	24	A	24:A	_
+23	noch	noch	ADV	VVINF	_	24	D	24:D	_
+24	enthielt	enthalten	VERB	VVFIN	_	18	E	18:E	_
+25	,	,	PUNCT	$,	_	26	U	26:U	_
+26	herauszuziehen	herauszuziehen	VERB	VVINF	_	11	H	11:H	_
+27	,	,	PUNCT	$,	_	11	U	11:U	_
+28	als	als	SCONJ	KOUS	_	11	L	11:L	_
+29	ich	ich	PRON	PPER	_	42	A	42:A	_
+30	plötzlich	plötzlich	ADJ	ADJD	_	42	D	42:D	_
+31	durch	durch	ADP	APPR	_	41	R	41:R	_
+32	einen	ein	DET	ART	_	33	E	33:E	_
+33	Strom	Strom	NOUN	NN	_	41	E	41:E	_
+34	reiner	rein	ADJ	PPOSAT	_	41	E	41:E	_
+35	und	und	CCONJ	NE	_	34	N	34:N	_
+36	ganz	ganz	ADJ	ADV	_	40	E	40:E	_
+37	von	von	ADP	NE	_	39	R	39:R	_
+38	Salz	Salz	PROPN	NN	_	39	E	39:E	_
+39	dünsten	dünsen	VERB	NN	_	40	E	40:E	_
+40	durchdrungener	durchdrungen	DET	ADJA	_	34	C	34:C	_
+41	Luft	Luft	NOUN	VVPP	_	42	A	42:A	_
+42	erfrischt	erfrischen	VERB	VVPP	_	11	H	11:H	_
+43	wurde	werden	AUX	TRUNC	_	42	F	42:F	_
+44	.	.	PUNCT	$.	_	42	U	42:U	_
+

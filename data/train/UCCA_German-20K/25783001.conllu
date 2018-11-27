@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25783001
+# text = Er konnte nun seinen ganzen Zorn auslassen .
+1	Er	er	PRON	PPER	_	7	A	7:A	_
+2	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+3	nun	nun	ADV	ADV	_	7	F	7:F	_
+4	seinen	sein	DET	PPOSAT	_	6	E	6:E	_
+5	ganzen	ganz	ADJ	ADJA	_	6	E	6:E	_
+6	Zorn	Zor	NOUN	NN	_	7	A	7:A	_
+7	auslassen	auslassen	VERB	VVPP	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 205001
+# text = He has been known for his versatile portrayals of antiheroes and vulnerable characters .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	been	be	AUX	VBN	_	4	F	4:F	_
+4	known	know	VERB	VBN	_	0	H	0:H	_
+5	for	for	ADP	IN	_	8	R	8:R	_
+6	his	he	PRON	PRP$	_	8	A	8:A	_
+7	versatile	versatile	NOUN	NN	_	8	E	8:E	_
+8	portrayals	portrayal	NOUN	NNS	_	4	A	4:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	antiheroes	antiheroe	NOUN	NNS	_	8	A	8:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	vulnerable	vulnerable	ADJ	JJ	_	13	E	13:E	_
+13	characters	character	NOUN	NNS	_	10	C	10:C	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

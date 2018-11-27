@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 673016
+# text = The song spent 27 weeks atop the Brasil Hot 100 Airplay , making it the longest running song in the chart 's history .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	0	C	0:C|13:A	_
+3	spent	spend	VERB	VBD	_	0	H	0:H	_
+4	27	27	NUM	CD	_	5	E	5:E	_
+5	weeks	week	NOUN	NNS	_	3	D	3:D	_
+6	atop	atop	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	Brasil	Brasil	PROPN	NNP	_	11	E	11:E	_
+9	Hot	hot	PROPN	NNP	_	10	E	10:E	_
+10	100	100	NUM	CD	_	11	E	11:E	_
+11	Airplay	Airplay	PROPN	NNP	_	3	A	3:A	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	making	make	VERB	VBG	_	3	H	3:H	_
+14	it	it	PRON	PRP	_	13	A	13:A	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	longest	longest	ADV	RBS	_	17	E	17:E	_
+17	running	run	VERB	VBG	_	18	E	18:E	_
+18	song	song	NOUN	NN	_	13	A	13:A	_
+19	in	in	ADP	IN	_	23	R	23:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	chart	chart	NOUN	NN	_	23	E	23:E	_
+22	's	's	PART	POS	_	21	R	21:R	_
+23	history	history	NOUN	NN	_	18	E	18:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 125004
+# text = She left halfway through the summer season , and continued studying with a drama tutor .
+1	She	she	PRON	PRP	_	2	A	2:A|11:A	_
+2	left	leave	VERB	VBD	_	0	H	0:H	_
+3	halfway	halfway	ADV	RB	_	7	E	7:E	_
+4	through	through	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	summer	summer	NOUN	NN	_	7	E	7:E	_
+7	season	season	NOUN	NN	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	continued	continue	VERB	VBD	_	11	D	11:D	_
+11	studying	study	VERB	VBG	_	2	H	2:H	_
+12	with	with	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	drama	drama	NOUN	NN	_	15	E	15:E	_
+15	tutor	tutor	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

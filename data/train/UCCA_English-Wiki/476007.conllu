@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 476007
+# text = The game was played at a gym inside Fort McNair , and reporters covering the President were not allowed to enter .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	game	game	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	played	play	VERB	VBN	_	0	H	0:H	_
+5	at	at	ADP	IN	_	7	R	7:R	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	gym	gym	NOUN	NN	_	4	A	4:A	_
+8	inside	inside	ADP	IN	_	9	R	9:R	_
+9	Fort	Fort	PROPN	NNP	_	7	E	7:E	_
+10	McNair	McNair	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	reporters	reporter	NOUN	NNS	_	14	A	14:A|21:A	_
+14	covering	cover	VERB	VBG	_	19	A	19:A	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	President	President	PROPN	NNP	_	14	A	14:A	_
+17	were	be	AUX	VBD	_	19	F	19:F	_
+18	not	not	PART	RB	_	19	D	19:D	_
+19	allowed	allow	VERB	VBN	_	4	H	4:H	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	enter	enter	VERB	VB	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

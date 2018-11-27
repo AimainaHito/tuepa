@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25676002
+# text = Ich sah sie mit besorgtem Auge an , als wenn ihnen schon ein Glied mangele .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	besorgtem	besorgt	ADJ	ADJA	_	6	E	6:E	_
+6	Auge	Auge	NOUN	NN	_	2	A	2:A	_
+7	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	als	als	SCONJ	KOUS	_	2	L	2:L	_
+10	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+11	ihnen	sie	PRON	PPER	_	15	A	15:A	_
+12	schon	schon	ADV	ADV	_	15	D	15:D	_
+13	ein	ein	DET	ART	_	14	E	14:E	_
+14	Glied	Glied	NOUN	NN	_	15	A	15:A	_
+15	mangele	mangeler	ADJ	NN	_	2	H	2:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25440017
+# text = Die Fregatte hätte hundertfach Grund gehabt , den Namen ›Argus‹ zu führen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fregatte	Fregatte	NOUN	NN	_	6	A	6:A	_
+3	hätte	haben	AUX	VAFIN	_	6	F	6:F	_
+4	hundertfach	hundertfach	ADP	ADJD	_	6	D	6:D	_
+5	Grund	Grund	NOUN	NN	_	6	A	6:A	_
+6	gehabt	haben	VERB	VAPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	Namen	Name	NOUN	NN	_	10	E	10:E	_
+10	›Argus‹	›Argus‹	NOUN	NE	_	12	A	12:A	_
+11	zu	zu	PART	NE	_	12	F	12:F	_
+12	führen	führen	VERB	VVINF	_	5	E	5:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

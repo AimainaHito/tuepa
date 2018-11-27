@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25794021
+# text = Und doch blieb niemand länger als die ihm bestimmte Zeit bei der Arbeit .
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	doch	doch	ADV	ADV	_	3	L	3:L	_
+3	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+4	niemand	niemand	PRON	PIS	_	3	A	3:A	_
+5	länger	lang	ADJ	ADJD	_	3	D	3:D	_
+6	als	als	ADP	KOKOM	_	10	R	10:R	_
+7	die	der	PRON	ART	_	10	E	10:E	_
+8	ihm	er	PRON	PPER	_	9	A	9:A	_
+9	bestimmte	bestimmt	ADJ	ADJA	_	10	E	10:E	_
+10	Zeit	Zeit	NOUN	NN	_	3	A	3:A	_
+11	bei	bei	ADP	APPR	_	13	R	13:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Arbeit	Arbeit	NOUN	NN	_	3	A	3:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

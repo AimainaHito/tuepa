@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25680005
+# text = Ned Land sprach das Wort » schnappen « auf eine Weise aus , dass es einem kalt über den Rücken lief .
+1	Ned	Ned	PROPN	NE	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Wort	Wort	NOUN	NN	_	7	E	7:E	_
+6	»	»	PUNCT	$(	_	7	U	7:U	_
+7	schnappen	schnappen	VERB	VVINF	_	3	A	3:A	_
+8	«	«	PUNCT	$(	_	3	U	3:U	_
+9	auf	auf	ADP	APPR	_	3	D	3:D	_
+10	eine	ein	DET	ART	_	9	Terminal	9:Terminal	_
+11	Weise	Weise	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	aus	aus	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	dass	dass	SCONJ	KOUS	_	17	R	17:R	_
+15	es	es	PRON	PPER	_	17	F	17:F	_
+16	einem	ein	DET	ART	_	17	A	17:A	_
+17	kalt	kalt	ADJ	ADJD	_	3	A	3:A	_
+18	über	über	ADP	VVFIN	_	17	Terminal	17:Terminal	_
+19	den	der	DET	ART	_	17	Terminal	17:Terminal	_
+20	Rücken	Rücken	NOUN	NN	_	17	Terminal	17:Terminal	_
+21	lief	laufen	VERB	VVFIN	_	17	Terminal	17:Terminal	_
+22	.	.	PUNCT	$.	_	17	U	17:U	_
+

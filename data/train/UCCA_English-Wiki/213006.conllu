@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 213006
+# text = She also sang the jazz song " After You 've Gone " for the end credits of the film The Cat 's Meow ( 2001 ) .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	sang	sang	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	jazz	jazz	NOUN	NN	_	6	E	6:E	_
+6	song	song	NOUN	NN	_	8	E	8:E	_
+7	"	"	PUNCT	''	_	8	U	8:U	_
+8	After	after	SCONJ	IN	_	3	A	3:A	_
+9	You	you	PRON	PRP	_	8	Terminal	8:Terminal	_
+10	've	have	AUX	VBP	_	8	Terminal	8:Terminal	_
+11	Gone	go	VERB	VBN	_	8	Terminal	8:Terminal	_
+12	"	"	PUNCT	''	_	3	U	3:U	_
+13	for	for	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	end	end	NOUN	NN	_	16	E	16:E	_
+16	credits	credit	NOUN	NNS	_	3	A	3:A	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	film	film	NOUN	NN	_	20	E	20:E	_
+20	The	the	DET	DT	_	16	E	16:E	_
+21	Cat	cat	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	's	's	PART	POS	_	20	Terminal	20:Terminal	_
+23	Meow	meow	PROPN	NNP	_	20	Terminal	20:Terminal	_
+24	(	(	PUNCT	-LRB-	_	20	U	20:U	_
+25	2001	2001	NUM	CD	_	20	E	20:E	_
+26	)	)	PUNCT	-RRB-	_	25	U	25:U	_
+27	.	.	PUNCT	.	_	25	U	25:U	_
+

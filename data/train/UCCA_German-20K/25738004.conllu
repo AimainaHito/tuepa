@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25738004
+# text = Diese Fahrt war reizend zum Staunen , ähnlich den Bewegungen einer Luftschiffahrt , nur dass die ›Nautilus‹ folgsam der Hand seines Steuerers gehorchte .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Fahrt	Fahrt	NOUN	NN	_	0	C	0:C|8:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	reizend	reizend	ADJ	ADJD	_	0	H	0:H	_
+5	zum	zum	ADJ	NN	_	6	E	6:E	_
+6	Staunen	Staune	NOUN	NE	_	4	D	4:D	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	ähnlich	ähnlich	ADJ	NN	_	4	H	4:H	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Bewegungen	Bewegung	NOUN	NN	_	8	A	8:A	_
+11	einer	ein	DET	ART	_	12	R	12:R	_
+12	Luftschiffahrt	Luftschiffahrt	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	nur	nur	ADV	NE	_	4	L	4:L	_
+15	dass	dass	SCONJ	KOUS	_	14	Terminal	14:Terminal	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	›Nautilus‹	›Nautilus‹	NOUN	NE	_	23	A	23:A	_
+18	folgsam	folgsommen	VERB	ADV	_	23	D	23:D	_
+19	der	der	DET	ART	_	20	R	20:R	_
+20	Hand	Hand	NOUN	NN	_	23	A	23:A	_
+21	seines	sein	DET	PPOSAT	_	22	R	22:R	_
+22	Steuerers	Steuerer	NOUN	NN	_	20	E	20:E	_
+23	gehorchte	gehorchen	VERB	VVFIN	_	4	H	4:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

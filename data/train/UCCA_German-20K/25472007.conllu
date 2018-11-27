@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25472007
+# text = Jeden Augenblick konnte ein Zusammenstoß stattfinden , der uns vernichtet hätte .
+1	Jeden	jed	PRON	PIAT	_	2	E	2:E	_
+2	Augenblick	Augenblick	NOUN	NN	_	6	A	6:A	_
+3	konnte	können	AUX	VMFIN	_	6	D	6:D	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	Zusammenstoß	Zusammenstoß	NOUN	NN	_	6	A	6:A	_
+6	stattfinden	stattfinden	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	der	der	PRON	ART	_	10	R	10:R	_
+9	uns	wir	PRON	NN	_	10	A	10:A	_
+10	vernichtet	vernichten	VERB	VVPP	_	5	E	5:E	_
+11	hätte	haben	AUX	VAFIN	_	10	D	10:D	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

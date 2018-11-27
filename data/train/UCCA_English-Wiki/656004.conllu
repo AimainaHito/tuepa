@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 656004
+# text = Lennon continues to be mourned throughout the world and has been the subject of numerous memorials and tributes .
+1	Lennon	Lennon	PROPN	NNP	_	5	A	5:A|11:A	_
+2	continues	continue	VERB	VBZ	_	5	D	5:D	_
+3	to	to	PART	TO	_	5	F	5:F	_
+4	be	be	AUX	VB	_	5	F	5:F	_
+5	mourned	mourn	VERB	VBN	_	0	H	0:H	_
+6	throughout	throughout	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	world	world	NOUN	NN	_	5	A	5:A	_
+9	and	and	CCONJ	CC	_	5	L	5:L	_
+10	has	have	AUX	VBZ	_	11	F	11:F	_
+11	been	be	AUX	VBN	_	5	H	5:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	subject	subject	NOUN	NN	_	16	E	16:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	numerous	numerous	ADJ	JJ	_	16	E	16:E	_
+16	memorials	memorial	NOUN	NNS	_	11	A	11:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	tributes	tribute	NOUN	NNS	_	16	C	16:C	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25777009
+# text = Um halb 12 langten wir an der Landungs stelle an .
+1	Um	um	ADP	KOUI	_	2	E	2:E	_
+2	halb	halb	ADV	APPR	_	4	D	4:D	_
+3	12	12	NUM	CARD	_	2	Terminal	2:Terminal	_
+4	langten	langt	ADJ	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	an	an	ADP	APPR	_	9	R	9:R	_
+7	der	der	DET	ART	_	9	E	9:E	_
+8	Landungs	Landungs	NOUN	NN	_	9	E	9:E	_
+9	stelle	stellen	VERB	VVFIN	_	4	A	4:A	_
+10	an	an	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+11	.	.	PUNCT	$.	_	4	U	4:U	_
+

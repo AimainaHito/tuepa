@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 426002
+# text = Ce livre , particulièrement goûté du monde savant , faisait de moi un spécialiste dans cette partie assez obscure de l'histoire naturelle .
+1	Ce	ce	DET	_	_	2	E	2:E	_
+2	livre	livre	NOUN	_	_	10	A	10:A	_
+3	,	,	PUNCT	_	_	2	U	2:U	_
+4	particulièrement	particulièrement	ADV	_	_	5	D	5:D	_
+5	goûté	goûter	VERB	_	_	2	E	2:E	_
+6	du	du	DET	_	_	7	R	7:R	_
+7	monde	monde	NOUN	_	_	5	A	5:A	_
+8	savant	savant	ADJ	_	_	7	E	7:E	_
+9	,	,	PUNCT	_	_	10	U	10:U	_
+10	faisait	faire	VERB	_	_	0	H	0:H	_
+11	de	de	ADP	_	_	12	R	12:R	_
+12	moi	soi	PRON	_	_	10	A	10:A	_
+13	un	un	DET	_	_	14	E	14:E	_
+14	spécialiste	spécialiste	NOUN	_	_	10	A	10:A	_
+15	dans	dans	ADP	_	_	21	R	21:R	_
+16	cette	ce	DET	_	_	17	E	17:E	_
+17	partie	partie	NOUN	_	_	21	E	21:E	_
+18	assez	assez	ADV	_	_	19	E	19:E	_
+19	obscure	obscur	ADJ	_	_	17	E	17:E	_
+20	de	de	ADP	_	_	17	R	17:R	_
+21	l'histoire	l'histoire	NOUN	_	_	14	E	14:E	_
+22	naturelle	naturel	ADJ	_	_	21	E	21:E	_
+23	.	.	PUNCT	_	_	21	U	21:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25732016
+# text = Fachte er diesen Brand an ?
+1	Fachte	Fachen	VERB	NN	_	0	H	0:H	_
+2	er	er	PRON	PPER	_	1	A	1:A	_
+3	diesen	dies	PRON	PDAT	_	4	E	4:E	_
+4	Brand	Brand	NOUN	NN	_	1	A	1:A	_
+5	an	an	ADP	APPR	_	1	Terminal	1:Terminal	_
+6	?	?	PUNCT	$.	_	1	U	1:U	_
+

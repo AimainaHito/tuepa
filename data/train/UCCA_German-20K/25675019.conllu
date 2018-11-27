@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25675019
+# text = » Gefährlich vielleicht ! « fügte ich mit schmeichelndem Ton bei .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Gefährlich	gefährlich	ADJ	ADJD	_	6	A	6:A	_
+3	vielleicht	vielleicht	ADV	NN	_	2	D	2:D	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	fügte	fügen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	mit	mit	ADP	APPR	_	10	R	10:R	_
+9	schmeichelndem	schmeichelnd	ADJ	ADJA	_	10	E	10:E	_
+10	Ton	Ton	NOUN	NN	_	6	A	6:A	_
+11	bei	bei	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+12	.	.	PUNCT	$.	_	6	U	6:U	_
+

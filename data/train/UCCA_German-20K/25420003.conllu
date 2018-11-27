@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25420003
+# text = Es wurde mein Gutachten begehrt .
+1	Es	es	PRON	PPER	_	5	F	5:F	_
+2	wurde	werden	AUX	TRUNC	_	5	F	5:F	_
+3	mein	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Gutachten	Gutachten	NOUN	NN	_	5	A	5:A	_
+5	begehrt	begehren	VERB	VVFIN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25786004
+# text = » Ich bin geblendet , blind ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Ich	ich	PRON	PPER	_	4	A	4:A	_
+3	bin	sein	AUX	VAFIN	_	4	F	4:F	_
+4	geblendet	blenden	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	blind	blind	ADJ	ADJD	_	4	C	4:C	_
+7	!	!	PUNCT	$.	_	4	U	4:U	_
+8	«	«	PUNCT	$(	_	4	U	4:U	_
+

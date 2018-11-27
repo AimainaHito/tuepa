@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25513004
+# text = Anfangs war ich betroffen über den eigentümlichen Geruch , der dieses Gemach erfüllte .
+1	Anfangs	anfangs	ADV	ADV	_	4	D	4:D	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	betroffen	betreffen	VERB	ADJD	_	0	H	0:H	_
+5	über	über	ADP	VVFIN	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	eigentümlichen	eigentümlich	ADJ	ADJA	_	8	E	8:E	_
+8	Geruch	Geruch	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	der	der	PRON	PRELS	_	13	R	13:R	_
+11	dieses	dies	PRON	PDAT	_	12	E	12:E	_
+12	Gemach	Gemach	NOUN	NE	_	13	A	13:A	_
+13	erfüllte	erfüllen	VERB	VMFIN	_	8	E	8:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

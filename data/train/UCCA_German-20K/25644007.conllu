@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25644007
+# text = Ich glaubte anfangs , die Leuchte sei wieder angezündet und werfe ihren elektrischen Glanz in die Masse des Wassers .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	glaubte	glauben	VERB	VVFIN	_	0	H	0:H	_
+3	anfangs	anfangs	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Leuchte	Leucht	NOUN	NN	_	0	C	0:C|11:A	_
+7	sei	sein	AUX	NE	_	9	F	9:F	_
+8	wieder	wieder	ADV	NE	_	9	D	9:D	_
+9	angezündet	angezünden	VERB	VVFIN	_	2	A	2:A	_
+10	und	und	CCONJ	NE	_	9	L	9:L	_
+11	werfe	werfen	AUX	VMFIN	_	9	H	9:H	_
+12	ihren	ihr	DET	PPOSAT	_	14	E	14:E	_
+13	elektrischen	elektrisch	ADJ	ADJA	_	14	E	14:E	_
+14	Glanz	Glanz	NOUN	NN	_	11	A	11:A	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Masse	Masse	NOUN	NN	_	11	A	11:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Wassers	Wasser	NOUN	NN	_	17	E	17:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

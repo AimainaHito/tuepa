@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 140005
+# text = Hepburn 's next appearance was in The Madwoman of Chaillot ( 1969 ) , which she filmed in Nice immediately after completing The Lion in Winter .
+1	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	next	next	ADJ	JJ	_	4	D	4:D	_
+4	appearance	appearance	NOUN	NN	_	5	A	5:A	_
+5	was	be	AUX	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	The	the	DET	DT	_	5	A	5:A	_
+8	Madwoman	Madwoman	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	of	of	ADP	IN	_	7	Terminal	7:Terminal	_
+10	Chaillot	Chaillot	PROPN	NNP	_	7	Terminal	7:Terminal	_
+11	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+12	1969	1969	NUM	CD	_	7	E	7:E	_
+13	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	which	which	PRON	WDT	_	5	L	5:L	_
+16	she	she	PRON	PRP	_	17	A	17:A|22:A	_
+17	filmed	film	VERB	VBD	_	5	H	5:H	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	Nice	Nice	PROPN	NNP	_	17	A	17:A	_
+20	immediately	immediately	ADV	RB	_	17	D	17:D	_
+21	after	after	SCONJ	IN	_	5	L	5:L	_
+22	completing	complete	VERB	VBG	_	5	H	5:H	_
+23	The	the	DET	DT	_	22	A	22:A	_
+24	Lion	Lion	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	in	in	ADP	IN	_	23	Terminal	23:Terminal	_
+26	Winter	Winter	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	.	.	PUNCT	.	_	22	U	22:U	_
+

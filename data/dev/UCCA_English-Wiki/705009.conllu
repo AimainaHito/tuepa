@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 705009
+# text = " I said , " No it 's not me .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	I	I	PRON	PRP	_	3	A	3:A	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	No	no	INTJ	UH	_	3	A	3:A	_
+7	it	it	PRON	PRP	_	8	A	8:A	_
+8	's	be	AUX	VBZ	_	6	H	6:H	_
+9	not	not	PART	RB	_	8	D	8:D	_
+10	me	I	PRON	PRP	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	8	U	8:U	_
+

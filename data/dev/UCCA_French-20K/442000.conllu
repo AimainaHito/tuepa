@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 442000
+# text = Mais si les uns ne virent là qu' un problème purement scientifique à résoudre , les autres , plus positifs , surtout en Amérique et en Angleterre , furent d' avis de purger l' Océan de ce redoutable monstre , afin de rassurer les communications transocéaniennes .
+1	Mais	mais	CCONJ	_	_	6	L	6:L	_
+2	si	si	SCONJ	_	_	6	L	6:L	_
+3	les	le	DET	_	_	4	E	4:E	_
+4	uns	un	PRON	_	_	6	A	6:A	_
+5	ne	ne	ADV	_	_	6	D	6:D	_
+6	virent	voir	VERB	_	_	0	H	0:H	_
+7	là	là	ADV	_	_	6	A	6:A	_
+8	qu'	que	SCONJ	_	_	5	Terminal	5:Terminal	_
+9	un	un	DET	_	_	10	E	10:E	_
+10	problème	problème	NOUN	_	_	6	A	6:A	_
+11	purement	purement	ADV	_	_	12	E	12:E	_
+12	scientifique	scientifique	ADJ	_	_	10	E	10:E	_
+13	à	à	ADP	_	_	14	F	14:F	_
+14	résoudre	résoudre	VERB	_	_	10	E	10:E	_
+15	,	,	PUNCT	_	_	6	U	6:U	_
+16	les	le	DET	_	_	17	E	17:E	_
+17	autres	autre	PRON	_	_	29	A	29:A	_
+18	,	,	PUNCT	_	_	17	U	17:U	_
+19	plus	plus	ADV	_	_	20	D	20:D	_
+20	positifs	positif	ADJ	_	_	17	E	17:E	_
+21	,	,	PUNCT	_	_	17	U	17:U	_
+22	surtout	surtout	ADV	_	_	24	E	24:E	_
+23	en	en	ADP	_	_	24	R	24:R	_
+24	Amérique	Amérique	PROPN	_	_	17	E	17:E	_
+25	et	et	CCONJ	_	_	24	N	24:N	_
+26	en	en	ADP	_	_	27	R	27:R	_
+27	Angleterre	Angleterre	PROPN	_	_	24	C	24:C	_
+28	,	,	PUNCT	_	_	29	U	29:U	_
+29	furent	être	AUX	_	_	6	H	6:H	_
+30	d'	de	ADP	_	_	29	Terminal	29:Terminal	_
+31	avis	avis	NOUN	_	_	29	Terminal	29:Terminal	_
+32	de	de	ADP	_	_	33	R	33:R	_
+33	purger	purger	VERB	_	_	29	A	29:A	_
+34	l'	le	DET	_	_	35	E	35:E	_
+35	Océan	Océan	PROPN	_	_	33	A	33:A	_
+36	de	de	ADP	_	_	39	R	39:R	_
+37	ce	ce	DET	_	_	39	E	39:E	_
+38	redoutable	redoutable	ADJ	_	_	39	E	39:E	_
+39	monstre	monstre	NOUN	_	_	33	A	33:A	_
+40	,	,	PUNCT	_	_	6	U	6:U	_
+41	afin	afin	ADV	_	_	6	L	6:L	_
+42	de	de	ADP	_	_	41	Terminal	41:Terminal	_
+43	rassurer	rassurer	VERB	_	_	6	H	6:H	_
+44	les	le	DET	_	_	45	E	45:E	_
+45	communications	communication	NOUN	_	_	43	A	43:A	_
+46	transocéaniennes	transocéanien	ADJ	_	_	45	E	45:E	_
+47	.	.	PUNCT	_	_	45	U	45:U	_
+

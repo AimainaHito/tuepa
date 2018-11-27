@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 589005
+# text = He portrayed the Mad Hatter in Burton 's Alice in Wonderland , and the titular character in Rango .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	portrayed	portray	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	Mad	mad	PROPN	NNP	_	2	A	2:A	_
+5	Hatter	Hatter	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	Burton	Burton	PROPN	NNP	_	9	E	9:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	Alice	Alice	PROPN	NNP	_	4	E	4:E	_
+10	in	in	ADP	IN	_	9	Terminal	9:Terminal	_
+11	Wonderland	Wonderland	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	and	and	CCONJ	CC	_	4	N	4:N	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	titular	titular	ADJ	JJ	_	16	E	16:E	_
+16	character	character	NOUN	NN	_	4	C	4:C	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	Rango	Rango	PROPN	NNP	_	16	E	16:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

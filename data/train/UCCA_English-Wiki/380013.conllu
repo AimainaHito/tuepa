@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 380013
+# text = In 2007 , Gyllenhaal starred in David Fincher 's Zodiac , which was based on a true story .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2007	2007	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	David	David	PROPN	NNP	_	10	E	10:E	_
+8	Fincher	Fincher	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	Zodiac	Zodiac	PROPN	NNP	_	5	A	5:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	which	which	PRON	WDT	_	14	F	14:F	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	based	base	VERB	VBN	_	10	E	10:E	_
+15	on	on	ADP	IN	_	18	R	18:R	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	true	True	ADJ	JJ	_	18	E	18:E	_
+18	story	story	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

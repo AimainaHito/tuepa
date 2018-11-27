@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25490121
+# text = Bevor ich mich nur regen konnte , um ihn zurückzuhalten , war der Kanadier über den Unglücklichen hergefallen , hatte ihn zu Boden geworfen und faßte ihn bei der Kehle .
+1	Bevor	bevor	SCONJ	KOUS	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A|10:A	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	nur	nur	ADV	NE	_	3	D	3:D	_
+5	regen	regen	VERB	VVINF	_	3	Terminal	3:Terminal	_
+6	konnte	können	AUX	VMFIN	_	3	D	3:D	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	um	um	ADP	KOUI	_	3	L	3:L	_
+9	ihn	er	PRON	PPER	_	10	A	10:A	_
+10	zurückzuhalten	zurückzuhalten	VERB	VVINF	_	3	H	3:H	_
+11	,	,	PUNCT	$,	_	3	U	3:U	_
+12	war	sein	AUX	ADV	_	18	F	18:F	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Kanadier	Kanadier	NOUN	NN	_	0	C	0:C|24:A|26:A	_
+15	über	über	ADP	VVFIN	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Unglücklichen	Unglücklichen	NOUN	ADJA	_	18	A	18:A	_
+18	hergefallen	hergefallen	VERB	NN	_	3	H	3:H	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	hatte	haben	AUX	VAFIN	_	24	F	24:F	_
+21	ihn	er	PRON	PPER	_	24	A	24:A	_
+22	zu	zu	ADP	ADJA	_	23	R	23:R	_
+23	Boden	Boden	NOUN	NN	_	24	A	24:A	_
+24	geworfen	werfen	VERB	VVPP	_	3	H	3:H	_
+25	und	und	CCONJ	NE	_	3	L	3:L	_
+26	faßte	faßen	VERB	VVFIN	_	3	H	3:H	_
+27	ihn	er	PRON	PPER	_	26	A	26:A	_
+28	bei	bei	ADP	APPR	_	30	R	30:R	_
+29	der	der	DET	ART	_	30	E	30:E	_
+30	Kehle	Kehle	NOUN	NN	_	26	A	26:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

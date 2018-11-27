@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25699010
+# text = » Und wer sagt denn , Herr Professor , dass die ›Nautilus‹ um das Kap der Guten Hoffnung herumfahren will ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	wer	wer	PRON	PWS	_	4	A	4:A	_
+4	sagt	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	denn	denn	SCONJ	ADV	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Professor	Professor	PROPN	NN	_	4	G	4:G	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	19	A	19:A	_
+13	um	um	ADP	APPR	_	17	R	17:R	_
+14	das	der	DET	ART	_	17	E	17:E	_
+15	Kap	Kap	NOUN	NN	_	17	E	17:E	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Guten	gut	ADJ	ADJA	_	19	A	19:A	_
+18	Hoffnung	Hoffnung	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	herumfahren	herumfahren	VERB	VVINF	_	4	A	4:A	_
+20	will	wollen	AUX	NN	_	19	D	19:D	_
+21	?	?	PUNCT	$.	_	19	U	19:U	_
+22	«	«	PUNCT	$(	_	19	U	19:U	_
+

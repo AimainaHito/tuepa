@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 661014
+# text = Days prior to the show 's taping , Carey and Afanasieff thought of adding a cover version of an older song , in order to provide something different and unexpected .
+1	Days	day	NOUN	NNS	_	7	L	7:L	_
+2	prior	prior	ADJ	JJ	_	1	R	1:R	_
+3	to	to	ADP	IN	_	2	R	2:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	show	show	NOUN	NN	_	7	A	7:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	taping	taping	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Carey	Carey	PROPN	NNP	_	0	C	0:C|26:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	Afanasieff	Afanasieff	PROPN	NNP	_	9	C	9:C|26:A	_
+12	thought	think	VERB	VBD	_	14	D	14:D	_
+13	of	of	SCONJ	IN	_	14	R	14:R	_
+14	adding	add	VERB	VBG	_	7	H	7:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	cover	cover	NOUN	NN	_	17	E	17:E	_
+17	version	version	NOUN	NN	_	14	A	14:A	_
+18	of	of	ADP	IN	_	21	R	21:R	_
+19	an	a	DET	DT	_	21	E	21:E	_
+20	older	older	ADJ	JJR	_	21	E	21:E	_
+21	song	song	NOUN	NN	_	17	E	17:E	_
+22	,	,	PUNCT	,	_	7	U	7:U	_
+23	in	in	ADP	IN	_	7	L	7:L	_
+24	order	order	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	to	to	PART	TO	_	23	Terminal	23:Terminal	_
+26	provide	provide	VERB	VB	_	7	H	7:H	_
+27	something	something	PRON	NN	_	26	A	26:A	_
+28	different	different	ADJ	JJ	_	27	E	27:E	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	unexpected	unexpected	ADJ	JJ	_	28	C	28:C	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

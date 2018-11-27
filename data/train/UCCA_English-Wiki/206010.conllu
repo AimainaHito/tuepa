@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 206010
+# text = In 1967 , immediately after wrapping up principal filming on The Tiger Makes Out , Hoffman flew from New York City to Fargo , North Dakota , where he directed a production of William Saroyan 's The Time of Your Life for the Emma Herbst Community Theatre .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1967	1967	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	immediately	immediately	ADV	RB	_	5	E	5:E	_
+5	after	after	SCONJ	IN	_	6	L	6:L	_
+6	wrapping	wrap	VERB	VBG	_	0	H	0:H	_
+7	up	up	ADP	RP	_	6	Terminal	6:Terminal	_
+8	principal	principal	NOUN	NN	_	9	E	9:E	_
+9	filming	film	VERB	VBG	_	6	A	6:A	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	The	the	DET	DT	_	9	A	9:A	_
+12	Tiger	Tiger	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Makes	Makes	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	Out	Out	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	Hoffman	Hoffman	PROPN	NNP	_	17	A	17:A|9:A	_
+17	flew	fly	VERB	VBD	_	6	H	6:H	_
+18	from	from	ADP	IN	_	21	R	21:R	_
+19	New	New	PROPN	NNP	_	21	E	21:E	_
+20	York	York	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	City	City	PROPN	NNP	_	17	A	17:A	_
+22	to	to	ADP	IN	_	23	R	23:R	_
+23	Fargo	Fargo	PROPN	NNP	_	17	A	17:A	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	North	North	PROPN	NNP	_	23	E	23:E	_
+26	Dakota	Dakota	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	23	U	23:U	_
+28	where	where	ADV	WRB	_	30	F	30:F	_
+29	he	he	PRON	PRP	_	30	A	30:A	_
+30	directed	direct	VERB	VBD	_	23	E	23:E	_
+31	a	a	DET	DT	_	32	E	32:E	_
+32	production	production	NOUN	NN	_	30	A	30:A	_
+33	of	of	ADP	IN	_	37	R	37:R	_
+34	William	William	PROPN	NNP	_	37	E	37:E	_
+35	Saroyan	Saroyan	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	's	's	PART	POS	_	34	R	34:R	_
+37	The	the	DET	DT	_	32	A	32:A	_
+38	Time	time	NOUN	NN	_	37	Terminal	37:Terminal	_
+39	of	of	ADP	IN	_	37	Terminal	37:Terminal	_
+40	Your	you	PRON	PRP$	_	37	Terminal	37:Terminal	_
+41	Life	life	NOUN	NN	_	37	Terminal	37:Terminal	_
+42	for	for	ADP	IN	_	47	R	47:R	_
+43	the	the	DET	DT	_	47	E	47:E	_
+44	Emma	Emma	PROPN	NNP	_	47	E	47:E	_
+45	Herbst	Herbst	PROPN	NNP	_	44	Terminal	44:Terminal	_
+46	Community	community	PROPN	NNP	_	47	E	47:E	_
+47	Theatre	theatre	PROPN	NNP	_	30	A	30:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

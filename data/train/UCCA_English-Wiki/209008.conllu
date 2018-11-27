@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 209008
+# text = Hoffman played the lead role in Outbreak ( 1995 ) , alongside Rene Russo , Kevin Spacey , Morgan Freeman , Cuba Gooding Jr . and Donald Sutherland .
+1	Hoffman	Hoffman	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	lead	lead	ADJ	JJ	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	2	A	2:A	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	Outbreak	Outbreak	PROPN	NNP	_	5	E	5:E	_
+8	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+9	1995	1995	NUM	CD	_	7	E	7:E	_
+10	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	alongside	alongside	ADP	IN	_	13	R	13:R	_
+13	Rene	Rene	PROPN	NNP	_	2	A	2:A	_
+14	Russo	Russo	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	Kevin	Kevin	PROPN	NNP	_	13	C	13:C	_
+17	Spacey	Spacey	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	Morgan	Morgan	PROPN	NNP	_	13	C	13:C	_
+20	Freeman	Freeman	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	13	U	13:U	_
+22	Cuba	Cuba	PROPN	NNP	_	13	C	13:C	_
+23	Gooding	Goode	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Jr	Jr	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	.	.	PUNCT	.	_	13	U	13:U	_
+26	and	and	CCONJ	CC	_	13	N	13:N	_
+27	Donald	Donald	PROPN	NNP	_	13	C	13:C	_
+28	Sutherland	Sutherland	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	13	U	13:U	_
+

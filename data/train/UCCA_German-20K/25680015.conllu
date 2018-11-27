@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25680015
+# text = Kapitän Nemo wartete schon auf mich .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	wartete	warten	VERB	VVFIN	_	0	H	0:H	_
+4	schon	schon	ADV	ADV	_	3	D	3:D	_
+5	auf	auf	ADP	APPR	_	6	R	6:R	_
+6	mich	ich	PRON	PPER	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

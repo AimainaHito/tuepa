@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25436014
+# text = Klassifizieren war sein Lebens element , mehr aber verstand er auch nicht .
+1	Klassifizieren	Klassifizieren	PROPN	NE	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	sein	sein	DET	PPOSAT	_	5	E	5:E	_
+4	Lebens	Leben	NOUN	NN	_	5	E	5:E	_
+5	element	elemenen	VERB	NE	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	mehr	mehr	PRON	PIAT	_	9	A	9:A	_
+8	aber	aber	ADV	ADV	_	2	L	2:L	_
+9	verstand	verstehen	VERB	VVFIN	_	2	H	2:H	_
+10	er	er	PRON	PPER	_	9	A	9:A	_
+11	auch	auch	ADV	ADV	_	12	E	12:E	_
+12	nicht	nicht	PART	CARD	_	9	D	9:D	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

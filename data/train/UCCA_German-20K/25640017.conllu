@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25640017
+# text = Man kann mit Wahrheit sagen , dass er zwischen sich und seine Angreifer ein elektrisches Garn gespannt hatte , über das niemand ungestraft hinaus kam .
+1	Man	man	PRON	PIS	_	5	A	5:A	_
+2	kann	können	AUX	VMFIN	_	5	D	5:D	_
+3	mit	mit	ADP	APPR	_	4	R	4:R	_
+4	Wahrheit	Wahrheit	NOUN	NN	_	5	A	5:A	_
+5	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	17	R	17:R	_
+8	er	er	PRON	PPER	_	17	A	17:A	_
+9	zwischen	zwischen	ADP	ADJA	_	10	N	10:N	_
+10	sich	er|es|sie	PRON	PRF	_	17	A	17:A	_
+11	und	und	CCONJ	NE	_	9	Terminal	9:Terminal	_
+12	seine	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Angreifer	Angreifer	NOUN	NN	_	10	C	10:C	_
+14	ein	ein	DET	ART	_	16	E	16:E	_
+15	elektrisches	elektrisch	ADJ	ADJA	_	16	E	16:E	_
+16	Garn	gar	NOUN	NN	_	17	A	17:A	_
+17	gespannt	spannen	VERB	VVPP	_	5	A	5:A	_
+18	hatte	haben	AUX	VAFIN	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	17	U	17:U	_
+20	über	über	ADP	VVFIN	_	21	R	21:R	_
+21	das	der	PRON	PDS	_	24	R	24:R	_
+22	niemand	niemand	PRON	PIS	_	24	A	24:A	_
+23	ungestraft	ungestraft	ADJ	VVFIN	_	24	D	24:D	_
+24	hinaus	hinaus	ADV	ADV	_	16	E	16:E	_
+25	kam	kommen	VERB	VVFIN	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25705003
+# text = Ich hörte das Knirschen seiner Zähne am Eisenblech , der Dugong verschwand und zog die Harpune mit sich .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Knirschen	Knirschen	NOUN	NE	_	2	A	2:A	_
+5	seiner	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Zähne	Zahn	NOUN	NN	_	4	A	4:A	_
+7	am	am	ADJ	ADJD	_	8	R	8:R	_
+8	Eisenblech	Eisenblech	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Dugong	Dugong	NOUN	NN	_	0	C	0:C|14:A	_
+12	verschwand	verschwinden	VERB	VVFIN	_	2	H	2:H	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	zog	ziehen	VERB	VVFIN	_	2	H	2:H	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Harpune	Harpune	NOUN	NN	_	14	A	14:A	_
+17	mit	mit	ADP	APPR	_	18	R	18:R	_
+18	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

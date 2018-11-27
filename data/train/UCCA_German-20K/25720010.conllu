@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25720010
+# text = Der Atlantik !
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Atlantik	Atlantik	NOUN	NN	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+

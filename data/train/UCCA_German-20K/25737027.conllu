@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25737027
+# text = Übrigens zeigten die Fische des Atlantiks keinen erheblichen Unterschied von den bisher beobachteten .
+1	Übrigens	übrigens	ADV	ADV	_	2	G	2:G	_
+2	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Fische	Fisch	NOUN	NN	_	2	A	2:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Atlantiks	Atlantiks	NOUN	NE	_	4	E	4:E	_
+7	keinen	kein	PRON	PIAT	_	2	D	2:D	_
+8	erheblichen	erheblich	ADJ	ADJA	_	9	D	9:D	_
+9	Unterschied	Unterschied	NOUN	NN	_	2	A	2:A	_
+10	von	von	ADP	NN	_	11	R	11:R	_
+11	den	der	DET	ART	_	13	A	13:A	_
+12	bisher	bisher	ADV	ADV	_	13	D	13:D	_
+13	beobachteten	beobachtet	ADJ	VVINF	_	2	A	2:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

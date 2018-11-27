@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 216002
+# text = The movie received generally favorable reviews , and San Francisco Chronicle critic Peter Stack noted in his review that Dunst " beautifully balances innocence and wantonness . "
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	generally	generally	ADV	RB	_	6	E	6:E	_
+5	favorable	favorable	ADJ	JJ	_	6	E	6:E	_
+6	reviews	review	NOUN	NNS	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	San	San	PROPN	NNP	_	12	E	12:E	_
+10	Francisco	Francisco	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Chronicle	Chronicle	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	critic	critic	ADJ	JJ	_	13	E	13:E	_
+13	Peter	Peter	PROPN	NNP	_	15	A	15:A	_
+14	Stack	Stack	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	noted	note	VERB	VBD	_	3	H	3:H	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	review	review	NOUN	NN	_	15	A	15:A	_
+19	that	that	ADV	WRB	_	23	F	23:F	_
+20	Dunst	Dunst	PROPN	NNP	_	23	A	23:A	_
+21	"	"	PUNCT	''	_	23	U	23:U	_
+22	beautifully	beautifully	ADV	RB	_	23	D	23:D	_
+23	balances	balance	NOUN	NNS	_	15	A	15:A	_
+24	innocence	innocence	NOUN	NN	_	23	A	23:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	wantonness	wantonness	NOUN	NN	_	24	C	24:C	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+28	"	"	PUNCT	''	_	24	U	24:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25641010
+# text = Timor war nur einen Augenblick sichtbar , während der Leutnant seine Lage aufnahm .
+1	Timor	Timor	PROPN	NE	_	6	A	6:A	_
+2	war	sein	AUX	NE	_	6	F	6:F	_
+3	nur	nur	ADV	NE	_	6	D	6:D	_
+4	einen	ein	DET	ART	_	5	E	5:E	_
+5	Augenblick	Augenblick	NOUN	NN	_	6	D	6:D	_
+6	sichtbar	sichtbar	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	während	während	SCONJ	VVINF	_	6	L	6:L	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Leutnant	Leutnant	NOUN	NN	_	13	A	13:A	_
+11	seine	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Lage	Lage	NOUN	NN	_	13	A	13:A	_
+13	aufnahm	aufnehmen	VERB	VVFIN	_	6	H	6:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

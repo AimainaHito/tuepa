@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25725001
+# text = Konnte ich endlich das Geheimnis seines Lebens lösen ?
+1	Konnte	können	AUX	VMFIN	_	8	D	8:D	_
+2	ich	ich	PRON	PPER	_	8	A	8:A	_
+3	endlich	endlich	ADV	ADV	_	8	D	8:D	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Geheimnis	Geheimni	NOUN	NN	_	8	A	8:A	_
+6	seines	sein	DET	PPOSAT	_	7	R	7:R	_
+7	Lebens	Leben	NOUN	NN	_	5	E	5:E	_
+8	lösen	lösen	VERB	VVINF	_	0	H	0:H	_
+9	?	?	PUNCT	$.	_	8	U	8:U	_
+

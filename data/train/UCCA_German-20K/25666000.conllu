@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25666000
+# text = Doch weiß ich wohl , dass die ›Nautilus‹ sich den bewohnten Ländern nähert und dass , wenn sich eine Aussicht zur Rettung bietet , es grausam wäre , meine Gefährten meiner Leidenschaft für das Unbekannte zu opfern .
+1	Doch	doch	ADV	KON	_	2	L	2:L	_
+2	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	wohl	wohl	ADV	ADV	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	9	L	9:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	9	A	9:A	_
+9	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+10	den	der	DET	ART	_	12	E	12:E	_
+11	bewohnten	bewohnt	ADJ	ADJA	_	12	E	12:E	_
+12	Ländern	Land	NOUN	NN	_	9	A	9:A	_
+13	nähert	nähern	VERB	VVFIN	_	9	Terminal	9:Terminal	_
+14	und	und	CCONJ	NE	_	9	L	9:L	_
+15	dass	dass	SCONJ	KOUS	_	9	L	9:L	_
+16	,	,	PUNCT	$,	_	9	U	9:U	_
+17	wenn	wenn	SCONJ	VVFIN	_	9	L	9:L	_
+18	sich	er|es|sie	PRON	PRF	_	9	H	9:H	_
+19	eine	ein	DET	ART	_	20	E	20:E	_
+20	Aussicht	Aussicht	NOUN	NN	_	22	A	22:A	_
+21	zur	zur	ADP	NE	_	22	R	22:R	_
+22	Rettung	Rettung	NOUN	NN	_	18	A	18:A	_
+23	bietet	bieten	VERB	VVFIN	_	18	Terminal	18:Terminal	_
+24	,	,	PUNCT	$,	_	9	U	9:U	_
+25	es	es	PRON	PPER	_	26	F	26:F	_
+26	grausam	grausam	ADJ	ADJD	_	9	H	9:H	_
+27	wäre	sein	AUX	ADV	_	26	D	26:D	_
+28	,	,	PUNCT	$,	_	26	U	26:U	_
+29	meine	mein	DET	VVFIN	_	30	E	30:E	_
+30	Gefährten	Gefährt|Gefährte	NOUN	NE	_	37	A	37:A	_
+31	meiner	mein	DET	PPOSAT	_	32	E	32:E	_
+32	Leidenschaft	Leidenschaft	NOUN	NN	_	37	A	37:A	_
+33	für	für	ADP	APPR	_	35	R	35:R	_
+34	das	der	DET	ART	_	35	E	35:E	_
+35	Unbekannte	unbekannt	ADJ	NN	_	32	A	32:A	_
+36	zu	zu	PART	VVINF	_	37	F	37:F	_
+37	opfern	opfern	VERB	VVINF	_	26	A	26:A	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

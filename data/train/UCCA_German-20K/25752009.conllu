@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25752009
+# text = Die ›Nautilus‹ glitt über ihren geneigten Flächen immer tiefer hinab .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	glitt	gleiden	VERB	VVFIN	_	0	H	0:H	_
+4	über	über	ADP	ADJD	_	7	R	7:R	_
+5	ihren	ihr	DET	PPOSAT	_	7	E	7:E	_
+6	geneigten	geneigt	ADJ	ADJA	_	3	A	3:A	_
+7	Flächen	Fläche	NOUN	NN	_	6	A	6:A	_
+8	immer	immer	ADV	ADV	_	3	D	3:D	_
+9	tiefer	tief	ADJ	ADJD	_	8	Terminal	8:Terminal	_
+10	hinab	hinab	ADV	PTKVZ	_	3	Terminal	3:Terminal	_
+11	.	.	PUNCT	$.	_	3	U	3:U	_
+

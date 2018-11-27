@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25682006
+# text = Bevor ich meinen Kopf in die kupferne Kapsel steckte , bemerkte ich es dem Kapitän .
+1	Bevor	bevor	SCONJ	KOUS	_	9	L	9:L	_
+2	ich	ich	PRON	PPER	_	9	A	9:A	_
+3	meinen	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Kopf	Kopf	NOUN	NN	_	9	A	9:A	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	kupferne	kupfern	ADJ	ADJA	_	8	E	8:E	_
+8	Kapsel	Kapsel	NOUN	NN	_	9	A	9:A	_
+9	steckte	stecken	VERB	VVFIN	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	bemerkte	bemerken	VERB	VVFIN	_	9	H	9:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	es	es	PRON	PPER	_	11	A	11:A	_
+14	dem	der	DET	ART	_	15	R	15:R	_
+15	Kapitän	Kapitän	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

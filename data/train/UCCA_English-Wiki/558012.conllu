@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 558012
+# text = At the end of the month , they appeared at the Overton Park Shell , with Slim Whitman headlining .
+1	At	at	ADP	IN	_	6	R	6:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	end	end	NOUN	NN	_	6	E	6:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	month	month	NOUN	NN	_	9	D	9:D	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	they	they	PRON	PRP	_	9	A	9:A	_
+9	appeared	appear	VERB	VBD	_	0	H	0:H	_
+10	at	at	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	Overton	Overton	PROPN	NNP	_	9	A	9:A	_
+13	Park	Park	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Shell	Shell	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	with	with	ADP	IN	_	19	R	19:R	_
+17	Slim	Slim	PROPN	NNP	_	19	A	19:A	_
+18	Whitman	Whitman	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	headlining	headlining	NOUN	NN	_	9	A	9:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

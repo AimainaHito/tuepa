@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 131012
+# text = The pair also contributed a quarter of the play 's production costs .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	pair	pair	NOUN	NN	_	4	A	4:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	contributed	contribute	VERB	VBD	_	0	H	0:H	_
+5	a	a	DET	DT	_	12	E	12:E	_
+6	quarter	quarter	NOUN	NN	_	12	E	12:E	_
+7	of	of	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	play	play	NOUN	NN	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	production	production	NOUN	NN	_	12	E	12:E	_
+12	costs	cost	NOUN	NNS	_	4	A	4:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

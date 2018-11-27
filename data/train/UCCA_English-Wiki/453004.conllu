@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 453004
+# text = In November 1975 , Jennings moved abroad once again , this time as ABC 's chief foreign correspondent .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	November	November	PROPN	NNP	_	6	D	6:D	_
+3	1975	1975	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Jennings	Jennings	PROPN	NNP	_	6	A	6:A|13:A	_
+6	moved	move	VERB	VBD	_	0	H	0:H	_
+7	abroad	abroad	ADV	RB	_	6	D	6:D	_
+8	once	once	ADV	RB	_	6	D	6:D	_
+9	again	again	ADV	RB	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	this	this	DET	DT	_	12	E	12:E	_
+12	time	time	NOUN	NN	_	13	D	13:D	_
+13	as	as	ADP	IN	_	6	H	6:H	_
+14	ABC	ABC	PROPN	NNP	_	18	E	18:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	chief	chief	ADJ	JJ	_	18	E	18:E	_
+17	foreign	foreign	ADJ	JJ	_	18	E	18:E	_
+18	correspondent	correspondent	NOUN	NN	_	13	A	13:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

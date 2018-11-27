@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25701001
+# text = » Nein , Ned « , erwiderte ich , » aber Ihr Gesicht reicht auch weiter als das meinige , wie Sie wissen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PROPN	PTKANT	_	7	A	7:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	aber	aber	ADV	ADV	_	2	L	2:L	_
+12	Ihr	Ihr|ihr	PRON	PPOSAT	_	13	E	13:E	_
+13	Gesicht	Gesicht	NOUN	NN	_	14	A	14:A	_
+14	reicht	reichen	VERB	VVFIN	_	2	H	2:H	_
+15	auch	auch	ADV	ADV	_	14	D	14:D	_
+16	weiter	weiter	ADV	ADV	_	14	D	14:D	_
+17	als	als	ADP	KOKOM	_	2	L	2:L	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	meinige	meinig	PRON	PIAT	_	2	H	2:H	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	wie	wie	SCONJ	KON	_	2	L	2:L	_
+22	Sie	sie	PRON	PPER	_	23	A	23:A	_
+23	wissen	wissen	VERB	VVINF	_	2	H	2:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

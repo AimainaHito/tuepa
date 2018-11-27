@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25710009
+# text = » Mein Herr « , fuhr Ned fort , » setzen wir , was unmöglich der Fall , Kapitän Nemo bietet Ihnen schon heute die Freiheit an . Würden Sie ' s annehmen ? «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	11	G	11:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+8	fort	fort	ADV	PTKVZ	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	setzen	setzen	VERB	VVINF	_	6	A	6:A	_
+12	wir	wir	PRON	NE	_	11	A	11:A	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	was	was	PRON	NE	_	11	L	11:L	_
+15	unmöglich	unmöglich	ADJ	ADJD	_	11	H	11:H	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Fall	Fall	NOUN	NN	_	15	A	15:A	_
+18	,	,	PUNCT	$,	_	11	U	11:U	_
+19	Kapitän	Kapitän	PROPN	NN	_	20	E	20:E	_
+20	Nemo	Nemo	PROPN	NE	_	21	A	21:A	_
+21	bietet	bieten	VERB	VVFIN	_	11	A	11:A	_
+22	Ihnen	Sie|sie	PRON	PPER	_	21	A	21:A	_
+23	schon	schon	ADV	ADV	_	21	D	21:D	_
+24	heute	heute	ADV	ADV	_	21	D	21:D	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Freiheit	Freiheit	NOUN	NN	_	21	A	21:A	_
+27	an	an	ADP	PTKVZ	_	21	Terminal	21:Terminal	_
+28	.	.	PUNCT	$.	_	11	U	11:U	_
+29	Würden	würden	PROPN	NN	_	33	D	33:D	_
+30	Sie	Sie|sie	PROPN	PPER	_	33	A	33:A	_
+31	'	'	PUNCT	$,	_	33	U	33:U	_
+32	s	s	ADV	NN	_	33	A	33:A	_
+33	annehmen	annehmen	VERB	VVFIN	_	11	H	11:H	_
+34	?	?	PUNCT	$.	_	33	U	33:U	_
+35	«	«	PUNCT	$(	_	33	U	33:U	_
+

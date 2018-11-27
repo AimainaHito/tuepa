@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 610002
+# text = The following year , McCartney went out on tour with a band that included guitarists Rusty Anderson and Brian Ray , accompanied by Paul " Wix " Wickens on keyboards and Abe Laboriel , Jr. on drums .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	R	3:R	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	McCartney	McCartney	PROPN	NNP	_	6	A	6:A	_
+6	went	go	VERB	VBD	_	0	H	0:H	_
+7	out	out	ADV	RB	_	6	E	6:E	_
+8	on	on	ADP	IN	_	9	R	9:R	_
+9	tour	tour	NOUN	NN	_	6	E	6:E	_
+10	with	with	ADP	IN	_	12	R	12:R	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	band	band	NOUN	NN	_	0	C	0:C|22:A|14:A	_
+13	that	that	PRON	WDT	_	14	F	14:F	_
+14	included	include	VERB	VBD	_	12	E	12:E	_
+15	guitarists	guitarist	NOUN	NNS	_	16	E	16:E	_
+16	Rusty	Rusty	PROPN	NNP	_	14	A	14:A	_
+17	Anderson	Anderson	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	and	and	CCONJ	CC	_	16	N	16:N	_
+19	Brian	Brian	PROPN	NNP	_	16	C	16:C	_
+20	Ray	Ray	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	6	U	6:U	_
+22	accompanied	accompany	VERB	VBN	_	6	H	6:H	_
+23	by	by	ADP	IN	_	24	R	24:R	_
+24	Paul	Paul	PROPN	NNP	_	22	A	22:A	_
+25	"	"	PUNCT	``	_	24	U	24:U	_
+26	Wix	Wix	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	"	"	PUNCT	''	_	24	U	24:U	_
+28	Wickens	Wicken	NOUN	NNS	_	24	Terminal	24:Terminal	_
+29	on	on	ADP	IN	_	30	R	30:R	_
+30	keyboards	keyboard	NOUN	NNS	_	24	A	24:A	_
+31	and	and	CCONJ	CC	_	24	N	24:N	_
+32	Abe	Abe	PROPN	NNP	_	24	C	24:C	_
+33	Laboriel	Laboriel	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	,	,	PUNCT	,	_	32	U	32:U	_
+35	Jr.	Jr.	PROPN	NNP	_	32	Terminal	32:Terminal	_
+36	on	on	ADP	IN	_	37	R	37:R	_
+37	drums	drum	NOUN	NNS	_	32	A	32:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

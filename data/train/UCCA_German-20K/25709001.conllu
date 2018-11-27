@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25709001
+# text = » Was ich Ihnen mitzuteilen habe , ist sehr einfach « , erwiderte der Kanadier . » Wir sind in Europa , und ehe die Launen von Kapitän Nemo uns bis zum Meeres grund des Nordens mit fortschleppen oder wieder nach dem Pazifik zurückbringen , verlange ich die ›Nautilus‹ zu verlassen . «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Was	was	PRON	NE	_	5	A	5:A	_
+3	ich	ich	PRON	PPER	_	5	A	5:A	_
+4	Ihnen	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	mitzuteilen	mitteilen	VERB	VVIZU	_	10	A	10:A	_
+6	habe	haben	AUX	VAFIN	_	5	D	5:D	_
+7	,	,	PUNCT	$,	_	10	U	10:U	_
+8	ist	sein	AUX	VVFIN	_	10	F	10:F	_
+9	sehr	sehr	ADV	NE	_	10	D	10:D	_
+10	einfach	einfach	ADJ	ADV	_	13	A	13:A	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Kanadier	Kanadier	NOUN	NN	_	13	A	13:A	_
+16	.	.	PUNCT	$.	_	13	U	13:U	_
+17	»	»	PUNCT	$(	_	13	U	13:U	_
+18	Wir	wir	NOUN	NE	_	19	A	19:A	_
+19	sind	sein	AUX	NN	_	10	H	10:H	_
+20	in	in	ADP	APPR	_	21	R	21:R	_
+21	Europa	Europa	PROPN	NE	_	19	A	19:A	_
+22	,	,	PUNCT	$,	_	10	U	10:U	_
+23	und	und	CCONJ	NE	_	10	L	10:L	_
+24	ehe	ehe	SCONJ	KOUS	_	10	L	10:L	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Launen	Laune	NOUN	NN	_	0	C	0:C|44:A	_
+27	von	von	ADP	NE	_	29	R	29:R	_
+28	Kapitän	Kapitän	PROPN	NN	_	29	E	29:E	_
+29	Nemo	Nemo	PROPN	NE	_	26	E	26:E	_
+30	uns	wir	PRON	NE	_	37	A	37:A	_
+31	bis	bis	ADP	APPR	_	34	R	34:R	_
+32	zum	zum	ADP	NN	_	34	E	34:E	_
+33	Meeres	Meer	NOUN	NN	_	34	E	34:E	_
+34	grund	grund	ADP	APPR	_	37	A	37:A	_
+35	des	der	DET	ART	_	36	R	36:R	_
+36	Nordens	Norden	NOUN	NN	_	34	E	34:E	_
+37	mit	mit	ADP	APPR	_	10	H	10:H	_
+38	fortschleppen	fortschleppen	VERB	NN	_	37	Terminal	37:Terminal	_
+39	oder	oder	CCONJ	CARD	_	10	L	10:L	_
+40	wieder	wieder	ADV	NN	_	44	D	44:D	_
+41	nach	nach	ADP	CARD	_	43	R	43:R	_
+42	dem	der	DET	ART	_	43	E	43:E	_
+43	Pazifik	Pazifik	NOUN	NN	_	44	A	44:A	_
+44	zurückbringen	zurückbringen	VERB	NE	_	10	H	10:H	_
+45	,	,	PUNCT	$,	_	10	U	10:U	_
+46	verlange	verlange	SCONJ	ADJA	_	10	H	10:H	_
+47	ich	ich	PRON	PPER	_	46	A	46:A	_
+48	die	der	DET	ART	_	49	E	49:E	_
+49	›Nautilus‹	›Nautilus‹	NOUN	NE	_	51	A	51:A	_
+50	zu	zu	PART	ADJA	_	51	F	51:F	_
+51	verlassen	verlassen	VERB	NN	_	46	A	46:A	_
+52	.	.	PUNCT	$.	_	51	U	51:U	_
+53	«	«	PUNCT	$(	_	51	U	51:U	_
+

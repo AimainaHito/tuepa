@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 636000
+# text = In August , after having been introduced to the Maharishi Mahesh Yogi , the group attended a weekend of personal instruction at his Transcendental Meditation seminar in Bangor , Wales , and were informed of Epstein 's death during the seminar .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	August	August	PROPN	NNP	_	16	D	16:D	_
+3	,	,	PUNCT	,	_	16	U	16:U	_
+4	after	after	SCONJ	IN	_	16	L	16:L	_
+5	having	have	AUX	VBG	_	7	F	7:F	_
+6	been	be	AUX	VBN	_	7	F	7:F	_
+7	introduced	introduce	VERB	VBN	_	16	H	16:H	_
+8	to	to	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Maharishi	Maharishi	PROPN	NNP	_	7	A	7:A	_
+11	Mahesh	Mahesh	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Yogi	Yogi	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	16	U	16:U	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	group	group	NOUN	NN	_	0	C	0:C|34:A|7:A	_
+16	attended	attend	VERB	VBD	_	0	H	0:H	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	weekend	weekend	NOUN	NN	_	21	D	21:D	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	personal	personal	ADJ	JJ	_	21	E	21:E	_
+21	instruction	instruction	NOUN	NN	_	16	A	16:A	_
+22	at	at	ADP	IN	_	26	R	26:R	_
+23	his	he	PRON	PRP$	_	26	E	26:E	_
+24	Transcendental	Transcendental	PROPN	NNP	_	26	E	26:E	_
+25	Meditation	Meditation	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	seminar	seminar	NOUN	NN	_	21	A	21:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	Bangor	Bangor	PROPN	NNP	_	21	A	21:A	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	Wales	Wales	PROPN	NNP	_	28	E	28:E	_
+31	,	,	PUNCT	,	_	16	U	16:U	_
+32	and	and	CCONJ	CC	_	16	L	16:L	_
+33	were	be	AUX	VBD	_	34	F	34:F	_
+34	informed	inform	VERB	VBN	_	16	H	16:H	_
+35	of	of	ADP	IN	_	38	R	38:R	_
+36	Epstein	Epstein	PROPN	NNP	_	38	A	38:A	_
+37	's	's	PART	POS	_	36	R	36:R	_
+38	death	death	NOUN	NN	_	34	A	34:A	_
+39	during	during	ADP	IN	_	16	L	16:L	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	seminar	seminar	NOUN	NN	_	16	H	16:H	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

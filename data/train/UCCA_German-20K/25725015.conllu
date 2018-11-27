@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25725015
+# text = War nicht aus einigen Stimmen , die man plötzlich vernahm , abzunehmen , dass Ned Land bei seinem Entweichungs plan war überrascht worden ?
+1	War	sein	NOUN	ADV	_	12	F	12:F	_
+2	nicht	nicht	PART	XY	_	12	D	12:D	_
+3	aus	aus	ADP	APPR	_	5	R	5:R	_
+4	einigen	einige	PRON	PIAT	_	5	E	5:E	_
+5	Stimmen	Stimme|Stimmen	NOUN	NN	_	12	A	12:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	die	der	PRON	PRELS	_	10	R	10:R	_
+8	man	man	PRON	PIS	_	10	A	10:A	_
+9	plötzlich	plötzlich	ADJ	ADJD	_	10	D	10:D	_
+10	vernahm	vernehmen	VERB	VVFIN	_	5	E	5:E	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	abzunehmen	abzunehmen	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+15	Ned	Ned	PROPN	NE	_	22	A	22:A	_
+16	Land	Land	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	bei	bei	ADP	APPR	_	20	E	20:E	_
+18	seinem	sein	DET	PPOSAT	_	20	E	20:E	_
+19	Entweichungs	Entweichungs	NOUN	TRUNC	_	22	A	22:A	_
+20	plan	plan	VERB	NN	_	19	A	19:A	_
+21	war	sein	AUX	ADV	_	22	F	22:F	_
+22	überrascht	überraschen	VERB	ADJD	_	12	A	12:A	_
+23	worden	werden	AUX	ADV	_	22	F	22:F	_
+24	?	?	PUNCT	$.	_	22	U	22:U	_
+

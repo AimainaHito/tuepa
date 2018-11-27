@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25671017
+# text = Einige Stunden lang fuhr die ›Nautilus‹ über solchen weißen Wogen , und ich bemerkte , dass sie ganz geräuschlos durch dieses seifenartige Wasser glitt , als führe sie in den Schaum wirbeln , die mitunter zwischen den Strömungen und Gegenströmungen der Baien entstehen .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Stunden	Stunde|Stunden	NOUN	NN	_	4	D	4:D	_
+3	lang	lang	ADJ	ADJD	_	4	D	4:D	_
+4	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	A	4:A	_
+7	über	über	ADP	VVFIN	_	10	R	10:R	_
+8	solchen	solch	PRON	PIAT	_	10	E	10:E	_
+9	weißen	weiß	ADJ	ADJA	_	10	E	10:E	_
+10	Wogen	Woge	NOUN	NN	_	4	A	4:A	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	und	und	CCONJ	NE	_	4	L	4:L	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	bemerkte	bemerken	VERB	VVFIN	_	4	H	4:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	dass	dass	SCONJ	KOUS	_	24	L	24:L	_
+17	sie	sie	PRON	ADV	_	24	A	24:A	_
+18	ganz	ganz	ADV	ADV	_	19	E	19:E	_
+19	geräuschlos	geräuschlos	ADJ	ADJD	_	24	D	24:D	_
+20	durch	durch	ADP	APPR	_	23	R	23:R	_
+21	dieses	dies	PRON	PDAT	_	23	E	23:E	_
+22	seifenartige	seifenartig	ADJ	ADJA	_	23	E	23:E	_
+23	Wasser	Wasser	NOUN	NN	_	24	A	24:A	_
+24	glitt	gleiden	VERB	VVFIN	_	14	A	14:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	als	als	SCONJ	KOUS	_	24	L	24:L	_
+27	führe	führ	PRON	VVFIN	_	24	H	24:H	_
+28	sie	sie	PRON	ADV	_	27	A	27:A	_
+29	in	in	ADP	APPR	_	32	R	32:R	_
+30	den	der	DET	ART	_	32	E	32:E	_
+31	Schaum	Schaum	NOUN	NN	_	32	E	32:E	_
+32	wirbeln	wirbeln	VERB	NN	_	27	A	27:A	_
+33	,	,	PUNCT	$,	_	32	U	32:U	_
+34	die	der	PRON	PRELS	_	43	R	43:R	_
+35	mitunter	mitunter	ADV	ADV	_	43	D	43:D	_
+36	zwischen	zwischen	ADP	ADJA	_	38	R	38:R	_
+37	den	der	DET	ART	_	38	E	38:E	_
+38	Strömungen	Strömung	NOUN	NN	_	43	A	43:A	_
+39	und	und	CCONJ	NE	_	38	N	38:N	_
+40	Gegenströmungen	Gegenströmung	NOUN	NN	_	38	C	38:C	_
+41	der	der	DET	ART	_	40	R	40:R	_
+42	Baien	Baie	NOUN	NE	_	40	E	40:E	_
+43	entstehen	entstehen	VERB	VVINF	_	32	E	32:E	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

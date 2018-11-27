@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 652009
+# text = The following year , his US immigration status finally resolved , Lennon received his " green card " certifying his permanent residency , and when Jimmy Carter was inaugurated as president in January 1977 , Lennon and Ono attended the Inaugural Ball .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	his	he	PRON	PRP$	_	8	E	8:E	_
+6	US	US	PROPN	NNP	_	8	E	8:E	_
+7	immigration	immigration	NOUN	NN	_	8	E	8:E	_
+8	status	status	NOUN	NN	_	10	A	10:A	_
+9	finally	finally	ADV	RB	_	10	D	10:D	_
+10	resolved	resolved	VERB	VBD	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Lennon	Lennon	PROPN	NNP	_	13	A	13:A	_
+13	received	receive	VERB	VBD	_	10	H	10:H	_
+14	his	he	PRON	PRP$	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	green	green	ADJ	JJ	_	13	A	13:A	_
+17	card	card	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	"	"	PUNCT	''	_	16	U	16:U	_
+19	certifying	certify	VERB	VBG	_	16	E	16:E	_
+20	his	he	PRON	PRP$	_	22	A	22:A	_
+21	permanent	permanent	ADJ	JJ	_	22	D	22:D	_
+22	residency	residency	NOUN	NN	_	19	A	19:A	_
+23	,	,	PUNCT	,	_	10	U	10:U	_
+24	and	and	CCONJ	CC	_	10	L	10:L	_
+25	when	when	ADV	WRB	_	24	Terminal	24:Terminal	_
+26	Jimmy	Jimmy	PROPN	NNP	_	29	A	29:A	_
+27	Carter	Carter	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	was	be	AUX	VBD	_	29	F	29:F	_
+29	inaugurated	inaugurate	VERB	VBN	_	10	H	10:H	_
+30	as	as	ADP	IN	_	31	R	31:R	_
+31	president	president	PROPN	NNP	_	29	A	29:A	_
+32	in	in	ADP	IN	_	34	R	34:R	_
+33	January	January	PROPN	NNP	_	34	E	34:E	_
+34	1977	1977	NUM	CD	_	29	D	29:D	_
+35	,	,	PUNCT	,	_	10	U	10:U	_
+36	Lennon	Lennon	PROPN	NNP	_	39	A	39:A	_
+37	and	and	CCONJ	CC	_	36	N	36:N	_
+38	Ono	Ono	PROPN	NNP	_	36	C	36:C	_
+39	attended	attend	VERB	VBD	_	10	H	10:H	_
+40	the	the	DET	DT	_	42	E	42:E	_
+41	Inaugural	Inaugural	PROPN	NNP	_	42	E	42:E	_
+42	Ball	Ball	PROPN	NNP	_	39	A	39:A	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

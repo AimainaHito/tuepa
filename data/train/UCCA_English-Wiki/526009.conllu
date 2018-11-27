@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 526009
+# text = During this period , she spent two weeks in treatment at the Austen Riggs Center , a psychiatric hospital in Stockbridge , Massachusetts For these and other episodes , Garland is thought to have suffered from Borderline Personality Disorder .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	period	period	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A	_
+6	spent	spend	VERB	VBD	_	0	H	0:H	_
+7	two	two	NUM	CD	_	8	E	8:E	_
+8	weeks	week	NOUN	NNS	_	6	D	6:D	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	treatment	treatment	NOUN	NN	_	6	A	6:A	_
+11	at	at	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	Austen	Austen	PROPN	NNP	_	15	E	15:E	_
+14	Riggs	Riggs	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Center	Center	PROPN	NNP	_	6	A	6:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	psychiatric	psychiatric	ADJ	JJ	_	19	E	19:E	_
+19	hospital	hospital	NOUN	NN	_	15	E	15:E	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	Stockbridge	Stockbridge	PROPN	NNP	_	19	E	19:E	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	Massachusetts	Massachusetts	PROPN	NNPS	_	21	E	21:E	_
+24	For	for	ADP	IN	_	6	L	6:L	_
+25	these	these	PRON	DT	_	6	H	6:H	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	other	other	ADJ	JJ	_	28	E	28:E	_
+28	episodes	episode	NOUN	NNS	_	25	C	25:C	_
+29	,	,	PUNCT	,	_	6	U	6:U	_
+30	Garland	Garland	PROPN	NNP	_	35	A	35:A	_
+31	is	be	AUX	VBZ	_	35	F	35:F	_
+32	thought	think	VERB	VBN	_	35	D	35:D	_
+33	to	to	PART	TO	_	35	F	35:F	_
+34	have	have	AUX	VB	_	35	F	35:F	_
+35	suffered	suffer	VERB	VBN	_	6	H	6:H	_
+36	from	from	ADP	IN	_	39	R	39:R	_
+37	Borderline	Borderline	PROPN	NNP	_	39	E	39:E	_
+38	Personality	personality	PROPN	NNP	_	39	E	39:E	_
+39	Disorder	Disorder	PROPN	NNP	_	35	A	35:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 527012
+# text = Her 19 - week engagement exceeded all previous records for the theater and was described as " one of the greatest personal triumphs in show business history .
+1	Her	she	PRON	PRP$	_	5	E	5:E	_
+2	19	19	NUM	CD	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	week	week	NOUN	NN	_	5	E	5:E	_
+5	engagement	engagement	NOUN	NN	_	0	C	0:C|15:A	_
+6	exceeded	exceed	VERB	VBD	_	0	H	0:H	_
+7	all	all	DET	DT	_	9	E	9:E	_
+8	previous	previous	ADJ	JJ	_	9	E	9:E	_
+9	records	record	NOUN	NNS	_	6	A	6:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	theater	theater	NOUN	NN	_	9	E	9:E	_
+13	and	and	CCONJ	CC	_	6	L	6:L	_
+14	was	be	AUX	VBD	_	15	F	15:F	_
+15	described	describe	VERB	VBN	_	6	H	6:H	_
+16	as	as	ADP	IN	_	23	R	23:R	_
+17	"	"	PUNCT	``	_	23	U	23:U	_
+18	one	one	NUM	CD	_	23	E	23:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	greatest	greatest	ADJ	JJS	_	23	E	23:E	_
+22	personal	personal	ADJ	JJ	_	23	E	23:E	_
+23	triumphs	triumph	NOUN	NNS	_	15	A	15:A	_
+24	in	in	ADP	IN	_	27	R	27:R	_
+25	show	show	NOUN	NN	_	26	E	26:E	_
+26	business	business	NOUN	NN	_	27	E	27:E	_
+27	history	history	NOUN	NN	_	23	E	23:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

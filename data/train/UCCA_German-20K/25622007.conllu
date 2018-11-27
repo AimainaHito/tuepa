@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25622007
+# text = Es waren Mimosen , Ficus , Thok , Hibiscus , Pendacus , Palm bäume , und unter ihrer grünen Wölbung , am Fuß ihres riesigen Stammes , wuchsen Orchideen , Hülsen gewächse , Farn kräuter .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	Mimosen	Mimose	NOUN	NE	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Ficus	Ficus	PROPN	NE	_	3	C	3:C	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Thok	Thok	PROPN	NE	_	3	C	3:C	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	Hibiscus	Hibiscus	PROPN	NE	_	3	C	3:C	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	Pendacus	Pendacus	PROPN	NE	_	3	C	3:C	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	Palm	Palm	PROPN	NE	_	14	E	14:E	_
+14	bäume	baum	NOUN	NN	_	3	C	3:C	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	unter	unter	ADP	NE	_	20	R	20:R	_
+18	ihrer	ihr	DET	PPOSAT	_	20	E	20:E	_
+19	grünen	grün	ADJ	ADJA	_	20	E	20:E	_
+20	Wölbung	Wölbung	NOUN	NN	_	28	A	28:A	_
+21	,	,	PUNCT	$,	_	28	U	28:U	_
+22	am	am	ADJ	ADJD	_	23	E	23:E	_
+23	Fuß	Fuß	NOUN	NN	_	26	E	26:E	_
+24	ihres	ihr	DET	PPOSAT	_	23	R	23:R	_
+25	riesigen	riesig	ADJ	VVINF	_	26	E	26:E	_
+26	Stammes	Stamm	NOUN	NN	_	28	A	28:A	_
+27	,	,	PUNCT	$,	_	28	U	28:U	_
+28	wuchsen	wachsen	VERB	VVFIN	_	2	H	2:H	_
+29	Orchideen	Orchidee	NOUN	NE	_	28	A	28:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	Hülsen	Hülsen	NOUN	NE	_	32	E	32:E	_
+32	gewächse	gewächs	ADJ	NN	_	29	C	29:C	_
+33	,	,	PUNCT	$,	_	29	U	29:U	_
+34	Farn	Farn	NOUN	NE	_	35	E	35:E	_
+35	kräuter	kräut	ADJ	NE	_	29	C	29:C	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

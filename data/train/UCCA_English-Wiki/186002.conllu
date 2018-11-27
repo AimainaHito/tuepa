@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 186002
+# text = In television , Sorkin is known as a controlling writer , who rarely shares the credit of penning screenplays .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	television	television	NOUN	NN	_	6	A	6:A	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Sorkin	Sorkin	PROPN	NNP	_	6	A	6:A	_
+5	is	be	AUX	VBZ	_	6	F	6:F	_
+6	known	know	VERB	VBN	_	0	H	0:H	_
+7	as	as	ADP	IN	_	10	R	10:R	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	controlling	controlling	NOUN	NN	_	10	E	10:E	_
+10	writer	writer	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	who	who	PRON	WP	_	14	F	14:F	_
+13	rarely	rarely	ADV	RB	_	14	D	14:D	_
+14	shares	share	VERB	VBZ	_	10	E	10:E	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	credit	credit	NOUN	NN	_	14	A	14:A	_
+17	of	of	SCONJ	IN	_	19	R	19:R	_
+18	penning	penning	VERB	VBG	_	19	E	19:E	_
+19	screenplays	screenplay	NOUN	NNS	_	16	E	16:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

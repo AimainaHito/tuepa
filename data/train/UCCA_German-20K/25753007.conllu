@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25753007
+# text = Ich hatte noch nicht Zeit , mein Erstaunen über diesen neuen Vorschlag auszudrücken , als auf Bestellung von Kapitän Nemo ein Objektiv in den Salon gebracht wurde .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hatte	haben	AUX	VAFIN	_	0	H	0:H	_
+3	noch	noch	ADV	ADV	_	2	D	2:D	_
+4	nicht	nicht	PART	CARD	_	2	D	2:D	_
+5	Zeit	Zeit	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Erstaunen	Erstaunen	NOUN	NN	_	13	A	13:A	_
+9	über	über	ADP	VVFIN	_	12	R	12:R	_
+10	diesen	dies	PRON	PDAT	_	12	E	12:E	_
+11	neuen	neu	ADJ	ADJA	_	12	D	12:D	_
+12	Vorschlag	Vorschlag	NOUN	NN	_	8	A	8:A	_
+13	auszudrücken	auszudrücken	VERB	VVFIN	_	5	E	5:E	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	als	als	ADP	APPR	_	2	L	2:L	_
+16	auf	auf	ADP	APPR	_	17	R	17:R	_
+17	Bestellung	Bestellung	NOUN	NN	_	2	H	2:H	_
+18	von	von	ADP	NN	_	20	R	20:R	_
+19	Kapitän	Kapitän	PROPN	FM	_	20	E	20:E	_
+20	Nemo	Nemo	PROPN	NE	_	17	A	17:A	_
+21	ein	ein	DET	ART	_	22	E	22:E	_
+22	Objektiv	objektiv	NOUN	NN	_	26	A	26:A	_
+23	in	in	ADP	APPR	_	25	R	25:R	_
+24	den	der	DET	ART	_	25	E	25:E	_
+25	Salon	Salon	NOUN	NN	_	26	A	26:A	_
+26	gebracht	bringen	VERB	VVPP	_	2	H	2:H	_
+27	wurde	werden	AUX	TRUNC	_	26	F	26:F	_
+28	.	.	PUNCT	$.	_	26	U	26:U	_
+

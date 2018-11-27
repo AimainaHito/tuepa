@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 563011
+# text = Later that night , he appeared on Hy Gardner Calling , a popular local TV show .
+1	Later	later	ADV	RBR	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	night	night	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	on	on	ADP	IN	_	8	R	8:R	_
+8	Hy	Hy	PROPN	NNP	_	6	A	6:A	_
+9	Gardner	Gardner	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Calling	calling	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	a	a	DET	DT	_	16	E	16:E	_
+13	popular	popular	ADJ	JJ	_	16	E	16:E	_
+14	local	local	ADJ	JJ	_	16	E	16:E	_
+15	TV	tv	NOUN	NN	_	16	E	16:E	_
+16	show	show	NOUN	NN	_	8	E	8:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

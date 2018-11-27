@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25797003
+# text = Vielleicht hatte mich der Kanadier hinaufgetragen .
+1	Vielleicht	vielleicht	ADV	ADV	_	6	G	6:G	_
+2	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+3	mich	ich	PRON	PPER	_	6	A	6:A	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+6	hinaufgetragen	hinaufgetragen	VERB	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

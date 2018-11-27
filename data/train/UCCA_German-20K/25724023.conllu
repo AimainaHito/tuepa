@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25724023
+# text = Es waren Brustbilder der großen historischen Männer , deren Dasein eine ununterbrochene Hingebung an eine große menschliche Idee enthielt , Kosziusko , Botzaris , Oconnel , Washington , Manin , Lincoln und endlich der Märtyrer der Negerbefreiung John Brown .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	Brustbilder	Brustbild	NOUN	NN	_	2	A	2:A	_
+4	der	der	DET	ART	_	7	R	7:R	_
+5	großen	groß	ADJ	ADJA	_	7	E	7:E	_
+6	historischen	historisch	ADJ	ADJA	_	7	E	7:E	_
+7	Männer	Mann	NOUN	NN	_	3	E	3:E	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	deren	der	DET	PRELAT	_	19	R	19:R	_
+10	Dasein	Dasein	NOUN	PPOSAT	_	19	A	19:A	_
+11	eine	ein	DET	ART	_	13	E	13:E	_
+12	ununterbrochene	ununterbrochen	ADJ	ADJA	_	19	A	19:A	_
+13	Hingebung	Hingebung	NOUN	NN	_	12	A	12:A	_
+14	an	an	ADP	APPR	_	16	R	16:R	_
+15	eine	ein	DET	ART	_	18	E	18:E	_
+16	große	groß	ADJ	ADJA	_	12	A	12:A	_
+17	menschliche	menschlich	ADJ	ADJA	_	16	D	16:D	_
+18	Idee	Idee	NOUN	NN	_	16	A	16:A	_
+19	enthielt	enthalten	VERB	VVFIN	_	7	E	7:E	_
+20	,	,	PUNCT	$,	_	3	U	3:U	_
+21	Kosziusko	Kosziusko	PROPN	NE	_	3	C	3:C	_
+22	,	,	PUNCT	$,	_	3	U	3:U	_
+23	Botzaris	Botzaris	PROPN	NE	_	3	C	3:C	_
+24	,	,	PUNCT	$,	_	3	U	3:U	_
+25	Oconnel	Oconnel	PROPN	NE	_	3	C	3:C	_
+26	,	,	PUNCT	$,	_	3	U	3:U	_
+27	Washington	Washington	PROPN	NE	_	3	C	3:C	_
+28	,	,	PUNCT	$,	_	3	U	3:U	_
+29	Manin	Manin	PROPN	NE	_	3	C	3:C	_
+30	,	,	PUNCT	$,	_	3	U	3:U	_
+31	Lincoln	Lincoln	PROPN	NE	_	3	C	3:C	_
+32	und	und	CCONJ	NE	_	3	N	3:N	_
+33	endlich	endlich	ADV	ADV	_	3	N	3:N	_
+34	der	der	DET	ART	_	35	E	35:E	_
+35	Märtyrer	Märtyrer	NOUN	NN	_	38	E	38:E	_
+36	der	der	DET	ART	_	37	R	37:R	_
+37	Negerbefreiung	Negerbefreiung	NOUN	NN	_	35	A	35:A	_
+38	John	John	PROPN	NE	_	3	C	3:C	_
+39	Brown	Brown	PROPN	NE	_	38	Terminal	38:Terminal	_
+40	.	.	PUNCT	$.	_	38	U	38:U	_
+

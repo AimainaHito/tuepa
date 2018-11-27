@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 223007
+# text = Jackie Chan also appeared in a sex scene in the film The Shinjuku Incident , which was the only other nude scene that he ever filmed .
+1	Jackie	Jackie	PROPN	NNP	_	4	A	4:A	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	appeared	appear	VERB	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	8	R	8:R	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	sex	sex	NOUN	NN	_	8	E	8:E	_
+8	scene	scene	NOUN	NN	_	4	A	4:A	_
+9	in	in	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	film	film	NOUN	NN	_	12	E	12:E	_
+12	The	the	DET	DT	_	4	A	4:A	_
+13	Shinjuku	Shinjuku	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Incident	incident	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	which	which	PRON	WDT	_	17	F	17:F	_
+17	was	be	AUX	VBD	_	12	E	12:E	_
+18	the	the	DET	DT	_	22	E	22:E	_
+19	only	only	ADJ	JJ	_	22	E	22:E	_
+20	other	other	ADJ	JJ	_	22	E	22:E	_
+21	nude	nude	NOUN	NN	_	22	E	22:E	_
+22	scene	scene	NOUN	NN	_	17	A	17:A	_
+23	that	that	SCONJ	IN	_	26	F	26:F	_
+24	he	he	PRON	PRP	_	26	A	26:A	_
+25	ever	ever	ADV	RB	_	26	D	26:D	_
+26	filmed	film	VERB	VBD	_	22	E	22:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25636008
+# text = Offenbar versahen sich diese Papuas von dem langen eisernen Zylinder nichts Gutes , und sie hielten sich anfangs in achtungsvoller Entfernung .
+1	Offenbar	offenbar	ADJ	NE	_	2	G	2:G	_
+2	versahen	versehen	VERB	ADJA	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Papuas	Papuas	NOUN	NE	_	2	A	2:A	_
+6	von	von	ADP	NE	_	10	R	10:R	_
+7	dem	der	DET	ART	_	10	E	10:E	_
+8	langen	lang	ADJ	ADJA	_	10	E	10:E	_
+9	eisernen	eisern	ADJ	ADJA	_	10	E	10:E	_
+10	Zylinder	Zylinder	NOUN	NN	_	2	A	2:A	_
+11	nichts	nichts	PRON	NE	_	12	E	12:E	_
+12	Gutes	Gut	NOUN	ADJA	_	2	A	2:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	sie	sie	PRON	ADV	_	16	A	16:A	_
+16	hielten	halten	VERB	VVFIN	_	2	H	2:H	_
+17	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	anfangs	anfangs	ADV	ADV	_	16	D	16:D	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	achtungsvoller	achtungsvoller	ADJ	ADJA	_	21	E	21:E	_
+21	Entfernung	Entfernung	NOUN	NN	_	16	A	16:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

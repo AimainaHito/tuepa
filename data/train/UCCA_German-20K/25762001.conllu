@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25762001
+# text = Zwei Matrosen stiegen auf den Leib des Tieres , und ich sah mit einigem Erstaunen , wie sie aus seinen Eutern alle Milch , die sie enthielten , herausmolken , im Gehalt von 2 bis 3 Tonnen .
+1	Zwei	zwei	NUM	CARD	_	2	E	2:E	_
+2	Matrosen	Matrose	NOUN	NN	_	3	A	3:A	_
+3	stiegen	steigen	VERB	VVFIN	_	0	H	0:H	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Leib	Leib	NOUN	NN	_	3	A	3:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Tieres	Tier	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	ich	ich	PRON	PPER	_	12	A	12:A|15:A	_
+12	sah	sehen	VERB	VVFIN	_	3	H	3:H	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	einigem	einige	ADJ	ADJA	_	15	E	15:E	_
+15	Erstaunen	Erstaunen	NOUN	NN	_	3	H	3:H	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	wie	wie	SCONJ	KON	_	29	R	29:R	_
+18	sie	sie	PRON	ADV	_	29	A	29:A	_
+19	aus	aus	ADP	APPR	_	21	R	21:R	_
+20	seinen	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Eutern	Euter	NOUN	NN	_	29	A	29:A	_
+22	alle	alle	PRON	PIAT	_	23	E	23:E	_
+23	Milch	Milch	NOUN	NN	_	29	A	29:A	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	die	der	PRON	PRELS	_	27	R	27:R	_
+26	sie	sie	PRON	TRUNC	_	27	A	27:A	_
+27	enthielten	enthalten	VERB	VVFIN	_	23	E	23:E	_
+28	,	,	PUNCT	$,	_	29	U	29:U	_
+29	herausmolken	herausmolken	VERB	VVFIN	_	12	A	12:A	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	im	im	ADJ	NN	_	32	R	32:R	_
+32	Gehalt	Gehalt	NOUN	NN	_	37	E	37:E	_
+33	von	von	ADP	NN	_	37	R	37:R	_
+34	2	2	NUM	CARD	_	37	E	37:E	_
+35	bis	bis	ADP	KON	_	34	R	34:R	_
+36	3	3	NUM	CARD	_	34	C	34:C	_
+37	Tonnen	Tonne	NOUN	NN	_	29	A	29:A	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

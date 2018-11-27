@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25694005
+# text = Vorzugsweise sind sie in den Gewässern des Mittelmeers , dem griechischen Archipel , an den Küsten Syriens und des Roten Meeres .
+1	Vorzugsweise	vorzugsweise	ADV	ADV	_	2	D	2:D	_
+2	sind	sein	AUX	NN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Gewässern	Gewässer	NOUN	NN	_	2	A	2:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Mittelmeers	Mittelmeer	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	dem	der	DET	ART	_	11	R	11:R	_
+11	griechischen	griechisch	ADJ	ADJA	_	2	A	2:A	_
+12	Archipel	Archipel	NOUN	NN	_	11	E	11:E	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	an	an	ADP	APPR	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Küsten	Küste	PROPN	NN	_	2	A	2:A	_
+17	Syriens	Syrien	PROPN	NE	_	16	E	16:E	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Roten	rot	PROPN	ADJA	_	17	C	17:C	_
+21	Meeres	Meer	PROPN	NN	_	20	E	20:E	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25651029
+# text = Ich begab mich zu Ned Land und Conseil , teilte ihnen den Vorschlag von Kapitän Nemo mit .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|10:A	_
+2	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	zu	zu	ADP	NE	_	5	R	5:R	_
+5	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+6	Land	Land	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	und	und	CCONJ	NE	_	5	N	5:N	_
+8	Conseil	Conseil	NOUN	NE	_	5	C	5:C	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	teilte	teilen	VERB	VVFIN	_	2	H	2:H	_
+11	ihnen	sie	PRON	PPER	_	10	A	10:A	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Vorschlag	Vorschlag	NOUN	NN	_	10	A	10:A	_
+14	von	von	ADP	NE	_	16	R	16:R	_
+15	Kapitän	Kapitän	PROPN	FM	_	16	E	16:E	_
+16	Nemo	Nemo	PROPN	NE	_	13	E	13:E	_
+17	mit	mit	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+18	.	.	PUNCT	$.	_	10	U	10:U	_
+

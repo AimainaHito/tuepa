@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25630006
+# text = » Er ist also sehr rar ? « fragte der Kanadier im Ton eines Jägers , der das Wild vom Standpunkt der Kunst aus nicht zu schätzen weiß .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Er	er	PRON	PPER	_	6	A	6:A	_
+3	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+4	also	also	ADV	ADV	_	6	F	6:F	_
+5	sehr	sehr	ADV	NE	_	6	D	6:D	_
+6	rar	rar	ADJ	FM	_	9	A	9:A	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kanadier	Kanadier	NOUN	NN	_	9	A	9:A	_
+12	im	im	ADJ	NE	_	13	R	13:R	_
+13	Ton	Ton	NOUN	NN	_	9	D	9:D	_
+14	eines	ein	DET	ART	_	15	R	15:R	_
+15	Jägers	Jäger	NOUN	NN	_	9	A	9:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	der	der	PRON	PRELS	_	27	R	27:R	_
+18	das	der	DET	ART	_	19	E	19:E	_
+19	Wild	Wild	NOUN	NN	_	27	A	27:A	_
+20	vom	vom	ADP	NN	_	21	R	21:R	_
+21	Standpunkt	Standpunkt	NOUN	NN	_	23	E	23:E	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Kunst	Kunst	NOUN	NN	_	27	A	27:A	_
+24	aus	aus	ADP	APPR	_	20	Terminal	20:Terminal	_
+25	nicht	nicht	PART	CARD	_	27	D	27:D	_
+26	zu	zu	PART	NN	_	27	F	27:F	_
+27	schätzen	schätzen	VERB	VVINF	_	15	E	15:E	_
+28	weiß	wissen	VERB	VVFIN	_	27	D	27:D	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

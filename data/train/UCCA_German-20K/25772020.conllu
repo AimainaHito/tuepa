@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25772020
+# text = Diese reizenden Flossenfüßler , wahre Seeschmetterlinge , belebten die freien Gewässer am Uferrand .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	reizenden	reizenden	VERB	VVINF	_	3	E	3:E	_
+3	Flossenfüßler	Flossenfüßler	NOUN	NE	_	8	A	8:A	_
+4	,	,	PUNCT	$,	_	8	U	8:U	_
+5	wahre	wahr	ADJ	NE	_	6	E	6:E	_
+6	Seeschmetterlinge	Seeschmetterling	NOUN	NE	_	8	A	8:A	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	belebten	beleben	VERB	VVFIN	_	0	H	0:H	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	freien	frei	ADJ	ADJA	_	11	E	11:E	_
+11	Gewässer	Gewässer	NOUN	NN	_	8	A	8:A	_
+12	am	am	ADJ	ADJD	_	13	R	13:R	_
+13	Uferrand	Uferrand	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

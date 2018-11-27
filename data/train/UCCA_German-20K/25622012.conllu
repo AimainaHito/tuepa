@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25622012
+# text = » Und ich denke nicht « , sagte der Kanadier , » daß Ihr Nemo etwas dagegen hat , dass wir eine Ladung von Kokos an seinen Bord einführen . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	ADJD	_	4	L	4:L	_
+3	ich	ich	PRON	PPER	_	4	A	4:A	_
+4	denke	denken	VERB	VVFIN	_	8	A	8:A	_
+5	nicht	nicht	PART	XY	_	4	D	4:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kanadier	Kanadier	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	daß	daß	SCONJ	KOUS	_	17	R	17:R	_
+14	Ihr	Ihr|ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Nemo	Nemo	NOUN	NN	_	17	A	17:A	_
+16	etwas	etwas	PRON	ADV	_	17	A	17:A	_
+17	dagegen	dagegen	PRON	PAV	_	4	A	4:A	_
+18	hat	haben	VERB	VAFIN	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	17	U	17:U	_
+20	dass	dass	SCONJ	KOUS	_	29	R	29:R	_
+21	wir	wir	PRON	NE	_	29	A	29:A	_
+22	eine	ein	DET	ART	_	23	E	23:E	_
+23	Ladung	Ladung	NOUN	NN	_	29	A	29:A	_
+24	von	von	ADP	NE	_	25	R	25:R	_
+25	Kokos	Kokos	PROPN	NE	_	23	E	23:E	_
+26	an	an	ADP	APPR	_	28	R	28:R	_
+27	seinen	sein	DET	PPOSAT	_	28	E	28:E	_
+28	Bord	Bord	NOUN	NN	_	29	A	29:A	_
+29	einführen	einführen	NOUN	VVINF	_	17	A	17:A	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+31	«	«	PUNCT	$(	_	29	U	29:U	_
+

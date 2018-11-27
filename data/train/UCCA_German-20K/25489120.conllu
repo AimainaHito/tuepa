@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25489120
+# text = Sie verschlangen , und ich folgte bald ihrem Beispiel .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	verschlangen	verschlangen	VERB	NN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	und	und	CCONJ	NE	_	2	L	2:L	_
+5	ich	ich	PRON	PPER	_	6	A	6:A	_
+6	folgte	folgen	VERB	VVFIN	_	2	H	2:H	_
+7	bald	bald	ADV	ADV	_	6	D	6:D	_
+8	ihrem	ihr	DET	PPOSAT	_	6	Terminal	6:Terminal	_
+9	Beispiel	Beispiel	NOUN	NN	_	6	Terminal	6:Terminal	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

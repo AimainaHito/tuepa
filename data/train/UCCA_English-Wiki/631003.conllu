@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 631003
+# text = Seven years Lennon 's senior , Parkes took him on trips and to local cinemas .
+1	Seven	seven	PROPN	NNP	_	2	E	2:E	_
+2	years	year	VERB	VBZ	_	5	E	5:E	_
+3	Lennon	Lennon	PROPN	NNP	_	5	E	5:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	senior	senior	ADJ	JJ	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Parkes	Parkes	NOUN	NNS	_	8	A	8:A	_
+8	took	take	VERB	VBD	_	5	H	5:H	_
+9	him	he	PRON	PRP	_	8	A	8:A	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	trips	trip	NOUN	NNS	_	8	A	8:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	local	local	ADJ	JJ	_	15	E	15:E	_
+15	cinemas	cinema	NOUN	NNS	_	11	C	11:C	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25595009
+# text = Kapitän Nemo nebst seinem kräftigen Genossen gaben uns hingestreckt im klaren Wasser das Beispiel zum Schlafen .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+3	nebst	nebst	ADV	APPR	_	2	N	2:N	_
+4	seinem	sein	DET	PPOSAT	_	6	E	6:E	_
+5	kräftigen	kräftig	ADJ	ADJA	_	6	E	6:E	_
+6	Genossen	nießen	ADJ	NN	_	2	C	2:C	_
+7	gaben	gabe	NOUN	VVFIN	_	0	H	0:H	_
+8	uns	wir	PRON	NE	_	7	A	7:A	_
+9	hingestreckt	hingestrecken	VERB	VVFIN	_	2	E	2:E	_
+10	im	im	ADV	NE	_	12	R	12:R	_
+11	klaren	klar	ADJ	ADJA	_	12	E	12:E	_
+12	Wasser	Wasser	NOUN	NN	_	9	A	9:A	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Beispiel	Beispiel	NOUN	NN	_	7	A	7:A	_
+15	zum	zum	ADP	NN	_	16	R	16:R	_
+16	Schlafen	schlafen	NOUN	ADJD	_	7	A	7:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

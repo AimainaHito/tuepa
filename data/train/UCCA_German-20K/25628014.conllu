@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25628014
+# text = Sie gehen sogar so weit , dass sie die Quellen vergiften , wo diese Vögel zu trinken pflegen !
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	gehen	gehen	VERB	VVFIN	_	0	H	0:H	_
+3	sogar	sogar	ADV	ADV	_	2	D	2:D	_
+4	so	so	ADV	ADV	_	2	Terminal	2:Terminal	_
+5	weit	weit	ADJ	ADJD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+8	sie	sie	PRON	ADV	_	11	A	11:A	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Quellen	Quelle	NOUN	NN	_	11	A	11:A	_
+11	vergiften	vergiften	VERB	VVINF	_	2	A	2:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	wo	wo	ADV	ADJA	_	17	R	17:R	_
+14	diese	dies	PRON	PDAT	_	15	E	15:E	_
+15	Vögel	Vogel	NOUN	NE	_	17	A	17:A	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	trinken	trinken	VERB	VVINF	_	10	E	10:E	_
+18	pflegen	pflegen	VERB	VVINF	_	17	D	17:D	_
+19	!	!	PUNCT	$.	_	17	U	17:U	_
+

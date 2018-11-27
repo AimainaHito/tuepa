@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25786006
+# text = Ich verstand , was vorgegangen war .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	verstand	verstehen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	was	was	PRON	NE	_	5	A	5:A	_
+5	vorgegangen	vorgehen	VERB	VVPP	_	2	A	2:A	_
+6	war	sein	AUX	ADV	_	5	F	5:F	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 498003
+# text = " Starman " , issued as an April single ahead of the album , was to cement Bowie 's UK breakthrough : both single and album charted rapidly following his July Top of the Pops performance of the song .
+1	"	"	PUNCT	``	_	17	U	17:U	_
+2	Starman	Starman	PROPN	NNP	_	5	A	5:A	_
+3	"	"	PUNCT	''	_	5	U	5:U	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	issued	issue	VERB	VBD	_	17	A	17:A	_
+6	as	as	ADP	IN	_	9	R	9:R	_
+7	an	a	DET	DT	_	9	E	9:E	_
+8	April	April	PROPN	NNP	_	9	E	9:E	_
+9	single	single	ADJ	JJ	_	5	A	5:A	_
+10	ahead	ahead	NOUN	NN	_	5	L	5:L	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	album	album	NOUN	NN	_	5	H	5:H	_
+14	,	,	PUNCT	,	_	17	U	17:U	_
+15	was	be	VERB	VBD	_	17	F	17:F	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	cement	cement	VERB	VB	_	0	H	0:H	_
+18	Bowie	Bowie	PROPN	NNP	_	0	C	0:C|36:A	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	UK	UK	PROPN	NNP	_	21	A	21:A	_
+21	breakthrough	breakthrough	NOUN	NN	_	17	A	17:A	_
+22	:	:	PUNCT	:	_	17	U	17:U	_
+23	both	both	CCONJ	CC	_	24	N	24:N	_
+24	single	single	ADJ	JJ	_	27	A	27:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	album	album	ADJ	JJ	_	24	C	24:C	_
+27	charted	chart	VERB	VBN	_	17	H	17:H	_
+28	rapidly	rapidly	ADV	RB	_	27	D	27:D	_
+29	following	follow	VERB	VBG	_	17	L	17:L	_
+30	his	he	PRON	PRP$	_	31	E	31:E	_
+31	July	July	PROPN	NNP	_	36	A	36:A	_
+32	Top	Top	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	of	of	ADP	IN	_	31	Terminal	31:Terminal	_
+34	the	the	DET	DT	_	31	Terminal	31:Terminal	_
+35	Pops	Pops	PROPN	NNP	_	31	Terminal	31:Terminal	_
+36	performance	performance	NOUN	NN	_	17	H	17:H	_
+37	of	of	ADP	IN	_	39	R	39:R	_
+38	the	the	DET	DT	_	39	E	39:E	_
+39	song	song	NOUN	NN	_	36	A	36:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25703017
+# text = Sein länglicher Leib endigte sich in einen sehr langen Schwanz und seine Seiten flossen in wirkliche Finger .
+1	Sein	sein	DET	PPOSAT	_	3	E	3:E	_
+2	länglicher	länglich	ADJ	ADJA	_	3	E	3:E	_
+3	Leib	Leib	NOUN	NN	_	4	A	4:A	_
+4	endigte	endigen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	in	in	ADP	APPR	_	10	R	10:R	_
+7	einen	ein	DET	ART	_	10	E	10:E	_
+8	sehr	sehr	ADV	NE	_	9	E	9:E	_
+9	langen	lang	ADJ	ADJA	_	10	E	10:E	_
+10	Schwanz	Schwanz	NOUN	NN	_	4	A	4:A	_
+11	und	und	CCONJ	NE	_	4	L	4:L	_
+12	seine	sein	DET	PPOSAT	_	14	E	14:E	_
+13	Seiten	Seite	NOUN	NN	_	14	E	14:E	_
+14	flossen	fließen	VERB	VVFIN	_	4	H	4:H	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	wirkliche	wirklich	ADJ	ADJA	_	17	E	17:E	_
+17	Finger	Finger	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

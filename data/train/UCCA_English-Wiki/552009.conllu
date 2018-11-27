@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 552009
+# text = Much of the Warner estate , including property and memorabilia , was bequeathed to his widow , Ann .
+1	Much	much	ADJ	JJ	_	5	E	5:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	Warner	Warner	PROPN	NNP	_	5	E	5:E	_
+5	estate	estate	NOUN	NN	_	13	A	13:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	including	include	VERB	VBG	_	8	R	8:R	_
+8	property	property	NOUN	NN	_	5	E	5:E	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	memorabilia	memorabilia	NOUN	NN	_	8	C	8:C	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	bequeathed	bequeath	VERB	VBN	_	0	H	0:H	_
+14	to	to	ADP	IN	_	18	R	18:R	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	widow	widow	NOUN	NN	_	18	E	18:E	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	Ann	Ann	PROPN	NNP	_	13	A	13:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

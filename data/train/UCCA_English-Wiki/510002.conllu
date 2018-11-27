@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 510002
+# text = Among the acts he selected for the festival were Philip Glass , Television and The Dandy Warhols .
+1	Among	among	ADP	IN	_	9	D	9:D	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	acts	act	NOUN	NNS	_	9	A	9:A	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	selected	select	VERB	VBD	_	3	E	3:E	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	festival	festival	NOUN	NN	_	5	A	5:A	_
+9	were	be	AUX	VBD	_	0	H	0:H	_
+10	Philip	Philip	PROPN	NNP	_	9	A	9:A	_
+11	Glass	Glass	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	Television	television	PROPN	NNP	_	10	C	10:C	_
+14	and	and	CCONJ	CC	_	10	N	10:N	_
+15	The	the	DET	DT	_	16	E	16:E	_
+16	Dandy	dandy	PROPN	NNP	_	10	C	10:C	_
+17	Warhols	Warhols	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

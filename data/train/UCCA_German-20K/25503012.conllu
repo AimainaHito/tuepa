@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25503012
+# text = » Dann muß ich wohl glauben , mein Herr , dass Sie noch in einiger Verbindung mit der Havanna stehen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Dann	dann	ADV	ADV	_	6	L	6:L	_
+3	muß	müssen	AUX	VMFIN	_	6	D	6:D	_
+4	ich	ich	PRON	PPER	_	6	A	6:A	_
+5	wohl	wohl	ADV	ADV	_	6	G	6:G	_
+6	glauben	glauben	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	mein	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Herr	Herr	NOUN	NN	_	6	G	6:G	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	dass	dass	SCONJ	KOUS	_	14	R	14:R	_
+12	Sie	sie	PRON	PPER	_	14	A	14:A	_
+13	noch	noch	ADV	NN	_	14	D	14:D	_
+14	in	in	ADP	APPR	_	6	A	6:A	_
+15	einiger	einige	PRON	PIAT	_	14	D	14:D	_
+16	Verbindung	Verbindung	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Havanna	Havanna	PROPN	NE	_	14	A	14:A	_
+20	stehen	stehen	VERB	VVFIN	_	14	Terminal	14:Terminal	_
+21	.	.	PUNCT	$.	_	14	U	14:U	_
+22	«	«	PUNCT	$(	_	14	U	14:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25801013
+# text = Aber der Wind wehte zu stark , und die wütend aufgeregten Wellen hätten einem einfachen Boot nicht gestattet , ihnen zu trotzen .
+1	Aber	aber	ADP	KON	_	4	L	4:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Wind	Wind	NOUN	NN	_	4	A	4:A	_
+4	wehte	wehen	VERB	VVFIN	_	0	H	0:H	_
+5	zu	zu	PART	NE	_	6	E	6:E	_
+6	stark	stark	ADJ	NE	_	4	D	4:D	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	und	und	CCONJ	NE	_	4	L	4:L	_
+9	die	der	DET	ART	_	12	E	12:E	_
+10	wütend	wütend	ADJ	ADJD	_	11	D	11:D	_
+11	aufgeregten	aufgeregt	ADJ	ADJA	_	12	E	12:E	_
+12	Wellen	Welle	NOUN	NN	_	18	A	18:A	_
+13	hätten	haben	AUX	VAFIN	_	18	F	18:F	_
+14	einem	ein	DET	ART	_	16	E	16:E	_
+15	einfachen	einfach	ADJ	ADJA	_	16	E	16:E	_
+16	Boot	Boot	NOUN	NN	_	18	A	18:A	_
+17	nicht	nicht	PART	CARD	_	18	D	18:D	_
+18	gestattet	gestatten|statten	VERB	VVPP	_	4	H	4:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	ihnen	sie	PRON	PPER	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	trotzen	trotzen	VERB	VVINF	_	18	A	18:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

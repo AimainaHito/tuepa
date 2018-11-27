@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 532011
+# text = She later characterized the Melbourne crowd as " brutish .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	characterized	characterize	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	Melbourne	Melbourne	PROPN	NNP	_	6	E	6:E	_
+6	crowd	crowd	NOUN	NN	_	3	A	3:A	_
+7	as	as	SCONJ	IN	_	9	R	9:R	_
+8	"	"	PUNCT	``	_	9	U	9:U	_
+9	brutish	brutish	NOUN	NN	_	3	A	3:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

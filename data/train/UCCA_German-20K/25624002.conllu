@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25624002
+# text = Darum regte auch ihr Anblick sein Verlangen an , das er nicht zurückhalten konnte .
+1	Darum	darum	ADV	PAV	_	2	L	2:L	_
+2	regte	regt	VERB	VVFIN	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	2	D	2:D	_
+4	ihr	ihr	DET	PPOSAT	_	5	E	5:E	_
+5	Anblick	Anblick	NOUN	NN	_	2	A	2:A	_
+6	sein	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Verlangen	Verlangen	NOUN	NN	_	2	A	2:A	_
+8	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	das	der	PRON	PRELS	_	13	R	13:R	_
+11	er	er	PRON	PPER	_	13	A	13:A	_
+12	nicht	nicht	PART	XY	_	13	D	13:D	_
+13	zurückhalten	zurückhalten	VERB	VVINF	_	7	E	7:E	_
+14	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

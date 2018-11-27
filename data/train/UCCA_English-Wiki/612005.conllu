@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 612005
+# text = He was also influenced by Brian Wilson , as he commented : " because he went to very unusual places " . Another favourite bassist of his is Stanley Clarke .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	influenced	influence	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Brian	Brian	PROPN	NNP	_	4	A	4:A	_
+7	Wilson	Wilson	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	as	as	SCONJ	IN	_	4	L	4:L	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	commented	comment	VERB	VBD	_	4	H	4:H	_
+12	:	:	PUNCT	:	_	11	U	11:U	_
+13	"	"	PUNCT	``	_	11	U	11:U	_
+14	because	because	SCONJ	IN	_	16	R	16:R	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	went	go	VERB	VBD	_	11	A	11:A	_
+17	to	to	ADP	IN	_	20	R	20:R	_
+18	very	very	ADV	RB	_	19	E	19:E	_
+19	unusual	unusual	ADJ	JJ	_	20	E	20:E	_
+20	places	place	NOUN	NNS	_	16	A	16:A	_
+21	"	"	PUNCT	''	_	4	U	4:U	_
+22	.	.	PUNCT	.	_	4	U	4:U	_
+23	Another	another	DET	DT	_	25	E	25:E	_
+24	favourite	favourite	ADJ	JJ	_	25	E	25:E	_
+25	bassist	bassist	NOUN	NN	_	28	A	28:A	_
+26	of	of	ADP	IN	_	27	R	27:R	_
+27	his	he	PRON	PRP$	_	25	E	25:E	_
+28	is	be	AUX	VBZ	_	4	H	4:H	_
+29	Stanley	Stanley	PROPN	NNP	_	28	A	28:A	_
+30	Clarke	Clarke	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

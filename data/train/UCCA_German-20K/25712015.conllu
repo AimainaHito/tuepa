@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25712015
+# text = Am 14 . Februar beschloß ich , einige Stunden darauf zu verwenden , die Fische des Archipelagus zu studieren ; aber aus irgendeinem Grund blieben die Läden geschlossen .
+1	Am	am	PROPN	NE	_	4	R	4:R	_
+2	14	14	PROPN	CARD	_	4	E	4:E	_
+3	.	.	PUNCT	$.	_	4	U	4:U	_
+4	Februar	Februar	PROPN	NN	_	5	D	5:D	_
+5	beschloß	beschließen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A|19:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	einige	einige	PRON	PIAT	_	9	E	9:E	_
+9	Stunden	Stunde|Stunden	NOUN	NN	_	12	D	12:D	_
+10	darauf	darauf	ADV	PAV	_	19	R	19:R	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	verwenden	verwenden	VERB	VVINF	_	5	A	5:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Fische	Fisch	NOUN	NN	_	19	A	19:A	_
+16	des	der	DET	ART	_	15	R	15:R	_
+17	Archipelagus	Archipelagus	NOUN	NN	_	15	E	15:E	_
+18	zu	zu	PART	NE	_	19	F	19:F	_
+19	studieren	studieren	VERB	VVINF	_	12	A	12:A	_
+20	;	;	PUNCT	$.	_	5	U	5:U	_
+21	aber	aber	ADV	ADV	_	5	L	5:L	_
+22	aus	aus	ADP	APPR	_	24	R	24:R	_
+23	irgendeinem	irgendein	DET	PIAT	_	24	E	24:E	_
+24	Grund	Grund	NOUN	NN	_	28	A	28:A	_
+25	blieben	bleiben	VERB	VVFIN	_	28	D	28:D	_
+26	die	der	DET	ART	_	27	E	27:E	_
+27	Läden	Laden	NOUN	NN	_	28	A	28:A	_
+28	geschlossen	schließen	VERB	VVPP	_	5	H	5:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

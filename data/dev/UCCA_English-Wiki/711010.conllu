@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 711010
+# text = The book confounded expectations .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	book	book	NOUN	NN	_	3	A	3:A	_
+3	confounded	confound	VERB	VBN	_	0	H	0:H	_
+4	expectations	expectation	NOUN	NNS	_	3	A	3:A	_
+5	.	.	PUNCT	.	_	3	U	3:U	_
+

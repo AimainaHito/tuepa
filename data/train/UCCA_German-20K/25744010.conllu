@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25744010
+# text = » Potz ! « sagte Conseil , » das gibt ja Lebkuchen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Potz	Potz	PROPN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	das	der	PRON	PDS	_	10	A	10:A	_
+10	gibt	geben	VERB	VVFIN	_	2	H	2:H	_
+11	ja	ja	ADV	ADV	_	10	F	10:F	_
+12	Lebkuchen	Lebkuchen	NOUN	NE	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+14	«	«	PUNCT	$(	_	10	U	10:U	_
+

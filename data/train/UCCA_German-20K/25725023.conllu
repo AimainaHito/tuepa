@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25725023
+# text = Ich stellte mich neben die Tür , die zur Mittel stiege führte und wartete auf Ned Lands Zeichen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|14:A	_
+2	stellte	stellen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	neben	neben	ADP	TRUNC	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Tür	Tür	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	PRON	ART	_	12	R	12:R	_
+9	zur	zur	ADV	NN	_	11	E	11:E	_
+10	Mittel	Mittel	NOUN	NN	_	11	E	11:E	_
+11	stiege	stiege	ADJ	VVFIN	_	12	A	12:A	_
+12	führte	führen	VERB	VVFIN	_	6	E	6:E	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	wartete	warten	VERB	VVFIN	_	2	H	2:H	_
+15	auf	auf	ADP	APPR	_	18	R	18:R	_
+16	Ned	Ned	PROPN	NE	_	18	E	18:E	_
+17	Lands	Land	PROPN	NE	_	16	Terminal	16:Terminal	_
+18	Zeichen	Zeichen	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

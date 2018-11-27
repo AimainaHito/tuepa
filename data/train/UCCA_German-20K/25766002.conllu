@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25766002
+# text = Gewöhnlich muß , wer nicht weiter vorwärts kann , seines Weges wieder zurück .
+1	Gewöhnlich	gewöhnlich	ADJ	ADJD	_	13	G	13:G	_
+2	muß	müssen	AUX	VMFIN	_	13	D	13:D	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	wer	wer	PRON	PWS	_	7	A	7:A	_
+5	nicht	nicht	PART	XY	_	7	D	7:D	_
+6	weiter	weiter	ADJ	ADV	_	7	D	7:D	_
+7	vorwärts	vorwärts	ADV	ADV	_	13	A	13:A	_
+8	kann	können	AUX	VMFIN	_	7	D	7:D	_
+9	,	,	PUNCT	$,	_	13	U	13:U	_
+10	seines	sein	DET	PPOSAT	_	11	R	11:R	_
+11	Weges	Weg	NOUN	NN	_	13	A	13:A	_
+12	wieder	wieder	ADV	NE	_	13	D	13:D	_
+13	zurück	zurück	ADV	ADJA	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

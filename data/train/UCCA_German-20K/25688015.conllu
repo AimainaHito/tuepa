@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25688015
+# text = Man konnte es hoffen , da der arme Teufel nicht lange unter Wasser gewesen war .
+1	Man	man	PRON	PIS	_	4	A	4:A	_
+2	konnte	können	AUX	VMFIN	_	4	D	4:D	_
+3	es	es	PRON	PPER	_	4	A	4:A	_
+4	hoffen	hoffen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	da	da	SCONJ	KOUS	_	4	L	4:L	_
+7	der	der	DET	ART	_	9	E	9:E	_
+8	arme	arm	ADJ	ADJA	_	9	E	9:E	_
+9	Teufel	Teufel	NOUN	NN	_	14	A	14:A	_
+10	nicht	nicht	PART	XY	_	14	D	14:D	_
+11	lange	lange	ADJ	ADV	_	14	D	14:D	_
+12	unter	unter	ADP	ADJD	_	13	R	13:R	_
+13	Wasser	Wasser	NOUN	NN	_	14	A	14:A	_
+14	gewesen	sein	VERB	VVINF	_	4	H	4:H	_
+15	war	sein	AUX	ADV	_	14	F	14:F	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

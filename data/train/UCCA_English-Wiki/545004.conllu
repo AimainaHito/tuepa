@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 545004
+# text = Meanwhile , the studio celebrated the exploits of the Royal Canadian Air Force , with films such as Captains of the Clouds .
+1	Meanwhile	meanwhile	ADV	RB	_	5	L	5:L	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	studio	studio	NOUN	NN	_	5	A	5:A	_
+5	celebrated	celebrate	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	exploits	exploit	NOUN	NNS	_	5	A	5:A	_
+8	of	of	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	Royal	Royal	PROPN	NNP	_	12	E	12:E	_
+11	Canadian	Canadian	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Air	Air	PROPN	NNP	_	7	A	7:A	_
+13	Force	Force	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	films	film	NOUN	NNS	_	5	A	5:A	_
+17	such	such	ADJ	JJ	_	19	R	19:R	_
+18	as	as	ADP	IN	_	17	Terminal	17:Terminal	_
+19	Captains	Captains	PROPN	NNPS	_	16	E	16:E	_
+20	of	of	ADP	IN	_	19	Terminal	19:Terminal	_
+21	the	the	DET	DT	_	19	Terminal	19:Terminal	_
+22	Clouds	Clouds	NOUN	NNS	_	19	Terminal	19:Terminal	_
+23	.	.	PUNCT	.	_	19	U	19:U	_
+

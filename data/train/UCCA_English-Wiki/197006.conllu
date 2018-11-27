@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 197006
+# text = But in 2006 the Abbey Theatre 's new management pulled out of all involvement with The Farnsworth Invention .
+1	But	but	CCONJ	CC	_	10	L	10:L	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	2006	2006	NUM	CD	_	10	D	10:D	_
+4	the	the	DET	DT	_	9	E	9:E	_
+5	Abbey	Abbey	PROPN	NNP	_	6	E	6:E	_
+6	Theatre	theatre	PROPN	NNP	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	new	new	ADJ	JJ	_	9	E	9:E	_
+9	management	management	NOUN	NN	_	10	A	10:A	_
+10	pulled	pull	VERB	VBD	_	0	H	0:H	_
+11	out	out	ADV	RB	_	10	E	10:E	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	all	all	DET	DT	_	14	E	14:E	_
+14	involvement	involvement	NOUN	NN	_	10	A	10:A	_
+15	with	with	ADP	IN	_	17	R	17:R	_
+16	The	the	DET	DT	_	17	E	17:E	_
+17	Farnsworth	Farnsworth	PROPN	NNP	_	14	E	14:E	_
+18	Invention	invention	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

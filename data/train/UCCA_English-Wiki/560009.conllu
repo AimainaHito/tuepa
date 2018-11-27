@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 560009
+# text = At the Country Disc Jockey Convention in early November , Presley was voted the year 's most promising male artist .
+1	At	at	ADP	IN	_	6	R	6:R	_
+2	the	the	DET	DT	_	6	E	6:E	_
+3	Country	country	NOUN	NN	_	5	E	5:E	_
+4	Disc	disc	PROPN	NNP	_	5	E	5:E	_
+5	Jockey	Jockey	PROPN	NNP	_	6	E	6:E	_
+6	Convention	convention	NOUN	NN	_	13	A	13:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	early	early	ADJ	JJ	_	9	E	9:E	_
+9	November	November	PROPN	NNP	_	13	D	13:D	_
+10	,	,	PUNCT	,	_	13	U	13:U	_
+11	Presley	Presley	PROPN	NNP	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	voted	vote	VERB	VBN	_	0	H	0:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	year	year	NOUN	NN	_	20	E	20:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	most	most	ADV	RBS	_	18	E	18:E	_
+18	promising	promise	VERB	VBG	_	20	E	20:E	_
+19	male	male	ADJ	JJ	_	20	E	20:E	_
+20	artist	artist	NOUN	NN	_	13	A	13:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

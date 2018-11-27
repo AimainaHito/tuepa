@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25731002
+# text = Ich bemerkte es dem Kapitän .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Kapitän	Kapitän	NOUN	NN	_	2	A	2:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

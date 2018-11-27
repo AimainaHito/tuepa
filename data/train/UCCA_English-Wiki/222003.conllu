@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 222003
+# text = Jackie Chan has been acting since the 1960s and has appeared in over 150 films .
+1	Jackie	Jackie	PROPN	NNP	_	5	A	5:A|11:A	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	has	have	AUX	VBZ	_	5	F	5:F	_
+4	been	be	AUX	VBN	_	5	F	5:F	_
+5	acting	act	VERB	VBG	_	0	H	0:H	_
+6	since	since	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	1960s	1960	NOUN	NNS	_	5	D	5:D	_
+9	and	and	CCONJ	CC	_	5	L	5:L	_
+10	has	have	AUX	VBZ	_	11	F	11:F	_
+11	appeared	appear	VERB	VBN	_	5	H	5:H	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	over	over	ADV	RB	_	14	R	14:R	_
+14	150	150	NUM	CD	_	15	E	15:E	_
+15	films	film	NOUN	NNS	_	11	A	11:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25600010
+# text = Es waren eine Art Senk netze , weite Taschen , die mittels einer schwimmenden Stange und eingestrickten Schnur offengehalten und auf dem Meeres grund fortgezogen den Boden kehrten und alle Erzeugnisse mit sich fortzogen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	eine	ein	DET	ART	_	4	E	4:E	_
+4	Art	Art	NOUN	NN	_	6	E	6:E	_
+5	Senk	Senk	PROPN	NE	_	6	E	6:E	_
+6	netze	netzen	VERB	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	weite	weit	ADJ	NE	_	9	E	9:E	_
+9	Taschen	Taschen	NOUN	NE	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	19	R	19:R	_
+12	mittels	mittels	ADP	APPR	_	15	R	15:R	_
+13	einer	ein	DET	ART	_	15	E	15:E	_
+14	schwimmenden	schwimmend	ADJ	ADJA	_	15	E	15:E	_
+15	Stange	Stange	NOUN	NN	_	19	A	19:A	_
+16	und	und	CCONJ	NE	_	15	N	15:N	_
+17	eingestrickten	eingestrickt	ADJ	VVFIN	_	18	E	18:E	_
+18	Schnur	Schnur	NOUN	ADV	_	15	C	15:C	_
+19	offengehalten	offengehalten	VERB	ADJA	_	9	E	9:E	_
+20	und	und	CCONJ	NN	_	19	L	19:L	_
+21	auf	auf	ADP	APPR	_	24	R	24:R	_
+22	dem	der	DET	ART	_	24	E	24:E	_
+23	Meeres	Meer	NOUN	NN	_	24	E	24:E	_
+24	grund	grund	ADV	ADV	_	25	A	25:A	_
+25	fortgezogen	fortziehen	VERB	ADJD	_	19	H	19:H	_
+26	den	der	DET	ART	_	27	E	27:E	_
+27	Boden	Boden	NOUN	NN	_	28	A	28:A	_
+28	kehrten	kehren	VERB	VVFIN	_	25	A	25:A	_
+29	und	und	CCONJ	NE	_	19	L	19:L	_
+30	alle	alle	PRON	PIAT	_	31	E	31:E	_
+31	Erzeugnisse	Erzeugnis	NOUN	NN	_	34	A	34:A	_
+32	mit	mit	ADP	APPR	_	33	R	33:R	_
+33	sich	er|es|sie	PRON	PRF	_	34	A	34:A	_
+34	fortzogen	fortziehen	VERB	ADJD	_	19	H	19:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

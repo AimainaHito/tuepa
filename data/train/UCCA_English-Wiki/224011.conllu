@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 224011
+# text = When Willie Chan left the company , he advised Jackie to decide for himself whether or not to stay with Lo Wei .
+1	When	when	ADV	WRB	_	4	L	4:L	_
+2	Willie	Willie	PROPN	NNP	_	4	A	4:A	_
+3	Chan	Chan	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	left	leave	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	company	company	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	he	he	PRON	PRP	_	9	A	9:A	_
+9	advised	advise	VERB	VBD	_	4	H	4:H	_
+10	Jackie	Jackie	PROPN	NNP	_	9	A	9:A|12:A|19:A	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	decide	decide	VERB	VB	_	9	A	9:A	_
+13	for	for	ADP	IN	_	14	R	14:R	_
+14	himself	himself	PRON	PRP	_	12	D	12:D	_
+15	whether	whether	SCONJ	IN	_	19	R	19:R	_
+16	or	or	CCONJ	CC	_	15	N	15:N	_
+17	not	not	ADV	RB	_	15	C	15:C	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	stay	stay	VERB	VB	_	12	A	12:A	_
+20	with	with	ADP	IN	_	21	R	21:R	_
+21	Lo	Lo	PROPN	NNP	_	19	A	19:A	_
+22	Wei	Wei	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

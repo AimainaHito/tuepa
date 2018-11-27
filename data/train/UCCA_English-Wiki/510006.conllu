@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 510006
+# text = Originally thought to be a pinched nerve in his shoulder , the pain was later diagnosed as an acutely blocked coronary artery , requiring an emergency angioplasty in Hamburg .
+1	Originally	originally	ADV	RB	_	4	D	4:D	_
+2	thought	think	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	be	be	AUX	VB	_	0	H	0:H	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	pinched	pinch	VERB	VBN	_	7	E	7:E	_
+7	nerve	nerve	NOUN	NN	_	4	A	4:A	_
+8	in	in	ADP	IN	_	10	R	10:R	_
+9	his	he	PRON	PRP$	_	10	E	10:E	_
+10	shoulder	shoulder	NOUN	NN	_	7	E	7:E	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	pain	pain	NOUN	NN	_	16	A	16:A|4:A	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	later	later	ADV	RB	_	16	D	16:D	_
+16	diagnosed	diagnose	VERB	VBN	_	4	H	4:H	_
+17	as	as	ADP	IN	_	22	R	22:R	_
+18	an	a	DET	DT	_	22	E	22:E	_
+19	acutely	acutely	ADV	RB	_	20	E	20:E	_
+20	blocked	block	VERB	VBN	_	22	E	22:E	_
+21	coronary	coronary	ADJ	JJ	_	22	E	22:E	_
+22	artery	artery	NOUN	NN	_	16	A	16:A	_
+23	,	,	PUNCT	,	_	4	U	4:U	_
+24	requiring	require	VERB	VBG	_	4	H	4:H	_
+25	an	a	DET	DT	_	27	E	27:E	_
+26	emergency	emergency	NOUN	NN	_	27	E	27:E	_
+27	angioplasty	angioplasty	NOUN	NN	_	24	A	24:A	_
+28	in	in	ADP	IN	_	29	R	29:R	_
+29	Hamburg	Hamburg	PROPN	NNP	_	27	A	27:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

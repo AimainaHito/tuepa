@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25515003
+# text = Darauf begann er seine Erklärung folgendermaßen : » Das Boot , worauf wir uns befinden , Herr Arronax , ist ein langer Zylinder mit zugespitzten Enden .
+1	Darauf	darauf	ADV	PAV	_	5	L	5:L	_
+2	begann	beginnen	VERB	VVFIN	_	5	D	5:D	_
+3	er	er	PRON	PPER	_	5	A	5:A	_
+4	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Erklärung	Erklärung	NOUN	NN	_	0	H	0:H	_
+6	folgendermaßen	folgendermaßen	ADV	ADV	_	5	D	5:D	_
+7	:	:	PUNCT	$.	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	Das	der	DET	ART	_	10	E	10:E	_
+10	Boot	Boot	NOUN	NN	_	20	A	20:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	worauf	worauf	ADV	PWAV	_	14	R	14:R	_
+13	wir	wir	PRON	NE	_	14	A	14:A	_
+14	uns	wir	PRON	NE	_	10	E	10:E	_
+15	befinden	befinden	VERB	VVFIN	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	$,	_	20	U	20:U	_
+17	Herr	Herr	PROPN	NN	_	18	E	18:E	_
+18	Arronax	Arronax	PROPN	NE	_	20	G	20:G	_
+19	,	,	PUNCT	$,	_	20	U	20:U	_
+20	ist	sein	AUX	VVFIN	_	5	H	5:H	_
+21	ein	ein	DET	ART	_	23	E	23:E	_
+22	langer	lang	ADJ	ADJA	_	23	E	23:E	_
+23	Zylinder	Zylinder	NOUN	NN	_	20	A	20:A	_
+24	mit	mit	ADP	APPR	_	26	R	26:R	_
+25	zugespitzten	zugespitzten	ADJ	ADJA	_	26	E	26:E	_
+26	Enden	enden	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

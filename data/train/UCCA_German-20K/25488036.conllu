@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25488036
+# text = Und er steckte eine Messer klinge unter meine Kleider und zerschnitt sie in einem Zug von oben bis unten .
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	er	er	PRON	PPER	_	3	A	3:A	_
+3	steckte	stecken	VERB	VVFIN	_	0	H	0:H	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	Messer	Messer	NOUN	NN	_	6	E	6:E	_
+6	klinge	klingen	VERB	NN	_	3	A	3:A	_
+7	unter	unter	ADP	ADJD	_	9	R	9:R	_
+8	meine	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Kleider	Kleider	NOUN	NE	_	3	A	3:A	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	zerschnitt	zerschnitt	NUM	VVFIN	_	3	H	3:H	_
+12	sie	sie	PRON	ADV	_	11	A	11:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Zug	Zug	NOUN	NN	_	11	A	11:A	_
+16	von	von	ADP	NE	_	17	R	17:R	_
+17	oben	oben	ADV	NE	_	11	A	11:A	_
+18	bis	bis	ADP	APPR	_	17	R	17:R	_
+19	unten	unten	ADV	ADJA	_	17	C	17:C	_
+20	.	.	PUNCT	$.	_	17	U	17:U	_
+

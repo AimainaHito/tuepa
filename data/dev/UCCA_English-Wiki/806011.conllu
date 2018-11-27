@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 806011
+# text = The couple debated with Danny Williams , Newfoundland 's then Premier , on Larry King Live , stating that fishermen should stop hunting seals and start seal - watching businesses instead .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	couple	couple	NOUN	NN	_	3	A	3:A|18:A	_
+3	debated	debate	VERB	VBN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	Danny	Danny	PROPN	NNP	_	3	A	3:A	_
+6	Williams	Williams	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	Newfoundland	Newfoundland	PROPN	NNP	_	11	E	11:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	then	then	ADV	RB	_	11	D	11:D	_
+11	Premier	premier	PROPN	NNP	_	5	E	5:E	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	on	on	ADP	IN	_	14	R	14:R	_
+14	Larry	Larry	PROPN	NNP	_	3	A	3:A	_
+15	King	King	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Live	Live	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	stating	state	VERB	VBG	_	3	H	3:H	_
+19	that	that	SCONJ	IN	_	23	R	23:R	_
+20	fishermen	fisherman	NOUN	NNS	_	23	A	23:A|26:A	_
+21	should	should	AUX	MD	_	23	D	23:D	_
+22	stop	stop	VERB	VB	_	23	D	23:D	_
+23	hunting	hunt	VERB	VBG	_	18	A	18:A	_
+24	seals	seal	NOUN	NNS	_	23	A	23:A	_
+25	and	and	CCONJ	CC	_	23	L	23:L	_
+26	start	start	NOUN	NN	_	23	H	23:H	_
+27	seal	seal	NOUN	NN	_	29	A	29:A	_
+28	-	-	PUNCT	,	_	29	U	29:U	_
+29	watching	watch	VERB	VBG	_	30	E	30:E	_
+30	businesses	business	NOUN	NNS	_	26	A	26:A	_
+31	instead	instead	ADV	RB	_	26	D	26:D	_
+32	.	.	PUNCT	.	_	26	U	26:U	_
+

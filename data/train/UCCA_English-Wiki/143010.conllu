@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 143010
+# text = Variety observed that the role was " an obvious and entirely acceptable version of [ Hepburn 's ] own public image .
+1	Variety	variety	PROPN	NNP	_	2	A	2:A	_
+2	observed	observe	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	13	F	13:F	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	13	A	13:A	_
+6	was	be	AUX	VBD	_	13	F	13:F	_
+7	"	"	PUNCT	``	_	13	U	13:U	_
+8	an	a	DET	DT	_	13	E	13:E	_
+9	obvious	obvious	ADJ	JJ	_	13	E	13:E	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	entirely	entirely	ADV	RB	_	12	E	12:E	_
+12	acceptable	acceptable	ADJ	JJ	_	9	C	9:C	_
+13	version	version	NOUN	NN	_	2	A	2:A	_
+14	of	of	ADP	IN	_	21	R	21:R	_
+15	[	[	PUNCT	-LRB-	_	21	U	21:U	_
+16	Hepburn	Hepburn	PROPN	NNP	_	21	E	21:E	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	]	]	PUNCT	-RRB-	_	21	U	21:U	_
+19	own	own	ADJ	JJ	_	21	E	21:E	_
+20	public	public	ADJ	JJ	_	21	E	21:E	_
+21	image	image	NOUN	NN	_	13	E	13:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

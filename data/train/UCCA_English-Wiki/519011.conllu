@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 519011
+# text = She married five times , with her first four marriages ending in divorce .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	married	marry	VERB	VBD	_	0	H	0:H	_
+3	five	five	NUM	CD	_	4	E	4:E	_
+4	times	time	NOUN	NNS	_	2	D	2:D	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	with	with	ADP	IN	_	2	L	2:L	_
+7	her	she	PRON	PRP$	_	10	E	10:E	_
+8	first	first	ADJ	JJ	_	10	E	10:E	_
+9	four	four	NUM	CD	_	10	E	10:E	_
+10	marriages	marriage	NOUN	NNS	_	11	A	11:A	_
+11	ending	end	VERB	VBG	_	2	H	2:H	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	divorce	divorce	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

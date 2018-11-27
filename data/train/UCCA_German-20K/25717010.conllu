@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25717010
+# text = Sie schwammen im Triangel , wie manche Zugvögel fliegen , denen sie an Schnelligkeit gleichkommen .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	schwammen	schwammen	VERB	VVFIN	_	0	H	0:H	_
+3	im	im	ADV	NE	_	4	R	4:R	_
+4	Triangel	Triangel	NOUN	NE	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	wie	wie	ADP	KON	_	9	D	9:D	_
+7	manche	manch	PRON	PIAT	_	8	E	8:E	_
+8	Zugvögel	Zugvogel	NOUN	NN	_	9	A	9:A	_
+9	fliegen	fliegen	VERB	VVFIN	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	denen	der	PRON	PRELS	_	15	R	15:R	_
+12	sie	sie	PRON	TRUNC	_	15	A	15:A	_
+13	an	an	ADP	APPR	_	14	R	14:R	_
+14	Schnelligkeit	Schnelligkeit	NOUN	NN	_	15	A	15:A	_
+15	gleichkommen	gleichkommen	ADJ	VVPP	_	8	E	8:E	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

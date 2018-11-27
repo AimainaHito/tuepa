@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25811006
+# text = Wirklich zeigten sich andere Tiere dieser Art vor dem Fenster .
+1	Wirklich	wirklich	ADV	ADV	_	2	G	2:G	_
+2	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	andere	ander	ADJ	ADJA	_	5	E	5:E	_
+5	Tiere	Tier	NOUN	NN	_	2	A	2:A	_
+6	dieser	dies	PRON	PDAT	_	7	R	7:R	_
+7	Art	Art	NOUN	NN	_	5	E	5:E	_
+8	vor	vor	ADP	NN	_	10	R	10:R	_
+9	dem	der	DET	ART	_	10	E	10:E	_
+10	Fenster	Fenster	NOUN	NN	_	2	A	2:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

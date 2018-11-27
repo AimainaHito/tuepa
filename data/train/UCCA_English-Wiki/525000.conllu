@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 525000
+# text = During this time Garland experienced her first serious adult romances .
+1	During	during	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	time	time	NOUN	NN	_	5	D	5:D	_
+4	Garland	Garland	PROPN	NNP	_	5	A	5:A	_
+5	experienced	experience	VERB	VBD	_	0	H	0:H	_
+6	her	she	PRON	PRP$	_	10	E	10:E	_
+7	first	first	ADJ	JJ	_	10	E	10:E	_
+8	serious	serious	ADJ	JJ	_	10	E	10:E	_
+9	adult	adult	NOUN	NN	_	10	E	10:E	_
+10	romances	romance	NOUN	NNS	_	5	A	5:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

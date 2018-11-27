@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 548002
+# text = Warner , however , had personal reasons for seeking retirement .
+1	Warner	Warner	PROPN	NNP	_	5	A	5:A|9:A	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	however	however	ADV	RB	_	5	L	5:L	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	had	have	VERB	VBD	_	0	H	0:H	_
+6	personal	personal	ADJ	JJ	_	7	E	7:E	_
+7	reasons	reason	NOUN	NNS	_	5	A	5:A	_
+8	for	for	SCONJ	IN	_	9	R	9:R	_
+9	seeking	seek	VERB	VBG	_	7	E	7:E	_
+10	retirement	retirement	NOUN	NN	_	9	A	9:A	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

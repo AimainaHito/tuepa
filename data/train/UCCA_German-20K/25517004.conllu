@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25517004
+# text = « » Worin besteht diese , mein Herr ? «
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Worin	worin	NOUN	PWAV	_	4	A	4:A	_
+4	besteht	bestehen	VERB	VVFIN	_	0	H	0:H	_
+5	diese	dies	PRON	PDAT	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herr	Herr	NOUN	NN	_	4	G	4:G	_
+9	?	?	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

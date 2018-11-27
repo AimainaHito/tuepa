@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 543000
+# text = Meanwhile , Jack Warner 's role in production became somewhat limited .
+1	Meanwhile	meanwhile	ADV	RB	_	11	G	11:G	_
+2	,	,	PUNCT	,	_	11	U	11:U	_
+3	Jack	Jack	PROPN	NNP	_	6	E	6:E	_
+4	Warner	Warner	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	's	's	PART	POS	_	3	R	3:R	_
+6	role	role	NOUN	NN	_	11	A	11:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	production	production	NOUN	NN	_	6	E	6:E	_
+9	became	become	VERB	VBD	_	11	D	11:D	_
+10	somewhat	somewhat	ADV	RB	_	11	D	11:D	_
+11	limited	limited	ADJ	JJ	_	0	H	0:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

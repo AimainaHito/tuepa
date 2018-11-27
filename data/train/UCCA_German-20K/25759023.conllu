@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25759023
+# text = Im oberen Teil dieses enormen Kopfs und in großen , durch Knorpel gesonderten Höhlungen befinden sich 3- bis 400 Kilogramm des kostbaren Öls , das » Walrat « genannt wird .
+1	Im	Im	ADV	NN	_	3	R	3:R	_
+2	oberen	ober	ADJ	ADJA	_	3	E	3:E	_
+3	Teil	Teil	NOUN	NN	_	15	A	15:A	_
+4	dieses	dies	PRON	PDAT	_	6	R	6:R	_
+5	enormen	enorm	ADJ	ADJA	_	6	E	6:E	_
+6	Kopfs	Kopf	NOUN	NN	_	3	E	3:E	_
+7	und	und	CCONJ	NE	_	3	N	3:N	_
+8	in	in	ADP	APPR	_	14	R	14:R	_
+9	großen	groß	ADJ	ADJA	_	14	E	14:E	_
+10	,	,	PUNCT	$,	_	14	U	14:U	_
+11	durch	durch	ADP	APPR	_	12	R	12:R	_
+12	Knorpel	Knorpel	NOUN	NN	_	13	A	13:A	_
+13	gesonderten	gesondert	ADJ	ADJA	_	14	E	14:E	_
+14	Höhlungen	Höhlung	NOUN	NN	_	3	C	3:C	_
+15	befinden	befinden	VERB	VVFIN	_	0	H	0:H	_
+16	sich	er|es|sie	PRON	PRF	_	15	Terminal	15:Terminal	_
+17	3-	3-	PUNCT	$(	_	20	E	20:E	_
+18	bis	bis	ADP	APPR	_	20	R	20:R	_
+19	400	400	NUM	CARD	_	20	E	20:E	_
+20	Kilogramm	Kilogramm	NOUN	NN	_	23	E	23:E	_
+21	des	der	DET	ART	_	23	R	23:R	_
+22	kostbaren	kostbar	ADJ	ADJA	_	23	E	23:E	_
+23	Öls	Öl	NOUN	NN	_	15	A	15:A	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	das	der	PRON	ART	_	29	R	29:R	_
+26	»	»	PUNCT	$(	_	29	U	29:U	_
+27	Walrat	Walrat	PROPN	NN	_	29	A	29:A	_
+28	«	«	PUNCT	$(	_	29	U	29:U	_
+29	genannt	nennen	AUX	VVPP	_	23	E	23:E	_
+30	wird	werden	AUX	VAFIN	_	29	F	29:F	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

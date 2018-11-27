@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25626016
+# text = Er schnitt zuerst von jedem Stamm einen Streifen Rinde , die einen Zoll dick ein Netz von langen Fasern bedeckte , die verwickelte Knoten bilden , von einer Art gummi haltigem Mehl zusammengekittet .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	schnitt	schneiden	VERB	VVFIN	_	0	H	0:H	_
+3	zuerst	zuerst	ADV	FM	_	2	D	2:D	_
+4	von	von	ADP	NE	_	6	R	6:R	_
+5	jedem	jed	PRON	PIAT	_	6	E	6:E	_
+6	Stamm	Stamm	NOUN	NN	_	2	A	2:A	_
+7	einen	ein	DET	ART	_	9	E	9:E	_
+8	Streifen	Streifen	NOUN	NE	_	9	E	9:E	_
+9	Rinde	Rind	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	20	R	20:R	_
+12	einen	ein	DET	PIS	_	13	E	13:E	_
+13	Zoll	Zoll	NOUN	VMFIN	_	20	D	20:D	_
+14	dick	dick	ADJ	ADJD	_	13	E	13:E	_
+15	ein	ein	DET	ART	_	16	E	16:E	_
+16	Netz	Netz	NOUN	NN	_	19	E	19:E	_
+17	von	von	ADP	NN	_	16	R	16:R	_
+18	langen	lang	ADJ	ADJA	_	19	E	19:E	_
+19	Fasern	Faser	NOUN	NN	_	20	A	20:A	_
+20	bedeckte	bedecken	VERB	VVFIN	_	9	E	9:E	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	DET	ART	_	25	R	25:R	_
+23	verwickelte	verwickeln	ADJ	ADJA	_	24	E	24:E	_
+24	Knoten	Knoten	NOUN	NN	_	25	A	25:A	_
+25	bilden	bilden	VERB	VVFIN	_	19	E	19:E	_
+26	,	,	PUNCT	$,	_	19	U	19:U	_
+27	von	von	ADP	NN	_	33	R	33:R	_
+28	einer	ein	DET	ART	_	29	E	29:E	_
+29	Art	Art	NOUN	NN	_	33	A	33:A	_
+30	gummi	gummi	ADP	NE	_	32	E	32:E	_
+31	haltigem	haltige	ADJ	ADJA	_	30	E	30:E	_
+32	Mehl	Mehl	NOUN	NN	_	33	A	33:A	_
+33	zusammengekittet	zusammengekitten	VERB	VVFIN	_	19	E	19:E	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

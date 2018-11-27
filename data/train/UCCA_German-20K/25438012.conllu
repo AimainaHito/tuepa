@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25438012
+# text = Ich war mit meiner Kabine sehr zufrieden ; sie lag am hinteren Schiffs teil und stieß an das Offiziers zimmer .
+1	Ich	ich	PRON	PPER	_	7	A	7:A	_
+2	war	sein	AUX	ADV	_	7	F	7:F	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	meiner	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Kabine	Kabine	NOUN	NE	_	7	A	7:A	_
+6	sehr	sehr	ADV	NE	_	7	D	7:D	_
+7	zufrieden	zufrieden	ADJ	ADJD	_	0	H	0:H	_
+8	;	;	PUNCT	$.	_	7	U	7:U	_
+9	sie	sie	PRON	ADV	_	10	A	10:A|16:A	_
+10	lag	liegen	VERB	VVFIN	_	7	H	7:H	_
+11	am	am	ADJ	ADJD	_	14	R	14:R	_
+12	hinteren	hinter	ADJ	ADJA	_	14	E	14:E	_
+13	Schiffs	Schiff	NOUN	NN	_	14	E	14:E	_
+14	teil	teil	ADV	NE	_	10	A	10:A	_
+15	und	und	CCONJ	NE	_	7	L	7:L	_
+16	stieß	stoßen	VERB	VVFIN	_	7	H	7:H	_
+17	an	an	ADP	APPR	_	20	R	20:R	_
+18	das	der	DET	ART	_	20	E	20:E	_
+19	Offiziers	Offizier	NOUN	NN	_	20	E	20:E	_
+20	zimmer	zimmer	ADV	NN	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

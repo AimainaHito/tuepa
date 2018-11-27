@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 673012
+# text = The song debuted at number eleven and peaked at number seven on the chart , and became Carey 's 27th US top - ten hit , tying her with Elton John and Janet Jackson as the fifth most top - ten hits .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	0	C	0:C|8:A|17:A	_
+3	debuted	debute	VERB	VBN	_	0	H	0:H	_
+4	at	at	ADP	IN	_	5	R	5:R	_
+5	number	number	NOUN	NN	_	3	A	3:A	_
+6	eleven	eleven	ADV	RB	_	5	E	5:E	_
+7	and	and	CCONJ	CC	_	3	L	3:L	_
+8	peaked	peake	VERB	VBN	_	3	H	3:H	_
+9	at	at	ADP	IN	_	10	R	10:R	_
+10	number	number	NOUN	NN	_	8	A	8:A	_
+11	seven	seven	NUM	CD	_	10	E	10:E	_
+12	on	on	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	chart	chart	NOUN	NN	_	10	E	10:E	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	and	and	CCONJ	CC	_	3	L	3:L	_
+17	became	become	VERB	VBD	_	3	H	3:H	_
+18	Carey	Carey	PROPN	NNP	_	25	E	25:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	27th	27th	NOUN	NN	_	25	E	25:E	_
+21	US	US	PROPN	NNP	_	25	E	25:E	_
+22	top	top	NOUN	NN	_	24	R	24:R	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	ten	ten	NUM	CD	_	25	E	25:E	_
+25	hit	hit	NOUN	NN	_	17	A	17:A	_
+26	,	,	PUNCT	,	_	3	U	3:U	_
+27	tying	ty	VERB	VBG	_	3	H	3:H	_
+28	her	she	PRON	PRP$	_	27	A	27:A	_
+29	with	with	ADP	IN	_	30	R	30:R	_
+30	Elton	Elton	PROPN	NNP	_	27	A	27:A	_
+31	John	John	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	and	and	CCONJ	CC	_	30	N	30:N	_
+33	Janet	Janet	PROPN	NNP	_	30	C	30:C	_
+34	Jackson	Jackson	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	as	as	ADP	IN	_	42	R	42:R	_
+36	the	the	DET	DT	_	42	E	42:E	_
+37	fifth	fifth	NOUN	NN	_	42	E	42:E	_
+38	most	most	ADV	RBS	_	41	E	41:E	_
+39	top	top	ADJ	JJ	_	41	E	41:E	_
+40	-	-	PUNCT	HYPH	_	41	U	41:U	_
+41	ten	ten	NOUN	NN	_	42	E	42:E	_
+42	hits	hit	NOUN	NNS	_	27	A	27:A	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

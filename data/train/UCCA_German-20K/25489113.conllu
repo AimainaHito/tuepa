@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25489113
+# text = Das Wasser war frisch und klar , aber es war Wasser - was Ned Land nicht behagte .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Wasser	Wasser	NOUN	NN	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	frisch	frisch	ADJ	ADJD	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	klar	klar	ADJ	ADJD	_	4	C	4:C	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	aber	aber	CCONJ	KON	_	4	L	4:L	_
+9	es	es	PRON	PPER	_	10	A	10:A	_
+10	war	sein	AUX	ADV	_	4	H	4:H	_
+11	Wasser	Wasser	NOUN	TRUNC	_	10	A	10:A	_
+12	-	-	PUNCT	$(	_	4	U	4:U	_
+13	was	was	PRON	NE	_	17	A	17:A	_
+14	Ned	Ned	PROPN	FM	_	17	A	17:A	_
+15	Land	Land	NOUN	FM	_	14	Terminal	14:Terminal	_
+16	nicht	nicht	PART	CARD	_	17	D	17:D	_
+17	behagte	behagen	VERB	VVFIN	_	4	H	4:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

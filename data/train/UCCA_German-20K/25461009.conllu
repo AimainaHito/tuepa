@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25461009
+# text = Ich schaute und schaute , dass ich meine Netzhaut abnützte , blind zu werden drohte , während Conseil , stets phlegmatisch , mir mit ruhigem Ton wiederholt zusprach : » Wenn mein Herr die Güte haben wollte , die Augen weniger auf zu reißen , so würde man wohl mehr sehen ! «
+1	Ich	ich	PRON	PPER	_	2	A	2:A|4:A	_
+2	schaute	schauen	VERB	VVFIN	_	0	H	0:H	_
+3	und	und	CCONJ	NE	_	2	L	2:L	_
+4	schaute	schauen	VERB	VVFIN	_	2	H	2:H	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	10	R	10:R	_
+7	ich	ich	PRON	PPER	_	10	A	10:A	_
+8	meine	mein	DET	VVFIN	_	9	E	9:E	_
+9	Netzhaut	Netzhaut	NOUN	NN	_	10	A	10:A	_
+10	abnützte	abnützen	VERB	VVFIN	_	12	A	12:A	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	blind	blind	VERB	ADJD	_	2	H	2:H	_
+13	zu	zu	PART	NE	_	12	F	12:F	_
+14	werden	werden	AUX	NE	_	12	F	12:F	_
+15	drohte	drohen	VERB	VVFIN	_	12	D	12:D	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	während	während	SCONJ	NN	_	2	L	2:L	_
+18	Conseil	Conseil	PROPN	NE	_	28	A	28:A|21:A	_
+19	,	,	PUNCT	$,	_	21	U	21:U	_
+20	stets	stets	ADV	ADV	_	21	D	21:D	_
+21	phlegmatisch	phlegmatisch	ADJ	ADJD	_	2	H	2:H	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	mir	ich	PRON	PPER	_	28	A	28:A	_
+24	mit	mit	ADP	APPR	_	26	R	26:R	_
+25	ruhigem	ruhig	ADJ	ADJA	_	26	E	26:E	_
+26	Ton	Ton	NOUN	NN	_	28	D	28:D	_
+27	wiederholt	wiederholen	VERB	ADJD	_	28	D	28:D	_
+28	zusprach	zusprach	ADV	PTKVZ	_	2	H	2:H	_
+29	:	:	PUNCT	$.	_	28	U	28:U	_
+30	»	»	PUNCT	$(	_	28	U	28:U	_
+31	Wenn	wenn	SCONJ	KOUS	_	42	L	42:L	_
+32	mein	mein	PRON	PPOSAT	_	33	E	33:E	_
+33	Herr	Herr	NOUN	NN	_	42	A	42:A	_
+34	die	der	DET	ART	_	35	E	35:E	_
+35	Güte	gut	NOUN	NN	_	42	A	42:A	_
+36	haben	haben	VERB	VAINF	_	42	F	42:F	_
+37	wollte	wollen	AUX	VMFIN	_	42	D	42:D	_
+38	,	,	PUNCT	$,	_	42	U	42:U	_
+39	die	der	DET	ART	_	40	E	40:E	_
+40	Augen	Auge	NOUN	NN	_	42	A	42:A	_
+41	weniger	weniger	ADV	ADV	_	42	D	42:D	_
+42	auf	auf	ADP	APPR	_	28	A	28:A	_
+43	zu	zu	PART	NN	_	42	F	42:F	_
+44	reißen	reißen	VERB	ADJA	_	42	Terminal	42:Terminal	_
+45	,	,	PUNCT	$,	_	42	U	42:U	_
+46	so	so	ADV	ADV	_	42	L	42:L	_
+47	würde	werden	AUX	NN	_	51	D	51:D	_
+48	man	man	PRON	PIS	_	51	A	51:A	_
+49	wohl	wohl	ADV	ADV	_	51	G	51:G	_
+50	mehr	mehr	ADV	ADV	_	51	A	51:A	_
+51	sehen	sehen	VERB	VVINF	_	42	H	42:H	_
+52	!	!	PUNCT	$.	_	51	U	51:U	_
+53	«	«	PUNCT	$(	_	51	U	51:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 659002
+# text = By the age of four , Carey recalled that she had begun to sneak the radio under her covers at night , and just sing from her heart , and try and find peace within the music .
+1	By	by	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	four	four	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Carey	Carey	PROPN	NNP	_	8	A	8:A|3:A|31:A|25:A	_
+8	recalled	recall	VERB	VBD	_	3	H	3:H	_
+9	that	that	SCONJ	IN	_	14	F	14:F	_
+10	she	she	PRON	PRP	_	14	A	14:A	_
+11	had	have	AUX	VBD	_	12	E	12:E	_
+12	begun	begin	VERB	VBN	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	sneak	sneak	VERB	VB	_	8	A	8:A	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	radio	radio	NOUN	NN	_	14	A	14:A	_
+17	under	under	ADP	IN	_	19	R	19:R	_
+18	her	she	PRON	PRP$	_	19	E	19:E	_
+19	covers	cover	NOUN	NNS	_	14	A	14:A	_
+20	at	at	ADP	IN	_	21	R	21:R	_
+21	night	night	NOUN	NN	_	14	D	14:D	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	and	and	CCONJ	CC	_	3	L	3:L	_
+24	just	just	ADV	RB	_	25	D	25:D	_
+25	sing	s	VERB	VBG	_	3	H	3:H	_
+26	from	from	ADP	IN	_	28	R	28:R	_
+27	her	she	PRON	PRP$	_	28	E	28:E	_
+28	heart	heart	NOUN	NN	_	25	A	25:A	_
+29	,	,	PUNCT	,	_	3	U	3:U	_
+30	and	and	CCONJ	CC	_	3	L	3:L	_
+31	try	try	VERB	VB	_	3	H	3:H	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	find	find	VERB	VB	_	31	C	31:C	_
+34	peace	peace	NOUN	NN	_	31	A	31:A	_
+35	within	within	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	music	music	NOUN	NN	_	31	A	31:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

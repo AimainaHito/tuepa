@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 556014
+# text = Many of his future recordings were inspired by local African - American musicians such as Arthur Crudup and Rufus Thomas .
+1	Many	many	ADJ	JJ	_	5	E	5:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	future	future	ADJ	JJ	_	5	E	5:E	_
+5	recordings	recording	NOUN	NNS	_	7	A	7:A	_
+6	were	be	AUX	VBD	_	7	F	7:F	_
+7	inspired	inspire	VERB	VBN	_	0	H	0:H	_
+8	by	by	ADP	IN	_	13	R	13:R	_
+9	local	local	ADJ	JJ	_	13	E	13:E	_
+10	African	african	ADJ	JJ	_	13	E	13:E	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	American	american	ADJ	JJ	_	10	Terminal	10:Terminal	_
+13	musicians	musician	NOUN	NNS	_	7	A	7:A	_
+14	such	such	ADJ	JJ	_	16	R	16:R	_
+15	as	as	ADP	IN	_	14	Terminal	14:Terminal	_
+16	Arthur	Arthur	PROPN	NNP	_	13	E	13:E	_
+17	Crudup	Crudup	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	and	and	CCONJ	CC	_	16	N	16:N	_
+19	Rufus	Rufus	PROPN	NNP	_	16	C	16:C	_
+20	Thomas	Thomas	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	16	U	16:U	_
+

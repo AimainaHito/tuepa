@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 532009
+# text = Her second performance , in Melbourne , started an hour late .
+1	Her	she	PRON	PRP$	_	3	E	3:E	_
+2	second	second	ADJ	JJ	_	3	E	3:E	_
+3	performance	performance	NOUN	NN	_	8	A	8:A	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	Melbourne	Melbourne	PROPN	NNP	_	8	A	8:A	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	started	start	VERB	VBD	_	0	H	0:H	_
+9	an	a	DET	DT	_	10	E	10:E	_
+10	hour	hour	NOUN	NN	_	8	D	8:D	_
+11	late	late	ADV	RB	_	10	R	10:R	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25627000
+# text = Am folgenden Morgen , dem 6 . Januar , nichts Neues an Bord .
+1	Am	am	PROPN	ADJD	_	3	E	3:E	_
+2	folgenden	folgenden	VERB	VVINF	_	3	E	3:E	_
+3	Morgen	Morgen	PROPN	XY	_	6	E	6:E	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	6	6	PROPN	CARD	_	11	D	11:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Januar	Januar	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	11	U	11:U	_
+10	nichts	nichts	PRON	NN	_	11	D	11:D	_
+11	Neues	neu	NOUN	ADJA	_	0	H	0:H	_
+12	an	an	ADP	APPR	_	13	R	13:R	_
+13	Bord	Bord	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25431004
+# text = Seine Vorräte waren eingeschifft , Kohlen in Überfluß , kein Mann der Bemannung fehlte an seinem Platz ; man brauchte nur zu heizen , auszulaufen !
+1	Seine	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Vorräte	Vorrat	NOUN	NN	_	4	A	4:A	_
+3	waren	sein	AUX	VAFIN	_	4	F	4:F	_
+4	eingeschifft	eingeschiffen	ADJ	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Kohlen	Kohle	NOUN	NN	_	4	H	4:H	_
+7	in	in	ADP	APPR	_	8	R	8:R	_
+8	Überfluß	Überfluß	NOUN	NN	_	6	D	6:D	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	kein	kein	PRON	PIAT	_	14	D	14:D	_
+11	Mann	Mann	NOUN	NN	_	14	A	14:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Bemannung	Bemannung	NOUN	NN	_	11	E	11:E	_
+14	fehlte	fehlen	VERB	VVFIN	_	4	H	4:H	_
+15	an	an	ADP	APPR	_	17	R	17:R	_
+16	seinem	sein	DET	PPOSAT	_	17	E	17:E	_
+17	Platz	Platz	NOUN	NN	_	14	A	14:A	_
+18	;	;	PUNCT	$.	_	4	U	4:U	_
+19	man	man	PRON	PIS	_	23	A	23:A|25:A	_
+20	brauchte	brauchen	VERB	VVFIN	_	23	D	23:D	_
+21	nur	nur	ADV	NE	_	23	D	23:D	_
+22	zu	zu	PART	NE	_	23	F	23:F	_
+23	heizen	heizen	VERB	NN	_	4	H	4:H	_
+24	,	,	PUNCT	$,	_	4	U	4:U	_
+25	auszulaufen	auszulaufen	VERB	VVPP	_	4	H	4:H	_
+26	!	!	PUNCT	$.	_	25	U	25:U	_
+

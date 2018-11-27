@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 553003
+# text = Born in Tupelo , Mississippi , Presley moved to Memphis , Tennessee , with his family at the age of 13 .
+1	Born	bear	PROPN	NNP	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	Tupelo	Tupelo	PROPN	NNP	_	1	A	1:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Mississippi	Mississippi	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	Presley	Presley	PROPN	NNP	_	8	A	8:A|1:A	_
+8	moved	move	VERB	VBD	_	1	H	1:H	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	Memphis	Memphis	PROPN	NNP	_	8	A	8:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Tennessee	Tennessee	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	family	family	NOUN	NN	_	8	A	8:A	_
+17	at	at	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	age	age	NOUN	NN	_	8	A	8:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	13	13	NUM	CD	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

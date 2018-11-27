@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 140014
+# text = Her work earned Hepburn a Tony Award nomination for Best Actress in a Musical .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	work	work	NOUN	NN	_	3	A	3:A	_
+3	earned	earn	VERB	VBD	_	0	H	0:H	_
+4	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A	_
+5	a	a	DET	DT	_	8	E	8:E	_
+6	Tony	Tony	PROPN	NNP	_	7	E	7:E	_
+7	Award	Award	PROPN	NNP	_	8	E	8:E	_
+8	nomination	nomination	NOUN	NN	_	3	A	3:A	_
+9	for	for	ADP	IN	_	11	R	11:R	_
+10	Best	best	ADJ	JJS	_	11	E	11:E	_
+11	Actress	actress	NOUN	NN	_	8	E	8:E	_
+12	in	in	ADP	IN	_	14	R	14:R	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	Musical	musical	PROPN	NNP	_	11	E	11:E	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

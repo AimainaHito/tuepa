@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 237002
+# text = Jackie Chan 's Cafe has outlets in Beijing , Singapore , Kuala Lumpur and the Philippines .
+1	Jackie	Jackie	PROPN	NNP	_	4	E	4:E	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	's	's	PART	POS	_	1	R	1:R	_
+4	Cafe	Cafe	PROPN	NNP	_	5	A	5:A	_
+5	has	have	VERB	VBZ	_	0	H	0:H	_
+6	outlets	outlet	NOUN	NNS	_	5	A	5:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Beijing	Beijing	PROPN	NNP	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	Singapore	Singapore	PROPN	NNP	_	8	C	8:C	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	Kuala	Kuala	PROPN	NNP	_	8	C	8:C	_
+13	Lumpur	Lumpur	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	and	and	CCONJ	CC	_	8	N	8:N	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Philippines	Philippines	PROPN	NNPS	_	8	C	8:C	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

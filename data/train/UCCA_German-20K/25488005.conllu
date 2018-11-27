@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25488005
+# text = Hatte die Mannschaft mein Verschwinden gemerkt ?
+1	Hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Mannschaft	Mannschaft	NOUN	NN	_	6	A	6:A	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Verschwinden	verschwinden	NOUN	NN	_	6	A	6:A	_
+6	gemerkt	merken	VERB	VVPP	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

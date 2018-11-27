@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25602006
+# text = » Könnten Sie mir diese angeben , um sie nötigenfalls zu berichtigen ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Könnten	können	AUX	VMFIN	_	4	D	4:D	_
+3	Sie	Sie|sie	PRON	PPER	_	4	A	4:A|12:A	_
+4	mir	ich	PRON	PPER	_	0	H	0:H	_
+5	diese	dies	PRON	PDAT	_	4	A	4:A	_
+6	angeben	angeben	VERB	VVPP	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	um	um	ADP	KOUI	_	4	L	4:L	_
+9	sie	sie	PRON	ADV	_	12	A	12:A	_
+10	nötigenfalls	nötigenfalls	ADV	ADV	_	12	D	12:D	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	berichtigen	berichtigen	VERB	VVINF	_	4	H	4:H	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+14	«	«	PUNCT	$(	_	12	U	12:U	_
+

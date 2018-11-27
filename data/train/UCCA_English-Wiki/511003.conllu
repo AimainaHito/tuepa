@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 511003
+# text = The event was recorded , and a selection of songs on which he had contributed joint vocals were subsequently released .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	event	event	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	recorded	record	VERB	VBN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	selection	selection	NOUN	NN	_	10	E	10:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	songs	song	NOUN	NNS	_	20	A	20:A	_
+11	on	on	ADP	IN	_	15	A	15:A	_
+12	which	which	PRON	WDT	_	11	F	11:F	_
+13	he	he	PRON	PRP	_	15	A	15:A	_
+14	had	have	AUX	VBD	_	15	F	15:F	_
+15	contributed	contribute	VERB	VBN	_	10	E	10:E	_
+16	joint	joint	ADJ	JJ	_	17	E	17:E	_
+17	vocals	vocal	NOUN	NNS	_	15	A	15:A	_
+18	were	be	AUX	VBD	_	20	F	20:F	_
+19	subsequently	subsequently	ADV	RB	_	20	D	20:D	_
+20	released	release	VERB	VBN	_	4	H	4:H	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

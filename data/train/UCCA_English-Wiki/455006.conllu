@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 455006
+# text = Jennings was praised for his performance during the 1986 Space Shuttle Challenger disaster , when he anchored ABC 's coverage of the event for 11 straight hours .
+1	Jennings	Jenning	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	praised	praise	VERB	VBN	_	0	H	0:H	_
+4	for	for	ADP	IN	_	6	R	6:R	_
+5	his	he	PRON	PRP$	_	6	A	6:A	_
+6	performance	performance	NOUN	NN	_	3	A	3:A	_
+7	during	during	ADP	IN	_	13	R	13:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	1986	1986	NUM	CD	_	13	D	13:D	_
+10	Space	Space	PROPN	NNP	_	11	E	11:E	_
+11	Shuttle	shuttle	PROPN	NNP	_	13	E	13:E	_
+12	Challenger	Challenger	PROPN	NNP	_	13	E	13:E	_
+13	disaster	disaster	NOUN	NN	_	6	A	6:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	when	when	ADV	WRB	_	3	L	3:L	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	anchored	anchor	VERB	VBD	_	3	H	3:H	_
+18	ABC	ABC	PROPN	NNP	_	20	A	20:A	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	coverage	coverage	NOUN	NN	_	17	A	17:A	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	event	event	NOUN	NN	_	20	A	20:A	_
+24	for	for	ADP	IN	_	27	R	27:R	_
+25	11	11	NUM	CD	_	27	E	27:E	_
+26	straight	straight	ADJ	JJ	_	27	E	27:E	_
+27	hours	hour	NOUN	NNS	_	17	D	17:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

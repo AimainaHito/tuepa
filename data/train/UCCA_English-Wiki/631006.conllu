@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 631006
+# text = After Parkes 's family moved to Scotland , the three cousins often spent their school holidays together there .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	Parkes	Parkes	NOUN	NNS	_	4	E	4:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	family	family	NOUN	NN	_	5	A	5:A	_
+5	moved	move	VERB	VBD	_	0	H	0:H	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	Scotland	Scotland	PROPN	NNP	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	three	three	NUM	CD	_	11	E	11:E	_
+11	cousins	cousin	NOUN	NNS	_	13	A	13:A	_
+12	often	often	ADV	RB	_	13	D	13:D	_
+13	spent	spend	VERB	VBD	_	5	H	5:H	_
+14	their	they	PRON	PRP$	_	16	E	16:E	_
+15	school	school	NOUN	NN	_	16	E	16:E	_
+16	holidays	holiday	NOUN	NNS	_	13	A	13:A	_
+17	together	together	ADV	RB	_	13	D	13:D	_
+18	there	there	ADV	RB	_	13	A	13:A	_
+19	.	.	PUNCT	.	_	13	U	13:U	_
+

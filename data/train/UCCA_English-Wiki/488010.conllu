@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 488010
+# text = In North America however , it earned considerably less , grossing less than US $ 133million .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	North	North	PROPN	NNP	_	7	A	7:A	_
+3	America	America	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	however	however	ADV	RB	_	7	L	7:L	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	it	it	PRON	PRP	_	7	A	7:A	_
+7	earned	earn	VERB	VBD	_	0	H	0:H	_
+8	considerably	considerably	ADV	RB	_	9	E	9:E	_
+9	less	less	ADV	RBR	_	7	D	7:D	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	grossing	grosse	VERB	VBG	_	7	H	7:H	_
+12	less	less	ADJ	JJR	_	14	E	14:E	_
+13	than	than	ADP	IN	_	14	F	14:F	_
+14	US	US	PROPN	NNP	_	11	A	11:A	_
+15	$	$	SYM	$	_	14	U	14:U	_
+16	133million	133million	NUM	CD	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

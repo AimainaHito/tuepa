@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25488130
+# text = Also hing unsere Rettung einzig vom Belieben der geheimnisvollen Leiter dieses Apparats ab , und wenn sie untertauchten , waren wir verloren !
+1	Also	also	ADV	ADV	_	2	L	2:L	_
+2	hing	hängen	VERB	VVFIN	_	0	H	0:H	_
+3	unsere	unser	DET	PPOSAT	_	4	E	4:E	_
+4	Rettung	Rettung	NOUN	NN	_	2	A	2:A	_
+5	einzig	einzig	ADJ	ADV	_	2	D	2:D	_
+6	vom	vom	ADP	NN	_	7	R	7:R	_
+7	Belieben	Belieben	NOUN	VVFIN	_	2	A	2:A	_
+8	der	der	DET	ART	_	10	R	10:R	_
+9	geheimnisvollen	geheimnisvoll	ADJ	ADJA	_	10	E	10:E	_
+10	Leiter	Leiter	NOUN	NN	_	7	A	7:A	_
+11	dieses	dies	PRON	PDAT	_	12	R	12:R	_
+12	Apparats	Apparats	NOUN	NN	_	10	E	10:E	_
+13	ab	ab	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	wenn	wenn	SCONJ	NE	_	2	L	2:L	_
+17	sie	sie	PRON	ADV	_	18	A	18:A	_
+18	untertauchten	untertauchen	VERB	VVFIN	_	2	H	2:H	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	waren	sein	AUX	VAFIN	_	22	F	22:F	_
+21	wir	wir	PRON	NE	_	22	A	22:A	_
+22	verloren	verlieren	ADV	VVFIN	_	2	H	2:H	_
+23	!	!	PUNCT	$.	_	22	U	22:U	_
+

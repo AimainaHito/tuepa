@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 225009
+# text = The three co - starred together for the first time in 1983 in Project A , which introduced a dangerous stunt - driven style of martial arts that won it the Best Action Design Award at the third annual Hong Kong Film Awards .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	three	three	NUM	CD	_	5	A	5:A	_
+3	co	co	X	AFX	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	starred	star	VERB	VBN	_	0	H	0:H	_
+6	together	together	ADV	RB	_	5	D	5:D	_
+7	for	for	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	first	first	ADJ	JJ	_	10	E	10:E	_
+10	time	time	NOUN	NN	_	5	A	5:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1983	1983	NUM	CD	_	5	D	5:D	_
+13	in	in	ADP	IN	_	14	E	14:E	_
+14	Project	project	PROPN	NNP	_	5	A	5:A	_
+15	A	a	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	which	which	PRON	WDT	_	18	F	18:F	_
+18	introduced	introduce	VERB	VBD	_	14	E	14:E	_
+19	a	a	DET	DT	_	27	E	27:E	_
+20	dangerous	dangerous	ADJ	JJ	_	27	E	27:E	_
+21	stunt	stunt	NOUN	NN	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	driven	drive	VERB	VBN	_	24	E	24:E	_
+24	style	style	NOUN	NN	_	27	E	27:E	_
+25	of	of	ADP	IN	_	24	F	24:F	_
+26	martial	martial	ADJ	JJ	_	27	E	27:E	_
+27	arts	art	NOUN	NNS	_	18	A	18:A	_
+28	that	that	PRON	WDT	_	29	F	29:F	_
+29	won	win	VERB	VBD	_	27	E	27:E	_
+30	it	it	PRON	PRP	_	29	A	29:A	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	Best	best	ADJ	JJS	_	29	A	29:A	_
+33	Action	Action	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Design	design	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	Award	award	PROPN	NNP	_	32	Terminal	32:Terminal	_
+36	at	at	ADP	IN	_	40	R	40:R	_
+37	the	the	DET	DT	_	40	E	40:E	_
+38	third	third	ADJ	JJ	_	40	E	40:E	_
+39	annual	annual	ADJ	JJ	_	40	E	40:E	_
+40	Hong	Hong	PROPN	NNP	_	29	A	29:A	_
+41	Kong	Kong	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	Film	film	PROPN	NNP	_	40	Terminal	40:Terminal	_
+43	Awards	awards	PROPN	NNPS	_	40	Terminal	40:Terminal	_
+44	.	.	PUNCT	.	_	40	U	40:U	_
+

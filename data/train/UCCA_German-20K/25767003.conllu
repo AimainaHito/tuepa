@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25767003
+# text = » Darunter her ! « rief ich aus .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Darunter	darunter	ADV	PAV	_	3	R	3:R	_
+3	her	her	ADV	ADV	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	aus	aus	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25740008
+# text = » Ebensowenig wie ich hinaufsteigen könnte . Bis zu einer Höhe von 100 Fuß ist der untere Teil des Berges innen zu ersteigen , aber darüber hinaus hängen die Wände über , und auf ihren Abhängen kann man nicht hinauf kommen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ebensowenig	Ebensowenig	PRON	PIS	_	0	H	0:H	_
+3	wie	wie	CCONJ	ADV	_	5	R	5:R	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	hinaufsteigen	hinaufsteigen	VERB	VVINF	_	2	H	2:H	_
+6	könnte	können	AUX	VMFIN	_	5	D	5:D	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+8	Bis	Bis	PROPN	APPR	_	11	R	11:R	_
+9	zu	zu	ADP	VVINF	_	8	Terminal	8:Terminal	_
+10	einer	ein	DET	ART	_	11	E	11:E	_
+11	Höhe	Höhe	NOUN	NN	_	23	A	23:A	_
+12	von	von	ADP	NE	_	14	R	14:R	_
+13	100	100	NUM	CARD	_	14	E	14:E	_
+14	Fuß	Fuß	NOUN	NN	_	11	E	11:E	_
+15	ist	sein	AUX	VVFIN	_	23	D	23:D	_
+16	der	der	DET	ART	_	18	E	18:E	_
+17	untere	unter	ADJ	ADJA	_	18	E	18:E	_
+18	Teil	Teil	NOUN	NN	_	23	A	23:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Berges	Berg	NOUN	NN	_	18	E	18:E	_
+21	innen	innen	ADV	ADV	_	23	A	23:A	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	ersteigen	ersteigen	VERB	VVINF	_	2	H	2:H	_
+24	,	,	PUNCT	$,	_	2	U	2:U	_
+25	aber	aber	CCONJ	KON	_	2	L	2:L	_
+26	darüber	darüber	ADV	PAV	_	28	R	28:R	_
+27	hinaus	hinaus	ADV	ADV	_	26	Terminal	26:Terminal	_
+28	hängen	hängen	VERB	VVFIN	_	2	H	2:H	_
+29	die	der	DET	ART	_	30	R	30:R	_
+30	Wände	Wand	NOUN	NN	_	28	A	28:A	_
+31	über	über	ADP	NE	_	28	Terminal	28:Terminal	_
+32	,	,	PUNCT	$,	_	2	U	2:U	_
+33	und	und	CCONJ	NE	_	2	L	2:L	_
+34	auf	auf	ADP	APPR	_	36	R	36:R	_
+35	ihren	ihr	DET	PPOSAT	_	36	E	36:E	_
+36	Abhängen	Abhang|Abhängen	NOUN	NN	_	40	A	40:A	_
+37	kann	können	AUX	VMFIN	_	40	D	40:D	_
+38	man	man	PRON	PIS	_	40	A	40:A	_
+39	nicht	nicht	PART	XY	_	40	D	40:D	_
+40	hinauf	hinauf	ADV	PTKVZ	_	2	H	2:H	_
+41	kommen	kommen	VERB	VVFIN	_	40	Terminal	40:Terminal	_
+42	.	.	PUNCT	$.	_	40	U	40:U	_
+43	«	«	PUNCT	$(	_	40	U	40:U	_
+

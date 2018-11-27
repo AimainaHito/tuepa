@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25583000
+# text = » Nautron respoc lorni virch . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nautron	Nautron	PROPN	NE	_	0	H	0:H	_
+3	respoc	respoc	PROPN	NE	_	2	Terminal	2:Terminal	_
+4	lorni	lorni	PROPN	NE	_	2	Terminal	2:Terminal	_
+5	virch	virch	ADV	NE	_	2	Terminal	2:Terminal	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	«	«	PUNCT	$(	_	2	U	2:U	_
+

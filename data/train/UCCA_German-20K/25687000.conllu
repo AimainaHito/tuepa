@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25687000
+# text = Der Taucher sah uns nicht ; wir waren durch den Schatten des Felsens seinen Blicken entzogen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Taucher	Taucher	NOUN	NN	_	0	C	0:C|15:A	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	uns	wir	PRON	NE	_	3	A	3:A	_
+5	nicht	nicht	PART	CARD	_	3	D	3:D	_
+6	;	;	PUNCT	$.	_	3	U	3:U	_
+7	wir	wir	PRON	NE	_	16	A	16:A	_
+8	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+9	durch	durch	ADP	APPR	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Schatten	Schatten	NOUN	NN	_	16	A	16:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Felsens	Felsen	NOUN	NN	_	11	E	11:E	_
+14	seinen	sein	DET	PPOSAT	_	15	R	15:R	_
+15	Blicken	Blick|Blicken	NOUN	NN	_	16	A	16:A	_
+16	entzogen	entziehen	VERB	VVPP	_	3	H	3:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

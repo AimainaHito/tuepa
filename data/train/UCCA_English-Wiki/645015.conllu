@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 645015
+# text = When asked , Lennon gave Ono the original handwritten lyrics to " The Word " .
+1	When	when	ADV	WRB	_	2	L	2:L	_
+2	asked	ask	VERB	VBN	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	Lennon	Lennon	PROPN	NNP	_	5	A	5:A	_
+5	gave	give	VERB	VBD	_	2	H	2:H	_
+6	Ono	Ono	PROPN	NNP	_	5	A	5:A|2:A	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	original	original	ADJ	JJ	_	10	E	10:E	_
+9	handwritten	handwritten	ADJ	JJ	_	10	E	10:E	_
+10	lyrics	lyric	NOUN	NNS	_	5	A	5:A	_
+11	to	to	ADP	IN	_	13	R	13:R	_
+12	"	"	PUNCT	``	_	13	U	13:U	_
+13	The	the	DET	DT	_	10	E	10:E	_
+14	Word	Word	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	"	"	PUNCT	''	_	13	U	13:U	_
+16	.	.	PUNCT	.	_	13	U	13:U	_
+

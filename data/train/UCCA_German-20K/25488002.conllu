@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25488002
+# text = Ein guter Schwimmer , verlor ich über dem Untertauchen nicht den Kopf .
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	guter	gut	ADJ	ADJA	_	3	D	3:D	_
+3	Schwimmer	Schwimmer	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	verlor	verlieren	VERB	VVFIN	_	3	H	3:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A|3:A|9:A	_
+7	über	über	ADP	VVFIN	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Untertauchen	untertauchen	NOUN	ADJA	_	5	A	5:A	_
+10	nicht	nicht	PART	CARD	_	5	D	5:D	_
+11	den	der	DET	ART	_	5	Terminal	5:Terminal	_
+12	Kopf	Kopf	NOUN	NN	_	5	Terminal	5:Terminal	_
+13	.	.	PUNCT	$.	_	5	U	5:U	_
+

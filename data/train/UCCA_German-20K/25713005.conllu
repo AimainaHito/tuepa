@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25713005
+# text = Der Mann war nah gekommen und betrachtete uns durch die Fenster .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	0	C	0:C|7:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	nah	nah	ADJ	ADJD	_	0	H	0:H	_
+5	gekommen	kommen	ADJ	VVPP	_	4	Terminal	4:Terminal	_
+6	und	und	CCONJ	NE	_	4	L	4:L	_
+7	betrachtete	betrachten	VERB	VVFIN	_	4	H	4:H	_
+8	uns	wir	PRON	NE	_	7	A	7:A	_
+9	durch	durch	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Fenster	Fenster	NOUN	NN	_	7	A	7:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

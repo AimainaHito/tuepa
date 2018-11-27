@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 604006
+# text = For Abbey Road , the band 's last recorded album , Martin suggested " a continuously moving piece of music " , urging the group to think symphonically .
+1	For	for	ADP	IN	_	2	R	2:R	_
+2	Abbey	Abbey	PROPN	NNP	_	13	A	13:A	_
+3	Road	Road	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	band	band	NOUN	NN	_	10	E	10:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	last	last	ADJ	JJ	_	10	E	10:E	_
+9	recorded	record	VERB	VBN	_	10	D	10:D	_
+10	album	album	NOUN	NN	_	2	E	2:E	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	Martin	Martin	PROPN	NNP	_	13	A	13:A|23:A	_
+13	suggested	suggest	VERB	VBD	_	0	H	0:H	_
+14	"	"	PUNCT	``	_	13	U	13:U	_
+15	a	a	DET	DT	_	18	E	18:E	_
+16	continuously	continuously	NOUN	NN	_	17	E	17:E	_
+17	moving	move	VERB	VBG	_	18	E	18:E	_
+18	piece	piece	NOUN	NN	_	13	A	13:A	_
+19	of	of	ADP	IN	_	20	R	20:R	_
+20	music	music	NOUN	NN	_	18	E	18:E	_
+21	"	"	PUNCT	''	_	13	U	13:U	_
+22	,	,	PUNCT	,	_	13	U	13:U	_
+23	urging	urg	VERB	VBG	_	13	H	13:H	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	group	group	NOUN	NN	_	23	A	23:A|27:A	_
+26	to	to	PART	TO	_	27	F	27:F	_
+27	think	think	VERB	VB	_	23	A	23:A	_
+28	symphonically	symphonically	ADV	RB	_	27	D	27:D	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

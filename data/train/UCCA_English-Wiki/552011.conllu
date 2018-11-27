@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 552011
+# text = , perhaps in an effort to discourage him from contesting the will .
+1	,	,	PUNCT	,	_	5	U	5:U	_
+2	perhaps	perhaps	ADV	RB	_	5	D	5:D	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	an	a	DET	DT	_	5	E	5:E	_
+5	effort	effort	NOUN	NN	_	0	H	0:H	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	discourage	discourage	VERB	VB	_	5	A	5:A	_
+8	him	he	PRON	PRP	_	7	A	7:A|10:A	_
+9	from	from	SCONJ	IN	_	10	R	10:R	_
+10	contesting	conteste	VERB	VBG	_	7	A	7:A	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	will	will	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 132009
+# text = The review in Time declared , " Come on back , Katie , all is forgiven .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	review	review	NOUN	NN	_	5	A	5:A	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	Time	time	PROPN	NNP	_	2	E	2:E	_
+5	declared	declare	VERB	VBD	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	"	"	PUNCT	``	_	5	U	5:U	_
+8	Come	come	ADJ	JJ	_	10	D	10:D	_
+9	on	on	ADP	IN	_	10	D	10:D	_
+10	back	back	ADV	RB	_	5	A	5:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Katie	Katie	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	all	all	DET	DT	_	16	A	16:A	_
+15	is	be	AUX	VBZ	_	16	F	16:F	_
+16	forgiven	forgive	VERB	VBN	_	10	H	10:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25502007
+# text = Leichte , bewegliche Pulte , die man nach Belieben näher oder ferner rücken konnte , dienten beim Lesen zum Auflegen der Bücher .
+1	Leichte	leicht	NOUN	ADJA	_	4	E	4:E	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	bewegliche	beweglich	ADJ	ADJA	_	4	E	4:E	_
+4	Pulte	Pult	NOUN	NN	_	16	A	16:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	13	R	13:R	_
+7	man	man	PRON	PIS	_	13	A	13:A|18:A	_
+8	nach	nach	ADP	NN	_	9	R	9:R	_
+9	Belieben	Belieben	NOUN	NN	_	13	A	13:A	_
+10	näher	nah	ADJ	ADJD	_	13	D	13:D	_
+11	oder	oder	CCONJ	CARD	_	10	N	10:N	_
+12	ferner	fern	ADV	ADV	_	10	C	10:C	_
+13	rücken	rücken	VERB	VVINF	_	4	E	4:E	_
+14	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	dienten	dienen	VERB	VVFIN	_	0	H	0:H	_
+17	beim	beim	ADJ	NE	_	18	R	18:R	_
+18	Lesen	Lese|Lesen	NOUN	NN	_	16	A	16:A	_
+19	zum	zum	ADP	NN	_	20	R	20:R	_
+20	Auflegen	auflegen	NOUN	NN	_	16	A	16:A	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	Bücher	Buch	NOUN	NN	_	20	A	20:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

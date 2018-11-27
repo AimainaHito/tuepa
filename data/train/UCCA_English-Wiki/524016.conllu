@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 524016
+# text = The success of these three films , and a further three films in 1941 , secured her position at MGM as a major property .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	success	success	NOUN	NN	_	16	A	16:A	_
+3	of	of	ADP	IN	_	6	R	6:R	_
+4	these	these	DET	DT	_	6	E	6:E	_
+5	three	three	NUM	CD	_	6	E	6:E	_
+6	films	film	NOUN	NNS	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	and	and	CCONJ	CC	_	6	N	6:N	_
+9	a	a	DET	DT	_	12	E	12:E	_
+10	further	further	ADJ	JJR	_	12	E	12:E	_
+11	three	three	NUM	CD	_	12	E	12:E	_
+12	films	film	NOUN	NNS	_	6	C	6:C	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	1941	1941	NUM	CD	_	12	E	12:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	secured	secure	VERB	VBD	_	0	H	0:H	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	position	position	NOUN	NN	_	16	A	16:A	_
+19	at	at	ADP	IN	_	20	R	20:R	_
+20	MGM	MGM	PROPN	NNP	_	18	E	18:E	_
+21	as	as	ADP	IN	_	24	R	24:R	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	major	major	ADJ	JJ	_	24	E	24:E	_
+24	property	property	NOUN	NN	_	16	A	16:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

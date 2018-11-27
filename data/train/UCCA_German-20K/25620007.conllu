@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25620007
+# text = Das Landungs boot wurde uns für den folgenden Morgen zur Verfügung gestellt .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	Landungs	Landungs	NOUN	NN	_	3	E	3:E	_
+3	boot	boieten	VERB	FM	_	10	A	10:A	_
+4	wurde	werden	AUX	NN	_	10	F	10:F	_
+5	uns	wir	PRON	NE	_	10	A	10:A	_
+6	für	für	ADP	APPR	_	9	R	9:R	_
+7	den	der	DET	ART	_	9	E	9:E	_
+8	folgenden	folgend	ADJ	NN	_	9	E	9:E	_
+9	Morgen	Morgen	NOUN	XY	_	10	A	10:A	_
+10	zur	zur	ADP	NE	_	0	H	0:H	_
+11	Verfügung	Verfügung	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	gestellt	stellen	VERB	VVPP	_	10	Terminal	10:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

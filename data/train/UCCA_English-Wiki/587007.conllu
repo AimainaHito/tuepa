@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 587007
+# text = In 2006 , Depp contributed a foreword to Gonzo : Photographs by Hunter S . Thompson , a posthumous biography published by ammobooks.com .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2006	2006	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+5	contributed	contribute	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	foreword	foreword	NOUN	NN	_	5	A	5:A	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	Gonzo	Gonzo	PROPN	NNP	_	5	A	5:A	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	Photographs	photograph	NOUN	NNS	_	9	Terminal	9:Terminal	_
+12	by	by	ADP	IN	_	9	Terminal	9:Terminal	_
+13	Hunter	Hunter	PROPN	NNP	_	9	Terminal	9:Terminal	_
+14	S	s	PROPN	NNP	_	9	Terminal	9:Terminal	_
+15	.	.	PUNCT	.	_	9	U	9:U	_
+16	Thompson	Thompson	PROPN	NNP	_	9	Terminal	9:Terminal	_
+17	,	,	PUNCT	,	_	9	U	9:U	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	posthumous	posthumous	ADJ	JJ	_	20	E	20:E	_
+20	biography	biography	NOUN	NN	_	9	E	9:E	_
+21	published	publish	VERB	VBN	_	20	E	20:E	_
+22	by	by	ADP	IN	_	23	R	23:R	_
+23	ammobooks.com	ammobooks.com	X	ADD	_	21	A	21:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

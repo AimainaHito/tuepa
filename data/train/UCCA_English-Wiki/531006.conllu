@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 531006
+# text = Following a third special , Judy Garland and Her Guests Phil Silvers and Robert Goulet , Garland 's weekly series debuted September 29 , 1963 .
+1	Following	follow	VERB	VBG	_	4	L	4:L	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	third	third	ADJ	JJ	_	4	E	4:E	_
+4	special	special	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Judy	Judy	PROPN	NNP	_	4	E	4:E	_
+7	Garland	Garland	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	and	and	CCONJ	CC	_	6	N	6:N	_
+9	Her	she	PROPN	NNP	_	10	E	10:E	_
+10	Guests	guests	PROPN	NNP	_	11	E	11:E	_
+11	Phil	Phil	PROPN	NNP	_	6	C	6:C	_
+12	Silvers	Silvers	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	11	N	11:N	_
+14	Robert	Robert	PROPN	NNP	_	11	C	11:C	_
+15	Goulet	Goulet	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	4	U	4:U	_
+17	Garland	Garland	PROPN	NNP	_	20	E	20:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	weekly	weekly	ADJ	JJ	_	20	E	20:E	_
+20	series	series	NOUN	NN	_	21	A	21:A	_
+21	debuted	debute	VERB	VBN	_	4	H	4:H	_
+22	September	September	PROPN	NNP	_	21	D	21:D	_
+23	29	29	NUM	CD	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	22	U	22:U	_
+25	1963	1963	NUM	CD	_	22	Terminal	22:Terminal	_
+26	.	.	PUNCT	.	_	21	U	21:U	_
+

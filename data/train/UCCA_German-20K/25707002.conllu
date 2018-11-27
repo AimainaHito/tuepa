@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25707002
+# text = Der Kapitän führte mich zur Mittel stiege .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+3	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	A	3:A	_
+5	zur	zur	ADV	NE	_	7	R	7:R	_
+6	Mittel	Mittel	NOUN	NN	_	7	E	7:E	_
+7	stiege	stiegen	VERB	VVFIN	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

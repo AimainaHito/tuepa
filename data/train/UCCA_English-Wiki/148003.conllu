@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 148003
+# text = " She felt she had partially experienced parenthood through her much younger siblings , which fulfilled any need to have children of her own .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	She	she	PRON	PRP	_	3	A	3:A	_
+3	felt	feel	VERB	VBD	_	0	H	0:H	_
+4	she	she	PRON	PRP	_	7	A	7:A|20:A	_
+5	had	have	VERB	VBD	_	7	F	7:F	_
+6	partially	partially	ADV	RB	_	7	D	7:D	_
+7	experienced	experience	ADJ	JJ	_	3	A	3:A|16:A	_
+8	parenthood	parenthood	NOUN	NN	_	7	A	7:A	_
+9	through	through	ADP	IN	_	13	R	13:R	_
+10	her	she	PRON	PRP$	_	13	E	13:E	_
+11	much	much	ADJ	JJ	_	12	E	12:E	_
+12	younger	younger	NOUN	NN	_	13	E	13:E	_
+13	siblings	sibling	NOUN	NNS	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	which	which	PRON	WDT	_	3	L	3:L	_
+16	fulfilled	fulfil	VERB	VBD	_	3	H	3:H	_
+17	any	any	DET	DT	_	18	E	18:E	_
+18	need	need	NOUN	NN	_	16	A	16:A	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	have	have	VERB	VB	_	18	E	18:E	_
+21	children	child	NOUN	NNS	_	20	A	20:A	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	her	she	PRON	PRP$	_	24	E	24:E	_
+24	own	own	ADJ	JJ	_	21	E	21:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

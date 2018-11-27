@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25766005
+# text = Ich muß gestehen , der Kapitän war doch sehr unvorsichtig .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	muß	müssen	AUX	VMFIN	_	3	D	3:D	_
+3	gestehen	stehen	VERB	VVINF	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Kapitän	Kapitän	NOUN	NN	_	10	A	10:A	_
+7	war	sein	AUX	ADV	_	10	F	10:F	_
+8	doch	doch	ADV	ADV	_	10	F	10:F	_
+9	sehr	sehr	ADV	NE	_	10	D	10:D	_
+10	unvorsichtig	unvorsichtig	ADJ	ADJD	_	3	A	3:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

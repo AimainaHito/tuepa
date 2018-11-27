@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25606001
+# text = Dieser fürchterliche Anblick war das Vorspiel zu Katastrophen , denen die " Nautilus " auf ihrer Fahrt begegnen sollte .
+1	Dieser	dies	PRON	PDAT	_	3	E	3:E	_
+2	fürchterliche	fürchterlich	ADJ	ADJA	_	3	E	3:E	_
+3	Anblick	Anblick	NOUN	NN	_	6	A	6:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Vorspiel	Vorspiel	NOUN	NN	_	0	H	0:H	_
+7	zu	zu	ADP	NE	_	8	R	8:R	_
+8	Katastrophen	Katastrophe	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	denen	der	PRON	PRELS	_	18	R	18:R	_
+11	die	der	DET	ART	_	13	E	13:E	_
+12	"	"	PUNCT	$(	_	13	U	13:U	_
+13	Nautilus	Nautilus	PROPN	NN	_	18	A	18:A	_
+14	"	"	PUNCT	$(	_	18	U	18:U	_
+15	auf	auf	ADP	APPR	_	17	R	17:R	_
+16	ihrer	ihr	DET	PPOSAT	_	17	E	17:E	_
+17	Fahrt	Fahrt	NOUN	NN	_	18	A	18:A	_
+18	begegnen	begegnen	VERB	VVINF	_	8	E	8:E	_
+19	sollte	sollen	AUX	VMFIN	_	18	D	18:D	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

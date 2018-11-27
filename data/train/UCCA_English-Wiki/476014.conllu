@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 476014
+# text = He also held the title of team vice president .
+1	He	he	PRON	PRP	_	5	A	5:A	_
+2	also	also	ADV	RB	_	5	D	5:D	_
+3	held	hold	VERB	VBD	_	5	D	5:D	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	title	title	NOUN	NN	_	0	H	0:H	_
+6	of	of	ADP	IN	_	9	R	9:R	_
+7	team	team	NOUN	NN	_	9	E	9:E	_
+8	vice	vice	NOUN	NN	_	9	E	9:E	_
+9	president	president	PROPN	NNP	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

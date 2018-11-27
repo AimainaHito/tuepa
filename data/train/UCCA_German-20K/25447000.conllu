@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25447000
+# text = » Hölzerne , wohl möglich « , erwiderte der Kanadier ; und dazu hab' ich solche nie gesehen . Also , bis mir der Beweis vom Gegenteil erbracht wird , leugne ich , dass Walfische , Pottfische oder Einhörner solch eine Wirkung hervorbringen können .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Hölzerne	hölzern	NOUN	NN	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wohl	wohl	ADV	ADV	_	5	E	5:E	_
+5	möglich	möglich	ADJ	ADJD	_	2	D	2:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kanadier	Kanadier	NOUN	NN	_	8	A	8:A	_
+11	;	;	PUNCT	$.	_	8	U	8:U	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	dazu	dazu	ADV	PAV	_	2	L	2:L	_
+14	hab'	hab'	PUNCT	$(	_	18	F	18:F	_
+15	ich	ich	PRON	PPER	_	18	A	18:A	_
+16	solche	solch	PRON	VVINF	_	18	A	18:A	_
+17	nie	nie	ADV	ADV	_	18	D	18:D	_
+18	gesehen	sehen	VERB	VVINF	_	2	H	2:H	_
+19	.	.	PUNCT	$.	_	2	U	2:U	_
+20	Also	also	PROPN	NE	_	2	L	2:L	_
+21	,	,	PUNCT	$,	_	2	U	2:U	_
+22	bis	bis	ADP	APPR	_	2	L	2:L	_
+23	mir	ich	PRON	PPER	_	28	A	28:A	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	Beweis	Beweis	NOUN	NN	_	28	A	28:A	_
+26	vom	vom	ADP	NE	_	27	R	27:R	_
+27	Gegenteil	Gegenteil	NOUN	NN	_	25	E	25:E	_
+28	erbracht	erbrachen	VERB	VVFIN	_	2	H	2:H	_
+29	wird	werden	AUX	VAFIN	_	28	F	28:F	_
+30	,	,	PUNCT	$,	_	2	U	2:U	_
+31	leugne	leugne	ADV	NN	_	2	H	2:H	_
+32	ich	ich	PRON	PPER	_	31	A	31:A	_
+33	,	,	PUNCT	$,	_	31	U	31:U	_
+34	dass	dass	SCONJ	KOUS	_	43	R	43:R	_
+35	Walfische	Walfisch	PROPN	NE	_	43	A	43:A	_
+36	,	,	PUNCT	$,	_	35	U	35:U	_
+37	Pottfische	Pottfisch	PROPN	ADJA	_	35	C	35:C	_
+38	oder	oder	CCONJ	CARD	_	35	N	35:N	_
+39	Einhörner	Einhorn	NOUN	NE	_	35	C	35:C	_
+40	solch	solch	PRON	ADJD	_	41	E	41:E	_
+41	eine	ein	DET	ART	_	42	E	42:E	_
+42	Wirkung	Wirkung	NOUN	NN	_	43	A	43:A	_
+43	hervorbringen	hervorbringen	VERB	NE	_	31	A	31:A	_
+44	können	können	AUX	VMINF	_	43	F	43:F	_
+45	.	.	PUNCT	$.	_	43	U	43:U	_
+

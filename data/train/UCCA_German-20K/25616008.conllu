@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25616008
+# text = Um 12 Uhr , als der Schiffs leutnant den Stand der Sonne aufnahm , gewahrte ich die Gipfel des Gebirges Arfalxs , das aus den Ebenen stufenmäßig zu steilen Spitzen aufsteigt .
+1	Um	um	ADP	KOUI	_	2	E	2:E	_
+2	12	12	NUM	CARD	_	15	D	15:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	15	U	15:U	_
+5	als	als	SCONJ	KOUS	_	15	L	15:L	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	Schiffs	Schiff	NOUN	NN	_	8	E	8:E	_
+8	leutnant	leutnanen	VERB	ADJD	_	13	A	13:A	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Stand	Stand	NOUN	NN	_	13	A	13:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Sonne	Sonne	NOUN	NN	_	10	E	10:E	_
+13	aufnahm	aufnehmen	VERB	VVFIN	_	15	H	15:H	_
+14	,	,	PUNCT	$,	_	15	U	15:U	_
+15	gewahrte	gewahrt	VERB	VVFIN	_	0	H	0:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Gipfel	Gipfel	NOUN	NN	_	15	A	15:A	_
+19	des	der	DET	ART	_	21	R	21:R	_
+20	Gebirges	Gebirge	NOUN	NN	_	21	E	21:E	_
+21	Arfalxs	Arfalxs	PROPN	NE	_	18	E	18:E	_
+22	,	,	PUNCT	$,	_	31	U	31:U	_
+23	das	der	PRON	PRELS	_	31	R	31:R	_
+24	aus	aus	ADP	APPR	_	26	R	26:R	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Ebenen	Ebene	NOUN	NN	_	31	A	31:A	_
+27	stufenmäßig	stufenmäßig	ADJ	ADJD	_	31	D	31:D	_
+28	zu	zu	PART	ADJA	_	30	R	30:R	_
+29	steilen	steilen	VERB	ADJA	_	30	E	30:E	_
+30	Spitzen	Spitze	NOUN	NN	_	31	A	31:A	_
+31	aufsteigt	aufsteigen	VERB	VVFIN	_	18	E	18:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25714016
+# text = Das Boot wurde heraufgezogen , in seinem Gehäuse geborgen , und die ›Nautilus‹ tauchte wieder unter .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	0	C	0:C|9:A	_
+3	wurde	werden	AUX	TRUNC	_	4	F	4:F	_
+4	heraufgezogen	heraufziehen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	seinem	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Gehäuse	Gehäuse	NOUN	NN	_	9	A	9:A	_
+9	geborgen	bergen	VERB	VVPP	_	4	H	4:H	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	und	und	CCONJ	NE	_	4	L	4:L	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	A	14:A	_
+14	tauchte	tauchen	VERB	VVFIN	_	4	H	4:H	_
+15	wieder	wieder	ADV	NE	_	14	D	14:D	_
+16	unter	unter	ADP	ADJD	_	14	Terminal	14:Terminal	_
+17	.	.	PUNCT	$.	_	14	U	14:U	_
+

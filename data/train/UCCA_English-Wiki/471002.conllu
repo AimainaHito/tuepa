@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 471002
+# text = In the next season , Johnson averaged a career - high of 23.9 points , as well as 12.2 assists and 6.3 rebounds per game , and earned his first regular season MVP award .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	next	next	ADJ	JJ	_	4	D	4:D	_
+4	season	season	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Johnson	Johnson	PROPN	NNP	_	7	A	7:A|28:A	_
+7	averaged	average	VERB	VBD	_	4	H	4:H	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	career	career	NOUN	NN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	high	high	NOUN	NN	_	14	E	14:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	23.9	23.9	NUM	CD	_	14	E	14:E	_
+14	points	point	NOUN	NNS	_	7	A	7:A	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	as	as	ADV	RB	_	14	N	14:N	_
+17	well	well	ADV	RB	_	16	Terminal	16:Terminal	_
+18	as	as	ADP	IN	_	16	Terminal	16:Terminal	_
+19	12.2	12.2	NUM	CD	_	20	E	20:E	_
+20	assists	assist	NOUN	NNS	_	14	C	14:C	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	6.3	6.3	NUM	CD	_	23	E	23:E	_
+23	rebounds	rebound	NOUN	NNS	_	20	C	20:C	_
+24	per	per	ADP	IN	_	25	R	25:R	_
+25	game	game	NOUN	NN	_	14	E	14:E	_
+26	,	,	PUNCT	,	_	4	U	4:U	_
+27	and	and	CCONJ	CC	_	4	L	4:L	_
+28	earned	earn	VERB	VBD	_	4	H	4:H	_
+29	his	he	PRON	PRP$	_	30	E	30:E	_
+30	first	first	ADJ	JJ	_	34	E	34:E	_
+31	regular	regular	ADJ	JJ	_	32	E	32:E	_
+32	season	season	NOUN	NN	_	34	E	34:E	_
+33	MVP	Mvp	NOUN	NN	_	34	E	34:E	_
+34	award	award	NOUN	NN	_	28	A	28:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

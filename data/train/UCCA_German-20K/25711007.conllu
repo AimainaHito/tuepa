@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25711007
+# text = » Alles dies steht richtig « , erwiderte der Kanadier . » Aber Ihre Bemerkung gilt für jeden Flucht versuch , mag er in 2 Jahren oder in 2 Tagen stattfinden . Folglich kommt die Frage immer darauf hinaus : wenn eine günstige Gelegenheit sich bietet , muß man sie ergreifen . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Alles	alle	PRON	PIS	_	3	E	3:E	_
+3	dies	dies	PRON	PDS	_	5	A	5:A	_
+4	steht	stehen	VERB	VVFIN	_	5	F	5:F	_
+5	richtig	richtig	ADJ	ADJD	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kanadier	Kanadier	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+14	Ihre	Ihr|ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Bemerkung	Bemerkung	NOUN	NN	_	16	A	16:A	_
+16	gilt	gelten	AUX	VVFIN	_	5	H	5:H	_
+17	für	für	ADP	APPR	_	20	R	20:R	_
+18	jeden	jed	PRON	PIAT	_	20	E	20:E	_
+19	Flucht	Flucht	NOUN	NN	_	20	E	20:E	_
+20	versuch	versuch	ADV	NN	_	16	A	16:A	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	mag	mögen	AUX	VVFIN	_	23	D	23:D|31:D	_
+23	er	er	PRON	PPER	_	5	H	5:H	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	2	2	NUM	CARD	_	26	E	26:E	_
+26	Jahren	Jahr	NOUN	NN	_	23	D	23:D	_
+27	oder	oder	CCONJ	CARD	_	5	L	5:L	_
+28	in	in	ADP	APPR	_	30	R	30:R	_
+29	2	2	NUM	CARD	_	30	E	30:E	_
+30	Tagen	Tag	NOUN	NN	_	31	D	31:D	_
+31	stattfinden	stattfinden	VERB	VVFIN	_	0	P	0:P|23:P	_
+32	.	.	PUNCT	$.	_	5	U	5:U	_
+33	Folglich	Folglich	ADV	APPR	_	34	D	34:D	_
+34	kommt	kommen	VERB	VVFIN	_	5	H	5:H	_
+35	die	der	DET	ART	_	36	E	36:E	_
+36	Frage	Frage	NOUN	NN	_	34	A	34:A	_
+37	immer	immer	ADV	ADV	_	34	D	34:D	_
+38	darauf	darauf	ADV	PAV	_	45	R	45:R	_
+39	hinaus	hinaus	ADV	ADV	_	34	Terminal	34:Terminal	_
+40	:	:	PUNCT	$.	_	34	U	34:U	_
+41	wenn	wenn	SCONJ	VVFIN	_	45	L	45:L	_
+42	eine	ein	DET	ART	_	44	E	44:E	_
+43	günstige	günstig	ADJ	ADJA	_	44	E	44:E	_
+44	Gelegenheit	Gelegenheit	NOUN	NN	_	45	A	45:A	_
+45	sich	er|es|sie	PRON	PRF	_	34	A	34:A	_
+46	bietet	bieten	VERB	VVFIN	_	45	Terminal	45:Terminal	_
+47	,	,	PUNCT	$,	_	45	U	45:U	_
+48	muß	müssen	AUX	VMFIN	_	51	D	51:D	_
+49	man	man	PRON	PIS	_	51	A	51:A	_
+50	sie	sie	PRON	ADV	_	51	A	51:A	_
+51	ergreifen	ergreifen	VERB	VVINF	_	45	H	45:H	_
+52	.	.	PUNCT	$.	_	51	U	51:U	_
+53	«	«	PUNCT	$(	_	51	U	51:U	_
+

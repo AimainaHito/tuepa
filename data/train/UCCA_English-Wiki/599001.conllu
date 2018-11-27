@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 599001
+# text = With John Lennon , George Harrison and Ringo Starr , he gained worldwide fame as a member of the Beatles , and his collaboration with Lennon is one of the most celebrated songwriting partnerships of the 20th century .
+1	With	with	ADP	IN	_	2	R	2:R	_
+2	John	John	PROPN	NNP	_	12	A	12:A	_
+3	Lennon	Lennon	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	George	George	PROPN	NNP	_	2	C	2:C	_
+6	Harrison	Harrison	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	and	and	CCONJ	CC	_	2	N	2:N	_
+8	Ringo	Ringo	PROPN	NNP	_	2	C	2:C	_
+9	Starr	Starr	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	12	U	12:U	_
+11	he	he	PRON	PRP	_	12	A	12:A	_
+12	gained	gain	VERB	VBD	_	0	H	0:H	_
+13	worldwide	worldwide	ADJ	JJ	_	14	E	14:E	_
+14	fame	fame	NOUN	NN	_	12	A	12:A	_
+15	as	as	ADP	IN	_	20	R	20:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	member	member	NOUN	NN	_	20	E	20:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Beatles	Beatles	PROPN	NNPS	_	12	A	12:A	_
+21	,	,	PUNCT	,	_	12	U	12:U	_
+22	and	and	CCONJ	CC	_	12	L	12:L	_
+23	his	he	PRON	PRP$	_	24	A	24:A	_
+24	collaboration	collaboration	NOUN	NN	_	27	A	27:A	_
+25	with	with	ADP	IN	_	26	R	26:R	_
+26	Lennon	Lennon	PROPN	NNP	_	24	A	24:A	_
+27	is	be	AUX	VBZ	_	12	H	12:H	_
+28	one	one	NUM	CD	_	34	E	34:E	_
+29	of	of	ADP	IN	_	28	R	28:R	_
+30	the	the	DET	DT	_	34	E	34:E	_
+31	most	most	ADV	RBS	_	32	E	32:E	_
+32	celebrated	celebrate	ADJ	JJ	_	34	E	34:E	_
+33	songwriting	songwrit	NOUN	NN	_	34	E	34:E	_
+34	partnerships	partnership	NOUN	NNS	_	27	A	27:A	_
+35	of	of	ADP	IN	_	38	R	38:R	_
+36	the	the	DET	DT	_	38	E	38:E	_
+37	20th	20th	ADJ	JJ	_	38	E	38:E	_
+38	century	century	NOUN	NN	_	34	E	34:E	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

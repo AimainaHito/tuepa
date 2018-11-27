@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25724015
+# text = Indem ich so den Salon durchlief , kam ich an die Tür , die in das Zimmer des Kapitäns führte .
+1	Indem	indem	SCONJ	KOUS	_	6	L	6:L	_
+2	ich	ich	PRON	PPER	_	6	A	6:A	_
+3	so	so	ADV	ADV	_	6	D	6:D	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Salon	Salen	NOUN	NN	_	6	A	6:A	_
+6	durchlief	durchlaufen	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	kam	kommen	VERB	VVFIN	_	6	H	6:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	an	an	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Tür	Tür	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	die	der	PRON	PRELS	_	20	R	20:R	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	das	der	DET	ART	_	17	E	17:E	_
+17	Zimmer	Zimmer	NOUN	NN	_	20	A	20:A	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Kapitäns	Kapitän	NOUN	NN	_	17	E	17:E	_
+20	führte	führen	VERB	VVFIN	_	12	E	12:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

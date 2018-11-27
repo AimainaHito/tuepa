@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 616008
+# text = Miles later wrote McCartney 's official biography , Many Years From Now ( 1997 ) .
+1	Miles	mile	NOUN	NNS	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	wrote	write	VERB	VBD	_	0	H	0:H	_
+4	McCartney	McCartney	PROPN	NNP	_	7	E	7:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	official	official	ADJ	JJ	_	7	E	7:E	_
+7	biography	biography	NOUN	NN	_	9	E	9:E	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	Many	many	ADJ	JJ	_	3	A	3:A	_
+10	Years	year	NOUN	NNS	_	9	Terminal	9:Terminal	_
+11	From	from	ADP	IN	_	9	Terminal	9:Terminal	_
+12	Now	now	ADV	RB	_	9	Terminal	9:Terminal	_
+13	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+14	1997	1997	NUM	CD	_	9	E	9:E	_
+15	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

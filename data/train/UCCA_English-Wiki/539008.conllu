@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 539008
+# text = The film proved to be a commercial and critical success , and the four brothers were able to establish a studio in California .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	10	A	10:A	_
+3	proved	prove	VERB	VBN	_	10	D	10:D	_
+4	to	to	PART	TO	_	10	F	10:F	_
+5	be	be	AUX	VB	_	10	F	10:F	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	commercial	commercial	ADJ	JJ	_	10	A	10:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	critical	critical	ADJ	JJ	_	7	C	7:C	_
+10	success	success	NOUN	NN	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	and	and	CCONJ	CC	_	10	L	10:L	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	four	four	NUM	CD	_	15	E	15:E	_
+15	brothers	brother	NOUN	NNS	_	19	A	19:A	_
+16	were	be	AUX	VBD	_	19	F	19:F	_
+17	able	able	ADJ	JJ	_	19	E	19:E	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	establish	establish	VERB	VB	_	10	H	10:H	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	studio	studio	NOUN	NN	_	19	A	19:A	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	California	California	PROPN	NNP	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

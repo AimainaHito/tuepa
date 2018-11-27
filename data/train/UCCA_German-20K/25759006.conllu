@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25759006
+# text = Indessen betrachtete Kapitän Nemo die Herde Walfische und sagte zu mir :
+1	Indessen	indessen	ADV	ADV	_	2	L	2:L	_
+2	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	0	C	0:C|9:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Herde	Herde	PROPN	NN	_	7	E	7:E	_
+7	Walfische	Walfisch	PROPN	ADJA	_	2	A	2:A	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+10	zu	zu	ADP	VVINF	_	11	R	11:R	_
+11	mir	ich	PRON	PPER	_	9	A	9:A	_
+12	:	:	PUNCT	$.	_	11	U	11:U	_
+

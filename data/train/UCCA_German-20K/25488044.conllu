@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25488044
+# text = Dieser phlegmatische Bursche war hier wie zu Hause .
+1	Dieser	dies	PRON	PDAT	_	3	E	3:E	_
+2	phlegmatische	phlegmatisch	ADJ	ADJA	_	3	E	3:E	_
+3	Bursche	Bursche	NOUN	ADJA	_	8	A	8:A	_
+4	war	sein	AUX	NN	_	8	F	8:F	_
+5	hier	hier	ADV	ADV	_	8	A	8:A	_
+6	wie	wie	ADV	ADV	_	8	R	8:R	_
+7	zu	zu	ADP	VVINF	_	8	R	8:R	_
+8	Hause	Haus	NOUN	NN	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

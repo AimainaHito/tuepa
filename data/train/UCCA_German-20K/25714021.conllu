@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25714021
+# text = Meine Gefährten waren nicht minder wie ich darüber erstaunt .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Gefährten	Gefährt|Gefährte	NOUN	NE	_	9	A	9:A	_
+3	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+4	nicht	nicht	PART	XY	_	9	D	9:D	_
+5	minder	minder	ADV	ADV	_	9	D	9:D	_
+6	wie	wie	SCONJ	ADV	_	7	R	7:R	_
+7	ich	ich	PRON	PPER	_	9	H	9:H	_
+8	darüber	darüber	ADV	PAV	_	9	A	9:A	_
+9	erstaunt	erstaunt	ADJ	ADJD	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

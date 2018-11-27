@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25699005
+# text = » Ich wundere mich , dass wir übermorgen dort sein sollen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	wundere	wundern	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	dass	dass	SCONJ	KOUS	_	10	R	10:R	_
+7	wir	wir	PRON	NE	_	10	A	10:A	_
+8	übermorgen	übermorgen	VERB	VVFIN	_	10	D	10:D	_
+9	dort	dort	ADV	ADV	_	10	D	10:D	_
+10	sein	sein	AUX	VAINF	_	3	A	3:A	_
+11	sollen	sollen	AUX	VMFIN	_	10	D	10:D	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+13	«	«	PUNCT	$(	_	10	U	10:U	_
+

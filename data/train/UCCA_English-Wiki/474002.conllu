@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 474002
+# text = " He insisted that his health was not an issue , while downplaying questions about returning as a player , saying , " I 'm retired . Let 's leave it at that .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	He	he	PRON	PRP	_	3	A	3:A	_
+3	insisted	insist	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	7	F	7:F	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	health	health	NOUN	NN	_	7	A	7:A	_
+7	was	be	AUX	VBD	_	3	A	3:A	_
+8	not	not	PART	RB	_	7	D	7:D	_
+9	an	a	DET	DT	_	10	E	10:E	_
+10	issue	issue	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	while	while	SCONJ	IN	_	3	L	3:L	_
+13	downplaying	downplay	VERB	VBG	_	3	H	3:H	_
+14	questions	question	NOUN	NNS	_	13	A	13:A	_
+15	about	about	SCONJ	IN	_	16	R	16:R	_
+16	returning	return	VERB	VBG	_	13	A	13:A	_
+17	as	as	ADP	IN	_	19	R	19:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	player	player	NOUN	NN	_	16	A	16:A	_
+20	,	,	PUNCT	,	_	3	U	3:U	_
+21	saying	say	VERB	VBG	_	3	H	3:H	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	"	"	PUNCT	``	_	21	U	21:U	_
+24	I	I	PRON	PRP	_	26	A	26:A	_
+25	'm	be	AUX	VBP	_	26	F	26:F	_
+26	retired	retired	ADJ	JJ	_	21	A	21:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+28	Let	let	VERB	VB	_	30	F	30:F	_
+29	's	's	PRON	PRP	_	28	Terminal	28:Terminal	_
+30	leave	leave	VERB	VB	_	26	H	26:H	_
+31	it	it	PRON	PRP	_	30	A	30:A	_
+32	at	at	ADP	IN	_	33	R	33:R	_
+33	that	that	PRON	DT	_	30	A	30:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

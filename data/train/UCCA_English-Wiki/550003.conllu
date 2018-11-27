@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 550003
+# text = Shortly after the accident , his son , Jack Jr . , joined other family members in France , where the unconscious studio head was hospitalized .
+1	Shortly	shortly	ADV	RB	_	2	E	2:E	_
+2	after	after	ADP	IN	_	4	L	4:L	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	accident	accident	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	son	son	NOUN	NN	_	9	E	9:E	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	Jack	Jack	PROPN	NNP	_	13	A	13:A	_
+10	Jr	Jr	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	13	U	13:U	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	joined	join	VERB	VBD	_	4	H	4:H	_
+14	other	other	ADJ	JJ	_	16	E	16:E	_
+15	family	family	NOUN	NN	_	16	E	16:E	_
+16	members	member	NOUN	NNS	_	13	A	13:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	France	France	PROPN	NNP	_	13	A	13:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	where	where	ADV	WRB	_	26	F	26:F	_
+21	the	the	DET	DT	_	24	E	24:E	_
+22	unconscious	unconscious	ADJ	JJ	_	24	E	24:E	_
+23	studio	studio	NOUN	NN	_	24	E	24:E	_
+24	head	head	NOUN	NN	_	26	A	26:A	_
+25	was	be	AUX	VBD	_	26	F	26:F	_
+26	hospitalized	hospitalize	VERB	VBN	_	18	E	18:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25730013
+# text = » Tun Sie das , Kapitän . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Tun	Tun	PROPN	VVFIN	_	0	H	0:H	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	das	der	DET	ART	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	2	G	2:G	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+8	«	«	PUNCT	$(	_	2	U	2:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25626013
+# text = Ned Land verstand sich darauf , diese Bäume zu behandeln .
+1	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	verstand	verstehen	VERB	VVFIN	_	10	D	10:D	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	darauf	darauf	ADV	PAV	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	diese	dies	PRON	PDAT	_	8	E	8:E	_
+8	Bäume	Baum	NOUN	NN	_	10	A	10:A	_
+9	zu	zu	PART	VVINF	_	10	F	10:F	_
+10	behandeln	behandeln	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

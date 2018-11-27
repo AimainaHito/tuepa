@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 604018
+# text = " In September 1971 , the McCartneys ' daughter Stella was born , named in honour of Linda 's grandmothers , both of whom were named Stella .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	September	September	PROPN	NNP	_	12	D	12:D	_
+4	1971	1971	NUM	CD	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	12	U	12:U	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	McCartneys	McCartneys	PROPN	NNPS	_	9	E	9:E	_
+8	'	's	PART	POS	_	9	U	9:U	_
+9	daughter	daughter	NOUN	NN	_	10	E	10:E	_
+10	Stella	Stella	PROPN	NNP	_	0	C	0:C|14:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	born	bear	VERB	VBN	_	0	H	0:H	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	named	name	VERB	VBN	_	12	H	12:H	_
+15	in	in	ADP	IN	_	20	R	20:R	_
+16	honour	honour	NOUN	NN	_	20	E	20:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	Linda	Linda	PROPN	NNP	_	20	E	20:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	grandmothers	grandmother	NOUN	NNS	_	14	A	14:A	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	both	both	CCONJ	CC	_	26	A	26:A	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	whom	whom	PRON	WP	_	22	F	22:F	_
+25	were	be	AUX	VBD	_	26	F	26:F	_
+26	named	name	VERB	VBN	_	20	E	20:E	_
+27	Stella	Stella	PROPN	NNP	_	26	A	26:A	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+

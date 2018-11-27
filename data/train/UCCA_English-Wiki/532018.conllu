@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 532018
+# text = Her prerecording of the song " I 'll Plant My Own Tree " survived , along with her wardrobe tests .
+1	Her	she	PRON	PRP$	_	7	E	7:E	_
+2	prerecording	prerecording	NOUN	NN	_	5	E	5:E	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	song	song	NOUN	NN	_	7	E	7:E	_
+6	"	"	PUNCT	``	_	7	U	7:U	_
+7	I	I	PRON	PRP	_	14	A	14:A	_
+8	'll	will	AUX	MD	_	7	Terminal	7:Terminal	_
+9	Plant	Plant	VERB	VB	_	7	Terminal	7:Terminal	_
+10	My	my	PRON	PRP$	_	7	Terminal	7:Terminal	_
+11	Own	own	ADJ	JJ	_	7	Terminal	7:Terminal	_
+12	Tree	tree	NOUN	NN	_	7	Terminal	7:Terminal	_
+13	"	"	PUNCT	''	_	14	U	14:U	_
+14	survived	survive	VERB	VBD	_	0	H	0:H	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	along	along	ADP	IN	_	14	L	14:L	_
+17	with	with	ADP	IN	_	16	R	16:R	_
+18	her	she	PRON	PRP$	_	20	E	20:E	_
+19	wardrobe	wardrobe	NOUN	NN	_	20	E	20:E	_
+20	tests	test	NOUN	NNS	_	14	H	14:H	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

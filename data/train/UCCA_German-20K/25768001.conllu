@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25768001
+# text = » Gut ausgedacht , Herr Arronax « , erwiderte der Kapitän lächelnd .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Gut	gut	NOUN	NN	_	3	D	3:D	_
+3	ausgedacht	ausgedachen	VERB	VVFIN	_	9	A	9:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Herr	Herr	PROPN	NN	_	6	E	6:E	_
+6	Arronax	Arronax	PROPN	NE	_	3	G	3:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|12:A	_
+12	lächelnd	lächelnd	ADJ	ADJD	_	9	H	9:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

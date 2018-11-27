@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25715005
+# text = » Ich spür' es wohl , Kapitän « , erwiderte ich , » und sollte diese Hitze noch steigen , so können wir ' s nicht aushalten . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	NN	_	3	A	3:A	_
+3	spür'	spür'	PUNCT	$(	_	10	A	10:A	_
+4	es	es	PRON	PPER	_	3	A	3:A	_
+5	wohl	wohl	ADV	ADV	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Kapitän	Kapitän	NOUN	NN	_	3	G	3:G	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	»	»	PUNCT	$(	_	10	U	10:U	_
+14	und	und	CCONJ	NE	_	3	L	3:L	_
+15	sollte	sollen	AUX	VMFIN	_	19	D	19:D	_
+16	diese	dies	PRON	PDAT	_	17	E	17:E	_
+17	Hitze	Hitze	NOUN	NN	_	19	A	19:A	_
+18	noch	noch	ADV	VVINF	_	19	D	19:D	_
+19	steigen	steigen	VERB	VVINF	_	3	H	3:H	_
+20	,	,	PUNCT	$,	_	3	U	3:U	_
+21	so	so	ADV	ADV	_	3	L	3:L	_
+22	können	können	AUX	VMFIN	_	27	D	27:D	_
+23	wir	wir	PRON	NE	_	27	A	27:A	_
+24	'	'	PUNCT	$(	_	27	U	27:U	_
+25	s	s	NOUN	NN	_	27	A	27:A	_
+26	nicht	nicht	PART	CARD	_	27	D	27:D	_
+27	aushalten	aushalten	VERB	VVINF	_	3	H	3:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+29	«	«	PUNCT	$(	_	27	U	27:U	_
+

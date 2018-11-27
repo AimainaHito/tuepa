@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 493004
+# text = In 2004 , Rolling Stone ranked him 39th on their list of the " 100 Greatest Artists of All Time " , and 23rd on their list of the best singers of all time .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Rolling	Rolling	PROPN	NNP	_	6	A	6:A	_
+5	Stone	stone	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	ranked	rank	VERB	VBD	_	0	H	0:H	_
+7	him	he	PRON	PRP	_	6	A	6:A	_
+8	39th	39th	ADJ	JJ	_	6	A	6:A	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	their	they	PRON	PRP$	_	11	E	11:E	_
+11	list	list	NOUN	NN	_	8	E	8:E	_
+12	of	of	ADP	IN	_	17	R	17:R	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	"	"	PUNCT	``	_	17	U	17:U	_
+15	100	100	NUM	CD	_	17	E	17:E	_
+16	Greatest	greatest	PROPN	NNP	_	17	E	17:E	_
+17	Artists	artist	PROPN	NNPS	_	11	E	11:E	_
+18	of	of	ADP	IN	_	20	R	20:R	_
+19	All	all	DET	DT	_	20	E	20:E	_
+20	Time	time	NOUN	NN	_	17	E	17:E	_
+21	"	"	PUNCT	''	_	8	U	8:U	_
+22	,	,	PUNCT	,	_	8	U	8:U	_
+23	and	and	CCONJ	CC	_	8	N	8:N	_
+24	23rd	23rd	NOUN	NN	_	8	C	8:C	_
+25	on	on	ADP	IN	_	27	R	27:R	_
+26	their	they	PRON	PRP$	_	27	E	27:E	_
+27	list	list	NOUN	NN	_	24	E	24:E	_
+28	of	of	ADP	IN	_	31	R	31:R	_
+29	the	the	DET	DT	_	31	E	31:E	_
+30	best	best	ADJ	JJS	_	31	E	31:E	_
+31	singers	singer	NOUN	NNS	_	27	E	27:E	_
+32	of	of	ADP	IN	_	34	R	34:R	_
+33	all	all	DET	DT	_	34	E	34:E	_
+34	time	time	NOUN	NN	_	31	E	31:E	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25603006
+# text = Conseil und Land brachten viel Zeit bei mir zu .
+1	Conseil	Conseil	NOUN	NE	_	4	A	4:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Land	Land	NOUN	NN	_	1	C	1:C	_
+4	brachten	bringen	VERB	VVFIN	_	0	H	0:H	_
+5	viel	viel	PRON	ADJD	_	6	E	6:E	_
+6	Zeit	Zeit	NOUN	NN	_	4	A	4:A	_
+7	bei	bei	ADP	APPR	_	8	R	8:R	_
+8	mir	ich	PRON	PPER	_	4	A	4:A	_
+9	zu	zu	ADP	VVINF	_	4	Terminal	4:Terminal	_
+10	.	.	PUNCT	$.	_	4	U	4:U	_
+

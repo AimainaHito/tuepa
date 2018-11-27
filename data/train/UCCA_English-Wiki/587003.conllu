@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 587003
+# text = In 1990 , he undertook the quirky title role of the Tim Burton film , Edward Scissorhands .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1990	1990	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	undertook	undertake	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	quirky	quirky	ADJ	JJ	_	9	E	9:E	_
+8	title	title	NOUN	NN	_	9	E	9:E	_
+9	role	role	NOUN	NN	_	5	A	5:A	_
+10	of	of	ADP	IN	_	16	R	16:R	_
+11	the	the	DET	DT	_	16	E	16:E	_
+12	Tim	Tim	PROPN	NNP	_	14	E	14:E	_
+13	Burton	Burton	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	film	film	NOUN	NN	_	16	E	16:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	Edward	Edward	PROPN	NNP	_	9	E	9:E	_
+17	Scissorhands	Scissorhand	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

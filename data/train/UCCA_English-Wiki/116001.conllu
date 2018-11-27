@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 116001
+# text = Her parents were Thomas Norval Hepburn ( 1879 - 1962 ) , a urologist at Hartford Hospital , and Katharine Martha Houghton ( 1878 - 1951 ) , a feminist campaigner .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	parents	parent	NOUN	NNS	_	3	A	3:A	_
+3	were	be	AUX	VBD	_	0	H	0:H	_
+4	Thomas	Thomas	PROPN	NNP	_	3	A	3:A	_
+5	Norval	Norval	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Hepburn	Hepburn	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+8	1879	1879	NUM	CD	_	4	E	4:E	_
+9	-	-	SYM	SYM	_	8	U	8:U	_
+10	1962	1962	NUM	CD	_	8	C	8:C	_
+11	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	urologist	urologist	NOUN	NN	_	4	E	4:E	_
+15	at	at	ADP	IN	_	17	R	17:R	_
+16	Hartford	Hartford	PROPN	NNP	_	17	E	17:E	_
+17	Hospital	Hospital	PROPN	NNP	_	14	A	14:A	_
+18	,	,	PUNCT	,	_	4	U	4:U	_
+19	and	and	CCONJ	CC	_	4	N	4:N	_
+20	Katharine	Katharine	PROPN	NNP	_	4	C	4:C	_
+21	Martha	Martha	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Houghton	Houghton	PROPN	NNP	_	20	Terminal	20:Terminal	_
+23	(	(	PUNCT	-LRB-	_	20	U	20:U	_
+24	1878	1878	NUM	CD	_	20	E	20:E	_
+25	-	-	SYM	SYM	_	24	U	24:U	_
+26	1951	1951	NUM	CD	_	24	C	24:C	_
+27	)	)	PUNCT	-RRB-	_	20	U	20:U	_
+28	,	,	PUNCT	,	_	20	U	20:U	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	feminist	feminist	ADJ	JJ	_	31	E	31:E	_
+31	campaigner	campaigner	NOUN	NN	_	20	E	20:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

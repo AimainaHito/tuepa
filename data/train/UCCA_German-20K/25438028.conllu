@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25438028
+# text = Die Kais zu Brooklyn und der ganze Teil von New York , der an das östliche Ufer stößt , waren mit Neugierigen bedeckt .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Kais	Kais	NOUN	NN	_	23	A	23:A	_
+3	zu	zu	ADP	NE	_	4	R	4:R	_
+4	Brooklyn	Brooklyn	PROPN	NE	_	2	E	2:E	_
+5	und	und	CCONJ	NE	_	2	N	2:N	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	ganze	ganz	ADJ	ADJA	_	8	E	8:E	_
+8	Teil	Teil	NOUN	NN	_	10	E	10:E	_
+9	von	von	ADP	NE	_	8	R	8:R	_
+10	New	New	PROPN	NE	_	2	C	2:C	_
+11	York	York	PROPN	NE	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	der	der	PRON	PRELS	_	18	R	18:R	_
+14	an	an	ADP	APPR	_	17	R	17:R	_
+15	das	der	DET	ART	_	17	E	17:E	_
+16	östliche	östlich	ADJ	ADJA	_	17	E	17:E	_
+17	Ufer	Ufer	NOUN	NN	_	18	A	18:A	_
+18	stößt	stoßen	VERB	VVFIN	_	10	E	10:E	_
+19	,	,	PUNCT	$,	_	23	U	23:U	_
+20	waren	sein	AUX	VAFIN	_	23	F	23:F	_
+21	mit	mit	ADP	APPR	_	22	R	22:R	_
+22	Neugierigen	neugierige	NOUN	ADJA	_	23	A	23:A	_
+23	bedeckt	bedeckt	ADJ	VVPP	_	0	H	0:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

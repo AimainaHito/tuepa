@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 181005
+# text = Married in 1977 , her parents filed for divorce in October 2008 .
+1	Married	marry	VERB	VBD	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	1977	1977	NUM	CD	_	1	D	1:D	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	her	she	PRON	PRP$	_	6	E	6:E	_
+6	parents	parent	NOUN	NNS	_	0	C	0:C|1:A	_
+7	filed	file	VERB	VBN	_	1	H	1:H	_
+8	for	for	ADP	IN	_	9	R	9:R	_
+9	divorce	divorce	NOUN	NN	_	7	E	7:E	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	October	October	PROPN	NNP	_	7	D	7:D	_
+12	2008	2008	NUM	CD	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	.	_	11	U	11:U	_
+

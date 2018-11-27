@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 104002
+# text = She found it difficult to emotionally connect with other people , and as a result she started to self - harm ; later commenting , " I collected knives and always had certain things around .
+1	She	she	PRON	PRP	_	4	A	4:A|7:A	_
+2	found	find	VERB	VBD	_	4	D	4:D	_
+3	it	it	PRON	PRP	_	4	F	4:F	_
+4	difficult	difficult	ADJ	JJ	_	0	H	0:H	_
+5	to	to	PART	TO	_	7	R	7:R	_
+6	emotionally	emotionally	ADV	RB	_	7	D	7:D	_
+7	connect	connect	VERB	VB	_	4	A	4:A	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	other	other	ADJ	JJ	_	10	E	10:E	_
+10	people	people	NOUN	NNS	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	as	as	ADP	IN	_	15	R	15:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	result	result	NOUN	NN	_	4	L	4:L	_
+16	she	she	PRON	PRP	_	21	A	21:A	_
+17	started	start	VERB	VBD	_	21	D	21:D	_
+18	to	to	ADP	IN	_	21	F	21:F	_
+19	self	self	NOUN	NN	_	21	E	21:E	_
+20	-	-	PUNCT	HYPH	_	21	U	21:U	_
+21	harm	harm	NOUN	NN	_	4	H	4:H	_
+22	;	;	PUNCT	,	_	4	U	4:U	_
+23	later	later	ADV	RB	_	4	L	4:L	_
+24	commenting	comment	VERB	VBG	_	4	H	4:H	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	"	"	PUNCT	''	_	24	U	24:U	_
+27	I	I	PRON	PRP	_	28	A	28:A|35:A	_
+28	collected	collect	VERB	VBD	_	24	A	24:A	_
+29	knives	knife	NOUN	NNS	_	28	A	28:A	_
+30	and	and	CCONJ	CC	_	28	L	28:L	_
+31	always	always	ADV	RB	_	35	D	35:D	_
+32	had	have	VERB	VBD	_	35	F	35:F	_
+33	certain	certain	ADJ	JJ	_	34	E	34:E	_
+34	things	thing	NOUN	NNS	_	35	A	35:A	_
+35	around	around	ADV	RB	_	28	H	28:H	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

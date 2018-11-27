@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 139005
+# text = Long Day 's Journey Into Night earned Hepburn an Oscar nomination and the Best Actress Award at the Cannes Film Festival .
+1	Long	long	PROPN	NNP	_	7	A	7:A	_
+2	Day	Day	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	's	's	PART	POS	_	1	Terminal	1:Terminal	_
+4	Journey	journey	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	Into	Into	PROPN	NNP	_	1	Terminal	1:Terminal	_
+6	Night	night	NOUN	NN	_	1	Terminal	1:Terminal	_
+7	earned	earn	VERB	VBD	_	0	H	0:H	_
+8	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A	_
+9	an	a	DET	DT	_	11	E	11:E	_
+10	Oscar	Oscar	ADJ	JJ	_	11	E	11:E	_
+11	nomination	nomination	NOUN	NN	_	7	A	7:A	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	Best	best	ADJ	JJS	_	15	E	15:E	_
+15	Actress	actress	PROPN	NNP	_	16	E	16:E	_
+16	Award	award	PROPN	NNP	_	11	C	11:C	_
+17	at	at	ADP	IN	_	21	R	21:R	_
+18	the	the	DET	DT	_	21	E	21:E	_
+19	Cannes	Cannes	PROPN	NNP	_	21	E	21:E	_
+20	Film	film	PROPN	NNP	_	21	E	21:E	_
+21	Festival	Festival	PROPN	NNP	_	16	E	16:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

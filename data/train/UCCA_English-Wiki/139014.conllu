@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 139014
+# text = Hepburn felt the award was not just for her , but was also given to honor Tracy .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A	_
+2	felt	feel	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	award	award	NOUN	NN	_	5	A	5:A|16:A	_
+5	was	be	AUX	VBD	_	2	A	2:A	_
+6	not	not	PART	RB	_	5	D	5:D	_
+7	just	just	ADV	RB	_	5	D	5:D	_
+8	for	for	ADP	IN	_	9	R	9:R	_
+9	her	she	PRON	PRP	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	but	but	CCONJ	CC	_	5	L	5:L	_
+12	was	be	AUX	VBD	_	16	F	16:F	_
+13	also	also	ADV	RB	_	16	D	16:D	_
+14	given	give	VERB	VBN	_	16	F	16:F	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	honor	honor	VERB	VB	_	5	H	5:H	_
+17	Tracy	Tracy	PROPN	NNP	_	16	A	16:A	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

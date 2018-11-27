@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 559012
+# text = According to Neal , many country - music disc jockeys would not play it because he sounded too much like a black artist and none of the rhythm - and - blues stations would touch him because " he sounded too much like a hillbilly .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	3	R	3:R	_
+3	Neal	Neal	PROPN	NNP	_	1	A	1:A	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	many	many	ADJ	JJ	_	10	E	10:E	_
+6	country	country	NOUN	NN	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	music	music	NOUN	NN	_	10	E	10:E	_
+9	disc	disc	NOUN	NN	_	10	E	10:E	_
+10	jockeys	jockey	NOUN	NNS	_	13	A	13:A	_
+11	would	would	AUX	MD	_	13	F	13:F	_
+12	not	not	PART	RB	_	13	D	13:D	_
+13	play	play	VERB	VB	_	1	A	1:A	_
+14	it	it	PRON	PRP	_	13	F	13:F	_
+15	because	because	SCONJ	IN	_	1	L	1:L	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	sounded	sound	VERB	VBD	_	1	H	1:H	_
+18	too	too	ADV	RB	_	17	D	17:D	_
+19	much	much	ADV	RB	_	18	Terminal	18:Terminal	_
+20	like	like	ADP	IN	_	23	R	23:R	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	black	black	ADJ	JJ	_	23	E	23:E	_
+23	artist	artist	NOUN	NN	_	17	A	17:A	_
+24	and	and	CCONJ	CC	_	1	L	1:L	_
+25	none	none	NOUN	NN	_	33	E	33:E	_
+26	of	of	ADP	IN	_	25	R	25:R	_
+27	the	the	DET	DT	_	33	E	33:E	_
+28	rhythm	rhythm	NOUN	NN	_	33	E	33:E	_
+29	-	-	PUNCT	HYPH	_	28	U	28:U	_
+30	and	and	CCONJ	CC	_	28	Terminal	28:Terminal	_
+31	-	-	PUNCT	HYPH	_	28	U	28:U	_
+32	blues	blue	NOUN	NNS	_	28	Terminal	28:Terminal	_
+33	stations	station	NOUN	NNS	_	35	A	35:A	_
+34	would	would	AUX	MD	_	35	F	35:F	_
+35	touch	touch	VERB	VB	_	1	H	1:H	_
+36	him	he	PRON	PRP	_	35	A	35:A	_
+37	because	because	SCONJ	IN	_	1	L	1:L	_
+38	"	"	PUNCT	''	_	1	U	1:U	_
+39	he	he	PRON	PRP	_	40	A	40:A	_
+40	sounded	sound	VERB	VBD	_	1	H	1:H	_
+41	too	too	ADV	RB	_	40	D	40:D	_
+42	much	much	ADV	RB	_	41	Terminal	41:Terminal	_
+43	like	like	ADP	IN	_	45	R	45:R	_
+44	a	a	DET	DT	_	45	E	45:E	_
+45	hillbilly	hillbilly	NOUN	NN	_	40	A	40:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

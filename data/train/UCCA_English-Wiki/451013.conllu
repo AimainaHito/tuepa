@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 451013
+# text = Some in the American audience disliked Jennings ' Canadian accent .
+1	Some	some	DET	DT	_	5	E	5:E	_
+2	in	in	ADP	IN	_	5	R	5:R	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	American	american	ADJ	JJ	_	5	E	5:E	_
+5	audience	audience	NOUN	NN	_	6	A	6:A	_
+6	disliked	dislike	VERB	VBD	_	0	H	0:H	_
+7	Jennings	Jennings	PROPN	NNPS	_	10	E	10:E	_
+8	'	'	PART	POS	_	10	U	10:U	_
+9	Canadian	canadian	ADJ	JJ	_	10	E	10:E	_
+10	accent	accent	NOUN	NN	_	6	A	6:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

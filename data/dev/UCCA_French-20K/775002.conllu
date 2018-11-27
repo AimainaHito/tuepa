@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 775002
+# text = Il y avait là matière à réflexion , même pour l'homme le plus impassible du monde !
+1	Il	il	PRON	_	_	0	H	0:H	_
+2	y	y	PRON	_	_	1	Terminal	1:Terminal	_
+3	avait	avoir	VERB	_	_	1	Terminal	1:Terminal	_
+4	là	là	DET	_	_	1	A	1:A	_
+5	matière	matière	NOUN	_	_	1	A	1:A	_
+6	à	à	ADP	_	_	7	R	7:R	_
+7	réflexion	réflexion	NOUN	_	_	5	E	5:E	_
+8	,	,	PUNCT	_	_	7	U	7:U	_
+9	même	même	ADV	_	_	11	R	11:R	_
+10	pour	pour	ADP	_	_	11	R	11:R	_
+11	l'homme	l'homme	ADP	_	_	7	A	7:A	_
+12	le	le	DET	_	_	14	E	14:E	_
+13	plus	plus	ADV	_	_	14	E	14:E	_
+14	impassible	impassible	ADJ	_	_	11	E	11:E	_
+15	du	du	DET	_	_	16	R	16:R	_
+16	monde	monde	NOUN	_	_	14	E	14:E	_
+17	!	!	PUNCT	_	_	16	U	16:U	_
+

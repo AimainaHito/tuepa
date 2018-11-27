@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25655000
+# text = Sodann begab sich die Leichen begleitung wieder auf den Heimweg zur " Nautilus " , unter dem gewölbten Bogengang , inmitten des Baumschlags und längs der Korallen gebüsche , stets bergan .
+1	Sodann	Sodann	ADV	ADV	_	2	L	2:L	_
+2	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Leichen	Leich	ADJ	NN	_	6	E	6:E	_
+6	begleitung	begleitung	NOUN	NN	_	2	A	2:A	_
+7	wieder	wieder	ADV	NE	_	2	D	2:D	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Heimweg	Heimweg	NOUN	NN	_	2	A	2:A	_
+11	zur	zur	ADV	NE	_	13	R	13:R	_
+12	"	"	PUNCT	$(	_	13	U	13:U	_
+13	Nautilus	Nautilus	PROPN	NE	_	10	E	10:E	_
+14	"	"	PUNCT	$(	_	2	U	2:U	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	unter	unter	ADP	ADJD	_	19	R	19:R	_
+17	dem	der	DET	ART	_	19	E	19:E	_
+18	gewölbten	gewölbt	ADJ	ADJA	_	19	E	19:E	_
+19	Bogengang	Bogengang	NOUN	NN	_	2	A	2:A	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	inmitten	inmitten	ADP	APPR	_	23	R	23:R	_
+22	des	der	DET	ART	_	23	E	23:E	_
+23	Baumschlags	Baumschlag	NOUN	NN	_	2	A	2:A	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	längs	längs	ADP	ADV	_	28	R	28:R	_
+26	der	der	DET	ART	_	28	E	28:E	_
+27	Korallen	Koralle	NOUN	NN	_	28	E	28:E	_
+28	gebüsche	gebüsch	ADJ	ADJA	_	23	C	23:C	_
+29	,	,	PUNCT	$,	_	2	U	2:U	_
+30	stets	stets	ADV	ADV	_	31	E	31:E	_
+31	bergan	bergan	ADJ	NE	_	2	D	2:D	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

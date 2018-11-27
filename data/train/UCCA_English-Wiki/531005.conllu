@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 531005
+# text = A successful run on television was intended to secure her financial future .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	successful	successful	ADJ	JJ	_	3	D	3:D	_
+3	run	run	NOUN	NN	_	9	A	9:A	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	television	television	NOUN	NN	_	3	A	3:A	_
+6	was	be	AUX	VBD	_	9	F	9:F	_
+7	intended	intend	VERB	VBN	_	9	D	9:D	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	secure	secure	VERB	VB	_	0	H	0:H	_
+10	her	she	PRON	PRP	_	12	E	12:E	_
+11	financial	financial	ADJ	JJ	_	12	E	12:E	_
+12	future	future	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

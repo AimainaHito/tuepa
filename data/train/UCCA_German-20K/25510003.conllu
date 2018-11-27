@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25510003
+# text = » Sagen wir Meer kohle , wenn Sie wollen « , erwiderte Kapitän Nemo .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Sagen	sagen	NOUN	NN	_	12	A	12:A	_
+3	wir	wir	PROPN	NE	_	2	A	2:A	_
+4	Meer	Meer	PROPN	NN	_	5	E	5:E	_
+5	kohle	kohlen	VERB	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+8	Sie	sie	PRON	PPER	_	9	A	9:A	_
+9	wollen	wollen	AUX	VMFIN	_	2	H	2:H	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	Kapitän	Kapitän	PROPN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	12	A	12:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

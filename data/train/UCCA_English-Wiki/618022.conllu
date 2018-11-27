@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 618022
+# text = Now formally dissolved , in 1995 it became absorbed in the Sony / ATV catalogue .
+1	Now	now	ADV	RB	_	3	D	3:D	_
+2	formally	formally	ADV	RB	_	3	D	3:D	_
+3	dissolved	dissolved	ADJ	JJ	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1995	1995	NUM	CD	_	9	D	9:D	_
+7	it	it	PRON	PRP	_	9	A	9:A|3:A	_
+8	became	become	VERB	VBD	_	9	F	9:F	_
+9	absorbed	absorb	ADJ	JJ	_	3	H	3:H	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	Sony	Sony	PROPN	NNP	_	15	E	15:E	_
+13	/	/	PUNCT	,	_	12	U	12:U	_
+14	ATV	ATV	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	catalogue	catalogue	NOUN	NN	_	9	A	9:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

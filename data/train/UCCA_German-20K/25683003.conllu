@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25683003
+# text = Alsbald darauf brachten die Boots leute uns der Reihe nach aus dem Fahrzeug , und wir faßten 1 1 / 2 Meter tief Grund auf ebenem Sand .
+1	Alsbald	alsbald	ADV	KOUS	_	2	E	2:E	_
+2	darauf	darauf	ADV	PAV	_	3	D	3:D	_
+3	brachten	bringen	VERB	VVFIN	_	0	H	0:H	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Boots	Boot	NOUN	NN	_	6	E	6:E	_
+6	leute	leuen	VERB	VVFIN	_	3	A	3:A	_
+7	uns	wir	PRON	NN	_	3	A	3:A	_
+8	der	der	DET	ART	_	3	D	3:D	_
+9	Reihe	Reihe	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	nach	nach	ADP	CARD	_	8	Terminal	8:Terminal	_
+11	aus	aus	ADP	APPR	_	13	R	13:R	_
+12	dem	der	DET	ART	_	13	E	13:E	_
+13	Fahrzeug	Fahrzeug	NOUN	NN	_	3	A	3:A	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	und	und	CCONJ	NE	_	3	L	3:L	_
+16	wir	wir	PRON	NE	_	17	A	17:A	_
+17	faßten	faßen	VERB	NE	_	3	H	3:H	_
+18	1	1	NUM	CARD	_	22	E	22:E	_
+19	1	1	NUM	CARD	_	18	Terminal	18:Terminal	_
+20	/	/	PUNCT	$(	_	18	U	18:U	_
+21	2	2	NUM	CARD	_	18	Terminal	18:Terminal	_
+22	Meter	Meter	NOUN	NN	_	23	E	23:E	_
+23	tief	tief	ADJ	VVFIN	_	17	D	17:D	_
+24	Grund	Grund	NOUN	NN	_	17	Terminal	17:Terminal	_
+25	auf	auf	ADP	APPR	_	27	R	27:R	_
+26	ebenem	ebenem	ADJ	ADJA	_	27	E	27:E	_
+27	Sand	Sand	NOUN	NN	_	17	A	17:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 444002
+# text = Aucun navire ne le rencontra .
+1	Aucun	aucun	DET	_	_	5	D	5:D	_
+2	navire	navire	NOUN	_	_	5	A	5:A	_
+3	ne	ne	ADV	_	_	5	D	5:D	_
+4	le	le	PRON	_	_	5	A	5:A	_
+5	rencontra	rencontrer	VERB	_	_	0	H	0:H	_
+6	.	.	PUNCT	_	_	5	U	5:U	_
+

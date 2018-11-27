@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 658004
+# text = With the release of " Touch My Body " ( 2008 ) , Carey gained her eighteenth number one single in the United States , more than any other solo artist .
+1	With	with	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	release	release	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	Touch	Touch	DET	PDT	_	3	A	3:A	_
+7	My	my	PRON	PRP$	_	6	Terminal	6:Terminal	_
+8	Body	Body	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	"	"	PUNCT	''	_	6	U	6:U	_
+10	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+11	2008	2008	NUM	CD	_	6	E	6:E	_
+12	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	Carey	Carey	PROPN	NNP	_	15	A	15:A	_
+15	gained	gain	VERB	VBD	_	3	H	3:H	_
+16	her	she	PRON	PRP$	_	20	E	20:E	_
+17	eighteenth	eighteenth	NOUN	NN	_	20	E	20:E	_
+18	number	number	NOUN	NN	_	20	E	20:E	_
+19	one	one	NUM	CD	_	18	E	18:E	_
+20	single	single	ADJ	JJ	_	15	A	15:A	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	United	United	PROPN	NNP	_	20	E	20:E	_
+24	States	States	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	20	U	20:U	_
+26	more	more	ADV	RBR	_	31	R	31:R	_
+27	than	than	ADP	IN	_	26	R	26:R	_
+28	any	any	DET	DT	_	31	E	31:E	_
+29	other	other	ADJ	JJ	_	31	E	31:E	_
+30	solo	solo	ADJ	JJ	_	31	E	31:E	_
+31	artist	artist	NOUN	NN	_	20	E	20:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

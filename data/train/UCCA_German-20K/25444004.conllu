@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25444004
+# text = Wir waren über den Wendekreis des Steinbocks hinaus , und die Magellanische Enge war keine 700 Meilen mehr südlich .
+1	Wir	wir	PRON	NE	_	3	A	3:A	_
+2	waren	sein	VERB	VAFIN	_	3	F	3:F	_
+3	über	über	ADP	ADJD	_	0	H	0:H	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Wendekreis	Wendekreis	NOUN	NN	_	3	A	3:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Steinbocks	Steinbock	NOUN	NN	_	5	E	5:E	_
+8	hinaus	hinaus	ADV	ADV	_	3	Terminal	3:Terminal	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	die	der	DET	ART	_	13	E	13:E	_
+12	Magellanische	Magellanisch	PROPN	ADJA	_	13	E	13:E	_
+13	Enge	eng	PROPN	NN	_	19	A	19:A	_
+14	war	sein	AUX	ADV	_	19	F	19:F	_
+15	keine	kein	PRON	PIAT	_	19	D	19:D	_
+16	700	700	NUM	CARD	_	19	A	19:A	_
+17	Meilen	Meile	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	mehr	mehr	ADV	ADV	_	15	E	15:E	_
+19	südlich	südlich	ADJ	ADJA	_	3	H	3:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

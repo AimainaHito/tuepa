@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25715017
+# text = » Ich meinte « , sagte ich , » die Bildung dieser neuen Inseln sei fertig . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	meinte	meinen	VERB	VVFIN	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Bildung	Bildung	NOUN	NN	_	16	A	16:A	_
+12	dieser	dies	PRON	PDAT	_	14	R	14:R	_
+13	neuen	neu	ADJ	ADJA	_	14	E	14:E	_
+14	Inseln	Insel	NOUN	NN	_	11	A	11:A	_
+15	sei	sein	AUX	NN	_	16	D	16:D	_
+16	fertig	fertig	ADJ	ADJD	_	3	A	3:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+18	«	«	PUNCT	$(	_	16	U	16:U	_
+

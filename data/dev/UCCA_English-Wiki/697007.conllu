@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 697007
+# text = The band 's reception on September 3 at the Hollywood Bowl was more favorable .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	band	band	NOUN	NN	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	reception	reception	NOUN	NN	_	14	A	14:A	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	September	September	PROPN	NNP	_	4	D	4:D	_
+7	3	3	NUM	CD	_	6	E	6:E	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Hollywood	Hollywood	PROPN	NNP	_	4	A	4:A	_
+11	Bowl	bowl	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	was	be	AUX	VBD	_	14	F	14:F	_
+13	more	more	ADV	RBR	_	14	D	14:D	_
+14	favorable	favorable	ADJ	JJ	_	0	H	0:H	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

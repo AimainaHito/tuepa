@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25498014
+# text = Conseil verließ mit ihm endlich diese Zelle , worin sie seit länger als 30 Stunden eingeschlossen waren .
+1	Conseil	Conseil	PROPN	NE	_	2	A	2:A	_
+2	verließ	verlassen	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	4	R	4:R	_
+4	ihm	er	PRON	PPER	_	2	A	2:A	_
+5	endlich	endlich	ADV	ADV	_	2	D	2:D	_
+6	diese	dies	PRON	PDAT	_	7	E	7:E	_
+7	Zelle	Zelle	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	worin	worin	PRON	PWAV	_	16	R	16:R	_
+10	sie	sie	PRON	ADV	_	16	A	16:A	_
+11	seit	seit	ADP	ADJA	_	15	R	15:R	_
+12	länger	lang	ADV	ADJD	_	15	E	15:E	_
+13	als	als	ADP	KOKOM	_	15	R	15:R	_
+14	30	30	NUM	CARD	_	15	E	15:E	_
+15	Stunden	Stunde|Stunden	NOUN	NN	_	16	R	16:R	_
+16	eingeschlossen	einschließen	VERB	VVPP	_	7	E	7:E	_
+17	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

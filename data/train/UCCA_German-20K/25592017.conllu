@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25592017
+# text = Diese dichten Rasen waren so weich , dass sie es mit den von Menschen hand gewebten Tapeten aufnehmen konnten .
+1	Diese	dies	PRON	PDS	_	3	E	3:E	_
+2	dichten	dicht	ADJ	VVFIN	_	3	E	3:E	_
+3	Rasen	Rasen	NOUN	NN	_	6	A	6:A	_
+4	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+5	so	so	ADV	ADV	_	6	F	6:F	_
+6	weich	weich	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dass	dass	SCONJ	KOUS	_	6	L	6:L	_
+9	sie	sie	PRON	ADV	_	18	A	18:A	_
+10	es	es	PRON	PPER	_	18	F	18:F	_
+11	mit	mit	ADP	APPR	_	17	R	17:R	_
+12	den	der	DET	ART	_	17	E	17:E	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	Menschen	Mensch	NOUN	NN	_	15	E	15:E	_
+15	hand	hand	ADP	APPR	_	16	A	16:A	_
+16	gewebten	gewebt	ADJ	ADJA	_	17	E	17:E	_
+17	Tapeten	Tapet	NOUN	NN	_	18	A	18:A	_
+18	aufnehmen	aufnehmen	VERB	VVINF	_	6	H	6:H	_
+19	konnten	können	AUX	VMFIN	_	18	D	18:D	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

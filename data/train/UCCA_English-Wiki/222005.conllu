@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 222005
+# text = As a cultural icon , Chan has been referenced in various pop songs , cartoons , and video games .
+1	As	as	ADP	IN	_	4	L	4:L	_
+2	a	a	DET	DT	_	4	E	4:E	_
+3	cultural	cultural	ADJ	JJ	_	4	E	4:E	_
+4	icon	icon	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Chan	Chan	PROPN	NNP	_	9	A	9:A|4:A	_
+7	has	have	AUX	VBZ	_	9	F	9:F	_
+8	been	be	AUX	VBN	_	9	F	9:F	_
+9	referenced	reference	VERB	VBN	_	4	H	4:H	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	various	various	ADJ	JJ	_	13	E	13:E	_
+12	pop	pop	NOUN	NN	_	13	E	13:E	_
+13	songs	song	NOUN	NNS	_	9	A	9:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	cartoons	cartoon	NOUN	NNS	_	13	C	13:C	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	and	and	CCONJ	CC	_	13	N	13:N	_
+18	video	video	NOUN	NN	_	19	E	19:E	_
+19	games	game	NOUN	NNS	_	13	C	13:C	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

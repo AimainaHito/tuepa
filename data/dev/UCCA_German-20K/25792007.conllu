@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25792007
+# text = In diesem Augenblick kam Kapitän Nemo , der die Arbeit leitete und selbst Hand anlegte , in meine Nähe .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+5	Kapitän	Kapitän	PROPN	NN	_	6	E	6:E	_
+6	Nemo	Nemo	PROPN	NE	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	der	der	PRON	PRELS	_	11	R	11:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Arbeit	Arbeit	NOUN	NN	_	11	A	11:A	_
+11	leitete	leiten	VERB	VVFIN	_	6	E	6:E	_
+12	und	und	CCONJ	NE	_	11	L	11:L	_
+13	selbst	selbst	ADV	VVFIN	_	14	D	14:D	_
+14	Hand	Hand	NOUN	NN	_	11	H	11:H	_
+15	anlegte	anlegen	VERB	ADJA	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	meine	mein	PRON	VVFIN	_	19	E	19:E	_
+19	Nähe	Nähe	NOUN	NN	_	4	A	4:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

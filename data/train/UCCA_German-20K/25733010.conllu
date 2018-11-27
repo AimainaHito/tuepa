@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25733010
+# text = Es war , sozusagen , ein noch aufrecht stehender Kohlenschatz , der mit den Wurzeln im Boden steckte und dessen Gezweig , gleich den feinen Papier ausschnitten , sich auf der Oberfläche der Gewässer klar abzeichnete .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	sozusagen	sozusagen	VERB	ADV	_	2	G	2:G	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	ein	ein	DET	ART	_	10	E	10:E	_
+7	noch	noch	ADV	NN	_	9	D	9:D	_
+8	aufrecht	aufrecht	ADJ	ADJD	_	9	D	9:D	_
+9	stehender	stehend	ADJ	ADJA	_	10	E	10:E	_
+10	Kohlenschatz	Kohlenschatz	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	der	der	PRON	PRELS	_	18	R	18:R	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Wurzeln	Wurzel	NOUN	NN	_	18	A	18:A	_
+16	im	im	ADJ	NE	_	17	R	17:R	_
+17	Boden	Boden	NOUN	NE	_	18	A	18:A	_
+18	steckte	stecken	VERB	VVFIN	_	10	E	10:E	_
+19	und	und	CCONJ	NE	_	18	L	18:L	_
+20	dessen	der	DET	PDAT	_	29	R	29:R	_
+21	Gezweig	Gezweig	NOUN	NE	_	29	A	29:A	_
+22	,	,	PUNCT	$,	_	18	U	18:U	_
+23	gleich	gleich	ADV	ADV	_	27	R	27:R	_
+24	den	der	DET	ART	_	27	E	27:E	_
+25	feinen	fein	ADJ	PPOSAT	_	27	E	27:E	_
+26	Papier	Papier	NOUN	NN	_	27	E	27:E	_
+27	ausschnitten	ausschnitten	VERB	VVPP	_	18	H	18:H	_
+28	,	,	PUNCT	$,	_	18	U	18:U	_
+29	sich	er|es|sie	PRON	PRF	_	18	H	18:H	_
+30	auf	auf	ADP	APPR	_	32	R	32:R	_
+31	der	der	DET	ART	_	32	E	32:E	_
+32	Oberfläche	Oberfläche	NOUN	NN	_	29	A	29:A	_
+33	der	der	DET	ART	_	34	R	34:R	_
+34	Gewässer	Gewässer	NOUN	NN	_	32	E	32:E	_
+35	klar	klar	ADJ	ADJD	_	29	D	29:D	_
+36	abzeichnete	abzeichnen	VERB	VVFIN	_	29	Terminal	29:Terminal	_
+37	.	.	PUNCT	$.	_	29	U	29:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25624018
+# text = » Nun , halten Sie sich gefaßt , etwas Saftiges zu verzehren . Schmeckt Ihnen das nicht , so bin ich nicht mehr König der Harpuniere ! «
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Nun	nun	NOUN	ADV	_	12	F	12:F	_
+3	,	,	PUNCT	$,	_	12	U	12:U	_
+4	halten	halten	VERB	VVFIN	_	12	D	12:D	_
+5	Sie	Sie|sie	PRON	PPER	_	12	A	12:A	_
+6	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+7	gefaßt	fassen	VERB	VVIMP	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	etwas	etwas	PRON	PIS	_	10	E	10:E	_
+10	Saftiges	Saftiges	PRON	PIS	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	verzehren	verzehren	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+14	Schmeckt	schmeckt	VERB	ART	_	12	H	12:H	_
+15	Ihnen	Sie|sie	PRON	PPER	_	14	A	14:A	_
+16	das	der	DET	ART	_	14	A	14:A	_
+17	nicht	nicht	PART	ADJA	_	14	D	14:D	_
+18	,	,	PUNCT	$,	_	12	U	12:U	_
+19	so	so	ADV	ADV	_	12	L	12:L	_
+20	bin	sein	AUX	VAFIN	_	12	H	12:H	_
+21	ich	ich	PRON	PPER	_	20	A	20:A	_
+22	nicht	nicht	PART	CARD	_	20	D	20:D	_
+23	mehr	mehr	ADV	ADV	_	22	E	22:E	_
+24	König	König	NOUN	NN	_	20	A	20:A	_
+25	der	der	DET	ART	_	26	R	26:R	_
+26	Harpuniere	Harpunier	NOUN	NN	_	24	E	24:E	_
+27	!	!	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

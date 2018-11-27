@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25590014
+# text = Nach einigen Minuten hörte ich ein lebhaftes Zischen und fühlte eine gewisse Kälte von den Füßen zur Brust aufsteigen .
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	einigen	einige	PRON	PIAT	_	3	E	3:E	_
+3	Minuten	Minute	NOUN	NN	_	4	D	4:D	_
+4	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A|10:A	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	lebhaftes	lebhaftes	ADJ	ADJA	_	8	E	8:E	_
+8	Zischen	Zischen	NOUN	NE	_	4	A	4:A	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	fühlte	fühlen	VERB	VVFIN	_	4	H	4:H	_
+11	eine	ein	DET	ART	_	13	E	13:E	_
+12	gewisse	gewiß	ADJ	ADJA	_	13	E	13:E	_
+13	Kälte	Kälte	NOUN	NN	_	19	A	19:A	_
+14	von	von	ADP	NE	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Füßen	Fuß	NOUN	NN	_	19	A	19:A	_
+17	zur	zur	ADP	NE	_	18	R	18:R	_
+18	Brust	Brust	PROPN	NN	_	19	A	19:A	_
+19	aufsteigen	aufsteigen	VERB	VVINF	_	10	A	10:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

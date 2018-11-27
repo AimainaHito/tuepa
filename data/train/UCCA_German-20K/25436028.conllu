@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25436028
+# text = Da galt es zu überlegen , selbst für einen Menschen , den nichts in der Welt in Verlegenheit brachte !
+1	Da	da	ADV	ADV	_	5	A	5:A	_
+2	galt	gelten	VERB	VVFIN	_	5	D	5:D	_
+3	es	es	PRON	PPER	_	5	F	5:F	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	überlegen	überlegen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	selbst	selbst	PRON	VVFIN	_	10	D	10:D	_
+8	für	für	ADP	APPR	_	10	R	10:R	_
+9	einen	ein	DET	ART	_	10	E	10:E	_
+10	Menschen	Mensch	NOUN	NN	_	5	H	5:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	den	der	PRON	ART	_	18	R	18:R	_
+13	nichts	nichts	PRON	NN	_	18	A	18:A	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Welt	Welt	NOUN	NN	_	13	E	13:E	_
+17	in	in	ADP	APPR	_	18	R	18:R	_
+18	Verlegenheit	Verlegenheit	NOUN	NN	_	10	E	10:E	_
+19	brachte	bringen	VERB	VVFIN	_	18	D	18:D	_
+20	!	!	PUNCT	$.	_	18	U	18:U	_
+

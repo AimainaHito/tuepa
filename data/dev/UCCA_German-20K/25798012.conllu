@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25798012
+# text = Am 31 . März , um 7 Uhr abends , befanden wir uns der Spitze Amerikas gegen-über .
+1	Am	am	PROPN	NN	_	2	E	2:E	_
+2	31	31	NUM	CARD	_	11	D	11:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	März	März	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	um	um	ADP	KOUI	_	7	E	7:E	_
+7	7	7	NUM	CARD	_	2	C	2:C	_
+8	Uhr	Uhr	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	abends	abends	ADV	ADV	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+12	wir	wir	PRON	NE	_	11	A	11:A	_
+13	uns	wir	PRON	NN	_	11	Terminal	11:Terminal	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Spitze	Spitze	NOUN	NN	_	16	E	16:E	_
+16	Amerikas	Amerika	PROPN	NE	_	11	A	11:A	_
+17	gegen-über	gegen-über	ADP	APPR	_	16	R	16:R	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

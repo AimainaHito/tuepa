@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25776011
+# text = » Schön « , sagte Conseil , » ein Konzert von Stieren ? « » Nein « , versetzte ich , » von Walrossen . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Schön	schön	ADJ	NN	_	10	D	10:D	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Konzert	Konzert	NOUN	NN	_	0	C	0:C|16:P|24:P	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	Stieren	Stieren	PROPN	NE	_	0	C	0:C|16:A	_
+13	?	?	PUNCT	$.	_	16	U	16:U	_
+14	«	«	PUNCT	$(	_	16	U	16:U	_
+15	»	»	PUNCT	$(	_	16	U	16:U	_
+16	Nein	nein	PROPN	PTKANT	_	19	A	19:A	_
+17	«	«	PUNCT	$(	_	19	U	19:U	_
+18	,	,	PUNCT	$,	_	19	U	19:U	_
+19	versetzte	versetzen	VERB	VVFIN	_	5	H	5:H	_
+20	ich	ich	PRON	PPER	_	19	A	19:A	_
+21	,	,	PUNCT	$,	_	19	U	19:U	_
+22	»	»	PUNCT	$(	_	19	U	19:U	_
+23	von	von	ADP	NE	_	24	R	24:R	_
+24	Walrossen	Walrossen	PROPN	NE	_	16	H	16:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

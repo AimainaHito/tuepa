@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 633010
+# text = Lennon was now 19 , and his aunt , horrified when he told her about the trip , pleaded with him to continue his art studies instead .
+1	Lennon	Lennon	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	now	now	ADV	RB	_	4	D	4:D	_
+4	19	19	NUM	CD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	aunt	aunt	NOUN	NN	_	0	C	0:C|10:A	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	horrified	horrify	VERB	VBD	_	4	H	4:H	_
+11	when	when	ADV	WRB	_	4	L	4:L	_
+12	he	he	PRON	PRP	_	13	A	13:A	_
+13	told	tell	VERB	VBD	_	4	H	4:H	_
+14	her	she	PRON	PRP	_	13	A	13:A	_
+15	about	about	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	trip	trip	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	,	_	4	U	4:U	_
+19	pleaded	plead	VERB	VBD	_	4	H	4:H	_
+20	with	with	ADP	IN	_	21	R	21:R	_
+21	him	he	PRON	PRP	_	19	A	19:A	_
+22	to	to	PART	TO	_	23	F	23:F	_
+23	continue	continue	VERB	VB	_	19	A	19:A	_
+24	his	he	PRON	PRP$	_	26	E	26:E	_
+25	art	art	NOUN	NN	_	26	E	26:E	_
+26	studies	study	NOUN	NNS	_	23	A	23:A	_
+27	instead	instead	ADV	RB	_	23	D	23:D	_
+28	.	.	PUNCT	.	_	23	U	23:U	_
+

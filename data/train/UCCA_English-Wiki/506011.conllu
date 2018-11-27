@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 506011
+# text = Critics maligned the tour as overproduced , saying it pandered to the current stadium rock trends in its special effects and dancing .
+1	Critics	critic	NOUN	NNS	_	2	A	2:A|8:A	_
+2	maligned	malign	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	tour	tour	NOUN	NN	_	2	A	2:A	_
+5	as	as	ADP	IN	_	6	R	6:R	_
+6	overproduced	overproduce	VERB	VBN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	saying	say	VERB	VBG	_	2	H	2:H	_
+9	it	it	PRON	PRP	_	10	A	10:A	_
+10	pandered	pander	VERB	VBD	_	8	A	8:A	_
+11	to	to	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	current	current	ADJ	JJ	_	16	E	16:E	_
+14	stadium	stadium	NOUN	NN	_	15	E	15:E	_
+15	rock	rock	NOUN	NN	_	16	E	16:E	_
+16	trends	trend	NOUN	NNS	_	10	A	10:A	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	its	its	PRON	PRP$	_	20	E	20:E	_
+19	special	special	ADJ	JJ	_	20	E	20:E	_
+20	effects	effect	NOUN	NNS	_	10	A	10:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	dancing	dancing	NOUN	NN	_	20	C	20:C	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

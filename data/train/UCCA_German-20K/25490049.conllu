@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25490049
+# text = » Wir sind nicht Kannibalen in die Hände gefallen !
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Wir	wir	PRON	NE	_	6	A	6:A	_
+3	sind	sein	AUX	NN	_	6	F	6:F	_
+4	nicht	nicht	PART	CARD	_	6	D	6:D	_
+5	Kannibalen	Kannibale	NOUN	NN	_	6	A	6:A	_
+6	in	in	ADP	APPR	_	0	H	0:H	_
+7	die	der	DET	ART	_	6	Terminal	6:Terminal	_
+8	Hände	Hand	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	gefallen	fallen|gefallen	VERB	VVPP	_	6	Terminal	6:Terminal	_
+10	!	!	PUNCT	$.	_	6	U	6:U	_
+

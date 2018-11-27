@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25489053
+# text = Wie vermochte er die durch Entfernung verkleinerten Gegenstände zu vergrößern !
+1	Wie	wie	ADV	ADV	_	10	D	10:D	_
+2	vermochte	vermochte	VERB	VVFIN	_	10	D	10:D	_
+3	er	er	PRON	PPER	_	10	A	10:A	_
+4	die	der	DET	ART	_	8	E	8:E	_
+5	durch	durch	ADP	APPR	_	6	R	6:R	_
+6	Entfernung	Entfernung	NOUN	NN	_	7	A	7:A	_
+7	verkleinerten	verkleinert	ADJ	ADJA	_	10	A	10:A	_
+8	Gegenstände	Gegenstand	NOUN	NN	_	7	A	7:A	_
+9	zu	zu	PART	VVINF	_	10	F	10:F	_
+10	vergrößern	vergrößern	VERB	VVINF	_	0	H	0:H	_
+11	!	!	PUNCT	$.	_	10	U	10:U	_
+

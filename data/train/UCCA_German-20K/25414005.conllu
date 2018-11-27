@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25414005
+# text = Das Geheimnisvolle machte mir zu schaffen .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Geheimnisvolle	Geheimnisvolle	NOUN	NN	_	6	A	6:A	_
+3	machte	machen	VERB	VVFIN	_	6	D	6:D	_
+4	mir	ich	PRON	PPER	_	6	A	6:A	_
+5	zu	zu	PART	VVINF	_	6	F	6:F	_
+6	schaffen	schaffen	VERB	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

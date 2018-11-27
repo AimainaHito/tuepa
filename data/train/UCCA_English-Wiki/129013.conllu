@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 129013
+# text = Neither movie was popular with the public , which meant she had made four unsuccessful pictures in a row .
+1	Neither	neither	DET	DT	_	4	D	4:D	_
+2	movie	movie	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	popular	popular	ADJ	JJ	_	0	H	0:H	_
+5	with	with	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	public	public	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	which	which	PRON	WDT	_	4	L	4:L	_
+10	meant	mean	VERB	VBD	_	4	H	4:H	_
+11	she	she	PRON	PRP	_	13	A	13:A	_
+12	had	have	AUX	VBD	_	13	F	13:F	_
+13	made	make	VERB	VBN	_	10	A	10:A	_
+14	four	four	NUM	CD	_	16	E	16:E	_
+15	unsuccessful	unsuccessful	ADJ	JJ	_	16	E	16:E	_
+16	pictures	picture	NOUN	NNS	_	13	A	13:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	row	row	NOUN	NN	_	13	D	13:D	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

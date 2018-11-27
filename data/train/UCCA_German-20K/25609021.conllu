@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25609021
+# text = Wir befanden uns vor der eigentlich Vanikoro genannten Insel , der Dumont d'Urville den Namen " Recherche " gab , und gerade vor dem kleinen Hafen Vanou , unter 16 ° 4 ? südlicher Breite und 164 ° 32 ? Länge .
+1	Wir	wir	PRON	NE	_	2	A	2:A|27:A	_
+2	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	Terminal	2:Terminal	_
+4	vor	vor	ADP	NN	_	9	R	9:R	_
+5	der	der	DET	ART	_	9	E	9:E	_
+6	eigentlich	eigentlich	ADJ	ADV	_	8	G	8:G	_
+7	Vanikoro	Vanikoro	PROPN	NE	_	8	A	8:A	_
+8	genannten	nannten	ADJ	ADJA	_	9	E	9:E	_
+9	Insel	Insel	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	der	der	DET	ART	_	19	R	19:R	_
+12	Dumont	Dumont	PROPN	NE	_	19	A	19:A	_
+13	d'Urville	d'Urville	PROPN	NE	_	12	Terminal	12:Terminal	_
+14	den	der	DET	ART	_	17	E	17:E	_
+15	Namen	Name	NOUN	NN	_	17	E	17:E	_
+16	"	"	PUNCT	$(	_	17	U	17:U	_
+17	Recherche	Recherche	PROPN	NN	_	19	A	19:A	_
+18	"	"	PUNCT	$(	_	19	U	19:U	_
+19	gab	geben	VERB	VVFIN	_	9	E	9:E	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	und	und	CCONJ	NE	_	2	L	2:L	_
+22	gerade	gerade	ADV	NE	_	27	D	27:D	_
+23	vor	vor	ADP	NN	_	27	R	27:R	_
+24	dem	der	DET	ART	_	26	E	26:E	_
+25	kleinen	klein	ADJ	ADJA	_	26	E	26:E	_
+26	Hafen	Hafen	NOUN	NN	_	27	E	27:E	_
+27	Vanou	Vanou	PROPN	NE	_	2	H	2:H	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	unter	unter	ADP	NE	_	34	R	34:R	_
+30	16	16	NUM	CARD	_	34	E	34:E	_
+31	°	°	NOUN	NN	_	30	U	30:U	_
+32	4	4	NUM	CARD	_	30	Terminal	30:Terminal	_
+33	?	?	PUNCT	$.	_	34	U	34:U	_
+34	südlicher	südlich	ADJ	ADJA	_	27	E	27:E	_
+35	Breite	Breite	NOUN	NN	_	34	Terminal	34:Terminal	_
+36	und	und	CCONJ	NE	_	34	N	34:N	_
+37	164	164	NUM	CARD	_	41	E	41:E	_
+38	°	°	NOUN	NN	_	37	U	37:U	_
+39	32	32	NUM	CARD	_	37	Terminal	37:Terminal	_
+40	?	?	PUNCT	$.	_	41	U	41:U	_
+41	Länge	Länge	NOUN	NN	_	34	C	34:C	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

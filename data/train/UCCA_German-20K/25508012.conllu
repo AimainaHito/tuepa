@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25508012
+# text = » Sie haben jedoch , Kapitän , eine außerordentliche Schnelligkeit der Bewegungen , die zu der Kraft der Elektrizität wenig passen . Bisher ist ihre dynamische Kraft sehr beschränkt geblieben und hat nur geringe Wirkungen hervorzubringen vermocht ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+3	haben	haben	VERB	VAFIN	_	0	H	0:H	_
+4	jedoch	jedoch	ADV	ADV	_	3	L	3:L	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	3	G	3:G	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	außerordentliche	außerordentlich	ADJ	ADJA	_	10	E	10:E	_
+10	Schnelligkeit	Schnelligkeit	NOUN	NN	_	0	C	0:C|21:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Bewegungen	Bewegung	NOUN	NN	_	10	E	10:E	_
+13	,	,	PUNCT	$,	_	3	U	3:U	_
+14	die	der	PRON	PRELS	_	21	R	21:R	_
+15	zu	zu	ADP	VVINF	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Kraft	Kraft	NOUN	NN	_	21	A	21:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	Elektrizität	Elektrizität	NOUN	NN	_	17	E	17:E	_
+20	wenig	wenig	ADJ	ADJA	_	21	D	21:D	_
+21	passen	passen	NOUN	VVFIN	_	3	H	3:H	_
+22	.	.	PUNCT	$.	_	3	U	3:U	_
+23	Bisher	bisher	NOUN	ADV	_	30	D	30:D	_
+24	ist	sein	AUX	VVFIN	_	30	F	30:F	_
+25	ihre	ihr	DET	PPOSAT	_	27	E	27:E	_
+26	dynamische	dynamisch	ADJ	ADJA	_	27	E	27:E	_
+27	Kraft	Kraft	NOUN	NN	_	0	C	0:C|36:A	_
+28	sehr	sehr	ADV	NE	_	29	E	29:E	_
+29	beschränkt	beschränkt	ADJ	VVFIN	_	30	D	30:D	_
+30	geblieben	bleiben	AUX	VVPP	_	3	H	3:H	_
+31	und	und	CCONJ	NE	_	3	L	3:L	_
+32	hat	haben	AUX	VAFIN	_	36	F	36:F	_
+33	nur	nur	ADV	NE	_	34	E	34:E	_
+34	geringe	gering	ADJ	ADJA	_	35	E	35:E	_
+35	Wirkungen	Wirkung	NOUN	NN	_	36	A	36:A	_
+36	hervorzubringen	hervorzubring	ADJ	NE	_	3	H	3:H	_
+37	vermocht	vermochen	ADJ	VVPP	_	36	D	36:D	_
+38	!	!	PUNCT	$.	_	36	U	36:U	_
+39	«	«	PUNCT	$(	_	36	U	36:U	_
+

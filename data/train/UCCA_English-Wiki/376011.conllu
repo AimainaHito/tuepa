@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 376011
+# text = Jake Gyllenhaal 's mother is from a Jewish family from New York City , and Gyllenhaal has said that he considers himself " more Jewish than anything else .
+1	Jake	Jake	PROPN	NNP	_	4	E	4:E	_
+2	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	's	's	PART	POS	_	1	R	1:R	_
+4	mother	mother	NOUN	NN	_	5	A	5:A	_
+5	is	be	AUX	VBZ	_	0	H	0:H	_
+6	from	from	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	Jewish	jewish	ADJ	JJ	_	9	E	9:E	_
+9	family	family	NOUN	NN	_	5	A	5:A	_
+10	from	from	ADP	IN	_	11	R	11:R	_
+11	New	New	PROPN	NNP	_	9	E	9:E	_
+12	York	York	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	City	City	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	and	and	CCONJ	CC	_	5	L	5:L	_
+16	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	18	A	18:A	_
+17	has	have	AUX	VBZ	_	18	F	18:F	_
+18	said	say	VERB	VBN	_	5	H	5:H	_
+19	that	that	SCONJ	IN	_	21	F	21:F	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	considers	consider	VERB	VBZ	_	18	A	18:A	_
+22	himself	himself	PRON	PRP	_	21	A	21:A	_
+23	"	"	PUNCT	``	_	21	U	21:U	_
+24	more	more	ADV	RBR	_	27	R	27:R	_
+25	Jewish	jewish	ADJ	JJ	_	21	A	21:A	_
+26	than	than	ADP	IN	_	24	Terminal	24:Terminal	_
+27	anything	anything	PRON	NN	_	25	E	25:E	_
+28	else	else	ADJ	JJ	_	27	E	27:E	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 711004
+# text = " Love and Theft " generated controversy when The Wall Street Journal pointed out similarities between the album 's lyrics and Japanese author Junichi Saga 's book Confessions of a Yakuza .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Love	love	VERB	VBP	_	6	A	6:A	_
+3	and	and	CCONJ	CC	_	2	Terminal	2:Terminal	_
+4	Theft	Theave	VERB	VBN	_	2	Terminal	2:Terminal	_
+5	"	"	PUNCT	``	_	6	U	6:U	_
+6	generated	generate	VERB	VBN	_	0	H	0:H	_
+7	controversy	controversy	NOUN	NN	_	6	A	6:A	_
+8	when	when	ADV	WRB	_	6	L	6:L	_
+9	The	the	DET	DT	_	13	A	13:A	_
+10	Wall	Wall	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Street	Street	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	Journal	journal	PROPN	NNP	_	9	Terminal	9:Terminal	_
+13	pointed	point	VERB	VBD	_	6	H	6:H	_
+14	out	out	ADP	RP	_	13	Terminal	13:Terminal	_
+15	similarities	similarity	NOUN	NNS	_	13	A	13:A	_
+16	between	between	ADP	IN	_	20	R	20:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	album	album	NOUN	NN	_	20	E	20:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	lyrics	lyric	NOUN	NNS	_	15	E	15:E	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	Japanese	japanese	ADJ	JJ	_	23	E	23:E	_
+23	author	author	NOUN	NN	_	27	E	27:E	_
+24	Junichi	Junichi	PROPN	NNP	_	23	E	23:E	_
+25	Saga	saga	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	's	's	PART	POS	_	23	R	23:R	_
+27	book	book	NOUN	NN	_	20	C	20:C	_
+28	Confessions	Confession	NOUN	NNS	_	27	E	27:E	_
+29	of	of	ADP	IN	_	28	Terminal	28:Terminal	_
+30	a	a	DET	DT	_	28	Terminal	28:Terminal	_
+31	Yakuza	Yakuza	NOUN	NN	_	28	Terminal	28:Terminal	_
+32	.	.	PUNCT	.	_	27	U	27:U	_
+

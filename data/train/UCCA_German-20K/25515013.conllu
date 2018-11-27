@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25515013
+# text = Seine äußere Hülle kann nicht nachgeben ; sie ist in sich selbst zusammenhängend , nicht durch Zusammennieten ; und die Gleichartigkeit seiner Konstruktion infolge der vollständigen Zusammenfügung der Materialien macht es fähig , den ungestümsten Wogen zu trotzen .
+1	Seine	sein	DET	PPOSAT	_	3	E	3:E	_
+2	äußere	äußer	ADJ	ADJA	_	3	E	3:E	_
+3	Hülle	Hülle	NOUN	NN	_	6	A	6:A	_
+4	kann	können	AUX	VMFIN	_	6	D	6:D	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	nachgeben	nachgeben	VERB	VVPP	_	0	H	0:H	_
+7	;	;	PUNCT	$.	_	6	U	6:U	_
+8	sie	sie	PRON	ADV	_	13	A	13:A	_
+9	ist	sein	AUX	VVFIN	_	13	F	13:F	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	sich	er|es|sie	PRON	PRF	_	12	E	12:E	_
+12	selbst	selbst	ADV	VVFIN	_	13	D	13:D	_
+13	zusammenhängend	zusammenhängend	ADV	ADJD	_	6	H	6:H	_
+14	,	,	PUNCT	$,	_	6	U	6:U	_
+15	nicht	nicht	PART	CARD	_	17	D	17:D	_
+16	durch	durch	ADP	APPR	_	17	R	17:R	_
+17	Zusammennieten	Zusammenniet	NOUN	NN	_	6	H	6:H	_
+18	;	;	PUNCT	$.	_	6	U	6:U	_
+19	und	und	CCONJ	NE	_	6	L	6:L	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Gleichartigkeit	Gleichartigkeit	NOUN	NN	_	30	A	30:A	_
+22	seiner	sein	DET	PPOSAT	_	23	E	23:E	_
+23	Konstruktion	Konstruktion	NOUN	NN	_	21	E	21:E	_
+24	infolge	infolge	ADP	APPR	_	27	R	27:R	_
+25	der	der	DET	ART	_	27	E	27:E	_
+26	vollständigen	vollständig	ADJ	ADJA	_	27	E	27:E	_
+27	Zusammenfügung	Zusammenfügung	NOUN	NN	_	30	A	30:A	_
+28	der	der	DET	ART	_	29	R	29:R	_
+29	Materialien	Material	NOUN	NN	_	27	E	27:E	_
+30	macht	machen	VERB	VVFIN	_	6	H	6:H	_
+31	es	es	PRON	PPER	_	30	A	30:A|38:A	_
+32	fähig	fähig	ADJ	ADJD	_	38	D	38:D	_
+33	,	,	PUNCT	$,	_	38	U	38:U	_
+34	den	der	DET	ART	_	36	E	36:E	_
+35	ungestümsten	ungestüm	ADJ	NN	_	36	E	36:E	_
+36	Wogen	Woge	NOUN	NN	_	38	A	38:A	_
+37	zu	zu	PART	VVINF	_	38	F	38:F	_
+38	trotzen	trotzen	VERB	VVINF	_	30	A	30:A	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+

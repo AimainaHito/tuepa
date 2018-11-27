@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 189005
+# text = " Brown had read an article in The New York Times about Sorkin 's one - act play Hidden in This Picture and found out Sorkin also had a play called A Few Good Men that was having Off Broadway readings .
+1	"	"	PUNCT	``	_	24	U	24:U	_
+2	Brown	Brown	PROPN	NNP	_	4	A	4:A|24:A	_
+3	had	have	AUX	VBD	_	4	F	4:F	_
+4	read	read	VERB	VBN	_	0	H	0:H	_
+5	an	a	DET	DT	_	6	E	6:E	_
+6	article	article	NOUN	NN	_	4	A	4:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	The	the	DET	DT	_	6	E	6:E	_
+9	New	New	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	York	York	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	Times	Times	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	about	about	ADP	IN	_	19	R	19:R	_
+13	Sorkin	Sorkin	PROPN	NNP	_	19	E	19:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	one	one	NUM	CD	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	act	act	NOUN	NN	_	18	E	18:E	_
+18	play	play	NOUN	NN	_	19	E	19:E	_
+19	Hidden	hide	VERB	VBN	_	6	E	6:E	_
+20	in	in	ADP	IN	_	19	Terminal	19:Terminal	_
+21	This	this	DET	DT	_	19	Terminal	19:Terminal	_
+22	Picture	picture	NOUN	NN	_	19	Terminal	19:Terminal	_
+23	and	and	CCONJ	CC	_	4	L	4:L	_
+24	found	find	VERB	VBD	_	4	H	4:H	_
+25	out	out	ADP	RP	_	24	Terminal	24:Terminal	_
+26	Sorkin	Sorkin	PROPN	NNP	_	28	A	28:A	_
+27	also	also	ADV	RB	_	28	D	28:D	_
+28	had	have	VERB	VBD	_	24	A	24:A	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	play	play	NOUN	NN	_	28	A	28:A	_
+31	called	call	VERB	VBN	_	30	E	30:E	_
+32	A	a	DET	DT	_	31	A	31:A	_
+33	Few	few	ADJ	JJ	_	32	Terminal	32:Terminal	_
+34	Good	good	ADJ	JJ	_	32	Terminal	32:Terminal	_
+35	Men	men	NOUN	NN	_	32	Terminal	32:Terminal	_
+36	that	that	PRON	WDT	_	38	F	38:F	_
+37	was	be	AUX	VBD	_	38	F	38:F	_
+38	having	have	VERB	VBG	_	30	E	30:E	_
+39	Off	off	ADP	IN	_	40	E	40:E	_
+40	Broadway	Broadway	PROPN	NNP	_	41	A	41:A	_
+41	readings	reading	NOUN	NNS	_	38	A	38:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

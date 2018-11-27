@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 519008
+# text = Despite her professional triumphs , Garland struggled immensely in her personal life , starting when she was a child .
+1	Despite	despite	ADP	IN	_	4	L	4:L	_
+2	her	she	PRON	PRP	_	4	E	4:E	_
+3	professional	professional	ADJ	JJ	_	4	E	4:E	_
+4	triumphs	triumph	NOUN	NNS	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Garland	Garland	PROPN	NNP	_	7	A	7:A	_
+7	struggled	struggle	VERB	VBD	_	4	H	4:H	_
+8	immensely	immensely	ADV	RB	_	7	D	7:D	_
+9	in	in	ADP	IN	_	12	R	12:R	_
+10	her	she	PRON	PRP$	_	12	E	12:E	_
+11	personal	personal	ADJ	JJ	_	12	E	12:E	_
+12	life	life	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	starting	start	VERB	VBG	_	4	H	4:H	_
+15	when	when	ADV	WRB	_	4	L	4:L	_
+16	she	she	PRON	PRP	_	19	A	19:A|14:A	_
+17	was	be	AUX	VBD	_	19	F	19:F	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	child	child	NOUN	NN	_	4	H	4:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

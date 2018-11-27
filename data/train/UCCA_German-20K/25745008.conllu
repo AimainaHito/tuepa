@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25745008
+# text = Wir genossen ein wahres Vergnügen , uns auf den feinen Sand hinzustrecken .
+1	Wir	wir	PRON	NE	_	2	A	2:A|7:A	_
+2	genossen	genießen	VERB	VVFIN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	5	E	5:E	_
+4	wahres	wahr	ADJ	ADJA	_	5	D	5:D	_
+5	Vergnügen	Vergnügen	NOUN	NN	_	0	C	0:C|7:A	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	uns	wir	PRON	NE	_	5	E	5:E	_
+8	auf	auf	ADP	APPR	_	11	R	11:R	_
+9	den	der	DET	ART	_	11	E	11:E	_
+10	feinen	fein	ADJ	PPOSAT	_	11	E	11:E	_
+11	Sand	Sand	NOUN	NN	_	7	A	7:A	_
+12	hinzustrecken	hinzustrecken	VERB	VVINF	_	7	Terminal	7:Terminal	_
+13	.	.	PUNCT	$.	_	7	U	7:U	_
+

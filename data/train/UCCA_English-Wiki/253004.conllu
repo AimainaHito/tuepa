@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 253004
+# text = They have two daughters : Clementine Jane , born in 2008 , and Indiana , born in 2011 .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	have	have	VERB	VBP	_	0	H	0:H	_
+3	two	two	NUM	CD	_	4	E	4:E	_
+4	daughters	daughter	NOUN	NNS	_	2	A	2:A	_
+5	:	:	PUNCT	:	_	4	U	4:U	_
+6	Clementine	Clementine	PROPN	NNP	_	9	A	9:A	_
+7	Jane	Jane	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	born	bear	VERB	VBN	_	4	E	4:E	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	2008	2008	NUM	CD	_	9	D	9:D	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	and	and	CCONJ	CC	_	9	N	9:N	_
+14	Indiana	Indiana	PROPN	NNP	_	16	A	16:A	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	born	bear	VERB	VBN	_	9	C	9:C	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	2011	2011	NUM	CD	_	16	D	16:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

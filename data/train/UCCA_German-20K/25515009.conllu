@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25515009
+# text = Folglich durfte es unter diesen Verhältnissen nur 9 / 10 seines Gehalts verdrängen , also 1.356,48 Kubikmeter , d.h . , es durfte nur ebensoviel Tonnen gewicht haben .
+1	Folglich	Folglich	ADJ	ADJD	_	13	L	13:L	_
+2	durfte	dürfen	VERB	VMFIN	_	13	D	13:D|17:D	_
+3	es	es	PRON	PPER	_	13	A	13:A|17:A	_
+4	unter	unter	ADP	ADJD	_	6	R	6:R	_
+5	diesen	dies	PRON	PDAT	_	6	E	6:E	_
+6	Verhältnissen	Verhältnis	NOUN	NN	_	13	A	13:A	_
+7	nur	nur	ADV	NE	_	13	D	13:D	_
+8	9	9	NUM	CARD	_	13	A	13:A	_
+9	/	/	PUNCT	$(	_	8	U	8:U	_
+10	10	10	NUM	CARD	_	8	Terminal	8:Terminal	_
+11	seines	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Gehalts	Gehalt	NOUN	NN	_	8	E	8:E	_
+13	verdrängen	verdräng	ADJ	NN	_	0	H	0:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	also	also	ADV	ADV	_	13	L	13:L	_
+16	1.356,48	1.356,48	NUM	CARD	_	17	E	17:E	_
+17	Kubikmeter	Kubikmeter	NOUN	NN	_	13	H	13:H	_
+18	,	,	PUNCT	$,	_	13	U	13:U	_
+19	d.h	d.h	CCONJ	ADJD	_	13	L	13:L	_
+20	.	.	PUNCT	$.	_	13	U	13:U	_
+21	,	,	PUNCT	$,	_	13	U	13:U	_
+22	es	es	PRON	PPER	_	28	A	28:A	_
+23	durfte	dürfen	VERB	VMFIN	_	28	D	28:D	_
+24	nur	nur	ADV	NE	_	28	D	28:D	_
+25	ebensoviel	ebensoviel	PRON	PIAT	_	28	D	28:D	_
+26	Tonnen	Tonne	NOUN	NN	_	27	E	27:E	_
+27	gewicht	wichen	VERB	VVPP	_	28	A	28:A	_
+28	haben	haben	AUX	VAFIN	_	13	H	13:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

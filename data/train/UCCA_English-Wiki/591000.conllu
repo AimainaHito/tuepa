@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 591000
+# text = In 2004 , Depp formed his production company Infinitum Nihil to develop projects where he will serve as actor and / or producer .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2004	2004	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+5	formed	form	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	production	production	NOUN	NN	_	8	E	8:E	_
+8	company	company	NOUN	NN	_	9	E	9:E	_
+9	Infinitum	Infinitum	PROPN	NNP	_	0	C	0:C|12:A|17:A	_
+10	Nihil	Nihil	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	to	to	PART	TO	_	5	L	5:L	_
+12	develop	develop	VERB	VB	_	5	H	5:H	_
+13	projects	project	NOUN	NNS	_	12	A	12:A	_
+14	where	where	ADV	WRB	_	17	R	17:R	_
+15	he	he	PRON	PRP	_	17	A	17:A	_
+16	will	will	AUX	MD	_	17	F	17:F	_
+17	serve	serve	VERB	VB	_	13	E	13:E	_
+18	as	as	ADP	IN	_	19	R	19:R	_
+19	actor	actor	NOUN	NN	_	17	A	17:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	/	/	PUNCT	,	_	20	U	20:U	_
+22	or	or	CCONJ	CC	_	20	Terminal	20:Terminal	_
+23	producer	producer	NOUN	NN	_	19	C	19:C	_
+24	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25729021
+# text = » In welcher Richtung fährt die ›Nautilus‹ ? « fragte ich .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	In	in	ADP	APPR	_	4	R	4:R	_
+3	welcher	welch	PRON	PRELS	_	4	E	4:E	_
+4	Richtung	Richtung	NOUN	NN	_	5	A	5:A	_
+5	fährt	fahren	VERB	VVFIN	_	10	A	10:A	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	A	5:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25730020
+# text = Der Kapitän hatte mir nicht einmal vorgeschlagen , Ned oder Conseil mitzunehmen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+3	hatte	haben	AUX	VAFIN	_	7	F	7:F	_
+4	mir	ich	PRON	PPER	_	7	A	7:A	_
+5	nicht	nicht	PART	XY	_	7	D	7:D	_
+6	einmal	einmal	ADV	ADV	_	5	E	5:E	_
+7	vorgeschlagen	vorschlagen	ADJ	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	Ned	Ned	NOUN	NE	_	12	A	12:A	_
+10	oder	oder	CCONJ	CARD	_	9	N	9:N	_
+11	Conseil	Conseil	NOUN	NE	_	9	C	9:C	_
+12	mitzunehmen	mitnehmen	VERB	VVIZU	_	7	A	7:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

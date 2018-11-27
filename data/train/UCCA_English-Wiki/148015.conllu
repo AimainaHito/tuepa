@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 148015
+# text = They were careful not to be seen in public together , and maintained separate residences .
+1	They	they	PRON	PRP	_	3	A	3:A|7:A|13:A	_
+2	were	be	AUX	VBD	_	3	F	3:F	_
+3	careful	careful	ADJ	JJ	_	0	H	0:H	_
+4	not	not	ADV	RB	_	7	D	7:D	_
+5	to	to	PART	TO	_	7	F	7:F	_
+6	be	be	AUX	VB	_	7	F	7:F	_
+7	seen	see	VERB	VBN	_	3	A	3:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	public	public	ADJ	JJ	_	7	A	7:A	_
+10	together	together	ADV	RB	_	7	D	7:D	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	and	and	CCONJ	CC	_	3	L	3:L	_
+13	maintained	maintain	VERB	VBN	_	3	H	3:H	_
+14	separate	separate	ADJ	JJ	_	15	E	15:E	_
+15	residences	residence	NOUN	NNS	_	13	A	13:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

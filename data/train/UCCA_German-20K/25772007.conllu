@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25772007
+# text = Er schien von diesem Südland Besitz zu nehmen .
+1	Er	er	PRON	PPER	_	2	A	2:A|6:A	_
+2	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+3	von	von	ADP	NN	_	5	R	5:R	_
+4	diesem	dies	PRON	PDS	_	5	E	5:E	_
+5	Südland	Südland	PROPN	NN	_	6	A	6:A	_
+6	Besitz	Besitz	NOUN	NN	_	2	A	2:A	_
+7	zu	zu	PART	NE	_	6	F	6:F	_
+8	nehmen	nehmen	VERB	CARD	_	6	Terminal	6:Terminal	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 607016
+# text = He composed and recorded the track in four days , with Phil Ramone co - producing .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	composed	compose	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	recorded	record	VERB	VBD	_	2	C	2:C	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	track	track	NOUN	NN	_	2	A	2:A|16:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	four	four	NUM	CD	_	9	E	9:E	_
+9	days	day	NOUN	NNS	_	2	D	2:D	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	with	with	ADP	IN	_	2	L	2:L	_
+12	Phil	Phil	PROPN	NNP	_	16	A	16:A	_
+13	Ramone	Ramone	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	co	co	X	AFX	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	producing	producing	VERB	VBG	_	2	H	2:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

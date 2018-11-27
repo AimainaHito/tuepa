@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 232009
+# text = He performed the song at a ceremony marking the one - year countdown to the 2008 Summer Paralympics .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	song	song	NOUN	NN	_	2	A	2:A	_
+5	at	at	ADP	IN	_	7	R	7:R	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	ceremony	ceremony	NOUN	NN	_	2	A	2:A	_
+8	marking	mark	VERB	VBG	_	7	E	7:E	_
+9	the	the	DET	DT	_	13	E	13:E	_
+10	one	one	NUM	CD	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	year	year	NOUN	NN	_	13	E	13:E	_
+13	countdown	countdown	NOUN	NN	_	8	A	8:A	_
+14	to	to	ADP	IN	_	18	R	18:R	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	2008	2008	NUM	CD	_	18	E	18:E	_
+17	Summer	summer	NOUN	NN	_	18	E	18:E	_
+18	Paralympics	Paralympic	NOUN	NNS	_	13	E	13:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

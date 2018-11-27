@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 244005
+# text = He made his stage debut at age 13 , in a school production of George Bernard Shaw 's Saint Joan , and appearances in West Windsor - Plainsboro High School productions of Meet Me in St . Louis and You Ca n't Take It with You followed .
+1	He	he	PRON	PRP	_	5	A	5:A|23:A	_
+2	made	make	VERB	VBD	_	5	F	5:F|23:E	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	stage	stage	NOUN	NN	_	5	E	5:E	_
+5	debut	debut	CCONJ	CC	_	0	H	0:H	_
+6	at	at	ADP	IN	_	7	R	7:R	_
+7	age	age	NOUN	NN	_	5	D	5:D	_
+8	13	13	NUM	CD	_	7	E	7:E	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	in	in	ADP	IN	_	19	R	19:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	school	school	NOUN	NN	_	13	E	13:E	_
+13	production	production	NOUN	NN	_	19	E	19:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	George	George	PROPN	NNP	_	19	E	19:E	_
+16	Bernard	Bernard	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Shaw	Shaw	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	's	's	PART	POS	_	15	R	15:R	_
+19	Saint	Saint	PROPN	NNP	_	5	A	5:A	_
+20	Joan	Joan	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	and	and	CCONJ	CC	_	5	L	5:L	_
+23	appearances	appearance	NOUN	NNS	_	47	A	47:A	_
+24	in	in	ADP	IN	_	29	R	29:R	_
+25	West	West	PROPN	NNP	_	29	E	29:E	_
+26	Windsor	Windsor	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	-	-	PUNCT	HYPH	_	25	U	25:U	_
+28	Plainsboro	Plainsboro	PROPN	NNP	_	25	Terminal	25:Terminal	_
+29	High	High	PROPN	NNP	_	31	E	31:E	_
+30	School	School	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	productions	production	NOUN	NNS	_	33	E	33:E	_
+32	of	of	ADP	IN	_	31	R	31:R	_
+33	Meet	meet	PROPN	NNP	_	23	A	23:A	_
+34	Me	Me	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	in	in	ADP	IN	_	33	Terminal	33:Terminal	_
+36	St	St	PROPN	NNP	_	33	Terminal	33:Terminal	_
+37	.	.	PUNCT	.	_	33	U	33:U	_
+38	Louis	Louis	PROPN	NNP	_	33	Terminal	33:Terminal	_
+39	and	and	CCONJ	CC	_	33	N	33:N	_
+40	You	you	PRON	PRP	_	33	C	33:C	_
+41	Ca	can	AUX	MD	_	40	Terminal	40:Terminal	_
+42	n't	not	PART	RB	_	40	Terminal	40:Terminal	_
+43	Take	take	VERB	VB	_	40	Terminal	40:Terminal	_
+44	It	it	PRON	PRP	_	40	Terminal	40:Terminal	_
+45	with	with	ADP	IN	_	40	Terminal	40:Terminal	_
+46	You	you	PRON	PRP	_	40	Terminal	40:Terminal	_
+47	followed	follow	VERB	VBN	_	5	H	5:H	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

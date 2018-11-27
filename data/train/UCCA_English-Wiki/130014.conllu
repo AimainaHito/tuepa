@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 130014
+# text = Hepburn played the physical comedy of the film with confidence , and took tips on comedic timing from her co - star Walter Catlett .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|13:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	physical	physical	ADJ	JJ	_	5	E	5:E	_
+5	comedy	comedy	NOUN	NN	_	2	A	2:A	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	film	film	NOUN	NN	_	5	E	5:E	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	confidence	confidence	NOUN	NN	_	2	D	2:D	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	and	and	CCONJ	CC	_	2	L	2:L	_
+13	took	take	VERB	VBD	_	2	H	2:H	_
+14	tips	tip	NOUN	NNS	_	13	A	13:A	_
+15	on	on	ADP	IN	_	17	R	17:R	_
+16	comedic	comedic	ADJ	JJ	_	17	E	17:E	_
+17	timing	time	NOUN	NN	_	14	E	14:E	_
+18	from	from	ADP	IN	_	23	R	23:R	_
+19	her	she	PRON	PRP$	_	23	E	23:E	_
+20	co	co	NOUN	NN	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	star	star	NOUN	NN	_	23	E	23:E	_
+23	Walter	Walter	PROPN	NNP	_	13	A	13:A	_
+24	Catlett	Catlett	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

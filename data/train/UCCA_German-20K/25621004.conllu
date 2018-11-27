@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25621004
+# text = Das Boot ließ sich gut leiten und fuhr rasch .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	0	C	0:C|8:A	_
+3	ließ	lassen	VERB	VVFIN	_	4	D	4:D	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	gut	gut	ADJ	ADJD	_	4	D	4:D	_
+6	leiten	leiten	VERB	VVINF	_	4	Terminal	4:Terminal	_
+7	und	und	CCONJ	NE	_	4	L	4:L	_
+8	fuhr	fahren	VERB	VVFIN	_	4	H	4:H	_
+9	rasch	rasch	ADJ	ADJD	_	8	D	8:D	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

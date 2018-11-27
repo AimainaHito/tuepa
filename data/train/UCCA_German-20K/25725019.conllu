@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25725019
+# text = Kein Geräusch .
+1	Kein	kein	PROPN	PIAT	_	2	D	2:D	_
+2	Geräusch	Geräusch	PROPN	NN	_	0	H	0:H	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 28005
+# text = " Speaking of his scenes with McCall , Pitt later said , " It was kind of wild , because I 'd never even met her before .
+1	"	"	PUNCT	``	_	2	U	2:U	_
+2	Speaking	speak	VERB	VBG	_	0	H	0:H	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	scenes	scene	NOUN	NNS	_	2	A	2:A	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	McCall	McCall	PROPN	NNP	_	5	E	5:E	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Pitt	Pitt	PROPN	NNP	_	11	A	11:A|2:A	_
+10	later	later	ADV	RB	_	11	D	11:D	_
+11	said	say	VERB	VBD	_	2	H	2:H	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	"	"	PUNCT	``	_	11	U	11:U	_
+14	It	it	PRON	PRP	_	18	A	18:A	_
+15	was	be	AUX	VBD	_	18	F	18:F	_
+16	kind	kind	ADV	RB	_	18	D	18:D	_
+17	of	of	ADV	RB	_	16	Terminal	16:Terminal	_
+18	wild	wild	ADJ	JJ	_	11	A	11:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	because	because	SCONJ	IN	_	18	L	18:L	_
+21	I	I	PRON	PRP	_	25	A	25:A	_
+22	'd	have	AUX	VBD	_	25	F	25:F	_
+23	never	never	ADV	RB	_	25	D	25:D	_
+24	even	even	ADV	RB	_	25	D	25:D	_
+25	met	meet	VERB	VBD	_	18	H	18:H	_
+26	her	she	PRON	PRP	_	25	A	25:A	_
+27	before	before	ADV	RB	_	25	D	25:D	_
+28	.	.	PUNCT	.	_	25	U	25:U	_
+

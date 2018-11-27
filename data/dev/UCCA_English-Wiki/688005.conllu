@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 688005
+# text = His recordings employing electric instruments attracted denunciation and criticism from others in the folk movement .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	recordings	recording	NOUN	NNS	_	7	A	7:A	_
+3	employing	employ	VERB	VBG	_	2	E	2:E	_
+4	electric	electric	ADJ	JJ	_	5	E	5:E	_
+5	instruments	instrument	NOUN	NNS	_	3	A	3:A	_
+6	attracted	attract	VERB	VBN	_	7	D	7:D	_
+7	denunciation	denunciation	NOUN	NN	_	0	H	0:H	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	criticism	criticism	NOUN	NN	_	7	C	7:C	_
+10	from	from	ADP	IN	_	11	R	11:R	_
+11	others	other	NOUN	NNS	_	7	A	7:A	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	folk	folk	NOUN	NN	_	15	E	15:E	_
+15	movement	movement	NOUN	NN	_	11	E	11:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

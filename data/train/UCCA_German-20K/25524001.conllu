@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25524001
+# text = Darauf hefteten sich meine Blicke auf die große über den Tisch gebreitete Karte , und ich bezeichnete mit dem Finger den Punkt , wo die beobachtete Länge und Breite sich kreuzten .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	hefteten	heften	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	meine	mein	DET	PPOSAT	_	5	E	5:E	_
+5	Blicke	Blicke	NOUN	NN	_	2	A	2:A	_
+6	auf	auf	ADP	APPR	_	13	R	13:R	_
+7	die	der	DET	ART	_	13	E	13:E	_
+8	große	groß	ADJ	ADJA	_	13	E	13:E	_
+9	über	über	ADP	ADJD	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Tisch	Tisch	NOUN	NN	_	12	A	12:A	_
+12	gebreitete	gebreitet	ADJ	ADJA	_	13	E	13:E	_
+13	Karte	Karte	NOUN	NN	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	und	und	CCONJ	NE	_	2	L	2:L	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	bezeichnete	bezeichnen	VERB	VVFIN	_	2	H	2:H	_
+18	mit	mit	ADP	APPR	_	20	R	20:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Finger	Finger	NOUN	NN	_	17	A	17:A	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Punkt	Punkt	NOUN	NN	_	17	A	17:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	wo	wo	ADV	NN	_	30	R	30:R	_
+25	die	der	DET	ART	_	27	E	27:E	_
+26	beobachtete	beobachtet	ADJ	ADJA	_	27	E	27:E	_
+27	Länge	Länge	NOUN	NN	_	0	C	0:C|26:A	_
+28	und	und	CCONJ	NE	_	27	N	27:N	_
+29	Breite	Breite	NOUN	ADJA	_	27	C	27:C	_
+30	sich	er|es|sie	PRON	PRF	_	22	E	22:E	_
+31	kreuzten	kreuzen	VERB	VVFIN	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

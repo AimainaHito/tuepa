@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 138009
+# text = The movie was shot in London , and was " a completely miserable experience " for Hepburn .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	0	C	0:C|14:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	shot	shoot	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	London	London	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	and	and	CCONJ	CC	_	4	L	4:L	_
+9	was	be	AUX	VBD	_	14	F	14:F	_
+10	"	"	PUNCT	``	_	14	U	14:U	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	completely	completely	ADV	RB	_	14	D	14:D	_
+13	miserable	miserable	ADJ	JJ	_	14	E	14:E	_
+14	experience	experience	NOUN	NN	_	4	H	4:H	_
+15	"	"	PUNCT	''	_	14	U	14:U	_
+16	for	for	ADP	IN	_	17	R	17:R	_
+17	Hepburn	Hepburn	PROPN	NNP	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

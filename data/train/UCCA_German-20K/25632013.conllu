@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25632013
+# text = Unser Boot befand sich 10 Klafter von uns entfernt auf dem Strand .
+1	Unser	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	3	A	3:A	_
+3	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	10	10	NUM	CARD	_	6	E	6:E	_
+6	Klafter	Klafter	NOUN	NN	_	9	A	9:A	_
+7	von	von	ADP	NN	_	8	R	8:R	_
+8	uns	wir	PRON	NN	_	9	A	9:A	_
+9	entfernt	entfernt	ADJ	ADJD	_	3	A	3:A	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Strand	Strand	NOUN	NN	_	3	A	3:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

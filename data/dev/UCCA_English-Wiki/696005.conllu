@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 696005
+# text = Nevertheless , Dylan 's 1965 Newport performance provoked a hostile response from the folk music establishment .
+1	Nevertheless	nevertheless	ADV	RB	_	8	L	8:L	_
+2	,	,	PUNCT	,	_	8	U	8:U	_
+3	Dylan	Dylan	PROPN	NNP	_	7	A	7:A	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	1965	1965	NUM	CD	_	7	D	7:D	_
+6	Newport	Newport	PROPN	NNP	_	7	A	7:A	_
+7	performance	performance	NOUN	NN	_	8	A	8:A	_
+8	provoked	provoke	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	hostile	hostile	ADJ	JJ	_	11	D	11:D	_
+11	response	response	NOUN	NN	_	8	A	8:A	_
+12	from	from	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	folk	folk	NOUN	NN	_	15	E	15:E	_
+15	music	music	NOUN	NN	_	16	E	16:E	_
+16	establishment	establishment	NOUN	NN	_	11	A	11:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

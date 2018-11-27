@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 652013
+# text = It took 14 years of litigation to force the FBI to release the withheld pages .
+1	It	it	PRON	PRP	_	2	F	2:F	_
+2	took	take	VERB	VBD	_	0	H	0:H	_
+3	14	14	NUM	CD	_	4	E	4:E	_
+4	years	year	NOUN	NNS	_	6	D	6:D	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	litigation	litigation	NOUN	NN	_	2	A	2:A	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	force	force	VERB	VB	_	2	A	2:A	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	FBI	FBI	PROPN	NNP	_	8	A	8:A	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	release	release	VERB	VB	_	8	A	8:A	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	withheld	withheld	NOUN	NN	_	15	E	15:E	_
+15	pages	page	NOUN	NNS	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

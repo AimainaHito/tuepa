@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25684007
+# text = Aber wir konnten uns nicht aufhalten .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	wir	wir	PRON	NE	_	4	A	4:A	_
+3	konnten	können	AUX	VMFIN	_	4	D	4:D	_
+4	uns	wir	PRON	NN	_	0	H	0:H	_
+5	nicht	nicht	PART	XY	_	4	D	4:D	_
+6	aufhalten	aufhalten	VERB	VVINF	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 25489071
+# text = » Nun « , sagte ich zum Harpunier , » nun kommt an Sie die Reihe . Ziehen Sie , Meister Land , das beste Englisch , das je ein Angelsachse sprach , aus Ihrer Tasche , und bemühen Sie sich , glücklicher als ich zu sein .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nun	nun	NOUN	ADV	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	zum	zum	ADP	NN	_	8	R	8:R	_
+8	Harpunier	Harpunier	PROPN	NE	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	»	»	PUNCT	$(	_	5	U	5:U	_
+11	nun	nun	ADV	ADV	_	12	D	12:D	_
+12	kommt	kommen	VERB	VVFIN	_	2	H	2:H	_
+13	an	an	ADP	APPR	_	14	R	14:R	_
+14	Sie	Sie|sie	PRON	PPER	_	12	A	12:A	_
+15	die	der	DET	ART	_	12	Terminal	12:Terminal	_
+16	Reihe	Reihe	NOUN	NN	_	12	Terminal	12:Terminal	_
+17	.	.	PUNCT	$.	_	2	U	2:U	_
+18	Ziehen	ziehen	NOUN	NN	_	2	H	2:H	_
+19	Sie	Sie|sie	PRON	PPER	_	18	A	18:A	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	Meister	Meister	NOUN	NN	_	22	E	22:E	_
+22	Land	Land	NOUN	NN	_	18	G	18:G	_
+23	,	,	PUNCT	$,	_	18	U	18:U	_
+24	das	der	DET	ART	_	26	E	26:E	_
+25	beste	gut	ADJ	ADJA	_	26	E	26:E	_
+26	Englisch	Englisch	NOUN	NN	_	18	A	18:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	das	der	PRON	PRELS	_	32	R	32:R	_
+29	je	je	ADV	ADV	_	32	D	32:D	_
+30	ein	ein	DET	ART	_	31	E	31:E	_
+31	Angelsachse	Angelsachse	NOUN	NN	_	32	A	32:A	_
+32	sprach	sprechen	VERB	VVFIN	_	26	E	26:E	_
+33	,	,	PUNCT	$,	_	18	U	18:U	_
+34	aus	aus	ADP	APPR	_	36	R	36:R	_
+35	Ihrer	Ihr|ihr	PRON	PPOSAT	_	36	E	36:E	_
+36	Tasche	Tasche	NOUN	NN	_	18	A	18:A	_
+37	,	,	PUNCT	$,	_	2	U	2:U	_
+38	und	und	CCONJ	NE	_	2	L	2:L	_
+39	bemühen	bemühen	VERB	VVFIN	_	2	H	2:H	_
+40	Sie	Sie|sie	PRON	PPER	_	39	A	39:A|43:A	_
+41	sich	er|es|sie	PRON	PRF	_	39	Terminal	39:Terminal	_
+42	,	,	PUNCT	$,	_	39	U	39:U	_
+43	glücklicher	glücklich	ADJ	ADJA	_	39	A	39:A	_
+44	als	als	SCONJ	KOKOM	_	45	R	45:R	_
+45	ich	ich	PRON	PPER	_	43	H	43:H	_
+46	zu	zu	PART	VVINF	_	43	F	43:F	_
+47	sein	sein	AUX	VAINF	_	43	F	43:F|45:S	_
+48	.	.	PUNCT	$.	_	43	U	43:U	_
+

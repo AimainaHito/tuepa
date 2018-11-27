@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 474009
+# text = At the age of 36 , Johnson attempted another comeback as a player when he re - joined the Lakers during the 1995 - 96 NBA season .
+1	At	at	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	36	36	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	Johnson	Johnson	PROPN	NNP	_	8	A	8:A|3:A	_
+8	attempted	attempt	VERB	VBD	_	3	H	3:H	_
+9	another	another	DET	DT	_	10	E	10:E	_
+10	comeback	comeback	NOUN	NN	_	8	A	8:A	_
+11	as	as	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	player	player	NOUN	NN	_	10	E	10:E	_
+14	when	when	ADV	WRB	_	3	L	3:L	_
+15	he	he	PRON	PRP	_	18	A	18:A	_
+16	re	be	ADP	IN	_	18	D	18:D	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	joined	join	VERB	VBD	_	3	H	3:H	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Lakers	Laker	NOUN	NNS	_	18	A	18:A	_
+21	during	during	ADP	IN	_	3	L	3:L	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	1995	1995	NUM	CD	_	27	D	27:D	_
+24	-	-	SYM	SYM	_	23	U	23:U	_
+25	96	96	NUM	CD	_	23	C	23:C	_
+26	NBA	NBa	ADJ	JJ	_	27	E	27:E	_
+27	season	season	NOUN	NN	_	3	H	3:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

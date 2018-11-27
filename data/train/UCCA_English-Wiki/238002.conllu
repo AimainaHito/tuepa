@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 238002
+# text = Hassan himself reciprocated the desire to work with the action superstar , urging Chan to keep his promise of working with him on a possible film project .
+1	Hassan	Hassan	PROPN	NNP	_	3	A	3:A|7:A|13:A	_
+2	himself	himself	PRON	PRP	_	1	E	1:E	_
+3	reciprocated	reciprocate	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	desire	desire	NOUN	NN	_	3	A	3:A	_
+6	to	to	PART	TO	_	7	R	7:R	_
+7	work	work	VERB	VB	_	5	E	5:E	_
+8	with	with	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	action	action	NOUN	NN	_	11	E	11:E	_
+11	superstar	superstar	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	urging	urg	VERB	VBG	_	3	H	3:H	_
+14	Chan	Chan	PROPN	NNP	_	13	A	13:A|20:A|16:A	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	keep	keep	VERB	VB	_	13	A	13:A	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	promise	promise	NOUN	NN	_	16	A	16:A	_
+19	of	of	SCONJ	IN	_	20	R	20:R	_
+20	working	work	VERB	VBG	_	18	E	18:E	_
+21	with	with	ADP	IN	_	22	R	22:R	_
+22	him	he	PRON	PRP	_	20	A	20:A	_
+23	on	on	ADP	IN	_	27	R	27:R	_
+24	a	a	DET	DT	_	27	E	27:E	_
+25	possible	possible	ADJ	JJ	_	27	E	27:E	_
+26	film	film	NOUN	NN	_	27	E	27:E	_
+27	project	project	NOUN	NN	_	20	A	20:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

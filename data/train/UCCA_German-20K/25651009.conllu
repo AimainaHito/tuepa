@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25651009
+# text = » Ist er nicht zu retten ? «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ist	sein	AUX	VVFIN	_	6	D	6:D	_
+3	er	er	PRON	PPER	_	6	A	6:A	_
+4	nicht	nicht	PART	ADJA	_	6	D	6:D	_
+5	zu	zu	PART	NN	_	6	F	6:F	_
+6	retten	retten	VERB	VVFIN	_	0	H	0:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25756011
+# text = » Wie ? Ned « , erwiderte ich , » Sie haben immer noch Ihre alten Fischer gedanken ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wie	wie	ADV	NE	_	7	A	7:A	_
+3	?	?	PROPN	$.	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	2	H	2:H	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	Sie	Sie|sie	PRON	PPER	_	18	A	18:A	_
+12	haben	haben	AUX	VAFIN	_	18	F	18:F	_
+13	immer	immer	ADV	ADV	_	18	D	18:D	_
+14	noch	noch	ADV	CARD	_	13	Terminal	13:Terminal	_
+15	Ihre	Ihr|ihr	PRON	PPOSAT	_	18	E	18:E	_
+16	alten	alt	ADJ	ADJA	_	18	E	18:E	_
+17	Fischer	Fischer	NOUN	NE	_	18	E	18:E	_
+18	gedanken	gedanken	VERB	NN	_	2	H	2:H	_
+19	?	?	PUNCT	$.	_	18	U	18:U	_
+20	«	«	PUNCT	$(	_	18	U	18:U	_
+

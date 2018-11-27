@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25488049
+# text = Aber die Hoffnung wurzelt tief im Herzen des Menschen .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Hoffnung	Hoffnung	NOUN	NN	_	4	A	4:A	_
+4	wurzelt	wurzeln	ADJ	VVFIN	_	0	H	0:H	_
+5	tief	tief	ADJ	VVFIN	_	4	D	4:D	_
+6	im	im	ADJ	NE	_	7	E	7:E	_
+7	Herzen	Herz	NOUN	NN	_	4	A	4:A	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Menschen	Mensch	NOUN	NN	_	7	E	7:E	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

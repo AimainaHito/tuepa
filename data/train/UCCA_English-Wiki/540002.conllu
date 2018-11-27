@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 540002
+# text = According to one biographer , Jack Warner 's initial doubts about the project were quelled when he met Rin Tin Tin , " who seemed to display more intelligence than some of the Warner comics .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	4	R	4:R	_
+3	one	one	NUM	CD	_	4	E	4:E	_
+4	biographer	biographer	NOUN	NN	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	Jack	Jack	PROPN	NNP	_	10	A	10:A	_
+7	Warner	Warner	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	's	's	PART	POS	_	6	R	6:R	_
+9	initial	initial	ADJ	JJ	_	10	D	10:D	_
+10	doubts	doubt	NOUN	NNS	_	15	A	15:A	_
+11	about	about	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	project	project	NOUN	NN	_	10	A	10:A	_
+14	were	be	AUX	VBD	_	15	F	15:F	_
+15	quelled	quell	VERB	VBN	_	1	A	1:A	_
+16	when	when	ADV	WRB	_	15	L	15:L	_
+17	he	he	PRON	PRP	_	18	A	18:A	_
+18	met	meet	VERB	VBD	_	15	H	15:H	_
+19	Rin	Rin	PROPN	NNP	_	18	A	18:A	_
+20	Tin	tin	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Tin	tin	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	"	"	PUNCT	''	_	19	U	19:U	_
+24	who	who	PRON	WP	_	27	F	27:F	_
+25	seemed	seem	VERB	VBD	_	27	G	27:G	_
+26	to	to	PART	TO	_	27	F	27:F	_
+27	display	display	VERB	VB	_	19	E	19:E	_
+28	more	more	ADJ	JJR	_	29	R	29:R	_
+29	intelligence	intelligence	NOUN	NN	_	27	A	27:A	_
+30	than	than	ADP	IN	_	28	Terminal	28:Terminal	_
+31	some	some	DET	DT	_	35	E	35:E	_
+32	of	of	ADP	IN	_	31	R	31:R	_
+33	the	the	DET	DT	_	35	E	35:E	_
+34	Warner	Warner	PROPN	NNP	_	35	E	35:E	_
+35	comics	comics	NOUN	NNS	_	29	C	29:C	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

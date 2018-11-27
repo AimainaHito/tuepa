@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 776004
+# text = - Comme il plaira à monsieur , répondit tranquillement Conseil .
+1	-	-	PUNCT	_	_	8	U	8:U	_
+2	Comme	comme	SCONJ	_	_	4	D	4:D	_
+3	il	il	PRON	_	_	4	F	4:F	_
+4	plaira	plaire	VERB	_	_	8	A	8:A	_
+5	à	à	ADP	_	_	6	R	6:R	_
+6	monsieur	Monsieur	NOUN	_	_	4	A	4:A	_
+7	,	,	PUNCT	_	_	8	U	8:U	_
+8	répondit	répondre	VERB	_	_	0	H	0:H	_
+9	tranquillement	tranquillement	ADV	_	_	8	D	8:D	_
+10	Conseil	conseil	NOUN	_	_	8	A	8:A	_
+11	.	.	PUNCT	_	_	8	U	8:U	_
+

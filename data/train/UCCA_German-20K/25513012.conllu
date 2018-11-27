@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25513012
+# text = Woher entsprang diese fast unbegrenzte Kraft ?
+1	Woher	woher	ADV	ADJD	_	2	A	2:A	_
+2	entsprang	entspringen	VERB	VVFIN	_	0	H	0:H	_
+3	diese	dies	PRON	PDAT	_	6	E	6:E	_
+4	fast	fast	ADV	ADV	_	5	D	5:D	_
+5	unbegrenzte	unbegrenzt	ADJ	ADJA	_	6	E	6:E	_
+6	Kraft	Kraft	NOUN	NN	_	2	A	2:A	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

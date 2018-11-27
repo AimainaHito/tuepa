@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 557014
+# text = Phillips , meanwhile , was always on the lookout for someone who could bring to a broader audience the sound of the black musicians on whom Sun focused .
+1	Phillips	Phillips	INTJ	UH	_	7	A	7:A	_
+2	,	,	PUNCT	,	_	7	U	7:U	_
+3	meanwhile	meanwhile	ADV	RB	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	was	be	VERB	VBD	_	7	F	7:F	_
+6	always	always	ADV	RB	_	7	D	7:D	_
+7	on	on	ADP	IN	_	0	H	0:H	_
+8	the	the	DET	DT	_	7	Terminal	7:Terminal	_
+9	lookout	lookout	NOUN	NN	_	7	Terminal	7:Terminal	_
+10	for	for	ADP	IN	_	11	R	11:R	_
+11	someone	someone	PRON	NN	_	7	A	7:A	_
+12	who	who	PRON	WP	_	14	F	14:F	_
+13	could	could	AUX	MD	_	14	D	14:D	_
+14	bring	bring	VERB	VB	_	11	E	11:E	_
+15	to	to	ADP	IN	_	18	R	18:R	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	broader	broader	ADJ	JJR	_	18	E	18:E	_
+18	audience	audience	NOUN	NN	_	14	A	14:A	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	sound	sound	NOUN	NN	_	14	A	14:A	_
+21	of	of	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	black	black	ADJ	JJ	_	24	E	24:E	_
+24	musicians	musician	NOUN	NNS	_	20	E	20:E	_
+25	on	on	ADP	IN	_	28	A	28:A	_
+26	whom	whom	PRON	WP	_	28	F	28:F	_
+27	Sun	Sun	PROPN	NNP	_	28	A	28:A	_
+28	focused	focus	VERB	VBD	_	24	E	24:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

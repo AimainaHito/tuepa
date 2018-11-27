@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25511010
+# text = » Sie endigt beim Boot « , war die Antwort .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+3	endigt	endigen	VERB	VVFIN	_	8	A	8:A	_
+4	beim	beim	ADJ	NE	_	5	R	5:R	_
+5	Boot	Boot	NOUN	NE	_	3	A	3:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	war	sein	AUX	ADV	_	0	H	0:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Antwort	Antwort	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

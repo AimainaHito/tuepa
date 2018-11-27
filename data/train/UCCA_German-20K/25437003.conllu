@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25437003
+# text = In 2 Stunden reisen wir ab .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	2	2	NUM	CARD	_	3	E	3:E	_
+3	Stunden	Stunde|Stunden	NOUN	NN	_	4	D	4:D	_
+4	reisen	reisen	VERB	VVINF	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	ab	ab	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 648006
+# text = Although his friendship with Starr remained consistently friendly during the years following the Beatles ' break - up in 1970 , Lennon 's relationship with McCartney and Harrison varied .
+1	Although	although	SCONJ	IN	_	8	L	8:L	_
+2	his	he	PRON	PRP$	_	3	A	3:A	_
+3	friendship	friendship	NOUN	NN	_	8	A	8:A	_
+4	with	with	ADP	IN	_	5	R	5:R	_
+5	Starr	Starr	PROPN	NNP	_	3	A	3:A	_
+6	remained	remain	VERB	VBD	_	8	D	8:D	_
+7	consistently	consistently	ADV	RB	_	8	D	8:D	_
+8	friendly	friendly	ADJ	JJ	_	0	H	0:H	_
+9	during	during	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	years	year	NOUN	NNS	_	8	L	8:L	_
+12	following	follow	VERB	VBG	_	11	E	11:E	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Beatles	Beatles	PROPN	NNPS	_	16	A	16:A	_
+15	'	's	PART	POS	_	16	U	16:U	_
+16	break	break	NOUN	NN	_	8	H	8:H	_
+17	-	-	PUNCT	HYPH	_	16	U	16:U	_
+18	up	up	NOUN	NN	_	16	Terminal	16:Terminal	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	1970	1970	NUM	CD	_	16	D	16:D	_
+21	,	,	PUNCT	,	_	8	U	8:U	_
+22	Lennon	Lennon	PROPN	NNP	_	24	A	24:A	_
+23	's	's	PART	POS	_	22	R	22:R	_
+24	relationship	relationship	NOUN	NN	_	29	A	29:A	_
+25	with	with	ADP	IN	_	26	R	26:R	_
+26	McCartney	McCartney	PROPN	NNP	_	24	A	24:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	Harrison	Harrison	PROPN	NNP	_	26	C	26:C	_
+29	varied	vary	VERB	VBD	_	8	H	8:H	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

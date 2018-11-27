@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25589003
+# text = » Es steht Ihnen frei , mein Herr « , erwiderte der Harpunier mit Achselzucken , » aber ich meinesteils ziehe sie niemals an , wofern man mich nicht mit Gewalt dazu zwingt . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Es	es	PRON	PPER	_	3	F	3:F	_
+3	steht	stehen	VERB	VVFIN	_	11	A	11:A	_
+4	Ihnen	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	frei	frei	ADJ	PTKVZ	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herr	Herr	NOUN	NN	_	3	G	3:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Harpunier	Harpunier	NOUN	NN	_	11	A	11:A	_
+14	mit	mit	ADP	APPR	_	15	R	15:R	_
+15	Achselzucken	Achselzucken	NOUN	NN	_	11	D	11:D	_
+16	,	,	PUNCT	$,	_	11	U	11:U	_
+17	»	»	PUNCT	$(	_	11	U	11:U	_
+18	aber	aber	CCONJ	ADV	_	3	L	3:L	_
+19	ich	ich	PRON	PPER	_	21	A	21:A	_
+20	meinesteils	meinesteils	ADV	ADV	_	21	D	21:D	_
+21	ziehe	ziehen	VERB	VVFIN	_	3	H	3:H	_
+22	sie	sie	PRON	ADV	_	21	A	21:A	_
+23	niemals	niemals	ADV	ADV	_	21	D	21:D	_
+24	an	an	ADP	PTKVZ	_	21	Terminal	21:Terminal	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	wofern	wofern	SCONJ	KOUS	_	3	L	3:L	_
+27	man	man	PRON	PIS	_	33	A	33:A	_
+28	mich	ich	PRON	PPER	_	33	A	33:A	_
+29	nicht	nicht	PART	CARD	_	33	D	33:D	_
+30	mit	mit	ADP	APPR	_	31	R	31:R	_
+31	Gewalt	Gewalt	NOUN	NN	_	33	A	33:A	_
+32	dazu	dazu	ADV	PAV	_	33	A	33:A	_
+33	zwingt	zwingen	VERB	ADV	_	3	H	3:H	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+35	«	«	PUNCT	$(	_	33	U	33:U	_
+

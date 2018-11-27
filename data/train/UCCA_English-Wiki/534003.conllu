@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 534003
+# text = Garland was posthumously awarded the Grammy Lifetime Achievement Award in 1997 .
+1	Garland	Garland	PROPN	NNP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	posthumously	posthumously	ADV	RB	_	4	D	4:D	_
+4	awarded	award	VERB	VBN	_	0	H	0:H	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	Grammy	Grammy	PROPN	NNP	_	9	E	9:E	_
+7	Lifetime	lifetime	PROPN	NNP	_	8	E	8:E	_
+8	Achievement	achievement	PROPN	NNP	_	9	E	9:E	_
+9	Award	Award	PROPN	NNP	_	4	A	4:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	1997	1997	NUM	CD	_	4	D	4:D	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

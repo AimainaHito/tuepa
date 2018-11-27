@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25466010
+# text = Die Mond scheibe , damals im ersten Viertel , war von Gewölk verschleiert .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Mond	Mond	NOUN	NN	_	3	E	3:E	_
+3	scheibe	scheiben	VERB	VVFIN	_	13	A	13:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	damals	damals	ADV	ADV	_	8	D	8:D	_
+6	im	im	ADJ	NN	_	8	R	8:R	_
+7	ersten	erst	ADJ	ADJA	_	8	E	8:E	_
+8	Viertel	Viertel	NOUN	NN	_	3	E	3:E	_
+9	,	,	PUNCT	$,	_	13	U	13:U	_
+10	war	sein	AUX	ADV	_	13	F	13:F	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	Gewölk	Gewölk	NOUN	NN	_	13	A	13:A	_
+13	verschleiert	verschleieren	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25787012
+# text = Nach einer Viertelstunde trat Conseil zu mir heran und sagte :
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	einer	ein	DET	ART	_	3	E	3:E	_
+3	Viertelstunde	Viertelstunde	NOUN	NN	_	4	D	4:D	_
+4	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+5	Conseil	Conseil	PROPN	NE	_	4	A	4:A|10:A	_
+6	zu	zu	ADP	NE	_	7	R	7:R	_
+7	mir	ich	PRON	PPER	_	4	A	4:A	_
+8	heran	heran	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	sagte	sagen	VERB	VVFIN	_	4	H	4:H	_
+11	:	:	PUNCT	$.	_	10	U	10:U	_
+

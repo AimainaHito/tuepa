@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25487003
+# text = Ned Land hatte manche während des Schlafs harpuniert .
+1	Ned	Ned	PROPN	NN	_	8	A	8:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	hatte	haben	AUX	VAFIN	_	8	F	8:F	_
+4	manche	manch	PRON	PIS	_	8	A	8:A	_
+5	während	während	ADP	VVINF	_	7	E	7:E	_
+6	des	der	DET	ART	_	7	E	7:E	_
+7	Schlafs	Schlaf	NOUN	NN	_	8	A	8:A	_
+8	harpuniert	harpunieren	VERB	VVFIN	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

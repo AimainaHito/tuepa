@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25760003
+# text = Die ›Nautilus‹ tauchte ein wenig unter die Oberfläche .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	tauchte	tauchen	VERB	VVFIN	_	0	H	0:H	_
+4	ein	ein	DET	ART	_	3	D	3:D	_
+5	wenig	wenig	PRON	NN	_	4	Terminal	4:Terminal	_
+6	unter	unter	ADP	ADJD	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Oberfläche	Oberfläche	NOUN	NN	_	3	A	3:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

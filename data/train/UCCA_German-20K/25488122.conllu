@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25488122
+# text = In diesem Augenblick , als wie zum Beweis meiner Folgerung , entstand am hinteren Teil dieses seltsamen Fahr apparats ein Brausen , das offenbar von einer Schraube herrührte , und setzte es in Bewegung .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	12	D	12:D	_
+4	,	,	PUNCT	$,	_	12	U	12:U	_
+5	als	als	SCONJ	KOUS	_	12	L	12:L	_
+6	wie	wie	ADP	NE	_	5	Terminal	5:Terminal	_
+7	zum	zum	ADV	NN	_	8	R	8:R	_
+8	Beweis	Beweis	NOUN	NN	_	12	H	12:H	_
+9	meiner	mein	PRON	PPOSAT	_	10	E	10:E	_
+10	Folgerung	Folgerung	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	entstand	entstehen	VERB	VVFIN	_	0	H	0:H	_
+13	am	am	ADJ	ADJD	_	15	R	15:R	_
+14	hinteren	hinter	ADJ	ADJA	_	15	E	15:E	_
+15	Teil	Teil	NOUN	NN	_	12	A	12:A	_
+16	dieses	dies	PRON	PDAT	_	19	R	19:R	_
+17	seltsamen	seltsam	ADJ	ADJA	_	19	E	19:E	_
+18	Fahr	Fahr	NOUN	NN	_	19	E	19:E	_
+19	apparats	apparats	ADP	NN	_	15	E	15:E	_
+20	ein	ein	DET	ART	_	21	E	21:E	_
+21	Brausen	Brause	NOUN	NE	_	0	C	0:C|8:A|28:A|34:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	das	der	PRON	ART	_	28	R	28:R	_
+24	offenbar	offenbar	ADV	NN	_	28	G	28:G	_
+25	von	von	ADP	NE	_	27	R	27:R	_
+26	einer	ein	DET	ART	_	27	E	27:E	_
+27	Schraube	Schraube	NOUN	NN	_	28	A	28:A	_
+28	herrührte	herrühren	VERB	VVFIN	_	21	E	21:E	_
+29	,	,	PUNCT	$,	_	12	U	12:U	_
+30	und	und	CCONJ	NE	_	12	L	12:L	_
+31	setzte	setzen	VERB	VVFIN	_	34	F	34:F	_
+32	es	es	PRON	PPER	_	34	A	34:A	_
+33	in	in	ADP	APPR	_	34	R	34:R	_
+34	Bewegung	Bewegung	NOUN	NN	_	12	H	12:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

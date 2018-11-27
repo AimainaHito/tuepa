@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 617004
+# text = In 1981 , McCartney asked Geoff Dunbar to direct a short animated film called Rupert and the Frog Song ; McCartney was the writer and producer , and he also added some of the character voices .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1981	1981	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+5	asked	ask	VERB	VBD	_	0	H	0:H	_
+6	Geoff	Geoff	PROPN	NNP	_	5	A	5:A|9:A	_
+7	Dunbar	Dunbar	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	direct	direct	VERB	VB	_	5	A	5:A	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	short	short	ADJ	JJ	_	13	E	13:E	_
+12	animated	animate	ADJ	JJ	_	13	E	13:E	_
+13	film	film	NOUN	NN	_	9	A	9:A|22:A	_
+14	called	call	VERB	VBN	_	13	E	13:E	_
+15	Rupert	Rupert	PROPN	NNP	_	14	A	14:A	_
+16	and	and	CCONJ	CC	_	15	Terminal	15:Terminal	_
+17	the	the	DET	DT	_	15	Terminal	15:Terminal	_
+18	Frog	Frog	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	Song	song	PROPN	NNP	_	15	Terminal	15:Terminal	_
+20	;	;	PUNCT	,	_	22	U	22:U	_
+21	McCartney	McCartney	PROPN	NNP	_	22	A	22:A	_
+22	was	be	AUX	VBD	_	5	H	5:H	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	writer	writer	NOUN	NN	_	22	A	22:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	producer	producer	NOUN	NN	_	24	C	24:C	_
+27	,	,	PUNCT	,	_	5	U	5:U	_
+28	and	and	CCONJ	CC	_	5	L	5:L	_
+29	he	he	PRON	PRP	_	31	A	31:A	_
+30	also	also	ADV	RB	_	31	D	31:D	_
+31	added	add	VERB	VBD	_	5	H	5:H	_
+32	some	some	DET	DT	_	36	E	36:E	_
+33	of	of	ADP	IN	_	32	R	32:R	_
+34	the	the	DET	DT	_	36	E	36:E	_
+35	character	character	NOUN	NN	_	36	E	36:E	_
+36	voices	voice	NOUN	NNS	_	31	A	31:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

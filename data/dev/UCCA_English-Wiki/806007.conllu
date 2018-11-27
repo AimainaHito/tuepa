@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 806007
+# text = " McCartney has also supported campaigns headed by the Humane Society of the United States , Humane Society International , the World Society for the Protection of Animals , and the David Shepherd Wildlife Foundation .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+3	has	have	AUX	VBZ	_	5	F	5:F	_
+4	also	also	ADV	RB	_	5	D	5:D	_
+5	supported	support	VERB	VBN	_	0	H	0:H	_
+6	campaigns	campaign	NOUN	NNS	_	5	A	5:A	_
+7	headed	head	VERB	VBN	_	6	E	6:E	_
+8	by	by	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	Humane	humane	PROPN	NNP	_	11	E	11:E	_
+11	Society	Society	PROPN	NNP	_	7	A	7:A	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	United	United	PROPN	NNP	_	11	E	11:E	_
+15	States	States	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	11	U	11:U	_
+17	Humane	humane	PROPN	NNP	_	18	E	18:E	_
+18	Society	Society	PROPN	NNP	_	11	C	11:C	_
+19	International	International	PROPN	NNP	_	18	E	18:E	_
+20	,	,	PUNCT	,	_	11	U	11:U	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	World	World	PROPN	NNP	_	23	E	23:E	_
+23	Society	Society	PROPN	NNP	_	11	C	11:C	_
+24	for	for	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	Protection	protection	NOUN	NN	_	23	E	23:E	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	Animals	Animal	NOUN	NNS	_	26	E	26:E	_
+29	,	,	PUNCT	,	_	11	U	11:U	_
+30	and	and	CCONJ	CC	_	11	N	11:N	_
+31	the	the	DET	DT	_	35	E	35:E	_
+32	David	David	PROPN	NNP	_	35	E	35:E	_
+33	Shepherd	shepherd	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Wildlife	wildlife	PROPN	NNP	_	35	E	35:E	_
+35	Foundation	foundation	PROPN	NNP	_	11	C	11:C	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

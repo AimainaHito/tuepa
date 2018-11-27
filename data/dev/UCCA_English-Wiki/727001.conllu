@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 727001
+# text = The film was a major critical failure , with The New York Times noting , " The story plunges more precipitously than Ms. Jolie 's neckline .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	7	A	7:A	_
+3	was	be	AUX	VBD	_	7	F	7:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	major	major	ADJ	JJ	_	7	D	7:D	_
+6	critical	critical	ADJ	JJ	_	7	A	7:A	_
+7	failure	failure	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	with	with	ADP	IN	_	7	L	7:L	_
+10	The	the	DET	DT	_	14	A	14:A	_
+11	New	New	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	York	York	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	Times	Times	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	noting	note	VERB	VBG	_	7	H	7:H	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	"	"	PUNCT	``	_	14	U	14:U	_
+17	The	the	DET	DT	_	18	E	18:E	_
+18	story	story	NOUN	NN	_	19	A	19:A	_
+19	plunges	plunge	NOUN	NNS	_	14	A	14:A	_
+20	more	more	ADV	RBR	_	21	E	21:E	_
+21	precipitously	precipitously	ADV	RB	_	19	D	19:D	_
+22	than	than	ADP	IN	_	26	R	26:R	_
+23	Ms.	Ms.	PROPN	NNP	_	26	E	26:E	_
+24	Jolie	Jolie	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	's	's	PART	POS	_	23	R	23:R	_
+26	neckline	neckline	NOUN	NN	_	19	A	19:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

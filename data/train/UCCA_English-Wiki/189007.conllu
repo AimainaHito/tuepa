@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 189007
+# text = It starred Tom Hulce and was directed by Don Scardino .
+1	It	it	PRON	PRP	_	2	A	2:A|7:A	_
+2	starred	star	VERB	VBD	_	0	H	0:H	_
+3	Tom	Tom	PROPN	NNP	_	2	A	2:A	_
+4	Hulce	Hulce	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	directed	direct	VERB	VBN	_	2	H	2:H	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	Don	Don	PROPN	NNP	_	7	A	7:A	_
+10	Scardino	Scardino	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

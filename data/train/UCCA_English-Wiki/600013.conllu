@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 600013
+# text = Heavily influenced by American rhythm and blues music , Little Richard was his schoolboy idol .
+1	Heavily	heavily	ADV	RB	_	2	D	2:D	_
+2	influenced	influence	VERB	VBN	_	0	H	0:H	_
+3	by	by	ADP	IN	_	8	R	8:R	_
+4	American	american	ADJ	JJ	_	8	E	8:E	_
+5	rhythm	rhythm	NOUN	NN	_	8	E	8:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	blues	blue	NOUN	NNS	_	5	C	5:C	_
+8	music	music	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	Little	Little	PROPN	NNP	_	12	A	12:A	_
+11	Richard	Richard	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	was	be	AUX	VBD	_	2	H	2:H	_
+13	his	he	PRON	PRP$	_	15	E	15:E|2:A	_
+14	schoolboy	schoolboy	NOUN	NN	_	15	E	15:E	_
+15	idol	idol	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

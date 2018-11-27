@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25581008
+# text = Ich belehrte ihn nun , dass er aus den glänzenden seidenartigen Fasern gemacht sei , womit eine Art an den Ufern des Mittel meers sehr häufiger Muscheln an die Felsen geheftet ist .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	belehrte	belehren	VERB	VVFIN	_	0	H	0:H	_
+3	ihn	er	PRON	PPER	_	2	A	2:A	_
+4	nun	nun	ADV	ADV	_	2	F	2:F	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	dass	dass	SCONJ	KOUS	_	13	R	13:R	_
+7	er	er	PRON	PPER	_	13	A	13:A	_
+8	aus	aus	ADP	APPR	_	12	R	12:R	_
+9	den	der	DET	ART	_	12	E	12:E	_
+10	glänzenden	glänzend	ADJ	ADJA	_	12	E	12:E	_
+11	seidenartigen	seidenartig	ADJ	ADJA	_	10	C	10:C	_
+12	Fasern	Faser	NOUN	NN	_	13	A	13:A	_
+13	gemacht	brauchen|gemachen	VERB	VVPP	_	2	A	2:A	_
+14	sei	sein	AUX	NN	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	womit	womit	ADV	VVFIN	_	31	R	31:R	_
+17	eine	ein	DET	ART	_	18	E	18:E	_
+18	Art	Art	NOUN	NN	_	26	A	26:A	_
+19	an	an	ADP	APPR	_	21	R	21:R	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Ufern	Ufer|Ufern	NOUN	NN	_	26	A	26:A	_
+22	des	der	DET	ART	_	24	R	24:R	_
+23	Mittel	Mittel	NOUN	NN	_	24	E	24:E	_
+24	meers	meers	ADV	NN	_	21	E	21:E	_
+25	sehr	sehr	ADV	NN	_	26	D	26:D	_
+26	häufiger	häufig	ADJ	ADJD	_	31	A	31:A	_
+27	Muscheln	Muschel	NOUN	NN	_	26	A	26:A	_
+28	an	an	ADP	APPR	_	30	R	30:R	_
+29	die	der	DET	ART	_	30	E	30:E	_
+30	Felsen	Felsen	NOUN	NN	_	31	A	31:A	_
+31	geheftet	heften	VERB	VVPP	_	12	E	12:E	_
+32	ist	sein	AUX	NN	_	31	F	31:F	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+

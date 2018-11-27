@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25727002
+# text = Der Admiral Château-Renaud war schwach genug , dieser Zumutung Folge zu geben , und die Galionen liefen in die Bai von Vigo ein .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Admiral	Admiral	PROPN	NE	_	0	C	0:C|10:A	_
+3	Château-Renaud	Château-Renaud	PROPN	NE	_	5	A	5:A	_
+4	war	sein	AUX	ADV	_	5	F	5:F	_
+5	schwach	schwach	ADJ	ADJD	_	0	H	0:H	_
+6	genug	genug	ADV	ADV	_	5	D	5:D	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+9	Zumutung	Zumutung	NOUN	NN	_	10	A	10:A	_
+10	Folge	Folge	NOUN	NN	_	5	H	5:H	_
+11	zu	zu	PART	VVINF	_	10	F	10:F	_
+12	geben	geben	VERB	VVINF	_	10	F	10:F	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	und	und	CCONJ	NE	_	5	L	5:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Galionen	Galion	NOUN	NN	_	17	A	17:A	_
+17	liefen	laufen	VERB	VVFIN	_	5	H	5:H	_
+18	in	in	ADP	APPR	_	22	R	22:R	_
+19	die	der	DET	ART	_	22	E	22:E	_
+20	Bai	bai	PROPN	NN	_	22	E	22:E	_
+21	von	von	ADP	NN	_	22	R	22:R	_
+22	Vigo	Vigo	PROPN	NE	_	17	A	17:A	_
+23	ein	ein	ADV	PTKVZ	_	17	Terminal	17:Terminal	_
+24	.	.	PUNCT	$.	_	17	U	17:U	_
+

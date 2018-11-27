@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 181000
+# text = Gyllenhaal was born in New York City to film director Stephen Gyllenhaal and film producer and screenwriter Naomi Foner Gyllenhaal ( née Achs ) . Jake Gyllenhaal , her younger brother , is also an actor .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	New	New	PROPN	NNP	_	7	E	7:E	_
+6	York	York	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	City	City	PROPN	NNP	_	3	A	3:A	_
+8	to	to	PART	TO	_	11	R	11:R	_
+9	film	film	VERB	VB	_	10	E	10:E	_
+10	director	director	NOUN	NN	_	11	E	11:E	_
+11	Stephen	Stephen	PROPN	NNP	_	3	A	3:A	_
+12	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	11	N	11:N	_
+14	film	film	NOUN	NN	_	15	E	15:E	_
+15	producer	producer	NOUN	NN	_	18	E	18:E	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	screenwriter	screenwriter	NOUN	NN	_	15	C	15:C	_
+18	Naomi	Naomi	PROPN	NNP	_	11	C	11:C	_
+19	Foner	Foner	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	(	(	PUNCT	-LRB-	_	18	U	18:U	_
+22	née	née	ADJ	JJ	_	23	E	23:E	_
+23	Achs	Ach	NOUN	NNS	_	18	E	18:E	_
+24	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+25	.	.	PUNCT	.	_	3	U	3:U	_
+26	Jake	Jake	PROPN	NNP	_	36	A	36:A	_
+27	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	26	U	26:U	_
+29	her	she	PRON	PRP$	_	31	E	31:E	_
+30	younger	younger	ADJ	JJR	_	31	E	31:E	_
+31	brother	brother	NOUN	NN	_	26	E	26:E	_
+32	,	,	PUNCT	,	_	36	U	36:U	_
+33	is	be	AUX	VBZ	_	36	F	36:F	_
+34	also	also	ADV	RB	_	36	D	36:D	_
+35	an	a	DET	DT	_	36	E	36:E	_
+36	actor	actor	NOUN	NN	_	3	H	3:H	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25506006
+# text = Ich folgte dem Kapitän , der mich durch den Gang des Schiffs in das Vorderteil führte , und zwar nicht in eine Kabine , sondern in ein elegantes Zimmer mit Bett , Toilette und verschiedenen anderen Möbeln .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|23:A	_
+2	folgte	folgen	VERB	VVFIN	_	0	H	0:H	_
+3	dem	der	DET	ART	_	4	R	4:R	_
+4	Kapitän	Kapitän	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	der	der	PRON	PRELS	_	16	R	16:R	_
+7	mich	ich	PRON	PPER	_	16	A	16:A	_
+8	durch	durch	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Gang	Gang	NOUN	NN	_	16	A	16:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Schiffs	Schiff	NOUN	NN	_	10	E	10:E	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Vorderteil	Vorderteil	NOUN	NN	_	16	A	16:A	_
+16	führte	führen	VERB	VVFIN	_	4	E	4:E	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	und	und	CCONJ	NE	_	2	L	2:L	_
+19	zwar	zwar	ADV	ADV	_	18	Terminal	18:Terminal	_
+20	nicht	nicht	PART	CARD	_	23	N	23:N	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	eine	ein	DET	ART	_	23	E	23:E	_
+23	Kabine	Kabine	NOUN	NN	_	2	H	2:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	sondern	sondern	CCONJ	NN	_	23	N	23:N	_
+26	in	in	ADP	APPR	_	29	R	29:R	_
+27	ein	ein	DET	ART	_	29	E	29:E	_
+28	elegantes	elegant	ADJ	ADJA	_	29	E	29:E	_
+29	Zimmer	Zimmer	NOUN	NN	_	23	C	23:C	_
+30	mit	mit	ADP	APPR	_	31	R	31:R	_
+31	Bett	Bett	NOUN	NN	_	29	E	29:E	_
+32	,	,	PUNCT	$,	_	31	U	31:U	_
+33	Toilette	Toilette	NOUN	NE	_	31	C	31:C	_
+34	und	und	CCONJ	NE	_	31	N	31:N	_
+35	verschiedenen	verschieden	ADJ	ADJA	_	37	E	37:E	_
+36	anderen	ander	ADJ	ADJA	_	37	E	37:E	_
+37	Möbeln	Möbel	NOUN	NN	_	31	C	31:C	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

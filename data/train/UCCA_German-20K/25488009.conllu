@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25488009
+# text = Tiefes Dunkel ringsum .
+1	Tiefes	Tiefe	NOUN	NE	_	2	D	2:D	_
+2	Dunkel	Dunkel	PROPN	NE	_	0	H	0:H	_
+3	ringsum	ringsum	PROPN	ADV	_	2	A	2:A	_
+4	.	.	PUNCT	$.	_	2	U	2:U	_
+

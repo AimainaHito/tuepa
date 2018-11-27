@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 210007
+# text = He later won the Annie Award for Voice Acting in an Animated Feature for Kung Fu Panda and has continued into the role in the franchise 's subsequent filmed productions outside of the franchise 's television series .
+1	He	he	PRON	PRP	_	3	A	3:A|20:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	Annie	Annie	PROPN	NNP	_	6	E	6:E	_
+6	Award	Award	PROPN	NNP	_	3	A	3:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	Voice	voice	PROPN	NNP	_	9	E	9:E	_
+9	Acting	act	PROPN	NNP	_	6	E	6:E	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	an	a	DET	DT	_	13	E	13:E	_
+12	Animated	animated	ADJ	JJ	_	13	E	13:E	_
+13	Feature	feature	NOUN	NN	_	9	E	9:E	_
+14	for	for	ADP	IN	_	15	R	15:R	_
+15	Kung	kung	ADJ	JJ	_	3	A	3:A	_
+16	Fu	Fu	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Panda	Panda	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	and	and	CCONJ	CC	_	3	L	3:L	_
+19	has	have	AUX	VBZ	_	20	F	20:F	_
+20	continued	continue	VERB	VBN	_	3	H	3:H	_
+21	into	into	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	role	role	NOUN	NN	_	20	A	20:A	_
+24	in	in	ADP	IN	_	30	R	30:R	_
+25	the	the	DET	DT	_	30	E	30:E	_
+26	franchise	franchise	NOUN	NN	_	30	E	30:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	subsequent	subsequent	ADJ	JJ	_	30	E	30:E	_
+29	filmed	film	VERB	VBN	_	30	E	30:E	_
+30	productions	production	NOUN	NNS	_	20	A	20:A	_
+31	outside	outside	ADP	IN	_	37	R	37:R	_
+32	of	of	ADP	IN	_	37	R	37:R	_
+33	the	the	DET	DT	_	37	E	37:E	_
+34	franchise	franchise	NOUN	NN	_	37	E	37:E	_
+35	's	's	PART	POS	_	34	R	34:R	_
+36	television	television	NOUN	NN	_	37	E	37:E	_
+37	series	series	NOUN	NNS	_	30	E	30:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

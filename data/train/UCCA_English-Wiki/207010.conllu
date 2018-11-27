@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 207010
+# text = In The Graduate , he created a lasting resonance as Ben Braddock that made him an overnight sensation and set him on the road to becoming one of our biggest stars and most respected actors .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	The	the	DET	DT	_	6	A	6:A	_
+3	Graduate	Graduate	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	created	create	VERB	VBD	_	0	H	0:H	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	lasting	lasting	VERB	VBG	_	9	E	9:E	_
+9	resonance	resonance	NOUN	NN	_	6	A	6:A	_
+10	as	as	ADP	IN	_	11	R	11:R	_
+11	Ben	ben	PROPN	NNP	_	9	E	9:E	_
+12	Braddock	Braddock	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	that	that	PRON	WDT	_	18	R	18:R	_
+14	made	make	VERB	VBD	_	18	F	18:F	_
+15	him	he	PRON	PRP	_	18	A	18:A	_
+16	an	a	DET	DT	_	18	E	18:E	_
+17	overnight	overnight	ADJ	JJ	_	18	E	18:E	_
+18	sensation	sensation	NOUN	NN	_	9	E	9:E	_
+19	and	and	CCONJ	CC	_	18	L	18:L	_
+20	set	set	VERB	VBD	_	18	H	18:H	_
+21	him	he	PRON	PRP	_	20	A	20:A|26:A	_
+22	on	on	ADP	IN	_	20	Terminal	20:Terminal	_
+23	the	the	DET	DT	_	20	Terminal	20:Terminal	_
+24	road	road	NOUN	NN	_	20	Terminal	20:Terminal	_
+25	to	to	SCONJ	IN	_	20	Terminal	20:Terminal	_
+26	becoming	become	VERB	VBG	_	20	A	20:A	_
+27	one	one	NUM	CD	_	31	E	31:E	_
+28	of	of	ADP	IN	_	27	R	27:R	_
+29	our	we	PRON	PRP$	_	30	E	30:E	_
+30	biggest	biggest	ADJ	JJS	_	31	E	31:E	_
+31	stars	star	NOUN	NNS	_	26	A	26:A	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	most	most	ADV	RBS	_	34	E	34:E	_
+34	respected	respect	VERB	VBN	_	35	E	35:E	_
+35	actors	actor	NOUN	NNS	_	31	C	31:C	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

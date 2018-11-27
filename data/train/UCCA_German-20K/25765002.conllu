@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25765002
+# text = Als um Mittag die Sonne einen Augenblick zum Vorschein kam , konnte Kapitän Nemo eine ziemlich genaue Aufnahme machen , wonach wir uns unter 31 ° 30 ? Länge und 67 ° 69 ? südlicher Breite befanden .
+1	Als	als	ADP	KOUS	_	9	L	9:L	_
+2	um	um	ADP	APPR	_	3	R	3:R	_
+3	Mittag	Mittag	PROPN	NN	_	9	D	9:D	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Sonne	Sonne	NOUN	NN	_	9	A	9:A	_
+6	einen	ein	DET	ART	_	7	E	7:E	_
+7	Augenblick	Augenblick	NOUN	NN	_	9	D	9:D	_
+8	zum	zum	ADP	NN	_	9	R	9:R	_
+9	Vorschein	Vorschein	NOUN	NN	_	0	H	0:H	_
+10	kam	kommen	VERB	VVFIN	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	konnte	können	AUX	VMFIN	_	19	D	19:D	_
+13	Kapitän	Kapitän	PROPN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	19	A	19:A	_
+15	eine	ein	DET	ART	_	18	E	18:E	_
+16	ziemlich	ziemlich	ADV	ADV	_	17	E	17:E	_
+17	genaue	genau	ADJ	ADJA	_	18	E	18:E	_
+18	Aufnahme	Aufnahme	NOUN	NN	_	19	A	19:A	_
+19	machen	machen	VERB	VVINF	_	9	H	9:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	wonach	wonach	SCONJ	NN	_	23	R	23:R	_
+22	wir	wir	PRON	NE	_	23	A	23:A	_
+23	uns	wir	PRON	NN	_	18	E	18:E	_
+24	unter	unter	ADP	ADJD	_	29	R	29:R	_
+25	31	31	NUM	CARD	_	29	E	29:E	_
+26	°	°	NOUN	NN	_	25	U	25:U	_
+27	30	30	NUM	CARD	_	25	Terminal	25:Terminal	_
+28	?	?	PUNCT	$.	_	29	U	29:U	_
+29	Länge	Länge	NOUN	NN	_	23	A	23:A	_
+30	und	und	CCONJ	NE	_	29	N	29:N	_
+31	67	67	NUM	CARD	_	36	E	36:E	_
+32	°	°	NOUN	NN	_	31	U	31:U	_
+33	69	69	NUM	CARD	_	31	Terminal	31:Terminal	_
+34	?	?	PUNCT	$.	_	36	U	36:U	_
+35	südlicher	südlich	ADJ	ADJA	_	36	E	36:E	_
+36	Breite	Breite	NOUN	NN	_	29	C	29:C	_
+37	befanden	befinden	VERB	VVFIN	_	23	Terminal	23:Terminal	_
+38	.	.	PUNCT	$.	_	23	U	23:U	_
+

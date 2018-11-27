@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25803013
+# text = Es waren Manati , die gleich dem Dugong zur Ordnung der Sirenen gehören .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	Manati	Manati	PROPN	NE	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	PRON	PRELS	_	13	R	13:R	_
+6	gleich	gleich	ADJ	ADV	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Dugong	Dugong	NOUN	NN	_	13	A	13:A	_
+9	zur	zur	ADP	NE	_	12	R	12:R	_
+10	Ordnung	Ordnung	NOUN	NN	_	12	E	12:E	_
+11	der	der	DET	ART	_	10	R	10:R	_
+12	Sirenen	Sirene	NOUN	NN	_	13	A	13:A	_
+13	gehören	gehören	VERB	VVFIN	_	3	E	3:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

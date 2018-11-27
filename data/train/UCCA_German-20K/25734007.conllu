@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25734007
+# text = Aber es ist doch wirklich und unbestreitbar so ; es ist kein Traum , den ich berichte .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	es	es	PRON	PPER	_	5	A	5:A	_
+3	ist	sein	AUX	VVFIN	_	5	F	5:F	_
+4	doch	doch	ADV	ADV	_	5	F	5:F	_
+5	wirklich	wirklich	ADJ	ADV	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	unbestreitbar	unbestreitbar	ADJ	ADJD	_	5	C	5:C	_
+8	so	so	ADV	ADV	_	5	D	5:D	_
+9	;	;	PUNCT	$.	_	5	U	5:U	_
+10	es	es	PRON	PPER	_	11	A	11:A	_
+11	ist	sein	AUX	VVFIN	_	5	H	5:H	_
+12	kein	kein	PRON	PIAT	_	11	D	11:D	_
+13	Traum	Traum	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	den	der	PRON	PRELS	_	17	R	17:R	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	berichte	berichte	VERB	VVFIN	_	13	E	13:E	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

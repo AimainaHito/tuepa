@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25685001
+# text = Ich näherte mich der phänomenalen Molluske .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	näherte	nähern	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	der	der	DET	ART	_	6	R	6:R	_
+5	phänomenalen	phänomenal	ADJ	ADJA	_	6	E	6:E	_
+6	Molluske	Molluske	NOUN	NN	_	2	A	2:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

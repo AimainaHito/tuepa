@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25466000
+# text = Während der 2 Tage hielt sich die ›Abraham Lincoln‹ bei schwachem Dampf .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	2	2	NUM	CARD	_	5	D	5:D	_
+4	Tage	Tag	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Abraham	›Abraham	PROPN	NE	_	5	A	5:A	_
+9	Lincoln‹	Lincoln‹	NOUN	NE	_	8	Terminal	8:Terminal	_
+10	bei	bei	ADP	APPR	_	12	R	12:R	_
+11	schwachem	schwach	ADJ	ADJA	_	12	E	12:E	_
+12	Dampf	Dampf	NOUN	NN	_	5	A	5:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 789001
+# text = Ainsi donc , un quart d' heure de retard , moins même , et la frégate partait sans moi , et je manquais cette expédition extraordinaire , surnaturelle , invraisemblable , dont le récit véridique pourra bien trouver cependant quelques incrédules .
+1	Ainsi	ainsi	ADV	_	_	9	L	9:L	_
+2	donc	donc	ADV	_	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	_	_	9	U	9:U	_
+4	un	un	DET	_	_	5	E	5:E	_
+5	quart	quart	NOUN	_	_	7	E	7:E	_
+6	d'	de	ADP	_	_	5	R	5:R	_
+7	heure	heure	NOUN	_	_	9	D	9:D	_
+8	de	de	ADP	_	_	9	R	9:R	_
+9	retard	retard	NOUN	_	_	0	H	0:H	_
+10	,	,	PUNCT	_	_	9	U	9:U	_
+11	moins	moins	ADV	_	_	9	D	9:D	_
+12	même	même	ADV	_	_	11	E	11:E	_
+13	,	,	PUNCT	_	_	9	U	9:U	_
+14	et	et	CCONJ	_	_	9	L	9:L	_
+15	la	le	DET	_	_	16	E	16:E	_
+16	frégate	frégate	NOUN	_	_	17	A	17:A	_
+17	partait	partir	VERB	_	_	9	H	9:H	_
+18	sans	sans	ADP	_	_	19	R	19:R	_
+19	moi	soi	PRON	_	_	17	A	17:A	_
+20	,	,	PUNCT	_	_	9	U	9:U	_
+21	et	et	CCONJ	_	_	9	L	9:L	_
+22	je	il	PRON	_	_	23	A	23:A	_
+23	manquais	manquer	VERB	_	_	9	H	9:H	_
+24	cette	ce	DET	_	_	25	E	25:E	_
+25	expédition	expédition	NOUN	_	_	23	A	23:A	_
+26	extraordinaire	extraordinaire	ADJ	_	_	25	E	25:E	_
+27	,	,	PUNCT	_	_	25	U	25:U	_
+28	surnaturelle	surnaturel	ADJ	_	_	25	E	25:E	_
+29	,	,	PUNCT	_	_	25	U	25:U	_
+30	invraisemblable	invraisemblable	ADJ	_	_	25	E	25:E	_
+31	,	,	PUNCT	_	_	25	U	25:U	_
+32	dont	dont	PRON	_	_	38	R	38:R	_
+33	le	le	DET	_	_	34	E	34:E	_
+34	récit	récit	NOUN	_	_	38	A	38:A	_
+35	véridique	véridique	ADJ	_	_	34	E	34:E	_
+36	pourra	pouvoir	VERB	_	_	38	D	38:D	_
+37	bien	bien	ADV	_	_	38	D	38:D	_
+38	trouver	trouver	VERB	_	_	25	E	25:E	_
+39	cependant	cependant	ADV	_	_	38	D	38:D	_
+40	quelques	quelque	DET	_	_	41	E	41:E	_
+41	incrédules	incrédule	NOUN	_	_	38	A	38:A	_
+42	.	.	PUNCT	_	_	41	U	41:U	_
+

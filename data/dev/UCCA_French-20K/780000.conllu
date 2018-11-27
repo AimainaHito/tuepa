@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 780000
+# text = L' ascenseur de l' hôtel nous déposa au grand vestibule de l' entresol .
+1	L'	le	DET	_	_	2	E	2:E	_
+2	ascenseur	ascenseur	NOUN	_	_	7	A	7:A	_
+3	de	de	ADP	_	_	5	R	5:R	_
+4	l'	le	DET	_	_	5	E	5:E	_
+5	hôtel	hôtel	NOUN	_	_	2	E	2:E	_
+6	nous	lui	PRON	_	_	7	A	7:A	_
+7	déposa	déposer	VERB	_	_	0	H	0:H	_
+8	au	au	ADJ	_	_	10	R	10:R	_
+9	grand	grand	ADJ	_	_	10	E	10:E	_
+10	vestibule	vestibule	NOUN	_	_	7	A	7:A	_
+11	de	de	ADP	_	_	13	R	13:R	_
+12	l'	le	DET	_	_	13	E	13:E	_
+13	entresol	entresol	NOUN	_	_	10	E	10:E	_
+14	.	.	PUNCT	_	_	13	U	13:U	_
+

@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 692011
+# text = " A Hard Rain 's a - Gonna Fall " was based on the tune of the folk ballad " Lord Randall " . With its veiled references to nuclear apocalypse , it gained even more resonance when the Cuban missile crisis developed only a few weeks after Dylan began performing it .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	A	a	DET	DT	_	12	A	12:A	_
+3	Hard	hard	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Rain	rain	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	's	be	PART	POS	_	2	Terminal	2:Terminal	_
+6	a	a	NOUN	NN	_	2	Terminal	2:Terminal	_
+7	-	-	PUNCT	,	_	2	U	2:U	_
+8	Gonna	Gonna	PROPN	NNP	_	2	Terminal	2:Terminal	_
+9	Fall	fall	NOUN	NN	_	2	Terminal	2:Terminal	_
+10	"	"	PUNCT	''	_	12	U	12:U	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	based	base	VERB	VBN	_	0	H	0:H	_
+13	on	on	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	tune	tune	NOUN	NN	_	12	A	12:A	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	folk	folk	PROPN	NNP	_	19	E	19:E	_
+19	ballad	ballad	PROPN	NNP	_	15	E	15:E	_
+20	"	"	PUNCT	''	_	19	U	19:U	_
+21	Lord	Lord	PROPN	NNP	_	19	E	19:E	_
+22	Randall	Randall	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	"	"	PUNCT	''	_	12	U	12:U	_
+24	.	.	PUNCT	.	_	12	U	12:U	_
+25	With	with	SCONJ	IN	_	28	R	28:R	_
+26	its	its	PRON	PRP$	_	28	A	28:A	_
+27	veiled	veil	VERB	VBD	_	28	D	28:D	_
+28	references	reference	NOUN	NNS	_	37	A	37:A	_
+29	to	to	ADP	IN	_	31	R	31:R	_
+30	nuclear	nuclear	ADJ	JJ	_	31	E	31:E	_
+31	apocalypse	apocalypse	NOUN	NN	_	28	A	28:A	_
+32	,	,	PUNCT	,	_	37	U	37:U	_
+33	it	it	PRON	PRP	_	37	A	37:A	_
+34	gained	gain	VERB	VBD	_	37	D	37:D	_
+35	even	even	ADV	RB	_	36	E	36:E	_
+36	more	more	ADJ	JJR	_	37	D	37:D	_
+37	resonance	resonance	NOUN	NN	_	12	H	12:H	_
+38	when	when	ADV	WRB	_	12	L	12:L	_
+39	the	the	DET	DT	_	42	E	42:E	_
+40	Cuban	cuban	ADJ	JJ	_	42	E	42:E	_
+41	missile	missile	NOUN	NN	_	42	E	42:E	_
+42	crisis	crisis	NOUN	NN	_	43	A	43:A	_
+43	developed	develop	VERB	VBD	_	12	H	12:H	_
+44	only	only	ADV	RB	_	46	R	46:R	_
+45	a	a	DET	DT	_	46	E	46:E	_
+46	few	few	ADJ	JJ	_	47	E	47:E	_
+47	weeks	week	NOUN	NNS	_	12	L	12:L	_
+48	after	after	ADP	IN	_	47	R	47:R	_
+49	Dylan	Dylan	PROPN	NNP	_	51	A	51:A	_
+50	began	begin	VERB	VBD	_	51	D	51:D	_
+51	performing	perform	VERB	VBG	_	12	H	12:H	_
+52	it	it	PRON	PRP	_	51	A	51:A	_
+53	.	.	PUNCT	.	_	51	U	51:U	_
+

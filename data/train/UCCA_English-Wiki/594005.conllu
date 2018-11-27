@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 594005
+# text = Controversy arose over both the adoption and Depp 's portrayal of a Native American character , as Depp was not raised in , nor has confirmable ancestry from , a Native American community , though he has said he " guesses " he may have some distant Cherokee or Creek ancestry .
+1	Controversy	controversy	PROPN	NNP	_	2	A	2:A	_
+2	arose	arise	VERB	VBD	_	0	H	0:H	_
+3	over	over	ADP	IN	_	6	R	6:R	_
+4	both	both	CCONJ	CC	_	6	N	6:N	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	adoption	adoption	NOUN	NN	_	2	A	2:A	_
+7	and	and	CCONJ	CC	_	4	Terminal	4:Terminal	_
+8	Depp	Depp	PROPN	NNP	_	10	A	10:A	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	portrayal	portrayal	NOUN	NN	_	6	C	6:C	_
+11	of	of	ADP	IN	_	15	R	15:R	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	Native	native	ADJ	JJ	_	14	E	14:E	_
+14	American	american	ADJ	JJ	_	15	E	15:E	_
+15	character	character	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	as	as	SCONJ	IN	_	2	L	2:L	_
+18	Depp	Depp	PROPN	NNP	_	21	A	21:A|27:A	_
+19	was	be	AUX	VBD	_	21	F	21:F	_
+20	not	not	PART	RB	_	21	D	21:D	_
+21	raised	raise	VERB	VBN	_	2	H	2:H	_
+22	in	in	ADP	IN	_	33	R	33:R	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	nor	nor	CCONJ	CC	_	2	L	2:L	_
+25	has	have	VERB	VBZ	_	27	F	27:F	_
+26	confirmable	confirmable	ADJ	JJ	_	27	E	27:E	_
+27	ancestry	ancestry	NOUN	NN	_	2	H	2:H	_
+28	from	from	ADP	IN	_	27	A	27:A	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	a	a	DET	DT	_	33	E	33:E	_
+31	Native	native	ADJ	JJ	_	32	E	32:E	_
+32	American	american	ADJ	JJ	_	33	E	33:E	_
+33	community	community	NOUN	NN	_	21	A	21:A|28:C	_
+34	,	,	PUNCT	,	_	2	U	2:U	_
+35	though	though	SCONJ	IN	_	2	L	2:L	_
+36	he	he	PRON	PRP	_	38	A	38:A	_
+37	has	have	AUX	VBZ	_	38	F	38:F	_
+38	said	say	VERB	VBN	_	2	H	2:H	_
+39	he	he	PRON	PRP	_	41	A	41:A	_
+40	"	"	PUNCT	``	_	41	U	41:U	_
+41	guesses	guess	NOUN	NNS	_	38	A	38:A	_
+42	"	"	PUNCT	''	_	41	U	41:U	_
+43	he	he	PRON	PRP	_	45	A	45:A	_
+44	may	may	AUX	MD	_	45	F	45:F	_
+45	have	have	VERB	VB	_	41	A	41:A	_
+46	some	some	DET	DT	_	51	E	51:E	_
+47	distant	distant	ADJ	JJ	_	51	E	51:E	_
+48	Cherokee	Cherokee	PROPN	NNP	_	51	E	51:E	_
+49	or	or	CCONJ	CC	_	48	N	48:N	_
+50	Creek	Creek	PROPN	NNP	_	48	C	48:C	_
+51	ancestry	ancestry	PROPN	NNP	_	45	A	45:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

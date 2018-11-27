@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25438030
+# text = Tausende von Taschentüchern über der dichten Volksmasse geschwenkt , begrüßten die ›Abraham Lincoln‹ , bis sie in die Gewässer des Hudson , an der Spitze der langen Halbinsel , gelangte , die New York bildet .
+1	Tausende	Tausend	NOUN	NN	_	3	E	3:E	_
+2	von	von	ADP	NN	_	1	R	1:R	_
+3	Taschentüchern	Taschentücher	NOUN	NN	_	8	A	8:A	_
+4	über	über	ADP	VVFIN	_	7	R	7:R	_
+5	der	der	DET	ART	_	7	E	7:E	_
+6	dichten	dicht	ADJ	ADJA	_	7	E	7:E	_
+7	Volksmasse	Volksmasse	NOUN	NN	_	8	A	8:A	_
+8	geschwenkt	schwenken	VERB	VVPP	_	10	A	10:A	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	begrüßten	begrüßen	VERB	NE	_	0	H	0:H	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Abraham	›Abraham	PROPN	NE	_	10	A	10:A	_
+13	Lincoln‹	Lincoln‹	NOUN	NE	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	bis	bis	SCONJ	APPR	_	10	L	10:L	_
+16	sie	sie	PRON	TRUNC	_	30	A	30:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Gewässer	Gewässer	NOUN	NN	_	30	A	30:A	_
+20	des	der	DET	ART	_	21	R	21:R	_
+21	Hudson	Hudson	PROPN	NE	_	19	E	19:E	_
+22	,	,	PUNCT	$,	_	30	U	30:U	_
+23	an	an	ADP	APPR	_	25	R	25:R	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	Spitze	Spitze	NOUN	NN	_	28	E	28:E	_
+26	der	der	DET	ART	_	28	R	28:R	_
+27	langen	lang	ADJ	ADJA	_	28	E	28:E	_
+28	Halbinsel	Halbinsel	NOUN	NN	_	30	A	30:A	_
+29	,	,	PUNCT	$,	_	30	U	30:U	_
+30	gelangte	gelangen	VERB	VVFIN	_	10	H	10:H	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	die	der	DET	ART	_	35	R	35:R	_
+33	New	New	PROPN	NE	_	35	A	35:A	_
+34	York	York	PROPN	NE	_	33	Terminal	33:Terminal	_
+35	bildet	bilden	VERB	VVFIN	_	28	E	28:E	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

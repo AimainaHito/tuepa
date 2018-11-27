@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 557012
+# text = His friend Ronnie Smith , after playing a few local gigs with him , suggested he contact Eddie Bond , leader of Smith 's professional band , which had an opening for a vocalist .
+1	His	he	PRON	PRP$	_	2	R	2:R	_
+2	friend	friend	NOUN	NN	_	3	E	3:E	_
+3	Ronnie	Ronnie	PROPN	NNP	_	0	C	0:C|15:A	_
+4	Smith	Smith	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	after	after	SCONJ	IN	_	7	L	7:L	_
+7	playing	play	VERB	VBG	_	0	H	0:H	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	few	few	ADJ	JJ	_	11	E	11:E	_
+10	local	local	ADJ	JJ	_	11	E	11:E	_
+11	gigs	gig	NOUN	NNS	_	7	A	7:A	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	him	he	PRON	PRP	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	7	U	7:U	_
+15	suggested	suggest	VERB	VBD	_	7	H	7:H	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	contact	contact	NOUN	NN	_	15	A	15:A	_
+18	Eddie	Eddie	PROPN	NNP	_	17	A	17:A	_
+19	Bond	bond	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	18	U	18:U	_
+21	leader	leader	NOUN	NN	_	18	E	18:E	_
+22	of	of	ADP	IN	_	26	R	26:R	_
+23	Smith	Smith	PROPN	NNP	_	26	E	26:E	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	professional	professional	ADJ	JJ	_	26	E	26:E	_
+26	band	band	NOUN	NN	_	21	E	21:E	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	which	which	PRON	WDT	_	31	F	31:F	_
+29	had	have	VERB	VBD	_	31	F	31:F	_
+30	an	a	DET	DT	_	31	E	31:E	_
+31	opening	opening	NOUN	NN	_	26	E	26:E	_
+32	for	for	ADP	IN	_	34	R	34:R	_
+33	a	a	DET	DT	_	34	E	34:E	_
+34	vocalist	vocalist	NOUN	NN	_	31	A	31:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

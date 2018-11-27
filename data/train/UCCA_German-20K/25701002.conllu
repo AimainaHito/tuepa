@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25701002
+# text = » Schauen Sie wohl « , fuhr Ned fort , » dort rechts vor uns , so hoch wie die Leuchte ! Sehen Sie da nicht eine Masse , die sich zu bewegen scheint ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Schauen	schauen	NOUN	NN	_	7	A	7:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	wohl	wohl	ADV	ADV	_	2	D	2:D	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+8	Ned	Ned	PROPN	NE	_	7	A	7:A	_
+9	fort	fort	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	dort	dort	ADV	ADV	_	2	A	2:A	_
+13	rechts	rechts	ADV	NE	_	2	A	2:A	_
+14	vor	vor	ADP	NE	_	15	R	15:R	_
+15	uns	wir	PRON	NN	_	2	A	2:A	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	so	so	ADV	ADV	_	2	L	2:L	_
+18	hoch	hoch	ADJ	ADJD	_	2	H	2:H	_
+19	wie	wie	ADP	KON	_	17	Terminal	17:Terminal	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Leuchte	Leuchte	NOUN	NN	_	18	A	18:A	_
+22	!	!	PUNCT	$.	_	2	U	2:U	_
+23	Sehen	sehen	NOUN	NN	_	2	H	2:H	_
+24	Sie	Sie|sie	PRON	PPER	_	23	A	23:A	_
+25	da	da	ADV	ADV	_	23	A	23:A	_
+26	nicht	nicht	PART	CARD	_	23	D	23:D	_
+27	eine	ein	DET	ART	_	28	E	28:E	_
+28	Masse	Masse	NOUN	NN	_	23	A	23:A	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	die	der	PRON	PRELS	_	31	R	31:R	_
+31	sich	er|es|sie	PRON	PRF	_	28	E	28:E	_
+32	zu	zu	PART	VVINF	_	31	F	31:F	_
+33	bewegen	bewegen	VERB	VVINF	_	31	Terminal	31:Terminal	_
+34	scheint	scheinen	VERB	VVFIN	_	31	D	31:D	_
+35	?	?	PUNCT	$.	_	31	U	31:U	_
+36	«	«	PUNCT	$(	_	31	U	31:U	_
+

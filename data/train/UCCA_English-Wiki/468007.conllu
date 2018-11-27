@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 468007
+# text = Johnson became the only rookie to win the NBA Finals MVP award , and his clutch performance is still regarded as one of the finest in NBA history .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A	_
+2	became	become	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	only	only	ADJ	JJ	_	5	E	5:E	_
+5	rookie	rookie	NOUN	NN	_	7	A	7:A	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	win	win	VERB	VB	_	2	A	2:A	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	NBA	NBA	PROPN	NNP	_	12	E	12:E	_
+10	Finals	Finals	PROPN	NNPS	_	9	Terminal	9:Terminal	_
+11	MVP	MVP	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	award	award	NOUN	NN	_	7	A	7:A	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	his	he	PRON	PRP$	_	17	A	17:A	_
+16	clutch	clutch	NOUN	NN	_	17	E	17:E	_
+17	performance	performance	NOUN	NN	_	0	C	0:C|22:C	_
+18	is	be	AUX	VBZ	_	20	F	20:F	_
+19	still	still	ADV	RB	_	20	D	20:D	_
+20	regarded	regard	VERB	VBN	_	2	H	2:H	_
+21	as	as	SCONJ	IN	_	22	R	22:R	_
+22	one	one	NUM	CD	_	20	A	20:A	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	finest	finest	NOUN	NN	_	22	E	22:E	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	NBA	NBA	DET	DT	_	22	E	22:E	_
+28	history	history	NOUN	NN	_	27	E	27:E	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

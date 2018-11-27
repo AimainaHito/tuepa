@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25707011
+# text = Ich betrachtete schweigend die hohe , sehr steile Wand , an der wir eben vorbeifuhren , die unerschütterliche Grundlage des sandigen Kerns der Küste .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|3:A	_
+2	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+3	schweigend	schweigend	ADJ	ADJD	_	2	H	2:H	_
+4	die	der	DET	ART	_	9	E	9:E	_
+5	hohe	hoch	ADJ	ADJA	_	9	E	9:E	_
+6	,	,	PUNCT	$,	_	9	U	9:U	_
+7	sehr	sehr	ADV	NN	_	8	E	8:E	_
+8	steile	steilen	ADJ	NN	_	9	E	9:E	_
+9	Wand	Wand	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	an	an	ADP	APPR	_	12	R	12:R	_
+12	der	der	PRON	ART	_	15	R	15:R	_
+13	wir	wir	PRON	NN	_	15	A	15:A	_
+14	eben	eben	ADV	ADV	_	15	D	15:D	_
+15	vorbeifuhren	vorbeifuhren	VERB	VVINF	_	9	E	9:E	_
+16	,	,	PUNCT	$,	_	9	U	9:U	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	unerschütterliche	unerschütterlich	ADJ	ADJA	_	19	E	19:E	_
+19	Grundlage	Grundlage	NOUN	NN	_	9	E	9:E	_
+20	des	der	DET	ART	_	22	R	22:R	_
+21	sandigen	sandig	ADJ	ADJA	_	22	E	22:E	_
+22	Kerns	Kern	NOUN	NN	_	19	E	19:E	_
+23	der	der	DET	ART	_	24	R	24:R	_
+24	Küste	Küste	NOUN	NN	_	22	E	22:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

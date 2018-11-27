@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 727006
+# text = The sequel was not as lucrative as the original , earning $ 156 million at the international box office .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	sequel	sequel	NOUN	NN	_	0	C	0:C|11:A	_
+3	was	be	AUX	VBD	_	6	F	6:F	_
+4	not	not	PART	RB	_	6	D	6:D	_
+5	as	as	ADV	RB	_	6	R	6:R	_
+6	lucrative	lucrative	ADJ	JJ	_	0	H	0:H	_
+7	as	as	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	original	original	ADJ	JJ	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	earning	earn	VERB	VBG	_	6	H	6:H	_
+12	$	$	SYM	$	_	11	U	11:U	_
+13	156	156	NUM	CD	_	11	A	11:A	_
+14	million	million	NUM	CD	_	13	Terminal	13:Terminal	_
+15	at	at	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	international	international	ADJ	JJ	_	18	E	18:E	_
+18	box	box	NOUN	NN	_	11	A	11:A	_
+19	office	office	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

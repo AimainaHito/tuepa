@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25529017
+# text = » Ich « , erwiderte Conseil , » verstehe mich nicht darauf ! Das ist eine Sache meines Herrn ! «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Ich	ich	PRON	NN	_	9	A	9:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	verstehe	verstehen	VERB	VVFIN	_	5	A	5:A	_
+10	mich	ich	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	nicht	nicht	PART	XY	_	9	D	9:D	_
+12	darauf	darauf	ADV	PAV	_	9	A	9:A	_
+13	!	!	PUNCT	$.	_	9	U	9:U	_
+14	Das	d	PROPN	PDS	_	15	A	15:A	_
+15	ist	sein	AUX	VVFIN	_	9	H	9:H	_
+16	eine	ein	DET	ART	_	17	E	17:E	_
+17	Sache	Sache	NOUN	NN	_	15	A	15:A	_
+18	meines	mein	PRON	PPOSAT	_	19	R	19:R	_
+19	Herrn	Herr	NOUN	NN	_	15	A	15:A	_
+20	!	!	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

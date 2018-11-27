@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 552015
+# text = Several months after Warner 's death , a more personal tribute was organized by the Friends of the Libraries at the University of Southern California .
+1	Several	several	ADJ	JJ	_	2	E	2:E	_
+2	months	month	NOUN	NNS	_	6	L	6:L	_
+3	after	after	ADP	IN	_	2	R	2:R	_
+4	Warner	Warner	PROPN	NNP	_	6	A	6:A	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	death	death	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	a	a	DET	DT	_	11	E	11:E	_
+9	more	more	ADV	RBR	_	10	E	10:E	_
+10	personal	personal	ADJ	JJ	_	11	E	11:E	_
+11	tribute	tribute	NOUN	NN	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	organized	organize	VERB	VBN	_	6	H	6:H	_
+14	by	by	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Friends	Friends	PROPN	NNPS	_	13	A	13:A	_
+17	of	of	ADP	IN	_	16	Terminal	16:Terminal	_
+18	the	the	DET	DT	_	16	Terminal	16:Terminal	_
+19	Libraries	Library	NOUN	NNS	_	16	Terminal	16:Terminal	_
+20	at	at	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	University	University	PROPN	NNP	_	13	A	13:A	_
+23	of	of	ADP	IN	_	25	R	25:R	_
+24	Southern	southern	PROPN	NNP	_	25	E	25:E	_
+25	California	California	PROPN	NNP	_	22	E	22:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

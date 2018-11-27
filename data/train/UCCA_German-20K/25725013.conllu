@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25725013
+# text = Der Wellenschlag der Schraube allein unterbrach die tiefe Stille , die an Bord herrschte .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Wellenschlag	Wellenschlag	NOUN	NN	_	6	A	6:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Schraube	Schraube	NOUN	NN	_	2	A	2:A	_
+5	allein	allein	ADV	ADV	_	6	D	6:D	_
+6	unterbrach	unterbrach	VERB	VVFIN	_	0	H	0:H	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	tiefe	tief	ADJ	NN	_	9	E	9:E	_
+9	Stille	still	NOUN	NE	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	14	R	14:R	_
+12	an	an	ADP	APPR	_	13	R	13:R	_
+13	Bord	Bord	NOUN	NN	_	14	A	14:A	_
+14	herrschte	herrschen	VERB	VVFIN	_	9	E	9:E	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

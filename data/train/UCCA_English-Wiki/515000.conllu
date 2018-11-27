@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 515000
+# text = From the time of his earliest recordings in the 1960s , Bowie has employed a wide variety of musical styles .
+1	From	from	ADP	IN	_	7	L	7:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	time	time	NOUN	NN	_	1	E	1:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	his	he	PRON	PRP$	_	7	A	7:A	_
+6	earliest	earliest	ADJ	JJS	_	7	D	7:D	_
+7	recordings	recording	NOUN	NNS	_	0	H	0:H	_
+8	in	in	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	1960s	1960	NOUN	NNS	_	7	D	7:D	_
+11	,	,	PUNCT	,	_	7	U	7:U	_
+12	Bowie	Bowie	PROPN	NNP	_	14	A	14:A	_
+13	has	have	AUX	VBZ	_	14	F	14:F	_
+14	employed	employ	VERB	VBN	_	7	H	7:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	wide	wide	ADJ	JJ	_	17	E	17:E	_
+17	variety	variety	NOUN	NN	_	20	E	20:E	_
+18	of	of	ADP	IN	_	20	R	20:R	_
+19	musical	musical	ADJ	JJ	_	20	E	20:E	_
+20	styles	style	NOUN	NNS	_	14	A	14:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

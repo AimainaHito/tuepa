@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25488102
+# text = Ich klimmte rasch nach oben auf das Geschöpf oder den Gegenstand , der halb unterm Wasser uns als Zuflucht diente .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	klimmte	klimmen	VERB	VVFIN	_	0	H	0:H	_
+3	rasch	rasch	ADJ	ADJD	_	2	D	2:D	_
+4	nach	nach	ADP	ADJA	_	5	R	5:R	_
+5	oben	oben	ADV	NN	_	2	A	2:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Geschöpf	Geschöpf	NOUN	NN	_	2	A	2:A	_
+9	oder	oder	CCONJ	CARD	_	8	N	8:N	_
+10	den	der	DET	ART	_	11	R	11:R	_
+11	Gegenstand	Gegenstand	NOUN	NN	_	0	C	0:C|20:A	_
+12	,	,	PUNCT	$,	_	20	U	20:U	_
+13	der	der	PRON	PRELS	_	20	R	20:R	_
+14	halb	halb	ADV	APPR	_	20	D	20:D	_
+15	unterm	unterm	ADJ	NN	_	16	E	16:E	_
+16	Wasser	Wasser	NOUN	NN	_	20	A	20:A	_
+17	uns	wir	PRON	NE	_	20	A	20:A	_
+18	als	als	ADP	KOKOM	_	19	R	19:R	_
+19	Zuflucht	Zuflucht	NOUN	NN	_	20	A	20:A	_
+20	diente	dienen	VERB	VVFIN	_	8	E	8:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

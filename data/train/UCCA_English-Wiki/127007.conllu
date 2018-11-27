@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 127007
+# text = Her success continued with the role of Jo in the screen adaptation of Little Women ( 1933 ) . The movie was a hit , one of the film industry 's biggest successes to date , and Hepburn won the Best Actress prize at the Venice Film Festival .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	success	success	NOUN	NN	_	3	A	3:A	_
+3	continued	continue	VERB	VBD	_	0	H	0:H	_
+4	with	with	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	role	role	NOUN	NN	_	3	A	3:A	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	Jo	Jo	PROPN	NNP	_	6	E	6:E	_
+9	in	in	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	screen	screen	NOUN	NN	_	12	A	12:A	_
+12	adaptation	adaptation	NOUN	NN	_	6	E	6:E	_
+13	of	of	ADP	IN	_	14	R	14:R	_
+14	Little	Little	PROPN	NNP	_	12	A	12:A	_
+15	Women	women	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+17	1933	1933	NUM	CD	_	14	E	14:E	_
+18	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+19	.	.	PUNCT	.	_	3	U	3:U	_
+20	The	the	DET	DT	_	21	E	21:E	_
+21	movie	movie	NOUN	NN	_	24	A	24:A|26:A	_
+22	was	be	AUX	VBD	_	24	F	24:F	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	hit	hit	NOUN	NN	_	3	H	3:H	_
+25	,	,	PUNCT	,	_	3	U	3:U	_
+26	one	one	NUM	CD	_	3	H	3:H	_
+27	of	of	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	film	film	NOUN	NN	_	30	E	30:E	_
+30	industry	industry	NOUN	NN	_	26	A	26:A	_
+31	's	's	PART	POS	_	30	R	30:R	_
+32	biggest	biggest	ADJ	JJS	_	30	E	30:E	_
+33	successes	success	NOUN	NNS	_	32	A	32:A	_
+34	to	to	ADP	IN	_	35	R	35:R	_
+35	date	date	NOUN	NN	_	32	D	32:D	_
+36	,	,	PUNCT	,	_	3	U	3:U	_
+37	and	and	CCONJ	CC	_	3	L	3:L	_
+38	Hepburn	Hepburn	PROPN	NNP	_	39	A	39:A	_
+39	won	win	VERB	VBD	_	3	H	3:H	_
+40	the	the	DET	DT	_	43	E	43:E	_
+41	Best	best	ADJ	JJS	_	42	E	42:E	_
+42	Actress	actress	NOUN	NN	_	43	E	43:E	_
+43	prize	prize	NOUN	NN	_	39	A	39:A	_
+44	at	at	ADP	IN	_	48	R	48:R	_
+45	the	the	DET	DT	_	48	E	48:E	_
+46	Venice	Venice	PROPN	NNP	_	48	E	48:E	_
+47	Film	film	PROPN	NNP	_	48	E	48:E	_
+48	Festival	Festival	PROPN	NNP	_	39	A	39:A	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

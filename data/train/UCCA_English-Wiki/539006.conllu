@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 539006
+# text = In 1917 , Jack was sent to Los Angeles to open another film exchange company .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1917	1917	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Jack	Jack	PROPN	NNP	_	6	A	6:A|11:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	sent	send	VERB	VBN	_	0	H	0:H	_
+7	to	to	ADP	IN	_	8	R	8:R	_
+8	Los	Los	PROPN	NNP	_	6	A	6:A	_
+9	Angeles	angeles	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	to	to	PART	TO	_	6	L	6:L	_
+11	open	open	VERB	VB	_	6	H	6:H	_
+12	another	another	DET	DT	_	15	E	15:E	_
+13	film	film	NOUN	NN	_	14	E	14:E	_
+14	exchange	exchange	NOUN	NN	_	15	E	15:E	_
+15	company	company	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

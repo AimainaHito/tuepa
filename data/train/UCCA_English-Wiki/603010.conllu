@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 603010
+# text = McCartney , stepping in to fill that void , gradually became the de facto leader and business manager of the group Lennon had once led .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A|11:A|6:A	_
+2	,	,	PUNCT	,	_	3	U	3:U	_
+3	stepping	step	VERB	VBG	_	0	H	0:H	_
+4	in	in	ADV	RB	_	3	E	3:E	_
+5	to	to	PART	TO	_	6	R	6:R	_
+6	fill	fill	VERB	VB	_	3	A	3:A	_
+7	that	that	DET	DT	_	8	E	8:E	_
+8	void	void	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	gradually	gradually	ADV	RB	_	11	D	11:D	_
+11	became	become	VERB	VBD	_	3	H	3:H	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	de	de	PROPN	NNP	_	14	E	14:E	_
+14	facto	facto	NOUN	NN	_	15	E	15:E	_
+15	leader	leader	NOUN	NN	_	11	A	11:A	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	business	business	NOUN	NN	_	18	E	18:E	_
+18	manager	manager	NOUN	NN	_	15	C	15:C	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	group	group	NOUN	NN	_	15	E	15:E	_
+22	Lennon	Lennon	PROPN	NNP	_	25	A	25:A	_
+23	had	have	AUX	VBD	_	25	F	25:F	_
+24	once	once	ADV	RB	_	25	D	25:D	_
+25	led	lead	VERB	VBN	_	15	E	15:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

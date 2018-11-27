@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25511003
+# text = » Wir sind noch nicht fertig , Herr Arronax « , sagte Kapitän Nemo , indem er aufstand , » und wenn 's Ihnen beliebt , mich zu begleiten , wollen wir den hinteren Teil der ›Nautilus‹ auch besichtigen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Wir	wir	PRON	NE	_	6	A	6:A	_
+3	sind	sein	AUX	NN	_	6	F	6:F	_
+4	noch	noch	ADV	XY	_	5	E	5:E	_
+5	nicht	nicht	PART	CARD	_	6	D	6:D	_
+6	fertig	fertig	ADJ	ADJD	_	12	A	12:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Herr	Herr	PROPN	NN	_	9	E	9:E	_
+9	Arronax	Arronax	PROPN	NE	_	6	G	6:G	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+13	Kapitän	Kapitän	PROPN	NN	_	14	E	14:E	_
+14	Nemo	Nemo	PROPN	NE	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	indem	indem	SCONJ	KOUS	_	12	L	12:L	_
+17	er	er	PRON	PPER	_	18	A	18:A	_
+18	aufstand	aufstehen	VERB	VVFIN	_	12	H	12:H	_
+19	,	,	PUNCT	$,	_	12	U	12:U	_
+20	»	»	PUNCT	$(	_	12	U	12:U	_
+21	und	und	CCONJ	NE	_	6	L	6:L	_
+22	wenn	wenn	SCONJ	VVFIN	_	6	L	6:L	_
+23	's	es	PRON	ART	_	29	F	29:F	_
+24	Ihnen	sie	PRON	PPER	_	29	A	29:A	_
+25	beliebt	beliebt	VERB	ADJD	_	29	D	29:D	_
+26	,	,	PUNCT	$,	_	29	U	29:U	_
+27	mich	ich	PRON	PRF	_	29	A	29:A	_
+28	zu	zu	PART	VVINF	_	29	F	29:F	_
+29	begleiten	begleiten	VERB	VVINF	_	6	H	6:H	_
+30	,	,	PUNCT	$,	_	6	U	6:U	_
+31	wollen	wollen	AUX	VMFIN	_	39	D	39:D	_
+32	wir	wir	PRON	NE	_	39	A	39:A	_
+33	den	der	DET	ART	_	35	E	35:E	_
+34	hinteren	hinter	ADJ	ADJA	_	35	E	35:E	_
+35	Teil	Teil	NOUN	NN	_	39	A	39:A	_
+36	der	der	DET	ART	_	37	R	37:R	_
+37	›Nautilus‹	›Nautilus‹	NOUN	NE	_	35	E	35:E	_
+38	auch	auch	ADV	ADV	_	39	D	39:D	_
+39	besichtigen	besichtigen	ADJ	VVINF	_	6	H	6:H	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25499001
+# text = Kapitän Nemo wies mir meinen Platz an : » Setzen Sie sich « , sagte er zu mir , » und essen Sie wie ein Mann , der wohl Hunger zum Sterben haben wird . «
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	wies	weisen	VERB	VVFIN	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	meinen	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Platz	Platz	NOUN	NN	_	3	A	3:A	_
+7	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+8	:	:	PUNCT	$.	_	3	U	3:U	_
+9	»	»	PUNCT	$(	_	3	U	3:U	_
+10	Setzen	setzen	NOUN	VVFIN	_	15	A	15:A	_
+11	Sie	Sie|sie	PRON	PPER	_	10	A	10:A	_
+12	sich	er|es|sie	PRON	PRF	_	10	Terminal	10:Terminal	_
+13	«	«	PUNCT	$(	_	15	U	15:U	_
+14	,	,	PUNCT	$,	_	15	U	15:U	_
+15	sagte	sagen	VERB	VVFIN	_	3	H	3:H	_
+16	er	er	PRON	PPER	_	15	A	15:A	_
+17	zu	zu	ADP	VVINF	_	18	R	18:R	_
+18	mir	ich	PRON	PPER	_	15	A	15:A	_
+19	,	,	PUNCT	$,	_	15	U	15:U	_
+20	»	»	PUNCT	$(	_	15	U	15:U	_
+21	und	und	CCONJ	NE	_	10	L	10:L	_
+22	essen	essen	VERB	VVFIN	_	10	H	10:H	_
+23	Sie	Sie|sie	PRON	PPER	_	22	A	22:A	_
+24	wie	wie	ADP	ADV	_	26	R	26:R	_
+25	ein	ein	DET	ART	_	26	E	26:E	_
+26	Mann	Mann	NOUN	NN	_	22	A	22:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	der	der	PRON	ART	_	30	R	30:R	_
+29	wohl	wohl	ADV	NE	_	30	G	30:G	_
+30	Hunger	hungern	NOUN	ADJA	_	26	E	26:E	_
+31	zum	zum	ADP	NN	_	32	R	32:R	_
+32	Sterben	sterben	NOUN	NN	_	30	D	30:D	_
+33	haben	haben	VERB	VAINF	_	30	F	30:F	_
+34	wird	werden	AUX	VAFIN	_	30	F	30:F	_
+35	.	.	PUNCT	$.	_	30	U	30:U	_
+36	«	«	PUNCT	$(	_	30	U	30:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25723014
+# text = Ich wünschte und fürchtete es zugleich .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|4:A	_
+2	wünschte	wünschen	VERB	VVFIN	_	0	H	0:H	_
+3	und	und	CCONJ	NE	_	2	L	2:L	_
+4	fürchtete	fürchten	VERB	VVFIN	_	2	H	2:H	_
+5	es	es	PRON	PPER	_	4	A	4:A|2:A	_
+6	zugleich	zugleich	ADV	NN	_	4	D	4:D	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 380016
+# text = In 2009 , he appeared with Tobey Maguire in Jim Sheridan 's remake of Susanne Bier 's 2004 Danish language film Brothers .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2009	2009	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	Tobey	Tobey	PROPN	NNP	_	5	A	5:A	_
+8	Maguire	Maguire	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	IN	_	22	R	22:R	_
+10	Jim	Jim	PROPN	NNP	_	13	A	13:A	_
+11	Sheridan	Sheridan	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	's	's	PART	POS	_	10	R	10:R	_
+13	remake	remake	NOUN	NN	_	22	E	22:E	_
+14	of	of	ADP	IN	_	21	R	21:R	_
+15	Susanne	Susanne	PROPN	NNP	_	21	E	21:E	_
+16	Bier	Bier	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	's	's	PART	POS	_	15	R	15:R	_
+18	2004	2004	NUM	CD	_	21	E	21:E	_
+19	Danish	Danish	ADJ	JJ	_	20	E	20:E	_
+20	language	language	NOUN	NN	_	21	E	21:E	_
+21	film	film	NOUN	NN	_	13	A	13:A	_
+22	Brothers	brother	NOUN	NNS	_	5	A	5:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

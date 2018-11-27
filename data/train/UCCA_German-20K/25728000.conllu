@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25728000
+# text = Der Kapitän stand auf und bat mich , ihn zu begleiten .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|6:A	_
+3	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+4	auf	auf	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+5	und	und	CCONJ	NE	_	3	L	3:L	_
+6	bat	bitten	VERB	VVFIN	_	3	H	3:H	_
+7	mich	ich	PRON	PPER	_	6	A	6:A|11:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	ihn	er	PRON	PPER	_	11	A	11:A	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	begleiten	begleiten	VERB	VVINF	_	6	A	6:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

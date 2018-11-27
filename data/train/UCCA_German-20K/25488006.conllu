@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25488006
+# text = Hatte die ›Abraham Lincoln‹ sich umgedreht ?
+1	Hatte	haben	AUX	VAFIN	_	5	F	5:F	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	›Abraham	›Abraham	PROPN	NE	_	5	A	5:A	_
+4	Lincoln‹	Lincoln‹	NOUN	NE	_	3	Terminal	3:Terminal	_
+5	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+6	umgedreht	umgedrehen	VERB	VVFIN	_	5	Terminal	5:Terminal	_
+7	?	?	PUNCT	$.	_	5	U	5:U	_
+

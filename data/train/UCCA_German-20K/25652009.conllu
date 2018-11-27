@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25652009
+# text = Die merkwürdige Substanz wurde der Reihe nach dem Mineral- , dem Pflanzen- und dem Tier reich zugezählt .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	merkwürdige	merkwürdig	ADJ	ADJA	_	3	E	3:E	_
+3	Substanz	Substanz	NOUN	NN	_	17	A	17:A	_
+4	wurde	werden	AUX	NE	_	17	F	17:F	_
+5	der	der	DET	ART	_	17	D	17:D	_
+6	Reihe	Reihe	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	nach	nach	ADP	NN	_	5	Terminal	5:Terminal	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Mineral-	Mineral-	NOUN	$(	_	17	A	17:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Pflanzen-	Pflanzen-	NOUN	NE	_	9	C	9:C	_
+13	und	und	CCONJ	NE	_	9	N	9:N	_
+14	dem	der	DET	ART	_	16	E	16:E	_
+15	Tier	Tier	NOUN	NN	_	16	E	16:E	_
+16	reich	reich	ADJ	NN	_	9	C	9:C	_
+17	zugezählt	zugezählen	VERB	VVPP	_	0	H	0:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

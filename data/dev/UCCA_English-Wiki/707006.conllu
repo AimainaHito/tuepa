@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 707006
+# text = " It was the first Dylan album since Freewheelin ' ( 1963 ) to fail to make the Top 50 .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	It	it	PRON	PRP	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	first	first	ADJ	JJ	_	17	D	17:D	_
+6	Dylan	Dylan	PROPN	NNP	_	7	E	7:E	_
+7	album	album	NOUN	NN	_	17	A	17:A	_
+8	since	since	ADP	IN	_	3	L	3:L	_
+9	Freewheelin	Freewheelin	PROPN	NNP	_	3	H	3:H	_
+10	'	'	PUNCT	''	_	9	U	9:U	_
+11	(	(	PUNCT	-LRB-	_	9	U	9:U	_
+12	1963	1963	NUM	CD	_	9	D	9:D	_
+13	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+14	to	to	PART	TO	_	17	F	17:F	_
+15	fail	fail	VERB	VB	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	make	make	VERB	VB	_	3	A	3:A	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	Top	top	ADJ	JJ	_	17	A	17:A	_
+20	50	50	NUM	CD	_	19	E	19:E	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 146003
+# text = A. Scott Berg knew Hepburn well in her later years , and said that while she was demanding , there remained a sense of humility and humanity .
+1	A.	A.	PROPN	NNP	_	4	A	4:A|13:A	_
+2	Scott	Scott	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Berg	Berg	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	knew	know	VERB	VBD	_	0	H	0:H	_
+5	Hepburn	Hepburn	PROPN	NNP	_	4	A	4:A	_
+6	well	well	ADV	RB	_	4	D	4:D	_
+7	in	in	ADP	IN	_	10	R	10:R	_
+8	her	she	PRON	PRP$	_	10	E	10:E	_
+9	later	later	ADJ	JJR	_	10	E	10:E	_
+10	years	year	NOUN	NNS	_	4	D	4:D	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	said	say	VERB	VBD	_	4	H	4:H	_
+14	that	that	SCONJ	IN	_	18	F	18:F	_
+15	while	while	SCONJ	IN	_	18	L	18:L	_
+16	she	she	PRON	PRP	_	18	A	18:A	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	demanding	demand	VERB	VBG	_	13	A	13:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	there	there	PRON	EX	_	21	F	21:F	_
+21	remained	remain	VERB	VBD	_	18	H	18:H	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	sense	sense	NOUN	NN	_	21	A	21:A	_
+24	of	of	ADP	IN	_	25	R	25:R	_
+25	humility	humility	NOUN	NN	_	23	E	23:E	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	humanity	humanity	NOUN	NN	_	25	C	25:C	_
+28	.	.	PUNCT	.	_	25	U	25:U	_
+

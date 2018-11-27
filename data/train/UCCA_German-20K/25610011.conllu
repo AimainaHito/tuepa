@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25610011
+# text = 2 Monate nachher vernahm man durch die Aussage eines gewissen Bowen , Kommandant des " Albermale " , dass die Trümmer gescheiterter Schiffe an den Küsten Neu-Georgiens gesehen worden waren .
+1	2	2	NUM	CARD	_	2	E	2:E	_
+2	Monate	Monat	NOUN	NN	_	4	D	4:D	_
+3	nachher	nachher	ADV	ADJA	_	2	E	2:E	_
+4	vernahm	vernehmen	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+6	durch	durch	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Aussage	Aussage	NOUN	NN	_	4	A	4:A	_
+9	eines	ein	DET	ART	_	11	E	11:E	_
+10	gewissen	gewiß	ADJ	ADJA	_	11	E	11:E	_
+11	Bowen	Bowe	NOUN	NN	_	4	A	4:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	Kommandant	Kommandant	NOUN	NN	_	11	E	11:E	_
+14	des	der	DET	ART	_	16	R	16:R	_
+15	"	"	PUNCT	$(	_	16	U	16:U	_
+16	Albermale	Albermalen	PROPN	NN	_	13	A	13:A	_
+17	"	"	PUNCT	$(	_	4	U	4:U	_
+18	,	,	PUNCT	$,	_	4	U	4:U	_
+19	dass	dass	SCONJ	KOUS	_	28	R	28:R	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Trümmer	Trümmer	NOUN	NN	_	28	A	28:A	_
+22	gescheiterter	gescheitert	ADJ	ADJA	_	23	E	23:E	_
+23	Schiffe	Schiff	NOUN	NN	_	21	E	21:E	_
+24	an	an	ADP	APPR	_	27	R	27:R	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Küsten	Küste	PROPN	NN	_	27	E	27:E	_
+27	Neu-Georgiens	Neu-Georgien	PROPN	NE	_	28	A	28:A	_
+28	gesehen	sehen	VERB	VVINF	_	4	A	4:A	_
+29	worden	werden	AUX	ADV	_	28	F	28:F	_
+30	waren	sein	AUX	VAFIN	_	28	F	28:F	_
+31	.	.	PUNCT	$.	_	28	U	28:U	_
+

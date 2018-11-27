@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 243002
+# text = He then appeared in such films as White Fang ( 1991 ) , A Midnight Clear ( 1992 ) , and Alive ( 1993 ) before taking a role in the 1994 Generation X drama Reality Bites , for which he gained critical acclaim .
+1	He	he	PRON	PRP	_	3	A	3:A|29:A	_
+2	then	then	ADV	RB	_	3	L	3:L	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	such	such	ADJ	JJ	_	8	R	8:R	_
+6	films	film	NOUN	NNS	_	3	A	3:A	_
+7	as	as	ADP	IN	_	5	Terminal	5:Terminal	_
+8	White	White	PROPN	NNP	_	6	E	6:E	_
+9	Fang	Fang	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+11	1991	1991	NUM	CD	_	8	E	8:E	_
+12	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+13	,	,	PUNCT	,	_	8	U	8:U	_
+14	A	a	DET	DT	_	8	C	8:C	_
+15	Midnight	Midnight	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Clear	clear	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+18	1992	1992	NUM	CD	_	14	E	14:E	_
+19	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+20	,	,	PUNCT	,	_	8	U	8:U	_
+21	and	and	CCONJ	CC	_	8	N	8:N	_
+22	Alive	alive	PROPN	NNP	_	8	C	8:C	_
+23	(	(	PUNCT	-LRB-	_	22	U	22:U	_
+24	1993	1993	NUM	CD	_	22	E	22:E	_
+25	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+26	before	before	SCONJ	IN	_	3	L	3:L	_
+27	taking	take	VERB	VBG	_	29	F	29:F	_
+28	a	a	DET	DT	_	29	E	29:E	_
+29	role	role	NOUN	NN	_	3	H	3:H	_
+30	in	in	ADP	IN	_	36	R	36:R	_
+31	the	the	DET	DT	_	36	E	36:E	_
+32	1994	1994	NUM	CD	_	36	E	36:E	_
+33	Generation	generation	NOUN	NN	_	35	E	35:E	_
+34	X	x	SYM	SYM	_	33	E	33:E	_
+35	drama	drama	NOUN	NN	_	36	E	36:E	_
+36	Reality	reality	NOUN	NN	_	29	A	29:A	_
+37	Bites	bites	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	,	,	PUNCT	,	_	36	U	36:U	_
+39	for	for	ADP	IN	_	42	A	42:A	_
+40	which	which	PRON	WDT	_	42	F	42:F	_
+41	he	he	PRON	PRP	_	42	A	42:A	_
+42	gained	gain	VERB	VBD	_	36	E	36:E	_
+43	critical	critical	ADJ	JJ	_	44	A	44:A	_
+44	acclaim	acclaim	NOUN	NN	_	42	A	42:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

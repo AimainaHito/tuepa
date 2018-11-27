@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25683018
+# text = Er klettert am Ufer an den Bäumen hinauf , wirft die Nuß herab , die bei m Fallen zerbricht , worauf er sie mit seinen ungeheuren Scheren öffnet .
+1	Er	er	PRON	PPER	_	2	A	2:A|10:A	_
+2	klettert	klettern	VERB	VVFIN	_	0	H	0:H	_
+3	am	am	ADJ	ADJD	_	4	R	4:R	_
+4	Ufer	Ufer	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	APPR	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Bäumen	Baum	NOUN	NN	_	2	A	2:A	_
+8	hinauf	hinauf	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	wirft	werfen	VERB	VVFIN	_	2	H	2:H	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Nuß	Nuß	NOUN	NN	_	10	A	10:A	_
+13	herab	herab	ADV	PTKVZ	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	$,	_	10	U	10:U	_
+15	die	der	PRON	PRELS	_	19	R	19:R	_
+16	bei	bei	ADP	APPR	_	18	R	18:R	_
+17	m	m	ADJ	NN	_	18	E	18:E	_
+18	Fallen	falle	NOUN	NN	_	19	A	19:A	_
+19	zerbricht	zerbricht	PART	VVFIN	_	12	E	12:E	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	worauf	worauf	SCONJ	PWAV	_	2	L	2:L	_
+22	er	er	PRON	PPER	_	28	A	28:A	_
+23	sie	sie	PRON	TRUNC	_	28	A	28:A	_
+24	mit	mit	ADP	APPR	_	27	R	27:R	_
+25	seinen	sein	DET	PPOSAT	_	27	E	27:E	_
+26	ungeheuren	ungeheur	ADJ	NN	_	27	E	27:E	_
+27	Scheren	Scher	NOUN	NN	_	28	A	28:A	_
+28	öffnet	öffnen	VERB	VVFIN	_	2	H	2:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

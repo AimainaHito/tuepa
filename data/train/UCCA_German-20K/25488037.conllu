@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25488037
+# text = Darauf entledigte er mich rasch ihrer , während ich für uns beide schwamm .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	entledigte	entledigen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	mich	ich	PRON	PRF	_	2	A	2:A	_
+5	rasch	rasch	ADJ	ADJD	_	2	D	2:D	_
+6	ihrer	ihr	PRON	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	während	während	SCONJ	VVINF	_	2	L	2:L	_
+9	ich	ich	PRON	PPER	_	13	A	13:A	_
+10	für	für	ADP	APPR	_	11	R	11:R	_
+11	uns	wir	PRON	NE	_	13	A	13:A	_
+12	beide	beide	PRON	PIS	_	11	E	11:E	_
+13	schwamm	schwamm	ADJ	NN	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

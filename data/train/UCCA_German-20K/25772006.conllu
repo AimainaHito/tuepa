@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25772006
+# text = Er stieg auf einen Felsen , der überhängend ein kleines Vorgebirge bildete , wo er mit gekreuzten Armen und glühendem Blick , stumm , unbeweglich verweilte .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	stieg	steigen	VERB	VVFIN	_	0	H	0:H	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	einen	ein	DET	ART	_	5	E	5:E	_
+5	Felsen	Felsen	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	der	der	PRON	PRELS	_	8	R	8:R	_
+8	überhängend	überhängend	ADV	ADJD	_	5	E	5:E	_
+9	ein	ein	DET	ART	_	11	E	11:E	_
+10	kleines	klein	ADJ	ADJA	_	11	E	11:E	_
+11	Vorgebirge	Vorgebirge	NOUN	NN	_	12	A	12:A	_
+12	bildete	bilden	VERB	VVFIN	_	8	H	8:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	wo	wo	ADV	ADJA	_	26	R	26:R	_
+15	er	er	PRON	PPER	_	26	A	26:A	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	gekreuzten	gekreuzt	ADJ	ADJA	_	18	E	18:E	_
+18	Armen	Arm|Arme	NOUN	NN	_	26	A	26:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	glühendem	glühend	ADJ	ADJA	_	21	E	21:E	_
+21	Blick	Blick	NOUN	NN	_	18	C	18:C	_
+22	,	,	PUNCT	$,	_	26	U	26:U	_
+23	stumm	stumm	ADJ	ADJD	_	26	D	26:D	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	unbeweglich	unbeweglich	ADJ	ADJD	_	23	C	23:C	_
+26	verweilte	verweilen	VERB	VVFIN	_	11	E	11:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

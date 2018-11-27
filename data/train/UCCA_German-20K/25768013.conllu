@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25768013
+# text = Die beiden Männer besprachen sich rasch miteinander in ihrer unverständlichen Sprache , und der Lieutenant zeigte gar keine Überraschung , sei es , dass er schon vorher davon unterrichtet oder von der Ausführbarkeit überzeugt war .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	beiden	beide	PRON	PIAT	_	3	E	3:E	_
+3	Männer	Mann	NOUN	NN	_	4	A	4:A	_
+4	besprachen	besprachen	VERB	ADJA	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	rasch	rasch	ADJ	ADJD	_	4	D	4:D	_
+7	miteinander	miteinander	ADV	ADV	_	4	A	4:A	_
+8	in	in	ADP	APPR	_	11	R	11:R	_
+9	ihrer	ihr	DET	PPOSAT	_	11	E	11:E	_
+10	unverständlichen	unverständlich	ADJ	ADJA	_	11	E	11:E	_
+11	Sprache	Sprache	NOUN	NN	_	4	A	4:A	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	und	und	CCONJ	NN	_	4	L	4:L	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Lieutenant	Lieutenant	NOUN	NN	_	19	A	19:A	_
+16	zeigte	zeigen	VERB	VVFIN	_	19	D	19:D	_
+17	gar	gar	ADV	ADV	_	18	E	18:E	_
+18	keine	kein	PRON	PIAT	_	19	D	19:D	_
+19	Überraschung	Überraschung	NOUN	NN	_	4	H	4:H	_
+20	,	,	PUNCT	$,	_	4	U	4:U	_
+21	sei	sein	AUX	NE	_	29	F	29:F	_
+22	es	es	PRON	PPER	_	29	F	29:F	_
+23	,	,	PUNCT	$,	_	29	U	29:U	_
+24	dass	dass	SCONJ	KOUS	_	29	R	29:R	_
+25	er	er	PRON	PPER	_	29	A	29:A|34:A	_
+26	schon	schon	ADV	ADV	_	29	D	29:D	_
+27	vorher	vorher	ADV	ADV	_	29	D	29:D	_
+28	davon	davon	ADV	PAV	_	29	A	29:A	_
+29	unterrichtet	unterrichten	VERB	VVPP	_	4	H	4:H	_
+30	oder	oder	CCONJ	CARD	_	29	L	29:L	_
+31	von	von	ADP	NN	_	33	R	33:R	_
+32	der	der	DET	ART	_	33	E	33:E	_
+33	Ausführbarkeit	Ausführbarkeit	NOUN	NN	_	34	A	34:A	_
+34	überzeugt	überzeugen	VERB	ADJD	_	29	H	29:H	_
+35	war	sein	AUX	ADV	_	34	F	34:F	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

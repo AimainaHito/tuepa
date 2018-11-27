@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25511013
+# text = « » Aber dann müssen Sie zum Einsteigen sich auf der Meeres- oberfläche befinden ? «
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	»	»	PUNCT	$(	_	9	U	9:U	_
+3	Aber	aber	CCONJ	ADV	_	9	L	9:L	_
+4	dann	dann	ADV	ADV	_	9	L	9:L	_
+5	müssen	müssen	AUX	VMFIN	_	9	D	9:D	_
+6	Sie	Sie|sie	PRON	PPER	_	9	A	9:A|8:A	_
+7	zum	zum	ADP	NN	_	8	R	8:R	_
+8	Einsteigen	einsteige	NOUN	VVINF	_	9	A	9:A	_
+9	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+10	auf	auf	ADP	APPR	_	13	R	13:R	_
+11	der	der	DET	ART	_	13	E	13:E	_
+12	Meeres-	Meeres-	NOUN	$(	_	13	E	13:E	_
+13	oberfläche	oberfläch	ADJ	NN	_	9	A	9:A	_
+14	befinden	befinden	VERB	VVFIN	_	9	Terminal	9:Terminal	_
+15	?	?	PUNCT	$.	_	9	U	9:U	_
+16	«	«	PUNCT	$(	_	9	U	9:U	_
+

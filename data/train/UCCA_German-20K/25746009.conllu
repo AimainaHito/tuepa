@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25746009
+# text = Die Leute der Bemannung waren eben mit dem Einladen des Sodiums fertig , und die ›Nautilus‹ hätte sogleich abfahren können .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Leute	Leute	NOUN	NN	_	12	A	12:A	_
+3	der	der	DET	ART	_	4	R	4:R	_
+4	Bemannung	Bemannung	NOUN	NN	_	2	E	2:E	_
+5	waren	sein	AUX	VAFIN	_	12	F	12:F	_
+6	eben	eben	ADV	ADV	_	12	D	12:D	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Einladen	einladen	NOUN	NN	_	12	A	12:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Sodiums	Sodium	NOUN	NN	_	9	A	9:A	_
+12	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	und	und	CCONJ	NE	_	12	L	12:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	›Nautilus‹	›Nautilus‹	NOUN	NE	_	19	A	19:A	_
+17	hätte	haben	AUX	VAFIN	_	19	D	19:D	_
+18	sogleich	sogleich	ADV	NN	_	19	D	19:D	_
+19	abfahren	abfahren	VERB	VVINF	_	12	H	12:H	_
+20	können	können	AUX	VMFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

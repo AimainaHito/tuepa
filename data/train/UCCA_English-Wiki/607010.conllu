@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 607010
+# text = In 1982 McCartney collaborated with Stevie Wonder on the Martin - produced number - one hit " Ebony and Ivory " , included on McCartney 's Tug of War LP , and with Michael Jackson on " The Girl Is Mine " from Thriller .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1982	1982	NUM	CD	_	4	D	4:D	_
+3	McCartney	McCartney	PROPN	NNP	_	4	A	4:A	_
+4	collaborated	collaborate	VERB	VBN	_	0	H	0:H	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Stevie	Stevie	PROPN	NNP	_	4	A	4:A	_
+7	Wonder	wonder	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	on	on	ADP	IN	_	18	R	18:R	_
+9	the	the	DET	DT	_	18	E	18:E	_
+10	Martin	Martin	PROPN	NNP	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	produced	produce	VERB	VBN	_	18	E	18:E	_
+13	number	number	NOUN	NN	_	16	E	16:E	_
+14	-	-	PUNCT	HYPH	_	13	U	13:U	_
+15	one	one	NUM	CD	_	13	E	13:E	_
+16	hit	hit	NOUN	NN	_	18	E	18:E	_
+17	"	"	PUNCT	''	_	18	U	18:U	_
+18	Ebony	Ebony	PROPN	NNP	_	6	E	6:E	_
+19	and	and	CCONJ	CC	_	18	Terminal	18:Terminal	_
+20	Ivory	Ivory	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	"	"	PUNCT	''	_	18	U	18:U	_
+22	,	,	PUNCT	,	_	18	U	18:U	_
+23	included	include	VERB	VBD	_	18	E	18:E	_
+24	on	on	ADP	IN	_	30	R	30:R	_
+25	McCartney	McCartney	PROPN	NNP	_	30	E	30:E	_
+26	's	's	PART	POS	_	25	R	25:R	_
+27	Tug	tug	PROPN	NNP	_	30	E	30:E	_
+28	of	of	ADP	IN	_	27	Terminal	27:Terminal	_
+29	War	War	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	LP	LP	PROPN	NNP	_	23	A	23:A	_
+31	,	,	PUNCT	,	_	6	U	6:U	_
+32	and	and	CCONJ	CC	_	6	N	6:N	_
+33	with	with	ADP	IN	_	34	R	34:R	_
+34	Michael	Michael	PROPN	NNP	_	6	C	6:C	_
+35	Jackson	Jackson	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	on	on	ADP	IN	_	38	R	38:R	_
+37	"	"	PUNCT	``	_	38	U	38:U	_
+38	The	the	DET	DT	_	34	E	34:E	_
+39	Girl	girl	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	Is	Is	PROPN	NNP	_	38	Terminal	38:Terminal	_
+41	Mine	Mine	PROPN	NNP	_	38	Terminal	38:Terminal	_
+42	"	"	PUNCT	''	_	38	U	38:U	_
+43	from	from	ADP	IN	_	44	R	44:R	_
+44	Thriller	Thriller	PROPN	NNP	_	38	E	38:E	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

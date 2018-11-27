@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 647003
+# text = Through involvement in a project with ABKCO , Lennon and Ono met her the following year .
+1	Through	through	ADP	IN	_	2	L	2:L	_
+2	involvement	involvement	NOUN	NN	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	E	5:E	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	project	project	NOUN	NN	_	2	A	2:A	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	ABKCO	ABKCO	PROPN	NNP	_	2	A	2:A	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Lennon	Lennon	PROPN	NNP	_	12	A	12:A|2:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	Ono	Ono	PROPN	NNP	_	9	C	9:C	_
+12	met	meet	VERB	VBD	_	2	H	2:H	_
+13	her	she	PRON	PRP$	_	12	A	12:A	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	following	follow	VERB	VBG	_	16	E	16:E	_
+16	year	year	NOUN	NN	_	12	D	12:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

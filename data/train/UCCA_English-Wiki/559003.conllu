@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 559003
+# text = Having successfully managed top country star Eddy Arnold , he was now working with the new number - one country singer , Hank Snow .
+1	Having	have	VERB	VBG	_	3	F	3:F	_
+2	successfully	successfully	ADV	RB	_	3	D	3:D	_
+3	managed	manage	VERB	VBN	_	0	H	0:H	_
+4	top	top	ADJ	JJ	_	6	E	6:E	_
+5	country	country	NOUN	NN	_	6	E	6:E	_
+6	star	star	NOUN	NN	_	7	E	7:E	_
+7	Eddy	Eddy	PROPN	NNP	_	3	A	3:A	_
+8	Arnold	Arnold	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	he	he	PRON	PRP	_	13	A	13:A|3:A	_
+11	was	be	AUX	VBD	_	13	F	13:F	_
+12	now	now	ADV	RB	_	13	D	13:D	_
+13	working	work	VERB	VBG	_	3	H	3:H	_
+14	with	with	ADP	IN	_	23	R	23:R	_
+15	the	the	DET	DT	_	21	E	21:E	_
+16	new	new	ADJ	JJ	_	21	E	21:E	_
+17	number	number	NOUN	NN	_	21	E	21:E	_
+18	-	-	PUNCT	HYPH	_	17	U	17:U	_
+19	one	one	NUM	CD	_	17	Terminal	17:Terminal	_
+20	country	country	NOUN	NN	_	21	E	21:E	_
+21	singer	singer	NOUN	NN	_	23	E	23:E	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	Hank	Hank	PROPN	NNP	_	13	A	13:A	_
+24	Snow	snow	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

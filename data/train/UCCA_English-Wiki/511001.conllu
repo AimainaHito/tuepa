@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 511001
+# text = In April , he announced , " I 'm taking a year off - no touring , no albums .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	April	April	PROPN	NNP	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	announced	announce	VERB	VBD	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	"	"	PUNCT	``	_	5	U	5:U	_
+8	I	I	PRON	PRP	_	10	A	10:A|19:A|16:A	_
+9	'm	be	AUX	VBP	_	10	F	10:F	_
+10	taking	take	VERB	VBG	_	5	A	5:A	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	year	year	NOUN	NN	_	10	D	10:D	_
+13	off	off	ADV	RB	_	10	Terminal	10:Terminal	_
+14	-	-	PUNCT	,	_	10	U	10:U	_
+15	no	no	DET	DT	_	16	D	16:D	_
+16	touring	touring	NOUN	NN	_	10	H	10:H	_
+17	,	,	PUNCT	,	_	10	U	10:U	_
+18	no	no	DET	DT	_	19	D	19:D	_
+19	albums	album	NOUN	NNS	_	10	H	10:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

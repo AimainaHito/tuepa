@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25732007
+# text = Noch andere besondere Eigentümlichkeiten zeigten sich , die ich nicht zu erklären wusste .
+1	Noch	noch	ADV	ADV	_	5	D	5:D	_
+2	andere	ander	PRON	ADJA	_	4	E	4:E	_
+3	besondere	besonder	ADJ	ADJA	_	4	E	4:E	_
+4	Eigentümlichkeiten	Eigentümlichkeit	NOUN	NN	_	5	A	5:A	_
+5	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	die	der	PRON	PRELS	_	12	R	12:R	_
+9	ich	ich	PRON	PPER	_	12	A	12:A	_
+10	nicht	nicht	PART	CARD	_	12	D	12:D	_
+11	zu	zu	PART	NN	_	12	F	12:F	_
+12	erklären	erklären	VERB	VVINF	_	4	E	4:E	_
+13	wusste	wissen	VERB	VVFIN	_	12	D	12:D	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

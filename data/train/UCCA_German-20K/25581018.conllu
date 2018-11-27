@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25581018
+# text = Am 10 . November gleiche Verlassenheit , gleiche Einsamkeit .
+1	Am	am	PROPN	NE	_	2	R	2:R	_
+2	10	10	PROPN	CARD	_	6	D	6:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	November	November	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	gleiche	gleich	ADJ	ADJA	_	6	E	6:E	_
+6	Verlassenheit	Verlassenheit	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	gleiche	gleich	ADJ	ADJA	_	9	E	9:E	_
+9	Einsamkeit	Einsamkeit	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

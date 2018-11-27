@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25776003
+# text = Sie rührten sich nicht , als wir in die Nähe kamen .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	rührten	rühren	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	nicht	nicht	PART	CARD	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	als	als	SCONJ	KOUS	_	2	L	2:L	_
+7	wir	wir	PRON	NE	_	11	A	11:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Nähe	Nähe	NOUN	NN	_	11	A	11:A	_
+11	kamen	kommen	VERB	VVFIN	_	2	H	2:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 181002
+# text = Her last purely Swedish ancestor was her great - grandfather , a descendant of Leonard Gyllenhaal , a leading Swedenborgian who supported the printing and spreading of Swedenborg 's writings .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	last	last	ADJ	JJ	_	5	E	5:E	_
+3	purely	purely	ADV	RB	_	4	E	4:E	_
+4	Swedish	swedish	ADJ	JJ	_	5	E	5:E	_
+5	ancestor	ancestor	NOUN	NN	_	6	A	6:A	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	her	she	PRON	PRP$	_	8	E	8:E	_
+8	great	great	ADJ	JJ	_	6	A	6:A	_
+9	-	-	PUNCT	HYPH	_	8	U	8:U	_
+10	grandfather	grandfather	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	descendant	descendant	NOUN	NN	_	8	E	8:E	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Leonard	Leonard	PROPN	NNP	_	13	E	13:E	_
+16	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	15	U	15:U	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	leading	lead	VERB	VBG	_	20	D	20:D	_
+20	Swedenborgian	Swedenborgian	PROPN	NNP	_	15	E	15:E	_
+21	who	who	PRON	WP	_	22	F	22:F	_
+22	supported	support	VERB	VBD	_	20	A	20:A	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	printing	printing	NOUN	NN	_	22	A	22:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	spreading	spreading	NOUN	NN	_	24	C	24:C	_
+27	of	of	ADP	IN	_	30	R	30:R	_
+28	Swedenborg	Swedenborg	PROPN	NNP	_	30	E	30:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	writings	writings	NOUN	NNS	_	24	A	24:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 696002
+# text = Murray Lerner , who filmed the performance , said : " I absolutely think that they were booing Dylan going electric .
+1	Murray	Murray	PROPN	NNP	_	9	A	9:A	_
+2	Lerner	Lerner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	who	who	PRON	WP	_	5	F	5:F	_
+5	filmed	film	VERB	VBD	_	1	E	1:E	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	performance	performance	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	said	say	VERB	VBD	_	0	H	0:H	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	"	"	PUNCT	``	_	9	U	9:U	_
+12	I	I	PRON	PRP	_	14	A	14:A	_
+13	absolutely	absolutely	ADV	RB	_	14	D	14:D	_
+14	think	think	VERB	VBP	_	9	A	9:A	_
+15	that	that	SCONJ	IN	_	18	D	18:D	_
+16	they	they	PRON	PRP	_	18	A	18:A	_
+17	were	be	AUX	VBD	_	18	F	18:F	_
+18	booing	boo	VERB	VBG	_	14	A	14:A	_
+19	Dylan	Dylan	PROPN	NNP	_	21	A	21:A	_
+20	going	go	VERB	VBG	_	21	D	21:D	_
+21	electric	electric	ADJ	JJ	_	18	A	18:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

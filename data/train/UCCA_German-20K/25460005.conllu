@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25460005
+# text = Und unser Kanadier war so glücklich , dass er anstatt eines Walfischs mit einem Doppel wurf deren zwei harpunierte , indem er den einen ins Herz traf , des andern nach einigen Minuten Meister wurde !
+1	Und	und	CCONJ	NE	_	6	L	6:L	_
+2	unser	unser	PRON	FM	_	3	E	3:E	_
+3	Kanadier	Kanadier	NOUN	NE	_	6	A	6:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	so	so	ADV	ADV	_	6	D	6:D	_
+6	glücklich	glücklich	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dass	dass	SCONJ	KOUS	_	6	L	6:L	_
+9	er	er	PRON	PPER	_	19	A	19:A|16:A	_
+10	anstatt	anstatt	ADP	APPR	_	19	D	19:D	_
+11	eines	ein	DET	ART	_	12	E	12:E	_
+12	Walfischs	Walfisch	NOUN	NN	_	19	A	19:A	_
+13	mit	mit	ADP	APPR	_	16	R	16:R	_
+14	einem	ein	DET	ART	_	16	E	16:E	_
+15	Doppel	Doppel	NOUN	NN	_	16	E	16:E	_
+16	wurf	wurf	VERB	NE	_	19	A	19:A	_
+17	deren	der	PRON	PDAT	_	18	R	18:R	_
+18	zwei	zwei	NUM	NN	_	19	A	19:A	_
+19	harpunierte	harpunieren	VERB	VVFIN	_	6	H	6:H	_
+20	,	,	PUNCT	$,	_	6	U	6:U	_
+21	indem	indem	SCONJ	KOUS	_	6	L	6:L	_
+22	er	er	PRON	PPER	_	27	A	27:A	_
+23	den	der	DET	ART	_	24	E	24:E	_
+24	einen	ein	PRON	ART	_	27	A	27:A	_
+25	ins	in	DET	NN	_	26	R	26:R	_
+26	Herz	Herz	NOUN	NN	_	27	A	27:A	_
+27	traf	treffen	VERB	VVFIN	_	6	H	6:H	_
+28	,	,	PUNCT	$,	_	6	U	6:U	_
+29	des	der	DET	ART	_	30	R	30:R	_
+30	andern	ander	NOUN	NN	_	34	A	34:A	_
+31	nach	nach	ADP	CARD	_	33	R	33:R	_
+32	einigen	einige	PRON	PIS	_	33	E	33:E	_
+33	Minuten	Minute	NOUN	NN	_	34	D	34:D	_
+34	Meister	Meister	NOUN	NE	_	6	H	6:H	_
+35	wurde	werden	AUX	NE	_	34	Terminal	34:Terminal	_
+36	!	!	PUNCT	$.	_	34	U	34:U	_
+

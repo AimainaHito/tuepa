@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25770006
+# text = Kapitän Nemo befand sich wahrscheinlich beim Steuerer .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	3	G	3:G	_
+6	beim	beim	ADJ	NE	_	7	R	7:R	_
+7	Steuerer	Steuerer	NOUN	NE	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

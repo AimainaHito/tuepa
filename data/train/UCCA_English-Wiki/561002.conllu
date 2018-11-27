@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 561002
+# text = The session produced the moody , unusual " Heartbreak Hotel " , released as a single on January 27 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	session	session	NOUN	NN	_	3	A	3:A	_
+3	produced	produce	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	9	E	9:E	_
+5	moody	moody	NOUN	NN	_	9	E	9:E	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	unusual	unusual	ADJ	JJ	_	9	E	9:E	_
+8	"	"	PUNCT	``	_	9	U	9:U	_
+9	Heartbreak	Heartbreak	PROPN	NNP	_	0	C	0:C|13:A	_
+10	Hotel	Hotel	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	"	"	PUNCT	''	_	13	U	13:U	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	released	release	VERB	VBD	_	3	H	3:H	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	single	single	NOUN	NN	_	13	A	13:A	_
+17	on	on	ADP	IN	_	18	R	18:R	_
+18	January	January	PROPN	NNP	_	13	D	13:D	_
+19	27	27	NUM	CD	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

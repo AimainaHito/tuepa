@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 143005
+# text = It demonstrated how energetic the 74 - year - old Hepburn was , as she dived fully clothed into Squam Lake and gave a lively singing performance .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	demonstrated	demonstrate	VERB	VBD	_	0	H	0:H	_
+3	how	how	ADV	WRB	_	4	D	4:D	_
+4	energetic	energetic	ADJ	JJ	_	2	A	2:A	_
+5	the	the	DET	DT	_	11	E	11:E	_
+6	74	74	NUM	CD	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	year	year	NOUN	NN	_	11	E	11:E	_
+9	-	-	PUNCT	HYPH	_	8	U	8:U	_
+10	old	old	ADJ	JJ	_	8	Terminal	8:Terminal	_
+11	Hepburn	Hepburn	NOUN	NN	_	4	A	4:A	_
+12	was	be	VERB	VBD	_	4	F	4:F	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	as	as	SCONJ	IN	_	2	L	2:L	_
+15	she	she	PRON	PRP	_	16	A	16:A|27:A	_
+16	dived	dive	VERB	VBD	_	2	H	2:H	_
+17	fully	fully	ADV	RB	_	18	E	18:E	_
+18	clothed	cloth	VERB	VBN	_	16	D	16:D	_
+19	into	into	ADP	IN	_	21	R	21:R	_
+20	Squam	Squam	PROPN	NNP	_	21	E	21:E	_
+21	Lake	Lake	PROPN	NNP	_	16	A	16:A	_
+22	and	and	CCONJ	CC	_	2	L	2:L	_
+23	gave	give	VERB	VBD	_	27	F	27:F	_
+24	a	a	DET	DT	_	27	E	27:E	_
+25	lively	lively	ADV	RB	_	27	E	27:E	_
+26	singing	singe	ADJ	JJ	_	27	E	27:E	_
+27	performance	performance	NOUN	NN	_	2	H	2:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

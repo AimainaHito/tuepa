@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 639010
+# text = In early 1974 , Lennon was drinking heavily and his alcohol - fuelled antics with Harry Nilsson made headlines .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	early	early	ADJ	JJ	_	3	E	3:E	_
+3	1974	1974	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Lennon	Lennon	PROPN	NNP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	drinking	drink	VERB	VBG	_	0	H	0:H	_
+8	heavily	heavily	ADV	RB	_	7	D	7:D	_
+9	and	and	CCONJ	CC	_	7	L	7:L	_
+10	his	he	PRON	PRP$	_	14	A	14:A	_
+11	alcohol	alcohol	NOUN	NN	_	14	D	14:D	_
+12	-	-	PUNCT	HYPH	_	11	U	11:U	_
+13	fuelled	fuell	VERB	VBN	_	11	E	11:E	_
+14	antics	antic	NOUN	NNS	_	19	A	19:A	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	Harry	Harry	PROPN	NNP	_	14	A	14:A	_
+17	Nilsson	Nilsson	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	made	make	VERB	VBD	_	19	F	19:F	_
+19	headlines	headline	NOUN	NNS	_	7	H	7:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

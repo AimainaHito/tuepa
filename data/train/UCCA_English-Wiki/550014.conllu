@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 550014
+# text = In the 1960s , she insisted that , despite his reputation for ruthlessness , Jack Warner had a softer side .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1960s	1960	NOUN	NNS	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A	_
+6	insisted	insist	VERB	VBD	_	0	H	0:H	_
+7	that	that	PRON	DT	_	11	F	11:F	_
+8	,	,	PUNCT	,	_	11	U	11:U	_
+9	despite	despite	ADP	IN	_	11	L	11:L	_
+10	his	he	PRON	PRP$	_	11	A	11:A	_
+11	reputation	reputation	NOUN	NN	_	6	A	6:A	_
+12	for	for	ADP	IN	_	13	R	13:R	_
+13	ruthlessness	ruthlessness	NOUN	NN	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	11	U	11:U	_
+15	Jack	Jack	PROPN	NNP	_	17	A	17:A	_
+16	Warner	Warner	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	had	have	VERB	VBD	_	11	H	11:H	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	softer	softer	NOUN	NN	_	20	E	20:E	_
+20	side	side	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

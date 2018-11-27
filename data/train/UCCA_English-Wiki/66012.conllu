@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 66012
+# text = She graduated from high school and returned to theater studies , though in recent times she has referred to this period with the observation , " I am still at heart \u2014 and always will be \u2014 just a punk kid with tattoos . "
+1	She	she	PRON	PRP	_	2	A	2:A|7:A	_
+2	graduated	graduate	VERB	VBD	_	0	H	0:H	_
+3	from	from	ADP	IN	_	5	R	5:R	_
+4	high	high	ADJ	JJ	_	5	E	5:E	_
+5	school	school	NOUN	NN	_	2	A	2:A	_
+6	and	and	CCONJ	CC	_	2	L	2:L	_
+7	returned	return	VERB	VBD	_	2	H	2:H	_
+8	to	to	ADP	IN	_	10	R	10:R	_
+9	theater	theater	NOUN	NN	_	10	E	10:E	_
+10	studies	study	NOUN	NNS	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	though	though	SCONJ	IN	_	2	L	2:L	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	recent	recent	ADJ	JJ	_	15	E	15:E	_
+15	times	time	NOUN	NNS	_	18	D	18:D	_
+16	she	she	PRON	PRP	_	18	A	18:A	_
+17	has	have	AUX	VBZ	_	18	F	18:F	_
+18	referred	refer	VERB	VBN	_	2	H	2:H	_
+19	to	to	ADP	IN	_	21	R	21:R	_
+20	this	this	DET	DT	_	21	E	21:E	_
+21	period	period	NOUN	NN	_	18	A	18:A	_
+22	with	with	ADP	IN	_	28	R	28:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	observation	observation	NOUN	NN	_	28	E	28:E	_
+25	,	,	PUNCT	,	_	28	U	28:U	_
+26	"	"	PUNCT	''	_	28	U	28:U	_
+27	I	I	PRON	PRP	_	28	A	28:A|36:A	_
+28	am	be	AUX	VBP	_	18	A	18:A	_
+29	still	still	ADV	RB	_	28	D	28:D	_
+30	at	at	ADP	IN	_	28	D	28:D	_
+31	heart	heart	NOUN	NN	_	30	Terminal	30:Terminal	_
+32	\u2014	\u2014	NOUN	NN	_	28	U	28:U	_
+33	and	and	CCONJ	CC	_	28	L	28:L	_
+34	always	always	ADV	RB	_	36	D	36:D	_
+35	will	will	AUX	MD	_	36	F	36:F	_
+36	be	be	AUX	VB	_	28	H	28:H	_
+37	\u2014	\u2014	NUM	CD	_	28	U	28:U	_
+38	just	just	ADV	RB	_	28	D	28:D	_
+39	a	a	DET	DT	_	41	E	41:E	_
+40	punk	punk	NOUN	NN	_	41	E	41:E	_
+41	kid	kid	NOUN	NN	_	28	A	28:A|36:A	_
+42	with	with	ADP	IN	_	43	R	43:R	_
+43	tattoos	tattoo	NOUN	NNS	_	41	E	41:E	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+45	"	"	PUNCT	''	_	43	U	43:U	_
+

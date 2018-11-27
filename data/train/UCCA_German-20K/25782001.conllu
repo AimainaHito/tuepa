@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25782001
+# text = Ich richtete mich auf und horchte in dem Dunkel , als ich mit einem heftigen Ruck mitten in das Zimmer geschleudert wurde .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|6:A	_
+2	richtete	richten	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	auf	auf	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	horchte	horchen	VERB	VVFIN	_	2	H	2:H	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Dunkel	dunkel	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	als	als	SCONJ	KOUS	_	2	L	2:L	_
+12	ich	ich	PRON	PPER	_	21	A	21:A	_
+13	mit	mit	ADP	APPR	_	16	R	16:R	_
+14	einem	ein	DET	ART	_	16	E	16:E	_
+15	heftigen	heftig	ADJ	ADJA	_	16	E	16:E	_
+16	Ruck	Ruck	NOUN	NN	_	21	A	21:A	_
+17	mitten	mitten	ADV	ADV	_	21	D	21:D	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	das	der	DET	ART	_	20	E	20:E	_
+20	Zimmer	Zimmer	NOUN	NN	_	21	A	21:A	_
+21	geschleudert	schleudern	VERB	VVPP	_	2	H	2:H	_
+22	wurde	werden	AUX	TRUNC	_	21	F	21:F	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+

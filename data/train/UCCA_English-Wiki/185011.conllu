@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 185011
+# text = He returned to television in 2006 with the dramedy Studio 60 on the Sunset Strip , about the backstage drama at a late - night sketch comedy show , once again for the NBC network .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	returned	return	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	4	R	4:R	_
+4	television	television	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	2006	2006	NUM	CD	_	2	D	2:D	_
+7	with	with	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	dramedy	dramedy	NOUN	NN	_	10	E	10:E	_
+10	Studio	studio	PROPN	NNP	_	2	A	2:A	_
+11	60	60	NUM	CD	_	10	Terminal	10:Terminal	_
+12	on	on	ADP	IN	_	10	Terminal	10:Terminal	_
+13	the	the	DET	DT	_	10	Terminal	10:Terminal	_
+14	Sunset	Sunset	NOUN	NN	_	10	Terminal	10:Terminal	_
+15	Strip	Strip	PROPN	NNP	_	10	Terminal	10:Terminal	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	about	about	ADP	IN	_	10	E	10:E	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	backstage	backstage	NOUN	NN	_	20	E	20:E	_
+20	drama	drama	NOUN	NN	_	17	A	17:A	_
+21	at	at	ADP	IN	_	28	R	28:R	_
+22	a	a	DET	DT	_	28	E	28:E	_
+23	late	late	ADJ	JJ	_	25	E	25:E	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	night	night	NOUN	NN	_	28	E	28:E	_
+26	sketch	sketch	NOUN	NN	_	27	E	27:E	_
+27	comedy	comedy	NOUN	NN	_	28	E	28:E	_
+28	show	show	NOUN	NN	_	20	A	20:A	_
+29	,	,	PUNCT	,	_	2	U	2:U	_
+30	once	once	ADV	RB	_	31	E	31:E	_
+31	again	again	ADV	RB	_	34	D	34:D	_
+32	for	for	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	NBC	NBC	PROPN	NNP	_	2	H	2:H	_
+35	network	network	NOUN	NN	_	34	E	34:E	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

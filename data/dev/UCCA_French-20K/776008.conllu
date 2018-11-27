@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 776008
+# text = - Quoi ! les archiotherium , les hyracotherium , les oréodons , les chéropotamus et autres carcasses de monsieur ?
+1	-	-	PUNCT	_	_	2	U	2:U	_
+2	Quoi	quoi	SCONJ	_	_	0	H	0:H	_
+3	!	!	PUNCT	_	_	2	U	2:U	_
+4	les	le	DET	_	_	5	E	5:E	_
+5	archiotherium	archiotherium	NOUN	_	_	2	H	2:H	_
+6	,	,	PUNCT	_	_	5	U	5:U	_
+7	les	le	DET	_	_	8	E	8:E	_
+8	hyracotherium	hyracotherium	NOUN	_	_	5	C	5:C	_
+9	,	,	PUNCT	_	_	5	U	5:U	_
+10	les	le	DET	_	_	11	E	11:E	_
+11	oréodons	oréodon	NOUN	_	_	5	C	5:C	_
+12	,	,	PUNCT	_	_	5	U	5:U	_
+13	les	le	DET	_	_	14	E	14:E	_
+14	chéropotamus	chéropotamus	NOUN	_	_	5	C	5:C	_
+15	et	et	CCONJ	_	_	5	N	5:N	_
+16	autres	autre	ADJ	_	_	17	E	17:E	_
+17	carcasses	carcasse	NOUN	_	_	5	C	5:C	_
+18	de	de	ADP	_	_	19	R	19:R	_
+19	monsieur	Monsieur	NOUN	_	_	17	E	17:E	_
+20	?	?	PUNCT	_	_	19	U	19:U	_
+

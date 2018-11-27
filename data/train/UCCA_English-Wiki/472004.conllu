@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 472004
+# text = Johnson performed well during the 1990 - 91 NBA season , with averages of 19.4 points , 12.5 assists , and 7.0 rebounds per game , and the Lakers reached the 1991 NBA Finals .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A	_
+2	performed	perform	VERB	VBD	_	0	H	0:H	_
+3	well	well	ADV	RB	_	2	D	2:D	_
+4	during	during	ADP	IN	_	2	L	2:L	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	1990	1990	NUM	CD	_	10	D	10:D	_
+7	-	-	PUNCT	HYPH	_	6	U	6:U	_
+8	91	91	NUM	CD	_	6	C	6:C	_
+9	NBA	NBa	PROPN	NNP	_	10	E	10:E	_
+10	season	season	NOUN	NN	_	2	H	2:H	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	with	with	ADP	IN	_	16	R	16:R	_
+13	averages	average	NOUN	NNS	_	16	E	16:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	19.4	19.4	NUM	CD	_	16	E	16:E	_
+16	points	point	NOUN	NNS	_	2	A	2:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	12.5	12.5	NUM	CD	_	19	E	19:E	_
+19	assists	assist	NOUN	NNS	_	16	C	16:C	_
+20	,	,	PUNCT	,	_	16	U	16:U	_
+21	and	and	CCONJ	CC	_	16	N	16:N	_
+22	7.0	7.0	NUM	CD	_	23	E	23:E	_
+23	rebounds	rebound	NOUN	NNS	_	16	C	16:C	_
+24	per	per	ADP	IN	_	25	R	25:R	_
+25	game	game	NOUN	NN	_	16	E	16:E	_
+26	,	,	PUNCT	,	_	2	U	2:U	_
+27	and	and	CCONJ	CC	_	2	L	2:L	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	Lakers	Laker	NOUN	NNS	_	30	A	30:A	_
+30	reached	reach	VERB	VBD	_	2	H	2:H	_
+31	the	the	DET	DT	_	34	E	34:E	_
+32	1991	1991	NUM	CD	_	34	E	34:E	_
+33	NBA	NBA	PROPN	NNP	_	34	E	34:E	_
+34	Finals	Finals	PROPN	NNPS	_	30	A	30:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

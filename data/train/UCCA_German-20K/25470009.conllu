@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25470009
+# text = « Allgemeines Geschrei auf der Fregatte .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	Allgemeines	Allgemein	DET	PIS	_	3	D	3:D	_
+3	Geschrei	Geschrei	NOUN	NN	_	0	H	0:H	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Fregatte	Fregatte	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25739011
+# text = Aber anstatt des Tageslichts , wie ich erwartete , sah ich mich von dichtem Dunkel umgeben .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	anstatt	anstatt	ADP	APPR	_	4	L	4:L	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Tageslichts	Tageslicht	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	wie	wie	SCONJ	KON	_	4	L	4:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	erwartete	erwarten	VERB	VVFIN	_	4	H	4:H	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	sah	sehen	VERB	VVFIN	_	0	P	0:P|4:P	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	mich	ich	PRON	PRF	_	16	A	16:A	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	dichtem	dicht	ADJ	ADJA	_	15	E	15:E	_
+15	Dunkel	dunkel	NOUN	NN	_	16	A	16:A	_
+16	umgeben	umgeben	VERB	VVPP	_	10	A	10:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

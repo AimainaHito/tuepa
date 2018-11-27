@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25762026
+# text = Oft schien der Horizont völlig geschlossen .
+1	Oft	oft	ADV	ADV	_	6	D	6:D	_
+2	schien	scheinen	VERB	VVFIN	_	6	D	6:D	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Horizont	Horizont	NOUN	NN	_	6	A	6:A	_
+5	völlig	völlig	ADJ	ADJD	_	6	D	6:D	_
+6	geschlossen	schließen	VERB	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25496016
+# text = Sie sind meine Kriegs gefangenen !
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	sind	sein	AUX	NN	_	0	H	0:H	_
+3	meine	mein	DET	PPOSAT	_	5	E	5:E	_
+4	Kriegs	Krieg	NOUN	NN	_	5	E	5:E	_
+5	gefangenen	gefangenen	VERB	ADJA	_	2	A	2:A	_
+6	!	!	PUNCT	$.	_	5	U	5:U	_
+

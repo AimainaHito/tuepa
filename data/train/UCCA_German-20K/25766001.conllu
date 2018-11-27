@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25766001
+# text = Wirklich , trotz aller Anstrengungen mit seinen mächtigen Mitteln , musste die ›Nautilus‹ still liegen .
+1	Wirklich	wirklich	ADJ	ADV	_	14	D	14:D	_
+2	,	,	PUNCT	$,	_	14	U	14:U	_
+3	trotz	trotz	ADP	APPR	_	14	L	14:L	_
+4	aller	alle	PRON	PIAT	_	5	D	5:D	_
+5	Anstrengungen	Anstrengung	NOUN	NN	_	14	H	14:H	_
+6	mit	mit	ADP	APPR	_	9	R	9:R	_
+7	seinen	sein	DET	PPOSAT	_	9	E	9:E	_
+8	mächtigen	mächtig	ADJ	ADJA	_	9	E	9:E	_
+9	Mitteln	Mittel|Mitteln	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	14	U	14:U	_
+11	musste	müssen	AUX	VVFIN	_	14	D	14:D	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	A	14:A	_
+14	still	still	ADJ	NN	_	0	H	0:H	_
+15	liegen	liegen	VERB	VVFIN	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

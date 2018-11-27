@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25512010
+# text = Sie heizte in gleicher Weise Destillier apparate , die durch Verdunstung ein vortreffliches Trink wasser verschafften .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	heizte	heizen	VERB	VVFIN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	gleicher	gleich	ADJ	ADJA	_	5	E	5:E	_
+5	Weise	Weise	NOUN	NN	_	2	D	2:D	_
+6	Destillier	Destillier	PROPN	NE	_	7	E	7:E	_
+7	apparate	apparaen	VERB	ADJA	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	16	R	16:R	_
+10	durch	durch	ADP	APPR	_	11	R	11:R	_
+11	Verdunstung	Verdunstung	NOUN	NN	_	16	A	16:A	_
+12	ein	ein	DET	ART	_	15	E	15:E	_
+13	vortreffliches	vortrefflich	ADJ	ADJA	_	15	E	15:E	_
+14	Trink	trinken	NOUN	FM	_	15	E	15:E	_
+15	wasser	wass	ADJ	NN	_	16	A	16:A	_
+16	verschafften	verschaffen	VERB	VVFIN	_	7	E	7:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

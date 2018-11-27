@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25665017
+# text = Ohne Zweifel werde ich es genauso machen .
+1	Ohne	ohne	ADP	NN	_	2	E	2:E	_
+2	Zweifel	Zweifel	NOUN	NN	_	7	G	7:G	_
+3	werde	werden	AUX	NN	_	7	F	7:F	_
+4	ich	ich	PRON	PPER	_	7	A	7:A	_
+5	es	es	PRON	PPER	_	7	F	7:F	_
+6	genauso	genauso	ADV	ADV	_	7	D	7:D	_
+7	machen	machen	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

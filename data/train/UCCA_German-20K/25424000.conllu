@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25424000
+# text = Kennen wir dagegen alle lebenden Gattungen , so muß man notwendig das fragliche Tier unter den bereits aufgenommenen Seegeschöpfen suchen , und in diesem Fall wäre ich geneigt , die Existenz eines Riesennarwals anzunehmen .
+1	Kennen	kennen	ADV	VVFIN	_	0	H	0:H	_
+2	wir	wir	AUX	NE	_	1	A	1:A	_
+3	dagegen	dagegen	PRON	PAV	_	1	L	1:L	_
+4	alle	alle	PRON	PIAT	_	6	E	6:E	_
+5	lebenden	lebend	ADJ	ADJA	_	6	E	6:E	_
+6	Gattungen	Gattung	NOUN	NN	_	1	A	1:A	_
+7	,	,	PUNCT	$,	_	1	U	1:U	_
+8	so	so	ADV	ADV	_	1	L	1:L	_
+9	muß	müssen	AUX	VMFIN	_	20	D	20:D	_
+10	man	man	PRON	PIS	_	20	A	20:A	_
+11	notwendig	notwendig	ADV	CARD	_	20	D	20:D	_
+12	das	der	DET	ART	_	14	E	14:E	_
+13	fragliche	fraglich	ADJ	ADJA	_	14	E	14:E	_
+14	Tier	Tier	NOUN	NN	_	20	A	20:A	_
+15	unter	unter	ADP	ADJD	_	19	R	19:R	_
+16	den	der	DET	ART	_	19	E	19:E	_
+17	bereits	bereits	ADV	ADV	_	18	D	18:D	_
+18	aufgenommenen	aufgenommenen	ADJ	ADJA	_	20	A	20:A	_
+19	Seegeschöpfen	Seegeschöpfen	NOUN	NN	_	18	A	18:A	_
+20	suchen	suchen	VERB	VVFIN	_	1	H	1:H	_
+21	,	,	PUNCT	$,	_	1	U	1:U	_
+22	und	und	CCONJ	NE	_	1	L	1:L	_
+23	in	in	ADP	APPR	_	34	A	34:A	_
+24	diesem	dies	PRON	PDAT	_	23	Terminal	23:Terminal	_
+25	Fall	Fall	NOUN	NN	_	23	Terminal	23:Terminal	_
+26	wäre	sein	AUX	ADV	_	34	D	34:D	_
+27	ich	ich	PRON	PPER	_	34	A	34:A	_
+28	geneigt	neigen	VERB	VVPP	_	34	D	34:D	_
+29	,	,	PUNCT	$,	_	34	U	34:U	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	Existenz	Existenz	NOUN	NN	_	34	A	34:A	_
+32	eines	ein	DET	ART	_	33	E	33:E	_
+33	Riesennarwals	Riesennarwal	NOUN	NN	_	31	A	31:A	_
+34	anzunehmen	annehmen	VERB	VVIZU	_	1	H	1:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

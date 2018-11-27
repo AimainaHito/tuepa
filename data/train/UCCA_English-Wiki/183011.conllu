@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 183011
+# text = She received encouragement from her mother , who had aspired to become an actress .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	received	receive	VERB	VBD	_	3	D	3:D	_
+3	encouragement	encouragement	NOUN	NN	_	0	H	0:H	_
+4	from	from	ADP	IN	_	6	R	6:R	_
+5	her	she	PRON	PRP$	_	6	E	6:E	_
+6	mother	mother	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	who	who	PRON	WP	_	10	R	10:R	_
+9	had	have	AUX	VBD	_	10	F	10:F	_
+10	aspired	aspire	VERB	VBN	_	6	E	6:E	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	become	become	VERB	VB	_	10	A	10:A	_
+13	an	a	DET	DT	_	14	E	14:E	_
+14	actress	actress	NOUN	NN	_	12	A	12:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

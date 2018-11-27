@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 551009
+# text = " In the late 1960s , he emerged as an outspoken proponent of the Vietnam War .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	In	in	ADP	IN	_	5	R	5:R	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	late	late	ADJ	JJ	_	5	E	5:E	_
+5	1960s	1960	NOUN	NNS	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	emerged	emerge	VERB	VBD	_	0	H	0:H	_
+9	as	as	ADP	IN	_	12	E	12:E	_
+10	an	a	DET	DT	_	12	E	12:E	_
+11	outspoken	outspoken	ADJ	JJ	_	12	E	12:E	_
+12	proponent	proponent	NOUN	NN	_	8	A	8:A	_
+13	of	of	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Vietnam	Vietnam	PROPN	NNP	_	16	E	16:E	_
+16	War	War	PROPN	NNP	_	12	E	12:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

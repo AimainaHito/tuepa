@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25618003
+# text = Sie untersuchten die Lage des Schiffs und besprachen sich in ihrem unverständlichen Dialekt .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A|8:A	_
+2	untersuchten	untersuchen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Lage	Lage	NOUN	NN	_	2	A	2:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Schiffs	Schiff	NOUN	NN	_	4	E	4:E	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	besprachen	besprachen	VERB	ADJA	_	2	H	2:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	ihrem	ihr	DET	PPOSAT	_	13	E	13:E	_
+12	unverständlichen	unverständlich	ADJ	ADJA	_	13	E	13:E	_
+13	Dialekt	Dialekt	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 647002
+# text = ABKCO Industries , formed in 1968 by Allen Klein as an umbrella company to ABKCO Records , recruited May Pang as a receptionist in 1969 .
+1	ABKCO	ABKCO	ADJ	JJ	_	2	E	2:E	_
+2	Industries	industries	NOUN	NNS	_	18	A	18:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	formed	form	VERB	VBN	_	2	E	2:E	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1968	1968	NUM	CD	_	4	D	4:D	_
+7	by	by	ADP	IN	_	8	R	8:R	_
+8	Allen	Allen	PROPN	NNP	_	4	A	4:A	_
+9	Klein	Klein	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	as	as	ADP	IN	_	13	R	13:R	_
+11	an	a	DET	DT	_	13	E	13:E	_
+12	umbrella	umbrella	NOUN	NN	_	13	E	13:E	_
+13	company	company	NOUN	NN	_	4	A	4:A	_
+14	to	to	ADP	IN	_	15	R	15:R	_
+15	ABKCO	ABKCO	PROPN	NNP	_	13	E	13:E	_
+16	Records	record	NOUN	NNS	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	recruited	recruite	VERB	VBN	_	0	H	0:H	_
+19	May	May	PROPN	NNP	_	18	A	18:A	_
+20	Pang	Pang	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	as	as	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	receptionist	receptionist	NOUN	NN	_	18	A	18:A	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	1969	1969	NUM	CD	_	18	D	18:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

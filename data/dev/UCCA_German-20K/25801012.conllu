@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25801012
+# text = Wir hatten den Äquator durchschnitten und ließen 20 Meilen westlich das französische Cayenne , wo wir leicht eine Zufluchtstätte gefunden hätten .
+1	Wir	wir	PRON	NE	_	5	A	5:A|7:A	_
+2	hatten	haben	VERB	VAFIN	_	5	F	5:F	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Äquator	Äquator	NOUN	NN	_	5	A	5:A	_
+5	durchschnitten	durchschneiden	VERB	VVPP	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	ließen	lassen	VERB	VVFIN	_	5	H	5:H	_
+8	20	20	NUM	CARD	_	9	E	9:E	_
+9	Meilen	Meile	NOUN	NN	_	7	A	7:A	_
+10	westlich	westlich	ADP	ADJA	_	7	D	7:D	_
+11	das	der	DET	ART	_	13	E	13:E	_
+12	französische	französisch	ADJ	ADJA	_	13	E	13:E	_
+13	Cayenne	Cayenne	NOUN	NN	_	7	A	7:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	wo	wo	ADV	ADJA	_	20	R	20:R	_
+16	wir	wir	PRON	NE	_	20	A	20:A	_
+17	leicht	leichen	VERB	ADJD	_	20	D	20:D	_
+18	eine	ein	DET	ART	_	19	E	19:E	_
+19	Zufluchtstätte	Zufluchtstätte	NOUN	NN	_	20	A	20:A	_
+20	gefunden	finden	VERB	VVPP	_	13	E	13:E	_
+21	hätten	haben	AUX	VAFIN	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

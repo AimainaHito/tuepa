@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25639009
+# text = Ich arbeitete bis zu Mittag in meinem Zimmer , ohne Kapitän Nemo auch nur einen Augenblick zu sehen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	arbeitete	arbeiten	VERB	VVFIN	_	0	H	0:H	_
+3	bis	bis	ADP	APPR	_	5	R	5:R	_
+4	zu	zu	ADP	ADJA	_	3	Terminal	3:Terminal	_
+5	Mittag	Mittag	PROPN	NN	_	2	D	2:D	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	meinem	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Zimmer	Zimmer	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	ohne	ohne	ADP	NE	_	2	L	2:L	_
+11	Kapitän	Kapitän	PROPN	FM	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	18	A	18:A	_
+13	auch	auch	ADV	ADV	_	18	D	18:D	_
+14	nur	nur	ADV	NE	_	13	Terminal	13:Terminal	_
+15	einen	ein	DET	ART	_	16	E	16:E	_
+16	Augenblick	Augenblick	NOUN	NN	_	18	D	18:D	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	sehen	sehen	VERB	VVINF	_	2	H	2:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

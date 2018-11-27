@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 471010
+# text = After the teams split the first six games , Lakers forward and Finals MVP James Worthy had his first career triple - double of 36 points , 16 rebounds , and 10 assists , and led his team to a 108 - 105 win .
+1	After	after	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	teams	team	NOUN	NNS	_	4	A	4:A	_
+4	split	split	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	first	first	ADJ	JJ	_	8	E	8:E	_
+7	six	six	NUM	CD	_	8	E	8:E	_
+8	games	game	NOUN	NNS	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Lakers	Laker	NOUN	NNS	_	14	E	14:E	_
+11	forward	forward	ADV	RB	_	14	E	14:E	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	Finals	Finals	PROPN	NNPS	_	11	C	11:C	_
+14	MVP	MVP	PROPN	NNP	_	15	E	15:E	_
+15	James	James	PROPN	NNP	_	0	C	0:C|36:A	_
+16	Worthy	Worthy	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	had	have	VERB	VBD	_	4	H	4:H	_
+18	his	he	PRON	PRP$	_	19	E	19:E	_
+19	first	first	ADJ	JJ	_	21	E	21:E	_
+20	career	career	NOUN	NN	_	21	E	21:E	_
+21	triple	triple	NOUN	NN	_	17	A	17:A	_
+22	-	-	PUNCT	HYPH	_	21	U	21:U	_
+23	double	double	NOUN	NN	_	21	Terminal	21:Terminal	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	36	36	NUM	CD	_	26	E	26:E	_
+26	points	point	NOUN	NNS	_	21	E	21:E	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	16	16	NUM	CD	_	29	E	29:E	_
+29	rebounds	rebound	NOUN	NNS	_	26	C	26:C	_
+30	,	,	PUNCT	,	_	26	U	26:U	_
+31	and	and	CCONJ	CC	_	26	N	26:N	_
+32	10	10	NUM	CD	_	33	E	33:E	_
+33	assists	assist	NOUN	NNS	_	26	C	26:C	_
+34	,	,	PUNCT	,	_	4	U	4:U	_
+35	and	and	CCONJ	CC	_	4	L	4:L	_
+36	led	lead	VERB	VBD	_	4	H	4:H	_
+37	his	he	PRON	PRP$	_	38	E	38:E	_
+38	team	team	NOUN	NN	_	36	A	36:A	_
+39	to	to	ADP	IN	_	44	R	44:R	_
+40	a	a	DET	DT	_	44	E	44:E	_
+41	108	108	NUM	CD	_	44	E	44:E	_
+42	-	-	SYM	SYM	_	41	U	41:U	_
+43	105	105	NUM	CD	_	41	Terminal	41:Terminal	_
+44	win	win	NOUN	NN	_	36	A	36:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

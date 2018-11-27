@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 548011
+# text = Instead , Logan selected Richard Harris and Vanessa Redgrave , a move that contributed to the project 's critical - and commercial - failure .
+1	Instead	instead	ADV	RB	_	4	L	4:L	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	Logan	Logan	PROPN	NNP	_	4	A	4:A	_
+4	selected	select	VERB	VBD	_	0	H	0:H	_
+5	Richard	Richard	PROPN	NNP	_	4	A	4:A	_
+6	Harris	Harris	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	and	and	CCONJ	CC	_	5	N	5:N	_
+8	Vanessa	Vanessa	PROPN	NNP	_	5	C	5:C	_
+9	Redgrave	Redgrave	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	move	move	NOUN	NN	_	14	A	14:A	_
+13	that	that	PRON	WDT	_	14	F	14:F	_
+14	contributed	contribute	VERB	VBD	_	4	H	4:H	_
+15	to	to	ADP	IN	_	24	R	24:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	project	project	NOUN	NN	_	24	A	24:A	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	critical	critical	ADJ	JJ	_	24	A	24:A	_
+20	-	-	PUNCT	,	_	19	U	19:U	_
+21	and	and	CCONJ	CC	_	19	N	19:N	_
+22	commercial	commercial	ADJ	JJ	_	19	C	19:C	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	failure	failure	NOUN	NN	_	14	A	14:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

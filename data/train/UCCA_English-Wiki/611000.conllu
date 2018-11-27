@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 611000
+# text = McCartney 's enduring fame has made him a popular choice to open new venues .
+1	McCartney	McCartney	PROPN	NNP	_	4	A	4:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	enduring	enduring	NOUN	NN	_	4	D	4:D	_
+4	fame	fame	NOUN	NN	_	6	A	6:A	_
+5	has	have	AUX	VBZ	_	6	F	6:F	_
+6	made	make	VERB	VBN	_	0	H	0:H	_
+7	him	he	PRON	PRP	_	6	A	6:A|12:A	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	popular	popular	ADJ	JJ	_	10	E	10:E	_
+10	choice	choice	NOUN	NN	_	6	A	6:A	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	open	open	VERB	VB	_	10	E	10:E	_
+13	new	new	ADJ	JJ	_	14	E	14:E	_
+14	venues	venue	NOUN	NNS	_	12	A	12:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

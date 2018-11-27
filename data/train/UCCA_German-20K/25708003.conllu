@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25708003
+# text = Ein ungewöhnliches Gebrause hörte man
+1	Ein	ein	DET	ART	_	3	E	3:E	_
+2	ungewöhnliches	ungewöhnlich	ADJ	ADJA	_	3	D	3:D	_
+3	Gebrause	Gebrause	NOUN	NN	_	4	A	4:A	_
+4	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+

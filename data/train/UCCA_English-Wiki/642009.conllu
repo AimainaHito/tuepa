@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 642009
+# text = Lennon , jealous by nature , eventually grew possessive and often terrified Powell with his anger and physical violence .
+1	Lennon	Lennon	PROPN	NNP	_	0	C	0:C|12:A|3:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	jealous	jealous	ADJ	JJ	_	1	E	1:E	_
+4	by	by	ADP	IN	_	5	R	5:R	_
+5	nature	nature	NOUN	NN	_	3	D	3:D	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	eventually	eventually	ADV	RB	_	9	D	9:D	_
+8	grew	grow	VERB	VBD	_	9	D	9:D	_
+9	possessive	possessive	ADJ	JJ	_	0	H	0:H	_
+10	and	and	CCONJ	CC	_	9	L	9:L	_
+11	often	often	ADV	RB	_	12	D	12:D	_
+12	terrified	terrify	VERB	VBD	_	9	H	9:H	_
+13	Powell	Powell	PROPN	NNP	_	12	A	12:A	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	anger	anger	NOUN	NN	_	12	A	12:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	physical	physical	ADJ	JJ	_	19	E	19:E	_
+19	violence	violence	NOUN	NN	_	16	C	16:C	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

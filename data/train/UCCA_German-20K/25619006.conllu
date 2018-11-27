@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25619006
+# text = » Und der Kapitän wird nicht seine Anker auswerfen und seine Maschinen anstrengen und alles aufbieten , um sich heraus zu ziehen ? «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Und	und	CCONJ	NN	_	9	L	9:L	_
+3	der	der	DET	PDS	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|16:A|13:A|19:A	_
+5	wird	werden	AUX	VAFIN	_	9	F	9:F	_
+6	nicht	nicht	PART	XY	_	9	D	9:D|13:D|16:D	_
+7	seine	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Anker	Anker	NOUN	NN	_	9	A	9:A	_
+9	auswerfen	auswerfen	VERB	VVINF	_	0	H	0:H	_
+10	und	und	CCONJ	NE	_	9	L	9:L	_
+11	seine	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Maschinen	Maschine	NOUN	NN	_	13	A	13:A	_
+13	anstrengen	anstrengen	VERB	NN	_	9	H	9:H	_
+14	und	und	CCONJ	NE	_	9	L	9:L	_
+15	alles	alle	PRON	PIS	_	16	A	16:A	_
+16	aufbieten	aufbien	VERB	VVINF	_	9	H	9:H	_
+17	,	,	PUNCT	$,	_	9	U	9:U	_
+18	um	um	ADP	KOUI	_	9	L	9:L	_
+19	sich	er|es|sie	PRON	PRF	_	9	H	9:H	_
+20	heraus	heraus	ADV	ADV	_	19	Terminal	19:Terminal	_
+21	zu	zu	PART	VVINF	_	19	F	19:F	_
+22	ziehen	ziehen	VERB	VVINF	_	19	Terminal	19:Terminal	_
+23	?	?	PUNCT	$.	_	19	U	19:U	_
+24	«	«	PUNCT	$(	_	19	U	19:U	_
+

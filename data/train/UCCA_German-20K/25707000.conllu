@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25707000
+# text = » Ich wagte nicht , Sie darum zu bitten « , erwiderte ich .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	wagte	wagen	VERB	VVFIN	_	12	A	12:A	_
+4	nicht	nicht	PART	CARD	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+7	darum	darum	ADV	PAV	_	9	A	9:A	_
+8	zu	zu	PART	NE	_	9	F	9:F	_
+9	bitten	bitten	VERB	VVFIN	_	3	A	3:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

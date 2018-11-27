@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25754019
+# text = Ich fragte sie um die Ursache ihres Besuchs .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	um	um	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Ursache	Ursache	NOUN	NN	_	2	A	2:A	_
+7	ihres	ihr	DET	PPOSAT	_	8	R	8:R	_
+8	Besuchs	Besuch	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

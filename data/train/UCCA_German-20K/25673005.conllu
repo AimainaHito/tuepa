@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25673005
+# text = » Da finden sich wenigstens « , fragte ich , » diese Fischer hinreichend belohnt . «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Da	da	ADV	ADV	_	15	F	15:F	_
+3	finden	finden	VERB	VVFIN	_	15	D	15:D	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	wenigstens	wenigstens	ADV	ADV	_	15	D	15:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	diese	dies	PRON	PDAT	_	13	E	13:E	_
+13	Fischer	Fischer	NOUN	NE	_	15	A	15:A	_
+14	hinreichend	hinreichend	ADV	ADJD	_	15	D	15:D	_
+15	belohnt	belohnen	VERB	VVFIN	_	8	A	8:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

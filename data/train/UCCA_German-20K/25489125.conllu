@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25489125
+# text = » Meiner Treu , ich möchte gern schlafen « , sagte Conseil .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Meiner	Meiner	PROPN	PPOSAT	_	3	E	3:E	_
+3	Treu	treu	PROPN	NE	_	8	A	8:A	_
+4	,	,	PUNCT	$,	_	8	U	8:U	_
+5	ich	ich	PRON	PPER	_	8	A	8:A	_
+6	möchte	mögen	AUX	NN	_	8	D	8:D	_
+7	gern	gern	ADV	ADV	_	8	D	8:D	_
+8	schlafen	schlafen	VERB	VVINF	_	11	A	11:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	Conseil	Conseil	PROPN	NE	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

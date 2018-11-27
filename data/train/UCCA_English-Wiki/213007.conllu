@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 213007
+# text = Dunst was born in Point Pleasant , New Jersey , to Inez ( née Rupprecht ) and Klaus Dunst .
+1	Dunst	Dunst	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Point	point	PROPN	NNP	_	3	A	3:A	_
+6	Pleasant	pleasant	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	New	New	PROPN	NNP	_	5	E	5:E	_
+9	Jersey	Jersey	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	to	to	ADP	IN	_	14	R	14:R	_
+12	Inez	Inez	PROPN	NNP	_	14	A	14:A	_
+13	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+14	née	née	ADJ	JJ	_	3	A	3:A	_
+15	Rupprecht	Rupprecht	NOUN	NN	_	14	A	14:A	_
+16	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+17	and	and	CCONJ	CC	_	14	N	14:N	_
+18	Klaus	Klaus	PROPN	NNP	_	14	C	14:C	_
+19	Dunst	Dunst	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	14	U	14:U	_
+

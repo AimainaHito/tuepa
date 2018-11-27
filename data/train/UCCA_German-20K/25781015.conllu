@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25781015
+# text = Ohne Zweifel zogen sie unter der Eis decke in andere Meere , die mehr Verkehr gestatten .
+1	Ohne	ohne	ADP	NN	_	2	E	2:E	_
+2	Zweifel	Zweifel	NOUN	NN	_	3	G	3:G	_
+3	zogen	ziehen	VERB	VVFIN	_	0	H	0:H	_
+4	sie	sie	PRON	ADV	_	3	A	3:A	_
+5	unter	unter	ADP	ADJD	_	8	R	8:R	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	Eis	Eis	NOUN	NN	_	8	E	8:E	_
+8	decke	deck	ADJ	NN	_	3	A	3:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	andere	ander	ADJ	ADJA	_	11	E	11:E	_
+11	Meere	Meer	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	16	R	16:R	_
+14	mehr	mehr	ADV	ADV	_	16	D	16:D	_
+15	Verkehr	Verkehr	NOUN	NN	_	16	A	16:A	_
+16	gestatten	statten	VERB	VVFIN	_	11	E	11:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

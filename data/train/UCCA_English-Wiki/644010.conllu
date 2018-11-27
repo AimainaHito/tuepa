@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 644010
+# text = During a car journey to visit Cynthia and Julian during Lennon 's divorce , McCartney composed a song , " Hey Jules " , to comfort him .
+1	During	during	ADP	IN	_	4	L	4:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	car	car	NOUN	NN	_	4	A	4:A	_
+4	journey	journey	NOUN	NN	_	0	H	0:H	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	visit	visit	VERB	VB	_	4	A	4:A	_
+7	Cynthia	Cynthia	PROPN	NNP	_	6	A	6:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	Julian	Julian	PROPN	NNP	_	7	C	7:C	_
+10	during	during	ADP	IN	_	4	L	4:L	_
+11	Lennon	Lennon	PROPN	NNP	_	13	A	13:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	divorce	divorce	NOUN	NN	_	4	H	4:H	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	McCartney	McCartney	PROPN	NNP	_	16	A	16:A|26:A	_
+16	composed	compose	VERB	VBD	_	4	H	4:H	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	song	song	NOUN	NN	_	21	E	21:E	_
+19	,	,	PUNCT	,	_	21	U	21:U	_
+20	"	"	PUNCT	``	_	21	U	21:U	_
+21	Hey	hey	INTJ	UH	_	16	A	16:A	_
+22	Jules	Jules	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	"	"	PUNCT	''	_	4	U	4:U	_
+24	,	,	PUNCT	,	_	4	U	4:U	_
+25	to	to	PART	TO	_	4	L	4:L	_
+26	comfort	comfort	VERB	VB	_	4	H	4:H	_
+27	him	he	PRON	PRP	_	26	A	26:A	_
+28	.	.	PUNCT	.	_	26	U	26:U	_
+

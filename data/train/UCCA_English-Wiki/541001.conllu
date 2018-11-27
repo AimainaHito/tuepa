@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 541001
+# text = While Warner Bros . invested only $ 500,000 in the film , the studio reaped $ 3 million in profits .
+1	While	while	SCONJ	IN	_	5	L	5:L	_
+2	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+3	Bros	Bros	PROPN	NNP	_	2	E	2:E	_
+4	.	.	PUNCT	.	_	5	U	5:U	_
+5	invested	invest	VERB	VBD	_	0	H	0:H	_
+6	only	only	ADV	RB	_	8	E	8:E	_
+7	$	$	SYM	$	_	8	U	8:U	_
+8	500,000	500,000	NUM	CD	_	5	A	5:A	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	studio	studio	NOUN	NN	_	15	A	15:A	_
+15	reaped	reape	VERB	VBD	_	5	H	5:H	_
+16	$	$	SYM	$	_	15	U	15:U	_
+17	3	3	NUM	CD	_	15	A	15:A	_
+18	million	million	NUM	CD	_	17	E	17:E	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	profits	profit	NOUN	NNS	_	15	A	15:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

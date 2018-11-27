@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 467011
+# text = The Spartans reached the Elite Eight , but lost narrowly to eventual national champion Kentucky .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Spartans	Spartans	PROPN	NNPS	_	0	C	0:C|9:A	_
+3	reached	reach	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Elite	elite	PROPN	NNP	_	3	A	3:A	_
+6	Eight	eight	PROPN	NNP	_	5	E	5:E	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	but	but	CCONJ	CC	_	3	L	3:L	_
+9	lost	lose	VERB	VBN	_	3	H	3:H	_
+10	narrowly	narrowly	ADV	RB	_	9	D	9:D	_
+11	to	to	ADP	IN	_	14	R	14:R	_
+12	eventual	eventual	ADJ	JJ	_	14	E	14:E	_
+13	national	national	ADJ	JJ	_	14	E	14:E	_
+14	champion	champion	NOUN	NN	_	9	A	9:A	_
+15	Kentucky	Kentucky	PROPN	NNP	_	14	E	14:E	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

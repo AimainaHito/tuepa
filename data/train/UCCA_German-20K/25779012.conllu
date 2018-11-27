@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25779012
+# text = Wir brauchten 2 Stunden , um auf den Gipfel der Anhöhe , die aus Porphyr und Basalt bestand , zu gelangen .
+1	Wir	wir	PRON	NE	_	2	A	2:A|21:A	_
+2	brauchten	brauchen	VERB	VVFIN	_	0	H	0:H	_
+3	2	2	NUM	CARD	_	2	A	2:A	_
+4	Stunden	Stunde|Stunden	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	um	um	ADP	KOUI	_	2	L	2:L	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Gipfel	Gipfel	NOUN	NN	_	21	A	21:A	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Anhöhe	Anhöhe	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	18	R	18:R	_
+14	aus	aus	ADP	APPR	_	15	R	15:R	_
+15	Porphyr	Porphyr	PROPN	NE	_	18	A	18:A	_
+16	und	und	CCONJ	NE	_	15	N	15:N	_
+17	Basalt	Basalt	PROPN	NN	_	15	C	15:C	_
+18	bestand	bestehen	VERB	VVFIN	_	11	E	11:E	_
+19	,	,	PUNCT	$,	_	21	U	21:U	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	gelangen	gelangen	VERB	VVINF	_	2	H	2:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

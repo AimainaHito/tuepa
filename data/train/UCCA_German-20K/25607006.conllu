@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25607006
+# text = » Also , um diese Wände aufzubauen « , sagte er , » bedurfte es ... ? «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Also	also	PROPN	ADV	_	14	L	14:L	_
+3	,	,	PUNCT	$,	_	14	U	14:U	_
+4	um	um	ADP	KOUI	_	7	R	7:R	_
+5	diese	dies	PRON	PDS	_	6	E	6:E	_
+6	Wände	Wand	NOUN	NN	_	7	A	7:A	_
+7	aufzubauen	aufbauen	VERB	VVIZU	_	14	A	14:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+11	er	er	PRON	PPER	_	10	A	10:A	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	»	»	PUNCT	$(	_	10	U	10:U	_
+14	bedurfte	bedurfte	VERB	VVFIN	_	10	A	10:A	_
+15	es	es	PRON	PPER	_	14	F	14:F	_
+16	...	...	PUNCT	$(	_	14	U	14:U	_
+17	?	?	PUNCT	$.	_	14	U	14:U	_
+18	«	«	PUNCT	$(	_	14	U	14:U	_
+

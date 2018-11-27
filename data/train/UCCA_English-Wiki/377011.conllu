@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 377011
+# text = The film earned $ 32 million and was described in the Sacramento News and Review as Gyllenhaal 's " breakout performance . "
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	0	C	0:C|9:A	_
+3	earned	earn	VERB	VBD	_	0	H	0:H	_
+4	$	$	SYM	$	_	3	U	3:U	_
+5	32	32	NUM	CD	_	3	A	3:A	_
+6	million	million	NUM	CD	_	5	E	5:E	_
+7	and	and	CCONJ	CC	_	3	L	3:L	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	described	describe	VERB	VBN	_	3	H	3:H	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	Sacramento	Sacramento	PROPN	NNP	_	9	A	9:A	_
+13	News	News	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	and	and	CCONJ	CC	_	12	Terminal	12:Terminal	_
+15	Review	review	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	as	as	ADP	IN	_	21	R	21:R	_
+17	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	21	A	21:A	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	"	"	PUNCT	``	_	21	U	21:U	_
+20	breakout	breakout	NOUN	NN	_	21	E	21:E	_
+21	performance	performance	NOUN	NN	_	9	A	9:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+23	"	"	PUNCT	''	_	21	U	21:U	_
+

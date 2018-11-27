@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25490029
+# text = Soweit war ich mit meinen Beobachtungen gekommen , als Ned und Conseil zu gleicher Zeit durch Einwirkung dieser belebenden Lüftung erwachten .
+1	Soweit	soweit	ADV	KOUS	_	7	D	7:D	_
+2	war	sein	VERB	ADV	_	7	F	7:F	_
+3	ich	ich	PRON	PPER	_	7	A	7:A	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	meinen	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Beobachtungen	Beobachtung	NOUN	NN	_	7	A	7:A	_
+7	gekommen	kommen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	als	als	SCONJ	KOUS	_	7	L	7:L	_
+10	Ned	Ned	NOUN	NE	_	21	A	21:A	_
+11	und	und	CCONJ	NE	_	10	N	10:N	_
+12	Conseil	Conseil	NOUN	NE	_	10	C	10:C	_
+13	zu	zu	ADP	NN	_	15	R	15:R	_
+14	gleicher	gleich	ADJ	ADJA	_	15	E	15:E	_
+15	Zeit	Zeit	NOUN	NN	_	21	D	21:D	_
+16	durch	durch	ADP	APPR	_	17	R	17:R	_
+17	Einwirkung	Einwirkung	NOUN	NN	_	21	A	21:A	_
+18	dieser	dies	PRON	PDAT	_	20	E	20:E	_
+19	belebenden	belebend	ADJ	ADJA	_	20	E	20:E	_
+20	Lüftung	Lüftung	NOUN	NN	_	17	A	17:A	_
+21	erwachten	erwachen	VERB	VVFIN	_	7	H	7:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

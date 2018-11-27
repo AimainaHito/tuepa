@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25498016
+# text = « » Wie Sie befehlen , Kapitän .
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	»	»	PUNCT	$(	_	5	U	5:U	_
+3	Wie	wie	CCONJ	KON	_	5	A	5:A	_
+4	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	befehlen	befehlen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Kapitän	Kapitän	NOUN	NN	_	5	G	5:G	_
+8	.	.	PUNCT	$.	_	5	U	5:U	_
+

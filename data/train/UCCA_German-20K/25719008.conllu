@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25719008
+# text = Er war damit noch nicht fertig , als die ›Nautilus‹ , nachdem sie über die Libysche Enge hinausgekommen , sich wieder tiefer auf den unteren Meeres grund begab , wo es keine Mollusken und Zoophyten mehr gibt , und ihre gewöhnliche Schnelligkeit annahm .
+1	Er	er	PRON	PPER	_	6	A	6:A	_
+2	war	sein	AUX	ADV	_	6	F	6:F	_
+3	damit	damit	ADV	PAV	_	6	A	6:A	_
+4	noch	noch	ADV	CARD	_	5	E	5:E	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	als	als	SCONJ	KOUS	_	6	L	6:L	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|42:A	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	nachdem	nachdem	SCONJ	PTKVZ	_	6	L	6:L	_
+13	sie	sie	PRON	ADV	_	18	A	18:A	_
+14	über	über	ADP	VVFIN	_	16	R	16:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Libysche	Libysch	PROPN	ADJA	_	18	A	18:A	_
+17	Enge	enge	PROPN	NN	_	16	E	16:E	_
+18	hinausgekommen	hinausgekommen	VERB	VVFIN	_	6	H	6:H	_
+19	,	,	PUNCT	$,	_	6	U	6:U	_
+20	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+21	wieder	wieder	ADV	NN	_	20	D	20:D	_
+22	tiefer	tief	ADJ	ADJD	_	20	D	20:D	_
+23	auf	auf	ADP	APPR	_	27	R	27:R	_
+24	den	der	DET	ART	_	27	E	27:E	_
+25	unteren	unter	ADJ	ADJA	_	27	E	27:E	_
+26	Meeres	Meeres	NOUN	NN	_	27	E	27:E	_
+27	grund	grund	ADJ	APPR	_	20	A	20:A	_
+28	begab	begeben	VERB	ADV	_	20	Terminal	20:Terminal	_
+29	,	,	PUNCT	$,	_	6	U	6:U	_
+30	wo	wo	ADV	ADJA	_	6	L	6:L	_
+31	es	es	PRON	PPER	_	37	F	37:F	_
+32	keine	kein	PRON	PIAT	_	37	D	37:D	_
+33	Mollusken	Mollusko	NOUN	NE	_	37	A	37:A	_
+34	und	und	CCONJ	NE	_	33	N	33:N	_
+35	Zoophyten	Zoophyten	NOUN	NE	_	33	C	33:C	_
+36	mehr	mehr	ADV	ADV	_	32	E	32:E	_
+37	gibt	geben	VERB	VVFIN	_	6	H	6:H	_
+38	,	,	PUNCT	$,	_	6	U	6:U	_
+39	und	und	CCONJ	NE	_	6	L	6:L	_
+40	ihre	ihr	DET	PPOSAT	_	42	E	42:E	_
+41	gewöhnliche	gewöhnlich	ADJ	ADJA	_	42	D	42:D	_
+42	Schnelligkeit	Schnelligkeit	NOUN	NN	_	6	H	6:H	_
+43	annahm	annehmen	VERB	VVFIN	_	42	D	42:D	_
+44	.	.	PUNCT	$.	_	42	U	42:U	_
+

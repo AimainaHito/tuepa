@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25675000
+# text = Ich stellte mir also in Gedanken die Hai fische vor , ihre ungeheuren Kinn backen mit vielen Reihen Zähnen , die einen Menschen mit einem Biß in zwei Teile zerlegen können .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	stellte	stellen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+4	also	also	ADV	ADV	_	2	D	2:D	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Gedanken	Gedanke	NOUN	NN	_	2	A	2:A	_
+7	die	der	DET	ART	_	9	E	9:E	_
+8	Hai	Hai	PROPN	NE	_	9	E	9:E	_
+9	fische	fisch	ADJ	ADJA	_	2	A	2:A	_
+10	vor	vor	ADP	NE	_	2	Terminal	2:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	ihre	ihr	DET	PPOSAT	_	15	E	15:E	_
+13	ungeheuren	ungeheur	ADJ	NN	_	15	E	15:E	_
+14	Kinn	Kinn	NOUN	NN	_	15	E	15:E	_
+15	backen	backen	VERB	VVFIN	_	2	A	2:A	_
+16	mit	mit	ADP	APPR	_	19	R	19:R	_
+17	vielen	viel	ADJ	PIAT	_	18	E	18:E	_
+18	Reihen	Reihe	NOUN	NN	_	19	E	19:E	_
+19	Zähnen	Zähnen	NOUN	NN	_	15	E	15:E	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	die	der	PRON	PRELS	_	30	R	30:R	_
+22	einen	ein	DET	ART	_	23	E	23:E	_
+23	Menschen	Mensch	NOUN	NN	_	30	A	30:A	_
+24	mit	mit	ADP	APPR	_	26	R	26:R	_
+25	einem	ein	DET	ART	_	26	E	26:E	_
+26	Biß	Biß	NOUN	NN	_	30	A	30:A	_
+27	in	in	ADP	APPR	_	28	R	28:R	_
+28	zwei	zwei	NUM	VVFIN	_	30	A	30:A	_
+29	Teile	Teil	NOUN	NN	_	28	Terminal	28:Terminal	_
+30	zerlegen	zerlegen	VERB	VVINF	_	19	E	19:E	_
+31	können	können	AUX	VMFIN	_	30	D	30:D	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

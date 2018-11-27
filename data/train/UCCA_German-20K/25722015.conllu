@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25722015
+# text = Schlimme Stunden waren dies , während ich bald mich samt meinen Gefährten an Land in Sicherheit sah , bald im Widerspruch mit meiner Vernunft wünschte , es möge ein unvorhergesehener Umstand die Verwirklichung der Projekte Ned Lands hindern .
+1	Schlimme	Schlimm	ADJ	NN	_	3	A	3:A	_
+2	Stunden	Stunde|Stunden	NOUN	NN	_	1	A	1:A	_
+3	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+4	dies	dies	PRON	PDS	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	während	während	SCONJ	VVINF	_	3	L	3:L	_
+7	ich	ich	PRON	PPER	_	17	A	17:A|21:A|25:A	_
+8	bald	bald	ADV	ADV	_	3	L	3:L	_
+9	mich	ich	PRON	PRF	_	17	A	17:A	_
+10	samt	samt	ADP	APPR	_	12	R	12:R	_
+11	meinen	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Gefährten	Gefährt|Gefährte	NOUN	NE	_	17	A	17:A	_
+13	an	an	ADP	APPR	_	14	R	14:R	_
+14	Land	Land	NOUN	NN	_	17	A	17:A	_
+15	in	in	ADP	APPR	_	16	R	16:R	_
+16	Sicherheit	Sicherheit	NOUN	NN	_	17	A	17:A	_
+17	sah	sehen	VERB	VVFIN	_	3	H	3:H	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	bald	bald	ADV	KOUS	_	3	L	3:L	_
+20	im	im	ADJ	NE	_	21	R	21:R	_
+21	Widerspruch	Widerspruch	NOUN	NE	_	3	H	3:H	_
+22	mit	mit	ADP	APPR	_	24	R	24:R	_
+23	meiner	mein	PRON	PPOSAT	_	24	E	24:E	_
+24	Vernunft	Vernunft	NOUN	NN	_	21	A	21:A	_
+25	wünschte	wünschen	VERB	VVFIN	_	3	H	3:H	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	es	es	PRON	PPER	_	38	F	38:F	_
+28	möge	mögen	VERB	VVFIN	_	38	D	38:D	_
+29	ein	ein	DET	ART	_	31	E	31:E	_
+30	unvorhergesehener	unvorhergesehen	ADJ	ADJA	_	38	A	38:A	_
+31	Umstand	Umstand	NOUN	NN	_	30	A	30:A	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Verwirklichung	verwirklichung	NOUN	NN	_	38	A	38:A	_
+34	der	der	DET	ART	_	35	R	35:R	_
+35	Projekte	Projekt	NOUN	NN	_	33	A	33:A	_
+36	Ned	Ned	PROPN	NE	_	35	E	35:E	_
+37	Lands	Land	PROPN	NE	_	36	Terminal	36:Terminal	_
+38	hindern	hindern	VERB	VVINF	_	25	A	25:A	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+

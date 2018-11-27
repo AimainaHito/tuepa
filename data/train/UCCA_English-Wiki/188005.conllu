@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 188005
+# text = His reputation as a playwright was quickly gaining stature on the New York theatre scene .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	reputation	reputation	NOUN	NN	_	9	A	9:A	_
+3	as	as	ADP	IN	_	5	R	5:R	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	playwright	playwright	NOUN	NN	_	2	E	2:E	_
+6	was	be	AUX	VBD	_	9	F	9:F	_
+7	quickly	quickly	ADV	RB	_	9	D	9:D	_
+8	gaining	gain	VERB	VBG	_	9	D	9:D	_
+9	stature	stature	NOUN	NN	_	0	H	0:H	_
+10	on	on	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	New	New	PROPN	NNP	_	15	E	15:E	_
+13	York	York	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	theatre	theatre	NOUN	NN	_	15	E	15:E	_
+15	scene	scene	NOUN	NN	_	9	A	9:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

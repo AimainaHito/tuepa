@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 456003
+# text = On October 13 , 1991 , breaking news forced ABC News to interrupt regular Saturday morning programming again .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	October	October	PROPN	NNP	_	9	D	9:D	_
+3	13	13	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1991	1991	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	breaking	break	NOUN	NN	_	8	E	8:E	_
+8	news	news	NOUN	NN	_	9	A	9:A	_
+9	forced	force	VERB	VBN	_	0	H	0:H	_
+10	ABC	ABC	PROPN	NNP	_	11	E	11:E	_
+11	News	News	PROPN	NNP	_	9	A	9:A	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	interrupt	interrupt	VERB	VB	_	9	A	9:A	_
+14	regular	regular	ADJ	JJ	_	17	E	17:E	_
+15	Saturday	Saturday	PROPN	NNP	_	16	E	16:E	_
+16	morning	morning	NOUN	NN	_	17	E	17:E	_
+17	programming	programm	VERB	VBG	_	13	A	13:A	_
+18	again	again	ADV	RB	_	9	D	9:D	_
+19	.	.	PUNCT	.	_	9	U	9:U	_
+

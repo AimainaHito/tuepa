@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 646003
+# text = " Ono became pregnant in 1968 and miscarried a male child they named John Ono Lennon II on 21 November 1968 , a few weeks after Lennon 's divorce from Cynthia was granted .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Ono	Ono	DET	DT	_	4	A	4:A|8:A	_
+3	became	become	VERB	VBD	_	4	D	4:D	_
+4	pregnant	pregnant	ADJ	JJ	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1968	1968	NUM	CD	_	4	D	4:D	_
+7	and	and	CCONJ	CC	_	4	L	4:L	_
+8	miscarried	miscarry	VERB	VBD	_	4	H	4:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	male	male	ADJ	JJ	_	11	E	11:E	_
+11	child	child	NOUN	NN	_	8	A	8:A	_
+12	they	they	PRON	PRP	_	13	A	13:A	_
+13	named	nam	VERB	VBD	_	11	E	11:E	_
+14	John	John	PROPN	NNP	_	13	A	13:A	_
+15	Ono	Ono	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Lennon	Lennon	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	II	ii	NUM	CD	_	14	Terminal	14:Terminal	_
+18	on	on	ADP	IN	_	19	R	19:R	_
+19	21	21	NUM	CD	_	13	D	13:D	_
+20	November	November	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	1968	1968	NUM	CD	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	a	a	DET	DT	_	4	L	4:L	_
+24	few	few	ADJ	JJ	_	23	Terminal	23:Terminal	_
+25	weeks	week	NOUN	NNS	_	23	Terminal	23:Terminal	_
+26	after	after	ADP	IN	_	23	Terminal	23:Terminal	_
+27	Lennon	Lennon	PROPN	NNP	_	29	A	29:A	_
+28	's	's	PART	POS	_	27	R	27:R	_
+29	divorce	divorce	NOUN	NN	_	33	A	33:A	_
+30	from	from	ADP	IN	_	31	R	31:R	_
+31	Cynthia	Cynthia	PROPN	NNP	_	29	A	29:A	_
+32	was	be	AUX	VBD	_	33	F	33:F	_
+33	granted	grant	VERB	VBN	_	4	H	4:H	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

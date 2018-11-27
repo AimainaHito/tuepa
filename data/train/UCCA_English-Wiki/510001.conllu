@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 510001
+# text = Taking in Europe and North America , the tour opened at London 's annual Meltdown festival , for which Bowie was that year appointed artistic director .
+1	Taking	take	VERB	VBG	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	Europe	Europe	PROPN	NNP	_	1	A	1:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	North	North	PROPN	NNP	_	6	E	6:E	_
+6	America	America	PROPN	NNP	_	3	C	3:C	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	tour	tour	NOUN	NN	_	0	C	0:C|1:A	_
+10	opened	open	VERB	VBD	_	1	H	1:H	_
+11	at	at	ADP	IN	_	16	R	16:R	_
+12	London	London	PROPN	NNP	_	16	E	16:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	annual	annual	ADJ	JJ	_	16	E	16:E	_
+15	Meltdown	Meltdown	ADJ	JJ	_	16	E	16:E	_
+16	festival	festival	NOUN	NN	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	for	for	ADP	IN	_	24	A	24:A	_
+19	which	which	PRON	WDT	_	18	F	18:F	_
+20	Bowie	Bowie	PROPN	NNP	_	24	A	24:A	_
+21	was	be	AUX	VBD	_	24	F	24:F	_
+22	that	that	DET	DT	_	23	E	23:E	_
+23	year	year	NOUN	NN	_	24	D	24:D	_
+24	appointed	appoint	VERB	VBD	_	16	E	16:E	_
+25	artistic	artistic	ADJ	JJ	_	26	E	26:E	_
+26	director	director	NOUN	NN	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

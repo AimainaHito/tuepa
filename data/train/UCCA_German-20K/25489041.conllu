@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25489041
+# text = Die Riegel rasselten , die Tür öffnete sich , zwei Männer traten ein .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Riegel	Riegel	NOUN	NN	_	3	A	3:A	_
+3	rasselten	rasselten	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Tür	Tür	NOUN	NN	_	7	A	7:A	_
+7	öffnete	öffnen	VERB	VVFIN	_	3	H	3:H	_
+8	sich	er|es|sie	PRON	PRF	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	zwei	zwei	NUM	VVPP	_	11	E	11:E	_
+11	Männer	Mann	NOUN	NN	_	12	A	12:A	_
+12	traten	treten	VERB	VVFIN	_	3	H	3:H	_
+13	ein	ein	ADV	PTKVZ	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

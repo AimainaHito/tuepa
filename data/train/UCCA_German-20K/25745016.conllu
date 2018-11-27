@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25745016
+# text = Da ich gar keinen Grund sah , dieser Neigung Widerstand zu leisten , so gab ich mich tiefem Schlummer hin .
+1	Da	da	SCONJ	KOUS	_	6	L	6:L	_
+2	ich	ich	PRON	PPER	_	6	A	6:A	_
+3	gar	gar	ADV	ADV	_	4	E	4:E	_
+4	keinen	kein	PRON	PIAT	_	6	D	6:D	_
+5	Grund	Grund	NOUN	NN	_	6	A	6:A	_
+6	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+9	Neigung	Neigung	NOUN	NN	_	10	A	10:A	_
+10	Widerstand	Widerstand	NOUN	NN	_	6	A	6:A	_
+11	zu	zu	PART	VVINF	_	10	F	10:F	_
+12	leisten	leisten	VERB	VVINF	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	so	so	ADV	ADV	_	6	L	6:L	_
+15	gab	geben	VERB	VVFIN	_	6	H	6:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	mich	ich	PRON	PRF	_	15	Terminal	15:Terminal	_
+18	tiefem	tief	DET	ADJA	_	19	D	19:D	_
+19	Schlummer	Schlummer	NOUN	NN	_	15	A	15:A	_
+20	hin	hin	ADV	PTKVZ	_	15	Terminal	15:Terminal	_
+21	.	.	PUNCT	$.	_	15	U	15:U	_
+

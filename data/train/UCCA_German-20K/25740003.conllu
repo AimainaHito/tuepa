@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25740003
+# text = » Wahrhaftig « , erwiderte ich , » hier sind Sie in Sicherheit , Kapitän Nemo . Wer könnte im Zentrum eines Vulkans Ihnen beikommen ? Aber habe ich nicht in seinem Gipfel eine Öffnung bemerkt ? «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Wahrhaftig	Wahrhaftig	NOUN	ADJD	_	13	G	13:G	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	hier	hier	ADV	ADV	_	13	D	13:D	_
+10	sind	sein	AUX	NE	_	13	F	13:F	_
+11	Sie	Sie|sie	PRON	PPER	_	13	A	13:A	_
+12	in	in	ADP	APPR	_	13	R	13:R	_
+13	Sicherheit	Sicherheit	NOUN	NN	_	5	A	5:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	Kapitän	Kapitän	PROPN	NN	_	16	E	16:E	_
+16	Nemo	Nemo	PROPN	NE	_	13	G	13:G	_
+17	.	.	PUNCT	$.	_	13	U	13:U	_
+18	Wer	wer	PROPN	PWS	_	25	A	25:A	_
+19	könnte	können	AUX	VMFIN	_	25	D	25:D	_
+20	im	im	ADV	NN	_	21	R	21:R	_
+21	Zentrum	Zentrum	NOUN	NN	_	25	A	25:A	_
+22	eines	ein	DET	ART	_	23	R	23:R	_
+23	Vulkans	Vulkan	NOUN	NN	_	21	E	21:E	_
+24	Ihnen	Sie|sie	PRON	PPER	_	25	A	25:A	_
+25	beikommen	beikommen	VERB	VVFIN	_	13	H	13:H	_
+26	?	?	PUNCT	$.	_	13	U	13:U	_
+27	Aber	aber	CCONJ	KON	_	13	L	13:L	_
+28	habe	haben	AUX	VAFIN	_	36	F	36:F	_
+29	ich	ich	PRON	PPER	_	36	A	36:A	_
+30	nicht	nicht	PART	CARD	_	36	D	36:D	_
+31	in	in	ADP	APPR	_	33	R	33:R	_
+32	seinem	sein	DET	PPOSAT	_	33	E	33:E	_
+33	Gipfel	Gipfel	NOUN	NN	_	36	A	36:A	_
+34	eine	ein	DET	ART	_	35	E	35:E	_
+35	Öffnung	Öffnung	NOUN	NN	_	36	A	36:A	_
+36	bemerkt	bemerken	VERB	VVPP	_	13	H	13:H	_
+37	?	?	PUNCT	$.	_	36	U	36:U	_
+38	«	«	PUNCT	$(	_	36	U	36:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 245010
+# text = " The New York Times noted , " Mr . Hawke 's subtle and strong performance makes it clear that Troy feels things too deeply to risk failure and admit he 's feeling anything at all .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	The	the	DET	DT	_	6	A	6:A	_
+3	New	New	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	York	York	PROPN	NNP	_	2	Terminal	2:Terminal	_
+5	Times	Times	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	noted	note	VERB	VBD	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	"	"	PUNCT	``	_	6	U	6:U	_
+9	Mr	mr	PROPN	NNP	_	16	A	16:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+11	Hawke	Hawke	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	's	's	PART	POS	_	9	R	9:R	_
+13	subtle	subtle	ADJ	JJ	_	16	E	16:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	strong	strong	ADJ	JJ	_	13	C	13:C	_
+16	performance	performance	NOUN	NN	_	19	A	19:A	_
+17	makes	make	VERB	VBZ	_	19	D	19:D	_
+18	it	it	PRON	PRP	_	19	F	19:F	_
+19	clear	clear	ADJ	JJ	_	6	A	6:A	_
+20	that	that	SCONJ	IN	_	22	F	22:F	_
+21	Troy	Troy	PROPN	NNP	_	22	A	22:A|27:A|30:A	_
+22	feels	feel	VERB	VBZ	_	19	A	19:A	_
+23	things	thing	NOUN	NNS	_	22	A	22:A	_
+24	too	too	ADV	RB	_	25	E	25:E	_
+25	deeply	deeply	ADV	RB	_	22	D	22:D	_
+26	to	to	PART	TO	_	22	L	22:L	_
+27	risk	risk	VERB	VB	_	22	H	22:H	_
+28	failure	failure	NOUN	NN	_	27	A	27:A	_
+29	and	and	CCONJ	CC	_	22	L	22:L	_
+30	admit	admit	VERB	VB	_	22	H	22:H	_
+31	he	he	PRON	PRP	_	33	A	33:A	_
+32	's	be	AUX	VBZ	_	33	F	33:F	_
+33	feeling	feel	VERB	VBG	_	30	A	30:A	_
+34	anything	anything	PRON	NN	_	33	A	33:A	_
+35	at	at	ADV	RB	_	36	E	36:E	_
+36	all	all	ADV	RB	_	33	D	33:D	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

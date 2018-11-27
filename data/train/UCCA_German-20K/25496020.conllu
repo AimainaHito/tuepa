@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25496020
+# text = Und Sie glauben , dass ich Sie wieder auf die Erde entlassen werde , die keine Kenntnis mehr von mir haben soll !
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+3	glauben	glauben	VERB	VVINF	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+6	ich	ich	PRON	PPER	_	12	A	12:A	_
+7	Sie	sie	PRON	PPER	_	12	A	12:A	_
+8	wieder	wieder	ADV	NN	_	12	D	12:D	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Erde	Erde	NOUN	NN	_	12	A	12:A	_
+12	entlassen	entlassen	VERB	VVINF	_	3	A	3:A	_
+13	werde	werden	AUX	NN	_	12	F	12:F	_
+14	,	,	PUNCT	$,	_	12	U	12:U	_
+15	die	der	PRON	PRELS	_	17	R	17:R	_
+16	keine	kein	PRON	PIAT	_	17	D	17:D	_
+17	Kenntnis	Kenntnis	NOUN	NN	_	11	E	11:E	_
+18	mehr	mehr	ADV	ADV	_	17	D	17:D	_
+19	von	von	ADP	NE	_	20	R	20:R	_
+20	mir	ich	PRON	PPER	_	17	A	17:A	_
+21	haben	haben	VERB	VAINF	_	17	F	17:F	_
+22	soll	sollen	AUX	ADJD	_	17	D	17:D	_
+23	!	!	PUNCT	$.	_	17	U	17:U	_
+

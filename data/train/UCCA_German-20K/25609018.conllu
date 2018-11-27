@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25609018
+# text = » Wir sind schon da , Herr Professor ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Wir	wir	PRON	NE	_	3	A	3:A	_
+3	sind	sein	AUX	NN	_	0	H	0:H	_
+4	schon	schon	ADV	ADV	_	3	D	3:D	_
+5	da	da	ADV	ADV	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Herr	Herr	PROPN	NN	_	8	E	8:E	_
+8	Professor	Professor	PROPN	NN	_	3	G	3:G	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

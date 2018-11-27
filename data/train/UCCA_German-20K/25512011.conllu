@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25512011
+# text = Neben der Küche öffnete sich ein bequem eingerichteter Bade saal , worin die Hähne nach Belieben kaltes und warmes Wasser spendeten .
+1	Neben	neben	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Küche	Küche	NOUN	NN	_	4	A	4:A	_
+4	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	ein	ein	DET	ART	_	10	E	10:E	_
+7	bequem	bequem	ADJ	ADJA	_	8	D	8:D	_
+8	eingerichteter	eingerichtet	ADJ	NN	_	4	A	4:A	_
+9	Bade	Bad	NOUN	NE	_	10	E	10:E	_
+10	saal	saal	ADV	NE	_	0	C	0:C|21:A	_
+11	,	,	PUNCT	$,	_	21	U	21:U	_
+12	worin	worin	ADV	PWAV	_	21	R	21:R	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Hähne	Hahn	NOUN	NN	_	21	A	21:A	_
+15	nach	nach	ADP	XY	_	16	R	16:R	_
+16	Belieben	Belieben	PROPN	NN	_	21	D	21:D	_
+17	kaltes	kalt	VERB	ADJA	_	20	E	20:E	_
+18	und	und	CCONJ	NE	_	17	N	17:N	_
+19	warmes	warm	ADJ	NE	_	17	C	17:C	_
+20	Wasser	Wasser	NOUN	NN	_	21	A	21:A	_
+21	spendeten	spenden	VERB	VVFIN	_	8	E	8:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

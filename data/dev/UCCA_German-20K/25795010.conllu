@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25795010
+# text = Dieser Mann bewahrte seine Kaltblütigkeit und Tatkraft , überwand durch moralische Stärke die physischen Schmerzen .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	0	C	0:C|9:A	_
+3	bewahrte	bewahren	VERB	VVFIN	_	0	H	0:H	_
+4	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+5	Kaltblütigkeit	Kaltblütigkeit	NOUN	NN	_	3	A	3:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Tatkraft	Tatkraft	NOUN	NN	_	5	C	5:C	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	überwand	überwinden	VERB	VVFIN	_	3	H	3:H	_
+10	durch	durch	ADP	APPR	_	12	R	12:R	_
+11	moralische	moralisch	ADJ	ADJA	_	12	E	12:E	_
+12	Stärke	Stärke	NOUN	NN	_	9	A	9:A	_
+13	die	der	DET	ART	_	15	E	15:E	_
+14	physischen	physisch	ADJ	ADJA	_	15	E	15:E	_
+15	Schmerzen	Schmerz	NOUN	NN	_	9	A	9:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

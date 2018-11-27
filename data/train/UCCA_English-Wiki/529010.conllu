@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 529010
+# text = It included her first appearances at the renowned London Palladium , for a four - week stand in April .
+1	It	it	PRON	PRP	_	2	F	2:F	_
+2	included	include	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP	_	5	A	5:A	_
+4	first	first	ADJ	JJ	_	5	D	5:D	_
+5	appearances	appearance	NOUN	NNS	_	2	A	2:A	_
+6	at	at	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	renowned	renown	ADJ	JJ	_	9	E	9:E	_
+9	London	London	PROPN	NNP	_	5	A	5:A	_
+10	Palladium	Palladium	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	5	U	5:U	_
+12	for	for	ADP	IN	_	17	R	17:R	_
+13	a	a	DET	DT	_	17	E	17:E	_
+14	four	four	NUM	CD	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	week	week	NOUN	NN	_	17	E	17:E	_
+17	stand	stand	NOUN	NN	_	5	D	5:D	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	April	April	PROPN	NNP	_	17	E	17:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

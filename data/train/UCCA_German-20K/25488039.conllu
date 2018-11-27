@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25488039
+# text = Jedoch war die Lage darum nicht minder schrecklich .
+1	Jedoch	jedoch	ADV	ADV	_	8	L	8:L	_
+2	war	sein	AUX	ADV	_	8	F	8:F	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Lage	Lage	NOUN	NN	_	8	A	8:A	_
+5	darum	darum	ADV	PAV	_	8	A	8:A	_
+6	nicht	nicht	PART	XY	_	8	D	8:D	_
+7	minder	minder	ADJ	ADV	_	8	D	8:D	_
+8	schrecklich	schrecklich	ADJ	ADJD	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

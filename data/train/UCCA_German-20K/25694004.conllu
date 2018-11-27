@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25694004
+# text = Die Klasse der Schwamm tiere enthält ungefähr 300 Arten , die sich in vielen Meeren und sogar in einigen Flüssen finden .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Klasse	Klasse	NOUN	NN	_	6	A	6:A	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	Schwamm	Schwamm	NOUN	NN	_	5	E	5:E	_
+5	tiere	ti	ADJ	NN	_	2	E	2:E	_
+6	enthält	enthalten	VERB	VVFIN	_	0	H	0:H	_
+7	ungefähr	ungefähr	ADV	NE	_	6	D	6:D	_
+8	300	300	NUM	CARD	_	9	E	9:E	_
+9	Arten	Art	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	12	R	12:R	_
+12	sich	er|es|sie	PRON	PRF	_	9	E	9:E	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	vielen	viel	ADJ	PIAT	_	15	E	15:E	_
+15	Meeren	Meer	NOUN	NN	_	12	A	12:A	_
+16	und	und	CCONJ	NE	_	12	L	12:L	_
+17	sogar	sogar	ADV	ADV	_	20	D	20:D	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	einigen	einige	PRON	PIAT	_	20	E	20:E	_
+20	Flüssen	Fluß	NOUN	NN	_	12	H	12:H	_
+21	finden	finden	VERB	VVINF	_	12	Terminal	12:Terminal	_
+22	.	.	PUNCT	$.	_	12	U	12:U	_
+

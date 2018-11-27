@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25616010
+# text = Es ist , wie man gesagt hat , » der Herd der Schwarzen , die ganz Malayenland bewohnen « , und ich zweifelte nicht , dass ich bei dieser Fahrt die gefürchteten Andamanen kennenlernen würde .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	ist	sein	AUX	VVFIN	_	6	A	6:A	_
+3	,	,	PUNCT	$,	_	6	U	6:U	_
+4	wie	wie	SCONJ	KON	_	6	L	6:L	_
+5	man	man	PRON	PIS	_	6	A	6:A	_
+6	gesagt	sagen	VERB	VVPP	_	0	H	0:H	_
+7	hat	haben	VERB	VAFIN	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Herd	herd	NOUN	NE	_	13	E	13:E	_
+12	der	der	DET	ART	_	11	R	11:R	_
+13	Schwarzen	Schwarze	NOUN	ADJA	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	DET	PRELS	_	18	R	18:R	_
+16	ganz	ganz	ADJ	ADV	_	17	E	17:E	_
+17	Malayenland	Malayenland	PROPN	NN	_	18	A	18:A	_
+18	bewohnen	bewohnen	NOUN	VVFIN	_	13	E	13:E	_
+19	«	«	PUNCT	$(	_	6	U	6:U	_
+20	,	,	PUNCT	$,	_	6	U	6:U	_
+21	und	und	CCONJ	NE	_	6	L	6:L	_
+22	ich	ich	PRON	PPER	_	23	A	23:A	_
+23	zweifelte	zweifeln	ADJ	ADJA	_	6	H	6:H	_
+24	nicht	nicht	PART	CARD	_	23	D	23:D	_
+25	,	,	PUNCT	$,	_	23	U	23:U	_
+26	dass	dass	SCONJ	KOUS	_	34	R	34:R	_
+27	ich	ich	PRON	PPER	_	34	A	34:A|30:A	_
+28	bei	bei	ADP	APPR	_	30	R	30:R	_
+29	dieser	dies	PRON	PDAT	_	30	E	30:E	_
+30	Fahrt	Fahrt	NOUN	NN	_	34	A	34:A	_
+31	die	der	DET	ART	_	33	E	33:E	_
+32	gefürchteten	gefürchtet	ADJ	ADJA	_	33	E	33:E	_
+33	Andamanen	Andamane	NOUN	NN	_	34	A	34:A	_
+34	kennenlernen	kennenlernen	VERB	ADJA	_	23	A	23:A	_
+35	würde	werden	AUX	NN	_	34	F	34:F	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

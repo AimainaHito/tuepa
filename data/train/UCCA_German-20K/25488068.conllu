@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25488068
+# text = Wozu das , in solcher Ferne ?
+1	Wozu	wozu	ADV	PWAV	_	0	H	0:H	_
+2	das	der	PRON	PDS	_	1	A	1:A	_
+3	,	,	PUNCT	$,	_	1	U	1:U	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	solcher	solch	PRON	PIS	_	6	E	6:E	_
+6	Ferne	Ferne	NOUN	NN	_	1	H	1:H	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25765008
+# text = » Mein Herr « , sagte da Ned Land , » wenn Ihr Kapitän noch weiter fahren wird ? «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	17	G	17:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	da	da	SCONJ	KOUS	_	6	D	6:D	_
+8	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+9	Land	Land	PROPN	NN	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	wenn	wenn	SCONJ	VVFIN	_	17	L	17:L	_
+13	Ihr	Ihr|ihr	PRON	PPOSAT	_	14	E	14:E	_
+14	Kapitän	Kapitän	NOUN	NN	_	17	A	17:A	_
+15	noch	noch	ADV	CARD	_	17	D	17:D	_
+16	weiter	weiter	ADV	ADV	_	17	D	17:D	_
+17	fahren	fahren	VERB	VVINF	_	6	A	6:A	_
+18	wird	werden	AUX	VAFIN	_	17	F	17:F	_
+19	?	?	PUNCT	$.	_	17	U	17:U	_
+20	«	«	PUNCT	$(	_	17	U	17:U	_
+

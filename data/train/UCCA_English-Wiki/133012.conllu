@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 133012
+# text = It received poor notices but was a financial success , confirming the popularity of the Tracy - Hepburn pairing .
+1	It	it	PRON	PRP	_	2	A	2:A|6:A	_
+2	received	receive	VERB	VBD	_	0	H	0:H	_
+3	poor	poor	ADJ	JJ	_	4	E	4:E	_
+4	notices	notice	NOUN	NNS	_	2	A	2:A	_
+5	but	but	CCONJ	CC	_	2	L	2:L	_
+6	was	be	AUX	VBD	_	2	H	2:H	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	financial	financial	ADJ	JJ	_	9	E	9:E	_
+9	success	success	NOUN	NN	_	0	C	0:C|11:A	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	confirming	confirm	VERB	VBG	_	2	H	2:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	popularity	popularity	NOUN	NN	_	11	A	11:A	_
+14	of	of	ADP	IN	_	19	R	19:R	_
+15	the	the	DET	DT	_	19	E	19:E	_
+16	Tracy	Tracy	PROPN	NNP	_	19	E	19:E	_
+17	-	-	PUNCT	HYPH	_	16	U	16:U	_
+18	Hepburn	Hepburn	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	pairing	pairing	NOUN	NN	_	13	E	13:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

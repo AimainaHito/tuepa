@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25526005
+# text = » Jetzt ist alles aus ! « sagte Ned Land .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Jetzt	jetzt	ADV	ADV	_	5	D	5:D	_
+3	ist	sein	AUX	VVFIN	_	5	F	5:F	_
+4	alles	alle	PRON	PIS	_	5	A	5:A	_
+5	aus	aus	ADP	PTKVZ	_	8	A	8:A	_
+6	!	!	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

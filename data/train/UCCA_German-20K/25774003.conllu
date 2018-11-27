@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25774003
+# text = Die ›Nautilus‹ lag nicht still ; sie fuhr längs der Küste noch etwa 10 Meilen weiter nach Süden , umgeben von dem halben Licht , das die Sonne , indem sie am Rand des Horizonts streifte , hinter sich ließ .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	lag	liegen	VERB	VVFIN	_	0	H	0:H	_
+4	nicht	nicht	PART	CARD	_	3	D	3:D	_
+5	still	still	ADJ	NN	_	3	Terminal	3:Terminal	_
+6	;	;	PUNCT	$.	_	3	U	3:U	_
+7	sie	sie	PRON	ADV	_	8	A	8:A	_
+8	fuhr	fahren	VERB	VVFIN	_	3	H	3:H	_
+9	längs	längs	ADV	ADV	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	R	11:R	_
+11	Küste	Küste	NOUN	NN	_	8	A	8:A	_
+12	noch	noch	ADV	CARD	_	8	D	8:D	_
+13	etwa	etwa	ADV	ADV	_	15	E	15:E	_
+14	10	10	NUM	CARD	_	15	E	15:E	_
+15	Meilen	Meile	NOUN	NN	_	8	A	8:A	_
+16	weiter	weiter	ADV	ADV	_	8	D	8:D	_
+17	nach	nach	ADP	CARD	_	18	R	18:R	_
+18	Süden	Süden	NOUN	NE	_	8	A	8:A	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	umgeben	umgeben	VERB	FM	_	3	H	3:H	_
+21	von	von	ADP	NE	_	24	R	24:R	_
+22	dem	der	DET	ART	_	24	E	24:E	_
+23	halben	halb	ADJ	ADJA	_	24	E	24:E	_
+24	Licht	Licht	NOUN	NN	_	20	A	20:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	das	der	PRON	PRELS	_	40	R	40:R	_
+27	die	der	DET	ART	_	28	E	28:E	_
+28	Sonne	Sonne	NOUN	NN	_	40	A	40:A	_
+29	,	,	PUNCT	$,	_	3	U	3:U	_
+30	indem	indem	SCONJ	KOUS	_	3	L	3:L	_
+31	sie	sie	PRON	ADV	_	36	A	36:A	_
+32	am	am	ADJ	ADJD	_	33	R	33:R	_
+33	Rand	Rand	NOUN	NN	_	36	A	36:A	_
+34	des	der	DET	ART	_	35	R	35:R	_
+35	Horizonts	Horizont	NOUN	NN	_	33	E	33:E	_
+36	streifte	streifen	VERB	VVFIN	_	3	H	3:H	_
+37	,	,	PUNCT	$,	_	3	U	3:U	_
+38	hinter	hinter	ADP	APPR	_	39	R	39:R	_
+39	sich	er|es|sie	PRON	PRF	_	40	D	40:D	_
+40	ließ	lassen	VERB	VVFIN	_	24	E	24:E	_
+41	.	.	PUNCT	$.	_	40	U	40:U	_
+

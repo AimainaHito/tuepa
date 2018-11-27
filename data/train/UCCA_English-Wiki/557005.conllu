@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 557005
+# text = " After he recorded , Sun boss Sam Phillips asked Keisker to note down the young man 's name , which she did along with her own commentary : " Good ballad singer .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	After	after	SCONJ	IN	_	4	L	4:L	_
+3	he	he	PRON	PRP	_	4	A	4:A	_
+4	recorded	record	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Sun	Sun	PROPN	NNP	_	8	E	8:E	_
+7	boss	bose	ADP	IN	_	6	Terminal	6:Terminal	_
+8	Sam	Sam	PROPN	NNP	_	10	A	10:A	_
+9	Phillips	Phillips	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	asked	ask	VERB	VBD	_	4	H	4:H	_
+11	Keisker	Keisker	PROPN	NNP	_	10	A	10:A|13:A	_
+12	to	to	PART	TO	_	4	L	4:L	_
+13	note	note	VERB	VB	_	4	H	4:H	_
+14	down	down	ADP	RP	_	13	Terminal	13:Terminal	_
+15	the	the	DET	DT	_	19	E	19:E	_
+16	young	young	ADJ	JJ	_	17	E	17:E	_
+17	man	man	NOUN	NN	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	name	name	NOUN	NN	_	13	A	13:A	_
+20	,	,	PUNCT	,	_	4	U	4:U	_
+21	which	which	PRON	WDT	_	4	L	4:L	_
+22	she	she	PRON	PRP	_	4	H	4:H	_
+23	did	do	VERB	VBD	_	22	F	22:F	_
+24	along	along	ADV	RB	_	4	L	4:L	_
+25	with	with	ADP	IN	_	24	Terminal	24:Terminal	_
+26	her	she	PRON	PRP$	_	28	E	28:E	_
+27	own	own	ADJ	JJ	_	28	E	28:E	_
+28	commentary	commentary	NOUN	NN	_	4	H	4:H	_
+29	:	:	PUNCT	:	_	4	U	4:U	_
+30	"	"	PUNCT	``	_	4	U	4:U	_
+31	Good	good	ADJ	JJ	_	33	E	33:E	_
+32	ballad	ballad	NOUN	NN	_	33	E	33:E	_
+33	singer	singer	NOUN	NN	_	4	H	4:H	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

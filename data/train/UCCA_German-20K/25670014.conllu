@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25670014
+# text = Während dieses Tages hatten wir eine fürchterliche Schar von Haifischen im Gefolge , Ungeheuer , die in diesen Meeren massenweise vorkommen und sie sehr gefährlich machen .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	dieses	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tages	Tag	NOUN	NN	_	11	D	11:D	_
+4	hatten	haben	AUX	VAFIN	_	11	F	11:F	_
+5	wir	wir	PRON	NE	_	11	A	11:A	_
+6	eine	ein	DET	ART	_	10	E	10:E	_
+7	fürchterliche	fürchterlich	ADJ	ADJA	_	10	E	10:E	_
+8	Schar	Schar	NOUN	NN	_	10	E	10:E	_
+9	von	von	ADP	NE	_	10	R	10:R	_
+10	Haifischen	Haifisch	PROPN	NE	_	11	A	11:A	_
+11	im	im	ADJ	NE	_	0	H	0:H	_
+12	Gefolge	Gefolge	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	Ungeheuer	Ungeheuer	NOUN	NN	_	0	C	0:C|21:A|26:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	PRON	PRELS	_	21	R	21:R	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	diesen	dies	PRON	PDAT	_	19	E	19:E	_
+19	Meeren	Meer	NOUN	NN	_	21	A	21:A	_
+20	massenweise	massenweise	ADV	ADV	_	21	D	21:D	_
+21	vorkommen	vorkommen	VERB	VVINF	_	14	E	14:E	_
+22	und	und	CCONJ	NE	_	11	L	11:L	_
+23	sie	sie	PRON	ADV	_	26	A	26:A	_
+24	sehr	sehr	ADV	NE	_	25	E	25:E	_
+25	gefährlich	gefährlich	ADJ	ADJD	_	26	D	26:D	_
+26	machen	machen	VERB	VVINF	_	11	H	11:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

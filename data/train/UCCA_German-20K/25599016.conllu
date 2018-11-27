@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25599016
+# text = Die Spitzen der Insel Crespo waren während der Nacht verschwunden .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Spitzen	Spitze	NOUN	NN	_	10	A	10:A	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	Insel	Insel	NOUN	NN	_	5	E	5:E	_
+5	Crespo	Crespo	PROPN	NE	_	2	E	2:E	_
+6	waren	sein	AUX	VAFIN	_	10	F	10:F	_
+7	während	während	ADP	NN	_	9	R	9:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Nacht	Nacht	NOUN	NN	_	10	A	10:A	_
+10	verschwunden	verschwinden	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

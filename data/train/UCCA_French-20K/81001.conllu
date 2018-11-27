@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 81001
+# text = Quant à la rejeter au rang des fables , il fallait y renoncer .
+1	Quant	quant	ADV	_	_	4	L	4:L	_
+2	à	à	ADP	_	_	1	Terminal	1:Terminal	_
+3	la	le	PRON	_	_	4	A	4:A	_
+4	rejeter	rejeter	VERB	_	_	0	H	0:H	_
+5	au	au	NOUN	_	_	6	R	6:R	_
+6	rang	rang	VERB	_	_	8	E	8:E	_
+7	des	un	DET	_	_	6	R	6:R	_
+8	fables	fable	NOUN	_	_	4	A	4:A	_
+9	,	,	PUNCT	_	_	4	U	4:U	_
+10	il	il	PRON	_	_	13	F	13:F	_
+11	fallait	falloir	VERB	_	_	13	D	13:D	_
+12	y	y	ADV	_	_	13	A	13:A	_
+13	renoncer	renoncer	VERB	_	_	4	H	4:H	_
+14	.	.	PUNCT	_	_	13	U	13:U	_
+

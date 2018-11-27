@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 666007
+# text = Throughout early - 2000 , Carey 's troubled relationship with Columbia grew , as they halted promotion after the album 's first two singles .
+1	Throughout	throughout	ADP	IN	_	4	R	4:R	_
+2	early	early	ADV	RB	_	4	E	4:E	_
+3	-	-	SYM	SYM	_	4	U	4:U	_
+4	2000	2000	NUM	CD	_	12	D	12:D	_
+5	,	,	PUNCT	,	_	12	U	12:U	_
+6	Carey	Carey	PROPN	NNP	_	9	A	9:A	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	troubled	troubled	ADJ	JJ	_	9	D	9:D	_
+9	relationship	relationship	NOUN	NN	_	12	A	12:A	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Columbia	Columbia	PROPN	NNP	_	9	A	9:A	_
+12	grew	grow	VERB	VBD	_	0	H	0:H	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	as	as	SCONJ	IN	_	12	L	12:L	_
+15	they	they	PRON	PRP	_	16	A	16:A	_
+16	halted	halt	VERB	VBD	_	12	H	12:H	_
+17	promotion	promotion	NOUN	NN	_	16	A	16:A	_
+18	after	after	ADP	IN	_	12	L	12:L	_
+19	the	the	DET	DT	_	24	E	24:E	_
+20	album	album	NOUN	NN	_	24	E	24:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	first	first	ADJ	JJ	_	24	E	24:E	_
+23	two	two	NUM	CD	_	24	E	24:E	_
+24	singles	singles	NOUN	NNS	_	12	H	12:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

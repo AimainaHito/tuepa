@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 456011
+# text = On September 9 , 1992 , ABC announced that it would be switching the format of its political coverage to give less recognition to staged sound bites .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	September	September	PROPN	NNP	_	8	D	8:D	_
+3	9	9	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1992	1992	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	ABC	ABC	PROPN	NNP	_	8	A	8:A|23:A	_
+8	announced	announce	VERB	VBD	_	0	H	0:H	_
+9	that	that	SCONJ	IN	_	13	F	13:F	_
+10	it	it	PRON	PRP	_	13	F	13:F	_
+11	would	would	AUX	MD	_	13	F	13:F	_
+12	be	be	AUX	VB	_	13	F	13:F	_
+13	switching	switch	VERB	VBG	_	8	A	8:A	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	format	format	NOUN	NN	_	13	A	13:A	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	its	its	PRON	PRP$	_	19	E	19:E	_
+18	political	political	ADJ	JJ	_	19	E	19:E	_
+19	coverage	coverage	NOUN	NN	_	15	E	15:E	_
+20	to	to	PART	TO	_	8	L	8:L	_
+21	give	give	VERB	VB	_	23	F	23:F	_
+22	less	less	ADJ	JJR	_	23	D	23:D	_
+23	recognition	recognition	NOUN	NN	_	8	H	8:H	_
+24	to	to	PART	TO	_	27	R	27:R	_
+25	staged	stage	VERB	VB	_	27	E	27:E	_
+26	sound	sound	NOUN	NN	_	27	E	27:E	_
+27	bites	bite	NOUN	NNS	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

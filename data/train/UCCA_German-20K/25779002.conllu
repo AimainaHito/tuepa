@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25779002
+# text = Sie befand sich auf hoher See , eine gute Meile von der Küste entfernt , die von einer spitzen , 500 Meter hohen Anhöhe beherrscht wurde .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A|14:A	_
+2	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	hoher	hoch	ADJ	ADJA	_	6	E	6:E	_
+6	See	See	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	gute	gut	ADJ	ADJA	_	10	E	10:E	_
+10	Meile	Meile	NOUN	NN	_	14	A	14:A	_
+11	von	von	ADP	NN	_	13	R	13:R	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Küste	Küste	NOUN	NN	_	14	A	14:A	_
+14	entfernt	entfernt	ADJ	ADJD	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	PRON	ART	_	25	R	25:R	_
+17	von	von	ADP	NN	_	24	R	24:R	_
+18	einer	ein	DET	ART	_	24	E	24:E	_
+19	spitzen	spitz	ADJ	VVFIN	_	24	E	24:E	_
+20	,	,	PUNCT	$,	_	24	U	24:U	_
+21	500	500	NUM	CARD	_	22	E	22:E	_
+22	Meter	Meter	NOUN	NN	_	24	E	24:E	_
+23	hohen	hoch	ADJ	ADJA	_	22	E	22:E	_
+24	Anhöhe	Anhöhe	NOUN	NN	_	25	A	25:A	_
+25	beherrscht	beherrschen	VERB	ADJD	_	13	E	13:E	_
+26	wurde	werden	AUX	TRUNC	_	25	F	25:F	_
+27	.	.	PUNCT	$.	_	25	U	25:U	_
+

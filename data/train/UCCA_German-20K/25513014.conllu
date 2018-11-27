@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25513014
+# text = Oder aus der Hinüberleitung , die durch ein System unbekannter * Hebel bis zum Unendlichen gesteigert werden konnte ?
+1	Oder	oder	CCONJ	NN	_	4	L	4:L	_
+2	aus	aus	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Hinüberleitung	Hinüberleitung	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	16	R	16:R	_
+7	durch	durch	ADP	APPR	_	9	R	9:R	_
+8	ein	ein	DET	ART	_	9	E	9:E	_
+9	System	System	NOUN	NN	_	16	A	16:A	_
+10	unbekannter	unbekannt	ADJ	ADJA	_	12	E	12:E	_
+11	*	*	NOUN	$(	_	12	U	12:U	_
+12	Hebel	Hebel	PROPN	NE	_	9	E	9:E	_
+13	bis	bis	ADP	APPR	_	16	D	16:D	_
+14	zum	zum	ADP	NN	_	13	Terminal	13:Terminal	_
+15	Unendlichen	Unendlichen	NOUN	ADJA	_	13	Terminal	13:Terminal	_
+16	gesteigert	steigern	VERB	VVPP	_	4	E	4:E	_
+17	werden	werden	AUX	VVFIN	_	16	F	16:F	_
+18	konnte	können	AUX	VMFIN	_	16	D	16:D	_
+19	?	?	PUNCT	$.	_	16	U	16:U	_
+

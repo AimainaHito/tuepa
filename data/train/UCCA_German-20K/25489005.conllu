@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25489005
+# text = Meine an das Licht gewöhnten Augen konnten gar nichts wahrnehmen .
+1	Meine	mein	PRON	PPOSAT	_	6	E	6:E	_
+2	an	an	ADP	APPR	_	5	R	5:R	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Licht	Licht	NOUN	NN	_	5	A	5:A	_
+5	gewöhnten	gewöhnt	ADJ	VVFIN	_	6	E	6:E	_
+6	Augen	Auge	NOUN	NN	_	10	A	10:A	_
+7	konnten	können	AUX	VMFIN	_	10	D	10:D	_
+8	gar	gar	ADV	ADV	_	9	E	9:E	_
+9	nichts	nichts	PRON	NN	_	10	D	10:D	_
+10	wahrnehmen	wahrnehmen	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

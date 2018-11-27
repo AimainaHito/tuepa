@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25650020
+# text = Ich nahm die Leinwand hinweg , und der Verwundete starrte mich mit großen Augen an und ließ mich ohne einen einzigen Klage laut gewähren .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Leinwand	Leinwand	NOUN	NN	_	2	A	2:A	_
+5	hinweg	hinweg	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Verwundete	Verwundete	NOUN	NN	_	0	C	0:C|24:A	_
+10	starrte	starren	VERB	VVFIN	_	2	H	2:H	_
+11	mich	ich	PRON	PRF	_	10	A	10:A	_
+12	mit	mit	ADP	APPR	_	14	R	14:R	_
+13	großen	groß	ADJ	ADJA	_	14	E	14:E	_
+14	Augen	Auge	NOUN	NN	_	10	A	10:A	_
+15	an	an	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	ließ	lassen	VERB	VVFIN	_	24	D	24:D	_
+18	mich	ich	PRON	PPER	_	24	A	24:A	_
+19	ohne	ohne	ADP	NN	_	24	D	24:D	_
+20	einen	ein	DET	ART	_	21	E	21:E	_
+21	einzigen	einzig	ADJ	ADJA	_	23	E	23:E	_
+22	Klage	Klage	NOUN	NN	_	23	E	23:E	_
+23	laut	laut	ADJ	ADJD	_	24	A	24:A	_
+24	gewähren	währen	VERB	VVINF	_	2	H	2:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

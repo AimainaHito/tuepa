@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25674001
+# text = » Also , Herr Professor « , sagte zu mir Kapitän Nemo , » Sie werden mit Ihren Gefährten die Bank von Manaar besuchen , und wenn sich vielleicht ein erwerbsamer Fischer schon dort befindet , so werden wir ihn sehen , wie er ' s macht . «
+1	»	»	PUNCT	$(	_	24	U	24:U	_
+2	Also	also	PROPN	ADV	_	24	L	24:L	_
+3	,	,	PUNCT	$,	_	24	U	24:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	24	G	24:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	zu	zu	ADP	NE	_	10	R	10:R	_
+10	mir	ich	PRON	PPER	_	8	A	8:A	_
+11	Kapitän	Kapitän	PROPN	FM	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	»	»	PUNCT	$(	_	8	U	8:U	_
+15	Sie	Sie|sie	PRON	PPER	_	24	A	24:A	_
+16	werden	werden	AUX	ADV	_	24	F	24:F	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	Ihren	ihr	PRON	PPOSAT	_	19	E	19:E	_
+19	Gefährten	Gefährt|Gefährte	NOUN	NE	_	24	A	24:A	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Bank	Bank	NOUN	NE	_	23	E	23:E	_
+22	von	von	ADP	NE	_	23	R	23:R	_
+23	Manaar	Manaar	PROPN	NE	_	24	A	24:A	_
+24	besuchen	besuchen	VERB	VVINF	_	8	A	8:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	und	und	CCONJ	NE	_	24	L	24:L	_
+27	wenn	wenn	SCONJ	VVFIN	_	24	L	24:L	_
+28	sich	er|es|sie	PRON	PRF	_	24	H	24:H	_
+29	vielleicht	vielleicht	ADV	NE	_	28	D	28:D	_
+30	ein	ein	DET	ART	_	32	E	32:E	_
+31	erwerbsamer	erwerbsam	ADJ	ADJA	_	32	E	32:E	_
+32	Fischer	Fischer	NOUN	NE	_	28	A	28:A	_
+33	schon	schon	ADV	ADV	_	28	D	28:D	_
+34	dort	dort	ADV	ADV	_	28	A	28:A	_
+35	befindet	befinden	VERB	VVFIN	_	28	Terminal	28:Terminal	_
+36	,	,	PUNCT	$,	_	24	U	24:U	_
+37	so	so	ADV	ADV	_	24	L	24:L	_
+38	werden	werden	AUX	VVFIN	_	41	F	41:F	_
+39	wir	wir	PRON	NE	_	41	A	41:A	_
+40	ihn	er	PRON	PPER	_	41	A	41:A	_
+41	sehen	sehen	VERB	VVFIN	_	24	H	24:H	_
+42	,	,	PUNCT	$,	_	41	U	41:U	_
+43	wie	wie	SCONJ	KON	_	47	D	47:D	_
+44	er	er	PRON	PPER	_	47	A	47:A	_
+45	'	'	PUNCT	$,	_	47	U	47:U	_
+46	s	s	NOUN	ADJD	_	47	A	47:A	_
+47	macht	machen	VERB	VVFIN	_	41	A	41:A	_
+48	.	.	PUNCT	$.	_	47	U	47:U	_
+49	«	«	PUNCT	$(	_	47	U	47:U	_
+

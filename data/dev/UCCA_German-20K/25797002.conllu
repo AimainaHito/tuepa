@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25797002
+# text = Wie ich auf die Plattform kam , weiß ich nicht zu sagen .
+1	Wie	wie	SCONJ	KON	_	6	D	6:D	_
+2	ich	ich	PRON	PPER	_	6	A	6:A	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Plattform	Plattform	NOUN	NN	_	6	A	6:A	_
+6	kam	kommen	VERB	VVFIN	_	12	A	12:A	_
+7	,	,	PUNCT	$,	_	12	U	12:U	_
+8	weiß	wissen	VERB	VVFIN	_	12	D	12:D	_
+9	ich	ich	PRON	PPER	_	12	A	12:A	_
+10	nicht	nicht	PART	CARD	_	12	D	12:D	_
+11	zu	zu	PART	NN	_	12	F	12:F	_
+12	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

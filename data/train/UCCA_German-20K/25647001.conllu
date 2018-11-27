@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25647001
+# text = Bildete sich der unbegreifliche Mann ein , ich hätte ein den Gästen der " Nautilus " verborgenes Geheimnis entdeckt ?
+1	Bildete	bilden	VERB	VVFIN	_	0	H	0:H	_
+2	sich	er|es|sie	PRON	PRF	_	1	Terminal	1:Terminal	_
+3	der	der	DET	ART	_	5	E	5:E	_
+4	unbegreifliche	unbegreiflich	ADJ	ADJA	_	5	E	5:E	_
+5	Mann	Mann	NOUN	NN	_	1	A	1:A	_
+6	ein	ein	ADV	PTKVZ	_	1	Terminal	1:Terminal	_
+7	,	,	PUNCT	$,	_	1	U	1:U	_
+8	ich	ich	PRON	PPER	_	19	A	19:A	_
+9	hätte	haben	AUX	VAFIN	_	19	F	19:F	_
+10	ein	ein	ADV	PTKVZ	_	18	E	18:E	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Gästen	Gast	NOUN	NN	_	17	A	17:A	_
+13	der	der	DET	ART	_	15	R	15:R	_
+14	"	"	PUNCT	$(	_	15	U	15:U	_
+15	Nautilus	Nautilus	PROPN	NE	_	12	E	12:E	_
+16	"	"	PUNCT	$(	_	17	U	17:U	_
+17	verborgenes	verborgen	ADJ	ADJA	_	18	E	18:E	_
+18	Geheimnis	Geheimnis	NOUN	NN	_	19	A	19:A	_
+19	entdeckt	entdecken	VERB	ART	_	1	A	1:A	_
+20	?	?	PUNCT	$.	_	19	U	19:U	_
+

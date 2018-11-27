@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 594006
+# text = Some have wondered why he has not verified his Native American ancestry with the Cherokee or any tribe when the information is easily available .
+1	Some	some	DET	DT	_	3	A	3:A	_
+2	have	have	AUX	VBP	_	3	F	3:F	_
+3	wondered	wonder	VERB	VBN	_	0	H	0:H	_
+4	why	why	ADV	WRB	_	8	R	8:R	_
+5	he	he	PRON	PRP	_	8	A	8:A	_
+6	has	have	AUX	VBZ	_	8	F	8:F	_
+7	not	not	PART	RB	_	8	D	8:D	_
+8	verified	verify	VERB	VBN	_	3	A	3:A	_
+9	his	he	PRON	PRP$	_	12	E	12:E	_
+10	Native	native	ADJ	JJ	_	11	E	11:E	_
+11	American	american	ADJ	JJ	_	12	E	12:E	_
+12	ancestry	ancestry	NOUN	NN	_	8	A	8:A	_
+13	with	with	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	Cherokee	Cherokee	PROPN	NNP	_	8	A	8:A	_
+16	or	or	CCONJ	CC	_	15	N	15:N	_
+17	any	any	DET	DT	_	18	E	18:E	_
+18	tribe	tribe	NOUN	NN	_	15	C	15:C	_
+19	when	when	ADV	WRB	_	3	L	3:L	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	information	information	NOUN	NN	_	24	A	24:A	_
+22	is	be	AUX	VBZ	_	24	F	24:F	_
+23	easily	easily	ADV	RB	_	24	D	24:D	_
+24	available	available	ADJ	JJ	_	3	H	3:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

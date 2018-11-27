@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 691014
+# text = He legally changed his name to Bob Dylan , and signed a management contract with Albert Grossman .
+1	He	he	PRON	PRP	_	3	A	3:A|11:A	_
+2	legally	legally	ADV	RB	_	3	D	3:D	_
+3	changed	change	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	name	name	NOUN	NN	_	3	A	3:A	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	Bob	Bob	PROPN	NNP	_	3	A	3:A	_
+8	Dylan	Dylan	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	signed	sign	VERB	VBD	_	3	H	3:H	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	management	management	NOUN	NN	_	14	E	14:E	_
+14	contract	contract	NOUN	NN	_	11	A	11:A	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	Albert	Albert	PROPN	NNP	_	11	A	11:A	_
+17	Grossman	Grossman	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

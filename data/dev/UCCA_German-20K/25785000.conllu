@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25785000
+# text = » Wenn jetzt alles zu Ende ist ! « brummte Ned Land .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	6	R	6:R	_
+3	jetzt	jetzt	ADV	ADV	_	6	D	6:D	_
+4	alles	alle	PRON	PIS	_	6	A	6:A	_
+5	zu	zu	ADP	VVINF	_	6	R	6:R	_
+6	Ende	Ende	NOUN	NN	_	10	A	10:A	_
+7	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	brummte	brummen	VERB	ADJA	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NN	_	10	A	10:A	_
+12	Land	Land	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

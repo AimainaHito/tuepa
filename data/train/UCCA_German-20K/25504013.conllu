@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25504013
+# text = » Herr Professor « , sagte darauf der Kommandant der ›Nautilus‹ , » entschuldigen Sie die in diesem Salon herrschende Unordnung .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Professor	Professor	PROPN	NN	_	14	G	14:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	darauf	darauf	PRON	PAV	_	6	L	6:L	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kommandant	Kommandant	NOUN	NN	_	6	A	6:A	_
+10	der	der	DET	NE	_	11	R	11:R	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	6	U	6:U	_
+13	»	»	PUNCT	$(	_	6	U	6:U	_
+14	entschuldigen	entschuldigen	VERB	VVINF	_	6	A	6:A	_
+15	Sie	Sie|sie	PRON	PPER	_	14	F	14:F	_
+16	die	der	DET	ART	_	21	E	21:E	_
+17	in	in	ADP	APPR	_	20	R	20:R	_
+18	diesem	dies	PRON	PDAT	_	19	E	19:E	_
+19	Salon	Salon	NOUN	NN	_	20	A	20:A	_
+20	herrschende	herrschend	ADJ	ADJA	_	21	E	21:E	_
+21	Unordnung	Unordnung	NOUN	NN	_	14	A	14:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 643006
+# text = The case was settled out of court , with Lennon giving her £ 100,000 and custody of Julian .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	case	case	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	settled	settle	VERB	VBN	_	0	H	0:H	_
+5	out	out	ADP	IN	_	7	R	7:R	_
+6	of	of	ADP	IN	_	7	F	7:F	_
+7	court	court	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	with	with	SCONJ	IN	_	4	L	4:L	_
+10	Lennon	Lennon	PROPN	NNP	_	11	A	11:A	_
+11	giving	give	VERB	VBG	_	4	H	4:H	_
+12	her	she	PRON	PRP$	_	11	A	11:A	_
+13	£	£	SYM	$	_	11	U	11:U	_
+14	100,000	100,000	NUM	CD	_	11	A	11:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	custody	custody	NOUN	NN	_	14	C	14:C	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	Julian	Julian	PROPN	NNP	_	16	C	16:C	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

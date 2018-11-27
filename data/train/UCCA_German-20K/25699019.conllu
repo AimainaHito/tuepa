@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25699019
+# text = » Kapitän , ich höre Ihnen zu , obwohl mein Ohr sich dagegen sträubt . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Kapitän	Kapitän	NOUN	NN	_	5	G	5:G	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	höre	hören	VERB	VVFIN	_	0	H	0:H	_
+6	Ihnen	Sie|sie	PRON	PPER	_	5	A	5:A	_
+7	zu	zu	ADP	NE	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	obwohl	obwohl	SCONJ	NE	_	5	L	5:L	_
+10	mein	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Ohr	Ohr	NOUN	NN	_	12	A	12:A	_
+12	sich	er|es|sie	PRON	PRF	_	5	H	5:H	_
+13	dagegen	dagegen	ADV	PAV	_	12	A	12:A	_
+14	sträubt	sträuben	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+16	«	«	PUNCT	$(	_	12	U	12:U	_
+

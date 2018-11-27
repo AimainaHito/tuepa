@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 461006
+# text = " I went in the front door and came out the front door . They were regular people . They were very touching . And I cried a little bit - my kids did n't cry , but I cried a bit - but I 'm a fairly emotional character anyway . "
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	I	I	PRON	PRP	_	3	A	3:A|9:A	_
+3	went	go	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	front	front	ADJ	JJ	_	7	E	7:E	_
+7	door	door	NOUN	NN	_	3	A	3:A	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	came	come	VERB	VBD	_	3	H	3:H	_
+10	out	out	ADP	IN	_	9	R	9:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	front	front	ADJ	JJ	_	13	E	13:E	_
+13	door	door	NOUN	NN	_	9	A	9:A	_
+14	.	.	PUNCT	.	_	3	U	3:U	_
+15	They	they	PRON	PRP	_	18	A	18:A	_
+16	were	be	AUX	VBD	_	18	F	18:F	_
+17	regular	regular	ADJ	JJ	_	18	E	18:E	_
+18	people	people	NOUN	NNS	_	3	H	3:H	_
+19	.	.	PUNCT	.	_	3	U	3:U	_
+20	They	they	PRON	PRP	_	23	A	23:A	_
+21	were	be	AUX	VBD	_	23	F	23:F	_
+22	very	very	ADV	RB	_	23	D	23:D	_
+23	touching	touching	VERB	VBG	_	3	H	3:H	_
+24	.	.	PUNCT	.	_	3	U	3:U	_
+25	And	and	CCONJ	CC	_	3	L	3:L	_
+26	I	I	PRON	PRP	_	27	A	27:A	_
+27	cried	cry	VERB	VBD	_	3	H	3:H	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	little	little	ADJ	JJ	_	30	E	30:E	_
+30	bit	bit	NOUN	NN	_	27	D	27:D	_
+31	-	-	PUNCT	,	_	3	U	3:U	_
+32	my	my	PRON	PRP$	_	33	E	33:E	_
+33	kids	kid	NOUN	NNS	_	36	A	36:A	_
+34	did	do	AUX	VBD	_	36	F	36:F	_
+35	n't	not	PART	RB	_	36	D	36:D	_
+36	cry	cry	VERB	VB	_	3	H	3:H	_
+37	,	,	PUNCT	,	_	3	U	3:U	_
+38	but	but	CCONJ	CC	_	3	L	3:L	_
+39	I	I	PRON	PRP	_	40	A	40:A	_
+40	cried	cry	VERB	VBD	_	3	H	3:H	_
+41	a	a	DET	DT	_	42	E	42:E	_
+42	bit	bit	NOUN	NN	_	40	D	40:D	_
+43	-	-	PUNCT	,	_	3	U	3:U	_
+44	but	but	CCONJ	CC	_	3	L	3:L	_
+45	I	I	PRON	PRP	_	50	A	50:A	_
+46	'm	be	AUX	VBP	_	50	F	50:F	_
+47	a	a	DET	DT	_	48	E	48:E	_
+48	fairly	fairly	ADV	RB	_	50	D	50:D	_
+49	emotional	emotional	ADJ	JJ	_	50	E	50:E	_
+50	character	character	NOUN	NN	_	3	H	3:H	_
+51	anyway	anyway	ADV	RB	_	50	F	50:F	_
+52	.	.	PUNCT	.	_	50	U	50:U	_
+53	"	"	PUNCT	''	_	50	U	50:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25443004
+# text = Allmählich bekam Ned Lust zu plaudern , und ich hörte ihn gern von seinen Abenteuern in den Polar meeren erzählen .
+1	Allmählich	allmählich	ADJ	ADJD	_	6	D	6:D	_
+2	bekam	bekommen	VERB	VVFIN	_	4	F	4:F	_
+3	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+4	Lust	Lust	PROPN	NE	_	6	D	6:D	_
+5	zu	zu	PART	NE	_	6	F	6:F	_
+6	plaudern	plaudern	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	ich	ich	PRON	PPER	_	10	A	10:A	_
+10	hörte	hören	VERB	VVFIN	_	6	H	6:H	_
+11	ihn	er	PRON	PPER	_	20	A	20:A	_
+12	gern	gern	ADV	ADV	_	10	D	10:D	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	seinen	sein	DET	PPOSAT	_	15	R	15:R	_
+15	Abenteuern	Abenteuer	NOUN	NN	_	20	A	20:A	_
+16	in	in	ADP	APPR	_	19	R	19:R	_
+17	den	der	DET	ART	_	19	E	19:E	_
+18	Polar	Polar	NOUN	NN	_	19	E	19:E	_
+19	meeren	me	ADJ	VVINF	_	15	E	15:E	_
+20	erzählen	erzählen	VERB	VVINF	_	10	A	10:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

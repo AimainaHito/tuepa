@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25621005
+# text = Ned Land war vor Freude außer sich .
+1	Ned	Ned	PROPN	NN	_	6	A	6:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	vor	vor	ADP	NN	_	5	R	5:R	_
+5	Freude	Freude	NOUN	NN	_	6	A	6:A	_
+6	außer	außer	ADP	APPR	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

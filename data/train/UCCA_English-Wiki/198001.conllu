@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 198001
+# text = Charlie Wilson 's War is about the colorful Texas congressman Charlie Wilson who funded the CIA 's secret war against the former Soviet Union in Afghanistan .
+1	Charlie	Charlie	PROPN	NNP	_	5	A	5:A	_
+2	Wilson	Wilson	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	's	's	PART	POS	_	1	Terminal	1:Terminal	_
+4	War	War	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	is	be	AUX	VBZ	_	0	H	0:H	_
+6	about	about	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	colorful	colorful	ADJ	JJ	_	10	E	10:E	_
+9	Texas	Texas	PROPN	NNP	_	10	E	10:E	_
+10	congressman	congressman	PROPN	NNP	_	11	E	11:E	_
+11	Charlie	Charlie	PROPN	NNP	_	5	A	5:A	_
+12	Wilson	Wilson	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	who	who	PRON	WP	_	14	F	14:F	_
+14	funded	fund	VERB	VBD	_	11	E	11:E	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	CIA	CIA	PROPN	NNP	_	19	A	19:A	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	secret	secret	ADJ	JJ	_	19	E	19:E	_
+19	war	war	NOUN	NN	_	14	A	14:A	_
+20	against	against	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	former	former	ADJ	JJ	_	23	E	23:E	_
+23	Soviet	Soviet	PROPN	NNP	_	19	A	19:A	_
+24	Union	Union	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Afghanistan	Afghanistan	PROPN	NNP	_	19	A	19:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

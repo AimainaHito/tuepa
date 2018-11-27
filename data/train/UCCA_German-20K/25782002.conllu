@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25782002
+# text = Offenbar saß die ›Nautilus‹ fest und hatte sich auf die Seite gelegt .
+1	Offenbar	offenbar	ADJ	NE	_	2	G	2:G	_
+2	saß	sitzen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|8:A	_
+5	fest	fest	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	hatte	haben	AUX	VAFIN	_	8	F	8:F	_
+8	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Seite	Seite	NOUN	NN	_	8	A	8:A	_
+12	gelegt	legen	VERB	VVPP	_	8	Terminal	8:Terminal	_
+13	.	.	PUNCT	$.	_	8	U	8:U	_
+

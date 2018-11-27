@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25805013
+# text = Wir hatten , der Kanadier , Conseil und ich , darüber eine lange Unterredung .
+1	Wir	wir	PRON	NE	_	14	A	14:A	_
+2	hatten	haben	VERB	VAFIN	_	14	F	14:F	_
+3	,	,	PUNCT	$,	_	14	U	14:U	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Kanadier	Kanadier	NOUN	NN	_	1	E	1:E	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Conseil	Conseil	NOUN	NE	_	5	C	5:C	_
+8	und	und	CCONJ	NE	_	5	N	5:N	_
+9	ich	ich	PRON	PPER	_	5	C	5:C	_
+10	,	,	PUNCT	$,	_	14	U	14:U	_
+11	darüber	darüber	ADV	PAV	_	14	A	14:A	_
+12	eine	ein	DET	ART	_	14	E	14:E	_
+13	lange	lang	ADJ	ADJA	_	14	D	14:D	_
+14	Unterredung	Unterredung	NOUN	NN	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25757012
+# text = » Das scheint mir übertrieben « , erwiderte ich . » Die hiesigen , gleich den Pottfischen , sind im allgemeinen kleiner wie die nördlichen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	PDS	_	3	A	3:A|5:A	_
+3	scheint	scheinen	AUX	VVFIN	_	8	A	8:A	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	übertrieben	übertreiben	VERB	ADJD	_	3	H	3:H	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	Die	der	DET	ART	_	13	E	13:E	_
+13	hiesigen	hiesig	ADJ	VVINF	_	22	A	22:A	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	gleich	gleich	SCONJ	ADV	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Pottfischen	Pottfischen	NOUN	NE	_	3	H	3:H	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	sind	sein	AUX	NN	_	22	F	22:F	_
+20	im	im	ADV	NE	_	21	R	21:R	_
+21	allgemeinen	allgemein	ADJ	ADJA	_	22	D	22:D	_
+22	kleiner	klein	ADJ	ADJD	_	3	H	3:H	_
+23	wie	wie	ADP	KON	_	25	R	25:R	_
+24	die	der	DET	ART	_	25	E	25:E	_
+25	nördlichen	nördlich	ADJ	ADJA	_	3	H	3:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+27	«	«	PUNCT	$(	_	25	U	25:U	_
+

@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 180003
+# text = Gyllenhaal achieved recognition in a supporting role in the independent cult film , Donnie Darko ( 2001 ) . Her breakthrough role was in the sadomasochistic romance , Secretary ( 2002 ) , for which she received critical acclaim and a Golden Globe nomination .
+1	Gyllenhaal	Gyllenhaal	ADJ	JJ	_	3	A	3:A	_
+2	achieved	achieve	VERB	VBN	_	3	D	3:D	_
+3	recognition	recognition	NOUN	NN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	supporting	support	VERB	VBG	_	7	E	7:E	_
+7	role	role	NOUN	NN	_	3	A	3:A	_
+8	in	in	ADP	IN	_	14	R	14:R	_
+9	the	the	DET	DT	_	14	E	14:E	_
+10	independent	independent	ADJ	JJ	_	14	E	14:E	_
+11	cult	cult	NOUN	NN	_	12	E	12:E	_
+12	film	film	NOUN	NN	_	14	E	14:E	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	Donnie	Donnie	PROPN	NNP	_	3	A	3:A	_
+15	Darko	Darko	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+17	2001	2001	NUM	CD	_	14	E	14:E	_
+18	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+19	.	.	PUNCT	.	_	3	U	3:U	_
+20	Her	she	PRON	PRP$	_	22	A	22:A	_
+21	breakthrough	breakthrough	ADJ	JJ	_	22	E	22:E	_
+22	role	role	NOUN	NN	_	29	A	29:A	_
+23	was	be	AUX	VBD	_	29	F	29:F	_
+24	in	in	ADP	IN	_	29	R	29:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	sadomasochistic	sadomasochistic	ADJ	JJ	_	27	E	27:E	_
+27	romance	romance	NOUN	NN	_	29	E	29:E	_
+28	,	,	PUNCT	,	_	29	U	29:U	_
+29	Secretary	Secretary	PROPN	NNP	_	3	H	3:H	_
+30	(	(	PUNCT	-LRB-	_	29	U	29:U	_
+31	2002	2002	NUM	CD	_	29	E	29:E	_
+32	)	)	PUNCT	-RRB-	_	29	U	29:U	_
+33	,	,	PUNCT	,	_	29	U	29:U	_
+34	for	for	ADP	IN	_	37	R	37:R	_
+35	which	which	PRON	WDT	_	34	F	34:F	_
+36	she	she	PRON	PRP	_	37	A	37:A	_
+37	received	receive	VERB	VBD	_	29	E	29:E	_
+38	critical	critical	ADJ	JJ	_	39	E	39:E	_
+39	acclaim	acclaim	NOUN	NN	_	37	A	37:A	_
+40	and	and	CCONJ	CC	_	39	N	39:N	_
+41	a	a	DET	DT	_	42	E	42:E	_
+42	Golden	golden	NOUN	NN	_	39	C	39:C	_
+43	Globe	Globe	NOUN	NN	_	42	Terminal	42:Terminal	_
+44	nomination	nomination	NOUN	NN	_	42	E	42:E	_
+45	.	.	PUNCT	.	_	42	U	42:U	_
+

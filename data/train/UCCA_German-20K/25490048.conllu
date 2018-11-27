@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25490048
+# text = » Ich protestiere dagegen « , erwiderte ich .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	protestiere	protestieren	VERB	NN	_	7	A	7:A	_
+4	dagegen	dagegen	ADV	PAV	_	3	A	3:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

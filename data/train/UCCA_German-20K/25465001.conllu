@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25465001
+# text = Die ›Abraham Lincoln‹ hatte , nachdem sie alles zur Erreichung ihres Zwecks getan , sich nichts vor zu werfen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Abraham	›Abraham	PROPN	NE	_	17	A	17:A	_
+3	Lincoln‹	Lincoln‹	NOUN	NE	_	2	Terminal	2:Terminal	_
+4	hatte	haben	VERB	VAFIN	_	17	D	17:D	_
+5	,	,	PUNCT	$,	_	17	U	17:U	_
+6	nachdem	nachdem	SCONJ	XY	_	17	L	17:L	_
+7	sie	sie	PRON	TRUNC	_	13	A	13:A|10:A	_
+8	alles	alle	PRON	PIS	_	13	A	13:A	_
+9	zur	zur	ADV	NN	_	10	R	10:R	_
+10	Erreichung	Erreichung	NOUN	NN	_	13	A	13:A	_
+11	ihres	ihr	DET	PPOSAT	_	12	R	12:R	_
+12	Zwecks	zweck	NOUN	NE	_	10	A	10:A	_
+13	getan	tun	VERB	ADJD	_	17	H	17:H	_
+14	,	,	PUNCT	$,	_	17	U	17:U	_
+15	sich	er|es|sie	PRON	PRF	_	17	A	17:A	_
+16	nichts	nichts	PRON	ADJA	_	17	D	17:D	_
+17	vor	vor	ADP	NN	_	0	H	0:H	_
+18	zu	zu	PART	VVINF	_	17	F	17:F	_
+19	werfen	werfen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+20	.	.	PUNCT	$.	_	17	U	17:U	_
+

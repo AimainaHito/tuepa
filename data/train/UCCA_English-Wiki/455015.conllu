@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 455015
+# text = The program alleged that the federal government was covertly supporting the Khmer Rouge 's return to power in the Asian nation , a charge that the Bush administration initially denied .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	program	program	NOUN	NN	_	3	A	3:A	_
+3	alleged	allege	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	10	F	10:F	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	federal	federal	ADJ	JJ	_	7	E	7:E	_
+7	government	government	NOUN	NN	_	10	A	10:A	_
+8	was	be	AUX	VBD	_	10	F	10:F	_
+9	covertly	covertly	ADV	RB	_	10	D	10:D	_
+10	supporting	support	VERB	VBG	_	3	A	3:A	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	Khmer	Khmer	PROPN	NNP	_	17	A	17:A	_
+13	Rouge	Rouge	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	's	's	PART	POS	_	12	R	12:R	_
+15	return	return	NOUN	NN	_	17	E	17:E	_
+16	to	to	ADP	IN	_	17	F	17:F	_
+17	power	power	NOUN	NN	_	10	A	10:A	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	Asian	asian	ADJ	JJ	_	21	E	21:E	_
+21	nation	nation	NOUN	NN	_	17	A	17:A	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	charge	charge	NOUN	NN	_	30	A	30:A	_
+25	that	that	SCONJ	IN	_	30	F	30:F	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	Bush	Bush	PROPN	NNP	_	28	E	28:E	_
+28	administration	administration	NOUN	NN	_	30	A	30:A	_
+29	initially	initially	ADV	RB	_	30	D	30:D	_
+30	denied	deny	VERB	VBD	_	3	H	3:H	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 381000
+# text = In 2012 , Gyllenhaal starred alongside Michael Peña in David Ayer 's film End of Watch about two Los Angeles street cops .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2012	2012	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	alongside	alongside	ADP	IN	_	7	R	7:R	_
+7	Michael	Michael	PROPN	NNP	_	5	A	5:A	_
+8	Peña	Peña	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	in	in	ADP	IN	_	14	R	14:R	_
+10	David	David	PROPN	NNP	_	14	E	14:E	_
+11	Ayer	Ayer	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	's	's	PART	POS	_	10	E	10:E	_
+13	film	film	NOUN	NN	_	14	E	14:E	_
+14	End	end	PROPN	NNP	_	5	A	5:A	_
+15	of	of	ADP	IN	_	14	Terminal	14:Terminal	_
+16	Watch	watch	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	about	about	ADP	IN	_	22	R	22:R	_
+18	two	two	NUM	CD	_	22	E	22:E	_
+19	Los	Los	PROPN	NNP	_	22	E	22:E	_
+20	Angeles	Angeles	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	street	street	NOUN	NN	_	22	E	22:E	_
+22	cops	cop	NOUN	NNS	_	14	E	14:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

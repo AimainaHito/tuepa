@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25774007
+# text = Da Kapitän Nemo noch nicht erschienen war , so stieg ich mit Conseil in das Boot und setzte ans Land .
+1	Da	da	SCONJ	KOUS	_	6	L	6:L	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+4	noch	noch	ADV	XY	_	5	E	5:E	_
+5	nicht	nicht	PART	CARD	_	6	D	6:D	_
+6	erschienen	erscheinen	VERB	VVFIN	_	0	H	0:H	_
+7	war	sein	AUX	ADV	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	so	so	ADV	ADV	_	6	L	6:L	_
+10	stieg	steigen	VERB	VVFIN	_	6	H	6:H	_
+11	ich	ich	PRON	PPER	_	0	C	0:C|18:A	_
+12	mit	mit	ADP	APPR	_	11	R	11:R	_
+13	Conseil	Conseil	NOUN	NE	_	11	C	11:C	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	das	der	DET	ART	_	16	E	16:E	_
+16	Boot	Boot	NOUN	NN	_	10	A	10:A	_
+17	und	und	CCONJ	NE	_	6	L	6:L	_
+18	setzte	setzen	VERB	VVFIN	_	6	H	6:H	_
+19	ans	ans	ADP	NE	_	20	R	20:R	_
+20	Land	Land	NOUN	NN	_	18	A	18:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

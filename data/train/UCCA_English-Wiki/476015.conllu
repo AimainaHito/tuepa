@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 476015
+# text = Johnson sold his ownership stake in the Lakers in October 2010 .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A	_
+2	sold	sell	VERB	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	ownership	ownership	NOUN	NN	_	5	E	5:E	_
+5	stake	stake	VERB	VBD	_	2	A	2:A	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Lakers	Laker	PROPN	NNPS	_	5	E	5:E	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	October	October	PROPN	NNP	_	11	E	11:E	_
+11	2010	2010	NUM	CD	_	2	D	2:D	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

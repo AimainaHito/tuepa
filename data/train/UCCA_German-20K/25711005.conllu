@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25711005
+# text = » Richtig , Herr Arronax , das heißt verständig gesprochen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Richtig	richtig	PROPN	ADJD	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Arronax	Arronax	PROPN	NE	_	2	G	2:G	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	das	der	PRON	PDS	_	8	F	8:F	_
+8	heißt	heißen	AUX	VVFIN	_	2	H	2:H	_
+9	verständig	verständig	ADJ	ADJD	_	10	D	10:D	_
+10	gesprochen	sprechen	VERB	VVPP	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	«	«	PUNCT	$(	_	10	U	10:U	_
+

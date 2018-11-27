@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 538000
+# text = Jack spent much of his youth in Youngstown .
+1	Jack	Jack	PROPN	NNP	_	2	A	2:A	_
+2	spent	spend	VERB	VBD	_	0	H	0:H	_
+3	much	much	ADV	RB	_	6	E	6:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	his	he	PRON	PRP$	_	6	A	6:A	_
+6	youth	youth	NOUN	NN	_	2	A	2:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Youngstown	Youngstown	PROPN	NNP	_	2	A	2:A	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25704000
+# text = Das Boot kam dem Tier vorsichtig bis auf 3 Ellen nah .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	3	A	3:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Tier	Tier	NOUN	NN	_	3	A	3:A	_
+6	vorsichtig	vorsichtig	ADJ	ADJD	_	3	D	3:D	_
+7	bis	bis	ADP	APPR	_	10	R	10:R	_
+8	auf	auf	ADP	APPR	_	7	Terminal	7:Terminal	_
+9	3	3	NUM	CARD	_	10	E	10:E	_
+10	Ellen	Ellen	NOUN	NN	_	3	A	3:A	_
+11	nah	nah	ADJ	ADJD	_	3	Terminal	3:Terminal	_
+12	.	.	PUNCT	$.	_	3	U	3:U	_
+

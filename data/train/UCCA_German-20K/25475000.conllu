@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25475000
+# text = » Kann ich ihm nur auf 4 Harpunenlänge nah kommen « , versetzte der Kanadier , » so wird 's wohl mich anhören müssen !
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Kann	können	AUX	VMFIN	_	9	D	9:D	_
+3	ich	ich	PRON	PPER	_	9	A	9:A	_
+4	ihm	er	PRON	PPER	_	9	A	9:A	_
+5	nur	nur	ADV	NE	_	9	D	9:D	_
+6	auf	auf	ADP	APPR	_	7	R	7:R	_
+7	4	4	NUM	CARD	_	9	A	9:A	_
+8	Harpunenlänge	Harpunenlänge	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	nah	nah	ADJ	ADJD	_	13	A	13:A	_
+10	kommen	kommen	VERB	VVINF	_	9	Terminal	9:Terminal	_
+11	«	«	PUNCT	$(	_	13	U	13:U	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Kanadier	Kanadier	NOUN	NN	_	13	A	13:A	_
+16	,	,	PUNCT	$,	_	13	U	13:U	_
+17	»	»	PUNCT	$(	_	13	U	13:U	_
+18	so	so	ADV	ADV	_	9	L	9:L	_
+19	wird	werden	AUX	VAFIN	_	23	F	23:F	_
+20	's	es	PART	PPER	_	23	A	23:A	_
+21	wohl	wohl	ADV	ADV	_	23	D	23:D	_
+22	mich	ich	PRON	PPER	_	23	A	23:A	_
+23	anhören	anhören	VERB	VVINF	_	9	H	9:H	_
+24	müssen	müssen	AUX	VMFIN	_	23	D	23:D	_
+25	!	!	PUNCT	$.	_	23	U	23:U	_
+

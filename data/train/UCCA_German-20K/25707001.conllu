@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25707001
+# text = » So kommen Sie . Da werden Sie alles sehen , was man von dieser zugleich unterirdischen und unterseeischen Fahrt sehen kann . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	So	so	ADV	ADV	_	3	L	3:L	_
+3	kommen	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+6	Da	da	ADV	ADV	_	10	A	10:A	_
+7	werden	werden	AUX	VVFIN	_	10	F	10:F	_
+8	Sie	Sie|sie	PRON	PPER	_	10	A	10:A	_
+9	alles	alle	PRON	PIS	_	10	A	10:A	_
+10	sehen	sehen	VERB	VVFIN	_	3	H	3:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	was	was	PRON	NE	_	21	R	21:R	_
+13	man	man	PRON	PIS	_	21	A	21:A	_
+14	von	von	ADP	NN	_	20	R	20:R	_
+15	dieser	dies	PRON	PDS	_	20	E	20:E	_
+16	zugleich	zugleich	ADV	NN	_	17	E	17:E	_
+17	unterirdischen	unterirdischen	ADJ	ADJA	_	20	E	20:E	_
+18	und	und	CCONJ	NN	_	17	N	17:N	_
+19	unterseeischen	unterseeisch	ADJ	ADJA	_	17	C	17:C	_
+20	Fahrt	Fahrt	NOUN	NN	_	21	A	21:A	_
+21	sehen	sehen	VERB	VVINF	_	9	E	9:E	_
+22	kann	können	AUX	VMFIN	_	21	D	21:D	_
+23	.	.	PUNCT	$.	_	21	U	21:U	_
+24	«	«	PUNCT	$(	_	21	U	21:U	_
+

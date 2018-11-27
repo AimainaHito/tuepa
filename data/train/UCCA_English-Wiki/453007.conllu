@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 453007
+# text = In the late 1970s , a disastrous pairing of Harry Reasoner and Barbara Walters at the anchor desk left the network searching for new ideas .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	late	late	ADJ	JJ	_	4	E	4:E	_
+4	1970s	1970	NOUN	NNS	_	22	D	22:D	_
+5	,	,	PUNCT	,	_	22	U	22:U	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	disastrous	disastrous	ADJ	JJ	_	8	D	8:D	_
+8	pairing	pairing	NOUN	NN	_	22	A	22:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	Harry	Harry	PROPN	NNP	_	8	A	8:A	_
+11	Reasoner	Reasoner	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	Barbara	Barbara	PROPN	NNP	_	10	C	10:C	_
+14	Walters	Walters	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+15	at	at	ADP	IN	_	18	R	18:R	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	anchor	anchor	NOUN	NN	_	18	E	18:E	_
+18	desk	desk	NOUN	NN	_	8	A	8:A	_
+19	left	leave	VERB	VBD	_	22	D	22:D	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	network	network	NOUN	NN	_	22	A	22:A	_
+22	searching	search	VERB	VBG	_	0	H	0:H	_
+23	for	for	ADP	IN	_	25	R	25:R	_
+24	new	new	ADJ	JJ	_	25	E	25:E	_
+25	ideas	idea	NOUN	NNS	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25600006
+# text = Ich erkannte , irrte ich nicht , Irländer , Franzosen , einige Slawen , einen Griechen und einen Kandioten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erkannte	erkennen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	irrte	irren	VERB	VVFIN	_	2	H	2:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	nicht	nicht	PART	XY	_	4	D	4:D	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	Irländer	Irländer	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	Franzosen	Franzose	NOUN	NN	_	8	C	8:C	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	einige	einige	PRON	PIS	_	13	E	13:E	_
+13	Slawen	Slawe	NOUN	PWS	_	8	C	8:C	_
+14	,	,	PUNCT	$,	_	8	U	8:U	_
+15	einen	ein	DET	ART	_	16	E	16:E	_
+16	Griechen	Grieche	NOUN	NN	_	8	C	8:C	_
+17	und	und	CCONJ	NE	_	8	N	8:N	_
+18	einen	ein	DET	ART	_	19	E	19:E	_
+19	Kandioten	Kandiot	NOUN	NN	_	8	C	8:C	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

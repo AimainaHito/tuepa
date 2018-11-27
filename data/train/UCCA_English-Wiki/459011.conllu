@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 459011
+# text = With another presidential election taking place in 2000 , Jennings had some more political reporting duties that year .
+1	With	with	ADP	IN	_	6	L	6:L	_
+2	another	another	DET	DT	_	4	E	4:E	_
+3	presidential	presidential	ADJ	JJ	_	4	E	4:E	_
+4	election	election	NOUN	NN	_	6	A	6:A	_
+5	taking	take	VERB	VBG	_	6	F	6:F	_
+6	place	place	NOUN	NN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	2000	2000	NUM	CD	_	6	D	6:D	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	Jennings	Jennings	PROPN	NNP	_	11	A	11:A	_
+11	had	have	VERB	VBD	_	6	H	6:H	_
+12	some	some	DET	DT	_	13	E	13:E	_
+13	more	more	ADV	RBR	_	16	E	16:E	_
+14	political	political	ADJ	JJ	_	16	E	16:E	_
+15	reporting	reporting	NOUN	NN	_	16	E	16:E	_
+16	duties	duty	NOUN	NNS	_	11	A	11:A	_
+17	that	that	DET	DT	_	18	E	18:E	_
+18	year	year	NOUN	NN	_	11	D	11:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

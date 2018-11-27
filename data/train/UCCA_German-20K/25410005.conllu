@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25410005
+# text = Die » Frage des Ungeheuers « erhitzte alle Gemüter .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Frage	Frage	NOUN	NN	_	7	A	7:A	_
+4	des	der	DET	ART	_	3	Terminal	3:Terminal	_
+5	Ungeheuers	Ungeheuer	NOUN	NN	_	3	Terminal	3:Terminal	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	erhitzte	erhitzen	VERB	VVFIN	_	0	H	0:H	_
+8	alle	alle	PRON	PIAT	_	9	E	9:E	_
+9	Gemüter	Gemüt	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

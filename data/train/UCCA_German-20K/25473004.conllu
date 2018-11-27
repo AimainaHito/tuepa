@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25473004
+# text = Um Mitternacht jedoch verschwand er ; oder , richtiger zu sagen , er » verlosch « als wie ein gewaltiger Leucht wurm .
+1	Um	um	ADP	APPR	_	2	R	2:R	_
+2	Mitternacht	Mitternacht	NOUN	NN	_	4	D	4:D	_
+3	jedoch	jedoch	ADV	ADV	_	4	L	4:L	_
+4	verschwand	verschwinden	VERB	VVFIN	_	0	H	0:H	_
+5	er	er	PRON	PPER	_	4	A	4:A	_
+6	;	;	PUNCT	$.	_	4	U	4:U	_
+7	oder	oder	CCONJ	CARD	_	4	L	4:L	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	richtiger	richtig	ADJ	ADJD	_	11	D	11:D	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	sagen	sagen	VERB	VVINF	_	4	H	4:H	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	er	er	PRON	PPER	_	15	A	15:A	_
+14	»	»	PUNCT	$(	_	15	U	15:U	_
+15	verlosch	verlosch	ADJ	ADJD	_	4	H	4:H	_
+16	«	«	PUNCT	$(	_	22	U	22:U	_
+17	als	als	ADP	KOKOM	_	22	R	22:R	_
+18	wie	wie	ADP	NN	_	17	Terminal	17:Terminal	_
+19	ein	ein	DET	ART	_	22	E	22:E	_
+20	gewaltiger	gewaltig	ADJ	ADJA	_	22	E	22:E	_
+21	Leucht	Leucht	NOUN	NN	_	22	E	22:E	_
+22	wurm	wurm	ADV	NN	_	4	H	4:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

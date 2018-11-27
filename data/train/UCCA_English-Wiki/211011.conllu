@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 211011
+# text = In an interview , he said that all of his children from his second marriage had bar or bat mitzvahs and that he is a more observant Jew now than when he was younger ; he also lamented that he is not fluent in Hebrew .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	an	a	DET	DT	_	3	E	3:E	_
+3	interview	interview	NOUN	NN	_	6	A	6:A	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	said	say	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	16	F	16:F	_
+8	all	all	DET	DT	_	11	E	11:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	his	he	PRON	PRP$	_	11	E	11:E	_
+11	children	child	NOUN	NNS	_	16	A	16:A	_
+12	from	from	ADP	IN	_	15	R	15:R	_
+13	his	he	PRON	PRP$	_	15	E	15:E	_
+14	second	second	ADJ	JJ	_	15	E	15:E	_
+15	marriage	marriage	NOUN	NN	_	11	E	11:E	_
+16	had	have	VERB	VBD	_	6	A	6:A	_
+17	bar	bar	NOUN	NN	_	20	E	20:E	_
+18	or	or	CCONJ	CC	_	17	N	17:N	_
+19	bat	bat	NOUN	NN	_	17	C	17:C	_
+20	mitzvahs	mitzva	NOUN	NNS	_	16	A	16:A	_
+21	and	and	CCONJ	CC	_	16	L	16:L	_
+22	that	that	SCONJ	IN	_	28	F	28:F	_
+23	he	he	PRON	PRP	_	28	A	28:A	_
+24	is	be	AUX	VBZ	_	28	F	28:F	_
+25	a	a	DET	DT	_	28	E	28:E	_
+26	more	more	ADV	RBR	_	27	E	27:E	_
+27	observant	observant	ADJ	JJ	_	28	E	28:E	_
+28	Jew	Jew	PROPN	NNP	_	16	H	16:H	_
+29	now	now	ADV	RB	_	28	D	28:D	_
+30	than	than	SCONJ	IN	_	28	L	28:L	_
+31	when	when	ADV	WRB	_	30	R	30:R	_
+32	he	he	PRON	PRP	_	34	A	34:A	_
+33	was	be	AUX	VBD	_	34	F	34:F	_
+34	younger	younger	ADJ	JJR	_	28	H	28:H	_
+35	;	;	PUNCT	,	_	6	U	6:U	_
+36	he	he	PRON	PRP	_	38	A	38:A	_
+37	also	also	ADV	RB	_	38	D	38:D	_
+38	lamented	lament	VERB	VBD	_	6	H	6:H	_
+39	that	that	SCONJ	IN	_	43	D	43:D	_
+40	he	he	PRON	PRP	_	43	A	43:A	_
+41	is	be	AUX	VBZ	_	43	F	43:F	_
+42	not	not	PART	RB	_	43	D	43:D	_
+43	fluent	fluent	ADJ	JJ	_	38	A	38:A	_
+44	in	in	ADP	IN	_	45	R	45:R	_
+45	Hebrew	Hebrew	PROPN	NNP	_	43	E	43:E	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

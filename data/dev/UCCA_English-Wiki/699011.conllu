@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 699011
+# text = Dylan 's biographers have written that the crash offered Dylan the much - needed chance to escape from the pressures that had built up around him .
+1	Dylan	Dylan	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	biographers	biographer	NOUN	NNS	_	5	A	5:A	_
+4	have	have	AUX	VBP	_	5	F	5:F	_
+5	written	write	VERB	VBN	_	0	H	0:H	_
+6	that	that	SCONJ	IN	_	9	F	9:F	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	crash	crash	NOUN	NN	_	9	A	9:A	_
+9	offered	offer	VERB	VBD	_	5	A	5:A	_
+10	Dylan	Dylan	PROPN	NNP	_	9	A	9:A|17:A	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	much	much	ADJ	JJ	_	15	E	15:E	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	needed	need	VERB	VBN	_	12	Terminal	12:Terminal	_
+15	chance	chance	NOUN	NN	_	9	A	9:A	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	escape	escape	VERB	VB	_	15	E	15:E	_
+18	from	from	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	pressures	pressure	NOUN	NNS	_	17	A	17:A	_
+21	that	that	PRON	WDT	_	23	R	23:R	_
+22	had	have	AUX	VBD	_	23	F	23:F	_
+23	built	build	VERB	VBN	_	20	E	20:E	_
+24	up	up	ADP	RP	_	23	Terminal	23:Terminal	_
+25	around	around	ADP	IN	_	26	R	26:R	_
+26	him	he	PRON	PRP	_	23	A	23:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

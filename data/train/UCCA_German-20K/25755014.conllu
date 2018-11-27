@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25755014
+# text = » Und mehr noch Ergebung « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Und	und	CCONJ	NN	_	5	L	5:L	_
+3	mehr	mehr	ADV	ADV	_	5	D	5:D	_
+4	noch	noch	ADV	CARD	_	3	Terminal	3:Terminal	_
+5	Ergebung	Ergebung	NOUN	NN	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NE	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25643005
+# text = » Mein Ohr lauscht Ihnen , Kapitän . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Ohr	Ohr	PROPN	NN	_	4	A	4:A	_
+4	lauscht	lauschen	VERB	VVFIN	_	0	H	0:H	_
+5	Ihnen	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	Kapitän	Kapitän	NOUN	NN	_	4	G	4:G	_
+8	.	.	PUNCT	$.	_	4	U	4:U	_
+9	«	«	PUNCT	$(	_	4	U	4:U	_
+

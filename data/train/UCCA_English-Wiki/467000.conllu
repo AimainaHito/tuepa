@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 467000
+# text = Earvin Johnson Jr . was born in Lansing , Michigan to Earvin Sr . , a General Motors assembly worker , and Christine , a schoolcustodian .
+1	Earvin	Earvin	PROPN	NNP	_	6	A	6:A	_
+2	Johnson	Johnson	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Jr	Jr	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	.	.	PUNCT	.	_	6	U	6:U	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	born	bear	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Lansing	Lansing	PROPN	NNP	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	Michigan	Michigan	PROPN	NNP	_	8	E	8:E	_
+11	to	to	ADP	IN	_	12	R	12:R	_
+12	Earvin	Earvin	PROPN	NNP	_	6	A	6:A	_
+13	Sr	sr	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	General	General	PROPN	NNP	_	20	A	20:A	_
+18	Motors	Motors	PROPN	NNPS	_	17	Terminal	17:Terminal	_
+19	assembly	assembly	ADV	RB	_	20	E	20:E	_
+20	worker	worker	ADV	RBR	_	12	E	12:E	_
+21	,	,	PUNCT	,	_	12	U	12:U	_
+22	and	and	CCONJ	CC	_	12	N	12:N	_
+23	Christine	Christine	PROPN	NNP	_	12	C	12:C	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	schoolcustodian	schoolcustodian	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

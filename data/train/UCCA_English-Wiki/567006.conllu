@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 567006
+# text = Presley undertook three brief tours during the year , continuing to generate a crazed audience response .
+1	Presley	Presley	PRON	PRP	_	2	A	2:A|12:A	_
+2	undertook	undertake	VERB	VBP	_	0	H	0:H	_
+3	three	three	NUM	CD	_	5	E	5:E	_
+4	brief	brief	NOUN	NN	_	5	E	5:E	_
+5	tours	tour	NOUN	NNS	_	2	A	2:A	_
+6	during	during	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	year	year	NOUN	NN	_	2	D	2:D	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	continuing	continue	VERB	VBG	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	generate	generate	VERB	VB	_	2	H	2:H	_
+13	a	a	DET	DT	_	16	E	16:E	_
+14	crazed	craze	VERB	VBN	_	16	E	16:E	_
+15	audience	audience	NOUN	NN	_	16	E	16:E	_
+16	response	response	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

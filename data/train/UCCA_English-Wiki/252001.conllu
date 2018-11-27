@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 252001
+# text = It was the first major Off - Broadway revival of the play since its 1985 premiere .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	9	E	9:E	_
+4	first	first	ADJ	JJ	_	9	E	9:E	_
+5	major	major	ADJ	JJ	_	9	E	9:E	_
+6	Off	off	ADP	IN	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	Broadway	Broadway	PROPN	NNP	_	9	E	9:E	_
+9	revival	revival	NOUN	NN	_	2	A	2:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	play	play	NOUN	NN	_	9	A	9:A	_
+13	since	since	SCONJ	IN	_	2	L	2:L	_
+14	its	its	PRON	PRP$	_	16	A	16:A	_
+15	1985	1985	NUM	CD	_	16	D	16:D	_
+16	premiere	premiere	NOUN	NN	_	2	H	2:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

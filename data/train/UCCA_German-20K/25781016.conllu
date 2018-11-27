@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25781016
+# text = Die Robben und Walrosse , die in so strengem Klima zu leben gewohnt sind , blieben in den Eis gegenden .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Robben	Robbe	NOUN	NN	_	16	A	16:A	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	Walrosse	Walrosse	NOUN	NE	_	2	C	2:C|12:A	_
+5	,	,	PUNCT	$,	_	12	U	12:U	_
+6	die	der	PRON	PRELS	_	12	R	12:R	_
+7	in	in	ADP	APPR	_	10	R	10:R	_
+8	so	so	ADV	ADV	_	10	E	10:E	_
+9	strengem	strengem	ADJ	ADJA	_	10	E	10:E	_
+10	Klima	Klima	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	leben	leben	VERB	VVFIN	_	2	E	2:E	_
+13	gewohnt	wohnen	VERB	ADJD	_	12	D	12:D	_
+14	sind	sein	AUX	NN	_	12	F	12:F	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	blieben	bleiben	AUX	VVFIN	_	0	H	0:H	_
+17	in	in	ADP	APPR	_	20	R	20:R	_
+18	den	der	DET	ART	_	20	E	20:E	_
+19	Eis	Eis	NOUN	NN	_	20	E	20:E	_
+20	gegenden	gegenden	VERB	VVINF	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

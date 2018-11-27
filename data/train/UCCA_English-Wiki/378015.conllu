@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 378015
+# text = " The play , which had been a critical sensation on Broadway , ran for eight weeks in London 's West End .
+1	"	"	PUNCT	``	_	14	U	14:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	play	play	NOUN	NN	_	14	A	14:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	which	which	PRON	WDT	_	10	F	10:F	_
+6	had	have	AUX	VBD	_	10	E	10:E	_
+7	been	be	AUX	VBN	_	6	F	6:F	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	critical	critical	ADJ	JJ	_	10	E	10:E	_
+10	sensation	sensation	NOUN	NN	_	3	E	3:E	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	Broadway	Broadway	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	ran	run	VERB	VBD	_	0	H	0:H	_
+15	for	for	ADP	IN	_	17	R	17:R	_
+16	eight	eight	NUM	CD	_	17	E	17:E	_
+17	weeks	week	NOUN	NNS	_	14	D	14:D	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	London	London	PROPN	NNP	_	21	E	21:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	West	West	PROPN	NNP	_	14	A	14:A	_
+22	End	end	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

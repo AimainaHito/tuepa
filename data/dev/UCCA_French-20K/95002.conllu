@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 95002
+# text = Ses roues battaient la mer avec une régularité parfaite .
+1	Ses	son	DET	_	_	2	E	2:E	_
+2	roues	roue	NOUN	_	_	3	A	3:A	_
+3	battaient	battre	VERB	_	_	0	H	0:H	_
+4	la	le	DET	_	_	5	E	5:E	_
+5	mer	mer	NOUN	_	_	3	A	3:A	_
+6	avec	avec	ADP	_	_	8	R	8:R	_
+7	une	un	DET	_	_	8	E	8:E	_
+8	régularité	régularité	NOUN	_	_	3	A	3:A	_
+9	parfaite	parfait	ADJ	_	_	8	E	8:E	_
+10	.	.	PUNCT	_	_	8	U	8:U	_
+

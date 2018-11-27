@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25742010
+# text = » Ich kann mir ' s völlig so vorstellen « , erwiderte Conseil . » Aber kann mir mein Herr sagen , weshalb der große Gießer seine Verrichtung eingestellt hat und woher es kommt , dass an die Stelle des Gießofens ein See mit so stillem Wasser getreten ist ? «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Ich	ich	PRON	PPER	_	9	A	9:A	_
+3	kann	können	AUX	VMFIN	_	9	D	9:D	_
+4	mir	ich	PRON	PPER	_	9	A	9:A	_
+5	'	'	PUNCT	$(	_	9	U	9:U	_
+6	s	s	ADV	ADJD	_	9	A	9:A	_
+7	völlig	völlig	ADJ	ADJD	_	9	D	9:D	_
+8	so	so	ADV	ADV	_	9	D	9:D	_
+9	vorstellen	vorstellen	VERB	VVINF	_	12	A	12:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	Conseil	Conseil	NOUN	NE	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+15	»	»	PUNCT	$(	_	12	U	12:U	_
+16	Aber	aber	CCONJ	KON	_	9	L	9:L	_
+17	kann	können	AUX	VMFIN	_	21	D	21:D	_
+18	mir	ich	PRON	PPER	_	21	A	21:A	_
+19	mein	mein	PRON	PPOSAT	_	20	E	20:E	_
+20	Herr	Herr	NOUN	NN	_	21	A	21:A	_
+21	sagen	sagen	VERB	VVINF	_	9	H	9:H	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	weshalb	weshalb	SCONJ	ADJA	_	29	A	29:A	_
+24	der	der	DET	ART	_	26	E	26:E	_
+25	große	groß	ADJ	ADJA	_	26	E	26:E	_
+26	Gießer	Gießer	NOUN	NN	_	29	A	29:A	_
+27	seine	sein	DET	PPOSAT	_	28	E	28:E	_
+28	Verrichtung	Verrichtung	NOUN	NN	_	29	A	29:A	_
+29	eingestellt	einstellen	VERB	VVPP	_	21	A	21:A	_
+30	hat	haben	AUX	VAFIN	_	29	F	29:F	_
+31	und	und	CCONJ	NE	_	29	L	29:L	_
+32	woher	woher	CCONJ	PWAV	_	34	A	34:A	_
+33	es	es	PRON	PPER	_	34	F	34:F	_
+34	kommt	kommen	VERB	VVFIN	_	29	H	29:H	_
+35	,	,	PUNCT	$,	_	34	U	34:U	_
+36	dass	dass	SCONJ	KOUS	_	48	R	48:R	_
+37	an	an	ADP	APPR	_	39	R	39:R	_
+38	die	der	DET	ART	_	39	E	39:E	_
+39	Stelle	Stelle	NOUN	NN	_	48	A	48:A	_
+40	des	der	DET	ART	_	41	R	41:R	_
+41	Gießofens	Gießofen	NOUN	NN	_	39	E	39:E	_
+42	ein	ein	DET	ART	_	43	E	43:E	_
+43	See	See	NOUN	NN	_	48	A	48:A	_
+44	mit	mit	ADP	APPR	_	46	R	46:R	_
+45	so	so	ADV	ADV	_	46	E	46:E	_
+46	stillem	still	ADJ	ADJA	_	48	A	48:A	_
+47	Wasser	Wasser	NOUN	NN	_	46	E	46:E	_
+48	getreten	treten	VERB	VVPP	_	34	A	34:A	_
+49	ist	sein	AUX	VVFIN	_	48	F	48:F	_
+50	?	?	PUNCT	$.	_	48	U	48:U	_
+51	«	«	PUNCT	$(	_	48	U	48:U	_
+

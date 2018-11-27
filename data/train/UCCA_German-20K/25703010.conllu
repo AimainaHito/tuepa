@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25703010
+# text = Das Boot stieß ab und fuhr mit seinen sechs Ruderern pfeilschnell auf den Dugong zu , der damals 2 Meilen von der ›Nautilus‹ entfernt schwamm .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	0	C	0:C|6:A	_
+3	stieß	stoßen	VERB	VVFIN	_	0	H	0:H	_
+4	ab	ab	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+5	und	und	CCONJ	NE	_	3	L	3:L	_
+6	fuhr	fahren	VERB	VVFIN	_	3	H	3:H	_
+7	mit	mit	ADP	APPR	_	10	R	10:R	_
+8	seinen	sein	DET	PPOSAT	_	10	E	10:E	_
+9	sechs	sechs	NUM	NE	_	10	E	10:E	_
+10	Ruderern	Ruderer	NOUN	NE	_	6	A	6:A	_
+11	pfeilschnell	pfeilschnell	ADJ	ADJD	_	6	D	6:D	_
+12	auf	auf	ADP	APPR	_	14	R	14:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Dugong	Dugong	NOUN	NN	_	6	A	6:A	_
+15	zu	zu	ADP	VVINF	_	6	Terminal	6:Terminal	_
+16	,	,	PUNCT	$,	_	6	U	6:U	_
+17	der	der	PRON	PRELS	_	25	R	25:R	_
+18	damals	damals	ADV	ADV	_	25	D	25:D	_
+19	2	2	NUM	CARD	_	20	E	20:E	_
+20	Meilen	Meile	NOUN	NN	_	24	A	24:A	_
+21	von	von	ADP	NN	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	›Nautilus‹	›Nautilus‹	NOUN	NE	_	24	A	24:A	_
+24	entfernt	entfernen	ADJ	ADJD	_	25	A	25:A	_
+25	schwamm	schwamm	ADJ	NN	_	14	E	14:E	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

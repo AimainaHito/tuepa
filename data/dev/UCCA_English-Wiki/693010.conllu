@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 693010
+# text = " Mixed Up Confusion " , recorded during the Freewheelin ' sessions with a backing band , was released as a single and then quickly withdrawn .
+1	"	"	PUNCT	``	_	26	U	26:U	_
+2	Mixed	mix	VERB	VBN	_	7	A	7:A|26:A|19:A	_
+3	Up	up	ADP	RP	_	2	Terminal	2:Terminal	_
+4	Confusion	confusion	NOUN	NN	_	2	Terminal	2:Terminal	_
+5	"	"	PUNCT	''	_	7	U	7:U	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	recorded	record	VERB	VBD	_	0	H	0:H	_
+8	during	during	ADP	IN	_	7	L	7:L	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Freewheelin	Freewheelin	PROPN	NNP	_	12	A	12:A	_
+11	'	's	PART	POS	_	12	U	12:U	_
+12	sessions	session	NOUN	NNS	_	7	H	7:H	_
+13	with	with	ADP	IN	_	16	R	16:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	backing	backing	NOUN	NN	_	16	E	16:E	_
+16	band	band	NOUN	NN	_	12	A	12:A	_
+17	,	,	PUNCT	,	_	7	U	7:U	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	released	release	VERB	VBN	_	7	H	7:H	_
+20	as	as	ADP	IN	_	22	R	22:R	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	single	single	ADJ	JJ	_	19	A	19:A	_
+23	and	and	CCONJ	CC	_	7	L	7:L	_
+24	then	then	ADV	RB	_	23	Terminal	23:Terminal	_
+25	quickly	quickly	ADV	RB	_	26	D	26:D	_
+26	withdrawn	withdraw	VERB	VBN	_	7	H	7:H	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

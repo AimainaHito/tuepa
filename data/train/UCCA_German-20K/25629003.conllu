@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25629003
+# text = » Ich auch nicht , Ned , wenn ich nicht einen Paradiesvogel erhasche . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ich	ich	PRON	PPER	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	4	E	4:E	_
+4	nicht	nicht	PART	XY	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Ned	Ned	NOUN	NN	_	2	G	2:G	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+9	ich	ich	PRON	PPER	_	13	A	13:A	_
+10	nicht	nicht	PART	XY	_	13	D	13:D	_
+11	einen	ein	DET	ART	_	12	E	12:E	_
+12	Paradiesvogel	Paradiesvogel	NOUN	NN	_	13	A	13:A	_
+13	erhasche	erhasch	ADJ	ADJA	_	2	H	2:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	«	«	PUNCT	$(	_	13	U	13:U	_
+

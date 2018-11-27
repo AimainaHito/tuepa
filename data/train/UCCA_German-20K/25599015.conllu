@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25599015
+# text = Und wirklich , der Ozean war leer ; nicht ein Segel am Horizont .
+1	Und	und	CCONJ	ADJD	_	2	L	2:L	_
+2	wirklich	wirklich	ADJ	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Ozean	Ozean	PROPN	NE	_	7	A	7:A	_
+6	war	sein	AUX	NE	_	7	F	7:F	_
+7	leer	leer	ADJ	ADJD	_	2	H	2:H	_
+8	;	;	PUNCT	$.	_	2	U	2:U	_
+9	nicht	nicht	PART	XY	_	11	D	11:D	_
+10	ein	ein	DET	ART	_	9	Terminal	9:Terminal	_
+11	Segel	Segel	NOUN	NN	_	2	H	2:H	_
+12	am	am	ADJ	ADJD	_	13	R	13:R	_
+13	Horizont	Horizont	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

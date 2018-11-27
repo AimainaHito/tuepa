@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25812005
+# text = » Zur Oberfläche aufsteigen und die ganze Brut vertilgen . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Zur	Zur	ADP	NN	_	3	R	3:R	_
+3	Oberfläche	Oberfläch	NOUN	NN	_	4	A	4:A	_
+4	aufsteigen	aufsteigen	VERB	VVINF	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	L	4:L	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	ganze	ganz	ADJ	ADJA	_	8	E	8:E	_
+8	Brut	Brut	NOUN	NN	_	9	A	9:A	_
+9	vertilgen	vertilgen	VERB	VVINF	_	4	H	4:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

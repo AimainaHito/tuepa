@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25641016
+# text = Sollte er sich südwärts wenden ?
+1	Sollte	sollen	AUX	VMFIN	_	3	D	3:D	_
+2	er	er	PRON	PPER	_	3	A	3:A	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	südwärts	südwärts	ADV	ADV	_	3	D	3:D	_
+5	wenden	wenden	VERB	VVFIN	_	3	Terminal	3:Terminal	_
+6	?	?	PUNCT	$.	_	3	U	3:U	_
+

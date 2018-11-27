@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25803011
+# text = Am folgenden Tag , dem 12 . April , kam die ›Nautilus‹ in der Nähe der holländischen Küste , bei der Mündung des Maroni , vorbei .
+1	Am	am	PROPN	ADJD	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	6	E	6:E	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	12	12	NUM	CARD	_	10	D	10:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	April	April	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	A	10:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Nähe	Nähe	NOUN	NN	_	18	E	18:E	_
+16	der	der	DET	ART	_	18	R	18:R	_
+17	holländischen	holländisch	ADJ	ADJA	_	18	E	18:E	_
+18	Küste	Küste	NOUN	NN	_	10	A	10:A	_
+19	,	,	PUNCT	$,	_	10	U	10:U	_
+20	bei	bei	ADP	APPR	_	24	R	24:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Mündung	Mündung	NOUN	NN	_	24	E	24:E	_
+23	des	der	DET	ART	_	22	R	22:R	_
+24	Maroni	Maroni	PROPN	NE	_	10	A	10:A	_
+25	,	,	PUNCT	$,	_	10	U	10:U	_
+26	vorbei	vorbei	ADV	ADJA	_	10	Terminal	10:Terminal	_
+27	.	.	PUNCT	$.	_	10	U	10:U	_
+

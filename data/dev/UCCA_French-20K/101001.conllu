@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 101001
+# text = Ils ne purent en croire leurs yeux .
+1	Ils	il	PRON	_	_	5	A	5:A	_
+2	ne	ne	ADV	_	_	5	D	5:D	_
+3	purent	pouvoir	VERB	_	_	5	D	5:D	_
+4	en	en	PRON	_	_	5	F	5:F	_
+5	croire	croire	VERB	_	_	0	H	0:H	_
+6	leurs	son	DET	_	_	7	E	7:E	_
+7	yeux	oeil	NOUN	_	_	5	A	5:A	_
+8	.	.	PUNCT	_	_	7	U	7:U	_
+

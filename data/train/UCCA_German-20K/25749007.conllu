@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25749007
+# text = Während dieser Zeit fuhren wir ganze Tage lang auf der Oberfläche .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Zeit	Zeit	NOUN	NN	_	4	D	4:D	_
+4	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	ganze	ganz	ADJ	ADJA	_	7	E	7:E	_
+7	Tage	Tag	NOUN	NN	_	4	A	4:A	_
+8	lang	lang	ADJ	ADJD	_	4	D	4:D	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Oberfläche	Oberfläche	NOUN	NN	_	4	A	4:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

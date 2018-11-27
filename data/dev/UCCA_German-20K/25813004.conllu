@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25813004
+# text = Also hatte ich einen Landsmann an Bord , mehrere vielleicht !
+1	Also	also	ADV	ADV	_	2	L	2:L	_
+2	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	einen	ein	DET	ART	_	5	E	5:E	_
+5	Landsmann	Landsmann	NOUN	NN	_	0	C	0:C|9:A	_
+6	an	an	ADP	APPR	_	7	R	7:R	_
+7	Bord	Bord	NOUN	NN	_	2	A	2:A|9:S	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	mehrere	mehrere	PRON	PIAT	_	2	H	2:H	_
+10	vielleicht	vielleicht	ADV	NN	_	9	D	9:D	_
+11	!	!	PUNCT	$.	_	9	U	9:U	_
+

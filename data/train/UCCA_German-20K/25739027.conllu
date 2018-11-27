@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25739027
+# text = Einen Augenblick musste ich meine durch das elektrische Licht geblendeten Augen schließen , dann blickte ich umher .
+1	Einen	ein	DET	ART	_	2	E	2:E	_
+2	Augenblick	Augenblick	NOUN	NN	_	12	D	12:D	_
+3	musste	müssen	AUX	VVFIN	_	12	D	12:D	_
+4	ich	ich	PRON	PPER	_	12	A	12:A	_
+5	meine	mein	PRON	PPOSAT	_	11	E	11:E	_
+6	durch	durch	ADP	APPR	_	9	R	9:R	_
+7	das	der	DET	ART	_	9	E	9:E	_
+8	elektrische	elektrisch	ADJ	ADJA	_	9	E	9:E	_
+9	Licht	Licht	NOUN	NN	_	10	A	10:A	_
+10	geblendeten	geblendet	ADJ	ADJA	_	11	E	11:E	_
+11	Augen	Auge	NOUN	NN	_	12	A	12:A	_
+12	schließen	schließen	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	dann	dann	ADV	ADV	_	12	L	12:L	_
+15	blickte	blicken	VERB	VVFIN	_	12	H	12:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	umher	umher	ADV	PTKVZ	_	15	Terminal	15:Terminal	_
+18	.	.	PUNCT	$.	_	15	U	15:U	_
+

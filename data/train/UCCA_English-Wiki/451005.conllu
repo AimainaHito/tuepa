@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 451005
+# text = " Three months later though , he changed his mind and packed his bags for America .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Three	three	NUM	CD	_	3	E	3:E	_
+3	months	month	NOUN	NNS	_	8	D	8:D	_
+4	later	later	ADV	RB	_	3	E	3:E	_
+5	though	though	ADV	RB	_	8	L	8:L	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A|12:A	_
+8	changed	change	VERB	VBD	_	0	H	0:H	_
+9	his	he	PRON	PRP$	_	8	Terminal	8:Terminal	_
+10	mind	mind	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	and	and	CCONJ	CC	_	8	L	8:L	_
+12	packed	pack	VERB	VBD	_	8	H	8:H	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	bags	bag	NOUN	NNS	_	12	A	12:A	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	America	America	PROPN	NNP	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

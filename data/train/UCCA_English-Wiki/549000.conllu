@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 549000
+# text = Warner remained active as an independent producer until the early 1970s .
+1	Warner	Warner	PROPN	NNP	_	3	A	3:A	_
+2	remained	remain	VERB	VBD	_	3	D	3:D	_
+3	active	active	ADJ	JJ	_	0	H	0:H	_
+4	as	as	ADP	IN	_	7	R	7:R	_
+5	an	a	DET	DT	_	7	E	7:E	_
+6	independent	independent	ADJ	JJ	_	7	E	7:E	_
+7	producer	producer	NOUN	NN	_	3	A	3:A	_
+8	until	until	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	early	early	ADJ	JJ	_	11	E	11:E	_
+11	1970s	1970	NOUN	NNS	_	3	D	3:D	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

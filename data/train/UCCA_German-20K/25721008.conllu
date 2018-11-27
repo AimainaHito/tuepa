@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25721008
+# text = Gern hätte ich dem Kanadier geantwortet , aber es versagten mir die Worte .
+1	Gern	gern	ADV	ADV	_	6	D	6:D	_
+2	hätte	haben	AUX	VAFIN	_	6	D	6:D	_
+3	ich	ich	PRON	PPER	_	6	A	6:A	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Kanadier	Kanadier	NOUN	NE	_	6	A	6:A	_
+6	geantwortet	antworten	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	aber	aber	CCONJ	KON	_	6	L	6:L	_
+9	es	es	PRON	PPER	_	10	F	10:F	_
+10	versagten	versagen	VERB	VVFIN	_	6	H	6:H	_
+11	mir	ich	PRON	PPER	_	10	A	10:A	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Worte	Wort	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

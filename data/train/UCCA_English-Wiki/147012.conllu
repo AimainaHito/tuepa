@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 147012
+# text = In 1936 , while she was touring Jane Eyre , Hepburn began a relationship with entrepreneur Howard Hughes .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1936	1936	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	while	while	SCONJ	IN	_	7	L	7:L	_
+5	she	she	PRON	PRP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	touring	tour	VERB	VBG	_	0	H	0:H	_
+8	Jane	Jane	PROPN	NNP	_	7	A	7:A	_
+9	Eyre	Eyre	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	Hepburn	Hepburn	PROPN	NNP	_	14	A	14:A	_
+12	began	begin	VERB	VBD	_	14	D	14:D	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	relationship	relationship	NOUN	NN	_	7	H	7:H	_
+15	with	with	ADP	IN	_	17	R	17:R	_
+16	entrepreneur	entrepreneur	NOUN	NN	_	17	E	17:E	_
+17	Howard	Howard	PROPN	NNP	_	14	A	14:A	_
+18	Hughes	Hughes	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

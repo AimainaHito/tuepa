@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 205000
+# text = Dustin Lee Hoffman ( born August 8 , 1937 ) is an American actor with a career in film , television , and theatre since 1960 .
+1	Dustin	Dustin	PROPN	NNP	_	11	A	11:A	_
+2	Lee	Lee	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Hoffman	Hoffman	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+5	born	bear	VERB	VBN	_	1	E	1:E	_
+6	August	August	PROPN	NNP	_	5	D	5:D	_
+7	8	8	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	1937	1937	NUM	CD	_	6	Terminal	6:Terminal	_
+10	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+11	is	be	AUX	VBZ	_	0	H	0:H	_
+12	an	a	DET	DT	_	14	E	14:E	_
+13	American	american	ADJ	JJ	_	14	E	14:E	_
+14	actor	actor	NOUN	NN	_	11	A	11:A	_
+15	with	with	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	career	career	NOUN	NN	_	14	E	14:E	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	film	film	NOUN	NN	_	17	A	17:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	television	television	NOUN	NN	_	19	C	19:C	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	and	and	CCONJ	CC	_	19	N	19:N	_
+24	theatre	theatre	ADV	RB	_	19	C	19:C	_
+25	since	since	ADP	IN	_	26	R	26:R	_
+26	1960	1960	NUM	CD	_	11	D	11:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

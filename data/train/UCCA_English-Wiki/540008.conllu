@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 540008
+# text = Later that year , Sam Warner urged his brother , Harry , to sign an agreement with Western Electric to develop a series of talking " shorts " using the newly developed Vitaphone technology .
+1	Later	later	ADV	RBR	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Sam	Sam	PROPN	NNP	_	7	A	7:A	_
+6	Warner	Warner	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	urged	urge	VERB	VBD	_	0	H	0:H	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	brother	brother	NOUN	NN	_	11	E	11:E	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	Harry	Harry	PROPN	NNP	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	14	U	14:U	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	sign	sign	VERB	VB	_	7	A	7:A	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	agreement	agreement	NOUN	NN	_	14	A	14:A	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	Western	western	ADJ	JJ	_	16	E	16:E	_
+19	Electric	electric	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	develop	develop	VERB	VB	_	16	E	16:E	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	series	series	NOUN	NN	_	27	E	27:E	_
+24	of	of	SCONJ	IN	_	23	R	23:R	_
+25	talking	talk	VERB	VBG	_	27	E	27:E	_
+26	"	"	PUNCT	``	_	27	U	27:U	_
+27	shorts	short	NOUN	NNS	_	0	C	0:C|29:A	_
+28	"	"	PUNCT	''	_	29	U	29:U	_
+29	using	use	VERB	VBG	_	21	H	21:H	_
+30	the	the	DET	DT	_	32	E	32:E	_
+31	newly	newly	ADV	RB	_	32	D	32:D	_
+32	developed	develop	VERB	VBN	_	29	A	29:A	_
+33	Vitaphone	Vitaphone	PROPN	NNP	_	34	E	34:E	_
+34	technology	technology	NOUN	NN	_	32	A	32:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

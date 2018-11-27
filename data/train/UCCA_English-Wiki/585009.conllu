@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 585009
+# text = Depp was born in Owensboro , Kentucky , and raised in Florida , as the youngest of four children of Betty Sue Palmer ( née Wells ) , a waitress , and John Christopher Depp , a civil engineer .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A|10:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Owensboro	Owensboro	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Kentucky	Kentucky	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	raised	raise	VERB	VBN	_	3	H	3:H	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	Florida	Florida	PROPN	NNP	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	as	as	SCONJ	IN	_	19	R	19:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	youngest	youngest	ADJ	JJS	_	18	E	18:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	four	four	NUM	CD	_	19	E	19:E	_
+19	children	child	NOUN	NNS	_	10	A	10:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	Betty	Betty	PROPN	NNP	_	19	E	19:E	_
+22	Sue	Sue	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Palmer	Palmer	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+25	née	née	ADJ	JJ	_	26	R	26:R	_
+26	Wells	Well	NOUN	NNS	_	21	E	21:E	_
+27	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+28	,	,	PUNCT	,	_	21	U	21:U	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	waitress	waitress	NOUN	NN	_	21	E	21:E	_
+31	,	,	PUNCT	,	_	21	U	21:U	_
+32	and	and	CCONJ	CC	_	21	N	21:N	_
+33	John	John	PROPN	NNP	_	21	C	21:C	_
+34	Christopher	Christopher	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	Depp	Depp	PROPN	NNP	_	33	Terminal	33:Terminal	_
+36	,	,	PUNCT	,	_	33	U	33:U	_
+37	a	a	DET	DT	_	39	E	39:E	_
+38	civil	civil	ADJ	JJ	_	39	E	39:E	_
+39	engineer	engineer	NOUN	NN	_	33	E	33:E	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

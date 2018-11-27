@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25788028
+# text = » Kann man die Läden des Salons öffnen ? « » Ohne Nachteil . Wir sind nicht mehr in Bewegung . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Kann	können	AUX	VMFIN	_	8	D	8:D	_
+3	man	man	PRON	PIS	_	8	A	8:A	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Läden	Laden	NOUN	NN	_	8	A	8:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Salons	Salons	NOUN	NN	_	5	E	5:E	_
+8	öffnen	öffnen	VERB	VVFIN	_	0	P	0:P|13:P	_
+9	?	?	PUNCT	$.	_	13	U	13:U	_
+10	«	«	PUNCT	$(	_	13	U	13:U	_
+11	»	»	PUNCT	$(	_	13	U	13:U	_
+12	Ohne	ohne	ADP	NN	_	13	D	13:D	_
+13	Nachteil	Nachteil	NOUN	NN	_	8	H	8:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	Wir	wir	PRON	NE	_	20	A	20:A	_
+16	sind	sein	AUX	NN	_	20	F	20:F	_
+17	nicht	nicht	PART	CARD	_	20	D	20:D	_
+18	mehr	mehr	ADV	ADV	_	17	E	17:E	_
+19	in	in	ADP	APPR	_	20	R	20:R	_
+20	Bewegung	Bewegung	NOUN	NN	_	13	H	13:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

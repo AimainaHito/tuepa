@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25410004
+# text = Darauf begann eine unendliche Polemik der Gläubigen und Ungläubigen in den gelehrten Gesellschaften und den wissenschaftlichen Journalen .
+1	Darauf	darauf	ADV	PAV	_	5	L	5:L	_
+2	begann	beginnen	VERB	VVFIN	_	5	D	5:D	_
+3	eine	ein	DET	ART	_	5	E	5:E	_
+4	unendliche	unendlich	ADJ	ADJA	_	5	D	5:D	_
+5	Polemik	Polemik	NOUN	NN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Gläubigen	Gläubige	NOUN	ADJA	_	5	A	5:A	_
+8	und	und	CCONJ	NN	_	7	N	7:N	_
+9	Ungläubigen	ungläubige	NOUN	NE	_	7	C	7:C	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	den	der	DET	ART	_	13	E	13:E	_
+12	gelehrten	gelehrt	ADJ	ADJA	_	13	E	13:E	_
+13	Gesellschaften	Gesellschaft	NOUN	NN	_	5	A	5:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	den	der	DET	ART	_	17	E	17:E	_
+16	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	_	17	E	17:E	_
+17	Journalen	Journal	PROPN	NE	_	13	C	13:C	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

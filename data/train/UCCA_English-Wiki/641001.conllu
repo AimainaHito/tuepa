@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 641001
+# text = Within the month , he fulfilled his contractual obligation to EMI / Capitol for one more album by releasing Shaved Fish , a compilation album of previously recorded tracks .
+1	Within	within	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	month	month	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A|19:A	_
+6	fulfilled	fulfil	VERB	VBD	_	0	H	0:H	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	contractual	contractual	ADJ	JJ	_	9	A	9:A	_
+9	obligation	obligation	NOUN	NN	_	6	A	6:A	_
+10	to	to	ADP	IN	_	11	R	11:R	_
+11	EMI	EMI	PROPN	NNP	_	9	A	9:A	_
+12	/	/	PUNCT	,	_	11	U	11:U	_
+13	Capitol	Capitol	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	for	for	ADP	IN	_	17	R	17:R	_
+15	one	one	NUM	CD	_	17	E	17:E	_
+16	more	more	ADJ	JJR	_	17	E	17:E	_
+17	album	album	NOUN	NN	_	9	A	9:A	_
+18	by	by	SCONJ	IN	_	19	R	19:R	_
+19	releasing	release	VERB	VBG	_	6	A	6:A	_
+20	Shaved	Shaved	PROPN	NNP	_	19	A	19:A	_
+21	Fish	Fish	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	a	a	DET	DT	_	25	E	25:E	_
+24	compilation	compilation	NOUN	NN	_	25	E	25:E	_
+25	album	album	NOUN	NN	_	20	E	20:E	_
+26	of	of	ADP	IN	_	29	R	29:R	_
+27	previously	previously	ADV	RB	_	28	E	28:E	_
+28	recorded	record	VERB	VBN	_	29	E	29:E	_
+29	tracks	track	NOUN	NNS	_	25	E	25:E	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

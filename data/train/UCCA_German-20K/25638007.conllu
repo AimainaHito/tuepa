@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25638007
+# text = » Kapitän « , sagte ich , » ich zweifle nicht ... «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Kapitän	Kapitän	NOUN	NN	_	10	G	10:G	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	ich	ich	PRON	PPER	_	10	A	10:A	_
+10	zweifle	zweiflen	VERB	ADJA	_	5	A	5:A	_
+11	nicht	nicht	PART	XY	_	10	D	10:D	_
+12	...	...	PUNCT	$(	_	10	U	10:U	_
+13	«	«	PUNCT	$(	_	10	U	10:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25797009
+# text = Ned Land sagte nichts , aber er sperrte die Kinnladen auf , dass ein Haifisch erschrecken konnte .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A	_
+2	Land	Land	PROPN	NN	_	1	Terminal	1:Terminal	_
+3	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+4	nichts	nichts	PRON	ADJA	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	aber	aber	CCONJ	KON	_	3	L	3:L	_
+7	er	er	PRON	PPER	_	8	A	8:A	_
+8	sperrte	sperren	VERB	VVFIN	_	3	H	3:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Kinnladen	Kinnladen	NOUN	NN	_	8	A	8:A	_
+11	auf	auf	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	dass	dass	SCONJ	KOUS	_	3	L	3:L	_
+14	ein	ein	DET	ART	_	15	E	15:E	_
+15	Haifisch	Haifisch	NOUN	NN	_	16	A	16:A	_
+16	erschrecken	erschrecken	VERB	VVINF	_	3	H	3:H	_
+17	konnte	können	AUX	VMFIN	_	16	D	16:D	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

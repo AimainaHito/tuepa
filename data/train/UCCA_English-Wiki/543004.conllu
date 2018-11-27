@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 543004
+# text = " Harry Cohn was a sonofabitch , " Reinhardt said , " but he did it for business ; he was not a sadist . [ Louis B . ] Mayer could be a monster , but he was not mean for the sake of meanness . Jack was . "
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Harry	Harry	PROPN	NNP	_	6	A	6:A	_
+3	Cohn	Cohn	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	sonofabitch	sonofabitch	NOUN	NN	_	10	A	10:A	_
+7	,	,	PUNCT	,	_	10	U	10:U	_
+8	"	"	PUNCT	''	_	10	U	10:U	_
+9	Reinhardt	Reinhardt	PROPN	NNP	_	10	A	10:A	_
+10	said	say	VERB	VBD	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	"	"	PUNCT	``	_	10	U	10:U	_
+13	but	but	CCONJ	CC	_	6	L	6:L	_
+14	he	he	PRON	PRP	_	16	A	16:A	_
+15	did	do	VERB	VBD	_	16	D	16:D	_
+16	it	it	PRON	PRP	_	6	H	6:H	_
+17	for	for	ADP	IN	_	18	R	18:R	_
+18	business	business	NOUN	NN	_	16	A	16:A	_
+19	;	;	PUNCT	,	_	6	U	6:U	_
+20	he	he	PRON	PRP	_	24	A	24:A	_
+21	was	be	AUX	VBD	_	24	F	24:F	_
+22	not	not	PART	RB	_	24	D	24:D	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	sadist	sadist	NOUN	NN	_	6	H	6:H	_
+25	.	.	PUNCT	.	_	6	U	6:U	_
+26	[	[	PUNCT	-LRB-	_	6	U	6:U	_
+27	Louis	Louis	DET	DT	_	35	A	35:A	_
+28	B	b	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+30	]	]	PUNCT	-RRB-	_	27	U	27:U	_
+31	Mayer	Mayer	NOUN	NN	_	27	Terminal	27:Terminal	_
+32	could	could	AUX	MD	_	35	D	35:D	_
+33	be	be	AUX	VB	_	35	F	35:F	_
+34	a	a	DET	DT	_	35	E	35:E	_
+35	monster	monster	NOUN	NN	_	6	H	6:H	_
+36	,	,	PUNCT	,	_	6	U	6:U	_
+37	but	but	CCONJ	CC	_	6	L	6:L	_
+38	he	he	PRON	PRP	_	41	A	41:A|46:A	_
+39	was	be	AUX	VBD	_	41	F	41:F	_
+40	not	not	PART	RB	_	41	D	41:D	_
+41	mean	mean	VERB	VB	_	6	H	6:H	_
+42	for	for	ADP	IN	_	6	L	6:L	_
+43	the	the	DET	DT	_	42	Terminal	42:Terminal	_
+44	sake	sake	NOUN	NN	_	42	Terminal	42:Terminal	_
+45	of	of	ADP	IN	_	42	Terminal	42:Terminal	_
+46	meanness	meanness	NOUN	NN	_	6	H	6:H	_
+47	.	.	PUNCT	.	_	6	U	6:U	_
+48	Jack	Jack	NOUN	NN	_	49	A	49:A	_
+49	was	be	VERB	VBD	_	6	H	6:H	_
+50	.	.	PUNCT	.	_	49	U	49:U	_
+51	"	"	PUNCT	''	_	49	U	49:U	_
+

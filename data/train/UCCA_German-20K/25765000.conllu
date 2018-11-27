@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25765000
+# text = » Die Eisdecke « , sagte der Kanadier zu mir .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Eisdecke	Eisdecke	NOUN	NN	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	zu	zu	ADP	NE	_	10	R	10:R	_
+10	mir	ich	PRON	PPER	_	6	A	6:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

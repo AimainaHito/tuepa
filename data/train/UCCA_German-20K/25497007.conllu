@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25497007
+# text = Ich war an meiner schwachen Seite gefaßt und vergaß auf einen Augenblick , dass die Anschauung dieser erhabenen Dinge die verlorene Freiheit nicht aufwiegen konnte .
+1	Ich	ich	PRON	PPER	_	7	A	7:A|9:A	_
+2	war	sein	AUX	ADV	_	7	F	7:F	_
+3	an	an	ADP	APPR	_	6	R	6:R	_
+4	meiner	mein	DET	PPOSAT	_	6	E	6:E	_
+5	schwachen	schwach	ADJ	ADJA	_	6	E	6:E	_
+6	Seite	Seite	NOUN	NN	_	7	A	7:A	_
+7	gefaßt	fassen	VERB	VVPP	_	0	H	0:H	_
+8	und	und	CCONJ	NE	_	7	L	7:L	_
+9	vergaß	vergessen	VERB	VVFIN	_	7	H	7:H	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	einen	ein	DET	ART	_	12	E	12:E	_
+12	Augenblick	Augenblick	NOUN	NN	_	9	D	9:D	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	dass	dass	SCONJ	KOUS	_	24	R	24:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Anschauung	Anschauung	NOUN	NN	_	24	A	24:A	_
+17	dieser	dies	PRON	PDS	_	19	R	19:R	_
+18	erhabenen	erhaben	ADJ	ADJA	_	19	E	19:E	_
+19	Dinge	Ding	NOUN	NN	_	16	E	16:E	_
+20	die	der	DET	ART	_	22	E	22:E	_
+21	verlorene	verloren	ADJ	ADJA	_	22	E	22:E	_
+22	Freiheit	Freiheit	NOUN	NN	_	24	A	24:A	_
+23	nicht	nicht	PART	CARD	_	24	D	24:D	_
+24	aufwiegen	aufwiegen	VERB	VVINF	_	9	A	9:A	_
+25	konnte	können	AUX	VMFIN	_	24	D	24:D	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

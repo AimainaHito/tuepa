@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 656006
+# text = In 2010 , on what would have been Lennon 's 70th birthday , the John Lennon Peace Monument was unveiled in Chavasse Park , Liverpool , by Cynthia and Julian Lennon .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2010	2010	NUM	CD	_	20	D	20:D	_
+3	,	,	PUNCT	,	_	20	U	20:U	_
+4	on	on	SCONJ	IN	_	20	L	20:L	_
+5	what	what	PRON	WP	_	12	F	12:F	_
+6	would	would	AUX	MD	_	12	D	12:D	_
+7	have	have	AUX	VB	_	12	F	12:F	_
+8	been	be	AUX	VBN	_	12	F	12:F	_
+9	Lennon	Lennon	PROPN	NNP	_	12	A	12:A	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	70th	70th	NOUN	NN	_	12	A	12:A	_
+12	birthday	birthday	NOUN	NN	_	20	H	20:H	_
+13	,	,	PUNCT	,	_	20	U	20:U	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	John	John	PROPN	NNP	_	20	A	20:A	_
+16	Lennon	Lennon	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Peace	peace	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	Monument	Monument	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	was	be	AUX	VBD	_	20	F	20:F	_
+20	unveiled	unveile	ADJ	JJ	_	0	H	0:H	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	Chavasse	Chavasse	PROPN	NNP	_	23	E	23:E	_
+23	Park	Park	PROPN	NNP	_	20	A	20:A	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	Liverpool	Liverpool	PROPN	NNP	_	23	E	23:E	_
+26	,	,	PUNCT	,	_	20	U	20:U	_
+27	by	by	ADP	IN	_	28	R	28:R	_
+28	Cynthia	Cynthia	PROPN	NNP	_	20	A	20:A	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	Julian	Julian	PROPN	NNP	_	28	C	28:C	_
+31	Lennon	Lennon	PROPN	NNP	_	28	C	28:C	_
+32	.	.	PUNCT	.	_	28	U	28:U	_
+

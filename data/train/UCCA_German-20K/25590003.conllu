@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25590003
+# text = » Sie werden 's gleich sehen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+3	werden	werden	AUX	VVFIN	_	6	F	6:F	_
+4	's	es	PRON	PPER	_	6	A	6:A	_
+5	gleich	gleich	ADJ	ADV	_	6	D	6:D	_
+6	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

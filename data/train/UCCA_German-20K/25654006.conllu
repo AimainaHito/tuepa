@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25654006
+# text = Ned Land und Conseil befanden sich neben mir .
+1	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	und	und	CCONJ	NE	_	1	N	1:N	_
+4	Conseil	Conseil	NOUN	NE	_	1	C	1:C	_
+5	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+6	sich	er|es|sie	PRON	PRF	_	5	Terminal	5:Terminal	_
+7	neben	neben	ADP	TRUNC	_	8	R	8:R	_
+8	mir	ich	PRON	PPER	_	5	A	5:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

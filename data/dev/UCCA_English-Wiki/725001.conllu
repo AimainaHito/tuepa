@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 725001
+# text = While shooting Gia , she told her then - husband Jonny Lee Miller that she would not be able to phone him : " I 'd tell him : ' I 'm alone ; I 'm dying ; I 'm gay ; I 'm not going to see you for weeks .
+1	While	while	SCONJ	IN	_	2	L	2:L	_
+2	shooting	shoot	VERB	VBG	_	0	H	0:H	_
+3	Gia	Gia	PROPN	NNP	_	2	A	2:A	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	she	she	PRON	PRP	_	6	A	6:A|2:A	_
+6	told	tell	VERB	VBD	_	2	H	2:H	_
+7	her	she	PRON	PRP	_	11	E	11:E	_
+8	then	then	ADV	RB	_	10	D	10:D	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	husband	husband	NOUN	NN	_	11	E	11:E	_
+11	Jonny	Jonny	PROPN	NNP	_	6	A	6:A	_
+12	Lee	Lee	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Miller	Miller	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	that	that	SCONJ	IN	_	21	F	21:F	_
+15	she	she	PRON	PRP	_	21	A	21:A	_
+16	would	would	AUX	MD	_	21	F	21:F	_
+17	not	not	PART	RB	_	21	D	21:D	_
+18	be	be	AUX	VB	_	21	D	21:D	_
+19	able	able	ADJ	JJ	_	21	E	21:E	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	phone	phone	VERB	VB	_	6	A	6:A	_
+22	him	he	PRON	PRP	_	21	A	21:A	_
+23	:	:	PUNCT	:	_	2	U	2:U	_
+24	"	"	PUNCT	``	_	2	U	2:U	_
+25	I	I	PRON	PRP	_	27	A	27:A	_
+26	'd	would	AUX	MD	_	27	F	27:F	_
+27	tell	tell	VERB	VB	_	2	H	2:H	_
+28	him	he	PRON	PRP	_	27	A	27:A	_
+29	:	:	PUNCT	:	_	27	U	27:U	_
+30	'	'	PUNCT	``	_	27	U	27:U	_
+31	I	I	PRON	PRP	_	33	A	33:A	_
+32	'm	be	AUX	VBP	_	33	F	33:F	_
+33	alone	alone	ADJ	JJ	_	27	A	27:A	_
+34	;	;	PUNCT	,	_	33	U	33:U	_
+35	I	I	PRON	PRP	_	37	A	37:A	_
+36	'm	be	AUX	VBP	_	37	F	37:F	_
+37	dying	die	VERB	VBG	_	33	H	33:H	_
+38	;	;	PUNCT	,	_	33	U	33:U	_
+39	I	I	PRON	PRP	_	41	A	41:A	_
+40	'm	be	AUX	VBP	_	41	F	41:F	_
+41	gay	gay	ADJ	JJ	_	33	H	33:H	_
+42	;	;	PUNCT	,	_	33	U	33:U	_
+43	I	I	PRON	PRP	_	48	A	48:A	_
+44	'm	be	AUX	VBP	_	48	F	48:F	_
+45	not	not	PART	RB	_	48	D	48:D	_
+46	going	go	VERB	VBG	_	48	D	48:D	_
+47	to	to	PART	TO	_	48	F	48:F	_
+48	see	see	VERB	VB	_	33	H	33:H	_
+49	you	you	PRON	PRP	_	48	A	48:A	_
+50	for	for	ADP	IN	_	51	R	51:R	_
+51	weeks	week	NOUN	NNS	_	48	D	48:D	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

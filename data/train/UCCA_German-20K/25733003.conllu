@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25733003
+# text = Die Quelle dieser unerklärbaren Helle , die Glutstätte , war auf der entgegengesetzten Seite gelegen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Quelle	Quelle	NOUN	NN	_	15	A	15:A	_
+3	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+4	unerklärbaren	unerklärbar	ADJ	ADJA	_	5	E	5:E	_
+5	Helle	hell	NOUN	NN	_	2	E	2:E	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Glutstätte	Glutstätte	NOUN	NN	_	2	C	2:C	_
+9	,	,	PUNCT	$,	_	15	U	15:U	_
+10	war	sein	AUX	ADV	_	15	F	15:F	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	der	der	DET	ART	_	14	E	14:E	_
+13	entgegengesetzten	entgegengesetzten	ADJ	ADJA	_	15	A	15:A	_
+14	Seite	Seite	NOUN	NN	_	13	A	13:A	_
+15	gelegen	liegen	VERB	VVPP	_	0	H	0:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

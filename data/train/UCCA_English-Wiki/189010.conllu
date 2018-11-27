@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 189010
+# text = Meanwhile , David Brown was producing a few projects at TriStar Pictures and tried to interest them in making A Few Good Men into a film but his proposal was declined due to the lack of star actor involvement .
+1	Meanwhile	meanwhile	ADV	RB	_	6	L	6:L	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	David	David	PROPN	NNP	_	6	A	6:A|16:A|14:A	_
+4	Brown	Brown	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	producing	produce	VERB	VBG	_	0	H	0:H	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	few	few	ADJ	JJ	_	9	E	9:E	_
+9	projects	project	NOUN	NNS	_	6	A	6:A	_
+10	at	at	ADP	IN	_	11	R	11:R	_
+11	TriStar	TriStar	NOUN	NN	_	6	A	6:A	_
+12	Pictures	Pictures	NOUN	NNS	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	6	L	6:L	_
+14	tried	try	VERB	VBD	_	6	H	6:H	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	interest	interest	VERB	VB	_	14	A	14:A	_
+17	them	they	PRON	PRP	_	16	A	16:A|19:A	_
+18	in	in	SCONJ	IN	_	19	R	19:R	_
+19	making	make	VERB	VBG	_	16	A	16:A	_
+20	A	a	DET	DT	_	19	A	19:A	_
+21	Few	few	ADJ	JJ	_	20	Terminal	20:Terminal	_
+22	Good	Good	ADJ	JJ	_	20	Terminal	20:Terminal	_
+23	Men	men	PROPN	NNPS	_	20	Terminal	20:Terminal	_
+24	into	into	ADP	IN	_	26	R	26:R	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	film	film	NOUN	NN	_	19	A	19:A	_
+27	but	but	CCONJ	CC	_	6	L	6:L	_
+28	his	he	PRON	PRP$	_	29	A	29:A	_
+29	proposal	proposal	NOUN	NN	_	31	A	31:A	_
+30	was	be	AUX	VBD	_	31	F	31:F	_
+31	declined	declin	VERB	VBN	_	6	H	6:H	_
+32	due	due	ADP	IN	_	6	L	6:L	_
+33	to	to	ADP	IN	_	32	Terminal	32:Terminal	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	lack	lack	NOUN	NN	_	6	H	6:H	_
+36	of	of	ADP	IN	_	39	R	39:R	_
+37	star	star	NOUN	NN	_	38	E	38:E	_
+38	actor	actor	NOUN	NN	_	39	A	39:A	_
+39	involvement	involvement	NOUN	NN	_	35	A	35:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

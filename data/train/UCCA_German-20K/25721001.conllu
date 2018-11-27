@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25721001
+# text = » Freund Ned « , sagte ich zu ihm , » ich verstehe Sie , aber Sie haben sich keinen Vorwurf zu machen . Unter den Umständen der Fahrt der ›Nautilus‹ wäre der Gedanke an ein Entfliehen Narrheit gewesen ! «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Freund	Freund	PROPN	NN	_	3	E	3:E	_
+3	Ned	Ned	PROPN	NE	_	13	G	13:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	zu	zu	ADP	VVINF	_	9	R	9:R	_
+9	ihm	er	PRON	PPER	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	verstehe	verstehen	VERB	VVFIN	_	6	A	6:A	_
+14	Sie	Sie|sie	PRON	PPER	_	13	A	13:A	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	aber	aber	CCONJ	KON	_	13	L	13:L	_
+17	Sie	sie	PRON	PPER	_	19	A	19:A	_
+18	haben	haben	AUX	VAFIN	_	19	D	19:D	_
+19	sich	er|es|sie	PRON	PRF	_	13	H	13:H	_
+20	keinen	kein	PRON	PIAT	_	19	D	19:D	_
+21	Vorwurf	Vorwurf	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	zu	zu	PART	VVINF	_	19	F	19:F	_
+23	machen	machen	VERB	VVINF	_	19	Terminal	19:Terminal	_
+24	.	.	PUNCT	$.	_	13	U	13:U	_
+25	Unter	unter	ADP	NE	_	27	R	27:R	_
+26	den	der	DET	ART	_	27	E	27:E	_
+27	Umständen	Umstand	NOUN	NN	_	39	A	39:A	_
+28	der	der	DET	ART	_	29	R	29:R	_
+29	Fahrt	Fahrt	NOUN	NN	_	27	E	27:E	_
+30	der	der	DET	ART	_	31	R	31:R	_
+31	›Nautilus‹	›Nautilus‹	NOUN	NE	_	29	A	29:A	_
+32	wäre	sein	AUX	ADV	_	39	D	39:D	_
+33	der	der	DET	ART	_	34	E	34:E	_
+34	Gedanke	Gedanke	NOUN	NN	_	37	A	37:A	_
+35	an	an	ADP	APPR	_	37	R	37:R	_
+36	ein	ein	DET	ART	_	37	E	37:E	_
+37	Entfliehen	entfliehen	NOUN	NN	_	39	A	39:A	_
+38	Narrheit	Narrheit	NOUN	NN	_	39	A	39:A	_
+39	gewesen	sein	AUX	VVINF	_	13	H	13:H	_
+40	!	!	PUNCT	$.	_	39	U	39:U	_
+41	«	«	PUNCT	$(	_	39	U	39:U	_
+

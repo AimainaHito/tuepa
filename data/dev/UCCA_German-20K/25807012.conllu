@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25807012
+# text = » Kraken « , entgegnete Conseil , ohne sich um die Scherze seines Kameraden zu kümmern .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Kraken	Kraken	NOUN	NN	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	NOUN	NE	_	5	A	5:A|9:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	ohne	ohne	ADP	NE	_	5	L	5:L	_
+9	sich	er|es|sie	PRON	PRF	_	5	H	5:H	_
+10	um	um	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Scherze	Scherze	NOUN	ADJA	_	9	A	9:A	_
+13	seines	sein	DET	PPOSAT	_	14	R	14:R	_
+14	Kameraden	Kamerad	NOUN	NN	_	12	A	12:A	_
+15	zu	zu	PART	VVINF	_	9	F	9:F	_
+16	kümmern	kümmern	VERB	VVINF	_	9	Terminal	9:Terminal	_
+17	.	.	PUNCT	$.	_	9	U	9:U	_
+

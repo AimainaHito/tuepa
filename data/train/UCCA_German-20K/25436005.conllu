@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25436005
+# text = Ich vergaß alles , Ermüdung , Freunde , Sammlungen , und nahm ohne weiteres Bedenken die Anerbietung der amerikanischen Regierung an .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|15:A|12:A	_
+2	vergaß	vergessen	VERB	VVFIN	_	0	H	0:H	_
+3	alles	alle	PRON	PIS	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Ermüdung	Ermüdung	NOUN	NN	_	3	E	3:E	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	Freunde	Freund	NOUN	NN	_	5	C	5:C	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	Sammlungen	Sammlung	NOUN	NN	_	5	C	5:C	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	nahm	nehmen	VERB	VVFIN	_	2	H	2:H	_
+13	ohne	ohne	ADP	NN	_	12	D	12:D|15:D	_
+14	weiteres	weit	ADJ	ADJA	_	15	E	15:E	_
+15	Bedenken	Bedenken	NOUN	NN	_	12	A	12:A	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Anerbietung	Anerbietung	NOUN	NN	_	12	A	12:A	_
+18	der	der	DET	ART	_	20	R	20:R	_
+19	amerikanischen	amerikanisch	ADJ	ADJA	_	20	E	20:E	_
+20	Regierung	Regierung	NOUN	NN	_	17	A	17:A	_
+21	an	an	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+22	.	.	PUNCT	$.	_	12	U	12:U	_
+

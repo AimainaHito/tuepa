@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25799003
+# text = » Besonders , wenn wir von ihm fort sind ! « versetzte Ned Land .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Besonders	besonders	ADV	ADV	_	12	A	12:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+5	wir	wir	PRON	NE	_	8	A	8:A	_
+6	von	von	ADP	NN	_	7	R	7:R	_
+7	ihm	er	PRON	PPER	_	8	A	8:A	_
+8	fort	fort	ADV	PTKVZ	_	2	H	2:H	_
+9	sind	sein	VERB	NN	_	8	F	8:F	_
+10	!	!	PUNCT	$.	_	12	U	12:U	_
+11	«	«	PUNCT	$(	_	12	U	12:U	_
+12	versetzte	versetzen	VERB	ADJA	_	0	H	0:H	_
+13	Ned	Ned	PROPN	NN	_	12	A	12:A	_
+14	Land	Land	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

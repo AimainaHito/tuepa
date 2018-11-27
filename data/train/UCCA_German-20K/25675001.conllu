@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25675001
+# text = Da kam mir schon ein Schmerz gefühl um die Lenden .
+1	Da	da	ADV	ADV	_	2	L	2:L	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	schon	schon	ADV	ADV	_	2	D	2:D	_
+5	ein	ein	DET	ART	_	7	E	7:E	_
+6	Schmerz	Schmerz	NOUN	NN	_	7	E	7:E	_
+7	gefühl	gefühl	ADJ	NN	_	2	A	2:A	_
+8	um	um	ADP	APPR	_	10	R	10:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Lenden	Lende	NOUN	NE	_	2	A	2:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

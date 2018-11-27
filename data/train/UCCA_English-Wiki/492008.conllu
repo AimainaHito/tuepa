@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 492008
+# text = He then confounded the expectations of both his record label and his American audiences by recording the minimalist album Low ( 1977 ) - the first of three collaborations with Brian Eno over the next two years .
+1	He	he	PRON	PRP	_	5	A	5:A|16:A	_
+2	then	then	ADV	RB	_	5	L	5:L	_
+3	confounded	confound	VERB	VBD	_	5	D	5:D	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	expectations	expectation	NOUN	NNS	_	0	H	0:H	_
+6	of	of	ADP	IN	_	10	R	10:R	_
+7	both	both	CCONJ	CC	_	10	N	10:N	_
+8	his	he	PRON	PRP$	_	10	E	10:E	_
+9	record	record	NOUN	NN	_	10	E	10:E	_
+10	label	label	NOUN	NN	_	5	A	5:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	his	he	PRON	PRP$	_	14	E	14:E	_
+13	American	american	ADJ	JJ	_	14	E	14:E	_
+14	audiences	audience	NOUN	NNS	_	10	C	10:C	_
+15	by	by	SCONJ	IN	_	16	R	16:R	_
+16	recording	record	VERB	VBG	_	5	A	5:A	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	minimalist	minimalist	NOUN	NN	_	19	E	19:E	_
+19	album	album	NOUN	NN	_	20	E	20:E	_
+20	Low	low	PROPN	NNP	_	16	A	16:A	_
+21	(	(	PUNCT	-LRB-	_	20	U	20:U	_
+22	1977	1977	NUM	CD	_	20	E	20:E	_
+23	)	)	PUNCT	-RRB-	_	20	U	20:U	_
+24	-	-	PUNCT	,	_	20	U	20:U	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	first	first	NOUN	NN	_	29	E	29:E	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	three	three	NUM	CD	_	26	E	26:E	_
+29	collaborations	collaboration	NOUN	NNS	_	20	E	20:E	_
+30	with	with	ADP	IN	_	31	R	31:R	_
+31	Brian	Brian	PROPN	NNP	_	29	A	29:A	_
+32	Eno	Eno	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	over	over	ADP	IN	_	37	R	37:R	_
+34	the	the	DET	DT	_	37	E	37:E	_
+35	next	next	ADJ	JJ	_	37	E	37:E	_
+36	two	two	NUM	CD	_	37	E	37:E	_
+37	years	year	NOUN	NNS	_	29	D	29:D	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

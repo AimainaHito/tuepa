@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 528015
+# text = About 30 minutes of footage was cut , sparking outrage among critics and filmgoers .
+1	About	about	ADV	RB	_	5	E	5:E	_
+2	30	30	NUM	CD	_	3	E	3:E	_
+3	minutes	minute	NOUN	NNS	_	5	E	5:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	footage	footage	NOUN	NN	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	cut	cut	VERB	VBN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	sparking	spark	VERB	VBG	_	7	H	7:H	_
+10	outrage	outrage	NOUN	NN	_	9	A	9:A	_
+11	among	among	ADP	IN	_	12	R	12:R	_
+12	critics	critics	NOUN	NNS	_	9	A	9:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	filmgoers	filmgoer	NOUN	NNS	_	12	C	12:C	_
+15	.	.	PUNCT	.	_	12	U	12:U	_
+

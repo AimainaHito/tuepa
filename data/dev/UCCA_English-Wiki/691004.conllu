@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 691004
+# text = Hammond signed Dylan to Columbia Records in October .
+1	Hammond	Hammond	PROPN	NNP	_	2	A	2:A	_
+2	signed	sign	VERB	VBD	_	0	H	0:H	_
+3	Dylan	Dylan	PROPN	NNP	_	2	A	2:A	_
+4	to	to	ADP	IN	_	5	R	5:R	_
+5	Columbia	Columbia	PROPN	NNP	_	2	A	2:A	_
+6	Records	Record	NOUN	NNS	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	October	October	PROPN	NNP	_	2	D	2:D	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

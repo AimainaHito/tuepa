@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25813008
+# text = Inzwischen hatte sich Kapitän Nemo auf das Ungetüm gestürzt und ihm noch einen Arm mit dem Beil abgehauen .
+1	Inzwischen	inzwischen	ADV	ADV	_	3	L	3:L	_
+2	hatte	haben	AUX	VAFIN	_	3	F	3:F	_
+3	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	0	C	0:C|18:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Ungetüm	Ungetüm	NOUN	NN	_	3	A	3:A	_
+9	gestürzt	stürzen	VERB	VVPP	_	3	Terminal	3:Terminal	_
+10	und	und	CCONJ	NE	_	3	L	3:L	_
+11	ihm	er	PRON	PPER	_	18	A	18:A	_
+12	noch	noch	ADV	NN	_	18	D	18:D	_
+13	einen	ein	DET	ART	_	14	E	14:E	_
+14	Arm	arm	NOUN	NN	_	18	A	18:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	Beil	Beil	NOUN	NN	_	18	A	18:A	_
+18	abgehauen	abgehauen	VERB	VVINF	_	3	H	3:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

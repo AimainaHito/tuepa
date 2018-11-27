@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 493008
+# text = Bowie attended Stockwell Infants School until he was six years old , acquiring a reputation as a gifted and single - minded child - and a defiant brawler .
+1	Bowie	Bowie	PROPN	NNP	_	2	A	2:A	_
+2	attended	attend	VERB	VBD	_	0	H	0:H	_
+3	Stockwell	Stockwell	PROPN	NNP	_	5	E	5:E	_
+4	Infants	Infants	PROPN	NNPS	_	5	E	5:E	_
+5	School	school	PROPN	NNP	_	2	A	2:A	_
+6	until	until	SCONJ	IN	_	2	L	2:L	_
+7	he	he	PRON	PRP	_	8	A	8:A|15:A	_
+8	was	be	AUX	VBD	_	2	H	2:H	_
+9	six	six	NUM	CD	_	10	E	10:E	_
+10	years	year	NOUN	NNS	_	8	A	8:A	_
+11	old	old	ADJ	JJ	_	10	E	10:E	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	acquiring	acquire	VERB	VBG	_	15	D	15:D	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	reputation	reputation	NOUN	NN	_	2	H	2:H	_
+16	as	as	ADP	IN	_	23	R	23:R	_
+17	a	a	DET	DT	_	23	E	23:E	_
+18	gifted	gift	ADJ	JJ	_	23	E	23:E	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	single	single	ADJ	JJ	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	minded	minded	ADJ	JJ	_	18	C	18:C	_
+23	child	child	NOUN	NN	_	15	A	15:A	_
+24	-	-	PUNCT	,	_	23	U	23:U	_
+25	and	and	CCONJ	CC	_	23	N	23:N	_
+26	a	a	DET	DT	_	28	E	28:E	_
+27	defiant	defiant	ADJ	JJ	_	28	E	28:E	_
+28	brawler	brawler	NOUN	NN	_	23	C	23:C	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

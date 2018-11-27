@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25771016
+# text = » Aber wird die Sonne durch diesen Nebel sichtbar werden ? « fragte ich mit einem Blick auf den grauen Himmel .
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Aber	aber	CCONJ	ADV	_	9	L	9:L	_
+3	wird	werden	AUX	VAFIN	_	9	F	9:F	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Sonne	Sonne	NOUN	NN	_	9	A	9:A	_
+6	durch	durch	ADP	APPR	_	8	R	8:R	_
+7	diesen	dies	PRON	PDAT	_	8	E	8:E	_
+8	Nebel	Nebel	NOUN	NN	_	9	A	9:A	_
+9	sichtbar	sichtbar	ADJ	ADJD	_	13	A	13:A	_
+10	werden	werden	AUX	VVFIN	_	9	F	9:F	_
+11	?	?	PUNCT	$.	_	13	U	13:U	_
+12	«	«	PUNCT	$(	_	13	U	13:U	_
+13	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A|17:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	einem	ein	DET	ART	_	17	E	17:E	_
+17	Blick	Blick	NOUN	NN	_	13	A	13:A	_
+18	auf	auf	ADP	APPR	_	21	R	21:R	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	grauen	grau	ADJ	ADJA	_	21	E	21:E	_
+21	Himmel	Himmel	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

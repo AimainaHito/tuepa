@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 466003
+# text = After protests from his fellow players , he retired again for four years , but returned in 1996 , at age 36 , to play 32 games for the Lakers before retiring for the third and final time .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	protests	protest	NOUN	NNS	_	0	H	0:H	_
+3	from	from	ADP	IN	_	6	R	6:R	_
+4	his	he	PRON	PRP$	_	6	E	6:E	_
+5	fellow	fellow	ADJ	JJ	_	6	E	6:E	_
+6	players	player	NOUN	NNS	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	he	he	PRON	PRP	_	9	A	9:A|25:A|32:A|16:A|21:A	_
+9	retired	retire	VERB	VBD	_	2	H	2:H	_
+10	again	again	ADV	RB	_	9	D	9:D	_
+11	for	for	ADP	IN	_	13	R	13:R	_
+12	four	four	NUM	CD	_	13	E	13:E	_
+13	years	year	NOUN	NNS	_	9	D	9:D	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	but	but	CCONJ	CC	_	2	L	2:L	_
+16	returned	return	VERB	VBN	_	2	H	2:H	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	1996	1996	NUM	CD	_	16	D	16:D	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	at	at	ADP	IN	_	2	L	2:L	_
+21	age	age	NOUN	NN	_	2	H	2:H	_
+22	36	36	NUM	CD	_	21	E	21:E	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	to	to	PART	TO	_	2	L	2:L	_
+25	play	play	VERB	VB	_	2	H	2:H	_
+26	32	32	NUM	CD	_	27	E	27:E	_
+27	games	game	NOUN	NNS	_	25	A	25:A	_
+28	for	for	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	Lakers	Laker	NOUN	NNS	_	25	A	25:A	_
+31	before	before	SCONJ	IN	_	2	L	2:L	_
+32	retiring	retire	VERB	VBG	_	2	H	2:H	_
+33	for	for	ADP	IN	_	38	R	38:R	_
+34	the	the	DET	DT	_	38	E	38:E	_
+35	third	third	ADJ	JJ	_	38	E	38:E	_
+36	and	and	CCONJ	CC	_	35	N	35:N	_
+37	final	final	ADJ	JJ	_	35	C	35:C	_
+38	time	time	NOUN	NN	_	32	A	32:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

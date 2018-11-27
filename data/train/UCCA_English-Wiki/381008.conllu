@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 381008
+# text = He later dated his Rendition co - star Reese Witherspoon from about 2007 to 2009 .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	L	3:L	_
+3	dated	date	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	8	A	8:A	_
+5	Rendition	Rendition	NOUN	NN	_	8	A	8:A	_
+6	co	co	X	AFX	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	star	star	NOUN	NN	_	9	E	9:E	_
+9	Reese	Reese	PROPN	NNP	_	3	A	3:A	_
+10	Witherspoon	Witherspoon	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	from	from	ADP	IN	_	13	R	13:R	_
+12	about	about	ADP	IN	_	13	E	13:E	_
+13	2007	2007	NUM	CD	_	3	D	3:D	_
+14	to	to	ADP	IN	_	13	R	13:R	_
+15	2009	2009	NUM	CD	_	13	C	13:C	_
+16	.	.	PUNCT	.	_	13	U	13:U	_
+

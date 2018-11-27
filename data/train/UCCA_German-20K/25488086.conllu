@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25488086
+# text = Ich fühlte , dass man mich auf die Oberfläche zog , dass meine Brust wieder aufatmete , dann wurde ich ohnmächtig ... Gewiß bin ich durch das kräftige Reiben , womit man mich bearbeitete , bald wieder zu mir gekommen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	10	R	10:R	_
+5	man	man	PRON	PIS	_	10	A	10:A	_
+6	mich	ich	PRON	PRF	_	10	A	10:A	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Oberfläche	Oberfläche	NOUN	NN	_	10	A	10:A	_
+10	zog	ziehen	VERB	VVFIN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+13	meine	mein	DET	PPOSAT	_	14	E	14:E	_
+14	Brust	Brust	NOUN	NN	_	16	A	16:A	_
+15	wieder	wieder	ADV	NE	_	16	D	16:D	_
+16	aufatmete	aufatmen	VERB	VVFIN	_	10	H	10:H	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	dann	dann	ADV	ADV	_	2	L	2:L	_
+19	wurde	werden	AUX	NE	_	21	F	21:F	_
+20	ich	ich	PRON	PPER	_	21	A	21:A	_
+21	ohnmächtig	ohnmächtig	ADJ	ADJD	_	2	H	2:H	_
+22	...	...	PUNCT	$(	_	2	U	2:U	_
+23	Gewiß	gewiß	NOUN	NN	_	38	G	38:G	_
+24	bin	sein	AUX	VAFIN	_	38	F	38:F	_
+25	ich	ich	PRON	PPER	_	38	A	38:A	_
+26	durch	durch	ADP	APPR	_	29	R	29:R	_
+27	das	der	DET	ART	_	29	E	29:E	_
+28	kräftige	kräftig	ADJ	ADJA	_	29	E	29:E	_
+29	Reiben	Reiben	NOUN	NN	_	0	C	0:C|34:A	_
+30	,	,	PUNCT	$,	_	34	U	34:U	_
+31	womit	womit	PRON	VVFIN	_	34	R	34:R	_
+32	man	man	PRON	PIS	_	34	A	34:A|29:A	_
+33	mich	ich	PRON	PPER	_	34	A	34:A	_
+34	bearbeitete	bearbeitet	VERB	VVFIN	_	29	E	29:E	_
+35	,	,	PUNCT	$,	_	38	U	38:U	_
+36	bald	bald	ADV	ADV	_	38	D	38:D	_
+37	wieder	wieder	ADV	NE	_	38	D	38:D	_
+38	zu	zu	ADP	NE	_	2	H	2:H	_
+39	mir	ich	PRON	PPER	_	38	Terminal	38:Terminal	_
+40	gekommen	kommen	VERB	VVPP	_	38	Terminal	38:Terminal	_
+41	.	.	PUNCT	$.	_	38	U	38:U	_
+

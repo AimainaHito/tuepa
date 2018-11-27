@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25739001
+# text = Die ›Nautilus‹ war eben an die senkrechte Wand gekommen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	9	A	9:A	_
+3	war	sein	AUX	ADV	_	9	F	9:F	_
+4	eben	eben	ADV	ADV	_	9	D	9:D	_
+5	an	an	ADP	APPR	_	8	R	8:R	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	senkrechte	senkrecht	ADJ	ADJA	_	8	E	8:E	_
+8	Wand	Wand	NOUN	NN	_	9	A	9:A	_
+9	gekommen	kommen	VERB	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25758002
+# text = » Ei ! Meister Land , es scheint , Sie lieben solche Extra-Geschichten ! Ich hoffe , Sie glauben nicht daran . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ei	Ei	NOUN	NN	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Meister	Meister	NOUN	NN	_	5	E	5:E	_
+5	Land	Land	NOUN	NN	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	es	es	PRON	PPER	_	8	F	8:F	_
+8	scheint	scheinen	VERB	VVFIN	_	2	H	2:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	Sie	Sie|sie	PRON	PPER	_	11	A	11:A	_
+11	lieben	lieben	VERB	VVFIN	_	8	A	8:A	_
+12	solche	solch	PRON	ADJA	_	13	E	13:E	_
+13	Extra-Geschichten	Extra-Geschicht	NOUN	NN	_	11	A	11:A	_
+14	!	!	PUNCT	$.	_	2	U	2:U	_
+15	Ich	ich	PRON	PPER	_	16	A	16:A	_
+16	hoffe	hoffen	VERB	VVFIN	_	2	H	2:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	Sie	Sie|sie	PRON	PPER	_	19	A	19:A	_
+19	glauben	glauben	VERB	VVFIN	_	16	A	16:A	_
+20	nicht	nicht	PART	XY	_	19	D	19:D	_
+21	daran	daran	ADV	PAV	_	19	A	19:A	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+23	«	«	PUNCT	$(	_	19	U	19:U	_
+

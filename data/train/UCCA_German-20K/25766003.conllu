@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25766003
+# text = Aber hier war rückwärts ebensowenig möglich wie vorwärts , denn die Durchwege hatten sich hinter uns wieder geschlossen , und unser Fahrzeug war im Begriff einzufrieren .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	hier	hier	ADV	ADV	_	6	A	6:A	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	rückwärts	rückwärts	ADV	ADV	_	6	A	6:A	_
+5	ebensowenig	ebensowenig	ADV	ADV	_	6	D	6:D	_
+6	möglich	möglich	ADJ	ADJD	_	0	H	0:H	_
+7	wie	wie	ADP	KON	_	8	R	8:R	_
+8	vorwärts	vorwärts	ADV	ADV	_	6	H	6:H	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	denn	denn	SCONJ	KON	_	6	L	6:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Durchwege	Durchweg	NOUN	NN	_	14	A	14:A	_
+13	hatten	haben	AUX	VAFIN	_	14	D	14:D	_
+14	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+15	hinter	hinter	ADP	APPR	_	16	R	16:R	_
+16	uns	wir	PRON	NE	_	14	A	14:A	_
+17	wieder	wieder	ADV	TRUNC	_	14	D	14:D	_
+18	geschlossen	schließen	VERB	VVPP	_	14	Terminal	14:Terminal	_
+19	,	,	PUNCT	$,	_	6	U	6:U	_
+20	und	und	CCONJ	NE	_	6	L	6:L	_
+21	unser	unser	PRON	FM	_	22	E	22:E	_
+22	Fahrzeug	Fahrzeug	NOUN	NN	_	26	A	26:A	_
+23	war	sein	AUX	NE	_	26	F	26:F	_
+24	im	im	ADV	NE	_	25	R	25:R	_
+25	Begriff	Begriff	NOUN	NN	_	26	D	26:D	_
+26	einzufrieren	einzufrieren	VERB	VVINF	_	6	H	6:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

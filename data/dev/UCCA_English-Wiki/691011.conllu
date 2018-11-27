@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 691011
+# text = Dylan used the pseudonym Bob Landy to record as a piano player on the 1964 anthology album , The Blues Project , issued by Elektra Records .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A|8:A	_
+2	used	use	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	pseudonym	pseudonym	NOUN	NN	_	2	A	2:A	_
+5	Bob	Bob	PROPN	NNP	_	4	E	4:E	_
+6	Landy	Landy	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	to	to	PART	TO	_	8	F	8:F	_
+8	record	record	VERB	VB	_	2	A	2:A	_
+9	as	as	ADP	IN	_	12	R	12:R	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	piano	piano	NOUN	NN	_	12	E	12:E	_
+12	player	player	NOUN	NN	_	8	A	8:A	_
+13	on	on	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	1964	1964	NUM	CD	_	23	D	23:D	_
+16	anthology	anthology	NOUN	NN	_	17	E	17:E	_
+17	album	album	NOUN	NN	_	23	A	23:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	The	the	DET	DT	_	17	E	17:E	_
+20	Blues	Blues	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Project	project	NOUN	NN	_	19	Terminal	19:Terminal	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	issued	issue	VERB	VBN	_	8	A	8:A	_
+24	by	by	ADP	IN	_	26	R	26:R	_
+25	Elektra	Elektra	PROPN	NNP	_	26	E	26:E	_
+26	Records	record	NOUN	NNS	_	23	A	23:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

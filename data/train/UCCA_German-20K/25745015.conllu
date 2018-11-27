@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25745015
+# text = Die anfangs so belebte Unterhaltung stockte , und wir neigten zum Schlaf .
+1	Die	der	DET	ART	_	5	E	5:E	_
+2	anfangs	anfangs	ADV	ADV	_	4	D	4:D	_
+3	so	so	ADV	ADV	_	4	D	4:D	_
+4	belebte	belebt	ADJ	ADJA	_	6	A	6:A	_
+5	Unterhaltung	unterhaltung	NOUN	NN	_	4	A	4:A	_
+6	stockte	stocken	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	wir	wir	PRON	NE	_	10	A	10:A	_
+10	neigten	neigen	VERB	VVFIN	_	6	H	6:H	_
+11	zum	zum	ADP	NN	_	12	R	12:R	_
+12	Schlaf	Schlaf	NOUN	NE	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

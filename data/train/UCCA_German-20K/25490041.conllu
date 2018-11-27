@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25490041
+# text = « » Das glaub' ich « , war meine Antwort .
+1	«	«	PUNCT	$(	_	8	U	8:U	_
+2	»	»	PUNCT	$(	_	8	U	8:U	_
+3	Das	d	PROPN	ART	_	4	A	4:A	_
+4	glaub'	glaub'	PROPN	$(	_	8	A	8:A	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	war	sein	AUX	ADV	_	0	H	0:H	_
+9	meine	mein	DET	PPOSAT	_	10	E	10:E	_
+10	Antwort	Antwort	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

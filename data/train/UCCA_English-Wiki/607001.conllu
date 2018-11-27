@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 607001
+# text = Critical reception was unfavourable , and McCartney expressed disappointment with the album .
+1	Critical	critical	ADJ	JJ	_	2	E	2:E	_
+2	reception	reception	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	unfavourable	unfavourable	ADJ	JJ	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	McCartney	McCartney	PROPN	NNP	_	9	A	9:A	_
+8	expressed	express	VERB	VBN	_	9	D	9:D	_
+9	disappointment	disappointment	NOUN	NN	_	4	H	4:H	_
+10	with	with	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	album	album	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

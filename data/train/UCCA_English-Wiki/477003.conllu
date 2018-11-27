@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 477003
+# text = In 2010 Johnson endorsed Barbara Boxer in her race for re - election .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2010	2010	NUM	CD	_	4	D	4:D	_
+3	Johnson	Johnson	PROPN	NNP	_	4	A	4:A	_
+4	endorsed	endorse	VERB	VBD	_	0	H	0:H	_
+5	Barbara	Barbara	PROPN	NNP	_	4	A	4:A	_
+6	Boxer	boxer	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	her	she	PRON	PRP$	_	9	A	9:A	_
+9	race	race	NOUN	NN	_	4	A	4:A	_
+10	for	for	ADP	IN	_	13	R	13:R	_
+11	re	re	ADJ	JJ	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	election	election	NOUN	NN	_	9	A	9:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

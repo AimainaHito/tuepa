@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25463013
+# text = Zwanzigmal täglich war eine irrige Schätzung , eine optische Täuschung einiger Matrosen imstande , unerträglichen Schrecken zu veranlassen , und diese zwanzigfach wiederholten Gemüts bewegungen hielten uns in einem Zustand so arger Spannung , dass eine Reaktion nicht ausbleiben konnte .
+1	Zwanzigmal	Zwanzigmal	ADV	ADV	_	2	E	2:E	_
+2	täglich	täglich	ADJ	ADJD	_	18	D	18:D	_
+3	war	sein	AUX	ADV	_	18	F	18:F	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	irrige	irrig	ADJ	ADJA	_	6	E	6:E	_
+6	Schätzung	Schätzung	NOUN	NN	_	18	A	18:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	optische	optisch	ADJ	ADJA	_	10	E	10:E	_
+10	Täuschung	Täuschung	NOUN	NN	_	6	C	6:C	_
+11	einiger	einige	PRON	PIAT	_	12	R	12:R	_
+12	Matrosen	Matrose	NOUN	NE	_	6	E	6:E	_
+13	imstande	imstande	ADV	NE	_	18	D	18:D	_
+14	,	,	PUNCT	$,	_	18	U	18:U	_
+15	unerträglichen	unerträglichen	ADJ	ADJA	_	18	A	18:A	_
+16	Schrecken	Schrecken	NOUN	NN	_	15	A	15:A	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	veranlassen	veranlassen	VERB	VVINF	_	0	H	0:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	und	und	CCONJ	NE	_	18	L	18:L	_
+21	diese	dies	PRON	PDS	_	25	E	25:E	_
+22	zwanzigfach	zwanzigfach	ADP	ADV	_	23	D	23:D	_
+23	wiederholten	wiederholt	ADJ	ADJA	_	26	A	26:A	_
+24	Gemüts	Gemüt	NOUN	NE	_	25	E	25:E	_
+25	bewegungen	bewegungen	VERB	NN	_	23	A	23:A	_
+26	hielten	halten	AUX	VVFIN	_	18	H	18:H	_
+27	uns	wir	PRON	NN	_	26	A	26:A	_
+28	in	in	ADP	APPR	_	30	R	30:R	_
+29	einem	ein	DET	ART	_	30	E	30:E	_
+30	Zustand	Zustand	NOUN	NN	_	26	A	26:A	_
+31	so	so	ADV	ADV	_	33	R	33:R	_
+32	arger	arg	ADJ	ADJA	_	33	E	33:E	_
+33	Spannung	Spannung	NOUN	NN	_	30	E	30:E	_
+34	,	,	PUNCT	$,	_	26	U	26:U	_
+35	dass	dass	SCONJ	KOUS	_	39	R	39:R	_
+36	eine	ein	DET	ART	_	37	E	37:E	_
+37	Reaktion	Reaktion	NOUN	NN	_	39	A	39:A	_
+38	nicht	nicht	PART	CARD	_	39	D	39:D	_
+39	ausbleiben	ausbleiben	VERB	VVINF	_	26	A	26:A	_
+40	konnte	können	AUX	VMFIN	_	39	D	39:D	_
+41	.	.	PUNCT	$.	_	39	U	39:U	_
+

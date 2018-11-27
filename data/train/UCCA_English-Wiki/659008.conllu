@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 659008
+# text = Carey recalled that she kept her singer - songwriter works a secret and noted that Patricia had " never been a pushy mom . She never said , ' Give it more of an operatic feel ' . I respect opera like crazy , but it did n't influence me . "
+1	Carey	Carey	PROPN	NNP	_	2	A	2:A	_
+2	recalled	recall	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	12	F	12:F	_
+4	she	she	PRON	PRP	_	12	A	12:A	_
+5	kept	keep	VERB	VBD	_	12	D	12:D	_
+6	her	she	PRON	PRP$	_	10	E	10:E	_
+7	singer	singer	NOUN	NN	_	10	E	10:E	_
+8	-	-	PUNCT	HYPH	_	7	U	7:U	_
+9	songwriter	songwriter	NOUN	NN	_	7	C	7:C	_
+10	works	work	VERB	VBZ	_	12	A	12:A	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	secret	secret	NOUN	NN	_	2	A	2:A	_
+13	and	and	CCONJ	CC	_	2	L	2:L	_
+14	noted	note	VERB	VBD	_	2	H	2:H	_
+15	that	that	SCONJ	IN	_	23	F	23:F	_
+16	Patricia	Patricia	PROPN	NNP	_	23	A	23:A	_
+17	had	have	AUX	VBD	_	23	F	23:F	_
+18	"	"	PUNCT	``	_	23	U	23:U	_
+19	never	never	ADV	RB	_	23	D	23:D	_
+20	been	be	AUX	VBN	_	23	D	23:D	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	pushy	pushy	ADJ	JJ	_	23	E	23:E	_
+23	mom	mom	NOUN	NN	_	14	A	14:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+25	She	she	PRON	PRP	_	27	A	27:A	_
+26	never	never	ADV	RB	_	27	D	27:D	_
+27	said	say	VERB	VBD	_	23	H	23:H	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	'	'	PUNCT	``	_	27	U	27:U	_
+30	Give	give	VERB	VB	_	27	A	27:A	_
+31	it	it	PRON	PRP	_	30	F	30:F	_
+32	more	more	ADJ	JJR	_	36	E	36:E	_
+33	of	of	ADP	IN	_	32	R	32:R	_
+34	an	a	DET	DT	_	36	E	36:E	_
+35	operatic	operatic	ADJ	JJ	_	36	E	36:E	_
+36	feel	feel	NOUN	NN	_	30	A	30:A	_
+37	'	'	PUNCT	''	_	23	U	23:U	_
+38	.	.	PUNCT	.	_	23	U	23:U	_
+39	I	I	PRON	PRP	_	40	A	40:A	_
+40	respect	respect	VERB	VBP	_	23	H	23:H	_
+41	opera	opera	NOUN	NN	_	40	A	40:A	_
+42	like	like	ADP	IN	_	43	E	43:E	_
+43	crazy	crazy	ADJ	JJ	_	40	D	40:D	_
+44	,	,	PUNCT	,	_	23	U	23:U	_
+45	but	but	CCONJ	CC	_	23	L	23:L	_
+46	it	it	PRON	PRP	_	49	F	49:F	_
+47	did	do	AUX	VBD	_	49	F	49:F	_
+48	n't	not	PART	RB	_	49	D	49:D	_
+49	influence	influence	VERB	VB	_	23	H	23:H	_
+50	me	I	PRON	PRP	_	49	A	49:A	_
+51	.	.	PUNCT	.	_	49	U	49:U	_
+52	"	"	PUNCT	''	_	49	U	49:U	_
+

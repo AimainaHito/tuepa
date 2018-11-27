@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 214004
+# text = After graduating from Notre Dame in 2000 , Dunst continued the acting career that she had begun .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	graduating	graduate	VERB	VBG	_	0	H	0:H	_
+3	from	from	ADP	IN	_	4	R	4:R	_
+4	Notre	Notre	PROPN	NNP	_	2	A	2:A	_
+5	Dame	Dame	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	2000	2000	NUM	CD	_	2	D	2:D	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Dunst	Dunst	PROPN	NNP	_	10	A	10:A|2:A	_
+10	continued	continue	VERB	VBD	_	2	H	2:H	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	acting	act	VERB	VBG	_	13	E	13:E	_
+13	career	career	NOUN	NN	_	10	A	10:A	_
+14	that	that	SCONJ	IN	_	17	F	17:F	_
+15	she	she	PRON	PRP	_	17	A	17:A	_
+16	had	have	AUX	VBD	_	17	F	17:F	_
+17	begun	begin	VERB	VBN	_	13	E	13:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

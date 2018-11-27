@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25451000
+# text = » Ungefähr 17.000 .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ungefähr	ungefähr	NOUN	NE	_	3	D	3:D	_
+3	17.000	17.0	NUM	CARD	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

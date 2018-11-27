@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25499006
+# text = Ich richtete keine Frage an ihn , aber er erriet meine Gedanken und antwortete von selbst auf Fragen , die ich gern getan hätte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	richtete	richten	VERB	VVFIN	_	0	H	0:H	_
+3	keine	kein	PRON	PIAT	_	2	D	2:D	_
+4	Frage	Frage	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	APPR	_	6	R	6:R	_
+6	ihn	er	PRON	PPER	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	aber	aber	CCONJ	KON	_	2	L	2:L	_
+9	er	er	PRON	PPER	_	10	A	10:A|14:A	_
+10	erriet	erraten	VERB	VVFIN	_	2	H	2:H	_
+11	meine	mein	DET	VVFIN	_	12	E	12:E	_
+12	Gedanken	Gedanke	NOUN	NN	_	10	A	10:A	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	antwortete	antworten	VERB	VVFIN	_	2	H	2:H	_
+15	von	von	ADP	NN	_	14	D	14:D	_
+16	selbst	selbst	ADV	VVFIN	_	15	Terminal	15:Terminal	_
+17	auf	auf	ADP	APPR	_	18	R	18:R	_
+18	Fragen	Frage	NOUN	NN	_	14	A	14:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	die	der	PRON	PRELS	_	23	R	23:R	_
+21	ich	ich	PRON	PPER	_	23	A	23:A	_
+22	gern	gern	ADV	ADV	_	23	D	23:D	_
+23	getan	tun	VERB	VVPP	_	18	E	18:E	_
+24	hätte	haben	AUX	VAFIN	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 446005
+# text = Il n' avait qu' à allumer ses fourneaux , à chauffer , à démarrer !
+1	Il	il	PRON	_	_	3	A	3:A|6:A|11:A|14:A	_
+2	n'	ne	ADV	_	_	3	D	3:D	_
+3	avait	avoir	VERB	_	_	0	H	0:H	_
+4	qu'	que	ADV	_	_	2	Terminal	2:Terminal	_
+5	à	à	ADP	_	_	3	F	3:F	_
+6	allumer	allumer	VERB	_	_	3	A	3:A	_
+7	ses	son	DET	_	_	8	E	8:E	_
+8	fourneaux	fourneau	NOUN	_	_	6	A	6:A	_
+9	,	,	PUNCT	_	_	6	U	6:U	_
+10	à	à	ADP	_	_	11	F	11:F	_
+11	chauffer	chauffer	VERB	_	_	6	C	6:C	_
+12	,	,	PUNCT	_	_	6	U	6:U	_
+13	à	à	ADP	_	_	14	F	14:F	_
+14	démarrer	démarrer	VERB	_	_	6	C	6:C	_
+15	!	!	PUNCT	_	_	14	U	14:U	_
+

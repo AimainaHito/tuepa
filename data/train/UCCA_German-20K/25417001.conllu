@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25417001
+# text = Daß ein einzelner Privatmann eine solche Maschine zur Verfügung habe , war unwahrscheinlich .
+1	Daß	daß	SCONJ	KOUS	_	9	R	9:R	_
+2	ein	ein	DET	ART	_	4	E	4:E	_
+3	einzelner	einzeln	ADJ	ADJA	_	4	E	4:E	_
+4	Privatmann	Privatmann	NOUN	NN	_	9	A	9:A	_
+5	eine	ein	DET	ART	_	7	E	7:E	_
+6	solche	solch	PRON	ADJA	_	7	E	7:E	_
+7	Maschine	Maschine	NOUN	NN	_	9	A	9:A	_
+8	zur	zur	ADP	NE	_	9	R	9:R	_
+9	Verfügung	Verfügung	NOUN	NN	_	13	A	13:A	_
+10	habe	haben	AUX	VAFIN	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	13	U	13:U	_
+12	war	sein	AUX	ADV	_	13	F	13:F	_
+13	unwahrscheinlich	unwahrscheinlich	ADJ	ADJD	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

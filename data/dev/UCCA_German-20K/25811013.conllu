@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25811013
+# text = Plötzlich blieb die ›Nautilus‹ stehen .
+1	Plötzlich	plötzlich	ADJ	ADJD	_	5	D	5:D	_
+2	blieb	bleiben	AUX	VVFIN	_	5	D	5:D	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	5	A	5:A	_
+5	stehen	stehen	VERB	VVFIN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

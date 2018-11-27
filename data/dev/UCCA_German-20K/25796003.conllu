@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25796003
+# text = Doch wie lange sollte die Fahrt unter der Eis decke noch dauern ? Einen Tag noch ?
+1	Doch	doch	ADV	KON	_	12	L	12:L	_
+2	wie	wie	ADV	ADV	_	3	E	3:E	_
+3	lange	lange	ADJ	ADV	_	12	D	12:D	_
+4	sollte	sollen	AUX	VMFIN	_	12	D	12:D	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Fahrt	Fahrt	NOUN	NN	_	0	C	0:C|15:A	_
+7	unter	unter	ADP	ADJD	_	10	R	10:R	_
+8	der	der	DET	ART	_	10	E	10:E	_
+9	Eis	Eis	NOUN	NN	_	10	E	10:E	_
+10	decke	deck	ADJ	NN	_	12	A	12:A	_
+11	noch	noch	ADV	CARD	_	12	D	12:D	_
+12	dauern	dauern	VERB	VVINF	_	0	H	0:H	_
+13	?	?	PUNCT	$.	_	15	U	15:U	_
+14	Einen	ein	NUM	ART	_	15	E	15:E	_
+15	Tag	Tag	NOUN	NN	_	12	H	12:H	_
+16	noch	noch	ADV	VVINF	_	15	D	15:D	_
+17	?	?	PUNCT	$.	_	15	U	15:U	_
+

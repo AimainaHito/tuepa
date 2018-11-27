@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25522005
+# text = Vorder- und Hinter teil der ›Nautilus‹ zeigten die spindelförmige Gestalt , die ihn einer langen Zigarre vergleichbar machte .
+1	Vorder-	Vorder-	NOUN	NE	_	7	A	7:A	_
+2	und	und	CCONJ	NE	_	1	N	1:N	_
+3	Hinter	hinter	NOUN	APPR	_	4	E	4:E	_
+4	teil	teil	ADV	NE	_	0	C	0:C|1:C	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	1	E	1:E	_
+7	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	spindelförmige	spindelförmige	ADJ	ADJA	_	10	E	10:E	_
+10	Gestalt	Gestalt	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	PRON	PRELS	_	17	R	17:R	_
+13	ihn	er	PRON	PPER	_	17	A	17:A	_
+14	einer	ein	DET	ART	_	16	E	16:E	_
+15	langen	lang	ADJ	ADJA	_	16	E	16:E	_
+16	Zigarre	Zigarre	NOUN	NN	_	17	A	17:A	_
+17	vergleichbar	vergleichbar	ADJ	ADJD	_	10	E	10:E	_
+18	machte	machen	VERB	VVFIN	_	17	D	17:D	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

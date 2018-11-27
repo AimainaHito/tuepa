@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25783008
+# text = Nur , als er nach einer kleinen Weile sich zu mir wendete , sagte ich , indem ich mich eines Ausdrucks , den er in der Torres-Straße gebraucht hatte , bediente :
+1	Nur	nur	ADV	ADV	_	9	L	9:L	_
+2	,	,	PUNCT	$,	_	9	U	9:U	_
+3	als	als	SCONJ	KOUS	_	9	L	9:L	_
+4	er	er	PRON	PPER	_	9	A	9:A	_
+5	nach	nach	ADP	NN	_	8	R	8:R	_
+6	einer	ein	DET	PIS	_	8	E	8:E	_
+7	kleinen	klein	ADJ	ADJA	_	8	E	8:E	_
+8	Weile	Weile	NOUN	NN	_	9	D	9:D	_
+9	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+10	zu	zu	ADP	VVINF	_	11	R	11:R	_
+11	mir	ich	PRON	PPER	_	9	A	9:A	_
+12	wendete	wenden	VERB	VVFIN	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	sagte	sagen	VERB	VVFIN	_	9	H	9:H	_
+15	ich	ich	PRON	PPER	_	14	A	14:A	_
+16	,	,	PUNCT	$,	_	9	U	9:U	_
+17	indem	indem	SCONJ	KOUS	_	9	L	9:L	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	mich	ich	PRON	PRF	_	9	H	9:H	_
+20	eines	ein	DET	ART	_	21	R	21:R	_
+21	Ausdrucks	Ausdruck	NOUN	NN	_	19	A	19:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	den	der	PRON	PRELS	_	28	R	28:R	_
+24	er	er	PRON	PPER	_	28	A	28:A	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	der	der	DET	ART	_	27	E	27:E	_
+27	Torres-Straße	Torres-Straße	NOUN	NN	_	28	A	28:A	_
+28	gebraucht	brauchen	VERB	VVPP	_	21	E	21:E	_
+29	hatte	haben	AUX	VAFIN	_	28	F	28:F	_
+30	,	,	PUNCT	$,	_	19	U	19:U	_
+31	bediente	bedienen	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+32	:	:	PUNCT	$.	_	19	U	19:U	_
+

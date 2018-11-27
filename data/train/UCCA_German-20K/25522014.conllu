@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25522014
+# text = Wir hatten nichts in Sicht .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	hatten	haben	VERB	VAFIN	_	0	H	0:H	_
+3	nichts	nichts	PRON	NN	_	2	A	2:A	_
+4	in	in	ADP	APPR	_	2	Terminal	2:Terminal	_
+5	Sicht	Sicht	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+

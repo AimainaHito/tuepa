@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25775010
+# text = Im Wasser jedoch , muß ich sagen , das vorzugsweise ihr Element ist , verstehen sich diese Tiere mit beweglichem Rückgrat , engem Becken , glattem , kurzhaarigem Fell und handförmigen Füßen vortrefflich aufs Schwimmen .
+1	Im	Im	ADJ	NN	_	2	R	2:R	_
+2	Wasser	Wasser	NOUN	NN	_	35	A	35:A	_
+3	jedoch	jedoch	ADV	ADV	_	35	L	35:L	_
+4	,	,	PUNCT	$,	_	35	U	35:U	_
+5	muß	müssen	AUX	VMFIN	_	7	D	7:D	_
+6	ich	ich	PRON	PPER	_	7	A	7:A	_
+7	sagen	sagen	VERB	VVINF	_	35	H	35:H	_
+8	,	,	PUNCT	$,	_	35	U	35:U	_
+9	das	der	PRON	PRELS	_	13	R	13:R	_
+10	vorzugsweise	vorzugsweise	ADV	ADV	_	13	D	13:D	_
+11	ihr	ihr	DET	PPOSAT	_	12	E	12:E	_
+12	Element	Element	NOUN	NN	_	13	A	13:A	_
+13	ist	sein	AUX	VVFIN	_	2	E	2:E	_
+14	,	,	PUNCT	$,	_	35	U	35:U	_
+15	verstehen	verstehen	VERB	VVFIN	_	35	D	35:D	_
+16	sich	er|es|sie	PRON	PRF	_	15	Terminal	15:Terminal	_
+17	diese	dies	PRON	PDAT	_	18	E	18:E	_
+18	Tiere	Tier	NOUN	NN	_	35	A	35:A	_
+19	mit	mit	ADP	APPR	_	21	R	21:R	_
+20	beweglichem	beweglich	ADJ	ADJA	_	21	E	21:E	_
+21	Rückgrat	Rückgrat	NOUN	NN	_	18	E	18:E	_
+22	,	,	PUNCT	$,	_	18	U	18:U	_
+23	engem	eng	ADJ	ADJA	_	24	E	24:E	_
+24	Becken	Becken	NOUN	NN	_	18	E	18:E	_
+25	,	,	PUNCT	$,	_	18	U	18:U	_
+26	glattem	glattem	ADJ	ADJA	_	29	E	29:E	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	kurzhaarigem	kurzhaarigem	ADJ	NN	_	26	C	26:C	_
+29	Fell	Fell	NOUN	NN	_	18	E	18:E	_
+30	und	und	CCONJ	NE	_	29	N	29:N	_
+31	handförmigen	handförmig	ADJ	ADJA	_	32	E	32:E	_
+32	Füßen	Fuß	NOUN	NN	_	29	C	29:C	_
+33	vortrefflich	vortrefflich	ADJ	ADJD	_	35	D	35:D	_
+34	aufs	aufs	ADJ	NN	_	35	R	35:R	_
+35	Schwimmen	Schwimmen	NOUN	NN	_	0	H	0:H	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

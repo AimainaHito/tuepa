@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25687003
+# text = Mehr wie ein Dutzend Muscheln bekam er bei einem Tauchen nicht , denn er musste sie von der Bank , wo sie mit ihrem starken Byssus befestigt waren , losreißen .
+1	Mehr	mehr	ADV	ADV	_	6	A	6:A	_
+2	wie	wie	ADP	ADV	_	1	F	1:F	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Dutzend	Dutzend	NOUN	NN	_	5	E	5:E	_
+5	Muscheln	Muschel	NOUN	NN	_	1	A	1:A	_
+6	bekam	bekommen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A|10:A	_
+8	bei	bei	ADP	APPR	_	10	R	10:R	_
+9	einem	ein	DET	ART	_	10	E	10:E	_
+10	Tauchen	tauchen	NOUN	ADJA	_	6	H	6:H	_
+11	nicht	nicht	PART	CARD	_	6	D	6:D	_
+12	,	,	PUNCT	$,	_	6	U	6:U	_
+13	denn	denn	SCONJ	KON	_	6	L	6:L	_
+14	er	er	PRON	PPER	_	30	A	30:A	_
+15	musste	müssen	AUX	CARD	_	30	D	30:D	_
+16	sie	sie	PRON	TRUNC	_	30	A	30:A	_
+17	von	von	ADP	NN	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Bank	Bank	NOUN	NN	_	30	A	30:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	wo	wo	ADV	NN	_	27	R	27:R	_
+22	sie	sie	PRON	ADV	_	27	A	27:A	_
+23	mit	mit	ADP	APPR	_	26	R	26:R	_
+24	ihrem	ihr	DET	PPOSAT	_	26	E	26:E	_
+25	starken	stark	ADJ	ADJA	_	26	E	26:E	_
+26	Byssus	Byssus	NOUN	NN	_	27	A	27:A	_
+27	befestigt	befestigen	VERB	VVPP	_	19	E	19:E	_
+28	waren	sein	AUX	VAFIN	_	27	F	27:F	_
+29	,	,	PUNCT	$,	_	30	U	30:U	_
+30	losreißen	losreißen	VERB	NN	_	6	H	6:H	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

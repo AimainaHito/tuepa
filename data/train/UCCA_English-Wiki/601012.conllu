@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 601012
+# text = In 1965 , the Beatles released the McCartney composition " Yesterday " , featuring a string quartet .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1965	1965	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Beatles	Beatles	PROPN	NNPS	_	6	A	6:A	_
+6	released	release	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	McCartney	McCartney	PROPN	NNP	_	9	E	9:E	_
+9	composition	composition	NOUN	NN	_	11	E	11:E	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	Yesterday	yesterday	NOUN	NN	_	6	A	6:A	_
+12	"	"	PUNCT	''	_	11	U	11:U	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	featuring	feature	VERB	VBG	_	11	E	11:E	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	string	string	NOUN	NN	_	17	E	17:E	_
+17	quartet	quartet	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

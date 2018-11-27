@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 540001
+# text = The canine made his debut in Where the North Begins , a film about an abandoned pup who is raised by wolves and befriends a fur trapper .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	canine	canine	NOUN	NN	_	5	A	5:A	_
+3	made	make	VERB	VBD	_	5	F	5:F	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	debut	debut	NOUN	NN	_	0	H	0:H	_
+6	in	in	SCONJ	IN	_	7	R	7:R	_
+7	Where	where	ADV	WRB	_	5	A	5:A	_
+8	the	the	DET	DT	_	7	Terminal	7:Terminal	_
+9	North	North	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	Begins	begins	PROPN	NNPS	_	7	Terminal	7:Terminal	_
+11	,	,	PUNCT	,	_	7	U	7:U	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	film	film	NOUN	NN	_	7	E	7:E	_
+14	about	about	ADP	IN	_	17	R	17:R	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	abandoned	abandon	ADJ	JJ	_	17	E	17:E	_
+17	pup	pup	NOUN	NN	_	13	E	13:E	_
+18	who	who	PRON	WP	_	20	F	20:F	_
+19	is	be	AUX	VBZ	_	20	F	20:F	_
+20	raised	raise	VERB	VBN	_	17	E	17:E	_
+21	by	by	ADP	IN	_	22	R	22:R	_
+22	wolves	wolf	NOUN	NNS	_	20	A	20:A	_
+23	and	and	CCONJ	CC	_	20	L	20:L	_
+24	befriends	befriend	VERB	VBZ	_	20	H	20:H	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	fur	fur	NOUN	NN	_	27	E	27:E	_
+27	trapper	trapper	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

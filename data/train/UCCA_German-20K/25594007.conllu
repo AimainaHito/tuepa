@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25594007
+# text = Der Boden des Waldes war mit spitzen Blöcken bedeckt , denen man nicht leicht ausweichen konnte .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Boden	Boden	NOUN	NN	_	9	A	9:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Waldes	Wald	NOUN	NN	_	2	E	2:E	_
+5	war	sein	AUX	ADV	_	9	F	9:F	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	spitzen	spitz	ADJ	VVFIN	_	8	E	8:E	_
+8	Blöcken	Block	NOUN	NN	_	9	A	9:A	_
+9	bedeckt	bedecken	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	denen	der	PRON	PRELS	_	15	R	15:R	_
+12	man	man	PRON	PIS	_	15	A	15:A	_
+13	nicht	nicht	PART	XY	_	14	E	14:E	_
+14	leicht	leicht	ADJ	ADJD	_	15	D	15:D	_
+15	ausweichen	ausweichen	VERB	VVINF	_	8	E	8:E	_
+16	konnte	können	AUX	VMFIN	_	15	D	15:D	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

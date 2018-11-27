@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 526003
+# text = The Clock ( 1945 ) was her first straight dramatic film , opposite Robert Walker .
+1	The	the	DET	DT	_	6	A	6:A	_
+2	Clock	clock	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+4	1945	1945	NUM	CD	_	1	E	1:E	_
+5	)	)	PUNCT	-RRB-	_	6	U	6:U	_
+6	was	be	VERB	VBD	_	0	H	0:H	_
+7	her	she	PRON	PRP$	_	11	E	11:E	_
+8	first	first	ADV	RB	_	11	E	11:E	_
+9	straight	straight	ADV	RB	_	10	E	10:E	_
+10	dramatic	dramatic	ADJ	JJ	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	opposite	opposite	SCONJ	IN	_	14	R	14:R	_
+14	Robert	Robert	PROPN	NNP	_	11	E	11:E	_
+15	Walker	Walker	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

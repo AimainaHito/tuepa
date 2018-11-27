@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 147004
+# text = The move to Hollywood in 1932 cemented the couple 's estrangement , and in 1934 , she traveled to Mexico to get a quick divorce .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	move	move	NOUN	NN	_	7	A	7:A	_
+3	to	to	ADP	IN	_	4	R	4:R	_
+4	Hollywood	Hollywood	PROPN	NNP	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1932	1932	NUM	CD	_	7	D	7:D	_
+7	cemented	cement	VERB	VBD	_	0	H	0:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	couple	couple	NOUN	NN	_	11	A	11:A|2:A	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	estrangement	estrangement	NOUN	NN	_	7	A	7:A	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	and	and	CCONJ	CC	_	7	L	7:L	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	1934	1934	NUM	CD	_	18	D	18:D	_
+16	,	,	PUNCT	,	_	18	U	18:U	_
+17	she	she	PRON	PRP	_	18	A	18:A|22:A	_
+18	traveled	travel	VERB	VBD	_	7	H	7:H	_
+19	to	to	ADP	IN	_	20	R	20:R	_
+20	Mexico	Mexico	PROPN	NNP	_	18	A	18:A	_
+21	to	to	PART	TO	_	22	R	22:R	_
+22	get	get	VERB	VB	_	18	A	18:A	_
+23	a	a	DET	DT	_	25	E	25:E	_
+24	quick	quick	ADJ	JJ	_	25	E	25:E	_
+25	divorce	divorce	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

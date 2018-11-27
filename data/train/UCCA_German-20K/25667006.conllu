@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25667006
+# text = Ferner war bei der gleichmäßigen Temperatur nicht einmal ein Katarrh zu befürchten .
+1	Ferner	fern	ADV	ADV	_	12	L	12:L	_
+2	war	sein	AUX	ADV	_	12	D	12:D	_
+3	bei	bei	ADP	APPR	_	6	R	6:R	_
+4	der	der	DET	ART	_	6	E	6:E	_
+5	gleichmäßigen	gleichmäßig	ADJ	ADJA	_	6	E	6:E	_
+6	Temperatur	Temperatur	NOUN	NN	_	12	A	12:A	_
+7	nicht	nicht	PART	XY	_	12	D	12:D	_
+8	einmal	einmal	ADV	ADV	_	7	E	7:E	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Katarrh	Katarrh	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	befürchten	befürchten	VERB	VVINF	_	0	H	0:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

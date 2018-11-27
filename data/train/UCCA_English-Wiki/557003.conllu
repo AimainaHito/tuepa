@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 557003
+# text = Asked by receptionist Marion Keisker what kind of singer he was , Presley responded , " I sing all kinds .
+1	Asked	ask	VERB	VBN	_	0	H	0:H	_
+2	by	by	ADP	IN	_	4	R	4:R	_
+3	receptionist	receptionist	NOUN	NN	_	4	E	4:E	_
+4	Marion	Marion	PROPN	NNP	_	1	A	1:A	_
+5	Keisker	Keisker	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	what	what	DET	WDT	_	9	R	9:R	_
+7	kind	kind	NOUN	NN	_	9	E	9:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	singer	singer	NOUN	NN	_	1	A	1:A	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	was	be	VERB	VBD	_	9	E	9:E	_
+12	,	,	PUNCT	,	_	1	U	1:U	_
+13	Presley	Presley	PRON	PRP	_	14	A	14:A|1:A	_
+14	responded	respond	VERB	VBD	_	1	H	1:H	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	"	"	PUNCT	''	_	14	U	14:U	_
+17	I	I	PRON	PRP	_	18	A	18:A	_
+18	sing	s	VERB	VBG	_	14	A	14:A	_
+19	all	all	DET	DT	_	20	E	20:E	_
+20	kinds	kind	NOUN	NNS	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

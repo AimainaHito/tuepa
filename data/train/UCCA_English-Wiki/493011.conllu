@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 493011
+# text = At the age of nine , his dancing during the newly introduced music and movement classes was strikingly imaginative : teachers called his interpretations " vividly artistic " and his poise " astonishing " for a child .
+1	At	at	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	age	age	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	nine	nine	NUM	CD	_	3	E	3:E	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	his	he	PRON	PRP$	_	8	A	8:A	_
+8	dancing	dancing	NOUN	NN	_	17	A	17:A	_
+9	during	during	ADP	IN	_	3	L	3:L	_
+10	the	the	DET	DT	_	16	E	16:E	_
+11	newly	newly	ADV	RB	_	12	D	12:D	_
+12	introduced	introduce	VERB	VBN	_	3	H	3:H	_
+13	music	music	NOUN	NN	_	16	E	16:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	movement	movement	NOUN	NN	_	13	C	13:C	_
+16	classes	class	NOUN	NNS	_	12	A	12:A	_
+17	was	be	AUX	VBD	_	3	H	3:H	_
+18	strikingly	strikingly	ADV	RB	_	19	E	19:E	_
+19	imaginative	imaginative	ADJ	JJ	_	17	A	17:A	_
+20	:	:	PUNCT	:	_	3	U	3:U	_
+21	teachers	teacher	NOUN	NNS	_	22	A	22:A|31:A	_
+22	called	call	VERB	VBD	_	3	H	3:H	_
+23	his	he	PRON	PRP$	_	24	A	24:A	_
+24	interpretations	interpretation	NOUN	NNS	_	22	A	22:A	_
+25	"	"	PUNCT	``	_	22	U	22:U	_
+26	vividly	vividly	ADV	RB	_	27	E	27:E	_
+27	artistic	artistic	ADJ	JJ	_	22	A	22:A	_
+28	"	"	PUNCT	''	_	3	U	3:U	_
+29	and	and	CCONJ	CC	_	3	L	3:L	_
+30	his	he	PRON	PRP$	_	31	A	31:A	_
+31	poise	poise	NOUN	NN	_	3	H	3:H	_
+32	"	"	PUNCT	``	_	31	U	31:U	_
+33	astonishing	astonish	NOUN	NN	_	31	A	31:A	_
+34	"	"	PUNCT	''	_	33	U	33:U	_
+35	for	for	ADP	IN	_	37	R	37:R	_
+36	a	a	DET	DT	_	37	E	37:E	_
+37	child	child	NOUN	NN	_	33	E	33:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

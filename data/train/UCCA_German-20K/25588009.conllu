@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25588009
+# text = Spaziergang im Freien
+1	Spaziergang	Spaziergang	ADP	NN	_	0	H	0:H	_
+2	im	im	ADJ	NE	_	3	R	3:R	_
+3	Freien	frei	NOUN	ADJA	_	1	A	1:A	_
+

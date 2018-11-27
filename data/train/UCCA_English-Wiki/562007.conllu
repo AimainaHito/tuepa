@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 562007
+# text = He began a tour of the Midwest in mid - May , taking in 15 cities in as many days .
+1	He	he	PRON	PRP	_	2	A	2:A|13:A	_
+2	began	begin	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	tour	tour	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	Midwest	Midwest	PROPN	NNP	_	4	E	4:E	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	mid	mid	X	AFX	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	May	May	PROPN	NNP	_	2	D	2:D	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	taking	take	VERB	VBG	_	2	H	2:H	_
+14	in	in	ADV	RB	_	13	Terminal	13:Terminal	_
+15	15	15	NUM	CD	_	16	E	16:E	_
+16	cities	city	NOUN	NNS	_	13	A	13:A	_
+17	in	in	ADV	RB	_	20	R	20:R	_
+18	as	as	SCONJ	IN	_	20	R	20:R	_
+19	many	many	ADJ	JJ	_	20	E	20:E	_
+20	days	day	NOUN	NNS	_	13	D	13:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25626021
+# text = Wir schafften unsere Vorräte an Bord , ich begab mich auf mein Zimmer , wo mein Abend essen schon bereit stand .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	schafften	schaffen	VERB	VVFIN	_	0	H	0:H	_
+3	unsere	unser	DET	PPOSAT	_	4	E	4:E	_
+4	Vorräte	Vorrat	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	APPR	_	6	R	6:R	_
+6	Bord	Bord	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	ich	ich	PRON	PPER	_	9	A	9:A	_
+9	begab	begeben	VERB	VVFIN	_	2	H	2:H	_
+10	mich	ich	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	mein	mein	DET	PPOSAT	_	13	E	13:E	_
+13	Zimmer	Zimmer	NOUN	NN	_	9	A	9:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	wo	wo	ADV	NN	_	21	R	21:R	_
+16	mein	mein	PRON	PPOSAT	_	18	E	18:E	_
+17	Abend	Abend	NOUN	NN	_	18	E	18:E	_
+18	essen	essen	VERB	VVFIN	_	21	A	21:A	_
+19	schon	schon	ADV	ADV	_	21	D	21:D	_
+20	bereit	bereit	ADJ	ADJD	_	21	D	21:D	_
+21	stand	stehen	VERB	VVFIN	_	13	E	13:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

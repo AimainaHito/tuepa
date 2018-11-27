@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 489000
+# text = The following year , Bana co - starred with Daniel Craig and Geoffrey Rush in Steven Spielberg 's controversial film Munich .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	8	D	8:D	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	Bana	Bana	PROPN	NNP	_	8	A	8:A	_
+6	co	co	X	AFX	_	8	E	8:E	_
+7	-	-	PUNCT	HYPH	_	8	U	8:U	_
+8	starred	star	VERB	VBN	_	0	H	0:H	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Daniel	Daniel	PROPN	NNP	_	8	A	8:A	_
+11	Craig	Craig	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	10	N	10:N	_
+13	Geoffrey	Geoffrey	PROPN	NNP	_	10	C	10:C	_
+14	Rush	rush	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	IN	_	21	R	21:R	_
+16	Steven	Steven	PROPN	NNP	_	20	E	20:E	_
+17	Spielberg	Spielberg	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	's	's	PART	POS	_	16	R	16:R	_
+19	controversial	controversial	ADJ	JJ	_	20	E	20:E	_
+20	film	film	NOUN	NN	_	21	E	21:E	_
+21	Munich	Munich	PROPN	NNP	_	8	A	8:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

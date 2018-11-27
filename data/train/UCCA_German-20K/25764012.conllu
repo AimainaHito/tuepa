@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25764012
+# text = Nach Hansten liegt dieser Pol in Wirklichkeit fast unter 70 ° Breite und 130 ° Länge und nach den Beobachtungen Duperreys unter 135 ° Länge und 70 ° 30 ? Breite .
+1	Nach	nach	ADP	APPR	_	2	R	2:R	_
+2	Hansten	Hansten	PROPN	NN	_	0	H	0:H	_
+3	liegt	liegen	VERB	VVFIN	_	2	H	2:H	_
+4	dieser	dies	PRON	PDS	_	5	E	5:E	_
+5	Pol	pol	NOUN	NE	_	0	C	0:C|25:A	_
+6	in	in	ADP	APPR	_	7	R	7:R	_
+7	Wirklichkeit	Wirklichkeit	NOUN	NN	_	3	D	3:D	_
+8	fast	fast	ADV	ADV	_	3	D	3:D	_
+9	unter	unter	ADP	ADJD	_	12	R	12:R	_
+10	70	70	NUM	CARD	_	12	E	12:E	_
+11	°	°	NOUN	NN	_	12	U	12:U	_
+12	Breite	Breite	NOUN	ADJA	_	3	A	3:A	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	130	130	NUM	CARD	_	16	E	16:E	_
+15	°	°	NOUN	NN	_	16	U	16:U	_
+16	Länge	Länge	NOUN	NN	_	12	C	12:C	_
+17	und	und	CCONJ	NE	_	2	L	2:L	_
+18	nach	nach	ADP	CARD	_	20	R	20:R	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Beobachtungen	Beobachtung	NOUN	NN	_	2	H	2:H	_
+21	Duperreys	Duperreys	PROPN	NE	_	20	A	20:A	_
+22	unter	unter	ADP	NE	_	25	R	25:R	_
+23	135	135	NUM	CARD	_	25	E	25:E	_
+24	°	°	NOUN	NN	_	25	U	25:U	_
+25	Länge	Länge	NOUN	NN	_	2	H	2:H	_
+26	und	und	CCONJ	NE	_	25	N	25:N	_
+27	70	70	NUM	CARD	_	31	E	31:E	_
+28	°	°	NOUN	NE	_	27	U	27:U	_
+29	30	30	NUM	CARD	_	27	Terminal	27:Terminal	_
+30	?	?	PUNCT	$.	_	31	U	31:U	_
+31	Breite	breit	NOUN	ADJA	_	25	C	25:C	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

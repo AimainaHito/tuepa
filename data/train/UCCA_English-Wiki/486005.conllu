@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 486005
+# text = In 1993 , Bana made his television debut on Steve Vizard 's late night talk show , Tonight Live .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1993	1993	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	Bana	Bana	PROPN	NNP	_	8	A	8:A	_
+5	made	make	VERB	VBD	_	8	F	8:F	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	television	television	NOUN	NN	_	8	A	8:A	_
+8	debut	debut	NOUN	NN	_	0	H	0:H	_
+9	on	on	ADP	IN	_	18	R	18:R	_
+10	Steve	Steve	PROPN	NNP	_	16	E	16:E	_
+11	Vizard	Vizard	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	's	's	PART	POS	_	10	R	10:R	_
+13	late	late	ADJ	JJ	_	14	E	14:E	_
+14	night	night	NOUN	NN	_	16	E	16:E	_
+15	talk	talk	NOUN	NN	_	16	E	16:E	_
+16	show	show	NOUN	NN	_	18	E	18:E	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	Tonight	Tonight	PROPN	NNP	_	8	A	8:A	_
+19	Live	Live	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

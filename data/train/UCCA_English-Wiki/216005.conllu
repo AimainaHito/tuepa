@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 216005
+# text = In his review , A.O. Scott called her " a terrific comic actress , largely because of her great expressive range , and the nimbleness with which she can shift from anxiety to aggression to genuine hurt .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	review	review	NOUN	NN	_	7	A	7:A	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	A.O.	A.O.	PROPN	NNP	_	7	A	7:A	_
+6	Scott	Scott	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	called	call	VERB	VBD	_	0	H	0:H	_
+8	her	she	PRON	PRP$	_	7	A	7:A|13:A	_
+9	"	"	PUNCT	``	_	7	U	7:U	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	terrific	terrific	ADJ	JJ	_	13	E	13:E	_
+12	comic	comic	ADJ	JJ	_	13	E	13:E	_
+13	actress	actress	NOUN	NN	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	largely	largely	ADV	RB	_	16	E	16:E	_
+16	because	because	ADP	IN	_	13	L	13:L	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	her	she	PRON	PRP$	_	13	H	13:H	_
+19	great	great	ADJ	JJ	_	21	E	21:E	_
+20	expressive	expressive	ADJ	JJ	_	21	E	21:E	_
+21	range	range	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	,	_	13	U	13:U	_
+23	and	and	CCONJ	CC	_	13	L	13:L	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	nimbleness	nimbleness	NOUN	NN	_	13	H	13:H	_
+26	with	with	ADP	IN	_	30	R	30:R	_
+27	which	which	PRON	WDT	_	30	F	30:F	_
+28	she	she	PRON	PRP	_	30	A	30:A	_
+29	can	can	AUX	MD	_	30	D	30:D	_
+30	shift	shift	VERB	VB	_	25	E	25:E	_
+31	from	from	ADP	IN	_	32	R	32:R	_
+32	anxiety	anxiety	NOUN	NN	_	30	A	30:A	_
+33	to	to	ADP	IN	_	32	R	32:R	_
+34	aggression	aggression	NOUN	NN	_	32	C	32:C	_
+35	to	to	PART	TO	_	32	R	32:R	_
+36	genuine	genuine	VERB	VB	_	37	E	37:E	_
+37	hurt	hurt	NOUN	NN	_	32	C	32:C	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25515005
+# text = Aus diesen Dimensionen ergeben sich durch ein einfaches Rechen exempel die Oberfläche und der Kubik gehalt der ›Nautilus‹ .
+1	Aus	aus	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Dimensionen	Dimension	NOUN	NN	_	4	A	4:A	_
+4	ergeben	ergeben	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	durch	durch	ADP	APPR	_	10	R	10:R	_
+7	ein	ein	DET	ART	_	10	E	10:E	_
+8	einfaches	einfach	ADJ	ADJA	_	10	E	10:E	_
+9	Rechen	Rechen	NOUN	NN	_	10	E	10:E	_
+10	exempel	exempel	ADV	NE	_	4	A	4:A	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Oberfläche	Oberfläche	NOUN	NN	_	4	A	4:A	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	Kubik	Kubik	PROPN	NN	_	16	E	16:E	_
+16	gehalt	gehalt	VERB	VVFIN	_	12	C	12:C	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	›Nautilus‹	›Nautilus‹	NOUN	NE	_	12	E	12:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 729001
+# text = The film received predominately favorable reviews and proved an international success , earning $ 342 million worldwide .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	0	C	0:C|13:A|11:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	predominately	predominately	ADV	RB	_	3	D	3:D	_
+5	favorable	favorable	ADJ	JJ	_	6	E	6:E	_
+6	reviews	review	NOUN	NNS	_	3	A	3:A	_
+7	and	and	CCONJ	CC	_	3	L	3:L	_
+8	proved	prove	VERB	VBD	_	11	D	11:D	_
+9	an	a	DET	DT	_	10	E	10:E	_
+10	international	international	ADJ	JJ	_	11	A	11:A	_
+11	success	success	NOUN	NN	_	3	H	3:H	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	earning	earn	VERB	VBG	_	3	H	3:H	_
+14	$	$	SYM	$	_	13	U	13:U	_
+15	342	342	NUM	CD	_	13	A	13:A	_
+16	million	million	NUM	CD	_	15	Terminal	15:Terminal	_
+17	worldwide	worldwide	ADV	RB	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 250010
+# text = In 1999 , he starred as Kilroy in the Tennessee Williams play Camino Real at the Williamstown Theater Festival in Massachusetts .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1999	1999	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	as	as	ADP	IN	_	7	R	7:R	_
+7	Kilroy	Kilroy	PROPN	NNP	_	5	A	5:A	_
+8	in	in	ADP	IN	_	13	R	13:R	_
+9	the	the	DET	DT	_	13	E	13:E	_
+10	Tennessee	Tennessee	PROPN	NNP	_	12	E	12:E	_
+11	Williams	Williams	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	play	play	VERB	VBD	_	13	E	13:E	_
+13	Camino	Camino	PROPN	NNP	_	5	A	5:A	_
+14	Real	Real	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	at	at	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	Williamstown	Williamstown	PROPN	NNP	_	19	E	19:E	_
+18	Theater	theater	PROPN	NNP	_	19	E	19:E	_
+19	Festival	Festival	PROPN	NNP	_	5	A	5:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	Massachusetts	Massachusetts	PROPN	NNPS	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 691016
+# text = Dylan subsequently said of Grossman , " He was kind of like a Colonel Tom Parker figure ... you could smell him coming .
+1	Dylan	Dylan	PROPN	NNP	_	3	A	3:A	_
+2	subsequently	subsequently	ADV	RB	_	3	D	3:D	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Grossman	Grossman	PROPN	NNP	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	"	"	PUNCT	''	_	3	U	3:U	_
+8	He	he	PRON	PRP	_	9	A	9:A	_
+9	was	be	AUX	VBD	_	3	A	3:A	_
+10	kind	kind	ADV	RB	_	17	E	17:E	_
+11	of	of	ADV	RB	_	10	Terminal	10:Terminal	_
+12	like	like	ADP	IN	_	17	R	17:R	_
+13	a	a	DET	DT	_	17	E	17:E	_
+14	Colonel	Colonel	PROPN	NNP	_	17	E	17:E	_
+15	Tom	Tom	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Parker	Parker	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	figure	figure	VERB	VB	_	9	A	9:A	_
+18	...	...	PUNCT	,	_	9	U	9:U	_
+19	you	you	PRON	PRP	_	21	A	21:A	_
+20	could	could	AUX	MD	_	21	D	21:D	_
+21	smell	smell	VERB	VB	_	9	H	9:H	_
+22	him	he	PRON	PRP	_	23	A	23:A	_
+23	coming	come	VERB	VBG	_	21	A	21:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

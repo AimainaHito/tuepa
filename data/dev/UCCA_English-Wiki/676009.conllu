@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 676009
+# text = The music video was premiered on American Idol on May 9 , 2013 .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	music	music	NOUN	NN	_	3	E	3:E	_
+3	video	video	NOUN	NN	_	5	A	5:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	premiered	premier	VERB	VBN	_	0	H	0:H	_
+6	on	on	ADP	IN	_	7	R	7:R	_
+7	American	American	ADJ	JJ	_	5	A	5:A	_
+8	Idol	Idol	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	on	on	ADP	IN	_	10	R	10:R	_
+10	May	May	PROPN	NNP	_	5	D	5:D	_
+11	9	9	NUM	CD	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	2013	2013	NUM	CD	_	10	Terminal	10:Terminal	_
+14	.	.	PUNCT	.	_	10	U	10:U	_
+

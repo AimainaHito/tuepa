@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25638009
+# text = Nach diesen mit entschiedenem Ton gesprochenen Worten verbeugte sich der Kapitän ein wenig .
+1	Nach	nach	ADP	APPR	_	7	R	7:R	_
+2	diesen	dies	PRON	PDS	_	7	E	7:E	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	entschiedenem	entschieden	ADJ	ADJA	_	5	E	5:E	_
+5	Ton	Ton	NOUN	NN	_	6	A	6:A	_
+6	gesprochenen	gesprochen	ADJ	ADJA	_	7	E	7:E	_
+7	Worten	Wort	NOUN	NN	_	8	A	8:A	_
+8	verbeugte	verbeugen	VERB	VVFIN	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Kapitän	Kapitän	NOUN	NN	_	8	A	8:A	_
+12	ein	ein	DET	ART	_	13	E	13:E	_
+13	wenig	wenig	ADV	NN	_	8	D	8:D	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

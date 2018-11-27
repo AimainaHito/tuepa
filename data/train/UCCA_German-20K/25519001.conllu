@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25519001
+# text = Kapitän Nemo sprach mit hinreißender Beredsamkeit .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	sprach	sprechen	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	hinreißender	hinreißend	ADJ	ADJA	_	6	E	6:E	_
+6	Beredsamkeit	Beredsamkeit	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

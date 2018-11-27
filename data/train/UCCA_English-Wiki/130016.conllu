@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 130016
+# text = With the genre and Grant both hugely popular at the time , biographer A. Scott Berg believes the blame lay with moviegoers ' rejection of Hepburn .
+1	With	with	ADP	IN	_	8	L	8:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	genre	genre	NOUN	NN	_	8	A	8:A	_
+4	and	and	CCONJ	CC	_	6	E	6:E	_
+5	Grant	grant	NOUN	NN	_	3	C	3:C	_
+6	both	both	CCONJ	CC	_	3	N	3:N	_
+7	hugely	hugely	ADV	RB	_	8	D	8:D	_
+8	popular	popular	ADJ	JJ	_	0	H	0:H	_
+9	at	at	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	time	time	NOUN	NN	_	8	D	8:D	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	biographer	biographer	CCONJ	CC	_	14	E	14:E	_
+14	A.	A.	PROPN	NNP	_	17	A	17:A	_
+15	Scott	Scott	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Berg	Berg	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	believes	believe	VERB	VBZ	_	8	H	8:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	blame	blame	NOUN	NN	_	20	A	20:A	_
+20	lay	lay	VERB	VB	_	17	A	17:A	_
+21	with	with	ADP	IN	_	24	R	24:R	_
+22	moviegoers	moviegoer	NOUN	NNS	_	24	A	24:A	_
+23	'	's	PART	POS	_	24	U	24:U	_
+24	rejection	rejection	NOUN	NN	_	20	A	20:A	_
+25	of	of	ADP	IN	_	26	F	26:F	_
+26	Hepburn	Hepburn	PROPN	NNP	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

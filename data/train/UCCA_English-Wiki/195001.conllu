@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 195001
+# text = Sorkin describes his role in the creative process as " not so much [ that of ] a showrunner or a producer . I 'm really a writer .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	describes	describe	VERB	VBZ	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	role	role	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	creative	creative	ADJ	JJ	_	8	E	8:E	_
+8	process	process	NOUN	NN	_	4	E	4:E	_
+9	as	as	SCONJ	IN	_	19	R	19:R	_
+10	"	"	PUNCT	``	_	19	U	19:U	_
+11	not	not	PART	RB	_	19	D	19:D	_
+12	so	so	ADV	RB	_	13	E	13:E	_
+13	much	much	ADV	RB	_	19	D	19:D	_
+14	[	[	PUNCT	-LRB-	_	19	U	19:U	_
+15	that	that	PRON	DT	_	19	F	19:F	_
+16	of	of	ADP	IN	_	19	R	19:R	_
+17	]	]	PUNCT	-RRB-	_	19	U	19:U	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	showrunner	showrunner	NOUN	NN	_	2	A	2:A	_
+20	or	or	CCONJ	CC	_	19	N	19:N	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	producer	producer	NOUN	NN	_	19	C	19:C	_
+23	.	.	PUNCT	.	_	19	U	19:U	_
+24	I	I	PRON	PRP	_	25	A	25:A	_
+25	'm	be	AUX	VBP	_	19	H	19:H	_
+26	really	really	ADV	RB	_	25	D	25:D	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	writer	writer	NOUN	NN	_	25	A	25:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

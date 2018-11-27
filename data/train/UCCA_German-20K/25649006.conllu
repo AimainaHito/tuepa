@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25649006
+# text = Ned Land und Conseil warteten da auf mich .
+1	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	und	und	CCONJ	NE	_	1	N	1:N	_
+4	Conseil	Conseil	NOUN	NE	_	1	C	1:C	_
+5	warteten	warten	VERB	VVFIN	_	0	H	0:H	_
+6	da	da	ADV	ADV	_	5	A	5:A	_
+7	auf	auf	ADP	APPR	_	8	R	8:R	_
+8	mich	ich	PRON	PPER	_	5	A	5:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

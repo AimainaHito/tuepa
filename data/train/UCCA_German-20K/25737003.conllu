@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25737003
+# text = Gern wäre ich die steilen Abhänge des Berges hinabgestiegen , um den unermeß-lichen Kontinent ganz zu durchlaufen , der ohne Zweifel einst Afrika und Amerika verband , um die großen Städte der Urzeit zu besuchen .
+1	Gern	gern	ADV	ADV	_	9	D	9:D	_
+2	wäre	sein	AUX	ADV	_	9	D	9:D	_
+3	ich	ich	PRON	PPER	_	9	A	9:A|35:A|17:A	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	steilen	steilen	ADJ	ADV	_	6	E	6:E	_
+6	Abhänge	Abhänge	NOUN	NN	_	9	A	9:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Berges	Berg	NOUN	NN	_	6	E	6:E	_
+9	hinabgestiegen	hinabgestiegen	ADV	VVINF	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	um	um	ADP	KOUI	_	9	L	9:L	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	unermeß-lichen	unermeß-lich	ADJ	ADJA	_	14	E	14:E	_
+14	Kontinent	Kontinent	NOUN	NN	_	17	A	17:A	_
+15	ganz	ganz	ADJ	ADV	_	17	D	17:D	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	durchlaufen	durchlaufen	VERB	VVINF	_	9	H	9:H	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	der	der	PRON	PRELS	_	26	R	26:R	_
+20	ohne	ohne	ADP	NN	_	26	D	26:D	_
+21	Zweifel	Zweifel	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	einst	einst	ADV	ADV	_	26	D	26:D	_
+23	Afrika	Afrika	PROPN	NN	_	26	A	26:A	_
+24	und	und	CCONJ	NE	_	23	N	23:N	_
+25	Amerika	Amerika	PROPN	NN	_	23	C	23:C	_
+26	verband	verband	ADJ	NN	_	14	E	14:E	_
+27	,	,	PUNCT	$,	_	9	U	9:U	_
+28	um	um	ADP	KOUI	_	9	L	9:L	_
+29	die	der	DET	ART	_	31	E	31:E	_
+30	großen	groß	ADJ	ADJA	_	31	E	31:E	_
+31	Städte	Stadt	NOUN	NN	_	35	A	35:A	_
+32	der	der	DET	ART	_	33	R	33:R	_
+33	Urzeit	Urzeit	NOUN	NN	_	31	E	31:E	_
+34	zu	zu	PART	VVINF	_	35	F	35:F	_
+35	besuchen	besuchen	VERB	VVINF	_	9	H	9:H	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

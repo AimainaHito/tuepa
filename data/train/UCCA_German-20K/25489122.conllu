@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25489122
+# text = Jedoch , hienieden nimmt alles ein Ende , selbst der Hunger von Leuten , die seit 14 Stunden nichts gegessen haben .
+1	Jedoch	jedoch	ADV	ADV	_	4	L	4:L	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	hienieden	hienied	PRON	ADJD	_	4	A	4:A	_
+4	nimmt	nehmen	VERB	VVFIN	_	0	H	0:H	_
+5	alles	alle	PRON	PIS	_	4	A	4:A	_
+6	ein	ein	DET	ART	_	4	Terminal	4:Terminal	_
+7	Ende	Ende	NOUN	NN	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	selbst	selbst	ADV	VVFIN	_	4	L	4:L	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Hunger	hungern	NOUN	NN	_	4	H	4:H	_
+12	von	von	ADP	NE	_	13	R	13:R	_
+13	Leuten	Leute	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	ART	_	20	R	20:R	_
+16	seit	seit	ADP	NN	_	17	E	17:E	_
+17	14	14	NUM	CARD	_	20	D	20:D	_
+18	Stunden	Stunde|Stunden	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	nichts	nichts	PRON	NN	_	20	D	20:D	_
+20	gegessen	essen	VERB	VVPP	_	13	E	13:E	_
+21	haben	haben	AUX	VAFIN	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 585013
+# text = " The family moved frequently during Depp 's childhood , and he and his siblings lived in more than 20 different locations , settling in Miramar , Florida , in 1970 .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	family	family	NOUN	NN	_	4	A	4:A	_
+4	moved	move	VERB	VBD	_	0	H	0:H	_
+5	frequently	frequently	ADV	RB	_	4	D	4:D	_
+6	during	during	ADP	IN	_	4	L	4:L	_
+7	Depp	Depp	PROPN	NNP	_	9	A	9:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	childhood	childhood	NOUN	NN	_	4	H	4:H	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	and	and	CCONJ	CC	_	4	L	4:L	_
+12	he	he	PRON	PRP	_	16	A	16:A|24:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	his	he	PRON	PRP$	_	15	E	15:E	_
+15	siblings	sibling	NOUN	NNS	_	12	C	12:C	_
+16	lived	live	VERB	VBD	_	4	H	4:H	_
+17	in	in	ADP	IN	_	22	R	22:R	_
+18	more	more	ADJ	JJR	_	22	E	22:E	_
+19	than	than	ADP	IN	_	18	R	18:R	_
+20	20	20	NUM	CD	_	22	E	22:E	_
+21	different	different	ADJ	JJ	_	22	E	22:E	_
+22	locations	location	NOUN	NNS	_	16	A	16:A	_
+23	,	,	PUNCT	,	_	4	U	4:U	_
+24	settling	settl	VERB	VBG	_	4	H	4:H	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Miramar	Miramar	PROPN	NNP	_	24	A	24:A	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	Florida	Florida	PROPN	NNP	_	26	E	26:E	_
+29	,	,	PUNCT	,	_	24	U	24:U	_
+30	in	in	ADP	IN	_	31	R	31:R	_
+31	1970	1970	NUM	CD	_	24	D	24:D	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

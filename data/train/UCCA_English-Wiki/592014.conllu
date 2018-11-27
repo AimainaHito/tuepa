@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 592014
+# text = Several reports indicated Depp bought Burnham Westgate Hall in Norfolk , England , a 13 - bedroom Georgian country house , in June 2011 .
+1	Several	several	ADJ	JJ	_	2	E	2:E	_
+2	reports	report	NOUN	NNS	_	3	A	3:A	_
+3	indicated	indicate	VERB	VBD	_	0	H	0:H	_
+4	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+5	bought	buy	VERB	VBD	_	3	A	3:A	_
+6	Burnham	Burnham	PROPN	NNP	_	5	A	5:A	_
+7	Westgate	Westgate	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Hall	Hall	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Norfolk	Norfolk	PROPN	NNP	_	6	E	6:E	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	England	England	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	a	a	DET	DT	_	20	E	20:E	_
+15	13	13	NUM	CD	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	bedroom	bedroom	NOUN	NN	_	20	E	20:E	_
+18	Georgian	Georgian	ADJ	JJ	_	20	E	20:E	_
+19	country	country	NOUN	NN	_	20	E	20:E	_
+20	house	house	NOUN	NN	_	6	E	6:E	_
+21	,	,	PUNCT	,	_	5	U	5:U	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	June	June	PROPN	NNP	_	5	D	5:D	_
+24	2011	2011	NUM	CD	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25490077
+# text = « » Nein , mein Freund .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Nein	nein	PROPN	PTKANT	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Freund	Freund	NOUN	NN	_	3	G	3:G	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

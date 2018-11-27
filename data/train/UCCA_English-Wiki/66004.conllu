@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 66004
+# text = After her parents ' separation in 1976 , Jolie and her brother lived with their mother , who abandoned her acting ambitions to focus on raising her children .
+1	After	after	ADP	IN	_	5	L	5:L	_
+2	her	she	PRON	PRP$	_	3	E	3:E	_
+3	parents	parent	NOUN	NNS	_	5	A	5:A	_
+4	'	's	PART	POS	_	5	U	5:U	_
+5	separation	separation	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1976	1976	NUM	CD	_	5	D	5:D	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	Jolie	Jolie	PROPN	NNP	_	13	A	13:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	brother	brother	NOUN	NN	_	9	C	9:C	_
+13	lived	live	VERB	VBD	_	5	H	5:H	_
+14	with	with	ADP	IN	_	16	R	16:R	_
+15	their	they	PRON	PRP$	_	16	E	16:E	_
+16	mother	mother	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	who	who	PRON	WP	_	19	R	19:R	_
+19	abandoned	abandon	VERB	VBD	_	16	E	16:E	_
+20	her	she	PRON	PRP	_	22	E	22:E	_
+21	acting	act	VERB	VBG	_	22	E	22:E	_
+22	ambitions	ambition	NOUN	NNS	_	19	A	19:A	_
+23	to	to	PART	TO	_	19	L	19:L	_
+24	focus	focus	VERB	VB	_	26	E	26:E	_
+25	on	on	SCONJ	IN	_	24	R	24:R	_
+26	raising	raise	VERB	VBG	_	19	H	19:H	_
+27	her	she	PRON	PRP$	_	28	E	28:E	_
+28	children	child	NOUN	NNS	_	26	A	26:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25490032
+# text = » Sehr gut , wackerer Junge « , erwiderte ich .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Sehr	sehr	ADV	ADV	_	3	E	3:E	_
+3	gut	gut	ADJ	ADJD	_	9	A	9:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wackerer	wacker	ADJ	ADJA	_	6	E	6:E	_
+6	Junge	Junge	NOUN	NN	_	3	G	3:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A|3:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

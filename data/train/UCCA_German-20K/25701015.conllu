@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25701015
+# text = » Aber dann ... « sagte ich .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+3	dann	dann	ADV	ADV	_	6	A	6:A	_
+4	...	...	PUNCT	$(	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

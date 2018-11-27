@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25584009
+# text = Kapitän Nemo befand sich da .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	da	da	ADV	PTKVZ	_	3	A	3:A	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

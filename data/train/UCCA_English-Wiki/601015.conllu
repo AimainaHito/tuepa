@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 601015
+# text = Later that year , during recording sessions for the album Rubber Soul , McCartney began to supplant Lennon as the dominant musical force in the band .
+1	Later	later	ADV	RBR	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	17	D	17:D	_
+4	,	,	PUNCT	,	_	17	U	17:U	_
+5	during	during	ADP	IN	_	17	L	17:L	_
+6	recording	recording	NOUN	NN	_	7	E	7:E	_
+7	sessions	session	NOUN	NNS	_	17	H	17:H	_
+8	for	for	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	album	album	NOUN	NN	_	11	E	11:E	_
+11	Rubber	rubber	PROPN	NNP	_	7	A	7:A	_
+12	Soul	soul	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	17	U	17:U	_
+14	McCartney	McCartney	PROPN	NNP	_	17	A	17:A	_
+15	began	begin	VERB	VBD	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	supplant	supplant	VERB	VB	_	0	H	0:H	_
+18	Lennon	Lennon	PROPN	NNP	_	17	A	17:A	_
+19	as	as	ADP	IN	_	23	R	23:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	dominant	dominant	ADJ	JJ	_	23	E	23:E	_
+22	musical	musical	ADJ	JJ	_	23	E	23:E	_
+23	force	force	NOUN	NN	_	17	A	17:A	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	band	band	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

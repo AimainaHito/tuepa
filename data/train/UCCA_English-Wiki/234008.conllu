@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 234008
+# text = " Chan 's comments were criticised by Parris Chang , a Taiwanese legislator and senior member of the DPP , who called for the government of Taiwan to take punitive steps against Chan for his comments , such as banning his movies and barring him the right to visit Taiwan .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Chan	Chan	PROPN	NNP	_	4	E	4:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	comments	comment	NOUN	NNS	_	6	A	6:A	_
+5	were	be	AUX	VBD	_	6	F	6:F	_
+6	criticised	criticise	VERB	VBN	_	0	H	0:H	_
+7	by	by	ADP	IN	_	8	R	8:R	_
+8	Parris	Parris	PROPN	NNP	_	6	A	6:A	_
+9	Chang	Chang	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	Taiwanese	taiwanese	ADJ	JJ	_	13	E	13:E	_
+13	legislator	legislator	NOUN	NN	_	8	E	8:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	senior	senior	ADJ	JJ	_	16	E	16:E	_
+16	member	member	NOUN	NN	_	19	E	19:E	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	DPP	DPP	NOUN	NN	_	13	C	13:C	_
+20	,	,	PUNCT	,	_	8	U	8:U	_
+21	who	who	PRON	WP	_	22	R	22:R	_
+22	called	call	VERB	VBD	_	8	E	8:E	_
+23	for	for	ADP	IN	_	31	R	31:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	government	government	NOUN	NN	_	31	A	31:A|40:A|44:A	_
+26	of	of	ADP	IN	_	27	R	27:R	_
+27	Taiwan	Taiwan	PROPN	NNP	_	25	E	25:E	_
+28	to	to	PART	TO	_	31	F	31:F	_
+29	take	take	VERB	VB	_	31	F	31:F	_
+30	punitive	punitive	ADJ	JJ	_	31	D	31:D	_
+31	steps	step	NOUN	NNS	_	22	A	22:A	_
+32	against	against	ADP	IN	_	33	R	33:R	_
+33	Chan	Chan	PROPN	NNP	_	31	A	31:A	_
+34	for	for	ADP	IN	_	36	R	36:R	_
+35	his	he	PRON	PRP$	_	36	E	36:E	_
+36	comments	comment	NOUN	NNS	_	31	A	31:A	_
+37	,	,	PUNCT	,	_	31	U	31:U	_
+38	such	such	ADJ	JJ	_	40	R	40:R	_
+39	as	as	SCONJ	IN	_	38	Terminal	38:Terminal	_
+40	banning	ban	VERB	VBG	_	31	A	31:A	_
+41	his	he	PRON	PRP$	_	42	E	42:E	_
+42	movies	movie	NOUN	NNS	_	40	A	40:A	_
+43	and	and	CCONJ	CC	_	40	N	40:N	_
+44	barring	barr	VERB	VBG	_	40	C	40:C	_
+45	him	he	PRON	PRP	_	44	A	44:A|49:A	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	right	right	NOUN	NN	_	44	A	44:A	_
+48	to	to	PART	TO	_	49	R	49:R	_
+49	visit	visit	VERB	VB	_	47	E	47:E	_
+50	Taiwan	Taiwan	PROPN	NNP	_	49	A	49:A	_
+51	.	.	PUNCT	.	_	49	U	49:U	_
+

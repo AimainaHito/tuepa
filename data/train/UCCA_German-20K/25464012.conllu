@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25464012
+# text = Die Reaktion bewegte sich vom unteren Schiffs raum bis zum Salon der Offiziere , und sicher , wäre nicht Kommandant Farragut so hartnäckig gewesen , so hätte sich die Fregatte wieder entschieden nach Süden gewendet .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Reaktion	Reaktion	NOUN	NN	_	3	A	3:A	_
+3	bewegte	bewegen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	vom	vom	ADP	NN	_	8	R	8:R	_
+6	unteren	unter	ADJ	ADJA	_	8	E	8:E	_
+7	Schiffs	Schiff	NOUN	NN	_	8	E	8:E	_
+8	raum	raum	ADP	NN	_	3	A	3:A	_
+9	bis	bis	ADP	APPR	_	11	R	11:R	_
+10	zum	zum	ADP	NN	_	9	Terminal	9:Terminal	_
+11	Salon	Salon	NOUN	NN	_	3	A	3:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Offiziere	Offizier	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	und	und	CCONJ	NE	_	3	L	3:L	_
+16	sicher	sicher	ADJ	ADJD	_	24	G	24:G	_
+17	,	,	PUNCT	$,	_	24	U	24:U	_
+18	wäre	sein	AUX	ADV	_	24	D	24:D	_
+19	nicht	nicht	PART	CARD	_	24	D	24:D	_
+20	Kommandant	Kommandant	NOUN	NN	_	21	E	21:E	_
+21	Farragut	Farragut	NOUN	NN	_	24	A	24:A	_
+22	so	so	ADV	ADV	_	23	E	23:E	_
+23	hartnäckig	hartnäckig	ADJ	ADJD	_	24	D	24:D	_
+24	gewesen	sein	AUX	PAV	_	3	H	3:H	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	so	so	ADV	ADV	_	3	L	3:L	_
+27	hätte	haben	AUX	VAFIN	_	28	D	28:D	_
+28	sich	er|es|sie	PRON	PRF	_	3	H	3:H	_
+29	die	der	DET	ART	_	30	E	30:E	_
+30	Fregatte	Fregatte	NOUN	NN	_	28	A	28:A	_
+31	wieder	wieder	ADV	NE	_	28	D	28:D	_
+32	entschieden	entscheiden	VERB	ADJD	_	28	D	28:D	_
+33	nach	nach	ADP	NN	_	34	R	34:R	_
+34	Süden	Süden	NOUN	NE	_	28	A	28:A	_
+35	gewendet	wenden	VERB	VVPP	_	28	Terminal	28:Terminal	_
+36	.	.	PUNCT	$.	_	28	U	28:U	_
+

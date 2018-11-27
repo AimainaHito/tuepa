@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25596007
+# text = Aber ich wusste , dass selbst in den Meeren vom klarsten Wasser die Sonnen strahlen nicht tiefer dringen konnten .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	ich	ich	PRON	PPER	_	3	A	3:A	_
+3	wusste	wissen	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+6	selbst	selbst	ADV	VVFIN	_	18	D	18:D	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Meeren	Meer	NOUN	NN	_	18	A	18:A	_
+10	vom	vom	ADP	NN	_	12	R	12:R	_
+11	klarsten	klar	ADJ	NN	_	12	E	12:E	_
+12	Wasser	Wasser	NOUN	NN	_	18	A	18:A	_
+13	die	der	DET	ART	_	15	E	15:E	_
+14	Sonnen	Sonne	NOUN	NN	_	15	E	15:E	_
+15	strahlen	strahlen	VERB	VVFIN	_	18	A	18:A	_
+16	nicht	nicht	PART	XY	_	18	D	18:D	_
+17	tiefer	tief	ADJ	ADJD	_	18	D	18:D	_
+18	dringen	dringen	VERB	VVFIN	_	3	A	3:A	_
+19	konnten	können	AUX	VMFIN	_	18	D	18:D	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

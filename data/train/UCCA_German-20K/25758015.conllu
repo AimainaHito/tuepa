@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25758015
+# text = » Nun , mein Herr , könnte ich nicht Jagd darauf machen , sei ' s auch nur , um mein früheres Handwerk nicht zu vergessen ? «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Nun	nun	ADV	ADV	_	10	F	10:F	_
+3	,	,	PUNCT	$,	_	10	U	10:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	10	G	10:G	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	könnte	können	AUX	VMFIN	_	10	D	10:D	_
+8	ich	ich	PRON	PPER	_	10	A	10:A|26:A	_
+9	nicht	nicht	PART	XY	_	10	D	10:D	_
+10	Jagd	Jagd	NOUN	NN	_	0	H	0:H	_
+11	darauf	darauf	PRON	PAV	_	10	A	10:A	_
+12	machen	machen	VERB	VVINF	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	sei	sein	AUX	NN	_	26	G	26:G	_
+15	'	'	PUNCT	$(	_	14	U	14:U	_
+16	s	s	ADV	NN	_	14	Terminal	14:Terminal	_
+17	auch	auch	ADV	ADV	_	14	Terminal	14:Terminal	_
+18	nur	nur	ADV	NE	_	26	D	26:D	_
+19	,	,	PUNCT	$,	_	26	U	26:U	_
+20	um	um	ADP	KOUI	_	26	R	26:R	_
+21	mein	mein	PRON	PPOSAT	_	23	E	23:E	_
+22	früheres	früh	ADJ	ADJA	_	23	E	23:E	_
+23	Handwerk	Handwerk	NOUN	NN	_	26	A	26:A	_
+24	nicht	nicht	PART	CARD	_	26	D	26:D	_
+25	zu	zu	PART	NN	_	26	F	26:F	_
+26	vergessen	vergessen	VERB	VVINF	_	10	H	10:H	_
+27	?	?	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

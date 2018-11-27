@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25465000
+# text = Doch konnte dies erfolglose Suchen nicht lange andauern .
+1	Doch	doch	ADV	KON	_	8	L	8:L	_
+2	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+3	dies	dies	PRON	PDS	_	5	E	5:E	_
+4	erfolglose	erfolglos	ADJ	ADJD	_	5	E	5:E	_
+5	Suchen	Suche|Suchen	NOUN	NN	_	8	A	8:A	_
+6	nicht	nicht	PART	XY	_	8	D	8:D	_
+7	lange	lange	ADJ	ADV	_	8	D	8:D	_
+8	andauern	andauern	VERB	VVINF	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

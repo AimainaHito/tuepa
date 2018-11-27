@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25766022
+# text = Es fiel mir ein , Kapitän Nemo zu befragen , ob er den Pol bereits entdeckt habe .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	fiel	fallen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A|9:A	_
+4	ein	ein	DET	PTKVZ	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	7	E	7:E	_
+7	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+8	zu	zu	PART	NE	_	9	F	9:F	_
+9	befragen	befragen	VERB	VVINF	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	ob	ob	SCONJ	VVFIN	_	16	R	16:R	_
+12	er	er	PRON	PPER	_	16	A	16:A	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Pol	pol	NOUN	NE	_	16	A	16:A	_
+15	bereits	bereits	ADV	ADV	_	16	D	16:D	_
+16	entdeckt	entdecken	VERB	VVPP	_	9	A	9:A	_
+17	habe	haben	AUX	VAFIN	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

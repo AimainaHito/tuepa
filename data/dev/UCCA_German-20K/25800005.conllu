@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25800005
+# text = In diesen Gegenden brachten unsere Garne schöne Sorten von Algen herauf und besonders eine Art Tang , an dessen Wurzeln die schönsten Muscheln hingen .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Gegenden	Gegende	NOUN	NN	_	4	A	4:A	_
+4	brachten	bringen	VERB	VVFIN	_	0	H	0:H	_
+5	unsere	unser	DET	PPOSAT	_	6	E	6:E	_
+6	Garne	Garn	NOUN	NN	_	4	A	4:A	_
+7	schöne	schön	ADJ	ADJA	_	8	E	8:E	_
+8	Sorten	Sorten	NOUN	NN	_	10	E	10:E	_
+9	von	von	ADP	NE	_	8	R	8:R	_
+10	Algen	Algen	PROPN	NN	_	4	A	4:A	_
+11	herauf	herauf	ADV	PWAV	_	4	Terminal	4:Terminal	_
+12	und	und	CCONJ	NE	_	4	L	4:L	_
+13	besonders	besonders	ADV	ADV	_	16	D	16:D	_
+14	eine	ein	DET	ART	_	16	E	16:E	_
+15	Art	Art	NOUN	NN	_	16	E	16:E	_
+16	Tang	Tang	PROPN	NN	_	4	H	4:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	an	an	ADP	APPR	_	24	R	24:R	_
+19	dessen	der	PRON	PDAT	_	20	R	20:R	_
+20	Wurzeln	Wurzel	NOUN	NN	_	24	A	24:A	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	schönsten	schön	ADJ	ADJA	_	23	E	23:E	_
+23	Muscheln	Muschel	NOUN	NN	_	24	A	24:A	_
+24	hingen	hingen	VERB	NE	_	16	E	16:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

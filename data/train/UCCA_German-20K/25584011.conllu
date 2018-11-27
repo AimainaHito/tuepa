@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25584011
+# text = Da er mit keinem Wort seine 8tägige Abwesenheit berührt hatte , so sagte ich auch kein Wort davon und erwiderte bloß , ich sei nebst meinen Gefährten bereit , ihn zu begleiten .
+1	Da	da	SCONJ	KOUS	_	9	L	9:L	_
+2	er	er	PRON	PPER	_	9	A	9:A	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	keinem	kein	PRON	PIAT	_	5	E	5:E	_
+5	Wort	Wort	NOUN	NN	_	9	A	9:A	_
+6	seine	sein	DET	PPOSAT	_	8	E	8:E	_
+7	8tägige	8tägig	ADJ	ADJA	_	8	E	8:E	_
+8	Abwesenheit	Abwesenheit	NOUN	NN	_	9	A	9:A	_
+9	berührt	berühren	VERB	VVPP	_	0	H	0:H	_
+10	hatte	haben	AUX	VAFIN	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	so	so	ADV	ADV	_	9	L	9:L	_
+13	sagte	sagen	VERB	VVFIN	_	9	H	9:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A	_
+15	auch	auch	ADV	ADV	_	13	D	13:D	_
+16	kein	kein	PRON	PIAT	_	17	E	17:E	_
+17	Wort	Wort	NOUN	NN	_	13	A	13:A	_
+18	davon	davon	ADV	PAV	_	13	A	13:A	_
+19	und	und	CCONJ	NE	_	9	L	9:L	_
+20	erwiderte	erwideren	VERB	VVFIN	_	9	H	9:H	_
+21	bloß	bloß	ADV	ADV	_	20	D	20:D	_
+22	,	,	PUNCT	$,	_	20	U	20:U	_
+23	ich	ich	PRON	PPER	_	32	A	32:A	_
+24	sei	sein	AUX	NN	_	32	F	32:F	_
+25	nebst	nebst	ADV	APPR	_	32	D	32:D	_
+26	meinen	mein	PRON	PPOSAT	_	27	E	27:E	_
+27	Gefährten	Gefährt|Gefährte	NOUN	NE	_	32	A	32:A	_
+28	bereit	bereit	ADV	PTKVZ	_	32	D	32:D	_
+29	,	,	PUNCT	$,	_	32	U	32:U	_
+30	ihn	er	PRON	PPER	_	32	A	32:A	_
+31	zu	zu	PART	VVINF	_	32	F	32:F	_
+32	begleiten	begleiten	VERB	VVINF	_	20	A	20:A	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 452000
+# text = Jennings was determined to build his journalism credentials abroad .
+1	Jennings	Jenning	PROPN	NNP	_	5	A	5:A	_
+2	was	be	AUX	VBD	_	5	F	5:F	_
+3	determined	determined	ADJ	JJ	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	build	build	VERB	VB	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	journalism	journalism	NOUN	NN	_	8	E	8:E	_
+8	credentials	credential	NOUN	NNS	_	5	A	5:A	_
+9	abroad	abroad	ADV	RB	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	5	U	5:U	_
+

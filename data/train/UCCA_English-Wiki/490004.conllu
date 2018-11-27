@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 490004
+# text = Along the way he seeks guidance and wisdom from the inner sanctum of his three lifelong friends , as well as celebrities Jay Leno , Jeremy Clarkson , and Dr . Phil .
+1	Along	along	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	way	way	NOUN	NN	_	5	A	5:A	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	seeks	seek	VERB	VBZ	_	0	H	0:H	_
+6	guidance	guidance	NOUN	NN	_	5	A	5:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	wisdom	wisdom	NOUN	NN	_	6	C	6:C	_
+9	from	from	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	inner	inner	ADJ	JJ	_	12	E	12:E	_
+12	sanctum	sanctum	NOUN	NN	_	5	A	5:A	_
+13	of	of	ADP	IN	_	17	R	17:R	_
+14	his	he	PRON	PRP$	_	17	E	17:E	_
+15	three	three	NUM	CD	_	17	E	17:E	_
+16	lifelong	lifelong	ADJ	JJ	_	17	E	17:E	_
+17	friends	friend	NOUN	NNS	_	12	E	12:E	_
+18	,	,	PUNCT	,	_	12	U	12:U	_
+19	as	as	ADV	RB	_	12	N	12:N	_
+20	well	well	ADV	RB	_	19	Terminal	19:Terminal	_
+21	as	as	ADP	IN	_	19	Terminal	19:Terminal	_
+22	celebrities	celebrity	NOUN	NNS	_	23	E	23:E	_
+23	Jay	Jay	PROPN	NNP	_	12	C	12:C	_
+24	Leno	Leno	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	23	U	23:U	_
+26	Jeremy	Jeremy	PROPN	NNP	_	23	C	23:C	_
+27	Clarkson	Clarkson	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	23	U	23:U	_
+29	and	and	CCONJ	CC	_	23	N	23:N	_
+30	Dr	dr	PROPN	NNP	_	23	C	23:C	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+32	Phil	Phil	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	.	.	PUNCT	.	_	23	U	23:U	_
+

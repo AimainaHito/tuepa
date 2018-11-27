@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 125009
+# text = They began rehearsals in November , Hepburn feeling sure this was the role to make her a star , but Howard disliked the actress and again she was fired .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	began	begin	VERB	VBD	_	0	H	0:H	_
+3	rehearsals	rehearsal	NOUN	NNS	_	2	A	2:A	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	November	November	PROPN	NNP	_	2	D	2:D	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	Hepburn	Hepburn	PROPN	NNP	_	8	A	8:A	_
+8	feeling	feel	VERB	VBG	_	2	H	2:H	_
+9	sure	sure	ADJ	JJ	_	8	Terminal	8:Terminal	_
+10	this	this	PRON	DT	_	11	A	11:A	_
+11	was	be	AUX	VBD	_	8	A	8:A	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	role	role	NOUN	NN	_	11	A	11:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	make	make	VERB	VB	_	13	E	13:E	_
+16	her	she	PRON	PRP	_	15	A	15:A	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	star	star	NOUN	NN	_	15	A	15:A	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	but	but	CCONJ	CC	_	2	L	2:L	_
+21	Howard	Howard	PROPN	NNP	_	22	A	22:A	_
+22	disliked	dislike	VERB	VBD	_	2	H	2:H	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	actress	actress	NOUN	NN	_	22	A	22:A	_
+25	and	and	CCONJ	CC	_	2	L	2:L	_
+26	again	again	ADV	RB	_	29	D	29:D	_
+27	she	she	PRON	PRP	_	29	A	29:A	_
+28	was	be	AUX	VBD	_	29	F	29:F	_
+29	fired	fire	VERB	VBN	_	2	H	2:H	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

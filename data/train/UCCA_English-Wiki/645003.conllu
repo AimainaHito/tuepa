@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 645003
+# text = He bought Julian a Gibson Les Paul guitar and other instruments , and encouraged his interest in music by demonstrating guitar chord techniques .
+1	He	he	PRON	PRP	_	2	A	2:A|20:A|14:A	_
+2	bought	buy	VERB	VBD	_	0	H	0:H	_
+3	Julian	Julian	PROPN	NNP	_	2	A	2:A	_
+4	a	a	DET	DT	_	8	E	8:E	_
+5	Gibson	Gibson	PROPN	NNP	_	8	E	8:E	_
+6	Les	les	PROPN	NNPS	_	5	Terminal	5:Terminal	_
+7	Paul	paul	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	guitar	guitar	NOUN	NN	_	2	A	2:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	other	other	ADJ	JJ	_	11	E	11:E	_
+11	instruments	instrument	NOUN	NNS	_	8	C	8:C	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	and	and	CCONJ	CC	_	2	L	2:L	_
+14	encouraged	encourage	VERB	VBD	_	2	H	2:H	_
+15	his	he	PRON	PRP$	_	16	A	16:A	_
+16	interest	interest	NOUN	NN	_	14	A	14:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	music	music	NOUN	NN	_	16	A	16:A	_
+19	by	by	SCONJ	IN	_	20	R	20:R	_
+20	demonstrating	demonstrat	VERB	VBG	_	14	A	14:A	_
+21	guitar	guitar	NOUN	NN	_	23	E	23:E	_
+22	chord	chord	NOUN	NN	_	23	E	23:E	_
+23	techniques	technique	NOUN	NNS	_	20	A	20:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

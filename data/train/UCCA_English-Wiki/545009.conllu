@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 545009
+# text = Later , while testifying before the House Un - American Activities Committee on October 27 , 1947 , Warner dismissed Cold War allegations that the film was subversive , arguing that Mission to Moscow was produced " only to help a desperate war effort and not for posterity .
+1	Later	later	ADV	RB	_	20	D	20:D	_
+2	,	,	PUNCT	,	_	20	U	20:U	_
+3	while	while	SCONJ	IN	_	20	L	20:L	_
+4	testifying	testify	VERB	VBG	_	20	H	20:H	_
+5	before	before	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	House	house	PROPN	NNP	_	4	A	4:A	_
+8	Un	un	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	-	-	PUNCT	HYPH	_	7	U	7:U	_
+10	American	american	ADJ	JJ	_	7	Terminal	7:Terminal	_
+11	Activities	activities	NOUN	NNS	_	7	Terminal	7:Terminal	_
+12	Committee	Committee	NOUN	NN	_	7	Terminal	7:Terminal	_
+13	on	on	ADP	IN	_	17	R	17:R	_
+14	October	October	PROPN	NNP	_	17	E	17:E	_
+15	27	27	NUM	CD	_	17	E	17:E	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	1947	1947	NUM	CD	_	4	D	4:D	_
+18	,	,	PUNCT	,	_	4	U	4:U	_
+19	Warner	Warner	PROPN	NNP	_	20	A	20:A|4:A|30:A	_
+20	dismissed	dismiss	VERB	VBD	_	0	H	0:H	_
+21	Cold	Cold	PROPN	NNP	_	23	E	23:E	_
+22	War	War	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	allegations	allegation	NOUN	NNS	_	20	A	20:A	_
+24	that	that	SCONJ	IN	_	28	F	28:F	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	film	film	NOUN	NN	_	28	A	28:A	_
+27	was	be	AUX	VBD	_	28	F	28:F	_
+28	subversive	subversive	ADJ	JJ	_	23	E	23:E	_
+29	,	,	PUNCT	,	_	20	U	20:U	_
+30	arguing	argue	VERB	VBG	_	20	H	20:H	_
+31	that	that	SCONJ	IN	_	36	F	36:F	_
+32	Mission	Mission	PROPN	NNP	_	36	A	36:A|48:A	_
+33	to	to	ADP	IN	_	32	Terminal	32:Terminal	_
+34	Moscow	Moscow	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	was	be	AUX	VBD	_	36	F	36:F	_
+36	produced	produce	VERB	VBN	_	30	A	30:A	_
+37	"	"	PUNCT	``	_	36	U	36:U	_
+38	only	only	ADV	RB	_	40	D	40:D	_
+39	to	to	PART	TO	_	40	F	40:F	_
+40	help	help	VERB	VB	_	36	A	36:A	_
+41	a	a	DET	DT	_	44	E	44:E	_
+42	desperate	desperate	ADJ	JJ	_	44	E	44:E	_
+43	war	war	NOUN	NN	_	44	E	44:E	_
+44	effort	effort	NOUN	NN	_	40	A	40:A	_
+45	and	and	CCONJ	CC	_	40	L	40:L	_
+46	not	not	ADV	RB	_	48	D	48:D	_
+47	for	for	ADP	IN	_	48	R	48:R	_
+48	posterity	posterity	NOUN	NN	_	40	H	40:H	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

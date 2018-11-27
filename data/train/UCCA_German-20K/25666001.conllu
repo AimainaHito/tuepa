@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25666001
+# text = Ich muß mich ihnen anschließen , vielleicht sie anführen .
+1	Ich	ich	PRON	PPER	_	3	A	3:A|9:A	_
+2	muß	müssen	AUX	VMFIN	_	3	D	3:D|9:D	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	ihnen	sie	PRON	PPER	_	3	A	3:A	_
+5	anschließen	anschließen	VERB	VVINF	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	vielleicht	vielleicht	ADV	NE	_	9	G	9:G	_
+8	sie	sie	PRON	ADV	_	9	A	9:A	_
+9	anführen	anführen	VERB	VVINF	_	3	H	3:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

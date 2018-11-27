@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 523006
+# text = " The duo first appeared together in the 1937 B movie Thoroughbreds Do n't Cry as supporting characters .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	duo	duo	NOUN	NN	_	5	A	5:A	_
+4	first	first	ADV	RB	_	5	D	5:D	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	together	together	ADV	RB	_	5	D	5:D	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	1937	1937	NUM	CD	_	12	E	12:E	_
+10	B	b	NOUN	NN	_	11	E	11:E	_
+11	movie	movie	NOUN	NN	_	12	E	12:E	_
+12	Thoroughbreds	Thoroughbred	NOUN	NNS	_	5	A	5:A	_
+13	Do	do	AUX	VBP	_	12	Terminal	12:Terminal	_
+14	n't	not	PART	RB	_	12	Terminal	12:Terminal	_
+15	Cry	cry	ADJ	JJ	_	12	Terminal	12:Terminal	_
+16	as	as	SCONJ	IN	_	18	R	18:R	_
+17	supporting	support	VERB	VBG	_	18	E	18:E	_
+18	characters	character	NOUN	NNS	_	5	A	5:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

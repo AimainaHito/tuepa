@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 630001
+# text = His parents named him John Winston Lennon after his paternal grandfather , John " Jack " Lennon , and then - Prime Minister Winston Churchill .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	parents	parent	NOUN	NNS	_	3	A	3:A	_
+3	named	name	VERB	VBN	_	0	H	0:H	_
+4	him	he	PRON	PRP	_	3	A	3:A	_
+5	John	John	PROPN	NNP	_	3	A	3:A	_
+6	Winston	Winston	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Lennon	Lennon	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	after	after	ADP	IN	_	11	R	11:R	_
+9	his	he	PRON	PRP$	_	11	E	11:E	_
+10	paternal	paternal	ADJ	JJ	_	11	E	11:E	_
+11	grandfather	grandfather	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	John	John	PROPN	NNP	_	11	E	11:E	_
+14	"	"	PUNCT	``	_	13	U	13:U	_
+15	Jack	Jack	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	"	"	PUNCT	''	_	13	U	13:U	_
+17	Lennon	Lennon	PROPN	NNP	_	13	Terminal	13:Terminal	_
+18	,	,	PUNCT	,	_	11	U	11:U	_
+19	and	and	CCONJ	CC	_	11	N	11:N	_
+20	then	then	ADV	RB	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	Prime	Prime	PROPN	NNP	_	11	C	11:C	_
+23	Minister	Minister	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Winston	Winston	PROPN	NNP	_	22	E	22:E	_
+25	Churchill	Churchill	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	22	U	22:U	_
+

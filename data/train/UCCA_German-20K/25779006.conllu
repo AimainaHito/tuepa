@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25779006
+# text = Sodann bemerkte ich lange weißliche Reihen Seescheiden , eine Art Mollusken , die in Gesellschaft zusammenleben , und stattliche Medusen , die zwischen den Wirbeln der Wellen schaukelten .
+1	Sodann	Sodann	ADV	ADV	_	2	L	2:L	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	lange	lange	ADJ	ADJA	_	7	E	7:E	_
+5	weißliche	weißliche	ADJ	ADJA	_	7	E	7:E	_
+6	Reihen	Reihe	NOUN	NN	_	7	E	7:E	_
+7	Seescheiden	Seescheiden	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	eine	ein	DET	ART	_	11	E	11:E	_
+10	Art	Art	NOUN	NN	_	11	E	11:E	_
+11	Mollusken	Mollusko	NOUN	NN	_	7	E	7:E	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	die	der	PRON	PRELS	_	16	R	16:R	_
+14	in	in	ADP	APPR	_	15	R	15:R	_
+15	Gesellschaft	Gesellschaft	PROPN	NN	_	16	A	16:A	_
+16	zusammenleben	zusammenleben	VERB	VVINF	_	7	E	7:E	_
+17	,	,	PUNCT	$,	_	7	U	7:U	_
+18	und	und	CCONJ	NE	_	7	N	7:N	_
+19	stattliche	stattlich	ADJ	ADJA	_	20	E	20:E	_
+20	Medusen	Meduse	NOUN	NN	_	7	C	7:C	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	28	R	28:R	_
+23	zwischen	zwischen	ADP	ADJA	_	25	R	25:R	_
+24	den	der	DET	ART	_	25	E	25:E	_
+25	Wirbeln	Wirbeln	NOUN	NN	_	28	A	28:A	_
+26	der	der	DET	ART	_	27	R	27:R	_
+27	Wellen	Welle	NOUN	NN	_	25	E	25:E	_
+28	schaukelten	schaukelten	VERB	VVFIN	_	20	E	20:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

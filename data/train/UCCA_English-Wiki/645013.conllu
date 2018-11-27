@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 645013
+# text = " Ono had supposedly not heard of the Beatles , but relented on condition that Lennon pay her five shillings , to which Lennon replied , " I 'll give you an imaginary five shillings and hammer an imaginary nail in .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Ono	Ono	DET	DT	_	6	A	6:A|12:A	_
+3	had	have	VERB	VBD	_	6	F	6:F	_
+4	supposedly	supposedly	ADV	RB	_	6	D	6:D	_
+5	not	not	PART	RB	_	6	D	6:D	_
+6	heard	hear	VERB	VBN	_	0	H	0:H	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Beatles	Beatles	PROPN	NNPS	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	but	but	CCONJ	CC	_	6	L	6:L	_
+12	relented	relent	VERB	VBN	_	6	H	6:H	_
+13	on	on	ADP	IN	_	14	R	14:R	_
+14	condition	condition	NOUN	NN	_	12	A	12:A	_
+15	that	that	SCONJ	IN	_	17	F	17:F	_
+16	Lennon	Lennon	PROPN	NNP	_	17	A	17:A	_
+17	pay	pay	VERB	VBP	_	14	E	14:E	_
+18	her	she	PRON	PRP	_	17	A	17:A	_
+19	five	five	NUM	CD	_	20	E	20:E	_
+20	shillings	shilling	NOUN	NNS	_	17	A	17:A	_
+21	,	,	PUNCT	,	_	6	U	6:U	_
+22	to	to	ADP	IN	_	6	L	6:L	_
+23	which	which	PRON	WDT	_	22	Terminal	22:Terminal	_
+24	Lennon	Lennon	PROPN	NNP	_	25	A	25:A	_
+25	replied	reply	VERB	VBD	_	6	H	6:H	_
+26	,	,	PUNCT	,	_	25	U	25:U	_
+27	"	"	PUNCT	``	_	25	U	25:U	_
+28	I	I	PRON	PRP	_	30	A	30:A|37:A	_
+29	'll	will	AUX	MD	_	30	F	30:F	_
+30	give	give	VERB	VB	_	25	A	25:A	_
+31	you	you	PRON	PRP	_	30	A	30:A	_
+32	an	a	DET	DT	_	35	E	35:E	_
+33	imaginary	imaginary	ADJ	JJ	_	35	E	35:E	_
+34	five	five	NUM	CD	_	35	E	35:E	_
+35	shillings	shilling	NOUN	NNS	_	30	A	30:A	_
+36	and	and	CCONJ	CC	_	30	L	30:L	_
+37	hammer	hammer	VERB	VB	_	30	H	30:H	_
+38	an	a	DET	DT	_	40	E	40:E	_
+39	imaginary	imaginary	ADJ	JJ	_	40	E	40:E	_
+40	nail	nail	NOUN	NN	_	37	A	37:A	_
+41	in	in	ADP	IN	_	37	Terminal	37:Terminal	_
+42	.	.	PUNCT	.	_	37	U	37:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25773006
+# text = Dies beunruhigte mich ; denn sonst war eine Beob-achtung nicht möglich , und ohne diese ließ sich nicht feststellen , ob wir am Pol angekommen seien .
+1	Dies	dies	PRON	PDS	_	2	A	2:A	_
+2	beunruhigte	beunruhigen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	A	2:A	_
+4	;	;	PUNCT	$.	_	2	U	2:U	_
+5	denn	denn	CCONJ	KON	_	2	L	2:L	_
+6	sonst	sonst	ADV	NN	_	11	D	11:D	_
+7	war	sein	AUX	ADV	_	11	F	11:F	_
+8	eine	ein	DET	ART	_	9	E	9:E	_
+9	Beob-achtung	Beob-achtung	NOUN	NN	_	11	A	11:A	_
+10	nicht	nicht	PART	XY	_	11	D	11:D	_
+11	möglich	möglich	ADJ	ADJD	_	2	H	2:H	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	ohne	ohne	ADP	CARD	_	19	D	19:D	_
+15	diese	dies	PRON	PDAT	_	19	A	19:A	_
+16	ließ	lassen	VERB	VVFIN	_	19	D	19:D	_
+17	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	nicht	nicht	PART	XY	_	19	D	19:D	_
+19	feststellen	feststellen	VERB	VVINF	_	2	H	2:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	ob	ob	SCONJ	VVFIN	_	25	R	25:R	_
+22	wir	wir	PRON	NE	_	25	A	25:A	_
+23	am	am	ADJ	ADJD	_	24	R	24:R	_
+24	Pol	pol	NOUN	NE	_	25	A	25:A	_
+25	angekommen	ankommen	VERB	VVPP	_	19	A	19:A	_
+26	seien	sein	AUX	VAFIN	_	25	F	25:F	_
+27	.	.	PUNCT	$.	_	25	U	25:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25812016
+# text = Aber die Schrauben waren kaum los , als der Deckel mit äußerster Gewalt aufgehoben wurde , offenbar von einem Polypenarme mit seinen Schröpfköpfen .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Schrauben	Schraube	NOUN	NN	_	6	A	6:A	_
+4	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+5	kaum	kaum	ADV	ADV	_	6	D	6:D	_
+6	los	los	ADV	PTKVZ	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	als	als	SCONJ	KOUS	_	6	L	6:L	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Deckel	Deckel	NOUN	NN	_	14	A	14:A	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	äußerster	äußerst	ADJ	NN	_	13	E	13:E	_
+13	Gewalt	Gewalt	NOUN	NN	_	14	A	14:A	_
+14	aufgehoben	aufheben	VERB	VVPP	_	6	H	6:H	_
+15	wurde	werden	AUX	NN	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	offenbar	offenbar	ADV	NN	_	14	G	14:G	_
+18	von	von	ADP	NE	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Polypenarme	Polypenarm	NOUN	NN	_	14	A	14:A	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	seinen	sein	DET	PPOSAT	_	23	E	23:E	_
+23	Schröpfköpfen	Schröpfköpfen	NOUN	NN	_	20	E	20:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

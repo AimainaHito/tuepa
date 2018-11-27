@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25438009
+# text = Es war eine schnellsegelnde Fregatte mit einem Heizungs apparat , der die Dampf kraft bis auf 7 Atmosphären zu steigern gestattete .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	eine	ein	DET	ART	_	5	E	5:E	_
+4	schnellsegelnde	schnellsegelnd	ADJ	ADJA	_	2	A	2:A	_
+5	Fregatte	Fregatte	NOUN	NN	_	4	A	4:A	_
+6	mit	mit	ADP	APPR	_	9	R	9:R	_
+7	einem	ein	DET	ART	_	9	E	9:E	_
+8	Heizungs	Heizungs	NOUN	NN	_	9	E	9:E	_
+9	apparat	appareten	VERB	VVFIN	_	4	E	4:E	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	der	der	PRON	PRELS	_	20	R	20:R	_
+12	die	der	DET	ART	_	14	E	14:E	_
+13	Dampf	Dampf	NOUN	NN	_	14	E	14:E	_
+14	kraft	krafen	VERB	VVFIN	_	20	A	20:A	_
+15	bis	bis	ADP	APPR	_	17	R	17:R	_
+16	auf	auf	ADP	APPR	_	15	Terminal	15:Terminal	_
+17	7	7	NUM	CARD	_	20	A	20:A	_
+18	Atmosphären	Atmosphär	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	zu	zu	PART	VVINF	_	20	F	20:F	_
+20	steigern	steigern	VERB	VVINF	_	9	E	9:E	_
+21	gestattete	gestatteen	VERB	VVFIN	_	20	D	20:D	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

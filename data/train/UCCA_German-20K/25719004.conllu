@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25719004
+# text = » In einigen hunderttausend Jahren , mein Lieber . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	In	in	ADP	APPR	_	5	R	5:R	_
+3	einigen	einige	PRON	PIAT	_	5	E	5:E	_
+4	hunderttausend	hunderttausend	ADJ	ADJD	_	5	E	5:E	_
+5	Jahren	Jahr	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Lieber	lieber	PROPN	NN	_	5	G	5:G	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

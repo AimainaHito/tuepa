@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25597000
+# text = Endlich , etwa gegen 4 Uhr , fand dieser merkwürdige Ausflug sein Ziel .
+1	Endlich	endlich	ADJ	ADV	_	8	D	8:D	_
+2	,	,	PUNCT	$,	_	8	U	8:U	_
+3	etwa	etwa	ADV	ADV	_	8	D	8:D	_
+4	gegen	gegen	ADP	APPR	_	5	R	5:R	_
+5	4	4	NUM	CARD	_	8	D	8:D	_
+6	Uhr	Uhr	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	fand	finden	VERB	VVFIN	_	0	H	0:H	_
+9	dieser	dies	PRON	PDS	_	11	E	11:E	_
+10	merkwürdige	merkwürdig	ADJ	ADJA	_	11	E	11:E	_
+11	Ausflug	ausflug	NOUN	NN	_	8	A	8:A	_
+12	sein	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Ziel	Ziel	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25591016
+# text = Die " Nautilus " , die wie eine lange Klippe aussah , verschwand allmählich aus den Augen , aber sein Leuchtfeuer musste , wenn in den Gewässern die Nacht eintrat , unsere Rückkehr an Bord erleichtern , indem seine Strahlen vollkommen klar sichtbar waren .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	13	A	13:A	_
+4	"	"	PUNCT	$(	_	3	U	3:U	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	die	der	PRON	PRELS	_	11	R	11:R	_
+7	wie	wie	ADP	ADV	_	10	R	10:R	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	lange	lang	ADJ	ADJA	_	10	E	10:E	_
+10	Klippe	Klippe	NOUN	NN	_	11	A	11:A	_
+11	aussah	aussehen	VERB	VVFIN	_	3	E	3:E	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	verschwand	verschwinden	VERB	VVFIN	_	0	H	0:H	_
+14	allmählich	allmählich	ADJ	ADJD	_	13	D	13:D	_
+15	aus	aus	ADP	APPR	_	17	R	17:R	_
+16	den	der	DET	ART	_	17	E	17:E	_
+17	Augen	Auge	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	13	U	13:U	_
+19	aber	aber	CCONJ	KON	_	13	L	13:L	_
+20	sein	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Leuchtfeuer	Leuchtfeuer	NOUN	NN	_	36	A	36:A	_
+22	musste	müssen	AUX	VVFIN	_	36	D	36:D	_
+23	,	,	PUNCT	$,	_	13	U	13:U	_
+24	wenn	wenn	SCONJ	VVFIN	_	13	L	13:L	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	den	der	DET	ART	_	27	E	27:E	_
+27	Gewässern	Gewässer	NOUN	NN	_	30	A	30:A	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Nacht	Nacht	NOUN	NN	_	30	A	30:A	_
+30	eintrat	eintreten	VERB	VVFIN	_	13	H	13:H	_
+31	,	,	PUNCT	$,	_	13	U	13:U	_
+32	unsere	unser	PRON	PPOSAT	_	33	E	33:E	_
+33	Rückkehr	Rückkehr	NOUN	NN	_	36	A	36:A	_
+34	an	an	ADP	APPR	_	35	R	35:R	_
+35	Bord	Bord	NOUN	NN	_	33	E	33:E	_
+36	erleichtern	erleichtern	VERB	VVINF	_	13	H	13:H	_
+37	,	,	PUNCT	$,	_	13	U	13:U	_
+38	indem	indem	SCONJ	KOUS	_	13	L	13:L	_
+39	seine	sein	DET	PPOSAT	_	40	E	40:E	_
+40	Strahlen	Strahl|Strahlen	NOUN	NN	_	43	A	43:A	_
+41	vollkommen	vollkommen	VERB	VVPP	_	42	E	42:E	_
+42	klar	klar	ADJ	ADJD	_	43	D	43:D	_
+43	sichtbar	sichtbar	ADJ	ADJD	_	13	H	13:H	_
+44	waren	sein	AUX	VAFIN	_	43	F	43:F	_
+45	.	.	PUNCT	$.	_	43	U	43:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 462013
+# text = The next morning , Brokaw and Rather fondly remembered their former rival on the morning news shows .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	next	next	ADJ	JJ	_	3	E	3:E	_
+3	morning	morning	NOUN	NN	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Brokaw	Brokaw	PROPN	NNP	_	9	A	9:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Rather	Rather	PROPN	NNP	_	5	C	5:C	_
+8	fondly	fondly	ADV	RB	_	9	D	9:D	_
+9	remembered	remember	VERB	VBD	_	0	H	0:H	_
+10	their	they	PRON	PRP$	_	12	E	12:E	_
+11	former	former	ADJ	JJ	_	12	E	12:E	_
+12	rival	rival	NOUN	NN	_	9	A	9:A	_
+13	on	on	ADP	IN	_	17	R	17:R	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	morning	morning	NOUN	NN	_	16	E	16:E	_
+16	news	news	NOUN	NN	_	17	E	17:E	_
+17	shows	show	NOUN	NNS	_	9	A	9:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

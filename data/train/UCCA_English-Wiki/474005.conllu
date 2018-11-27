@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 474005
+# text = Johnson , who still had a guaranteed player contract that would pay him $ 14.6 million during the 1994 - 95 NBA season , signed a separate contract to coach the team that had no compensation .
+1	Johnson	Johnson	PROPN	NNP	_	25	A	25:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	who	who	PRON	WP	_	5	F	5:F	_
+4	still	still	ADV	RB	_	5	D	5:D	_
+5	had	have	VERB	VBD	_	1	E	1:E	_
+6	a	a	DET	DT	_	9	E	9:E	_
+7	guaranteed	guarantee	VERB	VBN	_	9	E	9:E	_
+8	player	player	NOUN	NN	_	9	E	9:E	_
+9	contract	contract	NOUN	NN	_	5	A	5:A	_
+10	that	that	PRON	WDT	_	12	F	12:F	_
+11	would	would	AUX	MD	_	12	F	12:F	_
+12	pay	pay	VERB	VB	_	9	E	9:E	_
+13	him	he	PRON	PRP	_	12	A	12:A	_
+14	$	$	SYM	$	_	12	U	12:U	_
+15	14.6	14.6	NUM	CD	_	12	A	12:A	_
+16	million	million	NUM	CD	_	15	E	15:E	_
+17	during	during	ADP	IN	_	12	L	12:L	_
+18	the	the	DET	DT	_	23	F	23:F	_
+19	1994	1994	NUM	CD	_	23	D	23:D	_
+20	-	-	SYM	SYM	_	19	U	19:U	_
+21	95	95	NUM	CD	_	19	Terminal	19:Terminal	_
+22	NBA	NBa	PROPN	NNP	_	23	E	23:E	_
+23	season	season	NOUN	NN	_	12	H	12:H	_
+24	,	,	PUNCT	,	_	25	U	25:U	_
+25	signed	sign	VERB	VBD	_	0	H	0:H	_
+26	a	a	DET	DT	_	28	E	28:E	_
+27	separate	separate	ADJ	JJ	_	28	E	28:E	_
+28	contract	contract	NOUN	NN	_	25	A	25:A	_
+29	to	to	PART	TO	_	30	F	30:F	_
+30	coach	coach	VERB	VB	_	28	E	28:E	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	team	team	NOUN	NN	_	30	A	30:A	_
+33	that	that	PRON	WDT	_	34	F	34:F	_
+34	had	have	VERB	VBD	_	28	E	28:E	_
+35	no	no	DET	DT	_	34	D	34:D	_
+36	compensation	compensation	NOUN	NN	_	34	A	34:A	_
+37	.	.	PUNCT	.	_	34	U	34:U	_
+

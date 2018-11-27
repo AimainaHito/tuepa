@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25753009
+# text = Kein Schatten , keine Abschwächung unserer künstlichen Beleuchtung .
+1	Kein	kein	PRON	PIAT	_	2	D	2:D	_
+2	Schatten	Schatten	NOUN	NN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	keine	kein	PRON	PIAT	_	5	D	5:D	_
+5	Abschwächung	Abschwächung	NOUN	NN	_	2	H	2:H	_
+6	unserer	unser	PRON	PPOSAT	_	8	R	8:R	_
+7	künstlichen	künstlich	ADJ	ADJA	_	8	D	8:D	_
+8	Beleuchtung	Beleuchtung	NOUN	NN	_	5	A	5:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

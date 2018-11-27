@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 450014
+# text = When the station launched in March 1961 , Jennings was initially an interviewer and co - producer for Vue , a late - night news program .
+1	When	when	ADV	WRB	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	station	station	NOUN	NN	_	4	A	4:A	_
+4	launched	launch	VERB	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	March	March	PROPN	NNP	_	4	D	4:D	_
+7	1961	1961	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	Jennings	Jennings	PROPN	NNP	_	10	A	10:A	_
+10	was	be	AUX	VBD	_	4	H	4:H	_
+11	initially	initially	ADV	RB	_	10	D	10:D	_
+12	an	a	DET	DT	_	13	E	13:E	_
+13	interviewer	interviewer	NOUN	NN	_	10	A	10:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	co	co	NOUN	NN	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	producer	producer	NOUN	NN	_	13	C	13:C	_
+18	for	for	ADP	IN	_	19	R	19:R	_
+19	Vue	Vue	PROPN	NNP	_	13	E	13:E	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	a	a	DET	DT	_	26	E	26:E	_
+22	late	late	ADJ	JJ	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	night	night	NOUN	NN	_	26	E	26:E	_
+25	news	news	NOUN	NN	_	26	E	26:E	_
+26	program	program	NOUN	NN	_	19	E	19:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

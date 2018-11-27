@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 459002
+# text = The anchor teamed with former Life magazine journalist Todd Brewster to pen The Century , a 606 - page book on 20th - century America .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	anchor	anchor	NOUN	NN	_	0	C	0:C|12:A	_
+3	teamed	team	VERB	VBN	_	0	H	0:H	_
+4	with	with	ADP	IN	_	9	R	9:R	_
+5	former	former	ADJ	JJ	_	9	E	9:E	_
+6	Life	life	NOUN	NN	_	7	E	7:E	_
+7	magazine	magazine	NOUN	NN	_	8	E	8:E	_
+8	journalist	journalist	NOUN	NN	_	9	E	9:E	_
+9	Todd	Todd	PROPN	NNP	_	0	C	0:C|12:A	_
+10	Brewster	Brewster	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	to	to	PART	TO	_	3	L	3:L	_
+12	pen	pen	VERB	VB	_	3	H	3:H	_
+13	The	the	DET	DT	_	12	A	12:A	_
+14	Century	Century	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	a	a	DET	DT	_	20	E	20:E	_
+17	606	606	NUM	CD	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	page	page	NOUN	NN	_	20	E	20:E	_
+20	book	book	NOUN	NN	_	13	E	13:E	_
+21	on	on	ADP	IN	_	25	R	25:R	_
+22	20th	20th	NOUN	NN	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	century	century	NOUN	NN	_	25	E	25:E	_
+25	America	America	PROPN	NNP	_	20	E	20:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

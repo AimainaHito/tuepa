@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 710011
+# text = Dylan commenced the new millennium by winning the Polar Music Prize in May 2000 and his first Oscar ; his song " Things Have Changed " , penned for the film Wonder Boys , won an Academy Award in March 2001 .
+1	Dylan	Dylan	PROPN	NNP	_	7	A	7:A	_
+2	commenced	commence	VERB	VBD	_	7	F	7:F	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	new	new	ADJ	JJ	_	5	E	5:E	_
+5	millennium	millennium	NOUN	NN	_	7	D	7:D	_
+6	by	by	SCONJ	IN	_	7	F	7:F	_
+7	winning	win	VERB	VBG	_	0	H	0:H	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	Polar	polar	PROPN	NNP	_	11	E	11:E	_
+10	Music	music	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Prize	Prize	PROPN	NNP	_	7	A	7:A	_
+12	in	in	ADP	IN	_	14	R	14:R	_
+13	May	May	PROPN	NNP	_	14	E	14:E	_
+14	2000	2000	NUM	CD	_	7	D	7:D	_
+15	and	and	CCONJ	CC	_	18	R	18:R	_
+16	his	he	PRON	PRP$	_	18	E	18:E	_
+17	first	first	ADJ	JJ	_	18	E	18:E	_
+18	Oscar	Oscar	NOUN	NN	_	7	A	7:A	_
+19	;	;	PUNCT	,	_	7	U	7:U	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	song	song	NOUN	NN	_	28	A	28:A	_
+22	"	"	PUNCT	``	_	21	U	21:U	_
+23	Things	thing	NOUN	NNS	_	21	E	21:E	_
+24	Have	have	AUX	VBP	_	23	Terminal	23:Terminal	_
+25	Changed	change	VERB	VBN	_	23	Terminal	23:Terminal	_
+26	"	"	PUNCT	''	_	28	U	28:U	_
+27	,	,	PUNCT	,	_	28	U	28:U	_
+28	penned	pen	VERB	VBD	_	35	A	35:A	_
+29	for	for	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	film	film	NOUN	NN	_	28	A	28:A	_
+32	Wonder	wonder	NOUN	NN	_	31	E	31:E	_
+33	Boys	boys	PROPN	NNPS	_	32	Terminal	32:Terminal	_
+34	,	,	PUNCT	,	_	35	U	35:U	_
+35	won	win	VERB	VBD	_	7	H	7:H	_
+36	an	a	DET	DT	_	37	E	37:E	_
+37	Academy	Academy	PROPN	NNP	_	35	A	35:A	_
+38	Award	Award	PROPN	NNP	_	37	Terminal	37:Terminal	_
+39	in	in	ADP	IN	_	41	R	41:R	_
+40	March	March	PROPN	NNP	_	41	E	41:E	_
+41	2001	2001	NUM	CD	_	35	D	35:D	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

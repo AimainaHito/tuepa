@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 142008
+# text = During its Los Angeles run , Hepburn fractured her hip .
+1	During	during	ADP	IN	_	5	L	5:L	_
+2	its	its	PRON	PRP$	_	5	A	5:A	_
+3	Los	Los	PROPN	NNP	_	5	E	5:E	_
+4	Angeles	Angeles	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	run	run	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Hepburn	Hepburn	PROPN	NNP	_	8	A	8:A	_
+8	fractured	fracture	VERB	VBD	_	5	H	5:H	_
+9	her	she	PRON	PRP$	_	10	E	10:E	_
+10	hip	hip	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25495006
+# text = Welcher auch noch so starke Panzer könnte die Stöße seines Sporns aushalten ?
+1	Welcher	welch	PRON	PWAT	_	6	E	6:E	_
+2	auch	auch	ADV	ADV	_	5	D	5:D	_
+3	noch	noch	ADV	VVINF	_	2	Terminal	2:Terminal	_
+4	so	so	ADV	ADV	_	2	Terminal	2:Terminal	_
+5	starke	stark	ADJ	NE	_	12	A	12:A	_
+6	Panzer	Panzer	NOUN	NN	_	5	A	5:A	_
+7	könnte	können	AUX	VMFIN	_	12	D	12:D	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Stöße	Stoß	NOUN	NN	_	12	A	12:A	_
+10	seines	sein	DET	PPOSAT	_	11	R	11:R	_
+11	Sporns	Sporns	NOUN	NN	_	9	E	9:E	_
+12	aushalten	aushalten	VERB	VVINF	_	0	H	0:H	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+

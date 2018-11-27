@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25752016
+# text = Und dieses solide Fahrzeug hätte ohne Zweifel nachgegeben , wäre es nicht , wie sein Kapitän gesagt hatte , widerstandsfähig gewesen wie ein fester Block .
+1	Und	und	CCONJ	ADJD	_	8	L	8:L	_
+2	dieses	dies	PRON	PDS	_	4	E	4:E	_
+3	solide	solide	ADJ	NN	_	4	E	4:E	_
+4	Fahrzeug	Fahrzeug	NOUN	NN	_	8	A	8:A	_
+5	hätte	haben	AUX	VAFIN	_	8	D	8:D	_
+6	ohne	ohne	ADP	NN	_	8	G	8:G	_
+7	Zweifel	Zweifel	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	nachgegeben	nachgeben	VERB	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wäre	sein	AUX	ADV	_	20	D	20:D	_
+11	es	es	PRON	PPER	_	20	A	20:A	_
+12	nicht	nicht	PART	CARD	_	20	D	20:D	_
+13	,	,	PUNCT	$,	_	8	U	8:U	_
+14	wie	wie	SCONJ	KON	_	17	D	17:D	_
+15	sein	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Kapitän	Kapitän	NOUN	NN	_	17	A	17:A	_
+17	gesagt	sagen	VERB	VVPP	_	8	H	8:H	_
+18	hatte	haben	AUX	VAFIN	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	8	U	8:U	_
+20	widerstandsfähig	widerstandsfähig	ADJ	ADJD	_	8	H	8:H	_
+21	gewesen	sein	AUX	PAV	_	20	F	20:F	_
+22	wie	wie	ADP	ADV	_	25	R	25:R	_
+23	ein	ein	DET	ART	_	25	E	25:E	_
+24	fester	fest	ADJ	ADJA	_	25	E	25:E	_
+25	Block	Block	NOUN	NN	_	8	H	8:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

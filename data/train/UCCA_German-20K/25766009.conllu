@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25766009
+# text = » Ich denke , wir stecken fest , Kapitän . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	denke	denken	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	wir	wir	PRON	NE	_	6	A	6:A	_
+6	stecken	stecken	VERB	VVFIN	_	3	A	3:A	_
+7	fest	fest	ADV	PTKVZ	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	Kapitän	Kapitän	NOUN	NN	_	6	G	6:G	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+11	«	«	PUNCT	$(	_	6	U	6:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 478007
+# text = " Several of his achievements in individual games have also been named among the top moments in the NBA .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	Several	several	ADJ	JJ	_	5	E	5:E	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	his	he	PRON	PRP$	_	5	A	5:A	_
+5	achievements	achievement	NOUN	NNS	_	12	A	12:A	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	individual	individual	ADJ	JJ	_	8	E	8:E	_
+8	games	game	NOUN	NNS	_	5	A	5:A	_
+9	have	have	AUX	VBP	_	12	F	12:F	_
+10	also	also	ADV	RB	_	12	D	12:D	_
+11	been	be	AUX	VBN	_	12	F	12:F	_
+12	named	name	VERB	VBN	_	0	H	0:H	_
+13	among	among	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	top	top	ADJ	JJ	_	16	E	16:E	_
+16	moments	moment	NOUN	NNS	_	12	A	12:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	NBA	NBa	NOUN	NN	_	16	E	16:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

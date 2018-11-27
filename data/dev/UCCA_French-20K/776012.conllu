@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 776012
+# text = - Nous ne retournons donc pas à Paris ? demanda Conseil .
+1	-	-	PUNCT	_	_	10	U	10:U	_
+2	Nous	nous	PRON	_	_	4	A	4:A	_
+3	ne	ne	ADV	_	_	4	D	4:D	_
+4	retournons	retourner	VERB	_	_	10	A	10:A	_
+5	donc	donc	ADV	_	_	4	L	4:L	_
+6	pas	pas	ADV	_	_	3	Terminal	3:Terminal	_
+7	à	à	ADP	_	_	8	R	8:R	_
+8	Paris	Paris	PROPN	_	_	4	A	4:A	_
+9	?	?	PUNCT	_	_	10	U	10:U	_
+10	demanda	demander	VERB	_	_	0	H	0:H	_
+11	Conseil	conseil	NOUN	_	_	10	A	10:A	_
+12	.	.	PUNCT	_	_	10	U	10:U	_
+

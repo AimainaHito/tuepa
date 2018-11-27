@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 440009
+# text = Pourquoi la mer , dans ses profondeurs ignorées , n' aurait - elle pas gardé ces vastes échantillons de la vie d' un autre âge , elle qui ne se modifie jamais , alors que le noyau terrestre change presque incessamment ?
+1	Pourquoi	pourquoi	ADV	_	_	15	A	15:A	_
+2	la	le	DET	_	_	3	E	3:E	_
+3	mer	mer	NOUN	_	_	15	A	15:A	_
+4	,	,	PUNCT	_	_	3	U	3:U	_
+5	dans	dans	ADP	_	_	7	R	7:R	_
+6	ses	son	DET	_	_	7	E	7:E	_
+7	profondeurs	profondeur	NOUN	_	_	3	E	3:E	_
+8	ignorées	ignoré	ADJ	_	_	7	E	7:E	_
+9	,	,	PUNCT	_	_	15	U	15:U	_
+10	n'	ne	ADV	_	_	15	D	15:D	_
+11	aurait	avoir	AUX	_	_	15	F	15:F	_
+12	-	-	PUNCT	_	_	15	U	15:U	_
+13	elle	elle	PRON	_	_	15	A	15:A	_
+14	pas	pas	ADV	_	_	10	Terminal	10:Terminal	_
+15	gardé	garder	VERB	_	_	0	H	0:H	_
+16	ces	ce	DET	_	_	18	E	18:E	_
+17	vastes	vaste	ADJ	_	_	18	E	18:E	_
+18	échantillons	échantillon	NOUN	_	_	15	A	15:A	_
+19	de	de	ADP	_	_	21	R	21:R	_
+20	la	le	DET	_	_	21	E	21:E	_
+21	vie	vie	NOUN	_	_	18	E	18:E	_
+22	d'	de	ADP	_	_	25	R	25:R	_
+23	un	un	DET	_	_	25	E	25:E	_
+24	autre	autre	ADJ	_	_	25	E	25:E	_
+25	âge	âge	NOUN	_	_	21	E	21:E	_
+26	,	,	PUNCT	_	_	15	U	15:U	_
+27	elle	elle	PRON	_	_	30	A	30:A	_
+28	qui	qui	PRON	_	_	30	F	30:F	_
+29	ne	ne	ADV	_	_	30	D	30:D	_
+30	se	se	PRON	_	_	15	H	15:H	_
+31	modifie	modifier	VERB	_	_	30	Terminal	30:Terminal	_
+32	jamais	jamais	ADV	_	_	30	D	30:D	_
+33	,	,	PUNCT	_	_	15	U	15:U	_
+34	alors	alors	ADV	_	_	15	L	15:L	_
+35	que	que	SCONJ	_	_	34	Terminal	34:Terminal	_
+36	le	le	DET	_	_	37	E	37:E	_
+37	noyau	noyau	NOUN	_	_	39	A	39:A	_
+38	terrestre	terrestre	ADJ	_	_	37	E	37:E	_
+39	change	changer	VERB	_	_	15	H	15:H	_
+40	presque	presque	ADV	_	_	41	E	41:E	_
+41	incessamment	incessamment	ADV	_	_	39	D	39:D	_
+42	?	?	PUNCT	_	_	41	U	41:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 458005
+# text = The Canadian press in particular raved about his in - in - depth coverage of the issue , and he was the only anchor to broadcast from Canada on the eve of the referendum .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Canadian	canadian	ADJ	JJ	_	3	E	3:E	_
+3	press	press	NOUN	NN	_	6	A	6:A	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	particular	particular	ADJ	JJ	_	6	D	6:D	_
+6	raved	rave	VERB	VBD	_	0	H	0:H	_
+7	about	about	ADP	IN	_	14	R	14:R	_
+8	his	he	PRON	PRP$	_	14	A	14:A	_
+9	in	in	ADP	IN	_	13	F	13:F	_
+10	-	-	PUNCT	HYPH	_	13	U	13:U	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	depth	depth	NOUN	NN	_	14	D	14:D	_
+14	coverage	coverage	NOUN	NN	_	6	A	6:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	issue	issue	NOUN	NN	_	14	A	14:A	_
+18	,	,	PUNCT	,	_	6	U	6:U	_
+19	and	and	CCONJ	CC	_	6	L	6:L	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	was	be	AUX	VBD	_	6	H	6:H	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	only	only	ADJ	JJ	_	24	E	24:E	_
+24	anchor	anchor	NOUN	NN	_	21	A	21:A	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	broadcast	broadcast	VERB	VB	_	24	E	24:E	_
+27	from	from	ADP	IN	_	28	R	28:R	_
+28	Canada	Canada	PROPN	NNP	_	26	A	26:A	_
+29	on	on	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	eve	eve	NOUN	NN	_	26	D	26:D	_
+32	of	of	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	referendum	referendum	NOUN	NN	_	31	E	31:E	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

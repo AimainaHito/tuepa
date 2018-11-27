@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 136010
+# text = Pat and Mike was one of the team 's most popular and critically acclaimed films , and it was also Hepburn 's personal favorite of the nine films she made with Tracy .
+1	Pat	Pat	PROPN	NNP	_	4	A	4:A	_
+2	and	and	CCONJ	CC	_	1	Terminal	1:Terminal	_
+3	Mike	Mike	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	was	be	AUX	VBD	_	0	H	0:H	_
+5	one	one	NUM	CD	_	15	E	15:E	_
+6	of	of	ADP	IN	_	15	R	15:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	team	team	NOUN	NN	_	15	E	15:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	most	most	ADV	RBS	_	11	E	11:E	_
+11	popular	popular	ADJ	JJ	_	15	E	15:E	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	critically	critically	ADV	RB	_	14	E	14:E	_
+14	acclaimed	acclaim	VERB	VBN	_	11	C	11:C	_
+15	films	film	NOUN	NNS	_	4	A	4:A	_
+16	,	,	PUNCT	,	_	4	U	4:U	_
+17	and	and	CCONJ	CC	_	4	L	4:L	_
+18	it	it	PRON	PRP	_	19	A	19:A	_
+19	was	be	AUX	VBD	_	4	H	4:H	_
+20	also	also	ADV	RB	_	19	D	19:D	_
+21	Hepburn	Hepburn	PROPN	NNP	_	19	A	19:A	_
+22	's	's	PART	POS	_	21	R	21:R	_
+23	personal	personal	ADJ	JJ	_	21	E	21:E	_
+24	favorite	favorite	NOUN	NN	_	21	E	21:E	_
+25	of	of	ADP	IN	_	30	R	30:R	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	nine	nine	NUM	CD	_	28	E	28:E	_
+28	films	film	NOUN	NNS	_	30	A	30:A	_
+29	she	she	PRON	PRP	_	30	A	30:A	_
+30	made	make	VERB	VBD	_	21	E	21:E	_
+31	with	with	ADP	IN	_	32	R	32:R	_
+32	Tracy	Tracy	PROPN	NNP	_	30	A	30:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

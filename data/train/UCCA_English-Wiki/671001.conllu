@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 671001
+# text = The tour spanned forty stops , with thirty - two in the United States and Canada , two in Africa , and six in Japan .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	tour	tour	NOUN	NN	_	3	A	3:A	_
+3	spanned	span	VERB	VBD	_	0	H	0:H	_
+4	forty	forty	ADJ	JJ	_	5	E	5:E	_
+5	stops	stop	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	with	with	ADP	IN	_	8	R	8:R	_
+8	thirty	thirty	NUM	CD	_	5	E	5:E	_
+9	-	-	SYM	SYM	_	8	U	8:U	_
+10	two	two	NUM	CD	_	8	Terminal	8:Terminal	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	United	United	PROPN	NNP	_	8	E	8:E	_
+14	States	States	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	13	N	13:N	_
+16	Canada	Canada	PROPN	NNP	_	13	C	13:C	_
+17	,	,	PUNCT	,	_	8	U	8:U	_
+18	two	two	NUM	CD	_	8	C	8:C	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	Africa	Africa	PROPN	NNP	_	18	E	18:E	_
+21	,	,	PUNCT	,	_	8	U	8:U	_
+22	and	and	CCONJ	CC	_	8	N	8:N	_
+23	six	six	NUM	CD	_	8	C	8:C	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	Japan	Japan	PROPN	NNP	_	23	E	23:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

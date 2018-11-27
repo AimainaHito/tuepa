@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25590008
+# text = Sobald er aufgesetzt war , fingen die auf unseren Rücken befestigten Apparate Rouquayrol ihre Tätigkeit an , und ich für meinen Teil atmete leicht .
+1	Sobald	sobald	SCONJ	KOUS	_	3	L	3:L	_
+2	er	er	PRON	PPER	_	3	A	3:A	_
+3	aufgesetzt	aufgesetzen	VERB	VVFIN	_	0	H	0:H	_
+4	war	sein	AUX	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	fingen	fingen	VERB	VVFIN	_	3	H	3:H	_
+7	die	der	DET	ART	_	12	E	12:E	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	unseren	unser	PRON	PPOSAT	_	10	E	10:E	_
+10	Rücken	Rücken	NOUN	NN	_	11	A	11:A	_
+11	befestigten	befestigen	VERB	VVFIN	_	12	E	12:E	_
+12	Apparate	Apparate	PROPN	ADJA	_	6	A	6:A	_
+13	Rouquayrol	Rouquayrol	PROPN	NN	_	12	E	12:E	_
+14	ihre	ihr	DET	PPOSAT	_	15	E	15:E	_
+15	Tätigkeit	Tätigkeit	NOUN	NN	_	6	A	6:A	_
+16	an	an	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	und	und	CCONJ	NE	_	3	L	3:L	_
+19	ich	ich	PRON	PPER	_	23	A	23:A	_
+20	für	für	ADP	APPR	_	22	R	22:R	_
+21	meinen	mein	PRON	PPOSAT	_	22	E	22:E	_
+22	Teil	Teil	NOUN	NN	_	23	A	23:A	_
+23	atmete	atmen	VERB	VVFIN	_	3	H	3:H	_
+24	leicht	leicht	ADJ	ADJD	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

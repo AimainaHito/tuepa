@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25466012
+# text = In dem Augenblick befand ich mich vorn beim Steuerbord , aufs Geländer gelehnt .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A|13:A	_
+6	mich	ich	PRON	PRF	_	4	Terminal	4:Terminal	_
+7	vorn	vorn	ADV	ADV	_	4	A	4:A	_
+8	beim	beim	ADJ	NE	_	9	R	9:R	_
+9	Steuerbord	Steuerbord	NOUN	NE	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	aufs	aufs	ADJ	NN	_	12	R	12:R	_
+12	Geländer	Gelände	NOUN	NE	_	13	A	13:A	_
+13	gelehnt	gelehnt	VERB	VVPP	_	4	H	4:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

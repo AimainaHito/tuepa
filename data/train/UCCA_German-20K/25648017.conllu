@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25648017
+# text = Als ich darüber grübelte , fühlte auch ich meinen Kopf von Betäubung befallen .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	darüber	darüber	ADV	PAV	_	4	A	4:A	_
+4	grübelte	grübeln	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	fühlte	fühlen	VERB	VVFIN	_	4	H	4:H	_
+7	auch	auch	ADV	ADV	_	6	D	6:D	_
+8	ich	ich	PRON	PPER	_	6	A	6:A	_
+9	meinen	mein	PRON	PPOSAT	_	10	E	10:E	_
+10	Kopf	Kopf	NOUN	NN	_	13	A	13:A	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	Betäubung	Betäubung	NOUN	NN	_	13	A	13:A	_
+13	befallen	befallen	VERB	VVINF	_	6	A	6:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

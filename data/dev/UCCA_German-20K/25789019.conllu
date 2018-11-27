@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25789019
+# text = Darauf bohrten seine Leute an verschiedenen Punkten ihres Umfangs zu gleicher Zeit sie an .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	bohrten	bohren	VERB	VVFIN	_	0	H	0:H	_
+3	seine	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Leute	Leute	NOUN	NN	_	2	A	2:A	_
+5	an	an	ADP	APPR	_	7	R	7:R	_
+6	verschiedenen	verschieden	ADJ	ADJA	_	7	E	7:E	_
+7	Punkten	Punkt	NOUN	NN	_	2	A	2:A	_
+8	ihres	ihr	DET	PPOSAT	_	9	R	9:R	_
+9	Umfangs	Umfangs	NOUN	NN	_	7	E	7:E	_
+10	zu	zu	ADP	NN	_	12	R	12:R	_
+11	gleicher	gleich	ADJ	ADJA	_	12	E	12:E	_
+12	Zeit	Zeit	NOUN	NN	_	2	A	2:A	_
+13	sie	sie	PRON	ADV	_	2	A	2:A	_
+14	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+15	.	.	PUNCT	$.	_	2	U	2:U	_
+

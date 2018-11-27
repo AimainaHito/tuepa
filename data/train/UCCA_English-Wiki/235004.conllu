@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 235004
+# text = " We are not right about everything . Things are getting better in China but we can change and are changing . We want to learn from the rest of the world as well as teach others about our ways and our culture . "
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	We	we	PRON	PRP	_	5	A	5:A	_
+3	are	be	AUX	VBP	_	5	F	5:F	_
+4	not	not	PART	RB	_	5	D	5:D	_
+5	right	right	ADJ	JJ	_	0	H	0:H	_
+6	about	about	ADP	IN	_	7	R	7:R	_
+7	everything	everything	PRON	NN	_	5	A	5:A	_
+8	.	.	PUNCT	.	_	5	U	5:U	_
+9	Things	thing	NOUN	NNS	_	12	A	12:A	_
+10	are	be	AUX	VBP	_	12	F	12:F	_
+11	getting	get	VERB	VBG	_	12	D	12:D	_
+12	better	better	ADJ	JJR	_	5	H	5:H	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	China	China	PROPN	NNP	_	12	A	12:A	_
+15	but	but	CCONJ	CC	_	5	L	5:L	_
+16	we	we	PRON	PRP	_	18	A	18:A	_
+17	can	can	AUX	MD	_	18	F	18:F	_
+18	change	change	VERB	VB	_	5	H	5:H	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	are	be	AUX	VBP	_	18	F	18:F	_
+21	changing	change	VERB	VBG	_	18	C	18:C	_
+22	.	.	PUNCT	.	_	5	U	5:U	_
+23	We	we	PRON	PRP	_	24	A	24:A|36:A|26:A	_
+24	want	want	VERB	VBP	_	5	H	5:H	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	learn	learn	VERB	VB	_	24	A	24:A	_
+27	from	from	ADP	IN	_	32	R	32:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	rest	rest	NOUN	NN	_	32	E	32:E	_
+30	of	of	ADP	IN	_	29	R	29:R	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	world	world	NOUN	NN	_	26	A	26:A	_
+33	as	as	ADV	RB	_	26	L	26:L	_
+34	well	well	ADV	RB	_	33	Terminal	33:Terminal	_
+35	as	as	ADP	IN	_	33	Terminal	33:Terminal	_
+36	teach	teach	DET	DT	_	26	H	26:H	_
+37	others	other	NOUN	NNS	_	36	A	36:A	_
+38	about	about	ADP	IN	_	40	R	40:R	_
+39	our	we	PRON	PRP$	_	40	E	40:E	_
+40	ways	way	NOUN	NNS	_	36	A	36:A	_
+41	and	and	CCONJ	CC	_	40	N	40:N	_
+42	our	we	PRON	PRP$	_	43	E	43:E	_
+43	culture	culture	NOUN	NN	_	40	C	40:C	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+45	"	"	PUNCT	''	_	43	U	43:U	_
+

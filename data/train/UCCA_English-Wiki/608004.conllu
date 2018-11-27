@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 608004
+# text = McCartney then formed a band consisting of himself and Linda , with Hamish Stuart and Robbie McIntosh on guitars , Paul " Wix " Wickens on keyboards and Chris Whitten on drums .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A	_
+2	then	then	ADV	RB	_	3	D	3:D	_
+3	formed	form	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	band	band	NOUN	NN	_	3	A	3:A	_
+6	consisting	consisting	VERB	VBG	_	5	E	5:E	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	himself	himself	PRON	PRP	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	Linda	Linda	PROPN	NNP	_	8	C	8:C	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	Hamish	Hamish	PROPN	NNP	_	6	A	6:A	_
+14	Stuart	Stuart	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	13	N	13:N	_
+16	Robbie	Robbie	PROPN	NNP	_	13	C	13:C	_
+17	McIntosh	McIntosh	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	on	on	ADP	IN	_	19	R	19:R	_
+19	guitars	guitar	NOUN	NNS	_	13	A	13:A	_
+20	,	,	PUNCT	,	_	13	U	13:U	_
+21	Paul	Paul	PROPN	NNP	_	13	C	13:C	_
+22	"	"	PUNCT	``	_	21	U	21:U	_
+23	Wix	Wix	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	"	"	PUNCT	''	_	21	U	21:U	_
+25	Wickens	Wicken	NOUN	NNS	_	21	Terminal	21:Terminal	_
+26	on	on	ADP	IN	_	27	R	27:R	_
+27	keyboards	keyboard	NOUN	NNS	_	21	A	21:A	_
+28	and	and	CCONJ	CC	_	13	N	13:N	_
+29	Chris	Chris	PROPN	NNP	_	13	C	13:C	_
+30	Whitten	whitten	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	on	on	ADP	IN	_	32	R	32:R	_
+32	drums	drum	NOUN	NNS	_	29	A	29:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

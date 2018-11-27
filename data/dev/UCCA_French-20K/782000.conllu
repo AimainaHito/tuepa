@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 782000
+# text = Nos bagages furent immédiatement transbordés sur le pont de la frégate .
+1	Nos	son	DET	_	_	2	E	2:E	_
+2	bagages	bagage	NOUN	_	_	5	A	5:A	_
+3	furent	être	AUX	_	_	5	F	5:F	_
+4	immédiatement	immédiatement	ADV	_	_	5	D	5:D	_
+5	transbordés	transborder	VERB	_	_	0	H	0:H	_
+6	sur	sur	ADP	_	_	8	R	8:R	_
+7	le	le	DET	_	_	8	E	8:E	_
+8	pont	pont	NOUN	_	_	5	A	5:A	_
+9	de	de	ADP	_	_	11	R	11:R	_
+10	la	le	DET	_	_	11	E	11:E	_
+11	frégate	frégate	NOUN	_	_	8	E	8:E	_
+12	.	.	PUNCT	_	_	11	U	11:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 380008
+# text = It means I can play more kinds of roles .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	means	mean	VERB	VBZ	_	0	H	0:H	_
+3	I	I	PRON	PRP	_	5	A	5:A	_
+4	can	can	AUX	MD	_	5	D	5:D	_
+5	play	play	VERB	VB	_	2	A	2:A	_
+6	more	more	ADJ	JJR	_	7	E	7:E	_
+7	kinds	kind	NOUN	NNS	_	9	E	9:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	roles	role	NOUN	NNS	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

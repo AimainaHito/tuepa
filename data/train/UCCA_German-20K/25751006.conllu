@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25751006
+# text = Der Kapitän und ich , wir begleiteten den Zeiger des Manometers , der rasend schnell umlief .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	6	E	6:E	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	ich	ich	PRON	PPER	_	2	C	2:C	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	wir	wir	PRON	NE	_	7	A	7:A	_
+7	begleiteten	begleiten	VERB	VVFIN	_	0	H	0:H	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Zeiger	Zeiger	NOUN	NN	_	7	A	7:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Manometers	Manometer	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	der	der	DET	PRELS	_	16	R	16:R	_
+14	rasend	rasend	ADJ	ADJD	_	15	E	15:E	_
+15	schnell	schnell	ADJ	NN	_	16	D	16:D	_
+16	umlief	umlief	ADJ	VVFIN	_	9	E	9:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

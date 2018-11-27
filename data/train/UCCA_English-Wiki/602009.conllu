@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 602009
+# text = The soundtrack failed to chart , but it won McCartney an Ivor Novello Award for Best Instrumental Theme .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	soundtrack	soundtrack	NOUN	NN	_	3	A	3:A	_
+3	failed	fail	VERB	VBD	_	0	H	0:H	_
+4	to	to	PART	TO	_	5	E	5:E	_
+5	chart	chart	VERB	VB	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	but	but	CCONJ	CC	_	3	L	3:L	_
+8	it	it	PRON	PRP	_	9	A	9:A	_
+9	won	win	VERB	VBD	_	3	H	3:H	_
+10	McCartney	McCartney	PROPN	NNP	_	9	A	9:A	_
+11	an	a	DET	DT	_	14	E	14:E	_
+12	Ivor	Ivor	PROPN	NNP	_	14	E	14:E	_
+13	Novello	Novello	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Award	Award	PROPN	NNP	_	9	A	9:A	_
+15	for	for	ADP	IN	_	18	R	18:R	_
+16	Best	Best	PROPN	NNP	_	18	E	18:E	_
+17	Instrumental	instrumental	PROPN	NNP	_	18	E	18:E	_
+18	Theme	theme	PROPN	NNP	_	14	E	14:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

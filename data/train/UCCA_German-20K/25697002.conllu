@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25697002
+# text = » Bis jetzt habe ich aber doch nur klare Wellen ohne irgend besondere Färbung gesehen . «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Bis	bis	ADP	APPR	_	3	R	3:R	_
+3	jetzt	jetzt	ADV	ADV	_	15	D	15:D	_
+4	habe	haben	AUX	VAFIN	_	15	F	15:F	_
+5	ich	ich	PRON	PPER	_	15	A	15:A	_
+6	aber	aber	ADV	ADV	_	15	L	15:L	_
+7	doch	doch	ADV	ADV	_	15	D	15:D	_
+8	nur	nur	ADV	NE	_	15	D	15:D	_
+9	klare	klar	ADJ	ADJA	_	10	E	10:E	_
+10	Wellen	Welle	NOUN	NN	_	15	A	15:A	_
+11	ohne	ohne	ADP	NN	_	14	R	14:R	_
+12	irgend	irgend	ADJ	ADJD	_	14	E	14:E	_
+13	besondere	besonder	ADJ	ADJA	_	14	E	14:E	_
+14	Färbung	Färbung	NOUN	NN	_	10	E	10:E	_
+15	gesehen	sehen	VERB	VVINF	_	0	H	0:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

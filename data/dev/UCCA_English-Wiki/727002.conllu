@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 727002
+# text = " In 2002 , she starred in Life or Something Like It as an ambitious television reporter who is told that she will die in a week .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	2002	2002	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A	_
+6	starred	star	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	6	R	6:R	_
+8	Life	Life	NOUN	NN	_	6	A	6:A	_
+9	or	or	CCONJ	CC	_	8	Terminal	8:Terminal	_
+10	Something	something	PRON	NN	_	8	Terminal	8:Terminal	_
+11	Like	like	ADP	IN	_	8	Terminal	8:Terminal	_
+12	It	it	PRON	PRP	_	8	Terminal	8:Terminal	_
+13	as	as	ADP	IN	_	17	R	17:R	_
+14	an	a	DET	DT	_	17	E	17:E	_
+15	ambitious	ambitious	ADJ	JJ	_	17	E	17:E	_
+16	television	television	NOUN	NN	_	17	E	17:E	_
+17	reporter	reporter	NOUN	NN	_	6	A	6:A	_
+18	who	who	PRON	WP	_	20	R	20:R	_
+19	is	be	AUX	VBZ	_	20	F	20:F	_
+20	told	tell	VERB	VBN	_	17	E	17:E	_
+21	that	that	SCONJ	IN	_	24	F	24:F	_
+22	she	she	PRON	PRP	_	24	A	24:A	_
+23	will	will	AUX	MD	_	24	F	24:F	_
+24	die	die	VERB	VB	_	20	A	20:A	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	week	week	NOUN	NN	_	24	D	24:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

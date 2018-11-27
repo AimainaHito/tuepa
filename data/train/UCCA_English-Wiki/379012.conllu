@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 379012
+# text = Gyllenhaal was awarded the 2006 Young Artist Award for Artistic Excellence by The Americans for the Arts National Arts Awards for his role .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	awarded	award	VERB	VBN	_	0	H	0:H	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	2006	2006	NUM	CD	_	8	E	8:E	_
+6	Young	young	NOUN	NN	_	8	E	8:E	_
+7	Artist	artist	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Award	Award	PROPN	NNP	_	3	A	3:A	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	Artistic	artistic	PROPN	NNP	_	8	E	8:E	_
+11	Excellence	excellence	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	by	by	ADP	IN	_	13	R	13:R	_
+13	The	the	DET	DT	_	8	E	8:E	_
+14	Americans	americans	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+15	for	for	ADP	IN	_	20	R	20:R	_
+16	the	the	DET	DT	_	20	E	20:E	_
+17	Arts	Arts	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	National	National	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	Arts	Arts	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+20	Awards	awards	PROPN	NNP	_	8	E	8:E	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	his	he	PRON	PRP$	_	23	A	23:A	_
+23	role	role	NOUN	NN	_	3	A	3:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

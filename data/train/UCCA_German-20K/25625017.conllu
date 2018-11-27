@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 25625017
+# text = » Mein Herr « , erwiderte der Kanadier , » die Jagd ist nicht nur noch nicht zu Ende , sondern nicht einmal angefangen . Geduld ! Wir werden bald endlich ein gefiedertes oder behaartes Tier treffen , wo nicht hier , so anderswo ... «
+1	»	»	PUNCT	$(	_	19	U	19:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	19	G	19:G|26:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Jagd	Jagd	NOUN	NN	_	0	C	0:C|24:A	_
+13	ist	sein	AUX	NN	_	19	F	19:F	_
+14	nicht	nicht	PART	CARD	_	19	L	19:L	_
+15	nur	nur	ADV	NE	_	14	Terminal	14:Terminal	_
+16	noch	noch	ADV	CARD	_	17	E	17:E	_
+17	nicht	nicht	PART	CARD	_	19	D	19:D	_
+18	zu	zu	ADP	NE	_	19	R	19:R	_
+19	Ende	Ende	NOUN	NN	_	6	A	6:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	sondern	sondern	CCONJ	NE	_	19	L	19:L	_
+22	nicht	nicht	PART	CARD	_	24	D	24:D	_
+23	einmal	einmal	ADV	ADV	_	24	D	24:D	_
+24	angefangen	angefang	ADJ	NN	_	19	H	19:H	_
+25	.	.	PUNCT	$.	_	19	U	19:U	_
+26	Geduld	Geduld	NOUN	FM	_	19	H	19:H	_
+27	!	!	PUNCT	$.	_	19	U	19:U	_
+28	Wir	wir	PRON	NE	_	37	A	37:A|44:A|41:A	_
+29	werden	werden	AUX	VVFIN	_	37	F	37:F	_
+30	bald	bald	ADV	ADV	_	37	D	37:D	_
+31	endlich	endlich	ADV	ADV	_	37	D	37:D	_
+32	ein	ein	DET	ART	_	36	E	36:E	_
+33	gefiedertes	gefiedertes	ADJ	ADJA	_	36	E	36:E	_
+34	oder	oder	CCONJ	CARD	_	33	N	33:N	_
+35	behaartes	behaartes	ADJ	ADJA	_	33	C	33:C	_
+36	Tier	Tier	NOUN	NN	_	0	C	0:C|44:A|41:A	_
+37	treffen	treffen	VERB	VVFIN	_	19	H	19:H	_
+38	,	,	PUNCT	$,	_	19	U	19:U	_
+39	wo	wo	ADV	ADJA	_	19	L	19:L	_
+40	nicht	nicht	PART	CARD	_	41	D	41:D	_
+41	hier	hier	ADV	ADV	_	19	H	19:H	_
+42	,	,	PUNCT	$,	_	19	U	19:U	_
+43	so	so	ADV	ADV	_	19	L	19:L	_
+44	anderswo	anderswo	ADV	ADV	_	19	H	19:H	_
+45	...	...	PUNCT	$(	_	44	U	44:U	_
+46	«	«	PUNCT	$(	_	44	U	44:U	_
+

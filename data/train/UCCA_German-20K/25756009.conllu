@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25756009
+# text = Der Kanadier gewahrte in einer Entfernung von 5 Meilen einen Walfisch am östlichen Horizont .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+3	gewahrte	gewahrt	VERB	VVFIN	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	einer	ein	DET	ART	_	6	E	6:E	_
+6	Entfernung	Entfernung	NOUN	NN	_	3	A	3:A	_
+7	von	von	ADP	NE	_	9	R	9:R	_
+8	5	5	NUM	CARD	_	9	E	9:E	_
+9	Meilen	Meile	NOUN	NN	_	6	E	6:E	_
+10	einen	ein	DET	ART	_	11	E	11:E	_
+11	Walfisch	Walfisch	NOUN	NN	_	3	A	3:A	_
+12	am	am	ADJ	ADJD	_	14	R	14:R	_
+13	östlichen	östlich	ADJ	ADJA	_	14	E	14:E	_
+14	Horizont	Horizont	NOUN	NN	_	3	A	3:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

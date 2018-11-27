@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25410007
+# text = Sechs Monate lang wurde der Krieg mit abwechselndem Erfolg geführt .
+1	Sechs	sechs	NUM	CARD	_	2	E	2:E	_
+2	Monate	Monat	NOUN	NN	_	10	D	10:D	_
+3	lang	lang	ADJ	ADJD	_	10	D	10:D	_
+4	wurde	werden	AUX	TRUNC	_	10	F	10:F	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Krieg	Krieg	NOUN	NN	_	10	A	10:A	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	abwechselndem	abwechselnd	ADJ	ADJA	_	9	E	9:E	_
+9	Erfolg	Erfolg	NOUN	NN	_	10	A	10:A	_
+10	geführt	führen	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

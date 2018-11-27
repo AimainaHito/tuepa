@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 552002
+# text = In 1974 , the former studio chief suffered a stroke that left him blind and enfeebled .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1974	1974	NUM	CD	_	8	D	8:D	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	former	former	ADJ	JJ	_	7	E	7:E	_
+6	studio	studio	NOUN	NN	_	7	E	7:E	_
+7	chief	chief	NOUN	NN	_	8	A	8:A	_
+8	suffered	suffer	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	stroke	stroke	NOUN	NN	_	8	A	8:A	_
+11	that	that	PRON	WDT	_	12	F	12:F	_
+12	left	leave	VERB	VBD	_	10	E	10:E	_
+13	him	he	PRON	PRP	_	14	A	14:A	_
+14	blind	blind	ADJ	JJ	_	12	A	12:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	enfeebled	enfeeble	VERB	VBD	_	14	C	14:C	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

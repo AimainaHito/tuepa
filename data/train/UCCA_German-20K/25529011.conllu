@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25529011
+# text = » Ah , Freund Conseil , Sie haben das Beste bis zuletzt aufgehoben .
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Ah	Ah	PROPN	NE	_	13	F	13:F	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	Freund	Freund	PROPN	NE	_	5	E	5:E	_
+5	Conseil	Conseil	PROPN	NE	_	13	G	13:G	_
+6	,	,	PUNCT	$,	_	13	U	13:U	_
+7	Sie	Sie|sie	PRON	PPER	_	13	A	13:A	_
+8	haben	haben	AUX	VAFIN	_	13	F	13:F	_
+9	das	der	DET	ART	_	10	E	10:E	_
+10	Beste	Beste	NOUN	ADJA	_	13	A	13:A	_
+11	bis	bis	ADP	APPR	_	12	R	12:R	_
+12	zuletzt	zuletzt	ADV	ADV	_	13	D	13:D	_
+13	aufgehoben	aufheben	ADJ	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25521009
+# text = Gemäß der Gestaltung der Kontinente wurden nun die Meere in die fünf großen Teile geteilt : das Nördliche und Südliche Polar meer , der Indische Ozean , der Atlantik und der Pazifik .
+1	Gemäß	gemäß	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Gestaltung	Gestaltung	NOUN	NN	_	15	A	15:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Kontinente	Kontinent	NOUN	NN	_	3	E	3:E	_
+6	wurden	werden	AUX	NN	_	15	F	15:F	_
+7	nun	nun	ADV	ADV	_	15	D	15:D	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Meere	Meer	NOUN	NN	_	15	A	15:A	_
+10	in	in	ADP	APPR	_	14	R	14:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	fünf	fünf	NUM	CARD	_	14	E	14:E	_
+13	großen	groß	ADJ	ADJA	_	14	E	14:E	_
+14	Teile	Teil	NOUN	NN	_	15	A	15:A	_
+15	geteilt	teilen	VERB	VVPP	_	0	H	0:H	_
+16	:	:	PUNCT	$.	_	15	U	15:U	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Nördliche	Nördliche	NOUN	ADJA	_	15	A	15:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Südliche	südlich	PROPN	NN	_	22	E	22:E	_
+21	Polar	Polar	PROPN	NE	_	22	E	22:E	_
+22	meer	meer	PROPN	NE	_	18	C	18:C	_
+23	,	,	PUNCT	$,	_	18	U	18:U	_
+24	der	der	DET	ART	_	25	E	25:E	_
+25	Indische	indisch	PROPN	ADJA	_	18	C	18:C	_
+26	Ozean	Ozean	PROPN	NE	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	$,	_	18	U	18:U	_
+28	der	der	DET	ART	_	29	E	29:E	_
+29	Atlantik	Atlantiken	PROPN	NN	_	18	C	18:C	_
+30	und	und	CCONJ	NN	_	18	N	18:N	_
+31	der	der	DET	ART	_	32	E	32:E	_
+32	Pazifik	Pazifik	PROPN	NN	_	18	C	18:C	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

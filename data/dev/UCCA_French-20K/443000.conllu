@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 443000
+# text = L' opinion publique s' étant prononcée , les États de l' Union se déclarèrent les premiers .
+1	L'	le	DET	_	_	2	E	2:E	_
+2	opinion	opinion	NOUN	_	_	4	A	4:A	_
+3	publique	public	ADJ	_	_	2	E	2:E	_
+4	s'	se	PRON	_	_	0	H	0:H	_
+5	étant	être	AUX	_	_	4	F	4:F	_
+6	prononcée	prononcer	VERB	_	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	_	_	4	U	4:U	_
+8	les	le	DET	_	_	9	E	9:E	_
+9	États	États	PROPN	_	_	13	A	13:A	_
+10	de	de	ADP	_	_	12	R	12:R	_
+11	l'	le	DET	_	_	12	E	12:E	_
+12	Union	union	NOUN	_	_	9	E	9:E	_
+13	se	se	PRON	_	_	4	H	4:H	_
+14	déclarèrent	déclarer	VERB	_	_	13	Terminal	13:Terminal	_
+15	les	le	DET	_	_	16	E	16:E	_
+16	premiers	premier	NOUN	_	_	13	D	13:D	_
+17	.	.	PUNCT	_	_	16	U	16:U	_
+

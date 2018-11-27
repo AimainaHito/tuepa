@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25502003
+# text = Eine Doppel tür im Hintergrund des Saals öffnete sich , und ich trat in ein Zimmer von gleicher Größe wie das , welches wir verließen .
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	Doppel	Doppel	NOUN	NN	_	3	E	3:E	_
+3	tür	tür	ADP	PAV	_	8	A	8:A	_
+4	im	im	ADJ	NE	_	5	R	5:R	_
+5	Hintergrund	Hintergrund	NOUN	NN	_	3	E	3:E	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Saals	Saal	NOUN	NN	_	5	E	5:E	_
+8	öffnete	öffnen	VERB	VVFIN	_	0	H	0:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	und	und	CCONJ	NE	_	8	L	8:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	trat	treten	VERB	VVFIN	_	8	H	8:H	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	ein	ein	DET	ART	_	16	E	16:E	_
+16	Zimmer	Zimmer	NOUN	NN	_	19	A	19:A	_
+17	von	von	ADP	NN	_	19	R	19:R	_
+18	gleicher	gleich	ADJ	ADJA	_	19	E	19:E	_
+19	Größe	Größe	NOUN	NN	_	13	A	13:A	_
+20	wie	wie	ADP	KON	_	21	R	21:R	_
+21	das	der	DET	PDS	_	19	A	19:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	welches	welch	PRON	PRELS	_	25	R	25:R	_
+24	wir	wir	PRON	NE	_	25	A	25:A	_
+25	verließen	verlassen	VERB	VVFIN	_	21	E	21:E	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

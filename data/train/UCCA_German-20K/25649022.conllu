@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25649022
+# text = Gegen 2 Uhr befand ich mich im Salon und war beschäftigt , meine Notizen zu ordnen , als Kapitän Nemo öffnete und eintrat .
+1	Gegen	gegen	ADP	APPR	_	2	R	2:R	_
+2	2	2	NUM	CARD	_	4	D	4:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A|16:A|11:A	_
+6	mich	ich	PRON	PRF	_	4	Terminal	4:Terminal	_
+7	im	im	ADV	NE	_	8	R	8:R	_
+8	Salon	Salon	NOUN	NE	_	4	A	4:A	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	war	sein	AUX	ADV	_	11	F	11:F	_
+11	beschäftigt	beschäftigen	ADJ	VVFIN	_	4	H	4:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	meine	mein	PRON	VVFIN	_	14	E	14:E	_
+14	Notizen	Notiz	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	ordnen	ordnen	VERB	VVINF	_	11	A	11:A	_
+17	,	,	PUNCT	$,	_	4	U	4:U	_
+18	als	als	SCONJ	KOUS	_	4	L	4:L	_
+19	Kapitän	Kapitän	NOUN	NN	_	20	E	20:E	_
+20	Nemo	Nemo	PROPN	NE	_	0	C	0:C|23:A	_
+21	öffnete	öffnen	VERB	VVFIN	_	4	H	4:H	_
+22	und	und	CCONJ	NE	_	4	L	4:L	_
+23	eintrat	eintreten	VERB	VVFIN	_	4	H	4:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

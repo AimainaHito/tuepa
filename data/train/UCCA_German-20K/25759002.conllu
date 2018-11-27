@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25759002
+# text = Ned Land sah Kapitän Nemo ins Angesicht , verstand aber offenbar nicht , was er damit meinte .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A|9:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+6	ins	in	DET	NE	_	7	R	7:R	_
+7	Angesicht	Angesicht	NOUN	NE	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	verstand	verstehen	VERB	VVFIN	_	3	H	3:H	_
+10	aber	aber	ADV	ADV	_	3	L	3:L	_
+11	offenbar	offenbar	ADJ	CARD	_	9	D	9:D	_
+12	nicht	nicht	PART	CARD	_	9	D	9:D	_
+13	,	,	PUNCT	$,	_	9	U	9:U	_
+14	was	was	PRON	NE	_	17	A	17:A	_
+15	er	er	PRON	PPER	_	17	A	17:A	_
+16	damit	damit	ADV	PAV	_	17	A	17:A	_
+17	meinte	meinen	VERB	VVFIN	_	9	A	9:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 531002
+# text = Following this success , CBS made a $ 24 million offer to her for a weekly television series of her own , also to be called The Judy Garland Show , which was deemed at the time in the press to be " the biggest talent deal in TV history .
+1	Following	follow	VERB	VBG	_	3	L	3:L	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	success	success	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	CBS	CBS	PROPN	NNP	_	11	A	11:A	_
+6	made	make	VERB	VBD	_	11	F	11:F	_
+7	a	a	DET	DT	_	11	E	11:E	_
+8	$	$	SYM	$	_	11	U	11:U	_
+9	24	24	NUM	CD	_	11	E	11:E	_
+10	million	million	NUM	CD	_	9	Terminal	9:Terminal	_
+11	offer	offer	NOUN	NN	_	3	H	3:H	_
+12	to	to	ADP	IN	_	13	R	13:R	_
+13	her	she	PRON	PRP	_	11	A	11:A	_
+14	for	for	ADP	IN	_	18	R	18:R	_
+15	a	a	DET	DT	_	18	E	18:E	_
+16	weekly	weekly	ADJ	JJ	_	18	E	18:E	_
+17	television	television	NOUN	NN	_	18	E	18:E	_
+18	series	series	NOUN	NNS	_	11	A	11:A	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	her	she	PRON	PRP$	_	21	E	21:E	_
+21	own	own	ADJ	JJ	_	18	E	18:E	_
+22	,	,	PUNCT	,	_	18	U	18:U	_
+23	also	also	ADV	RB	_	26	D	26:D	_
+24	to	to	PART	TO	_	26	F	26:F	_
+25	be	be	AUX	VB	_	26	F	26:F	_
+26	called	call	VERB	VBN	_	18	E	18:E	_
+27	The	the	DET	DT	_	26	A	26:A	_
+28	Judy	Judy	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	Garland	Garland	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	Show	show	NOUN	NN	_	27	Terminal	27:Terminal	_
+31	,	,	PUNCT	,	_	27	U	27:U	_
+32	which	which	PRON	WDT	_	34	R	34:R	_
+33	was	be	AUX	VBD	_	34	F	34:F	_
+34	deemed	deem	VERB	VBN	_	27	E	27:E	_
+35	at	at	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	time	time	NOUN	NN	_	34	D	34:D	_
+38	in	in	ADP	IN	_	40	R	40:R	_
+39	the	the	DET	DT	_	40	E	40:E	_
+40	press	press	NOUN	NN	_	34	A	34:A	_
+41	to	to	PART	TO	_	42	F	42:F	_
+42	be	be	VERB	VB	_	34	A	34:A	_
+43	"	"	PUNCT	``	_	42	U	42:U	_
+44	the	the	DET	DT	_	47	E	47:E	_
+45	biggest	biggest	ADJ	JJS	_	47	E	47:E	_
+46	talent	talent	NOUN	NN	_	47	E	47:E	_
+47	deal	deal	VERB	VB	_	42	A	42:A	_
+48	in	in	ADP	IN	_	50	R	50:R	_
+49	TV	tv	NOUN	NN	_	50	E	50:E	_
+50	history	history	NOUN	NN	_	47	E	47:E	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

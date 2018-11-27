@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25416004
+# text = Es blieben also noch zwei mögliche Lösungen der Frage , die beide Anhänger fanden : Die einen hielten den Gegenstand für ein Ungeheuer von kolossaler Kraft ; die anderen für ein unterseeisches Fahrzeug von außerordentlicher Bewegkraft .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	blieben	bleiben	AUX	VVFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	L	2:L	_
+4	noch	noch	ADV	CARD	_	2	D	2:D	_
+5	zwei	zwei	NUM	NN	_	7	E	7:E	_
+6	mögliche	möglich	ADJ	CARD	_	7	E	7:E	_
+7	Lösungen	Lösung	NOUN	NN	_	2	A	2:A	_
+8	der	der	DET	ART	_	9	R	9:R	_
+9	Frage	Frage	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	die	der	PRON	PRELS	_	14	R	14:R	_
+12	beide	beide	PRON	PIS	_	14	A	14:A	_
+13	Anhänger	Anhänger	NOUN	NN	_	14	A	14:A	_
+14	fanden	finden	VERB	VVFIN	_	7	E	7:E	_
+15	:	:	PUNCT	$.	_	2	U	2:U	_
+16	Die	der	PRON	ART	_	17	E	17:E	_
+17	einen	ein	PRON	ART	_	18	A	18:A	_
+18	hielten	halten	VERB	VVFIN	_	2	H	2:H	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Gegenstand	Gegenstand	NOUN	NN	_	18	A	18:A	_
+21	für	für	ADP	APPR	_	23	R	23:R	_
+22	ein	ein	DET	ART	_	23	E	23:E	_
+23	Ungeheuer	Ungeheuer	NOUN	NN	_	18	A	18:A	_
+24	von	von	ADP	NE	_	26	R	26:R	_
+25	kolossaler	kolossal	ADJ	ADJA	_	26	D	26:D	_
+26	Kraft	Kraft	NOUN	NN	_	23	E	23:E	_
+27	;	;	PUNCT	$.	_	2	U	2:U	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	anderen	ander	ADJ	ADJA	_	2	H	2:H	_
+30	für	für	ADP	APPR	_	33	R	33:R	_
+31	ein	ein	DET	ART	_	33	E	33:E	_
+32	unterseeisches	unterseeisch	ADJ	ADJA	_	33	E	33:E	_
+33	Fahrzeug	Fahrzeug	NOUN	NN	_	29	A	29:A	_
+34	von	von	ADP	NN	_	36	R	36:R	_
+35	außerordentlicher	außerordentlich	ADJ	ADJA	_	36	D	36:D	_
+36	Bewegkraft	Bewegkraft	NOUN	NN	_	33	E	33:E	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

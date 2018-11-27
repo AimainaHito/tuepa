@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25796017
+# text = Es waren einige Restchen Luft in einem Apparat geblieben , die sie , anstatt selbst ein zu atmen , für mich aufgehoben hatten , und träufelten mir , während sie selbst dem Ersticken sich näherten , das Leben tropfenweise ein !
+1	Es	es	PRON	PPER	_	9	F	9:F	_
+2	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+3	einige	einige	PRON	PIAT	_	5	E	5:E	_
+4	Restchen	Restchen	NOUN	NE	_	5	E	5:E|22:A	_
+5	Luft	Luft	NOUN	VVPP	_	9	A	9:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	einem	ein	DET	ART	_	8	E	8:E	_
+8	Apparat	Apparat	NOUN	NN	_	9	A	9:A	_
+9	geblieben	bleiben	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	ART	_	22	R	22:R	_
+12	sie	sie	PRON	TRUNC	_	22	A	22:A|16:A|26:A	_
+13	,	,	PUNCT	$,	_	16	U	16:U	_
+14	anstatt	anstatt	ADP	KOUI	_	22	L	22:L|16:D	_
+15	selbst	selbst	ADV	VVFIN	_	16	D	16:D	_
+16	ein	ein	DET	ART	_	22	H	22:H	_
+17	zu	zu	PART	NN	_	16	F	16:F	_
+18	atmen	atmen	VERB	NN	_	16	Terminal	16:Terminal	_
+19	,	,	PUNCT	$,	_	22	U	22:U	_
+20	für	für	ADP	APPR	_	21	R	21:R	_
+21	mich	ich	PRON	PPER	_	22	A	22:A	_
+22	aufgehoben	aufheben	VERB	VVPP	_	5	E	5:E	_
+23	hatten	haben	AUX	VAFIN	_	22	F	22:F	_
+24	,	,	PUNCT	$,	_	9	U	9:U	_
+25	und	und	CCONJ	NE	_	9	L	9:L	_
+26	träufelten	träufelten	VERB	VVFIN	_	9	H	9:H	_
+27	mir	ich	PRON	PPER	_	26	A	26:A	_
+28	,	,	PUNCT	$,	_	9	U	9:U	_
+29	während	während	SCONJ	VVINF	_	9	L	9:L	_
+30	sie	sie	PRON	ADV	_	34	A	34:A|33:A	_
+31	selbst	selbst	ADV	VVFIN	_	34	D	34:D	_
+32	dem	der	DET	ART	_	33	E	33:E	_
+33	Ersticken	Ersticken	NOUN	NN	_	34	A	34:A	_
+34	sich	er|es|sie	PRON	PRF	_	9	H	9:H	_
+35	näherten	nähern	VERB	ADJA	_	34	Terminal	34:Terminal	_
+36	,	,	PUNCT	$,	_	9	U	9:U	_
+37	das	der	DET	ART	_	38	E	38:E	_
+38	Leben	Leben	NOUN	NN	_	26	A	26:A	_
+39	tropfenweise	tropfenweisen	VERB	ADV	_	26	D	26:D	_
+40	ein	ein	DET	PTKVZ	_	26	Terminal	26:Terminal	_
+41	!	!	PUNCT	$.	_	26	U	26:U	_
+

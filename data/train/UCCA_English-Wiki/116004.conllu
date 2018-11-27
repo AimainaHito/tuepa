@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 116004
+# text = The Hepburn children were raised to exercise freedom of speech and encouraged to think and debate on any topic they wished .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Hepburn	Hepburn	ADJ	JJ	_	3	E	3:E	_
+3	children	child	NOUN	NNS	_	5	A	5:A|12:A|14:A|7:A	_
+4	were	be	AUX	VBD	_	5	F	5:F	_
+5	raised	raise	VERB	VBN	_	0	H	0:H	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	exercise	exercise	VERB	VB	_	5	A	5:A	_
+8	freedom	freedom	NOUN	NN	_	7	A	7:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	speech	speech	NOUN	NN	_	8	E	8:E	_
+11	and	and	CCONJ	CC	_	5	L	5:L	_
+12	encouraged	encourage	VERB	VBD	_	5	H	5:H	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	think	think	VERB	VB	_	12	A	12:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	debate	debate	VERB	VB	_	14	C	14:C	_
+17	on	on	ADP	IN	_	19	R	19:R	_
+18	any	any	DET	DT	_	19	E	19:E	_
+19	topic	topic	NOUN	NN	_	14	A	14:A	_
+20	they	they	PRON	PRP	_	21	A	21:A	_
+21	wished	wish	VERB	VBD	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

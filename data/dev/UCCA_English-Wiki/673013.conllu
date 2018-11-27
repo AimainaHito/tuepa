@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 673013
+# text = Within hours after the song 's release , various outlets speculated that its target was rapper Eminem , in response to his song " Bagpipes from Baghdad " , in which he taunted Carey 's husband , Nick Cannon .
+1	Within	within	ADP	IN	_	2	R	2:R	_
+2	hours	hour	NOUN	NNS	_	7	L	7:L	_
+3	after	after	ADP	IN	_	2	R	2:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	song	song	NOUN	NN	_	0	C	0:C|20:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	release	release	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	various	various	ADJ	JJ	_	10	E	10:E	_
+10	outlets	outlet	NOUN	NNS	_	11	A	11:A	_
+11	speculated	speculate	VERB	VBD	_	7	H	7:H	_
+12	that	that	SCONJ	IN	_	17	F	17:F	_
+13	its	its	PRON	PRP$	_	14	E	14:E	_
+14	target	target	NOUN	NN	_	17	A	17:A	_
+15	was	be	AUX	VBD	_	17	F	17:F	_
+16	rapper	rapper	ADP	IN	_	17	E	17:E	_
+17	Eminem	Eminem	PROPN	NNP	_	11	A	11:A	_
+18	,	,	PUNCT	,	_	7	U	7:U	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	response	response	NOUN	NN	_	7	H	7:H	_
+21	to	to	ADP	IN	_	20	R	20:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	song	song	NOUN	NN	_	25	E	25:E	_
+24	"	"	PUNCT	''	_	25	U	25:U	_
+25	Bagpipes	Bagpipe	NOUN	NNS	_	20	A	20:A	_
+26	from	from	ADP	IN	_	25	Terminal	25:Terminal	_
+27	Baghdad	Baghdad	PROPN	NNP	_	25	Terminal	25:Terminal	_
+28	"	"	PUNCT	''	_	25	U	25:U	_
+29	,	,	PUNCT	,	_	25	U	25:U	_
+30	in	in	ADP	IN	_	33	R	33:R	_
+31	which	which	PRON	WDT	_	30	Terminal	30:Terminal	_
+32	he	he	PRON	PRP	_	33	A	33:A	_
+33	taunted	taunt	VERB	VBD	_	25	E	25:E	_
+34	Carey	Carey	PROPN	NNP	_	36	E	36:E	_
+35	's	's	PART	POS	_	34	R	34:R	_
+36	husband	husband	NOUN	NN	_	38	E	38:E	_
+37	,	,	PUNCT	,	_	38	U	38:U	_
+38	Nick	Nick	PROPN	NNP	_	33	A	33:A	_
+39	Cannon	cannon	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	.	.	PUNCT	.	_	38	U	38:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25710011
+# text = » Und wenn er beifügt , dass er das heute gemachte Erbieten später nicht wieder machen wird , werden Sie ' s dann annehmen ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Und	und	CCONJ	NN	_	5	L	5:L	_
+3	wenn	wenn	SCONJ	VVFIN	_	5	L	5:L	_
+4	er	er	PRON	PPER	_	5	A	5:A	_
+5	beifügt	beifügen	VERB	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+8	er	er	PRON	PPER	_	16	A	16:A	_
+9	das	der	DET	ART	_	12	E	12:E	_
+10	heute	heute	ADV	ADV	_	11	D	11:D	_
+11	gemachte	gemacht	ADJ	ADJA	_	12	E	12:E	_
+12	Erbieten	Erbiet	NOUN	NN	_	16	A	16:A	_
+13	später	spät	ADJ	ADJD	_	16	D	16:D	_
+14	nicht	nicht	PART	CARD	_	16	D	16:D	_
+15	wieder	wieder	ADV	NN	_	16	D	16:D	_
+16	machen	machen	VERB	VVINF	_	5	A	5:A	_
+17	wird	werden	AUX	VAFIN	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	5	U	5:U	_
+19	werden	werden	AUX	VVFIN	_	24	F	24:F	_
+20	Sie	Sie|sie	PRON	PPER	_	24	A	24:A	_
+21	'	'	PUNCT	$,	_	24	U	24:U	_
+22	s	s	ADV	ADJD	_	24	A	24:A	_
+23	dann	dann	ADV	ADV	_	5	L	5:L	_
+24	annehmen	annehmen	VERB	VVFIN	_	5	H	5:H	_
+25	?	?	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

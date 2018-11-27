@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25696009
+# text = » Sie sprachen mir von der Ansicht der alten Historiker über die Gefahren der Schif fahrt auf dem Roten Meer ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+3	sprachen	sprechen	VERB	VVFIN	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	von	von	ADP	NN	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Ansicht	Ansicht	NOUN	NN	_	3	A	3:A	_
+8	der	der	DET	ART	_	10	R	10:R	_
+9	alten	alt	ADJ	ADJA	_	10	E	10:E	_
+10	Historiker	Historiker	NOUN	NN	_	7	E	7:E	_
+11	über	über	ADP	VVFIN	_	13	R	13:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Gefahren	Gefahr	NOUN	NN	_	7	E	7:E	_
+14	der	der	DET	ART	_	16	R	16:R	_
+15	Schif	Schif	NOUN	NE	_	16	E	16:E	_
+16	fahrt	fahren	VERB	NN	_	13	E	13:E	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	dem	der	DET	ART	_	19	E	19:E	_
+19	Roten	rot	PROPN	ADJA	_	16	E	16:E	_
+20	Meer	Meer	PROPN	NN	_	19	E	19:E	_
+21	?	?	PUNCT	$.	_	19	U	19:U	_
+22	«	«	PUNCT	$(	_	19	U	19:U	_
+

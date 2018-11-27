@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 94003
+# text = Aussi , les passagers choisissent - ils encore , malgré la concurrence puissante que lui fait la France , la ligne Cunard de préférence à toute autre , ainsi qu' il appert d' un relevé fait sur les documents officiels des dernières années .
+1	Aussi	aussi	ADV	_	_	5	L	5:L	_
+2	,	,	PUNCT	_	_	5	U	5:U	_
+3	les	le	DET	_	_	4	E	4:E	_
+4	passagers	passager	NOUN	_	_	5	A	5:A	_
+5	choisissent	choisir	VERB	_	_	0	H	0:H	_
+6	-	-	PUNCT	_	_	5	U	5:U	_
+7	ils	il	PRON	_	_	5	A	5:A	_
+8	encore	encore	ADV	_	_	5	D	5:D	_
+9	,	,	PUNCT	_	_	5	U	5:U	_
+10	malgré	malgré	ADP	_	_	5	L	5:L	_
+11	la	le	DET	_	_	12	E	12:E	_
+12	concurrence	concurrence	NOUN	_	_	5	H	5:H	_
+13	puissante	puissant	ADJ	_	_	12	D	12:D	_
+14	que	que	PRON	_	_	12	R	12:R	_
+15	lui	lui	PRON	_	_	12	A	12:A	_
+16	fait	faire	VERB	_	_	12	F	12:F	_
+17	la	le	DET	_	_	18	E	18:E	_
+18	France	France	PROPN	_	_	12	A	12:A	_
+19	,	,	PUNCT	_	_	5	U	5:U	_
+20	la	le	DET	_	_	21	E	21:E	_
+21	ligne	ligne	NOUN	_	_	22	E	22:E	_
+22	Cunard	Cunard	PROPN	_	_	24	A	24:A	_
+23	de	de	ADP	_	_	24	R	24:R	_
+24	préférence	préférence	NOUN	_	_	5	A	5:A	_
+25	à	à	ADP	_	_	24	R	24:R	_
+26	toute	tout	DET	_	_	27	E	27:E	_
+27	autre	autre	PRON	_	_	24	A	24:A	_
+28	,	,	PUNCT	_	_	5	U	5:U	_
+29	ainsi	ainsi	ADV	_	_	5	L	5:L	_
+30	qu'	que	SCONJ	_	_	29	Terminal	29:Terminal	_
+31	il	il	PRON	_	_	32	F	32:F	_
+32	appert	apprir	VERB	_	_	5	H	5:H	_
+33	d'	de	ADP	_	_	35	R	35:R	_
+34	un	un	DET	_	_	35	E	35:E	_
+35	relevé	relevé	NOUN	_	_	32	A	32:A	_
+36	fait	faire	VERB	_	_	35	E	35:E	_
+37	sur	sur	ADP	_	_	39	R	39:R	_
+38	les	le	DET	_	_	39	E	39:E	_
+39	documents	document	NOUN	_	_	36	A	36:A	_
+40	officiels	officiel	ADJ	_	_	39	E	39:E	_
+41	des	un	DET	_	_	43	R	43:R	_
+42	dernières	dernier	ADJ	_	_	43	E	43:E	_
+43	années	année	NOUN	_	_	39	E	39:E	_
+44	.	.	PUNCT	_	_	43	U	43:U	_
+

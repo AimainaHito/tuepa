@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25683002
+# text = Hierauf ließ ich mir , nach dem Beispiel des Kapitäns , den Kopf in die schwere Kupfer kugel stecken , und unsere Luft behälter wurden sofort in Tätigkeit gesetzt .
+1	Hierauf	hierauf	ADV	PAV	_	19	L	19:L	_
+2	ließ	lassen	VERB	VVFIN	_	19	D	19:D	_
+3	ich	ich	PRON	PPER	_	19	A	19:A	_
+4	mir	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	19	U	19:U	_
+6	nach	nach	ADP	CARD	_	8	R	8:R	_
+7	dem	der	DET	ART	_	8	E	8:E	_
+8	Beispiel	Beispiel	NOUN	NN	_	19	H	19:H	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Kapitäns	Kapitän	NOUN	NE	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	19	U	19:U	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Kopf	Kopf	NOUN	NN	_	19	A	19:A	_
+14	in	in	ADP	APPR	_	18	R	18:R	_
+15	die	der	DET	ART	_	18	E	18:E	_
+16	schwere	schwer	ADJ	ADJA	_	18	E	18:E	_
+17	Kupfer	kupfern	NOUN	NN	_	18	E	18:E	_
+18	kugel	kugel	PROPN	NN	_	19	A	19:A	_
+19	stecken	stecken	VERB	VVINF	_	0	H	0:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	und	und	CCONJ	NE	_	19	L	19:L	_
+22	unsere	unser	PRON	PPOSAT	_	24	E	24:E	_
+23	Luft	Luft	NOUN	NN	_	24	E	24:E	_
+24	behälter	behält	ADJ	ADJA	_	27	A	27:A	_
+25	wurden	werden	AUX	ADJD	_	27	F	27:F	_
+26	sofort	sofort	ADV	ADJD	_	27	D	27:D	_
+27	in	in	ADP	APPR	_	19	H	19:H	_
+28	Tätigkeit	Tätigkeit	NOUN	NN	_	27	Terminal	27:Terminal	_
+29	gesetzt	setzen	VERB	VVPP	_	27	Terminal	27:Terminal	_
+30	.	.	PUNCT	$.	_	27	U	27:U	_
+

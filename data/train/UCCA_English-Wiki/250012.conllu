@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 250012
+# text = New York magazine wrote : " Ethan Hawke 's Hotspur ... is a compelling , ardent creation .
+1	New	New	PROPN	NNP	_	4	A	4:A	_
+2	York	York	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	magazine	magazine	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	wrote	write	VERB	VBD	_	0	H	0:H	_
+5	:	:	PUNCT	:	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	Ethan	Ethan	PROPN	NNP	_	10	E	10:E	_
+8	Hawke	Hawke	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	Hotspur	Hotspur	PROPN	NNP	_	12	A	12:A	_
+11	...	...	PUNCT	,	_	12	U	12:U	_
+12	is	be	AUX	VBZ	_	4	A	4:A	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	compelling	compelling	ADJ	JJ	_	17	E	17:E	_
+15	,	,	PUNCT	,	_	14	U	14:U	_
+16	ardent	ardent	ADJ	JJ	_	14	C	14:C	_
+17	creation	creation	NOUN	NN	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

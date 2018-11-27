@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 705006
+# text = " When touring in late 1979 and early 1980 Dylan , would not play any of his older , secular works , and he delivered declarations of his faith from the stage , such as :
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	When	when	ADV	WRB	_	3	L	3:L	_
+3	touring	tour	VERB	VBG	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	late	late	ADJ	JJ	_	6	E	6:E	_
+6	1979	1979	NUM	CD	_	3	D	3:D	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	early	early	ADJ	JJ	_	9	E	9:E	_
+9	1980	1980	NUM	CD	_	6	C	6:C	_
+10	Dylan	Dylan	PROPN	NNP	_	0	root	0:root	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	would	would	AUX	MD	_	14	D	14:D	_
+13	not	not	PART	RB	_	14	D	14:D	_
+14	play	play	VERB	VB	_	3	H	3:H	_
+15	any	any	DET	DT	_	21	E	21:E	_
+16	of	of	ADP	IN	_	21	R	21:R	_
+17	his	he	PRON	PRP$	_	21	E	21:E	_
+18	older	older	ADJ	JJR	_	21	E	21:E	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	secular	secular	ADJ	JJ	_	18	C	18:C	_
+21	works	work	NOUN	NNS	_	14	A	14:A	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	and	and	CCONJ	CC	_	3	L	3:L	_
+24	he	he	PRON	PRP	_	25	A	25:A|26:A	_
+25	delivered	deliver	VERB	VBD	_	3	H	3:H	_
+26	declarations	declaration	NOUN	NNS	_	25	A	25:A	_
+27	of	of	ADP	IN	_	29	R	29:R	_
+28	his	he	PRON	PRP$	_	29	E	29:E	_
+29	faith	faith	NOUN	NN	_	26	A	26:A	_
+30	from	from	ADP	IN	_	32	R	32:R	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	stage	stage	NOUN	NN	_	25	A	25:A	_
+33	,	,	PUNCT	,	_	3	U	3:U	_
+34	such	such	ADJ	JJ	_	3	L	3:L	_
+35	as	as	ADP	IN	_	34	Terminal	34:Terminal	_
+36	:	:	PUNCT	:	_	3	U	3:U	_
+

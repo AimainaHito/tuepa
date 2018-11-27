@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 552012
+# text = In the days following Warner 's death , newspaper obituaries recounted the familiar story of " the four brothers who left the family butcher shop for nicklelodeons " and went on to revolutionize American cinema .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	days	day	NOUN	NNS	_	7	L	7:L	_
+4	following	follow	VERB	VBG	_	3	R	3:R	_
+5	Warner	Warner	PROPN	NNP	_	7	A	7:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	death	death	NOUN	NN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	newspaper	newspaper	NOUN	NN	_	10	E	10:E	_
+10	obituaries	obituary	NOUN	NNS	_	11	A	11:A	_
+11	recounted	recount	VERB	VBD	_	7	H	7:H	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	familiar	familiar	ADJ	JJ	_	14	E	14:E	_
+14	story	story	NOUN	NN	_	11	A	11:A	_
+15	of	of	ADP	IN	_	19	R	19:R	_
+16	"	"	PUNCT	``	_	19	U	19:U	_
+17	the	the	DET	DT	_	19	E	19:E	_
+18	four	four	NUM	CD	_	19	E	19:E	_
+19	brothers	brother	NOUN	NNS	_	14	E	14:E	_
+20	who	who	PRON	WP	_	21	F	21:F	_
+21	left	leave	VERB	VBD	_	19	E	19:E	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	family	family	NOUN	NN	_	25	E	25:E	_
+24	butcher	butcher	NOUN	NN	_	25	E	25:E	_
+25	shop	shop	NOUN	NN	_	21	A	21:A	_
+26	for	for	ADP	IN	_	27	R	27:R	_
+27	nicklelodeons	nicklelodeon	NOUN	NNS	_	21	A	21:A	_
+28	"	"	PUNCT	''	_	21	U	21:U	_
+29	and	and	CCONJ	CC	_	21	L	21:L	_
+30	went	go	VERB	VBD	_	33	E	33:E	_
+31	on	on	ADV	RB	_	30	Terminal	30:Terminal	_
+32	to	to	PART	TO	_	33	F	33:F	_
+33	revolutionize	revolutionize	VERB	VB	_	21	H	21:H	_
+34	American	american	ADJ	JJ	_	35	E	35:E	_
+35	cinema	cinema	NOUN	NN	_	33	A	33:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

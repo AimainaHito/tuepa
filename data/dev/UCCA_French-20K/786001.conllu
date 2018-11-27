@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 786001
+# text = Je fus très - satisfait de ma cabine , située à l' arrière , qui s' ouvrait sur le carré des officiers .
+1	Je	il	PRON	_	_	5	A	5:A	_
+2	fus	fre	ADV	_	_	5	F	5:F	_
+3	très	très	ADV	_	_	5	E	5:E	_
+4	-	-	PUNCT	_	_	5	U	5:U	_
+5	satisfait	satisfait	ADJ	_	_	0	H	0:H	_
+6	de	de	ADP	_	_	8	R	8:R	_
+7	ma	son	DET	_	_	8	E	8:E	_
+8	cabine	cabine	NOUN	_	_	5	A	5:A	_
+9	,	,	PUNCT	_	_	8	U	8:U	_
+10	située	situer	VERB	_	_	8	E	8:E	_
+11	à	à	ADP	_	_	13	R	13:R	_
+12	l'	le	DET	_	_	13	E	13:E	_
+13	arrière	arrière	NOUN	_	_	10	A	10:A	_
+14	,	,	PUNCT	_	_	8	U	8:U	_
+15	qui	qui	PRON	_	_	16	R	16:R	_
+16	s'	se	PRON	_	_	8	E	8:E	_
+17	ouvrait	ouvr	VERB	_	_	16	Terminal	16:Terminal	_
+18	sur	sur	ADP	_	_	20	R	20:R	_
+19	le	le	DET	_	_	20	E	20:E	_
+20	carré	carré	NOUN	_	_	16	A	16:A	_
+21	des	un	DET	_	_	22	R	22:R	_
+22	officiers	officier	NOUN	_	_	20	E	20:E	_
+23	.	.	PUNCT	_	_	22	U	22:U	_
+

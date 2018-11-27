@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25503003
+# text = Unter diesen Büchern bemerkte ich die Meister werke alter und neuer Literatur , d.h . alles Schönste , was der menschliche Geist von Homer bis auf die jetzt lebenden Koryphäen geliefert .
+1	Unter	unter	ADP	ADJD	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Büchern	Buch	NOUN	NN	_	4	A	4:A	_
+4	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+5	ich	ich	PRON	PPER	_	4	A	4:A	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Meister	Meister	NOUN	NN	_	8	E	8:E	_
+8	werke	werk	ADJ	NN	_	4	A	4:A	_
+9	alter	alt	ADJ	ADJA	_	12	E	12:E	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	neuer	neu	ADJ	ADJA	_	9	C	9:C	_
+12	Literatur	Literatur	NOUN	NN	_	8	E	8:E	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	d.h	d.h	CCONJ	ADJD	_	4	F	4:F	_
+15	.	.	PUNCT	$.	_	4	U	4:U	_
+16	alles	alle	PRON	PIS	_	17	E	17:E	_
+17	Schönste	Schönste	NOUN	NN	_	4	A	4:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	was	was	PRON	NE	_	31	A	31:A	_
+20	der	der	DET	ART	_	22	E	22:E	_
+21	menschliche	menschlich	ADJ	ADJA	_	22	E	22:E	_
+22	Geist	Geist	NOUN	NN	_	31	A	31:A	_
+23	von	von	ADP	NE	_	24	N	24:N	_
+24	Homer	Homer	PROPN	NN	_	31	A	31:A	_
+25	bis	bis	ADP	APPR	_	24	N	24:N	_
+26	auf	auf	ADP	APPR	_	25	Terminal	25:Terminal	_
+27	die	der	DET	ART	_	30	E	30:E	_
+28	jetzt	jetzt	ADV	ADV	_	29	D	29:D	_
+29	lebenden	lebend	ADJ	ADJA	_	24	C	24:C	_
+30	Koryphäen	Koryphäum	NOUN	NN	_	29	A	29:A	_
+31	geliefert	liefern	VERB	VVPP	_	17	E	17:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

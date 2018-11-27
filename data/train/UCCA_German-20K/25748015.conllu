@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25748015
+# text = Ich erwog alle diese Gründe , überlegte sie in meinem Geist hin und her , besprach sie mit Conseil , der ebenso verlegen war wie ich .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|7:A|16:A	_
+2	erwog	erwägen	VERB	VVFIN	_	0	H	0:H	_
+3	alle	alle	PRON	PIAT	_	5	E	5:E	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Gründe	Gründ	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	überlegte	überlegt	VERB	VVFIN	_	2	H	2:H	_
+8	sie	sie	PRON	ADV	_	7	A	7:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	meinem	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Geist	Geist	PROPN	NN	_	7	A	7:A	_
+12	hin	hin	ADV	ADV	_	7	D	7:D	_
+13	und	und	CCONJ	NE	_	12	Terminal	12:Terminal	_
+14	her	her	PART	PTKVZ	_	12	Terminal	12:Terminal	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	besprach	besprechen	VERB	VVFIN	_	2	H	2:H	_
+17	sie	sie	PRON	ADV	_	16	A	16:A	_
+18	mit	mit	ADP	APPR	_	19	R	19:R	_
+19	Conseil	Conseil	NOUN	NE	_	16	A	16:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	der	der	PRON	PRELS	_	23	R	23:R	_
+22	ebenso	ebenso	ADV	ADV	_	23	D	23:D	_
+23	verlegen	verlegen	VERB	VVFIN	_	19	E	19:E	_
+24	war	sein	AUX	ADV	_	23	F	23:F	_
+25	wie	wie	ADP	ADV	_	26	R	26:R	_
+26	ich	ich	PRON	PPER	_	23	H	23:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

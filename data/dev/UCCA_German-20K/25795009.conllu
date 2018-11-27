@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25795009
+# text = Nun , am 6 . Tag unserer Einsperrung , beschloß Kapitän Nemo , da die Arbeit der Hacke und Schaufel zu langsam war , die Eisschicht , die uns noch von dem Wasser trennte , zu zerdrücken .
+1	Nun	nun	ADV	ADV	_	10	L	10:L	_
+2	,	,	PUNCT	$,	_	10	U	10:U	_
+3	am	ommen	VERB	ADJD	_	4	E	4:E	_
+4	6	6	NUM	CARD	_	10	A	10:A	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+6	Tag	Tag	NOUN	NN	_	4	Terminal	4:Terminal	_
+7	unserer	unser	PRON	PPOSAT	_	8	R	8:R	_
+8	Einsperrung	Einsperrung	NOUN	NN	_	4	E	4:E	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	beschloß	beschließen	VERB	VVFIN	_	0	H	0:H	_
+11	Kapitän	Kapitän	PROPN	NN	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	da	da	SCONJ	KOUS	_	10	L	10:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Arbeit	Arbeit	NOUN	NN	_	22	A	22:A	_
+17	der	der	DET	ART	_	18	R	18:R	_
+18	Hacke	Hacke	NOUN	NE	_	16	A	16:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Schaufel	Schaufel	NOUN	NN	_	18	C	18:C	_
+21	zu	zu	PART	NE	_	22	E	22:E	_
+22	langsam	langsam	ADJ	ADJD	_	10	H	10:H	_
+23	war	sein	AUX	ADV	_	22	F	22:F	_
+24	,	,	PUNCT	$,	_	10	U	10:U	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Eisschicht	Eisschicht	NOUN	NN	_	37	A	37:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	die	der	PRON	PRELS	_	34	R	34:R	_
+29	uns	wir	PRON	NN	_	34	A	34:A	_
+30	noch	noch	ADV	CARD	_	34	D	34:D	_
+31	von	von	ADP	NN	_	33	R	33:R	_
+32	dem	der	DET	ART	_	33	E	33:E	_
+33	Wasser	Wasser	NOUN	NN	_	34	A	34:A	_
+34	trennte	trennen	VERB	VVFIN	_	26	E	26:E	_
+35	,	,	PUNCT	$,	_	37	U	37:U	_
+36	zu	zu	PART	VVINF	_	37	F	37:F	_
+37	zerdrücken	zerdrücken	VERB	VVINF	_	10	A	10:A	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

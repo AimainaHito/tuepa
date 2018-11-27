@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 561014
+# text = He not only injected the tunes with his own vocal character but also made guitar , not piano , the lead instrument in all three cases .
+1	He	he	PRON	PRP	_	4	A	4:A|14:A	_
+2	not	not	ADV	RB	_	4	L	4:L	_
+3	only	only	ADV	RB	_	2	Terminal	2:Terminal	_
+4	injected	inject	VERB	VBN	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	tunes	tune	NOUN	NNS	_	4	A	4:A	_
+7	with	with	ADP	IN	_	11	R	11:R	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	own	own	ADJ	JJ	_	11	E	11:E	_
+10	vocal	vocal	ADJ	JJ	_	11	E	11:E	_
+11	character	character	NOUN	NN	_	4	A	4:A	_
+12	but	but	CCONJ	CC	_	2	Terminal	2:Terminal	_
+13	also	also	ADV	RB	_	14	D	14:D	_
+14	made	make	VERB	VBN	_	4	H	4:H	_
+15	guitar	guitar	NOUN	NN	_	14	A	14:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	not	not	ADV	RB	_	15	N	15:N	_
+18	piano	piano	ADV	RB	_	15	C	15:C	_
+19	,	,	PUNCT	,	_	14	U	14:U	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	lead	lead	ADJ	JJ	_	22	E	22:E	_
+22	instrument	instrument	NOUN	NN	_	14	A	14:A	_
+23	in	in	ADP	IN	_	26	R	26:R	_
+24	all	all	DET	DT	_	26	E	26:E	_
+25	three	three	NUM	CD	_	26	E	26:E	_
+26	cases	casis	NOUN	NNS	_	14	A	14:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25730004
+# text = Darauf , als das Meer unruhiger wurde , stiegen wir wieder hinab , und die Luke wurde wieder geschlossen .
+1	Darauf	darauf	ADV	PAV	_	6	L	6:L	_
+2	,	,	PUNCT	$,	_	6	U	6:U	_
+3	als	als	SCONJ	KOUS	_	6	L	6:L	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Meer	Meer	NOUN	NN	_	6	A	6:A	_
+6	unruhiger	unruhig	ADJ	ADJD	_	0	H	0:H	_
+7	wurde	werden	AUX	TRUNC	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	stiegen	steigen	VERB	VVFIN	_	6	H	6:H	_
+10	wir	wir	PRON	NE	_	9	A	9:A	_
+11	wieder	wieder	ADV	NE	_	9	D	9:D	_
+12	hinab	hinab	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	und	und	CCONJ	NE	_	6	L	6:L	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Luke	Luke	NOUN	NE	_	19	A	19:A	_
+17	wurde	werden	AUX	NE	_	19	F	19:F	_
+18	wieder	wieder	ADV	NE	_	19	D	19:D	_
+19	geschlossen	schließen	VERB	VVPP	_	6	H	6:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

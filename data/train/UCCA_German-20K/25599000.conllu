@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25599000
+# text = Ich lag also der Länge nach auf dem Boden und oben geschützt von einem Büschel Seegras , als ich den Kopf aufrichtete und bemerkte , wie ungeheure Massen mit lautem Getöse und phosphoreszierendem Schein vorüberzogen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|12:A	_
+2	lag	liegen	VERB	VVFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	F	2:F	_
+4	der	der	DET	ART	_	2	D	2:D	_
+5	Länge	Länge	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	nach	nach	ADP	CARD	_	4	Terminal	4:Terminal	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Boden	Boden	NOUN	NN	_	2	A	2:A	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	oben	oben	ADV	NN	_	12	D	12:D	_
+12	geschützt	schützen	ADJ	VVPP	_	2	H	2:H	_
+13	von	von	ADP	NN	_	16	R	16:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Büschel	Büschel	NOUN	NE	_	16	E	16:E	_
+16	Seegras	Seegras	PROPN	NE	_	12	A	12:A	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	als	als	SCONJ	KOUS	_	2	L	2:L	_
+19	ich	ich	PRON	PPER	_	22	A	22:A|24:A	_
+20	den	der	DET	ART	_	21	E	21:E	_
+21	Kopf	Kopf	NOUN	NN	_	22	A	22:A	_
+22	aufrichtete	aufrichten	VERB	VVFIN	_	2	H	2:H	_
+23	und	und	CCONJ	NE	_	2	L	2:L	_
+24	bemerkte	bemerken	VERB	VVFIN	_	2	H	2:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	wie	wie	ADP	KON	_	35	R	35:R	_
+27	ungeheure	ungeheuer	ADJ	ADJA	_	28	E	28:E	_
+28	Massen	Masse	NOUN	NN	_	35	A	35:A	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	lautem	laut	ADJ	ADJA	_	31	E	31:E	_
+31	Getöse	Getöse	NOUN	NN	_	35	A	35:A	_
+32	und	und	CCONJ	NE	_	31	N	31:N	_
+33	phosphoreszierendem	phosphoreszierend	ADJ	KOUS	_	34	E	34:E	_
+34	Schein	Schein	NOUN	NE	_	31	C	31:C	_
+35	vorüberzogen	vorüberziehen	VERB	ADJD	_	24	A	24:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

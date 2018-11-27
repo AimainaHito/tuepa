@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25700020
+# text = In Begleitung von Ned und Conseil setzte ich mich auf die Plattform .
+1	In	in	ADP	APPR	_	2	R	2:R	_
+2	Begleitung	Begleitung	NOUN	NN	_	0	H	0:H	_
+3	von	von	ADP	NE	_	4	R	4:R	_
+4	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+5	und	und	CCONJ	NE	_	4	N	4:N	_
+6	Conseil	Conseil	PROPN	NE	_	4	C	4:C	_
+7	setzte	setzen	VERB	VVFIN	_	2	H	2:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A|2:A	_
+9	mich	ich	PRON	PRF	_	7	Terminal	7:Terminal	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Plattform	Plattform	NOUN	NN	_	7	A	7:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

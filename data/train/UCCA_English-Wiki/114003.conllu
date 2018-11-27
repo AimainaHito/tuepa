@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 114003
+# text = Hepburn 's characters were often strong , sophisticated women with a hidden vulnerability .
+1	Hepburn	Hepburn	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	characters	character	NOUN	NNS	_	9	A	9:A	_
+4	were	be	AUX	VBD	_	9	F	9:F	_
+5	often	often	ADV	RB	_	9	D	9:D	_
+6	strong	strong	ADJ	JJ	_	9	E	9:E	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	sophisticated	sophisticate	ADJ	JJ	_	9	E	9:E	_
+9	women	woman	NOUN	NNS	_	0	H	0:H	_
+10	with	with	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	hidden	hidden	VERB	VBN	_	13	E	13:E	_
+13	vulnerability	vulnerability	NOUN	NN	_	9	E	9:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

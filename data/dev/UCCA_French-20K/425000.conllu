@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 425000
+# text = Le monstre revint donc à flots , en dépit des incessantes plaisanteries dont le lardait la petite presse , et dans cette voie , les imaginations se laissèrent bientôt aller aux plus absurdes rêveries d' une ichthyologie fantastique .
+1	Le	le	DET	_	_	2	E	2:E	_
+2	monstre	monstre	NOUN	_	_	3	A	3:A	_
+3	revint	revenir	VERB	_	_	0	H	0:H	_
+4	donc	donc	ADV	_	_	3	L	3:L	_
+5	à	à	ADP	_	_	6	R	6:R	_
+6	flots	flot	NOUN	_	_	3	A	3:A	_
+7	,	,	PUNCT	_	_	3	U	3:U	_
+8	en	en	ADP	_	_	9	R	9:R	_
+9	dépit	dépit	VERB	_	_	3	L	3:L	_
+10	des	un	DET	_	_	9	R	9:R	_
+11	incessantes	incessant	ADJ	_	_	12	E	12:E	_
+12	plaisanteries	plaisanterie	NOUN	_	_	15	A	15:A	_
+13	dont	dont	PRON	_	_	15	F	15:F	_
+14	le	le	PRON	_	_	15	A	15:A	_
+15	lardait	lardre	VERB	_	_	3	H	3:H	_
+16	la	le	DET	_	_	18	E	18:E	_
+17	petite	petit	ADJ	_	_	18	E	18:E	_
+18	presse	presse	NOUN	_	_	15	A	15:A	_
+19	,	,	PUNCT	_	_	3	U	3:U	_
+20	et	et	CCONJ	_	_	3	L	3:L	_
+21	dans	dans	ADP	_	_	23	R	23:R	_
+22	cette	ce	DET	_	_	23	E	23:E	_
+23	voie	voie	NOUN	_	_	3	L	3:L	_
+24	,	,	PUNCT	_	_	3	U	3:U	_
+25	les	le	DET	_	_	26	E	26:E	_
+26	imaginations	imagination	NOUN	_	_	30	A	30:A	_
+27	se	se	PRON	_	_	30	D	30:D	_
+28	laissèrent	laisser	VERB	_	_	27	Terminal	27:Terminal	_
+29	bientôt	bientôt	ADV	_	_	30	D	30:D	_
+30	aller	aller	VERB	_	_	3	H	3:H	_
+31	aux	au	ADJ	_	_	34	R	34:R	_
+32	plus	plus	ADV	_	_	33	E	33:E	_
+33	absurdes	absurde	ADJ	_	_	34	D	34:D	_
+34	rêveries	rêverie	NOUN	_	_	30	A	30:A	_
+35	d'	de	ADP	_	_	37	R	37:R	_
+36	une	un	DET	_	_	37	E	37:E	_
+37	ichthyologie	ichthyologie	NOUN	_	_	34	A	34:A	_
+38	fantastique	fantastique	ADJ	_	_	37	E	37:E	_
+39	.	.	PUNCT	_	_	37	U	37:U	_
+

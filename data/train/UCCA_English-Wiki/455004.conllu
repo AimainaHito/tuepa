@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 455004
+# text = " Jennings and ABC were criticized for suddenly halting coverage of the convention for 30 minutes and airing a rerun of Hart to Hart instead .
+1	"	"	PUNCT	``	_	18	U	18:U	_
+2	Jennings	Jenning	PROPN	NNP	_	6	A	6:A|18:A|9:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	ABC	ABC	PROPN	NNP	_	2	C	2:C	_
+5	were	be	AUX	VBD	_	6	F	6:F	_
+6	criticized	criticize	VERB	VBN	_	0	H	0:H	_
+7	for	for	SCONJ	IN	_	9	R	9:R	_
+8	suddenly	suddenly	ADV	RB	_	9	D	9:D	_
+9	halting	halt	VERB	VBG	_	6	A	6:A	_
+10	coverage	coverage	NOUN	NN	_	9	A	9:A	_
+11	of	of	ADP	IN	_	10	E	10:E	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	convention	convention	NOUN	NN	_	10	A	10:A	_
+14	for	for	ADP	IN	_	16	R	16:R	_
+15	30	30	NUM	CD	_	16	E	16:E	_
+16	minutes	minute	NOUN	NNS	_	10	D	10:D	_
+17	and	and	CCONJ	CC	_	9	L	9:L	_
+18	airing	air	VERB	VBG	_	9	H	9:H	_
+19	a	a	DET	DT	_	20	E	20:E	_
+20	rerun	rerun	NOUN	NN	_	18	A	18:A	_
+21	of	of	ADP	IN	_	22	R	22:R	_
+22	Hart	Hart	PROPN	NNP	_	20	E	20:E	_
+23	to	to	ADP	IN	_	22	Terminal	22:Terminal	_
+24	Hart	Hart	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	instead	instead	ADV	RB	_	18	D	18:D	_
+26	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 565000
+# text = Accompanying Presley 's rise to fame , a cultural shift was taking place that he both helped inspire and came to symbolize .
+1	Accompanying	Accompany	VERB	VBG	_	0	H	0:H	_
+2	Presley	Presley	PROPN	NNP	_	6	E	6:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	rise	rise	NOUN	NN	_	6	E	6:E	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	fame	fame	VERB	VB	_	1	A	1:A	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	cultural	cultural	ADJ	JJ	_	10	E	10:E	_
+10	shift	shift	NOUN	NN	_	0	C	0:C|18:A|1:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	taking	take	VERB	VBG	_	1	H	1:H	_
+13	place	place	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	that	that	SCONJ	IN	_	18	R	18:R	_
+15	he	he	PRON	PRP	_	18	A	18:A	_
+16	both	both	DET	DT	_	18	N	18:N	_
+17	helped	help	VERB	VBD	_	18	D	18:D	_
+18	inspire	inspire	ADV	RB	_	10	E	10:E	_
+19	and	and	CCONJ	CC	_	16	Terminal	16:Terminal	_
+20	came	come	VERB	VBD	_	18	D	18:D	_
+21	to	to	PART	TO	_	18	F	18:F	_
+22	symbolize	symbolize	VERB	VB	_	18	C	18:C	_
+23	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 630010
+# text = His aunt purchased volumes of short stories for him , and his uncle , a dairyman at his family 's farm , bought him a mouth organ and engaged him in solving crossword puzzles .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	aunt	aunt	NOUN	NN	_	3	A	3:A	_
+3	purchased	purchase	VERB	VBN	_	0	H	0:H	_
+4	volumes	volume	NOUN	NNS	_	3	A	3:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	short	short	ADJ	JJ	_	7	E	7:E	_
+7	stories	story	NOUN	NNS	_	4	E	4:E	_
+8	for	for	ADP	IN	_	9	R	9:R	_
+9	him	he	PRON	PRP	_	3	A	3:A	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	and	and	CCONJ	CC	_	3	L	3:L	_
+12	his	he	PRON	PRP$	_	13	E	13:E	_
+13	uncle	uncle	NOUN	NN	_	0	C	0:C|16:A|29:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	dairyman	dairyman	NOUN	NN	_	13	E	13:E	_
+17	at	at	ADP	IN	_	21	R	21:R	_
+18	his	he	PRON	PRP$	_	19	E	19:E	_
+19	family	family	NOUN	NN	_	21	E	21:E	_
+20	's	's	PART	POS	_	19	R	19:R	_
+21	farm	farm	NOUN	NN	_	16	A	16:A	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	bought	buy	VERB	VBD	_	3	H	3:H	_
+24	him	he	PRON	PRP	_	23	A	23:A	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	mouth	mouth	NOUN	NN	_	27	E	27:E	_
+27	organ	organ	NOUN	NN	_	23	A	23:A	_
+28	and	and	CCONJ	CC	_	3	L	3:L	_
+29	engaged	engage	VERB	VBD	_	3	H	3:H	_
+30	him	he	PRON	PRP	_	29	A	29:A	_
+31	in	in	SCONJ	IN	_	32	F	32:F	_
+32	solving	solve	VERB	VBG	_	29	A	29:A	_
+33	crossword	crossword	NOUN	NN	_	34	E	34:E	_
+34	puzzles	puzzle	NOUN	NNS	_	32	A	32:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

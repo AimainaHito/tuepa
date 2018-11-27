@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25436004
+# text = Aber nichts konnte mich zurückhalten .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	nichts	nichts	PRON	ADJA	_	5	A	5:A	_
+3	konnte	können	AUX	VMFIN	_	5	D	5:D	_
+4	mich	ich	PRON	PPER	_	5	A	5:A	_
+5	zurückhalten	zurückhalten	VERB	VVINF	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25764015
+# text = Es waren nicht nur Blöcke und Eisfelder , die hemmten , sondern eine endlose , unverrückbare Schranke von aneinandergereihten Eisbergen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	nur	nur	ADV	NE	_	3	Terminal	3:Terminal	_
+5	Blöcke	Block	NOUN	NN	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	Eisfelder	Eisfeld	NOUN	NN	_	5	C	5:C|10:A	_
+8	,	,	PUNCT	$,	_	10	U	10:U	_
+9	die	der	PRON	PRELS	_	10	R	10:R	_
+10	hemmten	hemmen	VERB	VVFIN	_	0	P	0:P|17:P	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	sondern	sondern	CCONJ	NN	_	2	L	2:L	_
+13	eine	ein	DET	ART	_	17	E	17:E	_
+14	endlose	endlos	ADJ	ADJA	_	17	E	17:E	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	unverrückbare	unverrückbar	ADJ	ADJA	_	14	C	14:C	_
+17	Schranke	Schrank	NOUN	NN	_	2	H	2:H	_
+18	von	von	ADP	NE	_	20	R	20:R	_
+19	aneinandergereihten	aneinandergereiht	ADJ	ADJA	_	20	E	20:E	_
+20	Eisbergen	Eisbergen	NOUN	NN	_	17	E	17:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

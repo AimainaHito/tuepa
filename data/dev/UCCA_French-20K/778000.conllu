@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 778000
+# text = - Comme fera monsieur , je ferai , répondit Conseil .
+1	-	-	PUNCT	_	_	9	U	9:U	_
+2	Comme	comme	SCONJ	_	_	3	D	3:D	_
+3	fera	faire	VERB	_	_	7	A	7:A	_
+4	monsieur	Monsieur	NOUN	_	_	3	A	3:A	_
+5	,	,	PUNCT	_	_	7	U	7:U	_
+6	je	il	PRON	_	_	7	A	7:A	_
+7	ferai	faire	VERB	_	_	9	A	9:A	_
+8	,	,	PUNCT	_	_	9	U	9:U	_
+9	répondit	répondre	VERB	_	_	0	H	0:H	_
+10	Conseil	conseil	NOUN	_	_	9	A	9:A	_
+11	.	.	PUNCT	_	_	9	U	9:U	_
+

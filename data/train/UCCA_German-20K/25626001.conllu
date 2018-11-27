@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25626001
+# text = » Wir müssen vor Abend wieder zu Hause sein « , sagt' ich .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Wir	wir	PRON	NE	_	9	A	9:A	_
+3	müssen	müssen	AUX	VMFIN	_	9	D	9:D	_
+4	vor	vor	ADP	NE	_	5	R	5:R	_
+5	Abend	Abend	NOUN	NN	_	9	D	9:D	_
+6	wieder	wieder	ADV	NE	_	9	D	9:D	_
+7	zu	zu	ADP	NE	_	8	R	8:R	_
+8	Hause	Haus	NOUN	NE	_	9	A	9:A	_
+9	sein	sein	VERB	VAINF	_	12	A	12:A	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagt'	sagt'	PUNCT	$(	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

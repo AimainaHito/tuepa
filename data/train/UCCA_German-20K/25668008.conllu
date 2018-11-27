@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25668008
+# text = Vom 21 . bis 23 . Januar fuhr die ›Nautilus‹ im Verhältnis von 250 Lieue binnen 24 Stunden , also 540 Meilen oder 22 Meilen in der Stunde .
+1	Vom	Vom	ADP	NN	_	2	R	2:R	_
+2	21	21	NUM	CARD	_	8	D	8:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	bis	bis	ADP	APPR	_	1	Terminal	1:Terminal	_
+5	23	23	NUM	CARD	_	2	Terminal	2:Terminal	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	Januar	Januar	PROPN	NN	_	2	Terminal	2:Terminal	_
+8	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|22:A	_
+11	im	im	ADJ	NE	_	8	D	8:D	_
+12	Verhältnis	Verhältnis	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	von	von	ADP	NN	_	11	Terminal	11:Terminal	_
+14	250	250	NUM	CARD	_	15	E	15:E	_
+15	Lieue	Lieue	NOUN	ADJA	_	8	A	8:A	_
+16	binnen	binnen	ADP	APPR	_	15	R	15:R	_
+17	24	24	NUM	CARD	_	18	E	18:E	_
+18	Stunden	Stunde|Stunden	NOUN	NN	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	8	U	8:U	_
+20	also	also	ADV	ADV	_	8	L	8:L	_
+21	540	540	NUM	CARD	_	22	E	22:E	_
+22	Meilen	Meile	NOUN	NN	_	8	H	8:H	_
+23	oder	oder	CCONJ	CARD	_	22	N	22:N	_
+24	22	22	NUM	CARD	_	25	E	25:E	_
+25	Meilen	Meile	NOUN	NN	_	22	C	22:C	_
+26	in	in	ADP	APPR	_	28	R	28:R	_
+27	der	der	DET	ART	_	28	E	28:E	_
+28	Stunde	Stunde	NOUN	NN	_	25	E	25:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

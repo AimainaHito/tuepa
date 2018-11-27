@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 132003
+# text = Louis B . Mayer promised her James Stewart and $ 150 , 000 " for anyone else you want or can get .
+1	Louis	Louis	PROPN	NNP	_	5	A	5:A	_
+2	B	B	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	.	.	PUNCT	.	_	1	U	1:U	_
+4	Mayer	Mayer	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	promised	promise	VERB	VBD	_	0	H	0:H	_
+6	her	she	PRON	PRP$	_	5	A	5:A	_
+7	James	James	PROPN	NNP	_	5	A	5:A	_
+8	Stewart	Stewart	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	and	and	CCONJ	CC	_	7	N	7:N	_
+10	$	$	SYM	$	_	7	U	7:U	_
+11	150	150	NUM	CD	_	7	C	7:C	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	000	000	NUM	CD	_	11	Terminal	11:Terminal	_
+14	"	"	PUNCT	``	_	11	U	11:U	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	anyone	anyone	PRON	NN	_	11	E	11:E	_
+17	else	else	ADJ	JJ	_	16	E	16:E	_
+18	you	you	PRON	PRP	_	19	A	19:A	_
+19	want	want	VERB	VBP	_	16	E	16:E	_
+20	or	or	CCONJ	CC	_	19	N	19:N	_
+21	can	can	AUX	MD	_	22	F	22:F	_
+22	get	get	VERB	VB	_	19	C	19:C	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

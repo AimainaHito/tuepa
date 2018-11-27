@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25614001
+# text = » Hier sehen Sie , was ich an der Stelle des zweiten Schiff bruchs gefunden habe ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Hier	hier	ADV	ADV	_	3	A	3:A	_
+3	sehen	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	was	was	PRON	NE	_	15	A	15:A	_
+7	ich	ich	PRON	PPER	_	15	A	15:A	_
+8	an	an	ADP	APPR	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Stelle	Stelle	NOUN	NN	_	15	A	15:A	_
+11	des	der	DET	ART	_	14	R	14:R	_
+12	zweiten	zweit	ADJ	ADJA	_	14	E	14:E	_
+13	Schiff	Schiff	NOUN	NN	_	14	E	14:E	_
+14	bruchs	brachsen	VERB	VVFIN	_	10	E	10:E	_
+15	gefunden	finden	VERB	VVPP	_	3	A	3:A	_
+16	habe	haben	AUX	VAFIN	_	15	F	15:F	_
+17	!	!	PUNCT	$.	_	15	U	15:U	_
+18	«	«	PUNCT	$(	_	15	U	15:U	_
+

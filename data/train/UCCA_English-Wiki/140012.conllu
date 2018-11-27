@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 140012
+# text = Hepburn would typically receive a standing ovation at the end of the night , and the show 's run was twice extended .
+1	Hepburn	Hepburn	NOUN	NN	_	4	A	4:A	_
+2	would	would	AUX	MD	_	4	F	4:F	_
+3	typically	typically	ADV	RB	_	4	D	4:D	_
+4	receive	receive	VERB	VB	_	0	H	0:H	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	standing	stand	VERB	VBG	_	7	E	7:E	_
+7	ovation	ovation	NOUN	NN	_	4	A	4:A	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	end	end	NOUN	NN	_	4	A	4:A	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	night	night	NOUN	NN	_	10	E	10:E	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	and	and	CCONJ	CC	_	4	L	4:L	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	show	show	NOUN	NN	_	19	E	19:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	run	run	NOUN	NN	_	22	A	22:A	_
+20	was	be	AUX	VBD	_	22	F	22:F	_
+21	twice	twice	ADV	RB	_	22	D	22:D	_
+22	extended	extend	VERB	VBN	_	4	H	4:H	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

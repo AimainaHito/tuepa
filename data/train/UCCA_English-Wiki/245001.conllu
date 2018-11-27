@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 245001
+# text = The film was critically well - received ; the Variety reviewer wrote " Hawke ... gives a haunting performance .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	7	A	7:A	_
+3	was	be	AUX	VBD	_	7	F	7:F	_
+4	critically	critically	ADV	RB	_	7	A	7:A	_
+5	well	well	ADV	RB	_	7	D	7:D	_
+6	-	-	PUNCT	HYPH	_	7	U	7:U	_
+7	received	receive	VERB	VBN	_	0	H	0:H	_
+8	;	;	PUNCT	,	_	7	U	7:U	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	Variety	variety	NOUN	NN	_	11	E	11:E	_
+11	reviewer	reviewer	NOUN	NN	_	12	A	12:A	_
+12	wrote	wrote	NOUN	NN	_	7	H	7:H	_
+13	"	"	PUNCT	''	_	12	U	12:U	_
+14	Hawke	Hawke	NOUN	NN	_	16	A	16:A	_
+15	...	...	PUNCT	,	_	16	U	16:U	_
+16	gives	give	VERB	VBZ	_	12	A	12:A	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	haunting	haunting	VERB	VBG	_	19	E	19:E	_
+19	performance	performance	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25720016
+# text = Wohin fuhren wir jetzt , und was sollte uns bevorstehen ?
+1	Wohin	wohin	ADV	ADV	_	2	A	2:A	_
+2	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	jetzt	jetzt	ADV	ADV	_	2	D	2:D	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	was	was	PRON	NE	_	10	A	10:A	_
+8	sollte	sollen	AUX	VMFIN	_	10	D	10:D	_
+9	uns	wir	PRON	NN	_	10	A	10:A	_
+10	bevorstehen	bevorstehen	VERB	VVINF	_	2	H	2:H	_
+11	?	?	PUNCT	$.	_	10	U	10:U	_
+

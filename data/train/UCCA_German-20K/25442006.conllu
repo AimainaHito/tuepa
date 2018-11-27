@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25442006
+# text = Ich könnte ihn am besten mit einem starken Teleskop vergleichen , das zugleich als Kanone stets schußfertig wäre .
+1	Ich	ich	PRON	PPER	_	10	A	10:A	_
+2	könnte	können	AUX	VMFIN	_	10	D	10:D	_
+3	ihn	er	PRON	PPER	_	10	A	10:A	_
+4	am	ommen	VERB	ADJD	_	10	D	10:D	_
+5	besten	gut	ADJ	VVFIN	_	4	Terminal	4:Terminal	_
+6	mit	mit	ADP	APPR	_	9	R	9:R	_
+7	einem	ein	DET	ART	_	9	E	9:E	_
+8	starken	stark	ADJ	ADJA	_	9	E	9:E	_
+9	Teleskop	Teleskop	NOUN	NN	_	10	A	10:A	_
+10	vergleichen	vergleichen	VERB	VVINF	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	das	der	PRON	PRELS	_	17	R	17:R	_
+13	zugleich	zugleich	ADV	NN	_	15	D	15:D	_
+14	als	als	ADP	KOKOM	_	15	R	15:R	_
+15	Kanone	Kanone	NOUN	NN	_	9	E	9:E	_
+16	stets	stets	ADV	ADV	_	17	D	17:D	_
+17	schußfertig	schußfertig	ADJ	ADJD	_	9	E	9:E	_
+18	wäre	sein	AUX	ADV	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

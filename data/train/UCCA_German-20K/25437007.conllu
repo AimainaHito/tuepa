@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25437007
+# text = » Man wird sich später damit befassen .
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Man	man	PRON	PIS	_	4	A	4:A	_
+3	wird	werden	AUX	VAFIN	_	4	F	4:F	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	später	spät	ADJ	ADJD	_	4	D	4:D	_
+6	damit	damit	ADV	PAV	_	4	A	4:A	_
+7	befassen	befassen	VERB	VVFIN	_	4	Terminal	4:Terminal	_
+8	.	.	PUNCT	$.	_	4	U	4:U	_
+

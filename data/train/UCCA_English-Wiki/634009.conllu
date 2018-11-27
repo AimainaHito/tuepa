@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 634009
+# text = " After a year of Beatlemania in the UK , the group 's historic February 1964 US debut appearance on The Ed Sullivan Show marked their breakthrough to international stardom .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	After	after	ADP	IN	_	6	L	6:L	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	year	year	NOUN	NN	_	6	D	6:D	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	Beatlemania	Beatlemania	PROPN	NNP	_	0	H	0:H	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	UK	UK	PROPN	NNP	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	group	group	NOUN	NN	_	19	A	19:A	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	historic	historic	ADJ	JJ	_	19	A	19:A	_
+15	February	February	PROPN	NNP	_	16	E	16:E	_
+16	1964	1964	NUM	CD	_	19	D	19:D	_
+17	US	US	PROPN	NNP	_	19	A	19:A	_
+18	debut	debut	NOUN	NN	_	19	E	19:E	_
+19	appearance	appearance	NOUN	NN	_	25	A	25:A	_
+20	on	on	ADP	IN	_	24	R	24:R	_
+21	The	the	DET	DT	_	24	E	24:E	_
+22	Ed	Ed	PROPN	NNP	_	24	E	24:E	_
+23	Sullivan	Sullivan	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Show	show	ADV	WRB	_	19	A	19:A	_
+25	marked	mark	VERB	VBD	_	6	H	6:H	_
+26	their	they	PRON	PRP$	_	27	A	27:A	_
+27	breakthrough	breakthrough	NOUN	NN	_	25	A	25:A	_
+28	to	to	ADP	IN	_	30	R	30:R	_
+29	international	international	ADJ	JJ	_	30	E	30:E	_
+30	stardom	stardom	NOUN	NN	_	27	A	27:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

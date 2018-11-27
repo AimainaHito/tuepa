@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25498004
+# text = » Noch eine Frage , die letzte « , sagte ich im Moment , wo dies unerklärliche Wesen Miene machte , sich zurückzuziehen .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Noch	noch	ADV	ADV	_	4	D	4:D	_
+3	eine	ein	DET	ART	_	4	E	4:E	_
+4	Frage	Frage	NOUN	NN	_	10	A	10:A	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	die	der	PRON	PRELS	_	4	A	4:A	_
+7	letzte	letzt	ADJ	ADJA	_	6	E	6:E	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	im	im	ADV	NN	_	13	R	13:R	_
+13	Moment	Moment	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	wo	wo	ADV	NN	_	23	R	23:R	_
+16	dies	dies	PRON	PDS	_	18	E	18:E	_
+17	unerklärliche	unerklärlich	ADJ	ADJA	_	18	E	18:E	_
+18	Wesen	Wesen	NOUN	NN	_	23	A	23:A	_
+19	Miene	Miene	PROPN	NN	_	23	D	23:D	_
+20	machte	machen	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	$,	_	23	U	23:U	_
+22	sich	er|es|sie	PRON	PRF	_	23	A	23:A	_
+23	zurückzuziehen	zurückziehen	VERB	VVIZU	_	13	E	13:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

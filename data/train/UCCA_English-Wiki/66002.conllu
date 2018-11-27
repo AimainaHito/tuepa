@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 66002
+# text = On her father 's side , Jolie is of German and Slovak descent , and on her mother 's side , she is of primarily French Canadian , Dutch , and German ancestry .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	her	she	PRON	PRP$	_	5	E	5:E	_
+3	father	father	NOUN	NN	_	5	E	5:E	_
+4	's	's	PART	POS	_	3	E	3:E	_
+5	side	side	NOUN	NN	_	13	D	13:D	_
+6	,	,	PUNCT	,	_	13	U	13:U	_
+7	Jolie	Jolie	PROPN	NNP	_	13	A	13:A	_
+8	is	be	AUX	VBZ	_	13	F	13:F	_
+9	of	of	ADP	IN	_	13	R	13:R	_
+10	German	german	ADJ	JJ	_	13	E	13:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	Slovak	Slovak	ADJ	JJ	_	10	C	10:C	_
+13	descent	descent	NOUN	NN	_	0	H	0:H	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	and	and	CCONJ	CC	_	13	L	13:L	_
+16	on	on	ADP	IN	_	20	R	20:R	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	mother	mother	NOUN	NN	_	20	E	20:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	side	side	NOUN	NN	_	33	D	33:D	_
+21	,	,	PUNCT	,	_	33	U	33:U	_
+22	she	she	PRON	PRP	_	33	A	33:A	_
+23	is	be	AUX	VBZ	_	33	F	33:F	_
+24	of	of	ADP	IN	_	33	R	33:R	_
+25	primarily	primarily	ADV	RB	_	33	D	33:D	_
+26	French	French	ADJ	JJ	_	33	E	33:E	_
+27	Canadian	canadian	PROPN	NNP	_	26	C	26:C	_
+28	,	,	PUNCT	,	_	26	U	26:U	_
+29	Dutch	Dutch	PROPN	NNP	_	26	C	26:C	_
+30	,	,	PUNCT	,	_	26	U	26:U	_
+31	and	and	CCONJ	CC	_	26	N	26:N	_
+32	German	german	ADJ	JJ	_	26	C	26:C	_
+33	ancestry	ancestry	NOUN	NN	_	13	H	13:H	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

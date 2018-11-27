@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25637008
+# text = » Also , mein Herr , Sie nehmen an , dass sie an Bord kommen ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Also	also	PROPN	ADV	_	8	L	8:L	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	Sie	Sie|sie	PRON	PPER	_	8	F	8:F	_
+8	nehmen	nehmen	VERB	CARD	_	0	H	0:H	_
+9	an	an	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	dass	dass	SCONJ	KOUS	_	15	R	15:R	_
+12	sie	sie	PRON	ADV	_	15	A	15:A	_
+13	an	an	ADP	APPR	_	14	R	14:R	_
+14	Bord	Bord	NOUN	NN	_	15	A	15:A	_
+15	kommen	kommen	VERB	VVINF	_	8	A	8:A	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

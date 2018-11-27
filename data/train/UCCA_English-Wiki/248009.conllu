@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 248009
+# text = Upon release , Taking Lives received broadly negative reviews .
+1	Upon	upon	ADP	IN	_	2	L	2:L	_
+2	release	release	NOUN	NN	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	Taking	take	VERB	VBG	_	6	A	6:A|2:A	_
+5	Lives	live	NOUN	NNS	_	4	Terminal	4:Terminal	_
+6	received	receive	VERB	VBD	_	2	H	2:H	_
+7	broadly	broadly	ADV	RB	_	8	E	8:E	_
+8	negative	negative	ADJ	JJ	_	9	E	9:E	_
+9	reviews	review	NOUN	NNS	_	6	A	6:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

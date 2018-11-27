@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25778013
+# text = Ich war einverstanden und suchte Ned Land auf , um ihn mit zu nehmen .
+1	Ich	ich	PRON	PPER	_	3	A	3:A|5:A|12:A	_
+2	war	sein	AUX	ADV	_	3	F	3:F	_
+3	einverstanden	einverstanden	VERB	ADJD	_	0	H	0:H	_
+4	und	und	CCONJ	NE	_	3	L	3:L	_
+5	suchte	suchen	VERB	VVFIN	_	3	H	3:H	_
+6	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+7	Land	Land	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	auf	auf	ADP	PTKVZ	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	um	um	ADP	KOUI	_	3	L	3:L	_
+11	ihn	er	PRON	PPER	_	12	A	12:A	_
+12	mit	mit	ADP	APPR	_	3	H	3:H	_
+13	zu	zu	PART	NE	_	12	F	12:F	_
+14	nehmen	nehmen	VERB	CARD	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 104004
+# text = " She also began experimenting with drugs ; by the age of 20 , she had tried " just about every drug possible , " including heroin .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	She	she	PRON	PRP	_	5	A	5:A|13:A	_
+3	also	also	ADV	RB	_	5	D	5:D	_
+4	began	begin	VERB	VBD	_	5	D	5:D	_
+5	experimenting	experiment	VERB	VBG	_	0	H	0:H	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	drugs	drug	NOUN	NNS	_	5	A	5:A	_
+8	;	;	PUNCT	,	_	5	U	5:U	_
+9	by	by	ADP	IN	_	5	L	5:L	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	age	age	NOUN	NN	_	13	E	13:E	_
+12	of	of	ADP	IN	_	13	F	13:F	_
+13	20	20	NUM	CD	_	5	H	5:H	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	she	she	PRON	PRP	_	17	A	17:A	_
+16	had	have	AUX	VBD	_	17	F	17:F	_
+17	tried	try	VERB	VBN	_	5	H	5:H	_
+18	"	"	PUNCT	``	_	17	U	17:U	_
+19	just	just	ADV	RB	_	20	E	20:E	_
+20	about	about	ADV	RB	_	21	E	21:E	_
+21	every	every	DET	DT	_	22	E	22:E	_
+22	drug	drug	NOUN	NN	_	17	A	17:A	_
+23	possible	possible	ADJ	JJ	_	21	E	21:E	_
+24	,	,	PUNCT	,	_	22	U	22:U	_
+25	"	"	PUNCT	''	_	22	U	22:U	_
+26	including	include	VERB	VBG	_	27	R	27:R	_
+27	heroin	heroin	NOUN	NN	_	22	E	22:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

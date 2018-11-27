@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25504006
+# text = » Im Gegenteil .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Im	Im	PROPN	NN	_	3	R	3:R	_
+3	Gegenteil	gegenteil	PROPN	NN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

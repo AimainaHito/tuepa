@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25649009
+# text = Sie waren so tief im Schlaf versunken , dass sie keine Erinnerung mehr hatten , und wie ich sehr überrascht , sich wieder in ihrer Kabine zu befinden .
+1	Sie	Sie|sie	PRON	PPER	_	7	A	7:A|22:A	_
+2	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+3	so	so	ADV	ADV	_	7	F	7:F	_
+4	tief	tief	ADJ	VVFIN	_	7	D	7:D	_
+5	im	im	ADJ	NE	_	6	R	6:R	_
+6	Schlaf	Schlaf	NOUN	NE	_	7	A	7:A	_
+7	versunken	versunken	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	dass	dass	SCONJ	KOUS	_	7	L	7:L	_
+10	sie	sie	PRON	ADV	_	12	A	12:A	_
+11	keine	kein	PRON	PIAT	_	12	D	12:D	_
+12	Erinnerung	Erinnerung	NOUN	NN	_	7	H	7:H	_
+13	mehr	mehr	ADV	ADV	_	12	D	12:D	_
+14	hatten	haben	VERB	VAFIN	_	12	F	12:F	_
+15	,	,	PUNCT	$,	_	7	U	7:U	_
+16	und	und	CCONJ	NE	_	7	L	7:L	_
+17	wie	wie	SCONJ	ADV	_	18	R	18:R	_
+18	ich	ich	PRON	PPER	_	22	A	22:A	_
+19	sehr	sehr	ADV	NE	_	22	D	22:D	_
+20	überrascht	überraschen	ADJ	VVPP	_	22	D	22:D	_
+21	,	,	PUNCT	$,	_	22	U	22:U	_
+22	sich	er|es|sie	PRON	PRF	_	7	H	7:H	_
+23	wieder	wieder	ADV	NN	_	22	D	22:D	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	ihrer	ihr	DET	PPOSAT	_	26	E	26:E	_
+26	Kabine	Kabine	NOUN	NN	_	22	A	22:A	_
+27	zu	zu	PART	VVINF	_	22	F	22:F	_
+28	befinden	befinden	VERB	VVINF	_	22	Terminal	22:Terminal	_
+29	.	.	PUNCT	$.	_	22	U	22:U	_
+

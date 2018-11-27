@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25781020
+# text = Ihre Schraube setzte sie in Bewegung , und sie fuhr genau nordwärts mit einer Geschwindigkeit von 15 Meilen pro Stunde .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	2	E	2:E	_
+2	Schraube	Schraube	NOUN	NN	_	6	A	6:A	_
+3	setzte	setzen	VERB	VVFIN	_	6	D	6:D	_
+4	sie	sie	PRON	ADV	_	6	A	6:A	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Bewegung	Bewegung	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	sie	sie	PRON	ADV	_	10	A	10:A	_
+10	fuhr	fuhr	ADV	VVFIN	_	6	H	6:H	_
+11	genau	genau	ADV	ADV	_	10	D	10:D	_
+12	nordwärts	nordwärts	ADV	ADV	_	10	A	10:A	_
+13	mit	mit	ADP	APPR	_	18	R	18:R	_
+14	einer	ein	DET	ART	_	15	E	15:E	_
+15	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	18	E	18:E	_
+16	von	von	ADP	NE	_	15	R	15:R	_
+17	15	15	NUM	CARD	_	18	E	18:E	_
+18	Meilen	Meile	NOUN	NN	_	10	A	10:A	_
+19	pro	pro	ADP	NE	_	18	Terminal	18:Terminal	_
+20	Stunde	Stunde	NOUN	NN	_	18	Terminal	18:Terminal	_
+21	.	.	PUNCT	$.	_	18	U	18:U	_
+

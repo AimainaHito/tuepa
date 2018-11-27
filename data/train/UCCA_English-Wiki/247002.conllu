@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 247002
+# text = " He also appeared that year in Frank Whaley 's directorial debut , Joe the King ( 1999 ) .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	He	he	PRON	PRP	_	4	A	4:A	_
+3	also	also	ADV	RB	_	4	L	4:L	_
+4	appeared	appear	VERB	VBD	_	0	H	0:H	_
+5	that	that	DET	DT	_	6	E	6:E	_
+6	year	year	NOUN	NN	_	4	D	4:D	_
+7	in	in	ADP	IN	_	14	R	14:R	_
+8	Frank	Frank	PROPN	NNP	_	12	A	12:A	_
+9	Whaley	Whaley	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	's	's	PART	POS	_	8	R	8:R	_
+11	directorial	directorial	ADJ	JJ	_	12	E	12:E	_
+12	debut	debut	NOUN	NN	_	14	E	14:E	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	Joe	joe	PROPN	NNP	_	4	A	4:A	_
+15	the	the	DET	DT	_	14	Terminal	14:Terminal	_
+16	King	King	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+18	1999	1999	NUM	CD	_	14	E	14:E	_
+19	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+20	.	.	PUNCT	.	_	14	U	14:U	_
+

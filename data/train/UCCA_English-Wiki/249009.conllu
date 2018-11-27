@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 249009
+# text = In 2008 Hawke starred with Mark Ruffalo in the crime drama What Does n't Kill You .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2008	2008	NUM	CD	_	4	D	4:D	_
+3	Hawke	Hawke	PROPN	NNP	_	4	A	4:A	_
+4	starred	star	VERB	VBD	_	0	H	0:H	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Mark	Mark	PROPN	NNP	_	4	A	4:A	_
+7	Ruffalo	Ruffalo	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	crime	crime	NOUN	NN	_	11	E	11:E	_
+11	drama	drama	NOUN	NN	_	12	E	12:E	_
+12	What	what	PRON	WP	_	4	A	4:A	_
+13	Does	do	AUX	VBZ	_	12	Terminal	12:Terminal	_
+14	n't	not	PART	RB	_	12	Terminal	12:Terminal	_
+15	Kill	kill	VERB	VB	_	12	Terminal	12:Terminal	_
+16	You	you	PRON	PRP	_	12	Terminal	12:Terminal	_
+17	.	.	PUNCT	.	_	12	U	12:U	_
+

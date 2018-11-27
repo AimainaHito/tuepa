@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25732001
+# text = Die Medusen , die mikroskopischen Schaltiere , die Seefedern beleuchteten ihn ein wenig mit phosphoreszierendem Schimmer .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Medusen	Meduse	NOUN	NN	_	10	A	10:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	die	der	DET	PRELS	_	6	E	6:E	_
+5	mikroskopischen	mikroskopisch	ADJ	ADJA	_	6	E	6:E	_
+6	Schaltiere	Schaltier	NOUN	NN	_	2	C	2:C	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	die	der	DET	PRELS	_	9	E	9:E	_
+9	Seefedern	Seefed	NOUN	NE	_	2	C	2:C	_
+10	beleuchteten	beleuchten	VERB	VVFIN	_	0	H	0:H	_
+11	ihn	er	PRON	PPER	_	10	A	10:A	_
+12	ein	ein	DET	ART	_	13	E	13:E	_
+13	wenig	wenig	NOUN	NN	_	10	D	10:D	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	phosphoreszierendem	phosphoreszierend	ADJ	ADJA	_	16	E	16:E	_
+16	Schimmer	Schimmer	NOUN	NN	_	10	A	10:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

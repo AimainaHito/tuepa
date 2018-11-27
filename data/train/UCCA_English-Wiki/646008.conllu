@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 646008
+# text = The brief ceremony took place on the roof of the Apple Corps building , made famous three months earlier by The Beatles ' Let It Be rooftop concert .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	brief	brief	ADJ	JJ	_	3	E	3:E	_
+3	ceremony	ceremony	NOUN	NN	_	4	A	4:A	_
+4	took	take	VERB	VBD	_	0	H	0:H	_
+5	place	place	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	on	on	ADP	IN	_	13	R	13:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	roof	roof	NOUN	NN	_	13	E	13:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	Apple	Apple	PROPN	NNP	_	13	E	13:E	_
+12	Corps	Corps	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	building	building	NOUN	NN	_	0	C	0:C|16:A	_
+14	,	,	PUNCT	,	_	16	U	16:U	_
+15	made	make	VERB	VBD	_	16	D	16:D	_
+16	famous	famous	ADJ	JJ	_	4	H	4:H	_
+17	three	three	NUM	CD	_	18	E	18:E	_
+18	months	month	NOUN	NNS	_	16	D	16:D	_
+19	earlier	earlier	ADV	RBR	_	18	R	18:R	_
+20	by	by	ADP	IN	_	28	R	28:R	_
+21	The	the	DET	DT	_	28	E	28:E	_
+22	Beatles	Beatles	PROPN	NNPS	_	28	E	28:E	_
+23	'	'	PART	POS	_	28	U	28:U	_
+24	Let	let	VERB	VB	_	28	E	28:E	_
+25	It	it	PRON	PRP	_	24	Terminal	24:Terminal	_
+26	Be	be	AUX	VB	_	24	Terminal	24:Terminal	_
+27	rooftop	rooftop	VERB	VB	_	28	E	28:E	_
+28	concert	concert	NOUN	NN	_	16	A	16:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

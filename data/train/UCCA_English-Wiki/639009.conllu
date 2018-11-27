@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 639009
+# text = ( An alternate take , from the same 1973 Ringo sessions , with Lennon providing a guide vocal , appears on John Lennon Anthology ) .
+1	(	(	PUNCT	-LRB-	_	20	U	20:U	_
+2	An	a	DET	DT	_	3	E	3:E	_
+3	alternate	alternate	ADJ	JJ	_	4	E	4:E	_
+4	take	take	NOUN	NN	_	20	A	20:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	from	from	ADP	IN	_	4	E	4:E	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	same	same	ADJ	JJ	_	11	E	11:E	_
+9	1973	1973	NUM	CD	_	11	D	11:D	_
+10	Ringo	Ringo	PROPN	NNP	_	11	A	11:A	_
+11	sessions	session	NOUN	NNS	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	with	with	SCONJ	IN	_	4	E	4:E	_
+14	Lennon	Lennon	PROPN	NNP	_	15	A	15:A	_
+15	providing	provide	VERB	VBG	_	13	A	13:A	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	guide	guide	NOUN	NN	_	15	A	15:A	_
+18	vocal	vocal	ADJ	JJ	_	17	E	17:E	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	appears	appear	VERB	VBZ	_	0	H	0:H	_
+21	on	on	ADP	IN	_	24	R	24:R	_
+22	John	John	PROPN	NNP	_	24	E	24:E	_
+23	Lennon	Lennon	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Anthology	Anthology	PROPN	NNP	_	20	A	20:A	_
+25	)	)	PUNCT	-RRB-	_	24	U	24:U	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

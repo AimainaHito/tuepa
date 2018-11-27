@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 693002
+# text = George Harrison said , " We just played it , just wore it out . The content of the song lyrics and just the attitude - it was incredibly original and wonderful . "
+1	George	George	PROPN	NNP	_	3	A	3:A	_
+2	Harrison	Harrison	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	We	we	PRON	PRP	_	8	A	8:A|12:A	_
+7	just	just	ADV	RB	_	8	D	8:D	_
+8	played	play	VERB	VBD	_	3	A	3:A	_
+9	it	it	PRON	PRP	_	8	A	8:A	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	just	just	ADV	RB	_	12	D	12:D	_
+12	wore	wear	VERB	VBD	_	8	H	8:H	_
+13	it	it	PRON	PRP	_	12	A	12:A	_
+14	out	out	ADP	RP	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	.	_	8	U	8:U	_
+16	The	the	DET	DT	_	17	E	17:E	_
+17	content	content	NOUN	NN	_	30	A	30:A	_
+18	of	of	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	song	song	NOUN	NN	_	21	E	21:E	_
+21	lyrics	lyric	NOUN	NNS	_	17	E	17:E	_
+22	and	and	CCONJ	CC	_	17	N	17:N	_
+23	just	just	ADV	RB	_	25	E	25:E	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	attitude	attitude	NOUN	NN	_	17	C	17:C	_
+26	-	-	PUNCT	,	_	30	U	30:U	_
+27	it	it	PRON	PRP	_	30	A	30:A	_
+28	was	be	AUX	VBD	_	30	F	30:F	_
+29	incredibly	incredibly	ADV	RB	_	30	D	30:D	_
+30	original	original	ADJ	JJ	_	8	H	8:H	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	wonderful	wonderful	ADJ	JJ	_	30	C	30:C	_
+33	.	.	PUNCT	.	_	30	U	30:U	_
+34	"	"	PUNCT	''	_	30	U	30:U	_
+

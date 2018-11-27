@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 250015
+# text = New York Times critic Ben Brantley praised Hawke 's performance as the central character Eddie , reporting that " he captures with merciless precision the sense of a sharp mind turning flaccid " . The performance earned Hawke a Lucille Lortel Award nomination for Outstanding Lead Actor .
+1	New	New	PROPN	NNP	_	4	E	4:E	_
+2	York	York	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Times	Times	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	critic	critic	ADJ	JJ	_	5	E	5:E	_
+5	Ben	Ben	PROPN	NNP	_	0	C	0:C|17:A	_
+6	Brantley	Brantley	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	praised	praise	VERB	VBD	_	0	H	0:H	_
+8	Hawke	Hawke	PROPN	NNP	_	10	A	10:A	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	performance	performance	NOUN	NN	_	7	A	7:A	_
+11	as	as	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	central	central	ADJ	JJ	_	14	E	14:E	_
+14	character	character	NOUN	NN	_	15	E	15:E	_
+15	Eddie	Eddie	PROPN	NNP	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	7	U	7:U	_
+17	reporting	report	VERB	VBG	_	7	H	7:H	_
+18	that	that	SCONJ	IN	_	21	F	21:F	_
+19	"	"	PUNCT	``	_	21	U	21:U	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	captures	capture	VERB	VBZ	_	17	A	17:A	_
+22	with	with	ADP	IN	_	24	R	24:R	_
+23	merciless	merciless	ADJ	JJ	_	24	E	24:E	_
+24	precision	precision	NOUN	NN	_	21	D	21:D	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	sense	sense	NOUN	NN	_	21	A	21:A	_
+27	of	of	ADP	IN	_	30	R	30:R	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	sharp	sharp	ADJ	JJ	_	30	E	30:E	_
+30	mind	mind	NOUN	NN	_	31	A	31:A	_
+31	turning	turn	VERB	VBG	_	26	E	26:E	_
+32	flaccid	flaccid	NOUN	NN	_	31	A	31:A	_
+33	"	"	PUNCT	''	_	7	U	7:U	_
+34	.	.	PUNCT	.	_	7	U	7:U	_
+35	The	the	DET	DT	_	36	E	36:E	_
+36	performance	performance	NOUN	NN	_	37	A	37:A	_
+37	earned	earn	VERB	VBD	_	7	H	7:H	_
+38	Hawke	Hawke	PROPN	NNP	_	37	A	37:A	_
+39	a	a	DET	DT	_	43	E	43:E	_
+40	Lucille	Lucille	PROPN	NNP	_	42	E	42:E	_
+41	Lortel	Lortel	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	Award	Award	PROPN	NNP	_	43	E	43:E	_
+43	nomination	nomination	NOUN	NN	_	37	A	37:A	_
+44	for	for	SCONJ	IN	_	45	R	45:R	_
+45	Outstanding	outstanding	VERB	VBG	_	43	E	43:E	_
+46	Lead	lead	ADJ	JJ	_	45	Terminal	45:Terminal	_
+47	Actor	Actor	NOUN	NN	_	45	Terminal	45:Terminal	_
+48	.	.	PUNCT	.	_	45	U	45:U	_
+

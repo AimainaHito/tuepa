@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 521002
+# text = It was through the Meglin Kiddies that they made their film debut , in a 1929 short subject called The Big Revue where they performed a song and dance number called That 's the good old sunny south .
+1	It	it	PRON	PRP	_	6	F	6:F	_
+2	was	be	AUX	VBD	_	6	F	6:F	_
+3	through	through	ADP	IN	_	6	L	6:L	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	Meglin	Meglin	PROPN	NNP	_	6	E	6:E	_
+6	Kiddies	kiddies	PROPN	NNPS	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	12	F	12:F	_
+8	they	they	PRON	PRP	_	12	A	12:A	_
+9	made	make	VERB	VBD	_	12	F	12:F	_
+10	their	they	PRON	PRP$	_	12	E	12:E	_
+11	film	film	NOUN	NN	_	12	E	12:E	_
+12	debut	debut	CCONJ	CC	_	6	H	6:H	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	in	in	ADP	IN	_	18	R	18:R	_
+15	a	a	DET	DT	_	18	E	18:E	_
+16	1929	1929	NUM	CD	_	18	E	18:E	_
+17	short	short	ADJ	JJ	_	18	E	18:E	_
+18	subject	subject	NOUN	NN	_	19	A	19:A	_
+19	called	call	VERB	VBN	_	12	A	12:A	_
+20	The	the	DET	DT	_	19	A	19:A	_
+21	Big	Big	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	Revue	Revue	PROPN	NNP	_	20	Terminal	20:Terminal	_
+23	where	where	ADV	WRB	_	6	L	6:L	_
+24	they	they	PRON	PRP	_	25	A	25:A	_
+25	performed	perform	VERB	VBD	_	6	H	6:H	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	song	song	NOUN	NN	_	31	A	31:A	_
+28	and	and	CCONJ	CC	_	27	N	27:N	_
+29	dance	dance	NOUN	NN	_	30	E	30:E	_
+30	number	number	NOUN	NN	_	27	C	27:C	_
+31	called	call	VERB	VBN	_	25	A	25:A	_
+32	That	that	PRON	DT	_	31	A	31:A	_
+33	's	be	AUX	VBZ	_	32	Terminal	32:Terminal	_
+34	the	the	DET	DT	_	32	Terminal	32:Terminal	_
+35	good	good	ADJ	JJ	_	32	Terminal	32:Terminal	_
+36	old	old	ADJ	JJ	_	32	Terminal	32:Terminal	_
+37	sunny	sunny	NOUN	NN	_	32	Terminal	32:Terminal	_
+38	south	south	ADV	RB	_	32	Terminal	32:Terminal	_
+39	.	.	PUNCT	.	_	31	U	31:U	_
+

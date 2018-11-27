@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 567009
+# text = Frank Sinatra , who had famously inspired the swooning of teenaged girls in the 1940s , condemned the new musical phenomenon .
+1	Frank	Frank	PROPN	NNP	_	17	A	17:A	_
+2	Sinatra	Sinatra	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	who	who	PRON	WP	_	7	R	7:R	_
+5	had	have	AUX	VBD	_	7	F	7:F	_
+6	famously	famously	ADV	RB	_	7	D	7:D	_
+7	inspired	inspire	VERB	VBN	_	1	E	1:E	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	swooning	swooning	NOUN	NN	_	7	A	7:A	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	teenaged	teenaged	ADJ	JJ	_	12	E	12:E	_
+12	girls	girl	NOUN	NNS	_	9	A	9:A	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	1940s	1940	NOUN	NNS	_	9	D	9:D	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	condemned	condemn	VERB	VBN	_	0	H	0:H	_
+18	the	the	DET	DT	_	21	E	21:E	_
+19	new	new	ADJ	JJ	_	21	E	21:E	_
+20	musical	musical	ADJ	JJ	_	21	E	21:E	_
+21	phenomenon	phenomenon	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

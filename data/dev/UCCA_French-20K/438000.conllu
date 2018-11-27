@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 438000
+# text = « Ainsi s' expliquerait ce phénomène inexplicable , - à moins qu' il n' y ait rien , en dépit de ce qu' on a entrevu , vu , senti et ressenti , - ce qui est encore possible ! »
+1	«	«	PUNCT	_	_	3	U	3:U	_
+2	Ainsi	ainsi	ADV	_	_	3	L	3:L	_
+3	s'	se	PRON	_	_	0	H	0:H	_
+4	expliquerait	expliquer	VERB	_	_	3	Terminal	3:Terminal	_
+5	ce	ce	DET	_	_	6	E	6:E	_
+6	phénomène	phénomène	NOUN	_	_	3	A	3:A	_
+7	inexplicable	inexplicable	ADJ	_	_	6	E	6:E	_
+8	,	,	PUNCT	_	_	3	U	3:U	_
+9	-	-	PUNCT	_	_	3	U	3:U	_
+10	à	à	ADP	_	_	3	L	3:L	_
+11	moins	moins	ADV	_	_	10	Terminal	10:Terminal	_
+12	qu'	que	SCONJ	_	_	10	Terminal	10:Terminal	_
+13	il	il	PRON	_	_	16	F	16:F	_
+14	n'	ne	ADV	_	_	16	D	16:D	_
+15	y	y	PRON	_	_	16	A	16:A	_
+16	ait	avoir	VERB	_	_	3	H	3:H|39:A	_
+17	rien	rien	PRON	_	_	16	A	16:A	_
+18	,	,	PUNCT	_	_	3	U	3:U	_
+19	en	en	ADP	_	_	20	R	20:R	_
+20	dépit	dépit	NOUN	_	_	3	L	3:L	_
+21	de	de	ADP	_	_	20	R	20:R	_
+22	ce	ce	PRON	_	_	26	F	26:F	_
+23	qu'	que	PRON	_	_	26	R	26:R	_
+24	on	on	PRON	_	_	26	A	26:A	_
+25	a	avoir	AUX	_	_	26	F	26:F	_
+26	entrevu	entrevu	VERB	_	_	3	H	3:H	_
+27	,	,	PUNCT	_	_	26	U	26:U	_
+28	vu	vu	VERB	_	_	26	C	26:C	_
+29	,	,	PUNCT	_	_	26	U	26:U	_
+30	senti	senti	VERB	_	_	26	C	26:C	_
+31	et	et	CCONJ	_	_	26	N	26:N	_
+32	ressenti	ressenti	VERB	_	_	26	C	26:C	_
+33	,	,	PUNCT	_	_	3	U	3:U	_
+34	-	-	PUNCT	_	_	3	U	3:U	_
+35	ce	ce	PRON	_	_	39	F	39:F	_
+36	qui	qui	PRON	_	_	39	F	39:F	_
+37	est	être	AUX	_	_	39	F	39:F	_
+38	encore	encore	ADV	_	_	39	D	39:D	_
+39	possible	possible	ADJ	_	_	3	H	3:H	_
+40	!	!	PUNCT	_	_	39	U	39:U	_
+41	»	»	PUNCT	_	_	39	U	39:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 467007
+# text = He ultimately decided to attend Michigan State when its coach Jud Heathcote told him he could play the point guard position .
+1	He	he	PRON	PRP	_	3	A	3:A|5:A	_
+2	ultimately	ultimately	ADV	RB	_	3	D	3:D	_
+3	decided	decide	VERB	VBD	_	0	H	0:H	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	attend	attend	VERB	VB	_	3	A	3:A	_
+6	Michigan	Michigan	PROPN	NNP	_	5	A	5:A	_
+7	State	State	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	when	when	ADV	WRB	_	3	L	3:L	_
+9	its	its	PRON	PRP$	_	10	E	10:E	_
+10	coach	coach	NOUN	NN	_	11	E	11:E	_
+11	Jud	Jud	PROPN	NNP	_	13	A	13:A	_
+12	Heathcote	Heathcote	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	told	tell	VERB	VBD	_	3	H	3:H	_
+14	him	he	PRON	PRP	_	13	A	13:A	_
+15	he	he	PRON	PRP	_	17	A	17:A	_
+16	could	could	AUX	MD	_	17	D	17:D	_
+17	play	play	VERB	VB	_	13	A	13:A	_
+18	the	the	DET	DT	_	21	E	21:E	_
+19	point	point	NOUN	NN	_	20	E	20:E	_
+20	guard	guard	NOUN	NN	_	21	E	21:E	_
+21	position	position	NOUN	NN	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

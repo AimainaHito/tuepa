@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25529023
+# text = Ihre Haut ist wunderschön , oben grau , unten weiß mit goldenen Flecken , die in den düsteren Wellen glänzten .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	2	E	2:E	_
+2	Haut	Haut	NOUN	NN	_	0	C	0:C|7:A|10:A	_
+3	ist	sein	AUX	VVFIN	_	4	F	4:F	_
+4	wunderschön	wunderschön	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	oben	oben	ADV	NN	_	7	A	7:A	_
+7	grau	grau	ADJ	ADJD	_	4	H	4:H	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	unten	unten	ADV	ADJA	_	10	A	10:A	_
+10	weiß	wissen	VERB	VVFIN	_	4	H	4:H	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	goldenen	golden	ADJ	ADJA	_	13	E	13:E	_
+13	Flecken	Flecken	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	PRELS	_	20	R	20:R	_
+16	in	in	ADP	APPR	_	19	R	19:R	_
+17	den	der	DET	ART	_	19	E	19:E	_
+18	düsteren	düster	ADJ	ADJA	_	19	E	19:E	_
+19	Wellen	Welle	NOUN	NN	_	20	A	20:A	_
+20	glänzten	glänzen	VERB	VVFIN	_	13	E	13:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

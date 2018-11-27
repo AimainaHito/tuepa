@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25718005
+# text = Ich zeigte Conseil auf der Karte des Mittelmeers die Stelle , wo dieses Riff sich befand .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+3	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Karte	Karte	NOUN	NN	_	2	A	2:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Mittelmeers	Mittelmeers	NOUN	NN	_	6	E	6:E	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Stelle	Stelle	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wo	wo	ADV	NN	_	15	R	15:R	_
+13	dieses	dies	PRON	PDAT	_	14	E	14:E	_
+14	Riff	Riff	NOUN	NN	_	15	A	15:A	_
+15	sich	er|es|sie	PRON	PRF	_	10	E	10:E	_
+16	befand	befinden	VERB	VVFIN	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

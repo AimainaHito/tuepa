@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25717009
+# text = Ich konnte mich nicht satt sehen an diesen Tieren , die wie für die Schnellfahrt gebaut sind , mit kleinem Kopf , schlankem , glattem Leib , der mitunter über 3 Meter maß , ausnehmend kräftigen Brust flossen und gabelförmigem Schwanz .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	konnte	können	AUX	VMFIN	_	3	D	3:D	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	nicht	nicht	PART	XY	_	3	D	3:D	_
+5	satt	satt	ADJ	ADJD	_	3	Terminal	3:Terminal	_
+6	sehen	sehen	VERB	VVFIN	_	3	Terminal	3:Terminal	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	diesen	dies	PRON	PDAT	_	9	E	9:E	_
+9	Tieren	Tier	NOUN	NN	_	3	A	3:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	16	R	16:R	_
+12	wie	wie	ADP	ADV	_	15	R	15:R	_
+13	für	für	ADP	APPR	_	15	R	15:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Schnellfahrt	Schnellfahrt	NOUN	NN	_	16	A	16:A	_
+16	gebaut	bauen	VERB	VVPP	_	9	E	9:E	_
+17	sind	sein	AUX	NN	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	9	U	9:U	_
+19	mit	mit	ADP	APPR	_	21	R	21:R	_
+20	kleinem	klein	ADJ	ADJA	_	21	E	21:E	_
+21	Kopf	Kopf	NOUN	NN	_	9	E	9:E	_
+22	,	,	PUNCT	$,	_	9	U	9:U	_
+23	schlankem	schlank	ADJ	ADJA	_	26	E	26:E	_
+24	,	,	PUNCT	$,	_	26	U	26:U	_
+25	glattem	glattem	ADJ	ADJA	_	26	E	26:E	_
+26	Leib	Leib	NOUN	NN	_	9	E	9:E	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	der	der	PRON	PRELS	_	33	R	33:R	_
+29	mitunter	mitunter	ADV	ADV	_	33	D	33:D	_
+30	über	über	ADP	ADJD	_	32	R	32:R	_
+31	3	3	NUM	CARD	_	32	E	32:E	_
+32	Meter	Meter	NOUN	NN	_	33	A	33:A	_
+33	maß	messen	VERB	VVFIN	_	26	E	26:E	_
+34	,	,	PUNCT	$,	_	9	U	9:U	_
+35	ausnehmend	ausnehmend	ADJ	ADJD	_	36	D	36:D	_
+36	kräftigen	kräftig	ADJ	ADJA	_	9	E	9:E	_
+37	Brust	Brust	NOUN	NN	_	38	E	38:E	_
+38	flossen	fließen	VERB	VVFIN	_	36	A	36:A	_
+39	und	und	CCONJ	NE	_	36	N	36:N	_
+40	gabelförmigem	gabelförmigem	ADJ	ADJA	_	36	C	36:C	_
+41	Schwanz	Schwanz	NOUN	NN	_	40	A	40:A	_
+42	.	.	PUNCT	$.	_	40	U	40:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25700018
+# text = Am folgenden Tag , dem 10 . Februar , zeigten sich einige Schiffe , die auf uns zufuhren .
+1	Am	am	PROPN	NN	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	10	10	NUM	CARD	_	3	E	3:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Februar	Februar	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	zeigten	zeigen	VERB	VVFIN	_	0	H	0:H	_
+11	sich	er|es|sie	PRON	PRF	_	10	Terminal	10:Terminal	_
+12	einige	einige	PRON	PIAT	_	13	E	13:E	_
+13	Schiffe	Schiff	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	PRELS	_	18	R	18:R	_
+16	auf	auf	ADP	APPR	_	17	R	17:R	_
+17	uns	wir	PRON	NE	_	18	A	18:A	_
+18	zufuhren	zufuhren	VERB	VVINF	_	13	E	13:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

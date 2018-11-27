@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25767006
+# text = » Ich sehe , dass wir anfangen uns zu verstehen , Herr Professor « , sagte der Kapitän lächelnd .
+1	»	»	PUNCT	$(	_	16	U	16:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	sehe	sehen	VERB	VVFIN	_	16	A	16:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	10	R	10:R	_
+6	wir	wir	PRON	NE	_	10	A	10:A	_
+7	anfangen	anfangen	VERB	VVINF	_	10	D	10:D	_
+8	uns	wir	PRON	NN	_	10	A	10:A	_
+9	zu	zu	PART	NN	_	10	F	10:F	_
+10	verstehen	verstehen	VERB	VVINF	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	Herr	Herr	PROPN	NN	_	13	E	13:E	_
+13	Professor	Professor	PROPN	NN	_	10	G	10:G	_
+14	«	«	PUNCT	$(	_	16	U	16:U	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|19:A	_
+19	lächelnd	lächelnd	VERB	ADJD	_	16	H	16:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

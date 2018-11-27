@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25801015
+# text = Ich meinerseits spielte nicht mit einem Wort auf seine Fluchtprojekte an , denn ich wollte ihn nicht zu einem Versuch veranlassen , der unfehlbar gescheitert wäre .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	meinerseits	meinerseits	ADV	ADV	_	1	E	1:E	_
+3	spielte	spielen	VERB	VVFIN	_	0	H	0:H	_
+4	nicht	nicht	PART	XY	_	3	D	3:D	_
+5	mit	mit	ADP	APPR	_	7	R	7:R	_
+6	einem	ein	DET	ART	_	7	E	7:E	_
+7	Wort	Wort	NOUN	NN	_	3	A	3:A	_
+8	auf	auf	ADP	APPR	_	10	R	10:R	_
+9	seine	sein	DET	PPOSAT	_	10	E	10:E	_
+10	Fluchtprojekte	Fluchtprojekt	NOUN	NN	_	3	A	3:A	_
+11	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	denn	denn	SCONJ	KON	_	3	L	3:L	_
+14	ich	ich	PRON	PPER	_	21	A	21:A	_
+15	wollte	wollen	VERB	VMFIN	_	21	D	21:D	_
+16	ihn	er	PRON	PPER	_	21	A	21:A	_
+17	nicht	nicht	PART	CARD	_	21	D	21:D	_
+18	zu	zu	ADP	NN	_	20	R	20:R	_
+19	einem	ein	DET	ART	_	20	E	20:E	_
+20	Versuch	Versuch	NOUN	NN	_	21	A	21:A	_
+21	veranlassen	veranlassen	VERB	VVFIN	_	3	H	3:H	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	der	der	PRON	PRELS	_	25	R	25:R	_
+24	unfehlbar	unfehlbar	ADJ	ADJD	_	25	D	25:D	_
+25	gescheitert	gescheitert	VERB	VVPP	_	20	E	20:E	_
+26	wäre	sein	AUX	ADV	_	25	F	25:F	_
+27	.	.	PUNCT	$.	_	25	U	25:U	_
+

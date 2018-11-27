@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25523012
+# text = Sollte ich jemals erfahren , welcher Nation der seltsame Mann angehört , der keiner anzugehören sich rühmt ?
+1	Sollte	sollen	AUX	VMFIN	_	4	D	4:D	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	jemals	jemals	ADV	ADV	_	4	D	4:D	_
+4	erfahren	erfahren	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	welcher	welch	PRON	PRELS	_	7	E	7:E	_
+7	Nation	Nation	NOUN	NN	_	11	A	11:A	_
+8	der	der	DET	ART	_	10	E	10:E	_
+9	seltsame	seltsam	ADJ	ADJA	_	10	E	10:E	_
+10	Mann	Mann	NOUN	NN	_	11	A	11:A	_
+11	angehört	angehören	VERB	VVFIN	_	4	A	4:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	der	der	PRON	PRELS	_	16	R	16:R	_
+14	keiner	kein	PRON	PIS	_	15	D	15:D	_
+15	anzugehören	anzugehören	VERB	VVFIN	_	16	A	16:A	_
+16	sich	er|es|sie	PRON	PRF	_	10	E	10:E	_
+17	rühmt	rühmt	ADJ	VVFIN	_	16	Terminal	16:Terminal	_
+18	?	?	PUNCT	$.	_	16	U	16:U	_
+

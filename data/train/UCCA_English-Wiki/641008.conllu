@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 641008
+# text = At around 10 : 50 pm on 8 December 1980 , as Lennon and Ono returned to their New York apartment in The Dakota , Mark David Chapman shot Lennon in the back four times at the entrance to the building .
+1	At	at	ADP	IN	_	6	R	6:R	_
+2	around	around	ADV	RB	_	6	E	6:E	_
+3	10	10	NUM	CD	_	6	E	6:E	_
+4	:	:	PUNCT	:	_	3	U	3:U	_
+5	50	50	NUM	CD	_	3	Terminal	3:Terminal	_
+6	pm	pm	NOUN	NN	_	29	D	29:D	_
+7	on	on	ADP	IN	_	10	R	10:R	_
+8	8	8	NUM	CD	_	10	E	10:E	_
+9	December	December	PROPN	NNP	_	10	E	10:E	_
+10	1980	1980	NUM	CD	_	29	D	29:D	_
+11	,	,	PUNCT	,	_	29	U	29:U	_
+12	as	as	SCONJ	IN	_	29	L	29:L	_
+13	Lennon	Lennon	PROPN	NNP	_	16	A	16:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	Ono	Ono	PROPN	NNP	_	13	C	13:C	_
+16	returned	return	VERB	VBD	_	29	H	29:H	_
+17	to	to	ADP	IN	_	21	R	21:R	_
+18	their	they	PRON	PRP$	_	21	E	21:E	_
+19	New	New	PROPN	NNP	_	21	E	21:E	_
+20	York	York	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	apartment	apartment	NOUN	NN	_	16	A	16:A	_
+22	in	in	ADP	IN	_	24	R	24:R	_
+23	The	the	DET	DT	_	24	E	24:E	_
+24	Dakota	Dakota	PROPN	NNP	_	21	E	21:E	_
+25	,	,	PUNCT	,	_	29	U	29:U	_
+26	Mark	Mark	PROPN	NNP	_	29	A	29:A	_
+27	David	David	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	Chapman	Chapman	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	shot	shot	VERB	VBD	_	0	H	0:H	_
+30	Lennon	Lennon	PROPN	NNP	_	29	A	29:A	_
+31	in	in	ADP	IN	_	33	R	33:R	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	back	back	NOUN	NN	_	29	A	29:A	_
+34	four	four	NUM	CD	_	35	E	35:E	_
+35	times	time	NOUN	NNS	_	29	A	29:A	_
+36	at	at	ADP	IN	_	38	R	38:R	_
+37	the	the	DET	DT	_	38	E	38:E	_
+38	entrance	entrance	NOUN	NN	_	29	A	29:A	_
+39	to	to	ADP	IN	_	41	R	41:R	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	building	building	NOUN	NN	_	38	E	38:E	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

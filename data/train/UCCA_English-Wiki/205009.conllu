@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 205009
+# text = Hoffman was born in Los Angeles , the second son of Lillian ( née Gold ) and Harry Hoffman .
+1	Hoffman	Hoffman	PROPN	NNP	_	3	A	3:A|10:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	born	bear	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Los	Los	PROPN	NNP	_	3	A	3:A	_
+6	Angeles	angeles	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	second	second	ADJ	JJ	_	10	E	10:E	_
+10	son	son	NOUN	NN	_	3	H	3:H	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	Lillian	Lillian	ADJ	JJ	_	10	E	10:E	_
+13	(	(	PUNCT	-LRB-	_	12	U	12:U	_
+14	née	née	ADJ	JJ	_	15	E	15:E	_
+15	Gold	gold	NOUN	NN	_	12	E	12:E	_
+16	)	)	PUNCT	-RRB-	_	12	U	12:U	_
+17	and	and	CCONJ	CC	_	12	N	12:N	_
+18	Harry	Harry	PROPN	NNP	_	12	C	12:C	_
+19	Hoffman	Hoffman	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	12	U	12:U	_
+

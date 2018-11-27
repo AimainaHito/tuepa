@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25511000
+# text = » Ganz richtig .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ganz	ganz	NOUN	ADV	_	3	D	3:D	_
+3	richtig	richtig	ADJ	ADJD	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

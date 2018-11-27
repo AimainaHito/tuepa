@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 783001
+# text = - Lui - même , répondis - je . Le commandant Farragut ? - En personne . Soyez le bienvenu , monsieur le professeur . Votre cabine vous attend . »
+1	-	-	PUNCT	_	_	6	U	6:U	_
+2	Lui	lui	PRON	_	_	6	A	6:A	_
+3	-	-	PUNCT	_	_	2	U	2:U	_
+4	même	même	ADV	_	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	_	_	6	U	6:U	_
+6	répondis	répondis	VERB	_	_	0	H	0:H	_
+7	-	-	PUNCT	_	_	6	U	6:U	_
+8	je	il	PRON	_	_	6	A	6:A	_
+9	.	.	PUNCT	_	_	6	U	6:U	_
+10	Le	le	DET	_	_	11	E	11:E	_
+11	commandant	commandant	NOUN	_	_	12	E	12:E	_
+12	Farragut	Farragut	PROPN	_	_	0	C	0:C|16:A	_
+13	?	?	PUNCT	_	_	16	U	16:U	_
+14	-	-	PUNCT	_	_	16	U	16:U	_
+15	En	en	ADP	_	_	16	R	16:R	_
+16	personne	personne	NOUN	_	_	6	H	6:H	_
+17	.	.	PUNCT	_	_	16	U	16:U	_
+18	Soyez	être	VERB	_	_	16	H	16:H	_
+19	le	le	DET	_	_	18	Terminal	18:Terminal	_
+20	bienvenu	bienvenu	NOUN	_	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	_	_	18	U	18:U	_
+22	monsieur	Monsieur	NOUN	_	_	24	E	24:E	_
+23	le	le	DET	_	_	24	E	24:E	_
+24	professeur	professeur	NOUN	_	_	18	G	18:G	_
+25	.	.	PUNCT	_	_	16	U	16:U	_
+26	Votre	son	DET	_	_	27	E	27:E	_
+27	cabine	cabine	NOUN	_	_	29	A	29:A	_
+28	vous	lui	PRON	_	_	29	A	29:A	_
+29	attend	attendre	VERB	_	_	16	H	16:H	_
+30	.	.	PUNCT	_	_	29	U	29:U	_
+31	»	»	PUNCT	_	_	29	U	29:U	_
+

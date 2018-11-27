@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 589016
+# text = His role in the movie is uncertain though Variety reports that he will play the Baker while the Hollywood Reporter says he will play the Wolf .
+1	His	he	PRON	PRP$	_	2	A	2:A	_
+2	role	role	NOUN	NN	_	7	A	7:A	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	movie	movie	NOUN	NN	_	2	A	2:A	_
+6	is	be	AUX	VBZ	_	7	F	7:F	_
+7	uncertain	uncertain	ADJ	JJ	_	0	H	0:H	_
+8	though	though	SCONJ	IN	_	7	L	7:L	_
+9	Variety	variety	PROPN	NNP	_	10	A	10:A	_
+10	reports	report	VERB	VBZ	_	7	H	7:H	_
+11	that	that	SCONJ	IN	_	14	F	14:F	_
+12	he	he	PRON	PRP	_	14	A	14:A	_
+13	will	will	AUX	MD	_	14	F	14:F	_
+14	play	play	VERB	VB	_	10	A	10:A	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	Baker	baker	NOUN	NN	_	14	A	14:A	_
+17	while	while	SCONJ	IN	_	7	L	7:L	_
+18	the	the	DET	DT	_	21	A	21:A	_
+19	Hollywood	Hollywood	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	Reporter	reporter	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	says	say	VERB	VBZ	_	7	H	7:H	_
+22	he	he	PRON	PRP	_	24	A	24:A	_
+23	will	will	AUX	MD	_	24	F	24:F	_
+24	play	play	VERB	VB	_	21	A	21:A	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	Wolf	Wolf	NOUN	NN	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

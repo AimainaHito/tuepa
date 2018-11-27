@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25741005
+# text = Ich lud sie ein , mir zu folgen , ohne ihnen zu sagen , wo sie sich befanden .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|13:A	_
+2	lud	laden	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A|8:A	_
+4	ein	ein	ADV	PTKVZ	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	mir	ich	PRON	PPER	_	8	A	8:A	_
+7	zu	zu	PART	VVINF	_	8	F	8:F	_
+8	folgen	folgen	VERB	VVINF	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	ohne	ohne	SCONJ	NE	_	13	D	13:D	_
+11	ihnen	sie	PRON	PPER	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	sagen	sagen	VERB	VVINF	_	2	H	2:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	wo	wo	ADV	ADJA	_	17	A	17:A	_
+16	sie	sie	PRON	ADV	_	17	A	17:A	_
+17	sich	er|es|sie	PRON	PRF	_	13	A	13:A	_
+18	befanden	befinden	VERB	PIS	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25808005
+# text = » Keine Fischer . Gelehrte , vielleicht ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Keine	kein	ADJ	PIAT	_	3	D	3:D	_
+3	Fischer	Fischer	NOUN	NE	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+5	Gelehrte	Gelehrt	NOUN	NE	_	3	H	3:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	vielleicht	vielleichen	VERB	NE	_	5	G	5:G	_
+8	!	!	PUNCT	$.	_	5	U	5:U	_
+9	«	«	PUNCT	$(	_	5	U	5:U	_
+

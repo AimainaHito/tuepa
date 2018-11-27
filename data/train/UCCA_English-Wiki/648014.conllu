@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 648014
+# text = " , Lennon argued with him through the press for three years after the group split .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	Lennon	Lennon	PROPN	NNP	_	4	A	4:A	_
+4	argued	argue	VERB	VBD	_	0	H	0:H	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	him	he	PRON	PRP	_	4	A	4:A	_
+7	through	through	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	press	press	NOUN	NN	_	4	A	4:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	three	three	NUM	CD	_	12	E	12:E	_
+12	years	year	NOUN	NNS	_	4	D	4:D	_
+13	after	after	ADP	IN	_	4	L	4:L	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	group	group	NOUN	NN	_	16	A	16:A	_
+16	split	split	VERB	VBD	_	4	H	4:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

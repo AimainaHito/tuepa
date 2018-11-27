@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 226012
+# text = This film made a star of Jackie Chan , in Hollywood .
+1	This	this	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	made	make	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	star	star	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Jackie	Jackie	PROPN	NNP	_	3	A	3:A	_
+8	Chan	Chan	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Hollywood	Hollywood	PROPN	NNP	_	3	A	3:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

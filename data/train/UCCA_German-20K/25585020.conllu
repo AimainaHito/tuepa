@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25585020
+# text = » Aber , Kapitän , glauben Sie ... «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Aber	aber	CCONJ	ADV	_	6	L	6:L	_
+3	,	,	PUNCT	$,	_	6	U	6:U	_
+4	Kapitän	Kapitän	NOUN	NN	_	6	G	6:G	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	glauben	glauben	VERB	VVFIN	_	0	H	0:H	_
+7	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+8	...	...	PUNCT	$(	_	6	U	6:U	_
+9	«	«	PUNCT	$(	_	6	U	6:U	_
+

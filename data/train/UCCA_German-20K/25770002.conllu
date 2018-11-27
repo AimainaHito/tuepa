@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25770002
+# text = Aber es war leer .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	es	es	PRON	PPER	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	leer	leer	ADJ	ADJD	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

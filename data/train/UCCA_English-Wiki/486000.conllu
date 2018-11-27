@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 486000
+# text = Showing acting skill early in life , Bana began doing impressions of family members at the age of six or seven , first mimicking his grandfather 's walk , voice and mannerisms .
+1	Showing	show	VERB	VBG	_	0	H	0:H	_
+2	acting	act	VERB	VBG	_	3	E	3:E	_
+3	skill	skill	NOUN	NN	_	1	A	1:A	_
+4	early	early	ADV	RB	_	6	R	6:R	_
+5	in	in	ADP	IN	_	6	E	6:E	_
+6	life	life	NOUN	NN	_	1	D	1:D	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Bana	Bana	PROPN	NNP	_	11	A	11:A|1:A|24:A	_
+9	began	begin	VERB	VBD	_	11	D	11:D	_
+10	doing	do	VERB	VBG	_	11	F	11:F	_
+11	impressions	impression	NOUN	NNS	_	1	H	1:H	_
+12	of	of	ADP	IN	_	14	E	14:E	_
+13	family	family	NOUN	NN	_	14	E	14:E	_
+14	members	member	NOUN	NNS	_	11	A	11:A	_
+15	at	at	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	age	age	NOUN	NN	_	19	E	19:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	six	six	NUM	CD	_	11	A	11:A	_
+20	or	or	CCONJ	CC	_	19	N	19:N	_
+21	seven	seven	NUM	CD	_	19	C	19:C	_
+22	,	,	PUNCT	,	_	1	U	1:U	_
+23	first	first	ADV	RB	_	1	L	1:L	_
+24	mimicking	mimick	VERB	VBG	_	1	H	1:H	_
+25	his	he	PRON	PRP$	_	26	E	26:E	_
+26	grandfather	grandfather	NOUN	NN	_	28	E	28:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	walk	walk	NOUN	NN	_	24	A	24:A	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	voice	voice	NOUN	NN	_	28	C	28:C	_
+31	and	and	CCONJ	CC	_	28	N	28:N	_
+32	mannerisms	mannerism	NOUN	NNS	_	28	C	28:C	_
+33	.	.	PUNCT	.	_	28	U	28:U	_
+

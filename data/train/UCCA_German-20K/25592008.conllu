@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25592008
+# text = Der brave Junge war ohne Zweifel im Klassifizieren dieser Mollusken und Zoophyten vertieft .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	brave	brav	ADJ	NN	_	3	E	3:E	_
+3	Junge	Junge	NOUN	NN	_	13	A	13:A	_
+4	war	sein	AUX	NE	_	13	F	13:F	_
+5	ohne	ohne	ADP	CARD	_	6	E	6:E	_
+6	Zweifel	Zweifel	NOUN	NE	_	13	G	13:G	_
+7	im	im	ADJ	NE	_	8	R	8:R	_
+8	Klassifizieren	klassifizieren	NOUN	NE	_	13	A	13:A	_
+9	dieser	dies	PRON	PDAT	_	10	R	10:R	_
+10	Mollusken	Mollusko	NOUN	NN	_	8	A	8:A	_
+11	und	und	CCONJ	NE	_	10	N	10:N	_
+12	Zoophyten	Zoophyten	NOUN	NE	_	10	C	10:C	_
+13	vertieft	vertiefen	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

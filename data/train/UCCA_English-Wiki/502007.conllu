@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 502007
+# text = During the same period , Iggy Pop , with Bowie as a co - writer and musician , completed his solo album debut The Idiot and its follow - up Lust for Life , touring the UK , Europe , and the US in March and April 1977 .
+1	During	during	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	same	same	ADJ	JJ	_	4	E	4:E	_
+4	period	period	NOUN	NN	_	19	D	19:D	_
+5	,	,	PUNCT	,	_	19	U	19:U	_
+6	Iggy	Iggy	PROPN	NNP	_	19	A	19:A|35:A	_
+7	Pop	pop	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	19	U	19:U	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Bowie	Bowie	PROPN	NNP	_	19	A	19:A	_
+11	as	as	ADP	IN	_	15	R	15:R	_
+12	a	a	DET	DT	_	15	E	15:E	_
+13	co	co	NOUN	NN	_	15	E	15:E	_
+14	-	-	PUNCT	HYPH	_	15	U	15:U	_
+15	writer	writer	NOUN	NN	_	10	E	10:E	_
+16	and	and	CCONJ	CC	_	15	N	15:N	_
+17	musician	musician	NOUN	NN	_	15	C	15:C	_
+18	,	,	PUNCT	,	_	19	U	19:U	_
+19	completed	complete	VERB	VBD	_	0	H	0:H	_
+20	his	he	PRON	PRP$	_	23	A	23:A	_
+21	solo	solo	ADJ	JJ	_	22	E	22:E	_
+22	album	album	NOUN	NN	_	23	E	23:E	_
+23	debut	debut	CCONJ	CC	_	25	E	25:E	_
+24	The	the	DET	DT	_	25	E	25:E	_
+25	Idiot	Idiot	PROPN	NNP	_	19	A	19:A	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	its	its	PRON	PRP$	_	28	E	28:E	_
+28	follow	follow	NOUN	NN	_	31	E	31:E	_
+29	-	-	PUNCT	HYPH	_	28	U	28:U	_
+30	up	up	NOUN	NN	_	28	E	28:E	_
+31	Lust	Lust	NOUN	NN	_	25	C	25:C	_
+32	for	for	ADP	IN	_	31	Terminal	31:Terminal	_
+33	Life	life	NOUN	NN	_	31	Terminal	31:Terminal	_
+34	,	,	PUNCT	,	_	19	U	19:U	_
+35	touring	toure	VERB	VBG	_	19	H	19:H	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	UK	UK	PROPN	NNP	_	35	A	35:A	_
+38	,	,	PUNCT	,	_	37	U	37:U	_
+39	Europe	Europe	PROPN	NNP	_	37	C	37:C	_
+40	,	,	PUNCT	,	_	37	U	37:U	_
+41	and	and	CCONJ	CC	_	37	N	37:N	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	US	US	PROPN	NNP	_	37	C	37:C	_
+44	in	in	ADP	IN	_	48	R	48:R	_
+45	March	March	PROPN	NNP	_	48	E	48:E	_
+46	and	and	CCONJ	CC	_	45	N	45:N	_
+47	April	April	PROPN	NNP	_	45	C	45:C	_
+48	1977	1977	NUM	CD	_	35	D	35:D	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

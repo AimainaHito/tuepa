@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 100000
+# text = Le capitaine Anderson fit stopper immédiatement , et l' un des matelots plongea pour reconnaître l' avarie .
+1	Le	le	DET	_	_	2	E	2:E	_
+2	capitaine	capitaine	NOUN	_	_	3	E	3:E	_
+3	Anderson	Anderson	PROPN	_	_	5	A	5:A	_
+4	fit	faire	AUX	_	_	5	D	5:D	_
+5	stopper	stopper	VERB	_	_	0	H	0:H	_
+6	immédiatement	immédiatement	ADV	_	_	5	D	5:D	_
+7	,	,	PUNCT	_	_	5	U	5:U	_
+8	et	et	CCONJ	_	_	5	L	5:L	_
+9	l'	l'	PART	_	_	10	E	10:E	_
+10	un	un	PRON	_	_	12	E	12:E	_
+11	des	un	DET	_	_	10	R	10:R	_
+12	matelots	matelot	NOUN	_	_	13	A	13:A|15:A	_
+13	plongea	plonger	VERB	_	_	5	H	5:H	_
+14	pour	pour	ADP	_	_	5	L	5:L	_
+15	reconnaître	reconnaître	VERB	_	_	5	H	5:H	_
+16	l'	le	DET	_	_	17	E	17:E	_
+17	avarie	avarie	NOUN	_	_	15	A	15:A	_
+18	.	.	PUNCT	_	_	17	U	17:U	_
+

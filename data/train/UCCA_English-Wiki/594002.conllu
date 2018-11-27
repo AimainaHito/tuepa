@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 594002
+# text = Harris , president of Americans for Indian Opportunity , invited him to join her family after hearing he would be portraying the role of Tonto as a Comanche in The Lone Ranger , a feature film scheduled for 2013 release .
+1	Harris	Harris	PROPN	NNP	_	10	A	10:A|17:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	president	president	PROPN	NNP	_	1	E	1:E	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	Americans	Americans	PROPN	NNPS	_	3	E	3:E	_
+6	for	for	ADP	IN	_	5	Terminal	5:Terminal	_
+7	Indian	indian	ADJ	JJ	_	5	Terminal	5:Terminal	_
+8	Opportunity	opportunity	NOUN	NN	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	invited	invite	VERB	VBD	_	0	H	0:H	_
+11	him	he	PRON	PRP	_	10	A	10:A|13:A	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	join	join	VERB	VB	_	10	A	10:A	_
+14	her	she	PRON	PRP$	_	15	E	15:E	_
+15	family	family	NOUN	NN	_	13	A	13:A	_
+16	after	after	SCONJ	IN	_	10	L	10:L	_
+17	hearing	hear	VERB	VBG	_	10	H	10:H	_
+18	he	he	PRON	PRP	_	21	A	21:A	_
+19	would	would	AUX	MD	_	21	F	21:F	_
+20	be	be	AUX	VB	_	21	F	21:F	_
+21	portraying	portray	VERB	VBG	_	17	A	17:A	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	role	role	NOUN	NN	_	21	A	21:A	_
+24	of	of	ADP	IN	_	25	R	25:R	_
+25	Tonto	Tonto	PROPN	NNP	_	23	E	23:E	_
+26	as	as	ADP	IN	_	28	R	28:R	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	Comanche	Comanche	NOUN	NN	_	23	E	23:E	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	The	the	DET	DT	_	21	A	21:A	_
+31	Lone	Lone	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	Ranger	Ranger	PROPN	NNP	_	30	Terminal	30:Terminal	_
+33	,	,	PUNCT	,	_	30	U	30:U	_
+34	a	a	DET	DT	_	36	E	36:E	_
+35	feature	feature	ADJ	JJ	_	36	E	36:E	_
+36	film	film	NOUN	NN	_	30	E	30:E	_
+37	scheduled	schedule	VERB	VBN	_	36	E	36:E	_
+38	for	for	ADP	IN	_	40	R	40:R	_
+39	2013	2013	NUM	CD	_	40	E	40:E	_
+40	release	release	NOUN	NN	_	37	A	37:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

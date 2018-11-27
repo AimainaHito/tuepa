@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 192008
+# text = Although Sports Night was critically acclaimed , ABC canceled the show after two seasons due to its low ratings .
+1	Although	although	SCONJ	IN	_	6	L	6:L	_
+2	Sports	Sports	PROPN	NNP	_	6	A	6:A	_
+3	Night	night	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	critically	critically	ADV	RB	_	6	D	6:D	_
+6	acclaimed	acclaim	VERB	VBN	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	ABC	ABC	PROPN	NNP	_	9	A	9:A	_
+9	canceled	cancel	VERB	VBD	_	6	H	6:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	show	show	NOUN	NN	_	9	A	9:A	_
+12	after	after	ADP	IN	_	14	R	14:R	_
+13	two	two	NUM	CD	_	14	E	14:E	_
+14	seasons	season	NOUN	NNS	_	9	D	9:D	_
+15	due	due	ADP	IN	_	6	L	6:L	_
+16	to	to	ADP	IN	_	15	Terminal	15:Terminal	_
+17	its	its	PRON	PRP$	_	19	A	19:A	_
+18	low	low	ADJ	JJ	_	19	D	19:D	_
+19	ratings	rating	NOUN	NNS	_	6	H	6:H	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

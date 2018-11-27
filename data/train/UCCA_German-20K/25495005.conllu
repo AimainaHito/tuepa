@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25495005
+# text = Welches Schiff könnte einem Stoß seines unterseeischen Monitors widerstehen ?
+1	Welches	welch	PRON	PRELS	_	2	E	2:E	_
+2	Schiff	Schiff	NOUN	NN	_	9	A	9:A	_
+3	könnte	können	AUX	VMFIN	_	9	D	9:D	_
+4	einem	ein	DET	ART	_	5	E	5:E	_
+5	Stoß	Stoß	NOUN	NN	_	9	A	9:A	_
+6	seines	sein	DET	PPOSAT	_	8	R	8:R	_
+7	unterseeischen	unterseeisch	ADJ	ADJA	_	8	E	8:E	_
+8	Monitors	Monitor	NOUN	NN	_	5	E	5:E	_
+9	widerstehen	widerstehen	VERB	VVINF	_	0	H	0:H	_
+10	?	?	PUNCT	$.	_	9	U	9:U	_
+

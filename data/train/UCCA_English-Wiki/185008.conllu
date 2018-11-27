@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 185008
+# text = In 1998 his television career began when he created the comedy series Sports Night for the ABC network .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1998	1998	NUM	CD	_	6	D	6:D	_
+3	his	he	PRON	PRP$	_	5	A	5:A	_
+4	television	television	NOUN	NN	_	5	E	5:E	_
+5	career	career	NOUN	NN	_	6	A	6:A	_
+6	began	begin	VERB	VBD	_	0	H	0:H	_
+7	when	when	ADV	WRB	_	6	L	6:L	_
+8	he	he	PRON	PRP	_	9	A	9:A	_
+9	created	create	VERB	VBD	_	6	H	6:H	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	comedy	comedy	NOUN	NN	_	13	E	13:E	_
+12	series	series	NOUN	NN	_	13	E	13:E	_
+13	Sports	Sports	PROPN	NNP	_	9	A	9:A	_
+14	Night	night	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	for	for	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	ABC	ABC	PROPN	NNPS	_	9	A	9:A	_
+18	network	network	NOUN	NN	_	17	E	17:E	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

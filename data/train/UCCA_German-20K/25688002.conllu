@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25688002
+# text = Der wütend zappelnde Hai regte die Wasser masse dergestalt auf , dass der Wogen wirbel mich hin zu werfen drohte .
+1	Der	der	DET	ART	_	4	E	4:E	_
+2	wütend	wütend	ADJ	ADJD	_	3	D	3:D	_
+3	zappelnde	zappelnd	ADJ	ADJA	_	5	A	5:A	_
+4	Hai	Hai	PROPN	NE	_	3	A	3:A	_
+5	regte	regen	VERB	VVFIN	_	0	H	0:H	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Wasser	Wasser	NOUN	NN	_	8	E	8:E	_
+8	masse	masse	ADJ	NN	_	5	A	5:A	_
+9	dergestalt	dergestalt	NOUN	NN	_	5	D	5:D	_
+10	auf	auf	ADP	PTKVZ	_	5	Terminal	5:Terminal	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	dass	dass	SCONJ	KOUS	_	5	L	5:L	_
+13	der	der	DET	ART	_	15	E	15:E	_
+14	Wogen	Woge	NOUN	NE	_	15	E	15:E	_
+15	wirbel	wirbel	ADV	NE	_	17	A	17:A	_
+16	mich	ich	PRON	PPER	_	17	A	17:A	_
+17	hin	hin	ADV	ADV	_	5	H	5:H	_
+18	zu	zu	PART	VVINF	_	17	F	17:F	_
+19	werfen	werfen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+20	drohte	drohen	VERB	VVFIN	_	17	D	17:D	_
+21	.	.	PUNCT	$.	_	17	U	17:U	_
+

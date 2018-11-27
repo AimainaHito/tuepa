@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25733008
+# text = Um 1 Uhr früh befanden wir uns an den ersten Gebirgs aufgängen ; aber um hinaufzukommen , musste man sich durch die schwierigen Pfade eines ungeheuren Gehölzes wagen .
+1	Um	um	ADP	APPR	_	4	R	4:R	_
+2	1	1	NUM	CARD	_	3	E	3:E	_
+3	Uhr	Uhr	NOUN	NN	_	4	E	4:E	_
+4	früh	früh	ADJ	ADJD	_	5	D	5:D	_
+5	befanden	befinden	VERB	VVFIN	_	0	H	0:H	_
+6	wir	wir	PRON	NE	_	5	A	5:A	_
+7	uns	wir	PRON	NE	_	5	Terminal	5:Terminal	_
+8	an	an	ADP	APPR	_	12	R	12:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	ersten	erst	ADJ	ADJA	_	12	E	12:E	_
+11	Gebirgs	Gebirgs	NOUN	NN	_	12	E	12:E	_
+12	aufgängen	aufgängen	VERB	NN	_	5	A	5:A	_
+13	;	;	PUNCT	$.	_	5	U	5:U	_
+14	aber	aber	ADV	ADV	_	5	L	5:L	_
+15	um	um	ADP	APPR	_	5	L	5:L	_
+16	hinaufzukommen	hinaufzukommen	VERB	NN	_	5	H	5:H	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	musste	müssen	AUX	VVFIN	_	20	D	20:D	_
+19	man	man	PRON	PIS	_	20	A	20:A|16:A	_
+20	sich	er|es|sie	PRON	PRF	_	5	H	5:H	_
+21	durch	durch	ADP	APPR	_	24	R	24:R	_
+22	die	der	DET	ART	_	24	E	24:E	_
+23	schwierigen	schwierig	ADJ	ADJA	_	24	E	24:E	_
+24	Pfade	Pfad	NOUN	NN	_	20	A	20:A	_
+25	eines	ein	DET	ART	_	27	R	27:R	_
+26	ungeheuren	ungeheur	ADJ	NN	_	27	E	27:E	_
+27	Gehölzes	Gehölzes	NOUN	NE	_	24	E	24:E	_
+28	wagen	wagen	VERB	VVINF	_	20	Terminal	20:Terminal	_
+29	.	.	PUNCT	$.	_	20	U	20:U	_
+

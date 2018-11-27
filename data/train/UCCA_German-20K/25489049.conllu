@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25489049
+# text = Er war von hoher Statur , hatte eine weite Stirn und gerade Nase , klar gezeichneten Mund , prachtvolle Zähne , feine , lange Hände , geeignet , einer hohen und leidenschaftlichen Seele zu dienen .
+1	Er	er	PRON	PPER	_	5	A	5:A|7:A|13:A|20:A|17:A	_
+2	war	sein	AUX	ADV	_	5	F	5:F	_
+3	von	von	ADP	NN	_	5	R	5:R	_
+4	hoher	hoch	ADJ	ADJA	_	5	E	5:E	_
+5	Statur	Statur	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	hatte	haben	AUX	VAFIN	_	5	H	5:H	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	weite	weit	ADJ	NN	_	10	E	10:E	_
+10	Stirn	Stirn	NOUN	NE	_	7	A	7:A	_
+11	und	und	CCONJ	NE	_	5	L	5:L	_
+12	gerade	gerade	ADJ	ADV	_	13	E	13:E	_
+13	Nase	Nase	NOUN	NN	_	5	H	5:H	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	klar	klar	ADJ	ADJD	_	16	D	16:D	_
+16	gezeichneten	gezeichnet	ADJ	ADJA	_	17	E	17:E	_
+17	Mund	Mund	NOUN	NN	_	5	H	5:H	_
+18	,	,	PUNCT	$,	_	5	U	5:U	_
+19	prachtvolle	prachtvoll	ADJ	ADJA	_	20	E	20:E	_
+20	Zähne	Zahn	NOUN	NN	_	5	H	5:H	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	feine	fein	ADJ	ADJA	_	25	E	25:E	_
+23	,	,	PUNCT	$,	_	25	U	25:U	_
+24	lange	lang	ADJ	ADJA	_	25	E	25:E	_
+25	Hände	Hände	NOUN	NN	_	27	A	27:A	_
+26	,	,	PUNCT	$,	_	27	U	27:U	_
+27	geeignet	geeignet	VERB	VVPP	_	5	H	5:H	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	einer	ein	DET	ART	_	30	E	30:E	_
+30	hohen	hoch	ADJ	ADJA	_	33	E	33:E	_
+31	und	und	CCONJ	NN	_	30	N	30:N	_
+32	leidenschaftlichen	leidenschaftlich	ADJ	ADJA	_	30	C	30:C	_
+33	Seele	Seele	NOUN	NN	_	35	A	35:A	_
+34	zu	zu	PART	VVINF	_	35	F	35:F	_
+35	dienen	dienen	VERB	VVINF	_	27	A	27:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+

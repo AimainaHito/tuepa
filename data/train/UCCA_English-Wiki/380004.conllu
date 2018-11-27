@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 380004
+# text = " When asked about the more intimate scenes with Ledger , Gyllenhaal likened them to " doing a sex scene with a woman I 'm not particularly attracted to .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	When	when	ADV	WRB	_	3	L	3:L	_
+3	asked	ask	VERB	VBD	_	0	H	0:H	_
+4	about	about	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	more	more	ADV	RBR	_	7	E	7:E	_
+7	intimate	intimate	ADJ	JJ	_	8	E	8:E	_
+8	scenes	scene	NOUN	NNS	_	3	A	3:A	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Ledger	ledger	PROPN	NNP	_	8	A	8:A	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	13	A	13:A|3:A|8:A	_
+13	likened	liken	VERB	VBD	_	3	H	3:H	_
+14	them	they	PRON	PRP	_	13	A	13:A	_
+15	to	to	ADP	IN	_	20	R	20:R	_
+16	"	"	PUNCT	``	_	20	U	20:U	_
+17	doing	do	VERB	VBG	_	20	D	20:D	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	sex	sex	NOUN	NN	_	20	E	20:E	_
+20	scene	scene	NOUN	NN	_	13	A	13:A	_
+21	with	with	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	woman	woman	NOUN	NN	_	20	A	20:A	_
+24	I	I	PRON	PRP	_	28	A	28:A	_
+25	'm	be	AUX	VBP	_	28	F	28:F	_
+26	not	not	PART	RB	_	28	D	28:D	_
+27	particularly	particularly	ADV	RB	_	28	D	28:D	_
+28	attracted	attract	VERB	VBN	_	23	E	23:E	_
+29	to	to	ADP	IN	_	28	A	28:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

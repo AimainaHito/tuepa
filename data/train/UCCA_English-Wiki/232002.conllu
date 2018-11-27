@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 232002
+# text = He has released 20 albums since 1984 and has performed vocals in Cantonese , Mandarin , Japanese , Taiwanese and English .
+1	He	he	PRON	PRP	_	3	A	3:A|10:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	released	release	VERB	VBN	_	0	H	0:H	_
+4	20	20	NUM	CD	_	5	E	5:E	_
+5	albums	album	NOUN	NNS	_	3	A	3:A	_
+6	since	since	ADP	IN	_	7	R	7:R	_
+7	1984	1984	PROPN	NNP	_	3	D	3:D	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	has	have	AUX	VBZ	_	10	F	10:F	_
+10	performed	perform	VERB	VBN	_	3	H	3:H	_
+11	vocals	vocal	NOUN	NNS	_	10	A	10:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Cantonese	Cantonese	PROPN	NNP	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	Mandarin	Mandarin	PROPN	NNP	_	13	C	13:C	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	Japanese	japanese	ADJ	JJ	_	13	C	13:C	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	Taiwanese	taiwanese	ADJ	JJ	_	13	C	13:C	_
+20	and	and	CCONJ	CC	_	13	N	13:N	_
+21	English	English	PROPN	NNP	_	13	C	13:C	_
+22	.	.	PUNCT	.	_	13	U	13:U	_
+

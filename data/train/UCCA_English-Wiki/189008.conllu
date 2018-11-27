@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 189008
+# text = After opening in late 1989 , it ran for 497 performances .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	opening	open	VERB	VBG	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	late	late	ADJ	JJ	_	5	E	5:E	_
+5	1989	1989	NUM	CD	_	2	D	2:D	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	it	it	PRON	PRP	_	8	A	8:A	_
+8	ran	run	VERB	VBD	_	2	H	2:H	_
+9	for	for	ADP	IN	_	11	R	11:R	_
+10	497	497	NUM	CD	_	11	E	11:E	_
+11	performances	performance	NOUN	NNS	_	8	A	8:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

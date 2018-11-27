@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 691007
+# text = Within Columbia Records , some referred to the singer as " Hammond 's Folly " and suggested dropping his contract .
+1	Within	within	ADP	IN	_	2	R	2:R	_
+2	Columbia	Columbia	PROPN	NNP	_	6	A	6:A	_
+3	Records	record	NOUN	NNS	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	some	some	DET	DT	_	6	A	6:A|17:A	_
+6	referred	refer	VERB	VBD	_	0	H	0:H	_
+7	to	to	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	singer	singer	NOUN	NN	_	6	A	6:A	_
+10	as	as	ADP	IN	_	12	R	12:R	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	Hammond	Hammond	PROPN	NNP	_	6	A	6:A	_
+13	's	's	PART	POS	_	12	Terminal	12:Terminal	_
+14	Folly	Folly	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	"	"	PUNCT	''	_	6	U	6:U	_
+16	and	and	CCONJ	CC	_	6	L	6:L	_
+17	suggested	suggest	VERB	VBD	_	6	H	6:H	_
+18	dropping	drop	VERB	VBG	_	17	A	17:A	_
+19	his	he	PRON	PRP$	_	20	E	20:E	_
+20	contract	contract	NOUN	NN	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

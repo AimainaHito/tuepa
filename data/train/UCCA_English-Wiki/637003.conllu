@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 637003
+# text = " In later interviews with Rolling Stone magazine , he revealed his bitterness towards McCartney , saying , " I was a fool not to do what Paul did , which was use it to sell a record .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	In	in	ADP	IN	_	4	L	4:L	_
+3	later	later	ADJ	JJR	_	4	D	4:D	_
+4	interviews	interview	NOUN	NNS	_	0	H	0:H	_
+5	with	with	ADP	IN	_	8	R	8:R	_
+6	Rolling	Rolling	PROPN	NNP	_	8	E	8:E	_
+7	Stone	stone	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	magazine	magazine	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	he	he	PRON	PRP	_	11	A	11:A|4:A|17:A	_
+11	revealed	reveal	VERB	VBD	_	4	H	4:H	_
+12	his	he	PRON	PRP$	_	13	A	13:A	_
+13	bitterness	bitterness	NOUN	NN	_	11	A	11:A	_
+14	towards	towards	ADP	IN	_	15	R	15:R	_
+15	McCartney	McCartney	PROPN	NNP	_	13	A	13:A	_
+16	,	,	PUNCT	,	_	4	U	4:U	_
+17	saying	say	VERB	VBG	_	4	H	4:H	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	"	"	PUNCT	``	_	17	U	17:U	_
+20	I	I	PRON	PRP	_	23	A	23:A|26:A	_
+21	was	be	AUX	VBD	_	23	F	23:F	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	fool	fool	NOUN	NN	_	17	A	17:A	_
+24	not	not	ADV	RB	_	26	D	26:D	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	do	do	VERB	VB	_	23	A	23:A	_
+27	what	what	PRON	WP	_	29	A	29:A	_
+28	Paul	Paul	PROPN	NNP	_	29	A	29:A|33:A	_
+29	did	do	VERB	VBD	_	26	A	26:A	_
+30	,	,	PUNCT	,	_	23	U	23:U	_
+31	which	which	PRON	WDT	_	32	F	32:F	_
+32	was	be	AUX	VBD	_	23	L	23:L	_
+33	use	use	VERB	VB	_	23	H	23:H	_
+34	it	it	PRON	PRP	_	33	A	33:A	_
+35	to	to	PART	TO	_	36	F	36:F	_
+36	sell	sell	VERB	VB	_	33	A	33:A	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	record	record	NOUN	NN	_	36	A	36:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

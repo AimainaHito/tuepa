@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25651022
+# text = So wie er mich sah , kam er auf mich zu .
+1	So	so	ADV	ADV	_	5	L	5:L	_
+2	wie	wie	SCONJ	ADV	_	1	Terminal	1:Terminal	_
+3	er	er	PRON	PPER	_	5	A	5:A	_
+4	mich	ich	PRON	PPER	_	5	A	5:A	_
+5	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	kam	kommen	VERB	VVFIN	_	5	H	5:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	auf	auf	ADP	APPR	_	10	R	10:R	_
+10	mich	ich	PRON	PPER	_	7	A	7:A	_
+11	zu	zu	ADP	VVINF	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

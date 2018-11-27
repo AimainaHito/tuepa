@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 694003
+# text = By this time , Dylan and Baez were both prominent in the civil rights movement , singing together at the March on Washington on August 28 , 1963 .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	this	this	DET	DT	_	3	E	3:E	_
+3	time	time	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	,	_	10	U	10:U	_
+5	Dylan	Dylan	PROPN	NNP	_	10	A	10:A|17:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Baez	Baez	PROPN	NNP	_	5	C	5:C	_
+8	were	be	AUX	VBD	_	10	F	10:F	_
+9	both	both	ADV	RB	_	10	F	10:F	_
+10	prominent	prominent	ADJ	JJ	_	0	H	0:H	_
+11	in	in	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	civil	civil	ADJ	JJ	_	14	E	14:E	_
+14	rights	rights	NOUN	NNS	_	15	E	15:E	_
+15	movement	movement	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	singing	singe	VERB	VBG	_	10	H	10:H	_
+18	together	together	ADV	RB	_	17	D	17:D	_
+19	at	at	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	March	March	PROPN	NNP	_	17	A	17:A	_
+22	on	on	ADP	IN	_	21	R	21:R	_
+23	Washington	Washington	PROPN	NNP	_	21	C	21:C	_
+24	on	on	ADP	IN	_	28	R	28:R	_
+25	August	August	PROPN	NNP	_	28	E	28:E	_
+26	28	28	NUM	CD	_	28	E	28:E	_
+27	,	,	PUNCT	,	_	28	U	28:U	_
+28	1963	1963	NUM	CD	_	17	D	17:D	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

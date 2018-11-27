@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25490089
+# text = Ich gestehe , dass ich meinerseits , trotz der Versicherungen des Harpuniers , mir keine Illusion mehr machte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	gestehe	gestehen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+5	ich	ich	PRON	PPER	_	18	A	18:A	_
+6	meinerseits	meinerseits	ADV	ADV	_	18	G	18:G	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	trotz	trotz	ADP	APPR	_	2	L	2:L	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Versicherungen	Versicherung	NOUN	NN	_	2	H	2:H	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Harpuniers	Harpunier	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	mir	ich	PRON	PPER	_	18	A	18:A	_
+15	keine	kein	PRON	PIAT	_	18	D	18:D	_
+16	Illusion	Illusion	NOUN	NN	_	18	A	18:A	_
+17	mehr	mehr	ADV	ADV	_	15	Terminal	15:Terminal	_
+18	machte	machen	VERB	VVFIN	_	2	A	2:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

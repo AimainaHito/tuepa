@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 553015
+# text = Prescription drug abuse severely deteriorated his health , and he died suddenly in 1977 at the age of 42 .
+1	Prescription	Prescription	NOUN	NN	_	2	E	2:E	_
+2	drug	drug	NOUN	NN	_	3	E	3:E	_
+3	abuse	abuse	NOUN	NN	_	5	A	5:A	_
+4	severely	severely	ADV	RB	_	5	D	5:D	_
+5	deteriorated	deteriorate	VERB	VBD	_	0	H	0:H	_
+6	his	he	PRON	PRP$	_	7	E	7:E|3:A	_
+7	health	health	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	and	and	CCONJ	CC	_	5	L	5:L	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	died	die	VERB	VBD	_	5	H	5:H	_
+12	suddenly	suddenly	ADV	RB	_	11	D	11:D	_
+13	in	in	ADP	IN	_	14	E	14:E	_
+14	1977	1977	NUM	CD	_	11	D	11:D	_
+15	at	at	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	age	age	NOUN	NN	_	11	A	11:A	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	42	42	NUM	CD	_	17	E	17:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

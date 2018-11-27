@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 225011
+# text = In 1985 , Chan made the first Police Story film , a US - influenced action comedy in which Chan performed a number of dangerous stunts .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1985	1985	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Chan	Chan	PROPN	NNP	_	5	A	5:A	_
+5	made	make	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	Police	Police	NOUN	NN	_	5	A	5:A	_
+9	Story	Story	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	film	film	NOUN	NN	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	8	U	8:U	_
+12	a	a	DET	DT	_	17	E	17:E	_
+13	US	US	PROPN	NNP	_	15	A	15:A	_
+14	-	-	PUNCT	HYPH	_	15	U	15:U	_
+15	influenced	influence	ADJ	JJ	_	17	E	17:E	_
+16	action	action	NOUN	NN	_	17	E	17:E	_
+17	comedy	comedy	NOUN	NN	_	8	E	8:E	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	which	which	PRON	WDT	_	21	F	21:F	_
+20	Chan	Chan	PROPN	NNP	_	21	A	21:A	_
+21	performed	perform	VERB	VBD	_	8	E	8:E	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	number	number	NOUN	NN	_	26	E	26:E	_
+24	of	of	ADP	IN	_	23	F	23:F	_
+25	dangerous	dangerous	ADJ	JJ	_	26	E	26:E	_
+26	stunts	stunt	NOUN	NNS	_	21	A	21:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

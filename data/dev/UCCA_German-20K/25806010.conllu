@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25806010
+# text = Aber wir hatten mit der Menschheit nicht gebrochen .
+1	Aber	aber	CCONJ	KON	_	8	L	8:L	_
+2	wir	wir	PRON	NE	_	8	A	8:A	_
+3	hatten	haben	AUX	VAFIN	_	8	F	8:F	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Menschheit	Menschheit	NOUN	NN	_	8	A	8:A	_
+7	nicht	nicht	PART	CARD	_	8	D	8:D	_
+8	gebrochen	gebrochen	VERB	VVPP	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

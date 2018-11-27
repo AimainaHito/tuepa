@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25619007
+# text = » Die Flut wird ja ausreichen ! « erwiderte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Die	der	DET	ART	_	3	E	3:E	_
+3	Flut	Flut	NOUN	NN	_	6	A	6:A	_
+4	wird	werden	AUX	VAFIN	_	6	F	6:F	_
+5	ja	ja	ADV	ADV	_	6	D	6:D	_
+6	ausreichen	ausreichen	VERB	VVINF	_	9	A	9:A	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

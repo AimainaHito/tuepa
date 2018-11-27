@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25440012
+# text = Die Mannschaft war eifrigst gespannt , mit dem Einhorn zusammen zu treffen , die Harpune zu werfen , es an Bord zu ziehen und dann zu zerhauen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Mannschaft	Mannschaft	NOUN	NN	_	0	C	0:C|10:A|27:A|17:A	_
+3	war	sein	AUX	ADV	_	5	F	5:F	_
+4	eifrigst	eifrigst	ADV	ADV	_	5	D	5:D	_
+5	gespannt	spannen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	dem	der	DET	ART	_	9	E	9:E	_
+9	Einhorn	Einhorn	NOUN	NE	_	0	C	0:C|27:A	_
+10	zusammen	zusammen	ADV	NE	_	5	H	5:H	_
+11	zu	zu	PART	NE	_	10	F	10:F	_
+12	treffen	treffen	VERB	VVINF	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Harpune	Harpune	NOUN	NN	_	17	A	17:A	_
+16	zu	zu	PART	NE	_	17	F	17:F	_
+17	werfen	werfen	VERB	VVINF	_	5	H	5:H	_
+18	,	,	PUNCT	$,	_	5	U	5:U	_
+19	es	es	PRON	PPER	_	23	A	23:A|27:A	_
+20	an	an	ADP	APPR	_	21	R	21:R	_
+21	Bord	Bord	NOUN	NN	_	23	A	23:A	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	ziehen	ziehen	VERB	VVINF	_	5	H	5:H	_
+24	und	und	CCONJ	NE	_	5	L	5:L	_
+25	dann	dann	ADV	ADV	_	27	F	27:F	_
+26	zu	zu	PART	VVINF	_	27	F	27:F	_
+27	zerhauen	zerhauen	VERB	VVINF	_	5	H	5:H	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

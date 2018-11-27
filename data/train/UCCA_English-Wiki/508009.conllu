@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 508009
+# text = Reuniting Bowie with Eno , the quasi - industrial Outside ( 1995 ) was originally conceived as the first volume in a non - linear narrative of art and murder .
+1	Reuniting	Reunit	VERB	VBG	_	0	H	0:H	_
+2	Bowie	Bowie	PROPN	NNP	_	1	A	1:A	_
+3	with	with	ADP	IN	_	4	R	4:R	_
+4	Eno	Eno	PROPN	NNP	_	1	A	1:A	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	quasi	quasi	ADJ	JJ	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	industrial	industrial	ADJ	JJ	_	10	E	10:E	_
+10	Outside	outside	NOUN	NN	_	0	C	0:C|1:A	_
+11	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+12	1995	1995	NUM	CD	_	10	E	10:E	_
+13	)	)	PUNCT	-RRB-	_	16	U	16:U	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	originally	originally	ADV	RB	_	16	D	16:D	_
+16	conceived	conceive	VERB	VBN	_	1	H	1:H	_
+17	as	as	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	first	first	ADJ	JJ	_	20	E	20:E	_
+20	volume	volume	NOUN	NN	_	16	A	16:A	_
+21	in	in	ADP	IN	_	26	R	26:R	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	non	non	X	AFX	_	25	E	25:E	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	linear	linear	NOUN	NN	_	26	E	26:E	_
+26	narrative	narrative	NOUN	NN	_	16	A	16:A	_
+27	of	of	ADP	IN	_	28	R	28:R	_
+28	art	art	NOUN	NN	_	26	E	26:E	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	murder	murder	NOUN	NN	_	28	C	28:C	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

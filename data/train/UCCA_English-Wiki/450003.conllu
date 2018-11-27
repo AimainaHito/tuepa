@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 450003
+# text = After the CBC moved his father to its Ottawa headquarters in the early 1950s , Jennings transferred to Lisgar Collegiate Institute .
+1	After	after	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	CBC	CBC	PROPN	NNP	_	4	A	4:A	_
+4	moved	move	VERB	VBD	_	0	H	0:H	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	father	father	NOUN	NN	_	4	A	4:A	_
+7	to	to	ADP	IN	_	10	R	10:R	_
+8	its	its	PRON	PRP$	_	10	E	10:E	_
+9	Ottawa	Ottawa	PROPN	NNP	_	10	E	10:E	_
+10	headquarters	headquarters	NOUN	NNS	_	4	A	4:A	_
+11	in	in	ADP	IN	_	14	R	14:R	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	early	early	ADJ	JJ	_	14	E	14:E	_
+14	1950s	1950	NOUN	NNS	_	4	D	4:D	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	Jennings	Jennings	PROPN	NNP	_	17	A	17:A	_
+17	transferred	transfer	VERB	VBD	_	4	H	4:H	_
+18	to	to	ADP	IN	_	17	R	17:R	_
+19	Lisgar	Lisgar	PROPN	NNP	_	21	E	21:E	_
+20	Collegiate	Collegiate	PROPN	NNP	_	21	E	21:E	_
+21	Institute	Institute	PROPN	NNP	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

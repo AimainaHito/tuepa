@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 207007
+# text = " : 35 Turner Classic Movies critic Rob Nixon notes that Hoffman represented " a new generation of actors .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	:	:	PUNCT	:	_	10	U	10:U	_
+3	35	35	NUM	CD	_	7	E	7:E	_
+4	Turner	Turner	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Classic	classic	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	Movies	movies	PROPN	NNPS	_	3	Terminal	3:Terminal	_
+7	critic	critic	ADJ	JJ	_	8	E	8:E	_
+8	Rob	Rob	PROPN	NNP	_	10	A	10:A	_
+9	Nixon	Nixon	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	notes	note	VERB	VBZ	_	0	H	0:H	_
+11	that	that	SCONJ	IN	_	13	F	13:F	_
+12	Hoffman	Hoffman	PROPN	NNP	_	13	A	13:A	_
+13	represented	represent	VERB	VBD	_	10	A	10:A	_
+14	"	"	PUNCT	``	_	13	U	13:U	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	new	new	ADJ	JJ	_	17	E	17:E	_
+17	generation	generation	NOUN	NN	_	13	A	13:A	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	actors	actor	NOUN	NNS	_	17	E	17:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

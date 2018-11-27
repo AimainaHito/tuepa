@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 250009
+# text = Outside of the New York stage , Hawke made an appearance in a 1995 production of Sam Shepard 's Buried Child , directed by Gary Sinise at the Steppenwolf Theater in Chicago .
+1	Outside	outside	ADP	IN	_	6	R	6:R	_
+2	of	of	ADP	IN	_	1	F	1:F	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	New	New	PROPN	NNP	_	6	E	6:E	_
+5	York	York	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	stage	stage	NOUN	NN	_	11	A	11:A	_
+7	,	,	PUNCT	,	_	11	U	11:U	_
+8	Hawke	Hawke	PROPN	NNP	_	11	A	11:A|15:A	_
+9	made	make	VERB	VBD	_	11	F	11:F	_
+10	an	a	DET	DT	_	11	E	11:E	_
+11	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+12	in	in	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	1995	1995	NUM	CD	_	15	E	15:E	_
+15	production	production	NOUN	NN	_	0	C	0:C|23:A	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	Sam	sam	PROPN	NNP	_	20	E	20:E	_
+18	Shepard	Shepard	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	's	's	PART	POS	_	17	R	17:R	_
+20	Buried	Bury	VERB	VBN	_	15	A	15:A	_
+21	Child	child	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	15	U	15:U	_
+23	directed	direct	VERB	VBN	_	15	E	15:E	_
+24	by	by	ADP	IN	_	25	R	25:R	_
+25	Gary	gary	PROPN	NNP	_	23	A	23:A	_
+26	Sinise	Sinise	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	at	at	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	Steppenwolf	Steppenwolf	PROPN	NNP	_	30	E	30:E	_
+30	Theater	theater	PROPN	NNP	_	23	A	23:A	_
+31	in	in	ADP	IN	_	32	R	32:R	_
+32	Chicago	Chicago	PROPN	NNP	_	30	E	30:E	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 709012
+# text = In November 1994 Dylan recorded two live shows for MTV Unplugged .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	November	November	PROPN	NNP	_	3	E	3:E	_
+3	1994	1994	NUM	CD	_	5	D	5:D	_
+4	Dylan	Dylan	PROPN	NNP	_	5	A	5:A	_
+5	recorded	record	VERB	VBD	_	0	H	0:H	_
+6	two	two	NUM	CD	_	8	E	8:E	_
+7	live	live	ADJ	JJ	_	8	E	8:E	_
+8	shows	show	NOUN	NNS	_	5	A	5:A	_
+9	for	for	ADP	IN	_	10	R	10:R	_
+10	MTV	MTV	PROPN	NNP	_	5	A	5:A	_
+11	Unplugged	unplugged	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25734013
+# text = Tausende leuchtender Punkte glänzten inmitten des Dunkels .
+1	Tausende	Tausend	ADJ	NN	_	3	E	3:E	_
+2	leuchtender	leuchtend	ADJ	ADJA	_	4	A	4:A	_
+3	Punkte	Punkt	NOUN	NN	_	2	A	2:A	_
+4	glänzten	glänzen	VERB	VVFIN	_	0	H	0:H	_
+5	inmitten	inmitten	ADP	APPR	_	7	R	7:R	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Dunkels	Dunkel	NOUN	NN	_	4	A	4:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 426001
+# text = J ' avais publié en France un ouvrage in-quarto en deux volumes intitulé : Les Mystères des grands fonds sous-marins .
+1	J	J	PRON	_	_	4	A	4:A	_
+2	'	'	PUNCT	_	_	4	U	4:U	_
+3	avais	avoir	AUX	_	_	4	F	4:F	_
+4	publié	publier	VERB	_	_	0	H	0:H	_
+5	en	en	ADP	_	_	6	R	6:R	_
+6	France	France	PROPN	_	_	4	A	4:A	_
+7	un	un	DET	_	_	8	E	8:E	_
+8	ouvrage	ouvrage	NOUN	_	_	4	A	4:A	_
+9	in-quarto	in-quarto	ADJ	_	_	8	E	8:E	_
+10	en	en	ADP	_	_	12	R	12:R	_
+11	deux	deux	NUM	_	_	12	E	12:E	_
+12	volumes	volume	NOUN	_	_	8	E	8:E	_
+13	intitulé	intituler	VERB	_	_	8	E	8:E	_
+14	:	:	PUNCT	_	_	13	U	13:U	_
+15	Les	le	DET	_	_	13	A	13:A	_
+16	Mystères	mystères	PROPN	_	_	15	Terminal	15:Terminal	_
+17	des	un	DET	_	_	15	Terminal	15:Terminal	_
+18	grands	grand	ADJ	_	_	15	Terminal	15:Terminal	_
+19	fonds	fonds	NOUN	_	_	15	Terminal	15:Terminal	_
+20	sous-marins	sous-marin	ADJ	_	_	15	Terminal	15:Terminal	_
+21	.	.	PUNCT	_	_	13	U	13:U	_
+

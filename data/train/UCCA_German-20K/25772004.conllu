@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25772004
+# text = Nach diesen Worten sprang er flink auf den Sand .
+1	Nach	nach	ADP	APPR	_	3	R	3:R	_
+2	diesen	dies	PRON	PDAT	_	3	E	3:E	_
+3	Worten	Wort	NOUN	NN	_	0	H	0:H	_
+4	sprang	springen	VERB	VVFIN	_	3	H	3:H	_
+5	er	er	PRON	PPER	_	4	A	4:A|3:A	_
+6	flink	flink	ADJ	NN	_	4	D	4:D	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Sand	Sand	NOUN	NN	_	4	A	4:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

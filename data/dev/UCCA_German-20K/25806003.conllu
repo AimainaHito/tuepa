@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25806003
+# text = Vielleicht war ihm unsere Anwesenheit an Bord lästig ?
+1	Vielleicht	vielleicht	ADV	ADV	_	8	G	8:G	_
+2	war	sein	AUX	ADV	_	8	F	8:F	_
+3	ihm	er	PRON	PPER	_	8	A	8:A	_
+4	unsere	unser	PRON	PPOSAT	_	5	A	5:A	_
+5	Anwesenheit	Anwesenheit	NOUN	NN	_	8	A	8:A	_
+6	an	an	ADP	APPR	_	7	R	7:R	_
+7	Bord	Bord	NOUN	NN	_	5	A	5:A	_
+8	lästig	lästig	ADJ	ADJD	_	0	H	0:H	_
+9	?	?	PUNCT	$.	_	8	U	8:U	_
+

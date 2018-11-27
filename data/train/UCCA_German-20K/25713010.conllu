@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25713010
+# text = » Warum nicht , Herr Arronax ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Warum	warum	PROPN	PWAV	_	0	H	0:H	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	Herr	Herr	PROPN	NN	_	6	E	6:E	_
+6	Arronax	Arronax	PROPN	NE	_	2	G	2:G	_
+7	?	?	PUNCT	$.	_	6	U	6:U	_
+8	«	«	PUNCT	$(	_	6	U	6:U	_
+

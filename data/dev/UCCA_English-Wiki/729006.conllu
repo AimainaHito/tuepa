@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 729006
+# text = " Jolie received nominations for an Academy Award , a Golden Globe Award , a Screen Actors Guild Award , and a BAFTA Award .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Jolie	Jolie	PROPN	NNP	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	nominations	nomination	NOUN	NNS	_	3	A	3:A	_
+5	for	for	ADP	IN	_	8	R	8:R	_
+6	an	a	DET	DT	_	8	E	8:E	_
+7	Academy	Academy	PROPN	NNP	_	8	E	8:E	_
+8	Award	Award	PROPN	NNP	_	4	E	4:E	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	Golden	golden	PROPN	NNP	_	12	E	12:E	_
+12	Globe	Globe	PROPN	NNP	_	13	E	13:E	_
+13	Award	Award	PROPN	NNP	_	8	C	8:C	_
+14	,	,	PUNCT	,	_	8	U	8:U	_
+15	a	a	DET	DT	_	19	E	19:E	_
+16	Screen	screen	PROPN	NNP	_	17	E	17:E	_
+17	Actors	Actors	PROPN	NNPS	_	18	E	18:E	_
+18	Guild	guild	PROPN	NNP	_	19	E	19:E	_
+19	Award	Award	PROPN	NNP	_	8	C	8:C	_
+20	,	,	PUNCT	,	_	8	U	8:U	_
+21	and	and	CCONJ	CC	_	8	N	8:N	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	BAFTA	BAFTA	PROPN	NNP	_	24	E	24:E	_
+24	Award	Award	PROPN	NNP	_	8	C	8:C	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

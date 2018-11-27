@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25505007
+# text = Man begreift , welche Freude für den Professor der Natur geschichte .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	begreift	begreifen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	welche	welch	PRON	NN	_	5	E	5:E	_
+5	Freude	Freude	NOUN	NN	_	2	A	2:A	_
+6	für	für	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Professor	Professor	NOUN	NN	_	5	A	5:A	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	Natur	Natur	NOUN	NN	_	11	E	11:E	_
+11	geschichte	geschichen	VERB	VVFIN	_	8	E	8:E	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

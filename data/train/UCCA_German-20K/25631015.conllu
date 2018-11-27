@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25631015
+# text = Die auf dem Rost gebratenen Koteletts von » Bari-Outang « verbreiteten bald einen angenehmen Geruch in der Luft umher ... !
+1	Die	der	DET	ART	_	6	E	6:E	_
+2	auf	auf	ADP	APPR	_	4	R	4:R	_
+3	dem	der	DET	ART	_	4	E	4:E	_
+4	Rost	Rost	NOUN	NN	_	5	A	5:A	_
+5	gebratenen	gebratenen	VERB	ADJA	_	6	E	6:E	_
+6	Koteletts	Koteletts	PROPN	NN	_	11	A	11:A	_
+7	von	von	ADP	NE	_	9	R	9:R	_
+8	»	»	PUNCT	$(	_	9	U	9:U	_
+9	Bari-Outang	Bari-Outang	NOUN	NE	_	6	E	6:E	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	verbreiteten	verbreiten	VERB	VVFIN	_	0	H	0:H	_
+12	bald	bald	ADV	ADV	_	11	D	11:D	_
+13	einen	ein	DET	ART	_	15	E	15:E	_
+14	angenehmen	angenehm	ADJ	ADJA	_	15	E	15:E	_
+15	Geruch	Geruch	NOUN	NN	_	11	A	11:A	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Luft	Luft	NOUN	NN	_	11	A	11:A	_
+19	umher	umher	ADV	PTKVZ	_	11	D	11:D	_
+20	...	...	PUNCT	$(	_	11	U	11:U	_
+21	!	!	PUNCT	$.	_	11	U	11:U	_
+

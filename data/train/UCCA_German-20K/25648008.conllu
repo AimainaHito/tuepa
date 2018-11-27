@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25648008
+# text = » Freund Ned « , versetzte Conseil , » was würden Sie denn sagen , wenn das Frühstück ganz ausgeblieben wäre ! «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Freund	Freund	PROPN	NN	_	3	E	3:E	_
+3	Ned	Ned	PROPN	NE	_	14	G	14:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	NOUN	NE	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	was	was	PRON	NE	_	14	A	14:A	_
+11	würden	werden	AUX	ADJD	_	14	F	14:F	_
+12	Sie	Sie|sie	PRON	PPER	_	14	A	14:A	_
+13	denn	denn	CCONJ	ADV	_	14	F	14:F	_
+14	sagen	sagen	VERB	VVINF	_	6	A	6:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	wenn	wenn	SCONJ	VVFIN	_	14	L	14:L	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Frühstück	Frühstück	NOUN	NN	_	20	A	20:A	_
+19	ganz	ganz	ADV	ADJA	_	20	D	20:D	_
+20	ausgeblieben	ausgebleiben	ADJ	NN	_	14	H	14:H	_
+21	wäre	sein	AUX	ADV	_	20	F	20:F	_
+22	!	!	PUNCT	$.	_	20	U	20:U	_
+23	«	«	PUNCT	$(	_	20	U	20:U	_
+

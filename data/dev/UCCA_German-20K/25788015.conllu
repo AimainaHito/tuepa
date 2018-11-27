@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25788015
+# text = Ich sah dem Kapitän ins Angesicht ; seine Züge waren , wie gewöhnlich , rührungslos .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	dem	der	DET	ART	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	2	A	2:A	_
+5	ins	in	DET	NE	_	6	R	6:R	_
+6	Angesicht	Angesicht	NOUN	NE	_	2	A	2:A	_
+7	;	;	PUNCT	$.	_	2	U	2:U	_
+8	seine	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Züge	Zug	NOUN	NN	_	15	A	15:A	_
+10	waren	sein	AUX	VAFIN	_	15	F	15:F	_
+11	,	,	PUNCT	$,	_	15	U	15:U	_
+12	wie	wie	ADV	KON	_	13	E	13:E	_
+13	gewöhnlich	gewöhnlich	ADJ	ADJD	_	15	D	15:D	_
+14	,	,	PUNCT	$,	_	15	U	15:U	_
+15	rührungslos	rührungslos	ADJ	ADJD	_	2	H	2:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

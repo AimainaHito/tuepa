@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25726007
+# text = Dann setzen Sie sich « , fuhr er fort , » und ich will Ihnen eine merkwürdige Episode aus der spanischen Geschichte erzählen . «
+1	Dann	dann	ADV	ADV	_	2	L	2:L	_
+2	setzen	setzen	VERB	VVFIN	_	7	A	7:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	fort	fort	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	ich	ich	PRON	PPER	_	23	A	23:A	_
+14	will	wollen	AUX	NN	_	23	D	23:D	_
+15	Ihnen	Sie|sie	PRON	PPER	_	23	A	23:A	_
+16	eine	ein	DET	ART	_	18	E	18:E	_
+17	merkwürdige	merkwürdig	ADJ	ADJA	_	18	E	18:E	_
+18	Episode	Episode	NOUN	NN	_	23	A	23:A	_
+19	aus	aus	ADP	APPR	_	21	R	21:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	spanischen	spanisch	ADJ	ADJA	_	18	E	18:E	_
+22	Geschichte	Geschichte	NOUN	NN	_	21	E	21:E	_
+23	erzählen	erzählen	VERB	VVINF	_	2	H	2:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

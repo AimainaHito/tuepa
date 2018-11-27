@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25773008
+# text = Er schien ungeduldig , mißgestimmt .
+1	Er	er	PRON	PPER	_	2	A	2:A|3:A	_
+2	schien	scheinen	VERB	VVFIN	_	0	H	0:H	_
+3	ungeduldig	ungeduldig	ADJ	ADJD	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	mißgestimmt	mißgestehmen	VERB	VVPP	_	3	C	3:C	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

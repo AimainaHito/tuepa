@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25798019
+# text = » Das kann ich nicht sagen , Ned . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Das	der	PRON	PDS	_	6	A	6:A	_
+3	kann	können	AUX	VMFIN	_	6	D	6:D	_
+4	ich	ich	PRON	PPER	_	6	A	6:A	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Ned	Ned	PROPN	NN	_	6	G	6:G	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	«	«	PUNCT	$(	_	6	U	6:U	_
+

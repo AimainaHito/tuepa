@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25408006
+# text = War es ein Tier von der Wallfisch gattung , so übertraf es an Umfang weit alle von der Wissenschaft bisher verzeichneten .
+1	War	sein	AUX	NE	_	0	H	0:H	_
+2	es	es	PRON	PPER	_	1	A	1:A	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Tier	Tier	NOUN	NN	_	1	A	1:A	_
+5	von	von	ADP	NN	_	8	R	8:R	_
+6	der	der	DET	ART	_	8	E	8:E	_
+7	Wallfisch	Wallfisch	ADJ	ADJA	_	8	E	8:E	_
+8	gattung	gattung	NOUN	NN	_	1	A	1:A	_
+9	,	,	PUNCT	$,	_	1	U	1:U	_
+10	so	so	ADV	ADV	_	1	L	1:L	_
+11	übertraf	übertreffen	VERB	VVFIN	_	1	H	1:H	_
+12	es	es	PRON	PPER	_	11	A	11:A	_
+13	an	an	ADP	APPR	_	14	E	14:E	_
+14	Umfang	Umfang	NOUN	NN	_	11	A	11:A	_
+15	weit	weit	ADJ	ADJD	_	11	D	11:D	_
+16	alle	alle	PRON	PIAT	_	21	A	21:A	_
+17	von	von	ADP	NN	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Wissenschaft	Wissenschaft	NOUN	NN	_	21	A	21:A	_
+20	bisher	bisher	ADV	ADV	_	21	D	21:D	_
+21	verzeichneten	verzeichnet	ADJ	VVFIN	_	11	A	11:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

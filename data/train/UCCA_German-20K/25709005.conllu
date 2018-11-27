@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25709005
+# text = Würde ich jemals eine solche Gelegenheit wiederfinden , die Wunder des Ozeans zu beobachten ?
+1	Würde	werden	AUX	NN	_	7	D	7:D	_
+2	ich	ich	PRON	PPER	_	7	A	7:A|14:A	_
+3	jemals	jemals	ADV	ADV	_	7	D	7:D	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	solche	solch	PRON	ADJA	_	6	E	6:E	_
+6	Gelegenheit	Gelegenheit	NOUN	NN	_	7	A	7:A	_
+7	wiederfinden	wiederfinden	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Wunder	Wunder	NOUN	NN	_	14	A	14:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Ozeans	Ozeans	NOUN	NN	_	10	E	10:E	_
+13	zu	zu	PART	NE	_	14	F	14:F	_
+14	beobachten	beobachten	VERB	VVINF	_	6	E	6:E	_
+15	?	?	PUNCT	$.	_	14	U	14:U	_
+

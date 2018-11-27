@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25790008
+# text = Nahmen wir an , dass in den folgenden 12 Stunden das gleiche geleistet wurde , so bedurfte es noch 5 Nächte und 4 Tage , um das Unternehmen zum Ziel zu führen .
+1	Nahmen	nehmen	VERB	VVFIN	_	0	H	0:H	_
+2	wir	wir	PRON	NE	_	1	A	1:A	_
+3	an	an	ADP	PTKVZ	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	dass	dass	SCONJ	KOUS	_	13	R	13:R	_
+6	in	in	ADP	APPR	_	10	R	10:R	_
+7	den	der	DET	ART	_	10	E	10:E	_
+8	folgenden	folgend	ADJ	ADJA	_	10	E	10:E	_
+9	12	12	NUM	CARD	_	10	E	10:E	_
+10	Stunden	Stunde|Stunden	NOUN	NN	_	13	D	13:D	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	gleiche	gleich	ADJ	ADJA	_	13	A	13:A	_
+13	geleistet	leisten	VERB	VVPP	_	1	A	1:A	_
+14	wurde	werden	AUX	TRUNC	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	1	U	1:U	_
+16	so	so	ADV	ADV	_	1	L	1:L	_
+17	bedurfte	bedurfte	VERB	VVFIN	_	1	H	1:H	_
+18	es	es	PRON	PPER	_	17	A	17:A	_
+19	noch	noch	ADV	ADV	_	17	D	17:D	_
+20	5	5	NUM	CARD	_	21	E	21:E	_
+21	Nächte	Nacht	NOUN	NN	_	17	A	17:A	_
+22	und	und	CCONJ	NN	_	21	N	21:N	_
+23	4	4	NUM	CARD	_	24	E	24:E	_
+24	Tage	Tag	NOUN	NN	_	21	C	21:C	_
+25	,	,	PUNCT	$,	_	1	U	1:U	_
+26	um	um	ADP	KOUI	_	1	L	1:L	_
+27	das	der	DET	ART	_	28	E	28:E	_
+28	Unternehmen	Unternehmen	NOUN	NN	_	32	A	32:A	_
+29	zum	zum	ADP	NN	_	30	R	30:R	_
+30	Ziel	Ziel	NOUN	NN	_	32	A	32:A	_
+31	zu	zu	PART	VVINF	_	32	F	32:F	_
+32	führen	führen	VERB	VVINF	_	1	H	1:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

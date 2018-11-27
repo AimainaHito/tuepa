@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 770005
+# text = Et cependant , quel brave et digne garçon !
+1	Et	et	CCONJ	_	_	8	L	8:L	_
+2	cependant	cependant	ADV	_	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	_	_	8	U	8:U	_
+4	quel	quel	ADJ	_	_	8	D	8:D	_
+5	brave	brave	ADJ	_	_	8	E	8:E	_
+6	et	et	CCONJ	_	_	5	N	5:N	_
+7	digne	digne	ADJ	_	_	5	C	5:C	_
+8	garçon	garçon	NOUN	_	_	0	H	0:H	_
+9	!	!	PUNCT	_	_	8	U	8:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25745004
+# text = Hier war die Flora durch ein dichtes Beet Meerfenchel repräsentiert , die kleinen Schirmpflänzchen , die man gern zum Einmachen verwendet .
+1	Hier	hier	ADV	ADV	_	10	A	10:A	_
+2	war	sein	AUX	ADV	_	10	F	10:F	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Flora	Flora	PROPN	NE	_	10	A	10:A	_
+5	durch	durch	ADP	APPR	_	8	R	8:R	_
+6	ein	ein	DET	ART	_	8	E	8:E	_
+7	dichtes	dichtes	ADJ	ADJA	_	8	E	8:E	_
+8	Beet	Beet	NOUN	NE	_	10	A	10:A	_
+9	Meerfenchel	Meerfenchel	PROPN	NE	_	8	E	8:E	_
+10	repräsentiert	repräsentieren	VERB	VVPP	_	0	H	0:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	DET	ART	_	14	E	14:E	_
+13	kleinen	klein	ADJ	ADJA	_	14	E	14:E	_
+14	Schirmpflänzchen	Schirmpflänzchen	NOUN	NE	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	PRON	PRELS	_	21	R	21:R	_
+17	man	man	PRON	PIS	_	21	A	21:A	_
+18	gern	gern	ADV	ADV	_	21	D	21:D	_
+19	zum	zum	ADP	NN	_	20	R	20:R	_
+20	Einmachen	Einmachen	NOUN	NE	_	21	A	21:A	_
+21	verwendet	verwenden	VERB	VVPP	_	14	E	14:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

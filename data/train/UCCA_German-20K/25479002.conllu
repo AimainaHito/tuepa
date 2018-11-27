@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25479002
+# text = Nach wenigen Augenblicken entströmten schwarze Wolken den beiden Rauch fängen der Fregatte , und das Verdeck zitterte unter dem Schauern der Kessel .
+1	Nach	nach	ADP	APPR	_	3	E	3:E	_
+2	wenigen	wenig	ADJ	PIAT	_	3	E	3:E	_
+3	Augenblicken	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	entströmten	entströmen	VERB	VVFIN	_	0	H	0:H	_
+5	schwarze	schwarz	ADJ	ADJA	_	6	E	6:E	_
+6	Wolken	Wolke	NOUN	NN	_	4	A	4:A	_
+7	den	der	DET	ART	_	10	R	10:R	_
+8	beiden	beide	PRON	PIAT	_	10	E	10:E	_
+9	Rauch	Rauch	NOUN	NN	_	10	E	10:E	_
+10	fängen	fängen	VERB	NN	_	4	A	4:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Fregatte	Fregatte	NOUN	NN	_	10	E	10:E	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	und	und	CCONJ	NE	_	4	L	4:L	_
+15	das	der	DET	ART	_	16	E	16:E	_
+16	Verdeck	Verdeck	NOUN	NN	_	17	A	17:A	_
+17	zitterte	zitteren	VERB	VVFIN	_	4	H	4:H	_
+18	unter	unter	ADP	ADJD	_	20	R	20:R	_
+19	dem	der	DET	ART	_	20	E	20:E	_
+20	Schauern	Schauer	NOUN	NN	_	17	A	17:A	_
+21	der	der	DET	ART	_	22	R	22:R	_
+22	Kessel	Kessel	NOUN	NN	_	20	A	20:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

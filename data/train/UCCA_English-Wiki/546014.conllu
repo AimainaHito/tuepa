@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 546014
+# text = ( The deal did not include the black - and - white Looney Tunes films , the first Merrie Melodie film , Lady , Play Your Mandolin ! , and the color cartoons released between August 1 , 1948 , and the close of 1949 .
+1	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	deal	deal	NOUN	NN	_	6	A	6:A	_
+4	did	do	AUX	VBD	_	6	F	6:F	_
+5	not	not	PART	RB	_	6	D	6:D	_
+6	include	include	VERB	VB	_	0	H	0:H	_
+7	the	the	DET	DT	_	15	E	15:E	_
+8	black	black	ADJ	JJ	_	15	E	15:E	_
+9	-	-	PUNCT	HYPH	_	8	U	8:U	_
+10	and	and	CCONJ	CC	_	8	N	8:N	_
+11	-	-	PUNCT	HYPH	_	8	U	8:U	_
+12	white	white	ADJ	JJ	_	8	C	8:C	_
+13	Looney	Looney	NOUN	NN	_	15	E	15:E	_
+14	Tunes	Tune	NOUN	NNS	_	13	Terminal	13:Terminal	_
+15	films	film	NOUN	NNS	_	6	A	6:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	first	first	ADJ	JJ	_	21	E	21:E	_
+19	Merrie	Merrie	PROPN	NNP	_	21	E	21:E	_
+20	Melodie	Melodie	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	film	film	NOUN	NN	_	23	E	23:E	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	Lady	lady	PROPN	NNP	_	15	C	15:C	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	Play	play	VERB	VB	_	23	Terminal	23:Terminal	_
+26	Your	you	PRON	PRP$	_	23	Terminal	23:Terminal	_
+27	Mandolin	Mandolin	NOUN	NN	_	23	Terminal	23:Terminal	_
+28	!	!	PUNCT	.	_	15	U	15:U	_
+29	,	,	PUNCT	,	_	15	U	15:U	_
+30	and	and	CCONJ	CC	_	15	N	15:N	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	color	color	NOUN	NN	_	33	E	33:E	_
+33	cartoons	cartoon	NOUN	NNS	_	15	C	15:C	_
+34	released	release	VERB	VBN	_	33	E	33:E	_
+35	between	between	ADP	IN	_	39	R	39:R	_
+36	August	August	PROPN	NNP	_	39	E	39:E	_
+37	1	1	NUM	CD	_	39	E	39:E	_
+38	,	,	PUNCT	,	_	39	U	39:U	_
+39	1948	1948	NUM	CD	_	34	D	34:D	_
+40	,	,	PUNCT	,	_	39	U	39:U	_
+41	and	and	CCONJ	CC	_	39	N	39:N	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	close	close	NOUN	NN	_	45	E	45:E	_
+44	of	of	ADP	IN	_	43	R	43:R	_
+45	1949	1949	NUM	CD	_	39	C	39:C	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

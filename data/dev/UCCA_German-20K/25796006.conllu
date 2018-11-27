@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25796006
+# text = Mein Angesicht war violett , meine Lippen blau , meine Geisteskräfte gelähmt .
+1	Mein	mein	DET	PPOSAT	_	2	E	2:E	_
+2	Angesicht	Angesicht	NOUN	VVFIN	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	violett	violett	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	meine	mein	DET	PPOSAT	_	7	E	7:E	_
+7	Lippen	Lippe	NOUN	NE	_	8	A	8:A	_
+8	blau	blau	ADJ	ADJD	_	4	H	4:H	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	meine	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Geisteskräfte	Geisteskraft	NOUN	NN	_	12	A	12:A	_
+12	gelähmt	lähmen	VERB	VVPP	_	4	H	4:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

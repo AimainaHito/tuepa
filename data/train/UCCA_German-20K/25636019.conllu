@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25636019
+# text = » Ah ! « erwiderte er ruhig , » sie sind mit Booten gekommen ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ah	Ah	PROPN	VVFIN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	ruhig	ruhig	ADJ	ADJD	_	5	D	5:D	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	sie	sie	PRON	ADV	_	14	A	14:A	_
+11	sind	sein	AUX	NN	_	14	F	14:F	_
+12	mit	mit	ADP	APPR	_	13	R	13:R	_
+13	Booten	Boot	NOUN	NN	_	14	A	14:A	_
+14	gekommen	kommen	VERB	VVPP	_	2	H	2:H	_
+15	?	?	PUNCT	$.	_	14	U	14:U	_
+16	«	«	PUNCT	$(	_	14	U	14:U	_
+

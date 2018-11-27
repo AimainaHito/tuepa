@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 470002
+# text = The Lakers won the first game , and led by two points in Game 2 with 18 seconds to go , but after a layup by Gerald Henderson , Johnson failed to get a shot off before the final buzzer sounded , and the Lakers lost 124 - 121 in overtime .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Lakers	Laker	NOUN	NNS	_	3	A	3:A|9:A	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	first	first	ADJ	JJ	_	6	E	6:E	_
+6	game	game	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	and	and	CCONJ	CC	_	3	L	3:L	_
+9	led	lead	VERB	VBN	_	3	H	3:H	_
+10	by	by	ADP	IN	_	12	R	12:R	_
+11	two	two	NUM	CD	_	12	E	12:E	_
+12	points	point	NOUN	NNS	_	9	A	9:A	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	Game	game	NOUN	NN	_	9	A	9:A	_
+15	2	2	NUM	CD	_	14	E	14:E	_
+16	with	with	ADP	IN	_	20	R	20:R	_
+17	18	18	NUM	CD	_	18	E	18:E	_
+18	seconds	seconds	NOUN	NNS	_	20	A	20:A	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	go	go	VERB	VB	_	9	A	9:A	_
+21	,	,	PUNCT	,	_	3	U	3:U	_
+22	but	but	CCONJ	CC	_	3	L	3:L	_
+23	after	after	ADP	IN	_	3	L	3:L	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	layup	layup	NOUN	NN	_	3	H	3:H	_
+26	by	by	ADP	IN	_	27	R	27:R	_
+27	Gerald	Gerald	PROPN	NNP	_	25	A	25:A	_
+28	Henderson	Henderson	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	,	,	PUNCT	,	_	3	U	3:U	_
+30	Johnson	Johnson	PROPN	NNP	_	33	A	33:A	_
+31	failed	fail	VERB	VBD	_	33	D	33:D	_
+32	to	to	PART	TO	_	33	F	33:F	_
+33	get	get	VERB	VB	_	3	H	3:H	_
+34	a	a	DET	DT	_	33	Terminal	33:Terminal	_
+35	shot	shot	NOUN	NN	_	33	Terminal	33:Terminal	_
+36	off	off	ADP	RP	_	33	Terminal	33:Terminal	_
+37	before	before	ADP	IN	_	3	L	3:L	_
+38	the	the	DET	DT	_	40	E	40:E	_
+39	final	final	ADJ	JJ	_	40	E	40:E	_
+40	buzzer	buzzer	NOUN	NN	_	41	A	41:A	_
+41	sounded	sounded	VERB	VBN	_	3	H	3:H	_
+42	,	,	PUNCT	,	_	3	U	3:U	_
+43	and	and	CCONJ	CC	_	3	L	3:L	_
+44	the	the	DET	DT	_	45	E	45:E	_
+45	Lakers	Laker	NOUN	NNS	_	46	A	46:A	_
+46	lost	lose	VERB	VBD	_	3	H	3:H	_
+47	124	124	NUM	CD	_	46	A	46:A	_
+48	-	-	SYM	SYM	_	47	U	47:U	_
+49	121	121	NUM	CD	_	47	Terminal	47:Terminal	_
+50	in	in	ADP	IN	_	51	R	51:R	_
+51	overtime	overtime	NOUN	NN	_	46	D	46:D	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

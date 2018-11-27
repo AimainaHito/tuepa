@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 540004
+# text = Screenwriter Darryl F . Zanuck produced several scripts for Rin Tin Tin vehicles and , during one year , wrote more than half of the studio 's features .
+1	Screenwriter	Screenwriter	PROPN	NNP	_	2	E	2:E	_
+2	Darryl	Darryl	PROPN	NNP	_	0	C	0:C|20:A	_
+3	F	f	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	.	.	PUNCT	.	_	2	U	2:U	_
+5	Zanuck	Zanuck	PROPN	NNP	_	2	Terminal	2:Terminal	_
+6	produced	produce	VERB	VBD	_	0	H	0:H	_
+7	several	several	ADJ	JJ	_	8	E	8:E	_
+8	scripts	script	NOUN	NNS	_	6	A	6:A	_
+9	for	for	ADP	IN	_	13	R	13:R	_
+10	Rin	Rin	PROPN	NNP	_	13	E	13:E	_
+11	Tin	tin	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Tin	tin	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	vehicles	vehicle	NOUN	NNS	_	6	A	6:A	_
+14	and	and	CCONJ	CC	_	6	L	6:L	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	during	during	ADP	IN	_	18	R	18:R	_
+17	one	one	NUM	CD	_	18	E	18:E	_
+18	year	year	NOUN	NN	_	20	D	20:D	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	wrote	write	VERB	VBD	_	6	H	6:H	_
+21	more	more	ADJ	JJR	_	23	E	23:E	_
+22	than	than	ADP	IN	_	21	R	21:R	_
+23	half	half	NOUN	NN	_	28	E	28:E	_
+24	of	of	ADP	IN	_	23	R	23:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	studio	studio	NOUN	NN	_	28	E	28:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	features	feature	NOUN	NNS	_	20	A	20:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

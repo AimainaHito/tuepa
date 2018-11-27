@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 149008
+# text = In the winter of 1996 she was hospitalized with pneumonia .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	winter	winter	NOUN	NN	_	8	D	8:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	1996	1996	NUM	CD	_	3	E	3:E	_
+6	she	she	PRON	PRP	_	8	A	8:A	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	hospitalized	hospitalize	VERB	VBN	_	0	H	0:H	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	pneumonia	pneumonia	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

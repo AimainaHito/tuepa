@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25647021
+# text = Indessen versank ich tief in Gedanken , und die befremdliche Besorgnis in den Zügen von Kapitän Nemo kam mir nicht aus dem Kopf .
+1	Indessen	indessen	ADV	ADV	_	2	D	2:D	_
+2	versank	versinken	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	tief	tief	ADJ	VVFIN	_	2	D	2:D	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Gedanken	Gedanke	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	befremdliche	befremdlich	ADJ	ADJA	_	11	E	11:E	_
+11	Besorgnis	Besorgnis	NOUN	NN	_	18	A	18:A	_
+12	in	in	ADP	APPR	_	14	R	14:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	Zügen	Zug	NOUN	NN	_	17	E	17:E	_
+15	von	von	ADP	NE	_	14	R	14:R	_
+16	Kapitän	Kapitän	PROPN	FM	_	17	E	17:E	_
+17	Nemo	Nemo	PROPN	NE	_	11	E	11:E	_
+18	kam	kommen	VERB	VVFIN	_	2	H	2:H	_
+19	mir	ich	PRON	PPER	_	18	A	18:A	_
+20	nicht	nicht	PART	XY	_	18	D	18:D	_
+21	aus	aus	ADP	APPR	_	18	Terminal	18:Terminal	_
+22	dem	der	DET	ART	_	18	Terminal	18:Terminal	_
+23	Kopf	Kopf	NOUN	NN	_	18	Terminal	18:Terminal	_
+24	.	.	PUNCT	$.	_	18	U	18:U	_
+

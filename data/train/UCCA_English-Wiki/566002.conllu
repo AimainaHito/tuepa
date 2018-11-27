@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 566002
+# text = The results became legendary as the " Million Dollar Quartet " recordings - Johnny Cash was long thought to have played as well , but he was present only briefly at Phillips ' instigation for a photo opportunity .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	results	result	NOUN	NNS	_	4	A	4:A	_
+3	became	become	VERB	VBD	_	4	D	4:D	_
+4	legendary	legendary	NOUN	NN	_	0	H	0:H	_
+5	as	as	ADP	IN	_	12	R	12:R	_
+6	the	the	DET	DT	_	12	E	12:E	_
+7	"	"	PUNCT	``	_	12	U	12:U	_
+8	Million	million	PROPN	NNP	_	12	E	12:E	_
+9	Dollar	dollar	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	Quartet	Quartet	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	"	"	PUNCT	''	_	12	U	12:U	_
+12	recordings	recording	NOUN	NNS	_	4	A	4:A	_
+13	-	-	PUNCT	,	_	4	U	4:U	_
+14	Johnny	Johnny	PROPN	NNP	_	18	A	18:A|21:A	_
+15	Cash	Cash	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	was	be	AUX	VBD	_	18	F	18:F	_
+17	long	long	ADV	RB	_	18	D	18:D	_
+18	thought	think	VERB	VBN	_	4	H	4:H	_
+19	to	to	PART	TO	_	21	F	21:F	_
+20	have	have	AUX	VB	_	21	F	21:F	_
+21	played	play	VERB	VBN	_	18	A	18:A	_
+22	as	as	ADV	RB	_	23	R	23:R	_
+23	well	well	ADV	RB	_	21	D	21:D	_
+24	,	,	PUNCT	,	_	4	U	4:U	_
+25	but	but	CCONJ	CC	_	4	L	4:L	_
+26	he	he	PRON	PRP	_	28	A	28:A	_
+27	was	be	AUX	VBD	_	28	D	28:D	_
+28	present	present	ADJ	JJ	_	4	H	4:H	_
+29	only	only	ADV	RB	_	28	D	28:D	_
+30	briefly	briefly	ADV	RB	_	28	D	28:D	_
+31	at	at	ADP	IN	_	34	R	34:R	_
+32	Phillips	Phillips	PROPN	NNP	_	34	E	34:E	_
+33	'	's	PART	POS	_	34	U	34:U	_
+34	instigation	instigation	NOUN	NN	_	28	A	28:A	_
+35	for	for	ADP	IN	_	38	R	38:R	_
+36	a	a	DET	DT	_	38	E	38:E	_
+37	photo	photo	NOUN	NN	_	38	E	38:E	_
+38	opportunity	opportunity	NOUN	NN	_	28	A	28:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

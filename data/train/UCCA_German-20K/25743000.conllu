@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25743000
+# text = » Sehr richtig « , versetzte Ned Land . » Ich lasse die Erklärung gelten , aber ich bedauere in unserm Interesse , dass diese Öffnung , wovon der Herr Professor spricht , nicht oberhalb des Meeresspiegels entstanden ist . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Sehr	sehr	ADV	ADV	_	3	D	3:D	_
+3	richtig	richtig	ADJ	ADJD	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	versetzte	versetzen	VERB	ADJA	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NN	_	6	A	6:A	_
+8	Land	Land	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	Ich	ich	PRON	PPER	_	15	A	15:A	_
+12	lasse	lassen	VERB	VVFIN	_	15	D	15:D	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Erklärung	Erklärung	NOUN	NN	_	15	A	15:A	_
+15	gelten	gelten	AUX	VVFIN	_	3	H	3:H	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	aber	aber	CCONJ	KON	_	3	L	3:L	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	bedauere	bedauere	VERB	VVFIN	_	3	H	3:H	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	unserm	unserm	ADJ	NN	_	22	E	22:E	_
+22	Interesse	Interesse	NOUN	NN	_	19	A	19:A	_
+23	,	,	PUNCT	$,	_	19	U	19:U	_
+24	dass	dass	SCONJ	KOUS	_	38	R	38:R	_
+25	diese	dies	PRON	PDAT	_	26	E	26:E	_
+26	Öffnung	Öffnung	NOUN	NN	_	38	A	38:A	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	wovon	wovon	PRON	NN	_	32	R	32:R	_
+29	der	der	DET	ART	_	31	E	31:E	_
+30	Herr	Herr	PROPN	NN	_	31	E	31:E	_
+31	Professor	Professor	PROPN	NN	_	32	A	32:A	_
+32	spricht	sprechen	VERB	VVFIN	_	26	E	26:E	_
+33	,	,	PUNCT	$,	_	38	U	38:U	_
+34	nicht	nicht	PART	XY	_	38	D	38:D	_
+35	oberhalb	oberhalb	ADP	NN	_	37	R	37:R	_
+36	des	der	DET	ART	_	37	R	37:R	_
+37	Meeresspiegels	Meeresspiegels	NOUN	NN	_	38	A	38:A	_
+38	entstanden	entstehen	VERB	VVPP	_	19	A	19:A	_
+39	ist	sein	AUX	NN	_	38	F	38:F	_
+40	.	.	PUNCT	$.	_	38	U	38:U	_
+41	«	«	PUNCT	$(	_	38	U	38:U	_
+

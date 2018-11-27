@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 547000
+# text = In the 1960s , Warner kept pace with rapid changes in the industry and played a key role in developing films that were commercial and critical successes .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	1960s	1960	NOUN	NNS	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Warner	Warner	PROPN	NNP	_	6	A	6:A|15:A	_
+6	kept	keep	VERB	VBD	_	0	H	0:H	_
+7	pace	pace	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	rapid	rapid	ADJ	JJ	_	10	D	10:D	_
+10	changes	change	NOUN	NNS	_	6	A	6:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	industry	industry	NOUN	NN	_	10	A	10:A	_
+14	and	and	CCONJ	CC	_	6	L	6:L	_
+15	played	play	VERB	VBD	_	6	H	6:H	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	key	key	ADJ	JJ	_	18	E	18:E	_
+18	role	role	NOUN	NN	_	15	A	15:A	_
+19	in	in	SCONJ	IN	_	20	R	20:R	_
+20	developing	develop	VERB	VBG	_	15	A	15:A	_
+21	films	film	NOUN	NNS	_	20	A	20:A	_
+22	that	that	PRON	WDT	_	27	F	27:F	_
+23	were	be	AUX	VBD	_	27	F	27:F	_
+24	commercial	commercial	ADJ	JJ	_	27	A	27:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	critical	critical	ADJ	JJ	_	24	C	24:C	_
+27	successes	success	NOUN	NNS	_	21	E	21:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

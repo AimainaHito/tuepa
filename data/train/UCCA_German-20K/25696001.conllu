@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25696001
+# text = » Ja , mein Herr , verständig , kühn und unverwundbar ! Es scheut weder die fürchterlichen Stürme des Roten Meeres noch seine Strömungen , noch seine Klippen . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ja	Ja	PROPN	PTKANT	_	7	D	7:D	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	7	G	7:G	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	verständig	verständig	ADJ	ADJD	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	kühn	kühn	ADJ	NN	_	7	H	7:H	_
+10	und	und	CCONJ	NE	_	7	L	7:L	_
+11	unverwundbar	unverwundbar	ADJ	ADJD	_	7	H	7:H	_
+12	!	!	PUNCT	$.	_	7	U	7:U	_
+13	Es	es	PRON	PPER	_	14	A	14:A	_
+14	scheut	scheuen	VERB	VVFIN	_	7	H	7:H	_
+15	weder	weder	CCONJ	NN	_	14	D	14:D	_
+16	die	der	DET	ART	_	18	E	18:E	_
+17	fürchterlichen	fürchterlich	ADJ	ADJA	_	18	E	18:E	_
+18	Stürme	Sturm	NOUN	NN	_	14	A	14:A	_
+19	des	der	DET	ART	_	20	R	20:R	_
+20	Roten	rot	PROPN	ADJA	_	18	E	18:E	_
+21	Meeres	Meer	PROPN	NN	_	20	E	20:E	_
+22	noch	noch	ADV	CARD	_	14	D	14:D	_
+23	seine	sein	DET	PPOSAT	_	24	E	24:E	_
+24	Strömungen	Strömung	NOUN	NN	_	14	A	14:A	_
+25	,	,	PUNCT	$,	_	14	U	14:U	_
+26	noch	noch	ADV	NN	_	14	D	14:D	_
+27	seine	sein	DET	PPOSAT	_	28	E	28:E	_
+28	Klippen	Klippe	NOUN	NN	_	14	A	14:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+30	«	«	PUNCT	$(	_	28	U	28:U	_
+

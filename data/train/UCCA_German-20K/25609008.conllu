@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25609008
+# text = Der Kapitän trat herzu , legte einen Finger auf einen Punkt der Karte und sprach nur das Wort :
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|15:A|6:A	_
+3	trat	treten	VERB	VVFIN	_	0	H	0:H	_
+4	herzu	herzu	AUX	PTKVZ	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	legte	legen	VERB	VVFIN	_	3	H	3:H	_
+7	einen	ein	DET	ART	_	8	E	8:E	_
+8	Finger	Finger	NOUN	NN	_	6	A	6:A	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	einen	ein	DET	ART	_	11	E	11:E	_
+11	Punkt	Punkt	NOUN	NN	_	6	A	6:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Karte	Karte	NOUN	NN	_	11	E	11:E	_
+14	und	und	CCONJ	NE	_	3	L	3:L	_
+15	sprach	sprechen	VERB	VVFIN	_	3	H	3:H	_
+16	nur	nur	ADV	NE	_	15	D	15:D	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Wort	Wort	NOUN	NN	_	15	A	15:A	_
+19	:	:	PUNCT	$.	_	18	U	18:U	_
+

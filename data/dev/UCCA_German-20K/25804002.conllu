@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25804002
+# text = Dann werden sie , voll Polypen , Quallen , Kalmar , ungeheure Herde der Verpestung , weil es nicht mehr die weiten Mägen gibt , die von Gott beauftragt sind , die Oberfläche des Meeres ab zu schäumen . «
+1	Dann	dann	ADV	ADV	_	2	L	2:L	_
+2	werden	werden	AUX	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A|5:A	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	voll	voll	ADJ	VMFIN	_	2	H	2:H	_
+6	Polypen	Polyp	NOUN	NN	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Quallen	Qualle	NOUN	NE	_	6	C	6:C	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	Kalmar	Kalmar	PROPN	NE	_	6	C	6:C	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	ungeheure	ungeheuer	ADJ	PPOSAT	_	13	E	13:E	_
+13	Herde	Herde	NOUN	NN	_	15	A	15:A	_
+14	der	der	DET	ART	_	15	R	15:R	_
+15	Verpestung	Verpestung	NOUN	NN	_	2	A	2:A	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	weil	weil	SCONJ	KOUS	_	2	L	2:L	_
+18	es	es	PRON	PPER	_	24	F	24:F	_
+19	nicht	nicht	PART	CARD	_	20	E	20:E	_
+20	mehr	mehr	ADV	ADV	_	24	D	24:D	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	weiten	weit	ADJ	ADJA	_	23	E	23:E	_
+23	Mägen	Magen	NOUN	NN	_	24	A	24:A	_
+24	gibt	geben	VERB	VVFIN	_	2	H	2:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	die	der	PRON	ART	_	29	R	29:R	_
+27	von	von	ADP	NN	_	28	R	28:R	_
+28	Gott	Gott	NOUN	NE	_	29	A	29:A	_
+29	beauftragt	beauftragen	VERB	VVFIN	_	23	E	23:E	_
+30	sind	sein	AUX	NN	_	29	F	29:F	_
+31	,	,	PUNCT	$,	_	29	U	29:U	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Oberfläche	Oberfläche	NOUN	NN	_	36	A	36:A	_
+34	des	der	DET	ART	_	35	R	35:R	_
+35	Meeres	Meer	NOUN	NN	_	33	E	33:E	_
+36	ab	ab	ADP	PTKVZ	_	29	A	29:A	_
+37	zu	zu	PART	NE	_	36	F	36:F	_
+38	schäumen	schäumen	VERB	VVINF	_	36	Terminal	36:Terminal	_
+39	.	.	PUNCT	$.	_	36	U	36:U	_
+40	«	«	PUNCT	$(	_	36	U	36:U	_
+

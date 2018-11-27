@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 253002
+# text = The couple separated in 2003 , amid allegations of Hawke 's infidelity , and filed for divorce the following year .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	couple	couple	NOUN	NN	_	3	A	3:A|17:A	_
+3	separated	separate	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	2003	2003	NUM	CD	_	3	D	3:D	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	amid	amid	ADJ	JJ	_	3	L	3:L	_
+8	allegations	allegation	NOUN	NNS	_	3	H	3:H	_
+9	of	of	ADP	IN	_	12	R	12:R	_
+10	Hawke	Hawke	PROPN	NNP	_	12	A	12:A	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	infidelity	infidelity	NOUN	NN	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	and	and	CCONJ	CC	_	3	L	3:L	_
+15	filed	file	VERB	VBN	_	17	E	17:E	_
+16	for	for	ADP	IN	_	15	R	15:R	_
+17	divorce	divorce	NOUN	NN	_	3	H	3:H	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	following	follow	VERB	VBG	_	20	R	20:R	_
+20	year	year	NOUN	NN	_	17	D	17:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

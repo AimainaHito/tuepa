@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25504014
+# text = « » Mein Herr « , erwiderte ich , » ohne dass ich weiß , wer Sie sind , darf ich wohl einen Künstler in Ihnen erkennen ? «
+1	«	«	PUNCT	$(	_	27	U	27:U	_
+2	»	»	PUNCT	$(	_	27	U	27:U	_
+3	Mein	mein	PROPN	PPOSAT	_	4	E	4:E	_
+4	Herr	Herr	PROPN	NN	_	27	G	27:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	ohne	ohne	ADP	NE	_	27	L	27:L	_
+12	dass	dass	SCONJ	KOUS	_	11	Terminal	11:Terminal	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	weiß	wissen	VERB	VVFIN	_	27	H	27:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	wer	wer	PRON	PWS	_	18	A	18:A	_
+17	Sie	sie	PRON	PPER	_	18	A	18:A	_
+18	sind	sein	VERB	NN	_	14	A	14:A	_
+19	,	,	PUNCT	$,	_	27	U	27:U	_
+20	darf	dürfen	AUX	VMFIN	_	27	D	27:D	_
+21	ich	ich	PRON	PPER	_	27	A	27:A	_
+22	wohl	wohl	ADV	ADV	_	27	G	27:G	_
+23	einen	ein	DET	ART	_	24	E	24:E	_
+24	Künstler	Künstler	NOUN	NN	_	27	A	27:A	_
+25	in	in	ADP	APPR	_	26	R	26:R	_
+26	Ihnen	Sie|sie	PRON	PPER	_	27	A	27:A	_
+27	erkennen	erkennen	VERB	VVINF	_	7	A	7:A	_
+28	?	?	PUNCT	$.	_	27	U	27:U	_
+29	«	«	PUNCT	$(	_	27	U	27:U	_
+

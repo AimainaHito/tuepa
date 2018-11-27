@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25640015
+# text = Es war nicht bloß ein Geländer , sondern ein Kabel von Metall , ganz mit Elektrizität geladen bis zur Mündung an der Plattform .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	bloß	bließen	VERB	ADV	_	2	D	2:D	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Geländer	Gelände	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	sondern	sondern	CCONJ	NN	_	2	L	2:L	_
+9	ein	ein	DET	ART	_	10	E	10:E	_
+10	Kabel	Kabel	NOUN	NN	_	0	C	0:C|17:A	_
+11	von	von	ADP	NN	_	12	R	12:R	_
+12	Metall	Metall	PROPN	NE	_	10	E	10:E	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	ganz	ganz	ADV	ADV	_	17	D	17:D	_
+15	mit	mit	ADP	APPR	_	16	R	16:R	_
+16	Elektrizität	Elektrizität	NOUN	NN	_	17	A	17:A	_
+17	geladen	geladen	VERB	VVPP	_	2	H	2:H	_
+18	bis	bis	ADP	APPR	_	20	R	20:R	_
+19	zur	zur	ADV	NE	_	20	R	20:R	_
+20	Mündung	Mündung	NOUN	NN	_	17	A	17:A	_
+21	an	an	ADP	APPR	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Plattform	Plattform	NOUN	NN	_	20	E	20:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

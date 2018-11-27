@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25636007
+# text = Etwas 20 Pirogen - lange , schmale , aus einem Baum stamm gefertigte Boote - umgaben die " Nautilus " , von geschickten Ruderern geleitet , so dass ich sie nicht ohne Unruhe sah .
+1	Etwas	etwas	ADV	ADV	_	3	E	3:E	_
+2	20	20	NUM	CARD	_	3	E	3:E	_
+3	Pirogen	Piroge	NOUN	NN	_	0	C	0:C|25:A	_
+4	-	-	PUNCT	$(	_	3	U	3:U	_
+5	lange	lang	ADJ	ADJA	_	14	E	14:E	_
+6	,	,	PUNCT	$,	_	14	U	14:U	_
+7	schmale	schmalen	ADJ	ADJA	_	14	E	14:E	_
+8	,	,	PUNCT	$,	_	14	U	14:U	_
+9	aus	aus	ADP	APPR	_	12	R	12:R	_
+10	einem	ein	DET	ART	_	12	E	12:E	_
+11	Baum	Baum	NOUN	NN	_	12	E	12:E	_
+12	stamm	stamm	ADJ	NN	_	13	A	13:A	_
+13	gefertigte	gefertigt	ADJ	ADJA	_	14	E	14:E	_
+14	Boote	Boot	NOUN	NN	_	3	E	3:E	_
+15	-	-	PUNCT	$(	_	16	U	16:U	_
+16	umgaben	umgaben	AUX	VVINF	_	0	H	0:H	_
+17	die	der	DET	ART	_	19	E	19:E	_
+18	"	"	PUNCT	$(	_	19	U	19:U	_
+19	Nautilus	Nautilus	PROPN	NE	_	16	A	16:A	_
+20	"	"	PUNCT	$(	_	16	U	16:U	_
+21	,	,	PUNCT	$,	_	16	U	16:U	_
+22	von	von	ADP	NE	_	24	R	24:R	_
+23	geschickten	geschickt	ADJ	ADJA	_	24	E	24:E	_
+24	Ruderern	Ruderer	NOUN	NN	_	25	A	25:A	_
+25	geleitet	geleiten|leiten	VERB	VVPP	_	16	H	16:H	_
+26	,	,	PUNCT	$,	_	16	U	16:U	_
+27	so	so	ADV	ADV	_	16	L	16:L	_
+28	dass	dass	SCONJ	KOUS	_	27	Terminal	27:Terminal	_
+29	ich	ich	PRON	PPER	_	34	A	34:A|33:A	_
+30	sie	sie	PRON	ADV	_	34	A	34:A	_
+31	nicht	nicht	PART	CARD	_	33	D	33:D	_
+32	ohne	ohne	ADP	CARD	_	33	D	33:D	_
+33	Unruhe	Unruhe	NOUN	NN	_	34	A	34:A	_
+34	sah	sehen	VERB	VVFIN	_	16	H	16:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

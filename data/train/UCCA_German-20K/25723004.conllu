@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25723004
+# text = Man musste dieses benutzen und zur Flucht sich bereit machen .
+1	Man	man	PRON	PIS	_	4	A	4:A	_
+2	musste	müssen	AUX	VVFIN	_	4	D	4:D	_
+3	dieses	dies	PRON	PDAT	_	4	A	4:A	_
+4	benutzen	benutzen	VERB	VVINF	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	L	4:L	_
+6	zur	zur	ADV	NE	_	7	R	7:R	_
+7	Flucht	Flucht	NOUN	NN	_	8	A	8:A	_
+8	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+9	bereit	bereit	ADJ	ADJD	_	8	Terminal	8:Terminal	_
+10	machen	machen	VERB	VVINF	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

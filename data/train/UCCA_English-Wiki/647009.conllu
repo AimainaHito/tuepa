@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 647009
+# text = He also rekindled friendships with Starr , McCartney , Beatles ' roadie Mal Evans , and Harry Nilsson .
+1	He	he	PRON	PRP	_	3	A	3:A|4:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	rekindled	rekindle	VERB	VBD	_	0	H	0:H	_
+4	friendships	friendship	NOUN	NNS	_	3	A	3:A	_
+5	with	with	ADP	IN	_	6	R	6:R	_
+6	Starr	Starr	PROPN	NNP	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	McCartney	McCartney	PROPN	NNP	_	6	C	6:C	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	Beatles	Beatles	PROPN	NNPS	_	12	E	12:E	_
+11	'	's	PART	POS	_	12	U	12:U	_
+12	roadie	roadie	PROPN	NNP	_	6	C	6:C	_
+13	Mal	Mal	PROPN	NNP	_	12	E	12:E	_
+14	Evans	Evans	PROPN	NNPS	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	and	and	CCONJ	CC	_	6	N	6:N	_
+17	Harry	Harry	PROPN	NNP	_	6	C	6:C	_
+18	Nilsson	Nilsson	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	6	U	6:U	_
+

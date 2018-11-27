@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 476000
+# text = Johnson first fathered a son in 1981 , when Andre Johnson was born to Melissa Mitchell .
+1	Johnson	Johnson	PROPN	NNP	_	3	A	3:A	_
+2	first	first	ADV	RB	_	3	D	3:D	_
+3	fathered	father	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	son	son	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1981	1981	NUM	CD	_	3	D	3:D	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	when	when	ADV	WRB	_	3	L	3:L	_
+10	Andre	Andre	PROPN	NNP	_	13	A	13:A	_
+11	Johnson	Johnson	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	born	bear	VERB	VBN	_	3	H	3:H	_
+14	to	to	ADP	IN	_	15	R	15:R	_
+15	Melissa	Melissa	PROPN	NNP	_	13	A	13:A	_
+16	Mitchell	Mitchell	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

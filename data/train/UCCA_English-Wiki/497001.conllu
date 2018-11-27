@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 497001
+# text = To promote it in the United States , Mercury Records financed a coast - to - coast publicity tour in which Bowie , between January and February 1971 , was interviewed by radio stations and the media .
+1	To	to	PART	TO	_	2	L	2:L	_
+2	promote	promote	VERB	VB	_	0	H	0:H	_
+3	it	it	PRON	PRP	_	2	A	2:A	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	United	United	PROPN	NNP	_	2	A	2:A	_
+7	States	States	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	Mercury	mercury	PROPN	NNP	_	11	A	11:A|2:A	_
+10	Records	record	NOUN	NNS	_	9	Terminal	9:Terminal	_
+11	financed	finance	VERB	VBD	_	2	H	2:H	_
+12	a	a	DET	DT	_	19	E	19:E	_
+13	coast	coast	NOUN	NN	_	19	E	19:E	_
+14	-	-	PUNCT	HYPH	_	13	U	13:U	_
+15	to	to	ADP	IN	_	13	R	13:R	_
+16	-	-	PUNCT	HYPH	_	13	U	13:U	_
+17	coast	coast	NOUN	NN	_	13	C	13:C	_
+18	publicity	publicity	NOUN	NN	_	19	E	19:E	_
+19	tour	tour	NOUN	NN	_	11	A	11:A	_
+20	in	in	ADP	IN	_	31	A	31:A	_
+21	which	which	PRON	WDT	_	31	F	31:F	_
+22	Bowie	Bowie	PROPN	NNP	_	31	A	31:A	_
+23	,	,	PUNCT	,	_	31	U	31:U	_
+24	between	between	ADP	IN	_	25	N	25:N	_
+25	January	January	PROPN	NNP	_	28	E	28:E	_
+26	and	and	CCONJ	CC	_	25	N	25:N	_
+27	February	February	PROPN	NNP	_	25	C	25:C	_
+28	1971	1971	NUM	CD	_	31	D	31:D	_
+29	,	,	PUNCT	,	_	31	U	31:U	_
+30	was	be	AUX	VBD	_	31	F	31:F	_
+31	interviewed	interview	VERB	VBN	_	19	E	19:E	_
+32	by	by	ADP	IN	_	34	R	34:R	_
+33	radio	radio	NOUN	NN	_	34	E	34:E	_
+34	stations	station	NOUN	NNS	_	31	A	31:A	_
+35	and	and	CCONJ	CC	_	34	N	34:N	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	media	media	NOUN	NN	_	34	C	34:C	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

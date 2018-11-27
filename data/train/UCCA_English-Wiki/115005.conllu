@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 115005
+# text = Hepburn famously shunned the Hollywood publicity machine , and refused to conform to societal expectations of women .
+1	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A|12:A	_
+2	famously	famously	ADV	RB	_	3	D	3:D	_
+3	shunned	shun	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Hollywood	Hollywood	NOUN	NN	_	3	A	3:A	_
+6	publicity	publicity	NOUN	NN	_	7	E	7:E	_
+7	machine	machine	NOUN	NN	_	5	E	5:E	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	refused	refuse	VERB	VBD	_	12	D	12:D	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	conform	conform	VERB	VB	_	3	H	3:H	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	societal	societal	ADJ	JJ	_	15	E	15:E	_
+15	expectations	expectation	NOUN	NNS	_	12	A	12:A	_
+16	of	of	ADP	IN	_	17	R	17:R	_
+17	women	woman	NOUN	NNS	_	15	E	15:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

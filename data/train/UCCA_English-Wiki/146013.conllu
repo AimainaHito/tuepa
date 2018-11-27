@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 146013
+# text = She found great spirituality in existence , practicing Albert Schweitzer 's theory of " Reverence for Life " , but did not believe in religion or the afterlife .
+1	She	she	PRON	PRP	_	2	A	2:A|8:A|23:A	_
+2	found	find	VERB	VBD	_	0	H	0:H	_
+3	great	great	ADJ	JJ	_	4	E	4:E	_
+4	spirituality	spirituality	NOUN	NN	_	2	A	2:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	existence	existence	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	practicing	practice	VERB	VBG	_	2	H	2:H	_
+9	Albert	Albert	PROPN	NNP	_	12	E	12:E	_
+10	Schweitzer	Schweitzer	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	's	's	PART	POS	_	9	R	9:R	_
+12	theory	theory	NOUN	NN	_	8	A	8:A	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	Reverence	Reverence	NOUN	NN	_	12	E	12:E	_
+16	for	for	ADP	IN	_	15	Terminal	15:Terminal	_
+17	Life	Life	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	"	"	PUNCT	''	_	2	U	2:U	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	but	but	CCONJ	CC	_	2	L	2:L	_
+21	did	do	AUX	VBD	_	23	F	23:F	_
+22	not	not	PART	RB	_	23	D	23:D	_
+23	believe	believe	VERB	VB	_	2	H	2:H	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	religion	religion	NOUN	NN	_	23	A	23:A	_
+26	or	or	CCONJ	CC	_	25	N	25:N	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	afterlife	afterlife	NOUN	NN	_	25	C	25:C	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 642006
+# text = Although being scared of Lennon 's attitude and appearance , she heard that he was obsessed with French actress Brigitte Bardot , so she dyed her hair blonde .
+1	Although	although	SCONJ	IN	_	3	L	3:L	_
+2	being	be	AUX	VBG	_	3	F	3:F	_
+3	scared	scared	VERB	VBN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	7	R	7:R	_
+5	Lennon	Lennon	PROPN	NNP	_	7	A	7:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	attitude	attitude	NOUN	NN	_	3	A	3:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	appearance	appearance	NOUN	NN	_	7	C	7:C	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	she	she	PRON	PRP	_	12	A	12:A|3:A	_
+12	heard	hear	VERB	VBD	_	3	H	3:H	_
+13	that	that	SCONJ	IN	_	16	F	16:F	_
+14	he	he	PRON	PRP	_	16	A	16:A	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	obsessed	obsess	ADJ	JJ	_	12	A	12:A	_
+17	with	with	ADP	IN	_	20	R	20:R	_
+18	French	french	ADJ	JJ	_	19	E	19:E	_
+19	actress	actress	NOUN	NN	_	20	E	20:E	_
+20	Brigitte	Brigitte	PROPN	NNP	_	16	A	16:A	_
+21	Bardot	Bardot	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	so	so	ADV	RB	_	3	L	3:L	_
+24	she	she	PRON	PRP	_	25	A	25:A	_
+25	dyed	dy	VERB	VBD	_	3	H	3:H	_
+26	her	she	PRON	PRP$	_	27	E	27:E	_
+27	hair	hair	NOUN	NN	_	25	A	25:A	_
+28	blonde	blonde	NOUN	NN	_	25	A	25:A	_
+29	.	.	PUNCT	.	_	25	U	25:U	_
+

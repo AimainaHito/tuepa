@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25488045
+# text = Es wurde daher beschlossen , da unsere einzige Aussicht auf Rettung darauf beruhte , dass die Boote der ›Abraham Lincoln‹ uns aufnahmen , so mußten wir uns darauf einrichten , um so lange wie möglich sie erwarten zu können .
+1	Es	es	PRON	PPER	_	4	A	4:A	_
+2	wurde	werden	AUX	TRUNC	_	4	F	4:F	_
+3	daher	daher	ADV	PAV	_	4	A	4:A	_
+4	beschlossen	beschließen	VERB	VVPP	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	da	da	SCONJ	KOUS	_	4	L	4:L	_
+7	unsere	unser	PRON	PPOSAT	_	9	E	9:E	_
+8	einzige	einzig	ADJ	ADJA	_	9	E	9:E	_
+9	Aussicht	Aussicht	NOUN	NN	_	13	A	13:A	_
+10	auf	auf	ADP	APPR	_	11	R	11:R	_
+11	Rettung	Rettung	NOUN	NN	_	9	E	9:E	_
+12	darauf	darauf	ADV	PAV	_	22	F	22:F	_
+13	beruhte	beruhen	VERB	VVFIN	_	4	H	4:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Boote	Boot	NOUN	NN	_	22	A	22:A	_
+18	der	der	DET	ART	_	19	R	19:R	_
+19	›Abraham	›Abraham	PROPN	NN	_	17	E	17:E	_
+20	Lincoln‹	Lincoln‹	NOUN	NE	_	19	Terminal	19:Terminal	_
+21	uns	wir	PRON	NE	_	22	A	22:A	_
+22	aufnahmen	aufnehmen	VERB	VVFIN	_	13	A	13:A	_
+23	,	,	PUNCT	$,	_	4	U	4:U	_
+24	so	so	ADV	ADV	_	4	L	4:L	_
+25	mußten	müssen	AUX	NN	_	29	D	29:D	_
+26	wir	wir	PRON	NE	_	29	A	29:A	_
+27	uns	wir	PRON	NE	_	29	A	29:A	_
+28	darauf	darauf	ADV	PAV	_	29	D	29:D	_
+29	einrichten	einrichten	VERB	VVINF	_	4	H	4:H	_
+30	,	,	PUNCT	$,	_	4	U	4:U	_
+31	um	um	ADP	KOUI	_	4	L	4:L	_
+32	so	so	ADV	ADV	_	37	F	37:F	_
+33	lange	lange	ADJ	ADV	_	37	D	37:D	_
+34	wie	wie	CCONJ	ADV	_	35	R	35:R	_
+35	möglich	möglich	ADJ	ADJD	_	4	H	4:H	_
+36	sie	sie	PRON	TRUNC	_	37	A	37:A	_
+37	erwarten	erwarten	VERB	VVINF	_	4	H	4:H	_
+38	zu	zu	PART	VVINF	_	37	F	37:F	_
+39	können	können	AUX	VMINF	_	37	D	37:D	_
+40	.	.	PUNCT	$.	_	37	U	37:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 617005
+# text = In 1992 , he worked with Dunbar on an animated film about the work of French artist Honoré Daumier , which won them a BAFTA award .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1992	1992	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	worked	work	VERB	VBD	_	0	H	0:H	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	Dunbar	Dunbar	PROPN	NNP	_	5	A	5:A	_
+8	on	on	ADP	IN	_	11	R	11:R	_
+9	an	a	DET	DT	_	11	E	11:E	_
+10	animated	animate	ADJ	JJ	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	5	A	5:A	_
+12	about	about	ADP	IN	_	11	E	11:E	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	work	work	NOUN	NN	_	12	A	12:A	_
+15	of	of	ADP	IN	_	18	R	18:R	_
+16	French	french	ADJ	JJ	_	17	E	17:E	_
+17	artist	artist	NOUN	NN	_	18	E	18:E	_
+18	Honoré	Honoré	NOUN	NN	_	14	E	14:E	_
+19	Daumier	Daumier	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	11	U	11:U	_
+21	which	which	PRON	WDT	_	22	F	22:F	_
+22	won	win	VERB	VBD	_	11	E	11:E	_
+23	them	they	PRON	PRP	_	22	A	22:A	_
+24	a	a	DET	DT	_	26	E	26:E	_
+25	BAFTA	BAFTa	NOUN	NN	_	26	E	26:E	_
+26	award	award	NOUN	NN	_	22	A	22:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

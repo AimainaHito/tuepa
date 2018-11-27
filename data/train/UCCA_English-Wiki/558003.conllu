@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 558003
+# text = ' And we said , ' We do n't know .
+1	'	'	PUNCT	``	_	4	U	4:U	_
+2	And	and	CCONJ	CC	_	4	L	4:L	_
+3	we	we	PRON	PRP	_	4	A	4:A	_
+4	said	say	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	'	'	PUNCT	``	_	4	U	4:U	_
+7	We	we	PRON	PRP	_	10	A	10:A	_
+8	do	do	AUX	VBP	_	10	F	10:F	_
+9	n't	not	PART	RB	_	10	D	10:D	_
+10	know	know	VERB	VB	_	4	A	4:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

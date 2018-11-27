@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 234002
+# text = Furthermore , in an advertisement promoting nationalism , he gave a short explanation of the March of the Volunteers , the national anthem of the People 's Republic of China .
+1	Furthermore	furthermore	ADV	RB	_	10	G	10:G	_
+2	,	,	PUNCT	,	_	10	U	10:U	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	an	a	DET	DT	_	5	E	5:E	_
+5	advertisement	advertisement	NOUN	NN	_	10	A	10:A	_
+6	promoting	promote	VERB	VBG	_	5	E	5:E	_
+7	nationalism	nationalism	NOUN	NN	_	6	A	6:A	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	he	he	PRON	PRP	_	10	A	10:A	_
+10	gave	give	VERB	VBD	_	0	H	0:H	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	short	short	ADJ	JJ	_	13	E	13:E	_
+13	explanation	explanation	NOUN	NN	_	10	A	10:A	_
+14	of	of	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	March	March	PROPN	NNP	_	13	E	13:E	_
+17	of	of	ADP	IN	_	16	Terminal	16:Terminal	_
+18	the	the	DET	DT	_	16	Terminal	16:Terminal	_
+19	Volunteers	volunteers	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+20	,	,	PUNCT	,	_	16	U	16:U	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	national	national	ADJ	JJ	_	23	E	23:E	_
+23	anthem	anthem	NOUN	NN	_	16	E	16:E	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	People	People	PROPN	NNPS	_	23	E	23:E	_
+27	's	's	PART	POS	_	26	Terminal	26:Terminal	_
+28	Republic	republic	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	of	of	ADP	IN	_	26	Terminal	26:Terminal	_
+30	China	China	PROPN	NNP	_	26	Terminal	26:Terminal	_
+31	.	.	PUNCT	.	_	26	U	26:U	_
+

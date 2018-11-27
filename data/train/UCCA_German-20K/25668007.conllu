@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25668007
+# text = Meister Conseil hatte in seinem Tagebuch eine sehr große Menge der schönsten und merkwürdigsten Fische verzeichnet , von denen ich noch manche anführen möchte , aber es würde allzu weitläufig sein .
+1	Meister	Meister	NOUN	NN	_	2	E	2:E	_
+2	Conseil	Conseil	PROPN	NE	_	16	A	16:A	_
+3	hatte	haben	AUX	VAFIN	_	16	F	16:F	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	seinem	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Tagebuch	Tagebuch	NOUN	NN	_	16	A	16:A	_
+7	eine	ein	DET	ART	_	10	E	10:E	_
+8	sehr	sehr	ADV	NE	_	9	E	9:E	_
+9	große	groß	ADJ	ADJA	_	10	E	10:E	_
+10	Menge	Menge	NOUN	NN	_	15	E	15:E	_
+11	der	der	DET	ART	_	15	E	15:E	_
+12	schönsten	schön	ADJ	ADJA	_	15	E	15:E	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	merkwürdigsten	merkwürdig	ADJ	NN	_	12	C	12:C	_
+15	Fische	Fisch	NOUN	NN	_	16	A	16:A	_
+16	verzeichnet	verzeichnen	VERB	VVPP	_	0	H	0:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	von	von	ADP	NE	_	19	R	19:R	_
+19	denen	der	PRON	PRELS	_	23	R	23:R	_
+20	ich	ich	PRON	PPER	_	23	A	23:A	_
+21	noch	noch	ADV	ADV	_	23	D	23:D	_
+22	manche	manch	PRON	PIS	_	23	A	23:A	_
+23	anführen	anführen	VERB	VVFIN	_	15	E	15:E	_
+24	möchte	mögen	AUX	ADJA	_	23	D	23:D	_
+25	,	,	PUNCT	$,	_	16	U	16:U	_
+26	aber	aber	CCONJ	KON	_	16	L	16:L	_
+27	es	es	PRON	PPER	_	30	F	30:F	_
+28	würde	werden	AUX	NN	_	30	D	30:D	_
+29	allzu	allzu	ADV	ADV	_	30	D	30:D	_
+30	weitläufig	weitläufig	ADJ	ADJD	_	16	H	16:H	_
+31	sein	sein	AUX	VAINF	_	30	F	30:F	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+

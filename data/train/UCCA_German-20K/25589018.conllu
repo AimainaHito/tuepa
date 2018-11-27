@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25589018
+# text = Sobald ein Schuß losgegangen , war auch schon der folgende zum Abschießen fertig .
+1	Sobald	sobald	SCONJ	KOUS	_	4	L	4:L	_
+2	ein	ein	DET	ART	_	3	E	3:E	_
+3	Schuß	Schuß	NOUN	NN	_	4	A	4:A	_
+4	losgegangen	losgegangen	VERB	NE	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	war	sein	AUX	ADV	_	12	F	12:F	_
+7	auch	auch	ADV	ADV	_	12	D	12:D	_
+8	schon	schon	ADV	ADV	_	12	D	12:D	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	folgende	folgend	NOUN	ADJA	_	12	A	12:A	_
+11	zum	zum	ADP	NN	_	12	R	12:R	_
+12	Abschießen	abschießen	NOUN	NN	_	4	H	4:H	_
+13	fertig	fertig	ADJ	ADJD	_	12	D	12:D	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 97000
+# text = Le Scotia n' avait pas heurté , il avait été heurté , et plutôt par un instrument tranchant ou perforant que contondant .
+1	Le	le	DET	_	_	2	E	2:E	_
+2	Scotia	Scotia	PROPN	_	_	6	A	6:A	_
+3	n'	ne	ADV	_	_	6	D	6:D	_
+4	avait	avoir	AUX	_	_	6	F	6:F	_
+5	pas	pas	ADV	_	_	3	Terminal	3:Terminal	_
+6	heurté	heurter	VERB	_	_	0	H	0:H	_
+7	,	,	PUNCT	_	_	6	U	6:U	_
+8	il	il	PRON	_	_	11	A	11:A|18:A	_
+9	avait	avoir	AUX	_	_	11	F	11:F	_
+10	été	être	AUX	_	_	11	F	11:F	_
+11	heurté	heurter	VERB	_	_	6	H	6:H	_
+12	,	,	PUNCT	_	_	6	U	6:U	_
+13	et	et	CCONJ	_	_	6	L	6:L	_
+14	plutôt	plutôt	ADV	_	_	18	R	18:R	_
+15	par	par	ADP	_	_	18	R	18:R	_
+16	un	un	DET	_	_	17	E	17:E	_
+17	instrument	instrument	NOUN	_	_	0	C	0:C|22:A	_
+18	tranchant	tranchant	ADJ	_	_	6	H	6:H	_
+19	ou	ou	CCONJ	_	_	18	N	18:N	_
+20	perforant	perforant	ADJ	_	_	18	C	18:C	_
+21	que	que	SCONJ	_	_	18	R	18:R	_
+22	contondant	contonder	ADJ	_	_	18	A	18:A	_
+23	.	.	PUNCT	_	_	22	U	22:U	_
+

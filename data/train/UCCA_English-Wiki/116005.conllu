@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 116005
+# text = Her parents were criticized by the community for their progressive views , which stimulated Hepburn to fight against barriers she encountered .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	parents	parent	NOUN	NNS	_	4	A	4:A	_
+3	were	be	AUX	VBD	_	4	F	4:F	_
+4	criticized	criticize	VERB	VBN	_	0	H	0:H|14:A	_
+5	by	by	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	community	community	NOUN	NN	_	4	A	4:A	_
+8	for	for	ADP	IN	_	11	R	11:R	_
+9	their	they	PRON	PRP$	_	11	E	11:E	_
+10	progressive	progressive	ADJ	JJ	_	11	E	11:E	_
+11	views	view	NOUN	NNS	_	4	A	4:A	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	which	which	PRON	WDT	_	4	L	4:L	_
+14	stimulated	stimulate	VERB	VBD	_	4	H	4:H	_
+15	Hepburn	Hepburn	PROPN	NNP	_	14	A	14:A|17:A	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	fight	fight	VERB	VB	_	14	A	14:A	_
+18	against	against	ADP	IN	_	19	R	19:R	_
+19	barriers	barrier	NOUN	NNS	_	17	A	17:A	_
+20	she	she	PRON	PRP	_	21	A	21:A	_
+21	encountered	encounter	VERB	VBD	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

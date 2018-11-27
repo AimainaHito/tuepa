@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 530002
+# text = She signed a three - year , $ 300,000 contract with the network .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	signed	sign	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	10	E	10:E	_
+4	three	three	NUM	CD	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	year	year	NOUN	NN	_	10	E	10:E	_
+7	,	,	PUNCT	,	_	10	U	10:U	_
+8	$	$	SYM	$	_	10	U	10:U	_
+9	300,000	300,000	NUM	CD	_	10	E	10:E	_
+10	contract	contract	NOUN	NN	_	2	A	2:A	_
+11	with	with	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	network	network	NOUN	NN	_	2	A	2:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

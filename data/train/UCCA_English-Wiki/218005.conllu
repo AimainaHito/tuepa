@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 218005
+# text = Dunst 's next film role was the title character in the 2006 biographical film Marie Antoinette .
+1	Dunst	Dunst	PROPN	NNP	_	5	E	5:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	next	next	ADJ	JJ	_	5	E	5:E	_
+4	film	film	NOUN	NN	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	6	A	6:A	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	title	title	NOUN	NN	_	9	E	9:E	_
+9	character	character	NOUN	NN	_	6	A	6:A	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	2006	2006	NUM	CD	_	15	E	15:E	_
+13	biographical	biographical	ADJ	JJ	_	14	E	14:E	_
+14	film	film	NOUN	NN	_	15	E	15:E	_
+15	Marie	Marie	PROPN	NNP	_	9	E	9:E	_
+16	Antoinette	Antoinette	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

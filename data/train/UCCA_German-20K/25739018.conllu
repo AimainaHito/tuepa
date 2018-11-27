@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25739018
+# text = » Unter der Erde , Herr Professor . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Unter	unter	ADP	NE	_	0	H	0:H	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Erde	Erde	PROPN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	Herr	Herr	PROPN	NN	_	7	E	7:E	_
+7	Professor	Professor	PROPN	NN	_	2	G	2:G	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

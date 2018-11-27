@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25626011
+# text = Diese , so wertvoll wie der Brotfruchtbaum , werden mit Recht zu den nützlichsten Produkten des Malayenlandes gezählt .
+1	Diese	dies	PRON	PDS	_	18	A	18:A	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	so	so	ADV	ADV	_	4	D	4:D	_
+4	wertvoll	wertvoll	ADJ	VVFIN	_	1	E	1:E	_
+5	wie	wie	ADP	KON	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Brotfruchtbaum	Brotfruchtbaum	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	18	U	18:U	_
+9	werden	werden	AUX	VVFIN	_	18	F	18:F	_
+10	mit	mit	ADP	APPR	_	18	D	18:D	_
+11	Recht	Recht	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	zu	zu	ADP	VVINF	_	15	R	15:R	_
+13	den	der	DET	ART	_	14	E	14:E	_
+14	nützlichsten	nützlich	ADJ	NN	_	15	E	15:E	_
+15	Produkten	Produkt	NOUN	NN	_	18	A	18:A	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Malayenlandes	Malayenland	NOUN	NN	_	15	E	15:E	_
+18	gezählt	zählen	VERB	VVPP	_	0	H	0:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

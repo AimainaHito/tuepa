@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25753011
+# text = Die ›Nautilus‹ , unter dem durch ihre geneigten Ebenen bemeisterten Druck ihrer Schraube , hielt sich unbeweglich .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	17	A	17:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	unter	unter	ADP	ADJD	_	11	R	11:R	_
+5	dem	der	DET	PRELS	_	11	E	11:E	_
+6	durch	durch	ADP	APPR	_	9	R	9:R	_
+7	ihre	ihr	DET	PPOSAT	_	9	E	9:E	_
+8	geneigten	geneigt	ADJ	ADJA	_	10	A	10:A	_
+9	Ebenen	Ebene	NOUN	ADJA	_	8	A	8:A	_
+10	bemeisterten	bemeistert	ADJ	ADJA	_	11	E	11:E	_
+11	Druck	Druck	NOUN	NN	_	2	E	2:E	_
+12	ihrer	ihr	DET	PPOSAT	_	13	R	13:R	_
+13	Schraube	Schraube	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	17	U	17:U	_
+15	hielt	halten	VERB	VVFIN	_	17	F	17:F	_
+16	sich	er|es|sie	PRON	PRF	_	15	Terminal	15:Terminal	_
+17	unbeweglich	unbeweglich	ADJ	ADJD	_	0	H	0:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

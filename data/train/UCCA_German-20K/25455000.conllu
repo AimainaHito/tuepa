@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25455000
+# text = » Weil ... es nicht wahr ist ! « erwiderte der Kanadier , indem er , ohne es zu wissen , die Antwort wiederholte , die einmal der berühmte Arago gab .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Weil	weilen	PROPN	NE	_	6	R	6:R	_
+3	...	...	PUNCT	$(	_	6	U	6:U	_
+4	es	es	PRON	PPER	_	6	A	6:A	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	wahr	wahr	ADJ	FM	_	10	A	10:A	_
+7	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+8	!	!	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kanadier	Kanadier	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	indem	indem	SCONJ	KOUS	_	10	L	10:L	_
+15	er	er	PRON	PPER	_	24	A	24:A	_
+16	,	,	PUNCT	$,	_	10	U	10:U	_
+17	ohne	ohne	SCONJ	NN	_	20	D	20:D	_
+18	es	es	PRON	PPER	_	20	A	20:A	_
+19	zu	zu	PART	VVINF	_	20	F	20:F	_
+20	wissen	wissen	VERB	VVINF	_	10	H	10:H	_
+21	,	,	PUNCT	$,	_	10	U	10:U	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Antwort	Antwort	NOUN	NN	_	24	A	24:A	_
+24	wiederholte	wiederholen	VERB	VVFIN	_	10	H	10:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	die	der	PRON	PRELS	_	31	R	31:R	_
+27	einmal	einmal	ADV	ADV	_	31	D	31:D	_
+28	der	der	DET	ART	_	30	E	30:E	_
+29	berühmte	berühmt	ADJ	ADJA	_	30	E	30:E	_
+30	Arago	Arago	NOUN	NE	_	31	A	31:A	_
+31	gab	geben	VERB	VVFIN	_	23	E	23:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

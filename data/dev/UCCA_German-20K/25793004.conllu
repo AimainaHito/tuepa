@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25793004
+# text = » Über morgen « , sagte er , » werden die Behälter leer sein . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Über	über	NOUN	APPR	_	3	E	3:E	_
+3	morgen	morgen	VERB	ADV	_	13	D	13:D	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	werden	werden	AUX	VVFIN	_	13	F	13:F	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Behälter	Behälter	NOUN	NN	_	13	A	13:A	_
+13	leer	leer	ADJ	ADJD	_	6	A	6:A	_
+14	sein	sein	AUX	VAINF	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+16	«	«	PUNCT	$(	_	13	U	13:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 479002
+# text = Johnson asserted that for him , the 82 - game regular season was composed of 80 normal games , and two Lakers - Celtics games .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A	_
+2	asserted	assert	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	14	F	14:F	_
+4	for	for	ADP	IN	_	5	R	5:R	_
+5	him	he	PRON	PRP	_	14	A	14:A	_
+6	,	,	PUNCT	,	_	14	U	14:U	_
+7	the	the	DET	DT	_	12	E	12:E	_
+8	82	82	NUM	CD	_	10	E	10:E	_
+9	-	-	PUNCT	HYPH	_	10	U	10:U	_
+10	game	game	NOUN	NN	_	12	E	12:E	_
+11	regular	regular	ADJ	JJ	_	12	E	12:E	_
+12	season	season	NOUN	NN	_	14	A	14:A	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	composed	compose	VERB	VBN	_	2	A	2:A	_
+15	of	of	ADP	IN	_	18	R	18:R	_
+16	80	80	NUM	CD	_	18	E	18:E	_
+17	normal	normal	ADJ	JJ	_	18	E	18:E	_
+18	games	game	NOUN	NNS	_	14	A	14:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	and	and	CCONJ	CC	_	18	N	18:N	_
+21	two	two	NUM	CD	_	25	E	25:E	_
+22	Lakers	Laker	NOUN	NNS	_	25	E	25:E	_
+23	-	-	PUNCT	,	_	22	U	22:U	_
+24	Celtics	Celtics	NOUN	NNS	_	22	C	22:C	_
+25	games	game	NOUN	NNS	_	18	C	18:C	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

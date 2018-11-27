@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 806010
+# text = In 2006 , the McCartneys travelled to Prince Edward Island to raise international awareness of seal hunting .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2006	2006	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	McCartneys	McCartneys	PROPN	NNPS	_	6	A	6:A|12:A	_
+6	travelled	travel	VERB	VBD	_	0	H	0:H	_
+7	to	to	ADP	IN	_	10	R	10:R	_
+8	Prince	Prince	PROPN	NNP	_	9	E	9:E	_
+9	Edward	Edward	PROPN	NNP	_	10	E	10:E	_
+10	Island	Island	PROPN	NNP	_	6	A	6:A	_
+11	to	to	PART	TO	_	6	L	6:L	_
+12	raise	raise	VERB	VB	_	6	H	6:H	_
+13	international	international	ADJ	JJ	_	14	E	14:E	_
+14	awareness	awareness	NOUN	NN	_	12	A	12:A	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	seal	seal	NOUN	NN	_	17	E	17:E	_
+17	hunting	hunting	NOUN	NN	_	14	E	14:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 710005
+# text = The Pope treated the audience of 200,000 people to a homily based on Dylan 's lyric " Blowin ' in the Wind " .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	Pope	Pope	PROPN	NNP	_	3	A	3:A	_
+3	treated	treat	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	audience	audience	NOUN	NN	_	3	A	3:A	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	200,000	200,000	NUM	CD	_	8	E	8:E	_
+8	people	people	NOUN	NNS	_	5	E	5:E	_
+9	to	to	ADP	IN	_	12	R	12:R	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	homily	homily	NOUN	NN	_	12	A	12:A	_
+12	based	base	VERB	VBN	_	3	A	3:A	_
+13	on	on	ADP	IN	_	16	R	16:R	_
+14	Dylan	Dylan	PROPN	NNP	_	16	E	16:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	lyric	lyric	ADJ	JJ	_	12	A	12:A	_
+17	"	"	PUNCT	``	_	16	U	16:U	_
+18	Blowin	Blowin	PROPN	NNP	_	16	E	16:E	_
+19	'	'	PUNCT	''	_	18	U	18:U	_
+20	in	in	ADP	IN	_	18	Terminal	18:Terminal	_
+21	the	the	DET	DT	_	18	Terminal	18:Terminal	_
+22	Wind	wind	PROPN	NNP	_	18	Terminal	18:Terminal	_
+23	"	"	PUNCT	''	_	16	U	16:U	_
+24	.	.	PUNCT	.	_	16	U	16:U	_
+

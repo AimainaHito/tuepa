@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25632006
+# text = Es kam ein zweiter , sorgfältig abgerundeter Stein und schlug Conseil einen Tauben schenkel aus der Hand .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	ein	ein	DET	ART	_	8	E	8:E	_
+4	zweiter	zweit	ADJ	ADJA	_	8	E	8:E	_
+5	,	,	PUNCT	$,	_	8	U	8:U	_
+6	sorgfältig	sorgfältig	ADJ	ADJD	_	7	D	7:D	_
+7	abgerundeter	abgerundet	ADJ	ADJA	_	8	E	8:E	_
+8	Stein	Stein	NOUN	NE	_	0	C	0:C|7:A|10:A	_
+9	und	und	CCONJ	NE	_	2	L	2:L	_
+10	schlug	schlagen	VERB	VVFIN	_	2	H	2:H	_
+11	Conseil	Conseil	PROPN	NE	_	10	A	10:A	_
+12	einen	ein	DET	ART	_	14	E	14:E	_
+13	Tauben	Taube	NOUN	NN	_	14	E	14:E	_
+14	schenkel	schenkel	ADJ	NN	_	10	A	10:A	_
+15	aus	aus	ADP	APPR	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Hand	Hand	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

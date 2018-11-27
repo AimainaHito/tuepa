@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25430005
+# text = 2 Monate lang hörte man nichts mehr davon reden .
+1	2	2	NUM	CARD	_	4	D	4:D	_
+2	Monate	Monat	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	lang	lang	ADJ	ADJD	_	1	E	1:E	_
+4	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+6	nichts	nichts	PRON	NN	_	7	E	7:E	_
+7	mehr	mehr	ADV	ADV	_	4	D	4:D	_
+8	davon	davon	ADV	PAV	_	9	A	9:A	_
+9	reden	reden	VERB	VVINF	_	4	A	4:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

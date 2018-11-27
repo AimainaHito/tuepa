@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 603001
+# text = According to engineer Geoff Emerick , " the Beatles were looking to go out on a limb , both musically and sonically ... we were utilising a lot of tape varispeeding and other manipulation techniques ... limiters and ... effects like flanging and ADT .
+1	According	accord	VERB	VBG	_	0	H	0:H	_
+2	to	to	ADP	IN	_	4	R	4:R	_
+3	engineer	engineer	NOUN	NN	_	4	E	4:E	_
+4	Geoff	Geoff	PROPN	NNP	_	1	A	1:A	_
+5	Emerick	Emerick	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	"	"	PUNCT	``	_	1	U	1:U	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Beatles	Beatles	PROPN	NNPS	_	11	A	11:A|13:A	_
+10	were	be	AUX	VBD	_	11	F	11:F	_
+11	looking	look	VERB	VBG	_	1	A	1:A	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	go	go	VERB	VB	_	11	A	11:A	_
+14	out	out	ADV	RB	_	13	E	13:E	_
+15	on	on	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	limb	limb	NOUN	NN	_	13	E	13:E	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	both	both	CCONJ	CC	_	20	N	20:N	_
+20	musically	musically	ADV	RB	_	13	A	13:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	sonically	sonically	ADV	RB	_	20	C	20:C	_
+23	...	...	PUNCT	,	_	11	U	11:U	_
+24	we	we	PRON	PRP	_	26	A	26:A	_
+25	were	be	AUX	VBD	_	26	F	26:F	_
+26	utilising	utilise	VERB	VBG	_	11	H	11:H	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	lot	lot	NOUN	NN	_	31	E	31:E	_
+29	of	of	ADP	IN	_	28	R	28:R	_
+30	tape	tape	NOUN	NN	_	31	E	31:E	_
+31	varispeeding	varispeeding	NOUN	NN	_	26	A	26:A	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	other	other	ADJ	JJ	_	35	E	35:E	_
+34	manipulation	manipulation	NOUN	NN	_	35	E	35:E	_
+35	techniques	technique	NOUN	NNS	_	31	C	31:C	_
+36	...	...	PUNCT	,	_	35	U	35:U	_
+37	limiters	limiter	NOUN	NNS	_	35	E	35:E	_
+38	and	and	CCONJ	CC	_	37	N	37:N	_
+39	...	...	PUNCT	,	_	37	U	37:U	_
+40	effects	effect	VERB	VBZ	_	37	C	37:C	_
+41	like	like	SCONJ	IN	_	42	R	42:R	_
+42	flanging	flange	VERB	VBG	_	40	E	40:E	_
+43	and	and	CCONJ	CC	_	42	N	42:N	_
+44	ADT	ADT	PROPN	NNP	_	42	C	42:C	_
+45	.	.	PUNCT	.	_	42	U	42:U	_
+

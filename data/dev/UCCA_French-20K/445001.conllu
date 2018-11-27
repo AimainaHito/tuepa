@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 445001
+# text = Et l' impatience allait croissant , quand , le 2 juillet , on apprit qu' un steamer de la ligne de San Francisco de Californie à Shangaï avait revu l' animal , trois semaines auparavant , dans les mers septentrionales du Pacifique .
+1	Et	et	CCONJ	_	_	4	L	4:L	_
+2	l'	le	DET	_	_	3	E	3:E	_
+3	impatience	impatience	NOUN	_	_	4	A	4:A	_
+4	allait	aller	VERB	_	_	0	H	0:H	_
+5	croissant	croître	VERB	_	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	_	_	4	U	4:U	_
+7	quand	quand	SCONJ	_	_	4	L	4:L	_
+8	,	,	PUNCT	_	_	4	U	4:U	_
+9	le	le	DET	_	_	10	E	10:E	_
+10	2	2	NUM	_	_	14	D	14:D	_
+11	juillet	juillet	NOUN	_	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	_	_	14	U	14:U	_
+13	on	on	PRON	_	_	14	A	14:A	_
+14	apprit	apprendre	VERB	_	_	4	H	4:H	_
+15	qu'	que	SCONJ	_	_	29	R	29:R	_
+16	un	un	DET	_	_	17	E	17:E	_
+17	steamer	steamer	NOUN	_	_	29	A	29:A	_
+18	de	de	ADP	_	_	20	R	20:R	_
+19	la	le	DET	_	_	20	E	20:E	_
+20	ligne	ligne	NOUN	_	_	17	E	17:E	_
+21	de	de	ADP	_	_	22	R	22:R	_
+22	San	San	PROPN	_	_	20	E	20:E	_
+23	Francisco	Francisco	PROPN	_	_	22	Terminal	22:Terminal	_
+24	de	de	ADP	_	_	25	R	25:R	_
+25	Californie	Californie	PROPN	_	_	22	E	22:E	_
+26	à	à	ADP	_	_	22	R	22:R	_
+27	Shangaï	Shangaï	PROPN	_	_	22	C	22:C	_
+28	avait	avoir	AUX	_	_	29	F	29:F	_
+29	revu	revoir	VERB	_	_	14	A	14:A	_
+30	l'	le	DET	_	_	31	E	31:E	_
+31	animal	animal	NOUN	_	_	29	A	29:A	_
+32	,	,	PUNCT	_	_	29	U	29:U	_
+33	trois	trois	NUM	_	_	34	E	34:E	_
+34	semaines	semaine	NOUN	_	_	29	D	29:D	_
+35	auparavant	auparavant	ADV	_	_	34	R	34:R	_
+36	,	,	PUNCT	_	_	29	U	29:U	_
+37	dans	dans	ADP	_	_	39	R	39:R	_
+38	les	le	DET	_	_	39	E	39:E	_
+39	mers	mers	NOUN	_	_	29	A	29:A	_
+40	septentrionales	septentrional	ADJ	_	_	39	E	39:E	_
+41	du	du	DET	_	_	42	R	42:R	_
+42	Pacifique	Pacifique	PROPN	_	_	39	E	39:E	_
+43	.	.	PUNCT	_	_	42	U	42:U	_
+

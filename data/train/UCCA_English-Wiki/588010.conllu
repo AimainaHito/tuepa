@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 588010
+# text = Within the film , swordmaster Bob Anderson shared his experiences working with Depp on the choreography for The Curse of the Black Pearl .
+1	Within	within	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	film	film	NOUN	NN	_	8	A	8:A	_
+4	,	,	PUNCT	,	_	8	U	8:U	_
+5	swordmaster	swordmaster	NOUN	NN	_	6	E	6:E	_
+6	Bob	Bob	PROPN	NNP	_	8	A	8:A	_
+7	Anderson	Anderson	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	shared	share	VERB	VBD	_	0	H	0:H	_
+9	his	he	PRON	PRP$	_	10	A	10:A|11:A	_
+10	experiences	experience	NOUN	NNS	_	8	A	8:A	_
+11	working	work	VERB	VBG	_	10	A	10:A	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	Depp	Depp	PROPN	NNP	_	11	A	11:A	_
+14	on	on	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	choreography	choreography	NOUN	NN	_	11	A	11:A	_
+17	for	for	ADP	IN	_	18	R	18:R	_
+18	The	the	DET	DT	_	16	E	16:E	_
+19	Curse	curse	NOUN	NN	_	18	Terminal	18:Terminal	_
+20	of	of	ADP	IN	_	18	Terminal	18:Terminal	_
+21	the	the	DET	DT	_	18	Terminal	18:Terminal	_
+22	Black	Black	PROPN	NNP	_	18	Terminal	18:Terminal	_
+23	Pearl	Pearl	PROPN	NNP	_	18	Terminal	18:Terminal	_
+24	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 507013
+# text = " They married in 1992 .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	They	they	PRON	PRP	_	3	A	3:A	_
+3	married	marry	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	1992	1992	NUM	CD	_	3	D	3:D	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+

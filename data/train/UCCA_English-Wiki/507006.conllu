@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 507006
+# text = Tin Machine 's first world tour was a commercial success , but there was growing reluctance - among fans and critics alike - to accept Bowie 's presentation as merely a band member .
+1	Tin	tin	PROPN	NNP	_	6	E	6:E	_
+2	Machine	machine	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	's	's	PART	POS	_	1	R	1:R	_
+4	first	first	ADJ	JJ	_	6	E	6:E	_
+5	world	world	NOUN	NN	_	6	E	6:E	_
+6	tour	tour	NOUN	NN	_	10	A	10:A	_
+7	was	be	AUX	VBD	_	10	F	10:F	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	commercial	commercial	ADJ	JJ	_	10	E	10:E	_
+10	success	success	NOUN	NN	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	but	but	CCONJ	CC	_	10	L	10:L	_
+13	there	there	PRON	EX	_	25	F	25:F	_
+14	was	be	VERB	VBD	_	25	F	25:F	_
+15	growing	grow	VERB	VBG	_	25	D	25:D	_
+16	reluctance	reluctance	NOUN	NN	_	25	E	25:E	_
+17	-	-	PUNCT	HYPH	_	25	U	25:U	_
+18	among	among	ADP	IN	_	19	R	19:R	_
+19	fans	fan	NOUN	NNS	_	25	A	25:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	critics	critic	NOUN	NNS	_	19	C	19:C	_
+22	alike	alike	ADV	RB	_	19	F	19:F	_
+23	-	-	PUNCT	,	_	25	U	25:U	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	accept	accept	VERB	VB	_	10	H	10:H	_
+26	Bowie	Bowie	PROPN	NNP	_	28	A	28:A	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	presentation	presentation	NOUN	NN	_	25	A	25:A	_
+29	as	as	ADV	RB	_	30	R	30:R	_
+30	merely	merely	ADV	RB	_	28	D	28:D	_
+31	a	a	DET	DT	_	33	E	33:E	_
+32	band	band	NOUN	NN	_	33	E	33:E	_
+33	member	member	NOUN	NN	_	28	A	28:A	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

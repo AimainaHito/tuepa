@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25720007
+# text = Einen Augenblick Zeit hatte ich , um die Ruinen des Herkules tempels zu bewundern , der nach Plinius und Avienus samt der niedrigen Insel , worauf er stand , einst versunken ist .
+1	Einen	ein	DET	ART	_	2	E	2:E	_
+2	Augenblick	Augenblick	NOUN	NN	_	3	E	3:E	_
+3	Zeit	Zeit	NOUN	NN	_	14	D	14:D	_
+4	hatte	haben	VERB	VAFIN	_	14	F	14:F	_
+5	ich	ich	PRON	PPER	_	14	A	14:A	_
+6	,	,	PUNCT	$,	_	14	U	14:U	_
+7	um	um	ADP	KOUI	_	14	R	14:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Ruinen	Ruine	NOUN	NN	_	14	A	14:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Herkules	Herkule	NOUN	NE	_	9	E	9:E	_
+12	tempels	tempels	ADV	NN	_	11	E	11:E|31:A	_
+13	zu	zu	PART	NN	_	14	F	14:F	_
+14	bewundern	bewundern	VERB	VVINF	_	0	H	0:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	der	der	PRON	PRELS	_	31	R	31:R	_
+17	nach	nach	ADP	NN	_	14	H	14:H	_
+18	Plinius	Plinius	PROPN	NE	_	17	A	17:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Avienus	Avienus	PROPN	NE	_	18	C	18:C	_
+21	samt	samt	ADP	APPR	_	31	D	31:D	_
+22	der	der	DET	ART	_	24	E	24:E	_
+23	niedrigen	niedrig	ADJ	ADJA	_	24	E	24:E	_
+24	Insel	Insel	NOUN	NN	_	31	A	31:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	worauf	worauf	SCONJ	PWAV	_	28	R	28:R	_
+27	er	er	PRON	PPER	_	28	A	28:A	_
+28	stand	stehen	VERB	VVFIN	_	24	E	24:E	_
+29	,	,	PUNCT	$,	_	31	U	31:U	_
+30	einst	einst	ADV	ADV	_	31	D	31:D	_
+31	versunken	versunk	ADJ	VVINF	_	11	E	11:E	_
+32	ist	sein	AUX	VVFIN	_	31	F	31:F	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+

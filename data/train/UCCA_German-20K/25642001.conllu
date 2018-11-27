@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25642001
+# text = Die Schnelligkeit der " Nautilus " wurde auffallend mäßiger , und sehr launig schwamm sie bald mitten im Wasser , bald auf der Oberfläche .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Schnelligkeit	Schnelligkeit	NOUN	NN	_	9	A	9:A	_
+3	der	der	DET	ART	_	5	R	5:R	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	Nautilus	Nautilus	PROPN	NN	_	2	A	2:A	_
+6	"	"	PUNCT	$(	_	9	U	9:U	_
+7	wurde	werden	AUX	NN	_	9	F	9:F	_
+8	auffallend	auffallend	VERB	ADJD	_	9	D	9:D	_
+9	mäßiger	mäßige	PRON	ADJD	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	und	und	CCONJ	NE	_	9	L	9:L	_
+12	sehr	sehr	ADV	NE	_	13	E	13:E	_
+13	launig	launig	ADJ	ADJD	_	14	D	14:D	_
+14	schwamm	schwamm	ADJ	NN	_	9	H	9:H	_
+15	sie	sie	PRON	ADV	_	14	A	14:A	_
+16	bald	bald	ADV	ADV	_	19	N	19:N	_
+17	mitten	mitten	ADV	ADV	_	19	E	19:E	_
+18	im	im	ADJ	NN	_	19	R	19:R	_
+19	Wasser	Wasser	NOUN	NN	_	14	A	14:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	bald	bald	ADV	ADV	_	16	Terminal	16:Terminal	_
+22	auf	auf	ADP	APPR	_	24	R	24:R	_
+23	der	der	DET	ART	_	24	E	24:E	_
+24	Oberfläche	Oberfläche	NOUN	NN	_	19	C	19:C	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

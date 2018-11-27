@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25675012
+# text = » Ah ! « sagt' ich , » Sie wissen ... «
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Ah	Ah	PROPN	VVFIN	_	10	F	10:F	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	sagt'	sagt'	PUNCT	$(	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	Sie	Sie|sie	PRON	PPER	_	10	A	10:A	_
+10	wissen	wissen	VERB	VVINF	_	5	A	5:A	_
+11	...	...	PUNCT	$(	_	10	U	10:U	_
+12	«	«	PUNCT	$(	_	10	U	10:U	_
+

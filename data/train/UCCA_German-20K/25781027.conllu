@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25781027
+# text = Sollte sie mir noch ähnliche Überraschungen bereiten ?
+1	Sollte	sollen	AUX	VMFIN	_	7	D	7:D	_
+2	sie	sie	PRON	ADV	_	7	A	7:A	_
+3	mir	ich	PRON	PPER	_	7	A	7:A	_
+4	noch	noch	ADV	CARD	_	7	D	7:D	_
+5	ähnliche	ähnlich	ADJ	NN	_	7	D	7:D	_
+6	Überraschungen	Überraschungen	NOUN	NN	_	7	A	7:A	_
+7	bereiten	bereiten	VERB	VVINF	_	0	H	0:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+

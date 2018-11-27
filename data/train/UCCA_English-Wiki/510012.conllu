@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 510012
+# text = He contributed back - up vocals on TV on the Radio 's song " Province " for their album Return to Cookie Mountain , made a commercial with Snoop Dogg for XM Satellite Radio , and joined with Lou Reed on Danish alt - rockers Kashmir 's 2005 album No Balance Palace .
+1	He	he	PRON	PRP	_	2	A	2:A|37:A|25:A	_
+2	contributed	contribute	VERB	VBD	_	0	H	0:H	_
+3	back	back	ADV	RB	_	6	E	6:E	_
+4	-	-	PUNCT	HYPH	_	3	U	3:U	_
+5	up	up	ADP	RP	_	3	Terminal	3:Terminal	_
+6	vocals	vocal	NOUN	NNS	_	2	A	2:A	_
+7	on	on	ADP	IN	_	8	R	8:R	_
+8	TV	tv	NOUN	NN	_	2	A	2:A	_
+9	on	on	ADP	IN	_	15	R	15:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	Radio	Radio	PROPN	NNP	_	13	E	13:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	song	song	NOUN	NN	_	15	E	15:E	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	Province	Province	PROPN	NNP	_	2	A	2:A	_
+16	"	"	PUNCT	''	_	2	U	2:U	_
+17	for	for	ADP	IN	_	20	R	20:R	_
+18	their	they	PRON	PRP$	_	19	E	19:E	_
+19	album	album	NOUN	NN	_	20	E	20:E	_
+20	Return	return	NOUN	NN	_	2	A	2:A	_
+21	to	to	ADP	IN	_	20	Terminal	20:Terminal	_
+22	Cookie	Cookie	PROPN	NNP	_	20	Terminal	20:Terminal	_
+23	Mountain	Mountain	PROPN	NNP	_	20	Terminal	20:Terminal	_
+24	,	,	PUNCT	,	_	2	U	2:U	_
+25	made	make	VERB	VBD	_	2	H	2:H	_
+26	a	a	DET	DT	_	27	E	27:E	_
+27	commercial	commercial	ADJ	JJ	_	25	A	25:A	_
+28	with	with	ADP	IN	_	29	R	29:R	_
+29	Snoop	Snoop	PROPN	NNP	_	25	A	25:A	_
+30	Dogg	Dogg	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	for	for	ADP	IN	_	34	R	34:R	_
+32	XM	XM	PROPN	NNP	_	34	E	34:E	_
+33	Satellite	Satellite	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Radio	Radio	PROPN	NNP	_	25	A	25:A	_
+35	,	,	PUNCT	,	_	2	U	2:U	_
+36	and	and	CCONJ	CC	_	2	L	2:L	_
+37	joined	join	VERB	VBN	_	2	H	2:H	_
+38	with	with	ADP	IN	_	39	R	39:R	_
+39	Lou	lou	PROPN	NNP	_	37	A	37:A	_
+40	Reed	Reed	VERB	VBN	_	39	Terminal	39:Terminal	_
+41	on	on	ADP	IN	_	50	R	50:R	_
+42	Danish	Danish	PROPN	NNP	_	46	E	46:E	_
+43	alt	al	NOUN	NN	_	45	E	45:E	_
+44	-	-	PUNCT	HYPH	_	45	U	45:U	_
+45	rockers	rocker	NOUN	NNS	_	46	E	46:E	_
+46	Kashmir	Kashmir	PROPN	NNP	_	49	E	49:E	_
+47	's	's	PART	POS	_	46	R	46:R	_
+48	2005	2005	NUM	CD	_	49	E	49:E	_
+49	album	album	NOUN	NN	_	50	E	50:E	_
+50	No	no	PROPN	NNP	_	37	A	37:A	_
+51	Balance	balance	PROPN	NNP	_	50	Terminal	50:Terminal	_
+52	Palace	Palace	PROPN	NNP	_	50	Terminal	50:Terminal	_
+53	.	.	PUNCT	.	_	50	U	50:U	_
+

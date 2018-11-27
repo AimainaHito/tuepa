@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25636021
+# text = » Nun , mein Herr , wir brauchen nur die Luken zu schließen . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Nun	nun	ADV	ADV	_	13	F	13:F	_
+3	,	,	PUNCT	$,	_	13	U	13:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	13	G	13:G	_
+6	,	,	PUNCT	$,	_	13	U	13:U	_
+7	wir	wir	PRON	NE	_	13	A	13:A	_
+8	brauchen	brauchen	VERB	VVFIN	_	13	D	13:D	_
+9	nur	nur	ADV	NE	_	13	D	13:D	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Luken	Luken	NOUN	NN	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	schließen	schließen	VERB	VVINF	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+15	«	«	PUNCT	$(	_	13	U	13:U	_
+

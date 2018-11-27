@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 131002
+# text = Hepburn turned it down , and instead opted to buy herself out of her contract for $ 75,000 .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|10:A|8:A	_
+2	turned	turn	VERB	VBD	_	0	H	0:H	_
+3	it	it	PRON	PRP	_	2	A	2:A	_
+4	down	down	ADP	RP	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	and	and	CCONJ	CC	_	2	L	2:L	_
+7	instead	instead	ADV	RB	_	8	D	8:D	_
+8	opted	opt	VERB	VBD	_	2	H	2:H	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	buy	buy	VERB	VB	_	8	A	8:A	_
+11	herself	herself	PRON	PRP	_	10	D	10:D	_
+12	out	out	ADP	IN	_	10	E	10:E	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	her	she	PRON	PRP$	_	15	E	15:E	_
+15	contract	contract	NOUN	NN	_	10	A	10:A	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	$	$	SYM	$	_	18	U	18:U	_
+18	75,000	75,000	NUM	CD	_	10	A	10:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

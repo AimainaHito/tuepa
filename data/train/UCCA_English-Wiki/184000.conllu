@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 184000
+# text = She attended Cushing Academy , a boarding school in Ashburnham , Massachusetts , where she met her future husband , Harmon O . Nelson , known as " Ham " . In 1926 , she saw a production of Henrik Ibsen 's The Wild Duck with Blanche Yurka and Peg Entwistle .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	attended	attend	VERB	VBD	_	0	H	0:H	_
+3	Cushing	Cushing	PROPN	NNP	_	4	E	4:E	_
+4	Academy	Academy	PROPN	NNP	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	boarding	boarding	NOUN	NN	_	8	E	8:E	_
+8	school	school	NOUN	NN	_	4	E	4:E	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Ashburnham	Ashburnham	PROPN	NNP	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Massachusetts	Massachusetts	PROPN	NNPS	_	10	E	10:E	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	where	where	ADV	WRB	_	2	L	2:L	_
+15	she	she	PRON	PRP	_	16	A	16:A	_
+16	met	meet	VERB	VBD	_	2	H	2:H	_
+17	her	she	PRON	PRP$	_	19	E	19:E	_
+18	future	future	ADJ	JJ	_	19	E	19:E	_
+19	husband	husband	NOUN	NN	_	21	E	21:E	_
+20	,	,	PUNCT	,	_	21	U	21:U	_
+21	Harmon	Harmon	PROPN	NNP	_	16	A	16:A	_
+22	O	O	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+24	Nelson	Nelson	PROPN	NNP	_	21	Terminal	21:Terminal	_
+25	,	,	PUNCT	,	_	21	U	21:U	_
+26	known	know	VERB	VBN	_	21	E	21:E	_
+27	as	as	ADP	IN	_	29	R	29:R	_
+28	"	"	PUNCT	``	_	29	U	29:U	_
+29	Ham	Ham	PROPN	NNP	_	26	A	26:A	_
+30	"	"	PUNCT	''	_	2	U	2:U	_
+31	.	.	PUNCT	.	_	2	U	2:U	_
+32	In	in	ADP	IN	_	33	R	33:R	_
+33	1926	1926	NUM	CD	_	36	D	36:D	_
+34	,	,	PUNCT	,	_	36	U	36:U	_
+35	she	she	PRON	PRP	_	36	A	36:A	_
+36	saw	see	VERB	VBD	_	2	H	2:H	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	production	production	NOUN	NN	_	36	A	36:A	_
+39	of	of	ADP	IN	_	43	R	43:R	_
+40	Henrik	Henrik	PROPN	NNP	_	43	E	43:E	_
+41	Ibsen	Ibsen	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	's	's	PART	POS	_	40	R	40:R	_
+43	The	the	DET	DT	_	38	A	38:A	_
+44	Wild	Wild	PROPN	NNP	_	43	Terminal	43:Terminal	_
+45	Duck	duck	PROPN	NNP	_	43	Terminal	43:Terminal	_
+46	with	with	ADP	IN	_	47	R	47:R	_
+47	Blanche	Blanche	PROPN	NNP	_	38	A	38:A	_
+48	Yurka	Yurka	PROPN	NNP	_	47	Terminal	47:Terminal	_
+49	and	and	CCONJ	CC	_	47	N	47:N	_
+50	Peg	Peg	PROPN	NNP	_	47	C	47:C	_
+51	Entwistle	Entwistle	PROPN	NNP	_	50	Terminal	50:Terminal	_
+52	.	.	PUNCT	.	_	47	U	47:U	_
+

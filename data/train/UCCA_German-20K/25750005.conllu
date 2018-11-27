@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25750005
+# text = Conseil zählte endlich auch eine Menge fliegender Fische auf .
+1	Conseil	Conseil	PROPN	NE	_	2	A	2:A	_
+2	zählte	zählen	VERB	VVFIN	_	0	H	0:H	_
+3	endlich	endlich	ADV	ADV	_	2	D	2:D	_
+4	auch	auch	ADV	ADV	_	2	D	2:D	_
+5	eine	ein	DET	ART	_	6	E	6:E	_
+6	Menge	Menge	NOUN	NN	_	8	E	8:E	_
+7	fliegender	fliegend	ADJ	ADJA	_	8	E	8:E	_
+8	Fische	Fisch	NOUN	NN	_	2	A	2:A	_
+9	auf	auf	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+10	.	.	PUNCT	$.	_	2	U	2:U	_
+

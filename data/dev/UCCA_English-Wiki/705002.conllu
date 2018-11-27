@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 705002
+# text = In the late 1970s , Dylan became a born - again Christian and released two albums of Christian gospel music .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	late	late	ADJ	JJ	_	4	E	4:E	_
+4	1970s	1970	NOUN	NNS	_	7	D	7:D	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	Dylan	Dylan	PROPN	NNP	_	7	A	7:A|14:A|9:A	_
+7	became	become	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	12	E	12:E	_
+9	born	bear	VERB	VBN	_	12	E	12:E	_
+10	-	-	PUNCT	HYPH	_	9	U	9:U	_
+11	again	again	ADV	RB	_	9	D	9:D	_
+12	Christian	christian	PROPN	NNP	_	7	A	7:A	_
+13	and	and	CCONJ	CC	_	7	L	7:L	_
+14	released	release	VERB	VBN	_	7	H	7:H	_
+15	two	two	NUM	CD	_	16	E	16:E	_
+16	albums	album	NOUN	NNS	_	14	A	14:A	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	Christian	Christian	PROPN	NNP	_	20	E	20:E	_
+19	gospel	gospel	PROPN	NNP	_	20	E	20:E	_
+20	music	music	NOUN	NN	_	16	E	16:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

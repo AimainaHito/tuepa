@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 588007
+# text = Depp reprised the role of Jack Sparrow in the Pirates of the Caribbean sequels Dead Man 's Chest ( 2006 ) , At World 's End ( 2007 ) , and On Stranger Tides ( 2011 ) , which were each also major box office successes .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	reprised	reprise	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	role	role	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	6	R	6:R	_
+6	Jack	Jack	PROPN	NNP	_	4	E	4:E	_
+7	Sparrow	Sparrow	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	15	R	15:R	_
+9	the	the	DET	DT	_	15	E	15:E	_
+10	Pirates	pirates	PROPN	NNPS	_	14	E	14:E	_
+11	of	of	ADP	IN	_	10	Terminal	10:Terminal	_
+12	the	the	DET	DT	_	10	Terminal	10:Terminal	_
+13	Caribbean	Caribbean	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	sequels	sequels	NOUN	NNS	_	15	E	15:E	_
+15	Dead	dead	VERB	VBD	_	2	A	2:A	_
+16	Man	man	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	's	's	PART	POS	_	15	Terminal	15:Terminal	_
+18	Chest	chest	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	(	(	PUNCT	-LRB-	_	15	U	15:U	_
+20	2006	2006	NUM	CD	_	15	E	15:E	_
+21	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+22	,	,	PUNCT	,	_	15	U	15:U	_
+23	At	at	ADP	IN	_	15	C	15:C	_
+24	World	World	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	's	's	PART	POS	_	23	Terminal	23:Terminal	_
+26	End	end	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	(	(	PUNCT	-LRB-	_	23	U	23:U	_
+28	2007	2007	NUM	CD	_	23	E	23:E	_
+29	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+30	,	,	PUNCT	,	_	15	U	15:U	_
+31	and	and	CCONJ	CC	_	15	N	15:N	_
+32	On	on	ADP	IN	_	15	C	15:C	_
+33	Stranger	stranger	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	Tides	Tides	PROPN	NNP	_	32	Terminal	32:Terminal	_
+35	(	(	PUNCT	-LRB-	_	32	U	32:U	_
+36	2011	2011	NUM	CD	_	32	E	32:E	_
+37	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+38	,	,	PUNCT	,	_	15	U	15:U	_
+39	which	which	PRON	WDT	_	46	R	46:R	_
+40	were	be	VERB	VBD	_	46	F	46:F	_
+41	each	each	DET	DT	_	46	A	46:A	_
+42	also	also	ADV	RB	_	46	D	46:D	_
+43	major	major	ADJ	JJ	_	46	D	46:D	_
+44	box	box	NOUN	NN	_	45	E	45:E	_
+45	office	office	NOUN	NN	_	46	A	46:A	_
+46	successes	success	NOUN	NNS	_	15	E	15:E	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

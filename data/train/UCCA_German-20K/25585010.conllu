@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25585010
+# text = Ich sah den Kommandanten der " Nautilus " mit einer Miene an , die nichts Schmeichelhaftes für ihn hatte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kommandanten	Kommandant	NOUN	NN	_	2	A	2:A	_
+5	der	der	DET	ART	_	7	R	7:R	_
+6	"	"	PUNCT	$(	_	7	U	7:U	_
+7	Nautilus	Nautilus	PROPN	NE	_	4	E	4:E	_
+8	"	"	PUNCT	$(	_	2	U	2:U	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	einer	ein	DET	ART	_	11	E	11:E	_
+11	Miene	Miene	NOUN	NN	_	2	A	2:A	_
+12	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	die	der	PRON	PRELS	_	19	R	19:R	_
+15	nichts	nichts	PRON	ADJA	_	19	D	19:D	_
+16	Schmeichelhaftes	Schmeichelhaft	NOUN	NN	_	19	A	19:A	_
+17	für	für	ADP	APPR	_	18	R	18:R	_
+18	ihn	er	PRON	PPER	_	19	A	19:A	_
+19	hatte	haben	VERB	VAFIN	_	11	E	11:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

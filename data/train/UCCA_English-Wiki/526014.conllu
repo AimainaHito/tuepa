@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 526014
+# text = These , in combination with migraine headaches , led her to miss several shooting days in a row .
+1	These	these	ADJ	JJ	_	12	A	12:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	combination	combination	NOUN	NN	_	1	N	1:N	_
+5	with	with	ADP	IN	_	4	R	4:R	_
+6	migraine	migraine	NOUN	NN	_	7	E	7:E	_
+7	headaches	headach	NOUN	NNS	_	1	C	1:C	_
+8	,	,	PUNCT	,	_	12	U	12:U	_
+9	led	lead	VERB	VBD	_	12	D	12:D	_
+10	her	she	PRON	PRP	_	12	A	12:A	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	miss	miss	VERB	VB	_	0	H	0:H	_
+13	several	several	ADJ	JJ	_	15	E	15:E	_
+14	shooting	shooting	NOUN	NN	_	15	E	15:E	_
+15	days	day	NOUN	NNS	_	12	D	12:D	_
+16	in	in	ADP	IN	_	18	R	18:R	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	row	row	NOUN	NN	_	15	E	15:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

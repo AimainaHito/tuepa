@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25772014
+# text = Doch sah ich von einer hohen Böschung aus im Umkreis von mehreren Meilen durchaus nichts von einem Vulkan .
+1	Doch	doch	ADV	KON	_	2	L	2:L	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	von	von	ADP	NN	_	7	R	7:R	_
+5	einer	ein	DET	ART	_	7	E	7:E	_
+6	hohen	hoch	ADJ	ADJA	_	7	E	7:E	_
+7	Böschung	Böschung	NOUN	NN	_	2	A	2:A	_
+8	aus	aus	ADP	APPR	_	4	Terminal	4:Terminal	_
+9	im	im	ADJ	NE	_	10	R	10:R	_
+10	Umkreis	Umkreis	NOUN	NN	_	2	A	2:A	_
+11	von	von	ADP	NE	_	13	R	13:R	_
+12	mehreren	mehrere	PRON	PIAT	_	13	E	13:E	_
+13	Meilen	Meile	NOUN	NN	_	10	E	10:E	_
+14	durchaus	durchaus	ADV	ADV	_	2	D	2:D	_
+15	nichts	nichts	PRON	ADJA	_	14	Terminal	14:Terminal	_
+16	von	von	ADP	NN	_	18	R	18:R	_
+17	einem	ein	DET	ART	_	18	E	18:E	_
+18	Vulkan	Vulkan	NOUN	NE	_	2	A	2:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

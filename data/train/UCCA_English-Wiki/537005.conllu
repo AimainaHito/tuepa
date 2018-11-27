@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 537005
+# text = The Warner surname was perhaps originally " Wonsal " or " Wonskolaser " Upon arriving in New York City , Benjamin introduced himself as " Benjamin Warner " , and the surname " Warner " remained with him for the rest of his life .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Warner	Warner	PROPN	NNP	_	3	E	3:E	_
+3	surname	surname	NOUN	NN	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	F	6:F	_
+5	perhaps	perhaps	ADV	RB	_	6	D	6:D	_
+6	originally	originally	ADV	RB	_	0	H	0:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	Wonsal	Wonsal	ADJ	JJ	_	6	A	6:A	_
+9	"	"	PUNCT	''	_	8	U	8:U	_
+10	or	or	CCONJ	CC	_	8	N	8:N	_
+11	"	"	PUNCT	``	_	8	U	8:U	_
+12	Wonskolaser	Wonskolaser	PROPN	NNP	_	8	C	8:C	_
+13	"	"	PUNCT	''	_	6	U	6:U	_
+14	Upon	upon	PROPN	NNP	_	6	L	6:L	_
+15	arriving	arrive	VERB	VBG	_	6	H	6:H	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	New	New	PROPN	NNP	_	15	A	15:A	_
+18	York	York	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	City	City	PROPN	NNP	_	17	Terminal	17:Terminal	_
+20	,	,	PUNCT	,	_	15	U	15:U	_
+21	Benjamin	Benjamin	PROPN	NNP	_	22	A	22:A|15:A	_
+22	introduced	introduce	VERB	VBD	_	6	H	6:H	_
+23	himself	himself	PRON	PRP	_	22	A	22:A	_
+24	as	as	ADP	IN	_	26	R	26:R	_
+25	"	"	PUNCT	``	_	26	U	26:U	_
+26	Benjamin	Benjamin	PROPN	NNP	_	22	A	22:A	_
+27	Warner	Warner	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	"	"	PUNCT	''	_	6	U	6:U	_
+29	,	,	PUNCT	,	_	6	U	6:U	_
+30	and	and	CCONJ	CC	_	6	L	6:L	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	surname	surname	NOUN	NN	_	34	E	34:E	_
+33	"	"	PUNCT	``	_	34	U	34:U	_
+34	Warner	Warner	PROPN	NNP	_	36	A	36:A	_
+35	"	"	PUNCT	''	_	36	U	36:U	_
+36	remained	remain	VERB	VBD	_	6	H	6:H	_
+37	with	with	ADP	IN	_	38	R	38:R	_
+38	him	he	PRON	PRP	_	36	A	36:A	_
+39	for	for	ADP	IN	_	44	R	44:R	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	rest	rest	NOUN	NN	_	44	E	44:E	_
+42	of	of	ADP	IN	_	41	R	41:R	_
+43	his	he	PRON	PRP$	_	44	E	44:E	_
+44	life	life	NOUN	NN	_	36	D	36:D	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

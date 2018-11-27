@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25692008
+# text = Am folgenden Tag , dem 7 . Februar , fuhren wir in die Straße Bab el Mandeb ein .
+1	Am	am	PROPN	NN	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	8	E	8:E	_
+6	7	7	PROPN	CARD	_	8	E	8:E	_
+7	.	.	PUNCT	$.	_	8	U	8:U	_
+8	Februar	Februar	PROPN	NN	_	3	E	3:E	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+11	wir	wir	PRON	NE	_	10	A	10:A	_
+12	in	in	ADP	APPR	_	15	R	15:R	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Straße	Straße	NOUN	NN	_	15	E	15:E	_
+15	Bab	Bab	PROPN	NE	_	10	A	10:A	_
+16	el	el	PROPN	NE	_	15	Terminal	15:Terminal	_
+17	Mandeb	Mandeb	PROPN	NE	_	15	Terminal	15:Terminal	_
+18	ein	ein	ADV	PTKVZ	_	10	Terminal	10:Terminal	_
+19	.	.	PUNCT	$.	_	10	U	10:U	_
+

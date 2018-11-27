@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25472006
+# text = Darauf kam es auf der anderen Seite des Schiffs wieder zum Vorschein , sei es , dass es um es herum- oder darunter herfuhr .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	auf	auf	ADP	APPR	_	7	R	7:R	_
+5	der	der	DET	ART	_	7	E	7:E	_
+6	anderen	ander	ADJ	ADJA	_	7	E	7:E	_
+7	Seite	Seite	NOUN	NN	_	2	A	2:A	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Schiffs	Schiff	NOUN	NN	_	7	E	7:E	_
+10	wieder	wieder	ADV	NE	_	2	D	2:D	_
+11	zum	zum	ADV	NN	_	2	Terminal	2:Terminal	_
+12	Vorschein	Vorschein	NOUN	NE	_	2	Terminal	2:Terminal	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	sei	sein	AUX	NE	_	2	H	2:H	_
+15	es	es	PRON	PPER	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	dass	dass	SCONJ	KOUS	_	24	R	24:R	_
+18	es	es	PRON	PPER	_	24	A	24:A	_
+19	um	um	ADP	APPR	_	20	R	20:R	_
+20	es	es	PRON	PPER	_	24	A	24:A	_
+21	herum-	herum-	PUNCT	$(	_	24	D	24:D	_
+22	oder	oder	CCONJ	CARD	_	21	N	21:N	_
+23	darunter	darunter	ADV	PAV	_	21	C	21:C	_
+24	herfuhr	herfahren	VERB	VVFIN	_	14	A	14:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

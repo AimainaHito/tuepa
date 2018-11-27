@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 705013
+# text = They say , " Bob Dylan 's no prophet .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	say	say	VERB	VBP	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	Bob	Bob	PROPN	NNP	_	7	A	7:A	_
+6	Dylan	Dylan	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	2	A	2:A	_
+8	no	no	DET	DT	_	7	D	7:D	_
+9	prophet	prophet	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	.	_	7	U	7:U	_
+

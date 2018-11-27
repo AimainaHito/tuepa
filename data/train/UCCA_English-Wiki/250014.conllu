@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 250014
+# text = " In April 2005 Hawke starred in the Off - Broadway revival of David Rabe 's dark comedy Hurlyburly .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	In	in	ADP	IN	_	4	R	4:R	_
+3	April	April	PROPN	NNP	_	4	E	4:E	_
+4	2005	2005	NUM	CD	_	6	D	6:D	_
+5	Hawke	Hawke	PROPN	NNP	_	6	A	6:A	_
+6	starred	star	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	12	R	12:R	_
+8	the	the	DET	DT	_	12	E	12:E	_
+9	Off	off	ADP	IN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	Broadway	Broadway	PROPN	NNP	_	12	E	12:E	_
+12	revival	revival	NOUN	NN	_	6	A	6:A	_
+13	of	of	ADP	IN	_	19	R	19:R	_
+14	David	David	PROPN	NNP	_	19	E	19:E	_
+15	Rabe	Rabe	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	's	's	PART	POS	_	14	R	14:R	_
+17	dark	dark	ADJ	JJ	_	18	E	18:E	_
+18	comedy	comedy	NOUN	NN	_	19	E	19:E	_
+19	Hurlyburly	Hurlyburly	ADV	RB	_	12	A	12:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 458002
+# text = ABC dedicated more time to covering the conflict than any other network from 1992 to 1996 .
+1	ABC	ABC	PROPN	NNP	_	2	A	2:A	_
+2	dedicated	dedicate	VERB	VBD	_	0	H	0:H	_
+3	more	more	ADJ	JJR	_	4	E	4:E	_
+4	time	time	NOUN	NN	_	6	A	6:A	_
+5	to	to	SCONJ	IN	_	6	F	6:F	_
+6	covering	cover	VERB	VBG	_	2	A	2:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	conflict	conflict	NOUN	NN	_	6	A	6:A	_
+9	than	than	ADP	IN	_	12	R	12:R	_
+10	any	any	DET	DT	_	12	E	12:E	_
+11	other	other	ADJ	JJ	_	12	E	12:E	_
+12	network	network	NOUN	NN	_	2	A	2:A	_
+13	from	from	ADP	IN	_	14	R	14:R	_
+14	1992	1992	NUM	CD	_	2	D	2:D	_
+15	to	to	ADP	IN	_	14	N	14:N	_
+16	1996	1996	NUM	CD	_	14	C	14:C	_
+17	.	.	PUNCT	.	_	14	U	14:U	_
+

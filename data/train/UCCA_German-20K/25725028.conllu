@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25725028
+# text = Nur noch meine Pulsschläge unterbrachen die Stille .
+1	Nur	nur	ADV	ADV	_	5	D	5:D	_
+2	noch	noch	ADV	VVINF	_	5	D	5:D	_
+3	meine	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Pulsschläge	Pulsschlag	NOUN	NN	_	5	A	5:A	_
+5	unterbrachen	unterbrachen	VERB	ADJA	_	0	H	0:H	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Stille	Stille	NOUN	NN	_	5	A	5:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

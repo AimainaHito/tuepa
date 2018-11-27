@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 525008
+# text = She was top billed over the credits for the first time and effectively made the transition from teenage star to adult actress .
+1	She	she	PRON	PRP	_	4	A	4:A|16:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	top	top	ADJ	JJ	_	4	D	4:D	_
+4	billed	bill	VERB	VBN	_	0	H	0:H	_
+5	over	over	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	credits	credit	NOUN	NNS	_	4	A	4:A	_
+8	for	for	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	first	first	ADJ	JJ	_	11	E	11:E	_
+11	time	time	NOUN	NN	_	4	D	4:D	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	effectively	effectively	ADV	RB	_	16	D	16:D	_
+14	made	make	VERB	VBN	_	16	F	16:F	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	transition	transition	NOUN	NN	_	4	H	4:H	_
+17	from	from	ADP	IN	_	19	R	19:R	_
+18	teenage	teenage	ADJ	JJ	_	19	E	19:E	_
+19	star	star	NOUN	NN	_	16	A	16:A	_
+20	to	to	PART	TO	_	19	R	19:R	_
+21	adult	adult	VERB	VB	_	22	E	22:E	_
+22	actress	actress	NOUN	NN	_	19	C	19:C	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

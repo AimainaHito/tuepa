@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25812015
+# text = Einer der Bootsleute stand auf den obersten Sprossen und schraubte die Zapfen des Deckels auf .
+1	Einer	ein	PRON	PIS	_	0	C	0:C|10:A	_
+2	der	der	DET	ART	_	3	R	3:R	_
+3	Bootsleute	Bootsleute	NOUN	NN	_	1	E	1:E	_
+4	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+5	auf	auf	ADP	APPR	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	obersten	ober	ADJ	ADJA	_	8	E	8:E	_
+8	Sprossen	Sprosse	NOUN	NE	_	4	A	4:A	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	schraubte	schrauben	VERB	VVFIN	_	4	H	4:H	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Zapfen	Zapfen	NOUN	NN	_	10	A	10:A	_
+13	des	der	DET	ART	_	14	R	14:R	_
+14	Deckels	Deckel	NOUN	NN	_	12	E	12:E	_
+15	auf	auf	ADP	PTKVZ	_	10	Terminal	10:Terminal	_
+16	.	.	PUNCT	$.	_	10	U	10:U	_
+

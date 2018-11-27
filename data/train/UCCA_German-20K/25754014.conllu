@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25754014
+# text = Er war weniger mitteilsam , fast schweigsam geworden .
+1	Er	er	PRON	PPER	_	4	A	4:A|7:A	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	weniger	wenig	ADJ	ADV	_	4	D	4:D	_
+4	mitteilsam	mitteilsam	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	fast	fast	ADV	ADV	_	7	D	7:D	_
+7	schweigsam	schweigsam	ADJ	ADJD	_	4	H	4:H	_
+8	geworden	werden	AUX	PAV	_	7	F	7:F	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

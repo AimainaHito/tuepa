@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 615001
+# text = In the mid - 1960s , when visiting artist friend John Dunbar 's flat in London , McCartney brought tapes he had compiled at then - girlfriend Jane Asher 's home .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	mid	mid	X	AFX	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	1960s	1960	NOUN	NNS	_	19	D	19:D	_
+6	,	,	PUNCT	,	_	19	U	19:U	_
+7	when	when	ADV	WRB	_	19	L	19:L	_
+8	visiting	visit	VERB	VBG	_	19	H	19:H	_
+9	artist	artist	NOUN	NN	_	10	E	10:E	_
+10	friend	friend	NOUN	NN	_	11	E	11:E	_
+11	John	John	PROPN	NNP	_	14	E	14:E	_
+12	Dunbar	Dunbar	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	's	's	PART	POS	_	11	R	11:R	_
+14	flat	flat	ADJ	JJ	_	8	A	8:A	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	London	London	PROPN	NNP	_	14	E	14:E	_
+17	,	,	PUNCT	,	_	8	U	8:U	_
+18	McCartney	McCartney	PROPN	NNP	_	19	A	19:A|8:A	_
+19	brought	bring	VERB	VBD	_	0	H	0:H	_
+20	tapes	tape	NOUN	NNS	_	19	A	19:A	_
+21	he	he	PRON	PRP	_	23	A	23:A	_
+22	had	have	AUX	VBD	_	23	F	23:F	_
+23	compiled	compil	VERB	VBN	_	20	E	20:E	_
+24	at	at	ADP	IN	_	31	R	31:R	_
+25	then	then	ADV	RB	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	girlfriend	girlfriend	NOUN	NN	_	28	E	28:E	_
+28	Jane	Jane	PROPN	NNP	_	31	E	31:E	_
+29	Asher	Asher	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	's	's	PART	POS	_	28	R	28:R	_
+31	home	home	NOUN	NN	_	23	A	23:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

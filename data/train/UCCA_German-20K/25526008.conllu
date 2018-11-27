@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25526008
+# text = Das Gewässer zeigte sich durch elektrische Einwirkung lebhaft erleuchtet .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Gewässer	Gewässer	NOUN	NN	_	3	A	3:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	durch	durch	ADP	APPR	_	7	R	7:R	_
+6	elektrische	elektrisch	ADJ	ADJA	_	7	E	7:E	_
+7	Einwirkung	Einwirkung	NOUN	NN	_	3	A	3:A	_
+8	lebhaft	lebhaft	ADV	NN	_	3	D	3:D	_
+9	erleuchtet	erleuchten	VERB	VVPP	_	3	D	3:D	_
+10	.	.	PUNCT	$.	_	3	U	3:U	_
+

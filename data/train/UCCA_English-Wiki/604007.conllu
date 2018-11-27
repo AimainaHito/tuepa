@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 604007
+# text = McCartney agreed , but Lennon did not .
+1	McCartney	McCartney	PROPN	NNP	_	2	A	2:A	_
+2	agreed	agree	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	but	but	CCONJ	CC	_	2	L	2:L	_
+5	Lennon	Lennon	PROPN	NNP	_	2	H	2:H	_
+6	did	do	AUX	VBD	_	5	F	5:F	_
+7	not	not	PART	RB	_	5	D	5:D	_
+8	.	.	PUNCT	.	_	5	U	5:U	_
+

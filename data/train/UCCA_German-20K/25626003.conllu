@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25626003
+# text = » 2 Uhr wenigstens « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	2	2	NUM	CARD	_	7	A	7:A	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	wenigstens	wenigstens	ADV	ADV	_	2	D	2:D	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	Conseil	Conseil	NOUN	NE	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

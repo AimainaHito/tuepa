@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 533015
+# text = The public and press were barred .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	public	public	NOUN	NN	_	6	A	6:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	press	press	NOUN	NN	_	2	C	2:C	_
+5	were	be	AUX	VBD	_	6	F	6:F	_
+6	barred	bar	VERB	VBN	_	0	H	0:H	_
+7	.	.	PUNCT	.	_	6	U	6:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25414004
+# text = Ich hatte alle amerikanischen und europäischen Journale gelesen und abermals gelesen und war dadurch nicht weitergekommen .
+1	Ich	ich	PRON	PPER	_	8	A	8:A|16:A	_
+2	hatte	haben	AUX	VAFIN	_	8	F	8:F	_
+3	alle	alle	PRON	PIAT	_	7	E	7:E	_
+4	amerikanischen	amerikanisch	ADJ	ADJA	_	7	E	7:E	_
+5	und	und	CCONJ	NN	_	4	N	4:N	_
+6	europäischen	europäisch	ADJ	ADJA	_	4	C	4:C	_
+7	Journale	Journale	NOUN	NN	_	8	A	8:A	_
+8	gelesen	lesen	VERB	VVPP	_	0	H	0:H	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	abermals	abermals	ADV	ADV	_	8	D	8:D	_
+11	gelesen	lesen	VERB	VVPP	_	8	C	8:C	_
+12	und	und	CCONJ	NE	_	8	L	8:L	_
+13	war	sein	AUX	ADV	_	16	F	16:F	_
+14	dadurch	dadurch	ADV	PAV	_	16	A	16:A	_
+15	nicht	nicht	PART	CARD	_	16	D	16:D	_
+16	weitergekommen	weitergekommen	VERB	VVPP	_	8	H	8:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

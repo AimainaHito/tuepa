@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 636014
+# text = In 1969 , they formed the Plastic Ono Band , releasing Live Peace in Toronto 1969 .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1969	1969	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	they	they	PRON	PRP	_	5	A	5:A|11:A	_
+5	formed	form	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	Plastic	plastic	PROPN	NNP	_	9	E	9:E	_
+8	Ono	Ono	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Band	band	PROPN	NNP	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	releasing	release	VERB	VBG	_	5	H	5:H	_
+12	Live	Live	PROPN	NNP	_	11	A	11:A	_
+13	Peace	peace	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Toronto	Toronto	PROPN	NNP	_	11	A	11:A	_
+16	1969	1969	NUM	CD	_	11	D	11:D	_
+17	.	.	PUNCT	.	_	11	U	11:U	_
+

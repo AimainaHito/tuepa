@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 96000
+# text = À quatre heures dix-sept minutes du soir , pendant le lunch des passagers réunis dans le grand salon , un choc , peu sensible , en somme , se produisit sur la coque du Scotia , par sa hanche et un peu en arrière de la roue de bâbord .
+1	À	à	ADP	_	_	2	R	2:R	_
+2	quatre	quatre	NUM	_	_	29	D	29:D	_
+3	heures	heure	NOUN	_	_	2	Terminal	2:Terminal	_
+4	dix-sept	dix-sept	NUM	_	_	2	Terminal	2:Terminal	_
+5	minutes	minudre	NOUN	_	_	2	Terminal	2:Terminal	_
+6	du	du	DET	_	_	7	R	7:R	_
+7	soir	soir	NOUN	_	_	2	E	2:E	_
+8	,	,	PUNCT	_	_	29	U	29:U	_
+9	pendant	pendant	ADP	_	_	29	L	29:L	_
+10	le	le	DET	_	_	11	E	11:E	_
+11	lunch	lunch	NOUN	_	_	29	H	29:H	_
+12	des	un	DET	_	_	13	R	13:R	_
+13	passagers	passager	NOUN	_	_	11	A	11:A	_
+14	réunis	réunir	VERB	_	_	13	E	13:E	_
+15	dans	dans	ADP	_	_	18	R	18:R	_
+16	le	le	DET	_	_	18	E	18:E	_
+17	grand	grand	ADJ	_	_	18	E	18:E	_
+18	salon	salon	NOUN	_	_	14	A	14:A	_
+19	,	,	PUNCT	_	_	29	U	29:U	_
+20	un	un	DET	_	_	21	E	21:E	_
+21	choc	choc	NOUN	_	_	29	A	29:A	_
+22	,	,	PUNCT	_	_	21	U	21:U	_
+23	peu	peu	ADV	_	_	24	E	24:E	_
+24	sensible	sensible	ADJ	_	_	21	E	21:E	_
+25	,	,	PUNCT	_	_	24	U	24:U	_
+26	en	en	ADP	_	_	27	R	27:R	_
+27	somme	somme	NOUN	_	_	24	E	24:E	_
+28	,	,	PUNCT	_	_	29	U	29:U	_
+29	se	se	PRON	_	_	0	H	0:H	_
+30	produisit	produire	VERB	_	_	29	Terminal	29:Terminal	_
+31	sur	sur	ADP	_	_	33	R	33:R	_
+32	la	le	DET	_	_	33	E	33:E	_
+33	coque	coque	NOUN	_	_	29	A	29:A	_
+34	du	du	PROPN	_	_	35	R	35:R	_
+35	Scotia	Scotia	PROPN	_	_	33	E	33:E	_
+36	,	,	PUNCT	_	_	33	U	33:U	_
+37	par	par	ADP	_	_	39	R	39:R	_
+38	sa	son	DET	_	_	39	E	39:E	_
+39	hanche	hanche	NOUN	_	_	33	C	33:C	_
+40	et	et	CCONJ	_	_	33	N	33:N	_
+41	un	un	DET	_	_	44	E	44:E	_
+42	peu	peu	ADV	_	_	41	Terminal	41:Terminal	_
+43	en	en	ADP	_	_	44	R	44:R	_
+44	arrière	arrière	NOUN	_	_	47	E	47:E	_
+45	de	de	ADP	_	_	44	R	44:R	_
+46	la	le	DET	_	_	47	E	47:E	_
+47	roue	roue	NOUN	_	_	33	C	33:C	_
+48	de	de	ADP	_	_	49	R	49:R	_
+49	bâbord	bâbord	NOUN	_	_	47	E	47:E	_
+50	.	.	PUNCT	_	_	49	U	49:U	_
+

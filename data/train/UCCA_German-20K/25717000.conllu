@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25717000
+# text = Ich sah also vom Innern des Mittelmeers nur , was der Passagier eines Eilzugs von der Landschaft , die vor seinen Blicken entflieht , d.h . den entfernten Horizont , und nicht die Gegenstände im Vordergrund , die blitzschnell enteilen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|29:A|34:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	F	2:F	_
+4	vom	vom	ADP	NN	_	5	R	5:R	_
+5	Innern	Innern	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Mittelmeers	Mittelmeers	NOUN	NN	_	5	E	5:E	_
+8	nur	nur	ADV	NE	_	2	D	2:D	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	was	was	PRON	NE	_	2	A	2:A	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Passagier	Passagier	NOUN	NN	_	10	A	10:A	_
+13	eines	ein	DET	ART	_	14	R	14:R	_
+14	Eilzugs	Eilzugs	NOUN	NN	_	12	E	12:E	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Landschaft	Landschaft	NOUN	NN	_	10	A	10:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	die	der	PRON	ART	_	23	R	23:R	_
+20	vor	vor	ADP	NN	_	22	R	22:R	_
+21	seinen	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Blicken	Blick|Blicken	NOUN	NN	_	23	A	23:A	_
+23	entflieht	entfliehen	VERB	VVFIN	_	17	E	17:E	_
+24	,	,	PUNCT	$,	_	10	U	10:U	_
+25	d.h	d.h	SCONJ	ADJD	_	10	L	10:L	_
+26	.	.	PUNCT	$.	_	10	U	10:U	_
+27	den	der	DET	ART	_	29	R	29:R	_
+28	entfernten	entfernt	ADJ	ADJA	_	29	E	29:E	_
+29	Horizont	Horizont	NOUN	NN	_	10	H	10:H	_
+30	,	,	PUNCT	$,	_	29	U	29:U	_
+31	und	und	CCONJ	NE	_	29	N	29:N	_
+32	nicht	nicht	PART	CARD	_	34	D	34:D	_
+33	die	der	DET	ART	_	34	E	34:E	_
+34	Gegenstände	Gegenstand	NOUN	NN	_	29	C	29:C	_
+35	im	im	ADJ	NN	_	36	R	36:R	_
+36	Vordergrund	Vordergrund	NOUN	NN	_	34	E	34:E	_
+37	,	,	PUNCT	$,	_	34	U	34:U	_
+38	die	der	PRON	PRELS	_	40	R	40:R	_
+39	blitzschnell	blitzschnell	ADJ	ADJD	_	40	D	40:D	_
+40	enteilen	enteilen	VERB	ADV	_	34	E	34:E	_
+41	.	.	PUNCT	$.	_	40	U	40:U	_
+

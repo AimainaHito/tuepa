@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 459004
+# text = On March 29 , 1999 , Jennings anchored the first installment of ABC 's 12 - hour miniseries , The Century ; production on the monumental project started in 1990 , and by the time it aired , it had cost the network $ 25 million .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	March	March	PROPN	NNP	_	8	D	8:D	_
+3	29	29	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	1999	1999	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Jennings	Jennings	PROPN	NNP	_	8	A	8:A	_
+8	anchored	anchor	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	first	first	ADJ	JJ	_	11	E	11:E	_
+11	installment	installment	NOUN	NN	_	8	A	8:A	_
+12	of	of	ADP	IN	_	20	R	20:R	_
+13	ABC	ABC	PROPN	NNP	_	20	E	20:E	_
+14	's	's	PART	POS	_	13	R	13:R	_
+15	12	12	NUM	CD	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	hour	hour	NOUN	NN	_	18	E	18:E	_
+18	miniseries	minisery	NOUN	NNS	_	20	E	20:E	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	The	the	DET	DT	_	11	E	11:E	_
+21	Century	Century	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	;	;	PUNCT	,	_	8	U	8:U	_
+23	production	production	NOUN	NN	_	28	A	28:A	_
+24	on	on	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	monumental	monumental	ADJ	JJ	_	27	E	27:E	_
+27	project	project	NOUN	NN	_	23	E	23:E	_
+28	started	start	VERB	VBD	_	8	H	8:H	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	1990	1990	NUM	CD	_	28	D	28:D	_
+31	,	,	PUNCT	,	_	8	U	8:U	_
+32	and	and	CCONJ	CC	_	8	L	8:L	_
+33	by	by	ADP	IN	_	35	R	35:R	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	time	time	NOUN	NN	_	8	L	8:L	_
+36	it	it	PRON	PRP	_	37	A	37:A	_
+37	aired	aire	VERB	VBD	_	8	H	8:H	_
+38	,	,	PUNCT	,	_	8	U	8:U	_
+39	it	it	PRON	PRP	_	41	A	41:A	_
+40	had	have	AUX	VBD	_	41	F	41:F	_
+41	cost	cost	VERB	VBN	_	8	H	8:H	_
+42	the	the	DET	DT	_	43	E	43:E	_
+43	network	network	NOUN	NN	_	41	A	41:A	_
+44	$	$	SYM	$	_	41	U	41:U	_
+45	25	25	NUM	CD	_	41	A	41:A	_
+46	million	million	NUM	CD	_	45	Terminal	45:Terminal	_
+47	.	.	PUNCT	.	_	41	U	41:U	_
+

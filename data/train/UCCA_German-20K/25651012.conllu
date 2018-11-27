@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25651012
+# text = Einige Augenblicke beobachtete ich noch den Sterbenden .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Augenblicke	Augenblick	NOUN	NN	_	3	D	3:D	_
+3	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	noch	noch	ADV	ADV	_	3	D	3:D	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Sterbenden	Sterbende	NOUN	NE	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

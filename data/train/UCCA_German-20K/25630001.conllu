@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25630001
+# text = Der » große Smaragdvogel « ist einer der seltensten .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	große	groß	ADJ	ADJA	_	9	A	9:A	_
+4	Smaragdvogel	Smaragdvogel	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	«	«	PUNCT	$(	_	9	U	9:U	_
+6	ist	sein	AUX	NN	_	9	F	9:F	_
+7	einer	ein	PRON	PIS	_	9	D	9:D	_
+8	der	der	DET	ART	_	7	R	7:R	_
+9	seltensten	selten	ADJ	NN	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

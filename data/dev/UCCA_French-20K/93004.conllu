@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 93004
+# text = Ainsi donc , en 1867 , la Compagnie possédait douze navires , dont huit à roues et quatre à hélices .
+1	Ainsi	ainsi	ADV	_	_	9	L	9:L	_
+2	donc	donc	ADV	_	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	_	_	9	U	9:U	_
+4	en	en	ADP	_	_	5	R	5:R	_
+5	1867	1867	NUM	_	_	9	D	9:D	_
+6	,	,	PUNCT	_	_	9	U	9:U	_
+7	la	le	DET	_	_	8	E	8:E	_
+8	Compagnie	compagnie	NOUN	_	_	9	A	9:A	_
+9	possédait	posséder	VERB	_	_	0	H	0:H	_
+10	douze	douze	NUM	_	_	11	E	11:E	_
+11	navires	navire	NOUN	_	_	9	A	9:A	_
+12	,	,	PUNCT	_	_	11	U	11:U	_
+13	dont	dont	PRON	_	_	14	R	14:R	_
+14	huit	huir	NUM	_	_	11	E	11:E	_
+15	à	à	ADP	_	_	16	R	16:R	_
+16	roues	roue	NOUN	_	_	14	E	14:E	_
+17	et	et	CCONJ	_	_	14	N	14:N	_
+18	quatre	quatre	NUM	_	_	14	C	14:C	_
+19	à	à	ADP	_	_	20	R	20:R	_
+20	hélices	hélice	NOUN	_	_	18	E	18:E	_
+21	.	.	PUNCT	_	_	20	U	20:U	_
+

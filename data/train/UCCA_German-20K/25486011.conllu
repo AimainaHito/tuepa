@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25486011
+# text = Das wollte der Kommandant benutzen .
+1	Das	der	PRON	PDS	_	5	A	5:A	_
+2	wollte	wollen	AUX	VMFIN	_	5	D	5:D	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Kommandant	Kommandant	NOUN	NN	_	5	A	5:A	_
+5	benutzen	benutzen	VERB	VVINF	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

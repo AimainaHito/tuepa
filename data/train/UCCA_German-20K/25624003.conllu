@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25624003
+# text = » Mein Herr « , sagte er zu mir , » ich bin des Todes , wenn ich nicht ein wenig Pastete von dieser Brotfrucht koste ! «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	15	G	15:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	er	er	PRON	PPER	_	6	A	6:A	_
+8	zu	zu	ADP	VVINF	_	9	R	9:R	_
+9	mir	ich	PRON	PPER	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	6	U	6:U	_
+11	»	»	PUNCT	$(	_	6	U	6:U	_
+12	ich	ich	PRON	PPER	_	15	A	15:A	_
+13	bin	sein	AUX	VAFIN	_	15	F	15:F	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Todes	Tod	NOUN	NN	_	6	A	6:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	wenn	wenn	SCONJ	VVFIN	_	15	L	15:L	_
+18	ich	ich	PRON	PPER	_	26	A	26:A	_
+19	nicht	nicht	PART	CARD	_	26	D	26:D	_
+20	ein	ein	DET	ART	_	22	E	22:E	_
+21	wenig	wenig	ADJ	NN	_	22	E	22:E	_
+22	Pastete	Pastete	NOUN	NE	_	26	A	26:A	_
+23	von	von	ADP	NE	_	25	R	25:R	_
+24	dieser	dies	PRON	PDAT	_	25	E	25:E	_
+25	Brotfrucht	Brotfrucht	NOUN	NN	_	22	E	22:E	_
+26	koste	kosen	VERB	VVFIN	_	15	H	15:H	_
+27	!	!	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

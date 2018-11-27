@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25720024
+# text = Unsere rasche Fahrt durchs Mittelmeer hatte ihm nicht gestattet , sein Vorhaben in Ausführung zu bringen , und er konnte sein Mißbehagen kaum verheimlichen .
+1	Unsere	unser	DET	PPOSAT	_	3	E	3:E	_
+2	rasche	rasch	ADJ	ADJA	_	3	E	3:E	_
+3	Fahrt	Fahrt	NOUN	NN	_	9	A	9:A	_
+4	durchs	durchs	PROPN	NE	_	5	R	5:R	_
+5	Mittelmeer	Mittelmeer	PROPN	NE	_	3	E	3:E	_
+6	hatte	haben	AUX	VAFIN	_	9	F	9:F	_
+7	ihm	er	PRON	PPER	_	9	A	9:A	_
+8	nicht	nicht	PART	XY	_	9	D	9:D	_
+9	gestattet	gestatten|statten	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	sein	sein	DET	PPOSAT	_	12	E	12:E	_
+12	Vorhaben	Vorhaben	NOUN	NN	_	14	A	14:A	_
+13	in	in	ADP	APPR	_	14	R	14:R	_
+14	Ausführung	Ausführung	NOUN	NN	_	9	A	9:A	_
+15	zu	zu	PART	VVINF	_	14	F	14:F	_
+16	bringen	bringen	VERB	VVINF	_	14	F	14:F	_
+17	,	,	PUNCT	$,	_	9	U	9:U	_
+18	und	und	CCONJ	NE	_	9	L	9:L	_
+19	er	er	PRON	PPER	_	24	A	24:A	_
+20	konnte	können	AUX	VMFIN	_	24	D	24:D	_
+21	sein	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Mißbehagen	Mißbehage	NOUN	NN	_	24	A	24:A	_
+23	kaum	kaum	ADV	ADV	_	24	D	24:D	_
+24	verheimlichen	verheimlichen	VERB	ADJA	_	9	H	9:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

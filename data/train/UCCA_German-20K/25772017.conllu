@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25772017
+# text = Die magere Flora dieser Gegend bestand aus einigen Flechten auf den schwarzen Felsen , gewissen mikroskopischen Pflänzchen , eine Art Zellen in quarzartigen Muscheln , langem , purpur- und carmoisinfarbigem Seetang auf Schwimmbläschen .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	magere	mager	ADJ	ADJA	_	3	E	3:E	_
+3	Flora	Flora	PROPN	NN	_	6	A	6:A	_
+4	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+5	Gegend	Gegend	NOUN	NN	_	3	E	3:E	_
+6	bestand	bestehen	VERB	VVFIN	_	0	H	0:H	_
+7	aus	aus	ADP	APPR	_	9	R	9:R	_
+8	einigen	einige	PRON	PIAT	_	9	E	9:E	_
+9	Flechten	Flechte|Flechten	NOUN	NN	_	6	A	6:A	_
+10	auf	auf	ADP	APPR	_	13	R	13:R	_
+11	den	der	DET	ART	_	13	E	13:E	_
+12	schwarzen	schwarz	ADJ	ADJA	_	13	E	13:E	_
+13	Felsen	Felsen	NOUN	NN	_	9	E	9:E	_
+14	,	,	PUNCT	$,	_	6	U	6:U	_
+15	gewissen	wissen	VERB	ADJA	_	17	E	17:E	_
+16	mikroskopischen	mikroskopisch	ADJ	ADJA	_	17	E	17:E	_
+17	Pflänzchen	Pflänzchen	NOUN	ADJA	_	6	A	6:A	_
+18	,	,	PUNCT	$,	_	6	U	6:U	_
+19	eine	ein	DET	ART	_	20	E	20:E	_
+20	Art	Art	NOUN	NN	_	21	E	21:E	_
+21	Zellen	Zelle	NOUN	NN	_	6	A	6:A	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	quarzartigen	quarzartig	ADJ	ADJA	_	24	E	24:E	_
+24	Muscheln	Muschel	NOUN	NN	_	21	E	21:E	_
+25	,	,	PUNCT	$,	_	6	U	6:U	_
+26	langem	lang	NOUN	NN	_	31	E	31:E	_
+27	,	,	PUNCT	$,	_	31	U	31:U	_
+28	purpur-	purpur-	PUNCT	_	_	31	E	31:E	_
+29	und	und	CCONJ	NE	_	28	N	28:N	_
+30	carmoisinfarbigem	carmoisinfarbigem	ADJ	ADJA	_	28	C	28:C	_
+31	Seetang	Seetang	NOUN	NN	_	6	A	6:A	_
+32	auf	auf	ADP	APPR	_	33	R	33:R	_
+33	Schwimmbläschen	Schwimmbläschen	NOUN	ADJA	_	31	E	31:E	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

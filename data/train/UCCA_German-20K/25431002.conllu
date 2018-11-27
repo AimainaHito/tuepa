@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25431002
+# text = Es entstand die äußerste Aufregung .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	entstand	entstehen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	äußerste	äußer	ADJ	ADJA	_	5	E	5:E	_
+5	Aufregung	Aufregung	NOUN	NN	_	2	A	2:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

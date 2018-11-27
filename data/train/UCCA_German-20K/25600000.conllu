@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25600000
+# text = Ich bewunderte das prachtvolle Aussehen des Ozeans , als Kapitän Nemo erschien .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bewunderte	bewunderen	VERB	VVFIN	_	0	H	0:H	_
+3	das	der	DET	ART	_	5	E	5:E	_
+4	prachtvolle	prachtvoll	ADJ	ADJA	_	5	E	5:E	_
+5	Aussehen	Aussehen	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Ozeans	Ozeans	NOUN	NN	_	5	E	5:E	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	als	als	ADP	KOUS	_	2	L	2:L	_
+10	Kapitän	Kapitän	PROPN	NN	_	11	E	11:E	_
+11	Nemo	Nemo	PROPN	NE	_	12	A	12:A	_
+12	erschien	erscheinen	VERB	VVFIN	_	2	H	2:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

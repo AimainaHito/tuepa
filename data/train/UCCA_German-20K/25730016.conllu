@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25730016
+# text = » Was Sie da sagen , Kapitän , erhöht nur meine Neugierde .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Was	was	PRON	NE	_	5	A	5:A	_
+3	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+4	da	da	ADV	ADV	_	5	A	5:A	_
+5	sagen	sagen	VERB	VVINF	_	9	A	9:A	_
+6	,	,	PUNCT	$,	_	9	U	9:U	_
+7	Kapitän	Kapitän	NOUN	NN	_	9	G	9:G	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	erhöht	erhöhen	VERB	VVFIN	_	0	H	0:H	_
+10	nur	nur	ADV	NE	_	9	D	9:D	_
+11	meine	mein	PRON	VVFIN	_	12	E	12:E	_
+12	Neugierde	Neugierde	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

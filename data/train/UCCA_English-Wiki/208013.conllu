@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 208013
+# text = Hoffman 's largest film failure was Elaine May 's Ishtar , with Warren Beatty .
+1	Hoffman	Hoffman	PROPN	NNP	_	5	E	5:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	largest	largest	ADJ	JJS	_	5	E	5:E	_
+4	film	film	NOUN	NN	_	5	E	5:E	_
+5	failure	failure	NOUN	NN	_	6	A	6:A	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	Elaine	Elaine	PROPN	NNP	_	10	E	10:E	_
+8	May	May	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	Ishtar	Ishtar	PROPN	NNP	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	Warren	Warren	PROPN	NNP	_	10	E	10:E	_
+14	Beatty	Beatty	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

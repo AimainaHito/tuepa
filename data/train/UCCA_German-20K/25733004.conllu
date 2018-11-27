@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25733004
+# text = Mitten in diesen steinigen Irrgängen , die den Grund des Atlantiks durchzogen , ging Kapitän Nemo ohne Anstoß weiter ; er kannte die dunklen Pfade .
+1	Mitten	mitten	ADV	ADV	_	5	R	5:R	_
+2	in	in	ADP	APPR	_	5	R	5:R	_
+3	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+4	steinigen	steinig	ADJ	ADJA	_	5	E	5:E	_
+5	Irrgängen	Irrgäng	NOUN	NN	_	14	A	14:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	die	der	PRON	PRELS	_	12	R	12:R	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Grund	Grund	NOUN	NN	_	12	A	12:A	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Atlantiks	Atlantik	NOUN	NE	_	9	E	9:E	_
+12	durchzogen	durchziehen	VERB	VVPP	_	5	E	5:E	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	ging	gehen	VERB	VVFIN	_	0	H	0:H	_
+15	Kapitän	Kapitän	PROPN	NN	_	16	E	16:E	_
+16	Nemo	Nemo	PROPN	NE	_	0	C	0:C|18:A	_
+17	ohne	ohne	ADP	CARD	_	18	D	18:D	_
+18	Anstoß	Anstoß	NOUN	NN	_	14	H	14:H	_
+19	weiter	weiter	ADV	ADV	_	14	Terminal	14:Terminal	_
+20	;	;	PUNCT	$.	_	14	U	14:U	_
+21	er	er	PRON	PPER	_	22	A	22:A	_
+22	kannte	kennen	VERB	VVFIN	_	14	H	14:H	_
+23	die	der	DET	ART	_	25	E	25:E	_
+24	dunklen	dunkel	ADJ	ADJA	_	25	E	25:E	_
+25	Pfade	Pfad	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

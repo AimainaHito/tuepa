@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 673001
+# text = On July 7 , 2009 , Carey - alongside Trey Lorenz - performed her version of The Jackson 5 song " I 'll Be There " at the memorial service for Michael Jackson .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	July	July	PROPN	NNP	_	13	D	13:D	_
+3	7	7	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	13	U	13:U	_
+7	Carey	Carey	PROPN	NNP	_	13	A	13:A	_
+8	-	-	PUNCT	,	_	7	U	7:U	_
+9	alongside	alongside	ADP	IN	_	10	R	10:R	_
+10	Trey	Trey	PROPN	NNP	_	7	E	7:E	_
+11	Lorenz	Lorenz	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	-	-	PUNCT	,	_	13	U	13:U	_
+13	performed	perform	VERB	VBD	_	0	H	0:H	_
+14	her	she	PRON	PRP$	_	15	E	15:E	_
+15	version	version	NOUN	NN	_	13	A	13:A	_
+16	of	of	ADP	IN	_	22	R	22:R	_
+17	The	the	DET	DT	_	20	E	20:E	_
+18	Jackson	Jackson	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	5	5	NUM	CD	_	17	Terminal	17:Terminal	_
+20	song	song	NOUN	NN	_	22	E	22:E	_
+21	"	"	PUNCT	''	_	22	U	22:U	_
+22	I	I	PRON	PRP	_	15	E	15:E	_
+23	'll	will	AUX	MD	_	22	Terminal	22:Terminal	_
+24	Be	be	VERB	VB	_	22	Terminal	22:Terminal	_
+25	There	there	PRON	EX	_	22	Terminal	22:Terminal	_
+26	"	"	PUNCT	''	_	13	U	13:U	_
+27	at	at	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	memorial	memorial	ADJ	JJ	_	30	E	30:E	_
+30	service	service	NOUN	NN	_	13	A	13:A	_
+31	for	for	ADP	IN	_	32	R	32:R	_
+32	Michael	Michael	PROPN	NNP	_	30	E	30:E	_
+33	Jackson	Jackson	PROPN	NNP	_	32	Terminal	32:Terminal	_
+34	.	.	PUNCT	.	_	32	U	32:U	_
+

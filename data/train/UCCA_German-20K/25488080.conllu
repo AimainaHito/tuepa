@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25488080
+# text = » Was hast du gesehen ?
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Was	was	PRON	NE	_	5	A	5:A	_
+3	hast	haben	AUX	VAFIN	_	5	F	5:F	_
+4	du	du	PRON	PPER	_	5	A	5:A	_
+5	gesehen	sehen	VERB	VVINF	_	0	H	0:H	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 672011
+# text = Carey did not address those allegations until two years later on October 28 , 2010 , which was the same day she announced her new pregnancy ; she admitted that she had indeed been pregnant during that time period , and suffered a miscarriage .
+1	Carey	Carey	PROPN	NNP	_	4	A	4:A	_
+2	did	do	AUX	VBD	_	4	F	4:F	_
+3	not	not	PART	RB	_	4	D	4:D	_
+4	address	address	VERB	VB	_	0	H	0:H	_
+5	those	those	DET	DT	_	6	E	6:E	_
+6	allegations	allegation	NOUN	NNS	_	4	A	4:A	_
+7	until	until	ADP	IN	_	12	R	12:R	_
+8	two	two	NUM	CD	_	9	E	9:E	_
+9	years	year	NOUN	NNS	_	12	E	12:E	_
+10	later	later	ADV	RB	_	9	R	9:R	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	October	October	PROPN	NNP	_	4	D	4:D	_
+13	28	28	NUM	CD	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	2010	2010	NUM	CD	_	12	Terminal	12:Terminal	_
+16	,	,	PUNCT	,	_	4	U	4:U	_
+17	which	which	PRON	WDT	_	21	R	21:R	_
+18	was	be	AUX	VBD	_	21	F	21:F	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	same	same	ADJ	JJ	_	21	E	21:E	_
+21	day	day	NOUN	NN	_	4	L	4:L	_
+22	she	she	PRON	PRP	_	23	A	23:A	_
+23	announced	announce	VERB	VBD	_	4	H	4:H	_
+24	her	she	PRON	PRP$	_	26	E	26:E	_
+25	new	new	ADJ	JJ	_	26	E	26:E	_
+26	pregnancy	pregnancy	NOUN	NN	_	23	A	23:A	_
+27	;	;	PUNCT	,	_	4	U	4:U	_
+28	she	she	PRON	PRP	_	29	A	29:A	_
+29	admitted	admit	VERB	VBD	_	4	H	4:H	_
+30	that	that	SCONJ	IN	_	35	R	35:R	_
+31	she	she	PRON	PRP	_	35	A	35:A|42:A	_
+32	had	have	AUX	VBD	_	35	F	35:F	_
+33	indeed	indeed	ADV	RB	_	35	D	35:D	_
+34	been	be	AUX	VBN	_	35	D	35:D	_
+35	pregnant	pregnant	ADJ	JJ	_	29	A	29:A	_
+36	during	during	ADP	IN	_	39	R	39:R	_
+37	that	that	DET	DT	_	39	E	39:E	_
+38	time	time	NOUN	NN	_	39	E	39:E	_
+39	period	period	NOUN	NN	_	35	D	35:D	_
+40	,	,	PUNCT	,	_	35	U	35:U	_
+41	and	and	CCONJ	CC	_	35	L	35:L	_
+42	suffered	suffer	VERB	VBD	_	35	H	35:H	_
+43	a	a	DET	DT	_	44	E	44:E	_
+44	miscarriage	miscarriage	NOUN	NN	_	42	A	42:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

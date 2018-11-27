@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25487004
+# text = Der Kanadier begab sich wieder auf seinen Posten am Bugspriet .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+3	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	wieder	wieder	ADV	NN	_	3	D	3:D	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	seinen	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Posten	Posten	NOUN	NN	_	3	A	3:A	_
+9	am	am	ADJ	NE	_	10	R	10:R	_
+10	Bugspriet	Bugspriet	NOUN	NE	_	8	E	8:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25603008
+# text = Doch hoffte ich , es werde sich noch einmal Gelegenheit ergeben , die Wälder des Ozeans zu besuchen .
+1	Doch	doch	ADV	KON	_	2	L	2:L	_
+2	hoffte	hoffen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	es	es	PRON	PPER	_	7	F	7:F	_
+6	werde	werden	AUX	NN	_	7	F	7:F	_
+7	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+8	noch	noch	ADV	VVINF	_	9	E	9:E	_
+9	einmal	einmal	ADV	ADV	_	7	D	7:D	_
+10	Gelegenheit	Gelegenheit	NOUN	NN	_	7	A	7:A	_
+11	ergeben	ergeben	VERB	VVINF	_	7	Terminal	7:Terminal	_
+12	,	,	PUNCT	$,	_	7	U	7:U	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Wälder	Wälder	NOUN	NN	_	18	A	18:A	_
+15	des	der	DET	ART	_	16	R	16:R	_
+16	Ozeans	Ozeans	PROPN	NN	_	14	E	14:E	_
+17	zu	zu	PART	NE	_	18	F	18:F	_
+18	besuchen	besuchen	VERB	VVINF	_	10	E	10:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

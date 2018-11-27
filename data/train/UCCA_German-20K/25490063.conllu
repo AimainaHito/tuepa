@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25490063
+# text = « » Die Wahrheit zu sagen , so weiß ich die Dauer so wenig wie Sie , Freund Land .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Die	der	DET	ART	_	4	E	4:E	_
+4	Wahrheit	Wahrheit	NOUN	NN	_	6	A	6:A	_
+5	zu	zu	PART	VVINF	_	6	F	6:F	_
+6	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	so	so	ADV	ADV	_	6	L	6:L	_
+9	weiß	wissen	VERB	VVFIN	_	6	H	6:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A|6:A	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Dauer	Dauer	NOUN	NN	_	9	A	9:A	_
+13	so	so	ADV	ADV	_	14	E	14:E	_
+14	wenig	wenig	ADV	ADJA	_	9	D	9:D	_
+15	wie	wie	ADP	ADV	_	16	R	16:R	_
+16	Sie	Sie|sie	PRON	PPER	_	6	H	6:H	_
+17	,	,	PUNCT	$,	_	6	U	6:U	_
+18	Freund	Freund	NOUN	NN	_	19	E	19:E	_
+19	Land	Land	NOUN	NN	_	9	G	9:G	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

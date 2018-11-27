@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25808019
+# text = » Wirklich , er hat recht « , sagte ich . » Ich habe von diesem Gemälde reden hören ; aber der dargestellte Gegenstand ist aus einer Legende genommen , und Sie wissen , was von Legenden in Hinsicht auf Natur geschichte zu halten ist ! «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Wirklich	wirklich	NOUN	ADV	_	6	G	6:G	_
+3	,	,	PUNCT	$,	_	6	U	6:U	_
+4	er	er	PRON	PPER	_	6	A	6:A	_
+5	hat	haben	VERB	VAFIN	_	6	F	6:F	_
+6	recht	recht	ADV	NE	_	9	A	9:A	_
+7	«	«	PUNCT	$.	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	Ich	ich	PRON	PPER	_	19	A	19:A	_
+14	habe	haben	AUX	VAFIN	_	19	F	19:F	_
+15	von	von	ADP	NN	_	17	R	17:R	_
+16	diesem	dies	PRON	PDAT	_	17	E	17:E	_
+17	Gemälde	Gemälde	NOUN	NN	_	18	A	18:A	_
+18	reden	reden	ADJ	ADJD	_	19	A	19:A	_
+19	hören	hören	VERB	VVFIN	_	6	H	6:H	_
+20	;	;	PUNCT	$.	_	6	U	6:U	_
+21	aber	aber	CCONJ	ADV	_	6	L	6:L	_
+22	der	der	DET	ART	_	24	E	24:E	_
+23	dargestellte	dargestellt	ADJ	ADJA	_	24	E	24:E	_
+24	Gegenstand	Gegenstand	NOUN	NN	_	29	A	29:A	_
+25	ist	sein	AUX	VVFIN	_	29	F	29:F	_
+26	aus	aus	ADP	APPR	_	28	R	28:R	_
+27	einer	ein	DET	ART	_	28	E	28:E	_
+28	Legende	Legende	NOUN	NN	_	29	A	29:A	_
+29	genommen	nehmen	VERB	VVPP	_	6	H	6:H	_
+30	,	,	PUNCT	$,	_	6	U	6:U	_
+31	und	und	CCONJ	NE	_	6	L	6:L	_
+32	Sie	Sie|sie	PRON	PPER	_	33	A	33:A	_
+33	wissen	wissen	VERB	VVINF	_	6	H	6:H	_
+34	,	,	PUNCT	$,	_	33	U	33:U	_
+35	was	was	PRON	NE	_	44	A	44:A	_
+36	von	von	ADP	NE	_	37	R	37:R	_
+37	Legenden	Legenden	PROPN	NE	_	44	A	44:A	_
+38	in	in	ADP	APPR	_	44	A	44:A	_
+39	Hinsicht	Hinsicht	NOUN	NN	_	38	Terminal	38:Terminal	_
+40	auf	auf	ADP	APPR	_	38	Terminal	38:Terminal	_
+41	Natur	Natur	NOUN	NN	_	42	E	42:E	_
+42	geschichte	geschichen	VERB	ADJA	_	38	A	38:A	_
+43	zu	zu	PART	VVINF	_	44	F	44:F	_
+44	halten	halten	VERB	VVINF	_	33	A	33:A	_
+45	ist	sein	AUX	VVFIN	_	44	D	44:D	_
+46	!	!	PUNCT	$.	_	44	U	44:U	_
+47	«	«	PUNCT	$(	_	44	U	44:U	_
+

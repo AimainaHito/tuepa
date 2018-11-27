@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 378005
+# text = Gyllenhaal later starred in the Touchstone Pictures romantic comedy Bubble Boy , which was loosely based on the story of David Vetter .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	L	3:L	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	10	R	10:R	_
+5	the	the	DET	DT	_	9	R	9:R	_
+6	Touchstone	Touchstone	PROPN	NNP	_	9	E	9:E	_
+7	Pictures	Pictures	PROPN	NNPS	_	6	Terminal	6:Terminal	_
+8	romantic	romantic	ADJ	JJ	_	9	E	9:E	_
+9	comedy	comedy	NOUN	NN	_	10	E	10:E	_
+10	Bubble	bubble	PROPN	NNP	_	3	A	3:A	_
+11	Boy	Boy	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	which	which	PRON	WDT	_	16	F	16:F	_
+14	was	be	AUX	VBD	_	16	F	16:F	_
+15	loosely	loosely	ADV	RB	_	16	D	16:D	_
+16	based	base	VERB	VBN	_	10	E	10:E	_
+17	on	on	ADP	IN	_	21	R	21:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	story	story	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	David	David	PROPN	NNP	_	16	A	16:A	_
+22	Vetter	Vetter	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	.	_	21	U	21:U	_
+

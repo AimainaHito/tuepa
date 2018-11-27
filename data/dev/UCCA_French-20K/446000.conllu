@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 446000
+# text = L' émotion causée par cette nouvelle fut extrême .
+1	L'	le	DET	_	_	2	E	2:E	_
+2	émotion	émotion	NOUN	_	_	8	A	8:A	_
+3	causée	causer	VERB	_	_	2	E	2:E	_
+4	par	par	ADP	_	_	6	R	6:R	_
+5	cette	ce	DET	_	_	6	E	6:E	_
+6	nouvelle	nouvelle	ADJ	_	_	3	A	3:A	_
+7	fut	être	AUX	_	_	8	F	8:F	_
+8	extrême	extrême	ADJ	_	_	0	H	0:H	_
+9	.	.	PUNCT	_	_	8	U	8:U	_
+

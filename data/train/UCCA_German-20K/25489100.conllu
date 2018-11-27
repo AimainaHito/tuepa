@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25489100
+# text = « » Das würde uns nichts helfen « , erwiderte Ned Land .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Das	der	PRON	ART	_	7	A	7:A	_
+4	würde	werden	AUX	NN	_	7	D	7:D	_
+5	uns	wir	PRON	NN	_	7	A	7:A	_
+6	nichts	nichts	PRON	NN	_	7	D	7:D	_
+7	helfen	helfen	VERB	VVINF	_	10	A	10:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	Land	Land	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

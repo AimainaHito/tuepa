@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25761001
+# text = Einigemal machten 10 bis 12 zusammen den Versuch , die ›Nautilus‹ durch ihre Masse zu zerdrücken .
+1	Einigemal	Einigemal	ADV	ADV	_	8	D	8:D	_
+2	machten	machen	VERB	VVFIN	_	8	F	8:F	_
+3	10	10	NUM	CARD	_	8	A	8:A	_
+4	bis	bis	ADP	KON	_	3	N	3:N	_
+5	12	12	NUM	CARD	_	3	C	3:C	_
+6	zusammen	zusammen	ADV	NN	_	8	D	8:D	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Versuch	Versuch	NOUN	NN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	DET	PRELS	_	11	E	11:E	_
+11	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	A	16:A	_
+12	durch	durch	ADP	APPR	_	14	R	14:R	_
+13	ihre	ihr	DET	PPOSAT	_	14	E	14:E	_
+14	Masse	Masse	NOUN	NN	_	16	A	16:A	_
+15	zu	zu	PART	VVINF	_	16	F	16:F	_
+16	zerdrücken	zerdrücken	VERB	VVINF	_	8	A	8:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

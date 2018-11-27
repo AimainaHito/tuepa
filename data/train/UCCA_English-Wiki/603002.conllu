@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 603002
+# text = " Their recording of " A Day in the Life " required a forty - piece orchestra , which Martin and McCartney took turns conducting .
+1	"	"	PUNCT	``	_	12	U	12:U	_
+2	Their	they	PRON	PRP$	_	3	A	3:A	_
+3	recording	recording	NOUN	NN	_	12	A	12:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	"	"	PUNCT	``	_	6	U	6:U	_
+6	A	a	DET	DT	_	3	A	3:A	_
+7	Day	day	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	6	Terminal	6:Terminal	_
+9	the	the	DET	DT	_	6	Terminal	6:Terminal	_
+10	Life	life	NOUN	NN	_	6	Terminal	6:Terminal	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	required	require	VERB	VBD	_	0	H	0:H	_
+13	a	a	DET	DT	_	17	E	17:E	_
+14	forty	forty	NOUN	NN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	piece	piece	NOUN	NN	_	17	E	17:E	_
+17	orchestra	orchestra	NOUN	NN	_	12	A	12:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	which	which	PRON	WDT	_	24	F	24:F	_
+20	Martin	Martin	PROPN	NNP	_	24	A	24:A|25:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	McCartney	McCartney	PROPN	NNP	_	20	C	20:C	_
+23	took	take	VERB	VBD	_	24	F	24:F	_
+24	turns	turn	NOUN	NNS	_	17	E	17:E	_
+25	conducting	conduct	VERB	VBG	_	24	A	24:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

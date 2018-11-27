@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 661013
+# text = While Carey felt strongly of her more soulful and powerful songs , it was decided that her most popular content to that point would be included .
+1	While	while	SCONJ	IN	_	3	L	3:L	_
+2	Carey	Carey	PROPN	NNP	_	3	A	3:A	_
+3	felt	feel	VERB	VBD	_	0	H	0:H	_
+4	strongly	strongly	ADV	RB	_	3	D	3:D	_
+5	of	of	ADP	IN	_	11	R	11:R	_
+6	her	she	PRON	PRP$	_	11	E	11:E	_
+7	more	more	ADJ	JJR	_	11	E	11:E	_
+8	soulful	soulful	ADJ	JJ	_	11	E	11:E	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	powerful	powerful	ADJ	JJ	_	8	C	8:C	_
+11	songs	song	NOUN	NNS	_	3	A	3:A	_
+12	,	,	PUNCT	,	_	3	U	3:U	_
+13	it	it	PRON	PRP	_	15	F	15:F	_
+14	was	be	AUX	VBD	_	15	F	15:F	_
+15	decided	decide	VERB	VBN	_	3	H	3:H	_
+16	that	that	SCONJ	IN	_	26	F	26:F	_
+17	her	she	PRON	PRP$	_	20	E	20:E	_
+18	most	most	ADV	RBS	_	19	E	19:E	_
+19	popular	popular	ADJ	JJ	_	20	E	20:E	_
+20	content	content	NOUN	NN	_	26	A	26:A	_
+21	to	to	ADP	IN	_	23	R	23:R	_
+22	that	that	DET	DT	_	23	E	23:E	_
+23	point	point	NOUN	NN	_	20	E	20:E	_
+24	would	would	AUX	MD	_	26	F	26:F	_
+25	be	be	AUX	VB	_	26	F	26:F	_
+26	included	include	VERB	VBN	_	15	A	15:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

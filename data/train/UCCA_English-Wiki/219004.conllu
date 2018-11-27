@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 219004
+# text = The film , which also stars Charlotte Gainsbourg , Kiefer Sutherland and Charlotte Rampling premiered at the 2011 Cannes Film Festival .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	15	A	15:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	which	which	PRON	WDT	_	6	F	6:F	_
+5	also	also	ADV	RB	_	6	D	6:D	_
+6	stars	star	VERB	VBZ	_	2	E	2:E	_
+7	Charlotte	Charlotte	PROPN	NNP	_	6	A	6:A	_
+8	Gainsbourg	Gainsbourg	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	Kiefer	Kiefer	PROPN	NNP	_	7	C	7:C	_
+11	Sutherland	Sutherland	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	7	N	7:N	_
+13	Charlotte	Charlotte	PROPN	NNP	_	7	C	7:C	_
+14	Rampling	Rampling	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	premiered	premier	VERB	VBD	_	0	H	0:H	_
+16	at	at	ADP	IN	_	21	R	21:R	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	2011	2011	NUM	CD	_	21	E	21:E	_
+19	Cannes	Cannes	PROPN	NNP	_	21	E	21:E	_
+20	Film	film	PROPN	NNP	_	21	E	21:E	_
+21	Festival	Festival	PROPN	NNP	_	15	A	15:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25652002
+# text = Die doppelte Tür wurde geöffnet , und in Begleitung von Kapitän Nemo mit einem Gefolge von zwölf Leuten der Mannschaft stellten wir uns in einer Tiefe von 10 Metern auf den festen Grund auf , wo die " Nautilus " ruhig lag .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	doppelte	doppelt	ADJ	ADJA	_	3	E	3:E	_
+3	Tür	Tür	NOUN	NN	_	5	A	5:A	_
+4	wurde	werden	AUX	TRUNC	_	5	F	5:F	_
+5	geöffnet	öffnen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	in	in	ADP	APPR	_	9	R	9:R	_
+9	Begleitung	Begleitung	NOUN	NN	_	21	A	21:A	_
+10	von	von	ADP	NE	_	12	R	12:R	_
+11	Kapitän	Kapitän	PROPN	FM	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	9	A	9:A	_
+13	mit	mit	ADP	APPR	_	15	R	15:R	_
+14	einem	ein	DET	ART	_	15	E	15:E	_
+15	Gefolge	Gefolge	NOUN	NN	_	21	A	21:A	_
+16	von	von	ADP	NN	_	18	R	18:R	_
+17	zwölf	zwölf	NUM	NN	_	18	E	18:E	_
+18	Leuten	Leute	NOUN	NN	_	15	E	15:E	_
+19	der	der	DET	ART	_	20	R	20:R	_
+20	Mannschaft	Mannschaft	NOUN	NN	_	18	E	18:E	_
+21	stellten	stellen	VERB	VVFIN	_	5	H	5:H	_
+22	wir	wir	PRON	NE	_	21	A	21:A|9:A	_
+23	uns	wir	PRON	NN	_	21	Terminal	21:Terminal	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	einer	ein	DET	ART	_	26	E	26:E	_
+26	Tiefe	Tiefe	NOUN	NN	_	21	A	21:A	_
+27	von	von	ADP	NE	_	28	R	28:R	_
+28	10	10	NUM	CARD	_	26	E	26:E	_
+29	Metern	Meter	NOUN	NN	_	28	Terminal	28:Terminal	_
+30	auf	auf	ADP	APPR	_	33	R	33:R	_
+31	den	der	DET	ART	_	33	E	33:E	_
+32	festen	fest	ADJ	ADJA	_	33	E	33:E	_
+33	Grund	Grund	NOUN	NN	_	21	A	21:A	_
+34	auf	auf	ADP	PTKVZ	_	21	Terminal	21:Terminal	_
+35	,	,	PUNCT	$,	_	21	U	21:U	_
+36	wo	wo	ADV	NN	_	42	R	42:R	_
+37	die	der	DET	ART	_	39	E	39:E	_
+38	"	"	PUNCT	$(	_	39	U	39:U	_
+39	Nautilus	Nautilus	PROPN	NE	_	42	A	42:A	_
+40	"	"	PUNCT	$(	_	42	U	42:U	_
+41	ruhig	ruhig	ADJ	ADJD	_	42	D	42:D	_
+42	lag	liegen	VERB	VVFIN	_	33	E	33:E	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

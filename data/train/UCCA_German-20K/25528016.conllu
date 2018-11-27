@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25528016
+# text = » Nicht gut ! Nicht gut ! « versetzte der Harpunier .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Nicht	nicht	PART	XY	_	3	D	3:D	_
+3	gut	gut	ADJ	ADJD	_	9	A	9:A	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	Nicht	nicht	PART	XY	_	6	D	6:D	_
+6	gut	gut	ADJ	ADJD	_	3	H	3:H	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Harpunier	Harpunier	NOUN	NN	_	9	A	9:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

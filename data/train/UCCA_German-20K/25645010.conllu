@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25645010
+# text = Wahrhafte Schnecken , waren wir an unser Gehäuse gebannt , und ich behaupte , es ist leicht eine vollendete Schnecke zu werden .
+1	Wahrhafte	Wahrhaft	ADJ	ADJA	_	2	E	2:E	_
+2	Schnecken	Schnecke	NOUN	NN	_	9	A	9:A	_
+3	,	,	PUNCT	$,	_	9	U	9:U	_
+4	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+5	wir	wir	PRON	NE	_	9	A	9:A	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	unser	unser	PRON	NN	_	8	E	8:E	_
+8	Gehäuse	Gehäuse	NOUN	NN	_	9	A	9:A	_
+9	gebannt	bannen	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	und	und	CCONJ	NE	_	9	L	9:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	behaupte	behaupn	VERB	VVFIN	_	9	H	9:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	es	es	PRON	PPER	_	17	F	17:F	_
+16	ist	sein	AUX	VVFIN	_	17	F	17:F	_
+17	leicht	leicht	ADJ	ADJD	_	13	A	13:A	_
+18	eine	ein	DET	ART	_	20	E	20:E	_
+19	vollendete	vollendet	ADJ	ADJA	_	20	E	20:E	_
+20	Schnecke	Schnecke	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	werden	werden	AUX	VVFIN	_	17	A	17:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

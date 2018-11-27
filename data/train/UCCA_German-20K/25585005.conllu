@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25585005
+# text = » Und sogar trockenen Fußes . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Und	und	CCONJ	NN	_	5	L	5:L	_
+3	sogar	sogar	ADV	ADV	_	5	D	5:D	_
+4	trockenen	trockenen	ADJ	ADJA	_	5	E	5:E	_
+5	Fußes	Fuß	NOUN	NN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

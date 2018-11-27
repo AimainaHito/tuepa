@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25639024
+# text = » Durch die geöffneten Luken . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Durch	durch	ADP	APPR	_	5	R	5:R	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	geöffneten	geöffnet	ADJ	ADJA	_	5	E	5:E	_
+5	Luken	Luken	NOUN	NN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

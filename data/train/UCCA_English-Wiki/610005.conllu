@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 610005
+# text = The tour earned a reported $ 126 . 2 million , an average of over $ 2 million per night , and Billboard named it the top tour of the year .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	tour	tour	NOUN	NN	_	3	A	3:A	_
+3	earned	earn	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	10	E	10:E	_
+5	reported	report	VERB	VBN	_	10	E	10:E	_
+6	$	$	SYM	$	_	10	U	10:U	_
+7	126	126	NUM	CD	_	10	E	10:E	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+9	2	2	NUM	CD	_	7	Terminal	7:Terminal	_
+10	million	million	NUM	CD	_	3	A	3:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	an	a	DET	DT	_	13	E	13:E	_
+13	average	average	NOUN	NN	_	10	E	10:E	_
+14	of	of	ADP	IN	_	18	R	18:R	_
+15	over	over	ADV	RB	_	18	E	18:E	_
+16	$	$	SYM	$	_	18	U	18:U	_
+17	2	2	NUM	CD	_	18	E	18:E	_
+18	million	million	NUM	CD	_	13	E	13:E	_
+19	per	per	ADP	IN	_	20	R	20:R	_
+20	night	night	NOUN	NN	_	18	E	18:E	_
+21	,	,	PUNCT	,	_	3	U	3:U	_
+22	and	and	CCONJ	CC	_	3	L	3:L	_
+23	Billboard	Billboard	PROPN	NNP	_	24	A	24:A	_
+24	named	nam	VERB	VBN	_	3	H	3:H	_
+25	it	it	PRON	PRP	_	24	A	24:A	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	top	top	ADJ	JJ	_	28	E	28:E	_
+28	tour	tour	NOUN	NN	_	24	A	24:A	_
+29	of	of	ADP	IN	_	31	R	31:R	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	year	year	NOUN	NN	_	28	E	28:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

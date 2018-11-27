@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 471007
+# text = Johnson had another productive season with averages of 19.6 points , 11.9 assists , and 6.2 rebounds per game .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A	_
+2	had	have	VERB	VBD	_	0	H	0:H	_
+3	another	another	DET	DT	_	5	E	5:E	_
+4	productive	productive	ADJ	JJ	_	5	E	5:E	_
+5	season	season	NOUN	NN	_	2	A	2:A	_
+6	with	with	ADP	IN	_	10	R	10:R	_
+7	averages	average	NOUN	NNS	_	10	E	10:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	19.6	19.6	NUM	CD	_	10	E	10:E	_
+10	points	point	NOUN	NNS	_	2	A	2:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	11.9	11.9	NUM	CD	_	13	E	13:E	_
+13	assists	assist	NOUN	NNS	_	10	C	10:C	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	and	and	CCONJ	CC	_	10	N	10:N	_
+16	6.2	6.2	NUM	CD	_	17	E	17:E	_
+17	rebounds	rebound	NOUN	NNS	_	10	C	10:C	_
+18	per	per	ADP	IN	_	19	R	19:R	_
+19	game	game	NOUN	NN	_	10	E	10:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

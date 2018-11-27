@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 217009
+# text = " She next appeared in the supporting role of Mary Svevo in Eternal Sunshine of the Spotless Mind ( 2004 ) , alongside Jim Carrey , Kate Winslet , and Tom Wilkinson .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	She	she	PRON	PRP	_	4	A	4:A	_
+3	next	next	ADV	RB	_	4	D	4:D	_
+4	appeared	appear	VERB	VBD	_	0	H	0:H	_
+5	in	in	ADP	IN	_	10	R	10:R	_
+6	the	the	DET	DT	_	10	E	10:E	_
+7	supporting	support	VERB	VBG	_	8	E	8:E	_
+8	role	role	NOUN	NN	_	10	E	10:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	Mary	Mary	PROPN	NNP	_	4	A	4:A	_
+11	Svevo	Svevo	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Eternal	Eternal	PROPN	NNP	_	10	E	10:E	_
+14	Sunshine	Sunshine	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+16	the	the	DET	DT	_	13	Terminal	13:Terminal	_
+17	Spotless	Spotless	NOUN	NN	_	13	Terminal	13:Terminal	_
+18	Mind	Mind	NOUN	NN	_	13	Terminal	13:Terminal	_
+19	(	(	PUNCT	-LRB-	_	13	U	13:U	_
+20	2004	2004	NUM	CD	_	13	E	13:E	_
+21	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+22	,	,	PUNCT	,	_	4	U	4:U	_
+23	alongside	alongside	ADP	IN	_	24	R	24:R	_
+24	Jim	Jim	PROPN	NNP	_	4	A	4:A	_
+25	Carrey	Carrey	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	,	_	24	U	24:U	_
+27	Kate	Kate	PROPN	NNP	_	24	C	24:C	_
+28	Winslet	Winslet	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	,	,	PUNCT	,	_	24	U	24:U	_
+30	and	and	CCONJ	CC	_	24	N	24:N	_
+31	Tom	Tom	PROPN	NNP	_	24	C	24:C	_
+32	Wilkinson	Wilkinson	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	.	.	PUNCT	.	_	24	U	24:U	_
+

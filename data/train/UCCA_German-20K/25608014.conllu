@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25608014
+# text = Diese Bai liefert treffliche Austern in reichlicher Menge .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Bai	Bao	NOUN	NE	_	3	A	3:A	_
+3	liefert	liefern	VERB	VVFIN	_	0	H	0:H	_
+4	treffliche	trefflich	ADJ	ADJA	_	5	E	5:E	_
+5	Austern	Auster	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	reichlicher	reichlich	ADJ	ADJA	_	8	E	8:E	_
+8	Menge	Menge	NOUN	NN	_	3	D	3:D	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

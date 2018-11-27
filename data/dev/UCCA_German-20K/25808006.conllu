@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25808006
+# text = » Entschuldigen Sie , Ned . Fischer und Gelehrte ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Entschuldigen	entschuldigen	NOUN	VVINF	_	0	H	0:H	_
+3	Sie	Sie|sie	PRON	PPER	_	2	F	2:F	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	Ned	Ned	NOUN	NE	_	2	G	2:G	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	Fischer	Fischer	NOUN	NE	_	2	H	2:H	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Gelehrte	Gelehrt	NOUN	VVFIN	_	7	C	7:C	_
+10	!	!	PUNCT	$.	_	7	U	7:U	_
+11	«	«	PUNCT	$(	_	7	U	7:U	_
+

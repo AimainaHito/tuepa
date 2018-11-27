@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25526002
+# text = Die Helle am Plafond erlosch , und zwar so rasch , dass meine Augen darüber Schmerz empfanden , gerade so wie bei plötzlichem Übergang aus dem Finstern zum blendenden Licht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Helle	hell	NOUN	NN	_	5	A	5:A	_
+3	am	ommen	VERB	ADJD	_	4	R	4:R	_
+4	Plafond	Plafond	PROPN	NN	_	2	E	2:E	_
+5	erlosch	erlosch	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	zwar	zwar	ADV	ADV	_	7	Terminal	7:Terminal	_
+9	so	so	ADV	ADV	_	5	L	5:L	_
+10	rasch	rasch	ADJ	ADJD	_	5	H	5:H	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	dass	dass	SCONJ	KOUS	_	5	L	5:L	_
+13	meine	mein	DET	PPOSAT	_	14	E	14:E	_
+14	Augen	Auge	NOUN	NN	_	17	A	17:A	_
+15	darüber	darüber	ADV	PAV	_	17	A	17:A	_
+16	Schmerz	Schmerz	NOUN	NN	_	17	A	17:A	_
+17	empfanden	empfinden	VERB	VVFIN	_	5	H	5:H	_
+18	,	,	PUNCT	$,	_	5	U	5:U	_
+19	gerade	gerade	ADV	ADV	_	20	E	20:E	_
+20	so	so	ADV	ADV	_	24	D	24:D	_
+21	wie	wie	ADP	KON	_	24	D	24:D	_
+22	bei	bei	ADP	APPR	_	24	R	24:R	_
+23	plötzlichem	plötzlich	ADJ	ADJA	_	24	D	24:D	_
+24	Übergang	Übergang	NOUN	NN	_	5	H	5:H	_
+25	aus	aus	ADP	APPR	_	27	R	27:R	_
+26	dem	der	DET	ART	_	27	E	27:E	_
+27	Finstern	Finster	NOUN	NE	_	24	A	24:A	_
+28	zum	zum	ADP	NN	_	30	R	30:R	_
+29	blendenden	blendend	ADJ	ADJA	_	30	E	30:E	_
+30	Licht	Licht	NOUN	NN	_	24	A	24:A	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

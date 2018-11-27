@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25790013
+# text = Mußten wir nicht alle ersticken , bevor die ›Nautilus‹ wieder an die Oberfläche des Wassers kommen konnte ?
+1	Mußten	müssen	AUX	NN	_	5	D	5:D	_
+2	wir	wir	PRON	NE	_	5	A	5:A	_
+3	nicht	nicht	PART	CARD	_	5	D	5:D	_
+4	alle	alle	PRON	PIS	_	5	A	5:A	_
+5	ersticken	ersticken	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	bevor	bevor	SCONJ	KOUS	_	5	L	5:L	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	›Nautilus‹	›Nautilus‹	NOUN	NE	_	16	A	16:A	_
+10	wieder	wieder	ADV	NE	_	16	D	16:D	_
+11	an	an	ADP	APPR	_	13	R	13:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Oberfläche	Oberfläche	NOUN	NN	_	16	A	16:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Wassers	Wasser	NOUN	NN	_	13	E	13:E	_
+16	kommen	kommen	VERB	VVINF	_	5	H	5:H	_
+17	konnte	können	AUX	VMFIN	_	16	D	16:D	_
+18	?	?	PUNCT	$.	_	16	U	16:U	_
+

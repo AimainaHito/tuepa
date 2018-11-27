@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25754011
+# text = Wollte sie zu dem Pol dringen , das wäre unsinnig gewesen .
+1	Wollte	wollen	AUX	VMFIN	_	6	D	6:D	_
+2	sie	sie	PRON	ADV	_	6	A	6:A	_
+3	zu	zu	ADP	VVINF	_	5	R	5:R	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Pol	pol	NOUN	NE	_	6	A	6:A	_
+6	dringen	dringen	VERB	VVFIN	_	10	A	10:A	_
+7	,	,	PUNCT	$,	_	10	U	10:U	_
+8	das	der	PRON	PRELS	_	10	F	10:F	_
+9	wäre	sein	AUX	ADV	_	10	D	10:D	_
+10	unsinnig	unsinnig	ADJ	ADJD	_	0	H	0:H	_
+11	gewesen	sein	AUX	PAV	_	10	F	10:F	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

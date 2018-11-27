@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 725002
+# text = ' " After Gia wrapped in 1997 , Jolie announced that she had given up acting for good , because she felt that she had " nothing else to give .
+1	'	'	PUNCT	``	_	5	U	5:U	_
+2	"	"	PUNCT	``	_	5	U	5:U	_
+3	After	after	SCONJ	IN	_	5	L	5:L	_
+4	Gia	Gia	PROPN	NNP	_	5	A	5:A	_
+5	wrapped	wrap	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	1997	1997	NUM	CD	_	5	D	5:D	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	Jolie	Jolie	PROPN	NNP	_	10	A	10:A	_
+10	announced	announce	VERB	VBD	_	5	H	5:H	_
+11	that	that	SCONJ	IN	_	16	F	16:F	_
+12	she	she	PRON	PRP	_	16	A	16:A	_
+13	had	have	AUX	VBD	_	16	F	16:F	_
+14	given	give	VERB	VBN	_	16	E	16:E	_
+15	up	up	ADP	RP	_	14	Terminal	14:Terminal	_
+16	acting	act	VERB	VBG	_	10	A	10:A	_
+17	for	for	ADP	IN	_	18	R	18:R	_
+18	good	good	ADJ	JJ	_	16	D	16:D	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	because	because	SCONJ	IN	_	16	L	16:L	_
+21	she	she	PRON	PRP	_	22	A	22:A	_
+22	felt	feel	VERB	VBD	_	16	H	16:H	_
+23	that	that	SCONJ	IN	_	30	F	30:F	_
+24	she	she	PRON	PRP	_	30	A	30:A	_
+25	had	have	VERB	VBD	_	30	F	30:F	_
+26	"	"	PUNCT	``	_	30	U	30:U	_
+27	nothing	nothing	PRON	NN	_	28	E	28:E	_
+28	else	else	ADJ	JJ	_	30	D	30:D	_
+29	to	to	PART	TO	_	30	F	30:F	_
+30	give	give	VERB	VB	_	22	A	22:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 25503004
+# text = Aber wissenschaftliche Werke waren darin vorzugsweise bedacht : Mechanik , Ballistik , Meteorologie , Geographie , Geologie usw . waren dabei nicht minder vertreten als die gesamte Natur geschichte , und ich sah wohl , dass ihnen der Kapitän vorzugsweise seine Studien widmete .
+1	Aber	aber	ADP	KON	_	7	L	7:L	_
+2	wissenschaftliche	wissenschaftlich	ADJ	NE	_	3	E	3:E	_
+3	Werke	Werk	NOUN	NN	_	7	A	7:A	_
+4	waren	sein	AUX	VAFIN	_	7	F	7:F	_
+5	darin	darin	ADV	PAV	_	7	A	7:A	_
+6	vorzugsweise	vorzugsweise	ADV	ADV	_	7	D	7:D	_
+7	bedacht	bedachen|bedenken	VERB	ADJD	_	0	H	0:H	_
+8	:	:	PUNCT	$.	_	7	U	7:U	_
+9	Mechanik	Mechanik	PROPN	NN	_	24	A	24:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	Ballistik	Ballistik	NOUN	NN	_	9	C	9:C	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	Meteorologie	Meteorologie	NOUN	NN	_	9	C	9:C	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	Geographie	Geographie	NOUN	NN	_	9	C	9:C	_
+16	,	,	PUNCT	$,	_	9	U	9:U	_
+17	Geologie	Geologie	NOUN	NN	_	9	C	9:C	_
+18	usw	usw	X	FM	_	9	C	9:C	_
+19	.	.	PUNCT	$.	_	24	U	24:U	_
+20	waren	sein	AUX	VAFIN	_	24	F	24:F	_
+21	dabei	dabei	ADV	PAV	_	24	A	24:A	_
+22	nicht	nicht	PART	CARD	_	23	E	23:E	_
+23	minder	minder	ADV	ADV	_	24	D	24:D	_
+24	vertreten	vertreten	ADJ	VVINF	_	7	H	7:H	_
+25	als	als	ADP	KOUS	_	29	R	29:R	_
+26	die	der	DET	ART	_	29	E	29:E	_
+27	gesamte	gesamt	ADJ	ADJA	_	29	E	29:E	_
+28	Natur	Natur	NOUN	NN	_	29	E	29:E	_
+29	geschichte	geschichen	VERB	ADJA	_	24	A	24:A	_
+30	,	,	PUNCT	$,	_	7	U	7:U	_
+31	und	und	CCONJ	NE	_	7	L	7:L	_
+32	ich	ich	PRON	PPER	_	33	A	33:A	_
+33	sah	sehen	VERB	VVFIN	_	7	H	7:H	_
+34	wohl	wohl	ADV	ADV	_	33	D	33:D	_
+35	,	,	PUNCT	$,	_	33	U	33:U	_
+36	dass	dass	SCONJ	KOUS	_	43	R	43:R	_
+37	ihnen	sie	PRON	PPER	_	43	A	43:A	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Kapitän	Kapitän	NOUN	NN	_	43	A	43:A	_
+40	vorzugsweise	vorzugsweise	ADV	ADV	_	43	D	43:D	_
+41	seine	sein	DET	PPOSAT	_	42	E	42:E	_
+42	Studien	Studie|Studium	NOUN	NN	_	43	A	43:A	_
+43	widmete	widmen	VERB	VVFIN	_	33	A	33:A	_
+44	.	.	PUNCT	$.	_	43	U	43:U	_
+

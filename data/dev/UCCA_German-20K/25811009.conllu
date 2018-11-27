@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25811009
+# text = Also ein Geleit nach Wunsch .
+1	Also	also	ADV	ADV	_	3	L	3:L	_
+2	ein	ein	DET	ART	_	3	E	3:E	_
+3	Geleit	Geleit	NOUN	NN	_	0	H	0:H	_
+4	nach	nach	ADP	XY	_	5	R	5:R	_
+5	Wunsch	Wunsch	NOUN	NN	_	3	A	3:A	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

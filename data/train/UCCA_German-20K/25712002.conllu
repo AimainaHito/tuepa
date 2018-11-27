@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25712002
+# text = » Und jetzt , Ned , wollen Sie meine Gedanken über Ihr Projekt vollständig kennen ? «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Und	und	CCONJ	NN	_	15	L	15:L	_
+3	jetzt	jetzt	ADV	ADV	_	15	D	15:D	_
+4	,	,	PUNCT	$,	_	15	U	15:U	_
+5	Ned	Ned	PROPN	NN	_	15	G	15:G	_
+6	,	,	PUNCT	$,	_	15	U	15:U	_
+7	wollen	wollen	AUX	VMFIN	_	15	D	15:D	_
+8	Sie	Sie|sie	PRON	PPER	_	15	A	15:A	_
+9	meine	mein	DET	PPOSAT	_	10	E	10:E	_
+10	Gedanken	Gedanke	NOUN	NN	_	15	A	15:A	_
+11	über	über	ADP	ADJD	_	13	R	13:R	_
+12	Ihr	Ihr|ihr	DET	PPOSAT	_	13	E	13:E	_
+13	Projekt	Projekt	NOUN	NN	_	15	A	15:A	_
+14	vollständig	vollständig	ADJ	ADJD	_	15	D	15:D	_
+15	kennen	kennen	VERB	VVFIN	_	0	H	0:H	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

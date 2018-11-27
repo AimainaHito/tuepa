@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25762003
+# text = Ich konnte mich nicht enthalten , meinen Ekel davor ihm zu erkennen zu geben .
+1	Ich	ich	PRON	PPER	_	3	A	3:A	_
+2	konnte	können	AUX	VMFIN	_	3	D	3:D	_
+3	mich	ich	PRON	PRF	_	0	H	0:H	_
+4	nicht	nicht	PART	XY	_	3	D	3:D	_
+5	enthalten	enthalten	VERB	VVINF	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	meinen	meinen	VERB	PPOSAT	_	8	E	8:E	_
+8	Ekel	Ekel	PROPN	NN	_	12	A	12:A	_
+9	davor	davor	ADV	PAV	_	12	A	12:A	_
+10	ihm	er	PRON	PPER	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	erkennen	erkennen	VERB	VVINF	_	3	H	3:H	_
+13	zu	zu	PART	VVINF	_	12	F	12:F	_
+14	geben	geben	VERB	VVINF	_	12	D	12:D	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

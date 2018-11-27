@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 556004
+# text = Singing and playing guitar , he opened with " Till I Waltz Again with You " , a recent hit for Teresa Brewer .
+1	Singing	Singe	VERB	VBG	_	0	H	0:H	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	playing	play	VERB	VBG	_	1	D	1:D	_
+4	guitar	guitar	NOUN	NN	_	1	C	1:C	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	he	he	PRON	PRP	_	7	A	7:A|1:A	_
+7	opened	open	VERB	VBD	_	1	H	1:H	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	"	"	PUNCT	``	_	10	U	10:U	_
+10	Till	till	PROPN	NNP	_	7	A	7:A	_
+11	I	I	PRON	PRP	_	10	Terminal	10:Terminal	_
+12	Waltz	Waltz	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	Again	again	ADV	RB	_	10	Terminal	10:Terminal	_
+14	with	with	ADP	IN	_	10	Terminal	10:Terminal	_
+15	You	you	PRON	PRP	_	10	Terminal	10:Terminal	_
+16	"	"	PUNCT	''	_	10	U	10:U	_
+17	,	,	PUNCT	,	_	10	U	10:U	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	recent	recent	ADJ	JJ	_	20	E	20:E	_
+20	hit	hit	NOUN	NN	_	10	E	10:E	_
+21	for	for	ADP	IN	_	22	R	22:R	_
+22	Teresa	Teresa	PROPN	NNP	_	20	E	20:E	_
+23	Brewer	Brewer	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

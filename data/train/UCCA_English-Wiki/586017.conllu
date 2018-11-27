@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 586017
+# text = " Depp subsequently decided to appear only in films that he felt were right for him .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	Depp	Depp	PROPN	NNP	_	4	A	4:A|6:A	_
+3	subsequently	subsequently	ADV	RB	_	4	D	4:D	_
+4	decided	decide	VERB	VBD	_	0	H	0:H	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	appear	appear	VERB	VB	_	4	A	4:A	_
+7	only	only	ADV	RB	_	6	D	6:D	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	films	film	NOUN	NNS	_	6	A	6:A	_
+10	that	that	PRON	WDT	_	12	R	12:R	_
+11	he	he	PRON	PRP	_	12	A	12:A	_
+12	felt	feel	VERB	VBD	_	9	E	9:E	_
+13	were	be	AUX	VBD	_	14	F	14:F	_
+14	right	right	ADJ	JJ	_	12	A	12:A	_
+15	for	for	ADP	IN	_	16	R	16:R	_
+16	him	he	PRON	PRP	_	14	A	14:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

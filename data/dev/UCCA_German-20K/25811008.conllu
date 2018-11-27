@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25811008
+# text = Sie gaben der ›Nautilus‹ das Geleit , und ich hörte , wie sie mit dem Schnabel am eisernen Schiffs rumpf kratzten .
+1	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+2	gaben	geben	VERB	VVFIN	_	6	D	6:D	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	›Nautilus‹	›Nautilus‹	NOUN	NE	_	6	A	6:A	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Geleit	Geleit	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	ich	ich	PRON	PPER	_	10	A	10:A	_
+10	hörte	hören	VERB	VVFIN	_	6	H	6:H	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wie	wie	SCONJ	KON	_	21	R	21:R	_
+13	sie	sie	PRON	ADV	_	21	A	21:A	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	dem	der	DET	ART	_	16	E	16:E	_
+16	Schnabel	Schnabel	NOUN	NN	_	21	A	21:A	_
+17	am	ommen	VERB	ADJD	_	20	R	20:R	_
+18	eisernen	eisern	ADJ	ADJA	_	20	E	20:E	_
+19	Schiffs	Schiff	NOUN	NN	_	20	E	20:E	_
+20	rumpf	rumpf	ADV	ADJD	_	21	A	21:A	_
+21	kratzten	kratzen	VERB	VVFIN	_	10	A	10:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

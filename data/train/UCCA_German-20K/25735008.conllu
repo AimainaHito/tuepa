@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25735008
+# text = Ich blickte auf die Seite , woher wir gekommen waren , zurück .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	blickte	blicken	VERB	VVFIN	_	0	H	0:H	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Seite	Seite	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	woher	woher	CCONJ	PWAV	_	9	R	9:R	_
+8	wir	wir	PRON	NE	_	9	A	9:A	_
+9	gekommen	kommen	VERB	VVPP	_	5	E	5:E	_
+10	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	zurück	zurück	ADV	ADJA	_	2	Terminal	2:Terminal	_
+13	.	.	PUNCT	$.	_	2	U	2:U	_
+

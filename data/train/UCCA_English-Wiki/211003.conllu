@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 211003
+# text = Luck was cancelled in March 2012 after three horses died on set .
+1	Luck	luck	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	cancelled	cancell	VERB	VBN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	March	March	PROPN	NNP	_	3	D	3:D	_
+6	2012	2012	NUM	CD	_	5	Terminal	5:Terminal	_
+7	after	after	ADP	IN	_	3	L	3:L	_
+8	three	three	NUM	CD	_	9	E	9:E	_
+9	horses	horse	NOUN	NNS	_	10	A	10:A	_
+10	died	die	VERB	VBN	_	3	H	3:H	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	set	set	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

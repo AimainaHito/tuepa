@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25792005
+# text = Mutlosigkeit befiel mich einen Augenblick , und die Hacke entfiel meinen Händen .
+1	Mutlosigkeit	Mutlosigkeit	NOUN	NN	_	0	H	0:H	_
+2	befiel	befallen	VERB	VVFIN	_	1	D	1:D	_
+3	mich	ich	PRON	PPER	_	1	A	1:A	_
+4	einen	ein	DET	ART	_	5	E	5:E	_
+5	Augenblick	Augenblick	NOUN	NN	_	1	A	1:A	_
+6	,	,	PUNCT	$,	_	1	U	1:U	_
+7	und	und	CCONJ	NE	_	1	L	1:L	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Hacke	Hacke	NOUN	NN	_	10	A	10:A	_
+10	entfiel	entfallen	VERB	VVFIN	_	1	H	1:H	_
+11	meinen	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Händen	Hand	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

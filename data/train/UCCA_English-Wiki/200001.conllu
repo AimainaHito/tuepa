@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 200001
+# text = On July 12 , 2007 , Variety reported that Sorkin had signed a deal with DreamWorks to write three scripts .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	July	July	PROPN	NNP	_	5	E	5:E	_
+3	12	12	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	2007	2007	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Variety	variety	PROPN	NNP	_	8	A	8:A	_
+8	reported	report	VERB	VBD	_	0	H	0:H	_
+9	that	that	SCONJ	IN	_	12	F	12:F	_
+10	Sorkin	Sorkin	PROPN	NNP	_	12	A	12:A|18:A	_
+11	had	have	AUX	VBD	_	12	F	12:F	_
+12	signed	sign	VERB	VBN	_	8	A	8:A	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	deal	deal	NOUN	NN	_	12	A	12:A	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	DreamWorks	DreamWorks	NOUN	NNS	_	14	E	14:E	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	write	write	VERB	VB	_	12	A	12:A	_
+19	three	three	NUM	CD	_	20	E	20:E	_
+20	scripts	script	NOUN	NNS	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

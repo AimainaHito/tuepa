@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25759001
+# text = Solche Gründe waren bei einem Jäger weggeworfene Worte .
+1	Solche	solch	PRON	PIAT	_	2	E	2:E	_
+2	Gründe	Grund	NOUN	NN	_	3	A	3:A	_
+3	waren	sein	AUX	VAFIN	_	0	H	0:H	_
+4	bei	bei	ADP	APPR	_	6	R	6:R	_
+5	einem	ein	DET	ART	_	6	E	6:E	_
+6	Jäger	Jäger	NOUN	NN	_	3	A	3:A	_
+7	weggeworfene	weggeworfen	ADJ	ADJA	_	3	A	3:A	_
+8	Worte	Wort	NOUN	NN	_	7	A	7:A	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

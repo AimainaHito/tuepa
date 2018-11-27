@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25490008
+# text = Eine baldige Änderung unserer Lage war durch nichts angezeigt , und ich fragte mich ernstlich , ob es unser Los sein werde , ewig in diesem Käfig zu leben .
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	baldige	baldig	ADJ	ADJA	_	3	E	3:E	_
+3	Änderung	Änderung	NOUN	NN	_	9	A	9:A	_
+4	unserer	unser	PRON	PPOSAT	_	5	E	5:E	_
+5	Lage	Lage	NOUN	NN	_	3	A	3:A	_
+6	war	sein	AUX	ADV	_	9	F	9:F	_
+7	durch	durch	ADP	APPR	_	8	R	8:R	_
+8	nichts	nichts	PRON	NN	_	9	A	9:A	_
+9	angezeigt	anzeigen	VERB	VVPP	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	und	und	CCONJ	NE	_	9	L	9:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	fragte	fragen	VERB	VVFIN	_	9	H	9:H	_
+14	mich	ich	PRON	PRF	_	13	A	13:A	_
+15	ernstlich	ernstlich	ADJ	ADJD	_	13	D	13:D	_
+16	,	,	PUNCT	$,	_	13	U	13:U	_
+17	ob	ob	SCONJ	VVFIN	_	20	R	20:R	_
+18	es	es	PRON	PPER	_	20	F	20:F	_
+19	unser	unser	DET	NE	_	20	R	20:R	_
+20	Los	Los	NOUN	NE	_	13	A	13:A	_
+21	sein	sein	AUX	VAINF	_	20	F	20:F	_
+22	werde	werden	AUX	NE	_	20	F	20:F	_
+23	,	,	PUNCT	$,	_	20	U	20:U	_
+24	ewig	ewig	ADV	ADJD	_	29	D	29:D	_
+25	in	in	ADP	APPR	_	27	R	27:R	_
+26	diesem	dies	PRON	PDAT	_	27	E	27:E	_
+27	Käfig	Käfig	NOUN	NN	_	29	A	29:A	_
+28	zu	zu	PART	VVINF	_	29	F	29:F	_
+29	leben	leben	VERB	VVINF	_	20	A	20:A	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

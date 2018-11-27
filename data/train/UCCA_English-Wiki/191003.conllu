@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 191003
+# text = When production on A Few Good Men wrapped up , Sorkin took over and continued working on the script for Malice through until the final shooting script .
+1	When	when	ADV	WRB	_	8	L	8:L	_
+2	production	production	NOUN	NN	_	8	A	8:A	_
+3	on	on	ADP	IN	_	4	R	4:R	_
+4	A	a	DET	DT	_	2	A	2:A	_
+5	Few	Few	ADJ	JJ	_	4	Terminal	4:Terminal	_
+6	Good	Good	ADJ	JJ	_	4	Terminal	4:Terminal	_
+7	Men	men	PROPN	NNPS	_	4	Terminal	4:Terminal	_
+8	wrapped	wrap	VERB	VBD	_	0	H	0:H	_
+9	up	up	ADP	RP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	Sorkin	Sorkin	PROPN	NNP	_	12	A	12:A	_
+12	took	take	VERB	VBD	_	8	H	8:H	_
+13	over	over	ADV	RB	_	12	Terminal	12:Terminal	_
+14	and	and	CCONJ	CC	_	8	L	8:L	_
+15	continued	continue	VERB	VBD	_	16	D	16:D	_
+16	working	work	VERB	VBG	_	8	H	8:H	_
+17	on	on	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	script	script	NOUN	NN	_	16	A	16:A	_
+20	for	for	ADP	IN	_	21	R	21:R	_
+21	Malice	Malice	PROPN	NNP	_	19	E	19:E	_
+22	through	through	ADV	RB	_	23	E	23:E	_
+23	until	until	ADP	IN	_	8	L	8:L	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	final	final	ADJ	JJ	_	27	E	27:E	_
+26	shooting	shooting	NOUN	NN	_	27	E	27:E	_
+27	script	script	NOUN	NN	_	8	H	8:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

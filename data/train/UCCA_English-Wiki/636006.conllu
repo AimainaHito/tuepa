@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 636006
+# text = Lennon described the venture as an attempt to achieve , " artistic freedom within a business structure " , but his increased drug experimentation and growing preoccupation with Yoko Ono , and McCartney 's own marriage plans , left Apple in need of professional management .
+1	Lennon	Lennon	PROPN	NNP	_	2	A	2:A	_
+2	described	describe	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	venture	venture	NOUN	NN	_	2	A	2:A	_
+5	as	as	ADP	IN	_	9	R	9:R	_
+6	an	a	DET	DT	_	9	E	9:E	_
+7	attempt	attempt	NOUN	NN	_	9	E	9:E	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	achieve	achieve	VERB	VB	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	"	"	PUNCT	``	_	9	U	9:U	_
+12	artistic	artistic	ADJ	JJ	_	13	E	13:E	_
+13	freedom	freedom	NOUN	NN	_	9	A	9:A	_
+14	within	within	ADP	IN	_	17	R	17:R	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	business	business	NOUN	NN	_	17	E	17:E	_
+17	structure	structure	NOUN	NN	_	9	A	9:A	_
+18	"	"	PUNCT	''	_	2	U	2:U	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	but	but	CCONJ	CC	_	2	L	2:L	_
+21	his	he	PRON	PRP$	_	24	A	24:A|27:A	_
+22	increased	increase	VERB	VBN	_	24	D	24:D	_
+23	drug	drug	NOUN	NN	_	24	A	24:A	_
+24	experimentation	experimentation	NOUN	NN	_	39	A	39:A	_
+25	and	and	CCONJ	CC	_	24	L	24:L	_
+26	growing	grow	VERB	VBG	_	27	D	27:D	_
+27	preoccupation	preoccupation	NOUN	NN	_	24	H	24:H	_
+28	with	with	ADP	IN	_	29	R	29:R	_
+29	Yoko	Yoko	PROPN	NNP	_	27	A	27:A	_
+30	Ono	Ono	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	24	U	24:U	_
+32	and	and	CCONJ	CC	_	24	L	24:L	_
+33	McCartney	McCartney	PROPN	NNP	_	36	A	36:A	_
+34	's	's	PART	POS	_	33	R	33:R	_
+35	own	own	ADJ	JJ	_	36	D	36:D	_
+36	marriage	marriage	NOUN	NN	_	24	H	24:H	_
+37	plans	plan	NOUN	NNS	_	36	E	36:E	_
+38	,	,	PUNCT	,	_	39	U	39:U	_
+39	left	leave	VERB	VBD	_	2	H	2:H	_
+40	Apple	Apple	PROPN	NNP	_	42	A	42:A	_
+41	in	in	ADP	IN	_	42	R	42:R	_
+42	need	need	NOUN	NN	_	39	A	39:A	_
+43	of	of	ADP	IN	_	45	R	45:R	_
+44	professional	professional	ADJ	JJ	_	45	E	45:E	_
+45	management	management	NOUN	NN	_	42	A	42:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

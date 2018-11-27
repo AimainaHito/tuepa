@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 150002
+# text = American president George W . Bush said Hepburn " will be remembered as one of the nation 's artistic treasures .
+1	American	american	ADJ	JJ	_	2	E	2:E	_
+2	president	president	PROPN	NNP	_	3	E	3:E	_
+3	George	George	PROPN	NNP	_	7	A	7:A	_
+4	W	W	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	.	.	PUNCT	.	_	3	U	3:U	_
+6	Bush	Bush	PROPN	NNP	_	3	Terminal	3:Terminal	_
+7	said	say	VERB	VBD	_	0	H	0:H	_
+8	Hepburn	Hepburn	PROPN	NNP	_	12	A	12:A	_
+9	"	"	PUNCT	``	_	12	U	12:U	_
+10	will	will	AUX	MD	_	12	F	12:F	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	remembered	remember	VERB	VBN	_	7	A	7:A	_
+13	as	as	SCONJ	IN	_	20	R	20:R	_
+14	one	one	NUM	CD	_	17	E	17:E	_
+15	of	of	ADP	IN	_	17	F	17:F	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	nation	nation	NOUN	NN	_	20	E	20:E	_
+18	's	's	PART	POS	_	17	R	17:R	_
+19	artistic	artistic	ADJ	JJ	_	20	E	20:E	_
+20	treasures	treasure	NOUN	NNS	_	12	A	12:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

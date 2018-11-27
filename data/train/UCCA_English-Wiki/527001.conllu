@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 527001
+# text = She was nervous at the prospect of taking on a role strongly identified with Ethel Merman , anxious about appearing in an unglamorous part after breaking from juvenile parts for several years , and disturbed by her treatment at the hands of director Busby Berkeley .
+1	She	she	PRON	PRP	_	3	A	3:A|8:A|20:A|35:A|26:A|18:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	nervous	nervous	ADJ	JJ	_	0	H	0:H	_
+4	at	at	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	prospect	prospect	NOUN	NN	_	3	A	3:A	_
+7	of	of	SCONJ	IN	_	6	R	6:R	_
+8	taking	take	VERB	VBG	_	6	E	6:E	_
+9	on	on	ADP	RP	_	8	R	8:R	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	role	role	NOUN	NN	_	8	A	8:A	_
+12	strongly	strongly	ADV	RB	_	13	D	13:D	_
+13	identified	identify	VERB	VBD	_	11	E	11:E	_
+14	with	with	ADP	IN	_	15	R	15:R	_
+15	Ethel	Ethel	PROPN	NNP	_	13	A	13:A	_
+16	Merman	Merman	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	3	U	3:U	_
+18	anxious	anxious	ADJ	JJ	_	3	H	3:H	_
+19	about	about	SCONJ	IN	_	20	R	20:R	_
+20	appearing	appear	VERB	VBG	_	18	A	18:A	_
+21	in	in	ADP	IN	_	24	R	24:R	_
+22	an	a	DET	DT	_	24	E	24:E	_
+23	unglamorous	unglamorous	ADJ	JJ	_	24	E	24:E	_
+24	part	part	NOUN	NN	_	20	A	20:A	_
+25	after	after	SCONJ	IN	_	3	L	3:L	_
+26	breaking	break	VERB	VBG	_	3	H	3:H	_
+27	from	from	ADP	IN	_	29	R	29:R	_
+28	juvenile	juvenile	NOUN	NN	_	29	E	29:E	_
+29	parts	part	NOUN	NNS	_	26	A	26:A	_
+30	for	for	ADP	IN	_	32	R	32:R	_
+31	several	several	ADJ	JJ	_	32	E	32:E	_
+32	years	year	NOUN	NNS	_	26	D	26:D	_
+33	,	,	PUNCT	,	_	3	U	3:U	_
+34	and	and	CCONJ	CC	_	3	L	3:L	_
+35	disturbed	disturb	VERB	VBN	_	3	H	3:H	_
+36	by	by	ADP	IN	_	38	R	38:R	_
+37	her	she	PRON	PRP$	_	38	A	38:A	_
+38	treatment	treatment	NOUN	NN	_	35	A	35:A	_
+39	at	at	ADP	IN	_	44	R	44:R	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	hands	hand	NOUN	NNS	_	44	E	44:E	_
+42	of	of	ADP	IN	_	41	R	41:R	_
+43	director	director	NOUN	NN	_	44	E	44:E	_
+44	Busby	Busby	PROPN	NNP	_	38	A	38:A	_
+45	Berkeley	Berkeley	PROPN	NNP	_	44	Terminal	44:Terminal	_
+46	.	.	PUNCT	.	_	44	U	44:U	_
+

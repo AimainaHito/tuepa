@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25620008
+# text = Ich fragte nicht danach , ob Kapitän Nemo uns begleiten wolle .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	nicht	nicht	PART	CARD	_	2	D	2:D	_
+4	danach	danach	ADV	PAV	_	10	F	10:F	_
+5	,	,	PUNCT	$,	_	10	U	10:U	_
+6	ob	ob	SCONJ	VVFIN	_	10	R	10:R	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	10	A	10:A	_
+9	uns	wir	PRON	NN	_	10	A	10:A	_
+10	begleiten	begleiten	VERB	VVINF	_	2	A	2:A	_
+11	wolle	wollen	AUX	VMFIN	_	10	D	10:D	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

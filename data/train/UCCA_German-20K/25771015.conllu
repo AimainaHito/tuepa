@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25771015
+# text = » Ich weiß es nicht « , erwiderte er mir , » zu Mittag werden wir die Aufnahme machen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	weiß	wissen	VERB	VVFIN	_	8	A	8:A	_
+4	es	es	PRON	PPER	_	3	A	3:A	_
+5	nicht	nicht	PART	XY	_	3	D	3:D	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	mir	ich	PRON	PPER	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	zu	zu	ADP	ADJA	_	14	R	14:R	_
+14	Mittag	mittag	NOUN	NN	_	19	D	19:D	_
+15	werden	werden	AUX	VVFIN	_	19	F	19:F	_
+16	wir	wir	PRON	NE	_	19	A	19:A|18:A	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Aufnahme	Aufnahme	NOUN	NN	_	19	A	19:A	_
+19	machen	machen	VERB	VVINF	_	3	H	3:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

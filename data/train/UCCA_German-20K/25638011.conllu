@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25638011
+# text = Hier traf ich Conseil , der begierig war , das Resultat meiner Unterredung mit dem Kapitän zu erfahren .
+1	Hier	hier	ADV	ADV	_	2	A	2:A	_
+2	traf	treffen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	der	der	PRON	PRELS	_	7	R	7:R	_
+7	begierig	begierig	ADJ	ADJD	_	4	E	4:E	_
+8	war	sein	AUX	ADV	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Resultat	Resultat	NOUN	NN	_	18	A	18:A	_
+12	meiner	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Unterredung	Unterredung	NOUN	NN	_	11	E	11:E	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	dem	der	DET	ART	_	16	E	16:E	_
+16	Kapitän	Kapitän	NOUN	NN	_	13	E	13:E	_
+17	zu	zu	PART	VVINF	_	18	F	18:F	_
+18	erfahren	erfahren	VERB	VVINF	_	7	A	7:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 499003
+# text = Ziggy , Bowie said , " would n't leave me alone for years . That was when it all started to go sour ... My whole personality was affected . It became very dangerous . I really did have doubts about my sanity .
+1	Ziggy	Ziggy	PROPN	NNP	_	9	A	9:A	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	Bowie	Bowie	PROPN	NNP	_	4	A	4:A	_
+4	said	say	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	would	would	AUX	MD	_	9	F	9:F	_
+8	n't	not	PART	RB	_	9	D	9:D	_
+9	leave	leave	VERB	VB	_	4	A	4:A	_
+10	me	I	PRON	PRP	_	9	A	9:A	_
+11	alone	alone	ADJ	JJ	_	9	D	9:D	_
+12	for	for	ADP	IN	_	13	R	13:R	_
+13	years	year	NOUN	NNS	_	9	D	9:D	_
+14	.	.	PUNCT	.	_	9	U	9:U	_
+15	That	that	PRON	DT	_	16	A	16:A	_
+16	was	be	VERB	VBD	_	9	H	9:H	_
+17	when	when	ADV	WRB	_	23	F	23:F	_
+18	it	it	PRON	PRP	_	19	F	19:F	_
+19	all	all	DET	DT	_	23	A	23:A	_
+20	started	start	VERB	VBD	_	23	D	23:D	_
+21	to	to	PART	TO	_	23	F	23:F	_
+22	go	go	VERB	VB	_	23	D	23:D	_
+23	sour	sour	NOUN	NN	_	16	A	16:A	_
+24	...	...	PUNCT	,	_	9	U	9:U	_
+25	My	my	PRON	PRP$	_	27	E	27:E	_
+26	whole	whole	ADJ	JJ	_	27	E	27:E	_
+27	personality	personality	NOUN	NN	_	29	A	29:A	_
+28	was	be	AUX	VBD	_	29	F	29:F	_
+29	affected	affect	VERB	VBN	_	9	H	9:H	_
+30	.	.	PUNCT	.	_	9	U	9:U	_
+31	It	it	PRON	PRP	_	32	A	32:A	_
+32	became	become	VERB	VBD	_	9	H	9:H	_
+33	very	very	ADV	RB	_	34	E	34:E	_
+34	dangerous	dangerous	ADJ	JJ	_	32	A	32:A	_
+35	.	.	PUNCT	.	_	9	U	9:U	_
+36	I	I	PRON	PRP	_	40	A	40:A	_
+37	really	really	ADV	RB	_	40	D	40:D	_
+38	did	do	AUX	VBD	_	40	F	40:F	_
+39	have	have	VERB	VB	_	40	F	40:F	_
+40	doubts	doubt	NOUN	NNS	_	9	H	9:H	_
+41	about	about	ADP	IN	_	43	R	43:R	_
+42	my	my	PRON	PRP$	_	43	E	43:E	_
+43	sanity	sanity	NOUN	NN	_	40	A	40:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

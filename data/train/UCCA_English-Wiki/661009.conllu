@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 661009
+# text = As they had done after the release of her debut , critics again questioned whether Carey would embark on a world tour in promotion for her material .
+1	As	as	SCONJ	IN	_	4	L	4:L	_
+2	they	they	PRON	PRP	_	4	A	4:A	_
+3	had	have	AUX	VBD	_	4	F	4:F	_
+4	done	do	VERB	VBN	_	0	H	0:H	_
+5	after	after	ADP	IN	_	4	L	4:L	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	release	release	NOUN	NN	_	4	H	4:H	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	her	she	PRON	PRP$	_	10	E	10:E	_
+10	debut	debut	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	critics	critic	NOUN	NNS	_	14	A	14:A	_
+13	again	again	ADV	RB	_	14	D	14:D	_
+14	questioned	question	VERB	VBD	_	4	H	4:H	_
+15	whether	whether	SCONJ	IN	_	18	R	18:R	_
+16	Carey	Carey	PROPN	NNP	_	18	A	18:A|24:A	_
+17	would	would	AUX	MD	_	18	F	18:F	_
+18	embark	embark	VERB	VB	_	14	A	14:A	_
+19	on	on	ADP	IN	_	22	R	22:R	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	world	world	NOUN	NN	_	22	E	22:E	_
+22	tour	tour	NOUN	NN	_	18	A	18:A	_
+23	in	in	ADP	IN	_	24	R	24:R	_
+24	promotion	promotion	NOUN	NN	_	18	A	18:A	_
+25	for	for	ADP	IN	_	27	R	27:R	_
+26	her	she	PRON	PRP$	_	27	E	27:E	_
+27	material	material	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 519009
+# text = Her self - image was strongly influenced by film executives , who said she was unattractive and constantly manipulated her onscreen physical appearance .
+1	Her	she	PRON	PRP$	_	4	E	4:E	_
+2	self	self	NOUN	NN	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	image	image	NOUN	NN	_	7	A	7:A	_
+5	was	be	AUX	VBD	_	7	F	7:F	_
+6	strongly	strongly	ADV	RB	_	7	D	7:D	_
+7	influenced	influence	VERB	VBN	_	0	H	0:H	_
+8	by	by	ADP	IN	_	10	R	10:R	_
+9	film	film	NOUN	NN	_	10	E	10:E	_
+10	executives	executive	NOUN	NNS	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	who	who	PRON	WP	_	13	F	13:F	_
+13	said	say	VERB	VBD	_	10	E	10:E	_
+14	she	she	PRON	PRP	_	16	A	16:A	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	unattractive	unattractive	ADJ	JJ	_	13	A	13:A	_
+17	and	and	CCONJ	CC	_	13	L	13:L	_
+18	constantly	constantly	ADV	RB	_	19	D	19:D	_
+19	manipulated	manipulate	VERB	VBN	_	13	H	13:H	_
+20	her	she	PRON	PRP	_	23	E	23:E	_
+21	onscreen	onscreen	AUX	VBN	_	23	E	23:E	_
+22	physical	physical	ADJ	JJ	_	23	E	23:E	_
+23	appearance	appearance	NOUN	NN	_	19	A	19:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

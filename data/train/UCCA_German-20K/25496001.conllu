@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25496001
+# text = » Wir nehmen sie an « , erwiderte ich . » Nur möcht' ich Sie , mein Herr , um die Erlaubnis bitten , eine einzige Frage an Sie zu richten . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Wir	wir	PRON	NE	_	3	A	3:A	_
+3	nehmen	nehmen	VERB	NE	_	8	A	8:A	_
+4	sie	sie	PRON	ADV	_	3	A	3:A	_
+5	an	an	ADP	APPR	_	3	Terminal	3:Terminal	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	Nur	nur	NOUN	ADV	_	23	D	23:D	_
+13	möcht'	möcht'	PUNCT	$(	_	23	D	23:D	_
+14	ich	ich	PRON	PPER	_	23	A	23:A|31:A	_
+15	Sie	sie	PRON	PPER	_	23	A	23:A|22:A	_
+16	,	,	PUNCT	$,	_	23	U	23:U	_
+17	mein	mein	PRON	PPOSAT	_	18	E	18:E	_
+18	Herr	Herr	NOUN	NN	_	23	G	23:G	_
+19	,	,	PUNCT	$,	_	23	U	23:U	_
+20	um	um	ADP	KOUI	_	22	R	22:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Erlaubnis	Erlaubnis	NOUN	NN	_	23	A	23:A	_
+23	bitten	bitten	VERB	VVFIN	_	3	H	3:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	eine	ein	DET	ART	_	27	E	27:E	_
+26	einzige	einzig	ADJ	ADJA	_	27	E	27:E	_
+27	Frage	Frage	NOUN	NN	_	31	A	31:A	_
+28	an	an	ADP	APPR	_	29	R	29:R	_
+29	Sie	Sie|sie	PRON	PPER	_	31	A	31:A	_
+30	zu	zu	PART	VVINF	_	31	F	31:F	_
+31	richten	richten	VERB	VVINF	_	22	A	22:A	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+33	«	«	PUNCT	$(	_	31	U	31:U	_
+

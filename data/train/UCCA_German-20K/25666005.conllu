@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25666005
+# text = Ich begab mich auf die Plattform , zündete eine Zigarre an und sah der Verrichtung zu .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|8:A|13:A	_
+2	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	auf	auf	ADP	APPR	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Plattform	Plattform	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	zündete	zünden	VERB	VVFIN	_	2	H	2:H	_
+9	eine	ein	DET	ART	_	10	E	10:E	_
+10	Zigarre	Zigarre	NOUN	NN	_	8	A	8:A	_
+11	an	an	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	sah	sehen	VERB	VVFIN	_	2	H	2:H	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Verrichtung	Verrichtung	NOUN	NN	_	13	A	13:A	_
+16	zu	zu	ADP	VVINF	_	13	Terminal	13:Terminal	_
+17	.	.	PUNCT	$.	_	13	U	13:U	_
+

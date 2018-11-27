@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 137011
+# text = The following year , Hepburn spent six months touring Australia with the Old Vic theatre company , playing Portia in The Merchant of Venice , Kate in The Taming of the Shrew , and Isabella in Measure for Measure .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Hepburn	Hepburn	PROPN	NNP	_	9	A	9:A|18:A	_
+6	spent	spend	VERB	VBD	_	9	D	9:D	_
+7	six	six	NUM	CD	_	8	E	8:E	_
+8	months	month	NOUN	NNS	_	9	D	9:D	_
+9	touring	toure	ADP	IN	_	0	H	0:H	_
+10	Australia	Australia	PROPN	NNP	_	9	A	9:A	_
+11	with	with	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	Old	old	PROPN	NNP	_	16	E	16:E	_
+14	Vic	Vic	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	theatre	theatre	NOUN	NN	_	16	E	16:E	_
+16	company	company	NOUN	NN	_	9	A	9:A	_
+17	,	,	PUNCT	,	_	9	U	9:U	_
+18	playing	play	VERB	VBG	_	9	H	9:H	_
+19	Portia	Portia	PROPN	NNP	_	18	A	18:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	The	the	DET	DT	_	19	E	19:E	_
+22	Merchant	merchant	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	of	of	ADP	IN	_	21	Terminal	21:Terminal	_
+24	Venice	Venice	PROPN	NNP	_	21	Terminal	21:Terminal	_
+25	,	,	PUNCT	,	_	19	U	19:U	_
+26	Kate	Kate	PROPN	NNP	_	19	C	19:C	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	The	the	DET	DT	_	26	E	26:E	_
+29	Taming	Taming	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	of	of	ADP	IN	_	28	Terminal	28:Terminal	_
+31	the	the	DET	DT	_	28	Terminal	28:Terminal	_
+32	Shrew	Shrew	PROPN	NNP	_	28	Terminal	28:Terminal	_
+33	,	,	PUNCT	,	_	19	U	19:U	_
+34	and	and	CCONJ	CC	_	19	N	19:N	_
+35	Isabella	Isabella	PROPN	NNP	_	19	C	19:C	_
+36	in	in	ADP	IN	_	37	R	37:R	_
+37	Measure	measure	PROPN	NNP	_	35	E	35:E	_
+38	for	for	ADP	IN	_	37	Terminal	37:Terminal	_
+39	Measure	measure	PROPN	NNP	_	37	Terminal	37:Terminal	_
+40	.	.	PUNCT	.	_	37	U	37:U	_
+

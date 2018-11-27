@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 617013
+# text = This rose to £ 48 . 5 million by 2005 .
+1	This	this	PRON	DT	_	2	A	2:A	_
+2	rose	rise	VERB	VBD	_	0	H	0:H	_
+3	to	to	ADP	IN	_	5	R	5:R	_
+4	£	£	SYM	$	_	5	U	5:U	_
+5	48	48	NUM	CD	_	2	A	2:A	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+7	5	5	NUM	CD	_	5	Terminal	5:Terminal	_
+8	million	million	NUM	CD	_	5	Terminal	5:Terminal	_
+9	by	by	ADP	IN	_	10	R	10:R	_
+10	2005	2005	NUM	CD	_	2	D	2:D	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

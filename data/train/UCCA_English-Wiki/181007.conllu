@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 181007
+# text = In 1995 , she graduated from Harvard - Westlake and moved to New York to attend Columbia University , where she studied literature and Eastern religions ; she graduated in 1999 with a Bachelor of Arts degree .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1995	1995	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	she	she	PRON	PRP	_	5	A	5:A|11:A|16:A	_
+5	graduated	graduate	VERB	VBD	_	0	H	0:H	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Harvard	Harvard	PROPN	NNP	_	5	A	5:A	_
+8	-	-	PUNCT	HYPH	_	7	U	7:U	_
+9	Westlake	Westlake	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	and	and	CCONJ	CC	_	5	L	5:L	_
+11	moved	move	VERB	VBD	_	5	H	5:H	_
+12	to	to	ADP	IN	_	13	R	13:R	_
+13	New	New	PROPN	NNP	_	11	A	11:A	_
+14	York	York	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	to	to	PART	TO	_	5	L	5:L	_
+16	attend	attend	VERB	VB	_	5	H	5:H	_
+17	Columbia	Columbia	PROPN	NNP	_	18	E	18:E	_
+18	University	University	PROPN	NNP	_	16	A	16:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	where	where	ADV	WRB	_	22	F	22:F	_
+21	she	she	PRON	PRP	_	22	A	22:A	_
+22	studied	study	VERB	VBD	_	18	E	18:E	_
+23	literature	literature	NOUN	NN	_	22	A	22:A	_
+24	and	and	CCONJ	CC	_	23	N	23:N	_
+25	Eastern	eastern	ADJ	JJ	_	26	E	26:E	_
+26	religions	religion	NOUN	NNS	_	23	C	23:C	_
+27	;	;	PUNCT	,	_	5	U	5:U	_
+28	she	she	PRON	PRP	_	29	A	29:A	_
+29	graduated	graduate	VERB	VBD	_	5	H	5:H	_
+30	in	in	ADP	IN	_	31	R	31:R	_
+31	1999	1999	NUM	CD	_	29	D	29:D	_
+32	with	with	ADP	IN	_	37	R	37:R	_
+33	a	a	DET	DT	_	34	E	34:E	_
+34	Bachelor	bachelor	NOUN	NN	_	37	E	37:E	_
+35	of	of	ADP	IN	_	36	R	36:R	_
+36	Arts	Arts	PROPN	NNPS	_	34	E	34:E	_
+37	degree	degree	NOUN	NN	_	29	A	29:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

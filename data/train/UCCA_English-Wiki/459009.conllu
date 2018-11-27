@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 459009
+# text = Television critics praised the program , and described the anchor as " superhuman " . Although production costs totaled a hefty $ 11 million ( compared with $ 2 million each for NBC 's and CBS 's millennium projects ) , ABC managed to make a profit of $ 5 million .
+1	Television	television	NOUN	NN	_	2	E	2:E	_
+2	critics	critics	NOUN	NNS	_	0	C	0:C|8:A	_
+3	praised	praise	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	program	program	NOUN	NN	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	and	and	CCONJ	CC	_	3	L	3:L	_
+8	described	describe	VERB	VBD	_	3	H	3:H	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	anchor	anchor	NOUN	NN	_	8	A	8:A|13:A	_
+11	as	as	SCONJ	IN	_	13	R	13:R	_
+12	"	"	PUNCT	``	_	13	U	13:U	_
+13	superhuman	superhuman	NOUN	NN	_	8	A	8:A	_
+14	"	"	PUNCT	''	_	3	U	3:U	_
+15	.	.	PUNCT	.	_	3	U	3:U	_
+16	Although	although	SCONJ	IN	_	3	L	3:L	_
+17	production	production	NOUN	NN	_	18	E	18:E	_
+18	costs	cost	NOUN	NNS	_	19	A	19:A	_
+19	totaled	total	VERB	VBD	_	3	H	3:H	_
+20	a	a	DET	DT	_	23	E	23:E	_
+21	hefty	hefty	NOUN	NN	_	23	E	23:E	_
+22	$	$	SYM	$	_	23	U	23:U	_
+23	11	11	NUM	CD	_	19	A	19:A	_
+24	million	million	NUM	CD	_	23	Terminal	23:Terminal	_
+25	(	(	PUNCT	-LRB-	_	3	U	3:U	_
+26	compared	compare	VERB	VBN	_	3	H	3:H	_
+27	with	with	ADP	IN	_	29	R	29:R	_
+28	$	$	SYM	$	_	29	U	29:U	_
+29	2	2	NUM	CD	_	26	A	26:A	_
+30	million	million	NUM	CD	_	29	Terminal	29:Terminal	_
+31	each	each	DET	DT	_	29	E	29:E	_
+32	for	for	ADP	IN	_	39	R	39:R	_
+33	NBC	NBC	PROPN	NNP	_	39	E	39:E	_
+34	's	's	PART	POS	_	33	R	33:R	_
+35	and	and	CCONJ	CC	_	33	N	33:N	_
+36	CBS	CBS	PROPN	NNP	_	33	C	33:C	_
+37	's	's	PART	POS	_	36	R	36:R	_
+38	millennium	millennium	NOUN	NN	_	39	E	39:E	_
+39	projects	project	VERB	VBZ	_	29	E	29:E	_
+40	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+41	,	,	PUNCT	,	_	3	U	3:U	_
+42	ABC	ABC	PROPN	NNP	_	47	A	47:A	_
+43	managed	manage	VERB	VBD	_	47	D	47:D	_
+44	to	to	PART	TO	_	47	F	47:F	_
+45	make	make	VERB	VB	_	47	F	47:F	_
+46	a	a	DET	DT	_	47	E	47:E	_
+47	profit	profit	NOUN	NN	_	3	H	3:H	_
+48	of	of	ADP	IN	_	50	R	50:R	_
+49	$	$	SYM	$	_	50	U	50:U	_
+50	5	5	NUM	CD	_	47	A	47:A	_
+51	million	million	NUM	CD	_	50	Terminal	50:Terminal	_
+52	.	.	PUNCT	.	_	50	U	50:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25770000
+# text = Während eines Teils der Nacht hielt die Neuheit der Lage uns , Conseil und mich , am Fenster des Salons .
+1	Während	während	ADP	KOUS	_	3	R	3:R	_
+2	eines	ein	DET	ART	_	3	R	3:R	_
+3	Teils	Teil	NOUN	NN	_	6	A	6:A	_
+4	der	der	DET	ART	_	5	R	5:R	_
+5	Nacht	Nacht	NOUN	NN	_	3	E	3:E	_
+6	hielt	halten	VERB	VVFIN	_	0	H	0:H	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Neuheit	Neuheit	NOUN	NN	_	6	A	6:A	_
+9	der	der	DET	ART	_	10	R	10:R	_
+10	Lage	Lage	NOUN	NN	_	8	A	8:A	_
+11	uns	wir	PRON	NN	_	6	A	6:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	Conseil	Conseil	NOUN	NE	_	11	E	11:E	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	mich	ich	PRON	PRF	_	13	C	13:C	_
+16	,	,	PUNCT	$,	_	6	U	6:U	_
+17	am	am	ADJ	ADJD	_	18	R	18:R	_
+18	Fenster	Fenster	NOUN	NN	_	6	A	6:A	_
+19	des	der	DET	ART	_	18	R	18:R	_
+20	Salons	Salon	NOUN	NN	_	18	E	18:E	_
+21	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25723021
+# text = Oft verflossen ganze Wochen , ohne dass ich mit ihm zusammentraf .
+1	Oft	oft	ADV	ADV	_	2	D	2:D	_
+2	verflossen	verflossen	VERB	VVFIN	_	0	H	0:H	_
+3	ganze	ganz	ADJ	ADJA	_	4	E	4:E	_
+4	Wochen	Woche	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	ohne	ohne	ADP	NE	_	11	D	11:D	_
+7	dass	dass	SCONJ	KOUS	_	2	L	2:L	_
+8	ich	ich	PRON	PPER	_	11	A	11:A	_
+9	mit	mit	ADP	APPR	_	10	R	10:R	_
+10	ihm	er	PRON	PPER	_	11	A	11:A	_
+11	zusammentraf	zusammentraf	ADV	VVFIN	_	2	H	2:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

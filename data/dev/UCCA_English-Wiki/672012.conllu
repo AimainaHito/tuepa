@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 672012
+# text = For that reason , she cancelled the tour , and lost the child only two months later .
+1	For	for	ADP	IN	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	reason	reason	NOUN	NN	_	6	L	6:L	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A|11:A	_
+6	cancelled	cancel	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	tour	tour	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	and	and	CCONJ	CC	_	6	L	6:L	_
+11	lost	lose	VERB	VBD	_	6	H	6:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	child	child	NOUN	NN	_	11	A	11:A	_
+14	only	only	ADV	RB	_	16	E	16:E	_
+15	two	two	NUM	CD	_	16	E	16:E	_
+16	months	month	NOUN	NNS	_	11	D	11:D	_
+17	later	later	ADV	RB	_	16	R	16:R	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

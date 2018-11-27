@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25731015
+# text = Es war der Regen , der ungestüm und prasselnd auf die Oberfläche fiel .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Regen	Regen	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	der	der	PRON	ART	_	13	R	13:R	_
+7	ungestüm	ungestüm	ADJ	NN	_	4	E	4:E	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	prasselnd	prasselnd	ADJ	ADJD	_	7	C	7:C	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Oberfläche	Oberfläche	NOUN	NN	_	13	A	13:A	_
+13	fiel	fallen	VERB	VVFIN	_	4	E	4:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 208004
+# text = He opted out of directing Straight Time ( 1978 ) , but starred as a thief .
+1	He	he	PRON	PRP	_	2	A	2:A|13:A|5:A	_
+2	opted	opt	VERB	VBD	_	0	H	0:H	_
+3	out	out	ADP	IN	_	2	Terminal	2:Terminal	_
+4	of	of	SCONJ	IN	_	5	R	5:R	_
+5	directing	direct	VERB	VBG	_	2	A	2:A	_
+6	Straight	straight	PROPN	NNP	_	5	A	5:A	_
+7	Time	time	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+9	1978	1978	NUM	CD	_	6	E	6:E	_
+10	)	)	PUNCT	-RRB-	_	2	U	2:U	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	but	but	CCONJ	CC	_	2	L	2:L	_
+13	starred	star	VERB	VBN	_	2	H	2:H	_
+14	as	as	ADP	IN	_	16	R	16:R	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	thief	thief	NOUN	NN	_	13	A	13:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

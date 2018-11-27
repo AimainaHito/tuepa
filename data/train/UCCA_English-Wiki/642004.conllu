@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 642004
+# text = As of 2013 , he remains in prison , having been denied parole seven times .
+1	As	as	ADP	IN	_	3	R	3:R	_
+2	of	of	ADP	IN	_	3	R	3:R	_
+3	2013	2013	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	he	he	PRON	PRP	_	6	A	6:A|12:A	_
+6	remains	remain	VERB	VBZ	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	prison	prison	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	having	have	AUX	VBG	_	12	F	12:F	_
+11	been	be	AUX	VBN	_	12	F	12:F	_
+12	denied	deny	VERB	VBN	_	6	H	6:H	_
+13	parole	pareal	NOUN	NN	_	12	A	12:A	_
+14	seven	seven	NUM	CD	_	15	E	15:E	_
+15	times	time	NOUN	NNS	_	12	D	12:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25440004
+# text = Das Ungeheuer existierte , und er hatte geschworen , die Meere von ihm zu befreien .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Ungeheuer	Ungeheuer	NOUN	NN	_	3	A	3:A	_
+3	existierte	existieren	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	und	und	CCONJ	NE	_	3	L	3:L	_
+6	er	er	PRON	PPER	_	8	A	8:A|15:A	_
+7	hatte	haben	AUX	VAFIN	_	8	F	8:F	_
+8	geschworen	geschworen	VERB	NN	_	3	H	3:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Meere	Meer	NOUN	NN	_	15	A	15:A	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	ihm	er	PRON	PPER	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	befreien	befreien	VERB	VVINF	_	8	A	8:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

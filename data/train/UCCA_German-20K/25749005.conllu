@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25749005
+# text = Aber der Kapitän beschränkte sich darauf , dergestalt meine Arbeit zu bessern , und selten besprach er sich darüber mit mir .
+1	Aber	aber	ADP	KON	_	4	L	4:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Kapitän	Kapitän	NOUN	NN	_	4	A	4:A	_
+4	beschränkte	beschränken	VERB	VVFIN	_	0	H	0:H	_
+5	sich	er|es|sie	PRON	PRF	_	4	Terminal	4:Terminal	_
+6	darauf	darauf	ADV	PAV	_	12	F	12:F	_
+7	,	,	PUNCT	$,	_	12	U	12:U	_
+8	dergestalt	dergestalt	VERB	NN	_	12	D	12:D	_
+9	meine	mein	PRON	PPOSAT	_	10	R	10:R	_
+10	Arbeit	Arbeit	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	bessern	bessern	VERB	NN	_	4	A	4:A	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	und	und	CCONJ	NE	_	4	L	4:L	_
+15	selten	selten	ADJ	ADJA	_	16	D	16:D	_
+16	besprach	besprechen	VERB	VVFIN	_	4	H	4:H	_
+17	er	er	PRON	PPER	_	16	A	16:A	_
+18	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+19	darüber	darüber	ADV	PAV	_	16	A	16:A	_
+20	mit	mit	ADP	APPR	_	21	R	21:R	_
+21	mir	ich	PRON	PPER	_	16	A	16:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25794014
+# text = Er faßte meine Hand , suchte mich zu ermutigen , und ich hörte ihn noch murmeln :
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	faßte	faßen	VERB	VVFIN	_	0	H	0:H	_
+3	meine	mein	DET	PPOSAT	_	4	E	4:E	_
+4	Hand	Hand	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	suchte	suchen	VERB	VVFIN	_	9	D	9:D	_
+7	mich	ich	PRON	PPER	_	9	A	9:A	_
+8	zu	zu	PART	VVINF	_	9	F	9:F	_
+9	ermutigen	ermutigen	VERB	VVINF	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	hörte	hören	VERB	VVFIN	_	2	H	2:H	_
+14	ihn	er	PRON	PPER	_	16	A	16:A	_
+15	noch	noch	ADV	NN	_	16	D	16:D	_
+16	murmeln	murmeln	VERB	FM	_	13	A	13:A	_
+17	:	:	PUNCT	$.	_	16	U	16:U	_
+

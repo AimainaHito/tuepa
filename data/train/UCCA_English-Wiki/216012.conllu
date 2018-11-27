@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 216012
+# text = " In the Esquire review , Tom Carson called her performance " terrific .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	In	in	ADP	IN	_	5	R	5:R	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	Esquire	Esquire	PROPN	NNP	_	5	E	5:E	_
+5	review	review	NOUN	NN	_	9	A	9:A	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	Tom	Tom	PROPN	NNP	_	9	A	9:A	_
+8	Carson	Carson	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	called	call	VERB	VBD	_	0	H	0:H	_
+10	her	she	PRON	PRP$	_	11	E	11:E	_
+11	performance	performance	NOUN	NN	_	9	A	9:A	_
+12	"	"	PUNCT	''	_	11	U	11:U	_
+13	terrific	terrific	NOUN	NN	_	11	A	11:A	_
+14	.	.	PUNCT	.	_	11	U	11:U	_
+

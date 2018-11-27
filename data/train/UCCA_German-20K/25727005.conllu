@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25727005
+# text = » Vollständig « , sagte ich , indem ich noch nicht wusste , weshalb er mir diese historische Lektion erteilte .
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Vollständig	vollständig	ADJ	ADJD	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	indem	indem	SCONJ	KOUS	_	5	L	5:L	_
+9	ich	ich	PRON	PPER	_	12	A	12:A	_
+10	noch	noch	ADV	CARD	_	12	D	12:D	_
+11	nicht	nicht	PART	CARD	_	12	D	12:D	_
+12	wusste	wissen	VERB	VVFIN	_	5	H	5:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	weshalb	weshalb	SCONJ	ADJA	_	20	A	20:A	_
+15	er	er	PRON	PPER	_	20	A	20:A	_
+16	mir	ich	PRON	PPER	_	20	A	20:A	_
+17	diese	dies	PRON	PDAT	_	19	E	19:E	_
+18	historische	historisch	ADJ	ADJA	_	19	E	19:E	_
+19	Lektion	Lektion	NOUN	NN	_	20	A	20:A	_
+20	erteilte	erteilen	VERB	VVFIN	_	12	A	12:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

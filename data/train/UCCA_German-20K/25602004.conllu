@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25602004
+# text = » Herr Arronax , wissen Sie , wie tief der Ozean ist ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Herr	Herr	PROPN	NN	_	3	E	3:E	_
+3	Arronax	Arronax	PROPN	NE	_	5	G	5:G	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	wissen	wissen	VERB	VVFIN	_	0	H	0:H	_
+6	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	wie	wie	ADV	KON	_	9	D	9:D	_
+9	tief	tief	ADJ	VVFIN	_	5	A	5:A	_
+10	der	der	DET	ART	_	11	E	11:E	_
+11	Ozean	Ozean	PROPN	NN	_	9	A	9:A	_
+12	ist	sein	AUX	NE	_	9	F	9:F	_
+13	?	?	PUNCT	$.	_	9	U	9:U	_
+14	«	«	PUNCT	$(	_	9	U	9:U	_
+

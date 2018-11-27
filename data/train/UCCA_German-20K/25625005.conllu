@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25625005
+# text = Als wir mit dem Einsammeln fertig waren , machten wir uns auf den Weg , um unsere » Land mahlzeit « zu vervollständigen .
+1	Als	als	SCONJ	KOUS	_	6	L	6:L	_
+2	wir	wir	PRON	NE	_	6	A	6:A|23:A|5:A	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Einsammeln	einsammeln	NOUN	NN	_	6	A	6:A	_
+6	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+7	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	machten	machen	VERB	VVFIN	_	6	H	6:H	_
+10	wir	wir	PRON	NE	_	9	A	9:A	_
+11	uns	wir	PRON	NE	_	9	Terminal	9:Terminal	_
+12	auf	auf	ADP	APPR	_	9	Terminal	9:Terminal	_
+13	den	der	DET	ART	_	9	Terminal	9:Terminal	_
+14	Weg	Weg	NOUN	NN	_	9	Terminal	9:Terminal	_
+15	,	,	PUNCT	$,	_	6	U	6:U	_
+16	um	um	ADP	KOUI	_	6	L	6:L	_
+17	unsere	unser	PRON	PPOSAT	_	20	E	20:E	_
+18	»	»	PUNCT	$(	_	20	U	20:U	_
+19	Land	Land	NOUN	NN	_	20	E	20:E	_
+20	mahlzeit	mahlzeit	ADJ	ADV	_	23	A	23:A	_
+21	«	«	PUNCT	$(	_	23	U	23:U	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	vervollständigen	vervollständigen	VERB	VVINF	_	6	H	6:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

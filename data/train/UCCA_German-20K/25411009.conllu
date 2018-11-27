@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25411009
+# text = Diese so bedeutende Tatsache wäre vielleicht vergessen worden , hätte sie sich nicht drei Wochen später unter gleichen Bedingungen wiederholt .
+1	Diese	dies	PRON	PDAT	_	4	E	4:E	_
+2	so	so	ADV	ADV	_	3	D	3:D	_
+3	bedeutende	bedeutend	ADJ	ADJA	_	7	A	7:A	_
+4	Tatsache	Tatsache	NOUN	NN	_	3	A	3:A	_
+5	wäre	sein	AUX	ADJA	_	7	F	7:F	_
+6	vielleicht	vielleicht	ADV	NN	_	7	D	7:D	_
+7	vergessen	vergessen	VERB	VVPP	_	0	H	0:H	_
+8	worden	werden	AUX	ADV	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	hätte	haben	AUX	VAFIN	_	12	D	12:D	_
+11	sie	sie	PRON	ADV	_	12	A	12:A	_
+12	sich	er|es|sie	PRON	PRF	_	7	H	7:H	_
+13	nicht	nicht	PART	XY	_	12	D	12:D	_
+14	drei	drei	NUM	CARD	_	15	E	15:E	_
+15	Wochen	Woche	NOUN	NN	_	16	E	16:E	_
+16	später	spät	ADJ	ADJD	_	12	D	12:D	_
+17	unter	unter	ADP	ADJD	_	19	R	19:R	_
+18	gleichen	gleich	ADJ	ADJA	_	19	E	19:E	_
+19	Bedingungen	Bedingunge	NOUN	NN	_	12	A	12:A	_
+20	wiederholt	wiederholen	VERB	VVPP	_	12	Terminal	12:Terminal	_
+21	.	.	PUNCT	$.	_	12	U	12:U	_
+

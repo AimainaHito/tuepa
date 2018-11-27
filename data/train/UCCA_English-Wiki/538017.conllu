@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 538017
+# text = Later that year , the Warners sold the family business to the General Film Company for " $ 10,000 in cash , $ 12,000 in preferred stock , and payments over a four - year period for a total of $ 52,000 " ( equivalent to $ 1,328,696 today ) .
+1	Later	later	ADV	RBR	_	3	R	3:R	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	Warners	Warner	NOUN	NNS	_	7	A	7:A	_
+7	sold	sell	VERB	VBD	_	0	H	0:H	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	family	family	NOUN	NN	_	10	E	10:E	_
+10	business	business	NOUN	NN	_	7	A	7:A	_
+11	to	to	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	General	general	PROPN	NNP	_	15	E	15:E	_
+14	Film	film	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Company	company	PROPN	NNP	_	7	A	7:A	_
+16	for	for	ADP	IN	_	19	R	19:R	_
+17	"	"	PUNCT	``	_	19	U	19:U	_
+18	$	$	SYM	$	_	19	U	19:U	_
+19	10,000	10,000	NUM	CD	_	7	A	7:A	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	cash	cash	NOUN	NN	_	19	E	19:E	_
+22	,	,	PUNCT	,	_	19	U	19:U	_
+23	$	$	SYM	$	_	19	U	19:U	_
+24	12,000	12,000	NUM	CD	_	19	C	19:C	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	preferred	prefer	VERB	VBN	_	27	E	27:E	_
+27	stock	stock	NOUN	NN	_	24	E	24:E	_
+28	,	,	PUNCT	,	_	19	U	19:U	_
+29	and	and	CCONJ	CC	_	19	N	19:N	_
+30	payments	payment	NOUN	NNS	_	19	C	19:C	_
+31	over	over	ADP	IN	_	36	R	36:R	_
+32	a	a	DET	DT	_	36	E	36:E	_
+33	four	four	NUM	CD	_	35	E	35:E	_
+34	-	-	PUNCT	HYPH	_	35	U	35:U	_
+35	year	year	NOUN	NN	_	36	E	36:E	_
+36	period	period	NOUN	NN	_	30	D	30:D	_
+37	for	for	ADP	IN	_	39	R	39:R	_
+38	a	a	DET	DT	_	39	E	39:E	_
+39	total	total	NOUN	NN	_	30	A	30:A	_
+40	of	of	ADP	IN	_	42	R	42:R	_
+41	$	$	SYM	$	_	42	U	42:U	_
+42	52,000	52,000	NUM	CD	_	39	E	39:E	_
+43	"	"	PUNCT	''	_	19	U	19:U	_
+44	(	(	PUNCT	-LRB-	_	19	U	19:U	_
+45	equivalent	equivalent	ADJ	JJ	_	19	E	19:E	_
+46	to	to	ADP	IN	_	48	R	48:R	_
+47	$	$	SYM	$	_	48	U	48:U	_
+48	1,328,696	1,328,696	NUM	CD	_	45	A	45:A	_
+49	today	today	NOUN	NN	_	45	D	45:D	_
+50	)	)	PUNCT	-RRB-	_	45	U	45:U	_
+51	.	.	PUNCT	.	_	45	U	45:U	_
+

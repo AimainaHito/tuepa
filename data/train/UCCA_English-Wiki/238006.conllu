@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 238006
+# text = Chan also holds guest lectures at the Shanghai Institute of Visual Art of Fudan University , Shanghai .
+1	Chan	Chan	PROPN	NNP	_	5	A	5:A	_
+2	also	also	ADV	RB	_	5	D	5:D	_
+3	holds	hold	VERB	VBZ	_	5	D	5:D	_
+4	guest	guest	NOUN	NN	_	5	E	5:E	_
+5	lectures	lecture	NOUN	NNS	_	0	H	0:H	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Shanghai	Shanghai	PROPN	NNP	_	5	A	5:A	_
+9	Institute	Institute	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	of	of	ADP	IN	_	8	Terminal	8:Terminal	_
+11	Visual	visual	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	Art	art	PROPN	NNP	_	8	Terminal	8:Terminal	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	Fudan	Fudan	PROPN	NNP	_	15	E	15:E	_
+15	University	University	PROPN	NNP	_	8	E	8:E	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	Shanghai	Shanghai	PROPN	NNP	_	15	E	15:E	_
+18	.	.	PUNCT	.	_	15	U	15:U	_
+

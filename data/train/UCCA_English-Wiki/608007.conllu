@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 608007
+# text = In 1990 , the US publication Amusement Business presented McCartney with an award for the highest grossing show of the year ; his two performances at Berkeley earned over $ 3 . 5 million .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1990	1990	NUM	CD	_	9	D	9:D	_
+3	,	,	PUNCT	,	_	9	U	9:U	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	US	US	PROPN	NNP	_	6	E	6:E	_
+6	publication	publication	NOUN	NN	_	7	E	7:E	_
+7	Amusement	amusement	PROPN	NNP	_	9	A	9:A	_
+8	Business	business	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	presented	present	VERB	VBD	_	0	H	0:H	_
+10	McCartney	McCartney	PROPN	NNP	_	9	A	9:A	_
+11	with	with	ADP	IN	_	13	R	13:R	_
+12	an	a	DET	DT	_	13	E	13:E	_
+13	award	award	NOUN	NN	_	9	A	9:A	_
+14	for	for	ADP	IN	_	18	R	18:R	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	highest	highest	ADJ	JJS	_	17	E	17:E	_
+17	grossing	gross	NOUN	NN	_	18	E	18:E	_
+18	show	show	NOUN	NN	_	13	E	13:E	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	year	year	NOUN	NN	_	18	E	18:E	_
+22	;	;	PUNCT	,	_	9	U	9:U	_
+23	his	he	PRON	PRP$	_	25	A	25:A	_
+24	two	two	NUM	CD	_	25	E	25:E	_
+25	performances	performances	NOUN	NNS	_	28	A	28:A	_
+26	at	at	ADP	IN	_	27	R	27:R	_
+27	Berkeley	Berkeley	PROPN	NNP	_	25	A	25:A	_
+28	earned	earn	VERB	VBD	_	9	H	9:H	_
+29	over	over	ADV	RB	_	34	E	34:E	_
+30	$	$	SYM	$	_	34	U	34:U	_
+31	3	3	NUM	CD	_	34	E	34:E	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+33	5	5	NUM	CD	_	31	Terminal	31:Terminal	_
+34	million	million	NUM	CD	_	28	A	28:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

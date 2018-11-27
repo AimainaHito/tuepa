@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 521007
+# text = He encouraged the group to choose a more appealing name after " Gumm " was met with laughter from the audience .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	encouraged	encourage	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	group	group	NOUN	NN	_	2	A	2:A	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	choose	choose	VERB	VB	_	2	A	2:A	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	more	more	ADV	RBR	_	9	E	9:E	_
+9	appealing	appeal	ADJ	JJ	_	10	E	10:E	_
+10	name	name	NOUN	NN	_	6	A	6:A	_
+11	after	after	ADP	IN	_	2	L	2:L	_
+12	"	"	PUNCT	``	_	2	U	2:U	_
+13	Gumm	Gumm	PROPN	NNP	_	18	A	18:A	_
+14	"	"	PUNCT	''	_	18	U	18:U	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	met	meet	VERB	VBN	_	18	E	18:E	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	laughter	laughter	NOUN	NN	_	2	H	2:H	_
+19	from	from	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	audience	audience	NOUN	NN	_	18	A	18:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

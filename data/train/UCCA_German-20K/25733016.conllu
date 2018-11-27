@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25733016
+# text = Welch ein Schauspiel !
+1	Welch	welch	PRON	NN	_	3	A	3:A	_
+2	ein	ein	DET	ART	_	3	E	3:E	_
+3	Schauspiel	Schauspiel	NOUN	NN	_	0	H	0:H	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+

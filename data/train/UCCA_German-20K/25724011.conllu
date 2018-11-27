@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25724011
+# text = Der Gedanke an ein Mißlingen unseres verwegenen Vorhabens war mir am wenigsten peinlich ; aber es pochte doch mein Herz bei dem Gedanken , dass dasselbe , bevor wir die ›Nautilus‹ verlassen , entdeckt und ich vor das Angesicht des entrüsteten Kapitäns zurückgebracht würde .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Gedanke	Gedanke	NOUN	NN	_	13	A	13:A	_
+3	an	an	ADP	APPR	_	5	R	5:R	_
+4	ein	ein	DET	ART	_	5	E	5:E	_
+5	Mißlingen	mißlingen	NOUN	NE	_	2	A	2:A	_
+6	unseres	unser	PRON	PPOSAT	_	8	R	8:R	_
+7	verwegenen	verwegen	ADJ	ADJA	_	5	A	5:A	_
+8	Vorhabens	Vorhaben	NOUN	NN	_	7	A	7:A	_
+9	war	sein	AUX	ADV	_	13	F	13:F	_
+10	mir	ich	PRON	PPER	_	13	A	13:A	_
+11	am	am	ADJ	ADJD	_	13	D	13:D	_
+12	wenigsten	wenig	ADJ	NE	_	11	Terminal	11:Terminal	_
+13	peinlich	peinlich	ADJ	ADJD	_	0	H	0:H	_
+14	;	;	PUNCT	$.	_	13	U	13:U	_
+15	aber	aber	CCONJ	KON	_	13	L	13:L	_
+16	es	es	PRON	PPER	_	17	F	17:F	_
+17	pochte	pochen	VERB	VVFIN	_	13	H	13:H	_
+18	doch	doch	ADV	ADV	_	17	F	17:F	_
+19	mein	mein	PRON	PPOSAT	_	20	E	20:E	_
+20	Herz	Herz	NOUN	NN	_	17	A	17:A	_
+21	bei	bei	ADP	APPR	_	23	R	23:R	_
+22	dem	der	DET	ART	_	23	E	23:E	_
+23	Gedanken	Gedanke	NOUN	NN	_	17	A	17:A	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	dass	dass	SCONJ	KOUS	_	34	R	34:R	_
+26	dasselbe	dasselbe	PRON	PDAT	_	34	A	34:A	_
+27	,	,	PUNCT	$,	_	34	U	34:U	_
+28	bevor	bevor	SCONJ	KOUS	_	34	L	34:L	_
+29	wir	wir	PRON	NE	_	32	A	32:A	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	›Nautilus‹	›Nautilus‹	NOUN	NE	_	32	A	32:A	_
+32	verlassen	verlassen	VERB	NN	_	34	H	34:H	_
+33	,	,	PUNCT	$,	_	34	U	34:U	_
+34	entdeckt	entdecken	VERB	VVPP	_	23	A	23:A	_
+35	und	und	CCONJ	NE	_	34	L	34:L	_
+36	ich	ich	PRON	PPER	_	43	A	43:A	_
+37	vor	vor	ADP	NN	_	39	R	39:R	_
+38	das	der	DET	ART	_	39	E	39:E	_
+39	Angesicht	Angesicht	NOUN	NN	_	43	A	43:A	_
+40	des	der	DET	ART	_	42	R	42:R	_
+41	entrüsteten	entrüstet	ADJ	ADJA	_	39	E	39:E	_
+42	Kapitäns	Kapitän	NOUN	NN	_	41	A	41:A	_
+43	zurückgebracht	zurückgebrachen	VERB	VVPP	_	34	H	34:H	_
+44	würde	werden	AUX	NN	_	43	D	43:D	_
+45	.	.	PUNCT	$.	_	43	U	43:U	_
+

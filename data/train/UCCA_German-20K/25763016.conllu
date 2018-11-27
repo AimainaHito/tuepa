@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25763016
+# text = Die Schönheiten dieser neuen Gegenden setzten mich über die Maßen in Erstaunen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Schönheiten	Schönheit	NOUN	NN	_	6	A	6:A	_
+3	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+4	neuen	neu	ADJ	ADJA	_	5	E	5:E	_
+5	Gegenden	Gegend	NOUN	NN	_	2	A	2:A	_
+6	setzten	setzen	VERB	VVFIN	_	0	H	0:H	_
+7	mich	ich	PRON	PRF	_	6	A	6:A	_
+8	über	über	ADP	VVFIN	_	6	D	6:D	_
+9	die	der	DET	ART	_	8	Terminal	8:Terminal	_
+10	Maßen	Maß	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	in	in	ADP	APPR	_	6	Terminal	6:Terminal	_
+12	Erstaunen	Erstaunen	NOUN	NN	_	6	Terminal	6:Terminal	_
+13	.	.	PUNCT	$.	_	6	U	6:U	_
+

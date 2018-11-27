@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25690016
+# text = Ich hätte es nicht sagen können .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	hätte	haben	AUX	VAFIN	_	5	D	5:D	_
+3	es	es	PRON	PPER	_	5	A	5:A	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+6	können	können	AUX	VMFIN	_	5	D	5:D	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

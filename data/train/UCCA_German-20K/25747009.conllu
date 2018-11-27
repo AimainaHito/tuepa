@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25747009
+# text = Mitten in diesem verworrenen Gewebe von Kräutern und Seegras bemerkte ich reizende rosenfarbene Seesplinte , Meernesseln , deren Fühlhörner gleich langem Haupthaar herabhingen ; grüne , rote , blaue Medusen und besonders die großen Rhizotomen Cuviers , deren bläulicher Schirm mit einer violetten Girlande umbordet ist .
+1	Mitten	mitten	ADV	ADV	_	5	R	5:R	_
+2	in	in	ADP	APPR	_	5	R	5:R	_
+3	diesem	dies	PRON	PDAT	_	5	E	5:E	_
+4	verworrenen	verworrenen	VERB	ADJA	_	5	E	5:E	_
+5	Gewebe	Gewebe	NOUN	NN	_	10	A	10:A	_
+6	von	von	ADP	NE	_	7	R	7:R	_
+7	Kräutern	Kräutern	PROPN	NE	_	5	E	5:E	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	Seegras	Seegras	PROPN	NE	_	7	C	7:C	_
+10	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	reizende	reizend	ADJ	ADJA	_	10	A	10:A	_
+13	rosenfarbene	rosenfarben	ADJ	ADJA	_	12	C	12:C	_
+14	Seesplinte	Seesplinte	NOUN	NN	_	12	A	12:A	_
+15	,	,	PUNCT	$,	_	10	U	10:U	_
+16	Meernesseln	Meernessel	NOUN	NN	_	10	A	10:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	deren	der	DET	PRELAT	_	23	R	23:R	_
+19	Fühlhörner	Fühlhörner	NOUN	NE	_	23	A	23:A	_
+20	gleich	gleich	ADV	ADV	_	22	R	22:R	_
+21	langem	lang	ADJ	ADJA	_	22	E	22:E	_
+22	Haupthaar	Haupthaar	NOUN	NN	_	16	E	16:E	_
+23	herabhingen	herabhingen	VERB	NE	_	16	E	16:E	_
+24	;	;	PUNCT	$.	_	10	U	10:U	_
+25	grüne	grün	ADJ	ADJA	_	30	E	30:E	_
+26	,	,	PUNCT	$,	_	30	U	30:U	_
+27	rote	rot	ADJ	ADJA	_	30	E	30:E	_
+28	,	,	PUNCT	$,	_	30	U	30:U	_
+29	blaue	blau	ADJ	ADJA	_	30	E	30:E	_
+30	Medusen	Meduse	NOUN	NN	_	10	A	10:A	_
+31	und	und	CCONJ	NE	_	30	N	30:N	_
+32	besonders	besonders	ADV	ADV	_	35	G	35:G	_
+33	die	der	DET	ART	_	35	E	35:E	_
+34	großen	groß	ADJ	ADJA	_	35	E	35:E	_
+35	Rhizotomen	Rhizotomen	PROPN	ADJA	_	0	C	0:C|45:A	_
+36	Cuviers	Cuviers	PROPN	NE	_	35	Terminal	35:Terminal	_
+37	,	,	PUNCT	$,	_	45	U	45:U	_
+38	deren	der	DET	PRELAT	_	45	R	45:R	_
+39	bläulicher	bläulich	ADJ	ADJA	_	40	E	40:E	_
+40	Schirm	Schirm	NOUN	NN	_	45	A	45:A	_
+41	mit	mit	ADP	APPR	_	44	R	44:R	_
+42	einer	ein	DET	ART	_	44	E	44:E	_
+43	violetten	violett	ADJ	NN	_	44	E	44:E	_
+44	Girlande	Girlande	NOUN	NN	_	45	A	45:A	_
+45	umbordet	umborden	VERB	ADJD	_	35	E	35:E	_
+46	ist	sein	AUX	NN	_	45	F	45:F	_
+47	.	.	PUNCT	$.	_	45	U	45:U	_
+

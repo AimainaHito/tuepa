@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25784010
+# text = Die Wände wurden fast wieder senkrecht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Wände	Wand	NOUN	NN	_	6	A	6:A	_
+3	wurden	werden	AUX	NN	_	6	F	6:F	_
+4	fast	fast	ADV	ADV	_	6	D	6:D	_
+5	wieder	wieder	ADV	NE	_	6	D	6:D	_
+6	senkrecht	senkrecht	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25512004
+# text = » Auf meinen Befehl . Ein elektrischer Draht hält mich in Verbindung , und es bedarf nur eines Telegramms .
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Auf	auf	ADP	APPR	_	4	R	4:R	_
+3	meinen	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Befehl	Befehl	NOUN	NN	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+6	Ein	ein	DET	ART	_	8	E	8:E	_
+7	elektrischer	elektrisch	ADJ	ADJA	_	8	E	8:E	_
+8	Draht	Draht	NOUN	NN	_	9	A	9:A	_
+9	hält	halten	VERB	VVFIN	_	4	H	4:H	_
+10	mich	ich	PRON	PRF	_	9	A	9:A	_
+11	in	in	ADP	APPR	_	9	Terminal	9:Terminal	_
+12	Verbindung	Verbindung	NOUN	NN	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	$,	_	4	U	4:U	_
+14	und	und	CCONJ	NE	_	4	L	4:L	_
+15	es	es	PRON	PPER	_	16	F	16:F	_
+16	bedarf	bedarf	VERB	VVFIN	_	4	H	4:H	_
+17	nur	nur	ADV	NE	_	16	D	16:D	_
+18	eines	ein	DET	ART	_	19	E	19:E	_
+19	Telegramms	Telegramms	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

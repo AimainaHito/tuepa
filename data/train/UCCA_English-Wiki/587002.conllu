@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 587002
+# text = In 1986 , he appeared in a secondary role as a Vietnamese - speaking private in Oliver Stone 's Platoon .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1986	1986	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	secondary	secondary	ADJ	JJ	_	9	E	9:E	_
+9	role	role	NOUN	NN	_	5	A	5:A	_
+10	as	as	ADP	IN	_	15	R	15:R	_
+11	a	a	DET	DT	_	15	E	15:E	_
+12	Vietnamese	vietnamese	ADJ	JJ	_	14	E	14:E	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	speaking	speaking	VERB	VBG	_	15	E	15:E	_
+15	private	private	NOUN	NN	_	9	E	9:E	_
+16	in	in	ADP	IN	_	20	R	20:R	_
+17	Oliver	Oliver	PROPN	NNP	_	20	E	20:E	_
+18	Stone	Stone	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	's	's	PART	POS	_	17	R	17:R	_
+20	Platoon	Platoon	PROPN	NNP	_	5	A	5:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

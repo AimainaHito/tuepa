@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 221009
+# text = In support of this , she directed and narrated a documentary entitled Why Tuesday , explaining the United States tradition of voting on Tuesdays .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	support	support	NOUN	NN	_	4	L	4:L	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	this	this	PRON	DT	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	she	she	PRON	PRP	_	7	A	7:A	_
+7	directed	direct	VERB	VBD	_	4	H	4:H	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	narrated	narrate	VERB	VBD	_	7	C	7:C	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	documentary	documentary	NOUN	NN	_	0	C	0:C|16:A	_
+12	entitled	entitle	VERB	VBN	_	7	A	7:A	_
+13	Why	why	ADV	WRB	_	12	A	12:A	_
+14	Tuesday	Tuesday	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	12	U	12:U	_
+16	explaining	explain	VERB	VBG	_	12	E	12:E	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	United	United	PROPN	NNP	_	20	E	20:E	_
+19	States	States	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	tradition	tradition	NOUN	NN	_	16	A	16:A	_
+21	of	of	ADP	IN	_	22	R	22:R	_
+22	voting	voting	NOUN	NN	_	20	E	20:E	_
+23	on	on	ADP	IN	_	24	R	24:R	_
+24	Tuesdays	Tuesdays	PROPN	NNP	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

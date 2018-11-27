@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25618002
+# text = Als ich wieder aufgestanden war , sah ich Kapitän Nemo mit seinem Leutnant auf der Plattform .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	wieder	wieder	ADV	NN	_	4	D	4:D	_
+4	aufgestanden	aufstehen	VERB	VVPP	_	0	H	0:H	_
+5	war	sein	AUX	ADV	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	sah	sehen	VERB	VVFIN	_	4	H	4:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	Kapitän	Kapitän	PROPN	NN	_	10	E	10:E	_
+10	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+11	mit	mit	ADP	APPR	_	13	R	13:R	_
+12	seinem	sein	DET	PPOSAT	_	13	E	13:E	_
+13	Leutnant	Leutnant	NOUN	NN	_	10	E	10:E	_
+14	auf	auf	ADP	APPR	_	16	R	16:R	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Plattform	Plattform	NOUN	NN	_	7	A	7:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

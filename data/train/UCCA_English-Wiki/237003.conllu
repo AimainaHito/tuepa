@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 237003
+# text = Other ventures include Jackie Chan Signature Club gyms ( a partnership with California Fitness ) , and a line of chocolates , cookies and nutritional oatcakes .
+1	Other	other	ADJ	JJ	_	2	E	2:E	_
+2	ventures	venture	NOUN	NNS	_	3	A	3:A	_
+3	include	include	VERB	VBP	_	0	H	0:H	_
+4	Jackie	Jackie	PROPN	NNP	_	8	E	8:E	_
+5	Chan	Chan	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Signature	signature	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	Club	Club	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	gyms	gym	NOUN	NNS	_	3	A	3:A	_
+9	(	(	PUNCT	-LRB-	_	8	U	8:U	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	partnership	partnership	NOUN	NN	_	8	E	8:E	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	California	California	PROPN	NNP	_	11	A	11:A	_
+14	Fitness	fitness	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+16	,	,	PUNCT	,	_	8	U	8:U	_
+17	and	and	CCONJ	CC	_	8	N	8:N	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	line	line	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	chocolates	chocolate	NOUN	NNS	_	8	C	8:C	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	cookies	cookie	NOUN	NNS	_	21	C	21:C	_
+24	and	and	CCONJ	CC	_	21	N	21:N	_
+25	nutritional	nutritional	ADJ	JJ	_	26	E	26:E	_
+26	oatcakes	oatcake	NOUN	NNS	_	21	C	21:C	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

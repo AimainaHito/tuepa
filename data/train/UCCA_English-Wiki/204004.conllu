@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 204004
+# text = However , two months later on April 15 , 2001 , Sorkin was arrested when guards at a security checkpoint at the Burbank Airport found hallucinogenic mushrooms , marijuana , and crack cocaine in his carry - on bag when a metal crack pipe set off the gate 's metal detector .
+1	However	however	ADV	RB	_	14	L	14:L	_
+2	,	,	PUNCT	,	_	14	U	14:U	_
+3	two	two	NUM	CD	_	4	E	4:E	_
+4	months	month	NOUN	NNS	_	14	D	14:D	_
+5	later	later	ADV	RB	_	4	R	4:R	_
+6	on	on	ADP	IN	_	10	R	10:R	_
+7	April	April	PROPN	NNP	_	10	E	10:E	_
+8	15	15	NUM	CD	_	10	E	10:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	2001	2001	NUM	CD	_	14	D	14:D	_
+11	,	,	PUNCT	,	_	14	U	14:U	_
+12	Sorkin	Sorkin	PROPN	NNP	_	14	A	14:A	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	arrested	arrest	VERB	VBN	_	0	H	0:H	_
+15	when	when	ADV	WRB	_	14	L	14:L	_
+16	guards	guard	NOUN	NNS	_	25	A	25:A	_
+17	at	at	ADP	IN	_	20	R	20:R	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	security	security	NOUN	NN	_	20	E	20:E	_
+20	checkpoint	checkpoint	NOUN	NN	_	16	E	16:E	_
+21	at	at	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	Burbank	Burbank	PROPN	NNP	_	24	E	24:E	_
+24	Airport	airport	PROPN	NNP	_	20	E	20:E	_
+25	found	find	VERB	VBD	_	14	H	14:H	_
+26	hallucinogenic	hallucinogenic	ADJ	JJ	_	27	E	27:E	_
+27	mushrooms	mushroom	NOUN	NNS	_	25	A	25:A	_
+28	,	,	PUNCT	,	_	27	U	27:U	_
+29	marijuana	marijuana	NOUN	NN	_	27	C	27:C	_
+30	,	,	PUNCT	,	_	27	U	27:U	_
+31	and	and	CCONJ	CC	_	27	N	27:N	_
+32	crack	crack	NOUN	NN	_	27	C	27:C	_
+33	cocaine	cocaine	NOUN	NN	_	32	Terminal	32:Terminal	_
+34	in	in	ADP	IN	_	39	R	39:R	_
+35	his	he	PRON	PRP$	_	39	E	39:E	_
+36	carry	carry	NOUN	NN	_	39	E	39:E	_
+37	-	-	PUNCT	,	_	36	U	36:U	_
+38	on	on	ADP	IN	_	36	Terminal	36:Terminal	_
+39	bag	bag	NOUN	NN	_	25	A	25:A	_
+40	when	when	ADV	WRB	_	14	L	14:L	_
+41	a	a	DET	DT	_	44	E	44:E	_
+42	metal	metal	NOUN	NN	_	44	E	44:E	_
+43	crack	crack	NOUN	NN	_	44	E	44:E	_
+44	pipe	pipe	NOUN	NN	_	45	A	45:A	_
+45	set	set	VERB	VBN	_	14	H	14:H	_
+46	off	off	ADP	IN	_	45	Terminal	45:Terminal	_
+47	the	the	DET	DT	_	48	E	48:E	_
+48	gate	gate	NOUN	NN	_	51	E	51:E	_
+49	's	's	PART	POS	_	48	R	48:R	_
+50	metal	metal	NOUN	NN	_	51	E	51:E	_
+51	detector	detector	NOUN	NN	_	45	A	45:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

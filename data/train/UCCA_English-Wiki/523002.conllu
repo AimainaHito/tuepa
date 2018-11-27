@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 523002
+# text = Her song for the Shell Chateau Hour was her first professional rendition of " Zing ! Went the Strings of My Heart , " a song which would become a standard in many of her concerts .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	8	A	8:A	_
+3	for	for	ADP	IN	_	7	R	7:R	_
+4	the	the	DET	DT	_	7	E	7:E	_
+5	Shell	Shell	PROPN	NNP	_	7	E	7:E	_
+6	Chateau	Chateau	PROPN	NNP	_	7	E	7:E	_
+7	Hour	hour	PROPN	NNP	_	2	E	2:E	_
+8	was	be	AUX	VBD	_	0	H	0:H	_
+9	her	she	PRON	PRP$	_	12	E	12:E	_
+10	first	first	ADJ	JJ	_	12	E	12:E	_
+11	professional	professional	ADJ	JJ	_	12	E	12:E	_
+12	rendition	rendition	NOUN	NN	_	8	A	8:A	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	Zing	zing	PROPN	NNP	_	12	E	12:E	_
+16	!	!	PUNCT	.	_	15	U	15:U	_
+17	Went	go	VERB	VBD	_	15	Terminal	15:Terminal	_
+18	the	the	DET	DT	_	15	Terminal	15:Terminal	_
+19	Strings	strings	NOUN	NNS	_	15	Terminal	15:Terminal	_
+20	of	of	ADP	IN	_	15	Terminal	15:Terminal	_
+21	My	my	PRON	PRP$	_	15	Terminal	15:Terminal	_
+22	Heart	heart	PROPN	NNP	_	15	Terminal	15:Terminal	_
+23	,	,	PUNCT	,	_	15	U	15:U	_
+24	"	"	PUNCT	``	_	15	U	15:U	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	song	song	NOUN	NN	_	15	E	15:E	_
+27	which	which	PRON	WDT	_	31	R	31:R	_
+28	would	would	AUX	MD	_	31	F	31:F	_
+29	become	become	VERB	VB	_	31	D	31:D	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	standard	standard	NOUN	NN	_	26	E	26:E	_
+32	in	in	ADP	IN	_	36	R	36:R	_
+33	many	many	ADJ	JJ	_	36	E	36:E	_
+34	of	of	ADP	IN	_	33	R	33:R	_
+35	her	she	PRON	PRP$	_	36	E	36:E	_
+36	concerts	concert	NOUN	NNS	_	31	A	31:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

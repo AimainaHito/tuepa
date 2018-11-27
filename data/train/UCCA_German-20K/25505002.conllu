@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25505002
+# text = » Diese Musiker « , erwiderte Kapitän Nemo , » gehören wie Orpheus zu einer entschwundenen Zeit , und ich bin tot , ebenso wie die , welche 6 Fuß tief unter der Erde ruhen ! «
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Musiker	Musiker	NOUN	NN	_	11	A	11:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	Kapitän	Kapitän	PROPN	NN	_	8	E	8:E	_
+8	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	gehören	gehören	VERB	VVFIN	_	6	A	6:A	_
+12	wie	wie	ADP	NE	_	13	R	13:R	_
+13	Orpheus	Orpheus	PROPN	NE	_	11	H	11:H	_
+14	zu	zu	ADP	NN	_	17	R	17:R	_
+15	einer	ein	DET	ART	_	17	E	17:E	_
+16	entschwundenen	entschwunden	ADJ	ADJA	_	17	E	17:E	_
+17	Zeit	Zeit	NOUN	NN	_	11	A	11:A	_
+18	,	,	PUNCT	$,	_	11	U	11:U	_
+19	und	und	CCONJ	NE	_	11	L	11:L	_
+20	ich	ich	PRON	PPER	_	22	A	22:A	_
+21	bin	sein	AUX	VAFIN	_	22	F	22:F	_
+22	tot	tot	ADJ	ADJD	_	11	H	11:H	_
+23	,	,	PUNCT	$,	_	11	U	11:U	_
+24	ebenso	ebenso	ADV	ADV	_	11	L	11:L	_
+25	wie	wie	ADP	KON	_	26	R	26:R	_
+26	die	der	DET	ART	_	11	H	11:H	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	welche	welch	PRON	NN	_	35	R	35:R	_
+29	6	6	NUM	CARD	_	30	E	30:E	_
+30	Fuß	Fuß	NOUN	NN	_	35	A	35:A	_
+31	tief	tief	ADJ	VVFIN	_	35	D	35:D	_
+32	unter	unter	ADP	ADJD	_	34	R	34:R	_
+33	der	der	DET	ART	_	34	E	34:E	_
+34	Erde	Erde	NOUN	NE	_	35	A	35:A	_
+35	ruhen	ruhen	VERB	VVINF	_	26	E	26:E	_
+36	!	!	PUNCT	$.	_	35	U	35:U	_
+37	«	«	PUNCT	$(	_	35	U	35:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 787000
+# text = « Nous serons bien ici , dis - je à Conseil .
+1	«	«	PUNCT	_	_	7	U	7:U	_
+2	Nous	nous	PRON	_	_	4	A	4:A	_
+3	serons	sere	VERB	_	_	4	F	4:F	_
+4	bien	bien	ADV	_	_	7	A	7:A	_
+5	ici	ici	ADV	_	_	4	A	4:A	_
+6	,	,	PUNCT	_	_	7	U	7:U	_
+7	dis	dire	VERB	_	_	0	H	0:H	_
+8	-	-	PUNCT	_	_	7	U	7:U	_
+9	je	il	PRON	_	_	7	A	7:A	_
+10	à	à	ADP	_	_	11	R	11:R	_
+11	Conseil	conseil	PROPN	_	_	7	A	7:A	_
+12	.	.	PUNCT	_	_	11	U	11:U	_
+

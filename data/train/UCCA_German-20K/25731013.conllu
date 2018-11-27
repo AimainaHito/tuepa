@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25731013
+# text = Dieses Geräusch wurde mitunter stärker und erzeugte gleichsam ein anhaltendes Knistern .
+1	Dieses	dies	PRON	PDAT	_	2	E	2:E	_
+2	Geräusch	Geräusch	NOUN	NN	_	0	C	0:C|7:A	_
+3	wurde	werden	AUX	TRUNC	_	5	F	5:F	_
+4	mitunter	mitunter	ADV	ADV	_	5	D	5:D	_
+5	stärker	stark	ADJ	ADJD	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	erzeugte	erzeugen	VERB	VVFIN	_	5	H	5:H	_
+8	gleichsam	gleichsam	ADV	ADV	_	7	D	7:D	_
+9	ein	ein	DET	ART	_	11	E	11:E	_
+10	anhaltendes	anhaltend	ADJ	ADJA	_	11	E	11:E	_
+11	Knistern	Knister	NOUN	NN	_	7	A	7:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

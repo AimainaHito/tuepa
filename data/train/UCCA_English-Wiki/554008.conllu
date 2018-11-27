@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 554008
+# text = The family attended an Assembly of God church , where he found his initial musical inspiration .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	family	family	NOUN	NN	_	3	A	3:A	_
+3	attended	attend	VERB	VBD	_	0	H	0:H	_
+4	an	a	DET	DT	_	8	E	8:E	_
+5	Assembly	Assembly	PROPN	NNP	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	Terminal	5:Terminal	_
+7	God	God	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	church	church	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	where	where	ADV	WRB	_	12	F	12:F	_
+11	he	he	PRON	PRP	_	12	A	12:A	_
+12	found	find	VERB	VBD	_	8	E	8:E	_
+13	his	he	PRON	PRP$	_	16	E	16:E	_
+14	initial	initial	ADJ	JJ	_	16	E	16:E	_
+15	musical	musical	ADJ	JJ	_	16	E	16:E	_
+16	inspiration	inspiration	NOUN	NN	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

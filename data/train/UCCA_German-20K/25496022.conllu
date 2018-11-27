@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25496022
+# text = Indem ich Sie zurückhalte , schütze ich nicht Sie , sondern mich selbst ! «
+1	Indem	indem	SCONJ	KOUS	_	4	L	4:L	_
+2	ich	ich	PRON	PPER	_	4	A	4:A|12:A	_
+3	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+4	zurückhalte	zurückhalen	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	schütze	schützen	VERB	VVFIN	_	4	H	4:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	nicht	nicht	PART	CARD	_	6	D	6:D	_
+9	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	sondern	sondern	CCONJ	NN	_	4	L	4:L	_
+12	mich	ich	PRON	PPER	_	4	H	4:H	_
+13	selbst	selbst	ADV	VVFIN	_	12	D	12:D	_
+14	!	!	PUNCT	$.	_	12	U	12:U	_
+15	«	«	PUNCT	$(	_	12	U	12:U	_
+

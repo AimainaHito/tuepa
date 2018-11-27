@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25437019
+# text = « Nach einer Viertel stunde waren unsere Koffer fertig .
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	Nach	nach	ADP	APPR	_	5	R	5:R	_
+3	einer	ein	DET	ART	_	5	E	5:E	_
+4	Viertel	Viertel	NOUN	NN	_	5	E	5:E	_
+5	stunde	stunde	ADJ	NN	_	9	D	9:D	_
+6	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+7	unsere	unser	DET	PPOSAT	_	8	E	8:E	_
+8	Koffer	Schiefe|Koffer	NOUN	NN	_	9	A	9:A	_
+9	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

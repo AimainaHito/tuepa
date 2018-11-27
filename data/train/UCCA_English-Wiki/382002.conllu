@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 382002
+# text = After filming The Day After Tomorrow , he flew to the Arctic to promote awareness of climate change .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	filming	film	VERB	VBG	_	0	H	0:H	_
+3	The	the	DET	DT	_	2	A	2:A	_
+4	Day	Day	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	After	after	ADP	IN	_	3	Terminal	3:Terminal	_
+6	Tomorrow	tomorrow	PROPN	NNP	_	3	Terminal	3:Terminal	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	he	he	PRON	PRP	_	9	A	9:A|2:A|14:A	_
+9	flew	flow	VERB	VBD	_	2	H	2:H	_
+10	to	to	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	Arctic	Arctic	PROPN	NNP	_	9	A	9:A	_
+13	to	to	PART	TO	_	2	L	2:L	_
+14	promote	promote	VERB	VB	_	2	H	2:H	_
+15	awareness	awareness	NOUN	NN	_	18	E	18:E	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	climate	climate	NOUN	NN	_	18	E	18:E	_
+18	change	change	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

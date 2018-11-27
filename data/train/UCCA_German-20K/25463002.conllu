@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25463002
+# text = Offenbar tappten wir wie Blinde .
+1	Offenbar	offenbar	ADJ	NE	_	2	G	2:G	_
+2	tappten	tappen	VERB	VVFIN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	wie	wie	ADP	ADJA	_	5	R	5:R	_
+5	Blinde	Blind	NOUN	NN	_	2	H	2:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 250008
+# text = The following year Hawke was a co - founder and the artistic director of Malaparte , a Manhattan theater company , which survived until 2000 .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	9	D	9:D	_
+4	Hawke	Hawke	PROPN	NNP	_	9	A	9:A	_
+5	was	be	AUX	VBD	_	9	F	9:F	_
+6	a	a	DET	DT	_	9	E	9:E	_
+7	co	co	NOUN	NN	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	founder	founder	NOUN	NN	_	0	H	0:H	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	artistic	artistic	ADJ	JJ	_	13	E	13:E	_
+13	director	director	NOUN	NN	_	9	C	9:C	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Malaparte	Malaparte	PROPN	NNP	_	9	A	9:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	a	a	DET	DT	_	20	E	20:E	_
+18	Manhattan	Manhattan	PROPN	NNP	_	20	E	20:E	_
+19	theater	theater	NOUN	NN	_	20	E	20:E	_
+20	company	company	NOUN	NN	_	15	E	15:E	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	which	which	PRON	WDT	_	23	F	23:F	_
+23	survived	survive	VERB	VBD	_	20	E	20:E	_
+24	until	until	ADP	IN	_	25	R	25:R	_
+25	2000	2000	NUM	CD	_	23	D	23:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

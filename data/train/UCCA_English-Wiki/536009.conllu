@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 536009
+# text = Although he was a staunch Republican , Warner encouraged film projects that promoted the agenda of Democratic President Franklin D . Roosevelt 's New Deal .
+1	Although	although	SCONJ	IN	_	3	L	3:L	_
+2	he	he	PRON	PRP	_	3	A	3:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	staunch	staunch	NOUN	NN	_	6	E	6:E	_
+6	Republican	Republican	PROPN	NNP	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	Warner	Warner	PROPN	NNP	_	9	A	9:A	_
+9	encouraged	encourage	VERB	VBD	_	3	H	3:H	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	projects	project	NOUN	NNS	_	9	A	9:A	_
+12	that	that	PRON	WDT	_	13	F	13:F	_
+13	promoted	promote	VERB	VBD	_	11	E	11:E	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	agenda	agenda	NOUN	NN	_	13	A	13:A	_
+16	of	of	ADP	IN	_	24	R	24:R	_
+17	Democratic	Democratic	ADJ	JJ	_	18	E	18:E	_
+18	President	President	PROPN	NNP	_	24	E	24:E	_
+19	Franklin	Franklin	PROPN	NNP	_	18	E	18:E	_
+20	D	D	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+22	Roosevelt	Roosevelt	PROPN	NNP	_	19	Terminal	19:Terminal	_
+23	's	's	PART	POS	_	19	R	19:R	_
+24	New	New	PROPN	NNP	_	15	E	15:E	_
+25	Deal	Deal	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

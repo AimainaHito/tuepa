@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25751003
+# text = Kapitän Nemo entschloß sich , den Meeresgrund durch eine hinreichend lange Diagonale aufzusuchen vermittels seiner geneigten Flächen , die in einem Winkel von 45 Grad zu den Wasserlinien der ›Nautilus‹ gerichtet wurden .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	entschloß	entschließen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Meeresgrund	Meeresgrund	NOUN	NN	_	13	A	13:A	_
+8	durch	durch	ADP	APPR	_	12	R	12:R	_
+9	eine	ein	DET	ART	_	12	E	12:E	_
+10	hinreichend	hinreichend	ADV	ADJD	_	11	D	11:D	_
+11	lange	lang	ADJ	ADJA	_	12	E	12:E	_
+12	Diagonale	Diagonale	NOUN	ADJA	_	13	A	13:A	_
+13	aufzusuchen	aufzusuchen	VERB	ADJA	_	3	A	3:A	_
+14	vermittels	vermittels	ADP	NE	_	16	R	16:R	_
+15	seiner	sein	DET	PPOSAT	_	17	E	17:E	_
+16	geneigten	geneigt	ADJ	ADJA	_	13	A	13:A	_
+17	Flächen	Fläche	NOUN	NN	_	0	C	0:C|31:A	_
+18	,	,	PUNCT	$,	_	31	U	31:U	_
+19	die	der	PRON	PRELS	_	31	R	31:R	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	einem	ein	DET	ART	_	22	E	22:E	_
+22	Winkel	Winkel	NOUN	NN	_	31	A	31:A	_
+23	von	von	ADP	NE	_	25	R	25:R	_
+24	45	45	NUM	CARD	_	25	E	25:E	_
+25	Grad	Grad	NOUN	NE	_	22	E	22:E	_
+26	zu	zu	ADP	NE	_	28	R	28:R	_
+27	den	der	DET	ART	_	28	E	28:E	_
+28	Wasserlinien	Wasserlinie	NOUN	NN	_	31	A	31:A	_
+29	der	der	DET	ART	_	30	R	30:R	_
+30	›Nautilus‹	›Nautilus‹	NOUN	NE	_	28	E	28:E	_
+31	gerichtet	richten	VERB	VVPP	_	16	E	16:E	_
+32	wurden	werden	AUX	ADJD	_	31	F	31:F	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+

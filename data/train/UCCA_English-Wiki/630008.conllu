@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 630008
+# text = It would be 20 years before he had contact with his father again .
+1	It	it	PRON	PRP	_	5	F	5:F	_
+2	would	would	AUX	MD	_	5	F	5:F	_
+3	be	be	AUX	VB	_	5	F	5:F	_
+4	20	20	NUM	CD	_	5	E	5:E	_
+5	years	year	NOUN	NNS	_	9	D	9:D	_
+6	before	before	SCONJ	IN	_	5	R	5:R	_
+7	he	he	PRON	PRP	_	9	A	9:A	_
+8	had	have	VERB	VBD	_	9	F	9:F	_
+9	contact	contact	NOUN	NN	_	0	H	0:H	_
+10	with	with	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	father	father	NOUN	NN	_	9	A	9:A	_
+13	again	again	ADV	RB	_	9	D	9:D	_
+14	.	.	PUNCT	.	_	9	U	9:U	_
+

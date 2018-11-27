@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25646013
+# text = Kapitän Nemo stand vor mir , aber ich erkannte ihn nicht , so waren seine Gesichtszüge entstellt .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+4	vor	vor	ADP	NE	_	5	R	5:R	_
+5	mir	ich	PRON	NE	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	aber	aber	CCONJ	KON	_	3	L	3:L	_
+8	ich	ich	PRON	PPER	_	9	A	9:A	_
+9	erkannte	erkennen	VERB	VVFIN	_	3	H	3:H	_
+10	ihn	er	PRON	PPER	_	9	A	9:A	_
+11	nicht	nicht	PART	ADJA	_	9	D	9:D	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	so	so	ADV	ADV	_	17	D	17:D	_
+14	waren	sein	AUX	VAFIN	_	17	F	17:F	_
+15	seine	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Gesichtszüge	Gesichtszug	NOUN	NN	_	17	A	17:A	_
+17	entstellt	entstellen	VERB	VVPP	_	3	H	3:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

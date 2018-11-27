@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25522002
+# text = » Wir sind oben angelangt « , sagte der Kapitän .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Wir	wir	PRON	NE	_	5	A	5:A	_
+3	sind	sein	AUX	NN	_	5	F	5:F	_
+4	oben	oben	ADV	NN	_	5	D	5:D	_
+5	angelangt	angelangen	VERB	VVPP	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

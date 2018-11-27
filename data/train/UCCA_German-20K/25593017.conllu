@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25593017
+# text = Er wartete , bis ich wieder bei ihm war , und zeigte mir mit dem Finger einige dunkle Massen , die nicht weit von dort im Schatten hervortraten .
+1	Er	er	PRON	PPER	_	2	A	2:A|12:A	_
+2	wartete	warten	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	bis	bis	SCONJ	KOUS	_	2	L	2:L	_
+5	ich	ich	PRON	PPER	_	9	A	9:A	_
+6	wieder	wieder	ADV	NN	_	9	D	9:D	_
+7	bei	bei	ADP	APPR	_	8	R	8:R	_
+8	ihm	er	PRON	PPER	_	9	A	9:A	_
+9	war	sein	AUX	ADV	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	zeigte	zeigen	VERB	VVFIN	_	2	H	2:H	_
+13	mir	ich	PRON	PPER	_	12	A	12:A	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	dem	der	DET	ART	_	16	E	16:E	_
+16	Finger	Finger	NOUN	NN	_	12	A	12:A	_
+17	einige	einige	PRON	PIAT	_	19	E	19:E	_
+18	dunkle	dunkel	ADJ	ADJA	_	19	E	19:E	_
+19	Massen	Masse	NOUN	NN	_	12	A	12:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	die	der	PRON	PRELS	_	28	R	28:R	_
+22	nicht	nicht	PART	XY	_	23	E	23:E	_
+23	weit	weit	ADJ	ADJD	_	28	D	28:D	_
+24	von	von	ADP	NN	_	25	R	25:R	_
+25	dort	dort	ADV	ADV	_	28	A	28:A	_
+26	im	im	ADJ	NN	_	27	R	27:R	_
+27	Schatten	Schatten	NOUN	NN	_	28	A	28:A	_
+28	hervortraten	hervortraten	VERB	VVINF	_	19	E	19:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

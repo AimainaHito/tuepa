@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25595011
+# text = Kapitän Nemo war bereits aufgestanden , und ich fing an die Glieder zu strecken , als eine unerwartete Erscheinung mich rasch auf die Beine brachte .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	5	A	5:A	_
+3	war	sein	AUX	ADV	_	5	F	5:F	_
+4	bereits	bereits	ADV	ADV	_	5	D	5:D	_
+5	aufgestanden	aufstehen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	ich	ich	PRON	PPER	_	14	A	14:A	_
+9	fing	fangen	VERB	VVFIN	_	14	D	14:D	_
+10	an	an	ADP	APPR	_	9	Terminal	9:Terminal	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Glieder	Glieder	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	strecken	strecken	VERB	VVINF	_	5	H	5:H	_
+15	,	,	PUNCT	$,	_	5	U	5:U	_
+16	als	als	SCONJ	KOUS	_	5	L	5:L	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	unerwartete	unerwartet	ADJ	VVFIN	_	19	E	19:E	_
+19	Erscheinung	Erscheinung	NOUN	NN	_	20	A	20:A	_
+20	mich	ich	PRON	PPER	_	5	H	5:H	_
+21	rasch	rasch	ADJ	ADJD	_	20	D	20:D	_
+22	auf	auf	ADP	APPR	_	20	Terminal	20:Terminal	_
+23	die	der	DET	ART	_	20	Terminal	20:Terminal	_
+24	Beine	Bein	NOUN	NN	_	20	Terminal	20:Terminal	_
+25	brachte	bringen	VERB	VVFIN	_	20	Terminal	20:Terminal	_
+26	.	.	PUNCT	$.	_	20	U	20:U	_
+

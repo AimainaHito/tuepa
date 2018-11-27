@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 220000
+# text = Reports have also stated that she will join Kristen Stewart , Sam Riley , and Garrett Hedlund in the upcoming feature , On the Road .
+1	Reports	report	NOUN	NNS	_	4	A	4:A	_
+2	have	have	AUX	VBP	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	stated	state	VERB	VBN	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	8	F	8:F	_
+6	she	she	PRON	PRP	_	8	A	8:A	_
+7	will	will	AUX	MD	_	8	F	8:F	_
+8	join	join	VERB	VB	_	4	A	4:A	_
+9	Kristen	Kristen	PROPN	NNP	_	8	A	8:A	_
+10	Stewart	Stewart	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	Sam	Sam	PROPN	NNP	_	9	C	9:C	_
+13	Riley	Riley	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	,	,	PUNCT	,	_	9	U	9:U	_
+15	and	and	CCONJ	CC	_	9	N	9:N	_
+16	Garrett	Garrett	PROPN	NNP	_	9	C	9:C	_
+17	Hedlund	Hedlund	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	in	in	ADP	IN	_	23	R	23:R	_
+19	the	the	DET	DT	_	23	E	23:E	_
+20	upcoming	upcoming	ADJ	JJ	_	21	E	21:E	_
+21	feature	feature	NOUN	NN	_	23	E	23:E	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	On	on	ADP	IN	_	8	A	8:A	_
+24	the	the	DET	DT	_	23	Terminal	23:Terminal	_
+25	Road	Road	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	.	.	PUNCT	.	_	23	U	23:U	_
+

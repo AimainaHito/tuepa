@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25712011
+# text = Ich darf jetzt sagen , dass die Tatsachen mein Voraussehen zu bestätigen schienen , zur großen Verzweiflung des Kanadiers .
+1	Ich	ich	PRON	PPER	_	4	A	4:A	_
+2	darf	dürfen	AUX	VMFIN	_	4	D	4:D	_
+3	jetzt	jetzt	ADV	ADV	_	4	D	4:D	_
+4	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	12	R	12:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Tatsachen	Tatsache	NOUN	NN	_	0	C	0:C|13:A	_
+9	mein	mein	PRON	PPOSAT	_	10	E	10:E	_
+10	Voraussehen	Voraussehen	NOUN	NN	_	12	A	12:A	_
+11	zu	zu	PART	VVINF	_	12	F	12:F	_
+12	bestätigen	bestätigen	VERB	VVINF	_	4	A	4:A	_
+13	schienen	schienen	VERB	ADJA	_	12	H	12:H	_
+14	,	,	PUNCT	$,	_	4	U	4:U	_
+15	zur	zur	ADV	NE	_	17	R	17:R	_
+16	großen	groß	ADJ	ADJA	_	17	E	17:E	_
+17	Verzweiflung	Verzweiflung	NOUN	NN	_	4	H	4:H	_
+18	des	der	DET	ART	_	19	R	19:R	_
+19	Kanadiers	Kanadier	NOUN	NN	_	17	A	17:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

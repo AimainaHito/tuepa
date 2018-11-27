@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 587009
+# text = Depp paid for most of Thompson 's memorial event , complete with fireworks and the shooting of Thompson 's ashes by a cannon , in Aspen , Colorado , where Thompson lived .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	paid	pay	VERB	VBD	_	0	H	0:H	_
+3	for	for	ADP	IN	_	9	R	9:R	_
+4	most	most	ADJ	JJS	_	9	E	9:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	Thompson	Thompson	PROPN	NNP	_	9	E	9:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	memorial	memorial	ADJ	JJ	_	9	E	9:E	_
+9	event	event	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	complete	complete	ADJ	JJ	_	9	E	9:E	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	fireworks	firework	NOUN	NNS	_	11	A	11:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	shooting	shooting	NOUN	NN	_	13	C	13:C	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	Thompson	Thompson	PROPN	NNP	_	19	E	19:E	_
+19	's	's	PART	POS	_	20	E	20:E	_
+20	ashes	ash	NOUN	NNS	_	16	A	16:A	_
+21	by	by	ADP	IN	_	23	R	23:R	_
+22	a	a	DET	DT	_	23	E	23:E	_
+23	cannon	cannon	NOUN	NN	_	16	A	16:A	_
+24	,	,	PUNCT	,	_	9	U	9:U	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	Aspen	aspen	PROPN	NNP	_	9	E	9:E	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	Colorado	Colorado	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	where	where	ADV	WRB	_	32	R	32:R	_
+31	Thompson	Thompson	PROPN	NNP	_	32	A	32:A	_
+32	lived	live	VERB	VBD	_	26	E	26:E	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

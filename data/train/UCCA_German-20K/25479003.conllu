@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25479003
+# text = Die ›Abraham Lincoln‹ , von seiner gewaltigen Schraube getrieben , fuhr direkt auf das Tier los .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Abraham	›Abraham	PROPN	NE	_	0	C	0:C|9:A	_
+3	Lincoln‹	Lincoln‹	NOUN	NE	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	9	U	9:U	_
+5	von	von	ADP	NE	_	8	R	8:R	_
+6	seiner	sein	DET	PPOSAT	_	8	E	8:E	_
+7	gewaltigen	gewaltig	ADJ	ADJA	_	8	E	8:E	_
+8	Schraube	Schraube	NOUN	NN	_	9	A	9:A	_
+9	getrieben	treiben	VERB	VVPP	_	11	H	11:H	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+12	direkt	direkt	ADJ	ADJD	_	11	D	11:D	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Tier	Tier	NOUN	NN	_	11	A	11:A	_
+16	los	los	ADV	PTKVZ	_	11	Terminal	11:Terminal	_
+17	.	.	PUNCT	$.	_	11	U	11:U	_
+

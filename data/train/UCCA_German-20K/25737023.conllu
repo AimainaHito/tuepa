@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25737023
+# text = Ich besprach die Frage der Atlantis wie ein Mann , der davon überzeugt ist .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	besprach	besprechen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Frage	Frage	NOUN	NN	_	2	A	2:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Atlantis	Atlantis	PROPN	NN	_	4	E	4:E	_
+7	wie	wie	ADP	ADV	_	9	R	9:R	_
+8	ein	ein	DET	ART	_	9	E	9:E	_
+9	Mann	Mann	NOUN	NN	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	der	der	PRON	PRELS	_	13	R	13:R	_
+12	davon	davon	ADV	PAV	_	13	A	13:A	_
+13	überzeugt	überzeugen	ADJ	ADJD	_	9	E	9:E	_
+14	ist	sein	AUX	NN	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 114002
+# text = Her work came in a range of genres , from screwball comedy to literary drama , and she received four Academy Awards for Best Actress - a record for any performer .
+1	Her	she	PRON	PRP$	_	2	A	2:A	_
+2	work	work	NOUN	NN	_	3	A	3:A	_
+3	came	come	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	6	R	6:R	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	range	range	NOUN	NN	_	3	A	3:A	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	genres	genre	NOUN	NNS	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	from	from	ADP	IN	_	12	R	12:R	_
+11	screwball	screwball	NOUN	NN	_	12	E	12:E	_
+12	comedy	comedy	NOUN	NN	_	8	E	8:E	_
+13	to	to	ADP	IN	_	15	R	15:R	_
+14	literary	literary	ADJ	JJ	_	15	E	15:E	_
+15	drama	drama	NOUN	NN	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	3	U	3:U	_
+17	and	and	CCONJ	CC	_	3	L	3:L	_
+18	she	she	PRON	PRP	_	19	A	19:A	_
+19	received	receive	VERB	VBD	_	3	H	3:H	_
+20	four	four	NUM	CD	_	22	E	22:E	_
+21	Academy	Academy	NOUN	NN	_	22	E	22:E	_
+22	Awards	awards	NOUN	NNS	_	19	A	19:A	_
+23	for	for	ADP	IN	_	25	R	25:R	_
+24	Best	Best	ADJ	JJS	_	25	E	25:E	_
+25	Actress	actress	NOUN	NN	_	22	E	22:E	_
+26	-	-	PUNCT	,	_	22	U	22:U	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	record	record	NOUN	NN	_	22	E	22:E	_
+29	for	for	ADP	IN	_	31	R	31:R	_
+30	any	any	DET	DT	_	31	E	31:E	_
+31	performer	performer	NOUN	NN	_	28	A	28:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

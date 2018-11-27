@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 725006
+# text = Later that year , she appeared in Playing by Heart , part of an ensemble cast that included Sean Connery , Gillian Anderson , Ryan Phillippe , and Jon Stewart .
+1	Later	later	ADV	RBR	_	3	E	3:E	_
+2	that	that	DET	DT	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A|12:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	in	in	SCONJ	IN	_	8	R	8:R	_
+8	Playing	play	VERB	VBG	_	6	A	6:A	_
+9	by	by	ADP	IN	_	8	Terminal	8:Terminal	_
+10	Heart	heart	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	part	part	NOUN	NN	_	6	H	6:H	_
+13	of	of	ADP	IN	_	16	F	16:F	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	ensemble	ensemble	ADJ	JJ	_	16	E	16:E	_
+16	cast	cast	NOUN	NN	_	12	A	12:A	_
+17	that	that	PRON	WDT	_	18	F	18:F	_
+18	included	include	VERB	VBD	_	16	E	16:E	_
+19	Sean	Sean	PROPN	NNP	_	18	A	18:A	_
+20	Connery	Connery	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	,	_	19	U	19:U	_
+22	Gillian	Gillian	PROPN	NNP	_	19	C	19:C	_
+23	Anderson	Anderson	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	19	U	19:U	_
+25	Ryan	Ryan	PROPN	NNP	_	19	C	19:C	_
+26	Phillippe	Phillippe	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	19	U	19:U	_
+28	and	and	CCONJ	CC	_	19	N	19:N	_
+29	Jon	Jon	PROPN	NNP	_	19	C	19:C	_
+30	Stewart	Stewart	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25798011
+# text = Bald war man über den Polarkreis hinaus , und nun ging es nach dem Kap Horn zu .
+1	Bald	bald	ADV	ADV	_	4	D	4:D	_
+2	war	sein	AUX	ADV	_	4	F	4:F	_
+3	man	man	PRON	PIS	_	4	A	4:A	_
+4	über	über	ADP	VVFIN	_	0	H	0:H	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Polarkreis	Polarkreis	NOUN	NN	_	4	A	4:A	_
+7	hinaus	hinaus	ADV	ADV	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	und	und	CCONJ	NE	_	4	L	4:L	_
+10	nun	nun	ADV	ADV	_	11	D	11:D	_
+11	ging	gehen	VERB	VVFIN	_	4	H	4:H	_
+12	es	es	PRON	PPER	_	11	F	11:F	_
+13	nach	nach	ADP	CARD	_	15	R	15:R	_
+14	dem	der	DET	ART	_	15	E	15:E	_
+15	Kap	Kap	NOUN	NN	_	11	A	11:A	_
+16	Horn	Horn	PROPN	NE	_	15	Terminal	15:Terminal	_
+17	zu	zu	ADP	NE	_	11	Terminal	11:Terminal	_
+18	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25699015
+# text = » Aber auf dem Isthmus ist ja nur Flugsand ? «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+3	auf	auf	ADP	APPR	_	5	R	5:R	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Isthmus	Isthmus	NOUN	NN	_	6	A	6:A	_
+6	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+7	ja	ja	ADV	ADV	_	6	F	6:F	_
+8	nur	nur	ADV	NE	_	6	D	6:D	_
+9	Flugsand	Flugsand	NOUN	NE	_	6	A	6:A	_
+10	?	?	PUNCT	$.	_	6	U	6:U	_
+11	«	«	PUNCT	$(	_	6	U	6:U	_
+

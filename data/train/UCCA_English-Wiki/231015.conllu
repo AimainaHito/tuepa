@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 231015
+# text = All 16 finalists will be given the opportunity to work on the films , or to join the Jackie Chan Stunt Team .
+1	All	all	DET	DT	_	3	E	3:E	_
+2	16	16	NUM	CD	_	3	E	3:E	_
+3	finalists	finalist	NOUN	NNS	_	8	A	8:A|10:A|17:A	_
+4	will	will	AUX	MD	_	8	F	8:F	_
+5	be	be	AUX	VB	_	8	F	8:F	_
+6	given	give	VERB	VBN	_	8	F	8:F	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	opportunity	opportunity	NOUN	NN	_	0	H	0:H	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	work	work	VERB	VB	_	8	A	8:A	_
+11	on	on	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	films	film	NOUN	NNS	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	or	or	CCONJ	CC	_	10	L	10:L	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	join	join	VERB	VB	_	10	H	10:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	Jackie	Jackie	PROPN	NNP	_	17	A	17:A	_
+20	Chan	Chan	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Stunt	Stunt	PROPN	NNP	_	19	Terminal	19:Terminal	_
+22	Team	Team	NOUN	NN	_	19	Terminal	19:Terminal	_
+23	.	.	PUNCT	.	_	19	U	19:U	_
+

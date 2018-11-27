@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 558011
+# text = The trio played publicly for the first time on July 17 at the Bon Air club - Presley still sporting his child - size guitar .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	trio	trio	NOUN	NN	_	3	A	3:A	_
+3	played	play	VERB	VBD	_	0	H	0:H	_
+4	publicly	publicly	ADV	RB	_	3	D	3:D	_
+5	for	for	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	time	time	NOUN	NN	_	3	A	3:A	_
+9	on	on	ADP	IN	_	10	R	10:R	_
+10	July	July	PROPN	NNP	_	3	A	3:A	_
+11	17	17	NUM	CD	_	10	Terminal	10:Terminal	_
+12	at	at	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	16	E	16:E	_
+14	Bon	Bon	PROPN	NNP	_	16	E	16:E	_
+15	Air	air	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	club	club	NOUN	NN	_	3	A	3:A	_
+17	-	-	PUNCT	HYPH	_	3	U	3:U	_
+18	Presley	Presley	NOUN	NN	_	20	A	20:A	_
+19	still	still	ADV	RB	_	20	D	20:D	_
+20	sporting	sporte	VERB	VBG	_	3	H	3:H	_
+21	his	he	PRON	PRP$	_	25	E	25:E	_
+22	child	child	NOUN	NN	_	24	E	24:E	_
+23	-	-	PUNCT	HYPH	_	24	U	24:U	_
+24	size	size	NOUN	NN	_	25	E	25:E	_
+25	guitar	guitar	NOUN	NN	_	20	A	20:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25639008
+# text = Die Luft war daher innen nicht erneuert , aber die für alle Fälle gefüllten Behälter wirkten rechtzeitig und warfen einige Kubikmeter Sauerstoff in die verschlechterte Atmosphäre der " Nautilus " .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luft	Luft	NOUN	NN	_	7	A	7:A	_
+3	war	sein	AUX	ADV	_	7	F	7:F	_
+4	daher	daher	ADV	PAV	_	7	D	7:D	_
+5	innen	innen	ADV	ADV	_	7	A	7:A	_
+6	nicht	nicht	PART	CARD	_	7	D	7:D	_
+7	erneuert	erneuern	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	aber	aber	CCONJ	KON	_	7	L	7:L	_
+10	die	der	DET	ART	_	15	E	15:E	_
+11	für	für	ADP	APPR	_	13	R	13:R	_
+12	alle	alle	PRON	PIAT	_	13	E	13:E	_
+13	Fälle	Fall	NOUN	NN	_	14	A	14:A	_
+14	gefüllten	gefüllt	ADJ	VVFIN	_	15	E	15:E	_
+15	Behälter	Behälter	NOUN	NN	_	0	C	0:C|14:A|19:A	_
+16	wirkten	wirken	AUX	VVFIN	_	7	H	7:H	_
+17	rechtzeitig	rechtzeitig	ADJ	NE	_	16	D	16:D	_
+18	und	und	CCONJ	NE	_	7	L	7:L	_
+19	warfen	werfen	VERB	VVFIN	_	7	H	7:H	_
+20	einige	einige	PRON	PIAT	_	22	E	22:E	_
+21	Kubikmeter	Kubikmeter	NOUN	NN	_	22	E	22:E	_
+22	Sauerstoff	Sauerstoff	PROPN	NN	_	19	A	19:A	_
+23	in	in	ADP	APPR	_	26	R	26:R	_
+24	die	der	DET	ART	_	26	E	26:E	_
+25	verschlechterte	verschlechtert	ADJ	ADJA	_	26	E	26:E	_
+26	Atmosphäre	Atmosphäre	NOUN	NN	_	19	A	19:A	_
+27	der	der	DET	ART	_	29	R	29:R	_
+28	"	"	PUNCT	$(	_	29	U	29:U	_
+29	Nautilus	Nautilus	PROPN	NE	_	26	E	26:E	_
+30	"	"	PUNCT	$(	_	29	U	29:U	_
+31	.	.	PUNCT	$.	_	29	U	29:U	_
+

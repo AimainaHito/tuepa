@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 228009
+# text = On 22 June 2009 , he left Los Angeles to begin filming The Karate Kid , a remake of the 1984 original , in Beijing .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	22	22	NUM	CD	_	7	D	7:D	_
+3	June	June	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	he	he	PRON	PRP	_	7	A	7:A|12:A	_
+7	left	leave	VERB	VBD	_	0	H	0:H	_
+8	Los	Los	PROPN	NNP	_	7	A	7:A	_
+9	Angeles	angeles	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	to	to	PART	TO	_	7	L	7:L	_
+11	begin	begin	VERB	VB	_	12	D	12:D	_
+12	filming	film	VERB	VBG	_	7	H	7:H	_
+13	The	the	DET	DT	_	12	A	12:A	_
+14	Karate	Karate	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Kid	kid	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	a	a	DET	DT	_	18	E	18:E	_
+18	remake	remake	NOUN	NN	_	13	E	13:E	_
+19	of	of	ADP	IN	_	22	R	22:R	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	1984	1984	PROPN	NNP	_	22	E	22:E	_
+22	original	original	ADJ	JJ	_	18	E	18:E	_
+23	,	,	PUNCT	,	_	12	U	12:U	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	Beijing	Beijing	PROPN	NNP	_	12	A	12:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

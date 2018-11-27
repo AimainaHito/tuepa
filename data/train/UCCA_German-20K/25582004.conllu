@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25582004
+# text = Am 11 . November , früh morgens , gab mir die im Innern der " Nautilus " verbreitete frische Luft zu erkennen , dass wir uns auf die Oberfläche des Meeres begeben hatten , um unseren Vorrat von Sauerstoff zu ergänzen .
+1	Am	am	PROPN	NE	_	2	R	2:R	_
+2	11	11	PROPN	CARD	_	22	D	22:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	November	November	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	früh	früh	ADJ	ADJD	_	7	E	7:E	_
+7	morgens	morgens	NOUN	ADV	_	2	E	2:E	_
+8	,	,	PUNCT	$,	_	22	U	22:U	_
+9	gab	geben	VERB	VVFIN	_	22	D	22:D	_
+10	mir	ich	PRON	PPER	_	22	A	22:A	_
+11	die	der	DET	ART	_	20	E	20:E	_
+12	im	im	ADJ	NN	_	13	R	13:R	_
+13	Innern	Innern	NOUN	NN	_	18	A	18:A	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	"	"	PUNCT	$(	_	16	U	16:U	_
+16	Nautilus	Nautilus	PROPN	NN	_	13	E	13:E	_
+17	"	"	PUNCT	$(	_	18	U	18:U	_
+18	verbreitete	verbreitet	ADJ	ADJA	_	20	E	20:E	_
+19	frische	frisch	ADJ	ADJA	_	20	E	20:E	_
+20	Luft	Luft	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	PART	VVINF	_	22	F	22:F	_
+22	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	dass	dass	SCONJ	KOUS	_	26	R	26:R	_
+25	wir	wir	PRON	NE	_	26	A	26:A|41:A	_
+26	uns	wir	PRON	NE	_	22	A	22:A	_
+27	auf	auf	ADP	APPR	_	29	R	29:R	_
+28	die	der	DET	ART	_	29	E	29:E	_
+29	Oberfläche	Oberfläche	NOUN	NN	_	26	A	26:A	_
+30	des	der	DET	ART	_	31	R	31:R	_
+31	Meeres	Meer	NOUN	NN	_	29	E	29:E	_
+32	begeben	begeben	VERB	VVPP	_	26	Terminal	26:Terminal	_
+33	hatten	haben	AUX	VAFIN	_	26	F	26:F	_
+34	,	,	PUNCT	$,	_	22	U	22:U	_
+35	um	um	ADP	KOUI	_	22	L	22:L	_
+36	unseren	unser	PRON	PPOSAT	_	37	E	37:E	_
+37	Vorrat	Vorrat	NOUN	NN	_	41	A	41:A	_
+38	von	von	ADP	NE	_	39	R	39:R	_
+39	Sauerstoff	Sauerstoff	NOUN	NE	_	37	E	37:E	_
+40	zu	zu	PART	NN	_	41	F	41:F	_
+41	ergänzen	ergänzen	VERB	VVINF	_	22	H	22:H	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

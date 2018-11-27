@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 244011
+# text = " His next film appearance was not until 1989 's comedy drama Dad , where he played Ted Danson 's son and Jack Lemmon 's grandson .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	His	he	PRON	PRP$	_	5	A	5:A	_
+3	next	next	ADJ	JJ	_	5	D	5:D	_
+4	film	film	NOUN	NN	_	5	E	5:E	_
+5	appearance	appearance	NOUN	NN	_	6	A	6:A	_
+6	was	be	AUX	VBD	_	0	H	0:H	_
+7	not	not	PART	RB	_	6	D	6:D	_
+8	until	until	ADP	IN	_	13	R	13:R	_
+9	1989	1989	NUM	CD	_	11	E	11:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	comedy	comedy	NOUN	NN	_	13	E	13:E	_
+12	drama	drama	NOUN	NN	_	11	C	11:C	_
+13	Dad	dad	NOUN	NN	_	6	A	6:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	where	where	ADV	WRB	_	17	F	17:F	_
+16	he	he	PRON	PRP	_	17	A	17:A	_
+17	played	play	VERB	VBD	_	13	E	13:E	_
+18	Ted	Ted	PROPN	NNP	_	21	E	21:E	_
+19	Danson	Danson	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	18	R	18:R	_
+21	son	son	NOUN	NN	_	17	A	17:A	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	Jack	Jack	PROPN	NNP	_	26	E	26:E	_
+24	Lemmon	Lemmon	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	's	's	PART	POS	_	23	R	23:R	_
+26	grandson	grandson	NOUN	NN	_	21	C	21:C	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

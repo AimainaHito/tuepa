@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25722005
+# text = Was hätte ich ihm auch trotzdem sagen können ?
+1	Was	was	PRON	NE	_	7	A	7:A	_
+2	hätte	haben	AUX	VAFIN	_	7	D	7:D	_
+3	ich	ich	PRON	PPER	_	7	A	7:A	_
+4	ihm	er	PRON	PPER	_	7	A	7:A	_
+5	auch	auch	ADV	ADV	_	7	D	7:D	_
+6	trotzdem	trotzdem	ADV	ADJA	_	7	A	7:A	_
+7	sagen	sagen	VERB	VVINF	_	0	H	0:H	_
+8	können	können	AUX	VMFIN	_	7	D	7:D	_
+9	?	?	PUNCT	$.	_	7	U	7:U	_
+

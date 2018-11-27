@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 442001
+# text = Les journaux industriels et commerciaux traitèrent la question principalement à ce point de vue .
+1	Les	le	DET	_	_	2	E	2:E	_
+2	journaux	journal	NOUN	_	_	6	A	6:A	_
+3	industriels	industriel	ADJ	_	_	2	E	2:E	_
+4	et	et	CCONJ	_	_	3	N	3:N	_
+5	commerciaux	commercial	ADJ	_	_	3	C	3:C	_
+6	traitèrent	traiter	VERB	_	_	0	H	0:H	_
+7	la	le	DET	_	_	8	E	8:E	_
+8	question	question	NOUN	_	_	6	A	6:A	_
+9	principalement	principalement	ADV	_	_	6	D	6:D	_
+10	à	à	ADP	_	_	12	R	12:R	_
+11	ce	ce	DET	_	_	12	E	12:E	_
+12	point	point	NOUN	_	_	6	A	6:A	_
+13	de	de	ADP	_	_	12	Terminal	12:Terminal	_
+14	vue	vue	NOUN	_	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	_	_	12	U	12:U	_
+

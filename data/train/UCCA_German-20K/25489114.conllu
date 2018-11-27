@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25489114
+# text = Unter den Speisen , die uns vorgesetzt wurden , erkannte ich einige köstlich zubereitete Fische ; aber über einige Gerichte , die übrigens vortrefflich waren , konnte ich nicht urteilen , ich konnte nicht einmal sagen , ob sie ihrem Stoff nach dem Pflanzen- oder Tier reich angehörten .
+1	Unter	unter	ADP	ADJD	_	3	R	3:R	_
+2	den	der	DET	ART	_	3	E	3:E	_
+3	Speisen	Speise|Speisen	NOUN	NN	_	10	A	10:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	PRON	PRELS	_	7	R	7:R	_
+6	uns	wir	PRON	NN	_	7	A	7:A	_
+7	vorgesetzt	vorgesetzen	VERB	VVPP	_	3	E	3:E	_
+8	wurden	werden	AUX	ADJD	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erkannte	erkennen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	einige	einige	PRON	PIS	_	15	E	15:E	_
+13	köstlich	köstlich	ADJ	ADJD	_	14	D	14:D	_
+14	zubereitete	zubereitet	ADJ	ADJA	_	15	E	15:E	_
+15	Fische	Fisch	NOUN	NN	_	10	A	10:A	_
+16	;	;	PUNCT	$.	_	10	U	10:U	_
+17	aber	aber	CCONJ	ADV	_	10	L	10:L	_
+18	über	über	ADP	VVFIN	_	20	R	20:R	_
+19	einige	einige	PRON	PIAT	_	20	E	20:E	_
+20	Gerichte	Gericht	NOUN	NN	_	30	A	30:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	24	R	24:R	_
+23	übrigens	übrigens	ADV	ADV	_	24	G	24:G	_
+24	vortrefflich	vortrefflich	ADJ	ADJD	_	20	E	20:E	_
+25	waren	sein	AUX	VAFIN	_	24	F	24:F	_
+26	,	,	PUNCT	$,	_	30	U	30:U	_
+27	konnte	können	AUX	VMFIN	_	30	D	30:D	_
+28	ich	ich	PRON	PPER	_	30	A	30:A	_
+29	nicht	nicht	PART	CARD	_	30	D	30:D	_
+30	urteilen	urteilen	VERB	VVFIN	_	10	H	10:H	_
+31	,	,	PUNCT	$,	_	10	U	10:U	_
+32	ich	ich	PRON	PPER	_	36	A	36:A	_
+33	konnte	können	AUX	VMFIN	_	36	D	36:D	_
+34	nicht	nicht	PART	CARD	_	36	D	36:D	_
+35	einmal	einmal	ADV	ADV	_	34	Terminal	34:Terminal	_
+36	sagen	sagen	VERB	VVINF	_	10	H	10:H	_
+37	,	,	PUNCT	$,	_	36	U	36:U	_
+38	ob	ob	SCONJ	VVFIN	_	48	R	48:R	_
+39	sie	sie	PRON	ADV	_	48	A	48:A	_
+40	ihrem	ihr	DET	PPOSAT	_	41	E	41:E	_
+41	Stoff	Stoff	NOUN	NE	_	48	D	48:D	_
+42	nach	nach	ADP	CARD	_	41	R	41:R	_
+43	dem	der	DET	ART	_	48	A	48:A	_
+44	Pflanzen-	Pflanzen-	NOUN	$(	_	43	E	43:E	_
+45	oder	oder	CCONJ	NN	_	43	N	43:N	_
+46	Tier	Tier	NOUN	NE	_	47	E	47:E	_
+47	reich	reich	ADJ	NN	_	0	C	0:C|43:C	_
+48	angehörten	angehören	VERB	VVFIN	_	36	A	36:A	_
+49	.	.	PUNCT	$.	_	48	U	48:U	_
+

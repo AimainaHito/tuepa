@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25523001
+# text = Hierauf sagte er zu mir :
+1	Hierauf	hierauf	ADV	PAV	_	2	L	2:L	_
+2	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A	_
+4	zu	zu	ADP	VVINF	_	5	R	5:R	_
+5	mir	ich	PRON	PPER	_	2	A	2:A	_
+6	:	:	PUNCT	$.	_	5	U	5:U	_
+

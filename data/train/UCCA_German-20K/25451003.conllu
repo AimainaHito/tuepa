@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25451003
+# text = « » Ohne dass ich 's merke ? «
+1	«	«	PUNCT	$(	_	7	U	7:U	_
+2	»	»	PUNCT	$(	_	7	U	7:U	_
+3	Ohne	ohne	PROPN	NE	_	7	D	7:D	_
+4	dass	dass	SCONJ	ADV	_	3	Terminal	3:Terminal	_
+5	ich	ich	PRON	PPER	_	7	A	7:A	_
+6	's	es	PART	PPER	_	7	A	7:A	_
+7	merke	merken	VERB	NN	_	0	H	0:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

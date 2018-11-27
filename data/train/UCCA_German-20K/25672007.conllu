@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25672007
+# text = Der Kapitän warf einen Blick auf die Karte und sagte zu mir :
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|10:A	_
+3	warf	werfen	VERB	VVFIN	_	0	H	0:H	_
+4	einen	ein	DET	ART	_	5	E	5:E	_
+5	Blick	Blick	NOUN	NN	_	3	A	3:A	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Karte	Karte	NOUN	NN	_	3	A	3:A	_
+9	und	und	CCONJ	NE	_	3	L	3:L	_
+10	sagte	sagen	VERB	VVFIN	_	3	H	3:H	_
+11	zu	zu	ADP	VVINF	_	12	R	12:R	_
+12	mir	ich	PRON	PPER	_	10	A	10:A	_
+13	:	:	PUNCT	$.	_	12	U	12:U	_
+

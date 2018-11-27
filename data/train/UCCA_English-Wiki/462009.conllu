@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 462009
+# text = However during his visit , his colleagues have noticed he was getting gravely ill to the point where he could barely make his emotional speech .
+1	However	however	ADV	RB	_	4	L	4:L	_
+2	during	during	ADP	IN	_	4	L	4:L	_
+3	his	he	PRON	PRP$	_	4	A	4:A	_
+4	visit	visit	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	colleagues	colleague	NOUN	NNS	_	9	A	9:A	_
+8	have	have	AUX	VBP	_	9	F	9:F	_
+9	noticed	notice	VERB	VBN	_	4	H	4:H	_
+10	he	he	PRON	PRP	_	14	A	14:A	_
+11	was	be	AUX	VBD	_	14	F	14:F	_
+12	getting	get	VERB	VBG	_	14	D	14:D	_
+13	gravely	gravely	ADV	RB	_	14	D	14:D	_
+14	ill	ill	ADJ	JJ	_	9	A	9:A	_
+15	to	to	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	point	point	NOUN	NN	_	14	A	14:A	_
+18	where	where	ADV	WRB	_	22	F	22:F	_
+19	he	he	PRON	PRP	_	22	A	22:A	_
+20	could	could	AUX	MD	_	22	D	22:D	_
+21	barely	barely	ADV	RB	_	22	D	22:D	_
+22	make	make	VERB	VB	_	17	E	17:E	_
+23	his	he	PRON	PRP$	_	25	E	25:E	_
+24	emotional	emotional	ADJ	JJ	_	25	E	25:E	_
+25	speech	speech	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

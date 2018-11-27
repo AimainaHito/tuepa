@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25507007
+# text = « Ich setzte mich nieder , er ergriff das Wort und sprach :
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	nieder	nieder	ADV	NN	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	er	er	PRON	PPER	_	8	A	8:A|12:A	_
+8	ergriff	ergreifen	VERB	VVFIN	_	3	H	3:H	_
+9	das	der	DET	ART	_	8	Terminal	8:Terminal	_
+10	Wort	Wort	NOUN	NN	_	8	Terminal	8:Terminal	_
+11	und	und	CCONJ	NE	_	3	L	3:L	_
+12	sprach	sprechen	VERB	VVFIN	_	3	H	3:H	_
+13	:	:	PUNCT	$.	_	12	U	12:U	_
+

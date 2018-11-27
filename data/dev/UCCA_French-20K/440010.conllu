@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 440010
+# text = Pourquoi ne cacherait-elle pas dans son sein les dernières variétés de ces espèces titanesques , dont les années sont des siècles , et les siècles des millénaires ?
+1	Pourquoi	pourquoi	ADV	_	_	3	A	3:A	_
+2	ne	ne	ADV	_	_	3	D	3:D	_
+3	cacherait-elle	cacherait-el	VERB	_	_	0	H	0:H	_
+4	pas	pas	ADV	_	_	2	Terminal	2:Terminal	_
+5	dans	dans	ADP	_	_	7	R	7:R	_
+6	son	son	DET	_	_	7	E	7:E	_
+7	sein	sein	NOUN	_	_	3	A	3:A	_
+8	les	le	DET	_	_	10	E	10:E	_
+9	dernières	dernier	ADJ	_	_	10	E	10:E	_
+10	variétés	variété	NOUN	_	_	3	A	3:A	_
+11	de	de	ADP	_	_	13	R	13:R	_
+12	ces	ce	DET	_	_	13	E	13:E	_
+13	espèces	espèce	NOUN	_	_	10	E	10:E	_
+14	titanesques	titanesque	ADJ	_	_	13	E	13:E	_
+15	,	,	PUNCT	_	_	13	U	13:U	_
+16	dont	dont	PRON	_	_	19	R	19:R	_
+17	les	le	DET	_	_	18	E	18:E	_
+18	années	année	NOUN	_	_	19	A	19:A	_
+19	sont	être	AUX	_	_	13	E	13:E	_
+20	des	un	DET	_	_	21	E	21:E	_
+21	siècles	siècle	NOUN	_	_	19	A	19:A	_
+22	,	,	PUNCT	_	_	19	U	19:U	_
+23	et	et	CCONJ	_	_	19	L	19:L	_
+24	les	le	DET	_	_	25	E	25:E	_
+25	siècles	siècle	NOUN	_	_	19	H	19:H	_
+26	des	un	DET	_	_	27	E	27:E	_
+27	millénaires	millénaire	NOUN	_	_	25	A	25:A	_
+28	?	?	PUNCT	_	_	27	U	27:U	_
+

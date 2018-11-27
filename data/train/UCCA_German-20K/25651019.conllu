@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25651019
+# text = Die Nacht schlief ich unruhig mit häufig unterbrochenen Träumen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Nacht	Nacht	NOUN	NN	_	3	A	3:A	_
+3	schlief	schlafen	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	unruhig	unruhig	ADJ	ADJD	_	3	D	3:D	_
+6	mit	mit	ADP	APPR	_	9	R	9:R	_
+7	häufig	häufig	ADJ	ADJD	_	8	D	8:D	_
+8	unterbrochenen	unterbrochen	ADJ	ADJA	_	9	E	9:E	_
+9	Träumen	Traum	NOUN	NN	_	3	A	3:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

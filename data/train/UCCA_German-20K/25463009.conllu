@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25463009
+# text = Die Fregatte fuhr daher in weiter Entfernung von den Pomotu- , Marquesas- und Sandwich-Inseln , durchschnitt unterm 132 ° Länge den Wendekreis des Krebses und wendete sich dann nach den Chinesischen Meeren .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fregatte	Fregatte	NOUN	NN	_	0	C	0:C|16:A|26:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	daher	daher	ADV	PAV	_	3	L	3:L	_
+5	in	in	ADP	APPR	_	7	R	7:R	_
+6	weiter	weit	ADJ	ADV	_	7	E	7:E	_
+7	Entfernung	Entfernung	NOUN	NN	_	3	A	3:A	_
+8	von	von	ADP	NN	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Pomotu-	Pomotu-	NOUN	NE	_	7	E	7:E	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	Marquesas-	Marquesas-	NOUN	NE	_	10	C	10:C	_
+13	und	und	CCONJ	NE	_	10	N	10:N	_
+14	Sandwich-Inseln	Sandwich-Insel	NOUN	NE	_	10	C	10:C	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	durchschnitt	durchschneten	VERB	VVFIN	_	3	H	3:H	_
+17	unterm	unterm	ADV	NN	_	18	R	18:R	_
+18	132	132	NUM	CARD	_	16	A	16:A	_
+19	°	°	NOUN	NN	_	18	U	18:U	_
+20	Länge	Länge	NOUN	NN	_	18	Terminal	18:Terminal	_
+21	den	der	DET	ART	_	22	E	22:E	_
+22	Wendekreis	Wendekreis	NOUN	NN	_	16	A	16:A	_
+23	des	der	DET	ART	_	24	R	24:R	_
+24	Krebses	Krebs	NOUN	NN	_	22	E	22:E	_
+25	und	und	CCONJ	NE	_	3	L	3:L	_
+26	wendete	wenden	VERB	VVFIN	_	3	H	3:H	_
+27	sich	er|es|sie	PRON	PRF	_	26	Terminal	26:Terminal	_
+28	dann	dann	ADV	ADV	_	3	L	3:L	_
+29	nach	nach	ADP	CARD	_	31	R	31:R	_
+30	den	der	DET	ART	_	31	E	31:E	_
+31	Chinesischen	chinesisch	ADJ	ADJA	_	26	A	26:A	_
+32	Meeren	Meer	NOUN	NN	_	31	E	31:E	_
+33	.	.	PUNCT	$.	_	31	U	31:U	_
+

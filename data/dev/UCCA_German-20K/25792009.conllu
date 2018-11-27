@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25792009
+# text = Der Kapitän verstand mich und winkte mir , ihm zu folgen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	0	C	0:C|6:A	_
+3	verstand	verstehen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	A	3:A	_
+5	und	und	CCONJ	NE	_	3	L	3:L	_
+6	winkte	winken	VERB	VVFIN	_	3	H	3:H	_
+7	mir	ich	PRON	PPER	_	6	A	6:A|11:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	ihm	er	PRON	PPER	_	11	A	11:A	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	folgen	folgen	VERB	VVINF	_	6	A	6:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 134009
+# text = Similarly to Keeper of the Flame and Without Love , a lukewarm response from critics did not stop it from being a financial success both at home and abroad .
+1	Similarly	similarly	ADV	RB	_	3	L	3:L	_
+2	to	to	ADP	IN	_	3	R	3:R	_
+3	Keeper	Keeper	PROPN	NNP	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	Terminal	3:Terminal	_
+5	the	the	DET	DT	_	3	Terminal	3:Terminal	_
+6	Flame	Flame	PROPN	NNP	_	3	Terminal	3:Terminal	_
+7	and	and	CCONJ	CC	_	3	N	3:N	_
+8	Without	without	PROPN	NNP	_	3	C	3:C	_
+9	Love	Love	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	lukewarm	lukewarm	ADJ	JJ	_	13	E	13:E	_
+13	response	response	NOUN	NN	_	0	P	0:P|3:P	_
+14	from	from	ADP	IN	_	15	R	15:R	_
+15	critics	critic	NOUN	NNS	_	13	A	13:A	_
+16	did	do	AUX	VBD	_	18	F	18:F	_
+17	not	not	PART	RB	_	18	D	18:D	_
+18	stop	stop	VERB	VB	_	3	H	3:H	_
+19	it	it	PRON	PRP	_	18	A	18:A|21:A	_
+20	from	from	SCONJ	IN	_	21	R	21:R	_
+21	being	be	AUX	VBG	_	18	A	18:A	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	financial	financial	ADJ	JJ	_	24	E	24:E	_
+24	success	success	NOUN	NN	_	21	A	21:A	_
+25	both	both	CCONJ	CC	_	27	N	27:N	_
+26	at	at	ADP	IN	_	27	R	27:R	_
+27	home	home	NOUN	NN	_	21	A	21:A	_
+28	and	and	CCONJ	CC	_	27	N	27:N	_
+29	abroad	abroad	ADV	RB	_	27	C	27:C	_
+30	.	.	PUNCT	.	_	27	U	27:U	_
+

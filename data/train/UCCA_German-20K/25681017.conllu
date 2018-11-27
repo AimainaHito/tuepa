@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25681017
+# text = Kapitän Nemo war aufgestanden und beobachtete das Meer .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	0	C	0:C|6:A	_
+3	war	sein	AUX	NE	_	4	F	4:F	_
+4	aufgestanden	aufstehen	VERB	VVPP	_	0	H	0:H	_
+5	und	und	CCONJ	NE	_	4	L	4:L	_
+6	beobachtete	beobachtet	VERB	VVFIN	_	4	H	4:H	_
+7	das	der	DET	ART	_	8	E	8:E	_
+8	Meer	Meer	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

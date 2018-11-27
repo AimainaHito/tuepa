@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25668000
+# text = Die Fische erregten stets unserer Bewunderung , wenn wir bei geöffneten Läden sie bei den Geheimnissen ihres Wasser lebens belauschten .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fische	Fisch	NOUN	NN	_	6	A	6:A	_
+3	erregten	erregen	VERB	VVFIN	_	6	D	6:D	_
+4	stets	stets	ADV	ADV	_	6	D	6:D	_
+5	unserer	unser	PRON	PPOSAT	_	6	A	6:A	_
+6	Bewunderung	Bewunderung	NOUN	NN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	wenn	wenn	SCONJ	VVFIN	_	6	L	6:L	_
+9	wir	wir	PRON	NE	_	20	A	20:A	_
+10	bei	bei	ADP	APPR	_	11	R	11:R	_
+11	geöffneten	geöffnet	ADJ	ADJA	_	20	A	20:A	_
+12	Läden	Laden	NOUN	NN	_	11	A	11:A	_
+13	sie	sie	PRON	ADV	_	20	A	20:A	_
+14	bei	bei	ADP	APPR	_	19	R	19:R	_
+15	den	der	DET	ART	_	16	R	16:R	_
+16	Geheimnissen	Geheimnis	NOUN	NN	_	19	A	19:A	_
+17	ihres	ihr	DET	PPOSAT	_	19	R	19:R	_
+18	Wasser	Wasser	NOUN	NN	_	19	A	19:A	_
+19	lebens	lebens	ADV	ADV	_	20	A	20:A	_
+20	belauschten	belauschen	VERB	VVINF	_	6	H	6:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

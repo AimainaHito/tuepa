@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25489025
+# text = Unser Gefängnis wurde plötzlich mit einem so lebhaften Leucht stoff erfüllt , dass mir der Glanz Anfangs unerträglich war .
+1	Unser	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Gefängnis	Gefängnis	NOUN	NN	_	11	A	11:A	_
+3	wurde	werden	AUX	TRUNC	_	11	F	11:F	_
+4	plötzlich	plötzlich	ADV	ADJD	_	11	D	11:D	_
+5	mit	mit	ADP	APPR	_	10	R	10:R	_
+6	einem	ein	DET	ART	_	10	E	10:E	_
+7	so	so	ADV	ADV	_	8	E	8:E	_
+8	lebhaften	lebhaft	ADJ	ADJA	_	10	E	10:E	_
+9	Leucht	Leucht	NOUN	NN	_	10	E	10:E	_
+10	stoff	stoff	ADV	NN	_	11	A	11:A	_
+11	erfüllt	erfüllen	VERB	VVPP	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	dass	dass	SCONJ	KOUS	_	11	L	11:L	_
+14	mir	ich	PRON	PPER	_	18	A	18:A	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Glanz	Glanz	NOUN	NN	_	18	A	18:A	_
+17	Anfangs	Anfang	ADV	ADV	_	18	D	18:D	_
+18	unerträglich	unerträglich	ADJ	ADJD	_	11	H	11:H	_
+19	war	sein	AUX	ADV	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25759004
+# text = Der barbarische und unüberlegte Eifer der Walfischjäger wird einmal diese Tierart vom Ozean vertilgen .
+1	Der	der	DET	ART	_	5	E	5:E	_
+2	barbarische	barbarisch	ADJ	ADJA	_	5	D	5:D	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	unüberlegte	unüberlegt	ADJ	ADJA	_	2	C	2:C	_
+5	Eifer	Eifer	NOUN	NN	_	14	A	14:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Walfischjäger	Walfischjäger	NOUN	NN	_	5	A	5:A	_
+8	wird	werden	AUX	VAFIN	_	14	F	14:F	_
+9	einmal	einmal	ADV	ADV	_	14	D	14:D	_
+10	diese	dies	PRON	PDAT	_	11	E	11:E	_
+11	Tierart	Tierart	NOUN	NN	_	14	A	14:A	_
+12	vom	vom	ADP	NE	_	13	R	13:R	_
+13	Ozean	Ozean	PROPN	NE	_	14	A	14:A	_
+14	vertilgen	vertilgen	VERB	VVINF	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25416000
+# text = Bei meiner Ankunft zu New York war die Frage brennend .
+1	Bei	bei	ADP	APPR	_	3	R	3:R	_
+2	meiner	mein	PRON	PPOSAT	_	3	E	3:E	_
+3	Ankunft	Ankunft	NOUN	NN	_	0	H	0:H	_
+4	zu	zu	ADP	NE	_	5	R	5:R	_
+5	New	New	PROPN	NE	_	3	A	3:A	_
+6	York	York	PROPN	NE	_	5	Terminal	5:Terminal	_
+7	war	sein	AUX	ADV	_	10	F	10:F	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Frage	Frage	NOUN	NN	_	10	A	10:A	_
+10	brennend	brennend	ADJ	ADJD	_	3	H	3:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

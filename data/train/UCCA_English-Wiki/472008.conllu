@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 472008
+# text = In the last championship series of his career , Johnson averaged 18.6 points on .431 shooting , 12.4 assists , and 8.0 rebounds per triple game
+1	In	in	ADP	IN	_	5	L	5:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	last	last	ADJ	JJ	_	5	D	5:D	_
+4	championship	championship	NOUN	NN	_	5	E	5:E	_
+5	series	series	NOUN	NNS	_	0	H	0:H	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	his	he	PRON	PRP$	_	8	A	8:A	_
+8	career	career	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	Johnson	Johnson	PROPN	NNP	_	11	A	11:A	_
+11	averaged	average	VERB	VBD	_	5	H	5:H	_
+12	18.6	18.6	NUM	CD	_	13	E	13:E	_
+13	points	point	NOUN	NNS	_	11	A	11:A	_
+14	on	on	ADP	IN	_	16	R	16:R	_
+15	.431	.431	NUM	CD	_	16	E	16:E	_
+16	shooting	shooting	NOUN	NN	_	13	E	13:E	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	12.4	12.4	NUM	CD	_	19	E	19:E	_
+19	assists	assist	NOUN	NNS	_	13	C	13:C	_
+20	,	,	PUNCT	,	_	13	U	13:U	_
+21	and	and	CCONJ	CC	_	13	N	13:N	_
+22	8.0	8.0	NUM	CD	_	23	E	23:E	_
+23	rebounds	rebound	NOUN	NNS	_	13	C	13:C	_
+24	per	per	ADP	IN	_	26	R	26:R	_
+25	triple	triple	NOUN	NN	_	26	E	26:E	_
+26	game	game	NOUN	NN	_	13	E	13:E	_
+

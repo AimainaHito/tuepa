@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 215009
+# text = She portrayed a child prostitute , Charlie Chiemingo , taken under the guidance of Dr . Doug Ross , played by George Clooney .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	portrayed	portray	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	7	E	7:E	_
+4	child	child	NOUN	NN	_	5	E	5:E	_
+5	prostitute	prostitute	NOUN	NN	_	7	E	7:E	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	Charlie	Charlie	PROPN	NNP	_	2	A	2:A	_
+8	Chiemingo	Chiemingo	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	taken	take	VERB	VBN	_	13	F	13:F	_
+11	under	under	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	guidance	guidance	NOUN	NN	_	7	E	7:E	_
+14	of	of	ADP	IN	_	15	R	15:R	_
+15	Dr	Dr	PROPN	NNP	_	13	A	13:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+17	Doug	Doug	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	Ross	Ross	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	,	,	PUNCT	,	_	15	U	15:U	_
+20	played	play	VERB	VBN	_	15	E	15:E	_
+21	by	by	ADP	IN	_	22	R	22:R	_
+22	George	George	PROPN	NNP	_	20	A	20:A	_
+23	Clooney	Clooney	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

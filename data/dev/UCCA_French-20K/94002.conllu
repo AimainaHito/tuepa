@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 94002
+# text = Depuis vingt-six ans , les navires Cunard ont traversé deux mille fois l' Atlantique , et jamais un voyage n' a été manqué , jamais un retard n' a eu lieu , jamais ni une lettre , ni un homme , ni un bâtiment n' ont été perdus .
+1	Depuis	depuis	ADP	_	_	3	R	3:R	_
+2	vingt-six	vingt-six	NUM	_	_	3	E	3:E	_
+3	ans	an	NOUN	_	_	9	D	9:D	_
+4	,	,	PUNCT	_	_	9	U	9:U	_
+5	les	le	DET	_	_	6	E	6:E	_
+6	navires	navire	NOUN	_	_	7	E	7:E	_
+7	Cunard	Cunard	PROPN	_	_	9	A	9:A	_
+8	ont	avoir	AUX	_	_	9	F	9:F	_
+9	traversé	traverser	VERB	_	_	0	H	0:H	_
+10	deux	deux	NUM	_	_	12	E	12:E	_
+11	mille	mille	NUM	_	_	10	Terminal	10:Terminal	_
+12	fois	fois	NOUN	_	_	9	A	9:A	_
+13	l'	le	DET	_	_	14	E	14:E	_
+14	Atlantique	Atlantique	PROPN	_	_	9	A	9:A	_
+15	,	,	PUNCT	_	_	9	U	9:U	_
+16	et	et	CCONJ	_	_	9	L	9:L	_
+17	jamais	jamais	ADV	_	_	23	D	23:D	_
+18	un	un	DET	_	_	19	E	19:E	_
+19	voyage	voyage	NOUN	_	_	23	A	23:A	_
+20	n'	ne	ADV	_	_	17	Terminal	17:Terminal	_
+21	a	avoir	AUX	_	_	23	F	23:F	_
+22	été	être	AUX	_	_	23	F	23:F	_
+23	manqué	manquer	VERB	_	_	9	H	9:H	_
+24	,	,	PUNCT	_	_	9	U	9:U	_
+25	jamais	jamais	ADV	_	_	31	D	31:D	_
+26	un	un	DET	_	_	27	E	27:E	_
+27	retard	retard	NOUN	_	_	31	A	31:A	_
+28	n'	ne	ADV	_	_	25	Terminal	25:Terminal	_
+29	a	avoir	AUX	_	_	31	F	31:F	_
+30	eu	avoir	VERB	_	_	31	F	31:F	_
+31	lieu	lieu	NOUN	_	_	9	H	9:H	_
+32	,	,	PUNCT	_	_	9	U	9:U	_
+33	jamais	jamais	ADV	_	_	48	D	48:D	_
+34	ni	ni	CCONJ	_	_	36	N	36:N	_
+35	une	un	DET	_	_	36	E	36:E	_
+36	lettre	lettre	NOUN	_	_	48	A	48:A	_
+37	,	,	PUNCT	_	_	36	U	36:U	_
+38	ni	ni	CCONJ	_	_	36	N	36:N	_
+39	un	un	DET	_	_	40	E	40:E	_
+40	homme	homme	NOUN	_	_	36	C	36:C	_
+41	,	,	PUNCT	_	_	36	U	36:U	_
+42	ni	ni	CCONJ	_	_	36	N	36:N	_
+43	un	un	DET	_	_	44	E	44:E	_
+44	bâtiment	bâtiment	NOUN	_	_	36	C	36:C	_
+45	n'	ne	ADV	_	_	33	Terminal	33:Terminal	_
+46	ont	avoir	AUX	_	_	48	F	48:F	_
+47	été	être	AUX	_	_	48	F	48:F	_
+48	perdus	perdre	VERB	_	_	9	H	9:H	_
+49	.	.	PUNCT	_	_	48	U	48:U	_
+

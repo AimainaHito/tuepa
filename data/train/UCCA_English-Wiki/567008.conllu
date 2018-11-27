@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 567008
+# text = " Villanova students pelted him with eggs in Philadelphia , and in Vancouver , the crowd rioted after the end of the show , destroying the stage .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Villanova	Villanova	PROPN	NNP	_	3	E	3:E	_
+3	students	student	NOUN	NNS	_	4	A	4:A	_
+4	pelted	pelt	VERB	VBD	_	0	H	0:H	_
+5	him	he	PRON	PRP	_	4	A	4:A	_
+6	with	with	ADP	IN	_	7	R	7:R	_
+7	eggs	egg	NOUN	NNS	_	4	A	4:A	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	Philadelphia	Philadelphia	PROPN	NNP	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	and	and	CCONJ	CC	_	4	L	4:L	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Vancouver	Vancouver	PROPN	NNP	_	17	A	17:A	_
+14	,	,	PUNCT	,	_	17	U	17:U	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	crowd	crowd	NOUN	NN	_	17	A	17:A|25:A	_
+17	rioted	riote	VERB	VBD	_	4	H	4:H	_
+18	after	after	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	end	end	NOUN	NN	_	17	D	17:D	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	show	show	NOUN	NN	_	20	E	20:E	_
+24	,	,	PUNCT	,	_	4	U	4:U	_
+25	destroying	destroy	VERB	VBG	_	4	H	4:H	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	stage	stage	NOUN	NN	_	25	A	25:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

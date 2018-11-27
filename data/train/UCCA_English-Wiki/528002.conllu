@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 528002
+# text = Garland 's sister Virginia denied this , stating " Mama never took a dime from Judy .
+1	Garland	Garland	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	sister	sister	PROPN	NNP	_	4	E	4:E	_
+4	Virginia	virginia	PROPN	NNP	_	0	C	0:C|8:A	_
+5	denied	deny	VERB	VBD	_	0	H	0:H	_
+6	this	this	PRON	DT	_	5	A	5:A	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	stating	stat	VERB	VBG	_	5	H	5:H	_
+9	"	"	PUNCT	``	_	8	U	8:U	_
+10	Mama	mama	NOUN	NN	_	12	A	12:A	_
+11	never	never	ADV	RB	_	12	D	12:D	_
+12	took	take	VERB	VBD	_	8	A	8:A	_
+13	a	a	DET	DT	_	14	E	14:E	_
+14	dime	dime	NOUN	NN	_	12	A	12:A	_
+15	from	from	ADP	IN	_	16	R	16:R	_
+16	Judy	Judy	PROPN	NNP	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

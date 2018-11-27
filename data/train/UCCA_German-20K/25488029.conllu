@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25488029
+# text = « » Ja ! Durch den Zahn des Ungeheuers . Dies ist der erste Schaden , den die ›Abraham Lincoln‹ je erlitten . Aber , ein schlimmer Umstand für uns , sie ist nicht mehr imstande , zu steuern .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+4	!	!	PUNCT	$.	_	3	U	3:U	_
+5	Durch	durch	ADP	APPR	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Zahn	Zahn	NOUN	NN	_	3	H	3:H	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Ungeheuers	Ungeheuer	NOUN	NN	_	7	E	7:E	_
+10	.	.	PUNCT	$.	_	3	U	3:U	_
+11	Dies	dies	PRON	PDS	_	12	A	12:A	_
+12	ist	sein	AUX	VVFIN	_	3	H	3:H	_
+13	der	der	DET	ART	_	15	E	15:E	_
+14	erste	erst	ADJ	ADJA	_	15	E	15:E	_
+15	Schaden	Schaden	NOUN	NN	_	12	A	12:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	den	der	PRON	PRELS	_	22	R	22:R	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	›Abraham	›Abraham	PROPN	NE	_	22	A	22:A	_
+20	Lincoln‹	Lincoln‹	NOUN	NE	_	19	Terminal	19:Terminal	_
+21	je	je	ADV	ADV	_	22	D	22:D	_
+22	erlitten	erleiden	VERB	VVFIN	_	15	E	15:E	_
+23	.	.	PUNCT	$.	_	3	U	3:U	_
+24	Aber	Aber	NOUN	KON	_	3	L	3:L	_
+25	,	,	PUNCT	$,	_	3	U	3:U	_
+26	ein	ein	DET	ART	_	28	E	28:E	_
+27	schlimmer	schlimm	ADJ	ADJD	_	28	E	28:E	_
+28	Umstand	Umstand	NOUN	NN	_	3	H	3:H	_
+29	für	für	ADP	APPR	_	30	R	30:R	_
+30	uns	wir	PRON	NE	_	28	A	28:A	_
+31	,	,	PUNCT	$,	_	28	U	28:U	_
+32	sie	sie	PRON	ADV	_	39	A	39:A	_
+33	ist	sein	AUX	NN	_	39	F	39:F	_
+34	nicht	nicht	PART	CARD	_	39	D	39:D	_
+35	mehr	mehr	ADV	ADV	_	34	E	34:E	_
+36	imstande	imstande	ADV	NE	_	39	D	39:D	_
+37	,	,	PUNCT	$,	_	39	U	39:U	_
+38	zu	zu	PART	NE	_	39	F	39:F	_
+39	steuern	steuern	VERB	VVINF	_	28	A	28:A	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25631006
+# text = Aber er begnügte sich mit einem Dutzend dieser interessanten Tiere .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	er	er	PRON	PPER	_	3	A	3:A	_
+3	begnügte	begnügen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	mit	mit	ADP	APPR	_	10	R	10:R	_
+6	einem	ein	DET	ART	_	7	E	7:E	_
+7	Dutzend	Dutzend	NOUN	ADJD	_	10	E	10:E	_
+8	dieser	dies	PRON	PDAT	_	10	R	10:R	_
+9	interessanten	interessant	ADJ	ADJA	_	10	E	10:E	_
+10	Tiere	Tier	NOUN	NN	_	3	A	3:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

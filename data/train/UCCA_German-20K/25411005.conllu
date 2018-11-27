@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25411005
+# text = Nur durch die ausgezeichnete Beschaffenheit seines Rumpfes und seine Schnelligkeit bei vierhundert Pferdekraft entging er der Gefahr , mit seinen zweihundertsiebenunddreißig Passagieren unterzugehen .
+1	Nur	nur	ADV	ADV	_	14	D	14:D	_
+2	durch	durch	ADP	APPR	_	5	R	5:R	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	ausgezeichnete	ausgezeichnet	ADJ	ADJA	_	5	D	5:D	_
+5	Beschaffenheit	Beschaffenheit	NOUN	NN	_	14	A	14:A	_
+6	seines	sein	DET	PPOSAT	_	7	R	7:R	_
+7	Rumpfes	Rumpf	NOUN	NN	_	5	A	5:A	_
+8	und	und	CCONJ	NE	_	5	N	5:N	_
+9	seine	sein	DET	PPOSAT	_	10	E	10:E	_
+10	Schnelligkeit	Schnelligkeit	NOUN	NN	_	5	C	5:C	_
+11	bei	bei	ADP	APPR	_	13	R	13:R	_
+12	vierhundert	vierhundert	NUM	VVPP	_	13	E	13:E	_
+13	Pferdekraft	Pferdekraft	NOUN	NN	_	10	A	10:A	_
+14	entging	entgehen	VERB	VVFIN	_	0	H	0:H	_
+15	er	er	PRON	PPER	_	14	A	14:A	_
+16	der	der	DET	ART	_	17	R	17:R	_
+17	Gefahr	Gefahr	NOUN	NN	_	23	A	23:A	_
+18	,	,	PUNCT	$,	_	23	U	23:U	_
+19	mit	mit	ADP	APPR	_	22	R	22:R	_
+20	seinen	sein	DET	PPOSAT	_	22	E	22:E	_
+21	zweihundertsiebenunddreißig	zweihundertsiebenunddreißig	ADJ	CARD	_	22	E	22:E	_
+22	Passagieren	Passagieren	NOUN	NN	_	23	A	23:A	_
+23	unterzugehen	unterzugehen	VERB	VVPP	_	14	A	14:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

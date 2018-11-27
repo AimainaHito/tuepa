@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 140000
+# text = Hepburn quickly returned to acting after Tracy 's death , choosing to preoccupy herself as a remedy against grief .
+1	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A|13:A	_
+2	quickly	quickly	ADV	RB	_	5	D	5:D	_
+3	returned	return	VERB	VBD	_	5	D	5:D	_
+4	to	to	SCONJ	IN	_	5	F	5:F	_
+5	acting	act	VERB	VBG	_	0	H	0:H	_
+6	after	after	ADP	IN	_	5	L	5:L	_
+7	Tracy	Tracy	PROPN	NNP	_	9	A	9:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	death	death	NOUN	NN	_	5	H	5:H	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	choosing	choose	VERB	VBG	_	5	H	5:H	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	preoccupy	preoccupy	VERB	VB	_	11	A	11:A	_
+14	herself	herself	PRON	PRP	_	13	D	13:D	_
+15	as	as	ADP	IN	_	17	R	17:R	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	remedy	remedy	NOUN	NN	_	11	A	11:A	_
+18	against	against	ADP	IN	_	19	R	19:R	_
+19	grief	grief	NOUN	NN	_	17	E	17:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

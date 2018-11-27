@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 377006
+# text = Along with their mother , Jake and Maggie appeared in two episodes of Molto Mario , an Italian cooking show on the Food Network .
+1	Along	along	ADP	IN	_	2	E	2:E	_
+2	with	with	ADP	IN	_	4	R	4:R	_
+3	their	they	PRON	PRP$	_	4	E	4:E	_
+4	mother	mother	NOUN	NN	_	9	A	9:A	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	Jake	Jake	PROPN	NNP	_	9	A	9:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	Maggie	Maggie	PROPN	NNP	_	6	C	6:C	_
+9	appeared	appear	VERB	VBD	_	0	H	0:H	_
+10	in	in	ADP	IN	_	14	R	14:R	_
+11	two	two	NUM	CD	_	12	E	12:E	_
+12	episodes	episode	NOUN	NNS	_	14	E	14:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	Molto	Molto	PROPN	NNP	_	9	A	9:A	_
+15	Mario	Mario	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	an	a	DET	DT	_	20	E	20:E	_
+18	Italian	italian	ADJ	JJ	_	20	E	20:E	_
+19	cooking	cooking	NOUN	NN	_	20	E	20:E	_
+20	show	show	NOUN	NN	_	14	E	14:E	_
+21	on	on	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	Food	Food	NOUN	NN	_	20	E	20:E	_
+24	Network	Network	NOUN	NN	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

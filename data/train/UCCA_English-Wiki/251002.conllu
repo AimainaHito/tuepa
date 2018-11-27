@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 251002
+# text = " The performance earned Hawke his first Tony Award nomination for Best Featured Actor in a Play .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	performance	performance	NOUN	NN	_	4	A	4:A	_
+4	earned	earn	VERB	VBD	_	0	H	0:H	_
+5	Hawke	Hawke	PROPN	NNP	_	4	A	4:A|3:A	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	first	first	VERB	VBD	_	10	E	10:E	_
+8	Tony	Tony	PROPN	NNP	_	10	E	10:E	_
+9	Award	Award	PROPN	NNP	_	8	E	8:E	_
+10	nomination	nomination	NOUN	NN	_	4	A	4:A	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	Best	Best	ADJ	JJS	_	10	E	10:E	_
+13	Featured	featured	ADJ	JJ	_	12	Terminal	12:Terminal	_
+14	Actor	Actor	NOUN	NN	_	12	Terminal	12:Terminal	_
+15	in	in	ADP	IN	_	12	Terminal	12:Terminal	_
+16	a	a	DET	DT	_	12	Terminal	12:Terminal	_
+17	Play	play	NOUN	NN	_	12	Terminal	12:Terminal	_
+18	.	.	PUNCT	.	_	12	U	12:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25772016
+# text = Die Vegetation dieses öden Kontinents schien mir äußerst beschränkt .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Vegetation	Vegetation	NOUN	NN	_	6	A	6:A	_
+3	dieses	dies	PRON	PDAT	_	5	R	5:R	_
+4	öden	öden	ADJ	VVINF	_	5	E	5:E	_
+5	Kontinents	Kontinent	NOUN	NN	_	2	E	2:E	_
+6	schien	scheinen	AUX	VVFIN	_	0	H	0:H	_
+7	mir	ich	PRON	PPER	_	6	A	6:A	_
+8	äußerst	äußerst	ADJ	ADV	_	9	D	9:D	_
+9	beschränkt	beschränken	VERB	ADJD	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

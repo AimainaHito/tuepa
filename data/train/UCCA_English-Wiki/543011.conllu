@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 543011
+# text = " We became father and child , no question about it . " she said . " He told me I did n't have to come back to work until I really felt like it . He was a thoughtful man . Not many nice things were said about him .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	We	we	PRON	PRP	_	3	A	3:A	_
+3	became	become	VERB	VBD	_	15	A	15:A	_
+4	father	father	NOUN	NN	_	3	A	3:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	child	child	NOUN	NN	_	4	C	4:C	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	no	no	DET	DT	_	9	D	9:D	_
+9	question	question	NOUN	NN	_	3	H	3:H	_
+10	about	about	ADP	IN	_	11	R	11:R	_
+11	it	it	PRON	PRP	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	15	U	15:U	_
+13	"	"	PUNCT	''	_	15	U	15:U	_
+14	she	she	PRON	PRP	_	15	A	15:A	_
+15	said	say	VERB	VBD	_	0	H	0:H	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+17	"	"	PUNCT	''	_	15	U	15:U	_
+18	He	he	PRON	PRP	_	19	A	19:A	_
+19	told	tell	VERB	VBD	_	3	H	3:H	_
+20	me	I	PRON	PRP	_	19	A	19:A	_
+21	I	I	PRON	PRP	_	26	A	26:A|29:A	_
+22	did	do	AUX	VBD	_	26	F	26:F	_
+23	n't	not	PART	RB	_	26	D	26:D	_
+24	have	have	VERB	VB	_	26	F	26:F	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	come	come	VERB	VB	_	19	A	19:A	_
+27	back	back	ADV	RB	_	26	Terminal	26:Terminal	_
+28	to	to	ADP	IN	_	29	F	29:F	_
+29	work	work	NOUN	NN	_	26	A	26:A	_
+30	until	until	SCONJ	IN	_	26	L	26:L	_
+31	I	I	PRON	PRP	_	33	A	33:A	_
+32	really	really	ADV	RB	_	33	D	33:D	_
+33	felt	feel	VERB	VBD	_	26	H	26:H	_
+34	like	like	ADP	IN	_	35	R	35:R	_
+35	it	it	PRON	PRP	_	33	A	33:A	_
+36	.	.	PUNCT	.	_	3	U	3:U	_
+37	He	he	PRON	PRP	_	38	A	38:A	_
+38	was	be	AUX	VBD	_	3	H	3:H	_
+39	a	a	DET	DT	_	41	E	41:E	_
+40	thoughtful	thoughtful	ADJ	JJ	_	41	E	41:E	_
+41	man	man	NOUN	NN	_	38	A	38:A	_
+42	.	.	PUNCT	.	_	3	U	3:U	_
+43	Not	not	ADV	RB	_	44	E	44:E	_
+44	many	many	ADJ	JJ	_	46	E	46:E	_
+45	nice	nice	ADJ	JJ	_	46	E	46:E	_
+46	things	thing	NOUN	NNS	_	48	A	48:A	_
+47	were	be	AUX	VBD	_	48	F	48:F	_
+48	said	say	VERB	VBN	_	3	H	3:H	_
+49	about	about	ADP	IN	_	50	R	50:R	_
+50	him	he	PRON	PRP	_	48	A	48:A	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

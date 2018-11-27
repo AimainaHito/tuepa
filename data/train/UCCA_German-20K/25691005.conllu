@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25691005
+# text = » Aber wissen Sie , Herr Arronax « , erwiderte der Kanadier , » daß wir nun seit beinah 3 Monaten an Bord der ›Nautilus‹ Gefangene sind ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+3	wissen	wissen	VERB	VVFIN	_	10	A	10:A	_
+4	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Herr	Herr	PROPN	NN	_	7	E	7:E	_
+7	Arronax	Arronax	PROPN	NE	_	3	G	3:G	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Kanadier	Kanadier	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	»	»	PUNCT	$(	_	10	U	10:U	_
+15	daß	daß	SCONJ	KOUS	_	26	R	26:R	_
+16	wir	wir	PRON	NE	_	26	A	26:A	_
+17	nun	nun	ADV	ADV	_	26	D	26:D	_
+18	seit	seit	ADP	ADJA	_	21	R	21:R	_
+19	beinah	beinah	ADV	ADJD	_	21	E	21:E	_
+20	3	3	NUM	CARD	_	21	E	21:E	_
+21	Monaten	Monat	NOUN	NN	_	26	D	26:D	_
+22	an	an	ADP	APPR	_	23	R	23:R	_
+23	Bord	Bord	NOUN	NN	_	26	A	26:A	_
+24	der	der	DET	ART	_	25	R	25:R	_
+25	›Nautilus‹	›Nautilus‹	NOUN	NE	_	23	E	23:E	_
+26	Gefangene	Gefangene	NOUN	NN	_	3	A	3:A	_
+27	sind	sein	AUX	NE	_	26	F	26:F	_
+28	?	?	PUNCT	$.	_	26	U	26:U	_
+29	«	«	PUNCT	$(	_	26	U	26:U	_
+

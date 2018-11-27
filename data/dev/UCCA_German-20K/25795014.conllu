@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25795014
+# text = Darauf wurden seine Wasser behälter gefüllt , dass es wieder abwärts ging und in die Grube sich einsenkte .
+1	Darauf	darauf	ADV	PAV	_	6	L	6:L	_
+2	wurden	werden	AUX	ADJD	_	6	F	6:F	_
+3	seine	sein	DET	PPOSAT	_	5	E	5:E	_
+4	Wasser	Wasser	NOUN	NN	_	5	E	5:E	_
+5	behälter	behält	ADJ	ADJA	_	6	A	6:A	_
+6	gefüllt	fülln	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	dass	dass	SCONJ	KOUS	_	6	L	6:L	_
+9	es	es	PRON	PPER	_	11	A	11:A|17:A	_
+10	wieder	wieder	ADV	NN	_	11	D	11:D	_
+11	abwärts	abwärts	ADV	ADV	_	6	H	6:H	_
+12	ging	gehen	VERB	VVFIN	_	11	F	11:F	_
+13	und	und	CCONJ	NE	_	6	L	6:L	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	die	der	DET	ART	_	16	E	16:E	_
+16	Grube	Grube	NOUN	NN	_	17	A	17:A	_
+17	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+18	einsenkte	einsenken	VERB	VVFIN	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

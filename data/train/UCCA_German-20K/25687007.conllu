@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25687007
+# text = Das Schau spiel dieser Fischerei war mir interessant .
+1	Das	der	DET	ART	_	3	E	3:E	_
+2	Schau	Schau	NOUN	NE	_	3	E	3:E	_
+3	spiel	spiel	VERB	NN	_	8	A	8:A	_
+4	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+5	Fischerei	Fischerei	NOUN	NN	_	3	E	3:E	_
+6	war	sein	AUX	ADV	_	8	F	8:F	_
+7	mir	ich	PRON	PPER	_	8	A	8:A	_
+8	interessant	interessant	ADJ	ADJD	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

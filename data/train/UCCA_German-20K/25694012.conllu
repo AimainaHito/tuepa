@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25694012
+# text = Dann bleiben nur diese horn- oder gallertartigen Gewebe , woraus der Haus schwamm besteht , der eine rötliche Farbe bekommt und nach dem verschiedenen Grad seiner Elastizität , Durchdringlichkeit oder Sprödigkeit bei m Einweichen zu verschiedenem Gebrauch verwendet wird .
+1	Dann	dann	ADV	ADV	_	2	L	2:L	_
+2	bleiben	bleiben	VERB	VVFIN	_	0	H	0:H	_
+3	nur	nur	ADV	NE	_	2	D	2:D	_
+4	diese	dies	PRON	PDS	_	8	E	8:E	_
+5	horn-	horn-	PUNCT	$(	_	8	E	8:E	_
+6	oder	oder	CCONJ	CARD	_	5	N	5:N	_
+7	gallertartigen	gallertartig	ADJ	ADJA	_	5	C	5:C	_
+8	Gewebe	Gewebe	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	woraus	woraus	PRON	PWAV	_	14	R	14:R	_
+11	der	der	DET	ART	_	13	E	13:E	_
+12	Haus	Haus	NOUN	NN	_	13	E	13:E	_
+13	schwamm	schwamm	ADJ	NE	_	0	C	0:C|38:A|20:A	_
+14	besteht	bestehen	VERB	VVFIN	_	8	E	8:E	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	der	der	PRON	PRELS	_	20	R	20:R	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	rötliche	rötlich	ADJ	ADJA	_	19	E	19:E	_
+19	Farbe	Farbe	NOUN	NN	_	20	A	20:A	_
+20	bekommt	bekommen	VERB	VVFIN	_	13	E	13:E	_
+21	und	und	CCONJ	NE	_	14	L	14:L	_
+22	nach	nach	ADP	CARD	_	27	R	27:R	_
+23	dem	der	DET	ART	_	27	E	27:E	_
+24	verschiedenen	verschieden	ADJ	ADJA	_	25	E	25:E	_
+25	Grad	Grad	NOUN	NN	_	27	E	27:E	_
+26	seiner	sein	DET	PPOSAT	_	27	R	27:R	_
+27	Elastizität	Elastizität	NOUN	NN	_	38	A	38:A	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	Durchdringlichkeit	Durchdringlichkeit	NOUN	NN	_	27	C	27:C	_
+30	oder	oder	CCONJ	CARD	_	27	N	27:N	_
+31	Sprödigkeit	Sprödigkeit	NOUN	NN	_	27	C	27:C	_
+32	bei	bei	ADP	APPR	_	34	R	34:R	_
+33	m	m	ADJ	NN	_	34	E	34:E	_
+34	Einweichen	Einweichen	NOUN	ADJA	_	14	H	14:H	_
+35	zu	zu	ADP	NE	_	37	R	37:R	_
+36	verschiedenem	verschieden	ADJ	ADJA	_	37	E	37:E	_
+37	Gebrauch	Gebrauch	NOUN	NN	_	38	A	38:A	_
+38	verwendet	verwenden	VERB	VVPP	_	14	H	14:H	_
+39	wird	werden	AUX	VAFIN	_	38	F	38:F	_
+40	.	.	PUNCT	$.	_	38	U	38:U	_
+

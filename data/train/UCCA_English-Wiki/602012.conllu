@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 602012
+# text = Inspired to create a new persona for the group , to serve as a vehicle for experimentation and to demonstrate to their fans that they had musically matured , McCartney invented the fictional band of the album 's title track .
+1	Inspired	inspire	VERB	VBD	_	0	H	0:H	_
+2	to	to	PART	TO	_	3	F	3:F	_
+3	create	create	VERB	VB	_	1	A	1:A	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	new	new	ADJ	JJ	_	6	E	6:E	_
+6	persona	persona	NOUN	NN	_	3	A	3:A	_
+7	for	for	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	group	group	NOUN	NN	_	6	E	6:E	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	serve	serve	VERB	VB	_	3	H	3:H	_
+13	as	as	ADP	IN	_	15	R	15:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	vehicle	vehicle	NOUN	NN	_	12	A	12:A	_
+16	for	for	ADP	IN	_	17	R	17:R	_
+17	experimentation	experimentation	NOUN	NN	_	15	E	15:E	_
+18	and	and	CCONJ	CC	_	3	L	3:L	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	demonstrate	demonstrate	VERB	VB	_	3	H	3:H	_
+21	to	to	ADP	IN	_	23	R	23:R	_
+22	their	they	PRON	PRP$	_	23	E	23:E	_
+23	fans	fan	NOUN	NNS	_	20	A	20:A	_
+24	that	that	SCONJ	IN	_	28	F	28:F	_
+25	they	they	PRON	PRP	_	28	A	28:A	_
+26	had	have	AUX	VBD	_	28	F	28:F	_
+27	musically	musically	ADV	RB	_	28	D	28:D	_
+28	matured	mature	VERB	VBN	_	20	A	20:A	_
+29	,	,	PUNCT	,	_	20	U	20:U	_
+30	McCartney	McCartney	PROPN	NNP	_	31	A	31:A|1:A|20:A|12:A|3:A	_
+31	invented	invent	VERB	VBD	_	1	H	1:H	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	fictional	fictional	ADJ	JJ	_	34	E	34:E	_
+34	band	band	NOUN	NN	_	31	A	31:A	_
+35	of	of	ADP	IN	_	40	R	40:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	album	album	NOUN	NN	_	40	E	40:E	_
+38	's	's	PART	POS	_	37	R	37:R	_
+39	title	title	NOUN	NN	_	40	E	40:E	_
+40	track	track	NOUN	NN	_	34	E	34:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

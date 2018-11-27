@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 101000
+# text = Les ingénieurs procédèrent alors à la visite du Scotia , qui fut mis en cale sèche .
+1	Les	le	DET	_	_	2	E	2:E	_
+2	ingénieurs	ingénieur	NOUN	_	_	3	A	3:A	_
+3	procédèrent	procéder	VERB	_	_	0	H	0:H	_
+4	alors	alors	ADV	_	_	3	L	3:L	_
+5	à	à	ADP	_	_	7	R	7:R	_
+6	la	le	DET	_	_	7	E	7:E	_
+7	visite	visite	NOUN	_	_	3	A	3:A	_
+8	du	du	PROPN	_	_	9	R	9:R	_
+9	Scotia	Scotia	PROPN	_	_	7	E	7:E	_
+10	,	,	PUNCT	_	_	9	U	9:U	_
+11	qui	qui	PRON	_	_	13	R	13:R	_
+12	fut	être	AUX	_	_	13	F	13:F	_
+13	mis	mettre	VERB	_	_	9	E	9:E	_
+14	en	en	ADP	_	_	15	R	15:R	_
+15	cale	cale	NOUN	_	_	13	A	13:A	_
+16	sèche	sec	ADJ	_	_	15	E	15:E	_
+17	.	.	PUNCT	_	_	15	U	15:U	_
+

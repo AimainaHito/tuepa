@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25793001
+# text = Nicht allein die Seiten wände verengen sich , es bleiben der ›Nautilus‹ vorn und hinten keine 10 Fuß Wasser . Das Einfrieren wird von allen Seiten zu uns herankommen . «
+1	Nicht	nicht	PART	ADV	_	6	D	6:D	_
+2	allein	allein	ADV	ADV	_	6	D	6:D	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Seiten	Seite	NOUN	NN	_	5	E	5:E	_
+5	wände	wänd	ADJ	NN	_	6	A	6:A	_
+6	verengen	verengen	VERB	NN	_	0	H	0:H	_
+7	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	es	es	PRON	PPER	_	10	F	10:F	_
+10	bleiben	bleiben	VERB	VVFIN	_	6	H	6:H	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	A	10:A	_
+13	vorn	vorn	ADV	NE	_	10	D	10:D	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	hinten	hinten	ADV	ADV	_	13	C	13:C	_
+16	keine	kein	PRON	PIAT	_	19	E	19:E	_
+17	10	10	NUM	CARD	_	19	E	19:E	_
+18	Fuß	Fuß	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	Wasser	Wasser	NOUN	NN	_	10	A	10:A	_
+20	.	.	PUNCT	$.	_	6	U	6:U	_
+21	Das	d	PROPN	ART	_	22	E	22:E	_
+22	Einfrieren	Einfrieren	PROPN	NN	_	29	A	29:A	_
+23	wird	werden	AUX	VAFIN	_	29	F	29:F	_
+24	von	von	ADP	NE	_	26	R	26:R	_
+25	allen	alle	PRON	PIAT	_	26	E	26:E	_
+26	Seiten	Seite	NOUN	NN	_	29	A	29:A	_
+27	zu	zu	ADP	ADJA	_	28	R	28:R	_
+28	uns	wir	PRON	NN	_	29	A	29:A	_
+29	herankommen	herankommen	VERB	NN	_	6	H	6:H	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+31	«	«	PUNCT	$(	_	29	U	29:U	_
+

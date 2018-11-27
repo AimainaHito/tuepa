@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 674013
+# text = In an interview , Carey stated that her pregnancy was very difficult ; she suffered from high blood pressure , pre - eclampsia , and gestational diabetes .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	an	a	DET	DT	_	3	E	3:E	_
+3	interview	interview	NOUN	NN	_	6	A	6:A	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Carey	Carey	PROPN	NNP	_	6	A	6:A	_
+6	stated	state	VERB	VBD	_	0	H	0:H	_
+7	that	that	SCONJ	IN	_	12	F	12:F	_
+8	her	she	PRON	PRP$	_	9	E	9:E	_
+9	pregnancy	pregnancy	NOUN	NN	_	12	A	12:A	_
+10	was	be	AUX	VBD	_	12	F	12:F	_
+11	very	very	ADV	RB	_	12	D	12:D	_
+12	difficult	difficult	ADJ	JJ	_	6	A	6:A	_
+13	;	;	PUNCT	,	_	6	U	6:U	_
+14	she	she	PRON	PRP	_	15	A	15:A	_
+15	suffered	suffer	VERB	VBD	_	6	H	6:H	_
+16	from	from	ADP	IN	_	19	R	19:R	_
+17	high	high	ADJ	JJ	_	19	E	19:E	_
+18	blood	blood	NOUN	NN	_	19	E	19:E	_
+19	pressure	pressure	NOUN	NN	_	15	A	15:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	pre	pre	X	AFX	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	eclampsia	eclampsion	NOUN	NN	_	19	C	19:C	_
+24	,	,	PUNCT	,	_	19	U	19:U	_
+25	and	and	CCONJ	CC	_	19	N	19:N	_
+26	gestational	gestational	ADJ	JJ	_	27	E	27:E	_
+27	diabetes	diabete	NOUN	NNS	_	19	C	19:C	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

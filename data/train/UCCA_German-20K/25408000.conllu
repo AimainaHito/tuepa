@@ -1,0 +1,7 @@
+# format = ucca
+# sent_id = 25408000
+# text = Eine schweifende Klippe
+1	Eine	ein	DET	ART	_	3	E	3:E	_
+2	schweifende	schweifend	ADJ	ADJA	_	3	E	3:E	_
+3	Klippe	Klippe	NOUN	NN	_	0	H	0:H	_
+

@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 125005
+# text = In early 1931 , she was cast in the Broadway production of Art and Mrs. Bottle .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	early	early	ADJ	JJ	_	3	E	3:E	_
+3	1931	1931	NUM	CD	_	7	D	7:D	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	she	she	PRON	PRP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	cast	cast	VERB	VBN	_	0	H	0:H	_
+8	in	in	ADP	IN	_	13	R	13:R	_
+9	the	the	DET	DT	_	13	E	13:E	_
+10	Broadway	Broadway	PROPN	NNP	_	11	E	11:E	_
+11	production	production	NOUN	NN	_	13	E	13:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	Art	art	PROPN	NNP	_	7	A	7:A	_
+14	and	and	CCONJ	CC	_	13	Terminal	13:Terminal	_
+15	Mrs.	Mrs.	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Bottle	bottle	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	.	.	PUNCT	.	_	13	U	13:U	_
+

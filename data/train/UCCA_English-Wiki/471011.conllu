@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 471011
+# text = Despite not being named MVP , Johnson had a strong championship series , averaging 21.1 points on .550 shooting , 13.0 assists , and 5.7 rebounds per game .
+1	Despite	despite	SCONJ	IN	_	4	L	4:L	_
+2	not	not	PART	RB	_	4	D	4:D	_
+3	being	be	AUX	VBG	_	4	F	4:F	_
+4	named	name	VERB	VBN	_	0	H	0:H	_
+5	MVP	MVP	PROPN	NNP	_	4	A	4:A	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	Johnson	Johnson	PROPN	NNP	_	8	A	8:A|4:A|14:A	_
+8	had	have	VERB	VBD	_	4	H	4:H	_
+9	a	a	DET	DT	_	12	E	12:E	_
+10	strong	strong	ADJ	JJ	_	12	E	12:E	_
+11	championship	championship	NOUN	NN	_	12	E	12:E	_
+12	series	series	NOUN	NNS	_	8	A	8:A	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	averaging	average	VERB	VBG	_	4	H	4:H	_
+15	21.1	21.1	NUM	CD	_	16	E	16:E	_
+16	points	point	NOUN	NNS	_	14	A	14:A	_
+17	on	on	ADP	IN	_	19	R	19:R	_
+18	.550	.550	NUM	CD	_	19	E	19:E	_
+19	shooting	shooting	NOUN	NN	_	16	E	16:E	_
+20	,	,	PUNCT	,	_	16	U	16:U	_
+21	13.0	13.0	NUM	CD	_	22	E	22:E	_
+22	assists	assist	NOUN	NNS	_	16	C	16:C	_
+23	,	,	PUNCT	,	_	16	U	16:U	_
+24	and	and	CCONJ	CC	_	16	N	16:N	_
+25	5.7	5.7	NUM	CD	_	26	E	26:E	_
+26	rebounds	rebound	NOUN	NNS	_	16	C	16:C	_
+27	per	per	ADP	IN	_	28	R	28:R	_
+28	game	game	NOUN	NN	_	16	E	16:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

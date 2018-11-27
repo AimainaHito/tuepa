@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 379002
+# text = In Jarhead , Gyllenhaal played against his usual " sensitive yet disturbed " type by displaying an aggressive masculinity as a violent U.S. Marine during the first Gulf War .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	Jarhead	Jarhead	PROPN	NNP	_	5	A	5:A	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	5	A	5:A|16:A	_
+5	played	play	VERB	VBD	_	0	H	0:H	_
+6	against	against	ADP	IN	_	14	R	14:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	usual	usual	ADJ	JJ	_	14	E	14:E	_
+9	"	"	PUNCT	``	_	14	U	14:U	_
+10	sensitive	sensitive	ADJ	JJ	_	14	E	14:E	_
+11	yet	yet	CCONJ	CC	_	10	N	10:N	_
+12	disturbed	disturb	ADJ	JJ	_	10	C	10:C	_
+13	"	"	PUNCT	``	_	14	U	14:U	_
+14	type	type	NOUN	NN	_	5	A	5:A	_
+15	by	by	SCONJ	IN	_	16	F	16:F	_
+16	displaying	display	VERB	VBG	_	5	A	5:A	_
+17	an	a	DET	DT	_	19	E	19:E	_
+18	aggressive	aggressive	ADJ	JJ	_	19	E	19:E	_
+19	masculinity	masculinity	NOUN	NN	_	26	E	26:E	_
+20	as	as	ADP	IN	_	26	R	26:R	_
+21	a	a	DET	DT	_	24	E	24:E	_
+22	violent	violent	ADJ	JJ	_	24	E	24:E	_
+23	U.S.	U.S.	PROPN	NNP	_	24	E	24:E	_
+24	Marine	Marine	PROPN	NNP	_	26	A	26:A	_
+25	during	during	ADP	IN	_	26	R	26:R	_
+26	the	the	DET	DT	_	16	A	16:A	_
+27	first	first	ADJ	JJ	_	26	Terminal	26:Terminal	_
+28	Gulf	Gulf	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	War	War	PROPN	NNP	_	26	Terminal	26:Terminal	_
+30	.	.	PUNCT	.	_	26	U	26:U	_
+

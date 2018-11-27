@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25778003
+# text = » Allerdings , mein Herr , aber der Irrtum wird keine 100 Meter betragen , und mehr bedürfen wir nicht . Auf morgen also . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Allerdings	allerdings	ADV	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	aber	aber	CCONJ	KON	_	2	L	2:L	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Irrtum	Irrtum	NOUN	NN	_	14	A	14:A	_
+10	wird	werden	AUX	VAFIN	_	14	F	14:F	_
+11	keine	kein	PRON	PIAT	_	14	D	14:D	_
+12	100	100	NUM	CARD	_	13	E	13:E	_
+13	Meter	Meter	NOUN	NN	_	14	A	14:A	_
+14	betragen	betragen	VERB	VVINF	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	und	und	CCONJ	NE	_	2	L	2:L	_
+17	mehr	mehr	ADV	ADV	_	18	A	18:A	_
+18	bedürfen	bedürfen	VERB	VVFIN	_	2	H	2:H	_
+19	wir	wir	PRON	NE	_	18	A	18:A	_
+20	nicht	nicht	PART	CARD	_	18	D	18:D	_
+21	.	.	PUNCT	$.	_	2	U	2:U	_
+22	Auf	auf	ADP	APPR	_	23	R	23:R	_
+23	morgen	morgen	ADV	ADV	_	2	H	2:H	_
+24	also	also	ADV	ADV	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+26	«	«	PUNCT	$(	_	23	U	23:U	_
+

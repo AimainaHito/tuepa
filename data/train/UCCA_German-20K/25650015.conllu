@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25650015
+# text = Kapitän Nemo führte mich in den hinteren Teil der " Nautilus " und ließ mich in eine Kabine neben dem Posten der Matrosen treten .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	0	C	0:C|24:A	_
+3	führte	führen	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	A	3:A	_
+5	in	in	ADP	APPR	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	hinteren	hinter	ADJ	ADJA	_	8	E	8:E	_
+8	Teil	Teil	NOUN	NN	_	3	A	3:A	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	Nautilus	Nautilus	PROPN	NE	_	8	E	8:E	_
+12	"	"	PUNCT	$(	_	3	U	3:U	_
+13	und	und	CCONJ	NE	_	3	L	3:L	_
+14	ließ	lassen	VERB	VVFIN	_	24	D	24:D	_
+15	mich	ich	PRON	PPER	_	24	A	24:A	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	eine	ein	DET	ART	_	18	E	18:E	_
+18	Kabine	Kabine	NOUN	NN	_	24	A	24:A	_
+19	neben	neben	ADP	TRUNC	_	21	R	21:R	_
+20	dem	der	DET	ART	_	21	E	21:E	_
+21	Posten	Posten	NOUN	NN	_	18	E	18:E	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Matrosen	Matrose	NOUN	NN	_	21	E	21:E	_
+24	treten	treten	VERB	VVFIN	_	3	H	3:H	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

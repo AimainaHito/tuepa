@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 549011
+# text = Although his son bore a different middle initial , he " has been called Junior all his life " . The marriage ended in 1935 , when Warner left his wife for another woman , Ann Page .
+1	Although	although	SCONJ	IN	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	son	son	NOUN	NN	_	4	A	4:A	_
+4	bore	bear	VERB	VBD	_	0	H	0:H	_
+5	a	a	DET	DT	_	8	E	8:E	_
+6	different	different	ADJ	JJ	_	8	E	8:E	_
+7	middle	middle	ADJ	JJ	_	8	E	8:E	_
+8	initial	initial	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	he	he	PRON	PRP	_	14	A	14:A	_
+11	"	"	PUNCT	``	_	14	U	14:U	_
+12	has	have	AUX	VBZ	_	14	F	14:F	_
+13	been	be	AUX	VBN	_	14	F	14:F	_
+14	called	call	VERB	VBN	_	4	H	4:H	_
+15	Junior	junior	PROPN	NNP	_	14	A	14:A	_
+16	all	all	DET	DT	_	18	R	18:R	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	life	life	NOUN	NN	_	14	D	14:D	_
+19	"	"	PUNCT	''	_	4	U	4:U	_
+20	.	.	PUNCT	.	_	4	U	4:U	_
+21	The	the	DET	DT	_	22	E	22:E	_
+22	marriage	marriage	NOUN	NN	_	23	A	23:A	_
+23	ended	end	VERB	VBD	_	4	H	4:H	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	1935	1935	NUM	CD	_	23	D	23:D	_
+26	,	,	PUNCT	,	_	4	U	4:U	_
+27	when	when	ADV	WRB	_	4	L	4:L	_
+28	Warner	Warner	PROPN	NNP	_	29	A	29:A	_
+29	left	leave	VERB	VBD	_	4	H	4:H	_
+30	his	he	PRON	PRP$	_	31	E	31:E	_
+31	wife	wife	NOUN	NN	_	29	A	29:A	_
+32	for	for	ADP	IN	_	36	R	36:R	_
+33	another	another	DET	DT	_	34	E	34:E	_
+34	woman	woman	NOUN	NN	_	36	E	36:E	_
+35	,	,	PUNCT	,	_	36	U	36:U	_
+36	Ann	Ann	PROPN	NNP	_	29	A	29:A	_
+37	Page	page	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	.	_	36	U	36:U	_
+

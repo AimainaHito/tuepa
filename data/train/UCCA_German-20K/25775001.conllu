@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25775001
+# text = » Unstreitig , Conseil . Aber sag mir , hast du diese Pracht exem-plare der Seefauna noch nicht klassifiziert ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Unstreitig	Unstreitig	ADJ	ADJD	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Conseil	Conseil	NOUN	NE	_	2	G	2:G	_
+5	.	.	PUNCT	$.	_	2	U	2:U	_
+6	Aber	aber	NOUN	KON	_	2	L	2:L	_
+7	sag	siegen	VERB	VVFIN	_	2	H	2:H	_
+8	mir	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	hast	haben	VERB	VAFIN	_	19	F	19:F	_
+11	du	du	PRON	PPER	_	19	A	19:A	_
+12	diese	dies	PRON	PDAT	_	14	E	14:E	_
+13	Pracht	Pracht	NOUN	NN	_	14	E	14:E	_
+14	exem-plare	exem-plar	ADJ	NN	_	19	A	19:A	_
+15	der	der	DET	ART	_	16	R	16:R	_
+16	Seefauna	Seefauna	NOUN	NN	_	14	E	14:E	_
+17	noch	noch	ADV	CARD	_	18	E	18:E	_
+18	nicht	nicht	PART	CARD	_	19	D	19:D	_
+19	klassifiziert	klassifizieren	VERB	VVPP	_	7	A	7:A	_
+20	?	?	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

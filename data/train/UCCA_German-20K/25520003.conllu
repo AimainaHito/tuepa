@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25520003
+# text = « » Noch eine Frage , die letzte , Kapitän .
+1	«	«	PUNCT	$(	_	5	U	5:U	_
+2	»	»	PUNCT	$(	_	5	U	5:U	_
+3	Noch	noch	ADV	ADV	_	5	E	5:E	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Frage	Frage	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	die	der	PRON	PRELS	_	5	A	5:A	_
+8	letzte	letzt	ADJ	ADJA	_	7	E	7:E	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	Kapitän	Kapitän	NOUN	NN	_	5	G	5:G	_
+11	.	.	PUNCT	$.	_	5	U	5:U	_
+

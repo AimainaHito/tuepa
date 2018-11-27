@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 643003
+# text = After arriving home at Kenwood , and finding Lennon with Ono , Cynthia left the house to stay with friends .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	arriving	arrive	VERB	VBG	_	0	H	0:H	_
+3	home	home	ADV	RB	_	2	A	2:A	_
+4	at	at	ADP	IN	_	5	R	5:R	_
+5	Kenwood	Kenwood	PROPN	NNP	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	finding	find	VERB	VBG	_	2	H	2:H	_
+9	Lennon	Lennon	PROPN	NNP	_	8	A	8:A	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Ono	Ono	PROPN	NNP	_	8	A	8:A	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	Cynthia	Cynthia	PROPN	NNP	_	14	A	14:A|18:A	_
+14	left	leave	VERB	VBD	_	2	H	2:H	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	house	house	NOUN	NN	_	14	A	14:A	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	stay	stay	VERB	VB	_	14	A	14:A	_
+19	with	with	ADP	IN	_	20	R	20:R	_
+20	friends	friend	NOUN	NNS	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

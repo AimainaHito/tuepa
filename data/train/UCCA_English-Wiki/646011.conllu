@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 646011
+# text = After Ono was injured in a car accident , Lennon arranged for a king - sized bed to be brought to the recording studio as he worked on the Beatles ' last album , Abbey Road .
+1	After	after	SCONJ	IN	_	4	L	4:L	_
+2	Ono	Ono	PROPN	NNP	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	injured	injure	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	8	R	8:R	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	car	car	NOUN	NN	_	8	E	8:E	_
+8	accident	accident	NOUN	NN	_	4	A	4:A	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Lennon	Lennon	PROPN	NNP	_	11	A	11:A	_
+11	arranged	arrange	VERB	VBD	_	4	H	4:H	_
+12	for	for	ADP	IN	_	20	F	20:F	_
+13	a	a	DET	DT	_	17	E	17:E	_
+14	king	king	NOUN	NN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	sized	size	VERB	VBN	_	17	E	17:E	_
+17	bed	bed	NOUN	NN	_	20	A	20:A	_
+18	to	to	PART	TO	_	20	F	20:F	_
+19	be	be	AUX	VB	_	20	F	20:F	_
+20	brought	bring	VERB	VBN	_	11	A	11:A	_
+21	to	to	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	recording	recording	NOUN	NN	_	24	E	24:E	_
+24	studio	studio	NOUN	NN	_	20	A	20:A	_
+25	as	as	SCONJ	IN	_	4	L	4:L	_
+26	he	he	PRON	PRP	_	27	A	27:A	_
+27	worked	work	VERB	VBD	_	4	H	4:H	_
+28	on	on	ADP	IN	_	33	R	33:R	_
+29	the	the	DET	DT	_	33	E	33:E	_
+30	Beatles	Beatles	PROPN	NNPS	_	33	E	33:E	_
+31	'	's	PART	POS	_	33	U	33:U	_
+32	last	last	ADJ	JJ	_	33	E	33:E	_
+33	album	album	NOUN	NN	_	27	A	27:A	_
+34	,	,	PUNCT	,	_	33	U	33:U	_
+35	Abbey	Abbey	PROPN	NNP	_	33	E	33:E	_
+36	Road	Road	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	.	.	PUNCT	.	_	33	U	33:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25614000
+# text = » Und woher wissen Sie dies ? « rief ich aus .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Und	und	CCONJ	ADJD	_	4	L	4:L	_
+3	woher	woher	ADV	ADJD	_	4	A	4:A	_
+4	wissen	wissen	VERB	VVINF	_	9	A	9:A	_
+5	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	dies	dies	PRON	PDS	_	4	A	4:A	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	aus	aus	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

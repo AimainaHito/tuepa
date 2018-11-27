@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 613008
+# text = " In 1990 , when asked who his favourite guitar players were he included Eddie Van Halen , Eric Clapton and David Gilmour , stating , " but I still like Hendrix the best .
+1	"	"	PUNCT	``	_	14	U	14:U	_
+2	In	in	ADP	IN	_	3	R	3:R	_
+3	1990	1990	NUM	CD	_	14	D	14:D	_
+4	,	,	PUNCT	,	_	14	U	14:U	_
+5	when	when	ADV	WRB	_	14	L	14:L	_
+6	asked	ask	VERB	VBD	_	14	H	14:H	_
+7	who	who	PRON	WP	_	11	F	11:F	_
+8	his	he	PRON	PRP$	_	11	E	11:E	_
+9	favourite	favourite	ADJ	JJ	_	11	E	11:E	_
+10	guitar	guitar	NOUN	NN	_	11	E	11:E	_
+11	players	player	NOUN	NNS	_	6	A	6:A	_
+12	were	be	AUX	VBD	_	11	F	11:F	_
+13	he	he	PRON	PRP	_	14	A	14:A|25:A|6:A	_
+14	included	include	VERB	VBD	_	0	H	0:H	_
+15	Eddie	Eddie	PROPN	NNP	_	14	A	14:A|31:H	_
+16	Van	Van	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Halen	Halen	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	,	,	PUNCT	,	_	15	U	15:U	_
+19	Eric	Eric	PROPN	NNP	_	15	C	15:C	_
+20	Clapton	Clapton	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	and	and	CCONJ	CC	_	15	N	15:N	_
+22	David	David	PROPN	NNP	_	15	C	15:C	_
+23	Gilmour	Gilmour	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	14	U	14:U	_
+25	stating	stating	NOUN	NN	_	14	H	14:H	_
+26	,	,	PUNCT	,	_	25	U	25:U	_
+27	"	"	PUNCT	''	_	25	U	25:U	_
+28	but	but	CCONJ	CC	_	31	L	31:L	_
+29	I	I	PRON	PRP	_	31	A	31:A	_
+30	still	still	ADV	RB	_	31	D	31:D	_
+31	like	like	ADP	IN	_	25	A	25:A	_
+32	Hendrix	Hendrix	PROPN	NNP	_	31	A	31:A	_
+33	the	the	DET	DT	_	34	R	34:R	_
+34	best	best	ADJ	JJS	_	31	D	31:D	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

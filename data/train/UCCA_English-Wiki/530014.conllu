@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 530014
+# text = She felt so warmly embraced by the British that she announced her intention to move permanently to England .
+1	She	she	PRON	PRP	_	5	A	5:A	_
+2	felt	feel	VERB	VBD	_	5	G	5:G	_
+3	so	so	ADV	RB	_	4	E	4:E	_
+4	warmly	warmly	ADV	RB	_	5	D	5:D	_
+5	embraced	embrace	VERB	VBN	_	0	H	0:H	_
+6	by	by	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	British	British	NOUN	NN	_	5	A	5:A	_
+9	that	that	PRON	WDT	_	11	R	11:R	_
+10	she	she	PRON	PRP	_	11	A	11:A|15:A	_
+11	announced	announce	VERB	VBD	_	5	H	5:H	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	intention	intention	NOUN	NN	_	11	A	11:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	move	move	VERB	VB	_	13	E	13:E	_
+16	permanently	permanently	ADV	RB	_	15	D	15:D	_
+17	to	to	ADP	IN	_	18	R	18:R	_
+18	England	England	PROPN	NNP	_	15	A	15:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

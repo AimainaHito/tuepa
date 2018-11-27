@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25686007
+# text = Ich glaubte , er wolle wieder umkehren . Nein .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	glaubte	glauben	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	er	er	PRON	PPER	_	7	A	7:A|9:A	_
+5	wolle	wollen	AUX	VMFIN	_	7	D	7:D	_
+6	wieder	wieder	ADV	NN	_	7	D	7:D	_
+7	umkehren	umkehren	VERB	VVINF	_	0	P	0:P|9:P	_
+8	.	.	PUNCT	$.	_	9	U	9:U	_
+9	Nein	nein	PART	PTKANT	_	2	H	2:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

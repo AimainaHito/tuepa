@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25713012
+# text = Daneben sah ich einen mit Eisen beschlagenen Koffer , auf dessen Deckel eine kupferne Platte mit der Chiffre der ›Nautilus‹ und ihrer Devise ›Mobilis in Mobile‹ befand .
+1	Daneben	daneben	ADV	PAV	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	einen	ein	DET	ART	_	8	E	8:E	_
+5	mit	mit	ADP	APPR	_	6	R	6:R	_
+6	Eisen	Eisen	NOUN	NN	_	7	A	7:A	_
+7	beschlagenen	beschlagen	ADJ	ADJA	_	8	E	8:E	_
+8	Koffer	Koffer	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	dessen	der	DET	PRELAT	_	12	E	12:E	_
+12	Deckel	Deckel	NOUN	NN	_	27	A	27:A	_
+13	eine	ein	DET	ART	_	15	E	15:E	_
+14	kupferne	kupferne	ADJ	ADJA	_	15	E	15:E	_
+15	Platte	Platte	NOUN	NN	_	27	A	27:A	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Chiffre	Chiffre	NOUN	NN	_	15	E	15:E	_
+19	der	der	DET	ART	_	20	R	20:R	_
+20	›Nautilus‹	›Nautilus‹	NOUN	NE	_	18	E	18:E	_
+21	und	und	CCONJ	NE	_	18	N	18:N	_
+22	ihrer	ihr	DET	PPOSAT	_	23	E	23:E	_
+23	Devise	Devise	NOUN	NN	_	18	C	18:C	_
+24	›Mobilis	›Mobilis	PROPN	NE	_	23	E	23:E	_
+25	in	in	ADP	APPR	_	24	Terminal	24:Terminal	_
+26	Mobile‹	Mobile‹	NOUN	NE	_	24	Terminal	24:Terminal	_
+27	befand	befinden	VERB	VVFIN	_	8	E	8:E	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

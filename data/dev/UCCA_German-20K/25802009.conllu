@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25802009
+# text = Unser Garn brachte einen sehr flachen Rochen , der vollkommen wie eine kreisrunde Scheibe geformt war und 20 Kilogramm wog .
+1	Unser	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Garn	Garn	NOUN	NN	_	3	A	3:A	_
+3	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+4	einen	ein	DET	ART	_	7	E	7:E	_
+5	sehr	sehr	ADV	NE	_	6	E	6:E	_
+6	flachen	flach	ADJ	ADJA	_	7	E	7:E	_
+7	Rochen	Rochen	NOUN	NE	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	der	der	PRON	ART	_	15	R	15:R	_
+10	vollkommen	vollkommen	ADV	NN	_	15	D	15:D	_
+11	wie	wie	ADP	NN	_	14	R	14:R	_
+12	eine	ein	DET	ART	_	14	E	14:E	_
+13	kreisrunde	kreisrund	ADJ	NN	_	14	E	14:E	_
+14	Scheibe	Scheibe	NOUN	NN	_	15	A	15:A	_
+15	geformt	formn	VERB	VVFIN	_	7	E	7:E	_
+16	war	sein	AUX	ADV	_	15	F	15:F	_
+17	und	und	CCONJ	NE	_	15	N	15:N	_
+18	20	20	NUM	CARD	_	19	E	19:E	_
+19	Kilogramm	Kilogramm	NOUN	NN	_	20	A	20:A	_
+20	wog	wiegen|wägen	VERB	VVFIN	_	15	C	15:C	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

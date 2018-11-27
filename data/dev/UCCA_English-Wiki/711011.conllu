@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 711011
+# text = Dylan devoted three chapters to his first year in New York City in 1961 - 1962 , virtually ignoring the mid - 1960s when his fame was at its height .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A|10:A|19:A	_
+2	devoted	devote	VERB	VBD	_	0	H	0:H	_
+3	three	three	NUM	CD	_	4	E	4:E	_
+4	chapters	chapter	NOUN	NNS	_	2	A	2:A	_
+5	to	to	ADP	IN	_	10	R	10:R	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	year	year	NOUN	NN	_	10	D	10:D	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	New	New	PROPN	NNP	_	2	A	2:A	_
+11	York	York	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	City	City	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	1961	1961	NUM	CD	_	10	D	10:D	_
+15	-	-	SYM	SYM	_	14	U	14:U	_
+16	1962	1962	NUM	CD	_	14	C	14:C	_
+17	,	,	PUNCT	,	_	2	U	2:U	_
+18	virtually	virtually	ADV	RB	_	19	D	19:D	_
+19	ignoring	ignore	VERB	VBG	_	2	H	2:H	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	mid	mid	X	AFX	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	1960s	1960	NOUN	NNS	_	19	D	19:D	_
+24	when	when	ADV	WRB	_	2	L	2:L	_
+25	his	he	PRON	PRP$	_	26	A	26:A	_
+26	fame	fame	NOUN	NN	_	30	A	30:A	_
+27	was	be	AUX	VBD	_	30	F	30:F	_
+28	at	at	ADP	IN	_	30	R	30:R	_
+29	its	its	PRON	PRP$	_	30	E	30:E	_
+30	height	height	NOUN	NN	_	2	H	2:H	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

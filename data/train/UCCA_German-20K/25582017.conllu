@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25582017
+# text = Mit seinem starken Fernrohr forschte er am Horizont mit äußerster Achtsamkeit nach allen Richtungen .
+1	Mit	mit	ADP	APPR	_	4	R	4:R	_
+2	seinem	sein	DET	PPOSAT	_	4	E	4:E	_
+3	starken	stark	ADJ	ADJA	_	4	E	4:E	_
+4	Fernrohr	Fernrohr	NOUN	NN	_	5	A	5:A	_
+5	forschte	forschen	VERB	VVFIN	_	0	H	0:H	_
+6	er	er	PRON	PPER	_	5	A	5:A	_
+7	am	am	ADJ	ADJD	_	8	R	8:R	_
+8	Horizont	Horizont	NOUN	NN	_	5	A	5:A	_
+9	mit	mit	ADP	APPR	_	11	R	11:R	_
+10	äußerster	äußer	ADJ	NN	_	11	E	11:E	_
+11	Achtsamkeit	Achtsamkeit	NOUN	NN	_	5	A	5:A	_
+12	nach	nach	ADP	CARD	_	14	R	14:R	_
+13	allen	alle	PRON	PIAT	_	14	E	14:E	_
+14	Richtungen	Richtung	NOUN	NN	_	5	A	5:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

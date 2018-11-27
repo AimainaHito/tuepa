@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25649018
+# text = Dies geschah während dieses Tages , am 19 . Januar , gegen Gewohnheit öfters .
+1	Dies	dies	PRON	PDS	_	2	A	2:A	_
+2	geschah	geschehen	VERB	VVFIN	_	0	H	0:H	_
+3	während	während	SCONJ	NN	_	5	R	5:R	_
+4	dieses	dies	PRON	PDAT	_	5	E	5:E	_
+5	Tages	Tag	NOUN	NN	_	8	E	8:E	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	am	ommen	VERB	ADJD	_	8	R	8:R	_
+8	19	19	NUM	CARD	_	2	D	2:D	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	Januar	Januar	PROPN	NN	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	gegen	gegen	ADP	APPR	_	13	R	13:R	_
+13	Gewohnheit	Gewohnheit	NOUN	NN	_	2	A	2:A	_
+14	öfters	öfters	ADV	ADV	_	2	D	2:D	_
+15	.	.	PUNCT	$.	_	2	U	2:U	_
+

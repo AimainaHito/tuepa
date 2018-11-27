@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25788000
+# text = Um 8 Uhr 25 spürten wir einen abermaligen Stoß ; diesmal am Hinterteil .
+1	Um	um	ADP	APPR	_	2	E	2:E	_
+2	8	8	NUM	CARD	_	5	D	5:D	_
+3	Uhr	Uhr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	25	25	NUM	CARD	_	2	Terminal	2:Terminal	_
+5	spürten	spüren	VERB	VVFIN	_	0	H	0:H	_
+6	wir	wir	PRON	NE	_	5	A	5:A	_
+7	einen	ein	DET	ART	_	9	E	9:E	_
+8	abermaligen	abermalig	ADJ	ADJA	_	9	E	9:E	_
+9	Stoß	Stoß	NOUN	NN	_	5	A	5:A	_
+10	;	;	PUNCT	$.	_	5	U	5:U	_
+11	diesmal	diesmal	ADV	ADV	_	13	E	13:E	_
+12	am	am	ADJ	ADJD	_	13	R	13:R	_
+13	Hinterteil	Hinterteil	NOUN	NN	_	5	A	5:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

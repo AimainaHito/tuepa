@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 499010
+# text = Entering the same chart in September , Bowie 's novelty record from 1967 , " The Laughing Gnome " , reached number four .
+1	Entering	enter	VERB	VBG	_	0	H	0:H	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	same	same	ADJ	JJ	_	4	E	4:E	_
+4	chart	chart	NOUN	NN	_	1	A	1:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	September	September	PROPN	NNP	_	1	D	1:D	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	Bowie	Bowie	PROPN	NNP	_	11	E	11:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	novelty	novelty	NOUN	NN	_	11	E	11:E	_
+11	record	record	NOUN	NN	_	16	E	16:E	_
+12	from	from	ADP	IN	_	13	R	13:R	_
+13	1967	1967	NUM	CD	_	11	E	11:E	_
+14	,	,	PUNCT	,	_	16	U	16:U	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	The	the	DET	DT	_	0	C	0:C|1:A	_
+17	Laughing	laugh	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	Gnome	Gnome	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	"	"	PUNCT	''	_	1	U	1:U	_
+20	,	,	PUNCT	,	_	1	U	1:U	_
+21	reached	reach	VERB	VBN	_	1	H	1:H	_
+22	number	number	NOUN	NN	_	21	A	21:A	_
+23	four	four	NUM	CD	_	22	E	22:E	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

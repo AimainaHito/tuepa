@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25634014
+# text = Im allgemeinen gehen diese Wilden nackt .
+1	Im	Im	ADV	NN	_	2	R	2:R	_
+2	allgemeinen	allgemein	PRON	ADJA	_	6	D	6:D	_
+3	gehen	gehen	VERB	VVFIN	_	6	D	6:D	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Wilden	Wilde	NOUN	NN	_	6	A	6:A	_
+6	nackt	nackt	VERB	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 567002
+# text = Between film shoots and recording sessions , the singer also found time to purchase an 18 - room mansion eight miles ( 13 km ) south of downtown Memphis for himself and his parents : Graceland .
+1	Between	between	ADP	IN	_	3	L	3:L	_
+2	film	film	NOUN	NN	_	3	E	3:E	_
+3	shoots	shoot	NOUN	NNS	_	0	H	0:H	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	recording	recording	NOUN	NN	_	6	E	6:E	_
+6	sessions	session	NOUN	NNS	_	3	C	3:C	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	singer	singer	NOUN	NN	_	12	A	12:A	_
+10	also	also	ADV	RB	_	12	D	12:D	_
+11	found	find	VERB	VBD	_	12	D	12:D	_
+12	time	time	NOUN	NN	_	3	H	3:H	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	purchase	purchase	VERB	VB	_	12	A	12:A	_
+15	an	a	DET	DT	_	19	E	19:E	_
+16	18	18	NUM	CD	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	room	room	NOUN	NN	_	19	E	19:E	_
+19	mansion	mansion	NOUN	NN	_	14	A	14:A	_
+20	eight	eight	NUM	CD	_	21	E	21:E	_
+21	miles	mile	NOUN	NNS	_	26	E	26:E	_
+22	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+23	13	13	NUM	CD	_	24	E	24:E	_
+24	km	km	NOUN	NN	_	21	E	21:E	_
+25	)	)	PUNCT	-RRB-	_	26	U	26:U	_
+26	south	south	NOUN	NN	_	19	E	19:E	_
+27	of	of	ADP	IN	_	29	R	29:R	_
+28	downtown	downtown	NOUN	NN	_	29	E	29:E	_
+29	Memphis	Memphis	PROPN	NNP	_	26	E	26:E	_
+30	for	for	ADP	IN	_	31	R	31:R	_
+31	himself	himself	PRON	PRP	_	14	A	14:A	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	his	he	PRON	PRP$	_	34	E	34:E	_
+34	parents	parent	NOUN	NNS	_	31	C	31:C	_
+35	:	:	PUNCT	:	_	14	U	14:U	_
+36	Graceland	Graceland	PROPN	NNP	_	19	E	19:E	_
+37	.	.	PUNCT	.	_	19	U	19:U	_
+

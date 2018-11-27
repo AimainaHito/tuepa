@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25470002
+# text = Das einige Klafter unter dem Wasser spiegel verborgene Ungeheuer warf den sehr starken , aber unerklärlichen Glanz , von dem schon mehrere Kapitäne berichtet hatten .
+1	Das	der	DET	ART	_	9	E	9:E	_
+2	einige	einige	PRON	PIAT	_	3	E	3:E	_
+3	Klafter	Klafter	NOUN	NN	_	8	A	8:A	_
+4	unter	unter	ADP	ADJD	_	7	R	7:R	_
+5	dem	der	DET	ART	_	7	E	7:E	_
+6	Wasser	Wasser	NOUN	NN	_	7	E	7:E	_
+7	spiegel	spiegel	PROPN	NN	_	8	A	8:A	_
+8	verborgene	verborgen	ADJ	ADJA	_	9	E	9:E	_
+9	Ungeheuer	Ungeheuer	NOUN	NN	_	10	A	10:A	_
+10	warf	werfen	VERB	VVFIN	_	0	H	0:H	_
+11	den	der	DET	ART	_	17	E	17:E	_
+12	sehr	sehr	ADV	NE	_	13	E	13:E	_
+13	starken	stark	ADJ	VVINF	_	17	E	17:E	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	aber	aber	CCONJ	KON	_	13	N	13:N	_
+16	unerklärlichen	unerklärlich	ADJ	ADJA	_	13	C	13:C	_
+17	Glanz	Glanz	NOUN	NN	_	10	A	10:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	von	von	ADP	NN	_	20	R	20:R	_
+20	dem	der	PRON	ART	_	24	R	24:R	_
+21	schon	schon	ADV	ADV	_	24	D	24:D	_
+22	mehrere	mehrere	PRON	PIAT	_	23	E	23:E	_
+23	Kapitäne	Kapitän	NOUN	NN	_	24	A	24:A	_
+24	berichtet	berichten	VERB	VVPP	_	17	E	17:E	_
+25	hatten	haben	AUX	VAFIN	_	24	F	24:F	_
+26	.	.	PUNCT	$.	_	24	U	24:U	_
+

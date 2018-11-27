@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 454013
+# text = The announcement signaled a generational shift in the evening news broadcasts , and the beginning of what the media would deem the " Big Three " era of Jennings , Dan Rather of CBS , and Tom Brokaw of NBC .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	announcement	announcement	NOUN	NN	_	3	A	3:A	_
+3	signaled	signal	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	generational	generational	ADJ	JJ	_	6	D	6:D	_
+6	shift	shift	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	evening	evening	NOUN	NN	_	11	E	11:E	_
+10	news	news	NOUN	NN	_	11	E	11:E	_
+11	broadcasts	broadcast	NOUN	NNS	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	and	and	CCONJ	CC	_	6	N	6:N	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	beginning	beginning	NOUN	NN	_	6	C	6:C	_
+16	of	of	SCONJ	IN	_	19	R	19:R	_
+17	what	what	PRON	WP	_	19	F	19:F	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	media	media	NOUN	NN	_	21	A	21:A	_
+20	would	would	AUX	MD	_	21	F	21:F	_
+21	deem	deem	VERB	VB	_	15	E	15:E	_
+22	the	the	DET	DT	_	27	E	27:E	_
+23	"	"	PUNCT	``	_	27	U	27:U	_
+24	Big	Big	PROPN	NNP	_	25	E	25:E	_
+25	Three	three	PROPN	NNP	_	27	E	27:E	_
+26	"	"	PUNCT	''	_	27	U	27:U	_
+27	era	era	NOUN	NN	_	21	A	21:A	_
+28	of	of	ADP	IN	_	29	R	29:R	_
+29	Jennings	Jennings	PROPN	NNP	_	27	E	27:E	_
+30	,	,	PUNCT	,	_	29	U	29:U	_
+31	Dan	Dan	PROPN	NNP	_	29	C	29:C	_
+32	Rather	rather	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	of	of	ADP	IN	_	34	R	34:R	_
+34	CBS	CBS	PROPN	NNP	_	31	E	31:E	_
+35	,	,	PUNCT	,	_	29	U	29:U	_
+36	and	and	CCONJ	CC	_	29	N	29:N	_
+37	Tom	Tom	PROPN	NNP	_	29	C	29:C	_
+38	Brokaw	Brokaw	PROPN	NNP	_	37	Terminal	37:Terminal	_
+39	of	of	ADP	IN	_	40	R	40:R	_
+40	NBC	NBC	PROPN	NNP	_	37	E	37:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

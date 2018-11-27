@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25635010
+# text = Vermutlich kamen sie von den benachbarten Inseln oder dem eigentlichen Papuasien .
+1	Vermutlich	vermutlich	ADJ	ADV	_	2	G	2:G	_
+2	kamen	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	von	von	ADP	NE	_	7	R	7:R|11:R	_
+5	den	der	DET	ART	_	7	E	7:E	_
+6	benachbarten	benachbart	ADJ	ADJA	_	7	E	7:E	_
+7	Inseln	Insel	NOUN	NN	_	2	A	2:A	_
+8	oder	oder	CCONJ	CARD	_	7	N	7:N	_
+9	dem	der	DET	ART	_	11	E	11:E	_
+10	eigentlichen	eigentlich	ADJ	ADJA	_	11	E	11:E	_
+11	Papuasien	Symposion|Papuasium	NOUN	NN	_	7	C	7:C	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

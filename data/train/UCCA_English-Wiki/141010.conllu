@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 141010
+# text = It received positive reviews and high ratings , and earned Hepburn her only Emmy Award .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	received	receive	VERB	VBD	_	0	H	0:H	_
+3	positive	positive	ADJ	JJ	_	4	E	4:E	_
+4	reviews	review	NOUN	NNS	_	2	A	2:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	high	high	ADJ	JJ	_	7	E	7:E	_
+7	ratings	rating	NOUN	NNS	_	4	C	4:C	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	earned	earn	VERB	VBD	_	2	H	2:H	_
+11	Hepburn	Hepburn	PROPN	NNP	_	10	A	10:A	_
+12	her	she	PRON	PRP$	_	15	E	15:E	_
+13	only	only	ADV	RB	_	15	E	15:E	_
+14	Emmy	Emmy	PROPN	NNP	_	15	E	15:E	_
+15	Award	Award	PROPN	NNP	_	10	A	10:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

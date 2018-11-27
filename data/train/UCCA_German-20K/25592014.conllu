@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25592014
+# text = Bald änderte sich die Beschaffenheit des Bodens .
+1	Bald	bald	ADV	ADV	_	2	D	2:D	_
+2	änderte	ändern	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Beschaffenheit	Beschaffenheit	NOUN	NN	_	2	A	2:A	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Bodens	Boden	NOUN	NN	_	5	E	5:E	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

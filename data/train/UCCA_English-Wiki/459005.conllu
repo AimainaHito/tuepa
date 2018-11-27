@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 459005
+# text = [ e ] Jennings also anchored a longer , 15 - hour version , The Century : America 's Time , on the History Channel in April 1999 .
+1	[	[	PUNCT	-LRB-	_	6	U	6:U	_
+2	e	e	X	GW	_	6	F	6:F	_
+3	]	]	PUNCT	-RRB-	_	6	U	6:U	_
+4	Jennings	Jennings	PROPN	NNP	_	6	A	6:A	_
+5	also	also	ADV	RB	_	6	D	6:D	_
+6	anchored	anchor	VERB	VBD	_	0	H	0:H	_
+7	a	a	DET	DT	_	15	E	15:E	_
+8	longer	longer	ADJ	JJR	_	15	E	15:E	_
+9	,	,	PUNCT	,	_	15	U	15:U	_
+10	15	15	NUM	CD	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	hour	hour	NOUN	NN	_	13	E	13:E	_
+13	version	version	NOUN	NN	_	15	E	15:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	The	the	DET	DT	_	6	A	6:A	_
+16	Century	Century	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	:	:	PUNCT	:	_	15	U	15:U	_
+18	America	America	PROPN	NNP	_	15	Terminal	15:Terminal	_
+19	's	's	PART	POS	_	15	Terminal	15:Terminal	_
+20	Time	time	PROPN	NNP	_	15	Terminal	15:Terminal	_
+21	,	,	PUNCT	,	_	6	U	6:U	_
+22	on	on	ADP	IN	_	25	R	25:R	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	History	History	PROPN	NNP	_	25	E	25:E	_
+25	Channel	channel	PROPN	NNP	_	6	A	6:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	April	April	PROPN	NNP	_	6	D	6:D	_
+28	1999	1999	NUM	CD	_	27	Terminal	27:Terminal	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

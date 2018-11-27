@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25731011
+# text = Wir machten mit Hilfe des Stocks große Schritte ; aber im ganzen kamen wir langsam vorwärts , denn unsere Füße blieben oft in einer Art Schlamm stecken , der mit Algen durchknetet und mit flachen Steinen bedeckt war .
+1	Wir	wir	PRON	NE	_	2	A	2:A|4:A	_
+2	machten	machen	VERB	VVFIN	_	0	H	0:H	_
+3	mit	mit	ADP	APPR	_	4	R	4:R	_
+4	Hilfe	Hilfe	NOUN	NN	_	2	A	2:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Stocks	Stock	NOUN	NE	_	4	A	4:A	_
+7	große	groß	ADJ	ADJA	_	8	E	8:E	_
+8	Schritte	Schritt	NOUN	NN	_	2	A	2:A	_
+9	;	;	PUNCT	$.	_	2	U	2:U	_
+10	aber	aber	CCONJ	ADV	_	2	L	2:L	_
+11	im	im	ADV	NE	_	12	E	12:E	_
+12	ganzen	ganz	ADJ	ADJA	_	13	D	13:D	_
+13	kamen	kommen	VERB	VVFIN	_	2	H	2:H	_
+14	wir	wir	PRON	NE	_	13	A	13:A	_
+15	langsam	langsam	ADJ	ADJD	_	13	D	13:D	_
+16	vorwärts	vorwärts	ADV	ADV	_	13	Terminal	13:Terminal	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	denn	denn	SCONJ	KON	_	2	L	2:L	_
+19	unsere	unser	PRON	PPOSAT	_	20	E	20:E	_
+20	Füße	Fuß	NOUN	NN	_	21	A	21:A	_
+21	blieben	bleiben	VERB	VVFIN	_	2	H	2:H	_
+22	oft	oft	ADV	CARD	_	21	D	21:D	_
+23	in	in	ADP	APPR	_	26	R	26:R	_
+24	einer	ein	DET	ART	_	25	E	25:E	_
+25	Art	Art	NOUN	NN	_	26	E	26:E	_
+26	Schlamm	Schlamm	NOUN	NN	_	21	A	21:A	_
+27	stecken	stecken	VERB	VVINF	_	21	Terminal	21:Terminal	_
+28	,	,	PUNCT	$,	_	21	U	21:U	_
+29	der	der	PRON	PRELS	_	32	R	32:R	_
+30	mit	mit	ADP	APPR	_	31	E	31:E	_
+31	Algen	Alge	NOUN	NN	_	32	A	32:A	_
+32	durchknetet	durchkneten	VERB	VVFIN	_	26	E	26:E	_
+33	und	und	CCONJ	NE	_	32	L	32:L	_
+34	mit	mit	ADP	APPR	_	36	R	36:R	_
+35	flachen	flach	ADJ	ADJA	_	36	E	36:E	_
+36	Steinen	Steinen	NOUN	NN	_	37	A	37:A	_
+37	bedeckt	bedecken	ADJ	ADJD	_	32	H	32:H	_
+38	war	sein	AUX	ADV	_	37	F	37:F	_
+39	.	.	PUNCT	$.	_	37	U	37:U	_
+

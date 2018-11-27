@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25651016
+# text = » Sie können sich nun zurückziehen , Herr Arronax « , sagte der Kapitän zu mir .
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Sie	Sie|sie	PRON	PPER	_	4	F	4:F	_
+3	können	können	AUX	VMFIN	_	4	D	4:D	_
+4	sich	er|es|sie	PRON	PRF	_	12	A	12:A	_
+5	nun	nun	ADV	ADV	_	4	D	4:D	_
+6	zurückziehen	zurückziehen	VERB	VVINF	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	Herr	Herr	PROPN	NN	_	9	E	9:E	_
+9	Arronax	Arronax	PROPN	NE	_	4	G	4:G	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Kapitän	kapitän	NOUN	NN	_	12	A	12:A	_
+15	zu	zu	ADP	VVINF	_	16	R	16:R	_
+16	mir	ich	PRON	PPER	_	12	A	12:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

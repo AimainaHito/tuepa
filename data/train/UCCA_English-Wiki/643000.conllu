@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 643000
+# text = Cynthia attributes the start of the marriage breakdown to LSD , and as a result , she felt that he slowly lost interest in her .
+1	Cynthia	Cynthia	PROPN	NNP	_	2	A	2:A	_
+2	attributes	attribute	VERB	VBZ	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	start	start	NOUN	NN	_	8	E	8:E	_
+5	of	of	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	marriage	marriage	NOUN	NN	_	8	A	8:A	_
+8	breakdown	breakdown	NOUN	NN	_	2	A	2:A	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	LSD	lsd	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	and	and	CCONJ	CC	_	2	L	2:L	_
+13	as	as	ADP	IN	_	15	R	15:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	result	result	NOUN	NN	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	she	she	PRON	PRP	_	18	A	18:A	_
+18	felt	feel	VERB	VBD	_	2	H	2:H	_
+19	that	that	SCONJ	IN	_	23	F	23:F	_
+20	he	he	PRON	PRP	_	23	A	23:A	_
+21	slowly	slowly	ADV	RB	_	23	D	23:D	_
+22	lost	lose	VERB	VBD	_	23	D	23:D	_
+23	interest	interest	NOUN	NN	_	18	A	18:A	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	her	she	PRON	PRP	_	23	A	23:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

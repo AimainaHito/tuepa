@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25739002
+# text = Wie sie nun manövrieren würde , konnte ich nicht erraten .
+1	Wie	wie	SCONJ	ADJA	_	4	D	4:D	_
+2	sie	sie	PRON	ADV	_	4	A	4:A	_
+3	nun	nun	ADV	ADV	_	4	F	4:F	_
+4	manövrieren	manövrieren	VERB	VVINF	_	10	A	10:A	_
+5	würde	werden	AUX	NN	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	konnte	können	AUX	VMFIN	_	10	D	10:D	_
+8	ich	ich	PRON	PPER	_	10	A	10:A	_
+9	nicht	nicht	PART	XY	_	10	D	10:D	_
+10	erraten	erraten	VERB	VVINF	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

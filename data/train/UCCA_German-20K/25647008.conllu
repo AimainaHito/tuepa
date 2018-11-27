@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25647008
+# text = » Sie müssen sich nebst Ihren Gefährten einsperren lassen , bis ich es später statthaft finden werde , Sie wieder in Freiheit zu setzen . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+3	müssen	müssen	AUX	VMFIN	_	8	D	8:D	_
+4	sich	er|es|sie	PRON	PRF	_	8	A	8:A	_
+5	nebst	nebst	ADV	APPR	_	7	R	7:R	_
+6	Ihren	ihr	PRON	PPOSAT	_	7	E	7:E	_
+7	Gefährten	Gefährt|Gefährte	NOUN	NE	_	4	E	4:E	_
+8	einsperren	einsperren	VERB	NN	_	0	H	0:H	_
+9	lassen	lassen	VERB	VVINF	_	8	D	8:D	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	bis	bis	SCONJ	KOUS	_	8	L	8:L	_
+12	ich	ich	PRON	PPER	_	16	A	16:A|21:A	_
+13	es	es	PRON	PPER	_	16	F	16:F	_
+14	später	spät	ADJ	ADJD	_	16	D	16:D	_
+15	statthaft	statthaft	ADJ	NN	_	16	D	16:D	_
+16	finden	finden	VERB	VVFIN	_	8	H	8:H	_
+17	werde	werden	AUX	NN	_	16	F	16:F	_
+18	,	,	PUNCT	$,	_	16	U	16:U	_
+19	Sie	Sie|sie	PRON	PPER	_	21	A	21:A	_
+20	wieder	wieder	ADV	NN	_	21	D	21:D	_
+21	in	in	ADP	APPR	_	16	A	16:A	_
+22	Freiheit	Freiheit	PROPN	NE	_	21	Terminal	21:Terminal	_
+23	zu	zu	PART	VVINF	_	21	F	21:F	_
+24	setzen	setzen	VERB	VVINF	_	21	Terminal	21:Terminal	_
+25	.	.	PUNCT	$.	_	21	U	21:U	_
+26	«	«	PUNCT	$(	_	21	U	21:U	_
+

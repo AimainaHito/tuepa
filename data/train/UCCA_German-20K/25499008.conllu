@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25499008
+# text = » Also « , sagte ich , » sind diese Speisen alle Erzeugnisse des Meeres ? «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Also	also	PROPN	ADV	_	9	F	9:F	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	sind	sein	AUX	NE	_	5	A	5:A	_
+10	diese	dies	PRON	PDAT	_	11	E	11:E	_
+11	Speisen	Speise|Speisen	NOUN	NN	_	9	A	9:A	_
+12	alle	alle	PRON	PIAT	_	9	A	9:A	_
+13	Erzeugnisse	Erzeugnis	NOUN	NN	_	9	A	9:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Meeres	Meer	NOUN	NN	_	13	E	13:E	_
+16	?	?	PUNCT	$.	_	15	U	15:U	_
+17	«	«	PUNCT	$(	_	15	U	15:U	_
+

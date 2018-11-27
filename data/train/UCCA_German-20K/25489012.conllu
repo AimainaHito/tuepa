@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25489012
+# text = Ned Land , wütend über diese Begegnung , machte nun seiner Entrüstung Luft .
+1	Ned	Ned	PROPN	NN	_	9	A	9:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	$,	_	1	U	1:U	_
+4	wütend	wütend	ADJ	ADJD	_	1	E	1:E	_
+5	über	über	ADP	VVFIN	_	7	R	7:R	_
+6	diese	dies	PRON	PDS	_	7	E	7:E	_
+7	Begegnung	Begegnung	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	machte	machen	VERB	VVFIN	_	0	H	0:H	_
+10	nun	nun	ADV	ADV	_	9	D	9:D	_
+11	seiner	sein	DET	PPOSAT	_	12	R	12:R	_
+12	Entrüstung	Entrüstung	NOUN	NN	_	9	A	9:A	_
+13	Luft	Luft	NOUN	NN	_	9	Terminal	9:Terminal	_
+14	.	.	PUNCT	$.	_	9	U	9:U	_
+

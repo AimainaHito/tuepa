@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25691000
+# text = » Ich hab' auch nicht gesagt , wir würden nach Europa zurückfahren . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ich	ich	PRON	NN	_	6	A	6:A	_
+3	hab'	hab'	PUNCT	$(	_	6	F	6:F	_
+4	auch	auch	ADV	ADV	_	6	D	6:D	_
+5	nicht	nicht	PART	CARD	_	6	D	6:D	_
+6	gesagt	sagen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	wir	wir	PRON	NE	_	12	A	12:A	_
+9	würden	werden	AUX	NN	_	12	D	12:D	_
+10	nach	nach	ADP	CARD	_	11	R	11:R	_
+11	Europa	Europa	PROPN	NE	_	12	A	12:A	_
+12	zurückfahren	zurückfahren	VERB	VVINF	_	6	A	6:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+14	«	«	PUNCT	$(	_	12	U	12:U	_
+

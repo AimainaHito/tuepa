@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25591010
+# text = Über mir bemerkte ich die Oberfläche des Meeres ganz ruhig .
+1	Über	über	ADP	APPR	_	2	R	2:R	_
+2	mir	ich	PRON	PPER	_	3	A	3:A	_
+3	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Oberfläche	Oberfläche	NOUN	NN	_	10	A	10:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Meeres	Meer	NOUN	NN	_	6	E	6:E	_
+9	ganz	ganz	ADV	ADV	_	10	E	10:E	_
+10	ruhig	ruhig	ADJ	ADJD	_	3	A	3:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

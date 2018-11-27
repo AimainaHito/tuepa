@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 182002
+# text = After appearing in Broadway plays , Davis moved to Hollywood in 1930 , but her early films for Universal Studios ( and as loanout to other studios ) were unsuccessful .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	appearing	appear	VERB	VBG	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	Broadway	Broadway	PROPN	NNP	_	5	E	5:E	_
+5	plays	plays	PROPN	NNP	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	Davis	Davis	PROPN	NNP	_	8	A	8:A|2:A	_
+8	moved	move	VERB	VBD	_	2	H	2:H	_
+9	to	to	ADP	IN	_	10	R	10:R	_
+10	Hollywood	Hollywood	PROPN	NNP	_	8	A	8:A	_
+11	in	in	ADP	IN	_	12	R	12:R	_
+12	1930	1930	NUM	CD	_	8	D	8:D	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	but	but	CCONJ	CC	_	2	L	2:L	_
+15	her	she	PRON	PRP$	_	17	E	17:E	_
+16	early	early	ADJ	JJ	_	17	E	17:E	_
+17	films	film	NOUN	NNS	_	30	A	30:A	_
+18	for	for	ADP	IN	_	19	R	19:R	_
+19	Universal	universal	PROPN	NNP	_	17	E	17:E	_
+20	Studios	studios	PROPN	NNPS	_	19	Terminal	19:Terminal	_
+21	(	(	PUNCT	-LRB-	_	19	U	19:U	_
+22	and	and	CCONJ	CC	_	19	N	19:N	_
+23	as	as	ADP	IN	_	24	R	24:R	_
+24	loanout	loanout	NOUN	NN	_	19	C	19:C	_
+25	to	to	ADP	IN	_	27	R	27:R	_
+26	other	other	ADJ	JJ	_	27	E	27:E	_
+27	studios	studio	NOUN	NNS	_	24	E	24:E	_
+28	)	)	PUNCT	-RRB-	_	30	U	30:U	_
+29	were	be	AUX	VBD	_	30	F	30:F	_
+30	unsuccessful	unsuccessful	ADJ	JJ	_	2	H	2:H	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

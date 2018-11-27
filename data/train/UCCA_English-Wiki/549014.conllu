@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 549014
+# text = Jack 's older brother , Harry , reflected the Warner family feelings about the marriage when he exclaimed , " Thank God our mother did n't live to see this " . Warner married Ann after the divorce .
+1	Jack	Jack	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	older	older	ADJ	JJR	_	4	E	4:E	_
+4	brother	brother	NOUN	NN	_	6	E	6:E	_
+5	,	,	PUNCT	,	_	6	U	6:U	_
+6	Harry	Harry	PROPN	NNP	_	8	A	8:A	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	reflected	reflect	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	Warner	Warner	PROPN	NNP	_	11	E	11:E	_
+11	family	family	NOUN	NN	_	12	A	12:A	_
+12	feelings	feeling	NOUN	NNS	_	8	A	8:A	_
+13	about	about	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	marriage	marriage	NOUN	NN	_	12	A	12:A	_
+16	when	when	ADV	WRB	_	8	L	8:L	_
+17	he	he	PRON	PRP	_	18	A	18:A	_
+18	exclaimed	exclaim	VERB	VBD	_	8	H	8:H	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	"	"	PUNCT	``	_	18	U	18:U	_
+21	Thank	Thank	VERB	VBP	_	18	A	18:A	_
+22	God	God	PROPN	NNP	_	21	A	21:A	_
+23	our	we	PRON	PRP$	_	24	E	24:E	_
+24	mother	mother	NOUN	NN	_	29	A	29:A	_
+25	did	do	AUX	VBD	_	29	F	29:F	_
+26	n't	not	PART	RB	_	29	D	29:D	_
+27	live	live	VERB	VB	_	29	D	29:D	_
+28	to	to	PART	TO	_	29	F	29:F	_
+29	see	see	VERB	VB	_	21	H	21:H	_
+30	this	this	PRON	DT	_	29	A	29:A	_
+31	"	"	PUNCT	''	_	8	U	8:U	_
+32	.	.	PUNCT	.	_	8	U	8:U	_
+33	Warner	Warner	PROPN	NNP	_	34	A	34:A	_
+34	married	marry	VERB	VBD	_	8	H	8:H	_
+35	Ann	Ann	PROPN	NNP	_	34	A	34:A	_
+36	after	after	ADP	IN	_	8	L	8:L	_
+37	the	the	DET	DT	_	38	E	38:E	_
+38	divorce	divorce	NOUN	NN	_	8	H	8:H	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

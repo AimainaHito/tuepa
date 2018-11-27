@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25591013
+# text = Daher der ungeheure Widerschein , der alle Elementarteile durchdrang .
+1	Daher	daher	ADV	PAV	_	0	H	0:H	_
+2	der	der	DET	ART	_	4	E	4:E	_
+3	ungeheure	ungeheuer	ADJ	ADJA	_	4	E	4:E	_
+4	Widerschein	Widerschein	NOUN	NN	_	1	A	1:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	der	der	PRON	PRELS	_	9	R	9:R	_
+7	alle	alle	PRON	PIAT	_	8	E	8:E	_
+8	Elementarteile	Elementarteil	NOUN	NN	_	9	A	9:A	_
+9	durchdrang	durchdringen	VERB	VVFIN	_	4	E	4:E	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

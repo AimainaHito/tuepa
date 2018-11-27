@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25632000
+# text = » Wenn wir diesen Abend nicht auf die " Nautilus " zurückkönnen ? « fragte Conseil .
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	12	L	12:L	_
+3	wir	wir	PRON	NE	_	12	A	12:A	_
+4	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+5	Abend	Abend	NOUN	NN	_	12	D	12:D	_
+6	nicht	nicht	PART	XY	_	12	D	12:D	_
+7	auf	auf	ADP	APPR	_	10	R	10:R	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	"	"	PUNCT	$(	_	10	U	10:U	_
+10	Nautilus	Nautilus	PROPN	NE	_	12	A	12:A	_
+11	"	"	PUNCT	$(	_	12	U	12:U	_
+12	zurückkönnen	zurückkönnen	VERB	VVINF	_	15	A	15:A	_
+13	?	?	PUNCT	$.	_	15	U	15:U	_
+14	«	«	PUNCT	$(	_	15	U	15:U	_
+15	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+16	Conseil	Conseil	NOUN	NE	_	15	A	15:A	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

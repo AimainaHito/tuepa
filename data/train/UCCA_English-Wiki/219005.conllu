@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 219005
+# text = The film received positive reviews and Dunst was singled out for praise .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	positive	positive	ADJ	JJ	_	5	E	5:E	_
+5	reviews	review	NOUN	NNS	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	3	L	3:L	_
+7	Dunst	Dunst	PROPN	NNP	_	9	A	9:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	singled	single	VERB	VBN	_	3	H	3:H	_
+10	out	out	ADP	RP	_	9	Terminal	9:Terminal	_
+11	for	for	ADP	IN	_	12	R	12:R	_
+12	praise	praise	NOUN	NN	_	9	A	9:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

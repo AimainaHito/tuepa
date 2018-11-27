@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25584004
+# text = » Wenn Kapitän Nemo sich irgendwo an Land begibt « , sagte ich zu ihnen , » so wählt er wenigstens gänzlich verlassene Inseln . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	5	L	5:L	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	5	A	5:A	_
+5	sich	er|es|sie	PRON	PRF	_	12	A	12:A	_
+6	irgendwo	irgendwo	ADV	ADV	_	5	A	5:A	_
+7	an	an	ADP	APPR	_	8	R	8:R	_
+8	Land	Land	NOUN	NN	_	5	A	5:A	_
+9	begibt	begeben	VERB	VVFIN	_	5	Terminal	5:Terminal	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	zu	zu	ADP	VVINF	_	15	R	15:R	_
+15	ihnen	sie	PRON	PPER	_	12	A	12:A	_
+16	,	,	PUNCT	$,	_	12	U	12:U	_
+17	»	»	PUNCT	$(	_	12	U	12:U	_
+18	so	so	ADV	ADV	_	5	L	5:L	_
+19	wählt	wählen	VERB	VVFIN	_	5	H	5:H	_
+20	er	er	PRON	PPER	_	19	A	19:A	_
+21	wenigstens	wenigstens	ADV	ADV	_	19	G	19:G	_
+22	gänzlich	gänzlich	ADJ	ADJD	_	23	E	23:E	_
+23	verlassene	verlassen	ADJ	ADJA	_	24	E	24:E	_
+24	Inseln	Insel	NOUN	NN	_	19	A	19:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

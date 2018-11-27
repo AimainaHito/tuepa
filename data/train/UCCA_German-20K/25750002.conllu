@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25750002
+# text = Diese Familie zählt zehn Gattungen ; die ich bemerkte , waren 3 Meter lang , oben schwarz , unten rosaweiß mit einzelnen Flecken , und hatten eine sehr schmale Schnauze , die viermal so lang war als der Schädel .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Familie	Familie	NOUN	NN	_	3	A	3:A	_
+3	zählt	zählen	VERB	VVFIN	_	0	H	0:H	_
+4	zehn	zehn	NUM	VVFIN	_	5	E	5:E	_
+5	Gattungen	Gattung	NOUN	NN	_	0	C	0:C|26:A|9:A|20:A|17:A	_
+6	;	;	PUNCT	$.	_	9	U	9:U	_
+7	die	der	PRON	PRELS	_	9	R	9:R	_
+8	ich	ich	PRON	PPER	_	9	A	9:A	_
+9	bemerkte	bemerken	VERB	VVFIN	_	14	A	14:A	_
+10	,	,	PUNCT	$,	_	14	U	14:U	_
+11	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+12	3	3	NUM	CARD	_	13	E	13:E	_
+13	Meter	Meter	NOUN	NN	_	14	A	14:A	_
+14	lang	lang	ADJ	ADJD	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	oben	oben	ADV	NN	_	17	D	17:D	_
+17	schwarz	schwarz	ADJ	ADJD	_	3	H	3:H	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	unten	unten	ADV	ADJA	_	20	D	20:D	_
+20	rosaweiß	reosaweißen	VERB	ADJD	_	3	H	3:H	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	einzelnen	einzeln	ADJ	ADJA	_	23	E	23:E	_
+23	Flecken	Flecken	NOUN	NN	_	20	A	20:A	_
+24	,	,	PUNCT	$,	_	3	U	3:U	_
+25	und	und	CCONJ	NE	_	3	L	3:L	_
+26	hatten	haben	VERB	VAFIN	_	3	H	3:H	_
+27	eine	ein	DET	ART	_	30	E	30:E	_
+28	sehr	sehr	ADV	NE	_	29	E	29:E	_
+29	schmale	schmal	ADJ	ADJA	_	30	E	30:E	_
+30	Schnauze	Schnauz	NOUN	NN	_	26	A	26:A	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	die	der	PRON	PRELS	_	35	R	35:R	_
+33	viermal	viermal	ADV	ADV	_	35	D	35:D	_
+34	so	so	ADV	ADV	_	35	R	35:R	_
+35	lang	lang	ADJ	ADJD	_	30	E	30:E	_
+36	war	sein	AUX	ADV	_	35	D	35:D	_
+37	als	als	ADP	KOKOM	_	39	R	39:R	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Schädel	Schädel	NOUN	NN	_	30	E	30:E	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

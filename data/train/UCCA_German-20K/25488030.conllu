@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25488030
+# text = « » Dann sind wir verloren !
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Dann	dann	ADV	NE	_	6	L	6:L	_
+4	sind	sein	AUX	NN	_	6	F	6:F	_
+5	wir	wir	PRON	NE	_	6	A	6:A	_
+6	verloren	verlieren	VERB	VVPP	_	0	H	0:H	_
+7	!	!	PUNCT	$.	_	6	U	6:U	_
+

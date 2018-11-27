@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 444005
+# text = Aussi les plaisants prétendaient - ils que cette fine mouche avait arrêté au passage quelque télégramme dont elle faisait maintenant son profit .
+1	Aussi	aussi	ADV	_	_	4	L	4:L	_
+2	les	le	DET	_	_	3	E	3:E	_
+3	plaisants	plaisant	NOUN	_	_	4	A	4:A	_
+4	prétendaient	prétendaenir	VERB	_	_	0	H	0:H	_
+5	-	-	PUNCT	_	_	4	U	4:U	_
+6	ils	il	PRON	_	_	4	F	4:F	_
+7	que	que	SCONJ	_	_	12	R	12:R	_
+8	cette	ce	DET	_	_	10	E	10:E	_
+9	fine	fin	NOUN	_	_	10	E	10:E	_
+10	mouche	mouche	ADJ	_	_	12	A	12:A	_
+11	avait	avoir	AUX	_	_	12	F	12:F	_
+12	arrêté	arrêter	VERB	_	_	4	A	4:A	_
+13	au	au	VERB	_	_	14	R	14:R	_
+14	passage	passage	NOUN	_	_	16	E	16:E	_
+15	quelque	quelque	DET	_	_	16	E	16:E	_
+16	télégramme	télégramme	NOUN	_	_	0	C	0:C|14:A|22:A	_
+17	dont	dont	PRON	_	_	12	L	12:L	_
+18	elle	elle	PRON	_	_	22	A	22:A	_
+19	faisait	faire	VERB	_	_	22	F	22:F	_
+20	maintenant	maintenant	ADV	_	_	22	D	22:D	_
+21	son	son	DET	_	_	22	E	22:E	_
+22	profit	profit	NOUN	_	_	12	H	12:H	_
+23	.	.	PUNCT	_	_	22	U	22:U	_
+

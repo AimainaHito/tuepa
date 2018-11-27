@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25765014
+# text = » Mein Herr hat recht « , sagte Conseil . » Die Bergwände sind nur da , um die Gelehrten zu höhnen . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	5	A	5:A	_
+4	hat	haben	VERB	VAFIN	_	5	F	5:F	_
+5	recht	recht	ADV	NE	_	8	A	8:A	_
+6	«	«	PUNCT	$.	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	ADJ	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	NOUN	NE	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	Die	der	DET	ART	_	13	E	13:E	_
+13	Bergwände	Bergwand	NOUN	NN	_	16	A	16:A	_
+14	sind	sein	AUX	NE	_	16	F	16:F	_
+15	nur	nur	ADV	NE	_	16	D	16:D	_
+16	da	da	ADV	PTKVZ	_	5	H	5:H	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	um	um	ADP	KOUI	_	5	L	5:L	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Gelehrten	Gelehrte	NOUN	NN	_	22	A	22:A	_
+21	zu	zu	ADP	VVINF	_	22	F	22:F	_
+22	höhnen	höhne	NOUN	VVINF	_	5	H	5:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

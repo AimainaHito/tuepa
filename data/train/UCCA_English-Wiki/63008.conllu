@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 63008
+# text = His portrayal of the character has been described as a career - making performance , proving that Pitt could be more than a " cowboy - hatted hunk .
+1	His	he	PRON	PRP$	_	2	A	2:A	_
+2	portrayal	portrayal	NOUN	NN	_	8	A	8:A|16:A	_
+3	of	of	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	character	character	NOUN	NN	_	2	A	2:A	_
+6	has	have	AUX	VBZ	_	8	F	8:F	_
+7	been	be	AUX	VBN	_	8	F	8:F	_
+8	described	describe	VERB	VBN	_	0	H	0:H	_
+9	as	as	ADP	IN	_	14	R	14:R	_
+10	a	a	DET	DT	_	14	E	14:E	_
+11	career	career	NOUN	NN	_	14	E	14:E	_
+12	-	-	PUNCT	HYPH	_	11	U	11:U	_
+13	making	making	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	performance	performance	NOUN	NN	_	8	A	8:A	_
+15	,	,	PUNCT	,	_	8	U	8:U	_
+16	proving	prove	VERB	VBG	_	8	H	8:H	_
+17	that	that	SCONJ	IN	_	21	R	21:R	_
+18	Pitt	Pitt	PROPN	NNP	_	21	A	21:A	_
+19	could	could	AUX	MD	_	21	D	21:D	_
+20	be	be	AUX	VB	_	21	F	21:F	_
+21	more	more	ADJ	JJR	_	16	A	16:A	_
+22	than	than	ADP	IN	_	28	R	28:R	_
+23	a	a	DET	DT	_	28	E	28:E	_
+24	"	"	PUNCT	``	_	28	U	28:U	_
+25	cowboy	cowboy	NOUN	NN	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	hatted	hat	VERB	VBN	_	28	E	28:E	_
+28	hunk	hunk	NOUN	NN	_	21	A	21:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

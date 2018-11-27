@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 232000
+# text = Jackie Chan had vocal lessons whilst at the Peking Opera School in his childhood .
+1	Jackie	Jackie	PROPN	NNP	_	3	A	3:A|11:A	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	had	have	VERB	VBD	_	0	H	0:H	_
+4	vocal	vocal	ADJ	JJ	_	5	E	5:E	_
+5	lessons	lesson	NOUN	NNS	_	3	A	3:A	_
+6	whilst	whilst	SCONJ	IN	_	3	L	3:L	_
+7	at	at	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	Peking	Peking	PROPN	NNP	_	11	E	11:E	_
+10	Opera	Opera	PROPN	NNP	_	11	E	11:E	_
+11	School	School	PROPN	NNP	_	3	H	3:H	_
+12	in	in	ADP	IN	_	14	R	14:R	_
+13	his	he	PRON	PRP$	_	14	E	14:E	_
+14	childhood	childhood	NOUN	NN	_	11	D	11:D	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

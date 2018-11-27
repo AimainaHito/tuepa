@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25795008
+# text = Einige Mann röchelten .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	3	A	3:A	_
+3	röchelten	röchelten	VERB	VVFIN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

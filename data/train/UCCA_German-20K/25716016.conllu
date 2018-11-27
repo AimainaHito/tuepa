@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25716016
+# text = Das Mittelmeer in 24 Stunden
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Mittelmeer	Mittelmeer	PROPN	NN	_	0	H	0:H	_
+3	in	in	ADP	APPR	_	5	R	5:R	_
+4	24	24	NUM	CARD	_	5	E	5:E	_
+5	Stunden	Stunde|Stunden	NOUN	NN	_	2	D	2:D	_
+

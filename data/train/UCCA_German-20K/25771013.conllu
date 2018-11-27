@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25771013
+# text = Es war verhältnismäßig gleichsam Frühling hinter dieser Eisdecke , deren ferne Massen am nördlichen Horizont sich abzeichneten .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	verhältnismäßig	verhältnismäßig	ADJ	ADJD	_	4	E	4:E	_
+4	gleichsam	gleichsam	ADJ	ADJD	_	2	D	2:D	_
+5	Frühling	Frühling	NOUN	NN	_	2	A	2:A	_
+6	hinter	hinter	ADP	APPR	_	8	R	8:R	_
+7	dieser	dies	PRON	PDAT	_	8	E	8:E	_
+8	Eisdecke	Eisdecke	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	deren	der	DET	PRELAT	_	16	R	16:R	_
+11	ferne	fern	ADJ	ADV	_	12	E	12:E	_
+12	Massen	Masse	NOUN	NN	_	16	A	16:A	_
+13	am	am	ADJ	ADJD	_	15	R	15:R	_
+14	nördlichen	nördlich	ADJ	ADJA	_	15	E	15:E	_
+15	Horizont	Horizont	NOUN	NN	_	16	A	16:A	_
+16	sich	er|es|sie	PRON	PRF	_	8	E	8:E	_
+17	abzeichneten	abzeichnen	VERB	VVINF	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

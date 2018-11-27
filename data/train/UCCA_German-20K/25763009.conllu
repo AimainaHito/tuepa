@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25763009
+# text = Am 16 . März , um 8 Uhr früh , durchschnitt die ›Nautilus‹ längs dem 55 . Meridian den südlichen Polarkreis .
+1	Am	am	PROPN	NN	_	4	R	4:R	_
+2	16	16	PROPN	CARD	_	4	E	4:E	_
+3	.	.	PUNCT	$.	_	4	U	4:U	_
+4	März	März	PROPN	NN	_	11	D	11:D	_
+5	,	,	PUNCT	$,	_	11	U	11:U	_
+6	um	um	ADP	APPR	_	9	R	9:R	_
+7	8	8	NUM	CARD	_	8	E	8:E	_
+8	Uhr	Uhr	NOUN	NN	_	9	E	9:E	_
+9	früh	früh	ADJ	ADJD	_	11	D	11:D	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	durchschnitt	durchschneten	VERB	VVFIN	_	0	H	0:H	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	›Nautilus‹	›Nautilus‹	NOUN	NE	_	11	A	11:A	_
+14	längs	längs	ADP	ADV	_	18	R	18:R	_
+15	dem	der	DET	ART	_	18	E	18:E	_
+16	55	55	NUM	CARD	_	18	E	18:E	_
+17	.	.	PUNCT	$.	_	18	U	18:U	_
+18	Meridian	Meridian	PROPN	NE	_	11	A	11:A	_
+19	den	der	DET	ART	_	21	E	21:E	_
+20	südlichen	südlich	ADJ	ADJA	_	21	E	21:E	_
+21	Polarkreis	Polarkreis	NOUN	NN	_	11	A	11:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

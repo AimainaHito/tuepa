@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25490037
+# text = « » Vollständig , Meister Ned , es war sein Atmen !
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	»	»	PUNCT	$(	_	9	U	9:U	_
+3	Vollständig	vollständig	ADJ	ADJD	_	9	G	9:G	_
+4	,	,	PUNCT	$,	_	9	U	9:U	_
+5	Meister	Meister	NOUN	NN	_	6	E	6:E	_
+6	Ned	Ned	PROPN	NE	_	9	G	9:G	_
+7	,	,	PUNCT	$,	_	9	U	9:U	_
+8	es	es	PRON	PPER	_	9	A	9:A	_
+9	war	sein	AUX	ADV	_	0	H	0:H	_
+10	sein	sein	DET	PPOSAT	_	11	E	11:E	_
+11	Atmen	Atmen	NOUN	NN	_	9	A	9:A	_
+12	!	!	PUNCT	$.	_	11	U	11:U	_
+

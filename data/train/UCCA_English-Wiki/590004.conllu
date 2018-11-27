@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 590004
+# text = This part gave him a " chance to stretch out and have some fun " ; he said working with Landau " rejuvenated my love for acting " .
+1	This	this	DET	DT	_	2	E	2:E	_
+2	part	part	NOUN	NN	_	3	A	3:A	_
+3	gave	give	VERB	VBD	_	0	H	0:H	_
+4	him	he	PRON	PRP	_	3	A	3:A|9:A	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	"	"	PUNCT	``	_	7	U	7:U	_
+7	chance	chance	NOUN	NN	_	3	A	3:A	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	stretch	stretch	VERB	VB	_	7	E	7:E	_
+10	out	out	ADP	RP	_	9	E	9:E	_
+11	and	and	CCONJ	CC	_	9	N	9:N	_
+12	have	have	VERB	VB	_	9	F	9:F	_
+13	some	some	DET	DT	_	14	E	14:E	_
+14	fun	fun	NOUN	NN	_	9	C	9:C	_
+15	"	"	PUNCT	''	_	3	U	3:U	_
+16	;	;	PUNCT	,	_	3	U	3:U	_
+17	he	he	PRON	PRP	_	18	A	18:A|19:A	_
+18	said	say	VERB	VBD	_	3	H	3:H	_
+19	working	work	VERB	VBG	_	23	A	23:A	_
+20	with	with	ADP	IN	_	21	R	21:R	_
+21	Landau	Landau	PROPN	NNP	_	19	A	19:A	_
+22	"	"	PUNCT	''	_	23	U	23:U	_
+23	rejuvenated	rejuvenate	VERB	VBD	_	18	A	18:A	_
+24	my	my	PRON	PRP$	_	25	A	25:A	_
+25	love	love	NOUN	NN	_	23	A	23:A	_
+26	for	for	SCONJ	IN	_	27	R	27:R	_
+27	acting	act	VERB	VBG	_	25	A	25:A	_
+28	"	"	PUNCT	''	_	27	U	27:U	_
+29	.	.	PUNCT	.	_	27	U	27:U	_
+

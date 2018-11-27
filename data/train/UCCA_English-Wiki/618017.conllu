@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 618017
+# text = Since 1979 , MPL Communications has published McCartney 's songs .
+1	Since	since	ADP	IN	_	2	R	2:R	_
+2	1979	1979	NUM	CD	_	7	D	7:D	_
+3	,	,	PUNCT	,	_	7	U	7:U	_
+4	MPL	MPL	PROPN	NNP	_	7	A	7:A	_
+5	Communications	communications	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	has	have	AUX	VBZ	_	7	F	7:F	_
+7	published	publish	VERB	VBN	_	0	H	0:H	_
+8	McCartney	McCartney	PROPN	NNP	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	songs	song	NOUN	NNS	_	7	A	7:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25790009
+# text = » 5 Nächte und 4 Tage ! « sagte ich zu meinen Gefährten , und wir haben nur noch für 2 Tage Luft in den Behältern . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	5	5	NUM	CARD	_	3	E	3:E	_
+3	Nächte	Nacht	NOUN	NN	_	9	A	9:A	_
+4	und	und	CCONJ	NE	_	3	N	3:N	_
+5	4	4	NUM	CARD	_	6	E	6:E	_
+6	Tage	Tag	NOUN	NN	_	3	C	3:C	_
+7	!	!	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	zu	zu	ADP	VVINF	_	13	R	13:R	_
+12	meinen	mein	PRON	PPOSAT	_	13	E	13:E	_
+13	Gefährten	Gefährt|Gefährte	NOUN	NE	_	9	A	9:A	_
+14	,	,	PUNCT	$,	_	9	U	9:U	_
+15	und	und	CCONJ	NE	_	3	L	3:L	_
+16	wir	wir	PRON	NE	_	17	A	17:A	_
+17	haben	haben	AUX	VAFIN	_	3	H	3:H	_
+18	nur	nur	ADV	NE	_	17	D	17:D	_
+19	noch	noch	ADV	CARD	_	17	D	17:D	_
+20	für	für	ADP	APPR	_	21	R	21:R	_
+21	2	2	NUM	CARD	_	17	D	17:D	_
+22	Tage	Tag	NOUN	NN	_	21	Terminal	21:Terminal	_
+23	Luft	Luft	NOUN	NN	_	17	A	17:A	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	den	der	DET	ART	_	26	E	26:E	_
+26	Behältern	Behälter	NOUN	NN	_	17	A	17:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

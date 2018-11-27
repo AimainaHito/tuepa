@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 490006
+# text = The film would become another success for Bana as the film opened at No . 2 in the US boxoffice .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	4	A	4:A	_
+3	would	would	AUX	MD	_	4	F	4:F	_
+4	become	become	VERB	VB	_	0	H	0:H	_
+5	another	another	DET	DT	_	6	D	6:D	_
+6	success	success	NOUN	NN	_	4	A	4:A	_
+7	for	for	ADP	IN	_	8	R	8:R	_
+8	Bana	Bana	PROPN	NNP	_	6	A	6:A	_
+9	as	as	ADP	IN	_	4	L	4:L	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	12	A	12:A	_
+12	opened	open	VERB	VBD	_	4	H	4:H	_
+13	at	at	ADP	IN	_	16	R	16:R	_
+14	No	no	PROPN	NNP	_	16	E	16:E	_
+15	.	.	PUNCT	.	_	16	U	16:U	_
+16	2	2	NUM	CD	_	12	A	12:A	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	US	US	PROPN	NNP	_	20	E	20:E	_
+20	boxoffice	boxoffice	NOUN	NN	_	12	A	12:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

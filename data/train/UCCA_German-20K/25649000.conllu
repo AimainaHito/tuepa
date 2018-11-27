@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25649000
+# text = Ich dachte nun mein Zimmer zu verlassen .
+1	Ich	ich	PRON	PPER	_	7	A	7:A	_
+2	dachte	denken	VERB	VVFIN	_	7	D	7:D	_
+3	nun	nun	ADV	ADV	_	7	D	7:D	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Zimmer	Zimmer	NOUN	NN	_	7	A	7:A	_
+6	zu	zu	PART	ADJA	_	7	F	7:F	_
+7	verlassen	verlassen	VERB	NN	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

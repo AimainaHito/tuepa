@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25701012
+# text = Was war es ?
+1	Was	was	PRON	NE	_	2	A	2:A	_
+2	war	sein	VERB	ADV	_	0	H	0:H	_
+3	es	es	PRON	PPER	_	2	A	2:A	_
+4	?	?	PUNCT	$.	_	2	U	2:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 228008
+# text = He is the lone survivor of his army and must bring a captured enemy soldier Leehom Wang to the capital of his province .
+1	He	he	PRON	PRP	_	2	A	2:A|11:A	_
+2	is	be	AUX	VBZ	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	lone	lone	ADJ	JJ	_	5	E	5:E	_
+5	survivor	survivor	NOUN	NN	_	2	A	2:A	_
+6	of	of	ADP	IN	_	8	R	8:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	army	army	NOUN	NN	_	5	E	5:E	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	must	must	AUX	MD	_	11	D	11:D	_
+11	bring	bring	VERB	VB	_	2	H	2:H	_
+12	a	a	DET	DT	_	16	E	16:E	_
+13	captured	capture	VERB	VBN	_	16	E	16:E	_
+14	enemy	enemy	NOUN	NN	_	15	E	15:E	_
+15	soldier	soldier	NOUN	NN	_	16	E	16:E	_
+16	Leehom	Leehom	PROPN	NNP	_	11	A	11:A	_
+17	Wang	wang	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	to	to	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	capital	capital	NOUN	NN	_	11	A	11:A	_
+21	of	of	ADP	IN	_	23	R	23:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	province	province	NOUN	NN	_	20	E	20:E	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

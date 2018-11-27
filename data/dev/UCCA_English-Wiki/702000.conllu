@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 702000
+# text = In 1972 , Dylan signed onto Sam Peckinpah 's film Pat Garrett and Billy the Kid , providing songs and backing music for the movie , and playing the role of " Alias " , a member of Billy 's gang with some historical basis .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1972	1972	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Dylan	Dylan	PROPN	NNP	_	5	A	5:A|18:A|28:A	_
+5	signed	sign	VERB	VBD	_	0	H	0:H	_
+6	onto	onto	ADP	IN	_	10	R	10:R	_
+7	Sam	Sam	PROPN	NNP	_	10	E	10:E	_
+8	Peckinpah	Peckinpah	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	10	R	10:R	_
+10	film	film	NOUN	NN	_	5	A	5:A	_
+11	Pat	Pat	PROPN	NNP	_	10	E	10:E	_
+12	Garrett	Garrett	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	11	Terminal	11:Terminal	_
+14	Billy	Billy	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	the	the	DET	DT	_	11	Terminal	11:Terminal	_
+16	Kid	kid	NOUN	NN	_	11	Terminal	11:Terminal	_
+17	,	,	PUNCT	,	_	5	U	5:U	_
+18	providing	provide	VERB	VBG	_	5	H	5:H	_
+19	songs	song	NOUN	NNS	_	18	A	18:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	backing	back	VERB	VBG	_	22	E	22:E	_
+22	music	music	NOUN	NN	_	19	C	19:C	_
+23	for	for	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	movie	movie	NOUN	NN	_	18	A	18:A	_
+26	,	,	PUNCT	,	_	5	U	5:U	_
+27	and	and	CCONJ	CC	_	5	L	5:L	_
+28	playing	play	VERB	VBG	_	5	H	5:H	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	role	role	NOUN	NN	_	28	A	28:A	_
+31	of	of	ADP	IN	_	33	R	33:R	_
+32	"	"	PUNCT	``	_	33	U	33:U	_
+33	Alias	alias	PROPN	NNP	_	30	E	30:E	_
+34	"	"	PUNCT	''	_	33	U	33:U	_
+35	,	,	PUNCT	,	_	33	U	33:U	_
+36	a	a	DET	DT	_	37	E	37:E	_
+37	member	member	NOUN	NN	_	33	E	33:E	_
+38	of	of	ADP	IN	_	41	R	41:R	_
+39	Billy	Billy	PROPN	NNP	_	41	E	41:E	_
+40	's	's	PART	POS	_	39	R	39:R	_
+41	gang	gang	NOUN	NN	_	37	E	37:E	_
+42	with	with	ADP	IN	_	45	R	45:R	_
+43	some	some	DET	DT	_	45	E	45:E	_
+44	historical	historical	ADJ	JJ	_	45	E	45:E	_
+45	basis	basis	NOUN	NN	_	37	E	37:E	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

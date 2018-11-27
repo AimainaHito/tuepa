@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 457010
+# text = Jennings pleased some conservatives though , after his three - year lobbying effort to create a full - time religion correspondent at ABC News succeeded in the hiring of Peggy Wehmeyer in January 1994 , making her the first such network reporter .
+1	Jennings	Jenning	NOUN	NNS	_	2	A	2:A	_
+2	pleased	please	VERB	VBD	_	0	H	0:H	_
+3	some	some	DET	DT	_	4	E	4:E	_
+4	conservatives	conservative	NOUN	NNS	_	2	A	2:A	_
+5	though	though	ADV	RB	_	2	L	2:L	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	after	after	ADP	IN	_	2	L	2:L	_
+8	his	he	PRON	PRP$	_	13	E	13:E	_
+9	three	three	NUM	CD	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	year	year	NOUN	NN	_	13	E	13:E	_
+12	lobbying	lobby	NOUN	NN	_	13	E	13:E	_
+13	effort	effort	NOUN	NN	_	15	A	15:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	create	create	VERB	VB	_	25	A	25:A	_
+16	a	a	DET	DT	_	21	E	21:E	_
+17	full	full	ADJ	JJ	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	time	time	NOUN	NN	_	21	E	21:E	_
+20	religion	religion	NOUN	NN	_	21	E	21:E	_
+21	correspondent	correspondent	NOUN	NN	_	15	A	15:A	_
+22	at	at	ADP	IN	_	24	R	24:R	_
+23	ABC	ABC	PROPN	NNP	_	24	E	24:E	_
+24	News	News	PROPN	NNP	_	21	E	21:E	_
+25	succeeded	succeed	VERB	VBD	_	2	H	2:H	_
+26	in	in	ADP	IN	_	2	L	2:L	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	hiring	hiring	NOUN	NN	_	2	H	2:H	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	Peggy	Peggy	PROPN	NNP	_	28	A	28:A	_
+31	Wehmeyer	Wehmeyer	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	January	January	PROPN	NNP	_	28	D	28:D	_
+34	1994	1994	NUM	CD	_	33	Terminal	33:Terminal	_
+35	,	,	PUNCT	,	_	2	U	2:U	_
+36	making	make	VERB	VBG	_	2	H	2:H	_
+37	her	she	PRON	PRP$	_	36	A	36:A	_
+38	the	the	DET	DT	_	42	E	42:E	_
+39	first	first	ADV	RBS	_	42	E	42:E	_
+40	such	such	ADJ	JJ	_	39	R	39:R	_
+41	network	network	NOUN	NN	_	42	E	42:E	_
+42	reporter	reporter	NOUN	NN	_	36	A	36:A	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

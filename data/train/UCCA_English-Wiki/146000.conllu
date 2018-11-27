@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 146000
+# text = Hepburn 's relentless energy and enthusiasm for life is often cited in biographies , while a headstrong independence became key to her celebrity status .
+1	Hepburn	Hepburn	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	relentless	relentless	ADJ	JJ	_	4	E	4:E	_
+4	energy	energy	NOUN	NN	_	11	A	11:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	enthusiasm	enthusiasm	NOUN	NN	_	4	C	4:C	_
+7	for	for	ADP	IN	_	8	R	8:R	_
+8	life	life	NOUN	NN	_	6	E	6:E	_
+9	is	be	AUX	VBZ	_	11	F	11:F	_
+10	often	often	ADV	RB	_	11	D	11:D	_
+11	cited	cit	VERB	VBN	_	0	H	0:H	_
+12	in	in	ADP	IN	_	13	E	13:E	_
+13	biographies	biography	NOUN	NNS	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	11	U	11:U	_
+15	while	while	SCONJ	IN	_	11	L	11:L	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	headstrong	headstrong	ADJ	JJ	_	18	E	18:E	_
+18	independence	independence	NOUN	NN	_	20	A	20:A	_
+19	became	become	VERB	VBD	_	20	F	20:F	_
+20	key	key	ADJ	JJ	_	11	H	11:H	_
+21	to	to	ADP	IN	_	24	R	24:R	_
+22	her	she	PRON	PRP$	_	24	E	24:E	_
+23	celebrity	celebrity	NOUN	NN	_	24	E	24:E	_
+24	status	status	NOUN	NN	_	20	A	20:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

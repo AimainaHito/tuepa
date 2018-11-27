@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25686004
+# text = Conseil kam zu mir und grüßte mich freundlich , indem er sein dickes Kopf gehäuse an das meinige hielt .
+1	Conseil	Conseil	PROPN	NE	_	2	A	2:A|6:A	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	zu	zu	ADP	VVINF	_	4	R	4:R	_
+4	mir	ich	PRON	PPER	_	2	A	2:A	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	grüßte	grüßen	VERB	VVFIN	_	2	H	2:H	_
+7	mich	ich	PRON	PPER	_	6	A	6:A	_
+8	freundlich	freundlich	ADJ	ADJD	_	6	D	6:D	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	indem	indem	SCONJ	KOUS	_	2	L	2:L	_
+11	er	er	PRON	PPER	_	19	A	19:A	_
+12	sein	sein	DET	PPOSAT	_	15	E	15:E	_
+13	dickes	dick	ADJ	ADJA	_	15	E	15:E	_
+14	Kopf	Kopf	NOUN	NN	_	15	E	15:E	_
+15	gehäuse	gehäusen	VERB	NN	_	19	A	19:A	_
+16	an	an	ADP	APPR	_	18	R	18:R	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	meinige	meinig	PRON	PIAT	_	19	A	19:A	_
+19	hielt	halten	VERB	VVFIN	_	2	H	2:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

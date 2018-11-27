@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25752007
+# text = Das Instrument zeigte eine Tiefe von 6.000 Meter .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Instrument	Instrument	NOUN	NN	_	3	A	3:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	eine	ein	DET	ART	_	5	E	5:E	_
+5	Tiefe	tief	NOUN	NN	_	3	A	3:A	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	6.000	6.0	NUM	CARD	_	8	E	8:E	_
+8	Meter	Meter	NOUN	NN	_	5	E	5:E	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

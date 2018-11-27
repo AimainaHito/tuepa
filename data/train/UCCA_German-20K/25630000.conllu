@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25630000
+# text = Dieser Vogel gehört zu den schönsten der acht Arten , die man auf Papuasien und den benachbarten Inseln zählt .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Vogel	Vogel	NOUN	NN	_	3	A	3:A	_
+3	gehört	gehören	VERB	VVFIN	_	0	H	0:H	_
+4	zu	zu	ADP	NE	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	schönsten	schönst	NOUN	NN	_	3	A	3:A	_
+7	der	der	DET	ART	_	9	R	9:R	_
+8	acht	acht	NUM	CARD	_	9	E	9:E	_
+9	Arten	Art	NOUN	NN	_	6	E	6:E	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	die	der	PRON	PRELS	_	19	R	19:R	_
+12	man	man	PRON	PIS	_	19	A	19:A	_
+13	auf	auf	ADP	APPR	_	14	R	14:R	_
+14	Papuasien	Symposion|Papuasium	NOUN	NE	_	19	A	19:A	_
+15	und	und	CCONJ	NE	_	14	N	14:N	_
+16	den	der	DET	ART	_	18	E	18:E	_
+17	benachbarten	benachbart	ADJ	ADJA	_	18	E	18:E	_
+18	Inseln	Insel	NOUN	NN	_	14	C	14:C	_
+19	zählt	zählen	VERB	VVFIN	_	9	E	9:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

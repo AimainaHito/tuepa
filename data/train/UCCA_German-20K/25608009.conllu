@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25608009
+# text = Dieser Archipel , der aus einer Anzahl Inseln , Eilande und Klippen besteht , worunter Viti-Levou und Vanoua-Levou bemerkenswert , liegt zwischen 6 ° und 20 ° südlicher Breite und 174 ° bis 179 ° westlicher Länge .
+1	Dieser	dies	PRON	PDAT	_	2	E	2:E	_
+2	Archipel	Archipel	NOUN	NN	_	21	A	21:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	der	der	PRON	PRELS	_	13	R	13:R	_
+5	aus	aus	ADP	APPR	_	8	R	8:R	_
+6	einer	ein	DET	ART	_	7	E	7:E	_
+7	Anzahl	Anzahl	NOUN	NN	_	8	E	8:E	_
+8	Inseln	Insel	NOUN	NN	_	13	A	13:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	Eilande	Eilande	NOUN	NE	_	8	C	8:C	_
+11	und	und	CCONJ	NE	_	8	N	8:N	_
+12	Klippen	Klippe	NOUN	NN	_	8	C	8:C	_
+13	besteht	bestehen	VERB	VVFIN	_	2	E	2:E	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	worunter	worunter	ADV	ADJA	_	19	R	19:R	_
+16	Viti-Levou	Viti-Levou	PROPN	NE	_	19	A	19:A	_
+17	und	und	CCONJ	NE	_	16	N	16:N	_
+18	Vanoua-Levou	Vanoua-Levou	PROPN	NE	_	16	C	16:C	_
+19	bemerkenswert	bemerkenswert	ADJ	ADJD	_	8	E	8:E	_
+20	,	,	PUNCT	$,	_	21	U	21:U	_
+21	liegt	liegen	VERB	VVFIN	_	0	H	0:H	_
+22	zwischen	zwischen	ADP	ADJA	_	28	N	28:N	_
+23	6	6	NUM	CARD	_	28	E	28:E	_
+24	°	°	NOUN	NN	_	23	U	23:U	_
+25	und	und	CCONJ	NN	_	23	N	23:N	_
+26	20	20	NUM	CARD	_	23	C	23:C	_
+27	°	°	NOUN	NN	_	28	U	28:U	_
+28	südlicher	südlich	ADJ	ADJA	_	21	A	21:A	_
+29	Breite	Breite	NOUN	NN	_	28	Terminal	28:Terminal	_
+30	und	und	CCONJ	NE	_	22	Terminal	22:Terminal	_
+31	174	174	NUM	CARD	_	36	E	36:E	_
+32	°	°	NOUN	NN	_	31	U	31:U	_
+33	bis	bis	ADP	APPR	_	31	N	31:N	_
+34	179	179	NUM	CARD	_	31	C	31:C	_
+35	°	°	NOUN	ADJD	_	36	U	36:U	_
+36	westlicher	westlich	ADJ	ADJA	_	28	C	28:C	_
+37	Länge	Länge	NOUN	NN	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	$.	_	36	U	36:U	_
+

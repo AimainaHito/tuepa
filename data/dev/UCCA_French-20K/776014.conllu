@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 776014
+# text = - Le crochet qui plaira à monsieur .
+1	-	-	PUNCT	_	_	3	U	3:U	_
+2	Le	le	DET	_	_	3	E	3:E	_
+3	crochet	crochet	NOUN	_	_	0	H	0:H	_
+4	qui	qui	PRON	_	_	5	R	5:R	_
+5	plaira	plaire	VERB	_	_	3	E	3:E	_
+6	à	à	ADP	_	_	7	R	7:R	_
+7	monsieur	Monsieur	NOUN	_	_	5	A	5:A	_
+8	.	.	PUNCT	_	_	7	U	7:U	_
+

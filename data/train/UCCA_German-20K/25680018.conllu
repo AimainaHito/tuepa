@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25680018
+# text = » Und meine Gefährten , Kapitän ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Und	und	CCONJ	NN	_	4	L	4:L	_
+3	meine	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Gefährten	Gefährt|Gefährte	NOUN	NE	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	4	G	4:G	_
+7	?	?	PUNCT	$.	_	4	U	4:U	_
+8	«	«	PUNCT	$(	_	4	U	4:U	_
+

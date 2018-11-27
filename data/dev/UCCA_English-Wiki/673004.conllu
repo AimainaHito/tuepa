@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 673004
+# text = In 2009 , she appeared as a social worker in Precious , the movie adaptation of the 1996 novel Push by Sapphire .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2009	2009	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	as	as	ADP	IN	_	9	R	9:R	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	social	social	ADJ	JJ	_	9	E	9:E	_
+9	worker	worker	NOUN	NN	_	5	A	5:A	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Precious	precious	PROPN	NNP	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	movie	movie	NOUN	NN	_	15	E	15:E	_
+15	adaptation	adaptation	NOUN	NN	_	11	E	11:E	_
+16	of	of	ADP	IN	_	15	R	15:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	1996	1996	NUM	CD	_	19	E	19:E	_
+19	novel	novel	NOUN	NN	_	20	E	20:E	_
+20	Push	Push	NOUN	NN	_	15	E	15:E	_
+21	by	by	ADP	IN	_	22	R	22:R	_
+22	Sapphire	Sapphire	PROPN	NNP	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

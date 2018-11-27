@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25707013
+# text = Kapitän Nemo verwandte keinen Blick von dem in der Kabine hängenden Kompaß .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	verwandte	verwandt	VERB	VVFIN	_	0	H	0:H	_
+4	keinen	kein	PRON	PIAT	_	3	D	3:D	_
+5	Blick	Blick	NOUN	NN	_	3	A	3:A	_
+6	von	von	ADP	NN	_	12	R	12:R	_
+7	dem	der	DET	ART	_	12	E	12:E	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kabine	Kabine	NOUN	NE	_	11	A	11:A	_
+11	hängenden	hängend	ADJ	ADJA	_	12	E	12:E	_
+12	Kompaß	Kompaß	NOUN	NN	_	3	A	3:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

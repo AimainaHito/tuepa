@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25615006
+# text = » Ich meinesteils , Conseil , finde darin keine Pein , und ich richte mich gern nach der Regel an Bord . «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ich	ich	PRON	PPER	_	7	A	7:A	_
+3	meinesteils	meinesteils	ADP	ADV	_	7	D	7:D	_
+4	,	,	PUNCT	$,	_	7	U	7:U	_
+5	Conseil	Conseil	NOUN	NE	_	7	G	7:G	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	finde	finden	VERB	VVFIN	_	0	H	0:H	_
+8	darin	darin	PRON	PAV	_	7	A	7:A	_
+9	keine	kein	PRON	PIAT	_	7	D	7:D	_
+10	Pein	pein	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	und	und	CCONJ	NE	_	7	L	7:L	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	richte	richte	VERB	VVFIN	_	7	H	7:H	_
+15	mich	ich	PRON	PRF	_	14	Terminal	14:Terminal	_
+16	gern	gern	ADV	ADV	_	14	D	14:D	_
+17	nach	nach	ADP	XY	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Regel	Regel	NOUN	NN	_	14	A	14:A	_
+20	an	an	ADP	APPR	_	21	R	21:R	_
+21	Bord	Bord	NOUN	NN	_	19	E	19:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

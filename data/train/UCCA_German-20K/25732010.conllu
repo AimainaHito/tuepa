@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25732010
+# text = Ich hätte den Kapitän fragen mögen , aber seine Zeichensprache , wodurch er mit seinen Gefährten , wann sie ihn bei seinen unterseeischen Ausflügen begleiteten , sich verständigen konnte , war mir noch unverständlich .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	hätte	haben	AUX	VAFIN	_	5	D	5:D	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	5	A	5:A	_
+5	fragen	fragen	VERB	VVINF	_	0	H	0:H	_
+6	mögen	mög	ADJ	NN	_	5	D	5:D	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	aber	aber	CCONJ	KON	_	5	L	5:L	_
+9	seine	sein	DET	PPOSAT	_	10	E	10:E	_
+10	Zeichensprache	Zeichensprache	NOUN	NN	_	34	A	34:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	wodurch	wodurch	SCONJ	VVFIN	_	27	R	27:R	_
+13	er	er	PRON	PPER	_	27	A	27:A	_
+14	mit	mit	ADP	APPR	_	16	R	16:R	_
+15	seinen	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Gefährten	Gefährt|Gefährte	NOUN	NE	_	27	A	27:A	_
+17	,	,	PUNCT	$,	_	27	U	27:U	_
+18	wann	wann	SCONJ	PWAV	_	27	L	27:L	_
+19	sie	sie	PRON	ADV	_	25	A	25:A	_
+20	ihn	er	PRON	PPER	_	25	A	25:A	_
+21	bei	bei	ADP	APPR	_	24	R	24:R	_
+22	seinen	sein	DET	PPOSAT	_	24	E	24:E	_
+23	unterseeischen	unterseeisch	ADJ	ADJA	_	24	E	24:E	_
+24	Ausflügen	Ausflug	NOUN	NN	_	25	A	25:A	_
+25	begleiteten	begleiten	VERB	VVFIN	_	27	H	27:H	_
+26	,	,	PUNCT	$,	_	27	U	27:U	_
+27	sich	er|es|sie	PRON	PRF	_	10	E	10:E	_
+28	verständigen	verständigen	VERB	VVINF	_	27	Terminal	27:Terminal	_
+29	konnte	können	AUX	VMFIN	_	27	D	27:D	_
+30	,	,	PUNCT	$,	_	34	U	34:U	_
+31	war	sein	AUX	ADV	_	34	F	34:F	_
+32	mir	ich	PRON	PPER	_	34	A	34:A	_
+33	noch	noch	ADV	VVINF	_	34	D	34:D	_
+34	unverständlich	unverständlich	ADJ	ADJD	_	5	H	5:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

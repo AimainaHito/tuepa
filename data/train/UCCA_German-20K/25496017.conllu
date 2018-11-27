@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25496017
+# text = Ich erhalte Sie am Leben , während es mich nur ein Wort kosten würde , Sie im Meeres grund zu versenken !
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	erhalte	erhalten	VERB	VVFIN	_	0	H	0:H	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	am	am	ADJ	ADJD	_	5	R	5:R	_
+5	Leben	Leben	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	während	während	SCONJ	VVINF	_	2	L	2:L	_
+8	es	es	PRON	PPER	_	13	F	13:F	_
+9	mich	ich	PRON	PRF	_	13	A	13:A	_
+10	nur	nur	ADV	NE	_	13	D	13:D	_
+11	ein	ein	DET	ART	_	12	E	12:E	_
+12	Wort	Wort	NOUN	NN	_	13	A	13:A	_
+13	kosten	kosten	VERB	VVINF	_	2	H	2:H	_
+14	würde	werden	AUX	NN	_	13	D	13:D	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	Sie	Sie|sie	PRON	PPER	_	21	A	21:A	_
+17	im	im	ADV	NE	_	19	R	19:R	_
+18	Meeres	Meer	NOUN	NN	_	19	E	19:E	_
+19	grund	grund	CCONJ	APPR	_	21	A	21:A	_
+20	zu	zu	PART	NE	_	21	F	21:F	_
+21	versenken	versenken	VERB	VVINF	_	13	A	13:A	_
+22	!	!	PUNCT	$.	_	21	U	21:U	_
+

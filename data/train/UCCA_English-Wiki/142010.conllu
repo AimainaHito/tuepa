@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 142010
+# text = That year , she was voted " Favorite Motion Picture Actress " by the People 's Choice Awards .
+1	That	that	DET	DT	_	2	E	2:E	_
+2	year	year	NOUN	NN	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	she	she	PRON	PRP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	voted	vote	VERB	VBN	_	0	H	0:H	_
+7	"	"	PUNCT	``	_	6	U	6:U	_
+8	Favorite	Favorite	ADJ	JJ	_	11	E	11:E	_
+9	Motion	motion	NOUN	NN	_	10	E	10:E	_
+10	Picture	picture	NOUN	NN	_	11	E	11:E	_
+11	Actress	actress	NOUN	NN	_	6	A	6:A	_
+12	"	"	PUNCT	''	_	6	U	6:U	_
+13	by	by	ADP	IN	_	18	R	18:R	_
+14	the	the	DET	DT	_	18	E	18:E	_
+15	People	People	PROPN	NNPS	_	17	A	17:A	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	Choice	choice	PROPN	NNP	_	18	E	18:E	_
+18	Awards	awards	PROPN	NNP	_	6	A	6:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

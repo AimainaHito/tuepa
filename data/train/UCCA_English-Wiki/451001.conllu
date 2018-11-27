@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 451001
+# text = While reporting for CTV , he was the first Canadian journalist to arrive in Dallas after the assassination of President John F. Kennedy .
+1	While	while	SCONJ	IN	_	2	L	2:L	_
+2	reporting	report	VERB	VBG	_	0	H	0:H	_
+3	for	for	ADP	IN	_	4	R	4:R	_
+4	CTV	CTV	PROPN	NNP	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	he	he	PRON	PRP	_	7	A	7:A|2:A|13:A	_
+7	was	be	AUX	VBD	_	2	H	2:H	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	first	first	ADJ	JJ	_	11	E	11:E	_
+10	Canadian	canadian	ADJ	JJ	_	11	E	11:E	_
+11	journalist	journalist	NOUN	NN	_	7	A	7:A	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	arrive	arrive	VERB	VB	_	11	E	11:E	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Dallas	Dallas	PROPN	NNP	_	13	A	13:A	_
+16	after	after	ADP	IN	_	2	L	2:L	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	assassination	assassination	NOUN	NN	_	2	H	2:H	_
+19	of	of	ADP	IN	_	21	R	21:R	_
+20	President	President	PROPN	NNP	_	21	E	21:E	_
+21	John	John	PROPN	NNP	_	18	A	18:A	_
+22	F.	F.	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	Kennedy	Kennedy	PROPN	NNP	_	21	Terminal	21:Terminal	_
+24	.	.	PUNCT	.	_	21	U	21:U	_
+

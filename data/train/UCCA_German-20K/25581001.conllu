@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25581001
+# text = Am folgenden Tag , dem 9 . November , erwachte ich spät , erst nach 12stündigem Schlaf .
+1	Am	am	PROPN	NN	_	3	R	3:R	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	9	9	NUM	CARD	_	3	E	3:E	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	November	November	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwachte	erwachen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	spät	spät	ADJ	ADJA	_	10	D	10:D	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	erst	erst	ADV	ADV	_	10	D	10:D	_
+15	nach	nach	ADP	CARD	_	17	R	17:R	_
+16	12stündigem	12stündigem	ADJ	ADJA	_	17	E	17:E	_
+17	Schlaf	Schlaf	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25490097
+# text = Ich begriff übrigens , dass Ned Lands Ideen durch die Gedanken , die sich seines Gehirns bemächtigen , sich verbitterten .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	begriff	begreifen	VERB	VVFIN	_	0	H	0:H	_
+3	übrigens	übrigens	ADV	ADV	_	2	G	2:G	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+6	Ned	Ned	PROPN	NE	_	8	E	8:E	_
+7	Lands	Land	PROPN	NE	_	6	Terminal	6:Terminal	_
+8	Ideen	Idee	NOUN	NE	_	19	A	19:A	_
+9	durch	durch	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Gedanken	Gedanke	NOUN	NN	_	19	A	19:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	die	der	PRON	PRELS	_	14	R	14:R	_
+14	sich	er|es|sie	PRON	PRF	_	11	E	11:E	_
+15	seines	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Gehirns	Gehirn	NOUN	NN	_	14	A	14:A	_
+17	bemächtigen	bemächtigen	VERB	VVINF	_	14	Terminal	14:Terminal	_
+18	,	,	PUNCT	$,	_	19	U	19:U	_
+19	sich	er|es|sie	PRON	PRF	_	2	A	2:A	_
+20	verbitterten	verbitteren	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

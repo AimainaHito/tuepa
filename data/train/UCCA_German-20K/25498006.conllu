@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25498006
+# text = « » Mit welchem Namen darf ich Sie nennen ? «
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	»	»	PUNCT	$(	_	9	U	9:U	_
+3	Mit	mit	ADP	APPR	_	5	R	5:R	_
+4	welchem	welch	PRON	PRELS	_	5	E	5:E	_
+5	Namen	Name	NOUN	NN	_	9	A	9:A	_
+6	darf	dürfen	AUX	VMFIN	_	9	D	9:D	_
+7	ich	ich	PRON	PPER	_	9	A	9:A	_
+8	Sie	Sie|sie	PRON	PPER	_	9	A	9:A	_
+9	nennen	nennen	VERB	VVINF	_	0	H	0:H	_
+10	?	?	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

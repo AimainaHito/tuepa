@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 236011
+# text = The first - Jackie Chan - Yaolai International Cinema - opened in February 2010 , and is claimed to be the largest cinema complex in China , with 17 screens and 3,500 seats .
+1	The	the	DET	DT	_	9	E	9:E	_
+2	first	first	ADJ	JJ	_	9	E	9:E	_
+3	-	-	PUNCT	HYPH	_	9	U	9:U	_
+4	Jackie	Jackie	PROPN	NNP	_	9	E	9:E	_
+5	Chan	Chan	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	-	-	PUNCT	HYPH	_	4	U	4:U	_
+7	Yaolai	Yaolai	PROPN	NNP	_	4	C	4:C	_
+8	International	International	PROPN	NNP	_	9	E	9:E	_
+9	Cinema	cinema	PROPN	NNP	_	11	A	11:A|18:A|20:A	_
+10	-	-	PUNCT	,	_	11	U	11:U	_
+11	opened	open	VERB	VBD	_	0	H	0:H	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	February	February	PROPN	NNP	_	11	D	11:D	_
+14	2010	2010	NUM	CD	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	and	and	CCONJ	CC	_	11	L	11:L	_
+17	is	be	AUX	VBZ	_	18	F	18:F	_
+18	claimed	claim	VERB	VBN	_	11	H	11:H	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	be	be	AUX	VB	_	18	A	18:A	_
+21	the	the	DET	DT	_	24	E	24:E	_
+22	largest	largest	ADJ	JJS	_	24	E	24:E	_
+23	cinema	cinema	NOUN	NN	_	24	E	24:E	_
+24	complex	complex	NOUN	NN	_	20	A	20:A	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	China	China	PROPN	NNP	_	24	E	24:E	_
+27	,	,	PUNCT	,	_	18	U	18:U	_
+28	with	with	ADP	IN	_	30	R	30:R	_
+29	17	17	NUM	CD	_	30	E	30:E	_
+30	screens	screen	NOUN	NNS	_	18	A	18:A	_
+31	and	and	CCONJ	CC	_	30	N	30:N	_
+32	3,500	3,500	NUM	CD	_	33	E	33:E	_
+33	seats	seat	NOUN	NNS	_	30	C	30:C	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

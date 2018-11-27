@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25688009
+# text = In s Herz getroffen zappelte es in fürchterlichen Zuckungen , so dass Conseil durch den Gegenstoß zu Boden geworfen wurde .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	s	s	PROPN	ADJD	_	3	E	3:E	_
+3	Herz	Herz	PROPN	NN	_	4	A	4:A	_
+4	getroffen	treffen|triefen	VERB	VVPP	_	0	H	0:H	_
+5	zappelte	zappeln	AUX	VVFIN	_	4	H	4:H	_
+6	es	es	PRON	PPER	_	5	A	5:A|4:A	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	fürchterlichen	fürchterlich	ADJ	ADJA	_	9	E	9:E	_
+9	Zuckungen	Zuckunge	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	so	so	ADV	ADV	_	4	L	4:L	_
+12	dass	dass	SCONJ	KOUS	_	11	Terminal	11:Terminal	_
+13	Conseil	Conseil	NOUN	NE	_	19	A	19:A	_
+14	durch	durch	ADP	APPR	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Gegenstoß	Gegenstoß	NOUN	NN	_	19	A	19:A	_
+17	zu	zu	ADP	NE	_	18	R	18:R	_
+18	Boden	Boden	NOUN	NE	_	19	A	19:A	_
+19	geworfen	werfen	VERB	VVPP	_	4	H	4:H	_
+20	wurde	werden	AUX	TRUNC	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

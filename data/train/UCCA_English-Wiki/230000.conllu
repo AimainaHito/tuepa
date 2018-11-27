@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 230000
+# text = The dangerous nature of his stunts makes it difficult for Chan to get insurance , especially in the United States , where his stunt work is contractually limited .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	dangerous	dangerous	ADJ	JJ	_	3	E	3:E	_
+3	nature	nature	NOUN	NN	_	9	A	9:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	stunts	stunt	NOUN	NNS	_	3	E	3:E	_
+7	makes	make	VERB	VBZ	_	9	F	9:F	_
+8	it	it	PRON	PRP	_	9	F	9:F	_
+9	difficult	difficult	ADJ	JJ	_	0	H	0:H	_
+10	for	for	SCONJ	IN	_	13	R	13:R	_
+11	Chan	Chan	PROPN	NNP	_	13	A	13:A	_
+12	to	to	PART	TO	_	13	F	13:F	_
+13	get	get	VERB	VB	_	9	A	9:A	_
+14	insurance	insurance	NOUN	NN	_	13	A	13:A	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	especially	especially	ADV	RB	_	18	E	18:E	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	the	the	DET	DT	_	9	A	9:A	_
+19	United	United	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	States	States	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	,	_	18	U	18:U	_
+22	where	where	ADV	WRB	_	28	R	28:R	_
+23	his	he	PRON	PRP$	_	25	A	25:A	_
+24	stunt	stunt	NOUN	NN	_	25	E	25:E	_
+25	work	work	NOUN	NN	_	28	A	28:A	_
+26	is	be	AUX	VBZ	_	28	F	28:F	_
+27	contractually	contractually	ADV	RB	_	28	A	28:A	_
+28	limited	limited	ADJ	JJ	_	18	E	18:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

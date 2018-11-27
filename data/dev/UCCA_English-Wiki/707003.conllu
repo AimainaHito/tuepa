@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 707003
+# text = In April 1986 , Dylan made a brief foray into the world of rap music when he added vocals to the opening verse of " Street Rock " , a song featured on Kurtis Blow 's album Kingdom Blow .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	April	April	PROPN	NNP	_	3	E	3:E	_
+3	1986	1986	NUM	CD	_	9	D	9:D	_
+4	,	,	PUNCT	,	_	9	U	9:U	_
+5	Dylan	Dylan	PROPN	NNP	_	9	A	9:A	_
+6	made	make	VERB	VBD	_	9	F	9:F	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	brief	brief	ADJ	JJ	_	9	D	9:D	_
+9	foray	foray	NOUN	NN	_	0	H	0:H	_
+10	into	into	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	world	world	NOUN	NN	_	9	A	9:A	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	rap	rap	NOUN	NN	_	15	E	15:E	_
+15	music	music	NOUN	NN	_	12	E	12:E	_
+16	when	when	ADV	WRB	_	9	L	9:L	_
+17	he	he	PRON	PRP	_	18	A	18:A	_
+18	added	add	VERB	VBD	_	9	H	9:H	_
+19	vocals	vocal	NOUN	NNS	_	18	A	18:A	_
+20	to	to	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	opening	open	NOUN	NN	_	23	E	23:E	_
+23	verse	verse	NOUN	NN	_	18	A	18:A	_
+24	of	of	ADP	IN	_	26	R	26:R	_
+25	"	"	PUNCT	``	_	26	U	26:U	_
+26	Street	street	PROPN	NNP	_	23	E	23:E	_
+27	Rock	rock	NOUN	NN	_	26	Terminal	26:Terminal	_
+28	"	"	PUNCT	''	_	26	U	26:U	_
+29	,	,	PUNCT	,	_	26	U	26:U	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	song	song	NOUN	NN	_	32	A	32:A	_
+32	featured	feature	VERB	VBN	_	26	E	26:E	_
+33	on	on	ADP	IN	_	37	R	37:R	_
+34	Kurtis	Kurtis	PROPN	NNP	_	37	E	37:E	_
+35	Blow	blow	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	's	's	PART	POS	_	34	R	34:R	_
+37	album	album	PROPN	NNP	_	32	A	32:A	_
+38	Kingdom	Kingdom	PROPN	NNP	_	37	E	37:E	_
+39	Blow	blow	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	.	.	PUNCT	.	_	37	U	37:U	_
+

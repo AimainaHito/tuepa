@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 380010
+# text = I 've never really been attracted to men sexually , but I do n't think I would be afraid of it if it happened .
+1	I	I	PRON	PRP	_	6	A	6:A	_
+2	've	have	AUX	VBP	_	6	F	6:F	_
+3	never	never	ADV	RB	_	6	D	6:D	_
+4	really	really	ADV	RB	_	6	D	6:D	_
+5	been	be	AUX	VBN	_	6	F	6:F	_
+6	attracted	attract	VERB	VBN	_	0	H	0:H	_
+7	to	to	ADP	IN	_	8	R	8:R	_
+8	men	man	NOUN	NNS	_	6	A	6:A	_
+9	sexually	sexually	ADV	RB	_	6	D	6:D	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	but	but	CCONJ	CC	_	6	L	6:L	_
+12	I	I	PRON	PRP	_	15	A	15:A	_
+13	do	do	AUX	VBP	_	15	F	15:F	_
+14	n't	not	PART	RB	_	15	D	15:D	_
+15	think	think	VERB	VB	_	6	H	6:H	_
+16	I	I	PRON	PRP	_	19	A	19:A	_
+17	would	would	AUX	MD	_	19	F	19:F	_
+18	be	be	AUX	VB	_	19	F	19:F	_
+19	afraid	afraid	ADJ	JJ	_	15	A	15:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	it	it	PRON	PRP	_	19	A	19:A	_
+22	if	if	SCONJ	IN	_	6	L	6:L	_
+23	it	it	PRON	PRP	_	24	A	24:A	_
+24	happened	happen	VERB	VBD	_	6	H	6:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

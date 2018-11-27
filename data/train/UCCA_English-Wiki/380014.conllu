@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 380014
+# text = He played Robert Graysmith , a San Francisco Chronicle cartoonist and author of two books about the Zodiac serial killer .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	Robert	Robert	PROPN	NNP	_	2	A	2:A	_
+4	Graysmith	Graysmith	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	a	a	DET	DT	_	10	E	10:E	_
+7	San	San	PROPN	NNP	_	10	E	10:E	_
+8	Francisco	Francisco	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Chronicle	Chronicle	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	cartoonist	cartoonist	NOUN	NN	_	3	E	3:E	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	author	author	NOUN	NN	_	10	C	10:C	_
+13	of	of	ADP	IN	_	15	R	15:R	_
+14	two	two	NUM	CD	_	15	E	15:E	_
+15	books	book	NOUN	NNS	_	12	E	12:E	_
+16	about	about	ADP	IN	_	18	R	18:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	Zodiac	Zodiac	PROPN	NNP	_	15	E	15:E	_
+19	serial	serial	ADJ	JJ	_	20	E	20:E	_
+20	killer	killer	NOUN	NN	_	18	E	18:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

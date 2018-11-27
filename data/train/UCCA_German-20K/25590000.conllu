@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25590000
+# text = » Kapitän Nemo « , sagte ich , » das Gewehr ist vortrefflich und leicht zu handhaben . Ich wünsche nur , es zu probieren . Aber wie gelangen wir auf den Meeres grund . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Kapitän	Kapitän	PROPN	NN	_	3	E	3:E	_
+3	Nemo	Nemo	PROPN	NE	_	13	G	13:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Gewehr	Gewehr	NOUN	NN	_	0	C	0:C|17:A	_
+12	ist	sein	AUX	VVFIN	_	13	F	13:F	_
+13	vortrefflich	vortrefflich	ADJ	ADJD	_	6	A	6:A	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	leicht	leicht	ADJ	PTKVZ	_	17	D	17:D	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	handhaben	handhaben	VERB	VVINF	_	13	H	13:H	_
+18	.	.	PUNCT	$.	_	13	U	13:U	_
+19	Ich	ich	PRON	PPER	_	25	A	25:A	_
+20	wünsche	wünschen	VERB	VVFIN	_	25	D	25:D	_
+21	nur	nur	ADV	NE	_	25	D	25:D	_
+22	,	,	PUNCT	$,	_	25	U	25:U	_
+23	es	es	PRON	PPER	_	25	A	25:A	_
+24	zu	zu	PART	VVINF	_	25	F	25:F	_
+25	probieren	probieren	VERB	VVINF	_	13	H	13:H	_
+26	.	.	PUNCT	$.	_	13	U	13:U	_
+27	Aber	Aber	NOUN	KON	_	13	L	13:L	_
+28	wie	wie	PART	ADV	_	29	D	29:D	_
+29	gelangen	gelangen	VERB	VVFIN	_	13	H	13:H	_
+30	wir	wir	PRON	NE	_	29	A	29:A	_
+31	auf	auf	ADP	APPR	_	34	R	34:R	_
+32	den	der	DET	ART	_	34	E	34:E	_
+33	Meeres	Meer	NOUN	NN	_	34	E	34:E	_
+34	grund	grund	ADV	APPR	_	29	A	29:A	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+36	«	«	PUNCT	$(	_	34	U	34:U	_
+

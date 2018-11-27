@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25488116
+# text = » Aber dann « , sagte ich , » hatte dieses Fahrzeug eine Maschine für die Bewegung und eine Mannschaft , die sie in Anwendung bringt ?
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Aber	aber	CCONJ	KON	_	10	L	10:L	_
+3	dann	dann	ADV	ADV	_	10	L	10:L	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	hatte	haben	VERB	VAFIN	_	6	A	6:A	_
+11	dieses	dies	PRON	PDAT	_	12	E	12:E	_
+12	Fahrzeug	Fahrzeug	NOUN	NN	_	10	A	10:A	_
+13	eine	ein	DET	ART	_	14	E	14:E	_
+14	Maschine	Maschine	NOUN	NN	_	10	A	10:A	_
+15	für	für	ADP	APPR	_	17	R	17:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Bewegung	Bewegung	NOUN	NN	_	14	E	14:E	_
+18	und	und	CCONJ	NE	_	14	N	14:N	_
+19	eine	ein	DET	ART	_	20	E	20:E	_
+20	Mannschaft	Mannschaft	NOUN	NN	_	14	C	14:C	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	25	R	25:R	_
+23	sie	sie	PRON	TRUNC	_	25	A	25:A	_
+24	in	in	ADP	APPR	_	25	R	25:R	_
+25	Anwendung	Anwendung	NOUN	NN	_	20	E	20:E	_
+26	bringt	bringen	VERB	VVFIN	_	25	F	25:F	_
+27	?	?	PUNCT	$.	_	25	U	25:U	_
+

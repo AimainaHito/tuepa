@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 205012
+# text = His older brother , Ronald , is a lawyer and economist .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	older	older	ADJ	JJR	_	3	E	3:E	_
+3	brother	brother	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Ronald	Ronald	PROPN	NNP	_	9	A	9:A	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	is	be	AUX	VBZ	_	9	F	9:F	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	lawyer	lawyer	NOUN	NN	_	0	H	0:H	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	economist	economist	NOUN	NN	_	9	C	9:C	_
+12	.	.	PUNCT	.	_	9	U	9:U	_
+

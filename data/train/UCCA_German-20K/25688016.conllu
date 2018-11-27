@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25688016
+# text = Aber der Hai konnte ihm mit seinem Schwanz einen Streich versetzt haben , der tödlich war .
+1	Aber	aber	CCONJ	KON	_	11	L	11:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Hai	Hai	PROPN	NE	_	11	A	11:A	_
+4	konnte	können	AUX	VMFIN	_	11	D	11:D	_
+5	ihm	er	PRON	PPER	_	11	A	11:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	seinem	sein	DET	PPOSAT	_	8	E	8:E	_
+8	Schwanz	Schwanz	NOUN	NN	_	11	A	11:A	_
+9	einen	ein	DET	ART	_	10	E	10:E	_
+10	Streich	Streich	NOUN	NN	_	11	A	11:A	_
+11	versetzt	versetzen	VERB	VVPP	_	0	H	0:H	_
+12	haben	haben	AUX	VAFIN	_	11	F	11:F	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	der	der	PRON	PRELS	_	15	R	15:R	_
+15	tödlich	tödlich	ADJ	ADJD	_	10	E	10:E	_
+16	war	sein	AUX	ADV	_	15	F	15:F	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

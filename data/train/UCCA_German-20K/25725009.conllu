@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25725009
+# text = Das Log zeigte eine mäßige Schnelligkeit , das Manometer eine Tiefe von etwa 60 Fuß .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Log	Log	NOUN	NN	_	3	A	3:A	_
+3	zeigte	zeigen	VERB	VVFIN	_	0	H	0:H	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	mäßige	mäßig	ADJ	ADJA	_	6	E	6:E	_
+6	Schnelligkeit	Schnelligkeit	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	das	der	DET	ART	_	9	E	9:E	_
+9	Manometer	Manometer	NOUN	NN	_	3	H	3:H	_
+10	eine	ein	DET	ART	_	11	E	11:E	_
+11	Tiefe	Tiefe	NOUN	NN	_	9	A	9:A	_
+12	von	von	ADP	NN	_	15	R	15:R	_
+13	etwa	etwa	ADV	ADV	_	15	E	15:E	_
+14	60	60	NUM	CARD	_	15	E	15:E	_
+15	Fuß	Fuß	NOUN	NN	_	11	A	11:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

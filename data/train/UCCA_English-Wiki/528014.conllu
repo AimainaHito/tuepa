@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 528014
+# text = Before release , it was edited at the instruction of Jack Warner ; theater operators , concerned that they were losing money because they were only able to run the film for three or four shows per day instead of five or six , pressured the studio to make additional reductions .
+1	Before	before	ADP	IN	_	2	L	2:L	_
+2	release	release	INTJ	UH	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	it	it	PRON	PRP	_	6	A	6:A|2:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	edited	edit	VERB	VBN	_	2	H	2:H	_
+7	at	at	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	instruction	instruction	NOUN	NN	_	6	A	6:A	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	Jack	Jack	PROPN	NNP	_	9	E	9:E	_
+12	Warner	Warner	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	;	;	PUNCT	,	_	2	U	2:U	_
+14	theater	theater	NOUN	NN	_	15	E	15:E	_
+15	operators	operator	NOUN	NNS	_	17	A	17:A	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	concerned	concern	ADJ	JJ	_	45	A	45:A	_
+18	that	that	SCONJ	IN	_	22	F	22:F	_
+19	they	they	PRON	PRP	_	22	A	22:A	_
+20	were	be	AUX	VBD	_	22	F	22:F	_
+21	losing	lose	VERB	VBG	_	22	D	22:D	_
+22	money	money	NOUN	NN	_	17	A	17:A	_
+23	because	because	SCONJ	IN	_	17	L	17:L	_
+24	they	they	PRON	PRP	_	29	A	29:A	_
+25	were	be	AUX	VBD	_	29	F	29:F	_
+26	only	only	ADV	RB	_	29	D	29:D	_
+27	able	able	ADJ	JJ	_	29	E	29:E	_
+28	to	to	PART	TO	_	29	F	29:F	_
+29	run	run	VERB	VB	_	17	H	17:H	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	film	film	NOUN	NN	_	29	A	29:A	_
+32	for	for	ADP	IN	_	36	R	36:R	_
+33	three	three	NUM	CD	_	36	E	36:E	_
+34	or	or	CCONJ	CC	_	33	R	33:R	_
+35	four	four	NUM	CD	_	33	C	33:C	_
+36	shows	show	NOUN	NNS	_	29	A	29:A	_
+37	per	per	ADP	IN	_	38	R	38:R	_
+38	day	day	NOUN	NN	_	36	E	36:E	_
+39	instead	instead	ADV	RB	_	33	R	33:R	_
+40	of	of	ADP	IN	_	39	R	39:R	_
+41	five	five	NUM	CD	_	33	C	33:C	_
+42	or	or	CCONJ	CC	_	41	R	41:R	_
+43	six	six	NUM	CD	_	41	C	41:C	_
+44	,	,	PUNCT	,	_	45	U	45:U	_
+45	pressured	pressure	VERB	VBD	_	2	H	2:H	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	studio	studio	NOUN	NN	_	45	A	45:A	_
+48	to	to	PART	TO	_	49	F	49:F	_
+49	make	make	VERB	VB	_	45	A	45:A	_
+50	additional	additional	ADJ	JJ	_	51	E	51:E	_
+51	reductions	reduction	NOUN	NNS	_	49	A	49:A	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

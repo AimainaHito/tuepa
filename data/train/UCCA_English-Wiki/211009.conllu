@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 211009
+# text = The couple divorced in 1980 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	couple	couple	NOUN	NN	_	3	A	3:A	_
+3	divorced	divorce	ADJ	JJ	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	1980	1980	NUM	CD	_	3	D	3:D	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+

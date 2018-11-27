@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 618002
+# text = The following year , Parlophone released the band 's singles " Please Please Me " / " Ask Me Why " and " From Me to You " / " Thank You Girl " in the UK .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	following	follow	VERB	VBG	_	3	R	3:R	_
+3	year	year	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Parlophone	Parlophone	PROPN	NNP	_	6	A	6:A	_
+6	released	release	VERB	VBD	_	0	H	0:H	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	band	band	NOUN	NN	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	singles	singles	NOUN	NNS	_	12	E	12:E	_
+11	"	"	PUNCT	``	_	12	U	12:U	_
+12	Please	please	INTJ	UH	_	6	A	6:A	_
+13	Please	please	INTJ	UH	_	12	Terminal	12:Terminal	_
+14	Me	I	PRON	PRP	_	12	Terminal	12:Terminal	_
+15	"	"	PUNCT	``	_	12	U	12:U	_
+16	/	/	PUNCT	,	_	12	U	12:U	_
+17	"	"	PUNCT	''	_	12	U	12:U	_
+18	Ask	Ask	VERB	VB	_	12	C	12:C	_
+19	Me	Me	PRON	PRP	_	18	Terminal	18:Terminal	_
+20	Why	Why	ADV	WRB	_	18	Terminal	18:Terminal	_
+21	"	"	PUNCT	''	_	12	U	12:U	_
+22	and	and	CCONJ	CC	_	12	N	12:N	_
+23	"	"	PUNCT	``	_	12	U	12:U	_
+24	From	from	ADP	IN	_	12	C	12:C	_
+25	Me	I	PRON	PRP	_	24	Terminal	24:Terminal	_
+26	to	to	ADP	IN	_	24	Terminal	24:Terminal	_
+27	You	you	PRON	PRP	_	24	Terminal	24:Terminal	_
+28	"	"	PUNCT	``	_	24	U	24:U	_
+29	/	/	PUNCT	,	_	24	U	24:U	_
+30	"	"	PUNCT	''	_	24	U	24:U	_
+31	Thank	thank	VERB	VBP	_	24	C	24:C	_
+32	You	you	PRON	PRP	_	31	Terminal	31:Terminal	_
+33	Girl	girl	PROPN	NNP	_	31	Terminal	31:Terminal	_
+34	"	"	PUNCT	''	_	6	U	6:U	_
+35	in	in	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	UK	UK	PROPN	NNP	_	6	A	6:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

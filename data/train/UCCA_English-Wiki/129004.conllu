@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 129004
+# text = Hepburn loved the book and was delighted to be offered the role .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|10:A|7:A	_
+2	loved	love	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	book	book	NOUN	NN	_	2	A	2:A	_
+5	and	and	CCONJ	CC	_	2	L	2:L	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	delighted	delighted	ADJ	JJ	_	2	H	2:H	_
+8	to	to	PART	TO	_	10	F	10:F	_
+9	be	be	AUX	VB	_	10	F	10:F	_
+10	offered	offer	VERB	VBN	_	7	A	7:A	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	role	role	NOUN	NN	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

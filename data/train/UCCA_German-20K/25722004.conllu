@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25722004
+# text = Mein starrköpfiger Genosse gestattete mir das nicht .
+1	Mein	mein	DET	PPOSAT	_	3	E	3:E	_
+2	starrköpfiger	starrköpfig	ADJ	ADJA	_	3	E	3:E	_
+3	Genosse	Genosse	NOUN	NN	_	4	A	4:A	_
+4	gestattete	gestatten	VERB	VVFIN	_	0	H	0:H	_
+5	mir	ich	PRON	PPER	_	4	A	4:A	_
+6	das	der	DET	ART	_	4	A	4:A	_
+7	nicht	nicht	PART	CARD	_	4	D	4:D	_
+8	.	.	PUNCT	$.	_	4	U	4:U	_
+

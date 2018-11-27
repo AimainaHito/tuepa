@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25699017
+# text = » Haben Sie diesen Durchweg zufällig gefunden ? « fragte ich immer mehr erstaunt .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Haben	haben	AUX	VAFIN	_	7	F	7:F	_
+3	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+4	diesen	dies	PRON	PDAT	_	5	E	5:E	_
+5	Durchweg	durchweg	NOUN	NN	_	7	A	7:A	_
+6	zufällig	zufällig	ADJ	ADJD	_	7	D	7:D	_
+7	gefunden	finden	VERB	VVPP	_	10	A	10:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A|14:A	_
+12	immer	immer	ADV	ADV	_	14	D	14:D	_
+13	mehr	mehr	ADV	ADV	_	12	Terminal	12:Terminal	_
+14	erstaunt	erstaunt	ADJ	ADJD	_	10	H	10:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

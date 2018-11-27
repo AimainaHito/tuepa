@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 549013
+# text = Irma Warner sued her husband for divorce ( a scandalous move at the time ) on the grounds of desertion .
+1	Irma	Irma	PROPN	NNP	_	3	A	3:A	_
+2	Warner	Warner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	sued	sue	VERB	VBD	_	0	H	0:H	_
+4	her	she	PRON	PRP$	_	5	E	5:E	_
+5	husband	husband	NOUN	NN	_	3	A	3:A	_
+6	for	for	ADP	IN	_	7	R	7:R	_
+7	divorce	divorce	NOUN	NN	_	3	A	3:A	_
+8	(	(	PUNCT	-LRB-	_	3	U	3:U	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	scandalous	scandalous	ADJ	JJ	_	11	E	11:E	_
+11	move	move	NOUN	NN	_	3	H	3:H	_
+12	at	at	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	time	time	NOUN	NN	_	11	D	11:D	_
+15	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+16	on	on	ADP	IN	_	20	R	20:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	grounds	grounds	NOUN	NNS	_	20	E	20:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	desertion	desertion	NOUN	NN	_	3	A	3:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

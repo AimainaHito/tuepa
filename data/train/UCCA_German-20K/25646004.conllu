@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25646004
+# text = Bisweilen blieb er stehen und betrachtete mit gekreuzten Armen das Meer .
+1	Bisweilen	bisweilen	ADJ	ADV	_	2	D	2:D	_
+2	blieb	bleiben	AUX	VVFIN	_	0	H	0:H	_
+3	er	er	PRON	PPER	_	2	A	2:A|6:A	_
+4	stehen	stehen	VERB	VVINF	_	2	Terminal	2:Terminal	_
+5	und	und	CCONJ	NE	_	2	L	2:L	_
+6	betrachtete	betrachten	VERB	VVFIN	_	2	H	2:H	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	gekreuzten	gekreuzt	ADJ	ADJA	_	9	E	9:E	_
+9	Armen	Arm|Arme	NOUN	NN	_	6	A	6:A	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Meer	Meer	NOUN	NN	_	6	A	6:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25655004
+# text = Kapitän Nemo kam auf mich zu .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+4	auf	auf	ADP	APPR	_	5	R	5:R	_
+5	mich	ich	PRON	PPER	_	3	A	3:A	_
+6	zu	zu	ADP	VVINF	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

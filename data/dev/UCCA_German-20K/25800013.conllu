@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25800013
+# text = Kapitän Nemo ließ sich nicht sehen .
+1	Kapitän	Kapitän	NOUN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	ließ	lassen	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	nicht	nicht	PART	XY	_	3	D	3:D	_
+6	sehen	sehen	VERB	VVINF	_	3	Terminal	3:Terminal	_
+7	.	.	PUNCT	$.	_	3	U	3:U	_
+

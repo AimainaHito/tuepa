@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25528003
+# text = « » Und die Unter abteilung dieser großen Klasse ?
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Und	und	CCONJ	NN	_	6	L	6:L	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Unter	unter	ADJ	NE	_	6	E	6:E	_
+6	abteilung	abteilung	NOUN	NN	_	0	H	0:H	_
+7	dieser	dies	PRON	PDAT	_	9	R	9:R	_
+8	großen	groß	ADJ	ADJA	_	9	E	9:E	_
+9	Klasse	Klasse	NOUN	NN	_	6	A	6:A	_
+10	?	?	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 495011
+# text = It was his last release for two years .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	his	he	PRON	PRP$	_	5	A	5:A	_
+4	last	last	ADJ	JJ	_	5	D	5:D	_
+5	release	release	NOUN	NN	_	2	A	2:A	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	two	two	NUM	CD	_	8	E	8:E	_
+8	years	year	NOUN	NNS	_	5	D	5:D	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

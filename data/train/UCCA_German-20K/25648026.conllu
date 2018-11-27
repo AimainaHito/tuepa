@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25648026
+# text = Meine Augenlider sanken wie bleierne Deckel über meine Augen .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Augenlider	Augenlider	NOUN	PIAT	_	3	A	3:A	_
+3	sanken	sinken	VERB	VVFIN	_	0	H	0:H	_
+4	wie	wie	ADP	ADV	_	6	R	6:R	_
+5	bleierne	bleiern	ADJ	ADV	_	6	E	6:E	_
+6	Deckel	Deckel	NOUN	NN	_	3	A	3:A	_
+7	über	über	ADP	VVFIN	_	9	R	9:R	_
+8	meine	mein	DET	PPOSAT	_	9	E	9:E	_
+9	Augen	Auge	NOUN	NN	_	3	A	3:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

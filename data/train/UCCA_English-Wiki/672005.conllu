@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 672005
+# text = Carey had a cameo appearance in Adam Sandler 's 2008 film You Do n't Mess with the Zohan , playing herself .
+1	Carey	Carey	PROPN	NNP	_	5	A	5:A|20:A	_
+2	had	have	VERB	VBD	_	5	F	5:F	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	cameo	cameo	NOUN	NN	_	5	E	5:E	_
+5	appearance	appearance	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	12	R	12:R	_
+7	Adam	Adam	PROPN	NNP	_	12	E	12:E	_
+8	Sandler	Sandler	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	2008	2008	NUM	CD	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	12	E	12:E	_
+12	You	you	PRON	PRP	_	5	A	5:A	_
+13	Do	do	AUX	VBP	_	12	Terminal	12:Terminal	_
+14	n't	not	PART	RB	_	12	Terminal	12:Terminal	_
+15	Mess	mess	VERB	VB	_	12	Terminal	12:Terminal	_
+16	with	with	ADP	IN	_	12	Terminal	12:Terminal	_
+17	the	the	DET	DT	_	12	Terminal	12:Terminal	_
+18	Zohan	Zohan	PROPN	NNP	_	12	Terminal	12:Terminal	_
+19	,	,	PUNCT	,	_	5	U	5:U	_
+20	playing	play	VERB	VBG	_	5	H	5:H	_
+21	herself	herself	PRON	PRP	_	20	D	20:D	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

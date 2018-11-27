@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 534004
+# text = Several of her recordings have been inducted into the Grammy Hall of Fame .
+1	Several	several	ADJ	JJ	_	4	E	4:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	her	she	PRON	PRP$	_	4	E	4:E	_
+4	recordings	recording	NOUN	NNS	_	7	A	7:A	_
+5	have	have	AUX	VBP	_	7	F	7:F	_
+6	been	be	AUX	VBN	_	7	F	7:F	_
+7	inducted	induct	VERB	VBN	_	0	H	0:H	_
+8	into	into	ADP	IN	_	13	R	13:R	_
+9	the	the	DET	DT	_	13	E	13:E	_
+10	Grammy	Grammy	PROPN	NNP	_	13	E	13:E	_
+11	Hall	Hall	PROPN	NNP	_	13	E	13:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	Fame	fame	NOUN	NN	_	7	A	7:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

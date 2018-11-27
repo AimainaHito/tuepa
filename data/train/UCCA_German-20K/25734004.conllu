@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25734004
+# text = Dort schienen monumentale Felsen , auf unregelmäßiger Basis überhängend , den Gleichgewichts gesetzen zu trotzen .
+1	Dort	dort	ADV	ADV	_	2	D	2:D	_
+2	schienen	schienen	VERB	ADJA	_	0	H	0:H	_
+3	monumentale	monumental	ADJ	ADJA	_	4	E	4:E	_
+4	Felsen	Felsen	NOUN	NN	_	0	C	0:C|9:A	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	auf	auf	ADP	APPR	_	8	R	8:R	_
+7	unregelmäßiger	unregelmäßig	ADJ	ADJA	_	8	E	8:E	_
+8	Basis	Basis	NOUN	NN	_	9	A	9:A	_
+9	überhängend	überhängend	ADV	ADJD	_	2	H	2:H	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	den	der	DET	ART	_	13	R	13:R	_
+12	Gleichgewichts	Gleichgewicht	NOUN	NN	_	13	E	13:E	_
+13	gesetzen	setzen	VERB	VVINF	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	trotzen	trotzen	VERB	VVINF	_	2	A	2:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

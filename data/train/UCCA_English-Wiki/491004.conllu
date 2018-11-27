@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 491004
+# text = In 2010 , Bana was named the " Saints Number One Ticket Holder " .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2010	2010	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Bana	Bana	PROPN	NNP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	named	name	VERB	VBN	_	0	H	0:H	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	"	"	PUNCT	``	_	9	U	9:U	_
+9	Saints	Saints	PROPN	NNPS	_	6	A	6:A	_
+10	Number	number	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	One	one	NUM	CD	_	9	Terminal	9:Terminal	_
+12	Ticket	ticket	NOUN	NN	_	9	Terminal	9:Terminal	_
+13	Holder	holder	NOUN	NN	_	9	Terminal	9:Terminal	_
+14	"	"	PUNCT	''	_	9	U	9:U	_
+15	.	.	PUNCT	.	_	9	U	9:U	_
+

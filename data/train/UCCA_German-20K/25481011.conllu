@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25481011
+# text = « » Richten Sie sie auf 10 . «
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Richten	richten	NOUN	VVFIN	_	0	H	0:H	_
+4	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+5	sie	sie	PRON	ADV	_	3	A	3:A	_
+6	auf	auf	ADP	APPR	_	7	R	7:R	_
+7	10	10	NUM	CARD	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 207009
+# text = " Nixon expands on the significance of the film to Hoffman 's career :
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Nixon	Nixon	PROPN	NNP	_	3	A	3:A	_
+3	expands	expand	VERB	VBZ	_	0	H	0:H	_
+4	on	on	ADP	IN	_	3	Terminal	3:Terminal	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	significance	significance	NOUN	NN	_	3	A	3:A	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	film	film	NOUN	NN	_	6	E	6:E	_
+10	to	to	ADP	IN	_	13	R	13:R	_
+11	Hoffman	Hoffman	PROPN	NNP	_	13	A	13:A	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	career	career	NOUN	NN	_	3	A	3:A	_
+14	:	:	PUNCT	:	_	13	U	13:U	_
+

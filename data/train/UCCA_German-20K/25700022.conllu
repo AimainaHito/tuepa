@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25700022
+# text = Gegen die Seiten des Boots gelehnt plauderten wir von diesem und jenem , als Ned Land mit der Hand auf einen Punkt wies und sagte :
+1	Gegen	gegen	ADP	APPR	_	3	R	3:R	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Seiten	Seite	NOUN	NN	_	6	A	6:A	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Boots	Boot	NOUN	NN	_	3	E	3:E	_
+6	gelehnt	lehnen	VERB	VVPP	_	0	H	0:H	_
+7	plauderten	plaudert	ADJ	VVFIN	_	6	H	6:H	_
+8	wir	wir	PRON	NE	_	7	A	7:A|6:A	_
+9	von	von	ADP	NE	_	10	R	10:R	_
+10	diesem	dies	PRON	PDS	_	7	A	7:A	_
+11	und	und	CCONJ	NE	_	10	N	10:N	_
+12	jenem	jen	PRON	PDAT	_	10	C	10:C	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	als	als	SCONJ	KOUS	_	6	L	6:L	_
+15	Ned	Ned	PROPN	NE	_	23	A	23:A|25:A	_
+16	Land	Land	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Hand	Hand	NOUN	NN	_	23	A	23:A	_
+20	auf	auf	ADP	APPR	_	22	R	22:R	_
+21	einen	ein	DET	ART	_	22	E	22:E	_
+22	Punkt	Punkt	NOUN	NN	_	23	A	23:A	_
+23	wies	weisen	VERB	VVFIN	_	6	H	6:H	_
+24	und	und	CCONJ	NE	_	6	L	6:L	_
+25	sagte	sagen	VERB	VVFIN	_	6	H	6:H	_
+26	:	:	PUNCT	$.	_	25	U	25:U	_
+

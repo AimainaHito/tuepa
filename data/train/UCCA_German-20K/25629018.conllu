@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25629018
+# text = Inzwischen untersuchte ich den merkwürdigen Vogel , Conseil irrte nicht .
+1	Inzwischen	inzwischen	ADV	ADV	_	2	L	2:L	_
+2	untersuchte	untersuchen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	den	der	DET	ART	_	6	E	6:E	_
+5	merkwürdigen	merkwürdig	ADJ	ADJA	_	6	E	6:E	_
+6	Vogel	Vogel	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+9	irrte	irren	VERB	VVFIN	_	2	H	2:H	_
+10	nicht	nicht	PART	XY	_	9	D	9:D	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

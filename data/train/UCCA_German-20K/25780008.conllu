@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25780008
+# text = Darauf legte Kapitän Nemo seine Hand auf meine Schulter und sagte zu mir :
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	legte	legen	VERB	ADJA	_	0	H	0:H	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	0	C	0:C|11:A	_
+5	seine	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Hand	Hand	NOUN	NN	_	2	A	2:A	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	meine	mein	DET	VVFIN	_	9	E	9:E	_
+9	Schulter	Schulter	NOUN	NN	_	2	A	2:A	_
+10	und	und	CCONJ	NE	_	2	L	2:L	_
+11	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+12	zu	zu	ADP	VVINF	_	13	R	13:R	_
+13	mir	ich	PRON	PPER	_	11	A	11:A	_
+14	:	:	PUNCT	$.	_	13	U	13:U	_
+

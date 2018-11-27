@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25792002
+# text = Am folgenden Tag , dem 26 . März , setzte ich meine Gruben arbeit mit dem 5 . Meter fort .
+1	Am	am	PROPN	NN	_	3	E	3:E	_
+2	folgenden	folgenden	VERB	ADJA	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	6	E	6:E	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	dem	der	DET	ART	_	6	E	6:E	_
+6	26	26	NUM	CARD	_	10	D	10:D	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	März	März	PROPN	NN	_	6	Terminal	6:Terminal	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	setzte	setzen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	meine	mein	DET	PPOSAT	_	14	E	14:E	_
+13	Gruben	Grube	NOUN	NN	_	14	E	14:E	_
+14	arbeit	arbeit	ADV	ADV	_	10	A	10:A	_
+15	mit	mit	ADP	APPR	_	17	R	17:R	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	5	5	NUM	CARD	_	10	A	10:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+19	Meter	Meter	NOUN	NN	_	17	Terminal	17:Terminal	_
+20	fort	fort	ADV	PTKVZ	_	10	Terminal	10:Terminal	_
+21	.	.	PUNCT	$.	_	10	U	10:U	_
+

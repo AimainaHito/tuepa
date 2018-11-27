@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 195008
+# text = A week later , NBC bought from Warner Bros . TV the right to show the TV series on their network for a near - record license fee in a bidding war with CBS .
+1	A	a	DET	DT	_	3	E	3:E	_
+2	week	week	NOUN	NN	_	3	E	3:E	_
+3	later	later	ADV	RB	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	NBC	NBC	PROPN	NNP	_	6	A	6:A|31:A|15:A	_
+6	bought	buy	VERB	VBD	_	0	H	0:H	_
+7	from	from	ADP	IN	_	8	R	8:R	_
+8	Warner	Warner	PROPN	NNP	_	6	A	6:A	_
+9	Bros	Bros	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+11	TV	tv	NOUN	NN	_	8	Terminal	8:Terminal	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	right	right	NOUN	NN	_	6	A	6:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	show	show	VERB	VB	_	13	E	13:E	_
+16	the	the	DET	DT	_	18	E	18:E	_
+17	TV	tv	NOUN	NN	_	18	E	18:E	_
+18	series	series	NOUN	NN	_	15	A	15:A	_
+19	on	on	ADP	IN	_	21	R	21:R	_
+20	their	they	PRON	PRP$	_	21	E	21:E	_
+21	network	network	NOUN	NN	_	15	A	15:A	_
+22	for	for	ADP	IN	_	28	R	28:R	_
+23	a	a	DET	DT	_	28	E	28:E	_
+24	near	near	NOUN	NN	_	26	E	26:E	_
+25	-	-	PUNCT	HYPH	_	26	U	26:U	_
+26	record	record	NOUN	NN	_	28	E	28:E	_
+27	license	license	NOUN	NN	_	28	E	28:E	_
+28	fee	fee	NOUN	NN	_	15	A	15:A	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	bidding	bidding	VERB	VBG	_	6	A	6:A	_
+32	war	war	NOUN	NN	_	31	E	31:E	_
+33	with	with	ADP	IN	_	34	R	34:R	_
+34	CBS	CBS	PROPN	NNP	_	31	A	31:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

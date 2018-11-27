@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 662013
+# text = After declining to tour for her past two albums , Carey agreed to embark on a short stateside string of concerts , titled the Music Box Tour .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	declining	decli	VERB	VBG	_	0	H	0:H	_
+3	to	to	ADP	IN	_	4	F	4:F	_
+4	tour	tour	NOUN	NN	_	2	A	2:A	_
+5	for	for	ADP	IN	_	9	R	9:R	_
+6	her	she	PRON	PRP	_	9	E	9:E	_
+7	past	past	ADJ	JJ	_	9	E	9:E	_
+8	two	two	NUM	CD	_	9	E	9:E	_
+9	albums	album	NOUN	NNS	_	4	A	4:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	Carey	Carey	PROPN	NNP	_	14	A	14:A|4:A|2:A	_
+12	agreed	agree	VERB	VBD	_	14	D	14:D	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	embark	embark	VERB	VB	_	2	H	2:H	_
+15	on	on	ADP	IN	_	21	R	21:R	_
+16	a	a	DET	DT	_	21	E	21:E	_
+17	short	short	ADJ	JJ	_	21	E	21:E	_
+18	stateside	stateside	NOUN	NN	_	21	E	21:E	_
+19	string	string	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	concerts	concert	NOUN	NNS	_	14	A	14:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	titled	title	VERB	VBN	_	21	E	21:E	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	Music	music	PROPN	NNP	_	27	E	27:E	_
+26	Box	Box	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	Tour	Tour	PROPN	NNP	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

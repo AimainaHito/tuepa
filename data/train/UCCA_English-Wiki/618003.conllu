@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 618003
+# text = Vee - Jay Records released them in the US .
+1	Vee	Vee	PROPN	NNP	_	4	E	4:E	_
+2	-	-	PUNCT	HYPH	_	1	U	1:U	_
+3	Jay	Jay	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Records	record	NOUN	NNS	_	5	A	5:A	_
+5	released	release	VERB	VBD	_	0	H	0:H	_
+6	them	they	PRON	PRP	_	5	A	5:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	US	US	PROPN	NNP	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

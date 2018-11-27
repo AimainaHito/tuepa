@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 674011
+# text = On April 30 , 2011 , the couple 's third wedding anniversary , Carey gave birth to fraternal twins via C - section .
+1	On	on	ADP	IN	_	12	L	12:L	_
+2	April	April	PROPN	NNP	_	12	D	12:D	_
+3	30	30	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2011	2011	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	12	U	12:U	_
+7	the	the	DET	DT	_	12	E	12:E	_
+8	couple	couple	NOUN	NN	_	12	E	12:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	third	third	ADJ	JJ	_	12	E	12:E	_
+11	wedding	wedding	NOUN	NN	_	12	E	12:E	_
+12	anniversary	anniversary	NOUN	NN	_	0	H	0:H	_
+13	,	,	PUNCT	,	_	12	U	12:U	_
+14	Carey	Carey	PROPN	NNP	_	15	A	15:A	_
+15	gave	give	VERB	VBD	_	12	H	12:H	_
+16	birth	birth	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	to	to	ADP	IN	_	19	R	19:R	_
+18	fraternal	fraternal	ADJ	JJ	_	19	E	19:E	_
+19	twins	twin	NOUN	NNS	_	0	C	0:C|23:A	_
+20	via	via	ADP	IN	_	12	L	12:L	_
+21	C	C	PROPN	NNP	_	23	E	23:E	_
+22	-	-	PUNCT	HYPH	_	23	U	23:U	_
+23	section	section	NOUN	NN	_	12	H	12:H	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25490055
+# text = » Daran erkenne ich Sie , Freund Conseil « , versetzte der ungeduldige Kanadier .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Daran	daran	ADV	PAV	_	3	A	3:A	_
+3	erkenne	erkennen	VERB	VVFIN	_	11	A	11:A	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	Sie	Sie|sie	PRON	PPER	_	3	A	3:A	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	Freund	Freund	PROPN	NN	_	8	E	8:E	_
+8	Conseil	Conseil	PROPN	NE	_	3	G	3:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+12	der	der	DET	ART	_	14	E	14:E	_
+13	ungeduldige	ungeduldig	ADJ	ADJA	_	14	E	14:E	_
+14	Kanadier	Kanadier	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

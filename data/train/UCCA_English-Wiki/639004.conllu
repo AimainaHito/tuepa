@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 639004
+# text = Staged at Madison Square Garden on 30 August 1972 , they were his last full - length concert appearances .
+1	Staged	Stage	VERB	VBN	_	0	H	0:H	_
+2	at	at	ADP	IN	_	3	R	3:R	_
+3	Madison	Madison	PROPN	NNP	_	1	A	1:A	_
+4	Square	Square	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	Garden	Garden	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	on	on	ADP	IN	_	9	R	9:R	_
+7	30	30	NUM	CD	_	9	E	9:E	_
+8	August	August	PROPN	NNP	_	9	E	9:E	_
+9	1972	1972	NUM	CD	_	1	D	1:D	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	they	they	PRON	PRP	_	12	A	12:A	_
+12	were	be	AUX	VBD	_	1	H	1:H	_
+13	his	he	PRON	PRP$	_	19	E	19:E	_
+14	last	last	ADJ	JJ	_	19	E	19:E	_
+15	full	full	ADJ	JJ	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	length	length	NOUN	NN	_	19	E	19:E	_
+18	concert	concert	NOUN	NN	_	19	E	19:E	_
+19	appearances	appearance	NOUN	NNS	_	12	A	12:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

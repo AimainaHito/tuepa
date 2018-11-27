@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 455012
+# text = In January , he anchored the first installment of Peter Jennings Reporting - hour - long , prime - time ABC News specials dedicated to exploring a single topic .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	January	January	PROPN	NNP	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	anchored	anchor	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	installment	installment	NOUN	NN	_	5	A	5:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	Peter	Peter	PROPN	NNP	_	8	E	8:E	_
+11	Jennings	Jennings	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Reporting	Reporting	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	-	-	PUNCT	HYPH	_	10	U	10:U	_
+14	hour	hour	NOUN	NN	_	16	E	16:E	_
+15	-	-	PUNCT	HYPH	_	16	U	16:U	_
+16	long	long	ADJ	JJ	_	23	E	23:E	_
+17	,	,	PUNCT	,	_	23	U	23:U	_
+18	prime	prime	ADJ	JJ	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	time	time	NOUN	NN	_	23	E	23:E	_
+21	ABC	Abc	NOUN	NN	_	22	E	22:E	_
+22	News	News	NOUN	NN	_	23	E	23:E	_
+23	specials	special	NOUN	NNS	_	26	A	26:A	_
+24	dedicated	dedicated	ADJ	JJ	_	26	D	26:D	_
+25	to	to	SCONJ	IN	_	26	F	26:F	_
+26	exploring	explore	VERB	VBG	_	10	E	10:E	_
+27	a	a	DET	DT	_	29	E	29:E	_
+28	single	single	ADJ	JJ	_	29	E	29:E	_
+29	topic	topic	NOUN	NN	_	26	A	26:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

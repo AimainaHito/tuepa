@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 460003
+# text = " We do not very often make recommendations for people 's behavior from this chair , " he said , " but ... if you 're a parent , you 've got a kid in some other part of the country , call them up . Exchange observations . "
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	We	we	PRON	PRP	_	8	A	8:A	_
+3	do	do	AUX	VBP	_	8	F	8:F	_
+4	not	not	PART	RB	_	8	D	8:D	_
+5	very	very	ADV	RB	_	6	E	6:E	_
+6	often	often	ADV	RB	_	8	D	8:D	_
+7	make	make	VERB	VB	_	8	F	8:F	_
+8	recommendations	recommendation	NOUN	NNS	_	19	A	19:A	_
+9	for	for	ADP	IN	_	12	R	12:R	_
+10	people	people	NOUN	NNS	_	12	E	12:E	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	behavior	behavior	NOUN	NN	_	8	A	8:A	_
+13	from	from	ADP	IN	_	15	R	15:R	_
+14	this	this	DET	DT	_	15	E	15:E	_
+15	chair	chair	NOUN	NN	_	8	A	8:A	_
+16	,	,	PUNCT	,	_	19	U	19:U	_
+17	"	"	PUNCT	''	_	19	U	19:U	_
+18	he	he	PRON	PRP	_	19	A	19:A	_
+19	said	say	VERB	VBD	_	0	H	0:H	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	"	"	PUNCT	``	_	19	U	19:U	_
+22	but	but	CCONJ	CC	_	8	L	8:L	_
+23	...	...	PUNCT	,	_	22	U	22:U	_
+24	if	if	SCONJ	IN	_	22	R	22:R	_
+25	you	you	PRON	PRP	_	26	A	26:A	_
+26	're	be	AUX	VBP	_	8	H	8:H	_
+27	a	a	DET	DT	_	28	E	28:E	_
+28	parent	parent	NOUN	NN	_	0	C	0:C|47:A	_
+29	,	,	PUNCT	,	_	8	U	8:U	_
+30	you	you	PRON	PRP	_	32	A	32:A	_
+31	've	have	AUX	VBP	_	32	F	32:F	_
+32	got	get	VERB	VBN	_	8	H	8:H	_
+33	a	a	DET	DT	_	34	E	34:E	_
+34	kid	kid	NOUN	NN	_	0	C	0:C|47:A	_
+35	in	in	ADP	IN	_	41	R	41:R	_
+36	some	some	DET	DT	_	38	E	38:E	_
+37	other	other	ADJ	JJ	_	38	E	38:E	_
+38	part	part	NOUN	NN	_	41	E	41:E	_
+39	of	of	ADP	IN	_	41	R	41:R	_
+40	the	the	DET	DT	_	41	E	41:E	_
+41	country	country	NOUN	NN	_	32	A	32:A	_
+42	,	,	PUNCT	,	_	8	U	8:U	_
+43	call	call	VERB	VB	_	8	H	8:H	_
+44	them	they	PRON	PRP	_	43	A	43:A	_
+45	up	up	ADP	RP	_	43	F	43:F	_
+46	.	.	PUNCT	.	_	8	U	8:U	_
+47	Exchange	Exchange	NOUN	NN	_	8	H	8:H	_
+48	observations	observation	NOUN	NNS	_	47	A	47:A	_
+49	.	.	PUNCT	.	_	47	U	47:U	_
+50	"	"	PUNCT	''	_	47	U	47:U	_
+

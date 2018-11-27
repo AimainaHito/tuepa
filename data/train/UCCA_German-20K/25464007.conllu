@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25464007
+# text = Die Entmutigung bahnte zuerst der Ungläubigkeit den Weg .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Entmutigung	Entmutigung	NOUN	NN	_	3	A	3:A	_
+3	bahnte	bahnen	VERB	VVFIN	_	0	H	0:H	_
+4	zuerst	zuerst	ADV	NE	_	3	D	3:D	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Ungläubigkeit	Ungläubigkeit	NOUN	NN	_	3	A	3:A	_
+7	den	der	DET	ART	_	3	Terminal	3:Terminal	_
+8	Weg	Weg	NOUN	NN	_	3	Terminal	3:Terminal	_
+9	.	.	PUNCT	$.	_	3	U	3:U	_
+

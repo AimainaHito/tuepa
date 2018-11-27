@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 478003
+# text = " Johnson was exceptional because he played point guard despite being 6 ft 9 in ( 2.06 m ) , a size reserved normally for frontcourt players .
+1	"	"	PUNCT	``	_	11	U	11:U	_
+2	Johnson	Johnson	PROPN	NNP	_	4	A	4:A|11:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	exceptional	exceptional	ADJ	JJ	_	0	H	0:H	_
+5	because	because	SCONJ	IN	_	4	L	4:L	_
+6	he	he	PRON	PRP	_	7	A	7:A	_
+7	played	play	VERB	VBD	_	4	H	4:H	_
+8	point	point	NOUN	NN	_	9	E	9:E	_
+9	guard	guard	NOUN	NN	_	7	A	7:A	_
+10	despite	despite	SCONJ	IN	_	4	L	4:L	_
+11	being	be	AUX	VBG	_	4	H	4:H	_
+12	6	6	NUM	CD	_	13	E	13:E	_
+13	ft	ft	NOUN	NNS	_	11	A	11:A	_
+14	9	9	NUM	CD	_	15	E	15:E	_
+15	in	in	ADP	IN	_	13	C	13:C	_
+16	(	(	PUNCT	-LRB-	_	13	U	13:U	_
+17	2.06	2.06	NUM	CD	_	18	E	18:E	_
+18	m	m	NUM	CD	_	13	C	13:C	_
+19	)	)	PUNCT	-RRB-	_	13	U	13:U	_
+20	,	,	PUNCT	,	_	13	U	13:U	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	size	size	NOUN	NN	_	23	A	23:A	_
+23	reserved	reserve	VERB	VBN	_	13	E	13:E	_
+24	normally	normally	ADV	RB	_	23	D	23:D	_
+25	for	for	ADP	IN	_	27	R	27:R	_
+26	frontcourt	frontcourt	ADJ	JJ	_	27	E	27:E	_
+27	players	player	NOUN	NNS	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

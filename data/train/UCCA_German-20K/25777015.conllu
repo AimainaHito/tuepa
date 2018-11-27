@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25777015
+# text = Es war noch die Beobachtung zu machen , um unsre Lage aufzunehmen .
+1	Es	es	PRON	PPER	_	7	F	7:F	_
+2	war	sein	AUX	ADV	_	7	D	7:D	_
+3	noch	noch	ADV	VVINF	_	7	D	7:D	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Beobachtung	Beobachtung	NOUN	NN	_	7	A	7:A	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	machen	machen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	um	um	ADP	KOUI	_	7	L	7:L	_
+10	unsre	unsr	ADJ	ADJA	_	11	E	11:E	_
+11	Lage	Lage	NOUN	NN	_	12	A	12:A	_
+12	aufzunehmen	aufnehmen	VERB	VVIZU	_	7	H	7:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 510008
+# text = Following recuperation from the heart attack , Bowie has reduced his musical output , making only one - off appearances on stage and in the studio .
+1	Following	follow	VERB	VBG	_	2	L	2:L	_
+2	recuperation	recuperation	NOUN	NN	_	0	H	0:H	_
+3	from	from	ADP	IN	_	6	R	6:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	heart	heart	NOUN	NN	_	6	E	6:E	_
+6	attack	attack	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	Bowie	Bowie	PROPN	NNP	_	10	A	10:A|20:A|2:A	_
+9	has	have	AUX	VBZ	_	10	F	10:F	_
+10	reduced	reduce	VERB	VBN	_	2	H	2:H	_
+11	his	he	PRON	PRP$	_	13	E	13:E	_
+12	musical	musical	ADJ	JJ	_	13	E	13:E	_
+13	output	output	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	making	make	VERB	VBG	_	20	F	20:F	_
+16	only	only	ADV	RB	_	20	D	20:D	_
+17	one	one	NUM	CD	_	20	E	20:E	_
+18	-	-	PUNCT	HYPH	_	17	U	17:U	_
+19	off	off	NOUN	NN	_	17	Terminal	17:Terminal	_
+20	appearances	appearance	NOUN	NNS	_	2	H	2:H	_
+21	on	on	ADP	IN	_	22	R	22:R	_
+22	stage	stage	NOUN	NN	_	20	A	20:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	studio	studio	NOUN	NN	_	22	C	22:C	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

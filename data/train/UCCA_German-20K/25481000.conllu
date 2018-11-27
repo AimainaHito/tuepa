@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25481000
+# text = Ned Land begab sich auf seinen Posten .
+1	Ned	Ned	PROPN	NN	_	3	A	3:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	begab	begeben	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	seinen	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Posten	Posten	NOUN	NN	_	3	A	3:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

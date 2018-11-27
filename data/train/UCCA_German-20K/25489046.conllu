@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25489046
+# text = Der Mann war stolz , sein fester und ruhiger Blick schien hohe Gedanken zu bergen , und aus all diesem , der Übereinstimmung von Körper bewegungen mit den Gesichts zügen , sprach unbestreitbar eine offene Seele .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Mann	Mann	NOUN	NN	_	4	A	4:A	_
+3	war	sein	AUX	ADV	_	4	F	4:F	_
+4	stolz	stolz	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	sein	sein	AUX	PPOSAT	_	10	E	10:E	_
+7	fester	fest	ADJ	ADJA	_	10	E	10:E	_
+8	und	und	CCONJ	NE	_	7	N	7:N	_
+9	ruhiger	ruhig	ADJ	ADJA	_	7	C	7:C	_
+10	Blick	Blick	NOUN	NN	_	11	A	11:A	_
+11	schien	scheinen	VERB	VVFIN	_	4	H	4:H	_
+12	hohe	hoch	ADJ	ADJA	_	13	E	13:E	_
+13	Gedanken	Gedanke	NOUN	NN	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	bergen	bergen	VERB	VVINF	_	11	A	11:A	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	und	und	CCONJ	NE	_	4	L	4:L	_
+18	aus	aus	ADP	APPR	_	20	R	20:R	_
+19	all	all	PRON	PIAT	_	20	E	20:E	_
+20	diesem	dies	PRON	PDS	_	32	A	32:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	der	der	DET	ART	_	23	R	23:R	_
+23	Übereinstimmung	Übereinstimmung	NOUN	NN	_	20	C	20:C	_
+24	von	von	ADP	NE	_	26	R	26:R	_
+25	Körper	Körper	NOUN	NE	_	26	E	26:E	_
+26	bewegungen	bewegungen	VERB	NE	_	23	E	23:E	_
+27	mit	mit	ADP	APPR	_	26	N	26:N	_
+28	den	der	DET	ART	_	30	E	30:E	_
+29	Gesichts	Gesicht	NOUN	NN	_	30	E	30:E	_
+30	zügen	zügen	VERB	VVINF	_	26	C	26:C	_
+31	,	,	PUNCT	$,	_	32	U	32:U	_
+32	sprach	sprechen	VERB	VVFIN	_	4	H	4:H	_
+33	unbestreitbar	unbestreitbar	ADJ	ADJD	_	32	D	32:D	_
+34	eine	ein	DET	ART	_	36	E	36:E	_
+35	offene	offen	ADJ	ADJA	_	36	E	36:E	_
+36	Seele	Seele	NOUN	NN	_	32	A	32:A	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

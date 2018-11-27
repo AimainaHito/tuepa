@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 503009
+# text = The final piece in what Bowie called his " triptych " , Lodger ( 1979 ) , eschewed the minimalist , ambient nature of the other two , making a partial return to the drum- and guitar - based rock and pop of his pre - Berlin era .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	final	final	ADJ	JJ	_	3	E	3:E	_
+3	piece	piece	NOUN	NN	_	13	E	13:E	_
+4	in	in	SCONJ	IN	_	7	R	7:R	_
+5	what	what	PRON	WP	_	7	F	7:F	_
+6	Bowie	Bowie	PROPN	NNP	_	7	A	7:A	_
+7	called	call	VERB	VBD	_	3	E	3:E	_
+8	his	he	PRON	PRP$	_	10	E	10:E	_
+9	"	"	PUNCT	``	_	10	U	10:U	_
+10	triptych	triptych	NOUN	NN	_	7	A	7:A	_
+11	"	"	PUNCT	''	_	13	U	13:U	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	Lodger	Lodger	PROPN	NNP	_	0	C	0:C|32:A	_
+14	(	(	PUNCT	-LRB-	_	13	U	13:U	_
+15	1979	1979	NUM	CD	_	13	E	13:E	_
+16	)	)	PUNCT	-RRB-	_	18	U	18:U	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	eschewed	eschew	VERB	VBD	_	0	H	0:H	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	minimalist	minimalist	NOUN	NN	_	23	E	23:E	_
+21	,	,	PUNCT	,	_	20	U	20:U	_
+22	ambient	ambient	ADJ	JJ	_	20	C	20:C	_
+23	nature	nature	NOUN	NN	_	18	A	18:A	_
+24	of	of	ADP	IN	_	27	R	27:R	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	other	other	ADJ	JJ	_	27	E	27:E	_
+27	two	two	NUM	CD	_	23	E	23:E	_
+28	,	,	PUNCT	,	_	18	U	18:U	_
+29	making	make	VERB	VBG	_	32	F	32:F	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	partial	partial	ADJ	JJ	_	32	D	32:D	_
+32	return	return	NOUN	NN	_	18	H	18:H	_
+33	to	to	ADP	IN	_	39	R	39:R	_
+34	the	the	DET	DT	_	39	E	39:E	_
+35	drum-	drum-	SYM	NFP	_	39	E	39:E	_
+36	and	and	CCONJ	CC	_	35	N	35:N	_
+37	guitar	guitar	NOUN	NN	_	35	C	35:C	_
+38	-	-	PUNCT	HYPH	_	39	U	39:U	_
+39	based	base	VERB	VBN	_	40	E	40:E	_
+40	rock	rock	NOUN	NN	_	32	A	32:A	_
+41	and	and	CCONJ	CC	_	40	N	40:N	_
+42	pop	pop	NOUN	NN	_	40	C	40:C	_
+43	of	of	ADP	IN	_	48	R	48:R	_
+44	his	he	PRON	PRP$	_	48	E	48:E	_
+45	pre	pre	X	AFX	_	47	E	47:E	_
+46	-	-	PUNCT	HYPH	_	47	U	47:U	_
+47	Berlin	Berlin	PROPN	NNP	_	48	E	48:E	_
+48	era	era	PROPN	NNP	_	40	E	40:E	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

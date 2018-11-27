@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25633021
+# text = Ich konnte nur noch unklar die Insel Queboroar wahrnehmen .
+1	Ich	ich	PRON	PPER	_	9	A	9:A	_
+2	konnte	können	AUX	VMFIN	_	9	D	9:D	_
+3	nur	nur	ADV	NE	_	9	D	9:D	_
+4	noch	noch	ADV	VVINF	_	3	Terminal	3:Terminal	_
+5	unklar	unklar	ADJ	ADJD	_	9	D	9:D	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	Insel	Insel	NOUN	NN	_	8	E	8:E	_
+8	Queboroar	Queboroar	PROPN	NE	_	9	A	9:A	_
+9	wahrnehmen	wahrnehmen	VERB	VVINF	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

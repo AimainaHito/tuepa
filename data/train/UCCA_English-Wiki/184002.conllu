@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 184002
+# text = " She auditioned for admission to Eva LeGallienne 's Manhattan Civic Repertory , but was rejected by LeGallienne who described her attitude as " insincere " and " frivolous " . She was accepted by the John Murray Anderson School of Theatre , and studied dance with Martha Graham .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	She	she	PRON	PRP	_	3	A	3:A|16:A	_
+3	auditioned	audition	VERB	VBD	_	0	H	0:H	_
+4	for	for	ADP	IN	_	5	R	5:R	_
+5	admission	admission	NOUN	NN	_	3	A	3:A	_
+6	to	to	ADP	IN	_	12	R	12:R	_
+7	Eva	eva	PROPN	NNP	_	12	E	12:E	_
+8	LeGallienne	LeGallienne	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	's	's	PART	POS	_	7	R	7:R	_
+10	Manhattan	Manhattan	PROPN	NNP	_	12	E	12:E	_
+11	Civic	civic	PROPN	NNP	_	12	E	12:E	_
+12	Repertory	Repertory	PROPN	NNP	_	5	A	5:A	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	but	but	CCONJ	CC	_	3	L	3:L	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	rejected	reject	VERB	VBN	_	3	H	3:H	_
+17	by	by	ADP	IN	_	18	R	18:R	_
+18	LeGallienne	LeGallienne	PROPN	NNP	_	16	A	16:A	_
+19	who	who	PRON	WP	_	20	R	20:R	_
+20	described	describe	VERB	VBD	_	18	E	18:E	_
+21	her	she	PRON	PRP$	_	22	E	22:E	_
+22	attitude	attitude	NOUN	NN	_	20	A	20:A	_
+23	as	as	ADP	IN	_	25	R	25:R	_
+24	"	"	PUNCT	``	_	25	U	25:U	_
+25	insincere	insincere	NOUN	NN	_	20	A	20:A	_
+26	"	"	PUNCT	''	_	25	U	25:U	_
+27	and	and	CCONJ	CC	_	25	N	25:N	_
+28	"	"	PUNCT	``	_	25	U	25:U	_
+29	frivolous	frivolous	ADJ	JJ	_	25	C	25:C	_
+30	"	"	PUNCT	''	_	3	U	3:U	_
+31	.	.	PUNCT	.	_	3	U	3:U	_
+32	She	she	PRON	PRP	_	34	A	34:A|45:A	_
+33	was	be	AUX	VBD	_	34	F	34:F	_
+34	accepted	accept	VERB	VBN	_	3	H	3:H	_
+35	by	by	ADP	IN	_	40	R	40:R	_
+36	the	the	DET	DT	_	40	E	40:E	_
+37	John	John	PROPN	NNP	_	40	E	40:E	_
+38	Murray	Murray	PROPN	NNP	_	37	Terminal	37:Terminal	_
+39	Anderson	Anderson	PROPN	NNP	_	37	Terminal	37:Terminal	_
+40	School	School	PROPN	NNP	_	34	A	34:A	_
+41	of	of	ADP	IN	_	40	R	40:R	_
+42	Theatre	theatre	PROPN	NNP	_	40	E	40:E	_
+43	,	,	PUNCT	,	_	3	U	3:U	_
+44	and	and	CCONJ	CC	_	3	L	3:L	_
+45	studied	studie	VERB	VBN	_	3	H	3:H	_
+46	dance	dance	NOUN	NN	_	45	A	45:A	_
+47	with	with	ADP	IN	_	48	R	48:R	_
+48	Martha	Martha	PROPN	NNP	_	45	A	45:A	_
+49	Graham	Graham	PROPN	NNP	_	48	Terminal	48:Terminal	_
+50	.	.	PUNCT	.	_	48	U	48:U	_
+

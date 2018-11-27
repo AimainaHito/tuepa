@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25675005
+# text = In Beziehung auf Ned Land , gestehe ich , fühlte ich mich nicht so sicher seiner Klugheit .
+1	In	in	ADP	APPR	_	4	R	4:R	_
+2	Beziehung	Beziehung	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	auf	auf	ADP	APPR	_	1	Terminal	1:Terminal	_
+4	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+5	Land	Land	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	gestehe	gestehen	VERB	VVFIN	_	10	H	10:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A	_
+12	mich	ich	PRON	PRF	_	10	Terminal	10:Terminal	_
+13	nicht	nicht	PART	CARD	_	10	D	10:D	_
+14	so	so	ADV	ADV	_	10	D	10:D	_
+15	sicher	sicher	ADJ	ADJD	_	10	D	10:D	_
+16	seiner	sein	DET	PPOSAT	_	17	R	17:R	_
+17	Klugheit	Klugheit	NOUN	NN	_	10	A	10:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

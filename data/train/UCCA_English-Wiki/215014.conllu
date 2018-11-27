@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 215014
+# text = She later explained : " When I read it , I was 15 and I do n't think I was mature enough to understand the script 's material .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	explained	explain	VERB	VBD	_	0	H	0:H	_
+4	:	:	PUNCT	:	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	When	when	ADV	WRB	_	8	L	8:L	_
+7	I	I	PRON	PRP	_	8	A	8:A	_
+8	read	read	VERB	VBD	_	3	A	3:A	_
+9	it	it	PRON	PRP	_	8	A	8:A	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	I	I	PRON	PRP	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	15	15	NUM	CD	_	8	H	8:H	_
+14	and	and	CCONJ	CC	_	8	L	8:L	_
+15	I	I	PRON	PRP	_	18	A	18:A	_
+16	do	do	AUX	VBP	_	18	F	18:F	_
+17	n't	not	PART	RB	_	18	D	18:D	_
+18	think	think	VERB	VB	_	8	H	8:H	_
+19	I	I	PRON	PRP	_	21	A	21:A|24:A	_
+20	was	be	AUX	VBD	_	21	F	21:F	_
+21	mature	mature	ADJ	JJ	_	18	A	18:A	_
+22	enough	enough	ADV	RB	_	21	D	21:D	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	understand	understand	VERB	VB	_	21	A	21:A	_
+25	the	the	DET	DT	_	28	E	28:E	_
+26	script	script	NOUN	NN	_	28	E	28:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	material	material	NOUN	NN	_	24	A	24:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

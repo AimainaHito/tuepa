@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 132002
+# text = As part of the deal she also received the director of her choice , George Cukor , but the co - stars she wanted , Clark Gable and Spencer Tracy , were both unavailable .
+1	As	as	ADP	IN	_	5	R	5:R	_
+2	part	part	NOUN	NN	_	5	E	5:E	_
+3	of	of	ADP	IN	_	5	E	5:E	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	deal	deal	NOUN	NN	_	8	A	8:A	_
+6	she	she	PRON	PRP	_	8	A	8:A	_
+7	also	also	ADV	RB	_	8	D	8:D	_
+8	received	receive	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	director	director	NOUN	NN	_	15	E	15:E	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	choice	choice	NOUN	NN	_	10	E	10:E	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	George	George	PROPN	NNP	_	8	A	8:A	_
+16	Cukor	Cukor	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	8	U	8:U	_
+18	but	but	CCONJ	CC	_	8	L	8:L	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	co	co	X	AFX	_	22	E	22:E	_
+21	-	-	PUNCT	HYPH	_	22	U	22:U	_
+22	stars	star	NOUN	NNS	_	26	E	26:E	_
+23	she	she	PRON	PRP	_	24	A	24:A	_
+24	wanted	want	VERB	VBD	_	22	E	22:E	_
+25	,	,	PUNCT	,	_	26	U	26:U	_
+26	Clark	Clark	PROPN	NNP	_	34	A	34:A	_
+27	Gable	Gable	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	and	and	CCONJ	CC	_	26	N	26:N	_
+29	Spencer	Spencer	PROPN	NNP	_	26	C	26:C	_
+30	Tracy	Tracy	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	,	,	PUNCT	,	_	34	U	34:U	_
+32	were	be	AUX	VBD	_	34	F	34:F	_
+33	both	both	ADV	RB	_	34	D	34:D	_
+34	unavailable	unavailable	ADJ	JJ	_	8	H	8:H	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

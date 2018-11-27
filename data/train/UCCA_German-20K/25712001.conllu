@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25712001
+# text = » Das werd' ich nicht vergessen , mein Herr . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Das	der	DET	ART	_	6	A	6:A	_
+3	werd'	werd'	NOUN	NE	_	6	F	6:F	_
+4	ich	ich	PRON	PPER	_	6	A	6:A	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	vergessen	vergessen	VERB	VVPP	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	mein	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Herr	Herr	NOUN	NN	_	6	G	6:G	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 144001
+# text = Hepburn found humor in the morbid theme , but reviews were negative and the box office was poor .
+1	Hepburn	Hepburn	PROPN	NNP	_	3	A	3:A	_
+2	found	find	VERB	VBD	_	3	D	3:D	_
+3	humor	humor	NOUN	NN	_	0	H	0:H	_
+4	in	in	ADP	IN	_	7	R	7:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	morbid	morbid	ADJ	JJ	_	7	E	7:E	_
+7	theme	theme	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	but	but	CCONJ	CC	_	3	L	3:L	_
+10	reviews	review	NOUN	NNS	_	12	A	12:A	_
+11	were	be	AUX	VBD	_	12	F	12:F	_
+12	negative	negative	ADJ	JJ	_	3	H	3:H	_
+13	and	and	CCONJ	CC	_	3	L	3:L	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	box	box	NOUN	NN	_	16	E	16:E	_
+16	office	office	NOUN	NN	_	18	A	18:A	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	poor	poor	ADJ	JJ	_	3	H	3:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

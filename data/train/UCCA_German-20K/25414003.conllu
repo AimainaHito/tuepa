@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25414003
+# text = Ich war über die Tages frage vollständig in Kenntnis gesetzt .
+1	Ich	ich	PRON	PPER	_	8	A	8:A	_
+2	war	sein	VERB	ADV	_	8	F	8:F	_
+3	über	über	ADP	ADJD	_	6	R	6:R	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Tages	Tag	NOUN	NN	_	6	E	6:E	_
+6	frage	fragen	VERB	VVFIN	_	8	A	8:A	_
+7	vollständig	vollständig	ADJ	ADJD	_	8	D	8:D	_
+8	in	in	ADP	APPR	_	0	H	0:H	_
+9	Kenntnis	Kenntnis	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	gesetzt	setzen	VERB	VVPP	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

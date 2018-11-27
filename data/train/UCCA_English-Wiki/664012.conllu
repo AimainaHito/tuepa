@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 664012
+# text = " Allmusic editor Stephen Thomas Erlewine described Carey 's vocals as " sultrier and more controlled than ever " , and heralded Butterfly as her " best record and illustrates that Carey continues to improve and refine her music , which makes her a rarity among her ' 90s peers .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	Allmusic	Allmusic	ADJ	JJ	_	3	E	3:E	_
+3	editor	editor	NOUN	NN	_	0	C	0:C|22:A	_
+4	Stephen	Stephen	PROPN	NNP	_	0	C	0:C|30:A	_
+5	Thomas	Thomas	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Erlewine	Erlewine	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	described	describe	VERB	VBD	_	0	H	0:H	_
+8	Carey	Carey	PROPN	NNP	_	10	E	10:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	vocals	vocal	NOUN	NNS	_	7	A	7:A	_
+11	as	as	SCONJ	IN	_	13	R	13:R	_
+12	"	"	PUNCT	``	_	13	U	13:U	_
+13	sultrier	sultrier	NOUN	NN	_	7	A	7:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	more	more	ADV	RBR	_	13	D	13:D	_
+16	controlled	control	VERB	VBN	_	13	C	13:C	_
+17	than	than	ADP	IN	_	18	R	18:R	_
+18	ever	ever	ADV	RB	_	13	D	13:D	_
+19	"	"	PUNCT	''	_	7	U	7:U	_
+20	,	,	PUNCT	,	_	7	U	7:U	_
+21	and	and	CCONJ	CC	_	7	L	7:L	_
+22	heralded	herald	VERB	VBN	_	7	H	7:H	_
+23	Butterfly	butterfly	ADV	RB	_	22	A	22:A	_
+24	as	as	ADP	IN	_	28	R	28:R	_
+25	her	she	PRON	PRP$	_	28	E	28:E	_
+26	"	"	PUNCT	``	_	28	U	28:U	_
+27	best	best	ADJ	JJS	_	28	E	28:E	_
+28	record	record	NOUN	NN	_	22	A	22:A	_
+29	and	and	CCONJ	CC	_	7	L	7:L	_
+30	illustrates	illustrate	VERB	VBZ	_	7	H	7:H	_
+31	that	that	SCONJ	IN	_	35	F	35:F	_
+32	Carey	Carey	PROPN	NNP	_	35	A	35:A	_
+33	continues	continue	VERB	VBZ	_	35	D	35:D	_
+34	to	to	PART	TO	_	35	F	35:F	_
+35	improve	improve	VERB	VB	_	30	A	30:A	_
+36	and	and	CCONJ	CC	_	35	N	35:N	_
+37	refine	refine	VERB	VB	_	35	C	35:C	_
+38	her	she	PRON	PRP$	_	39	E	39:E	_
+39	music	music	NOUN	NN	_	35	A	35:A	_
+40	,	,	PUNCT	,	_	7	U	7:U	_
+41	which	which	PRON	WDT	_	7	L	7:L	_
+42	makes	make	VERB	VBZ	_	7	H	7:H	_
+43	her	she	PRON	PRP	_	42	A	42:A	_
+44	a	a	DET	DT	_	45	E	45:E	_
+45	rarity	rarity	NOUN	NN	_	42	A	42:A	_
+46	among	among	ADP	IN	_	50	R	50:R	_
+47	her	she	PRON	PRP	_	50	E	50:E	_
+48	'	'	PUNCT	``	_	50	U	50:U	_
+49	90s	90	NOUN	NNS	_	50	E	50:E	_
+50	peers	peer	NOUN	NNS	_	42	A	42:A	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+

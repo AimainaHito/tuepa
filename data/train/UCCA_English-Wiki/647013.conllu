@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 647013
+# text = By December he and Pang were considering a house purchase , and he was refusing to accept Ono 's telephone calls .
+1	By	by	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	10	D	10:D	_
+3	he	he	PRON	PRP	_	10	A	10:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	Pang	Pang	PROPN	NNP	_	3	C	3:C	_
+6	were	be	AUX	VBD	_	10	F	10:F	_
+7	considering	consider	VERB	VBG	_	10	D	10:D	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	house	house	NOUN	NN	_	10	A	10:A	_
+10	purchase	purchase	NOUN	NN	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	and	and	CCONJ	CC	_	10	L	10:L	_
+13	he	he	PRON	PRP	_	17	A	17:A	_
+14	was	be	AUX	VBD	_	17	F	17:F	_
+15	refusing	refuse	VERB	VBG	_	17	D	17:D	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	accept	accept	VERB	VB	_	10	H	10:H	_
+18	Ono	Ono	PROPN	NNP	_	21	E	21:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	telephone	telephone	NOUN	NN	_	21	E	21:E	_
+21	calls	call	NOUN	NNS	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

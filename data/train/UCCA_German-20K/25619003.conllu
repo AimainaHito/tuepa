@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25619003
+# text = » Nun , Freund Ned , wir warten ruhig die Flut am 9 . ab , denn es scheint , Luna wird so gefällig sein , uns wieder flott zu machen . «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Nun	nun	ADV	ADV	_	8	F	8:F	_
+3	,	,	PUNCT	$,	_	8	U	8:U	_
+4	Freund	Freund	PROPN	NE	_	5	E	5:E	_
+5	Ned	Ned	PROPN	NE	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	wir	wir	PRON	NE	_	8	A	8:A	_
+8	warten	warten	VERB	VVINF	_	0	H	0:H	_
+9	ruhig	ruhig	ADJ	ADJD	_	8	D	8:D	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Flut	Flut	NOUN	NN	_	8	A	8:A	_
+12	am	am	ADV	ADJD	_	13	E	13:E	_
+13	9	9	NUM	CARD	_	8	D	8:D	_
+14	.	.	PUNCT	$.	_	8	U	8:U	_
+15	ab	ab	ADP	PTKVZ	_	8	Terminal	8:Terminal	_
+16	,	,	PUNCT	$,	_	8	U	8:U	_
+17	denn	denn	CCONJ	KON	_	8	L	8:L	_
+18	es	es	PRON	PPER	_	24	F	24:F	_
+19	scheint	scheinen	VERB	VVFIN	_	24	G	24:G	_
+20	,	,	PUNCT	$,	_	24	U	24:U	_
+21	Luna	Luna	PROPN	NE	_	24	A	24:A|29:A	_
+22	wird	werden	AUX	VAFIN	_	24	F	24:F	_
+23	so	so	ADV	ADV	_	24	D	24:D	_
+24	gefällig	gefällig	ADJ	ADJD	_	8	H	8:H	_
+25	sein	sein	AUX	VAINF	_	24	F	24:F	_
+26	,	,	PUNCT	$,	_	24	U	24:U	_
+27	uns	wir	PRON	NN	_	29	A	29:A	_
+28	wieder	wieder	ADV	NE	_	29	D	29:D	_
+29	flott	flott	ADV	ADJD	_	24	A	24:A	_
+30	zu	zu	PART	VVINF	_	29	F	29:F	_
+31	machen	machen	VERB	VVINF	_	29	Terminal	29:Terminal	_
+32	.	.	PUNCT	$.	_	29	U	29:U	_
+33	«	«	PUNCT	$(	_	29	U	29:U	_
+

@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25808020
+# text = » Aber was ist denn Wahres an den Wunder geschichten ? « fragte Conseil .
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+3	was	was	PRON	NE	_	6	A	6:A	_
+4	ist	sein	AUX	VVFIN	_	6	F	6:F	_
+5	denn	denn	ADV	KON	_	6	F	6:F	_
+6	Wahres	wahr	NOUN	PPOSAT	_	13	A	13:A	_
+7	an	an	ADP	APPR	_	10	R	10:R	_
+8	den	der	DET	ART	_	10	E	10:E	_
+9	Wunder	Wunder	NOUN	NN	_	10	E	10:E	_
+10	geschichten	geschichten	VERB	VVINF	_	6	A	6:A	_
+11	?	?	PUNCT	$.	_	13	U	13:U	_
+12	«	«	PUNCT	$(	_	13	U	13:U	_
+13	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+14	Conseil	Conseil	NOUN	NE	_	13	A	13:A	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 114009
+# text = The screen - partnership spanned 25 years , and produced nine movies .
+1	The	the	DET	DT	_	4	E	4:E	_
+2	screen	screen	NOUN	NN	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	partnership	partnership	NOUN	NN	_	5	A	5:A|10:A	_
+5	spanned	span	VERB	VBD	_	0	H	0:H	_
+6	25	25	NUM	CD	_	7	E	7:E	_
+7	years	year	NOUN	NNS	_	5	D	5:D	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	and	and	CCONJ	CC	_	5	L	5:L	_
+10	produced	produce	VERB	VBN	_	5	H	5:H	_
+11	nine	nine	NUM	CD	_	12	E	12:E	_
+12	movies	movie	NOUN	NNS	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

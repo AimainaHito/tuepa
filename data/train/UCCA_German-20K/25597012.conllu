@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25597012
+# text = Bei 10 Meter Tiefe wandelten wir inmitten eines Schwarms kleiner Fische aller Art , die zahlreicher waren als die Vögel in der Luft , auch weit beweglicher ; aber ein Wildpret , das eines Schusses würdig gewesen wäre , war uns noch nicht aufgestoßen .
+1	Bei	bei	ADP	APPR	_	2	E	2:E	_
+2	10	10	NUM	CARD	_	5	A	5:A	_
+3	Meter	Meter	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	Tiefe	Tiefe	NOUN	NN	_	2	E	2:E	_
+5	wandelten	wandeln	VERB	VVFIN	_	0	H	0:H	_
+6	wir	wir	PRON	NE	_	5	A	5:A	_
+7	inmitten	inmitten	ADP	APPR	_	11	R	11:R	_
+8	eines	ein	DET	ART	_	9	E	9:E	_
+9	Schwarms	Schwarm	NOUN	NN	_	11	E	11:E	_
+10	kleiner	klein	ADJ	ADJD	_	11	E	11:E	_
+11	Fische	Fisch	NOUN	NN	_	5	A	5:A	_
+12	aller	alle	PRON	PIAT	_	13	E	13:E	_
+13	Art	Art	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	11	U	11:U	_
+15	die	der	PRON	PRELS	_	16	R	16:R	_
+16	zahlreicher	zahlreicher	ADJ	VVFIN	_	11	E	11:E	_
+17	waren	sein	AUX	VAFIN	_	16	F	16:F	_
+18	als	als	ADP	KOKOM	_	20	R	20:R	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Vögel	Vogel	NOUN	NN	_	16	A	16:A	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	der	der	DET	ART	_	23	E	23:E	_
+23	Luft	Luft	NOUN	NN	_	16	A	16:A	_
+24	,	,	PUNCT	$,	_	11	U	11:U	_
+25	auch	auch	ADV	ADV	_	27	D	27:D	_
+26	weit	weit	ADJ	ADJD	_	27	D	27:D	_
+27	beweglicher	beweglich	ADJ	ADJA	_	11	E	11:E	_
+28	;	;	PUNCT	$.	_	5	U	5:U	_
+29	aber	aber	ADV	KON	_	5	L	5:L	_
+30	ein	ein	DET	ART	_	31	E	31:E	_
+31	Wildpret	Wildpret	NOUN	NN	_	44	A	44:A	_
+32	,	,	PUNCT	$,	_	31	U	31:U	_
+33	das	der	PRON	PRELS	_	36	R	36:R	_
+34	eines	ein	DET	ART	_	35	E	35:E	_
+35	Schusses	Schuß	NOUN	NN	_	36	A	36:A	_
+36	würdig	würdig	ADJ	ADJD	_	31	E	31:E	_
+37	gewesen	sein	AUX	PAV	_	36	F	36:F	_
+38	wäre	sein	AUX	ADV	_	36	F	36:F	_
+39	,	,	PUNCT	$,	_	44	U	44:U	_
+40	war	sein	AUX	ADV	_	44	F	44:F	_
+41	uns	wir	PRON	NN	_	44	A	44:A	_
+42	noch	noch	ADV	CARD	_	43	E	43:E	_
+43	nicht	nicht	PART	CARD	_	44	D	44:D	_
+44	aufgestoßen	aufgestoßen	VERB	ADJA	_	5	H	5:H	_
+45	.	.	PUNCT	$.	_	44	U	44:U	_
+

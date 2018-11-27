@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 698000
+# text = While Dylan and the Hawks met increasingly receptive audiences on tour , their studio efforts floundered .
+1	While	while	SCONJ	IN	_	6	L	6:L	_
+2	Dylan	Dylan	PROPN	NNP	_	6	A	6:A	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Hawks	Hawks	PROPN	NNPS	_	2	C	2:C	_
+6	met	meet	VERB	VBD	_	0	H	0:H	_
+7	increasingly	increasingly	ADV	RB	_	8	D	8:D	_
+8	receptive	receptive	ADJ	JJ	_	6	A	6:A	_
+9	audiences	audience	NOUN	NNS	_	8	A	8:A	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	tour	tour	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	their	they	PRON	PRP$	_	15	E	15:E	_
+14	studio	studio	NOUN	NN	_	15	E	15:E	_
+15	efforts	effort	NOUN	NNS	_	16	A	16:A	_
+16	floundered	flounder	VERB	VBD	_	6	H	6:H	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

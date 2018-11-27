@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25647004
+# text = Seine so ergriffenen Züge wurden wieder ruhig wie gewöhnlich .
+1	Seine	sein	DET	PPOSAT	_	4	E	4:E	_
+2	so	so	ADV	ADV	_	3	D	3:D	_
+3	ergriffenen	ergriffen	ADJ	ADJA	_	4	E	4:E	_
+4	Züge	Zug	NOUN	NN	_	7	A	7:A	_
+5	wurden	werden	AUX	ADJD	_	7	F	7:F	_
+6	wieder	wieder	ADV	NN	_	7	D	7:D	_
+7	ruhig	ruhig	ADJ	ADJD	_	0	H	0:H	_
+8	wie	wie	CCONJ	ADV	_	9	E	9:E	_
+9	gewöhnlich	gewöhnlich	ADJ	ADJD	_	7	D	7:D	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 493006
+# text = His Irish mother , Margaret Mary " Peggy " ( née Burns ) , worked as a cinema usherette , while his father , Haywood Stenton " John " Jones , was a promotions officer for Barnardo 's .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	Irish	irish	ADJ	JJ	_	3	E	3:E	_
+3	mother	mother	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Margaret	Margaret	PROPN	NNP	_	15	A	15:A	_
+6	Mary	Mary	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	"	"	PUNCT	``	_	5	U	5:U	_
+8	Peggy	Peggy	PROPN	NNP	_	5	E	5:E	_
+9	"	"	PUNCT	''	_	5	U	5:U	_
+10	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+11	née	née	ADJ	JJ	_	5	E	5:E	_
+12	Burns	burns	NOUN	NNS	_	11	A	11:A	_
+13	)	)	PUNCT	-RRB-	_	15	U	15:U	_
+14	,	,	PUNCT	,	_	15	U	15:U	_
+15	worked	work	VERB	VBD	_	0	H	0:H	_
+16	as	as	ADP	IN	_	19	R	19:R	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	cinema	cinema	NOUN	NN	_	19	E	19:E	_
+19	usherette	usherette	NOUN	NN	_	15	A	15:A	_
+20	,	,	PUNCT	,	_	15	U	15:U	_
+21	while	while	SCONJ	IN	_	15	L	15:L	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	father	father	NOUN	NN	_	25	E	25:E	_
+24	,	,	PUNCT	,	_	25	U	25:U	_
+25	Haywood	Haywood	PROPN	NNP	_	32	A	32:A	_
+26	Stenton	Stenton	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	"	"	PUNCT	``	_	25	U	25:U	_
+28	John	John	PROPN	NNP	_	25	Terminal	25:Terminal	_
+29	"	"	PUNCT	''	_	25	U	25:U	_
+30	Jones	Jones	PROPN	NNP	_	25	Terminal	25:Terminal	_
+31	,	,	PUNCT	,	_	32	U	32:U	_
+32	was	be	AUX	VBD	_	15	H	15:H	_
+33	a	a	DET	DT	_	35	E	35:E	_
+34	promotions	promotion	NOUN	NNS	_	35	E	35:E	_
+35	officer	officer	NOUN	NN	_	32	A	32:A	_
+36	for	for	ADP	IN	_	37	R	37:R	_
+37	Barnardo	Barnardo	PROPN	NNP	_	35	E	35:E	_
+38	's	's	PART	POS	_	37	R	37:R	_
+39	.	.	PUNCT	.	_	37	U	37:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25797007
+# text = Wir dagegen brauchten uns nicht zurück zu halten , konnten unseren Lungen die volle Erquickung des Einatmens gönnen , und der See wind selbst übergoß uns mit dieser Wonne der Trunkenheit .
+1	Wir	wir	PRON	NE	_	4	A	4:A|18:A	_
+2	dagegen	dagegen	ADV	PAV	_	4	L	4:L	_
+3	brauchten	brauchen	VERB	VVINF	_	4	D	4:D	_
+4	uns	wir	PRON	NN	_	0	H	0:H	_
+5	nicht	nicht	PART	ADJA	_	4	D	4:D	_
+6	zurück	zurück	ADV	ADJA	_	4	Terminal	4:Terminal	_
+7	zu	zu	PART	NN	_	4	F	4:F	_
+8	halten	halten	VERB	VVINF	_	4	Terminal	4:Terminal	_
+9	,	,	PUNCT	$,	_	4	U	4:U	_
+10	konnten	können	AUX	VMFIN	_	18	D	18:D	_
+11	unseren	unser	PRON	PPOSAT	_	12	E	12:E	_
+12	Lungen	Lunge	NOUN	NN	_	18	A	18:A	_
+13	die	der	DET	ART	_	15	E	15:E	_
+14	volle	voll	ADJ	ADJA	_	15	E	15:E	_
+15	Erquickung	Erquickung	NOUN	NN	_	18	A	18:A	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Einatmens	Einatmen	NOUN	NN	_	15	E	15:E	_
+18	gönnen	gönnen	VERB	VVINF	_	4	H	4:H	_
+19	,	,	PUNCT	$,	_	4	U	4:U	_
+20	und	und	CCONJ	NE	_	4	L	4:L	_
+21	der	der	DET	ART	_	23	E	23:E	_
+22	See	See	NOUN	NN	_	23	E	23:E	_
+23	wind	wind	ADJ	NN	_	25	A	25:A	_
+24	selbst	selbst	ADV	VVFIN	_	23	E	23:E	_
+25	übergoß	übergießen	VERB	VVFIN	_	4	H	4:H	_
+26	uns	wir	PRON	NN	_	25	A	25:A	_
+27	mit	mit	ADP	APPR	_	29	R	29:R	_
+28	dieser	dies	PRON	PDAT	_	29	E	29:E	_
+29	Wonne	Wonne	NOUN	NN	_	25	A	25:A	_
+30	der	der	DET	ART	_	31	R	31:R	_
+31	Trunkenheit	Trunkenheit	NOUN	NN	_	29	E	29:E	_
+32	.	.	PUNCT	$.	_	31	U	31:U	_
+

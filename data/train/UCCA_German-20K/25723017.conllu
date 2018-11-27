@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25723017
+# text = Darauf fragte ich mich sogar , ob dieser seltsame Mann an Bord sei .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	mich	ich	PRON	PRF	_	2	A	2:A	_
+5	sogar	sogar	ADV	ADV	_	2	D	2:D	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	ob	ob	SCONJ	VVFIN	_	13	R	13:R	_
+8	dieser	dies	PRON	PDS	_	10	E	10:E	_
+9	seltsame	seltsam	ADJ	ADJA	_	10	E	10:E	_
+10	Mann	Mann	NOUN	NN	_	13	A	13:A	_
+11	an	an	ADP	APPR	_	12	R	12:R	_
+12	Bord	Bord	NOUN	NN	_	13	A	13:A	_
+13	sei	sein	AUX	NN	_	2	A	2:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

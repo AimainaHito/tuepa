@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 137010
+# text = Lean later said it was his personal favorite of the films he made , and Hepburn his favorite actress .
+1	Lean	lean	PROPN	NNP	_	3	A	3:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	it	it	PRON	PRP	_	5	A	5:A	_
+5	was	be	AUX	VBD	_	3	A	3:A	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	personal	personal	ADJ	JJ	_	8	E	8:E	_
+8	favorite	favorite	NOUN	NN	_	5	A	5:A	_
+9	of	of	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	films	film	NOUN	NNS	_	13	A	13:A	_
+12	he	he	PRON	PRP	_	13	A	13:A	_
+13	made	make	VERB	VBD	_	8	E	8:E	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	and	and	CCONJ	CC	_	5	L	5:L	_
+16	Hepburn	Hepburn	PROPN	NNP	_	5	H	5:H	_
+17	his	he	PRON	PRP$	_	19	E	19:E	_
+18	favorite	favorite	ADJ	JJ	_	19	E	19:E	_
+19	actress	actress	NOUN	NN	_	16	A	16:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

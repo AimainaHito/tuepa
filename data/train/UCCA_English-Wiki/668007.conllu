@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 668007
+# text = " Following the negative cloud that was ensuing Carey 's personal life at the time , as well as the project 's poor reception , her unprecedented $ 100 million five - album record deal with Virgin Records ( EMI Records ) was bought out for $ 50 million .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Following	follow	VERB	VBG	_	8	L	8:L	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	negative	negative	ADJ	JJ	_	5	E	5:E	_
+5	cloud	cloud	NOUN	NN	_	8	A	8:A	_
+6	that	that	PRON	WDT	_	8	F	8:F	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	ensuing	ensue	VERB	VBG	_	0	H	0:H	_
+9	Carey	Carey	PROPN	NNP	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	personal	personal	ADJ	JJ	_	12	E	12:E	_
+12	life	life	NOUN	NN	_	8	A	8:A	_
+13	at	at	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	time	time	NOUN	NN	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	8	U	8:U	_
+17	as	as	ADV	RB	_	8	L	8:L	_
+18	well	well	ADV	RB	_	17	Terminal	17:Terminal	_
+19	as	as	ADP	IN	_	17	Terminal	17:Terminal	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	project	project	NOUN	NN	_	24	A	24:A	_
+22	's	's	PART	POS	_	21	R	21:R	_
+23	poor	poor	ADJ	JJ	_	24	E	24:E	_
+24	reception	reception	NOUN	NN	_	8	H	8:H	_
+25	,	,	PUNCT	,	_	8	U	8:U	_
+26	her	she	PRON	PRP$	_	35	E	35:E	_
+27	unprecedented	unprecedented	ADJ	JJ	_	35	E	35:E	_
+28	$	$	SYM	$	_	35	U	35:U	_
+29	100	100	NUM	CD	_	35	E	35:E	_
+30	million	million	NUM	CD	_	29	Terminal	29:Terminal	_
+31	five	five	NUM	CD	_	33	E	33:E	_
+32	-	-	PUNCT	HYPH	_	33	U	33:U	_
+33	album	album	NOUN	NN	_	35	E	35:E	_
+34	record	record	NOUN	NN	_	35	E	35:E	_
+35	deal	deal	NOUN	NN	_	44	A	44:A	_
+36	with	with	ADP	IN	_	37	R	37:R	_
+37	Virgin	Virgin	PROPN	NNP	_	35	E	35:E	_
+38	Records	Record	NOUN	NNS	_	37	Terminal	37:Terminal	_
+39	(	(	PUNCT	-LRB-	_	37	U	37:U	_
+40	EMI	Emi	NUM	CD	_	37	E	37:E	_
+41	Records	record	NOUN	NNS	_	40	Terminal	40:Terminal	_
+42	)	)	PUNCT	-RRB-	_	44	U	44:U	_
+43	was	be	AUX	VBD	_	44	F	44:F	_
+44	bought	buy	VERB	VBN	_	8	H	8:H	_
+45	out	out	ADP	RP	_	44	Terminal	44:Terminal	_
+46	for	for	ADP	IN	_	48	R	48:R	_
+47	$	$	SYM	$	_	48	U	48:U	_
+48	50	50	NUM	CD	_	44	A	44:A	_
+49	million	million	NUM	CD	_	48	Terminal	48:Terminal	_
+50	.	.	PUNCT	.	_	48	U	48:U	_
+

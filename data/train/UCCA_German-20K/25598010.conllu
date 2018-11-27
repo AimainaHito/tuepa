@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25598010
+# text = 2 Stunden lang gingen wir bald auf Sand flächen , bald auf Wiesen von Meer gras , worauf schwer fort zu kommen war .
+1	2	2	NUM	CARD	_	4	D	4:D	_
+2	Stunden	Stunde|Stunden	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	lang	lang	ADJ	ADJD	_	4	D	4:D	_
+4	gingen	gehen	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A|20:A	_
+6	bald	bald	ADV	ADV	_	9	N	9:N	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	Sand	Sand	NOUN	NN	_	9	E	9:E	_
+9	flächen	flächen	VERB	ADJA	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	bald	bald	ADV	ADV	_	6	Terminal	6:Terminal	_
+12	auf	auf	ADP	APPR	_	13	R	13:R	_
+13	Wiesen	Wiese	NOUN	NN	_	9	C	9:C	_
+14	von	von	ADP	NN	_	16	R	16:R	_
+15	Meer	Meer	PROPN	NE	_	16	E	16:E	_
+16	gras	gras	PROPN	NN	_	13	E	13:E	_
+17	,	,	PUNCT	$,	_	20	U	20:U	_
+18	worauf	worauf	ADV	PWAV	_	20	R	20:R	_
+19	schwer	schwer	ADJ	NN	_	13	E	13:E	_
+20	fort	fort	ADV	PTKVZ	_	19	A	19:A	_
+21	zu	zu	PART	VVINF	_	19	F	19:F	_
+22	kommen	kommen	VERB	VVINF	_	20	Terminal	20:Terminal	_
+23	war	sein	AUX	ADV	_	19	F	19:F	_
+24	.	.	PUNCT	$.	_	19	U	19:U	_
+

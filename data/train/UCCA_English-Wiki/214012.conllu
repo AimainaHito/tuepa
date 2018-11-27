@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 214012
+# text = The film received ambivalent reviews , but many film critics complimented Dunst 's performance .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	ambivalent	ambivalent	ADJ	JJ	_	5	E	5:E	_
+5	reviews	review	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	but	but	CCONJ	CC	_	3	L	3:L	_
+8	many	many	ADJ	JJ	_	10	E	10:E	_
+9	film	film	NOUN	NN	_	10	E	10:E	_
+10	critics	critics	NOUN	NNS	_	11	A	11:A	_
+11	complimented	compliment	VERB	VBN	_	3	H	3:H	_
+12	Dunst	Dunst	PROPN	NNP	_	14	E	14:E	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	performance	performance	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25807014
+# text = » Warum nicht ? « erwiderte Conseil . » Wir haben ja auch an den Narwal meines Herrn geglaubt . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Warum	warum	PROPN	PWAV	_	6	A	6:A	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	?	?	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	erwiderte	erwidert	ADJ	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	NOUN	NE	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	Wir	wir	PRON	NE	_	19	A	19:A	_
+11	haben	haben	VERB	VAFIN	_	19	F	19:F	_
+12	ja	ja	ADV	ADV	_	19	D	19:D	_
+13	auch	auch	ADV	ADV	_	19	D	19:D	_
+14	an	an	ADP	APPR	_	16	R	16:R	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Narwal	Narwal	NOUN	NN	_	19	A	19:A	_
+17	meines	mein	PRON	PPOSAT	_	18	R	18:R	_
+18	Herrn	Herr	NOUN	NN	_	16	E	16:E	_
+19	geglaubt	glauben	AUX	VVPP	_	2	H	2:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 424000
+# text = Donc , après enquêtes faites en Angleterre , en France , en Russie , en Prusse , en Espagne , en Italie , en Amérique , voire même en Turquie , l' hypothèse d' un Monitor sous - marin fut définitivement rejetée .
+1	Donc	donc	ADV	_	_	4	L	4:L	_
+2	,	,	PUNCT	_	_	4	U	4:U	_
+3	après	après	ADP	_	_	4	L	4:L	_
+4	enquêtes	enquêtre	NOUN	_	_	0	H	0:H	_
+5	faites	faire	VERB	_	_	4	D	4:D	_
+6	en	en	ADP	_	_	7	R	7:R	_
+7	Angleterre	Angleterre	PROPN	_	_	4	A	4:A	_
+8	,	,	PUNCT	_	_	7	U	7:U	_
+9	en	en	ADP	_	_	10	R	10:R	_
+10	France	France	PROPN	_	_	7	C	7:C	_
+11	,	,	PUNCT	_	_	7	U	7:U	_
+12	en	en	ADP	_	_	13	R	13:R	_
+13	Russie	Russie	PROPN	_	_	7	C	7:C	_
+14	,	,	PUNCT	_	_	7	U	7:U	_
+15	en	en	ADP	_	_	16	R	16:R	_
+16	Prusse	Prusse	PROPN	_	_	7	C	7:C	_
+17	,	,	PUNCT	_	_	7	U	7:U	_
+18	en	en	ADP	_	_	19	R	19:R	_
+19	Espagne	Espagne	PROPN	_	_	7	C	7:C	_
+20	,	,	PUNCT	_	_	7	U	7:U	_
+21	en	en	ADP	_	_	22	R	22:R	_
+22	Italie	Italie	PROPN	_	_	7	C	7:C	_
+23	,	,	PUNCT	_	_	7	U	7:U	_
+24	en	en	ADP	_	_	25	R	25:R	_
+25	Amérique	Amérique	PROPN	_	_	7	C	7:C	_
+26	,	,	PUNCT	_	_	7	U	7:U	_
+27	voire	voire	ADV	_	_	30	E	30:E	_
+28	même	même	ADV	_	_	27	Terminal	27:Terminal	_
+29	en	en	ADP	_	_	30	R	30:R	_
+30	Turquie	Turquie	PROPN	_	_	7	C	7:C	_
+31	,	,	PUNCT	_	_	4	U	4:U	_
+32	l'	le	DET	_	_	33	E	33:E	_
+33	hypothèse	hypothèse	NOUN	_	_	36	E	36:E	_
+34	d'	de	ADP	_	_	33	R	33:R	_
+35	un	un	DET	_	_	36	E	36:E	_
+36	Monitor	Monitor	PROPN	_	_	42	A	42:A	_
+37	sous	sous	ADP	_	_	39	R	39:R	_
+38	-	-	PUNCT	_	_	39	U	39:U	_
+39	marin	marin	NOUN	_	_	36	E	36:E	_
+40	fut	être	AUX	_	_	42	F	42:F	_
+41	définitivement	définitivement	ADV	_	_	42	D	42:D	_
+42	rejetée	rejeter	VERB	_	_	4	H	4:H	_
+43	.	.	PUNCT	_	_	42	U	42:U	_
+

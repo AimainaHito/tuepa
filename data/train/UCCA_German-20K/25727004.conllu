@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25727004
+# text = Sie folgen wohl dem Zusammenhang der Tatsachen ? « fragte mich Kapitän Nemo .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	folgen	folgen	VERB	VVFIN	_	10	A	10:A	_
+3	wohl	wohl	ADV	ADV	_	2	D	2:D	_
+4	dem	der	DET	ART	_	5	E	5:E	_
+5	Zusammenhang	Zusammenhang	NOUN	NN	_	2	A	2:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Tatsachen	Tatsache	NOUN	NN	_	5	A	5:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	mich	ich	PRON	PPER	_	10	A	10:A	_
+12	Kapitän	Kapitän	PROPN	NN	_	13	E	13:E	_
+13	Nemo	Nemo	PROPN	NE	_	10	A	10:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25593011
+# text = Der 2stündige Spaziergang in dem ungewohnten Harnisch hatte mich nicht im mindesten ermüdet .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	2stündige	2stündig	ADJ	ADJA	_	3	E	3:E	_
+3	Spaziergang	Spaziergang	NOUN	NN	_	13	A	13:A	_
+4	in	in	ADP	APPR	_	7	R	7:R	_
+5	dem	der	DET	ART	_	7	E	7:E	_
+6	ungewohnten	ungewohnt	ADJ	NN	_	7	E	7:E	_
+7	Harnisch	Harnisch	NOUN	NE	_	13	A	13:A	_
+8	hatte	haben	AUX	VAFIN	_	13	F	13:F	_
+9	mich	ich	PRON	PPER	_	13	A	13:A	_
+10	nicht	nicht	PART	CARD	_	12	E	12:E	_
+11	im	im	ADJ	NE	_	12	R	12:R	_
+12	mindesten	mindest	NOUN	NN	_	13	D	13:D	_
+13	ermüdet	ermüden	VERB	VVFIN	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

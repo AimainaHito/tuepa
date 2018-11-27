@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 197007
+# text = Despite the setback , La Jolla Playhouse pushed on , with Steven Spielberg lending his talents as producer .
+1	Despite	despite	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	setback	setback	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	La	La	PROPN	NNP	_	8	A	8:A	_
+6	Jolla	Jolla	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Playhouse	Playhouse	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	pushed	push	VERB	VBD	_	3	H	3:H	_
+9	on	on	ADP	IN	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	with	with	ADP	IN	_	3	L	3:L	_
+12	Steven	Steven	PROPN	NNP	_	14	A	14:A	_
+13	Spielberg	Spielberg	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	lending	lend	VERB	VBG	_	3	H	3:H	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	talents	talent	NOUN	NNS	_	14	A	14:A	_
+17	as	as	ADP	IN	_	18	R	18:R	_
+18	producer	producer	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

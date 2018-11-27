@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25723008
+# text = Doch konnte man mich nicht des Undanks beschuldigen , wenn ich ihn verließ .
+1	Doch	doch	ADV	KON	_	8	L	8:L	_
+2	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+3	man	man	PRON	PIS	_	8	A	8:A	_
+4	mich	ich	PRON	PPER	_	8	A	8:A	_
+5	nicht	nicht	PART	ADJA	_	8	D	8:D	_
+6	des	der	DET	ART	_	7	R	7:R	_
+7	Undanks	Undank	NOUN	NN	_	8	A	8:A	_
+8	beschuldigen	beschuldigen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wenn	wenn	SCONJ	VVFIN	_	8	L	8:L	_
+11	ich	ich	PRON	PPER	_	13	A	13:A	_
+12	ihn	er	PRON	PPER	_	13	A	13:A	_
+13	verließ	verlassen	VERB	VVFIN	_	8	H	8:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

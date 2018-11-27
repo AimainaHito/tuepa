@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25773005
+# text = Doch der Nebel stieg nicht auf , und um 11 Uhr war noch keine Sonne zu sehen .
+1	Doch	doch	ADV	KON	_	4	L	4:L	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Nebel	Nebel	NOUN	NN	_	4	A	4:A	_
+4	stieg	steigen	VERB	VVFIN	_	0	H	0:H	_
+5	nicht	nicht	PART	CARD	_	4	D	4:D	_
+6	auf	auf	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	und	und	CCONJ	NE	_	4	L	4:L	_
+9	um	um	ADP	APPR	_	10	R	10:R	_
+10	11	11	NUM	CARD	_	17	D	17:D	_
+11	Uhr	Uhr	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	war	sein	AUX	ADV	_	17	F	17:F	_
+13	noch	noch	ADV	VVINF	_	14	E	14:E	_
+14	keine	kein	PRON	PIAT	_	17	D	17:D	_
+15	Sonne	Sonne	NOUN	NN	_	17	A	17:A	_
+16	zu	zu	PART	VVINF	_	17	F	17:F	_
+17	sehen	sehen	VERB	VVINF	_	4	H	4:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

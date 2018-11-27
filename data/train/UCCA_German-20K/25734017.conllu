@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25734017
+# text = Aber ich konnte mich nicht dabei aufhalten .
+1	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	konnte	können	AUX	VMFIN	_	4	D	4:D	_
+4	mich	ich	PRON	PRF	_	0	H	0:H	_
+5	nicht	nicht	PART	XY	_	4	D	4:D	_
+6	dabei	dabei	ADV	PAV	_	4	A	4:A	_
+7	aufhalten	aufhalten	VERB	VVINF	_	4	Terminal	4:Terminal	_
+8	.	.	PUNCT	$.	_	4	U	4:U	_
+

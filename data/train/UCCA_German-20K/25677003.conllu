@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25677003
+# text = » Hab' ich Haifische gesagt ? « versetzte ich lebhaft . » Ich meine 150 Perlen . Haifische wäre ja sinnlos . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Hab'	Hab'	PROPN	$(	_	5	F	5:F	_
+3	ich	ich	PRON	PPER	_	5	A	5:A	_
+4	Haifische	Haifisch	PROPN	ADJA	_	5	A	5:A	_
+5	gesagt	sagen	VERB	VVPP	_	8	A	8:A	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	lebhaft	lebhafen	VERB	ADJD	_	8	D	8:D	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	Ich	ich	PRON	PPER	_	14	A	14:A	_
+14	meine	mein	PRON	PPOSAT	_	5	H	5:H	_
+15	150	150	NUM	CARD	_	16	E	16:E	_
+16	Perlen	Perle|Perlen	NOUN	NN	_	14	A	14:A	_
+17	.	.	PUNCT	$.	_	5	U	5:U	_
+18	Haifische	Haifisch	PROPN	NE	_	21	A	21:A	_
+19	wäre	sein	AUX	ADV	_	21	F	21:F	_
+20	ja	ja	ADV	ADV	_	21	F	21:F	_
+21	sinnlos	sinnlos	ADJ	ADJD	_	5	H	5:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

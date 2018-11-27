@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 672000
+# text = E = MC ² debuted at number one on the Billboard 200 with 463,000 copies sold , the biggest opening week sales of her career .
+1	E	e	VERB	VB	_	5	A	5:A	_
+2	=	=	SYM	SYM	_	1	U	1:U	_
+3	MC	Mc	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	²	²	NUM	CD	_	5	U	5:U	_
+5	debuted	debute	VERB	VBN	_	0	H	0:H	_
+6	at	at	ADP	IN	_	7	R	7:R	_
+7	number	number	NOUN	NN	_	5	A	5:A	_
+8	one	one	NUM	CD	_	7	E	7:E	_
+9	on	on	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Billboard	Billboard	PROPN	NNP	_	7	E	7:E	_
+12	200	200	NUM	CD	_	11	Terminal	11:Terminal	_
+13	with	with	ADP	IN	_	5	L	5:L	_
+14	463,000	463,000	NUM	CD	_	15	E	15:E	_
+15	copies	copy	NOUN	NNS	_	16	A	16:A	_
+16	sold	sell	VERB	VBN	_	5	H	5:H	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	the	the	DET	DT	_	22	E	22:E	_
+19	biggest	biggest	ADJ	JJS	_	22	E	22:E	_
+20	opening	opening	NOUN	NN	_	21	E	21:E	_
+21	week	week	NOUN	NN	_	22	E	22:E	_
+22	sales	sale	NOUN	NNS	_	15	E	15:E	_
+23	of	of	ADP	IN	_	22	R	22:R	_
+24	her	she	PRON	PRP$	_	25	E	25:E	_
+25	career	career	NOUN	NN	_	22	E	22:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25694008
+# text = Ich rief daher Conseil zu mir , während die ›Nautilus‹ bei einer durchschnittlichen Tiefe von 8 bis 9 Meter langsam an allen schönen Felsen der orientalischen Küste vorüberfuhr .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+3	daher	daher	ADV	PAV	_	2	L	2:L	_
+4	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+5	zu	zu	ADP	NE	_	6	R	6:R	_
+6	mir	ich	PRON	PPER	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	während	während	SCONJ	VVINF	_	2	L	2:L	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	›Nautilus‹	›Nautilus‹	NOUN	NE	_	28	A	28:A	_
+11	bei	bei	ADP	APPR	_	14	R	14:R	_
+12	einer	ein	DET	ART	_	14	E	14:E	_
+13	durchschnittlichen	durchschnittlich	ADJ	ADJA	_	14	E	14:E	_
+14	Tiefe	tief	NOUN	NN	_	28	A	28:A	_
+15	von	von	ADP	NE	_	19	R	19:R	_
+16	8	8	NUM	CARD	_	19	E	19:E	_
+17	bis	bis	ADP	KON	_	16	R	16:R	_
+18	9	9	NUM	CARD	_	16	C	16:C	_
+19	Meter	Meter	NOUN	NN	_	14	E	14:E	_
+20	langsam	langsam	ADJ	ADJD	_	28	D	28:D	_
+21	an	an	ADP	APPR	_	24	R	24:R	_
+22	allen	alle	PRON	PIAT	_	24	E	24:E	_
+23	schönen	schön	ADJ	ADJA	_	24	E	24:E	_
+24	Felsen	Felsen	NOUN	NN	_	28	A	28:A	_
+25	der	der	DET	ART	_	27	R	27:R	_
+26	orientalischen	orientalisch	ADJ	ADJA	_	27	E	27:E	_
+27	Küste	Küste	NOUN	NN	_	24	E	24:E	_
+28	vorüberfuhr	vorüberfuhr	ADV	VVFIN	_	2	H	2:H	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 469005
+# text = He also joined Wilt Chamberlain and Oscar Robertson as the only NBA players to tally at least 700 points , 700 rebounds , and 700 assists in the same season .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	L	3:L	_
+3	joined	join	VERB	VBD	_	0	H	0:H	_
+4	Wilt	will	PROPN	NNP	_	3	A	3:A	_
+5	Chamberlain	Chamberlain	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	and	and	CCONJ	CC	_	4	N	4:N	_
+7	Oscar	Oscar	PROPN	NNP	_	4	C	4:C	_
+8	Robertson	Robertson	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	as	as	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	only	only	ADJ	JJ	_	13	E	13:E	_
+12	NBA	NBa	PROPN	NNP	_	13	E	13:E	_
+13	players	player	NOUN	NNS	_	15	A	15:A	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	tally	tally	VERB	VB	_	3	A	3:A	_
+16	at	at	ADV	RB	_	19	E	19:E	_
+17	least	least	ADV	RBS	_	16	Terminal	16:Terminal	_
+18	700	700	NUM	CD	_	19	E	19:E	_
+19	points	point	NOUN	NNS	_	15	A	15:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	700	700	NUM	CD	_	22	E	22:E	_
+22	rebounds	rebound	NOUN	NNS	_	19	C	19:C	_
+23	,	,	PUNCT	,	_	19	U	19:U	_
+24	and	and	CCONJ	CC	_	19	N	19:N	_
+25	700	700	NUM	CD	_	26	E	26:E	_
+26	assists	assist	NOUN	NNS	_	19	C	19:C	_
+27	in	in	ADP	IN	_	30	R	30:R	_
+28	the	the	DET	DT	_	30	E	30:E	_
+29	same	same	ADJ	JJ	_	30	E	30:E	_
+30	season	season	NOUN	NN	_	15	D	15:D	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

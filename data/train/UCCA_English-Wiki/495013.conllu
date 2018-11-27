@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 495013
+# text = " Kemp , for his part , recalled , " I did n't really teach him to be a mime artiste but to be more of himself on the outside , ... I enabled him to free the angel and demon that he is on the inside .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Kemp	Kemp	PROPN	NNP	_	8	A	8:A	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	for	for	ADP	IN	_	8	D	8:D	_
+5	his	he	PRON	PRP$	_	4	Terminal	4:Terminal	_
+6	part	part	NOUN	NN	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	,	_	8	U	8:U	_
+8	recalled	recal	VERB	VBD	_	0	H	0:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	"	"	PUNCT	``	_	8	U	8:U	_
+11	I	I	PRON	PRP	_	15	A	15:A|24:A	_
+12	did	do	AUX	VBD	_	15	F	15:F	_
+13	n't	not	PART	RB	_	15	D	15:D	_
+14	really	really	ADV	RB	_	15	D	15:D	_
+15	teach	teach	VERB	VB	_	8	A	8:A	_
+16	him	he	PRON	PRP	_	15	A	15:A|24:A|18:A	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	be	be	AUX	VB	_	15	A	15:A	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	mime	mime	NOUN	NN	_	21	E	21:E	_
+21	artiste	artiste	NOUN	NN	_	18	A	18:A	_
+22	but	but	CCONJ	CC	_	15	L	15:L	_
+23	to	to	PART	TO	_	24	F	24:F	_
+24	be	be	AUX	VB	_	15	H	15:H	_
+25	more	more	ADJ	JJR	_	27	R	27:R	_
+26	of	of	ADP	IN	_	25	F	25:F	_
+27	himself	himself	PRON	PRP	_	24	A	24:A	_
+28	on	on	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	outside	outside	ADJ	JJ	_	27	E	27:E	_
+31	,	,	PUNCT	,	_	15	U	15:U	_
+32	...	...	PUNCT	,	_	15	U	15:U	_
+33	I	I	PRON	PRP	_	34	A	34:A	_
+34	enabled	enable	VERB	VBD	_	15	H	15:H	_
+35	him	he	PRON	PRP	_	34	A	34:A|37:A	_
+36	to	to	PART	TO	_	37	F	37:F	_
+37	free	free	VERB	VB	_	34	A	34:A	_
+38	the	the	DET	DT	_	39	E	39:E	_
+39	angel	angel	NOUN	NN	_	37	A	37:A	_
+40	and	and	CCONJ	CC	_	39	N	39:N	_
+41	demon	demon	VERB	VB	_	39	C	39:C	_
+42	that	that	SCONJ	IN	_	44	F	44:F	_
+43	he	he	PRON	PRP	_	44	A	44:A	_
+44	is	be	AUX	VBZ	_	39	E	39:E	_
+45	on	on	ADP	IN	_	47	R	47:R	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	inside	inside	NOUN	NN	_	44	A	44:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

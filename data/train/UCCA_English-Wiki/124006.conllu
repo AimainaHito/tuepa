@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 124006
+# text = A week before opening , the lead was fired and replaced with Hepburn , which gave her a starring role after only four weeks in the theatre .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	week	week	NOUN	NN	_	4	L	4:L	_
+3	before	before	SCONJ	IN	_	2	R	2:R	_
+4	opening	open	VERB	VBG	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	lead	lead	NOUN	NN	_	9	A	9:A|11:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	fired	fire	VERB	VBN	_	4	H	4:H	_
+10	and	and	CCONJ	CC	_	4	L	4:L	_
+11	replaced	replace	VERB	VBN	_	4	H	4:H	_
+12	with	with	ADP	IN	_	13	R	13:R	_
+13	Hepburn	Hepburn	PROPN	NNP	_	11	A	11:A	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	which	which	PRON	WDT	_	4	L	4:L	_
+16	gave	give	VERB	VBD	_	4	H	4:H	_
+17	her	she	PRON	PRP	_	16	A	16:A|20:A|27:A	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	starring	starring	NOUN	NN	_	20	D	20:D	_
+20	role	role	NOUN	NN	_	16	A	16:A	_
+21	after	after	ADP	IN	_	4	L	4:L	_
+22	only	only	ADV	RB	_	27	D	27:D	_
+23	four	four	NUM	CD	_	24	E	24:E	_
+24	weeks	week	NOUN	NNS	_	27	D	27:D	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	theatre	theatre	NOUN	NN	_	4	H	4:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

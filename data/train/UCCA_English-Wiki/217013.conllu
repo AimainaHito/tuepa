@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 217013
+# text = The movie was well received by critics and a financial success , setting a new opening weekend box office record for North America .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	5	A	5:A|11:A|13:A	_
+3	was	be	AUX	VBD	_	5	F	5:F	_
+4	well	well	ADV	RB	_	5	D	5:D	_
+5	received	receive	VERB	VBN	_	0	H	0:H	_
+6	by	by	ADP	IN	_	7	R	7:R	_
+7	critics	critic	NOUN	NNS	_	5	A	5:A	_
+8	and	and	CCONJ	CC	_	5	L	5:L	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	financial	financial	ADJ	JJ	_	11	E	11:E	_
+11	success	success	NOUN	NN	_	5	H	5:H	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	setting	set	VERB	VBG	_	5	H	5:H	_
+14	a	a	DET	DT	_	20	E	20:E	_
+15	new	new	ADJ	JJ	_	20	E	20:E	_
+16	opening	opening	NOUN	NN	_	17	E	17:E	_
+17	weekend	weekend	NOUN	NN	_	20	E	20:E	_
+18	box	box	NOUN	NN	_	19	E	19:E	_
+19	office	office	NOUN	NN	_	20	E	20:E	_
+20	record	record	NOUN	NN	_	13	A	13:A	_
+21	for	for	ADP	IN	_	22	R	22:R	_
+22	North	North	PROPN	NNP	_	20	E	20:E	_
+23	America	America	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

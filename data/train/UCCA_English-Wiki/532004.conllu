@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 532004
+# text = Garland guest - hosted an episode of The Hollywood Palace with Vic Damone .
+1	Garland	Garland	PROPN	NNP	_	4	A	4:A	_
+2	guest	guest	NOUN	NN	_	4	E	4:E	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	hosted	host	VERB	VBN	_	0	H	0:H	_
+5	an	a	DET	DT	_	6	E	6:E	_
+6	episode	episode	NOUN	NN	_	4	A	4:A	_
+7	of	of	ADP	IN	_	6	R	6:R	_
+8	The	the	DET	DT	_	6	E	6:E	_
+9	Hollywood	Hollywood	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Palace	Palace	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	with	with	ADP	IN	_	12	R	12:R	_
+12	Vic	Vic	PROPN	NNP	_	8	E	8:E	_
+13	Damone	Damone	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

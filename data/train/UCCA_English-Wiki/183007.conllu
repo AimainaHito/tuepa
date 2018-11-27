@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 183007
+# text = The family was Protestant , of English , French , and Welsh ancestry .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	family	family	NOUN	NN	_	3	A	3:A|6:A	_
+3	was	be	AUX	VBD	_	0	H	0:H	_
+4	Protestant	Protestant	ADJ	JJ	_	3	A	3:A	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	of	of	ADP	IN	_	3	H	3:H	_
+7	English	English	PROPN	NNP	_	13	E	13:E	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	French	french	PROPN	NNP	_	7	C	7:C	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	and	and	CCONJ	CC	_	7	N	7:N	_
+12	Welsh	Welsh	ADJ	JJ	_	7	C	7:C	_
+13	ancestry	ancestry	NOUN	NN	_	6	A	6:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

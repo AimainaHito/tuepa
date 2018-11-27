@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 182000
+# text = Ruth Elizabeth " Bette " Davis ( April 5 , 1908 - October 6 , 1989 ) was an American actress of film , television and theater .
+1	Ruth	Ruth	PROPN	NNP	_	18	A	18:A	_
+2	Elizabeth	Elizabeth	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	"	"	PUNCT	``	_	1	U	1:U	_
+4	Bette	Bette	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	"	"	PUNCT	''	_	1	U	1:U	_
+6	Davis	Davis	PROPN	NNP	_	1	Terminal	1:Terminal	_
+7	(	(	PUNCT	-LRB-	_	18	U	18:U	_
+8	April	April	PROPN	NNP	_	18	D	18:D	_
+9	5	5	NUM	CD	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	1908	1908	NUM	CD	_	8	Terminal	8:Terminal	_
+12	-	-	PUNCT	:	_	8	U	8:U	_
+13	October	October	PROPN	NNP	_	8	C	8:C	_
+14	6	6	NUM	CD	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	1989	1989	NUM	CD	_	13	Terminal	13:Terminal	_
+17	)	)	PUNCT	-RRB-	_	18	U	18:U	_
+18	was	be	AUX	VBD	_	0	H	0:H	_
+19	an	a	DET	DT	_	21	E	21:E	_
+20	American	american	ADJ	JJ	_	21	E	21:E	_
+21	actress	actress	NOUN	NN	_	18	A	18:A	_
+22	of	of	ADP	IN	_	23	R	23:R	_
+23	film	film	NOUN	NN	_	21	E	21:E	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	television	television	NOUN	NN	_	23	C	23:C	_
+26	and	and	CCONJ	CC	_	23	N	23:N	_
+27	theater	theater	NOUN	NN	_	23	C	23:C	_
+28	.	.	PUNCT	.	_	23	U	23:U	_
+

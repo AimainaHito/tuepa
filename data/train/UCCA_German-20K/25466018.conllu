@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25466018
+# text = Vielleicht wirkte die Neugier einigermaßen auch auf seine Nerven .
+1	Vielleicht	vielleicht	ADV	ADV	_	2	D	2:D	_
+2	wirkte	wirken	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Neugier	Neugier	NOUN	NN	_	2	A	2:A	_
+5	einigermaßen	einigermaßen	ADV	ADV	_	2	D	2:D	_
+6	auch	auch	ADV	ADV	_	2	D	2:D	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	seine	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Nerven	Nerv|Nerven	NOUN	NN	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

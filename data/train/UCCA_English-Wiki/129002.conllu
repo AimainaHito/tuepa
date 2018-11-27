@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 129002
+# text = The romantic drama Break of Hearts ( 1935 ) with Charles Boyer was poorly reviewed and also lost money at the box office .
+1	The	the	DET	DT	_	4	E	4:E	_
+2	romantic	romantic	ADJ	JJ	_	3	E	3:E	_
+3	drama	drama	NOUN	NN	_	4	E	4:E	_
+4	Break	break	NOUN	NN	_	15	A	15:A|18:A	_
+5	of	of	ADP	IN	_	4	Terminal	4:Terminal	_
+6	Hearts	heart	NOUN	NNS	_	4	Terminal	4:Terminal	_
+7	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+8	1935	1935	NUM	CD	_	4	E	4:E	_
+9	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	Charles	Charles	PROPN	NNP	_	4	E	4:E	_
+12	Boyer	Boyer	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	was	be	AUX	VBD	_	15	F	15:F	_
+14	poorly	poorly	ADV	RB	_	15	D	15:D	_
+15	reviewed	review	VERB	VBN	_	0	H	0:H	_
+16	and	and	CCONJ	CC	_	17	E	17:E	_
+17	also	also	ADV	RB	_	15	L	15:L	_
+18	lost	lose	VERB	VBN	_	15	H	15:H	_
+19	money	money	NOUN	NN	_	18	A	18:A	_
+20	at	at	ADP	IN	_	23	R	23:R	_
+21	the	the	DET	DT	_	23	E	23:E	_
+22	box	box	NOUN	NN	_	23	E	23:E	_
+23	office	office	NOUN	NN	_	18	A	18:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

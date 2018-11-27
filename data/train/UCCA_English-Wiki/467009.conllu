@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 467009
+# text = Johnson did not initially aspire to play professionally , focusing instead on his communication studies major and on his desire to become a television commentator .
+1	Johnson	Johnson	PROPN	NNP	_	7	A	7:A	_
+2	did	do	AUX	VBD	_	7	F	7:F	_
+3	not	not	PART	RB	_	7	D	7:D	_
+4	initially	initially	ADV	RB	_	7	D	7:D	_
+5	aspire	aspire	VERB	VB	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	play	play	VERB	VB	_	0	H	0:H	_
+8	professionally	professionally	ADV	RB	_	7	A	7:A	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	focusing	focuse	VERB	VBG	_	7	H	7:H	_
+11	instead	instead	ADV	RB	_	7	L	7:L	_
+12	on	on	ADP	IN	_	16	R	16:R	_
+13	his	he	PRON	PRP$	_	16	E	16:E	_
+14	communication	communication	NOUN	NN	_	15	E	15:E	_
+15	studies	study	NOUN	NNS	_	16	E	16:E	_
+16	major	major	ADJ	JJ	_	10	A	10:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	on	on	ADP	IN	_	22	R	22:R	_
+19	his	he	PRON	PRP$	_	22	A	22:A	_
+20	desire	desire	NOUN	NN	_	22	E	22:E	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	become	become	VERB	VB	_	16	C	16:C	_
+23	a	a	DET	DT	_	25	E	25:E	_
+24	television	television	NOUN	NN	_	25	E	25:E	_
+25	commentator	commentator	NOUN	NN	_	22	A	22:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

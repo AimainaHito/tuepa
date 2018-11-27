@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25678008
+# text = » Guter Ned « , erwiderte ich lachend , » das waren unechte Perlen , bloß Glaskugeln , innen mit orientalischer Essenz bestrichen . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Guter	Guter	PROPN	NN	_	3	E	3:E	_
+3	Ned	Ned	PROPN	NE	_	13	G	13:G	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A|8:A	_
+8	lachend	lachend	ADJ	ADJD	_	6	H	6:H	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	das	der	PRON	PDS	_	13	A	13:A	_
+12	waren	sein	AUX	VAFIN	_	13	F	13:F	_
+13	unechte	unecht	ADJ	ADJA	_	6	A	6:A	_
+14	Perlen	Perle|Perlen	NOUN	NN	_	13	A	13:A	_
+15	,	,	PUNCT	$,	_	13	U	13:U	_
+16	bloß	bloßen	ADJ	VVFIN	_	13	D	13:D	_
+17	Glaskugeln	Glaskugel	NOUN	NE	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	innen	innen	VERB	ADV	_	23	A	23:A	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	orientalischer	orientalisch	ADJ	ADJA	_	22	E	22:E	_
+22	Essenz	Essenz	NOUN	NN	_	23	A	23:A	_
+23	bestrichen	bestrichen	VERB	ADJA	_	17	E	17:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+25	«	«	PUNCT	$(	_	23	U	23:U	_
+

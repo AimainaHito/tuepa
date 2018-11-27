@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 219003
+# text = In 2011 , Dunst starred in Lars von Trier 's science - fiction film Melancholia as a depressed woman at the end of the world .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2011	2011	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Dunst	Dunst	PROPN	NNP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	15	R	15:R	_
+7	Lars	Lars	PROPN	NNP	_	14	E	14:E	_
+8	von	von	ADP	IN	_	7	Terminal	7:Terminal	_
+9	Trier	Trier	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	's	's	PART	POS	_	7	R	7:R	_
+11	science	science	NOUN	NN	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	fiction	fiction	NOUN	NN	_	14	E	14:E	_
+14	film	film	NOUN	NN	_	15	E	15:E	_
+15	Melancholia	Melancholia	PROPN	NNP	_	5	A	5:A	_
+16	as	as	ADP	IN	_	19	R	19:R	_
+17	a	a	DET	DT	_	19	E	19:E	_
+18	depressed	depress	VERB	VBN	_	19	E	19:E	_
+19	woman	woman	NOUN	NN	_	5	A	5:A	_
+20	at	at	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	end	end	NOUN	NN	_	19	E	19:E	_
+23	of	of	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	world	world	NOUN	NN	_	22	E	22:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

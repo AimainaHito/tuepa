@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 215001
+# text = The film received favorable reviews .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	favorable	favorable	ADJ	JJ	_	5	E	5:E	_
+5	reviews	review	NOUN	NNS	_	3	A	3:A	_
+6	.	.	PUNCT	.	_	5	U	5:U	_
+

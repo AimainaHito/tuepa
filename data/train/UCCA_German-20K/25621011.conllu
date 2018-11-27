@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25621011
+# text = » Freund Ned versetzt uns in Unruhe « , erwiderte Conseil .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Freund	Freund	PROPN	NN	_	3	E	3:E	_
+3	Ned	Ned	PROPN	NE	_	4	A	4:A	_
+4	versetzt	versetzen	VERB	VVFIN	_	10	A	10:A	_
+5	uns	wir	PRON	NE	_	4	A	4:A	_
+6	in	in	ADP	APPR	_	7	R	7:R	_
+7	Unruhe	Unruhe	PROPN	NE	_	4	A	4:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	Conseil	Conseil	NOUN	NE	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

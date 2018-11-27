@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 664007
+# text = The album 's lead single , " Honey " , and its accompanying music video , introduced a more overtly sexual image than Carey had ever demonstrated , and furthered reports of her freedom from Mottola .
+1	The	the	DET	DT	_	8	E	8:E	_
+2	album	album	NOUN	NN	_	8	E	8:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	lead	lead	NOUN	NN	_	5	E	5:E	_
+5	single	single	ADJ	JJ	_	0	C	0:C|30:A	_
+6	,	,	PUNCT	,	_	17	U	17:U	_
+7	"	"	PUNCT	``	_	17	U	17:U	_
+8	Honey	honey	NOUN	NN	_	17	A	17:A	_
+9	"	"	PUNCT	''	_	8	U	8:U	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	and	and	CCONJ	CC	_	8	N	8:N	_
+12	its	its	PRON	PRP$	_	15	E	15:E	_
+13	accompanying	accompany	VERB	VBG	_	15	E	15:E	_
+14	music	music	NOUN	NN	_	15	E	15:E	_
+15	video	video	NOUN	NN	_	0	C	0:C|30:A	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	introduced	introduce	VERB	VBD	_	0	H	0:H	_
+18	a	a	DET	DT	_	22	E	22:E	_
+19	more	more	ADV	RBR	_	22	E	22:E	_
+20	overtly	overtly	ADV	RB	_	21	E	21:E	_
+21	sexual	sexual	ADJ	JJ	_	22	E	22:E	_
+22	image	image	NOUN	NN	_	17	A	17:A	_
+23	than	than	ADP	IN	_	27	R	27:R	_
+24	Carey	Carey	PROPN	NNP	_	27	A	27:A	_
+25	had	have	AUX	VBD	_	27	F	27:F	_
+26	ever	ever	ADV	RB	_	27	D	27:D	_
+27	demonstrated	demonstrate	VERB	VBN	_	22	E	22:E	_
+28	,	,	PUNCT	,	_	17	U	17:U	_
+29	and	and	CCONJ	CC	_	17	L	17:L	_
+30	furthered	further	VERB	VBN	_	17	H	17:H	_
+31	reports	report	NOUN	NNS	_	30	A	30:A	_
+32	of	of	ADP	IN	_	34	R	34:R	_
+33	her	she	PRON	PRP$	_	34	E	34:E	_
+34	freedom	freedom	NOUN	NN	_	31	E	31:E	_
+35	from	from	ADP	IN	_	36	R	36:R	_
+36	Mottola	Mottola	PROPN	NNP	_	34	E	34:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

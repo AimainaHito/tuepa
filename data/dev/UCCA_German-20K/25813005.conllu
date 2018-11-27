@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25813005
+# text = Diesen herzzerreißenden Ruf werd' ich mein Lebtag hören !
+1	Diesen	dies	PRON	PDAT	_	3	E	3:E	_
+2	herzzerreißenden	herzzerreißenden	VERB	ADJA	_	3	E	3:E	_
+3	Ruf	Ruf	NOUN	NN	_	8	A	8:A	_
+4	werd'	werd'	PUNCT	NE	_	8	F	8:F	_
+5	ich	ich	PRON	PPER	_	8	A	8:A	_
+6	mein	mein	DET	PPOSAT	_	7	E	7:E	_
+7	Lebtag	Lebtag	NOUN	NN	_	8	D	8:D	_
+8	hören	hören	VERB	VVINF	_	0	H	0:H	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+

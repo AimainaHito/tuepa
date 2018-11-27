@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 381013
+# text = He has said , however , that " it frustrates me when actors talk politics ; I 'm political and I make choices in my movies that I think are political . I try and say things with what I do . Rightly or wrongly , young actors have all the power .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	said	say	VERB	VBN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	however	however	ADV	RB	_	3	L	3:L	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	that	that	SCONJ	IN	_	10	F	10:F	_
+8	"	"	PUNCT	``	_	10	U	10:U	_
+9	it	it	PRON	PRP	_	10	F	10:F	_
+10	frustrates	frustrate	VERB	VBZ	_	3	A	3:A	_
+11	me	I	PRON	PRP	_	10	A	10:A	_
+12	when	when	ADV	WRB	_	10	L	10:L	_
+13	actors	actor	NOUN	NNS	_	14	A	14:A	_
+14	talk	talk	VERB	VBP	_	10	H	10:H	_
+15	politics	politics	NOUN	NNS	_	14	A	14:A	_
+16	;	;	PUNCT	,	_	10	U	10:U	_
+17	I	I	PRON	PRP	_	19	A	19:A	_
+18	'm	be	AUX	VBP	_	19	F	19:F	_
+19	political	political	ADJ	JJ	_	10	H	10:H	_
+20	and	and	CCONJ	CC	_	10	L	10:L	_
+21	I	I	PRON	PRP	_	23	A	23:A	_
+22	make	make	VERB	VBP	_	23	F	23:F	_
+23	choices	choice	NOUN	NNS	_	10	H	10:H	_
+24	in	in	ADP	IN	_	26	R	26:R	_
+25	my	my	PRON	PRP$	_	26	E	26:E	_
+26	movies	movie	NOUN	NNS	_	23	A	23:A	_
+27	that	that	PRON	WDT	_	29	F	29:F	_
+28	I	I	PRON	PRP	_	29	A	29:A	_
+29	think	think	VERB	VBP	_	23	A	23:A	_
+30	are	be	AUX	VBP	_	31	F	31:F	_
+31	political	political	ADJ	JJ	_	29	A	29:A	_
+32	.	.	PUNCT	.	_	10	U	10:U	_
+33	I	I	PRON	PRP	_	36	A	36:A	_
+34	try	try	VERB	VBP	_	36	D	36:D	_
+35	and	and	CCONJ	CC	_	36	F	36:F	_
+36	say	say	VERB	VBP	_	10	H	10:H	_
+37	things	thing	NOUN	NNS	_	36	A	36:A	_
+38	with	with	SCONJ	IN	_	41	R	41:R	_
+39	what	what	PRON	WP	_	41	A	41:A	_
+40	I	I	PRON	PRP	_	41	A	41:A	_
+41	do	do	VERB	VBP	_	36	A	36:A	_
+42	.	.	PUNCT	.	_	10	U	10:U	_
+43	Rightly	Rightly	ADV	RB	_	10	H	10:H	_
+44	or	or	CCONJ	CC	_	43	N	43:N	_
+45	wrongly	wrongly	ADV	RB	_	43	C	43:C	_
+46	,	,	PUNCT	,	_	43	U	43:U	_
+47	young	young	ADJ	JJ	_	48	E	48:E	_
+48	actors	actor	NOUN	NNS	_	49	A	49:A	_
+49	have	have	VERB	VBP	_	43	A	43:A	_
+50	all	all	DET	PDT	_	52	E	52:E	_
+51	the	the	DET	DT	_	52	E	52:E	_
+52	power	power	NOUN	NN	_	49	A	49:A	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

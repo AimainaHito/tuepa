@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25807015
+# text = » Und wir haben nicht recht gehabt , Conseil . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Und	und	CCONJ	NE	_	6	L	6:L	_
+3	wir	wir	PRON	NE	_	6	A	6:A	_
+4	haben	haben	AUX	VAFIN	_	6	F	6:F	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	recht	recht	ADV	NE	_	0	H	0:H	_
+7	gehabt	haben	VERB	VAPP	_	6	D	6:D	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	Conseil	Conseil	NOUN	NE	_	6	G	6:G	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+11	«	«	PUNCT	$(	_	6	U	6:U	_
+

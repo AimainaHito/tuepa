@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 133006
+# text = Released in 1942 , Woman of the Year was another success .
+1	Released	release	VERB	VBN	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	1942	1942	NUM	CD	_	1	D	1:D	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	Woman	woman	PROPN	NNP	_	11	A	11:A|1:A	_
+6	of	of	ADP	IN	_	5	Terminal	5:Terminal	_
+7	the	the	DET	DT	_	5	Terminal	5:Terminal	_
+8	Year	Year	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	was	be	AUX	VBD	_	11	D	11:D	_
+10	another	another	DET	DT	_	11	D	11:D	_
+11	success	success	NOUN	NN	_	1	H	1:H	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

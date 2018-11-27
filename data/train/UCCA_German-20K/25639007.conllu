@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25639007
+# text = Die Luken waren nicht geöffnet worden .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luken	Luken	NOUN	NN	_	5	A	5:A	_
+3	waren	sein	AUX	VAFIN	_	5	F	5:F	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	geöffnet	öffnen	VERB	VVPP	_	0	H	0:H	_
+6	worden	werden	AUX	ADV	_	5	F	5:F	_
+7	.	.	PUNCT	$.	_	5	U	5:U	_
+

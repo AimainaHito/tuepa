@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25482000
+# text = » Conseil « , sagte ich zu meinem wackeren Diener , der neben mir stand , » weißt du , dass wir vermutlich in die Luft fliegen werden ?
+1	»	»	PUNCT	$(	_	18	U	18:U	_
+2	Conseil	Conseil	NOUN	NN	_	18	G	18:G	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	zu	zu	ADP	VVINF	_	10	R	10:R	_
+8	meinem	mein	PRON	PIS	_	10	E	10:E	_
+9	wackeren	wack	ADJ	ADJA	_	10	E	10:E	_
+10	Diener	Diener	NOUN	NN	_	5	A	5:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	der	der	PRON	PRELS	_	15	R	15:R	_
+13	neben	neben	ADP	TRUNC	_	14	R	14:R	_
+14	mir	ich	PRON	PPER	_	15	A	15:A	_
+15	stand	stehen	VERB	VVFIN	_	10	E	10:E	_
+16	,	,	PUNCT	$,	_	5	U	5:U	_
+17	»	»	PUNCT	$(	_	5	U	5:U	_
+18	weißt	weißen|wissen	VERB	VVFIN	_	5	A	5:A	_
+19	du	du	PRON	PPER	_	18	A	18:A	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	dass	dass	SCONJ	KOUS	_	27	R	27:R	_
+22	wir	wir	PRON	NE	_	27	A	27:A	_
+23	vermutlich	vermutlich	ADJ	ADV	_	27	G	27:G	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Luft	Luft	NOUN	NN	_	27	A	27:A	_
+27	fliegen	fliegen	VERB	VVINF	_	18	A	18:A	_
+28	werden	werden	AUX	VVFIN	_	27	F	27:F	_
+29	?	?	PUNCT	$.	_	27	U	27:U	_
+

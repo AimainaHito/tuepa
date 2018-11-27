@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25591000
+# text = Kapitän Nemo schritt voran und sein Genosse einige Schritte hinter uns .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	schritt	schreiten	VERB	VVFIN	_	0	H	0:H	_
+4	voran	voran	ADV	NE	_	3	Terminal	3:Terminal	_
+5	und	und	CCONJ	NE	_	3	L	3:L	_
+6	sein	sein	DET	PPOSAT	_	7	E	7:E	_
+7	Genosse	Genosse	NOUN	NN	_	3	H	3:H	_
+8	einige	einige	PRON	PIAT	_	9	E	9:E	_
+9	Schritte	Schritt	NOUN	NN	_	7	A	7:A	_
+10	hinter	hinter	ADP	APPR	_	11	R	11:R	_
+11	uns	wir	PRON	NN	_	7	A	7:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

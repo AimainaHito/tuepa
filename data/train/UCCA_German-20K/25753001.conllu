@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25753001
+# text = Aber bald verschwanden auch diese letzten Repräsentanten des Tierlebens , und in einer Tiefe von 12.000 Meter drang er über die Grenzlinie unterseeischen Lebens hinaus , wie wenn der Ballon über die atmungsfähige Zone hinaus in die Lüfte steigt .
+1	Aber	aber	CCONJ	KON	_	3	L	3:L	_
+2	bald	bald	ADV	ADV	_	3	D	3:D	_
+3	verschwanden	verschwanden	VERB	VVINF	_	0	H	0:H	_
+4	auch	auch	ADV	ADV	_	3	D	3:D	_
+5	diese	dies	PRON	PDS	_	7	E	7:E	_
+6	letzten	letzt	ADJ	ADJA	_	7	E	7:E	_
+7	Repräsentanten	Repräsentant	NOUN	NN	_	3	A	3:A	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Tierlebens	Tierleben	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	und	und	CCONJ	NE	_	3	L	3:L	_
+12	in	in	ADP	APPR	_	14	R	14:R	_
+13	einer	ein	DET	ART	_	14	E	14:E	_
+14	Tiefe	Tiefe	NOUN	NN	_	18	A	18:A	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	12.000	12.0	NUM	CARD	_	17	E	17:E	_
+17	Meter	Meter	NOUN	NN	_	14	E	14:E	_
+18	drang	dringen	VERB	VVFIN	_	3	H	3:H	_
+19	er	er	PRON	PPER	_	18	A	18:A	_
+20	über	über	ADP	ADJD	_	22	R	22:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Grenzlinie	Grenzlinie	NOUN	NN	_	18	A	18:A	_
+23	unterseeischen	unterseeisch	ADJ	ADJA	_	24	E	24:E	_
+24	Lebens	Leben	NOUN	NN	_	22	E	22:E	_
+25	hinaus	hinaus	ADV	PTKVZ	_	18	Terminal	18:Terminal	_
+26	,	,	PUNCT	$,	_	3	U	3:U	_
+27	wie	wie	ADV	KON	_	3	L	3:L	_
+28	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+29	der	der	DET	ART	_	30	E	30:E	_
+30	Ballon	Ballon	NOUN	NE	_	39	A	39:A	_
+31	über	über	ADP	NE	_	34	R	34:R	_
+32	die	der	DET	ART	_	34	E	34:E	_
+33	atmungsfähige	atmungsfähig	ADJ	ADJA	_	39	A	39:A	_
+34	Zone	Zone	NOUN	NN	_	33	A	33:A	_
+35	hinaus	hinaus	ADV	ADV	_	31	Terminal	31:Terminal	_
+36	in	in	ADP	APPR	_	38	R	38:R	_
+37	die	der	DET	ART	_	38	E	38:E	_
+38	Lüfte	Lüfte	NOUN	ADJA	_	39	A	39:A	_
+39	steigt	steigen	VERB	VVFIN	_	3	H	3:H	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 670013
+# text = It was the first album by a solo female artist to become the year 's best - selling album since Alanis Morissette 's Jagged Little Pill in 1996 .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	2	A	2:A	_
+6	by	by	ADP	IN	_	10	R	10:R	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	solo	solo	X	AFX	_	10	E	10:E	_
+9	female	female	ADJ	JJ	_	10	E	10:E	_
+10	artist	artist	NOUN	NN	_	5	E	5:E	_
+11	to	to	PART	TO	_	12	F	12:F	_
+12	become	become	VERB	VB	_	5	E	5:E	_
+13	the	the	DET	DT	_	19	E	19:E	_
+14	year	year	NOUN	NN	_	19	E	19:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	best	best	ADJ	JJS	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	selling	sell	VERB	VBG	_	19	E	19:E	_
+19	album	album	NOUN	NN	_	12	A	12:A	_
+20	since	since	ADP	IN	_	2	L	2:L	_
+21	Alanis	Alanis	PROPN	NNP	_	2	H	2:H	_
+22	Morissette	Morissette	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	's	's	PART	POS	_	21	R	21:R	_
+24	Jagged	Jag	PROPN	NNP	_	21	A	21:A	_
+25	Little	Little	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	Pill	Pill	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	1996	1996	NUM	CD	_	21	D	21:D	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

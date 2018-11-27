@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25428003
+# text = Das Meer ist gerade das beste Element , der einzige Ort , wo solche Riesen - neben denen Elefanten und Rhinozerosse nur Zwerge sind - entstehen und sich entwickeln können !
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Meer	Meer	NOUN	NN	_	3	A	3:A	_
+3	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+4	gerade	gerade	ADV	ADV	_	3	D	3:D	_
+5	das	der	DET	ART	_	7	E	7:E	_
+6	beste	gut	ADJ	ADJA	_	7	E	7:E	_
+7	Element	Element	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	der	der	DET	ART	_	11	E	11:E	_
+10	einzige	einzig	ADJ	ADJA	_	11	E	11:E	_
+11	Ort	Ort	NOUN	NN	_	7	E	7:E	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	wo	wo	ADV	ADJA	_	26	R	26:R	_
+14	solche	solch	PRON	ADJA	_	15	E	15:E	_
+15	Riesen	Riese	NOUN	NN	_	0	C	0:C|23:A	_
+16	-	-	PUNCT	$(	_	23	U	23:U	_
+17	neben	neben	ADP	TRUNC	_	23	R	23:R	_
+18	denen	der	PRON	ADJA	_	23	A	23:A	_
+19	Elefanten	Elefant	NOUN	NN	_	23	A	23:A	_
+20	und	und	CCONJ	NE	_	19	N	19:N	_
+21	Rhinozerosse	Rhinozerosse	NOUN	NE	_	19	C	19:C	_
+22	nur	nur	ADV	NE	_	23	D	23:D	_
+23	Zwerge	Zwerg	ADJ	NN	_	11	E	11:E	_
+24	sind	sein	AUX	NN	_	23	F	23:F	_
+25	-	-	PUNCT	$(	_	11	U	11:U	_
+26	entstehen	entstehen	VERB	VVINF	_	11	E	11:E	_
+27	und	und	CCONJ	NE	_	26	N	26:N	_
+28	sich	er|es|sie	PRON	PRF	_	26	C	26:C	_
+29	entwickeln	entwickeln	VERB	VVINF	_	28	Terminal	28:Terminal	_
+30	können	können	AUX	VMFIN	_	26	D	26:D	_
+31	!	!	PUNCT	$.	_	26	U	26:U	_
+

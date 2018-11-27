@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 527011
+# text = In October 1951 , Garland opened in a vaudeville - style , two - a - day engagement at Broadway 's newly refurbished Palace Theatre .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	October	October	PROPN	NNP	_	6	D	6:D	_
+3	1951	1951	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Garland	Garland	PROPN	NNP	_	6	A	6:A	_
+6	opened	open	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	18	R	18:R	_
+8	a	a	DET	DT	_	18	E	18:E	_
+9	vaudeville	vaudeville	NOUN	NN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	style	style	NOUN	NN	_	18	E	18:E	_
+12	,	,	PUNCT	,	_	18	U	18:U	_
+13	two	two	NUM	CD	_	17	E	17:E	_
+14	-	-	PUNCT	HYPH	_	17	U	17:U	_
+15	a	a	NOUN	NN	_	17	R	17:R	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	day	day	NOUN	NN	_	18	E	18:E	_
+18	engagement	engagement	NOUN	NN	_	6	A	6:A	_
+19	at	at	ADP	IN	_	25	R	25:R	_
+20	Broadway	Broadway	PROPN	NNP	_	25	E	25:E	_
+21	's	's	PART	POS	_	20	R	20:R	_
+22	newly	newly	ADV	RB	_	23	E	23:E	_
+23	refurbished	refurbish	VERB	VBN	_	25	E	25:E	_
+24	Palace	Palace	PROPN	NNP	_	25	E	25:E	_
+25	Theatre	theatre	PROPN	NNP	_	18	E	18:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

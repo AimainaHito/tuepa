@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 226008
+# text = Chan declined and the role was taken by Wesley Snipes .
+1	Chan	Chan	PROPN	NNP	_	2	A	2:A	_
+2	declined	decline	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	L	2:L	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	taken	take	VERB	VBN	_	2	H	2:H	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	Wesley	Wesley	PROPN	NNP	_	7	A	7:A	_
+10	Snipes	Snipes	PROPN	NNPS	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

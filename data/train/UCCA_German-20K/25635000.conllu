@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25635000
+# text = Einer dieser Häuptlinge kam ziemlich nah an die " Nautilus " heran und forschte aufmerksam .
+1	Einer	ein	PRON	PIS	_	4	A	4:A	_
+2	dieser	dies	PRON	PDAT	_	3	R	3:R	_
+3	Häuptlinge	Häuptling	NOUN	NN	_	0	C	0:C|14:A	_
+4	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+5	ziemlich	ziemlich	ADV	ADV	_	6	E	6:E	_
+6	nah	nah	ADJ	ADJD	_	4	D	4:D	_
+7	an	an	ADP	APPR	_	10	R	10:R	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	"	"	PUNCT	$(	_	10	U	10:U	_
+10	Nautilus	Nautilus	PROPN	NE	_	4	A	4:A	_
+11	"	"	PUNCT	$(	_	4	U	4:U	_
+12	heran	heran	ADV	PTKVZ	_	4	Terminal	4:Terminal	_
+13	und	und	CCONJ	NE	_	4	L	4:L	_
+14	forschte	forschen	VERB	VVFIN	_	4	H	4:H	_
+15	aufmerksam	aufmerksam	ADJ	ADJD	_	14	D	14:D	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 659018
+# text = Shortly thereafter , she was introduced to rising pop singer Brenda K. Starr .
+1	Shortly	shortly	ADV	RB	_	2	E	2:E	_
+2	thereafter	thereafter	ADV	RB	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	she	she	PRON	PRP	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	introduced	introduce	VERB	VBN	_	0	H	0:H	_
+7	to	to	ADP	IN	_	11	R	11:R	_
+8	rising	rise	VERB	VBG	_	10	E	10:E	_
+9	pop	pop	NOUN	NN	_	10	E	10:E	_
+10	singer	singer	NOUN	NN	_	11	E	11:E	_
+11	Brenda	Brenda	PROPN	NNP	_	6	A	6:A	_
+12	K.	K.	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Starr	Starr	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	.	_	11	U	11:U	_
+

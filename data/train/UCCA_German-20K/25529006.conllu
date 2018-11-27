@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25529006
+# text = » Die sind zu schätzen « , erwiderte Ned Land .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Die	der	PRON	ART	_	5	A	5:A	_
+3	sind	sein	AUX	NN	_	5	D	5:D	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	schätzen	schätzen	VERB	VVINF	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Ned	Ned	PROPN	NE	_	8	A	8:A	_
+10	Land	Land	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

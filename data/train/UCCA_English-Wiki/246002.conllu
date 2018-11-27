@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 246002
+# text = The San Francisco Chronicle praised Hawke and Delpy 's performances : " [ they ] interact so gently and simply that you feel certain that they helped write the dialogue . Each of them seems to have something personal at stake in their performances . "
+1	The	the	DET	DT	_	5	A	5:A	_
+2	San	San	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Francisco	Francisco	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Chronicle	Chronicle	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	praised	praise	VERB	VBD	_	0	H	0:H	_
+6	Hawke	Hawke	PROPN	NNP	_	10	A	10:A	_
+7	and	and	CCONJ	CC	_	6	N	6:N	_
+8	Delpy	Delpy	PROPN	NNP	_	6	C	6:C	_
+9	's	's	PART	POS	_	6	R	6:R	_
+10	performances	performance	NOUN	NNS	_	5	A	5:A	_
+11	:	:	PUNCT	:	_	5	U	5:U	_
+12	"	"	PUNCT	``	_	5	U	5:U	_
+13	[	[	PUNCT	-LRB-	_	5	U	5:U	_
+14	they	they	PRON	PRP	_	16	A	16:A	_
+15	]	]	PUNCT	-RRB-	_	16	U	16:U	_
+16	interact	interact	VERB	VB	_	5	A	5:A	_
+17	so	so	ADV	RB	_	18	E	18:E	_
+18	gently	gently	ADV	RB	_	16	D	16:D	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	simply	simply	ADV	RB	_	18	C	18:C	_
+21	that	that	SCONJ	IN	_	24	R	24:R	_
+22	you	you	PRON	PRP	_	24	A	24:A	_
+23	feel	feel	VERB	VBP	_	24	G	24:G	_
+24	certain	certain	ADJ	JJ	_	16	H	16:H	_
+25	that	that	SCONJ	IN	_	28	F	28:F	_
+26	they	they	PRON	PRP	_	28	A	28:A	_
+27	helped	help	VERB	VBD	_	28	E	28:E	_
+28	write	write	VERB	VB	_	24	A	24:A	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	dialogue	dialogue	NOUN	NN	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	16	U	16:U	_
+32	Each	each	DET	DT	_	34	R	34:R	_
+33	of	of	ADP	IN	_	34	R	34:R	_
+34	them	they	PRON	PRP	_	37	A	37:A	_
+35	seems	seem	VERB	VBZ	_	37	G	37:G	_
+36	to	to	PART	TO	_	37	F	37:F	_
+37	have	have	VERB	VB	_	16	H	16:H	_
+38	something	something	PRON	NN	_	39	E	39:E	_
+39	personal	personal	ADJ	JJ	_	37	A	37:A	_
+40	at	at	ADP	IN	_	41	R	41:R	_
+41	stake	stake	NOUN	NN	_	39	E	39:E	_
+42	in	in	ADP	IN	_	44	R	44:R	_
+43	their	they	PRON	PRP$	_	44	A	44:A	_
+44	performances	performance	NOUN	NNS	_	37	A	37:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+46	"	"	PUNCT	''	_	44	U	44:U	_
+

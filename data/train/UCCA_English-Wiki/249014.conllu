@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 249014
+# text = The film opened to a mediocre reception , yet his performance was well - received , with the New York Daily News concluding , " Hawke - continuing an evolution toward stronger , more intense acting than anyone might 've predicted from him 20 years ago - drives the movie . "
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	opened	open	VERB	VBD	_	0	H	0:H	_
+4	to	to	ADP	IN	_	7	R	7:R	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	mediocre	mediocre	NOUN	NN	_	7	E	7:E	_
+7	reception	reception	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	,	_	3	U	3:U	_
+9	yet	yet	CCONJ	CC	_	3	L	3:L	_
+10	his	he	PRON	PRP$	_	11	A	11:A	_
+11	performance	performance	NOUN	NN	_	15	A	15:A	_
+12	was	be	AUX	VBD	_	15	F	15:F	_
+13	well	well	ADV	RB	_	15	D	15:D	_
+14	-	-	PUNCT	HYPH	_	15	U	15:U	_
+15	received	receive	VERB	VBN	_	3	H	3:H	_
+16	,	,	PUNCT	,	_	3	U	3:U	_
+17	with	with	ADP	IN	_	3	L	3:L	_
+18	the	the	DET	DT	_	23	A	23:A	_
+19	New	New	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	York	York	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	Daily	daily	ADJ	JJ	_	18	Terminal	18:Terminal	_
+22	News	News	NOUN	NN	_	18	Terminal	18:Terminal	_
+23	concluding	conclude	VERB	VBG	_	3	H	3:H	_
+24	,	,	PUNCT	,	_	23	U	23:U	_
+25	"	"	PUNCT	``	_	23	U	23:U	_
+26	Hawke	Hawke	NOUN	NN	_	30	A	30:A	_
+27	-	-	PUNCT	HYPH	_	30	U	30:U	_
+28	continuing	continue	VERB	VBG	_	30	D	30:D	_
+29	an	a	DET	DT	_	30	E	30:E	_
+30	evolution	evolution	NOUN	NN	_	48	A	48:A	_
+31	toward	toward	ADP	IN	_	36	R	36:R	_
+32	stronger	stronger	ADJ	JJR	_	36	E	36:E	_
+33	,	,	PUNCT	,	_	32	U	32:U	_
+34	more	more	ADV	RBR	_	35	E	35:E	_
+35	intense	intense	ADJ	JJ	_	32	C	32:C	_
+36	acting	acting	VERB	VBG	_	30	A	30:A	_
+37	than	than	SCONJ	IN	_	36	R	36:R	_
+38	anyone	anyone	PRON	NN	_	41	A	41:A	_
+39	might	might	AUX	MD	_	41	D	41:D	_
+40	've	have	AUX	VB	_	41	F	41:F	_
+41	predicted	predict	VERB	VBN	_	36	C	36:C	_
+42	from	from	ADP	IN	_	43	R	43:R	_
+43	him	he	PRON	PRP	_	41	A	41:A	_
+44	20	20	NUM	CD	_	45	E	45:E	_
+45	years	year	NOUN	NNS	_	41	D	41:D	_
+46	ago	ago	ADV	RB	_	45	R	45:R	_
+47	-	-	PUNCT	,	_	48	U	48:U	_
+48	drives	drive	VERB	VBZ	_	23	A	23:A	_
+49	the	the	DET	DT	_	50	E	50:E	_
+50	movie	movie	NOUN	NN	_	48	A	48:A	_
+51	.	.	PUNCT	.	_	50	U	50:U	_
+52	"	"	PUNCT	''	_	50	U	50:U	_
+

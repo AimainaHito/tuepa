@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25699003
+# text = » Im Mittelmeer ! « rief ich aus .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Im	Im	PROPN	NN	_	3	R	3:R	_
+3	Mittelmeer	Mittelmeer	PROPN	NE	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A	_
+8	aus	aus	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+

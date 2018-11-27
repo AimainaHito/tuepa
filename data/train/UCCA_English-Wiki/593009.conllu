@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 593009
+# text = Depp has also disagreed with subsequent media reports that perceived him as a " European wannabe " , saying that he likes the anonymity of living in France and his simpler life there .
+1	Depp	Depp	PROPN	NNP	_	4	A	4:A|19:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	disagreed	disagree	VERB	VBN	_	0	H	0:H	_
+5	with	with	ADP	IN	_	8	R	8:R	_
+6	subsequent	subsequent	ADJ	JJ	_	8	E	8:E	_
+7	media	media	NOUN	NN	_	8	E	8:E	_
+8	reports	report	NOUN	NNS	_	4	A	4:A	_
+9	that	that	PRON	WDT	_	10	R	10:R	_
+10	perceived	perceive	VERB	VBD	_	8	E	8:E	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	as	as	ADP	IN	_	15	R	15:R	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	European	european	ADJ	JJ	_	10	A	10:A	_
+16	wannabe	wannabe	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	"	"	PUNCT	''	_	4	U	4:U	_
+18	,	,	PUNCT	,	_	4	U	4:U	_
+19	saying	say	VERB	VBG	_	4	H	4:H	_
+20	that	that	SCONJ	IN	_	22	F	22:F	_
+21	he	he	PRON	PRP	_	22	A	22:A|26:A	_
+22	likes	like	VERB	VBZ	_	19	A	19:A	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	anonymity	anonymity	NOUN	NN	_	22	A	22:A	_
+25	of	of	SCONJ	IN	_	26	R	26:R	_
+26	living	live	VERB	VBG	_	24	E	24:E	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	France	France	PROPN	NNP	_	26	A	26:A	_
+29	and	and	CCONJ	CC	_	24	N	24:N	_
+30	his	he	PRON	PRP$	_	32	E	32:E	_
+31	simpler	simpler	ADJ	JJR	_	32	E	32:E	_
+32	life	life	NOUN	NN	_	24	C	24:C	_
+33	there	there	ADV	RB	_	32	E	32:E	_
+34	.	.	PUNCT	.	_	32	U	32:U	_
+

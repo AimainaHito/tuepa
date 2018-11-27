@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 645006
+# text = " He said he was trying to re - establish a connection with the then 17 - year - old , and confidently predicted , " Julian and I will have a relationship in the future .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	He	he	PRON	PRP	_	3	A	3:A	_
+3	said	say	VERB	VBD	_	0	H	0:H	_
+4	he	he	PRON	PRP	_	10	A	10:A|24:A	_
+5	was	be	AUX	VBD	_	10	F	10:F	_
+6	trying	try	VERB	VBG	_	10	D	10:D	_
+7	to	to	PART	TO	_	10	F	10:F	_
+8	re	re	VERB	VB	_	10	D	10:D	_
+9	-	-	PUNCT	,	_	10	U	10:U	_
+10	establish	establish	VERB	VB	_	3	A	3:A	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	connection	connection	NOUN	NN	_	10	A	10:A	_
+13	with	with	ADP	IN	_	18	R	18:R	_
+14	the	the	DET	DT	_	18	E	18:E	_
+15	then	then	ADV	RB	_	18	E	18:E	_
+16	17	17	NUM	CD	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	year	year	NOUN	NN	_	10	A	10:A	_
+19	-	-	PUNCT	HYPH	_	18	U	18:U	_
+20	old	old	ADJ	JJ	_	18	E	18:E	_
+21	,	,	PUNCT	,	_	3	U	3:U	_
+22	and	and	CCONJ	CC	_	3	L	3:L	_
+23	confidently	confidently	ADV	RB	_	24	D	24:D	_
+24	predicted	predict	VERB	VBN	_	3	H	3:H	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	"	"	PUNCT	''	_	24	U	24:U	_
+27	Julian	Julian	PROPN	NNP	_	33	A	33:A	_
+28	and	and	CCONJ	CC	_	27	N	27:N	_
+29	I	I	PRON	PRP	_	27	C	27:C	_
+30	will	will	AUX	MD	_	33	F	33:F	_
+31	have	have	VERB	VB	_	33	F	33:F	_
+32	a	a	DET	DT	_	33	E	33:E	_
+33	relationship	relationship	NOUN	NN	_	24	A	24:A	_
+34	in	in	ADP	IN	_	36	R	36:R	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	future	future	NOUN	NN	_	33	D	33:D	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

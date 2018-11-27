@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25437009
+# text = « » Man wird sie im Hotel aufheben .
+1	«	«	PUNCT	$(	_	8	U	8:U	_
+2	»	»	PUNCT	$(	_	8	U	8:U	_
+3	Man	man	PRON	PIS	_	8	A	8:A	_
+4	wird	werden	AUX	VAFIN	_	8	F	8:F	_
+5	sie	sie	PRON	ADV	_	8	A	8:A	_
+6	im	im	ADJ	NE	_	7	R	7:R	_
+7	Hotel	Hotel	NOUN	NN	_	8	A	8:A	_
+8	aufheben	aufheben	VERB	VVPP	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

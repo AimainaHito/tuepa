@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25697008
+# text = » Dann möcht' ich , da Sie vorhin vom Untergang der Ägypter im Roten Meer sprachen , Sie fragen , ob Sie unter Wasser die Spuren dieses großen historischen Ereignisses gesehen haben ? «
+1	»	»	PUNCT	$(	_	19	U	19:U	_
+2	Dann	dann	PROPN	ADV	_	19	L	19:L	_
+3	möcht'	möcht'	PROPN	$(	_	19	D	19:D	_
+4	ich	ich	PRON	PPER	_	19	A	19:A	_
+5	,	,	PUNCT	$,	_	19	U	19:U	_
+6	da	da	SCONJ	KOUS	_	19	L	19:L	_
+7	Sie	Sie|sie	PRON	PPER	_	16	A	16:A	_
+8	vorhin	vorhin	ADV	ADV	_	16	D	16:D	_
+9	vom	vom	ADP	NN	_	10	R	10:R	_
+10	Untergang	Untergang	NOUN	NN	_	16	A	16:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Ägypter	Ägypter	NOUN	NN	_	10	E	10:E	_
+13	im	im	PROPN	NN	_	14	R	14:R	_
+14	Roten	rot	PROPN	ADJA	_	10	E	10:E	_
+15	Meer	Meer	PROPN	NN	_	14	E	14:E	_
+16	sprachen	sprechen	VERB	VVFIN	_	19	H	19:H	_
+17	,	,	PUNCT	$,	_	19	U	19:U	_
+18	Sie	Sie|sie	PRON	PPER	_	19	A	19:A	_
+19	fragen	fragen	VERB	VVINF	_	0	H	0:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	ob	ob	SCONJ	VVFIN	_	31	L	31:L	_
+22	Sie	sie	PRON	PPER	_	31	A	31:A	_
+23	unter	unter	ADP	ADJD	_	24	R	24:R	_
+24	Wasser	Wasser	NOUN	NN	_	31	A	31:A	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Spuren	Spur|Spuren	NOUN	NN	_	31	A	31:A	_
+27	dieses	dies	PRON	PDAT	_	30	R	30:R	_
+28	großen	groß	ADJ	ADJA	_	30	E	30:E	_
+29	historischen	historisch	ADJ	ADJA	_	30	E	30:E	_
+30	Ereignisses	Ereignis	NOUN	NN	_	26	E	26:E	_
+31	gesehen	sehen	VERB	VVINF	_	19	A	19:A	_
+32	haben	haben	VERB	VAFIN	_	31	F	31:F	_
+33	?	?	PUNCT	$.	_	31	U	31:U	_
+34	«	«	PUNCT	$(	_	31	U	31:U	_
+

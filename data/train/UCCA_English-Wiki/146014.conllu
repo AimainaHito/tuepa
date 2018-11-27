@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 146014
+# text = In 1991 , Hepburn told a journalist , " I 'm an atheist , and that 's it . I believe there 's nothing we can know except that we should be kind to each other and do what we can for other people .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1991	1991	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A	_
+5	told	tell	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	journalist	journalist	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	"	"	PUNCT	``	_	5	U	5:U	_
+10	I	I	PRON	PRP	_	13	A	13:A	_
+11	'm	be	AUX	VBP	_	13	F	13:F	_
+12	an	a	DET	DT	_	13	E	13:E	_
+13	atheist	atheist	NOUN	NN	_	5	A	5:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	and	and	CCONJ	CC	_	13	L	13:L	_
+16	that	that	PRON	DT	_	17	A	17:A	_
+17	's	be	AUX	VBZ	_	13	H	13:H	_
+18	it	it	PRON	PRP	_	17	A	17:A	_
+19	.	.	PUNCT	.	_	13	U	13:U	_
+20	I	I	PRON	PRP	_	21	A	21:A	_
+21	believe	believe	VERB	VBP	_	13	H	13:H	_
+22	there	there	PRON	EX	_	23	F	23:F	_
+23	's	be	VERB	VBZ	_	21	A	21:A	_
+24	nothing	nothing	PRON	NN	_	23	A	23:A	_
+25	we	we	PRON	PRP	_	27	A	27:A	_
+26	can	can	AUX	MD	_	27	D	27:D	_
+27	know	know	VERB	VB	_	24	E	24:E	_
+28	except	except	SCONJ	IN	_	33	R	33:R	_
+29	that	that	SCONJ	IN	_	33	F	33:F	_
+30	we	we	PRON	PRP	_	33	A	33:A|38:A	_
+31	should	should	AUX	MD	_	33	D	33:D	_
+32	be	be	AUX	VB	_	33	F	33:F	_
+33	kind	kind	ADJ	JJ	_	23	A	23:A	_
+34	to	to	PART	TO	_	35	R	35:R	_
+35	each	each	VERB	VB	_	33	A	33:A	_
+36	other	other	ADJ	JJ	_	35	Terminal	35:Terminal	_
+37	and	and	CCONJ	CC	_	33	N	33:N	_
+38	do	do	VERB	VB	_	33	C	33:C	_
+39	what	what	PRON	WP	_	38	A	38:A	_
+40	we	we	PRON	PRP	_	41	A	41:A	_
+41	can	can	AUX	MD	_	39	E	39:E	_
+42	for	for	ADP	IN	_	44	R	44:R	_
+43	other	other	ADJ	JJ	_	44	E	44:E	_
+44	people	people	NOUN	NNS	_	38	A	38:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25615013
+# text = Unser Fahrzeug fuhr einige Meilen weit neben dieser fürchterlichen Bank her , an der Cooks Schiffe am 10 . Juni 1770 beinah gescheitert wären .
+1	Unser	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Fahrzeug	Fahrzeug	NOUN	NN	_	3	A	3:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	einige	einige	PRON	PIAT	_	5	E	5:E	_
+5	Meilen	Meile	NOUN	NN	_	3	A	3:A	_
+6	weit	weit	ADV	ADJD	_	5	E	5:E	_
+7	neben	neben	ADP	TRUNC	_	10	R	10:R	_
+8	dieser	dies	PRON	PDAT	_	10	E	10:E	_
+9	fürchterlichen	fürchterlichen	VERB	ADJA	_	10	E	10:E	_
+10	Bank	Bank	NOUN	NN	_	3	A	3:A	_
+11	her	her	ADV	PTKVZ	_	7	Terminal	7:Terminal	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	an	an	ADP	APPR	_	14	R	14:R	_
+14	der	der	DET	PRELS	_	23	R	23:R	_
+15	Cooks	Cooks	PROPN	NE	_	16	E	16:E	_
+16	Schiffe	Schiff	NOUN	NN	_	23	A	23:A	_
+17	am	ommen	VERB	NE	_	18	R	18:R	_
+18	10	10	NUM	CARD	_	23	D	23:D	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+20	Juni	Juni	PROPN	NN	_	18	Terminal	18:Terminal	_
+21	1770	1770	NUM	CARD	_	18	Terminal	18:Terminal	_
+22	beinah	beinah	ADV	ADJD	_	23	D	23:D	_
+23	gescheitert	gescheitert	VERB	VVPP	_	10	E	10:E	_
+24	wären	sein	AUX	VVINF	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

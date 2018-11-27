@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 472003
+# text = However , the Lakers bowed out to the Phoenix Suns in the Western Conference semifinals , which was the Lakers ' earliest playoffs elimination in nine years .
+1	However	however	ADV	RB	_	5	L	5:L	_
+2	,	,	PUNCT	,	_	5	U	5:U	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	Lakers	Laker	NOUN	NNS	_	5	A	5:A	_
+5	bowed	bow	VERB	VBD	_	0	H	0:H	_
+6	out	out	ADP	RP	_	5	Terminal	5:Terminal	_
+7	to	to	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Phoenix	Phoenix	PROPN	NNP	_	5	A	5:A	_
+10	Suns	Suns	PROPN	NNPS	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	Western	western	ADJ	JJ	_	14	E	14:E	_
+14	Conference	conference	NOUN	NN	_	15	E	15:E	_
+15	semifinals	semifinal	NOUN	NNS	_	5	A	5:A	_
+16	,	,	PUNCT	,	_	15	U	15:U	_
+17	which	which	PRON	WDT	_	18	F	18:F	_
+18	was	be	AUX	VBD	_	15	E	15:E	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Lakers	Laker	PROPN	NNPS	_	24	A	24:A	_
+21	'	's	PART	POS	_	24	U	24:U	_
+22	earliest	earliest	ADJ	JJS	_	24	D	24:D	_
+23	playoffs	playoffs	NOUN	NNS	_	24	E	24:E	_
+24	elimination	elimination	NOUN	NN	_	18	A	18:A	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	nine	nine	NUM	CD	_	27	E	27:E	_
+27	years	year	NOUN	NNS	_	24	D	24:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

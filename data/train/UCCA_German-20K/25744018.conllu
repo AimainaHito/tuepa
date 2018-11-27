@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25744018
+# text = Raubvögel schweiften und streiften hier und da im Dunkel oder flohen aus ihren Nestern auf Felsenspitzen .
+1	Raubvögel	Raubvogel	NOUN	NN	_	2	A	2:A|11:A	_
+2	schweiften	schweifen	VERB	VVFIN	_	0	H	0:H	_
+3	und	und	CCONJ	NE	_	2	N	2:N	_
+4	streiften	streifen	VERB	VVFIN	_	2	C	2:C	_
+5	hier	hier	ADV	ADV	_	2	A	2:A	_
+6	und	und	CCONJ	NE	_	5	Terminal	5:Terminal	_
+7	da	da	ADV	NE	_	5	Terminal	5:Terminal	_
+8	im	im	ADV	NE	_	9	R	9:R	_
+9	Dunkel	dunkel	NOUN	NE	_	2	A	2:A	_
+10	oder	oder	CCONJ	CARD	_	2	L	2:L	_
+11	flohen	fliehen	VERB	VVFIN	_	2	H	2:H	_
+12	aus	aus	ADP	APPR	_	14	R	14:R	_
+13	ihren	ihr	DET	PPOSAT	_	14	E	14:E	_
+14	Nestern	Nester	NOUN	NN	_	11	A	11:A	_
+15	auf	auf	ADP	APPR	_	16	R	16:R	_
+16	Felsenspitzen	Felsenspitzen	NOUN	NN	_	11	A	11:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

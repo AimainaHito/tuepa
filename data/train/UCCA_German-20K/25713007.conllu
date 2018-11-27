@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25713007
+# text = Der Taucher erwiderte mit der Hand , begab sich unverzüglich wieder zur Oberfläche , und kam nicht wieder zum Vorschein .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Taucher	Taucher	NOUN	ADJA	_	0	C	0:C|8:A|20:A|16:A	_
+3	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Hand	Hand	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	begab	begeben	VERB	VVFIN	_	3	H	3:H	_
+9	sich	er|es|sie	PRON	PRF	_	8	Terminal	8:Terminal	_
+10	unverzüglich	unverzüglich	ADJ	ADJD	_	8	D	8:D	_
+11	wieder	wieder	ADV	NE	_	8	D	8:D	_
+12	zur	zur	ADV	NE	_	13	R	13:R	_
+13	Oberfläche	Oberfläche	NOUN	NE	_	8	A	8:A	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	und	und	CCONJ	NE	_	3	L	3:L	_
+16	kam	kommen	VERB	VVFIN	_	3	H	3:H	_
+17	nicht	nicht	PART	CARD	_	16	D	16:D	_
+18	wieder	wieder	ADV	NN	_	16	D	16:D	_
+19	zum	zum	ADP	NN	_	20	R	20:R	_
+20	Vorschein	Vorschein	NOUN	NN	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

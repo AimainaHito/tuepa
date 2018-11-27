@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25699001
+# text = » Ja , Ehre dem großen Bürger « , erwiderte ich , überrascht über die warme Betonung , mit der Kapitän Nemo gesprochen .
+1	»	»	PUNCT	$(	_	10	U	10:U	_
+2	Ja	Ja	PROPN	PTKANT	_	10	A	10:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Ehre	Ehre	NOUN	NN	_	2	H	2:H	_
+5	dem	der	DET	ART	_	7	R	7:R	_
+6	großen	groß	ADJ	ADJA	_	7	E	7:E	_
+7	Bürger	Bürger	NOUN	NN	_	4	A	4:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	ich	ich	PRON	PPER	_	10	A	10:A|13:A	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	überrascht	überraschen	VERB	ADJD	_	10	H	10:H	_
+14	über	über	ADP	VVFIN	_	17	R	17:R	_
+15	die	der	DET	ART	_	17	E	17:E	_
+16	warme	warm	ADJ	ADJA	_	17	E	17:E	_
+17	Betonung	Betonung	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	mit	mit	ADP	ADV	_	20	R	20:R	_
+20	der	der	DET	ART	_	23	R	23:R	_
+21	Kapitän	Kapitän	NOUN	NN	_	22	E	22:E	_
+22	Nemo	Nemo	PROPN	NE	_	23	A	23:A	_
+23	gesprochen	sprechen	VERB	VVPP	_	17	E	17:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

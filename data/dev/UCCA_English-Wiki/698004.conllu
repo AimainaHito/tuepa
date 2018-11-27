@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 698004
+# text = On November 22 , 1965 , Dylan secretly married 25 - year - old former model Sara Lownds .
+1	On	on	ADP	IN	_	5	R	5:R	_
+2	November	November	PROPN	NNP	_	5	E	5:E	_
+3	22	22	NUM	CD	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	1965	1965	NUM	CD	_	9	D	9:D	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	Dylan	Dylan	PROPN	NNP	_	9	A	9:A	_
+8	secretly	secretly	ADV	RB	_	9	D	9:D	_
+9	married	marry	VERB	VBD	_	0	H	0:H	_
+10	25	25	NUM	CD	_	12	E	12:E	_
+11	-	-	PUNCT	HYPH	_	12	U	12:U	_
+12	year	year	NOUN	NN	_	14	E	14:E	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	old	old	ADJ	JJ	_	17	E	17:E	_
+15	former	former	ADJ	JJ	_	16	E	16:E	_
+16	model	model	NOUN	NN	_	17	E	17:E	_
+17	Sara	Sara	PROPN	NNP	_	9	A	9:A	_
+18	Lownds	Lownds	PROPN	NNPS	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	17	U	17:U	_
+

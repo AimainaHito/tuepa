@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25670011
+# text = Wie auf ein Signal verschwanden auf einmal alle Segel , die Arme zogen sich ein , die Körper schrumpften zusammen , die Muscheln änderten durch Umkehren ihren Schwerpunkt , und die ganze Flottille sank unter .
+1	Wie	wie	ADV	KON	_	5	D	5:D	_
+2	auf	auf	ADP	APPR	_	4	R	4:R	_
+3	ein	ein	DET	ART	_	4	E	4:E	_
+4	Signal	Signal	NOUN	NN	_	5	A	5:A	_
+5	verschwanden	verschwanden	VERB	VVINF	_	0	H	0:H	_
+6	auf	auf	ADP	APPR	_	5	D	5:D	_
+7	einmal	einmal	ADV	ADV	_	6	Terminal	6:Terminal	_
+8	alle	alle	PRON	PIAT	_	9	E	9:E	_
+9	Segel	segel	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	die	der	DET	PRELS	_	12	E	12:E	_
+12	Arme	Arm|Arme	NOUN	NN	_	13	A	13:A	_
+13	zogen	ziehen	VERB	VVFIN	_	5	H	5:H	_
+14	sich	er|es|sie	PRON	PRF	_	13	Terminal	13:Terminal	_
+15	ein	ein	ADV	PTKVZ	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	$,	_	5	U	5:U	_
+17	die	der	DET	ART	_	18	E	18:E	_
+18	Körper	Körper	NOUN	NN	_	19	A	19:A	_
+19	schrumpften	schrumpfen	VERB	VVFIN	_	5	H	5:H	_
+20	zusammen	zusammen	ADV	NN	_	19	Terminal	19:Terminal	_
+21	,	,	PUNCT	$,	_	5	U	5:U	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Muscheln	Muschel	NOUN	NN	_	24	A	24:A	_
+24	änderten	ändern	VERB	VVFIN	_	5	H	5:H	_
+25	durch	durch	ADP	APPR	_	26	R	26:R	_
+26	Umkehren	Umkehren	NOUN	NN	_	24	A	24:A	_
+27	ihren	ihr	DET	PPOSAT	_	28	E	28:E	_
+28	Schwerpunkt	Schwerpunkt	NOUN	NN	_	24	A	24:A	_
+29	,	,	PUNCT	$,	_	5	U	5:U	_
+30	und	und	CCONJ	NE	_	5	L	5:L	_
+31	die	der	DET	ART	_	33	E	33:E	_
+32	ganze	ganz	ADJ	ADJA	_	33	E	33:E	_
+33	Flottille	Flottille	NOUN	NN	_	34	A	34:A	_
+34	sank	sinken	VERB	VVFIN	_	5	H	5:H	_
+35	unter	unter	ADP	ADJD	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+

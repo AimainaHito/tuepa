@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 215000
+# text = Later in 1994 , Dunst appeared in the adaptation of the drama Little Women opposite Winona Ryder and Claire Danes .
+1	Later	later	ADV	RBR	_	3	E	3:E	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	1994	1994	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Dunst	Dunst	PROPN	NNP	_	6	A	6:A	_
+6	appeared	appear	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	13	R	13:R	_
+8	the	the	DET	DT	_	13	E	13:E	_
+9	adaptation	adaptation	NOUN	NN	_	13	E	13:E	_
+10	of	of	ADP	IN	_	9	R	9:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	drama	drama	NOUN	NN	_	13	E	13:E	_
+13	Little	Little	PROPN	NNP	_	6	A	6:A	_
+14	Women	women	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	opposite	opposite	ADP	IN	_	16	R	16:R	_
+16	Winona	Winona	PROPN	NNP	_	6	A	6:A	_
+17	Ryder	Ryder	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	and	and	CCONJ	CC	_	16	N	16:N	_
+19	Claire	Claire	PROPN	NNP	_	16	C	16:C	_
+20	Danes	Danes	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	16	U	16:U	_
+

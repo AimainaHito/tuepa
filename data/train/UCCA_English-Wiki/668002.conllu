@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 668002
+# text = Consequently , critics suggested that in delaying Glitter , hype for the project would have largely subsided , and would possibly hurt both ticket and album sales .
+1	Consequently	consequently	ADV	RB	_	4	L	4:L	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	critics	critic	NOUN	NNS	_	4	A	4:A	_
+4	suggested	suggest	VERB	VBD	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	6	F	6:F	_
+6	in	in	ADV	RB	_	7	L	7:L	_
+7	delaying	delay	VERB	VBG	_	4	A	4:A	_
+8	Glitter	Glitter	PROPN	NNP	_	7	A	7:A	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	hype	hype	NOUN	NN	_	0	C	0:C|22:A	_
+11	for	for	ADP	IN	_	10	R	10:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	project	project	NOUN	NN	_	10	E	10:E	_
+14	would	would	AUX	MD	_	17	F	17:F	_
+15	have	have	AUX	VB	_	17	F	17:F	_
+16	largely	largely	ADV	RB	_	17	D	17:D	_
+17	subsided	subsided	VERB	VBN	_	7	H	7:H	_
+18	,	,	PUNCT	,	_	7	U	7:U	_
+19	and	and	CCONJ	CC	_	7	L	7:L	_
+20	would	would	AUX	MD	_	22	F	22:F	_
+21	possibly	possibly	ADV	RB	_	22	D	22:D	_
+22	hurt	hurt	VERB	VB	_	7	H	7:H	_
+23	both	both	CCONJ	CC	_	24	N	24:N	_
+24	ticket	ticket	NOUN	NN	_	27	E	27:E	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	album	album	NOUN	NN	_	24	C	24:C	_
+27	sales	sale	NOUN	NNS	_	22	A	22:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

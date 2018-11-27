@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 540000
+# text = The studio discovered a trained German Shepherd named Rin Tin Tin in 1923 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	studio	studio	NOUN	NN	_	3	A	3:A	_
+3	discovered	discover	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	trained	train	VERB	VBN	_	6	E	6:E	_
+6	German	german	ADJ	JJ	_	3	A	3:A	_
+7	Shepherd	shepherd	NOUN	NN	_	6	Terminal	6:Terminal	_
+8	named	name	VERB	VBN	_	6	E	6:E	_
+9	Rin	Rin	PROPN	NNP	_	8	A	8:A	_
+10	Tin	tin	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Tin	tin	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	1923	1923	NUM	CD	_	3	D	3:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

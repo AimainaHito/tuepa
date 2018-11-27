@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25691009
+# text = Man sieht , ich war der ›Nautilus‹ schon so befreundet , als steckte ich in der Haut seines Kommandanten .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	sieht	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	ich	ich	PRON	PPER	_	10	A	10:A	_
+5	war	sein	AUX	ADV	_	10	F	10:F	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	A	10:A	_
+8	schon	schon	ADV	ADV	_	10	D	10:D	_
+9	so	so	ADV	ADV	_	10	D	10:D	_
+10	befreundet	befreundet	ADJ	ADJD	_	2	H	2:H	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	als	als	SCONJ	KOKOM	_	2	L	2:L	_
+13	steckte	stecken	VERB	VVFIN	_	2	H	2:H	_
+14	ich	ich	PRON	PPER	_	13	A	13:A	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Haut	Haut	NOUN	NN	_	13	A	13:A	_
+18	seines	sein	DET	PPOSAT	_	19	R	19:R	_
+19	Kommandanten	Kommandant	NOUN	NN	_	17	E	17:E	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

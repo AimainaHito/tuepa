@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 783000
+# text = « Monsieur Pierre Aronnax ? me dit - il .
+1	«	«	PUNCT	_	_	7	U	7:U	_
+2	Monsieur	Monsieur	PROPN	_	_	3	E	3:E	_
+3	Pierre	Pierre	PROPN	_	_	7	A	7:A	_
+4	Aronnax	Aronnax	PROPN	_	_	3	Terminal	3:Terminal	_
+5	?	?	PUNCT	_	_	7	U	7:U	_
+6	me	lui	PRON	_	_	7	A	7:A	_
+7	dit	dire	VERB	_	_	0	H	0:H	_
+8	-	-	PUNCT	_	_	7	U	7:U	_
+9	il	il	PRON	_	_	7	A	7:A	_
+10	.	.	PUNCT	_	_	7	U	7:U	_
+

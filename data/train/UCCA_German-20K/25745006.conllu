@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25745006
+# text = Die Fauna zählte nach Tausenden , Schaltiere aller Art , Hummer , Krabben , Palämon , Feldspinnen , Seejungfern und eine zahllose Menge von Muscheln , Porzellan- , Purpurschnecken , Napfmuscheln .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Fauna	Fauna	PROPN	NN	_	3	A	3:A	_
+3	zählte	zählen	VERB	VVFIN	_	0	H	0:H	_
+4	nach	nach	ADP	CARD	_	7	R	7:R	_
+5	Tausenden	tausenden	NOUN	NN	_	7	E	7:E	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	Schaltiere	Schaltier	NOUN	NN	_	3	A	3:A	_
+8	aller	alle	PRON	PIAT	_	9	R	9:R	_
+9	Art	Art	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	3	U	3:U	_
+11	Hummer	Hummer	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	$,	_	3	U	3:U	_
+13	Krabben	Krabben	PROPN	NN	_	3	A	3:A	_
+14	,	,	PUNCT	$,	_	3	U	3:U	_
+15	Palämon	Palämon	PROPN	NE	_	3	A	3:A	_
+16	,	,	PUNCT	$,	_	3	U	3:U	_
+17	Feldspinnen	Feldspinnen	NOUN	NE	_	3	A	3:A	_
+18	,	,	PUNCT	$,	_	3	U	3:U	_
+19	Seejungfern	Seejungfer	NOUN	NE	_	3	A	3:A	_
+20	und	und	CCONJ	NE	_	19	N	19:N	_
+21	eine	ein	DET	ART	_	23	E	23:E	_
+22	zahllose	zahllos	ADJ	ADJA	_	23	E	23:E	_
+23	Menge	Menge	NOUN	NN	_	19	C	19:C	_
+24	von	von	ADP	NE	_	23	R	23:R	_
+25	Muscheln	Muschel	NOUN	NN	_	23	E	23:E	_
+26	,	,	PUNCT	$,	_	23	U	23:U	_
+27	Porzellan-	Porzellan-	NOUN	NE	_	23	E	23:E	_
+28	,	,	PUNCT	$,	_	23	U	23:U	_
+29	Purpurschnecken	Purpurschnecken	NOUN	NE	_	23	E	23:E	_
+30	,	,	PUNCT	$,	_	23	U	23:U	_
+31	Napfmuscheln	Napfmuschel	NOUN	NE	_	23	E	23:E	_
+32	.	.	PUNCT	$.	_	23	U	23:U	_
+

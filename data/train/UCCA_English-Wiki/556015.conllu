@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 556015
+# text = B.B . King recalled that he knew Presley before he was popular when they both used to frequent Beale Street .
+1	B.B	B.B	PROPN	NNP	_	4	A	4:A	_
+2	.	.	PUNCT	.	_	1	U	1:U	_
+3	King	King	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	recalled	recall	VERB	VBD	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	7	R	7:R	_
+6	he	he	PRON	PRP	_	7	A	7:A	_
+7	knew	know	VERB	VBD	_	4	A	4:A	_
+8	Presley	Presley	PROPN	NNP	_	7	A	7:A	_
+9	before	before	SCONJ	IN	_	7	L	7:L	_
+10	he	he	PRON	PRP	_	12	A	12:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	popular	popular	ADJ	JJ	_	7	H	7:H	_
+13	when	when	ADV	WRB	_	7	L	7:L	_
+14	they	they	PRON	PRP	_	18	A	18:A	_
+15	both	both	DET	DT	_	14	R	14:R	_
+16	used	use	VERB	VBD	_	18	D	18:D	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	frequent	frequent	VERB	VB	_	7	H	7:H	_
+19	Beale	Beale	PROPN	NNP	_	20	E	20:E	_
+20	Street	Street	PROPN	NNP	_	18	A	18:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

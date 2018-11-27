@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25692000
+# text = Indem wir dieses Meer verließen , bekamen wir einen Augenblick Mascat zu sehen , die bedeutendste Stadt im Land Oman .
+1	Indem	indem	SCONJ	KOUS	_	5	L	5:L	_
+2	wir	wir	PRON	NE	_	5	A	5:A	_
+3	dieses	dies	PRON	PDAT	_	4	E	4:E	_
+4	Meer	Meer	NOUN	NN	_	5	A	5:A	_
+5	verließen	verlassen	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	bekamen	bekommen	VERB	VVFIN	_	13	D	13:D	_
+8	wir	wir	PRON	NE	_	13	A	13:A	_
+9	einen	ein	DET	ART	_	10	E	10:E	_
+10	Augenblick	Augenblick	NOUN	NN	_	13	D	13:D	_
+11	Mascat	Mascat	PROPN	NN	_	13	A	13:A	_
+12	zu	zu	PART	VVINF	_	13	F	13:F	_
+13	sehen	sehen	VERB	VVINF	_	5	H	5:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	DET	ART	_	17	E	17:E	_
+16	bedeutendste	bedeutend	ADJ	ADJA	_	11	E	11:E	_
+17	Stadt	Stadt	NOUN	NN	_	16	A	16:A	_
+18	im	im	PROPN	NE	_	20	R	20:R	_
+19	Land	Land	PROPN	NE	_	20	E	20:E	_
+20	Oman	Oman	PROPN	NE	_	16	A	16:A	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

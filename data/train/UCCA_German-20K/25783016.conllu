@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25783016
+# text = Diese Antwort gab mir keine Auskunft .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Antwort	Antwort	NOUN	NN	_	6	A	6:A	_
+3	gab	geben	VERB	VVFIN	_	6	D	6:D	_
+4	mir	ich	PRON	PPER	_	6	A	6:A	_
+5	keine	kein	PRON	PIAT	_	6	D	6:D	_
+6	Auskunft	Auskunft	NOUN	NN	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

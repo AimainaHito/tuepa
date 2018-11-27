@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 248000
+# text = Hawke pursued a number of projects away from acting throughout the early 2000s .
+1	Hawke	Hawke	PROPN	NNP	_	2	A	2:A|9:A	_
+2	pursued	pursue	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	number	number	NOUN	NN	_	6	E	6:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	projects	project	NOUN	NNS	_	2	A	2:A	_
+7	away	away	ADV	RB	_	9	R	9:R	_
+8	from	from	SCONJ	IN	_	7	E	7:E	_
+9	acting	act	VERB	VBG	_	6	E	6:E	_
+10	throughout	throughout	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	early	early	ADJ	JJ	_	13	E	13:E	_
+13	2000s	2000	NOUN	NNS	_	2	D	2:D	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

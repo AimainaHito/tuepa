@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25488126
+# text = « Es wurde daher dringend notwendig , sich mit den im Schoß dieser Maschine befindlichen Geschöpfen , welcher Art sie auch sein mochten , in Verbindung zu setzen .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	Es	es	PRON	PPER	_	6	F	6:F	_
+3	wurde	werden	AUX	TRUNC	_	6	F	6:F	_
+4	daher	daher	ADV	PAV	_	6	D	6:D	_
+5	dringend	dringend	ADJ	ADJD	_	6	D	6:D	_
+6	notwendig	notwendig	ADJ	CARD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sich	er|es|sie	PRON	PRF	_	6	A	6:A	_
+9	mit	mit	ADP	APPR	_	16	R	16:R	_
+10	den	der	DET	ART	_	16	E	16:E	_
+11	im	im	ADJ	NN	_	12	R	12:R	_
+12	Schoß	Schoß	NOUN	NN	_	15	A	15:A	_
+13	dieser	dies	PRON	PDAT	_	14	R	14:R	_
+14	Maschine	Maschine	NOUN	NN	_	12	E	12:E	_
+15	befindlichen	befindlich	ADJ	ADJA	_	16	E	16:E	_
+16	Geschöpfen	Geschöpfen	NOUN	NN	_	8	A	8:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	welcher	welch	PRON	PRELS	_	19	E	19:E	_
+19	Art	Art	NOUN	NE	_	22	A	22:A	_
+20	sie	sie	PRON	ADV	_	22	A	22:A	_
+21	auch	auch	ADV	ADV	_	22	F	22:F	_
+22	sein	sein	AUX	VAINF	_	16	E	16:E	_
+23	mochten	mögen	AUX	VVINF	_	22	D	22:D	_
+24	,	,	PUNCT	$,	_	8	U	8:U	_
+25	in	in	ADP	APPR	_	8	Terminal	8:Terminal	_
+26	Verbindung	Verbindung	NOUN	NN	_	8	Terminal	8:Terminal	_
+27	zu	zu	PART	VVINF	_	8	F	8:F	_
+28	setzen	setzen	VERB	VVINF	_	8	Terminal	8:Terminal	_
+29	.	.	PUNCT	$.	_	8	U	8:U	_
+

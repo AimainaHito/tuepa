@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 563010
+# text = Presley would refer back to the Allen show as the most ridiculous performance of his career .
+1	Presley	Presley	PRON	PRP	_	3	A	3:A	_
+2	would	would	AUX	MD	_	3	D	3:D	_
+3	refer	refer	VERB	VB	_	0	H	0:H	_
+4	back	back	ADV	RB	_	3	D	3:D	_
+5	to	to	ADP	IN	_	6	R	6:R	_
+6	the	the	DET	DT	_	3	A	3:A|13:A	_
+7	Allen	Allen	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	show	show	NOUN	NN	_	6	Terminal	6:Terminal	_
+9	as	as	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	most	most	ADV	RBS	_	13	E	13:E	_
+12	ridiculous	ridiculous	ADJ	JJ	_	13	E	13:E	_
+13	performance	performance	NOUN	NN	_	3	A	3:A	_
+14	of	of	ADP	IN	_	16	R	16:R	_
+15	his	he	PRON	PRP$	_	16	E	16:E	_
+16	career	career	NOUN	NN	_	13	E	13:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

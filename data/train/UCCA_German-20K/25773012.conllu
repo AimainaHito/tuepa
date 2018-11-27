@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25773012
+# text = Es ließ sich nicht einmal die Stelle erkennen , die es hinter dem Nebel vorhang einnahm .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	ließ	lassen	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	nicht	nicht	PART	XY	_	2	D	2:D	_
+5	einmal	einmal	ADV	ADV	_	4	E	4:E	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Stelle	Stelle	NOUN	NN	_	2	A	2:A	_
+8	erkennen	erkennen	VERB	VVINF	_	2	Terminal	2:Terminal	_
+9	,	,	PUNCT	$,	_	2	U	2:U	_
+10	die	der	PRON	PRELS	_	16	R	16:R	_
+11	es	es	PRON	PPER	_	16	A	16:A	_
+12	hinter	hinter	ADP	APPR	_	15	R	15:R	_
+13	dem	der	DET	ART	_	15	E	15:E	_
+14	Nebel	nebel	NOUN	NN	_	15	E	15:E	_
+15	vorhang	vorhang	ADJ	VVFIN	_	16	A	16:A	_
+16	einnahm	einnehmen	VERB	VVFIN	_	7	E	7:E	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25783019
+# text = » Aber kann man die ›Nautilus‹ nicht durch Entleeren ihrer Behälter freimachen , so dass sie wieder ins Gleichgewicht kommt . «
+1	»	»	PUNCT	$(	_	12	U	12:U	_
+2	Aber	aber	CCONJ	KON	_	12	L	12:L	_
+3	kann	können	AUX	VMFIN	_	12	D	12:D	_
+4	man	man	PRON	PIS	_	12	A	12:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	12	A	12:A	_
+7	nicht	nicht	PART	CARD	_	12	D	12:D	_
+8	durch	durch	ADP	APPR	_	9	R	9:R	_
+9	Entleeren	entleeren	NOUN	NN	_	12	A	12:A	_
+10	ihrer	ihr	DET	PPOSAT	_	11	E	11:E	_
+11	Behälter	Behälter	NOUN	NN	_	9	A	9:A	_
+12	freimachen	freimachen	VERB	ADJA	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	so	so	ADV	ADV	_	12	L	12:L	_
+15	dass	dass	SCONJ	KOUS	_	14	Terminal	14:Terminal	_
+16	sie	sie	PRON	ADV	_	19	A	19:A	_
+17	wieder	wieder	ADV	NE	_	19	D	19:D	_
+18	ins	in	DET	NE	_	19	R	19:R	_
+19	Gleichgewicht	Gleichgewicht	NOUN	NE	_	12	H	12:H	_
+20	kommt	kommen	VERB	VVFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+22	«	«	PUNCT	$(	_	19	U	19:U	_
+

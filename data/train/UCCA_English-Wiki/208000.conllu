@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 208000
+# text = Hoffman continued to appear in major films over the next few years .
+1	Hoffman	Hoffman	PROPN	NNP	_	4	A	4:A	_
+2	continued	continue	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	appear	appear	VERB	VB	_	0	H	0:H	_
+5	in	in	ADP	IN	_	7	R	7:R	_
+6	major	major	ADJ	JJ	_	7	E	7:E	_
+7	films	film	NOUN	NNS	_	4	A	4:A	_
+8	over	over	ADP	IN	_	12	R	12:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	next	next	ADJ	JJ	_	11	E	11:E	_
+11	few	few	ADJ	JJ	_	12	E	12:E	_
+12	years	year	NOUN	NNS	_	4	D	4:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

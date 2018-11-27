@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25591011
+# text = Wir schritten über feinen Sand ohne Runzeln , wie an den Meeresküsten der Fall ist , wo Spuren der hohen See zurückbleiben .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	schritten	schritten	VERB	VVINF	_	0	H	0:H	_
+3	über	über	ADP	ADJD	_	5	R	5:R	_
+4	feinen	fein	ADJ	PPOSAT	_	5	E	5:E	_
+5	Sand	Sand	NOUN	NN	_	2	A	2:A	_
+6	ohne	ohne	ADP	NN	_	7	E	7:E	_
+7	Runzeln	Runzeln	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	wie	wie	ADP	KON	_	14	D	14:D	_
+10	an	an	ADP	APPR	_	12	R	12:R	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Meeresküsten	Meeresküst	NOUN	NN	_	14	A	14:A	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Fall	Fall	NOUN	NN	_	2	H	2:H	_
+15	ist	sein	AUX	NN	_	14	F	14:F	_
+16	,	,	PUNCT	$,	_	2	U	2:U	_
+17	wo	wo	ADV	ADJA	_	2	L	2:L	_
+18	Spuren	Spur|Spuren	NOUN	NN	_	22	A	22:A	_
+19	der	der	DET	ART	_	21	R	21:R	_
+20	hohen	hoch	ADJ	ADJA	_	21	E	21:E	_
+21	See	See	NOUN	NE	_	18	E	18:E	_
+22	zurückbleiben	zurückbleiben	VERB	VVIZU	_	2	H	2:H	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

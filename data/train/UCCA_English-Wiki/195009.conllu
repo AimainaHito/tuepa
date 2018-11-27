@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 195009
+# text = The show 's name was later changed to Studio 60 on the Sunset Strip .
+1	The	the	DET	DT	_	4	E	4:E	_
+2	show	show	NOUN	NN	_	4	E	4:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	name	name	NOUN	NN	_	7	A	7:A	_
+5	was	be	AUX	VBD	_	7	F	7:F	_
+6	later	later	ADV	RB	_	7	D	7:D	_
+7	changed	change	VERB	VBN	_	0	H	0:H	_
+8	to	to	ADP	IN	_	9	R	9:R	_
+9	Studio	Studio	PROPN	NNP	_	7	A	7:A	_
+10	60	60	NUM	CD	_	9	Terminal	9:Terminal	_
+11	on	on	ADP	IN	_	9	Terminal	9:Terminal	_
+12	the	the	DET	DT	_	9	Terminal	9:Terminal	_
+13	Sunset	Sunset	ADJ	JJ	_	9	Terminal	9:Terminal	_
+14	Strip	Strip	PROPN	NNP	_	9	Terminal	9:Terminal	_
+15	.	.	PUNCT	.	_	9	U	9:U	_
+

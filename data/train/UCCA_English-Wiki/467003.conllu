@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 467003
+# text = After the game , Fred Stabley Jr. , a sports writer for the Lansing State Journal , gave him the moniker despite the belief of Johnson 's mother , a Christian , that the name was sacrilegious .
+1	After	after	SCONJ	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	game	game	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Fred	Fred	PROPN	NNP	_	18	A	18:A	_
+6	Stabley	Stabley	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Jr.	Jr.	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	sports	sport	NOUN	NNS	_	11	E	11:E	_
+11	writer	writer	NOUN	NN	_	5	E	5:E	_
+12	for	for	ADP	IN	_	14	R	14:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	Lansing	Lansing	PROPN	NNP	_	11	A	11:A	_
+15	State	State	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Journal	Journal	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	,	,	PUNCT	,	_	18	U	18:U	_
+18	gave	give	VERB	VBD	_	3	H	3:H	_
+19	him	he	PRON	PRP	_	18	A	18:A	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	moniker	moniker	NOUN	NN	_	18	A	18:A	_
+22	despite	despite	ADP	IN	_	3	L	3:L	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	belief	belief	NOUN	NN	_	3	H	3:H	_
+25	of	of	ADP	IN	_	28	R	28:R	_
+26	Johnson	Johnson	PROPN	NNP	_	28	E	28:E	_
+27	's	's	PART	POS	_	26	R	26:R	_
+28	mother	mother	NOUN	NN	_	24	A	24:A	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	Christian	christian	PROPN	NNP	_	28	E	28:E	_
+32	,	,	PUNCT	,	_	24	U	24:U	_
+33	that	that	SCONJ	IN	_	37	F	37:F	_
+34	the	the	DET	DT	_	35	E	35:E	_
+35	name	name	NOUN	NN	_	37	A	37:A	_
+36	was	be	AUX	VBD	_	37	F	37:F	_
+37	sacrilegious	sacrilegious	ADJ	JJ	_	24	A	24:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

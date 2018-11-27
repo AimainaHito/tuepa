@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 450015
+# text = His producers saw a youthful attractiveness in him that resembled that of Dick Clark , and Jennings soon found himself hosting Club Thirteen , a dance show similar to American Bandstand .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	producers	producer	NOUN	NNS	_	3	A	3:A	_
+3	saw	see	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	youthful	youthful	ADJ	JJ	_	6	E	6:E	_
+6	attractiveness	attractiveness	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	him	he	PRON	PRP	_	3	A	3:A	_
+9	that	that	PRON	WDT	_	10	F	10:F	_
+10	resembled	resemble	VERB	VBD	_	6	E	6:E	_
+11	that	that	PRON	DT	_	10	A	10:A	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	Dick	Dick	PROPN	NNP	_	11	E	11:E	_
+14	Clark	Clark	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	and	and	CCONJ	CC	_	3	L	3:L	_
+17	Jennings	Jennings	PROPN	NNP	_	19	A	19:A|21:A	_
+18	soon	soon	ADV	RB	_	19	D	19:D	_
+19	found	find	VERB	VBD	_	3	H	3:H	_
+20	himself	himself	PRON	PRP	_	19	D	19:D	_
+21	hosting	host	VERB	VBG	_	19	A	19:A	_
+22	Club	club	PROPN	NNP	_	21	A	21:A	_
+23	Thirteen	Thirteen	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	,	,	PUNCT	,	_	22	U	22:U	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	dance	dance	NOUN	NN	_	27	E	27:E	_
+27	show	show	NOUN	NN	_	22	E	22:E	_
+28	similar	similar	ADJ	JJ	_	30	R	30:R	_
+29	to	to	ADP	IN	_	30	F	30:F	_
+30	American	American	PROPN	NNP	_	27	E	27:E	_
+31	Bandstand	Bandstand	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 605008
+# text = It also earned Martin a Grammy for his orchestral arrangement .
+1	It	it	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	earned	earn	VERB	VBD	_	0	H	0:H	_
+4	Martin	Martin	PROPN	NNP	_	3	A	3:A	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	Grammy	Grammy	PROPN	NNP	_	3	A	3:A	_
+7	for	for	ADP	IN	_	10	R	10:R	_
+8	his	he	PRON	PRP$	_	10	E	10:E	_
+9	orchestral	orchestral	ADJ	JJ	_	10	E	10:E	_
+10	arrangement	arrangement	NOUN	NN	_	3	A	3:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

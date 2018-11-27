@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25615002
+# text = » Wie du sagst , Conseil . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Wie	wie	PROPN	NE	_	4	D	4:D	_
+3	du	du	PROPN	PPER	_	4	A	4:A	_
+4	sagst	sagen	VERB	VVFIN	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	Conseil	Conseil	NOUN	NE	_	4	G	4:G	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+8	«	«	PUNCT	$(	_	4	U	4:U	_
+

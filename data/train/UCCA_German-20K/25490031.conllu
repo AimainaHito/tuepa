@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25490031
+# text = » Mein Herr hat gut geschlafen ? « fragte mich Conseil mit seiner täglichen Höflichkeit .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Mein	mein	PROPN	PPOSAT	_	3	E	3:E	_
+3	Herr	Herr	PROPN	NN	_	6	A	6:A	_
+4	hat	haben	VERB	VAFIN	_	6	F	6:F	_
+5	gut	gut	ADJ	ADJD	_	6	D	6:D	_
+6	geschlafen	schlafen	ADJ	VVPP	_	9	A	9:A	_
+7	?	?	PUNCT	$.	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+10	mich	ich	PRON	PPER	_	9	A	9:A	_
+11	Conseil	Conseil	NOUN	NE	_	9	A	9:A	_
+12	mit	mit	ADP	APPR	_	15	R	15:R	_
+13	seiner	sein	DET	PPOSAT	_	15	E	15:E	_
+14	täglichen	täglich	ADJ	ADJA	_	15	E	15:E	_
+15	Höflichkeit	Höflichkeit	NOUN	NN	_	9	A	9:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

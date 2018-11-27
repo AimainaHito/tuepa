@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25704016
+# text = Der Kanadier merkte gleich seine Absicht .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kanadier	Kanadier	NOUN	NN	_	3	A	3:A	_
+3	merkte	merken	VERB	VVFIN	_	0	H	0:H	_
+4	gleich	gleich	ADV	ADV	_	3	D	3:D	_
+5	seine	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Absicht	Absicht	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

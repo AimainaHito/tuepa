@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25760001
+# text = Man konnte den Sieg der Pottfische voraussehen , nicht allein weil ihr Körperteil ihnen den Vorteil über ihre Gegner gibt , sondern auch weil sie länger unter Wasser aushalten können , ohne auf der Oberfläche Luft schöpfen zu müssen .
+1	Man	man	PRON	PIS	_	7	A	7:A	_
+2	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Sieg	Sieg	NOUN	NN	_	0	C	0:C|9:A	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	Pottfische	Pottfisch	PROPN	ADJA	_	4	A	4:A	_
+7	voraussehen	voraussehen	VERB	VVPP	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	nicht	nicht	PART	CARD	_	7	H	7:H	_
+10	allein	allein	ADV	ADV	_	9	D	9:D	_
+11	weil	weil	SCONJ	KOUS	_	7	L	7:L	_
+12	ihr	ihr	DET	PPOSAT	_	13	E	13:E	_
+13	Körperteil	Körperteil	NOUN	NN	_	20	A	20:A	_
+14	ihnen	sie	PRON	PPER	_	20	A	20:A	_
+15	den	der	DET	ART	_	16	E	16:E	_
+16	Vorteil	Vorteil	NOUN	NN	_	20	A	20:A	_
+17	über	über	ADP	VVFIN	_	19	R	19:R	_
+18	ihre	ihr	DET	PPOSAT	_	19	E	19:E	_
+19	Gegner	Gegner	NOUN	NN	_	16	A	16:A	_
+20	gibt	geben	VERB	VVFIN	_	7	H	7:H	_
+21	,	,	PUNCT	$,	_	7	U	7:U	_
+22	sondern	sondern	CCONJ	NN	_	7	L	7:L	_
+23	auch	auch	ADV	ADV	_	22	Terminal	22:Terminal	_
+24	weil	weil	SCONJ	KOUS	_	7	L	7:L	_
+25	sie	sie	PRON	ADV	_	29	A	29:A	_
+26	länger	lang	ADJ	ADJD	_	29	D	29:D	_
+27	unter	unter	ADP	ADJD	_	28	R	28:R	_
+28	Wasser	Wasser	NOUN	NN	_	29	A	29:A	_
+29	aushalten	aushalten	VERB	VVINF	_	7	H	7:H	_
+30	können	können	AUX	VMFIN	_	29	D	29:D	_
+31	,	,	PUNCT	$,	_	7	U	7:U	_
+32	ohne	ohne	ADP	CARD	_	37	D	37:D	_
+33	auf	auf	ADP	APPR	_	35	R	35:R	_
+34	der	der	DET	ART	_	35	E	35:E	_
+35	Oberfläche	Oberfläche	NOUN	NN	_	37	A	37:A	_
+36	Luft	Luft	NOUN	NN	_	37	A	37:A	_
+37	schöpfen	schöpfen	VERB	VVINF	_	7	H	7:H	_
+38	zu	zu	PART	VVINF	_	37	F	37:F	_
+39	müssen	müssen	AUX	VMINF	_	37	D	37:D	_
+40	.	.	PUNCT	$.	_	37	U	37:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25666014
+# text = Während die ›Nautilus‹ sich vorbereitete , ihre unterseeische Fahrt fort zu setzen , begab ich mich wieder in den Saal hinab .
+1	Während	während	SCONJ	KOUS	_	10	L	10:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	›Nautilus‹	›Nautilus‹	NOUN	NE	_	10	A	10:A	_
+4	sich	er|es|sie	PRON	PRF	_	10	D	10:D	_
+5	vorbereitete	vorbereiten	VERB	VVFIN	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	10	U	10:U	_
+7	ihre	ihr	DET	PPOSAT	_	9	E	9:E	_
+8	unterseeische	unterseeisch	ADJ	ADJA	_	9	E	9:E	_
+9	Fahrt	Fahrt	NOUN	NN	_	10	A	10:A	_
+10	fort	fort	ADV	PTKVZ	_	0	H	0:H	_
+11	zu	zu	PART	VVINF	_	10	F	10:F	_
+12	setzen	setzen	VERB	VVINF	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	begab	begeben	VERB	VVFIN	_	10	H	10:H	_
+15	ich	ich	PRON	PPER	_	14	A	14:A	_
+16	mich	ich	PRON	PRF	_	14	Terminal	14:Terminal	_
+17	wieder	wieder	ADV	NE	_	14	D	14:D	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Saal	Saal	NOUN	NN	_	14	A	14:A	_
+21	hinab	hinab	ADV	PTKVZ	_	20	E	20:E	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

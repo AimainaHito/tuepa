@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 243012
+# text = Hawke 's parents were students at the University of Texas at the time of his birth , and separated in 1974 .
+1	Hawke	Hawke	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	parents	parent	NOUN	NNS	_	0	C	0:C|19:A	_
+4	were	be	AUX	VBD	_	0	H	0:H	_
+5	students	student	NOUN	NNS	_	4	A	4:A	_
+6	at	at	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	University	University	PROPN	NNP	_	4	A	4:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	Texas	Texas	PROPN	NNP	_	8	E	8:E	_
+11	at	at	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	time	time	NOUN	NN	_	16	E	16:E	_
+14	of	of	ADP	IN	_	13	R	13:R	_
+15	his	he	PRON	PRP$	_	16	A	16:A	_
+16	birth	birth	NOUN	NN	_	4	A	4:A	_
+17	,	,	PUNCT	,	_	4	U	4:U	_
+18	and	and	CCONJ	CC	_	4	L	4:L	_
+19	separated	separate	VERB	VBN	_	4	H	4:H	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1974	1974	NUM	CD	_	19	D	19:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

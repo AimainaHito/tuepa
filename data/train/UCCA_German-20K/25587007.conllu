@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25587007
+# text = » Allerdings . Ich kann ja doch an Bord meines Fahrzeugs ohne Salpeter , Schwefel und Kohlen kein Pulver fabrizieren . «
+1	»	»	PUNCT	$(	_	20	U	20:U	_
+2	Allerdings	allerdings	ADV	ADV	_	20	G	20:G	_
+3	.	.	PUNCT	$.	_	20	U	20:U	_
+4	Ich	ich	PRON	PPER	_	20	A	20:A	_
+5	kann	können	AUX	VMFIN	_	20	D	20:D	_
+6	ja	ja	ADV	ADV	_	20	F	20:F	_
+7	doch	doch	ADV	ADV	_	20	F	20:F	_
+8	an	an	ADP	APPR	_	9	R	9:R	_
+9	Bord	Bord	NOUN	NN	_	20	A	20:A	_
+10	meines	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Fahrzeugs	Fahrzeug	NOUN	NN	_	9	E	9:E	_
+12	ohne	ohne	ADP	NN	_	13	E	13:E	_
+13	Salpeter	Salpeter	NOUN	NN	_	20	A	20:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	Schwefel	Schwefel	NOUN	NN	_	13	C	13:C	_
+16	und	und	CCONJ	NE	_	13	N	13:N	_
+17	Kohlen	Kohle	NOUN	NE	_	13	C	13:C	_
+18	kein	kein	PRON	PIAT	_	20	D	20:D	_
+19	Pulver	Pulver	NOUN	NN	_	20	A	20:A	_
+20	fabrizieren	fabrizieren	VERB	VVINF	_	0	H	0:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

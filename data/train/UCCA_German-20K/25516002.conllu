@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25516002
+# text = « » Ganz richtig so , mein Herr . «
+1	«	«	PUNCT	$(	_	4	U	4:U	_
+2	»	»	PUNCT	$(	_	4	U	4:U	_
+3	Ganz	ganz	NOUN	ADV	_	4	E	4:E	_
+4	richtig	richtig	ADJ	ADJD	_	0	H	0:H	_
+5	so	so	ADV	ADV	_	4	D	4:D	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+8	Herr	Herr	NOUN	NN	_	4	G	4:G	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+10	«	«	PUNCT	$(	_	8	U	8:U	_
+

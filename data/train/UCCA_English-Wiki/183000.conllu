@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 183000
+# text = Davis was the co - founder of the Hollywood Canteen , and was the first female president of the Academy of Motion Picture Arts and Sciences .
+1	Davis	Davis	PROPN	NNP	_	2	A	2:A|13:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	co	co	X	AFX	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	founder	founder	NOUN	NN	_	2	A	2:A	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Hollywood	Hollywood	PROPN	NNP	_	6	E	6:E	_
+10	Canteen	Canteen	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	and	and	CCONJ	CC	_	2	L	2:L	_
+13	was	be	AUX	VBD	_	2	H	2:H	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	first	first	ADJ	JJ	_	17	E	17:E	_
+16	female	female	ADJ	JJ	_	17	E	17:E	_
+17	president	president	NOUN	NN	_	13	A	13:A	_
+18	of	of	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	Academy	Academy	PROPN	NNP	_	17	E	17:E	_
+21	of	of	ADP	IN	_	24	R	24:R	_
+22	Motion	motion	PROPN	NNP	_	23	E	23:E	_
+23	Picture	picture	PROPN	NNP	_	24	E	24:E	_
+24	Arts	Arts	PROPN	NNPS	_	20	E	20:E	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	Sciences	Sciences	PROPN	NNPS	_	24	C	24:C	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+

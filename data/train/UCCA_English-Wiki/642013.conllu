@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 642013
+# text = " The couple were married on 23 August at the Mount Pleasant Register Office in Liverpool .
+1	"	"	PUNCT	``	_	5	U	5:U	_
+2	The	the	DET	DT	_	3	E	3:E	_
+3	couple	couple	NOUN	NN	_	5	A	5:A	_
+4	were	be	AUX	VBD	_	5	F	5:F	_
+5	married	marry	VERB	VBN	_	0	H	0:H	_
+6	on	on	ADP	IN	_	8	R	8:R	_
+7	23	23	NUM	CD	_	8	E	8:E	_
+8	August	August	PROPN	NNP	_	5	D	5:D	_
+9	at	at	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Mount	Mount	PROPN	NNP	_	5	A	5:A	_
+12	Pleasant	pleasant	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Register	Register	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	Office	Office	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	Liverpool	Liverpool	PROPN	NNP	_	11	E	11:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

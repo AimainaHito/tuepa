@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 730007
+# text = It also received a nomination for a Golden Globe Award for Best Foreign Language Film .
+1	It	it	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	nomination	nomination	NOUN	NN	_	3	A	3:A	_
+6	for	for	ADP	IN	_	5	R	5:R	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	Golden	golden	PROPN	NNP	_	9	E	9:E	_
+9	Globe	Globe	PROPN	NNP	_	10	E	10:E	_
+10	Award	Award	PROPN	NNP	_	5	E	5:E	_
+11	for	for	ADP	IN	_	15	R	15:R	_
+12	Best	Best	PROPN	NNP	_	15	E	15:E	_
+13	Foreign	Foreign	PROPN	NNP	_	14	E	14:E	_
+14	Language	language	PROPN	NNP	_	15	E	15:E	_
+15	Film	film	PROPN	NNP	_	10	E	10:E	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

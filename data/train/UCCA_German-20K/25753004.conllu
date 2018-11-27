@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25753004
+# text = » Wäre es Ihnen angenehm « , fragte mich Kapitän Nemo , » mehr als die Erinnerung daran mitzunehmen ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Wäre	sein	AUX	NE	_	5	D	5:D	_
+3	es	es	PRON	PPER	_	5	F	5:F	_
+4	Ihnen	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	angenehm	angenehm	ADJ	ADJD	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+9	mich	ich	PRON	PPER	_	8	A	8:A	_
+10	Kapitän	Kapitän	PROPN	NN	_	11	E	11:E	_
+11	Nemo	Nemo	PROPN	NE	_	8	A	8:A	_
+12	,	,	PUNCT	$,	_	8	U	8:U	_
+13	»	»	PUNCT	$(	_	8	U	8:U	_
+14	mehr	mehr	ADV	ADV	_	19	D	19:D	_
+15	als	als	ADP	KOKOM	_	17	R	17:R	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Erinnerung	Erinnerung	NOUN	NN	_	19	H	19:H	_
+18	daran	daran	ADV	PAV	_	19	A	19:A	_
+19	mitzunehmen	mitnehmen	VERB	VVIZU	_	5	A	5:A	_
+20	?	?	PUNCT	$.	_	19	U	19:U	_
+21	«	«	PUNCT	$(	_	19	U	19:U	_
+

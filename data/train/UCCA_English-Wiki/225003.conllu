@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 225003
+# text = Chan then played a minor role in the 1981 film The Cannonball Run , which grossed US $ 100 million worldwide .
+1	Chan	Chan	PROPN	NNP	_	3	A	3:A	_
+2	then	then	ADV	RB	_	3	D	3:D	_
+3	played	play	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	minor	minor	ADJ	JJ	_	6	E	6:E	_
+6	role	role	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	1981	1981	NUM	CD	_	11	E	11:E	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	The	the	DET	DT	_	3	A	3:A	_
+12	Cannonball	Cannonball	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	Run	Run	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	,	_	11	U	11:U	_
+15	which	which	PRON	WDT	_	16	R	16:R	_
+16	grossed	gross	VERB	VBD	_	11	E	11:E	_
+17	US	US	PROPN	NNP	_	16	A	16:A	_
+18	$	$	SYM	$	_	17	U	17:U	_
+19	100	100	NUM	CD	_	17	Terminal	17:Terminal	_
+20	million	million	NUM	CD	_	17	Terminal	17:Terminal	_
+21	worldwide	worldwide	ADV	RB	_	16	A	16:A	_
+22	.	.	PUNCT	.	_	16	U	16:U	_
+

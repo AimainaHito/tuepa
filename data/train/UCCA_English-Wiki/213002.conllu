@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 213002
+# text = She appeared in Little Women the same year and in Jumanji the following year to further acclaim .
+1	She	she	PRON	PRP	_	2	A	2:A|11:A|17:A	_
+2	appeared	appear	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	4	R	4:R	_
+4	Little	Little	PROPN	NNP	_	2	A	2:A	_
+5	Women	women	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	same	same	ADJ	JJ	_	8	E	8:E	_
+8	year	year	NOUN	NN	_	2	D	2:D	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Jumanji	Jumanji	PROPN	NNP	_	2	H	2:H	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	following	follow	VERB	VBG	_	14	E	14:E	_
+14	year	year	NOUN	NN	_	11	D	11:D	_
+15	to	to	ADP	IN	_	2	L	2:L	_
+16	further	further	ADJ	JJ	_	17	D	17:D	_
+17	acclaim	acclaim	NOUN	NNS	_	2	H	2:H	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

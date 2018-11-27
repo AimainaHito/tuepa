@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25811014
+# text = Ein Stoß , und sie zitterte in allen Fugen .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Stoß	Stoß	NOUN	NN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	und	und	CCONJ	NE	_	2	L	2:L	_
+5	sie	sie	PRON	ADV	_	6	A	6:A	_
+6	zitterte	zitteren	VERB	VVFIN	_	2	H	2:H	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	allen	alle	PRON	PIAT	_	9	E	9:E	_
+9	Fugen	Fuge	NOUN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

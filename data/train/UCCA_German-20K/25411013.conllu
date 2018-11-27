@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25411013
+# text = Dieses Material vergrößerte sich mit den wachsenden Geschäften nach und nach bedeutend ; besonders im Jahre 1853 mit einer Reihe von Schiffen ersten Ranges , Arabia , Persia , China , Scotia etc . etc .
+1	Dieses	dies	PRON	PDAT	_	2	E	2:E	_
+2	Material	Material	NOUN	NN	_	3	A	3:A	_
+3	vergrößerte	vergrößern	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	mit	mit	ADP	APPR	_	8	R	8:R	_
+6	den	der	DET	ART	_	8	E	8:E	_
+7	wachsenden	wachsend	ADJ	ADJA	_	8	E	8:E	_
+8	Geschäften	Geschäft	NOUN	NN	_	3	A	3:A	_
+9	nach	nach	ADP	CARD	_	3	D	3:D	_
+10	und	und	CCONJ	NE	_	9	Terminal	9:Terminal	_
+11	nach	nach	ADP	CARD	_	9	Terminal	9:Terminal	_
+12	bedeutend	bedeutend	ADJ	ADJD	_	3	D	3:D	_
+13	;	;	PUNCT	$.	_	3	U	3:U	_
+14	besonders	besonders	ADV	ADV	_	26	D	26:D	_
+15	im	im	ADJ	NN	_	16	R	16:R	_
+16	Jahre	Jahr	NOUN	NN	_	26	D	26:D	_
+17	1853	1853	NUM	CARD	_	16	Terminal	16:Terminal	_
+18	mit	mit	ADP	APPR	_	26	R	26:R	_
+19	einer	ein	DET	ART	_	20	E	20:E	_
+20	Reihe	Reihe	NOUN	NN	_	22	E	22:E	_
+21	von	von	ADP	NN	_	22	R	22:R	_
+22	Schiffen	Schiff	NOUN	NN	_	26	E	26:E	_
+23	ersten	erst	ADJ	ADJA	_	24	E	24:E	_
+24	Ranges	Rang	NOUN	NN	_	22	E	22:E	_
+25	,	,	PUNCT	$,	_	26	U	26:U	_
+26	Arabia	Arabia	PROPN	NE	_	3	H	3:H	_
+27	,	,	PUNCT	$,	_	26	U	26:U	_
+28	Persia	Persia	PROPN	NE	_	26	C	26:C	_
+29	,	,	PUNCT	$,	_	26	U	26:U	_
+30	China	China	PROPN	NE	_	26	C	26:C	_
+31	,	,	PUNCT	$,	_	26	U	26:U	_
+32	Scotia	Scotia	PROPN	NE	_	26	C	26:C	_
+33	etc	etc	PROPN	NE	_	26	C	26:C	_
+34	.	.	PUNCT	$.	_	26	U	26:U	_
+35	etc	etc	PROPN	NE	_	26	C	26:C	_
+36	.	.	PUNCT	$.	_	26	U	26:U	_
+

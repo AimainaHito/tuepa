@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 635003
+# text = When they wanted to leave , their host revealed what they had taken , and strongly advised them not to leave the house because of the likely effects .
+1	When	when	ADV	WRB	_	5	L	5:L	_
+2	they	they	PRON	PRP	_	5	A	5:A	_
+3	wanted	want	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	leave	leave	VERB	VB	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	their	they	PRON	PRP$	_	8	E	8:E	_
+8	host	host	NOUN	NN	_	0	C	0:C|17:A	_
+9	revealed	reveal	VERB	VBN	_	5	H	5:H	_
+10	what	what	PRON	WP	_	13	A	13:A	_
+11	they	they	PRON	PRP	_	13	A	13:A	_
+12	had	have	AUX	VBD	_	13	F	13:F	_
+13	taken	take	VERB	VBN	_	9	A	9:A	_
+14	,	,	PUNCT	,	_	5	U	5:U	_
+15	and	and	CCONJ	CC	_	5	L	5:L	_
+16	strongly	strongly	ADV	RB	_	17	D	17:D	_
+17	advised	advise	VERB	VBN	_	5	H	5:H	_
+18	them	they	PRON	PRP	_	17	A	17:A|21:A	_
+19	not	not	ADV	RB	_	21	D	21:D	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	leave	leave	VERB	VB	_	17	A	17:A	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	house	house	NOUN	NN	_	21	A	21:A	_
+24	because	because	ADP	IN	_	5	L	5:L	_
+25	of	of	ADP	IN	_	28	F	28:F	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	likely	likely	ADJ	JJ	_	28	D	28:D	_
+28	effects	effect	NOUN	NNS	_	5	H	5:H	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

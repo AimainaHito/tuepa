@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25438029
+# text = Drei Hurras nacheinander hörte man aus der Brust von einer halben Million erschallen .
+1	Drei	drei	NUM	CARD	_	2	E	2:E	_
+2	Hurras	Hurra	NOUN	NN	_	13	A	13:A	_
+3	nacheinander	nacheinander	ADV	ADV	_	13	D	13:D	_
+4	hörte	hören	VERB	VVFIN	_	0	H	0:H	_
+5	man	man	PRON	PIS	_	4	A	4:A	_
+6	aus	aus	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Brust	Brust	NOUN	NN	_	2	E	2:E	_
+9	von	von	ADP	NE	_	12	R	12:R	_
+10	einer	ein	DET	ART	_	12	E	12:E	_
+11	halben	halb	ADJ	ADJA	_	12	E	12:E	_
+12	Million	Million	NOUN	NN	_	8	E	8:E	_
+13	erschallen	erschallen	VERB	VVINF	_	4	A	4:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

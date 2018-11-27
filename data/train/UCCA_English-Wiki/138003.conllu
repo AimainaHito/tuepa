@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 138003
+# text = Hepburn played a cold - hearted Soviet pilot , a performance Bosley Crowther called " horrible " . It was a critical and commercial failure , and Hepburn considered it the worst film on her resume .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	8	E	8:E	_
+4	cold	cold	ADJ	JJ	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	hearted	hearted	VERB	VBN	_	8	E	8:E	_
+7	Soviet	soviet	PROPN	NNP	_	8	E	8:E	_
+8	pilot	pilot	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	performance	performance	NOUN	NN	_	8	E	8:E	_
+12	Bosley	Bosley	PROPN	NNP	_	14	A	14:A	_
+13	Crowther	Crowther	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	called	call	VERB	VBD	_	11	E	11:E	_
+15	"	"	PUNCT	``	_	14	U	14:U	_
+16	horrible	horrible	ADJ	JJ	_	14	A	14:A	_
+17	"	"	PUNCT	''	_	2	U	2:U	_
+18	.	.	PUNCT	.	_	2	U	2:U	_
+19	It	it	PRON	PRP	_	25	A	25:A	_
+20	was	be	AUX	VBD	_	25	F	25:F	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	critical	critical	ADJ	JJ	_	25	A	25:A	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	commercial	commercial	ADJ	JJ	_	22	C	22:C	_
+25	failure	failure	NOUN	NN	_	2	H	2:H	_
+26	,	,	PUNCT	,	_	2	U	2:U	_
+27	and	and	CCONJ	CC	_	2	L	2:L	_
+28	Hepburn	Hepburn	PROPN	NNP	_	29	A	29:A	_
+29	considered	consider	VERB	VBD	_	2	H	2:H	_
+30	it	it	PRON	PRP	_	29	A	29:A	_
+31	the	the	DET	DT	_	33	E	33:E	_
+32	worst	worst	ADJ	JJS	_	33	E	33:E	_
+33	film	film	NOUN	NN	_	29	A	29:A	_
+34	on	on	ADP	IN	_	36	R	36:R	_
+35	her	she	PRON	PRP$	_	36	E	36:E	_
+36	resume	resume	NOUN	NN	_	33	E	33:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

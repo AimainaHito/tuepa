@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 182003
+# text = She joined Warner Bros. in 1932 and established her career with several critically acclaimed performances .
+1	She	she	PRON	PRP	_	2	A	2:A|8:A	_
+2	joined	join	VERB	VBD	_	0	H	0:H	_
+3	Warner	Warner	PROPN	NNP	_	2	A	2:A	_
+4	Bros.	Bros.	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	1932	1932	NUM	CD	_	2	D	2:D	_
+7	and	and	CCONJ	CC	_	2	L	2:L	_
+8	established	establish	VERB	VBN	_	2	H	2:H	_
+9	her	she	PRON	PRP$	_	10	E	10:E	_
+10	career	career	NOUN	NN	_	8	A	8:A	_
+11	with	with	ADP	IN	_	15	R	15:R	_
+12	several	several	ADJ	JJ	_	15	E	15:E	_
+13	critically	critically	ADV	RB	_	14	A	14:A	_
+14	acclaimed	acclaim	VERB	VBN	_	15	E	15:E	_
+15	performances	performance	NOUN	NNS	_	8	A	8:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

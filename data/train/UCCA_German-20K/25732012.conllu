@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25732012
+# text = Daß es unter den Wassern einen solchen Lichtherd gab , beunruhigte mich im höchsten Grad .
+1	Daß	daß	SCONJ	KOUS	_	9	R	9:R	_
+2	es	es	PRON	PPER	_	9	F	9:F	_
+3	unter	unter	ADP	ADJD	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Wassern	Wassern	NOUN	NN	_	9	A	9:A	_
+6	einen	ein	DET	ADJA	_	8	E	8:E	_
+7	solchen	solch	PRON	PIAT	_	8	E	8:E	_
+8	Lichtherd	Lichtherd	NOUN	NN	_	9	A	9:A	_
+9	gab	geben	VERB	VVFIN	_	11	A	11:A	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	beunruhigte	beunruhigen	VERB	VVFIN	_	0	H	0:H	_
+12	mich	ich	PRON	PPER	_	11	A	11:A	_
+13	im	im	ADV	NE	_	15	R	15:R	_
+14	höchsten	hoch	ADJ	ADJA	_	15	E	15:E	_
+15	Grad	Grad	NOUN	NN	_	11	D	11:D	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

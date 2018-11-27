@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 607009
+# text = The group disbanded in April 1981 following disagreements over royalties and salaries .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	group	group	NOUN	NN	_	3	A	3:A|8:A	_
+3	disbanded	disband	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	April	April	PROPN	NNP	_	3	D	3:D	_
+6	1981	1981	NUM	CD	_	5	Terminal	5:Terminal	_
+7	following	follow	VERB	VBG	_	3	L	3:L	_
+8	disagreements	disagreement	NOUN	NNS	_	3	H	3:H	_
+9	over	over	ADP	IN	_	10	R	10:R	_
+10	royalties	royalty	NOUN	NNS	_	8	A	8:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	salaries	salary	NOUN	NNS	_	10	C	10:C	_
+13	.	.	PUNCT	.	_	10	U	10:U	_
+

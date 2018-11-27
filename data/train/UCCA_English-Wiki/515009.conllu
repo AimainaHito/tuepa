@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 515009
+# text = Biographer David Buckley writes , " At a time when punk rock was noisily reclaiming the three - minute pop song in a show of public defiance , Bowie almost completely abandoned traditional rock instrumentation .
+1	Biographer	Biographer	PROPN	NNP	_	2	E	2:E	_
+2	David	David	PROPN	NNP	_	4	A	4:A	_
+3	Buckley	Buckley	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	writes	write	VERB	VBZ	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	At	at	ADP	IN	_	15	L	15:L	_
+8	a	a	DET	DT	_	7	Terminal	7:Terminal	_
+9	time	time	NOUN	NN	_	7	Terminal	7:Terminal	_
+10	when	when	ADV	WRB	_	7	Terminal	7:Terminal	_
+11	punk	pink	VERB	VB	_	12	E	12:E	_
+12	rock	rock	NOUN	NN	_	15	A	15:A|24:A	_
+13	was	be	AUX	VBD	_	15	F	15:F	_
+14	noisily	noisily	ADV	RB	_	15	D	15:D	_
+15	reclaiming	reclaim	VERB	VBG	_	4	A	4:A	_
+16	the	the	DET	DT	_	21	E	21:E	_
+17	three	three	NUM	CD	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	minute	minute	NOUN	NN	_	21	E	21:E	_
+20	pop	pop	NOUN	NN	_	21	E	21:E	_
+21	song	song	NOUN	NN	_	15	A	15:A	_
+22	in	in	ADP	IN	_	24	R	24:R	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	show	show	NOUN	NN	_	15	A	15:A	_
+25	of	of	ADP	IN	_	27	R	27:R	_
+26	public	public	ADJ	JJ	_	27	E	27:E	_
+27	defiance	defiance	NOUN	NN	_	24	A	24:A	_
+28	,	,	PUNCT	,	_	15	U	15:U	_
+29	Bowie	Bowie	X	FW	_	32	A	32:A	_
+30	almost	almost	ADV	RB	_	31	E	31:E	_
+31	completely	completely	ADV	RB	_	32	D	32:D	_
+32	abandoned	abandon	VERB	VBN	_	15	H	15:H	_
+33	traditional	traditional	ADJ	JJ	_	35	E	35:E	_
+34	rock	rock	NOUN	NN	_	35	E	35:E	_
+35	instrumentation	instrumentation	NOUN	NN	_	32	A	32:A	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

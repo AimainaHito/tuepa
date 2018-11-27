@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 184003
+# text = She auditioned for George Cukor 's stock theater company , and although he was not very impressed , he gave Davis her first paid acting assignment anyway - a one - week stint playing the part of a chorus girl in the play Broadway .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	auditioned	audition	VERB	VBD	_	0	H	0:H	_
+3	for	for	ADP	IN	_	9	R	9:R	_
+4	George	George	PROPN	NNP	_	9	E	9:E	_
+5	Cukor	Cukor	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	's	's	PART	POS	_	4	R	4:R	_
+7	stock	stock	NOUN	NN	_	9	E	9:E	_
+8	theater	theater	NOUN	NN	_	9	E	9:E	_
+9	company	company	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	and	and	CCONJ	CC	_	2	L	2:L	_
+12	although	although	SCONJ	IN	_	2	L	2:L	_
+13	he	he	PRON	PRP	_	17	A	17:A	_
+14	was	be	AUX	VBD	_	17	F	17:F	_
+15	not	not	PART	RB	_	17	D	17:D	_
+16	very	very	ADV	RB	_	17	D	17:D	_
+17	impressed	impressed	ADJ	JJ	_	2	H	2:H	_
+18	,	,	PUNCT	,	_	2	U	2:U	_
+19	he	he	PRON	PRP	_	20	A	20:A	_
+20	gave	give	VERB	VBD	_	2	H	2:H	_
+21	Davis	Davis	PROPN	NNP	_	20	A	20:A	_
+22	her	she	PRON	PRP	_	26	E	26:E	_
+23	first	first	ADV	RB	_	26	E	26:E	_
+24	paid	pay	VERB	VBD	_	26	E	26:E	_
+25	acting	act	VERB	VBG	_	26	E	26:E	_
+26	assignment	assignment	NOUN	NN	_	20	A	20:A	_
+27	anyway	anyway	ADV	RB	_	20	D	20:D	_
+28	-	-	PUNCT	,	_	20	U	20:U	_
+29	a	a	DET	DT	_	33	E	33:E	_
+30	one	one	NUM	CD	_	32	E	32:E	_
+31	-	-	PUNCT	HYPH	_	32	U	32:U	_
+32	week	week	NOUN	NN	_	33	E	33:E	_
+33	stint	stint	NOUN	NN	_	34	A	34:A	_
+34	playing	play	VERB	VBG	_	26	E	26:E	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	part	part	NOUN	NN	_	34	A	34:A	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	a	a	DET	DT	_	40	E	40:E	_
+39	chorus	chorus	NOUN	NN	_	40	E	40:E	_
+40	girl	girl	NOUN	NN	_	36	E	36:E	_
+41	in	in	ADP	IN	_	44	R	44:R	_
+42	the	the	DET	DT	_	44	E	44:E	_
+43	play	play	NOUN	NN	_	44	E	44:E	_
+44	Broadway	Broadway	PROPN	NNP	_	34	A	34:A	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

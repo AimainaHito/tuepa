@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 663001
+# text = The album 's second single , " One Sweet Day " was inspired by the death of David Cole , as well as her sister Alison , who had contracted AIDS .
+1	The	the	DET	DT	_	8	E	8:E	_
+2	album	album	NOUN	NN	_	5	E	5:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	second	second	ADV	RB	_	5	E	5:E	_
+5	single	single	ADJ	JJ	_	8	E	8:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	"	"	PUNCT	''	_	8	U	8:U	_
+8	One	one	NUM	CD	_	13	A	13:A	_
+9	Sweet	sweet	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Day	day	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	"	"	PUNCT	''	_	13	U	13:U	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	inspired	inspire	VERB	VBN	_	0	H	0:H	_
+14	by	by	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	death	death	NOUN	NN	_	13	A	13:A	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	David	David	PROPN	NNP	_	16	A	16:A	_
+19	Cole	Cole	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	18	U	18:U	_
+21	as	as	ADV	RB	_	18	N	18:N	_
+22	well	well	ADV	RB	_	21	Terminal	21:Terminal	_
+23	as	as	ADP	IN	_	21	Terminal	21:Terminal	_
+24	her	she	PRON	PRP$	_	25	E	25:E	_
+25	sister	sister	NOUN	NN	_	26	E	26:E	_
+26	Alison	Alison	PROPN	NNP	_	18	C	18:C	_
+27	,	,	PUNCT	,	_	26	U	26:U	_
+28	who	who	PRON	WP	_	30	R	30:R	_
+29	had	have	AUX	VBD	_	30	F	30:F	_
+30	contracted	contract	VERB	VBN	_	26	E	26:E	_
+31	AIDS	aids	NOUN	NNS	_	30	A	30:A	_
+32	.	.	PUNCT	.	_	30	U	30:U	_
+

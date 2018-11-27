@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 652001
+# text = On 23 March 1973 , Lennon was ordered to leave the US within 60 days .
+1	On	on	ADP	IN	_	4	R	4:R	_
+2	23	23	NUM	CD	_	4	E	4:E	_
+3	March	March	PROPN	NNP	_	4	E	4:E	_
+4	1973	1973	NUM	CD	_	8	D	8:D	_
+5	,	,	PUNCT	,	_	8	U	8:U	_
+6	Lennon	Lennon	PROPN	NNP	_	8	A	8:A|10:A	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	ordered	order	VERB	VBN	_	0	H	0:H	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	leave	leave	VERB	VB	_	8	A	8:A	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	US	US	PROPN	NNP	_	10	A	10:A	_
+13	within	within	ADP	IN	_	15	R	15:R	_
+14	60	60	NUM	CD	_	15	E	15:E	_
+15	days	day	NOUN	NNS	_	10	D	10:D	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

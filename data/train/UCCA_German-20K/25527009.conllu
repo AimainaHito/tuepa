@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25527009
+# text = » Aber die Fische ? « bemerkte der Kanadier . » Ich sehe keine Fische !
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Fische	Fisch	NOUN	NN	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kanadier	Kanadier	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	Ich	ich	PRON	PPER	_	13	A	13:A	_
+13	sehe	sehen	VERB	VVFIN	_	4	H	4:H	_
+14	keine	kein	PRON	PIAT	_	13	D	13:D	_
+15	Fische	Fisch	NOUN	NN	_	13	A	13:A	_
+16	!	!	PUNCT	$.	_	13	U	13:U	_
+

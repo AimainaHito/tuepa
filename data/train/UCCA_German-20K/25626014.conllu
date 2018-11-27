@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25626014
+# text = Er nahm sein Beil , und mit kräftigen Hieben hatte er bald zwei bis drei Bäume auf den Boden gelegt , deren Reife an dem weißen Staub , der ihre Blätter bepuderte , zu erkennen war .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	nahm	nehmen	VERB	VVFIN	_	0	H	0:H	_
+3	sein	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Beil	Beil	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	und	und	CCONJ	NE	_	2	L	2:L	_
+7	mit	mit	ADP	APPR	_	9	R	9:R	_
+8	kräftigen	kräftig	ADJ	ADJA	_	9	E	9:E	_
+9	Hieben	Hieben	NOUN	NN	_	20	A	20:A	_
+10	hatte	haben	VERB	VAFIN	_	20	F	20:F	_
+11	er	er	PRON	PPER	_	20	A	20:A	_
+12	bald	bald	ADV	ADV	_	20	D	20:D	_
+13	zwei	zwei	NUM	NN	_	16	E	16:E	_
+14	bis	bis	ADP	APPR	_	13	N	13:N	_
+15	drei	drei	NUM	CARD	_	13	C	13:C	_
+16	Bäume	Baum	NOUN	NN	_	20	A	20:A	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	den	der	DET	ART	_	19	E	19:E	_
+19	Boden	Boden	NOUN	NN	_	20	A	20:A	_
+20	gelegt	legen	VERB	VVPP	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	deren	der	DET	PRELAT	_	35	R	35:R	_
+23	Reife	reife	NOUN	NN	_	35	A	35:A	_
+24	an	an	ADP	APPR	_	27	R	27:R	_
+25	dem	der	DET	ART	_	27	E	27:E	_
+26	weißen	weiß	ADJ	ADJA	_	27	E	27:E	_
+27	Staub	Staub	NOUN	NN	_	35	A	35:A	_
+28	,	,	PUNCT	$,	_	27	U	27:U	_
+29	der	der	PRON	PRELS	_	32	R	32:R	_
+30	ihre	ihr	DET	PPOSAT	_	31	E	31:E	_
+31	Blätter	Blatt	NOUN	NN	_	32	A	32:A	_
+32	bepuderte	bepuderen	VERB	VVFIN	_	27	E	27:E	_
+33	,	,	PUNCT	$,	_	35	U	35:U	_
+34	zu	zu	PART	VVINF	_	35	F	35:F	_
+35	erkennen	erkennen	VERB	VVINF	_	16	E	16:E	_
+36	war	sein	AUX	ADV	_	35	D	35:D	_
+37	.	.	PUNCT	$.	_	35	U	35:U	_
+

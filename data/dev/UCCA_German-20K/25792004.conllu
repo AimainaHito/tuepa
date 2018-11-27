@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25792004
+# text = Es war unverkennbar , dass sie zusammengefrieren würden , ehe die ›Nautilus‹ frei sein konnte .
+1	Es	es	PRON	PPER	_	3	F	3:F	_
+2	war	sein	AUX	ADV	_	3	F	3:F	_
+3	unverkennbar	unverkennbar	ADJ	ADJD	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	7	L	7:L	_
+6	sie	sie	PRON	ADV	_	7	A	7:A	_
+7	zusammengefrieren	zusammengefrieren	VERB	VVFIN	_	3	A	3:A	_
+8	würden	werden	AUX	ADJD	_	7	D	7:D	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	ehe	ehe	SCONJ	KOUS	_	7	L	7:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	13	A	13:A	_
+13	frei	frei	ADJ	ADJD	_	7	H	7:H	_
+14	sein	sein	AUX	VAINF	_	13	F	13:F	_
+15	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+16	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 222009
+# text = Since his parents worked for the French ambassador in Hong Kong , Chan spent his formative years within the grounds of the consul 's residence in the Victoria Peak district .
+1	Since	since	ADP	IN	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	parents	parent	NOUN	NNS	_	4	A	4:A	_
+4	worked	work	VERB	VBD	_	0	H	0:H	_
+5	for	for	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	French	french	ADJ	JJ	_	8	E	8:E	_
+8	ambassador	ambassador	NOUN	NN	_	4	A	4:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Hong	Hong	PROPN	NNP	_	8	E	8:E	_
+11	Kong	Kong	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	Chan	Chan	PROPN	NNP	_	14	A	14:A	_
+14	spent	spend	VERB	VBD	_	4	H	4:H	_
+15	his	he	PRON	PRP$	_	17	E	17:E	_
+16	formative	formative	ADJ	JJ	_	17	E	17:E	_
+17	years	year	NOUN	NNS	_	14	D	14:D	_
+18	within	within	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	grounds	grounds	NOUN	NNS	_	14	A	14:A	_
+21	of	of	ADP	IN	_	25	R	25:R	_
+22	the	the	DET	DT	_	25	E	25:E	_
+23	consul	consul	NOUN	NN	_	25	E	25:E	_
+24	's	's	PART	POS	_	23	R	23:R	_
+25	residence	residence	NOUN	NN	_	20	E	20:E	_
+26	in	in	ADP	IN	_	30	R	30:R	_
+27	the	the	DET	DT	_	30	E	30:E	_
+28	Victoria	Victoria	PROPN	NNP	_	30	E	30:E	_
+29	Peak	peak	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	district	district	NOUN	NN	_	20	E	20:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

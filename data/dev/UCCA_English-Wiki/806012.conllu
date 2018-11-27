@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 806012
+# text = McCartney also supports the Make Poverty History campaign .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	supports	support	VERB	VBZ	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Make	Make	PROPN	NNP	_	3	A	3:A	_
+6	Poverty	Poverty	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	History	History	ADJ	JJ	_	5	Terminal	5:Terminal	_
+8	campaign	campaign	NOUN	NN	_	5	E	5:E	_
+9	.	.	PUNCT	.	_	5	U	5:U	_
+

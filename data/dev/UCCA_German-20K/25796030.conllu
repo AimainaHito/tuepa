@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25796030
+# text = Wirklich fühlte ich , dass sie eine schiefe Lage annahm , das Hinterteil gesenkt , den Schnabel aufwärts .
+1	Wirklich	wirklich	ADV	ADV	_	2	G	2:G	_
+2	fühlte	fühlen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	10	R	10:R	_
+6	sie	sie	PRON	TRUNC	_	10	A	10:A	_
+7	eine	ein	DET	ART	_	9	E	9:E	_
+8	schiefe	schief	ADJ	ADJA	_	9	E	9:E	_
+9	Lage	Lage	NOUN	NN	_	10	A	10:A	_
+10	annahm	annehmen	VERB	VVFIN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	das	der	DET	ART	_	13	E	13:E	_
+13	Hinterteil	Hinterteil	NOUN	NN	_	14	A	14:A	_
+14	gesenkt	senkn	VERB	VVPP	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	den	der	DET	PRELS	_	17	E	17:E	_
+17	Schnabel	Schnabel	NOUN	NE	_	18	A	18:A	_
+18	aufwärts	aufwärts	ADV	ADV	_	2	H	2:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

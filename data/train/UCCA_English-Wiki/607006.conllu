@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 607006
+# text = As with his first album , he composed and performed it alone .
+1	As	as	ADP	IN	_	2	E	2:E	_
+2	with	with	ADP	IN	_	5	R	5:R	_
+3	his	he	PRON	PRP$	_	5	E	5:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	album	album	NOUN	NN	_	8	A	8:A	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	composed	compose	VERB	VBD	_	0	H	0:H	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	performed	perform	VERB	VBD	_	8	C	8:C	_
+11	it	it	PRON	PRP	_	8	A	8:A	_
+12	alone	alone	ADV	RB	_	8	D	8:D	_
+13	.	.	PUNCT	.	_	8	U	8:U	_
+

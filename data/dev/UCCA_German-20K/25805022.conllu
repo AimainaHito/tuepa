@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25805022
+# text = Sonst machte es ihm Vergnügen , mir die unter seeischen Wunder auseinander zu setzen ; jetzt überließ er mich meinen Studien und kam nicht mehr in den Salon .
+1	Sonst	sonst	ADV	NN	_	5	L	5:L	_
+2	machte	machen	VERB	VVFIN	_	5	D	5:D	_
+3	es	es	PRON	PPER	_	5	F	5:F	_
+4	ihm	er	PRON	PPER	_	5	A	5:A|12:A	_
+5	Vergnügen	Vergnügen	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	mir	ich	PRON	PPER	_	12	A	12:A	_
+8	die	der	DET	ART	_	11	E	11:E	_
+9	unter	unter	ADP	ADJD	_	10	E	10:E	_
+10	seeischen	seeisch	ADJ	ADJA	_	11	E	11:E	_
+11	Wunder	Wunder	NOUN	NN	_	12	A	12:A	_
+12	auseinander	auseinander	ADV	ADV	_	5	A	5:A	_
+13	zu	zu	PART	VVINF	_	12	F	12:F	_
+14	setzen	setzen	VERB	VVINF	_	12	Terminal	12:Terminal	_
+15	;	;	PUNCT	$.	_	5	U	5:U	_
+16	jetzt	jetzt	ADV	ADV	_	5	L	5:L	_
+17	überließ	überlassen	VERB	VVFIN	_	5	H	5:H	_
+18	er	er	PRON	PPER	_	17	A	17:A|23:A	_
+19	mich	ich	PRON	PPER	_	17	A	17:A	_
+20	meinen	mein	PRON	PPOSAT	_	21	E	21:E	_
+21	Studien	Studie|Studium	NOUN	NN	_	17	A	17:A	_
+22	und	und	CCONJ	NE	_	5	L	5:L	_
+23	kam	kommen	VERB	VVFIN	_	5	H	5:H	_
+24	nicht	nicht	PART	CARD	_	23	D	23:D	_
+25	mehr	mehr	ADV	ADV	_	24	E	24:E	_
+26	in	in	ADP	APPR	_	28	R	28:R	_
+27	den	der	DET	ART	_	28	E	28:E	_
+28	Salon	Salon	NOUN	NN	_	23	A	23:A	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

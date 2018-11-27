@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25700000
+# text = » Diese Durchfahrt existiert ; ich habe sie auch schon einigemal benutzt . Sonst hätte ich mich auch nicht jetzt in diese Enge gewagt . «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Durchfahrt	Durchfahrt	NOUN	NN	_	4	A	4:A	_
+4	existiert	existieren	VERB	VVFIN	_	0	H	0:H	_
+5	;	;	PUNCT	$.	_	4	U	4:U	_
+6	ich	ich	PRON	PPER	_	12	A	12:A	_
+7	habe	haben	AUX	VAFIN	_	12	F	12:F	_
+8	sie	sie	PRON	ADV	_	12	A	12:A	_
+9	auch	auch	ADV	ADV	_	12	D	12:D	_
+10	schon	schon	ADV	ADV	_	11	E	11:E	_
+11	einigemal	einigemal	ADV	ADV	_	12	D	12:D	_
+12	benutzt	benutzen	VERB	VVPP	_	4	H	4:H	_
+13	.	.	PUNCT	$.	_	4	U	4:U	_
+14	Sonst	sonst	ADV	NN	_	17	D	17:D	_
+15	hätte	haben	AUX	VAFIN	_	17	D	17:D	_
+16	ich	ich	PRON	PPER	_	17	A	17:A	_
+17	mich	ich	PRON	PRF	_	4	H	4:H	_
+18	auch	auch	ADV	ADV	_	17	D	17:D	_
+19	nicht	nicht	PART	CARD	_	17	D	17:D	_
+20	jetzt	jetzt	ADV	ADV	_	17	D	17:D	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	diese	dies	PRON	PDAT	_	23	E	23:E	_
+23	Enge	eng	NOUN	NN	_	17	A	17:A	_
+24	gewagt	wagen	VERB	VVPP	_	17	Terminal	17:Terminal	_
+25	.	.	PUNCT	$.	_	17	U	17:U	_
+26	«	«	PUNCT	$(	_	17	U	17:U	_
+

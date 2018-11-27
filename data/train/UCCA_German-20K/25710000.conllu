@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25710000
+# text = » In Freiheit ! « rief der Kanadier . » Er wird uns schon etwas anderes vorsetzen . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	In	in	PROPN	APPR	_	3	R	3:R	_
+3	Freiheit	Freiheit	PROPN	NN	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	Er	er	PRON	PPER	_	17	A	17:A	_
+12	wird	werden	AUX	VAFIN	_	17	F	17:F	_
+13	uns	wir	PRON	NN	_	17	A	17:A	_
+14	schon	schon	ADV	ADV	_	17	D	17:D	_
+15	etwas	etwas	ADV	PIS	_	16	E	16:E	_
+16	anderes	ander	PRON	PIS	_	17	A	17:A	_
+17	vorsetzen	vorsetzen	VERB	VVINF	_	3	H	3:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+19	«	«	PUNCT	$(	_	17	U	17:U	_
+

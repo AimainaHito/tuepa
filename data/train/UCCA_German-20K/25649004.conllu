@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25649004
+# text = Die am Abend zuvor geschlossenen Luken waren offen .
+1	Die	der	DET	ART	_	6	E	6:E	_
+2	am	am	ADJ	ADJD	_	3	E	3:E	_
+3	Abend	Abend	NOUN	ADV	_	5	D	5:D	_
+4	zuvor	zuvor	ADV	ADV	_	3	R	3:R	_
+5	geschlossenen	geschlossen	ADJ	ADJA	_	6	E	6:E	_
+6	Luken	Luken	NOUN	NN	_	8	A	8:A	_
+7	waren	sein	AUX	VAFIN	_	8	F	8:F	_
+8	offen	offen	ADJ	CARD	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25603007
+# text = Conseil erzählte seinem Freunde die merkwürdigen Begebenheiten unseres Spaziergangs , und nun tat es dem Kanadier leid , dass er uns nicht begleitet hatte .
+1	Conseil	Conseil	PROPN	NE	_	2	A	2:A	_
+2	erzählte	erzählen	VERB	VVFIN	_	0	H	0:H	_
+3	seinem	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Freunde	Freund	NOUN	NN	_	2	A	2:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	merkwürdigen	merkwürdig	ADJ	ADJA	_	7	E	7:E	_
+7	Begebenheiten	Begebenheit	NOUN	NN	_	2	A	2:A	_
+8	unseres	unser	PRON	PPOSAT	_	9	R	9:R	_
+9	Spaziergangs	Spaziergang	NOUN	NE	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	nun	nun	ADV	ADV	_	13	D	13:D	_
+13	tat	tun	VERB	VVFIN	_	2	H	2:H	_
+14	es	es	PRON	PPER	_	13	F	13:F	_
+15	dem	der	DET	ART	_	16	E	16:E	_
+16	Kanadier	Kanadier	NOUN	NE	_	13	A	13:A	_
+17	leid	leid	VERB	NN	_	13	Terminal	13:Terminal	_
+18	,	,	PUNCT	$,	_	13	U	13:U	_
+19	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+20	er	er	PRON	PPER	_	23	A	23:A	_
+21	uns	wir	PRON	NE	_	23	A	23:A	_
+22	nicht	nicht	PART	CARD	_	23	D	23:D	_
+23	begleitet	begleiten	VERB	VVPP	_	13	A	13:A	_
+24	hatte	haben	AUX	VAFIN	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

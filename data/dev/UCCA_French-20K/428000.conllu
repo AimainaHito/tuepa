@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 428000
+# text = « Ainsi donc , disais - je , après avoir examiné une à une les diverses hypothèses , toute autre supposition étant rejetée , il faut nécessairement admettre l' existence d' un animal marin d' une puissance excessive .
+1	«	«	PUNCT	_	_	11	U	11:U	_
+2	Ainsi	ainsi	ADV	_	_	11	L	11:L	_
+3	donc	donc	ADV	_	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	_	_	5	U	5:U	_
+5	disais	dire	ADJ	_	_	0	H	0:H	_
+6	-	-	PUNCT	_	_	5	U	5:U	_
+7	je	il	PRON	_	_	5	A	5:A	_
+8	,	,	PUNCT	_	_	5	U	5:U	_
+9	après	après	ADP	_	_	11	L	11:L	_
+10	avoir	avoir	AUX	_	_	11	F	11:F	_
+11	examiné	examiner	VERB	_	_	5	A	5:A	_
+12	une	un	PRON	_	_	11	D	11:D	_
+13	à	à	ADP	_	_	12	R	12:R	_
+14	une	un	DET	_	_	12	C	12:C	_
+15	les	le	DET	_	_	17	E	17:E	_
+16	diverses	divers	ADJ	_	_	17	E	17:E	_
+17	hypothèses	hypothèse	NOUN	_	_	11	A	11:A	_
+18	,	,	PUNCT	_	_	11	U	11:U	_
+19	toute	tout	DET	_	_	21	E	21:E	_
+20	autre	autre	ADJ	_	_	21	E	21:E	_
+21	supposition	supposition	NOUN	_	_	23	A	23:A	_
+22	étant	être	AUX	_	_	23	F	23:F	_
+23	rejetée	rejeter	VERB	_	_	11	H	11:H	_
+24	,	,	PUNCT	_	_	11	U	11:U	_
+25	il	il	PRON	_	_	28	F	28:F	_
+26	faut	falloir	VERB	_	_	28	D	28:D	_
+27	nécessairement	nécessairement	ADV	_	_	28	D	28:D	_
+28	admettre	admettre	VERB	_	_	11	H	11:H	_
+29	l'	le	DET	_	_	30	E	30:E	_
+30	existence	existence	NOUN	_	_	28	A	28:A	_
+31	d'	de	ADP	_	_	33	R	33:R	_
+32	un	un	DET	_	_	33	E	33:E	_
+33	animal	animal	NOUN	_	_	30	A	30:A	_
+34	marin	marin	ADJ	_	_	33	E	33:E	_
+35	d'	de	ADP	_	_	37	R	37:R	_
+36	une	un	DET	_	_	37	E	37:E	_
+37	puissance	puissance	NOUN	_	_	33	E	33:E	_
+38	excessive	excessif	ADJ	_	_	37	E	37:E	_
+39	.	.	PUNCT	_	_	37	U	37:U	_
+

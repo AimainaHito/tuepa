@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 689012
+# text = His early focus on rock and roll gave way to an interest in American folk music ; in 1985 , Dylan explained the attraction that folk music had exerted on him :
+1	His	he	PRON	PRP$	_	3	A	3:A|12:A	_
+2	early	early	ADJ	JJ	_	3	D	3:D	_
+3	focus	focus	NOUN	NN	_	8	A	8:A	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	rock	rock	NOUN	NN	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	roll	roll	NOUN	NN	_	5	C	5:C	_
+8	gave	give	VERB	VBD	_	0	H	0:H	_
+9	way	way	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	to	to	ADP	IN	_	12	R	12:R	_
+11	an	a	DET	DT	_	12	E	12:E	_
+12	interest	interest	NOUN	NN	_	8	A	8:A	_
+13	in	in	ADP	IN	_	16	R	16:R	_
+14	American	american	ADJ	JJ	_	16	E	16:E	_
+15	folk	folk	NOUN	NN	_	16	E	16:E	_
+16	music	music	NOUN	NN	_	12	A	12:A	_
+17	;	;	PUNCT	,	_	8	U	8:U	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	1985	1985	NUM	CD	_	22	D	22:D	_
+20	,	,	PUNCT	,	_	22	U	22:U	_
+21	Dylan	Dylan	PROPN	NNP	_	22	A	22:A	_
+22	explained	explain	VERB	VBD	_	8	H	8:H	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	attraction	attraction	NOUN	NN	_	22	A	22:A	_
+25	that	that	PRON	WDT	_	27	F	27:F	_
+26	folk	folk	VERB	VBP	_	27	E	27:E	_
+27	music	music	NOUN	NN	_	24	E	24:E	_
+28	had	have	AUX	VBD	_	27	F	27:F	_
+29	exerted	exert	VERB	VBN	_	27	D	27:D	_
+30	on	on	ADP	IN	_	31	R	31:R	_
+31	him	he	PRON	PRP	_	27	A	27:A	_
+32	:	:	PUNCT	:	_	31	U	31:U	_
+

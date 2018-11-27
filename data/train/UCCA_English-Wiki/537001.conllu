@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 537001
+# text = His parents were Jewish immigrants from Poland who spoke mainly Yiddish .
+1	His	he	PRON	PRP$	_	2	E	2:E	_
+2	parents	parent	NOUN	NNS	_	3	A	3:A	_
+3	were	be	AUX	VBD	_	0	H	0:H	_
+4	Jewish	jewish	ADJ	JJ	_	5	E	5:E	_
+5	immigrants	immigrant	NOUN	NNS	_	3	A	3:A	_
+6	from	from	ADP	IN	_	7	R	7:R	_
+7	Poland	Poland	PROPN	NNP	_	5	E	5:E	_
+8	who	who	PRON	WP	_	9	F	9:F	_
+9	spoke	speak	VERB	VBD	_	5	E	5:E	_
+10	mainly	mainly	ADV	RB	_	9	D	9:D	_
+11	Yiddish	Yiddish	ADJ	JJ	_	9	A	9:A	_
+12	.	.	PUNCT	.	_	9	U	9:U	_
+

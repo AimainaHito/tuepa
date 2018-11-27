@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 181008
+# text = After studying at the Royal Academy of Dramatic Art in London , she took a summer job working as a waitress in a Massachusetts restaurant .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	studying	study	VERB	VBG	_	0	H	0:H	_
+3	at	at	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	Royal	Royal	PROPN	NNP	_	2	A	2:A	_
+6	Academy	Academy	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	Dramatic	dramatic	PROPN	NNP	_	5	E	5:E	_
+9	Art	art	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	London	London	PROPN	NNP	_	2	A	2:A	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	she	she	PRON	PRP	_	14	A	14:A|2:A|18:A	_
+14	took	take	VERB	VBD	_	2	H	2:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	summer	summer	NOUN	NN	_	17	E	17:E	_
+17	job	job	NOUN	NN	_	14	A	14:A	_
+18	working	work	VERB	VBG	_	2	H	2:H	_
+19	as	as	ADP	IN	_	21	R	21:R	_
+20	a	a	DET	DT	_	21	E	21:E	_
+21	waitress	waitress	NOUN	NN	_	18	A	18:A	_
+22	in	in	ADP	IN	_	25	R	25:R	_
+23	a	a	DET	DT	_	25	E	25:E	_
+24	Massachusetts	Massachusetts	PROPN	NNP	_	25	E	25:E	_
+25	restaurant	restaurant	NOUN	NN	_	21	E	21:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

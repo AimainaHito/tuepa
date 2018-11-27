@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 25408005
+# text = Die Angaben über diese Erscheinung , wie sie in den Schiffs büchern verzeichnet wurden , betrafen mit ziemlicher Genauigkeit die Struktur des fraglichen Gegenstandes oder Geschöpfes , die unerhörte Schnelligkeit und erstaunliche Kraft seiner Bewegungen , die besonderen Lebens äußerungen , welche ihm eigentümlich schienen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Angaben	Angabe	NOUN	NN	_	5	E	5:E	_
+3	über	über	ADP	VVFIN	_	2	R	2:R	_
+4	diese	dies	PRON	PDAT	_	5	E	5:E	_
+5	Erscheinung	Erscheinung	NOUN	NN	_	16	A	16:A	_
+6	,	,	PUNCT	$,	_	16	U	16:U	_
+7	wie	wie	SCONJ	KON	_	13	D	13:D	_
+8	sie	sie	PRON	ADV	_	13	A	13:A	_
+9	in	in	ADP	APPR	_	12	R	12:R	_
+10	den	der	DET	ART	_	12	E	12:E	_
+11	Schiffs	Schiff	NOUN	NN	_	12	E	12:E	_
+12	büchern	büchern	VERB	VVFIN	_	13	A	13:A	_
+13	verzeichnet	verzeichnen	AUX	VVPP	_	16	H	16:H	_
+14	wurden	werden	AUX	ADJD	_	13	F	13:F	_
+15	,	,	PUNCT	$,	_	16	U	16:U	_
+16	betrafen	betreffen	VERB	VVINF	_	0	H	0:H	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	ziemlicher	ziemlicher	ADJ	ADJA	_	19	E	19:E	_
+19	Genauigkeit	Genauigkeit	NOUN	NN	_	16	A	16:A	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Struktur	Struktur	NOUN	NN	_	16	A	16:A	_
+22	des	der	DET	ART	_	23	E	23:E	_
+23	fraglichen	fraglichen	ADJ	ADJA	_	24	E	24:E	_
+24	Gegenstandes	Gegenstand	NOUN	NN	_	21	A	21:A	_
+25	oder	oder	CCONJ	CARD	_	24	N	24:N	_
+26	Geschöpfes	Geschöpf	NOUN	NN	_	24	C	24:C	_
+27	,	,	PUNCT	$,	_	21	U	21:U	_
+28	die	der	DET	ART	_	30	E	30:E	_
+29	unerhörte	unerhört	ADJ	ADJA	_	30	D	30:D	_
+30	Schnelligkeit	Schnelligkeit	NOUN	NN	_	21	C	21:C	_
+31	und	und	CCONJ	NE	_	30	N	30:N	_
+32	erstaunliche	erstaunlich	ADJ	ADJA	_	30	D	30:D	_
+33	Kraft	Kraft	NOUN	NN	_	30	C	30:C	_
+34	seiner	sein	DET	PPOSAT	_	35	E	35:E	_
+35	Bewegungen	Bewegung	NOUN	NN	_	30	A	30:A	_
+36	,	,	PUNCT	$,	_	21	U	21:U	_
+37	die	der	DET	PRELS	_	40	E	40:E	_
+38	besonderen	besonder	ADJ	VVFIN	_	40	E	40:E	_
+39	Lebens	Leben	NOUN	NN	_	40	E	40:E	_
+40	äußerungen	äußerungen	VERB	NN	_	21	C	21:C	_
+41	,	,	PUNCT	$,	_	40	U	40:U	_
+42	welche	welch	PRON	NN	_	44	R	44:R	_
+43	ihm	er	PRON	PPER	_	44	A	44:A	_
+44	eigentümlich	eigentümlich	ADJ	ADV	_	40	E	40:E	_
+45	schienen	schienen	VERB	ADJA	_	44	D	44:D	_
+46	.	.	PUNCT	$.	_	44	U	44:U	_
+

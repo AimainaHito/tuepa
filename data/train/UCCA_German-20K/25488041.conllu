@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25488041
+# text = Man konnte also nur auf die Boote rechnen .
+1	Man	man	PRON	PIS	_	8	A	8:A	_
+2	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+3	also	also	ADV	ADV	_	8	F	8:F	_
+4	nur	nur	ADV	NE	_	8	D	8:D	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Boote	Boot	NOUN	NN	_	8	A	8:A	_
+8	rechnen	rechnen	VERB	VVINF	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

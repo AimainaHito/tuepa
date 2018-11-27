@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25645008
+# text = Die Tage verflossen rasch , und ich zählte sie nicht mehr .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Tage	Tag	NOUN	NN	_	3	A	3:A	_
+3	verflossen	verflossen	VERB	VVFIN	_	0	H	0:H	_
+4	rasch	rasch	ADJ	ADJD	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	zählte	zählen	VERB	VVFIN	_	3	H	3:H	_
+9	sie	sie	PRON	ADV	_	8	A	8:A	_
+10	nicht	nicht	PART	CARD	_	8	D	8:D	_
+11	mehr	mehr	ADV	ADV	_	10	E	10:E	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

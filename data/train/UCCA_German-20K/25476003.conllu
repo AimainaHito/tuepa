@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25476003
+# text = Ned Land hatte sich darauf beschränkt , seine Harpune , eine fürchterliche Waffe in seiner Hand , bereit zu machen .
+1	Ned	Ned	PROPN	NN	_	6	A	6:A|18:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	hatte	haben	AUX	VAFIN	_	6	F	6:F	_
+4	sich	er|es|sie	PRON	PRF	_	6	D	6:D	_
+5	darauf	darauf	PRON	PAV	_	18	F	18:F	_
+6	beschränkt	beschränken	VERB	VVFIN	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	seine	sein	DET	PPOSAT	_	9	E	9:E	_
+9	Harpune	Harpune	NOUN	NN	_	18	A	18:A	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	eine	ein	DET	ART	_	13	E	13:E	_
+12	fürchterliche	fürchterlich	ADJ	ADJA	_	13	E	13:E	_
+13	Waffe	Waffe	NOUN	NN	_	9	E	9:E	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	seiner	sein	DET	PPOSAT	_	16	E	16:E	_
+16	Hand	Hand	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	$,	_	18	U	18:U	_
+18	bereit	bereit	ADJ	ADJD	_	6	A	6:A	_
+19	zu	zu	PART	VVINF	_	18	F	18:F	_
+20	machen	machen	VERB	VVINF	_	18	Terminal	18:Terminal	_
+21	.	.	PUNCT	$.	_	18	U	18:U	_
+

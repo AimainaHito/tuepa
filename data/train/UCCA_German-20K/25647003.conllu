@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25647003
+# text = Endlich wurde Kapitän Nemo wieder Meister seiner Stimmung .
+1	Endlich	endlich	ADJ	ADJD	_	6	D	6:D	_
+2	wurde	werden	AUX	TRUNC	_	6	F	6:F	_
+3	Kapitän	Kapitän	PROPN	NN	_	4	E	4:E	_
+4	Nemo	Nemo	PROPN	NE	_	6	A	6:A	_
+5	wieder	wieder	ADV	NE	_	6	D	6:D	_
+6	Meister	Meister	NOUN	NN	_	0	H	0:H	_
+7	seiner	sein	DET	PPOSAT	_	8	R	8:R	_
+8	Stimmung	Stimmung	NOUN	NN	_	6	A	6:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

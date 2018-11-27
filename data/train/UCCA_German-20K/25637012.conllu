@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25637012
+# text = Er fragte mich mit Interesse über unsere Ausflüge an Land , unsere Jagden und schien die Leidenschaft nicht zu begreifen , womit der Kanadier auf Fleisch versessen war .
+1	Er	er	PRON	PPER	_	2	A	2:A|20:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	A	2:A	_
+4	mit	mit	ADP	APPR	_	5	R	5:R	_
+5	Interesse	Interesse	NOUN	NN	_	2	A	2:A	_
+6	über	über	ADP	ADJD	_	8	R	8:R	_
+7	unsere	unser	DET	PPOSAT	_	8	E	8:E	_
+8	Ausflüge	Ausflug	NOUN	NN	_	2	A	2:A	_
+9	an	an	ADP	APPR	_	10	R	10:R	_
+10	Land	Land	NOUN	NE	_	8	E	8:E	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	unsere	unser	PRON	PPOSAT	_	13	E	13:E	_
+13	Jagden	Jagden	NOUN	NE	_	2	A	2:A	_
+14	und	und	CCONJ	NE	_	2	L	2:L	_
+15	schien	scheinen	VERB	VVFIN	_	20	G	20:G	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Leidenschaft	Leidenschaft	NOUN	NN	_	20	A	20:A	_
+18	nicht	nicht	PART	CARD	_	20	D	20:D	_
+19	zu	zu	PART	NN	_	20	F	20:F	_
+20	begreifen	begreifen	VERB	VVINF	_	2	H	2:H	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	womit	womit	PRON	VVFIN	_	27	R	27:R	_
+23	der	der	DET	ART	_	24	E	24:E	_
+24	Kanadier	Kanadier	NOUN	NN	_	27	A	27:A	_
+25	auf	auf	ADP	APPR	_	26	R	26:R	_
+26	Fleisch	Fleisch	NOUN	NN	_	27	A	27:A	_
+27	versessen	versessen	VERB	VVFIN	_	17	E	17:E	_
+28	war	sein	AUX	ADV	_	27	F	27:F	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

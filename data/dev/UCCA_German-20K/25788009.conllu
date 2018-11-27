@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25788009
+# text = » Wir sind abgesperrt ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Wir	wir	PRON	NE	_	4	A	4:A	_
+3	sind	sein	AUX	NE	_	4	F	4:F	_
+4	abgesperrt	abgesperren	ADJ	VVPP	_	0	H	0:H	_
+5	?	?	PUNCT	$.	_	4	U	4:U	_
+6	«	«	PUNCT	$(	_	4	U	4:U	_
+

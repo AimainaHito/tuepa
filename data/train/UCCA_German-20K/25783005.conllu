@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25783005
+# text = Seine gewöhnlich so bewegungslose Physiognomie gab eine gewisse Unruhe zu erkennen .
+1	Seine	sein	DET	PPOSAT	_	5	E	5:E	_
+2	gewöhnlich	gewöhnlich	ADJ	ADJD	_	4	D	4:D	_
+3	so	so	ADV	ADV	_	4	D	4:D	_
+4	bewegungslose	bewegungslos	ADJ	ADJA	_	5	E	5:E	_
+5	Physiognomie	Physiognomie	NOUN	NN	_	11	A	11:A	_
+6	gab	geben	VERB	VVFIN	_	11	D	11:D	_
+7	eine	ein	DET	ART	_	9	E	9:E	_
+8	gewisse	gewiß	ADJ	ADJA	_	9	E	9:E	_
+9	Unruhe	Unruhe	NOUN	NN	_	11	A	11:A	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	erkennen	erkennen	VERB	VVINF	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25745001
+# text = Über uns sah der klaffende Krater aus wie eine weite Brunnenmündung .
+1	Über	über	ADP	APPR	_	2	R	2:R	_
+2	uns	wir	PRON	NE	_	3	A	3:A	_
+3	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+4	der	der	DET	ART	_	6	E	6:E	_
+5	klaffende	klaffend	ADJ	ADJA	_	6	E	6:E	_
+6	Krater	Krater	NOUN	NN	_	3	A	3:A	_
+7	aus	aus	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+8	wie	wie	ADP	NE	_	11	R	11:R	_
+9	eine	ein	DET	ART	_	11	E	11:E	_
+10	weite	weit	ADJ	NN	_	11	E	11:E	_
+11	Brunnenmündung	Brunnenmündung	NOUN	NN	_	3	A	3:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

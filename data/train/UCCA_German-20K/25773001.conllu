@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25773001
+# text = Aber in der Luft war reiches Leben : Vögel verschiedener Gattungen flogen und flatterten da zu Tausenden und betäubten mit ihrem Geschrei .
+1	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Luft	Luft	NOUN	NN	_	7	A	7:A	_
+5	war	sein	AUX	ADV	_	7	F	7:F	_
+6	reiches	reich	ADJ	ADJA	_	7	D	7:D	_
+7	Leben	Leben	NOUN	NN	_	0	H	0:H	_
+8	:	:	PUNCT	$.	_	7	U	7:U	_
+9	Vögel	Vogel	NOUN	NN	_	0	C	0:C|10:A|22:A|19:A	_
+10	verschiedener	verschieden	ADJ	ADJA	_	9	E	9:E	_
+11	Gattungen	Gattung	NOUN	NN	_	10	A	10:A	_
+12	flogen	fliehen	VERB	ADJD	_	7	H	7:H	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	flatterten	flatteren	VERB	VVFIN	_	12	C	12:C	_
+15	da	da	ADV	ADV	_	12	A	12:A	_
+16	zu	zu	ADP	VVINF	_	17	R	17:R	_
+17	Tausenden	tausenden	NOUN	NN	_	12	A	12:A	_
+18	und	und	CCONJ	NE	_	7	L	7:L	_
+19	betäubten	betäuben	VERB	ADJA	_	7	H	7:H	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	ihrem	ihr	DET	PPOSAT	_	22	E	22:E	_
+22	Geschrei	Geschrei	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

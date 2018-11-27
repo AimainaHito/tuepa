@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25666006
+# text = Es schien mir klar , dass dieser Mann französisch nicht verstand , denn einigemal machte ich laut in dieser Sprache Bemerkungen , die ihm unwillkürlich Zeichen der Beachtung entlockt haben würden , wenn er sie verstanden hätte ; aber er blieb gleichgültig und stumm .
+1	Es	es	PRON	PPER	_	4	F	4:F	_
+2	schien	scheinen	VERB	VVFIN	_	4	D	4:D	_
+3	mir	ich	PRON	PPER	_	4	A	4:A	_
+4	klar	klar	ADJ	ADJD	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	dass	dass	SCONJ	KOUS	_	11	R	11:R	_
+7	dieser	dies	PRON	PDAT	_	8	E	8:E	_
+8	Mann	Mann	NOUN	NN	_	11	A	11:A	_
+9	französisch	französisch	ADV	ADJD	_	11	A	11:A	_
+10	nicht	nicht	PART	XY	_	11	D	11:D	_
+11	verstand	verstehen	VERB	VVFIN	_	4	A	4:A	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	denn	denn	CCONJ	KON	_	4	L	4:L	_
+14	einigemal	einigemal	ADV	ADV	_	15	D	15:D	_
+15	machte	machen	VERB	VVFIN	_	4	H	4:H	_
+16	ich	ich	PRON	PPER	_	15	A	15:A	_
+17	laut	laut	ADJ	ADJD	_	15	D	15:D	_
+18	in	in	ADP	APPR	_	20	R	20:R	_
+19	dieser	dies	PRON	PDAT	_	20	E	20:E	_
+20	Sprache	Sprache	NOUN	NN	_	15	A	15:A	_
+21	Bemerkungen	Bemerkung	NOUN	NN	_	15	A	15:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	die	der	PRON	PRELS	_	29	R	29:R	_
+24	ihm	er	PRON	PPER	_	29	A	29:A	_
+25	unwillkürlich	unwillkürlich	ADJ	ADJD	_	29	D	29:D	_
+26	Zeichen	Zeichen	NOUN	NN	_	29	A	29:A	_
+27	der	der	DET	ART	_	28	R	28:R	_
+28	Beachtung	Beachtung	NOUN	NN	_	26	E	26:E	_
+29	entlockt	entlocken	VERB	VVPP	_	21	E	21:E	_
+30	haben	haben	AUX	VAFIN	_	29	F	29:F	_
+31	würden	werden	AUX	ADJD	_	29	D	29:D	_
+32	,	,	PUNCT	$,	_	4	U	4:U	_
+33	wenn	wenn	SCONJ	VVFIN	_	4	L	4:L	_
+34	er	er	PRON	PPER	_	36	A	36:A	_
+35	sie	sie	PRON	ADV	_	36	A	36:A	_
+36	verstanden	verstehen	VERB	VVPP	_	4	H	4:H	_
+37	hätte	haben	AUX	VAFIN	_	36	F	36:F	_
+38	;	;	PUNCT	$.	_	4	U	4:U	_
+39	aber	aber	CCONJ	KON	_	4	L	4:L	_
+40	er	er	PRON	PPER	_	42	A	42:A	_
+41	blieb	bleiben	VERB	VVFIN	_	42	D	42:D	_
+42	gleichgültig	gleichgültig	ADJ	ADJD	_	4	H	4:H	_
+43	und	und	CCONJ	NE	_	42	N	42:N	_
+44	stumm	stumm	ADJ	ADJD	_	42	C	42:C	_
+45	.	.	PUNCT	$.	_	42	U	42:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25731001
+# text = Man gab uns reichlich mit Luft versehene Behälter auf den Rücken , aber die elektrischen Lampen waren nicht in Bereitschaft .
+1	Man	man	PRON	PIS	_	2	A	2:A	_
+2	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+3	uns	wir	PRON	NE	_	2	A	2:A	_
+4	reichlich	reichlich	ADJ	NE	_	7	D	7:D	_
+5	mit	mit	ADP	APPR	_	6	E	6:E	_
+6	Luft	Luft	NOUN	NE	_	7	A	7:A	_
+7	versehene	versehen	ADJ	NN	_	2	A	2:A	_
+8	Behälter	Behälter	NOUN	NN	_	7	A	7:A	_
+9	auf	auf	ADP	APPR	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Rücken	Rücken	NOUN	NN	_	2	A	2:A	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	aber	aber	CCONJ	KON	_	2	L	2:L	_
+14	die	der	DET	ART	_	16	E	16:E	_
+15	elektrischen	elektrisch	ADJ	ADJA	_	16	E	16:E	_
+16	Lampen	Lampe	NOUN	NN	_	20	A	20:A	_
+17	waren	sein	AUX	VAFIN	_	20	F	20:F	_
+18	nicht	nicht	PART	CARD	_	20	D	20:D	_
+19	in	in	ADP	APPR	_	20	E	20:E	_
+20	Bereitschaft	Bereitschaft	NOUN	NN	_	2	H	2:H	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

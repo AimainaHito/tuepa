@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25595014
+# text = In dem Augenblick erwachten Conseil und der Matrose der " Nautilus " . Kapitän Nemo zeigte diesen das häßliche Tier , er streckte es mit einem Kolben schlag augenblicklich nieder , und ich sah die fürchterlichen Füße des Ungeheuers in gräßlichen Zuckungen sich winden .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dem	der	DET	ART	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	erwachten	erwachen	VERB	VVFIN	_	0	H	0:H	_
+5	Conseil	Conseil	NOUN	NE	_	4	A	4:A	_
+6	und	und	CCONJ	NE	_	5	N	5:N	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Matrose	Matrose	NOUN	NN	_	5	C	5:C	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	Nautilus	Nautilus	PROPN	NN	_	8	E	8:E	_
+12	"	"	PUNCT	$(	_	4	U	4:U	_
+13	.	.	PUNCT	$.	_	4	U	4:U	_
+14	Kapitän	Kapitän	PROPN	NN	_	15	E	15:E	_
+15	Nemo	Nemo	PROPN	NE	_	16	A	16:A	_
+16	zeigte	zeigen	VERB	VVFIN	_	4	H	4:H	_
+17	diesen	dies	PRON	PDAT	_	16	A	16:A	_
+18	das	der	DET	ART	_	20	E	20:E	_
+19	häßliche	häßlich	ADJ	ADJA	_	20	E	20:E	_
+20	Tier	Tier	NOUN	NN	_	16	A	16:A	_
+21	,	,	PUNCT	$,	_	4	U	4:U	_
+22	er	er	PRON	PPER	_	23	A	23:A	_
+23	streckte	strecken	VERB	VVFIN	_	4	H	4:H	_
+24	es	es	PRON	PPER	_	23	A	23:A	_
+25	mit	mit	ADP	APPR	_	28	R	28:R	_
+26	einem	ein	DET	ART	_	28	E	28:E	_
+27	Kolben	Kolben	NOUN	NN	_	28	E	28:E	_
+28	schlag	schliegen	VERB	VVFIN	_	23	A	23:A	_
+29	augenblicklich	augenblicklich	ADJ	ADJD	_	23	D	23:D	_
+30	nieder	nieder	ADV	XY	_	23	Terminal	23:Terminal	_
+31	,	,	PUNCT	$,	_	4	U	4:U	_
+32	und	und	CCONJ	NE	_	4	L	4:L	_
+33	ich	ich	PRON	PPER	_	34	A	34:A	_
+34	sah	sehen	VERB	VVFIN	_	4	H	4:H	_
+35	die	der	DET	ART	_	37	E	37:E	_
+36	fürchterlichen	fürchterlich	ADJ	ADJA	_	37	E	37:E	_
+37	Füße	Fuß	NOUN	NN	_	43	A	43:A	_
+38	des	der	DET	ART	_	39	R	39:R	_
+39	Ungeheuers	Ungeheuer	NOUN	NN	_	37	E	37:E	_
+40	in	in	ADP	APPR	_	42	R	42:R	_
+41	gräßlichen	gräßlich	ADJ	ADJA	_	42	E	42:E	_
+42	Zuckungen	Zuckunge	NOUN	NN	_	43	A	43:A	_
+43	sich	er|es|sie	PRON	PRF	_	34	A	34:A	_
+44	winden	winden	VERB	VVINF	_	43	Terminal	43:Terminal	_
+45	.	.	PUNCT	$.	_	43	U	43:U	_
+

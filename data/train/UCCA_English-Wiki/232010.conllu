@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 232010
+# text = The day before the Beijing Olympics opened , Chan released one of the two official Olympics albums , Official Album for the Beijing 2008 Olympic Games - Jackie Chan 's Version , which featured a number of special guest appearances .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	day	day	NOUN	NN	_	7	L	7:L	_
+3	before	before	ADP	IN	_	2	R	2:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	Beijing	Beijing	PROPN	NNP	_	6	E	6:E	_
+6	Olympics	Olympics	PROPN	NNP	_	7	A	7:A	_
+7	opened	open	VERB	VBD	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Chan	Chan	PROPN	NNP	_	10	A	10:A	_
+10	released	release	VERB	VBD	_	7	H	7:H	_
+11	one	one	NUM	CD	_	14	E	14:E	_
+12	of	of	ADP	IN	_	11	R	11:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	two	two	NUM	CD	_	17	E	17:E	_
+15	official	official	ADJ	JJ	_	17	E	17:E	_
+16	Olympics	Olympics	PROPN	NNPS	_	17	E	17:E	_
+17	albums	album	NOUN	NNS	_	19	E	19:E	_
+18	,	,	PUNCT	,	_	19	U	19:U	_
+19	Official	official	PROPN	NNP	_	10	A	10:A	_
+20	Album	Album	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	for	for	ADP	IN	_	19	Terminal	19:Terminal	_
+22	the	the	DET	DT	_	19	Terminal	19:Terminal	_
+23	Beijing	Beijing	PROPN	NNP	_	19	Terminal	19:Terminal	_
+24	2008	2008	NUM	CD	_	19	Terminal	19:Terminal	_
+25	Olympic	Olympic	PROPN	NNP	_	19	Terminal	19:Terminal	_
+26	Games	games	PROPN	NNP	_	19	Terminal	19:Terminal	_
+27	-	-	PUNCT	HYPH	_	19	U	19:U	_
+28	Jackie	Jackie	PROPN	NNP	_	19	Terminal	19:Terminal	_
+29	Chan	Chan	PROPN	NNP	_	19	Terminal	19:Terminal	_
+30	's	's	PART	POS	_	19	Terminal	19:Terminal	_
+31	Version	version	PROPN	NNP	_	19	Terminal	19:Terminal	_
+32	,	,	PUNCT	,	_	19	U	19:U	_
+33	which	which	PRON	WDT	_	34	R	34:R	_
+34	featured	feature	VERB	VBD	_	19	E	19:E	_
+35	a	a	DET	DT	_	40	E	40:E	_
+36	number	number	NOUN	NN	_	40	E	40:E	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	special	special	ADJ	JJ	_	40	E	40:E	_
+39	guest	guest	NOUN	NN	_	40	E	40:E	_
+40	appearances	appearance	NOUN	NNS	_	34	A	34:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25408004
+# text = Die Tatsache ist , dass seit einiger Zeit manche Schiffe auf hoher See einem » enormen Gegenstand « begegneten , lang , spindelförmig , mitunter phosphoreszierend , unendlich größer und rascher als ein Wallfisch .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Tatsache	Tatsache	NOUN	NN	_	3	A	3:A	_
+3	ist	sein	AUX	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+6	seit	seit	ADP	ADJA	_	8	R	8:R	_
+7	einiger	einige	PRON	PIAT	_	8	E	8:E	_
+8	Zeit	Zeit	NOUN	NN	_	19	D	19:D	_
+9	manche	manch	PRON	PIAT	_	10	E	10:E	_
+10	Schiffe	Schiff	NOUN	NN	_	19	A	19:A	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	hoher	hoch	ADJ	ADJA	_	13	E	13:E	_
+13	See	See	NOUN	NN	_	19	A	19:A	_
+14	einem	ein	DET	ART	_	17	E	17:E	_
+15	»	»	PUNCT	$(	_	16	U	16:U	_
+16	enormen	enorm	ADJ	ADJA	_	19	A	19:A	_
+17	Gegenstand	Gegenstand	NOUN	NN	_	0	C	0:C|29:A	_
+18	«	«	PUNCT	$(	_	19	U	19:U	_
+19	begegneten	begegnen	VERB	ADJA	_	3	A	3:A	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	lang	lang	ADJ	ADJD	_	16	H	16:H	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	spindelförmig	spindelförmig	ADJ	ADJD	_	21	C	21:C	_
+24	,	,	PUNCT	$,	_	21	U	21:U	_
+25	mitunter	mitunter	ADV	ADV	_	21	D	21:D	_
+26	phosphoreszierend	phosphoreszierend	ADJ	ADJD	_	21	C	21:C	_
+27	,	,	PUNCT	$,	_	16	U	16:U	_
+28	unendlich	unendlich	ADJ	ADJD	_	29	D	29:D	_
+29	größer	groß	ADJ	ADJD	_	0	C	0:C|34:S	_
+30	und	und	CCONJ	NE	_	29	N	29:N	_
+31	rascher	rasch	ADJ	ADJA	_	29	C	29:C	_
+32	als	als	ADP	KOKOM	_	34	R	34:R	_
+33	ein	ein	DET	ART	_	34	E	34:E	_
+34	Wallfisch	Wallfisch	NOUN	NN	_	16	H	16:H	_
+35	.	.	PUNCT	$.	_	34	U	34:U	_
+

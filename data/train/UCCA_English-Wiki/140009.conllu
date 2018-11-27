@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 140009
+# text = She was not a strong singer , but found the offer irresistible and , as Berg puts it , " what she lacked in euphony she made up for in guts " . The actress took vocal lessons six times a week in preparation for the show .
+1	She	she	PRON	PRP	_	2	A	2:A|12:A	_
+2	was	be	AUX	VBD	_	0	H	0:H	_
+3	not	not	PART	RB	_	2	D	2:D	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	strong	strong	ADJ	JJ	_	6	E	6:E	_
+6	singer	singer	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	but	but	CCONJ	CC	_	2	L	2:L	_
+9	found	find	VERB	VBD	_	12	D	12:D	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	offer	offer	NOUN	NN	_	12	A	12:A	_
+12	irresistible	irresistible	ADJ	JJ	_	2	H	2:H	_
+13	and	and	CCONJ	CC	_	2	L	2:L	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	as	as	SCONJ	IN	_	17	R	17:R	_
+16	Berg	Berg	PROPN	NNP	_	17	A	17:A	_
+17	puts	put	VERB	VBZ	_	2	H	2:H	_
+18	it	it	PRON	PRP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	17	U	17:U	_
+20	"	"	PUNCT	``	_	17	U	17:U	_
+21	what	what	PRON	WP	_	23	L	23:L	_
+22	she	she	PRON	PRP	_	23	A	23:A	_
+23	lacked	lack	VERB	VBD	_	17	A	17:A	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	euphony	euphony	NOUN	NN	_	23	A	23:A	_
+26	she	she	PRON	PRP	_	27	A	27:A	_
+27	made	make	VERB	VBD	_	23	H	23:H	_
+28	up	up	ADP	RP	_	27	Terminal	27:Terminal	_
+29	for	for	ADP	IN	_	27	Terminal	27:Terminal	_
+30	in	in	ADP	IN	_	31	R	31:R	_
+31	guts	gut	NOUN	NNS	_	27	A	27:A	_
+32	"	"	PUNCT	''	_	2	U	2:U	_
+33	.	.	PUNCT	.	_	2	U	2:U	_
+34	The	the	DET	DT	_	35	E	35:E	_
+35	actress	actress	NOUN	NN	_	0	C	0:C|44:A	_
+36	took	take	VERB	VBD	_	38	F	38:F	_
+37	vocal	vocal	ADJ	JJ	_	38	E	38:E	_
+38	lessons	lesson	NOUN	NNS	_	2	H	2:H	_
+39	six	six	NUM	CD	_	40	E	40:E	_
+40	times	time	NOUN	NNS	_	38	D	38:D	_
+41	a	a	DET	DT	_	42	R	42:R	_
+42	week	week	NOUN	NN	_	40	E	40:E	_
+43	in	in	ADP	IN	_	2	L	2:L	_
+44	preparation	preparation	NOUN	NN	_	2	H	2:H	_
+45	for	for	ADP	IN	_	47	R	47:R	_
+46	the	the	DET	DT	_	47	E	47:E	_
+47	show	show	NOUN	NN	_	44	A	44:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

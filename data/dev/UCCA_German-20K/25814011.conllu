@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25814011
+# text = Diese fürchterliche Szene des 20 . April wird niemand von uns je vergessen können .
+1	Diese	dies	PRON	PDAT	_	3	E	3:E	_
+2	fürchterliche	fürchterlich	ADJ	ADJA	_	3	E	3:E	_
+3	Szene	Szene	NOUN	NN	_	13	A	13:A	_
+4	des	der	DET	ART	_	5	E	5:E	_
+5	20	20	NUM	CARD	_	13	D	13:D	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	April	April	PROPN	NN	_	5	Terminal	5:Terminal	_
+8	wird	werden	AUX	VAFIN	_	13	F	13:F	_
+9	niemand	niemand	PRON	PIS	_	13	A	13:A	_
+10	von	von	ADP	NE	_	11	R	11:R	_
+11	uns	wir	PRON	NN	_	9	E	9:E	_
+12	je	je	ADV	ADV	_	13	D	13:D	_
+13	vergessen	vergessen	VERB	VVINF	_	0	H	0:H	_
+14	können	können	AUX	VMINF	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

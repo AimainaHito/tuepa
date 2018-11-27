@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25594002
+# text = Sie stiegen alle aufwärts dem Meeres spiegel zu .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+2	stiegen	steigen	VERB	VVFIN	_	0	H	0:H	_
+3	alle	alle	PRON	PIS	_	2	A	2:A	_
+4	aufwärts	aufwärts	ADV	ADV	_	2	D	2:D	_
+5	dem	der	DET	ART	_	7	E	7:E	_
+6	Meeres	Meer	NOUN	ADJA	_	7	E	7:E	_
+7	spiegel	spiegel	PROPN	NN	_	2	A	2:A	_
+8	zu	zu	ADP	VVINF	_	7	R	7:R	_
+9	.	.	PUNCT	$.	_	7	U	7:U	_
+

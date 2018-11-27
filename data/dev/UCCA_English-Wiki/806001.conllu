@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 806001
+# text = They decided to stop consuming meat after Paul saw lambs in a field as they were eating a meal of lamb .
+1	They	they	PRON	PRP	_	2	A	2:A|5:A	_
+2	decided	decide	VERB	VBD	_	0	H	0:H	_
+3	to	to	PART	TO	_	5	F	5:F	_
+4	stop	stop	VERB	VB	_	5	D	5:D	_
+5	consuming	consume	VERB	VBG	_	2	A	2:A	_
+6	meat	meat	NOUN	NN	_	5	A	5:A	_
+7	after	after	ADP	IN	_	2	L	2:L	_
+8	Paul	Paul	PROPN	NNP	_	9	A	9:A	_
+9	saw	see	VERB	VBD	_	2	H	2:H	_
+10	lambs	lamb	NOUN	NNS	_	9	A	9:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	field	field	NOUN	NN	_	9	A	9:A	_
+14	as	as	SCONJ	IN	_	2	L	2:L	_
+15	they	they	PRON	PRP	_	17	A	17:A	_
+16	were	be	AUX	VBD	_	17	F	17:F	_
+17	eating	eat	VERB	VBG	_	2	H	2:H	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	meal	meal	NOUN	NN	_	17	A	17:A	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	lamb	lamb	NOUN	NN	_	19	E	19:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

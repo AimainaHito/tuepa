@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25800008
+# text = Desgleichen hatte ich zahlreiche Quallen zu bewundern , die schönsten der Gattung , wie sie jenen Meeren eigentümlich sind .
+1	Desgleichen	desgleichen	ADV	ADV	_	7	D	7:D	_
+2	hatte	haben	AUX	VAFIN	_	7	D	7:D	_
+3	ich	ich	PRON	PPER	_	7	A	7:A	_
+4	zahlreiche	zahlreich	ADJ	ADJA	_	5	E	5:E	_
+5	Quallen	Qualle	NOUN	NN	_	7	A	7:A	_
+6	zu	zu	PART	VVINF	_	7	F	7:F	_
+7	bewundern	bewundern	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	ART	_	10	E	10:E	_
+10	schönsten	schön	ADJ	NN	_	5	E	5:E	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Gattung	Gattung	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	5	U	5:U	_
+14	wie	wie	SCONJ	KON	_	18	R	18:R	_
+15	sie	sie	PRON	ADV	_	18	A	18:A	_
+16	jenen	jen	DET	PDAT	_	17	R	17:R	_
+17	Meeren	Meer	NOUN	NN	_	18	A	18:A	_
+18	eigentümlich	eigentümlich	ADJ	ADJD	_	5	E	5:E	_
+19	sind	sein	AUX	NN	_	18	F	18:F	_
+20	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 607013
+# text = In 1984 , McCartney starred in the musical Give My Regards to Broad Street , a feature film he also wrote and produced which included Starr in an acting role .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1984	1984	PROPN	NNP	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	McCartney	McCartney	PROPN	NNP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	musical	musical	ADJ	JJ	_	9	E	9:E	_
+9	Give	give	PROPN	NNP	_	5	A	5:A	_
+10	My	my	PRON	PRP$	_	9	Terminal	9:Terminal	_
+11	Regards	regards	NOUN	NNS	_	9	Terminal	9:Terminal	_
+12	to	to	ADP	IN	_	9	Terminal	9:Terminal	_
+13	Broad	Broad	PROPN	NNP	_	9	Terminal	9:Terminal	_
+14	Street	Street	PROPN	NNP	_	9	Terminal	9:Terminal	_
+15	,	,	PUNCT	,	_	9	U	9:U	_
+16	a	a	DET	DT	_	18	E	18:E	_
+17	feature	feature	ADJ	JJ	_	18	E	18:E	_
+18	film	film	NOUN	NN	_	9	E	9:E	_
+19	he	he	PRON	PRP	_	21	A	21:A	_
+20	also	also	ADV	RB	_	21	D	21:D	_
+21	wrote	write	VERB	VBD	_	18	E	18:E	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	produced	produce	VERB	VBN	_	21	C	21:C	_
+24	which	which	PRON	WDT	_	21	L	21:L	_
+25	included	include	VERB	VBD	_	21	H	21:H	_
+26	Starr	Starr	PROPN	NNP	_	25	A	25:A	_
+27	in	in	ADP	IN	_	30	R	30:R	_
+28	an	a	DET	DT	_	30	E	30:E	_
+29	acting	acting	ADJ	JJ	_	30	E	30:E	_
+30	role	role	NOUN	NN	_	25	A	25:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

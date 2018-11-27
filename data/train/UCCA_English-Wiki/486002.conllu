@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 486002
+# text = As a teen , he watched the Mel Gibson film Mad Max ( 1979 ) , and decided he wanted to become an actor .
+1	As	as	ADP	IN	_	3	L	3:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	teen	teen	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	he	he	PRON	PRP	_	6	A	6:A|18:A|22:A	_
+6	watched	watch	VERB	VBD	_	3	H	3:H	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	Mel	Mel	PROPN	NNP	_	10	E	10:E	_
+9	Gibson	Gibson	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	film	film	NOUN	NN	_	11	E	11:E	_
+11	Mad	mad	PROPN	NNP	_	6	A	6:A	_
+12	Max	Max	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	(	(	PUNCT	-LRB-	_	11	U	11:U	_
+14	1979	1979	NUM	CD	_	11	E	11:E	_
+15	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+16	,	,	PUNCT	,	_	3	U	3:U	_
+17	and	and	CCONJ	CC	_	3	L	3:L	_
+18	decided	decide	VERB	VBD	_	3	H	3:H	_
+19	he	he	PRON	PRP	_	20	A	20:A	_
+20	wanted	want	VERB	VBD	_	18	A	18:A	_
+21	to	to	PART	TO	_	22	F	22:F	_
+22	become	become	VERB	VB	_	20	A	20:A	_
+23	an	a	DET	DT	_	24	E	24:E	_
+24	actor	actor	NOUN	NN	_	22	A	22:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

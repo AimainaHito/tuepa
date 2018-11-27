@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 507007
+# text = A series of Tin Machine singles failed to chart , and Bowie , after a disagreement with EMI , left the label .
+1	A	a	DET	DT	_	2	E	2:E	_
+2	series	series	NOUN	NN	_	6	E	6:E	_
+3	of	of	ADP	IN	_	2	R	2:R	_
+4	Tin	tin	PROPN	NNP	_	6	E	6:E	_
+5	Machine	machine	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	singles	singles	NOUN	NNS	_	9	A	9:A	_
+7	failed	fail	VERB	VBD	_	9	D	9:D	_
+8	to	to	PART	TO	_	9	F	9:F	_
+9	chart	chart	VERB	VB	_	0	H	0:H	_
+10	,	,	PUNCT	,	_	9	U	9:U	_
+11	and	and	CCONJ	CC	_	9	L	9:L	_
+12	Bowie	Bowie	PROPN	NNP	_	20	A	20:A|16:A	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	after	after	ADP	IN	_	9	L	9:L	_
+15	a	a	DET	DT	_	16	E	16:E	_
+16	disagreement	disagreement	NOUN	NN	_	9	H	9:H	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	EMI	EMI	PROPN	NNP	_	16	A	16:A	_
+19	,	,	PUNCT	,	_	9	U	9:U	_
+20	left	leave	VERB	VBD	_	9	H	9:H	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	label	label	NOUN	NN	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

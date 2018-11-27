@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 99000
+# text = Le capitaine Anderson se rendit immédiatement dans la cale .
+1	Le	le	DET	_	_	2	E	2:E	_
+2	capitaine	capitaine	NOUN	_	_	3	E	3:E	_
+3	Anderson	Anderson	PROPN	_	_	4	A	4:A	_
+4	se	se	PRON	_	_	0	H	0:H	_
+5	rendit	rendre	VERB	_	_	4	Terminal	4:Terminal	_
+6	immédiatement	immédiatement	ADV	_	_	4	D	4:D	_
+7	dans	dans	ADP	_	_	9	R	9:R	_
+8	la	le	DET	_	_	9	E	9:E	_
+9	cale	cale	NOUN	_	_	4	A	4:A	_
+10	.	.	PUNCT	_	_	9	U	9:U	_
+

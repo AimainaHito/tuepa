@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25777017
+# text = In der Tat , es war eben der 20 . März , und morgen , am Äquinoktial tag , sollte die Sonne , abgerechnet die Strahlen brechung , auf 6 Monate vom Horizont verschwinden und damit die lange Polarnacht beginnen .
+1	In	in	ADP	APPR	_	6	G	6:G	_
+2	der	der	DET	ART	_	1	Terminal	1:Terminal	_
+3	Tat	Tat	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	$,	_	6	U	6:U	_
+5	es	es	PRON	PPER	_	6	A	6:A	_
+6	war	sein	AUX	ADV	_	0	H	0:H	_
+7	eben	eben	ADV	ADV	_	6	D	6:D	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	20	20	NUM	CARD	_	6	D	6:D	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	März	März	PROPN	NN	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	$,	_	6	U	6:U	_
+13	und	und	CCONJ	NE	_	6	L	6:L	_
+14	morgen	morgen	VERB	XY	_	34	D	34:D	_
+15	,	,	PUNCT	$,	_	34	U	34:U	_
+16	am	am	ADJ	ADJD	_	18	E	18:E	_
+17	Äquinoktial	Äquinoktial	NOUN	NE	_	18	E	18:E	_
+18	tag	tiegen	VERB	NN	_	34	D	34:D	_
+19	,	,	PUNCT	$,	_	34	U	34:U	_
+20	sollte	sollen	AUX	VMFIN	_	34	D	34:D|40:D	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Sonne	Sonne	NOUN	NN	_	0	C	0:C|40:A|24:A	_
+23	,	,	PUNCT	$,	_	24	U	24:U	_
+24	abgerechnet	abrechnen	VERB	VVFIN	_	34	A	34:A	_
+25	die	der	DET	ART	_	27	E	27:E	_
+26	Strahlen	strahlen	NOUN	NN	_	27	E	27:E	_
+27	brechung	brechung	NOUN	NN	_	24	A	24:A	_
+28	,	,	PUNCT	$,	_	34	U	34:U	_
+29	auf	auf	ADP	APPR	_	31	R	31:R	_
+30	6	6	NUM	CARD	_	31	E	31:E	_
+31	Monate	Monat	NOUN	NN	_	34	D	34:D	_
+32	vom	vom	ADP	NN	_	33	R	33:R	_
+33	Horizont	Horizont	NOUN	NN	_	34	A	34:A	_
+34	verschwinden	verschwinden	VERB	VVFIN	_	6	H	6:H	_
+35	und	und	CCONJ	NE	_	6	L	6:L	_
+36	damit	damit	ADV	PAV	_	40	A	40:A	_
+37	die	der	DET	ART	_	39	E	39:E	_
+38	lange	lang	ADJ	ADJA	_	39	E	39:E	_
+39	Polarnacht	Polarnacht	NOUN	NN	_	40	A	40:A	_
+40	beginnen	beginnen	VERB	VVINF	_	6	H	6:H	_
+41	.	.	PUNCT	$.	_	40	U	40:U	_
+

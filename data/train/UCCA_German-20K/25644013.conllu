@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25644013
+# text = Es war dabei eine ungewohnte Kraft und außerordentliche Bewegung im Spiel !
+1	Es	es	PRON	PPER	_	11	F	11:F	_
+2	war	sein	AUX	ADV	_	11	F	11:F	_
+3	dabei	dabei	ADV	PAV	_	11	A	11:A	_
+4	eine	ein	DET	ART	_	6	E	6:E	_
+5	ungewohnte	ungewohnt	ADJ	ADJA	_	6	E	6:E	_
+6	Kraft	Kraft	NOUN	NN	_	11	A	11:A	_
+7	und	und	CCONJ	NE	_	6	N	6:N	_
+8	außerordentliche	außerordentlich	ADJ	ADJA	_	9	E	9:E	_
+9	Bewegung	Bewegung	NOUN	NN	_	6	C	6:C	_
+10	im	im	ADV	NN	_	11	R	11:R	_
+11	Spiel	Spiel	NOUN	NN	_	0	H	0:H	_
+12	!	!	PUNCT	$.	_	11	U	11:U	_
+

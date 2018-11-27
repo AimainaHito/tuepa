@@ -1,0 +1,8 @@
+# format = ucca
+# sent_id = 25479000
+# text = Dreimaliges Hurra erschallte .
+1	Dreimaliges	Dreimaliges	PROPN	NE	_	2	E	2:E	_
+2	Hurra	Hurra	PROPN	NE	_	3	A	3:A	_
+3	erschallte	erschallen	VERB	VVFIN	_	0	H	0:H	_
+4	.	.	PUNCT	$.	_	3	U	3:U	_
+

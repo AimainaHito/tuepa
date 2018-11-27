@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 457011
+# text = ABC increased its coverage of religious topics , and in March 1995 , Jennings anchored Peter Jennings Reporting : In the Name of God , a well - received documentary on the changing nature of American churches .
+1	ABC	ABC	PROPN	NNP	_	2	A	2:A	_
+2	increased	increase	VERB	VBD	_	0	H	0:H	_
+3	its	its	PRON	PRP$	_	4	A	4:A	_
+4	coverage	coverage	NOUN	NN	_	2	A	2:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	religious	religious	ADJ	JJ	_	7	E	7:E	_
+7	topics	topics	NOUN	NNS	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	and	and	CCONJ	CC	_	2	L	2:L	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	March	March	PROPN	NNP	_	15	D	15:D	_
+12	1995	1995	NUM	CD	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	15	U	15:U	_
+14	Jennings	Jennings	PROPN	NNP	_	15	A	15:A	_
+15	anchored	anchor	VERB	VBD	_	2	H	2:H	_
+16	Peter	Peter	PROPN	NNP	_	15	A	15:A	_
+17	Jennings	Jennings	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	Reporting	Reporting	VERB	VBG	_	16	Terminal	16:Terminal	_
+19	:	:	PUNCT	:	_	16	U	16:U	_
+20	In	in	ADP	IN	_	16	Terminal	16:Terminal	_
+21	the	the	DET	DT	_	16	Terminal	16:Terminal	_
+22	Name	Name	NOUN	NN	_	16	Terminal	16:Terminal	_
+23	of	of	ADP	IN	_	16	Terminal	16:Terminal	_
+24	God	God	PROPN	NNP	_	16	Terminal	16:Terminal	_
+25	,	,	PUNCT	,	_	16	U	16:U	_
+26	a	a	DET	DT	_	30	E	30:E	_
+27	well	well	ADV	RB	_	29	D	29:D	_
+28	-	-	PUNCT	HYPH	_	29	U	29:U	_
+29	received	receive	VERB	VBN	_	30	E	30:E	_
+30	documentary	documentary	NOUN	NN	_	16	E	16:E	_
+31	on	on	ADP	IN	_	34	R	34:R	_
+32	the	the	DET	DT	_	34	E	34:E	_
+33	changing	change	VERB	VBG	_	34	E	34:E	_
+34	nature	nature	NOUN	NN	_	30	E	30:E	_
+35	of	of	ADP	IN	_	37	R	37:R	_
+36	American	american	ADJ	JJ	_	37	E	37:E	_
+37	churches	churche	NOUN	NNS	_	34	E	34:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

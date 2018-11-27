@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 232008
+# text = In 2007 , Chan recorded and released the song " We Are Ready " , the official one - year countdown song to the 2008 Summer Olympics .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2007	2007	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Chan	Chan	PROPN	NNP	_	5	A	5:A	_
+5	recorded	record	VERB	VBD	_	0	H	0:H	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	released	release	VERB	VBD	_	5	C	5:C	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	song	song	NOUN	NN	_	11	E	11:E	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	We	we	PRON	PRP	_	5	A	5:A	_
+12	Are	be	AUX	VBP	_	11	Terminal	11:Terminal	_
+13	Ready	ready	PROPN	NNP	_	11	Terminal	11:Terminal	_
+14	"	"	PUNCT	''	_	11	U	11:U	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	the	the	DET	DT	_	22	E	22:E	_
+17	official	official	ADJ	JJ	_	22	E	22:E	_
+18	one	one	NUM	CD	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	year	year	NOUN	NN	_	21	E	21:E	_
+21	countdown	countdown	NOUN	NN	_	22	E	22:E	_
+22	song	song	NOUN	NN	_	11	E	11:E	_
+23	to	to	ADP	IN	_	27	R	27:R	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	2008	2008	NUM	CD	_	27	E	27:E	_
+26	Summer	summer	NOUN	NN	_	27	E	27:E	_
+27	Olympics	Olympic	PROPN	NNPS	_	22	E	22:E	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

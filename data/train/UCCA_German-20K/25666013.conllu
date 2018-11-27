@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25666013
+# text = Aber unter diesen Verhältnissen war ihre Abnutzung fast unmerklich .
+1	Aber	aber	CCONJ	KON	_	7	L	7:L	_
+2	unter	unter	ADP	ADJD	_	4	R	4:R	_
+3	diesen	dies	PRON	PDAT	_	4	E	4:E	_
+4	Verhältnissen	Verhältnis	NOUN	NN	_	7	A	7:A	_
+5	war	sein	AUX	ADV	_	7	F	7:F	_
+6	ihre	ihr	DET	PPOSAT	_	7	E	7:E	_
+7	Abnutzung	Abnutzung	NOUN	NN	_	0	H	0:H	_
+8	fast	fast	ADV	ADV	_	7	D	7:D	_
+9	unmerklich	unmerklich	ADJ	ADJD	_	7	D	7:D	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+

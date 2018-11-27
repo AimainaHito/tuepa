@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 227008
+# text = Chan 's next release was the third instalment in the Rush Hour series : Rush Hour 3 in August 2007 .
+1	Chan	Chan	PROPN	NNP	_	4	E	4:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	next	next	ADJ	JJ	_	4	E	4:E	_
+4	release	release	NOUN	NN	_	5	A	5:A	_
+5	was	be	AUX	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	15	E	15:E	_
+7	third	third	ADJ	JJ	_	8	E	8:E	_
+8	instalment	instalment	NOUN	NN	_	15	E	15:E	_
+9	in	in	ADP	IN	_	13	R	13:R	_
+10	the	the	DET	DT	_	13	E	13:E	_
+11	Rush	rush	PROPN	NNP	_	13	E	13:E	_
+12	Hour	hour	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	series	series	NOUN	NN	_	15	E	15:E	_
+14	:	:	PUNCT	:	_	15	U	15:U	_
+15	Rush	rush	PROPN	NNP	_	5	A	5:A	_
+16	Hour	hour	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	3	3	NUM	CD	_	15	Terminal	15:Terminal	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	August	August	PROPN	NNP	_	5	D	5:D	_
+20	2007	2007	NUM	CD	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

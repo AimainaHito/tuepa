@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 508000
+# text = In April 1992 Bowie appeared at the Freddie Mercury Tribute Concert , following the Queen frontman 's death the previous year .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	April	April	PROPN	NNP	_	3	E	3:E	_
+3	1992	1992	NUM	CD	_	5	D	5:D	_
+4	Bowie	Bowie	PROPN	NNP	_	5	A	5:A	_
+5	appeared	appear	VERB	VBD	_	0	H	0:H	_
+6	at	at	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	11	E	11:E	_
+8	Freddie	Freddie	PROPN	NNP	_	11	E	11:E	_
+9	Mercury	mercury	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Tribute	Tribute	PROPN	NNP	_	11	E	11:E	_
+11	Concert	concert	PROPN	NNP	_	5	A	5:A	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	following	follow	VERB	VBG	_	5	L	5:L	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Queen	Queen	PROPN	NNP	_	16	E	16:E	_
+16	frontman	frontman	PROPN	NNP	_	18	A	18:A	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	death	death	NOUN	NN	_	5	H	5:H	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	previous	previous	ADJ	JJ	_	21	R	21:R	_
+21	year	year	NOUN	NN	_	18	D	18:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25681004
+# text = Wir verhielten uns schweigend .
+1	Wir	wir	PRON	ADJA	_	2	A	2:A|4:A	_
+2	verhielten	verhielten	VERB	ADJA	_	0	H	0:H	_
+3	uns	wir	PRON	NN	_	2	Terminal	2:Terminal	_
+4	schweigend	schweigend	ADJ	ADJD	_	2	H	2:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

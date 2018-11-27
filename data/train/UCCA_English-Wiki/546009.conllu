@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 546009
+# text = " As biographer Bob Thomas wrote , " Jack Warner ... considered cartoons no more than an extraneous service provided to exhibitors who wanted a full program for their customers .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	As	as	SCONJ	IN	_	3	R	3:R	_
+3	biographer	biographer	ADJ	JJR	_	6	A	6:A	_
+4	Bob	Bob	PROPN	NNP	_	3	E	3:E	_
+5	Thomas	Thomas	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	wrote	write	VERB	VBD	_	0	H	0:H	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	"	"	PUNCT	``	_	6	U	6:U	_
+9	Jack	Jack	PROPN	NNP	_	12	A	12:A	_
+10	Warner	Warner	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	...	...	PUNCT	,	_	12	U	12:U	_
+12	considered	consider	VERB	VBD	_	6	A	6:A	_
+13	cartoons	cartoon	NOUN	NNS	_	15	A	15:A	_
+14	no	no	ADV	RB	_	15	E	15:E	_
+15	more	more	ADJ	JJR	_	12	A	12:A	_
+16	than	than	ADP	IN	_	20	R	20:R	_
+17	an	a	DET	DT	_	19	E	19:E	_
+18	extraneous	extraneous	ADJ	JJ	_	19	E	19:E	_
+19	service	service	NOUN	NN	_	20	A	20:A	_
+20	provided	provide	VERB	VBD	_	15	A	15:A	_
+21	to	to	ADP	IN	_	22	R	22:R	_
+22	exhibitors	exhibitor	NOUN	NNS	_	20	A	20:A	_
+23	who	who	PRON	WP	_	24	R	24:R	_
+24	wanted	want	VERB	VBD	_	22	E	22:E	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	full	full	ADJ	JJ	_	27	D	27:D	_
+27	program	program	NOUN	NN	_	24	A	24:A	_
+28	for	for	ADP	IN	_	30	R	30:R	_
+29	their	they	PRON	PRP$	_	30	E	30:E	_
+30	customers	customer	NOUN	NNS	_	27	A	27:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

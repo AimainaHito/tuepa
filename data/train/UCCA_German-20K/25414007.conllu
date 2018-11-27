@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25414007
+# text = Daß etwas daran war , konnte nicht mehr zweifelhaft sein , und die Ungläubigen waren eingeladen , ihren Finger auf die Wunde der ›Scotia‹ zu legen .
+1	Daß	daß	SCONJ	KOUS	_	3	R	3:R	_
+2	etwas	etwas	PRON	PIAT	_	3	A	3:A	_
+3	daran	daran	PRON	PAV	_	9	A	9:A	_
+4	war	sein	VERB	ADV	_	3	F	3:F	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	konnte	können	AUX	VMFIN	_	9	D	9:D	_
+7	nicht	nicht	PART	CARD	_	9	D	9:D	_
+8	mehr	mehr	ADV	ADV	_	7	E	7:E	_
+9	zweifelhaft	zweifelhaft	ADJ	ADJD	_	0	H	0:H	_
+10	sein	sein	AUX	VAINF	_	9	F	9:F	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	und	und	CCONJ	NE	_	9	L	9:L	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	Ungläubigen	ungläubige	NOUN	NN	_	26	A	26:A	_
+15	waren	sein	AUX	VAFIN	_	26	F	26:F	_
+16	eingeladen	einladen	VERB	VVPP	_	26	D	26:D	_
+17	,	,	PUNCT	$,	_	26	U	26:U	_
+18	ihren	ihr	DET	PPOSAT	_	19	E	19:E	_
+19	Finger	Finger	NOUN	NN	_	26	A	26:A	_
+20	auf	auf	ADP	APPR	_	22	R	22:R	_
+21	die	der	DET	ART	_	22	E	22:E	_
+22	Wunde	Wunde	NOUN	NN	_	26	A	26:A	_
+23	der	der	DET	ART	_	24	R	24:R	_
+24	›Scotia‹	›Scotia‹	NOUN	NE	_	22	E	22:E	_
+25	zu	zu	PART	NE	_	26	F	26:F	_
+26	legen	legen	VERB	VVINF	_	9	H	9:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

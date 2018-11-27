@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25807001
+# text = Am 20 . April waren wir wieder zu einer Höhe von durchschnittlich 1.500 Fuß aufgestiegen .
+1	Am	am	PROPN	NN	_	2	E	2:E	_
+2	20	20	NUM	CARD	_	15	D	15:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	April	April	PROPN	NE	_	2	Terminal	2:Terminal	_
+5	waren	sein	AUX	VAFIN	_	15	F	15:F	_
+6	wir	wir	PRON	NE	_	15	A	15:A	_
+7	wieder	wieder	ADV	NE	_	15	D	15:D	_
+8	zu	zu	ADP	NE	_	10	R	10:R	_
+9	einer	ein	DET	ART	_	10	E	10:E	_
+10	Höhe	Höhe	NOUN	NN	_	15	A	15:A	_
+11	von	von	ADP	NE	_	14	R	14:R	_
+12	durchschnittlich	durchschnittlich	ADV	ADJD	_	14	E	14:E	_
+13	1.500	1.5	NUM	CARD	_	14	E	14:E	_
+14	Fuß	Fuß	NOUN	NN	_	10	E	10:E	_
+15	aufgestiegen	aufsteigen	VERB	VVPP	_	0	H	0:H	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

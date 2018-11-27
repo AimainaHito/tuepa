@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25589015
+# text = Einer von der Mannschaft der " Nautilus " reichte mir eine einfache Flinte , deren stählerner Kolben innen hohl und ziemlich groß war .
+1	Einer	ein	PRON	PIS	_	9	A	9:A	_
+2	von	von	ADP	NN	_	4	R	4:R	_
+3	der	der	DET	ART	_	4	E	4:E	_
+4	Mannschaft	Mannschaft	NOUN	NN	_	1	E	1:E	_
+5	der	der	DET	ART	_	7	R	7:R	_
+6	"	"	PUNCT	$(	_	7	U	7:U	_
+7	Nautilus	Nautilus	PROPN	NE	_	4	E	4:E	_
+8	"	"	PUNCT	$(	_	9	U	9:U	_
+9	reichte	reichen	VERB	VVFIN	_	0	H	0:H	_
+10	mir	ich	PRON	PPER	_	9	A	9:A	_
+11	eine	ein	DET	ART	_	13	E	13:E	_
+12	einfache	einfach	ADJ	ADJA	_	13	E	13:E	_
+13	Flinte	Flinte	NOUN	NN	_	9	A	9:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	deren	der	DET	PRELAT	_	18	R	18:R	_
+16	stählerner	stählern	ADJ	ADJA	_	17	E	17:E	_
+17	Kolben	Kolben	NOUN	NE	_	18	A	18:A	_
+18	innen	innen	ADV	ADV	_	13	E	13:E	_
+19	hohl	hohl	ADJ	KOUS	_	18	C	18:C	_
+20	und	und	CCONJ	NE	_	18	N	18:N	_
+21	ziemlich	ziemlich	ADV	ADV	_	22	E	22:E	_
+22	groß	groß	ADJ	ADJD	_	18	C	18:C	_
+23	war	sein	AUX	ADV	_	18	F	18:F	_
+24	.	.	PUNCT	$.	_	18	U	18:U	_
+

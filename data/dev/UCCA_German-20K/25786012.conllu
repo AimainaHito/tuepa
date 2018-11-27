@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25786012
+# text = Endlich ließen wir die Hände wieder herabsinken .
+1	Endlich	endlich	ADJ	ADV	_	7	D	7:D	_
+2	ließen	lassen	VERB	VVFIN	_	7	D	7:D	_
+3	wir	wir	PRON	NE	_	7	A	7:A	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Hände	Hand	NOUN	NN	_	7	A	7:A	_
+6	wieder	wieder	ADV	NE	_	7	D	7:D	_
+7	herabsinken	herabsinken	VERB	VVINF	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

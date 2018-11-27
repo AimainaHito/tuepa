@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 547007
+# text = In 1965 , Warner surprised many industry observers when he purchased the rights to Who 's Afraid of Virginia Woolf ? , Edward Albee 's searing play about a destructive marriage .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1965	1965	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Warner	Warner	PROPN	NNP	_	5	A	5:A	_
+5	surprised	surprise	ADJ	JJ	_	0	H	0:H	_
+6	many	many	ADJ	JJ	_	8	E	8:E	_
+7	industry	industry	NOUN	NN	_	8	E	8:E	_
+8	observers	observer	NOUN	NNS	_	5	A	5:A	_
+9	when	when	ADV	WRB	_	5	L	5:L	_
+10	he	he	PRON	PRP	_	11	A	11:A	_
+11	purchased	purchase	VERB	VBD	_	5	H	5:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	rights	rights	NOUN	NNS	_	11	A	11:A	_
+14	to	to	ADP	IN	_	15	R	15:R	_
+15	Who	Who	PROPN	NNP	_	13	E	13:E	_
+16	's	's	PART	POS	_	15	Terminal	15:Terminal	_
+17	Afraid	afraid	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	of	of	ADP	IN	_	15	Terminal	15:Terminal	_
+19	Virginia	Virginia	PROPN	NNP	_	15	Terminal	15:Terminal	_
+20	Woolf	Woolf	PROPN	NNP	_	15	Terminal	15:Terminal	_
+21	?	?	PUNCT	.	_	15	U	15:U	_
+22	,	,	PUNCT	,	_	15	U	15:U	_
+23	Edward	Edward	PROPN	NNP	_	27	E	27:E	_
+24	Albee	Albee	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	's	's	PART	POS	_	23	R	23:R	_
+26	searing	sear	NOUN	NN	_	27	E	27:E	_
+27	play	play	VERB	VBD	_	15	E	15:E	_
+28	about	about	ADP	IN	_	27	E	27:E	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	destructive	destructive	ADJ	JJ	_	31	E	31:E	_
+31	marriage	marriage	NOUN	NN	_	28	A	28:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

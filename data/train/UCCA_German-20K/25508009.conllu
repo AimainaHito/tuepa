@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 25508009
+# text = » Es gibt ein starkes , folgsames , rasches , williges , zu allem dienliches Agens , das an meinem Bord herrscht . Es leistet mir alles , beleuchtet , erwärmt , ist die Seele meiner mechanischen Werkzeuge . Dieses Agens ist die Elektrizität . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Es	es	PRON	PPER	_	3	F	3:F	_
+3	gibt	geben	VERB	VVFIN	_	0	H	0:H	_
+4	ein	ein	DET	ART	_	16	E	16:E	_
+5	starkes	stark	ADJ	ADJA	_	16	E	16:E	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	folgsames	folgsam	ADJ	ADJA	_	5	C	5:C	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	rasches	rasch	ADJ	ADJA	_	5	C	5:C	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	williges	willig	ADJ	PIS	_	5	C	5:C	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	zu	zu	ADP	VVINF	_	15	R	15:R	_
+14	allem	alle	PRON	PIS	_	15	E	15:E	_
+15	dienliches	dienlich	ADJ	ADJA	_	5	C	5:C	_
+16	Agens	Agens	NOUN	NN	_	3	A	3:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	das	der	PRON	PRELS	_	22	R	22:R	_
+19	an	an	ADP	APPR	_	21	R	21:R	_
+20	meinem	mein	PRON	PPOSAT	_	21	E	21:E	_
+21	Bord	Bord	NOUN	NN	_	22	A	22:A	_
+22	herrscht	herrschen	VERB	VVFIN	_	16	E	16:E	_
+23	.	.	PUNCT	$.	_	3	U	3:U	_
+24	Es	es	PRON	PPER	_	25	A	25:A|31:A|29:A|33:A	_
+25	leistet	leisten	VERB	VVFIN	_	3	H	3:H	_
+26	mir	ich	PRON	PPER	_	25	A	25:A	_
+27	alles	alle	PRON	PIS	_	25	A	25:A	_
+28	,	,	PUNCT	$,	_	3	U	3:U	_
+29	beleuchtet	beleuchten	VERB	VVFIN	_	3	H	3:H	_
+30	,	,	PUNCT	$,	_	3	U	3:U	_
+31	erwärmt	erwärmen	VERB	VVFIN	_	3	H	3:H	_
+32	,	,	PUNCT	$,	_	3	U	3:U	_
+33	ist	sein	AUX	VVFIN	_	3	H	3:H	_
+34	die	der	DET	ART	_	35	E	35:E	_
+35	Seele	Seele	NOUN	NN	_	33	A	33:A	_
+36	meiner	mein	DET	PPOSAT	_	38	R	38:R	_
+37	mechanischen	mechanisch	ADJ	ADJA	_	38	E	38:E	_
+38	Werkzeuge	Werkzeug	NOUN	NN	_	35	E	35:E	_
+39	.	.	PUNCT	$.	_	3	U	3:U	_
+40	Dieses	dies	PRON	PDAT	_	41	E	41:E	_
+41	Agens	Agens	NOUN	NN	_	42	A	42:A	_
+42	ist	sein	AUX	VVFIN	_	3	H	3:H	_
+43	die	der	DET	ART	_	44	E	44:E	_
+44	Elektrizität	Elektrizität	NOUN	NN	_	42	A	42:A	_
+45	.	.	PUNCT	$.	_	44	U	44:U	_
+46	«	«	PUNCT	$(	_	44	U	44:U	_
+

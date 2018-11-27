@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 611007
+# text = Also in 2011 , McCartney married Nancy Shevell .
+1	Also	also	ADV	RB	_	6	L	6:L	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	2011	2011	NUM	CD	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	McCartney	McCartney	PROPN	NNP	_	6	A	6:A	_
+6	married	marry	VERB	VBD	_	0	H	0:H	_
+7	Nancy	Nancy	PROPN	NNP	_	6	A	6:A	_
+8	Shevell	Shevell	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	.	_	6	U	6:U	_
+

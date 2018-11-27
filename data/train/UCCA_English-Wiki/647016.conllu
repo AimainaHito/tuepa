@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 647016
+# text = When Pang telephoned the next day , Ono told her Lennon was unavailable , being exhausted after a hypnotherapy session .
+1	When	when	ADV	WRB	_	3	L	3:L	_
+2	Pang	Pang	PROPN	NNP	_	3	A	3:A	_
+3	telephoned	telephon	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	next	next	ADJ	JJ	_	6	E	6:E	_
+6	day	day	NOUN	NN	_	3	D	3:D	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	Ono	Ono	PROPN	NNP	_	9	A	9:A	_
+9	told	tell	VERB	VBD	_	3	H	3:H	_
+10	her	she	PRON	PRP	_	9	A	9:A	_
+11	Lennon	Lennon	PROPN	NNP	_	12	A	12:A|20:A|16:A	_
+12	was	be	AUX	VBD	_	9	A	9:A	_
+13	unavailable	unavailable	ADJ	JJ	_	12	A	12:A	_
+14	,	,	PUNCT	,	_	12	U	12:U	_
+15	being	be	AUX	VBG	_	16	F	16:F	_
+16	exhausted	exhaust	VERB	VBN	_	12	H	12:H	_
+17	after	after	ADP	IN	_	12	L	12:L	_
+18	a	a	DET	DT	_	20	E	20:E	_
+19	hypnotherapy	hypnotherapy	NOUN	NN	_	20	E	20:E	_
+20	session	session	NOUN	NN	_	12	H	12:H	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

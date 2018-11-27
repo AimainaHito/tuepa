@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 531007
+# text = The Judy Garland Show was critically praised , but for a variety of reasons ( including being placed in the time slot opposite Bonanza on NBC ) the show lasted only one season and was canceled in 1964 after 26 episodes .
+1	The	the	DET	DT	_	7	A	7:A	_
+2	Judy	Judy	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Garland	Garland	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Show	show	ADV	WRB	_	1	Terminal	1:Terminal	_
+5	was	be	AUX	VBD	_	7	F	7:F	_
+6	critically	critically	ADV	RB	_	7	A	7:A	_
+7	praised	praise	VERB	VBN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	but	but	CCONJ	CC	_	7	L	7:L	_
+10	for	for	ADP	IN	_	14	R	14:R	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	variety	variety	NOUN	NN	_	14	E	14:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	reasons	reason	NOUN	NNS	_	7	H	7:H	_
+15	(	(	PUNCT	-LRB-	_	14	U	14:U	_
+16	including	include	VERB	VBG	_	18	R	18:R	_
+17	being	be	AUX	VBG	_	18	F	18:F	_
+18	placed	place	VERB	VBN	_	14	E	14:E	_
+19	in	in	ADP	IN	_	22	R	22:R	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	time	time	NOUN	NN	_	22	E	22:E	_
+22	slot	slot	NOUN	NN	_	18	A	18:A	_
+23	opposite	opposite	ADP	IN	_	24	R	24:R	_
+24	Bonanza	Bonanza	PROPN	NNP	_	22	E	22:E	_
+25	on	on	ADP	IN	_	26	R	26:R	_
+26	NBC	NBC	PROPN	NNP	_	24	E	24:E	_
+27	)	)	PUNCT	-RRB-	_	7	U	7:U	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	show	show	NOUN	NN	_	0	C	0:C|36:A|18:A	_
+30	lasted	last	VERB	VBD	_	7	H	7:H	_
+31	only	only	ADV	RB	_	30	D	30:D	_
+32	one	one	NUM	CD	_	33	E	33:E	_
+33	season	season	NOUN	NN	_	30	A	30:A	_
+34	and	and	CCONJ	CC	_	7	L	7:L	_
+35	was	be	AUX	VBD	_	36	F	36:F	_
+36	canceled	cancel	VERB	VBN	_	7	H	7:H	_
+37	in	in	ADP	IN	_	38	R	38:R	_
+38	1964	1964	NUM	CD	_	36	D	36:D	_
+39	after	after	ADP	IN	_	41	R	41:R	_
+40	26	26	NUM	CD	_	41	E	41:E	_
+41	episodes	episode	NOUN	NNS	_	36	A	36:A	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

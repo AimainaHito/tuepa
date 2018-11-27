@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25699016
+# text = » Bis zu einer gewissen Tiefe . Nur 50 Meter tief findet sich eine unerschütterlich feste Lage Felsen . «
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Bis	bis	ADP	KOUS	_	6	R	6:R	_
+3	zu	zu	ADP	VVINF	_	2	Terminal	2:Terminal	_
+4	einer	ein	DET	ART	_	6	E	6:E	_
+5	gewissen	gewiß	ADJ	ADJA	_	6	E	6:E	_
+6	Tiefe	Tiefe	NOUN	NN	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+8	Nur	nur	ADV	ADV	_	11	D	11:D	_
+9	50	50	NUM	CARD	_	10	E	10:E	_
+10	Meter	Meter	NOUN	NN	_	11	A	11:A	_
+11	tief	tief	ADJ	VVFIN	_	6	H	6:H	_
+12	findet	finden	VERB	VVFIN	_	11	D	11:D	_
+13	sich	er|es|sie	PRON	PRF	_	12	Terminal	12:Terminal	_
+14	eine	ein	DET	ART	_	17	E	17:E	_
+15	unerschütterlich	unerschütterlich	ADJ	ADJD	_	16	E	16:E	_
+16	feste	fest	ADJ	ADJA	_	17	E	17:E	_
+17	Lage	Lage	NOUN	NN	_	11	A	11:A	_
+18	Felsen	Felsen	PROPN	NN	_	17	E	17:E	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+20	«	«	PUNCT	$(	_	17	U	17:U	_
+

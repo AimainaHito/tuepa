@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 470012
+# text = However , Abdul - Jabbar , who was now 38 years old , scored 30 points and grabbed 17 rebounds in Game 2 , and his 36 points in a Game 5 win were instrumental in establishing a 3 - 2 lead for Los Angeles .
+1	However	however	ADV	RB	_	14	L	14:L	_
+2	,	,	PUNCT	,	_	14	U	14:U	_
+3	Abdul	Abdul	PROPN	NNP	_	0	C	0:C|12:A|18:A|33:A	_
+4	-	-	PUNCT	HYPH	_	3	U	3:U	_
+5	Jabbar	Jabbar	PROPN	NNP	_	3	Terminal	3:Terminal	_
+6	,	,	PUNCT	,	_	3	U	3:U	_
+7	who	who	PRON	WP	_	12	F	12:F	_
+8	was	be	AUX	VBD	_	12	F	12:F	_
+9	now	now	ADV	RB	_	12	D	12:D	_
+10	38	38	NUM	CD	_	11	E	11:E	_
+11	years	year	NOUN	NNS	_	12	E	12:E	_
+12	old	old	ADJ	JJ	_	3	E	3:E	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	scored	score	VERB	VBD	_	0	H	0:H	_
+15	30	30	NUM	CD	_	16	E	16:E	_
+16	points	point	NOUN	NNS	_	14	A	14:A	_
+17	and	and	CCONJ	CC	_	14	L	14:L	_
+18	grabbed	grab	VERB	VBD	_	14	H	14:H	_
+19	17	17	NUM	CD	_	20	E	20:E	_
+20	rebounds	rebound	NOUN	NNS	_	18	A	18:A	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	Game	game	NOUN	NN	_	18	D	18:D	_
+23	2	2	NUM	CD	_	22	E	22:E	_
+24	,	,	PUNCT	,	_	14	U	14:U	_
+25	and	and	CCONJ	CC	_	14	L	14:L	_
+26	his	he	PRON	PRP$	_	28	A	28:A	_
+27	36	36	NUM	CD	_	28	E	28:E	_
+28	points	point	NOUN	NNS	_	37	A	37:A	_
+29	in	in	ADP	IN	_	31	R	31:R	_
+30	a	a	DET	DT	_	31	E	31:E	_
+31	Game	game	NOUN	NN	_	33	A	33:A	_
+32	5	5	NUM	CD	_	31	E	31:E	_
+33	win	win	X	GW	_	28	E	28:E	_
+34	were	be	AUX	VBD	_	35	E	35:E	_
+35	instrumental	instrumental	ADJ	JJ	_	37	E	37:E	_
+36	in	in	SCONJ	IN	_	35	R	35:R	_
+37	establishing	establish	VERB	VBG	_	14	H	14:H	_
+38	a	a	DET	DT	_	42	E	42:E	_
+39	3	3	NUM	CD	_	42	E	42:E	_
+40	-	-	SYM	SYM	_	39	U	39:U	_
+41	2	2	NUM	CD	_	39	Terminal	39:Terminal	_
+42	lead	lead	NOUN	NN	_	37	A	37:A	_
+43	for	for	ADP	IN	_	44	R	44:R	_
+44	Los	Los	PROPN	NNP	_	42	E	42:E	_
+45	Angeles	angeles	PROPN	NNP	_	44	Terminal	44:Terminal	_
+46	.	.	PUNCT	.	_	44	U	44:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25654002
+# text = Als ich sie genauer betrachtete , nahm ich wahr , dass vier von ihnen einen läng-lichen Gegenstand auf den Schultern trugen .
+1	Als	als	SCONJ	KOUS	_	5	L	5:L	_
+2	ich	ich	PRON	PPER	_	5	A	5:A	_
+3	sie	sie	PRON	ADV	_	5	A	5:A	_
+4	genauer	genau	ADJ	ADJD	_	5	D	5:D	_
+5	betrachtete	betrachten	VERB	VVFIN	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	nahm	nehmen	VERB	VVFIN	_	5	H	5:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	wahr	wahr	ADV	FM	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	dass	dass	SCONJ	KOUS	_	21	R	21:R	_
+12	vier	vier	NUM	NN	_	21	A	21:A	_
+13	von	von	ADP	NE	_	14	R	14:R	_
+14	ihnen	sie	PRON	PPER	_	12	E	12:E	_
+15	einen	ein	DET	ART	_	17	E	17:E	_
+16	läng-lichen	läng-lich	ADJ	ADJA	_	17	E	17:E	_
+17	Gegenstand	Gegenstand	NOUN	NN	_	21	A	21:A	_
+18	auf	auf	ADP	APPR	_	20	R	20:R	_
+19	den	der	DET	ART	_	20	E	20:E	_
+20	Schultern	Schulter	NOUN	NN	_	21	A	21:A	_
+21	trugen	tragen	VERB	VVFIN	_	7	A	7:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

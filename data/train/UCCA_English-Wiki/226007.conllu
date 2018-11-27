@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 226007
+# text = For example , Sylvester Stallone offered him the role of Simon Phoenix , a criminal in the futuristic film Demolition Man .
+1	For	for	ADP	IN	_	2	F	2:F	_
+2	example	example	NOUN	NN	_	6	G	6:G	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Sylvester	Sylvester	PROPN	NNP	_	6	A	6:A	_
+5	Stallone	Stallone	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	offered	offer	VERB	VBD	_	0	H	0:H	_
+7	him	he	PRON	PRP	_	6	A	6:A	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	role	role	NOUN	NN	_	6	A	6:A	_
+10	of	of	ADP	IN	_	11	R	11:R	_
+11	Simon	Simon	PROPN	NNP	_	9	E	9:E	_
+12	Phoenix	Phoenix	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	criminal	criminal	NOUN	NN	_	11	E	11:E	_
+16	in	in	ADP	IN	_	20	R	20:R	_
+17	the	the	DET	DT	_	20	E	20:E	_
+18	futuristic	futuristic	ADJ	JJ	_	20	E	20:E	_
+19	film	film	NOUN	NN	_	20	E	20:E	_
+20	Demolition	Demolition	NOUN	NN	_	6	A	6:A	_
+21	Man	man	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

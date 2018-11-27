@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25754007
+# text = In 4 Minuten legte sie die 4 Lieue zurück , die sie von der Oberfläche des Ozeans entfernt war , fuhr wie ein fliegender Fisch darüber empor und fiel wieder herab , dass die Wogen zum Erstaunen hoch aufspritzten .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	4	4	NUM	CARD	_	3	E	3:E	_
+3	Minuten	Minute	NOUN	NN	_	4	D	4:D	_
+4	legte	legen	VERB	VVFIN	_	0	H	0:H	_
+5	sie	sie	PRON	ADV	_	4	A	4:A|29:A|25:A	_
+6	die	der	DET	ART	_	8	E	8:E	_
+7	4	4	NUM	CARD	_	8	E	8:E	_
+8	Lieue	Lieue	NOUN	ADJA	_	4	A	4:A	_
+9	zurück	zurück	ADV	ADJA	_	4	Terminal	4:Terminal	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	die	der	PRON	PRELS	_	18	R	18:R	_
+12	sie	sie	PRON	TRUNC	_	18	A	18:A|21:A	_
+13	von	von	ADP	NN	_	15	R	15:R	_
+14	der	der	DET	ART	_	15	E	15:E	_
+15	Oberfläche	Oberfläche	NOUN	NN	_	18	A	18:A	_
+16	des	der	DET	ART	_	17	R	17:R	_
+17	Ozeans	Ozeans	NOUN	NN	_	15	E	15:E	_
+18	entfernt	entfernen	ADJ	ADJD	_	8	E	8:E	_
+19	war	sein	AUX	ADV	_	18	F	18:F	_
+20	,	,	PUNCT	$,	_	4	U	4:U	_
+21	fuhr	fahren	VERB	VVFIN	_	4	H	4:H	_
+22	wie	wie	ADP	ADV	_	25	R	25:R	_
+23	ein	ein	DET	ART	_	25	E	25:E	_
+24	fliegender	fliegend	ADJ	ADJA	_	25	E	25:E	_
+25	Fisch	Fischen	NOUN	NN	_	4	H	4:H	_
+26	darüber	darüber	ADV	PAV	_	21	A	21:A	_
+27	empor	empören	VERB	NN	_	21	Terminal	21:Terminal	_
+28	und	und	CCONJ	NE	_	4	L	4:L	_
+29	fiel	fallen	VERB	VVFIN	_	4	H	4:H	_
+30	wieder	wieder	ADV	NE	_	29	D	29:D	_
+31	herab	herab	ADV	PTKVZ	_	29	Terminal	29:Terminal	_
+32	,	,	PUNCT	$,	_	4	U	4:U	_
+33	dass	dass	SCONJ	KOUS	_	4	L	4:L	_
+34	die	der	DET	ART	_	35	E	35:E	_
+35	Wogen	Woge	NOUN	NN	_	39	A	39:A	_
+36	zum	zum	ADP	NN	_	37	R	37:R	_
+37	Erstaunen	Erstaunen	NOUN	NN	_	39	G	39:G	_
+38	hoch	hoch	ADJ	ADJD	_	39	D	39:D	_
+39	aufspritzten	aufspritzen	VERB	ADJA	_	4	H	4:H	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

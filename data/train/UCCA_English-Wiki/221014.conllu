@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 221014
+# text = On December 5 , 2009 , she participated in the Teletón in Mexico , to help raise funds to treat cancer and children rehabilitation .
+1	On	on	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	8	D	8:D	_
+3	5	5	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	2009	2009	NUM	CD	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	she	she	PRON	PRP	_	8	A	8:A|16:A	_
+8	participated	participate	VERB	VBD	_	0	H	0:H	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Teletón	Teletón	PROPN	NNP	_	8	A	8:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Mexico	Mexico	PROPN	NNP	_	11	E	11:E	_
+14	,	,	PUNCT	,	_	8	U	8:U	_
+15	to	to	PART	TO	_	8	L	8:L	_
+16	help	help	VERB	VB	_	8	H	8:H	_
+17	raise	raise	VERB	VB	_	16	A	16:A	_
+18	funds	fund	NOUN	NNS	_	17	A	17:A	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	treat	treat	VERB	VB	_	18	E	18:E	_
+21	cancer	cancer	NOUN	NN	_	20	A	20:A	_
+22	and	and	CCONJ	CC	_	20	N	20:N	_
+23	children	child	NOUN	NNS	_	24	A	24:A	_
+24	rehabilitation	rehabilitation	NOUN	NN	_	20	C	20:C	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25437011
+# text = « » Man wird ihn in meiner Abwesenheit füttern . Übrigens werde ich Auftrag geben , unsere Menagerie nach Frankreich zu befördern .
+1	«	«	PUNCT	$(	_	9	U	9:U	_
+2	»	»	PUNCT	$(	_	9	U	9:U	_
+3	Man	man	PRON	PIS	_	9	A	9:A	_
+4	wird	werden	AUX	VAFIN	_	9	F	9:F	_
+5	ihn	er	PRON	PPER	_	9	A	9:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	meiner	mein	DET	PPOSAT	_	8	E	8:E	_
+8	Abwesenheit	Abwesenheit	NOUN	NN	_	9	A	9:A	_
+9	füttern	füttern	VERB	VVINF	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	Übrigens	übrigens	NOUN	NN	_	14	G	14:G	_
+12	werde	werden	AUX	NE	_	14	D	14:D	_
+13	ich	ich	PRON	PPER	_	14	A	14:A	_
+14	Auftrag	Auftrag	NOUN	NN	_	9	H	9:H	_
+15	geben	geben	VERB	VVINF	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	$,	_	14	U	14:U	_
+17	unsere	unser	PRON	PPOSAT	_	18	E	18:E	_
+18	Menagerie	Menagerie	NOUN	NN	_	22	A	22:A	_
+19	nach	nach	ADP	CARD	_	20	R	20:R	_
+20	Frankreich	Frankreich	PROPN	NE	_	22	A	22:A	_
+21	zu	zu	PART	NE	_	22	F	22:F	_
+22	befördern	befördern	VERB	VVINF	_	14	A	14:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

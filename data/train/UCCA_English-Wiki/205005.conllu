@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 205005
+# text = His most notable films include Midnight Cowboy , Little Big Man , Straw Dogs , Papillon , Lenny , Marathon Man , All the President 's Men , Kramer vs . Kramer , Tootsie , Rain Man , Hook and Wag the Dog .
+1	His	he	PRON	PRP$	_	4	A	4:A	_
+2	most	most	ADJ	JJS	_	3	E	3:E	_
+3	notable	notable	ADJ	JJ	_	4	E	4:E	_
+4	films	film	NOUN	NNS	_	5	A	5:A	_
+5	include	include	VERB	VBP	_	0	H	0:H	_
+6	Midnight	Midnight	PROPN	NNP	_	5	A	5:A	_
+7	Cowboy	cowboy	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	Little	Little	PROPN	NNP	_	6	C	6:C	_
+10	Big	Big	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Man	Man	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	6	U	6:U	_
+13	Straw	Straw	PROPN	NNP	_	6	C	6:C	_
+14	Dogs	dog	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	6	U	6:U	_
+16	Papillon	Papillon	PROPN	NNP	_	6	C	6:C	_
+17	,	,	PUNCT	,	_	6	U	6:U	_
+18	Lenny	Lenny	PROPN	NNP	_	6	C	6:C	_
+19	,	,	PUNCT	,	_	6	U	6:U	_
+20	Marathon	Marathon	PROPN	NNP	_	6	C	6:C	_
+21	Man	Man	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	6	U	6:U	_
+23	All	all	DET	PDT	_	6	C	6:C	_
+24	the	the	DET	DT	_	23	Terminal	23:Terminal	_
+25	President	President	PROPN	NNP	_	23	Terminal	23:Terminal	_
+26	's	's	PART	POS	_	23	Terminal	23:Terminal	_
+27	Men	men	PROPN	NNP	_	23	Terminal	23:Terminal	_
+28	,	,	PUNCT	,	_	6	U	6:U	_
+29	Kramer	Kramer	PROPN	NNP	_	6	C	6:C	_
+30	vs	v	NOUN	NNS	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+32	Kramer	Kramer	PROPN	NNP	_	29	Terminal	29:Terminal	_
+33	,	,	PUNCT	,	_	6	U	6:U	_
+34	Tootsie	Tootsie	PROPN	NNP	_	6	C	6:C	_
+35	,	,	PUNCT	,	_	6	U	6:U	_
+36	Rain	rain	PROPN	NNP	_	6	C	6:C	_
+37	Man	man	PROPN	NNP	_	36	Terminal	36:Terminal	_
+38	,	,	PUNCT	,	_	6	U	6:U	_
+39	Hook	hook	PROPN	NNP	_	6	C	6:C	_
+40	and	and	CCONJ	CC	_	6	N	6:N	_
+41	Wag	Wag	PROPN	NNP	_	6	C	6:C	_
+42	the	the	DET	DT	_	41	Terminal	41:Terminal	_
+43	Dog	dog	NOUN	NN	_	41	Terminal	41:Terminal	_
+44	.	.	PUNCT	.	_	6	U	6:U	_
+

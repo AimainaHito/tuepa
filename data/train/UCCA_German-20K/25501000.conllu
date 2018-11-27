@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25501000
+# text = Mitten in diesem Schwung des Enthusiasmus verstummte der Kapitän plötzlich .
+1	Mitten	mitten	ADV	ADV	_	7	A	7:A	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	diesem	dies	PRON	PDAT	_	4	E	4:E	_
+4	Schwung	Schwung	NOUN	NN	_	1	E	1:E	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Enthusiasmus	Enthusiasmus	NOUN	NN	_	4	E	4:E	_
+7	verstummte	verstummen	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kapitän	Kapitän	NOUN	NN	_	7	A	7:A	_
+10	plötzlich	plötzlich	ADJ	ADJD	_	7	D	7:D	_
+11	.	.	PUNCT	$.	_	7	U	7:U	_
+

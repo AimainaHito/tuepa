@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25628000
+# text = Doch ein diesen Ländern eigentümlicher Vogel mangelte dieser Sammlung .
+1	Doch	doch	ADV	KON	_	7	L	7:L	_
+2	ein	ein	DET	ART	_	6	E	6:E	_
+3	diesen	dies	PRON	PDAT	_	4	E	4:E	_
+4	Ländern	Land	NOUN	NN	_	5	A	5:A	_
+5	eigentümlicher	eigentümlich	ADJ	ADJA	_	6	E	6:E	_
+6	Vogel	Vogel	NOUN	NN	_	7	A	7:A	_
+7	mangelte	mangeln	VERB	VVFIN	_	0	H	0:H	_
+8	dieser	dies	PRON	PDAT	_	9	E	9:E	_
+9	Sammlung	Sammlung	NOUN	NN	_	7	A	7:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

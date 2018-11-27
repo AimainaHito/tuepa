@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25654008
+# text = Der Boden hatte an verschiedenen Stellen leichte mit einer Kalk kruste überzogene Erhöhungen in regelmäßiger Ordnung , als wie von Menschen hand gefertigt .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Boden	Boden	NOUN	NN	_	3	A	3:A	_
+3	hatte	haben	AUX	VAFIN	_	0	H	0:H	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	verschiedenen	verschieden	ADJ	ADJA	_	6	E	6:E	_
+6	Stellen	Stelle|Stellen	NOUN	NN	_	3	A	3:A	_
+7	leichte	leichen	VERB	VVFIN	_	13	E	13:E	_
+8	mit	mit	ADP	APPR	_	12	R	12:R	_
+9	einer	ein	DET	ART	_	11	E	11:E	_
+10	Kalk	Kalk	NOUN	NN	_	11	E	11:E	_
+11	kruste	krusen	VERB	VVFIN	_	12	A	12:A	_
+12	überzogene	überzogen	ADJ	ADJA	_	13	E	13:E	_
+13	Erhöhungen	Erhöhung	NOUN	NN	_	3	A	3:A	_
+14	in	in	ADP	APPR	_	16	R	16:R	_
+15	regelmäßiger	regelmäßig	ADJ	ADJA	_	16	E	16:E	_
+16	Ordnung	Ordnung	NOUN	NN	_	13	E	13:E	_
+17	,	,	PUNCT	$,	_	13	U	13:U	_
+18	als	als	ADP	KOUS	_	23	R	23:R	_
+19	wie	wie	ADP	ADJA	_	23	R	23:R	_
+20	von	von	ADP	NN	_	22	R	22:R	_
+21	Menschen	Mensch	NOUN	NN	_	22	E	22:E	_
+22	hand	hand	ADJ	APPR	_	23	A	23:A	_
+23	gefertigt	fertigen	VERB	VVPP	_	13	E	13:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

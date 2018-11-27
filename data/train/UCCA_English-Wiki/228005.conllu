@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 228005
+# text = Because the Screen Actors Guild did not go on strike , Chan started shooting his next Hollywood movie The Spy Next Door at the end of October in New Mexico .
+1	Because	because	SCONJ	IN	_	10	L	10:L	_
+2	the	the	DET	DT	_	5	E	5:E	_
+3	Screen	screen	PROPN	NNP	_	4	E	4:E	_
+4	Actors	Actors	PROPN	NNPS	_	5	E	5:E	_
+5	Guild	Guild	PROPN	NNP	_	10	A	10:A	_
+6	did	do	AUX	VBD	_	10	F	10:F	_
+7	not	not	PART	RB	_	10	D	10:D	_
+8	go	go	VERB	VB	_	10	F	10:F	_
+9	on	on	ADP	IN	_	10	E	10:E	_
+10	strike	strike	NOUN	NN	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	Chan	Chan	PROPN	NNP	_	14	A	14:A	_
+13	started	start	VERB	VBD	_	14	D	14:D	_
+14	shooting	shoot	VERB	VBG	_	10	H	10:H	_
+15	his	he	PRON	PRP$	_	19	E	19:E	_
+16	next	next	ADJ	JJ	_	19	E	19:E	_
+17	Hollywood	Hollywood	NOUN	NN	_	18	E	18:E	_
+18	movie	movie	NOUN	NN	_	19	E	19:E	_
+19	The	the	DET	DT	_	14	A	14:A	_
+20	Spy	spy	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	Next	Next	ADJ	JJ	_	19	Terminal	19:Terminal	_
+22	Door	door	NOUN	NN	_	19	Terminal	19:Terminal	_
+23	at	at	ADP	IN	_	27	R	27:R	_
+24	the	the	DET	DT	_	27	E	27:E	_
+25	end	end	NOUN	NN	_	27	E	27:E	_
+26	of	of	ADP	IN	_	25	R	25:R	_
+27	October	October	PROPN	NNP	_	14	D	14:D	_
+28	in	in	ADP	IN	_	29	R	29:R	_
+29	New	New	PROPN	NNP	_	14	A	14:A	_
+30	Mexico	Mexico	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

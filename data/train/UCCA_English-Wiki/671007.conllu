@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 671007
+# text = Midway through the tour , Carey booked a two - night concert engagement in Hong Kong , which was scheduled to take place following her Japanese shows .
+1	Midway	Midway	PROPN	NNP	_	4	R	4:R	_
+2	through	through	ADP	IN	_	1	R	1:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	tour	tour	NOUN	NN	_	7	D	7:D	_
+5	,	,	PUNCT	,	_	7	U	7:U	_
+6	Carey	Carey	PROPN	NNP	_	7	A	7:A	_
+7	booked	book	VERB	VBD	_	0	H	0:H	_
+8	a	a	DET	DT	_	13	E	13:E	_
+9	two	two	NUM	CD	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	night	night	NOUN	NN	_	13	E	13:E	_
+12	concert	concert	NOUN	NN	_	13	E	13:E	_
+13	engagement	engagement	NOUN	NN	_	0	C	0:C|23:A	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Hong	Hong	PROPN	NNP	_	13	E	13:E	_
+16	Kong	Kong	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	7	U	7:U	_
+18	which	which	PRON	WDT	_	7	L	7:L	_
+19	was	be	AUX	VBD	_	23	F	23:F	_
+20	scheduled	schedule	VERB	VBN	_	23	D	23:D	_
+21	to	to	PART	TO	_	23	F	23:F	_
+22	take	take	VERB	VB	_	23	F	23:F	_
+23	place	place	NOUN	NN	_	7	H	7:H	_
+24	following	follow	VERB	VBG	_	7	L	7:L	_
+25	her	she	PRON	PRP$	_	27	E	27:E	_
+26	Japanese	japanese	ADJ	JJ	_	27	E	27:E	_
+27	shows	show	NOUN	NNS	_	7	H	7:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

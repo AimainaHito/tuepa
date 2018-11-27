@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 589000
+# text = Depp and Gore Verbinski were executive producers of the album Rogues Gallery , Pirate Ballads , Sea Songs and Chanteys .
+1	Depp	Depp	PROPN	NNP	_	5	A	5:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Gore	Gore	PROPN	NNP	_	1	C	1:C	_
+4	Verbinski	Verbinski	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	were	be	AUX	VBD	_	0	H	0:H	_
+6	executive	executive	ADJ	JJ	_	7	E	7:E	_
+7	producers	producer	NOUN	NNS	_	5	A	5:A	_
+8	of	of	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	11	E	11:E	_
+10	album	album	NOUN	NN	_	11	E	11:E	_
+11	Rogues	Rogues	PROPN	NNP	_	7	E	7:E	_
+12	Gallery	gallery	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	Pirate	Pirate	PROPN	NNP	_	11	Terminal	11:Terminal	_
+15	Ballads	Ballads	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+16	,	,	PUNCT	,	_	11	U	11:U	_
+17	Sea	Sea	PROPN	NNP	_	11	Terminal	11:Terminal	_
+18	Songs	songs	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+19	and	and	CCONJ	CC	_	11	Terminal	11:Terminal	_
+20	Chanteys	Chanteys	PROPN	NNPS	_	11	Terminal	11:Terminal	_
+21	.	.	PUNCT	.	_	11	U	11:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 565005
+# text = Elvis , Presley 's second album , was released in October and quickly rose to number one .
+1	Elvis	Elvis	PROPN	NNP	_	0	C	0:C|14:A	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	Presley	Presley	PROPN	NNP	_	6	E	6:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	second	second	ADJ	JJ	_	6	E	6:E	_
+6	album	album	NOUN	NN	_	1	E	1:E	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	released	release	VERB	VBN	_	0	H	0:H	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	October	October	PROPN	NNP	_	9	D	9:D	_
+12	and	and	CCONJ	CC	_	9	L	9:L	_
+13	quickly	quickly	ADV	RB	_	14	D	14:D	_
+14	rose	rise	VERB	VBD	_	9	H	9:H	_
+15	to	to	PART	TO	_	16	R	16:R	_
+16	number	number	VERB	VB	_	14	A	14:A	_
+17	one	one	NUM	CD	_	16	E	16:E	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+

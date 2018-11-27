@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25719010
+# text = Hier boten , in Ermangelung von Naturmerkwürdigkeiten , die Gewässer den Anblick rührender und furchtbarer Szenen ; denn auf diesem Teil des Mittelmeers sind am häufigsten Unglücksfälle eingetreten , durch Schiff bruch oder Versinken von Schiffen .
+1	Hier	hier	ADV	ADV	_	12	D	12:D	_
+2	boten	bieten	VERB	VVFIN	_	12	D	12:D	_
+3	,	,	PUNCT	$,	_	12	U	12:U	_
+4	in	in	ADP	APPR	_	5	E	5:E	_
+5	Ermangelung	Ermangelung	NOUN	NN	_	12	H	12:H	_
+6	von	von	ADP	NE	_	7	R	7:R	_
+7	Naturmerkwürdigkeiten	Naturmerkwürdigkeiten	PROPN	NE	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	12	U	12:U	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Gewässer	Gewässer	NOUN	NN	_	12	A	12:A	_
+11	den	der	DET	ART	_	12	E	12:E	_
+12	Anblick	Anblick	NOUN	NN	_	0	H	0:H	_
+13	rührender	rührend	ADJ	NN	_	12	A	12:A	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	furchtbarer	furchtbarer	ADJ	ADJA	_	13	C	13:C	_
+16	Szenen	Szene	NOUN	NN	_	13	A	13:A	_
+17	;	;	PUNCT	$.	_	12	U	12:U	_
+18	denn	denn	CCONJ	KOKOM	_	12	L	12:L	_
+19	auf	auf	ADP	APPR	_	21	R	21:R	_
+20	diesem	dies	PRON	PDAT	_	21	E	21:E	_
+21	Teil	Teil	NOUN	NN	_	28	A	28:A	_
+22	des	der	DET	ART	_	23	R	23:R	_
+23	Mittelmeers	Mittelmeers	NOUN	NN	_	21	E	21:E	_
+24	sind	sein	AUX	NN	_	28	F	28:F	_
+25	am	am	ADJ	ADJD	_	26	F	26:F	_
+26	häufigsten	häufig	ADJ	ADJA	_	28	D	28:D	_
+27	Unglücksfälle	Unglücksfall	NOUN	NN	_	28	A	28:A	_
+28	eingetreten	eingetren	VERB	VVFIN	_	12	H	12:H	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	durch	durch	ADP	APPR	_	32	R	32:R	_
+31	Schiff	Schiff	NOUN	NN	_	32	A	32:A	_
+32	bruch	bruch	ADV	NN	_	27	A	27:A	_
+33	oder	oder	CCONJ	CARD	_	32	L	32:L	_
+34	Versinken	versinken	NOUN	NN	_	32	H	32:H	_
+35	von	von	ADP	NN	_	36	R	36:R	_
+36	Schiffen	Schiff	NOUN	NN	_	34	A	34:A	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

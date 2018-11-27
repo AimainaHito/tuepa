@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 378008
+# text = Following Bubble Boy , Gyllenhaal starred opposite Dustin Hoffman , Susan Sarandon and Ellen Pompeo in Moonlight Mile , as a young man coping with the death of his fiancée and the grief of her parents .
+1	Following	follow	VERB	VBG	_	2	L	2:L	_
+2	Bubble	bubble	PROPN	NNP	_	0	H	0:H	_
+3	Boy	Boy	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	2	U	2:U	_
+5	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	6	A	6:A|2:A	_
+6	starred	star	VERB	VBD	_	0	P	0:P|2:P	_
+7	opposite	opposite	ADP	IN	_	8	R	8:R	_
+8	Dustin	Dustin	PROPN	NNP	_	6	A	6:A	_
+9	Hoffman	Hoffman	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	Susan	Susan	PROPN	NNP	_	8	C	8:C	_
+12	Sarandon	Sarandon	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	and	and	CCONJ	CC	_	8	N	8:N	_
+14	Ellen	Ellen	PROPN	NNP	_	8	C	8:C	_
+15	Pompeo	Pompeo	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	in	in	ADP	IN	_	17	R	17:R	_
+17	Moonlight	Moonlight	PROPN	NNP	_	6	A	6:A	_
+18	Mile	mile	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	6	U	6:U	_
+20	as	as	ADP	IN	_	24	R	24:R	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	young	young	ADJ	JJ	_	23	E	23:E	_
+23	man	man	NOUN	NN	_	24	A	24:A	_
+24	coping	cop	VERB	VBG	_	6	A	6:A	_
+25	with	with	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	death	death	NOUN	NN	_	24	A	24:A	_
+28	of	of	ADP	IN	_	30	R	30:R	_
+29	his	he	PRON	PRP$	_	30	E	30:E	_
+30	fiancée	fiancée	NOUN	NN	_	27	A	27:A	_
+31	and	and	CCONJ	CC	_	27	N	27:N	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	grief	grief	NOUN	NN	_	27	C	27:C	_
+34	of	of	ADP	IN	_	36	R	36:R	_
+35	her	she	PRON	PRP$	_	36	E	36:E	_
+36	parents	parent	NOUN	NNS	_	33	A	33:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

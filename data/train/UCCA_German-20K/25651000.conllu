@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25651000
+# text = Der Puls des Kranken war unterbrochen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Puls	Pul	NOUN	NN	_	6	A	6:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Kranken	krank	NOUN	NN	_	2	E	2:E	_
+5	war	sein	AUX	ADV	_	6	F	6:F	_
+6	unterbrochen	unterbroch	ADJ	VVPP	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

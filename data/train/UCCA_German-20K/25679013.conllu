@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25679013
+# text = » Was hat man bei dieser Arbeit zu riskieren ? « sagte Ned Land , » höchstens , dass man einige Schluck See wasser zu verschlingen hat ! «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Was	was	PRON	NE	_	9	A	9:A	_
+3	hat	haben	VERB	VAFIN	_	9	F	9:F	_
+4	man	man	PRON	PIS	_	9	A	9:A|26:A	_
+5	bei	bei	ADP	APPR	_	7	R	7:R	_
+6	dieser	dies	PRON	PDAT	_	7	E	7:E	_
+7	Arbeit	Arbeit	NOUN	NN	_	9	A	9:A	_
+8	zu	zu	ADP	VVINF	_	9	F	9:F	_
+9	riskieren	riskieren	PROPN	VVINF	_	12	A	12:A	_
+10	?	?	PUNCT	$.	_	12	U	12:U	_
+11	«	«	PUNCT	$(	_	12	U	12:U	_
+12	sagte	sagen	ADJ	VVFIN	_	0	H	0:H	_
+13	Ned	Ned	NOUN	NE	_	12	A	12:A	_
+14	Land	Land	NOUN	NN	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	»	»	PUNCT	$(	_	12	U	12:U	_
+17	höchstens	höchstens	ADV	ADV	_	26	D	26:D	_
+18	,	,	PUNCT	$,	_	26	U	26:U	_
+19	dass	dass	SCONJ	KOUS	_	26	R	26:R	_
+20	man	man	PRON	PIS	_	26	A	26:A	_
+21	einige	einige	PRON	PIS	_	22	E	22:E	_
+22	Schluck	Schluck	NOUN	NE	_	26	A	26:A	_
+23	See	See	NOUN	NN	_	24	E	24:E	_
+24	wasser	wass	ADJ	NE	_	22	E	22:E	_
+25	zu	zu	PART	NE	_	26	F	26:F	_
+26	verschlingen	verschlingen	VERB	NE	_	9	H	9:H	_
+27	hat	haben	VERB	VAFIN	_	26	F	26:F	_
+28	!	!	PUNCT	$.	_	26	U	26:U	_
+29	«	«	PUNCT	$.	_	26	U	26:U	_
+

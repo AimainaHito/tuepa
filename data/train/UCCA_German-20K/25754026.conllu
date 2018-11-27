@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25754026
+# text = » Nun « , sagte der Kanadier , » weshalb sollten mehr vorhanden sein ? «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Nun	nun	NOUN	ADV	_	13	F	13:F	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kanadier	Kanadier	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	weshalb	weshalb	ADV	ADJA	_	13	A	13:A	_
+11	sollten	sollen	AUX	VMFIN	_	13	D	13:D	_
+12	mehr	mehr	ADV	ADV	_	13	A	13:A	_
+13	vorhanden	vorhanden	ADJ	ADJA	_	5	A	5:A	_
+14	sein	sein	AUX	VAINF	_	13	F	13:F	_
+15	?	?	PUNCT	$.	_	13	U	13:U	_
+16	«	«	PUNCT	$(	_	13	U	13:U	_
+

@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 555009
+# text = After residing for nearly a year in rooming houses , they were granted a two - bedroom apartment in the public housing complex known as the Courts .
+1	After	after	SCONJ	IN	_	2	L	2:L	_
+2	residing	reside	VERB	VBG	_	0	H	0:H	_
+3	for	for	ADP	IN	_	6	R	6:R	_
+4	nearly	nearly	ADV	RB	_	6	E	6:E	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	year	year	NOUN	NN	_	2	D	2:D	_
+7	in	in	SCONJ	IN	_	9	R	9:R	_
+8	rooming	rooming	VERB	VBG	_	9	E	9:E	_
+9	houses	house	NOUN	NNS	_	2	A	2:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	they	they	PRON	PRP	_	13	A	13:A|2:A	_
+12	were	be	AUX	VBD	_	13	F	13:F	_
+13	granted	grant	VERB	VBN	_	2	H	2:H	_
+14	a	a	DET	DT	_	18	E	18:E	_
+15	two	two	NUM	CD	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	bedroom	bedroom	NOUN	NN	_	18	E	18:E	_
+18	apartment	apartment	NOUN	NN	_	13	A	13:A	_
+19	in	in	ADP	IN	_	23	R	23:R	_
+20	the	the	DET	DT	_	23	E	23:E	_
+21	public	public	ADJ	JJ	_	22	E	22:E	_
+22	housing	housing	NOUN	NN	_	23	E	23:E	_
+23	complex	complex	NOUN	NN	_	18	E	18:E	_
+24	known	know	VERB	VBN	_	23	E	23:E	_
+25	as	as	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	Courts	courts	NOUN	NNS	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

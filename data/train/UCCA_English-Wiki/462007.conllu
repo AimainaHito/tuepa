@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 462007
+# text = In June , Jennings visited the ABC News headquarters , and addressed staff members in an emotional speech ; he thanked Gibson for closing each broadcast with the phrase , " for Peter Jennings and all of us at ABC News .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	June	June	PROPN	NNP	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Jennings	Jennings	PROPN	NNP	_	5	A	5:A|12:A	_
+5	visited	visit	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	9	E	9:E	_
+7	ABC	ABC	PROPN	NNP	_	8	E	8:E	_
+8	News	news	NOUN	NN	_	9	E	9:E	_
+9	headquarters	headquarters	NOUN	NNS	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	and	and	CCONJ	CC	_	5	L	5:L	_
+12	addressed	address	VERB	VBN	_	5	H	5:H	_
+13	staff	staff	NOUN	NN	_	14	E	14:E	_
+14	members	member	NOUN	NNS	_	12	A	12:A	_
+15	in	in	ADP	IN	_	18	R	18:R	_
+16	an	a	DET	DT	_	18	E	18:E	_
+17	emotional	emotional	ADJ	JJ	_	18	E	18:E	_
+18	speech	speech	NOUN	NN	_	12	A	12:A	_
+19	;	;	PUNCT	,	_	5	U	5:U	_
+20	he	he	PRON	PRP	_	21	A	21:A	_
+21	thanked	thank	VERB	VBD	_	5	H	5:H	_
+22	Gibson	Gibson	PROPN	NNP	_	21	A	21:A	_
+23	for	for	SCONJ	IN	_	24	R	24:R	_
+24	closing	close	VERB	VBG	_	21	A	21:A	_
+25	each	each	DET	DT	_	26	E	26:E	_
+26	broadcast	broadcast	NOUN	NN	_	24	A	24:A	_
+27	with	with	ADP	IN	_	29	R	29:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	phrase	phrase	NOUN	NN	_	24	A	24:A	_
+30	,	,	PUNCT	,	_	29	U	29:U	_
+31	"	"	PUNCT	''	_	29	U	29:U	_
+32	for	for	ADP	IN	_	33	R	33:R	_
+33	Peter	Peter	PROPN	NNP	_	29	E	29:E	_
+34	Jennings	Jennings	PROPN	NNP	_	33	Terminal	33:Terminal	_
+35	and	and	CCONJ	CC	_	33	N	33:N	_
+36	all	all	DET	DT	_	38	E	38:E	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	us	we	PRON	PRP	_	33	C	33:C	_
+39	at	at	ADP	IN	_	41	R	41:R	_
+40	ABC	ABC	PROPN	NNP	_	41	E	41:E	_
+41	News	News	PROPN	NNP	_	38	E	38:E	_
+42	.	.	PUNCT	.	_	41	U	41:U	_
+

@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25809009
+# text = » Waren nicht an seinem Kopf « , fuhr Conseil fort , » acht Fühlfäden , die sich wie eine Brut Schlangen über dem Wasser bewegten ? « » Gerade so . «
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Waren	Ware	NOUN	VAFIN	_	9	A	9:A	_
+3	nicht	nicht	PART	XY	_	2	D	2:D	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	seinem	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Kopf	Kopf	NOUN	NN	_	2	A	2:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	PROPN	NE	_	9	A	9:A	_
+11	fort	fort	ADV	PTKVZ	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	»	»	PUNCT	$(	_	9	U	9:U	_
+14	acht	acht	NUM	CARD	_	15	E	15:E	_
+15	Fühlfäden	Fühlfaden	NOUN	NN	_	0	C	0:C|30:A|18:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	18	R	18:R	_
+18	sich	er|es|sie	PRON	PRF	_	0	P	0:P|30:P	_
+19	wie	wie	ADP	ADV	_	22	R	22:R	_
+20	eine	ein	DET	ART	_	21	E	21:E	_
+21	Brut	Brut	NOUN	NN	_	22	E	22:E	_
+22	Schlangen	Schlange	NOUN	NN	_	18	A	18:A	_
+23	über	über	ADP	VVFIN	_	25	R	25:R	_
+24	dem	der	DET	ART	_	25	E	25:E	_
+25	Wasser	Wasser	NOUN	NN	_	18	A	18:A	_
+26	bewegten	bewegen	VERB	VVFIN	_	18	Terminal	18:Terminal	_
+27	?	?	PUNCT	$.	_	30	U	30:U	_
+28	«	«	PUNCT	$(	_	30	U	30:U	_
+29	»	»	PUNCT	$(	_	30	U	30:U	_
+30	Gerade	Gerad	NOUN	ADV	_	9	H	9:H	_
+31	so	so	ADV	ADV	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	$.	_	30	U	30:U	_
+33	«	«	PUNCT	$(	_	30	U	30:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25624012
+# text = Conseil brachte Ned Land ein Dutzend , der sie in dicke Schnitten zerlegte und über Kohlen feuer setzte .
+1	Conseil	Conseil	NOUN	NE	_	2	A	2:A	_
+2	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+3	Ned	Ned	PROPN	NE	_	2	A	2:A	_
+4	Land	Land	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	ein	ein	DET	ART	_	6	E	6:E	_
+6	Dutzend	Dutzend	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	der	der	PRON	ART	_	13	R	13:R	_
+9	sie	sie	PRON	NN	_	13	A	13:A	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	dicke	dick	ADJ	ADJA	_	12	E	12:E	_
+12	Schnitten	schnitt	NOUN	NN	_	13	A	13:A	_
+13	zerlegte	zerlegen	VERB	VVFIN	_	3	E	3:E	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	über	über	ADP	NE	_	17	R	17:R	_
+16	Kohlen	Kohle	NOUN	NE	_	17	E	17:E	_
+17	feuer	feuer	ADV	ADJA	_	18	A	18:A	_
+18	setzte	setzen	VERB	VVFIN	_	13	C	13:C	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

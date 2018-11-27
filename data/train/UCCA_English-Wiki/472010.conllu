@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 472010
+# text = In a press conference held on November 7 , 1991 , Johnson made a public announcement that he would retire immediately .
+1	In	in	ADP	IN	_	5	L	5:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	press	press	NOUN	NN	_	5	A	5:A	_
+4	conference	conference	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	held	hold	VERB	VBN	_	0	H	0:H	_
+6	on	on	ADP	IN	_	10	R	10:R	_
+7	November	November	PROPN	NNP	_	10	E	10:E	_
+8	7	7	NUM	CD	_	10	E	10:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	1991	1991	NUM	CD	_	5	D	5:D	_
+11	,	,	PUNCT	,	_	5	U	5:U	_
+12	Johnson	Johnson	PROPN	NNP	_	16	A	16:A|5:A	_
+13	made	make	VERB	VBD	_	16	F	16:F	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	public	public	ADJ	JJ	_	16	E	16:E	_
+16	announcement	announcement	NOUN	NN	_	5	H	5:H	_
+17	that	that	SCONJ	IN	_	20	F	20:F	_
+18	he	he	PRON	PRP	_	20	A	20:A	_
+19	would	would	AUX	MD	_	20	F	20:F	_
+20	retire	retire	VERB	VB	_	16	A	16:A	_
+21	immediately	immediately	ADV	RB	_	20	D	20:D	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

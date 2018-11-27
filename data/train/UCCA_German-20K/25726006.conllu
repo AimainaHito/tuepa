@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25726006
+# text = » Das sind rechte Gelehrte « , sagte der Kapitän , » die nichts wissen .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Das	der	PRON	ART	_	3	F	3:F	_
+3	sind	sein	AUX	NN	_	8	A	8:A	_
+4	rechte	recht	ADJ	ADJA	_	5	E	5:E	_
+5	Gelehrte	Gelehrte	NOUN	VVFIN	_	3	A	3:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	die	der	PRON	ART	_	15	R	15:R	_
+14	nichts	nichts	PRON	NN	_	15	D	15:D	_
+15	wissen	wissen	VERB	VVINF	_	5	E	5:E	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

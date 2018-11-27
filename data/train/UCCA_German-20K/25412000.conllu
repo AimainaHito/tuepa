@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25412000
+# text = Am 13 . April 1867 fuhr der Scotia unter 15 12 ° Länge ' und 45 37 Breite ° , ' bei ruhigem Meer und günstigem Wind mit einer Schnelligkeit von dreizehn Knoten und vollkommen regelmäßiger Rad bewegung .
+1	Am	am	PROPN	NE	_	2	R	2:R	_
+2	13	13	PROPN	CARD	_	6	D	6:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	April	April	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	1867	1867	NUM	CARD	_	2	Terminal	2:Terminal	_
+6	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Scotia	Scotia	PROPN	NE	_	6	A	6:A	_
+9	unter	unter	ADP	ADJA	_	10	R	10:R	_
+10	15	15	NUM	CARD	_	6	A	6:A	_
+11	12	12	NUM	CARD	_	10	Terminal	10:Terminal	_
+12	°	°	NOUN	NN	_	10	U	10:U	_
+13	Länge	Länge	NOUN	NN	_	10	Terminal	10:Terminal	_
+14	'	'	PUNCT	$(	_	10	U	10:U	_
+15	und	und	CCONJ	NE	_	10	N	10:N	_
+16	45	45	NUM	CARD	_	10	C	10:C	_
+17	37	37	NUM	CARD	_	16	Terminal	16:Terminal	_
+18	Breite	Breite	NOUN	ADJA	_	16	Terminal	16:Terminal	_
+19	°	°	NOUN	NN	_	6	U	6:U	_
+20	,	,	PUNCT	$,	_	6	U	6:U	_
+21	'	'	PUNCT	$,	_	6	U	6:U	_
+22	bei	bei	ADP	APPR	_	24	R	24:R	_
+23	ruhigem	ruhig	ADJ	ADJA	_	24	E	24:E	_
+24	Meer	Meer	NOUN	NN	_	6	A	6:A	_
+25	und	und	CCONJ	NE	_	24	N	24:N	_
+26	günstigem	günstig	ADJ	ADJA	_	27	E	27:E	_
+27	Wind	Wind	NOUN	NN	_	24	C	24:C	_
+28	mit	mit	ADP	APPR	_	30	R	30:R	_
+29	einer	ein	DET	ART	_	30	E	30:E	_
+30	Schnelligkeit	Schnelligkeit	NOUN	NN	_	6	A	6:A	_
+31	von	von	ADP	NE	_	33	R	33:R	_
+32	dreizehn	dreizehn	NUM	CARD	_	33	E	33:E	_
+33	Knoten	Knoten	NOUN	NN	_	30	E	30:E	_
+34	und	und	CCONJ	NE	_	30	N	30:N	_
+35	vollkommen	vollkommen	ADV	NE	_	38	E	38:E	_
+36	regelmäßiger	regelmäßig	ADJ	ADJA	_	38	E	38:E	_
+37	Rad	Rad	NOUN	NN	_	38	A	38:A	_
+38	bewegung	bewegung	NOUN	NN	_	30	C	30:C	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+

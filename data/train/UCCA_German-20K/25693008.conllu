@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25693008
+# text = Zur Zeit ihrer früheren Bedeutung hatte sie 6 öffentliche Märkte , 26 Moscheen , und ihre mit 14 Forts versehenen Mauern hatten einen Umfang von 3 Kilometer .
+1	Zur	Zur	ADP	NN	_	2	R	2:R	_
+2	Zeit	Zeit	NOUN	NN	_	5	L	5:L	_
+3	ihrer	ihr	DET	PPOSAT	_	5	R	5:R	_
+4	früheren	früh	ADJ	ADJA	_	5	D	5:D	_
+5	Bedeutung	Bedeutung	NOUN	NN	_	0	H	0:H	_
+6	hatte	haben	VERB	VAFIN	_	5	H	5:H	_
+7	sie	sie	PRON	ADV	_	6	A	6:A|5:A	_
+8	6	6	NUM	CARD	_	10	E	10:E	_
+9	öffentliche	öffentlich	ADJ	NN	_	10	E	10:E	_
+10	Märkte	Markt	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	$,	_	6	U	6:U	_
+12	26	26	NUM	CARD	_	13	E	13:E	_
+13	Moscheen	Moschee	NOUN	NN	_	6	A	6:A	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	und	und	CCONJ	NE	_	5	L	5:L	_
+16	ihre	ihr	PRON	PPOSAT	_	21	E	21:E	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	14	14	NUM	CARD	_	19	E	19:E	_
+19	Forts	Fort	NOUN	NN	_	20	A	20:A	_
+20	versehenen	versehen	ADJ	ADJA	_	24	A	24:A	_
+21	Mauern	Mauer	NOUN	NN	_	20	A	20:A	_
+22	hatten	haben	VERB	VAFIN	_	24	F	24:F	_
+23	einen	ein	DET	ART	_	24	E	24:E	_
+24	Umfang	Umfang	NOUN	NN	_	5	H	5:H	_
+25	von	von	ADP	NN	_	27	R	27:R	_
+26	3	3	NUM	CARD	_	27	E	27:E	_
+27	Kilometer	Kilometer	NOUN	NN	_	24	A	24:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

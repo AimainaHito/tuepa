@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25490000
+# text = Ned Land s Zorn Wie lange dieser Schlaf dauerte , weiß ich nicht ; aber er musste wohl lange gewährt haben , da er uns von unseren Strapazen völlig wiederherstellte .
+1	Ned	Ned	PROPN	NN	_	4	A	4:A	_
+2	Land	Land	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	s	s	PROPN	ADJD	_	1	R	1:R	_
+4	Zorn	Zor	PROPN	NE	_	0	H	0:H	_
+5	Wie	wie	PROPN	ADJA	_	6	E	6:E	_
+6	lange	lange	ADJ	ADV	_	9	D	9:D	_
+7	dieser	dies	PRON	PDAT	_	8	E	8:E	_
+8	Schlaf	Schlaf	NOUN	NN	_	9	A	9:A	_
+9	dauerte	dauern	VERB	VVFIN	_	11	A	11:A	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	weiß	wissen	VERB	VVFIN	_	4	H	4:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	nicht	nicht	PART	CARD	_	11	D	11:D	_
+14	;	;	PUNCT	$.	_	4	U	4:U	_
+15	aber	aber	CCONJ	KON	_	4	L	4:L	_
+16	er	er	PRON	PPER	_	20	A	20:A	_
+17	musste	müssen	AUX	VVFIN	_	20	D	20:D	_
+18	wohl	wohl	ADV	ADV	_	20	G	20:G	_
+19	lange	lange	ADJ	ADV	_	20	D	20:D	_
+20	gewährt	gewähren|währen	VERB	VVPP	_	4	H	4:H	_
+21	haben	haben	AUX	VAFIN	_	20	F	20:F	_
+22	,	,	PUNCT	$,	_	4	U	4:U	_
+23	da	da	SCONJ	KOUS	_	4	L	4:L	_
+24	er	er	PRON	PPER	_	30	A	30:A	_
+25	uns	wir	PRON	NN	_	30	A	30:A	_
+26	von	von	ADP	NN	_	28	R	28:R	_
+27	unseren	unser	PRON	PPOSAT	_	28	E	28:E	_
+28	Strapazen	Strapazen	NOUN	NN	_	30	A	30:A	_
+29	völlig	völlig	ADJ	ADJD	_	30	D	30:D	_
+30	wiederherstellte	wiederherstellen	VERB	VVFIN	_	4	H	4:H	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

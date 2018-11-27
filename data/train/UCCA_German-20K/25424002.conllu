@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25424002
+# text = Nehmen wir diese Dimension fünffach , selbst zehnfach , geben wir diesem Tier eine seiner Größe entsprechende Kraft , verstärken wir seine Angriffswaffen , so haben wir das vorausgesetzte Ungeheuer , das imstande wäre , die ›Scotia‹ anzubohren und den Rumpf eines Dampfboots anzutasten .
+1	Nehmen	nehmen	VERB	NE	_	0	H	0:H	_
+2	wir	wir	PRON	NE	_	1	A	1:A	_
+3	diese	dies	PRON	PDAT	_	4	E	4:E	_
+4	Dimension	Dimension	NOUN	NN	_	1	A	1:A	_
+5	fünffach	fünffach	ADV	ADJD	_	1	D	1:D	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	selbst	selbst	ADV	VVFIN	_	5	N	5:N	_
+8	zehnfach	zehnfach	ADJ	ADV	_	5	C	5:C	_
+9	,	,	PUNCT	$,	_	1	U	1:U	_
+10	geben	geben	VERB	VVINF	_	1	H	1:H	_
+11	wir	wir	PRON	NE	_	10	A	10:A	_
+12	diesem	dies	PRON	PDS	_	13	R	13:R	_
+13	Tier	Tier	NOUN	NN	_	10	A	10:A	_
+14	eine	ein	DET	ART	_	18	E	18:E	_
+15	seiner	sein	DET	PPOSAT	_	16	R	16:R	_
+16	Größe	Größe	NOUN	NN	_	17	A	17:A	_
+17	entsprechende	entsprechend	ADJ	ADJA	_	18	E	18:E	_
+18	Kraft	Kraft	NOUN	NN	_	10	A	10:A	_
+19	,	,	PUNCT	$,	_	1	U	1:U	_
+20	verstärken	verstärken	VERB	VVFIN	_	1	H	1:H	_
+21	wir	wir	PRON	NE	_	20	A	20:A	_
+22	seine	sein	DET	PPOSAT	_	23	R	23:R	_
+23	Angriffswaffen	Angriffswaff	NOUN	NN	_	20	A	20:A	_
+24	,	,	PUNCT	$,	_	1	U	1:U	_
+25	so	so	ADV	ADV	_	1	L	1:L	_
+26	haben	haben	VERB	VAFIN	_	1	H	1:H	_
+27	wir	wir	PRON	NE	_	26	A	26:A	_
+28	das	der	DET	ART	_	30	E	30:E	_
+29	vorausgesetzte	vorausgesetzt	ADJ	ADJA	_	30	E	30:E	_
+30	Ungeheuer	Ungeheuer	NOUN	NN	_	26	A	26:A	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	das	der	PRON	ART	_	33	R	33:R	_
+33	imstande	imstand	ADJ	NN	_	30	E	30:E	_
+34	wäre	sein	AUX	ADV	_	33	D	33:D	_
+35	,	,	PUNCT	$,	_	33	U	33:U	_
+36	die	der	DET	PRELS	_	37	E	37:E	_
+37	›Scotia‹	›Scotia‹	NOUN	NE	_	38	A	38:A	_
+38	anzubohren	anzubohren	VERB	VVFIN	_	33	A	33:A	_
+39	und	und	CCONJ	NE	_	38	L	38:L	_
+40	den	der	DET	ART	_	41	E	41:E	_
+41	Rumpf	Rumpf	NOUN	NN	_	44	A	44:A	_
+42	eines	ein	DET	ART	_	43	R	43:R	_
+43	Dampfboots	Dampfboot	NOUN	NN	_	41	E	41:E	_
+44	anzutasten	anzutasen	VERB	NN	_	38	H	38:H	_
+45	.	.	PUNCT	$.	_	44	U	44:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25652013
+# text = Wir sehen also hier eine Art Sozialismus in der Natur .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	sehen	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	L	2:L	_
+4	hier	hier	ADV	ADV	_	2	D	2:D	_
+5	eine	ein	DET	ART	_	6	E	6:E	_
+6	Art	Art	NOUN	NN	_	7	E	7:E	_
+7	Sozialismus	Sozialismus	NOUN	NN	_	2	A	2:A	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Natur	Natur	NOUN	NN	_	7	A	7:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

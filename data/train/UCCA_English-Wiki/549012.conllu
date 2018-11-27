@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 549012
+# text = Together , Warner and Ann had a daughter named Barbara .
+1	Together	together	ADV	RB	_	6	D	6:D	_
+2	,	,	PUNCT	,	_	6	U	6:U	_
+3	Warner	Warner	PROPN	NNP	_	6	A	6:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	Ann	Ann	PROPN	NNP	_	3	C	3:C	_
+6	had	have	VERB	VBD	_	0	H	0:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	daughter	daughter	NOUN	NN	_	6	A	6:A	_
+9	named	name	VERB	VBN	_	8	E	8:E	_
+10	Barbara	Barbara	PROPN	NNP	_	9	A	9:A	_
+11	.	.	PUNCT	.	_	9	U	9:U	_
+

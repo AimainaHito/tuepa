@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25490101
+# text = Und wenn man wirklich gute Gesinnung gegen uns hatte , so vergaß man allzulang unsere Lage als Schiffbrüchige .
+1	Und	und	CCONJ	ADJD	_	9	L	9:L	_
+2	wenn	wenn	SCONJ	VVFIN	_	9	L	9:L	_
+3	man	man	PRON	PIS	_	9	A	9:A	_
+4	wirklich	wirklich	ADV	ADV	_	9	G	9:G	_
+5	gute	gut	ADJ	ADJA	_	6	E	6:E	_
+6	Gesinnung	Gesinnung	NOUN	NN	_	9	A	9:A	_
+7	gegen	gegen	ADP	APPR	_	8	R	8:R	_
+8	uns	wir	PRON	NE	_	9	A	9:A	_
+9	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	so	so	ADV	ADV	_	9	L	9:L	_
+12	vergaß	vergessen	VERB	VVFIN	_	9	H	9:H	_
+13	man	man	PRON	PIS	_	12	A	12:A	_
+14	allzulang	allzulang	ADV	ADJD	_	12	D	12:D	_
+15	unsere	unser	PRON	PPOSAT	_	16	E	16:E	_
+16	Lage	Lage	NOUN	NN	_	12	A	12:A	_
+17	als	als	ADP	KOKOM	_	18	R	18:R	_
+18	Schiffbrüchige	Schiffbrüchige	NOUN	ADJA	_	16	E	16:E	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

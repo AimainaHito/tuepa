@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25631017
+# text = Kurz , es war eine vortreffliche Mahlzeit .
+1	Kurz	kurz	ADJ	ADJD	_	6	G	6:G	_
+2	,	,	PUNCT	$,	_	6	U	6:U	_
+3	es	es	PRON	PPER	_	6	F	6:F	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	eine	ein	DET	ART	_	7	E	7:E	_
+6	vortreffliche	vortrefflich	ADJ	ADJA	_	0	H	0:H	_
+7	Mahlzeit	Mahlzeit	NOUN	NN	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 594003
+# text = The ceremony took place at Harris 's home ; Comanche Nation Tribal Administrator Johnny Wauqua was in attendance .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	ceremony	ceremony	NOUN	NN	_	3	A	3:A	_
+3	took	take	VERB	VBD	_	0	H	0:H	_
+4	place	place	NOUN	NN	_	3	E	3:E	_
+5	at	at	ADP	IN	_	8	R	8:R	_
+6	Harris	Harris	PROPN	NNP	_	8	E	8:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	home	home	NOUN	NN	_	3	A	3:A	_
+9	;	;	PUNCT	,	_	3	U	3:U	_
+10	Comanche	Comanche	PROPN	NNP	_	13	E	13:E	_
+11	Nation	nation	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Tribal	tribal	PROPN	NNP	_	13	E	13:E	_
+13	Administrator	administrator	PROPN	NNP	_	14	E	14:E	_
+14	Johnny	Johnny	PROPN	NNP	_	18	A	18:A	_
+15	Wauqua	Wauqua	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	was	be	AUX	VBD	_	18	F	18:F	_
+17	in	in	ADP	IN	_	18	E	18:E	_
+18	attendance	attendance	NOUN	NN	_	3	H	3:H	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

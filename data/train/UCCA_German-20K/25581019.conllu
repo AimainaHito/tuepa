@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25581019
+# text = Kein Mensch von der Bemannung kam mir zu Gesicht .
+1	Kein	kein	PRON	PIAT	_	2	E	2:E	_
+2	Mensch	Mensch	NOUN	NN	_	6	A	6:A	_
+3	von	von	ADP	NN	_	5	R	5:R	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Bemannung	Bemannung	NOUN	NN	_	2	E	2:E	_
+6	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+7	mir	ich	PRON	PPER	_	6	A	6:A	_
+8	zu	zu	ADP	ADJA	_	6	Terminal	6:Terminal	_
+9	Gesicht	Gesicht	NOUN	NN	_	6	Terminal	6:Terminal	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

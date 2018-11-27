@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25683007
+# text = Die Leichtigkeit meiner Bewegungen hob mein Vertrauen , und das Fremdartige des Schauspiels fesselte meine Einbildungskraft .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Leichtigkeit	Leichtigkeit	NOUN	NN	_	5	A	5:A	_
+3	meiner	mein	DET	PPOSAT	_	4	R	4:R	_
+4	Bewegungen	Bewegung	NOUN	NN	_	2	A	2:A	_
+5	hob	heben	VERB	VVFIN	_	0	H	0:H	_
+6	mein	mein	PRON	PPOSAT	_	7	E	7:E	_
+7	Vertrauen	Vertrauen	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	und	und	CCONJ	NE	_	5	L	5:L	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Fremdartige	Fremdartige	NOUN	ADJA	_	14	A	14:A	_
+12	des	der	DET	ART	_	13	R	13:R	_
+13	Schauspiels	Schauspiels	NOUN	NN	_	11	A	11:A	_
+14	fesselte	fesseln	VERB	VVFIN	_	5	H	5:H	_
+15	meine	mein	DET	PPOSAT	_	16	E	16:E	_
+16	Einbildungskraft	Einbildungskraft	NOUN	NN	_	14	A	14:A	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

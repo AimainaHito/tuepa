@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25499000
+# text = In der Mitte des Saals stand ein reich besetzter Tisch .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Mitte	Mitte	NOUN	NN	_	6	A	6:A	_
+4	des	der	DET	ART	_	5	R	5:R	_
+5	Saals	Saal	PROPN	NN	_	3	E	3:E	_
+6	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+7	ein	ein	DET	ART	_	10	E	10:E	_
+8	reich	reich	ADJ	NE	_	9	D	9:D	_
+9	besetzter	besetzt	ADJ	ADJA	_	10	E	10:E	_
+10	Tisch	Tisch	NOUN	NN	_	6	A	6:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

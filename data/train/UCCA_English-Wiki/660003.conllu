@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 660003
+# text = In what has been widely described by critics as a modern day Cinderella - like tale , after searching for Carey for two weeks , and eventually contacting her through Starr 's management , he immediately signed her and began mapping out her debut into mainstream music .
+1	In	in	SCONJ	IN	_	6	L	6:L	_
+2	what	what	PRON	WP	_	6	F	6:F	_
+3	has	have	AUX	VBZ	_	6	F	6:F	_
+4	been	be	AUX	VBN	_	6	F	6:F	_
+5	widely	widely	ADV	RB	_	6	D	6:D	_
+6	described	describe	VERB	VBN	_	0	H	0:H	_
+7	by	by	ADP	IN	_	8	R	8:R	_
+8	critics	critic	NOUN	NNS	_	6	A	6:A	_
+9	as	as	ADP	IN	_	16	R	16:R	_
+10	a	a	DET	DT	_	16	E	16:E	_
+11	modern	modern	ADJ	JJ	_	12	E	12:E	_
+12	day	day	NOUN	NN	_	16	E	16:E	_
+13	Cinderella	Cinderella	PROPN	NNP	_	16	E	16:E	_
+14	-	-	PUNCT	,	_	13	U	13:U	_
+15	like	like	ADP	IN	_	13	R	13:R	_
+16	tale	tale	NOUN	NN	_	6	A	6:A	_
+17	,	,	PUNCT	,	_	6	U	6:U	_
+18	after	after	SCONJ	IN	_	6	L	6:L	_
+19	searching	search	VERB	VBG	_	6	H	6:H	_
+20	for	for	ADP	IN	_	21	R	21:R	_
+21	Carey	Carey	PROPN	NNP	_	19	A	19:A	_
+22	for	for	ADP	IN	_	24	R	24:R	_
+23	two	two	NUM	CD	_	24	E	24:E	_
+24	weeks	week	NOUN	NNS	_	19	D	19:D	_
+25	,	,	PUNCT	,	_	6	U	6:U	_
+26	and	and	CCONJ	CC	_	6	L	6:L	_
+27	eventually	eventually	ADV	RB	_	28	D	28:D	_
+28	contacting	contact	VERB	VBG	_	6	H	6:H	_
+29	her	she	PRON	PRP	_	28	A	28:A	_
+30	through	through	ADP	IN	_	33	R	33:R	_
+31	Starr	Starr	PROPN	NNP	_	33	E	33:E	_
+32	's	's	PART	POS	_	31	R	31:R	_
+33	management	management	NOUN	NN	_	28	A	28:A	_
+34	,	,	PUNCT	,	_	28	U	28:U	_
+35	he	he	PRON	PRP	_	37	A	37:A|28:A|41:A	_
+36	immediately	immediately	ADV	RB	_	37	D	37:D	_
+37	signed	sign	VERB	VBD	_	6	H	6:H	_
+38	her	she	PRON	PRP	_	37	A	37:A	_
+39	and	and	CCONJ	CC	_	6	L	6:L	_
+40	began	begin	VERB	VBD	_	41	D	41:D	_
+41	mapping	map	VERB	VBG	_	6	H	6:H	_
+42	out	out	ADP	RP	_	41	R	41:R	_
+43	her	she	PRON	PRP$	_	44	E	44:E	_
+44	debut	debut	NOUN	NN	_	41	A	41:A	_
+45	into	into	ADP	IN	_	47	R	47:R	_
+46	mainstream	mainstream	ADJ	JJ	_	47	E	47:E	_
+47	music	music	NOUN	NN	_	44	A	44:A	_
+48	.	.	PUNCT	.	_	47	U	47:U	_
+

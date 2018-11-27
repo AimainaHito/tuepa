@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 520008
+# text = Following rumors that Frank Gumm had made sexual advances toward male ushers , the family relocated to Lancaster , California , in June 1926 .
+1	Following	follow	VERB	VBG	_	2	L	2:L	_
+2	rumors	rumor	NOUN	NNS	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	9	F	9:F	_
+4	Frank	Frank	PROPN	NNP	_	9	A	9:A	_
+5	Gumm	Gumm	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	had	have	AUX	VBD	_	9	F	9:F	_
+7	made	make	VERB	VBN	_	9	F	9:F	_
+8	sexual	sexual	ADJ	JJ	_	9	E	9:E	_
+9	advances	advances	NOUN	NNS	_	2	E	2:E	_
+10	toward	toward	ADP	IN	_	12	R	12:R	_
+11	male	male	ADJ	JJ	_	12	E	12:E	_
+12	ushers	usher	NOUN	NNS	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	family	family	NOUN	NN	_	16	A	16:A	_
+16	relocated	relocate	VERB	VBN	_	2	H	2:H	_
+17	to	to	ADP	IN	_	18	R	18:R	_
+18	Lancaster	Lancaster	PROPN	NNP	_	16	A	16:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	California	California	PROPN	NNP	_	18	E	18:E	_
+21	,	,	PUNCT	,	_	16	U	16:U	_
+22	in	in	ADP	IN	_	23	R	23:R	_
+23	June	June	PROPN	NNP	_	16	D	16:D	_
+24	1926	1926	NUM	CD	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+

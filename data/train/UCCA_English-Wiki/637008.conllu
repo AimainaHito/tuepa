@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 637008
+# text = Critic Greil Marcus remarked , " John 's singing in the last verse of ' God ' may be the finest in all of rock .
+1	Critic	critic	PROPN	NNP	_	4	A	4:A	_
+2	Greil	Greil	PROPN	NNP	_	1	E	1:E	_
+3	Marcus	Marcus	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	remarked	remark	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	John	John	PROPN	NNP	_	9	A	9:A	_
+8	's	be	AUX	VBZ	_	7	R	7:R	_
+9	singing	singe	VERB	VBG	_	21	A	21:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	last	last	ADJ	JJ	_	13	E	13:E	_
+13	verse	verse	NOUN	NN	_	9	A	9:A	_
+14	of	of	ADP	IN	_	16	R	16:R	_
+15	'	'	PUNCT	``	_	16	U	16:U	_
+16	God	God	PROPN	NNP	_	13	E	13:E	_
+17	'	'	PUNCT	''	_	21	U	21:U	_
+18	may	may	AUX	MD	_	21	F	21:F	_
+19	be	be	AUX	VB	_	21	D	21:D	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	finest	finest	ADJ	JJS	_	4	A	4:A	_
+22	in	in	ADP	IN	_	25	R	25:R	_
+23	all	all	DET	DT	_	25	E	25:E	_
+24	of	of	ADP	IN	_	23	R	23:R	_
+25	rock	rock	NOUN	NN	_	21	A	21:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

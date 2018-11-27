@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25781007
+# text = Der letzte Dämmerschein zerfloß in Nacht .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	letzte	letzt	ADJ	ADJA	_	3	E	3:E	_
+3	Dämmerschein	Dämmerschein	NOUN	NN	_	4	A	4:A	_
+4	zerfloß	zerfließen	VERB	ADV	_	0	H	0:H	_
+5	in	in	ADP	APPR	_	6	R	6:R	_
+6	Nacht	Nacht	NOUN	NN	_	4	A	4:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

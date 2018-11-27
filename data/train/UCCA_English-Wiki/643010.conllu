@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 643010
+# text = Almost as soon as Julian was born , Lennon went on holiday to Spain with Epstein , leading to speculation about their relationship .
+1	Almost	almost	ADV	RB	_	3	E	3:E	_
+2	as	as	ADV	RB	_	3	R	3:R	_
+3	soon	soon	ADV	RB	_	7	L	7:L	_
+4	as	as	SCONJ	IN	_	3	E	3:E	_
+5	Julian	Julian	PROPN	NNP	_	7	A	7:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	born	bear	VERB	VBN	_	0	H	0:H	_
+8	,	,	PUNCT	,	_	7	U	7:U	_
+9	Lennon	Lennon	PROPN	NNP	_	10	A	10:A	_
+10	went	go	VERB	VBD	_	7	H	7:H|18:A	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	holiday	holiday	NOUN	NN	_	10	A	10:A	_
+13	to	to	ADP	IN	_	14	R	14:R	_
+14	Spain	Spain	PROPN	NNP	_	12	E	12:E	_
+15	with	with	ADP	IN	_	16	R	16:R	_
+16	Epstein	Epstein	PROPN	NNP	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	7	U	7:U	_
+18	leading	lead	VERB	VBG	_	7	H	7:H	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	speculation	speculation	VERB	VB	_	18	A	18:A	_
+21	about	about	ADP	IN	_	23	R	23:R	_
+22	their	they	PRON	PRP$	_	23	E	23:E	_
+23	relationship	relationship	NOUN	NN	_	20	A	20:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

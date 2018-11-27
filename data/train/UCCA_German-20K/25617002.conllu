@@ -1,0 +1,55 @@
+# format = ucca
+# sent_id = 25617002
+# text = Ich hatte die vortrefflichen Karten der Torres-Straße vor mir , die von Vincendon Dumoulin und Coupvent-Desbois , die zu dem Stab Dumont d'Urvilles bei seiner letzten Reise gehörten , herausgegeben wurden und neben denen von Kapitän King die besten sind , um in dem Gewirre dieser Straße sich zu orientieren .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	hatte	haben	VERB	VAFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	vortrefflichen	vortrefflich	ADJ	ADJA	_	5	E	5:E	_
+5	Karten	Karte	NOUN	NN	_	2	A	2:A	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	Torres-Straße	Torres-Straße	NOUN	NN	_	5	E	5:E	_
+8	vor	vor	ADP	NE	_	2	Terminal	2:Terminal	_
+9	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	die	der	PRON	ART	_	30	R	30:R	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	Vincendon	Vincendon	PROPN	NE	_	30	A	30:A	_
+14	Dumoulin	Dumoulin	PROPN	NE	_	13	Terminal	13:Terminal	_
+15	und	und	CCONJ	NE	_	13	N	13:N	_
+16	Coupvent-Desbois	Coupvent-Desbois	PROPN	NE	_	13	C	13:C	_
+17	,	,	PUNCT	$,	_	13	U	13:U	_
+18	die	der	PRON	PRELS	_	28	R	28:R	_
+19	zu	zu	ADP	NE	_	21	R	21:R	_
+20	dem	der	DET	ART	_	21	E	21:E	_
+21	Stab	Stab	NOUN	NN	_	28	A	28:A	_
+22	Dumont	Dumont	PROPN	NE	_	21	E	21:E	_
+23	d'Urvilles	d'Urvilles	PROPN	NE	_	22	Terminal	22:Terminal	_
+24	bei	bei	ADP	APPR	_	27	R	27:R	_
+25	seiner	sein	DET	PPOSAT	_	27	E	27:E	_
+26	letzten	letzt	ADJ	ADJA	_	27	E	27:E	_
+27	Reise	Reise	NOUN	NN	_	28	A	28:A	_
+28	gehörten	gehören	VERB	VVFIN	_	13	E	13:E	_
+29	,	,	PUNCT	$,	_	30	U	30:U	_
+30	herausgegeben	herausgeben	VERB	VVPP	_	5	E	5:E	_
+31	wurden	werden	AUX	ADJD	_	30	F	30:F	_
+32	und	und	CCONJ	NE	_	30	N	30:N	_
+33	neben	neben	ADP	TRUNC	_	34	R	34:R	_
+34	denen	der	PRON	PRELS	_	39	A	39:A	_
+35	von	von	ADP	NE	_	37	R	37:R	_
+36	Kapitän	Kapitän	PROPN	FM	_	37	E	37:E	_
+37	King	King	PROPN	NE	_	34	E	34:E	_
+38	die	der	DET	ART	_	39	E	39:E	_
+39	besten	gut	ADJ	ADJA	_	30	C	30:C	_
+40	sind	sein	AUX	NN	_	39	F	39:F	_
+41	,	,	PUNCT	$,	_	39	U	39:U	_
+42	um	um	ADP	KOUI	_	39	L	39:L	_
+43	in	in	ADP	APPR	_	45	R	45:R	_
+44	dem	der	DET	ART	_	45	E	45:E	_
+45	Gewirre	Gewirre	NOUN	NN	_	48	A	48:A	_
+46	dieser	dies	PRON	PDAT	_	47	R	47:R	_
+47	Straße	Straße	NOUN	NN	_	45	E	45:E	_
+48	sich	er|es|sie	PRON	PRF	_	39	H	39:H	_
+49	zu	zu	PART	VVINF	_	48	F	48:F	_
+50	orientieren	orientieren	VERB	VVINF	_	48	Terminal	48:Terminal	_
+51	.	.	PUNCT	$.	_	48	U	48:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25597019
+# text = Dieser kostbare Fleisch fresser , von den Fischern aufgetrieben und verjagt , wird äußerst selten , hat sich besonders in die nördlichen Gegenden des Pazifiks geflüchtet , wo die Gattung wahrscheinlich bald aussterben wird .
+1	Dieser	dies	PRON	PDS	_	4	E	4:E	_
+2	kostbare	kostbar	ADJ	ADJA	_	4	E	4:E	_
+3	Fleisch	Fleisch	NOUN	NN	_	4	E	4:E	_
+4	fresser	fresser	ADJ	NN	_	0	C	0:C|9:A	_
+5	,	,	PUNCT	$,	_	9	U	9:U	_
+6	von	von	ADP	NN	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Fischern	Fischer	NOUN	NN	_	9	A	9:A	_
+9	aufgetrieben	aufgetrieben	VERB	VVPP	_	15	H	15:H	_
+10	und	und	CCONJ	NE	_	9	N	9:N	_
+11	verjagt	verjagen	VERB	VVPP	_	9	C	9:C	_
+12	,	,	PUNCT	$,	_	15	U	15:U	_
+13	wird	werden	AUX	VAFIN	_	15	F	15:F	_
+14	äußerst	äußerst	ADV	ADV	_	15	D	15:D	_
+15	selten	selten	ADJ	VVFIN	_	0	H	0:H	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	hat	haben	AUX	VAFIN	_	18	F	18:F	_
+18	sich	er|es|sie	PRON	PRF	_	15	H	15:H	_
+19	besonders	besonders	ADV	ADV	_	18	D	18:D	_
+20	in	in	ADP	APPR	_	23	R	23:R	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	nördlichen	nördlich	ADJ	ADJA	_	23	E	23:E	_
+23	Gegenden	Gegend	NOUN	NN	_	18	A	18:A	_
+24	des	der	DET	ART	_	25	R	25:R	_
+25	Pazifiks	Pazifik	NOUN	NN	_	23	E	23:E	_
+26	geflüchtet	flüchten	VERB	VVPP	_	18	Terminal	18:Terminal	_
+27	,	,	PUNCT	$,	_	18	U	18:U	_
+28	wo	wo	ADV	ADJA	_	33	R	33:R	_
+29	die	der	DET	ART	_	30	E	30:E	_
+30	Gattung	Gattung	NOUN	NN	_	33	A	33:A	_
+31	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	33	G	33:G	_
+32	bald	bald	ADV	ADV	_	33	D	33:D	_
+33	aussterben	aussterben	VERB	VVINF	_	23	E	23:E	_
+34	wird	werden	AUX	VAFIN	_	33	F	33:F	_
+35	.	.	PUNCT	$.	_	33	U	33:U	_
+

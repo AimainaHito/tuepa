@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 545001
+# text = Jack Warner announced that the studio would release no more " propaganda pictures " and promptly ordered the shelving of several projects with an anti - Nazi theme .
+1	Jack	Jack	PROPN	NNP	_	3	A	3:A|17:A	_
+2	Warner	Warner	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	announced	announce	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	8	F	8:F	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	studio	studio	NOUN	NN	_	8	A	8:A	_
+7	would	would	AUX	MD	_	8	F	8:F	_
+8	release	release	VERB	VB	_	3	A	3:A	_
+9	no	no	ADV	RB	_	8	D	8:D	_
+10	more	more	ADJ	JJR	_	9	Terminal	9:Terminal	_
+11	"	"	PUNCT	''	_	8	U	8:U	_
+12	propaganda	propaganda	NOUN	NN	_	13	E	13:E	_
+13	pictures	picture	NOUN	NNS	_	8	A	8:A	_
+14	"	"	PUNCT	''	_	3	U	3:U	_
+15	and	and	CCONJ	CC	_	3	L	3:L	_
+16	promptly	promptly	ADV	RB	_	17	D	17:D	_
+17	ordered	order	VERB	VBD	_	3	H	3:H	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	shelving	shelving	NOUN	NN	_	17	A	17:A	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	several	several	ADJ	JJ	_	22	E	22:E	_
+22	projects	project	NOUN	NNS	_	19	A	19:A	_
+23	with	with	ADP	IN	_	28	R	28:R	_
+24	an	a	DET	DT	_	28	E	28:E	_
+25	anti	anti	X	AFX	_	27	E	27:E	_
+26	-	-	PUNCT	HYPH	_	27	U	27:U	_
+27	Nazi	Nazi	PROPN	NNP	_	28	E	28:E	_
+28	theme	theme	NOUN	NN	_	22	E	22:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25697003
+# text = » Allerdings , aber wenn wir weiter in den Golf hineinkommen , werden Sie diesen besonderen Schein erkennen .
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Allerdings	allerdings	ADV	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	aber	aber	CCONJ	KON	_	2	L	2:L	_
+5	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+6	wir	wir	PRON	NE	_	11	A	11:A	_
+7	weiter	weiter	ADV	ADV	_	11	D	11:D	_
+8	in	in	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Golf	Golf	NOUN	NN	_	11	A	11:A	_
+11	hineinkommen	hineinkommen	VERB	VVFIN	_	2	H	2:H	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	werden	werden	AUX	VVFIN	_	18	F	18:F	_
+14	Sie	Sie|sie	PRON	PPER	_	18	A	18:A	_
+15	diesen	dies	PRON	PDAT	_	17	E	17:E	_
+16	besonderen	besonder	ADJ	ADJA	_	17	E	17:E	_
+17	Schein	Schein	NOUN	NN	_	18	A	18:A	_
+18	erkennen	erkennen	VERB	VVINF	_	2	H	2:H	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

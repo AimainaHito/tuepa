@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25617012
+# text = Es war 3 Uhr nachmittags ; die Wogen brachen sich , die Flut war fast voll .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	3	3	NUM	CARD	_	2	D	2:D	_
+4	Uhr	Uhr	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	nachmittags	nachmittags	ADV	ADV	_	3	E	3:E	_
+6	;	;	PUNCT	$.	_	2	U	2:U	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Wogen	Woge	NOUN	NN	_	9	A	9:A	_
+9	brachen	brechen	VERB	VVFIN	_	2	H	2:H	_
+10	sich	er|es|sie	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Flut	Flut	NOUN	NN	_	16	A	16:A	_
+14	war	sein	AUX	ADV	_	16	F	16:F	_
+15	fast	fast	ADV	ADV	_	16	D	16:D	_
+16	voll	voll	ADJ	VVFIN	_	2	H	2:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 116013
+# text = With her friends and siblings , she would put on plays and perform to her neighbors for 50 cents a ticket to raise money for the Navajo people .
+1	With	with	ADP	IN	_	3	R	3:R	_
+2	her	she	PRON	PRP$	_	3	E	3:E	_
+3	friends	friend	NOUN	NNS	_	9	A	9:A	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	siblings	sibling	NOUN	NNS	_	3	C	3:C	_
+6	,	,	PUNCT	,	_	9	U	9:U	_
+7	she	she	PRON	PRP	_	9	A	9:A|23:A|13:A	_
+8	would	would	AUX	MD	_	9	D	9:D	_
+9	put	put	VERB	VB	_	0	H	0:H	_
+10	on	on	ADP	IN	_	9	Terminal	9:Terminal	_
+11	plays	play	NOUN	NNS	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	9	L	9:L	_
+13	perform	perform	VERB	VB	_	9	H	9:H	_
+14	to	to	ADP	IN	_	16	R	16:R	_
+15	her	she	PRON	PRP$	_	16	E	16:E	_
+16	neighbors	neighbor	NOUN	NNS	_	13	A	13:A	_
+17	for	for	ADP	IN	_	19	R	19:R	_
+18	50	50	NUM	CD	_	19	E	19:E	_
+19	cents	cent	NOUN	NNS	_	13	A	13:A	_
+20	a	a	DET	DT	_	21	R	21:R	_
+21	ticket	ticket	NOUN	NN	_	19	E	19:E	_
+22	to	to	PART	TO	_	9	L	9:L	_
+23	raise	raise	VERB	VB	_	9	H	9:H	_
+24	money	money	NOUN	NN	_	23	A	23:A	_
+25	for	for	ADP	IN	_	28	R	28:R	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	Navajo	Navajo	PROPN	NNP	_	28	E	28:E	_
+28	people	people	NOUN	NNS	_	23	A	23:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25776005
+# text = » Nein « , erwiderte ich , » nur darf man sie nicht angreifen . Wenn ein Robbe sein Junges verteidigt , wird er furchtbar wütend , und nicht selten zertrümmert er ein Fischer boot . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nein	nein	PART	PTKANT	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	nur	nur	ADV	NE	_	14	D	14:D	_
+10	darf	dürfen	AUX	VMFIN	_	14	D	14:D	_
+11	man	man	PRON	PIS	_	14	A	14:A	_
+12	sie	sie	PRON	ADV	_	14	A	14:A	_
+13	nicht	nicht	PART	CARD	_	14	D	14:D	_
+14	angreifen	angreifen	VERB	VVINF	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	2	U	2:U	_
+16	Wenn	wenn	SCONJ	KOUS	_	2	L	2:L	_
+17	ein	ein	DET	ART	_	18	E	18:E	_
+18	Robbe	Robbe	NOUN	NN	_	21	A	21:A	_
+19	sein	sein	DET	PPOSAT	_	20	E	20:E	_
+20	Junges	jung	NOUN	NN	_	21	A	21:A	_
+21	verteidigt	verteidigen	VERB	VVFIN	_	2	H	2:H	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	wird	werden	AUX	VAFIN	_	26	F	26:F	_
+24	er	er	PRON	PPER	_	26	A	26:A	_
+25	furchtbar	furchtbar	ADJ	ADJD	_	26	D	26:D	_
+26	wütend	wütend	ADJ	ADJD	_	2	H	2:H	_
+27	,	,	PUNCT	$,	_	2	U	2:U	_
+28	und	und	CCONJ	NE	_	2	L	2:L	_
+29	nicht	nicht	PART	CARD	_	30	E	30:E	_
+30	selten	selten	ADJ	ADJA	_	31	D	31:D	_
+31	zertrümmert	zertrümmern	VERB	VVFIN	_	2	H	2:H	_
+32	er	er	PRON	PPER	_	31	A	31:A	_
+33	ein	ein	DET	ART	_	35	E	35:E	_
+34	Fischer	Fischer	NOUN	ADJA	_	35	E	35:E	_
+35	boot	boieten	VERB	NE	_	31	A	31:A	_
+36	.	.	PUNCT	$.	_	35	U	35:U	_
+37	«	«	PUNCT	$(	_	35	U	35:U	_
+

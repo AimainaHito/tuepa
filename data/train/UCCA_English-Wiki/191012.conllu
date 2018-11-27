@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 191012
+# text = Sorkin did uncredited script doctor work on several films in the 1990s .
+1	Sorkin	Sorkin	PROPN	NNP	_	2	A	2:A	_
+2	did	do	VERB	VBD	_	0	H	0:H	_
+3	uncredited	uncredit	ADJ	JJ	_	6	E	6:E	_
+4	script	script	NOUN	NN	_	5	E	5:E	_
+5	doctor	doctor	NOUN	NN	_	6	E	6:E	_
+6	work	work	NOUN	NN	_	2	A	2:A	_
+7	on	on	ADP	IN	_	9	R	9:R	_
+8	several	several	ADJ	JJ	_	9	E	9:E	_
+9	films	film	NOUN	NNS	_	2	A	2:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	1990s	1990	NOUN	NNS	_	2	D	2:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

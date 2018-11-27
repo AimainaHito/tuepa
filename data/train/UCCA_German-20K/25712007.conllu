@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25712007
+# text = » Ich teile meines Herrn Ansicht « , sagte Conseil .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	teile	teile	ADV	NN	_	9	A	9:A	_
+4	meines	mein	PRON	PPOSAT	_	5	R	5:R	_
+5	Herrn	Herr	NOUN	NN	_	6	E	6:E	_
+6	Ansicht	Ansicht	NOUN	VVPP	_	3	A	3:A	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+10	Conseil	Conseil	PROPN	NE	_	9	A	9:A	_
+11	.	.	PUNCT	$.	_	9	U	9:U	_
+

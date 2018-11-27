@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25702008
+# text = Er bemerkte den Dugong , verstand die Haltung des Kanadiers und sagte zu ihm :
+1	Er	er	PRON	PPER	_	2	A	2:A|6:A|12:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Dugong	Dugong	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	verstand	verstehen	VERB	VVFIN	_	2	H	2:H	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Haltung	Haltung	NOUN	NN	_	6	A	6:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Kanadiers	Kanadier	NOUN	NN	_	8	E	8:E	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	sagte	sagen	VERB	VVFIN	_	2	H	2:H	_
+13	zu	zu	ADP	NN	_	14	R	14:R	_
+14	ihm	er	PRON	PPER	_	12	A	12:A	_
+15	:	:	PUNCT	$.	_	14	U	14:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25505009
+# text = Aus der Klasse der Mollusken sah man so äußerst kostbare Stücke , dass sie einen etwas erregbaren Conchyliologen außer sich bringen konnten .
+1	Aus	aus	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Klasse	Klasse	NOUN	NN	_	5	E	5:E	_
+4	der	der	DET	ART	_	3	R	3:R	_
+5	Mollusken	Mollusko	NOUN	NN	_	6	A	6:A	_
+6	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+7	man	man	PRON	PIS	_	6	A	6:A	_
+8	so	so	ADV	ADV	_	6	L	6:L	_
+9	äußerst	äußerst	ADV	ADV	_	10	E	10:E	_
+10	kostbare	kostbar	ADJ	ADJA	_	11	E	11:E	_
+11	Stücke	Stück	NOUN	NN	_	6	A	6:A	_
+12	,	,	PUNCT	$,	_	6	U	6:U	_
+13	dass	dass	SCONJ	KOUS	_	6	L	6:L	_
+14	sie	sie	PRON	ADV	_	19	A	19:A	_
+15	einen	ein	DET	ART	_	18	E	18:E	_
+16	etwas	etwas	ADV	ADV	_	17	E	17:E	_
+17	erregbaren	erregbar	ADJ	ADJA	_	18	E	18:E	_
+18	Conchyliologen	Conchyliologe	NOUN	NN	_	19	A	19:A	_
+19	außer	außer	ADP	APPR	_	6	H	6:H	_
+20	sich	er|es|sie	PRON	PRF	_	19	Terminal	19:Terminal	_
+21	bringen	bringen	VERB	VVINF	_	19	Terminal	19:Terminal	_
+22	konnten	können	AUX	VMFIN	_	19	D	19:D	_
+23	.	.	PUNCT	$.	_	19	U	19:U	_
+

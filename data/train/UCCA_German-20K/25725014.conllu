@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25725014
+# text = Ich horchte , spitzte mein Ohr .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|4:A	_
+2	horchte	horchen	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	spitzte	spitzen	VERB	VVFIN	_	2	H	2:H	_
+5	mein	mein	PRON	PPOSAT	_	4	Terminal	4:Terminal	_
+6	Ohr	Ohr	NOUN	NN	_	4	Terminal	4:Terminal	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+

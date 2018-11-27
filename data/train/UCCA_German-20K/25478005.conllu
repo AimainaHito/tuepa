@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25478005
+# text = Über die Familie konnte ich mich noch nicht aussprechen .
+1	Über	über	ADP	APPR	_	3	R	3:R	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Familie	Familie	NOUN	NN	_	6	A	6:A	_
+4	konnte	können	AUX	VMFIN	_	6	D	6:D	_
+5	ich	ich	PRON	PPER	_	6	A	6:A	_
+6	mich	ich	PRON	PRF	_	0	H	0:H	_
+7	noch	noch	ADV	VVINF	_	8	E	8:E	_
+8	nicht	nicht	PART	XY	_	6	D	6:D	_
+9	aussprechen	aussprechen	VERB	VVINF	_	6	Terminal	6:Terminal	_
+10	.	.	PUNCT	$.	_	6	U	6:U	_
+

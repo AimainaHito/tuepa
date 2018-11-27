@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 520005
+# text = Her father was descended from the Marable family of Virginia ; her maternal grandfather from the Milnes of Aberdeen , Scotland ; and her maternal grandmother from Patrick Fitzpatrick , who emigrated to America in the 1770s from Smithstown , County Meath , Ireland .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	father	father	NOUN	NN	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	descended	descend	VERB	VBN	_	0	H	0:H	_
+5	from	from	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	Marable	Marable	ADJ	JJ	_	8	E	8:E	_
+8	family	family	NOUN	NN	_	4	A	4:A	_
+9	of	of	ADP	IN	_	10	R	10:R	_
+10	Virginia	Virginia	PROPN	NNP	_	8	E	8:E	_
+11	;	;	PUNCT	,	_	4	U	4:U	_
+12	her	she	PRON	PRP$	_	14	E	14:E	_
+13	maternal	maternal	ADJ	JJ	_	14	E	14:E	_
+14	grandfather	grandfather	NOUN	NN	_	4	H	4:H	_
+15	from	from	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	Milnes	Milnes	PROPN	NNPS	_	19	E	19:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	Aberdeen	Aberdeen	PROPN	NNP	_	14	A	14:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	Scotland	Scotland	PROPN	NNP	_	19	E	19:E	_
+22	;	;	PUNCT	,	_	4	U	4:U	_
+23	and	and	CCONJ	CC	_	4	L	4:L	_
+24	her	she	PRON	PRP$	_	26	E	26:E	_
+25	maternal	maternal	ADJ	JJ	_	26	E	26:E	_
+26	grandmother	grandmother	NOUN	NN	_	4	H	4:H	_
+27	from	from	ADP	IN	_	28	R	28:R	_
+28	Patrick	Patrick	PROPN	NNP	_	26	A	26:A	_
+29	Fitzpatrick	Fitzpatrick	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	,	,	PUNCT	,	_	28	U	28:U	_
+31	who	who	PRON	WP	_	32	R	32:R	_
+32	emigrated	emigrate	VERB	VBD	_	28	E	28:E	_
+33	to	to	ADP	IN	_	34	R	34:R	_
+34	America	America	PROPN	NNP	_	32	A	32:A	_
+35	in	in	ADP	IN	_	37	R	37:R	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	1770s	1770	NOUN	NNS	_	32	D	32:D	_
+38	from	from	ADP	IN	_	39	R	39:R	_
+39	Smithstown	Smithstown	PROPN	NNP	_	32	A	32:A	_
+40	,	,	PUNCT	,	_	39	U	39:U	_
+41	County	County	PROPN	NNP	_	39	E	39:E	_
+42	Meath	Meath	PROPN	NNP	_	41	Terminal	41:Terminal	_
+43	,	,	PUNCT	,	_	39	U	39:U	_
+44	Ireland	Ireland	PROPN	NNP	_	39	E	39:E	_
+45	.	.	PUNCT	.	_	39	U	39:U	_
+

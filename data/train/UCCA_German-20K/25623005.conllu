@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25623005
+# text = » Meiner Treu ! « entgegnete der Kanadier , » ich fange an zu begreifen , dass das Menschen fleisch gut schmecken mag ! «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Meiner	Meiner	PROPN	PPOSAT	_	15	G	15:G	_
+3	Treu	treu	PROPN	NE	_	2	Terminal	2:Terminal	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	entgegnete	entgegnen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kanadier	Kanadier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	ich	ich	PRON	PPER	_	15	A	15:A	_
+12	fange	fang	ADV	ADJA	_	15	D	15:D	_
+13	an	an	ADP	APPR	_	12	Terminal	12:Terminal	_
+14	zu	zu	PART	NE	_	15	F	15:F	_
+15	begreifen	begreifen	VERB	VVINF	_	6	A	6:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	dass	dass	SCONJ	KOUS	_	22	R	22:R	_
+18	das	der	DET	ART	_	20	E	20:E	_
+19	Menschen	Mensch	NOUN	NN	_	20	E	20:E	_
+20	fleisch	fleisch	ADJ	ADJD	_	22	A	22:A	_
+21	gut	gut	ADJ	ADJD	_	22	D	22:D	_
+22	schmecken	schmecken	VERB	VVINF	_	15	A	15:A	_
+23	mag	mögen	AUX	VVFIN	_	22	D	22:D	_
+24	!	!	PUNCT	$.	_	22	U	22:U	_
+25	«	«	PUNCT	$(	_	22	U	22:U	_
+

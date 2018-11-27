@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25493002
+# text = Auf diese Worte stand Ned Land plötzlich auf .
+1	Auf	auf	ADP	APPR	_	3	R	3:R	_
+2	diese	dies	PRON	PDAT	_	3	E	3:E	_
+3	Worte	Wort	NOUN	NN	_	4	A	4:A	_
+4	stand	stehen	VERB	VVFIN	_	0	H	0:H	_
+5	Ned	Ned	PROPN	NE	_	4	A	4:A	_
+6	Land	Land	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	plötzlich	plötzlich	ADJ	ADJD	_	4	D	4:D	_
+8	auf	auf	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+9	.	.	PUNCT	$.	_	4	U	4:U	_
+

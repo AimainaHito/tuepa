@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 666004
+# text = The album , titled Rainbow ( 1999 ) , found Carey once again working with a new array of music producers and songwriters , such as Jay - Z and DJ Clue ?
+1	The	the	DET	DT	_	2	E	2:E	_
+2	album	album	NOUN	NN	_	4	A	4:A	_
+3	,	,	PUNCT	,	_	4	U	4:U	_
+4	titled	title	VERB	VBN	_	14	A	14:A	_
+5	Rainbow	rainbow	PROPN	NNP	_	4	A	4:A	_
+6	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+7	1999	1999	NUM	CD	_	5	E	5:E	_
+8	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+9	,	,	PUNCT	,	_	14	U	14:U	_
+10	found	find	VERB	VBD	_	14	F	14:F	_
+11	Carey	Carey	PROPN	NNP	_	14	A	14:A	_
+12	once	once	SCONJ	IN	_	13	E	13:E	_
+13	again	again	ADV	RB	_	14	D	14:D	_
+14	working	work	VERB	VBG	_	0	H	0:H	_
+15	with	with	ADP	IN	_	21	R	21:R	_
+16	a	a	DET	DT	_	21	E	21:E	_
+17	new	new	ADJ	JJ	_	21	E	21:E	_
+18	array	array	NOUN	NN	_	21	E	21:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	music	music	NOUN	NN	_	21	E	21:E	_
+21	producers	producer	NOUN	NNS	_	14	A	14:A	_
+22	and	and	CCONJ	CC	_	21	N	21:N	_
+23	songwriters	songwriter	NOUN	NNS	_	21	C	21:C	_
+24	,	,	PUNCT	,	_	21	U	21:U	_
+25	such	such	ADJ	JJ	_	27	R	27:R	_
+26	as	as	ADP	IN	_	25	Terminal	25:Terminal	_
+27	Jay	Jay	PROPN	NNP	_	21	E	21:E	_
+28	-	-	PUNCT	HYPH	_	27	U	27:U	_
+29	Z	Z	PROPN	NNP	_	27	Terminal	27:Terminal	_
+30	and	and	CCONJ	CC	_	27	N	27:N	_
+31	DJ	DJ	PROPN	NNP	_	27	C	27:C	_
+32	Clue	clue	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	?	?	PUNCT	.	_	27	U	27:U	_
+

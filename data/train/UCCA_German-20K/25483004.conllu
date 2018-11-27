@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25483004
+# text = Die Gemüts bewegung , die mein ganzes Wesen ergriff , lässt sich nicht beschreiben .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	Gemüts	Gemüts	NOUN	NN	_	3	E	3:E	_
+3	bewegung	bewegung	NOUN	NN	_	12	A	12:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	PRON	PRELS	_	9	R	9:R	_
+6	mein	mein	PRON	PPOSAT	_	8	E	8:E	_
+7	ganzes	ganz	ADJ	ADJA	_	8	E	8:E	_
+8	Wesen	Wesen	NOUN	NN	_	9	A	9:A	_
+9	ergriff	ergreifen	VERB	VVFIN	_	3	E	3:E	_
+10	,	,	PUNCT	$,	_	12	U	12:U	_
+11	lässt	lassen	VERB	VVFIN	_	12	D	12:D	_
+12	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+13	nicht	nicht	PART	XY	_	12	D	12:D	_
+14	beschreiben	beschreiben	VERB	VVINF	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 133003
+# text = Kanin recalled how Hepburn contributed to the script : reading it , suggesting cuts and word changes , and generally providing helpful enthusiasm for the project .
+1	Kanin	Kanin	PROPN	NNP	_	2	A	2:A	_
+2	recalled	recall	VERB	VBD	_	0	H	0:H	_
+3	how	how	ADV	WRB	_	5	F	5:F	_
+4	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A|10:A|21:A|13:A	_
+5	contributed	contribute	VERB	VBD	_	2	A	2:A	_
+6	to	to	ADP	IN	_	7	R	7:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	script	script	NOUN	NN	_	5	A	5:A	_
+9	:	:	PUNCT	:	_	5	U	5:U	_
+10	reading	read	VERB	VBG	_	5	A	5:A	_
+11	it	it	PRON	PRP	_	10	A	10:A	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	suggesting	suggest	VERB	VBG	_	10	C	10:C	_
+14	cuts	cut	NOUN	NNS	_	13	A	13:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	word	word	NOUN	NN	_	17	E	17:E	_
+17	changes	change	NOUN	NNS	_	14	C	14:C	_
+18	,	,	PUNCT	,	_	10	U	10:U	_
+19	and	and	CCONJ	CC	_	10	N	10:N	_
+20	generally	generally	ADV	RB	_	21	D	21:D	_
+21	providing	provide	VERB	VBG	_	10	C	10:C	_
+22	helpful	helpful	ADJ	JJ	_	23	E	23:E	_
+23	enthusiasm	enthusiasm	NOUN	NN	_	21	A	21:A	_
+24	for	for	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	project	project	NOUN	NN	_	23	E	23:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

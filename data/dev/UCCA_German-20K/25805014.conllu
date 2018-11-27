@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25805014
+# text = Seit 6 Monaten waren wir Gefangene an Bord der ›Nautilus‹ .
+1	Seit	seit	ADP	APPR	_	3	R	3:R	_
+2	6	6	NUM	CARD	_	3	E	3:E	_
+3	Monaten	Monat	NOUN	NN	_	6	D	6:D	_
+4	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+5	wir	wir	PRON	NE	_	6	A	6:A	_
+6	Gefangene	Gefangene	NOUN	NN	_	0	H	0:H	_
+7	an	an	ADP	APPR	_	8	R	8:R	_
+8	Bord	Bord	NOUN	NN	_	6	A	6:A	_
+9	der	der	DET	ART	_	10	R	10:R	_
+10	›Nautilus‹	›Nautilus‹	NOUN	NE	_	8	E	8:E	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

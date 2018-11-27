@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25799001
+# text = » Dann « , sagte der Kanadier , » werden wir zuvor uns davonmachen . «
+1	»	»	PUNCT	$(	_	13	U	13:U	_
+2	Dann	dann	PROPN	ADV	_	13	R	13:R	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kanadier	Kanadier	NOUN	NN	_	5	A	5:A	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	werden	werden	AUX	VVFIN	_	13	F	13:F	_
+11	wir	wir	PRON	NE	_	13	A	13:A	_
+12	zuvor	zuvor	ADV	ADV	_	13	D	13:D	_
+13	uns	wir	PRON	NN	_	5	A	5:A	_
+14	davonmachen	davonmachen	VERB	ADJA	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+16	«	«	PUNCT	$(	_	13	U	13:U	_
+

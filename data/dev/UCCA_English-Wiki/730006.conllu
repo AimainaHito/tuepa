@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 730006
+# text = In the Land of Blood and Honey won the Stanley Kramer Award from the Producers Guild of America , which honors films that highlight provocative social issues .
+1	In	in	ADP	IN	_	8	A	8:A	_
+2	the	the	DET	DT	_	1	Terminal	1:Terminal	_
+3	Land	land	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	of	of	ADP	IN	_	1	Terminal	1:Terminal	_
+5	Blood	Blood	PROPN	NNP	_	1	Terminal	1:Terminal	_
+6	and	and	CCONJ	CC	_	1	Terminal	1:Terminal	_
+7	Honey	honey	PROPN	NNP	_	1	Terminal	1:Terminal	_
+8	won	win	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	12	E	12:E	_
+10	Stanley	Stanley	PROPN	NNP	_	12	E	12:E	_
+11	Kramer	Kramer	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Award	Award	PROPN	NNP	_	8	A	8:A	_
+13	from	from	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	Producers	Producers	PROPN	NNPS	_	16	E	16:E	_
+16	Guild	Guild	PROPN	NNP	_	8	A	8:A	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	America	America	PROPN	NNP	_	16	E	16:E	_
+19	,	,	PUNCT	,	_	16	U	16:U	_
+20	which	which	PRON	WDT	_	21	F	21:F	_
+21	honors	honor	VERB	VBZ	_	16	E	16:E	_
+22	films	film	NOUN	NNS	_	21	A	21:A	_
+23	that	that	PRON	WDT	_	24	F	24:F	_
+24	highlight	highlight	AUX	MD	_	21	A	21:A	_
+25	provocative	provocative	VERB	VB	_	27	E	27:E	_
+26	social	social	ADJ	JJ	_	27	E	27:E	_
+27	issues	issue	NOUN	NNS	_	24	A	24:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25488061
+# text = » Meinen Herrn im Stich lassen ! Niemals ! « erwiderte er .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Meinen	mein	NOUN	PPOSAT	_	3	E	3:E	_
+3	Herrn	Herr	PROPN	NN	_	4	A	4:A	_
+4	im	im	PROPN	NE	_	11	A	11:A	_
+5	Stich	Stich	PROPN	NE	_	4	Terminal	4:Terminal	_
+6	lassen	lassen	VERB	VVINF	_	4	Terminal	4:Terminal	_
+7	!	!	PUNCT	$.	_	4	U	4:U	_
+8	Niemals	niemals	PROPN	ADV	_	4	H	4:H	_
+9	!	!	PUNCT	$.	_	11	U	11:U	_
+10	«	«	PUNCT	$(	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	er	er	PRON	PPER	_	11	A	11:A	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25717007
+# text = Am besten konnte man , wann die ›Nautilus‹ in die Nähe der Oberfläche kam , die Thunfische beobachten , mit blauschwarzem Rücken , silbergepanzertem Leib und goldschimmernden Rückenflossen .
+1	Am	am	PROPN	ADJD	_	18	D	18:D	_
+2	besten	gut	ADJ	ADJA	_	1	Terminal	1:Terminal	_
+3	konnte	können	AUX	VMFIN	_	18	D	18:D	_
+4	man	man	PRON	PIS	_	18	A	18:A	_
+5	,	,	PUNCT	$,	_	18	U	18:U	_
+6	wann	winnen	VERB	VVFIN	_	18	L	18:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	14	A	14:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Nähe	Nähe	NOUN	NN	_	14	A	14:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Oberfläche	Oberfläche	NOUN	NN	_	11	E	11:E	_
+14	kam	kommen	VERB	VVFIN	_	18	H	18:H	_
+15	,	,	PUNCT	$,	_	18	U	18:U	_
+16	die	der	DET	PRELS	_	17	E	17:E	_
+17	Thunfische	Thunfische	NOUN	ADJA	_	18	A	18:A	_
+18	beobachten	beobachten	VERB	VVINF	_	0	H	0:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	blauschwarzem	blauschwarz	ADJ	ADJA	_	22	E	22:E	_
+22	Rücken	Rücken	NOUN	NN	_	17	E	17:E	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	silbergepanzertem	silbergepanzert	ADJ	ADJA	_	25	E	25:E	_
+25	Leib	Leib	NOUN	NN	_	22	C	22:C	_
+26	und	und	CCONJ	NE	_	22	N	22:N	_
+27	goldschimmernden	goldschimmernd	ADJ	VVINF	_	28	E	28:E	_
+28	Rückenflossen	Rückenflosse	NOUN	NN	_	22	C	22:C	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

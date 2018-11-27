@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25711001
+# text = Im Grunde konnte der Kanadier herzlich froh sein , dass er ihn nicht gegen sich hatte .
+1	Im	Im	ADJ	NE	_	2	R	2:R	_
+2	Grunde	Grund	NOUN	NN	_	7	D	7:D	_
+3	konnte	können	AUX	VMFIN	_	7	D	7:D	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Kanadier	Kanadier	NOUN	NN	_	7	A	7:A	_
+6	herzlich	herzlich	ADJ	ADJD	_	7	D	7:D	_
+7	froh	friehen	VERB	ADJD	_	0	H	0:H	_
+8	sein	sein	AUX	VAINF	_	7	F	7:F	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	dass	dass	SCONJ	KOUS	_	7	L	7:L	_
+11	er	er	PRON	PPER	_	16	A	16:A	_
+12	ihn	er	PRON	PPER	_	16	A	16:A	_
+13	nicht	nicht	PART	XY	_	16	D	16:D	_
+14	gegen	gegen	ADP	APPR	_	15	R	15:R	_
+15	sich	er|es|sie	PRON	PRF	_	16	A	16:A	_
+16	hatte	haben	VERB	VAFIN	_	7	H	7:H	_
+17	.	.	PUNCT	$.	_	16	U	16:U	_
+

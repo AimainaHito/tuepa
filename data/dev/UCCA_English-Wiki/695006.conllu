@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 695006
+# text = The first single , " Subterranean Homesick Blues " , owed much to Chuck Berry 's " Too Much Monkey Business " ; its free association lyrics have been described as both harkening back to the manic energy of Beat poetry and as a forerunner of rap and hip - hop .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	first	first	ADJ	JJ	_	3	E	3:E	_
+3	single	single	NOUN	NN	_	11	A	11:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	''	_	3	U	3:U	_
+6	Subterranean	Subterranean	PROPN	NNP	_	3	E	3:E	_
+7	Homesick	Homesick	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Blues	Blues	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	"	"	PUNCT	''	_	11	U	11:U	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	owed	ow	VERB	VBD	_	0	H	0:H	_
+12	much	much	ADV	RB	_	11	D	11:D	_
+13	to	to	ADP	IN	_	18	R	18:R	_
+14	Chuck	Chuck	PROPN	NNP	_	18	E	18:E	_
+15	Berry	Berry	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	's	's	PART	POS	_	14	R	14:R	_
+17	"	"	PUNCT	``	_	18	U	18:U	_
+18	Too	too	ADV	RB	_	11	A	11:A	_
+19	Much	much	ADJ	JJ	_	18	Terminal	18:Terminal	_
+20	Monkey	monkey	PROPN	NNP	_	18	Terminal	18:Terminal	_
+21	Business	business	PROPN	NNP	_	18	Terminal	18:Terminal	_
+22	"	"	PUNCT	''	_	11	U	11:U	_
+23	;	;	PUNCT	,	_	11	U	11:U	_
+24	its	its	PRON	PRP$	_	27	E	27:E	_
+25	free	free	ADJ	JJ	_	26	E	26:E	_
+26	association	association	NOUN	NN	_	27	E	27:E	_
+27	lyrics	lyric	NOUN	NNS	_	30	A	30:A	_
+28	have	have	AUX	VBP	_	30	F	30:F	_
+29	been	be	AUX	VBN	_	30	F	30:F	_
+30	described	describe	VERB	VBN	_	11	H	11:H	_
+31	as	as	ADP	IN	_	33	R	33:R	_
+32	both	both	DET	DT	_	33	N	33:N	_
+33	harkening	harken	NOUN	NN	_	30	A	30:A	_
+34	back	back	ADV	RB	_	33	Terminal	33:Terminal	_
+35	to	to	ADP	IN	_	38	R	38:R	_
+36	the	the	DET	DT	_	38	E	38:E	_
+37	manic	manic	ADJ	JJ	_	38	E	38:E	_
+38	energy	energy	NOUN	NN	_	33	A	33:A	_
+39	of	of	ADP	IN	_	41	R	41:R	_
+40	Beat	beat	PROPN	NNP	_	41	E	41:E	_
+41	poetry	poetry	NOUN	NN	_	38	E	38:E	_
+42	and	and	CCONJ	CC	_	33	N	33:N	_
+43	as	as	ADP	IN	_	45	R	45:R	_
+44	a	a	DET	DT	_	45	E	45:E	_
+45	forerunner	forerunner	NOUN	NN	_	33	C	33:C	_
+46	of	of	ADP	IN	_	47	R	47:R	_
+47	rap	rap	NOUN	NN	_	45	E	45:E	_
+48	and	and	CCONJ	CC	_	47	N	47:N	_
+49	hip	hip	NOUN	NN	_	47	C	47:C	_
+50	-	-	PUNCT	HYPH	_	49	U	49:U	_
+51	hop	hop	VERB	VB	_	49	Terminal	49:Terminal	_
+52	.	.	PUNCT	.	_	47	U	47:U	_
+

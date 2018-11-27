@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 552014
+# text = The late movie [ mogul ] was widely eulogized for his role in " shaping Hollywood 's ' Golden Age ' " .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	late	late	ADJ	JJ	_	3	E	3:E	_
+3	movie	movie	NOUN	NN	_	9	A	9:A	_
+4	[	[	PUNCT	-LRB-	_	3	U	3:U	_
+5	mogul	mogul	NOUN	NN	_	3	E	3:E	_
+6	]	]	PUNCT	-RRB-	_	9	U	9:U	_
+7	was	be	AUX	VBD	_	9	F	9:F	_
+8	widely	widely	ADV	RB	_	9	D	9:D	_
+9	eulogized	eulogize	VERB	VBN	_	0	H	0:H	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	role	role	NOUN	NN	_	9	A	9:A	_
+13	in	in	ADP	IN	_	15	F	15:F	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	shaping	sha	VERB	VBG	_	12	E	12:E	_
+16	Hollywood	Hollywood	PROPN	NNP	_	20	E	20:E	_
+17	's	's	PART	POS	_	16	R	16:R	_
+18	'	'	PUNCT	``	_	20	U	20:U	_
+19	Golden	golden	PROPN	NNP	_	20	E	20:E	_
+20	Age	age	PROPN	NNP	_	15	A	15:A	_
+21	'	'	PUNCT	''	_	20	U	20:U	_
+22	"	"	PUNCT	''	_	20	U	20:U	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

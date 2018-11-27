@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 477004
+# text = In 2012 , Johnson endorsed Barack Obama for President .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2012	2012	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Johnson	Johnson	PROPN	NNP	_	5	A	5:A	_
+5	endorsed	endorse	VERB	VBD	_	0	H	0:H	_
+6	Barack	Barack	PROPN	NNP	_	5	A	5:A	_
+7	Obama	Obama	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	for	for	ADP	IN	_	9	R	9:R	_
+9	President	President	PROPN	NNP	_	5	A	5:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

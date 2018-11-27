@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25797017
+# text = » Nein , Ned « , versetzte ich , » es war nicht mehr wert . Über einen edlen und guten Menschen geht nichts , und das seid Ihr ! «
+1	»	»	PUNCT	$(	_	15	U	15:U	_
+2	Nein	nein	PROPN	PTKANT	_	15	D	15:D	_
+3	,	,	PUNCT	$,	_	15	U	15:U	_
+4	Ned	Ned	PROPN	NN	_	15	G	15:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	es	es	PRON	PPER	_	15	A	15:A	_
+12	war	sein	AUX	ADV	_	15	F	15:F	_
+13	nicht	nicht	PART	CARD	_	15	D	15:D	_
+14	mehr	mehr	ADV	ADV	_	15	D	15:D	_
+15	wert	wert	ADJ	ADJD	_	7	A	7:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+17	Über	über	NOUN	APPR	_	22	R	22:R	_
+18	einen	ein	DET	ART	_	22	E	22:E	_
+19	edlen	edl	ADJ	ADJA	_	22	E	22:E	_
+20	und	und	CCONJ	NN	_	19	N	19:N	_
+21	guten	gut	ADJ	ADJA	_	19	C	19:C	_
+22	Menschen	Mensch	NOUN	NN	_	23	A	23:A	_
+23	geht	gehen	VERB	VVFIN	_	15	H	15:H	_
+24	nichts	nichts	PRON	NN	_	23	D	23:D	_
+25	,	,	PUNCT	$,	_	15	U	15:U	_
+26	und	und	CCONJ	NE	_	15	L	15:L	_
+27	das	der	DET	ART	_	28	A	28:A	_
+28	seid	seid	ADJ	NN	_	15	H	15:H	_
+29	Ihr	ihr	NOUN	PPER	_	28	A	28:A	_
+30	!	!	PUNCT	$.	_	28	U	28:U	_
+31	«	«	PUNCT	$(	_	28	U	28:U	_
+

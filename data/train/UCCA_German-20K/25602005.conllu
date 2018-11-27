@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25602005
+# text = » Ich weiß wenigstens , Kapitän , was die hauptsächlichen Sondierungen ergeben haben . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+4	wenigstens	wenigstens	ADV	ADV	_	3	D	3:D	_
+5	,	,	PUNCT	$,	_	3	U	3:U	_
+6	Kapitän	Kapitän	NOUN	NN	_	3	G	3:G	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	was	was	PRON	NE	_	12	A	12:A	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	hauptsächlichen	hauptsächlichen	ADJ	ADJA	_	11	E	11:E	_
+11	Sondierungen	Sondierung	NOUN	NN	_	12	A	12:A	_
+12	ergeben	ergeben	VERB	VVPP	_	3	A	3:A	_
+13	haben	haben	AUX	VAFIN	_	12	F	12:F	_
+14	.	.	PUNCT	$.	_	12	U	12:U	_
+15	«	«	PUNCT	$(	_	12	U	12:U	_
+

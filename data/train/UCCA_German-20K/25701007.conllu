@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25701007
+# text = » Ja , mein Lieber « , erwiderte ich , » bisweilen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PROPN	PPOSAT	_	5	E	5:E	_
+5	Lieber	Lieber	PROPN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	bisweilen	bisweilen	VERB	VVINF	_	2	H	2:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+14	«	«	PUNCT	$(	_	12	U	12:U	_
+

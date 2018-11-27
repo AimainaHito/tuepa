@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25594001
+# text = Keines von den Kräutern des Bodens , keiner von den Zweigen der Gebüsche rankte , bog sich oder wuchs in horizontaler Richtung .
+1	Keines	Kein	PRON	PIS	_	14	D	14:D|16:A|19:A	_
+2	von	von	ADP	NN	_	4	R	4:R	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kräutern	Kräuter	NOUN	NN	_	14	A	14:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Bodens	Boden	NOUN	NN	_	4	E	4:E	_
+7	,	,	PUNCT	$,	_	14	U	14:U	_
+8	keiner	kein	PRON	PIS	_	14	D	14:D	_
+9	von	von	ADP	NN	_	11	R	11:R	_
+10	den	der	DET	ART	_	11	E	11:E	_
+11	Zweigen	Zweig	NOUN	NN	_	14	A	14:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Gebüsche	Gebüsche	NOUN	ADJA	_	11	E	11:E	_
+14	rankte	ranken	VERB	VVFIN	_	0	H	0:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	bog	biegen	VERB	VVFIN	_	14	H	14:H	_
+17	sich	er|es|sie	PRON	PRF	_	16	Terminal	16:Terminal	_
+18	oder	oder	CCONJ	CARD	_	14	L	14:L	_
+19	wuchs	wachsen	VERB	VVFIN	_	14	H	14:H	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	horizontaler	horizontal	ADJ	ADJA	_	22	E	22:E	_
+22	Richtung	Richtung	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

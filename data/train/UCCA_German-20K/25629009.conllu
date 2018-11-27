@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25629009
+# text = » Ah ! Bravo ! Conseil « , rief ich aus .
+1	»	»	PUNCT	$(	_	9	U	9:U	_
+2	Ah	Ah	PROPN	NE	_	4	F	4:F	_
+3	!	!	PUNCT	$.	_	4	U	4:U	_
+4	Bravo	Bravo	PROPN	NE	_	9	A	9:A	_
+5	!	!	PUNCT	$.	_	4	U	4:U	_
+6	Conseil	Conseil	PROPN	NE	_	4	G	4:G	_
+7	«	«	PUNCT	$(	_	9	U	9:U	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	aus	aus	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

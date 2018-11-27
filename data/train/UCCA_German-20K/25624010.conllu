@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25624010
+# text = Manche waren noch nicht völlig reif , die enthielten in dicker Schale ein weißes , wenig faseriges Fleisch , andere , in großer Anzahl , gelblich und gallertartig , warteten nur , dass man sie einsammelte .
+1	Manche	manch	PRON	PIS	_	6	A	6:A	_
+2	waren	sein	AUX	VAFIN	_	6	F	6:F	_
+3	noch	noch	ADV	ADV	_	4	E	4:E	_
+4	nicht	nicht	PART	XY	_	6	D	6:D	_
+5	völlig	völlig	ADJ	ADJD	_	6	D	6:D	_
+6	reif	reif	NOUN	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	PRON	PRELS	_	9	A	9:A	_
+9	enthielten	enthalten	VERB	VVFIN	_	6	H	6:H	_
+10	in	in	ADP	APPR	_	12	R	12:R	_
+11	dicker	dick	ADJ	NE	_	12	E	12:E	_
+12	Schale	Schale	NOUN	NE	_	9	A	9:A	_
+13	ein	ein	DET	ART	_	18	E	18:E	_
+14	weißes	weiß	ADJ	ADJA	_	18	E	18:E	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	wenig	wenig	ADV	PPOSAT	_	17	E	17:E	_
+17	faseriges	faserig	ADJ	ADJA	_	14	C	14:C	_
+18	Fleisch	Fleisch	NOUN	NN	_	9	A	9:A	_
+19	,	,	PUNCT	$,	_	6	U	6:U	_
+20	andere	ander	PRON	PIS	_	30	A	30:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	großer	groß	ADJ	ADJA	_	24	E	24:E	_
+24	Anzahl	Anzahl	NOUN	NN	_	20	E	20:E	_
+25	,	,	PUNCT	$,	_	20	U	20:U	_
+26	gelblich	gelblich	ADJ	ADJD	_	20	E	20:E	_
+27	und	und	CCONJ	NE	_	26	N	26:N	_
+28	gallertartig	gallertartig	ADJ	ADJD	_	26	C	26:C	_
+29	,	,	PUNCT	$,	_	30	U	30:U	_
+30	warteten	warten	VERB	VVFIN	_	6	H	6:H	_
+31	nur	nur	ADV	NE	_	30	D	30:D	_
+32	,	,	PUNCT	$,	_	30	U	30:U	_
+33	dass	dass	SCONJ	KOUS	_	36	R	36:R	_
+34	man	man	PRON	PIS	_	36	A	36:A	_
+35	sie	sie	PRON	ADV	_	36	A	36:A	_
+36	einsammelte	einsammeln	VERB	VVFIN	_	30	A	30:A	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

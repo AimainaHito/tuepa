@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25593013
+# text = In der Tiefe von 300 Fuß waren die Sonnen strahlen nur noch schwach wahrzunehmen .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Tiefe	Tiefe	NOUN	NN	_	6	E	6:E	_
+4	von	von	ADP	NE	_	3	R	3:R	_
+5	300	300	NUM	CARD	_	6	E	6:E	_
+6	Fuß	Fuß	NOUN	NN	_	14	A	14:A	_
+7	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	Sonnen	Sonne	NOUN	NN	_	10	E	10:E	_
+10	strahlen	strahlen	VERB	VVFIN	_	14	A	14:A	_
+11	nur	nur	ADV	NE	_	14	D	14:D	_
+12	noch	noch	ADV	CARD	_	11	Terminal	11:Terminal	_
+13	schwach	schwach	ADJ	ADJD	_	14	D	14:D	_
+14	wahrzunehmen	wahrzunehmen	VERB	VVINF	_	0	H	0:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

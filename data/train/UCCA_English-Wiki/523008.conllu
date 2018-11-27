@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 523008
+# text = They teamed as lead characters for the first time in Babes in Arms .
+1	They	they	PRON	PRP	_	5	A	5:A	_
+2	teamed	team	VERB	VBD	_	5	D	5:D	_
+3	as	as	SCONJ	IN	_	5	R	5:R	_
+4	lead	lead	ADJ	JJ	_	5	E	5:E	_
+5	characters	character	NOUN	NNS	_	0	H	0:H	_
+6	for	for	ADP	IN	_	9	R	9:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	first	first	ADJ	JJ	_	9	E	9:E	_
+9	time	time	NOUN	NN	_	5	D	5:D	_
+10	in	in	ADP	IN	_	11	R	11:R	_
+11	Babes	Babes	NOUN	NNS	_	5	A	5:A	_
+12	in	in	ADP	IN	_	11	Terminal	11:Terminal	_
+13	Arms	arms	NOUN	NNS	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	.	_	11	U	11:U	_
+

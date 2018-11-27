@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 607018
+# text = Equipment technicians resolved the problems and David Bowie , Alison Moyet , Pete Townshend and Bob Geldof joined McCartney on stage , receiving an enthusiastic crowd reaction .
+1	Equipment	equipment	NOUN	NN	_	2	E	2:E	_
+2	technicians	technicians	NOUN	NNS	_	3	A	3:A	_
+3	resolved	resolve	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	problems	problem	NOUN	NNS	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	3	L	3:L	_
+7	David	David	PROPN	NNP	_	18	A	18:A|23:A	_
+8	Bowie	Bowie	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	Alison	Alison	PROPN	NNP	_	7	C	7:C	_
+11	Moyet	Moyet	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	Pete	Pete	PROPN	NNP	_	7	C	7:C	_
+14	Townshend	Townshend	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	and	and	CCONJ	CC	_	7	N	7:N	_
+16	Bob	Bob	PROPN	NNP	_	7	C	7:C	_
+17	Geldof	Geldof	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	joined	join	VERB	VBD	_	3	H	3:H	_
+19	McCartney	McCartney	PROPN	NNP	_	18	A	18:A	_
+20	on	on	ADP	IN	_	21	R	21:R	_
+21	stage	stage	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	,	_	3	U	3:U	_
+23	receiving	receive	VERB	VBG	_	3	H	3:H	_
+24	an	a	DET	DT	_	27	E	27:E	_
+25	enthusiastic	enthusiastic	ADJ	JJ	_	27	E	27:E	_
+26	crowd	crowd	NOUN	NN	_	27	E	27:E	_
+27	reaction	reaction	NOUN	NN	_	23	A	23:A	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

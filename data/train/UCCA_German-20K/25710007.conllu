@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25710007
+# text = Die Logik Ned Lands hatte mich in die Enge getrieben .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Logik	Logik	NOUN	NN	_	10	A	10:A	_
+3	Ned	Ned	PROPN	NE	_	2	E	2:E	_
+4	Lands	Land	PROPN	NE	_	3	Terminal	3:Terminal	_
+5	hatte	haben	AUX	VAFIN	_	10	F	10:F	_
+6	mich	ich	PRON	PPER	_	10	A	10:A	_
+7	in	in	ADP	APPR	_	9	R	9:R	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Enge	enge	NOUN	NN	_	10	A	10:A	_
+10	getrieben	treiben	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

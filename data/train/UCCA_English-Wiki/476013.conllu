@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 476013
+# text = In 1994 , Johnson became a minority owner of the Lakers , having reportedly paid more than $ 10 million for part ownership .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1994	1994	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Johnson	Johnson	PROPN	NNP	_	5	A	5:A|23:A|15:A	_
+5	became	become	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	minority	minority	NOUN	NN	_	8	E	8:E	_
+8	owner	owner	NOUN	NN	_	5	A	5:A	_
+9	of	of	ADP	IN	_	11	R	11:R	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	Lakers	Laker	NOUN	NNS	_	8	E	8:E	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	having	have	VERB	VBG	_	15	F	15:F	_
+14	reportedly	reportedly	ADV	RB	_	15	D	15:D	_
+15	paid	pay	VERB	VBD	_	5	H	5:H	_
+16	more	more	ADJ	JJR	_	19	R	19:R	_
+17	than	than	ADP	IN	_	16	F	16:F	_
+18	$	$	SYM	$	_	19	U	19:U	_
+19	10	10	NUM	CD	_	15	A	15:A	_
+20	million	million	NUM	CD	_	19	E	19:E	_
+21	for	for	ADP	IN	_	23	R	23:R	_
+22	part	part	NOUN	NN	_	23	E	23:E	_
+23	ownership	ownership	NOUN	NN	_	15	A	15:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 376009
+# text = Gyllenhaal 's father , who was raised as a Swedenborgian , is of Swedish and English descent , and is a descendant of the Swedish noble Gyllenhaal family .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	father	father	NOUN	NN	_	0	C	0:C|20:A|7:A	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	who	who	PRON	WP	_	7	G	7:G	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	raised	raise	VERB	VBN	_	3	E	3:E	_
+8	as	as	ADP	IN	_	10	R	10:R	_
+9	a	a	DET	DT	_	10	E	10:E	_
+10	Swedenborgian	Swedenborgian	PROPN	NNP	_	7	A	7:A	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	is	be	AUX	VBZ	_	0	H	0:H	_
+13	of	of	ADP	IN	_	17	R	17:R	_
+14	Swedish	swedish	ADJ	JJ	_	17	E	17:E	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	English	English	ADJ	JJ	_	14	C	14:C	_
+17	descent	descent	NOUN	NN	_	12	A	12:A	_
+18	,	,	PUNCT	,	_	12	U	12:U	_
+19	and	and	CCONJ	CC	_	12	L	12:L	_
+20	is	be	AUX	VBZ	_	12	H	12:H	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	descendant	descendant	NOUN	NN	_	20	A	20:A	_
+23	of	of	ADP	IN	_	28	R	28:R	_
+24	the	the	DET	DT	_	28	E	28:E	_
+25	Swedish	swedish	ADJ	JJ	_	28	E	28:E	_
+26	noble	noble	ADJ	JJ	_	28	E	28:E	_
+27	Gyllenhaal	Gyllenhaal	ADJ	JJ	_	28	E	28:E	_
+28	family	family	NOUN	NN	_	22	E	22:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

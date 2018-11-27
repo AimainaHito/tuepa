@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25666015
+# text = Die Luken wurden wieder geschlossen , und es wurde gerade westliche Richtung gegeben .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luken	Luken	NOUN	NN	_	5	A	5:A	_
+3	wurden	werden	AUX	NN	_	5	F	5:F	_
+4	wieder	wieder	ADV	NE	_	5	D	5:D	_
+5	geschlossen	schließen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	es	es	PRON	PPER	_	13	F	13:F	_
+9	wurde	werden	AUX	TRUNC	_	13	F	13:F	_
+10	gerade	gerade	ADV	ADV	_	13	D	13:D	_
+11	westliche	westlich	ADJ	NE	_	12	E	12:E	_
+12	Richtung	Richtung	NOUN	NN	_	13	A	13:A	_
+13	gegeben	geben	VERB	VVPP	_	5	H	5:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

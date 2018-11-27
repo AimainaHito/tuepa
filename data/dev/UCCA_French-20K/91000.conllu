@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 91000
+# text = L' accident était arrivé vers cinq heures du matin , lorsque le jour commençait à poindre .
+1	L'	le	DET	_	_	2	E	2:E	_
+2	accident	accident	NOUN	_	_	4	A	4:A	_
+3	était	être	AUX	_	_	4	F	4:F	_
+4	arrivé	arriver	VERB	_	_	0	H	0:H	_
+5	vers	vers	ADP	_	_	6	E	6:E	_
+6	cinq	cinq	NUM	_	_	4	D	4:D	_
+7	heures	heure	NOUN	_	_	6	Terminal	6:Terminal	_
+8	du	du	DET	_	_	9	R	9:R	_
+9	matin	matin	NOUN	_	_	6	E	6:E	_
+10	,	,	PUNCT	_	_	4	U	4:U	_
+11	lorsque	lorsque	SCONJ	_	_	4	L	4:L	_
+12	le	le	DET	_	_	13	E	13:E	_
+13	jour	jour	NOUN	_	_	16	A	16:A	_
+14	commençait	commencer	VERB	_	_	16	D	16:D	_
+15	à	à	ADP	_	_	16	R	16:R	_
+16	poindre	poindrer	VERB	_	_	4	H	4:H	_
+17	.	.	PUNCT	_	_	16	U	16:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25670004
+# text = Einer solchen Truppe von Argonauten , die auf der Oberfläche des Ozeans wanderte und mehrere Hunderte zählte , begegneten wir damals .
+1	Einer	ein	PRON	PIS	_	3	E	3:E	_
+2	solchen	solch	PRON	PIAT	_	3	E	3:E	_
+3	Truppe	Truppe	NOUN	NN	_	5	E	5:E	_
+4	von	von	ADP	NN	_	5	R	5:R	_
+5	Argonauten	Argonau	NOUN	NN	_	19	A	19:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	die	der	PRON	PRELS	_	13	R	13:R	_
+8	auf	auf	ADP	APPR	_	12	R	12:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Oberfläche	Oberfläche	NOUN	NN	_	12	E	12:E	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Ozeans	Ozeans	PROPN	NN	_	13	A	13:A	_
+13	wanderte	wandern	VERB	VVFIN	_	5	E	5:E	_
+14	und	und	CCONJ	NE	_	13	L	13:L	_
+15	mehrere	mehrere	PRON	PIAT	_	16	E	16:E	_
+16	Hunderte	Hundert	NOUN	NE	_	17	A	17:A	_
+17	zählte	zählen	VERB	VVFIN	_	13	H	13:H	_
+18	,	,	PUNCT	$,	_	19	U	19:U	_
+19	begegneten	begegneten	VERB	VVFIN	_	0	H	0:H	_
+20	wir	wir	PRON	NE	_	19	A	19:A	_
+21	damals	damals	ADV	ADV	_	19	D	19:D	_
+22	.	.	PUNCT	$.	_	19	U	19:U	_
+

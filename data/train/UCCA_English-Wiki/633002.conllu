@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 633002
+# text = Lennon first met Paul McCartney at the Quarrymen 's second performance , held in Woolton on 6 July at the St. Peter 's Church garden fête , after which McCartney was asked to join the band .
+1	Lennon	Lennon	PROPN	NNP	_	3	A	3:A	_
+2	first	first	ADV	RB	_	3	D	3:D	_
+3	met	meet	VERB	VBD	_	0	H	0:H	_
+4	Paul	Paul	PROPN	NNP	_	3	A	3:A	_
+5	McCartney	McCartney	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	at	at	ADP	IN	_	11	R	11:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	Quarrymen	Quarrymen	PROPN	NNPS	_	11	A	11:A	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	second	second	ADJ	JJ	_	11	D	11:D	_
+11	performance	performance	NOUN	NN	_	3	A	3:A	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	held	hold	VERB	VBD	_	11	E	11:E	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Woolton	Woolton	PROPN	NNP	_	13	A	13:A	_
+16	on	on	ADP	IN	_	18	R	18:R	_
+17	6	6	NUM	CD	_	18	E	18:E	_
+18	July	July	PROPN	NNP	_	13	D	13:D	_
+19	at	at	ADP	IN	_	26	R	26:R	_
+20	the	the	DET	DT	_	26	E	26:E	_
+21	St.	St.	PROPN	NNP	_	24	E	24:E	_
+22	Peter	Peter	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	's	's	PART	POS	_	21	R	21:R	_
+24	Church	church	PROPN	NNP	_	26	E	26:E	_
+25	garden	garden	PROPN	NNP	_	26	E	26:E	_
+26	fête	fête	NOUN	NN	_	13	A	13:A	_
+27	,	,	PUNCT	,	_	3	U	3:U	_
+28	after	after	ADP	IN	_	3	L	3:L	_
+29	which	which	PRON	WDT	_	28	Terminal	28:Terminal	_
+30	McCartney	McCartney	PROPN	NNP	_	34	A	34:A	_
+31	was	be	AUX	VBD	_	32	F	32:F	_
+32	asked	ask	VERB	VBN	_	34	E	34:E	_
+33	to	to	PART	TO	_	34	F	34:F	_
+34	join	join	VERB	VB	_	3	H	3:H	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	band	band	NOUN	NN	_	34	A	34:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25754029
+# text = » Vielleicht « , sagte Conseil ; » aber am Ende kann die ›Nautilus‹ doch nur eine gewisse Anzahl Menschen fassen , und mein Herr könnte wohl schätzen , wie viele höchstens ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Vielleicht	vielleicht	NOUN	NN	_	5	A	5:A	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	PROPN	NE	_	5	A	5:A	_
+7	;	;	PUNCT	$.	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	aber	aber	ADV	ADV	_	2	L	2:L	_
+10	am	am	ADJ	ADJD	_	11	R	11:R	_
+11	Ende	Ende	NOUN	NN	_	21	D	21:D	_
+12	kann	können	AUX	VMFIN	_	21	D	21:D|30:D	_
+13	die	der	DET	ART	_	14	E	14:E	_
+14	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|30:A	_
+15	doch	doch	ADV	NN	_	21	D	21:D	_
+16	nur	nur	ADV	NE	_	21	D	21:D	_
+17	eine	ein	DET	ART	_	19	E	19:E	_
+18	gewisse	gewiß	ADJ	ADJA	_	19	E	19:E	_
+19	Anzahl	Anzahl	NOUN	NN	_	20	E	20:E	_
+20	Menschen	Mensch	NOUN	NN	_	21	A	21:A	_
+21	fassen	fassen	VERB	VVINF	_	2	H	2:H	_
+22	,	,	PUNCT	$,	_	2	U	2:U	_
+23	und	und	CCONJ	NE	_	2	L	2:L	_
+24	mein	mein	PRON	PPOSAT	_	25	E	25:E	_
+25	Herr	Herr	NOUN	NN	_	28	A	28:A	_
+26	könnte	können	AUX	VMFIN	_	28	D	28:D	_
+27	wohl	wohl	ADV	ADV	_	28	D	28:D	_
+28	schätzen	schätzen	VERB	VVFIN	_	2	H	2:H	_
+29	,	,	PUNCT	$,	_	28	U	28:U	_
+30	wie	wie	SCONJ	KON	_	28	A	28:A	_
+31	viele	viel	PRON	NN	_	30	Terminal	30:Terminal	_
+32	höchstens	höchstens	ADV	ADV	_	30	D	30:D	_
+33	?	?	PUNCT	$.	_	30	U	30:U	_
+34	«	«	PUNCT	$(	_	30	U	30:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25777016
+# text = War dies morgen nicht ausführbar , so mußten wir definitiv darauf verzichten .
+1	War	sein	AUX	ADV	_	5	F	5:F	_
+2	dies	dies	PRON	PDS	_	5	A	5:A	_
+3	morgen	morgen	ADV	ADV	_	5	D	5:D	_
+4	nicht	nicht	PART	XY	_	5	D	5:D	_
+5	ausführbar	ausführbar	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	so	so	ADV	ADV	_	5	L	5:L	_
+8	mußten	müssen	AUX	NN	_	12	D	12:D	_
+9	wir	wir	PRON	NE	_	12	A	12:A	_
+10	definitiv	definitiv	ADJ	ADJD	_	12	D	12:D	_
+11	darauf	darauf	ADV	PAV	_	12	A	12:A	_
+12	verzichten	verzichten	VERB	VVINF	_	5	H	5:H	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

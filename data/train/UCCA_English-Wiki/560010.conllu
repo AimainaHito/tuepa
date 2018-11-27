@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 560010
+# text = Several record companies had by now shown interest in signing him .
+1	Several	several	ADJ	JJ	_	3	E	3:E	_
+2	record	record	NOUN	NN	_	3	E	3:E	_
+3	companies	company	NOUN	NNS	_	8	A	8:A	_
+4	had	have	VERB	VBN	_	8	F	8:F	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	now	now	ADV	RB	_	8	D	8:D	_
+7	shown	show	VERB	VBN	_	8	D	8:D	_
+8	interest	interest	NOUN	NN	_	0	H	0:H	_
+9	in	in	SCONJ	IN	_	10	R	10:R	_
+10	signing	sign	VERB	VBG	_	8	A	8:A	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

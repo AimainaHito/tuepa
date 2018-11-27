@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25721003
+# text = Aus seinen zusammengepreßten Lippen , der gerunzelten Stirn konnte man abnehmen , dass er stark von einer fixen Idee befangen war .
+1	Aus	aus	ADP	APPR	_	4	R	4:R	_
+2	seinen	sein	DET	PPOSAT	_	4	E	4:E	_
+3	zusammengepreßten	zusammengepreßt	ADJ	NE	_	11	A	11:A	_
+4	Lippen	Lippe	NOUN	NE	_	3	A	3:A	_
+5	,	,	PUNCT	$,	_	11	U	11:U	_
+6	der	der	DET	PRELS	_	8	E	8:E	_
+7	gerunzelten	gerunzelt	ADJ	ADJA	_	11	A	11:A	_
+8	Stirn	Stirn	NOUN	NN	_	7	A	7:A	_
+9	konnte	können	AUX	VMFIN	_	11	D	11:D	_
+10	man	man	PRON	PIS	_	11	A	11:A	_
+11	abnehmen	abnehmen	VERB	VVINF	_	0	H	0:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	dass	dass	SCONJ	KOUS	_	20	R	20:R	_
+14	er	er	PRON	PPER	_	20	A	20:A	_
+15	stark	stark	ADJ	NN	_	20	D	20:D	_
+16	von	von	ADP	NN	_	19	R	19:R	_
+17	einer	ein	DET	ART	_	19	E	19:E	_
+18	fixen	fix	ADJ	ADJA	_	19	E	19:E	_
+19	Idee	Idee	NOUN	NN	_	20	A	20:A	_
+20	befangen	befangen	VERB	NE	_	11	A	11:A	_
+21	war	sein	AUX	NE	_	20	F	20:F	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

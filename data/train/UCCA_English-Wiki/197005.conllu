@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 197005
+# text = He delivered a first draft of the play to the Abbey Theatre in early 2005 , and a production was purportedly planned for 2007 with La Jolla Playhouse in California deciding to stage a workshop production of the play in collaboration with the Abbey Theatre .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	delivered	deliver	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	first	first	ADJ	JJ	_	5	E	5:E	_
+5	draft	draft	NOUN	NN	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	play	play	NOUN	NN	_	2	A	2:A	_
+9	to	to	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	Abbey	Abbey	PROPN	NNP	_	12	E	12:E	_
+12	Theatre	theatre	PROPN	NNP	_	2	A	2:A	_
+13	in	in	ADP	IN	_	15	R	15:R	_
+14	early	early	ADJ	JJ	_	15	E	15:E	_
+15	2005	2005	NUM	CD	_	2	D	2:D	_
+16	,	,	PUNCT	,	_	2	U	2:U	_
+17	and	and	CCONJ	CC	_	2	L	2:L	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	production	production	NOUN	NN	_	22	A	22:A	_
+20	was	be	AUX	VBD	_	22	F	22:F	_
+21	purportedly	purportedly	ADV	RB	_	22	D	22:D	_
+22	planned	plan	VERB	VBN	_	2	H	2:H	_
+23	for	for	ADP	IN	_	24	R	24:R	_
+24	2007	2007	NUM	CD	_	22	D	22:D	_
+25	with	with	ADP	IN	_	2	L	2:L	_
+26	La	La	PROPN	NNP	_	31	A	31:A	_
+27	Jolla	Jolla	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	Playhouse	Playhouse	PROPN	NNP	_	26	Terminal	26:Terminal	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	California	California	PROPN	NNP	_	26	E	26:E	_
+31	deciding	decide	VERB	VBG	_	2	H	2:H	_
+32	to	to	PART	TO	_	33	F	33:F	_
+33	stage	stage	VERB	VB	_	31	A	31:A	_
+34	a	a	DET	DT	_	36	E	36:E	_
+35	workshop	workshop	NOUN	NN	_	36	E	36:E	_
+36	production	production	NOUN	NN	_	33	A	33:A	_
+37	of	of	ADP	IN	_	39	R	39:R	_
+38	the	the	DET	DT	_	39	E	39:E	_
+39	play	play	NOUN	NN	_	36	A	36:A	_
+40	in	in	ADP	IN	_	41	R	41:R	_
+41	collaboration	collaboration	NOUN	NN	_	33	A	33:A	_
+42	with	with	ADP	IN	_	45	R	45:R	_
+43	the	the	DET	DT	_	45	E	45:E	_
+44	Abbey	Abbey	PROPN	NNP	_	45	E	45:E	_
+45	Theatre	theatre	PROPN	NNP	_	41	A	41:A	_
+46	.	.	PUNCT	.	_	45	U	45:U	_
+

@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 659016
+# text = While requiring work to pay for her rent , Carey 's mind and effort still remained with her musical ambitions , as she continued working late into the night with Margulies , in hopes of completing a demo that could be passed on to record executives .
+1	While	while	SCONJ	IN	_	2	L	2:L	_
+2	requiring	require	VERB	VBG	_	0	H	0:H	_
+3	work	work	NOUN	NN	_	2	A	2:A	_
+4	to	to	PART	TO	_	2	L	2:L	_
+5	pay	pay	VERB	VB	_	2	H	2:H	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	her	she	PRON	PRP$	_	8	E	8:E	_
+8	rent	rent	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	,	_	5	U	5:U	_
+10	Carey	Carey	PROPN	NNP	_	0	C	0:C|2:A|5:A	_
+11	's	's	PART	POS	_	10	R	10:R	_
+12	mind	mind	NOUN	NN	_	16	A	16:A	_
+13	and	and	CCONJ	CC	_	12	N	12:N	_
+14	effort	effort	NOUN	NN	_	12	C	12:C	_
+15	still	still	ADV	RB	_	16	D	16:D	_
+16	remained	remain	VERB	VBD	_	2	H	2:H	_
+17	with	with	ADP	IN	_	20	R	20:R	_
+18	her	she	PRON	PRP	_	20	E	20:E	_
+19	musical	musical	ADJ	JJ	_	20	E	20:E	_
+20	ambitions	ambition	NOUN	NNS	_	16	A	16:A	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	as	as	SCONJ	IN	_	2	L	2:L	_
+23	she	she	PRON	PRP	_	25	A	25:A	_
+24	continued	continue	VERB	VBD	_	25	D	25:D	_
+25	working	work	VERB	VBG	_	2	H	2:H	_
+26	late	late	ADV	RB	_	29	E	29:E	_
+27	into	into	ADP	IN	_	29	R	29:R	_
+28	the	the	DET	DT	_	29	E	29:E	_
+29	night	night	NOUN	NN	_	25	D	25:D	_
+30	with	with	ADP	IN	_	31	R	31:R	_
+31	Margulies	Marguly	PROPN	NNP	_	25	A	25:A	_
+32	,	,	PUNCT	,	_	2	U	2:U	_
+33	in	in	ADP	IN	_	34	R	34:R	_
+34	hopes	hope	NOUN	NNS	_	2	H	2:H	_
+35	of	of	SCONJ	IN	_	36	F	36:F	_
+36	completing	complete	VERB	VBG	_	34	A	34:A	_
+37	a	a	DET	DT	_	38	E	38:E	_
+38	demo	demo	NOUN	NN	_	36	A	36:A	_
+39	that	that	PRON	WDT	_	42	R	42:R	_
+40	could	could	AUX	MD	_	42	D	42:D	_
+41	be	be	AUX	VB	_	42	F	42:F	_
+42	passed	pass	VERB	VBN	_	38	E	38:E	_
+43	on	on	ADP	IN	_	42	R	42:R	_
+44	to	to	ADP	IN	_	46	R	46:R	_
+45	record	record	ADJ	JJ	_	46	E	46:E	_
+46	executives	executive	NOUN	NNS	_	42	A	42:A	_
+47	.	.	PUNCT	.	_	46	U	46:U	_
+

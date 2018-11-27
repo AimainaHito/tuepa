@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 251006
+# text = The Variety reviewer wrote : " While Ethan Hawke uses the space confidently , he allows his talented cast to push mannered material further into self - consciousness .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	Variety	variety	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	reviewer	reviewer	NOUN	NN	_	4	A	4:A	_
+4	wrote	write	VERB	VBD	_	0	H	0:H	_
+5	:	:	PUNCT	:	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	While	While	SCONJ	IN	_	10	L	10:L	_
+8	Ethan	Ethan	PROPN	NNP	_	10	A	10:A	_
+9	Hawke	Hawke	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	uses	use	VERB	VBZ	_	4	A	4:A	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	space	space	NOUN	NN	_	10	A	10:A	_
+13	confidently	confidently	ADV	RB	_	10	D	10:D	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	allows	allow	VERB	VBZ	_	10	H	10:H	_
+17	his	he	PRON	PRP$	_	19	E	19:E	_
+18	talented	talented	ADJ	JJ	_	19	E	19:E	_
+19	cast	cast	NOUN	NN	_	16	A	16:A|21:A	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	push	push	VERB	VB	_	16	A	16:A	_
+22	mannered	manner	ADJ	JJ	_	23	E	23:E	_
+23	material	material	NOUN	NN	_	21	A	21:A	_
+24	further	further	ADV	RB	_	28	E	28:E	_
+25	into	into	ADP	IN	_	28	R	28:R	_
+26	self	self	NOUN	NN	_	28	E	28:E	_
+27	-	-	PUNCT	HYPH	_	28	U	28:U	_
+28	consciousness	consciousness	NOUN	NN	_	21	A	21:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

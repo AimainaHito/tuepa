@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25717011
+# text = Doch den Provençalen entrinnen sie nicht , welche sie ebenfalls schmackhaft finden und sie zu Tausenden in großen Netzen fangen , indem sie blindlings , wie betäubt in diese hineingeraten .
+1	Doch	doch	ADV	ADV	_	4	L	4:L	_
+2	den	der	DET	ART	_	3	E	3:E	_
+3	Provençalen	Provençale	NOUN	NE	_	4	A	4:A	_
+4	entrinnen	entrinnen	VERB	VVFIN	_	0	H	0:H	_
+5	sie	sie	PRON	ADV	_	4	A	4:A	_
+6	nicht	nicht	PART	CARD	_	4	D	4:D	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	welche	welch	PRON	NN	_	11	R	11:R	_
+9	sie	sie	PRON	ADV	_	11	A	11:A	_
+10	ebenfalls	ebenfalls	ADV	ADV	_	11	D	11:D	_
+11	schmackhaft	schmackhaft	ADJ	ADJD	_	3	E	3:E	_
+12	finden	finden	VERB	VVFIN	_	11	D	11:D	_
+13	und	und	CCONJ	NE	_	11	N	11:N	_
+14	sie	sie	PRON	ADV	_	20	A	20:A	_
+15	zu	zu	ADP	NE	_	16	R	16:R	_
+16	Tausenden	tausenden	NOUN	NN	_	20	A	20:A	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	großen	groß	ADJ	ADJA	_	19	E	19:E	_
+19	Netzen	Netz	NOUN	NN	_	20	A	20:A	_
+20	fangen	fangen	VERB	NE	_	11	C	11:C	_
+21	,	,	PUNCT	$,	_	4	U	4:U	_
+22	indem	indem	SCONJ	KOUS	_	4	L	4:L	_
+23	sie	sie	PRON	ADV	_	30	A	30:A|24:A|27:A	_
+24	blindlings	blindlings	ADV	NN	_	4	H	4:H	_
+25	,	,	PUNCT	$,	_	4	U	4:U	_
+26	wie	wie	ADV	KON	_	4	L	4:L	_
+27	betäubt	betäuben	ADJ	VVFIN	_	4	H	4:H	_
+28	in	in	ADP	APPR	_	29	R	29:R	_
+29	diese	dies	PRON	PDS	_	30	A	30:A	_
+30	hineingeraten	hineingeraten	VERB	VVINF	_	4	H	4:H	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

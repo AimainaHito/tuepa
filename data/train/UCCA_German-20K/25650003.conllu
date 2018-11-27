@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25650003
+# text = » Sind Sie Arzt ? « fragte er nochmals . » Manche Ihrer Kollegen haben Medizin studiert . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Sind	sein	AUX	NN	_	7	A	7:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	Arzt	Arzt	NOUN	NN	_	2	A	2:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	nochmals	nochmals	ADV	ADV	_	7	D	7:D	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	Manche	manch	PRON	PIAT	_	14	E	14:E	_
+13	Ihrer	ihr	DET	PPOSAT	_	14	E	14:E	_
+14	Kollegen	Kollege	NOUN	NN	_	17	A	17:A	_
+15	haben	haben	VERB	VAFIN	_	17	F	17:F	_
+16	Medizin	Medizin	NOUN	NN	_	17	A	17:A	_
+17	studiert	studieren	ADJ	VVPP	_	2	H	2:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+19	«	«	PUNCT	$(	_	17	U	17:U	_
+

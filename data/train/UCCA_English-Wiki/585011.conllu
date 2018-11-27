@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 585011
+# text = The BBC genealogical TV program Who Do You Think You Are ? , traced Depp 's family name , Deppes , to 14th - century French Huguenots living in England .
+1	The	the	DET	DT	_	6	E	6:E	_
+2	BBC	BBC	PROPN	NNP	_	5	E	5:E	_
+3	genealogical	genealogical	ADJ	JJ	_	5	E	5:E	_
+4	TV	tv	NOUN	NN	_	5	E	5:E	_
+5	program	program	NOUN	NN	_	6	E	6:E	_
+6	Who	who	PRON	WP	_	14	A	14:A	_
+7	Do	do	AUX	VBP	_	6	Terminal	6:Terminal	_
+8	You	you	PRON	PRP	_	6	Terminal	6:Terminal	_
+9	Think	think	VERB	VB	_	6	Terminal	6:Terminal	_
+10	You	you	PRON	PRP	_	6	Terminal	6:Terminal	_
+11	Are	be	AUX	VBP	_	6	Terminal	6:Terminal	_
+12	?	?	PUNCT	.	_	14	U	14:U	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	traced	trace	VERB	VBD	_	0	H	0:H	_
+15	Depp	Depp	PROPN	NNP	_	18	E	18:E	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	family	family	NOUN	NN	_	18	E	18:E	_
+18	name	name	NOUN	NN	_	20	E	20:E	_
+19	,	,	PUNCT	,	_	20	U	20:U	_
+20	Deppes	Deppe	PROPN	NNP	_	14	A	14:A	_
+21	,	,	PUNCT	,	_	14	U	14:U	_
+22	to	to	ADP	IN	_	27	R	27:R	_
+23	14th	14th	ADJ	JJ	_	25	E	25:E	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	century	century	NOUN	NN	_	27	E	27:E	_
+26	French	french	ADJ	JJ	_	27	E	27:E	_
+27	Huguenots	Huguenot	PROPN	NNPS	_	14	A	14:A	_
+28	living	live	VERB	VBG	_	27	E	27:E	_
+29	in	in	ADP	IN	_	30	R	30:R	_
+30	England	England	PROPN	NNP	_	28	A	28:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 592000
+# text = Depp and Paradis grew grapes and had wine making facilities in their vineyard in Plan - de - la - Tour north of Saint - Tropez .
+1	Depp	Depp	PROPN	NNP	_	4	A	4:A|7:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Paradis	Paradis	PROPN	NNP	_	1	C	1:C	_
+4	grew	grow	VERB	VBD	_	0	H	0:H	_
+5	grapes	grape	NOUN	NNS	_	4	A	4:A	_
+6	and	and	CCONJ	CC	_	4	L	4:L	_
+7	had	have	VERB	VBD	_	4	H	4:H	_
+8	wine	wine	NOUN	NN	_	9	E	9:E	_
+9	making	making	VERB	VBG	_	10	E	10:E	_
+10	facilities	facility	NOUN	NNS	_	7	A	7:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	their	they	PRON	PRP$	_	13	E	13:E	_
+13	vineyard	vineyard	NOUN	NN	_	7	A	7:A	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	Plan	plan	PROPN	NNP	_	13	E	13:E	_
+16	-	-	PUNCT	HYPH	_	15	U	15:U	_
+17	de	de	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	-	-	PUNCT	HYPH	_	15	U	15:U	_
+19	la	la	PROPN	NNP	_	15	Terminal	15:Terminal	_
+20	-	-	PUNCT	HYPH	_	15	U	15:U	_
+21	Tour	Tour	PROPN	NNP	_	15	Terminal	15:Terminal	_
+22	north	north	ADV	RB	_	24	R	24:R	_
+23	of	of	ADP	IN	_	24	F	24:F	_
+24	Saint	Saint	PROPN	NNP	_	13	E	13:E	_
+25	-	-	PUNCT	HYPH	_	24	U	24:U	_
+26	Tropez	Tropez	PROPN	NNP	_	24	Terminal	24:Terminal	_
+27	.	.	PUNCT	.	_	24	U	24:U	_
+

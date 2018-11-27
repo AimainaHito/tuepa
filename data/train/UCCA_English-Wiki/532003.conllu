@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 532003
+# text = She made guest appearances on The Ed Sullivan Show and The Tonight Show .
+1	She	she	PRON	PRP	_	4	A	4:A	_
+2	made	make	VERB	VBD	_	4	F	4:F	_
+3	guest	guest	NOUN	NN	_	4	E	4:E	_
+4	appearances	appearance	NOUN	NNS	_	0	H	0:H	_
+5	on	on	ADP	IN	_	6	R	6:R	_
+6	The	the	DET	DT	_	4	A	4:A	_
+7	Ed	Ed	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Sullivan	Sullivan	PROPN	NNP	_	6	Terminal	6:Terminal	_
+9	Show	show	NOUN	NN	_	6	Terminal	6:Terminal	_
+10	and	and	CCONJ	CC	_	6	N	6:N	_
+11	The	the	DET	DT	_	6	C	6:C	_
+12	Tonight	Tonight	NOUN	NN	_	11	Terminal	11:Terminal	_
+13	Show	show	ADV	WRB	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	.	_	6	U	6:U	_
+

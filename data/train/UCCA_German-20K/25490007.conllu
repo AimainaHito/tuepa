@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25490007
+# text = Der Stew-ard hatte nur während unseres Schlafs die Tafel abgedeckt .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Stew-ard	Stew-ard	NOUN	NN	_	10	A	10:A	_
+3	hatte	haben	AUX	VAFIN	_	10	F	10:F	_
+4	nur	nur	ADV	NE	_	10	D	10:D	_
+5	während	während	ADP	NE	_	7	R	7:R	_
+6	unseres	unser	PRON	PPOSAT	_	7	E	7:E	_
+7	Schlafs	Schlaf	NOUN	NN	_	10	H	10:H	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	Tafel	Tafel	NOUN	NN	_	10	A	10:A	_
+10	abgedeckt	abdecken	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

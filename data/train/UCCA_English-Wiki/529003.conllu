@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 529003
+# text = Groucho Marx sent her a telegram after the awards ceremony , declaring her loss " the biggest robbery since Brinks .
+1	Groucho	Groucho	PROPN	NNP	_	3	A	3:A|12:A	_
+2	Marx	Marx	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	sent	send	VERB	VBD	_	0	H	0:H	_
+4	her	she	PRON	PRP	_	3	A	3:A	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	telegram	telegram	NOUN	NN	_	3	A	3:A	_
+7	after	after	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	awards	award	NOUN	NNS	_	10	E	10:E	_
+10	ceremony	ceremony	NOUN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	declaring	declare	VERB	VBG	_	3	H	3:H	_
+13	her	she	PRON	PRP$	_	14	A	14:A	_
+14	loss	loss	NOUN	NN	_	12	A	12:A|18:A	_
+15	"	"	PUNCT	``	_	12	U	12:U	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	biggest	biggest	ADJ	JJS	_	18	E	18:E	_
+18	robbery	robbery	NOUN	NN	_	12	A	12:A	_
+19	since	since	ADP	IN	_	18	L	18:L	_
+20	Brinks	Brink	NOUN	NNS	_	18	H	18:H	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

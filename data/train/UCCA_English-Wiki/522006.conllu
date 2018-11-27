@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 522006
+# text = She was self - conscious and anxious about her appearance .
+1	She	she	PRON	PRP	_	5	A	5:A	_
+2	was	be	AUX	VBD	_	5	F	5:F	_
+3	self	self	NOUN	NN	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	conscious	conscious	ADJ	JJ	_	0	H	0:H	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	anxious	anxious	ADJ	JJ	_	5	C	5:C	_
+8	about	about	ADP	IN	_	10	R	10:R	_
+9	her	she	PRON	PRP$	_	10	E	10:E	_
+10	appearance	appearance	NOUN	NN	_	5	A	5:A	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 183002
+# text = Her career went through several periods of eclipse , and she admitted that her success had often been at the expense of her personal relationships .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	career	career	NOUN	NN	_	3	A	3:A	_
+3	went	go	VERB	VBD	_	0	H	0:H	_
+4	through	through	ADP	IN	_	3	Terminal	3:Terminal	_
+5	several	several	ADJ	JJ	_	6	E	6:E	_
+6	periods	period	NOUN	NNS	_	3	A	3:A	_
+7	of	of	ADP	IN	_	8	R	8:R	_
+8	eclipse	eclipse	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	and	and	CCONJ	CC	_	3	L	3:L	_
+11	she	she	PRON	PRP	_	12	A	12:A	_
+12	admitted	admit	VERB	VBD	_	3	H	3:H	_
+13	that	that	SCONJ	IN	_	21	F	21:F	_
+14	her	she	PRON	PRP$	_	15	E	15:E	_
+15	success	success	NOUN	NN	_	21	A	21:A	_
+16	had	have	AUX	VBD	_	21	F	21:F	_
+17	often	often	ADV	RB	_	21	D	21:D	_
+18	been	be	AUX	VBN	_	21	D	21:D	_
+19	at	at	ADP	IN	_	21	R	21:R	_
+20	the	the	DET	DT	_	21	E	21:E	_
+21	expense	expense	NOUN	NN	_	12	A	12:A	_
+22	of	of	ADP	IN	_	21	R	21:R	_
+23	her	she	PRON	PRP$	_	25	E	25:E	_
+24	personal	personal	ADJ	JJ	_	25	E	25:E	_
+25	relationships	relationship	NOUN	NNS	_	21	A	21:A	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

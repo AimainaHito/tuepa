@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25598006
+# text = Des Kapitäns Genosse legte auf ihn an und schoß ihn , als er einige Meter über den Wogen sich befand .
+1	Des	der	DET	ART	_	2	E	2:E	_
+2	Kapitäns	Kapitän	NOUN	NN	_	3	E	3:E	_
+3	Genosse	Genosse	PROPN	NN	_	0	C	0:C|9:A	_
+4	legte	legen	VERB	VVFIN	_	0	H	0:H	_
+5	auf	auf	ADP	APPR	_	6	R	6:R	_
+6	ihn	er	PRON	PPER	_	4	A	4:A	_
+7	an	an	ADP	PTKVZ	_	4	Terminal	4:Terminal	_
+8	und	und	CCONJ	NE	_	4	L	4:L	_
+9	schoß	schoß	ADV	VVFIN	_	4	H	4:H	_
+10	ihn	er	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	als	als	SCONJ	KOUS	_	4	L	4:L	_
+13	er	er	PRON	PPER	_	19	A	19:A	_
+14	einige	einige	PRON	PIAT	_	15	E	15:E	_
+15	Meter	Meter	NOUN	NN	_	19	A	19:A	_
+16	über	über	ADP	VVFIN	_	18	R	18:R	_
+17	den	der	DET	ART	_	18	E	18:E	_
+18	Wogen	Woge	NOUN	NN	_	15	E	15:E	_
+19	sich	er|es|sie	PRON	PRF	_	4	H	4:H	_
+20	befand	befinden	VERB	VVFIN	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

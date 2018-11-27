@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 206004
+# text = In 1960 , Hoffman was cast in a role in an Off - Broadway production and followed with a walk - on role in a Broadway production in 1961 .
+1	In	in	ADP	IN	_	2	E	2:E	_
+2	1960	1960	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	Hoffman	Hoffman	PROPN	NNP	_	6	A	6:A|17:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	cast	cast	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	role	role	NOUN	NN	_	6	A	6:A	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	an	a	DET	DT	_	15	E	15:E	_
+12	Off	off	ADP	IN	_	15	E	15:E	_
+13	-	-	PUNCT	HYPH	_	12	U	12:U	_
+14	Broadway	Broadway	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	production	production	NOUN	NN	_	9	E	9:E	_
+16	and	and	CCONJ	CC	_	6	L	6:L	_
+17	followed	follow	VERB	VBD	_	6	H	6:H	_
+18	with	with	ADP	IN	_	23	R	23:R	_
+19	a	a	DET	DT	_	23	E	23:E	_
+20	walk	walk	NOUN	NN	_	23	E	23:E	_
+21	-	-	PUNCT	HYPH	_	20	U	20:U	_
+22	on	on	ADJ	JJ	_	20	Terminal	20:Terminal	_
+23	role	role	NOUN	NN	_	17	A	17:A	_
+24	in	in	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	27	E	27:E	_
+26	Broadway	Broadway	PROPN	NNP	_	27	E	27:E	_
+27	production	production	NOUN	NN	_	23	E	23:E	_
+28	in	in	ADP	IN	_	29	R	29:R	_
+29	1961	1961	NUM	CD	_	17	D	17:D	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25628001
+# text = Aber es war mir vorbehalten , ihn bald darauf zu bewundern .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	es	es	PRON	PPER	_	5	F	5:F	_
+3	war	sein	AUX	ADV	_	5	F	5:F	_
+4	mir	ich	PRON	PPER	_	5	A	5:A	_
+5	vorbehalten	vorbehalten	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	ihn	er	PRON	PPER	_	11	A	11:A	_
+8	bald	bald	ADV	ADV	_	9	E	9:E	_
+9	darauf	darauf	ADV	PAV	_	11	D	11:D	_
+10	zu	zu	PART	VVINF	_	11	F	11:F	_
+11	bewundern	bewundern	VERB	VVINF	_	5	A	5:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

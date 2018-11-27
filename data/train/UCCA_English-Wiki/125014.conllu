@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 125014
+# text = Biographer Charles Higham states that the play was ideal for the actress , requiring an aggressive energy and athleticism , and she enthusiastically involved herself with its production .
+1	Biographer	Biographer	PROPN	NNP	_	2	E	2:E	_
+2	Charles	Charles	PROPN	NNP	_	4	A	4:A	_
+3	Higham	Higham	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	states	state	VERB	VBZ	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	9	F	9:F	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	play	play	NOUN	NN	_	0	C	0:C|14:A	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	ideal	ideal	ADJ	JJ	_	4	A	4:A	_
+10	for	for	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	actress	actress	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	requiring	require	VERB	VBG	_	9	H	9:H	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	aggressive	aggressive	ADJ	JJ	_	17	E	17:E	_
+17	energy	energy	NOUN	NN	_	14	A	14:A	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	athleticism	athleticism	NOUN	NN	_	17	C	17:C	_
+20	,	,	PUNCT	,	_	9	U	9:U	_
+21	and	and	CCONJ	CC	_	9	L	9:L	_
+22	she	she	PRON	PRP	_	24	A	24:A	_
+23	enthusiastically	enthusiastically	ADV	RB	_	24	D	24:D	_
+24	involved	involved	VERB	VBN	_	9	H	9:H	_
+25	herself	herself	PRON	PRP	_	24	D	24:D	_
+26	with	with	ADP	IN	_	28	R	28:R	_
+27	its	its	PRON	PRP$	_	28	A	28:A	_
+28	production	production	NOUN	NN	_	24	A	24:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

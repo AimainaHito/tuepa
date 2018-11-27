@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25449002
+# text = » Weil eine unberechenbare Kraft nötig ist , um sich in den tiefen Schichten aufzuhalten und dem Druck dort zu widerstehen .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+3	eine	ein	DET	ART	_	5	E	5:E	_
+4	unberechenbare	unberechenbar	ADJ	ADJA	_	5	E	5:E	_
+5	Kraft	Kraft	NOUN	NN	_	6	A	6:A	_
+6	nötig	nötig	ADJ	ADJD	_	0	H	0:H	_
+7	ist	sein	AUX	NN	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	um	um	ADP	KOUI	_	6	L	6:L	_
+10	sich	er|es|sie	PRON	PRF	_	6	H	6:H	_
+11	in	in	ADP	APPR	_	14	R	14:R	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	tiefen	tief	ADJ	ADJA	_	14	E	14:E	_
+14	Schichten	Schicht	NOUN	NN	_	10	A	10:A	_
+15	aufzuhalten	aufzuhalten	VERB	VVFIN	_	10	Terminal	10:Terminal	_
+16	und	und	CCONJ	NE	_	6	L	6:L	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Druck	Druck	NOUN	NN	_	21	A	21:A	_
+19	dort	dort	ADV	ADV	_	21	A	21:A	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	widerstehen	widerstehen	VERB	VVINF	_	6	H	6:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

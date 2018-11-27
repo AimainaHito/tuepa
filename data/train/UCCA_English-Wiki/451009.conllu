@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 451009
+# text = He replaced Ron Cochran , a fellow Canadian .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	replaced	replace	VERB	VBD	_	0	H	0:H	_
+3	Ron	Ron	PROPN	NNP	_	2	A	2:A	_
+4	Cochran	Cochran	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	fellow	fellow	ADJ	JJ	_	8	E	8:E	_
+8	Canadian	canadian	PROPN	NNP	_	3	E	3:E	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

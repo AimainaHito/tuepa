@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25787010
+# text = Meine Gefährten blieben schweigend sitzen .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Gefährten	Gefährt|Gefährte	NOUN	NE	_	5	A	5:A	_
+3	blieben	bleiben	AUX	VVFIN	_	5	D	5:D	_
+4	schweigend	schweigend	ADJ	ADJD	_	5	D	5:D	_
+5	sitzen	sitzen	VERB	VVFIN	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

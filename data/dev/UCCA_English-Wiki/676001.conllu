@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 676001
+# text = Her salary is reported to be $ 18 million .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	salary	salary	NOUN	NN	_	6	A	6:A	_
+3	is	be	AUX	VBZ	_	6	F	6:F	_
+4	reported	report	VERB	VBN	_	6	D	6:D	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	be	be	AUX	VB	_	0	H	0:H	_
+7	$	$	SYM	$	_	6	U	6:U	_
+8	18	18	NUM	CD	_	6	A	6:A	_
+9	million	million	NUM	CD	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	6	U	6:U	_
+

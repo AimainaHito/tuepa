@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25655009
+# text = » Ja , vergessen von der Welt , außer uns ! Wir graben das Grab , und die Polypen bestatten unsere Toten für ewig ! «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Ja	Ja	PROPN	PTKANT	_	4	D	4:D	_
+3	,	,	PUNCT	$,	_	4	U	4:U	_
+4	vergessen	vergessen	VERB	VVPP	_	0	H	0:H	_
+5	von	von	ADP	NN	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Welt	Welt	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	außer	außer	ADP	APPR	_	10	R	10:R	_
+10	uns	wir	PRON	NE	_	4	A	4:A	_
+11	!	!	PUNCT	$.	_	4	U	4:U	_
+12	Wir	wir	PRON	NE	_	13	A	13:A	_
+13	graben	graben	VERB	VVINF	_	4	H	4:H	_
+14	das	der	DET	ART	_	15	E	15:E	_
+15	Grab	Grab	NOUN	NN	_	13	A	13:A	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	und	und	CCONJ	NE	_	4	L	4:L	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Polypen	Polyp	NOUN	NN	_	20	A	20:A	_
+20	bestatten	bestatten	VERB	VVINF	_	4	H	4:H	_
+21	unsere	unser	DET	PPOSAT	_	22	E	22:E	_
+22	Toten	Tote	NOUN	NN	_	20	A	20:A	_
+23	für	für	ADP	APPR	_	24	R	24:R	_
+24	ewig	ewig	ADJ	ADJD	_	20	D	20:D	_
+25	!	!	PUNCT	$.	_	24	U	24:U	_
+26	«	«	PUNCT	$(	_	24	U	24:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25724005
+# text = Mein Diner wurde mir wie immer auf mein Zimmer gebracht .
+1	Mein	mein	PROPN	PPOSAT	_	2	E	2:E	_
+2	Diner	Diner	PROPN	NN	_	0	C	0:C|6:A	_
+3	wurde	werden	AUX	NE	_	10	F	10:F	_
+4	mir	ich	PRON	NE	_	10	A	10:A	_
+5	wie	wie	ADP	ADV	_	10	L	10:L	_
+6	immer	immer	ADV	ADV	_	10	H	10:H	_
+7	auf	auf	ADP	APPR	_	9	R	9:R	_
+8	mein	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Zimmer	Zimmer	NOUN	NN	_	10	A	10:A	_
+10	gebracht	bringen	VERB	VVPP	_	0	H	0:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

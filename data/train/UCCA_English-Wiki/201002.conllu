@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 201002
+# text = He has a habit of chain smoking while he spends countless hours cooped up in his office plotting out his next scripts .
+1	He	he	PRON	PRP	_	4	A	4:A|7:A	_
+2	has	have	VERB	VBZ	_	4	F	4:F	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	habit	habit	NOUN	NN	_	0	H	0:H	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	chain	chain	NOUN	NN	_	7	E	7:E	_
+7	smoking	smoking	NOUN	NN	_	4	A	4:A	_
+8	while	while	SCONJ	IN	_	4	L	4:L	_
+9	he	he	PRON	PRP	_	10	A	10:A|18:A|13:A	_
+10	spends	spend	VERB	VBZ	_	4	H	4:H	_
+11	countless	countless	ADJ	JJ	_	12	E	12:E	_
+12	hours	hour	NOUN	NNS	_	10	D	10:D	_
+13	cooped	coop	VERB	VBN	_	10	A	10:A	_
+14	up	up	ADP	RP	_	13	Terminal	13:Terminal	_
+15	in	in	ADP	IN	_	17	R	17:R	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	office	office	NOUN	NN	_	13	A	13:A	_
+18	plotting	plott	VERB	VBG	_	4	H	4:H	_
+19	out	out	ADP	RP	_	18	Terminal	18:Terminal	_
+20	his	he	PRON	PRP$	_	22	E	22:E	_
+21	next	next	ADJ	JJ	_	22	E	22:E	_
+22	scripts	script	NOUN	NNS	_	18	A	18:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

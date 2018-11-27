@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 520010
+# text = Garland attended Hollywood High School and later graduated from University High School ( Los Angeles , California ) .
+1	Garland	Garland	PROPN	NNP	_	2	A	2:A|8:A	_
+2	attended	attend	VERB	VBD	_	0	H	0:H	_
+3	Hollywood	Hollywood	PROPN	NNP	_	5	E	5:E	_
+4	High	High	PROPN	NNP	_	5	E	5:E	_
+5	School	School	PROPN	NNP	_	2	A	2:A	_
+6	and	and	CCONJ	CC	_	2	L	2:L	_
+7	later	later	ADV	RB	_	8	D	8:D	_
+8	graduated	graduate	VERB	VBD	_	2	H	2:H	_
+9	from	from	ADP	IN	_	12	R	12:R	_
+10	University	University	PROPN	NNP	_	12	E	12:E	_
+11	High	High	PROPN	NNP	_	12	E	12:E	_
+12	School	School	PROPN	NNP	_	8	A	8:A	_
+13	(	(	PUNCT	-LRB-	_	12	U	12:U	_
+14	Los	Los	PROPN	NNP	_	12	E	12:E	_
+15	Angeles	angeles	PROPN	NNPS	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	14	U	14:U	_
+17	California	California	PROPN	NNP	_	14	E	14:E	_
+18	)	)	PUNCT	-RRB-	_	14	U	14:U	_
+19	.	.	PUNCT	.	_	14	U	14:U	_
+

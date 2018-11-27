@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 498006
+# text = The Ziggy Stardust Tour continued to the United States .
+1	The	the	DET	DT	_	4	E	4:E	_
+2	Ziggy	Ziggy	PROPN	NNP	_	4	E	4:E	_
+3	Stardust	Stardust	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	Tour	Tour	PROPN	NNP	_	5	A	5:A	_
+5	continued	continue	VERB	VBD	_	0	H	0:H	_
+6	to	to	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	United	United	PROPN	NNP	_	5	A	5:A	_
+9	States	States	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+

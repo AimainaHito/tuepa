@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 115004
+# text = After a period of inactivity and ill - health , Hepburn died in 2003 at the age of 96 .
+1	After	after	ADP	IN	_	3	L	3:L	_
+2	a	a	DET	DT	_	3	E	3:E	_
+3	period	period	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	inactivity	inactivity	NOUN	NN	_	3	E	3:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	ill	ill	ADJ	JJ	_	9	E	9:E	_
+8	-	-	PUNCT	HYPH	_	9	U	9:U	_
+9	health	health	NOUN	NN	_	5	C	5:C	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	Hepburn	Hepburn	PROPN	NNP	_	12	A	12:A|3:A|17:A	_
+12	died	die	VERB	VBD	_	3	H	3:H	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	2003	2003	NUM	CD	_	12	D	12:D	_
+15	at	at	ADP	IN	_	3	L	3:L	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	age	age	NOUN	NN	_	3	H	3:H	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	96	96	NUM	CD	_	17	E	17:E	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

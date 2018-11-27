@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 127004
+# text = For playing aspiring actress Eva Lovelace in Morning Glory , she won an Academy Award for Best Actress .
+1	For	for	ADP	IN	_	2	L	2:L	_
+2	playing	play	VERB	VBG	_	0	H	0:H	_
+3	aspiring	aspire	VERB	VBG	_	4	E	4:E	_
+4	actress	actress	NOUN	NN	_	5	E	5:E	_
+5	Eva	Eva	PROPN	NNP	_	2	A	2:A	_
+6	Lovelace	Lovelace	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	Morning	Morning	PROPN	NNP	_	2	A	2:A	_
+9	Glory	Glory	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	she	she	PRON	PRP	_	12	A	12:A|2:A	_
+12	won	win	VERB	VBD	_	2	H	2:H	_
+13	an	a	DET	DT	_	15	E	15:E	_
+14	Academy	Academy	PROPN	NNP	_	15	E	15:E	_
+15	Award	Award	PROPN	NNP	_	12	A	12:A	_
+16	for	for	ADP	IN	_	18	R	18:R	_
+17	Best	Best	PROPN	NNP	_	18	E	18:E	_
+18	Actress	actress	PROPN	NNP	_	15	E	15:E	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

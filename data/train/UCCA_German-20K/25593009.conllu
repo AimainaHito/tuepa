@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25593009
+# text = Aber mein Skaphander kleid war so beschaffen , dass dieser Druck mir in keiner Weise nachteilig war .
+1	Aber	aber	SCONJ	KON	_	7	L	7:L	_
+2	mein	mein	PRON	PPOSAT	_	4	E	4:E	_
+3	Skaphander	Skaphander	NOUN	NE	_	4	E	4:E	_
+4	kleid	kleid	ADJ	NN	_	7	A	7:A	_
+5	war	sein	AUX	ADV	_	7	F	7:F	_
+6	so	so	ADV	ADV	_	7	D	7:D	_
+7	beschaffen	beschaffen	VERB	VVINF	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	dass	dass	SCONJ	KOUS	_	7	L	7:L	_
+10	dieser	dies	PRON	PDAT	_	11	E	11:E	_
+11	Druck	Druck	NOUN	NN	_	16	A	16:A	_
+12	mir	ich	PRON	PPER	_	16	A	16:A	_
+13	in	in	ADP	APPR	_	15	R	15:R	_
+14	keiner	kein	PRON	PIAT	_	15	E	15:E	_
+15	Weise	Weise	NOUN	NN	_	16	D	16:D	_
+16	nachteilig	nachteilig	ADJ	ADJD	_	7	H	7:H	_
+17	war	sein	AUX	ADV	_	16	F	16:F	_
+18	.	.	PUNCT	$.	_	16	U	16:U	_
+

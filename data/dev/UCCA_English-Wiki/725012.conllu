@@ -1,0 +1,56 @@
+# format = ucca
+# sent_id = 725012
+# text = The Washington Post wrote , " Mary ( Angelina Jolie ) [ is ] a completely ludicrous writer 's creation of a free - spirited woman who weeps over hibiscus plants that die , wears lots of turquoise rings and gets real lonely when Russell spends entire nights away from home .
+1	The	the	DET	DT	_	4	A	4:A	_
+2	Washington	Washington	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Post	Post	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	wrote	write	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	Mary	Mary	PROPN	NNP	_	0	A	0:A|43:A|35:A	_
+8	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+9	Angelina	Angelina	PROPN	NNP	_	7	A	7:A	_
+10	Jolie	Jolie	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	)	)	PUNCT	-RRB-	_	13	U	13:U	_
+12	[	[	PUNCT	-LRB-	_	13	U	13:U	_
+13	is	be	AUX	VBZ	_	4	A	4:A	_
+14	]	]	PUNCT	-RRB-	_	13	U	13:U	_
+15	a	a	DET	DT	_	20	E	20:E	_
+16	completely	completely	ADV	RB	_	17	E	17:E	_
+17	ludicrous	ludicrous	ADJ	JJ	_	20	E	20:E	_
+18	writer	writer	NOUN	NN	_	20	E	20:E	_
+19	's	's	PART	POS	_	18	R	18:R	_
+20	creation	creation	NOUN	NN	_	13	A	13:A	_
+21	of	of	ADP	IN	_	26	R	26:R	_
+22	a	a	DET	DT	_	26	E	26:E	_
+23	free	free	ADJ	JJ	_	25	E	25:E	_
+24	-	-	PUNCT	HYPH	_	25	U	25:U	_
+25	spirited	spirit	ADJ	JJ	_	26	E	26:E	_
+26	woman	woman	NOUN	NN	_	20	E	20:E	_
+27	who	who	PRON	WP	_	28	R	28:R	_
+28	weeps	weep	VERB	VBZ	_	26	E	26:E	_
+29	over	over	ADP	IN	_	31	R	31:R	_
+30	hibiscus	hibiscus	ADJ	JJ	_	31	E	31:E	_
+31	plants	plant	NOUN	NNS	_	28	A	28:A	_
+32	that	that	PRON	WDT	_	33	F	33:F	_
+33	die	die	VERB	VBP	_	31	E	31:E	_
+34	,	,	PUNCT	,	_	13	U	13:U	_
+35	wears	wear	VERB	VBZ	_	13	H	13:H	_
+36	lots	lot	NOUN	NNS	_	39	E	39:E	_
+37	of	of	ADP	IN	_	36	R	36:R	_
+38	turquoise	turquoise	NOUN	NN	_	39	E	39:E	_
+39	rings	ring	NOUN	NNS	_	35	A	35:A	_
+40	and	and	CCONJ	CC	_	13	L	13:L	_
+41	gets	get	VERB	VBZ	_	43	D	43:D	_
+42	real	real	ADJ	JJ	_	43	D	43:D	_
+43	lonely	lonely	ADJ	JJ	_	13	H	13:H	_
+44	when	when	ADV	WRB	_	13	L	13:L	_
+45	Russell	Russell	PROPN	NNP	_	46	A	46:A	_
+46	spends	spend	VERB	VBZ	_	13	H	13:H	_
+47	entire	entire	ADJ	JJ	_	48	E	48:E	_
+48	nights	night	NOUN	NNS	_	46	D	46:D	_
+49	away	away	ADV	RB	_	51	R	51:R	_
+50	from	from	ADP	IN	_	51	E	51:E	_
+51	home	home	NOUN	NN	_	48	E	48:E	_
+52	.	.	PUNCT	.	_	51	U	51:U	_
+

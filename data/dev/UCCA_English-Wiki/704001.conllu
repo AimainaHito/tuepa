@@ -1,0 +1,52 @@
+# format = ucca
+# sent_id = 704001
+# text = The 1976 half of the tour was documented by a TV concert special , Hard Rain , and the LP Hard Rain ; no concert album from the better - received and better - known opening half of the tour was released until 2002 's Live 1975 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	1976	1976	NUM	CD	_	3	E	3:E	_
+3	half	half	NOUN	NN	_	6	E	6:E	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	tour	tour	NOUN	NN	_	8	A	8:A	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	documented	document	VERB	VBN	_	0	H	0:H	_
+9	by	by	ADP	IN	_	13	R	13:R	_
+10	a	a	DET	DT	_	13	E	13:E	_
+11	TV	tv	NOUN	NN	_	13	E	13:E	_
+12	concert	concert	NOUN	NN	_	13	E	13:E	_
+13	special	special	ADJ	JJ	_	8	A	8:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	Hard	hard	PROPN	NNP	_	13	E	13:E	_
+16	Rain	rain	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	13	U	13:U	_
+18	and	and	CCONJ	CC	_	13	N	13:N	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	LP	LP	PROPN	NNP	_	13	C	13:C	_
+21	Hard	hard	PROPN	NNP	_	20	E	20:E	_
+22	Rain	rain	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	;	;	PUNCT	,	_	8	U	8:U	_
+24	no	no	DET	DT	_	42	D	42:D	_
+25	concert	concert	NOUN	NN	_	26	E	26:E	_
+26	album	album	NOUN	NN	_	42	A	42:A	_
+27	from	from	ADP	IN	_	40	R	40:R	_
+28	the	the	DET	DT	_	31	E	31:E	_
+29	better	better	ADJ	JJR	_	31	D	31:D	_
+30	-	-	PUNCT	HYPH	_	31	U	31:U	_
+31	received	receive	VERB	VBN	_	40	E	40:E	_
+32	and	and	CCONJ	CC	_	31	N	31:N	_
+33	better	better	ADJ	JJR	_	35	D	35:D	_
+34	-	-	PUNCT	HYPH	_	35	U	35:U	_
+35	known	know	ADJ	JJ	_	31	C	31:C	_
+36	opening	open	NOUN	NN	_	37	E	37:E	_
+37	half	half	NOUN	NN	_	40	E	40:E	_
+38	of	of	ADP	IN	_	40	R	40:R	_
+39	the	the	DET	DT	_	40	E	40:E	_
+40	tour	tour	NOUN	NN	_	26	E	26:E	_
+41	was	be	AUX	VBD	_	42	F	42:F	_
+42	released	release	VERB	VBN	_	8	H	8:H	_
+43	until	until	ADP	IN	_	8	L	8:L	_
+44	2002	2002	NUM	CD	_	46	D	46:D	_
+45	's	's	AUX	VBZ	_	44	R	44:R	_
+46	Live	Live	PROPN	NNP	_	8	H	8:H	_
+47	1975	1975	NUM	CD	_	46	Terminal	46:Terminal	_
+48	.	.	PUNCT	.	_	46	U	46:U	_
+

@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 486003
+# text = However , he did not seriously consider a career in the performing arts until 1991 when he was persuaded to try stand - up comedy while working as a barman at Melbourne 's Castle Hotel .
+1	However	however	ADV	RB	_	7	L	7:L	_
+2	,	,	PUNCT	,	_	7	U	7:U	_
+3	he	he	PRON	PRP	_	7	A	7:A	_
+4	did	do	AUX	VBD	_	7	F	7:F	_
+5	not	not	PART	RB	_	7	D	7:D	_
+6	seriously	seriously	ADV	RB	_	7	D	7:D	_
+7	consider	consider	VERB	VB	_	0	H	0:H	_
+8	a	a	DET	DT	_	9	E	9:E	_
+9	career	career	NOUN	NN	_	7	A	7:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	performing	perform	VERB	VBG	_	13	E	13:E	_
+13	arts	art	NOUN	NNS	_	9	E	9:E	_
+14	until	until	ADP	IN	_	15	R	15:R	_
+15	1991	1991	NUM	CD	_	7	D	7:D	_
+16	when	when	ADV	WRB	_	7	L	7:L	_
+17	he	he	PRON	PRP	_	19	A	19:A|27:A|21:A	_
+18	was	be	AUX	VBD	_	19	F	19:F	_
+19	persuaded	persuad	VERB	VBN	_	7	H	7:H	_
+20	to	to	PART	TO	_	21	F	21:F	_
+21	try	try	VERB	VB	_	19	A	19:A	_
+22	stand	stand	VERB	VB	_	25	E	25:E	_
+23	-	-	PUNCT	HYPH	_	22	U	22:U	_
+24	up	up	ADP	RP	_	22	Terminal	22:Terminal	_
+25	comedy	comedy	NOUN	NN	_	21	A	21:A	_
+26	while	while	SCONJ	IN	_	7	L	7:L	_
+27	working	work	VERB	VBG	_	7	H	7:H	_
+28	as	as	ADP	IN	_	30	R	30:R	_
+29	a	a	DET	DT	_	30	E	30:E	_
+30	barman	barman	NOUN	NN	_	27	A	27:A	_
+31	at	at	ADP	IN	_	34	R	34:R	_
+32	Melbourne	Melbourne	PROPN	NNP	_	34	E	34:E	_
+33	's	's	PART	POS	_	32	R	32:R	_
+34	Castle	Castle	PROPN	NNP	_	27	A	27:A	_
+35	Hotel	Hotel	PROPN	NNP	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

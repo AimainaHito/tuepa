@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25437002
+# text = Mach dich fertig , hilf mir , mich fertig machen .
+1	Mach	Mach	ADP	NE	_	0	H	0:H	_
+2	dich	du	PRON	PRF	_	1	Terminal	1:Terminal	_
+3	fertig	fertig	ADJ	ADJD	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	$,	_	1	U	1:U	_
+5	hilf	hilf	ADV	NE	_	1	H	1:H	_
+6	mir	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	mich	ich	PRON	PRF	_	5	A	5:A	_
+9	fertig	fertig	ADJ	ADJD	_	8	Terminal	8:Terminal	_
+10	machen	machen	VERB	VVINF	_	8	Terminal	8:Terminal	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

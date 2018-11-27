@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25669009
+# text = Am 25 . Januar , da der Ozean völlig leer war , brachte die ›Nautilus‹ den ganzen Tag auf der Oberfläche zu , und seine gewaltige Schraube warf bei ihren Schlägen die Wellen hoch empor .
+1	Am	am	PROPN	NN	_	2	R	2:R	_
+2	25	25	PROPN	CARD	_	13	D	13:D	_
+3	.	.	PUNCT	$.	_	2	U	2:U	_
+4	Januar	Januar	PROPN	NN	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	13	U	13:U	_
+6	da	da	SCONJ	KOUS	_	13	L	13:L	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Ozean	Ozean	PROPN	NE	_	10	A	10:A	_
+9	völlig	völlig	ADJ	ADJD	_	10	D	10:D	_
+10	leer	leer	ADJ	ADJD	_	13	H	13:H	_
+11	war	sein	AUX	ADV	_	10	F	10:F	_
+12	,	,	PUNCT	$,	_	13	U	13:U	_
+13	brachte	bringen	VERB	VVFIN	_	0	H	0:H	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	›Nautilus‹	›Nautilus‹	NOUN	NE	_	13	A	13:A	_
+16	den	der	DET	ART	_	18	E	18:E	_
+17	ganzen	ganz	ADJ	ADJA	_	18	E	18:E	_
+18	Tag	Tag	NOUN	NN	_	13	A	13:A	_
+19	auf	auf	ADP	APPR	_	21	R	21:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	Oberfläche	Oberfläche	NOUN	NN	_	13	A	13:A	_
+22	zu	zu	PART	NE	_	13	Terminal	13:Terminal	_
+23	,	,	PUNCT	$,	_	13	U	13:U	_
+24	und	und	CCONJ	NE	_	13	L	13:L	_
+25	seine	sein	DET	PPOSAT	_	27	E	27:E	_
+26	gewaltige	gewaltig	ADJ	ADJA	_	27	E	27:E	_
+27	Schraube	Schraube	NOUN	NN	_	28	A	28:A	_
+28	warf	werfen	VERB	VVFIN	_	13	H	13:H	_
+29	bei	bei	ADP	APPR	_	31	R	31:R	_
+30	ihren	ihr	DET	PPOSAT	_	31	E	31:E	_
+31	Schlägen	Schlag	NOUN	NN	_	28	A	28:A	_
+32	die	der	DET	ART	_	33	E	33:E	_
+33	Wellen	Welle	NOUN	NN	_	28	A	28:A	_
+34	hoch	hoch	ADJ	ADJD	_	28	D	28:D	_
+35	empor	empören	VERB	NN	_	28	Terminal	28:Terminal	_
+36	.	.	PUNCT	$.	_	28	U	28:U	_
+

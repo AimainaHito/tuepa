@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25596008
+# text = Nun wurde es aber völlig dunkel ; man konnte nicht mehr auf 10 Schritte einen Gegenstand erkennen .
+1	Nun	nun	ADV	ADV	_	6	D	6:D	_
+2	wurde	werden	AUX	NE	_	6	F	6:F	_
+3	es	es	PRON	PPER	_	6	F	6:F	_
+4	aber	aber	ADV	ADV	_	6	L	6:L	_
+5	völlig	völlig	ADJ	ADJD	_	6	D	6:D	_
+6	dunkel	dunkel	ADJ	ADJD	_	0	H	0:H	_
+7	;	;	PUNCT	$.	_	6	U	6:U	_
+8	man	man	PRON	PIS	_	17	A	17:A	_
+9	konnte	können	AUX	VMFIN	_	17	D	17:D	_
+10	nicht	nicht	PART	XY	_	11	E	11:E	_
+11	mehr	mehr	ADV	ADV	_	17	D	17:D	_
+12	auf	auf	ADP	APPR	_	14	R	14:R	_
+13	10	10	NUM	CARD	_	14	E	14:E	_
+14	Schritte	Schritt	NOUN	NN	_	17	A	17:A	_
+15	einen	ein	DET	ART	_	16	E	16:E	_
+16	Gegenstand	Gegenstand	NOUN	NN	_	17	A	17:A	_
+17	erkennen	erkennen	VERB	VVINF	_	6	H	6:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

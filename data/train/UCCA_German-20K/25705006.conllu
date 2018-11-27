@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25705006
+# text = Man bedurfte sehr starker Taue , um den Dugong auf die Plattform zu ziehen .
+1	Man	man	PRON	PIS	_	2	A	2:A|14:A	_
+2	bedurfte	bedurfen	AUX	VMFIN	_	0	H	0:H	_
+3	sehr	sehr	ADV	NE	_	4	E	4:E	_
+4	starker	stark	ADJ	ADJA	_	5	E	5:E	_
+5	Taue	Tau	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	um	um	ADP	KOUI	_	2	L	2:L	_
+8	den	der	DET	ART	_	9	E	9:E	_
+9	Dugong	Dugong	NOUN	NN	_	14	A	14:A	_
+10	auf	auf	ADP	APPR	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Plattform	Plattform	NOUN	NN	_	14	A	14:A	_
+13	zu	zu	PART	VVINF	_	14	F	14:F	_
+14	ziehen	ziehen	VERB	VVINF	_	2	H	2:H	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+

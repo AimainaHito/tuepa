@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 656003
+# text = " For music historians Urish and Bielen , Lennon 's most significant effort was " the self - portraits ... in his songs [ which ] spoke to , for , and about , the human condition . "
+1	"	"	PUNCT	``	_	14	U	14:U	_
+2	For	for	NOUN	NN	_	4	R	4:R	_
+3	music	music	NOUN	NN	_	4	E	4:E	_
+4	historians	historian	VERB	VBZ	_	14	A	14:A	_
+5	Urish	Urish	PROPN	NNP	_	4	E	4:E	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	Bielen	Bielen	PROPN	NNP	_	5	C	5:C	_
+8	,	,	PUNCT	,	_	14	U	14:U	_
+9	Lennon	Lennon	PROPN	NNP	_	13	A	13:A	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	most	most	ADV	RBS	_	12	E	12:E	_
+12	significant	significant	ADJ	JJ	_	13	D	13:D	_
+13	effort	effort	NOUN	NN	_	14	A	14:A	_
+14	was	be	AUX	VBD	_	0	H	0:H	_
+15	"	"	PUNCT	``	_	14	U	14:U	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	self	self	NOUN	NN	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	portraits	portrait	NOUN	NNS	_	14	A	14:A	_
+20	...	...	PUNCT	,	_	19	U	19:U	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	songs	song	NOUN	NNS	_	19	E	19:E	_
+24	[	[	PUNCT	-LRB-	_	19	U	19:U	_
+25	which	which	PRON	WDT	_	27	F	27:F	_
+26	]	]	PUNCT	-RRB-	_	27	U	27:U	_
+27	spoke	speak	VERB	VBD	_	19	E	19:E	_
+28	to	to	ADP	IN	_	37	R	37:R	_
+29	,	,	PUNCT	,	_	28	U	28:U	_
+30	for	for	ADP	IN	_	28	C	28:C	_
+31	,	,	PUNCT	,	_	28	U	28:U	_
+32	and	and	CCONJ	CC	_	28	N	28:N	_
+33	about	about	ADV	RB	_	28	C	28:C	_
+34	,	,	PUNCT	,	_	37	U	37:U	_
+35	the	the	DET	DT	_	37	E	37:E	_
+36	human	human	ADJ	JJ	_	37	E	37:E	_
+37	condition	condition	NOUN	NN	_	27	A	27:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+39	"	"	PUNCT	''	_	37	U	37:U	_
+

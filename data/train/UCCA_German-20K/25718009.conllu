@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25718009
+# text = » Dazu will ich bemerken « , fuhr ich fort , » daß eine ähnliche Sperre zwischen Gibraltar und Ceuta besteht , die in der Urzeit das Mittelmeer völlig schloß . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Dazu	dazu	ADV	PAV	_	5	L	5:L	_
+3	will	wollen	AUX	NN	_	5	D	5:D	_
+4	ich	ich	PRON	PPER	_	5	A	5:A	_
+5	bemerken	bemerken	VERB	VVINF	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	fort	fort	ADV	PTKVZ	_	8	Terminal	8:Terminal	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	daß	daß	SCONJ	KOUS	_	21	R	21:R	_
+14	eine	ein	DET	ART	_	16	E	16:E	_
+15	ähnliche	ähnlich	ADJ	ADJA	_	16	E	16:E	_
+16	Sperre	Sperre	NOUN	NE	_	21	A	21:A	_
+17	zwischen	zwischen	ADP	NN	_	18	R	18:R	_
+18	Gibraltar	Gibraltar	PROPN	NE	_	21	A	21:A	_
+19	und	und	CCONJ	NE	_	18	N	18:N	_
+20	Ceuta	Ceuta	PROPN	NE	_	18	C	18:C	_
+21	besteht	bestehen	VERB	VVFIN	_	5	A	5:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	die	der	PRON	PRELS	_	30	R	30:R	_
+24	in	in	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Urzeit	Urzeit	NOUN	NN	_	30	D	30:D	_
+27	das	der	DET	ART	_	28	E	28:E	_
+28	Mittelmeer	Mittelmeer	PROPN	NE	_	30	A	30:A	_
+29	völlig	völlig	ADJ	ADJD	_	30	D	30:D	_
+30	schloß	schließen	VERB	VVFIN	_	16	E	16:E	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+32	«	«	PUNCT	$(	_	30	U	30:U	_
+

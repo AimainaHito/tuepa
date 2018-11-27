@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 529004
+# text = " TIME magazine labeled her performance as " just about the greatest one - woman show in modern movie history .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	TIME	time	NOUN	NN	_	3	E	3:E	_
+3	magazine	magazine	NOUN	NN	_	4	A	4:A	_
+4	labeled	label	VERB	VBD	_	0	H	0:H	_
+5	her	she	PRON	PRP$	_	6	A	6:A	_
+6	performance	performance	NOUN	NN	_	4	A	4:A	_
+7	as	as	SCONJ	IN	_	16	R	16:R	_
+8	"	"	PUNCT	``	_	16	U	16:U	_
+9	just	just	ADV	RB	_	10	E	10:E	_
+10	about	about	ADP	IN	_	16	E	16:E	_
+11	the	the	DET	DT	_	16	E	16:E	_
+12	greatest	greatest	ADJ	JJS	_	16	E	16:E	_
+13	one	one	NUM	CD	_	15	E	15:E	_
+14	-	-	PUNCT	HYPH	_	15	U	15:U	_
+15	woman	woman	NOUN	NN	_	16	E	16:E	_
+16	show	show	NOUN	NN	_	4	A	4:A	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	modern	modern	ADJ	JJ	_	20	E	20:E	_
+19	movie	movie	NOUN	NN	_	20	E	20:E	_
+20	history	history	NOUN	NN	_	16	E	16:E	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

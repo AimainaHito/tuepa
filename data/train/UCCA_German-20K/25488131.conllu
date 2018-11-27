@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25488131
+# text = Diesen Fall ausgenommen , zweifelte ich nicht an der Möglichkeit , mit ihnen in Verbindung zu treten .
+1	Diesen	dies	PRON	PDAT	_	2	R	2:R	_
+2	Fall	Fall	NOUN	NN	_	3	A	3:A	_
+3	ausgenommen	ausgenommen	VERB	VVPP	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	zweifelte	zweifeln	VERB	VVFIN	_	3	H	3:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A|3:A|14:A	_
+7	nicht	nicht	PART	CARD	_	5	D	5:D	_
+8	an	an	ADP	APPR	_	10	R	10:R	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Möglichkeit	Möglichkeit	NOUN	NN	_	14	D	14:D	_
+11	,	,	PUNCT	$,	_	14	U	14:U	_
+12	mit	mit	ADP	APPR	_	13	R	13:R	_
+13	ihnen	sie	PRON	PPER	_	14	A	14:A	_
+14	in	in	ADP	APPR	_	5	A	5:A	_
+15	Verbindung	Verbindung	NOUN	NN	_	14	Terminal	14:Terminal	_
+16	zu	zu	PART	VVINF	_	14	F	14:F	_
+17	treten	treten	VERB	VVFIN	_	14	Terminal	14:Terminal	_
+18	.	.	PUNCT	$.	_	14	U	14:U	_
+

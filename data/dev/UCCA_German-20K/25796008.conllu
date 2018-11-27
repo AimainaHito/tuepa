@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25796008
+# text = Der Zeit begriff war mir geschwunden .
+1	Der	der	DET	ART	_	3	E	3:E	_
+2	Zeit	Zeit	NOUN	NN	_	3	E	3:E	_
+3	begriff	begreifen	VERB	VVFIN	_	6	A	6:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	mir	ich	PRON	PPER	_	6	A	6:A	_
+6	geschwunden	geschwunden	VERB	VVINF	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

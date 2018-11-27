@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25699007
+# text = » Ja , Kapitän , obwohl ich , seit ich an Ihrem Bord bin , mir das Staunen hätte abgewöhnen können ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Kapitän	Kapitän	PROPN	NN	_	2	G	2:G	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	obwohl	obwohl	SCONJ	NE	_	2	L	2:L	_
+7	ich	ich	PRON	PPER	_	20	A	20:A	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	seit	seit	SCONJ	ADJA	_	2	L	2:L	_
+10	ich	ich	PRON	PPER	_	14	A	14:A	_
+11	an	an	ADP	APPR	_	13	R	13:R	_
+12	Ihrem	ihrem	PROPN	PPOSAT	_	13	E	13:E	_
+13	Bord	Bord	PROPN	NN	_	14	A	14:A	_
+14	bin	sein	AUX	VAFIN	_	2	H	2:H	_
+15	,	,	PUNCT	$,	_	2	U	2:U	_
+16	mir	ich	PRON	PPER	_	20	A	20:A	_
+17	das	der	DET	ART	_	18	E	18:E	_
+18	Staunen	Staune	NOUN	NN	_	20	A	20:A	_
+19	hätte	haben	AUX	VAFIN	_	20	D	20:D	_
+20	abgewöhnen	abgewöhnen	VERB	VVINF	_	2	H	2:H	_
+21	können	können	AUX	VMINF	_	20	D	20:D	_
+22	!	!	PUNCT	$.	_	20	U	20:U	_
+23	«	«	PUNCT	$(	_	20	U	20:U	_
+

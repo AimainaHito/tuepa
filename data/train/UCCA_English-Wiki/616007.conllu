@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 616007
+# text = Miles also co - founded International Times , an underground paper that McCartney helped to start with direct financial support and by providing interviews to attract advertiser income .
+1	Miles	mile	NOUN	NNS	_	5	A	5:A	_
+2	also	also	ADV	RB	_	5	D	5:D	_
+3	co	co	X	AFX	_	5	E	5:E	_
+4	-	-	PUNCT	HYPH	_	5	U	5:U	_
+5	founded	found	VERB	VBN	_	0	H	0:H	_
+6	International	International	PROPN	NNP	_	5	A	5:A	_
+7	Times	Times	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	an	a	DET	DT	_	11	E	11:E	_
+10	underground	underground	ADJ	JJ	_	11	E	11:E	_
+11	paper	paper	NOUN	NN	_	6	E	6:E	_
+12	that	that	PRON	WDT	_	14	F	14:F	_
+13	McCartney	McCartney	PROPN	NNP	_	14	A	14:A|26:A|16:A|23:A	_
+14	helped	help	VERB	VBD	_	11	E	11:E	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	start	start	VERB	VB	_	14	A	14:A	_
+17	with	with	ADP	IN	_	20	R	20:R	_
+18	direct	direct	ADJ	JJ	_	20	E	20:E	_
+19	financial	financial	ADJ	JJ	_	20	E	20:E	_
+20	support	support	NOUN	NN	_	14	A	14:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	by	by	SCONJ	IN	_	23	R	23:R	_
+23	providing	provide	VERB	VBG	_	20	C	20:C	_
+24	interviews	interview	NOUN	NNS	_	23	A	23:A	_
+25	to	to	PART	TO	_	23	L	23:L	_
+26	attract	attract	VERB	VB	_	23	H	23:H	_
+27	advertiser	advertiser	NOUN	NN	_	28	E	28:E	_
+28	income	income	NOUN	NN	_	26	A	26:A	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

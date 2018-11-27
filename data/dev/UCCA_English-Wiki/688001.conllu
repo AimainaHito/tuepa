@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 688001
+# text = He has been an influential figure in popular music and culture for more than five decades .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	has	have	AUX	VBZ	_	3	F	3:F	_
+3	been	be	AUX	VBN	_	0	H	0:H	_
+4	an	a	DET	DT	_	6	E	6:E	_
+5	influential	influential	ADJ	JJ	_	6	E	6:E	_
+6	figure	figure	NOUN	NN	_	3	A	3:A	_
+7	in	in	ADP	IN	_	9	R	9:R	_
+8	popular	popular	ADJ	JJ	_	9	E	9:E	_
+9	music	music	NOUN	NN	_	6	E	6:E	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	culture	culture	NOUN	NN	_	9	C	9:C	_
+12	for	for	ADP	IN	_	16	R	16:R	_
+13	more	more	ADJ	JJR	_	16	E	16:E	_
+14	than	than	ADP	IN	_	13	R	13:R	_
+15	five	five	NUM	CD	_	16	E	16:E	_
+16	decades	decade	NOUN	NNS	_	3	D	3:D	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

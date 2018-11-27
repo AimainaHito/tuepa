@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 457006
+# text = The anchor drew fire from conservatives , such as the MRC and Cal Thomas , for his November 14 , 1994 , remarks on ABC Radio , in which he analyzed the results of the 1994 U . S . midterm elections .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	anchor	anchor	NOUN	NN	_	0	C	0:C|23:A	_
+3	drew	drew	NOUN	NN	_	4	D	4:D	_
+4	fire	fire	NOUN	NN	_	0	H	0:H	_
+5	from	from	ADP	IN	_	6	R	6:R	_
+6	conservatives	conservative	NOUN	NNS	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	6	U	6:U	_
+8	such	such	ADJ	JJ	_	11	R	11:R	_
+9	as	as	ADP	IN	_	8	Terminal	8:Terminal	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	MRC	MRC	PROPN	NNP	_	6	E	6:E	_
+12	and	and	CCONJ	CC	_	11	N	11:N	_
+13	Cal	Cal	PROPN	NNP	_	11	C	11:C	_
+14	Thomas	Thomas	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	4	U	4:U	_
+16	for	for	ADP	IN	_	4	L	4:L	_
+17	his	he	PRON	PRP$	_	18	E	18:E	_
+18	November	November	PROPN	NNP	_	23	D	23:D	_
+19	14	14	NUM	CD	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	18	U	18:U	_
+21	1994	1994	NUM	CD	_	18	Terminal	18:Terminal	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	remarks	remark	NOUN	NNS	_	4	H	4:H	_
+24	on	on	ADP	IN	_	26	R	26:R	_
+25	ABC	ABC	PROPN	NNP	_	26	E	26:E	_
+26	Radio	Radio	PROPN	NNP	_	23	A	23:A	_
+27	,	,	PUNCT	,	_	4	U	4:U	_
+28	in	in	ADP	IN	_	29	R	29:R	_
+29	which	which	PRON	WDT	_	4	L	4:L	_
+30	he	he	PRON	PRP	_	31	A	31:A	_
+31	analyzed	analyze	VERB	VBD	_	4	H	4:H	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	results	result	NOUN	NNS	_	31	A	31:A	_
+34	of	of	ADP	IN	_	42	R	42:R	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	1994	1994	NUM	CD	_	42	D	42:D	_
+37	U	U	PROPN	NNP	_	42	E	42:E	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+39	S	s	PROPN	NNPS	_	37	Terminal	37:Terminal	_
+40	.	.	PUNCT	.	_	42	U	42:U	_
+41	midterm	midterm	NOUN	NN	_	42	E	42:E	_
+42	elections	election	NOUN	NNS	_	33	E	33:E	_
+43	.	.	PUNCT	.	_	42	U	42:U	_
+

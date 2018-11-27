@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 141001
+# text = When asked why she had taken the role , she responded that she wanted to broaden her range and try everything while she still had time .
+1	When	when	ADV	WRB	_	2	L	2:L	_
+2	asked	ask	VERB	VBD	_	0	H	0:H	_
+3	why	why	ADV	WRB	_	6	R	6:R	_
+4	she	she	PRON	PRP	_	6	A	6:A	_
+5	had	have	AUX	VBD	_	6	F	6:F	_
+6	taken	take	VERB	VBN	_	2	A	2:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	role	role	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	she	she	PRON	PRP	_	11	A	11:A|2:A	_
+11	responded	respond	VERB	VBD	_	2	H	2:H	_
+12	that	that	SCONJ	IN	_	16	R	16:R	_
+13	she	she	PRON	PRP	_	16	A	16:A|20:A	_
+14	wanted	want	VERB	VBD	_	16	D	16:D	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	broaden	broaden	VERB	VB	_	11	A	11:A	_
+17	her	she	PRON	PRP$	_	18	E	18:E	_
+18	range	range	NOUN	NN	_	16	A	16:A	_
+19	and	and	CCONJ	CC	_	16	L	16:L	_
+20	try	try	VERB	VB	_	16	H	16:H	_
+21	everything	everything	PRON	NN	_	20	A	20:A	_
+22	while	while	SCONJ	IN	_	16	L	16:L	_
+23	she	she	PRON	PRP	_	26	A	26:A	_
+24	still	still	ADV	RB	_	26	D	26:D	_
+25	had	have	VERB	VBD	_	26	F	26:F	_
+26	time	time	NOUN	NN	_	16	H	16:H	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

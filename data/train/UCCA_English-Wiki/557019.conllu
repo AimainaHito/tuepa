@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 557019
+# text = He was sufficiently affected by what he heard to invite two local musicians , guitarist Winfield " Scotty " Moore and upright bass player Bill Black , to work something up with Presley for a recording session .
+1	He	he	PRON	PRP	_	4	A	4:A|10:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	sufficiently	sufficiently	ADV	RB	_	4	D	4:D	_
+4	affected	affect	VERB	VBN	_	0	H	0:H	_
+5	by	by	SCONJ	IN	_	8	R	8:R	_
+6	what	what	PRON	WP	_	8	A	8:A	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	heard	hear	VERB	VBD	_	4	A	4:A	_
+9	to	to	PART	TO	_	4	L	4:L	_
+10	invite	invite	VERB	VB	_	4	H	4:H	_
+11	two	two	NUM	CD	_	13	E	13:E	_
+12	local	local	ADJ	JJ	_	13	E	13:E	_
+13	musicians	musician	NOUN	NNS	_	0	C	0:C|29:A	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	guitarist	guitarist	NOUN	NN	_	16	E	16:E	_
+16	Winfield	Winfield	PROPN	NNP	_	10	A	10:A	_
+17	"	"	PUNCT	``	_	16	U	16:U	_
+18	Scotty	Scotty	PROPN	NNP	_	16	Terminal	16:Terminal	_
+19	"	"	PUNCT	''	_	16	U	16:U	_
+20	Moore	Moore	PROPN	NNP	_	16	Terminal	16:Terminal	_
+21	and	and	CCONJ	CC	_	16	N	16:N	_
+22	upright	upright	ADJ	JJ	_	23	E	23:E	_
+23	bass	bass	NOUN	NN	_	25	E	25:E	_
+24	player	player	NOUN	NN	_	23	E	23:E	_
+25	Bill	Bill	PROPN	NNP	_	16	C	16:C	_
+26	Black	Black	PROPN	NNP	_	25	Terminal	25:Terminal	_
+27	,	,	PUNCT	,	_	4	U	4:U	_
+28	to	to	PART	TO	_	4	L	4:L	_
+29	work	work	VERB	VB	_	4	H	4:H	_
+30	something	something	PRON	NN	_	29	Terminal	29:Terminal	_
+31	up	up	ADP	RP	_	29	Terminal	29:Terminal	_
+32	with	with	ADP	IN	_	33	R	33:R	_
+33	Presley	Presley	PROPN	NNP	_	29	A	29:A	_
+34	for	for	ADP	IN	_	37	R	37:R	_
+35	a	a	DET	DT	_	37	E	37:E	_
+36	recording	recording	NOUN	NN	_	37	E	37:E	_
+37	session	session	NOUN	NN	_	29	A	29:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

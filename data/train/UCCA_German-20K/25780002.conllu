@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25780002
+# text = Kapitän Nemo beobachtete durch ein mit einem Netz versehenes Fernrohr , das vermittels eines Spiegels die Strahlenbrechung korrigierte , das Gestirn , das in einer sehr langen Diagonale allmählich unter den Horizont hinabsank .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	3	A	3:A	_
+3	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+4	durch	durch	ADP	APPR	_	10	R	10:R	_
+5	ein	ein	DET	ART	_	10	E	10:E	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	einem	ein	DET	ART	_	8	E	8:E	_
+8	Netz	Netz	NOUN	NN	_	9	A	9:A	_
+9	versehenes	versehen	ADJ	ADJA	_	10	E	10:E	_
+10	Fernrohr	Fernrohr	NOUN	NN	_	3	A	3:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	das	der	PRON	PRELS	_	18	R	18:R	_
+13	vermittels	vermittels	ADP	NE	_	15	R	15:R	_
+14	eines	ein	DET	ART	_	15	E	15:E	_
+15	Spiegels	Spiegel	NOUN	NN	_	18	A	18:A	_
+16	die	der	DET	ART	_	17	E	17:E	_
+17	Strahlenbrechung	Strahlenbrechung	NOUN	NN	_	18	A	18:A	_
+18	korrigierte	korrigieren	VERB	VVFIN	_	10	E	10:E	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	das	der	DET	ART	_	21	E	21:E	_
+21	Gestirn	Gestirn	NOUN	NN	_	3	A	3:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	das	der	PRON	PRELS	_	33	R	33:R	_
+24	in	in	ADP	APPR	_	28	R	28:R	_
+25	einer	ein	DET	ART	_	28	E	28:E	_
+26	sehr	sehr	ADV	NE	_	28	E	28:E	_
+27	langen	lang	ADJ	ADJA	_	28	E	28:E	_
+28	Diagonale	Diagonale	NOUN	ADJA	_	33	A	33:A	_
+29	allmählich	allmählich	ADJ	ADJD	_	33	D	33:D	_
+30	unter	unter	ADP	ADJA	_	32	R	32:R	_
+31	den	der	DET	ART	_	32	E	32:E	_
+32	Horizont	Horizont	NOUN	NN	_	33	A	33:A	_
+33	hinabsank	hinabsank	ADP	VVFIN	_	21	E	21:E	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

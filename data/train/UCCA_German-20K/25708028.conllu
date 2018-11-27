@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25708028
+# text = » Hören Sie , Ned « , sagte Conseil .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Hören	hören	NOUN	VVFIN	_	8	A	8:A	_
+3	Sie	Sie|sie	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+10	.	.	PUNCT	$.	_	8	U	8:U	_
+

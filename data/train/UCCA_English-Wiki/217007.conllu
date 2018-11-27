@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 217007
+# text = That same year she starred in Mona Lisa Smile ( 2003 ) . She was part of an ensemble cast that included Julia Roberts , Maggie Gyllenhaal , and Julia Stiles .
+1	That	that	DET	DT	_	3	E	3:E	_
+2	same	same	ADJ	JJ	_	3	E	3:E	_
+3	year	year	NOUN	NN	_	5	D	5:D	_
+4	she	she	PRON	PRP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	7	R	7:R	_
+7	Mona	Mona	PROPN	NNP	_	5	A	5:A	_
+8	Lisa	Lisa	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	Smile	smile	PROPN	NNP	_	7	Terminal	7:Terminal	_
+10	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+11	2003	2003	NUM	CD	_	7	E	7:E	_
+12	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+13	.	.	PUNCT	.	_	5	U	5:U	_
+14	She	she	PRON	PRP	_	16	A	16:A	_
+15	was	be	AUX	VBD	_	16	F	16:F	_
+16	part	part	NOUN	NN	_	5	H	5:H	_
+17	of	of	ADP	IN	_	16	R	16:R	_
+18	an	a	DET	DT	_	20	E	20:E	_
+19	ensemble	ensemble	ADJ	JJ	_	20	E	20:E	_
+20	cast	cast	NOUN	NN	_	16	A	16:A	_
+21	that	that	PRON	WDT	_	22	F	22:F	_
+22	included	include	VERB	VBD	_	20	E	20:E	_
+23	Julia	Julia	PROPN	NNP	_	22	A	22:A	_
+24	Roberts	Roberts	PROPN	NNPS	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	23	U	23:U	_
+26	Maggie	Maggie	PROPN	NNP	_	23	C	23:C	_
+27	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	,	,	PUNCT	,	_	23	U	23:U	_
+29	and	and	CCONJ	CC	_	23	N	23:N	_
+30	Julia	Julia	PROPN	NNP	_	23	C	23:C	_
+31	Stiles	Stiles	PROPN	NNPS	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	23	U	23:U	_
+

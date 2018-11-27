@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25645005
+# text = Doch in dieser Tiefe von einigen Metern spürte die " Nautilus " dessen Wüten nicht und schaukelte sich ruhig mitten in stillen Wassern .
+1	Doch	doch	ADV	KON	_	8	L	8:L	_
+2	in	in	ADP	APPR	_	4	R	4:R	_
+3	dieser	dies	PRON	PDAT	_	4	E	4:E	_
+4	Tiefe	Tiefe	NOUN	NN	_	8	A	8:A	_
+5	von	von	ADP	NE	_	7	R	7:R	_
+6	einigen	einige	PRON	PIAT	_	7	E	7:E	_
+7	Metern	Meter	NOUN	NN	_	4	E	4:E	_
+8	spürte	spüren	VERB	VVFIN	_	0	H	0:H	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	Nautilus	Nautilus	PROPN	NN	_	0	C	0:C|17:A	_
+12	"	"	PUNCT	$(	_	8	U	8:U	_
+13	dessen	der	DET	PDAT	_	14	R	14:R	_
+14	Wüten	Wüten	NOUN	NE	_	8	A	8:A	_
+15	nicht	nicht	PART	CARD	_	8	D	8:D	_
+16	und	und	CCONJ	NE	_	8	L	8:L	_
+17	schaukelte	schaukeln	VERB	VVFIN	_	8	H	8:H	_
+18	sich	er|es|sie	PRON	PRF	_	17	Terminal	17:Terminal	_
+19	ruhig	ruhig	ADJ	ADJD	_	17	D	17:D	_
+20	mitten	mitten	ADV	ADV	_	23	R	23:R	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	stillen	still	ADJ	ADJA	_	23	E	23:E	_
+23	Wassern	Wasser	NOUN	NN	_	17	A	17:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25755007
+# text = » Da nun die ›Nautilus‹ 1.500 Tonnen faßt , und die Tonne 1.000 Liter enthält , so muß die ›Nautilus‹ 1.500.000 Liter Luft fassen , die man mit 2.400 zu dividieren hat ... «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Da	da	SCONJ	KOUS	_	8	L	8:L	_
+3	nun	nun	ADV	ADV	_	8	F	8:F	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	›Nautilus‹	›Nautilus‹	NOUN	NE	_	8	A	8:A	_
+6	1.500	1.5	NUM	CARD	_	7	E	7:E	_
+7	Tonnen	Tonne	NOUN	NN	_	8	A	8:A	_
+8	faßt	fassen	VERB	VVFIN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Tonne	Tonne	NOUN	NN	_	15	A	15:A	_
+13	1.000	1.0	NUM	CARD	_	14	E	14:E	_
+14	Liter	Liter	NOUN	NN	_	15	A	15:A	_
+15	enthält	enthalten	VERB	VVFIN	_	8	H	8:H	_
+16	,	,	PUNCT	$,	_	8	U	8:U	_
+17	so	so	ADV	ADV	_	8	L	8:L	_
+18	muß	müssen	AUX	VMFIN	_	24	D	24:D	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	›Nautilus‹	›Nautilus‹	NOUN	NE	_	24	A	24:A	_
+21	1.500.000	1.500.000	NUM	CARD	_	22	E	22:E	_
+22	Liter	Liter	NOUN	NN	_	23	E	23:E	_
+23	Luft	Luft	NOUN	NN	_	24	A	24:A	_
+24	fassen	fassen	VERB	VVINF	_	8	H	8:H	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	die	der	PRON	PRELS	_	31	R	31:R	_
+27	man	man	PRON	PIS	_	31	A	31:A	_
+28	mit	mit	ADP	APPR	_	29	R	29:R	_
+29	2.400	2.4	NUM	CARD	_	31	A	31:A	_
+30	zu	zu	PART	NN	_	31	F	31:F	_
+31	dividieren	dividieren	VERB	VVINF	_	23	E	23:E	_
+32	hat	haben	VERB	VAFIN	_	31	D	31:D	_
+33	...	...	PUNCT	$(	_	31	U	31:U	_
+34	«	«	PUNCT	$(	_	31	U	31:U	_
+

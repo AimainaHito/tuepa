@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25471000
+# text = » Still ! « rief Kommandant Farragut . » Steuer unterm Wind , ganz ! Maschine rückwärts !
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Still	still	NOUN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	rief	rief	ADJ	VVFIN	_	0	H	0:H	_
+6	Kommandant	Kommandant	NOUN	NN	_	7	E	7:E	_
+7	Farragut	Farragut	PROPN	NN	_	0	C	0:C|10:A	_
+8	.	.	PUNCT	$.	_	10	U	10:U	_
+9	»	»	PUNCT	$(	_	10	U	10:U	_
+10	Steuer	Steuer	NOUN	ADJA	_	5	H	5:H	_
+11	unterm	unterm	ADJ	NE	_	12	R	12:R	_
+12	Wind	Wind	NOUN	NE	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	10	U	10:U	_
+14	ganz	ganz	ADJ	ADV	_	10	D	10:D	_
+15	!	!	PUNCT	$.	_	10	U	10:U	_
+16	Maschine	Maschine	NOUN	NN	_	17	A	17:A	_
+17	rückwärts	rückwärts	ADV	ADV	_	10	H	10:H	_
+18	!	!	PUNCT	$.	_	17	U	17:U	_
+

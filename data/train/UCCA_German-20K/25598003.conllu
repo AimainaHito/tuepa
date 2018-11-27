@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25598003
+# text = Dann sah ich unser Bild in klarem Wiederschein umgekehrt gezeichnet , und über uns zeigte sich eine ganz gleiche Truppe , die unsere Bewegungen abspiegelte , so wie wir gingen , nur Kopf unten , Füße in der Luft .
+1	Dann	dann	ADV	ADV	_	2	L	2:L	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	unser	unser	PRON	FM	_	5	E	5:E	_
+5	Bild	Bild	NOUN	NN	_	10	A	10:A	_
+6	in	in	ADP	APPR	_	8	R	8:R	_
+7	klarem	klar	ADJ	ADJA	_	8	E	8:E	_
+8	Wiederschein	Wiederschein	NOUN	NE	_	10	A	10:A	_
+9	umgekehrt	umkehren	VERB	ADJD	_	10	D	10:D	_
+10	gezeichnet	zeichnen	AUX	VVPP	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	über	über	ADP	NE	_	14	R	14:R	_
+14	uns	wir	PRON	NE	_	15	A	15:A	_
+15	zeigte	zeigen	VERB	VVFIN	_	2	H	2:H	_
+16	sich	er|es|sie	PRON	PRF	_	15	Terminal	15:Terminal	_
+17	eine	ein	DET	ART	_	20	E	20:E	_
+18	ganz	ganz	ADV	ADV	_	20	E	20:E	_
+19	gleiche	gleich	ADJ	ADJA	_	20	E	20:E	_
+20	Truppe	Truppe	NOUN	NN	_	15	A	15:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	25	R	25:R	_
+23	unsere	unser	PRON	PPOSAT	_	24	E	24:E	_
+24	Bewegungen	Bewegung	NOUN	NN	_	25	A	25:A	_
+25	abspiegelte	abspiegeln	VERB	VVFIN	_	20	E	20:E	_
+26	,	,	PUNCT	$,	_	2	U	2:U	_
+27	so	so	ADV	ADV	_	2	L	2:L	_
+28	wie	wie	SCONJ	NE	_	30	R	30:R	_
+29	wir	wir	PRON	NE	_	30	A	30:A	_
+30	gingen	gehen	VERB	VVFIN	_	2	H	2:H	_
+31	,	,	PUNCT	$,	_	2	U	2:U	_
+32	nur	nur	ADV	NN	_	33	D	33:D	_
+33	Kopf	Kopf	NOUN	NN	_	2	H	2:H	_
+34	unten	unten	ADV	ADJA	_	33	D	33:D	_
+35	,	,	PUNCT	$,	_	33	U	33:U	_
+36	Füße	Fuß	NOUN	NN	_	33	A	33:A	_
+37	in	in	ADP	APPR	_	39	R	39:R	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Luft	Luft	NOUN	NN	_	33	A	33:A	_
+40	.	.	PUNCT	$.	_	39	U	39:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25783011
+# text = » Von ernstlicher Bedeutung ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Von	von	ADP	APPR	_	4	R	4:R	_
+3	ernstlicher	ernstlich	ADJ	ADJA	_	4	D	4:D	_
+4	Bedeutung	Bedeutung	NOUN	NN	_	0	H	0:H	_
+5	?	?	PUNCT	$.	_	4	U	4:U	_
+6	«	«	PUNCT	$(	_	4	U	4:U	_
+

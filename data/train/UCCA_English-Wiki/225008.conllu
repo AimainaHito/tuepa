@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 225008
+# text = Chan produced a number of action comedy films with his opera school friends Sammo Hung and Yuen Biao .
+1	Chan	Chan	PROPN	NNP	_	2	A	2:A	_
+2	produced	produce	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	8	E	8:E	_
+4	number	number	NOUN	NN	_	8	E	8:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	action	action	NOUN	NN	_	8	E	8:E	_
+7	comedy	comedy	NOUN	NN	_	8	E	8:E	_
+8	films	film	NOUN	NNS	_	2	A	2:A	_
+9	with	with	ADP	IN	_	14	R	14:R	_
+10	his	he	PRON	PRP$	_	13	E	13:E	_
+11	opera	opera	NOUN	NN	_	12	E	12:E	_
+12	school	school	NOUN	NN	_	13	E	13:E	_
+13	friends	friend	NOUN	NNS	_	14	E	14:E	_
+14	Sammo	Sammo	PROPN	NNP	_	2	A	2:A	_
+15	Hung	hang	NOUN	NNS	_	14	Terminal	14:Terminal	_
+16	and	and	CCONJ	CC	_	14	N	14:N	_
+17	Yuen	Yuen	PROPN	NNP	_	14	C	14:C	_
+18	Biao	Biao	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	.	.	PUNCT	.	_	14	U	14:U	_
+

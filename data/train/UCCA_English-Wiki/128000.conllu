@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 128000
+# text = By the end of 1933 Hepburn was at the top of her profession , but yearned to prove herself on Broadway .
+1	By	by	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	end	end	NOUN	NN	_	10	D	10:D	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	1933	1933	NUM	CD	_	3	E	3:E	_
+6	Hepburn	Hepburn	PROPN	NNP	_	10	A	10:A|18:A|16:A	_
+7	was	be	AUX	VBD	_	10	F	10:F	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	top	top	NOUN	NN	_	0	H	0:H	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	profession	profession	NOUN	NN	_	10	A	10:A	_
+14	,	,	PUNCT	,	_	10	U	10:U	_
+15	but	but	CCONJ	CC	_	10	L	10:L	_
+16	yearned	yearn	VERB	VBD	_	10	H	10:H	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	prove	prove	VERB	VB	_	16	A	16:A	_
+19	herself	herself	PRON	PRP	_	18	D	18:D	_
+20	on	on	ADP	IN	_	21	R	21:R	_
+21	Broadway	Broadway	PROPN	NNP	_	18	A	18:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

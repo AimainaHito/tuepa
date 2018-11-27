@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 25776001
+# text = Unter den eigentlichen Robben , die keine äußeren Ohren haben , beobachtete ich einige Varietäten , die 3 Meter lang , mit weißen Haaren und Bullenbeißerkopf , in jedem Kiefer zehn Zähne hatten .
+1	Unter	unter	ADP	NE	_	4	R	4:R	_
+2	den	der	DET	ART	_	4	E	4:E	_
+3	eigentlichen	eigentlich	ADJ	ADJA	_	4	E	4:E	_
+4	Robben	Robbe	NOUN	NN	_	12	A	12:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	die	der	PRON	PRELS	_	10	R	10:R	_
+7	keine	kein	PRON	PIAT	_	9	E	9:E	_
+8	äußeren	äußer	ADJ	ADJA	_	9	E	9:E	_
+9	Ohren	Ohr	NOUN	NN	_	10	A	10:A	_
+10	haben	haben	VERB	VAFIN	_	4	E	4:E	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	beobachtete	beobachten	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	einige	einige	PRON	PIAT	_	15	E	15:E	_
+15	Varietäten	Varietät	NOUN	NN	_	12	A	12:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	die	der	PRON	PRELS	_	20	R	20:R	_
+18	3	3	NUM	CARD	_	19	E	19:E	_
+19	Meter	Meter	NOUN	NN	_	20	A	20:A	_
+20	lang	lang	ADJ	ADJD	_	15	E	15:E	_
+21	,	,	PUNCT	$,	_	15	U	15:U	_
+22	mit	mit	ADP	APPR	_	24	R	24:R	_
+23	weißen	weiß	ADJ	ADJA	_	24	E	24:E	_
+24	Haaren	Haar	NOUN	NN	_	15	E	15:E	_
+25	und	und	CCONJ	NE	_	24	N	24:N	_
+26	Bullenbeißerkopf	Bullenbeißerkopf	NOUN	NE	_	24	C	24:C	_
+27	,	,	PUNCT	$,	_	15	U	15:U	_
+28	in	in	ADP	APPR	_	30	R	30:R	_
+29	jedem	jed	PRON	PIAT	_	30	E	30:E	_
+30	Kiefer	Kiefer	NOUN	NE	_	33	A	33:A	_
+31	zehn	zehn	NUM	VVFIN	_	32	E	32:E	_
+32	Zähne	Zahn	NOUN	NN	_	33	A	33:A	_
+33	hatten	haben	VERB	VAFIN	_	15	E	15:E	_
+34	.	.	PUNCT	$.	_	33	U	33:U	_
+

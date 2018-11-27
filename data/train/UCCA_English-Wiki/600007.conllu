@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 600007
+# text = McCartney 's loss later became a point of connection with John Lennon , whose mother , Julia , had died when he was seventeen .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	loss	loss	NOUN	NN	_	5	A	5:A	_
+4	later	later	ADV	RB	_	5	D	5:D	_
+5	became	become	VERB	VBD	_	0	H	0:H	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	point	point	NOUN	NN	_	5	A	5:A	_
+8	of	of	ADP	IN	_	9	R	9:R	_
+9	connection	connection	NOUN	NN	_	7	E	7:E	_
+10	with	with	ADP	IN	_	11	R	11:R	_
+11	John	John	PROPN	NNP	_	7	E	7:E	_
+12	Lennon	Lennon	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	whose	whose	PRON	WP$	_	20	F	20:F	_
+15	mother	mother	NOUN	NN	_	17	E	17:E	_
+16	,	,	PUNCT	,	_	17	U	17:U	_
+17	Julia	Julia	PROPN	NNP	_	20	A	20:A	_
+18	,	,	PUNCT	,	_	20	U	20:U	_
+19	had	have	AUX	VBD	_	20	F	20:F	_
+20	died	die	VERB	VBN	_	11	E	11:E	_
+21	when	when	ADV	WRB	_	20	L	20:L	_
+22	he	he	PRON	PRP	_	24	A	24:A	_
+23	was	be	AUX	VBD	_	24	F	24:F	_
+24	seventeen	seventeen	VERB	VBN	_	20	H	20:H	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

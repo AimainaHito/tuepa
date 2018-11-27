@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25667008
+# text = Einige Tage lang bekamen wir eine große Menge See vögel zu sehen , Plattfüßer , Meer schwalben oder See möwen .
+1	Einige	einige	PRON	PIAT	_	2	E	2:E	_
+2	Tage	Tag	NOUN	NN	_	12	D	12:D	_
+3	lang	lang	ADJ	ADJD	_	12	D	12:D	_
+4	bekamen	bekommen	VERB	VVFIN	_	12	D	12:D	_
+5	wir	wir	PRON	NE	_	12	A	12:A	_
+6	eine	ein	DET	ART	_	8	E	8:E	_
+7	große	groß	ADJ	ADJA	_	8	E	8:E	_
+8	Menge	Menge	NOUN	NN	_	10	E	10:E	_
+9	See	See	PROPN	NN	_	10	E	10:E	_
+10	vögel	vögel	PROPN	NE	_	12	A	12:A	_
+11	zu	zu	PART	NE	_	12	F	12:F	_
+12	sehen	sehen	VERB	VVINF	_	0	H	0:H	_
+13	,	,	PUNCT	$,	_	12	U	12:U	_
+14	Plattfüßer	Plattfüßer	NOUN	NN	_	10	E	10:E	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	Meer	Meer	NOUN	NN	_	17	E	17:E	_
+17	schwalben	schwalb	ADJ	ADJA	_	14	C	14:C	_
+18	oder	oder	CCONJ	NN	_	14	N	14:N	_
+19	See	See	NOUN	NN	_	20	E	20:E	_
+20	möwen	möw	ADJ	NN	_	14	C	14:C	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

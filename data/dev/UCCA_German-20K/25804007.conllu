@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25804007
+# text = Einige tausend Kilo Fleisch , zum Trocknen bestimmt , wurden an Bord gebracht .
+1	Einige	einige	PRON	PIS	_	4	E	4:E	_
+2	tausend	tausend	NUM	ADJD	_	3	E	3:E	_
+3	Kilo	Kilo	NOUN	NN	_	4	E	4:E	_
+4	Fleisch	Fleisch	NOUN	NN	_	13	A	13:A	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	zum	zum	ADP	NN	_	7	R	7:R	_
+7	Trocknen	trocknen	NOUN	NE	_	4	E	4:E	_
+8	bestimmt	bestimmen	VERB	VVPP	_	7	D	7:D	_
+9	,	,	PUNCT	$,	_	13	U	13:U	_
+10	wurden	werden	AUX	ADJD	_	13	F	13:F	_
+11	an	an	ADP	APPR	_	12	R	12:R	_
+12	Bord	Bord	NOUN	NN	_	13	A	13:A	_
+13	gebracht	bringen	VERB	VVPP	_	0	H	0:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

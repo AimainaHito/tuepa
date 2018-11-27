@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 489012
+# text = Bana was surprised to be offered the role and admitted that he " probably would have just passed it on without even opening it " if it had been presented to him under a different title .
+1	Bana	Bana	PROPN	NNP	_	3	A	3:A|10:A|6:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	surprised	surprised	ADJ	JJ	_	0	H	0:H	_
+4	to	to	PART	TO	_	6	F	6:F	_
+5	be	be	AUX	VB	_	6	F	6:F	_
+6	offered	offer	VERB	VBN	_	3	A	3:A	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	role	role	NOUN	NN	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	admitted	admit	VERB	VBD	_	3	H	3:H	_
+11	that	that	SCONJ	IN	_	18	R	18:R	_
+12	he	he	PRON	PRP	_	18	A	18:A|23:A	_
+13	"	"	PUNCT	``	_	18	U	18:U	_
+14	probably	probably	ADV	RB	_	18	D	18:D	_
+15	would	would	AUX	MD	_	18	F	18:F	_
+16	have	have	AUX	VB	_	18	F	18:F	_
+17	just	just	ADV	RB	_	18	D	18:D	_
+18	passed	pass	VERB	VBN	_	10	A	10:A	_
+19	it	it	PRON	PRP	_	18	A	18:A	_
+20	on	on	ADV	RB	_	18	E	18:E	_
+21	without	without	SCONJ	IN	_	18	L	18:L	_
+22	even	even	ADV	RB	_	23	D	23:D	_
+23	opening	open	VERB	VBG	_	18	H	18:H	_
+24	it	it	PRON	PRP	_	23	A	23:A	_
+25	"	"	PUNCT	``	_	18	U	18:U	_
+26	if	if	SCONJ	IN	_	18	L	18:L	_
+27	it	it	PRON	PRP	_	30	A	30:A	_
+28	had	have	AUX	VBD	_	30	F	30:F	_
+29	been	be	AUX	VBN	_	30	F	30:F	_
+30	presented	present	VERB	VBN	_	18	H	18:H	_
+31	to	to	ADP	IN	_	32	R	32:R	_
+32	him	he	PRON	PRP	_	30	A	30:A	_
+33	under	under	ADP	IN	_	36	R	36:R	_
+34	a	a	DET	DT	_	36	E	36:E	_
+35	different	different	ADJ	JJ	_	36	E	36:E	_
+36	title	title	NOUN	NN	_	30	A	30:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

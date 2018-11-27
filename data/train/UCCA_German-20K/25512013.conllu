@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25512013
+# text = Aber die Tür war geschlossen , und ich konnte seine Einrichtung nicht sehen , woraus ich wohl die Anzahl der zur Bewegung der ›Nautilus‹ erforderlichen Männer hätte entnehmen können .
+1	Aber	aber	CCONJ	KON	_	5	L	5:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Tür	Tür	NOUN	NN	_	5	A	5:A	_
+4	war	sein	AUX	ADV	_	5	F	5:F	_
+5	geschlossen	schließen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	und	und	CCONJ	NE	_	5	L	5:L	_
+8	ich	ich	PRON	PPER	_	13	A	13:A	_
+9	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+10	seine	sein	DET	PPOSAT	_	11	E	11:E	_
+11	Einrichtung	Einrichtung	NOUN	NN	_	13	A	13:A	_
+12	nicht	nicht	PART	CARD	_	13	D	13:D	_
+13	sehen	sehen	VERB	VVPP	_	5	H	5:H	_
+14	,	,	PUNCT	$,	_	5	U	5:U	_
+15	woraus	woraus	PRON	PWAV	_	5	L	5:L	_
+16	ich	ich	PRON	PPER	_	28	A	28:A	_
+17	wohl	wohl	ADV	ADV	_	28	G	28:G	_
+18	die	der	DET	ART	_	19	E	19:E	_
+19	Anzahl	Anzahl	NOUN	NN	_	28	A	28:A	_
+20	der	der	DET	ART	_	26	R	26:R	_
+21	zur	zur	ADV	NN	_	22	R	22:R	_
+22	Bewegung	Bewegung	NOUN	NN	_	25	A	25:A	_
+23	der	der	DET	ART	_	24	R	24:R	_
+24	›Nautilus‹	›Nautilus‹	NOUN	NE	_	22	E	22:E	_
+25	erforderlichen	erforderlich	ADJ	ADJA	_	26	E	26:E	_
+26	Männer	Mann	NOUN	NN	_	19	E	19:E	_
+27	hätte	haben	AUX	VAFIN	_	28	D	28:D	_
+28	entnehmen	entnehmen	VERB	VVINF	_	5	H	5:H	_
+29	können	können	AUX	VMINF	_	28	D	28:D	_
+30	.	.	PUNCT	$.	_	28	U	28:U	_
+

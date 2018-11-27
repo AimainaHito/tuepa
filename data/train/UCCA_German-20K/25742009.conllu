@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25742009
+# text = » Können Sie sich vorstellen « , fragte ich sie , » wie dieser Trichter sein müßte , wenn er mit siedender Lava sich füllte und das Niveau dieser glühenden Masse bis zur Mündung des Berges stieg , wie das siedende Metall über die Wände des Gießofens ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Können	können	AUX	VMFIN	_	5	D	5:D	_
+3	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+4	sich	er|es|sie	PRON	PRF	_	5	A	5:A	_
+5	vorstellen	vorstellen	VERB	VVINF	_	8	A	8:A	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	sie	sie	PRON	ADV	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	wie	wie	ADP	KON	_	5	A	5:A	_
+14	dieser	dies	PRON	PDAT	_	15	E	15:E	_
+15	Trichter	Trichter	NOUN	NN	_	13	A	13:A	_
+16	sein	sein	AUX	VAINF	_	13	F	13:F	_
+17	müßte	müßte	ADJ	VVFIN	_	13	D	13:D	_
+18	,	,	PUNCT	$,	_	13	U	13:U	_
+19	wenn	wenn	SCONJ	VVFIN	_	13	L	13:L	_
+20	er	er	PRON	PPER	_	24	A	24:A	_
+21	mit	mit	ADP	APPR	_	23	R	23:R	_
+22	siedender	siedend	ADJ	ADJA	_	23	E	23:E	_
+23	Lava	Lava	NOUN	NN	_	24	A	24:A	_
+24	sich	er|es|sie	PRON	PRF	_	13	H	13:H	_
+25	füllte	füllen	VERB	VVFIN	_	24	Terminal	24:Terminal	_
+26	und	und	CCONJ	NE	_	13	L	13:L	_
+27	das	der	DET	ART	_	28	E	28:E	_
+28	Niveau	Niveau	NOUN	NN	_	37	A	37:A	_
+29	dieser	dies	PRON	PDAT	_	31	R	31:R	_
+30	glühenden	glühend	ADJ	ADJA	_	31	E	31:E	_
+31	Masse	Masse	NOUN	NN	_	28	E	28:E	_
+32	bis	bis	ADP	APPR	_	34	R	34:R	_
+33	zur	zur	ADV	NE	_	32	Terminal	32:Terminal	_
+34	Mündung	Mündung	NOUN	NN	_	37	A	37:A	_
+35	des	der	DET	ART	_	36	R	36:R	_
+36	Berges	Berg	NOUN	NN	_	34	E	34:E	_
+37	stieg	steigen	VERB	VVFIN	_	13	H	13:H	_
+38	,	,	PUNCT	$,	_	42	U	42:U	_
+39	wie	wie	SCONJ	KON	_	42	R	42:R	_
+40	das	der	DET	ART	_	42	E	42:E	_
+41	siedende	siedend	ADJ	ADJA	_	42	E	42:E	_
+42	Metall	Metall	NOUN	NN	_	13	H	13:H	_
+43	über	über	ADP	VVFIN	_	45	R	45:R	_
+44	die	der	DET	ART	_	45	E	45:E	_
+45	Wände	Wand	NOUN	NN	_	42	A	42:A	_
+46	des	der	DET	ART	_	47	R	47:R	_
+47	Gießofens	Gießofen	NOUN	NN	_	45	E	45:E	_
+48	?	?	PUNCT	$.	_	47	U	47:U	_
+49	«	«	PUNCT	$(	_	47	U	47:U	_
+

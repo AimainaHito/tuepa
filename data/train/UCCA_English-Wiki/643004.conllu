@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 643004
+# text = Alexis Mardas later claimed to have slept with her that night , and a few weeks later he informed her that Lennon was seeking a divorce and custody of Julian on grounds of her adultery with him .
+1	Alexis	Alexis	PROPN	NNP	_	4	A	4:A|7:A	_
+2	Mardas	Mardas	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	later	later	ADV	RB	_	4	D	4:D	_
+4	claimed	claim	VERB	VBD	_	0	H	0:H	_
+5	to	to	PART	TO	_	7	F	7:F	_
+6	have	have	AUX	VB	_	7	F	7:F	_
+7	slept	slept	VERB	VBN	_	4	A	4:A	_
+8	with	with	ADP	IN	_	9	R	9:R	_
+9	her	she	PRON	PRP	_	7	A	7:A	_
+10	that	that	DET	DT	_	11	E	11:E	_
+11	night	night	NOUN	NN	_	7	D	7:D	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	and	and	CCONJ	CC	_	4	L	4:L	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	few	few	ADJ	JJ	_	16	E	16:E	_
+16	weeks	week	NOUN	NNS	_	19	D	19:D	_
+17	later	later	ADV	RBR	_	16	R	16:R	_
+18	he	he	PRON	PRP	_	19	A	19:A	_
+19	informed	inform	VERB	VBD	_	4	H	4:H	_
+20	her	she	PRON	PRP	_	19	A	19:A	_
+21	that	that	SCONJ	IN	_	24	F	24:F	_
+22	Lennon	Lennon	PROPN	NNP	_	24	A	24:A	_
+23	was	be	AUX	VBD	_	24	F	24:F	_
+24	seeking	seek	VERB	VBG	_	19	A	19:A	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	divorce	divorce	NOUN	NN	_	24	A	24:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	custody	custody	NOUN	NN	_	26	C	26:C	_
+29	of	of	ADP	IN	_	28	R	28:R	_
+30	Julian	Julian	PROPN	NNP	_	28	C	28:C	_
+31	on	on	ADP	IN	_	32	R	32:R	_
+32	grounds	grounds	NOUN	NNS	_	4	L	4:L	_
+33	of	of	ADP	IN	_	32	F	32:F	_
+34	her	she	PRON	PRP$	_	35	A	35:A	_
+35	adultery	adultery	NOUN	NN	_	4	H	4:H	_
+36	with	with	ADP	IN	_	37	R	37:R	_
+37	him	he	PRON	PRP	_	35	A	35:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

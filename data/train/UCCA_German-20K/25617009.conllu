@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25617009
+# text = Sie folgte nicht genau der Linie , welche die " Astrolabe " eingeschlagen hatte und ihr verderblich geworden war , sondern hielt sich mehr nördlich , an der Insel Murray vorbei , und dann wieder südwestlich nach der Cumberlandstraße zu .
+1	Sie	Sie|sie	PRON	PPER	_	2	A	2:A|31:A|39:A|22:A	_
+2	folgte	folgen	VERB	VVFIN	_	0	H	0:H	_
+3	nicht	nicht	PART	XY	_	4	E	4:E	_
+4	genau	genau	ADJ	ADV	_	2	D	2:D	_
+5	der	der	DET	ART	_	6	E	6:E	_
+6	Linie	Linie	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	welche	welch	PRON	NN	_	13	R	13:R	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	"	"	PUNCT	$(	_	11	U	11:U	_
+11	Astrolabe	Astrolabe	PROPN	NN	_	13	A	13:A	_
+12	"	"	PUNCT	$(	_	13	U	13:U	_
+13	eingeschlagen	einschlagen	VERB	VVPP	_	6	E	6:E	_
+14	hatte	haben	AUX	VAFIN	_	13	F	13:F	_
+15	und	und	CCONJ	NE	_	13	N	13:N	_
+16	ihr	ihr	PRON	PPER	_	17	A	17:A	_
+17	verderblich	verderblich	ADJ	ADJD	_	13	C	13:C	_
+18	geworden	werden	AUX	PAV	_	17	D	17:D	_
+19	war	sein	AUX	ADV	_	17	F	17:F	_
+20	,	,	PUNCT	$,	_	2	U	2:U	_
+21	sondern	sondern	CCONJ	NN	_	2	L	2:L	_
+22	hielt	halten	VERB	VVFIN	_	2	H	2:H	_
+23	sich	er|es|sie	PRON	PRF	_	22	Terminal	22:Terminal	_
+24	mehr	mehr	ADV	ADV	_	22	D	22:D	_
+25	nördlich	nördlich	ADJ	ADJA	_	22	D	22:D	_
+26	,	,	PUNCT	$,	_	2	U	2:U	_
+27	an	an	ADP	APPR	_	30	R	30:R	_
+28	der	der	DET	ART	_	30	E	30:E	_
+29	Insel	Insel	NOUN	NN	_	30	E	30:E	_
+30	Murray	Murray	PROPN	NE	_	31	A	31:A	_
+31	vorbei	vorbei	ADV	NE	_	2	H	2:H	_
+32	,	,	PUNCT	$,	_	2	U	2:U	_
+33	und	und	CCONJ	NE	_	2	L	2:L	_
+34	dann	dann	ADV	ADV	_	2	L	2:L	_
+35	wieder	wieder	ADV	NE	_	39	D	39:D	_
+36	südwestlich	südwestlich	ADJ	ADJD	_	39	D	39:D	_
+37	nach	nach	ADP	NN	_	39	R	39:R	_
+38	der	der	DET	ART	_	39	E	39:E	_
+39	Cumberlandstraße	Cumberlandstraße	PROPN	NN	_	2	H	2:H	_
+40	zu	zu	ADP	NE	_	37	Terminal	37:Terminal	_
+41	.	.	PUNCT	$.	_	39	U	39:U	_
+

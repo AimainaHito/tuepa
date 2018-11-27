@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 495017
+# text = Playing acoustic guitar , she formed a group with Bowie and bassist John Hutchinson ; between September 1968 and early 1969 , when Bowie and Farthingale broke up , the trio gave a small number of concerts combining folk , Merseybeat , poetry and mime .
+1	Playing	play	VERB	VBG	_	0	H	0:H	_
+2	acoustic	acoustic	ADJ	JJ	_	3	E	3:E	_
+3	guitar	guitar	NOUN	NN	_	1	A	1:A	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	she	she	PRON	PRP	_	6	A	6:A|1:A	_
+6	formed	form	VERB	VBD	_	1	H	1:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	group	group	NOUN	NN	_	6	A	6:A	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	Bowie	Bowie	PROPN	NNP	_	6	A	6:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	bassist	bassist	PROPN	NNP	_	13	E	13:E	_
+13	John	John	PROPN	NNP	_	10	C	10:C	_
+14	Hutchinson	Hutchinson	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	;	;	PUNCT	,	_	1	U	1:U	_
+16	between	between	ADP	IN	_	17	R	17:R	_
+17	September	September	PROPN	NNP	_	32	D	32:D	_
+18	1968	1968	NUM	CD	_	17	Terminal	17:Terminal	_
+19	and	and	CCONJ	CC	_	17	N	17:N	_
+20	early	early	ADJ	JJ	_	21	E	21:E	_
+21	1969	1969	NUM	CD	_	17	C	17:C	_
+22	,	,	PUNCT	,	_	1	U	1:U	_
+23	when	when	ADV	WRB	_	1	L	1:L	_
+24	Bowie	Bowie	PROPN	NNP	_	27	A	27:A	_
+25	and	and	CCONJ	CC	_	24	N	24:N	_
+26	Farthingale	Farthingale	PROPN	NNP	_	24	C	24:C	_
+27	broke	break	VERB	VBD	_	1	H	1:H	_
+28	up	up	ADP	RP	_	27	Terminal	27:Terminal	_
+29	,	,	PUNCT	,	_	1	U	1:U	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	trio	trio	NOUN	NN	_	32	A	32:A	_
+32	gave	give	VERB	VBD	_	1	H	1:H	_
+33	a	a	DET	DT	_	35	E	35:E	_
+34	small	small	ADJ	JJ	_	35	E	35:E	_
+35	number	number	NOUN	NN	_	37	E	37:E	_
+36	of	of	ADP	IN	_	35	R	35:R	_
+37	concerts	concert	NOUN	NNS	_	38	A	38:A	_
+38	combining	combi	VERB	VBG	_	32	A	32:A	_
+39	folk	folk	NOUN	NNS	_	38	A	38:A	_
+40	,	,	PUNCT	,	_	39	U	39:U	_
+41	Merseybeat	merseybeat	PROPN	NNP	_	39	C	39:C	_
+42	,	,	PUNCT	,	_	39	U	39:U	_
+43	poetry	poetry	NOUN	NN	_	39	C	39:C	_
+44	and	and	CCONJ	CC	_	39	N	39:N	_
+45	mime	mime	NOUN	NN	_	39	C	39:C	_
+46	.	.	PUNCT	.	_	39	U	39:U	_
+

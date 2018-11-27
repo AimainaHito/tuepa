@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 495009
+# text = His April 1967 solo single , " The Laughing Gnome " , using speeded - up thus high - pitched vocals , failed to chart .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	April	April	PROPN	NNP	_	3	E	3:E	_
+3	1967	1967	NUM	CD	_	5	E	5:E	_
+4	solo	solo	X	AFX	_	5	E	5:E	_
+5	single	single	ADJ	JJ	_	8	E	8:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	"	"	PUNCT	``	_	8	U	8:U	_
+8	The	the	DET	DT	_	25	A	25:A	_
+9	Laughing	laugh	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Gnome	Gnome	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	"	"	PUNCT	''	_	8	U	8:U	_
+12	,	,	PUNCT	,	_	8	U	8:U	_
+13	using	use	VERB	VBG	_	8	E	8:E	_
+14	speeded	speed	VERB	VBN	_	21	E	21:E	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	up	up	ADP	RP	_	14	Terminal	14:Terminal	_
+17	thus	thus	ADV	RB	_	14	R	14:R	_
+18	high	high	ADV	RB	_	20	E	20:E	_
+19	-	-	PUNCT	HYPH	_	20	U	20:U	_
+20	pitched	pitch	VERB	VBN	_	14	C	14:C	_
+21	vocals	vocal	NOUN	NNS	_	13	A	13:A	_
+22	,	,	PUNCT	,	_	25	U	25:U	_
+23	failed	fail	VERB	VBD	_	25	D	25:D	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	chart	chart	VERB	VB	_	0	H	0:H	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

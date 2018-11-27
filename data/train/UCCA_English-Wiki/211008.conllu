@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 211008
+# text = In the 2002 documentary The Weather Underground , Hoffman can be seen standing in the street during the aftermath of the explosion .
+1	In	in	ADP	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	2002	2002	NUM	CD	_	4	E	4:E	_
+4	documentary	documentary	NOUN	NN	_	5	E	5:E	_
+5	The	the	DET	DT	_	13	A	13:A	_
+6	Weather	weather	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	Underground	underground	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	,	_	13	U	13:U	_
+9	Hoffman	Hoffman	PROPN	NNP	_	13	A	13:A	_
+10	can	can	AUX	MD	_	12	E	12:E	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	seen	see	VERB	VBN	_	13	E	13:E	_
+13	standing	stand	VERB	VBG	_	0	H	0:H	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	street	street	NOUN	NN	_	13	A	13:A	_
+17	during	during	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	aftermath	aftermath	NOUN	NN	_	13	A	13:A	_
+20	of	of	ADP	IN	_	22	R	22:R	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	explosion	explosion	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

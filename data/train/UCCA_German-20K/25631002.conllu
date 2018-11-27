@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25631002
+# text = Als die beiden Freunde den Wald durchstreiften , scheuchten sie einen Trupp Känguruhs auf , die mit elastischen Sprüngen entflohen .
+1	Als	als	SCONJ	KOUS	_	7	L	7:L	_
+2	die	der	DET	ART	_	4	E	4:E	_
+3	beiden	beide	PRON	PIAT	_	4	E	4:E	_
+4	Freunde	Freund	NOUN	NN	_	7	A	7:A	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Wald	Wald	NOUN	NN	_	7	A	7:A	_
+7	durchstreiften	durchstreifen	VERB	VVFIN	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	scheuchten	scheuchen	VERB	VVFIN	_	7	H	7:H	_
+10	sie	sie	PRON	ADV	_	9	A	9:A	_
+11	einen	ein	DET	ART	_	12	E	12:E	_
+12	Trupp	Trup	NOUN	NN	_	13	E	13:E	_
+13	Känguruhs	Känguruhs	PROPN	NN	_	9	A	9:A	_
+14	auf	auf	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+15	,	,	PUNCT	$,	_	9	U	9:U	_
+16	die	der	PRON	PRELS	_	20	R	20:R	_
+17	mit	mit	ADP	APPR	_	19	R	19:R	_
+18	elastischen	elastisch	ADJ	ADJA	_	19	E	19:E	_
+19	Sprüngen	Sprüng	NOUN	NN	_	20	A	20:A	_
+20	entflohen	entflohen	VERB	ADJA	_	13	E	13:E	_
+21	.	.	PUNCT	$.	_	20	U	20:U	_
+

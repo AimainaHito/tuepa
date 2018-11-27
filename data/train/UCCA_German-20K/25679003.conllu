@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25679003
+# text = » Ich irre gewiß nicht , wenn ich ihren Wert auf 2 Millionen anschlage ... « » Franc ! « sagte Conseil lebhaft .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	irre	irre	ADJ	ADJA	_	0	H	0:H	_
+4	gewiß	gewiß	NOUN	ADJD	_	3	D	3:D	_
+5	nicht	nicht	PART	XY	_	3	D	3:D	_
+6	,	,	PUNCT	$,	_	3	U	3:U	_
+7	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+8	ich	ich	PRON	PPER	_	14	A	14:A	_
+9	ihren	ihr	DET	PPOSAT	_	10	E	10:E	_
+10	Wert	Wert	NOUN	NN	_	14	A	14:A	_
+11	auf	auf	ADP	APPR	_	13	R	13:R	_
+12	2	2	NUM	CARD	_	13	E	13:E	_
+13	Millionen	Million	NOUN	NN	_	14	A	14:A|18:A	_
+14	anschlage	anschlagen	VERB	NN	_	0	P	0:P|18:P	_
+15	...	...	PUNCT	$(	_	18	U	18:U	_
+16	«	«	PUNCT	$(	_	18	U	18:U	_
+17	»	»	PUNCT	$(	_	18	U	18:U	_
+18	Franc	Franc	PROPN	NE	_	21	A	21:A	_
+19	!	!	PUNCT	$.	_	21	U	21:U	_
+20	«	«	PUNCT	$(	_	21	U	21:U	_
+21	sagte	sagen	VERB	VVFIN	_	3	H	3:H	_
+22	Conseil	Conseil	PROPN	NE	_	21	A	21:A	_
+23	lebhaft	lebhafen	VERB	NN	_	21	D	21:D	_
+24	.	.	PUNCT	$.	_	21	U	21:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 557007
+# text = " Presley cut a second acetate in January 1954 - " I 'll Never Stand In Your Way " and " It Would n't Be the Same Without You " - but again nothing came of it .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Presley	Presley	PROPN	NNP	_	3	A	3:A	_
+3	cut	cut	VERB	VBD	_	0	H	0:H	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	second	second	ADJ	JJ	_	6	E	6:E	_
+6	acetate	acetate	NOUN	NN	_	12	E	12:E	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	January	January	PROPN	NNP	_	3	D	3:D	_
+9	1954	1954	NUM	CD	_	8	Terminal	8:Terminal	_
+10	-	-	PUNCT	,	_	3	U	3:U	_
+11	"	"	PUNCT	``	_	3	U	3:U	_
+12	I	I	PRON	PRP	_	3	A	3:A	_
+13	'll	will	AUX	MD	_	12	Terminal	12:Terminal	_
+14	Never	never	ADV	RB	_	12	Terminal	12:Terminal	_
+15	Stand	stand	VERB	VB	_	12	Terminal	12:Terminal	_
+16	In	in	ADP	IN	_	12	Terminal	12:Terminal	_
+17	Your	you	PRON	PRP$	_	12	Terminal	12:Terminal	_
+18	Way	way	NOUN	NN	_	12	Terminal	12:Terminal	_
+19	"	"	PUNCT	''	_	12	U	12:U	_
+20	and	and	CCONJ	CC	_	12	N	12:N	_
+21	"	"	PUNCT	``	_	12	U	12:U	_
+22	It	it	PRON	PRP	_	12	C	12:C	_
+23	Would	would	AUX	MD	_	22	Terminal	22:Terminal	_
+24	n't	not	PART	RB	_	22	Terminal	22:Terminal	_
+25	Be	be	VERB	VB	_	22	Terminal	22:Terminal	_
+26	the	the	DET	DT	_	22	Terminal	22:Terminal	_
+27	Same	same	ADJ	JJ	_	22	Terminal	22:Terminal	_
+28	Without	without	ADP	IN	_	22	Terminal	22:Terminal	_
+29	You	you	PRON	PRP	_	22	Terminal	22:Terminal	_
+30	"	"	PUNCT	''	_	3	U	3:U	_
+31	-	-	PUNCT	,	_	3	U	3:U	_
+32	but	but	CCONJ	CC	_	3	L	3:L	_
+33	again	again	ADV	RB	_	35	D	35:D	_
+34	nothing	nothing	PRON	NN	_	35	A	35:A	_
+35	came	come	VERB	VBD	_	3	H	3:H	_
+36	of	of	ADP	IN	_	35	Terminal	35:Terminal	_
+37	it	it	PRON	PRP	_	35	A	35:A	_
+38	.	.	PUNCT	.	_	35	U	35:U	_
+

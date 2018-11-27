@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25746001
+# text = » Auf ! Auf ! « schrie der wackere Junge .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Auf	auf	ADP	APPR	_	7	A	7:A	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Auf	auf	NOUN	APPR	_	2	H	2:H	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	schrie	schrie	CCONJ	NN	_	0	H	0:H	_
+8	der	der	DET	ART	_	10	E	10:E	_
+9	wackere	wack	ADJ	ADJA	_	10	E	10:E	_
+10	Junge	Junge	NOUN	NN	_	7	A	7:A	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

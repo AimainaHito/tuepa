@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25712000
+# text = » Gut , Ned . Spüren Sie diese Gelegenheit aus ; aber behalten Sie im Sinn , dass ein Fehl schlagen unser Verderben wäre . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Gut	gut	NOUN	NN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Ned	Ned	PROPN	NN	_	2	G	2:G	_
+5	.	.	PUNCT	$.	_	2	U	2:U	_
+6	Spüren	spüren	PROPN	NN	_	2	H	2:H	_
+7	Sie	Sie|sie	PRON	PPER	_	6	A	6:A	_
+8	diese	dies	PRON	PDAT	_	9	E	9:E	_
+9	Gelegenheit	Gelegenheit	NOUN	NN	_	6	A	6:A	_
+10	aus	aus	ADP	APZR	_	6	Terminal	6:Terminal	_
+11	;	;	PUNCT	$.	_	2	U	2:U	_
+12	aber	aber	ADV	ADV	_	2	L	2:L	_
+13	behalten	behalten	VERB	VVINF	_	16	F	16:F	_
+14	Sie	Sie|sie	PRON	PPER	_	16	A	16:A	_
+15	im	im	ADJ	NN	_	16	R	16:R	_
+16	Sinn	Sinn	NOUN	NN	_	2	H	2:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+19	ein	ein	DET	ART	_	21	E	21:E	_
+20	Fehl	fehl	NOUN	NN	_	21	E	21:E	_
+21	schlagen	schlagen	VERB	VVFIN	_	23	A	23:A	_
+22	unser	unser	PRON	NN	_	23	E	23:E|21:A	_
+23	Verderben	Verderben	NOUN	NN	_	16	A	16:A	_
+24	wäre	sein	AUX	ADV	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+26	«	«	PUNCT	$(	_	23	U	23:U	_
+

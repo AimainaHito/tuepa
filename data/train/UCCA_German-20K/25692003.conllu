@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25692003
+# text = Hierauf fuhr sie in einer Entfernung von 6 Meilen längs der arabischen Küsten von Mahra und Hadramaut und dessen wellen förmiger Gebirgsreihe mit einigen alten Ruinen .
+1	Hierauf	hierauf	ADV	PAV	_	2	L	2:L	_
+2	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	einer	ein	DET	ART	_	6	E	6:E	_
+6	Entfernung	Entfernung	NOUN	NN	_	2	A	2:A	_
+7	von	von	ADP	NE	_	9	R	9:R	_
+8	6	6	NUM	CARD	_	9	E	9:E	_
+9	Meilen	Meile	NOUN	NN	_	6	E	6:E	_
+10	längs	längs	ADP	ADV	_	15	R	15:R	_
+11	der	der	DET	ART	_	15	R	15:R	_
+12	arabischen	arabisch	ADJ	ADJA	_	13	E	13:E	_
+13	Küsten	Küste	NOUN	NN	_	15	E	15:E	_
+14	von	von	ADP	NE	_	15	R	15:R	_
+15	Mahra	Mahra	PROPN	NE	_	2	A	2:A	_
+16	und	und	CCONJ	NE	_	15	N	15:N	_
+17	Hadramaut	Hadramaut	PROPN	NE	_	15	C	15:C	_
+18	und	und	CCONJ	NE	_	15	N	15:N	_
+19	dessen	der	DET	PDAT	_	22	R	22:R	_
+20	wellen	well	ADJ	ADJA	_	21	E	21:E	_
+21	förmiger	förmiger	ADJ	ADJA	_	22	E	22:E	_
+22	Gebirgsreihe	Gebirgsreihe	NOUN	NN	_	15	C	15:C	_
+23	mit	mit	ADP	APPR	_	26	R	26:R	_
+24	einigen	einige	PRON	PIAT	_	26	E	26:E	_
+25	alten	alt	ADJ	ADJA	_	26	E	26:E	_
+26	Ruinen	Ruine	NOUN	NN	_	22	E	22:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

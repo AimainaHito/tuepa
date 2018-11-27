@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25632011
+# text = » Zum Boot ! « sagte ich und eilte nach dem Meeres ufer .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Zum	Zum	NOUN	NN	_	3	R	3:R	_
+3	Boot	Boot	NOUN	NE	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	ich	ich	PRON	PPER	_	6	A	6:A|9:A	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	eilte	eilen	VERB	VVFIN	_	6	H	6:H	_
+10	nach	nach	ADP	CARD	_	13	R	13:R	_
+11	dem	der	DET	ART	_	13	E	13:E	_
+12	Meeres	Meer	NOUN	ADJA	_	13	E	13:E	_
+13	ufer	uf	ADJ	NN	_	9	A	9:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

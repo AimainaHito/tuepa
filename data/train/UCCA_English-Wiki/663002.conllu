@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 663002
+# text = The song remained atop the Hot 100 for a record - breaking sixteen weeks , and became the longest running number one song in history .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	song	song	NOUN	NN	_	0	C	0:C|17:A	_
+3	remained	remain	VERB	VBD	_	0	H	0:H	_
+4	atop	atop	ADP	IN	_	3	A	3:A	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	Hot	hot	ADJ	JJ	_	4	E	4:E	_
+7	100	100	NUM	CD	_	6	Terminal	6:Terminal	_
+8	for	for	ADP	IN	_	14	R	14:R	_
+9	a	a	DET	DT	_	14	E	14:E	_
+10	record	record	NOUN	NN	_	14	E	14:E	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	breaking	breaking	NOUN	NN	_	10	E	10:E	_
+13	sixteen	sixteen	NUM	CD	_	14	E	14:E	_
+14	weeks	week	NOUN	NNS	_	3	D	3:D	_
+15	,	,	PUNCT	,	_	3	U	3:U	_
+16	and	and	CCONJ	CC	_	3	L	3:L	_
+17	became	become	VERB	VBD	_	3	H	3:H	_
+18	the	the	DET	DT	_	23	E	23:E	_
+19	longest	longest	ADV	RBS	_	20	E	20:E	_
+20	running	run	VERB	VBG	_	23	E	23:E	_
+21	number	number	NOUN	NN	_	23	E	23:E	_
+22	one	one	NUM	CD	_	21	E	21:E	_
+23	song	song	NOUN	NN	_	17	A	17:A	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	history	history	NOUN	NN	_	23	E	23:E	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

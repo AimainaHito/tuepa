@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25680007
+# text = » Ich bin ganz auf der Seite meines Herrn . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	bin	sein	AUX	VAFIN	_	0	H	0:H	_
+4	ganz	ganz	ADJ	ADV	_	3	D	3:D	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Seite	Seite	NOUN	NN	_	3	A	3:A	_
+8	meines	mein	PRON	PPOSAT	_	9	R	9:R	_
+9	Herrn	Herr	NOUN	NN	_	7	E	7:E	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	«	«	PUNCT	$(	_	9	U	9:U	_
+

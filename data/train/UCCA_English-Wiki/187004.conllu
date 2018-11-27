@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 187004
+# text = In his freshman year he failed a class that was a core requirement .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	his	he	PRON	PRP$	_	4	A	4:A	_
+3	freshman	freshman	ADJ	JJ	_	4	E	4:E	_
+4	year	year	NOUN	NN	_	0	H	0:H	_
+5	he	he	PRON	PRP	_	6	A	6:A	_
+6	failed	fail	VERB	VBD	_	4	H	4:H	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	class	class	NOUN	NN	_	6	A	6:A	_
+9	that	that	PRON	WDT	_	10	F	10:F	_
+10	was	be	AUX	VBD	_	8	E	8:E	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	core	core	NOUN	NN	_	13	E	13:E	_
+13	requirement	requirement	NOUN	NN	_	10	A	10:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

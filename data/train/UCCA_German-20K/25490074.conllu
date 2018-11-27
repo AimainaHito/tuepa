@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25490074
+# text = Ein Entrinnen unter den Verhältnissen , worin wir durch das Schicksal geraten waren , war durchaus unmöglich .
+1	Ein	ein	DET	ART	_	2	E	2:E	_
+2	Entrinnen	entrin	NOUN	NN	_	17	A	17:A	_
+3	unter	unter	ADP	ADJD	_	5	R	5:R	_
+4	den	der	DET	ART	_	5	E	5:E	_
+5	Verhältnissen	Verhältnis	NOUN	NN	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	worin	worin	PRON	PWAV	_	12	R	12:R	_
+8	wir	wir	PRON	NE	_	12	A	12:A	_
+9	durch	durch	ADP	APPR	_	11	R	11:R	_
+10	das	der	DET	ART	_	11	E	11:E	_
+11	Schicksal	Schicksal	NOUN	NN	_	12	A	12:A	_
+12	geraten	geraten|raten	VERB	VVPP	_	5	E	5:E	_
+13	waren	sein	AUX	VAFIN	_	12	F	12:F	_
+14	,	,	PUNCT	$,	_	17	U	17:U	_
+15	war	sein	AUX	ADV	_	17	F	17:F	_
+16	durchaus	durchaus	ADV	ADV	_	17	D	17:D	_
+17	unmöglich	unmöglich	ADJ	ADJD	_	0	H	0:H	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

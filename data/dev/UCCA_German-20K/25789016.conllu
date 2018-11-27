@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25789016
+# text = Es betrug ungefähr 6.500 Kubikmeter für ein Loch , wodurch wir unter das Eis gelangen konnten .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	betrug	betragen	AUX	VVFIN	_	0	H	0:H	_
+3	ungefähr	ungefähr	ADV	NE	_	2	D	2:D	_
+4	6.500	6.5	NUM	CARD	_	5	E	5:E	_
+5	Kubikmeter	Kubikmeter	NOUN	NN	_	2	A	2:A	_
+6	für	für	ADP	APPR	_	8	R	8:R	_
+7	ein	ein	DET	ART	_	8	E	8:E	_
+8	Loch	Loch	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wodurch	wodurch	PRON	NE	_	15	R	15:R	_
+11	wir	wir	PRON	NE	_	15	A	15:A	_
+12	unter	unter	ADP	NE	_	14	R	14:R	_
+13	das	der	DET	ART	_	14	E	14:E	_
+14	Eis	Eis	NOUN	NN	_	15	A	15:A	_
+15	gelangen	gelangen|gelingen	VERB	VVINF	_	8	E	8:E	_
+16	konnten	können	AUX	VMFIN	_	15	D	15:D	_
+17	.	.	PUNCT	$.	_	15	U	15:U	_
+

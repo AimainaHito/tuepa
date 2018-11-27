@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 540007
+# text = In 1925 , the studio expanded its operations and acquired the Brooklyn - based theater company , Vitagraph .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1925	1925	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	studio	studio	NOUN	NN	_	0	C	0:C|10:A	_
+6	expanded	expand	VERB	VBN	_	0	H	0:H	_
+7	its	its	PRON	PRP$	_	8	E	8:E	_
+8	operations	operation	NOUN	NNS	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	6	L	6:L	_
+10	acquired	acquire	VERB	VBD	_	6	H	6:H	_
+11	the	the	DET	DT	_	16	E	16:E	_
+12	Brooklyn	Brooklyn	PROPN	NNP	_	14	A	14:A	_
+13	-	-	PUNCT	HYPH	_	14	U	14:U	_
+14	based	base	VERB	VBN	_	16	E	16:E	_
+15	theater	theater	NOUN	NN	_	16	E	16:E	_
+16	company	company	NOUN	NN	_	10	A	10:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	Vitagraph	Vitagraph	PROPN	NNP	_	16	E	16:E	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+

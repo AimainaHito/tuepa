@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25410011
+# text = Der Geist siegte über die Wissenschaft .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Geist	Geist	NOUN	NN	_	3	A	3:A	_
+3	siegte	siegen	VERB	VVFIN	_	0	H	0:H	_
+4	über	über	ADP	NE	_	6	R	6:R	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Wissenschaft	Wissenschaft	NOUN	NN	_	3	A	3:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25488064
+# text = Ich konnte den Kopf aufrichten und am ganzen Horizont umherblicken .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	konnte	können	AUX	VMFIN	_	5	D	5:D	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kopf	Kopf	NOUN	NN	_	5	A	5:A	_
+5	aufrichten	aufrichen	VERB	VVINF	_	0	H	0:H	_
+6	und	und	CCONJ	NE	_	5	L	5:L	_
+7	am	ommen	VERB	ADJD	_	9	R	9:R	_
+8	ganzen	ganz	ADJ	ADJA	_	9	E	9:E	_
+9	Horizont	Horizont	NOUN	NN	_	10	A	10:A	_
+10	umherblicken	umherblicken	VERB	VVINF	_	5	H	5:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+

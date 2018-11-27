@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25733005
+# text = Ohne Zweifel hatte er sie schon oft gemacht , und konnte sich nicht verirren .
+1	Ohne	ohne	ADP	NN	_	8	G	8:G	_
+2	Zweifel	Zweifel	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	hatte	haben	VERB	VAFIN	_	8	F	8:F	_
+4	er	er	PRON	PPER	_	8	A	8:A|12:A	_
+5	sie	sie	PRON	ADV	_	8	A	8:A	_
+6	schon	schon	ADV	ADV	_	8	D	8:D	_
+7	oft	oft	ADV	CARD	_	8	D	8:D	_
+8	gemacht	machen	AUX	VVPP	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	konnte	können	AUX	VMFIN	_	12	D	12:D	_
+12	sich	er|es|sie	PRON	PRF	_	8	H	8:H	_
+13	nicht	nicht	PART	CARD	_	12	D	12:D	_
+14	verirren	verirren	ADJ	NN	_	12	Terminal	12:Terminal	_
+15	.	.	PUNCT	$.	_	12	U	12:U	_
+

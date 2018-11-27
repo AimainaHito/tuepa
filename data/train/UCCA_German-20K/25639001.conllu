@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25639001
+# text = » Entschuldigung , mein Herr « , erwiderte Conseil , » aber Freund Ned bereitet eine Känguruh pastete , die zum Erstaunen sein wird ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Entschuldigung	Entschuldigung	NOUN	NN	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	Conseil	Conseil	PROPN	NE	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	»	»	PUNCT	$(	_	8	U	8:U	_
+12	aber	aber	ADV	ADV	_	2	L	2:L	_
+13	Freund	Freund	PROPN	NE	_	14	E	14:E	_
+14	Ned	Ned	PROPN	NE	_	15	A	15:A	_
+15	bereitet	bereiten	VERB	VVFIN	_	2	H	2:H	_
+16	eine	ein	DET	ART	_	18	E	18:E	_
+17	Känguruh	Känguruh	NOUN	NN	_	18	E	18:E	_
+18	pastete	pasten	VERB	VVFIN	_	15	A	15:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	die	der	PRON	ART	_	22	R	22:R	_
+21	zum	zum	ADV	NN	_	22	R	22:R	_
+22	Erstaunen	Erstaunen	NOUN	NN	_	18	E	18:E	_
+23	sein	sein	AUX	VAINF	_	22	F	22:F	_
+24	wird	werden	AUX	VAFIN	_	22	F	22:F	_
+25	!	!	PUNCT	$.	_	22	U	22:U	_
+26	«	«	PUNCT	$(	_	22	U	22:U	_
+

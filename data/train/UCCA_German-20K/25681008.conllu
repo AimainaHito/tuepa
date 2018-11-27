@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25681008
+# text = Ziemlich flach im Osten , hob sie sich etwas nach dem Süden zu .
+1	Ziemlich	ziemlich	ADJ	ADV	_	2	D	2:D	_
+2	flach	flach	ADJ	ADJD	_	0	H	0:H	_
+3	im	im	ADJ	NN	_	4	R	4:R	_
+4	Osten	Osten	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	hob	heben	VERB	VVFIN	_	2	H	2:H	_
+7	sie	sie	PRON	ADV	_	6	A	6:A|2:A	_
+8	sich	er|es|sie	PRON	PRF	_	6	Terminal	6:Terminal	_
+9	etwas	etwas	ADV	ADV	_	6	D	6:D	_
+10	nach	nach	ADP	CARD	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Süden	Süden	NOUN	NN	_	6	A	6:A	_
+13	zu	zu	ADP	VVINF	_	6	Terminal	6:Terminal	_
+14	.	.	PUNCT	$.	_	6	U	6:U	_
+

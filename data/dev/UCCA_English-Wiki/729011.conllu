@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 729011
+# text = It received mixed to positive reviews , with Jolie 's performance earning praise ; Empire remarked , " When it comes to selling incredible , crazy , death - defying antics , Jolie has few peers in the action business . "
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	received	receive	VERB	VBD	_	0	H	0:H	_
+3	mixed	mix	ADJ	JJ	_	6	E	6:E	_
+4	to	to	ADP	IN	_	3	R	3:R	_
+5	positive	positive	ADJ	JJ	_	3	C	3:C	_
+6	reviews	review	NOUN	NNS	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	with	with	ADP	IN	_	2	L	2:L	_
+9	Jolie	Jolie	PROPN	NNP	_	11	E	11:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	performance	performance	NOUN	NN	_	13	A	13:A	_
+12	earning	earning	VERB	VBG	_	13	D	13:D	_
+13	praise	praise	NOUN	NN	_	2	H	2:H	_
+14	;	;	PUNCT	,	_	2	U	2:U	_
+15	Empire	Empire	PROPN	NNP	_	16	A	16:A	_
+16	remarked	remark	VERB	VBD	_	2	H	2:H	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	"	"	PUNCT	``	_	16	U	16:U	_
+19	When	when	ADV	WRB	_	23	L	23:L	_
+20	it	it	PRON	PRP	_	23	F	23:F	_
+21	comes	come	VERB	VBZ	_	23	D	23:D	_
+22	to	to	SCONJ	IN	_	23	R	23:R	_
+23	selling	sell	VERB	VBG	_	16	A	16:A	_
+24	incredible	incredible	ADJ	JJ	_	31	E	31:E	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	crazy	crazy	ADJ	JJ	_	24	C	24:C	_
+27	,	,	PUNCT	,	_	24	U	24:U	_
+28	death	death	NOUN	NN	_	30	E	30:E	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	defying	defying	VERB	VBG	_	24	C	24:C	_
+31	antics	antic	NOUN	NNS	_	23	A	23:A	_
+32	,	,	PUNCT	,	_	23	U	23:U	_
+33	Jolie	Jolie	PROPN	NNP	_	36	A	36:A	_
+34	has	have	VERB	VBZ	_	36	F	36:F	_
+35	few	few	ADJ	JJ	_	36	E	36:E	_
+36	peers	peer	NOUN	NNS	_	23	H	23:H	_
+37	in	in	ADP	IN	_	40	R	40:R	_
+38	the	the	DET	DT	_	40	E	40:E	_
+39	action	action	NOUN	NN	_	40	E	40:E	_
+40	business	business	NOUN	NN	_	36	A	36:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+42	"	"	PUNCT	''	_	40	U	40:U	_
+

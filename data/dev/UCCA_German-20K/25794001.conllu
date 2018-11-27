@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25794001
+# text = » Es wird gelingen « , sagte ich zum Kapitän , nachdem ich den Fortgang der Operation genau beobachtet hatte .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Es	es	PRON	PPER	_	4	A	4:A	_
+3	wird	werden	AUX	VAFIN	_	4	F	4:F	_
+4	gelingen	gelingen	VERB	NN	_	7	A	7:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	zum	zum	ADV	NN	_	10	R	10:R	_
+10	Kapitän	Kapitän	NOUN	FM	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	7	U	7:U	_
+12	nachdem	nachdem	SCONJ	PTKVZ	_	7	L	7:L	_
+13	ich	ich	PRON	PPER	_	19	A	19:A	_
+14	den	der	DET	ART	_	15	E	15:E	_
+15	Fortgang	Fortgang	NOUN	NN	_	19	A	19:A	_
+16	der	der	DET	ART	_	17	R	17:R	_
+17	Operation	Operation	NOUN	NN	_	15	E	15:E	_
+18	genau	genau	ADJ	ADV	_	19	D	19:D	_
+19	beobachtet	beobachten	VERB	VVPP	_	7	H	7:H	_
+20	hatte	haben	AUX	VAFIN	_	19	F	19:F	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

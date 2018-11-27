@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 249000
+# text = 2005 saw Hawke star in the action thriller Assault on Precinct 13 , a loose remake of John Carpenter 's 1976 film of the same title , with an updated plot .
+1	2005	2005	NUM	CD	_	4	D	4:D	_
+2	saw	see	VERB	VBD	_	1	F	1:F	_
+3	Hawke	Hawke	PROPN	NNP	_	4	A	4:A	_
+4	star	star	NOUN	NN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	9	R	9:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	action	action	NOUN	NN	_	8	E	8:E	_
+8	thriller	thriller	NOUN	NN	_	9	E	9:E	_
+9	Assault	assault	NOUN	NN	_	4	A	4:A	_
+10	on	on	ADP	IN	_	9	Terminal	9:Terminal	_
+11	Precinct	Precinct	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	13	13	NUM	CD	_	9	Terminal	9:Terminal	_
+13	,	,	PUNCT	,	_	9	U	9:U	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	loose	loose	ADJ	JJ	_	16	E	16:E	_
+16	remake	remake	NOUN	NN	_	9	E	9:E	_
+17	of	of	ADP	IN	_	22	R	22:R	_
+18	John	John	PROPN	NNP	_	22	E	22:E	_
+19	Carpenter	carpenter	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	18	R	18:R	_
+21	1976	1976	NUM	CD	_	22	E	22:E	_
+22	film	film	NOUN	NN	_	16	A	16:A	_
+23	of	of	ADP	IN	_	26	R	26:R	_
+24	the	the	DET	DT	_	26	E	26:E	_
+25	same	same	ADJ	JJ	_	26	E	26:E	_
+26	title	title	NOUN	NN	_	22	E	22:E	_
+27	,	,	PUNCT	,	_	16	U	16:U	_
+28	with	with	ADP	IN	_	31	R	31:R	_
+29	an	a	DET	DT	_	31	E	31:E	_
+30	updated	updated	ADJ	JJ	_	31	E	31:E	_
+31	plot	plot	NOUN	NN	_	16	A	16:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

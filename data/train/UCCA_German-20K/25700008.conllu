@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25700008
+# text = » Ein unterseeischer Tunnel ! « rief er aus , » eine Verbindung beider Meere ! Wer hat jemals so etwas gehört ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ein	ein	DET	ART	_	4	E	4:E	_
+3	unterseeischer	unterseeisch	ADJ	ADJA	_	7	A	7:A	_
+4	Tunnel	Tunnel	NOUN	NN	_	0	C	0:C|13:A	_
+5	!	!	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+8	er	er	PRON	PPER	_	7	A	7:A	_
+9	aus	aus	ADP	PTKVZ	_	7	Terminal	7:Terminal	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	eine	ein	DET	ART	_	13	E	13:E	_
+13	Verbindung	Verbindung	NOUN	NN	_	3	H	3:H	_
+14	beider	beide	PRON	PIAT	_	15	R	15:R	_
+15	Meere	Meer	NOUN	NE	_	13	A	13:A	_
+16	!	!	PUNCT	$.	_	3	U	3:U	_
+17	Wer	wer	PRON	PWS	_	22	A	22:A	_
+18	hat	haben	VERB	VAFIN	_	22	F	22:F	_
+19	jemals	jemals	ADV	ADV	_	22	D	22:D	_
+20	so	so	ADV	ADV	_	22	A	22:A	_
+21	etwas	etwas	ADV	PIAT	_	20	Terminal	20:Terminal	_
+22	gehört	gehört	ADJ	VVFIN	_	3	H	3:H	_
+23	?	?	PUNCT	$.	_	22	U	22:U	_
+24	«	«	PUNCT	$(	_	22	U	22:U	_
+

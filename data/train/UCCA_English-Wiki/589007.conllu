@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 589007
+# text = He had been a fan as a child .
+1	He	he	PRON	PRP	_	5	A	5:A	_
+2	had	have	AUX	VBD	_	5	F	5:F	_
+3	been	be	AUX	VBN	_	5	F	5:F	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	fan	fan	NOUN	NN	_	0	H	0:H	_
+6	as	as	ADP	IN	_	8	R	8:R	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	child	child	NOUN	NN	_	5	D	5:D	_
+9	.	.	PUNCT	.	_	8	U	8:U	_
+

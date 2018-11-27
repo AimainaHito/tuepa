@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25631012
+# text = Unser Boot lag an seiner Stelle am Strand .
+1	Unser	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Boot	Boot	NOUN	NN	_	3	A	3:A	_
+3	lag	liegen	VERB	VVFIN	_	0	H	0:H	_
+4	an	an	ADP	APPR	_	6	R	6:R	_
+5	seiner	sein	DET	PPOSAT	_	6	E	6:E	_
+6	Stelle	Stelle	NOUN	NN	_	3	A	3:A	_
+7	am	am	ADJ	ADJD	_	8	E	8:E	_
+8	Strand	Strand	NOUN	NN	_	3	A	3:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

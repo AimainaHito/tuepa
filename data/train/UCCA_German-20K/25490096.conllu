@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25490096
+# text = Diese Hypothesen schienen mir äußerst wahrscheinlich , und man musste eben ein Harpunier sein , um auf Wieder gewinnung seiner Freiheit zu rechnen .
+1	Diese	dies	PRON	PDAT	_	2	E	2:E	_
+2	Hypothesen	Hypothese	NOUN	NN	_	3	A	3:A	_
+3	schienen	schienen	VERB	ADJA	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	äußerst	äußerst	ADV	ADV	_	6	D	6:D	_
+6	wahrscheinlich	wahrscheinlich	ADJ	ADV	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	3	U	3:U	_
+8	und	und	CCONJ	NE	_	3	L	3:L	_
+9	man	man	PRON	PIS	_	14	A	14:A|23:A	_
+10	musste	müssen	AUX	VVFIN	_	14	D	14:D	_
+11	eben	eben	ADV	ADV	_	14	D	14:D	_
+12	ein	ein	DET	ART	_	13	E	13:E	_
+13	Harpunier	Harpunier	NOUN	NN	_	14	A	14:A	_
+14	sein	sein	AUX	VAINF	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	um	um	ADP	KOUI	_	3	L	3:L	_
+17	auf	auf	ADP	APPR	_	19	R	19:R	_
+18	Wieder	wied	NOUN	NN	_	19	E	19:E	_
+19	gewinnung	gewinnung	ADJ	NN	_	23	A	23:A	_
+20	seiner	sein	DET	PPOSAT	_	21	E	21:E	_
+21	Freiheit	Freiheit	NOUN	NN	_	19	E	19:E	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	rechnen	rechnen	VERB	VVINF	_	3	H	3:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

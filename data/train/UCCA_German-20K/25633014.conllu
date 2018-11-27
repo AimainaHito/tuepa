@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25633014
+# text = » Wieviel haben Sie gezählt ? «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Wieviel	Wieviel	ADV	PIS	_	5	A	5:A	_
+3	haben	haben	AUX	VAFIN	_	5	F	5:F	_
+4	Sie	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	gezählt	zählen	VERB	VVPP	_	0	H	0:H	_
+6	?	?	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

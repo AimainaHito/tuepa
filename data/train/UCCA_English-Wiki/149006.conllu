@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 149006
+# text = Hepburn stated in her eighties , " I have no fear of death . Must be wonderful , like a long sleep .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A	_
+2	stated	state	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	5	R	5:R	_
+4	her	she	PRON	PRP$	_	5	E	5:E	_
+5	eighties	eighty	NOUN	NNS	_	2	D	2:D	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	"	"	PUNCT	''	_	2	U	2:U	_
+8	I	I	PRON	PRP	_	11	A	11:A	_
+9	have	have	VERB	VBP	_	11	F	11:F	_
+10	no	no	DET	DT	_	11	D	11:D	_
+11	fear	fear	NOUN	NN	_	2	A	2:A	_
+12	of	of	ADP	IN	_	13	R	13:R	_
+13	death	death	NOUN	NN	_	0	C	0:C|19:A|17:A	_
+14	.	.	PUNCT	.	_	17	U	17:U	_
+15	Must	must	AUX	MD	_	17	D	17:D	_
+16	be	be	AUX	VB	_	17	F	17:F	_
+17	wonderful	wonderful	ADJ	JJ	_	11	H	11:H	_
+18	,	,	PUNCT	,	_	11	U	11:U	_
+19	like	like	ADP	IN	_	11	H	11:H	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	long	long	ADJ	JJ	_	22	E	22:E	_
+22	sleep	sleep	NOUN	NN	_	19	A	19:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

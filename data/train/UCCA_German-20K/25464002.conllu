@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25464002
+# text = Die ›Abraham Lincoln‹ durchfuhr alle nördlichen Meeres striche des Pazifiks , lief die signalisierten Walfische an , kreuzte in raschen Wendungen hin und her , hielt plötzlich an , steigerte die Spannung des Dampfes und ließ wieder nach , Schlag auf Schlag mit Gefahr , die Maschine aus gleichem Gang zu bringen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Abraham	›Abraham	PROPN	NE	_	0	C	0:C|36:A|26:A	_
+3	Lincoln‹	Lincoln‹	NOUN	NE	_	2	Terminal	2:Terminal	_
+4	durchfuhr	durchfahren	VERB	VVFIN	_	0	H	0:H	_
+5	alle	alle	PRON	PIAT	_	8	E	8:E	_
+6	nördlichen	nördlich	ADJ	ADJA	_	8	E	8:E	_
+7	Meeres	Meer	NOUN	NN	_	8	E	8:E	_
+8	striche	strich	PRON	ADJA	_	4	A	4:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Pazifiks	Pazifik	NOUN	NN	_	8	E	8:E	_
+11	,	,	PUNCT	$,	_	4	U	4:U	_
+12	lief	laufen	VERB	VVFIN	_	4	H	4:H	_
+13	die	der	DET	ART	_	15	E	15:E	_
+14	signalisierten	signalisiert	ADJ	ADJA	_	15	E	15:E	_
+15	Walfische	Walfische	NOUN	ADJA	_	12	A	12:A	_
+16	an	an	ADP	PTKVZ	_	12	Terminal	12:Terminal	_
+17	,	,	PUNCT	$,	_	4	U	4:U	_
+18	kreuzte	kreuzen	VERB	VVFIN	_	4	H	4:H	_
+19	in	in	ADP	APPR	_	21	R	21:R	_
+20	raschen	rasch	ADJ	ADJA	_	21	E	21:E	_
+21	Wendungen	Wendung	NOUN	NN	_	18	D	18:D	_
+22	hin	hin	ADV	ADV	_	18	Terminal	18:Terminal	_
+23	und	und	CCONJ	NE	_	18	N	18:N	_
+24	her	her	PART	PTKVZ	_	18	C	18:C	_
+25	,	,	PUNCT	$,	_	4	U	4:U	_
+26	hielt	halten	VERB	VVFIN	_	4	H	4:H	_
+27	plötzlich	plötzlich	ADJ	ADJD	_	26	D	26:D	_
+28	an	an	ADP	PTKVZ	_	26	Terminal	26:Terminal	_
+29	,	,	PUNCT	$,	_	4	U	4:U	_
+30	steigerte	steigern	VERB	VVFIN	_	4	H	4:H	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Spannung	Spannung	NOUN	NN	_	30	A	30:A	_
+33	des	der	DET	ART	_	34	R	34:R	_
+34	Dampfes	Dampf	NOUN	NN	_	32	E	32:E	_
+35	und	und	CCONJ	NE	_	4	L	4:L	_
+36	ließ	lassen	VERB	VVFIN	_	4	H	4:H	_
+37	wieder	wieder	ADV	NE	_	36	D	36:D	_
+38	nach	nach	ADP	CARD	_	36	Terminal	36:Terminal	_
+39	,	,	PUNCT	$,	_	4	U	4:U	_
+40	Schlag	Schlag	NOUN	NN	_	52	D	52:D	_
+41	auf	auf	ADP	APPR	_	40	Terminal	40:Terminal	_
+42	Schlag	Schlag	NOUN	NN	_	40	Terminal	40:Terminal	_
+43	mit	mit	ADP	APPR	_	44	R	44:R	_
+44	Gefahr	Gefahr	NOUN	NN	_	52	A	52:A	_
+45	,	,	PUNCT	$,	_	52	U	52:U	_
+46	die	der	DET	ART	_	47	E	47:E	_
+47	Maschine	Maschine	NOUN	NN	_	52	A	52:A	_
+48	aus	aus	ADP	APPR	_	50	R	50:R	_
+49	gleichem	gleich	ADJ	ADJA	_	50	E	50:E	_
+50	Gang	Gang	NOUN	NN	_	52	A	52:A	_
+51	zu	zu	PART	VVINF	_	52	F	52:F	_
+52	bringen	bringen	VERB	VVINF	_	4	H	4:H	_
+53	.	.	PUNCT	$.	_	52	U	52:U	_
+

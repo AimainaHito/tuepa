@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 706009
+# text = Between July 1984 and March 1985 , Dylan recorded Empire Burlesque .
+1	Between	between	ADP	IN	_	3	R	3:R	_
+2	July	July	PROPN	NNP	_	3	E	3:E	_
+3	1984	1984	PROPN	NNP	_	9	D	9:D	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	March	March	PROPN	NNP	_	6	E	6:E	_
+6	1985	1985	NUM	CD	_	3	C	3:C	_
+7	,	,	PUNCT	,	_	9	U	9:U	_
+8	Dylan	Dylan	PROPN	NNP	_	9	A	9:A	_
+9	recorded	record	VERB	VBD	_	0	H	0:H	_
+10	Empire	Empire	PROPN	NNP	_	9	A	9:A	_
+11	Burlesque	Burlesque	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	.	_	9	U	9:U	_
+

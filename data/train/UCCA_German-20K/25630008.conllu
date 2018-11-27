@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25630008
+# text = » Wie ? « rief Conseil , » man verfertigt falsche Paradiesvögel ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Wie	wie	X	NE	_	5	A	5:A	_
+3	?	?	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	rief	rufen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	man	man	PRON	PIS	_	10	A	10:A	_
+10	verfertigt	verfertigen	VERB	VVFIN	_	2	H	2:H	_
+11	falsche	falsch	ADJ	ADJA	_	12	E	12:E	_
+12	Paradiesvögel	Paradiesvogel	NOUN	NN	_	10	A	10:A	_
+13	?	?	PUNCT	$.	_	12	U	12:U	_
+14	«	«	PUNCT	$(	_	12	U	12:U	_
+

@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25608002
+# text = So reichlich die Sommer sonne ihre Strahlen warf , so hatten wir durchaus nicht von der Hitze zu leiden , denn 30 bis 40 Meter unterm Wasser spiegel stieg die Temperatur nicht über 10 bis 12 Grad .
+1	So	so	ADV	ADV	_	8	L	8:L	_
+2	reichlich	reichlich	ADJ	NE	_	8	D	8:D	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	Sommer	Sommer	NOUN	NN	_	5	E	5:E	_
+5	sonne	sonnen	AUX	NE	_	8	A	8:A	_
+6	ihre	ihr	DET	PPOSAT	_	7	E	7:E	_
+7	Strahlen	Strahl|Strahlen	NOUN	NN	_	8	A	8:A	_
+8	warf	werfen	VERB	VVFIN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	so	so	ADV	ADV	_	8	L	8:L	_
+11	hatten	haben	VERB	VAFIN	_	19	D	19:D	_
+12	wir	wir	PRON	NE	_	19	A	19:A	_
+13	durchaus	durchaus	ADV	ADV	_	14	E	14:E	_
+14	nicht	nicht	PART	CARD	_	19	D	19:D	_
+15	von	von	ADP	NN	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Hitze	Hitze	NOUN	NN	_	19	A	19:A	_
+18	zu	zu	PART	NN	_	19	F	19:F	_
+19	leiden	leiden	VERB	VVINF	_	8	H	8:H	_
+20	,	,	PUNCT	$,	_	8	U	8:U	_
+21	denn	denn	SCONJ	KON	_	8	L	8:L	_
+22	30	30	NUM	CARD	_	25	E	25:E	_
+23	bis	bis	ADP	KON	_	22	N	22:N	_
+24	40	40	NUM	CARD	_	22	C	22:C	_
+25	Meter	Meter	NOUN	NN	_	28	E	28:E	_
+26	unterm	unterm	ADJ	NN	_	28	R	28:R	_
+27	Wasser	Wasser	NOUN	NN	_	28	E	28:E	_
+28	spiegel	spiegel	PROPN	NN	_	29	A	29:A	_
+29	stieg	steigen	VERB	VVFIN	_	8	H	8:H	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	Temperatur	Temperatur	NOUN	NN	_	29	A	29:A	_
+32	nicht	nicht	PART	CARD	_	29	D	29:D	_
+33	über	über	ADP	ADJD	_	37	R	37:R	_
+34	10	10	NUM	CARD	_	37	E	37:E	_
+35	bis	bis	ADP	KON	_	34	N	34:N	_
+36	12	12	NUM	CARD	_	34	C	34:C	_
+37	Grad	Grad	NOUN	NN	_	29	A	29:A	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

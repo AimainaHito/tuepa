@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 209000
+# text = In director Barry Levinson 's Rain Man ( 1988 ) , Hoffman starred as an autistic savant , opposite Tom Cruise .
+1	In	in	ADP	IN	_	6	R	6:R	_
+2	director	director	NOUN	NN	_	3	E	3:E	_
+3	Barry	Barry	PROPN	NNP	_	6	E	6:E	_
+4	Levinson	Levinson	PROPN	NNP	_	3	Terminal	3:Terminal	_
+5	's	's	PART	POS	_	3	R	3:R	_
+6	Rain	rain	PROPN	NNP	_	13	A	13:A	_
+7	Man	Man	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	(	(	PUNCT	-LRB-	_	6	U	6:U	_
+9	1988	1988	NUM	CD	_	6	E	6:E	_
+10	)	)	PUNCT	-RRB-	_	13	U	13:U	_
+11	,	,	PUNCT	,	_	13	U	13:U	_
+12	Hoffman	Hoffman	PROPN	NNP	_	13	A	13:A	_
+13	starred	star	VERB	VBD	_	0	H	0:H	_
+14	as	as	ADP	IN	_	17	R	17:R	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	autistic	autistic	ADJ	JJ	_	17	E	17:E	_
+17	savant	savant	NOUN	NN	_	13	A	13:A	_
+18	,	,	PUNCT	,	_	13	U	13:U	_
+19	opposite	opposite	ADJ	JJ	_	20	R	20:R	_
+20	Tom	Tom	PROPN	NNP	_	13	A	13:A	_
+21	Cruise	cruise	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

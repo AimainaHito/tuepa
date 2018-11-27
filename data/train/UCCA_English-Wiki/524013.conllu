@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 524013
+# text = In the latter , she played her first adult role , a dual role of both mother and daughter .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	the	the	DET	DT	_	6	A	6:A	_
+3	latter	latter	ADJ	JJ	_	2	E	2:E	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	she	she	PRON	PRP	_	6	A	6:A	_
+6	played	play	VERB	VBD	_	0	H	0:H	_
+7	her	she	PRON	PRP$	_	10	E	10:E	_
+8	first	first	ADJ	JJ	_	10	E	10:E	_
+9	adult	adult	NOUN	NN	_	10	E	10:E	_
+10	role	role	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	dual	dual	ADJ	JJ	_	14	E	14:E	_
+14	role	role	NOUN	NN	_	10	E	10:E	_
+15	of	of	ADP	IN	_	17	R	17:R	_
+16	both	both	CCONJ	CC	_	17	E	17:E	_
+17	mother	mother	NOUN	NN	_	14	E	14:E	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	daughter	daughter	NOUN	NN	_	17	C	17:C	_
+20	.	.	PUNCT	.	_	17	U	17:U	_
+

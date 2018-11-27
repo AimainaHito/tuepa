@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 699003
+# text = " Some journalists questioned the validity of this confession , pointing out that Dylan had " been telling journalists wild lies about his past since the earliest days of his career . "
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	Some	some	DET	DT	_	3	E	3:E	_
+3	journalists	journalist	NOUN	NNS	_	0	C	0:C|11:A	_
+4	questioned	question	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	validity	validity	NOUN	NN	_	4	A	4:A	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	this	this	DET	DT	_	9	E	9:E	_
+9	confession	confession	NOUN	NN	_	6	E	6:E	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	pointing	point	VERB	VBG	_	4	H	4:H	_
+12	out	out	ADP	RP	_	11	Terminal	11:Terminal	_
+13	that	that	SCONJ	IN	_	18	R	18:R	_
+14	Dylan	Dylan	PROPN	NNP	_	18	A	18:A	_
+15	had	have	VERB	VBD	_	18	F	18:F	_
+16	"	"	PUNCT	``	_	18	U	18:U	_
+17	been	be	AUX	VBN	_	18	F	18:F	_
+18	telling	tell	VERB	VBG	_	11	A	11:A	_
+19	journalists	journalist	NOUN	NNS	_	18	A	18:A	_
+20	wild	wild	NOUN	NN	_	21	E	21:E	_
+21	lies	lie	VERB	VBZ	_	18	A	18:A	_
+22	about	about	ADP	IN	_	24	R	24:R	_
+23	his	he	PRON	PRP$	_	24	E	24:E	_
+24	past	past	NOUN	NN	_	21	E	21:E	_
+25	since	since	ADP	IN	_	18	L	18:L	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	earliest	earliest	ADJ	JJS	_	28	E	28:E	_
+28	days	day	NOUN	NNS	_	31	D	31:D	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	his	he	PRON	PRP$	_	31	A	31:A	_
+31	career	career	NOUN	NN	_	18	H	18:H	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+33	"	"	PUNCT	''	_	31	U	31:U	_
+

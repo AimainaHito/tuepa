@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25621013
+# text = » Gut ! « erwiderte ich , » da sehen wir Meister Lands Unvorsichtigkeiten wieder von vorn anfangen ! «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Gut	gut	NOUN	NN	_	5	A	5:A	_
+3	!	!	PUNCT	$.	_	5	U	5:U	_
+4	«	«	PUNCT	$(	_	5	U	5:U	_
+5	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+6	ich	ich	PRON	PPER	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	da	da	ADV	ADV	_	10	A	10:A	_
+10	sehen	sehen	VERB	VVINF	_	2	H	2:H	_
+11	wir	wir	PRON	NE	_	10	A	10:A	_
+12	Meister	Meister	NOUN	NN	_	13	E	13:E	_
+13	Lands	Land	PROPN	NE	_	14	E	14:E	_
+14	Unvorsichtigkeiten	Unvorsichtigkeiten	PROPN	NE	_	18	A	18:A	_
+15	wieder	wieder	ADV	NE	_	18	D	18:D	_
+16	von	von	ADP	NN	_	17	R	17:R	_
+17	vorn	vorn	ADV	ADV	_	18	D	18:D	_
+18	anfangen	anfangen	VERB	VVINF	_	10	A	10:A	_
+19	!	!	PUNCT	$.	_	18	U	18:U	_
+20	«	«	PUNCT	$(	_	18	U	18:U	_
+

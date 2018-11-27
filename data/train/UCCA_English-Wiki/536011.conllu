@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 536011
+# text = An opponent of Communism , after the war Warner appeared as a friendly witness before the House Un - American Activities Committee , voluntarily naming screenwriters who had been fired as suspected Communists or sympathizers .
+1	An	a	DET	DT	_	2	E	2:E	_
+2	opponent	opponent	NOUN	NN	_	0	H	0:H	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	Communism	Communism	PROPN	NNP	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	after	after	ADP	IN	_	2	L	2:L	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	war	war	NOUN	NN	_	2	H	2:H	_
+9	Warner	Warner	PROPN	NNP	_	10	A	10:A|25:A	_
+10	appeared	appear	VERB	VBD	_	2	H	2:H	_
+11	as	as	ADP	IN	_	14	R	14:R	_
+12	a	a	DET	DT	_	14	E	14:E	_
+13	friendly	friendly	ADJ	JJ	_	14	E	14:E	_
+14	witness	witness	NOUN	NN	_	10	A	10:A	_
+15	before	before	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	House	House	PROPN	NNP	_	10	A	10:A	_
+18	Un	un	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	-	-	PUNCT	HYPH	_	17	U	17:U	_
+20	American	american	ADJ	JJ	_	17	Terminal	17:Terminal	_
+21	Activities	activity	NOUN	NNS	_	17	Terminal	17:Terminal	_
+22	Committee	committee	NOUN	NN	_	17	Terminal	17:Terminal	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	voluntarily	voluntarily	ADV	RB	_	25	D	25:D	_
+25	naming	name	VERB	VBG	_	2	H	2:H	_
+26	screenwriters	screenwriter	NOUN	NNS	_	25	A	25:A	_
+27	who	who	PRON	WP	_	30	F	30:F	_
+28	had	have	AUX	VBD	_	30	F	30:F	_
+29	been	be	AUX	VBN	_	30	F	30:F	_
+30	fired	fire	VERB	VBN	_	26	E	26:E	_
+31	as	as	ADP	IN	_	33	R	33:R	_
+32	suspected	suspect	VERB	VBN	_	33	E	33:E	_
+33	Communists	Communist	NOUN	NNS	_	30	A	30:A	_
+34	or	or	CCONJ	CC	_	33	R	33:R	_
+35	sympathizers	sympathizer	NOUN	NNS	_	33	C	33:C	_
+36	.	.	PUNCT	.	_	35	U	35:U	_
+

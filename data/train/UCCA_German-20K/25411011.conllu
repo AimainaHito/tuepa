@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25411011
+# text = Der berühmte englische Rheder Cunard ist weltbekannt .
+1	Der	der	DET	ART	_	4	E	4:E	_
+2	berühmte	berühmt	ADJ	ADJA	_	4	E	4:E	_
+3	englische	englisch	ADJ	ADJA	_	4	E	4:E	_
+4	Rheder	Rheder	PROPN	NE	_	5	E	5:E	_
+5	Cunard	Cunard	PROPN	NE	_	7	A	7:A	_
+6	ist	sein	AUX	NE	_	7	F	7:F	_
+7	weltbekannt	weltbekennen	ADJ	VVPP	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

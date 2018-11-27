@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25616015
+# text = Die " Nautilus " fuhr an der Oberfläche nur langsam vorwärts .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+6	an	an	ADP	APPR	_	8	R	8:R	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Oberfläche	Oberfläche	NOUN	NN	_	5	A	5:A	_
+9	nur	nur	ADV	NE	_	10	E	10:E	_
+10	langsam	langsam	ADJ	ADJD	_	5	D	5:D	_
+11	vorwärts	vorwärts	ADV	ADV	_	5	D	5:D	_
+12	.	.	PUNCT	$.	_	5	U	5:U	_
+

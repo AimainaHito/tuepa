@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 693003
+# text = The rough edge of Dylan 's singing was unsettling to some early listeners but an attraction to others .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	rough	rough	ADJ	JJ	_	3	E	3:E	_
+3	edge	edge	NOUN	NN	_	0	C	0:C|16:A	_
+4	of	of	ADP	IN	_	7	R	7:R	_
+5	Dylan	Dylan	PROPN	NNP	_	7	A	7:A	_
+6	's	's	PART	POS	_	5	R	5:R	_
+7	singing	singing	NOUN	NN	_	3	E	3:E	_
+8	was	be	AUX	VBD	_	9	F	9:F	_
+9	unsettling	unsettl	ADJ	JJ	_	0	H	0:H	_
+10	to	to	ADP	IN	_	13	E	13:E	_
+11	some	some	DET	DT	_	13	E	13:E	_
+12	early	early	ADJ	JJ	_	13	E	13:E	_
+13	listeners	listeners	NOUN	NNS	_	9	A	9:A	_
+14	but	but	CCONJ	CC	_	9	L	9:L	_
+15	an	a	DET	DT	_	16	E	16:E	_
+16	attraction	attraction	NOUN	NN	_	9	H	9:H	_
+17	to	to	ADP	IN	_	18	R	18:R	_
+18	others	other	NOUN	NNS	_	16	A	16:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

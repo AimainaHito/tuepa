@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 450002
+# text = When Jennings was 11 , he started attending Trinity College School in Port Hope , Ontario , where he excelled in sports .
+1	When	when	ADV	WRB	_	4	L	4:L	_
+2	Jennings	Jenning	PROPN	NNP	_	4	A	4:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	11	11	NUM	CD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	he	he	PRON	PRP	_	8	A	8:A	_
+7	started	start	VERB	VBD	_	8	D	8:D	_
+8	attending	attend	VERB	VBG	_	4	H	4:H	_
+9	Trinity	Trinity	PROPN	NNP	_	10	E	10:E	_
+10	College	College	PROPN	NNP	_	11	E	11:E	_
+11	School	School	PROPN	NNP	_	8	A	8:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Port	Port	PROPN	NNP	_	11	E	11:E	_
+14	Hope	hope	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	Ontario	Ontario	PROPN	NNP	_	13	E	13:E	_
+17	,	,	PUNCT	,	_	4	U	4:U	_
+18	where	where	ADV	WRB	_	4	L	4:L	_
+19	he	he	PRON	PRP	_	20	A	20:A	_
+20	excelled	excel	VERB	VBD	_	4	H	4:H	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	sports	sport	NOUN	NNS	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

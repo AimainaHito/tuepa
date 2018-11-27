@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25804014
+# text = Als die Tiere ins Meer geworfen wurden , fingen sie sogleich ihre Rollen an , schwammen hin und hängten sich an den Bauchschild der Schildkröten und hielten da mit solcher Zähigkeit fest , dass sie nicht mehr los zu machen waren .
+1	Als	als	SCONJ	KOUS	_	6	L	6:L	_
+2	die	der	DET	ART	_	3	E	3:E	_
+3	Tiere	Tier	NOUN	NN	_	0	C	0:C|27:A|19:A	_
+4	ins	in	DET	NE	_	5	R	5:R	_
+5	Meer	Meer	NOUN	NE	_	6	A	6:A	_
+6	geworfen	werfen	VERB	VVPP	_	0	H	0:H	_
+7	wurden	werden	AUX	ADJD	_	6	F	6:F	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	fingen	fangen	VERB	VVFIN	_	6	H	6:H	_
+10	sie	sie	PRON	ADV	_	9	A	9:A|16:A	_
+11	sogleich	sogleich	ADJ	NN	_	9	D	9:D	_
+12	ihre	ihr	DET	PPOSAT	_	13	E	13:E	_
+13	Rollen	Rolle	NOUN	NN	_	9	A	9:A	_
+14	an	an	ADP	PTKVZ	_	9	Terminal	9:Terminal	_
+15	,	,	PUNCT	$,	_	6	U	6:U	_
+16	schwammen	schwammen	VERB	VVFIN	_	6	H	6:H	_
+17	hin	hin	ADV	ADV	_	16	A	16:A	_
+18	und	und	CCONJ	NE	_	6	L	6:L	_
+19	hängten	hängen	VERB	VVFIN	_	6	H	6:H	_
+20	sich	er|es|sie	PRON	PRF	_	19	Terminal	19:Terminal	_
+21	an	an	ADP	APPR	_	23	R	23:R	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Bauchschild	Bauchschild	NOUN	NN	_	19	A	19:A	_
+24	der	der	DET	ART	_	25	R	25:R	_
+25	Schildkröten	Schildkröte	NOUN	NN	_	23	E	23:E	_
+26	und	und	CCONJ	NE	_	6	L	6:L	_
+27	hielten	halten	VERB	VVFIN	_	6	H	6:H	_
+28	da	da	ADV	ADV	_	27	A	27:A	_
+29	mit	mit	ADP	APPR	_	31	R	31:R	_
+30	solcher	solch	PRON	ADJA	_	31	E	31:E	_
+31	Zähigkeit	Zähigkeit	NOUN	NN	_	27	A	27:A	_
+32	fest	fest	ADV	PTKVZ	_	27	Terminal	27:Terminal	_
+33	,	,	PUNCT	$,	_	27	U	27:U	_
+34	dass	dass	SCONJ	KOUS	_	38	R	38:R	_
+35	sie	sie	PRON	ADV	_	38	A	38:A	_
+36	nicht	nicht	PART	CARD	_	38	D	38:D	_
+37	mehr	mehr	ADV	ADV	_	36	E	36:E	_
+38	los	los	ADV	PTKVZ	_	27	A	27:A	_
+39	zu	zu	PART	VVINF	_	38	F	38:F	_
+40	machen	machen	VERB	VVINF	_	38	Terminal	38:Terminal	_
+41	waren	sein	AUX	VAFIN	_	38	D	38:D	_
+42	.	.	PUNCT	$.	_	38	U	38:U	_
+

@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 506006
+# text = It was poorly received by critics , but Bowie 's theme song rose to number two in the UK charts .
+1	It	it	PRON	PRP	_	4	A	4:A	_
+2	was	be	AUX	VBD	_	4	F	4:F	_
+3	poorly	poorly	ADV	RB	_	4	D	4:D	_
+4	received	receive	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	critics	critic	NOUN	NNS	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	but	but	CCONJ	CC	_	4	L	4:L	_
+9	Bowie	Bowie	PROPN	NNP	_	12	E	12:E	_
+10	's	's	PART	POS	_	9	R	9:R	_
+11	theme	theme	NOUN	NN	_	12	E	12:E	_
+12	song	song	NOUN	NN	_	13	A	13:A	_
+13	rose	rise	VERB	VBD	_	4	H	4:H	_
+14	to	to	PART	TO	_	15	R	15:R	_
+15	number	number	VERB	VB	_	13	A	13:A	_
+16	two	two	NUM	CD	_	15	E	15:E	_
+17	in	in	ADP	IN	_	20	R	20:R	_
+18	the	the	DET	DT	_	20	E	20:E	_
+19	UK	UK	PROPN	NNP	_	20	E	20:E	_
+20	charts	chart	NOUN	NNS	_	13	A	13:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

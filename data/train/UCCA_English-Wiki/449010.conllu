@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 449010
+# text = In addition to anchoring , he was the host of many ABC News special reports and moderated several American presidential debates .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	addition	addition	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	to	to	ADP	IN	_	1	Terminal	1:Terminal	_
+4	anchoring	anchoring	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	he	he	PRON	PRP	_	7	A	7:A|4:A|17:A	_
+7	was	be	AUX	VBD	_	4	H	4:H	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	host	host	NOUN	NN	_	7	A	7:A	_
+10	of	of	ADP	IN	_	15	R	15:R	_
+11	many	many	ADJ	JJ	_	15	E	15:E	_
+12	ABC	ABC	PROPN	NNP	_	13	E	13:E	_
+13	News	news	PROPN	NNP	_	15	E	15:E	_
+14	special	special	ADJ	JJ	_	15	E	15:E	_
+15	reports	report	NOUN	NNS	_	9	E	9:E	_
+16	and	and	CCONJ	CC	_	4	L	4:L	_
+17	moderated	moderate	VERB	VBD	_	4	H	4:H	_
+18	several	several	ADJ	JJ	_	21	E	21:E	_
+19	American	american	ADJ	JJ	_	21	E	21:E	_
+20	presidential	presidential	ADJ	JJ	_	21	E	21:E	_
+21	debates	debate	NOUN	NNS	_	17	A	17:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

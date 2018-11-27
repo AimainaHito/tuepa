@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25811017
+# text = Die ›Nautilus‹ war ohne Zweifel flott , sie fuhr jedoch nicht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	6	A	6:A	_
+3	war	sein	AUX	ADV	_	6	F	6:F	_
+4	ohne	ohne	ADP	NN	_	5	E	5:E	_
+5	Zweifel	Zweifel	NOUN	NN	_	6	G	6:G	_
+6	flott	flott	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	sie	sie	PRON	ADV	_	9	A	9:A	_
+9	fuhr	fahren	VERB	VVFIN	_	6	H	6:H	_
+10	jedoch	jedoch	ADV	ADV	_	9	F	9:F	_
+11	nicht	nicht	PART	XY	_	9	D	9:D	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

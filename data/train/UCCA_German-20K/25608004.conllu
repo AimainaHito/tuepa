@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25608004
+# text = Früh morgens erblickte ich einige Meilen unterm Wind die hohen Gipfel dieser Insel .
+1	Früh	früh	PROPN	ADJD	_	2	E	2:E	_
+2	morgens	morgens	ADV	ADV	_	3	D	3:D	_
+3	erblickte	erblicken	VERB	VVFIN	_	0	H	0:H	_
+4	ich	ich	PRON	PPER	_	3	A	3:A	_
+5	einige	einige	PRON	PIAT	_	6	E	6:E	_
+6	Meilen	Meile	NOUN	NN	_	3	A	3:A	_
+7	unterm	unterm	ADJ	NE	_	8	R	8:R	_
+8	Wind	Wind	NOUN	NE	_	6	E	6:E	_
+9	die	der	DET	ART	_	11	E	11:E	_
+10	hohen	hoch	ADJ	ADJA	_	11	E	11:E	_
+11	Gipfel	Gipfel	NOUN	NN	_	3	A	3:A	_
+12	dieser	dies	PRON	PDAT	_	13	R	13:R	_
+13	Insel	Insel	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

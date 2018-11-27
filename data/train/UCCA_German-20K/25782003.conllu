@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25782003
+# text = Ich stützte mich seitwärts an die Wände und drückte mich durch die Gänge bis zu dem Salon , der vom Plafond herab erleuchtet war .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|9:A	_
+2	stützte	stützen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	seitwärts	seitwärts	ADV	ADV	_	2	D	2:D	_
+5	an	an	ADP	APPR	_	7	R	7:R	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Wände	Wand	NOUN	NN	_	2	A	2:A	_
+8	und	und	CCONJ	NE	_	2	L	2:L	_
+9	drückte	drücken	VERB	VVFIN	_	2	H	2:H	_
+10	mich	ich	PRON	PRF	_	9	Terminal	9:Terminal	_
+11	durch	durch	ADP	APPR	_	13	R	13:R	_
+12	die	der	DET	ART	_	13	E	13:E	_
+13	Gänge	Gang	NOUN	NN	_	9	A	9:A	_
+14	bis	bis	ADP	APPR	_	17	R	17:R	_
+15	zu	zu	ADP	NE	_	17	R	17:R	_
+16	dem	der	DET	ART	_	17	E	17:E	_
+17	Salon	Salon	NOUN	NE	_	9	A	9:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	der	der	PRON	ART	_	23	R	23:R	_
+20	vom	vom	ADP	NN	_	21	R	21:R	_
+21	Plafond	Plafond	NOUN	NE	_	23	A	23:A	_
+22	herab	herab	ADV	PTKVZ	_	23	D	23:D	_
+23	erleuchtet	erleuchten	VERB	VVFIN	_	17	E	17:E	_
+24	war	sein	AUX	ADV	_	23	F	23:F	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

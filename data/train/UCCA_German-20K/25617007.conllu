@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25617007
+# text = » Der verdammte Kapitän « , versetzte der Kanadier , » muß wohl seiner Fahrt sehr sicher sein , denn ich sehe da Korallen klumpen , die seinen Rumpf zertrümmern könnten , wenn er nur daran herstriche ! «
+1	»	»	PUNCT	$(	_	17	U	17:U	_
+2	Der	der	DET	ART	_	4	E	4:E	_
+3	verdammte	verdammt	ADJ	ADJA	_	4	E	4:E	_
+4	Kapitän	Kapitän	NOUN	NN	_	17	A	17:A	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	versetzte	versetzen	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Kanadier	Kanadier	NOUN	NN	_	7	A	7:A	_
+10	,	,	PUNCT	$,	_	7	U	7:U	_
+11	»	»	PUNCT	$(	_	7	U	7:U	_
+12	muß	müssen	AUX	VMFIN	_	17	D	17:D	_
+13	wohl	wohl	ADV	ADV	_	17	G	17:G	_
+14	seiner	sein	DET	PPOSAT	_	15	E	15:E	_
+15	Fahrt	Fahrt	NOUN	NN	_	17	A	17:A	_
+16	sehr	sehr	ADV	NE	_	17	D	17:D	_
+17	sicher	sicher	ADJ	ADJD	_	7	A	7:A	_
+18	sein	sein	AUX	VAINF	_	17	F	17:F	_
+19	,	,	PUNCT	$,	_	17	U	17:U	_
+20	denn	denn	SCONJ	KON	_	17	L	17:L	_
+21	ich	ich	PRON	PPER	_	22	A	22:A	_
+22	sehe	sehen	VERB	VVFIN	_	17	H	17:H	_
+23	da	da	ADV	ADV	_	22	A	22:A	_
+24	Korallen	Koralle	NOUN	NN	_	25	E	25:E	_
+25	klumpen	klumpen	VERB	VVINF	_	22	A	22:A	_
+26	,	,	PUNCT	$,	_	25	U	25:U	_
+27	die	der	PRON	PRELS	_	30	R	30:R	_
+28	seinen	sein	DET	PPOSAT	_	29	E	29:E	_
+29	Rumpf	Rumpf	NOUN	NN	_	30	A	30:A	_
+30	zertrümmern	zertrümmern	VERB	VVINF	_	25	E	25:E	_
+31	könnten	können	AUX	VMFIN	_	30	D	30:D	_
+32	,	,	PUNCT	$,	_	17	U	17:U	_
+33	wenn	wenn	SCONJ	VVFIN	_	17	L	17:L	_
+34	er	er	PRON	PPER	_	37	A	37:A	_
+35	nur	nur	ADV	NE	_	37	D	37:D	_
+36	daran	daran	ADV	PAV	_	37	A	37:A	_
+37	herstriche	herstrich	ADJ	ADJA	_	17	H	17:H	_
+38	!	!	PUNCT	$.	_	37	U	37:U	_
+39	«	«	PUNCT	$(	_	37	U	37:U	_
+

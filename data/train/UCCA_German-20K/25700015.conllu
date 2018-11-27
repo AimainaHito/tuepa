@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25700015
+# text = Die ziemlich niedrig am Horizont stehende Sonne beleuchtete hell die Häuser der Stadt , deren weiße Farbe um so greller hervorstach .
+1	Die	der	DET	ART	_	7	E	7:E	_
+2	ziemlich	ziemlich	ADV	ADV	_	3	E	3:E	_
+3	niedrig	niedrig	ADJ	VVPP	_	6	D	6:D	_
+4	am	am	ADJ	ADJD	_	5	R	5:R	_
+5	Horizont	Horizont	NOUN	NN	_	6	A	6:A	_
+6	stehende	stehend	ADJ	NE	_	7	E	7:E	_
+7	Sonne	Sonne	NOUN	NE	_	8	A	8:A	_
+8	beleuchtete	beleuchten	VERB	VVFIN	_	0	H	0:H	_
+9	hell	hell	ADV	ADJD	_	8	D	8:D	_
+10	die	der	DET	ART	_	11	E	11:E	_
+11	Häuser	Haus	NOUN	NN	_	8	A	8:A	_
+12	der	der	DET	ART	_	13	R	13:R	_
+13	Stadt	Stadt	NOUN	NN	_	11	E	11:E	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	deren	der	DET	PRELAT	_	21	R	21:R	_
+16	weiße	weiß	ADJ	ADJA	_	17	E	17:E	_
+17	Farbe	Farbe	NOUN	NN	_	21	A	21:A	_
+18	um	um	ADP	APPR	_	20	R	20:R	_
+19	so	so	ADV	ADV	_	18	Terminal	18:Terminal	_
+20	greller	grelle	PRON	ADJD	_	21	D	21:D	_
+21	hervorstach	hervorstechen	VERB	VVFIN	_	13	E	13:E	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

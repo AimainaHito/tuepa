@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25710004
+# text = » Der Henker ! « sagte Ned Land . » Und wo werden wir in 6 Monaten sein , wenn ' s beliebt , Herr Naturforscher ? «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Der	der	PROPN	ART	_	3	E	3:E	_
+3	Henker	Henker	PROPN	NN	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	Ned	Ned	PROPN	NE	_	6	A	6:A	_
+8	Land	Land	NOUN	NN	_	7	Terminal	7:Terminal	_
+9	.	.	PUNCT	$.	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+12	wo	wo	ADV	ADJA	_	18	A	18:A	_
+13	werden	werden	AUX	VVFIN	_	18	F	18:F	_
+14	wir	wir	PRON	NE	_	18	A	18:A	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	6	6	NUM	CARD	_	17	E	17:E	_
+17	Monaten	Monat	NOUN	NN	_	18	D	18:D	_
+18	sein	sein	AUX	VAINF	_	3	H	3:H	_
+19	,	,	PUNCT	$,	_	3	U	3:U	_
+20	wenn	wenn	SCONJ	VVFIN	_	3	L	3:L	_
+21	'	'	PUNCT	$(	_	3	U	3:U	_
+22	s	s	ADV	ADJD	_	23	A	23:A	_
+23	beliebt	belieben	ADJ	VVPP	_	3	H	3:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	Herr	Herr	PROPN	NN	_	26	E	26:E	_
+26	Naturforscher	Naturforscher	PROPN	NN	_	23	G	23:G	_
+27	?	?	PUNCT	$.	_	26	U	26:U	_
+28	«	«	PUNCT	$(	_	26	U	26:U	_
+

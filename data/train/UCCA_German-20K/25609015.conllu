@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25609015
+# text = » Und ich könnte die berühmten Inseln besuchen , wo die " Boussole " und die " Astrolabe " zugrunde gingen ? «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Und	und	CCONJ	NN	_	8	L	8:L	_
+3	ich	ich	PRON	PPER	_	8	A	8:A	_
+4	könnte	können	AUX	VMFIN	_	8	D	8:D	_
+5	die	der	DET	ART	_	7	E	7:E	_
+6	berühmten	berühmt	ADJ	ADJA	_	7	E	7:E	_
+7	Inseln	Insel	NOUN	NN	_	8	A	8:A	_
+8	besuchen	besuchen	VERB	VVFIN	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	wo	wo	ADV	ADJA	_	21	R	21:R	_
+11	die	der	DET	ART	_	13	E	13:E	_
+12	"	"	PUNCT	$(	_	13	U	13:U	_
+13	Boussole	Boussole	PROPN	NE	_	21	A	21:A	_
+14	"	"	PUNCT	$(	_	13	U	13:U	_
+15	und	und	CCONJ	NE	_	13	N	13:N	_
+16	die	der	DET	ART	_	18	E	18:E	_
+17	"	"	PUNCT	$(	_	18	U	18:U	_
+18	Astrolabe	Astrolabe	PROPN	NN	_	13	C	13:C	_
+19	"	"	PUNCT	$(	_	21	U	21:U	_
+20	zugrunde	zugrunde	ADV	NE	_	21	A	21:A	_
+21	gingen	gehen	VERB	VVFIN	_	7	E	7:E	_
+22	?	?	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

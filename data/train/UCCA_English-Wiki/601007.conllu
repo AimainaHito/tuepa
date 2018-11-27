@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 601007
+# text = In 1961 , Sutcliffe left the band and McCartney reluctantly became their bass player .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1961	1961	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Sutcliffe	Sutcliffe	PROPN	NNP	_	5	A	5:A	_
+5	left	leave	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	band	band	NOUN	NN	_	5	A	5:A	_
+8	and	and	CCONJ	CC	_	5	L	5:L	_
+9	McCartney	McCartney	PROPN	NNP	_	11	A	11:A	_
+10	reluctantly	reluctantly	ADV	RB	_	11	D	11:D	_
+11	became	become	VERB	VBD	_	5	H	5:H	_
+12	their	they	PRON	PRP$	_	14	E	14:E	_
+13	bass	bass	NOUN	NN	_	14	E	14:E	_
+14	player	player	NOUN	NN	_	11	A	11:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

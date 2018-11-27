@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25746020
+# text = An diesem Tag fuhr die ›Nautilus‹ durch einen ansehnlichen Teil des Atlantiks .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	4	D	4:D	_
+4	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	A	4:A	_
+7	durch	durch	ADP	APPR	_	10	R	10:R	_
+8	einen	ein	DET	ART	_	10	E	10:E	_
+9	ansehnlichen	ansehnlich	ADJ	ADJA	_	10	E	10:E	_
+10	Teil	Teil	NOUN	NN	_	4	A	4:A	_
+11	des	der	DET	ART	_	12	R	12:R	_
+12	Atlantiks	Atlantiks	NOUN	NE	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

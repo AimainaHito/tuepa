@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25449001
+# text = « » Und weshalb dieser starke Organismus ? « fragte Ned .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Und	und	CCONJ	ADJD	_	4	L	4:L	_
+4	weshalb	weshalb	SCONJ	ADJA	_	10	A	10:A	_
+5	dieser	dies	PRON	PDAT	_	7	E	7:E	_
+6	starke	stark	ADJ	NN	_	7	E	7:E	_
+7	Organismus	Organismus	NOUN	NN	_	4	A	4:A	_
+8	?	?	PUNCT	$.	_	10	U	10:U	_
+9	«	«	PUNCT	$(	_	10	U	10:U	_
+10	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+11	Ned	Ned	PROPN	NE	_	10	A	10:A	_
+12	.	.	PUNCT	$.	_	10	U	10:U	_
+

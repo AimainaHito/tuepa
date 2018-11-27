@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 455001
+# text = [ a ] He spent his first year at the anchor desk educating himself on American domestic affairs in preparation for the 1984 presidential campaign season .
+1	[	[	PUNCT	-LRB-	_	13	U	13:U	_
+2	a	a	DET	DT	_	13	F	13:F	_
+3	]	]	PUNCT	-RRB-	_	13	U	13:U	_
+4	He	he	PRON	PRP	_	5	A	5:A|20:A	_
+5	spent	spend	VERB	VBD	_	13	A	13:A	_
+6	his	he	PRON	PRP$	_	8	E	8:E	_
+7	first	first	ADJ	JJ	_	8	E	8:E	_
+8	year	year	NOUN	NN	_	12	E	12:E	_
+9	at	at	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	anchor	anchor	NOUN	NN	_	12	E	12:E	_
+12	desk	desk	NOUN	NN	_	5	A	5:A	_
+13	educating	educat	VERB	VBG	_	0	H	0:H	_
+14	himself	himself	PRON	PRP	_	13	D	13:D	_
+15	on	on	ADP	IN	_	18	R	18:R	_
+16	American	american	ADJ	JJ	_	18	E	18:E	_
+17	domestic	domestic	ADJ	JJ	_	18	E	18:E	_
+18	affairs	affair	NOUN	NNS	_	13	A	13:A	_
+19	in	in	ADP	IN	_	13	L	13:L	_
+20	preparation	preparation	NOUN	NN	_	13	H	13:H	_
+21	for	for	ADP	IN	_	26	R	26:R	_
+22	the	the	DET	DT	_	26	E	26:E	_
+23	1984	1984	PROPN	NNP	_	26	E	26:E	_
+24	presidential	presidential	ADJ	JJ	_	26	E	26:E	_
+25	campaign	campaign	NOUN	NN	_	26	E	26:E	_
+26	season	season	NOUN	NN	_	20	A	20:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

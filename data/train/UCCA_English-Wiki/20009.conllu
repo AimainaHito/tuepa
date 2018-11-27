@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 20009
+# text = Two weeks before earning his degree , Pitt left the university and moved to Los Angeles , where he took acting lessons and worked odd jobs .
+1	Two	two	NUM	CD	_	2	E	2:E	_
+2	weeks	week	NOUN	NNS	_	4	L	4:L	_
+3	before	before	SCONJ	IN	_	2	R	2:R	_
+4	earning	earn	VERB	VBG	_	0	H	0:H	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	degree	degree	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	Pitt	Pitt	PROPN	NNP	_	9	A	9:A|4:A|13:A	_
+9	left	leave	VERB	VBD	_	4	H	4:H	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	university	university	NOUN	NN	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	4	L	4:L	_
+13	moved	move	VERB	VBD	_	4	H	4:H	_
+14	to	to	ADP	IN	_	15	R	15:R	_
+15	Los	Los	PROPN	NNP	_	13	A	13:A	_
+16	Angeles	angeles	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	,	,	PUNCT	,	_	15	U	15:U	_
+18	where	where	ADV	WRB	_	20	R	20:R	_
+19	he	he	PRON	PRP	_	20	A	20:A|24:A	_
+20	took	take	VERB	VBD	_	15	E	15:E	_
+21	acting	act	VERB	VBG	_	22	E	22:E	_
+22	lessons	lesson	NOUN	NNS	_	20	A	20:A	_
+23	and	and	CCONJ	CC	_	20	L	20:L	_
+24	worked	work	VERB	VBD	_	20	H	20:H	_
+25	odd	odd	ADJ	JJ	_	26	E	26:E	_
+26	jobs	job	NOUN	NNS	_	24	A	24:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

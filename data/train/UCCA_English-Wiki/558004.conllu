@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 558004
+# text = ' ' Well , back up , ' he said , ' try to find a place to start , and do it again .
+1	'	'	PUNCT	``	_	5	U	5:U	_
+2	'	'	PUNCT	``	_	5	U	5:U	_
+3	Well	well	INTJ	UH	_	5	G	5:G	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	back	back	ADV	RB	_	10	A	10:A	_
+6	up	up	ADV	RB	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	10	U	10:U	_
+8	'	'	PUNCT	''	_	10	U	10:U	_
+9	he	he	PRON	PRP	_	10	A	10:A	_
+10	said	say	VERB	VBD	_	0	H	0:H	_
+11	,	,	PUNCT	,	_	10	U	10:U	_
+12	'	'	PUNCT	``	_	10	U	10:U	_
+13	try	try	VERB	VB	_	15	D	15:D	_
+14	to	to	PART	TO	_	15	F	15:F	_
+15	find	find	VERB	VB	_	5	H	5:H	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	place	place	NOUN	NN	_	19	A	19:A	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	start	start	VERB	VB	_	15	A	15:A	_
+20	,	,	PUNCT	,	_	5	U	5:U	_
+21	and	and	CCONJ	CC	_	5	L	5:L	_
+22	do	do	VERB	VB	_	5	H	5:H	_
+23	it	it	PRON	PRP	_	22	A	22:A	_
+24	again	again	ADV	RB	_	22	D	22:D	_
+25	.	.	PUNCT	.	_	22	U	22:U	_
+

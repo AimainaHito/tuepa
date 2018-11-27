@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 222011
+# text = In 1960 , his father immigrated to Canberra , Australia , to work as the head cook for the American embassy , and Chan was sent to the China Drama Academy , a Peking Opera School run by Master Yu Jim - yuen .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1960	1960	NUM	CD	_	6	D	6:D	_
+3	,	,	PUNCT	,	_	6	U	6:U	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	father	father	NOUN	NN	_	6	A	6:A|13:A	_
+6	immigrated	immigrate	VERB	VBD	_	0	H	0:H	_
+7	to	to	ADP	IN	_	8	R	8:R	_
+8	Canberra	Canberra	PROPN	NNP	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	Australia	Australia	PROPN	NNP	_	8	E	8:E	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	to	to	PART	TO	_	6	L	6:L	_
+13	work	work	VERB	VB	_	6	H	6:H	_
+14	as	as	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	head	head	NOUN	NN	_	17	E	17:E	_
+17	cook	cook	VERB	VB	_	13	A	13:A	_
+18	for	for	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	American	american	ADJ	JJ	_	21	E	21:E	_
+21	embassy	embassy	NOUN	NN	_	17	E	17:E	_
+22	,	,	PUNCT	,	_	6	U	6:U	_
+23	and	and	CCONJ	CC	_	6	L	6:L	_
+24	Chan	Chan	PROPN	NNP	_	26	A	26:A	_
+25	was	be	AUX	VBD	_	26	F	26:F	_
+26	sent	send	VERB	VBN	_	6	H	6:H	_
+27	to	to	ADP	IN	_	36	R	36:R	_
+28	the	the	DET	DT	_	36	E	36:E	_
+29	China	China	PROPN	NNP	_	31	E	31:E	_
+30	Drama	drama	PROPN	NNP	_	31	E	31:E	_
+31	Academy	Academy	PROPN	NNP	_	36	E	36:E|37:A	_
+32	,	,	PUNCT	,	_	36	U	36:U	_
+33	a	a	DET	DT	_	36	E	36:E	_
+34	Peking	Peking	PROPN	NNP	_	35	E	35:E	_
+35	Opera	Opera	PROPN	NNP	_	36	E	36:E	_
+36	School	School	PROPN	NNP	_	26	A	26:A	_
+37	run	run	VERB	VBN	_	36	E	36:E	_
+38	by	by	ADP	IN	_	40	R	40:R	_
+39	Master	master	NOUN	NN	_	40	E	40:E	_
+40	Yu	Yu	PROPN	NNP	_	37	A	37:A	_
+41	Jim	Jim	PROPN	NNP	_	40	Terminal	40:Terminal	_
+42	-	-	PUNCT	HYPH	_	40	U	40:U	_
+43	yuen	yuen	PROPN	NNP	_	40	Terminal	40:Terminal	_
+44	.	.	PUNCT	.	_	40	U	40:U	_
+

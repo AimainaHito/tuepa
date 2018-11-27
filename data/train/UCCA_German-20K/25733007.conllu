@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 25733007
+# text = Er kam mir vor wie ein Genius des Meeres , und wenn er vor mir herschritt , bewunderte ich seine hohe Gestalt , die auf dem hellen Hintergrund schwarz abstach .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	vor	vor	ADP	NN	_	2	Terminal	2:Terminal	_
+5	wie	wie	ADP	ADV	_	7	R	7:R	_
+6	ein	ein	DET	ART	_	7	E	7:E	_
+7	Genius	Genius	NOUN	NN	_	2	H	2:H	_
+8	des	der	DET	ART	_	9	R	9:R	_
+9	Meeres	Meer	NOUN	NN	_	7	E	7:E	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	und	und	CCONJ	NE	_	2	L	2:L	_
+12	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+13	er	er	PRON	PPER	_	16	A	16:A	_
+14	vor	vor	ADP	NN	_	15	R	15:R	_
+15	mir	ich	PRON	PPER	_	16	A	16:A	_
+16	herschritt	herschreten	VERB	VVFIN	_	2	H	2:H	_
+17	,	,	PUNCT	$,	_	2	U	2:U	_
+18	bewunderte	bewunderen	VERB	VVFIN	_	2	H	2:H	_
+19	ich	ich	PRON	PPER	_	18	A	18:A	_
+20	seine	sein	DET	PPOSAT	_	22	E	22:E	_
+21	hohe	hoch	ADJ	ADJA	_	22	E	22:E	_
+22	Gestalt	Gestalt	NOUN	NN	_	18	A	18:A	_
+23	,	,	PUNCT	$,	_	22	U	22:U	_
+24	die	der	PRON	PRELS	_	30	R	30:R	_
+25	auf	auf	ADP	APPR	_	28	R	28:R	_
+26	dem	der	DET	ART	_	28	E	28:E	_
+27	hellen	hell	ADJ	ADJA	_	28	E	28:E	_
+28	Hintergrund	Hintergrund	NOUN	NN	_	30	A	30:A	_
+29	schwarz	schwarz	ADJ	ADJD	_	30	D	30:D	_
+30	abstach	abstach	ADP	VVFIN	_	22	E	22:E	_
+31	.	.	PUNCT	$.	_	30	U	30:U	_
+

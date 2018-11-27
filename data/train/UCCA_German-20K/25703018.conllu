@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25703018
+# text = Vom Manati unterschied er sich durch zwei lange , spitze Zähne seines Oberkiefers .
+1	Vom	Vom	PROPN	NE	_	2	R	2:R	_
+2	Manati	Manati	PROPN	NE	_	3	A	3:A	_
+3	unterschied	unterscheiden	VERB	VVFIN	_	0	H	0:H	_
+4	er	er	PRON	PPER	_	3	A	3:A	_
+5	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+6	durch	durch	ADP	APPR	_	11	R	11:R	_
+7	zwei	zwei	NUM	NN	_	11	E	11:E	_
+8	lange	lange	ADJ	ADJA	_	11	E	11:E	_
+9	,	,	PUNCT	$,	_	11	U	11:U	_
+10	spitze	spitz	ADJ	NN	_	11	E	11:E	_
+11	Zähne	Zahn	NOUN	NN	_	3	A	3:A	_
+12	seines	sein	DET	PPOSAT	_	13	R	13:R	_
+13	Oberkiefers	Oberkiefer	NOUN	NN	_	11	E	11:E	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

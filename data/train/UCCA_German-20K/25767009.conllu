@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25767009
+# text = » Beinah , Herr Professor . Für jeden Fuß über der Meeresfläche haben die Eisberge 3 darunter . Da nun diese Eisberge nicht über 100 Meter hoch sind , so reichen sie nicht über 300 Meter in die Tiefe . Und 300 Meter , was will das heißen für die ›Nautilus‹ ? «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Beinah	Beinah	PROPN	NE	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	2	G	2:G	_
+6	.	.	PUNCT	$.	_	2	U	2:U	_
+7	Für	für	ADP	APPR	_	9	R	9:R	_
+8	jeden	jed	PRON	PIAT	_	9	E	9:E	_
+9	Fuß	Fuß	NOUN	NN	_	13	A	13:A	_
+10	über	über	ADP	VVFIN	_	12	R	12:R	_
+11	der	der	DET	ART	_	12	E	12:E	_
+12	Meeresfläche	Meeresfläche	NOUN	NN	_	9	E	9:E	_
+13	haben	haben	VERB	VAFIN	_	2	H	2:H	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Eisberge	Eisberg	NOUN	NN	_	13	A	13:A	_
+16	3	3	NUM	CARD	_	13	A	13:A	_
+17	darunter	darunter	ADV	PAV	_	13	A	13:A	_
+18	.	.	PUNCT	$.	_	2	U	2:U	_
+19	Da	da	SCONJ	KOUS	_	2	L	2:L	_
+20	nun	nun	ADV	ADV	_	27	F	27:F	_
+21	diese	dies	PRON	PDAT	_	22	E	22:E	_
+22	Eisberge	Eisberg	NOUN	NN	_	27	A	27:A	_
+23	nicht	nicht	PART	CARD	_	27	D	27:D	_
+24	über	über	ADP	ADJD	_	26	R	26:R	_
+25	100	100	NUM	CARD	_	26	E	26:E	_
+26	Meter	Meter	NOUN	NN	_	27	A	27:A	_
+27	hoch	hoch	ADJ	ADJD	_	2	H	2:H	_
+28	sind	sein	AUX	NN	_	27	F	27:F	_
+29	,	,	PUNCT	$,	_	2	U	2:U	_
+30	so	so	ADV	ADV	_	2	L	2:L	_
+31	reichen	reichen	VERB	VVFIN	_	2	H	2:H	_
+32	sie	sie	PRON	ADV	_	31	A	31:A	_
+33	nicht	nicht	PART	CARD	_	31	D	31:D	_
+34	über	über	ADP	VVFIN	_	36	R	36:R	_
+35	300	300	NUM	CARD	_	36	E	36:E	_
+36	Meter	Meter	NOUN	NN	_	31	A	31:A	_
+37	in	in	ADP	APPR	_	39	R	39:R	_
+38	die	der	DET	ART	_	39	E	39:E	_
+39	Tiefe	Tiefe	NOUN	NN	_	31	A	31:A	_
+40	.	.	PUNCT	$.	_	2	U	2:U	_
+41	Und	und	CCONJ	NN	_	2	L	2:L	_
+42	300	300	NUM	CARD	_	43	E	43:E	_
+43	Meter	Meter	NOUN	NN	_	48	A	48:A	_
+44	,	,	PUNCT	$,	_	48	U	48:U	_
+45	was	was	PRON	NE	_	48	A	48:A	_
+46	will	wollen	AUX	NN	_	48	D	48:D	_
+47	das	der	DET	ART	_	48	F	48:F	_
+48	heißen	heißen	NOUN	VVFIN	_	2	H	2:H	_
+49	für	für	ADP	APPR	_	51	R	51:R	_
+50	die	der	DET	ART	_	51	E	51:E	_
+51	›Nautilus‹	›Nautilus‹	NOUN	NE	_	48	A	48:A	_
+52	?	?	PUNCT	$.	_	51	U	51:U	_
+53	«	«	PUNCT	$(	_	51	U	51:U	_
+

@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 135006
+# text = Berg describes the decade as " the heart of her vast legacy " and " the period in which she truly came into her own .
+1	Berg	Berg	PROPN	NNP	_	2	A	2:A	_
+2	describes	describe	VERB	VBZ	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	decade	decade	NOUN	NN	_	2	A	2:A|12:A|17:A	_
+5	as	as	SCONJ	IN	_	12	R	12:R	_
+6	"	"	PUNCT	``	_	12	U	12:U	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	heart	heart	NOUN	NN	_	12	E	12:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	her	she	PRON	PRP$	_	12	E	12:E	_
+11	vast	vast	ADJ	JJ	_	12	E	12:E	_
+12	legacy	legacy	NOUN	NN	_	2	A	2:A	_
+13	"	"	PUNCT	''	_	12	U	12:U	_
+14	and	and	CCONJ	CC	_	12	N	12:N	_
+15	"	"	PUNCT	``	_	12	U	12:U	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	period	period	NOUN	NN	_	12	C	12:C	_
+18	in	in	ADP	IN	_	22	R	22:R	_
+19	which	which	PRON	WDT	_	22	F	22:F	_
+20	she	she	PRON	PRP	_	22	A	22:A	_
+21	truly	truly	ADV	RB	_	22	D	22:D	_
+22	came	come	VERB	VBD	_	17	E	17:E	_
+23	into	into	ADP	IN	_	22	Terminal	22:Terminal	_
+24	her	she	PRON	PRP	_	22	Terminal	22:Terminal	_
+25	own	own	ADJ	JJ	_	22	Terminal	22:Terminal	_
+26	.	.	PUNCT	.	_	22	U	22:U	_
+

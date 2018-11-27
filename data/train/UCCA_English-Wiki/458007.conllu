@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 458007
+# text = Bolstered by strong viewership of its coverage of the 1996 Summer Olympic Games , NBC 's Nightly News overtook the ABC newscast for two weeks in late July and early September .
+1	Bolstered	Bolster	VERB	VBN	_	0	H	0:H	_
+2	by	by	ADP	IN	_	4	R	4:R	_
+3	strong	strong	ADJ	JJ	_	4	E	4:E	_
+4	viewership	viewership	NOUN	NN	_	1	A	1:A	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	its	its	PRON	PRP$	_	7	E	7:E	_
+7	coverage	coverage	NOUN	NN	_	4	E	4:E	_
+8	of	of	ADP	IN	_	13	R	13:R	_
+9	the	the	DET	DT	_	13	E	13:E	_
+10	1996	1996	NUM	CD	_	13	E	13:E	_
+11	Summer	summer	NOUN	NN	_	13	E	13:E	_
+12	Olympic	Olympic	PROPN	NNP	_	13	E	13:E	_
+13	Games	games	PROPN	NNP	_	7	E	7:E	_
+14	,	,	PUNCT	,	_	1	U	1:U	_
+15	NBC	NBC	PROPN	NNP	_	0	C	0:C|1:A	_
+16	's	's	PART	POS	_	15	R	15:R	_
+17	Nightly	Nightly	PROPN	NNP	_	18	E	18:E	_
+18	News	News	PROPN	NNP	_	19	A	19:A	_
+19	overtook	overtake	VERB	VBD	_	1	H	1:H	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	ABC	ABC	PROPN	NNP	_	22	E	22:E	_
+22	newscast	newscast	NOUN	NN	_	19	A	19:A	_
+23	for	for	ADP	IN	_	25	R	25:R	_
+24	two	two	NUM	CD	_	25	E	25:E	_
+25	weeks	week	NOUN	NNS	_	19	D	19:D	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	late	late	ADJ	JJ	_	28	E	28:E	_
+28	July	July	PROPN	NNP	_	25	E	25:E	_
+29	and	and	CCONJ	CC	_	28	N	28:N	_
+30	early	early	ADJ	JJ	_	31	E	31:E	_
+31	September	September	PROPN	NNP	_	28	C	28:C	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

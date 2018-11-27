@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 563001
+# text = Berle persuaded the singer to leave his guitar backstage , advising , " Let ' em see you , son .
+1	Berle	Berle	PROPN	NNP	_	2	A	2:A|11:A	_
+2	persuaded	persuad	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	singer	singer	NOUN	NN	_	0	C	0:C|11:A|6:A	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	leave	leave	VERB	VB	_	2	A	2:A	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	guitar	guitar	NOUN	NN	_	6	A	6:A	_
+9	backstage	backstage	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	advising	advise	VERB	VBG	_	2	H	2:H	_
+12	,	,	PUNCT	,	_	11	U	11:U	_
+13	"	"	PUNCT	``	_	11	U	11:U	_
+14	Let	let	VERB	VB	_	11	A	11:A	_
+15	'	'	PUNCT	''	_	14	U	14:U	_
+16	em	em	PRON	PRP	_	14	A	14:A|17:A	_
+17	see	see	VERB	VBP	_	14	A	14:A	_
+18	you	you	PRON	PRP	_	17	A	17:A	_
+19	,	,	PUNCT	,	_	14	U	14:U	_
+20	son	son	NOUN	NN	_	14	F	14:F	_
+21	.	.	PUNCT	.	_	14	U	14:U	_
+

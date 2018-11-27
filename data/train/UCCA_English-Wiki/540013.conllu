@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 540013
+# text = In the years to come , Jack ran the Warner Bros . Burbank studio with an iron hand .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	8	D	8:D	_
+4	to	to	PART	TO	_	3	R	3:R	_
+5	come	come	VERB	VB	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	Jack	jack	PROPN	NNP	_	8	A	8:A	_
+8	ran	run	VERB	VBD	_	0	H	0:H	_
+9	the	the	DET	DT	_	14	E	14:E	_
+10	Warner	Warner	PROPN	NNP	_	14	E	14:E	_
+11	Bros	Bros	PROPN	NNP	_	10	E	10:E	_
+12	.	.	PUNCT	.	_	14	U	14:U	_
+13	Burbank	Burbank	PROPN	NNP	_	14	E	14:E	_
+14	studio	studio	NOUN	NN	_	8	A	8:A	_
+15	with	with	ADP	IN	_	18	R	18:R	_
+16	an	a	DET	DT	_	18	E	18:E	_
+17	iron	iron	ADJ	JJ	_	18	E	18:E	_
+18	hand	hand	NOUN	NN	_	8	D	8:D	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

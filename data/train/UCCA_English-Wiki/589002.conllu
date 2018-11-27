@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 589002
+# text = Depp thanked the Hollywood Foreign Press Association and praised Tim Burton for his " unwavering trust and support . "
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A|9:A	_
+2	thanked	thank	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	Hollywood	Hollywood	PROPN	NNP	_	2	A	2:A	_
+5	Foreign	Foreign	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	Press	Press	PROPN	NNP	_	4	Terminal	4:Terminal	_
+7	Association	Association	PROPN	NNP	_	4	Terminal	4:Terminal	_
+8	and	and	CCONJ	CC	_	2	L	2:L	_
+9	praised	praise	VERB	VBD	_	2	H	2:H	_
+10	Tim	Tim	PROPN	NNP	_	9	A	9:A	_
+11	Burton	Burton	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	for	for	ADP	IN	_	16	R	16:R	_
+13	his	he	PRON	PRP$	_	16	A	16:A	_
+14	"	"	PUNCT	``	_	16	U	16:U	_
+15	unwavering	unwaver	ADJ	JJ	_	16	D	16:D	_
+16	trust	trust	NOUN	NN	_	9	A	9:A	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	support	support	NOUN	NN	_	16	C	16:C	_
+19	.	.	PUNCT	.	_	16	U	16:U	_
+20	"	"	PUNCT	''	_	16	U	16:U	_
+

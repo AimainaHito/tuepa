@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25488051
+# text = Ja , wenn ich alle Täuschung in mir vernichten , wenn ich » verzweifeln « wollte , ich konnte es nicht !
+1	Ja	Ja	PROPN	PTKANT	_	0	H	0:H	_
+2	,	,	PUNCT	$,	_	1	U	1:U	_
+3	wenn	wenn	SCONJ	VVFIN	_	1	L	1:L	_
+4	ich	ich	PRON	PPER	_	9	A	9:A	_
+5	alle	alle	PRON	PIAT	_	6	E	6:E	_
+6	Täuschung	Täuschung	NOUN	NN	_	9	A	9:A	_
+7	in	in	ADP	APPR	_	8	R	8:R	_
+8	mir	ich	PRON	PPER	_	9	A	9:A	_
+9	vernichten	vernichten	VERB	VVINF	_	1	H	1:H	_
+10	,	,	PUNCT	$,	_	1	U	1:U	_
+11	wenn	wenn	SCONJ	VVFIN	_	1	L	1:L	_
+12	ich	ich	PRON	PPER	_	14	A	14:A	_
+13	»	»	PUNCT	$(	_	14	U	14:U	_
+14	verzweifeln	verzweifeln	VERB	VVINF	_	1	H	1:H	_
+15	«	«	PUNCT	$(	_	14	U	14:U	_
+16	wollte	wollen	AUX	VMFIN	_	14	D	14:D	_
+17	,	,	PUNCT	$,	_	1	U	1:U	_
+18	ich	ich	PRON	PPER	_	19	A	19:A	_
+19	konnte	können	AUX	VMFIN	_	1	H	1:H	_
+20	es	es	PRON	PPER	_	19	A	19:A	_
+21	nicht	nicht	PART	XY	_	19	D	19:D	_
+22	!	!	PUNCT	$.	_	19	U	19:U	_
+

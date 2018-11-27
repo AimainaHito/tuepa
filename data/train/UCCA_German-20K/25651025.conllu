@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25651025
+# text = » Wenn es Ihnen beliebt . «
+1	»	»	PUNCT	$(	_	5	U	5:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	5	L	5:L	_
+3	es	es	PRON	PPER	_	5	A	5:A	_
+4	Ihnen	Sie|sie	PRON	PPER	_	5	A	5:A	_
+5	beliebt	belieben	VERB	ADJD	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+7	«	«	PUNCT	$(	_	5	U	5:U	_
+

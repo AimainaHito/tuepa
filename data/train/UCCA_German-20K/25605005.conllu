@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25605005
+# text = Umgeben vom elektrischen Licht schwebte eine große schwärzliche Masse mitten im Gewässer .
+1	Umgeben	umgeben	NOUN	NE	_	9	E	9:E	_
+2	vom	vom	ADP	NE	_	4	R	4:R	_
+3	elektrischen	elektrisch	ADJ	ADJA	_	4	E	4:E	_
+4	Licht	Licht	NOUN	NN	_	1	A	1:A	_
+5	schwebte	schweben	VERB	VVFIN	_	0	H	0:H	_
+6	eine	ein	DET	ART	_	9	E	9:E	_
+7	große	groß	ADJ	ADJA	_	9	E	9:E	_
+8	schwärzliche	schwärzlich	ADJ	ADJA	_	9	E	9:E	_
+9	Masse	Masse	NOUN	NN	_	5	A	5:A	_
+10	mitten	mitten	ADV	ADV	_	5	D	5:D	_
+11	im	im	ADJ	NE	_	12	R	12:R	_
+12	Gewässer	Gewässer	NOUN	NN	_	5	A	5:A	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

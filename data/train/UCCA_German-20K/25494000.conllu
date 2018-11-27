@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25494000
+# text = » Ohne zu wollen ? « erwiderte der Unbekannte mit etwas gehobener Betonung .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Ohne	ohne	NOUN	NN	_	4	D	4:D	_
+3	zu	zu	PART	VVINF	_	4	F	4:F	_
+4	wollen	wollen	VERB	VMFIN	_	7	A	7:A	_
+5	?	?	PUNCT	$.	_	7	U	7:U	_
+6	«	«	PUNCT	$(	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Unbekannte	unbekannt	ADJ	NN	_	7	A	7:A	_
+10	mit	mit	ADP	APPR	_	13	R	13:R	_
+11	etwas	etwas	ADV	ADV	_	12	D	12:D	_
+12	gehobener	gehoben	ADJ	ADJA	_	13	E	13:E	_
+13	Betonung	Betonung	NOUN	NN	_	7	A	7:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

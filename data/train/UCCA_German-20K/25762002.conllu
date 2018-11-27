@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25762002
+# text = Der Kapitän bot mir eine Tasse der noch warmen Milch an .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kapitän	Kapitän	NOUN	NN	_	3	A	3:A	_
+3	bot	bieten	VERB	VVFIN	_	0	H	0:H	_
+4	mir	ich	PRON	PPER	_	3	A	3:A	_
+5	eine	ein	DET	ART	_	6	E	6:E	_
+6	Tasse	Tasse	NOUN	NN	_	3	A	3:A	_
+7	der	der	DET	ART	_	6	R	6:R	_
+8	noch	noch	ADV	CARD	_	9	D	9:D	_
+9	warmen	warm	ADJ	NN	_	6	E	6:E	_
+10	Milch	Milch	NOUN	NN	_	9	A	9:A	_
+11	an	an	ADP	PTKVZ	_	3	Terminal	3:Terminal	_
+12	.	.	PUNCT	$.	_	3	U	3:U	_
+

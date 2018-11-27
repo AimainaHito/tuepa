@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 376010
+# text = Jake 's last native Swedish ancestor was his great - great - grandfather , Anders Leonard Gyllenhaal .
+1	Jake	Jake	PROPN	NNP	_	6	E	6:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	last	last	ADJ	JJ	_	6	E	6:E	_
+4	native	native	ADJ	JJ	_	6	E	6:E	_
+5	Swedish	swedish	ADJ	JJ	_	6	E	6:E	_
+6	ancestor	ancestor	NOUN	NN	_	7	A	7:A	_
+7	was	be	AUX	VBD	_	0	H	0:H	_
+8	his	he	PRON	PRP$	_	13	E	13:E	_
+9	great	great	ADJ	JJ	_	13	E	13:E	_
+10	-	-	PUNCT	HYPH	_	13	U	13:U	_
+11	great	great	ADJ	JJ	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	grandfather	grandfather	NOUN	NN	_	7	A	7:A	_
+14	,	,	PUNCT	,	_	13	U	13:U	_
+15	Anders	Ander	PROPN	NNP	_	13	E	13:E	_
+16	Leonard	Leonard	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	15	Terminal	15:Terminal	_
+18	.	.	PUNCT	.	_	13	U	13:U	_
+

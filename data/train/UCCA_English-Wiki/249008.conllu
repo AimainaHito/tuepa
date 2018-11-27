@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 249008
+# text = Peter Travers of Rolling Stone praised Hawke 's performance , noting that he " digs deep to create a haunting portrayal of loss " . USA Today called the movie " highly entertaining " , describing Hawke and Hoffman 's performances as excellent .
+1	Peter	Peter	PROPN	NNP	_	0	C	0:C|11:A	_
+2	Travers	Travers	PROPN	NNPS	_	1	Terminal	1:Terminal	_
+3	of	of	ADP	IN	_	4	R	4:R	_
+4	Rolling	Rolling	PROPN	NNP	_	1	E	1:E	_
+5	Stone	stone	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	praised	praise	VERB	VBD	_	0	H	0:H	_
+7	Hawke	Hawke	PROPN	NNP	_	9	A	9:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	performance	performance	NOUN	NN	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	noting	note	VERB	VBG	_	6	H	6:H	_
+12	that	that	SCONJ	IN	_	15	F	15:F	_
+13	he	he	PRON	PRP	_	15	A	15:A|18:A	_
+14	"	"	PUNCT	``	_	15	U	15:U	_
+15	digs	dig	VERB	VBZ	_	11	A	11:A	_
+16	deep	deep	ADJ	JJ	_	15	D	15:D	_
+17	to	to	PART	TO	_	18	F	18:F	_
+18	create	create	VERB	VB	_	15	A	15:A	_
+19	a	a	DET	DT	_	21	E	21:E	_
+20	haunting	haunt	NOUN	NN	_	21	E	21:E	_
+21	portrayal	portrayal	NOUN	NN	_	18	A	18:A	_
+22	of	of	ADP	IN	_	23	R	23:R	_
+23	loss	loss	NOUN	NN	_	21	E	21:E	_
+24	"	"	PUNCT	''	_	6	U	6:U	_
+25	.	.	PUNCT	.	_	6	U	6:U	_
+26	USA	USA	PROPN	NNP	_	28	A	28:A|36:A	_
+27	Today	today	NOUN	NN	_	26	Terminal	26:Terminal	_
+28	called	call	VERB	VBD	_	6	H	6:H	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	movie	movie	NOUN	NN	_	28	A	28:A	_
+31	"	"	PUNCT	``	_	28	U	28:U	_
+32	highly	highly	ADV	RB	_	33	E	33:E	_
+33	entertaining	entertaining	NOUN	NN	_	28	A	28:A	_
+34	"	"	PUNCT	''	_	6	U	6:U	_
+35	,	,	PUNCT	,	_	6	U	6:U	_
+36	describing	describe	VERB	VBG	_	6	H	6:H	_
+37	Hawke	Hawke	PROPN	NNP	_	41	A	41:A	_
+38	and	and	CCONJ	CC	_	37	N	37:N	_
+39	Hoffman	Hoffman	PROPN	NNP	_	37	C	37:C	_
+40	's	's	PART	POS	_	37	R	37:R	_
+41	performances	performances	NOUN	NNS	_	36	A	36:A	_
+42	as	as	ADV	RB	_	43	R	43:R	_
+43	excellent	excellent	ADJ	JJ	_	36	A	36:A	_
+44	.	.	PUNCT	.	_	43	U	43:U	_
+

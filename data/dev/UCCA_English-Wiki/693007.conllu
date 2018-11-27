@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 693007
+# text = Others who recorded and had hits with Dylan 's songs in the early and mid - 1960s included The Byrds ; Sonny and Cher ; The Hollies ; Peter , Paul and Mary ; The Association ; Manfred Mann ; and The Turtles .
+1	Others	other	NOUN	NNS	_	18	A	18:A	_
+2	who	who	PRON	WP	_	3	R	3:R	_
+3	recorded	record	VERB	VBD	_	1	E	1:E	_
+4	and	and	CCONJ	CC	_	3	N	3:N	_
+5	had	have	VERB	VBD	_	6	F	6:F	_
+6	hits	hit	NOUN	NNS	_	3	C	3:C	_
+7	with	with	ADP	IN	_	10	R	10:R	_
+8	Dylan	Dylan	PROPN	NNP	_	10	E	10:E	_
+9	's	's	PART	POS	_	10	R	10:R	_
+10	songs	song	NOUN	NNS	_	3	A	3:A	_
+11	in	in	ADP	IN	_	17	R	17:R	_
+12	the	the	DET	DT	_	17	E	17:E	_
+13	early	early	ADJ	JJ	_	17	E	17:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	mid	mid	X	AFX	_	13	C	13:C	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	1960s	1960	NOUN	NNS	_	3	D	3:D	_
+18	included	include	VERB	VBD	_	0	H	0:H	_
+19	The	the	DET	DT	_	18	A	18:A	_
+20	Byrds	Byrds	NOUN	NNS	_	19	Terminal	19:Terminal	_
+21	;	;	PUNCT	,	_	19	U	19:U	_
+22	Sonny	sonny	PROPN	NNP	_	19	C	19:C	_
+23	and	and	CCONJ	CC	_	22	Terminal	22:Terminal	_
+24	Cher	Cher	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	;	;	PUNCT	,	_	19	U	19:U	_
+26	The	the	DET	DT	_	19	C	19:C	_
+27	Hollies	Holly	PROPN	NNPS	_	26	Terminal	26:Terminal	_
+28	;	;	PUNCT	,	_	19	U	19:U	_
+29	Peter	Peter	PROPN	NNP	_	19	C	19:C	_
+30	,	,	PUNCT	,	_	29	U	29:U	_
+31	Paul	Paul	PROPN	NNP	_	29	Terminal	29:Terminal	_
+32	and	and	CCONJ	CC	_	29	Terminal	29:Terminal	_
+33	Mary	Mary	PROPN	NNP	_	29	Terminal	29:Terminal	_
+34	;	;	PUNCT	,	_	19	U	19:U	_
+35	The	the	DET	DT	_	19	C	19:C	_
+36	Association	Association	NOUN	NN	_	35	Terminal	35:Terminal	_
+37	;	;	PUNCT	,	_	19	U	19:U	_
+38	Manfred	Manfr	PROPN	NNP	_	19	C	19:C	_
+39	Mann	Mann	PROPN	NNP	_	38	Terminal	38:Terminal	_
+40	;	;	PUNCT	,	_	19	U	19:U	_
+41	and	and	CCONJ	CC	_	19	N	19:N	_
+42	The	the	DET	DT	_	19	C	19:C	_
+43	Turtles	Turtles	PROPN	NNPS	_	42	Terminal	42:Terminal	_
+44	.	.	PUNCT	.	_	19	U	19:U	_
+

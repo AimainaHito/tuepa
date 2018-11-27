@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25596004
+# text = Es musste etwa 3 Uhr sein , als wir in ein enges Tal zwischen hohen steilen Wänden kamen , in einer Tiefe von ungefähr 150 Meter .
+1	Es	es	PRON	PPER	_	6	F	6:F	_
+2	musste	müssen	AUX	VVFIN	_	6	D	6:D	_
+3	etwa	etwa	ADV	ADV	_	4	E	4:E	_
+4	3	3	NUM	CARD	_	6	D	6:D	_
+5	Uhr	Uhr	NOUN	NN	_	4	Terminal	4:Terminal	_
+6	sein	sein	AUX	VAINF	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	als	als	SCONJ	KOUS	_	6	L	6:L	_
+9	wir	wir	PRON	NE	_	18	A	18:A	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	ein	ein	DET	ART	_	13	E	13:E	_
+12	enges	eng	ADJ	ADJA	_	13	E	13:E	_
+13	Tal	Tal	NOUN	NN	_	18	A	18:A	_
+14	zwischen	zwischen	ADP	ADJA	_	17	R	17:R	_
+15	hohen	hoch	ADJ	ADJA	_	17	E	17:E	_
+16	steilen	steil	ADJ	ADJA	_	17	E	17:E	_
+17	Wänden	Wand	NOUN	NN	_	13	E	13:E	_
+18	kamen	kommen	VERB	VVFIN	_	6	H	6:H	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	einer	ein	DET	ART	_	22	E	22:E	_
+22	Tiefe	Tiefe	NOUN	NN	_	18	A	18:A	_
+23	von	von	ADP	NN	_	26	R	26:R	_
+24	ungefähr	ungefähr	ADV	NE	_	25	E	25:E	_
+25	150	150	NUM	CARD	_	26	E	26:E	_
+26	Meter	Meter	NOUN	NN	_	22	E	22:E	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

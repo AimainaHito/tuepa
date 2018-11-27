@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25736009
+# text = Sein Dialog Timäus und Kritias ist sozusagen unter Eingebung Solons geschrieben .
+1	Sein	sein	DET	PPOSAT	_	2	E	2:E	_
+2	Dialog	Dialog	NOUN	NN	_	11	A	11:A	_
+3	Timäus	Timäus	PROPN	NE	_	2	E	2:E	_
+4	und	und	CCONJ	NE	_	3	Terminal	3:Terminal	_
+5	Kritias	Kritias	PROPN	NE	_	3	Terminal	3:Terminal	_
+6	ist	sein	AUX	VVFIN	_	11	F	11:F	_
+7	sozusagen	sozusagen	ADV	ADV	_	11	G	11:G	_
+8	unter	unter	ADP	ADJD	_	9	E	9:E	_
+9	Eingebung	Eingebung	NOUN	NN	_	11	A	11:A	_
+10	Solons	Solons	PROPN	NN	_	9	A	9:A	_
+11	geschrieben	schreiben	VERB	VVPP	_	0	H	0:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

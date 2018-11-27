@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 221000
+# text = Dunst was treated for depression in early 2008 at the Cirque Lodge treatment center in Utah .
+1	Dunst	Dunst	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	treated	treat	VERB	VBN	_	0	H	0:H	_
+4	for	for	ADP	IN	_	5	R	5:R	_
+5	depression	depression	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	early	early	ADJ	JJ	_	8	E	8:E	_
+8	2008	2008	NUM	CD	_	3	D	3:D	_
+9	at	at	ADP	IN	_	14	R	14:R	_
+10	the	the	DET	DT	_	14	E	14:E	_
+11	Cirque	Cirque	PROPN	NNP	_	12	E	12:E	_
+12	Lodge	Lodge	PROPN	NNP	_	14	E	14:E	_
+13	treatment	treatment	NOUN	NN	_	14	E	14:E	_
+14	center	center	NOUN	NN	_	3	A	3:A	_
+15	in	in	ADP	IN	_	16	R	16:R	_
+16	Utah	Utah	PROPN	NNP	_	14	E	14:E	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

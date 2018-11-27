@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 703003
+# text = Released in early 1975 , Blood on the Tracks received mixed reviews .
+1	Released	release	VERB	VBN	_	0	H	0:H	_
+2	in	in	ADP	IN	_	4	R	4:R	_
+3	early	early	ADJ	JJ	_	4	E	4:E	_
+4	1975	1975	NUM	CD	_	1	D	1:D	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	Blood	blood	NOUN	NN	_	10	A	10:A|1:A	_
+7	on	on	ADP	IN	_	6	Terminal	6:Terminal	_
+8	the	the	DET	DT	_	6	Terminal	6:Terminal	_
+9	Tracks	tracks	PROPN	NNPS	_	6	Terminal	6:Terminal	_
+10	received	receive	VERB	VBD	_	1	H	1:H	_
+11	mixed	mix	ADJ	JJ	_	12	E	12:E	_
+12	reviews	review	NOUN	NNS	_	10	A	10:A	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

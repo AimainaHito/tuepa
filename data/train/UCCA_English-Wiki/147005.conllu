@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 147005
+# text = Hepburn often expressed her gratitude toward Smith for his financial and moral support in the early days of her career , and in her autobiography called herself " a terrible pig " for exploiting his love .
+1	Hepburn	Hepburn	VERB	VB	_	3	A	3:A|34:A|26:A	_
+2	often	often	ADV	RB	_	3	D	3:D	_
+3	expressed	express	VERB	VBN	_	0	H	0:H	_
+4	her	she	PRON	PRP$	_	5	A	5:A	_
+5	gratitude	gratitude	NOUN	NN	_	3	A	3:A	_
+6	toward	toward	ADP	IN	_	7	R	7:R	_
+7	Smith	Smith	PROPN	NNP	_	5	A	5:A	_
+8	for	for	ADP	IN	_	10	R	10:R	_
+9	his	he	PRON	PRP$	_	10	A	10:A	_
+10	financial	financial	ADJ	JJ	_	5	A	5:A	_
+11	and	and	CCONJ	CC	_	10	N	10:N	_
+12	moral	moral	ADJ	JJ	_	13	E	13:E	_
+13	support	support	NOUN	NN	_	0	C	0:C|10:C	_
+14	in	in	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	early	early	ADJ	JJ	_	17	E	17:E	_
+17	days	day	NOUN	NNS	_	10	D	10:D	_
+18	of	of	ADP	IN	_	20	R	20:R	_
+19	her	she	PRON	PRP$	_	20	E	20:E	_
+20	career	career	NOUN	NN	_	17	E	17:E	_
+21	,	,	PUNCT	,	_	3	U	3:U	_
+22	and	and	CCONJ	CC	_	3	L	3:L	_
+23	in	in	ADP	IN	_	25	R	25:R	_
+24	her	she	PRON	PRP$	_	25	E	25:E	_
+25	autobiography	autobiography	NOUN	NN	_	26	A	26:A	_
+26	called	call	VERB	VBN	_	3	H	3:H	_
+27	herself	herself	PRON	PRP	_	26	D	26:D	_
+28	"	"	PUNCT	``	_	26	U	26:U	_
+29	a	a	DET	DT	_	31	E	31:E	_
+30	terrible	terrible	ADJ	JJ	_	31	E	31:E	_
+31	pig	pig	NOUN	NN	_	26	A	26:A	_
+32	"	"	PUNCT	''	_	26	U	26:U	_
+33	for	for	SCONJ	IN	_	34	R	34:R	_
+34	exploiting	exploit	VERB	VBG	_	26	A	26:A	_
+35	his	he	PRON	PRP$	_	36	E	36:E	_
+36	love	love	NOUN	NN	_	34	A	34:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 727008
+# text = She next starred in Beyond Borders ( 2003 ) , as a socialite who joins aid workers in Africa and Asia .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	starred	star	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	Beyond	Beyond	PROPN	NNP	_	3	A	3:A	_
+6	Borders	borders	PROPN	NNPS	_	5	Terminal	5:Terminal	_
+7	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+8	2003	2003	NUM	CD	_	5	E	5:E	_
+9	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+10	,	,	PUNCT	,	_	3	U	3:U	_
+11	as	as	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	socialite	socialite	NOUN	NN	_	3	A	3:A	_
+14	who	who	PRON	WP	_	15	R	15:R	_
+15	joins	join	VERB	VBZ	_	13	E	13:E	_
+16	aid	ay	NOUN	NN	_	17	E	17:E	_
+17	workers	worker	NOUN	NNS	_	15	A	15:A	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	Africa	Africa	PROPN	NNP	_	15	A	15:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	Asia	Asia	PROPN	NNP	_	19	C	19:C	_
+22	.	.	PUNCT	.	_	19	U	19:U	_
+

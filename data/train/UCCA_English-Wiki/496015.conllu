@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 496015
+# text = John Cambridge , a drummer Bowie met at the Arts Lab , was joined by Tony Visconti on bass and Mick Ronson on electric guitar .
+1	John	John	PROPN	NNP	_	14	A	14:A	_
+2	Cambridge	Cambridge	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	drummer	drummer	NOUN	NN	_	7	A	7:A	_
+6	Bowie	Bowie	PROPN	NNP	_	7	A	7:A	_
+7	met	meet	VERB	VBD	_	1	E	1:E	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	Arts	Arts	PROPN	NNPS	_	7	A	7:A	_
+11	Lab	Lab	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	14	U	14:U	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	joined	join	VERB	VBN	_	0	H	0:H	_
+15	by	by	ADP	IN	_	19	R	19:R	_
+16	Tony	Tony	PROPN	NNP	_	19	A	19:A	_
+17	Visconti	Visconti	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	on	on	ADP	IN	_	19	R	19:R	_
+19	bass	bass	NOUN	NN	_	14	A	14:A	_
+20	and	and	CCONJ	CC	_	19	N	19:N	_
+21	Mick	Mick	PROPN	NNP	_	25	A	25:A	_
+22	Ronson	Ronson	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	on	on	ADP	IN	_	25	R	25:R	_
+24	electric	electric	ADJ	JJ	_	25	E	25:E	_
+25	guitar	guitar	NOUN	NN	_	19	C	19:C	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

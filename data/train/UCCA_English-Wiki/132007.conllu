@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 132007
+# text = Berg describes how the character was crafted to have audiences " laugh at her enough that they would ultimately sympathize with her " , which Hepburn felt was crucial in " re - creating " her public image .
+1	Berg	Berg	PROPN	NNP	_	2	A	2:A	_
+2	describes	describe	VERB	VBZ	_	0	H	0:H	_
+3	how	how	ADV	WRB	_	7	R	7:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	character	character	NOUN	NN	_	7	A	7:A|12:A	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	crafted	craft	VERB	VBN	_	2	A	2:A	_
+8	to	to	PART	TO	_	12	F	12:F	_
+9	have	have	VERB	VB	_	12	D	12:D	_
+10	audiences	audience	NOUN	NNS	_	12	A	12:A	_
+11	"	"	PUNCT	''	_	12	U	12:U	_
+12	laugh	laugh	VERB	VBP	_	7	A	7:A	_
+13	at	at	ADP	IN	_	14	R	14:R	_
+14	her	she	PRON	PRP$	_	12	A	12:A	_
+15	enough	enough	ADJ	JJ	_	12	D	12:D	_
+16	that	that	SCONJ	IN	_	20	R	20:R	_
+17	they	they	PRON	PRP	_	20	A	20:A	_
+18	would	would	AUX	MD	_	20	F	20:F	_
+19	ultimately	ultimately	ADV	RB	_	20	D	20:D	_
+20	sympathize	sympathize	VERB	VB	_	12	A	12:A	_
+21	with	with	ADP	IN	_	22	R	22:R	_
+22	her	she	PRON	PRP	_	20	A	20:A	_
+23	"	"	PUNCT	''	_	2	U	2:U	_
+24	,	,	PUNCT	,	_	2	U	2:U	_
+25	which	which	PRON	WDT	_	2	L	2:L	_
+26	Hepburn	Hepburn	PROPN	NNP	_	27	A	27:A|34:A	_
+27	felt	feel	VERB	VBD	_	2	H	2:H	_
+28	was	be	AUX	VBD	_	29	F	29:F	_
+29	crucial	crucial	ADJ	JJ	_	27	A	27:A	_
+30	in	in	ADP	IN	_	34	R	34:R	_
+31	"	"	PUNCT	``	_	34	U	34:U	_
+32	re	re	ADP	IN	_	34	E	34:E	_
+33	-	-	PUNCT	HYPH	_	34	U	34:U	_
+34	creating	create	VERB	VBG	_	29	A	29:A	_
+35	"	"	PUNCT	''	_	34	U	34:U	_
+36	her	she	PRON	PRP$	_	38	E	38:E	_
+37	public	public	ADJ	JJ	_	38	E	38:E	_
+38	image	image	NOUN	NN	_	34	A	34:A	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

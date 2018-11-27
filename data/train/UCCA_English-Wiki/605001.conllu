@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 605001
+# text = Ten more dates followed as they travelled across the UK in a van during an unannounced tour of universities , during which the band stayed in modest accommodation and received pay in coinage collected from students , while avoiding Beatles songs during their performances .
+1	Ten	ten	NUM	CD	_	3	E	3:E	_
+2	more	more	ADJ	JJR	_	3	E	3:E	_
+3	dates	date	NOUN	NNS	_	4	A	4:A	_
+4	followed	follow	VERB	VBD	_	0	H	0:H	_
+5	as	as	SCONJ	IN	_	4	L	4:L	_
+6	they	they	PRON	PRP	_	7	A	7:A|17:A	_
+7	travelled	travel	VERB	VBD	_	4	H	4:H	_
+8	across	across	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	UK	UK	PROPN	NNP	_	7	A	7:A	_
+11	in	in	ADP	IN	_	13	R	13:R	_
+12	a	a	DET	DT	_	13	E	13:E	_
+13	van	van	NOUN	NN	_	7	A	7:A	_
+14	during	during	ADP	IN	_	4	L	4:L	_
+15	an	a	DET	DT	_	17	E	17:E	_
+16	unannounced	unannounced	ADJ	JJ	_	17	E	17:E	_
+17	tour	tour	NOUN	NN	_	4	H	4:H	_
+18	of	of	ADP	IN	_	19	R	19:R	_
+19	universities	universitie	NOUN	NNS	_	17	A	17:A	_
+20	,	,	PUNCT	,	_	4	U	4:U	_
+21	during	during	ADP	IN	_	4	L	4:L	_
+22	which	which	PRON	WDT	_	21	F	21:F	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	band	band	NOUN	NN	_	25	A	25:A|39:A|30:A	_
+25	stayed	stay	VERB	VBD	_	4	H	4:H	_
+26	in	in	ADP	IN	_	28	R	28:R	_
+27	modest	modest	ADJ	JJ	_	28	E	28:E	_
+28	accommodation	accommodation	NOUN	NN	_	25	A	25:A	_
+29	and	and	CCONJ	CC	_	4	L	4:L	_
+30	received	receive	VERB	VBD	_	4	H	4:H	_
+31	pay	pay	VERB	VB	_	30	A	30:A	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	coinage	coinage	NOUN	NN	_	30	A	30:A	_
+34	collected	collect	VERB	VBN	_	33	E	33:E	_
+35	from	from	ADP	IN	_	36	R	36:R	_
+36	students	student	NOUN	NNS	_	34	A	34:A	_
+37	,	,	PUNCT	,	_	4	U	4:U	_
+38	while	while	SCONJ	IN	_	4	L	4:L	_
+39	avoiding	avoid	VERB	VBG	_	4	H	4:H	_
+40	Beatles	Beatles	PROPN	NNPS	_	41	E	41:E	_
+41	songs	song	NOUN	NNS	_	39	A	39:A	_
+42	during	during	ADP	IN	_	4	L	4:L	_
+43	their	they	PRON	PRP$	_	44	A	44:A	_
+44	performances	performance	NOUN	NNS	_	4	H	4:H	_
+45	.	.	PUNCT	.	_	44	U	44:U	_
+

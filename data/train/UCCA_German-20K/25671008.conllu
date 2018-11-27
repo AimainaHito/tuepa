@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25671008
+# text = Conseil konnte seinen Augen nicht trauen und fragte mich über die Ursachen dieser auffallenden Erscheinung .
+1	Conseil	Conseil	PROPN	NE	_	6	A	6:A|8:A	_
+2	konnte	können	AUX	VMFIN	_	6	D	6:D	_
+3	seinen	sein	DET	PPOSAT	_	4	E	4:E	_
+4	Augen	Auge	NOUN	NN	_	6	A	6:A	_
+5	nicht	nicht	PART	XY	_	6	D	6:D	_
+6	trauen	trauen	VERB	VVINF	_	0	H	0:H	_
+7	und	und	CCONJ	NE	_	6	L	6:L	_
+8	fragte	fragen	VERB	VVFIN	_	6	H	6:H	_
+9	mich	ich	PRON	PRF	_	8	A	8:A	_
+10	über	über	ADP	ADJD	_	12	R	12:R	_
+11	die	der	DET	ART	_	12	E	12:E	_
+12	Ursachen	Ursache	NOUN	NN	_	8	A	8:A	_
+13	dieser	dies	PRON	PDAT	_	15	E	15:E	_
+14	auffallenden	auffallend	ADJ	ADJA	_	15	E	15:E	_
+15	Erscheinung	Erscheinung	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

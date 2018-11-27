@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25490087
+# text = « » Ich nehme Sie beim Wort , Ned « , erwiderte ich dem Kanadier .
+1	«	«	PUNCT	$(	_	12	U	12:U	_
+2	»	»	PUNCT	$(	_	12	U	12:U	_
+3	Ich	ich	PRON	PPER	_	4	A	4:A	_
+4	nehme	nehmen	VERB	VVFIN	_	12	A	12:A	_
+5	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	beim	beim	ADJ	NE	_	4	Terminal	4:Terminal	_
+7	Wort	Wort	NOUN	NN	_	4	Terminal	4:Terminal	_
+8	,	,	PUNCT	$,	_	4	U	4:U	_
+9	Ned	Ned	NOUN	NN	_	4	G	4:G	_
+10	«	«	PUNCT	$(	_	12	U	12:U	_
+11	,	,	PUNCT	$,	_	12	U	12:U	_
+12	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	dem	der	DET	ART	_	15	R	15:R	_
+15	Kanadier	Kanadier	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

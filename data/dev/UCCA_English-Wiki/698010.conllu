@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 698010
+# text = In the second half , backed by the Hawks , he played electrically amplified music .
+1	In	in	ADP	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	second	second	ADJ	JJ	_	4	E	4:E	_
+4	half	half	NOUN	NN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	backed	back	VERB	VBN	_	4	H	4:H	_
+7	by	by	ADP	IN	_	9	R	9:R	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	Hawks	Hawks	PROPN	NNPS	_	6	A	6:A	_
+10	,	,	PUNCT	,	_	4	U	4:U	_
+11	he	he	PRON	PRP	_	12	A	12:A	_
+12	played	play	VERB	VBD	_	4	H	4:H	_
+13	electrically	electrically	ADV	RB	_	14	A	14:A	_
+14	amplified	amplify	ADJ	JJ	_	15	E	15:E	_
+15	music	music	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

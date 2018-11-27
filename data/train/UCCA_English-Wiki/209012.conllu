@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 209012
+# text = He next appeared in Barry Levinson 's adaptation of Sphere ( 1998 ) , opposite Sharon Stone , Samuel L . Jackson , Peter Coyote , Queen Latifah and Liev Schreiber .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	next	next	ADV	RB	_	3	D	3:D	_
+3	appeared	appear	VERB	VBD	_	0	H	0:H	_
+4	in	in	ADP	IN	_	10	R	10:R	_
+5	Barry	Barry	PROPN	NNP	_	10	E	10:E	_
+6	Levinson	Levinson	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	's	's	PART	POS	_	5	R	5:R	_
+8	adaptation	adaptation	NOUN	NN	_	10	E	10:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	Sphere	Sphere	NOUN	NN	_	3	A	3:A	_
+11	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+12	1998	1998	NUM	CD	_	10	E	10:E	_
+13	)	)	PUNCT	-RRB-	_	3	U	3:U	_
+14	,	,	PUNCT	,	_	3	U	3:U	_
+15	opposite	opposite	ADP	IN	_	16	R	16:R	_
+16	Sharon	Sharon	PROPN	NNP	_	3	A	3:A	_
+17	Stone	Stone	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	Samuel	Samuel	PROPN	NNP	_	16	C	16:C	_
+20	L	L	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+22	Jackson	Jackson	PROPN	NNP	_	19	Terminal	19:Terminal	_
+23	,	,	PUNCT	,	_	16	U	16:U	_
+24	Peter	Peter	PROPN	NNP	_	16	C	16:C	_
+25	Coyote	Coyote	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	,	,	PUNCT	,	_	16	U	16:U	_
+27	Queen	Queen	PROPN	NNP	_	16	C	16:C	_
+28	Latifah	Latifah	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	and	and	CCONJ	CC	_	16	N	16:N	_
+30	Liev	Liev	PROPN	NNP	_	16	C	16:C	_
+31	Schreiber	Schreiber	PROPN	NNP	_	30	Terminal	30:Terminal	_
+32	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 701006
+# text = " on first listening to Self Portrait , released in June 1970 .
+1	"	"	PUNCT	``	_	4	U	4:U	_
+2	on	on	ADP	IN	_	4	L	4:L	_
+3	first	first	ADJ	JJ	_	4	D	4:D	_
+4	listening	listen	NOUN	NN	_	0	H	0:H	_
+5	to	to	ADP	IN	_	9	R	9:R	_
+6	Self	self	NOUN	NN	_	9	A	9:A	_
+7	Portrait	Portrait	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	released	release	VERB	VBD	_	4	A	4:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	June	June	PROPN	NNP	_	12	E	12:E	_
+12	1970	1970	NUM	CD	_	9	D	9:D	_
+13	.	.	PUNCT	.	_	12	U	12:U	_
+

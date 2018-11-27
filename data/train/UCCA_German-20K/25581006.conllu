@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25581006
+# text = Ich zog alsbald meine Byssuskleider an .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	zog	ziehen	VERB	VVFIN	_	0	H	0:H	_
+3	alsbald	alsbald	ADV	ADV	_	2	D	2:D	_
+4	meine	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Byssuskleider	Byssuskleider	NOUN	NE	_	2	A	2:A	_
+6	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+

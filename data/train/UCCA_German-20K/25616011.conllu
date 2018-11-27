@@ -1,0 +1,49 @@
+# format = ucca
+# sent_id = 25616011
+# text = Die " Nautilus " war also am Eingang der gefährlichsten Enge des ganzen Erd balls , in welche die kühnsten See fahrer kaum zu dringen wagen , worin 1840 die Corvetten Dumont d'Urvilles scheiterten und auf dem Punkt waren , völlig zugrunde zu gehen .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	5	A	5:A	_
+4	"	"	PUNCT	$(	_	5	U	5:U	_
+5	war	sein	AUX	ADV	_	0	H	0:H	_
+6	also	also	ADV	ADV	_	5	F	5:F	_
+7	am	am	ADJ	ADJD	_	8	R	8:R	_
+8	Eingang	Eingang	NOUN	NN	_	5	A	5:A	_
+9	der	der	DET	ART	_	11	R	11:R	_
+10	gefährlichsten	gefährlichst	ADJ	NN	_	11	E	11:E	_
+11	Enge	eng	NOUN	NN	_	8	E	8:E	_
+12	des	der	DET	ART	_	15	R	15:R	_
+13	ganzen	ganz	ADJ	ADJA	_	15	E	15:E	_
+14	Erd	Erd	NOUN	NE	_	15	E	15:E	_
+15	balls	balls	ADV	NE	_	11	E	11:E	_
+16	,	,	PUNCT	$,	_	11	U	11:U	_
+17	in	in	ADP	APPR	_	18	R	18:R	_
+18	welche	welch	PRON	NN	_	25	R	25:R	_
+19	die	der	DET	ART	_	22	E	22:E	_
+20	kühnsten	kühn	ADJ	NN	_	22	E	22:E	_
+21	See	See	NOUN	NN	_	22	E	22:E	_
+22	fahrer	fahr	ADJ	PPOSAT	_	25	A	25:A	_
+23	kaum	kaum	ADV	ADV	_	25	D	25:D	_
+24	zu	zu	PART	ADJA	_	25	F	25:F	_
+25	dringen	dringen	VERB	NN	_	11	E	11:E	_
+26	wagen	wagen	VERB	VVINF	_	25	D	25:D	_
+27	,	,	PUNCT	$,	_	11	U	11:U	_
+28	worin	worin	PRON	PWAV	_	34	R	34:R	_
+29	1840	1840	NUM	CARD	_	34	D	34:D	_
+30	die	der	DET	ART	_	31	E	31:E	_
+31	Corvetten	Corvetten	PROPN	NN	_	34	A	34:A	_
+32	Dumont	Dumont	PROPN	NE	_	31	E	31:E	_
+33	d'Urvilles	d'Urvilles	PROPN	NE	_	32	Terminal	32:Terminal	_
+34	scheiterten	scheitern	VERB	ADJA	_	11	E	11:E	_
+35	und	und	CCONJ	NN	_	34	L	34:L	_
+36	auf	auf	ADP	APPR	_	42	D	42:D	_
+37	dem	der	DET	ART	_	36	Terminal	36:Terminal	_
+38	Punkt	Punkt	NOUN	NN	_	36	Terminal	36:Terminal	_
+39	waren	sein	AUX	VAFIN	_	42	F	42:F	_
+40	,	,	PUNCT	$,	_	42	U	42:U	_
+41	völlig	völlig	ADV	ADJD	_	42	D	42:D	_
+42	zugrunde	zugrunde	ADV	NE	_	34	H	34:H	_
+43	zu	zu	PART	NE	_	42	F	42:F	_
+44	gehen	gehen	VERB	VVINF	_	42	Terminal	42:Terminal	_
+45	.	.	PUNCT	$.	_	42	U	42:U	_
+

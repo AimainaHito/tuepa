@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 591002
+# text = The company 's first production came in 2011 with The Rum Diary , adapted from the novel of the same name by Hunter S . Thompson .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	company	company	NOUN	NN	_	5	A	5:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	first	first	ADJ	JJ	_	5	D	5:D	_
+5	production	production	NOUN	NN	_	6	A	6:A	_
+6	came	come	VERB	VBD	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	2011	2011	NUM	CD	_	6	D	6:D	_
+9	with	with	ADP	IN	_	10	R	10:R	_
+10	The	the	DET	DT	_	6	A	6:A	_
+11	Rum	Rum	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	Diary	Diary	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	,	_	10	U	10:U	_
+14	adapted	adapt	VERB	VBD	_	10	E	10:E	_
+15	from	from	ADP	IN	_	17	R	17:R	_
+16	the	the	DET	DT	_	17	E	17:E	_
+17	novel	novel	NOUN	NN	_	14	A	14:A	_
+18	of	of	ADP	IN	_	21	R	21:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	same	same	ADJ	JJ	_	21	E	21:E	_
+21	name	name	NOUN	NN	_	17	E	17:E	_
+22	by	by	ADP	IN	_	23	R	23:R	_
+23	Hunter	Hunter	PROPN	NNP	_	17	A	17:A	_
+24	S	s	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	.	.	PUNCT	.	_	23	U	23:U	_
+26	Thompson	Thompson	PROPN	NNP	_	23	Terminal	23:Terminal	_
+27	.	.	PUNCT	.	_	23	U	23:U	_
+

@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 486012
+# text = Even so , in 1997 , he received a Logie Award for " Most Popular Comedy Personality " for his work on the show .
+1	Even	even	ADV	RB	_	8	L	8:L	_
+2	so	so	ADV	RB	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	8	U	8:U	_
+4	in	in	ADP	IN	_	5	R	5:R	_
+5	1997	1997	NUM	CD	_	8	D	8:D	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	he	he	PRON	PRP	_	8	A	8:A	_
+8	received	receive	VERB	VBD	_	0	H	0:H	_
+9	a	a	DET	DT	_	11	E	11:E	_
+10	Logie	Logie	PROPN	NNP	_	11	E	11:E	_
+11	Award	Award	PROPN	NNP	_	8	A	8:A	_
+12	for	for	ADP	IN	_	17	R	17:R	_
+13	"	"	PUNCT	``	_	17	U	17:U	_
+14	Most	most	ADJ	JJS	_	15	E	15:E	_
+15	Popular	popular	ADJ	JJ	_	17	E	17:E	_
+16	Comedy	comedy	NOUN	NN	_	17	E	17:E	_
+17	Personality	personality	NOUN	NN	_	11	E	11:E	_
+18	"	"	PUNCT	''	_	8	U	8:U	_
+19	for	for	ADP	IN	_	21	R	21:R	_
+20	his	he	PRON	PRP$	_	21	A	21:A	_
+21	work	work	NOUN	NN	_	8	A	8:A	_
+22	on	on	ADP	IN	_	24	R	24:R	_
+23	the	the	DET	DT	_	24	E	24:E	_
+24	show	show	NOUN	NN	_	21	A	21:A	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

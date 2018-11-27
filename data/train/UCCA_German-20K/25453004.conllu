@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25453004
+# text = » Nun , hab' ich Sie überzeugt ? «
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Nun	nun	ADV	ADV	_	7	F	7:F	_
+3	,	,	PUNCT	$,	_	7	U	7:U	_
+4	hab'	hab'	PUNCT	$(	_	7	F	7:F	_
+5	ich	ich	PRON	PPER	_	7	A	7:A	_
+6	Sie	Sie|sie	PRON	PPER	_	7	A	7:A	_
+7	überzeugt	überzeugt	VERB	ADJD	_	0	H	0:H	_
+8	?	?	PUNCT	$.	_	7	U	7:U	_
+9	«	«	PUNCT	$(	_	7	U	7:U	_
+

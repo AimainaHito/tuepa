@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 149005
+# text = " She claimed not to know how Tracy felt about her and that they " just passed twenty - seven years [ sic ] together in what was to me absolute bliss . "
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	She	she	PRON	PRP	_	3	A	3:A|6:A	_
+3	claimed	claim	VERB	VBD	_	0	H	0:H	_
+4	not	not	ADV	RB	_	6	D	6:D	_
+5	to	to	PART	TO	_	6	F	6:F	_
+6	know	know	VERB	VB	_	3	A	3:A	_
+7	how	how	ADV	WRB	_	9	R	9:R	_
+8	Tracy	Tracy	PROPN	NNP	_	9	A	9:A	_
+9	felt	feel	VERB	VBD	_	6	A	6:A	_
+10	about	about	ADP	IN	_	11	R	11:R	_
+11	her	she	PRON	PRP	_	9	A	9:A	_
+12	and	and	CCONJ	CC	_	6	L	6:L	_
+13	that	that	SCONJ	IN	_	17	R	17:R	_
+14	they	they	PRON	PRP	_	17	A	17:A	_
+15	"	"	PUNCT	``	_	17	U	17:U	_
+16	just	just	ADV	RB	_	17	D	17:D	_
+17	passed	pass	VERB	VBD	_	6	H	6:H	_
+18	twenty	twenty	NUM	CD	_	21	E	21:E	_
+19	-	-	SYM	SYM	_	18	U	18:U	_
+20	seven	seven	NUM	CD	_	18	Terminal	18:Terminal	_
+21	years	year	NOUN	NNS	_	17	D	17:D	_
+22	[	[	PUNCT	-LRB-	_	17	U	17:U	_
+23	sic	sic	NOUN	NN	_	17	F	17:F	_
+24	]	]	PUNCT	-RRB-	_	17	U	17:U	_
+25	together	together	ADV	RB	_	17	D	17:D	_
+26	in	in	SCONJ	IN	_	32	R	32:R	_
+27	what	what	PRON	WP	_	32	F	32:F	_
+28	was	be	AUX	VBD	_	32	F	32:F	_
+29	to	to	ADP	IN	_	30	R	30:R	_
+30	me	I	PRON	PRP	_	32	A	32:A	_
+31	absolute	absolute	ADJ	JJ	_	32	D	32:D	_
+32	bliss	bliss	NOUN	NN	_	17	A	17:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+34	"	"	PUNCT	''	_	32	U	32:U	_
+

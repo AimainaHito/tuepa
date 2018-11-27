@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25623015
+# text = Die Natur hat die Gegenden , wo kein Getreide wächst , mit diesem nützlichen Nahrungs baum versehen , der ohne alle Pflege 8 Monate im Jahr seine Früchte spendet .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Natur	Natur	NOUN	NN	_	17	A	17:A	_
+3	hat	haben	AUX	VAFIN	_	17	F	17:F	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Gegenden	Gegend	NOUN	NN	_	17	A	17:A	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	wo	wo	ADV	ADJA	_	10	R	10:R	_
+8	kein	kein	PRON	PIAT	_	10	D	10:D	_
+9	Getreide	Getreide	NOUN	NN	_	10	A	10:A	_
+10	wächst	wachsen	VERB	ADV	_	5	E	5:E	_
+11	,	,	PUNCT	$,	_	17	U	17:U	_
+12	mit	mit	ADP	APPR	_	16	R	16:R	_
+13	diesem	dies	PRON	PDAT	_	16	E	16:E	_
+14	nützlichen	nützlichen	ADJ	ADJA	_	16	E	16:E	_
+15	Nahrungs	Nahrungs	NOUN	NN	_	16	E	16:E	_
+16	baum	baum	ADP	NE	_	17	A	17:A	_
+17	versehen	versehen	ADJ	ADJD	_	0	H	0:H	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	der	der	PRON	PRELS	_	29	R	29:R	_
+20	ohne	ohne	ADP	CARD	_	22	E	22:E	_
+21	alle	alle	PRON	PIAT	_	22	E	22:E	_
+22	Pflege	Pflege	NOUN	NN	_	29	A	29:A	_
+23	8	8	NUM	CARD	_	24	E	24:E	_
+24	Monate	Monat	NOUN	NN	_	29	D	29:D	_
+25	im	im	ADV	NE	_	26	R	26:R	_
+26	Jahr	Jahr	NOUN	NE	_	24	E	24:E	_
+27	seine	sein	DET	PPOSAT	_	28	E	28:E	_
+28	Früchte	Frucht	NOUN	NN	_	29	A	29:A	_
+29	spendet	spenden	VERB	VVFIN	_	16	E	16:E	_
+30	.	.	PUNCT	$.	_	29	U	29:U	_
+

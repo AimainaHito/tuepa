@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 662001
+# text = After Emotions failed to achieve the commercial heights of her debut album , Carey and Columbia came to the agreement that the next album would contain a more pop influenced sound , in order to appeal to a wider audience .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	Emotions	emotion	NOUN	NNS	_	5	A	5:A	_
+3	failed	fail	VERB	VBD	_	5	D	5:D	_
+4	to	to	PART	TO	_	5	F	5:F	_
+5	achieve	achieve	VERB	VB	_	0	H	0:H	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	commercial	commercial	ADJ	JJ	_	8	E	8:E	_
+8	heights	height	NOUN	NNS	_	5	A	5:A	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	her	she	PRON	PRP$	_	12	E	12:E	_
+11	debut	debut	NOUN	NN	_	12	E	12:E	_
+12	album	album	NOUN	NN	_	8	E	8:E	_
+13	,	,	PUNCT	,	_	5	U	5:U	_
+14	Carey	Carey	PROPN	NNP	_	20	A	20:A	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	Columbia	Columbia	PROPN	NNP	_	14	C	14:C	_
+17	came	come	VERB	VBD	_	20	D	20:D	_
+18	to	to	ADP	IN	_	20	F	20:F	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	agreement	agreement	NOUN	NN	_	5	H	5:H	_
+21	that	that	SCONJ	IN	_	26	F	26:F	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	next	next	ADJ	JJ	_	24	E	24:E	_
+24	album	album	NOUN	NN	_	0	C	0:C|36:A	_
+25	would	would	AUX	MD	_	26	F	26:F	_
+26	contain	contain	VERB	VB	_	20	A	20:A	_
+27	a	a	DET	DT	_	31	E	31:E	_
+28	more	more	ADV	RBR	_	31	E	31:E	_
+29	pop	pop	ADJ	JJ	_	30	E	30:E	_
+30	influenced	influence	VERB	VBN	_	31	E	31:E	_
+31	sound	sound	NOUN	NN	_	26	A	26:A	_
+32	,	,	PUNCT	,	_	5	U	5:U	_
+33	in	in	ADP	IN	_	5	L	5:L	_
+34	order	order	NOUN	NN	_	33	Terminal	33:Terminal	_
+35	to	to	PART	TO	_	33	Terminal	33:Terminal	_
+36	appeal	appeal	VERB	VB	_	5	H	5:H	_
+37	to	to	ADP	IN	_	36	R	36:R	_
+38	a	a	DET	DT	_	40	E	40:E	_
+39	wider	wider	ADJ	JJR	_	40	E	40:E	_
+40	audience	audience	NOUN	NN	_	36	A	36:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

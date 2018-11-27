@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 725003
+# text = " She separated from Miller and moved to New York , where she enrolled at New York University to study filmmaking and attend writing classes ; she later described it as " just good for me to collect myself .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	She	she	PRON	PRP	_	3	A	3:A|7:A	_
+3	separated	separate	VERB	VBD	_	0	H	0:H	_
+4	from	from	ADP	IN	_	5	R	5:R	_
+5	Miller	Miller	PROPN	NNP	_	3	A	3:A	_
+6	and	and	CCONJ	CC	_	3	L	3:L	_
+7	moved	move	VERB	VBD	_	3	H	3:H	_
+8	to	to	ADP	IN	_	7	R	7:R	_
+9	New	New	PROPN	NNP	_	7	A	7:A	_
+10	York	York	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	3	U	3:U	_
+12	where	where	ADV	WRB	_	3	L	3:L	_
+13	she	she	PRON	PRP	_	14	A	14:A|23:A|20:A	_
+14	enrolled	enrol	VERB	VBD	_	3	H	3:H	_
+15	at	at	ADP	IN	_	14	R	14:R	_
+16	New	New	PROPN	NNP	_	18	E	18:E	_
+17	York	York	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	University	University	PROPN	NNP	_	14	A	14:A	_
+19	to	to	PART	TO	_	3	L	3:L	_
+20	study	study	VERB	VB	_	3	H	3:H	_
+21	filmmaking	filmmak	VERB	VBG	_	20	A	20:A	_
+22	and	and	CCONJ	CC	_	3	L	3:L	_
+23	attend	attend	VERB	VB	_	3	H	3:H	_
+24	writing	write	VERB	VBG	_	25	E	25:E	_
+25	classes	class	NOUN	NNS	_	23	A	23:A	_
+26	;	;	PUNCT	,	_	3	U	3:U	_
+27	she	she	PRON	PRP	_	29	A	29:A	_
+28	later	later	ADV	RB	_	29	D	29:D	_
+29	described	describe	VERB	VBD	_	3	H	3:H	_
+30	it	it	PRON	PRP	_	29	A	29:A	_
+31	as	as	ADP	IN	_	38	R	38:R	_
+32	"	"	PUNCT	``	_	38	U	38:U	_
+33	just	just	ADV	RB	_	34	E	34:E	_
+34	good	good	ADJ	JJ	_	38	D	38:D	_
+35	for	for	SCONJ	IN	_	36	R	36:R	_
+36	me	I	PRON	PRP	_	38	A	38:A	_
+37	to	to	PART	TO	_	38	F	38:F	_
+38	collect	collect	VERB	VB	_	29	A	29:A	_
+39	myself	myself	PRON	PRP	_	38	D	38:D	_
+40	.	.	PUNCT	.	_	38	U	38:U	_
+

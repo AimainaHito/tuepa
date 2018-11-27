@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 25440015
+# text = Da kann man sich denken , wie an Bord der ›Abraham Lincoln‹ sich die Augen abmühten !
+1	Da	da	ADV	ADV	_	4	D	4:D	_
+2	kann	können	AUX	VMFIN	_	4	D	4:D	_
+3	man	man	PRON	PIS	_	4	A	4:A	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	denken	denken	VERB	VVFIN	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	wie	wie	SCONJ	KON	_	13	R	13:R	_
+8	an	an	ADP	APPR	_	9	E	9:E	_
+9	Bord	Bord	NOUN	NN	_	11	E	11:E	_
+10	der	der	DET	ART	_	9	R	9:R	_
+11	›Abraham	›Abraham	PROPN	NN	_	13	A	13:A	_
+12	Lincoln‹	Lincoln‹	NOUN	NE	_	11	Terminal	11:Terminal	_
+13	sich	er|es|sie	PRON	PRF	_	4	A	4:A	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Augen	Auge	NOUN	NN	_	13	A	13:A	_
+16	abmühten	abmühen	VERB	VVFIN	_	13	Terminal	13:Terminal	_
+17	!	!	PUNCT	$.	_	13	U	13:U	_
+

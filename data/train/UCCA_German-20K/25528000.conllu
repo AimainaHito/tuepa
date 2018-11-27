@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 25528000
+# text = Freund Ned , Sie sind ein sehr geschickter Fischer , verstehen diese Tiere zu töten . Sie haben sie in großer Menge gefangen , aber wie man sie einteilt , wissen Sie wohl nicht . «
+1	Freund	Freund	ADJ	NE	_	2	E	2:E	_
+2	Ned	Ned	NOUN	NE	_	5	G	5:G	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	Sie	Sie|sie	PRON	PPER	_	5	A	5:A|15:A	_
+5	sind	sein	AUX	NN	_	0	H	0:H	_
+6	ein	ein	DET	ART	_	9	E	9:E	_
+7	sehr	sehr	ADV	NE	_	8	E	8:E	_
+8	geschickter	geschickt	ADJ	ADJA	_	9	E	9:E	_
+9	Fischer	Fischer	NOUN	NE	_	5	A	5:A	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	verstehen	verstehen	VERB	VVFIN	_	15	D	15:D	_
+12	diese	dies	PRON	PDAT	_	13	E	13:E	_
+13	Tiere	Tier	NOUN	NN	_	15	A	15:A	_
+14	zu	zu	PART	VVINF	_	15	F	15:F	_
+15	töten	töten	VERB	VVINF	_	5	H	5:H	_
+16	.	.	PUNCT	$.	_	5	U	5:U	_
+17	Sie	Sie|sie	PRON	PPER	_	23	A	23:A	_
+18	haben	haben	AUX	VAFIN	_	23	F	23:F	_
+19	sie	sie	PRON	ADV	_	23	A	23:A	_
+20	in	in	ADP	APPR	_	22	R	22:R	_
+21	großer	groß	ADJ	ADJA	_	22	E	22:E	_
+22	Menge	Menge	NOUN	NN	_	23	A	23:A	_
+23	gefangen	gefangen	VERB	VVPP	_	5	H	5:H	_
+24	,	,	PUNCT	$,	_	5	U	5:U	_
+25	aber	aber	CCONJ	KON	_	5	L	5:L	_
+26	wie	wie	SCONJ	ADV	_	29	D	29:D	_
+27	man	man	PRON	PIS	_	29	A	29:A	_
+28	sie	sie	PRON	ADV	_	29	A	29:A	_
+29	einteilt	einteilen	VERB	VVPP	_	31	A	31:A	_
+30	,	,	PUNCT	$,	_	31	U	31:U	_
+31	wissen	wissen	VERB	VVFIN	_	5	H	5:H	_
+32	Sie	Sie|sie	PRON	PPER	_	31	A	31:A	_
+33	wohl	wohl	ADV	ADV	_	31	G	31:G	_
+34	nicht	nicht	PART	CARD	_	31	D	31:D	_
+35	.	.	PUNCT	$.	_	31	U	31:U	_
+36	«	«	PUNCT	$(	_	31	U	31:U	_
+

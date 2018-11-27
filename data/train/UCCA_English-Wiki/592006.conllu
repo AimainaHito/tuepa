@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 592006
+# text = After months of media speculation , Depp and Paradis announced their separation in June 2012 .
+1	After	after	SCONJ	IN	_	5	L	5:L	_
+2	months	month	NOUN	NNS	_	5	D	5:D	_
+3	of	of	ADP	IN	_	2	F	2:F	_
+4	media	media	NOUN	NN	_	5	A	5:A	_
+5	speculation	speculation	NOUN	NN	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	Depp	Depp	PROPN	NNP	_	10	A	10:A	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	Paradis	Paradis	PROPN	NNP	_	7	C	7:C	_
+10	announced	announce	VERB	VBD	_	5	H	5:H	_
+11	their	they	PRON	PRP$	_	12	A	12:A	_
+12	separation	separation	NOUN	NN	_	10	A	10:A	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	June	June	PROPN	NNP	_	10	D	10:D	_
+15	2012	2012	NUM	CD	_	14	Terminal	14:Terminal	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

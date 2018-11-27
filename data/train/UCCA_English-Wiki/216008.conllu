@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 216008
+# text = " Peter Stack of the San Francisco Chronicle , despite giving the film an unfavorable review , commended Dunst for her willingness " to be as silly and cloyingly agreeable as it takes to get through a slapdash film . "
+1	"	"	PUNCT	``	_	18	U	18:U	_
+2	Peter	Peter	PROPN	NNP	_	0	C	0:C|18:A	_
+3	Stack	Stack	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	of	of	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	San	San	PROPN	NNP	_	8	E	8:E	_
+7	Francisco	Francisco	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	Chronicle	Chronicle	PROPN	NNP	_	2	E	2:E	_
+9	,	,	PUNCT	,	_	11	U	11:U	_
+10	despite	despite	SCONJ	IN	_	11	L	11:L	_
+11	giving	give	VERB	VBG	_	0	H	0:H	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	film	film	NOUN	NN	_	11	A	11:A	_
+14	an	a	DET	DT	_	16	E	16:E	_
+15	unfavorable	unfavorable	ADJ	JJ	_	16	E	16:E	_
+16	review	review	NOUN	NN	_	11	A	11:A	_
+17	,	,	PUNCT	,	_	11	U	11:U	_
+18	commended	commended	VERB	VBN	_	11	H	11:H	_
+19	Dunst	Dunst	PROPN	NNP	_	18	A	18:A|35:A	_
+20	for	for	ADP	IN	_	22	R	22:R	_
+21	her	she	PRON	PRP$	_	22	A	22:A	_
+22	willingness	willingness	NOUN	NN	_	18	A	18:A	_
+23	"	"	PUNCT	''	_	22	U	22:U	_
+24	to	to	PART	TO	_	25	F	25:F	_
+25	be	be	AUX	VB	_	22	A	22:A	_
+26	as	as	ADP	IN	_	27	R	27:R	_
+27	silly	silly	ADV	RB	_	25	A	25:A	_
+28	and	and	CCONJ	CC	_	27	N	27:N	_
+29	cloyingly	cloyingly	ADV	RB	_	30	E	30:E	_
+30	agreeable	agreeable	ADJ	JJ	_	27	C	27:C	_
+31	as	as	SCONJ	IN	_	33	R	33:R	_
+32	it	it	PRON	PRP	_	33	F	33:F	_
+33	takes	take	VERB	VBZ	_	25	A	25:A	_
+34	to	to	PART	TO	_	22	L	22:L	_
+35	get	get	VERB	VB	_	22	H	22:H	_
+36	through	through	ADP	IN	_	35	Terminal	35:Terminal	_
+37	a	a	DET	DT	_	39	E	39:E	_
+38	slapdash	slapdash	ADJ	JJ	_	39	E	39:E	_
+39	film	film	NOUN	NN	_	35	A	35:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+41	"	"	PUNCT	''	_	39	U	39:U	_
+

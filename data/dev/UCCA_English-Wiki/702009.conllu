@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 702009
+# text = A live double album of the tour , Before the Flood , was released on Asylum Records .
+1	A	a	DET	DT	_	9	E	9:E	_
+2	live	live	ADJ	JJ	_	9	E	9:E	_
+3	double	double	ADJ	JJ	_	4	E	4:E	_
+4	album	album	NOUN	NN	_	9	E	9:E	_
+5	of	of	ADP	IN	_	7	R	7:R	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	tour	tour	NOUN	NN	_	9	E	9:E	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	Before	before	SCONJ	IN	_	14	A	14:A	_
+10	the	the	DET	DT	_	9	Terminal	9:Terminal	_
+11	Flood	flood	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	14	U	14:U	_
+13	was	be	AUX	VBD	_	14	F	14:F	_
+14	released	release	VERB	VBN	_	0	H	0:H	_
+15	on	on	ADP	IN	_	17	R	17:R	_
+16	Asylum	Asylum	PROPN	NNP	_	17	E	17:E	_
+17	Records	Record	NOUN	NNS	_	14	A	14:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

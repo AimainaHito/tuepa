@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25489075
+# text = Das war völlig der Wahrheit gemäß , aber wir hatten 's fast vergessen .
+1	Das	der	PRON	ART	_	6	A	6:A	_
+2	war	sein	AUX	ADV	_	6	F	6:F	_
+3	völlig	völlig	ADJ	ADJD	_	6	D	6:D	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Wahrheit	Wahrheit	NOUN	NN	_	6	A	6:A	_
+6	gemäß	gemäß	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	aber	aber	CCONJ	KON	_	6	L	6:L	_
+9	wir	wir	PRON	NE	_	13	A	13:A	_
+10	hatten	haben	VERB	VAFIN	_	13	F	13:F	_
+11	's	es	PRON	PPER	_	13	A	13:A	_
+12	fast	fast	ADV	ADV	_	13	D	13:D	_
+13	vergessen	vergessen	VERB	VVPP	_	6	H	6:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25419001
+# text = Es bekam also die Idee eines » Ungeheuers « die Oberhand , trotz der unablässigen Späße , womit die kleine Presse sie verfolgte ; und auf diesem Weg ließ sich die Phantasie bald zu den lächerlichsten Träumen einer phantastischen Ichthyologie verleiten .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	bekam	bekommen	VERB	VVFIN	_	0	H	0:H	_
+3	also	also	ADV	ADV	_	2	D	2:D	_
+4	die	der	DET	ART	_	5	E	5:E	_
+5	Idee	Idee	NOUN	NN	_	2	A	2:A	_
+6	eines	ein	DET	ART	_	8	R	8:R	_
+7	»	»	PUNCT	$(	_	8	U	8:U	_
+8	Ungeheuers	Ungeheuer	NOUN	NN	_	5	E	5:E	_
+9	«	«	PUNCT	$(	_	2	U	2:U	_
+10	die	der	DET	ART	_	2	Terminal	2:Terminal	_
+11	Oberhand	Oberhand	NOUN	NN	_	2	Terminal	2:Terminal	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	trotz	trotz	ADP	APPR	_	2	L	2:L	_
+14	der	der	DET	ART	_	16	R	16:R	_
+15	unablässigen	unablässig	ADJ	ADJA	_	2	H	2:H	_
+16	Späße	Späß	NOUN	NN	_	15	A	15:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	womit	womit	PRON	VVFIN	_	23	R	23:R	_
+19	die	der	DET	ART	_	21	E	21:E	_
+20	kleine	klein	ADJ	ADJA	_	21	E	21:E	_
+21	Presse	Presse	NOUN	NN	_	23	A	23:A	_
+22	sie	sie	PRON	ADV	_	23	A	23:A	_
+23	verfolgte	verfolgen	VERB	VVFIN	_	16	E	16:E	_
+24	;	;	PUNCT	$.	_	2	U	2:U	_
+25	und	und	CCONJ	NE	_	2	L	2:L	_
+26	auf	auf	ADP	APPR	_	28	R	28:R	_
+27	diesem	dies	PRON	PDAT	_	28	E	28:E	_
+28	Weg	Weg	NOUN	NN	_	30	A	30:A	_
+29	ließ	lassen	VERB	VVFIN	_	30	D	30:D	_
+30	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+31	die	der	DET	ART	_	32	E	32:E	_
+32	Phantasie	Phantasie	NOUN	NN	_	30	A	30:A	_
+33	bald	bald	ADV	ADV	_	30	D	30:D	_
+34	zu	zu	ADP	VVINF	_	37	R	37:R	_
+35	den	der	DET	ART	_	37	E	37:E	_
+36	lächerlichsten	lächerlich	ADJ	NN	_	37	E	37:E	_
+37	Träumen	Träumen	NOUN	NN	_	30	A	30:A	_
+38	einer	ein	DET	ART	_	40	R	40:R	_
+39	phantastischen	phantastisch	ADJ	ADJA	_	40	E	40:E	_
+40	Ichthyologie	Ichthyologie	NOUN	NN	_	37	E	37:E	_
+41	verleiten	verleiten	VERB	VVINF	_	30	Terminal	30:Terminal	_
+42	.	.	PUNCT	$.	_	30	U	30:U	_
+

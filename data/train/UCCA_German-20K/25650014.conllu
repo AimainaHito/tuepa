@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 25650014
+# text = Ich weiß nicht , warum ich einen gewissen Zusammenhang zwischen dieser Krankheit eines Mannes von der Besatzung und dem sah , was gestern sich begeben hatte ; und dies Geheimnis beschäftigte meine Gedanken wenigstens ebenso wie der Kranke .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	weiß	wissen	VERB	VVFIN	_	0	H	0:H	_
+3	nicht	nicht	PART	CARD	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	warum	warum	SCONJ	NE	_	20	A	20:A	_
+6	ich	ich	PRON	PPER	_	20	A	20:A	_
+7	einen	ein	DET	ART	_	9	E	9:E	_
+8	gewissen	gewiß	ADJ	ADJA	_	9	E	9:E	_
+9	Zusammenhang	Zusammenhang	NOUN	NN	_	20	A	20:A	_
+10	zwischen	zwischen	ADP	ADJA	_	12	N	12:N	_
+11	dieser	dies	PRON	PDAT	_	12	E	12:E	_
+12	Krankheit	Krankheit	NOUN	NN	_	9	E	9:E	_
+13	eines	ein	DET	ART	_	14	R	14:R	_
+14	Mannes	Mann	NOUN	NN	_	12	E	12:E	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	der	der	DET	ART	_	17	E	17:E	_
+17	Besatzung	Besatzung	NOUN	NN	_	14	E	14:E	_
+18	und	und	CCONJ	NE	_	12	N	12:N	_
+19	dem	der	PRON	ART	_	12	C	12:C	_
+20	sah	sehen	VERB	VVFIN	_	2	A	2:A	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	was	was	PRON	NE	_	24	A	24:A	_
+23	gestern	gestern	VERB	ADV	_	24	D	24:D	_
+24	sich	er|es|sie	PRON	PRF	_	19	E	19:E	_
+25	begeben	begeben	VERB	VVPP	_	24	Terminal	24:Terminal	_
+26	hatte	haben	AUX	VAFIN	_	24	F	24:F	_
+27	;	;	PUNCT	$.	_	2	U	2:U	_
+28	und	und	CCONJ	NE	_	2	L	2:L	_
+29	dies	dies	PRON	PDS	_	30	E	30:E	_
+30	Geheimnis	Geheimnis	NOUN	NN	_	31	A	31:A	_
+31	beschäftigte	beschäftigen	VERB	VVFIN	_	2	H	2:H	_
+32	meine	mein	DET	PPOSAT	_	33	E	33:E	_
+33	Gedanken	Gedanke	NOUN	NN	_	31	A	31:A	_
+34	wenigstens	wenigstens	ADV	ADV	_	31	D	31:D	_
+35	ebenso	ebenso	ADV	ADV	_	31	D	31:D	_
+36	wie	wie	ADP	KON	_	38	R	38:R	_
+37	der	der	DET	ART	_	38	E	38:E	_
+38	Kranke	Kranke	NOUN	NN	_	31	A	31:A	_
+39	.	.	PUNCT	$.	_	38	U	38:U	_
+

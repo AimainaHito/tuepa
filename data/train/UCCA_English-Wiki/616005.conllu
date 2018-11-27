@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 616005
+# text = McCartney later purchased works by Magritte , using his painting of an apple for the Apple Records logo .
+1	McCartney	McCartney	PROPN	NNP	_	3	A	3:A|8:A	_
+2	later	later	ADV	RB	_	3	D	3:D	_
+3	purchased	purchase	VERB	VBN	_	0	H	0:H	_
+4	works	work	NOUN	NNS	_	3	A	3:A	_
+5	by	by	ADP	IN	_	6	R	6:R	_
+6	Magritte	Magritte	PROPN	NNP	_	4	E	4:E	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	using	use	VERB	VBG	_	3	H	3:H	_
+9	his	he	PRON	PRP$	_	10	E	10:E	_
+10	painting	painting	NOUN	NN	_	8	A	8:A	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	an	a	DET	DT	_	13	E	13:E	_
+13	apple	apple	NOUN	NN	_	10	E	10:E	_
+14	for	for	ADP	IN	_	18	R	18:R	_
+15	the	the	DET	DT	_	18	E	18:E	_
+16	Apple	Apple	PROPN	NNP	_	18	E	18:E	_
+17	Records	records	PROPN	NNPS	_	16	Terminal	16:Terminal	_
+18	logo	logo	NOUN	NN	_	8	A	8:A	_
+19	.	.	PUNCT	.	_	18	U	18:U	_
+

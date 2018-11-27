@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25636000
+# text = Wir fingen also an , eifrig zu fischen , und waren eben darin versunken , die heraufgebrachten Gegenstände zu untersuchen , als ein von einem Eingeborenen geschleuderter Stein eine kostbare Muschel in der Hand Conseils zerschmetterte .
+1	Wir	wir	PRON	NE	_	8	A	8:A|14:A|20:A	_
+2	fingen	fangen	VERB	VVFIN	_	8	D	8:D	_
+3	also	also	ADV	ADV	_	8	L	8:L	_
+4	an	an	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+5	,	,	PUNCT	$,	_	8	U	8:U	_
+6	eifrig	eifrig	ADJ	NN	_	8	D	8:D	_
+7	zu	zu	PART	NN	_	8	F	8:F	_
+8	fischen	fischen	VERB	ADJA	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	und	und	CCONJ	NE	_	8	L	8:L	_
+11	waren	sein	AUX	VAFIN	_	14	F	14:F	_
+12	eben	eben	ADV	ADV	_	14	D	14:D	_
+13	darin	darin	PRON	PAV	_	20	F	20:F	_
+14	versunken	versunken	VERB	VVINF	_	8	H	8:H	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	die	der	DET	PRELS	_	18	E	18:E	_
+17	heraufgebrachten	heraufgebracht	ADJ	ADJA	_	18	E	18:E	_
+18	Gegenstände	Gegenstand	NOUN	NN	_	20	A	20:A	_
+19	zu	zu	PART	NN	_	20	F	20:F	_
+20	untersuchen	untersuchen	VERB	ADJA	_	14	A	14:A	_
+21	,	,	PUNCT	$,	_	8	U	8:U	_
+22	als	als	SCONJ	KOUS	_	8	L	8:L	_
+23	ein	ein	DET	ART	_	28	E	28:E	_
+24	von	von	ADP	NN	_	26	R	26:R	_
+25	einem	ein	DET	ART	_	26	E	26:E	_
+26	Eingeborenen	eingeboren	NOUN	ADJA	_	27	A	27:A	_
+27	geschleuderter	geschleuderter	ADJ	ADJA	_	28	E	28:E	_
+28	Stein	Stein	NOUN	NN	_	36	A	36:A	_
+29	eine	ein	DET	ART	_	31	E	31:E	_
+30	kostbare	kostbar	ADJ	ADJA	_	31	E	31:E	_
+31	Muschel	Muschel	NOUN	NN	_	36	A	36:A	_
+32	in	in	ADP	APPR	_	34	R	34:R	_
+33	der	der	DET	ART	_	34	E	34:E	_
+34	Hand	Hand	NOUN	NN	_	36	A	36:A	_
+35	Conseils	Conseils	PROPN	ADV	_	34	E	34:E	_
+36	zerschmetterte	zerschmetteren	VERB	VVFIN	_	8	H	8:H	_
+37	.	.	PUNCT	$.	_	36	U	36:U	_
+

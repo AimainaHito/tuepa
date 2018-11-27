@@ -1,0 +1,40 @@
+# format = ucca
+# sent_id = 533004
+# text = She married her fifth and final husband , musician Mickey Deans , at Chelsea Register Office , London , on March 15 , 1969 , her divorce from Herron having been finalized on February 11 .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	married	marry	VERB	VBD	_	0	H	0:H	_
+3	her	she	PRON	PRP$	_	7	E	7:E	_
+4	fifth	fifth	ADJ	JJ	_	7	E	7:E	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	final	final	ADJ	JJ	_	4	C	4:C	_
+7	husband	husband	NOUN	NN	_	10	E	10:E	_
+8	,	,	PUNCT	,	_	10	U	10:U	_
+9	musician	musician	NOUN	NN	_	10	E	10:E	_
+10	Mickey	Mickey	PROPN	NNP	_	2	A	2:A	_
+11	Deans	Deans	PROPN	NNPS	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	at	at	ADP	IN	_	16	R	16:R	_
+14	Chelsea	Chelsea	PROPN	NNP	_	16	E	16:E	_
+15	Register	Register	PROPN	NNP	_	16	E	16:E	_
+16	Office	Office	PROPN	NNP	_	2	A	2:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	London	London	PROPN	NNP	_	16	E	16:E	_
+19	,	,	PUNCT	,	_	2	U	2:U	_
+20	on	on	ADP	IN	_	21	R	21:R	_
+21	March	March	PROPN	NNP	_	2	D	2:D	_
+22	15	15	NUM	CD	_	21	Terminal	21:Terminal	_
+23	,	,	PUNCT	,	_	21	U	21:U	_
+24	1969	1969	NUM	CD	_	21	Terminal	21:Terminal	_
+25	,	,	PUNCT	,	_	2	U	2:U	_
+26	her	she	PRON	PRP$	_	27	A	27:A	_
+27	divorce	divorce	NOUN	NN	_	32	A	32:A	_
+28	from	from	ADP	IN	_	29	R	29:R	_
+29	Herron	Herron	PROPN	NNP	_	27	A	27:A	_
+30	having	have	AUX	VBG	_	32	F	32:F	_
+31	been	be	AUX	VBN	_	32	F	32:F	_
+32	finalized	finalize	VERB	VBN	_	2	H	2:H	_
+33	on	on	ADP	IN	_	34	R	34:R	_
+34	February	February	PROPN	NNP	_	32	D	32:D	_
+35	11	11	NUM	CD	_	34	Terminal	34:Terminal	_
+36	.	.	PUNCT	.	_	34	U	34:U	_
+

@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25730010
+# text = Er fragte mich sehr höflich , ob ich mich von dem Wachen in der vorigen Nacht ermüdet fühle .
+1	Er	er	PRON	PPER	_	2	A	2:A	_
+2	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+3	mich	ich	PRON	PPER	_	2	A	2:A	_
+4	sehr	sehr	ADV	NE	_	5	E	5:E	_
+5	höflich	höflich	ADJ	ADJD	_	2	D	2:D	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	ob	ob	SCONJ	VVFIN	_	9	R	9:R	_
+8	ich	ich	PRON	PPER	_	9	A	9:A|17:A	_
+9	mich	ich	PRON	PRF	_	2	A	2:A	_
+10	von	von	ADP	NN	_	12	R	12:R	_
+11	dem	der	DET	ART	_	12	E	12:E	_
+12	Wachen	Wachen	NOUN	NN	_	9	A	9:A	_
+13	in	in	ADP	APPR	_	16	R	16:R	_
+14	der	der	DET	ART	_	16	E	16:E	_
+15	vorigen	vorig	ADJ	ADJA	_	16	E	16:E	_
+16	Nacht	Nacht	NOUN	NN	_	12	A	12:A	_
+17	ermüdet	ermüden	VERB	VVPP	_	9	A	9:A	_
+18	fühle	fühlen	VERB	VVFIN	_	9	Terminal	9:Terminal	_
+19	.	.	PUNCT	$.	_	9	U	9:U	_
+

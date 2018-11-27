@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 585008
+# text = He has been listed in the 2012 Guinness Book of World Records as the highest paid actor , with $ 75million .
+1	He	he	PRON	PRP	_	4	A	4:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	been	be	AUX	VBN	_	4	F	4:F	_
+4	listed	list	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	8	R	8:R	_
+6	the	the	DET	DT	_	8	E	8:E	_
+7	2012	2012	NUM	CD	_	8	E	8:E	_
+8	Guinness	Guinness	PROPN	NNP	_	4	A	4:A	_
+9	Book	Book	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	of	of	ADP	IN	_	8	Terminal	8:Terminal	_
+11	World	World	PROPN	NNP	_	8	Terminal	8:Terminal	_
+12	Records	Record	NOUN	NNS	_	8	Terminal	8:Terminal	_
+13	as	as	ADP	IN	_	17	R	17:R	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	highest	highest	ADJ	JJS	_	16	E	16:E	_
+16	paid	pay	VERB	VBN	_	17	E	17:E	_
+17	actor	actor	NOUN	NN	_	4	A	4:A	_
+18	,	,	PUNCT	,	_	17	U	17:U	_
+19	with	with	ADP	IN	_	21	R	21:R	_
+20	$	$	SYM	$	_	21	U	21:U	_
+21	75million	75million	NUM	CD	_	17	E	17:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

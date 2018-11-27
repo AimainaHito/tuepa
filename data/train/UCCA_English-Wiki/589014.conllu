@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 589014
+# text = Depp plans to star as Carl Kolchak in the project Night Stalker , and has bought rights to the comic book The Vault .
+1	Depp	Depp	ADJ	JJ	_	2	A	2:A|4:A|16:A	_
+2	plans	plan	NOUN	NNS	_	0	H	0:H	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	star	star	VERB	VB	_	2	A	2:A	_
+5	as	as	ADP	IN	_	6	R	6:R	_
+6	Carl	Carl	PROPN	NNP	_	4	A	4:A	_
+7	Kolchak	Kolchak	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	in	in	ADP	IN	_	11	R	11:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	project	project	NOUN	NN	_	11	E	11:E	_
+11	Night	night	NOUN	NN	_	4	A	4:A	_
+12	Stalker	Stalker	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	2	U	2:U	_
+14	and	and	CCONJ	CC	_	2	L	2:L	_
+15	has	have	AUX	VBZ	_	16	F	16:F	_
+16	bought	buy	VERB	VBN	_	2	H	2:H	_
+17	rights	rights	NOUN	NNS	_	16	A	16:A	_
+18	to	to	ADP	IN	_	22	R	22:R	_
+19	the	the	DET	DT	_	21	E	21:E	_
+20	comic	comic	ADJ	JJ	_	21	E	21:E	_
+21	book	book	NOUN	NN	_	22	E	22:E	_
+22	The	the	DET	DT	_	17	E	17:E	_
+23	Vault	Vault	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	.	.	PUNCT	.	_	22	U	22:U	_
+

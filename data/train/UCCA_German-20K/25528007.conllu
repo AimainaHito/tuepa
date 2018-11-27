@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25528007
+# text = » Schmeckt ziemlich gut « , erwiderte Ned Land .
+1	»	»	PUNCT	$(	_	7	U	7:U	_
+2	Schmeckt	schmecken	ADJ	VVFIN	_	7	A	7:A	_
+3	ziemlich	ziemlich	ADV	ADV	_	4	E	4:E	_
+4	gut	gut	ADJ	ADJD	_	2	D	2:D	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+8	Ned	Ned	PROPN	NN	_	7	A	7:A	_
+9	Land	Land	NOUN	NN	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	$.	_	7	U	7:U	_
+

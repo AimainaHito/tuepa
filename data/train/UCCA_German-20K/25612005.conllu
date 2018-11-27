@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25612005
+# text = Doch ließen sie sich am 26 . durch Geschenke und beruhigende Versicherungen bestimmen , den Unter befehlshaber Jacquinot auf die Stätte des Schiff bruchs zu führen .
+1	Doch	doch	ADV	KON	_	4	L	4:L	_
+2	ließen	lassen	VERB	VVFIN	_	4	D	4:D	_
+3	sie	sie	PRON	ADV	_	4	A	4:A|26:A	_
+4	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+5	am	am	ADV	ADJD	_	6	E	6:E	_
+6	26	26	NUM	CARD	_	4	D	4:D	_
+7	.	.	PUNCT	$.	_	4	U	4:U	_
+8	durch	durch	ADP	APPR	_	9	R	9:R	_
+9	Geschenke	Geschenk	NOUN	NN	_	4	A	4:A	_
+10	und	und	CCONJ	NN	_	9	N	9:N	_
+11	beruhigende	beruhigend	ADJ	ADJA	_	12	E	12:E	_
+12	Versicherungen	Versicherung	NOUN	NN	_	9	C	9:C	_
+13	bestimmen	bestimmen	VERB	VVINF	_	4	Terminal	4:Terminal	_
+14	,	,	PUNCT	$,	_	4	U	4:U	_
+15	den	der	DET	ART	_	18	E	18:E	_
+16	Unter	unter	NOUN	NN	_	17	E	17:E	_
+17	befehlshaber	befehlshaber	ADP	NN	_	18	E	18:E	_
+18	Jacquinot	Jacquinot	NOUN	NN	_	26	A	26:A	_
+19	auf	auf	ADP	APPR	_	21	R	21:R	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Stätte	Stätte	NOUN	NN	_	26	A	26:A	_
+22	des	der	DET	ART	_	24	R	24:R	_
+23	Schiff	Schiff	NOUN	NN	_	24	E	24:E	_
+24	bruchs	brachsen	VERB	VVFIN	_	21	E	21:E	_
+25	zu	zu	PART	VVINF	_	26	F	26:F	_
+26	führen	führen	VERB	VVINF	_	4	A	4:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

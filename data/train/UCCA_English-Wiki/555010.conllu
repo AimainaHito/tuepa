@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 555010
+# text = Enrolled at Humes High School , Presley received only a C in music in eighth grade .
+1	Enrolled	enrol	VERB	VBN	_	0	H	0:H	_
+2	at	at	ADP	IN	_	4	E	4:E	_
+3	Humes	Humes	PROPN	NNP	_	4	E	4:E	_
+4	High	High	PROPN	NNP	_	1	A	1:A	_
+5	School	School	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	1	U	1:U	_
+7	Presley	Presley	PROPN	NNP	_	8	A	8:A|1:A	_
+8	received	receive	VERB	VBD	_	1	H	1:H	_
+9	only	only	ADV	RB	_	11	E	11:E	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	C	c	NOUN	NN	_	8	A	8:A	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	music	music	NOUN	NN	_	11	E	11:E	_
+14	in	in	ADP	IN	_	16	R	16:R	_
+15	eighth	eighth	ADJ	JJ	_	16	E	16:E	_
+16	grade	grade	NOUN	NN	_	8	A	8:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

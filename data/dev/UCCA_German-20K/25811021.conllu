@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25811021
+# text = Ohne ein Wort zu reden , vielleicht ohne uns zu sehen , trat er ans Fenster , besah die Polypen und sagte einige Worte zu seinem Lieutenant .
+1	Ohne	ohne	ADP	NE	_	5	L	5:L	_
+2	ein	ein	DET	ART	_	3	E	3:E	_
+3	Wort	Wort	NOUN	NN	_	5	A	5:A	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	reden	reden	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	vielleicht	vielleicht	ADV	NE	_	11	G	11:G	_
+8	ohne	ohne	ADP	NE	_	5	L	5:L	_
+9	uns	wir	PRON	NE	_	11	A	11:A	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	sehen	sehen	VERB	VVINF	_	5	H	5:H	_
+12	,	,	PUNCT	$,	_	5	U	5:U	_
+13	trat	treten	VERB	VVFIN	_	5	H	5:H	_
+14	er	er	PRON	PPER	_	13	A	13:A|22:A|18:A	_
+15	ans	ans	ADP	NE	_	16	R	16:R	_
+16	Fenster	Fenster	NOUN	NN	_	13	A	13:A	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	besah	besehen	VERB	VVFIN	_	5	H	5:H	_
+19	die	der	DET	ART	_	20	E	20:E	_
+20	Polypen	Polyp	NOUN	NN	_	18	A	18:A	_
+21	und	und	CCONJ	NE	_	5	L	5:L	_
+22	sagte	sagen	VERB	VVFIN	_	5	H	5:H	_
+23	einige	einige	PRON	PIAT	_	24	E	24:E	_
+24	Worte	Wort	NOUN	NN	_	22	A	22:A	_
+25	zu	zu	ADP	VVINF	_	27	R	27:R	_
+26	seinem	sein	DET	PPOSAT	_	27	E	27:E	_
+27	Lieutenant	Lieutenant	NOUN	NN	_	22	A	22:A	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

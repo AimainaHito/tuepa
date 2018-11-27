@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25789014
+# text = Nach unten waren wir 10 Meter vom Wasser geschieden ; so dick war dieses Eisfeld .
+1	Nach	nach	ADP	APPR	_	2	R	2:R	_
+2	unten	unten	ADV	ADJA	_	9	A	9:A	_
+3	waren	sein	AUX	VAFIN	_	9	F	9:F	_
+4	wir	wir	PRON	NE	_	9	A	9:A	_
+5	10	10	NUM	CARD	_	6	E	6:E	_
+6	Meter	Meter	NOUN	NN	_	9	A	9:A	_
+7	vom	vom	ADP	NN	_	8	R	8:R	_
+8	Wasser	Wasser	NOUN	NN	_	9	A	9:A	_
+9	geschieden	scheiden	VERB	VVPP	_	0	H	0:H	_
+10	;	;	PUNCT	$.	_	9	U	9:U	_
+11	so	so	ADV	ADV	_	12	D	12:D	_
+12	dick	dick	ADJ	ADJD	_	9	H	9:H	_
+13	war	sein	AUX	ADV	_	12	F	12:F	_
+14	dieses	dies	PRON	PDAT	_	15	E	15:E	_
+15	Eisfeld	Eisfeld	NOUN	NN	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

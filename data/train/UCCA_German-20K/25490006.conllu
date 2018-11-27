@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25490006
+# text = Der Kerker war noch Kerker und die Gefangenen noch in Haft .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Kerker	Kerker	NOUN	NE	_	3	A	3:A	_
+3	war	sein	AUX	NE	_	0	H	0:H	_
+4	noch	noch	ADV	XY	_	3	D	3:D	_
+5	Kerker	Kerker	NOUN	NE	_	3	A	3:A	_
+6	und	und	CCONJ	NE	_	3	L	3:L	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Gefangenen	Gefangene	NOUN	NN	_	11	A	11:A	_
+9	noch	noch	ADV	VVINF	_	11	D	11:D	_
+10	in	in	ADP	APPR	_	11	R	11:R	_
+11	Haft	Haft	NOUN	NN	_	3	H	3:H	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

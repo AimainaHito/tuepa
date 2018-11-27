@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25605022
+# text = Stumm , mit klopfendem Herzen starrten wir den hier gleichsam photographierten Schiff bruch an !
+1	Stumm	stumm	NOUN	NN	_	6	D	6:D	_
+2	,	,	PUNCT	$,	_	6	U	6:U	_
+3	mit	mit	ADP	APPR	_	5	R	5:R	_
+4	klopfendem	klopfend	ADJ	ADJA	_	5	E	5:E	_
+5	Herzen	Herz	NOUN	NN	_	6	A	6:A	_
+6	starrten	starren	VERB	VVFIN	_	0	H	0:H	_
+7	wir	wir	PRON	NN	_	6	A	6:A	_
+8	den	der	DET	ART	_	12	E	12:E	_
+9	hier	hier	ADV	ADV	_	11	A	11:A	_
+10	gleichsam	gleichsam	ADV	ADV	_	11	D	11:D	_
+11	photographierten	photographiert	ADJ	ADJA	_	12	E	12:E	_
+12	Schiff	Schiff	NOUN	NN	_	6	A	6:A	_
+13	bruch	bruch	ADV	NN	_	12	E	12:E	_
+14	an	an	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+15	!	!	PUNCT	$.	_	6	U	6:U	_
+

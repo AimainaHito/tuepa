@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 236007
+# text = In December 2012 , Chan caused outrage when he criticized Hong Kong as a " city of protest " , suggesting that demonstrators ' rights in Hong Kong should be limited .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	December	December	PROPN	NNP	_	7	D	7:D	_
+3	2012	2012	NUM	CD	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	,	_	7	U	7:U	_
+5	Chan	Chan	PROPN	NNP	_	7	A	7:A	_
+6	caused	cause	VERB	VBD	_	7	D	7:D	_
+7	outrage	outrage	NOUN	NN	_	0	H	0:H	_
+8	when	when	ADV	WRB	_	7	L	7:L	_
+9	he	he	PRON	PRP	_	10	A	10:A|21:A	_
+10	criticized	criticize	VERB	VBD	_	7	H	7:H	_
+11	Hong	Hong	PROPN	NNP	_	10	A	10:A	_
+12	Kong	Kong	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	as	as	ADP	IN	_	16	R	16:R	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	city	city	NOUN	NN	_	10	A	10:A	_
+17	of	of	ADP	IN	_	18	R	18:R	_
+18	protest	protest	NOUN	NN	_	16	E	16:E	_
+19	"	"	PUNCT	''	_	7	U	7:U	_
+20	,	,	PUNCT	,	_	7	U	7:U	_
+21	suggesting	suggest	VERB	VBG	_	7	H	7:H	_
+22	that	that	SCONJ	IN	_	31	F	31:F	_
+23	demonstrators	demonstrator	NOUN	NNS	_	25	E	25:E	_
+24	'	'	PART	POS	_	25	U	25:U	_
+25	rights	rights	NOUN	NNS	_	31	A	31:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	Hong	Hong	PROPN	NNP	_	31	A	31:A	_
+28	Kong	Kong	PROPN	NNP	_	27	Terminal	27:Terminal	_
+29	should	should	AUX	MD	_	31	D	31:D	_
+30	be	be	AUX	VB	_	31	F	31:F	_
+31	limited	limit	VERB	VBN	_	21	A	21:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

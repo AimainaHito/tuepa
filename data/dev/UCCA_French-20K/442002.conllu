@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 442002
+# text = La Shipping and Mercantile Gazette , le Lloyd , le Paquebot , la Revue maritime et coloniale , toutes les feuilles dévouées aux Compagnies d' assurances qui menaçaient d' élever le taux de leurs primes , furent unanimes sur ce point .
+1	La	le	DET	_	_	38	A	38:A	_
+2	Shipping	Shipping	PROPN	_	_	1	Terminal	1:Terminal	_
+3	and	and	CCONJ	_	_	1	Terminal	1:Terminal	_
+4	Mercantile	Mercantile	PROPN	_	_	1	Terminal	1:Terminal	_
+5	Gazette	Gazette	PROPN	_	_	1	Terminal	1:Terminal	_
+6	,	,	PUNCT	_	_	1	U	1:U	_
+7	le	le	DET	_	_	1	C	1:C	_
+8	Lloyd	Lloyd	PROPN	_	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	_	_	1	U	1:U	_
+10	le	le	DET	_	_	1	C	1:C	_
+11	Paquebot	Paquebot	PROPN	_	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	_	_	1	U	1:U	_
+13	la	le	DET	_	_	1	C	1:C	_
+14	Revue	revue	PROPN	_	_	13	Terminal	13:Terminal	_
+15	maritime	maritime	ADJ	_	_	13	Terminal	13:Terminal	_
+16	et	et	CCONJ	_	_	13	Terminal	13:Terminal	_
+17	coloniale	colonial	ADJ	_	_	13	Terminal	13:Terminal	_
+18	,	,	PUNCT	_	_	1	U	1:U	_
+19	toutes	tout	DET	_	_	21	E	21:E	_
+20	les	le	DET	_	_	21	E	21:E	_
+21	feuilles	feuille	NOUN	_	_	1	E	1:E	_
+22	dévouées	dévoué	VERB	_	_	21	E	21:E	_
+23	aux	au	ADJ	_	_	24	R	24:R	_
+24	Compagnies	compagnie	NOUN	_	_	22	A	22:A	_
+25	d'	de	ADP	_	_	26	R	26:R	_
+26	assurances	assurance	NOUN	_	_	24	E	24:E	_
+27	qui	qui	PRON	_	_	28	R	28:R	_
+28	menaçaient	menaçer	VERB	_	_	24	E	24:E	_
+29	d'	de	ADP	_	_	30	F	30:F	_
+30	élever	élever	VERB	_	_	28	A	28:A	_
+31	le	le	DET	_	_	32	E	32:E	_
+32	taux	taux	NOUN	_	_	30	A	30:A	_
+33	de	de	ADP	_	_	35	R	35:R	_
+34	leurs	son	DET	_	_	35	E	35:E	_
+35	primes	prime	NOUN	_	_	32	E	32:E	_
+36	,	,	PUNCT	_	_	38	U	38:U	_
+37	furent	être	AUX	_	_	38	F	38:F	_
+38	unanimes	unanime	ADJ	_	_	0	H	0:H	_
+39	sur	sur	ADP	_	_	41	R	41:R	_
+40	ce	ce	DET	_	_	41	E	41:E	_
+41	point	point	NOUN	_	_	38	A	38:A	_
+42	.	.	PUNCT	_	_	41	U	41:U	_
+

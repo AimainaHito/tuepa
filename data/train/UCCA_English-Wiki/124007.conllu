@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 124007
+# text = On opening night , Hepburn turned up late , mixed her lines , tripped over her feet , and spoke too high and fast to be comprehensible .
+1	On	on	ADP	IN	_	3	R	3:R	_
+2	opening	opening	NOUN	NN	_	3	E	3:E	_
+3	night	night	NOUN	NN	_	6	D	6:D	_
+4	,	,	PUNCT	,	_	6	U	6:U	_
+5	Hepburn	Hepburn	PROPN	NNP	_	6	A	6:A|10:A|20:A|27:A|14:A	_
+6	turned	turn	VERB	VBD	_	0	H	0:H	_
+7	up	up	ADP	RP	_	6	Terminal	6:Terminal	_
+8	late	late	ADV	RB	_	6	D	6:D	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	mixed	mix	VERB	VBD	_	6	H	6:H	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	lines	line	NOUN	NNS	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	6	U	6:U	_
+14	tripped	trip	VERB	VBN	_	6	H	6:H	_
+15	over	over	ADP	IN	_	14	E	14:E	_
+16	her	she	PRON	PRP$	_	17	E	17:E	_
+17	feet	foot	NOUN	NN	_	14	A	14:A	_
+18	,	,	PUNCT	,	_	6	U	6:U	_
+19	and	and	CCONJ	CC	_	6	L	6:L	_
+20	spoke	speak	VERB	VBD	_	6	H	6:H	_
+21	too	too	ADV	RB	_	22	R	22:R	_
+22	high	high	ADJ	JJ	_	20	D	20:D	_
+23	and	and	CCONJ	CC	_	22	N	22:N	_
+24	fast	fast	ADJ	JJ	_	22	C	22:C	_
+25	to	to	PART	TO	_	27	F	27:F	_
+26	be	be	AUX	VB	_	27	F	27:F	_
+27	comprehensible	comprehensible	ADJ	JJ	_	6	H	6:H	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

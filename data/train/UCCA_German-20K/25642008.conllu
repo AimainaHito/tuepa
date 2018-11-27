@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25642008
+# text = Kapitän Nemo hatte dafür eine wahre Leidenschaft .
+1	Kapitän	Kapitän	PROPN	NN	_	2	E	2:E	_
+2	Nemo	Nemo	PROPN	NE	_	7	A	7:A	_
+3	hatte	haben	AUX	VAFIN	_	7	F	7:F	_
+4	dafür	dafür	PRON	PAV	_	7	A	7:A	_
+5	eine	ein	DET	ART	_	7	E	7:E	_
+6	wahre	wahr	ADJ	NN	_	7	D	7:D	_
+7	Leidenschaft	Leidenschaft	NOUN	NN	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

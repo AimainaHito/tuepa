@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25590020
+# text = Weder Pinsel noch Feder reichen aus , die diesem Element eigentümlichen Erscheinungen darzustellen .
+1	Weder	weder	CCONJ	NN	_	2	N	2:N	_
+2	Pinsel	Pinsel	NOUN	NN	_	5	A	5:A	_
+3	noch	noch	ADV	XY	_	1	Terminal	1:Terminal	_
+4	Feder	Feder	NOUN	NN	_	2	C	2:C	_
+5	reichen	reichen	VERB	VVFIN	_	0	H	0:H	_
+6	aus	aus	ADP	PTKVZ	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	die	der	PRON	PRELS	_	12	E	12:E	_
+9	diesem	dies	PRON	PDS	_	10	E	10:E	_
+10	Element	Element	NOUN	NN	_	11	A	11:A	_
+11	eigentümlichen	eigentümlich	ADJ	ADJA	_	12	E	12:E	_
+12	Erscheinungen	Erscheinung	NOUN	NN	_	13	A	13:A	_
+13	darzustellen	darstellen	VERB	VVIZU	_	5	H	5:H	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

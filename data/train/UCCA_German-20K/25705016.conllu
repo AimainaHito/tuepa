@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25705016
+# text = Ich bemerkte , dass das Wasser des Roten Meeres an Salz gehalt mehr und mehr abnahm , je näher wir Suez kamen .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	bemerkte	bemerken	VERB	VVFIN	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	dass	dass	SCONJ	KOUS	_	16	R	16:R	_
+5	das	der	DET	ART	_	6	E	6:E	_
+6	Wasser	Wasser	NOUN	NN	_	16	A	16:A	_
+7	des	der	DET	ART	_	8	R	8:R	_
+8	Roten	rot	PROPN	ADJA	_	6	E	6:E	_
+9	Meeres	Meer	PROPN	NN	_	8	E	8:E	_
+10	an	an	ADP	APPR	_	12	R	12:R	_
+11	Salz	Salz	NOUN	NE	_	12	E	12:E	_
+12	gehalt	gehalt	VERB	VVFIN	_	16	A	16:A	_
+13	mehr	mehr	ADV	ADV	_	16	D	16:D	_
+14	und	und	CCONJ	NE	_	13	N	13:N	_
+15	mehr	mehr	ADV	ADV	_	13	C	13:C	_
+16	abnahm	abnehmen	VERB	VVFIN	_	2	A	2:A	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	je	je	ADV	KOUS	_	19	F	19:F	_
+19	näher	nah	ADJ	PTKVZ	_	16	A	16:A	_
+20	wir	wir	PRON	NE	_	19	A	19:A	_
+21	Suez	Suez	PROPN	NE	_	19	A	19:A	_
+22	kamen	kommen	VERB	VVFIN	_	19	F	19:F	_
+23	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25440011
+# text = Und doch befand sich die ›Abraham Lincoln‹ noch nicht in den verdächtigen Gewässern des Pazifiks .
+1	Und	und	CCONJ	ADJD	_	3	L	3:L	_
+2	doch	doch	ADV	ADV	_	3	L	3:L	_
+3	befand	befinden	VERB	VVFIN	_	0	H	0:H	_
+4	sich	er|es|sie	PRON	PRF	_	3	Terminal	3:Terminal	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	›Abraham	›Abraham	PROPN	NE	_	3	A	3:A	_
+7	Lincoln‹	Lincoln‹	NOUN	NE	_	6	Terminal	6:Terminal	_
+8	noch	noch	ADV	XY	_	9	E	9:E	_
+9	nicht	nicht	PART	CARD	_	3	D	3:D	_
+10	in	in	ADP	APPR	_	13	R	13:R	_
+11	den	der	DET	ART	_	13	E	13:E	_
+12	verdächtigen	verdächtig	ADJ	ADJA	_	13	E	13:E	_
+13	Gewässern	Gewässer	NOUN	NN	_	3	A	3:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Pazifiks	Pazifik	NOUN	NN	_	13	E	13:E	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

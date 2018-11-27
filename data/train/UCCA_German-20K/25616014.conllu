@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25616014
+# text = Deshalb traf auch Kapitän Nemo alle möglichen Vorsichts maßregeln .
+1	Deshalb	deshalb	ADV	PAV	_	2	L	2:L	_
+2	traf	treffen	VERB	VVFIN	_	0	H	0:H	_
+3	auch	auch	ADV	ADV	_	2	D	2:D	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	2	A	2:A	_
+6	alle	alle	PRON	PIAT	_	9	E	9:E	_
+7	möglichen	möglich	ADJ	ADJA	_	9	E	9:E	_
+8	Vorsichts	Vorsicht	NOUN	NN	_	9	E	9:E	_
+9	maßregeln	maßregeln	VERB	VVFIN	_	2	A	2:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

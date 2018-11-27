@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 463004
+# text = Jennings 's widow , Kayce Freed , and family held a private service in New York .
+1	Jennings	Jenning	PROPN	NNP	_	3	E	3:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	widow	widow	NOUN	NN	_	5	E	5:E	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	Kayce	Kayce	PROPN	NNP	_	10	A	10:A	_
+6	Freed	Free	VERB	VBD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	and	and	CCONJ	CC	_	5	N	5:N	_
+9	family	family	NOUN	NN	_	5	C	5:C	_
+10	held	hold	VERB	VBD	_	0	H	0:H	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	private	private	ADJ	JJ	_	13	E	13:E	_
+13	service	service	NOUN	NN	_	10	A	10:A	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	New	New	PROPN	NNP	_	10	A	10:A	_
+16	York	York	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+

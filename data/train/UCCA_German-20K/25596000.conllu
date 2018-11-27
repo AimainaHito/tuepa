@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25596000
+# text = Dieses Begegnen erregte bei mir den Gedanken , dass andere , furchtbarere Tiere in diesen dunkeln Gründen hausen könnten , gegen deren Angriff mein Skaphander mich nicht schützen würde .
+1	Dieses	dies	PRON	PDAT	_	2	E	2:E	_
+2	Begegnen	begegnen	NOUN	NN	_	3	A	3:A	_
+3	erregte	erregen	VERB	VVFIN	_	0	H	0:H	_
+4	bei	bei	ADP	APPR	_	5	R	5:R	_
+5	mir	ich	PRON	PPER	_	3	A	3:A	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Gedanken	Gedanke	NOUN	NN	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	dass	dass	SCONJ	KOUS	_	18	R	18:R	_
+10	andere	ander	PRON	PIS	_	13	E	13:E	_
+11	,	,	PUNCT	$,	_	13	U	13:U	_
+12	furchtbarere	furchtbaer	ADJ	PIAT	_	13	E	13:E	_
+13	Tiere	Tier	NOUN	NN	_	18	A	18:A	_
+14	in	in	ADP	APPR	_	17	R	17:R	_
+15	diesen	dies	PRON	PDAT	_	17	E	17:E	_
+16	dunkeln	dunkel	NOUN	NN	_	17	E	17:E	_
+17	Gründen	Grund|Gründen	NOUN	NN	_	18	A	18:A	_
+18	hausen	hausen	VERB	NE	_	7	E	7:E	_
+19	könnten	können	AUX	VMFIN	_	18	D	18:D	_
+20	,	,	PUNCT	$,	_	18	U	18:U	_
+21	gegen	gegen	ADP	APPR	_	23	R	23:R	_
+22	deren	der	DET	PRELAT	_	23	R	23:R	_
+23	Angriff	Angriff	NOUN	NN	_	28	A	28:A	_
+24	mein	mein	PRON	PPOSAT	_	25	E	25:E	_
+25	Skaphander	Skaphander	NOUN	NN	_	28	A	28:A	_
+26	mich	ich	PRON	PPER	_	28	A	28:A	_
+27	nicht	nicht	PART	CARD	_	28	D	28:D	_
+28	schützen	schützen	VERB	VVINF	_	13	E	13:E	_
+29	würde	werden	AUX	NN	_	28	F	28:F	_
+30	.	.	PUNCT	$.	_	28	U	28:U	_
+

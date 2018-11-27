@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25653015
+# text = Es war hier ein ungeheurer Wald , mineralischer Hochwuchs , enorme versteinerte Bäume , durch Girlanden zierlicher Plumaria , dieser Seelianen , miteinander verbunden .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	hier	hier	ADV	ADV	_	2	A	2:A	_
+4	ein	ein	DET	ART	_	6	E	6:E	_
+5	ungeheurer	ungeheuer	ADJ	ADJA	_	6	E	6:E	_
+6	Wald	Wald	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	mineralischer	mineralisch	PRON	ADJA	_	9	E	9:E	_
+9	Hochwuchs	Hochwuch	NOUN	NN	_	2	A	2:A	_
+10	,	,	PUNCT	$,	_	2	U	2:U	_
+11	enorme	enorme	ADJ	ADJA	_	13	E	13:E	_
+12	versteinerte	versteinert	ADJ	ADJA	_	13	E	13:E	_
+13	Bäume	Baum	NOUN	NN	_	2	A	2:A	_
+14	,	,	PUNCT	$,	_	2	U	2:U	_
+15	durch	durch	ADP	APPR	_	16	R	16:R	_
+16	Girlanden	Girlande	NOUN	ADJA	_	2	A	2:A	_
+17	zierlicher	zierlich	ADJ	ADJA	_	18	E	18:E	_
+18	Plumaria	Plumaria	PROPN	NE	_	16	E	16:E	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	dieser	dies	PRON	PDAT	_	21	R	21:R	_
+21	Seelianen	Seeliane	NOUN	NN	_	18	E	18:E	_
+22	,	,	PUNCT	$,	_	16	U	16:U	_
+23	miteinander	miteinander	ADV	ADV	_	24	D	24:D	_
+24	verbunden	verbinden	VERB	VVPP	_	16	E	16:E	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

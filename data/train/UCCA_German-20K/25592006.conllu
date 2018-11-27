@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25592006
+# text = Es war wundervoll zu schauen , eine wahre Augen weide , diese kaleidoskopartige Mischung von Farben tönen , grün gelb , orange , violett , indigo , hell blau !
+1	Es	es	PRON	PPER	_	5	F	5:F	_
+2	war	sein	AUX	ADV	_	5	F	5:F	_
+3	wundervoll	wundervoll	ADJ	ADJD	_	5	D	5:D	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	schauen	schauen	VERB	VVINF	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	eine	ein	DET	ART	_	10	E	10:E	_
+8	wahre	wahr	ADJ	NN	_	10	E	10:E	_
+9	Augen	Auge	NOUN	NN	_	10	E	10:E	_
+10	weide	weide	PRON	NN	_	5	A	5:A	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	diese	dies	PRON	PDAT	_	14	E	14:E	_
+13	kaleidoskopartige	kaleidoskopartig	ADJ	ADJA	_	14	D	14:D	_
+14	Mischung	Mischung	NOUN	NN	_	5	A	5:A	_
+15	von	von	ADP	NE	_	17	R	17:R	_
+16	Farben	Farbe	NOUN	NN	_	17	E	17:E	_
+17	tönen	tönen	VERB	ADJA	_	14	A	14:A	_
+18	,	,	PUNCT	$,	_	14	U	14:U	_
+19	grün	grün	ADJ	ADJD	_	14	D	14:D	_
+20	gelb	gelb	ADJ	ADJD	_	19	C	19:C	_
+21	,	,	PUNCT	$,	_	19	U	19:U	_
+22	orange	orang	ADJ	ADJA	_	19	C	19:C	_
+23	,	,	PUNCT	$,	_	19	U	19:U	_
+24	violett	violett	ADJ	ADJD	_	19	C	19:C	_
+25	,	,	PUNCT	$,	_	19	U	19:U	_
+26	indigo	indigo	ADP	NE	_	19	C	19:C	_
+27	,	,	PUNCT	$,	_	19	U	19:U	_
+28	hell	hell	ADV	ADJD	_	29	E	29:E	_
+29	blau	blau	ADJ	ADJD	_	19	C	19:C	_
+30	!	!	PUNCT	$.	_	29	U	29:U	_
+

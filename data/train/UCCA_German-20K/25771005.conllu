@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25771005
+# text = Die Eisdecke wurde immer dünner , nach oben und unten , von Meile zu Meile .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Eisdecke	Eisdecke	NOUN	NN	_	5	A	5:A	_
+3	wurde	werden	AUX	NE	_	5	F	5:F	_
+4	immer	immer	ADV	ADV	_	5	D	5:D	_
+5	dünner	dünn	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	nach	nach	ADP	NN	_	8	R	8:R	_
+8	oben	oben	ADV	NN	_	5	A	5:A	_
+9	und	und	CCONJ	NE	_	8	N	8:N	_
+10	unten	unten	ADV	NE	_	8	C	8:C	_
+11	,	,	PUNCT	$,	_	5	U	5:U	_
+12	von	von	ADP	NE	_	13	R	13:R	_
+13	Meile	Meile	NOUN	NN	_	5	A	5:A	_
+14	zu	zu	ADP	NE	_	15	R	15:R	_
+15	Meile	Meile	NOUN	NN	_	13	C	13:C	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

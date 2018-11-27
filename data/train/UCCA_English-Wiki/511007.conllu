@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 511007
+# text = A Reality Tour , a double album of live material from the 2003 concert tour , was released in January 2010 .
+1	A	a	DET	DT	_	18	A	18:A	_
+2	Reality	reality	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	Tour	tour	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	,	,	PUNCT	,	_	1	U	1:U	_
+5	a	a	DET	DT	_	7	E	7:E	_
+6	double	double	ADJ	JJ	_	7	E	7:E	_
+7	album	album	NOUN	NN	_	1	E	1:E	_
+8	of	of	ADP	IN	_	10	R	10:R	_
+9	live	live	ADJ	JJ	_	10	E	10:E	_
+10	material	material	NOUN	NN	_	7	A	7:A	_
+11	from	from	ADP	IN	_	15	R	15:R	_
+12	the	the	DET	DT	_	15	E	15:E	_
+13	2003	2003	NUM	CD	_	15	E	15:E	_
+14	concert	concert	NOUN	NN	_	15	E	15:E	_
+15	tour	tour	NOUN	NN	_	10	E	10:E	_
+16	,	,	PUNCT	,	_	18	U	18:U	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	released	release	VERB	VBN	_	0	H	0:H	_
+19	in	in	ADP	IN	_	21	R	21:R	_
+20	January	January	PROPN	NNP	_	21	E	21:E	_
+21	2010	2010	NUM	CD	_	18	D	18:D	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

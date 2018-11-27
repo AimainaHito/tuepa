@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 25438021
+# text = » Haben wir gehörig Dampf ? « fragte er ihn .
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Haben	haben	AUX	VAFIN	_	8	A	8:A	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	gehörig	gehörig	ADJ	ADJD	_	2	D	2:D	_
+5	Dampf	Dampf	NOUN	NN	_	2	A	2:A	_
+6	?	?	PUNCT	$.	_	8	U	8:U	_
+7	«	«	PUNCT	$(	_	8	U	8:U	_
+8	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+9	er	er	PRON	PPER	_	8	A	8:A	_
+10	ihn	er	PRON	PPER	_	8	A	8:A	_
+11	.	.	PUNCT	$.	_	8	U	8:U	_
+

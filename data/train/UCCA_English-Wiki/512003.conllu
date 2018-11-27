@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 512003
+# text = " Bowie 's career has also been punctuated by various roles in film and theatre productions , earning him some acclaim as an actor in his own right .
+1	"	"	PUNCT	``	_	8	U	8:U	_
+2	Bowie	Bowie	PROPN	NNP	_	4	E	4:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	career	career	NOUN	NN	_	8	A	8:A	_
+5	has	have	AUX	VBZ	_	8	F	8:F	_
+6	also	also	ADV	RB	_	8	D	8:D	_
+7	been	be	AUX	VBN	_	8	F	8:F	_
+8	punctuated	punctuate	VERB	VBN	_	0	H	0:H	_
+9	by	by	ADP	IN	_	11	R	11:R	_
+10	various	various	ADJ	JJ	_	11	E	11:E	_
+11	roles	role	NOUN	NNS	_	8	A	8:A|21:A	_
+12	in	in	ADP	IN	_	16	R	16:R	_
+13	film	film	NOUN	NN	_	16	E	16:E	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	theatre	theatre	NOUN	NN	_	13	C	13:C	_
+16	productions	production	NOUN	NNS	_	11	E	11:E	_
+17	,	,	PUNCT	,	_	21	U	21:U	_
+18	earning	earn	VERB	VBG	_	21	D	21:D	_
+19	him	he	PRON	PRP	_	21	A	21:A	_
+20	some	some	DET	DT	_	21	D	21:D	_
+21	acclaim	acclaim	NOUN	NN	_	8	H	8:H	_
+22	as	as	ADP	IN	_	24	R	24:R	_
+23	an	a	DET	DT	_	24	E	24:E	_
+24	actor	actor	NOUN	NN	_	21	A	21:A	_
+25	in	in	ADP	IN	_	28	R	28:R	_
+26	his	he	PRON	PRP$	_	28	E	28:E	_
+27	own	own	ADJ	JJ	_	28	E	28:E	_
+28	right	right	NOUN	NN	_	24	E	24:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

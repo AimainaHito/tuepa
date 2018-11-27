@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25488035
+# text = » Erlaube mir , mein Herr , meinen Schnitt zu machen « , sagte er .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Erlaube	Erlauben	AUX	VVFIN	_	14	A	14:A	_
+3	mir	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+7	,	,	PUNCT	$,	_	2	U	2:U	_
+8	meinen	mein	PRON	PPOSAT	_	9	E	9:E	_
+9	Schnitt	Schnitt	NOUN	NN	_	11	A	11:A	_
+10	zu	zu	ADP	VVINF	_	11	F	11:F	_
+11	machen	machen	VERB	VVINF	_	2	A	2:A	_
+12	«	«	PUNCT	$(	_	14	U	14:U	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+15	er	er	PRON	PPER	_	14	A	14:A	_
+16	.	.	PUNCT	$.	_	14	U	14:U	_
+

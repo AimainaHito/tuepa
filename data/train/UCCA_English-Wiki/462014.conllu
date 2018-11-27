@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 462014
+# text = " Peter , of the three of us , was our prince , " said Brokaw on Today . " He seemed so timeless . He had such élan and style .
+1	"	"	PUNCT	``	_	10	U	10:U	_
+2	Peter	Peter	PROPN	NNP	_	10	A	10:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	of	of	ADP	IN	_	8	R	8:R	_
+5	the	the	DET	DT	_	8	E	8:E	_
+6	three	three	NUM	CD	_	8	E	8:E	_
+7	of	of	ADP	IN	_	6	R	6:R	_
+8	us	we	PRON	PRP	_	2	E	2:E	_
+9	,	,	PUNCT	,	_	10	U	10:U	_
+10	was	be	AUX	VBD	_	15	A	15:A	_
+11	our	we	PRON	PRP$	_	12	E	12:E	_
+12	prince	prince	VERB	VB	_	10	A	10:A	_
+13	,	,	PUNCT	,	_	15	U	15:U	_
+14	"	"	PUNCT	''	_	15	U	15:U	_
+15	said	say	VERB	VBD	_	0	H	0:H	_
+16	Brokaw	Brokaw	PROPN	NNP	_	15	A	15:A	_
+17	on	on	ADP	IN	_	18	R	18:R	_
+18	Today	today	NOUN	NN	_	15	A	15:A	_
+19	.	.	PUNCT	.	_	15	U	15:U	_
+20	"	"	PUNCT	''	_	15	U	15:U	_
+21	He	he	PRON	PRP	_	24	A	24:A	_
+22	seemed	seem	VERB	VBD	_	24	G	24:G	_
+23	so	so	ADV	RB	_	24	D	24:D	_
+24	timeless	timeless	ADJ	JJ	_	10	H	10:H	_
+25	.	.	PUNCT	.	_	10	U	10:U	_
+26	He	he	PRON	PRP	_	27	A	27:A	_
+27	had	have	VERB	VBD	_	10	H	10:H	_
+28	such	such	ADJ	JJ	_	29	E	29:E	_
+29	élan	élan	NOUN	NN	_	27	A	27:A	_
+30	and	and	CCONJ	CC	_	29	N	29:N	_
+31	style	style	NOUN	NN	_	29	C	29:C	_
+32	.	.	PUNCT	.	_	29	U	29:U	_
+

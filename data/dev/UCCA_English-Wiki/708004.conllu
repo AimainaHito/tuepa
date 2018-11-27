@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 708004
+# text = Dylan would continue to tour with a small , constantly evolving band for the next 20 years .
+1	Dylan	Dylan	PROPN	NNP	_	5	A	5:A	_
+2	would	would	AUX	MD	_	5	D	5:D	_
+3	continue	continue	VERB	VB	_	5	D	5:D	_
+4	to	to	ADP	IN	_	5	F	5:F	_
+5	tour	tour	NOUN	NN	_	0	H	0:H	_
+6	with	with	ADP	IN	_	12	R	12:R	_
+7	a	a	DET	DT	_	12	E	12:E	_
+8	small	small	ADJ	JJ	_	12	E	12:E	_
+9	,	,	PUNCT	,	_	12	U	12:U	_
+10	constantly	constantly	ADV	RB	_	11	D	11:D	_
+11	evolving	evolve	VERB	VBG	_	12	E	12:E	_
+12	band	band	NOUN	NN	_	5	A	5:A	_
+13	for	for	ADP	IN	_	17	R	17:R	_
+14	the	the	DET	DT	_	17	E	17:E	_
+15	next	next	ADJ	JJ	_	17	E	17:E	_
+16	20	20	NUM	CD	_	17	E	17:E	_
+17	years	year	NOUN	NNS	_	5	D	5:D	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

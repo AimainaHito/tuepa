@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 522005
+# text = At only 4 feet 11.5 inches ( 151.1 cm ) , her " cute " or " girl next door " looks did not exemplify the more glamorous persona required of leading ladies of the time .
+1	At	at	ADP	IN	_	4	L	4:L	_
+2	only	only	ADV	RB	_	4	D	4:D	_
+3	4	4	NUM	CD	_	4	E	4:E	_
+4	feet	foot	NOUN	NNS	_	0	H	0:H	_
+5	11.5	11.5	NUM	CD	_	6	E	6:E	_
+6	inches	inch	NOUN	NNS	_	4	C	4:C	_
+7	(	(	PUNCT	-LRB-	_	4	U	4:U	_
+8	151.1	151.1	NUM	CD	_	9	E	9:E	_
+9	cm	cm	NOUN	NNS	_	4	C	4:C	_
+10	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+11	,	,	PUNCT	,	_	4	U	4:U	_
+12	her	she	PRON	PRP$	_	22	E	22:E|4:A	_
+13	"	"	PUNCT	``	_	22	U	22:U	_
+14	cute	cute	VERB	VB	_	22	E	22:E	_
+15	"	"	PUNCT	''	_	14	U	14:U	_
+16	or	or	CCONJ	CC	_	14	N	14:N	_
+17	"	"	PUNCT	``	_	14	U	14:U	_
+18	girl	girl	VERB	VB	_	14	C	14:C	_
+19	next	next	ADJ	JJ	_	20	E	20:E	_
+20	door	door	NOUN	NN	_	18	E	18:E	_
+21	"	"	PUNCT	''	_	22	U	22:U	_
+22	looks	look	VERB	VBZ	_	25	A	25:A	_
+23	did	do	AUX	VBD	_	25	F	25:F	_
+24	not	not	PART	RB	_	25	D	25:D	_
+25	exemplify	exemplify	VERB	VB	_	4	H	4:H	_
+26	the	the	DET	DT	_	29	E	29:E	_
+27	more	more	ADV	RBR	_	29	E	29:E	_
+28	glamorous	glamorous	ADJ	JJ	_	29	E	29:E	_
+29	persona	persona	NOUN	NN	_	30	A	30:A	_
+30	required	require	VERB	VBN	_	25	A	25:A	_
+31	of	of	ADP	IN	_	30	R	30:R	_
+32	leading	lead	VERB	VBG	_	33	E	33:E	_
+33	ladies	lady	NOUN	NNS	_	30	A	30:A	_
+34	of	of	ADP	IN	_	36	R	36:R	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	time	time	NOUN	NN	_	33	E	33:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

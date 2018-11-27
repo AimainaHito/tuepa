@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 231005
+# text = Jackie Chan Traditional Chinese 龍的傳人 Simplified Chinese 龙的传人 [ show ] Transcriptions ( lit . " Disciple of the Dragon " ) concluded .
+1	Jackie	Jackie	PROPN	NNP	_	0	H	0:H	_
+2	Chan	Chan	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Traditional	traditional	ADJ	JJ	_	1	Terminal	1:Terminal	_
+4	Chinese	chinese	ADJ	JJ	_	1	Terminal	1:Terminal	_
+5	龍的傳人	龍的傳人	NOUN	NN	_	1	U	1:U	_
+6	Simplified	Simplify	VERB	VBN	_	1	Terminal	1:Terminal	_
+7	Chinese	chinese	ADJ	JJ	_	1	Terminal	1:Terminal	_
+8	龙的传人	龙的传人	NOUN	NN	_	1	U	1:U	_
+9	[	[	PUNCT	-LRB-	_	1	U	1:U	_
+10	show	show	NOUN	NN	_	1	Terminal	1:Terminal	_
+11	]	]	PUNCT	-RRB-	_	1	U	1:U	_
+12	Transcriptions	Transcription	NOUN	NNS	_	1	Terminal	1:Terminal	_
+13	(	(	PUNCT	-LRB-	_	1	U	1:U	_
+14	lit	lit	NOUN	NN	_	1	Terminal	1:Terminal	_
+15	.	.	PUNCT	.	_	1	U	1:U	_
+16	"	"	PUNCT	''	_	1	U	1:U	_
+17	Disciple	Disciple	NOUN	NN	_	1	Terminal	1:Terminal	_
+18	of	of	ADP	IN	_	1	Terminal	1:Terminal	_
+19	the	the	DET	DT	_	1	Terminal	1:Terminal	_
+20	Dragon	Dragon	PROPN	NNP	_	1	Terminal	1:Terminal	_
+21	"	"	PUNCT	''	_	1	U	1:U	_
+22	)	)	PUNCT	-RRB-	_	1	U	1:U	_
+23	concluded	conclude	VERB	VBD	_	1	H	1:H	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

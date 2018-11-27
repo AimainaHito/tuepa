@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 25665021
+# text = Und dann , offen gesagt , ich möchte gern , bevor ich ihn auf immer verließe , diese unterseeische Fahrt um die Welt , die so prächtig begonnen hat , erst vollenden .
+1	Und	und	CCONJ	ADJD	_	5	L	5:L	_
+2	dann	dann	ADV	ADV	_	5	L	5:L	_
+3	,	,	PUNCT	$,	_	5	U	5:U	_
+4	offen	offen	ADJ	CARD	_	5	D	5:D	_
+5	gesagt	sagen	VERB	VVPP	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	ich	ich	PRON	PPER	_	32	A	32:A|5:A	_
+8	möchte	mögen	AUX	VVFIN	_	32	D	32:D	_
+9	gern	gern	ADV	ADV	_	32	D	32:D	_
+10	,	,	PUNCT	$,	_	5	U	5:U	_
+11	bevor	bevor	SCONJ	KOUS	_	5	L	5:L	_
+12	ich	ich	PRON	PPER	_	16	A	16:A	_
+13	ihn	er	PRON	PPER	_	16	A	16:A	_
+14	auf	auf	ADP	APPR	_	15	R	15:R	_
+15	immer	immer	ADV	ADV	_	16	D	16:D	_
+16	verließe	verließe	ADJ	VVFIN	_	5	H	5:H	_
+17	,	,	PUNCT	$,	_	5	U	5:U	_
+18	diese	dies	PRON	PDAT	_	20	E	20:E	_
+19	unterseeische	unterseeisch	ADJ	ADJA	_	20	E	20:E	_
+20	Fahrt	Fahrt	NOUN	NN	_	32	A	32:A	_
+21	um	um	ADP	APPR	_	23	R	23:R	_
+22	die	der	DET	ART	_	23	E	23:E	_
+23	Welt	Welt	NOUN	NN	_	20	E	20:E	_
+24	,	,	PUNCT	$,	_	20	U	20:U	_
+25	die	der	PRON	PRELS	_	28	R	28:R	_
+26	so	so	ADV	ADV	_	27	E	27:E	_
+27	prächtig	prächtig	ADJ	ADJD	_	28	D	28:D	_
+28	begonnen	beginnen	VERB	VVPP	_	20	E	20:E	_
+29	hat	haben	AUX	VAFIN	_	28	F	28:F	_
+30	,	,	PUNCT	$,	_	32	U	32:U	_
+31	erst	erst	ADV	ADV	_	32	D	32:D	_
+32	vollenden	vollenden	ADJ	VVINF	_	5	H	5:H	_
+33	.	.	PUNCT	$.	_	32	U	32:U	_
+

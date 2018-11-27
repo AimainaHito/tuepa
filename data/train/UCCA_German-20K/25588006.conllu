@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 25588006
+# text = » Ich streite nicht weiter « , erwiderte ich , indem ich aufstand , » und ich habe nur mein Gewehr zu nehmen . Übrigens , wo Sie hingehen , gehe ich mit ! «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	streite	streien	VERB	ADJA	_	8	A	8:A	_
+4	nicht	nicht	PART	ADJA	_	3	D	3:D	_
+5	weiter	weiter	ADJ	ADJA	_	3	Terminal	3:Terminal	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	ich	ich	PRON	PPER	_	8	A	8:A	_
+10	,	,	PUNCT	$,	_	8	U	8:U	_
+11	indem	indem	SCONJ	KOUS	_	8	L	8:L	_
+12	ich	ich	PRON	PPER	_	13	A	13:A	_
+13	aufstand	aufstehen	VERB	VVFIN	_	8	H	8:H	_
+14	,	,	PUNCT	$,	_	8	U	8:U	_
+15	»	»	PUNCT	$(	_	8	U	8:U	_
+16	und	und	CCONJ	NE	_	3	L	3:L	_
+17	ich	ich	PRON	PPER	_	23	A	23:A	_
+18	habe	haben	AUX	VAFIN	_	23	D	23:D	_
+19	nur	nur	ADV	NE	_	23	D	23:D	_
+20	mein	mein	PRON	PPOSAT	_	21	E	21:E	_
+21	Gewehr	Gewehr	NOUN	NN	_	23	A	23:A	_
+22	zu	zu	PART	NN	_	23	F	23:F	_
+23	nehmen	nehmen	VERB	CARD	_	3	H	3:H	_
+24	.	.	PUNCT	$.	_	3	U	3:U	_
+25	Übrigens	übrigens	NOUN	ADV	_	31	G	31:G	_
+26	,	,	PUNCT	$,	_	31	U	31:U	_
+27	wo	wo	ADV	ADJA	_	29	A	29:A	_
+28	Sie	Sie|sie	PRON	PPER	_	29	A	29:A	_
+29	hingehen	hingehen	VERB	VVFIN	_	31	A	31:A	_
+30	,	,	PUNCT	$,	_	31	U	31:U	_
+31	gehe	gehen	VERB	VVFIN	_	3	H	3:H	_
+32	ich	ich	PRON	PPER	_	31	A	31:A	_
+33	mit	mit	ADP	APPR	_	31	Terminal	31:Terminal	_
+34	!	!	PUNCT	$.	_	31	U	31:U	_
+35	«	«	PUNCT	$(	_	31	U	31:U	_
+

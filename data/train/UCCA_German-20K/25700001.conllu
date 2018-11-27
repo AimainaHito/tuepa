@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25700001
+# text = » Darf man fragen , wie Sie diese Entdeckung gemacht haben ? «
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Darf	dürfen	AUX	VMFIN	_	4	D	4:D	_
+3	man	man	PRON	PIS	_	4	A	4:A	_
+4	fragen	fragen	VERB	VVINF	_	0	H	0:H	_
+5	,	,	PUNCT	$,	_	4	U	4:U	_
+6	wie	wie	SCONJ	KON	_	10	D	10:D	_
+7	Sie	sie	PRON	PPER	_	10	A	10:A	_
+8	diese	dies	PRON	PDAT	_	9	E	9:E	_
+9	Entdeckung	Entdeckung	NOUN	NN	_	10	A	10:A	_
+10	gemacht	machen	VERB	VVPP	_	4	A	4:A	_
+11	haben	haben	AUX	VAFIN	_	10	F	10:F	_
+12	?	?	PUNCT	$.	_	10	U	10:U	_
+13	«	«	PUNCT	$(	_	10	U	10:U	_
+

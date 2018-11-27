@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 450007
+# text = He also attended the University of Ottawa .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	attended	attend	VERB	VBD	_	0	H	0:H	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	University	University	PROPN	NNP	_	3	A	3:A	_
+6	of	of	ADP	IN	_	7	R	7:R	_
+7	Ottawa	Ottawa	PROPN	NNP	_	5	E	5:E	_
+8	.	.	PUNCT	.	_	7	U	7:U	_
+

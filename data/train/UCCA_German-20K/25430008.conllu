@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25430008
+# text = Auch scherzte man , der schlaue Fuchs habe einige Telegramme aufgefangen , und mache sich nun ihren Inhalt zunutze .
+1	Auch	auch	ADV	ADV	_	2	L	2:L	_
+2	scherzte	scherzen	VERB	VVFIN	_	0	H	0:H	_
+3	man	man	PRON	PIS	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	der	der	DET	ART	_	7	E	7:E	_
+6	schlaue	schlau	ADJ	ADJA	_	7	E	7:E	_
+7	Fuchs	Fuchs	NOUN	NE	_	0	C	0:C|14:A	_
+8	habe	haben	AUX	VAFIN	_	11	F	11:F	_
+9	einige	einige	PRON	PIAT	_	10	E	10:E	_
+10	Telegramme	Telegramm	NOUN	NN	_	11	A	11:A	_
+11	aufgefangen	aufgefangen	VERB	NE	_	2	A	2:A	_
+12	,	,	PUNCT	$,	_	2	U	2:U	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	mache	mach	PRON	NN	_	2	H	2:H	_
+15	sich	er|es|sie	PRON	PRF	_	14	A	14:A	_
+16	nun	nun	ADV	ADV	_	14	D	14:D	_
+17	ihren	ihr	DET	PPOSAT	_	18	E	18:E	_
+18	Inhalt	Inhalt	NOUN	NN	_	14	A	14:A	_
+19	zunutze	zunutz	ADJ	NN	_	14	Terminal	14:Terminal	_
+20	.	.	PUNCT	$.	_	14	U	14:U	_
+

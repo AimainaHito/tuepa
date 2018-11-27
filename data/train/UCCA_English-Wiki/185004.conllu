@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 185004
+# text = Castle Rock Entertainment hired Sorkin to adapt A Few Good Men for the big screen .
+1	Castle	Castle	NOUN	NN	_	4	A	4:A	_
+2	Rock	rock	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	Entertainment	entertainment	NOUN	NN	_	1	Terminal	1:Terminal	_
+4	hired	hire	VERB	VBD	_	0	H	0:H	_
+5	Sorkin	Sorkin	PROPN	NNP	_	4	A	4:A|7:A	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	adapt	adapt	VERB	VB	_	4	A	4:A	_
+8	A	a	DET	DT	_	7	A	7:A	_
+9	Few	few	ADJ	JJ	_	8	Terminal	8:Terminal	_
+10	Good	good	ADJ	JJ	_	8	Terminal	8:Terminal	_
+11	Men	man	PROPN	NNPS	_	8	Terminal	8:Terminal	_
+12	for	for	ADP	IN	_	15	R	15:R	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	big	big	ADJ	JJ	_	15	E	15:E	_
+15	screen	screen	NOUN	NN	_	7	A	7:A	_
+16	.	.	PUNCT	.	_	15	U	15:U	_
+

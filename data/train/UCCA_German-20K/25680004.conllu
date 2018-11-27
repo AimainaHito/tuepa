@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 25680004
+# text = » Meiner Treu , mit einer tüchtigen Harpune ! Sie wissen , mein Herr , diese Haifische sind sehr ungeschlachte Tiere . Sie müssen sich umdrehen auf den Bauch , um nach Ihnen zu schnappen , und unterdessen ... «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Meiner	Meiner	PROPN	PPOSAT	_	8	F	8:F	_
+3	Treu	treu	PROPN	NE	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	8	U	8:U	_
+5	mit	mit	ADP	APPR	_	8	R	8:R	_
+6	einer	ein	DET	ART	_	8	E	8:E	_
+7	tüchtigen	tüchtigen	ADJ	ADJA	_	8	E	8:E	_
+8	Harpune	Harpune	NOUN	NN	_	0	H	0:H	_
+9	!	!	PUNCT	$.	_	8	U	8:U	_
+10	Sie	Sie|sie	PRON	PPER	_	11	A	11:A	_
+11	wissen	wissen	VERB	VVINF	_	8	H	8:H	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	mein	mein	PRON	PPOSAT	_	14	E	14:E	_
+14	Herr	Herr	NOUN	NN	_	11	G	11:G	_
+15	,	,	PUNCT	$,	_	11	U	11:U	_
+16	diese	dies	PRON	PDAT	_	17	E	17:E	_
+17	Haifische	Haifische	NOUN	ADJA	_	20	A	20:A	_
+18	sind	sein	AUX	NE	_	20	F	20:F	_
+19	sehr	sehr	ADV	NE	_	20	D	20:D	_
+20	ungeschlachte	ungeschlacht	ADJ	VVFIN	_	11	A	11:A	_
+21	Tiere	Tier	NOUN	NN	_	20	A	20:A	_
+22	.	.	PUNCT	$.	_	8	U	8:U	_
+23	Sie	Sie|sie	PRON	PPER	_	25	A	25:A	_
+24	müssen	müssen	AUX	VMFIN	_	25	D	25:D	_
+25	sich	er|es|sie	PRON	PRF	_	8	H	8:H	_
+26	umdrehen	umdrehen	VERB	VVFIN	_	25	Terminal	25:Terminal	_
+27	auf	auf	ADP	APPR	_	29	R	29:R	_
+28	den	der	DET	ART	_	29	E	29:E	_
+29	Bauch	Bauch	NOUN	NN	_	25	A	25:A	_
+30	,	,	PUNCT	$,	_	8	U	8:U	_
+31	um	um	ADP	KOUI	_	8	L	8:L	_
+32	nach	nach	ADP	CARD	_	33	R	33:R	_
+33	Ihnen	Sie|sie	PRON	NN	_	35	A	35:A	_
+34	zu	zu	PART	VVINF	_	35	F	35:F	_
+35	schnappen	schnappen	VERB	VVINF	_	8	H	8:H	_
+36	,	,	PUNCT	$,	_	8	U	8:U	_
+37	und	und	CCONJ	NE	_	8	L	8:L	_
+38	unterdessen	unterdessen	ADV	VVFIN	_	8	L	8:L	_
+39	...	...	PUNCT	$(	_	8	U	8:U	_
+40	«	«	PUNCT	$(	_	8	U	8:U	_
+

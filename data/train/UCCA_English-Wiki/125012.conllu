@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 125012
+# text = She took a small role in an upcoming play , but as rehearsals began she received an offer to read for the lead role in the Greek fable The Warrior 's Husband .
+1	She	she	PRON	PRP	_	5	A	5:A	_
+2	took	take	VERB	VBD	_	5	F	5:F	_
+3	a	a	DET	DT	_	5	F	5:F	_
+4	small	small	ADJ	JJ	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	0	H	0:H	_
+6	in	in	ADP	IN	_	9	R	9:R	_
+7	an	a	DET	DT	_	9	E	9:E	_
+8	upcoming	upcoming	ADJ	JJ	_	9	E	9:E	_
+9	play	play	NOUN	NN	_	5	A	5:A	_
+10	,	,	PUNCT	,	_	5	U	5:U	_
+11	but	but	CCONJ	CC	_	5	L	5:L	_
+12	as	as	SCONJ	IN	_	5	L	5:L	_
+13	rehearsals	rehearsal	NOUN	NNS	_	14	A	14:A	_
+14	began	begin	VERB	VBD	_	5	H	5:H	_
+15	she	she	PRON	PRP	_	16	A	16:A	_
+16	received	receive	VERB	VBD	_	5	H	5:H	_
+17	an	a	DET	DT	_	18	E	18:E	_
+18	offer	offer	NOUN	NN	_	16	A	16:A	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	read	read	VERB	VB	_	18	E	18:E	_
+21	for	for	ADP	IN	_	24	R	24:R	_
+22	the	the	DET	DT	_	24	E	24:E	_
+23	lead	lead	ADJ	JJ	_	24	E	24:E	_
+24	role	role	NOUN	NN	_	20	A	20:A	_
+25	in	in	ADP	IN	_	29	R	29:R	_
+26	the	the	DET	DT	_	29	E	29:E	_
+27	Greek	greek	PROPN	NNP	_	28	E	28:E	_
+28	fable	fable	NOUN	NN	_	29	E	29:E	_
+29	The	the	DET	DT	_	20	A	20:A	_
+30	Warrior	warrior	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	's	's	PART	POS	_	29	Terminal	29:Terminal	_
+32	Husband	husband	PROPN	NNP	_	29	Terminal	29:Terminal	_
+33	.	.	PUNCT	.	_	29	U	29:U	_
+

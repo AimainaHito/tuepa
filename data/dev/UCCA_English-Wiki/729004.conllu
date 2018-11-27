@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 729004
+# text = Based in part on the Wineville Chicken Coop Murders , the film stars Jolie as Christine Collins , who is reunited with her kidnapped son in 1928 Los Angelesâ   only to realize the boy is an impostor .
+1	Based	base	VERB	VBN	_	0	H	0:H	_
+2	in	in	ADP	IN	_	3	R	3:R	_
+3	part	part	NOUN	NN	_	1	D	1:D	_
+4	on	on	ADP	IN	_	9	R	9:R	_
+5	the	the	DET	DT	_	9	E	9:E	_
+6	Wineville	Wineville	PROPN	NNP	_	9	E	9:E	_
+7	Chicken	chicken	PROPN	NNP	_	8	E	8:E	_
+8	Coop	coop	PROPN	NNP	_	9	E	9:E	_
+9	Murders	murders	PROPN	NNPS	_	1	A	1:A	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	film	film	NOUN	NN	_	13	A	13:A	_
+13	stars	star	VERB	VBZ	_	1	H	1:H	_
+14	Jolie	Jolie	PROPN	NNP	_	13	A	13:A	_
+15	as	as	ADP	IN	_	16	R	16:R	_
+16	Christine	Christine	PROPN	NNP	_	13	A	13:A	_
+17	Collins	Collins	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	16	U	16:U	_
+19	who	who	PRON	WP	_	21	F	21:F	_
+20	is	be	AUX	VBZ	_	21	F	21:F	_
+21	reunited	reunit	VERB	VBN	_	16	E	16:E	_
+22	with	with	ADP	IN	_	25	R	25:R	_
+23	her	she	PRON	PRP$	_	25	E	25:E	_
+24	kidnapped	kidnap	VERB	VBN	_	25	E	25:E	_
+25	son	son	NOUN	NN	_	21	A	21:A	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	1928	1928	NUM	CD	_	21	D	21:D	_
+28	Los	Los	PROPN	NNP	_	21	A	21:A	_
+29	Angelesâ	Angelesâ	NOUN	NN	_	28	Terminal	28:Terminal	_
+30			NOUN	NN	_	21	U	21:U	_
+31			NOUN	NN	_	21	U	21:U	_
+32	only	only	ADV	RB	_	34	D	34:D	_
+33	to	to	PART	TO	_	34	F	34:F	_
+34	realize	realize	VERB	VB	_	21	H	21:H	_
+35	the	the	DET	DT	_	36	E	36:E	_
+36	boy	boy	NOUN	NN	_	39	A	39:A	_
+37	is	be	AUX	VBZ	_	39	F	39:F	_
+38	an	a	DET	DT	_	39	E	39:E	_
+39	impostor	impostor	NOUN	NN	_	34	A	34:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

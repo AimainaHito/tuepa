@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25462002
+# text = Doch das Wetter war fortwährend günstig .
+1	Doch	doch	ADV	KON	_	6	L	6:L	_
+2	das	der	DET	ART	_	3	E	3:E	_
+3	Wetter	Wetter	NOUN	NN	_	6	A	6:A	_
+4	war	sein	AUX	ADV	_	6	F	6:F	_
+5	fortwährend	fortwährend	ADJ	ADJD	_	6	D	6:D	_
+6	günstig	günstig	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

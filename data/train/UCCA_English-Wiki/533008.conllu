@@ -1,0 +1,43 @@
+# format = ucca
+# sent_id = 533008
+# text = Her autopsy showed that there was no inflammation of her stomach lining and no drug residue there , which indicated that the drug had been ingested over a long period of time , rather than in one dose .
+1	Her	she	PRON	PRP$	_	2	E	2:E	_
+2	autopsy	autopsy	NOUN	NN	_	3	A	3:A	_
+3	showed	show	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	8	F	8:F	_
+5	there	there	PRON	EX	_	8	F	8:F	_
+6	was	be	VERB	VBD	_	8	F	8:F	_
+7	no	no	DET	DT	_	8	D	8:D	_
+8	inflammation	inflammation	NOUN	NN	_	3	A	3:A	_
+9	of	of	ADP	IN	_	12	R	12:R	_
+10	her	she	PRON	PRP$	_	12	E	12:E	_
+11	stomach	stomach	NOUN	NN	_	12	E	12:E	_
+12	lining	lining	NOUN	NN	_	8	A	8:A	_
+13	and	and	CCONJ	CC	_	8	N	8:N	_
+14	no	no	DET	DT	_	16	D	16:D	_
+15	drug	drug	NOUN	NN	_	16	E	16:E	_
+16	residue	residue	ADP	IN	_	8	C	8:C	_
+17	there	there	ADV	RB	_	16	A	16:A	_
+18	,	,	PUNCT	,	_	3	U	3:U	_
+19	which	which	PRON	WDT	_	3	L	3:L	_
+20	indicated	indicate	VERB	VBD	_	3	H	3:H	_
+21	that	that	SCONJ	IN	_	26	F	26:F	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	drug	drug	NOUN	NN	_	26	A	26:A	_
+24	had	have	AUX	VBD	_	26	F	26:F	_
+25	been	be	AUX	VBN	_	26	F	26:F	_
+26	ingested	ingest	VERB	VBN	_	20	A	20:A	_
+27	over	over	ADP	IN	_	30	R	30:R	_
+28	a	a	DET	DT	_	30	E	30:E	_
+29	long	long	ADJ	JJ	_	30	E	30:E	_
+30	period	period	NOUN	NN	_	26	D	26:D	_
+31	of	of	ADP	IN	_	32	R	32:R	_
+32	time	time	NOUN	NN	_	30	E	30:E	_
+33	,	,	PUNCT	,	_	30	U	30:U	_
+34	rather	rather	ADV	RB	_	30	N	30:N	_
+35	than	than	ADP	IN	_	34	Terminal	34:Terminal	_
+36	in	in	ADP	IN	_	38	R	38:R	_
+37	one	one	NUM	CD	_	38	E	38:E	_
+38	dose	dose	NOUN	NN	_	30	C	30:C	_
+39	.	.	PUNCT	.	_	38	U	38:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25593001
+# text = Es war bald Mittags zeit , wie ich aus den senkrechten Sonnen strahlen , die sich nicht mehr brachen , abnahm .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	bald	bald	ADV	ADV	_	2	D	2:D	_
+4	Mittags	Mittag	NOUN	ADV	_	5	E	5:E	_
+5	zeit	zeit	ADV	ADJD	_	2	A	2:A	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	wie	wie	SCONJ	KON	_	2	L	2:L	_
+8	ich	ich	PRON	PPER	_	21	A	21:A	_
+9	aus	aus	ADP	APPR	_	13	R	13:R	_
+10	den	der	DET	ART	_	13	E	13:E	_
+11	senkrechten	senkrecht	ADJ	ADJA	_	13	E	13:E	_
+12	Sonnen	Sonne	NOUN	NN	_	13	E	13:E	_
+13	strahlen	strahlen	VERB	VVINF	_	21	A	21:A	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	die	der	PRON	PRELS	_	16	R	16:R	_
+16	sich	er|es|sie	PRON	PRF	_	13	E	13:E	_
+17	nicht	nicht	PART	XY	_	18	E	18:E	_
+18	mehr	mehr	ADV	ADV	_	16	D	16:D	_
+19	brachen	brechen	VERB	VVFIN	_	16	Terminal	16:Terminal	_
+20	,	,	PUNCT	$,	_	21	U	21:U	_
+21	abnahm	abnehmen	VERB	VVFIN	_	2	H	2:H	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

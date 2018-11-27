@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 646002
+# text = " When Lennon 's wife returned home she found Ono wearing her bathrobe and drinking tea with Lennon who simply said , " Oh , hi .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	When	when	ADV	WRB	_	6	L	6:L	_
+3	Lennon	Lennon	PROPN	NNP	_	5	E	5:E	_
+4	's	's	PART	POS	_	3	R	3:R	_
+5	wife	wife	NOUN	NN	_	6	A	6:A	_
+6	returned	return	VERB	VBD	_	0	H	0:H	_
+7	home	home	ADV	RB	_	6	A	6:A	_
+8	she	she	PRON	PRP	_	9	A	9:A	_
+9	found	find	VERB	VBD	_	6	H	6:H	_
+10	Ono	Ono	PROPN	NNP	_	11	A	11:A|15:A	_
+11	wearing	wear	VERB	VBG	_	9	A	9:A	_
+12	her	she	PRON	PRP$	_	13	E	13:E	_
+13	bathrobe	bathrobe	NOUN	NN	_	11	A	11:A	_
+14	and	and	CCONJ	CC	_	6	L	6:L	_
+15	drinking	drink	VERB	VBG	_	6	H	6:H	_
+16	tea	tea	NOUN	NN	_	15	A	15:A	_
+17	with	with	ADP	IN	_	18	R	18:R	_
+18	Lennon	Lennon	PROPN	NNP	_	15	A	15:A	_
+19	who	who	PRON	WP	_	21	F	21:F	_
+20	simply	simply	ADV	RB	_	21	D	21:D	_
+21	said	say	VERB	VBD	_	18	E	18:E	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	"	"	PUNCT	``	_	21	U	21:U	_
+24	Oh	oh	INTJ	UH	_	21	A	21:A	_
+25	,	,	PUNCT	,	_	24	U	24:U	_
+26	hi	hi	INTJ	UH	_	24	Terminal	24:Terminal	_
+27	.	.	PUNCT	.	_	21	U	21:U	_
+

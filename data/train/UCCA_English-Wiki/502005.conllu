@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 502005
+# text = Before the end of 1976 , Bowie 's interest in the burgeoning German music scene , as well as his drug addiction , prompted him to move to West Berlin to clean up and revitalise his career .
+1	Before	before	SCONJ	IN	_	5	R	5:R	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	end	end	NOUN	NN	_	5	E	5:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	1976	1976	NUM	CD	_	24	D	24:D	_
+6	,	,	PUNCT	,	_	24	U	24:U	_
+7	Bowie	Bowie	PROPN	NNP	_	0	C	0:C|32:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	interest	interest	NOUN	NN	_	24	A	24:A	_
+10	in	in	ADP	IN	_	15	R	15:R	_
+11	the	the	DET	DT	_	15	E	15:E	_
+12	burgeoning	burgeon	VERB	VBG	_	15	E	15:E	_
+13	German	german	ADJ	JJ	_	14	E	14:E	_
+14	music	music	NOUN	NN	_	15	E	15:E	_
+15	scene	scene	NOUN	NN	_	9	A	9:A	_
+16	,	,	PUNCT	,	_	9	U	9:U	_
+17	as	as	ADV	RB	_	9	N	9:N	_
+18	well	well	ADV	RB	_	17	Terminal	17:Terminal	_
+19	as	as	ADP	IN	_	17	Terminal	17:Terminal	_
+20	his	he	PRON	PRP$	_	22	A	22:A	_
+21	drug	drug	NOUN	NN	_	22	E	22:E	_
+22	addiction	addiction	NOUN	NN	_	9	C	9:C	_
+23	,	,	PUNCT	,	_	24	U	24:U	_
+24	prompted	prompt	VERB	VBD	_	0	H	0:H	_
+25	him	he	PRON	PRP	_	24	A	24:A|27:A	_
+26	to	to	PART	TO	_	27	F	27:F	_
+27	move	move	VERB	VB	_	24	A	24:A	_
+28	to	to	ADP	IN	_	30	R	30:R	_
+29	West	West	PROPN	NNP	_	30	E	30:E	_
+30	Berlin	Berlin	PROPN	NNP	_	27	A	27:A	_
+31	to	to	PART	TO	_	24	L	24:L	_
+32	clean	clean	VERB	VB	_	24	H	24:H	_
+33	up	up	ADP	RP	_	32	Terminal	32:Terminal	_
+34	and	and	CCONJ	CC	_	32	N	32:N	_
+35	revitalise	revitalise	VERB	VB	_	32	C	32:C	_
+36	his	he	PRON	PRP$	_	37	A	37:A	_
+37	career	career	NOUN	NN	_	32	A	32:A	_
+38	.	.	PUNCT	.	_	37	U	37:U	_
+

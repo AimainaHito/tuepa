@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 525011
+# text = However , no matter how glamorous or beautiful she appeared on screen or in photographs , she was never confident in her appearance and never escaped the " girl next door " image that had been created for her .
+1	However	however	ADV	RB	_	10	L	10:L	_
+2	,	,	PUNCT	,	_	1	U	1:U	_
+3	no	no	DET	DT	_	4	E	4:E	_
+4	matter	matter	NOUN	NN	_	1	C	1:C	_
+5	how	how	ADV	WRB	_	4	R	4:R	_
+6	glamorous	glamorous	ADJ	JJ	_	10	A	10:A	_
+7	or	or	CCONJ	CC	_	6	N	6:N	_
+8	beautiful	beautiful	ADJ	JJ	_	6	C	6:C	_
+9	she	she	PRON	PRP	_	10	A	10:A	_
+10	appeared	appear	VERB	VBD	_	0	H	0:H	_
+11	on	on	ADP	IN	_	12	R	12:R	_
+12	screen	screen	NOUN	NN	_	10	A	10:A	_
+13	or	or	CCONJ	CC	_	12	N	12:N	_
+14	in	in	ADP	IN	_	15	R	15:R	_
+15	photographs	photograph	NOUN	NNS	_	12	C	12:C	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	she	she	PRON	PRP	_	20	A	20:A|26:A	_
+18	was	be	AUX	VBD	_	20	F	20:F	_
+19	never	never	ADV	RB	_	20	D	20:D	_
+20	confident	confident	ADJ	JJ	_	10	H	10:H	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	her	she	PRON	PRP$	_	23	E	23:E	_
+23	appearance	appearance	NOUN	NN	_	20	A	20:A	_
+24	and	and	CCONJ	CC	_	10	L	10:L	_
+25	never	never	ADV	RB	_	26	D	26:D	_
+26	escaped	escape	VERB	VBD	_	10	H	10:H	_
+27	the	the	DET	DT	_	33	E	33:E	_
+28	"	"	PUNCT	``	_	33	U	33:U	_
+29	girl	girl	NOUN	NN	_	33	E	33:E	_
+30	next	next	ADJ	JJ	_	31	E	31:E	_
+31	door	door	NOUN	NN	_	29	E	29:E	_
+32	"	"	PUNCT	''	_	33	U	33:U	_
+33	image	image	NOUN	NN	_	26	A	26:A	_
+34	that	that	PRON	WDT	_	37	R	37:R	_
+35	had	have	AUX	VBD	_	37	F	37:F	_
+36	been	be	AUX	VBN	_	37	F	37:F	_
+37	created	create	VERB	VBN	_	33	E	33:E	_
+38	for	for	ADP	IN	_	39	R	39:R	_
+39	her	she	PRON	PRP	_	37	A	37:A	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

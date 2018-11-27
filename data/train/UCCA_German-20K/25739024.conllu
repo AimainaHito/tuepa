@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25739024
+# text = Das Dunkel war so vollständig , dass ich nicht einmal Kapitän Nemo wahrnehmen konnte .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Dunkel	dunkel	NOUN	NN	_	5	A	5:A	_
+3	war	sein	AUX	ADV	_	5	F	5:F	_
+4	so	so	ADV	ADV	_	5	L	5:L	_
+5	vollständig	vollständig	ADJ	ADJD	_	0	H	0:H	_
+6	,	,	PUNCT	$,	_	5	U	5:U	_
+7	dass	dass	SCONJ	KOUS	_	4	Terminal	4:Terminal	_
+8	ich	ich	PRON	PPER	_	13	A	13:A	_
+9	nicht	nicht	PART	XY	_	13	D	13:D	_
+10	einmal	einmal	ADV	ADV	_	9	Terminal	9:Terminal	_
+11	Kapitän	Kapitän	PROPN	NN	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	13	A	13:A	_
+13	wahrnehmen	wahrnehmen	VERB	VVINF	_	5	H	5:H	_
+14	konnte	können	AUX	VMFIN	_	13	D	13:D	_
+15	.	.	PUNCT	$.	_	13	U	13:U	_
+

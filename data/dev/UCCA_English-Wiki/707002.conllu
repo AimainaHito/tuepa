@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 707002
+# text = " His remarks were widely criticized as inappropriate , but they did inspire Willie Nelson to organize a series of events , Farm Aid , to benefit debt - ridden American farmers .
+1	"	"	PUNCT	``	_	6	U	6:U	_
+2	His	he	PRON	PRP$	_	3	A	3:A	_
+3	remarks	remark	NOUN	NNS	_	6	A	6:A	_
+4	were	be	AUX	VBD	_	6	F	6:F	_
+5	widely	widely	ADV	RB	_	6	D	6:D	_
+6	criticized	criticize	VERB	VBN	_	0	H	0:H	_
+7	as	as	ADP	IN	_	8	R	8:R	_
+8	inappropriate	inappropriate	ADJ	JJ	_	6	A	6:A	_
+9	,	,	PUNCT	,	_	6	U	6:U	_
+10	but	but	CCONJ	CC	_	6	L	6:L	_
+11	they	they	PRON	PRP	_	13	A	13:A	_
+12	did	do	AUX	VBD	_	13	F	13:F	_
+13	inspire	inspire	VERB	VB	_	6	H	6:H	_
+14	Willie	Willie	PROPN	NNP	_	17	A	17:A	_
+15	Nelson	Nelson	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	to	to	PART	TO	_	17	F	17:F	_
+17	organize	organize	VERB	VB	_	13	A	13:A	_
+18	a	a	DET	DT	_	21	E	21:E	_
+19	series	series	NOUN	NN	_	21	E	21:E	_
+20	of	of	ADP	IN	_	21	R	21:R	_
+21	events	event	NOUN	NNS	_	17	A	17:A	_
+22	,	,	PUNCT	,	_	21	U	21:U	_
+23	Farm	farm	PROPN	NNP	_	21	E	21:E|27:A	_
+24	Aid	Aid	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	6	U	6:U	_
+26	to	to	PART	TO	_	6	L	6:L	_
+27	benefit	benefit	VERB	VB	_	6	H	6:H	_
+28	debt	debt	NOUN	NN	_	30	A	30:A	_
+29	-	-	PUNCT	HYPH	_	30	U	30:U	_
+30	ridden	ridden	ADJ	JJ	_	32	E	32:E	_
+31	American	american	ADJ	JJ	_	32	E	32:E	_
+32	farmers	farmers	NOUN	NNS	_	27	A	27:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 116006
+# text = Hepburn said she realized from a young age that she was the product of " two very remarkable parents " , and credited her " enormously lucky " upbringing with providing the foundation for her success .
+1	Hepburn	Hepburn	PROPN	NNP	_	2	A	2:A|23:A	_
+2	said	say	VERB	VBD	_	0	H	0:H	_
+3	she	she	PRON	PRP	_	4	A	4:A	_
+4	realized	realize	VERB	VBD	_	2	A	2:A	_
+5	from	from	ADP	IN	_	8	R	8:R	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	young	young	ADJ	JJ	_	8	E	8:E	_
+8	age	age	NOUN	NN	_	4	D	4:D	_
+9	that	that	SCONJ	IN	_	11	R	11:R	_
+10	she	she	PRON	PRP	_	11	A	11:A	_
+11	was	be	AUX	VBD	_	4	A	4:A	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	product	product	NOUN	NN	_	11	A	11:A	_
+14	of	of	ADP	IN	_	19	R	19:R	_
+15	"	"	PUNCT	``	_	19	U	19:U	_
+16	two	two	NUM	CD	_	19	E	19:E	_
+17	very	very	ADV	RB	_	18	E	18:E	_
+18	remarkable	remarkable	ADJ	JJ	_	19	E	19:E	_
+19	parents	parent	NOUN	NNS	_	13	E	13:E	_
+20	"	"	PUNCT	''	_	2	U	2:U	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	and	and	CCONJ	CC	_	2	L	2:L	_
+23	credited	credit	VERB	VBD	_	2	H	2:H	_
+24	her	she	PRON	PRP$	_	29	E	29:E	_
+25	"	"	PUNCT	``	_	29	U	29:U	_
+26	enormously	enormously	ADV	RB	_	27	E	27:E	_
+27	lucky	lucky	ADJ	JJ	_	29	E	29:E	_
+28	"	"	PUNCT	''	_	29	U	29:U	_
+29	upbringing	upbringe	NOUN	NN	_	23	A	23:A|31:A	_
+30	with	with	SCONJ	IN	_	31	R	31:R	_
+31	providing	provide	VERB	VBG	_	23	A	23:A	_
+32	the	the	DET	DT	_	33	E	33:E	_
+33	foundation	foundation	NOUN	NN	_	31	A	31:A	_
+34	for	for	ADP	IN	_	36	R	36:R	_
+35	her	she	PRON	PRP$	_	36	E	36:E	_
+36	success	success	NOUN	NN	_	33	E	33:E	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

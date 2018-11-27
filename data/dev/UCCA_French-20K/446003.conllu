@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 446003
+# text = Ses soutes regorgeaient de charbon .
+1	Ses	son	DET	_	_	2	E	2:E	_
+2	soutes	soute	NOUN	_	_	3	A	3:A	_
+3	regorgeaient	regorgeer	VERB	_	_	0	H	0:H	_
+4	de	de	ADP	_	_	5	R	5:R	_
+5	charbon	charbon	NOUN	_	_	3	A	3:A	_
+6	.	.	PUNCT	_	_	5	U	5:U	_
+

@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 702007
+# text = Columbia Records simultaneously released Dylan , a haphazard collection of studio outtakes ( almost exclusively cover songs ) , which was widely interpreted as a churlish response to Dylan 's signing with a rival record label .
+1	Columbia	Columbia	PROPN	NNP	_	4	A	4:A	_
+2	Records	record	NOUN	NNS	_	1	Terminal	1:Terminal	_
+3	simultaneously	simultaneously	ADV	RB	_	4	D	4:D	_
+4	released	release	VERB	VBN	_	0	H	0:H	_
+5	Dylan	Dylan	PROPN	NNP	_	4	A	4:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	a	a	DET	DT	_	9	E	9:E	_
+8	haphazard	haphazard	ADJ	JJ	_	9	E	9:E	_
+9	collection	collection	NOUN	NN	_	5	E	5:E	_
+10	of	of	ADP	IN	_	12	R	12:R	_
+11	studio	studio	NOUN	NN	_	12	E	12:E	_
+12	outtakes	outtake	NOUN	NNS	_	9	E	9:E	_
+13	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+14	almost	almost	ADV	RB	_	15	E	15:E	_
+15	exclusively	exclusively	ADV	RB	_	17	E	17:E	_
+16	cover	cover	VERB	VBP	_	17	E	17:E	_
+17	songs	song	NOUN	NNS	_	5	E	5:E	_
+18	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+19	,	,	PUNCT	,	_	4	U	4:U	_
+20	which	which	PRON	WDT	_	4	L	4:L	_
+21	was	be	AUX	VBD	_	23	F	23:F	_
+22	widely	widely	ADV	RB	_	23	D	23:D	_
+23	interpreted	interpret	VERB	VBN	_	4	H	4:H	_
+24	as	as	ADP	IN	_	27	R	27:R	_
+25	a	a	DET	DT	_	26	E	26:E	_
+26	churlish	churlish	NOUN	NN	_	27	D	27:D	_
+27	response	response	NOUN	NN	_	23	A	23:A	_
+28	to	to	ADP	IN	_	31	R	31:R	_
+29	Dylan	Dylan	PROPN	NNP	_	31	A	31:A	_
+30	's	's	PART	POS	_	29	R	29:R	_
+31	signing	signing	NOUN	NN	_	27	A	27:A	_
+32	with	with	ADP	IN	_	36	R	36:R	_
+33	a	a	DET	DT	_	36	E	36:E	_
+34	rival	rival	NOUN	NN	_	36	E	36:E	_
+35	record	record	NOUN	NN	_	36	E	36:E	_
+36	label	label	NOUN	NN	_	31	A	31:A	_
+37	.	.	PUNCT	.	_	36	U	36:U	_
+

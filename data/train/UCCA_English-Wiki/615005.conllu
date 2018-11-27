@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 615005
+# text = McCartney 's earliest musical influences include Little Richard , Elvis Presley , Buddy Holly , Carl Perkins , and Chuck Berry .
+1	McCartney	McCartney	PROPN	NNP	_	5	E	5:E	_
+2	's	's	PART	POS	_	1	R	1:R	_
+3	earliest	earliest	ADJ	JJS	_	5	E	5:E	_
+4	musical	musical	ADJ	JJ	_	5	E	5:E	_
+5	influences	influence	NOUN	NNS	_	6	A	6:A	_
+6	include	include	VERB	VBP	_	0	H	0:H	_
+7	Little	Little	PROPN	NNP	_	6	A	6:A	_
+8	Richard	Richard	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	Elvis	Elvis	PROPN	NNP	_	7	C	7:C	_
+11	Presley	Presley	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	7	U	7:U	_
+13	Buddy	buddy	PROPN	NNP	_	7	C	7:C	_
+14	Holly	Holly	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	7	U	7:U	_
+16	Carl	Carl	PROPN	NNP	_	7	C	7:C	_
+17	Perkins	Perkins	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	,	,	PUNCT	,	_	7	U	7:U	_
+19	and	and	CCONJ	CC	_	7	N	7:N	_
+20	Chuck	Chuck	PROPN	NNP	_	7	C	7:C	_
+21	Berry	berry	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	.	_	7	U	7:U	_
+

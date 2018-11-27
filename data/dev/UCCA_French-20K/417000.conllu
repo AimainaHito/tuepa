@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 417000
+# text = J' étais parfaitement au courant de la question à l' ordre du jour , et comment ne l' aurais - je pas été ?
+1	J'	je	PRON	_	_	2	A	2:A	_
+2	étais	être	AUX	_	_	0	H	0:H	_
+3	parfaitement	parfaitement	ADV	_	_	2	D	2:D	_
+4	au	are	VERB	_	_	2	Terminal	2:Terminal	_
+5	courant	courant	NOUN	_	_	2	Terminal	2:Terminal	_
+6	de	de	ADP	_	_	8	R	8:R	_
+7	la	le	DET	_	_	8	E	8:E	_
+8	question	question	NOUN	_	_	2	A	2:A	_
+9	à	à	ADP	_	_	11	R	11:R	_
+10	l'	le	DET	_	_	11	E	11:E	_
+11	ordre	ordre	NOUN	_	_	8	E	8:E	_
+12	du	du	DET	_	_	13	R	13:R	_
+13	jour	jour	NOUN	_	_	11	E	11:E	_
+14	,	,	PUNCT	_	_	2	U	2:U	_
+15	et	et	CCONJ	_	_	2	L	2:L	_
+16	comment	comment	ADV	_	_	23	D	23:D	_
+17	ne	ne	ADV	_	_	23	D	23:D	_
+18	l'	le	DET	_	_	23	A	23:A	_
+19	aurais	avoir	NOUN	_	_	23	F	23:F	_
+20	-	-	PUNCT	_	_	23	U	23:U	_
+21	je	il	PRON	_	_	23	A	23:A	_
+22	pas	pas	ADV	_	_	17	Terminal	17:Terminal	_
+23	été	être	AUX	_	_	2	H	2:H	_
+24	?	?	PUNCT	_	_	23	U	23:U	_
+

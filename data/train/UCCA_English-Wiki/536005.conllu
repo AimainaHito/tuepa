@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 536005
+# text = Although Warner was feared by many of his employees and inspired ridicule with his uneven attempts at humor , he earned respect for his shrewd instincts and toughmindedness .
+1	Although	although	SCONJ	IN	_	4	L	4:L	_
+2	Warner	Warner	PROPN	NNP	_	4	A	4:A|11:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	feared	fear	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	9	R	9:R	_
+6	many	many	ADJ	JJ	_	9	E	9:E	_
+7	of	of	ADP	IN	_	6	R	6:R	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	employees	employee	NOUN	NNS	_	4	A	4:A	_
+10	and	and	CCONJ	CC	_	4	L	4:L	_
+11	inspired	inspire	VERB	VBN	_	4	H	4:H	_
+12	ridicule	ridicule	NOUN	NN	_	11	A	11:A	_
+13	with	with	ADP	IN	_	16	R	16:R	_
+14	his	he	PRON	PRP$	_	16	A	16:A	_
+15	uneven	uneven	ADJ	JJ	_	16	D	16:D	_
+16	attempts	attempt	NOUN	NNS	_	11	A	11:A	_
+17	at	at	ADP	IN	_	18	R	18:R	_
+18	humor	humor	NOUN	NN	_	16	A	16:A	_
+19	,	,	PUNCT	,	_	4	U	4:U	_
+20	he	he	PRON	PRP	_	22	A	22:A	_
+21	earned	earn	VERB	VBD	_	22	D	22:D	_
+22	respect	respect	NOUN	NN	_	4	H	4:H	_
+23	for	for	ADP	IN	_	26	R	26:R	_
+24	his	he	PRON	PRP$	_	26	E	26:E	_
+25	shrewd	shrewd	ADJ	JJ	_	26	E	26:E	_
+26	instincts	instinct	NOUN	NNS	_	22	A	22:A	_
+27	and	and	CCONJ	CC	_	26	N	26:N	_
+28	toughmindedness	toughmindedness	NOUN	NN	_	26	C	26:C	_
+29	.	.	PUNCT	.	_	26	U	26:U	_
+

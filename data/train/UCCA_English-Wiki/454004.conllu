@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 454004
+# text = " Jennings , too , was not completely satisfied with his job in London .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	Jennings	Jenning	NOUN	NNS	_	9	A	9:A	_
+3	,	,	PUNCT	,	_	9	U	9:U	_
+4	too	too	ADV	RB	_	9	D	9:D	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	was	be	AUX	VBD	_	9	F	9:F	_
+7	not	not	PART	RB	_	8	E	8:E	_
+8	completely	completely	ADV	RB	_	9	D	9:D	_
+9	satisfied	satisfied	ADJ	JJ	_	0	H	0:H	_
+10	with	with	ADP	IN	_	12	R	12:R	_
+11	his	he	PRON	PRP$	_	12	E	12:E	_
+12	job	job	NOUN	NN	_	9	A	9:A	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	London	London	PROPN	NNP	_	12	E	12:E	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

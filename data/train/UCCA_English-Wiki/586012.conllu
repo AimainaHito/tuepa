@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 586012
+# text = Depp starred in a lead role on the Fox television series , 21 Jump Street , which premiered in 1987 .
+1	Depp	Depp	PROPN	NNP	_	2	A	2:A	_
+2	starred	star	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	6	R	6:R	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	lead	lead	ADJ	JJ	_	6	E	6:E	_
+6	role	role	NOUN	NN	_	2	A	2:A	_
+7	on	on	ADP	IN	_	13	R	13:R	_
+8	the	the	DET	DT	_	13	E	13:E	_
+9	Fox	Fox	PROPN	NNPS	_	11	E	11:E	_
+10	television	television	NOUN	NN	_	11	E	11:E	_
+11	series	series	NOUN	NNS	_	13	E	13:E	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	21	21	NUM	CD	_	2	A	2:A	_
+14	Jump	jump	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Street	street	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	,	,	PUNCT	,	_	13	U	13:U	_
+17	which	which	PRON	WDT	_	18	R	18:R	_
+18	premiered	premier	VERB	VBD	_	13	E	13:E	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	1987	1987	NUM	CD	_	18	D	18:D	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

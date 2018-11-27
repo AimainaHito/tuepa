@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25722009
+# text = Konnte nicht morgen Kapitän Nemo uns in die weite See hinaus nach allen Welt gegenden hin schleppen ?
+1	Konnte	können	AUX	VMFIN	_	17	D	17:D	_
+2	nicht	nicht	PART	XY	_	17	D	17:D	_
+3	morgen	morgen	ADV	ADV	_	17	D	17:D	_
+4	Kapitän	Kapitän	PROPN	NN	_	5	E	5:E	_
+5	Nemo	Nemo	PROPN	NE	_	17	A	17:A	_
+6	uns	wir	PRON	NE	_	17	A	17:A	_
+7	in	in	ADP	APPR	_	10	R	10:R	_
+8	die	der	DET	ART	_	10	E	10:E	_
+9	weite	weit	ADJ	NN	_	10	E	10:E	_
+10	See	See	NOUN	NE	_	17	A	17:A	_
+11	hinaus	hinaus	ADV	ADV	_	7	Terminal	7:Terminal	_
+12	nach	nach	ADP	NN	_	15	R	15:R	_
+13	allen	alle	PRON	PIS	_	15	E	15:E	_
+14	Welt	Welt	NOUN	NN	_	15	E	15:E	_
+15	gegenden	gegend	ADJ	VVINF	_	17	A	17:A	_
+16	hin	hin	ADV	ADV	_	12	Terminal	12:Terminal	_
+17	schleppen	schleppen	VERB	VVINF	_	0	H	0:H	_
+18	?	?	PUNCT	$.	_	17	U	17:U	_
+

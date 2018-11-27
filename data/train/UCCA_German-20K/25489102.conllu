@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25489102
+# text = « » Oh « , sagte Conseil , » es gibt so dumme Leute ... ! « Wie er dies sagte , öffnete sich die Tür .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Oh	Oh	PROPN	ADJD	_	6	A	6:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	Conseil	Conseil	PROPN	NE	_	6	A	6:A	_
+8	,	,	PUNCT	$,	_	6	U	6:U	_
+9	»	»	PUNCT	$(	_	6	U	6:U	_
+10	es	es	PRON	PPER	_	11	F	11:F	_
+11	gibt	geben	VERB	VVFIN	_	3	H	3:H	_
+12	so	so	ADV	ADV	_	13	E	13:E	_
+13	dumme	dumm	ADJ	ADJA	_	14	E	14:E	_
+14	Leute	Leute	NOUN	NN	_	11	A	11:A	_
+15	...	...	PUNCT	$(	_	6	U	6:U	_
+16	!	!	PUNCT	$.	_	6	U	6:U	_
+17	«	«	PUNCT	$(	_	6	U	6:U	_
+18	Wie	wie	CCONJ	NE	_	21	D	21:D	_
+19	er	er	PRON	PPER	_	21	A	21:A	_
+20	dies	dies	PRON	PDS	_	21	A	21:A	_
+21	sagte	sagen	VERB	VVFIN	_	6	H	6:H	_
+22	,	,	PUNCT	$,	_	6	U	6:U	_
+23	öffnete	öffnen	VERB	VVFIN	_	6	H	6:H	_
+24	sich	er|es|sie	PRON	PRF	_	23	Terminal	23:Terminal	_
+25	die	der	DET	ART	_	26	E	26:E	_
+26	Tür	Tür	NOUN	NN	_	23	A	23:A	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

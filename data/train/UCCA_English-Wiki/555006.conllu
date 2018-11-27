@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 555006
+# text = When his protégé was 12 years old , Slim scheduled him for two on - air performances .
+1	When	when	ADV	WRB	_	6	L	6:L	_
+2	his	he	PRON	PRP$	_	3	E	3:E	_
+3	protégé	protégé	NOUN	NN	_	6	A	6:A	_
+4	was	be	AUX	VBD	_	6	D	6:D	_
+5	12	12	NUM	CD	_	6	E	6:E	_
+6	years	year	NOUN	NNS	_	0	H	0:H	_
+7	old	old	ADJ	JJ	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	Slim	Slim	PROPN	NNP	_	10	A	10:A	_
+10	scheduled	schedul	VERB	VBN	_	6	H	6:H	_
+11	him	he	PRON	PRP	_	10	A	10:A	_
+12	for	for	ADP	IN	_	17	R	17:R	_
+13	two	two	NUM	CD	_	17	E	17:E	_
+14	on	on	ADP	IN	_	17	E	17:E	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	air	air	NOUN	NN	_	14	Terminal	14:Terminal	_
+17	performances	performance	NOUN	NNS	_	10	A	10:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

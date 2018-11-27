@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 528013
+# text = Upon its September 29 , 1954 world premiere , the film was met with tremendous critical and popular acclaim .
+1	Upon	upon	ADP	IN	_	8	L	8:L	_
+2	its	its	PRON	PRP$	_	8	E	8:E	_
+3	September	September	PROPN	NNP	_	8	E	8:E	_
+4	29	29	NUM	CD	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	,	_	3	U	3:U	_
+6	1954	1954	NUM	CD	_	3	Terminal	3:Terminal	_
+7	world	world	NOUN	NN	_	8	E	8:E	_
+8	premiere	premiere	ADV	RB	_	0	H	0:H	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	the	the	DET	DT	_	11	E	11:E	_
+11	film	film	NOUN	NN	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	met	meet	VERB	VBN	_	8	H	8:H	_
+14	with	with	ADP	IN	_	19	R	19:R	_
+15	tremendous	tremendous	ADJ	JJ	_	19	E	19:E	_
+16	critical	critical	ADJ	JJ	_	19	E	19:E	_
+17	and	and	CCONJ	CC	_	16	N	16:N	_
+18	popular	popular	ADJ	JJ	_	16	C	16:C	_
+19	acclaim	acclaim	NOUN	NNS	_	13	A	13:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

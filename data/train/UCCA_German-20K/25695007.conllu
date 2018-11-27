@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25695007
+# text = An diesem Tag , zu r Mittags stunde , kam Kapitän Nemo auf die Plattform , wo ich bereits mich befand .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Tag	Tag	NOUN	NN	_	10	D	10:D	_
+4	,	,	PUNCT	$,	_	10	U	10:U	_
+5	zu	zu	ADP	NE	_	8	R	8:R	_
+6	r	r	ADJ	NE	_	8	E	8:E	_
+7	Mittags	Mittag	NOUN	NN	_	8	E	8:E	_
+8	stunde	stunde	ADJ	NN	_	10	D	10:D	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	kam	kommen	VERB	VVFIN	_	0	H	0:H	_
+11	Kapitän	Kapitän	PROPN	NN	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	10	A	10:A	_
+13	auf	auf	ADP	APPR	_	15	R	15:R	_
+14	die	der	DET	ART	_	15	E	15:E	_
+15	Plattform	Plattform	NOUN	NN	_	10	A	10:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	wo	wo	ADV	NN	_	20	R	20:R	_
+18	ich	ich	PRON	PPER	_	20	A	20:A	_
+19	bereits	bereits	ADV	ADV	_	20	D	20:D	_
+20	mich	ich	PRON	PRF	_	15	E	15:E	_
+21	befand	befinden	VERB	VVFIN	_	20	Terminal	20:Terminal	_
+22	.	.	PUNCT	$.	_	20	U	20:U	_
+

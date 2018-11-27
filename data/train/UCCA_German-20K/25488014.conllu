@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25488014
+# text = Meine Kleider hinderten mich .
+1	Meine	mein	PRON	PPOSAT	_	2	E	2:E	_
+2	Kleider	Kleider	NOUN	NE	_	3	A	3:A	_
+3	hinderten	hindern	VERB	VVFIN	_	0	H	0:H	_
+4	mich	ich	PRON	PPER	_	3	A	3:A	_
+5	.	.	PUNCT	$.	_	3	U	3:U	_
+

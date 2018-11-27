@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25756015
+# text = » Ah ! Herr Professor , was sagen Sie mir da ? « erwiderte der Kanadier etwas ungläubig .
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Ah	Ah	PROPN	NN	_	14	A	14:A	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	Herr	Herr	PROPN	NN	_	5	E	5:E	_
+5	Professor	Professor	PROPN	NN	_	8	G	8:G	_
+6	,	,	PUNCT	$,	_	8	U	8:U	_
+7	was	was	PRON	NE	_	8	A	8:A	_
+8	sagen	sagen	VERB	VVFIN	_	2	H	2:H	_
+9	Sie	Sie|sie	PRON	PPER	_	8	A	8:A	_
+10	mir	ich	PRON	PPER	_	8	A	8:A	_
+11	da	da	ADV	ADV	_	8	D	8:D	_
+12	?	?	PUNCT	$.	_	14	U	14:U	_
+13	«	«	PUNCT	$(	_	14	U	14:U	_
+14	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+15	der	der	DET	ART	_	16	E	16:E	_
+16	Kanadier	Kanadier	NOUN	NN	_	14	A	14:A	_
+17	etwas	etwas	ADV	ADV	_	18	E	18:E	_
+18	ungläubig	ungläubig	ADJ	ADJD	_	14	D	14:D	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

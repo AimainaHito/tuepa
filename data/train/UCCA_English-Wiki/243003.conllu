@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 243003
+# text = In 1995 , he starred in the romantic drama Before Sunrise , and later in the 2004 sequel Before Sunset .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1995	1995	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	he	he	PRON	PRP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	romantic	romantic	ADJ	JJ	_	9	E	9:E	_
+9	drama	drama	NOUN	NN	_	10	E	10:E	_
+10	Before	before	ADP	IN	_	5	A	5:A	_
+11	Sunrise	Sunrise	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	5	U	5:U	_
+13	and	and	CCONJ	CC	_	5	L	5:L	_
+14	later	later	ADV	RBR	_	19	D	19:D	_
+15	in	in	ADP	IN	_	19	E	19:E	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	2004	2004	NUM	CD	_	19	E	19:E	_
+18	sequel	sequel	NOUN	NN	_	19	E	19:E	_
+19	Before	before	ADP	IN	_	5	H	5:H	_
+20	Sunset	Sunset	NOUN	NN	_	19	Terminal	19:Terminal	_
+21	.	.	PUNCT	.	_	19	U	19:U	_
+

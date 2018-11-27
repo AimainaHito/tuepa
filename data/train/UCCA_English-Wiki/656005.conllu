@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 656005
+# text = In 2002 , the airport in Lennon 's home town was renamed the Liverpool John Lennon Airport .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	2002	2002	NUM	CD	_	12	D	12:D	_
+3	,	,	PUNCT	,	_	12	U	12:U	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	airport	airport	NOUN	NN	_	12	A	12:A	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	Lennon	Lennon	PROPN	NNP	_	10	E	10:E	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	home	home	NOUN	NN	_	10	E	10:E	_
+10	town	town	NOUN	NN	_	5	E	5:E	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	renamed	rename	VERB	VBN	_	0	H	0:H	_
+13	the	the	DET	DT	_	17	E	17:E	_
+14	Liverpool	Liverpool	PROPN	NNP	_	17	E	17:E	_
+15	John	John	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	Lennon	Lennon	PROPN	NNP	_	14	Terminal	14:Terminal	_
+17	Airport	airport	PROPN	NNP	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

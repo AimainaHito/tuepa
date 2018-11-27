@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 495014
+# text = " Studying the dramatic arts under Kemp , from avant - garde theatre and mime to commedia dell ' arte , Bowie became immersed in the creation of personae to present to the world .
+1	"	"	PUNCT	``	_	2	U	2:U	_
+2	Studying	study	VERB	VBG	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	dramatic	dramatic	ADJ	JJ	_	5	E	5:E	_
+5	arts	art	NOUN	NNS	_	2	A	2:A	_
+6	under	under	ADP	IN	_	7	R	7:R	_
+7	Kemp	Kemp	PROPN	NNP	_	2	A	2:A	_
+8	,	,	PUNCT	,	_	2	U	2:U	_
+9	from	from	ADP	IN	_	13	R	13:R	_
+10	avant	avant	NOUN	NN	_	13	E	13:E	_
+11	-	-	PUNCT	HYPH	_	10	U	10:U	_
+12	garde	garde	NOUN	NN	_	10	Terminal	10:Terminal	_
+13	theatre	theatre	NOUN	NN	_	2	A	2:A	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	mime	mime	NOUN	NN	_	13	C	13:C	_
+16	to	to	ADP	IN	_	13	N	13:N	_
+17	commedia	commedia	NOUN	NN	_	13	C	13:C	_
+18	dell	dell	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	'	'	PUNCT	''	_	17	U	17:U	_
+20	arte	arte	NOUN	NN	_	17	Terminal	17:Terminal	_
+21	,	,	PUNCT	,	_	2	U	2:U	_
+22	Bowie	Bowie	PROPN	NNP	_	24	A	24:A|27:A|2:A	_
+23	became	become	VERB	VBD	_	24	D	24:D	_
+24	immersed	immerse	VERB	VBN	_	2	H	2:H	_
+25	in	in	ADP	IN	_	27	R	27:R	_
+26	the	the	DET	DT	_	27	E	27:E	_
+27	creation	creation	NOUN	NN	_	24	A	24:A	_
+28	of	of	ADP	IN	_	29	R	29:R	_
+29	personae	persona	NOUN	NN	_	27	A	27:A	_
+30	to	to	PART	TO	_	31	F	31:F	_
+31	present	present	VERB	VB	_	29	E	29:E	_
+32	to	to	ADP	IN	_	34	R	34:R	_
+33	the	the	DET	DT	_	34	E	34:E	_
+34	world	world	NOUN	NN	_	31	A	31:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

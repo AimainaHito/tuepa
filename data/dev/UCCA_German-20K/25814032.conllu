@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25814032
+# text = An manchen Stellen fließt er mit einer Schnelligkeit von 4 Kilometer die Stunde .
+1	An	an	ADP	APPR	_	3	E	3:E	_
+2	manchen	manch	PRON	PIAT	_	3	E	3:E	_
+3	Stellen	Stelle|Stellen	NOUN	NN	_	4	A	4:A	_
+4	fließt	fließen	VERB	VVFIN	_	0	H	0:H	_
+5	er	er	PRON	PPER	_	4	A	4:A	_
+6	mit	mit	ADP	APPR	_	8	R	8:R	_
+7	einer	ein	DET	ART	_	8	E	8:E	_
+8	Schnelligkeit	Schnelligkeit	NOUN	NN	_	4	A	4:A	_
+9	von	von	ADP	NE	_	11	R	11:R	_
+10	4	4	NUM	CARD	_	11	E	11:E	_
+11	Kilometer	Kilometer	NOUN	NN	_	8	E	8:E	_
+12	die	der	DET	ART	_	11	Terminal	11:Terminal	_
+13	Stunde	Stunde	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	.	.	PUNCT	$.	_	11	U	11:U	_
+

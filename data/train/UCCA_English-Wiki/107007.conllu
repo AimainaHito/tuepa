@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 107007
+# text = She also won her first Screen Actors Guild Award .
+1	She	she	PRON	PRP	_	3	A	3:A	_
+2	also	also	ADV	RB	_	3	D	3:D	_
+3	won	win	VERB	VBD	_	0	H	0:H	_
+4	her	she	PRON	PRP$	_	5	E	5:E	_
+5	first	first	ADJ	JJ	_	9	E	9:E	_
+6	Screen	screen	NOUN	NN	_	7	E	7:E	_
+7	Actors	Actors	NOUN	NNS	_	8	E	8:E	_
+8	Guild	guild	PROPN	NNP	_	9	E	9:E	_
+9	Award	Award	PROPN	NNP	_	3	A	3:A	_
+10	.	.	PUNCT	.	_	9	U	9:U	_
+

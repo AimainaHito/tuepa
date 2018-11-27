@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25653006
+# text = Ihre lebhaften Farben rechtfertigen die poetischen Namen » Blutblumen « und » Blutschaum « , die der Handel ihren schönsten Produkten gibt .
+1	Ihre	Ihr|ihr	DET	PPOSAT	_	3	E	3:E	_
+2	lebhaften	lebhaft	ADJ	ADJA	_	3	E	3:E	_
+3	Farben	Farbe	NOUN	NN	_	4	A	4:A	_
+4	rechtfertigen	rechtfertigen	VERB	VVFIN	_	0	H	0:H	_
+5	die	der	DET	ART	_	7	E	7:E	_
+6	poetischen	poetisch	ADJ	ADJA	_	7	E	7:E	_
+7	Namen	Name	NOUN	NN	_	4	A	4:A	_
+8	»	»	PUNCT	$(	_	7	U	7:U	_
+9	Blutblumen	Blutblumen	NOUN	NE	_	7	E	7:E	_
+10	«	«	PUNCT	$(	_	9	U	9:U	_
+11	und	und	CCONJ	NE	_	9	N	9:N	_
+12	»	»	PUNCT	$(	_	9	U	9:U	_
+13	Blutschaum	Blutschaum	NOUN	NN	_	9	C	9:C	_
+14	«	«	PUNCT	$(	_	7	U	7:U	_
+15	,	,	PUNCT	$,	_	7	U	7:U	_
+16	die	der	PRON	PRELS	_	22	R	22:R	_
+17	der	der	DET	ART	_	18	E	18:E	_
+18	Handel	Handel	NOUN	NN	_	22	A	22:A	_
+19	ihren	ihr	DET	PPOSAT	_	21	E	21:E	_
+20	schönsten	schön	ADJ	ADJA	_	21	E	21:E	_
+21	Produkten	Produkt	NOUN	NN	_	22	A	22:A	_
+22	gibt	geben	VERB	VVFIN	_	7	E	7:E	_
+23	.	.	PUNCT	$.	_	22	U	22:U	_
+

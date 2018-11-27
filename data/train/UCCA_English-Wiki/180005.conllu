@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 180005
+# text = Gyllenhaal has also appeared in such theatrical plays as Closer ( 2000 ) as well as in television productions like Strip Search ( 2004 ) .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	4	A	4:A	_
+2	has	have	AUX	VBZ	_	4	F	4:F	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	appeared	appeare	VERB	VBN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	8	R	8:R	_
+6	such	such	ADJ	JJ	_	8	R	8:R	_
+7	theatrical	theatrical	ADJ	JJ	_	8	E	8:E	_
+8	plays	play	NOUN	NNS	_	4	A	4:A	_
+9	as	as	ADP	IN	_	6	Terminal	6:Terminal	_
+10	Closer	closer	PROPN	NNP	_	8	C	8:C	_
+11	(	(	PUNCT	-LRB-	_	10	U	10:U	_
+12	2000	2000	NUM	CD	_	10	E	10:E	_
+13	)	)	PUNCT	-RRB-	_	8	U	8:U	_
+14	as	as	ADV	RB	_	8	N	8:N	_
+15	well	well	ADV	RB	_	14	Terminal	14:Terminal	_
+16	as	as	ADP	IN	_	14	Terminal	14:Terminal	_
+17	in	in	ADP	IN	_	14	R	14:R	_
+18	television	television	NOUN	NN	_	19	E	19:E	_
+19	productions	production	NOUN	NNS	_	8	C	8:C	_
+20	like	like	ADP	IN	_	21	R	21:R	_
+21	Strip	Strip	PROPN	NNP	_	19	E	19:E	_
+22	Search	search	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	(	(	PUNCT	-LRB-	_	21	U	21:U	_
+24	2004	2004	NUM	CD	_	21	E	21:E	_
+25	)	)	PUNCT	-RRB-	_	21	U	21:U	_
+26	.	.	PUNCT	.	_	21	U	21:U	_
+

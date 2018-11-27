@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25462001
+# text = Die ›Abraham Lincoln‹ änderte ihre Richtung , das signalisierte Tier anzugreifen , Walfisch oder Pottfisch , es verschwand jedoch bald von einem Hagel von Flüchen begleitet !
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Abraham	›Abraham	PROPN	NE	_	4	A	4:A	_
+3	Lincoln‹	Lincoln‹	NOUN	NE	_	2	Terminal	2:Terminal	_
+4	änderte	ändern	VERB	VVFIN	_	0	H	0:H	_
+5	ihre	ihr	DET	PPOSAT	_	6	E	6:E	_
+6	Richtung	Richtung	NOUN	NN	_	4	A	4:A	_
+7	,	,	PUNCT	$,	_	4	U	4:U	_
+8	das	der	DET	PRELS	_	9	F	9:F	_
+9	signalisierte	signalisiert	ADJ	VVFIN	_	4	H	4:H	_
+10	Tier	Tier	NOUN	NN	_	11	A	11:A	_
+11	anzugreifen	angreifen	VERB	VVIZU	_	9	A	9:A	_
+12	,	,	PUNCT	$,	_	11	U	11:U	_
+13	Walfisch	Walfisch	NOUN	NN	_	10	E	10:E	_
+14	oder	oder	CCONJ	CARD	_	13	N	13:N	_
+15	Pottfisch	Pottfisch	NOUN	NN	_	13	C	13:C	_
+16	,	,	PUNCT	$,	_	4	U	4:U	_
+17	es	es	PRON	PPER	_	18	A	18:A|26:A	_
+18	verschwand	verschwinden	VERB	VVFIN	_	4	H	4:H	_
+19	jedoch	jedoch	ADV	ADV	_	4	L	4:L	_
+20	bald	bald	ADV	ADV	_	18	D	18:D	_
+21	von	von	ADP	NN	_	25	R	25:R	_
+22	einem	ein	DET	ART	_	23	E	23:E	_
+23	Hagel	Hagel	NOUN	NN	_	25	E	25:E	_
+24	von	von	ADP	NE	_	23	R	23:R	_
+25	Flüchen	Flüchen	NOUN	NE	_	26	A	26:A	_
+26	begleitet	begleiten	VERB	VVPP	_	4	H	4:H	_
+27	!	!	PUNCT	$.	_	26	U	26:U	_
+

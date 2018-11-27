@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 553009
+# text = His energized interpretations of songs , many from African - American sources , and his uninhibited performance style made him enormously popular - and controversial .
+1	His	he	PRON	PRP$	_	3	A	3:A	_
+2	energized	energize	VERB	VBD	_	3	E	3:E	_
+3	interpretations	interpretation	NOUN	NNS	_	19	A	19:A	_
+4	of	of	ADP	IN	_	5	R	5:R	_
+5	songs	song	NOUN	NNS	_	3	A	3:A	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	many	many	ADJ	JJ	_	12	E	12:E	_
+8	from	from	ADP	IN	_	12	R	12:R	_
+9	African	african	ADJ	JJ	_	12	E	12:E	_
+10	-	-	PUNCT	HYPH	_	9	U	9:U	_
+11	American	american	ADJ	JJ	_	9	Terminal	9:Terminal	_
+12	sources	source	NOUN	NNS	_	5	E	5:E	_
+13	,	,	PUNCT	,	_	3	U	3:U	_
+14	and	and	CCONJ	CC	_	3	N	3:N	_
+15	his	he	PRON	PRP$	_	18	A	18:A	_
+16	uninhibited	uninhibit	ADJ	JJ	_	18	E	18:E	_
+17	performance	performance	NOUN	NN	_	18	E	18:E	_
+18	style	style	NOUN	NN	_	3	C	3:C	_
+19	made	make	VERB	VBD	_	0	H	0:H	_
+20	him	he	PRON	PRP	_	19	A	19:A	_
+21	enormously	enormously	ADV	RB	_	22	E	22:E	_
+22	popular	popular	ADJ	JJ	_	19	A	19:A	_
+23	-	-	PUNCT	,	_	22	U	22:U	_
+24	and	and	CCONJ	CC	_	22	N	22:N	_
+25	controversial	controversial	ADJ	JJ	_	22	C	22:C	_
+26	.	.	PUNCT	.	_	22	U	22:U	_
+

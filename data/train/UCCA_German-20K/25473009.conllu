@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25473009
+# text = » Ned Land « , fragte der Kommandant , » Sie haben wohl oft das brausende Zischen der Walfische gehört ? «
+1	»	»	PUNCT	$(	_	20	U	20:U	_
+2	Ned	Ned	PROPN	NN	_	20	G	20:G	_
+3	Land	Land	PROPN	NN	_	2	Terminal	2:Terminal	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kommandant	Kommandant	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	Sie	Sie|sie	PRON	PPER	_	20	A	20:A	_
+12	haben	haben	VERB	VAFIN	_	20	F	20:F	_
+13	wohl	wohl	ADV	ADV	_	20	G	20:G	_
+14	oft	oft	ADV	CARD	_	20	D	20:D	_
+15	das	der	DET	ART	_	17	E	17:E	_
+16	brausende	brausend	ADJ	ADJA	_	17	E	17:E	_
+17	Zischen	Zischen	NOUN	NE	_	20	A	20:A	_
+18	der	der	DET	ART	_	19	E	19:E	_
+19	Walfische	Walfisch	PROPN	ADJA	_	17	E	17:E	_
+20	gehört	gehört	ADJ	VVFIN	_	6	A	6:A	_
+21	?	?	PUNCT	$.	_	20	U	20:U	_
+22	«	«	PUNCT	$(	_	20	U	20:U	_
+

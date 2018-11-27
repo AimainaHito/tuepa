@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 530001
+# text = The first , the 1955 debut episode of Ford Star Jubilee , was the first full - scale color broadcast ever on CBS and was a ratings triumph , scoring a 34.8 Nielsen rating .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	first	first	ADJ	JJ	_	13	A	13:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	the	the	DET	DT	_	9	E	9:E	_
+5	1955	1955	NUM	CD	_	9	E	9:E	_
+6	debut	debut	NOUN	NN	_	7	E	7:E	_
+7	episode	episode	NOUN	NN	_	9	E	9:E	_
+8	of	of	ADP	IN	_	7	R	7:R	_
+9	Ford	Ford	PROPN	NNP	_	0	C	0:C|25:A|30:A	_
+10	Star	Star	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Jubilee	Jubilee	PROPN	NNP	_	9	Terminal	9:Terminal	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	was	be	AUX	VBD	_	0	H	0:H	_
+14	the	the	DET	DT	_	20	E	20:E	_
+15	first	first	ADJ	JJ	_	20	E	20:E	_
+16	full	full	ADJ	JJ	_	18	E	18:E	_
+17	-	-	PUNCT	HYPH	_	18	U	18:U	_
+18	scale	scale	NOUN	NN	_	19	E	19:E	_
+19	color	color	NOUN	NN	_	20	E	20:E	_
+20	broadcast	broadcast	VERB	VBD	_	13	A	13:A	_
+21	ever	ever	ADV	RB	_	20	E	20:E	_
+22	on	on	ADP	IN	_	23	R	23:R	_
+23	CBS	CBS	PROPN	NNP	_	20	E	20:E	_
+24	and	and	CCONJ	CC	_	13	L	13:L	_
+25	was	be	AUX	VBD	_	13	H	13:H	_
+26	a	a	DET	DT	_	28	E	28:E	_
+27	ratings	rating	NOUN	NN	_	28	E	28:E	_
+28	triumph	triumph	NOUN	NN	_	25	A	25:A	_
+29	,	,	PUNCT	,	_	13	U	13:U	_
+30	scoring	score	VERB	VBG	_	13	H	13:H	_
+31	a	a	DET	DT	_	34	E	34:E	_
+32	34.8	34.8	NUM	CD	_	34	E	34:E	_
+33	Nielsen	Nielsen	PROPN	NNP	_	34	E	34:E	_
+34	rating	rating	NOUN	NN	_	30	A	30:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

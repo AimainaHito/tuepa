@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 25764008
+# text = Der Schnee fiel in dicken Lagen , die so hart waren , dass man sie mit dem Beil zerhauen musste .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Schnee	Schnee	NOUN	NN	_	3	A	3:A	_
+3	fiel	fallen	VERB	VVFIN	_	0	H	0:H	_
+4	in	in	ADP	APPR	_	6	R	6:R	_
+5	dicken	dick	ADJ	ADJA	_	6	E	6:E	_
+6	Lagen	Lage	NOUN	NN	_	3	A	3:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	die	der	PRON	PRELS	_	10	R	10:R	_
+9	so	so	ADV	ADV	_	10	F	10:F	_
+10	hart	hart	ADJ	NN	_	6	E	6:E	_
+11	waren	sein	AUX	VAFIN	_	10	F	10:F	_
+12	,	,	PUNCT	$,	_	10	U	10:U	_
+13	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+14	man	man	PRON	PIS	_	19	A	19:A	_
+15	sie	sie	PRON	ADV	_	19	A	19:A	_
+16	mit	mit	ADP	APPR	_	18	R	18:R	_
+17	dem	der	DET	ART	_	18	E	18:E	_
+18	Beil	Beil	NOUN	NN	_	19	A	19:A	_
+19	zerhauen	zerhauen	VERB	VVINF	_	10	A	10:A	_
+20	musste	müssen	AUX	VVFIN	_	19	D	19:D	_
+21	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 653005
+# text = " Turner described how one of Lennon 's cartoons depicted a bus stop sign annotated with the question , " Why ? " . Above was a flying pancake , and below , " a blind man wearing glasses leading along a blind dog - also wearing glasses " .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	Turner	Turner	NOUN	NN	_	3	A	3:A	_
+3	described	describe	VERB	VBN	_	0	H	0:H	_
+4	how	how	ADV	WRB	_	10	D	10:D	_
+5	one	one	NUM	CD	_	9	E	9:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	Lennon	Lennon	PROPN	NNP	_	9	E	9:E	_
+8	's	's	PART	POS	_	9	R	9:R	_
+9	cartoons	cartoon	NOUN	NNS	_	10	A	10:A	_
+10	depicted	depict	VERB	VBD	_	3	A	3:A	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	bus	bus	NOUN	NN	_	13	E	13:E	_
+13	stop	stop	NOUN	NN	_	14	E	14:E	_
+14	sign	sign	NOUN	NN	_	15	A	15:A	_
+15	annotated	annotate	VERB	VBN	_	10	A	10:A	_
+16	with	with	ADP	IN	_	21	R	21:R	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	question	question	NOUN	NN	_	21	E	21:E	_
+19	,	,	PUNCT	,	_	21	U	21:U	_
+20	"	"	PUNCT	''	_	21	U	21:U	_
+21	Why	why	ADV	WRB	_	15	A	15:A	_
+22	?	?	PUNCT	.	_	15	U	15:U	_
+23	"	"	PUNCT	''	_	15	U	15:U	_
+24	.	.	PUNCT	.	_	15	U	15:U	_
+25	Above	above	PROPN	NNP	_	26	G	26:G	_
+26	was	be	AUX	VBD	_	15	H	15:H	_
+27	a	a	DET	DT	_	29	E	29:E	_
+28	flying	flying	VERB	VBG	_	29	E	29:E	_
+29	pancake	pancake	NOUN	NN	_	26	A	26:A	_
+30	,	,	PUNCT	,	_	15	U	15:U	_
+31	and	and	CCONJ	CC	_	15	L	15:L	_
+32	below	below	ADV	RB	_	40	G	40:G	_
+33	,	,	PUNCT	,	_	40	U	40:U	_
+34	"	"	PUNCT	''	_	40	U	40:U	_
+35	a	a	DET	DT	_	37	E	37:E	_
+36	blind	blind	ADJ	JJ	_	37	E	37:E	_
+37	man	man	NOUN	NN	_	40	A	40:A	_
+38	wearing	wear	VERB	VBG	_	37	E	37:E	_
+39	glasses	glasse	NOUN	NNS	_	38	A	38:A	_
+40	leading	lead	VERB	VBG	_	15	H	15:H	_
+41	along	along	ADP	IN	_	40	E	40:E	_
+42	a	a	DET	DT	_	44	E	44:E	_
+43	blind	blind	ADJ	JJ	_	44	E	44:E	_
+44	dog	dog	NOUN	NN	_	40	A	40:A	_
+45	-	-	PUNCT	,	_	44	U	44:U	_
+46	also	also	ADV	RB	_	47	D	47:D	_
+47	wearing	wear	VERB	VBG	_	44	E	44:E	_
+48	glasses	glasse	NOUN	NNS	_	47	A	47:A	_
+49	"	"	PUNCT	''	_	47	U	47:U	_
+50	.	.	PUNCT	.	_	47	U	47:U	_
+

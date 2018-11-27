@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25773002
+# text = Andere bedeckten die Felsen , sahen uns ohne Schüchternheit an , und drängten sich vertraulich um uns ; es waren Pinguine , die im Wasser ebenso flink und beweglich sind wie zu Lande unbeholfen und schwerfällig .
+1	Andere	ander	PRON	PIS	_	2	A	2:A|9:A|6:A|13:A	_
+2	bedeckten	bedecken	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	4	E	4:E	_
+4	Felsen	Felsen	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	sahen	sehen	VERB	VVFIN	_	2	H	2:H	_
+7	uns	wir	PRON	NN	_	6	A	6:A	_
+8	ohne	ohne	ADP	CARD	_	6	D	6:D	_
+9	Schüchternheit	Schüchternheit	NOUN	NN	_	6	A	6:A	_
+10	an	an	ADP	PTKVZ	_	6	Terminal	6:Terminal	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	und	und	CCONJ	NE	_	2	L	2:L	_
+13	drängten	drängen	VERB	VVFIN	_	2	H	2:H	_
+14	sich	er|es|sie	PRON	PRF	_	13	Terminal	13:Terminal	_
+15	vertraulich	vertraulich	ADJ	ADJD	_	13	D	13:D	_
+16	um	um	ADP	APPR	_	17	R	17:R	_
+17	uns	wir	PRON	NE	_	13	A	13:A	_
+18	;	;	PUNCT	$.	_	2	U	2:U	_
+19	es	es	PRON	PPER	_	20	F	20:F	_
+20	waren	sein	AUX	VAFIN	_	2	H	2:H	_
+21	Pinguine	Ruin|Pinguine	NOUN	NN	_	20	A	20:A	_
+22	,	,	PUNCT	$,	_	21	U	21:U	_
+23	die	der	DET	PRELS	_	27	R	27:R	_
+24	im	im	ADJ	NE	_	25	R	25:R	_
+25	Wasser	Wasser	NOUN	NN	_	27	A	27:A	_
+26	ebenso	ebenso	ADV	ADV	_	27	F	27:F	_
+27	flink	flink	ADJ	FM	_	21	E	21:E	_
+28	und	und	CCONJ	NE	_	27	N	27:N	_
+29	beweglich	beweglich	ADJ	ADJD	_	27	C	27:C	_
+30	sind	sein	AUX	NN	_	27	F	27:F	_
+31	wie	wie	ADP	NN	_	34	R	34:R	_
+32	zu	zu	ADP	NE	_	33	R	33:R	_
+33	Lande	Land	NOUN	NN	_	34	A	34:A	_
+34	unbeholfen	unbeholfen	VERB	VVINF	_	21	E	21:E	_
+35	und	und	CCONJ	NE	_	34	N	34:N	_
+36	schwerfällig	schwerfällig	ADJ	ADJD	_	34	C	34:C	_
+37	.	.	PUNCT	$.	_	34	U	34:U	_
+

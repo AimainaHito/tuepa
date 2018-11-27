@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25764001
+# text = Oft , wenn ich keinen Ausweg sah , dachte ich , wir seien unabänderlich festgefahren ; aber Kapitän Nemo entdeckte immer wieder neue Wege .
+1	Oft	oft	ADV	ADV	_	9	D	9:D	_
+2	,	,	PUNCT	$,	_	9	U	9:U	_
+3	wenn	wenn	SCONJ	VVFIN	_	9	L	9:L	_
+4	ich	ich	PRON	PPER	_	7	A	7:A	_
+5	keinen	kein	PRON	PIAT	_	7	D	7:D	_
+6	Ausweg	Ausweg	NOUN	NN	_	7	A	7:A	_
+7	sah	sehen	VERB	VVFIN	_	9	H	9:H	_
+8	,	,	PUNCT	$,	_	9	U	9:U	_
+9	dachte	denken	VERB	VVFIN	_	0	H	0:H	_
+10	ich	ich	PRON	PPER	_	9	A	9:A	_
+11	,	,	PUNCT	$,	_	9	U	9:U	_
+12	wir	wir	PRON	NE	_	15	A	15:A	_
+13	seien	sein	AUX	VAFIN	_	15	F	15:F	_
+14	unabänderlich	unabänderlich	ADJ	ADJD	_	15	D	15:D	_
+15	festgefahren	festfahren	VERB	VVPP	_	9	A	9:A	_
+16	;	;	PUNCT	$.	_	9	U	9:U	_
+17	aber	aber	ADV	ADV	_	9	L	9:L	_
+18	Kapitän	Kapitän	PROPN	NN	_	19	E	19:E	_
+19	Nemo	Nemo	PROPN	NE	_	20	A	20:A	_
+20	entdeckte	entdecken	VERB	VVFIN	_	9	H	9:H	_
+21	immer	immer	ADV	ADV	_	20	D	20:D	_
+22	wieder	wieder	ADV	NN	_	21	Terminal	21:Terminal	_
+23	neue	neu	ADJ	CARD	_	24	E	24:E	_
+24	Wege	Weg	NOUN	NN	_	20	A	20:A	_
+25	.	.	PUNCT	$.	_	24	U	24:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 209004
+# text = The film did relatively poorly with the critics and at the box office .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	5	A	5:A	_
+3	did	do	AUX	VBD	_	5	F	5:F	_
+4	relatively	relatively	ADV	RB	_	5	D	5:D	_
+5	poorly	poorly	ADV	RB	_	0	H	0:H	_
+6	with	with	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	critics	critic	NOUN	NNS	_	5	A	5:A	_
+9	and	and	CCONJ	CC	_	8	N	8:N	_
+10	at	at	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	box	box	NOUN	NN	_	8	C	8:C	_
+13	office	office	NOUN	NN	_	12	Terminal	12:Terminal	_
+14	.	.	PUNCT	.	_	12	U	12:U	_
+

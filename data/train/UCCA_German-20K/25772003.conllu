@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25772003
+# text = » Ja , mein Herr « , erwiderte der Kapitän , » und ich eile , den Fuß auf diesen Boden des Südpols zu setzen , wo bis jetzt noch kein menschliches Wesen aufgetreten ist . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Ja	Ja	PROPN	PTKANT	_	8	A	8:A	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	mein	mein	PRON	PPOSAT	_	5	E	5:E	_
+5	Herr	Herr	NOUN	NN	_	2	G	2:G	_
+6	«	«	PUNCT	$(	_	8	U	8:U	_
+7	,	,	PUNCT	$,	_	8	U	8:U	_
+8	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+9	der	der	DET	ART	_	10	E	10:E	_
+10	Kapitän	Kapitän	NOUN	NN	_	8	A	8:A	_
+11	,	,	PUNCT	$,	_	8	U	8:U	_
+12	»	»	PUNCT	$(	_	8	U	8:U	_
+13	und	und	CCONJ	NE	_	2	L	2:L	_
+14	ich	ich	PRON	PPER	_	17	A	17:A	_
+15	eile	eile	ADV	NN	_	17	D	17:D	_
+16	,	,	PUNCT	$,	_	17	U	17:U	_
+17	den	der	DET	ART	_	2	H	2:H	_
+18	Fuß	Fuß	NOUN	NN	_	17	Terminal	17:Terminal	_
+19	auf	auf	ADP	APPR	_	21	R	21:R	_
+20	diesen	dies	PRON	PDAT	_	21	E	21:E	_
+21	Boden	Boden	NOUN	NN	_	17	A	17:A	_
+22	des	der	DET	ART	_	23	R	23:R	_
+23	Südpols	Südpol	NOUN	NN	_	21	E	21:E	_
+24	zu	zu	PART	NN	_	17	F	17:F	_
+25	setzen	setzen	VERB	VVINF	_	17	Terminal	17:Terminal	_
+26	,	,	PUNCT	$,	_	17	U	17:U	_
+27	wo	wo	ADV	ADJA	_	34	R	34:R	_
+28	bis	bis	ADP	APPR	_	29	R	29:R	_
+29	jetzt	jetzt	ADV	ADV	_	34	D	34:D	_
+30	noch	noch	ADV	VVINF	_	34	D	34:D	_
+31	kein	kein	PRON	PIAT	_	34	D	34:D	_
+32	menschliches	menschlich	ADJ	ADJA	_	33	E	33:E	_
+33	Wesen	Wesen	NOUN	NN	_	34	A	34:A	_
+34	aufgetreten	auftreten	VERB	VVPP	_	23	E	23:E	_
+35	ist	sein	AUX	NN	_	34	F	34:F	_
+36	.	.	PUNCT	$.	_	34	U	34:U	_
+37	«	«	PUNCT	$(	_	34	U	34:U	_
+

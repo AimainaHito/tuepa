@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 25519006
+# text = « » Aber wie haben Sie diese bewundernswerte ›Nautilus‹ im stillen erbauen können ? «
+1	«	«	PUNCT	$(	_	12	U	12:U	_
+2	»	»	PUNCT	$(	_	12	U	12:U	_
+3	Aber	aber	CCONJ	KON	_	12	L	12:L	_
+4	wie	wie	ADV	ADV	_	12	D	12:D	_
+5	haben	haben	AUX	VAFIN	_	12	F	12:F	_
+6	Sie	Sie|sie	PRON	PPER	_	12	A	12:A	_
+7	diese	dies	PRON	PDS	_	9	E	9:E	_
+8	bewundernswerte	bewundernswert	ADJ	VVFIN	_	9	E	9:E	_
+9	›Nautilus‹	›Nautilus‹	NOUN	NE	_	12	A	12:A	_
+10	im	im	ADV	NE	_	11	R	11:R	_
+11	stillen	stillen	VERB	VVINF	_	12	D	12:D	_
+12	erbauen	erbauen	VERB	VVINF	_	0	H	0:H	_
+13	können	können	AUX	VMFIN	_	12	D	12:D	_
+14	?	?	PUNCT	$.	_	12	U	12:U	_
+15	«	«	PUNCT	$(	_	12	U	12:U	_
+

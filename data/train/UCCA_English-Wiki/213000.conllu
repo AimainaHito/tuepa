@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 213000
+# text = Kirsten Caroline Dunst ( born April 30 , 1982 ) is an American - German actress , singer and model .
+1	Kirsten	Kirsten	PROPN	NNP	_	5	A	5:A	_
+2	Caroline	Caroline	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Dunst	Dunst	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	(	(	PUNCT	-LRB-	_	5	U	5:U	_
+5	born	bear	VERB	VBN	_	11	A	11:A	_
+6	April	April	PROPN	NNP	_	5	D	5:D	_
+7	30	30	NUM	CD	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	1982	1982	NUM	CD	_	6	Terminal	6:Terminal	_
+10	)	)	PUNCT	-RRB-	_	11	U	11:U	_
+11	is	be	AUX	VBZ	_	0	H	0:H	_
+12	an	a	DET	DT	_	16	E	16:E	_
+13	American	american	ADJ	JJ	_	16	E	16:E	_
+14	-	-	PUNCT	HYPH	_	13	U	13:U	_
+15	German	german	ADJ	JJ	_	13	C	13:C	_
+16	actress	actress	NOUN	NN	_	11	A	11:A	_
+17	,	,	PUNCT	,	_	16	U	16:U	_
+18	singer	singer	NOUN	NN	_	16	C	16:C	_
+19	and	and	CCONJ	CC	_	16	N	16:N	_
+20	model	model	NOUN	NN	_	16	C	16:C	_
+21	.	.	PUNCT	.	_	16	U	16:U	_
+

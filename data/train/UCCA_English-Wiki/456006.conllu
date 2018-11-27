@@ -1,0 +1,48 @@
+# format = ucca
+# sent_id = 456006
+# text = He noted that Thomas and his accuser , Anita Hill , " have a very painful disagreement about some things the woman says the man did to her when they were working together ... You can ask your parents to tell you more .
+1	He	he	PRON	PRP	_	2	A	2:A|37:A	_
+2	noted	note	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	17	F	17:F	_
+4	Thomas	Thomas	PROPN	NNP	_	17	A	17:A	_
+5	and	and	CCONJ	CC	_	4	N	4:N	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	accuser	accuser	NOUN	NN	_	9	E	9:E	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	Anita	Anita	PROPN	NNP	_	4	C	4:C	_
+10	Hill	Hill	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	,	,	PUNCT	,	_	17	U	17:U	_
+12	"	"	PUNCT	``	_	17	U	17:U	_
+13	have	have	VERB	VB	_	17	F	17:F	_
+14	a	a	DET	DT	_	16	E	16:E	_
+15	very	very	ADV	RB	_	16	E	16:E	_
+16	painful	painful	ADJ	JJ	_	17	D	17:D	_
+17	disagreement	disagreement	NOUN	NN	_	2	A	2:A	_
+18	about	about	ADP	IN	_	23	R	23:R	_
+19	some	some	DET	DT	_	20	E	20:E	_
+20	things	thing	NOUN	NNS	_	23	A	23:A	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	woman	woman	NOUN	NN	_	23	A	23:A	_
+23	says	say	VERB	VBZ	_	17	A	17:A	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	man	man	NOUN	NN	_	23	A	23:A	_
+26	did	do	VERB	VBD	_	23	A	23:A	_
+27	to	to	ADP	IN	_	28	R	28:R	_
+28	her	she	PRON	PRP	_	26	A	26:A	_
+29	when	when	ADV	WRB	_	26	L	26:L	_
+30	they	they	PRON	PRP	_	32	A	32:A	_
+31	were	be	AUX	VBD	_	32	F	32:F	_
+32	working	work	VERB	VBG	_	26	H	26:H	_
+33	together	together	ADV	RB	_	32	D	32:D	_
+34	...	...	PUNCT	,	_	2	U	2:U	_
+35	You	you	PRON	PRP	_	37	A	37:A	_
+36	can	can	AUX	MD	_	37	D	37:D	_
+37	ask	ask	VERB	VB	_	2	H	2:H	_
+38	your	you	PRON	PRP$	_	39	E	39:E	_
+39	parents	parent	NOUN	NNS	_	37	A	37:A	_
+40	to	to	PART	TO	_	41	F	41:F	_
+41	tell	tell	VERB	VB	_	37	A	37:A	_
+42	you	you	PRON	PRP	_	41	A	41:A	_
+43	more	more	ADV	RBR	_	41	D	41:D	_
+44	.	.	PUNCT	.	_	41	U	41:U	_
+

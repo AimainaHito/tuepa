@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25437004
+# text = « » Wie es dem Herrn beliebt « , erwiderte Conseil ruhig .
+1	«	«	PUNCT	$(	_	10	U	10:U	_
+2	»	»	PUNCT	$(	_	10	U	10:U	_
+3	Wie	wie	CCONJ	NE	_	7	D	7:D	_
+4	es	es	PRON	PPER	_	7	A	7:A	_
+5	dem	der	DET	ART	_	6	R	6:R	_
+6	Herrn	Herr	NOUN	NN	_	7	A	7:A	_
+7	beliebt	beliebt	VERB	ADJD	_	10	A	10:A	_
+8	«	«	PUNCT	$(	_	10	U	10:U	_
+9	,	,	PUNCT	$,	_	10	U	10:U	_
+10	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+11	Conseil	Conseil	PROPN	NE	_	10	A	10:A	_
+12	ruhig	ruhig	ADJ	ADJD	_	10	D	10:D	_
+13	.	.	PUNCT	$.	_	10	U	10:U	_
+

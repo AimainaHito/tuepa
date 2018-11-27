@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25796021
+# text = Die ›Nautilus‹ fuhr mit der schrecklichen Geschwindigkeit von 40 Meilen in der Stunde .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	›Nautilus‹	›Nautilus‹	NOUN	NE	_	3	A	3:A	_
+3	fuhr	fahren	VERB	VVFIN	_	0	H	0:H	_
+4	mit	mit	ADP	APPR	_	9	R	9:R	_
+5	der	der	DET	ART	_	7	E	7:E	_
+6	schrecklichen	schrecklich	ADJ	ADJA	_	7	E	7:E	_
+7	Geschwindigkeit	Geschwindigkeit	NOUN	NN	_	9	E	9:E	_
+8	von	von	ADP	NN	_	7	R	7:R	_
+9	40	40	NUM	CARD	_	3	A	3:A	_
+10	Meilen	Meile	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	in	in	ADP	APPR	_	9	Terminal	9:Terminal	_
+12	der	der	DET	ART	_	9	Terminal	9:Terminal	_
+13	Stunde	Stunde	NOUN	NN	_	9	Terminal	9:Terminal	_
+14	.	.	PUNCT	$.	_	9	U	9:U	_
+

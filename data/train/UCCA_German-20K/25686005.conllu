@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25686005
+# text = Aber diese hohe Stelle war nur einige Toisen groß , und bald kamen wir wieder abwärts in unser Element .
+1	Aber	aber	CCONJ	KON	_	9	L	9:L	_
+2	diese	dies	PRON	PDAT	_	4	E	4:E	_
+3	hohe	hoch	ADJ	ADJA	_	4	E	4:E	_
+4	Stelle	Stelle	NOUN	NN	_	9	A	9:A	_
+5	war	sein	AUX	ADV	_	9	F	9:F	_
+6	nur	nur	ADV	NE	_	9	D	9:D	_
+7	einige	einige	PRON	PIAT	_	8	E	8:E	_
+8	Toisen	Toisen	NOUN	NN	_	9	A	9:A	_
+9	groß	grießen	VERB	ADJD	_	0	H	0:H	_
+10	,	,	PUNCT	$,	_	9	U	9:U	_
+11	und	und	CCONJ	NE	_	9	L	9:L	_
+12	bald	bald	ADV	ADV	_	13	D	13:D	_
+13	kamen	kommen	VERB	VVFIN	_	9	H	9:H	_
+14	wir	wir	PRON	NE	_	13	A	13:A	_
+15	wieder	wieder	ADV	NN	_	13	D	13:D	_
+16	abwärts	abwärts	ADV	ADV	_	13	D	13:D	_
+17	in	in	ADP	APPR	_	19	R	19:R	_
+18	unser	unser	PRON	FM	_	19	E	19:E	_
+19	Element	Element	NOUN	NE	_	13	A	13:A	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

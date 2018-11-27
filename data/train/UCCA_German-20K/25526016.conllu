@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 25526016
+# text = Die mineralischen und organischen Bestandteile , die es in aufgelöstem Zustand enthält , erhöhen noch seine Durchsichtigkeit .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	mineralischen	mineralisch	ADJ	ADJA	_	14	A	14:A	_
+3	und	und	CCONJ	NN	_	2	N	2:N	_
+4	organischen	organisch	ADJ	ADJA	_	5	E	5:E	_
+5	Bestandteile	Bestandteil	NOUN	NN	_	0	C	0:C|12:A	_
+6	,	,	PUNCT	$,	_	12	U	12:U	_
+7	die	der	PRON	PRELS	_	12	R	12:R	_
+8	es	es	PRON	PPER	_	12	A	12:A	_
+9	in	in	ADP	APPR	_	11	R	11:R	_
+10	aufgelöstem	aufgelöstem	ADJ	ADJA	_	11	E	11:E	_
+11	Zustand	Zustand	NOUN	NN	_	12	A	12:A	_
+12	enthält	enthalten	VERB	VVFIN	_	2	E	2:E	_
+13	,	,	PUNCT	$,	_	14	U	14:U	_
+14	erhöhen	erhöhen	VERB	VVFIN	_	0	H	0:H	_
+15	noch	noch	ADV	ADV	_	14	D	14:D	_
+16	seine	sein	DET	PPOSAT	_	17	E	17:E	_
+17	Durchsichtigkeit	Durchsichtigkeit	NOUN	NN	_	14	A	14:A	_
+18	.	.	PUNCT	$.	_	17	U	17:U	_
+

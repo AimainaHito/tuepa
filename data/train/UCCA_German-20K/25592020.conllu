@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25592020
+# text = Es gehören dieser Familie die kleinsten wie die größten Pflanzen der Erde .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	gehören	gehören	VERB	VVFIN	_	0	H	0:H	_
+3	dieser	dies	PRON	PDAT	_	4	E	4:E	_
+4	Familie	Familie	NOUN	NN	_	2	A	2:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	kleinsten	klein	ADJ	ADJA	_	10	E	10:E	_
+7	wie	wie	ADP	KON	_	6	N	6:N	_
+8	die	der	DET	ART	_	9	E	9:E	_
+9	größten	groß	ADJ	ADJA	_	6	C	6:C	_
+10	Pflanzen	Pflanze|Pflanzen	NOUN	NN	_	2	A	2:A	_
+11	der	der	DET	ART	_	12	R	12:R	_
+12	Erde	Erde	NOUN	NE	_	10	E	10:E	_
+13	.	.	PUNCT	$.	_	12	U	12:U	_
+

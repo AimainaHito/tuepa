@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 711007
+# text = Dylan played the central character in the film , Jack Fate , alongside a cast which included Jeff Bridges , Penélope Cruz and John Goodman .
+1	Dylan	Dylan	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	central	central	ADJ	JJ	_	5	E	5:E	_
+5	character	character	NOUN	NN	_	2	A	2:A	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	film	film	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	Jack	Jack	PROPN	NNP	_	5	E	5:E	_
+11	Fate	Fate	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	alongside	alongside	ADP	IN	_	15	R	15:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	cast	cast	NOUN	NN	_	2	A	2:A	_
+16	which	which	PRON	WDT	_	17	R	17:R	_
+17	included	include	VERB	VBD	_	15	E	15:E	_
+18	Jeff	Jeff	PROPN	NNP	_	17	A	17:A	_
+19	Bridges	bridges	PROPN	NNPS	_	18	Terminal	18:Terminal	_
+20	,	,	PUNCT	,	_	18	U	18:U	_
+21	Penélope	Penélope	PROPN	NNP	_	18	C	18:C	_
+22	Cruz	Cruz	PROPN	NNP	_	21	Terminal	21:Terminal	_
+23	and	and	CCONJ	CC	_	18	N	18:N	_
+24	John	John	PROPN	NNP	_	18	C	18:C	_
+25	Goodman	Goodman	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	18	U	18:U	_
+

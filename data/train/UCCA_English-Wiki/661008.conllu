@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 661008
+# text = Though the album managed sales of over eight million copies globally , Emotions failed to reach the commercial and critical heights of its predecessor .
+1	Though	though	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	album	album	NOUN	NN	_	4	A	4:A	_
+4	managed	manage	VERB	VBN	_	0	H	0:H	_
+5	sales	sale	NOUN	NNS	_	4	A	4:A	_
+6	of	of	ADP	IN	_	10	R	10:R	_
+7	over	over	ADV	RB	_	10	E	10:E	_
+8	eight	eight	NUM	CD	_	9	E	9:E	_
+9	million	million	NUM	CD	_	10	E	10:E	_
+10	copies	copy	NOUN	NNS	_	5	E	5:E	_
+11	globally	globally	ADV	RB	_	10	E	10:E	_
+12	,	,	PUNCT	,	_	4	U	4:U	_
+13	Emotions	emotions	NOUN	NNS	_	16	A	16:A	_
+14	failed	fail	VERB	VBD	_	16	D	16:D	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	reach	reach	VERB	VB	_	4	H	4:H	_
+17	the	the	DET	DT	_	21	E	21:E	_
+18	commercial	commercial	ADJ	JJ	_	21	E	21:E	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	critical	critical	ADJ	JJ	_	18	C	18:C	_
+21	heights	height	NOUN	NNS	_	16	A	16:A	_
+22	of	of	ADP	IN	_	24	R	24:R	_
+23	its	its	PRON	PRP$	_	24	E	24:E	_
+24	predecessor	predecessor	NOUN	NN	_	21	E	21:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

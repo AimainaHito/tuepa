@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 631002
+# text = He regularly visited his cousin , Stanley Parkes , who lived in Fleetwood .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	regularly	regularly	ADV	RB	_	3	D	3:D	_
+3	visited	visit	VERB	VBD	_	0	H	0:H	_
+4	his	he	PRON	PRP$	_	5	E	5:E	_
+5	cousin	cousin	NOUN	NN	_	7	E	7:E	_
+6	,	,	PUNCT	,	_	7	U	7:U	_
+7	Stanley	Stanley	PROPN	NNP	_	3	A	3:A	_
+8	Parkes	Parkes	PROPN	NNPS	_	7	Terminal	7:Terminal	_
+9	,	,	PUNCT	,	_	7	U	7:U	_
+10	who	who	PRON	WP	_	11	F	11:F	_
+11	lived	live	VERB	VBD	_	7	E	7:E	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	Fleetwood	Fleetwood	PROPN	NNP	_	11	A	11:A	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25608006
+# text = Die " Nautilus " hatte damals 8.100 Meilen zurückgelegt .
+1	Die	der	DET	ART	_	3	E	3:E	_
+2	"	"	PUNCT	$(	_	3	U	3:U	_
+3	Nautilus	Nautilus	PROPN	NN	_	9	A	9:A	_
+4	"	"	PUNCT	$(	_	9	U	9:U	_
+5	hatte	haben	AUX	VAFIN	_	9	F	9:F	_
+6	damals	damals	ADV	ADV	_	9	D	9:D	_
+7	8.100	8.1	NUM	CARD	_	8	E	8:E	_
+8	Meilen	Meile	NOUN	NN	_	9	A	9:A	_
+9	zurückgelegt	zurückgelegen	VERB	VVPP	_	0	H	0:H	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

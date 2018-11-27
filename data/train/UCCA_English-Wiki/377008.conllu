@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 377008
+# text = Gyllenhaal graduated from the Harvard - Westlake School in Los Angeles in 1998 , then attended Columbia University , where his sister was a senior and from which his mother had graduated , to study Eastern religions and philosophy .
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	2	A	2:A|35:A|16:A	_
+2	graduated	graduate	VERB	VBD	_	0	H	0:H	_
+3	from	from	ADP	IN	_	8	R	8:R	_
+4	the	the	DET	DT	_	8	E	8:E	_
+5	Harvard	Harvard	PROPN	NNP	_	8	E	8:E	_
+6	-	-	PUNCT	HYPH	_	5	U	5:U	_
+7	Westlake	Westlake	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	School	school	PROPN	NNP	_	2	A	2:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Los	Los	PROPN	NNP	_	2	A	2:A	_
+11	Angeles	Angeles	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	in	in	ADP	IN	_	13	R	13:R	_
+13	1998	1998	NUM	CD	_	2	D	2:D	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	then	then	ADV	RB	_	2	L	2:L	_
+16	attended	attend	VERB	VBD	_	2	H	2:H	_
+17	Columbia	Columbia	PROPN	NNP	_	18	E	18:E	_
+18	University	University	PROPN	NNP	_	16	A	16:A	_
+19	,	,	PUNCT	,	_	18	U	18:U	_
+20	where	where	ADV	WRB	_	23	F	23:F	_
+21	his	he	PRON	PRP$	_	22	E	22:E	_
+22	sister	sister	NOUN	NN	_	23	A	23:A	_
+23	was	be	AUX	VBD	_	18	E	18:E	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	senior	senior	ADJ	JJ	_	23	A	23:A	_
+26	and	and	CCONJ	CC	_	23	N	23:N	_
+27	from	from	ADP	IN	_	32	A	32:A	_
+28	which	which	PRON	WDT	_	32	F	32:F	_
+29	his	he	PRON	PRP$	_	30	E	30:E	_
+30	mother	mother	NOUN	NN	_	32	A	32:A	_
+31	had	have	AUX	VBD	_	32	F	32:F	_
+32	graduated	graduate	VERB	VBN	_	23	C	23:C	_
+33	,	,	PUNCT	,	_	2	U	2:U	_
+34	to	to	PART	TO	_	2	L	2:L	_
+35	study	study	VERB	VB	_	2	H	2:H	_
+36	Eastern	eastern	ADJ	JJ	_	37	E	37:E	_
+37	religions	religion	NOUN	NNS	_	35	A	35:A	_
+38	and	and	CCONJ	CC	_	37	N	37:N	_
+39	philosophy	philosophy	NOUN	NN	_	37	C	37:C	_
+40	.	.	PUNCT	.	_	37	U	37:U	_
+

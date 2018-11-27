@@ -1,0 +1,50 @@
+# format = ucca
+# sent_id = 25489094
+# text = « » Liebe Freunde « , sagte ich , » man muß nicht verzweifeln . Wir hatten uns in der allerschlimmsten Lage befunden . Seien Sie so freundlich zu warten , um mir ein Urteil über den Kommandanten und die Mannschaft dieses Fahrzeugs zu bilden .
+1	«	«	PUNCT	$(	_	14	U	14:U	_
+2	»	»	PUNCT	$(	_	14	U	14:U	_
+3	Liebe	Liebe	PROPN	ADJA	_	4	E	4:E	_
+4	Freunde	Freund	PROPN	NN	_	14	G	14:G	_
+5	«	«	PUNCT	$(	_	7	U	7:U	_
+6	,	,	PUNCT	$,	_	7	U	7:U	_
+7	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	,	,	PUNCT	$,	_	7	U	7:U	_
+10	»	»	PUNCT	$(	_	7	U	7:U	_
+11	man	man	PRON	PIS	_	14	A	14:A	_
+12	muß	müssen	AUX	VMFIN	_	14	D	14:D	_
+13	nicht	nicht	PART	XY	_	14	D	14:D	_
+14	verzweifeln	verzweifeln	VERB	NN	_	7	A	7:A	_
+15	.	.	PUNCT	$.	_	14	U	14:U	_
+16	Wir	Wu	PRON	NE	_	18	A	18:A	_
+17	hatten	haben	AUX	VAFIN	_	18	F	18:F	_
+18	uns	wir	PRON	NE	_	14	H	14:H	_
+19	in	in	ADP	APPR	_	22	R	22:R	_
+20	der	der	DET	ART	_	21	E	21:E	_
+21	allerschlimmsten	allerschlimm	ADJ	NN	_	22	E	22:E	_
+22	Lage	Lage	NOUN	NN	_	18	A	18:A	_
+23	befunden	befinden	VERB	VVPP	_	18	Terminal	18:Terminal	_
+24	.	.	PUNCT	$.	_	14	U	14:U	_
+25	Seien	sein	AUX	VAFIN	_	30	F	30:F	_
+26	Sie	Sie|sie	PRON	PPER	_	30	A	30:A|34:A	_
+27	so	so	ADV	ADV	_	28	E	28:E	_
+28	freundlich	freundlich	ADJ	ADJD	_	30	D	30:D	_
+29	zu	zu	PART	VVINF	_	30	F	30:F	_
+30	warten	warten	VERB	VVINF	_	14	H	14:H	_
+31	,	,	PUNCT	$,	_	14	U	14:U	_
+32	um	um	ADP	KOUI	_	14	L	14:L	_
+33	mir	ich	PRON	PPER	_	34	A	34:A	_
+34	ein	ein	DET	ART	_	14	H	14:H	_
+35	Urteil	Urteil	NOUN	NN	_	34	Terminal	34:Terminal	_
+36	über	über	ADP	VVFIN	_	38	R	38:R	_
+37	den	der	DET	ART	_	38	E	38:E	_
+38	Kommandanten	Kommandant	NOUN	NN	_	34	A	34:A	_
+39	und	und	CCONJ	NE	_	38	N	38:N	_
+40	die	der	DET	ART	_	41	E	41:E	_
+41	Mannschaft	Mannschaft	NOUN	NN	_	38	C	38:C	_
+42	dieses	dies	PRON	PDAT	_	43	R	43:R	_
+43	Fahrzeugs	Fahrzeug	NOUN	NN	_	38	E	38:E	_
+44	zu	zu	PART	VVINF	_	34	F	34:F	_
+45	bilden	bilden	VERB	VVINF	_	34	Terminal	34:Terminal	_
+46	.	.	PUNCT	$.	_	34	U	34:U	_
+

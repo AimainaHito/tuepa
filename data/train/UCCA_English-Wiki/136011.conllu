@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 136011
+# text = The performance brought her a nomination for the Golden Globe Award for Best Actress - Motion Picture Musical or Comedy .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	performance	performance	NOUN	NN	_	3	A	3:A	_
+3	brought	bring	VERB	VBD	_	0	H	0:H	_
+4	her	she	PRON	PRP	_	3	A	3:A	_
+5	a	a	DET	DT	_	6	E	6:E	_
+6	nomination	nomination	NOUN	NN	_	3	A	3:A	_
+7	for	for	ADP	IN	_	6	R	6:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	Golden	golden	PROPN	NNP	_	11	E	11:E	_
+10	Globe	Globe	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	Award	Award	PROPN	NNP	_	6	E	6:E	_
+12	for	for	ADP	IN	_	11	R	11:R	_
+13	Best	Best	ADJ	JJS	_	14	E	14:E	_
+14	Actress	actress	NOUN	NN	_	11	E	11:E	_
+15	-	-	PUNCT	HYPH	_	14	U	14:U	_
+16	Motion	motion	NOUN	NN	_	17	E	17:E	_
+17	Picture	picture	NOUN	NN	_	18	E	18:E	_
+18	Musical	musical	PROPN	NNP	_	14	E	14:E	_
+19	or	or	CCONJ	CC	_	18	N	18:N	_
+20	Comedy	comedy	PROPN	NNP	_	18	C	18:C	_
+21	.	.	PUNCT	.	_	18	U	18:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 727007
+# text = She appeared in the music video for Korn 's " Did My Time " , which was used to promote the film .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	appeared	appear	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	6	R	6:R	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	music	music	NOUN	NN	_	6	E	6:E	_
+6	video	video	NOUN	NN	_	2	A	2:A	_
+7	for	for	ADP	IN	_	11	R	11:R	_
+8	Korn	Korn	PROPN	NNP	_	11	E	11:E	_
+9	's	's	PART	POS	_	8	R	8:R	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	Did	do	AUX	VBD	_	6	E	6:E	_
+12	My	my	PRON	PRP$	_	11	Terminal	11:Terminal	_
+13	Time	time	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	"	"	PUNCT	''	_	11	U	11:U	_
+15	,	,	PUNCT	,	_	11	U	11:U	_
+16	which	which	PRON	WDT	_	18	F	18:F	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	used	use	VERB	VBN	_	11	E	11:E	_
+19	to	to	PART	TO	_	18	L	18:L	_
+20	promote	promote	VERB	VB	_	18	H	18:H	_
+21	the	the	DET	DT	_	22	E	22:E	_
+22	film	film	NOUN	NN	_	20	A	20:A	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

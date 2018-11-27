@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25728009
+# text = Beladen mit so kostbarer Beute , brachten diese Männer sie zur ›Nautilus‹ , legten sie nieder und setzten dann ihr Fischen in der unerschöpflichen Quelle fort .
+1	Beladen	Beladen	NOUN	NN	_	0	H	0:H	_
+2	mit	mit	ADP	APPR	_	4	R	4:R	_
+3	so	so	ADV	ADV	_	4	D	4:D	_
+4	kostbarer	kostbar	ADJ	ADJD	_	1	A	1:A	_
+5	Beute	Beute	NOUN	NN	_	4	A	4:A	_
+6	,	,	PUNCT	$,	_	1	U	1:U	_
+7	brachten	bringen	VERB	VVFIN	_	1	H	1:H	_
+8	diese	dies	PRON	PDAT	_	9	E	9:E	_
+9	Männer	Mann	NOUN	NN	_	0	C	0:C|1:A|14:A|21:A|18:A	_
+10	sie	sie	PRON	ADV	_	7	A	7:A	_
+11	zur	zur	ADV	NE	_	12	R	12:R	_
+12	›Nautilus‹	›Nautilus‹	NOUN	NE	_	7	A	7:A	_
+13	,	,	PUNCT	$,	_	1	U	1:U	_
+14	legten	legen	VERB	VVFIN	_	1	H	1:H	_
+15	sie	sie	PRON	ADV	_	14	A	14:A	_
+16	nieder	nieder	ADV	XY	_	14	Terminal	14:Terminal	_
+17	und	und	CCONJ	NE	_	1	L	1:L	_
+18	setzten	setzen	VERB	VVFIN	_	1	H	1:H	_
+19	dann	dann	ADV	ADV	_	1	L	1:L	_
+20	ihr	ihr	DET	PPER	_	21	E	21:E	_
+21	Fischen	Fisch|Fischen	NOUN	NN	_	18	A	18:A	_
+22	in	in	ADP	APPR	_	24	R	24:R	_
+23	der	der	DET	ART	_	25	E	25:E	_
+24	unerschöpflichen	unerschöpflich	ADJ	ADJA	_	18	A	18:A	_
+25	Quelle	Quelle	NOUN	NN	_	24	A	24:A	_
+26	fort	fort	ADV	PTKVZ	_	18	Terminal	18:Terminal	_
+27	.	.	PUNCT	$.	_	18	U	18:U	_
+

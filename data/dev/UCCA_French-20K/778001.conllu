@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 778001
+# text = - Et songes - y bien ! car je ne veux rien te cacher . C' est là un de ces voyages dont on ne revient pas toujours !
+1	-	-	PUNCT	_	_	3	U	3:U	_
+2	Et	et	CCONJ	_	_	3	L	3:L	_
+3	songes	songe	NOUN	_	_	0	H	0:H	_
+4	-	-	PUNCT	_	_	3	U	3:U	_
+5	y	y	ADV	_	_	3	A	3:A	_
+6	bien	bien	ADV	_	_	3	D	3:D	_
+7	!	!	PUNCT	_	_	3	U	3:U	_
+8	car	car	CCONJ	_	_	3	L	3:L	_
+9	je	il	PRON	_	_	14	A	14:A	_
+10	ne	ne	ADV	_	_	14	D	14:D	_
+11	veux	vouloir	VERB	_	_	14	D	14:D	_
+12	rien	rien	PRON	_	_	14	A	14:A	_
+13	te	lui	PRON	_	_	14	A	14:A	_
+14	cacher	cacher	VERB	_	_	3	H	3:H	_
+15	.	.	PUNCT	_	_	3	U	3:U	_
+16	C'	ce	PRON	_	_	17	F	17:F	_
+17	est	être	AUX	_	_	3	H	3:H	_
+18	là	là	ADV	_	_	17	A	17:A	_
+19	un	un	PRON	_	_	22	E	22:E	_
+20	de	de	ADP	_	_	19	R	19:R	_
+21	ces	ce	DET	_	_	22	E	22:E	_
+22	voyages	voyage	NOUN	_	_	17	A	17:A	_
+23	dont	dont	PRON	_	_	26	R	26:R	_
+24	on	on	PRON	_	_	26	A	26:A	_
+25	ne	ne	ADV	_	_	26	D	26:D	_
+26	revient	revenir	VERB	_	_	22	E	22:E	_
+27	pas	pas	ADV	_	_	25	Terminal	25:Terminal	_
+28	toujours	toujours	ADV	_	_	26	D	26:D	_
+29	!	!	PUNCT	_	_	26	U	26:U	_
+

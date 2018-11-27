@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25684009
+# text = Der Boden wurde allmählich wieder höher , und manchmal reichte mein Arm , wenn ich ihn aufhob , über den Meeres spiegel heraus .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Boden	Boden	NOUN	NN	_	6	A	6:A	_
+3	wurde	werden	AUX	NE	_	6	F	6:F	_
+4	allmählich	allmählich	ADJ	ADJD	_	6	D	6:D	_
+5	wieder	wieder	ADV	NN	_	6	D	6:D	_
+6	höher	hoch	ADJ	ADJD	_	0	H	0:H	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	und	und	CCONJ	NE	_	6	L	6:L	_
+9	manchmal	manchmal	ADV	ADV	_	10	D	10:D	_
+10	reichte	reichen	VERB	VVFIN	_	6	H	6:H	_
+11	mein	mein	PRON	PPOSAT	_	12	E	12:E	_
+12	Arm	Arm	NOUN	NN	_	10	A	10:A	_
+13	,	,	PUNCT	$,	_	6	U	6:U	_
+14	wenn	wenn	SCONJ	VVFIN	_	6	L	6:L	_
+15	ich	ich	PRON	PPER	_	17	A	17:A	_
+16	ihn	er	PRON	PPER	_	17	A	17:A	_
+17	aufhob	aufheben	VERB	VVFIN	_	6	H	6:H	_
+18	,	,	PUNCT	$,	_	6	U	6:U	_
+19	über	über	ADP	VVFIN	_	22	R	22:R	_
+20	den	der	DET	ART	_	22	E	22:E	_
+21	Meeres	Meer	NOUN	ADJA	_	22	E	22:E	_
+22	spiegel	spiegel	PROPN	NN	_	10	A	10:A	_
+23	heraus	heraus	ADV	PTKVZ	_	19	Terminal	19:Terminal	_
+24	.	.	PUNCT	$.	_	22	U	22:U	_
+

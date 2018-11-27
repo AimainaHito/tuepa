@@ -1,0 +1,41 @@
+# format = ucca
+# sent_id = 25671011
+# text = » Aber « , fragte Conseil , » kann mein Herr mich darüber belehren , welche Ursache eine solche Wirkung hervorbringt , denn das Wasser hat sich nicht in Milch umgewandelt , denk' ich mir . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Aber	aber	NOUN	KON	_	14	L	14:L	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	fragte	fragen	VERB	VVFIN	_	0	H	0:H	_
+6	Conseil	Conseil	NOUN	NE	_	5	A	5:A	_
+7	,	,	PUNCT	$,	_	5	U	5:U	_
+8	»	»	PUNCT	$(	_	5	U	5:U	_
+9	kann	können	AUX	VMFIN	_	14	D	14:D	_
+10	mein	mein	PRON	PPOSAT	_	11	E	11:E	_
+11	Herr	Herr	NOUN	NN	_	14	A	14:A	_
+12	mich	ich	PRON	PPER	_	14	A	14:A	_
+13	darüber	darüber	ADV	PAV	_	14	A	14:A	_
+14	belehren	belehren	VERB	VVINF	_	5	A	5:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	welche	welch	PRON	NN	_	17	E	17:E	_
+17	Ursache	Ursache	NOUN	NN	_	21	A	21:A	_
+18	eine	ein	DET	ART	_	20	E	20:E	_
+19	solche	solch	PRON	ADJA	_	20	E	20:E	_
+20	Wirkung	Wirkung	NOUN	NN	_	21	A	21:A	_
+21	hervorbringt	hervorbringen	VERB	VVFIN	_	14	A	14:A	_
+22	,	,	PUNCT	$,	_	14	U	14:U	_
+23	denn	denn	SCONJ	KON	_	14	L	14:L	_
+24	das	der	DET	ART	_	25	E	25:E	_
+25	Wasser	Wasser	NOUN	NN	_	27	A	27:A	_
+26	hat	haben	VERB	VAFIN	_	27	F	27:F	_
+27	sich	er|es|sie	PRON	PRF	_	14	H	14:H	_
+28	nicht	nicht	PART	CARD	_	27	D	27:D	_
+29	in	in	ADP	APPR	_	30	R	30:R	_
+30	Milch	Milch	NOUN	NN	_	27	A	27:A	_
+31	umgewandelt	umgewandeln	ADJ	VVPP	_	27	Terminal	27:Terminal	_
+32	,	,	PUNCT	$,	_	14	U	14:U	_
+33	denk'	denk'	PUNCT	$(	_	14	H	14:H	_
+34	ich	ich	PRON	PPER	_	33	A	33:A	_
+35	mir	ich	PRON	PRF	_	33	Terminal	33:Terminal	_
+36	.	.	PUNCT	$.	_	33	U	33:U	_
+37	«	«	PUNCT	$(	_	33	U	33:U	_
+

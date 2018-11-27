@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25498003
+# text = Es tat mir leid um seinetwillen .
+1	Es	es	PRON	PPER	_	2	F	2:F	_
+2	tat	tun	VERB	VVFIN	_	0	H	0:H	_
+3	mir	ich	PRON	PPER	_	2	Terminal	2:Terminal	_
+4	leid	leid	ADV	NN	_	2	Terminal	2:Terminal	_
+5	um	um	ADP	APPR	_	6	R	6:R	_
+6	seinetwillen	seinetwillen	VERB	ADJA	_	2	A	2:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

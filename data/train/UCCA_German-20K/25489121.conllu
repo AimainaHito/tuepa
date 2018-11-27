@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 25489121
+# text = Ich war übrigens über unser Schicksal beruhigt , und es schien klar zu sein , dass unsere Wirte uns nicht würden Hungers sterben lassen .
+1	Ich	ich	PRON	PPER	_	7	A	7:A	_
+2	war	sein	AUX	ADV	_	7	F	7:F	_
+3	übrigens	übrigens	ADV	ADV	_	7	G	7:G	_
+4	über	über	ADP	ADJD	_	6	R	6:R	_
+5	unser	unser	PRON	FM	_	6	E	6:E	_
+6	Schicksal	Schicksal	NOUN	NE	_	7	A	7:A	_
+7	beruhigt	beruhigen	VERB	ADJD	_	0	H	0:H	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	und	und	CCONJ	NE	_	7	L	7:L	_
+10	es	es	PRON	PPER	_	11	F	11:F	_
+11	schien	scheinen	VERB	VVFIN	_	7	H	7:H	_
+12	klar	klar	ADJ	ADJD	_	11	A	11:A	_
+13	zu	zu	PART	VVINF	_	12	F	12:F	_
+14	sein	sein	AUX	VAINF	_	12	F	12:F	_
+15	,	,	PUNCT	$,	_	12	U	12:U	_
+16	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+17	unsere	unser	PRON	PPOSAT	_	18	E	18:E	_
+18	Wirte	Wirt	NOUN	NN	_	23	A	23:A	_
+19	uns	wir	PRON	NN	_	23	A	23:A	_
+20	nicht	nicht	PART	XY	_	23	D	23:D	_
+21	würden	werden	AUX	ADJD	_	23	D	23:D	_
+22	Hungers	Hunger	NOUN	NE	_	23	A	23:A	_
+23	sterben	sterben	VERB	VVINF	_	12	A	12:A	_
+24	lassen	lassen	VERB	VVINF	_	23	D	23:D	_
+25	.	.	PUNCT	$.	_	23	U	23:U	_
+

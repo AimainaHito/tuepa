@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25794007
+# text = Die Luft im Innern der ›Nautilus‹ ließ sich nicht mehr erneuern ; sie wurde diesen Tag über fortwährend übler .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Luft	Luft	NOUN	NN	_	8	A	8:A	_
+3	im	im	PROPN	NE	_	4	R	4:R	_
+4	Innern	Innere	PROPN	NN	_	2	E	2:E	_
+5	der	der	DET	ART	_	6	R	6:R	_
+6	›Nautilus‹	›Nautilus‹	NOUN	NE	_	4	E	4:E	_
+7	ließ	lassen	VERB	VVFIN	_	8	D	8:D	_
+8	sich	er|es|sie	PRON	PRF	_	0	H	0:H	_
+9	nicht	nicht	PART	XY	_	8	D	8:D	_
+10	mehr	mehr	ADV	ADV	_	8	D	8:D	_
+11	erneuern	erneuern	VERB	VVINF	_	8	Terminal	8:Terminal	_
+12	;	;	PUNCT	$.	_	8	U	8:U	_
+13	sie	sie	PRON	ADV	_	19	A	19:A	_
+14	wurde	werden	AUX	NN	_	19	F	19:F	_
+15	diesen	dies	PRON	PDAT	_	16	E	16:E	_
+16	Tag	Tag	NOUN	NN	_	19	A	19:A	_
+17	über	über	ADP	ADJD	_	16	R	16:R	_
+18	fortwährend	fortwährend	ADJ	ADJD	_	19	D	19:D	_
+19	übler	übel	ADJ	ADJD	_	8	H	8:H	_
+20	.	.	PUNCT	$.	_	19	U	19:U	_
+

@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25448002
+# text = « » Hm ! « sagte der Harpunier , und schüttelte den Kopf als ein Mann , der sich nicht überzeugen lassen will .
+1	«	«	PUNCT	$(	_	6	U	6:U	_
+2	»	»	PUNCT	$(	_	6	U	6:U	_
+3	Hm	Hm	PROPN	NE	_	6	A	6:A	_
+4	!	!	PUNCT	$.	_	6	U	6:U	_
+5	«	«	PUNCT	$(	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Harpunier	Harpunier	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	und	und	CCONJ	NE	_	6	L	6:L	_
+11	schüttelte	schütteln	VERB	VVFIN	_	6	H	6:H	_
+12	den	der	DET	ART	_	13	E	13:E	_
+13	Kopf	Kopf	NOUN	NN	_	0	C	0:C|16:A	_
+14	als	als	ADP	KOKOM	_	16	R	16:R	_
+15	ein	ein	DET	ART	_	16	E	16:E	_
+16	Mann	Mann	NOUN	NN	_	6	H	6:H	_
+17	,	,	PUNCT	$,	_	16	U	16:U	_
+18	der	der	PRON	PRELS	_	19	R	19:R	_
+19	sich	er|es|sie	PRON	PRF	_	16	E	16:E	_
+20	nicht	nicht	PART	XY	_	19	D	19:D	_
+21	überzeugen	überzeugen	VERB	VVINF	_	19	Terminal	19:Terminal	_
+22	lassen	lassen	VERB	VVINF	_	19	D	19:D	_
+23	will	wollen	AUX	NN	_	19	D	19:D	_
+24	.	.	PUNCT	$.	_	19	U	19:U	_
+

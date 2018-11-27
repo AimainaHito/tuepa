@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 190007
+# text = A Few Good Men was released in 1992 and was a box office success .
+1	A	a	DET	DT	_	6	A	6:A|10:A	_
+2	Few	few	ADJ	JJ	_	1	Terminal	1:Terminal	_
+3	Good	Good	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	Men	men	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	released	release	VERB	VBN	_	0	H	0:H	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	1992	1992	NUM	CD	_	6	A	6:A	_
+9	and	and	CCONJ	CC	_	6	L	6:L	_
+10	was	be	AUX	VBD	_	6	H	6:H	_
+11	a	a	DET	DT	_	14	E	14:E	_
+12	box	box	NOUN	NN	_	13	E	13:E	_
+13	office	office	NOUN	NN	_	14	E	14:E	_
+14	success	success	NOUN	NN	_	10	A	10:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

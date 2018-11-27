@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25527005
+# text = In Staunen versunken lagen wir vor diesen Glas scheiben , keiner unterbrach das bewundernde Schweigen .
+1	In	in	ADP	APPR	_	4	D	4:D	_
+2	Staunen	Staune	NOUN	NN	_	1	Terminal	1:Terminal	_
+3	versunken	versunk	ADJ	VVINF	_	1	Terminal	1:Terminal	_
+4	lagen	liegen	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	vor	vor	ADP	NE	_	9	R	9:R	_
+7	diesen	dies	PRON	PDAT	_	9	E	9:E	_
+8	Glas	Glas	NOUN	NN	_	9	E	9:E	_
+9	scheiben	scheiben	VERB	VVINF	_	4	A	4:A	_
+10	,	,	PUNCT	$,	_	4	U	4:U	_
+11	keiner	kein	PRON	PIS	_	12	A	12:A	_
+12	unterbrach	unterbrach	ADV	VVFIN	_	4	H	4:H	_
+13	das	der	DET	ART	_	15	E	15:E	_
+14	bewundernde	bewundernd	ADJ	ADJA	_	15	E	15:E	_
+15	Schweigen	schweige	NOUN	ADJA	_	12	A	12:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

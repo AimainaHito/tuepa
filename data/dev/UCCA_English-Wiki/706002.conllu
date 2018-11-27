@@ -1,0 +1,37 @@
+# format = ucca
+# sent_id = 706002
+# text = In late 1980 Dylan briefly resumed touring for a series of concerts billed as " A Musical Retrospective " , where he restored several of his popular 1960s songs to the repertoire .
+1	In	in	ADP	IN	_	3	R	3:R	_
+2	late	late	ADJ	JJ	_	3	E	3:E	_
+3	1980	1980	NUM	CD	_	7	D	7:D	_
+4	Dylan	Dylan	PROPN	NNP	_	7	A	7:A	_
+5	briefly	briefly	ADV	RB	_	7	D	7:D	_
+6	resumed	resume	VERB	VBD	_	7	D	7:D	_
+7	touring	touring	VERB	VBG	_	0	H	0:H	_
+8	for	for	ADP	IN	_	13	R	13:R	_
+9	a	a	DET	DT	_	12	E	12:E	_
+10	series	series	NOUN	NN	_	12	E	12:E	_
+11	of	of	ADP	IN	_	12	R	12:R	_
+12	concerts	concert	NOUN	NNS	_	13	A	13:A	_
+13	billed	bill	VERB	VBN	_	7	A	7:A	_
+14	as	as	SCONJ	IN	_	16	R	16:R	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	A	a	DET	DT	_	13	A	13:A	_
+17	Musical	musical	ADJ	JJ	_	16	Terminal	16:Terminal	_
+18	Retrospective	Retrospective	NOUN	NN	_	16	Terminal	16:Terminal	_
+19	"	"	PUNCT	''	_	7	U	7:U	_
+20	,	,	PUNCT	,	_	7	U	7:U	_
+21	where	where	ADV	WRB	_	7	L	7:L	_
+22	he	he	PRON	PRP	_	23	A	23:A	_
+23	restored	restore	VERB	VBD	_	7	H	7:H	_
+24	several	several	ADJ	JJ	_	29	E	29:E	_
+25	of	of	ADP	IN	_	24	R	24:R	_
+26	his	he	PRON	PRP$	_	29	E	29:E	_
+27	popular	popular	ADJ	JJ	_	29	E	29:E	_
+28	1960s	1960	NOUN	NNS	_	29	E	29:E	_
+29	songs	song	NOUN	NNS	_	23	A	23:A	_
+30	to	to	ADP	IN	_	32	R	32:R	_
+31	the	the	DET	DT	_	32	E	32:E	_
+32	repertoire	repertoire	NOUN	NN	_	23	A	23:A	_
+33	.	.	PUNCT	.	_	32	U	32:U	_
+

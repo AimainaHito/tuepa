@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25733000
+# text = Unser Weg wurde immer heller .
+1	Unser	unser	PRON	PPOSAT	_	2	E	2:E	_
+2	Weg	Weg	NOUN	NN	_	5	A	5:A	_
+3	wurde	werden	AUX	NE	_	5	F	5:F	_
+4	immer	immer	ADV	ADV	_	5	D	5:D	_
+5	heller	hell	ADJ	ADJD	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

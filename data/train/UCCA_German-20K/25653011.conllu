@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25653011
+# text = Das Licht unserer Serpentinen erzeugte mitunter zauberhafte Effekte , wenn es sich an den rauhen Vorsprüngen der natürlichen Bogen oder an den gleich Lüstern herabhängenden Teilen brach .
+1	Das	der	DET	ART	_	2	E	2:E	_
+2	Licht	Licht	NOUN	NN	_	5	A	5:A	_
+3	unserer	unser	PRON	PPOSAT	_	4	R	4:R	_
+4	Serpentinen	Serpentinen	NOUN	NN	_	2	E	2:E	_
+5	erzeugte	erzeugen	VERB	VVFIN	_	0	H	0:H	_
+6	mitunter	mitunter	ADP	ADV	_	5	D	5:D	_
+7	zauberhafte	zauberhaft	ADJ	ADJA	_	8	E	8:E	_
+8	Effekte	Effekt	NOUN	NN	_	5	A	5:A	_
+9	,	,	PUNCT	$,	_	5	U	5:U	_
+10	wenn	wenn	SCONJ	VVFIN	_	5	L	5:L	_
+11	es	es	PRON	PPER	_	12	A	12:A	_
+12	sich	er|es|sie	PRON	PRF	_	5	H	5:H	_
+13	an	an	ADP	APPR	_	16	R	16:R	_
+14	den	der	DET	ART	_	16	E	16:E	_
+15	rauhen	rauh	ADJ	ADJA	_	16	E	16:E	_
+16	Vorsprüngen	Vorsprüng	NOUN	NN	_	12	A	12:A	_
+17	der	der	DET	ART	_	19	R	19:R	_
+18	natürlichen	natürlich	ADJ	ADJA	_	19	E	19:E	_
+19	Bogen	Bogen	NOUN	NN	_	16	E	16:E	_
+20	oder	oder	CCONJ	CARD	_	16	N	16:N	_
+21	an	an	ADP	APPR	_	26	R	26:R	_
+22	den	der	DET	ART	_	26	E	26:E	_
+23	gleich	gleich	ADJ	ADV	_	24	R	24:R	_
+24	Lüstern	Lüster	NOUN	NN	_	25	D	25:D	_
+25	herabhängenden	herabhängend	ADJ	ADJA	_	26	E	26:E	_
+26	Teilen	Teil|Teilen	NOUN	NN	_	16	C	16:C	_
+27	brach	brach	VERB	VVFIN	_	12	Terminal	12:Terminal	_
+28	.	.	PUNCT	$.	_	12	U	12:U	_
+

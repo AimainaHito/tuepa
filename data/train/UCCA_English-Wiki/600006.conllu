@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 600006
+# text = She rode a bicycle to her patients ; McCartney described an early memory of her leaving at " about three in the morning [ the ] streets ... thick with snow " . On 31 October 1956 , when McCartney was fourteen , his mother died of an embolism .
+1	She	she	PRON	PRP	_	2	A	2:A	_
+2	rode	ride	VERB	VBD	_	0	H	0:H	_
+3	a	a	DET	DT	_	4	E	4:E	_
+4	bicycle	bicycle	NOUN	NN	_	2	A	2:A	_
+5	to	to	ADP	IN	_	7	R	7:R	_
+6	her	she	PRON	PRP$	_	7	E	7:E	_
+7	patients	patient	NOUN	NN	_	2	A	2:A	_
+8	;	;	PUNCT	,	_	2	U	2:U	_
+9	McCartney	McCartney	PROPN	NNP	_	10	A	10:A	_
+10	described	describe	VERB	VBD	_	2	H	2:H	_
+11	an	a	DET	DT	_	13	E	13:E	_
+12	early	early	ADJ	JJ	_	13	E	13:E	_
+13	memory	memory	NOUN	NN	_	10	A	10:A	_
+14	of	of	ADP	IN	_	16	R	16:R	_
+15	her	she	PRON	PRP$	_	16	A	16:A	_
+16	leaving	leave	VERB	VBG	_	13	E	13:E	_
+17	at	at	ADP	IN	_	20	R	20:R	_
+18	"	"	PUNCT	``	_	20	U	20:U	_
+19	about	about	ADP	IN	_	20	E	20:E	_
+20	three	three	NUM	CD	_	16	D	16:D	_
+21	in	in	ADP	IN	_	23	R	23:R	_
+22	the	the	DET	DT	_	23	E	23:E	_
+23	morning	morning	NOUN	NN	_	20	E	20:E	_
+24	[	[	PUNCT	-LRB-	_	16	U	16:U	_
+25	the	the	DET	DT	_	27	E	27:E	_
+26	]	]	PUNCT	-RRB-	_	27	U	27:U	_
+27	streets	street	NOUN	NNS	_	29	A	29:A	_
+28	...	...	PUNCT	,	_	29	U	29:U	_
+29	thick	thick	ADJ	JJ	_	16	H	16:H	_
+30	with	with	ADP	IN	_	31	R	31:R	_
+31	snow	snow	NOUN	NN	_	29	A	29:A	_
+32	"	"	PUNCT	''	_	2	U	2:U	_
+33	.	.	PUNCT	.	_	2	U	2:U	_
+34	On	on	ADP	IN	_	35	R	35:R	_
+35	31	31	NUM	CD	_	46	D	46:D	_
+36	October	October	PROPN	NNP	_	35	Terminal	35:Terminal	_
+37	1956	1956	NUM	CD	_	35	Terminal	35:Terminal	_
+38	,	,	PUNCT	,	_	2	U	2:U	_
+39	when	when	ADV	WRB	_	2	L	2:L	_
+40	McCartney	McCartney	PROPN	NNP	_	42	A	42:A	_
+41	was	be	AUX	VBD	_	42	F	42:F	_
+42	fourteen	fourteen	VERB	VBN	_	2	H	2:H	_
+43	,	,	PUNCT	,	_	2	U	2:U	_
+44	his	he	PRON	PRP$	_	45	E	45:E	_
+45	mother	mother	NOUN	NN	_	46	A	46:A	_
+46	died	die	VERB	VBD	_	2	H	2:H	_
+47	of	of	ADP	IN	_	49	R	49:R	_
+48	an	a	DET	DT	_	49	E	49:E	_
+49	embolism	embolism	NOUN	NN	_	46	A	46:A	_
+50	.	.	PUNCT	.	_	49	U	49:U	_
+

@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 541009
+# text = Some of these films reflected a surprising ( albeit temporary ) shift in Warner 's political outlook .
+1	Some	some	DET	DT	_	4	E	4:E	_
+2	of	of	ADP	IN	_	4	R	4:R	_
+3	these	these	DET	DT	_	4	E	4:E	_
+4	films	film	NOUN	NNS	_	12	A	12:A	_
+5	reflected	reflect	VERB	VBD	_	12	D	12:D	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	surprising	surprising	NOUN	NN	_	12	D	12:D	_
+8	(	(	PUNCT	-LRB-	_	7	U	7:U	_
+9	albeit	albeit	SCONJ	IN	_	10	R	10:R	_
+10	temporary	temporary	ADJ	JJ	_	7	E	7:E	_
+11	)	)	PUNCT	-RRB-	_	12	U	12:U	_
+12	shift	shift	NOUN	NN	_	0	H	0:H	_
+13	in	in	ADP	IN	_	17	R	17:R	_
+14	Warner	Warner	PROPN	NNP	_	17	E	17:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	political	political	ADJ	JJ	_	17	E	17:E	_
+17	outlook	outlook	NOUN	NN	_	12	A	12:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

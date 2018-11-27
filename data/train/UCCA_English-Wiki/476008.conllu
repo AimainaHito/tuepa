@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 476008
+# text = The basketball game was part of festivities organized to celebrate Obama 's 49th birthday .
+1	The	the	DET	DT	_	3	E	3:E	_
+2	basketball	basketball	NOUN	NN	_	3	E	3:E	_
+3	game	game	NOUN	NN	_	4	A	4:A	_
+4	was	be	AUX	VBD	_	0	H	0:H	_
+5	part	part	NOUN	NN	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	R	5:R	_
+7	festivities	festivity	NOUN	NNS	_	8	A	8:A|10:A	_
+8	organized	organize	VERB	VBN	_	4	A	4:A	_
+9	to	to	PART	TO	_	8	L	8:L	_
+10	celebrate	celebrate	VERB	VB	_	8	H	8:H	_
+11	Obama	Obama	PROPN	NNP	_	14	E	14:E	_
+12	's	's	PART	POS	_	11	R	11:R	_
+13	49th	49th	NOUN	NN	_	14	E	14:E	_
+14	birthday	birthday	NOUN	NN	_	10	A	10:A	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

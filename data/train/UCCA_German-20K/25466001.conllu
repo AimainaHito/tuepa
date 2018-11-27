@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 25466001
+# text = Man gab sich alle Mühe , die Aufmerksamkeit des Tieres , falls es sich in dieser Gegend befände , zu wecken oder seine Gleichgültigkeit zu spornen .
+1	Man	man	PRON	PIS	_	2	A	2:A|21:A|26:A	_
+2	gab	geben	VERB	VVFIN	_	0	H	0:H	_
+3	sich	er|es|sie	PRON	PRF	_	2	Terminal	2:Terminal	_
+4	alle	alle	PRON	PIAT	_	2	D	2:D	_
+5	Mühe	Mühe	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	_	21	A	21:A	_
+9	des	der	DET	ART	_	10	R	10:R	_
+10	Tieres	Tier	NOUN	NN	_	8	E	8:E	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	falls	falls	SCONJ	KOUS	_	2	L	2:L	_
+13	es	es	PRON	PPER	_	14	A	14:A	_
+14	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+15	in	in	ADP	APPR	_	17	R	17:R	_
+16	dieser	dies	PRON	PDAT	_	17	E	17:E	_
+17	Gegend	Gegend	NOUN	NN	_	14	A	14:A	_
+18	befände	befänd	ADJ	NN	_	14	Terminal	14:Terminal	_
+19	,	,	PUNCT	$,	_	2	U	2:U	_
+20	zu	zu	PART	VVINF	_	21	F	21:F	_
+21	wecken	wecken	VERB	VVINF	_	2	A	2:A	_
+22	oder	oder	CCONJ	CARD	_	2	L	2:L	_
+23	seine	sein	DET	PPOSAT	_	24	E	24:E	_
+24	Gleichgültigkeit	Gleichgültigkeit	NOUN	NN	_	26	A	26:A	_
+25	zu	zu	PART	VVINF	_	26	F	26:F	_
+26	spornen	spornen	VERB	VVINF	_	2	H	2:H	_
+27	.	.	PUNCT	$.	_	26	U	26:U	_
+

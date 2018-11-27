@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25582000
+# text = Trotzdem genossen wir , wie Conseil meinte , vollständige Freiheit , köstliche und reichliche Nahrung .
+1	Trotzdem	trotzdem	ADV	PAV	_	2	L	2:L	_
+2	genossen	genießen	VERB	VVFIN	_	0	H	0:H	_
+3	wir	wir	PRON	NE	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	wie	wie	ADP	NN	_	2	L	2:L	_
+6	Conseil	Conseil	NOUN	NE	_	7	A	7:A	_
+7	meinte	meinen	VERB	VVFIN	_	2	H	2:H	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	vollständige	vollständig	ADJ	NN	_	10	E	10:E	_
+10	Freiheit	Freiheit	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	köstliche	köstlich	ADJ	ADJA	_	15	E	15:E	_
+13	und	und	CCONJ	NE	_	12	N	12:N	_
+14	reichliche	reichlich	ADJ	ADJA	_	12	C	12:C	_
+15	Nahrung	nahrung	NOUN	NN	_	2	A	2:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 508010
+# text = Featuring characters from a short story written by Bowie , the album achieved US and UK chart success , and yielded three top 40 UK singles .
+1	Featuring	feature	VERB	VBG	_	0	H	0:H	_
+2	characters	character	NOUN	NNS	_	1	A	1:A	_
+3	from	from	ADP	IN	_	7	R	7:R	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	short	short	ADJ	JJ	_	6	E	6:E	_
+6	story	story	NOUN	NN	_	7	A	7:A	_
+7	written	write	VERB	VBN	_	2	E	2:E	_
+8	by	by	ADP	IN	_	9	R	9:R	_
+9	Bowie	Bowie	PROPN	NNP	_	7	A	7:A	_
+10	,	,	PUNCT	,	_	1	U	1:U	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	album	album	NOUN	NN	_	0	C	0:C|21:A	_
+13	achieved	achieve	VERB	VBN	_	18	D	18:D	_
+14	US	US	PROPN	NNP	_	17	E	17:E	_
+15	and	and	CCONJ	CC	_	14	N	14:N	_
+16	UK	UK	PROPN	NNP	_	14	C	14:C	_
+17	chart	chart	PROPN	NNP	_	18	A	18:A	_
+18	success	success	NOUN	NN	_	1	H	1:H	_
+19	,	,	PUNCT	,	_	1	U	1:U	_
+20	and	and	CCONJ	CC	_	1	L	1:L	_
+21	yielded	yield	VERB	VBN	_	1	H	1:H	_
+22	three	three	NUM	CD	_	26	E	26:E	_
+23	top	top	NOUN	NN	_	26	E	26:E	_
+24	40	40	NUM	CD	_	23	E	23:E	_
+25	UK	UK	PROPN	NNP	_	26	E	26:E	_
+26	singles	singles	NOUN	NNS	_	21	A	21:A	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

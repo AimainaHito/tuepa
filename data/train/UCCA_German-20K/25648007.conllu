@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 25648007
+# text = » Leider « , sagte Ned Land , » hat man uns nur gegeben , was der Schiffs küchen zettel enthält . «
+1	»	»	PUNCT	$(	_	14	U	14:U	_
+2	Leider	leider	NOUN	ADV	_	14	G	14:G	_
+3	«	«	PUNCT	$(	_	5	U	5:U	_
+4	,	,	PUNCT	$,	_	5	U	5:U	_
+5	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+6	Ned	Ned	PROPN	NE	_	5	A	5:A	_
+7	Land	Land	PROPN	NN	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	»	»	PUNCT	$(	_	5	U	5:U	_
+10	hat	haben	VERB	VAFIN	_	14	F	14:F	_
+11	man	man	PRON	PIS	_	14	A	14:A	_
+12	uns	wir	PRON	NN	_	14	A	14:A	_
+13	nur	nur	ADV	NN	_	14	D	14:D	_
+14	gegeben	geben	ADJ	VVPP	_	5	A	5:A	_
+15	,	,	PUNCT	$,	_	14	U	14:U	_
+16	was	was	PRON	NE	_	21	A	21:A	_
+17	der	der	DET	ART	_	20	E	20:E	_
+18	Schiffs	Schiff	NOUN	NN	_	20	E	20:E	_
+19	küchen	küchen	VERB	ADJA	_	20	E	20:E	_
+20	zettel	zettel	ADV	NN	_	21	A	21:A	_
+21	enthält	enthalten	VERB	VVFIN	_	14	A	14:A	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+23	«	«	PUNCT	$(	_	21	U	21:U	_
+

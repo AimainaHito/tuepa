@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 25805021
+# text = Er schien mich zu meiden ; ich sah ihn nur in seltenen Fällen .
+1	Er	er	PRON	PPER	_	5	A	5:A	_
+2	schien	scheinen	VERB	VVFIN	_	5	G	5:G	_
+3	mich	ich	PRON	PPER	_	5	A	5:A	_
+4	zu	zu	PART	VVINF	_	5	F	5:F	_
+5	meiden	meiden	VERB	VVINF	_	0	H	0:H	_
+6	;	;	PUNCT	$.	_	5	U	5:U	_
+7	ich	ich	PRON	PPER	_	8	A	8:A	_
+8	sah	sehen	VERB	VVFIN	_	5	H	5:H	_
+9	ihn	er	PRON	PPER	_	8	A	8:A	_
+10	nur	nur	ADV	NE	_	8	D	8:D	_
+11	in	in	ADP	APPR	_	13	R	13:R	_
+12	seltenen	selten	ADJ	ADJA	_	13	E	13:E	_
+13	Fällen	Fall|Fällen	NOUN	NN	_	8	A	8:A	_
+14	.	.	PUNCT	$.	_	13	U	13:U	_
+

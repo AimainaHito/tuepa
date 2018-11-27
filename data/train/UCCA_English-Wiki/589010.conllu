@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 589010
+# text = Depp will star in and produce an adaptation of the comic book Rex Mundi .
+1	Depp	Depp	PROPN	NNP	_	3	A	3:A	_
+2	will	will	AUX	MD	_	3	F	3:F	_
+3	star	star	VERB	VB	_	0	H	0:H	_
+4	in	in	ADV	RB	_	3	E	3:E	_
+5	and	and	CCONJ	CC	_	3	N	3:N	_
+6	produce	produce	VERB	VB	_	3	C	3:C	_
+7	an	a	DET	DT	_	13	E	13:E	_
+8	adaptation	adaptation	NOUN	NN	_	13	E	13:E	_
+9	of	of	ADP	IN	_	8	R	8:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	comic	comic	ADJ	JJ	_	12	E	12:E	_
+12	book	book	NOUN	NN	_	13	E	13:E	_
+13	Rex	Rex	PROPN	NNP	_	3	A	3:A	_
+14	Mundi	Mundi	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	.	.	PUNCT	.	_	13	U	13:U	_
+

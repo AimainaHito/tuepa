@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 499008
+# text = His back catalogue was now highly sought : The Man Who Sold the World had been re - released in 1972 along with Space Oddity .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	back	back	ADJ	JJ	_	3	E	3:E	_
+3	catalogue	catalogue	NOUN	NN	_	7	A	7:A	_
+4	was	be	AUX	VBD	_	7	F	7:F	_
+5	now	now	ADV	RB	_	7	D	7:D	_
+6	highly	highly	ADV	RB	_	7	D	7:D	_
+7	sought	seek	VERB	VBN	_	0	H	0:H	_
+8	:	:	PUNCT	:	_	7	U	7:U	_
+9	The	the	DET	DT	_	19	A	19:A	_
+10	Man	man	NOUN	NN	_	9	Terminal	9:Terminal	_
+11	Who	who	PRON	WP	_	9	Terminal	9:Terminal	_
+12	Sold	sell	VERB	VBD	_	9	Terminal	9:Terminal	_
+13	the	the	DET	DT	_	9	Terminal	9:Terminal	_
+14	World	World	NOUN	NN	_	9	Terminal	9:Terminal	_
+15	had	have	AUX	VBD	_	19	F	19:F	_
+16	been	be	AUX	VBN	_	19	F	19:F	_
+17	re	be	ADP	IN	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	released	release	VERB	VBN	_	7	H	7:H	_
+20	in	in	ADP	IN	_	21	R	21:R	_
+21	1972	1972	NUM	CD	_	19	D	19:D	_
+22	along	along	ADP	IN	_	24	R	24:R	_
+23	with	with	ADP	IN	_	22	E	22:E	_
+24	Space	space	PROPN	NNP	_	19	A	19:A	_
+25	Oddity	Oddity	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	.	.	PUNCT	.	_	24	U	24:U	_
+

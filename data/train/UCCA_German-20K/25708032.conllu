@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25708032
+# text = Ich sah wohl , wo der Kanadier hinauswollte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	wohl	wohl	ADV	ADV	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	wo	wo	ADV	NN	_	8	A	8:A	_
+6	der	der	DET	ART	_	7	E	7:E	_
+7	Kanadier	Kanadier	NOUN	NN	_	8	A	8:A	_
+8	hinauswollte	hinauswollen	VERB	VMFIN	_	2	A	2:A	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

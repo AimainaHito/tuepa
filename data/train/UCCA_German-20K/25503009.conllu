@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25503009
+# text = » Dieser Saal « , sagte der Kapitän , » ist nicht bloß eine Bibliothek , sondern auch ein Rauch zimmer .
+1	»	»	PUNCT	$(	_	11	U	11:U	_
+2	Dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Saal	Saal	NOUN	NN	_	11	A	11:A	_
+4	«	«	PUNCT	$(	_	6	U	6:U	_
+5	,	,	PUNCT	$,	_	6	U	6:U	_
+6	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+7	der	der	DET	ART	_	8	E	8:E	_
+8	Kapitän	Kapitän	NOUN	NN	_	6	A	6:A	_
+9	,	,	PUNCT	$,	_	6	U	6:U	_
+10	»	»	PUNCT	$(	_	6	U	6:U	_
+11	ist	sein	AUX	VVFIN	_	6	A	6:A	_
+12	nicht	nicht	PART	XY	_	15	N	15:N	_
+13	bloß	bließen	VERB	ADV	_	12	Terminal	12:Terminal	_
+14	eine	ein	DET	ART	_	15	E	15:E	_
+15	Bibliothek	Bibliothek	NOUN	NN	_	11	A	11:A	_
+16	,	,	PUNCT	$,	_	15	U	15:U	_
+17	sondern	sondern	CCONJ	NN	_	15	N	15:N	_
+18	auch	auch	ADV	ADV	_	17	Terminal	17:Terminal	_
+19	ein	ein	DET	ART	_	21	E	21:E	_
+20	Rauch	Rauch	NOUN	NN	_	21	E	21:E	_
+21	zimmer	zimmer	ADV	NN	_	15	C	15:C	_
+22	.	.	PUNCT	$.	_	21	U	21:U	_
+

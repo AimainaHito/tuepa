@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25473007
+# text = Aber 7 Minuten vor 1 vernahm man ein betäubendes Zischen , wie das , welches ein mit äußerster Heftigkeit emporgeschleuderter Wasser strahl verursacht .
+1	Aber	aber	CCONJ	KON	_	6	L	6:L	_
+2	7	7	NUM	CARD	_	6	D	6:D	_
+3	Minuten	Minute	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	vor	vor	ADP	NN	_	2	Terminal	2:Terminal	_
+5	1	1	NUM	CARD	_	2	Terminal	2:Terminal	_
+6	vernahm	vernehmen	VERB	VVFIN	_	0	H	0:H	_
+7	man	man	PRON	PIS	_	6	A	6:A	_
+8	ein	ein	DET	ART	_	10	E	10:E	_
+9	betäubendes	betäubend	ADJ	ADJA	_	10	E	10:E	_
+10	Zischen	Zischen	NOUN	NE	_	0	C	0:C|23:A|13:A|9:A	_
+11	,	,	PUNCT	$,	_	13	U	13:U	_
+12	wie	wie	ADP	KON	_	13	R	13:R	_
+13	das	der	PRON	PDS	_	6	H	6:H	_
+14	,	,	PUNCT	$,	_	13	U	13:U	_
+15	welches	welch	PRON	PRELS	_	23	R	23:R	_
+16	ein	ein	ADV	ART	_	22	E	22:E	_
+17	mit	mit	ADP	APPR	_	20	R	20:R	_
+18	äußerster	äußer	ADJ	NN	_	19	E	19:E	_
+19	Heftigkeit	Heftigkeit	NOUN	NN	_	20	A	20:A	_
+20	emporgeschleuderter	emporgeschleudert	ADJ	ADJA	_	22	E	22:E	_
+21	Wasser	Wasser	NOUN	NN	_	22	E	22:E	_
+22	strahl	strahl	ADJ	NN	_	23	A	23:A	_
+23	verursacht	verursachen	VERB	VVPP	_	13	E	13:E	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

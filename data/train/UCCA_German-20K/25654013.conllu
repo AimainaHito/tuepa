@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25654013
+# text = Inzwischen wurde das Grab langsam fertig .
+1	Inzwischen	inzwischen	ADV	ADV	_	6	L	6:L	_
+2	wurde	werden	AUX	TRUNC	_	6	F	6:F	_
+3	das	der	DET	ART	_	4	E	4:E	_
+4	Grab	Grab	NOUN	NN	_	6	A	6:A	_
+5	langsam	langsam	ADJ	ADJD	_	6	D	6:D	_
+6	fertig	fertig	ADJ	ADJD	_	0	H	0:H	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

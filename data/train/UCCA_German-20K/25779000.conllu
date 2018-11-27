@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25779000
+# text = Als das Frühstück beendigt war , begab ich mich an Land .
+1	Als	als	SCONJ	KOUS	_	4	L	4:L	_
+2	das	der	DET	ART	_	3	E	3:E	_
+3	Frühstück	Frühstück	NOUN	NN	_	4	A	4:A	_
+4	beendigt	beendigen	VERB	VVFIN	_	0	H	0:H	_
+5	war	sein	AUX	ADV	_	4	F	4:F	_
+6	,	,	PUNCT	$,	_	4	U	4:U	_
+7	begab	begeben	VERB	VVFIN	_	4	H	4:H	_
+8	ich	ich	PRON	PPER	_	7	A	7:A	_
+9	mich	ich	PRON	PRF	_	7	Terminal	7:Terminal	_
+10	an	an	ADP	APPR	_	11	R	11:R	_
+11	Land	Land	NOUN	NN	_	7	A	7:A	_
+12	.	.	PUNCT	$.	_	11	U	11:U	_
+

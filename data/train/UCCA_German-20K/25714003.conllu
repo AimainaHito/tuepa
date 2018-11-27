@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25714003
+# text = Nachher vernahm ich , dass sie ihn mit Hilfe von Stricken die eiserne Leiter hinaufzogen .
+1	Nachher	Nachher	ADV	NE	_	2	L	2:L	_
+2	vernahm	vernehmen	VERB	VVFIN	_	0	H	0:H	_
+3	ich	ich	PRON	PPER	_	2	A	2:A	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	dass	dass	SCONJ	KOUS	_	15	R	15:R	_
+6	sie	sie	PRON	ADV	_	15	A	15:A	_
+7	ihn	er	PRON	PPER	_	15	A	15:A	_
+8	mit	mit	ADP	APPR	_	9	R	9:R	_
+9	Hilfe	Hilfe	NOUN	NN	_	15	A	15:A	_
+10	von	von	ADP	NN	_	11	R	11:R	_
+11	Stricken	Strick	NOUN	NN	_	9	A	9:A	_
+12	die	der	DET	ART	_	14	E	14:E	_
+13	eiserne	eisern	ADJ	ADJA	_	14	E	14:E	_
+14	Leiter	Leiter	NOUN	NN	_	15	A	15:A	_
+15	hinaufzogen	hinaufziehen	VERB	ADJD	_	2	A	2:A	_
+16	.	.	PUNCT	$.	_	15	U	15:U	_
+

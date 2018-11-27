@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 206006
+# text = Sidney W . Pink , a producer and 3D - movie pioneer , discovered him in one of his off - Broadway roles and cast him in Madigan 's Millions .
+1	Sidney	Sidney	PROPN	NNP	_	0	C	0:C|12:A|25:A|7:A	_
+2	W	w	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	.	.	PUNCT	.	_	1	U	1:U	_
+4	Pink	pink	PROPN	NNP	_	1	Terminal	1:Terminal	_
+5	,	,	PUNCT	,	_	1	U	1:U	_
+6	a	a	DET	DT	_	7	E	7:E	_
+7	producer	producer	NOUN	NN	_	1	E	1:E	_
+8	and	and	CCONJ	CC	_	7	N	7:N	_
+9	3D	3d	NOUN	NN	_	11	E	11:E	_
+10	-	-	PUNCT	HYPH	_	11	U	11:U	_
+11	movie	movie	NOUN	NN	_	12	E	12:E	_
+12	pioneer	pioneer	NOUN	NN	_	7	C	7:C	_
+13	,	,	PUNCT	,	_	14	U	14:U	_
+14	discovered	discover	VERB	VBD	_	0	H	0:H	_
+15	him	he	PRON	PRP	_	14	A	14:A	_
+16	in	in	ADP	IN	_	23	R	23:R	_
+17	one	one	NUM	CD	_	23	E	23:E	_
+18	of	of	ADP	IN	_	17	R	17:R	_
+19	his	he	PRON	PRP$	_	23	A	23:A	_
+20	off	off	NOUN	NN	_	23	E	23:E	_
+21	-	-	PUNCT	HYPH	_	20	U	20:U	_
+22	Broadway	Broadway	NOUN	NN	_	20	Terminal	20:Terminal	_
+23	roles	role	NOUN	NNS	_	14	A	14:A	_
+24	and	and	CCONJ	CC	_	14	L	14:L	_
+25	cast	cast	VERB	VBD	_	14	H	14:H	_
+26	him	he	PRON	PRP	_	25	A	25:A	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	Madigan	Madigan	PROPN	NNP	_	25	A	25:A	_
+29	's	's	PART	POS	_	28	Terminal	28:Terminal	_
+30	Millions	million	PROPN	NNPS	_	28	Terminal	28:Terminal	_
+31	.	.	PUNCT	.	_	28	U	28:U	_
+

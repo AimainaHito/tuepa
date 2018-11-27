@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25512001
+# text = » Aber wie kommen Sie wieder an Bord zurück ?
+1	»	»	PUNCT	$(	_	4	U	4:U	_
+2	Aber	aber	CCONJ	KON	_	4	L	4:L	_
+3	wie	wie	ADV	ADV	_	4	D	4:D	_
+4	kommen	kommen	VERB	VVFIN	_	0	H	0:H	_
+5	Sie	Sie|sie	PRON	PPER	_	4	A	4:A	_
+6	wieder	wieder	ADV	NN	_	4	D	4:D	_
+7	an	an	ADP	APPR	_	8	R	8:R	_
+8	Bord	Bord	PROPN	NN	_	4	A	4:A	_
+9	zurück	zurück	ADV	ADJA	_	4	Terminal	4:Terminal	_
+10	?	?	PUNCT	$.	_	4	U	4:U	_
+

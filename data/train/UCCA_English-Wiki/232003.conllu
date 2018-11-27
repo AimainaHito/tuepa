@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 232003
+# text = He often sings the theme songs of his films , which play over the closing credits .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	often	often	ADV	RB	_	3	D	3:D	_
+3	sings	sing	VERB	VBZ	_	0	H	0:H	_
+4	the	the	DET	DT	_	6	E	6:E	_
+5	theme	theme	NOUN	NN	_	6	E	6:E	_
+6	songs	song	NOUN	NNS	_	3	A	3:A	_
+7	of	of	ADP	IN	_	9	R	9:R	_
+8	his	he	PRON	PRP$	_	9	E	9:E	_
+9	films	film	NOUN	NNS	_	6	E	6:E	_
+10	,	,	PUNCT	,	_	6	U	6:U	_
+11	which	which	PRON	WDT	_	12	R	12:R	_
+12	play	play	VERB	VBP	_	6	E	6:E	_
+13	over	over	ADP	IN	_	16	R	16:R	_
+14	the	the	DET	DT	_	16	E	16:E	_
+15	closing	closing	NOUN	NN	_	16	E	16:E	_
+16	credits	credit	NOUN	NNS	_	12	A	12:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 25517003
+# text = » Ich lasse Ihre Berechnungen gelten , Kapitän « , erwiderte ich , » und es würde mir schwerfallen , ihnen zu widersprechen , weil die Erfahrung sie täglich bestätigt . Doch fühle ich mich nun einer wirklichen Schwierigkeit gegenüber .
+1	»	»	PUNCT	$(	_	6	U	6:U	_
+2	Ich	ich	PRON	PPER	_	6	A	6:A	_
+3	lasse	lassen	VERB	VVFIN	_	6	D	6:D	_
+4	Ihre	Ihr|ihr	DET	PPOSAT	_	5	E	5:E	_
+5	Berechnungen	Berechnung	NOUN	NN	_	6	A	6:A	_
+6	gelten	lten	ADJ	VVFIN	_	11	A	11:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	Kapitän	Kapitän	NOUN	NN	_	6	G	6:G	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	erwiderte	erwideren	VERB	VVFIN	_	0	H	0:H	_
+12	ich	ich	PRON	PPER	_	11	A	11:A	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	»	»	PUNCT	$(	_	11	U	11:U	_
+15	und	und	CCONJ	NE	_	6	L	6:L	_
+16	es	es	PRON	PPER	_	19	F	19:F	_
+17	würde	werden	AUX	NN	_	19	D	19:D	_
+18	mir	ich	PRON	PPER	_	19	A	19:A|23:A	_
+19	schwerfallen	schwerfallen	VERB	VVINF	_	6	H	6:H	_
+20	,	,	PUNCT	$,	_	19	U	19:U	_
+21	ihnen	sie	PRON	PPER	_	23	A	23:A	_
+22	zu	zu	PART	VVINF	_	23	F	23:F	_
+23	widersprechen	widersprechen	VERB	ADJA	_	19	A	19:A	_
+24	,	,	PUNCT	$,	_	6	U	6:U	_
+25	weil	weil	SCONJ	KOUS	_	6	L	6:L	_
+26	die	der	DET	ART	_	27	E	27:E	_
+27	Erfahrung	Erfahrung	NOUN	NN	_	30	A	30:A	_
+28	sie	sie	PRON	ADV	_	30	A	30:A	_
+29	täglich	täglich	ADJ	ADJD	_	30	D	30:D	_
+30	bestätigt	bestätigen	VERB	VVPP	_	6	H	6:H	_
+31	.	.	PUNCT	$.	_	6	U	6:U	_
+32	Doch	doch	CCONJ	ADV	_	6	L	6:L	_
+33	fühle	fühlen	VERB	VVFIN	_	6	H	6:H	_
+34	ich	ich	PRON	PPER	_	33	A	33:A	_
+35	mich	ich	PRON	PRF	_	33	Terminal	33:Terminal	_
+36	nun	nun	ADV	ADV	_	33	D	33:D	_
+37	einer	ein	DET	ART	_	39	E	39:E	_
+38	wirklichen	wirklich	ADJ	ADJA	_	39	E	39:E	_
+39	Schwierigkeit	Schwierigkeit	NOUN	NN	_	33	A	33:A	_
+40	gegenüber	gegenüber	ADP	PTKVZ	_	33	Terminal	33:Terminal	_
+41	.	.	PUNCT	$.	_	33	U	33:U	_
+

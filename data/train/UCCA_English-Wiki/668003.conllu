@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 668003
+# text = When discussing the project 's weak commercial reaction , Carey blamed both her frame of mind during the time of its release , its postponement , as well as the soundtrack having been released on September 11 .
+1	When	when	ADV	WRB	_	2	L	2:L	_
+2	discussing	discuss	VERB	VBG	_	0	H	0:H	_
+3	the	the	DET	DT	_	8	E	8:E	_
+4	project	project	NOUN	NN	_	8	E	8:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	weak	weak	ADJ	JJ	_	8	E	8:E	_
+7	commercial	commercial	ADJ	JJ	_	8	E	8:E	_
+8	reaction	reaction	NOUN	NN	_	2	A	2:A	_
+9	,	,	PUNCT	,	_	2	U	2:U	_
+10	Carey	Carey	PROPN	NNP	_	11	A	11:A|2:A	_
+11	blamed	blam	VERB	VBD	_	2	H	2:H	_
+12	both	both	CCONJ	CC	_	16	N	16:N	_
+13	her	she	PRON	PRP$	_	16	E	16:E	_
+14	frame	frame	NOUN	NN	_	16	E	16:E	_
+15	of	of	ADP	IN	_	14	R	14:R	_
+16	mind	mind	NOUN	NN	_	11	A	11:A	_
+17	during	during	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	time	time	NOUN	NN	_	16	L	16:L	_
+20	of	of	ADP	IN	_	19	R	19:R	_
+21	its	its	PRON	PRP$	_	22	A	22:A	_
+22	release	release	NOUN	NN	_	16	H	16:H	_
+23	,	,	PUNCT	,	_	16	U	16:U	_
+24	its	its	PRON	PRP$	_	25	F	25:F	_
+25	postponement	postponement	NOUN	NN	_	16	C	16:C	_
+26	,	,	PUNCT	,	_	16	U	16:U	_
+27	as	as	ADV	RB	_	16	N	16:N	_
+28	well	well	ADV	RB	_	27	Terminal	27:Terminal	_
+29	as	as	ADP	IN	_	27	Terminal	27:Terminal	_
+30	the	the	DET	DT	_	31	E	31:E	_
+31	soundtrack	soundtrack	NOUN	NN	_	34	A	34:A	_
+32	having	have	AUX	VBG	_	34	F	34:F	_
+33	been	be	AUX	VBN	_	34	F	34:F	_
+34	released	release	VERB	VBN	_	16	C	16:C	_
+35	on	on	ADP	IN	_	36	R	36:R	_
+36	September	September	PROPN	NNP	_	34	D	34:D	_
+37	11	11	NUM	CD	_	36	Terminal	36:Terminal	_
+38	.	.	PUNCT	.	_	36	U	36:U	_
+

@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 88003
+# text = Enfin , dans un article d' un journal satirique très - redouté , le plus aimé de ses rédacteurs , brochant sur le tout , poussa au monstre , comme Hippolyte , lui porta un dernier coup et l' acheva au milieu d' un éclat de rire universel .
+1	Enfin	enfin	ADV	_	_	21	L	21:L	_
+2	,	,	PUNCT	_	_	21	U	21:U	_
+3	dans	dans	ADP	_	_	5	R	5:R	_
+4	un	un	DET	_	_	5	E	5:E	_
+5	article	article	NOUN	_	_	21	A	21:A	_
+6	d'	de	ADP	_	_	8	R	8:R	_
+7	un	un	DET	_	_	8	E	8:E	_
+8	journal	journal	NOUN	_	_	5	E	5:E	_
+9	satirique	satirique	ADJ	_	_	8	E	8:E	_
+10	très	très	ADV	_	_	8	E	8:E	_
+11	-	-	PUNCT	_	_	10	U	10:U	_
+12	redouté	redouter	VERB	_	_	10	Terminal	10:Terminal	_
+13	,	,	PUNCT	_	_	21	U	21:U	_
+14	le	le	DET	_	_	16	E	16:E	_
+15	plus	plus	ADV	_	_	16	D	16:D	_
+16	aimé	aimer	VERB	_	_	19	E	19:E	_
+17	de	de	ADP	_	_	16	R	16:R	_
+18	ses	son	DET	_	_	19	E	19:E	_
+19	rédacteurs	rédacteur	NOUN	_	_	0	C	0:C|16:A|26:A|34:A|40:A	_
+20	,	,	PUNCT	_	_	21	U	21:U	_
+21	brochant	brocher	VERB	_	_	0	H	0:H	_
+22	sur	sur	ADP	_	_	23	R	23:R	_
+23	le	le	DET	_	_	21	A	21:A	_
+24	tout	tout	NOUN	_	_	23	E	23:E	_
+25	,	,	PUNCT	_	_	21	U	21:U	_
+26	poussa	pousser	DET	_	_	21	H	21:H	_
+27	au	au	NOUN	_	_	28	R	28:R	_
+28	monstre	monstre	ADJ	_	_	26	A	26:A	_
+29	,	,	PUNCT	_	_	26	U	26:U	_
+30	comme	comme	ADP	_	_	31	R	31:R	_
+31	Hippolyte	Hippolyte	PROPN	_	_	26	A	26:A	_
+32	,	,	PUNCT	_	_	21	U	21:U	_
+33	lui	lui	PRON	_	_	34	A	34:A	_
+34	porta	porter	VERB	_	_	21	H	21:H	_
+35	un	un	DET	_	_	37	E	37:E	_
+36	dernier	dernier	ADJ	_	_	37	E	37:E	_
+37	coup	coup	NOUN	_	_	34	A	34:A	_
+38	et	et	CCONJ	_	_	21	L	21:L	_
+39	l'	le	PRON	_	_	40	A	40:A	_
+40	acheva	acheva	VERB	_	_	21	H	21:H	_
+41	au	au	ADJ	_	_	42	E	42:E	_
+42	milieu	milieu	NOUN	_	_	40	A	40:A	_
+43	d'	de	ADP	_	_	44	R	44:R	_
+44	un	un	DET	_	_	42	E	42:E	_
+45	éclat	éclat	NOUN	_	_	44	Terminal	44:Terminal	_
+46	de	de	ADP	_	_	44	Terminal	44:Terminal	_
+47	rire	rire	VERB	_	_	44	Terminal	44:Terminal	_
+48	universel	universel	ADJ	_	_	44	D	44:D	_
+49	.	.	PUNCT	_	_	44	U	44:U	_
+

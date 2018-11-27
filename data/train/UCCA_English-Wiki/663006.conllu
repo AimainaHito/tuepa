@@ -1,0 +1,21 @@
+# format = ucca
+# sent_id = 663006
+# text = " Carey once again opted to embark on a short world tour titled Daydream World Tour .
+1	"	"	PUNCT	``	_	7	U	7:U	_
+2	Carey	Carey	PROPN	NNP	_	7	A	7:A	_
+3	once	once	ADV	RB	_	7	D	7:D	_
+4	again	again	ADV	RB	_	3	E	3:E	_
+5	opted	opt	VERB	VBN	_	7	D	7:D	_
+6	to	to	PART	TO	_	7	F	7:F	_
+7	embark	embark	VERB	VB	_	0	H	0:H	_
+8	on	on	ADP	IN	_	12	R	12:R	_
+9	a	a	DET	DT	_	12	E	12:E	_
+10	short	short	ADJ	JJ	_	12	E	12:E	_
+11	world	world	NOUN	NN	_	12	E	12:E	_
+12	tour	tour	NOUN	NN	_	7	A	7:A	_
+13	titled	title	VERB	VBN	_	12	E	12:E	_
+14	Daydream	Daydream	PROPN	NNP	_	16	E	16:E	_
+15	World	World	PROPN	NNP	_	16	E	16:E	_
+16	Tour	Tour	PROPN	NNP	_	13	A	13:A	_
+17	.	.	PUNCT	.	_	16	U	16:U	_
+

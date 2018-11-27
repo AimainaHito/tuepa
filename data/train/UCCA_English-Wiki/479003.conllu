@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 479003
+# text = Similarly , Bird admitted that Johnson 's daily box score was the first thing he checked in the morning .
+1	Similarly	similarly	ADV	RB	_	4	L	4:L	_
+2	,	,	PUNCT	,	_	4	U	4:U	_
+3	Bird	bird	PROPN	NNP	_	4	A	4:A	_
+4	admitted	admit	VERB	VBD	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	11	F	11:F	_
+6	Johnson	Johnson	PROPN	NNP	_	10	E	10:E	_
+7	's	's	PART	POS	_	6	R	6:R	_
+8	daily	daily	ADJ	JJ	_	10	E	10:E	_
+9	box	box	NOUN	NN	_	10	E	10:E	_
+10	score	score	NOUN	NN	_	11	A	11:A	_
+11	was	be	AUX	VBD	_	4	A	4:A	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	first	first	ADJ	JJ	_	14	E	14:E	_
+14	thing	thing	NOUN	NN	_	16	D	16:D	_
+15	he	he	PRON	PRP	_	16	A	16:A	_
+16	checked	check	VERB	VBD	_	11	A	11:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	the	the	DET	DT	_	19	E	19:E	_
+19	morning	morning	NOUN	NN	_	16	D	16:D	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

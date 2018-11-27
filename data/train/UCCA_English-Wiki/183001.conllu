@@ -1,0 +1,44 @@
+# format = ucca
+# sent_id = 183001
+# text = She won the Academy Award for Best Actress twice , was the first person to accrue 10 Academy Award nominations for acting , and was the first woman to receive a Lifetime Achievement Award from the American Film Institute .
+1	She	she	PRON	PRP	_	2	A	2:A|11:A|25:A	_
+2	won	win	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	5	E	5:E	_
+4	Academy	Academy	PROPN	NNP	_	5	E	5:E	_
+5	Award	Award	PROPN	NNP	_	2	A	2:A	_
+6	for	for	ADP	IN	_	8	R	8:R	_
+7	Best	Best	ADJ	JJS	_	8	E	8:E	_
+8	Actress	actress	NOUN	NN	_	5	E	5:E	_
+9	twice	twice	ADV	RB	_	2	D	2:D	_
+10	,	,	PUNCT	,	_	2	U	2:U	_
+11	was	be	AUX	VBD	_	2	H	2:H	_
+12	the	the	DET	DT	_	14	E	14:E	_
+13	first	first	ADJ	JJ	_	14	E	14:E	_
+14	person	person	NOUN	NN	_	11	A	11:A	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	accrue	accrue	VERB	VB	_	14	E	14:E	_
+17	10	10	NUM	CD	_	20	E	20:E	_
+18	Academy	Academy	PROPN	NNP	_	19	E	19:E	_
+19	Award	Award	PROPN	NNP	_	20	E	20:E	_
+20	nominations	nomination	NOUN	NNS	_	16	A	16:A	_
+21	for	for	SCONJ	IN	_	22	R	22:R	_
+22	acting	act	VERB	VBG	_	20	E	20:E	_
+23	,	,	PUNCT	,	_	2	U	2:U	_
+24	and	and	CCONJ	CC	_	2	L	2:L	_
+25	was	be	AUX	VBD	_	2	H	2:H	_
+26	the	the	DET	DT	_	28	E	28:E	_
+27	first	first	ADJ	JJ	_	28	E	28:E	_
+28	woman	woman	NOUN	NN	_	25	A	25:A	_
+29	to	to	PART	TO	_	30	F	30:F	_
+30	receive	receive	VERB	VB	_	28	E	28:E	_
+31	a	a	DET	DT	_	34	E	34:E	_
+32	Lifetime	lifetime	NOUN	NN	_	34	E	34:E	_
+33	Achievement	achievement	NOUN	NN	_	34	E	34:E	_
+34	Award	award	ADV	RB	_	30	A	30:A	_
+35	from	from	ADP	IN	_	39	R	39:R	_
+36	the	the	DET	DT	_	39	E	39:E	_
+37	American	american	PROPN	NNP	_	39	E	39:E	_
+38	Film	film	PROPN	NNP	_	39	E	39:E	_
+39	Institute	Institute	PROPN	NNP	_	34	E	34:E	_
+40	.	.	PUNCT	.	_	39	U	39:U	_
+

@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 541005
+# text = He placed the studio 's directors on a quota system , and decreed a flat , low - key lighting style to make the sets look cheaper than they were .
+1	He	he	PRON	PRP	_	2	A	2:A|13:A	_
+2	placed	place	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	6	E	6:E	_
+4	studio	studio	NOUN	NN	_	6	E	6:E	_
+5	's	's	PART	POS	_	4	R	4:R	_
+6	directors	director	NOUN	NNS	_	2	A	2:A	_
+7	on	on	ADP	IN	_	10	R	10:R	_
+8	a	a	DET	DT	_	10	E	10:E	_
+9	quota	quota	NOUN	NN	_	10	E	10:E	_
+10	system	system	NOUN	NN	_	2	A	2:A	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	and	and	CCONJ	CC	_	2	L	2:L	_
+13	decreed	decree	VERB	VBD	_	2	H	2:H	_
+14	a	a	DET	DT	_	21	E	21:E	_
+15	flat	flat	ADJ	JJ	_	21	E	21:E	_
+16	,	,	PUNCT	,	_	21	U	21:U	_
+17	low	low	ADJ	JJ	_	19	E	19:E	_
+18	-	-	PUNCT	HYPH	_	19	U	19:U	_
+19	key	key	ADJ	JJ	_	21	E	21:E	_
+20	lighting	lighting	NOUN	NN	_	21	E	21:E	_
+21	style	style	NOUN	NN	_	13	A	13:A	_
+22	to	to	PART	TO	_	2	L	2:L	_
+23	make	make	VERB	VB	_	26	D	26:D	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	sets	set	NOUN	NNS	_	26	A	26:A	_
+26	look	look	VERB	VBP	_	2	H	2:H	_
+27	cheaper	cheaper	ADJ	JJR	_	26	A	26:A|29:S	_
+28	than	than	SCONJ	IN	_	29	R	29:R	_
+29	they	they	PRON	PRP	_	26	A	26:A	_
+30	were	be	AUX	VBD	_	29	F	29:F	_
+31	.	.	PUNCT	.	_	29	U	29:U	_
+

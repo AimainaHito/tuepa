@@ -1,0 +1,15 @@
+# format = ucca
+# sent_id = 455013
+# text = His inaugural program on gun violence in America drew praise .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	inaugural	inaugural	ADJ	JJ	_	3	E	3:E	_
+3	program	program	NOUN	NN	_	10	A	10:A	_
+4	on	on	ADP	IN	_	6	R	6:R	_
+5	gun	gun	NOUN	NN	_	6	E	6:E	_
+6	violence	violence	NOUN	NN	_	3	E	3:E	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	America	America	PROPN	NNP	_	6	E	6:E	_
+9	drew	drew	NOUN	NN	_	10	D	10:D	_
+10	praise	praise	NOUN	NN	_	0	H	0:H	_
+11	.	.	PUNCT	.	_	10	U	10:U	_
+

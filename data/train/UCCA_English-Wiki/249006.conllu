@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 249006
+# text = The movie was screened at a special presentation at the 2006 Venice International Film Festival and was released in theaters to a tepid reception in 2007 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	movie	movie	NOUN	NN	_	0	C	0:C|18:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	screened	screen	VERB	VBN	_	0	H	0:H	_
+5	at	at	ADP	IN	_	8	R	8:R	_
+6	a	a	DET	DT	_	8	E	8:E	_
+7	special	special	ADJ	JJ	_	8	E	8:E	_
+8	presentation	presentation	NOUN	NN	_	4	A	4:A	_
+9	at	at	ADP	IN	_	12	R	12:R	_
+10	the	the	DET	DT	_	12	E	12:E	_
+11	2006	2006	NUM	CD	_	12	E	12:E	_
+12	Venice	Venice	PROPN	NNP	_	4	A	4:A	_
+13	International	International	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Film	film	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	Festival	Festival	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	and	and	CCONJ	CC	_	4	L	4:L	_
+17	was	be	AUX	VBD	_	18	F	18:F	_
+18	released	release	VERB	VBN	_	4	H	4:H	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	theaters	theater	NOUN	NNS	_	18	A	18:A	_
+21	to	to	ADP	IN	_	24	R	24:R	_
+22	a	a	DET	DT	_	24	E	24:E	_
+23	tepid	tepid	ADJ	JJ	_	24	E	24:E	_
+24	reception	reception	NOUN	NN	_	18	A	18:A	_
+25	in	in	ADP	IN	_	26	R	26:R	_
+26	2007	2007	NUM	CD	_	18	D	18:D	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

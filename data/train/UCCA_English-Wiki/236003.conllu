@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 236003
+# text = Several anti - Jackie Chan groups were set up on Facebook with tens of thousands of supporters .
+1	Several	several	ADJ	JJ	_	6	E	6:E	_
+2	anti	anto	X	AFX	_	4	R	4:R	_
+3	-	-	PUNCT	HYPH	_	4	U	4:U	_
+4	Jackie	Jackie	PROPN	NNP	_	6	E	6:E	_
+5	Chan	Chan	PROPN	NNP	_	4	Terminal	4:Terminal	_
+6	groups	group	NOUN	NNS	_	8	A	8:A	_
+7	were	be	AUX	VBD	_	8	F	8:F	_
+8	set	set	VERB	VBN	_	0	H	0:H	_
+9	up	up	ADP	RP	_	8	Terminal	8:Terminal	_
+10	on	on	ADP	IN	_	11	R	11:R	_
+11	Facebook	Facebook	NOUN	NN	_	8	A	8:A	_
+12	with	with	ADP	IN	_	17	R	17:R	_
+13	tens	ten	NOUN	NNS	_	17	E	17:E	_
+14	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+15	thousands	thousand	NOUN	NNS	_	13	Terminal	13:Terminal	_
+16	of	of	ADP	IN	_	13	R	13:R	_
+17	supporters	supporter	NOUN	NNS	_	8	A	8:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,39 @@
+# format = ucca
+# sent_id = 729005
+# text = The Chicago Tribune noted , " Jolie really shines in the calm before the storm , the scenes [ ... ] when one patronizing male authority figure after another belittles her at their peril .
+1	The	the	DET	DT	_	4	A	4:A	_
+2	Chicago	Chicago	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Tribune	Tribune	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	noted	note	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	``	_	4	U	4:U	_
+7	Jolie	Jolie	PROPN	NNP	_	9	A	9:A	_
+8	really	really	ADV	RB	_	9	D	9:D	_
+9	shines	shine	VERB	VBZ	_	4	A	4:A	_
+10	in	in	ADP	IN	_	12	R	12:R	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	calm	calm	NOUN	NN	_	9	A	9:A	_
+13	before	before	ADP	IN	_	15	R	15:R	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	storm	storm	NOUN	NN	_	12	E	12:E	_
+16	,	,	PUNCT	,	_	9	U	9:U	_
+17	the	the	DET	DT	_	18	E	18:E	_
+18	scenes	scene	NOUN	NNS	_	30	A	30:A	_
+19	[	[	PUNCT	-LRB-	_	18	U	18:U	_
+20	...	...	PUNCT	,	_	18	U	18:U	_
+21	]	]	PUNCT	-RRB-	_	18	U	18:U	_
+22	when	when	ADV	WRB	_	18	F	18:F	_
+23	one	one	NUM	CD	_	27	E	27:E	_
+24	patronizing	patronizing	NOUN	NN	_	27	E	27:E	_
+25	male	male	NOUN	NN	_	27	E	27:E	_
+26	authority	authority	NOUN	NN	_	27	E	27:E	_
+27	figure	figure	NOUN	NN	_	18	E	18:E	_
+28	after	after	ADP	IN	_	29	R	29:R	_
+29	another	another	DET	DT	_	27	A	27:A	_
+30	belittles	belittle	NOUN	NNS	_	9	H	9:H	_
+31	her	she	PRON	PRP$	_	30	A	30:A	_
+32	at	at	ADP	IN	_	34	R	34:R	_
+33	their	they	PRON	PRP$	_	34	E	34:E	_
+34	peril	peril	NOUN	NN	_	30	A	30:A	_
+35	.	.	PUNCT	.	_	34	U	34:U	_
+

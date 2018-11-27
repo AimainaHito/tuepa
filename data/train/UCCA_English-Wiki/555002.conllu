@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 555002
+# text = He played and sang during lunchtime , and was often teased as a " trashy " kid who played hillbilly music .
+1	He	he	PRON	PRP	_	2	A	2:A|11:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	and	and	CCONJ	CC	_	2	N	2:N	_
+4	sang	sang	VERB	VBD	_	2	C	2:C	_
+5	during	during	ADP	IN	_	6	R	6:R	_
+6	lunchtime	lunchtime	NOUN	NN	_	2	A	2:A	_
+7	,	,	PUNCT	,	_	2	U	2:U	_
+8	and	and	CCONJ	CC	_	2	L	2:L	_
+9	was	be	AUX	VBD	_	11	F	11:F	_
+10	often	often	ADV	RB	_	11	D	11:D	_
+11	teased	tease	VERB	VBN	_	2	H	2:H	_
+12	as	as	ADP	IN	_	17	R	17:R	_
+13	a	a	DET	DT	_	17	E	17:E	_
+14	"	"	PUNCT	``	_	17	U	17:U	_
+15	trashy	trashy	ADJ	JJ	_	17	E	17:E	_
+16	"	"	PUNCT	''	_	17	U	17:U	_
+17	kid	kid	NOUN	NN	_	11	A	11:A	_
+18	who	who	PRON	WP	_	19	F	19:F	_
+19	played	play	VERB	VBD	_	17	E	17:E	_
+20	hillbilly	hillbilly	ADV	RB	_	21	E	21:E	_
+21	music	music	NOUN	NN	_	19	A	19:A	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

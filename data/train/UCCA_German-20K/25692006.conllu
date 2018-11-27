@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 25692006
+# text = Ich sah die achtseitigen Minarette dieser Stadt , die einst , wie der Geschichts schreiber Edrisi berichtet , der reichste und belebteste Stapel platz der Küste war .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	sah	sehen	VERB	VVFIN	_	0	H	0:H	_
+3	die	der	DET	ART	_	5	E	5:E	_
+4	achtseitigen	achtseitig	ADJ	ADJA	_	5	E	5:E	_
+5	Minarette	Minarette	NOUN	NN	_	2	A	2:A	_
+6	dieser	dies	PRON	PDAT	_	7	R	7:R	_
+7	Stadt	Stadt	NOUN	NN	_	5	E	5:E	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	die	der	PRON	PRELS	_	27	R	27:R	_
+10	einst	einst	ADV	ADV	_	27	D	27:D	_
+11	,	,	PUNCT	$,	_	27	U	27:U	_
+12	wie	wie	ADP	KON	_	27	L	27:L	_
+13	der	der	DET	ART	_	16	E	16:E	_
+14	Geschichts	Geschichts	NOUN	NN	_	15	E	15:E	_
+15	schreiber	schreiber	ADP	ADV	_	16	E	16:E	_
+16	Edrisi	Edrisi	PROPN	NE	_	17	A	17:A	_
+17	berichtet	berichten	VERB	VVFIN	_	27	H	27:H	_
+18	,	,	PUNCT	$,	_	27	U	27:U	_
+19	der	der	DET	ART	_	24	E	24:E	_
+20	reichste	reich	ADJ	ADJA	_	24	E	24:E	_
+21	und	und	CCONJ	NN	_	20	N	20:N	_
+22	belebteste	belebt	ADJ	ADJA	_	20	C	20:C	_
+23	Stapel	Stapel	NOUN	NE	_	24	E	24:E	_
+24	platz	platz	ADP	NN	_	27	A	27:A	_
+25	der	der	DET	ART	_	26	R	26:R	_
+26	Küste	Küste	NOUN	NN	_	24	E	24:E	_
+27	war	sein	AUX	ADV	_	7	E	7:E	_
+28	.	.	PUNCT	$.	_	27	U	27:U	_
+

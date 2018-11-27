@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 130015
+# text = Bringing Up Baby was acclaimed by critics , but it was nevertheless unsuccessful at the box office .
+1	Bringing	bring	VERB	VBG	_	5	A	5:A	_
+2	Up	up	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	Baby	baby	PROPN	NNP	_	1	Terminal	1:Terminal	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	acclaimed	acclaim	VERB	VBN	_	0	H	0:H	_
+6	by	by	ADP	IN	_	7	R	7:R	_
+7	critics	critic	NOUN	NNS	_	5	A	5:A	_
+8	,	,	PUNCT	,	_	5	U	5:U	_
+9	but	but	CCONJ	CC	_	5	L	5:L	_
+10	it	it	PRON	PRP	_	13	A	13:A	_
+11	was	be	AUX	VBD	_	13	F	13:F	_
+12	nevertheless	nevertheless	ADV	RB	_	13	D	13:D	_
+13	unsuccessful	unsuccessful	ADJ	JJ	_	5	H	5:H	_
+14	at	at	ADP	IN	_	17	R	17:R	_
+15	the	the	DET	DT	_	17	E	17:E	_
+16	box	box	NOUN	NN	_	17	E	17:E	_
+17	office	office	NOUN	NN	_	13	A	13:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

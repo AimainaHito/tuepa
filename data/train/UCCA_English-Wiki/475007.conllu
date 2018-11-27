@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 475007
+# text = Johnson played with the team frequently over the next several years , with possibly the most memorable game occurring in November , 2001 .
+1	Johnson	Johnson	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	5	R	5:R	_
+4	the	the	DET	DT	_	5	E	5:E	_
+5	team	team	NOUN	NN	_	2	A	2:A	_
+6	frequently	frequently	ADV	RB	_	2	D	2:D	_
+7	over	over	ADP	IN	_	11	R	11:R	_
+8	the	the	DET	DT	_	11	E	11:E	_
+9	next	next	ADJ	JJ	_	11	E	11:E	_
+10	several	several	ADJ	JJ	_	11	E	11:E	_
+11	years	year	NOUN	NNS	_	2	D	2:D	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	with	with	ADP	IN	_	2	L	2:L	_
+14	possibly	possibly	ADV	RB	_	17	D	17:D	_
+15	the	the	DET	DT	_	16	E	16:E	_
+16	most	most	ADV	RBS	_	17	D	17:D	_
+17	memorable	memorable	ADJ	JJ	_	19	A	19:A	_
+18	game	game	NOUN	NN	_	17	A	17:A	_
+19	occurring	occurre	VERB	VBG	_	2	H	2:H	_
+20	in	in	ADP	IN	_	23	R	23:R	_
+21	November	November	PROPN	NNP	_	23	E	23:E	_
+22	,	,	PUNCT	,	_	23	U	23:U	_
+23	2001	2001	NUM	CD	_	19	D	19:D	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

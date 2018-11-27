@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 463006
+# text = Half of his ashes remained in his home in Long Island and the other half was placed in his summer home in the Gatineau Hills , near Ottawa .
+1	Half	half	NOUN	NN	_	4	E	4:E	_
+2	of	of	ADP	IN	_	1	R	1:R	_
+3	his	he	PRON	PRP$	_	4	E	4:E	_
+4	ashes	ash	NOUN	NNS	_	5	A	5:A	_
+5	remained	remain	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	his	he	PRON	PRP$	_	8	E	8:E	_
+8	home	home	NOUN	NN	_	5	A	5:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Long	Long	PROPN	NNP	_	8	E	8:E	_
+11	Island	island	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	and	and	CCONJ	CC	_	5	L	5:L	_
+13	the	the	DET	DT	_	15	E	15:E	_
+14	other	other	ADJ	JJ	_	15	E	15:E	_
+15	half	half	NOUN	NN	_	17	A	17:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	placed	place	VERB	VBN	_	5	H	5:H	_
+18	in	in	ADP	IN	_	21	R	21:R	_
+19	his	he	PRON	PRP$	_	21	E	21:E	_
+20	summer	summer	NOUN	NN	_	21	E	21:E	_
+21	home	home	ADV	RB	_	17	A	17:A	_
+22	in	in	ADP	IN	_	25	R	25:R	_
+23	the	the	DET	DT	_	25	E	25:E	_
+24	Gatineau	Gatineau	PROPN	NNP	_	25	E	25:E	_
+25	Hills	hills	PROPN	NNPS	_	21	E	21:E	_
+26	,	,	PUNCT	,	_	25	U	25:U	_
+27	near	near	ADP	IN	_	28	R	28:R	_
+28	Ottawa	Ottawa	PROPN	NNP	_	25	E	25:E	_
+29	.	.	PUNCT	.	_	28	U	28:U	_
+

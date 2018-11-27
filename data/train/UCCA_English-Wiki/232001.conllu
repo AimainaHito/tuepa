@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 232001
+# text = He began producing records professionally in the 1980s and has gone on to become a successful singer in Hong Kong and Asia .
+1	He	he	PRON	PRP	_	3	A	3:A|14:A	_
+2	began	begin	VERB	VBD	_	3	D	3:D	_
+3	producing	produce	VERB	VBG	_	0	H	0:H	_
+4	records	record	NOUN	NNS	_	3	A	3:A	_
+5	professionally	professionally	ADV	RB	_	3	D	3:D	_
+6	in	in	ADP	IN	_	8	R	8:R	_
+7	the	the	DET	DT	_	8	E	8:E	_
+8	1980s	1980	NOUN	NNS	_	3	D	3:D	_
+9	and	and	CCONJ	CC	_	3	L	3:L	_
+10	has	have	AUX	VBZ	_	14	F	14:F	_
+11	gone	go	VERB	VBN	_	14	D	14:D	_
+12	on	on	ADV	RB	_	11	F	11:F	_
+13	to	to	PART	TO	_	14	F	14:F	_
+14	become	become	VERB	VB	_	3	H	3:H	_
+15	a	a	DET	DT	_	17	E	17:E	_
+16	successful	successful	ADJ	JJ	_	17	E	17:E	_
+17	singer	singer	NOUN	NN	_	14	A	14:A	_
+18	in	in	ADP	IN	_	19	R	19:R	_
+19	Hong	Hong	PROPN	NNP	_	14	A	14:A	_
+20	Kong	Kong	PROPN	NNP	_	19	Terminal	19:Terminal	_
+21	and	and	CCONJ	CC	_	19	N	19:N	_
+22	Asia	Asia	PROPN	NNP	_	19	C	19:C	_
+23	.	.	PUNCT	.	_	19	U	19:U	_
+

@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 533009
+# text = Her death certificate stated that her death had been " accidental .
+1	Her	she	PRON	PRP$	_	3	E	3:E	_
+2	death	death	NOUN	NN	_	3	E	3:E	_
+3	certificate	certificate	NOUN	NN	_	4	A	4:A	_
+4	stated	state	VERB	VBD	_	0	H	0:H	_
+5	that	that	SCONJ	IN	_	11	F	11:F	_
+6	her	she	PRON	PRP$	_	7	E	7:E	_
+7	death	death	NOUN	NN	_	11	A	11:A	_
+8	had	have	AUX	VBD	_	11	F	11:F	_
+9	been	be	AUX	VBN	_	11	D	11:D	_
+10	"	"	PUNCT	``	_	11	U	11:U	_
+11	accidental	accidental	ADJ	JJ	_	4	A	4:A	_
+12	.	.	PUNCT	.	_	11	U	11:U	_
+

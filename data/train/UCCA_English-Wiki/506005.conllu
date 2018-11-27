@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 506005
+# text = Bowie was given a role in the 1986 film Absolute Beginners .
+1	Bowie	Bowie	PROPN	NNP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	given	give	VERB	VBN	_	0	H	0:H	_
+4	a	a	DET	DT	_	5	E	5:E	_
+5	role	role	NOUN	NN	_	3	A	3:A	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	9	E	9:E	_
+8	1986	1986	NUM	CD	_	9	E	9:E	_
+9	film	film	NOUN	NN	_	10	E	10:E	_
+10	Absolute	absolute	NOUN	NN	_	3	A	3:A	_
+11	Beginners	beginner	NOUN	NNS	_	10	Terminal	10:Terminal	_
+12	.	.	PUNCT	.	_	10	U	10:U	_
+

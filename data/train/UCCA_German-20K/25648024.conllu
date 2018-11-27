@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25648024
+# text = Mein Atmen wurde schwächer .
+1	Mein	mein	PROPN	PPOSAT	_	2	E	2:E	_
+2	Atmen	Atmen	PROPN	NE	_	4	A	4:A	_
+3	wurde	werden	AUX	NE	_	4	F	4:F	_
+4	schwächer	schwach	ADJ	ADJD	_	0	H	0:H	_
+5	.	.	PUNCT	$.	_	4	U	4:U	_
+

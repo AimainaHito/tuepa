@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 221011
+# text = " She felt it important to " influence people in a positive way " to vote on November 4 .
+1	"	"	PUNCT	``	_	3	U	3:U	_
+2	She	she	PRON	PRP	_	3	A	3:A	_
+3	felt	feel	VERB	VBD	_	0	H	0:H	_
+4	it	it	PRON	PRP	_	5	A	5:A	_
+5	important	important	ADJ	JJ	_	3	A	3:A	_
+6	to	to	PART	TO	_	8	F	8:F	_
+7	"	"	PUNCT	``	_	8	U	8:U	_
+8	influence	influence	VERB	VB	_	5	A	5:A	_
+9	people	people	NOUN	NNS	_	8	A	8:A	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	positive	positive	ADJ	JJ	_	13	E	13:E	_
+13	way	way	NOUN	NN	_	8	D	8:D	_
+14	"	"	PUNCT	''	_	8	U	8:U	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	vote	vote	VERB	VB	_	8	A	8:A	_
+17	on	on	ADP	IN	_	18	R	18:R	_
+18	November	November	PROPN	NNP	_	16	D	16:D	_
+19	4	4	NUM	CD	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	18	U	18:U	_
+

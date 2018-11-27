@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 548001
+# text = Some observers believed that Ben Kalmenson , Warner Bros . 's executive vice president , persuaded Warner to sell his stock so that Kalmenson could assume leadership of the studio .
+1	Some	some	DET	DT	_	2	E	2:E	_
+2	observers	observer	NOUN	NNS	_	3	A	3:A	_
+3	believed	believe	VERB	VBD	_	0	H	0:H	_
+4	that	that	SCONJ	IN	_	16	F	16:F	_
+5	Ben	Ben	PROPN	NNP	_	16	A	16:A	_
+6	Kalmenson	Kalmenson	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	Warner	Warner	PROPN	NNP	_	14	E	14:E	_
+9	Bros	Bros	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	.	.	PUNCT	.	_	8	U	8:U	_
+11	's	's	PART	POS	_	8	R	8:R	_
+12	executive	executive	ADJ	JJ	_	14	E	14:E	_
+13	vice	vice	NOUN	NN	_	14	E	14:E	_
+14	president	president	PROPN	NNP	_	5	E	5:E	_
+15	,	,	PUNCT	,	_	16	U	16:U	_
+16	persuaded	persuad	VERB	VBD	_	3	A	3:A	_
+17	Warner	Warner	PROPN	NNP	_	16	A	16:A|19:A	_
+18	to	to	PART	TO	_	19	F	19:F	_
+19	sell	sell	VERB	VB	_	16	A	16:A	_
+20	his	he	PRON	PRP$	_	21	E	21:E	_
+21	stock	stock	NOUN	NN	_	19	A	19:A	_
+22	so	so	ADV	RB	_	3	L	3:L	_
+23	that	that	SCONJ	IN	_	22	Terminal	22:Terminal	_
+24	Kalmenson	Kalmenson	PROPN	NNP	_	27	A	27:A	_
+25	could	could	AUX	MD	_	27	D	27:D	_
+26	assume	assume	VERB	VB	_	27	D	27:D	_
+27	leadership	leadership	NOUN	NN	_	3	H	3:H	_
+28	of	of	ADP	IN	_	30	R	30:R	_
+29	the	the	DET	DT	_	30	E	30:E	_
+30	studio	studio	NOUN	NN	_	27	A	27:A	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

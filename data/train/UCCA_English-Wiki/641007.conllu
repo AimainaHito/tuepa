@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 641007
+# text = Sufficient additional material was recorded for a planned follow - up album Milk and Honey ( released posthumously in 1984 ) . Released jointly with Ono , Double Fantasy was not well received , drawing comments such as Melody Maker 's " indulgent sterility ... a godawful yawn " .
+1	Sufficient	sufficient	ADJ	JJ	_	3	E	3:E	_
+2	additional	additional	ADJ	JJ	_	3	E	3:E	_
+3	material	material	NOUN	NN	_	5	A	5:A	_
+4	was	be	AUX	VBD	_	5	F	5:F	_
+5	recorded	record	VERB	VBN	_	0	H	0:H	_
+6	for	for	ADP	IN	_	13	R	13:R	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	planned	plan	VERB	VBN	_	12	E	12:E	_
+9	follow	follow	NOUN	NN	_	12	E	12:E	_
+10	-	-	PUNCT	HYPH	_	9	U	9:U	_
+11	up	up	NOUN	NN	_	9	Terminal	9:Terminal	_
+12	album	album	NOUN	NN	_	13	E	13:E	_
+13	Milk	milk	PROPN	NNP	_	5	A	5:A	_
+14	and	and	CCONJ	CC	_	13	Terminal	13:Terminal	_
+15	Honey	honey	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	(	(	PUNCT	-LRB-	_	13	U	13:U	_
+17	released	release	VERB	VBN	_	13	E	13:E	_
+18	posthumously	posthumously	ADV	RB	_	17	D	17:D	_
+19	in	in	ADP	IN	_	20	R	20:R	_
+20	1984	1984	PROPN	NNP	_	17	D	17:D	_
+21	)	)	PUNCT	-RRB-	_	5	U	5:U	_
+22	.	.	PUNCT	.	_	5	U	5:U	_
+23	Released	release	VERB	VBN	_	5	H	5:H	_
+24	jointly	jointly	ADV	RB	_	23	D	23:D	_
+25	with	with	ADP	IN	_	26	R	26:R	_
+26	Ono	Ono	PROPN	NNP	_	23	A	23:A	_
+27	,	,	PUNCT	,	_	5	U	5:U	_
+28	Double	double	PROPN	NNP	_	33	A	33:A|44:A|35:A|48:A	_
+29	Fantasy	fantasy	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	was	be	AUX	VBD	_	33	F	33:F	_
+31	not	not	PART	RB	_	33	D	33:D	_
+32	well	well	ADV	RB	_	33	D	33:D	_
+33	received	receive	VERB	VBN	_	5	H	5:H	_
+34	,	,	PUNCT	,	_	5	U	5:U	_
+35	drawing	draw	VERB	VBG	_	5	H	5:H	_
+36	comments	comment	NOUN	NNS	_	35	A	35:A	_
+37	such	such	ADJ	JJ	_	39	R	39:R	_
+38	as	as	ADP	IN	_	37	Terminal	37:Terminal	_
+39	Melody	Melody	PROPN	NNP	_	36	E	36:E	_
+40	Maker	maker	PROPN	NNP	_	39	Terminal	39:Terminal	_
+41	's	's	PART	POS	_	39	R	39:R	_
+42	"	"	PUNCT	``	_	39	U	39:U	_
+43	indulgent	indulgent	ADJ	JJ	_	44	E	44:E	_
+44	sterility	sterility	NOUN	NN	_	39	A	39:A	_
+45	...	...	PUNCT	,	_	44	U	44:U	_
+46	a	a	DET	DT	_	48	E	48:E	_
+47	godawful	godawful	ADJ	JJ	_	48	E	48:E	_
+48	yawn	yaw	NOUN	NN	_	44	H	44:H	_
+49	"	"	PUNCT	''	_	48	U	48:U	_
+50	.	.	PUNCT	.	_	48	U	48:U	_
+

@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 25411016
+# text = Seit sechsundzwanzig Jahren , da die Schiffe der Gesellschaft Cunard das Atlantische Meer befuhren , ist von zweitausend Fahrten nicht eine einzige mißglückt , nie kam eine Verspätung vor , nie ist ein Brief , ein Mensch oder ein Schiff abhanden gekommen oder zu Grunde gegangen .
+1	Seit	seit	ADP	APPR	_	2	R	2:R	_
+2	sechsundzwanzig	sechsundzwanzig	ADJ	CARD	_	23	D	23:D	_
+3	Jahren	Jahr	NOUN	NN	_	2	Terminal	2:Terminal	_
+4	,	,	PUNCT	$,	_	23	U	23:U	_
+5	da	da	SCONJ	KOUS	_	23	L	23:L	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	Schiffe	Schiff	NOUN	NN	_	14	A	14:A	_
+8	der	der	DET	ART	_	10	R	10:R	_
+9	Gesellschaft	Gesellschaft	PROPN	NN	_	10	E	10:E	_
+10	Cunard	Cunard	PROPN	NE	_	7	E	7:E	_
+11	das	der	DET	ART	_	12	E	12:E	_
+12	Atlantische	Atlantisch	PROPN	ADJA	_	14	A	14:A	_
+13	Meer	Meer	PROPN	NN	_	12	Terminal	12:Terminal	_
+14	befuhren	befuhren	VERB	VVFIN	_	23	H	23:H	_
+15	,	,	PUNCT	$,	_	23	U	23:U	_
+16	ist	sein	AUX	VVFIN	_	23	F	23:F	_
+17	von	von	ADP	NN	_	19	R	19:R	_
+18	zweitausend	zweitausend	NUM	CARD	_	19	E	19:E	_
+19	Fahrten	Fahrt	NOUN	NN	_	23	A	23:A	_
+20	nicht	nicht	PART	CARD	_	23	D	23:D	_
+21	eine	ein	DET	ART	_	22	E	22:E	_
+22	einzige	einzig	ADJ	ADJA	_	23	A	23:A	_
+23	mißglückt	mißglückt	ADJ	ADJD	_	0	H	0:H	_
+24	,	,	PUNCT	$,	_	23	U	23:U	_
+25	nie	nie	ADV	ADV	_	26	D	26:D	_
+26	kam	kommen	VERB	VVFIN	_	23	H	23:H	_
+27	eine	ein	DET	ART	_	28	E	28:E	_
+28	Verspätung	Verspätung	NOUN	NN	_	26	A	26:A	_
+29	vor	vor	ADP	NE	_	26	Terminal	26:Terminal	_
+30	,	,	PUNCT	$,	_	23	U	23:U	_
+31	nie	nie	ADV	ADV	_	41	D	41:D	_
+32	ist	sein	AUX	VVFIN	_	41	F	41:F	_
+33	ein	ein	DET	ART	_	34	E	34:E	_
+34	Brief	Brief	NOUN	NN	_	41	A	41:A	_
+35	,	,	PUNCT	$,	_	34	U	34:U	_
+36	ein	ein	DET	ART	_	37	E	37:E	_
+37	Mensch	Mensch	NOUN	NN	_	34	C	34:C	_
+38	oder	oder	CCONJ	CARD	_	34	N	34:N	_
+39	ein	ein	DET	ART	_	40	E	40:E	_
+40	Schiff	Schiff	NOUN	NN	_	34	C	34:C	_
+41	abhanden	abhanden	VERB	VVINF	_	23	H	23:H	_
+42	gekommen	kommen	ADJ	VVPP	_	41	Terminal	41:Terminal	_
+43	oder	oder	CCONJ	CARD	_	41	N	41:N	_
+44	zu	zu	ADP	NN	_	41	C	41:C	_
+45	Grunde	Grunde	NOUN	NN	_	44	Terminal	44:Terminal	_
+46	gegangen	gehen	VERB	VVPP	_	44	Terminal	44:Terminal	_
+47	.	.	PUNCT	$.	_	41	U	41:U	_
+

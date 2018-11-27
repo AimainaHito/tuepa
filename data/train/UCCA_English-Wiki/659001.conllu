@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 659001
+# text = As the years passed , Carey would grow apart from her father , and would later stop seeing him altogether .
+1	As	as	SCONJ	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	years	year	NOUN	NNS	_	4	A	4:A	_
+4	passed	pass	VERB	VBD	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	Carey	Carey	PRON	EX	_	9	A	9:A|18:A	_
+7	would	would	AUX	MD	_	9	F	9:F	_
+8	grow	grow	VERB	VB	_	9	D	9:D	_
+9	apart	apart	ADV	RB	_	4	H	4:H	_
+10	from	from	ADP	IN	_	12	R	12:R	_
+11	her	she	PRON	PRP$	_	12	E	12:E	_
+12	father	father	NOUN	NN	_	9	A	9:A	_
+13	,	,	PUNCT	,	_	4	U	4:U	_
+14	and	and	CCONJ	CC	_	4	L	4:L	_
+15	would	would	AUX	MD	_	18	F	18:F	_
+16	later	later	ADV	RB	_	18	D	18:D	_
+17	stop	stop	VERB	VB	_	18	D	18:D	_
+18	seeing	see	VERB	VBG	_	4	H	4:H	_
+19	him	he	PRON	PRP	_	18	A	18:A	_
+20	altogether	altogether	ADV	RB	_	18	D	18:D	_
+21	.	.	PUNCT	.	_	18	U	18:U	_
+

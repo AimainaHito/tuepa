@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 25698002
+# text = » Nun , Kapitän , was die Alten nicht zu unternehmen vermochten , eine Verbindung der beiden Meere , wodurch der Weg von Cadix nach Indien um 9.000 Kilometer abgekürzt werden wird , hat Herr Lesseps zustande gebracht , und in kurzem wird er Afrika zu einer ungeheuren Insel gemacht haben . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nun	nun	ADV	ADV	_	0	H	0:H	_
+3	,	,	PUNCT	$,	_	2	U	2:U	_
+4	Kapitän	Kapitän	NOUN	NN	_	2	G	2:G	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	was	was	PRON	NE	_	11	A	11:A	_
+7	die	der	DET	ART	_	8	E	8:E	_
+8	Alten	alt	PROPN	ADJA	_	11	A	11:A	_
+9	nicht	nicht	PART	CARD	_	11	D	11:D	_
+10	zu	zu	PART	NE	_	11	F	11:F	_
+11	unternehmen	unternehmen	VERB	VVINF	_	37	A	37:A	_
+12	vermochten	vermochen	VERB	VVINF	_	11	D	11:D	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	eine	ein	DET	ART	_	15	E	15:E	_
+15	Verbindung	Verbindung	NOUN	NN	_	11	E	11:E	_
+16	der	der	DET	ART	_	18	R	18:R	_
+17	beiden	beide	PRON	PIAT	_	18	E	18:E	_
+18	Meere	Meer	NOUN	NE	_	15	E	15:E	_
+19	,	,	PUNCT	$,	_	15	U	15:U	_
+20	wodurch	wodurch	PRON	VVFIN	_	30	R	30:R	_
+21	der	der	DET	ART	_	22	E	22:E	_
+22	Weg	Weg	NOUN	NN	_	30	A	30:A	_
+23	von	von	ADP	NE	_	24	R	24:R	_
+24	Cadix	Cadix	PROPN	XY	_	22	E	22:E	_
+25	nach	nach	ADP	CARD	_	26	R	26:R	_
+26	Indien	Indien	PROPN	NE	_	24	C	24:C	_
+27	um	um	ADP	APPR	_	29	R	29:R	_
+28	9.000	9.0	NUM	CARD	_	29	E	29:E	_
+29	Kilometer	Kilometer	NOUN	NN	_	30	A	30:A	_
+30	abgekürzt	abgekürzt	VERB	ADJD	_	15	E	15:E	_
+31	werden	werden	AUX	ADV	_	30	F	30:F	_
+32	wird	werden	AUX	VAFIN	_	30	F	30:F	_
+33	,	,	PUNCT	$,	_	37	U	37:U	_
+34	hat	haben	VERB	VAFIN	_	37	F	37:F	_
+35	Herr	Herr	PROPN	NE	_	36	E	36:E	_
+36	Lesseps	Lesseps	PROPN	NE	_	37	A	37:A	_
+37	zustande	zustande	ADV	PTKVZ	_	2	H	2:H	_
+38	gebracht	denken|gebrenken	ADJ	VVPP	_	37	F	37:F	_
+39	,	,	PUNCT	$,	_	2	U	2:U	_
+40	und	und	CCONJ	NE	_	2	L	2:L	_
+41	in	in	ADP	APPR	_	42	R	42:R	_
+42	kurzem	kurz	NOUN	NN	_	50	D	50:D	_
+43	wird	werden	AUX	VAFIN	_	50	F	50:F	_
+44	er	er	PRON	PPER	_	50	A	50:A	_
+45	Afrika	Afrika	PROPN	NE	_	50	A	50:A	_
+46	zu	zu	ADP	NN	_	49	R	49:R	_
+47	einer	ein	DET	ART	_	49	E	49:E	_
+48	ungeheuren	ungeheur	ADJ	NN	_	49	E	49:E	_
+49	Insel	Insel	NOUN	NN	_	50	A	50:A	_
+50	gemacht	brauchen|gemachen	VERB	VVPP	_	2	H	2:H	_
+51	haben	haben	AUX	VAFIN	_	50	F	50:F	_
+52	.	.	PUNCT	$.	_	50	U	50:U	_
+53	«	«	PUNCT	$(	_	50	U	50:U	_
+

@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 650004
+# text = Lennon and Ono , backed by David Peel and Rubin , performed an acoustic set of four songs from their forthcoming Some Time in New York City album including " John Sinclair " , whose lyrics called for his release .
+1	Lennon	Lennon	PROPN	NNP	_	5	A	5:A|12:A	_
+2	and	and	CCONJ	CC	_	1	N	1:N	_
+3	Ono	Ono	PROPN	NNP	_	1	C	1:C	_
+4	,	,	PUNCT	,	_	5	U	5:U	_
+5	backed	back	VERB	VBN	_	0	H	0:H	_
+6	by	by	ADP	IN	_	7	R	7:R	_
+7	David	David	PROPN	NNP	_	5	A	5:A	_
+8	Peel	Peel	PROPN	NNP	_	7	Terminal	7:Terminal	_
+9	and	and	CCONJ	CC	_	7	N	7:N	_
+10	Rubin	Rubin	PROPN	NNP	_	7	C	7:C	_
+11	,	,	PUNCT	,	_	5	U	5:U	_
+12	performed	perform	VERB	VBD	_	5	H	5:H	_
+13	an	a	DET	DT	_	15	E	15:E	_
+14	acoustic	acoustic	ADJ	JJ	_	15	E	15:E	_
+15	set	set	NOUN	NN	_	12	A	12:A	_
+16	of	of	ADP	IN	_	18	R	18:R	_
+17	four	four	NUM	CD	_	18	E	18:E	_
+18	songs	song	NOUN	NNS	_	15	E	15:E	_
+19	from	from	ADP	IN	_	28	R	28:R	_
+20	their	they	PRON	PRP$	_	28	E	28:E	_
+21	forthcoming	forthcoming	ADJ	JJ	_	28	E	28:E	_
+22	Some	some	DET	DT	_	28	E	28:E	_
+23	Time	time	NOUN	NN	_	22	Terminal	22:Terminal	_
+24	in	in	ADP	IN	_	22	Terminal	22:Terminal	_
+25	New	New	PROPN	NNP	_	22	Terminal	22:Terminal	_
+26	York	York	PROPN	NNP	_	22	Terminal	22:Terminal	_
+27	City	City	PROPN	NNP	_	22	Terminal	22:Terminal	_
+28	album	album	NOUN	NN	_	15	E	15:E	_
+29	including	include	VERB	VBG	_	31	R	31:R	_
+30	"	"	PUNCT	``	_	31	U	31:U	_
+31	John	John	PROPN	NNP	_	15	E	15:E	_
+32	Sinclair	Sinclair	PROPN	NNP	_	31	Terminal	31:Terminal	_
+33	"	"	PUNCT	''	_	31	U	31:U	_
+34	,	,	PUNCT	,	_	31	U	31:U	_
+35	whose	whose	PRON	WP$	_	37	F	37:F	_
+36	lyrics	lyric	NOUN	NNS	_	37	A	37:A	_
+37	called	call	VERB	VBN	_	31	E	31:E	_
+38	for	for	ADP	IN	_	40	E	40:E	_
+39	his	he	PRON	PRP$	_	40	A	40:A	_
+40	release	release	NOUN	NN	_	37	A	37:A	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

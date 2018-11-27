@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 698013
+# text = An official recording of this concert was released in 1998 : The Bootleg Series Vol . 4 : Bob Dylan Live 1966 .
+1	An	a	DET	DT	_	2	E	2:E	_
+2	official	official	ADJ	JJ	_	3	D	3:D	_
+3	recording	recording	NOUN	NN	_	8	A	8:A	_
+4	of	of	ADP	IN	_	6	R	6:R	_
+5	this	this	DET	DT	_	6	E	6:E	_
+6	concert	concert	NOUN	NN	_	3	A	3:A	_
+7	was	be	AUX	VBD	_	8	F	8:F	_
+8	released	release	VERB	VBN	_	0	H	0:H	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	1998	1998	NUM	CD	_	8	D	8:D	_
+11	:	:	PUNCT	:	_	8	U	8:U	_
+12	The	the	DET	DT	_	3	E	3:E	_
+13	Bootleg	Bootleg	PROPN	NNP	_	12	Terminal	12:Terminal	_
+14	Series	Series	PROPN	NNP	_	12	Terminal	12:Terminal	_
+15	Vol	Vol	PROPN	NNP	_	12	Terminal	12:Terminal	_
+16	.	.	PUNCT	.	_	12	U	12:U	_
+17	4	4	NUM	CD	_	12	Terminal	12:Terminal	_
+18	:	:	PUNCT	:	_	12	U	12:U	_
+19	Bob	Bob	PROPN	NNP	_	12	Terminal	12:Terminal	_
+20	Dylan	Dylan	PROPN	NNP	_	12	Terminal	12:Terminal	_
+21	Live	Live	PROPN	NNP	_	12	Terminal	12:Terminal	_
+22	1966	1966	NUM	CD	_	12	Terminal	12:Terminal	_
+23	.	.	PUNCT	.	_	3	U	3:U	_
+

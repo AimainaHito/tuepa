@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 25680009
+# text = » Wenn mein Herr den Haifischen Trotz bietet « , sagte Conseil , » so sehe ich nicht ein , warum sein treuer Diener nicht mit dabei wäre ! «
+1	»	»	PUNCT	$(	_	8	U	8:U	_
+2	Wenn	wenn	SCONJ	KOUS	_	8	L	8:L	_
+3	mein	mein	PRON	PPOSAT	_	4	E	4:E	_
+4	Herr	Herr	NOUN	NN	_	8	A	8:A	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Haifischen	Haifisch	PROPN	ADJA	_	8	A	8:A	_
+7	Trotz	Trotzen	PROPN	NN	_	8	A	8:A	_
+8	bietet	bieten	VERB	VVFIN	_	11	A	11:A	_
+9	«	«	PUNCT	$(	_	11	U	11:U	_
+10	,	,	PUNCT	$,	_	11	U	11:U	_
+11	sagte	sagen	VERB	VVFIN	_	0	H	0:H	_
+12	Conseil	Conseil	PROPN	NE	_	11	A	11:A	_
+13	,	,	PUNCT	$,	_	11	U	11:U	_
+14	»	»	PUNCT	$(	_	11	U	11:U	_
+15	so	so	ADV	ADV	_	8	L	8:L	_
+16	sehe	sehen	VERB	VVFIN	_	8	H	8:H	_
+17	ich	ich	PRON	PPER	_	16	A	16:A	_
+18	nicht	nicht	PART	CARD	_	16	D	16:D	_
+19	ein	ein	ADV	PTKVZ	_	16	Terminal	16:Terminal	_
+20	,	,	PUNCT	$,	_	16	U	16:U	_
+21	warum	warum	ADV	NN	_	26	A	26:A	_
+22	sein	sein	DET	PPOSAT	_	24	E	24:E	_
+23	treuer	treuer	ADJ	ADJA	_	24	E	24:E	_
+24	Diener	Diener	NOUN	ADJA	_	26	A	26:A	_
+25	nicht	nicht	PART	CARD	_	26	D	26:D	_
+26	mit	mit	ADP	APPR	_	16	A	16:A	_
+27	dabei	dabei	ADV	PAV	_	26	Terminal	26:Terminal	_
+28	wäre	sein	AUX	ADV	_	26	D	26:D	_
+29	!	!	PUNCT	$.	_	26	U	26:U	_
+30	«	«	PUNCT	$(	_	26	U	26:U	_
+

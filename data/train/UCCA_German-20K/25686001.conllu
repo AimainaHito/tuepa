@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25686001
+# text = Wir gingen einzeln , indem jeder nach Belieben stehenblieb oder sich entfernte .
+1	Wir	wir	PRON	NE	_	2	A	2:A	_
+2	gingen	gehen	VERB	VVFIN	_	0	H	0:H	_
+3	einzeln	einzeln	ADV	VVINF	_	2	D	2:D	_
+4	,	,	PUNCT	$,	_	2	U	2:U	_
+5	indem	indem	SCONJ	KOUS	_	2	L	2:L	_
+6	jeder	jed	PRON	PIAT	_	9	A	9:A|11:A	_
+7	nach	nach	ADP	CARD	_	8	R	8:R	_
+8	Belieben	Belieben	NOUN	NN	_	9	D	9:D	_
+9	stehenblieb	stehenbleiben	VERB	VVFIN	_	2	H	2:H	_
+10	oder	oder	CCONJ	CARD	_	2	L	2:L	_
+11	sich	er|es|sie	PRON	PRF	_	2	H	2:H	_
+12	entfernte	entfernen	VERB	VVFIN	_	11	Terminal	11:Terminal	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

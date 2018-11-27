@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25740006
+# text = » Er gehört zu einem der zahlreichen Eilande , womit dieses Meer bedeckt ist . Nur eine Klippe für die Schiffe , für uns eine unermeßliche Höhle . Der Zufall hat mich sie finden lassen und hat mir damit sehr genützt .
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Er	er	PRON	PPER	_	3	A	3:A	_
+3	gehört	gehören	VERB	VVFIN	_	0	H	0:H	_
+4	zu	zu	ADP	NE	_	8	R	8:R	_
+5	einem	ein	PRON	PIS	_	8	E	8:E	_
+6	der	der	DET	ART	_	7	R	7:R	_
+7	zahlreichen	zahlreich	ADJ	ADJA	_	8	E	8:E	_
+8	Eilande	Eilande	NOUN	NN	_	3	A	3:A	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	womit	womit	PRON	VVFIN	_	13	R	13:R	_
+11	dieses	dies	PRON	PDAT	_	12	E	12:E	_
+12	Meer	Meer	NOUN	NN	_	13	A	13:A	_
+13	bedeckt	bedecken	VERB	VVPP	_	8	E	8:E	_
+14	ist	sein	AUX	NN	_	13	F	13:F	_
+15	.	.	PUNCT	$.	_	3	U	3:U	_
+16	Nur	nur	ADV	ADV	_	18	D	18:D	_
+17	eine	ein	DET	ART	_	18	E	18:E	_
+18	Klippe	Klippe	NOUN	NN	_	3	H	3:H	_
+19	für	für	ADP	APPR	_	21	R	21:R	_
+20	die	der	DET	ART	_	21	E	21:E	_
+21	Schiffe	Schiff	NOUN	NN	_	18	A	18:A	_
+22	,	,	PUNCT	$,	_	3	U	3:U	_
+23	für	für	ADP	APPR	_	24	R	24:R	_
+24	uns	wir	PRON	NE	_	3	H	3:H	_
+25	eine	ein	DET	ART	_	27	E	27:E	_
+26	unermeßliche	unermeßlich	ADJ	ADJA	_	24	A	24:A	_
+27	Höhle	Höhle	NOUN	NN	_	26	A	26:A	_
+28	.	.	PUNCT	$.	_	3	U	3:U	_
+29	Der	der	DET	ART	_	30	E	30:E	_
+30	Zufall	Zufall	NOUN	NN	_	0	C	0:C|41:A	_
+31	hat	haben	AUX	VAFIN	_	34	F	34:F	_
+32	mich	ich	PRON	PPER	_	34	A	34:A	_
+33	sie	sie	PRON	ADV	_	34	A	34:A	_
+34	finden	finden	VERB	VVINF	_	3	H	3:H	_
+35	lassen	lassen	VERB	VVINF	_	34	D	34:D	_
+36	und	und	CCONJ	NE	_	3	L	3:L	_
+37	hat	haben	AUX	VAFIN	_	41	F	41:F	_
+38	mir	ich	PRON	PPER	_	41	A	41:A	_
+39	damit	damit	ADV	PAV	_	41	A	41:A	_
+40	sehr	sehr	ADV	NE	_	41	D	41:D	_
+41	genützt	genützt	ADJ	VVPP	_	3	H	3:H	_
+42	.	.	PUNCT	$.	_	41	U	41:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 526012
+# text = During the filming of The Barkleys of Broadway , she was taking prescription sleeping medication along with illicitly obtained pills containing morphine .
+1	During	during	ADP	IN	_	3	L	3:L	_
+2	the	the	DET	DT	_	3	E	3:E	_
+3	filming	filming	NOUN	NN	_	0	H	0:H	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	The	the	DET	DT	_	3	A	3:A	_
+6	Barkleys	Barkleys	PROPN	NNPS	_	5	Terminal	5:Terminal	_
+7	of	of	ADP	IN	_	5	Terminal	5:Terminal	_
+8	Broadway	Broadway	PROPN	NNP	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	she	she	PRON	PRP	_	12	A	12:A	_
+11	was	be	AUX	VBD	_	12	F	12:F	_
+12	taking	take	VERB	VBG	_	3	H	3:H	_
+13	prescription	prescription	NOUN	NN	_	15	E	15:E	_
+14	sleeping	sleeping	NOUN	NN	_	15	E	15:E	_
+15	medication	medication	NOUN	NN	_	12	A	12:A	_
+16	along	along	ADV	RB	_	15	N	15:N	_
+17	with	with	ADP	IN	_	16	R	16:R	_
+18	illicitly	illicitly	ADV	RB	_	19	E	19:E	_
+19	obtained	obtain	VERB	VBN	_	20	E	20:E	_
+20	pills	pill	NOUN	NNS	_	15	C	15:C	_
+21	containing	contain	VERB	VBG	_	22	R	22:R	_
+22	morphine	morphine	NOUN	NN	_	20	E	20:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

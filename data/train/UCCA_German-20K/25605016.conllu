@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25605016
+# text = Ich zählte deren vier - vier Männer , von denen einer am Steuer ruder aufrecht stand - sodann eine Frau , die halb aus der Luke des Hinter verdecks herausgekommen , ein Kind in den Armen hielt .
+1	Ich	ich	PRON	PPER	_	2	A	2:A	_
+2	zählte	zählen	VERB	VVFIN	_	0	H	0:H	_
+3	deren	der	DET	PDAT	_	2	A	2:A	_
+4	vier	vier	NUM	NN	_	2	A	2:A	_
+5	-	-	PUNCT	$(	_	2	U	2:U	_
+6	vier	vier	NUM	NN	_	7	E	7:E	_
+7	Männer	Mann	NOUN	NN	_	2	A	2:A	_
+8	,	,	PUNCT	$,	_	7	U	7:U	_
+9	von	von	ADP	NE	_	10	R	10:R	_
+10	denen	der	PRON	PRELS	_	16	R	16:R	_
+11	einer	ein	DET	ART	_	16	A	16:A	_
+12	am	am	ADJ	ADJD	_	14	R	14:R	_
+13	Steuer	Steuer	NOUN	NN	_	14	E	14:E	_
+14	ruder	ruder	ADV	NE	_	16	A	16:A	_
+15	aufrecht	aufrecht	ADV	ADJD	_	16	D	16:D	_
+16	stand	stehen	VERB	VVFIN	_	7	E	7:E	_
+17	-	-	PUNCT	$(	_	7	U	7:U	_
+18	sodann	sodann	ADV	ADV	_	7	N	7:N	_
+19	eine	ein	DET	ART	_	20	E	20:E	_
+20	Frau	Frau	NOUN	NN	_	7	C	7:C	_
+21	,	,	PUNCT	$,	_	20	U	20:U	_
+22	die	der	PRON	PRELS	_	30	R	30:R	_
+23	halb	halb	ADV	ADV	_	30	D	30:D	_
+24	aus	aus	ADP	APPR	_	26	R	26:R	_
+25	der	der	DET	ART	_	26	E	26:E	_
+26	Luke	Luke	NOUN	NN	_	30	A	30:A	_
+27	des	der	DET	ART	_	29	R	29:R	_
+28	Hinter	hinter	NOUN	APPR	_	29	E	29:E	_
+29	verdecks	verdecks	ADV	NE	_	26	E	26:E	_
+30	herausgekommen	herausgekommen	VERB	VVPP	_	20	E	20:E	_
+31	,	,	PUNCT	$,	_	20	U	20:U	_
+32	ein	ein	DET	ART	_	33	E	33:E	_
+33	Kind	Kind	NOUN	NN	_	37	A	37:A	_
+34	in	in	ADP	APPR	_	36	R	36:R	_
+35	den	der	DET	ART	_	36	E	36:E	_
+36	Armen	Arm|Arme	NOUN	NN	_	37	A	37:A	_
+37	hielt	halten	VERB	VVFIN	_	20	E	20:E	_
+38	.	.	PUNCT	$.	_	37	U	37:U	_
+

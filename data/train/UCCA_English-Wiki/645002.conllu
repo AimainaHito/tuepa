@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 645002
+# text = Julian started to see his father regularly , and Lennon gave him a drumming part on a Walls and Bridges track .
+1	Julian	Julian	PROPN	NNP	_	4	A	4:A	_
+2	started	start	VERB	VBD	_	4	D	4:D	_
+3	to	to	PART	TO	_	4	F	4:F	_
+4	see	see	VERB	VB	_	0	H	0:H	_
+5	his	he	PRON	PRP$	_	6	E	6:E	_
+6	father	father	NOUN	NN	_	4	A	4:A	_
+7	regularly	regularly	ADV	RB	_	4	D	4:D	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	and	and	CCONJ	CC	_	4	L	4:L	_
+10	Lennon	Lennon	PROPN	NNP	_	11	A	11:A	_
+11	gave	give	VERB	VBD	_	4	H	4:H	_
+12	him	he	PRON	PRP	_	11	A	11:A	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	drumming	drumming	NOUN	NN	_	15	E	15:E	_
+15	part	part	NOUN	NN	_	11	A	11:A	_
+16	on	on	ADP	IN	_	21	R	21:R	_
+17	a	a	DET	DT	_	21	E	21:E	_
+18	Walls	walls	NOUN	NNS	_	21	E	21:E	_
+19	and	and	CCONJ	CC	_	18	Terminal	18:Terminal	_
+20	Bridges	bridges	NOUN	NNS	_	18	Terminal	18:Terminal	_
+21	track	track	NOUN	NN	_	15	E	15:E	_
+22	.	.	PUNCT	.	_	21	U	21:U	_
+

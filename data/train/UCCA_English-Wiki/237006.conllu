@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 237006
+# text = Chan is a keen philanthropist and a UNICEF Goodwill Ambassador , having worked tirelessly to champion charitable works and causes .
+1	Chan	Chan	PROPN	NNP	_	2	A	2:A|16:A|13:A	_
+2	is	be	AUX	VBZ	_	0	H	0:H	_
+3	a	a	DET	DT	_	5	E	5:E	_
+4	keen	keen	ADJ	JJ	_	5	E	5:E	_
+5	philanthropist	philanthropist	NOUN	NN	_	2	A	2:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	UNICEF	UNICEF	PROPN	NNP	_	10	E	10:E	_
+9	Goodwill	Goodwill	PROPN	NNP	_	10	E	10:E	_
+10	Ambassador	ambassador	PROPN	NNP	_	5	C	5:C	_
+11	,	,	PUNCT	,	_	2	U	2:U	_
+12	having	have	AUX	VBG	_	13	F	13:F	_
+13	worked	work	VERB	VBN	_	2	H	2:H	_
+14	tirelessly	tirelessly	ADV	RB	_	13	D	13:D	_
+15	to	to	PART	TO	_	16	F	16:F	_
+16	champion	champion	VERB	VB	_	13	A	13:A	_
+17	charitable	charitable	ADJ	JJ	_	18	E	18:E	_
+18	works	work	NOUN	NNS	_	16	A	16:A	_
+19	and	and	CCONJ	CC	_	18	N	18:N	_
+20	causes	cause	NOUN	NNS	_	18	C	18:C	_
+21	.	.	PUNCT	.	_	18	U	18:U	_
+

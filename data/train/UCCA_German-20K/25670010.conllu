@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25670010
+# text = Darauf befiel sie ein plötzlicher Schrecken .
+1	Darauf	darauf	ADV	PAV	_	2	L	2:L	_
+2	befiel	befallen	VERB	VVFIN	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	ein	ein	DET	ART	_	6	E	6:E	_
+5	plötzlicher	plötzlich	ADJ	ADJA	_	6	E	6:E	_
+6	Schrecken	Schrecken	NOUN	NN	_	2	A	2:A	_
+7	.	.	PUNCT	$.	_	6	U	6:U	_
+

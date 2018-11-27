@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 476001
+# text = Although Andre was raised by his mother , he visited Johnson each summer , and as of October 2005 was working for Magic Johnson Enterprises as a marketing director .
+1	Although	although	SCONJ	IN	_	4	L	4:L	_
+2	Andre	Andre	PROPN	NNP	_	4	A	4:A|21:A	_
+3	was	be	AUX	VBD	_	4	F	4:F	_
+4	raised	raise	VERB	VBN	_	0	H	0:H	_
+5	by	by	ADP	IN	_	7	R	7:R	_
+6	his	he	PRON	PRP$	_	7	E	7:E	_
+7	mother	mother	NOUN	NN	_	4	A	4:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	he	he	PRON	PRP	_	10	A	10:A	_
+10	visited	visit	VERB	VBD	_	4	H	4:H	_
+11	Johnson	Johnson	PROPN	NNP	_	10	A	10:A	_
+12	each	each	DET	DT	_	13	E	13:E	_
+13	summer	summer	NOUN	NN	_	10	D	10:D	_
+14	,	,	PUNCT	,	_	4	U	4:U	_
+15	and	and	CCONJ	CC	_	4	L	4:L	_
+16	as	as	ADP	IN	_	19	R	19:R	_
+17	of	of	ADP	IN	_	19	R	19:R	_
+18	October	October	PROPN	NNP	_	19	E	19:E	_
+19	2005	2005	NUM	CD	_	21	D	21:D	_
+20	was	be	AUX	VBD	_	21	F	21:F	_
+21	working	work	VERB	VBG	_	4	H	4:H	_
+22	for	for	ADP	IN	_	25	R	25:R	_
+23	Magic	magic	PROPN	NNP	_	25	E	25:E	_
+24	Johnson	Johnson	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	Enterprises	enterprise	PROPN	NNP	_	21	A	21:A	_
+26	as	as	ADP	IN	_	29	R	29:R	_
+27	a	a	DET	DT	_	29	E	29:E	_
+28	marketing	marketing	NOUN	NN	_	29	E	29:E	_
+29	director	director	NOUN	NN	_	21	A	21:A	_
+30	.	.	PUNCT	.	_	29	U	29:U	_
+

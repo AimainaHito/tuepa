@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 25794018
+# text = Die Arme ermüdeten , die Hände wurden wund , aber man achtete diese Beschwerden nicht .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Arme	Arm|Arme	NOUN	NN	_	3	A	3:A	_
+3	ermüdeten	ermüden	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Hände	Hand	NOUN	NN	_	8	A	8:A	_
+7	wurden	werden	AUX	ADJD	_	8	F	8:F	_
+8	wund	wund	ADV	NN	_	3	H	3:H	_
+9	,	,	PUNCT	$,	_	3	U	3:U	_
+10	aber	aber	CCONJ	KON	_	3	L	3:L	_
+11	man	man	PRON	PIS	_	12	A	12:A	_
+12	achtete	achten	VERB	VVFIN	_	3	H	3:H	_
+13	diese	dies	PRON	PDAT	_	14	E	14:E	_
+14	Beschwerden	Beschwerde	NOUN	NN	_	12	A	12:A	_
+15	nicht	nicht	PART	XY	_	12	D	12:D	_
+16	.	.	PUNCT	$.	_	12	U	12:U	_
+

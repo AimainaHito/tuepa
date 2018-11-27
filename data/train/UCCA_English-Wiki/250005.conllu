@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 250005
+# text = The film , entitled Before Midnight , is expected to be released in 2013 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	12	A	12:A	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	entitled	entitle	VERB	VBN	_	2	E	2:E	_
+5	Before	before	ADP	IN	_	4	A	4:A	_
+6	Midnight	Midnight	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	12	U	12:U	_
+8	is	be	AUX	VBZ	_	12	F	12:F	_
+9	expected	expect	VERB	VBN	_	12	D	12:D	_
+10	to	to	PART	TO	_	12	F	12:F	_
+11	be	be	AUX	VB	_	12	F	12:F	_
+12	released	release	VERB	VBN	_	0	H	0:H	_
+13	in	in	ADP	IN	_	14	R	14:R	_
+14	2013	2013	NUM	CD	_	12	D	12:D	_
+15	.	.	PUNCT	.	_	14	U	14:U	_
+

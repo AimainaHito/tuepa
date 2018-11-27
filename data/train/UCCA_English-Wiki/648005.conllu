@@ -1,0 +1,54 @@
+# format = ucca
+# sent_id = 648005
+# text = Lennon later proudly declared , " He did n't come out of my belly but , by God , I made his bones , because I 've attended to every meal , and to how he sleeps , and to the fact that he swims like a fish . "
+1	Lennon	Lennon	PROPN	NNP	_	4	A	4:A	_
+2	later	later	ADV	RB	_	4	D	4:D	_
+3	proudly	proudly	ADV	RB	_	4	D	4:D	_
+4	declared	declare	VERB	VBN	_	0	H	0:H	_
+5	,	,	PUNCT	,	_	4	U	4:U	_
+6	"	"	PUNCT	''	_	4	U	4:U	_
+7	He	he	PRON	PRP	_	10	A	10:A	_
+8	did	do	AUX	VBD	_	10	F	10:F	_
+9	n't	not	PART	RB	_	10	D	10:D	_
+10	come	come	VERB	VB	_	4	A	4:A	_
+11	out	out	ADP	IN	_	10	Terminal	10:Terminal	_
+12	of	of	ADP	IN	_	14	R	14:R	_
+13	my	my	PRON	PRP$	_	14	E	14:E	_
+14	belly	belly	NOUN	NN	_	10	A	10:A	_
+15	but	but	CCONJ	CC	_	10	L	10:L	_
+16	,	,	PUNCT	,	_	10	U	10:U	_
+17	by	by	ADP	IN	_	10	G	10:G	_
+18	God	God	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	,	_	10	U	10:U	_
+20	I	I	PRON	PRP	_	21	A	21:A	_
+21	made	make	VERB	VBD	_	10	H	10:H	_
+22	his	he	PRON	PRP$	_	23	E	23:E	_
+23	bones	bone	NOUN	NNS	_	21	A	21:A	_
+24	,	,	PUNCT	,	_	10	U	10:U	_
+25	because	because	SCONJ	IN	_	10	L	10:L	_
+26	I	I	PRON	PRP	_	28	A	28:A	_
+27	've	have	AUX	VBP	_	28	F	28:F	_
+28	attended	attend	VERB	VBN	_	10	H	10:H	_
+29	to	to	ADP	IN	_	31	R	31:R	_
+30	every	every	DET	DT	_	31	E	31:E	_
+31	meal	meal	NOUN	NN	_	28	A	28:A	_
+32	,	,	PUNCT	,	_	31	U	31:U	_
+33	and	and	CCONJ	CC	_	31	N	31:N	_
+34	to	to	SCONJ	IN	_	37	R	37:R	_
+35	how	how	ADV	WRB	_	37	D	37:D	_
+36	he	he	PRON	PRP	_	37	A	37:A	_
+37	sleeps	sleep	VERB	VBZ	_	31	C	31:C	_
+38	,	,	PUNCT	,	_	31	U	31:U	_
+39	and	and	CCONJ	CC	_	31	N	31:N	_
+40	to	to	ADP	IN	_	42	R	42:R	_
+41	the	the	DET	DT	_	42	E	42:E	_
+42	fact	fact	NOUN	NN	_	31	C	31:C	_
+43	that	that	SCONJ	IN	_	45	F	45:F	_
+44	he	he	PRON	PRP	_	45	A	45:A	_
+45	swims	swim	VERB	VBZ	_	42	E	42:E	_
+46	like	like	ADP	IN	_	48	R	48:R	_
+47	a	a	DET	DT	_	48	E	48:E	_
+48	fish	fish	NOUN	NN	_	45	A	45:A	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+50	"	"	PUNCT	''	_	48	U	48:U	_
+

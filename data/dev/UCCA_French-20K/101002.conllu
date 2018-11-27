@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 101002
+# text = À deux mètres et demi au - dessous de la flottaison s' ouvrait une déchirure régulière , en forme de triangle isocèle .
+1	À	à	ADP	_	_	11	R	11:R	_
+2	deux	deux	NUM	_	_	3	E	3:E	_
+3	mètres	mètre	NOUN	_	_	11	E	11:E	_
+4	et	et	CCONJ	_	_	3	N	3:N	_
+5	demi	demi	ADJ	_	_	3	C	3:C	_
+6	au	au	X	_	_	11	R	11:R	_
+7	-	-	PUNCT	_	_	6	U	6:U	_
+8	dessous	dessous	NOUN	_	_	6	Terminal	6:Terminal	_
+9	de	de	ADP	_	_	11	R	11:R	_
+10	la	le	DET	_	_	11	E	11:E	_
+11	flottaison	flottaison	NOUN	_	_	12	A	12:A	_
+12	s'	se	PRON	_	_	0	H	0:H	_
+13	ouvrait	ouvr	VERB	_	_	12	Terminal	12:Terminal	_
+14	une	un	DET	_	_	15	E	15:E	_
+15	déchirure	déchirure	NOUN	_	_	12	A	12:A	_
+16	régulière	régulier	ADJ	_	_	15	E	15:E	_
+17	,	,	PUNCT	_	_	15	U	15:U	_
+18	en	en	ADP	_	_	19	E	19:E	_
+19	forme	forme	NOUN	_	_	15	E	15:E	_
+20	de	de	ADP	_	_	21	R	21:R	_
+21	triangle	triangle	NOUN	_	_	19	A	19:A	_
+22	isocèle	isocèle	ADJ	_	_	21	E	21:E	_
+23	.	.	PUNCT	_	_	21	U	21:U	_
+

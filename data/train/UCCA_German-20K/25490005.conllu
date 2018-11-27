@@ -1,0 +1,13 @@
+# format = ucca
+# sent_id = 25490005
+# text = Es war nichts an ihrer inneren Einrichtung geändert .
+1	Es	es	PRON	PPER	_	8	F	8:F	_
+2	war	sein	AUX	ADV	_	8	F	8:F	_
+3	nichts	nichts	PRON	ADJA	_	8	D	8:D	_
+4	an	an	ADP	APPR	_	7	R	7:R	_
+5	ihrer	ihr	DET	PPOSAT	_	7	E	7:E	_
+6	inneren	inner	ADJ	ADJA	_	7	E	7:E	_
+7	Einrichtung	Einrichtung	NOUN	NN	_	8	A	8:A	_
+8	geändert	ändern	VERB	VVPP	_	0	H	0:H	_
+9	.	.	PUNCT	$.	_	8	U	8:U	_
+

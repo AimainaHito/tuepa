@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 147001
+# text = The couple married on December 12 , 1928 , when she was 21 and he was 29 .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	couple	couple	NOUN	NN	_	3	A	3:A	_
+3	married	marry	VERB	VBD	_	0	H	0:H	_
+4	on	on	ADP	IN	_	5	R	5:R	_
+5	December	December	PROPN	NNP	_	3	D	3:D	_
+6	12	12	NUM	CD	_	5	Terminal	5:Terminal	_
+7	,	,	PUNCT	,	_	5	U	5:U	_
+8	1928	1928	NUM	CD	_	5	Terminal	5:Terminal	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	when	when	ADV	WRB	_	3	L	3:L	_
+11	she	she	PRON	PRP	_	13	A	13:A	_
+12	was	be	AUX	VBD	_	13	F	13:F	_
+13	21	21	NUM	CD	_	3	H	3:H	_
+14	and	and	CCONJ	CC	_	3	L	3:L	_
+15	he	he	PRON	PRP	_	17	A	17:A	_
+16	was	be	AUX	VBD	_	17	F	17:F	_
+17	29	29	NUM	CD	_	3	H	3:H	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

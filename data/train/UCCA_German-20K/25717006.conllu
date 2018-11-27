@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25717006
+# text = ; sie gehören zwar zu den Knorpelfischen , sind aber schmackhaft und werden frisch , getrocknet , mariniert oder gesalzen gegessen .
+1	;	;	PUNCT	$.	_	14	U	14:U	_
+2	sie	sie	PRON	ADV	_	3	A	3:A|16:A|14:A|11:A|21:A|18:A	_
+3	gehören	gehören	VERB	VVFIN	_	0	H	0:H	_
+4	zwar	zwar	ADV	ADV	_	3	L	3:L	_
+5	zu	zu	ADP	NE	_	7	R	7:R	_
+6	den	der	DET	ART	_	7	E	7:E	_
+7	Knorpelfischen	Knorpelfischen	NOUN	NE	_	3	A	3:A	_
+8	,	,	PUNCT	$,	_	3	U	3:U	_
+9	sind	sein	AUX	NN	_	11	F	11:F	_
+10	aber	aber	ADV	ADV	_	3	L	3:L	_
+11	schmackhaft	schmackhaft	ADJ	ADJD	_	3	H	3:H	_
+12	und	und	CCONJ	NN	_	3	L	3:L	_
+13	werden	werden	AUX	VVFIN	_	14	F	14:F	_
+14	frisch	frisch	ADJ	ADJD	_	3	H	3:H	_
+15	,	,	PUNCT	$,	_	3	U	3:U	_
+16	getrocknet	trocknen	ADJ	VVPP	_	3	H	3:H	_
+17	,	,	PUNCT	$,	_	3	U	3:U	_
+18	mariniert	marinieren	ADJ	VVFIN	_	3	H	3:H	_
+19	oder	oder	CCONJ	CARD	_	3	L	3:L	_
+20	gesalzen	gesalz	ADJ	NN	_	21	D	21:D	_
+21	gegessen	essen	VERB	VVPP	_	0	P	0:P|16:P|14:P|18:P	_
+22	.	.	PUNCT	$.	_	14	U	14:U	_
+

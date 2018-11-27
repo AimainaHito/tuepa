@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 66003
+# text = Like her mother , Jolie has stated that she is part Iroquois ; her only known Native ancestor was a Huron woman born in 1649 .
+1	Like	like	ADP	IN	_	3	L	3:L	_
+2	her	she	PRON	PRP$	_	3	E	3:E	_
+3	mother	mother	NOUN	NN	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	Jolie	Jolie	PROPN	NNP	_	7	A	7:A	_
+6	has	have	AUX	VBZ	_	7	F	7:F	_
+7	stated	state	VERB	VBN	_	3	H	3:H	_
+8	that	that	SCONJ	IN	_	12	R	12:R	_
+9	she	she	PRON	PRP	_	12	A	12:A	_
+10	is	be	AUX	VBZ	_	12	F	12:F	_
+11	part	part	ADJ	JJ	_	12	D	12:D|3:D	_
+12	Iroquois	Iroquois	PROPN	NNPS	_	0	S	0:S|3:S	_
+13	;	;	PUNCT	,	_	3	U	3:U	_
+14	her	she	PRON	PRP$	_	18	E	18:E	_
+15	only	only	ADV	RB	_	18	E	18:E	_
+16	known	know	VERB	VBN	_	18	E	18:E	_
+17	Native	native	ADJ	JJ	_	18	E	18:E	_
+18	ancestor	ancestor	NOUN	NN	_	19	A	19:A	_
+19	was	be	AUX	VBD	_	3	H	3:H	_
+20	a	a	DET	DT	_	22	E	22:E	_
+21	Huron	Huron	PROPN	NNP	_	22	E	22:E	_
+22	woman	woman	NOUN	NN	_	19	A	19:A	_
+23	born	bear	VERB	VBN	_	22	E	22:E	_
+24	in	in	ADP	IN	_	25	R	25:R	_
+25	1649	1649	NUM	CD	_	23	D	23:D	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

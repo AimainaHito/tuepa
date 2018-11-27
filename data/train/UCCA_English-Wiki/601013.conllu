@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 601013
+# text = Included on the Help ! LP , the song was the group 's first recorded use of classical music elements and their first recording that involved only a single band member .
+1	Included	include	VERB	VBD	_	0	H	0:H	_
+2	on	on	ADP	IN	_	4	R	4:R	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	Help	help	NOUN	NN	_	1	A	1:A	_
+5	!	!	PUNCT	.	_	4	U	4:U	_
+6	LP	LP	NOUN	NN	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	song	song	NOUN	NN	_	0	C	0:C|1:A	_
+10	was	be	AUX	VBD	_	1	H	1:H	_
+11	the	the	DET	DT	_	12	E	12:E	_
+12	group	group	NOUN	NN	_	16	A	16:A	_
+13	's	's	PART	POS	_	12	R	12:R	_
+14	first	first	ADV	RB	_	16	D	16:D	_
+15	recorded	record	VERB	VBN	_	16	D	16:D	_
+16	use	use	NOUN	NN	_	10	A	10:A	_
+17	of	of	ADP	IN	_	20	R	20:R	_
+18	classical	classical	ADJ	JJ	_	19	E	19:E	_
+19	music	music	NOUN	NN	_	20	E	20:E	_
+20	elements	element	NOUN	NNS	_	16	A	16:A	_
+21	and	and	CCONJ	CC	_	16	N	16:N	_
+22	their	they	PRON	PRP$	_	24	A	24:A	_
+23	first	first	ADJ	JJ	_	24	D	24:D	_
+24	recording	recording	NOUN	NN	_	16	C	16:C	_
+25	that	that	PRON	WDT	_	26	F	26:F	_
+26	involved	involve	VERB	VBD	_	24	A	24:A	_
+27	only	only	ADV	RB	_	31	R	31:R	_
+28	a	a	DET	DT	_	31	E	31:E	_
+29	single	single	ADJ	JJ	_	31	E	31:E	_
+30	band	band	NOUN	NN	_	31	E	31:E	_
+31	member	member	NOUN	NN	_	26	A	26:A	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

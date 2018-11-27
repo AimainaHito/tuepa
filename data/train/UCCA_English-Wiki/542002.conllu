@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 542002
+# text = This strategy yielded three leading stars from Paramount Studios - William Powell , Kay Francis , and Ruth Chatterton .
+1	This	this	DET	DT	_	2	E	2:E	_
+2	strategy	strategy	NOUN	NN	_	3	A	3:A	_
+3	yielded	yield	VERB	VBD	_	0	H	0:H	_
+4	three	three	NUM	CD	_	6	E	6:E	_
+5	leading	lead	VERB	VBG	_	6	E	6:E	_
+6	stars	star	NOUN	NNS	_	11	E	11:E	_
+7	from	from	ADP	IN	_	8	R	8:R	_
+8	Paramount	Paramount	PROPN	NNP	_	3	A	3:A	_
+9	Studios	studios	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	-	-	PUNCT	HYPH	_	3	U	3:U	_
+11	William	William	PROPN	NNP	_	3	A	3:A	_
+12	Powell	Powell	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	Kay	Kay	PROPN	NNP	_	11	C	11:C	_
+15	Francis	Francis	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	,	,	PUNCT	,	_	11	U	11:U	_
+17	and	and	CCONJ	CC	_	11	N	11:N	_
+18	Ruth	Ruth	PROPN	NNP	_	11	C	11:C	_
+19	Chatterton	Chatterton	PROPN	NNP	_	18	Terminal	18:Terminal	_
+20	.	.	PUNCT	.	_	11	U	11:U	_
+

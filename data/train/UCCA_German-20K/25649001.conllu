@@ -1,0 +1,11 @@
+# format = ucca
+# sent_id = 25649001
+# text = War ich wieder frei oder Gefangener ?
+1	War	sein	VERB	ADV	_	4	F	4:F	_
+2	ich	ich	PRON	PPER	_	4	A	4:A	_
+3	wieder	wieder	ADV	NN	_	4	D	4:D	_
+4	frei	frei	ADV	ADJD	_	0	H	0:H	_
+5	oder	oder	CCONJ	CARD	_	4	N	4:N	_
+6	Gefangener	Gefangene	NOUN	NN	_	4	C	4:C	_
+7	?	?	PUNCT	$.	_	4	U	4:U	_
+

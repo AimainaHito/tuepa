@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25648015
+# text = In diesem Augenblick erlosch die Kugel , welche die Zelle erleuchtete , und ließ uns in tiefem Dunkel .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	diesem	dies	PRON	PDAT	_	3	E	3:E	_
+3	Augenblick	Augenblick	NOUN	NN	_	4	D	4:D	_
+4	erlosch	erlosch	ADP	ADJD	_	0	H	0:H	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Kugel	Kugel	NOUN	NN	_	0	C	0:C|14:A|11:A	_
+7	,	,	PUNCT	$,	_	6	U	6:U	_
+8	welche	welch	PRON	NN	_	11	R	11:R	_
+9	die	der	DET	ART	_	10	E	10:E	_
+10	Zelle	Zelle	NOUN	NN	_	11	A	11:A	_
+11	erleuchtete	erleuchten	VERB	VVFIN	_	6	E	6:E	_
+12	,	,	PUNCT	$,	_	4	U	4:U	_
+13	und	und	CCONJ	NE	_	4	L	4:L	_
+14	ließ	lassen	VERB	VVFIN	_	4	H	4:H	_
+15	uns	wir	PRON	NE	_	14	A	14:A	_
+16	in	in	ADP	APPR	_	18	R	18:R	_
+17	tiefem	tief	ADJ	ADJA	_	18	E	18:E	_
+18	Dunkel	dunkel	NOUN	NN	_	14	A	14:A	_
+19	.	.	PUNCT	$.	_	18	U	18:U	_
+

@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 206013
+# text = Hoffman played the character of Benjamin Braddock , who returns to his wealthy parents ' home in California after graduating college .
+1	Hoffman	Hoffman	PROPN	NNP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	character	character	NOUN	NN	_	6	E	6:E	_
+5	of	of	ADP	IN	_	4	R	4:R	_
+6	Benjamin	Benjamin	PROPN	NNP	_	2	A	2:A	_
+7	Braddock	Braddock	PROPN	NNP	_	6	Terminal	6:Terminal	_
+8	,	,	PUNCT	,	_	6	U	6:U	_
+9	who	who	PRON	WP	_	10	F	10:F	_
+10	returns	return	VERB	VBZ	_	6	E	6:E	_
+11	to	to	ADP	IN	_	16	R	16:R	_
+12	his	he	PRON	PRP$	_	14	E	14:E	_
+13	wealthy	wealthy	ADJ	JJ	_	14	E	14:E	_
+14	parents	parent	NOUN	NNS	_	16	E	16:E	_
+15	'	'	PART	POS	_	16	U	16:U	_
+16	home	home	NOUN	NN	_	10	A	10:A	_
+17	in	in	ADP	IN	_	18	R	18:R	_
+18	California	California	PROPN	NNP	_	16	E	16:E	_
+19	after	after	SCONJ	IN	_	10	L	10:L	_
+20	graduating	graduate	VERB	VBG	_	10	H	10:H	_
+21	college	college	NOUN	NN	_	20	A	20:A	_
+22	.	.	PUNCT	.	_	20	U	20:U	_
+

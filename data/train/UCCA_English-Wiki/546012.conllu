@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 546012
+# text = As Thomas noted , " They have since earned millions , but not for Warner Bros . "
+1	As	as	SCONJ	IN	_	2	R	2:R	_
+2	Thomas	Thomas	PROPN	NNP	_	3	A	3:A	_
+3	noted	note	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	"	"	PUNCT	``	_	3	U	3:U	_
+6	They	they	PRON	PRP	_	9	A	9:A	_
+7	have	have	AUX	VBP	_	9	F	9:F	_
+8	since	since	ADV	RB	_	9	D	9:D	_
+9	earned	earn	VERB	VBN	_	3	A	3:A	_
+10	millions	million	NOUN	NNS	_	9	A	9:A	_
+11	,	,	PUNCT	,	_	9	U	9:U	_
+12	but	but	CCONJ	CC	_	9	L	9:L	_
+13	not	not	ADV	RB	_	15	D	15:D	_
+14	for	for	ADP	IN	_	15	R	15:R	_
+15	Warner	Warner	PROPN	NNP	_	9	H	9:H	_
+16	Bros	Bros	PROPN	NNP	_	15	Terminal	15:Terminal	_
+17	.	.	PUNCT	.	_	15	U	15:U	_
+18	"	"	PUNCT	''	_	15	U	15:U	_
+

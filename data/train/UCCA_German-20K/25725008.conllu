@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25725008
+# text = Die Richtung unserer Fahrt war stets nördlich .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Richtung	Richtung	NOUN	NN	_	7	A	7:A	_
+3	unserer	unser	PRON	PPOSAT	_	4	A	4:A	_
+4	Fahrt	Fahrt	NOUN	NN	_	2	E	2:E	_
+5	war	sein	AUX	ADV	_	7	F	7:F	_
+6	stets	stets	ADV	ADV	_	7	D	7:D	_
+7	nördlich	nördlich	ADJ	ADJA	_	0	H	0:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

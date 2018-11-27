@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 770000
+# text = À se frotter aux savants de notre petit monde du Jardin des Plantes , Conseil en était venu à savoir quelque chose .
+1	À	à	ADP	_	_	2	L	2:L	_
+2	se	se	PRON	_	_	0	H	0:H	_
+3	frotter	frotter	VERB	_	_	2	Terminal	2:Terminal	_
+4	aux	au	ADJ	_	_	5	R	5:R	_
+5	savants	savant	NOUN	_	_	2	A	2:A	_
+6	de	de	ADP	_	_	9	R	9:R	_
+7	notre	son	DET	_	_	9	E	9:E	_
+8	petit	petit	ADJ	_	_	9	E	9:E	_
+9	monde	monde	NOUN	_	_	5	E	5:E	_
+10	du	du	DET	_	_	11	R	11:R	_
+11	Jardin	jardin	NOUN	_	_	9	E	9:E	_
+12	des	un	DET	_	_	11	Terminal	11:Terminal	_
+13	Plantes	plantes	PROPN	_	_	11	Terminal	11:Terminal	_
+14	,	,	PUNCT	_	_	2	U	2:U	_
+15	Conseil	conseil	NOUN	_	_	20	A	20:A|2:A	_
+16	en	en	PRON	_	_	20	D	20:D	_
+17	était	être	AUX	_	_	16	Terminal	16:Terminal	_
+18	venu	venir	VERB	_	_	16	Terminal	16:Terminal	_
+19	à	à	ADP	_	_	20	F	20:F	_
+20	savoir	savoir	VERB	_	_	2	H	2:H	_
+21	quelque	quelque	DET	_	_	20	A	20:A	_
+22	chose	chose	NOUN	_	_	21	Terminal	21:Terminal	_
+23	.	.	PUNCT	_	_	20	U	20:U	_
+

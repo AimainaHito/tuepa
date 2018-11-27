@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 508007
+# text = It contained some of the new elements introduced in Black Tie White Noise , and also signalled a move towards alternative rock .
+1	It	it	PRON	PRP	_	2	A	2:A	_
+2	contained	contain	VERB	VBD	_	0	H	0:H	_
+3	some	some	DET	DT	_	7	E	7:E	_
+4	of	of	ADP	IN	_	3	R	3:R	_
+5	the	the	DET	DT	_	7	E	7:E	_
+6	new	new	ADJ	JJ	_	7	E	7:E	_
+7	elements	element	NOUN	NNS	_	8	A	8:A	_
+8	introduced	introduce	VERB	VBD	_	2	A	2:A	_
+9	in	in	ADP	IN	_	10	R	10:R	_
+10	Black	black	PROPN	NNP	_	8	A	8:A	_
+11	Tie	tie	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	White	white	PROPN	NNP	_	10	Terminal	10:Terminal	_
+13	Noise	noise	PROPN	NNP	_	10	Terminal	10:Terminal	_
+14	,	,	PUNCT	,	_	2	U	2:U	_
+15	and	and	CCONJ	CC	_	2	L	2:L	_
+16	also	also	ADV	RB	_	17	D	17:D	_
+17	signalled	signal	VERB	VBD	_	2	H	2:H	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	move	move	NOUN	NN	_	17	A	17:A	_
+20	towards	towards	ADP	IN	_	22	R	22:R	_
+21	alternative	alternative	ADJ	JJ	_	22	E	22:E	_
+22	rock	rock	NOUN	NN	_	19	E	19:E	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

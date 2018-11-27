@@ -1,0 +1,9 @@
+# format = ucca
+# sent_id = 25462000
+# text = Aber , vergebliche Aufregung !
+1	Aber	aber	ADV	KON	_	4	L	4:L	_
+2	,	,	PUNCT	$,	_	4	U	4:U	_
+3	vergebliche	vergebliche	ADJ	ADJA	_	4	D	4:D	_
+4	Aufregung	Aufregung	NOUN	NN	_	0	H	0:H	_
+5	!	!	PUNCT	$.	_	4	U	4:U	_
+

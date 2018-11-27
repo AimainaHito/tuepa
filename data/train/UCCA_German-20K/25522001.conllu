@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 25522001
+# text = Die Pumpen begannen das Wasser aus den Behältern zu treiben ; der Zeiger des Manometers gab durch den verschiedenen Druck die aufsteigende Bewegung der ›Nautilus‹ an , dann blieb er stehen .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Pumpen	Pumpe|Pumpen	NOUN	NN	_	10	A	10:A	_
+3	begannen	beginnen	VERB	VVFIN	_	10	D	10:D	_
+4	das	der	DET	ART	_	5	E	5:E	_
+5	Wasser	Wasser	NOUN	NN	_	10	A	10:A	_
+6	aus	aus	ADP	APPR	_	8	R	8:R	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Behältern	Behälter	NOUN	NN	_	10	A	10:A	_
+9	zu	zu	PART	VVINF	_	10	F	10:F	_
+10	treiben	treiben	VERB	VVINF	_	0	H	0:H	_
+11	;	;	PUNCT	$.	_	10	U	10:U	_
+12	der	der	DET	ART	_	13	E	13:E	_
+13	Zeiger	Zeiger	NOUN	NN	_	16	A	16:A	_
+14	des	der	DET	ART	_	15	R	15:R	_
+15	Manometers	Manometer	NOUN	NE	_	13	E	13:E	_
+16	gab	geben	VERB	VVFIN	_	10	H	10:H	_
+17	durch	durch	ADP	APPR	_	20	R	20:R	_
+18	den	der	DET	ART	_	20	E	20:E	_
+19	verschiedenen	verschieden	ADJ	ADJA	_	20	E	20:E	_
+20	Druck	Druck	NOUN	NN	_	16	A	16:A	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	aufsteigende	aufsteigend	ADJ	ADJA	_	23	E	23:E	_
+23	Bewegung	Bewegung	NOUN	NN	_	16	A	16:A	_
+24	der	der	DET	ART	_	25	R	25:R	_
+25	›Nautilus‹	›Nautilus‹	NOUN	NE	_	23	E	23:E	_
+26	an	an	ADP	PTKVZ	_	16	Terminal	16:Terminal	_
+27	,	,	PUNCT	$,	_	10	U	10:U	_
+28	dann	dann	ADV	ADV	_	10	L	10:L	_
+29	blieb	bleiben	VERB	VVFIN	_	10	H	10:H	_
+30	er	er	PRON	PPER	_	29	A	29:A	_
+31	stehen	stehen	VERB	VVFIN	_	29	Terminal	29:Terminal	_
+32	.	.	PUNCT	$.	_	29	U	29:U	_
+

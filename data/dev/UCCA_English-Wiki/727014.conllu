@@ -1,0 +1,57 @@
+# format = ucca
+# sent_id = 727014
+# text = " She also provided the voice of the angelfish Lola in the DreamWorks animated movie Shark Tale ( 2004 ) , and had a brief appearance in Sky Captain and the World of Tomorrow ( 2004 ) , a science fiction adventure film shot entirely with actors in front of a bluescreen .
+1	"	"	PUNCT	``	_	26	U	26:U	_
+2	She	she	PRON	PRP	_	4	A	4:A|26:A	_
+3	also	also	ADV	RB	_	4	D	4:D	_
+4	provided	provide	VERB	VBD	_	0	H	0:H	_
+5	the	the	DET	DT	_	6	E	6:E	_
+6	voice	voice	NOUN	NN	_	4	A	4:A	_
+7	of	of	ADP	IN	_	10	R	10:R	_
+8	the	the	DET	DT	_	10	E	10:E	_
+9	angelfish	angelfish	ADJ	JJ	_	10	E	10:E	_
+10	Lola	Lola	PROPN	NNP	_	6	E	6:E	_
+11	in	in	ADP	IN	_	16	R	16:R	_
+12	the	the	DET	DT	_	16	E	16:E	_
+13	DreamWorks	DreamWorks	PROPN	NNPS	_	16	E	16:E	_
+14	animated	animate	VERB	VBD	_	15	E	15:E	_
+15	movie	movie	NOUN	NN	_	16	E	16:E	_
+16	Shark	shark	PROPN	NNP	_	4	A	4:A	_
+17	Tale	Tale	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	(	(	PUNCT	-LRB-	_	16	U	16:U	_
+19	2004	2004	NUM	CD	_	16	E	16:E	_
+20	)	)	PUNCT	-RRB-	_	4	U	4:U	_
+21	,	,	PUNCT	,	_	4	U	4:U	_
+22	and	and	CCONJ	CC	_	4	L	4:L	_
+23	had	have	VERB	VBD	_	26	F	26:F	_
+24	a	a	DET	DT	_	25	E	25:E	_
+25	brief	brief	ADJ	JJ	_	26	D	26:D	_
+26	appearance	appearance	NOUN	NN	_	4	H	4:H	_
+27	in	in	ADP	IN	_	28	R	28:R	_
+28	Sky	sky	PROPN	NNP	_	26	A	26:A	_
+29	Captain	captain	PROPN	NNP	_	28	Terminal	28:Terminal	_
+30	and	and	CCONJ	CC	_	28	Terminal	28:Terminal	_
+31	the	the	DET	DT	_	28	Terminal	28:Terminal	_
+32	World	World	NOUN	NN	_	28	Terminal	28:Terminal	_
+33	of	of	ADP	IN	_	28	Terminal	28:Terminal	_
+34	Tomorrow	tomorrow	PROPN	NNP	_	28	Terminal	28:Terminal	_
+35	(	(	PUNCT	-LRB-	_	28	U	28:U	_
+36	2004	2004	NUM	CD	_	28	E	28:E	_
+37	)	)	PUNCT	-RRB-	_	28	U	28:U	_
+38	,	,	PUNCT	,	_	28	U	28:U	_
+39	a	a	DET	DT	_	43	E	43:E	_
+40	science	science	NOUN	NN	_	41	E	41:E	_
+41	fiction	fiction	NOUN	NN	_	43	E	43:E	_
+42	adventure	adventure	NOUN	NN	_	43	E	43:E	_
+43	film	film	NOUN	NN	_	44	A	44:A	_
+44	shot	shot	NOUN	NN	_	28	E	28:E	_
+45	entirely	entirely	ADV	RB	_	44	D	44:D	_
+46	with	with	ADP	IN	_	47	R	47:R	_
+47	actors	actor	NOUN	NNS	_	44	A	44:A	_
+48	in	in	ADP	IN	_	49	R	49:R	_
+49	front	front	NOUN	NN	_	52	R	52:R	_
+50	of	of	ADP	IN	_	49	R	49:R	_
+51	a	a	DET	DT	_	52	E	52:E	_
+52	bluescreen	bluescreen	NOUN	NN	_	47	E	47:E	_
+53	.	.	PUNCT	.	_	52	U	52:U	_
+

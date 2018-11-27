@@ -1,0 +1,26 @@
+# format = ucca
+# sent_id = 25732015
+# text = Oder gar - der Gedanke fuhr mir durch den Kopf - hatte der Mensch bei dieser Glut die Hand im Spiele ?
+1	Oder	oder	CCONJ	NE	_	12	L	12:L	_
+2	gar	gar	ADV	NE	_	12	F	12:F	_
+3	-	-	PUNCT	$(	_	12	U	12:U	_
+4	der	der	DET	ART	_	5	E	5:E	_
+5	Gedanke	Gedanke	NOUN	NN	_	6	A	6:A	_
+6	fuhr	fahren	VERB	VVFIN	_	12	H	12:H	_
+7	mir	ich	PRON	PPER	_	6	A	6:A	_
+8	durch	durch	ADP	APPR	_	10	R	10:R	_
+9	den	der	DET	ART	_	10	E	10:E	_
+10	Kopf	Kopf	NOUN	NN	_	6	A	6:A	_
+11	-	-	PUNCT	$(	_	12	U	12:U	_
+12	hatte	haben	AUX	VAFIN	_	0	H	0:H	_
+13	der	der	DET	ART	_	14	E	14:E	_
+14	Mensch	Mensch	NOUN	NN	_	12	A	12:A	_
+15	bei	bei	ADP	APPR	_	17	R	17:R	_
+16	dieser	dies	PRON	PDAT	_	17	E	17:E	_
+17	Glut	Glut	NOUN	NN	_	12	A	12:A	_
+18	die	der	DET	ART	_	12	Terminal	12:Terminal	_
+19	Hand	Hand	NOUN	NN	_	12	Terminal	12:Terminal	_
+20	im	im	ADJ	NE	_	12	Terminal	12:Terminal	_
+21	Spiele	Spiel	NOUN	NN	_	12	Terminal	12:Terminal	_
+22	?	?	PUNCT	$.	_	12	U	12:U	_
+

@@ -1,0 +1,17 @@
+# format = ucca
+# sent_id = 25751001
+# text = Vermutlich hätten sie die spezifische Schwere der ›Nautilus‹ nicht hinreichend erhöhen könnten .
+1	Vermutlich	vermutlich	ADJ	ADV	_	11	G	11:G	_
+2	hätten	haben	AUX	VAFIN	_	11	D	11:D	_
+3	sie	sie	PRON	ADV	_	11	A	11:A	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	spezifische	spezifisch	ADJ	ADJA	_	6	E	6:E	_
+6	Schwere	schwer	NOUN	NN	_	11	A	11:A	_
+7	der	der	DET	ART	_	8	R	8:R	_
+8	›Nautilus‹	›Nautilus‹	NOUN	NE	_	6	E	6:E	_
+9	nicht	nicht	PART	CARD	_	11	D	11:D	_
+10	hinreichend	hinreichend	ADJ	ADJD	_	11	D	11:D	_
+11	erhöhen	erhöhen	VERB	VVINF	_	0	H	0:H	_
+12	könnten	können	AUX	VMFIN	_	11	D	11:D	_
+13	.	.	PUNCT	$.	_	11	U	11:U	_
+

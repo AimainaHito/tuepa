@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 492006
+# text = " The relatively short - lived Ziggy persona proved merely one facet of a career marked by continual reinvention , musical innovation and striking visual presentation .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	The	the	DET	DT	_	7	E	7:E	_
+3	relatively	relatively	ADV	RB	_	6	E	6:E	_
+4	short	short	ADJ	JJ	_	6	E	6:E	_
+5	-	-	PUNCT	HYPH	_	6	U	6:U	_
+6	lived	live	VERB	VBN	_	7	E	7:E	_
+7	Ziggy	Ziggy	PROPN	NNP	_	9	A	9:A	_
+8	persona	persona	PART	TO	_	7	E	7:E	_
+9	proved	prove	VERB	VBN	_	0	H	0:H	_
+10	merely	merely	ADV	RB	_	12	E	12:E	_
+11	one	one	NUM	CD	_	12	E	12:E	_
+12	facet	facet	NOUN	NN	_	15	E	15:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	career	career	NOUN	NN	_	9	A	9:A	_
+16	marked	mark	VERB	VBN	_	15	E	15:E	_
+17	by	by	ADP	IN	_	19	R	19:R	_
+18	continual	continual	ADJ	JJ	_	19	E	19:E	_
+19	reinvention	reinvention	NOUN	NN	_	16	A	16:A	_
+20	,	,	PUNCT	,	_	19	U	19:U	_
+21	musical	musical	ADJ	JJ	_	22	E	22:E	_
+22	innovation	innovation	NOUN	NN	_	19	C	19:C	_
+23	and	and	CCONJ	CC	_	19	N	19:N	_
+24	striking	strik	VERB	VBG	_	26	E	26:E	_
+25	visual	visual	ADJ	JJ	_	26	E	26:E	_
+26	presentation	presentation	NOUN	NN	_	19	C	19:C	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

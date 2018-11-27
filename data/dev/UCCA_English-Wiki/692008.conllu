@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 692008
+# text = " Oxford Town " , for example , was a sardonic account of James Meredith 's ordeal as the first black student to risk enrollment at the University of Mississippi .
+1	"	"	PUNCT	``	_	9	U	9:U	_
+2	Oxford	Oxford	PROPN	NNP	_	9	A	9:A	_
+3	Town	town	PROPN	NNP	_	2	Terminal	2:Terminal	_
+4	"	"	PUNCT	''	_	9	U	9:U	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	for	for	ADP	IN	_	7	R	7:R	_
+7	example	example	NOUN	NN	_	9	L	9:L	_
+8	,	,	PUNCT	,	_	9	U	9:U	_
+9	was	be	AUX	VBD	_	0	H	0:H	_
+10	a	a	DET	DT	_	12	E	12:E	_
+11	sardonic	sardonic	ADJ	JJ	_	12	E	12:E	_
+12	account	account	NOUN	NN	_	9	A	9:A	_
+13	of	of	ADP	IN	_	17	R	17:R	_
+14	James	James	PROPN	NNP	_	17	E	17:E	_
+15	Meredith	Meredith	PROPN	NNP	_	14	Terminal	14:Terminal	_
+16	's	's	PART	POS	_	17	R	17:R	_
+17	ordeal	ordeal	NOUN	NN	_	12	E	12:E	_
+18	as	as	ADP	IN	_	25	R	25:R	_
+19	the	the	DET	DT	_	22	E	22:E	_
+20	first	first	ADJ	JJ	_	22	E	22:E	_
+21	black	black	ADJ	JJ	_	22	E	22:E	_
+22	student	student	NOUN	NN	_	25	A	25:A	_
+23	to	to	PART	TO	_	25	F	25:F	_
+24	risk	risk	VERB	VB	_	25	D	25:D	_
+25	enrollment	enrollment	NOUN	NN	_	17	E	17:E	_
+26	at	at	ADP	IN	_	28	R	28:R	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	University	University	PROPN	NNP	_	25	A	25:A	_
+29	of	of	ADP	IN	_	30	R	30:R	_
+30	Mississippi	Mississippi	PROPN	NNP	_	28	E	28:E	_
+31	.	.	PUNCT	.	_	30	U	30:U	_
+

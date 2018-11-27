@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 610001
+# text = His studio album release in November that year , Driving Rain , included the song " Freedom " , written in response to the attacks .
+1	His	he	PRON	PRP$	_	3	E	3:E	_
+2	studio	studio	NOUN	NN	_	3	E	3:E	_
+3	album	album	NOUN	NN	_	10	E	10:E	_
+4	release	release	NOUN	NN	_	13	A	13:A	_
+5	in	in	ADP	IN	_	6	R	6:R	_
+6	November	November	PROPN	NNP	_	4	D	4:D	_
+7	that	that	DET	DT	_	8	E	8:E	_
+8	year	year	NOUN	NN	_	6	E	6:E	_
+9	,	,	PUNCT	,	_	4	U	4:U	_
+10	Driving	driving	PROPN	NNP	_	4	A	4:A	_
+11	Rain	rain	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	13	U	13:U	_
+13	included	include	VERB	VBD	_	0	H	0:H	_
+14	the	the	DET	DT	_	15	E	15:E	_
+15	song	song	NOUN	NN	_	17	E	17:E	_
+16	"	"	PUNCT	``	_	17	U	17:U	_
+17	Freedom	freedom	NOUN	NN	_	13	A	13:A	_
+18	"	"	PUNCT	''	_	17	U	17:U	_
+19	,	,	PUNCT	,	_	17	U	17:U	_
+20	written	write	VERB	VBN	_	17	E	17:E	_
+21	in	in	ADP	IN	_	22	R	22:R	_
+22	response	response	NOUN	NN	_	20	L	20:L	_
+23	to	to	ADP	IN	_	25	R	25:R	_
+24	the	the	DET	DT	_	25	E	25:E	_
+25	attacks	attack	NOUN	NNS	_	20	H	20:H	_
+26	.	.	PUNCT	.	_	25	U	25:U	_
+

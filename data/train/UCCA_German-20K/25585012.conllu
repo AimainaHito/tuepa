@@ -1,0 +1,42 @@
+# format = ucca
+# sent_id = 25585012
+# text = Diesen Gedanken konnte man auf meiner Stirne lesen , aber Kapitän Nemo beschränkte sich darauf , mich ein zu laden , ihn zu begleiten , und ich folgte als ein Mann , der sich in alles ergibt .
+1	Diesen	dies	PRON	PDAT	_	2	E	2:E	_
+2	Gedanken	Gedanke	NOUN	NN	_	8	A	8:A	_
+3	konnte	können	AUX	VMFIN	_	8	D	8:D	_
+4	man	man	PRON	PIS	_	8	A	8:A	_
+5	auf	auf	ADP	APPR	_	7	R	7:R	_
+6	meiner	mein	DET	PPOSS	_	7	E	7:E	_
+7	Stirne	Stirn	NOUN	NN	_	8	A	8:A	_
+8	lesen	lesen	VERB	VVINF	_	0	H	0:H	_
+9	,	,	PUNCT	$,	_	8	U	8:U	_
+10	aber	aber	CCONJ	KON	_	8	L	8:L	_
+11	Kapitän	Kapitän	PROPN	NN	_	12	E	12:E	_
+12	Nemo	Nemo	PROPN	NE	_	13	A	13:A	_
+13	beschränkte	beschränken	VERB	VVFIN	_	8	H	8:H	_
+14	sich	er|es|sie	PRON	PRF	_	13	Terminal	13:Terminal	_
+15	darauf	darauf	ADV	PAV	_	18	F	18:F	_
+16	,	,	PUNCT	$,	_	18	U	18:U	_
+17	mich	ich	PRON	PRF	_	18	A	18:A|24:A	_
+18	ein	ein	DET	ART	_	13	A	13:A	_
+19	zu	zu	PART	ADJA	_	18	F	18:F	_
+20	laden	laden	VERB	NN	_	18	Terminal	18:Terminal	_
+21	,	,	PUNCT	$,	_	18	U	18:U	_
+22	ihn	er	PRON	PPER	_	24	A	24:A	_
+23	zu	zu	PART	NN	_	24	F	24:F	_
+24	begleiten	begleiten	VERB	VVINF	_	18	A	18:A	_
+25	,	,	PUNCT	$,	_	8	U	8:U	_
+26	und	und	CCONJ	NE	_	8	L	8:L	_
+27	ich	ich	PRON	PPER	_	28	A	28:A	_
+28	folgte	folgen	VERB	VVFIN	_	8	H	8:H	_
+29	als	als	ADP	KOKOM	_	31	R	31:R	_
+30	ein	ein	DET	ART	_	31	E	31:E	_
+31	Mann	Mann	NOUN	NN	_	28	A	28:A	_
+32	,	,	PUNCT	$,	_	31	U	31:U	_
+33	der	der	PRON	PRELS	_	34	R	34:R	_
+34	sich	er|es|sie	PRON	PRF	_	31	E	31:E	_
+35	in	in	ADP	APPR	_	36	R	36:R	_
+36	alles	alle	PRON	PIS	_	34	A	34:A	_
+37	ergibt	ergeben	VERB	VVFIN	_	34	Terminal	34:Terminal	_
+38	.	.	PUNCT	$.	_	34	U	34:U	_
+

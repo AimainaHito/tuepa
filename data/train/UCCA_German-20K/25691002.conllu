@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 25691002
+# text = » Ich vermute , dass die ›Nautilus‹ nach einem Besuch in den merkwürdigen Gegenden von Arabien und Ägypten sich wieder in den Indischen Ozean begeben wird , vielleicht durch den Kanal von Mozambique , vielleicht in hoher See bei den Mascarenen zu dem Kap der Guten Hoffnung . «
+1	»	»	PUNCT	$(	_	3	U	3:U	_
+2	Ich	ich	PRON	PPER	_	3	A	3:A	_
+3	vermute	vermuen	VERB	VVFIN	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	dass	dass	SCONJ	KOUS	_	19	R	19:R	_
+6	die	der	DET	ART	_	7	E	7:E	_
+7	›Nautilus‹	›Nautilus‹	NOUN	NE	_	0	C	0:C|10:A|38:A|33:A	_
+8	nach	nach	ADP	CARD	_	10	R	10:R	_
+9	einem	ein	DET	ART	_	10	E	10:E	_
+10	Besuch	Besuch	NOUN	NN	_	19	H	19:H	_
+11	in	in	ADP	APPR	_	14	R	14:R	_
+12	den	der	DET	ART	_	14	E	14:E	_
+13	merkwürdigen	merkwürdig	ADJ	ADJA	_	14	E	14:E	_
+14	Gegenden	Gegend	NOUN	NN	_	10	A	10:A	_
+15	von	von	ADP	NN	_	16	R	16:R	_
+16	Arabien	Arabien	PROPN	NE	_	14	E	14:E	_
+17	und	und	CCONJ	NE	_	16	N	16:N	_
+18	Ägypten	Ägypten	PROPN	VVFIN	_	16	C	16:C	_
+19	sich	er|es|sie	PRON	PRF	_	3	A	3:A	_
+20	wieder	wieder	ADV	NN	_	19	D	19:D	_
+21	in	in	ADP	APPR	_	23	R	23:R	_
+22	den	der	DET	ART	_	23	E	23:E	_
+23	Indischen	indisch	PROPN	ADJA	_	19	A	19:A	_
+24	Ozean	Ozean	PROPN	NN	_	23	E	23:E	_
+25	begeben	beben	VERB	VVPP	_	19	Terminal	19:Terminal	_
+26	wird	werden	AUX	VAFIN	_	19	F	19:F	_
+27	,	,	PUNCT	$,	_	3	U	3:U	_
+28	vielleicht	vielleicht	ADV	NE	_	33	G	33:G	_
+29	durch	durch	ADP	APPR	_	33	R	33:R	_
+30	den	der	DET	ART	_	31	E	31:E	_
+31	Kanal	Kanal	NOUN	NN	_	33	E	33:E	_
+32	von	von	ADP	NE	_	33	R	33:R	_
+33	Mozambique	Mozambique	PROPN	NE	_	3	H	3:H	_
+34	,	,	PUNCT	$,	_	3	U	3:U	_
+35	vielleicht	vielleicht	ADV	NE	_	38	G	38:G	_
+36	in	in	ADP	APPR	_	38	R	38:R	_
+37	hoher	hoch	ADJ	ADJA	_	38	E	38:E	_
+38	See	See	NOUN	NN	_	3	H	3:H	_
+39	bei	bei	ADP	APPR	_	41	R	41:R	_
+40	den	der	DET	ART	_	41	E	41:E	_
+41	Mascarenen	Mascarene	NOUN	ADJA	_	38	A	38:A	_
+42	zu	zu	ADP	NE	_	46	R	46:R	_
+43	dem	der	DET	ART	_	44	E	44:E	_
+44	Kap	Kap	NOUN	NN	_	46	E	46:E	_
+45	der	der	DET	ART	_	46	R	46:R	_
+46	Guten	gut	ADJ	ADJA	_	38	A	38:A	_
+47	Hoffnung	Hoffnung	NOUN	NN	_	46	Terminal	46:Terminal	_
+48	.	.	PUNCT	$.	_	46	U	46:U	_
+49	«	«	PUNCT	$(	_	46	U	46:U	_
+

@@ -1,0 +1,53 @@
+# format = ucca
+# sent_id = 185012
+# text = While Sorkin 's return was met with high expectations and a lot of early online buzz before Studio 60 's premiere , NBC did not renew it after its first season in which it suffered from low ratings and mixed reception in the press and on the Internet .
+1	While	while	SCONJ	IN	_	6	L	6:L	_
+2	Sorkin	Sorkin	PROPN	NNP	_	4	A	4:A	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	return	return	NOUN	NN	_	6	A	6:A	_
+5	was	be	AUX	VBD	_	6	F	6:F	_
+6	met	meet	VERB	VBN	_	0	H	0:H	_
+7	with	with	ADP	IN	_	9	R	9:R	_
+8	high	high	ADJ	JJ	_	9	E	9:E	_
+9	expectations	expectation	NOUN	NNS	_	6	A	6:A	_
+10	and	and	CCONJ	CC	_	9	N	9:N	_
+11	a	a	DET	DT	_	12	E	12:E	_
+12	lot	lot	NOUN	NN	_	16	E	16:E	_
+13	of	of	ADP	IN	_	12	R	12:R	_
+14	early	early	ADJ	JJ	_	16	E	16:E	_
+15	online	online	ADJ	JJ	_	16	E	16:E	_
+16	buzz	buzz	NOUN	NN	_	9	C	9:C	_
+17	before	before	ADP	IN	_	6	L	6:L	_
+18	Studio	Studio	PROPN	NNP	_	21	A	21:A	_
+19	60	60	NUM	CD	_	18	Terminal	18:Terminal	_
+20	's	's	PART	POS	_	18	R	18:R	_
+21	premiere	premiere	NOUN	NN	_	6	H	6:H	_
+22	,	,	PUNCT	,	_	6	U	6:U	_
+23	NBC	NBC	PROPN	NNP	_	26	A	26:A	_
+24	did	do	AUX	VBD	_	26	F	26:F	_
+25	not	not	PART	RB	_	26	D	26:D	_
+26	renew	renew	VERB	VB	_	6	H	6:H	_
+27	it	it	PRON	PRP	_	26	A	26:A	_
+28	after	after	ADP	IN	_	6	L	6:L	_
+29	its	its	PRON	PRP$	_	31	A	31:A	_
+30	first	first	ADJ	JJ	_	31	E	31:E	_
+31	season	season	NOUN	NN	_	6	H	6:H	_
+32	in	in	ADP	IN	_	35	R	35:R	_
+33	which	which	PRON	WDT	_	32	F	32:F	_
+34	it	it	PRON	PRP	_	35	A	35:A	_
+35	suffered	suffer	VERB	VBD	_	31	E	31:E	_
+36	from	from	ADP	IN	_	38	R	38:R	_
+37	low	low	ADJ	JJ	_	38	E	38:E	_
+38	ratings	rating	NOUN	NNS	_	35	A	35:A	_
+39	and	and	CCONJ	CC	_	38	N	38:N	_
+40	mixed	mix	ADJ	JJ	_	41	E	41:E	_
+41	reception	reception	NOUN	NN	_	38	C	38:C	_
+42	in	in	ADP	IN	_	44	R	44:R	_
+43	the	the	DET	DT	_	44	E	44:E	_
+44	press	press	NOUN	NN	_	38	E	38:E	_
+45	and	and	CCONJ	CC	_	44	N	44:N	_
+46	on	on	ADP	IN	_	48	R	48:R	_
+47	the	the	DET	DT	_	48	E	48:E	_
+48	Internet	internet	NOUN	NN	_	44	C	44:C	_
+49	.	.	PUNCT	.	_	48	U	48:U	_
+

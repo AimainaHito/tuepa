@@ -1,0 +1,47 @@
+# format = ucca
+# sent_id = 25468003
+# text = « » Wenn man die Ehre hat , so ein Gelehrter zu sein , wie mein Herr , gibt man sich nicht preis ... « Conseil hatte noch nicht ausgeredet , da ließ sich mitten im allgemeinen Schweigen eine laute Stimme vernehmen .
+1	«	«	PUNCT	$(	_	30	U	30:U	_
+2	»	»	PUNCT	$(	_	30	U	30:U	_
+3	Wenn	wenn	SCONJ	KOUS	_	13	L	13:L	_
+4	man	man	PRON	PIS	_	13	A	13:A	_
+5	die	der	DET	ART	_	6	E	6:E	_
+6	Ehre	Ehre	NOUN	NN	_	13	D	13:D	_
+7	hat	haben	VERB	VAFIN	_	13	F	13:F	_
+8	,	,	PUNCT	$,	_	13	U	13:U	_
+9	so	so	ADV	ADV	_	13	D	13:D	_
+10	ein	ein	DET	ART	_	11	E	11:E	_
+11	Gelehrter	Gelehrter	NOUN	ADJA	_	13	A	13:A	_
+12	zu	zu	PART	NN	_	13	F	13:F	_
+13	sein	sein	AUX	VAINF	_	30	A	30:A	_
+14	,	,	PUNCT	$,	_	17	U	17:U	_
+15	wie	wie	ADP	KON	_	17	R	17:R	_
+16	mein	mein	PRON	PPOSAT	_	17	E	17:E	_
+17	Herr	Herr	NOUN	NN	_	13	H	13:H	_
+18	,	,	PUNCT	$,	_	13	U	13:U	_
+19	gibt	geben	VERB	VVFIN	_	13	H	13:H	_
+20	man	man	PRON	PIS	_	19	A	19:A	_
+21	sich	er|es|sie	PRON	PRF	_	19	A	19:A	_
+22	nicht	nicht	PART	XY	_	19	D	19:D	_
+23	preis	preis	PART	NN	_	19	Terminal	19:Terminal	_
+24	...	...	PUNCT	$(	_	30	U	30:U	_
+25	«	«	PUNCT	$(	_	30	U	30:U	_
+26	Conseil	Conseil	NOUN	NE	_	30	A	30:A	_
+27	hatte	haben	VERB	VAFIN	_	30	F	30:F	_
+28	noch	noch	ADV	CARD	_	29	E	29:E	_
+29	nicht	nicht	PART	CARD	_	30	D	30:D	_
+30	ausgeredet	ausgereden	ADJ	VVPP	_	0	H	0:H	_
+31	,	,	PUNCT	$,	_	30	U	30:U	_
+32	da	da	SCONJ	KOUS	_	30	L	30:L	_
+33	ließ	lassen	VERB	VVFIN	_	42	D	42:D	_
+34	sich	er|es|sie	PRON	PRF	_	33	Terminal	33:Terminal	_
+35	mitten	mitten	ADV	ADV	_	38	R	38:R	_
+36	im	im	ADV	NE	_	35	Terminal	35:Terminal	_
+37	allgemeinen	allgemein	ADJ	ADJA	_	38	E	38:E	_
+38	Schweigen	schweige	NOUN	ADJA	_	42	A	42:A	_
+39	eine	ein	DET	ART	_	41	E	41:E	_
+40	laute	laut	ADJ	ADJA	_	41	E	41:E	_
+41	Stimme	Stimme	NOUN	NN	_	42	A	42:A	_
+42	vernehmen	vernehmen	VERB	VVINF	_	30	H	30:H	_
+43	.	.	PUNCT	$.	_	42	U	42:U	_
+

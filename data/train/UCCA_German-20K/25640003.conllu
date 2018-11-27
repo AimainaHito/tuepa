@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25640003
+# text = » Nun ! So kommen Sie und werden 's sehen . «
+1	»	»	PUNCT	$(	_	2	U	2:U	_
+2	Nun	nun	ADV	ADV	_	0	H	0:H	_
+3	!	!	PUNCT	$.	_	2	U	2:U	_
+4	So	so	ADV	ADV	_	2	L	2:L	_
+5	kommen	kommen	VERB	VVFIN	_	2	H	2:H	_
+6	Sie	Sie|sie	PRON	PPER	_	5	F	5:F|10:A	_
+7	und	und	CCONJ	NE	_	2	L	2:L	_
+8	werden	werden	AUX	VVFIN	_	10	F	10:F	_
+9	's	es	PART	PPER	_	10	A	10:A	_
+10	sehen	sehen	VERB	VVFIN	_	2	H	2:H	_
+11	.	.	PUNCT	$.	_	10	U	10:U	_
+12	«	«	PUNCT	$(	_	10	U	10:U	_
+

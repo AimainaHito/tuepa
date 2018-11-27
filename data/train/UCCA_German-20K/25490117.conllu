@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25490117
+# text = Conseil blieb gelassen , Ned Land brüllte .
+1	Conseil	Conseil	NOUN	NE	_	3	A	3:A	_
+2	blieb	bleiben	AUX	VVFIN	_	3	D	3:D	_
+3	gelassen	lassen	VERB	ADJD	_	0	H	0:H	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	Ned	Ned	PROPN	NN	_	7	A	7:A	_
+6	Land	Land	PROPN	NN	_	5	Terminal	5:Terminal	_
+7	brüllte	brüllen	VERB	VMFIN	_	3	H	3:H	_
+8	.	.	PUNCT	$.	_	7	U	7:U	_
+

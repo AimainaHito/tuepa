@@ -1,0 +1,35 @@
+# format = ucca
+# sent_id = 662004
+# text = They wed in a lavish ceremony on June 5 , 1993 , with several high - profile guests including Barbra Streisand , Billy Joel , Gloria Estefan and Ozzy Osbourne .
+1	They	they	PRON	PRP	_	2	A	2:A	_
+2	wed	w	VERB	VBD	_	0	H	0:H	_
+3	in	in	ADP	IN	_	6	R	6:R	_
+4	a	a	DET	DT	_	6	E	6:E	_
+5	lavish	lavish	ADJ	JJ	_	6	E	6:E	_
+6	ceremony	ceremony	NOUN	NN	_	2	A	2:A	_
+7	on	on	ADP	IN	_	8	R	8:R	_
+8	June	June	PROPN	NNP	_	2	D	2:D	_
+9	5	5	NUM	CD	_	8	Terminal	8:Terminal	_
+10	,	,	PUNCT	,	_	8	U	8:U	_
+11	1993	1993	NUM	CD	_	8	Terminal	8:Terminal	_
+12	,	,	PUNCT	,	_	2	U	2:U	_
+13	with	with	ADP	IN	_	18	R	18:R	_
+14	several	several	ADJ	JJ	_	18	E	18:E	_
+15	high	high	ADJ	JJ	_	17	E	17:E	_
+16	-	-	PUNCT	HYPH	_	17	U	17:U	_
+17	profile	profile	NOUN	NN	_	18	E	18:E	_
+18	guests	guest	NOUN	NNS	_	2	A	2:A	_
+19	including	include	VERB	VBG	_	20	R	20:R	_
+20	Barbra	Barbra	PROPN	NNP	_	18	E	18:E	_
+21	Streisand	Streisand	PROPN	NNP	_	20	Terminal	20:Terminal	_
+22	,	,	PUNCT	,	_	20	U	20:U	_
+23	Billy	Billy	PROPN	NNP	_	20	C	20:C	_
+24	Joel	Joel	PROPN	NNP	_	23	Terminal	23:Terminal	_
+25	,	,	PUNCT	,	_	20	U	20:U	_
+26	Gloria	Gloria	PROPN	NNP	_	20	C	20:C	_
+27	Estefan	Estefan	PROPN	NNP	_	26	Terminal	26:Terminal	_
+28	and	and	CCONJ	CC	_	20	N	20:N	_
+29	Ozzy	Ozzy	PROPN	NNP	_	20	C	20:C	_
+30	Osbourne	Osbourne	PROPN	NNP	_	29	Terminal	29:Terminal	_
+31	.	.	PUNCT	.	_	20	U	20:U	_
+

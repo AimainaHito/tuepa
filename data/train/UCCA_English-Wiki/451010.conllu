@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 451010
+# text = At 26 , Jennings was , and remains , the youngest - ever U.S. network news anchor .
+1	At	at	ADP	IN	_	2	R	2:R	_
+2	26	26	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Jennings	Jennings	PROPN	NNP	_	5	A	5:A	_
+5	was	be	AUX	VBD	_	0	H	0:H	_
+6	,	,	PUNCT	,	_	5	U	5:U	_
+7	and	and	CCONJ	CC	_	5	N	5:N	_
+8	remains	remains	VERB	VBZ	_	5	C	5:C	_
+9	,	,	PUNCT	,	_	8	U	8:U	_
+10	the	the	DET	DT	_	17	E	17:E	_
+11	youngest	youngest	ADJ	JJS	_	13	E	13:E	_
+12	-	-	PUNCT	HYPH	_	13	U	13:U	_
+13	ever	ever	ADV	RB	_	17	E	17:E	_
+14	U.S.	U.S.	PROPN	NNP	_	15	E	15:E	_
+15	network	network	NOUN	NN	_	17	E	17:E	_
+16	news	news	NOUN	NN	_	17	E	17:E	_
+17	anchor	anchor	NOUN	NN	_	8	E	8:E	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

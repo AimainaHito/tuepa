@@ -1,0 +1,45 @@
+# format = ucca
+# sent_id = 669010
+# text = Charmbracelet World Tour : An Intimate Evening with Mariah Carey garnered generally positive reviews from music critics and concert goers , with many complimenting the quality of Carey 's live vocals , as well as the production as a whole .
+1	Charmbracelet	Charmbracelet	PROPN	NNP	_	3	E	3:E	_
+2	World	World	PROPN	NNP	_	3	E	3:E	_
+3	Tour	Tour	PROPN	NNP	_	11	A	11:A	_
+4	:	:	PUNCT	:	_	3	U	3:U	_
+5	An	a	DET	DT	_	7	E	7:E	_
+6	Intimate	intimate	NOUN	NN	_	7	E	7:E	_
+7	Evening	evening	VERB	VBG	_	3	E	3:E	_
+8	with	with	ADP	IN	_	9	R	9:R	_
+9	Mariah	Mariah	PROPN	NNP	_	7	E	7:E	_
+10	Carey	Carey	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	garnered	garner	VERB	VBD	_	0	H	0:H	_
+12	generally	generally	ADV	RB	_	14	E	14:E	_
+13	positive	positive	ADJ	JJ	_	14	E	14:E	_
+14	reviews	review	NOUN	NNS	_	11	A	11:A	_
+15	from	from	ADP	IN	_	17	R	17:R	_
+16	music	music	NOUN	NN	_	17	E	17:E	_
+17	critics	critics	NOUN	NNS	_	14	E	14:E	_
+18	and	and	CCONJ	CC	_	17	N	17:N	_
+19	concert	concert	NOUN	NN	_	20	E	20:E	_
+20	goers	goer	NOUN	NNS	_	17	C	17:C	_
+21	,	,	PUNCT	,	_	11	U	11:U	_
+22	with	with	SCONJ	IN	_	11	L	11:L	_
+23	many	many	ADJ	JJ	_	24	A	24:A	_
+24	complimenting	compliment	VERB	VBG	_	11	H	11:H	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	quality	quality	NOUN	NN	_	24	A	24:A	_
+27	of	of	ADP	IN	_	31	R	31:R	_
+28	Carey	Carey	PROPN	NNP	_	31	E	31:E	_
+29	's	's	PART	POS	_	28	R	28:R	_
+30	live	live	ADJ	JJ	_	31	E	31:E	_
+31	vocals	vocal	NOUN	NNS	_	26	E	26:E	_
+32	,	,	PUNCT	,	_	26	U	26:U	_
+33	as	as	ADV	RB	_	26	N	26:N	_
+34	well	well	ADV	RB	_	33	Terminal	33:Terminal	_
+35	as	as	ADP	IN	_	33	Terminal	33:Terminal	_
+36	the	the	DET	DT	_	37	E	37:E	_
+37	production	production	NOUN	NN	_	26	C	26:C	_
+38	as	as	ADP	IN	_	40	R	40:R	_
+39	a	a	DET	DT	_	40	E	40:E	_
+40	whole	whole	NOUN	NN	_	37	E	37:E	_
+41	.	.	PUNCT	.	_	40	U	40:U	_
+

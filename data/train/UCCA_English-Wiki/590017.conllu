@@ -1,0 +1,32 @@
+# format = ucca
+# sent_id = 590017
+# text = Charlie and the Chocolate Factory was released in July , followed by Corpse Bride , for which Depp voiced the character Victor Van Dort , in September .
+1	Charlie	Charlie	PROPN	NNP	_	7	A	7:A|11:A	_
+2	and	and	CCONJ	CC	_	1	Terminal	1:Terminal	_
+3	the	the	DET	DT	_	1	Terminal	1:Terminal	_
+4	Chocolate	chocolate	NOUN	NN	_	1	Terminal	1:Terminal	_
+5	Factory	factory	NOUN	NN	_	1	Terminal	1:Terminal	_
+6	was	be	AUX	VBD	_	7	F	7:F	_
+7	released	release	VERB	VBN	_	0	H	0:H	_
+8	in	in	ADP	IN	_	9	R	9:R	_
+9	July	July	PROPN	NNP	_	7	D	7:D	_
+10	,	,	PUNCT	,	_	7	U	7:U	_
+11	followed	follow	VERB	VBN	_	7	H	7:H	_
+12	by	by	ADP	IN	_	13	R	13:R	_
+13	Corpse	Corpse	PROPN	NNP	_	11	A	11:A	_
+14	Bride	Bride	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	,	,	PUNCT	,	_	13	U	13:U	_
+16	for	for	ADP	IN	_	17	R	17:R	_
+17	which	which	PRON	WDT	_	19	R	19:R	_
+18	Depp	Depp	PROPN	NNP	_	19	A	19:A	_
+19	voiced	voice	VERB	VBD	_	13	E	13:E	_
+20	the	the	DET	DT	_	22	E	22:E	_
+21	character	character	NOUN	NN	_	22	E	22:E	_
+22	Victor	Victor	PROPN	NNP	_	19	A	19:A	_
+23	Van	Van	PROPN	NNP	_	22	Terminal	22:Terminal	_
+24	Dort	Dort	PROPN	NNP	_	22	Terminal	22:Terminal	_
+25	,	,	PUNCT	,	_	11	U	11:U	_
+26	in	in	ADP	IN	_	27	R	27:R	_
+27	September	September	PROPN	NNP	_	11	D	11:D	_
+28	.	.	PUNCT	.	_	27	U	27:U	_
+

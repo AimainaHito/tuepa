@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 126003
+# text = " Offered the role , Hepburn demanded $ 1,500 a week , a large amount for an unknown actress .
+1	"	"	PUNCT	``	_	2	U	2:U	_
+2	Offered	offer	VERB	VBD	_	0	H	0:H	_
+3	the	the	DET	DT	_	4	E	4:E	_
+4	role	role	NOUN	NN	_	2	A	2:A	_
+5	,	,	PUNCT	,	_	2	U	2:U	_
+6	Hepburn	Hepburn	PROPN	NNP	_	7	A	7:A|2:A	_
+7	demanded	demand	VERB	VBD	_	2	H	2:H	_
+8	$	$	SYM	$	_	7	U	7:U	_
+9	1,500	1,500	NUM	CD	_	7	A	7:A	_
+10	a	a	DET	DT	_	11	E	11:E	_
+11	week	week	NOUN	NN	_	9	E	9:E	_
+12	,	,	PUNCT	,	_	9	U	9:U	_
+13	a	a	DET	DT	_	15	E	15:E	_
+14	large	large	ADJ	JJ	_	15	E	15:E	_
+15	amount	amount	NOUN	NN	_	9	E	9:E	_
+16	for	for	ADP	IN	_	19	R	19:R	_
+17	an	a	DET	DT	_	19	E	19:E	_
+18	unknown	unknown	ADJ	JJ	_	19	E	19:E	_
+19	actress	actress	NOUN	NN	_	15	A	15:A	_
+20	.	.	PUNCT	.	_	19	U	19:U	_
+

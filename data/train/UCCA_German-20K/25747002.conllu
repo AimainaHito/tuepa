@@ -1,0 +1,12 @@
+# format = ucca
+# sent_id = 25747002
+# text = Der Hauptbestandteil dieser ungeheuren Bank ist Seegras .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Hauptbestandteil	Hauptbestandteil	NOUN	NN	_	6	A	6:A	_
+3	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+4	ungeheuren	ungeheuer	ADJ	NN	_	5	E	5:E	_
+5	Bank	Bank	NOUN	NN	_	2	E	2:E	_
+6	ist	sein	AUX	NN	_	0	H	0:H	_
+7	Seegras	Seegras	PROPN	NN	_	6	A	6:A	_
+8	.	.	PUNCT	$.	_	6	U	6:U	_
+

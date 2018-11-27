@@ -1,0 +1,19 @@
+# format = ucca
+# sent_id = 552007
+# text = He was interred at Home of Peace Cemetery in East Los Angeles , California .
+1	He	he	PRON	PRP	_	3	A	3:A	_
+2	was	be	AUX	VBD	_	3	F	3:F	_
+3	interred	inter	VERB	VBN	_	0	H	0:H	_
+4	at	at	ADP	IN	_	8	R	8:R	_
+5	Home	home	PROPN	NNP	_	8	E	8:E	_
+6	of	of	ADP	IN	_	5	Terminal	5:Terminal	_
+7	Peace	peace	PROPN	NNP	_	5	Terminal	5:Terminal	_
+8	Cemetery	Cemetery	PROPN	NNP	_	3	A	3:A	_
+9	in	in	ADP	IN	_	11	R	11:R	_
+10	East	East	PROPN	NNP	_	11	E	11:E	_
+11	Los	Los	PROPN	NNP	_	8	E	8:E	_
+12	Angeles	angeles	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	,	,	PUNCT	,	_	11	U	11:U	_
+14	California	California	PROPN	NNP	_	11	E	11:E	_
+15	.	.	PUNCT	.	_	11	U	11:U	_
+

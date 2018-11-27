@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 655006
+# text = As his Beatles ' era segued into his solo career , his singing voice found a widening range of expression .
+1	As	as	ADP	IN	_	6	L	6:L	_
+2	his	he	PRON	PRP$	_	5	E	5:E	_
+3	Beatles	Beatles	PROPN	NNPS	_	5	E	5:E	_
+4	'	's	PART	POS	_	5	U	5:U	_
+5	era	era	NOUN	NN	_	6	A	6:A	_
+6	segued	segue	VERB	VBD	_	0	H	0:H	_
+7	into	into	ADP	IN	_	10	R	10:R	_
+8	his	he	PRON	PRP$	_	10	E	10:E	_
+9	solo	solo	ADJ	JJ	_	10	A	10:A	_
+10	career	career	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	6	U	6:U	_
+12	his	he	PRON	PRP$	_	14	E	14:E	_
+13	singing	singe	VERB	VBG	_	14	E	14:E	_
+14	voice	voice	NOUN	NN	_	15	A	15:A	_
+15	found	find	VERB	VBD	_	6	H	6:H	_
+16	a	a	DET	DT	_	17	E	17:E	_
+17	widening	widen	ADJ	JJ	_	15	A	15:A	_
+18	range	range	NOUN	NN	_	20	E	20:E	_
+19	of	of	ADP	IN	_	18	R	18:R	_
+20	expression	expression	NOUN	NN	_	17	A	17:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

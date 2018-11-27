@@ -1,0 +1,29 @@
+# format = ucca
+# sent_id = 665006
+# text = She felt that not including any new material would result in cheating her fans , therefore including four new songs that she had recorded .
+1	She	she	PRON	PRP	_	2	A	2:A|17:A	_
+2	felt	feel	VERB	VBD	_	0	H	0:H	_
+3	that	that	SCONJ	IN	_	10	F	10:F	_
+4	not	not	ADV	RB	_	5	D	5:D	_
+5	including	include	VERB	VBG	_	10	A	10:A	_
+6	any	any	DET	DT	_	8	E	8:E	_
+7	new	new	ADJ	JJ	_	8	E	8:E	_
+8	material	material	NOUN	NN	_	5	A	5:A	_
+9	would	would	AUX	MD	_	10	F	10:F	_
+10	result	result	VERB	VB	_	2	A	2:A	_
+11	in	in	SCONJ	IN	_	12	R	12:R	_
+12	cheating	cheat	VERB	VBG	_	10	A	10:A	_
+13	her	she	PRON	PRP$	_	14	E	14:E	_
+14	fans	fan	NOUN	NNS	_	12	A	12:A	_
+15	,	,	PUNCT	,	_	2	U	2:U	_
+16	therefore	therefore	ADV	RB	_	2	L	2:L	_
+17	including	include	VERB	VBG	_	2	H	2:H	_
+18	four	four	NUM	CD	_	20	E	20:E	_
+19	new	new	ADJ	JJ	_	20	E	20:E	_
+20	songs	song	NOUN	NNS	_	17	A	17:A	_
+21	that	that	SCONJ	IN	_	24	R	24:R	_
+22	she	she	PRON	PRP	_	24	A	24:A	_
+23	had	have	AUX	VBD	_	24	F	24:F	_
+24	recorded	record	VERB	VBN	_	20	E	20:E	_
+25	.	.	PUNCT	.	_	24	U	24:U	_
+

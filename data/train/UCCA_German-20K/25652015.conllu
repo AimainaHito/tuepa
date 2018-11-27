@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25652015
+# text = Die Apparate Ruhmkorff wurden in Tätigkeit gesetzt , und wir gingen längs einer in Bildung begriffenen Korallenbank , die eines Tages diesen Teil des Indischen Ozeans abschließen wird .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Apparate	Apparat	PROPN	NN	_	5	A	5:A	_
+3	Ruhmkorff	Ruhmkorff	PROPN	NE	_	2	E	2:E	_
+4	wurden	werden	AUX	NN	_	5	F	5:F	_
+5	in	in	ADP	APPR	_	0	H	0:H	_
+6	Tätigkeit	Tätigkeit	NOUN	NN	_	5	Terminal	5:Terminal	_
+7	gesetzt	setzen	VERB	VVPP	_	5	Terminal	5:Terminal	_
+8	,	,	PUNCT	$,	_	5	U	5:U	_
+9	und	und	CCONJ	NE	_	5	L	5:L	_
+10	wir	wir	PRON	NE	_	11	A	11:A	_
+11	gingen	gehen	VERB	VVFIN	_	5	H	5:H	_
+12	längs	längs	ADV	ADV	_	17	R	17:R	_
+13	einer	ein	DET	ART	_	17	E	17:E	_
+14	in	in	ADP	APPR	_	15	R	15:R	_
+15	Bildung	Bildung	NOUN	NN	_	16	A	16:A	_
+16	begriffenen	begriffen	ADJ	ADJA	_	17	E	17:E	_
+17	Korallenbank	Korallenbank	NOUN	NN	_	11	A	11:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	die	der	PRON	PRELS	_	27	R	27:R	_
+20	eines	ein	DET	ART	_	21	E	21:E	_
+21	Tages	Tag	NOUN	NN	_	27	D	27:D	_
+22	diesen	dies	PRON	PDAT	_	23	E	23:E	_
+23	Teil	Teil	NOUN	NN	_	27	A	27:A	_
+24	des	der	DET	ART	_	25	R	25:R	_
+25	Indischen	indisch	PROPN	ADJA	_	23	E	23:E	_
+26	Ozeans	Ozeans	PROPN	NE	_	25	Terminal	25:Terminal	_
+27	abschließen	abschließen	VERB	VVINF	_	17	E	17:E	_
+28	wird	werden	AUX	VAFIN	_	27	F	27:F	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

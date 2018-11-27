@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 726011
+# text = Slant commented , " Angelina Jolie was born to play Lara Croft but [ director ] Simon West makes her journey into a game of Frogger .
+1	Slant	slant	PROPN	NNP	_	2	A	2:A	_
+2	commented	comment	VERB	VBD	_	0	H	0:H	_
+3	,	,	PUNCT	,	_	2	U	2:U	_
+4	"	"	PUNCT	``	_	2	U	2:U	_
+5	Angelina	Angelina	PROPN	NNP	_	10	A	10:A	_
+6	Jolie	Jolie	PROPN	NNP	_	5	Terminal	5:Terminal	_
+7	was	be	AUX	VBD	_	10	F	10:F	_
+8	born	bear	VERB	VBN	_	10	D	10:D	_
+9	to	to	PART	TO	_	10	F	10:F	_
+10	play	play	VERB	VB	_	2	A	2:A	_
+11	Lara	lara	PROPN	NNP	_	10	A	10:A	_
+12	Croft	Croft	PROPN	NNP	_	11	Terminal	11:Terminal	_
+13	but	but	CCONJ	CC	_	10	L	10:L	_
+14	[	[	PUNCT	-LRB-	_	10	U	10:U	_
+15	director	director	NOUN	NN	_	17	E	17:E	_
+16	]	]	PUNCT	-RRB-	_	17	U	17:U	_
+17	Simon	Simon	PROPN	NNP	_	19	A	19:A	_
+18	West	West	PROPN	NNP	_	17	Terminal	17:Terminal	_
+19	makes	make	VERB	VBZ	_	10	H	10:H	_
+20	her	she	PRON	PRP$	_	21	E	21:E	_
+21	journey	journey	NOUN	NN	_	19	A	19:A	_
+22	into	into	ADP	IN	_	24	R	24:R	_
+23	a	a	DET	DT	_	24	E	24:E	_
+24	game	game	NOUN	NN	_	19	A	19:A	_
+25	of	of	ADP	IN	_	26	R	26:R	_
+26	Frogger	Frogger	PROPN	NNP	_	24	E	24:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

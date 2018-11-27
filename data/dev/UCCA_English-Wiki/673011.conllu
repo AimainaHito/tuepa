@@ -1,0 +1,38 @@
+# format = ucca
+# sent_id = 673011
+# text = The album 's lead single , " Obsessed " , became her 40th entry on the Billboard Hot 100 and her highest debut on the chart since " My All " in 1998 .
+1	The	the	DET	DT	_	8	E	8:E	_
+2	album	album	NOUN	NN	_	8	E	8:E	_
+3	's	's	PART	POS	_	2	R	2:R	_
+4	lead	lead	NOUN	NN	_	5	E	5:E	_
+5	single	single	ADJ	JJ	_	8	E	8:E	_
+6	,	,	PUNCT	,	_	8	U	8:U	_
+7	"	"	PUNCT	``	_	8	U	8:U	_
+8	Obsessed	obsess	VERB	VBN	_	11	A	11:A	_
+9	"	"	PUNCT	''	_	11	U	11:U	_
+10	,	,	PUNCT	,	_	11	U	11:U	_
+11	became	become	VERB	VBD	_	0	H	0:H	_
+12	her	she	PRON	PRP$	_	14	E	14:E	_
+13	40th	40th	ADJ	JJ	_	14	E	14:E	_
+14	entry	entry	NOUN	NN	_	11	A	11:A	_
+15	on	on	ADP	IN	_	19	R	19:R	_
+16	the	the	DET	DT	_	19	E	19:E	_
+17	Billboard	Billboard	PROPN	NNP	_	19	E	19:E	_
+18	Hot	hot	PROPN	NNP	_	19	E	19:E	_
+19	100	100	NUM	CD	_	14	E	14:E	_
+20	and	and	CCONJ	CC	_	14	N	14:N	_
+21	her	she	PRON	PRP$	_	23	E	23:E	_
+22	highest	highest	ADJ	JJS	_	23	E	23:E	_
+23	debut	debut	NOUN	NN	_	14	C	14:C	_
+24	on	on	ADP	IN	_	26	R	26:R	_
+25	the	the	DET	DT	_	26	E	26:E	_
+26	chart	chart	NOUN	NN	_	23	E	23:E	_
+27	since	since	SCONJ	IN	_	11	L	11:L	_
+28	"	"	PUNCT	``	_	11	U	11:U	_
+29	My	my	PRON	PRP$	_	11	H	11:H	_
+30	All	all	DET	DT	_	29	Terminal	29:Terminal	_
+31	"	"	PUNCT	``	_	29	U	29:U	_
+32	in	in	ADP	IN	_	33	R	33:R	_
+33	1998	1998	NUM	CD	_	29	D	29:D	_
+34	.	.	PUNCT	.	_	33	U	33:U	_
+

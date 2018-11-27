@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 641002
+# text = He devoted himself to Sean , rising at 6 am daily to plan and prepare his meals and to spend time with him .
+1	He	he	PRON	PRP	_	2	A	2:A|20:A|7:A|13:A	_
+2	devoted	devote	VERB	VBD	_	0	H	0:H	_
+3	himself	himself	PRON	PRP	_	2	D	2:D	_
+4	to	to	ADP	IN	_	5	R	5:R	_
+5	Sean	Sean	PROPN	NNP	_	2	A	2:A	_
+6	,	,	PUNCT	,	_	2	U	2:U	_
+7	rising	rise	VERB	VBG	_	2	H	2:H	_
+8	at	at	ADP	IN	_	10	R	10:R	_
+9	6	6	NUM	CD	_	10	E	10:E	_
+10	am	am	AUX	VBP	_	7	D	7:D	_
+11	daily	daily	ADJ	JJ	_	7	D	7:D	_
+12	to	to	PART	TO	_	2	L	2:L	_
+13	plan	plan	VERB	VB	_	2	H	2:H	_
+14	and	and	CCONJ	CC	_	13	N	13:N	_
+15	prepare	prepare	VERB	VB	_	13	C	13:C	_
+16	his	he	PRON	PRP$	_	17	E	17:E	_
+17	meals	meal	NOUN	NNS	_	13	A	13:A	_
+18	and	and	CCONJ	CC	_	2	L	2:L	_
+19	to	to	PART	TO	_	20	F	20:F	_
+20	spend	spend	VERB	VB	_	2	H	2:H	_
+21	time	time	NOUN	NN	_	20	Terminal	20:Terminal	_
+22	with	with	ADP	IN	_	23	R	23:R	_
+23	him	he	PRON	PRP	_	20	A	20:A	_
+24	.	.	PUNCT	.	_	23	U	23:U	_
+

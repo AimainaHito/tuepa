@@ -1,0 +1,25 @@
+# format = ucca
+# sent_id = 208017
+# text = James House , who later became a country music artist , served as Hoffman 's vocal coach in the film .
+1	James	James	PROPN	NNP	_	12	A	12:A	_
+2	House	House	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	,	,	PUNCT	,	_	1	U	1:U	_
+4	who	who	PRON	WP	_	6	F	6:F	_
+5	later	later	ADV	RB	_	6	D	6:D	_
+6	became	become	VERB	VBD	_	1	E	1:E	_
+7	a	a	DET	DT	_	10	E	10:E	_
+8	country	country	NOUN	NN	_	10	E	10:E	_
+9	music	music	NOUN	NN	_	10	E	10:E	_
+10	artist	artist	NOUN	NN	_	6	A	6:A	_
+11	,	,	PUNCT	,	_	12	U	12:U	_
+12	served	serve	VERB	VBD	_	0	H	0:H	_
+13	as	as	ADP	IN	_	17	R	17:R	_
+14	Hoffman	Hoffman	PROPN	NNP	_	17	E	17:E	_
+15	's	's	PART	POS	_	14	R	14:R	_
+16	vocal	vocal	ADJ	JJ	_	17	E	17:E	_
+17	coach	coach	NOUN	NN	_	12	A	12:A	_
+18	in	in	ADP	IN	_	20	R	20:R	_
+19	the	the	DET	DT	_	20	E	20:E	_
+20	film	film	NOUN	NN	_	12	A	12:A	_
+21	.	.	PUNCT	.	_	20	U	20:U	_
+

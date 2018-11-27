@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 25515007
+# text = Der Gehalt 1.500,2 Kubikmeter , d.h . , wenn es völlig untertaucht , verdrängt es 1.500 Kubikmeter oder Tonnen .
+1	Der	der	DET	ART	_	2	E	2:E	_
+2	Gehalt	Gehalt	NOUN	NN	_	0	H	0:H	_
+3	1.500,2	1.500,2	NUM	CARD	_	2	A	2:A	_
+4	Kubikmeter	Kubikmeter	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	d.h	d.h	CCONJ	ADJD	_	2	L	2:L	_
+7	.	.	PUNCT	$.	_	2	U	2:U	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	wenn	wenn	SCONJ	VVFIN	_	2	L	2:L	_
+10	es	es	PRON	PPER	_	12	A	12:A	_
+11	völlig	völlig	ADJ	ADJD	_	12	D	12:D	_
+12	untertaucht	untertauchen	VERB	VVFIN	_	2	H	2:H	_
+13	,	,	PUNCT	$,	_	2	U	2:U	_
+14	verdrängt	verdrängen	VERB	VVFIN	_	2	H	2:H	_
+15	es	es	PRON	PPER	_	14	A	14:A	_
+16	1.500	1.5	NUM	CARD	_	17	E	17:E	_
+17	Kubikmeter	Kubikmeter	NOUN	NN	_	14	A	14:A	_
+18	oder	oder	CCONJ	CARD	_	17	N	17:N	_
+19	Tonnen	Tonne	NOUN	NN	_	17	C	17:C	_
+20	.	.	PUNCT	$.	_	17	U	17:U	_
+

@@ -1,0 +1,14 @@
+# format = ucca
+# sent_id = 25654005
+# text = An der Grenze dieser Lichtung begann wieder tiefes Dunkel .
+1	An	an	ADP	APPR	_	3	R	3:R	_
+2	der	der	DET	ART	_	3	E	3:E	_
+3	Grenze	Grenze	NOUN	NN	_	6	A	6:A	_
+4	dieser	dies	PRON	PDAT	_	5	R	5:R	_
+5	Lichtung	Lichtung	NOUN	NN	_	3	E	3:E	_
+6	begann	beginnen	VERB	VVFIN	_	0	H	0:H	_
+7	wieder	wieder	ADV	NE	_	6	D	6:D	_
+8	tiefes	tief	PROPN	ADJA	_	9	E	9:E	_
+9	Dunkel	dunkel	PROPN	NN	_	6	A	6:A	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+

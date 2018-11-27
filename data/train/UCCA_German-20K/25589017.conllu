@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25589017
+# text = In dem dicken Teil des Kolbens war eine kleine Büchse , die etwa 20 elektrische Kugeln faßte , die vermittels einer Sprungfeder automatisch in den Gewehr lauf gelangten .
+1	In	in	ADP	APPR	_	4	R	4:R	_
+2	dem	der	DET	ART	_	4	E	4:E	_
+3	dicken	dick	ADJ	ADJA	_	4	E	4:E	_
+4	Teil	Teil	NOUN	NN	_	7	A	7:A	_
+5	des	der	DET	ART	_	6	R	6:R	_
+6	Kolbens	Kolben	NOUN	NN	_	4	E	4:E	_
+7	war	sein	AUX	ADV	_	0	H	0:H	_
+8	eine	ein	DET	ART	_	10	E	10:E	_
+9	kleine	klein	ADJ	ADJA	_	10	E	10:E	_
+10	Büchse	Büchse	NOUN	NN	_	7	A	7:A	_
+11	,	,	PUNCT	$,	_	10	U	10:U	_
+12	die	der	PRON	PRELS	_	17	R	17:R	_
+13	etwa	etwa	ADV	ADV	_	17	D	17:D	_
+14	20	20	NUM	CARD	_	16	E	16:E	_
+15	elektrische	elektrisch	ADJ	ADJA	_	16	E	16:E	_
+16	Kugeln	Kugel	NOUN	NN	_	17	A	17:A	_
+17	faßte	faßen	VERB	VVFIN	_	10	E	10:E	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	die	der	PRON	PRELS	_	28	R	28:R	_
+20	vermittels	vermittels	ADP	NE	_	22	R	22:R	_
+21	einer	ein	DET	ART	_	22	E	22:E	_
+22	Sprungfeder	Sprungfeder	NOUN	NN	_	28	A	28:A	_
+23	automatisch	automatisch	ADJ	ADJD	_	28	D	28:D	_
+24	in	in	ADP	APPR	_	27	R	27:R	_
+25	den	der	DET	ART	_	27	E	27:E	_
+26	Gewehr	Gewehr	NOUN	NN	_	27	E	27:E	_
+27	lauf	lauf	PART	ADV	_	28	A	28:A	_
+28	gelangten	gelangten	VERB	VVFIN	_	16	E	16:E	_
+29	.	.	PUNCT	$.	_	28	U	28:U	_
+

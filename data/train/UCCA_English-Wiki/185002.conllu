@@ -1,0 +1,22 @@
+# format = ucca
+# sent_id = 185002
+# text = He found his passion in writing plays , and quickly established himself as a promising young playwright .
+1	He	he	PRON	PRP	_	4	A	4:A|11:A|6:A	_
+2	found	find	VERB	VBD	_	4	D	4:D	_
+3	his	he	PRON	PRP$	_	4	A	4:A	_
+4	passion	passion	NOUN	NN	_	0	H	0:H	_
+5	in	in	ADP	IN	_	6	F	6:F	_
+6	writing	writing	NOUN	NN	_	4	A	4:A	_
+7	plays	play	NOUN	NNS	_	6	A	6:A	_
+8	,	,	PUNCT	,	_	4	U	4:U	_
+9	and	and	CCONJ	CC	_	4	L	4:L	_
+10	quickly	quickly	ADV	RB	_	11	D	11:D	_
+11	established	establish	VERB	VBN	_	4	H	4:H	_
+12	himself	himself	PRON	PRP	_	11	A	11:A	_
+13	as	as	ADP	IN	_	17	R	17:R	_
+14	a	a	DET	DT	_	17	E	17:E	_
+15	promising	promise	NOUN	NN	_	17	E	17:E	_
+16	young	young	ADJ	JJ	_	17	E	17:E	_
+17	playwright	playwright	NOUN	NN	_	11	A	11:A	_
+18	.	.	PUNCT	.	_	17	U	17:U	_
+

@@ -1,0 +1,36 @@
+# format = ucca
+# sent_id = 549006
+# text = Faced with a polarized political climate , few Americans were drawn to " a cheery exercise in prerepublic civics " . Warner 's efforts to promote the film were sometimes counterproductive .
+1	Faced	face	VERB	VBD	_	0	H	0:H	_
+2	with	with	ADP	IN	_	6	R	6:R	_
+3	a	a	DET	DT	_	6	E	6:E	_
+4	polarized	polarize	VERB	VBN	_	6	E	6:E	_
+5	political	political	ADJ	JJ	_	6	E	6:E	_
+6	climate	climate	NOUN	NN	_	1	A	1:A	_
+7	,	,	PUNCT	,	_	1	U	1:U	_
+8	few	few	ADJ	JJ	_	9	E	9:E	_
+9	Americans	Americans	PROPN	NNPS	_	0	C	0:C|1:A	_
+10	were	be	AUX	VBD	_	11	F	11:F	_
+11	drawn	draw	VERB	VBN	_	1	H	1:H	_
+12	to	to	ADP	IN	_	16	R	16:R	_
+13	"	"	PUNCT	``	_	16	U	16:U	_
+14	a	a	DET	DT	_	15	E	15:E	_
+15	cheery	cheery	NOUN	NN	_	16	E	16:E	_
+16	exercise	exercise	NOUN	NN	_	11	A	11:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	prerepublic	prerepublic	ADJ	JJ	_	19	E	19:E	_
+19	civics	civic	NOUN	NNS	_	16	E	16:E	_
+20	"	"	PUNCT	''	_	1	U	1:U	_
+21	.	.	PUNCT	.	_	1	U	1:U	_
+22	Warner	Warner	PROPN	NNP	_	26	A	26:A	_
+23	's	's	PART	POS	_	22	R	22:R	_
+24	efforts	effort	NOUN	NNS	_	26	E	26:E	_
+25	to	to	PART	TO	_	26	F	26:F	_
+26	promote	promote	VERB	VB	_	31	A	31:A	_
+27	the	the	DET	DT	_	28	E	28:E	_
+28	film	film	NOUN	NN	_	26	A	26:A	_
+29	were	be	AUX	VBD	_	31	F	31:F	_
+30	sometimes	sometimes	ADV	RB	_	31	D	31:D	_
+31	counterproductive	counterproductive	ADJ	JJ	_	1	H	1:H	_
+32	.	.	PUNCT	.	_	31	U	31:U	_
+

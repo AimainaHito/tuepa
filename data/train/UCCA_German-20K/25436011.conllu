@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25436011
+# text = Durch seine Berühungen mit den Gelehrten unserer kleinen Welt des Jardin des Plantes hatte Conseil es dazu gebracht , dass er etwas wusste .
+1	Durch	durch	ADP	APPR	_	3	R	3:R	_
+2	seine	sein	DET	PPOSAT	_	3	E	3:E	_
+3	Berühungen	Berühung	NOUN	NN	_	17	A	17:A	_
+4	mit	mit	ADP	APPR	_	6	R	6:R	_
+5	den	der	DET	ART	_	6	E	6:E	_
+6	Gelehrten	Gelehrten	NOUN	ADJA	_	3	A	3:A	_
+7	unserer	unser	PRON	PPOSAT	_	9	R	9:R	_
+8	kleinen	klein	ADJ	ADJA	_	9	E	9:E	_
+9	Welt	Welt	NOUN	NN	_	6	E	6:E	_
+10	des	der	DET	ART	_	11	R	11:R	_
+11	Jardin	Jardin	NOUN	NE	_	9	E	9:E	_
+12	des	der	DET	ART	_	11	Terminal	11:Terminal	_
+13	Plantes	Plant	NOUN	NN	_	11	Terminal	11:Terminal	_
+14	hatte	haben	VERB	VAFIN	_	17	F	17:F	_
+15	Conseil	Conseil	PROPN	NE	_	17	A	17:A	_
+16	es	es	PRON	PPER	_	17	F	17:F	_
+17	dazu	dazu	ADV	PAV	_	0	H	0:H	_
+18	gebracht	bringen	VERB	VVPP	_	17	Terminal	17:Terminal	_
+19	,	,	PUNCT	$,	_	17	U	17:U	_
+20	dass	dass	SCONJ	KOUS	_	23	R	23:R	_
+21	er	er	PRON	PPER	_	23	A	23:A	_
+22	etwas	etwas	PRON	ADV	_	23	A	23:A	_
+23	wusste	wissen	VERB	VVFIN	_	17	A	17:A	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+

@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25652000
+# text = Es war 8 Uhr vormittags .
+1	Es	es	PRON	PPER	_	2	A	2:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	8	8	NUM	CARD	_	2	D	2:D	_
+4	Uhr	Uhr	NOUN	NN	_	3	Terminal	3:Terminal	_
+5	vormittags	vormittags	ADV	ADV	_	3	E	3:E	_
+6	.	.	PUNCT	$.	_	3	U	3:U	_
+

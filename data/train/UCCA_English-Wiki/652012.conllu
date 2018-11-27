@@ -1,0 +1,24 @@
+# format = ucca
+# sent_id = 652012
+# text = In 1983 , Wiener sued the FBI with the help of the American Civil Liberties Union of Southern California .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1983	1983	NUM	CD	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Wiener	Wiener	PROPN	NNP	_	5	A	5:A	_
+5	sued	sue	VERB	VBD	_	0	H	0:H	_
+6	the	the	DET	DT	_	7	E	7:E	_
+7	FBI	FBI	PROPN	NNP	_	5	A	5:A	_
+8	with	with	ADP	IN	_	10	R	10:R	_
+9	the	the	DET	DT	_	10	E	10:E	_
+10	help	help	NOUN	NN	_	5	A	5:A	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	American	american	PROPN	NNP	_	10	A	10:A	_
+14	Civil	civil	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Liberties	liberty	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	Union	Union	PROPN	NNP	_	13	Terminal	13:Terminal	_
+17	of	of	ADP	IN	_	13	Terminal	13:Terminal	_
+18	Southern	Southern	PROPN	NNP	_	13	Terminal	13:Terminal	_
+19	California	California	PROPN	NNP	_	13	Terminal	13:Terminal	_
+20	.	.	PUNCT	.	_	13	U	13:U	_
+

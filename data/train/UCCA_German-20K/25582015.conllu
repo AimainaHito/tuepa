@@ -1,0 +1,33 @@
+# format = ucca
+# sent_id = 25582015
+# text = Ich war schon im Begriff , den Kapitän zu begrüßen , aber es war der Schiffs leutnant , den ich bereits beim ersten Besuch des Kapitäns kennengelernt hatte .
+1	Ich	ich	PRON	PPER	_	2	A	2:A|10:A	_
+2	war	sein	AUX	ADV	_	0	H	0:H	_
+3	schon	schon	ADV	ADV	_	2	D	2:D	_
+4	im	im	ADJ	NE	_	2	Terminal	2:Terminal	_
+5	Begriff	Begriff	NOUN	NN	_	2	Terminal	2:Terminal	_
+6	,	,	PUNCT	$,	_	2	U	2:U	_
+7	den	der	DET	ART	_	8	E	8:E	_
+8	Kapitän	Kapitän	NOUN	NN	_	10	A	10:A	_
+9	zu	zu	PART	VVINF	_	10	F	10:F	_
+10	begrüßen	begrüßen	VERB	VVINF	_	2	A	2:A	_
+11	,	,	PUNCT	$,	_	2	U	2:U	_
+12	aber	aber	CCONJ	KON	_	2	L	2:L	_
+13	es	es	PRON	PPER	_	14	F	14:F	_
+14	war	sein	AUX	ADV	_	2	H	2:H	_
+15	der	der	DET	ART	_	17	E	17:E	_
+16	Schiffs	Schiff	NOUN	NN	_	17	E	17:E	_
+17	leutnant	leutnanen	VERB	ADJD	_	14	A	14:A	_
+18	,	,	PUNCT	$,	_	17	U	17:U	_
+19	den	der	PRON	PRELS	_	27	R	27:R	_
+20	ich	ich	PRON	PPER	_	27	A	27:A|24:A	_
+21	bereits	bereits	ADV	ADV	_	27	D	27:D	_
+22	beim	beim	ADV	NN	_	24	R	24:R	_
+23	ersten	erst	ADJ	ADJA	_	24	D	24:D	_
+24	Besuch	Besuch	NOUN	NN	_	27	A	27:A	_
+25	des	der	DET	ART	_	26	R	26:R	_
+26	Kapitäns	Kapitän	NOUN	NN	_	24	A	24:A	_
+27	kennengelernt	kennengelernt	VERB	VVPP	_	17	E	17:E	_
+28	hatte	haben	AUX	VAFIN	_	27	F	27:F	_
+29	.	.	PUNCT	$.	_	27	U	27:U	_
+

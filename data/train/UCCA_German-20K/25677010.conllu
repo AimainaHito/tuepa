@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 25677010
+# text = Zuerst lösen sie die Perlmutter blätter ab , die in Kisten von 125 bis 150 Kilogramm geliefert werden .
+1	Zuerst	zuerst	ADV	ADV	_	2	L	2:L	_
+2	lösen	lösen	VERB	VVINF	_	0	H	0:H	_
+3	sie	sie	PRON	ADV	_	2	A	2:A	_
+4	die	der	DET	ART	_	6	E	6:E	_
+5	Perlmutter	Perlmutter	NOUN	NN	_	6	E	6:E	_
+6	blätter	blätt	ADJ	NN	_	2	A	2:A	_
+7	ab	ab	ADP	PTKVZ	_	2	Terminal	2:Terminal	_
+8	,	,	PUNCT	$,	_	2	U	2:U	_
+9	die	der	PRON	PRELS	_	17	R	17:R	_
+10	in	in	ADP	APPR	_	11	R	11:R	_
+11	Kisten	Kiste	NOUN	NN	_	17	A	17:A	_
+12	von	von	ADP	NN	_	13	R	13:R	_
+13	125	125	NUM	CARD	_	11	E	11:E	_
+14	bis	bis	ADP	KON	_	13	R	13:R	_
+15	150	150	NUM	CARD	_	13	C	13:C	_
+16	Kilogramm	Kilogramm	NOUN	NN	_	15	Terminal	15:Terminal	_
+17	geliefert	liefern	VERB	VVPP	_	6	E	6:E	_
+18	werden	werden	AUX	VVFIN	_	17	F	17:F	_
+19	.	.	PUNCT	$.	_	17	U	17:U	_
+

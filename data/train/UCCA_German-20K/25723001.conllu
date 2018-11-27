@@ -1,0 +1,10 @@
+# format = ucca
+# sent_id = 25723001
+# text = Ich wollte den Kompaß befragen .
+1	Ich	ich	PRON	PPER	_	5	A	5:A	_
+2	wollte	wollen	AUX	VMFIN	_	5	D	5:D	_
+3	den	der	DET	ART	_	4	E	4:E	_
+4	Kompaß	Kompaß	NOUN	NN	_	5	A	5:A	_
+5	befragen	befragen	VERB	VVINF	_	0	H	0:H	_
+6	.	.	PUNCT	$.	_	5	U	5:U	_
+

@@ -1,0 +1,20 @@
+# format = ucca
+# sent_id = 709007
+# text = Despite the stellar line - up , the record received bad reviews and sold poorly .
+1	Despite	despite	ADP	IN	_	4	L	4:L	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	stellar	stellar	ADJ	JJ	_	4	E	4:E	_
+4	line	line	NOUN	NN	_	0	H	0:H	_
+5	-	-	PUNCT	HYPH	_	4	U	4:U	_
+6	up	up	NOUN	NN	_	4	Terminal	4:Terminal	_
+7	,	,	PUNCT	,	_	4	U	4:U	_
+8	the	the	DET	DT	_	9	E	9:E	_
+9	record	record	NOUN	NN	_	0	C	0:C|14:A	_
+10	received	receive	VERB	VBD	_	4	H	4:H	_
+11	bad	bad	ADJ	JJ	_	12	E	12:E	_
+12	reviews	review	NOUN	NNS	_	10	A	10:A	_
+13	and	and	CCONJ	CC	_	4	L	4:L	_
+14	sold	sell	VERB	VBD	_	4	H	4:H	_
+15	poorly	poorly	ADV	RB	_	14	D	14:D	_
+16	.	.	PUNCT	.	_	14	U	14:U	_
+

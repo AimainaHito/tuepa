@@ -1,0 +1,30 @@
+# format = ucca
+# sent_id = 25769015
+# text = Die Temperatur des Wassers , die an der Oberfläche 12 Grad betragen hatte , sank schon um 1 Grad herab , bald schon um 2 .
+1	Die	der	DET	ART	_	2	E	2:E	_
+2	Temperatur	Temperatur	NOUN	NN	_	0	C	0:C|12:A|25:A	_
+3	des	der	DET	ART	_	4	R	4:R	_
+4	Wassers	Wasser	NOUN	NN	_	2	E	2:E	_
+5	,	,	PUNCT	$,	_	2	U	2:U	_
+6	die	der	PRON	PRELS	_	12	R	12:R	_
+7	an	an	ADP	APPR	_	9	R	9:R	_
+8	der	der	DET	ART	_	9	E	9:E	_
+9	Oberfläche	Oberfläche	NOUN	NN	_	12	A	12:A	_
+10	12	12	NUM	CARD	_	11	E	11:E	_
+11	Grad	Grad	NOUN	NN	_	12	A	12:A	_
+12	betragen	betragen	VERB	VVPP	_	2	E	2:E	_
+13	hatte	haben	AUX	VAFIN	_	12	F	12:F	_
+14	,	,	PUNCT	$,	_	15	U	15:U	_
+15	sank	sinken	VERB	VVFIN	_	0	H	0:H	_
+16	schon	schon	ADV	ADV	_	15	D	15:D	_
+17	um	um	ADP	APPR	_	19	R	19:R	_
+18	1	1	NUM	CARD	_	19	E	19:E	_
+19	Grad	Grad	NOUN	NN	_	15	A	15:A	_
+20	herab	herab	ADV	PTKVZ	_	15	Terminal	15:Terminal	_
+21	,	,	PUNCT	$,	_	25	U	25:U	_
+22	bald	bald	ADV	ADV	_	25	D	25:D	_
+23	schon	schon	ADV	ADV	_	25	D	25:D	_
+24	um	um	ADP	APPR	_	25	R	25:R	_
+25	2	2	NUM	CARD	_	15	H	15:H	_
+26	.	.	PUNCT	$.	_	25	U	25:U	_
+

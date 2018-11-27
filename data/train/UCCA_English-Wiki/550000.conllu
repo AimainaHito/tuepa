@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 550000
+# text = In the late 1950s , Warner was almost killed in a car accident that left him in a coma for several days .
+1	In	in	ADP	IN	_	4	R	4:R	_
+2	the	the	DET	DT	_	4	E	4:E	_
+3	late	late	ADJ	JJ	_	4	E	4:E	_
+4	1950s	1950	NOUN	NNS	_	9	D	9:D	_
+5	,	,	PUNCT	,	_	9	U	9:U	_
+6	Warner	Warner	PROPN	NNP	_	9	A	9:A	_
+7	was	be	AUX	VBD	_	9	F	9:F	_
+8	almost	almost	ADV	RB	_	9	D	9:D	_
+9	killed	kill	VERB	VBN	_	0	H	0:H	_
+10	in	in	ADP	IN	_	13	R	13:R	_
+11	a	a	DET	DT	_	13	E	13:E	_
+12	car	car	NOUN	NN	_	13	E	13:E	_
+13	accident	accident	NOUN	NN	_	9	A	9:A	_
+14	that	that	PRON	WDT	_	15	F	15:F	_
+15	left	leave	VERB	VBD	_	13	E	13:E	_
+16	him	he	PRON	PRP	_	19	A	19:A	_
+17	in	in	ADP	IN	_	19	R	19:R	_
+18	a	a	DET	DT	_	19	E	19:E	_
+19	coma	coma	NOUN	NN	_	15	A	15:A	_
+20	for	for	ADP	IN	_	22	R	22:R	_
+21	several	several	ADJ	JJ	_	22	E	22:E	_
+22	days	day	NOUN	NNS	_	19	D	19:D	_
+23	.	.	PUNCT	.	_	22	U	22:U	_
+

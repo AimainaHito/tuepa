@@ -1,0 +1,23 @@
+# format = ucca
+# sent_id = 378016
+# text = Gyllenhaal received favorable critical reviews and an Evening Standard Theatre Award in the category " Outstanding Newcomer . "
+1	Gyllenhaal	Gyllenhaal	PROPN	NNP	_	2	A	2:A	_
+2	received	receive	VERB	VBD	_	0	H	0:H	_
+3	favorable	favorable	ADJ	JJ	_	5	E	5:E	_
+4	critical	critical	ADJ	JJ	_	5	A	5:A	_
+5	reviews	review	NOUN	NNS	_	2	A	2:A	_
+6	and	and	CCONJ	CC	_	5	N	5:N	_
+7	an	a	DET	DT	_	8	E	8:E	_
+8	Evening	evening	PROPN	NNP	_	11	E	11:E	_
+9	Standard	Standard	PROPN	NNP	_	8	Terminal	8:Terminal	_
+10	Theatre	theatre	PROPN	NNP	_	8	Terminal	8:Terminal	_
+11	Award	Award	PROPN	NNP	_	5	C	5:C	_
+12	in	in	ADP	IN	_	16	R	16:R	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	category	category	NOUN	NN	_	16	E	16:E	_
+15	"	"	PUNCT	``	_	16	U	16:U	_
+16	Outstanding	outstanding	ADJ	JJ	_	11	E	11:E	_
+17	Newcomer	Newcomer	NOUN	NN	_	16	Terminal	16:Terminal	_
+18	.	.	PUNCT	.	_	16	U	16:U	_
+19	"	"	PUNCT	''	_	16	U	16:U	_
+

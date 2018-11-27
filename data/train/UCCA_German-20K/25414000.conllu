@@ -1,0 +1,46 @@
+# format = ucca
+# sent_id = 25414000
+# text = Für und Wider Zur Zeit , als diese Ereignisse vorfielen , kam ich von einer wissenschaftlichen Untersuchungs reise , welcher die französische Regierung mich , als Professor der Natur geschichte , beigesellt hatte , aus Nebraska in den Vereinigten Staaten zurück .
+1	Für	für	ADP	APPR	_	0	H	0:H	_
+2	und	und	CCONJ	NN	_	1	Terminal	1:Terminal	_
+3	Wider	wider	PROPN	PIAT	_	1	Terminal	1:Terminal	_
+4	Zur	Zur	PROPN	NN	_	5	R	5:R	_
+5	Zeit	Zeit	NOUN	NN	_	12	D	12:D	_
+6	,	,	PUNCT	$,	_	1	U	1:U	_
+7	als	als	SCONJ	KOUS	_	1	L	1:L	_
+8	diese	dies	PRON	PDS	_	9	E	9:E	_
+9	Ereignisse	Ereignis	NOUN	NN	_	10	A	10:A	_
+10	vorfielen	vorfielen	VERB	VVFIN	_	1	H	1:H	_
+11	,	,	PUNCT	$,	_	1	U	1:U	_
+12	kam	kommen	VERB	VVFIN	_	1	H	1:H	_
+13	ich	ich	PRON	PPER	_	12	A	12:A	_
+14	von	von	ADP	NN	_	18	R	18:R	_
+15	einer	ein	DET	ART	_	18	E	18:E	_
+16	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	_	18	E	18:E	_
+17	Untersuchungs	Untersuchung	NOUN	NN	_	18	E	18:E	_
+18	reise	reisen	VERB	ADV	_	12	A	12:A	_
+19	,	,	PUNCT	$,	_	18	U	18:U	_
+20	welcher	welch	PRON	PRELS	_	32	R	32:R	_
+21	die	der	DET	ART	_	23	E	23:E	_
+22	französische	französisch	ADJ	ADJA	_	23	E	23:E	_
+23	Regierung	Regierung	NOUN	NN	_	32	A	32:A	_
+24	mich	ich	PRON	PPER	_	32	A	32:A	_
+25	,	,	PUNCT	$,	_	24	U	24:U	_
+26	als	als	ADP	KOKOM	_	27	R	27:R	_
+27	Professor	Professor	NOUN	NN	_	24	E	24:E	_
+28	der	der	DET	ART	_	30	R	30:R	_
+29	Natur	Natur	NOUN	NN	_	30	E	30:E	_
+30	geschichte	geschichen	VERB	VVFIN	_	27	E	27:E	_
+31	,	,	PUNCT	$,	_	32	U	32:U	_
+32	beigesellt	beigesellen	VERB	VVPP	_	18	E	18:E	_
+33	hatte	haben	AUX	VAFIN	_	32	F	32:F	_
+34	,	,	PUNCT	$,	_	12	U	12:U	_
+35	aus	aus	ADP	APPR	_	36	R	36:R	_
+36	Nebraska	Nebraska	PROPN	NE	_	12	A	12:A	_
+37	in	in	ADP	APPR	_	39	R	39:R	_
+38	den	der	DET	ART	_	39	E	39:E	_
+39	Vereinigten	vereinigt	PROPN	ADJA	_	36	E	36:E	_
+40	Staaten	Staat	PROPN	NN	_	39	Terminal	39:Terminal	_
+41	zurück	zurück	ADV	ADJA	_	12	Terminal	12:Terminal	_
+42	.	.	PUNCT	$.	_	12	U	12:U	_
+

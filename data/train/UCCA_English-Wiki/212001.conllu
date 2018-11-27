@@ -1,0 +1,51 @@
+# format = ucca
+# sent_id = 212001
+# text = Dustin Hoffman received Kennedy Center Honors in 2012 , with the following commendation : " Dustin Hoffman 's unyielding commitment to the wide variety of roles he plays has made him one of the most versatile and iconoclastic actors of this or any other generation " .
+1	Dustin	Dustin	PROPN	NNP	_	3	A	3:A	_
+2	Hoffman	Hoffman	PROPN	NNP	_	1	Terminal	1:Terminal	_
+3	received	receive	VERB	VBD	_	0	H	0:H	_
+4	Kennedy	Kennedy	PROPN	NNP	_	5	E	5:E	_
+5	Center	Center	PROPN	NNP	_	6	E	6:E	_
+6	Honors	Honors	PROPN	NNPS	_	3	A	3:A	_
+7	in	in	ADP	IN	_	8	R	8:R	_
+8	2012	2012	NUM	CD	_	3	D	3:D	_
+9	,	,	PUNCT	,	_	3	U	3:U	_
+10	with	with	ADP	IN	_	30	R	30:R	_
+11	the	the	DET	DT	_	13	E	13:E	_
+12	following	follow	VERB	VBG	_	13	E	13:E	_
+13	commendation	commendation	NOUN	NN	_	30	E	30:E	_
+14	:	:	PUNCT	:	_	30	U	30:U	_
+15	"	"	PUNCT	``	_	30	U	30:U	_
+16	Dustin	Dustin	PROPN	NNP	_	20	A	20:A	_
+17	Hoffman	Hoffman	PROPN	NNP	_	16	Terminal	16:Terminal	_
+18	's	's	PART	POS	_	16	R	16:R	_
+19	unyielding	unyielding	NOUN	NN	_	20	E	20:E	_
+20	commitment	commitment	NOUN	NN	_	30	A	30:A	_
+21	to	to	ADP	IN	_	26	R	26:R	_
+22	the	the	DET	DT	_	26	E	26:E	_
+23	wide	wide	ADJ	JJ	_	24	E	24:E	_
+24	variety	variety	NOUN	NN	_	26	E	26:E	_
+25	of	of	ADP	IN	_	24	R	24:R	_
+26	roles	role	NOUN	NNS	_	20	A	20:A	_
+27	he	he	PRON	PRP	_	28	A	28:A	_
+28	plays	play	VERB	VBZ	_	26	E	26:E	_
+29	has	have	AUX	VBZ	_	30	F	30:F	_
+30	made	make	VERB	VBN	_	3	A	3:A	_
+31	him	he	PRON	PRP	_	30	A	30:A	_
+32	one	one	NUM	CD	_	39	E	39:E	_
+33	of	of	ADP	IN	_	32	R	32:R	_
+34	the	the	DET	DT	_	39	E	39:E	_
+35	most	most	ADV	RBS	_	36	E	36:E	_
+36	versatile	versatile	ADJ	JJ	_	39	E	39:E	_
+37	and	and	CCONJ	CC	_	36	N	36:N	_
+38	iconoclastic	iconoclastic	ADJ	JJ	_	36	C	36:C	_
+39	actors	actor	NOUN	NNS	_	30	A	30:A	_
+40	of	of	ADP	IN	_	45	R	45:R	_
+41	this	this	PRON	DT	_	45	E	45:E	_
+42	or	or	CCONJ	CC	_	41	N	41:N	_
+43	any	any	DET	DT	_	44	E	44:E	_
+44	other	other	ADJ	JJ	_	41	C	41:C	_
+45	generation	generation	NOUN	NN	_	39	E	39:E	_
+46	"	"	PUNCT	''	_	45	U	45:U	_
+47	.	.	PUNCT	.	_	45	U	45:U	_
+

@@ -1,0 +1,18 @@
+# format = ucca
+# sent_id = 586003
+# text = He played with The Kids , a band that enjoyed modest local success .
+1	He	he	PRON	PRP	_	2	A	2:A	_
+2	played	play	VERB	VBD	_	0	H	0:H	_
+3	with	with	ADP	IN	_	4	R	4:R	_
+4	The	the	DET	DT	_	2	A	2:A	_
+5	Kids	kid	NOUN	NNS	_	4	Terminal	4:Terminal	_
+6	,	,	PUNCT	,	_	4	U	4:U	_
+7	a	a	DET	DT	_	8	E	8:E	_
+8	band	band	NOUN	NN	_	4	E	4:E	_
+9	that	that	PRON	WDT	_	13	R	13:R	_
+10	enjoyed	enjoy	VERB	VBD	_	13	D	13:D	_
+11	modest	modest	ADJ	JJ	_	13	D	13:D	_
+12	local	local	ADJ	JJ	_	13	D	13:D	_
+13	success	success	NOUN	NN	_	8	E	8:E	_
+14	.	.	PUNCT	.	_	13	U	13:U	_
+

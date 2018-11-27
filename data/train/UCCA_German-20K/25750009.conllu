@@ -1,0 +1,16 @@
+# format = ucca
+# sent_id = 25750009
+# text = In dieser Weise fuhren wir ununterbrochen bis zum 13 . März .
+1	In	in	ADP	APPR	_	3	R	3:R	_
+2	dieser	dies	PRON	PDAT	_	3	E	3:E	_
+3	Weise	Weise	NOUN	NN	_	4	D	4:D	_
+4	fuhren	fahren	VERB	VVFIN	_	0	H	0:H	_
+5	wir	wir	PRON	NE	_	4	A	4:A	_
+6	ununterbrochen	ununterbroch	ADJ	ADJA	_	4	D	4:D	_
+7	bis	bis	ADP	APPR	_	9	R	9:R	_
+8	zum	zum	ADV	NN	_	7	Terminal	7:Terminal	_
+9	13	13	NUM	CARD	_	4	D	4:D	_
+10	.	.	PUNCT	$.	_	9	U	9:U	_
+11	März	März	PROPN	NN	_	9	Terminal	9:Terminal	_
+12	.	.	PUNCT	$.	_	9	U	9:U	_
+

@@ -1,0 +1,27 @@
+# format = ucca
+# sent_id = 217008
+# text = The film generated mostly negative reviews , with Manohla Dargis of the Los Angeles Times describing it as " smug and reductive .
+1	The	the	DET	DT	_	2	E	2:E	_
+2	film	film	NOUN	NN	_	3	A	3:A	_
+3	generated	generate	VERB	VBD	_	0	H	0:H	_
+4	mostly	mostly	ADV	RB	_	6	E	6:E	_
+5	negative	negative	ADJ	JJ	_	6	E	6:E	_
+6	reviews	review	NOUN	NNS	_	3	A	3:A	_
+7	,	,	PUNCT	,	_	3	U	3:U	_
+8	with	with	ADP	IN	_	3	L	3:L	_
+9	Manohla	Manohla	PROPN	NNP	_	16	A	16:A	_
+10	Dargis	Dargis	PROPN	NNP	_	9	Terminal	9:Terminal	_
+11	of	of	ADP	IN	_	13	R	13:R	_
+12	the	the	DET	DT	_	13	E	13:E	_
+13	Los	Los	PROPN	NNP	_	9	E	9:E	_
+14	Angeles	Angeles	PROPN	NNP	_	13	Terminal	13:Terminal	_
+15	Times	Times	PROPN	NNP	_	13	Terminal	13:Terminal	_
+16	describing	describe	VERB	VBG	_	3	H	3:H	_
+17	it	it	PRON	PRP	_	16	A	16:A|20:A	_
+18	as	as	ADP	IN	_	20	R	20:R	_
+19	"	"	PUNCT	``	_	20	U	20:U	_
+20	smug	smug	ADJ	JJ	_	16	A	16:A	_
+21	and	and	CCONJ	CC	_	20	N	20:N	_
+22	reductive	reductive	ADJ	JJ	_	20	C	20:C	_
+23	.	.	PUNCT	.	_	20	U	20:U	_
+

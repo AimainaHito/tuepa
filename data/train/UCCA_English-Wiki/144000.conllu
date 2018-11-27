@@ -1,0 +1,34 @@
+# format = ucca
+# sent_id = 144000
+# text = In 1984 , Hepburn starred in the dark comedy Grace Quigley , the story of an elderly woman who enlists a hitman ( Nick Nolte ) to kill her .
+1	In	in	ADP	IN	_	2	R	2:R	_
+2	1984	1984	PROPN	NNP	_	5	D	5:D	_
+3	,	,	PUNCT	,	_	5	U	5:U	_
+4	Hepburn	Hepburn	PROPN	NNP	_	5	A	5:A	_
+5	starred	star	VERB	VBD	_	0	H	0:H	_
+6	in	in	ADP	IN	_	10	R	10:R	_
+7	the	the	DET	DT	_	10	E	10:E	_
+8	dark	dark	ADJ	JJ	_	9	E	9:E	_
+9	comedy	comedy	NOUN	NN	_	10	E	10:E	_
+10	Grace	Grace	PROPN	NNP	_	5	A	5:A	_
+11	Quigley	Quigley	PROPN	NNP	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	,	_	10	U	10:U	_
+13	the	the	DET	DT	_	14	E	14:E	_
+14	story	story	NOUN	NN	_	10	E	10:E	_
+15	of	of	ADP	IN	_	18	R	18:R	_
+16	an	a	DET	DT	_	18	E	18:E	_
+17	elderly	elderly	ADJ	JJ	_	18	E	18:E	_
+18	woman	woman	NOUN	NN	_	14	E	14:E	_
+19	who	who	PRON	WP	_	20	F	20:F	_
+20	enlists	enlist	VERB	VBZ	_	18	E	18:E	_
+21	a	a	DET	DT	_	22	E	22:E	_
+22	hitman	hitman	NOUN	NN	_	20	A	20:A	_
+23	(	(	PUNCT	-LRB-	_	22	U	22:U	_
+24	Nick	Nick	PROPN	NNP	_	22	E	22:E	_
+25	Nolte	Nolte	PROPN	NNP	_	24	Terminal	24:Terminal	_
+26	)	)	PUNCT	-RRB-	_	20	U	20:U	_
+27	to	to	PART	TO	_	28	F	28:F	_
+28	kill	kill	VERB	VB	_	20	A	20:A	_
+29	her	she	PRON	PRP	_	28	A	28:A	_
+30	.	.	PUNCT	.	_	28	U	28:U	_
+

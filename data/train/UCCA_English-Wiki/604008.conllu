@@ -1,0 +1,31 @@
+# format = ucca
+# sent_id = 604008
+# text = They eventually compromised , agreeing to McCartney 's suggestion : an LP featuring individual songs on side one , and a long medley on side two .
+1	They	they	PRON	PRP	_	3	A	3:A|5:A	_
+2	eventually	eventually	ADV	RB	_	3	D	3:D	_
+3	compromised	compromise	VERB	VBD	_	0	H	0:H	_
+4	,	,	PUNCT	,	_	3	U	3:U	_
+5	agreeing	agree	VERB	VBG	_	3	H	3:H	_
+6	to	to	ADP	IN	_	9	R	9:R	_
+7	McCartney	McCartney	PROPN	NNP	_	9	A	9:A	_
+8	's	's	PART	POS	_	7	R	7:R	_
+9	suggestion	suggestion	NOUN	NN	_	5	A	5:A	_
+10	:	:	PUNCT	:	_	9	U	9:U	_
+11	an	a	DET	DT	_	12	E	12:E	_
+12	LP	Lp	NOUN	NN	_	13	A	13:A	_
+13	featuring	feature	VERB	VBG	_	9	A	9:A	_
+14	individual	individual	ADJ	JJ	_	15	E	15:E	_
+15	songs	song	NOUN	NNS	_	13	A	13:A	_
+16	on	on	ADP	IN	_	18	R	18:R	_
+17	side	side	NOUN	NN	_	18	E	18:E	_
+18	one	one	NUM	CD	_	15	E	15:E	_
+19	,	,	PUNCT	,	_	15	U	15:U	_
+20	and	and	CCONJ	CC	_	15	N	15:N	_
+21	a	a	DET	DT	_	23	E	23:E	_
+22	long	long	ADJ	JJ	_	23	E	23:E	_
+23	medley	medley	NOUN	NN	_	15	C	15:C	_
+24	on	on	ADP	IN	_	26	R	26:R	_
+25	side	side	NOUN	NN	_	26	E	26:E	_
+26	two	two	NUM	CD	_	23	E	23:E	_
+27	.	.	PUNCT	.	_	26	U	26:U	_
+

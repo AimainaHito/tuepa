@@ -1,0 +1,28 @@
+# format = ucca
+# sent_id = 25480003
+# text = « » Nein , mein Herr , « erwiderte Ned Land , » denn dieses Tier lässt sich nur mit seinem Willen fangen .
+1	«	«	PUNCT	$(	_	3	U	3:U	_
+2	»	»	PUNCT	$(	_	3	U	3:U	_
+3	Nein	nein	PROPN	PTKANT	_	9	A	9:A	_
+4	,	,	PUNCT	$,	_	3	U	3:U	_
+5	mein	mein	PRON	PPOSAT	_	6	E	6:E	_
+6	Herr	Herr	NOUN	NN	_	3	G	3:G	_
+7	,	,	PUNCT	$,	_	9	U	9:U	_
+8	«	«	PUNCT	$(	_	9	U	9:U	_
+9	erwiderte	erwideren	VERB	ADJA	_	0	H	0:H	_
+10	Ned	Ned	PROPN	NN	_	9	A	9:A	_
+11	Land	Land	NOUN	NN	_	10	Terminal	10:Terminal	_
+12	,	,	PUNCT	$,	_	9	U	9:U	_
+13	»	»	PUNCT	$(	_	9	U	9:U	_
+14	denn	denn	SCONJ	KOKOM	_	3	L	3:L	_
+15	dieses	dies	PRON	PDAT	_	16	E	16:E	_
+16	Tier	Tier	NOUN	NN	_	23	A	23:A	_
+17	lässt	lassen	VERB	VVFIN	_	23	D	23:D	_
+18	sich	er|es|sie	PRON	PRF	_	23	A	23:A	_
+19	nur	nur	ADV	NN	_	23	D	23:D	_
+20	mit	mit	ADP	APPR	_	22	R	22:R	_
+21	seinem	sein	DET	PPOSAT	_	22	E	22:E	_
+22	Willen	Wille	NOUN	NN	_	23	A	23:A	_
+23	fangen	fangen	VERB	NE	_	3	H	3:H	_
+24	.	.	PUNCT	$.	_	23	U	23:U	_
+
