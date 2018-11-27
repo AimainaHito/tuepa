@@ -10,16 +10,17 @@ from ucca import ioutil
 class FFModel:
     def __init__(self):
         self.embeddings = tf.get_variable(name="emb", shape=[w_numberer.max, 300], dtype=tf.float32)
-        self.ff = tf.layers.Dense(256, use_bias=True, activation=tf.nn.relu)
+        self.ff = tf.layers.Dense(512, use_bias=True, activation=tf.nn.relu)
+        self.ff2 = tf.layers.Dense(512, use_bias=True, activation=tf.nn.relu)
         self.proj = tf.layers.Dense(12, use_bias=False, activation=None)
         self.opt = tf.train.AdamOptimizer(0.01)
 
     def __call__(self, feats):
         emb = tf.reshape(tf.nn.embedding_lookup(self.embeddings,feats),[feats.shape[0],-1])
-        return self.proj(self.ff(emb))
+        return self.proj(self.ff2(self.ff(emb)))
 
     def weights(self):
-        return [self.embeddings] + self.ff.trainable_weights + self.proj.trainable_weights
+        return [self.embeddings] + self.ff.trainable_weights + self.proj.trainable_weights + self.ff2.trainable_weights
 
     def loss(self, logits, labels):
         return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits,labels=labels)
@@ -47,7 +48,9 @@ CONVERTERS[""] = CONVERTERS["txt"] = from_text_format
 
 
 def read_passages(files):
+    print(files)
     expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
+    print(expanded)
     return ioutil.read_files_and_dirs(expanded, sentences=True, paragraphs=False,
                                       converters=CONVERTERS, lang="en")
 
@@ -61,6 +64,12 @@ def extract_features(state, w_numberer, train=True):
 
 
 if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 2:
+        print("Usage: python tuepa.py <PATH>")
+        sys.exit(1)
+    path = sys.argv[1]
+
     w_numberer = Numberer()
     # nt_numberer = Numberer()
 
@@ -68,7 +77,7 @@ if __name__ == "__main__":
     labels = []
 
     max_s = max_b = -1
-    for passage in read_passages(["../../train/UCCA_English-Wiki/*"]):
+    for passage in read_passages([path]):
         s = State(passage)
         o = Oracle(passage)
         while not s.finished:
@@ -84,6 +93,8 @@ if __name__ == "__main__":
             labels.append(label)
         if len(features) > 250000:
             break
+    print(len(features))
+    sys.exit(0)
 
     for n,feature in enumerate(features):
         while len(feature[0]) != max_s:
