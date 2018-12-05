@@ -1,19 +1,17 @@
-from config import Config
-
-
 class Edge:
     """
     Temporary representation for core.Edge with only relevant information for parsing
     """
-    def __init__(self, parent, child, tag, remote=False):
+    def __init__(self, parent, child, tag, remote=False, verify=False):
         self.parent = parent  # Node object from which this edge comes
         self.child = child  # Node object to which this edge goes
         self.tag = tag  # String tag
         self.remote = remote  # True or False
+        self.verify = verify
 
     def add(self):
         assert self.parent is not self.child, "Trying to create self-loop edge on %s" % self.parent
-        if Config().args.verify:
+        if self.verify:
             assert self not in self.parent.outgoing, "Trying to create outgoing edge twice: %s" % self
             assert self not in self.child.incoming, "Trying to create incoming edge twice: %s" % self
             assert self.parent not in self.child.descendants, "Detected cycle created by edge: %s" % self

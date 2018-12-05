@@ -1,4 +1,4 @@
-from config import Config, COMPOUND
+from config import COMPOUND
 from labels import Labels
 
 
@@ -74,15 +74,17 @@ class Actions(Labels):
         super().__init__(size=size)
         self._all = None
         self._ids = None
+        self.args = None
         if actions is not None:
             self.all = actions
 
     def init(self):
         # edge and node action will be created as they are returned by the oracle
-        args = Config().args
-        self.all = [Actions.Reduce, Actions.Shift, Actions.Finish] + \
-            (list(map(Actions.Swap, range(1, args.max_swap))) if args.swap == COMPOUND else
-             [Actions.Swap] if args.swap else [])
+        self.all = (
+            [Actions.Reduce, Actions.Shift, Actions.Finish]
+            + (list(map(Actions.Swap, range(1, self.args.max_swap)))
+               if self.args.swap == COMPOUND else [Actions.Swap] if self.args.swap else [])
+        )
 
     @property
     def all(self):
@@ -103,8 +105,9 @@ class Actions(Labels):
             self.init()
         return self._ids
 
-    def generate_id(self, action, create=True):
+    def generate_id(self, action, create=True, args={}):
         if action.id is None:
+            self.args = args
             key = (action.type_id, action.tag)
             action.id = self.ids.get(key)
             if create and action.id is None:  # New action, add to list

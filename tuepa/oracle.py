@@ -2,7 +2,7 @@ from ucca import layer1
 
 from semstr.util.amr import LABEL_ATTRIB, LABEL_SEPARATOR
 from action import Actions
-from config import Config, COMPOUND
+from config import COMPOUND
 from states.state import InvalidActionError
 
 # Constants for readability, used by Oracle.action
@@ -27,9 +27,9 @@ class Oracle:
     To be used for creating training data for a transition-based UCCA parser
     :param passage gold passage to get the correct edges from
     """
-    def __init__(self, passage):
-        self.args = Config().args
-        self.unlabeled = Config().is_unlabeled()
+    def __init__(self, passage, args):
+        self.args = args
+        self.unlabeled = self.args.unlabeled
         l1 = passage.layer(layer1.LAYER_ID)
         self.nodes_remaining = {n.ID for n in l1.all if n is not l1.heads[0] and
                                 (self.args.linkage or n.tag != layer1.NodeTags.Linkage) and
@@ -57,7 +57,7 @@ class Oracle:
         actions = {}
         invalid = []
         for action in self.generate_actions(state):
-            all_actions.generate_id(action, create=create)
+            all_actions.generate_id(action, create=create, args=self.args)
             if action.id is not None:
                 try:
                     state.check_valid_action(action, message=True)
@@ -136,7 +136,7 @@ class Oracle:
                                     self.remove(edge)
                                     continue
                                 if distance is None and self.args.swap == COMPOUND:  # Save the first one
-                                    distance = min(i, Config().args.max_swap)  # Do not swap more than allowed
+                                    distance = min(i, self.args.max_swap)  # Do not swap more than allowed
                                 if not related:  # All related nodes are in the stack
                                     yield self.action(Actions.Swap(distance))
                                     break

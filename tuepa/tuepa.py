@@ -1,39 +1,17 @@
-from numberer import Numberer
-from oracle import Oracle
-from states.state import State
-
 from functools import partial
+import json
 from glob import glob
+
+import numpy as np
+import tensorflow as tf
 from semstr.convert import FROM_FORMAT, from_text
 from ucca import ioutil
 
-class FFModel:
-    def __init__(self):
-        self.embeddings = tf.get_variable(name="emb", shape=[w_numberer.max, 300], dtype=tf.float32)
-        self.ff = tf.layers.Dense(512, use_bias=True, activation=tf.nn.relu)
-        self.ff2 = tf.layers.Dense(512, use_bias=True, activation=tf.nn.relu)
-        self.proj = tf.layers.Dense(12, use_bias=False, activation=None)
-        self.opt = tf.train.AdamOptimizer(0.01)
-
-    def __call__(self, feats):
-        emb = tf.reshape(tf.nn.embedding_lookup(self.embeddings,feats),[feats.shape[0],-1])
-        return self.proj(self.ff2(self.ff(emb)))
-
-    def weights(self):
-        return [self.embeddings] + self.ff.trainable_weights + self.proj.trainable_weights + self.ff2.trainable_weights
-
-    def loss(self, logits, labels):
-        return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits,labels=labels)
-
-    def run_step(self, feats, labels):
-        with tf.GradientTape() as tape:
-            logits = self(feats)
-            predictions = tf.to_int32(tf.argmax(logits,axis=-1))
-            acc = tf.reduce_mean(tf.to_float(tf.equal(predictions,labels)))
-            x_ent = self.loss(logits,labels=labels)
-        grads = tape.gradient(x_ent,self.weights())
-        self.opt.apply_gradients(zip(grads,self.weights()),global_step=tf.train.get_or_create_global_step())
-        print(sum(x_ent.numpy()), acc)
+from numberer import Numberer
+from oracle import Oracle
+from states.state import State
+from config import create_argument_parser
+from model import FFModel, feed_forward_from_json
 
 
 # Marks input passages as text so that we don't accidentally train on them
@@ -48,9 +26,7 @@ CONVERTERS[""] = CONVERTERS["txt"] = from_text_format
 
 
 def read_passages(files):
-    print(files)
     expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
-    print(expanded)
     return ioutil.read_files_and_dirs(expanded, sentences=True, paragraphs=False,
                                       converters=CONVERTERS, lang="en")
 
@@ -58,58 +34,103 @@ def read_passages(files):
 def extract_features(state, w_numberer, train=True):
     stack = state.stack
     buffer = state.buffer
-    stack_features = [w_numberer.number(e,train=train) for e in stack]
-    buffer_features = [w_numberer.number(e,train=train) for e in buffer]
+    stack_features = [w_numberer.number(e, train=train) for e in stack]
+    buffer_features = [w_numberer.number(e, train=train) for e in buffer]
+
     return stack_features, buffer_features
 
 
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) != 2:
-        print("Usage: python tuepa.py <PATH>")
-        sys.exit(1)
-    path = sys.argv[1]
+def main(args):
+    tf.enable_eager_execution()
+    argument_parser = create_argument_parser()
 
-    w_numberer = Numberer()
+    args = argument_parser.parse_args(args)
+    args.layers = feed_forward_from_json(json.loads(args.layers))
+
+    word_numberer = Numberer(first_elements=["<PAD>"])
     # nt_numberer = Numberer()
 
     features = []
     labels = []
 
-    max_s = max_b = -1
-    for passage in read_passages([path]):
-        s = State(passage)
-        o = Oracle(passage)
-        while not s.finished:
-            actions = o.generate_actions(state=s)
-            a = next(actions)
-            stack_features, buffer_features = extract_features(s, w_numberer)
-            label = a.type_id
-            s.transition(a)
-            a.apply()
-            features.append((stack_features,buffer_features))
-            max_s = max(len(stack_features), max_s)
-            max_b = max(len(buffer_features), max_b)
+    max_stack_size = max_buffer_size = -1
+    print("Processing passages...", end="\r")
+    for passage in read_passages([args.path]):
+        state = State(passage, args)
+        oracle = Oracle(passage, args)
+
+        while not state.finished:
+            actions = oracle.generate_actions(state=state)
+            action = next(actions)
+            stack_features, buffer_features = extract_features(state, word_numberer)
+            label = action.type_id
+            state.transition(action)
+            action.apply()
+            features.append((stack_features, buffer_features))
+
+            max_stack_size = max(len(stack_features), max_stack_size)
+            max_buffer_size = max(len(buffer_features), max_buffer_size)
+
             labels.append(label)
-        if len(features) > 250000:
+
+        if args.max_features is not None and len(features) > args.max_features:
             break
-    print(len(features))
-    sys.exit(0)
 
-    for n,feature in enumerate(features):
-        while len(feature[0]) != max_s:
-            feature[0].append(0)
-        while len(feature[1]) != max_b:
-            feature[1].append(0)
-        features[n] = feature[0]+feature[1]
-    import numpy as np
-    features = np.array(features)
+    print("\033[KProcessing complete")
+    feature_matrix = np.zeros((len(features), max_stack_size + max_buffer_size), dtype=np.int32)
+    for index, feature in enumerate(features):
+        feature_matrix[index, :len(feature[0])] = feature[0]
+        feature_matrix[index, max_stack_size:max_stack_size + len(feature[1])] = feature[1]
+
+    # Save memory
+    del features
+
     labels = np.array(labels)
-    import tensorflow as tf
-    tf.enable_eager_execution()
-    m = FFModel()
-    batch_size = 1024
-    while True:
-        for n in range(len(features) // batch_size):
-            m.run_step(features[n*batch_size:(n+1)*batch_size],labels=labels[n*batch_size:(n+1)*batch_size])
 
+    model = FFModel(word_numberer.max, args.embedding_size, args.layers)
+    batch_size = args.batch_size
+
+    num_batches = feature_matrix.shape[0] // batch_size
+    perfect_fit = num_batches == (feature_matrix.shape[0] / batch_size)
+    iteration_count = 0
+
+    while True:
+        iteration_count += 1
+        batch_entropy = []
+        batch_accuracy = []
+
+        for batch_offset in range(num_batches):
+            entropy, accuracy = model.run_step(
+                feature_matrix[
+                    batch_offset * batch_size:(batch_offset + 1) * batch_size
+                ],
+                labels[batch_offset * batch_size:(batch_offset + 1) * batch_size],
+                train=True
+            )
+
+            batch_entropy.append(entropy)
+            batch_accuracy.append(accuracy)
+
+        # Handle remaining data
+        if not perfect_fit:
+            entropy, accuracy = model.run_step(
+                feature_matrix[num_batches * batch_size:],
+                labels[num_batches * batch_size:],
+                train=True
+            )
+
+            batch_entropy.append(entropy)
+            batch_accuracy.append(accuracy)
+
+        print("Iteration {} | Entropy: {:.2f}, Accuracy: {:.2%}".format(
+            iteration_count,
+            # Turn np.float into a numpy float for better formatting
+            np.array(batch_entropy).mean(),
+            np.array(accuracy).mean()
+        ))
+
+if __name__ == "__main__":
+    import sys
+
+
+    main(sys.argv[1:])

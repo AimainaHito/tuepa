@@ -1,4 +1,5 @@
 from collections import deque
+import logging
 
 from semstr.constraints import Constraints, Direction
 from semstr.util.amr import LABEL_ATTRIB
@@ -10,7 +11,6 @@ from ucca.layer1 import EdgeTags
 from .edge import Edge
 from .node import Node
 from action import Actions
-from config import Config
 
 
 class InvalidActionError(AssertionError):
@@ -24,8 +24,8 @@ class State:
     The parser's state, responsible for applying actions and creating the final Passage
     :param passage: a Passage object to get the tokens from, and everything else if training
     """
-    def __init__(self, passage):
-        self.args = Config().args
+    def __init__(self, passage, args):
+        self.args = args
         self.constraints = CONSTRAINTS.get(passage.extra.get("format"), Constraints)(implicit=self.args.implicit)
         self.log = []
         self.finished = False
@@ -344,7 +344,7 @@ class State:
         :param verify: fail if this results in an improper passage
         :return: core.Passage created from self.nodes
         """
-        Config().print("Creating passage %s from state..." % self.passage.ID, level=2)
+        logging.log("Creating passage %s from state..." % self.passage.ID, level=2)
         passage = core.Passage(self.passage.ID)
         passage_format = kwargs.get("format") or self.passage.extra.get("format")
         if passage_format:

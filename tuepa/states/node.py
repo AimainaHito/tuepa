@@ -1,11 +1,12 @@
 from collections import deque
+import sys
 
 from operator import attrgetter
 from semstr.util.amr import LABEL_ATTRIB, UNKNOWN_LABEL, LABEL_SEPARATOR
 from ucca import core, layer0
 from ucca.layer1 import EdgeTags
 
-from config import Config
+ORPHAN_LABEL = "orphan"
 
 
 class Node:
@@ -13,7 +14,7 @@ class Node:
     Temporary representation for core.Node with only relevant information for parsing
     """
     def __init__(self, index, swap_index=None, orig_node=None, text=None, paragraph=None, tag=None, label=None,
-                 implicit=False, is_root=False, root=None):
+                 implicit=False, is_root=False, root=None, verify=False):
         self.index = index  # Index in the configuration's node list
         self.orig_node = orig_node  # Associated core.Node from the original Passage, during training
         self.node_id = orig_node.ID if orig_node else None  # ID of the original node
@@ -42,6 +43,7 @@ class Node:
         self._terminals = None
         self.is_root = is_root
         self.root = root  # Original Passage object this belongs to
+        self.verify = verify
 
     def add_incoming(self, edge):
         self.incoming.append(edge)
@@ -125,7 +127,7 @@ class Node:
                 elif self.node not in parent.node.children:
                     parent.node.add(EdgeTags.Terminal, self.node)
         elif edge and edge.child.text and layer0.is_punct(edge.child.get_terminal(l0)):
-            if Config().args.verify:
+            if self.verify:
                 assert tag == EdgeTags.Punctuation, "Punctuation parent %s's edge tag is %s" % (parent.node_id, tag)
                 assert edge.tag == EdgeTags.Terminal, "Punctuation %s's edge tag is %s" % (self.node_id, edge.tag)
             if self.node is None:
@@ -137,7 +139,7 @@ class Node:
             assert self.node is None, "Trying to create the same node twice (multiple incoming primary edges): " + \
                                       ", ".join(map(str, self.incoming))
             if parent is not None and parent.label and parent.node is None:  # If parent is an orphan and has a a label,
-                parent.add_to_l1(l0, l1, None, Config().args.orphan_label, labeled, node_labels)  # link to root
+                parent.add_to_l1(l0, l1, None, ORPHAN_LABEL, labeled, node_labels)  # link to root
             self.node = l1.add_fnode(None if parent is None else parent.node, tag, implicit=self.implicit)
         if labeled:  # In training
             self.set_node_id()
@@ -169,7 +171,7 @@ class Node:
                     elif edge.tag == EdgeTags.LinkArgument:
                         link_args.append(edge.child.node)
                     else:
-                        Config().log("Ignored non-linkage edge %s from linkage node %s" % (edge, node))
+                        print("Ignored non-linkage edge %s from linkage node %s" % (edge, node), sys.err)
                 assert link_relation is not None, "No link relations: %s" % node
                 # if len(link_args) < 2:
                 #     Config().log("Less than two link arguments for linkage node %s" % node)
