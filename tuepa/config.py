@@ -9,8 +9,10 @@ COMPOUND = "compound"
 
 def create_argument_parser():
     argument_parser = argparse.ArgumentParser()
-    argument_parser.add_argument("path")
-    argument_parser.add_argument("--max-features", type=int, default=None, help="Maximum number of features to train on")
+    argument_parser.add_argument("training_path")
+    argument_parser.add_argument("validation_path")
+    argument_parser.add_argument("--max-training-features", type=int, default=None, help="Maximum number of features to train on")
+    argument_parser.add_argument("--max-validation-features", type=int, default=None, help="Maximum number of features used for validation")
     argument_parser.add_argument("-e", "--embedding-size", type=int, default=300, help="Number of dimensions of the embedding matrix")
     argument_parser.add_argument("-b", "--batch-size", type=int, default=1024, help="Maximum batch size")
     argument_parser.add_argument("-l", "--layers", default=2 * [
