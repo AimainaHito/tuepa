@@ -2,6 +2,7 @@ from functools import partial
 import json
 from glob import glob
 from timeit import default_timer
+import sys
 
 import numpy as np
 import tensorflow as tf
@@ -27,10 +28,10 @@ CONVERTERS = {k: partial(c, annotate=True) for k, c in FROM_FORMAT.items()}
 CONVERTERS[""] = CONVERTERS["txt"] = from_text_format
 
 
-def read_passages(files):
+def read_passages(files, language="en"):
     expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
     return ioutil.read_files_and_dirs(expanded, sentences=True, paragraphs=False,
-                                      converters=CONVERTERS, lang="en")
+                                      converters=CONVERTERS, lang=language)
 
 
 def extract_features(state, w_numberer, train=True):
@@ -42,7 +43,7 @@ def extract_features(state, w_numberer, train=True):
     return stack_features, buffer_features
 
 
-def run_iteration(model, features, labels, batch_size, train):
+def run_iteration(model, features, labels, batch_size, train, verbose=False):
     num_batches = features.shape[0] // batch_size
     perfect_fit = num_batches == (features.shape[0] / batch_size)
 
@@ -61,15 +62,16 @@ def run_iteration(model, features, labels, batch_size, train):
         iteration_entropy += (entropy - iteration_entropy) / batch_offset
         iteration_accuracy += (accuracy - iteration_accuracy) / batch_offset
 
-        progress.print_network_progress(
-            "Training" if train else "Validating",
-            batch_offset,
-            num_batches + int(not perfect_fit),
-            entropy,
-            iteration_entropy,
-            accuracy,
-            iteration_accuracy
-        )
+        if verbose:
+            progress.print_network_progress(
+                "Training" if train else "Validating",
+                batch_offset,
+                num_batches + int(not perfect_fit),
+                entropy,
+                iteration_entropy,
+                accuracy,
+                iteration_accuracy
+            )
 
     # Handle remaining data
     if not perfect_fit:
@@ -82,17 +84,19 @@ def run_iteration(model, features, labels, batch_size, train):
         iteration_entropy += (entropy - iteration_entropy) / (num_batches + 1)
         iteration_accuracy += (accuracy - iteration_accuracy) / (num_batches + 1)
 
-        progress.print_network_progress(
-            "Training" if train else "Validating",
-            num_batches + 1,
-            num_batches + 1,
-            entropy,
-            iteration_entropy,
-            accuracy,
-            iteration_accuracy
-        )
+        if verbose:
+            progress.print_network_progress(
+                "Training" if train else "Validating",
+                num_batches + 1,
+                num_batches + 1,
+                entropy,
+                iteration_entropy,
+                accuracy,
+                iteration_accuracy
+            )
 
-    progress.clear_progress()
+    if verbose:
+        progress.clear_progress()
 
     return iteration_entropy, iteration_accuracy
 
@@ -142,6 +146,9 @@ def preprocess_dataset(path, word_numberer, args, maximum_feature_size=None, max
         if max_features is not None and len(features) >= max_features:
             break
 
+    # Create feature_matrix from stack and buffer features
+    # if non-training data contains stacks or buffers larger than the maximum size in the training data it's truncated
+    # to max_stack_size or max_buffer_size respectively
     feature_matrix = np.zeros((len(features), max_stack_size + max_buffer_size), dtype=np.int32)
     for index, feature in enumerate(features):
         feature_matrix[index, :min(len(feature[0]), max_stack_size)] = feature[0][:max_stack_size]
@@ -149,24 +156,28 @@ def preprocess_dataset(path, word_numberer, args, maximum_feature_size=None, max
 
     labels = np.array(labels)
 
+    # Returns generated maximum feature sizes of training data
+    # and only features and labels for validation/testing datasets
     if maximum_feature_size is None:
         return feature_matrix, labels, MaximumFeatureSize(max_stack_size, max_buffer_size)
 
     return feature_matrix, labels
 
 
-def main(args):
-    tf.enable_eager_execution()
-    argument_parser = create_argument_parser()
+NUM_LABELS = 12
 
-    args = argument_parser.parse_args(args)
-    args.layers = feed_forward_from_json(json.loads(args.layers))
 
+def preprocess_and_train(args):
+    if args.verbose:
+        # Print to stderr so it doesn't get piped
+        print("Processing passages...", end="\r", file=sys.stderr)
+
+    # Time preprocessing
+    processing_start_time = default_timer()
+    # Reserves index 0 for padding (e.g. empty stack or buffer slots) and index 1 for unknown tokens
     word_numberer = Numberer(first_elements=["<PAD>"])
 
-    print("Processing passages...", end="\r")
-    processing_start_time = default_timer()
-
+    # Preprocess training set
     training_features, training_labels, maximum_feature_size = preprocess_dataset(
         args.training_path,
         word_numberer,
@@ -174,6 +185,7 @@ def main(args):
         max_features=args.max_training_features
     )
 
+    # Preprocess validation set
     validation_features, validation_labels = preprocess_dataset(
         args.validation_path,
         word_numberer,
@@ -182,41 +194,78 @@ def main(args):
         max_features=args.max_validation_features
     )
 
-    print("\033[KProcessing complete in {:.4f}s".format(default_timer() - processing_start_time))
+    # Clear the line before printing over it
+    if args.verbose:
+        print(end="\033[K", file=sys.stderr)
+        print("Processing complete in {:.4f}s".format(default_timer() - processing_start_time))
+    if args.log_file:
+        args.log_file.write("Processing complete in {:.4f}s\n".format(default_timer() - processing_start_time))
 
-    model = FFModel(word_numberer.max, args.embedding_size, args.layers)
+    model = FFModel(
+        word_numberer.max,
+        args.embedding_size,
+        args.layers,
+        NUM_LABELS,
+        args.learning_rate,
+        args.input_dropout,
+        args.layer_dropout
+    )
     batch_size = args.batch_size
 
     iteration_count = 0
 
+    # Train forever
     while True:
         iteration_count += 1
         start_time = default_timer()
 
+        # Training iteration
         training_entropy, training_accuracy = run_iteration(
-            model, training_features, training_labels, batch_size, train=True
+            model, training_features, training_labels, batch_size, train=True, verbose=args.verbose
         )
 
+        # Validation iteration
         validation_entropy, validation_accuracy = run_iteration(
-            model, validation_features, validation_labels, batch_size, train=False
+            model, validation_features, validation_labels, batch_size, train=False, verbose=args.verbose
         )
 
-        progress.print_iteration_info(
-            iteration_count,
-            training_entropy,
-            training_accuracy,
-            validation_entropy,
-            validation_accuracy,
-            start_time
-        )
-        '''
-        print("Iteration {} | Entropy: {:.2f}, Accuracy: {:.2%}".format(
-            iteration_count,
-            # Turn np.float into a numpy float for better formatting
-            training_entropy,
-            training_accuracy
-        ))
-        '''
+        if args.verbose:
+            progress.print_iteration_info(
+                iteration_count,
+                training_entropy,
+                training_accuracy,
+                validation_entropy,
+                validation_accuracy,
+                start_time,
+            )
+        if args.log_file:
+            progress.print_iteration_info(
+                iteration_count,
+                training_entropy,
+                training_accuracy,
+                validation_entropy,
+                validation_accuracy,
+                start_time,
+                args.log_file
+            )
+
+
+def main(args):
+    tf.enable_eager_execution()
+    argument_parser = create_argument_parser()
+
+    args = argument_parser.parse_args(args)
+
+    if args.log_file:
+        with args.log_file:
+            # Log commandline arguments
+            args.log_file.write("{}\n".format(args))
+            args.layers = feed_forward_from_json(json.loads(args.layers))
+            preprocess_and_train(args)
+
+    else:
+        args.layers = feed_forward_from_json(json.loads(args.layers))
+        preprocess_and_train(args)
 
 
 if __name__ == "__main__":

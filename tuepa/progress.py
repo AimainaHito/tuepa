@@ -4,6 +4,7 @@ import argparse
 from time import sleep
 from timeit import default_timer
 import shutil
+import sys
 
 from numpy import arange
 
@@ -57,22 +58,25 @@ def print_network_progress(
         batch_index, num_batches, losses, cummulative_losses, accuracy, cummulative_accuracy
     )
     data_front = "| {} |".format(action)
-    data_filler = "\033[{}C".format(width - len(data_front) - len(data_tail))
+    data_filler = " " * (width - len(data_front) - len(data_tail))
     data = data_front + data_filler + data_tail
     print(
         data
         + "\n"
         + fraction_to_bar(width, batch_index / num_batches, HORIZONTAL, fill_space=True),
-        end="\033[1A\033[{}D\033[K".format(width)
+        end="\033[1A\033[{}D\033[K".format(width),
+        file=sys.stderr
     )
 
 
 def clear_progress():
-    print("\033[K\033[1B\033[K\033[2A", end="", flush=True)
+    print("\033[K\033[1B\033[K\033[2A", end="", flush=True, file=sys.stderr)
 
 
-def print_iteration_info(iteration_index, train_losses, train_accuracy, validation_losses, validation_accuracy, start_time):
-    print(
+def print_iteration_info(iteration_index, train_losses, train_accuracy, validation_losses, validation_accuracy, start_time, file=None):
+    print_function = print if file is None else lambda x: file.write(x + "\n")
+
+    print_function(
         "| Epoch {} | Training loss: {:.2f}, accuracy: {:.2%} | Validation loss: {:.2f}, accuracy: {:.2%} | Δt: {:.1f}s".format(
             iteration_index,
             train_losses,

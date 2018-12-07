@@ -33,7 +33,10 @@ def feed_forward_from_json(json_data):
 
 
 class FFModel:
-    def __init__(self, dictionary_size, embedding_dims, feed_forward_layers):
+    def __init__(
+        self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
+        initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
+    ):
         self.embeddings = tf.get_variable(
             name="embeddings",
             shape=[dictionary_size, embedding_dims],
@@ -41,16 +44,23 @@ class FFModel:
         )
 
         self.feed_forward_layers = feed_forward_layers
-        self.projection_layer = tf.layers.Dense(12, use_bias=False, activation=None)
-        self.optimizer = tf.train.AdamOptimizer(0.01)
+        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
+        self.optimizer = tf.train.AdamOptimizer(initial_learning_rate)
+        self.input_dropout = input_dropout
+        self.layer_dropout = layer_dropout
 
-    def __call__(self, features):
+    def __call__(self, features, train=False):
         layer_input = tf.reshape(
             tf.nn.embedding_lookup(self.embeddings, features),
             [features.shape[0], -1]
         )
+        if train:
+            layer_input = tf.nn.dropout(layer_input, self.input_dropout)
+
         for layer in self.feed_forward_layers:
             layer_input = layer(layer_input)
+            if train:
+                layer_input = tf.nn.dropout(layer_input, self.layer_dropout)
 
         return self.projection_layer(layer_input)
 
@@ -67,7 +77,7 @@ class FFModel:
     def run_step(self, feats, labels, train=False):
         if train:
             with tf.GradientTape() as tape:
-                logits = self(feats)
+                logits = self(feats, train=True)
                 predictions = tf.to_int32(tf.argmax(logits, axis=-1))
                 accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
                 x_ent = self.loss(logits, labels=labels)
