@@ -50,6 +50,11 @@ class Numberer:
     def to_file(self, file):
         print("\n".join(self.num2value), file=file)
 
+    def __str__(self):
+        return str(self.num2value)
+
+    def __repr__(self):
+        return repr(self.num2value)
 
 def load_numberer_from_file(file):
     num2val = list(map(lambda x: x.strip('\n'), file.readlines()))
