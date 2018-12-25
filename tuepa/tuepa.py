@@ -8,13 +8,29 @@ import numpy as np
 import tensorflow as tf
 from semstr.convert import FROM_FORMAT, from_text
 from ucca import ioutil
+import torch
+from elmoformanylangs import Embedder
+import finalfrontier
 
 from numberer import Numberer
 from oracle import Oracle
 from states.state import State
+from action import Actions
 from config import create_argument_parser
-from model import FFModel, feed_forward_from_json
+from model import ElModel, feed_forward_from_json
 import progress
+import random
+
+from collections import namedtuple
+
+Data = namedtuple("Data",
+                  "stack_and_buffer_features labels history_features "
+                  "elmo_embeddings sentence_lengths history_lengths state2sent_index "
+                  "shapes ")
+
+Batch = namedtuple("Batch", "stack_and_buffer_features labels history_features "
+                            "elmo_embeddings sentence_lengths history_lengths "
+                            "padding non_terminals")
 
 
 # Marks input passages as text so that we don't accidentally train on them
@@ -34,28 +50,74 @@ def read_passages(files, language="en"):
                                       converters=CONVERTERS, lang=language)
 
 
-def extract_features(state, w_numberer, train=True):
+def extract_features(state, label_numberer, train=True):
     stack = state.stack
     buffer = state.buffer
-    stack_features = [w_numberer.number(node.text, train=train) for node in stack]
-    buffer_features = [w_numberer.number(node.text, train=train) for node in buffer]
+    stack_features = [node.text if node.text != None else "<NT>" for node in stack]
+    buffer_features = [node.text if node.text != None else "<NT>" for node in buffer]
+    history_features = [label_numberer.number(str(action), train=train) for action in state.actions]
+    return stack_features, buffer_features, history_features
 
-    return stack_features, buffer_features
 
-
-def run_iteration(model, features, labels, batch_size, train, verbose=False):
-    num_batches = features.shape[0] // batch_size
-    perfect_fit = num_batches == (features.shape[0] / batch_size)
+def run_iteration(model, data, batch_size, epoch_steps, train, verbose=False,
+                  embedder=None):
+    num_batches = epoch_steps
+    # perfect_fit = num_batches == (features.shape[0] / batch_size)
 
     iteration_entropy = 0
     iteration_accuracy = 0
+    state2pid = np.array(data.state2sent_index)
 
-    for batch_offset in range(1, num_batches + 1):
+    keys = list(range(len(state2pid)))
+    for batch_offset in range(1, epoch_steps):
+        getters = random.sample(keys, batch_size)
+
+        # lookup associated sentence for each state
+        ids = state2pid[getters]
+        batch_elmo = np.array(data.elmo_embeddings)[ids]
+        max_length = max(map(len, batch_elmo))
+        # loop over sentences and pad them to max length in batch
+        batch_elmo = [np.vstack([n, np.zeros(
+                                        shape=[max_length - len(n),
+                                               n.shape[-1]],
+                                    dtype=np.float32)])
+                      for n in batch_elmo]
+
+        # [batch, time, D]
+        batch_elmo = np.transpose(batch_elmo, [0, 1, 2])
+
+        # Map words on stack and buffer to their embeddings. Mapping them ahead of time means excessive use of memory.
+        # TODO: find smart way to batch embeddings ahead of time or use threading to prepare batches during the tf calls
+        batch_features = data.stack_and_buffer_features[getters]
+        embedding_collector = []
+        for f in batch_features:
+            vec = []
+            for e in f:
+                if e == 0:
+                    vec.append(300 * [0.])
+                elif e == "<NT>":
+                    vec.append(300 * [1.])
+                else:
+                    vec.append(embedder.embedding(e))
+            embedding_collector.append(vec)
+
+        batch_features = np.array(embedding_collector, dtype=np.float32)
+        del embedding_collector
+
+        padding = np.isclose(batch_features.mean(axis=-1), 0.)
+        non_terminals = np.isclose(batch_features.mean(axis=-1), 1.)
+
+        batch = Batch(stack_and_buffer_features=batch_features,
+                      labels=data.labels[getters],
+                      history_features=data.history_features[getters],
+                      elmo_embeddings=batch_elmo,
+                      padding=padding,
+                      non_terminals=non_terminals,
+                      sentence_lengths=data.sentence_lengths[ids],
+                      history_lengths=data.history_lengths[getters])
+
         entropy, accuracy = model.run_step(
-            features[
-                (batch_offset - 1) * batch_size:batch_offset * batch_size
-            ],
-            labels[(batch_offset - 1) * batch_size:batch_offset * batch_size],
+            batch,
             train=train
         )
 
@@ -66,29 +128,7 @@ def run_iteration(model, features, labels, batch_size, train, verbose=False):
             progress.print_network_progress(
                 "Training" if train else "Validating",
                 batch_offset,
-                num_batches + int(not perfect_fit),
-                entropy,
-                iteration_entropy,
-                accuracy,
-                iteration_accuracy
-            )
-
-    # Handle remaining data
-    if not perfect_fit:
-        entropy, accuracy = model.run_step(
-            features[num_batches * batch_size:],
-            labels[num_batches * batch_size:],
-            train=train
-        )
-
-        iteration_entropy += (entropy - iteration_entropy) / (num_batches + 1)
-        iteration_accuracy += (accuracy - iteration_accuracy) / (num_batches + 1)
-
-        if verbose:
-            progress.print_network_progress(
-                "Training" if train else "Validating",
-                num_batches + 1,
-                num_batches + 1,
+                num_batches,
                 entropy,
                 iteration_entropy,
                 accuracy,
@@ -101,99 +141,138 @@ def run_iteration(model, features, labels, batch_size, train, verbose=False):
     return iteration_entropy, iteration_accuracy
 
 
-
-class MaximumFeatureSize:
-
+class Shapes:
     def __init__(self, max_stack_size, max_buffer_size):
         self.max_stack_size = max_stack_size
         self.max_buffer_size = max_buffer_size
 
 
-def preprocess_dataset(path, word_numberer, args, maximum_feature_size=None, max_features=None):
+def preprocess_dataset(path, args, elmo_embedder, maximum_feature_size=None, max_features=None, label_numberer=None):
     if maximum_feature_size is not None:
         max_stack_size = maximum_feature_size.max_stack_size
         max_buffer_size = maximum_feature_size.max_buffer_size
     else:
         max_stack_size = max_buffer_size = -1
+    max_hist_size = -1
 
-    features = []
+    stack_and_buffer_features = []
     labels = []
+    history_features = []
+    sentence_lengths = []
+    history_lengths = []
+    passage_id2sent = []
+    state2passage_id = []
+    passage_id = 0
 
     for passage in read_passages([path]):
+        sent = [str(n) for n in passage.layer("0").words]
+        if len(sent) > args.max_training_length and maximum_feature_size is None:
+            continue
+        passage_id2sent.append(sent)
+        sentence_lengths.append(len(sent))
         state = State(passage, args)
         oracle = Oracle(passage, args)
 
         while not state.finished:
+            state2passage_id.append(passage_id)
             actions = oracle.generate_actions(state=state)
             action = next(actions)
+
             # Assumes that if maximum_features size is None training data is being processed
-            stack_features, buffer_features = extract_features(
+            stack_features, buffer_features, state_history = extract_features(
                 state,
-                word_numberer,
+                label_numberer,
                 train=maximum_feature_size is None
             )
-            label = action.type_id
+            history_lengths.append(len(state_history))
+
+            label = label_numberer.number(str(action), train=maximum_feature_size is None)
             state.transition(action)
             action.apply()
-            features.append((stack_features, buffer_features))
-
+            stack_and_buffer_features.append((stack_features, buffer_features))
+            history_features.append(state_history)
             if maximum_feature_size is None:
                 max_stack_size = max(len(stack_features), max_stack_size)
                 max_buffer_size = max(len(buffer_features), max_buffer_size)
-
+            max_hist_size = max(len(state_history), max_hist_size)
             labels.append(label)
 
-        if max_features is not None and len(features) >= max_features:
+        if max_features is not None and len(stack_and_buffer_features) >= max_features:
             break
+        passage_id += 1
+
+    num_examples = len(stack_and_buffer_features)
 
     # Create feature_matrix from stack and buffer features
     # if non-training data contains stacks or buffers larger than the maximum size in the training data it's truncated
     # to max_stack_size or max_buffer_size respectively
-    feature_matrix = np.zeros((len(features), max_stack_size + max_buffer_size), dtype=np.int32)
-    for index, feature in enumerate(features):
+    feature_matrix = np.zeros((num_examples, max_stack_size + max_buffer_size), dtype=np.object)
+    history_matrix = np.zeros((num_examples, max_hist_size), dtype=np.int32)
+    for index, feature in enumerate(stack_and_buffer_features):
         feature_matrix[index, :min(len(feature[0]), max_stack_size)] = feature[0][:max_stack_size]
         feature_matrix[index, max_stack_size:max_stack_size + len(feature[1])] = feature[1][:max_buffer_size]
-
+        history_matrix[index, :min(len(history_features[index]), max_hist_size)] = history_features[index]
     labels = np.array(labels)
+    history_lengths = np.array(history_lengths)
+    sentence_lengths = np.array(sentence_lengths)
+
+    # produce contextualized embeddings
+    contextualized_embeddings = elmo_embedder.sents2elmo(passage_id2sent)
+    torch.cuda.empty_cache()
 
     # Returns generated maximum feature sizes of training data
     # and only features and labels for validation/testing datasets
     if maximum_feature_size is None:
-        return feature_matrix, labels, MaximumFeatureSize(max_stack_size, max_buffer_size)
+        return Data(stack_and_buffer_features=feature_matrix,
+                    labels=labels,
+                    shapes=Shapes(max_stack_size, max_buffer_size),
+                    history_features=history_matrix,
+                    elmo_embeddings=contextualized_embeddings,
+                    sentence_lengths=sentence_lengths,
+                    state2sent_index=state2passage_id,
+                    history_lengths=history_lengths)
 
-    return feature_matrix, labels
-
-
-NUM_LABELS = 12
+    return Data(stack_and_buffer_features=feature_matrix,
+                labels=labels,
+                shapes=None,
+                history_features=history_matrix,
+                elmo_embeddings=contextualized_embeddings,
+                sentence_lengths=sentence_lengths,
+                state2sent_index=state2passage_id,
+                history_lengths=history_lengths)
 
 
 def preprocess_and_train(args):
     if args.verbose:
         # Print to stderr so it doesn't get piped
         print("Processing passages...", end="\r", file=sys.stderr)
-
     # Time preprocessing
     processing_start_time = default_timer()
-    # Reserves index 0 for padding (e.g. empty stack or buffer slots) and index 1 for unknown tokens
-    word_numberer = Numberer(first_elements=["<PAD>"])
 
+    label_numberer = Numberer()
     # Preprocess training set
-    training_features, training_labels, maximum_feature_size = preprocess_dataset(
+
+    ff_emb = finalfrontier.Model(args.ff_path, mmap=True)
+    elmo_embedder = Embedder(args.elmo_path, batch_size=32)
+
+    training_data = preprocess_dataset(
         args.training_path,
-        word_numberer,
         args,
-        max_features=args.max_training_features
+        elmo_embedder=elmo_embedder,
+        max_features=args.max_training_features,
+        label_numberer=label_numberer
     )
 
     # Preprocess validation set
-    validation_features, validation_labels = preprocess_dataset(
+    validation_data = preprocess_dataset(
         args.validation_path,
-        word_numberer,
         args,
-        maximum_feature_size,
-        max_features=args.max_validation_features
+        maximum_feature_size=training_data.shapes,
+        elmo_embedder=elmo_embedder,
+        max_features=args.max_validation_features,
+        label_numberer=label_numberer
     )
-
+    print(label_numberer)
     # Clear the line before printing over it
     if args.verbose:
         print(end="\033[K", file=sys.stderr)
@@ -201,14 +280,11 @@ def preprocess_and_train(args):
     if args.log_file:
         args.log_file.write("Processing complete in {:.4f}s\n".format(default_timer() - processing_start_time))
 
-    model = FFModel(
-        word_numberer.max,
-        args.embedding_size,
+    model = ElModel(
+        args,
         args.layers,
-        NUM_LABELS,
-        args.learning_rate,
-        args.input_dropout,
-        args.layer_dropout
+        label_numberer.max,
+        300
     )
     batch_size = args.batch_size
 
@@ -221,12 +297,24 @@ def preprocess_and_train(args):
 
         # Training iteration
         training_entropy, training_accuracy = run_iteration(
-            model, training_features, training_labels, batch_size, train=True, verbose=args.verbose
+            model,
+            training_data,
+            embedder=ff_emb,
+            batch_size=batch_size,
+            epoch_steps=args.epoch_steps,
+            train=True,
+            verbose=args.verbose
         )
 
         # Validation iteration
         validation_entropy, validation_accuracy = run_iteration(
-            model, validation_features, validation_labels, batch_size, train=False, verbose=args.verbose
+            model,
+            validation_data,
+            embedder=ff_emb,
+            batch_size=batch_size,
+            epoch_steps=args.epoch_steps,
+            train=False,
+            verbose=args.verbose
         )
 
         if args.verbose:
@@ -270,6 +358,5 @@ def main(args):
 
 if __name__ == "__main__":
     import sys
-
 
     main(sys.argv[1:])
