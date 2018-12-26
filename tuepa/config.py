@@ -48,8 +48,8 @@ def create_argument_parser():
     # Feed forward arguments
     feed_forward_parser.add_argument("--input-dropout", type=float, default=1, help="Dropout keep probability applied on the NN input")
     feed_forward_parser.add_argument("--layer-dropout", type=float, default=1, help="Dropout keep probability applied after each hidden layer")
-    feed_forward_parser.add_argument("-l", "--layers", default='[{"neurons" : 512, "activation" : "relu", "neurons" : 512, "activation" : "relu"}]',
-        help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "neurons" : 512, "activation" : "relu"}]')
+    feed_forward_parser.add_argument("-l", "--layers", default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]',
+        help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]')
 
     # Transformer arguments
     transformer_parser.add_argument("--self-attention-neurons", type=int, default=512, help="Number of neurons in the relu layer after self attention")
