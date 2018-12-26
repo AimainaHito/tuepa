@@ -1,11 +1,10 @@
 import tensorflow as tf
 
-
 ACTIVATION_FUNCTIONS = {
-    "relu" : tf.nn.relu,
-    "tanh" : tf.nn.tanh,
-    "sigmoid" : tf.sigmoid,
-    "none" : None,
+    "relu": tf.nn.relu,
+    "tanh": tf.nn.tanh,
+    "sigmoid": tf.sigmoid,
+    "none": None,
 }
 
 """
@@ -19,6 +18,8 @@ Example:
 
 :return: A list of tensorflow Dense layers
 """
+
+
 def feed_forward_from_json(json_data):
     layers = []
 
@@ -32,10 +33,35 @@ def feed_forward_from_json(json_data):
     return layers
 
 
+EPSILON = 1e-6
+
+
+class LayerNorm(tf.layers.Layer):
+    """
+    Layer normalization layer as in https://github.com/tensorflow/models/blob/master/official/transformer/model/transformer.py
+    """
+
+    def __init__(self, hsize, **kwargs):
+        super(LayerNorm, self).__init__(**kwargs)
+        self.hidden_size = hsize
+        self.scale = tf.get_variable("scale", [self.hidden_size],
+                                     initializer=tf.ones_initializer())
+        self.bias = tf.get_variable("bias", [self.hidden_size],
+                                    initializer=tf.zeros_initializer())
+
+    def __call__(self, x, **kwargs):
+        mean, variance = tf.nn.moments(x, axes=[-1], keep_dims=True)
+        norm_x = (x - mean) / tf.rsqrt(variance + EPSILON)
+        return norm_x * self.scale + self.bias
+
+    def weights(self):
+        return [self.scale] + [self.bias]
+
+
 class FFModel:
     def __init__(
-        self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
-        initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
+            self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
+            initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
     ):
         self.embeddings = tf.get_variable(
             name="embeddings",
@@ -66,9 +92,9 @@ class FFModel:
 
     def weights(self):
         return (
-            [self.embeddings]
-            + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
-            + self.projection_layer.trainable_weights
+                [self.embeddings]
+                + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
+                + self.projection_layer.trainable_weights
         )
 
     def loss(self, logits, labels):
@@ -108,14 +134,14 @@ def split_heads(t, hidden_size, num_heads):
                         [0, 2, 1, 3])
 
 
-
 class SelfAttention(tf.keras.layers.Layer):
-    def __init__(self, num_heads, neurons, **kwargs):
+    def __init__(self, num_heads, neurons, scope, **kwargs):
         super().__init__(**kwargs)
         self.built = False
         self.neurons = neurons
         self.num_heads = num_heads
         self.projection_layer = tf.layers.Dense(neurons, use_bias=False)
+        self.scope = scope
 
     def compute_output_shape(self, input_shape):
         return input_shape
@@ -124,13 +150,12 @@ class SelfAttention(tf.keras.layers.Layer):
         self.q = tf.layers.Dense(input_shape[-1], name="q", use_bias=False)
         self.k = tf.layers.Dense(input_shape[-1], name="k", use_bias=False)
         self.v = tf.layers.Dense(input_shape[-1], name="v", use_bias=False)
-
+        self.layer_norm = LayerNorm(input_shape[-1])
         self.built = True
-
 
     @property
     def trainable_weights(self):
-        return self.q.trainable_weights + self.k.trainable_weights + self.v.trainable_weights + self.projection_layer.trainable_weights
+        return self.q.trainable_weights + self.k.trainable_weights + self.v.trainable_weights + self.projection_layer.trainable_weights + self.layer_norm.weights()
 
     def __call__(self, inputs, **kwargs):
         if not self.built:
@@ -149,7 +174,7 @@ class SelfAttention(tf.keras.layers.Layer):
         scores = tf.matmul(queries * scale, keys, transpose_b=True)
 
         # Attention_dropout = tf.layers.Dropout(1 - 0.1)
-        scores = tf.nn.softmax(scores+0.0001)
+        scores = tf.nn.softmax(scores + 0.0001)
 
         # Apply scores to values
         heads = tf.matmul(scores, values)
@@ -159,21 +184,23 @@ class SelfAttention(tf.keras.layers.Layer):
                                                                tf.shape(inputs)[-1]))
 
         # Apply projection layer and layer normalization
-        return tf.contrib.layers.layer_norm(self.projection_layer(heads) + inputs)
+        return self.layer_norm(self.projection_layer(heads) + inputs)
+
 
 class ResidualFeedforward:
-    def __init__(self, attention_neurons, feedforward_neurons):
+    def __init__(self, attention_neurons, feedforward_neurons, scope):
+        self.scope = scope
         self.feedforward = tf.layers.Dense(feedforward_neurons, tf.nn.relu)
         self.projection_layer = tf.layers.Dense(attention_neurons, use_bias=False)
-
+        self.layer_norm = LayerNorm(attention_neurons)
     @property
     def trainable_weights(self):
-        return self.feedforward.trainable_weights + self.projection_layer.trainable_weights
+        return self.feedforward.trainable_weights + self.projection_layer.trainable_weights + self.layer_norm.weights()
 
     def __call__(self, inputs):
         output = self.feedforward(inputs)
         # Normalized feedforward output with residual connections
-        return tf.contrib.layers.layer_norm(
+        return self.layer_norm(
             self.projection_layer(output)
             + inputs
         )
@@ -181,8 +208,10 @@ class ResidualFeedforward:
 
 class TransformerModel:
     def __init__(self, dictionary_size, num_labels, args):
-        self.embeddings = tf.get_variable(name="embeddings", shape=[dictionary_size, args.embedding_size], dtype=tf.float32)
-        self.position_embeddings = tf.get_variable("position_embeddings", shape=[args.max_positions, args.embedding_size])
+        self.embeddings = tf.get_variable(name="embeddings", shape=[dictionary_size, args.embedding_size],
+                                          dtype=tf.float32)
+        self.position_embeddings = tf.get_variable("position_embeddings",
+                                                   shape=[args.max_positions, args.embedding_size])
         self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
         self.args = args
         self.layers = args.num_layers
@@ -193,18 +222,19 @@ class TransformerModel:
         embeddings = tf.nn.embedding_lookup(self.embeddings, feats)
         embeddings += tf.nn.embedding_lookup(
             self.position_embeddings,
-            tf.clip_by_value(tf.range(0, tf.shape(embeddings)[1]), clip_value_min=0, clip_value_max=self.args.max_positions)
+            tf.clip_by_value(tf.range(0, tf.shape(embeddings)[1]), clip_value_min=0,
+                             clip_value_max=self.args.max_positions)
         )
 
-        for layer in self.encoder:
+        for n, layer in enumerate(self.encoder):
             embeddings = layer(embeddings)
 
         return self.projection_layer(embeddings[:, 0])
 
     def weights(self):
         return (
-            [self.embeddings, self.position_embeddings]
-            + sum((layer.trainable_weights for layer in self.encoder), [])
+                [self.embeddings, self.position_embeddings]
+                + sum((layer.trainable_weights for layer in self.encoder), [])
         )
 
     def loss(self, logits, labels):
@@ -219,7 +249,8 @@ class TransformerModel:
                 x_ent = self.loss(logits, labels=labels)
 
             gradients = tape.gradient(x_ent, self.weights())
-            self.optimizer.apply_gradients(zip(gradients, self.weights()), global_step=tf.train.get_or_create_global_step())
+            self.optimizer.apply_gradients(zip(gradients,self.weights()),
+                                           global_step=tf.train.get_or_create_global_step())
 
         else:
             logits = self(feats)
@@ -231,8 +262,9 @@ class TransformerModel:
 
     def build_encoder(self):
         encoder = []
-        for _ in range(self.layers):
-            encoder.append(SelfAttention(self.args.num_heads, self.args.embedding_size))
-            encoder.append(ResidualFeedforward(self.args.embedding_size, self.args.self_attention_neurons))
+        for n in range(self.layers):
+            encoder.append(SelfAttention(self.args.num_heads, self.args.embedding_size, "attn{}".format(n)))
+            encoder.append(
+                ResidualFeedforward(self.args.embedding_size, self.args.self_attention_neurons, "ff{}".format(n)))
 
         return encoder
