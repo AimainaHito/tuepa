@@ -3,6 +3,28 @@ Tüpa
 
 **Tüpa** is a multilingual parser architecture for [Universal Conceptual Cognitive Annotation (UCCA)][1] based on the [TUPA](https://github.com/danielhers/tupa).
 
+Requirements:
+
+* tensorflow (tested on 1.12-gpu)
+* ELMoForManyLangs [available here](https://github.com/HIT-SCIR/ELMoForManyLangs).
+* finalfrontier [available here](https://github.com/danieldk/finalfrontier-python) (english pretrained available [here](https://drive.google.com/file/d/1S2pllHdR81o4DrhKa_uA2YMXwO3I6Y5D/view?usp=sharing))
+* Rust with the nightly toolchain installed. (tested on `nightly-2018-12-24-x86_64-unknown-linux-gnu`)
+
+Issues
+------
+The compilation of finalfrontier-python fails due to some api changes in pyo3. 
+
+Adding the following lines to the imports in `finalfrontier-python/src/lib.rs` will fix the issue.
+
+```rust
+use pyo3::PyIterProtocol;
+use pyo3::PyObjectProtocol;
+use pyo3::exceptions as exc;
+```
+
+The next step is to compile the library using `cargo +nigthly build --release`. 
+This will output `libfinalfrontier.so` to 
+`finalfrontier-python/target/release/`. Rename `libfinalfrontier.so` to `finalfrontier` and copy it to `tuepa/tuepa/`.
 
 License
 -------

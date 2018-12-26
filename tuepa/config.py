@@ -1,7 +1,5 @@
 import argparse
 
-import tensorflow as tf
-
 
 # Swap types
 REGULAR = "regular"
@@ -17,6 +15,7 @@ def create_argument_parser():
     common_parser.add_argument("validation_path")
     common_parser.add_argument("--max-training-features", type=int, default=None, help="Maximum number of features to train on")
     common_parser.add_argument("--max-validation-features", type=int, default=None, help="Maximum number of features used for validation")
+    common_parser.add_argument("--max-training-length", type=int, default=100, help="Maximum training sentences.")
 
     # Logging arguments
     common_parser.add_argument("--log-file", type=argparse.FileType("w", encoding="utf-8"), default=None, help="File to log training and validation progress to")
@@ -34,7 +33,7 @@ def create_argument_parser():
     common_parser.add_argument("--verify", action="store_true", help="check for oracle reproducing original passage")
 
     # General neural network arguments
-    common_parser.add_argument("-e", "--embedding-size", type=int, default=300, help="Number of dimensions of the embedding matrix")
+    common_parser.add_argument("-e", "--embedding-size", type=int, default=300, help="Number of dimensions of the word embedding matrix")
     common_parser.add_argument("-b", "--batch-size", type=int, default=1024, help="Maximum batch size")
     common_parser.add_argument("--learning-rate", type=float, default=0.01, help="(Initial) learning rate for the optimizer")
 
@@ -44,6 +43,7 @@ def create_argument_parser():
 
     feed_forward_parser = subparsers.add_parser("feedforward", parents=[common_parser])
     transformer_parser = subparsers.add_parser("transformer", parents=[common_parser])
+    elmo_rnn_parser = subparsers.add_parser("elmo-rnn", parents=[common_parser])
 
     # Feed forward arguments
     feed_forward_parser.add_argument("--input-dropout", type=float, default=1, help="Dropout keep probability applied on the NN input")
@@ -57,5 +57,17 @@ def create_argument_parser():
     transformer_parser.add_argument("--max-positions", type=int, default=256, help="Maximum number of positions embedded by the position embeddings")
     transformer_parser.add_argument("--num-layers", type=int, default=2, help="Number of transformer layers")
 
+    # Elmo/RNN arguments
+    elmo_rnn_parser.add_argument("-bi-rnn", "--bi-rnn-neurons", type=int, default=512,
+                                 help="Neurons in the sentence bi-rnn")
+    elmo_rnn_parser.add_argument("-top-rnn", "--top-rnn-neurons", type=int, default=512,
+                                 help="Neurons in the uni-directional RNN stacked on the sentence bi-rnn.")
+    elmo_rnn_parser.add_argument("-hist-rnn", "--history-rnn-neurons", type=int, default=512,
+                                 help="Neurons in the history rnn.")
+
+    elmo_rnn_parser.add_argument("-elmo", "--elmo-path", required=True, help="Path to ELMo trained with ELMoForManyLangs.")
+    elmo_rnn_parser.add_argument("-ff", "--ff-path", required=True, help="Path to finalfrontier embeddings.")
+    elmo_rnn_parser.add_argument("--history-embedding-size", type=int, default=300, help="Size of the action history embeddings")
+    elmo_rnn_parser.add_argument("--epoch_steps", type=int, default=100, help="Batches per training / evaluation epoch")
 
     return argument_parser
