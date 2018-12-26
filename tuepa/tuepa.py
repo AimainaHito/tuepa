@@ -307,7 +307,7 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
 
     if has_seperator:
         # Preprocess data for the transformer model
-        for index, ((stack_features, buffer_features), passage_id) in enumerate(stack_and_buffer_features, state2passage_id):
+        for index, ((stack_features, buffer_features), passage_id) in enumerate(zip(stack_and_buffer_features, state2passage_id)):
             sentence = passage_id2sent[passage_id]
             passage_length = min(args.max_training_length, len(sentence))
             feature_matrix[index, :passage_length] = [
@@ -333,7 +333,7 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
 
     labels = np.array(labels)
     history_lengths = np.array(history_lengths)
-
+    contextualized_embeddings = None
     if use_elmo:
         sentence_lengths = np.array(sentence_lengths)
 
@@ -481,7 +481,7 @@ def preprocess_and_train(args):
             )
 
         else:
-            training_entropy, training_accuracy = run_iteration(
+            validation_entropy, validation_accuracy = run_iteration(
                 model,
                 validation_data.stack_and_buffer_features,
                 validation_data.labels,
