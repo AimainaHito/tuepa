@@ -1,6 +1,5 @@
 import tensorflow as tf
 
-
 ACTIVATION_FUNCTIONS = {
     "selu": tf.nn.selu,
     "relu": tf.nn.relu,
@@ -43,6 +42,8 @@ Example:
 
 :return: A list of tensorflow Dense layers
 """
+
+
 def feed_forward_from_json(json_data):
     layers = []
 
@@ -89,8 +90,8 @@ class LayerNorm(tf.layers.Layer):
 
 class FFModel:
     def __init__(
-        self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
-        initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
+            self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
+            initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
     ):
         self.embeddings = tf.get_variable(
             name="embeddings",
@@ -121,9 +122,9 @@ class FFModel:
 
     def weights(self):
         return (
-            [self.embeddings]
-            + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
-            + self.projection_layer.trainable_weights
+                [self.embeddings]
+                + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
+                + self.projection_layer.trainable_weights
         )
 
     def loss(self, logits, labels):
@@ -172,7 +173,10 @@ class ElModel:
 
         # dense layers
         self.feed_forward_layers = feed_forward_layers
-        self.downsampling_layer = tf.layers.Dense(self.feed_forward_layers[0].input_size, tf.nn.selu)
+        self.downsampling_layer = tf.layers.Dense(
+            self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers, UpDownWithResiduals) else
+            self.feed_forward_layers[0].units, tf.nn.selu)
+
         self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
 
         self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
@@ -195,6 +199,7 @@ class ElModel:
     GRU. The final states of both RNNs are concatenated with the stack and buffer features and fed through several dense
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections. 
     """
+
     def __call__(self, batch, train=False):
         # unpack batch
         history = batch.history_features
@@ -208,7 +213,7 @@ class ElModel:
         history_lengths = batch.history_lengths
 
         batch_size = features.shape[0]
-        batch_indices = tf.expand_dims(tf.range(batch_size,dtype=tf.int64), 1)
+        batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int64), 1)
 
         # swaps batch with time dimension
         swap_batch_with_time = lambda x: tf.transpose(x, [1, 0, 2])
@@ -223,7 +228,7 @@ class ElModel:
 
         # extract final state for each sequence
         state_selectors = tf.concat([batch_indices,
-                                     tf.expand_dims(history_lengths,axis=1)],
+                                     tf.expand_dims(history_lengths, axis=1)],
                                     axis=1)
         history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
 
@@ -231,7 +236,8 @@ class ElModel:
         elmo = swap_batch_with_time(elmo)
         bi_rnn_outputs, _ = self.sentence_bi_rnn(elmo)
 
-        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, bi_rnn_outputs.shape[0], dtype=tf.float32), axis=-1)
+        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, bi_rnn_outputs.shape[0], dtype=tf.float32),
+                                       axis=-1)
         bi_rnn_outputs *= swap_batch_with_time(sentence_mask)
 
         # [batch, time, D]
@@ -245,8 +251,8 @@ class ElModel:
         top_rnn_outputs = tf.gather_nd(top_rnn_output, state_selectors)
 
         # add non terminal representation to stack / buffer features
-        features += self.non_terminal_embedding * tf.cast(tf.expand_dims(non_terminal_positions,-1),dtype=tf.float32)
-        features += self.padding_embedding * tf.cast(tf.expand_dims(padding,-1),dtype=tf.float32)
+        features += self.non_terminal_embedding * tf.cast(tf.expand_dims(non_terminal_positions, -1), dtype=tf.float32)
+        features += self.padding_embedding * tf.cast(tf.expand_dims(padding, -1), dtype=tf.float32)
         feedforward_input = tf.reshape(
             features,
             [batch_size, -1]
@@ -265,7 +271,7 @@ class ElModel:
         return self.projection_layer(feedforward_input)
 
     def weights(self):
-        return (sum((layer.weights() for layer in self.feed_forward_layers),
+        return (sum((layer.weights() if isinstance(layer,UpDownWithResiduals) else layer.trainable_weights for layer in self.feed_forward_layers),
                     []) + self.downsampling_layer.trainable_weights
                 + self.projection_layer.trainable_weights + self.sentence_bi_rnn.trainable_weights + [
                     self.history_embeddings]
@@ -368,6 +374,7 @@ class ResidualFeedforward:
         self.feedforward = tf.layers.Dense(feedforward_neurons, tf.nn.relu)
         self.projection_layer = tf.layers.Dense(attention_neurons, use_bias=False)
         self.layer_norm = LayerNorm(attention_neurons)
+
     @property
     def trainable_weights(self):
         return self.feedforward.trainable_weights + self.projection_layer.trainable_weights + self.layer_norm.weights()
@@ -383,8 +390,10 @@ class ResidualFeedforward:
 
 class TransformerModel:
     def __init__(self, dictionary_size, num_labels, args):
-        self.embeddings = tf.get_variable(name="embeddings", shape=[dictionary_size, args.embedding_size], dtype=tf.float32)
-        self.position_embeddings = tf.get_variable("position_embeddings", shape=[args.max_positions, args.embedding_size])
+        self.embeddings = tf.get_variable(name="embeddings", shape=[dictionary_size, args.embedding_size],
+                                          dtype=tf.float32)
+        self.position_embeddings = tf.get_variable("position_embeddings",
+                                                   shape=[args.max_positions, args.embedding_size])
         self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
         self.args = args
         self.layers = args.num_layers
@@ -395,7 +404,8 @@ class TransformerModel:
         embeddings = tf.nn.embedding_lookup(self.embeddings, feats)
         embeddings += tf.nn.embedding_lookup(
             self.position_embeddings,
-            tf.clip_by_value(tf.range(0, tf.shape(embeddings)[1]), clip_value_min=0, clip_value_max=self.args.max_positions)
+            tf.clip_by_value(tf.range(0, tf.shape(embeddings)[1]), clip_value_min=0,
+                             clip_value_max=self.args.max_positions)
         )
 
         for layer in self.encoder:
@@ -405,8 +415,8 @@ class TransformerModel:
 
     def weights(self):
         return (
-            [self.embeddings, self.position_embeddings]
-            + sum((layer.trainable_weights for layer in self.encoder), [])
+                [self.embeddings, self.position_embeddings]
+                + sum((layer.trainable_weights for layer in self.encoder), [])
         )
 
     def loss(self, logits, labels):
@@ -421,7 +431,8 @@ class TransformerModel:
                 x_ent = self.loss(logits, labels=labels)
 
             gradients = tape.gradient(x_ent, self.weights())
-            self.optimizer.apply_gradients(zip(gradients, self.weights()), global_step=tf.train.get_or_create_global_step())
+            self.optimizer.apply_gradients(zip(gradients, self.weights()),
+                                           global_step=tf.train.get_or_create_global_step())
 
         else:
             logits = self(feats)

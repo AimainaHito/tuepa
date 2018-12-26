@@ -64,7 +64,12 @@ def create_argument_parser():
                                  help="Neurons in the uni-directional RNN stacked on the sentence bi-rnn.")
     elmo_rnn_parser.add_argument("-hist-rnn", "--history-rnn-neurons", type=int, default=512,
                                  help="Neurons in the history rnn.")
-
+    elmo_rnn_parser.add_argument("-l", "--layers", default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]',
+        help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]')
+    elmo_rnn_parser.add_argument("--input-dropout", type=float, default=1,
+                                     help="Dropout keep probability applied on the NN input")
+    elmo_rnn_parser.add_argument("--layer-dropout", type=float, default=1,
+                                     help="Dropout keep probability applied after each hidden layer")
     elmo_rnn_parser.add_argument("-elmo", "--elmo-path", required=True, help="Path to ELMo trained with ELMoForManyLangs.")
     elmo_rnn_parser.add_argument("-ff", "--ff-path", required=True, help="Path to finalfrontier embeddings.")
     elmo_rnn_parser.add_argument("--history-embedding-size", type=int, default=300, help="Size of the action history embeddings")

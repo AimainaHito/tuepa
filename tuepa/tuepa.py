@@ -373,7 +373,7 @@ def preprocess_and_train(args):
 
     if args.model_type == "transformer":
         word_numberer = Numberer(first_elements=["<PAD>", "<SEP>"])
-    elif args.model_type == "elmo_rnn":
+    elif args.model_type == "elmo-rnn":
         word_numberer = finalfrontier.Model(args.ff_path, mmap=True)
         elmo_embedder = Embedder(args.elmo_path, batch_size=32)
     else:
@@ -384,10 +384,11 @@ def preprocess_and_train(args):
     training_data = preprocess_dataset(
         args.training_path,
         args,
-        embedder=elmo_embedder if args.model_type == "elmo_rnn" else word_numberer,
+        embedder=elmo_embedder if args.model_type == "elmo-rnn" else word_numberer,
         max_features=args.max_training_features,
         label_numberer=label_numberer,
-        passage_seperator=word_numberer.number("<SEP>", False) if args.model_type == "transformer" else None
+        passage_seperator=word_numberer.number("<SEP>", False) if args.model_type == "transformer" else None,
+        use_elmo = args.model_type == "elmo-rnn"
     )
 
     # Preprocess validation set
@@ -395,10 +396,11 @@ def preprocess_and_train(args):
         args.validation_path,
         args,
         maximum_feature_size=training_data.shapes,
-        embedder=elmo_embedder if args.model_type == "elmo_rnn" else word_numberer,
+        embedder=elmo_embedder if args.model_type == "elmo-rnn" else word_numberer,
         max_features=args.max_validation_features,
         label_numberer=label_numberer,
-        passage_seperator=word_numberer.number("<SEP>", False) if args.model_type == "transformer" else None
+        passage_seperator=word_numberer.number("<SEP>", False) if args.model_type == "transformer" else None,
+        use_elmo = args.model_type == "elmo-rnn",
     )
     print(label_numberer)
     # Clear the line before printing over it
@@ -422,7 +424,7 @@ def preprocess_and_train(args):
             args.input_dropout,
             args.layer_dropout
         )
-    elif args.model_type == "elmo_rnn":
+    elif args.model_type == "elmo-rnn":
         model = ElModel(
             args,
             args.layers,
@@ -445,7 +447,7 @@ def preprocess_and_train(args):
         start_time = default_timer()
 
         # Training iteration
-        if args.model_type == "elmo_rnn":
+        if args.model_type == "elmo-rnn":
             training_entropy, training_accuracy = run_elmo_iteration(
                 model,
                 training_data,
@@ -468,7 +470,7 @@ def preprocess_and_train(args):
             )
 
         # Validation iteration
-        if args.model_type == "elmo_rnn":
+        if args.model_type == "elmo-rnn":
             validation_entropy, validation_accuracy = run_elmo_iteration(
                 model,
                 validation_data,
