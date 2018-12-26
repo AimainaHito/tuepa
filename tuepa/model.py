@@ -90,6 +90,9 @@ class ElModel:
     """
     Processes features and outputs scores over state transitions.
     
+    :param batch: A namedtuple holding history features, stack and buffer features, elmo embeddings, non-terminal positions,
+                  padding positions and sentence and history lengths.
+    
     Features are: 
                     history of transitions, 
                     ELMo embeddings for each word in the sentence
