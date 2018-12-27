@@ -24,7 +24,7 @@ use pyo3::exceptions as exc;
 
 The next step is to compile the library using `cargo +nigthly build --release`. 
 This will output `libfinalfrontier.so` to 
-`finalfrontier-python/target/release/`. Rename `libfinalfrontier.so` to `finalfrontier` and copy it to `tuepa/tuepa/`.
+`finalfrontier-python/target/release/`. Rename `libfinalfrontier.so` to `finalfrontier.so` and copy it to `tuepa/tuepa/`.
 
 License
 -------
