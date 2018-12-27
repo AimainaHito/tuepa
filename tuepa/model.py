@@ -53,7 +53,7 @@ def feed_forward_from_json(json_data):
                 upsample_units=layer["neurons"] * 2,
                 input_size=layer["neurons"],
                 activation=ACTIVATION_FUNCTIONS[layer['activation']]
-            ) if layer['updown'] else tf.layers.Dense(
+            ) if layer.get('updown', False) else tf.layers.Dense(
                 layer["neurons"],
                 use_bias=layer.get("bias", True),
                 activation=ACTIVATION_FUNCTIONS.get(layer["activation"], None)
@@ -197,7 +197,7 @@ class ElModel:
 
     The ELMo embeddings are processed by a bi-GRU with a stacked uni-directional GRU. The transition history by another
     GRU. The final states of both RNNs are concatenated with the stack and buffer features and fed through several dense
-    layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections. 
+    layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
 
     def __call__(self, batch, train=False):
