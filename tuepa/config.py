@@ -11,8 +11,8 @@ def create_argument_parser():
     common_parser = argparse.ArgumentParser(add_help=False)
 
     # Data arguments
-    common_parser.add_argument("training_path")
-    common_parser.add_argument("validation_path")
+    common_parser.add_argument("training_path", help="Glob to UCCA annotated training data")
+    common_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
     common_parser.add_argument("--max-training-features", type=int, default=None, help="Maximum number of features to train on")
     common_parser.add_argument("--max-validation-features", type=int, default=None, help="Maximum number of features used for validation")
     common_parser.add_argument("--max-training-length", type=int, default=100, help="Maximum training sentences.")
@@ -32,6 +32,9 @@ def create_argument_parser():
     common_parser.add_argument("--use-gold-node-labels", action="store_true", help="gold node labels when parsing")
     common_parser.add_argument("--verify", action="store_true", help="check for oracle reproducing original passage")
 
+    # Saving arguments
+    common_parser.add_argument("--save-dir", default=None, help="directory the trained neural network model will be saved to every epoch")
+
     # General neural network arguments
     common_parser.add_argument("-e", "--embedding-size", type=int, default=300, help="Number of dimensions of the word embedding matrix")
     common_parser.add_argument("-b", "--batch-size", type=int, default=1024, help="Maximum batch size")
@@ -44,6 +47,7 @@ def create_argument_parser():
     feed_forward_parser = subparsers.add_parser("feedforward", parents=[common_parser])
     transformer_parser = subparsers.add_parser("transformer", parents=[common_parser])
     elmo_rnn_parser = subparsers.add_parser("elmo-rnn", parents=[common_parser])
+    evaluation_parser = subparsers.add_parser("evaluate")
 
     # Feed forward arguments
     feed_forward_parser.add_argument("--input-dropout", type=float, default=1, help="Dropout keep probability applied on the NN input")
@@ -74,5 +78,10 @@ def create_argument_parser():
     elmo_rnn_parser.add_argument("-ff", "--ff-path", required=True, help="Path to finalfrontier embeddings.")
     elmo_rnn_parser.add_argument("--history-embedding-size", type=int, default=300, help="Size of the action history embeddings")
     elmo_rnn_parser.add_argument("--epoch_steps", type=int, default=100, help="Batches per training / evaluation epoch")
+
+    # Prediction arguments
+    # evaluation_parser.add_argument("arch", choices=["feedfoward", "transformer", "elmo_rnn"], help="Type of the prediction model to be loaded")
+    evaluation_parser.add_argument("model_dir", help="Directory containing a trained neural network model")
+    evaluation_parser.add_argument("eval_data", help="Glob to UCCA annotated dev/test data")
 
     return argument_parser

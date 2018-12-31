@@ -1,4 +1,6 @@
 import tensorflow as tf
+import numpy as np
+
 
 ACTIVATION_FUNCTIONS = {
     "selu": tf.nn.selu,
@@ -8,6 +10,24 @@ ACTIVATION_FUNCTIONS = {
     "gelu": lambda x: 0.5 * (1.0 + tf.erf(x / tf.sqrt(2.0))),
     "none": None,
 }
+
+
+class BaseModel:
+    """
+    Base model implementing common functionality for all neural network models
+    """
+    def loss(self, logits, labels):
+        return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels)
+
+    def weights(self):
+        raise NotImplementedError("Weights have to be specified by a concrete model implementation")
+
+    def save(self, file_prefix):
+        tf.contrib.eager.Saver(self.weights()).save(file_prefix)
+
+    def restore(self, file_prefix):
+        tf.contrib.eager.Saver(self.weights()).restore(file_prefix)
+
 
 
 class UpDownWithResiduals:
@@ -66,17 +86,17 @@ def feed_forward_from_json(json_data):
 EPSILON = 1e-6
 
 
-class LayerNorm(tf.layers.Layer):
+class LayerNorm(tf.keras.layers.Layer):
     """
     Layer normalization layer as in https://github.com/tensorflow/models/blob/master/official/transformer/model/transformer.py
     """
 
     def __init__(self, hsize, **kwargs):
-        super(LayerNorm, self).__init__(**kwargs)
+        super().__init__(**kwargs)
         self.hidden_size = hsize
-        self.scale = tf.get_variable("scale", [self.hidden_size],
+        self.scale = tf.get_variable("{}/scale".format(self.name), [self.hidden_size],
                                      initializer=tf.ones_initializer())
-        self.bias = tf.get_variable("bias", [self.hidden_size],
+        self.bias = tf.get_variable("{}/bias".format(self.name), [self.hidden_size],
                                     initializer=tf.zeros_initializer())
 
     def __call__(self, x, **kwargs):
@@ -85,10 +105,10 @@ class LayerNorm(tf.layers.Layer):
         return norm_x * self.scale + self.bias
 
     def weights(self):
-        return [self.scale] + [self.bias]
+        return [self.scale, self.bias]
 
 
-class FFModel:
+class FFModel(BaseModel):
     def __init__(
             self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
             initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
@@ -127,8 +147,16 @@ class FFModel:
                 + self.projection_layer.trainable_weights
         )
 
-    def loss(self, logits, labels):
-        return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels)
+    def predict(self, feats):
+        return tf.argmax(self(feats, train=False))
+
+    def restore(self, file_prefix, args):
+        # Initialize layers with an empty batch
+        self(np.zeros(
+            (1, args.shapes.max_stack_size + args.shapes.max_buffer_size),
+            dtype=np.int32
+        ))
+        super().restore(file_prefix)
 
     def run_step(self, feats, labels, train=False):
         if train:
@@ -152,7 +180,7 @@ class FFModel:
         return sum(x_ent.numpy()), accuracy
 
 
-class ElModel:
+class ElModel(BaseModel):
     def __init__(self, args, feed_forward_layers, num_labels):
 
         self.history_embeddings = tf.get_variable(
@@ -279,9 +307,6 @@ class ElModel:
                     self.non_terminal_embedding, self.padding_embedding]
                 )
 
-    def loss(self, logits, labels):
-        return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels)
-
     def run_step(self, batch, train=False):
         labels = batch.labels
         if train:
@@ -369,8 +394,9 @@ class SelfAttention(tf.keras.layers.Layer):
         return self.layer_norm(self.projection_layer(heads) + inputs)
 
 
-class ResidualFeedforward:
-    def __init__(self, attention_neurons, feedforward_neurons):
+class ResidualFeedforward(tf.keras.layers.Layer):
+    def __init__(self, attention_neurons, feedforward_neurons, **kwargs):
+        super().__init__(self, **kwargs)
         self.feedforward = tf.layers.Dense(feedforward_neurons, tf.nn.relu)
         self.projection_layer = tf.layers.Dense(attention_neurons, use_bias=False)
         self.layer_norm = LayerNorm(attention_neurons)
@@ -388,7 +414,7 @@ class ResidualFeedforward:
         )
 
 
-class TransformerModel:
+class TransformerModel(BaseModel):
     def __init__(self, dictionary_size, num_labels, args):
         self.embeddings = tf.get_variable(name="embeddings", shape=[dictionary_size, args.embedding_size],
                                           dtype=tf.float32)
@@ -419,9 +445,6 @@ class TransformerModel:
                 + sum((layer.trainable_weights for layer in self.encoder), [])
         )
 
-    def loss(self, logits, labels):
-        return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels)
-
     def run_step(self, feats, labels, train=False):
         if train:
             with tf.GradientTape() as tape:
@@ -441,6 +464,15 @@ class TransformerModel:
             x_ent = self.loss(logits, labels=labels)
 
         return sum(x_ent.numpy()), accuracy
+
+    def restore(self, file_prefix, args):
+        # Initialize layers with an empty batch
+        self(np.zeros(
+            (1, args.shapes.max_stack_size + args.shapes.max_buffer_size + args.max_training_length + 1),
+            dtype=np.int32
+        ))
+        super().restore(file_prefix)
+
 
     def build_encoder(self):
         encoder = []
