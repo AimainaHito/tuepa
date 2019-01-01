@@ -202,7 +202,7 @@ class ElModel(BaseModel):
         # dense layers
         self.feed_forward_layers = feed_forward_layers
         self.downsampling_layer = tf.layers.Dense(
-            self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers, UpDownWithResiduals) else
+            self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
             self.feed_forward_layers[0].units, tf.nn.selu)
 
         self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
