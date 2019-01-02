@@ -1,7 +1,6 @@
 import tensorflow as tf
 import numpy as np
 
-
 ACTIVATION_FUNCTIONS = {
     "selu": tf.nn.selu,
     "relu": tf.nn.relu,
@@ -12,10 +11,13 @@ ACTIVATION_FUNCTIONS = {
 }
 
 
-class BaseModel:
+class BaseModel(tf.keras.Model):
     """
     Base model implementing common functionality for all neural network models
     """
+    def __init__(self):
+        super(BaseModel, self).__init__()
+
     def loss(self, logits, labels):
         return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels)
 
@@ -29,9 +31,9 @@ class BaseModel:
         tf.contrib.eager.Saver(self.weights()).restore(file_prefix)
 
 
-
-class UpDownWithResiduals:
-    def __init__(self, upsample_units, input_size, activation):
+class UpDownWithResiduals(tf.keras.layers.Layer):
+    def __init__(self, upsample_units, input_size, activation,**kwargs):
+        super(UpDownWithResiduals, self).__init__(**kwargs)
         self._input_size = input_size
         self.up = tf.layers.Dense(upsample_units, activation)
         self.down = None
@@ -40,9 +42,15 @@ class UpDownWithResiduals:
     def __call__(self, input):
         if not self.built:
             self.down = tf.layers.Dense(input.shape[-1], use_bias=False, activation=None)
+            self._trainable_weights = self.up.trainable_weights + self.down.trainable_weights
             self.built = True
         return self.down(self.up(input)) + input
 
+    @property
+    def trainable_weights(self):
+        return self._trainable_weights
+
+    @property
     def weights(self):
         return self.up.trainable_weights + self.down.trainable_weights
 
@@ -98,7 +106,6 @@ class LayerNorm(tf.keras.layers.Layer):
                                      initializer=tf.ones_initializer())
         self.bias = tf.get_variable("{}/bias".format(self.name), [self.hidden_size],
                                     initializer=tf.zeros_initializer())
-
     def __call__(self, x, **kwargs):
         mean, variance = tf.nn.moments(x, axes=[-1], keep_dims=True)
         norm_x = (x - mean) / tf.rsqrt(variance + EPSILON)
@@ -160,15 +167,15 @@ class FFModel(BaseModel):
 
     def run_step(self, feats, labels, train=False):
         if train:
-            with tf.GradientTape() as tape:
+            with tf.contrib.eager.GradientTape() as tape:
                 logits = self(feats, train=True)
-                predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-                accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
                 x_ent = self.loss(logits, labels=labels)
 
-            grads = tape.gradient(x_ent, self.weights())
+            gradients = tape.gradient(x_ent, self.weights())
+            predictions = tf.to_int32(tf.argmax(logits, axis=-1))
+            accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
             self.optimizer.apply_gradients(
-                zip(grads, self.weights()), global_step=tf.train.get_or_create_global_step()
+                zip(gradients , self.weights()), global_step=tf.train.get_or_create_global_step()
             )
 
         else:
@@ -182,7 +189,7 @@ class FFModel(BaseModel):
 
 class ElModel(BaseModel):
     def __init__(self, args, feed_forward_layers, num_labels):
-
+        super().__init__()
         self.history_embeddings = tf.get_variable(
             name="embeddings",
             shape=[num_labels, args.history_embedding_size],
@@ -193,12 +200,12 @@ class ElModel(BaseModel):
 
         # TODO: check if CudnnGRU is available + fallback to standard tensorflow implementation
         # elmo processor rnn
-        self.sentence_bi_rnn = tf.contrib.cudnn_rnn.CudnnGRU(1, args.bi_rnn_neurons, direction="bidirectional")
-        self.sentence_top_rnn = tf.contrib.cudnn_rnn.CudnnGRU(1, args.top_rnn_neurons)
+        self.sentence_bi_rnn = tf.keras.layers.Bidirectional(
+            tf.keras.layers.CuDNNGRU(args.bi_rnn_neurons, return_sequences=True), merge_mode='concat')
 
+        self.sentence_top_rnn = tf.keras.layers.CuDNNGRU(args.top_rnn_neurons, return_sequences=True)
         # history rnn
-        self.history_rnn = tf.contrib.cudnn_rnn.CudnnGRU(1, args.history_rnn_neurons)
-
+        self.history_rnn = tf.keras.layers.CuDNNGRU(args.history_rnn_neurons, return_sequences=True)
         # dense layers
         self.feed_forward_layers = feed_forward_layers
         self.downsampling_layer = tf.layers.Dense(
@@ -207,10 +214,12 @@ class ElModel(BaseModel):
 
         self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
 
-        self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
+        self.lr = tf.Variable(args.learning_rate, name="learning_rate")
+        self.optimizer = tf.train.AdamOptimizer(self.lr)
 
         self.input_dropout = args.input_dropout
         self.layer_dropout = args.layer_dropout
+        self.__call__ = tf.contrib.eager.defun(self.__call__)
 
     """
     Processes features and outputs scores over state transitions.
@@ -228,55 +237,39 @@ class ElModel(BaseModel):
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
 
-    def __call__(self, batch, train=False):
+    def __call__(self, features, train=False):
         # unpack batch
-        history = batch.history_features
-        features = batch.stack_and_buffer_features
-        elmo = batch.elmo_embeddings
+        history = features['hist_feats']
+        features = features['s_b_f']
+        elmo = features['elmo']
 
-        non_terminal_positions = batch.non_terminals
-        padding = batch.padding
+        non_terminal_positions = tf.to_float(tf.less(tf.abs(tf.reduce_mean(features,axis=-1)-1), 0.001))
+        padding = tf.to_float(tf.less(tf.abs(tf.reduce_mean(features,axis=-1)), 0.001))
 
-        sentence_lengths = batch.sentence_lengths
-        history_lengths = batch.history_lengths
+        sentence_lengths = features['sent_lens']
+        history_lengths = features['hist_lens']
 
         batch_size = features.shape[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int64), 1)
 
-        # swaps batch with time dimension
-        swap_batch_with_time = lambda x: tf.transpose(x, [1, 0, 2])
 
         history_input = tf.nn.embedding_lookup(self.history_embeddings, history)
-        # [time, batch, D]
-        history_input = swap_batch_with_time(history_input)
-
-        history_rnn_outputs, _ = self.history_rnn(history_input)
-        # [batch, time, D]
-        history_rnn_outputs = swap_batch_with_time(history_rnn_outputs)
-
-        # extract final state for each sequence
-        state_selectors = tf.concat([batch_indices,
-                                     tf.expand_dims(history_lengths, axis=1)],
-                                    axis=1)
-        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
-
-        # [time, batch, D]
-        elmo = swap_batch_with_time(elmo)
-        bi_rnn_outputs, _ = self.sentence_bi_rnn(elmo)
-
-        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, bi_rnn_outputs.shape[0], dtype=tf.float32),
+        bi_rnn_outputs = self.sentence_bi_rnn(tf.convert_to_tensor(elmo))
+        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, bi_rnn_outputs.shape[1], dtype=tf.float32),
                                        axis=-1)
-        bi_rnn_outputs *= swap_batch_with_time(sentence_mask)
-
-        # [batch, time, D]
-        top_rnn_output, _ = self.sentence_top_rnn(bi_rnn_outputs)
-        top_rnn_output = swap_batch_with_time(top_rnn_output)
-
-        # extract final state for each sequence
+        bi_rnn_outputs *= sentence_mask
+        top_rnn_output = self.sentence_top_rnn(bi_rnn_outputs)
         state_selectors = tf.concat([batch_indices,
                                      tf.expand_dims(sentence_lengths, axis=1)],
                                     axis=1)
         top_rnn_outputs = tf.gather_nd(top_rnn_output, state_selectors)
+
+        # hist_mask = tf.keras.layers.Masking(mask_value=0., input_shape=(history_lengths, 512))
+        history_rnn_outputs = self.history_rnn(history_input)
+        state_selectors = tf.concat([batch_indices,
+                                     tf.expand_dims(history_lengths, axis=1)],
+                                    axis=1)
+        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
 
         # add non terminal representation to stack / buffer features
         features += self.non_terminal_embedding * tf.cast(tf.expand_dims(non_terminal_positions, -1), dtype=tf.float32)
@@ -285,9 +278,8 @@ class ElModel(BaseModel):
             features,
             [batch_size, -1]
         )
-
         feedforward_input = self.downsampling_layer(
-            tf.concat([history_rnn_state, feedforward_input, top_rnn_outputs], -1))
+            tf.concat([history_rnn_state, feedforward_input, tf.squeeze(top_rnn_outputs)], -1))
         if train:
             feedforward_input = tf.nn.dropout(feedforward_input, self.input_dropout)
 
@@ -298,36 +290,16 @@ class ElModel(BaseModel):
 
         return self.projection_layer(feedforward_input)
 
-    def weights(self):
-        return (sum((layer.weights() if isinstance(layer,UpDownWithResiduals) else layer.trainable_weights for layer in self.feed_forward_layers),
-                    []) + self.downsampling_layer.trainable_weights
-                + self.projection_layer.trainable_weights + self.sentence_bi_rnn.trainable_weights + [
-                    self.history_embeddings]
-                + self.sentence_top_rnn.trainable_weights + self.history_rnn.trainable_weights + [
-                    self.non_terminal_embedding, self.padding_embedding]
-                )
-
-    def run_step(self, batch, train=False):
-        labels = batch.labels
-        if train:
-            with tf.GradientTape() as tape:
-                logits = self(batch, train=True)
-                predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-                accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
-                x_ent = self.loss(logits, labels=labels)
-
-            grads = tape.gradient(x_ent, self.weights())
-            self.optimizer.apply_gradients(
-                zip(grads, self.weights()), global_step=tf.train.get_or_create_global_step()
-            )
-
-        else:
-            logits = self(batch)
+    def compute_gradients(self, features, labels):
+        def loss_fun(features, labels):
+            logits = self(features, train=True)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
             accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
-            x_ent = self.loss(logits, labels=labels)
+            return (accuracy, self.loss(logits, labels=labels))
 
-        return sum(x_ent.numpy()), accuracy
+        from tensorflow.contrib.eager.python import tfe
+        grads = tfe.implicit_value_and_gradients(loss_fun)
+        return grads(features, labels)
 
 
 def split_heads(t, hidden_size, num_heads):
@@ -472,7 +444,6 @@ class TransformerModel(BaseModel):
             dtype=np.int32
         ))
         super().restore(file_prefix)
-
 
     def build_encoder(self):
         encoder = []
