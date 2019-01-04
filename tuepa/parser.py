@@ -200,7 +200,7 @@ class PassageParser(AbstractParser):
         """
         return next(filter(is_valid, (Action(
             self.args.prediction_data.label_numberer.value(i)
-        ) for i in np.roll(scores.argsort()[::-1], -1))))
+        ) for i in scores.argsort()[::-1])))
 
     def finish(self, status, display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
