@@ -308,7 +308,7 @@ class State:
         self.heads.discard(edge.child)
         self.log.append("edge: %s" % edge)
         return edge
-    
+
     PARENT_CHILD = (
         ((Actions.LeftEdge, Actions.LeftRemote), (-1, -2)),
         ((Actions.RightEdge, Actions.RightRemote), (-2, -1)),
@@ -344,7 +344,7 @@ class State:
         :param verify: fail if this results in an improper passage
         :return: core.Passage created from self.nodes
         """
-        logging.log("Creating passage %s from state..." % self.passage.ID, level=2)
+        logging.log(logging.INFO, "Creating passage %s from state...", self.passage.ID)
         passage = core.Passage(self.passage.ID)
         passage_format = kwargs.get("format") or self.passage.extra.get("format")
         if passage_format:

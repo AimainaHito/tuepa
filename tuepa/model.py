@@ -22,6 +22,9 @@ class BaseModel:
     def weights(self):
         raise NotImplementedError("Weights have to be specified by a concrete model implementation")
 
+    def score(self, feats):
+        return self(feats, train=False)
+
     def save(self, file_prefix):
         tf.contrib.eager.Saver(self.weights()).save(file_prefix)
 

@@ -16,9 +16,9 @@ import finalfrontier
 from numberer import Numberer, load_numberer_from_file
 from config import create_argument_parser
 from model import ElModel, FFModel, TransformerModel, feed_forward_from_json
-from preprocessing import preprocess_dataset, read_passages
+from preprocessing import PredictionData, preprocess_dataset, read_passages
 import progress
-# import parser
+import parser
 
 
 Batch = namedtuple("Batch", "stack_and_buffer_features labels history_features "
@@ -398,10 +398,14 @@ def evaluate(args):
             args
         )
 
-    model.restore(os.path.join(args.model_dir, args.model_type.replace("-", "_")), args)
-    print(model.weights())
+    args.prediction_data = PredictionData(
+        label_numberer=label_numberer,
+        embedder=word_numberer,
+    )
 
-    # print(parser.evaluate(model, args, read_passages([args.eval_data])))
+    model.restore(os.path.join(args.model_dir, args.model_type.replace("-", "_")), args)
+
+    print(*parser.evaluate(model, args, read_passages([args.eval_data])), sep="\n")
 
 
 def main(args):
