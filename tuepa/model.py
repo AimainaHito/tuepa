@@ -167,15 +167,12 @@ class FFModel(BaseModel):
 
     def run_step(self, feats, labels, train=False):
         if train:
-            with tf.contrib.eager.GradientTape() as tape:
-                logits = self(feats, train=True)
-                x_ent = self.loss(logits, labels=labels)
-
-            gradients = tape.gradient(x_ent, self.weights())
+            logits = self(feats, train=True)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
             accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+
             self.optimizer.apply_gradients(
-                zip(gradients , self.weights()), global_step=tf.train.get_or_create_global_step()
+                zip(grads, self.weights()), global_step=tf.train.get_or_create_global_step()
             )
 
         else:
@@ -188,8 +185,9 @@ class FFModel(BaseModel):
 
 
 class ElModel(BaseModel):
-    def __init__(self, args, feed_forward_layers, num_labels):
+    def __init__(self, args, feed_forward_layers, num_labels,shapes=None):
         super().__init__()
+        self.shapes = shapes
         self.history_embeddings = tf.get_variable(
             name="embeddings",
             shape=[num_labels, args.history_embedding_size],
@@ -237,25 +235,16 @@ class ElModel(BaseModel):
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
 
-    def __call__(self, features, train=False):
+    def __call__(self, batch, train=False):
         # unpack batch
-        history = features['hist_feats']
-        features = features['s_b_f']
-        elmo = features['elmo']
-
-        non_terminal_positions = tf.to_float(tf.less(tf.abs(tf.reduce_mean(features,axis=-1)-1), 0.001))
-        padding = tf.to_float(tf.less(tf.abs(tf.reduce_mean(features,axis=-1)), 0.001))
-
-        sentence_lengths = features['sent_lens']
-        history_lengths = features['hist_lens']
-
-        batch_size = features.shape[0]
-        batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int64), 1)
-
+        features,history,elmo, padding, non_terminal_positions,sentence_lengths,history_lengths = batch
+        batch_size = tf.shape(features)[0]
+        batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
 
         history_input = tf.nn.embedding_lookup(self.history_embeddings, history)
         bi_rnn_outputs = self.sentence_bi_rnn(tf.convert_to_tensor(elmo))
-        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, bi_rnn_outputs.shape[1], dtype=tf.float32),
+
+        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, tf.shape(bi_rnn_outputs)[1], dtype=tf.float32),
                                        axis=-1)
         bi_rnn_outputs *= sentence_mask
         top_rnn_output = self.sentence_top_rnn(bi_rnn_outputs)
@@ -264,7 +253,6 @@ class ElModel(BaseModel):
                                     axis=1)
         top_rnn_outputs = tf.gather_nd(top_rnn_output, state_selectors)
 
-        # hist_mask = tf.keras.layers.Masking(mask_value=0., input_shape=(history_lengths, 512))
         history_rnn_outputs = self.history_rnn(history_input)
         state_selectors = tf.concat([batch_indices,
                                      tf.expand_dims(history_lengths, axis=1)],
@@ -276,10 +264,13 @@ class ElModel(BaseModel):
         features += self.padding_embedding * tf.cast(tf.expand_dims(padding, -1), dtype=tf.float32)
         feedforward_input = tf.reshape(
             features,
-            [batch_size, -1]
+            [batch_size, sum(self.shapes.values())*300]
         )
+        conc = tf.concat([history_rnn_state, feedforward_input, top_rnn_outputs], -1)
+        expl = tf.reshape(conc,[-1,sum(self.shapes.values())*300+512+512])
         feedforward_input = self.downsampling_layer(
-            tf.concat([history_rnn_state, feedforward_input, tf.squeeze(top_rnn_outputs)], -1))
+            expl
+            )
         if train:
             feedforward_input = tf.nn.dropout(feedforward_input, self.input_dropout)
 
@@ -290,17 +281,16 @@ class ElModel(BaseModel):
 
         return self.projection_layer(feedforward_input)
 
-    def compute_gradients(self, features, labels):
-        def loss_fun(features, labels):
-            logits = self(features, train=True)
+    def compute_gradients(self, batch, labels):
+        def loss_fun(batch):
+            logits = self(batch, train=True)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
             accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
             return (accuracy, self.loss(logits, labels=labels))
 
         from tensorflow.contrib.eager.python import tfe
         grads = tfe.implicit_value_and_gradients(loss_fun)
-        return grads(features, labels)
-
+        return grads(batch)
 
 def split_heads(t, hidden_size, num_heads):
     """

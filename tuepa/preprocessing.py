@@ -189,21 +189,40 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
                 max_buffer_size
             )
     else:
-        feature_matrix = np.zeros((num_examples, max_stack_size + max_buffer_size), dtype=np.object if use_elmo else np.int32)
+        import h5py
+        import json
+        with h5py.File('train.hdf5' if maximum_feature_size is None else 'val.hdf5', 'w') as f:
+            dt = h5py.special_dtype(vlen=str)
+            feature_matrix = f.create_dataset("stack_and_buffer_features",
+                                              shape=(num_examples, max_stack_size + max_buffer_size),
+                                              dtype=dt)  # [[s.encode("UTF-8") for s in x] for x in v])
+            # np.savez_compressed("elmo_embeddings", v)
 
-        for index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
-            add_stack_and_buffer_features(feature_matrix, index, stack_features, buffer_features, max_stack_size, max_buffer_size)
-            add_history_features(history_matrix, index, history_features[index], max_hist_size)
+            f.create_dataset("shapes", data=json.dumps(
+                {"max_stack_size": max_stack_size, "max_buffer_size": max_buffer_size}).encode("UTF-8"))
+            labels = f.create_dataset('labels', data=np.array(labels))
+            history_matrix = f.create_dataset('history_features', shape=(num_examples, max_hist_size), dtype=np.int32)
 
-    labels = np.array(labels)
-    history_lengths = np.array(history_lengths)
-    contextualized_embeddings = None
-    if use_elmo:
-        sentence_lengths = np.array(sentence_lengths)
+            for index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
+                add_stack_and_buffer_features(feature_matrix, index, stack_features, buffer_features, max_stack_size,
+                                              max_buffer_size)
+                add_history_features(history_matrix, index, history_features[index], max_hist_size)
 
-        # produce contextualized embeddings
-        contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
-        torch.cuda.empty_cache()
+            history_lengths = f.create_dataset('history_lengths', data=np.array(history_lengths))
+
+            contextualized_embeddings = None
+            if use_elmo:
+                sentence_lengths = f.create_dataset('sentence_lengths', data=np.array(sentence_lengths))
+                state2passage_id = f.create_dataset('state2sent_index',
+                                                                       data=np.array(state2passage_id))
+                elmo = f.create_group('elmo')
+                # produce contextualized embeddings
+                contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
+                embs = []
+                for n, emb in enumerate(contextualized_embeddings):
+                    embs.append(elmo.create_dataset('{}'.format(n), data=emb))
+                contextualized_embeddings = embs
+                torch.cuda.empty_cache()
 
     # Returns generated maximum feature sizes of training data
     # and only features and labels for validation/testing datasets

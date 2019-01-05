@@ -1,5 +1,9 @@
 import argparse
+import copy
+import os
+import pickle
 
+ARGS_FILENAME = "args.pickle"
 
 # Swap types
 REGULAR = "regular"
@@ -48,6 +52,8 @@ def create_argument_parser():
     transformer_parser = subparsers.add_parser("transformer", parents=[common_parser])
     elmo_rnn_parser = subparsers.add_parser("elmo-rnn", parents=[common_parser])
     evaluation_parser = subparsers.add_parser("evaluate")
+    preprocess_parser = subparsers.add_parser("preprocess", parents=[common_parser])
+    preprocess_parser.add_argument("-elmo", "--elmo-path", required=True, help="Path to ELMo trained with ELMoForManyLangs.")
 
     # Feed forward arguments
     feed_forward_parser.add_argument("--input-dropout", type=float, default=1, help="Dropout keep probability applied on the NN input")
@@ -74,7 +80,6 @@ def create_argument_parser():
                                      help="Dropout keep probability applied on the NN input")
     elmo_rnn_parser.add_argument("--layer-dropout", type=float, default=1,
                                      help="Dropout keep probability applied after each hidden layer")
-    elmo_rnn_parser.add_argument("-elmo", "--elmo-path", required=True, help="Path to ELMo trained with ELMoForManyLangs.")
     elmo_rnn_parser.add_argument("-ff", "--ff-path", required=True, help="Path to finalfrontier embeddings.")
     elmo_rnn_parser.add_argument("--history-embedding-size", type=int, default=300, help="Size of the action history embeddings")
     elmo_rnn_parser.add_argument("--epoch_steps", type=int, default=100, help="Batches per training / evaluation epoch")
@@ -85,3 +90,19 @@ def create_argument_parser():
     evaluation_parser.add_argument("eval_data", help="Glob to UCCA annotated dev/test data")
 
     return argument_parser
+
+def save_args(args, model_dir):
+    with open(os.path.join(model_dir, ARGS_FILENAME), "wb") as file:
+        # Remove log file and tensorflow layers since they can't be serialized
+        args = copy.copy(args)
+        if "log_file" in args:
+            del args.log_file
+        if "json_layers" in args:
+            del args.layers
+
+        pickle.dump(args, file)
+
+
+def load_args(model_dir):
+    with open(os.path.join(model_dir, ARGS_FILENAME), "rb") as file:
+        return pickle.load(file)
