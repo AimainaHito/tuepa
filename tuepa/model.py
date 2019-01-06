@@ -227,7 +227,7 @@ class ElModel(BaseModel):
         self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
         self.downsampling_layer = tf.layers.Dense(
             self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
-            self.feed_forward_layers[0].units, tf.nn.selu)
+            self.feed_forward_layers[0].units)
 
         self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
 
@@ -256,11 +256,12 @@ class ElModel(BaseModel):
 
     def __call__(self, batch, mode=None, train=False):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
-        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths = self.unpack_inputs(
+        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts = self.unpack_inputs(
             batch, mode)
 
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
 
+        action_counts = tf.to_float(action_counts)
         inc = tf.reshape(tf.to_float(inc), shape=[batch_size, feature_tokens * self.args.num_edges])
         out = tf.reshape(tf.to_float(out), shape=[batch_size, feature_tokens * self.args.num_edges])
         height = tf.to_float(height)
@@ -294,18 +295,18 @@ class ElModel(BaseModel):
             [batch_size, features.shape[1] * features.shape[2]]
         )
 
-        feature_vec = tf.concat([history_rnn_state, feedforward_input, top_rnn_state, height, inc, out], -1)
-        feedforward_input = self.downsampling_layer(feature_vec)
+        feature_vec = tf.concat([history_rnn_state, feedforward_input, top_rnn_state, height, inc, out,action_counts], -1)
+        feature_vec = self.downsampling_layer(feature_vec)
 
         if train:
-            feedforward_input = tf.nn.dropout(feedforward_input, self.input_dropout)
+            feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
 
         for layer in self.feed_forward_layers:
-            feedforward_input = layer(feedforward_input)
+            feature_vec = layer(feature_vec)
             if train:
-                feedforward_input = tf.nn.dropout(feedforward_input, self.layer_dropout)
+                feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
 
-        return self.projection_layer(feedforward_input)
+        return self.projection_layer(feature_vec)
 
     def apply_history_rnn(self, batch_indices, history, history_lengths):
         history_input = tf.nn.embedding_lookup(self.history_embeddings, history)
@@ -318,7 +319,7 @@ class ElModel(BaseModel):
 
     def unpack_inputs(self, batch, mode):
         if mode != tf.estimator.ModeKeys.PREDICT:
-            form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths = batch
+            form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts = batch
             batch_size = tf.shape(form_indices)[0]
         else:
             form_indices = batch['form_indices']
@@ -333,7 +334,8 @@ class ElModel(BaseModel):
             sentence_lengths = batch['sent_lens']
             elmo = tf.reshape(batch['elmo'], shape=[batch_size, -1, 1024])
             history_lengths = batch['hist_lens']
-        return batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths
+            action_counts = batch['action_counts']
+        return batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """

@@ -49,7 +49,7 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
                 hooks = [SaverHook(
                     labels=label_numberer.num2value,
                     confusion_matrix_tensor_name='mean_iou/total_confusion_matrix',
-                    summary_writer=tf.summary.FileWriterCache.get(str("tmp/eval_validation"))
+                    summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"conf_mat"))
                 )]
 
                 on_h_labels = tf.one_hot(labels, depth=num_labels, dtype=tf.int32)

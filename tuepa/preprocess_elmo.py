@@ -111,6 +111,7 @@ def preprocess_dataset(path,
         max_stack_size = max_buffer_size = -1
 
     stack_and_buffer_features = []
+    previous_action_counts = []
     labels = []
     history_features = []
     sentence_lengths = []
@@ -129,8 +130,9 @@ def preprocess_dataset(path,
 
         state = State(passage, args)
         oracle = Oracle(passage, args)
-
+        state_no = 0
         while not state.finished:
+            passage_actions = []
             state2passage_id.append(passage_id)
             actions = oracle.generate_actions(state=state)
             action = next(actions)
@@ -147,6 +149,7 @@ def preprocess_dataset(path,
             history_lengths.append(len(state_history))
 
             label = label_numberer.number(str(action), train=shapes is None)
+            passage_actions.append(label)
             state.transition(action)
             action.apply()
 
@@ -157,18 +160,20 @@ def preprocess_dataset(path,
                 max_stack_size = max(len(stack_features), max_stack_size)
                 max_buffer_size = max(len(buffer_features), max_buffer_size)
 
+            previous_action_counts.append(passage_actions[:state_no])
             labels.append(label)
+            state_no += 1
 
         if max_features is not None and len(stack_and_buffer_features) >= max_features:
             break
 
         passage_id += 1
 
-    return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, labels
+    return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, labels
 
 
 def specific_elmo(features, embedder, args, train, write_chunk=8192):
-    stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, labels = features
+    stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, labels = features
     max_stack_size = shapes.max_stack_size
     max_buffer_size = shapes.max_buffer_size
     max_hist_size = np.max(history_lengths)
@@ -195,6 +200,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         inc_matrix = s_b.create_dataset('in', shape=(
             num_examples, max_stack_size + max_buffer_size, args.num_edges),
                                         dtype=np.int32, fillvalue=0)
+        action_counts = f.create_dataset('action_counts',shape=(num_examples,args.num_labels),dtype=np.int32)
         f.create_dataset('labels', data=np.array(labels))
         history_matrix = f.create_dataset('history_features', shape=(num_examples, max_hist_size),
                                           dtype=np.int32, fillvalue=0)
@@ -203,6 +209,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         dep_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         head_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         height_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+        action_count_chunk = np.zeros(shape=(write_chunk, args.num_labels), dtype=np.int32)
         pos_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         out_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, args.num_edges), dtype=np.int32)
         inc_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, args.num_edges), dtype=np.int32)
@@ -218,6 +225,8 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             head_chunk[index] = heads
             pos_chunk[index] = pos
             height_chunk[index] = height
+
+            action_count_chunk[index][previous_action_counts[index]] += 1
 
             for n, item in enumerate(incoming):
                 for id in item:
@@ -242,7 +251,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
                 pos_matrix[cur_slice] = pos_chunk
                 height_matrix[cur_slice] = height_chunk
                 history_matrix[cur_slice] = hist_chunk
-
+                action_counts[cur_slice] = action_count_chunk
                 print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
                 chunk_no += 1
@@ -261,7 +270,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             pos_matrix[cur_slice] = pos_chunk[:num_examples % write_chunk]
             height_matrix[cur_slice] = height_chunk[:num_examples % write_chunk]
             history_matrix[cur_slice] = hist_chunk[:num_examples % write_chunk]
-
+            action_counts[cur_slice] = action_count_chunk[:num_examples % write_chunk]
             print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
         f.create_dataset('history_lengths', data=np.array(history_lengths))

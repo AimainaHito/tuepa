@@ -186,9 +186,16 @@ class PassageParser(AbstractParser):
                                                                                                self.args.prediction_data.edge_numberer,
                                                                                                train=False)
             forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
+
+            actions = [self.args.prediction_data.label_numberer.value2num[action] for action in self.state.actions]
+            previous_actions = np.zeros((self.args.prediction_data.label_numberer.max),dtype=np.int32)
+            previous_actions[actions] += 1
+
             hist_len = [len(history_features)]
-            if history_features == []:
+
+            if not history_features:
                 history_features += [0]
+
             inc = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
             out = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
             for n, item in enumerate(incoming):
@@ -212,7 +219,8 @@ class PassageParser(AbstractParser):
                         'elmo': np.array([elmo], np.float32),
                         'sent_lens': np.array([sent_length], np.int32),
                         'history': np.array([history_features], dtype=np.int32),
-                        'hist_lens': np.array(hist_len, np.int32)}
+                        'hist_lens': np.array(hist_len, np.int32),
+                        'action_counts': previous_actions.reshape([1,-1])}
 
             scores, = self.models[0].score(features)
             print(scores.argmax)
