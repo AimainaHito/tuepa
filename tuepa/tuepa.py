@@ -10,12 +10,10 @@ import copy
 
 import numpy as np
 import tensorflow as tf
-from elmoformanylangs import Embedder
-import finalfrontier
 
 from numberer import Numberer, load_numberer_from_file
-from config import create_argument_parser, save_args, load_args
-from model import ElModel, FFModel, TransformerModel, feed_forward_from_json
+from config import create_argument_parser
+from model import FFModel, TransformerModel, feed_forward_from_json
 from preprocessing import PredictionData, preprocess_dataset, read_passages
 import progress
 import parser
@@ -29,6 +27,22 @@ Batch = namedtuple("Batch", "stack_and_buffer_features labels history_features "
 ARGS_FILENAME = "args.pickle"
 DICTIONARY_FILENAME = "dictionary.csv"
 LABELS_FILENAME = "labels.csv"
+
+
+def save_args(args, model_dir):
+    with open(os.path.join(model_dir, ARGS_FILENAME), "wb") as file:
+        # Remove log file and tensorflow layers since they can't be serialized
+        args = copy.copy(args)
+        if "log_file" in args:
+            del args.log_file
+        if "json_layers" in args:
+            del args.layers
+
+        pickle.dump(args, file)
+
+def load_args(model_dir):
+    with open(os.path.join(model_dir, ARGS_FILENAME), "rb") as file:
+        return pickle.load(file)
 
 
 def run_iteration(model, features, labels, batch_size, train, verbose=False):
@@ -89,87 +103,6 @@ def run_iteration(model, features, labels, batch_size, train, verbose=False):
     return iteration_entropy, iteration_accuracy
 
 
-def run_elmo_iteration(model, data, batch_size, epoch_steps, train, embedding_size,
-                       verbose=False, embedder=None):
-    num_batches = epoch_steps
-    # perfect_fit = num_batches == (features.shape[0] / batch_size)
-
-    iteration_entropy = 0
-    iteration_accuracy = 0
-    state2pid = np.array(data.state2sent_index)
-
-    keys = list(range(len(state2pid)))
-    for batch_offset in range(1, epoch_steps):
-        getters = random.sample(keys, batch_size)
-
-        # lookup associated sentence for each state
-        ids = state2pid[getters]
-        batch_elmo = np.array(data.elmo_embeddings)[ids]
-        max_length = max(map(len, batch_elmo))
-        # loop over sentences and pad them to max length in batch
-        batch_elmo = [np.vstack([n, np.zeros(
-                                        shape=[max_length - len(n),
-                                               n.shape[-1]],
-                                    dtype=np.float32)])
-                      for n in batch_elmo]
-
-        # [batch, time, D]
-        batch_elmo = np.transpose(batch_elmo, [0, 1, 2])
-
-        # Map words on stack and buffer to their embeddings. Mapping them ahead of time means excessive use of memory.
-        # TODO: find smart way to batch embeddings ahead of time or use threading to prepare batches during the tf calls
-        batch_features = data.stack_and_buffer_features[getters]
-        embedding_collector = []
-        for f in batch_features:
-            vec = []
-            for e in f:
-                if e == 0:
-                    vec.append(embedding_size * [0.])
-                elif e == "<NT>":
-                    vec.append(embedding_size * [1.])
-                else:
-                    vec.append(embedder.embedding(e))
-            embedding_collector.append(vec)
-
-        batch_features = np.array(embedding_collector, dtype=np.float32)
-        del embedding_collector
-
-        padding = np.isclose(batch_features.mean(axis=-1), 0.)
-        non_terminals = np.isclose(batch_features.mean(axis=-1), 1.)
-
-        batch = Batch(stack_and_buffer_features=batch_features,
-                      labels=data.labels[getters],
-                      history_features=data.history_features[getters],
-                      elmo_embeddings=batch_elmo,
-                      padding=padding,
-                      non_terminals=non_terminals,
-                      sentence_lengths=data.sentence_lengths[ids],
-                      history_lengths=data.history_lengths[getters])
-
-        entropy, accuracy = model.run_step(
-            batch,
-            train=train
-        )
-
-        iteration_entropy += (entropy - iteration_entropy) / batch_offset
-        iteration_accuracy += (accuracy - iteration_accuracy) / batch_offset
-
-        if verbose:
-            progress.print_network_progress(
-                "Training" if train else "Validating",
-                batch_offset,
-                num_batches,
-                entropy,
-                iteration_entropy,
-                accuracy,
-                iteration_accuracy
-            )
-
-    if verbose:
-        progress.clear_progress()
-
-    return iteration_entropy, iteration_accuracy
-
 
 def preprocess_and_train(args):
     # Create destination directory for saved models
@@ -185,9 +118,6 @@ def preprocess_and_train(args):
 
     if args.model_type == "transformer":
         word_numberer = Numberer(first_elements=["<PAD>", "<SEP>"])
-    elif args.model_type == "elmo-rnn":
-        word_numberer = finalfrontier.Model(args.ff_path, mmap=True)
-        elmo_embedder = Embedder(args.elmo_path, batch_size=32)
     else:
         word_numberer = Numberer(first_elements=["<PAD>"])
 
@@ -196,11 +126,10 @@ def preprocess_and_train(args):
     training_data = preprocess_dataset(
         args.training_path,
         args,
-        embedder=elmo_embedder if args.model_type == "elmo-rnn" else word_numberer,
+        embedder=word_numberer,
         max_features=args.max_training_features,
         label_numberer=label_numberer,
         passage_seperator=word_numberer.number("<SEP>", False) if args.model_type == "transformer" else None,
-        use_elmo=args.model_type == "elmo-rnn"
     )
 
     # Preprocess validation set
@@ -208,11 +137,10 @@ def preprocess_and_train(args):
         args.validation_path,
         args,
         maximum_feature_size=training_data.shapes,
-        embedder=elmo_embedder if args.model_type == "elmo-rnn" else word_numberer,
+        embedder=word_numberer,
         max_features=args.max_validation_features,
         label_numberer=label_numberer,
         passage_seperator=word_numberer.number("<SEP>", False) if args.model_type == "transformer" else None,
-        use_elmo=args.model_type == "elmo-rnn",
     )
     # Clear the line before printing over it
     if args.verbose:
@@ -250,9 +178,8 @@ def preprocess_and_train(args):
 
     # Save arguments and dictionaries
     if args.save_dir:
-        if args.model_type != "elmo-rnn":
-            with open(os.path.join(args.save_dir, DICTIONARY_FILENAME), "w", encoding="utf-8") as file:
-                word_numberer.to_file(file)
+        with open(os.path.join(args.save_dir, DICTIONARY_FILENAME), "w", encoding="utf-8") as file:
+            word_numberer.to_file(file)
 
         with open(os.path.join(args.save_dir, LABELS_FILENAME), "w", encoding="utf-8") as file:
             label_numberer.to_file(file)
@@ -268,7 +195,6 @@ def preprocess_and_train(args):
         iteration_count += 1
         start_time = default_timer()
 
-        # Training iteration
         training_entropy, training_accuracy = run_iteration(
             model,
             training_data.stack_and_buffer_features,
@@ -317,9 +243,8 @@ def evaluate(args):
     args = Namespace(**{**vars(args), **vars(model_args)})
 
     # Load dictionaries
-    if args.model_type != "elmo-rnn":
-        with open(os.path.join(args.save_dir, DICTIONARY_FILENAME), "r", encoding="utf-8") as file:
-            word_numberer = load_numberer_from_file(file)
+    with open(os.path.join(args.save_dir, DICTIONARY_FILENAME), "r", encoding="utf-8") as file:
+        word_numberer = load_numberer_from_file(file)
 
     with open(os.path.join(args.save_dir, LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
@@ -336,12 +261,6 @@ def evaluate(args):
             args.learning_rate,
             args.input_dropout,
             args.layer_dropout
-        )
-    elif args.model_type == "elmo-rnn":
-        model = ElModel(
-            args,
-            args.layers,
-            args.num_labels
         )
     else:
         model = TransformerModel(
@@ -365,6 +284,12 @@ def main(args):
     argument_parser = create_argument_parser()
 
     args = argument_parser.parse_args(args)
+
+    if args.model_type == 'elmo-rnn':
+        print("I can't run elmo-rnn! \ņ"
+              "Run preprocess_elmo.py to preprocess training data. \n"
+              "Run train_elmo.py to train the elmo-rnn. \n"
+              "Run evaluate_elmo.py to evaluate the trained elmo-rnn.")
 
     if args.model_type == "evaluate":
         evaluate(args)

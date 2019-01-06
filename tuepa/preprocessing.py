@@ -3,13 +3,11 @@ from glob import glob
 from collections import namedtuple
 
 import numpy as np
-import torch
 from semstr.convert import FROM_FORMAT, from_text
 from ucca import ioutil
 
 from oracle import Oracle
 from states.state import State
-from action import Actions
 
 
 Data = namedtuple("Data",
@@ -33,8 +31,10 @@ CONVERTERS[""] = CONVERTERS["txt"] = from_text_format
 
 def read_passages(files, language="en"):
     expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
-    return ioutil.read_files_and_dirs(expanded, sentences=True, paragraphs=False,
+    from ucca import textutil
+    passages = ioutil.read_files_and_dirs(expanded, sentences=True, paragraphs=False,
                                       converters=CONVERTERS, lang=language)
+    return textutil.annotate_all(passages, as_array=False, lang=language, verbose=False,)
 
 
 def extract_features(state, label_numberer, train=True):
@@ -91,7 +91,7 @@ class Shapes:
         self.max_buffer_size = max_buffer_size
 
 
-def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_features=None, label_numberer=None, passage_seperator=None, use_elmo=False):
+def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_features=None, label_numberer=None, passage_seperator=None):
     has_seperator = passage_seperator is not None
 
     if maximum_feature_size is not None:
@@ -113,8 +113,8 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
     passage_id = 0
 
     for passage in read_passages([path]):
-        if has_seperator or use_elmo:
-            sentence = [str(n) for n in passage.layer("0").words]
+        if has_seperator:
+            sentence = [str(n) for n in passage.layer("0").all]
             if len(sentence) > args.max_training_length and maximum_feature_size is None:
                 continue
 
@@ -130,19 +130,12 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
             action = next(actions)
 
             # Assumes that if maximum_features size is None training data is being processed
-            if use_elmo:
-                stack_features, buffer_features, state_history = extract_features(
-                    state,
-                    label_numberer,
-                    train=maximum_feature_size is None
-                )
-            else:
-                stack_features, buffer_features, state_history = extract_numbered_features(
-                    state,
-                    embedder,
-                    label_numberer,
-                    train=maximum_feature_size is None
-                )
+            stack_features, buffer_features, state_history = extract_numbered_features(
+                state,
+                embedder,
+                label_numberer,
+                train=maximum_feature_size is None
+            )
 
             history_lengths.append(len(state_history))
 
@@ -191,40 +184,14 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
                 max_buffer_size
             )
     else:
-        import h5py
-        import json
-        with h5py.File('train.hdf5' if maximum_feature_size is None else 'val.hdf5', 'w') as f:
-            dt = h5py.special_dtype(vlen=str)
-            feature_matrix = f.create_dataset("stack_and_buffer_features",
-                                              shape=(num_examples, max_stack_size + max_buffer_size),
-                                              dtype=dt)  # [[s.encode("UTF-8") for s in x] for x in v])
-            # np.savez_compressed("elmo_embeddings", v)
+        feature_matrix = np.zeros((num_examples, max_stack_size + max_buffer_size), dtype=np.int32)
 
-            f.create_dataset("shapes", data=json.dumps(
-                {"max_stack_size": max_stack_size, "max_buffer_size": max_buffer_size}).encode("UTF-8"))
-            labels = f.create_dataset('labels', data=np.array(labels))
-            history_matrix = f.create_dataset('history_features', shape=(num_examples, max_hist_size), dtype=np.int32)
+        for index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
+            add_stack_and_buffer_features(feature_matrix, index, stack_features, buffer_features, max_stack_size, max_buffer_size)
+            add_history_features(history_matrix, index, history_features[index], max_hist_size)
 
-            for index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
-                add_stack_and_buffer_features(feature_matrix, index, stack_features, buffer_features, max_stack_size,
-                                              max_buffer_size)
-                add_history_features(history_matrix, index, history_features[index], max_hist_size)
-
-            history_lengths = f.create_dataset('history_lengths', data=np.array(history_lengths))
-
-            contextualized_embeddings = None
-            if use_elmo:
-                sentence_lengths = f.create_dataset('sentence_lengths', data=np.array(sentence_lengths))
-                state2passage_id = f.create_dataset('state2sent_index',
-                                                                       data=np.array(state2passage_id))
-                elmo = f.create_group('elmo')
-                # produce contextualized embeddings
-                contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
-                embs = []
-                for n, emb in enumerate(contextualized_embeddings):
-                    embs.append(elmo.create_dataset('{}'.format(n), data=emb))
-                contextualized_embeddings = embs
-                torch.cuda.empty_cache()
+    labels = np.array(labels)
+    history_lengths = np.array(history_lengths)
 
     # Returns generated maximum feature sizes of training data
     # and only features and labels for validation/testing datasets
@@ -233,7 +200,6 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
                     labels=labels,
                     shapes=Shapes(max_stack_size, max_buffer_size),
                     history_features=history_matrix,
-                    elmo_embeddings=contextualized_embeddings,
                     sentence_lengths=sentence_lengths,
                     state2sent_index=state2passage_id,
                     history_lengths=history_lengths)
@@ -242,7 +208,6 @@ def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_feat
                 labels=labels,
                 shapes=None,
                 history_features=history_matrix,
-                elmo_embeddings=contextualized_embeddings,
                 sentence_lengths=sentence_lengths,
                 state2sent_index=state2passage_id,
                 history_lengths=history_lengths)
