@@ -17,6 +17,8 @@ Data = namedtuple("Data",
                   "elmo_embeddings sentence_lengths history_lengths state2sent_index "
                   "shapes ")
 
+PredictionData = namedtuple("PredictionData",
+                  "label_numberer embedder")
 
 # Marks input passages as text so that we don't accidentally train on them
 def from_text_format(*args, **kwargs):
@@ -66,20 +68,20 @@ def add_history_features(history_matrix, index, history_features, max_hist_size)
 
 def add_transformer_features(
         feature_matrix, index, sentence_tokens, stack_features, buffer_features,
-        sentence_separator, sentence_length, max_stack_size, max_buffer_size
+        sentence_separator, max_sentence_length, max_stack_size, max_buffer_size
     ):
 
-    feature_matrix[index, :sentence_length] = sentence_tokens
+    feature_matrix[index, :max_sentence_length] = sentence_tokens
 
-    feature_matrix[index, sentence_length] = sentence_separator
+    feature_matrix[index, max_sentence_length] = sentence_separator
 
     feature_matrix[
         index,
-        sentence_length + 1:sentence_length + 1 + min(len(stack_features), max_stack_size)
+        max_sentence_length + 1:max_sentence_length + 1 + min(len(stack_features), max_stack_size)
     ] = stack_features[:max_stack_size]
     feature_matrix[
         index,
-        sentence_length + 1 + max_stack_size:sentence_length + 1 + max_stack_size + len(buffer_features)
+        max_sentence_length + 1 + max_stack_size:max_sentence_length + 1 + max_stack_size + len(buffer_features)
     ] = buffer_features[:max_buffer_size]
 
 
