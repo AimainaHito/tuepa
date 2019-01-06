@@ -17,7 +17,7 @@ from ucca.normalization import normalize
 from states.state import State
 from action import Action
 import preprocessing
-
+import preprocess_elmo
 
 class ParserException(Exception):
     pass
@@ -30,10 +30,10 @@ class ParseMode(Enum):
 
 
 class AbstractParser:
-    def __init__(self, models, args, evaluation=False):
+    def __init__(self, models, argus, evaluation=False):
         self.models = models
         self.evaluation = evaluation
-        self.args = args
+        self.args = argus
         self.action_count = self.correct_action_count = self.label_count = 0
         self.correct_label_count = self.num_tokens = self.f1 = 0
         self.started = default_timer()
@@ -56,8 +56,9 @@ class AbstractParser:
 
 class PassageParser(AbstractParser):
     """ Parser for a single passage, has a state and optionally an oracle """
-    def __init__(self, passage, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+
+    def __init__(self, passage, args, models, evaluation, **kwargs):
+        super().__init__(models, args, evaluation)
         self.passage = self.out = passage
         if self.args.model_type != "feedforward":
             self.sentence_tokens = [str(n) for n in passage.layer("0").words]
@@ -96,13 +97,13 @@ class PassageParser(AbstractParser):
         """
         Internal method to parse a single passage with the classifier.
         """
-        #print("  initial state: %s" % self.state)
+        # print("  initial state: %s" % self.state)
 
         while True:
             if self.args.check_loops:
                 self.check_loop()
 
-            #self.label_node()  # In case root node needs labeling
+            # self.label_node()  # In case root node needs labeling
             action = self.choose()
             self.state.transition(action)
 
@@ -117,7 +118,7 @@ class PassageParser(AbstractParser):
                 except OSError:
                     pass
 
-            #print("\n".join(["  predicted: %-15s true: %-15s taken: %-15s %s" % (
+            # print("\n".join(["  predicted: %-15s true: %-15s taken: %-15s %s" % (
             #    predicted_action, "|".join(map(str, true_actions.values())), action, self.state) if self.oracle else
             #                              "  action: %-15s %s" % (action, self.state)] + (
             #    ["  predicted label: %-9s true label: %s" % (predicted_label, true_label) if self.oracle and not
@@ -128,10 +129,12 @@ class PassageParser(AbstractParser):
                 return  # action is Finish (or early update is triggered)
 
     def choose(self, name="action"):
-        #if axis == NODE_LABEL_KEY:
+        # if axis == NODE_LABEL_KEY:
         #    is_valid = self.state.is_valid_label
-        #else:
+        # else:
         is_valid = self.state.is_valid_action
+        max_stack_size = self.args.shapes.max_stack_size
+        max_buffer_size = self.args.shapes.max_buffer_size
 
         if self.args.model_type != "elmo-rnn":
             stack_features, buffer_features, _ = preprocessing.extract_numbered_features(
@@ -140,9 +143,6 @@ class PassageParser(AbstractParser):
                 self.args.prediction_data.label_numberer,
                 train=False
             )
-
-            max_stack_size = self.args.shapes.max_stack_size
-            max_buffer_size = self.args.shapes.max_buffer_size
 
             if self.args.model_type == "feedforward":
                 features = np.zeros(
@@ -176,17 +176,53 @@ class PassageParser(AbstractParser):
                     max_stack_size,
                     max_buffer_size
                 )
-
+            scores, = self.models[0].score(features).numpy()
         else:
+            stack_features, buffer_features, history_features = preprocess_elmo.extract_features(self.state,
+                                                                                               self.args.prediction_data.label_numberer,
+                                                                                               self.args.prediction_data.pos_numberer,
+                                                                                               self.args.prediction_data.dep_numberer,
+                                                                                               self.args.prediction_data.edge_numberer,
+                                                                                               train=False)
+            forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
+
+            if history_features == []:
+                history_features += [0]
+            inc = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
+            out = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
+            for n, item in enumerate(incoming):
+                for id in item:
+                    inc[n, id] += 1
+            for n, item in enumerate(outgoing):
+                for id in item:
+                    out[n, id] += 1
+
+            elmo = self.state.passage.elmo[0]
+            sent_length = len(elmo)
+            print(history_features)
+
+            features = {'form_indices': np.array([forms],dtype=np.int32),
+                        'deps': np.array([deps],dtype=np.int32),
+                        'pos': np.array([pos],dtype=np.int32),
+                        'heads':np.array([heads], dtype=np.int32),
+                        'height': np.array([height],dtype=np.int32),
+                        'inc' : np.array([inc],dtype=np.int32),
+                        'out': np.array([out], dtype=np.int32),
+                        'elmo': np.array([elmo], np.float32),
+                        'sent_lens': np.array([sent_length], np.int32),
+                        'history': np.array([history_features], dtype=np.int32),
+                        'hist_lens': np.array([len(history_features)], np.int32)}
+
+            scores, = self.models[0].score(features)
+            print(scores.argmax)
+            # import IPython; IPython.embed()
             # TODO: Implement elmo-rnn prediction
-            raise NotImplementedError("Elmo-rnn prediction is not yet implemented")
 
-        scores, = self.models[0].score(features).numpy()
-
-        #for model in self.models[1:]:  # Ensemble if given more than one model; align label order and add scores
+        # for model in self.models[1:]:  # Ensemble if given more than one model; align label order and add scores
         #    label_scores = dict(zip(model.classifier.labels[axis].all, self.model.score(self.state, axis)[0]))
         #    scores += [label_scores.get(a, 0) for a in labels.all]  # Product of Experts, assuming log(softmax)
         try:
+            print(str(self.predict(scores, is_valid)))
             return self.predict(scores, is_valid)
         except StopIteration as e:
             raise ParserException("No valid %s available\n" % name) from e
@@ -257,18 +293,24 @@ class PassageParser(AbstractParser):
 
 class BatchParser(AbstractParser):
     """ Parser for a single pass over dev/test passages """
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+
+    def __init__(self, argus, models, evaluate, **kwargs):
+        super().__init__(argus=argus, models=models, evaluation=evaluate, **kwargs)
         self.seen_per_format = defaultdict(int)
         self.num_passages = 0
+        from elmoformanylangs import Embedder
+
+        self.elmo = Embedder(argus.elmo_path, batch_size=1)
 
     def parse(self, passages, display=True, write=False):
         passages, total = generate_and_len(single_to_iter(passages))
         pr_width = len(str(total))
         id_width = 1
-
+        import torch
         for i, passage in enumerate(passages, start=1):
-            parser = PassageParser(passage, self.args, self.models, self.evaluation)
+            passage.set_elmo(self.elmo.sents2elmo([[str(n) for n in passage.layer("0").all]]))
+            torch.cuda.empty_cache()
+            parser = PassageParser(passage, args=self.args, models=self.models, evaluation=self.evaluation)
 
             if display:
                 progress = "%3d%% %*d/%d" % (i / total * 100, pr_width, i, total) if total and i <= total else "%d" % i
@@ -312,6 +354,7 @@ class BatchParser(AbstractParser):
 
 class Parser(AbstractParser):
     """ Main class to implement transition-based UCCA parser """
+
     def __init__(self, models, args):
         super().__init__(models, args)
         self.iteration = self.epoch = self.batch = None
@@ -358,6 +401,7 @@ def evaluate(model, args, test_passages):
     :return: generator of test Scores objects
     """
     parser = Parser(models=[model], args=args)
+
     passage_scores = []
     for result in parser.parse(test_passages, evaluate=True, write=args.write_scores):
         _, *score = result
@@ -386,7 +430,7 @@ def percents_str(part, total, infix="", fraction=True):
 
 
 def print_scores(scores, file, prefix=None, prefix_title=None):
-    #if print_title:
+    # if print_title:
     titles = scores.titles()
     if prefix_title is not None:
         titles = [prefix_title] + titles

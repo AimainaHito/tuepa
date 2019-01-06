@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+import json
 
 ACTIVATION_FUNCTIONS = {
     "selu": tf.nn.selu,
@@ -15,6 +16,7 @@ class BaseModel(tf.keras.Model):
     """
     Base model implementing common functionality for all neural network models
     """
+
     def __init__(self):
         super(BaseModel, self).__init__()
 
@@ -35,18 +37,14 @@ class BaseModel(tf.keras.Model):
 
 
 class UpDownWithResiduals(tf.keras.layers.Layer):
-    def __init__(self, upsample_units, input_size, activation,**kwargs):
+    def __init__(self, upsample_units, input_size, activation, **kwargs):
         super(UpDownWithResiduals, self).__init__(**kwargs)
         self._input_size = input_size
         self.up = tf.layers.Dense(upsample_units, activation)
-        self.down = None
-        self.built = False
+        self.down = tf.layers.Dense(input_size, use_bias=False, activation=None)
+        self._trainable_weights = self.up.trainable_weights + self.down.trainable_weights
 
     def __call__(self, input):
-        if not self.built:
-            self.down = tf.layers.Dense(input.shape[-1], use_bias=False, activation=None)
-            self._trainable_weights = self.up.trainable_weights + self.down.trainable_weights
-            self.built = True
         return self.down(self.up(input)) + input
 
     @property
@@ -109,6 +107,7 @@ class LayerNorm(tf.keras.layers.Layer):
                                      initializer=tf.ones_initializer())
         self.bias = tf.get_variable("{}/bias".format(self.name), [self.hidden_size],
                                     initializer=tf.zeros_initializer())
+
     def __call__(self, x, **kwargs):
         mean, variance = tf.nn.moments(x, axes=[-1], keep_dims=True)
         norm_x = (x - mean) / tf.rsqrt(variance + EPSILON)
@@ -170,14 +169,16 @@ class FFModel(BaseModel):
 
     def run_step(self, feats, labels, train=False):
         if train:
-            logits = self(feats, train=True)
-            predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+            with tf.GradientTape() as tape:
+                logits = self(feats, train=True)
+                predictions = tf.to_int32(tf.argmax(logits, axis=-1))
+                accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+                x_ent = self.loss(logits, labels=labels)
 
+            grads = tape.gradient(x_ent, self.weights())
             self.optimizer.apply_gradients(
                 zip(grads, self.weights()), global_step=tf.train.get_or_create_global_step()
             )
-
         else:
             logits = self(feats)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
@@ -188,16 +189,30 @@ class FFModel(BaseModel):
 
 
 class ElModel(BaseModel):
-    def __init__(self, args, feed_forward_layers, num_labels,shapes=None):
+    def __init__(self, args, num_labels, num_dependencies, num_pos):
         super().__init__()
-        self.shapes = shapes
         self.history_embeddings = tf.get_variable(
             name="embeddings",
             shape=[num_labels, args.history_embedding_size],
             dtype=tf.float32
         )
-        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, args.embedding_size], dtype=tf.float32)
-        self.padding_embedding = tf.get_variable("padding", shape=[1, args.embedding_size], dtype=tf.float32)
+
+        self.pos_embeddings = tf.get_variable(
+            name="pos_embeddings",
+            shape=[num_pos, args.history_embedding_size],
+            dtype=tf.float32
+        )
+
+        self.dep_embeddings = tf.get_variable(
+            name="dep_embeddings",
+            shape=[num_dependencies, args.history_embedding_size],
+            dtype=tf.float32
+        )
+
+        self.args = args
+        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, args.top_rnn_neurons],
+                                                      dtype=tf.float32)
+        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, args.top_rnn_neurons], dtype=tf.float32)
 
         # TODO: check if CudnnGRU is available + fallback to standard tensorflow implementation
         # elmo processor rnn
@@ -208,7 +223,8 @@ class ElModel(BaseModel):
         # history rnn
         self.history_rnn = tf.keras.layers.CuDNNGRU(args.history_rnn_neurons, return_sequences=True)
         # dense layers
-        self.feed_forward_layers = feed_forward_layers
+
+        self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
         self.downsampling_layer = tf.layers.Dense(
             self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
             self.feed_forward_layers[0].units, tf.nn.selu)
@@ -238,42 +254,49 @@ class ElModel(BaseModel):
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
 
-    def __call__(self, batch, train=False):
-        # unpack batch
-        features,history,elmo, padding, non_terminal_positions,sentence_lengths,history_lengths = batch
-        batch_size = tf.shape(features)[0]
+    def __call__(self, batch, mode=None, train=False):
+        feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
+        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths = self.unpack_inputs(
+            batch, mode)
+
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
 
-        history_input = tf.nn.embedding_lookup(self.history_embeddings, history)
-        bi_rnn_outputs = self.sentence_bi_rnn(tf.convert_to_tensor(elmo))
+        inc = tf.reshape(tf.to_float(inc), shape=[batch_size, feature_tokens * self.args.num_edges])
+        out = tf.reshape(tf.to_float(out), shape=[batch_size, feature_tokens * self.args.num_edges])
+        height = tf.to_float(height)
 
-        sentence_mask = tf.expand_dims(tf.sequence_mask(sentence_lengths, tf.shape(bi_rnn_outputs)[1], dtype=tf.float32),
-                                       axis=-1)
-        bi_rnn_outputs *= sentence_mask
-        top_rnn_output = self.sentence_top_rnn(bi_rnn_outputs)
-        state_selectors = tf.concat([batch_indices,
-                                     tf.expand_dims(sentence_lengths, axis=1)],
-                                    axis=1)
-        top_rnn_outputs = tf.gather_nd(top_rnn_output, state_selectors)
+        top_rnn_output, top_rnn_state = self.elmo_rnn(batch_indices, elmo, sentence_lengths)
 
-        history_rnn_outputs = self.history_rnn(history_input)
-        state_selectors = tf.concat([batch_indices,
-                                     tf.expand_dims(history_lengths, axis=1)],
-                                    axis=1)
-        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
+        history_rnn_state = self.apply_history_rnn(batch_indices, history, history_lengths)
 
-        # add non terminal representation to stack / buffer features
-        features += self.non_terminal_embedding * tf.cast(tf.expand_dims(non_terminal_positions, -1), dtype=tf.float32)
-        features += self.padding_embedding * tf.cast(tf.expand_dims(padding, -1), dtype=tf.float32)
+        # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
+        # 0 and 1, the rest is offset by 2
+        top_rnn_output = tf.concat(
+            [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
+             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), top_rnn_output],
+            1)
+
+        # extract embeddings for stack + buffer tokens
+        form_features = self.extract_vectors_3d(first_d=batch_indices,
+                                                second_d=form_indices,
+                                                batch_size=batch_size,
+                                                n=feature_tokens, t=top_rnn_output)
+        head_features = self.extract_vectors_3d(first_d=batch_indices,
+                                                second_d=head_indices,
+                                                batch_size=batch_size,
+                                                n=feature_tokens, t=top_rnn_output)
+        pos_features = tf.nn.embedding_lookup(self.pos_embeddings, pos)
+        dep_features = tf.nn.embedding_lookup(self.dep_embeddings, dep_types)
+
+        features = tf.concat([form_features, head_features, pos_features, dep_features], axis=-1)
         feedforward_input = tf.reshape(
             features,
-            [batch_size, sum(self.shapes.values())*300]
+            [batch_size, features.shape[1] * features.shape[2]]
         )
-        conc = tf.concat([history_rnn_state, feedforward_input, top_rnn_outputs], -1)
-        expl = tf.reshape(conc,[-1,sum(self.shapes.values())*300+512+512])
-        feedforward_input = self.downsampling_layer(
-            expl
-            )
+
+        feature_vec = tf.concat([history_rnn_state, feedforward_input, top_rnn_state, height, inc, out], -1)
+        feedforward_input = self.downsampling_layer(feature_vec)
+
         if train:
             feedforward_input = tf.nn.dropout(feedforward_input, self.input_dropout)
 
@@ -284,16 +307,86 @@ class ElModel(BaseModel):
 
         return self.projection_layer(feedforward_input)
 
+    def apply_history_rnn(self, batch_indices, history, history_lengths):
+        history_input = tf.nn.embedding_lookup(self.history_embeddings, history)
+        history_rnn_outputs = self.history_rnn(history_input)
+        state_selectors = tf.concat([batch_indices,
+                                     tf.expand_dims(history_lengths, axis=1)],
+                                    axis=1)
+        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
+        return history_rnn_state
+
+    def unpack_inputs(self, batch, mode):
+        if mode != tf.estimator.ModeKeys.PREDICT:
+            form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths = batch
+            batch_size = tf.shape(form_indices)[0]
+        else:
+            form_indices = batch['form_indices']
+            batch_size = tf.shape(form_indices)[0]
+            dep_types = batch['deps']
+            pos = batch['pos']
+            head_indices = batch['heads']
+            height = batch['height']
+            inc = batch['inc']
+            out = batch['out']
+            history = batch['history']
+            sentence_lengths = batch['sent_lens']
+            elmo = tf.reshape(batch['elmo'], shape=[batch_size, -1, 1024])
+            history_lengths = batch['hist_lens']
+        return batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths
+
+    def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
+        """
+        Extracts `n` vectors from the last dimension of `t`.
+
+        :param first_d: a vector that indexes into the first dimension of `t`.
+        :param second_d: a matrix with len(first_d) rows and `n` columns that index into the second dimension of `t`
+        :param batch_size:
+        :param n:
+        :param t:
+        :return: the vectors indexed by first_d and second_d
+        """
+        indices = tf.reshape(second_d, shape=[batch_size, n, 1])
+        selectors = tf.concat(
+            [tf.tile(
+                tf.expand_dims(first_d, 1),
+                [1, n, 1]
+            ), indices],
+            -1)
+        features = tf.gather_nd(t, selectors)
+        return features
+
+    def elmo_rnn(self, batch_indices, elmo, sentence_lengths):
+        """
+        Runs bi-rnn over `elmo` and extracts the final states at position `sentence_lengths`
+        :param batch_indices: range vector with length of batch size
+        :param elmo: tensor containing elmo output for the input sentences
+        :param sentence_lengths: length of elmo sentences
+        :return: final states of the bi rnn over the elmo sentences
+        """
+        bi_rnn_outputs = self.sentence_bi_rnn(tf.convert_to_tensor(elmo))
+        sentence_mask = tf.expand_dims(
+            tf.sequence_mask(sentence_lengths, tf.shape(bi_rnn_outputs)[1], dtype=tf.float32),
+            axis=-1)
+        bi_rnn_outputs *= sentence_mask
+        top_rnn_output = self.sentence_top_rnn(bi_rnn_outputs)
+        state_selectors = tf.concat([batch_indices,
+                                     tf.expand_dims(sentence_lengths, axis=1)],
+                                    axis=1)
+        top_rnn_state = tf.gather_nd(top_rnn_output, state_selectors)
+        return top_rnn_output, top_rnn_state
+
     def compute_gradients(self, batch, labels):
         def loss_fun(batch):
             logits = self(batch, train=True)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
             accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
-            return (accuracy, self.loss(logits, labels=labels))
+            return accuracy, self.loss(logits, labels=labels)
 
         from tensorflow.contrib.eager.python import tfe
         grads = tfe.implicit_value_and_gradients(loss_fun)
         return grads(batch)
+
 
 def split_heads(t, hidden_size, num_heads):
     """

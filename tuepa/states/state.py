@@ -32,7 +32,7 @@ class State:
         self.passage = passage
         l0, l1 = [self.get_layer(passage, l) for l in (layer0, layer1)]
         self.labeled = any(n.outgoing or n.attrib.get(LABEL_ATTRIB) for n in l1.all)
-        self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag)
+        self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag, extra=t.extra)
                           for i, t in enumerate(l0.all, start=1)]
         self.stack = []
         self.buffer = deque()
