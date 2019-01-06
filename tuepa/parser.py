@@ -106,7 +106,8 @@ class PassageParser(AbstractParser):
             # self.label_node()  # In case root node needs labeling
             action = self.choose()
             self.state.transition(action)
-
+            print(self.state.stack)
+            print(self.state.buffer)
             if self.args.action_stats:
                 try:
                     if self.args.action_stats == "-":
@@ -178,14 +179,14 @@ class PassageParser(AbstractParser):
                 )
             scores, = self.models[0].score(features).numpy()
         else:
-            stack_features, buffer_features, history_features = preprocess_elmo.extract_features(self.state,
+            stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(self.state,
                                                                                                self.args.prediction_data.label_numberer,
                                                                                                self.args.prediction_data.pos_numberer,
                                                                                                self.args.prediction_data.dep_numberer,
                                                                                                self.args.prediction_data.edge_numberer,
                                                                                                train=False)
             forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
-
+            hist_len = [len(history_features)]
             if history_features == []:
                 history_features += [0]
             inc = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
@@ -200,7 +201,7 @@ class PassageParser(AbstractParser):
             elmo = self.state.passage.elmo[0]
             sent_length = len(elmo)
             print(history_features)
-
+            # import IPython; IPython.embed()
             features = {'form_indices': np.array([forms],dtype=np.int32),
                         'deps': np.array([deps],dtype=np.int32),
                         'pos': np.array([pos],dtype=np.int32),
@@ -211,7 +212,7 @@ class PassageParser(AbstractParser):
                         'elmo': np.array([elmo], np.float32),
                         'sent_lens': np.array([sent_length], np.int32),
                         'history': np.array([history_features], dtype=np.int32),
-                        'hist_lens': np.array([len(history_features)], np.int32)}
+                        'hist_lens': np.array(hist_len, np.int32)}
 
             scores, = self.models[0].score(features)
             print(scores.argmax)
@@ -234,9 +235,16 @@ class PassageParser(AbstractParser):
         Otherwise, sorts all the other scores to choose the best valid one in O(n lg n)
         :return: valid action/label with maximum probability according to classifier
         """
-        return next(filter(is_valid, (Action(
-            self.args.prediction_data.label_numberer.value(i)
-        ) for i in scores.argsort()[::-1])))
+        for i in scores.argsort()[::-1]:
+            action = self.args.prediction_data.label_numberer.value(i)
+            split_act = action.split("-")
+            tag = None
+            if len(split_act) > 1:
+                action = split_act[0]
+                tag = split_act[1]
+            action = Action(action,tag=tag)
+            if is_valid(action):
+                return action
 
     def finish(self, status, display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)

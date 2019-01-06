@@ -140,6 +140,11 @@ def get_eval_parser(parser):
     evaluation_parser.add_argument("--lang", help="Target language shorthand")
     evaluation_parser.add_argument("-elmo", "--elmo-path", required=True,
                                    help="Path to ELMo trained with ELMoForManyLangs.")
+    evaluation_parser.add_argument("-mnr", "--max-node-ratio", required=False, default=10.,
+                                   help="Path to ELMo trained with ELMoForManyLangs.")
+    evaluation_parser.add_argument("-mh", "--max-height", required=False, default=20,
+                                   help="Path to ELMo trained with ELMoForManyLangs.")
+    evaluation_parser.add_argument("--orphan-label", default="orphan", help="edge label to use for nodes without parents")
 
 
 def get_oracle_parser(parents=None):
