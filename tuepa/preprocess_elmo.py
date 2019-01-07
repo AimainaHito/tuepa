@@ -13,7 +13,7 @@ from preprocessing import read_passages,Shapes
 from oracle import Oracle
 from states.state import State
 
-def extract_elmo_features(state, label_numberer, dep_numberer, pos_numberer, edge_numberer, train=True):
+def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numberer, edge_numberer, train=True):
     stack_features = []
     buffer_features = []
     stack = state.stack
@@ -40,7 +40,7 @@ def extract_elmo_features(state, label_numberer, dep_numberer, pos_numberer, edg
         return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train), incoming,
                 outgoing, height]
 
-    for n in range(5):
+    for n in range(args.stack_elements):
         try:
             node = stack[-n]
             stack_features.append(extract_feature(node))
@@ -81,9 +81,9 @@ def extract_elmo_features(state, label_numberer, dep_numberer, pos_numberer, edg
             stack_features.append(null_features())
             stack_features.append(null_features())
             stack_features.append(null_features())
-    for n in range(5):
+    for n in range(args.buffer_elements):
         try:
-            buffer_features.append(extract_feature(buffer[-n]))
+            buffer_features.append(extract_feature(buffer[n]))
         except IndexError:
             buffer_features.append(null_features())
 
@@ -138,6 +138,7 @@ def preprocess_dataset(path,
             action = next(actions)
 
             stack_features, buffer_features, state_history = extract_elmo_features(
+                args,
                 state,
                 label_numberer,
                 pos_numberer=pos_numberer,
@@ -166,7 +167,6 @@ def preprocess_dataset(path,
 
         if max_features is not None and len(stack_and_buffer_features) >= max_features:
             break
-
         passage_id += 1
 
     return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, labels
@@ -218,6 +218,24 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         chunk_no = 0
 
         for index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
+            if index % write_chunk == 0 and not start:
+                cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
+
+                print("writing to {}".format(cur_slice))
+
+                form_matrix[cur_slice] = form_chunk
+                dep_matrix[cur_slice] = dep_chunk
+                head_matrix[cur_slice] = head_chunk
+                out_matrix[cur_slice] = out_chunk
+                inc_matrix[cur_slice] = inc_chunk
+                pos_matrix[cur_slice] = pos_chunk
+                height_matrix[cur_slice] = height_chunk
+                history_matrix[cur_slice] = hist_chunk
+                action_counts[cur_slice] = action_count_chunk
+                print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
+
+                chunk_no += 1
+            start = False
             forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
             index = index % write_chunk
             form_chunk[index] = forms
@@ -237,25 +255,6 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
 
             hist_chunk[index] = np.hstack(
                 [history_features[index], np.zeros(shape=(max_hist_size - len(history_features[index])))])
-
-            if index % write_chunk == 0 and not start:
-                cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
-
-                print("writing to {}".format(cur_slice))
-
-                form_matrix[cur_slice] = form_chunk
-                dep_matrix[cur_slice] = dep_chunk
-                head_matrix[cur_slice] = head_chunk
-                out_matrix[cur_slice] = out_chunk
-                inc_matrix[cur_slice] = inc_chunk
-                pos_matrix[cur_slice] = pos_chunk
-                height_matrix[cur_slice] = height_chunk
-                history_matrix[cur_slice] = hist_chunk
-                action_counts[cur_slice] = action_count_chunk
-                print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
-
-                chunk_no += 1
-            start = False
 
         if index % write_chunk != 0:
             cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))

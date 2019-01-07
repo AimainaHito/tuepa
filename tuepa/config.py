@@ -123,6 +123,11 @@ def get_preprocess_parser(parents=None):
                                  help="Path to ELMo trained with ELMoForManyLangs.")
     argument_parser.add_argument("--save-dir", default=None, required=True,
                                  help="Directory where meta information such as vocabularies will be saved.")
+    argument_parser.add_argument("--stack_elements", default=3, type=int,
+                                 help="Number of stack elements for which features will be extracted.")
+    argument_parser.add_argument("--buffer_elements", default=3, type=int,
+                                 help="Number of buffer elements for which features will be extracted.")
+
     return argument_parser
 
 def get_eval_parser(parser):
