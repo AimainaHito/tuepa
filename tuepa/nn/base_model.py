@@ -1,3 +1,5 @@
+import tensorflow as tf
+
 class BaseModel(tf.keras.Model):
     """
     Base model implementing common functionality for all neural network models

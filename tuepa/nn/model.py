@@ -5,8 +5,6 @@ import tensorflow as tf
 import numpy as np
 import json
 
-EPSILON = 1e-6
-
 
 class FFModel(BaseModel):
     def __init__(

@@ -1,3 +1,7 @@
+import tensorflow as tf
+
+EPSILON = 1e-6
+
 class UpDownWithResiduals(tf.keras.layers.Layer):
     def __init__(self, upsample_units, input_size, activation, **kwargs):
         super(UpDownWithResiduals, self).__init__(**kwargs)
