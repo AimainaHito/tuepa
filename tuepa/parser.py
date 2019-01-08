@@ -248,8 +248,8 @@ class PassageParser(AbstractParser):
             split_act = action.split("-")
             tag = None
             if len(split_act) > 1:
-                action = split_act[0]
-                tag = split_act[1]
+                action = "-".join(split_act[:-1])
+                tag = split_act[-1]
             action = Action(action,tag=tag)
             if is_valid(action):
                 return action
