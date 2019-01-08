@@ -1,7 +1,7 @@
 import multiprocessing
 import os
 
-import parser
+from parser import parser
 import tensorflow as tf
 
 from ucca import constructions
