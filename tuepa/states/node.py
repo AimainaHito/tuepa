@@ -14,13 +14,12 @@ class Node:
     Temporary representation for core.Node with only relevant information for parsing
     """
     def __init__(self, index, swap_index=None, orig_node=None, text=None, paragraph=None, tag=None, label=None,
-                 implicit=False, is_root=False, root=None, verify=False,extra=None):
+                 implicit=False, is_root=False, root=None, verify=False):
         self.index = index  # Index in the configuration's node list
         self.orig_node = orig_node  # Associated core.Node from the original Passage, during training
         self.node_id = orig_node.ID if orig_node else None  # ID of the original node
         self.text = text  # Text for terminals, None for non-terminals
         self.paragraph = paragraph  # int for terminals, None for non-terminals
-        self.extra = extra
         self.tag = tag  # Node tag of the original node (Word/Punctuation)
         if label is None:
             self.label = self.category = None

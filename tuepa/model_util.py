@@ -13,10 +13,11 @@ from glob import glob
 from operator import itemgetter
 from tqdm import tqdm
 
-from tuepa.parser.labels import Labels
+from labels import Labels
 
 MISSING_VALUE = -1
 UNKNOWN_VALUE = 0
+
 
 class DefaultOrderedDict(OrderedDict, Labels):
     # Source: http://stackoverflow.com/a/6190500/223267
