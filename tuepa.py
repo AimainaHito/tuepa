@@ -11,11 +11,11 @@ import copy
 import numpy as np
 import tensorflow as tf
 
-from numberer import Numberer, load_numberer_from_file
-from config import create_argument_parser
-from model import FFModel, TransformerModel, feed_forward_from_json
-from preprocessing import PredictionData, preprocess_dataset, read_passages
-import progress
+from tuepa.numberer import Numberer, load_numberer_from_file
+from tuepa.config import create_argument_parser
+from tuepa.model import FFModel, TransformerModel, feed_forward_from_json
+from tuepa.preprocessing import PredictionData, preprocess_dataset, read_passages
+import tuepa.progress
 import parser
 
 

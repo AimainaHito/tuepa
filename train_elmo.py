@@ -3,12 +3,12 @@ import os
 import tensorflow as tf
 from argparse import Namespace
 
-from config import create_argument_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
+from tuepa.util.config import create_argument_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
     DEP_FILENAME, EDGE_FILENAME, POS_FILENAME
-from elmo_input import get_elmo_input_fn
-from model import ElModel
-from numberer import Numberer, load_numberer_from_file
-from util import SaverHook
+from tuepa.data.elmo import get_elmo_input_fn
+from tuepa.nn import ElModel
+from tuepa.util.numberer import Numberer, load_numberer_from_file
+from tuepa.util import SaverHook
 
 
 def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numberer):
@@ -147,7 +147,7 @@ def train(args):
 
 
 def main(args):
-    import config
+    import tuepa.util.config as config
     tf.enable_eager_execution()
     tf.logging.set_verbosity(tf.logging.INFO)
     argument_parser = config.get_elmo_parser()

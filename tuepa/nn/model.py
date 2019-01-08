@@ -1,120 +1,9 @@
+from .base_model import BaseModel
+from .blocks import *
+
 import tensorflow as tf
 import numpy as np
 import json
-
-ACTIVATION_FUNCTIONS = {
-    "selu": tf.nn.selu,
-    "relu": tf.nn.relu,
-    "tanh": tf.nn.tanh,
-    "sigmoid": tf.sigmoid,
-    "gelu": lambda x: 0.5 * (1.0 + tf.erf(x / tf.sqrt(2.0))),
-    "none": None,
-}
-
-
-class BaseModel(tf.keras.Model):
-    """
-    Base model implementing common functionality for all neural network models
-    """
-
-    def __init__(self):
-        super(BaseModel, self).__init__()
-
-    def loss(self, logits, labels):
-        return tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=labels)
-
-    def weights(self):
-        raise NotImplementedError("Weights have to be specified by a concrete model implementation")
-
-    def score(self, feats):
-        return self(feats, train=False)
-
-    def save(self, file_prefix):
-        tf.contrib.eager.Saver(self.weights()).save(file_prefix)
-
-    def restore(self, file_prefix):
-        tf.contrib.eager.Saver(self.weights()).restore(file_prefix)
-
-
-class UpDownWithResiduals(tf.keras.layers.Layer):
-    def __init__(self, upsample_units, input_size, activation, **kwargs):
-        super(UpDownWithResiduals, self).__init__(**kwargs)
-        self._input_size = input_size
-        self.up = tf.layers.Dense(upsample_units, activation)
-        self.down = tf.layers.Dense(input_size, use_bias=False, activation=None)
-        self._trainable_weights = self.up.trainable_weights + self.down.trainable_weights
-
-    def __call__(self, input):
-        return self.down(self.up(input)) + input
-
-    @property
-    def trainable_weights(self):
-        return self._trainable_weights
-
-    @property
-    def weights(self):
-        return self.up.trainable_weights + self.down.trainable_weights
-
-    @property
-    def input_size(self):
-        return self._input_size
-
-
-"""
-Creates Feedforward layers from a json list
-Example:
-[{"neurons" : 512, "activation" : "relu"}, {"neurons" : 512, "activation" : "relu", "updown" : true}]
-
-:param json_data: A list where where each entry is a dictionary containing
-"neurons" (integer), "bias" (boolean, default is True), "activation"
-(one of "relu", "sigmoid", "tanh" or "none" default is "none") and "updown" (boolean, default is False)
-
-:return: A list of tensorflow Dense layers
-"""
-
-
-def feed_forward_from_json(json_data):
-    layers = []
-
-    for layer in json_data:
-        layers.append(
-            UpDownWithResiduals(
-                upsample_units=layer["neurons"] * 2,
-                input_size=layer["neurons"],
-                activation=ACTIVATION_FUNCTIONS[layer['activation']]
-            ) if layer.get('updown', False) else tf.layers.Dense(
-                layer["neurons"],
-                use_bias=layer.get("bias", True),
-                activation=ACTIVATION_FUNCTIONS.get(layer["activation"], None)
-            )
-        )
-
-    return layers
-
-
-EPSILON = 1e-6
-
-
-class LayerNorm(tf.keras.layers.Layer):
-    """
-    Layer normalization layer as in https://github.com/tensorflow/models/blob/master/official/transformer/model/transformer.py
-    """
-
-    def __init__(self, hsize, **kwargs):
-        super().__init__(**kwargs)
-        self.hidden_size = hsize
-        self.scale = tf.get_variable("{}/scale".format(self.name), [self.hidden_size],
-                                     initializer=tf.ones_initializer())
-        self.bias = tf.get_variable("{}/bias".format(self.name), [self.hidden_size],
-                                    initializer=tf.zeros_initializer())
-
-    def __call__(self, x, **kwargs):
-        mean, variance = tf.nn.moments(x, axes=[-1], keep_dims=True)
-        norm_x = (x - mean) / tf.rsqrt(variance + EPSILON)
-        return norm_x * self.scale + self.bias
-
-    def weights(self):
-        return [self.scale, self.bias]
 
 
 class FFModel(BaseModel):
@@ -129,7 +18,8 @@ class FFModel(BaseModel):
         )
 
         self.feed_forward_layers = feed_forward_layers
-        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
+        self.projection_layer = tf.layers.Dense(
+            num_labels, use_bias=False, activation=None)
         self.optimizer = tf.train.AdamOptimizer(initial_learning_rate)
         self.input_dropout = input_dropout
         self.layer_dropout = layer_dropout
@@ -151,9 +41,9 @@ class FFModel(BaseModel):
 
     def weights(self):
         return (
-                [self.embeddings]
-                + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
-                + self.projection_layer.trainable_weights
+            [self.embeddings]
+            + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
+            + self.projection_layer.trainable_weights
         )
 
     def predict(self, feats):
@@ -172,7 +62,8 @@ class FFModel(BaseModel):
             with tf.GradientTape() as tape:
                 logits = self(feats, train=True)
                 predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-                accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+                accuracy = tf.reduce_mean(
+                    tf.to_float(tf.equal(predictions, labels)))
                 x_ent = self.loss(logits, labels=labels)
 
             grads = tape.gradient(x_ent, self.weights())
@@ -182,7 +73,8 @@ class FFModel(BaseModel):
         else:
             logits = self(feats)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+            accuracy = tf.reduce_mean(
+                tf.to_float(tf.equal(predictions, labels)))
             x_ent = self.loss(logits, labels=labels)
 
         return sum(x_ent.numpy()), accuracy
@@ -212,24 +104,29 @@ class ElModel(BaseModel):
         self.args = args
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, args.top_rnn_neurons],
                                                       dtype=tf.float32)
-        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, args.top_rnn_neurons], dtype=tf.float32)
+        self.padding_embedding = tf.get_variable(
+            "padding", shape=[1, 1, args.top_rnn_neurons], dtype=tf.float32)
 
         # TODO: check if CudnnGRU is available + fallback to standard tensorflow implementation
         # elmo processor rnn
         self.sentence_bi_rnn = tf.keras.layers.Bidirectional(
-            tf.keras.layers.CuDNNGRU(args.bi_rnn_neurons, return_sequences=True), merge_mode='concat')
+            tf.keras.layers.LSTM(args.bi_rnn_neurons, return_sequences=True), merge_mode='concat')
 
-        self.sentence_top_rnn = tf.keras.layers.CuDNNGRU(args.top_rnn_neurons, return_sequences=True)
+        self.sentence_top_rnn = tf.keras.layers.LSTM(
+            args.top_rnn_neurons, return_sequences=True)
         # history rnn
-        self.history_rnn = tf.keras.layers.CuDNNGRU(args.history_rnn_neurons, return_sequences=True)
+        self.history_rnn = tf.keras.layers.LSTM(
+            args.history_rnn_neurons, return_sequences=True)
         # dense layers
 
-        self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
+        self.feed_forward_layers = feed_forward_from_json(
+            json.loads(args.layers))
         self.downsampling_layer = tf.layers.Dense(
             self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
             self.feed_forward_layers[0].units)
 
-        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, activation=None)
+        self.projection_layer = tf.layers.Dense(
+            num_labels, use_bias=False, activation=None)
 
         self.lr = tf.Variable(args.learning_rate, name="learning_rate")
         self.optimizer = tf.train.AdamOptimizer(self.lr)
@@ -262,13 +159,17 @@ class ElModel(BaseModel):
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
 
         action_counts = tf.to_float(action_counts)
-        inc = tf.reshape(tf.to_float(inc), shape=[batch_size, feature_tokens * self.args.num_edges])
-        out = tf.reshape(tf.to_float(out), shape=[batch_size, feature_tokens * self.args.num_edges])
+        inc = tf.reshape(tf.to_float(inc), shape=[
+                         batch_size, feature_tokens * self.args.num_edges])
+        out = tf.reshape(tf.to_float(out), shape=[
+                         batch_size, feature_tokens * self.args.num_edges])
         height = tf.to_float(height)
 
-        top_rnn_output, top_rnn_state = self.elmo_rnn(batch_indices, elmo, sentence_lengths)
+        top_rnn_output, top_rnn_state = self.elmo_rnn(
+            batch_indices, elmo, sentence_lengths)
 
-        history_rnn_state = self.apply_history_rnn(batch_indices, history, history_lengths)
+        history_rnn_state = self.apply_history_rnn(
+            batch_indices, history, history_lengths)
 
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
@@ -289,13 +190,15 @@ class ElModel(BaseModel):
         pos_features = tf.nn.embedding_lookup(self.pos_embeddings, pos)
         dep_features = tf.nn.embedding_lookup(self.dep_embeddings, dep_types)
 
-        features = tf.concat([form_features, head_features, pos_features, dep_features], axis=-1)
+        features = tf.concat(
+            [form_features, head_features, pos_features, dep_features], axis=-1)
         feedforward_input = tf.reshape(
             features,
             [batch_size, features.shape[1] * features.shape[2]]
         )
 
-        feature_vec = tf.concat([history_rnn_state, feedforward_input, top_rnn_state, height, inc, out,action_counts], -1)
+        feature_vec = tf.concat([history_rnn_state, feedforward_input,
+                                 top_rnn_state, height, inc, out, action_counts], -1)
         feature_vec = self.downsampling_layer(feature_vec)
 
         if train:
@@ -309,7 +212,8 @@ class ElModel(BaseModel):
         return self.projection_layer(feature_vec)
 
     def apply_history_rnn(self, batch_indices, history, history_lengths):
-        history_input = tf.nn.embedding_lookup(self.history_embeddings, history)
+        history_input = tf.nn.embedding_lookup(
+            self.history_embeddings, history)
         history_rnn_outputs = self.history_rnn(history_input)
         state_selectors = tf.concat([batch_indices,
                                      tf.expand_dims(history_lengths, axis=1)],
@@ -320,22 +224,21 @@ class ElModel(BaseModel):
     def unpack_inputs(self, batch, mode):
         if mode != tf.estimator.ModeKeys.PREDICT:
             form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts = batch
-            batch_size = tf.shape(form_indices)[0]
         else:
-            form_indices = batch['form_indices']
-            batch_size = tf.shape(form_indices)[0]
-            dep_types = batch['deps']
-            pos = batch['pos']
-            head_indices = batch['heads']
-            height = batch['height']
-            inc = batch['inc']
-            out = batch['out']
-            history = batch['history']
-            sentence_lengths = batch['sent_lens']
-            elmo = tf.reshape(batch['elmo'], shape=[batch_size, -1, 1024])
-            history_lengths = batch['hist_lens']
-            action_counts = batch['action_counts']
-        return batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts
+            feature_tokens = self.shapes.max_buffer_size+self.shapes.max_stack_size
+            form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens],dtype=tf.int32)
+            dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens],dtype=tf.int32)
+            head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens],dtype=tf.int32)
+            pos = tf.placeholder(name="pos", shape=[None, feature_tokens],dtype=tf.int32)
+            height = tf.placeholder(name="height", shape=[None, feature_tokens],dtype=tf.int32)
+            inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
+            out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
+            history = tf.placeholder(name="hist", shape=[None, None],dtype=tf.int32)
+            elmo = tf.placeholder(name="elmo", shape=[None, None, 1024],dtype=tf.float32)
+            sentence_lengths = tf.placeholder(name="sent_lens", shape=[None],dtype=tf.float32)
+            history_lengths = tf.placeholder(name="hist_lens", shape=[None],dtype=tf.float32)
+            action_counts = tf.placeholder(name="act_counts", shape=[None,args.num_labels], dtype=tf.int32)
+        return tf.shape(form_indices)[0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """
@@ -368,7 +271,8 @@ class ElModel(BaseModel):
         """
         bi_rnn_outputs = self.sentence_bi_rnn(tf.convert_to_tensor(elmo))
         sentence_mask = tf.expand_dims(
-            tf.sequence_mask(sentence_lengths, tf.shape(bi_rnn_outputs)[1], dtype=tf.float32),
+            tf.sequence_mask(sentence_lengths, tf.shape(
+                bi_rnn_outputs)[1], dtype=tf.float32),
             axis=-1)
         bi_rnn_outputs *= sentence_mask
         top_rnn_output = self.sentence_top_rnn(bi_rnn_outputs)
@@ -382,96 +286,13 @@ class ElModel(BaseModel):
         def loss_fun(batch):
             logits = self(batch, train=True)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+            accuracy = tf.reduce_mean(
+                tf.to_float(tf.equal(predictions, labels)))
             return accuracy, self.loss(logits, labels=labels)
 
         from tensorflow.contrib.eager.python import tfe
         grads = tfe.implicit_value_and_gradients(loss_fun)
         return grads(batch)
-
-
-def split_heads(t, hidden_size, num_heads):
-    """
-    Splits the last dimension of `t` into `self.config.num_heads` dimensions.
-    """
-    batch_size = tf.shape(t)[0]  # Batch dimension
-    batch_length = tf.shape(t)[1]  # Length dimension
-    head_size = hidden_size // num_heads  # Dimensions per head
-    # Transpose to [batch, num_heads, length, head] so that attention is across length dimension
-    return tf.transpose(tf.reshape(t, [batch_size, batch_length, num_heads, head_size]),
-                        [0, 2, 1, 3])
-
-
-class SelfAttention(tf.keras.layers.Layer):
-    def __init__(self, num_heads, neurons, **kwargs):
-        super().__init__(**kwargs)
-        self.built = False
-        self.neurons = neurons
-        self.num_heads = num_heads
-        self.projection_layer = tf.layers.Dense(neurons, use_bias=False)
-
-    def compute_output_shape(self, input_shape):
-        return input_shape
-
-    def build(self, input_shape):
-        self.q = tf.layers.Dense(input_shape[-1], name="q", use_bias=False)
-        self.k = tf.layers.Dense(input_shape[-1], name="k", use_bias=False)
-        self.v = tf.layers.Dense(input_shape[-1], name="v", use_bias=False)
-        self.layer_norm = LayerNorm(input_shape[-1])
-        self.built = True
-
-    @property
-    def trainable_weights(self):
-        return self.q.trainable_weights + self.k.trainable_weights + self.v.trainable_weights + self.projection_layer.trainable_weights + self.layer_norm.weights()
-
-    def __call__(self, inputs, **kwargs):
-        if not self.built:
-            self.build(inputs.shape)
-
-        queries = self.q(inputs)
-        keys = self.k(inputs)
-        values = self.v(inputs)
-
-        queries = split_heads(queries, hidden_size=self.neurons, num_heads=self.num_heads)
-        keys = split_heads(keys, hidden_size=self.neurons, num_heads=self.num_heads)
-        values = split_heads(values, hidden_size=self.neurons, num_heads=self.num_heads)
-
-        # Dot product + scale queries
-        scale = tf.constant(8 ** -0.5)
-        scores = tf.matmul(queries * scale, keys, transpose_b=True)
-
-        # Attention_dropout = tf.layers.Dropout(1 - 0.1)
-        scores = tf.nn.softmax(scores + 0.0001)
-
-        # Apply scores to values
-        heads = tf.matmul(scores, values)
-
-        # Restore [batch, length, num_heads, head] order and rejoin num_heads and head
-        heads = tf.reshape(tf.transpose(heads, [0, 2, 1, 3]), (tf.shape(inputs)[0], tf.shape(inputs)[1],
-                                                               tf.shape(inputs)[-1]))
-
-        # Apply projection layer and layer normalization
-        return self.layer_norm(self.projection_layer(heads) + inputs)
-
-
-class ResidualFeedforward(tf.keras.layers.Layer):
-    def __init__(self, attention_neurons, feedforward_neurons, **kwargs):
-        super().__init__(self, **kwargs)
-        self.feedforward = tf.layers.Dense(feedforward_neurons, tf.nn.relu)
-        self.projection_layer = tf.layers.Dense(attention_neurons, use_bias=False)
-        self.layer_norm = LayerNorm(attention_neurons)
-
-    @property
-    def trainable_weights(self):
-        return self.feedforward.trainable_weights + self.projection_layer.trainable_weights + self.layer_norm.weights()
-
-    def __call__(self, inputs):
-        output = self.feedforward(inputs)
-        # Normalized feedforward output with residual connections
-        return self.layer_norm(
-            self.projection_layer(output)
-            + inputs
-        )
 
 
 class TransformerModel(BaseModel):
@@ -501,8 +322,8 @@ class TransformerModel(BaseModel):
 
     def weights(self):
         return (
-                [self.embeddings, self.position_embeddings]
-                + sum((layer.trainable_weights for layer in self.encoder), [])
+            [self.embeddings, self.position_embeddings]
+            + sum((layer.trainable_weights for layer in self.encoder), [])
         )
 
     def run_step(self, feats, labels, train=False):
@@ -510,7 +331,8 @@ class TransformerModel(BaseModel):
             with tf.GradientTape() as tape:
                 logits = self(feats)
                 predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-                accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+                accuracy = tf.reduce_mean(
+                    tf.to_float(tf.equal(predictions, labels)))
                 x_ent = self.loss(logits, labels=labels)
 
             gradients = tape.gradient(x_ent, self.weights())
@@ -520,7 +342,8 @@ class TransformerModel(BaseModel):
         else:
             logits = self(feats)
             predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+            accuracy = tf.reduce_mean(
+                tf.to_float(tf.equal(predictions, labels)))
             x_ent = self.loss(logits, labels=labels)
 
         return sum(x_ent.numpy()), accuracy
@@ -528,7 +351,8 @@ class TransformerModel(BaseModel):
     def restore(self, file_prefix, args):
         # Initialize layers with an empty batch
         self(np.zeros(
-            (1, args.shapes.max_stack_size + args.shapes.max_buffer_size + args.max_training_length + 1),
+            (1, args.shapes.max_stack_size +
+             args.shapes.max_buffer_size + args.max_training_length + 1),
             dtype=np.int32
         ))
         super().restore(file_prefix)
@@ -536,7 +360,9 @@ class TransformerModel(BaseModel):
     def build_encoder(self):
         encoder = []
         for _ in range(self.layers):
-            encoder.append(SelfAttention(self.args.num_heads, self.args.embedding_size))
-            encoder.append(ResidualFeedforward(self.args.embedding_size, self.args.self_attention_neurons))
+            encoder.append(SelfAttention(
+                self.args.num_heads, self.args.embedding_size))
+            encoder.append(ResidualFeedforward(
+                self.args.embedding_size, self.args.self_attention_neurons))
 
         return encoder
