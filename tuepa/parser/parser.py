@@ -14,10 +14,10 @@ from ucca import ioutil
 from ucca.evaluation import LABELED, UNLABELED, EVAL_TYPES, evaluate as evaluate_ucca
 from ucca.normalization import normalize
 
-from states.state import State
-from action import Action
-import preprocessing
-import preprocess_elmo
+from .states.state import State
+from .action import Action
+import tuepa.preprocessing as preprocessing
+import tuepa.data.elmo.elmo_processing as preprocess_elmo
 
 class ParserException(Exception):
     pass

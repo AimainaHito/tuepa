@@ -10,7 +10,7 @@ from ucca.layer1 import EdgeTags
 
 from .edge import Edge
 from .node import Node
-from action import Actions
+from tuepa.parser.action import Actions
 
 
 class InvalidActionError(AssertionError):

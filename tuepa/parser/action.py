@@ -1,5 +1,5 @@
-from config import COMPOUND
-from labels import Labels
+from tuepa.util.config import COMPOUND
+from .labels import Labels
 
 
 class Action(dict):
