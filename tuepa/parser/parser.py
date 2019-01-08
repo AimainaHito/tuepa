@@ -16,7 +16,7 @@ from ucca.normalization import normalize
 
 from .states.state import State
 from .action import Action
-import tuepa.preprocessing as preprocessing
+import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
 
 class ParserException(Exception):
@@ -179,7 +179,7 @@ class PassageParser(AbstractParser):
                 )
             scores, = self.models[0].score(features).numpy()
         else:
-            stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(self.state,
+            stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(self.args,self.state,
                                                                                                self.args.prediction_data.label_numberer,
                                                                                                self.args.prediction_data.pos_numberer,
                                                                                                self.args.prediction_data.dep_numberer,
@@ -187,7 +187,7 @@ class PassageParser(AbstractParser):
                                                                                                train=False)
             forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
 
-            actions = [self.args.prediction_data.label_numberer.value2num[action] for action in self.state.actions]
+            actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
             previous_actions = np.zeros((self.args.prediction_data.label_numberer.max),dtype=np.int32)
             previous_actions[actions] += 1
 

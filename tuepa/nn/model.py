@@ -110,12 +110,12 @@ class ElModel(BaseModel):
         # TODO: check if CudnnGRU is available + fallback to standard tensorflow implementation
         # elmo processor rnn
         self.sentence_bi_rnn = tf.keras.layers.Bidirectional(
-            tf.keras.layers.CuDNNGRU(args.bi_rnn_neurons, return_sequences=True), merge_mode='concat')
+            tf.keras.layers.LSTM(args.bi_rnn_neurons, return_sequences=True), merge_mode='concat')
 
-        self.sentence_top_rnn = tf.keras.layers.CuDNNGRU(
+        self.sentence_top_rnn = tf.keras.layers.LSTM(
             args.top_rnn_neurons, return_sequences=True)
         # history rnn
-        self.history_rnn = tf.keras.layers.CuDNNGRU(
+        self.history_rnn = tf.keras.layers.LSTM(
             args.history_rnn_neurons, return_sequences=True)
         # dense layers
 

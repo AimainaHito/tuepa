@@ -1,7 +1,7 @@
 import multiprocessing
 import os
 
-from parser import parser
+from tuepa.parser import parser
 import tensorflow as tf
 
 from ucca import constructions
@@ -25,13 +25,17 @@ class PredictionWrapper():
         self.args = args
         self.shapes = args.shapes
         self.queue = queue
-        self.model = ElModel(args, args.num_labels,
-                        args.num_deps, args.num_pos)
-        features = self.inputs()
-        self.logits = self.model(features, train=False)
-        self.predictions = tf.argmax(self.logits, -1)
         self.session = session
-        self.loaded = False
+        with self.session.graph.as_default():
+                # [Variable and model creation goes here.]
+                
+            self.model = ElModel(args, args.num_labels,
+                        args.num_deps, args.num_pos)
+            features = self.inputs()
+            self.logits = self.model(features,train=False)
+            self.saver = tf.train.Saver()
+            self.predictions = tf.argmax(self.logits, -1)
+            self.saver.restore(self.session, tf.train.latest_checkpoint(self.args.save_dir))
 
     def inputs(self):
         feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
@@ -50,9 +54,6 @@ class PredictionWrapper():
         return self.form_indices, self.dep_types, self.head_indices, self.pos, self.height, self.inc, self.out, self.history, self.elmo, self.sentence_lengths, self.history_lengths, self.action_counts
     
     def score(self, features):
-        if not self.loaded:
-            tf.train.Saver.restore(self.session)
-            self.loaded = True
         return self.session.run(self.logits, feed_dict={ self.form_indices:features['form_indices'],
             self.dep_types:features['deps'],
             self.pos:features['pos'],
@@ -92,7 +93,9 @@ def evaluate(args):
         dep_numberer=dep_numberer,
         edge_numberer=edge_numberer
     )
-    with tf.Session() as sess:
+
+    gpu_options = tf.GPUOptions(allow_growth=True)
+    with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
         wrp = PredictionWrapper(args=args,queue=None,session=sess)
         print(*parser.evaluate(wrp, args,
                             read_passages([args.eval_data])), sep="\n")
