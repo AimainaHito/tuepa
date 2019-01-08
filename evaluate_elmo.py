@@ -44,8 +44,8 @@ class PredictionWrapper():
         self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
         self.history = tf.placeholder(name="hist", shape=[None, None],dtype=tf.int32)
         self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024],dtype=tf.float32)
-        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None],dtype=tf.float32)
-        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None],dtype=tf.float32)
+        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None],dtype=tf.int32)
+        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None],dtype=tf.int32)
         self.action_counts = tf.placeholder(name="act_counts", shape=[None,self.args.num_labels], dtype=tf.int32)
         return self.form_indices, self.dep_types, self.head_indices, self.pos, self.height, self.inc, self.out, self.history, self.elmo, self.sentence_lengths, self.history_lengths, self.action_counts
     
