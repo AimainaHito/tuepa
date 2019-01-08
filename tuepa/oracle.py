@@ -1,9 +1,9 @@
 from ucca import layer1
 
 from semstr.util.amr import LABEL_ATTRIB, LABEL_SEPARATOR
-from .action import Actions
-from tuepa.util.config import COMPOUND
-from .states.state import InvalidActionError
+from action import Actions
+from config import COMPOUND
+from states.state import InvalidActionError
 
 # Constants for readability, used by Oracle.action
 RIGHT = PARENT = NODE = 0

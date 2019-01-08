@@ -5,36 +5,26 @@ Tüpa
 
 Requirements:
 
-* tensorflow (tested on 1.12-gpu and 1.13-nightly-gpu)
+* tensorflow (tested on 1.12-gpu)
 * ELMoForManyLangs [available here](https://github.com/HIT-SCIR/ELMoForManyLangs).
+* finalfrontier [available here](https://github.com/danieldk/finalfrontier-python) (english pretrained available [here](https://drive.google.com/file/d/1S2pllHdR81o4DrhKa_uA2YMXwO3I6Y5D/view?usp=sharing))
+* Rust with the nightly toolchain installed. (tested on `nightly-2018-12-24-x86_64-unknown-linux-gnu`)
 
+Issues
+------
+The compilation of finalfrontier-python fails due to some api changes in pyo3. 
 
-ELMo-RNN
---------
+Adding the following lines to the imports in `finalfrontier-python/src/lib.rs` will fix the issue.
 
-Before training the elmo-rnn the training and validation data needs to be preprocessed. 
-
-1. Preprocess the data with `preprocess_elmo.py`. 
-2. Train the model with `train_elmo.py`
-3. Evaluate the model with `evaluate_elmo.py` 
-
-###### Usage of `preprocess_elmo.py`:
-
-```
-python tuepa/preprocess_elmo.py <path-to-train-files> <path-to-val-files> <train>.hdf5 <val>.hdf5 --save-dir save_dir -elmo <path-to-elmo>
+```rust
+use pyo3::PyIterProtocol;
+use pyo3::PyObjectProtocol;
+use pyo3::exceptions as exc;
 ```
 
-###### Example usage of `train_elmo.py`:
- 
- ```
- train.hdf5  val.hdf5 --layers '[{"activation": "relu", "neurons": 768,"updown": 1},{"activation": "relu", "neurons": 768,"updown": 1},{"activation": "relu", "neurons": 768,"updown": 1}]' -v --batch-size 128 -e 300 --learning-rate 0.001 --layer-dropout 0.85 --input-dropout 0.9 --save-dir save_dir --epoch_steps 100 --history-embedding-size 50 -top-rnn 1024 -hist-rnn 256
-```
-
-###### Usage of `evaluate_elmo.py`:
-
- ```
-python tuepa/evaluate_elmo.py <model_dir> <path-to-eval-files> -elmo <path-to-elmo>
-```
+The next step is to compile the library using `cargo +nigthly build --release`. 
+This will output `libfinalfrontier.so` to 
+`finalfrontier-python/target/release/`. Rename `libfinalfrontier.so` to `finalfrontier.so` and copy it to `tuepa/tuepa/`.
 
 License
 -------
