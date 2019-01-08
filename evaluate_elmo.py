@@ -22,6 +22,7 @@ ElmoPredictionData = namedtuple(
 
 class PredictionWrapper():
     def __init__(self, args,queue, session):
+        self.args = args
         self.shapes = args.shapes
         self.queue = queue
         self.model = ElModel(args, args.num_labels,
