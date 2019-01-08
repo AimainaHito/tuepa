@@ -10,7 +10,7 @@ from ucca.layer1 import EdgeTags
 
 from .edge import Edge
 from .node import Node
-from action import Actions
+from tuepa.parser.action import Actions
 
 
 class InvalidActionError(AssertionError):
@@ -32,7 +32,7 @@ class State:
         self.passage = passage
         l0, l1 = [self.get_layer(passage, l) for l in (layer0, layer1)]
         self.labeled = any(n.outgoing or n.attrib.get(LABEL_ATTRIB) for n in l1.all)
-        self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag)
+        self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag, extra=t.extra)
                           for i, t in enumerate(l0.all, start=1)]
         self.stack = []
         self.buffer = deque()
@@ -308,7 +308,7 @@ class State:
         self.heads.discard(edge.child)
         self.log.append("edge: %s" % edge)
         return edge
-    
+
     PARENT_CHILD = (
         ((Actions.LeftEdge, Actions.LeftRemote), (-1, -2)),
         ((Actions.RightEdge, Actions.RightRemote), (-2, -1)),
@@ -344,7 +344,7 @@ class State:
         :param verify: fail if this results in an improper passage
         :return: core.Passage created from self.nodes
         """
-        logging.log("Creating passage %s from state..." % self.passage.ID, level=2)
+        logging.log(logging.INFO, "Creating passage %s from state...", self.passage.ID)
         passage = core.Passage(self.passage.ID)
         passage_format = kwargs.get("format") or self.passage.extra.get("format")
         if passage_format:
