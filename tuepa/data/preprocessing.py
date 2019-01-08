@@ -6,8 +6,7 @@ import numpy as np
 from semstr.convert import FROM_FORMAT, from_text
 from ucca import ioutil
 
-from tuepa.oracle import Oracle
-from tuepa.states.state import State
+from tuepa.parser import Oracle, State
 
 
 Data = namedtuple("Data",
