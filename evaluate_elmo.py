@@ -72,16 +72,16 @@ def evaluate(args):
     args = Namespace(**{**vars(args), **vars(model_args)})
 
     # restore numberers
-    with open(os.path.join(args.save_dir, tuepa.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.save_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.save_dir, tuepa.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.save_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
         edge_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.save_dir, tuepa.config.DEP_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.save_dir, tuepa.util.config.DEP_FILENAME), "r", encoding="utf-8") as file:
         dep_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.save_dir, tuepa.config.POS_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.save_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
         pos_numberer = load_numberer_from_file(file)
 
     args.num_edges = edge_numberer.max
