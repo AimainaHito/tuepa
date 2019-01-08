@@ -6,7 +6,7 @@ from argparse import Namespace
 from tuepa.util.config import create_argument_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
     DEP_FILENAME, EDGE_FILENAME, POS_FILENAME
 from tuepa.data.elmo import get_elmo_input_fn
-from tuepa.model import ElModel
+from tuepa.nn import ElModel
 from tuepa.util.numberer import Numberer, load_numberer_from_file
 from tuepa.util import SaverHook
 
@@ -147,10 +147,10 @@ def train(args):
 
 
 def main(args):
-    import tuepa.util.config
+    import tuepa.util.config as config
     tf.enable_eager_execution()
     tf.logging.set_verbosity(tf.logging.INFO)
-    argument_parser = tuepa.config.get_elmo_parser()
+    argument_parser = config.get_elmo_parser()
     args = argument_parser.parse_args(args)
     train(args)
 

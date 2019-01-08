@@ -11,7 +11,7 @@ from argparse import Namespace
 import tuepa.util.config
 
 from tuepa.util.config import create_argument_parser, save_args, load_args, get_oracle_parser, get_eval_parser
-from tuepa.model import ElModel
+from tuepa.nn import ElModel
 from tuepa.util.numberer import Numberer, load_numberer_from_file
 from tuepa.data import read_passages
 from collections import namedtuple
