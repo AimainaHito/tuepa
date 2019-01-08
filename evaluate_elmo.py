@@ -47,7 +47,7 @@ class PredictionWrapper():
         self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None],dtype=tf.float32)
         self.history_lengths = tf.placeholder(name="hist_lens", shape=[None],dtype=tf.float32)
         self.action_counts = tf.placeholder(name="act_counts", shape=[None,self.args.num_labels], dtype=tf.int32)
-        return self.dep_types, self.elmo, self.form_indices, self.head_indices, self.height, self.history, self.history_lengths, self.inc, self.out, self.pos, self.sentence_lengths, self.action_counts
+        return self.form_indices, self.dep_types, self.head_indices, self.pos, self.height, self.inc, self.out, self.history, self.elmo, self.sentence_lengths, self.history_lengths, self.action_counts
     
     def score(self, features):
         if not self.loaded:
