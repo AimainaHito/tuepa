@@ -11,9 +11,7 @@ from ucca import constructions
 from tuepa.util.config import get_preprocess_parser, get_oracle_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
     DEP_FILENAME, EDGE_FILENAME, POS_FILENAME
 from tuepa.util.numberer import Numberer
-from tuepa.data.elmo import preprocess_dataset, specific_elmo
 from tuepa.data.preprocessing import read_passages
-import tensorflow as tf
 import sys
 import tuepa.nn.bert.modeling as modeling
 import tensorflow as tf
@@ -21,31 +19,12 @@ import tensorflow as tf
 from tensorflow.contrib import autograph
 
 
-oracle_parser = get_oracle_parser()
-constructions.add_argument(oracle_parser)
-argument_parser = get_preprocess_parser(parents=[oracle_parser])
-argument_parser.add_argument("bert", help="path to bert model.")
-argument_parser.add_argument("-b","--batch_size",default=32, help="batch size.")
-
-args = argument_parser.parse_args(sys.argv[1:])
-
-tokenizer = tokenization.FullTokenizer(
-    vocab_file=os.path.join(args.bert_model, "/vocab.txt"), do_lower_case=False)
-
-label_numberer = Numberer()
-pos_numberer = Numberer(first_elements=["<PAD>"])
-dep_numberer = Numberer(first_elements=["<PAD>"])
-edge_numberer = Numberer(first_elements=["<PAD>"])
-
-passages = list(read_passages([sys.argv[1]]))
-
-
 def preprocess(passages, train):
     sents = [[node.text for node in p.layer("0").all] for p in passages]
 
-    tokenized = list(map(lambda x: ["[CLS]"] + [tokenizer.wordpiece_tokenizer.tokenize(t) for t in x] + ["[SEP]"], sents))
+    tokenized = list(map(lambda x: [
+                     "[CLS]"] + [tokenizer.wordpiece_tokenizer.tokenize(t) for t in x] + ["[SEP]"], sents))
 
-    seg_ids = []
     sents = []
     masks = []
     select = []
@@ -54,8 +33,10 @@ def preprocess(passages, train):
     stop = label_numberer.number("<STOP>", train=True)
 
     for p, sent in zip(passages, tokenized):
-        targets.append(
-            (go,)+label_numberer.number_sequence(str(p), train=train)+(stop,))
+        t = (go,)+label_numberer.number_sequence(str(p), train=train)+(stop,)
+        if len(t) > 500:
+            continue
+        targets.append(t)
 
         sent_ids = []
         total_index = 1  # offset 1 by [CLS]
@@ -99,26 +80,39 @@ def py2numpy(sents, targets, masks):
     return np_sents, np_targets, np_lens, np_masks
 
 
-sents, targets, masks = preprocess(passages=list(
-    read_passages([sys.argv[1]])), train=True)
-val_sents, val_targets, val_masks = preprocess(
-    passages=list(read_passages([sys.argv[2]])), train=False)
 
-np_sents, np_targets, np_lens, np_masks = py2numpy(sents, targets, masks)
-val_np_sents, val_np_targets, val_np_lens, val_np_masks = p2numpy(
-    val_sents, val_targets, val_masks)
 
 @autograph.convert(recursive=True, verbose=autograph.Verbosity.VERBOSE)
 def decode(output, input_embeddings, projection_layer, train, label_numberer, out_vocab, cell):
     predictions = tf.TensorArray(tf.float32, 0, True)
     autograph.set_element_type(predictions, tf.float32)
     i = tf.constant(0)
-    state = tf.layers.dense(output[:, 0], 300)
+    batch_size = tf.shape(output)[0]
+
+    outputs = tf.layers.dense(tf.reshape(output,[batch_size,-1,768]), 300, tf.nn.selu)
+    state = outputs[:,0]
+    seq = outputs[:,1:]
+    V = tf.layers.Dense(1)
+    W2 = tf.layers.Dense(300)
     if train:
         while i < tf.shape(input_embeddings)[1]:
             # print(state.shape)
             # print(input_embeddings[:,i])
-            _, state = cell(input_embeddings[:, i], state)
+            q = tf.reshape(state,[batch_size,1,300])
+            # score shape == (batch_size, max_length, 1)
+            # we get 1 at the last axis because we are applying tanh(FC(EO) + FC(H)) to self.V
+            score = V(tf.nn.tanh(outputs + W2(q)))
+
+            # attention_weights shape == (batch_size, max_length, 1)
+            attention_weights = tf.nn.softmax(score, axis=1)
+
+            # context_vector shape after sum == (batch_size, hidden_size)
+            context_vector = attention_weights * outputs
+            context_vector = tf.reduce_sum(context_vector, axis=1)
+
+            # x shape after concatenation == (batch_size, 1, embedding_dim + hidden_size)
+            x = tf.concat([context_vector, input_embeddings[:,i]], axis=-1)
+            _, state = cell(x, state)
             prediction = projection_layer(state)
             predictions.append(prediction)
             # mask losses
@@ -127,8 +121,22 @@ def decode(output, input_embeddings, projection_layer, train, label_numberer, ou
         next_input = tf.nn.embedding_lookup(params=out_vocab, ids=tf.tile(
             [label_numberer.value2num["<GO>"]], [tf.shape(output)[0]]))
         should_stop = False
-        while not should_stop and i < 350:
+        while not should_stop and i < 500:
+            q = tf.reshape(state, [batch_size, 1, 300])
+            score = V(tf.nn.tanh(outputs + W2(q)))
+
+            # attention_weights shape == (batch_size, max_length, 1)
+            attention_weights = tf.nn.softmax(score, axis=1)
+
+            # context_vector shape after sum == (batch_size, hidden_size)
+            context_vector = attention_weights * outputs
+            context_vector = tf.reduce_sum(context_vector, axis=1)
+
+            # x shape after concatenation == (batch_size, 1, embedding_dim + hidden_size)
+            next_input = tf.concat([context_vector, next_input], axis=-1)
+
             _, state = cell(next_input, state)
+
             prediction = projection_layer(state)
             next_input = tf.nn.embedding_lookup(
                 params=out_vocab, ids=tf.argmax(prediction, -1))
@@ -141,9 +149,9 @@ def decode(output, input_embeddings, projection_layer, train, label_numberer, ou
     return logits
 
 
-def create_graph():
+def create_graph(label_numberer):
     bert_config = modeling.BertConfig.from_json_file(
-        os.path.join(args.bert_model, "bert_config.json"))
+        os.path.join(args.bert, "bert_config.json"))
     g = tf.Graph()
     with g.as_default():
         input_ids = tf.placeholder(
@@ -184,58 +192,89 @@ def create_graph():
             train_logits)[1], dtype=tf.float32)
         train_loss = train_x_ent*mask
 
-        train_op = tf.train.AdamOptimizer().minimize(tf.reduce_mean(train_loss))
+        train_op = tf.train.AdamOptimizer(learning_rate=0.0001).minimize(tf.reduce_mean(train_loss,axis=0))
 
         val_logits = decode(bert_out, None, projection_layer, train=False,
                             label_numberer=label_numberer, out_vocab=output_vocabulary, cell=cell)
     return g, train_loss, train_logits, train_op, input_ids, target, target_lens, input_mask, val_logits
 
+if __name__ == "__main__":
+    oracle_parser = get_oracle_parser()
+    constructions.add_argument(oracle_parser)
+    argument_parser = get_preprocess_parser(parents=[oracle_parser])
+    argument_parser.add_argument("bert", help="path to bert model.")
+    argument_parser.add_argument("-b", "--batch_size", default=16, help="batch size.")
 
-g, train_loss, train_logits, train_op, input_ids, target, target_lens, input_mask, val_logits = create_graph()
+    args = argument_parser.parse_args(sys.argv[1:])
+
+    tokenizer = tokenization.FullTokenizer(
+        vocab_file=os.path.join(args.bert, "vocab.txt"), do_lower_case=False)
+
+    label_numberer = Numberer()
+    pos_numberer = Numberer(first_elements=["<PAD>"])
+    dep_numberer = Numberer(first_elements=["<PAD>"])
+    edge_numberer = Numberer(first_elements=["<PAD>"])
+
+    passages = list(read_passages([sys.argv[1]]))
 
 
-gpu_options = tf.GPUOptions(allow_growth=True)
-config = tf.ConfigProto(gpu_options=gpu_options)
+    sents, targets, masks = preprocess(passages=list(
+        read_passages([args.training_path])), train=True)
+    val_sents, val_targets, val_masks = preprocess(
+        passages=list(read_passages([args.validation_path])), train=False)
 
-with tf.Session(config=config, graph=g) as sess:
-    tvars = tf.trainable_variables()
-    sess.run(tf.global_variables_initializer())
-    (assignment_map, initialized_variable_names
-     ) = modeling.get_assignment_map_from_checkpoint(tvars, os.path.join(args.bert_model, "bert_model.ckpt"))
-    tf.train.init_from_checkpoint(os.path.join(args.bert_model, "bert_model.ckpt"), assignment_map)
-    while True:
-        for n in range(len(np_sents)//8):
-            sl = slice(n*8, min((n+1)*8, len(np_sents)))
-            s = np_sents[sl]
-            t = np_targets[sl]
-            print(t.shape)
-            l = np_lens[sl]
-            m = np_masks[sl]
-            lo, logs, _ = sess.run([train_loss, train_logits, train_op], feed_dict={
-                input_ids: s,
-                target: t,
-                target_lens: l,
-                input_mask: m,
-            })
-            print(lo.sum())
-            preds = logs.argmax(-1)
-            for p in preds:
-                print(label_numberer.decode_sequence(p, "<STOP>"))
-            print(np.equal(preds, t[:, 1:]).mean())
-        for n in range(len(val_np_sents//8)):
-            sl = slice(n*8, min((n+1)*8, len(val_np_sents)))
-            s = val_np_sents[sl]
-            t = val_np_targets[sl]
-            print(t.shape)
-            l = val_np_lens[sl]
-            m = val_np_masks[sl]
-            logs = sess.run(val_logits, feed_dict={
-                input_ids: s,
-                target: t,
-                target_lens: l,
-                input_mask: m,
-            })
-            preds = logs.argmax(-1)
-            for p in preds:
-                print(label_numberer.decode_sequence(p, "<STOP>"))
-            # print(np.equal(preds, t[:, 1:]).mean())
+    np_sents, np_targets, np_lens, np_masks = py2numpy(sents, targets, masks)
+    val_np_sents, val_np_targets, val_np_lens, val_np_masks = py2numpy(
+        val_sents, val_targets, val_masks)
+
+    g, train_loss, train_logits, train_op, input_ids, target, target_lens, input_mask, val_logits = create_graph(label_numberer)
+
+
+    gpu_options = tf.GPUOptions(allow_growth=True)
+    config = tf.ConfigProto(gpu_options=gpu_options)
+
+    with tf.Session(config=config, graph=g) as sess:
+        tvars = tf.trainable_variables()
+        sess.run(tf.global_variables_initializer())
+        (assignment_map, initialized_variable_names
+         ) = modeling.get_assignment_map_from_checkpoint(tvars, os.path.join(args.bert, "bert_model.ckpt"))
+        tf.train.init_from_checkpoint(os.path.join(
+            args.bert, "bert_model.ckpt"), assignment_map)
+        while True:
+            for n in range(len(np_sents)//16):
+                sl = slice(n*16, min((n+1)*16, len(np_sents)))
+                if n*16- min((n+1)*16, len(val_np_sents)) >= 0:
+                    break
+                s = np_sents[sl]
+                t = np_targets[sl]
+                l = np_lens[sl]
+                m = np_masks[sl]
+                lo, logs, _ = sess.run([train_loss, train_logits, train_op], feed_dict={
+                    input_ids: s,
+                    target: t,
+                    target_lens: l,
+                    input_mask: m,
+                })
+                print(lo.sum())
+                preds = logs.argmax(-1)
+                # for p in preds:
+                #     print(label_numberer.decode_sequence(p, "<STOP>"))
+                print(np.equal(preds, t[:, 1:]).mean())
+            for n in range(len(val_np_sents//16)):
+                sl = slice(n*16, min((n+1)*16, len(val_np_sents)))
+                if n*16- min((n+1)*16, len(val_np_sents)) >= 0:
+                    break
+                s = val_np_sents[sl]
+                t = val_np_targets[sl]
+                l = val_np_lens[sl]
+                m = val_np_masks[sl]
+                logs = sess.run(val_logits, feed_dict={
+                    input_ids: s,
+                    target: t,
+                    target_lens: l,
+                    input_mask: m,
+                })
+                preds = logs.argmax(-1)
+                for p in preds:
+                    print(label_numberer.decode_sequence(p, "<STOP>"))
+                # print(np.equal(preds, t[:, 1:]).mean())
