@@ -83,29 +83,24 @@ def py2numpy(sents, targets, masks):
 
 
 @autograph.convert(recursive=True, verbose=autograph.Verbosity.VERBOSE)
-def decode(output, input_embeddings, projection_layer, train, label_numberer, out_vocab, cell):
+def decode(state,outputs, input_embeddings, projection_layer, train, label_numberer, out_vocab, cell, V, W2):
     predictions = tf.TensorArray(tf.float32, 0, True)
     autograph.set_element_type(predictions, tf.float32)
     i = tf.constant(0)
-    batch_size = tf.shape(output)[0]
+    batch_size = tf.shape(outputs)[0]
 
-    outputs = tf.layers.dense(tf.reshape(output,[batch_size,-1,768]), 300, tf.nn.selu)
-    state = outputs[:,0]
-    seq = outputs[:,1:]
-    V = tf.layers.Dense(1)
-    W2 = tf.layers.Dense(300)
     if train:
         while i < tf.shape(input_embeddings)[1]:
             # print(state.shape)
             # print(input_embeddings[:,i])
-            q = tf.reshape(state,[batch_size,1,300])
+            q = tf.reshape(state.h,[batch_size,1,300])
             # score shape == (batch_size, max_length, 1)
             # we get 1 at the last axis because we are applying tanh(FC(EO) + FC(H)) to self.V
             score = V(tf.nn.tanh(outputs + W2(q)))
 
             # attention_weights shape == (batch_size, max_length, 1)
             attention_weights = tf.nn.softmax(score, axis=1)
-
+            print(attention_weights[0])
             # context_vector shape after sum == (batch_size, hidden_size)
             context_vector = attention_weights * outputs
             context_vector = tf.reduce_sum(context_vector, axis=1)
@@ -113,21 +108,21 @@ def decode(output, input_embeddings, projection_layer, train, label_numberer, ou
             # x shape after concatenation == (batch_size, 1, embedding_dim + hidden_size)
             x = tf.concat([context_vector, input_embeddings[:,i]], axis=-1)
             _, state = cell(x, state)
-            prediction = projection_layer(state)
+            prediction = projection_layer(state.h)
             predictions.append(prediction)
             # mask losses
             i += 1
     else:
         next_input = tf.nn.embedding_lookup(params=out_vocab, ids=tf.tile(
-            [label_numberer.value2num["<GO>"]], [tf.shape(output)[0]]))
+            [1], [tf.shape(outputs)[0]]))
         should_stop = False
         while not should_stop and i < 500:
-            q = tf.reshape(state, [batch_size, 1, 300])
+            q = tf.reshape(state.h, [batch_size, 1, 300])
             score = V(tf.nn.tanh(outputs + W2(q)))
 
             # attention_weights shape == (batch_size, max_length, 1)
             attention_weights = tf.nn.softmax(score, axis=1)
-
+            print(attention_weights[0])
             # context_vector shape after sum == (batch_size, hidden_size)
             context_vector = attention_weights * outputs
             context_vector = tf.reduce_sum(context_vector, axis=1)
@@ -137,12 +132,12 @@ def decode(output, input_embeddings, projection_layer, train, label_numberer, ou
 
             _, state = cell(next_input, state)
 
-            prediction = projection_layer(state)
+            prediction = projection_layer(state.h)
             next_input = tf.nn.embedding_lookup(
                 params=out_vocab, ids=tf.argmax(prediction, -1))
             p = tf.argmax(prediction, -1)
             should_stop = tf.reduce_all(
-                p == label_numberer.value2num["<STOP>"])
+                p == 2)
             predictions.append(prediction)
             i += 1
     logits = tf.transpose(autograph.stack(predictions), [1, 0, 2])
@@ -164,12 +159,12 @@ def create_graph(label_numberer):
                                 None, None], dtype=tf.int32)
         target_lens = tf.placeholder(
             name="target_lens", shape=[None], dtype=tf.int32)
-
+        train = tf.placeholder(name="train",shape=[],dtype=tf.bool)
         output_vocabulary = tf.get_variable(
             "out_voc", shape=[label_numberer.max, 128], dtype=tf.float32)
         projection_layer = tf.layers.Dense(label_numberer.max, use_bias=False)
         input_embeddings = tf.nn.embedding_lookup(
-            output_vocabulary, target[:, :-1])
+            output_vocabulary, target[:,:-1])
 
         model = modeling.BertModel(
             config=bert_config,
@@ -179,11 +174,16 @@ def create_graph(label_numberer):
             token_type_ids=segment_ids,
             use_one_hot_embeddings=False)
         bert_out = model.sequence_output
-        cell = tf.nn.rnn_cell.GRUCell(300, name="gu")
-        train_logits = decode(bert_out, input_embeddings, projection_layer,
-                              train=True, label_numberer=label_numberer, out_vocab=output_vocabulary, cell=cell)
-        train_logits = tf.pad(train_logits,
-                              [[0, 0], [0, tf.maximum((tf.shape(target)[1]-1) - tf.shape(train_logits)[1], 0)],
+        cell = tf.nn.rnn_cell.LSTMCell(300, name="gu")
+        outputs = tf.layers.dense(tf.reshape(bert_out, [tf.shape(bert_out)[0], -1, 768]), 300)
+        state_c = tf.layers.dense(model.get_pooled_output(), 300, name="state_reducer")
+        state_h = tf.layers.dense(model.get_pooled_output(), 300, name="state_reducer_h")
+        state = tf.nn.rnn_cell.LSTMStateTuple(c=state_c,h=state_h)
+        V = tf.layers.Dense(1)
+        W2 = tf.layers.Dense(300)
+        logits = decode(state,outputs, input_embeddings, projection_layer,train=train, label_numberer=label_numberer, out_vocab=output_vocabulary, cell=cell,V=V, W2=W2)
+        train_logits = tf.pad(logits,
+                              [[0, 0], [0, tf.maximum((tf.shape(target)[1]-1) - tf.shape(logits)[1], 0)],
                                [0, 0]])
         train_x_ent = tf.nn.sparse_softmax_cross_entropy_with_logits(
             labels=target[:, 1:],
@@ -194,9 +194,7 @@ def create_graph(label_numberer):
 
         train_op = tf.train.AdamOptimizer(learning_rate=0.0001).minimize(tf.reduce_mean(train_loss,axis=0))
 
-        val_logits = decode(bert_out, None, projection_layer, train=False,
-                            label_numberer=label_numberer, out_vocab=output_vocabulary, cell=cell)
-    return g, train_loss, train_logits, train_op, input_ids, target, target_lens, input_mask, val_logits
+    return g, train_loss, logits, train_op, input_ids, target, target_lens, input_mask, train
 
 if __name__ == "__main__":
     oracle_parser = get_oracle_parser()
@@ -210,7 +208,7 @@ if __name__ == "__main__":
     tokenizer = tokenization.FullTokenizer(
         vocab_file=os.path.join(args.bert, "vocab.txt"), do_lower_case=False)
 
-    label_numberer = Numberer()
+    label_numberer = Numberer(first_elements=["<PAD>","<GO>","<STOP>"])
     pos_numberer = Numberer(first_elements=["<PAD>"])
     dep_numberer = Numberer(first_elements=["<PAD>"])
     edge_numberer = Numberer(first_elements=["<PAD>"])
@@ -227,11 +225,12 @@ if __name__ == "__main__":
     val_np_sents, val_np_targets, val_np_lens, val_np_masks = py2numpy(
         val_sents, val_targets, val_masks)
 
-    g, train_loss, train_logits, train_op, input_ids, target, target_lens, input_mask, val_logits = create_graph(label_numberer)
+    g, train_loss, logits, train_op, input_ids, target, target_lens, input_mask,train = create_graph(label_numberer)
 
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     config = tf.ConfigProto(gpu_options=gpu_options)
+    config.graph_options.optimizer_options.global_jit_level = tf.OptimizerOptions.ON_1
 
     with tf.Session(config=config, graph=g) as sess:
         tvars = tf.trainable_variables()
@@ -249,11 +248,12 @@ if __name__ == "__main__":
                 t = np_targets[sl]
                 l = np_lens[sl]
                 m = np_masks[sl]
-                lo, logs, _ = sess.run([train_loss, train_logits, train_op], feed_dict={
+                lo, logs, _ = sess.run([train_loss, logits, train_op], feed_dict={
                     input_ids: s,
                     target: t,
                     target_lens: l,
                     input_mask: m,
+                    train: True
                 })
                 print(lo.sum())
                 preds = logs.argmax(-1)
@@ -268,11 +268,12 @@ if __name__ == "__main__":
                 t = val_np_targets[sl]
                 l = val_np_lens[sl]
                 m = val_np_masks[sl]
-                logs = sess.run(val_logits, feed_dict={
+                logs = sess.run(logits, feed_dict={
                     input_ids: s,
                     target: t,
                     target_lens: l,
                     input_mask: m,
+                    train: False
                 })
                 preds = logs.argmax(-1)
                 for p in preds:
