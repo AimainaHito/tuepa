@@ -4,8 +4,9 @@ import io
 import itertools
 
 import tensorflow as tf
-import matplotlib.pyplot as plt
 import matplotlib
+matplotlib.use("agg")
+import matplotlib.pyplot as plt
 import numpy as np
 
 

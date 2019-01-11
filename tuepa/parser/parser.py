@@ -7,17 +7,27 @@ from enum import Enum
 from functools import partial
 from glob import glob
 
+import torch
 import numpy as np
 from semstr.convert import TO_FORMAT
 from semstr.evaluate import EVALUATORS, Scores
 from ucca import ioutil
 from ucca.evaluation import LABELED, UNLABELED, EVAL_TYPES, evaluate as evaluate_ucca
 from ucca.normalization import normalize
+from ucca.core import Passage
+from elmoformanylangs import Embedder
 
 from .states.state import State
 from .action import Action
 import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
+
+
+def set_elmo(self, elmo):
+    self.elmo = elmo
+
+Passage.set_elmo = set_elmo
+
 
 class ParserException(Exception):
     pass
@@ -30,10 +40,10 @@ class ParseMode(Enum):
 
 
 class AbstractParser:
-    def __init__(self, models, argus, evaluation=False):
+    def __init__(self, models, args, evaluation=False):
         self.models = models
         self.evaluation = evaluation
-        self.args = argus
+        self.args = args
         self.action_count = self.correct_action_count = self.label_count = 0
         self.correct_label_count = self.num_tokens = self.f1 = 0
         self.started = default_timer()
@@ -310,19 +320,18 @@ class PassageParser(AbstractParser):
 class BatchParser(AbstractParser):
     """ Parser for a single pass over dev/test passages """
 
-    def __init__(self, argus, models, evaluate, **kwargs):
-        super().__init__(argus=argus, models=models, evaluation=evaluate, **kwargs)
+    def __init__(self, args, models, evaluate, **kwargs):
+        super().__init__(args=args, models=models, evaluation=evaluate, **kwargs)
         self.seen_per_format = defaultdict(int)
         self.num_passages = 0
-        from elmoformanylangs import Embedder
 
-        self.elmo = Embedder(argus.elmo_path, batch_size=1)
+        self.elmo = Embedder(args.elmo_path, batch_size=1)
 
     def parse(self, passages, display=True, write=False):
         passages, total = generate_and_len(single_to_iter(passages))
         pr_width = len(str(total))
         id_width = 1
-        import torch
+
         for i, passage in enumerate(passages, start=1):
             passage.set_elmo(self.elmo.sents2elmo([[str(n) for n in passage.layer("0").all]]))
             torch.cuda.empty_cache()

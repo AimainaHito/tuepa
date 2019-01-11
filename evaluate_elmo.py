@@ -21,40 +21,53 @@ ElmoPredictionData = namedtuple(
 
 
 class PredictionWrapper():
-    def __init__(self, args,queue, session):
+    def __init__(self, args, queue, session):
         self.args = args
         self.shapes = args.shapes
         self.queue = queue
         self.session = session
+
         with self.session.graph.as_default():
-                # [Variable and model creation goes here.]
-                
-            self.model = ElModel(args, args.num_labels,
-                        args.num_deps, args.num_pos)
-            features = self.inputs()
-            self.logits = self.model(features,train=False)
+            # [Variable and model creation goes here.]
+            self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos)
+            self.logits = self.model(self._create_inputs(), train=False)
             self.saver = tf.train.Saver()
             self.predictions = tf.argmax(self.logits, -1)
-            self.saver.restore(self.session, tf.train.latest_checkpoint(self.args.save_dir))
+            self.saver.restore(self.session, tf.train.latest_checkpoint(self.args.model_dir))
 
-    def inputs(self):
+    def _create_inputs(self):
         feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
-        self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens],dtype=tf.int32)
-        self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens],dtype=tf.int32)
-        self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens],dtype=tf.int32)
-        self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens],dtype=tf.int32)
-        self.height = tf.placeholder(name="height", shape=[None, feature_tokens],dtype=tf.int32)
-        self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
-        self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None],dtype=tf.int32)
-        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024],dtype=tf.float32)
-        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None],dtype=tf.int32)
-        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None],dtype=tf.int32)
-        self.action_counts = tf.placeholder(name="act_counts", shape=[None,self.args.num_labels], dtype=tf.int32)
-        return self.form_indices, self.dep_types, self.head_indices, self.pos, self.height, self.inc, self.out, self.history, self.elmo, self.sentence_lengths, self.history_lengths, self.action_counts
-    
+        self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
+        self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
+        self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
+        self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+        self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
+        self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+        self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
+        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
+        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
+        self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels], dtype=tf.int32)
+
+        return (
+            self.form_indices,
+            self.dep_types,
+            self.head_indices,
+            self.pos,
+            self.height,
+            self.inc,
+            self.out,
+            self.history,
+            self.elmo,
+            self.sentence_lengths,
+            self.history_lengths,
+            self.action_counts
+        )
+
     def score(self, features):
-        return self.session.run(self.logits, feed_dict={ self.form_indices:features['form_indices'],
+        return self.session.run(self.logits, feed_dict={
+            self.form_indices:features['form_indices'],
             self.dep_types:features['deps'],
             self.pos:features['pos'],
             self.head_indices:features['heads'],
@@ -71,19 +84,19 @@ class PredictionWrapper():
 def evaluate(args):
     model_args = load_args(args.model_dir)
     # Merge model args with evaluation args
-    args = Namespace(**{**vars(args), **vars(model_args)})
+    args = Namespace(**{**vars(model_args), **vars(args)})
 
     # restore numberers
-    with open(os.path.join(args.save_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.model_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.save_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.model_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
         edge_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.save_dir, tuepa.util.config.DEP_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.model_dir, tuepa.util.config.DEP_FILENAME), "r", encoding="utf-8") as file:
         dep_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.save_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.model_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
         pos_numberer = load_numberer_from_file(file)
 
     args.num_edges = edge_numberer.max
@@ -96,7 +109,7 @@ def evaluate(args):
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
-        wrp = PredictionWrapper(args=args,queue=None,session=sess)
+        wrp = PredictionWrapper(args=args, queue=None, session=sess)
         print(*parser.evaluate(wrp, args,
                             read_passages([args.eval_data])), sep="\n")
 
