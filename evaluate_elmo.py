@@ -37,6 +37,7 @@ class PredictionWrapper():
 
     def _create_inputs(self):
         feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
+        self.num_feature_tokens = feature_tokens
         self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
         self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
         self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
