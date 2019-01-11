@@ -166,10 +166,10 @@ class ElModel(BaseModel):
         height = tf.to_float(height)
 
         top_rnn_output, top_rnn_state = self.elmo_rnn(
-            batch_indices, elmo, sentence_lengths)
+            batch_indices, elmo, sentence_lengths-1)
 
         history_rnn_state = self.apply_history_rnn(
-            batch_indices, history, history_lengths)
+            batch_indices, history, history_lengths-1)
 
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
