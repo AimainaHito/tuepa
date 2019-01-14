@@ -79,8 +79,6 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
         except IndexError:
             buffer_features.append(null_features())
 
-    # [node.text if node.text is not None else "<NT>" for node in state.stack[::-1]]
-    # buffer_features = [extract_stackfeature(node) for node in state.buffer]
     history_features = [label_numberer.number(str(action), train=train) for action in
                         state.actions[-min(len(state.actions), 100):]]
     return stack_features, buffer_features, history_features
@@ -105,6 +103,8 @@ def preprocess_dataset(path,
     stack_and_buffer_features = []
     previous_action_counts = []
     labels = []
+    node_ratios = []
+    action_ratios = []
     history_features = []
     sentence_lengths = []
     history_lengths = []
@@ -124,6 +124,8 @@ def preprocess_dataset(path,
         oracle = Oracle(passage, args)
         state_no = 0
         while not state.finished:
+            node_ratios.append(state.node_ratio())
+            action_ratios.append(state.action_ratio())
             passage_actions = []
             state2passage_id.append(passage_id)
             actions = oracle.generate_actions(state=state)
@@ -161,11 +163,11 @@ def preprocess_dataset(path,
             break
         passage_id += 1
 
-    return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, labels
+    return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels
 
 
 def specific_elmo(features, embedder, args, train, write_chunk=8192):
-    stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, labels = features
+    stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels = features
     max_stack_size = shapes.max_stack_size
     max_buffer_size = shapes.max_buffer_size
     max_hist_size = np.max(history_lengths)
@@ -192,7 +194,6 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             num_examples, max_stack_size + max_buffer_size, args.num_edges),
                                         dtype=np.int32, fillvalue=0)
         action_counts = f.create_dataset('action_counts',shape=(num_examples,args.num_labels),dtype=np.int32)
-        f.create_dataset('labels', data=np.array(labels))
         history_matrix = f.create_dataset('history_features', shape=(num_examples, max_hist_size),
                                           dtype=np.int32, fillvalue=0)
 
@@ -266,6 +267,11 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         f.create_dataset('history_lengths', data=np.array(history_lengths))
         f.create_dataset('sentence_lengths', data=np.array(sentence_lengths))
         f.create_dataset('state2sent_index', data=np.array(state2passage_id))
+
+        f.create_dataset('action_ratios', data=np.array(action_ratios))
+        f.create_dataset('node_ratios', data=np.array(node_ratios))
+
+        f.create_dataset('labels', data=np.array(labels))
 
         elmo = f.create_group('elmo')
         contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
