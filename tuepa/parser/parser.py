@@ -81,77 +81,44 @@ class PassageParser(AbstractParser):
 
         # Used in verify_passage to optionally ignore a mismatch in linkage nodes:
         self.state_hash_history = set()
-        self.state = self.eval_type = None
-
-    def init(self):
+        # Create initial state
         self.state = State(self.passage, self.args)
+        self.eval_type = None
 
-    def parse(self, display=True, write=False):
-        self.init()
-        passage_id = self.passage.ID
-
-        try:
-            with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
-                executor.submit(self.parse_internal).result(self.args.timeout)
-            status = "(%d tokens/s)" % self.tokens_per_second()
-        except ParserException as e:
-            print("%s: %s" % (passage_id, e), file=sys.stderr)
-            status = "(failed)"
-        except concurrent.futures.TimeoutError:
-            print("%s: timeout (%fs)" % (passage_id, self.args.timeout), file=sys.stderr)
-            status = "(timeout)"
-
-        return self.finish(status, display=display, write=write)
-
-    def parse_internal(self):
+    def parse_step(self, action_scores):
         """
-        Internal method to parse a single passage with the classifier.
+        Perform a parser step based on action scores
+
+        :param action_scores: Scores per action e.g. softmax output of a classifier
         """
-        # print("  initial state: %s" % self.state)
+        if self.args.check_loops:
+            self.check_loop()
 
-        while True:
-            if self.args.check_loops:
-                self.check_loop()
+        action = self.predict(action_scores, self.state.is_valid_action)
+        # TODO: temporary workaround
+        if action is None:
+            return None
 
-            # self.label_node()  # In case root node needs labeling
-            action = self.choose()
+        self.state.transition(action)
+        #print(self.state.stack)
+        #print(self.state.buffer)
+        if self.args.action_stats:
             try:
-                self.state.transition(action)
-            except:
-                try:
-                    with open("tmp.txt","a") as f:
-                        print(self.state.create_passage(verify=False), file=f)
-                except:
-                    break
-            print(self.state.stack)
-            print(self.state.buffer)
-            if self.args.action_stats:
-                try:
-                    if self.args.action_stats == "-":
-                        print(action)
-                    else:
-                        with open(self.args.action_stats, "a") as file:
-                            file.write("{}\n".format(action))
+                if self.args.action_stats == "-":
+                    print(action)
+                else:
+                    with open(self.args.action_stats, "a") as file:
+                        file.write("{}\n".format(action))
 
-                except OSError:
-                    pass
+            except OSError:
+                pass
 
-            # print("\n".join(["  predicted: %-15s true: %-15s taken: %-15s %s" % (
-            #    predicted_action, "|".join(map(str, true_actions.values())), action, self.state) if self.oracle else
-            #                              "  action: %-15s %s" % (action, self.state)] + (
-            #    ["  predicted label: %-9s true label: %s" % (predicted_label, true_label) if self.oracle and not
-            #     self.args.use_gold_node_labels else "  label: %s" % label] if need_label else []) + [
-            #    "    " + l for l in self.state.log]))
+        if self.state.finished:
+            return None # action is Finish (or early update is triggered)
 
-            if self.state.finished:
-                print(self.state.create_passage(verify=False))
-                return  # action is Finish (or early update is triggered)
+        return self.get_state_features()
 
-    def choose(self, name="action"):
-        # if axis == NODE_LABEL_KEY:
-        #    is_valid = self.state.is_valid_label
-        # else:
-        is_valid = self.state.is_valid_action
+    def get_state_features(self):
         max_stack_size = self.args.shapes.max_stack_size
         max_buffer_size = self.args.shapes.max_buffer_size
 
@@ -197,62 +164,61 @@ class PassageParser(AbstractParser):
                 )
             scores, = self.models[0].score(features).numpy()
         else:
-            stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(self.args,self.state,
-                                                                                               self.args.prediction_data.label_numberer,
-                                                                                               self.args.prediction_data.pos_numberer,
-                                                                                               self.args.prediction_data.dep_numberer,
-                                                                                               self.args.prediction_data.edge_numberer,
-                                                                                               train=False)
+            stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(
+                self.args,
+                self.state,
+                self.args.prediction_data.label_numberer,
+                self.args.prediction_data.pos_numberer,
+                self.args.prediction_data.dep_numberer,
+                self.args.prediction_data.edge_numberer,
+                train=False
+            )
             forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
+
             actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
-            previous_actions = np.zeros((self.args.prediction_data.label_numberer.max),dtype=np.int32)
+            previous_actions = np.zeros((self.args.prediction_data.label_numberer.max), dtype=np.int32)
             previous_actions[actions] += 1
 
-            hist_len = [len(history_features)]
+            hist_len = len(history_features)
 
             if not history_features:
                 history_features += [0]
 
-            inc = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
-            out = np.zeros((max_stack_size+max_buffer_size,self.args.num_edges),dtype=np.int32)
-            for n, item in enumerate(incoming):
-                for id in item:
-                    inc[n, id] += 1
-            for n, item in enumerate(outgoing):
-                for id in item:
-                    out[n, id] += 1
+            inc = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
+            out = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
+            for index, item in enumerate(incoming):
+                for edge_id in item:
+                    inc[index, edge_id] += 1
+
+            for index, item in enumerate(outgoing):
+                for edge_id in item:
+                    out[index, edge_id] += 1
 
             elmo = self.state.passage.elmo[0]
             sent_length = len(elmo)
+            #print(history_features)
+            features = {
+                'form_indices': forms,
+                'deps': deps,
+                'pos': pos,
+                'heads':heads,
+                'height': height,
+                'inc' : inc,
+                'out': out,
+                'elmo': elmo,
+                'sent_lens': sent_length,
+                'history': history_features,
+                'hist_lens': hist_len,
+                'action_counts': previous_actions.reshape([1, -1])
+            }
 
-            features = {'form_indices': np.array([forms],dtype=np.int32),
-                        'deps': np.array([deps],dtype=np.int32),
-                        'pos': np.array([pos],dtype=np.int32),
-                        'heads':np.array([heads], dtype=np.int32),
-                        'height': np.array([height],dtype=np.int32),
-                        'inc' : np.array([inc],dtype=np.int32),
-                        'out': np.array([out], dtype=np.int32),
-                        'elmo': np.array([elmo], np.float32),
-                        'sent_lens': np.array([sent_length], np.int32),
-                        'history': np.array([history_features], dtype=np.int32),
-                        'hist_lens': np.array(hist_len, np.int32),
-                        'action_counts': previous_actions.reshape([1,-1]),
-                        'node_ratios':np.array([self.state.node_ratio()],dtype=np.float32),
-                        'action_ratios':np.array([self.state.action_ratio()],dtype=np.float32)}
-
-            scores, = self.models[0].score(features)
-            print(scores.argmax())
-            # import IPython; IPython.embed()
+            #scores, = self.models[0].score(features)
             # TODO: Implement elmo-rnn prediction
 
         # for model in self.models[1:]:  # Ensemble if given more than one model; align label order and add scores
         #    label_scores = dict(zip(model.classifier.labels[axis].all, self.model.score(self.state, axis)[0]))
         #    scores += [label_scores.get(a, 0) for a in labels.all]  # Product of Experts, assuming log(softmax)
-        try:
-            print(str(self.predict(scores, is_valid)))
-            return self.predict(scores, is_valid)
-        except StopIteration as e:
-            raise ParserException("No valid %s available\n" % name) from e
+        return features
 
     def predict(self, scores, is_valid=None):
         """
@@ -268,11 +234,16 @@ class PassageParser(AbstractParser):
             if len(split_act) > 1:
                 action = "-".join(split_act[:-1])
                 tag = split_act[-1]
-            action = Action(action,tag=tag)
+
+            action = Action(action, tag=tag)
             if is_valid(action):
                 return action
 
-    def finish(self, status, display=True, write=False):
+        # TODO: temporary workaround
+        return None
+        #raise ParserException("No valid action for state")
+
+    def finish(self, status="(finished)", display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
         if write:
             for out_format in self.args.formats or [self.out_format]:
@@ -284,13 +255,14 @@ class PassageParser(AbstractParser):
                                      converter=get_output_converter(out_format), verbose=self.args.verbose,
                                      append=self.args.join, basename=self.args.join)
 
-        ret = (self.out,)
+        result = [self.out]
         if self.evaluation:
-            ret += (self.evaluate(),)
+            result.append(self.evaluate())
             status = "%-14s %s F1=%.3f" % (status, self.eval_type, self.f1)
         if display:
             print("%.3fs %s" % (self.duration, status))
-        return ret
+
+        return result
 
     def evaluate(self):
         if self.format:
@@ -325,34 +297,144 @@ class PassageParser(AbstractParser):
         pass
 
 
+class ElmoFeatureBatch:
+
+    def __init__(self, batch_size, num_feature_tokens, num_edges, num_labels):
+        self.index = 0
+        self.batch_size = batch_size
+        self.max_lengths = {
+            'elmo' : 0,
+            'history' : 0,
+        }
+        self.features = {
+            'form_indices': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'heads':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'height': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'inc' : np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),
+            'out': np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),
+            'elmo': [],
+            'sent_lens': np.zeros((batch_size), np.int32),
+            'history': [],
+            'hist_lens': np.zeros((batch_size), dtype=np.int32),
+            'action_counts': np.zeros((batch_size, num_labels), dtype=np.int32),
+        }
+
+    def append(self, features):
+        for key, feature_array in features.items():
+            if isinstance(self.features[key], list):
+                self.features[key].append(feature_array)
+                feature_array_length = len(feature_array)
+                if feature_array_length > self.max_lengths[key]:
+                    self.max_lengths[key] = feature_array_length
+            else:
+                self.features[key][self.index] = feature_array
+
+        self.index += 1
+
+    def finalize(self):
+        history_features = np.zeros((self.batch_size, self.max_lengths['history']), np.int32)
+        for i, feature_array in enumerate(self.features['history']):
+            history_features[i][:len(feature_array)] = feature_array
+
+        self.features['history'] = history_features
+
+        elmo_features = np.zeros((self.batch_size, self.max_lengths['elmo'], 1024), np.float32)
+        for i, feature_array in enumerate(self.features['elmo']):
+            elmo_features[i][:len(feature_array)] = feature_array
+
+        self.features['elmo'] = elmo_features
+
+
 class BatchParser(AbstractParser):
     """ Parser for a single pass over dev/test passages """
 
     def __init__(self, args, models, evaluate, **kwargs):
         super().__init__(args=args, models=models, evaluation=evaluate, **kwargs)
-        self.seen_per_format = defaultdict(int)
-        self.num_passages = 0
-
+        self.batch_size = args.parser_batch_size
         self.elmo = Embedder(args.elmo_path, batch_size=1)
 
+        self.num_passages = 0
+        self.passage_index = 0
+        self.parser_batch = []
+        self.batch_scores = []
+        self.completed_parses = []
+
+    def process_batch(self):
+        feature_batch = ElmoFeatureBatch(self.batch_size, self.models[0].num_feature_tokens, self.args.num_edges, self.args.num_labels)
+
+        current_parsers = self.parser_batch
+        self.parser_batch = []
+
+        # Run parse steps
+        for parser, scores in zip(current_parsers, self.batch_scores):
+            state_features = parser.parse_step(scores)
+
+            # If state_features are None parsing is complete
+            if state_features is not None:
+                feature_batch.append(state_features)
+                self.parser_batch.append(parser)
+            else:
+                self.update_counts(parser)
+                self.completed_parses.append(parser.finish())
+                self.summary()
+
+        # Fill batch if there's space
+        current_batch_size = len(self.parser_batch)
+        max_batch_size = min(self.batch_size, len(self.passages))
+
+        if current_batch_size < max_batch_size:
+            batch_difference = max_batch_size - current_batch_size
+            for offset in range(batch_difference):
+                current_passage = self.passages[self.passage_index + offset]
+                current_passage.set_elmo(
+                    self.elmo.sents2elmo([[str(n) for n in current_passage.layer("0").all]])
+                )
+                torch.cuda.empty_cache()
+
+                parser = PassageParser(
+                    current_passage,
+                    args=self.args,
+                    models=self.models,
+                    evaluation=self.evaluation
+                )
+                feature_batch.append(parser.get_state_features())
+                self.parser_batch.append(parser)
+
+            self.passage_index += batch_difference
+
+        feature_batch.finalize()
+        self.batch_scores = self.models[0].score(feature_batch.features)
+
+        yield from self.completed_parses
+        self.completed_parses = []
+
     def parse(self, passages, display=True, write=False):
-        passages, total = generate_and_len(single_to_iter(passages))
-        pr_width = len(str(total))
-        id_width = 1
+        self.passages = list(single_to_iter(passages))
+        #pr_width = len(str(total))
+        #id_width = 1
 
-        for i, passage in enumerate(passages, start=1):
-            passage.set_elmo(self.elmo.sents2elmo([[str(n) for n in passage.layer("0").all]]))
-            torch.cuda.empty_cache()
-            parser = PassageParser(passage, args=self.args, models=self.models, evaluation=self.evaluation)
+        # Process initial batch
+        print("Processing batch 0", end="\r")
+        yield from self.process_batch()
+        batch_index = 1
 
-            if display:
-                progress = "%3d%% %*d/%d" % (i / total * 100, pr_width, i, total) if total and i <= total else "%d" % i
-                id_width = max(id_width, len(str(passage.ID)))
-                print("%s %2s %-6s %-*s" % (progress, parser.lang, parser.in_format, id_width, passage.ID), end="\r")
+        # While passages have not yet been parsed
+        while self.parser_batch:
+            print("Processing batch {}".format(batch_index), end="\r")
+            yield from self.process_batch()
+            batch_index += 1
 
-            self.seen_per_format[parser.in_format] += 1
-            yield parser.parse(display=display, write=write)
-            self.update_counts(parser)
+            #if display:
+            #    progress = "%3d%% %*d/%d" % (i / total * 100, pr_width, i, total) if total and i <= total else "%d" % i
+            #    id_width = max(id_width, len(str(passage.ID)))
+            #    print("%s %2s %-6s %-*s" % (progress, parser.lang, parser.in_format, id_width, passage.ID), end="\r")
+
+            #yield parser.parse(display=display, write=write)
+            #self.update_counts(parser)
+
+        print("Processed {} batches".format(batch_index))
 
         if (self.num_passages > 0) and display:
             self.summary()
@@ -476,7 +558,7 @@ def print_scores(scores, file, prefix=None, prefix_title=None):
 
 
 def single_to_iter(it):
-    return it if hasattr(it, "__iter__") else (it,)  # Single passage given
+    return it if hasattr(it, "__iter__") else [it]  # Single passage given
 
 
 def generate_and_len(it):
