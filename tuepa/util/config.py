@@ -127,6 +127,8 @@ def get_preprocess_parser(parents=None):
                                  help="Number of stack elements for which features will be extracted.")
     argument_parser.add_argument("--buffer_elements", default=3, type=int,
                                  help="Number of buffer elements for which features will be extracted.")
+    argument_parser.add_argument("--squash-singleton-terminals", action="store_true",
+                                 help="Removes intermediate nodes with only a single outgoing Terminal edge")
 
     return argument_parser
 

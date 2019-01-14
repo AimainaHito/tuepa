@@ -89,8 +89,8 @@ class Oracle:
                 yield self.action(Actions.Reduce)
             else:
                 # Check for node label action: if all terminals have already been connected
-                if self.need_label(s0) and not any(is_terminal_edge(e) for e in outgoing):
-                    yield self.action(s0, LABEL, 1)
+                #if self.need_label(s0) and not any(is_terminal_edge(e) for e in outgoing):
+                #    yield self.action(s0, LABEL, 1)
 
                 # Check for actions to create new nodes
                 for edge in incoming:
@@ -108,9 +108,9 @@ class Oracle:
                 if len(state.stack) > 1:
                     s1 = state.stack[-2]
                     # Check for node label action: if all terminals have already been connected
-                    if self.need_label(s1) and not any(is_terminal_edge(e) for e in
-                                                       self.edges_remaining.intersection(s1.orig_node.outgoing)):
-                        yield self.action(s1, LABEL, 2)
+                    #if self.need_label(s1) and not any(is_terminal_edge(e) for e in
+                    #                                   self.edges_remaining.intersection(s1.orig_node.outgoing)):
+                    #    yield self.action(s1, LABEL, 2)
 
                     # Check for actions to create binary edges
                     for edge in incoming:
@@ -126,7 +126,7 @@ class Oracle:
 
                     if not self.found:
                         # Check if a swap is necessary, and how far (if compound swap is enabled)
-                        related = dict([(edge.child.ID,  edge) for edge in outgoing] +
+                        related = dict([(edge.child.ID, edge) for edge in outgoing] +
                                        [(edge.parent.ID, edge) for edge in incoming])
                         distance = None  # Swap distance (how many nodes in the stack to swap)
                         for i, s in enumerate(state.stack[-3::-1], start=1):  # Skip top two: checked above, not related
