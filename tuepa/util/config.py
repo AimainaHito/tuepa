@@ -127,8 +127,11 @@ def get_preprocess_parser(parents=None):
                                  help="Number of stack elements for which features will be extracted.")
     argument_parser.add_argument("--buffer_elements", default=3, type=int,
                                  help="Number of buffer elements for which features will be extracted.")
+    argument_parser.add_argument("--squash-singleton-terminals", action="store_true",
+                                 help="Removes intermediate nodes with only a single outgoing Terminal edge")
 
     return argument_parser
+
 
 def get_eval_parser(parser):
     evaluation_parser = parser
@@ -146,10 +149,11 @@ def get_eval_parser(parser):
     evaluation_parser.add_argument("-elmo", "--elmo-path", required=True,
                                    help="Path to ELMo trained with ELMoForManyLangs.")
     evaluation_parser.add_argument("-mnr", "--max-node-ratio", required=False, default=10.,
-                                   help="Path to ELMo trained with ELMoForManyLangs.")
+                                   help="Maximum node ratio")
     evaluation_parser.add_argument("-mh", "--max-height", required=False, default=20,
-                                   help="Path to ELMo trained with ELMoForManyLangs.")
+                                   help="Maximum node height")
     evaluation_parser.add_argument("--orphan-label", default="orphan", help="edge label to use for nodes without parents")
+    evaluation_parser.add_argument("-pb", "--parser-batch-size", type=int, help="Maximum number of parses running in parallel")
 
 
 def get_oracle_parser(parents=None):

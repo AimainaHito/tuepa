@@ -3,7 +3,30 @@ from tuepa.parser import State, Oracle
 
 import h5py_cache
 import numpy as np
-import torch 
+import torch
+from ucca.layer1 import EdgeTags
+
+
+def squash_singleton_terminals(passage):
+    nodes_to_remove = []
+
+    for node in passage._nodes.values():
+        # Find nodes with only single Terminal edges to squash
+        if len(node.outgoing) == 1 and node.outgoing[0].tag == EdgeTags.Terminal:
+            token_node = node.outgoing[0].child
+
+            # Relink incoming edges
+            for edge in node.incoming:
+                parent = edge.parent
+                parent.remove(edge)
+                parent.add(edge.tag, token_node, edge_attrib=edge.attrib)
+
+            nodes_to_remove.append(node)
+
+    # Destroy orphan nodes
+    for node in nodes_to_remove:
+        node.destroy()
+
 
 def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numberer, edge_numberer, train=True):
     stack_features = []
@@ -113,6 +136,9 @@ def preprocess_dataset(path,
     passage_id = 0
 
     for passage in read_passages([path]):
+        if args.squash_singleton_terminals:
+            squash_singleton_terminals(passage)
+
         sentence = [str(n) for n in passage.layer("0").all]
         if len(sentence) > 100:
             continue
@@ -275,6 +301,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
 
         elmo = f.create_group('elmo')
         contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
+
         for n, emb in enumerate(contextualized_embeddings):
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
         torch.cuda.empty_cache()
