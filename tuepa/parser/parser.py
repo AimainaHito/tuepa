@@ -115,7 +115,14 @@ class PassageParser(AbstractParser):
 
             # self.label_node()  # In case root node needs labeling
             action = self.choose()
-            self.state.transition(action)
+            try:
+                self.state.transition(action)
+            except:
+                try:
+                    with open("tmp.txt","a") as f:
+                        print(self.state.create_passage(verify=False), file=f)
+                except:
+                    break
             print(self.state.stack)
             print(self.state.buffer)
             if self.args.action_stats:
@@ -137,6 +144,7 @@ class PassageParser(AbstractParser):
             #    "    " + l for l in self.state.log]))
 
             if self.state.finished:
+                print(self.state.create_passage(verify=False))
                 return  # action is Finish (or early update is triggered)
 
     def choose(self, name="action"):
@@ -196,7 +204,6 @@ class PassageParser(AbstractParser):
                                                                                                self.args.prediction_data.edge_numberer,
                                                                                                train=False)
             forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
-
             actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
             previous_actions = np.zeros((self.args.prediction_data.label_numberer.max),dtype=np.int32)
             previous_actions[actions] += 1
@@ -217,8 +224,7 @@ class PassageParser(AbstractParser):
 
             elmo = self.state.passage.elmo[0]
             sent_length = len(elmo)
-            print(history_features)
-            # import IPython; IPython.embed()
+
             features = {'form_indices': np.array([forms],dtype=np.int32),
                         'deps': np.array([deps],dtype=np.int32),
                         'pos': np.array([pos],dtype=np.int32),
@@ -230,10 +236,12 @@ class PassageParser(AbstractParser):
                         'sent_lens': np.array([sent_length], np.int32),
                         'history': np.array([history_features], dtype=np.int32),
                         'hist_lens': np.array(hist_len, np.int32),
-                        'action_counts': previous_actions.reshape([1,-1])}
+                        'action_counts': previous_actions.reshape([1,-1]),
+                        'node_ratios':np.array([self.state.node_ratio()],dtype=np.float32),
+                        'action_ratios':np.array([self.state.action_ratio()],dtype=np.float32)}
 
             scores, = self.models[0].score(features)
-            print(scores.argmax)
+            print(scores.argmax())
             # import IPython; IPython.embed()
             # TODO: Implement elmo-rnn prediction
 

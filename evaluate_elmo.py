@@ -48,6 +48,8 @@ class PredictionWrapper():
         self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
         self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
         self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
+        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
+        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
         self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels], dtype=tf.int32)
 
         return (
@@ -62,7 +64,9 @@ class PredictionWrapper():
             self.elmo,
             self.sentence_lengths,
             self.history_lengths,
-            self.action_counts
+            self.action_counts,
+            self.action_ratios,
+            self.node_ratios,
         )
 
     def score(self, features):
@@ -78,14 +82,19 @@ class PredictionWrapper():
             self.sentence_lengths:features['sent_lens'],
             self.history_lengths:features['hist_lens'],
             self.elmo:features['elmo'],
+            self.node_ratios:features['node_ratios'],
+            self.action_ratios:features['action_ratios'],
             self.action_counts:features['action_counts']
         })
 
 def evaluate(args):
+    print(args.model_dir)
     model_args = load_args(args.model_dir)
     # Merge model args with evaluation args
+    print(model_args)
+    print(args)
     args = Namespace(**{**vars(model_args), **vars(args)})
-
+    
     # restore numberers
     with open(os.path.join(args.model_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
