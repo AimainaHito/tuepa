@@ -150,10 +150,9 @@ class ElModel(BaseModel):
     GRU. The final states of both RNNs are concatenated with the stack and buffer features and fed through several dense
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
-
     def __call__(self, batch, mode=None, train=False):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
-        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts = self.unpack_inputs(
+        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios = self.unpack_inputs(
             batch, mode)
 
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
@@ -198,7 +197,7 @@ class ElModel(BaseModel):
         )
 
         feature_vec = tf.concat([history_rnn_state, feedforward_input,
-                                 top_rnn_state, height, inc, out, action_counts], -1)
+                                 top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios,-1), tf.expand_dims(node_ratios,-1)], -1)
         feature_vec = self.downsampling_layer(feature_vec)
 
         if train:
@@ -222,23 +221,8 @@ class ElModel(BaseModel):
         return history_rnn_state
 
     def unpack_inputs(self, batch, mode):
-        if mode != tf.estimator.ModeKeys.PREDICT:
-            form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts = batch
-        else:
-            feature_tokens = self.shapes.max_buffer_size+self.shapes.max_stack_size
-            form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens],dtype=tf.int32)
-            dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens],dtype=tf.int32)
-            head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens],dtype=tf.int32)
-            pos = tf.placeholder(name="pos", shape=[None, feature_tokens],dtype=tf.int32)
-            height = tf.placeholder(name="height", shape=[None, feature_tokens],dtype=tf.int32)
-            inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
-            out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges],dtype=tf.int32)
-            history = tf.placeholder(name="hist", shape=[None, None],dtype=tf.int32)
-            elmo = tf.placeholder(name="elmo", shape=[None, None, 1024],dtype=tf.float32)
-            sentence_lengths = tf.placeholder(name="sent_lens", shape=[None],dtype=tf.float32)
-            history_lengths = tf.placeholder(name="hist_lens", shape=[None],dtype=tf.float32)
-            action_counts = tf.placeholder(name="act_counts", shape=[None,args.num_labels], dtype=tf.int32)
-        return tf.shape(form_indices)[0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts
+        form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios = batch
+        return tf.shape(form_indices)[0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts,action_ratios, node_ratios
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """
