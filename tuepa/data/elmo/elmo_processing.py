@@ -139,6 +139,7 @@ def preprocess_dataset(path,
     passage_id2sent = []
     state2passage_id = []
     passage_id = 0
+    passage_names = []
 
     for passage in read_passages([path]):
         if args.squash_singleton_terminals:
@@ -147,7 +148,7 @@ def preprocess_dataset(path,
         sentence = [str(n) for n in passage.layer("0").all]
         if len(sentence) > 100:
             continue
-
+        passage_names.append(passage.ID)
         passage_id2sent.append(sentence)
         sentence_lengths.append(len(sentence))
 
@@ -195,11 +196,11 @@ def preprocess_dataset(path,
             break
         passage_id += 1
 
-    return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels
+    return stack_and_buffer_features, Shapes(max_stack_size, max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names
 
 
 def specific_elmo(features, embedder, args, train, write_chunk=8192):
-    stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels = features
+    stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names = features
     max_stack_size = shapes.max_stack_size
     max_buffer_size = shapes.max_buffer_size
     max_hist_size = np.max(history_lengths)
@@ -314,7 +315,10 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
 
         f.create_dataset('action_ratios', data=np.array(action_ratios))
         f.create_dataset('node_ratios', data=np.array(node_ratios))
-
+        import h5py
+        dt = h5py.special_dtype(vlen=str)
+        f.create_dataset('passage_names',data=passage_names, shape=(len(history_lengths),),dtype=dt)
+        f['passage_names'] = passage_names
         f.create_dataset('labels', data=np.array(labels))
 
         elmo = f.create_group('elmo')
