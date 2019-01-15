@@ -135,7 +135,7 @@ def get_preprocess_parser(parents=None):
     argument_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
     argument_parser.add_argument("training_out", help="File where the training hdf5 file will be saved.")
     argument_parser.add_argument("validation_out", help="File where the validation hdf5 file will be saved.")
-    argument_parser.add_argument("warm_up",
+    argument_parser.add_argument("--warm-up",
                                  help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
                                  required=False, type=str)
     argument_parser.add_argument("-elmo", "--elmo-path", required=True,

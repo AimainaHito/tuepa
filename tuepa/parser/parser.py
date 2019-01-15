@@ -251,7 +251,7 @@ class PassageParser(AbstractParser):
 
     def finish(self, status="(finished)", display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
-        import IPython;IPython.embed()
+        # import IPython;IPython.embed()
         if write:
             for out_format in self.args.formats or [self.out_format]:
                 if self.args.normalize and out_format == "ucca":
