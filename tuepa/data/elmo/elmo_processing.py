@@ -52,8 +52,8 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             pos = "<NT>"
             ner = "<NT>"
             root = int(node.is_root)
-        incoming = [edge_numberer.number(e.tag, train) for e in node.incoming]
-        outgoing = [edge_numberer.number(e.tag, train) for e in node.outgoing]
+        incoming = list([edge_numberer.number(e.tag, train) for e in node.incoming])
+        outgoing = list([edge_numberer.number(e.tag, train) for e in node.outgoing])
 
         height = node.height
         return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train), ner_numberer.number(ner,train=train), incoming,
@@ -248,12 +248,11 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         start = True
         chunk_no = 0
 
-        for index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
-            if index % write_chunk == 0 and not start:
+        for ex_index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
+            if ex_index % write_chunk == 0 and not start:
                 cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
 
                 print("writing to {}".format(cur_slice))
-
                 form_matrix[cur_slice] = form_chunk
                 dep_matrix[cur_slice] = dep_chunk
                 head_matrix[cur_slice] = head_chunk
@@ -265,13 +264,28 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
                 height_matrix[cur_slice] = height_chunk
                 history_matrix[cur_slice] = hist_chunk
                 action_counts[cur_slice] = action_count_chunk
+
+                form_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                dep_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                head_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                height_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                root_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                ner_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                action_count_chunk = np.zeros(shape=(write_chunk, args.num_labels), dtype=np.int32)
+                pos_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+                out_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, args.num_edges),
+                                     dtype=np.int32)
+                inc_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, args.num_edges),
+                                     dtype=np.int32)
+                hist_chunk = np.zeros(shape=(write_chunk, max_hist_size), dtype=np.int32)
                 print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
                 chunk_no += 1
 
             start = False
             forms, deps, heads, pos, ner, incoming, outgoing, height, root = tuple(zip(*(stack_features + buffer_features)))
-            index = index % write_chunk
+
+            index = ex_index % write_chunk
             form_chunk[index] = forms
             dep_chunk[index] = deps
             head_chunk[index] = heads
@@ -279,11 +293,14 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             ner_chunk[index] = ner
             height_chunk[index] = height
             root_chunk[index] = root
-            action_count_chunk[index][previous_action_counts[index]] += 1
+
+            for action in previous_action_counts[ex_index]:
+                action_count_chunk[index,action] += 1
 
             for n, item in enumerate(incoming):
                 for id in item:
                     inc_chunk[index, n, id] += 1
+
             for n, item in enumerate(outgoing):
                 for id in item:
                     out_chunk[index, n, id] += 1
@@ -291,7 +308,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             hist_chunk[index] = np.hstack(
                 [history_features[index], np.zeros(shape=(max_hist_size - len(history_features[index])))])
 
-        if index % write_chunk != 0:
+        if ex_index % write_chunk != 0:
             cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
 
             print("writing to {}".format(cur_slice))
