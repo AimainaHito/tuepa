@@ -154,10 +154,10 @@ def preprocess_dataset(path,
         state = State(passage, args)
         oracle = Oracle(passage, args)
         state_no = 0
+        passage_actions = []
         while not state.finished:
             node_ratios.append(state.node_ratio())
             action_ratios.append(state.action_ratio())
-            passage_actions = []
             state2passage_id.append(passage_id)
             actions = oracle.generate_actions(state=state)
             action = next(actions)
@@ -278,7 +278,6 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             ner_chunk[index] = ner
             height_chunk[index] = height
             root_chunk[index] = root
-
             action_count_chunk[index][previous_action_counts[index]] += 1
 
             for n, item in enumerate(incoming):
