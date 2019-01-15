@@ -4,14 +4,14 @@ import tensorflow as tf
 from argparse import Namespace
 
 from tuepa.util.config import create_argument_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
-    DEP_FILENAME, EDGE_FILENAME, POS_FILENAME
+    DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
 from tuepa.data.elmo import get_elmo_input_fn
 from tuepa.nn import ElModel
 from tuepa.util.numberer import Numberer, load_numberer_from_file
 from tuepa.util import SaverHook
 
 
-def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numberer):
+def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numberer,ner_numberer):
     """
     Returns an estimator object.
     :param args: named_tuple holding commandline arguments.
@@ -32,7 +32,7 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
         num_labels = params["num_labels"]
         num_deps = params["num_deps"]
         num_pos = params["num_pos"]
-        model = ElModel(args, num_labels, num_dependencies=num_deps, num_pos=num_pos)
+        model = ElModel(args, num_labels, num_dependencies=num_deps, num_pos=num_pos,num_ner=ner_numberer.max)
 
         if mode == tf.estimator.ModeKeys.TRAIN:
             metrics, grads_vars = model.compute_gradients(features, labels)
@@ -129,6 +129,9 @@ def train(args):
     with open(os.path.join(args.save_dir, POS_FILENAME), "r", encoding="utf-8") as file:
         pos_numberer = load_numberer_from_file(file)
 
+    with open(os.path.join(args.save_dir, NER_FILENAME), "r", encoding="utf-8") as file:
+        ner_numberer = load_numberer_from_file(file)
+
     # save args for eval call
     save_args(args, args.save_dir)
 
@@ -136,7 +139,8 @@ def train(args):
                                                      label_numberer=label_numberer,
                                                      edge_numberer=edge_numberer,
                                                      dep_numberer=dep_numberer,
-                                                     pos_numberer=pos_numberer)
+                                                     pos_numberer=pos_numberer,
+                                                     ner_numberer=ner_numberer)
 
     tf.logging.info("Training:")
     tf.estimator.train_and_evaluate(

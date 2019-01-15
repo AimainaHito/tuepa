@@ -24,6 +24,7 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
              data['stack_buffer']['form_indices'][0].shape,
              data['stack_buffer']['form_indices'][0].shape,
              data['stack_buffer']['form_indices'][0].shape,
+             data['stack_buffer']['form_indices'][0].shape, # ner
              data['stack_buffer']['form_indices'][0].shape,  # heights
              data['stack_buffer']['form_indices'][0].shape + (args.num_edges,),  # inc
              data['stack_buffer']['form_indices'][0].shape + (args.num_edges,),  # out
@@ -33,7 +34,8 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
              tf.TensorShape([]),  # history lengths
              tf.TensorShape([args.num_labels]),
              tf.TensorShape([]),  # action_ratio
-             tf.TensorShape([]),),# node ratio
+             tf.TensorShape([]),# node ratio
+             data['stack_buffer']['form_indices'][0].shape,), # root
             tf.TensorShape([]))  # labels
     q = multiprocessing.Queue(maxsize=4)
     p = multiprocessing.Process(target=h5py_worker, args=(data_path, q, args))
@@ -50,8 +52,8 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
 
         d = tf.data.Dataset.from_generator(generator, output_types=
         # ((form_indices, dep_types, head_indices, pos, height,inc, out, history, elmo, sent_lens, hist_lens),labels)
-        ((tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
-          tf.int32, tf.int32, tf.float32, tf.float32), tf.int32))
+        ((tf.int32, tf.int32, tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
+          tf.int32, tf.int32, tf.float32, tf.float32,tf.int32), tf.int32))
         if train:
             return d.shuffle(args.batch_size * 20)
         else:
@@ -108,6 +110,7 @@ def h5py_worker(data_path, queue, args):
                dep_types, \
                head_indices, \
                pos, \
+               data['stack_buffer']['ner'][getters],\
                data['stack_buffer']['height'][getters], \
                data['stack_buffer']['in'][getters], \
                data['stack_buffer']['out'][getters], \
@@ -118,6 +121,7 @@ def h5py_worker(data_path, queue, args):
                data['action_counts'][getters], \
                data['action_ratios'][getters], \
                data['node_ratios'][getters], \
+               data['stack_buffer']['root'][getters],\
                data['labels'][getters]
 
     with h5py.File(data_path, 'r') as data:

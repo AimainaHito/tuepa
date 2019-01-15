@@ -97,6 +97,7 @@ class PassageParser(AbstractParser):
         action = self.predict(action_scores, self.state.is_valid_action)
         # TODO: temporary workaround
         if action is None:
+            import IPython; IPython.embed()
             return None
 
         self.state.transition(action)
@@ -167,13 +168,14 @@ class PassageParser(AbstractParser):
             stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(
                 self.args,
                 self.state,
-                self.args.prediction_data.label_numberer,
-                self.args.prediction_data.pos_numberer,
-                self.args.prediction_data.dep_numberer,
-                self.args.prediction_data.edge_numberer,
+                label_numberer=self.args.prediction_data.label_numberer,
+                pos_numberer=self.args.prediction_data.pos_numberer,
+                dep_numberer=self.args.prediction_data.dep_numberer,
+                edge_numberer=self.args.prediction_data.edge_numberer,
+                ner_numberer=self.args.prediction_data.ner_numberer,
                 train=False
             )
-            forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
+            forms, deps, heads, pos,ner, incoming, outgoing, height, root = tuple(zip(*(stack_features + buffer_features)))
 
             actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
             previous_actions = np.zeros((self.args.prediction_data.label_numberer.max), dtype=np.int32)
@@ -200,6 +202,7 @@ class PassageParser(AbstractParser):
             features = {
                 'form_indices': forms,
                 'deps': deps,
+                'ner':ner,
                 'pos': pos,
                 'heads':heads,
                 'height': height,
@@ -209,6 +212,9 @@ class PassageParser(AbstractParser):
                 'sent_lens': sent_length,
                 'history': history_features,
                 'hist_lens': hist_len,
+                'action_ratios':self.state.action_ratio(),
+                'node_ratios': self.state.node_ratio(),
+                'root' : root,
                 'action_counts': previous_actions.reshape([1, -1])
             }
 
@@ -245,6 +251,7 @@ class PassageParser(AbstractParser):
 
     def finish(self, status="(finished)", display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
+        import IPython;IPython.embed()
         if write:
             for out_format in self.args.formats or [self.out_format]:
                 if self.args.normalize and out_format == "ucca":
@@ -310,6 +317,7 @@ class ElmoFeatureBatch:
             'form_indices': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'ner':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'heads':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'height': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'inc' : np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),
@@ -318,7 +326,10 @@ class ElmoFeatureBatch:
             'sent_lens': np.zeros((batch_size), np.int32),
             'history': [],
             'hist_lens': np.zeros((batch_size), dtype=np.int32),
+            'action_ratios' : np.zeros((batch_size),dtype=np.float32),
+            'node_ratios': np.zeros((batch_size), dtype=np.float32),
             'action_counts': np.zeros((batch_size, num_labels), dtype=np.int32),
+             'root':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
         }
 
     def append(self, features):
@@ -354,7 +365,17 @@ class BatchParser(AbstractParser):
         super().__init__(args=args, models=models, evaluation=evaluate, **kwargs)
         self.batch_size = args.parser_batch_size
         self.elmo = Embedder(args.elmo_path, batch_size=1)
-
+        self.elmo.sents2elmo(list(map(str.split,["Throughout 2004 , Carey focused on composing material for her tenth studio album , The Emancipation of Mimi ( 2005 ) . The album found Carey working predominantly with Jermaine Dupri , as well as Bryan - Michael Cox , Manuel Seal , The Neptunes and Kanye West ."
+                              "The album debuted atop the charts in several countries , and was warmly accepted by critics .",
+                              "Caroline Sullivan of The Guardian defined it as \" cool , focused and urban [ ... some of ] the first Mariah Carey tunes in years which I would n't have to be paid to listen to again \""
+                              " , while USA Today 's Elysa Gardner wrote , \" The ballads and midtempo numbers that truly reflect the renewed confidence of a songbird who has taken her shots and kept on flying ."
+                              "The album 's second single , \" We Belong Together \" , became a \" career redefining \" song for Carey , at a point when many critics had considered her career over .\",",
+                              " We Belong Together \" broke several records in the United States and became Carey 's sixteenth chart topper on the Billboard Hot 100 .",
+                              "Music critics heralded the song as her \" return to form \" , as well as the \" return of The Voice \" , while many felt it would revive \" faith \" in Carey 's potential as a balladeer .",
+                              "After staying at number one for fourteen non - consecutive weeks , the song became the second longest running number one song in US chart history , behind Carey 's 1996 collaboration with Boyz II Men , \" One Sweet Day \" . Billboard listed it as the \" song of the decade \" and the ninth most popular song of all time .",
+                              "Besides its chart success , the song broke several airplay records , and according to Nielsen BDS , gathered both the largest one - day and one - week audiences in history .",
+                              "During the week of September 25, 2005, Carey set another record, becoming the first female to occupy the first two spots atop the Hot 100, as \" We Belong Together \" remained at number one , and her next single , \" Shake It Off \" moved into the number two spot .",
+                              "( Ashanti had topped the chart in 2002 while being a \" featured \" singer on the # 2 single .) On the Billboard Hot 100 Year - end Chart of 2005 , the song was declared the number one song , a career first for Carey ."])))
         self.num_passages = 0
         self.passage_index = 0
         self.parser_batch = []

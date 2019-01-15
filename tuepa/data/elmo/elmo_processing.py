@@ -28,14 +28,14 @@ def squash_singleton_terminals(passage):
         node.destroy()
 
 
-def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numberer, edge_numberer, train=True):
+def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numberer, ner_numberer, edge_numberer, train=True):
     stack_features = []
     buffer_features = []
     stack = state.stack
     buffer = state.buffer
 
     def null_features():
-        return [0, 0, 0, 0, [], [], 0]
+        return [0, 0, 0, 0, 0, [], [], 0, 0]
 
     def extract_feature(node):
         if node.text is not None:
@@ -43,17 +43,21 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             dep = node.extra['dep']
             head = node.extra['head'] + form
             pos = node.extra['tag']
+            ner = node.extra['ent_type']
+            root = 0
         else:
             form = 1
             dep = "<NT>"
             head = 1
             pos = "<NT>"
+            ner = "<NT>"
+            root = int(node.is_root)
         incoming = [edge_numberer.number(e.tag, train) for e in node.incoming]
         outgoing = [edge_numberer.number(e.tag, train) for e in node.outgoing]
 
         height = node.height
-        return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train), incoming,
-                outgoing, height]
+        return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train), ner_numberer.number(ner,train=train), incoming,
+                outgoing, height, root]
 
     for n in range(args.stack_elements):
         try:
@@ -114,6 +118,7 @@ def preprocess_dataset(path,
                        pos_numberer=None,
                        dep_numberer=None,
                        edge_numberer=None,
+                       ner_numberer=None,
                        train=False):
 
     if not train:
@@ -164,6 +169,7 @@ def preprocess_dataset(path,
                 pos_numberer=pos_numberer,
                 dep_numberer=dep_numberer,
                 edge_numberer=edge_numberer,
+                ner_numberer=ner_numberer,
                 train=train
             )
 
@@ -211,6 +217,10 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
                                          dtype=np.int32, fillvalue=0)
         height_matrix = s_b.create_dataset('height', shape=(num_examples, max_stack_size + max_buffer_size),
                                            dtype=np.int32, fillvalue=0)
+        root_matrix = s_b.create_dataset('root', shape=(num_examples, max_stack_size + max_buffer_size),
+                                           dtype=np.int32, fillvalue=0)
+        ner_matrix = s_b.create_dataset('ner', shape=(num_examples, max_stack_size + max_buffer_size),
+                                         dtype=np.int32, fillvalue=0)
         pos_matrix = s_b.create_dataset('pos', shape=(num_examples, max_stack_size + max_buffer_size),
                                         dtype=np.int32, fillvalue=0)
         out_matrix = s_b.create_dataset('out', shape=(
@@ -227,6 +237,8 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         dep_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         head_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         height_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+        root_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
+        ner_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         action_count_chunk = np.zeros(shape=(write_chunk, args.num_labels), dtype=np.int32)
         pos_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         out_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, args.num_edges), dtype=np.int32)
@@ -246,21 +258,26 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
                 head_matrix[cur_slice] = head_chunk
                 out_matrix[cur_slice] = out_chunk
                 inc_matrix[cur_slice] = inc_chunk
+                ner_matrix[cur_slice] = ner_chunk
                 pos_matrix[cur_slice] = pos_chunk
+                root_matrix[cur_slice] = root_chunk
                 height_matrix[cur_slice] = height_chunk
                 history_matrix[cur_slice] = hist_chunk
                 action_counts[cur_slice] = action_count_chunk
                 print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
                 chunk_no += 1
+
             start = False
-            forms, deps, heads, pos, incoming, outgoing, height = tuple(zip(*(stack_features + buffer_features)))
+            forms, deps, heads, pos, ner, incoming, outgoing, height, root = tuple(zip(*(stack_features + buffer_features)))
             index = index % write_chunk
             form_chunk[index] = forms
             dep_chunk[index] = deps
             head_chunk[index] = heads
             pos_chunk[index] = pos
+            ner_chunk[index] = ner
             height_chunk[index] = height
+            root_chunk[index] = root
 
             action_count_chunk[index][previous_action_counts[index]] += 1
 
@@ -284,7 +301,9 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             head_matrix[cur_slice] = head_chunk[:num_examples % write_chunk]
             out_matrix[cur_slice] = out_chunk[:num_examples % write_chunk]
             inc_matrix[cur_slice] = inc_chunk[:num_examples % write_chunk]
+            ner_matrix[cur_slice] = ner_chunk[:num_examples % write_chunk]
             pos_matrix[cur_slice] = pos_chunk[:num_examples % write_chunk]
+            root_matrix[cur_slice] = root_chunk[:num_examples % write_chunk]
             height_matrix[cur_slice] = height_chunk[:num_examples % write_chunk]
             history_matrix[cur_slice] = hist_chunk[:num_examples % write_chunk]
             action_counts[cur_slice] = action_count_chunk[:num_examples % write_chunk]

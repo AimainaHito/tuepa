@@ -17,7 +17,7 @@ from tuepa.data import read_passages
 from collections import namedtuple
 
 ElmoPredictionData = namedtuple(
-    "ElmoPredictionData", "label_numberer pos_numberer dep_numberer edge_numberer")
+    "ElmoPredictionData", "label_numberer pos_numberer dep_numberer edge_numberer ner_numberer")
 
 
 class PredictionWrapper():
@@ -29,7 +29,7 @@ class PredictionWrapper():
 
         with self.session.graph.as_default():
             # [Variable and model creation goes here.]
-            self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos)
+            self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner)
             self.logits = self.model(self._create_inputs(), train=False)
             self.saver = tf.train.Saver()
             self.predictions = tf.argmax(self.logits, -1)
@@ -42,6 +42,7 @@ class PredictionWrapper():
         self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
         self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
         self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+        self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
         self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
         self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
         self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
@@ -52,12 +53,13 @@ class PredictionWrapper():
         self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
         self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
         self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels], dtype=tf.int32)
-
+        self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
         return (
             self.form_indices,
             self.dep_types,
             self.head_indices,
             self.pos,
+            self.ner,
             self.height,
             self.inc,
             self.out,
@@ -68,6 +70,7 @@ class PredictionWrapper():
             self.action_counts,
             self.action_ratios,
             self.node_ratios,
+            self.root,
         )
 
     def score(self, features):
@@ -75,6 +78,7 @@ class PredictionWrapper():
             self.form_indices:features['form_indices'],
             self.dep_types:features['deps'],
             self.pos:features['pos'],
+            self.ner:features['ner'],
             self.head_indices:features['heads'],
             self.height:features['height'],
             self.inc:features['inc'],
@@ -85,7 +89,8 @@ class PredictionWrapper():
             self.elmo:features['elmo'],
             self.node_ratios:features['node_ratios'],
             self.action_ratios:features['action_ratios'],
-            self.action_counts:features['action_counts']
+            self.action_counts:features['action_counts'],
+            self.root:features['root']
         })
 
 def evaluate(args):
@@ -109,13 +114,18 @@ def evaluate(args):
     with open(os.path.join(args.model_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
         pos_numberer = load_numberer_from_file(file)
 
+    with open(os.path.join(args.model_dir, tuepa.util.config.NER_FILENAME), "r", encoding="utf-8") as file:
+        ner_numberer = load_numberer_from_file(file)
+
     args.num_edges = edge_numberer.max
     args.prediction_data = ElmoPredictionData(
         label_numberer=label_numberer,
         pos_numberer=pos_numberer,
         dep_numberer=dep_numberer,
-        edge_numberer=edge_numberer
+        edge_numberer=edge_numberer,
+        ner_numberer=ner_numberer,
     )
+    args.num_ner = ner_numberer.max
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:

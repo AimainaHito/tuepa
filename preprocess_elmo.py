@@ -2,11 +2,12 @@ import os
 import sys
 
 from tuepa.util.config import get_preprocess_parser, get_oracle_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
-    DEP_FILENAME, EDGE_FILENAME, POS_FILENAME
+    DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
 from tuepa.util.numberer import Numberer
 from tuepa.data.elmo import preprocess_dataset, specific_elmo
 
 from elmoformanylangs import Embedder
+
 
 def preprocess(args):
     if not os.path.exists(args.save_dir):
@@ -15,11 +16,14 @@ def preprocess(args):
     print("Processing passages...", file=sys.stderr)
 
     elmo_embedder = Embedder(args.elmo_path, batch_size=30)
-
+    if args.warm_up:
+        with open(args.warm_up) as f:
+            elmo_embedder.sents2elmo(map(lambda x: x.split(),filter(lambda x: len(x) < 100,f.readlines())))
     label_numberer = Numberer()
     pos_numberer = Numberer(first_elements=["<PAD>"])
     dep_numberer = Numberer(first_elements=["<PAD>"])
     edge_numberer = Numberer(first_elements=["<PAD>"])
+    ner_numberer = Numberer(first_elements=["<PAD>"])
 
     print("starting processing training data..", )
     training_data = preprocess_dataset(
@@ -28,6 +32,7 @@ def preprocess(args):
         label_numberer=label_numberer,
         pos_numberer=pos_numberer,
         dep_numberer=dep_numberer,
+        ner_numberer=ner_numberer,
         edge_numberer=edge_numberer,
         train=True
     )
@@ -37,7 +42,8 @@ def preprocess(args):
     args.num_edges = edge_numberer.max
     args.num_pos = pos_numberer.max
     args.num_deps = dep_numberer.max
-
+    args.num_ner = ner_numberer.max
+    
     print("...starting to write training features", )
     training_shapes = specific_elmo(training_data, elmo_embedder, args, train=True)
     print("finished writing training data..", )
@@ -52,6 +58,7 @@ def preprocess(args):
         label_numberer=label_numberer,
         pos_numberer=pos_numberer,
         dep_numberer=dep_numberer,
+        ner_numberer=ner_numberer,
         edge_numberer=edge_numberer,
         train=False
         )
@@ -63,8 +70,9 @@ def preprocess(args):
 
         args.label_list = label_numberer.num2value
         args.dep_list = dep_numberer.num2value
-        args.edge_list = dep_numberer.num2value
-        args.pos_list = dep_numberer.num2value
+        args.edge_list = edge_numberer.num2value
+        args.pos_list = pos_numberer.num2value
+        args.ner_list = ner_numberer.num2value
         args.shapes = training_shapes
 
         save_args(args, args.save_dir)
@@ -77,6 +85,8 @@ def preprocess(args):
             edge_numberer.to_file(file)
         with open(os.path.join(args.save_dir, POS_FILENAME), "w", encoding="utf-8") as file:
             pos_numberer.to_file(file)
+        with open(os.path.join(args.save_dir, NER_FILENAME), "w", encoding="utf-8") as file:
+            ner_numberer.to_file(file)
     except:
         import IPython; IPython.embed()
 

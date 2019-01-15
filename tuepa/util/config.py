@@ -10,10 +10,12 @@ LABELS_FILENAME = "labels.csv"
 DEP_FILENAME = "deps.csv"
 EDGE_FILENAME = "edge.csv"
 POS_FILENAME = "pos.csv"
+NER_FILENAME = "ner.csv"
 
 # Swap types
 REGULAR = "regular"
 COMPOUND = "compound"
+
 
 def create_argument_parser():
     argument_parser = argparse.ArgumentParser()
@@ -23,21 +25,28 @@ def create_argument_parser():
     # Data arguments
     common_parser.add_argument("training_path", help="Glob to UCCA annotated training data")
     common_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
-    common_parser.add_argument("--max-training-features", type=int, default=None, help="Maximum number of features to train on")
-    common_parser.add_argument("--max-validation-features", type=int, default=None, help="Maximum number of features used for validation")
+    common_parser.add_argument("--max-training-features", type=int, default=None,
+                               help="Maximum number of features to train on")
+    common_parser.add_argument("--max-validation-features", type=int, default=None,
+                               help="Maximum number of features used for validation")
     common_parser.add_argument("--max-training-length", type=int, default=100, help="Maximum training sentences.")
 
     # Logging arguments
-    common_parser.add_argument("--log-file", type=argparse.FileType("w", encoding="utf-8"), default=None, help="File to log training and validation progress to")
-    common_parser.add_argument("-v", "--verbose", action="store_true", help="Prints training and validation progress to the terminal")
+    common_parser.add_argument("--log-file", type=argparse.FileType("w", encoding="utf-8"), default=None,
+                               help="File to log training and validation progress to")
+    common_parser.add_argument("-v", "--verbose", action="store_true",
+                               help="Prints training and validation progress to the terminal")
 
     # Saving arguments
-    common_parser.add_argument("--save-dir", default=None, help="directory the trained neural network model will be saved to every epoch")
+    common_parser.add_argument("--save-dir", default=None,
+                               help="directory the trained neural network model will be saved to every epoch")
 
     # General neural network arguments
-    common_parser.add_argument("-e", "--embedding-size", type=int, default=300, help="Number of dimensions of the word embedding matrix")
+    common_parser.add_argument("-e", "--embedding-size", type=int, default=300,
+                               help="Number of dimensions of the word embedding matrix")
     common_parser.add_argument("-b", "--batch-size", type=int, default=1024, help="Maximum batch size")
-    common_parser.add_argument("--learning-rate", type=float, default=0.01, help="(Initial) learning rate for the optimizer")
+    common_parser.add_argument("--learning-rate", type=float, default=0.01,
+                               help="(Initial) learning rate for the optimizer")
 
     # Oracle arguments
     oracle_parser = get_oracle_parser()
@@ -51,25 +60,30 @@ def create_argument_parser():
     transformer_parser = subparsers.add_parser("transformer", parents=[common_parser, oracle_parser])
 
     # Feed forward arguments
-    feed_forward_parser.add_argument("--input-dropout", type=float, default=1, help="Dropout keep probability applied on the NN input")
-    feed_forward_parser.add_argument("--layer-dropout", type=float, default=1, help="Dropout keep probability applied after each hidden layer")
-    feed_forward_parser.add_argument("-l", "--layers", default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]',
-        help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]')
+    feed_forward_parser.add_argument("--input-dropout", type=float, default=1,
+                                     help="Dropout keep probability applied on the NN input")
+    feed_forward_parser.add_argument("--layer-dropout", type=float, default=1,
+                                     help="Dropout keep probability applied after each hidden layer")
+    feed_forward_parser.add_argument("-l", "--layers",
+                                     default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]',
+                                     help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]')
 
     # Transformer arguments
-    transformer_parser.add_argument("--self-attention-neurons", type=int, default=512, help="Number of neurons in the relu layer after self attention")
+    transformer_parser.add_argument("--self-attention-neurons", type=int, default=512,
+                                    help="Number of neurons in the relu layer after self attention")
     transformer_parser.add_argument("--num-heads", type=int, default=4, help="Number of self attention heads")
-    transformer_parser.add_argument("--max-positions", type=int, default=256, help="Maximum number of positions embedded by the position embeddings")
+    transformer_parser.add_argument("--max-positions", type=int, default=256,
+                                    help="Maximum number of positions embedded by the position embeddings")
     transformer_parser.add_argument("--num-layers", type=int, default=2, help="Number of transformer layers")
 
     # Elmo/RNN arguments
-
 
     # Prediction arguments
     # evaluation_parser.add_argument("arch", choices=["feedfoward", "transformer", "elmo_rnn"], help="Type of the prediction model to be loaded")
     evaluation_parser = subparsers.add_parser("evaluate", parents=[oracle_parser])
     get_eval_parser(oracle_parser, evaluation_parser)
     return argument_parser
+
 
 def get_elmo_parser():
     oracle_parser = get_oracle_parser()
@@ -80,19 +94,20 @@ def get_elmo_parser():
 
     # Logging arguments
     elmo_rnn_parser.add_argument("--log-file", type=argparse.FileType("w", encoding="utf-8"), default=None,
-                               help="File to log training and validation progress to")
+                                 help="File to log training and validation progress to")
     elmo_rnn_parser.add_argument("-v", "--verbose", action="store_true",
-                               help="Prints training and validation progress to the terminal")
+                                 help="Prints training and validation progress to the terminal")
 
     # Saving arguments
     elmo_rnn_parser.add_argument("--save-dir", default=None,
-                               help="directory the trained neural network model will be saved to every epoch")
+                                 help="directory the trained neural network model will be saved to every epoch")
 
     # General neural network arguments
     elmo_rnn_parser.add_argument("-e", "--embedding-size", type=int, default=300,
-                               help="Number of dimensions of the feature embeddings matrix")
+                                 help="Number of dimensions of the feature embeddings matrix")
     elmo_rnn_parser.add_argument("-b", "--batch-size", type=int, default=128, help="Maximum batch size")
-    elmo_rnn_parser.add_argument("--learning-rate", type=float, default=0.01, help="(Initial) learning rate for the optimizer")
+    elmo_rnn_parser.add_argument("--learning-rate", type=float, default=0.01,
+                                 help="(Initial) learning rate for the optimizer")
     elmo_rnn_parser.add_argument("-bi-rnn", "--bi-rnn-neurons", type=int, default=512,
                                  help="Neurons in the sentence bi-rnn")
     elmo_rnn_parser.add_argument("-top-rnn", "--top-rnn-neurons", type=int, default=512,
@@ -111,6 +126,7 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("--epoch_steps", type=int, default=100, help="Batches per training / evaluation epoch")
     return elmo_rnn_parser
 
+
 def get_preprocess_parser(parents=None):
     if parents is None:
         parents = []
@@ -119,6 +135,9 @@ def get_preprocess_parser(parents=None):
     argument_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
     argument_parser.add_argument("training_out", help="File where the training hdf5 file will be saved.")
     argument_parser.add_argument("validation_out", help="File where the validation hdf5 file will be saved.")
+    argument_parser.add_argument("warm_up",
+                                 help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
+                                 required=False, type=str)
     argument_parser.add_argument("-elmo", "--elmo-path", required=True,
                                  help="Path to ELMo trained with ELMoForManyLangs.")
     argument_parser.add_argument("--save-dir", default=None, required=True,
@@ -152,14 +171,16 @@ def get_eval_parser(parser):
                                    help="Maximum node ratio")
     evaluation_parser.add_argument("-mh", "--max-height", required=False, default=20,
                                    help="Maximum node height")
-    evaluation_parser.add_argument("--orphan-label", default="orphan", help="edge label to use for nodes without parents")
-    evaluation_parser.add_argument("-pb", "--parser-batch-size", type=int, help="Maximum number of parses running in parallel")
+    evaluation_parser.add_argument("--orphan-label", default="orphan",
+                                   help="edge label to use for nodes without parents")
+    evaluation_parser.add_argument("-pb", "--parser-batch-size", type=int,
+                                   help="Maximum number of parses running in parallel")
 
 
 def get_oracle_parser(parents=None):
     if parents is None:
         parents = []
-    oracle_parser = argparse.ArgumentParser(add_help=False,parents=parents)
+    oracle_parser = argparse.ArgumentParser(add_help=False, parents=parents)
     oracle_parser.add_argument("-u", "--unlabeled", action="store_true", help="Ignore labels")
     oracle_parser.add_argument("--linkage", action="store_true", help="linkage nodes and edges")
     oracle_parser.add_argument("--implicit", action="store_true", help="implicit nodes and edges")

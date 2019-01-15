@@ -81,7 +81,7 @@ class FFModel(BaseModel):
 
 
 class ElModel(BaseModel):
-    def __init__(self, args, num_labels, num_dependencies, num_pos):
+    def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner):
         super().__init__()
         self.history_embeddings = tf.get_variable(
             name="embeddings",
@@ -98,6 +98,12 @@ class ElModel(BaseModel):
         self.dep_embeddings = tf.get_variable(
             name="dep_embeddings",
             shape=[num_dependencies, args.history_embedding_size],
+            dtype=tf.float32
+        )
+
+        self.ner_embeddings = tf.get_variable(
+            name="ner_embeddings",
+            shape=[num_ner, args.history_embedding_size],
             dtype=tf.float32
         )
 
@@ -152,7 +158,7 @@ class ElModel(BaseModel):
     """
     def __call__(self, batch, mode=None, train=False):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
-        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios = self.unpack_inputs(
+        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios,root,ner = self.unpack_inputs(
             batch, mode)
 
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
@@ -188,16 +194,17 @@ class ElModel(BaseModel):
                                                 n=feature_tokens, t=top_rnn_output)
         pos_features = tf.nn.embedding_lookup(self.pos_embeddings, pos)
         dep_features = tf.nn.embedding_lookup(self.dep_embeddings, dep_types)
+        ner_features = tf.nn.embedding_lookup(self.ner_embeddings, ner)
 
         features = tf.concat(
-            [form_features, head_features, pos_features, dep_features], axis=-1)
+            [form_features, head_features, pos_features, dep_features,ner_features], axis=-1)
         feedforward_input = tf.reshape(
             features,
             [batch_size, features.shape[1] * features.shape[2]]
         )
 
         feature_vec = tf.concat([history_rnn_state, feedforward_input,
-                                 top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios,-1), tf.expand_dims(node_ratios,-1)], -1)
+                                 top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios,-1), tf.expand_dims(node_ratios,-1),tf.to_float(root)], -1)
         feature_vec = self.downsampling_layer(feature_vec)
 
         if train:
@@ -221,8 +228,8 @@ class ElModel(BaseModel):
         return history_rnn_state
 
     def unpack_inputs(self, batch, mode):
-        form_indices, dep_types, head_indices, pos, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios = batch
-        return tf.shape(form_indices)[0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts,action_ratios, node_ratios
+        form_indices, dep_types, head_indices, pos,ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
+        return tf.shape(form_indices)[0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts,action_ratios, node_ratios,root,ner
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """
