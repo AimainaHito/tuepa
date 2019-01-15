@@ -317,8 +317,8 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         f.create_dataset('node_ratios', data=np.array(node_ratios))
         import h5py
         dt = h5py.special_dtype(vlen=str)
-        f.create_dataset('passage_names',data=passage_names, shape=(len(history_lengths),),dtype=dt)
-        f['passage_names'] = passage_names
+        f.create_dataset('passage_names', shape=(len(passage_id2sent),),dtype=dt)
+        f['passage_names'][()] = passage_names
         f.create_dataset('labels', data=np.array(labels))
 
         elmo = f.create_group('elmo')
