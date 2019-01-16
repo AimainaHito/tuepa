@@ -124,6 +124,7 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("--history-embedding-size", type=int, default=300,
                                  help="Size of the action history embeddings")
     elmo_rnn_parser.add_argument("--epoch_steps", type=int, default=100, help="Batches per training / evaluation epoch")
+    elmo_rnn_parser.add_argument("--numbers", type=str, default="absolute", help="Mode of representing numbers. One of: ['absolute','log','embed']")
     return elmo_rnn_parser
 
 
@@ -175,7 +176,11 @@ def get_eval_parser(parser):
                                    help="edge label to use for nodes without parents")
     evaluation_parser.add_argument("-pb", "--parser-batch-size", type=int,
                                    help="Maximum number of parses running in parallel")
-
+    evaluation_parser.add_argument("-log", "--log-file", type=str,
+                               help="Log file")
+    evaluation_parser.add_argument("--warm-up",
+                                 help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
+                                 required=False, type=str)
 
 def get_oracle_parser(parents=None):
     if parents is None:

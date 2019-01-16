@@ -52,8 +52,9 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             pos = "<NT>"
             ner = "<NT>"
             root = int(node.is_root)
-        incoming = list([edge_numberer.number(e.tag, train) for e in node.incoming])
-        outgoing = list([edge_numberer.number(e.tag, train) for e in node.outgoing])
+
+        incoming = [edge_numberer.number((e.tag, e.remote), train) for e in node.incoming]
+        outgoing = [edge_numberer.number((e.tag, e.remote), train) for e in node.outgoing]
 
         height = node.height
         return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train), ner_numberer.number(ner,train=train), incoming,
@@ -82,16 +83,23 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             left_parent = try_or_function(test_fn, null_features, extract_feature, left_parent)
             stack_features.append(left_parent)
 
-            right_parent = try_or_value(0, node.parents, -1)
-            right_parent = try_or_function(test_fn, null_features, extract_feature, right_parent)
+            if len(node.parents) > 1:
+                right_parent = try_or_value(0, node.parents, -1)
+                right_parent = try_or_function(test_fn, null_features, extract_feature, right_parent)
+            else:
+                right_parent = null_features()
+
             stack_features.append(right_parent)
 
             left_child = try_or_value(0, node.children, 0)
             left_child = try_or_function(test_fn, null_features, extract_feature, left_child)
             stack_features.append(left_child)
 
-            right_child = try_or_value(0, node.children, -1)
-            right_child = try_or_function(test_fn, null_features, extract_feature, right_child)
+            if len(node.children) > 1:
+                right_child = try_or_value(0, node.children, -1)
+                right_child = try_or_function(test_fn, null_features, extract_feature, right_child)
+            else:
+                right_child = null_features()
             stack_features.append(right_child)
 
         except IndexError:
@@ -247,7 +255,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         hist_chunk = np.zeros(shape=(write_chunk, max_hist_size), dtype=np.int32)
         start = True
         chunk_no = 0
-
+        max_n = -1
         for ex_index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
             if ex_index % write_chunk == 0 and not start:
                 cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
@@ -264,6 +272,8 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
                 height_matrix[cur_slice] = height_chunk
                 history_matrix[cur_slice] = hist_chunk
                 action_counts[cur_slice] = action_count_chunk
+
+                max_n = max((out_chunk.max(),inc_chunk.max(),action_count_chunk.max(),max_n))
 
                 form_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
                 dep_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
@@ -324,6 +334,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             height_matrix[cur_slice] = height_chunk[:num_examples % write_chunk]
             history_matrix[cur_slice] = hist_chunk[:num_examples % write_chunk]
             action_counts[cur_slice] = action_count_chunk[:num_examples % write_chunk]
+            max_n = max((out_chunk.max(), inc_chunk.max(), action_count_chunk.max(), max_n))
             print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
         f.create_dataset('history_lengths', data=np.array(history_lengths))
@@ -345,4 +356,4 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
         torch.cuda.empty_cache()
 
-    return shapes
+    return shapes,max_n

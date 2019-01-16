@@ -16,9 +16,11 @@ def preprocess(args):
     print("Processing passages...", file=sys.stderr)
 
     elmo_embedder = Embedder(args.elmo_path, batch_size=30)
+
     if args.warm_up:
         with open(args.warm_up) as f:
             elmo_embedder.sents2elmo(map(lambda x: x.split(),filter(lambda x: len(x) < 100,f.readlines())))
+
     label_numberer = Numberer()
     pos_numberer = Numberer(first_elements=["<PAD>"])
     dep_numberer = Numberer(first_elements=["<PAD>"])
@@ -43,11 +45,10 @@ def preprocess(args):
     args.num_pos = pos_numberer.max
     args.num_deps = dep_numberer.max
     args.num_ner = ner_numberer.max
-    
     print("...starting to write training features", )
-    training_shapes = specific_elmo(training_data, elmo_embedder, args, train=True)
+    training_shapes, max_n = specific_elmo(training_data, elmo_embedder, args, train=True)
     print("finished writing training data..", )
-
+    args.num_num = max_n
     # Preprocess validation set
     print("starting to process validation data..", )
     try:
@@ -65,7 +66,7 @@ def preprocess(args):
         print("finished processing validation data..", )
 
         print("..starting to write validation data..", )
-        validation_shapes = specific_elmo(validation_data, elmo_embedder, args, train=False)
+        validation_shapes, _ = specific_elmo(validation_data, elmo_embedder, args, train=False)
         print("..finished writing validation data", )
 
         args.label_list = label_numberer.num2value

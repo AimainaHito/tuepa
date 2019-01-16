@@ -32,6 +32,7 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
         num_labels = params["num_labels"]
         num_deps = params["num_deps"]
         num_pos = params["num_pos"]
+
         model = ElModel(args, num_labels, num_dependencies=num_deps, num_pos=num_pos,num_ner=ner_numberer.max)
 
         if mode == tf.estimator.ModeKeys.TRAIN:

@@ -130,8 +130,14 @@ def evaluate(args):
     gpu_options = tf.GPUOptions(allow_growth=True)
     with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
         wrp = PredictionWrapper(args=args, queue=None, session=sess)
-        print(*parser.evaluate(wrp, args,
-                            read_passages([args.eval_data])), sep="\n")
+        try:
+            res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
+        except Exception as e:
+            import IPython;
+            IPython.embed()
+            pass
+        import IPython;
+        IPython.embed()
 
 
 def run_eval(args):

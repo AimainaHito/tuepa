@@ -97,8 +97,7 @@ class PassageParser(AbstractParser):
         action = self.predict(action_scores, self.state.is_valid_action)
         # TODO: temporary workaround
         if action is None:
-            import IPython; IPython.embed()
-            return None
+            action = Action("FINISH")
 
         self.state.transition(action)
         #print(self.state.stack)
@@ -120,6 +119,8 @@ class PassageParser(AbstractParser):
         return self.get_state_features()
 
     def get_state_features(self):
+        if self.state.finished:
+            return None
         max_stack_size = self.args.shapes.max_stack_size
         max_buffer_size = self.args.shapes.max_buffer_size
 
@@ -365,17 +366,9 @@ class BatchParser(AbstractParser):
         super().__init__(args=args, models=models, evaluation=evaluate, **kwargs)
         self.batch_size = args.parser_batch_size
         self.elmo = Embedder(args.elmo_path, batch_size=1)
-        self.elmo.sents2elmo(list(map(str.split,["Throughout 2004 , Carey focused on composing material for her tenth studio album , The Emancipation of Mimi ( 2005 ) . The album found Carey working predominantly with Jermaine Dupri , as well as Bryan - Michael Cox , Manuel Seal , The Neptunes and Kanye West ."
-                              "The album debuted atop the charts in several countries , and was warmly accepted by critics .",
-                              "Caroline Sullivan of The Guardian defined it as \" cool , focused and urban [ ... some of ] the first Mariah Carey tunes in years which I would n't have to be paid to listen to again \""
-                              " , while USA Today 's Elysa Gardner wrote , \" The ballads and midtempo numbers that truly reflect the renewed confidence of a songbird who has taken her shots and kept on flying ."
-                              "The album 's second single , \" We Belong Together \" , became a \" career redefining \" song for Carey , at a point when many critics had considered her career over .\",",
-                              " We Belong Together \" broke several records in the United States and became Carey 's sixteenth chart topper on the Billboard Hot 100 .",
-                              "Music critics heralded the song as her \" return to form \" , as well as the \" return of The Voice \" , while many felt it would revive \" faith \" in Carey 's potential as a balladeer .",
-                              "After staying at number one for fourteen non - consecutive weeks , the song became the second longest running number one song in US chart history , behind Carey 's 1996 collaboration with Boyz II Men , \" One Sweet Day \" . Billboard listed it as the \" song of the decade \" and the ninth most popular song of all time .",
-                              "Besides its chart success , the song broke several airplay records , and according to Nielsen BDS , gathered both the largest one - day and one - week audiences in history .",
-                              "During the week of September 25, 2005, Carey set another record, becoming the first female to occupy the first two spots atop the Hot 100, as \" We Belong Together \" remained at number one , and her next single , \" Shake It Off \" moved into the number two spot .",
-                              "( Ashanti had topped the chart in 2002 while being a \" featured \" singer on the # 2 single .) On the Billboard Hot 100 Year - end Chart of 2005 , the song was declared the number one song , a career first for Carey ."])))
+        if args.warm_up:
+            with open(args.warm_up) as f:
+                self.elmo.sents2elmo(map(lambda x: x.split(), filter(lambda x: len(x) < 100, f.readlines())))
         self.num_passages = 0
         self.passage_index = 0
         self.parser_batch = []
@@ -383,7 +376,8 @@ class BatchParser(AbstractParser):
         self.completed_parses = []
 
     def process_batch(self):
-        feature_batch = ElmoFeatureBatch(self.batch_size, self.models[0].num_feature_tokens, self.args.num_edges, self.args.num_labels)
+
+        feature_batch = ElmoFeatureBatch(min(self.batch_size,len(self.passages)), self.models[0].num_feature_tokens, self.args.num_edges, self.args.num_labels)
 
         current_parsers = self.parser_batch
         self.parser_batch = []
@@ -397,6 +391,7 @@ class BatchParser(AbstractParser):
                 feature_batch.append(state_features)
                 self.parser_batch.append(parser)
             else:
+                print("finished")
                 self.update_counts(parser)
                 self.completed_parses.append(parser.finish())
                 self.summary()
@@ -404,8 +399,7 @@ class BatchParser(AbstractParser):
         # Fill batch if there's space
         current_batch_size = len(self.parser_batch)
         max_batch_size = min(self.batch_size, len(self.passages))
-
-        if current_batch_size < max_batch_size:
+        if current_batch_size < max_batch_size and self.passage_index < len(self.passages):
             batch_difference = max_batch_size - current_batch_size
             for offset in range(batch_difference):
                 current_passage = self.passages[self.passage_index + offset]
@@ -424,10 +418,9 @@ class BatchParser(AbstractParser):
                 self.parser_batch.append(parser)
 
             self.passage_index += batch_difference
-
-        feature_batch.finalize()
-        self.batch_scores = self.models[0].score(feature_batch.features)
-
+        if feature_batch.index != 0:
+            feature_batch.finalize()
+            self.batch_scores = self.models[0].score(feature_batch.features)
         yield from self.completed_parses
         self.completed_parses = []
 

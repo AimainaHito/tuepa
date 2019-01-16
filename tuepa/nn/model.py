@@ -41,9 +41,9 @@ class FFModel(BaseModel):
 
     def weights(self):
         return (
-            [self.embeddings]
-            + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
-            + self.projection_layer.trainable_weights
+                [self.embeddings]
+                + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
+                + self.projection_layer.trainable_weights
         )
 
     def predict(self, feats):
@@ -83,6 +83,8 @@ class FFModel(BaseModel):
 class ElModel(BaseModel):
     def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner):
         super().__init__()
+        self.args = args
+
         self.history_embeddings = tf.get_variable(
             name="embeddings",
             shape=[num_labels, args.history_embedding_size],
@@ -91,42 +93,44 @@ class ElModel(BaseModel):
 
         self.pos_embeddings = tf.get_variable(
             name="pos_embeddings",
-            shape=[num_pos, args.history_embedding_size],
+            shape=[num_pos, args.embedding_size],
             dtype=tf.float32
         )
 
         self.dep_embeddings = tf.get_variable(
             name="dep_embeddings",
-            shape=[num_dependencies, args.history_embedding_size],
+            shape=[num_dependencies, args.embedding_size],
             dtype=tf.float32
         )
 
         self.ner_embeddings = tf.get_variable(
             name="ner_embeddings",
-            shape=[num_ner, args.history_embedding_size],
+            shape=[num_ner, args.embedding_size],
             dtype=tf.float32
         )
 
-        self.args = args
+        self.number_embeddings = tf.get_variable(
+            name="numbers",
+            shape=[args.max_n, max(self.args.embedding_size // 5,10)],
+            dtype=tf.float32)
+
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, args.top_rnn_neurons],
                                                       dtype=tf.float32)
         self.padding_embedding = tf.get_variable(
             "padding", shape=[1, 1, args.top_rnn_neurons], dtype=tf.float32)
 
-        # TODO: check if CudnnGRU is available + fallback to standard tensorflow implementation
         # elmo processor rnn
         self.sentence_bi_rnn = tf.keras.layers.Bidirectional(
-            tf.keras.layers.LSTM(args.bi_rnn_neurons, return_sequences=True), merge_mode='concat')
+            tf.keras.layers.LSTM(args.bi_rnn_neurons, return_sequences=True)
+            , merge_mode='concat')
+        self.sentence_top_rnn = tf.keras.layers.LSTM(args.top_rnn_neurons, return_sequences=True)
 
-        self.sentence_top_rnn = tf.keras.layers.LSTM(
-            args.top_rnn_neurons, return_sequences=True)
         # history rnn
-        self.history_rnn = tf.keras.layers.LSTM(
-            args.history_rnn_neurons, return_sequences=True)
-        # dense layers
+        self.history_rnn = tf.keras.layers.LSTM(args.history_rnn_neurons, return_sequences=True)
 
-        self.feed_forward_layers = feed_forward_from_json(
-            json.loads(args.layers))
+        # dense layers
+        self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
+
         self.downsampling_layer = tf.layers.Dense(
             self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
             self.feed_forward_layers[0].units)
@@ -156,25 +160,40 @@ class ElModel(BaseModel):
     GRU. The final states of both RNNs are concatenated with the stack and buffer features and fed through several dense
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
+
     def __call__(self, batch, mode=None, train=False):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
-        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios,root,ner = self.unpack_inputs(
+        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios, root, ner = self.unpack_inputs(
             batch, mode)
 
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
 
-        action_counts = tf.to_float(action_counts)
-        inc = tf.reshape(tf.to_float(inc), shape=[
-                         batch_size, feature_tokens * self.args.num_edges])
-        out = tf.reshape(tf.to_float(out), shape=[
-                         batch_size, feature_tokens * self.args.num_edges])
-        height = tf.to_float(height)
+        if self.args.numbers == 'embed':
+            action_counts = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, action_counts), shape=[
+                batch_size, tf.shape(action_counts)[1] * self.number_embeddings.shape[1]])
+            inc = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, inc), shape=[
+                batch_size, feature_tokens * self.args.num_edges * self.number_embeddings.shape[1]])
+            out = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, out), shape=[
+                batch_size, feature_tokens * self.args.num_edges * self.number_embeddings.shape[1]])
+            height = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, height),
+                                [batch_size, tf.shape(height)[1] * self.number_embeddings.shape[1]])
+        elif self.args.numbers == 'absolute':
+            action_counts = tf.to_float(tf.reshape(action_counts, shape=[batch_size, tf.shape(action_counts)[1]]))
+            inc = tf.to_float(tf.reshape(inc, shape=[batch_size, feature_tokens * self.args.num_edges]))
+            out = tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges]))
+            height = tf.to_float(tf.reshape(height, [batch_size, tf.shape(height)[1]]))
+        elif self.args.numbers == 'log':
+            action_counts = tf.log(
+                tf.to_float(tf.reshape(action_counts, shape=[batch_size, tf.shape(action_counts)[1]])) + 0.0001)
+            inc = tf.log(
+                tf.to_float(tf.reshape(inc, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
+            out = tf.log(
+                tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
+            height = tf.log(tf.to_float(tf.reshape(height, [batch_size, tf.shape(height)[1]])) + 0.0001)
 
-        top_rnn_output, top_rnn_state = self.elmo_rnn(
-            batch_indices, elmo, sentence_lengths-1)
+        top_rnn_output, top_rnn_state = self.elmo_rnn(batch_indices, elmo, sentence_lengths - 1)
 
-        history_rnn_state = self.apply_history_rnn(
-            batch_indices, history, history_lengths-1)
+        history_rnn_state = self.apply_history_rnn(batch_indices, history, tf.maximum(history_lengths - 1, 0))
 
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
@@ -197,14 +216,15 @@ class ElModel(BaseModel):
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, ner)
 
         features = tf.concat(
-            [form_features, head_features, pos_features, dep_features,ner_features], axis=-1)
+            [form_features, head_features, pos_features, dep_features, ner_features], axis=-1)
         feedforward_input = tf.reshape(
             features,
             [batch_size, features.shape[1] * features.shape[2]]
         )
 
         feature_vec = tf.concat([history_rnn_state, feedforward_input,
-                                 top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios,-1), tf.expand_dims(node_ratios,-1),tf.to_float(root)], -1)
+                                 top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios, -1),
+                                 tf.expand_dims(node_ratios, -1), tf.to_float(root)], -1)
         feature_vec = self.downsampling_layer(feature_vec)
 
         if train:
@@ -228,8 +248,9 @@ class ElModel(BaseModel):
         return history_rnn_state
 
     def unpack_inputs(self, batch, mode):
-        form_indices, dep_types, head_indices, pos,ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
-        return tf.shape(form_indices)[0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts,action_ratios, node_ratios,root,ner
+        form_indices, dep_types, head_indices, pos, ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
+        return tf.shape(form_indices)[
+                   0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios, root, ner
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """
@@ -313,8 +334,8 @@ class TransformerModel(BaseModel):
 
     def weights(self):
         return (
-            [self.embeddings, self.position_embeddings]
-            + sum((layer.trainable_weights for layer in self.encoder), [])
+                [self.embeddings, self.position_embeddings]
+                + sum((layer.trainable_weights for layer in self.encoder), [])
         )
 
     def run_step(self, feats, labels, train=False):

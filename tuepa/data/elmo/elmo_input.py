@@ -55,9 +55,9 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
         ((tf.int32, tf.int32, tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
           tf.int32, tf.int32, tf.float32, tf.float32,tf.int32), tf.int32))
         if train:
-            return d.shuffle(args.batch_size * 20)
+            return d.shuffle(args.batch_size * 10)
         else:
-            return d.shuffle(args.batch_size * 20)
+            return d.shuffle(args.batch_size * 10)
 
     if train_or_eval:
         return lambda: get_dataset().padded_batch(args.batch_size, data_shapes, drop_remainder=True).prefetch(1)
@@ -78,7 +78,7 @@ def h5py_worker(data_path, queue, args):
 
     def prepare(data, index=None):
         state2pid = np.array(data['state2sent_index'])
-        getters = list(range(index * args.batch_size * 20, min((index + 1) * args.batch_size * 20, len(state2pid))))
+        getters = list(range(index * args.batch_size * 5, min((index + 1) * args.batch_size * 5, len(state2pid))))
 
         ids = state2pid[getters]
 
@@ -137,5 +137,5 @@ def h5py_worker(data_path, queue, args):
                     index = 0
                     next_b = prepare(data, index=index)
                 index += 1
-                if index == max_ind - args.batch_size * 20:
+                if index == max_ind - args.batch_size * 5:
                     index = 0
