@@ -14,19 +14,22 @@ from semstr.evaluate import EVALUATORS, Scores
 from ucca import ioutil
 from ucca.evaluation import LABELED, UNLABELED, EVAL_TYPES, evaluate as evaluate_ucca
 from ucca.normalization import normalize
-from ucca.core import Passage
+from ucca.layer0 import Terminal
 from elmoformanylangs import Embedder
 
 from .states.state import State
 from .action import Action
 import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
+from tuepa.data.elmo.elmo_processing import squash_singleton_terminals
 
 
-def set_elmo(self, elmo):
-    self.elmo = elmo
+#TODO: temporary fix for squashed terminals in ucca.normalization.normalize
+@property
+def terminals(self):
+    return []
 
-Passage.set_elmo = set_elmo
+Terminal.terminals = terminals
 
 
 class ParserException(Exception):
@@ -69,6 +72,10 @@ class PassageParser(AbstractParser):
 
     def __init__(self, passage, args, models, evaluation, **kwargs):
         super().__init__(models, args, evaluation)
+        # Squash singleton terminals for evaluation
+        if args.squash_singleton_terminals:
+            squash_singleton_terminals(passage)
+
         self.passage = self.out = passage
         if self.args.model_type != "feedforward":
             self.sentence_tokens = [str(n) for n in passage.layer("0").words]
@@ -95,9 +102,6 @@ class PassageParser(AbstractParser):
             self.check_loop()
 
         action = self.predict(action_scores, self.state.is_valid_action)
-        # TODO: temporary workaround
-        if action is None:
-            action = Action("FINISH")
 
         self.state.transition(action)
         #print(self.state.stack)
@@ -176,7 +180,7 @@ class PassageParser(AbstractParser):
                 ner_numberer=self.args.prediction_data.ner_numberer,
                 train=False
             )
-            forms, deps, heads, pos,ner, incoming, outgoing, height, root = tuple(zip(*(stack_features + buffer_features)))
+            forms, deps, heads, pos, ner, incoming, outgoing, height, root = tuple(zip(*(stack_features + buffer_features)))
 
             actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
             previous_actions = np.zeros((self.args.prediction_data.label_numberer.max), dtype=np.int32)
@@ -219,9 +223,6 @@ class PassageParser(AbstractParser):
                 'action_counts': previous_actions.reshape([1, -1])
             }
 
-            #scores, = self.models[0].score(features)
-            # TODO: Implement elmo-rnn prediction
-
         # for model in self.models[1:]:  # Ensemble if given more than one model; align label order and add scores
         #    label_scores = dict(zip(model.classifier.labels[axis].all, self.model.score(self.state, axis)[0]))
         #    scores += [label_scores.get(a, 0) for a in labels.all]  # Product of Experts, assuming log(softmax)
@@ -247,12 +248,11 @@ class PassageParser(AbstractParser):
                 return action
 
         # TODO: temporary workaround
-        return None
+        return Action("FINISH")
         #raise ParserException("No valid action for state")
 
     def finish(self, status="(finished)", display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
-        # import IPython;IPython.embed()
         if write:
             for out_format in self.args.formats or [self.out_format]:
                 if self.args.normalize and out_format == "ucca":
@@ -308,13 +308,14 @@ class PassageParser(AbstractParser):
 class ElmoFeatureBatch:
 
     def __init__(self, batch_size, num_feature_tokens, num_edges, num_labels):
+        self._finalized = False
         self.index = 0
         self.batch_size = batch_size
         self.max_lengths = {
             'elmo' : 0,
             'history' : 0,
         }
-        self.features = {
+        self._features = {
             'form_indices': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
@@ -327,36 +328,44 @@ class ElmoFeatureBatch:
             'sent_lens': np.zeros((batch_size), np.int32),
             'history': [],
             'hist_lens': np.zeros((batch_size), dtype=np.int32),
-            'action_ratios' : np.zeros((batch_size),dtype=np.float32),
+            'action_ratios' : np.zeros((batch_size), dtype=np.float32),
             'node_ratios': np.zeros((batch_size), dtype=np.float32),
             'action_counts': np.zeros((batch_size, num_labels), dtype=np.int32),
-             'root':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'root':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
         }
 
     def append(self, features):
         for key, feature_array in features.items():
-            if isinstance(self.features[key], list):
-                self.features[key].append(feature_array)
+            if isinstance(self._features[key], list):
+                self._features[key].append(feature_array)
                 feature_array_length = len(feature_array)
                 if feature_array_length > self.max_lengths[key]:
                     self.max_lengths[key] = feature_array_length
             else:
-                self.features[key][self.index] = feature_array
+                self._features[key][self.index] = feature_array
 
         self.index += 1
 
-    def finalize(self):
+    def _finalize(self):
         history_features = np.zeros((self.batch_size, self.max_lengths['history']), np.int32)
-        for i, feature_array in enumerate(self.features['history']):
+        for i, feature_array in enumerate(self._features['history']):
             history_features[i][:len(feature_array)] = feature_array
 
-        self.features['history'] = history_features
+        self._features['history'] = history_features
 
         elmo_features = np.zeros((self.batch_size, self.max_lengths['elmo'], 1024), np.float32)
-        for i, feature_array in enumerate(self.features['elmo']):
+        for i, feature_array in enumerate(self._features['elmo']):
             elmo_features[i][:len(feature_array)] = feature_array
 
-        self.features['elmo'] = elmo_features
+        self._features['elmo'] = elmo_features
+        self._finalized = True
+
+    @property
+    def features(self):
+        if not self._finalized:
+            self._finalize()
+
+        return self._features
 
 
 class BatchParser(AbstractParser):
@@ -369,6 +378,7 @@ class BatchParser(AbstractParser):
         if args.warm_up:
             with open(args.warm_up) as f:
                 self.elmo.sents2elmo(map(lambda x: x.split(), filter(lambda x: len(x) < 100, f.readlines())))
+
         self.num_passages = 0
         self.passage_index = 0
         self.parser_batch = []
@@ -376,8 +386,14 @@ class BatchParser(AbstractParser):
         self.completed_parses = []
 
     def process_batch(self):
-
-        feature_batch = ElmoFeatureBatch(min(self.batch_size,len(self.passages)), self.models[0].num_feature_tokens, self.args.num_edges, self.args.num_labels)
+        # Use maximum possible batch size - might be slightly larger than final batch size
+        # depending on how many parses finish in this iteration
+        feature_batch = ElmoFeatureBatch(
+            min(self.batch_size, len(self.parser_batch) + (len(self.passages) - self.passage_index)),
+            self.models[0].num_feature_tokens,
+            self.args.num_edges,
+            self.args.num_labels
+        )
 
         current_parsers = self.parser_batch
         self.parser_batch = []
@@ -387,24 +403,25 @@ class BatchParser(AbstractParser):
             state_features = parser.parse_step(scores)
 
             # If state_features are None parsing is complete
-            if state_features is not None:
-                feature_batch.append(state_features)
-                self.parser_batch.append(parser)
-            else:
+            if state_features is None:
                 print("finished")
                 self.update_counts(parser)
                 self.completed_parses.append(parser.finish())
                 self.summary()
+            else:
+                feature_batch.append(state_features)
+                self.parser_batch.append(parser)
 
-        # Fill batch if there's space
+        # Fill batch if there's still space
         current_batch_size = len(self.parser_batch)
-        max_batch_size = min(self.batch_size, len(self.passages))
-        if current_batch_size < max_batch_size and self.passage_index < len(self.passages):
+        max_batch_size = min(self.batch_size, len(self.parser_batch) + (len(self.passages) - self.passage_index))
+
+        if current_batch_size < max_batch_size:
             batch_difference = max_batch_size - current_batch_size
             for offset in range(batch_difference):
                 current_passage = self.passages[self.passage_index + offset]
-                current_passage.set_elmo(
-                    self.elmo.sents2elmo([[str(n) for n in current_passage.layer("0").all]])
+                current_passage.elmo = self.elmo.sents2elmo(
+                    [[str(n) for n in current_passage.layer("0").all]]
                 )
                 torch.cuda.empty_cache()
 
@@ -418,9 +435,10 @@ class BatchParser(AbstractParser):
                 self.parser_batch.append(parser)
 
             self.passage_index += batch_difference
-        if feature_batch.index != 0:
-            feature_batch.finalize()
+
+        if self.parser_batch:
             self.batch_scores = self.models[0].score(feature_batch.features)
+
         yield from self.completed_parses
         self.completed_parses = []
 

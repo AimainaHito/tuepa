@@ -1,12 +1,13 @@
 import os
 import sys
 
+from elmoformanylangs import Embedder
+from ucca import constructions
+
 from tuepa.util.config import get_preprocess_parser, get_oracle_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
     DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
 from tuepa.util.numberer import Numberer
 from tuepa.data.elmo import preprocess_dataset, specific_elmo
-
-from elmoformanylangs import Embedder
 
 
 def preprocess(args):
@@ -19,7 +20,7 @@ def preprocess(args):
 
     if args.warm_up:
         with open(args.warm_up) as f:
-            elmo_embedder.sents2elmo(map(lambda x: x.split(),filter(lambda x: len(x) < 100,f.readlines())))
+            elmo_embedder.sents2elmo(map(lambda x: x.split(), filter(lambda x: len(x) < 100, f.readlines())))
 
     label_numberer = Numberer()
     pos_numberer = Numberer(first_elements=["<PAD>"])
@@ -89,9 +90,8 @@ def preprocess(args):
         with open(os.path.join(args.save_dir, NER_FILENAME), "w", encoding="utf-8") as file:
             ner_numberer.to_file(file)
     except:
-        import IPython; IPython.embed()
-
-from ucca import constructions
+        import IPython
+        IPython.embed()
 
 if __name__ == '__main__':
     import sys

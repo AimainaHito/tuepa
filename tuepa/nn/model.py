@@ -111,7 +111,7 @@ class ElModel(BaseModel):
 
         self.number_embeddings = tf.get_variable(
             name="numbers",
-            shape=[args.max_n, max(self.args.embedding_size // 5,10)],
+            shape=[args.num_num, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32)
 
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, args.top_rnn_neurons],
@@ -178,10 +178,10 @@ class ElModel(BaseModel):
             height = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, height),
                                 [batch_size, tf.shape(height)[1] * self.number_embeddings.shape[1]])
         elif self.args.numbers == 'absolute':
-            action_counts = tf.to_float(tf.reshape(action_counts, shape=[batch_size, tf.shape(action_counts)[1]]))
+            action_counts = tf.to_float(tf.reshape(action_counts, shape=[batch_size, self.args.num_labels]))
             inc = tf.to_float(tf.reshape(inc, shape=[batch_size, feature_tokens * self.args.num_edges]))
             out = tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges]))
-            height = tf.to_float(tf.reshape(height, [batch_size, tf.shape(height)[1]]))
+            height = tf.to_float(tf.reshape(height, [batch_size, feature_tokens]))
         elif self.args.numbers == 'log':
             action_counts = tf.log(
                 tf.to_float(tf.reshape(action_counts, shape=[batch_size, tf.shape(action_counts)[1]])) + 0.0001)
