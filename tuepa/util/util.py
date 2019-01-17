@@ -97,3 +97,80 @@ class SaverHook(tf.train.SessionRunHook):
                     verticalalignment='center', color="black")
         fig.set_tight_layout(True)
         return fig
+
+
+class PerClassHook(tf.train.SessionRunHook):
+    """
+    Taken from: https://github.com/tensorflow/tensorboard/issues/227
+    Saves a confusion matrix as a Summary so that it can be shown in tensorboard
+    """
+
+    def __init__(self, labels, tensor_name, summary_writer):
+        """Initializes a `SaveConfusionMatrixHook`.
+
+        :param labels: Iterable of String containing the labels to print for each
+                       row/column in the confusion matrix.
+        :param confusion_matrix_tensor_name: The name of the tensor containing the confusion
+                                             matrix
+        :param summary_writer: The summary writer that will save the summary
+        """
+        self.tensor_name = tensor_name
+        self.labels = labels
+        self._summary_writer = summary_writer
+
+    def end(self, session):
+        m = tf.get_default_graph().get_tensor_by_name(
+            self.tensor_name + ':0').eval(session=session).astype(float)
+        globalStep = tf.train.get_global_step().eval(session=session)
+        figure = self._plot_matrix(m)
+        summary = self._figure_to_summary(figure)
+        self._summary_writer.add_summary(summary, globalStep)
+
+    def _figure_to_summary(self, fig):
+        """
+        Converts a matplotlib figure ``fig`` into a TensorFlow Summary object
+        that can be directly fed into ``Summary.FileWriter``.
+        :param fig: A ``matplotlib.figure.Figure`` object.
+        :return: A TensorFlow ``Summary`` protobuf object containing the plot image
+                 as a image summary.
+        """
+
+        # attach a new canvas if not exists
+        if fig.canvas is None:
+            matplotlib.backends.backend_agg.FigureCanvasAgg(fig)
+
+        fig.canvas.draw()
+        w, h = fig.canvas.get_width_height()
+
+        # get PNG data from the figure
+        png_buffer = io.BytesIO()
+        fig.canvas.print_png(png_buffer)
+        png_encoded = png_buffer.getvalue()
+        png_buffer.close()
+
+        summary_image = tf.Summary.Image(height=h, width=w, colorspace=4,  # RGB-A
+                                         encoded_image_string=png_encoded)
+        summary = tf.Summary(value=[tf.Summary.Value(tag=self.tensor_name, image=summary_image)])
+        return summary
+
+    def _plot_matrix(self, cm):
+        '''
+        :param cm: A confusion matrix: A square ```numpy array``` of the same size as self.labels
+    `   :return:  A ``matplotlib.figure.Figure`` object with a numerical and graphical representation of the cm array
+        '''
+        from matplotlib import rcParams
+        rcParams.update({'figure.autolayout': True})
+        fig = plt.Figure(figsize=(10, 5), dpi=100, facecolor='w', edgecolor='k')
+        ax = fig.add_subplot(1, 1, 1)
+        classes = [re.sub(r'([a-z](?=[A-Z])|[A-Z](?=[A-Z][a-z]))', r'\1 ', x) for x in self.labels]
+        # classes = ['\n'.join(textwrap.wrap(l, 20)) for l in classes]
+        ax.bar(x=classes, height=cm)
+        tick_marks = np.arange(len(classes))
+        ax.set_xlabel('Class')
+        ax.set_xticks(tick_marks)
+        ax.set_xticklabels(classes, rotation=-70, ha='left')
+        ax.xaxis.set_label_position('bottom')
+        ax.xaxis.tick_bottom()
+
+        fig.set_tight_layout(True)
+        return fig

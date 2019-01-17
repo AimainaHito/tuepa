@@ -8,7 +8,7 @@ from tuepa.util.config import create_argument_parser, save_args, load_args, ARGS
 from tuepa.data.elmo import get_elmo_input_fn
 from tuepa.nn import ElModel
 from tuepa.util.numberer import Numberer, load_numberer_from_file
-from tuepa.util import SaverHook
+from tuepa.util import SaverHook,PerClassHook
 
 
 def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numberer,ner_numberer):
@@ -50,16 +50,14 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
                 hooks = [SaverHook(
                     labels=label_numberer.num2value,
                     confusion_matrix_tensor_name='mean_iou/total_confusion_matrix',
-                    summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"conf_mat"))
-                )]
-
-                on_h_labels = tf.one_hot(labels, depth=num_labels, dtype=tf.int32)
-                on_h_preds = tf.one_hot(predictions, depth=num_labels)
+                    summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"eval_validation"))),
+                    PerClassHook(
+                        labels=label_numberer.num2value,
+                        tensor_name='mean_accuracy/div_no_nan',
+                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation")))]
 
                 evalMetrics = {'accuracy': tf.metrics.accuracy(labels, predictions),
-                               'precision': tf.metrics.precision(on_h_labels, on_h_preds),
-                               'f1': tf.contrib.metrics.f1_score(on_h_labels, on_h_preds),
-                               'recall': tf.metrics.recall(on_h_labels, on_h_preds),
+                               'mean_per_class_accuracy': tf.metrics.mean_per_class_accuracy(labels,predictions,num_labels),
                                'mean_iou': tf.metrics.mean_iou(labels, predictions, num_labels)}
 
                 loss = tf.reduce_mean(model.loss(labels=labels, logits=logits))
