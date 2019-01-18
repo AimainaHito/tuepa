@@ -88,7 +88,7 @@ def preprocess(args):
             pos_numberer.to_file(file)
         with open(os.path.join(args.save_dir, NER_FILENAME), "w", encoding="utf-8") as file:
             ner_numberer.to_file(file)
-    except:
+    except Exception as e:
         import IPython; IPython.embed()
 
 from ucca import constructions

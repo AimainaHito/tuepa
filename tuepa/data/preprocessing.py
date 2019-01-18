@@ -85,10 +85,10 @@ def add_transformer_features(
 
 
 class Shapes:
-    def __init__(self, max_stack_size, max_buffer_size):
+    def __init__(self, max_stack_size, max_buffer_size, max_children=None):
         self.max_stack_size = max_stack_size
         self.max_buffer_size = max_buffer_size
-
+        self.max_children = max_children
 
 def preprocess_dataset(path, args, embedder, maximum_feature_size=None, max_features=None, label_numberer=None, passage_seperator=None):
     has_seperator = passage_seperator is not None

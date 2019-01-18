@@ -1,4 +1,5 @@
 import multiprocessing
+import random
 
 import h5py
 
@@ -24,6 +25,7 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
              data['stack_buffer']['form_indices'][0].shape,
              data['stack_buffer']['form_indices'][0].shape,
              data['stack_buffer']['form_indices'][0].shape,
+             data['stack_buffer']['form_indices'][0].shape + (30,), # child nodes
              data['stack_buffer']['form_indices'][0].shape, # ner
              data['stack_buffer']['form_indices'][0].shape,  # heights
              data['stack_buffer']['form_indices'][0].shape + (args.num_edges,),  # inc
@@ -52,7 +54,7 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
 
         d = tf.data.Dataset.from_generator(generator, output_types=
         # ((form_indices, dep_types, head_indices, pos, height,inc, out, history, elmo, sent_lens, hist_lens),labels)
-        ((tf.int32, tf.int32, tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
+        ((tf.int32, tf.int32, tf.int32,tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
           tf.int32, tf.int32, tf.float32, tf.float32,tf.int32), tf.int32))
         if train:
             return d.shuffle(args.batch_size * 10)
@@ -76,10 +78,13 @@ def h5py_worker(data_path, queue, args):
     :param args: named tuple holding commandline arguments and other information
     """
 
-    def prepare(data, index=None):
-        state2pid = np.array(data['state2sent_index'])
-        getters = list(range(index * args.batch_size * 5, min((index + 1) * args.batch_size * 5, len(state2pid))))
 
+    def prepare(data):
+        state2pid = np.array(data['state2sent_index'])
+
+        index = random.randint(0, len(state2pid)-(args.batch_size*5))
+
+        getters = list(range(index, min((index + 1) + args.batch_size * 5, len(state2pid))))
         ids = state2pid[getters]
 
         # for each input chunk cache elmo
@@ -110,6 +115,7 @@ def h5py_worker(data_path, queue, args):
                dep_types, \
                head_indices, \
                pos, \
+               data['stack_buffer']['child_indices'][getters], \
                data['stack_buffer']['ner'][getters],\
                data['stack_buffer']['height'][getters], \
                data['stack_buffer']['in'][getters], \
@@ -125,17 +131,8 @@ def h5py_worker(data_path, queue, args):
                data['labels'][getters]
 
     with h5py.File(data_path, 'r') as data:
-        max_ind = len(data['labels'])
-        index = 0
-        next_b = prepare(data, index=index)
+        next_b = prepare(data)
         while True:
             if next_b:
                 queue.put(next_b)
-                try:
-                    next_b = prepare(data, index=index)
-                except:
-                    index = 0
-                    next_b = prepare(data, index=index)
-                index += 1
-                if index == max_ind - args.batch_size * 5:
-                    index = 0
+                next_b = prepare(data)

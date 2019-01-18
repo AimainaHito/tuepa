@@ -176,7 +176,7 @@ class PassageParser(AbstractParser):
                 ner_numberer=self.args.prediction_data.ner_numberer,
                 train=False
             )
-            forms, deps, heads, pos,ner, incoming, outgoing, height, root = tuple(zip(*(stack_features + buffer_features)))
+            forms, deps, heads, pos,ner, incoming, outgoing, height, root, children = tuple(zip(*(stack_features + buffer_features)))
 
             actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
             previous_actions = np.zeros((self.args.prediction_data.label_numberer.max), dtype=np.int32)
@@ -197,6 +197,11 @@ class PassageParser(AbstractParser):
                 for edge_id in item:
                     out[index, edge_id] += 1
 
+            child_indices = np.zeros((max_buffer_size+max_stack_size,30),dtype=np.int32)
+            for n,child in enumerate(children):
+                for k, c in enumerate(child[:30]):
+                    child_indices[n,k] = c
+
             elmo = self.state.passage.elmo[0]
             sent_length = len(elmo)
             #print(history_features)
@@ -205,6 +210,7 @@ class PassageParser(AbstractParser):
                 'deps': deps,
                 'ner':ner,
                 'pos': pos,
+                "child_indices":child_indices,
                 'heads':heads,
                 'height': height,
                 'inc' : inc,
@@ -319,6 +325,7 @@ class ElmoFeatureBatch:
             'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'ner':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
+            'child_indices': np.zeros((batch_size, num_feature_tokens,30), dtype=np.int32),
             'heads':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'height': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'inc' : np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),

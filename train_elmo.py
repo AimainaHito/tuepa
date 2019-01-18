@@ -100,7 +100,7 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
     )
     eval_spec = tf.estimator.EvalSpec(
         get_elmo_input_fn(args.validation_path, True, args=args, train=False),
-        steps=args.epoch_steps,
+        steps=args.epoch_steps//2,
         throttle_secs=60,
         name='validation',
     )

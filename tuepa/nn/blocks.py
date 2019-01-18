@@ -141,7 +141,7 @@ class SelfAttention(tf.keras.layers.Layer):
             values, hidden_size=self.neurons, num_heads=self.num_heads)
 
         # Dot product + scale queries
-        scale = tf.constant(8 ** -0.5)
+        scale = tf.constant(self.num_heads ** -0.5)
         scores = tf.matmul(queries * scale, keys, transpose_b=True)
 
         # Attention_dropout = tf.layers.Dropout(1 - 0.1)
@@ -151,9 +151,7 @@ class SelfAttention(tf.keras.layers.Layer):
         heads = tf.matmul(scores, values)
 
         # Restore [batch, length, num_heads, head] order and rejoin num_heads and head
-        heads = tf.reshape(tf.transpose(heads, [0, 2, 1, 3]), (tf.shape(inputs)[0], tf.shape(inputs)[1],
-                                                               tf.shape(inputs)[-1]))
-
+        heads = tf.reshape(tf.transpose(heads, [0, 2, 1, 3]), (tf.shape(inputs)[0], tf.shape(inputs)[1],self.neurons))
         # Apply projection layer and layer normalization
         return self.layer_norm(self.projection_layer(heads) + inputs)
 

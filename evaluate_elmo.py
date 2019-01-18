@@ -42,6 +42,7 @@ class PredictionWrapper():
         self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
         self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
         self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+        self.child_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens,30], dtype=tf.int32)
         self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
         self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
         self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
@@ -59,6 +60,7 @@ class PredictionWrapper():
             self.dep_types,
             self.head_indices,
             self.pos,
+            self.child_indices,
             self.ner,
             self.height,
             self.inc,
@@ -78,6 +80,7 @@ class PredictionWrapper():
             self.form_indices:features['form_indices'],
             self.dep_types:features['deps'],
             self.pos:features['pos'],
+            self.child_indices:features['child_indices'],
             self.ner:features['ner'],
             self.head_indices:features['heads'],
             self.height:features['height'],

@@ -109,15 +109,23 @@ class ElModel(BaseModel):
             dtype=tf.float32
         )
 
-        self.number_embeddings = tf.get_variable(
-            name="numbers",
-            shape=[args.max_n, max(self.args.embedding_size // 5,10)],
-            dtype=tf.float32)
+        if self.args.numbers == "embed":
+            self.number_embeddings = tf.get_variable(
+                name="numbers",
+                shape=[args.num_num, max(self.args.embedding_size // 5, 10)],
+                dtype=tf.float32)
 
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, args.top_rnn_neurons],
                                                       dtype=tf.float32)
         self.padding_embedding = tf.get_variable(
             "padding", shape=[1, 1, args.top_rnn_neurons], dtype=tf.float32)
+
+        self.self_attention = SelfAttention(4, 256)
+        self.res = ResidualFeedforward(256,512)
+        self.self_attention_1 = SelfAttention(4, 256)
+        self.res_1 = ResidualFeedforward(256, 512)
+
+        self.attn_stack = [self.self_attention,self.res,self.self_attention_1, self.res_1]
 
         # elmo processor rnn
         self.sentence_bi_rnn = tf.keras.layers.Bidirectional(
@@ -163,9 +171,8 @@ class ElModel(BaseModel):
 
     def __call__(self, batch, mode=None, train=False):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
-        batch_size, dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios, root, ner = self.unpack_inputs(
-            batch, mode)
-
+        form_indices, dep_types, head_indices, pos, child_indices, ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
+        batch_size = tf.shape(form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
 
         if self.args.numbers == 'embed':
@@ -178,18 +185,18 @@ class ElModel(BaseModel):
             height = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, height),
                                 [batch_size, tf.shape(height)[1] * self.number_embeddings.shape[1]])
         elif self.args.numbers == 'absolute':
-            action_counts = tf.to_float(tf.reshape(action_counts, shape=[batch_size, tf.shape(action_counts)[1]]))
+            action_counts = tf.to_float(tf.reshape(action_counts, shape=[batch_size, self.args.num_labels]))
             inc = tf.to_float(tf.reshape(inc, shape=[batch_size, feature_tokens * self.args.num_edges]))
             out = tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges]))
-            height = tf.to_float(tf.reshape(height, [batch_size, tf.shape(height)[1]]))
+            height = tf.to_float(tf.reshape(height, [batch_size, feature_tokens]))
         elif self.args.numbers == 'log':
             action_counts = tf.log(
-                tf.to_float(tf.reshape(action_counts, shape=[batch_size, tf.shape(action_counts)[1]])) + 0.0001)
+                tf.to_float(tf.reshape(action_counts, shape=[batch_size, self.args.num_labels])) + 0.0001)
             inc = tf.log(
                 tf.to_float(tf.reshape(inc, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
             out = tf.log(
                 tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
-            height = tf.log(tf.to_float(tf.reshape(height, [batch_size, tf.shape(height)[1]])) + 0.0001)
+            height = tf.log(tf.to_float(tf.reshape(height, [batch_size, feature_tokens])) + 0.0001)
 
         top_rnn_output, top_rnn_state = self.elmo_rnn(batch_indices, elmo, sentence_lengths - 1)
 
@@ -207,6 +214,7 @@ class ElModel(BaseModel):
                                                 second_d=form_indices,
                                                 batch_size=batch_size,
                                                 n=feature_tokens, t=top_rnn_output)
+
         head_features = self.extract_vectors_3d(first_d=batch_indices,
                                                 second_d=head_indices,
                                                 batch_size=batch_size,
@@ -225,6 +233,30 @@ class ElModel(BaseModel):
         feature_vec = tf.concat([history_rnn_state, feedforward_input,
                                  top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios, -1),
                                  tf.expand_dims(node_ratios, -1), tf.to_float(root)], -1)
+
+        first_dim = tf.tile(batch_indices, [1, feature_tokens * child_indices.shape[-1]])
+        first_dim = tf.reshape(first_dim, [batch_size * feature_tokens * child_indices.shape[-1], 1])
+        second_dim = tf.reshape(child_indices, (batch_size * feature_tokens * child_indices.shape[-1],))
+        selector = tf.concat([first_dim, tf.expand_dims(second_dim, 1)], -1)
+        # [b*f*l, h]
+        node_rep = tf.layers.dense(tf.gather_nd(top_rnn_output, selector),256)
+
+        # [b*f,l,h]
+
+        rep = tf.reshape(node_rep, [batch_size * feature_tokens, child_indices.shape[2], 256])
+        child_mask = tf.sequence_mask(tf.count_nonzero(child_indices, -1), child_indices.shape[2], dtype=tf.float32)
+        child_mask = tf.reshape(child_mask, [batch_size * feature_tokens, child_indices.shape[2], 1])
+        rep = rep * child_mask
+
+        for l in self.attn_stack:
+            rep = l(rep)
+
+        # [b*f,l,h]
+        max_out_node_rep = tf.reduce_max(rep, axis=1)
+
+        node_rep = tf.reshape(max_out_node_rep, [batch_size, feature_tokens * 256])
+        tf.concat([feature_vec, node_rep], -1)
+
         feature_vec = self.downsampling_layer(feature_vec)
 
         if train:
@@ -246,11 +278,6 @@ class ElModel(BaseModel):
                                     axis=1)
         history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
         return history_rnn_state
-
-    def unpack_inputs(self, batch, mode):
-        form_indices, dep_types, head_indices, pos, ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
-        return tf.shape(form_indices)[
-                   0], dep_types, elmo, form_indices, head_indices, height, history, history_lengths, inc, out, pos, sentence_lengths, action_counts, action_ratios, node_ratios, root, ner
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """
