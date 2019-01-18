@@ -56,8 +56,8 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             child_indices = [t.index + 1 for t in node.terminals]
             root = int(node.is_root)
 
-        incoming = [edge_numberer.number(str((e.tag, e.remote)), train) for e in node.incoming]
-        outgoing = [edge_numberer.number(str((e.tag, e.remote)), train) for e in node.outgoing]
+        incoming = [edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train) for e in node.incoming]
+        outgoing = [edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train) for e in node.outgoing]
 
         height = node.height
         return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train),
@@ -69,9 +69,9 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             node = stack[-n]
             stack_features.append(extract_feature(node))
 
-            def try_or_value(val, list, ind):
+            def try_or_value(val, sequence, ind):
                 try:
-                    return list[ind]
+                    return sequence[ind]
                 except:
                     return val
 

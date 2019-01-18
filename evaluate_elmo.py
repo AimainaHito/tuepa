@@ -136,11 +136,11 @@ def evaluate(args):
         try:
             res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
         except Exception as e:
-            import IPython;
-            IPython.embed()
-            pass
-        import IPython;
-        IPython.embed()
+            #import IPython;
+            #IPython.embed()
+            raise
+        #import IPython;
+        #IPython.embed()
 
 
 def run_eval(args):
