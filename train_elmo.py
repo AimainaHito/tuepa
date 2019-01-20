@@ -8,7 +8,11 @@ from tuepa.util.config import create_argument_parser, save_args, load_args, ARGS
 from tuepa.data.elmo import get_elmo_input_fn
 from tuepa.nn import ElModel
 from tuepa.util.numberer import Numberer, load_numberer_from_file
-from tuepa.util import SaverHook,PerClassHook
+from tuepa.util import SaverHook,PerClassHook,EvalHook
+from tuepa.data.preprocessing import read_passages
+from elmoformanylangs import Embedder
+import torch
+import numpy as np
 
 
 def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numberer,ner_numberer):
@@ -18,6 +22,16 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
     :param label_numberer:
     :return: tuple: (Estimator, tf.estimator.TrainSpec, tf.estimator.EvalSpec)
     """
+    files = list(map(lambda x: "/data/research/tuepa/data/dev/UCCA_English-Wiki_XML/" + x,
+                     os.listdir("/data/research/tuepa/data/dev/UCCA_English-Wiki_XML")))
+    eval_passages = list(read_passages(files))
+    elmo = Embedder(args.elmo_path,batch_size=1)
+    for p in eval_passages:
+        s = elmo.sents2elmo([[str(n) for n in p.layer("0").all]])[0]
+        p.elmo = [s]
+
+    torch.cuda.empty_cache()
+    del elmo
 
     def model_fn(features, labels, mode, params):
         """
@@ -54,7 +68,15 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
                     PerClassHook(
                         labels=label_numberer.num2value,
                         tensor_name='mean_accuracy/div_no_nan',
-                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation")))]
+                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
+                    EvalHook(
+                        args,
+                        model(None, train=mode == tf.estimator.ModeKeys.TRAIN, mode=mode,eval=True),
+                        model.inpts,
+                        eval_passages,
+                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"eval_validation"))
+                    )
+                    ]
 
                 evalMetrics = {'accuracy': tf.metrics.accuracy(labels, predictions),
                                'mean_per_class_accuracy': tf.metrics.mean_per_class_accuracy(labels,predictions,num_labels),
@@ -79,11 +101,13 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
                     export_outputs={
                         "classify": tf.estimator.export.PredictOutput(result)
                     })
-
+    gpu_options = tf.GPUOptions(allow_growth=True)
+    config = tf.ConfigProto(gpu_options=gpu_options)
     run_conf = tf.estimator.RunConfig(model_dir=args.save_dir,
                                       save_summary_steps=20,
                                       save_checkpoints_steps=args.epoch_steps,
                                       log_step_count_steps=20,
+                                      session_config = config,
                                       train_distribute=None)
 
     estimator = tf.estimator.Estimator(
@@ -151,7 +175,6 @@ def train(args):
 
 def main(args):
     import tuepa.util.config as config
-    tf.enable_eager_execution()
     tf.logging.set_verbosity(tf.logging.INFO)
     argument_parser = config.get_elmo_parser()
     args = argument_parser.parse_args(args)

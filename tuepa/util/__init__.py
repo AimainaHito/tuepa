@@ -1,2 +1,2 @@
-from .util import SaverHook,PerClassHook
+from .util import SaverHook,PerClassHook,EvalHook
 from .numberer import *

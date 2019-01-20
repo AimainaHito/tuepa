@@ -212,14 +212,21 @@ def preprocess_dataset(path,
                                              max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names
 
 
-def specific_elmo(features, embedder, args, train, write_chunk=8192):
+def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=False):
     stack_and_buffer_features, shapes, history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names = features
     max_stack_size = shapes.max_stack_size
     max_buffer_size = shapes.max_buffer_size
     max_hist_size = np.max(history_lengths)
     num_examples = len(stack_and_buffer_features)
 
-    with h5py_cache.File(args.training_out if train else args.validation_out, 'w',
+    if train:
+        path = args.training_out
+    elif silver:
+        path = args.silver_out
+    else:
+        path = args.validation_out
+
+    with h5py_cache.File(path, 'w',
                          chunk_cache_mem_size=128 * 1024 ** 2) as f:
         s_b = f.create_group("stack_buffer")
         form_matrix = s_b.create_dataset('form_indices',
@@ -363,11 +370,12 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
         f.create_dataset('node_ratios', data=np.array(node_ratios))
         import h5py
         dt = h5py.special_dtype(vlen=str)
-        f.create_dataset('passage_names', shape=(len(passage_id2sent),), dtype=dt)
+        f.create_dataset('passage_names', shape=(len(passage_id2sent),),dtype=dt)
         f['passage_names'][()] = passage_names
-        f.create_dataset('labels', data=np.array(labels))
-        f.create_dataset('passages', shape=(len(passage_id2sent),),dtype=dt)
+        f.create_dataset('passages', shape=(len(passage_id2sent),), dtype=dt)
         f['passages'][()] = passage_id2sent
+
+        f.create_dataset('labels', data=np.array(labels))
 
         elmo = f.create_group('elmo')
         contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
@@ -376,4 +384,4 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192):
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
         torch.cuda.empty_cache()
 
-    return shapes, max_n
+    return shapes,max_n

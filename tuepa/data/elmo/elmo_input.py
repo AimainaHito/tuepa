@@ -57,15 +57,14 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
         ((tf.int32, tf.int32, tf.int32,tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
           tf.int32, tf.int32, tf.float32, tf.float32,tf.int32), tf.int32))
         if train:
-            return d.shuffle(args.batch_size * 10)
+            return d.shuffle(args.batch_size * 5)
         else:
-            return d.shuffle(args.batch_size * 10)
+            return d.shuffle(args.batch_size * 5)
 
     if train_or_eval:
         return lambda: get_dataset().padded_batch(args.batch_size, data_shapes, drop_remainder=True).prefetch(1)
     else:
         pass
-
 
 def h5py_worker(data_path, queue, args):
     """
@@ -78,18 +77,18 @@ def h5py_worker(data_path, queue, args):
     :param args: named tuple holding commandline arguments and other information
     """
 
-
     def prepare(data):
         state2pid = np.array(data['state2sent_index'])
 
-        index = random.randint(0, len(state2pid)-(args.batch_size*5))
+        index = random.randint(0, len(state2pid)-(args.batch_size*2))
 
-        getters = list(range(index, min((index + 1) + args.batch_size * 5, len(state2pid))))
+        getters = list(range(index, min((index + 1) + args.batch_size * 2, len(state2pid))))
         ids = state2pid[getters]
 
         # for each input chunk cache elmo
         elmos = dict()
         batch_elmo = []
+
         for i in ids:
             if i in elmos:
                 batch_elmo.append(elmos[i])

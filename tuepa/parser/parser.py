@@ -317,6 +317,7 @@ class ElmoFeatureBatch:
         self._finalized = False
         self.index = 0
         self.batch_size = batch_size
+
         self.max_lengths = {
             'elmo' : 0,
             'history' : 0,
@@ -443,7 +444,7 @@ class BatchParser(AbstractParser):
 
             self.passage_index += batch_difference
 
-        if self.parser_batch:
+        if feature_batch.index != 0:
             self.batch_scores = self.models[0].score(feature_batch.features)
 
         yield from self.completed_parses
@@ -505,6 +506,125 @@ class BatchParser(AbstractParser):
     def time_per_passage(self):
         return self.duration / self.num_passages
 
+class EvalBatchParser(AbstractParser):
+    """ Parser for a single pass over dev/test passages """
+
+    def __init__(self, args, models, evaluate, **kwargs):
+        super().__init__(args=args, models=models, evaluation=evaluate, **kwargs)
+        self.batch_size = args.parser_batch_size
+        self.num_passages = 0
+        self.passage_index = 0
+        self.parser_batch = []
+        self.batch_scores = []
+        self.completed_parses = []
+
+    def process_batch(self):
+        # Use maximum possible batch size - might be slightly larger than final batch size
+        # depending on how many parses finish in this iteration
+        feature_batch = ElmoFeatureBatch(
+            min(self.batch_size, len(self.parser_batch) + (len(self.passages) - self.passage_index)),
+            self.models[0].num_feature_tokens,
+            self.args.num_edges,
+            self.args.num_labels
+        )
+
+        current_parsers = self.parser_batch
+        self.parser_batch = []
+
+        # Run parse steps
+        for parser, scores in zip(current_parsers, self.batch_scores):
+            state_features = parser.parse_step(scores)
+
+            # If state_features are None parsing is complete
+            if state_features is None:
+                print("finished")
+                self.update_counts(parser)
+                self.completed_parses.append(parser.finish())
+                self.summary()
+            else:
+                feature_batch.append(state_features)
+                self.parser_batch.append(parser)
+
+        # Fill batch if there's still space
+        current_batch_size = len(self.parser_batch)
+        max_batch_size = min(self.batch_size, len(self.parser_batch) + (len(self.passages) - self.passage_index))
+
+        if current_batch_size < max_batch_size:
+            batch_difference = max_batch_size - current_batch_size
+            for offset in range(batch_difference):
+                current_passage = self.passages[self.passage_index + offset]
+
+                parser = PassageParser(
+                    current_passage,
+                    args=self.args,
+                    models=self.models,
+                    evaluation=self.evaluation
+                )
+                feature_batch.append(parser.get_state_features())
+                self.parser_batch.append(parser)
+
+            self.passage_index += batch_difference
+        if feature_batch.index != 0:
+            feature_batch._finalize()
+            self.batch_scores = self.models[0].score(feature_batch.features)
+        yield from self.completed_parses
+        self.completed_parses = []
+
+    def parse(self, passages, display=True, write=False):
+        self.passages = list(single_to_iter(passages))
+        #pr_width = len(str(total))
+        #id_width = 1
+
+        # Process initial batch
+        print("Processing batch 0", end="\r")
+        yield from self.process_batch()
+        batch_index = 1
+
+        # While passages have not yet been parsed
+        while self.parser_batch:
+            print("Processing batch {}".format(batch_index), end="\r")
+            yield from self.process_batch()
+            batch_index += 1
+
+            #if display:
+            #    progress = "%3d%% %*d/%d" % (i / total * 100, pr_width, i, total) if total and i <= total else "%d" % i
+            #    id_width = max(id_width, len(str(passage.ID)))
+            #    print("%s %2s %-6s %-*s" % (progress, parser.lang, parser.in_format, id_width, passage.ID), end="\r")
+
+            #yield parser.parse(display=display, write=write)
+            #self.update_counts(parser)
+
+        print("Processed {} batches".format(batch_index))
+
+        if (self.num_passages > 0) and display:
+            self.summary()
+
+    def update_counts(self, parser):
+        self.correct_action_count += parser.correct_action_count
+        self.action_count += parser.action_count
+        self.correct_label_count += parser.correct_label_count
+        self.label_count += parser.label_count
+        self.num_tokens += parser.num_tokens
+        self.num_passages += 1
+        self.f1 += parser.f1
+
+    def summary(self):
+        print("Parsed {} passage{}".format(self.num_passages, "s" if self.num_passages != 1 else ""))
+        if self.correct_action_count:
+            accuracy_str = percents_str(self.correct_action_count, self.action_count, "correct actions ")
+            if self.label_count:
+                accuracy_str += ", " + percents_str(self.correct_label_count, self.label_count, "correct labels ")
+            print("Overall %s" % accuracy_str)
+
+        print(
+            "Total time: %.3fs (average time/passage: %.3fs, average tokens/s: %d)" % (
+                self.duration, self.time_per_passage(), self.tokens_per_second()
+            ),
+            flush=True
+        )
+
+    def time_per_passage(self):
+        return self.duration / self.num_passages
 
 class Parser(AbstractParser):
     """ Main class to implement transition-based UCCA parser """
@@ -529,7 +649,7 @@ class Parser(AbstractParser):
         print_scores(scores, scores_filename, prefix=prefix, prefix_title="iteration")
         return average_score, scores
 
-    def parse(self, passages, evaluate=False, display=True, write=False):
+    def parse(self, passages, evaluate=False, display=True, write=False,train_eval=False):
         """
         Parse given passages
         :param passages: iterable of passages to parse
@@ -541,11 +661,14 @@ class Parser(AbstractParser):
                  or pairs of (Passage, Scores) if evaluate is set to `True`
         """
         self.batch = 0
-        parser = BatchParser(self.args, self.models, evaluate)
+        if train_eval:
+            parser = EvalBatchParser(self.args, self.models, evaluate)
+        else:
+            parser = BatchParser(self.args, self.models, evaluate)
         yield from parser.parse(passages, display=display, write=write)
 
 
-def evaluate(model, args, test_passages):
+def evaluate(model, args, test_passages,train_eval=False):
     """
     Evaluate parse trees generated by the model on the given passages
 
@@ -557,7 +680,7 @@ def evaluate(model, args, test_passages):
     parser = Parser(models=[model], args=args)
 
     passage_scores = []
-    for result in parser.parse(test_passages, evaluate=True, write=args.write_scores):
+    for result in parser.parse(test_passages, evaluate=True, write=args.write_scores,train_eval=train_eval):
         _, *score = result
         passage_scores += score
 

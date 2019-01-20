@@ -5,6 +5,7 @@ import tensorflow as tf
 import numpy as np
 import json
 
+import opennmt as onmt
 
 class FFModel(BaseModel):
     def __init__(
@@ -115,23 +116,12 @@ class ElModel(BaseModel):
                 shape=[args.num_num, max(self.args.embedding_size // 5, 10)],
                 dtype=tf.float32)
 
-        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, args.top_rnn_neurons],
+        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, 1024],
                                                       dtype=tf.float32)
         self.padding_embedding = tf.get_variable(
-            "padding", shape=[1, 1, args.top_rnn_neurons], dtype=tf.float32)
-
-        self.self_attention = SelfAttention(4, 256)
-        self.res = ResidualFeedforward(256,512)
-        self.self_attention_1 = SelfAttention(4, 256)
-        self.res_1 = ResidualFeedforward(256, 512)
-
-        self.attn_stack = [self.self_attention,self.res,self.self_attention_1, self.res_1]
-
-        # elmo processor rnn
-        self.sentence_bi_rnn = tf.keras.layers.Bidirectional(
-            tf.keras.layers.LSTM(args.bi_rnn_neurons, return_sequences=True)
-            , merge_mode='concat')
-        self.sentence_top_rnn = tf.keras.layers.LSTM(args.top_rnn_neurons, return_sequences=True)
+            "padding", shape=[1, 1, 1024], dtype=tf.float32)
+        self.cls = tf.get_variable("cls", shape=[1, 1, 1024], dtype=tf.float32)
+        self.self_attention_encoder = onmt.encoders.SelfAttentionEncoder(3, 1024)
 
         # history rnn
         self.history_rnn = tf.keras.layers.LSTM(args.history_rnn_neurons, return_sequences=True)
@@ -141,18 +131,73 @@ class ElModel(BaseModel):
 
         self.downsampling_layer = tf.layers.Dense(
             self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
-            self.feed_forward_layers[0].units)
+            self.feed_forward_layers[0].units,use_bias=False)
+
+        self.child_processing_layers = [tf.layers.Dense(self.args.top_rnn_neurons,activation=tf.nn.relu)]
 
         self.projection_layer = tf.layers.Dense(
             num_labels, use_bias=False, activation=None)
 
+
         self.lr = tf.Variable(args.learning_rate, name="learning_rate")
-        self.optimizer = tf.train.AdamOptimizer(self.lr)
+        self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
 
         self.input_dropout = args.input_dropout
         self.layer_dropout = args.layer_dropout
         self.__call__ = tf.contrib.eager.defun(self.__call__)
+        self._create_inputs()
 
+    def build_encoder(self):
+        encoder = [tf.layers.Dense(self.args.top_rnn_neurons)]
+        for _ in range(4):
+            encoder.append(SelfAttention(
+                8, self.args.top_rnn_neurons))
+            encoder.append(ResidualFeedforward(self.args.top_rnn_neurons, self.args.top_rnn_neurons*3))
+        return encoder
+
+    def _create_inputs(self):
+        feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
+        self.num_feature_tokens = feature_tokens
+        self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
+        self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
+        self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
+        self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+        self.child_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens,30], dtype=tf.int32)
+        self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
+        self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
+        self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+        self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
+        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
+        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
+        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
+        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
+        self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels], dtype=tf.int32)
+        self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
+
+
+    @property
+    def inpts(self):
+        return (
+            self.form_indices,
+            self.dep_types,
+            self.head_indices,
+            self.pos,
+            self.child_indices,
+            self.ner,
+            self.height,
+            self.inc,
+            self.out,
+            self.history,
+            self.elmo,
+            self.sentence_lengths,
+            self.history_lengths,
+            self.action_counts,
+            self.action_ratios,
+            self.node_ratios,
+            self.root,
+        )
     """
     Processes features and outputs scores over state transitions.
 
@@ -169,8 +214,10 @@ class ElModel(BaseModel):
     layers consisting of (non-linear) up- and (linear) downsampling. The dense layers also feature residual connections.
     """
 
-    def __call__(self, batch, mode=None, train=False):
+    def __call__(self, batch, mode=None, train=False, eval=False):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
+        if eval:
+            batch = self.inpts
         form_indices, dep_types, head_indices, pos, child_indices, ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
         batch_size = tf.shape(form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
@@ -198,7 +245,7 @@ class ElModel(BaseModel):
                 tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
             height = tf.log(tf.to_float(tf.reshape(height, [batch_size, feature_tokens])) + 0.0001)
 
-        top_rnn_output, top_rnn_state = self.elmo_rnn(batch_indices, elmo, sentence_lengths - 1)
+        top_rnn_output, top_rnn_state = self.encode_elmo(batch_indices, elmo, sentence_lengths - 1)
 
         history_rnn_state = self.apply_history_rnn(batch_indices, history, tf.maximum(history_lengths - 1, 0))
 
@@ -229,33 +276,13 @@ class ElModel(BaseModel):
             features,
             [batch_size, features.shape[1] * features.shape[2]]
         )
-
         feature_vec = tf.concat([history_rnn_state, feedforward_input,
                                  top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios, -1),
                                  tf.expand_dims(node_ratios, -1), tf.to_float(root)], -1)
 
-        first_dim = tf.tile(batch_indices, [1, feature_tokens * child_indices.shape[-1]])
-        first_dim = tf.reshape(first_dim, [batch_size * feature_tokens * child_indices.shape[-1], 1])
-        second_dim = tf.reshape(child_indices, (batch_size * feature_tokens * child_indices.shape[-1],))
-        selector = tf.concat([first_dim, tf.expand_dims(second_dim, 1)], -1)
-        # [b*f*l, h]
-        node_rep = tf.layers.dense(tf.gather_nd(top_rnn_output, selector),256)
+        rep = self.extract_node_children(batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output)
 
-        # [b*f,l,h]
-
-        rep = tf.reshape(node_rep, [batch_size * feature_tokens, child_indices.shape[2], 256])
-        child_mask = tf.sequence_mask(tf.count_nonzero(child_indices, -1), child_indices.shape[2], dtype=tf.float32)
-        child_mask = tf.reshape(child_mask, [batch_size * feature_tokens, child_indices.shape[2], 1])
-        rep = rep * child_mask
-
-        for l in self.attn_stack:
-            rep = l(rep)
-
-        # [b*f,l,h]
-        max_out_node_rep = tf.reduce_max(rep, axis=1)
-
-        node_rep = tf.reshape(max_out_node_rep, [batch_size, feature_tokens * 256])
-        tf.concat([feature_vec, node_rep], -1)
+        tf.concat([feature_vec, rep], -1)
 
         feature_vec = self.downsampling_layer(feature_vec)
 
@@ -268,6 +295,23 @@ class ElModel(BaseModel):
                 feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
 
         return self.projection_layer(feature_vec)
+
+    def extract_node_children(self, batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output):
+        first_dim = tf.tile(batch_indices, [1, feature_tokens * child_indices.shape[-1]])
+        first_dim = tf.reshape(first_dim, [batch_size * feature_tokens * child_indices.shape[-1], 1])
+        second_dim = tf.reshape(child_indices, (batch_size * feature_tokens * child_indices.shape[-1],))
+        selector = tf.concat([first_dim, tf.expand_dims(second_dim, 1)], -1)
+        # [b*f*l, h]
+        node_rep = tf.gather_nd(top_rnn_output, selector)
+        # [b*f,l,h]
+        rep = tf.reshape(node_rep, [batch_size * feature_tokens, child_indices.shape[2], node_rep.shape[-1]])
+        child_mask = tf.sequence_mask(tf.count_nonzero(child_indices, -1), child_indices.shape[2], dtype=tf.float32)
+        child_mask = tf.reshape(child_mask, [batch_size * feature_tokens, child_indices.shape[2], 1])
+        rep = rep * child_mask
+        rep = tf.reshape(rep, [batch_size, feature_tokens * child_indices.shape[2] * node_rep.shape[-1]])
+        for l in self.child_processing_layers:
+            rep = l(rep)
+        return rep
 
     def apply_history_rnn(self, batch_indices, history, history_lengths):
         history_input = tf.nn.embedding_lookup(
@@ -300,7 +344,7 @@ class ElModel(BaseModel):
         features = tf.gather_nd(t, selectors)
         return features
 
-    def elmo_rnn(self, batch_indices, elmo, sentence_lengths):
+    def encode_elmo(self, batch_indices, elmo, sentence_lengths):
         """
         Runs bi-rnn over `elmo` and extracts the final states at position `sentence_lengths`
         :param batch_indices: range vector with length of batch size
@@ -308,18 +352,10 @@ class ElModel(BaseModel):
         :param sentence_lengths: length of elmo sentences
         :return: final states of the bi rnn over the elmo sentences
         """
-        bi_rnn_outputs = self.sentence_bi_rnn(tf.convert_to_tensor(elmo))
-        sentence_mask = tf.expand_dims(
-            tf.sequence_mask(sentence_lengths, tf.shape(
-                bi_rnn_outputs)[1], dtype=tf.float32),
-            axis=-1)
-        bi_rnn_outputs *= sentence_mask
-        top_rnn_output = self.sentence_top_rnn(bi_rnn_outputs)
-        state_selectors = tf.concat([batch_indices,
-                                     tf.expand_dims(sentence_lengths, axis=1)],
-                                    axis=1)
-        top_rnn_state = tf.gather_nd(top_rnn_output, state_selectors)
-        return top_rnn_output, top_rnn_state
+        elmo = tf.concat([tf.tile(self.cls, [tf.shape(batch_indices)[0], 1, 1]), elmo], 1)
+        (outputs, state, sequence_length) = self.self_attention_encoder.encode(tf.convert_to_tensor(elmo),
+                                                                               sentence_lengths + 1)
+        return outputs[:,1:], outputs[:,0]
 
     def compute_gradients(self, batch, labels):
         def loss_fun(batch):

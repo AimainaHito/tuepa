@@ -1,7 +1,6 @@
-import multiprocessing
 import os
 
-from tuepa.parser import parser
+
 import tensorflow as tf
 
 from ucca import constructions
@@ -14,6 +13,7 @@ from tuepa.util.config import create_argument_parser, save_args, load_args, get_
 from tuepa.nn import ElModel
 from tuepa.util.numberer import Numberer, load_numberer_from_file
 from tuepa.data import read_passages
+from tuepa.parser import parser
 from collections import namedtuple
 
 ElmoPredictionData = namedtuple(
@@ -30,50 +30,30 @@ class PredictionWrapper():
         with self.session.graph.as_default():
             # [Variable and model creation goes here.]
             self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner)
-            self.logits = self.model(self._create_inputs(), train=False)
+            self.logits = self.model(None, train=False, eval=True)
             self.saver = tf.train.Saver()
             self.predictions = tf.argmax(self.logits, -1)
             self.saver.restore(self.session, tf.train.latest_checkpoint(self.args.model_dir))
-
-    def _create_inputs(self):
-        feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
-        self.num_feature_tokens = feature_tokens
-        self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
-        self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
-        self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
-        self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
-        self.child_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens,30], dtype=tf.int32)
-        self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
-        self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
-        self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
-        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
-        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
-        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
-        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
-        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
-        self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels], dtype=tf.int32)
-        self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
-        return (
-            self.form_indices,
-            self.dep_types,
-            self.head_indices,
-            self.pos,
-            self.child_indices,
-            self.ner,
-            self.height,
-            self.inc,
-            self.out,
-            self.history,
-            self.elmo,
-            self.sentence_lengths,
-            self.history_lengths,
-            self.action_counts,
-            self.action_ratios,
-            self.node_ratios,
-            self.root,
-        )
+        (
+                self.form_indices,
+                self.dep_types,
+                self.head_indices,
+                self.pos,
+                self.child_indices,
+                self.ner,
+                self.height,
+                self.inc,
+                self.out,
+                self.history,
+                self.elmo,
+                self.sentence_lengths,
+                self.history_lengths,
+                self.action_counts,
+                self.action_ratios,
+                self.node_ratios,
+                self.root,
+            ) = self.model.inpts
+        self.num_feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
 
     def score(self, features):
         return self.session.run(self.logits, feed_dict={
@@ -95,6 +75,7 @@ class PredictionWrapper():
             self.action_counts:features['action_counts'],
             self.root:features['root']
         })
+
 
 def evaluate(args):
     print(args.model_dir)
@@ -136,11 +117,7 @@ def evaluate(args):
         try:
             res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
         except Exception as e:
-            #import IPython;
-            #IPython.embed()
             raise
-        #import IPython;
-        #IPython.embed()
 
 
 def run_eval(args):

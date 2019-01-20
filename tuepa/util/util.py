@@ -8,7 +8,7 @@ import matplotlib
 matplotlib.use("agg")
 import matplotlib.pyplot as plt
 import numpy as np
-
+import random
 
 class SaverHook(tf.train.SessionRunHook):
     """
@@ -98,6 +98,122 @@ class SaverHook(tf.train.SessionRunHook):
         fig.set_tight_layout(True)
         return fig
 
+from tuepa.parser import parser
+
+class EvalHook(tf.train.SessionRunHook):
+    """
+    Taken from: https://github.com/tensorflow/tensorboard/issues/227
+    Saves a confusion matrix as a Summary so that it can be shown in tensorboard
+    """
+
+    def __init__(self, args, logits, inputs, passages,summary_writer):
+        """Initializes a `SaveConfusionMatrixHook`.
+
+        :param labels: Iterable of String containing the labels to print for each
+                       row/column in the confusion matrix.
+        :param confusion_matrix_tensor_name: The name of the tensor containing the confusion
+                                             matrix
+        :param summary_writer: The summary writer that will save the summary
+        """
+        args.model_type = "elmo-rnn"
+        args.write_scores = True
+        args.lang = "en"
+        args.check_loops = True
+        args.max_height = 20
+        args.max_node_ratio = 10.
+        args.write_scores = False
+        args.check_loops = False
+        args.normalize = False
+        args.time_out = 30
+        args.action_stats = False
+        self.args = args
+        self.num_feature_tokens = args.shapes.max_buffer_size+args.shapes.max_stack_size
+        self.logits = logits,
+        (
+            self.form_indices,
+            self.dep_types,
+            self.head_indices,
+            self.pos,
+            self.child_indices,
+            self.ner,
+            self.height,
+            self.inc,
+            self.out,
+            self.history,
+            self.elmo,
+            self.sentence_lengths,
+            self.history_lengths,
+            self.action_counts,
+            self.action_ratios,
+            self.node_ratios,
+            self.root,
+        ) = inputs
+        self.passages = passages
+        args.parser_batch_size = min(512,len(passages))
+        self._summary_writer = summary_writer
+
+    def after_create_session(self, session, coord):
+        self.session = session
+        from tuepa.util import load_numberer_from_file
+        import tuepa
+        import os
+
+        from evaluate_elmo import ElmoPredictionData, PredictionWrapper
+        args = self.args
+        # restore numberers
+        with open(os.path.join(args.save_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
+            label_numberer = load_numberer_from_file(file)
+
+        with open(os.path.join(args.save_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
+            edge_numberer = load_numberer_from_file(file)
+
+        with open(os.path.join(args.save_dir, tuepa.util.config.DEP_FILENAME), "r", encoding="utf-8") as file:
+            dep_numberer = load_numberer_from_file(file)
+
+        with open(os.path.join(args.save_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
+            pos_numberer = load_numberer_from_file(file)
+
+        with open(os.path.join(args.save_dir, tuepa.util.config.NER_FILENAME), "r", encoding="utf-8") as file:
+            ner_numberer = load_numberer_from_file(file)
+
+        args.num_edges = edge_numberer.max
+        args.prediction_data = ElmoPredictionData(
+            label_numberer=label_numberer,
+            pos_numberer=pos_numberer,
+            dep_numberer=dep_numberer,
+            edge_numberer=edge_numberer,
+            ner_numberer=ner_numberer,
+        )
+        args.num_ner = ner_numberer.max
+        res = list(parser.evaluate(self, args, random.sample(self.passages, args.parser_batch_size), train_eval=True))[0]
+        values = []
+        for k,v in zip(res.titles(),res.fields()):
+            values.append(tf.Summary.Value(tag=k, simple_value=float(v)))
+
+        summary = tf.Summary(value=values)
+
+        self._summary_writer.add_summary(summary,tf.train.get_global_step().eval(session=session))
+
+    def score(self, features):
+        return self.session.run(self.logits[0], feed_dict={
+                    self.form_indices: features['form_indices'],
+                    self.dep_types: features['deps'],
+                    self.pos: features['pos'],
+                    self.child_indices: features['child_indices'],
+                    self.ner: features['ner'],
+                    self.head_indices: features['heads'],
+                    self.height: features['height'],
+                    self.inc: features['inc'],
+                    self.out: features['out'],
+                    self.history: features['history'],
+                    self.sentence_lengths: features['sent_lens'],
+                    self.history_lengths: features['hist_lens'],
+                    self.elmo: features['elmo'],
+                    self.node_ratios: features['node_ratios'],
+                    self.action_ratios: features['action_ratios'],
+                    self.action_counts: features['action_counts'],
+                    self.root: features['root']
+                })
 
 class PerClassHook(tf.train.SessionRunHook):
     """
