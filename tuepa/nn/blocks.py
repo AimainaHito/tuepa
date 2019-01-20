@@ -77,10 +77,11 @@ class LayerNorm(tf.keras.layers.Layer):
     def __init__(self, hsize, **kwargs):
         super().__init__(**kwargs)
         self.hidden_size = hsize
-        self.scale = tf.get_variable("{}/scale".format(self.name), [self.hidden_size],
-                                     initializer=tf.ones_initializer())
-        self.bias = tf.get_variable("{}/bias".format(self.name), [self.hidden_size],
-                                    initializer=tf.zeros_initializer())
+        with tf.variable_scope(self.name,reuse=tf.AUTO_REUSE):
+            self.scale = tf.get_variable("scale", [self.hidden_size],
+                                         initializer=tf.ones_initializer())
+            self.bias = tf.get_variable("bias", [self.hidden_size],
+                                        initializer=tf.zeros_initializer())
 
     def __call__(self, x, **kwargs):
         mean, variance = tf.nn.moments(x, axes=[-1], keep_dims=True)
@@ -106,33 +107,26 @@ def split_heads(t, hidden_size, num_heads):
 class SelfAttention(tf.keras.layers.Layer):
     def __init__(self, num_heads, neurons, **kwargs):
         super().__init__(**kwargs)
-        self.built = False
-        self.neurons = neurons
-        self.num_heads = num_heads
-        self.projection_layer = tf.layers.Dense(neurons, use_bias=False)
+        with tf.variable_scope(self.name, reuse=tf.AUTO_REUSE):
+            self.neurons = neurons
+            self.num_heads = num_heads
+            self.projection_layer = tf.layers.Dense(neurons, use_bias=False)
+            self.q = tf.layers.Dense(neurons, name="q", use_bias=False)
+            self.k = tf.layers.Dense(neurons, name="k", use_bias=False)
+            self.v = tf.layers.Dense(neurons, name="v", use_bias=False)
+            self.layer_norm = LayerNorm(neurons)
 
     def compute_output_shape(self, input_shape):
         return input_shape
-
-    def build(self, input_shape):
-        self.q = tf.layers.Dense(input_shape[-1], name="q", use_bias=False)
-        self.k = tf.layers.Dense(input_shape[-1], name="k", use_bias=False)
-        self.v = tf.layers.Dense(input_shape[-1], name="v", use_bias=False)
-        self.layer_norm = LayerNorm(input_shape[-1])
-        self.built = True
 
     @property
     def trainable_weights(self):
         return self.q.trainable_weights + self.k.trainable_weights + self.v.trainable_weights + self.projection_layer.trainable_weights + self.layer_norm.weights()
 
     def __call__(self, inputs, **kwargs):
-        if not self.built:
-            self.build(inputs.shape)
-
         queries = self.q(inputs)
         keys = self.k(inputs)
         values = self.v(inputs)
-
         queries = split_heads(
             queries, hidden_size=self.neurons, num_heads=self.num_heads)
         keys = split_heads(keys, hidden_size=self.neurons,
