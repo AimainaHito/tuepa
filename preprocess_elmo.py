@@ -60,7 +60,7 @@ def preprocess(args):
         edge_numberer=edge_numberer,
         train=False
     )
-    silver_shapes, silver_max_n = specific_elmo(silver_data, elmo_embedder, args, silver=True)
+    silver_shapes, silver_max_n = specific_elmo(silver_data, elmo_embedder, args, silver=True, train=False)
 
 
 

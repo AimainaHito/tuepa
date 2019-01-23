@@ -25,7 +25,8 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
              data['stack_buffer']['form_indices'][0].shape,
              data['stack_buffer']['form_indices'][0].shape,
              data['stack_buffer']['form_indices'][0].shape,
-             data['stack_buffer']['form_indices'][0].shape + (30,), # child nodes
+             data['stack_buffer']['form_indices'][0].shape + (60,), # child nodes
+             data['stack_buffer']['form_indices'][0].shape + (60,), # child types 
              data['stack_buffer']['form_indices'][0].shape, # ner
              data['stack_buffer']['form_indices'][0].shape,  # heights
              data['stack_buffer']['form_indices'][0].shape + (args.num_edges,),  # inc
@@ -54,7 +55,7 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
 
         d = tf.data.Dataset.from_generator(generator, output_types=
         # ((form_indices, dep_types, head_indices, pos, height,inc, out, history, elmo, sent_lens, hist_lens),labels)
-        ((tf.int32, tf.int32, tf.int32,tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
+        ((tf.int32, tf.int32, tf.int32,tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
           tf.int32, tf.int32, tf.float32, tf.float32,tf.int32), tf.int32))
         if train:
             return d.shuffle(args.batch_size * 5)
@@ -65,6 +66,12 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
         return lambda: get_dataset().padded_batch(args.batch_size, data_shapes, drop_remainder=True).prefetch(1)
     else:
         pass
+
+def advindexing_roll(A, r):
+    rows, column_indices = np.ogrid[:A.shape[0], :A.shape[1]]    
+    r[r < 0] += A.shape[1]
+    column_indices = column_indices - r[:,np.newaxis]
+    return A[rows, column_indices]
 
 def h5py_worker(data_path, queue, args):
     """
@@ -110,19 +117,24 @@ def h5py_worker(data_path, queue, args):
         dep_types = data['stack_buffer']['dependencies'][getters]
         head_indices = data['stack_buffer']['head_indices'][getters]
         pos = data['stack_buffer']['pos'][getters]
+        history_lengths = data['history_lengths'][getters]
+        history_features = data['history_features'][getters]
+        history_features = advindexing_roll(history_features,history_features.shape[1]-history_lengths)
+
         return form_indices, \
                dep_types, \
                head_indices, \
                pos, \
-               data['stack_buffer']['child_indices'][getters], \
+               data['stack_buffer']['child_indices'][getters][:,:,:60], \
+               data['stack_buffer']['child_edge_indices'][getters][:,:,:60], \
                data['stack_buffer']['ner'][getters],\
                data['stack_buffer']['height'][getters], \
                data['stack_buffer']['in'][getters], \
                data['stack_buffer']['out'][getters], \
-               data['history_features'][getters], \
+               history_features, \
                batch_elmo, \
                data['sentence_lengths'].value[ids], \
-               data['history_lengths'][getters], \
+               history_lengths, \
                data['action_counts'][getters], \
                data['action_ratios'][getters], \
                data['node_ratios'][getters], \

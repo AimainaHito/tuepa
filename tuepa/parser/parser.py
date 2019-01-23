@@ -180,6 +180,8 @@ class PassageParser(AbstractParser):
                 ner_numberer=self.args.prediction_data.ner_numberer,
                 train=False
             )
+            while len(history_features) < 10:
+                history_features.insert(0,0)
             forms, deps, heads, pos, ner, incoming, outgoing, height, root, children = tuple(zip(*(stack_features + buffer_features)))
 
             actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
@@ -201,10 +203,12 @@ class PassageParser(AbstractParser):
                 for edge_id in item:
                     out[index, edge_id] += 1
 
-            child_indices = np.zeros((max_buffer_size+max_stack_size,30),dtype=np.int32)
+            child_indices = np.zeros((max_buffer_size+max_stack_size,60),dtype=np.int32)
+            child_edge_types = np.zeros((max_buffer_size+max_stack_size,60),dtype=np.int32)
             for n,child in enumerate(children):
                 for k, c in enumerate(child[:30]):
-                    child_indices[n,k] = c
+                    child_indices[n,k] = c[0]
+                    child_edge_types[n,k] = c[1]
 
             elmo = self.state.passage.elmo[0]
             sent_length = len(elmo)
@@ -215,6 +219,7 @@ class PassageParser(AbstractParser):
                 'ner':ner,
                 'pos': pos,
                 "child_indices":child_indices,
+                'child_edge_types':child_edge_types,
                 'heads':heads,
                 'height': height,
                 'inc' : inc,
@@ -327,7 +332,8 @@ class ElmoFeatureBatch:
             'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'ner':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
-            'child_indices': np.zeros((batch_size, num_feature_tokens,30), dtype=np.int32),
+            'child_indices': np.zeros((batch_size, num_feature_tokens,60), dtype=np.int32),
+            'child_edge_types': np.zeros((batch_size, num_feature_tokens,60), dtype=np.int32),
             'heads':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'height': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'inc' : np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),

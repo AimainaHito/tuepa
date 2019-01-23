@@ -53,18 +53,27 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             head = 1
             pos = "<NT>"
             ner = "<NT>"
-            child_indices = [t.index + 1 for t in node.terminals]
+            child_indices = []
+            for e in node:
+                if e.child.text:
+                    child_indices.append((e.child.index, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
+                else:
+                    for t in e.child.terminals:
+                        child_indices.append((t.index, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
+#            child_indices = [t.index + 1 for t in node.terminals]
             root = int(node.is_root)
 
-        incoming = [edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train) for e in node.incoming]
-        outgoing = [edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train) for e in node.outgoing]
+        incoming = [edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train) for e in
+                    node.incoming]
+        outgoing = [edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train) for e in
+                    node.outgoing]
 
         height = node.height
         return [form, dep_numberer.number(dep, train=train), head, pos_numberer.number(pos, train=train),
                 ner_numberer.number(ner, train=train), incoming,
                 outgoing, height, root, child_indices]
 
-    for n in range(args.stack_elements):
+    for n in range(1,args.stack_elements+1):
         try:
             node = stack[-n]
             stack_features.append(extract_feature(node))
@@ -81,7 +90,8 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                     return fn()
                 except:
                     return elsefn(node)
-
+            if n != 1:
+                continue
             test_fn = lambda x: x != 0
             left_parent = try_or_value(0, node.parents, 0)
             left_parent = try_or_function(test_fn, null_features, extract_feature, left_parent)
@@ -108,10 +118,11 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
 
         except IndexError:
             stack_features.append(null_features())
-            stack_features.append(null_features())
-            stack_features.append(null_features())
-            stack_features.append(null_features())
-            stack_features.append(null_features())
+            if n == 1:
+                stack_features.append(null_features())
+                stack_features.append(null_features())
+                stack_features.append(null_features())
+                stack_features.append(null_features())
     for n in range(args.buffer_elements):
         try:
             buffer_features.append(extract_feature(buffer[n]))
@@ -136,9 +147,10 @@ def preprocess_dataset(path,
     if not train:
         max_stack_size = shapes.max_stack_size
         max_buffer_size = shapes.max_buffer_size
-
+        max_children = shapes.max_children
     else:
         max_stack_size = max_buffer_size = -1
+        max_children = -1
 
     stack_and_buffer_features = []
     previous_action_counts = []
@@ -152,7 +164,6 @@ def preprocess_dataset(path,
     state2passage_id = []
     passage_id = 0
     passage_names = []
-
     for passage in read_passages([path]):
         if args.squash_singleton_terminals:
             squash_singleton_terminals(passage)
@@ -185,7 +196,9 @@ def preprocess_dataset(path,
                 ner_numberer=ner_numberer,
                 train=train
             )
-
+            if train:
+                max_children = max(max(max(map(lambda x: len(x[-1]), stack_features)),
+                               max(map(lambda x: len(x[-1]), buffer_features))),max_children)
             history_lengths.append(len(state_history))
 
             label = label_numberer.number(str(action), train=shapes is None)
@@ -209,7 +222,8 @@ def preprocess_dataset(path,
         passage_id += 1
 
     return stack_and_buffer_features, Shapes(max_stack_size,
-                                             max_buffer_size), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names
+                                             max_buffer_size,
+                                             max_children), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names
 
 
 def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=False):
@@ -236,9 +250,11 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
                                         dtype=np.int32, fillvalue=0)
         head_matrix = s_b.create_dataset('head_indices', shape=(num_examples, max_stack_size + max_buffer_size),
                                          dtype=np.int32, fillvalue=0)
-        child_matrix = s_b.create_dataset('child_indices', shape=(num_examples, max_stack_size + max_buffer_size, 30),
-                                          dtype=np.int32, fillvalue=0,
-                                          maxshape=(num_examples, max_stack_size + max_buffer_size, None))
+        child_matrix = s_b.create_dataset('child_indices', shape=(num_examples, max_stack_size + max_buffer_size, shapes.max_children),
+                                          dtype=np.int32, fillvalue=0)
+        child_edge_type = s_b.create_dataset('child_edge_indices',
+                                          shape=(num_examples, max_stack_size + max_buffer_size, shapes.max_children),
+                                          dtype=np.int32, fillvalue=0)
         height_matrix = s_b.create_dataset('height', shape=(num_examples, max_stack_size + max_buffer_size),
                                            dtype=np.int32, fillvalue=0)
         root_matrix = s_b.create_dataset('root', shape=(num_examples, max_stack_size + max_buffer_size),
@@ -262,6 +278,8 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
         head_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         child_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, child_matrix.shape[-1]),
                                dtype=np.int32)
+        child_edge_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, child_matrix.shape[-1]),
+                               dtype=np.int32)
         height_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         root_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
         ner_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
@@ -282,6 +300,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
                 dep_matrix[cur_slice] = dep_chunk
                 head_matrix[cur_slice] = head_chunk
                 child_matrix[cur_slice] = child_chunk
+                child_edge_type[cur_slice] = child_edge_chunk
                 out_matrix[cur_slice] = out_chunk
                 inc_matrix[cur_slice] = inc_chunk
                 ner_matrix[cur_slice] = ner_chunk
@@ -298,6 +317,9 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
                 head_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
                 child_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size, child_matrix.shape[-1]),
                                        dtype=np.int32)
+                child_edge_chunk = np.zeros(
+                    shape=(write_chunk, max_stack_size + max_buffer_size, child_matrix.shape[-1]),
+                    dtype=np.int32)
                 height_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
                 root_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
                 ner_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
@@ -325,9 +347,10 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
             height_chunk[index] = height
             root_chunk[index] = root
 
-            for n,child in enumerate(children):
-                for k, c in enumerate(child[:30]):
-                    child_chunk[index,n,k] = c
+            for n, child in enumerate(children):
+                for k, c in enumerate(child[:shapes.max_children]):
+                    child_chunk[index, n, k] = c[0]
+                    child_edge_chunk[index, n, k] = c[1]
 
             for action in previous_action_counts[ex_index]:
                 action_count_chunk[index, action] += 1
@@ -351,6 +374,8 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
             form_matrix[cur_slice] = form_chunk[:num_examples % write_chunk]
             dep_matrix[cur_slice] = dep_chunk[:num_examples % write_chunk]
             head_matrix[cur_slice] = head_chunk[:num_examples % write_chunk]
+            child_matrix[cur_slice] = child_chunk[:num_examples % write_chunk]
+            child_edge_type[cur_slice] = child_edge_chunk[:num_examples % write_chunk]
             out_matrix[cur_slice] = out_chunk[:num_examples % write_chunk]
             inc_matrix[cur_slice] = inc_chunk[:num_examples % write_chunk]
             ner_matrix[cur_slice] = ner_chunk[:num_examples % write_chunk]
@@ -370,7 +395,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
         f.create_dataset('node_ratios', data=np.array(node_ratios))
         import h5py
         dt = h5py.special_dtype(vlen=str)
-        f.create_dataset('passage_names', shape=(len(passage_id2sent),),dtype=dt)
+        f.create_dataset('passage_names', shape=(len(passage_id2sent),), dtype=dt)
         f['passage_names'][()] = passage_names
         f.create_dataset('passages', shape=(len(passage_id2sent),), dtype=dt)
         f['passages'][()] = passage_id2sent
@@ -384,4 +409,5 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
         torch.cuda.empty_cache()
 
-    return shapes,max_n
+    return shapes, max_n
+

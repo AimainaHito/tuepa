@@ -22,16 +22,16 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
     :param label_numberer:
     :return: tuple: (Estimator, tf.estimator.TrainSpec, tf.estimator.EvalSpec)
     """
-    files = list(map(lambda x: "/data/research/tuepa/data/dev/UCCA_English-Wiki_XML/" + x,
-                     os.listdir("/data/research/tuepa/data/dev/UCCA_English-Wiki_XML")))
-    eval_passages = list(read_passages(files))
-    elmo = Embedder(args.elmo_path,batch_size=1)
-    for p in eval_passages:
-        s = elmo.sents2elmo([[str(n) for n in p.layer("0").all]])[0]
-        p.elmo = [s]
-
-    torch.cuda.empty_cache()
-    del elmo
+#    files = list(map(lambda x: "data/dev/UCCA_English-Wiki_XML/" + x,
+#                     os.listdir("data/dev/UCCA_English-Wiki_XML")))
+#    eval_passages = list(read_passages(files))
+#    elmo = Embedder(args.elmo_path,batch_size=1)
+#    for p in eval_passages:
+#        s = elmo.sents2elmo([[str(n) for n in p.layer("0").all]])[0]
+#        p.elmo = [s]
+#
+#    torch.cuda.empty_cache()
+#    del elmo
 
     def model_fn(features, labels, mode, params):
         """
@@ -69,13 +69,13 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
                         labels=label_numberer.num2value,
                         tensor_name='mean_accuracy/div_no_nan',
                         summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
-                    EvalHook(
-                        args,
-                        model(None, train=mode == tf.estimator.ModeKeys.TRAIN, mode=mode,eval=True),
-                        model.inpts,
-                        eval_passages,
-                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"eval_validation"))
-                    )
+#                    EvalHook(
+#                        args,
+#                        model(None, train=mode == tf.estimator.ModeKeys.TRAIN, mode=mode,eval=True),
+#                        model.inpts,
+#                        eval_passages,
+#                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"eval_validation"))
+#                    )
                     ]
 
                 evalMetrics = {'accuracy': tf.metrics.accuracy(labels, predictions),

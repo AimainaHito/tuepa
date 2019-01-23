@@ -109,12 +109,16 @@ class ElModel(BaseModel):
             shape=[num_ner, args.embedding_size],
             dtype=tf.float32
         )
+        
+        self.edge_embeddings = tf.get_variable(name="edge_embeddings",shape=[args.num_edges,args.embedding_size], dtype=tf.float32)
 
         if self.args.numbers == "embed":
             self.number_embeddings = tf.get_variable(
                 name="numbers",
                 shape=[args.num_num, max(self.args.embedding_size // 5, 10)],
                 dtype=tf.float32)
+        
+
 
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, 1024],
                                                       dtype=tf.float32)
@@ -122,9 +126,8 @@ class ElModel(BaseModel):
             "padding", shape=[1, 1, 1024], dtype=tf.float32)
         self.cls = tf.get_variable("cls", shape=[1, 1, 1024], dtype=tf.float32)
         self.self_attention_encoder = onmt.encoders.SelfAttentionEncoder(3, 1024)
-
         # history rnn
-        self.history_rnn = tf.keras.layers.LSTM(args.history_rnn_neurons, return_sequences=True)
+        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons,activation=tf.nn.relu)#tf.keras.layers.LSTM(args.history_rnn_neurons, return_sequences=True)
 
         # dense layers
         self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
@@ -134,6 +137,7 @@ class ElModel(BaseModel):
             self.feed_forward_layers[0].units,use_bias=False)
 
         self.child_processing_layers = [tf.layers.Dense(self.args.top_rnn_neurons,activation=tf.nn.relu)]
+        self.child_encoder = onmt.encoders.SelfAttentionEncoder(3, self.args.top_rnn_neurons)
 
         self.projection_layer = tf.layers.Dense(
             num_labels, use_bias=False, activation=None)
@@ -147,14 +151,6 @@ class ElModel(BaseModel):
         self.__call__ = tf.contrib.eager.defun(self.__call__)
         self._create_inputs()
 
-    def build_encoder(self):
-        encoder = [tf.layers.Dense(self.args.top_rnn_neurons)]
-        for _ in range(4):
-            encoder.append(SelfAttention(
-                8, self.args.top_rnn_neurons))
-            encoder.append(ResidualFeedforward(self.args.top_rnn_neurons, self.args.top_rnn_neurons*3))
-        return encoder
-
     def _create_inputs(self):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
         self.num_feature_tokens = feature_tokens
@@ -162,7 +158,8 @@ class ElModel(BaseModel):
         self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
         self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
         self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
-        self.child_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens,30], dtype=tf.int32)
+        self.child_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens,60], dtype=tf.int32)
+        self.child_edge_types = tf.placeholder(name="head_indices", shape=[None, feature_tokens,60], dtype=tf.int32)
         self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
         self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
         self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
@@ -185,6 +182,7 @@ class ElModel(BaseModel):
             self.head_indices,
             self.pos,
             self.child_indices,
+            self.child_edge_types,
             self.ner,
             self.height,
             self.inc,
@@ -218,10 +216,10 @@ class ElModel(BaseModel):
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
         if eval:
             batch = self.inpts
-        form_indices, dep_types, head_indices, pos, child_indices, ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
+        form_indices, dep_types, head_indices, pos, child_indices, child_edge_types, ner, height, inc, out, history, elmo, sentence_lengths, history_lengths, action_counts, action_ratios, node_ratios, root = batch
         batch_size = tf.shape(form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
-
+        self.child_edge_typess = child_edge_types
         if self.args.numbers == 'embed':
             action_counts = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, action_counts), shape=[
                 batch_size, tf.shape(action_counts)[1] * self.number_embeddings.shape[1]])
@@ -245,7 +243,7 @@ class ElModel(BaseModel):
                 tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
             height = tf.log(tf.to_float(tf.reshape(height, [batch_size, feature_tokens])) + 0.0001)
 
-        top_rnn_output, top_rnn_state = self.encode_elmo(batch_indices, elmo, sentence_lengths - 1)
+        top_rnn_output, top_rnn_state = self.encode_elmo(batch_indices, elmo, sentence_lengths - 1,train)
 
         history_rnn_state = self.apply_history_rnn(batch_indices, history, tf.maximum(history_lengths - 1, 0))
 
@@ -269,7 +267,7 @@ class ElModel(BaseModel):
         pos_features = tf.nn.embedding_lookup(self.pos_embeddings, pos)
         dep_features = tf.nn.embedding_lookup(self.dep_embeddings, dep_types)
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, ner)
-
+        
         features = tf.concat(
             [form_features, head_features, pos_features, dep_features, ner_features], axis=-1)
         feedforward_input = tf.reshape(
@@ -280,7 +278,7 @@ class ElModel(BaseModel):
                                  top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios, -1),
                                  tf.expand_dims(node_ratios, -1), tf.to_float(root)], -1)
 
-        rep = self.extract_node_children(batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output)
+        rep = self.extract_node_children(batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output, train=train)
 
         tf.concat([feature_vec, rep], -1)
 
@@ -296,7 +294,7 @@ class ElModel(BaseModel):
 
         return self.projection_layer(feature_vec)
 
-    def extract_node_children(self, batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output):
+    def extract_node_children(self, batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output, train=False):
         first_dim = tf.tile(batch_indices, [1, feature_tokens * child_indices.shape[-1]])
         first_dim = tf.reshape(first_dim, [batch_size * feature_tokens * child_indices.shape[-1], 1])
         second_dim = tf.reshape(child_indices, (batch_size * feature_tokens * child_indices.shape[-1],))
@@ -307,21 +305,26 @@ class ElModel(BaseModel):
         rep = tf.reshape(node_rep, [batch_size * feature_tokens, child_indices.shape[2], node_rep.shape[-1]])
         child_mask = tf.sequence_mask(tf.count_nonzero(child_indices, -1), child_indices.shape[2], dtype=tf.float32)
         child_mask = tf.reshape(child_mask, [batch_size * feature_tokens, child_indices.shape[2], 1])
-        rep = rep * child_mask
-        rep = tf.reshape(rep, [batch_size, feature_tokens * child_indices.shape[2] * node_rep.shape[-1]])
+        child_types = tf.nn.embedding_lookup(self.edge_embeddings,self.child_edge_typess)
+        child_resh = tf.reshape(child_types,[tf.shape(batch_indices)[0]*feature_tokens,60,self.args.embedding_size])
+        rep = tf.concat((child_resh, rep,),-1)
+        rep = rep #* child_mask
+        rep = tf.reshape(rep, [batch_size* feature_tokens , child_indices.shape[2], rep.shape[-1]])
         for l in self.child_processing_layers:
             rep = l(rep)
+        rep = tf.reshape(tf.reduce_max(rep,axis=1),[batch_size,feature_tokens * self.args.top_rnn_neurons])
         return rep
 
     def apply_history_rnn(self, batch_indices, history, history_lengths):
         history_input = tf.nn.embedding_lookup(
-            self.history_embeddings, history)
-        history_rnn_outputs = self.history_rnn(history_input)
-        state_selectors = tf.concat([batch_indices,
-                                     tf.expand_dims(history_lengths, axis=1)],
-                                    axis=1)
-        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
-        return history_rnn_state
+                self.history_embeddings, tf.reshape(history[:,-10:],[tf.shape(batch_indices)[0],10]))
+        print(history_input)
+        history_rnn_outputs = self.history_rnn(tf.reshape(history_input, [tf.shape(batch_indices)[0],10*self.history_embeddings.shape[-1]]))
+#        state_selectors = tf.concat([batch_indices,
+#                                     tf.expand_dims(history_lengths, axis=1)],
+#                                    axis=1)
+#        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
+        return history_rnn_outputs
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
         """
@@ -344,7 +347,7 @@ class ElModel(BaseModel):
         features = tf.gather_nd(t, selectors)
         return features
 
-    def encode_elmo(self, batch_indices, elmo, sentence_lengths):
+    def encode_elmo(self, batch_indices, elmo, sentence_lengths,train=False):
         """
         Runs bi-rnn over `elmo` and extracts the final states at position `sentence_lengths`
         :param batch_indices: range vector with length of batch size
@@ -353,8 +356,10 @@ class ElModel(BaseModel):
         :return: final states of the bi rnn over the elmo sentences
         """
         elmo = tf.concat([tf.tile(self.cls, [tf.shape(batch_indices)[0], 1, 1]), elmo], 1)
-        (outputs, state, sequence_length) = self.self_attention_encoder.encode(tf.convert_to_tensor(elmo),
-                                                                               sentence_lengths + 1)
+
+        with tf.variable_scope("elmo_self_attention",reuse=False): 
+            (outputs, state, sequence_length) = self.self_attention_encoder.encode(tf.convert_to_tensor(elmo),
+                                                                               sentence_lengths + 1, tf.estimator.ModeKeys.TRAIN if train else tf.estimator.ModeKeys.PREDICT)
         return outputs[:,1:], outputs[:,0]
 
     def compute_gradients(self, batch, labels):
