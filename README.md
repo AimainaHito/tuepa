@@ -8,6 +8,8 @@ Requirements:
 * tensorflow (tested on 1.12-gpu and 1.13-nightly-gpu)
 * ELMoForManyLangs [available here](https://github.com/HIT-SCIR/ELMoForManyLangs).
 
+Results on Dev [here](https://docs.google.com/spreadsheets/d/1wDHqaux1qSOwVJ1WPC6zdiAhI3iqOn-qUiTYGO9ULP8)
+
 
 ELMo-RNN
 --------
