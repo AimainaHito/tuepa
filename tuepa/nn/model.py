@@ -222,13 +222,13 @@ class ElModel(BaseModel):
         self.child_edge_typess = child_edge_types
         if self.args.numbers == 'embed':
             action_counts = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, action_counts), shape=[
-                batch_size, tf.shape(action_counts)[1] * self.number_embeddings.shape[1]])
+                batch_size, self.args.num_labels * self.number_embeddings.shape[1]])
             inc = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, inc), shape=[
                 batch_size, feature_tokens * self.args.num_edges * self.number_embeddings.shape[1]])
             out = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, out), shape=[
                 batch_size, feature_tokens * self.args.num_edges * self.number_embeddings.shape[1]])
             height = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, height),
-                                [batch_size, tf.shape(height)[1] * self.number_embeddings.shape[1]])
+                                [batch_size, feature_tokens * self.number_embeddings.shape[1]])
         elif self.args.numbers == 'absolute':
             action_counts = tf.to_float(tf.reshape(action_counts, shape=[batch_size, self.args.num_labels]))
             inc = tf.to_float(tf.reshape(inc, shape=[batch_size, feature_tokens * self.args.num_edges]))
@@ -280,12 +280,11 @@ class ElModel(BaseModel):
 
         rep = self.extract_node_children(batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output, train=train)
 
-        tf.concat([feature_vec, rep], -1)
-
-        feature_vec = self.downsampling_layer(feature_vec)
+        feature_vec = tf.concat([feature_vec, rep], -1)
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
+        feature_vec = self.downsampling_layer(feature_vec)
 
         for layer in self.feed_forward_layers:
             feature_vec = layer(feature_vec)

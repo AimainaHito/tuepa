@@ -73,7 +73,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                 ner_numberer.number(ner, train=train), incoming,
                 outgoing, height, root, child_indices]
 
-    for n in range(1,args.stack_elements+1):
+    for n in range(0,args.stack_elements+0):
         try:
             node = stack[-n]
             stack_features.append(extract_feature(node))
@@ -90,8 +90,6 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                     return fn()
                 except:
                     return elsefn(node)
-            if n != 1:
-                continue
             test_fn = lambda x: x != 0
             left_parent = try_or_value(0, node.parents, 0)
             left_parent = try_or_function(test_fn, null_features, extract_feature, left_parent)
@@ -118,11 +116,10 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
 
         except IndexError:
             stack_features.append(null_features())
-            if n == 1:
-                stack_features.append(null_features())
-                stack_features.append(null_features())
-                stack_features.append(null_features())
-                stack_features.append(null_features())
+            stack_features.append(null_features())
+            stack_features.append(null_features())
+            stack_features.append(null_features())
+            stack_features.append(null_features())
     for n in range(args.buffer_elements):
         try:
             buffer_features.append(extract_feature(buffer[n]))

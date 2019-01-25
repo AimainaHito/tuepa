@@ -206,7 +206,7 @@ class PassageParser(AbstractParser):
             child_indices = np.zeros((max_buffer_size+max_stack_size,60),dtype=np.int32)
             child_edge_types = np.zeros((max_buffer_size+max_stack_size,60),dtype=np.int32)
             for n,child in enumerate(children):
-                for k, c in enumerate(child[:30]):
+                for k, c in enumerate(child[:60]):
                     child_indices[n,k] = c[0]
                     child_edge_types[n,k] = c[1]
 
