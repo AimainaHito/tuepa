@@ -154,7 +154,7 @@ def train(args):
 
     with open(os.path.join(args.save_dir, NER_FILENAME), "r", encoding="utf-8") as file:
         ner_numberer = load_numberer_from_file(file)
-
+    
     # save args for eval call
     save_args(args, args.save_dir)
 

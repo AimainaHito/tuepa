@@ -73,7 +73,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                 ner_numberer.number(ner, train=train), incoming,
                 outgoing, height, root, child_indices]
 
-    for n in range(0,args.stack_elements+0):
+    for n in range(1,args.stack_elements+1):
         try:
             node = stack[-n]
             stack_features.append(extract_feature(node))
