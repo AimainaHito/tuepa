@@ -50,9 +50,12 @@ def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numbere
         model = ElModel(args, num_labels, num_dependencies=num_deps, num_pos=num_pos,num_ner=ner_numberer.max)
 
         if mode == tf.estimator.ModeKeys.TRAIN:
-            loss = tf.reduce_mean(model.loss(model(features,train=True,mode=tf.estimator.ModeKeys.TRAIN),labels))
-            train_op = model.optimizer.minimize(loss, global_step=tf.train.get_or_create_global_step())
-            return tf.estimator.EstimatorSpec(mode=mode, loss=loss, train_op=train_op)
+            accuracy, x_ent = model.compute_gradients(features, labels)
+            train_op = model.optimizer.minimize(x_ent,global_step=tf.train.get_or_create_global_step())#apply_gradients(grads_vars, global_step=tf.train.get_or_create_global_step())
+
+
+
+            return tf.estimator.EstimatorSpec(mode=mode, loss=tf.reduce_mean(x_ent), train_op=train_op)
         else:
             logits = model(features, train=False, mode=mode)
             predictions = tf.argmax(logits, -1)

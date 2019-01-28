@@ -119,6 +119,8 @@ class ElModel(BaseModel):
                 dtype=tf.float32)
         
 
+        self.softmax_w = tf.get_variable("elmo_weight", dtype=tf.float32,trainable=True, initializer=[[[1.],[1.],[1.]]])
+        self.elmo_scale = tf.get_variable("elmo_scale",initializer=1., dtype=tf.float32,trainable=True)
 
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, 1024],
                                                       dtype=tf.float32)
@@ -137,7 +139,6 @@ class ElModel(BaseModel):
             self.feed_forward_layers[0].units,use_bias=False)
 
         self.child_processing_layers = [tf.layers.Dense(self.args.top_rnn_neurons,activation=tf.nn.relu)]
-        self.child_encoder = onmt.encoders.SelfAttentionEncoder(3, self.args.top_rnn_neurons)
 
         self.projection_layer = tf.layers.Dense(
             num_labels, use_bias=False, activation=None)
@@ -243,15 +244,15 @@ class ElModel(BaseModel):
                 tf.to_float(tf.reshape(out, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
             height = tf.log(tf.to_float(tf.reshape(height, [batch_size, feature_tokens])) + 0.0001)
 
-        top_rnn_output, top_rnn_state = self.encode_elmo(batch_indices, elmo, sentence_lengths - 1,train)
-
+        elmo = elmo * self.elmo_scale
+        #top_rnn_output, top_rnn_state,means = self.encode_elmo(batch_indices, elmo, sentence_lengths, train)
         history_rnn_state = self.apply_history_rnn(batch_indices, history, tf.maximum(history_lengths - 1, 0))
 
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
         top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
-             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), top_rnn_output],
+             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), elmo],
             1)
 
         # extract embeddings for stack + buffer tokens
@@ -261,7 +262,7 @@ class ElModel(BaseModel):
                                                 n=feature_tokens, t=top_rnn_output)
 
         head_features = self.extract_vectors_3d(first_d=batch_indices,
-                                                second_d=head_indices,
+                second_d=head_indices,
                                                 batch_size=batch_size,
                                                 n=feature_tokens, t=top_rnn_output)
         pos_features = tf.nn.embedding_lookup(self.pos_embeddings, pos)
@@ -269,13 +270,13 @@ class ElModel(BaseModel):
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, ner)
         
         features = tf.concat(
-            [form_features, head_features, pos_features, dep_features, ner_features], axis=-1)
+            [form_features, pos_features, dep_features, ner_features], axis=-1)
         feedforward_input = tf.reshape(
             features,
-            [batch_size, features.shape[1] * features.shape[2]]
-        )
-        feature_vec = tf.concat([history_rnn_state, feedforward_input,
-                                 top_rnn_state, height, inc, out, action_counts, tf.expand_dims(action_ratios, -1),
+            [batch_size, features.shape[1] * features.shape[2]])
+
+        feature_vec = tf.concat([history_rnn_state, feedforward_input,tf.reshape(head_features,[batch_size,feature_tokens*head_features.shape[-1]]),
+                                 height, inc, out, action_counts, tf.expand_dims(action_ratios, -1),
                                  tf.expand_dims(node_ratios, -1), tf.to_float(root)], -1)
 
         rep = self.extract_node_children(batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output, train=train)
@@ -289,38 +290,36 @@ class ElModel(BaseModel):
             feature_vec = layer(feature_vec)
             if train:
                 feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
-
+        print(train)
+#        feature_vec = self.bn(feature_vec,training=train)
         return self.projection_layer(feature_vec)
 
     def extract_node_children(self, batch_indices, batch_size, child_indices, feature_tokens, top_rnn_output, train=False):
-        first_dim = tf.tile(batch_indices, [1, feature_tokens * child_indices.shape[-1]])
-        first_dim = tf.reshape(first_dim, [batch_size * feature_tokens * child_indices.shape[-1], 1])
-        second_dim = tf.reshape(child_indices, (batch_size * feature_tokens * child_indices.shape[-1],))
-        selector = tf.concat([first_dim, tf.expand_dims(second_dim, 1)], -1)
-        # [b*f*l, h]
-        node_rep = tf.gather_nd(top_rnn_output, selector)
-        # [b*f,l,h]
-        rep = tf.reshape(node_rep, [batch_size * feature_tokens, child_indices.shape[2], node_rep.shape[-1]])
-        child_mask = tf.sequence_mask(tf.count_nonzero(child_indices, -1), child_indices.shape[2], dtype=tf.float32)
-        child_mask = tf.reshape(child_mask, [batch_size * feature_tokens, child_indices.shape[2], 1])
-        child_types = tf.nn.embedding_lookup(self.edge_embeddings,self.child_edge_typess)
-        child_resh = tf.reshape(child_types,[tf.shape(batch_indices)[0]*feature_tokens,60,self.args.embedding_size])
-        rep = tf.concat((child_resh, rep,),-1)
-        rep = tf.reshape(rep, [batch_size* feature_tokens , child_indices.shape[2], rep.shape[-1]])
-        for l in self.child_processing_layers:
-            rep = l(rep)
-        rep = tf.reshape(tf.reduce_max(rep,axis=1),[batch_size,feature_tokens * self.args.top_rnn_neurons])
-        return rep
+        with tf.control_dependencies([tf.assert_less(child_indices, tf.shape(top_rnn_output)[1]),tf.assert_greater_equal(child_indices, 0)]):
+            feature_tokens = 6#
+            child_indices=tf.concat((child_indices[:,slice(0,15,5),:30],child_indices[:,15:,:30]),1)
+            first_dim = tf.tile(batch_indices, [1, feature_tokens * child_indices.shape[-1]])
+            first_dim = tf.reshape(first_dim, [batch_size * feature_tokens * child_indices.shape[-1], 1])
+            second_dim = tf.reshape(child_indices, (batch_size * feature_tokens * child_indices.shape[-1],))
+            selector = tf.concat([first_dim, tf.expand_dims(second_dim, 1)], -1)
+            node_rep = tf.gather_nd(top_rnn_output, selector)
+            rep = tf.reshape(node_rep, [batch_size * feature_tokens, child_indices.shape[2], node_rep.shape[-1]])
+
+            child_types = tf.nn.embedding_lookup(self.edge_embeddings,tf.concat((self.child_edge_typess[:,slice(0,15,5),:30],self.child_edge_typess[:,15:,:30]),axis=1))
+            child_resh = tf.reshape(child_types,[tf.shape(batch_indices)[0]*feature_tokens,30,self.args.embedding_size])
+            child_resh = tf.concat((rep,child_resh),-1)
+            rep = child_resh
+            for l in self.child_processing_layers:
+                rep = l(rep)
+            print(rep)
+            rep = tf.reshape(tf.reduce_max(rep,axis=1),(batch_size,feature_tokens*self.args.top_rnn_neurons))
+#            rep = tf.reshape(rep,[batch_size,rep.shape[-1]])
+            return rep
 
     def apply_history_rnn(self, batch_indices, history, history_lengths):
         history_input = tf.nn.embedding_lookup(
                 self.history_embeddings, tf.reshape(history[:,-10:],[tf.shape(batch_indices)[0],10]))
-        print(history_input)
         history_rnn_outputs = self.history_rnn(tf.reshape(history_input, [tf.shape(batch_indices)[0],10*self.history_embeddings.shape[-1]]))
-#        state_selectors = tf.concat([batch_indices,
-#                                     tf.expand_dims(history_lengths, axis=1)],
-#                                    axis=1)
-#        history_rnn_state = tf.gather_nd(history_rnn_outputs, state_selectors)
         return history_rnn_outputs
 
     def extract_vectors_3d(self, first_d, second_d, batch_size, n, t):
@@ -334,15 +333,17 @@ class ElModel(BaseModel):
         :param t:
         :return: the vectors indexed by first_d and second_d
         """
-        indices = tf.reshape(second_d, shape=[batch_size, n, 1])
-        selectors = tf.concat(
-            [tf.tile(
-                tf.expand_dims(first_d, 1),
-                [1, n, 1]
-            ), indices],
-            -1)
-        features = tf.gather_nd(t, selectors)
-        return features
+
+        with tf.control_dependencies([tf.assert_less(second_d, tf.shape(t)[1]),tf.assert_greater_equal(second_d, 0)]):
+            indices = tf.reshape(second_d, shape=[batch_size, n, 1])
+            selectors = tf.concat(
+                [tf.tile(
+                    tf.expand_dims(first_d, 1),
+                    [1, n, 1]
+                ), indices],
+                -1)
+            features = tf.gather_nd(t, selectors)
+            return features
 
     def encode_elmo(self, batch_indices, elmo, sentence_lengths,train=False):
         """
@@ -357,19 +358,13 @@ class ElModel(BaseModel):
         with tf.variable_scope("elmo_self_attention",reuse=False): 
             (outputs, state, sequence_length) = self.self_attention_encoder.encode(tf.convert_to_tensor(elmo),
                                                                                sentence_lengths + 1, tf.estimator.ModeKeys.TRAIN if train else tf.estimator.ModeKeys.PREDICT)
-        return outputs[:,1:], outputs[:,0]
+        return outputs[:,1:], outputs[:,0], state
 
     def compute_gradients(self, batch, labels):
-        def loss_fun(batch):
-            logits = self(batch, train=True)
-            predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(
-                tf.to_float(tf.equal(predictions, labels)))
-            return accuracy, self.loss(logits, labels=labels)
-
-        from tensorflow.contrib.eager.python import tfe
-        grads = tfe.implicit_value_and_gradients(loss_fun)
-        return grads(batch)
+        logits = self(batch, train=True)
+        predictions = tf.to_int32(tf.argmax(logits, axis=-1))
+        accuracy = tf.reduce_mean(tf.to_float(tf.equal(predictions, labels)))
+        return accuracy, self.loss(logits, labels=labels)
 
 
 class TransformerModel(BaseModel):
