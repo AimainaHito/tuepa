@@ -73,7 +73,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                 ner_numberer.number(ner, train=train), incoming,
                 outgoing, height, root, child_indices]
 
-    for n in range(0,args.stack_elements+0):
+    for n in range(1,args.stack_elements+1):
         try:
             node = stack[-n]
             stack_features.append(extract_feature(node))
@@ -127,7 +127,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             buffer_features.append(null_features())
 
     history_features = [label_numberer.number(str(action), train=train) for action in
-                        state.actions[-min(len(state.actions), 100):]]
+                        state.actions[-min(len(state.actions), 10):]]
     return stack_features, buffer_features, history_features
 
 
@@ -287,7 +287,10 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
         hist_chunk = np.zeros(shape=(write_chunk, max_hist_size), dtype=np.int32)
         start = True
         chunk_no = 0
-        max_n = -1
+        max_act = -1
+        max_in = -1
+        max_out = -1
+
         for ex_index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
             if ex_index % write_chunk == 0 and not start:
                 cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
@@ -307,7 +310,9 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
                 history_matrix[cur_slice] = hist_chunk
                 action_counts[cur_slice] = action_count_chunk
 
-                max_n = max((out_chunk.max(), inc_chunk.max(), action_count_chunk.max(), max_n))
+                max_out = max(out_chunk.max(),max_out)
+                max_in = max(inc_chunk.max(),max_in)
+                max_act= max(action_count_chunk.max(), max_act)
 
                 form_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
                 dep_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
@@ -381,7 +386,9 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
             height_matrix[cur_slice] = height_chunk[:num_examples % write_chunk]
             history_matrix[cur_slice] = hist_chunk[:num_examples % write_chunk]
             action_counts[cur_slice] = action_count_chunk[:num_examples % write_chunk]
-            max_n = max((out_chunk.max(), inc_chunk.max(), action_count_chunk.max(), max_n))
+            max_out = max(out_chunk.max(), max_out)
+            max_in = max(inc_chunk.max(), max_in)
+            max_act = max(action_count_chunk.max(), max_act)
             print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
         f.create_dataset('history_lengths', data=np.array(history_lengths))
@@ -400,11 +407,11 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
         f.create_dataset('labels', data=np.array(labels))
 
         elmo = f.create_group('elmo')
-        contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
+        contextualized_embeddings = embedder.sents2elmo(passage_id2sent,[0,1,2])
 
         for n, emb in enumerate(contextualized_embeddings):
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
         torch.cuda.empty_cache()
 
-    return shapes, max_n
+    return shapes, (max_in,max_out,max_act)
 

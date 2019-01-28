@@ -47,25 +47,10 @@ def preprocess(args):
     args.num_ner = ner_numberer.max
 
     print("...starting to write training features", )
-    training_shapes, max_n = specific_elmo(training_data, elmo_embedder, args, train=True)
-
-    silver_data = preprocess_dataset(
-        args.silver_path,
-        args,
-        shapes=training_shapes,
-        label_numberer=label_numberer,
-        pos_numberer=pos_numberer,
-        dep_numberer=dep_numberer,
-        ner_numberer=ner_numberer,
-        edge_numberer=edge_numberer,
-        train=False
-    )
-    silver_shapes, silver_max_n = specific_elmo(silver_data, elmo_embedder, args, silver=True, train=False)
-
-
+    training_shapes, (max_in,max_out,max_act) = specific_elmo(training_data, elmo_embedder, args, train=True)
 
     print("finished writing training data..", )
-    args.num_num = max(max_n,silver_max_n)
+    args.num_num = (max_in,max_out,max_act)
     # Preprocess validation set
     print("starting to process validation data..", )
     try:

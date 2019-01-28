@@ -115,8 +115,8 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("-hist-rnn", "--history-rnn-neurons", type=int, default=512,
                                  help="Neurons in the history rnn.")
     elmo_rnn_parser.add_argument("-l", "--layers",
-                                 default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]',
-                                 help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}, {"neurons" : 512, "activation" : "relu", "updown" : 0}]')
+                                 default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}]',
+                                 help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}]')
     elmo_rnn_parser.add_argument("--input-dropout", type=float, default=1,
                                  help="Dropout keep probability applied on the NN input")
     elmo_rnn_parser.add_argument("--layer-dropout", type=float, default=1,
@@ -134,10 +134,8 @@ def get_preprocess_parser(parents=None):
     argument_parser = argparse.ArgumentParser(parents=parents)
     argument_parser.add_argument("training_path", help="Glob to UCCA annotated training data")
     argument_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
-    argument_parser.add_argument("silver_path", help="Glob to UCCA annotated silver data")
     argument_parser.add_argument("training_out", help="File where the training hdf5 file will be saved.")
     argument_parser.add_argument("validation_out", help="File where the validation hdf5 file will be saved.")
-    argument_parser.add_argument("silver_out", help="File where the silver hdf5 file will be saved.")
     argument_parser.add_argument("--warm-up",
                                  help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
                                  required=False, type=str)

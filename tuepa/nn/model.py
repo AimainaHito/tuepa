@@ -284,7 +284,6 @@ class ElModel(BaseModel):
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
-        feature_vec = self.downsampling_layer(feature_vec)
 
         for layer in self.feed_forward_layers:
             feature_vec = layer(feature_vec)
@@ -307,7 +306,6 @@ class ElModel(BaseModel):
         child_types = tf.nn.embedding_lookup(self.edge_embeddings,self.child_edge_typess)
         child_resh = tf.reshape(child_types,[tf.shape(batch_indices)[0]*feature_tokens,60,self.args.embedding_size])
         rep = tf.concat((child_resh, rep,),-1)
-        rep = rep #* child_mask
         rep = tf.reshape(rep, [batch_size* feature_tokens , child_indices.shape[2], rep.shape[-1]])
         for l in self.child_processing_layers:
             rep = l(rep)
