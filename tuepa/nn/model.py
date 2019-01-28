@@ -223,7 +223,7 @@ class ElModel(BaseModel):
                                                 second_d=self.head_indices,
                                                 batch_size=batch_size,
                                                 n=feature_tokens, t=top_rnn_output)
-        
+
         pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
         dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
