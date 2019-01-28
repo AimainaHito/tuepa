@@ -53,10 +53,9 @@ def print_network_progress(
 
     if width is None:
         width = shutil.get_terminal_size()[0]
-
     data_tail = "| {}/{} | loss: {:.1f} ({:.1f}) accuracy: {:.1%} ({:.1%}) |".format(
         batch_index, num_batches, losses, cummulative_losses, accuracy, cummulative_accuracy
-    )
+        )
     data_front = "| {} |".format(action)
     data_filler = " " * (width - len(data_front) - len(data_tail))
     data = data_front + data_filler + data_tail

@@ -1,135 +1,105 @@
+import multiprocessing
 import os
 
 import tensorflow as tf
 from argparse import Namespace
+from timeit import default_timer
 
-from tuepa.util.config import create_argument_parser, save_args, load_args, ARGS_FILENAME, LABELS_FILENAME, \
+from tuepa.util.config import save_args, load_args, LABELS_FILENAME, \
     DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
-from tuepa.data.elmo import get_elmo_input_fn
 from tuepa.nn import ElModel
-from tuepa.util.numberer import Numberer, load_numberer_from_file
-from tuepa.util import SaverHook,PerClassHook,EvalHook
-from tuepa.data.preprocessing import read_passages
-from elmoformanylangs import Embedder
-import torch
+from tuepa.util.numberer import load_numberer_from_file
+from tuepa.util import SaverHook, PerClassHook
+from tuepa.data.elmo.elmo_input import h5py_worker
 import numpy as np
+import tuepa.progress as progress
 
+def train(args, label_numberer, ner_numberer):
 
-def get_estimator(args, label_numberer, edge_numberer, dep_numberer, pos_numberer,ner_numberer):
-    """
-    Returns an estimator object.
-    :param args: named_tuple holding commandline arguments.
-    :param label_numberer:
-    :return: tuple: (Estimator, tf.estimator.TrainSpec, tf.estimator.EvalSpec)
-    """
-#    files = list(map(lambda x: "data/dev/UCCA_English-Wiki_XML/" + x,
-#                     os.listdir("data/dev/UCCA_English-Wiki_XML")))
-#    eval_passages = list(read_passages(files))
-#    elmo = Embedder(args.elmo_path,batch_size=1)
-#    for p in eval_passages:
-#        s = elmo.sents2elmo([[str(n) for n in p.layer("0").all]])[0]
-#        p.elmo = [s]
-#
-#    torch.cuda.empty_cache()
-#    del elmo
+    train_q = multiprocessing.Queue(maxsize=5)
+    val_q = multiprocessing.Queue(maxsize=5)
+    train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args))
+    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args))
+    train_p.daemon = True
+    val_p.daemon = True
+    train_p.start()
+    val_p.start()
 
-    def model_fn(features, labels, mode, params):
-        """
-        Construct the the model.
-        :param features:
-        :param labels:
-        :param mode:
-        :param params:
-        :return:
-        """
-        args = params["args"]
-        num_labels = params["num_labels"]
-        num_deps = params["num_deps"]
-        num_pos = params["num_pos"]
+    with tf.Session() as sess:
+        with tf.variable_scope('model', reuse=False):
+            m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
+                        num_ner=ner_numberer.max, train=True, predict=False)
+        with tf.variable_scope("model", reuse=True):
+            v = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
+                        num_ner=ner_numberer.max, train=False, predict=False)
 
-        model = ElModel(args, num_labels, num_dependencies=num_deps, num_pos=num_pos,num_ner=ner_numberer.max)
-
-        if mode == tf.estimator.ModeKeys.TRAIN:
-            accuracy, x_ent = model.compute_gradients(features, labels)
-            train_op = model.optimizer.minimize(x_ent,global_step=tf.train.get_or_create_global_step())#apply_gradients(grads_vars, global_step=tf.train.get_or_create_global_step())
-
-
-
-            return tf.estimator.EstimatorSpec(mode=mode, loss=tf.reduce_mean(x_ent), train_op=train_op)
-        else:
-            logits = model(features, train=False, mode=mode)
-            predictions = tf.argmax(logits, -1)
-
-            if mode == tf.estimator.ModeKeys.EVAL:
-                hooks = [SaverHook(
+            hooks = [SaverHook(
+                labels=label_numberer.num2value,
+                confusion_matrix_tensor_name='model_1/mean_iou/total_confusion_matrix',
+                summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
+                PerClassHook(
                     labels=label_numberer.num2value,
-                    confusion_matrix_tensor_name='mean_iou/total_confusion_matrix',
-                    summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"eval_validation"))),
-                    PerClassHook(
-                        labels=label_numberer.num2value,
-                        tensor_name='mean_accuracy/div_no_nan',
-                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
-#                    EvalHook(
-#                        args,
-#                        model(None, train=mode == tf.estimator.ModeKeys.TRAIN, mode=mode,eval=True),
-#                        model.inpts,
-#                        eval_passages,
-#                        summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir,"eval_validation"))
-#                    )
-                    ]
+                    tensor_name='model_1/mean_accuracy/div_no_nan',
+                    summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
+            ]
+        sess.run(tf.global_variables_initializer())
+        sess.run(tf.local_variables_initializer())
 
-                evalMetrics = {'accuracy': tf.metrics.accuracy(labels, predictions),
-                               'mean_per_class_accuracy': tf.metrics.mean_per_class_accuracy(labels,predictions,num_labels),
-                               'mean_iou': tf.metrics.mean_iou(labels, predictions, num_labels)}
+        sv = tf.train.Saver()
+        cp = tf.train.latest_checkpoint(os.path.join(args.save_dir,"save_dir"))
+        if cp:
+            tf.logging.info("Restoring model from latest checkpoint: {}".format(cp))
+            sv.restore(sess, cp)
 
-                loss = tf.reduce_mean(model.loss(labels=labels, logits=logits))
+        train_inputs = m.inpts
+        val_inputs = v.inpts
+        fw = tf.summary.FileWriter(logdir=os.path.join(args.save_dir, "log_dir"), graph=sess.graph)
+        for iteration in range(10000):
+            start_time = default_timer()
+            train_ep_loss = 0
+            train_ep_acc = 0
+            for n in range(1,args.epoch_steps+1):
+                features, labels = train_q.get()
+                feed_dict = dict(zip(train_inputs, features))
+                feed_dict[m.labels] = labels
+                logits, loss, _,_,_,_,tm1, gs = sess.run(
+                    [m.logits, m.loss,m.accuracy,m.per_class,m.mean_iou, m.train_op,m.merge, tf.train.get_or_create_global_step()], feed_dict)
+                fw.add_summary(tm1,gs)
+                train_ep_loss += loss.mean()
+                acc = np.equal(np.argmax(logits,-1),labels).mean()
+                train_ep_acc += acc
+                progress.print_network_progress("Training", n,args.epoch_steps,loss.mean(),train_ep_loss/n,acc,train_ep_acc/n )
 
-                return tf.estimator.EstimatorSpec(
-                    mode=mode,
-                    loss=loss,
-                    eval_metric_ops=evalMetrics,
-                    evaluation_hooks=hooks)
-            else:  # Prediction
-                result = {
-                    "classes": predictions,
-                    "probabilities": tf.nn.softmax(logits),
-                }
 
-                return tf.estimator.EstimatorSpec(
-                    mode=mode,
-                    predictions=predictions,
-                    export_outputs={
-                        "classify": tf.estimator.export.PredictOutput(result)
-                    })
-    gpu_options = tf.GPUOptions(allow_growth=True)
-    config = tf.ConfigProto(gpu_options=gpu_options)
-    run_conf = tf.estimator.RunConfig(model_dir=args.save_dir,
-                                      save_summary_steps=20,
-                                      save_checkpoints_steps=args.epoch_steps,
-                                      log_step_count_steps=20,
-                                      session_config = config,
-                                      train_distribute=None)
+            print(np.mean(train_ep_loss))
 
-    estimator = tf.estimator.Estimator(
-        model_fn=model_fn,
-        model_dir=args.save_dir,
-        config=run_conf,
-        params={"num_labels": args.num_labels,
-                "num_deps": dep_numberer.max,
-                "num_pos": pos_numberer.max,
-                "ff_layers": args.layers, "args": args})
-
-    train_spec = tf.estimator.TrainSpec(
-        get_elmo_input_fn(args.training_path, True, args=args, train=True),
-    )
-    eval_spec = tf.estimator.EvalSpec(
-        get_elmo_input_fn(args.validation_path, True, args=args, train=False),
-        steps=args.epoch_steps//2,
-        throttle_secs=60,
-        name='validation',
-    )
-    return estimator, train_spec, eval_spec
-
+            val_ep_loss = 0
+            val_ep_accuracy = 0
+            for n in range(1,args.epoch_steps+1):
+                features, labels = val_q.get()
+                feed_dict = dict(zip(val_inputs, features))
+                feed_dict[v.labels] = labels
+                logits, loss, mer, accuracy, maccurcy, mious, gs = sess.run(
+                    [v.logits, v.loss, v.merge, v.accuracy, v.per_class, v.mean_iou, tf.train.get_or_create_global_step()], feed_dict)
+                acc = np.equal(np.argmax(logits, -1), labels).mean()
+                val_ep_loss += loss.mean()
+                val_ep_accuracy += acc
+                progress.print_network_progress("Validation", n, args.epoch_steps, loss.mean(), val_ep_loss/n, acc, val_ep_accuracy/n)
+            fw.add_summary(mer, gs)
+            for hook in hooks:
+                hook.end(sess)
+            save_name = "tuepa_{}.ckpt".format(gs)
+            s = sv.save(sess, os.path.join(args.save_dir,"save_dir", save_name))
+            tf.logging.info("Saved {}".format(s))
+            progress.print_iteration_info(
+                iteration,
+                train_ep_loss,
+                train_ep_acc/n,
+                val_ep_loss,
+                val_ep_accuracy/n,
+                start_time,
+                args.log_file
+            )
 
 def train(args):
     """
@@ -138,7 +108,7 @@ def train(args):
     """
     model_args = load_args(args.save_dir)
     # Merge preprocess args with train args
-    args = Namespace(**{**vars(model_args),**vars(args)})
+    args = Namespace(**{**vars(model_args), **vars(args)})
 
     with open(os.path.join(args.save_dir, LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
@@ -158,19 +128,9 @@ def train(args):
     # save args for eval call
     save_args(args, args.save_dir)
 
-    estimator, train_spec, eval_spec = get_estimator(args,
-                                                     label_numberer=label_numberer,
-                                                     edge_numberer=edge_numberer,
-                                                     dep_numberer=dep_numberer,
-                                                     pos_numberer=pos_numberer,
-                                                     ner_numberer=ner_numberer)
-
-    tf.logging.info("Training:")
-    tf.estimator.train_and_evaluate(
-        estimator,
-        train_spec,
-        eval_spec
-    )
+    train(args,
+                  label_numberer=label_numberer,
+                  ner_numberer=ner_numberer)
 
 
 def main(args):

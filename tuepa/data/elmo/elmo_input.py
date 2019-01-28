@@ -1,77 +1,13 @@
-import multiprocessing
 import random
-
 import h5py
-
 import numpy as np
-import tensorflow as tf
-
-def get_elmo_input_fn(data_path, train_or_eval, args, train):
-    """
-    Returns the input_fn for the elmo model. Starts a background process that reads and preprocesses chunks from
-    HDF5 files.
-
-    Feature ordering: (stack_buffer, history, elmo, padding, nonterminal,sentence_lens, history_lens)
-
-    :param data_shapes: tuple describing containing shape information of input tensors
-    :param batch_size: mini batch size.
-    :param train_or_eval: train and eval input fn are identical while predict differs.
-    :param train: indicator if training is running. Training means shuffled input.
-    :return: a callable which returns a tf.Dataset build from a generator.
-    """
-    with h5py.File(args.training_path, 'r') as data:
-        data_shapes = (
-            (data['stack_buffer']['form_indices'][0].shape,  # stack and buffer
-             data['stack_buffer']['form_indices'][0].shape,
-             data['stack_buffer']['form_indices'][0].shape,
-             data['stack_buffer']['form_indices'][0].shape,
-             data['stack_buffer']['form_indices'][0].shape + (60,), # child nodes
-             data['stack_buffer']['form_indices'][0].shape + (60,), # child types 
-             data['stack_buffer']['form_indices'][0].shape, # ner
-             data['stack_buffer']['form_indices'][0].shape,  # heights
-             data['stack_buffer']['form_indices'][0].shape + (args.num_edges,),  # inc
-             data['stack_buffer']['form_indices'][0].shape + (args.num_edges,),  # out
-             tf.TensorShape([None]),  # history
-             tf.TensorShape([None, 1024]),  # elmo
-             tf.TensorShape([]),  # sentence lengths
-             tf.TensorShape([]),  # history lengths
-             tf.TensorShape([args.num_labels]),
-             tf.TensorShape([]),  # action_ratio
-             tf.TensorShape([]),# node ratio
-             data['stack_buffer']['form_indices'][0].shape,), # root
-            tf.TensorShape([]))  # labels
-    q = multiprocessing.Queue(maxsize=25)
-    p = multiprocessing.Process(target=h5py_worker, args=(data_path, q, args))
-    p.daemon = True
-    p.start()
-
-    def get_dataset():
-        def generator():
-            # listen forever
-            while True:
-                for item in zip(*q.get()):
-                    # ((features), labels)
-                    yield tuple((item[:-1], item[-1]))
-
-        d = tf.data.Dataset.from_generator(generator, output_types=
-        # ((form_indices, dep_types, head_indices, pos, height,inc, out, history, elmo, sent_lens, hist_lens),labels)
-        ((tf.int32, tf.int32, tf.int32,tf.int32, tf.int32,tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.int32, tf.float32, tf.int32,
-          tf.int32, tf.int32, tf.float32, tf.float32,tf.int32), tf.int32))
-        if train:
-            return d.shuffle(args.batch_size * 5)
-        else:
-            return d.shuffle(args.batch_size * 5)
-
-    if train_or_eval:
-        return lambda: get_dataset().padded_batch(args.batch_size, data_shapes, drop_remainder=True).prefetch(1)
-    else:
-        pass
 
 def advindexing_roll(A, r):
-    rows, column_indices = np.ogrid[:A.shape[0], :A.shape[1]]    
+    rows, column_indices = np.ogrid[:A.shape[0], :A.shape[1]]
     r[r < 0] += A.shape[1]
-    column_indices = column_indices - r[:,np.newaxis]
+    column_indices = column_indices - r[:, np.newaxis]
     return A[rows, column_indices]
+
 
 def h5py_worker(data_path, queue, args):
     """
@@ -87,7 +23,7 @@ def h5py_worker(data_path, queue, args):
     def prepare(data):
         state2pid = np.array(data['state2sent_index'])
 
-        index = random.randint(0, len(state2pid)-(args.batch_size*1))
+        index = random.randint(0, len(state2pid) - (args.batch_size * 1))
 
         getters = list(range(index, min((index + 1) + args.batch_size * 1, len(state2pid))))
         ids = state2pid[getters]
@@ -100,7 +36,7 @@ def h5py_worker(data_path, queue, args):
             if i in elmos:
                 batch_elmo.append(elmos[i])
             else:
-                res = data['elmo'][str(i).encode("UTF-8")].value[2]#, [1, 0, 2])
+                res = data['elmo'][str(i).encode("UTF-8")].value[2]  # , [1, 0, 2])
                 elmos[i] = res
                 batch_elmo.append(elmos[i])
 
@@ -119,26 +55,36 @@ def h5py_worker(data_path, queue, args):
         pos = data['stack_buffer']['pos'][getters]
         history_lengths = data['history_lengths'][getters]
         history_features = data['history_features'][getters]
-        history_features = advindexing_roll(history_features,history_features.shape[1]-history_lengths)
+        history_features = advindexing_roll(history_features, history_features.shape[1] - history_lengths)
+        ci = data['stack_buffer']['child_indices'][getters]
+        batch_ind = np.argwhere(ci).T[0]
+        ci_lengths = np.count_nonzero(ci.reshape((-1, ci.shape[-1])), axis=1)
+        ci = ci[ci > 0]
+        cei = data['stack_buffer']['child_edge_indices'][getters]
+        cei_lengths = np.count_nonzero(cei.reshape((-1, cei.shape[-1])), axis=1)
+        cei = cei[cei > 0]
 
-        return form_indices, \
-               dep_types, \
-               head_indices, \
-               pos, \
-               data['stack_buffer']['child_indices'][getters][:,:,:60], \
-               data['stack_buffer']['child_edge_indices'][getters][:,:,:60], \
-               data['stack_buffer']['ner'][getters],\
-               data['stack_buffer']['height'][getters], \
-               data['stack_buffer']['in'][getters], \
-               data['stack_buffer']['out'][getters], \
-               history_features, \
-               batch_elmo, \
-               data['sentence_lengths'].value[ids], \
-               history_lengths, \
-               data['action_counts'][getters], \
-               data['action_ratios'][getters], \
-               data['node_ratios'][getters], \
-               data['stack_buffer']['root'][getters],\
+        return (form_indices,
+                dep_types,
+                head_indices,
+                pos,
+                ci,
+                ci_lengths,
+                cei,
+                cei_lengths,
+                batch_ind,
+                data['stack_buffer']['ner'][getters],
+                data['stack_buffer']['height'][getters],
+                data['stack_buffer']['in'][getters],
+                data['stack_buffer']['out'][getters],
+                history_features,
+                batch_elmo,
+                data['sentence_lengths'].value[ids],
+                history_lengths,
+                data['action_counts'][getters],
+                data['action_ratios'][getters],
+                data['node_ratios'][getters],
+                data['stack_buffer']['root'][getters]), \
                data['labels'][getters]
 
     with h5py.File(data_path, 'r') as data:
