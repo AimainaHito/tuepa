@@ -210,7 +210,7 @@ class PassageParser(AbstractParser):
                     child_indices[n,k] = c[0]
                     child_edge_types[n,k] = c[1]
 
-            elmo = self.state.passage.elmo[0]
+            elmo = self.state.passage.elmo[0]#, [1, 0, 2])
             sent_length = len(elmo)
             #print(history_features)
             features = {
@@ -370,7 +370,6 @@ class ElmoFeatureBatch:
         elmo_features = np.zeros((self.batch_size, self.max_lengths['elmo'], 1024), np.float32)
         for i, feature_array in enumerate(self._features['elmo']):
             elmo_features[i][:len(feature_array)] = feature_array
-
         self._features['elmo'] = elmo_features
         self._finalized = True
 

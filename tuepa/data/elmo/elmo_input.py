@@ -40,7 +40,7 @@ def get_elmo_input_fn(data_path, train_or_eval, args, train):
              tf.TensorShape([]),# node ratio
              data['stack_buffer']['form_indices'][0].shape,), # root
             tf.TensorShape([]))  # labels
-    q = multiprocessing.Queue(maxsize=4)
+    q = multiprocessing.Queue(maxsize=25)
     p = multiprocessing.Process(target=h5py_worker, args=(data_path, q, args))
     p.daemon = True
     p.start()
@@ -87,9 +87,9 @@ def h5py_worker(data_path, queue, args):
     def prepare(data):
         state2pid = np.array(data['state2sent_index'])
 
-        index = random.randint(0, len(state2pid)-(args.batch_size*2))
+        index = random.randint(0, len(state2pid)-(args.batch_size*1))
 
-        getters = list(range(index, min((index + 1) + args.batch_size * 2, len(state2pid))))
+        getters = list(range(index, min((index + 1) + args.batch_size * 1, len(state2pid))))
         ids = state2pid[getters]
 
         # for each input chunk cache elmo
@@ -100,7 +100,7 @@ def h5py_worker(data_path, queue, args):
             if i in elmos:
                 batch_elmo.append(elmos[i])
             else:
-                res = data['elmo'][str(i).encode("UTF-8")].value
+                res = data['elmo'][str(i).encode("UTF-8")].value[2]#, [1, 0, 2])
                 elmos[i] = res
                 batch_elmo.append(elmos[i])
 

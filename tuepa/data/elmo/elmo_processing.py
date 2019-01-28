@@ -400,7 +400,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
         f.create_dataset('labels', data=np.array(labels))
 
         elmo = f.create_group('elmo')
-        contextualized_embeddings = embedder.sents2elmo(passage_id2sent)
+        contextualized_embeddings = embedder.sents2elmo(passage_id2sent,[0,1,2])
 
         for n, emb in enumerate(contextualized_embeddings):
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
