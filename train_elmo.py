@@ -14,8 +14,8 @@ from tuepa.data.elmo.elmo_input import h5py_worker
 import numpy as np
 import tuepa.progress as progress
 
-def train(args, label_numberer, ner_numberer):
 
+def train(args):
     train_q = multiprocessing.Queue(maxsize=5)
     val_q = multiprocessing.Queue(maxsize=5)
     train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args))
@@ -28,17 +28,17 @@ def train(args, label_numberer, ner_numberer):
     with tf.Session() as sess:
         with tf.variable_scope('model', reuse=False):
             m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
-                        num_ner=ner_numberer.max, train=True, predict=False)
+                        num_ner=args.num_ner, train=True, predict=False)
         with tf.variable_scope("model", reuse=True):
             v = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
-                        num_ner=ner_numberer.max, train=False, predict=False)
+                        num_ner=args.num_ner, train=False, predict=False)
 
             hooks = [SaverHook(
-                labels=label_numberer.num2value,
+                labels=args.label_list,
                 confusion_matrix_tensor_name='model_1/mean_iou/total_confusion_matrix',
                 summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
                 PerClassHook(
-                    labels=label_numberer.num2value,
+                    labels=args.label_list,
                     tensor_name='model_1/mean_accuracy/div_no_nan',
                     summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
             ]
@@ -101,11 +101,13 @@ def train(args, label_numberer, ner_numberer):
                 args.log_file
             )
 
-def train(args):
-    """
-    Runs the training of the elmo-rnn model.
-    :param args: namedtuple holding commandline arguments
-    """
+
+
+def main(args):
+    import tuepa.util.config as config
+    tf.logging.set_verbosity(tf.logging.INFO)
+    argument_parser = config.get_elmo_parser()
+    args = argument_parser.parse_args(args)
     model_args = load_args(args.save_dir)
     # Merge preprocess args with train args
     args = Namespace(**{**vars(model_args), **vars(args)})
@@ -128,17 +130,7 @@ def train(args):
     # save args for eval call
     save_args(args, args.save_dir)
 
-    train(args,
-                  label_numberer=label_numberer,
-                  ner_numberer=ner_numberer)
-
-
-def main(args):
-    import tuepa.util.config as config
-    tf.logging.set_verbosity(tf.logging.INFO)
-    argument_parser = config.get_elmo_parser()
-    args = argument_parser.parse_args(args)
-    train(args)
+    train(args=args)
 
 
 if __name__ == "__main__":
