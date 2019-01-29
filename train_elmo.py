@@ -46,6 +46,7 @@ def train(args):
                     tensor_name='model_1/mean_accuracy/div_no_nan',
                     summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
             ]
+        gs = tf.train.get_or_create_global_step()
         sess.run(tf.global_variables_initializer())
         sess.run(tf.local_variables_initializer())
 
@@ -66,11 +67,15 @@ def train(args):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
-                logits, loss, _, _, _, _, tm1, gs = sess.run(
-                    [m.logits, m.loss, m.accuracy, m.per_class, m.mean_iou, m.train_op, m.merge,
+                logits, loss, _, _, _, tm1, gs = sess.run(
+                    [m.logits, m.loss, m.per_class, m.mean_iou, m.train_op, m.merge,
                      tf.train.get_or_create_global_step()], feed_dict)
-                if tn % 10 == 0:
+                if tn != 0 and tn % 10 == 0:
                     fw.add_summary(tm1, gs)
+                    value = tf.Summary.Value(tag="train_acc",simple_value=train_ep_acc / tn)
+                    summary = tf.Summary(value=[value])
+                    fw.add_summary(summary,gs)
+                    fw.flush()
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
@@ -84,19 +89,23 @@ def train(args):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
-                logits, loss, mer, accuracy, maccurcy, mious, gs = sess.run(
-                    [v.logits, v.loss, v.merge, v.accuracy, v.per_class, v.mean_iou,
+                logits, loss, mer, maccurcy, mious, gs = sess.run(
+                    [v.logits, v.loss, v.merge, v.per_class, v.mean_iou,
                      tf.train.get_or_create_global_step()], feed_dict)
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
                 progress.print_network_progress("Validation", n, steps, loss.mean(), val_ep_loss / n, acc,
                                                 val_ep_accuracy / n)
-                if n % 10 == 0:
+                if n != 0 and n % 10 == 0:
+                    value = tf.Summary.Value(tag="val_acc",simple_value=val_ep_accuracy/n)
+                    summary = tf.Summary(value=[value])
                     fw.add_summary(mer, gs + n)
+                    fw.add_summary(summary, gs + n)
+                    fw.flush()
             for hook in hooks:
                 hook.end(sess)
-            fw.flush()
+
             save_name = "tuepa_{}.ckpt".format(gs)
             s = sv.save(sess, os.path.join(args.save_dir, "save_dir", save_name))
             tf.logging.info("Saved {}".format(s))
