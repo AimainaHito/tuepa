@@ -16,12 +16,12 @@ import tuepa.progress as progress
 
 
 def train(args):
-    train_q = multiprocessing.Queue(maxsize=5)
-    val_q = multiprocessing.Queue(maxsize=5)
+    train_q = multiprocessing.Queue(maxsize=25)
+    val_q = multiprocessing.Queue(maxsize=25)
     train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args))
     val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args))
     import h5py
-    with h5py.File(args.validation_path,"r") as f:
+    with h5py.File(args.validation_path, "r") as f:
         val_rows = len(f['labels'])
     train_p.daemon = True
     val_p.daemon = True
@@ -50,7 +50,7 @@ def train(args):
         sess.run(tf.local_variables_initializer())
 
         sv = tf.train.Saver()
-        cp = tf.train.latest_checkpoint(os.path.join(args.save_dir,"save_dir"))
+        cp = tf.train.latest_checkpoint(os.path.join(args.save_dir, "save_dir"))
         if cp:
             tf.logging.info("Restoring model from latest checkpoint: {}".format(cp))
             sv.restore(sess, cp)
@@ -62,50 +62,53 @@ def train(args):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
-            for tn in range(1,args.epoch_steps+1):
+            for tn in range(1, args.epoch_steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
-                logits, loss, _,_,_,_,tm1, gs = sess.run(
-                    [m.logits, m.loss,m.accuracy,m.per_class,m.mean_iou, m.train_op,m.merge, tf.train.get_or_create_global_step()], feed_dict)
-                fw.add_summary(tm1,gs)
+                logits, loss, _, _, _, _, tm1, gs = sess.run(
+                    [m.logits, m.loss, m.accuracy, m.per_class, m.mean_iou, m.train_op, m.merge,
+                     tf.train.get_or_create_global_step()], feed_dict)
+                if tn % 10 == 0:
+                    fw.add_summary(tm1, gs)
                 train_ep_loss += loss.mean()
-                acc = np.equal(np.argmax(logits,-1),labels).mean()
+                acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
-                progress.print_network_progress("Training", tn,args.epoch_steps,loss.mean(),train_ep_loss/tn,acc,train_ep_acc/tn )
-
-
-            print(np.mean(train_ep_loss))
+                progress.print_network_progress("Training", tn, args.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
+                                                train_ep_acc / tn)
 
             val_ep_loss = 0
             val_ep_accuracy = 0
-            steps = min(args.epoch_steps,val_rows // args.batch_size)
-            for n in range(1,steps+1):
+            steps = min(args.epoch_steps, val_rows // args.batch_size)
+            for n in range(1, steps + 1):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
                 logits, loss, mer, accuracy, maccurcy, mious, gs = sess.run(
-                    [v.logits, v.loss, v.merge, v.accuracy, v.per_class, v.mean_iou, tf.train.get_or_create_global_step()], feed_dict)
+                    [v.logits, v.loss, v.merge, v.accuracy, v.per_class, v.mean_iou,
+                     tf.train.get_or_create_global_step()], feed_dict)
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
-                progress.print_network_progress("Validation", n, steps, loss.mean(), val_ep_loss/n, acc, val_ep_accuracy/n)
-            fw.add_summary(mer, gs)
+                progress.print_network_progress("Validation", n, steps, loss.mean(), val_ep_loss / n, acc,
+                                                val_ep_accuracy / n)
+                if n % 10 == 0:
+                    fw.add_summary(mer, gs + n)
             for hook in hooks:
                 hook.end(sess)
+            fw.flush()
             save_name = "tuepa_{}.ckpt".format(gs)
-            s = sv.save(sess, os.path.join(args.save_dir,"save_dir", save_name))
+            s = sv.save(sess, os.path.join(args.save_dir, "save_dir", save_name))
             tf.logging.info("Saved {}".format(s))
             progress.print_iteration_info(
                 iteration,
                 train_ep_loss,
-                train_ep_acc/tn,
+                train_ep_acc / tn,
                 val_ep_loss,
-                val_ep_accuracy/n,
+                val_ep_accuracy / n,
                 start_time,
                 args.log_file
             )
-
 
 
 def main(args):

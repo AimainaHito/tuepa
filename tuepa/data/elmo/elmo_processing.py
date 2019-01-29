@@ -56,10 +56,10 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             child_indices = []
             for e in node:
                 if e.child.text:
-                    child_indices.append((e.child.index, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
+                    child_indices.append((e.child.index+1, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
                 else:
                     for t in e.child.terminals:
-                        child_indices.append((t.index, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
+                        child_indices.append((t.index + 1, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
 #            child_indices = [t.index + 1 for t in node.terminals]
             root = int(node.is_root)
 
@@ -290,7 +290,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
         max_act = -1
         max_in = -1
         max_out = -1
-
+        max_h = -1
         for ex_index, (stack_features, buffer_features) in enumerate(stack_and_buffer_features):
             if ex_index % write_chunk == 0 and not start:
                 cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))
@@ -312,6 +312,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
 
                 max_out = max(out_chunk.max(),max_out)
                 max_in = max(inc_chunk.max(),max_in)
+                max_h = max(height_chunk.max(), max_h)
                 max_act= max(action_count_chunk.max(), max_act)
 
                 form_chunk = np.zeros(shape=(write_chunk, max_stack_size + max_buffer_size), dtype=np.int32)
@@ -389,6 +390,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
             max_out = max(out_chunk.max(), max_out)
             max_in = max(inc_chunk.max(), max_in)
             max_act = max(action_count_chunk.max(), max_act)
+            max_h = max(height_chunk.max(), max_h)
             print("Done with {} of {}".format(chunk_no, num_examples // write_chunk))
 
         f.create_dataset('history_lengths', data=np.array(history_lengths))
@@ -413,5 +415,5 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
             elmo.create_dataset('{}'.format(n), data=emb, compression="gzip")
         torch.cuda.empty_cache()
 
-    return shapes, (max_in,max_out,max_act)
+    return shapes, (max_in,max_out,max_act,max_h)
 

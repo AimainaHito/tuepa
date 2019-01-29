@@ -115,7 +115,7 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("-hist-rnn", "--history-rnn-neurons", type=int, default=512,
                                  help="Neurons in the history rnn.")
     elmo_rnn_parser.add_argument("-l", "--layers",
-                                 default='[{"neurons" : 512, "activation" : "relu", "updown" : 0}]',
+                                 default='[{"neurons" : 1024, "activation" : "relu", "updown" : 0}]',
                                  help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}]')
     elmo_rnn_parser.add_argument("--input-dropout", type=float, default=1,
                                  help="Dropout keep probability applied on the NN input")

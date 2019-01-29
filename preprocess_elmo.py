@@ -47,10 +47,10 @@ def preprocess(args):
     args.num_ner = ner_numberer.max
 
     print("...starting to write training features", )
-    training_shapes, (max_in,max_out,max_act) = specific_elmo(training_data, elmo_embedder, args, train=True)
+    training_shapes, (max_in,max_out,max_act,max_height) = specific_elmo(training_data, elmo_embedder, args, train=True)
 
     print("finished writing training data..", )
-    args.num_num = (max_in,max_out,max_act)
+    args.num_num = (max_in,max_out,max_act,max_height)
     # Preprocess validation set
     print("starting to process validation data..", )
     try:

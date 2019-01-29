@@ -82,74 +82,35 @@ class FFModel(BaseModel):
         return sum(x_ent.numpy()), accuracy
 
 
+def get_timing_signal_1d(positions,
+                         channels,
+                         min_timescale=1.0,
+                         max_timescale=1.0e4,
+                         start_index=1):
+    """
+    Taken from tensor2tensor git repository,slightly modified.
+    """
+    import math
+    position = tf.to_float(positions + start_index)
+    num_timescales = channels // 2
+    log_timescale_increment = (
+            math.log(float(max_timescale) / float(min_timescale)) /
+            tf.maximum(tf.to_float(num_timescales) - 1, 1))
+    inv_timescales = min_timescale * tf.exp(
+        tf.to_float(tf.range(num_timescales)) * -log_timescale_increment)
+    scaled_time = tf.expand_dims(position, -1) * inv_timescales
+    signal = tf.concat([tf.sin(scaled_time), tf.cos(scaled_time)], axis=-1)
+    return signal
+
+
 class ElModel(BaseModel):
     def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False):
         super().__init__()
         self.args = args
 
-        self.history_embeddings = tf.get_variable(
-            name="embeddings",
-            shape=[num_labels, args.history_embedding_size],
-            dtype=tf.float32
-        )
-
-        self.pos_embeddings = tf.get_variable(
-            name="pos_embeddings",
-            shape=[num_pos, args.embedding_size],
-            dtype=tf.float32
-        )
-
-        self.dep_embeddings = tf.get_variable(
-            name="dep_embeddings",
-            shape=[num_dependencies, args.embedding_size],
-            dtype=tf.float32
-        )
-
-        self.ner_embeddings = tf.get_variable(
-            name="ner_embeddings",
-            shape=[num_ner, args.embedding_size],
-            dtype=tf.float32
-        )
-
-        self.edge_embeddings = tf.get_variable(name="edge_embeddings", shape=[args.num_edges, args.embedding_size],
-                                               dtype=tf.float32)
-
-        if self.args.numbers == "embed":
-            self.number_embeddings = tf.get_variable(
-                name="numbers",
-                shape=[args.num_num, max(self.args.embedding_size // 5, 10)],
-                dtype=tf.float32)
-
-        self.softmax_w = tf.get_variable("elmo_weight", dtype=tf.float32, trainable=True,
-                                         initializer=[[[1.], [1.], [1.]]])
-        self.elmo_scale = tf.get_variable("elmo_scale", initializer=1., dtype=tf.float32, trainable=True)
-
-        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, 1024],
-                                                      dtype=tf.float32)
-        self.padding_embedding = tf.get_variable(
-            "padding", shape=[1, 1, 1024], dtype=tf.float32)
-        self.cls = tf.get_variable("cls", shape=[1, 1, 1024], dtype=tf.float32)
-        self.self_attention_encoder = onmt.encoders.SelfAttentionEncoder(3, 1024)
-        # history rnn
-        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons,
-                                           activation=tf.nn.relu)  # tf.keras.layers.LSTM(args.history_rnn_neurons, return_sequences=True)
-
-        # dense layers
-        self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
-
-        self.downsampling_layer = tf.layers.Dense(
-            self.feed_forward_layers[0].input_size if isinstance(self.feed_forward_layers[0], UpDownWithResiduals) else
-            self.feed_forward_layers[0].units, use_bias=False)
-
-        self.child_processing_layers = [tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)]
-
-        self.projection_layer = tf.layers.Dense(
-            num_labels, use_bias=False, activation=None)
-
-        self.input_dropout = args.input_dropout
-        self.layer_dropout = args.layer_dropout
-
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
+
+        # Inputs
         self.num_feature_tokens = feature_tokens
         self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
         self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
@@ -177,40 +138,98 @@ class ElModel(BaseModel):
         if not predict:
             self.labels = tf.placeholder(name="labels", shape=[None], dtype=tf.int32)
 
+        # Embeddings
+        self.history_embeddings = tf.get_variable(
+            name="embeddings",
+            shape=[num_labels, args.history_embedding_size],
+            dtype=tf.float32
+        )
+
+        self.pos_embeddings = tf.get_variable(
+            name="pos_embeddings",
+            shape=[num_pos, args.embedding_size],
+            dtype=tf.float32
+        )
+
+        self.dep_embeddings = tf.get_variable(
+            name="dep_embeddings",
+            shape=[num_dependencies, args.embedding_size],
+            dtype=tf.float32
+        )
+
+        self.ner_embeddings = tf.get_variable(
+            name="ner_embeddings",
+            shape=[num_ner, args.embedding_size],
+            dtype=tf.float32
+        )
+
+        self.edge_embeddings = tf.get_variable(
+            name="edge_embeddings",
+            shape=[args.num_edges, args.embedding_size],
+            dtype=tf.float32)
+
+        self.action_count_embeddings = tf.get_variable(
+            name="ac_count",
+            shape=[1, num_labels, max(self.args.embedding_size // 5, 10)],
+            dtype=tf.float32)
+
+        self.height_embeddings = tf.get_variable(
+            name="height",
+            shape=[1, feature_tokens, max(self.args.embedding_size // 5, 10)],
+            dtype=tf.float32)
+
+        self.incoming_embedding = tf.get_variable(
+            name="inc",
+            shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
+            dtype=tf.float32
+        )
+        self.out_embedding = tf.get_variable(
+            name="out",
+            shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
+            dtype=tf.float32
+        )
+        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, self.elmo.shape[-1]],
+                                                      dtype=tf.float32)
+        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, self.elmo.shape[-1]], dtype=tf.float32)
+
+        self.input_dropout = args.input_dropout
+        self.layer_dropout = args.layer_dropout
+
+        # Weights
+        self.elmo_scale = tf.get_variable("elmo_scale", initializer=1., dtype=tf.float32, trainable=True)
+        # history rnn
+        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu)
+        # dense layers
+        self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
+        self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)
+        self.projection_layer = tf.layers.Dense(num_labels,use_bias=False)
+        # Utility
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
+        conc = lambda x, y: tf.concat([x, y], -1)
 
-        if self.args.numbers == 'embed':
-            action_counts = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, self.action_counts), shape=[
-                batch_size, self.args.num_labels * self.number_embeddings.shape[1]])
-            inc = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, self.inc), shape=[
-                batch_size, feature_tokens * self.args.num_edges * self.number_embeddings.shape[1]])
-            out = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, self.out), shape=[
-                batch_size, feature_tokens * self.args.num_edges * self.number_embeddings.shape[1]])
-            height = tf.reshape(tf.nn.embedding_lookup(self.number_embeddings, self.height),
-                                [batch_size, feature_tokens * self.number_embeddings.shape[1]])
-        elif self.args.numbers == 'absolute':
-            action_counts = tf.to_float(tf.reshape(self.action_counts, shape=[batch_size, self.args.num_labels]))
-            inc = tf.to_float(tf.reshape(self.inc, shape=[batch_size, feature_tokens * self.args.num_edges]))
-            out = tf.to_float(tf.reshape(self.out, shape=[batch_size, feature_tokens * self.args.num_edges]))
-            height = tf.to_float(tf.reshape(self.height, [batch_size, feature_tokens]))
-        elif self.args.numbers == 'log':
-            action_counts = tf.log(
-                tf.to_float(tf.reshape(self.action_counts, shape=[batch_size, self.args.num_labels])) + 0.0001)
-            inc = tf.log(
-                tf.to_float(tf.reshape(self.inc, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
-            out = tf.log(
-                tf.to_float(tf.reshape(self.out, shape=[batch_size, feature_tokens * self.args.num_edges])) + 0.0001)
-            height = tf.log(tf.to_float(tf.reshape(self.height, [batch_size, feature_tokens])) + 0.0001)
+        action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
+        action_counts = conc(action_counts,
+                             get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
+        inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
+        inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
+        out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
+        out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
+        height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
+        height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
 
-        elmo = self.elmo * self.elmo_scale
-        history_rnn_state = self.apply_history_rnn(batch_indices, self.history)
-
+        action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
+        inc = tf.reshape(inc, [batch_size, feature_tokens * self.args.num_edges * 10 * 2])
+        out = tf.reshape(out, [batch_size, feature_tokens * self.args.num_edges * 10 * 2])
+        height = tf.reshape(height, [batch_size, feature_tokens * 10 * 2])
+        switch = lambda x: tf.transpose(x,[1,0,2])
+        # elmo, state = self.elmo_lstm(inputs=switch(self.elmo * self.elmo_scale),sequence_lengths=self.sentence_lengths)
+        # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
         top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
-             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), elmo],
+             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), self.elmo * self.elmo_scale],
             1)
 
         # extract embeddings for stack + buffer tokens
@@ -223,25 +242,22 @@ class ElModel(BaseModel):
                                                 second_d=self.head_indices,
                                                 batch_size=batch_size,
                                                 n=feature_tokens, t=top_rnn_output)
+        child_features = self.extract_node_children(batch_size, self.child_indices, feature_tokens,
+                                                    top_rnn_output, child_ids=self.child_ids,
+                                                    segment_ids=self.batch_ind)
 
         pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
         dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
 
-        features = tf.concat(
-            [form_features, pos_features, dep_features, ner_features], axis=-1)
+        features = tf.concat([form_features, head_features, pos_features, dep_features, ner_features],
+                             axis=-1)
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
 
-        feature_vec = tf.concat([history_rnn_state, feedforward_input,
-                                 tf.reshape(head_features, [batch_size, feature_tokens * head_features.shape[-1]]),
-                                 height, inc, out, action_counts, tf.expand_dims(self.action_ratios, -1),
+        history_rnn_state = self.apply_history_rnn(batch_indices, self.history)
+        feature_vec = tf.concat([child_features, history_rnn_state, feedforward_input, height, inc, out, action_counts,
+                                 tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1), tf.to_float(self.root)], -1)
-
-        rep = self.extract_node_children( batch_size, self.child_indices + 1, feature_tokens,
-                                         top_rnn_output, child_ids=self.child_ids, edge_ids=self.child_edge_ids,
-                                         bind=self.batch_ind, train=train)
-
-        feature_vec = tf.concat([feature_vec, rep], -1)
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
@@ -254,13 +270,14 @@ class ElModel(BaseModel):
         self.logits = self.projection_layer(feature_vec)
         self.predictions = tf.argmax(self.logits, -1)
         if not predict:
-
-            self.loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(labels=self.labels, logits=self.logits))
+            self.loss = tf.reduce_mean(
+                tf.nn.sparse_softmax_cross_entropy_with_logits(labels=self.labels, logits=self.logits))
             l = tf.summary.scalar("loss", tf.reduce_mean(self.loss), family="train" if train else "eval_validation")
 
             vacc, self.accuracy = tf.metrics.accuracy(self.labels, self.predictions)
 
-            mpc, self.per_class = tf.metrics.mean_per_class_accuracy(self.labels, self.predictions, self.args.num_labels)
+            mpc, self.per_class = tf.metrics.mean_per_class_accuracy(self.labels, self.predictions,
+                                                                     self.args.num_labels)
             _, self.mean_iou = tf.metrics.mean_iou(self.labels, self.predictions, self.args.num_labels)
             mean_acc_scalar = tf.summary.scalar("mean_acc", mpc, family="train" if train else "eval_validation")
 
@@ -271,12 +288,12 @@ class ElModel(BaseModel):
             self.lr = tf.Variable(args.learning_rate, name="learning_rate")
             self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
-            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 6)
+            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 3.5)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
             self.train_op = self.optimizer.apply_gradients(zip(clipped_gradients, variables),
                                                            global_step=tf.train.get_or_create_global_step())
 
-            self.merge = tf.summary.merge([l,mean_acc_scalar,acc_scalar,self.gradient_scalar])
+            self.merge = tf.summary.merge([l, mean_acc_scalar, acc_scalar, self.gradient_scalar])
 
     @property
     def inpts(self):
@@ -304,17 +321,20 @@ class ElModel(BaseModel):
             self.root,
         )
 
-    def extract_node_children(self, batch_size, child_indices, feature_tokens, top_rnn_output, child_ids,
-                              edge_ids, bind, train=False):
+    def extract_node_children(self, batch_size, child_indices, feature_tokens, top_rnn_output, child_ids, segment_ids):
+        cids = tf.to_int64(child_indices)
         with tf.control_dependencies([tf.assert_less(child_indices, tf.shape(top_rnn_output)[1]),
                                       tf.assert_greater_equal(child_indices, 0)]):
-            cids = tf.to_int64(child_indices)
-            first_dim = tf.to_int64(bind)
+            first_dim = tf.to_int64(segment_ids)
             second_dim = cids
             selector = tf.concat([tf.expand_dims(first_dim, -1), tf.expand_dims(second_dim, 1)], -1)
             rep = tf.gather_nd(top_rnn_output, selector)
+
+            encoding = get_timing_signal_1d(cids, top_rnn_output.shape[-1])
+            rep += encoding
+
             child_types = tf.nn.embedding_lookup(self.edge_embeddings, self.child_edge_types)
-            child_resh = self.child_processing_layers[0](tf.concat((rep, child_types), -1))
+            child_resh = self.child_processing_layers(tf.concat((rep, child_types), -1))
             child_resh = tf.RaggedTensor.from_row_lengths(child_resh, tf.to_int64(child_ids)).to_tensor()
 
             reduced = tf.reduce_max(child_resh, axis=1)
