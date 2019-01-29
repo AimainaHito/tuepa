@@ -29,30 +29,33 @@ class PredictionWrapper():
 
         with self.session.graph.as_default():
             # [Variable and model creation goes here.]
-            self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner)
-            self.logits = self.model(None, train=False, eval=True)
+            self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True)
+            self.logits = self.model.logits
             self.saver = tf.train.Saver()
             self.predictions = tf.argmax(self.logits, -1)
             self.saver.restore(self.session, tf.train.latest_checkpoint(self.args.model_dir))
         (
-                self.form_indices,
-                self.dep_types,
-                self.head_indices,
-                self.pos,
-                self.child_indices,
-                self.child_edge_types,
-                self.ner,
-                self.height,
-                self.inc,
-                self.out,
-                self.history,
-                self.elmo,
-                self.sentence_lengths,
-                self.history_lengths,
-                self.action_counts,
-                self.action_ratios,
-                self.node_ratios,
-                self.root,
+            self.form_indices,
+            self.dep_types,
+            self.head_indices,
+            self.pos,
+            self.child_indices,
+            self.child_ids,
+            self.child_edge_types,
+            self.child_edge_ids,
+            self.batch_ind,
+            self.ner,
+            self.height,
+            self.inc,
+            self.out,
+            self.history,
+            self.elmo,
+            self.sentence_lengths,
+            self.history_lengths,
+            self.action_counts,
+            self.action_ratios,
+            self.node_ratios,
+            self.root,
             ) = self.model.inpts
         self.num_feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
 
@@ -62,6 +65,9 @@ class PredictionWrapper():
             self.dep_types:features['deps'],
             self.pos:features['pos'],
             self.child_indices:features['child_indices'],
+            self.child_ids:features['child_ids'],
+            self.batch_ind:features['child_batch_ids'],
+            self.child_edge_ids:features['child_edge_ids'],
             self.child_edge_types:features['child_edge_types'],
             self.ner:features['ner'],
             self.head_indices:features['heads'],

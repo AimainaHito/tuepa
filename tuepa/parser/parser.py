@@ -203,10 +203,10 @@ class PassageParser(AbstractParser):
                 for edge_id in item:
                     out[index, edge_id] += 1
 
-            child_indices = np.zeros((max_buffer_size+max_stack_size,60),dtype=np.int32)
-            child_edge_types = np.zeros((max_buffer_size+max_stack_size,60),dtype=np.int32)
+            child_indices = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
+            child_edge_types = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
             for n,child in enumerate(children):
-                for k, c in enumerate(child[:60]):
+                for k, c in enumerate(child):
                     child_indices[n,k] = c[0]
                     child_edge_types[n,k] = c[1]
 
@@ -318,7 +318,7 @@ class PassageParser(AbstractParser):
 
 class ElmoFeatureBatch:
 
-    def __init__(self, batch_size, num_feature_tokens, num_edges, num_labels):
+    def __init__(self, batch_size, num_feature_tokens, num_edges, num_labels, args):
         self._finalized = False
         self.index = 0
         self.batch_size = batch_size
@@ -332,8 +332,8 @@ class ElmoFeatureBatch:
             'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'ner':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
-            'child_indices': np.zeros((batch_size, num_feature_tokens,60), dtype=np.int32),
-            'child_edge_types': np.zeros((batch_size, num_feature_tokens,60), dtype=np.int32),
+            'child_indices': np.zeros((batch_size, num_feature_tokens,args.shapes.max_children), dtype=np.int32),
+            'child_edge_types': np.zeros((batch_size, num_feature_tokens,args.shapes.max_children), dtype=np.int32),
             'heads':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'height': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'inc' : np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),
@@ -371,6 +371,14 @@ class ElmoFeatureBatch:
         for i, feature_array in enumerate(self._features['elmo']):
             elmo_features[i][:len(feature_array)] = feature_array
         self._features['elmo'] = elmo_features
+
+        ci = self._features['child_indices']
+        self._features['child_batch_ids'] = np.argwhere(ci).T[0]
+        self._features['child_ids'] = np.count_nonzero(ci.reshape((-1, ci.shape[-1])), axis=1)
+        self._features['child_indices'] = ci[ci > 0]
+        cei = self._features['child_edge_types']
+        self._features['child_edge_ids'] = np.count_nonzero(cei.reshape((-1, cei.shape[-1])), axis=1)
+        self._features['child_edge_types'] = cei[cei > 0]
         self._finalized = True
 
     @property
@@ -388,6 +396,7 @@ class BatchParser(AbstractParser):
         super().__init__(args=args, models=models, evaluation=evaluate, **kwargs)
         self.batch_size = args.parser_batch_size
         self.elmo = Embedder(args.elmo_path, batch_size=1)
+        self.args = args
         if args.warm_up:
             with open(args.warm_up) as f:
                 self.elmo.sents2elmo(map(lambda x: x.split(), filter(lambda x: len(x) < 100, f.readlines())))
@@ -405,7 +414,8 @@ class BatchParser(AbstractParser):
             min(self.batch_size, len(self.parser_batch) + (len(self.passages) - self.passage_index)),
             self.models[0].num_feature_tokens,
             self.args.num_edges,
-            self.args.num_labels
+            self.args.num_labels,
+            args=self.args
         )
 
         current_parsers = self.parser_batch
