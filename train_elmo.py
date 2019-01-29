@@ -20,12 +20,16 @@ def train(args):
     val_q = multiprocessing.Queue(maxsize=5)
     train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args))
     val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args))
+    import h5py
+    with h5py.File(args.validation_path,"r") as f:
+        val_rows = len(f['labels'])
     train_p.daemon = True
     val_p.daemon = True
     train_p.start()
     val_p.start()
-
-    with tf.Session() as sess:
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth = True
+    with tf.Session(config=config) as sess:
         with tf.variable_scope('model', reuse=False):
             m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=True, predict=False)
@@ -54,11 +58,11 @@ def train(args):
         train_inputs = m.inpts
         val_inputs = v.inpts
         fw = tf.summary.FileWriter(logdir=os.path.join(args.save_dir, "log_dir"), graph=sess.graph)
-        for iteration in range(10000):
+        for iteration in range(100000):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
-            for n in range(1,args.epoch_steps+1):
+            for tn in range(1,args.epoch_steps+1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
@@ -68,14 +72,15 @@ def train(args):
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits,-1),labels).mean()
                 train_ep_acc += acc
-                progress.print_network_progress("Training", n,args.epoch_steps,loss.mean(),train_ep_loss/n,acc,train_ep_acc/n )
+                progress.print_network_progress("Training", tn,args.epoch_steps,loss.mean(),train_ep_loss/tn,acc,train_ep_acc/tn )
 
 
             print(np.mean(train_ep_loss))
 
             val_ep_loss = 0
             val_ep_accuracy = 0
-            for n in range(1,args.epoch_steps+1):
+            steps = min(args.epoch_steps,val_rows // args.batch_size)
+            for n in range(1,steps+1):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
@@ -84,7 +89,7 @@ def train(args):
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
-                progress.print_network_progress("Validation", n, args.epoch_steps, loss.mean(), val_ep_loss/n, acc, val_ep_accuracy/n)
+                progress.print_network_progress("Validation", n, steps, loss.mean(), val_ep_loss/n, acc, val_ep_accuracy/n)
             fw.add_summary(mer, gs)
             for hook in hooks:
                 hook.end(sess)
@@ -94,7 +99,7 @@ def train(args):
             progress.print_iteration_info(
                 iteration,
                 train_ep_loss,
-                train_ep_acc/n,
+                train_ep_acc/tn,
                 val_ep_loss,
                 val_ep_accuracy/n,
                 start_time,

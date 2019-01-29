@@ -76,7 +76,7 @@ def print_iteration_info(iteration_index, train_losses, train_accuracy, validati
     print_function = print if file is None else lambda x: file.write(x + "\n")
 
     print_function(
-        "| Epoch {} | Training loss: {:.2f}, accuracy: {:.2%} | Validation loss: {:.2f}, accuracy: {:.2%} | Δt: {:.1f}s".format(
+        "| Epoch {} | Training loss: {:.3f}, accuracy: {:.3%} | Validation loss: {:.3f}, accuracy: {:.3%} | Δt: {:.1f}s".format(
             iteration_index,
             train_losses,
             train_accuracy,

@@ -117,7 +117,7 @@ class ElModel(BaseModel):
         if self.args.numbers == "embed":
             self.number_embeddings = tf.get_variable(
                 name="numbers",
-                shape=[args.num_num[0], max(self.args.embedding_size // 5, 10)],
+                shape=[args.num_num, max(self.args.embedding_size // 5, 10)],
                 dtype=tf.float32)
 
         self.softmax_w = tf.get_variable("elmo_weight", dtype=tf.float32, trainable=True,
@@ -271,7 +271,7 @@ class ElModel(BaseModel):
             self.lr = tf.Variable(args.learning_rate, name="learning_rate")
             self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
-            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 9999)
+            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 6)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
             self.train_op = self.optimizer.apply_gradients(zip(clipped_gradients, variables),
                                                            global_step=tf.train.get_or_create_global_step())
