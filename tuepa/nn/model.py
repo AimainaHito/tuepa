@@ -100,7 +100,7 @@ def get_timing_signal_1d(positions,
         tf.to_float(tf.range(num_timescales)) * -log_timescale_increment)
     scaled_time = tf.expand_dims(position, -1) * inv_timescales
     signal = tf.concat([tf.sin(scaled_time), tf.cos(scaled_time)], axis=-1)
-    return signal
+    return tf.to_float16(signal)
 
 
 class ElModel(BaseModel):
@@ -125,7 +125,7 @@ class ElModel(BaseModel):
         self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
         self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
         self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.float16)
         self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
         self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
         self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
@@ -142,55 +142,55 @@ class ElModel(BaseModel):
         self.history_embeddings = tf.get_variable(
             name="embeddings",
             shape=[num_labels, args.history_embedding_size],
-            dtype=tf.float32
+            dtype=tf.float16
         )
 
         self.pos_embeddings = tf.get_variable(
             name="pos_embeddings",
             shape=[num_pos, args.embedding_size],
-            dtype=tf.float32
+            dtype=tf.float16
         )
 
         self.dep_embeddings = tf.get_variable(
             name="dep_embeddings",
             shape=[num_dependencies, args.embedding_size],
-            dtype=tf.float32
+            dtype=tf.float16
         )
 
         self.ner_embeddings = tf.get_variable(
             name="ner_embeddings",
             shape=[num_ner, args.embedding_size],
-            dtype=tf.float32
+            dtype=tf.float16
         )
 
         self.edge_embeddings = tf.get_variable(
             name="edge_embeddings",
             shape=[args.num_edges, args.embedding_size],
-            dtype=tf.float32)
+            dtype=tf.float16)
 
         self.action_count_embeddings = tf.get_variable(
             name="ac_count",
             shape=[1, num_labels, max(self.args.embedding_size // 5, 10)],
-            dtype=tf.float32)
+            dtype=tf.float16)
 
         self.height_embeddings = tf.get_variable(
             name="height",
             shape=[1, feature_tokens, max(self.args.embedding_size // 5, 10)],
-            dtype=tf.float32)
+            dtype=tf.float16)
 
         self.incoming_embedding = tf.get_variable(
             name="inc",
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
-            dtype=tf.float32
+            dtype=tf.float16
         )
         self.out_embedding = tf.get_variable(
             name="out",
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
-            dtype=tf.float32
+            dtype=tf.float16
         )
         self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, self.elmo.shape[-1]],
-                                                      dtype=tf.float32)
-        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, self.elmo.shape[-1]], dtype=tf.float32)
+                                                      dtype=tf.float16)
+        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, self.elmo.shape[-1]], dtype=tf.float16)
 
         self.input_dropout = args.input_dropout
         self.layer_dropout = args.layer_dropout
@@ -199,11 +199,11 @@ class ElModel(BaseModel):
         # self.elmo_weights = tf.get_variable("weights_scale", initializer=[[[[0.5],[0.5],[0.5]]]], dtype=tf.float32)
         # self.elmo_scale = tf.get_variable("elmo_scale", initializer=1., dtype=tf.float32)
         # elmo = tf.reduce_sum(self.elmo * tf.nn.softmax(self.elmo_weights), axis=-2)
-        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu)
+        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu, dtype=tf.float16)
         # dense layers
         self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
-        self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)
-        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False)
+        self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu, dtype=tf.float16)
+        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, dtype=tf.float16)
         # Utility
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
@@ -227,9 +227,13 @@ class ElModel(BaseModel):
         # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
+        with tf.variable_scope("self_attention", dtype=tf.float16):
+            enc = onmt.encoders.SelfAttentionEncoder(3,1024)
+            (outputs, state, sequence_length) = enc.encode(self.elmo,self.sentence_lengths,mode=tf.estimator.ModeKeys.TRAIN if train else None)
+
         top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
-             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), self.elmo],
+             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), outputs],
             1)
 
         # extract embeddings for stack + buffer tokens
