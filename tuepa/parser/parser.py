@@ -144,8 +144,9 @@ class PassageParser(AbstractParser):
             ner_numberer=self.args.prediction_data.ner_numberer,
             train=False
         )
-        while len(history_features) < 10:
-            history_features.insert(0,0)
+
+        history_features_vector = np.zeros(3 * 10, dtype=np.int32)
+        history_features_vector[:len(history_features)] = history_features
         forms, deps, heads, pos, ner, incoming, outgoing, height, root, children = tuple(zip(*(stack_features + buffer_features)))
 
         actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
@@ -154,8 +155,8 @@ class PassageParser(AbstractParser):
 
         hist_len = len(history_features)
 
-        if not history_features:
-            history_features += [0]
+        #if not history_features:
+        #    history_features += [0]
 
         inc = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
         out = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
@@ -190,7 +191,7 @@ class PassageParser(AbstractParser):
             'out': out,
             'elmo': elmo,
             'sent_lens': sent_length,
-            'history': history_features,
+            'history': history_features_vector,
             'hist_lens': hist_len,
             'action_ratios':self.state.action_ratio(),
             'node_ratios': self.state.node_ratio(),
@@ -229,8 +230,8 @@ class PassageParser(AbstractParser):
     def finish(self, status="(finished)", display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
         # Unsquash singleton terminals for evaluation
-        if args.squash_singleton_terminals:
-            unsquash_terminals(passage)
+        if self.args.squash_singleton_terminals:
+            unsquash_terminals(self.out)
 
         if write:
             for out_format in self.args.formats or [self.out_format]:
