@@ -124,7 +124,7 @@ def train(args):
             per_class = tf.Summary.Value(tag="mean_per_class",simple_value=val_ep_mean_per_class/n)
             loss = tf.Summary.Value(tag="val_loss", simple_value=val_ep_loss / n)
             summary = tf.Summary(value=[value, per_class, loss])
-            fw.add_summary(summary, gs + n)
+            fw.add_summary(summary, gs)
             fw.flush()
 
 
