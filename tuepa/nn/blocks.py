@@ -63,7 +63,8 @@ def feed_forward_from_json(json_data):
             ) if layer.get('updown', False) else tf.layers.Dense(
                 layer["neurons"],
                 use_bias=layer.get("bias", True),
-                activation=ACTIVATION_FUNCTIONS.get(layer["activation"], None)
+                activation=ACTIVATION_FUNCTIONS.get(layer["activation"], None,),
+                dtype=tf.float16
             )
         )
 
