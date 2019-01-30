@@ -56,7 +56,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             child_indices = []
             for e in node:
                 if e.child.text:
-                    child_indices.append((e.child.index+1, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
+                    child_indices.append((e.child.index + 1, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))
                 else:
                     for t in e.child.terminals:
                         child_indices.append((t.index + 1, edge_numberer.number("{}-{}".format(e.tag, "remote" if e.remote else "primary"), train)))

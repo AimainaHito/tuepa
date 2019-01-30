@@ -5,6 +5,8 @@ import tensorflow as tf
 import numpy as np
 import json
 
+import opennmt as onmt
+
 
 class FFModel(BaseModel):
     def __init__(
@@ -192,7 +194,6 @@ class ElModel(BaseModel):
 
         self.input_dropout = args.input_dropout
         self.layer_dropout = args.layer_dropout
-        import opennmt as onmt
 
         # Weights
         # self.elmo_weights = tf.get_variable("weights_scale", initializer=[[[[0.5],[0.5],[0.5]]]], dtype=tf.float32)
@@ -223,7 +224,7 @@ class ElModel(BaseModel):
         # out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
         # height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
         # elmo, state = self.elmo_lstm(inputs=switch(self.elmo * self.elmo_scale),sequence_lengths=self.sentence_lengths)
-
+        # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
         top_rnn_output = tf.concat(
@@ -266,7 +267,7 @@ class ElModel(BaseModel):
              tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:
-            feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
+            feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
 
         for layer in self.feed_forward_layers:
             feature_vec = layer(feature_vec)
