@@ -260,10 +260,10 @@ class ElModel(BaseModel):
 
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
 
-        # history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
-        # history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
+        history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
+        history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, tf.expand_dims(self.action_ratios, -1),
+        feature_vec = tf.concat([history_input,feedforward_input, tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:
