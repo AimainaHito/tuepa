@@ -29,11 +29,12 @@ class PredictionWrapper():
 
         with self.session.graph.as_default():
             # [Variable and model creation goes here.]
-            self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True)
-            self.logits = self.model.logits
-            self.saver = tf.train.Saver()
-            self.predictions = tf.argmax(self.logits, -1)
-            self.saver.restore(self.session, tf.train.latest_checkpoint(self.args.model_dir))
+            with tf.variable_scope("model"):
+                self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True)
+                self.logits = self.model.logits
+                self.saver = tf.train.Saver()
+                self.predictions = tf.argmax(self.logits, -1)
+                self.saver.restore(self.session, tf.train.latest_checkpoint(os.path.join(self.args.model_dir,"save_dir")))
         (
             self.form_indices,
             self.dep_types,

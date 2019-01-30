@@ -207,7 +207,7 @@ class ElModel(BaseModel):
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
         conc = lambda x, y: tf.concat([x, y], -1)
-
+        num_depth = self.action_count_embeddings.shape[-1].value
         action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
         action_counts = conc(action_counts,
                              get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
@@ -218,10 +218,10 @@ class ElModel(BaseModel):
         height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
         height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
 
-        action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
-        inc = tf.reshape(inc, [batch_size, feature_tokens * self.args.num_edges * 10 * 2])
-        out = tf.reshape(out, [batch_size, feature_tokens * self.args.num_edges * 10 * 2])
-        height = tf.reshape(height, [batch_size, feature_tokens * 10 * 2])
+        action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * num_depth * 2])
+        inc = tf.reshape(inc, [batch_size, feature_tokens * self.args.num_edges * num_depth * 2])
+        out = tf.reshape(out, [batch_size, feature_tokens * self.args.num_edges * num_depth * 2])
+        height = tf.reshape(height, [batch_size, feature_tokens * num_depth * 2])
         switch = lambda x: tf.transpose(x,[1,0,2])
         # elmo, state = self.elmo_lstm(inputs=switch(self.elmo * self.elmo_scale),sequence_lengths=self.sentence_lengths)
         # elmo = switch(elmo)

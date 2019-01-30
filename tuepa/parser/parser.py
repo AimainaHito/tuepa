@@ -206,7 +206,8 @@ class PassageParser(AbstractParser):
             child_indices = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
             child_edge_types = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
             for n,child in enumerate(children):
-                for k, c in enumerate(child):
+                for k, c in enumerate(child[:self.args.shapes.max_children]):
+                    
                     child_indices[n,k] = c[0]
                     child_edge_types[n,k] = c[1]
 
@@ -444,7 +445,7 @@ class BatchParser(AbstractParser):
             for offset in range(batch_difference):
                 current_passage = self.passages[self.passage_index + offset]
                 current_passage.elmo = self.elmo.sents2elmo(
-                    [[str(n) for n in current_passage.layer("0").all]]
+                    [[str(n) for n in current_passage.layer("0").all]], 2
                 )
                 torch.cuda.empty_cache()
 
