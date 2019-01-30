@@ -100,7 +100,7 @@ def get_timing_signal_1d(positions,
         tf.to_float(tf.range(num_timescales)) * -log_timescale_increment)
     scaled_time = tf.expand_dims(position, -1) * inv_timescales
     signal = tf.concat([tf.sin(scaled_time), tf.cos(scaled_time)], axis=-1)
-    return tf.to_float16(signal)
+    return tf.cast(signal,tf.float16)
 
 
 class ElModel(BaseModel):
@@ -125,8 +125,8 @@ class ElModel(BaseModel):
         self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
         self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
         self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.float16)
-        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
+        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float16)
         self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
         self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
         self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
@@ -227,11 +227,10 @@ class ElModel(BaseModel):
         # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
-        with tf.variable_scope("self_attention", dtype=tf.float16):
+        with tf.variable_scope("selaf_att",dtype=tf.float16):
             enc = onmt.encoders.SelfAttentionEncoder(3,1024)
             (outputs, state, sequence_length) = enc.encode(self.elmo,self.sentence_lengths,mode=tf.estimator.ModeKeys.TRAIN if train else None)
-
-        top_rnn_output = tf.concat(
+            top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
              tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), outputs],
             1)
@@ -267,8 +266,8 @@ class ElModel(BaseModel):
         # history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
         # history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, tf.expand_dims(self.action_ratios, -1),
-             tf.expand_dims(self.node_ratios, -1)], -1)
+        feature_vec = tf.concat([feedforward_input, tf.expand_dims(tf.cast(self.action_ratios,tf.float16), -1),
+            tf.expand_dims(tf.cast(self.node_ratios, tf.float16), -1)], -1)
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
@@ -291,7 +290,7 @@ class ElModel(BaseModel):
             self.lr = tf.Variable(self.args.learning_rate, trainable=False, name="lr")
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
-            self.optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
+            self.optimizer = tf.train.AdamOptimizer(self.lr,epsilon=1e-4)  # tf.train.RMSPropOptimizer(self.lr)
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
             clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 3.5)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")

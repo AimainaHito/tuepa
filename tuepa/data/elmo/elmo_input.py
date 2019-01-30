@@ -40,7 +40,7 @@ def h5py_worker(data_path, queue, args, batch_size, eval=False):
             if i in elmos:
                 batch_elmo.append(elmos[i])
             else:
-                res = data['elmo'][str(i).encode("UTF-8")][()].mean(axis=0)
+                res = data['elmo'][str(i).encode("UTF-8")][()].mean(axis=0).astype('float16')
                 elmos[i] = res
                 batch_elmo.append(elmos[i])
 
@@ -50,7 +50,7 @@ def h5py_worker(data_path, queue, args, batch_size, eval=False):
         batch_elmo = [np.vstack([n, np.zeros(
             shape=[max_length - len(n),
                    n.shape[-1]],
-            dtype=np.float32)])
+            dtype=np.float16)])
                       for n in batch_elmo]
 
         form_indices = data['stack_buffer']['form_indices'][getters]
