@@ -103,6 +103,91 @@ def get_timing_signal_1d(positions,
     return tf.cast(signal,tf.float16)
 
 
+def clip_by_global_norm(t_list, clip_norm, use_norm=None, name=None):
+    """Clips values of multiple tensors by the ratio of the sum of their norms.
+
+    Given a tuple or list of tensors `t_list`, and a clipping ratio `clip_norm`,
+    this operation returns a list of clipped tensors `list_clipped`
+    and the global norm (`global_norm`) of all tensors in `t_list`. Optionally,
+    if you've already computed the global norm for `t_list`, you can specify
+    the global norm with `use_norm`.
+
+    To perform the clipping, the values `t_list[i]` are set to:
+
+        t_list[i] * clip_norm / max(global_norm, clip_norm)
+
+    where:
+
+        global_norm = sqrt(sum([l2norm(t)**2 for t in t_list]))
+
+    If `clip_norm > global_norm` then the entries in `t_list` remain as they are,
+    otherwise they're all shrunk by the global ratio.
+
+    Any of the entries of `t_list` that are of type `None` are ignored.
+
+    This is the correct way to perform gradient clipping (for example, see
+    [Pascanu et al., 2012](http://arxiv.org/abs/1211.5063)
+    ([pdf](http://arxiv.org/pdf/1211.5063.pdf))).
+
+    However, it is slower than `clip_by_norm()` because all the parameters must be
+    ready before the clipping operation can be performed.
+
+    Args:
+      t_list: A tuple or list of mixed `Tensors`, `IndexedSlices`, or None.
+      clip_norm: A 0-D (scalar) `Tensor` > 0. The clipping ratio.
+      use_norm: A 0-D (scalar) `Tensor` of type `float` (optional). The global
+        norm to use. If not provided, `global_norm()` is used to compute the norm.
+      name: A name for the operation (optional).
+
+    Returns:
+      list_clipped: A list of `Tensors` of the same type as `list_t`.
+      global_norm: A 0-D (scalar) `Tensor` representing the global norm.
+
+    Raises:
+      TypeError: If `t_list` is not a sequence.
+      InvalidArgumentError: If global norm is not finite.
+    """
+    import collections
+    import six
+    if (not isinstance(t_list, collections.Sequence)
+            or isinstance(t_list, six.string_types)):
+        raise TypeError("t_list should be a sequence")
+    t_list = list(t_list)
+    if use_norm is None:
+        use_norm = tf.global_norm(t_list, name)
+
+    with tf.name_scope(name, "clip_by_global_norm",
+                        t_list + [clip_norm]) as name:
+        # Calculate L2-norm, clip elements by ratio of clip_norm to L2-norm
+        scale = clip_norm * tf.minimum(
+            1.0 / use_norm,
+            tf.constant(1.0, dtype=use_norm.dtype) / clip_norm)
+
+        values = [
+            tf.convert_to_tensor(
+                t.values if isinstance(t, tf.IndexedSlices) else t,
+                name="t_%d" % i)
+            if t is not None else t
+            for i, t in enumerate(t_list)]
+
+        values_clipped = []
+        for i, v in enumerate(values):
+            if v is None:
+                values_clipped.append(None)
+            else:
+                with tf.colocate_with(v):
+                    values_clipped.append(
+                        tf.identity(v * scale, name="%s_%d" % (name, i)))
+
+        list_clipped = [
+            tf.IndexedSlices(c_v, t.indices, t.dense_shape)
+            if isinstance(t, tf.IndexedSlices)
+            else c_v
+            for (c_v, t) in zip(values_clipped, t_list)]
+
+    return list_clipped, use_norm
+
+
 class ElModel(BaseModel):
     def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False):
         super().__init__()
@@ -289,14 +374,15 @@ class ElModel(BaseModel):
             self.lr = tf.Variable(self.args.learning_rate, trainable=False, name="lr")
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
-            self.optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
-            loss_scale_manager = tf.contrib.mixed_precision.FixedLossScaleManager(5000)
-            self.optimizer = tf.contrib.mixed_precision.LossScaleOptimizer(self.optimizer, loss_scale_manager)
+            optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
+            loss_scale_manager = tf.contrib.mixed_precision.ExponentialUpdateLossScaleManager(2500,20,1,1.1,0.5)
+            self.optimizer = tf.contrib.mixed_precision.LossScaleOptimizer(optimizer, loss_scale_manager)
 
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
-            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 3.5)
+            ges = [tf.where(tf.is_nan(g),tf.ones_like(g),g) for g in gradients]
+            clipped_gradients, self.gradient_norm = clip_by_global_norm(ges, 30)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
-            self.train_op = self.optimizer.apply_gradients(list(zip(clipped_gradients, variables)),
+            self.train_op = self.optimizer.apply_gradients(list(zip(ges, variables)),
                                                            global_step=tf.train.get_or_create_global_step())
 
             self.merge = tf.summary.merge([self.gradient_scalar, lr_scalar])

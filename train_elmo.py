@@ -76,7 +76,7 @@ def train(args):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
-            for tn in range(1, steps + 1):
+            for tn in range(1, args.epoch_steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
@@ -86,7 +86,7 @@ def train(args):
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
-                progress.print_network_progress("Training", tn, steps, loss.mean(), train_ep_loss / tn, acc,
+                progress.print_network_progress("Training", tn, args.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
                                                 train_ep_acc / tn)
                 if tn != 0 and tn % 10 == 0:
                     fw.add_summary(tm1, gs)
