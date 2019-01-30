@@ -242,7 +242,7 @@ class ElModel(BaseModel):
                                                 second_d=self.head_indices,
                                                 batch_size=batch_size,
                                                 n=feature_tokens, t=top_rnn_output, lengths=self.sentence_lengths + 2)
-        child_features = self.extract_node_children(batch_size, self.child_indices + 1, feature_tokens,
+        child_features = self.extract_node_children(batch_size, self.child_indices, feature_tokens,
                                                     top_rnn_output, child_ids=self.child_ids,
                                                     segment_ids=self.batch_ind, lengths=self.sentence_lengths + 2)
 
