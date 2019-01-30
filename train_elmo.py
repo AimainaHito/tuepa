@@ -18,7 +18,6 @@ import tuepa.progress as progress
 def train(args):
 
     train_q = multiprocessing.Queue(maxsize=100)
-    h5py_worker(args.training_path, train_q, args, args.batch_size)
     val_q = multiprocessing.Queue(maxsize=50)
     train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.batch_size))
     val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True))

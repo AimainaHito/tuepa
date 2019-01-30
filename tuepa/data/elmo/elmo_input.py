@@ -54,7 +54,6 @@ def h5py_worker(data_path, queue, args, batch_size, eval=False):
                       for n in batch_elmo]
 
         form_indices = data['stack_buffer']['form_indices'][getters]
-        import IPython; IPython.embed()
         dep_types = data['stack_buffer']['dependencies'][getters]
         head_indices = data['stack_buffer']['head_indices'][getters]
         pos = data['stack_buffer']['pos'][getters]
