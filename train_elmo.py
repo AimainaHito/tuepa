@@ -61,7 +61,7 @@ def train(args):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
-            for tn in range(1, steps + 1):
+            for tn in range(1, args.epoch_steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
@@ -71,17 +71,17 @@ def train(args):
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
-                progress.print_network_progress("Training", tn, steps, loss.mean(), train_ep_loss / tn, acc,
+                progress.print_network_progress("Training", tn, args.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
                                                 train_ep_acc / tn)
                 if tn != 0 and tn % 10 == 0:
                     fw.add_summary(tm1, gs)
                     value = tf.Summary.Value(tag="train_acc",simple_value=train_ep_acc / tn)
                     loss = tf.Summary.Value(tag="train_loss", simple_value=train_ep_loss / tn)
                     summary = tf.Summary(value=[value,loss])
-                    fetched_timeline = timeline.Timeline(run_metadata.step_stats)
-                    chrome_trace = fetched_timeline.generate_chrome_trace_format()
-                    with open(os.path.join(args.save_dir,'log_dir/timeline_{}.json'.format(gs)), 'w') as f:
-                        f.write(chrome_trace)
+                    # fetched_timeline = timeline.Timeline(run_metadata.step_stats)
+                    # chrome_trace = fetched_timeline.generate_chrome_trace_format()
+                    # with open(os.path.join(args.save_dir,'log_dir/timeline_{}.json'.format(gs)), 'w') as f:
+                    #     f.write(chrome_trace)
                     fw.add_run_metadata(run_metadata,tag="train_meta_{}".format(gs),global_step=gs)
                     fw.add_summary(summary,gs)
                     fw.flush()
@@ -109,7 +109,7 @@ def train(args):
             per_class = tf.Summary.Value(tag="mean_per_class",simple_value=val_ep_mean_per_class/n)
             loss = tf.Summary.Value(tag="val_loss", simple_value=val_ep_loss / n)
             summary = tf.Summary(value=[value, per_class, loss])
-            fw.add_summary(summary, gs + n)
+            fw.add_summary(summary, gs)
             fw.flush()
 
 

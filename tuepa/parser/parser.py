@@ -374,12 +374,19 @@ class ElmoFeatureBatch:
         self._features['elmo'] = elmo_features
 
         ci = self._features['child_indices']
+        m = ci[:, :, 0] == 0
+        ci[:,:,0][m] = 1
+        nonz = ci != 0
         self._features['child_batch_ids'] = np.argwhere(ci).T[0]
         self._features['child_ids'] = np.count_nonzero(ci.reshape((-1, ci.shape[-1])), axis=1)
-        self._features['child_indices'] = ci[ci > 0]
+        ci[:, :, 0][m] = 0
+        self._features['child_indices'] = ci[nonz]
         cei = self._features['child_edge_types']
+        cei[:,:,0][m] = 1
+        nonz = cei != 0
         self._features['child_edge_ids'] = np.count_nonzero(cei.reshape((-1, cei.shape[-1])), axis=1)
-        self._features['child_edge_types'] = cei[cei > 0]
+        cei[:,:,0][m] = 0
+        self._features['child_edge_types'] = cei[nonz]
         self._finalized = True
 
     @property
@@ -445,8 +452,7 @@ class BatchParser(AbstractParser):
             for offset in range(batch_difference):
                 current_passage = self.passages[self.passage_index + offset]
                 current_passage.elmo = self.elmo.sents2elmo(
-                    [[str(n) for n in current_passage.layer("0").all]], 2
-                )
+                    [[str(n) for n in current_passage.layer("0").all]],-1)
                 torch.cuda.empty_cache()
 
                 parser = PassageParser(
