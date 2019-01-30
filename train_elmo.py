@@ -51,16 +51,53 @@ def train(args):
         with tf.variable_scope('model', reuse=False,custom_getter=float32_variable_storage_getter,dtype=tf.float16):
             m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=True, predict=False)
-        with tf.variable_scope("model", reuse=True,custom_getter=float32_variable_storage_getter,dtype=tf.float16):
+        with tf.variable_scope('model', reuse=True,custom_getter=float32_variable_storage_getter,dtype=tf.float16):
             v = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=False, predict=False)
 
         gs = tf.train.get_or_create_global_step()
         sv = tf.train.Saver()
         cp = tf.train.latest_checkpoint(os.path.join(args.save_dir, "save_dir"))
+
         if cp:
             tf.logging.info("Restoring model from latest checkpoint: {}".format(cp))
-            tf.train.init_from_checkpoint(cp,{"model/":"model/","model/model/":"model/model/"}) #sv.restore(sess, cp)
+            import collections
+            import re
+            def get_assignment_map_from_checkpoint(tvars, init_checkpoint):
+                """Compute the union of the current variables and checkpoint variables.
+                    taken from bert git repository
+                """
+                initialized_variable_names = {}
+                name_to_variable = collections.OrderedDict()
+                for var in tvars:
+                    name = var.name
+                    m = re.match("^(.*):\\d+$", name)
+                    if m is not None:
+                        name = m.group(1)
+                    name_to_variable[name] = var
+
+                init_vars = tf.train.list_variables(init_checkpoint)
+
+                assignment_map = collections.OrderedDict()
+                for x in init_vars:
+                    (name, var) = (x[0], x[1])
+                    if name not in name_to_variable:
+                        continue
+                    assignment_map[name] = name
+                    initialized_variable_names[name] = 1
+                    initialized_variable_names[name + ":0"] = 1
+
+                return (assignment_map, initialized_variable_names)
+            tvars = tf.trainable_variables()
+            ass_map, initialized_variable_names = get_assignment_map_from_checkpoint(tvars, cp)
+            tf.logging.info("**** Trainable Variables ****")
+            for var in tvars:
+                init_string = ""
+                if var.name in initialized_variable_names:
+                    init_string = ", *INIT_FROM_CKPT*"
+                tf.logging.info("  name = %s, shape = %s%s", var.name, var.shape,
+                                init_string)
+            tf.train.init_from_checkpoint(cp,ass_map)
 
         sess.run(tf.global_variables_initializer())
         sess.run(tf.local_variables_initializer())
