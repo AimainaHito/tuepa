@@ -30,7 +30,7 @@ class PredictionWrapper():
         with self.session.graph.as_default():
             # [Variable and model creation goes here.]
             with tf.variable_scope("model"):
-                self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True)
+                self.model = ElModel(args, args.num_labels, args.num_action_elements, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True)
                 self.logits = self.model.logits
                 self.saver = tf.train.Saver()
                 self.predictions = tf.argmax(self.logits, -1)
@@ -97,6 +97,9 @@ def evaluate(args):
     # restore numberers
     with open(os.path.join(args.model_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
+
+    with open(os.path.join(args.model_dir, tuepa.util.config.ACTION_ELEMENT_FILENAME), "r", encoding="utf-8") as file:
+        action_element_numberer = load_numberer_from_file(file)
 
     with open(os.path.join(args.model_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
         edge_numberer = load_numberer_from_file(file)
