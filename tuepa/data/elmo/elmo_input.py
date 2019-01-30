@@ -61,12 +61,19 @@ def h5py_worker(data_path, queue, args, batch_size, eval=False):
         history_features = data['history_features'][getters]
         history_features = advindexing_roll(history_features, history_features.shape[1] - history_lengths)
         ci = data['stack_buffer']['child_indices'][getters]
+        m = ci[:,:,0] == 0
+        ci[:,:,0][m] = 1
+        nonz = ci != 0
         batch_ind = np.argwhere(ci).T[0]
         ci_lengths = np.count_nonzero(ci.reshape((-1, ci.shape[-1])), axis=1)
-        ci = ci[ci > 0]
+        ci[:, :, 0][m] = 0
+        ci = ci[nonz]
         cei = data['stack_buffer']['child_edge_indices'][getters]
+        cei[:,:,0][m] = 1
+        nonz = cei != 0
         cei_lengths = np.count_nonzero(cei.reshape((-1, cei.shape[-1])), axis=1)
-        cei = cei[cei > 0]
+        cei[:,:,0][m] = 0
+        cei = cei[nonz]
 
         return (form_indices,
                 dep_types,

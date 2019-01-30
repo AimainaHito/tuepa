@@ -208,7 +208,7 @@ class ElModel(BaseModel):
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
         # conc = lambda x, y: tf.concat([x, y], -1)
-
+        #
         # action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
         # action_counts = conc(action_counts,
         #                      get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
@@ -268,7 +268,7 @@ class ElModel(BaseModel):
         # history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
         feature_vec = tf.concat([feedforward_input, tf.expand_dims(self.action_ratios, -1),
-             tf.expand_dims(self.node_ratios, -1)], -1)
+                                 tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
@@ -341,8 +341,7 @@ class ElModel(BaseModel):
 
             child_types = tf.nn.embedding_lookup(self.edge_embeddings, self.child_edge_types)
             child_resh = self.child_processing_layers(tf.concat((rep, child_types), -1))
-            child_resh = tf.RaggedTensor.from_row_lengths(child_resh, tf.to_int64(child_ids)).to_tensor()
-
+            child_resh = tf.RaggedTensor.from_row_lengths(child_resh, tf.to_int64(child_ids))
             reduced = tf.reduce_max(child_resh, axis=1)
             return tf.reshape(reduced, [batch_size, feature_tokens, 512])
 
