@@ -199,11 +199,11 @@ class ElModel(BaseModel):
         # self.elmo_weights = tf.get_variable("weights_scale", initializer=[[[[0.5],[0.5],[0.5]]]], dtype=tf.float32)
         # self.elmo_scale = tf.get_variable("elmo_scale", initializer=1., dtype=tf.float32)
         # elmo = tf.reduce_sum(self.elmo * tf.nn.softmax(self.elmo_weights), axis=-2)
-        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu, dtype=tf.float16)
+        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu)
         # dense layers
         self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
-        self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu, dtype=tf.float16)
-        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False, dtype=tf.float16)
+        self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)
+        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False)
         # Utility
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
@@ -227,9 +227,8 @@ class ElModel(BaseModel):
         # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
-        with tf.variable_scope("self_attention", dtype=tf.float16):
-            enc = onmt.encoders.SelfAttentionEncoder(3,1024)
-            (outputs, state, sequence_length) = enc.encode(self.elmo,self.sentence_lengths,mode=tf.estimator.ModeKeys.TRAIN if train else None)
+        enc = onmt.encoders.SelfAttentionEncoder(3,1024)
+        (outputs, state, sequence_length) = enc.encode(self.elmo,self.sentence_lengths,mode=tf.estimator.ModeKeys.TRAIN if train else None)
 
         top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
@@ -282,7 +281,7 @@ class ElModel(BaseModel):
         self.predictions = tf.argmax(self.logits, -1)
         if not predict:
             self.loss = tf.reduce_mean(
-                tf.nn.sparse_softmax_cross_entropy_with_logits(labels=self.labels, logits=self.logits))
+                tf.nn.sparse_softmax_cross_entropy_with_logits(labels=self.labels, logits=tf.cast(self.logits, tf.float32)))
 
             self.mpc, self.per_class = tf.metrics.mean_per_class_accuracy(self.labels, self.predictions,
                                                                           self.args.num_labels)
@@ -291,7 +290,10 @@ class ElModel(BaseModel):
             self.lr = tf.Variable(self.args.learning_rate, trainable=False, name="lr")
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
-            self.optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
+            optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
+            loss_scale_manager = tf.contrib.mixed_precision.FixedLossScaleManager(5000)
+            self.optimizer = tf.contrib.mixed_precision.LossScaleOptimizer(optimizer, loss_scale_manager)
+
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
             clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 3.5)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
