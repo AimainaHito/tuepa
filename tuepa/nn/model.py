@@ -100,7 +100,7 @@ def get_timing_signal_1d(positions,
         tf.to_float(tf.range(num_timescales)) * -log_timescale_increment)
     scaled_time = tf.expand_dims(position, -1) * inv_timescales
     signal = tf.concat([tf.sin(scaled_time), tf.cos(scaled_time)], axis=-1)
-    return tf.to_float16(signal)
+    return tf.cast(signal,tf.float16)
 
 
 class ElModel(BaseModel):
@@ -125,12 +125,12 @@ class ElModel(BaseModel):
         self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
         self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
         self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.float16)
-        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
+        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float16)
         self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
         self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
-        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
-        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
+        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float16)
+        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float16)
         self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
                                             dtype=tf.int32)
         self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
@@ -207,22 +207,22 @@ class ElModel(BaseModel):
         # Utility
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
-        # conc = lambda x, y: tf.concat([x, y], -1)
-        #
-        # action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
-        # action_counts = conc(action_counts,
-        #                      get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
-        # inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
-        # inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
-        # out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
-        # out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
-        # height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
-        # height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
-        #
-        # action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
-        # inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
-        # out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
-        # height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
+        conc = lambda x, y: tf.concat([x, y], -1)
+
+        action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
+        action_counts = conc(action_counts,
+                             get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
+        inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
+        inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
+        out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
+        out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
+        height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
+        height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
+
+        action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
+        inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
+        out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
+        height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
         # elmo, state = self.elmo_lstm(inputs=switch(self.elmo * self.elmo_scale),sequence_lengths=self.sentence_lengths)
         # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
@@ -249,13 +249,12 @@ class ElModel(BaseModel):
                                                     top_rnn_output, child_ids=self.child_ids,
                                                     segment_ids=self.batch_ind, lengths=self.sentence_lengths + 2)
 
-        # pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
-        # dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
-        # ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
+        pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
+        dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
+        ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
 
         features = tf.concat(
-            [form_features, head_features, child_features],
-            # , pos_features, dep_features, ner_features, inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
+            [form_features, head_features, child_features, pos_features, dep_features, ner_features, inc, out, height, tf.expand_dims(tf.cast(self.root,tf.float16), -1)],
             axis=-1)
 
         if train:
@@ -263,10 +262,10 @@ class ElModel(BaseModel):
 
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
 
-        # history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
-        # history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
+        history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
+        history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, tf.expand_dims(self.action_ratios, -1),
+        feature_vec = tf.concat([feedforward_input,history_input,action_counts, tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:
@@ -290,14 +289,14 @@ class ElModel(BaseModel):
             self.lr = tf.Variable(self.args.learning_rate, trainable=False, name="lr")
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
-            optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
+            self.optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
             loss_scale_manager = tf.contrib.mixed_precision.FixedLossScaleManager(5000)
-            self.optimizer = tf.contrib.mixed_precision.LossScaleOptimizer(optimizer, loss_scale_manager)
+            self.optimizer = tf.contrib.mixed_precision.LossScaleOptimizer(self.optimizer, loss_scale_manager)
 
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
             clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 3.5)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
-            self.train_op = self.optimizer.apply_gradients(zip(clipped_gradients, variables),
+            self.train_op = self.optimizer.apply_gradients(list(zip(clipped_gradients, variables)),
                                                            global_step=tf.train.get_or_create_global_step())
 
             self.merge = tf.summary.merge([self.gradient_scalar, lr_scalar])

@@ -51,7 +51,7 @@ def train(args):
         with tf.variable_scope('model', reuse=False,custom_getter=float32_variable_storage_getter,dtype=tf.float16):
             m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=True, predict=False)
-        with tf.variable_scope("model", reuse=True):
+        with tf.variable_scope("model", reuse=True,custom_getter=float32_variable_storage_getter,dtype=tf.float16):
             v = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=False, predict=False)
 
@@ -93,10 +93,10 @@ def train(args):
                     value = tf.Summary.Value(tag="train_acc",simple_value=train_ep_acc / tn)
                     loss = tf.Summary.Value(tag="train_loss", simple_value=train_ep_loss / tn)
                     summary = tf.Summary(value=[value,loss])
-                    fetched_timeline = timeline.Timeline(run_metadata.step_stats)
-                    chrome_trace = fetched_timeline.generate_chrome_trace_format()
-                    with open(os.path.join(args.save_dir,'log_dir/timeline_{}.json'.format(gs)), 'w') as f:
-                        f.write(chrome_trace)
+                    # fetched_timeline = timeline.Timeline(run_metadata.step_stats)
+                    # chrome_trace = fetched_timeline.generate_chrome_trace_format()
+                    # with open(os.path.join(args.save_dir,'log_dir/timeline_{}.json'.format(gs)), 'w') as f:
+                    #     f.write(chrome_trace)
                     fw.add_run_metadata(run_metadata,tag="train_meta_{}".format(gs),global_step=gs)
                     fw.add_summary(summary,gs)
                     fw.flush()
