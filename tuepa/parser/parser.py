@@ -309,7 +309,7 @@ class ElmoFeatureBatch:
             'out': np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),
             'elmo': [],
             'sent_lens': np.zeros((batch_size), np.int32),
-            'history': [],
+            'history': np.zeros((batch_size, 3 * 10)),
             'hist_lens': np.zeros((batch_size), dtype=np.int32),
             'action_ratios' : np.zeros((batch_size), dtype=np.float32),
             'node_ratios': np.zeros((batch_size), dtype=np.float32),
@@ -330,24 +330,27 @@ class ElmoFeatureBatch:
         self.index += 1
 
     def _finalize(self):
-        history_features = np.zeros((self.batch_size, self.max_lengths['history']), np.int32)
-        for i, feature_array in enumerate(self._features['history']):
-            history_features[i][:len(feature_array)] = feature_array
-
-        self._features['history'] = history_features
-
         elmo_features = np.zeros((self.batch_size, self.max_lengths['elmo'], 1024), np.float32)
         for i, feature_array in enumerate(self._features['elmo']):
             elmo_features[i][:len(feature_array)] = feature_array
         self._features['elmo'] = elmo_features
 
         ci = self._features['child_indices']
+        m = ci[:, :, 0] == 0
+        ci[:,:,0][m] = 1
+        nonz = ci != 0
         self._features['child_batch_ids'] = np.argwhere(ci).T[0]
         self._features['child_ids'] = np.count_nonzero(ci.reshape((-1, ci.shape[-1])), axis=1)
         self._features['child_indices'] = ci[ci > 0]
+        ci[:, :, 0][m] = 0
+        self._features['child_indices'] = ci[nonz]
         cei = self._features['child_edge_types']
+        cei[:,:,0][m] = 1
+        nonz = cei != 0
         self._features['child_edge_ids'] = np.count_nonzero(cei.reshape((-1, cei.shape[-1])), axis=1)
         self._features['child_edge_types'] = cei[cei > 0]
+        cei[:,:,0][m] = 0
+        self._features['child_edge_types'] = cei[nonz]
         self._finalized = True
 
     @property
@@ -413,7 +416,7 @@ class BatchParser(AbstractParser):
             for offset in range(batch_difference):
                 current_passage = self.passages[self.passage_index + offset]
                 current_passage.elmo = self.elmo.sents2elmo(
-                    [[str(n) for n in current_passage.layer("0").all]], 2
+                    [[str(n) for n in current_passage.layer("0").all]], -1
                 )
                 torch.cuda.empty_cache()
 
@@ -549,7 +552,6 @@ class EvalBatchParser(AbstractParser):
 
             self.passage_index += batch_difference
         if feature_batch.index != 0:
-            feature_batch._finalize()
             self.batch_scores = self.models[0].score(feature_batch.features)
         yield from self.completed_parses
         self.completed_parses = []
