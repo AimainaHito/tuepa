@@ -56,14 +56,14 @@ def train(args):
                         num_ner=args.num_ner, train=False, predict=False)
 
         gs = tf.train.get_or_create_global_step()
-        sess.run(tf.global_variables_initializer())
-        sess.run(tf.local_variables_initializer())
-
         sv = tf.train.Saver()
         cp = tf.train.latest_checkpoint(os.path.join(args.save_dir, "save_dir"))
         if cp:
             tf.logging.info("Restoring model from latest checkpoint: {}".format(cp))
-            sv.restore(sess, cp)
+            tf.train.init_from_checkpoint(cp,{"model/":"model/","model/model/":"model/model/"}) #sv.restore(sess, cp)
+
+        sess.run(tf.global_variables_initializer())
+        sess.run(tf.local_variables_initializer())
 
         train_inputs = m.inpts
         val_inputs = v.inpts
