@@ -1,17 +1,18 @@
 import multiprocessing
 import os
-
-import tensorflow as tf
 from argparse import Namespace
 from timeit import default_timer
 
+import tensorflow as tf
+import numpy as np
+
+from tuepa.util import config
 from tuepa.util.config import save_args, load_args, LABELS_FILENAME, \
-    DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
+    ACTION_ELEMENT_FILENAME, DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
 from tuepa.nn import ElModel
 from tuepa.util.numberer import load_numberer_from_file
 from tuepa.util import SaverHook, PerClassHook
 from tuepa.data.elmo.elmo_input import h5py_worker
-import numpy as np
 import tuepa.progress as progress
 
 
@@ -34,10 +35,10 @@ def train(args):
 
     with tf.Session(config=config) as sess:
         with tf.variable_scope('model', reuse=False):
-            m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
+            m = ElModel(args, args.num_labels, args.num_action_elements, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=True, predict=False)
         with tf.variable_scope("model", reuse=True):
-            v = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
+            v = ElModel(args, args.num_labels, args.num_action_elements, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=False, predict=False)
 
         gs = tf.train.get_or_create_global_step()
@@ -128,7 +129,6 @@ def train(args):
 
 
 def main(args):
-    import tuepa.util.config as config
     tf.logging.set_verbosity(tf.logging.INFO)
     argument_parser = config.get_elmo_parser()
     args = argument_parser.parse_args(args)
@@ -138,6 +138,9 @@ def main(args):
 
     with open(os.path.join(args.save_dir, LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
+
+    with open(os.path.join(args.save_dir, ACTION_ELEMENT_FILENAME), "r", encoding="utf-8") as file:
+        action_element_numberer = load_numberer_from_file(file)
 
     with open(os.path.join(args.save_dir, EDGE_FILENAME), "r", encoding="utf-8") as file:
         edge_numberer = load_numberer_from_file(file)

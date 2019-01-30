@@ -28,7 +28,7 @@ def squash_singleton_terminals(passage):
         node.destroy()
 
 
-def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numberer, ner_numberer, edge_numberer,
+def extract_elmo_features(args, state, action_element_numberer, dep_numberer, pos_numberer, ner_numberer, edge_numberer,
                           train=True):
     stack_features = []
     buffer_features = []
@@ -73,7 +73,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                 ner_numberer.number(ner, train=train), incoming,
                 outgoing, height, root, child_indices]
 
-    for n in range(1,args.stack_elements+1):
+    for n in range(1, args.stack_elements + 1):
         try:
             node = stack[-n]
             stack_features.append(extract_feature(node))
@@ -126,8 +126,14 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
         except IndexError:
             buffer_features.append(null_features())
 
-    history_features = [label_numberer.number(str(action), train=train) for action in
-                        state.actions[-min(len(state.actions), 10):]]
+    history_features = [
+        item for action in state.actions[-min(len(state.actions), 10):] for item in [
+            action_element_numberer.number(action.general_type, train=train),
+            action_element_numberer.number("NONE" if action.tag is None else ("REMOTE" if action.remote else "PRIMARY"), train=train),
+            action_element_numberer.number("NONE" if action.tag is None else action.tag, train=train),
+        ]
+    ]
+
     return stack_features, buffer_features, history_features
 
 
@@ -136,6 +142,7 @@ def preprocess_dataset(path,
                        shapes=None,
                        max_features=None,
                        label_numberer=None,
+                       action_element_numberer=None,
                        pos_numberer=None,
                        dep_numberer=None,
                        edge_numberer=None,
@@ -186,7 +193,7 @@ def preprocess_dataset(path,
             stack_features, buffer_features, state_history = extract_elmo_features(
                 args,
                 state,
-                label_numberer,
+                action_element_numberer,
                 pos_numberer=pos_numberer,
                 dep_numberer=dep_numberer,
                 edge_numberer=edge_numberer,
@@ -366,8 +373,7 @@ def specific_elmo(features, embedder, args, train, write_chunk=8192, silver=Fals
                 for id in item:
                     out_chunk[index, n, id] += 1
 
-            hist_chunk[index] = np.hstack(
-                [history_features[index], np.zeros(shape=(max_hist_size - len(history_features[index])))])
+            hist_chunk[index, :len(history_features[index])] = history_features[index]
 
         if ex_index % write_chunk != 0:
             cur_slice = slice(chunk_no * write_chunk, min((chunk_no + 1) * write_chunk, num_examples))

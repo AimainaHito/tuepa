@@ -6,6 +6,7 @@ import pickle
 from ucca import constructions
 
 ARGS_FILENAME = "args.pickle"
+ACTION_ELEMENT_FILENAME = "action_elements.csv"
 LABELS_FILENAME = "labels.csv"
 DEP_FILENAME = "deps.csv"
 EDGE_FILENAME = "edge.csv"
@@ -133,10 +134,10 @@ def get_preprocess_parser(parents=None):
     argument_parser = argparse.ArgumentParser(parents=parents)
     argument_parser.add_argument("training_path", help="Glob to UCCA annotated training data")
     argument_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
-    argument_parser.add_argument("silver_path", help="Glob to UCCA annotated silver data")
     argument_parser.add_argument("training_out", help="File where the training hdf5 file will be saved.")
     argument_parser.add_argument("validation_out", help="File where the validation hdf5 file will be saved.")
-    argument_parser.add_argument("silver_out", help="File where the silver hdf5 file will be saved.")
+    argument_parser.add_argument("--silver_path", default=None, help="Glob to UCCA annotated silver data")
+    argument_parser.add_argument("--silver_out", default=None, help="File where the silver hdf5 file will be saved.")
     argument_parser.add_argument("--warm-up",
                                  help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
                                  required=False, type=str)
@@ -193,7 +194,7 @@ def get_oracle_parser(parents=None):
     oracle_parser.add_argument("--remote", action="store_false", help="remote edges")
     oracle_parser.add_argument("--swap", choices=(REGULAR, COMPOUND), default=REGULAR, help="swap transitions")
     oracle_parser.add_argument("--max-swap", type=int, default=15, help="if compound swap enabled, maximum swap size")
-    oracle_parser.add_argument("--node-labels", action="store_false",
+    oracle_parser.add_argument("--node-labels", action="store_true",
                                help="prediction of node labels, if supported by format")
     oracle_parser.add_argument("--use-gold-node-labels", action="store_true", help="gold node labels when parsing")
     oracle_parser.add_argument("--verify", action="store_true", help="check for oracle reproducing original passage")

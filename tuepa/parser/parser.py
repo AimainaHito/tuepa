@@ -15,21 +15,30 @@ from ucca import ioutil
 from ucca.evaluation import LABELED, UNLABELED, EVAL_TYPES, evaluate as evaluate_ucca
 from ucca.normalization import normalize
 from ucca.layer0 import Terminal
+from ucca.layer1 import EdgeTags
+from ucca.core import Node
 from elmoformanylangs import Embedder
 
-from .states.state import State
-from .action import Action
 import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
-from tuepa.data.elmo.elmo_processing import squash_singleton_terminals
+from .states.state import State
+from .action import Action
 
 
-#TODO: temporary fix for squashed terminals in ucca.normalization.normalize
-@property
-def terminals(self):
-    return []
+def unsquash_terminals(passage):
+    for node in passage._nodes.values():
+        # Find nodes Terminal nodes
+        if node.text is not None:
+            # TODO: ID assignment might cause issues somewhere
+            parent_node = Node(Node.ID_SEPARATOR.join((1, len(passage._nodes))), passage, None)
+            # Relink incoming edges and add Terminal edge
+            for edge in node.incoming:
+                parent = edge.parent
+                parent.remove(edge)
+                parent.add(edge.tag, parent_node, edge_attrib=edge.attrib)
 
-Terminal.terminals = terminals
+            parent_node.add(EdgeTags.Terminal, node)
+
 
 
 class ParserException(Exception):
@@ -72,9 +81,6 @@ class PassageParser(AbstractParser):
 
     def __init__(self, passage, args, models, evaluation, **kwargs):
         super().__init__(models, args, evaluation)
-        # Squash singleton terminals for evaluation
-        if args.squash_singleton_terminals:
-            squash_singleton_terminals(passage)
 
         self.passage = self.out = passage
         if self.args.model_type != "feedforward":
@@ -128,112 +134,69 @@ class PassageParser(AbstractParser):
         max_stack_size = self.args.shapes.max_stack_size
         max_buffer_size = self.args.shapes.max_buffer_size
 
-        if self.args.model_type != "elmo-rnn":
-            stack_features, buffer_features, _ = preprocessing.extract_numbered_features(
-                self.state,
-                self.args.prediction_data.embedder,
-                self.args.prediction_data.label_numberer,
-                train=False
-            )
+        stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(
+            self.args,
+            self.state,
+            action_element_numberer=self.args.prediction_data.action_element_numberer,
+            pos_numberer=self.args.prediction_data.pos_numberer,
+            dep_numberer=self.args.prediction_data.dep_numberer,
+            edge_numberer=self.args.prediction_data.edge_numberer,
+            ner_numberer=self.args.prediction_data.ner_numberer,
+            train=False
+        )
+        while len(history_features) < 10:
+            history_features.insert(0,0)
+        forms, deps, heads, pos, ner, incoming, outgoing, height, root, children = tuple(zip(*(stack_features + buffer_features)))
 
-            if self.args.model_type == "feedforward":
-                features = np.zeros(
-                    (1, max_stack_size + max_buffer_size),
-                    dtype=np.int32
-                )
+        actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
+        previous_actions = np.zeros((self.args.prediction_data.label_numberer.max), dtype=np.int32)
+        previous_actions[actions] += 1
 
-                preprocessing.add_stack_and_buffer_features(
-                    features,
-                    0,
-                    stack_features,
-                    buffer_features,
-                    max_stack_size,
-                    max_buffer_size
-                )
+        hist_len = len(history_features)
 
-            else:
-                features = np.zeros(
-                    (1, max_stack_size + max_buffer_size + self.args.max_training_length + 1),
-                    dtype=np.int32
-                )
+        if not history_features:
+            history_features += [0]
 
-                preprocessing.add_transformer_features(
-                    features,
-                    0,
-                    self.sentence_tokens,
-                    stack_features,
-                    buffer_features,
-                    "<SEP>",
-                    self.args.max_training_length,
-                    max_stack_size,
-                    max_buffer_size
-                )
-            scores, = self.models[0].score(features).numpy()
-        else:
-            stack_features, buffer_features, history_features = preprocess_elmo.extract_elmo_features(
-                self.args,
-                self.state,
-                label_numberer=self.args.prediction_data.label_numberer,
-                pos_numberer=self.args.prediction_data.pos_numberer,
-                dep_numberer=self.args.prediction_data.dep_numberer,
-                edge_numberer=self.args.prediction_data.edge_numberer,
-                ner_numberer=self.args.prediction_data.ner_numberer,
-                train=False
-            )
-            while len(history_features) < 10:
-                history_features.insert(0,0)
-            forms, deps, heads, pos, ner, incoming, outgoing, height, root, children = tuple(zip(*(stack_features + buffer_features)))
+        inc = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
+        out = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
+        for index, item in enumerate(incoming):
+            for edge_id in item:
+                inc[index, edge_id] += 1
 
-            actions = [self.args.prediction_data.label_numberer.value2num[str(action)] for action in self.state.actions]
-            previous_actions = np.zeros((self.args.prediction_data.label_numberer.max), dtype=np.int32)
-            previous_actions[actions] += 1
+        for index, item in enumerate(outgoing):
+            for edge_id in item:
+                out[index, edge_id] += 1
 
-            hist_len = len(history_features)
+        child_indices = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
+        child_edge_types = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
+        for n,child in enumerate(children):
+            for k, c in enumerate(child[:self.args.shapes.max_children]):
+                child_indices[n,k] = c[0]
+                child_edge_types[n,k] = c[1]
 
-            if not history_features:
-                history_features += [0]
-
-            inc = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
-            out = np.zeros((max_stack_size + max_buffer_size, self.args.num_edges), dtype=np.int32)
-            for index, item in enumerate(incoming):
-                for edge_id in item:
-                    inc[index, edge_id] += 1
-
-            for index, item in enumerate(outgoing):
-                for edge_id in item:
-                    out[index, edge_id] += 1
-
-            child_indices = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
-            child_edge_types = np.zeros((max_buffer_size+max_stack_size,self.args.shapes.max_children),dtype=np.int32)
-            for n,child in enumerate(children):
-                for k, c in enumerate(child[:self.args.shapes.max_children]):
-                    
-                    child_indices[n,k] = c[0]
-                    child_edge_types[n,k] = c[1]
-
-            elmo = self.state.passage.elmo[0]#, [1, 0, 2])
-            sent_length = len(elmo)
-            #print(history_features)
-            features = {
-                'form_indices': forms,
-                'deps': deps,
-                'ner':ner,
-                'pos': pos,
-                "child_indices":child_indices,
-                'child_edge_types':child_edge_types,
-                'heads':heads,
-                'height': height,
-                'inc' : inc,
-                'out': out,
-                'elmo': elmo,
-                'sent_lens': sent_length,
-                'history': history_features,
-                'hist_lens': hist_len,
-                'action_ratios':self.state.action_ratio(),
-                'node_ratios': self.state.node_ratio(),
-                'root' : root,
-                'action_counts': previous_actions.reshape([1, -1])
-            }
+        elmo = self.state.passage.elmo[0]#, [1, 0, 2])
+        sent_length = len(elmo)
+        #print(history_features)
+        features = {
+            'form_indices': forms,
+            'deps': deps,
+            'ner':ner,
+            'pos': pos,
+            "child_indices":child_indices,
+            'child_edge_types':child_edge_types,
+            'heads':heads,
+            'height': height,
+            'inc' : inc,
+            'out': out,
+            'elmo': elmo,
+            'sent_lens': sent_length,
+            'history': history_features,
+            'hist_lens': hist_len,
+            'action_ratios':self.state.action_ratio(),
+            'node_ratios': self.state.node_ratio(),
+            'root' : root,
+            'action_counts': previous_actions.reshape([1, -1])
+        }
 
         # for model in self.models[1:]:  # Ensemble if given more than one model; align label order and add scores
         #    label_scores = dict(zip(model.classifier.labels[axis].all, self.model.score(self.state, axis)[0]))
@@ -265,6 +228,10 @@ class PassageParser(AbstractParser):
 
     def finish(self, status="(finished)", display=True, write=False):
         self.out = self.state.create_passage(verify=self.args.verify, format=self.out_format)
+        # Unsquash singleton terminals for evaluation
+        if args.squash_singleton_terminals:
+            unsquash_terminals(passage)
+
         if write:
             for out_format in self.args.formats or [self.out_format]:
                 if self.args.normalize and out_format == "ucca":
@@ -333,8 +300,8 @@ class ElmoFeatureBatch:
             'deps': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'pos': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'ner':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
-            'child_indices': np.zeros((batch_size, num_feature_tokens,args.shapes.max_children), dtype=np.int32),
-            'child_edge_types': np.zeros((batch_size, num_feature_tokens,args.shapes.max_children), dtype=np.int32),
+            'child_indices': np.zeros((batch_size, num_feature_tokens, args.shapes.max_children), dtype=np.int32),
+            'child_edge_types': np.zeros((batch_size, num_feature_tokens, args.shapes.max_children), dtype=np.int32),
             'heads':np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'height': np.zeros((batch_size, num_feature_tokens), dtype=np.int32),
             'inc' : np.zeros((batch_size, num_feature_tokens, num_edges), dtype=np.int32),

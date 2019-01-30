@@ -1,11 +1,12 @@
-from .base_model import BaseModel
-from .blocks import *
+import math
+import json
 
 import tensorflow as tf
 import numpy as np
-import json
+#import opennmt as onmt
 
-import opennmt as onmt
+from .base_model import BaseModel
+from .blocks import *
 
 
 class FFModel(BaseModel):
@@ -90,7 +91,6 @@ def get_timing_signal_1d(positions,
     """
     Taken from tensor2tensor git repository,slightly modified.
     """
-    import math
     position = tf.to_float(positions + start_index)
     num_timescales = channels // 2
     log_timescale_increment = (
@@ -104,7 +104,7 @@ def get_timing_signal_1d(positions,
 
 
 class ElModel(BaseModel):
-    def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False):
+    def __init__(self, args, num_labels, num_action_elements, num_dependencies, num_pos, num_ner, train, predict=False):
         super().__init__()
         self.args = args
 
@@ -141,7 +141,7 @@ class ElModel(BaseModel):
         # Embeddings
         self.history_embeddings = tf.get_variable(
             name="embeddings",
-            shape=[num_labels, args.history_embedding_size],
+            shape=[num_action_elements, args.history_embedding_size],
             dtype=tf.float32
         )
 
@@ -199,7 +199,7 @@ class ElModel(BaseModel):
         # self.elmo_weights = tf.get_variable("weights_scale", initializer=[[[[0.5],[0.5],[0.5]]]], dtype=tf.float32)
         # self.elmo_scale = tf.get_variable("elmo_scale", initializer=1., dtype=tf.float32)
         # elmo = tf.reduce_sum(self.elmo * tf.nn.softmax(self.elmo_weights), axis=-2)
-        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu)
+        #self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu)
         # dense layers
         self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
         self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)
@@ -207,10 +207,10 @@ class ElModel(BaseModel):
         # Utility
         batch_size = tf.shape(self.form_indices)[0]
         batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
-        # conc = lambda x, y: tf.concat([x, y], -1)
+        conc = lambda x, y: tf.concat([x, y], -1)
         #
-        # action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
-        # action_counts = conc(action_counts,
+        #action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
+        #action_counts = conc(action_counts,
         #                      get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
         # inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
         # inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
@@ -219,7 +219,7 @@ class ElModel(BaseModel):
         # height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
         # height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
         #
-        # action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
+        #action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * self.action_count_embeddings.shape[-1] * 2])
         # inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
         # out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
         # height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
@@ -260,10 +260,11 @@ class ElModel(BaseModel):
 
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
 
-        # history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
-        # history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
+        history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
+        # 10 Triples in the form (edge type, remote/primary/none, tag/none)
+        history_input = tf.reshape(history_input, [batch_size, 3 * 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, tf.expand_dims(self.action_ratios, -1),
+        feature_vec = tf.concat([feedforward_input, history_input, tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:

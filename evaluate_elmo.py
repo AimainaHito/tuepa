@@ -17,7 +17,7 @@ from tuepa.parser import parser
 from collections import namedtuple
 
 ElmoPredictionData = namedtuple(
-    "ElmoPredictionData", "label_numberer pos_numberer dep_numberer edge_numberer ner_numberer")
+    "ElmoPredictionData", "action_element_numberer label_numberer pos_numberer dep_numberer edge_numberer ner_numberer")
 
 
 class PredictionWrapper():
@@ -112,6 +112,7 @@ def evaluate(args):
 
     args.num_edges = edge_numberer.max
     args.prediction_data = ElmoPredictionData(
+        action_element_numberer=action_element_numberer,
         label_numberer=label_numberer,
         pos_numberer=pos_numberer,
         dep_numberer=dep_numberer,
