@@ -215,7 +215,7 @@ class EvalHook(tf.train.SessionRunHook):
                     self.root: features['root']
                 })
 
-class PerClassHook(tf.train.SessionRunHook):
+class PerClassHook:
     """
     Taken from: https://github.com/tensorflow/tensorboard/issues/227
     Saves a confusion matrix as a Summary so that it can be shown in tensorboard
@@ -237,10 +237,8 @@ class PerClassHook(tf.train.SessionRunHook):
     def end(self, session):
         m = tf.get_default_graph().get_tensor_by_name(
             self.tensor_name + ':0').eval(session=session).astype(float)
-        globalStep = tf.train.get_global_step().eval(session=session)
         figure = self._plot_matrix(m)
-        summary = self._figure_to_summary(figure)
-        self._summary_writer.add_summary(summary, globalStep)
+        return self._figure_to_summary(figure)
 
     def _figure_to_summary(self, fig):
         """
@@ -264,10 +262,8 @@ class PerClassHook(tf.train.SessionRunHook):
         png_encoded = png_buffer.getvalue()
         png_buffer.close()
 
-        summary_image = tf.Summary.Image(height=h, width=w, colorspace=4,  # RGB-A
+        return tf.Summary.Image(height=h, width=w, colorspace=4,  # RGB-A
                                          encoded_image_string=png_encoded)
-        summary = tf.Summary(value=[tf.Summary.Value(tag=self.tensor_name, image=summary_image)])
-        return summary
 
     def _plot_matrix(self, cm):
         '''

@@ -16,10 +16,12 @@ import tuepa.progress as progress
 
 
 def train(args):
-    train_q = multiprocessing.Queue(maxsize=25)
-    val_q = multiprocessing.Queue(maxsize=25)
-    train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args))
-    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args))
+
+    train_q = multiprocessing.Queue(maxsize=100)
+    h5py_worker(args.training_path, train_q, args, args.batch_size)
+    val_q = multiprocessing.Queue(maxsize=50)
+    train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.batch_size))
+    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True))
     import h5py
     with h5py.File(args.validation_path, "r") as f:
         val_rows = len(f['labels'])
@@ -29,6 +31,8 @@ def train(args):
     val_p.start()
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
+    from tensorflow.python.client import timeline
+
     with tf.Session(config=config) as sess:
         with tf.variable_scope('model', reuse=False):
             m = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
@@ -37,15 +41,6 @@ def train(args):
             v = ElModel(args, args.num_labels, num_dependencies=args.num_deps, num_pos=args.num_pos,
                         num_ner=args.num_ner, train=False, predict=False)
 
-            hooks = [SaverHook(
-                labels=args.label_list,
-                confusion_matrix_tensor_name='model_1/mean_iou/total_confusion_matrix',
-                summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
-                PerClassHook(
-                    labels=args.label_list,
-                    tensor_name='model_1/mean_accuracy/div_no_nan',
-                    summary_writer=tf.summary.FileWriterCache.get(os.path.join(args.save_dir, "eval_validation"))),
-            ]
         gs = tf.train.get_or_create_global_step()
         sess.run(tf.global_variables_initializer())
         sess.run(tf.local_variables_initializer())
@@ -59,52 +54,65 @@ def train(args):
         train_inputs = m.inpts
         val_inputs = v.inpts
         fw = tf.summary.FileWriter(logdir=os.path.join(args.save_dir, "log_dir"), graph=sess.graph)
+        steps = val_rows // 512
+        options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
+        run_metadata= tf.RunMetadata()
+
         for iteration in range(100000):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
-            for tn in range(1, args.epoch_steps + 1):
+            for tn in range(1, steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
-                logits, loss, _, _, _, tm1, gs = sess.run(
-                    [m.logits, m.loss, m.per_class, m.mean_iou, m.train_op, m.merge,
-                     tf.train.get_or_create_global_step()], feed_dict)
-                if tn != 0 and tn % 10 == 0:
-                    fw.add_summary(tm1, gs)
-                    value = tf.Summary.Value(tag="train_acc",simple_value=train_ep_acc / tn)
-                    summary = tf.Summary(value=[value])
-                    fw.add_summary(summary,gs)
-                    fw.flush()
+                logits, loss, _, _, tm1, gs = sess.run(
+                    [m.logits, m.loss, m.per_class, m.train_op, m.merge,
+                     tf.train.get_or_create_global_step()], feed_dict, run_metadata=run_metadata, options=options)
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
-                progress.print_network_progress("Training", tn, args.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
+                progress.print_network_progress("Training", tn, steps, loss.mean(), train_ep_loss / tn, acc,
                                                 train_ep_acc / tn)
+                if tn != 0 and tn % 10 == 0:
+                    fw.add_summary(tm1, gs)
+                    value = tf.Summary.Value(tag="train_acc",simple_value=train_ep_acc / tn)
+                    loss = tf.Summary.Value(tag="train_loss", simple_value=train_ep_loss / tn)
+                    summary = tf.Summary(value=[value,loss])
+                    fetched_timeline = timeline.Timeline(run_metadata.step_stats)
+                    chrome_trace = fetched_timeline.generate_chrome_trace_format()
+                    with open(os.path.join(args.save_dir,'log_dir/timeline_{}.json'.format(gs)), 'w') as f:
+                        f.write(chrome_trace)
+                    fw.add_run_metadata(run_metadata,tag="train_meta_{}".format(gs),global_step=gs)
+                    fw.add_summary(summary,gs)
+                    fw.flush()
+
 
             val_ep_loss = 0
             val_ep_accuracy = 0
-            steps = min(args.epoch_steps, val_rows // args.batch_size)
+            val_ep_mean_per_class = 0
+
             for n in range(1, steps + 1):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
-                logits, loss, mer, maccurcy, mious, gs = sess.run(
-                    [v.logits, v.loss, v.merge, v.per_class, v.mean_iou,
-                     tf.train.get_or_create_global_step()], feed_dict)
+                logits, loss, maccurcy, mpc = sess.run(
+                    [v.logits, v.loss, v.per_class,v.mpc], feed_dict)
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
+                val_ep_mean_per_class += mpc
+
                 progress.print_network_progress("Validation", n, steps, loss.mean(), val_ep_loss / n, acc,
                                                 val_ep_accuracy / n)
-                if n != 0 and n % 10 == 0:
-                    value = tf.Summary.Value(tag="val_acc",simple_value=val_ep_accuracy/n)
-                    summary = tf.Summary(value=[value])
-                    fw.add_summary(mer, gs + n)
-                    fw.add_summary(summary, gs + n)
-                    fw.flush()
-            for hook in hooks:
-                hook.end(sess)
+
+            value = tf.Summary.Value(tag="val_acc",simple_value=val_ep_accuracy/n)
+            per_class = tf.Summary.Value(tag="mean_per_class",simple_value=val_ep_mean_per_class/n)
+            loss = tf.Summary.Value(tag="val_loss", simple_value=val_ep_loss / n)
+            summary = tf.Summary(value=[value, per_class, loss])
+            fw.add_summary(summary, gs + n)
+            fw.flush()
+
 
             save_name = "tuepa_{}.ckpt".format(gs)
             s = sv.save(sess, os.path.join(args.save_dir, "save_dir", save_name))

@@ -2,6 +2,7 @@ import random
 import h5py
 import numpy as np
 
+
 def advindexing_roll(A, r):
     rows, column_indices = np.ogrid[:A.shape[0], :A.shape[1]]
     r[r < 0] += A.shape[1]
@@ -9,7 +10,7 @@ def advindexing_roll(A, r):
     return A[rows, column_indices]
 
 
-def h5py_worker(data_path, queue, args):
+def h5py_worker(data_path, queue, args, batch_size, eval=False):
     """
     Method to read chunks from HDF5 files containing examples.
 
@@ -20,12 +21,15 @@ def h5py_worker(data_path, queue, args):
     :param args: named tuple holding commandline arguments and other information
     """
 
-    def prepare(data):
+    def prepare(data, index=0):
         state2pid = np.array(data['state2sent_index'])
+        if eval:
+            index = index * batch_size
+            getters = list(range(index, min(index + batch_size, len(state2pid))))
+        else:
+            index = random.randint(0, len(state2pid) - batch_size)
+            getters = list(range(index, min((index + 1) + batch_size, len(state2pid))))
 
-        index = random.randint(0, len(state2pid) - (args.batch_size * 1))
-
-        getters = list(range(index, min((index + 1) + args.batch_size * 1, len(state2pid))))
         ids = state2pid[getters]
 
         # for each input chunk cache elmo
@@ -36,7 +40,7 @@ def h5py_worker(data_path, queue, args):
             if i in elmos:
                 batch_elmo.append(elmos[i])
             else:
-                res = data['elmo'][str(i).encode("UTF-8")].value[2]  # , [1, 0, 2])
+                res = data['elmo'][str(i).encode("UTF-8")][()].mean(axis=0)
                 elmos[i] = res
                 batch_elmo.append(elmos[i])
 
@@ -50,6 +54,7 @@ def h5py_worker(data_path, queue, args):
                       for n in batch_elmo]
 
         form_indices = data['stack_buffer']['form_indices'][getters]
+        import IPython; IPython.embed()
         dep_types = data['stack_buffer']['dependencies'][getters]
         head_indices = data['stack_buffer']['head_indices'][getters]
         pos = data['stack_buffer']['pos'][getters]
@@ -88,8 +93,15 @@ def h5py_worker(data_path, queue, args):
                data['labels'][getters]
 
     with h5py.File(data_path, 'r') as data:
-        next_b = prepare(data)
+        n_rows = len(data['labels'])
+        index = 0
+        next_b = prepare(data, index=0)
+        index += 1
         while True:
             if next_b:
                 queue.put(next_b)
-                next_b = prepare(data)
+                next_b = prepare(data, index=index)
+                index += 1
+                if index == n_rows // batch_size:
+                    next_b = prepare(data, index=index)
+                    index = 0
