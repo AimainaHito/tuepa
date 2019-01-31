@@ -17,7 +17,7 @@ import tuepa.progress as progress
 
 def train(args):
 
-    train_q = multiprocessing.Queue(maxsize=100)
+    train_q = multiprocessing.Queue(maxsize=400)
     val_q = multiprocessing.Queue(maxsize=50)
     train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.batch_size))
     val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True))
@@ -95,6 +95,7 @@ def train(args):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
+
                 logits, loss, maccurcy, mpc = sess.run(
                     [v.logits, v.loss, v.per_class,v.mpc], feed_dict)
                 acc = np.equal(np.argmax(logits, -1), labels).mean()

@@ -161,7 +161,7 @@ def preprocess_dataset(path,
     state2passage_id = []
     passage_id = 0
     passage_names = []
-    for passage in read_passages([path]):
+    for passage in read_passages([path], language="de"):
         if args.squash_singleton_terminals:
             squash_singleton_terminals(passage)
 
