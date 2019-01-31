@@ -65,9 +65,13 @@ def train(args):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
                 feed_dict[m.labels] = labels
-                logits, loss, _, _, tm1, gs = sess.run(
+                try:
+                    logits, loss, _, _, tm1, gs = sess.run(
                     [m.logits, m.loss, m.per_class, m.train_op, m.merge,
                      tf.train.get_or_create_global_step()], feed_dict, run_metadata=run_metadata, options=options)
+                except Exception as e:
+                    print(e)
+                    continue
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
@@ -96,8 +100,12 @@ def train(args):
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
 
-                logits, loss, maccurcy, mpc = sess.run(
+                try:
+                    logits, loss, maccurcy, mpc = sess.run(
                     [v.logits, v.loss, v.per_class,v.mpc], feed_dict)
+                except Exception as e:
+                    print(e)
+                    continue
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
