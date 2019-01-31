@@ -23,7 +23,9 @@ import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
 from tuepa.data.elmo.elmo_processing import squash_singleton_terminals
 
-model = finalfrontier.Model("/data/embeddings/en-1bil-wiki-ff-skip-300-ctx10.bin", True)
+p = "/home/tpuetz/finalfrontier/target/release/en-1bil-wiki-ff-skip-300-ctx10.bin"
+#p = "/home/tpuetz/ff-dep-token-mincount-30-ctx-mincount-5-dims-300-depth-2-ns-5.bin"
+model = finalfrontier.Model(p, True)
 
 #TODO: temporary fix for squashed terminals in ucca.normalization.normalize
 @property
