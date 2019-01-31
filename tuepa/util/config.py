@@ -158,6 +158,8 @@ def get_eval_parser(parser):
     evaluation_parser = parser
     evaluation_parser.add_argument("model_dir", help="Directory containing a trained neural network model")
     evaluation_parser.add_argument("eval_data", help="Glob to UCCA annotated dev/test data")
+    evaluation_parser.add_argument("-t","--test", action="store_true",
+                                   help="No evaluation if true, will write to 'out_<lang>'")
     evaluation_parser.add_argument("--write-scores", action="store_true",
                                    help="Whether evaluation scores should be written to a file")
     evaluation_parser.add_argument("--timeout", type=float, default=5,
