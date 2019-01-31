@@ -689,6 +689,13 @@ class Parser(AbstractParser):
             parser = BatchParser(self.args, self.models, evaluate)
         yield from parser.parse(passages, display=display, write=write)
 
+def parse(model, args, test_passages):
+    parser = Parser(models=[model], args=args)
+
+    for result in parser.parse(test_passages, evaluate=False, write=True):
+        passage = result
+        for p in passage:
+            ioutil.write_passage(p, outdir="out_{}".format(args.lang))
 
 def evaluate(model, args, test_passages,train_eval=False):
     """

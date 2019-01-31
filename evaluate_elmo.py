@@ -124,7 +124,11 @@ def evaluate(args):
     with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
         wrp = PredictionWrapper(args=args, queue=None, session=sess)
         try:
-            res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
+            if args.test:
+                tf.logging.info("Start to parse test passages!")
+                parser.parse(wrp,args,read_passages([args.eval_data]))
+            else:
+                res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
         except Exception as e:
             raise
 

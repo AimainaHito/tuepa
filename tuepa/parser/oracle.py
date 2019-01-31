@@ -85,7 +85,7 @@ class Oracle:
             s0 = state.stack[-1]
             incoming, outgoing = [[e for e in l if e in self.edges_remaining]
                                   for l in (s0.orig_node.incoming, s0.orig_node.outgoing)]
-            if not incoming and not outgoing and not self.need_label(s0):
+            if not incoming and not outgoing: #and not self.need_label(s0):
                 yield self.action(Actions.Reduce)
             else:
                 # Check for node label action: if all terminals have already been connected
