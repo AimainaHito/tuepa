@@ -17,10 +17,10 @@ import tuepa.progress as progress
 
 def train(args):
 
-    train_q = multiprocessing.Queue(maxsize=100)
-    val_q = multiprocessing.Queue(maxsize=50)
+    train_q = multiprocessing.Queue(maxsize=250)
+    val_q = multiprocessing.Queue(maxsize=10)
     train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.batch_size))
-    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True))
+    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 256,True))
     import h5py
     with h5py.File(args.validation_path, "r") as f:
         val_rows = len(f['labels'])
@@ -64,6 +64,7 @@ def train(args):
             for tn in range(1, args.epoch_steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
+                feed_dict[m.lr] = args.learning_rate
                 feed_dict[m.labels] = labels
                 logits, loss, _, _, tm1, gs = sess.run(
                     [m.logits, m.loss, m.per_class, m.train_op, m.merge,

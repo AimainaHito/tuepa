@@ -18,24 +18,61 @@ from collections import namedtuple
 
 ElmoPredictionData = namedtuple(
     "ElmoPredictionData", "label_numberer pos_numberer dep_numberer edge_numberer ner_numberer")
+def restore_collection(path, scopename, sess):
+    # retrieve all variables under scope
+    variables = {v.name: v for v in tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scopename)}
+    # retrieves all variables in checkpoint
+    for var_name, _ in tf.contrib.framework.list_variables(path):
+        # get the value of the variable
 
+        var_value = tf.contrib.framework.load_variable(path, var_name)
+        # construct expected variablename under new scope
+        target_var_name = '%s/%s:0' % (scopename, var_name)
+        # reference to variable-tensor
+        if target_var_name not in variables.keys():
+            print("skipping {}".format(var_name))
+            continue
+        target_variable = variables[target_var_name]
+        # assign old value from checkpoint to new variable
+        sess.run(target_variable.assign(var_value))
 
 class PredictionWrapper():
-    def __init__(self, args, queue, session):
+    def __init__(self, args, queue, session, path=None, graph=None):
         self.args = args
         self.shapes = args.shapes
         self.queue = queue
         self.session = session
+        self.outputs = []
+        with session.graph.as_default():
+            feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
+            self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
+            self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
+            self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
+            self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+            self.child_indices = tf.placeholder(name="child_indices", shape=[None], dtype=tf.int32)
+            self.child_ids = tf.placeholder(name="child_ids", shape=[None], dtype=tf.int32)
+            self.child_edge_types = tf.placeholder(name="child_edge_types", shape=[None], dtype=tf.int32)
+            self.child_edge_ids = tf.placeholder(name="child_edge_ids", shape=[None], dtype=tf.int32)
+            self.batch_ind = tf.placeholder(name="batch_ind", shape=[None], dtype=tf.int32)
+            self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
+            self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
+            self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
 
-        with self.session.graph.as_default():
+            self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
+            self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
+            self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
+            self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
+            self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
+                                                dtype=tf.int32)
+            self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
+            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
             # [Variable and model creation goes here.]
-            with tf.variable_scope("model"):
-                self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True)
-                self.logits = self.model.logits
-                self.saver = tf.train.Saver()
-                self.predictions = tf.argmax(self.logits, -1)
-                self.saver.restore(self.session, tf.train.latest_checkpoint(os.path.join(self.args.model_dir,"save_dir")))
-        (
+            for k, path in enumerate(path):
+                with tf.variable_scope('model_%03i' % (k + 1)):
+                    with tf.variable_scope("model"):
+                        self.model = ElModel(args, args.num_labels, args.num_deps, args.num_pos, args.num_ner,train=False,predict=True,batch=(
             self.form_indices,
             self.dep_types,
             self.head_indices,
@@ -57,11 +94,24 @@ class PredictionWrapper():
             self.action_ratios,
             self.node_ratios,
             self.root,
-            ) = self.model.inpts
+            ))
+                        self.logits = self.model.logits
+                        self.outputs.append(self.logits)
+                restore_collection(path,'model_%03i' % (k + 1),session)
+
+
+            self.ensemble = tf.reduce_mean(self.outputs,axis=0)
+
+                        # if path is None:
+                        #     self.saver.restore(self.session, tf.train.latest_checkpoint(os.path.join(self.args.model_dir,"save_dir")))
+                        # else:
+                        #     self.saver.restore(self.session,path)
+
+            import IPython; IPython.embed()
         self.num_feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
 
     def score(self, features):
-        return self.session.run(self.logits, feed_dict={
+        return self.session.run(self.ensemble, feed_dict={
             self.form_indices:features['form_indices'],
             self.dep_types:features['deps'],
             self.pos:features['pos'],
@@ -121,16 +171,17 @@ def evaluate(args):
     args.num_ner = ner_numberer.max
 
     gpu_options = tf.GPUOptions(allow_growth=True)
-    with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
-        wrp = PredictionWrapper(args=args, queue=None, session=sess)
-        try:
-            if args.test:
-                tf.logging.info("Start to parse test passages!")
-                parser.parse(wrp,args,read_passages([args.eval_data]))
-            else:
-                res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
-        except Exception as e:
-            raise
+    sess =  tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
+    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=[os.path.join(args.model_dir,"save_dir","tuepa_69999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_70999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_73999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_71999.ckpt")])
+
+    try:
+        if args.test:
+            tf.logging.info("Start to parse test passages!")
+            parser.parse(wrp,args,read_passages([args.eval_data]))
+        else:
+            res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
+    except Exception as e:
+        raise
 
 
 def run_eval(args):

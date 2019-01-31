@@ -104,7 +104,7 @@ def get_timing_signal_1d(positions,
 
 
 class ElModel(BaseModel):
-    def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False):
+    def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False, batch=None):
         super().__init__()
         self.args = args
 
@@ -112,31 +112,61 @@ class ElModel(BaseModel):
 
         # Inputs
         self.num_feature_tokens = feature_tokens
-        self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
-        self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
-        self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
-        self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
-        self.child_indices = tf.placeholder(name="child_indices", shape=[None], dtype=tf.int32)
-        self.child_ids = tf.placeholder(name="child_ids", shape=[None], dtype=tf.int32)
-        self.child_edge_types = tf.placeholder(name="child_edge_types", shape=[None], dtype=tf.int32)
-        self.child_edge_ids = tf.placeholder(name="child_edge_ids", shape=[None], dtype=tf.int32)
-        self.batch_ind = tf.placeholder(name="batch_ind", shape=[None], dtype=tf.int32)
-        self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
-        self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
-        self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
-        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
-        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
-        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
-        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
-        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
-        self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
-                                            dtype=tf.int32)
-        self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
-
+        if not predict:
+            self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
+            self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
+            self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
+            self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+            self.child_indices = tf.placeholder(name="child_indices", shape=[None], dtype=tf.int32)
+            self.child_ids = tf.placeholder(name="child_ids", shape=[None], dtype=tf.int32)
+            self.child_edge_types = tf.placeholder(name="child_edge_types", shape=[None], dtype=tf.int32)
+            self.child_edge_ids = tf.placeholder(name="child_edge_ids", shape=[None], dtype=tf.int32)
+            self.batch_ind = tf.placeholder(name="batch_ind", shape=[None], dtype=tf.int32)
+            self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
+            self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
+            self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+    
+            self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
+            self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
+            self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
+            self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
+            self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
+                                                dtype=tf.int32)
+            self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
+            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
+        else:
+            (
+                self.form_indices,
+                self.dep_types,
+                self.head_indices,
+                self.pos,
+                self.child_indices,
+                self.child_ids,
+                self.child_edge_types,
+                self.child_edge_ids,
+                self.batch_ind,
+                self.ner,
+                self.height,
+                self.inc,
+                self.out,
+                self.history,
+                self.elmo,
+                self.sentence_lengths,
+                self.history_lengths,
+                self.action_counts,
+                self.action_ratios,
+                self.node_ratios,
+                self.root,
+            ) = batch
         if not predict:
             self.labels = tf.placeholder(name="labels", shape=[None], dtype=tf.int32)
+
+        # Utility
+        batch_size = tf.shape(self.form_indices)[0]
+        batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
+        conc = lambda x, y: tf.concat([x, y], -1)
 
         # Embeddings
         self.history_embeddings = tf.get_variable(
@@ -188,10 +218,14 @@ class ElModel(BaseModel):
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32
         )
-        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1, self.elmo.shape[-1]],
+        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1,1324],
                                                       dtype=tf.float32)
-        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, self.elmo.shape[-1]], dtype=tf.float32)
-
+        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, 1324], dtype=tf.float32)
+        
+        top_rnn_output = tf.concat(
+            [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
+             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), self.elmo],
+            1)
         self.input_dropout = args.input_dropout
         self.layer_dropout = args.layer_dropout
 
@@ -204,14 +238,11 @@ class ElModel(BaseModel):
         self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
         self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)
         self.projection_layer = tf.layers.Dense(num_labels, use_bias=False)
-        # Utility
-        batch_size = tf.shape(self.form_indices)[0]
-        batch_indices = tf.expand_dims(tf.range(batch_size, dtype=tf.int32), 1)
-        # conc = lambda x, y: tf.concat([x, y], -1)
-        #
-        # action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
-        # action_counts = conc(action_counts,
-        #                      get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
+
+
+        action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
+        action_counts = conc(action_counts,
+                             get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
         # inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
         # inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
         # out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
@@ -219,7 +250,7 @@ class ElModel(BaseModel):
         # height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
         # height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
         #
-        # action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
+        action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
         # inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
         # out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
         # height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
@@ -227,10 +258,7 @@ class ElModel(BaseModel):
         # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
         # 0 and 1, the rest is offset by 2
-        top_rnn_output = tf.concat(
-            [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
-             tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), self.elmo],
-            1)
+
 
         # extract embeddings for stack + buffer tokens
         form_features = self.extract_vectors_3d(first_d=batch_indices,
@@ -246,13 +274,13 @@ class ElModel(BaseModel):
                                                     top_rnn_output, child_ids=self.child_ids,
                                                     segment_ids=self.batch_ind, lengths=self.sentence_lengths + 2)
 
-        # pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
-        # dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
-        # ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
+        pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
+        dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
+        ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
 
         features = tf.concat(
-            [form_features, head_features, child_features],
-            # , pos_features, dep_features, ner_features, inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
+            [form_features, head_features, child_features, pos_features, dep_features, ner_features],
+            # inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
             axis=-1)
 
         if train:
@@ -260,17 +288,20 @@ class ElModel(BaseModel):
 
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
 
-        # history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
-        # history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
+        history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
+        history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, tf.expand_dims(self.action_ratios, -1),
+        feature_vec = tf.concat([feedforward_input, history_input, action_counts, tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
 
         for layer in self.feed_forward_layers:
-            feature_vec = layer(feature_vec)
+            if feature_vec.shape[-1] == layer.units:
+                feature_vec = layer(feature_vec) + feature_vec
+            else:
+                feature_vec = layer(feature_vec)
             if train:
                 feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
 
@@ -284,12 +315,13 @@ class ElModel(BaseModel):
                                                                           self.args.num_labels)
 
         if train:
-            self.lr = tf.Variable(self.args.learning_rate, trainable=False, name="lr")
+            from tuepa.util import cyclic_learning_rate
+            self.lr = tf.placeholder_with_default(args.learning_rate,[]) #cyclic_learning_rate(tf.train.get_or_create_global_step(),self.args.learning_rate/5,self.args.learning_rate,jitter=4e8,mode='exp')#tf.Variable(self.args.learning_rate, trainable=False, name="lr")
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
             self.optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
-            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 3.5)
+            clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 10)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
             self.train_op = self.optimizer.apply_gradients(zip(clipped_gradients, variables),
                                                            global_step=tf.train.get_or_create_global_step())
