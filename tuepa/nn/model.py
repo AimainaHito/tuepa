@@ -204,17 +204,17 @@ class ElModel(BaseModel):
             dtype=tf.float32)
 
         self.height_embeddings = tf.get_variable(
-            name="height",
+            name="height_1",
             shape=[1, feature_tokens, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32)
 
         self.incoming_embedding = tf.get_variable(
-            name="inc",
+            name="inc_1",
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32
         )
         self.out_embedding = tf.get_variable(
-            name="out",
+            name="out_1",
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32
         )

@@ -55,9 +55,9 @@ class PredictionWrapper():
             self.child_edge_ids = tf.placeholder(name="child_edge_ids", shape=[None], dtype=tf.int32)
             self.batch_ind = tf.placeholder(name="batch_ind", shape=[None], dtype=tf.int32)
             self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
-            self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
-            self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-            self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.height = tf.placeholder(name="height1", shape=[None, feature_tokens], dtype=tf.int32)
+            self.inc = tf.placeholder(name="inc1", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.out = tf.placeholder(name="out1", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
             self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
 
             self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
@@ -66,7 +66,7 @@ class PredictionWrapper():
             self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
             self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
                                                 dtype=tf.int32)
-            self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
+            self.root = tf.placeholder(name="root1", shape=[None, feature_tokens], dtype=tf.int32)
             self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
             # [Variable and model creation goes here.]
             for k, path in enumerate(path):
@@ -107,7 +107,6 @@ class PredictionWrapper():
                         # else:
                         #     self.saver.restore(self.session,path)
 
-            import IPython; IPython.embed()
         self.num_feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
 
     def score(self, features):
@@ -172,7 +171,7 @@ def evaluate(args):
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     sess =  tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=[os.path.join(args.model_dir,"save_dir","tuepa_69999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_70999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_73999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_71999.ckpt")])
+    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=tf.train.get_checkpoint_state(os.path.join(args.save_dir,"save_dir")).all_model_checkpoint_paths)
 
     try:
         if args.test:
