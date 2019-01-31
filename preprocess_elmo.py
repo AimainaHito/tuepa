@@ -48,20 +48,20 @@ def preprocess(args):
 
     print("...starting to write training features", )
     training_shapes, (max_in,max_out,max_act,max_height) = specific_elmo(training_data, elmo_embedder, args, train=True)
-    
-    silver_data = preprocess_dataset(
-        args.silver_path,
-        args,
-        shapes=training_shapes,
-        label_numberer=label_numberer,
-        pos_numberer=pos_numberer,
-        dep_numberer=dep_numberer,
-        ner_numberer=ner_numberer,
-        edge_numberer=edge_numberer,
-        train=False
-    )
+    if silver_data is not None:
+        silver_data = preprocess_dataset(
+            args.silver_path,
+            args,
+            shapes=training_shapes,
+            label_numberer=label_numberer,
+            pos_numberer=pos_numberer,
+            dep_numberer=dep_numberer,
+            ner_numberer=ner_numberer,
+            edge_numberer=edge_numberer,
+            train=False
+        )
 
-    silver_shapes, silver_max_n = specific_elmo(silver_data, elmo_embedder, args, silver=True, train=False)
+        silver_shapes, silver_max_n = specific_elmo(silver_data, elmo_embedder, args, silver=True, train=False)
 
     print("finished writing training data..", )
     args.num_num = (max_in,max_out,max_act,max_height)
