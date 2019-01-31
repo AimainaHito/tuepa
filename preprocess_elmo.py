@@ -48,7 +48,7 @@ def preprocess(args):
 
     print("...starting to write training features", )
     training_shapes, (max_in,max_out,max_act,max_height) = specific_elmo(training_data, elmo_embedder, args, train=True)
-    if silver_data is not None:
+    if args.silver_path is not None:
         silver_data = preprocess_dataset(
             args.silver_path,
             args,
