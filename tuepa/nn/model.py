@@ -243,17 +243,17 @@ class ElModel(BaseModel):
         action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
         action_counts = conc(action_counts,
                              get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
-        # inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
-        # inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
-        # out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
-        # out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
-        # height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
-        # height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
+        inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
+        inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
+        out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
+        out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
+        height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
+        height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
         #
         action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
-        # inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
-        # out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
-        # height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
+        inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
+        out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
+        height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
         # elmo, state = self.elmo_lstm(inputs=switch(self.elmo * self.elmo_scale),sequence_lengths=self.sentence_lengths)
         # elmo = switch(elmo)
         # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
@@ -279,8 +279,7 @@ class ElModel(BaseModel):
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
 
         features = tf.concat(
-            [form_features, head_features, child_features, pos_features, dep_features, ner_features],
-            # inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
+            [form_features, head_features, child_features, pos_features, dep_features, ner_features, inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
             axis=-1)
 
         if train:

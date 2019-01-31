@@ -102,12 +102,6 @@ class PredictionWrapper():
 
             self.ensemble = tf.reduce_mean(self.outputs,axis=0)
 
-                        # if path is None:
-                        #     self.saver.restore(self.session, tf.train.latest_checkpoint(os.path.join(self.args.model_dir,"save_dir")))
-                        # else:
-                        #     self.saver.restore(self.session,path)
-
-            import IPython; IPython.embed()
         self.num_feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
 
     def score(self, features):
@@ -172,7 +166,7 @@ def evaluate(args):
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     sess =  tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=[os.path.join(args.model_dir,"save_dir","tuepa_69999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_70999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_73999.ckpt"),os.path.join(args.model_dir,"save_dir","tuepa_71999.ckpt")])
+    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=tf.train.get_checkpoint_state(os.path.join(args.save_dir,"save_dir")).all_model_checkpoint_paths)
 
     try:
         if args.test:
