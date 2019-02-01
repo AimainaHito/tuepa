@@ -4,8 +4,10 @@ import numpy as np
 import tuepa.finalfrontier as finalfrontier
 import ast
 
-global model
-model = finalfrontier.Model("/data/embeddings/en-1bil-wiki-ff-skip-300-ctx10.bin", True)
+#model = finalfrontier.Model("/home/tpuetz/ff-dep-token-mincount-30-ctx-mincount-5-dims-300-depth-2-ns-5.bin",False)
+model = finalfrontier.Model("/home/tpuetz/finalfrontier/target/release/en-1bil-wiki-ff-skip-300-ctx10.bin",True)
+import sys
+print("mapped",file=sys.stderr)
 
 def advindexing_roll(A, r):
     rows, column_indices = np.ogrid[:A.shape[0], :A.shape[1]]

@@ -204,17 +204,17 @@ class ElModel(BaseModel):
             dtype=tf.float32)
 
         self.height_embeddings = tf.get_variable(
-            name="height",
+            name="height_1",
             shape=[1, feature_tokens, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32)
 
         self.incoming_embedding = tf.get_variable(
-            name="inc",
+            name="inc_1",
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32
         )
         self.out_embedding = tf.get_variable(
-            name="out",
+            name="out_1",
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32
         )
@@ -290,17 +290,14 @@ class ElModel(BaseModel):
         history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
         history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, history_input, action_counts, tf.expand_dims(self.action_ratios, -1),
+        feature_vec = tf.concat([history_input, feedforward_input, action_counts, tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:
             feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
 
         for layer in self.feed_forward_layers:
-            if feature_vec.shape[-1] == layer.units:
-                feature_vec = layer(feature_vec) + feature_vec
-            else:
-                feature_vec = layer(feature_vec)
+            feature_vec = layer(feature_vec)
             if train:
                 feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
 
@@ -314,7 +311,6 @@ class ElModel(BaseModel):
                                                                           self.args.num_labels)
 
         if train:
-            from tuepa.util import cyclic_learning_rate
             self.lr = tf.placeholder_with_default(args.learning_rate,[]) #cyclic_learning_rate(tf.train.get_or_create_global_step(),self.args.learning_rate/5,self.args.learning_rate,jitter=4e8,mode='exp')#tf.Variable(self.args.learning_rate, trainable=False, name="lr")
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
