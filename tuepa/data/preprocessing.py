@@ -31,7 +31,7 @@ CONVERTERS[""] = CONVERTERS["txt"] = from_text_format
 def read_passages(files, language="en"):
     expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
     from ucca import textutil
-    passages = ioutil.read_files_and_dirs(expanded, sentences=True, paragraphs=False,
+    passages = ioutil.read_files_and_dirs(expanded, sentences=False, paragraphs=False,
                                       converters=CONVERTERS, lang=language)
     return textutil.annotate_all(passages, as_array=False, lang=language, verbose=False,)
 

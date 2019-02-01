@@ -135,7 +135,7 @@ class ElModel(BaseModel):
             self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
                                                 dtype=tf.int32)
             self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
-            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
+            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
         else:
             (
                 self.form_indices,
@@ -218,9 +218,9 @@ class ElModel(BaseModel):
             shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
             dtype=tf.float32
         )
-        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1,1324],
+        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1,1024],
                                                       dtype=tf.float32)
-        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, 1324], dtype=tf.float32)
+        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, 1024], dtype=tf.float32)
         
         top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
@@ -279,7 +279,7 @@ class ElModel(BaseModel):
         ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
 
         features = tf.concat(
-            [form_features, head_features, child_features, pos_features, dep_features, ner_features],
+            [form_features, head_features, child_features,],# pos_features, dep_features, ner_features],
             # inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
             axis=-1)
 
@@ -291,7 +291,7 @@ class ElModel(BaseModel):
         history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
         history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
 
-        feature_vec = tf.concat([feedforward_input, history_input, action_counts, tf.expand_dims(self.action_ratios, -1),
+        feature_vec = tf.concat([history_input, feedforward_input, tf.expand_dims(self.action_ratios, -1),
                                  tf.expand_dims(self.node_ratios, -1)], -1)
 
         if train:

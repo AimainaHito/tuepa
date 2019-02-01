@@ -67,7 +67,7 @@ class PredictionWrapper():
             self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
                                                 dtype=tf.int32)
             self.root = tf.placeholder(name="root1", shape=[None, feature_tokens], dtype=tf.int32)
-            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
+            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1024], dtype=tf.float32)
             # [Variable and model creation goes here.]
             for k, path in enumerate(path):
                 with tf.variable_scope('model_%03i' % (k + 1)):
@@ -171,7 +171,12 @@ def evaluate(args):
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     sess =  tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=tf.train.get_checkpoint_state(os.path.join(args.save_dir,"save_dir")).all_model_checkpoint_paths)
+    import IPython;
+    IPython.embed()
+    paths = tf.train.get_checkpoint_state(os.path.join("/data/silver_en", "save_dir")).all_model_checkpoint_paths
+
+
+    wrp = PredictionWrapper(args=args, queue=None, session=sess,path=paths)
 
     try:
         if args.test:
