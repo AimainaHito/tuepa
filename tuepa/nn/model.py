@@ -104,36 +104,61 @@ def get_timing_signal_1d(positions,
 
 
 class ElModel(BaseModel):
-    def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False):
+    def __init__(self, args, num_labels, num_dependencies, num_pos, num_ner, train, predict=False,batch=None):
         super().__init__()
         self.args = args
 
         feature_tokens = self.args.shapes.max_buffer_size + self.args.shapes.max_stack_size
 
         # Inputs
-        self.num_feature_tokens = feature_tokens
-        self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
-        self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
-        self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
-        self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
-        self.child_indices = tf.placeholder(name="child_indices", shape=[None], dtype=tf.int32)
-        self.child_ids = tf.placeholder(name="child_ids", shape=[None], dtype=tf.int32)
-        self.child_edge_types = tf.placeholder(name="child_edge_types", shape=[None], dtype=tf.int32)
-        self.child_edge_ids = tf.placeholder(name="child_edge_ids", shape=[None], dtype=tf.int32)
-        self.batch_ind = tf.placeholder(name="batch_ind", shape=[None], dtype=tf.int32)
-        self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
-        self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
-        self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
-        self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
-        self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
-        self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
-        self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
-        self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
-        self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
-        self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
-                                            dtype=tf.int32)
-        self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
+        if not predict:
+            self.form_indices = tf.placeholder(name="form_indices", shape=[None, feature_tokens], dtype=tf.int32)
+            self.dep_types = tf.placeholder(name="dep_types", shape=[None, feature_tokens], dtype=tf.int32)
+            self.head_indices = tf.placeholder(name="head_indices", shape=[None, feature_tokens], dtype=tf.int32)
+            self.pos = tf.placeholder(name="pos", shape=[None, feature_tokens], dtype=tf.int32)
+            self.child_indices = tf.placeholder(name="child_indices", shape=[None], dtype=tf.int32)
+            self.child_ids = tf.placeholder(name="child_ids", shape=[None], dtype=tf.int32)
+            self.child_edge_types = tf.placeholder(name="child_edge_types", shape=[None], dtype=tf.int32)
+            self.child_edge_ids = tf.placeholder(name="child_edge_ids", shape=[None], dtype=tf.int32)
+            self.batch_ind = tf.placeholder(name="batch_ind", shape=[None], dtype=tf.int32)
+            self.ner = tf.placeholder(name="ner", shape=[None, feature_tokens], dtype=tf.int32)
+            self.height = tf.placeholder(name="height", shape=[None, feature_tokens], dtype=tf.int32)
+            self.inc = tf.placeholder(name="inc", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.out = tf.placeholder(name="out", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
+            self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
+
+            self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
+            self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
+            self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
+            self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
+            self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
+                                                dtype=tf.int32)
+            self.root = tf.placeholder(name="root", shape=[None, feature_tokens], dtype=tf.int32)
+            self.elmo = tf.placeholder(name="elmo", shape=[None, None, 1324], dtype=tf.float32)
+        else:
+            (
+                self.form_indices,
+                self.dep_types,
+                self.head_indices,
+                self.pos,
+                self.child_indices,
+                self.child_ids,
+                self.child_edge_types,
+                self.child_edge_ids,
+                self.batch_ind,
+                self.ner,
+                self.height,
+                self.inc,
+                self.out,
+                self.history,
+                self.elmo,
+                self.sentence_lengths,
+                self.history_lengths,
+                self.action_counts,
+                self.action_ratios,
+                self.node_ratios,
+                self.root,
+            ) = batch
 
         if not predict:
             self.labels = tf.placeholder(name="labels", shape=[None], dtype=tf.int32)

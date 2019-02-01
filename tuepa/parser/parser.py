@@ -16,13 +16,16 @@ from ucca.evaluation import LABELED, UNLABELED, EVAL_TYPES, evaluate as evaluate
 from ucca.normalization import normalize
 from ucca.layer0 import Terminal
 from elmoformanylangs import Embedder
-
+import tuepa.finalfrontier as finalfrontier
 from .states.state import State
 from .action import Action
 import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
 from tuepa.data.elmo.elmo_processing import squash_singleton_terminals
 
+#p = "/home/tpuetz/finalfrontier/target/release/en-1bil-wiki-ff-skip-300-ctx10.bin"
+p = "/home/tpuetz/ff-dep-token-mincount-30-ctx-mincount-5-dims-300-depth-2-ns-5.bin"
+model = finalfrontier.Model(p, True)
 
 #TODO: temporary fix for squashed terminals in ucca.normalization.normalize
 @property
@@ -368,7 +371,7 @@ class ElmoFeatureBatch:
 
         self._features['history'] = history_features
 
-        elmo_features = np.zeros((self.batch_size, self.max_lengths['elmo'], 1024), np.float32)
+        elmo_features = np.zeros((self.batch_size, self.max_lengths['elmo'], 1324), np.float32)
         for i, feature_array in enumerate(self._features['elmo']):
             elmo_features[i][:len(feature_array)] = feature_array
         self._features['elmo'] = elmo_features
@@ -453,6 +456,8 @@ class BatchParser(AbstractParser):
                 current_passage = self.passages[self.passage_index + offset]
                 current_passage.elmo = self.elmo.sents2elmo(
                     [[str(n) for n in current_passage.layer("0").all]],-1)
+                ff_sent = [np.array(model.embedding(t.text)) for t in current_passage.layer("0").all]
+                current_passage.elmo = [np.concatenate((current_passage.elmo[0], ff_sent), axis=-1)]
                 torch.cuda.empty_cache()
 
                 parser = PassageParser(

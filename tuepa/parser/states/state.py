@@ -30,7 +30,11 @@ class State:
         self.log = []
         self.finished = False
         self.passage = passage
-        l0, l1 = [self.get_layer(passage, l) for l in (layer0, layer1)]
+        try:
+            l0, l1 = [self.get_layer(passage, l) for l in (layer0, layer1)]
+        except Exception as e:
+            l0 = self.get_layer(passage, layer0)
+            l1 = layer1.Layer1(root=passage)
         self.labeled = any(n.outgoing or n.attrib.get(LABEL_ATTRIB) for n in l1.all)
         self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag, extra=t.extra)
                           for i, t in enumerate(l0.all, start=1)]
