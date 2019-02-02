@@ -4,9 +4,6 @@ import numpy as np
 import tuepa.finalfrontier as finalfrontier
 import ast
 
-global model
-model = finalfrontier.Model("/data/embeddings/en-1bil-wiki-ff-skip-300-ctx10.bin", True)
-
 def advindexing_roll(A, r):
     rows, column_indices = np.ogrid[:A.shape[0], :A.shape[1]]
     r[r < 0] += A.shape[1]
@@ -35,7 +32,7 @@ def h5py_worker(data_path, queue, args, batch_size, eval=False):
     :param queue: a queue object
     :param args: named tuple holding commandline arguments and other information
     """
-    global model
+    model = finalfrontier.Model(args.word.finalfrontier, True)
     with h5py.File(data_path, 'r') as data:
         passages = data['passages'][()]
         def prepare(data, index=0):

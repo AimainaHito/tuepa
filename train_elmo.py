@@ -13,14 +13,15 @@ from tuepa.util import SaverHook, PerClassHook
 from tuepa.data.elmo.elmo_input import h5py_worker
 import numpy as np
 import tuepa.progress as progress
+import toml
 
 
 def train(args):
-
     train_q = multiprocessing.Queue(maxsize=250)
-    val_q = multiprocessing.Queue(maxsize=10)
-    train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.batch_size))
-    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 256,True))
+    val_q = multiprocessing.Queue(maxsize=50)
+    train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.training.batch_size))
+    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True))
+
     import h5py
     with h5py.File(args.validation_path, "r") as f:
         val_rows = len(f['labels'])
@@ -30,7 +31,6 @@ def train(args):
     val_p.start()
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
-    from tensorflow.python.client import timeline
 
     with tf.Session(config=config) as sess:
         with tf.variable_scope('model', reuse=False):
@@ -61,11 +61,12 @@ def train(args):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
-            for tn in range(1, args.epoch_steps + 1):
+            for tn in range(1, args.training.epoch_steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
-                feed_dict[m.lr] = args.learning_rate
+                feed_dict[m.lr] = args.training.learning_rate
                 feed_dict[m.labels] = labels
+
                 logits, loss, _, _, tm1, gs = sess.run(
                     [m.logits, m.loss, m.per_class, m.train_op, m.merge,
                      tf.train.get_or_create_global_step()], feed_dict, run_metadata=run_metadata, options=options)
@@ -74,7 +75,7 @@ def train(args):
                 train_ep_acc += acc
                 progress.print_network_progress("Training", tn, args.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
                                                 train_ep_acc / tn)
-                if tn != 0 and tn % 10 == 0:
+                if tn != 0 and tn % 50 == 0:
                     fw.add_summary(tm1, gs)
                     value = tf.Summary.Value(tag="train_acc",simple_value=train_ep_acc / tn)
                     loss = tf.Summary.Value(tag="train_loss", simple_value=train_ep_loss / tn)
@@ -91,13 +92,14 @@ def train(args):
             val_ep_loss = 0
             val_ep_accuracy = 0
             val_ep_mean_per_class = 0
-
+            options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
+            run_metadata = tf.RunMetadata()
             for n in range(1, steps + 1):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
                 logits, loss, maccurcy, mpc = sess.run(
-                    [v.logits, v.loss, v.per_class,v.mpc], feed_dict)
+                    [v.logits, v.loss, v.per_class,v.mpc], feed_dict, run_metadata=run_metadata, options=options)
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
@@ -127,6 +129,27 @@ def train(args):
                 args.log_file
             )
 
+from collections import namedtuple, OrderedDict
+def tupleware(obj):
+    """taken from https://gist.github.com/hangtwenty/5960435#gistcomment-2796890"""
+    if isinstance(obj, dict):
+        fields = sorted(obj.keys())
+        namedtuple_type = namedtuple(
+            typename='TWare',
+            field_names=fields,
+            rename=True,
+        )
+        field_value_pairs = OrderedDict(
+            (str(field), tupleware(obj[field])) for field in fields)
+        try:
+            return namedtuple_type(**field_value_pairs)
+        except TypeError:
+            # Cannot create namedtuple instance so fallback to dict (invalid attribute names)
+            return dict(**field_value_pairs)
+    elif isinstance(obj, (list, set, tuple, frozenset)):
+        return [tupleware(item) for item in obj]
+    else:
+        return obj
 
 def main(args):
     import tuepa.util.config as config
@@ -135,22 +158,10 @@ def main(args):
     args = argument_parser.parse_args(args)
     model_args = load_args(args.save_dir)
     # Merge preprocess args with train args
-    args = Namespace(**{**vars(model_args), **vars(args)})
-
-    with open(os.path.join(args.save_dir, LABELS_FILENAME), "r", encoding="utf-8") as file:
-        label_numberer = load_numberer_from_file(file)
-
-    with open(os.path.join(args.save_dir, EDGE_FILENAME), "r", encoding="utf-8") as file:
-        edge_numberer = load_numberer_from_file(file)
-
-    with open(os.path.join(args.save_dir, DEP_FILENAME), "r", encoding="utf-8") as file:
-        dep_numberer = load_numberer_from_file(file)
-
-    with open(os.path.join(args.save_dir, POS_FILENAME), "r", encoding="utf-8") as file:
-        pos_numberer = load_numberer_from_file(file)
-
-    with open(os.path.join(args.save_dir, NER_FILENAME), "r", encoding="utf-8") as file:
-        ner_numberer = load_numberer_from_file(file)
+    nt = tupleware(toml.load(args.config_path))._asdict()
+    args = Namespace(**{**vars(model_args), **vars(args), **nt})
+    import IPython;
+    IPython.embed()
 
     # save args for eval call
     save_args(args, args.save_dir)

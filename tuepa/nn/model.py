@@ -5,82 +5,6 @@ import tensorflow as tf
 import numpy as np
 import json
 
-import opennmt as onmt
-
-
-class FFModel(BaseModel):
-    def __init__(
-            self, dictionary_size, embedding_dims, feed_forward_layers, num_labels,
-            initial_learning_rate=0.01, input_dropout=1, layer_dropout=1
-    ):
-        self.embeddings = tf.get_variable(
-            name="embeddings",
-            shape=[dictionary_size, embedding_dims],
-            dtype=tf.float32
-        )
-
-        self.feed_forward_layers = feed_forward_layers
-        self.projection_layer = tf.layers.Dense(
-            num_labels, use_bias=False, activation=None)
-        self.optimizer = tf.train.AdamOptimizer(initial_learning_rate)
-        self.input_dropout = input_dropout
-        self.layer_dropout = layer_dropout
-
-    def __call__(self, features, train=False):
-        layer_input = tf.reshape(
-            tf.nn.embedding_lookup(self.embeddings, features),
-            [features.shape[0], -1]
-        )
-        if train:
-            layer_input = tf.nn.dropout(layer_input, self.input_dropout)
-
-        for layer in self.feed_forward_layers:
-            layer_input = layer(layer_input)
-            if train:
-                layer_input = tf.nn.dropout(layer_input, self.layer_dropout)
-
-        return self.projection_layer(layer_input)
-
-    def weights(self):
-        return (
-                [self.embeddings]
-                + sum((layer.trainable_weights for layer in self.feed_forward_layers), [])
-                + self.projection_layer.trainable_weights
-        )
-
-    def predict(self, feats):
-        return tf.argmax(self(feats, train=False))
-
-    def restore(self, file_prefix, args):
-        # Initialize layers with an empty batch
-        self(np.zeros(
-            (1, args.shapes.max_stack_size + args.shapes.max_buffer_size),
-            dtype=np.int32
-        ))
-        super().restore(file_prefix)
-
-    def run_step(self, feats, labels, train=False):
-        if train:
-            with tf.GradientTape() as tape:
-                logits = self(feats, train=True)
-                predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-                accuracy = tf.reduce_mean(
-                    tf.to_float(tf.equal(predictions, labels)))
-                x_ent = self.loss(logits, labels=labels)
-
-            grads = tape.gradient(x_ent, self.weights())
-            self.optimizer.apply_gradients(
-                zip(grads, self.weights()), global_step=tf.train.get_or_create_global_step()
-            )
-        else:
-            logits = self(feats)
-            predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(
-                tf.to_float(tf.equal(predictions, labels)))
-            x_ent = self.loss(logits, labels=labels)
-
-        return sum(x_ent.numpy()), accuracy
-
 
 def get_timing_signal_1d(positions,
                          channels,
@@ -171,94 +95,76 @@ class ElModel(BaseModel):
         # Embeddings
         self.history_embeddings = tf.get_variable(
             name="embeddings",
-            shape=[num_labels, args.history_embedding_size],
+            shape=[num_labels, args.model.history_embedding_size],
             dtype=tf.float32
         )
 
         self.pos_embeddings = tf.get_variable(
             name="pos_embeddings",
-            shape=[num_pos, args.embedding_size],
+            shape=[num_pos, args.model.embedding_size],
             dtype=tf.float32
         )
 
         self.dep_embeddings = tf.get_variable(
             name="dep_embeddings",
-            shape=[num_dependencies, args.embedding_size],
+            shape=[num_dependencies, args.model.embedding_size],
             dtype=tf.float32
         )
 
         self.ner_embeddings = tf.get_variable(
             name="ner_embeddings",
-            shape=[num_ner, args.embedding_size],
+            shape=[num_ner, args.model.embedding_size],
             dtype=tf.float32
         )
 
         self.edge_embeddings = tf.get_variable(
             name="edge_embeddings",
-            shape=[args.num_edges, args.embedding_size],
+            shape=[args.num_edges, args.model.embedding_size],
             dtype=tf.float32)
 
         self.action_count_embeddings = tf.get_variable(
             name="ac_count",
-            shape=[1, num_labels, max(self.args.embedding_size // 5, 10)],
+            shape=[1, num_labels, max(self.args.model.embedding_size // 5, 10)],
             dtype=tf.float32)
 
         self.height_embeddings = tf.get_variable(
             name="height_1",
-            shape=[1, feature_tokens, max(self.args.embedding_size // 5, 10)],
+            shape=[1, feature_tokens, max(self.args.model.embedding_size // 5, 10)],
             dtype=tf.float32)
 
         self.incoming_embedding = tf.get_variable(
             name="inc_1",
-            shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
+            shape=[1, feature_tokens, args.num_edges, max(self.args.model.embedding_size // 5, 10)],
             dtype=tf.float32
         )
         self.out_embedding = tf.get_variable(
             name="out_1",
-            shape=[1, feature_tokens, args.num_edges, max(self.args.embedding_size // 5, 10)],
+            shape=[1, feature_tokens, args.num_edges, max(self.args.model.embedding_size // 5, 10)],
             dtype=tf.float32
         )
-        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1,1024],
-                                                      dtype=tf.float32)
-        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, 1024], dtype=tf.float32)
-        
+        self.non_terminal_embedding = tf.get_variable("non_terminal", shape=[1, 1,self.elmo.shape[-1]],dtype=tf.float32)
+        self.padding_embedding = tf.get_variable("padding", shape=[1, 1, self.elmo.shape[-1]], dtype=tf.float32)
+
+        # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
+        # 0 and 1, the rest is offset by 2
         top_rnn_output = tf.concat(
             [tf.tile(self.padding_embedding, [batch_size, 1, 1]),
              tf.tile(self.non_terminal_embedding, [batch_size, 1, 1]), self.elmo],
             1)
-        self.input_dropout = args.input_dropout
-        self.layer_dropout = args.layer_dropout
 
         # Weights
         # self.elmo_weights = tf.get_variable("weights_scale", initializer=[[[[0.5],[0.5],[0.5]]]], dtype=tf.float32)
         # self.elmo_scale = tf.get_variable("elmo_scale", initializer=1., dtype=tf.float32)
         # elmo = tf.reduce_sum(self.elmo * tf.nn.softmax(self.elmo_weights), axis=-2)
-        self.history_rnn = tf.layers.Dense(args.history_rnn_neurons, activation=tf.nn.relu)
+
         # dense layers
-        self.feed_forward_layers = feed_forward_from_json(json.loads(args.layers))
-        self.child_processing_layers = tf.layers.Dense(self.args.top_rnn_neurons, activation=tf.nn.relu)
+        self.feed_forward_layers = feed_forward_from_json(json.loads(args.model.layers))
+        self.child_processing_layers = feed_forward_from_json(json.loads(args.model.child_processing_layers))
         self.projection_layer = tf.layers.Dense(num_labels, use_bias=False)
 
 
-        action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
-        action_counts = conc(action_counts,
-                             get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
-        # inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
-        # inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
-        # out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
-        # out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
-        # height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
-        # height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
-        #
-        action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
-        # inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
-        # out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * 10 * 2])
-        # height = tf.reshape(height, [batch_size, feature_tokens, 10 * 2])
-        # elmo, state = self.elmo_lstm(inputs=switch(self.elmo * self.elmo_scale),sequence_lengths=self.sentence_lengths)
-        # elmo = switch(elmo)
-        # prepend padding and non terminal embedding, non-terminals + padded positions on the stack have form index
-        # 0 and 1, the rest is offset by 2
-
+        # global features
+        history_input = self.global_features(batch_size, conc)
 
         # extract embeddings for stack + buffer tokens
         form_features = self.extract_vectors_3d(first_d=batch_indices,
@@ -274,13 +180,12 @@ class ElModel(BaseModel):
                                                     top_rnn_output, child_ids=self.child_ids,
                                                     segment_ids=self.batch_ind, lengths=self.sentence_lengths + 2)
 
-        pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
-        dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
-        ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
+
+        # per token features
+        per_token_features = self.token_features(batch_size, conc,feature_tokens)
 
         features = tf.concat(
-            [form_features, head_features, child_features,],# pos_features, dep_features, ner_features],
-            # inc, out, height, tf.expand_dims(tf.to_float(self.root), -1)],
+            [form_features, head_features, child_features, per_token_features],
             axis=-1)
 
         if train:
@@ -288,14 +193,10 @@ class ElModel(BaseModel):
 
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
 
-        history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
-        history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
-
-        feature_vec = tf.concat([history_input, feedforward_input, tf.expand_dims(self.action_ratios, -1),
-                                 tf.expand_dims(self.node_ratios, -1)], -1)
+        feature_vec = tf.concat([history_input, feedforward_input], -1)
 
         if train:
-            feature_vec = tf.nn.dropout(feature_vec, self.input_dropout)
+            feature_vec = tf.nn.dropout(feature_vec, args.training.input_dropout)
 
         for layer in self.feed_forward_layers:
             if feature_vec.shape[-1] == layer.units:
@@ -303,7 +204,7 @@ class ElModel(BaseModel):
             else:
                 feature_vec = layer(feature_vec)
             if train:
-                feature_vec = tf.nn.dropout(feature_vec, self.layer_dropout)
+                feature_vec = tf.nn.dropout(feature_vec, args.training.layer_dropout)
 
         self.logits = self.projection_layer(feature_vec)
         self.predictions = tf.argmax(self.logits, -1)
@@ -315,11 +216,10 @@ class ElModel(BaseModel):
                                                                           self.args.num_labels)
 
         if train:
-            from tuepa.util import cyclic_learning_rate
-            self.lr = tf.placeholder_with_default(args.learning_rate,[]) #cyclic_learning_rate(tf.train.get_or_create_global_step(),self.args.learning_rate/5,self.args.learning_rate,jitter=4e8,mode='exp')#tf.Variable(self.args.learning_rate, trainable=False, name="lr")
+            self.lr = tf.placeholder_with_default(args.training.learning_rate,[])
             lr_scalar = tf.summary.scalar("lr", self.lr, family="train")
 
-            self.optimizer = tf.train.AdamOptimizer(self.lr)  # tf.train.RMSPropOptimizer(self.lr)
+            self.optimizer = tf.train.AdamOptimizer(self.lr)
             gradients, variables = zip(*self.optimizer.compute_gradients(self.loss))
             clipped_gradients, self.gradient_norm = tf.clip_by_global_norm(gradients, 10)
             self.gradient_scalar = tf.summary.scalar("gradient_norm", self.gradient_norm, family="train")
@@ -327,6 +227,69 @@ class ElModel(BaseModel):
                                                            global_step=tf.train.get_or_create_global_step())
 
             self.merge = tf.summary.merge([self.gradient_scalar, lr_scalar])
+
+    def token_features(self, batch_size, conc, feature_tokens):
+        features = []
+
+        if self.args.features.token.is_root:
+            root = tf.expand_dims(tf.to_float(self.root), -1)
+            features.append(root)
+
+        if self.args.features.token.height:
+            height = tf.tile(self.height_embeddings, [batch_size, 1, 1])
+            height = conc(height, get_timing_signal_1d(self.height, self.height_embeddings.shape[-1].value))
+            height = tf.reshape(height, [batch_size, feature_tokens, self.incoming_embedding.shape[-1] * 2])
+            features.append(height)
+
+        if self.args.features.token.inc:
+            inc = tf.tile(self.incoming_embedding, [batch_size, 1, 1, 1])
+            inc = conc(inc, get_timing_signal_1d(self.inc, self.incoming_embedding.shape[-1].value))
+            inc = tf.reshape(inc, [batch_size, feature_tokens, self.args.num_edges * self.incoming_embedding.shape[-1] * 2])
+            features.append(inc)
+
+        if self.args.features.token.out:
+            out = tf.tile(self.out_embedding, [batch_size, 1, 1, 1])
+            out = conc(out, get_timing_signal_1d(self.inc, self.out_embedding.shape[-1].value))
+            out = tf.reshape(out, [batch_size, feature_tokens, self.args.num_edges * self.incoming_embedding.shape[-1] * 2])
+            features.append(out)
+
+        if self.args.features.token.pos:
+            pos_features = tf.nn.embedding_lookup(self.pos_embeddings, self.pos)
+            features.append(pos_features)
+
+        if self.args.features.token.dep:
+            dep_features = tf.nn.embedding_lookup(self.dep_embeddings, self.dep_types)
+            features.append(dep_features)
+
+        if self.args.features.token.ner:
+            ner_features = tf.nn.embedding_lookup(self.ner_embeddings, self.ner)
+            features.append(ner_features)
+
+        return tf.concat(features,-1)
+
+    def global_features(self, batch_size, conc):
+        features = []
+        if self.args.features.glob.action_counts:
+            action_counts = tf.tile(self.action_count_embeddings, [batch_size, 1, 1])
+            action_counts = conc(action_counts,
+                                 get_timing_signal_1d(self.action_counts, self.action_count_embeddings.shape[-1].value))
+            action_counts = tf.reshape(action_counts, [batch_size, self.args.num_labels * 10 * 2])
+            features.append(action_counts)
+
+        if self.args.features.glob.history:
+            history_input = tf.nn.embedding_lookup(self.history_embeddings, self.history)
+            history_input = tf.reshape(history_input, [batch_size, 10 * self.history_embeddings.shape[-1]])
+            features.append(history_input)
+
+        if self.args.features.glob.action_ratio:
+            action_ratios = tf.expand_dims(self.action_ratios, -1),
+            features.append(action_ratios)
+
+        if self.args.features.glob.node_ratio:
+            node_ratios = tf.expand_dims(self.node_ratios, -1)
+            features.append(node_ratios)
+
+        return tf.concat(features, -1)
 
     @property
     def inpts(self):
@@ -396,76 +359,3 @@ class ElModel(BaseModel):
                 -1)
             features = tf.gather_nd(t, selectors)
             return features
-
-
-class TransformerModel(BaseModel):
-    def __init__(self, dictionary_size, num_labels, args):
-        self.embeddings = tf.get_variable(name="embeddings", shape=[dictionary_size, args.embedding_size],
-                                          dtype=tf.float32)
-        self.position_embeddings = tf.get_variable("position_embeddings",
-                                                   shape=[args.max_positions, args.embedding_size])
-        self.optimizer = tf.train.AdamOptimizer(args.learning_rate)
-        self.args = args
-        self.layers = args.num_layers
-        self.encoder = self.build_encoder()
-        self.projection_layer = tf.layers.Dense(num_labels, use_bias=False)
-
-    def __call__(self, feats):
-        embeddings = tf.nn.embedding_lookup(self.embeddings, feats)
-        embeddings += tf.nn.embedding_lookup(
-            self.position_embeddings,
-            tf.clip_by_value(tf.range(0, tf.shape(embeddings)[1]), clip_value_min=0,
-                             clip_value_max=self.args.max_positions)
-        )
-
-        for layer in self.encoder:
-            embeddings = layer(embeddings)
-
-        return self.projection_layer(embeddings[:, 0])
-
-    def weights(self):
-        return (
-                [self.embeddings, self.position_embeddings]
-                + sum((layer.trainable_weights for layer in self.encoder), [])
-        )
-
-    def run_step(self, feats, labels, train=False):
-        if train:
-            with tf.GradientTape() as tape:
-                logits = self(feats)
-                predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-                accuracy = tf.reduce_mean(
-                    tf.to_float(tf.equal(predictions, labels)))
-                x_ent = self.loss(logits, labels=labels)
-
-            gradients = tape.gradient(x_ent, self.weights())
-            self.optimizer.apply_gradients(zip(gradients, self.weights()),
-                                           global_step=tf.train.get_or_create_global_step())
-
-        else:
-            logits = self(feats)
-            predictions = tf.to_int32(tf.argmax(logits, axis=-1))
-            accuracy = tf.reduce_mean(
-                tf.to_float(tf.equal(predictions, labels)))
-            x_ent = self.loss(logits, labels=labels)
-
-        return sum(x_ent.numpy()), accuracy
-
-    def restore(self, file_prefix, args):
-        # Initialize layers with an empty batch
-        self(np.zeros(
-            (1, args.shapes.max_stack_size +
-             args.shapes.max_buffer_size + args.max_training_length + 1),
-            dtype=np.int32
-        ))
-        super().restore(file_prefix)
-
-    def build_encoder(self):
-        encoder = []
-        for _ in range(self.layers):
-            encoder.append(SelfAttention(
-                self.args.num_heads, self.args.embedding_size))
-            encoder.append(ResidualFeedforward(
-                self.args.embedding_size, self.args.self_attention_neurons))
-
-        return encoder

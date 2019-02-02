@@ -25,6 +25,7 @@ def create_argument_parser():
     # Data arguments
     common_parser.add_argument("training_path", help="Glob to UCCA annotated training data")
     common_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
+
     common_parser.add_argument("--max-training-features", type=int, default=None,
                                help="Maximum number of features to train on")
     common_parser.add_argument("--max-validation-features", type=int, default=None,
@@ -91,6 +92,7 @@ def get_elmo_parser():
     elmo_rnn_parser = argparse.ArgumentParser(parents=[oracle_parser])
     elmo_rnn_parser.add_argument("training_path", help="Path to preprocessed hdf5 file containing training data.")
     elmo_rnn_parser.add_argument("validation_path", help="Path to preprocessed hdf5 file containing validation data.")
+    elmo_rnn_parser.add_argument("config_path", help="Path to config in toml format, contains feature specification.")
 
     # Logging arguments
     elmo_rnn_parser.add_argument("--log-file", type=argparse.FileType("w", encoding="utf-8"), default=None,
@@ -108,22 +110,6 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("-b", "--batch-size", type=int, default=128, help="Maximum batch size")
     elmo_rnn_parser.add_argument("--learning-rate", type=float, default=0.01,
                                  help="(Initial) learning rate for the optimizer")
-    elmo_rnn_parser.add_argument("-bi-rnn", "--bi-rnn-neurons", type=int, default=512,
-                                 help="Neurons in the sentence bi-rnn")
-    elmo_rnn_parser.add_argument("-top-rnn", "--top-rnn-neurons", type=int, default=512,
-                                 help="Neurons in the uni-directional RNN stacked on the sentence bi-rnn.")
-    elmo_rnn_parser.add_argument("-hist-rnn", "--history-rnn-neurons", type=int, default=512,
-                                 help="Neurons in the history rnn.")
-    elmo_rnn_parser.add_argument("-l", "--layers",default='[{"neurons" : 1024, "activation" : "relu", "updown" : 0}]',
-                                 help='layers in json format, e.g. [{"neurons" : 512, "activation" : "relu", "updown" : 0}]')
-    elmo_rnn_parser.add_argument("--input-dropout", type=float, default=1,
-                                 help="Dropout keep probability applied on the NN input")
-    elmo_rnn_parser.add_argument("--layer-dropout", type=float, default=1,
-                                 help="Dropout keep probability applied after each hidden layer")
-    elmo_rnn_parser.add_argument("--history-embedding-size", type=int, default=300,
-                                 help="Size of the action history embeddings")
-    elmo_rnn_parser.add_argument("--epoch_steps", type=int, default=100, help="Batches per training / evaluation epoch")
-    elmo_rnn_parser.add_argument("--numbers", type=str, default="absolute", help="Mode of representing numbers. One of: ['absolute','log','embed']")
     return elmo_rnn_parser
 
 
