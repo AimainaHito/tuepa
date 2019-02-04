@@ -27,13 +27,17 @@ def from_text_format(*args, **kwargs):
 CONVERTERS = {k: partial(c, annotate=True) for k, c in FROM_FORMAT.items()}
 CONVERTERS[""] = CONVERTERS["txt"] = from_text_format
 
+from tuepa.data.io import SingleFileLazyLoadedPassages
 
 def read_passages(files, language="en"):
-    expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
-    from ucca import textutil
-    passages = ioutil.read_files_and_dirs(expanded, sentences=False, paragraphs=False,
-                                      converters=CONVERTERS, lang=language)
-    return textutil.annotate_all(passages, as_array=False, lang=language, verbose=False,)
+    if not files[-3:] == "xml":
+        expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
+        passages = ioutil.read_files_and_dirs(expanded, sentences=False, paragraphs=False,
+                                              converters=CONVERTERS, lang=language)
+        from ucca import textutil
+        return textutil.annotate_all(passages, as_array=False, lang=language, verbose=False, )
+    else:
+        return SingleFileLazyLoadedPassages(files,converters=CONVERTERS,lang=language)
 
 
 def extract_features(state, label_numberer, train=True):

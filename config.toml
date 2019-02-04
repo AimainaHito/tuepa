@@ -1,15 +1,19 @@
+profile = true
+
 [training]
     batch_size = 92
     learning_rate = 2.5e-5
     epoch_steps = 1000
     input_dropout = 0.8
     layer_dropout = 0.8
+    child_dropout = 0.8
 
 [model]
-    layers = '[{"neurons" : 1024, "activation" : "relu", "updown" : 0}]'
-    history_embedding_size = 100
-    embedding_size = 50
-    child_processing_layers = '[{"neurons" : 512, "activation" : "relu", "updown" : 0}]'
+    layers = '[{"neurons" : 384, "activation" : "relu", "updown" : 0}]'
+    history_embedding_size = 50
+    embedding_size = 32
+    child_processing_layers = '[{"neurons" : 256, "activation" : "relu", "updown" : 0}]'
+    child_aggregator = 'max'
     numbers = 'embed'
 
 [features.word]
@@ -23,8 +27,8 @@
     dep = false
     head = false
     height = false
-    incoming = false
-    outgoing = false
+    out = false
+    inc = false
     children = true
     is_root = true
 

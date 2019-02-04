@@ -5,11 +5,8 @@ import tensorflow as tf
 from argparse import Namespace
 from timeit import default_timer
 
-from tuepa.util.config import save_args, load_args, LABELS_FILENAME, \
-    DEP_FILENAME, EDGE_FILENAME, POS_FILENAME, NER_FILENAME
+from tuepa.util.config import save_args, load_args
 from tuepa.nn import ElModel
-from tuepa.util.numberer import load_numberer_from_file
-from tuepa.util import SaverHook, PerClassHook
 from tuepa.data.elmo.elmo_input import h5py_worker
 import numpy as np
 import tuepa.progress as progress
@@ -19,16 +16,22 @@ import toml
 def train(args):
     train_q = multiprocessing.Queue(maxsize=250)
     val_q = multiprocessing.Queue(maxsize=50)
-    train_p = multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.training.batch_size))
-    val_p = multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True))
+    train_p = [multiprocessing.Process(target=h5py_worker, args=(args.training_path, train_q, args,args.training.batch_size)) for _ in range(3)]
+    val_p = [multiprocessing.Process(target=h5py_worker, args=(args.validation_path, val_q, args, 512,True)) for _ in range(3)]
 
     import h5py
+
     with h5py.File(args.validation_path, "r") as f:
         val_rows = len(f['labels'])
-    train_p.daemon = True
-    val_p.daemon = True
-    train_p.start()
-    val_p.start()
+
+    for p in train_p:
+        p.daemon = True
+        p.start()
+
+    for p in val_p:
+        p.daemon = True
+        p.start()
+
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
 
@@ -50,12 +53,19 @@ def train(args):
             tf.logging.info("Restoring model from latest checkpoint: {}".format(cp))
             sv.restore(sess, cp)
 
-        train_inputs = m.inpts
-        val_inputs = v.inpts
+        train_inputs = m.placeholders
+        val_inputs = v.placeholders
         fw = tf.summary.FileWriter(logdir=os.path.join(args.save_dir, "log_dir"), graph=sess.graph)
         steps = val_rows // 512
-        options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
-        run_metadata= tf.RunMetadata()
+
+        if args.profile:
+            train_options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
+            train_run_metadata= tf.RunMetadata()
+            val_options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
+            val_run_metadata = tf.RunMetadata()
+        else:
+            val_run_metadata = train_run_metadata = None
+            val_options = train_options = None
 
         for iteration in range(100000):
             start_time = default_timer()
@@ -69,11 +79,11 @@ def train(args):
 
                 logits, loss, _, _, tm1, gs = sess.run(
                     [m.logits, m.loss, m.per_class, m.train_op, m.merge,
-                     tf.train.get_or_create_global_step()], feed_dict, run_metadata=run_metadata, options=options)
+                     tf.train.get_or_create_global_step()], feed_dict, run_metadata=train_run_metadata, options=train_options)
                 train_ep_loss += loss.mean()
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 train_ep_acc += acc
-                progress.print_network_progress("Training", tn, args.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
+                progress.print_network_progress("Training", tn, args.training.epoch_steps, loss.mean(), train_ep_loss / tn, acc,
                                                 train_ep_acc / tn)
                 if tn != 0 and tn % 50 == 0:
                     fw.add_summary(tm1, gs)
@@ -84,7 +94,8 @@ def train(args):
                     # chrome_trace = fetched_timeline.generate_chrome_trace_format()
                     # with open(os.path.join(args.save_dir,'log_dir/timeline_{}.json'.format(gs)), 'w') as f:
                     #     f.write(chrome_trace)
-                    fw.add_run_metadata(run_metadata,tag="train_meta_{}".format(gs),global_step=gs)
+                    if args.profile:
+                        fw.add_run_metadata(train_run_metadata,tag="train_meta_{}".format(gs),global_step=gs)
                     fw.add_summary(summary,gs)
                     fw.flush()
 
@@ -92,14 +103,13 @@ def train(args):
             val_ep_loss = 0
             val_ep_accuracy = 0
             val_ep_mean_per_class = 0
-            options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
-            run_metadata = tf.RunMetadata()
+
             for n in range(1, steps + 1):
                 features, labels = val_q.get()
                 feed_dict = dict(zip(val_inputs, features))
                 feed_dict[v.labels] = labels
                 logits, loss, maccurcy, mpc = sess.run(
-                    [v.logits, v.loss, v.per_class,v.mpc], feed_dict, run_metadata=run_metadata, options=options)
+                    [v.logits, v.loss, v.per_class,v.mpc], feed_dict, run_metadata=val_run_metadata, options=val_options)
                 acc = np.equal(np.argmax(logits, -1), labels).mean()
                 val_ep_loss += loss.mean()
                 val_ep_accuracy += acc
@@ -107,6 +117,8 @@ def train(args):
 
                 progress.print_network_progress("Validation", n, steps, loss.mean(), val_ep_loss / n, acc,
                                                 val_ep_accuracy / n)
+            if args.profile:
+                fw.add_run_metadata(val_run_metadata,"validation_metadata_{}".format(gs),gs)
 
             value = tf.Summary.Value(tag="val_acc",simple_value=val_ep_accuracy/n)
             per_class = tf.Summary.Value(tag="mean_per_class",simple_value=val_ep_mean_per_class/n)
@@ -129,25 +141,11 @@ def train(args):
                 args.log_file
             )
 
-from collections import namedtuple, OrderedDict
-def tupleware(obj):
-    """taken from https://gist.github.com/hangtwenty/5960435#gistcomment-2796890"""
+def dict2namespace(obj):
     if isinstance(obj, dict):
-        fields = sorted(obj.keys())
-        namedtuple_type = namedtuple(
-            typename='TWare',
-            field_names=fields,
-            rename=True,
-        )
-        field_value_pairs = OrderedDict(
-            (str(field), tupleware(obj[field])) for field in fields)
-        try:
-            return namedtuple_type(**field_value_pairs)
-        except TypeError:
-            # Cannot create namedtuple instance so fallback to dict (invalid attribute names)
-            return dict(**field_value_pairs)
+        return Namespace(**{k:dict2namespace(v) for k, v in obj.items()})
     elif isinstance(obj, (list, set, tuple, frozenset)):
-        return [tupleware(item) for item in obj]
+        return [dict2namespace(item) for item in obj]
     else:
         return obj
 
@@ -156,15 +154,13 @@ def main(args):
     tf.logging.set_verbosity(tf.logging.INFO)
     argument_parser = config.get_elmo_parser()
     args = argument_parser.parse_args(args)
-    model_args = load_args(args.save_dir)
+    model_args = load_args(args.metadata_path)
     # Merge preprocess args with train args
-    nt = tupleware(toml.load(args.config_path))._asdict()
-    args = Namespace(**{**vars(model_args), **vars(args), **nt})
-    import IPython;
-    IPython.embed()
+    nt = dict2namespace(toml.load(args.config_path))
+    args = Namespace(**{**vars(model_args), **vars(args), **vars(nt)})
 
     # save args for eval call
-    save_args(args, args.save_dir)
+    save_args(args, args.metadata_path)
 
     train(args=args)
 

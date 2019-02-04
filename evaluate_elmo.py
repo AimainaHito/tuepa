@@ -34,6 +34,7 @@ def restore_collection(path, scopename, sess):
             continue
         target_variable = variables[target_var_name]
         # assign old value from checkpoint to new variable
+        print(target_variable, target_var_name)
         sess.run(target_variable.assign(var_value))
 
 class PredictionWrapper():
@@ -59,9 +60,7 @@ class PredictionWrapper():
             self.inc = tf.placeholder(name="inc1", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
             self.out = tf.placeholder(name="out1", shape=[None, feature_tokens, self.args.num_edges], dtype=tf.int32)
             self.history = tf.placeholder(name="hist", shape=[None, None], dtype=tf.int32)
-
             self.sentence_lengths = tf.placeholder(name="sent_lens", shape=[None], dtype=tf.int32)
-            self.history_lengths = tf.placeholder(name="hist_lens", shape=[None], dtype=tf.int32)
             self.action_ratios = tf.placeholder(name="action_ratios", shape=[None], dtype=tf.float32)
             self.node_ratios = tf.placeholder(name="node_ratios", shape=[None], dtype=tf.float32)
             self.action_counts = tf.placeholder(name="act_counts", shape=[None, self.args.num_labels],
@@ -89,7 +88,6 @@ class PredictionWrapper():
             self.history,
             self.elmo,
             self.sentence_lengths,
-            self.history_lengths,
             self.action_counts,
             self.action_ratios,
             self.node_ratios,
@@ -99,13 +97,8 @@ class PredictionWrapper():
                         self.outputs.append(self.logits)
                 restore_collection(path,'model_%03i' % (k + 1),session)
 
-
             self.ensemble = tf.reduce_mean(self.outputs,axis=0)
 
-                        # if path is None:
-                        #     self.saver.restore(self.session, tf.train.latest_checkpoint(os.path.join(self.args.model_dir,"save_dir")))
-                        # else:
-                        #     self.saver.restore(self.session,path)
 
         self.num_feature_tokens = self.shapes.max_stack_size + self.shapes.max_buffer_size
 
@@ -126,7 +119,6 @@ class PredictionWrapper():
             self.out:features['out'],
             self.history:features['history'],
             self.sentence_lengths:features['sent_lens'],
-            self.history_lengths:features['hist_lens'],
             self.elmo:features['elmo'],
             self.node_ratios:features['node_ratios'],
             self.action_ratios:features['action_ratios'],
@@ -134,29 +126,33 @@ class PredictionWrapper():
             self.root:features['root']
         })
 
-
+def dict2namespace(obj):
+    if isinstance(obj, dict):
+        return Namespace(**{k:dict2namespace(v) for k, v in obj.items()})
+    elif isinstance(obj, (list, set, tuple, frozenset)):
+        return [dict2namespace(item) for item in obj]
+    else:
+        return obj
+import toml
 def evaluate(args):
-    print(args.model_dir)
-    model_args = load_args(args.model_dir)
+    model_args = load_args(args.meta_dir)
     # Merge model args with evaluation args
-    print(model_args)
-    print(args)
-    args = Namespace(**{**vars(model_args), **vars(args)})
-    
+    nt = dict2namespace(toml.load("config.toml"))
+    args = Namespace(**{**vars(model_args), **vars(args), **vars(nt)})
     # restore numberers
-    with open(os.path.join(args.model_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.meta_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:
         label_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.model_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.meta_dir, tuepa.util.config.EDGE_FILENAME), "r", encoding="utf-8") as file:
         edge_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.model_dir, tuepa.util.config.DEP_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.meta_dir, tuepa.util.config.DEP_FILENAME), "r", encoding="utf-8") as file:
         dep_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.model_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.meta_dir, tuepa.util.config.POS_FILENAME), "r", encoding="utf-8") as file:
         pos_numberer = load_numberer_from_file(file)
 
-    with open(os.path.join(args.model_dir, tuepa.util.config.NER_FILENAME), "r", encoding="utf-8") as file:
+    with open(os.path.join(args.meta_dir, tuepa.util.config.NER_FILENAME), "r", encoding="utf-8") as file:
         ner_numberer = load_numberer_from_file(file)
 
     args.num_edges = edge_numberer.max
@@ -171,19 +167,15 @@ def evaluate(args):
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     sess =  tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-    import IPython;
-    IPython.embed()
-    paths = tf.train.get_checkpoint_state(os.path.join("/data/silver_en", "save_dir")).all_model_checkpoint_paths
-
-
+    paths = tf.train.get_checkpoint_state(os.path.join(args.save_dir, "save_dir")).all_model_checkpoint_paths
     wrp = PredictionWrapper(args=args, queue=None, session=sess,path=paths)
 
     try:
         if args.test:
             tf.logging.info("Start to parse test passages!")
-            parser.parse(wrp,args,read_passages([args.eval_data]))
+            parser.parse(wrp,args,read_passages(args.eval_data))
         else:
-            res = list(parser.evaluate(wrp, args,read_passages([args.eval_data])))
+            res = list(parser.evaluate(wrp, args,read_passages(args.eval_data)))
     except Exception as e:
         raise
 

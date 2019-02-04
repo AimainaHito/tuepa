@@ -93,7 +93,8 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("training_path", help="Path to preprocessed hdf5 file containing training data.")
     elmo_rnn_parser.add_argument("validation_path", help="Path to preprocessed hdf5 file containing validation data.")
     elmo_rnn_parser.add_argument("config_path", help="Path to config in toml format, contains feature specification.")
-
+    elmo_rnn_parser.add_argument("metadata_path",
+                                 help="Directory containing metadata, such as shapes, vocabularies etc.")
     # Logging arguments
     elmo_rnn_parser.add_argument("--log-file", type=argparse.FileType("w", encoding="utf-8"), default=None,
                                  help="File to log training and validation progress to")
@@ -104,12 +105,6 @@ def get_elmo_parser():
     elmo_rnn_parser.add_argument("--save-dir", default=None,
                                  help="directory the trained neural network model will be saved to every epoch")
 
-    # General neural network arguments
-    elmo_rnn_parser.add_argument("-e", "--embedding-size", type=int, default=300,
-                                 help="Number of dimensions of the feature embeddings matrix")
-    elmo_rnn_parser.add_argument("-b", "--batch-size", type=int, default=128, help="Maximum batch size")
-    elmo_rnn_parser.add_argument("--learning-rate", type=float, default=0.01,
-                                 help="(Initial) learning rate for the optimizer")
     return elmo_rnn_parser
 
 
@@ -119,17 +114,18 @@ def get_preprocess_parser(parents=None):
     argument_parser = argparse.ArgumentParser(parents=parents)
     argument_parser.add_argument("training_path", help="Glob to UCCA annotated training data")
     argument_parser.add_argument("validation_path", help="Glob to UCCA annotated validation data")
-    argument_parser.add_argument("silver_path", help="Glob to UCCA annotated silver data")
     argument_parser.add_argument("training_out", help="File where the training hdf5 file will be saved.")
     argument_parser.add_argument("validation_out", help="File where the validation hdf5 file will be saved.")
-    argument_parser.add_argument("silver_out", help="File where the silver hdf5 file will be saved.")
+    argument_parser.add_argument("meta-dir", required=True,
+                                 help="Directory where meta information such as vocabularies will be saved.")
+    argument_parser.add_argument("--silver_path", default=None, help="Glob to UCCA annotated silver data")
+    argument_parser.add_argument("--silver_out", default=None, help="File where the silver hdf5 file will be saved.")
     argument_parser.add_argument("--warm-up",
                                  help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
                                  required=False, type=str)
     argument_parser.add_argument("-elmo", "--elmo-path", required=True,
                                  help="Path to ELMo trained with ELMoForManyLangs.")
-    argument_parser.add_argument("--save-dir", default=None, required=True,
-                                 help="Directory where meta information such as vocabularies will be saved.")
+
     argument_parser.add_argument("--stack_elements", default=3, type=int,
                                  help="Number of stack elements for which features will be extracted.")
     argument_parser.add_argument("--buffer_elements", default=3, type=int,
@@ -144,7 +140,8 @@ def get_eval_parser(parser):
     evaluation_parser = parser
     evaluation_parser.add_argument("model_dir", help="Directory containing a trained neural network model")
     evaluation_parser.add_argument("eval_data", help="Glob to UCCA annotated dev/test data")
-    evaluation_parser.add_argument("-t","--test", action="store_true",
+    evaluation_parser.add_argument("meta_dir", help="Directory where meta information such as vocabularies will be saved.")
+    evaluation_parser.add_argument("-t", "--test", action="store_true",
                                    help="No evaluation if true, will write to 'out_<lang>'")
     evaluation_parser.add_argument("--write-scores", action="store_true",
                                    help="Whether evaluation scores should be written to a file")
@@ -166,10 +163,11 @@ def get_eval_parser(parser):
     evaluation_parser.add_argument("-pb", "--parser-batch-size", type=int,
                                    help="Maximum number of parses running in parallel")
     evaluation_parser.add_argument("-log", "--log-file", type=str,
-                               help="Log file")
+                                   help="Log file")
     evaluation_parser.add_argument("--warm-up",
-                                 help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
-                                 required=False, type=str)
+                                   help="File with line-wise separated sentences for warming up ELMo, such that it's initial hidden states are tuned.",
+                                   required=False, type=str)
+
 
 def get_oracle_parser(parents=None):
     if parents is None:

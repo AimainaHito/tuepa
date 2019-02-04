@@ -30,7 +30,7 @@ class Node:
                 self.category = None
         # Whether a label has been set yet (necessary because None is a valid label too):
         self.labeled = self.orig_node is not None and self.orig_node.attrib.get(LABEL_ATTRIB) is None
-        self.node_index = int(self.node_id.split(core.Node.ID_SEPARATOR)[1]) if orig_node else None
+        self.node_index = int(self.node_id[1]) if orig_node else None
         self.outgoing = []  # Edge list
         self.incoming = []  # Edge list
         self.children = []  # Node list: the children of all edges in outgoing
@@ -238,7 +238,7 @@ class Node:
                ((", " + self.node_id) if self.node_id else "") + ")"
 
     def __str__(self):
-        s = '"%s"' % self.text if self.text else self.node_id or str(self.index)
+        s = '"%s"' % self.text if self.text else str(self.node_id) or str(self.index)
         if self.label:
             s += "/" + self.label
         return s

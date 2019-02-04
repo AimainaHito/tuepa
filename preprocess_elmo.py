@@ -11,8 +11,8 @@ from tuepa.data.elmo import preprocess_dataset, specific_elmo
 
 
 def preprocess(args):
-    if not os.path.exists(args.save_dir):
-        os.makedirs(args.save_dir)
+    if not os.path.exists(args.meta_dir):
+        os.makedirs(args.meta_dir)
 
     print("Processing passages...", file=sys.stderr)
 
@@ -39,6 +39,7 @@ def preprocess(args):
         edge_numberer=edge_numberer,
         train=True
     )
+
     print("finished processing training data..", )
     args.num_labels = label_numberer.max
     args.num_edges = edge_numberer.max
@@ -48,20 +49,20 @@ def preprocess(args):
 
     print("...starting to write training features", )
     training_shapes, (max_in,max_out,max_act,max_height) = specific_elmo(training_data, elmo_embedder, args, train=True)
-    
-    silver_data = preprocess_dataset(
-        args.silver_path,
-        args,
-        shapes=training_shapes,
-        label_numberer=label_numberer,
-        pos_numberer=pos_numberer,
-        dep_numberer=dep_numberer,
-        ner_numberer=ner_numberer,
-        edge_numberer=edge_numberer,
-        train=False
-    )
+    if args.silver_path:
+        silver_data = preprocess_dataset(
+            args.silver_path,
+            args,
+            shapes=training_shapes,
+            label_numberer=label_numberer,
+            pos_numberer=pos_numberer,
+            dep_numberer=dep_numberer,
+            ner_numberer=ner_numberer,
+            edge_numberer=edge_numberer,
+            train=False
+        )
 
-    silver_shapes, silver_max_n = specific_elmo(silver_data, elmo_embedder, args, silver=True, train=False)
+        silver_shapes, (max_in,max_out,max_act,max_height) = specific_elmo(silver_data, elmo_embedder, args, silver=True, train=False)
 
     print("finished writing training data..", )
     args.num_num = (max_in,max_out,max_act,max_height)
@@ -92,17 +93,17 @@ def preprocess(args):
         args.ner_list = ner_numberer.num2value
         args.shapes = training_shapes
 
-        save_args(args, args.save_dir)
+        save_args(args, args.meta_dir)
         # Save arguments and dictionaries
-        with open(os.path.join(args.save_dir, LABELS_FILENAME), "w", encoding="utf-8") as file:
+        with open(os.path.join(args.meta_dir, LABELS_FILENAME), "w", encoding="utf-8") as file:
             label_numberer.to_file(file)
-        with open(os.path.join(args.save_dir, DEP_FILENAME), "w", encoding="utf-8") as file:
+        with open(os.path.join(args.meta_dir, DEP_FILENAME), "w", encoding="utf-8") as file:
             dep_numberer.to_file(file)
-        with open(os.path.join(args.save_dir, EDGE_FILENAME), "w", encoding="utf-8") as file:
+        with open(os.path.join(args.meta_dir, EDGE_FILENAME), "w", encoding="utf-8") as file:
             edge_numberer.to_file(file)
-        with open(os.path.join(args.save_dir, POS_FILENAME), "w", encoding="utf-8") as file:
+        with open(os.path.join(args.meta_dir, POS_FILENAME), "w", encoding="utf-8") as file:
             pos_numberer.to_file(file)
-        with open(os.path.join(args.save_dir, NER_FILENAME), "w", encoding="utf-8") as file:
+        with open(os.path.join(args.meta_dir, NER_FILENAME), "w", encoding="utf-8") as file:
             ner_numberer.to_file(file)
     except Exception as e:
         import IPython

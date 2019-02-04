@@ -16,14 +16,12 @@ from ucca.evaluation import LABELED, UNLABELED, EVAL_TYPES, evaluate as evaluate
 from ucca.normalization import normalize
 from ucca.layer0 import Terminal
 from elmoformanylangs import Embedder
-# from tuepa import finalfrontier
+from tuepa import finalfrontier
 from .states.state import State
 from .action import Action
 import tuepa.data.preprocessing as preprocessing
 import tuepa.data.elmo.elmo_processing as preprocess_elmo
 from tuepa.data.elmo.elmo_processing import squash_singleton_terminals
-
-# model = finalfrontier.Model("/data/embeddings/en-1bil-wiki-ff-skip-300-ctx10.bin", True)
 
 #TODO: temporary fix for squashed terminals in ucca.normalization.normalize
 @property
@@ -79,7 +77,7 @@ class PassageParser(AbstractParser):
 
         self.passage = self.out = passage
         if self.args.model_type != "feedforward":
-            self.sentence_tokens = [str(n) for n in passage.layer("0").words]
+            self.sentence_tokens = [str(n) for n in passage.layer(0).words]
 
         self.format = self.passage.extra.get("format")
 
@@ -409,7 +407,8 @@ class BatchParser(AbstractParser):
         if args.warm_up:
             with open(args.warm_up) as f:
                 self.elmo.sents2elmo(map(lambda x: x.split(), filter(lambda x: len(x) < 100, f.readlines())))
-
+        if args.features.word.finalfrontier:
+            self.ff = finalfrontier.Model(args.features.word.finalfrontier, True)
         self.num_passages = 0
         self.passage_index = 0
         self.parser_batch = []
@@ -453,9 +452,10 @@ class BatchParser(AbstractParser):
             for offset in range(batch_difference):
                 current_passage = self.passages[self.passage_index + offset]
                 current_passage.elmo = self.elmo.sents2elmo(
-                    [[str(n) for n in current_passage.layer("0").all]],-1)
-                # ff_sent = [np.array(model.embedding(t.text)) for t in current_passage.layer("0").all]
-                # current_passage.elmo = [np.concatenate((current_passage.elmo[0], ff_sent), axis=-1)]
+                    [[str(n) for n in current_passage.layer(0).all]],-1)
+                if self.args.features.word.finalfrontier:
+                    ff_sent = [np.array(self.ff.embedding(t.text)) for t in current_passage.layer(0).all]
+                    current_passage.elmo = [np.concatenate((current_passage.elmo[0], ff_sent), axis=-1)]
                 torch.cuda.empty_cache()
 
                 parser = PassageParser(

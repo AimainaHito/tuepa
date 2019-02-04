@@ -28,6 +28,8 @@ def squash_singleton_terminals(passage):
         node.destroy()
 
 
+null_features = [0, 0, 0, 0, 0, [], [], 0, 0, []]
+
 def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numberer, ner_numberer, edge_numberer,
                           train=True):
     stack_features = []
@@ -35,8 +37,8 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
     stack = state.stack
     buffer = state.buffer
 
-    def null_features():
-        return [0, 0, 0, 0, 0, [], [], 0, 0, []]
+
+
 
     def extract_feature(node):
         if node.text is not None:
@@ -87,7 +89,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
             def try_or_function(test_fn, fn, elsefn, node):
                 try:
                     test_fn(node)
-                    return fn()
+                    return fn
                 except:
                     return elsefn(node)
             test_fn = lambda x: x != 0
@@ -99,7 +101,7 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                 right_parent = try_or_value(0, node.parents, -1)
                 right_parent = try_or_function(test_fn, null_features, extract_feature, right_parent)
             else:
-                right_parent = null_features()
+                right_parent = null_features
 
             stack_features.append(right_parent)
 
@@ -111,20 +113,20 @@ def extract_elmo_features(args, state, label_numberer, dep_numberer, pos_numbere
                 right_child = try_or_value(0, node.children, -1)
                 right_child = try_or_function(test_fn, null_features, extract_feature, right_child)
             else:
-                right_child = null_features()
+                right_child = null_features
             stack_features.append(right_child)
 
         except IndexError:
-            stack_features.append(null_features())
-            stack_features.append(null_features())
-            stack_features.append(null_features())
-            stack_features.append(null_features())
-            stack_features.append(null_features())
+            stack_features.append(null_features)
+            stack_features.append(null_features)
+            stack_features.append(null_features)
+            stack_features.append(null_features)
+            stack_features.append(null_features)
     for n in range(args.buffer_elements):
         try:
             buffer_features.append(extract_feature(buffer[n]))
         except IndexError:
-            buffer_features.append(null_features())
+            buffer_features.append(null_features)
 
     history_features = [label_numberer.number(str(action), train=train) for action in
                         state.actions[-min(len(state.actions), 10):]]
@@ -161,11 +163,13 @@ def preprocess_dataset(path,
     state2passage_id = []
     passage_id = 0
     passage_names = []
-    for passage in read_passages([path]):
+
+    for passage in read_passages(path):
+
         if args.squash_singleton_terminals:
             squash_singleton_terminals(passage)
 
-        sentence = [str(n) for n in passage.layer("0").all]
+        sentence = [str(n) for n in passage.layer(0).all]
         if len(sentence) > 100:
             continue
         passage_names.append(passage.ID)
@@ -198,7 +202,7 @@ def preprocess_dataset(path,
                                max(map(lambda x: len(x[-1]), buffer_features))),max_children)
             history_lengths.append(len(state_history))
 
-            label = label_numberer.number(str(action), train=shapes is None)
+            label = label_numberer.number(str(action), train=train)
             passage_actions.append(label)
             state.transition(action)
             action.apply()
@@ -217,7 +221,8 @@ def preprocess_dataset(path,
         if max_features is not None and len(stack_and_buffer_features) >= max_features:
             break
         passage_id += 1
-
+        if passage_id % 500 == 0:
+            print("Read {} passages!".format(passage_id))
     return stack_and_buffer_features, Shapes(max_stack_size,
                                              max_buffer_size,
                                              max_children), history_features, history_lengths, state2passage_id, passage_id2sent, sentence_lengths, previous_action_counts, action_ratios, node_ratios, labels, passage_names
