@@ -66,15 +66,20 @@ def train(args):
         else:
             val_run_metadata = train_run_metadata = None
             val_options = train_options = None
+        patience = 0
+        best_acc = -1
+        lr = args.training.learning_rate
 
         for iteration in range(100000):
             start_time = default_timer()
             train_ep_loss = 0
             train_ep_acc = 0
+            lr = lr * 0.5 if patience > args.training.lr_patience else lr
+
             for tn in range(1, args.training.epoch_steps + 1):
                 features, labels = train_q.get()
                 feed_dict = dict(zip(train_inputs, features))
-                feed_dict[m.lr] = args.training.learning_rate
+                feed_dict[m.lr] = lr
                 feed_dict[m.labels] = labels
 
                 logits, loss, _, _, tm1, gs = sess.run(
@@ -127,6 +132,13 @@ def train(args):
             fw.add_summary(summary, gs)
             fw.flush()
 
+            if val_ep_accuracy < best_acc:
+                patience += 1
+            else:
+                patience = 0
+                best_acc = val_ep_accuracy
+                s = sv.save(sess, os.path.join(args.save_dir, "best_dir", save_name))
+                tf.logging.info("Saved new best model with {}% to {}".format(best_acc/n,s))
 
             save_name = "tuepa_{}.ckpt".format(gs)
             s = sv.save(sess, os.path.join(args.save_dir, "save_dir", save_name))
@@ -140,6 +152,9 @@ def train(args):
                 start_time,
                 args.log_file
             )
+            if patience > args.training.patience:
+                tf.logging.info("Ran out of patience after {} epochs".format(iteration))
+                break
 
 def dict2namespace(obj):
     if isinstance(obj, dict):

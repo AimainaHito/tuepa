@@ -2,7 +2,9 @@ profile = true
 
 [training]
     batch_size = 92
+    patience = 5
     learning_rate = 2.5e-5
+    lr_patience = 3
     epoch_steps = 1000
     input_dropout = 0.8
     layer_dropout = 0.8
