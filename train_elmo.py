@@ -132,6 +132,7 @@ def train(args):
             fw.add_summary(summary, gs)
             fw.flush()
 
+            save_name = "tuepa_{}.ckpt".format(gs)
             if val_ep_accuracy < best_acc:
                 patience += 1
             else:
@@ -140,7 +141,6 @@ def train(args):
                 s = sv.save(sess, os.path.join(args.save_dir, "best_dir", save_name))
                 tf.logging.info("Saved new best model with {}% to {}".format(best_acc/n,s))
 
-            save_name = "tuepa_{}.ckpt".format(gs)
             s = sv.save(sess, os.path.join(args.save_dir, "save_dir", save_name))
             tf.logging.info("Saved {}".format(s))
             progress.print_iteration_info(
