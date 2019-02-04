@@ -88,25 +88,35 @@ class ElModel(BaseModel):
         global_features = self.global_features(batch_size, conc)
 
         # extract embeddings for stack + buffer tokens
+        token_features = []
         form_features = self.extract_vectors_3d(first_d=batch_indices,
                                                 second_d=self.form_indices,
                                                 batch_size=batch_size,
                                                 n=feature_tokens, t=top_rnn_output, lengths=self.sentence_lengths + 2)
-        head_features = self.extract_vectors_3d(first_d=batch_indices,
-                                                second_d=self.head_indices,
-                                                batch_size=batch_size,
-                                                n=feature_tokens, t=top_rnn_output, lengths=self.sentence_lengths + 2)
-        child_features = self.extract_node_children(batch_size, self.child_indices, feature_tokens,
-                                                    top_rnn_output, child_ids=self.child_ids,
-                                                    segment_ids=self.batch_ind, lengths=self.sentence_lengths + 2,
-                                                    train=train)
+        token_features.append(form_features)
+
+        if self.args.features.token.head:
+            head_features = self.extract_vectors_3d(first_d=batch_indices,
+                                                    second_d=self.head_indices,
+                                                    batch_size=batch_size,
+                                                    n=feature_tokens, t=top_rnn_output,
+                                                    lengths=self.sentence_lengths + 2)
+            token_features.append(head_features)
+
+        if self.args.features.token.children:
+            child_features = self.extract_node_children(batch_size, self.child_indices, feature_tokens,
+                                                        top_rnn_output, child_ids=self.child_ids,
+                                                        segment_ids=self.batch_ind, lengths=self.sentence_lengths + 2,
+                                                        train=train)
+            token_features.append(child_features)
 
         # per token features
-        per_token_features = self.token_features(batch_size, conc, feature_tokens)
+        # any token features that is not head, children or forms?
+        not_covered = lambda x: x[0] != 'head' and x[0] != 'forms' and x[0] != 'children'
+        if any(map(lambda x: x[1], (filter(not_covered, vars(args.features.token).items())))):
+            token_features.append(self.token_features(batch_size, conc, feature_tokens))
 
-        features = tf.concat(
-            [form_features, head_features, child_features, per_token_features],
-            axis=-1)
+        features = tf.concat(token_features, axis=-1)
 
         feedforward_input = tf.reshape(features, [batch_size, features.shape[1] * features.shape[2]])
         feature_vec = tf.concat([global_features, feedforward_input], -1)

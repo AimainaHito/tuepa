@@ -23,11 +23,10 @@ profile = true
     finalfrontier = ''
 
 [features.token]
-    forms = true
     pos = false
     ner = false
     dep = false
-    head = false
+    head = true
     height = false
     out = false
     inc = false
