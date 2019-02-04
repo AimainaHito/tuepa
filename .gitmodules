@@ -1,0 +1,3 @@
+[submodule "ucca"]
+	path = ucca
+	url = git@github.com:cicl2018/ucca.git 

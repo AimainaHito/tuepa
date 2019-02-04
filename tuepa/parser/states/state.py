@@ -10,7 +10,7 @@ from ucca.layer1 import EdgeTags
 
 from .edge import Edge
 from .node import Node
-from action import Actions
+from tuepa.parser.action import Actions
 
 
 class InvalidActionError(AssertionError):
@@ -30,9 +30,13 @@ class State:
         self.log = []
         self.finished = False
         self.passage = passage
-        l0, l1 = [self.get_layer(passage, l) for l in (layer0, layer1)]
+        try:
+            l0, l1 = [self.get_layer(passage, l) for l in (layer0, layer1)]
+        except Exception as e:
+            l0 = self.get_layer(passage, layer0)
+            l1 = layer1.Layer1(root=passage)
         self.labeled = any(n.outgoing or n.attrib.get(LABEL_ATTRIB) for n in l1.all)
-        self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag)
+        self.terminals = [Node(i, orig_node=t, root=passage, text=t.text, paragraph=t.paragraph, tag=t.tag, extra=t.extra)
                           for i, t in enumerate(l0.all, start=1)]
         self.stack = []
         self.buffer = deque()
@@ -97,9 +101,9 @@ class State:
         def _check_possible_child(node, t):
             self.check(node is not self.root, message and "Root may not have parents", is_type=True)
             if self.args.constraints and t is not None:
-                self.check(not t or (node.text is None) != (t == EdgeTags.Terminal),
-                           message and "Edge tag must be %s iff child is terminal, but node %s has edge tag %s" %
-                           (EdgeTags.Terminal, node, t))
+                #self.check(not t or (node.text is None) != (t == EdgeTags.Terminal),
+                #           message and "Edge tag must be %s iff child is terminal, but node %s has edge tag %s" %
+                #           (EdgeTags.Terminal, node, t))
                 for rule in self.constraints.tag_rules:
                     violation = rule.violation(node, t, Direction.incoming, message=message)
                     self.check(violation is None, violation)
@@ -308,7 +312,7 @@ class State:
         self.heads.discard(edge.child)
         self.log.append("edge: %s" % edge)
         return edge
-    
+
     PARENT_CHILD = (
         ((Actions.LeftEdge, Actions.LeftRemote), (-1, -2)),
         ((Actions.RightEdge, Actions.RightRemote), (-2, -1)),
@@ -344,7 +348,7 @@ class State:
         :param verify: fail if this results in an improper passage
         :return: core.Passage created from self.nodes
         """
-        logging.log("Creating passage %s from state..." % self.passage.ID, level=2)
+        logging.log(logging.INFO, "Creating passage %s from state...", self.passage.ID)
         passage = core.Passage(self.passage.ID)
         passage_format = kwargs.get("format") or self.passage.extra.get("format")
         if passage_format:

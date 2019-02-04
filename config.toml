@@ -1,0 +1,40 @@
+profile = true
+
+[training]
+    batch_size = 92
+    patience = 5
+    learning_rate = 2.5e-5
+    lr_patience = 3
+    epoch_steps = 1000
+    input_dropout = 0.8
+    layer_dropout = 0.8
+    child_dropout = 0.8
+
+[model]
+    layers = '[{"neurons" : 384, "activation" : "relu", "updown" : 0}]'
+    history_embedding_size = 50
+    embedding_size = 32
+    child_processing_layers = '[{"neurons" : 256, "activation" : "relu", "updown" : 0}]'
+    child_aggregator = 'max'
+    numbers = 'embed'
+
+[features.word]
+    elmo = true
+    finalfrontier = ''
+
+[features.token]
+    pos = false
+    ner = false
+    dep = false
+    head = true
+    height = false
+    out = false
+    inc = false
+    children = true
+    is_root = true
+
+[features.glob]
+    history = true
+    action_counts = true
+    node_ratio = true
+    action_ratio = true

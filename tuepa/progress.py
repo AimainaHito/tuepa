@@ -53,10 +53,9 @@ def print_network_progress(
 
     if width is None:
         width = shutil.get_terminal_size()[0]
-
     data_tail = "| {}/{} | loss: {:.1f} ({:.1f}) accuracy: {:.1%} ({:.1%}) |".format(
         batch_index, num_batches, losses, cummulative_losses, accuracy, cummulative_accuracy
-    )
+        )
     data_front = "| {} |".format(action)
     data_filler = " " * (width - len(data_front) - len(data_tail))
     data = data_front + data_filler + data_tail
@@ -77,7 +76,7 @@ def print_iteration_info(iteration_index, train_losses, train_accuracy, validati
     print_function = print if file is None else lambda x: file.write(x + "\n")
 
     print_function(
-        "| Epoch {} | Training loss: {:.2f}, accuracy: {:.2%} | Validation loss: {:.2f}, accuracy: {:.2%} | Δt: {:.1f}s".format(
+        "| Epoch {} | Training loss: {:.3f}, accuracy: {:.3%} | Validation loss: {:.3f}, accuracy: {:.3%} | Δt: {:.1f}s".format(
             iteration_index,
             train_losses,
             train_accuracy,
