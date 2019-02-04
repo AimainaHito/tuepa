@@ -167,7 +167,7 @@ def evaluate(args):
 
     gpu_options = tf.GPUOptions(allow_growth=True)
     sess =  tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
-    paths = tf.train.get_checkpoint_state(os.path.join(args.save_dir, "save_dir")).all_model_checkpoint_paths
+    paths = tf.train.get_checkpoint_state(os.path.join(args.model_dir, "save_dir")).all_model_checkpoint_paths
     wrp = PredictionWrapper(args=args, queue=None, session=sess,path=paths)
 
     try:
