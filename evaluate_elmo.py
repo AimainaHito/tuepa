@@ -137,7 +137,7 @@ import toml
 def evaluate(args):
     model_args = load_args(args.meta_dir)
     # Merge model args with evaluation args
-    nt = dict2namespace(toml.load("config.toml"))
+    nt = dict2namespace(toml.load(args.config))
     args = Namespace(**{**vars(model_args), **vars(args), **vars(nt)})
     # restore numberers
     with open(os.path.join(args.meta_dir, tuepa.util.config.LABELS_FILENAME), "r", encoding="utf-8") as file:

@@ -141,6 +141,7 @@ def get_eval_parser(parser):
     evaluation_parser.add_argument("model_dir", help="Directory containing a trained neural network model")
     evaluation_parser.add_argument("eval_data", help="Glob to UCCA annotated dev/test data")
     evaluation_parser.add_argument("meta_dir", help="Directory where meta information such as vocabularies will be saved.")
+    evaluation_parser.add_argument("config", help="Path to config.toml.")
     evaluation_parser.add_argument("-t", "--test", action="store_true",
                                    help="No evaluation if true, will write to 'out_<lang>'")
     evaluation_parser.add_argument("--write-scores", action="store_true",
