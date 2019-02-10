@@ -47,7 +47,7 @@ def train(args):
         sess.run(tf.global_variables_initializer())
         sess.run(tf.local_variables_initializer())
 
-        sv = tf.train.Saver()
+        sv = tf.train.Saver(max_to_keep=6)
         cp = tf.train.latest_checkpoint(os.path.join(args.save_dir, "save_dir"))
         if cp:
             tf.logging.info("Restoring model from latest checkpoint: {}".format(cp))
@@ -137,8 +137,6 @@ def train(args):
             else:
                 patience = 0
                 best_acc = val_ep_accuracy
-                s = sv.save(sess, os.path.join(args.save_dir, "best_dir", save_name))
-                tf.logging.info("Saved new best model with {}% to {}".format(best_acc/n,s))
 
             save_name = "tuepa_{}.ckpt".format(gs)
             s = sv.save(sess, os.path.join(args.save_dir, "save_dir", save_name))

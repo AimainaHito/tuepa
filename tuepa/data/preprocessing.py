@@ -31,7 +31,7 @@ from tuepa.data.io import SingleFileLazyLoadedPassages
 
 def read_passages(files, language="en"):
     if not files[-3:] == "xml":
-        expanded = [f for pattern in files for f in sorted(glob(pattern)) or (pattern,)]
+        expanded = sorted(glob(files))
         passages = ioutil.read_files_and_dirs(expanded, sentences=False, paragraphs=False,
                                               converters=CONVERTERS, lang=language)
         from ucca import textutil

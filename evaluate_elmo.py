@@ -175,7 +175,8 @@ def evaluate(args):
             tf.logging.info("Start to parse test passages!")
             parser.parse(wrp,args,read_passages(args.eval_data))
         else:
-            res = list(parser.evaluate(wrp, args,read_passages(args.eval_data)))
+            p = read_passages(args.eval_data)
+            res = list(parser.evaluate(wrp, args,p))
     except Exception as e:
         raise
 
